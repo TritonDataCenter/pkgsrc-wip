@@ -13,11 +13,9 @@ COMMENT=		Library for reading files from TI calculators
 WRKSRC=			${WRKDIR}/${PKGNAME}
 
 LDFLAGS+=		-lintl
-USE_BUILDLINK3=		YES
 USE_LIBTOOL=		YES
 GNU_CONFIGURE=		YES
 CONFIGURE_ARGS+=	--disable-nls
 USE_GNU_TOOLS+=		make
 
-.include "../../devel/glib/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
