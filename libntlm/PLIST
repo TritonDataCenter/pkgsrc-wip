@@ -1,0 +1,8 @@
+@comment $NetBSD$
+include/ntlm.h
+lib/libntlm.a
+lib/libntlm.la
+lib/libntlm.so
+lib/libntlm.so.0
+lib/libntlm.so.0.1
+lib/pkgconfig/libntlm.pc
