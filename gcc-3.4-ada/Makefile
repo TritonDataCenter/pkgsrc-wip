@@ -125,5 +125,6 @@ post-install:
 BUILDLINK_DEPMETHOD.gcc-3.4.0=	build
 .include "../../wip/gcc-3.4/buildlink3.mk"
 .endif
+.include "../../converters/libiconv/buildlink3.mk"
 .include "../../mk/pthread.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
