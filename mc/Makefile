@@ -12,10 +12,10 @@ COMMENT=	User-friendly file manager and visual shell
 
 .include "../../mk/bsd.prefs.mk"
 
-USE_BUILDLINK3=
-GNU_CONFIGURE=
+USE_BUILDLINK3=		YES
+GNU_CONFIGURE=		YES
 USE_GNU_TOOLS+=		make
-USE_PKGLOCALEDIR=
+USE_PKGLOCALEDIR=	YES
 
 .if ${OPSYS} == "Linux"
 PLIST_SRC+=	${PKGDIR}/PLIST.cons.saver
@@ -58,7 +58,7 @@ CONFIGURE_ARGS+=	--with-subshell
 CONFIGURE_ARGS+=	--with-vfs
 PLIST_SRC+=		${PKGDIR}/PLIST.vfs
 .		elif ${__feature} == x11
-USE_X11BASE=
+USE_X11=		YES
 CONFIGURE_ARGS+=	--with-x
 .		endif
 
