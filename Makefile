@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.921 2004/01/29 07:40:21 marttikuparinen Exp $
+# $Id: Makefile,v 1.922 2004/01/29 23:17:20 poppnk Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -329,6 +329,7 @@ SUBDIR+=	liteamp
 SUBDIR+=	lletters
 SUBDIR+=	lmarbles
 SUBDIR+=	lsdvd
+SUBDIR+=	lua-expat
 SUBDIR+=	luacheia
 SUBDIR+=	luasocket
 SUBDIR+=	luaposix
