@@ -1,9 +1,9 @@
 # $NetBSD$
 #
 
-DISTNAME=	libmatchbox-1.2
+DISTNAME=	libmatchbox-1.4
 CATEGORIES=	devel
-MASTER_SITES=	http://matchbox.handhelds.org/sources/libmatchbox/1.2/
+MASTER_SITES=	ftp://ftp.handhelds.org/projects/matchbox/sources/libmatchbox/1.4/
 EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	tech-pkg@NetBSD.org
