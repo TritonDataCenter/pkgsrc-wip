@@ -21,6 +21,10 @@ USE_X11=		YES
 
 LIBTOOL_OVERRIDE=       ${WRKSRC}/libtool
 
+GCONF2_SCHEMAS=		totem-video-thumbnail.schemas
+GCONF2_SCHEMAS+=	totem.schemas
+
+.include "../../devel/GConf2/schemas.mk"
 .include "../../graphics/xine-lib/buildlink2.mk"
 .include "../../devel/libgnomeui/buildlink2.mk"
 .include "../../mk/bsd.pkg.mk"
