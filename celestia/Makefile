@@ -12,6 +12,7 @@ COMMENT=	Free real time space simulator in three dimensions
 USE_BUILDLINK2=	YES
 GNU_CONFIGURE=	YES
 USE_GMAKE=	YES
+USE_X11=	YES
 
 .include "../../x11/gtkglarea/buildlink2.mk"
 .include "../../x11/gtk/buildlink2.mk"
