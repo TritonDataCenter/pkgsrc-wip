@@ -28,7 +28,7 @@ NSD_USER?=		nsadmin
 NSD_GROUP?=		nsadmin
 
 PKG_GROUPS=		${NSD_GROUP}
-PKG_USERS=		${NSD_USER} ${NSD_GROUP}
+PKG_USERS=		${NSD_USER}:${NSD_GROUP}::Aolserver\\ User
 
 EGDIR=                  ${PREFIX}/share/examples/nsd
 CONF_FILES=		${EGDIR}/sample-config.tcl ${PKG_SYSCONFDIR}/nsd.tcl
