@@ -10,7 +10,7 @@ LIBETPAN_BUILDLINK2_MK=	# defined
 
 BUILDLINK_PACKAGES+=			libetpan
 BUILDLINK_DEPENDS.libetpan?=		libetpan>=0.32
-BUILDLINK_PKGSRCDIR.libetpan?=		../../foo/libetpan
+BUILDLINK_PKGSRCDIR.libetpan?=		../../wip/libetpan
 
 EVAL_PREFIX+=	BUILDLINK_PREFIX.libetpan=libetpan
 BUILDLINK_PREFIX.libetpan_DEFAULT=	${LOCALBASE}
