@@ -108,7 +108,6 @@ include/asm/math_emu.h
 include/asm/mc146818rtc.h
 include/asm/mca.h
 include/asm/mca_dma.h
-include/asm/memblk.h
 include/asm/mmx.h
 include/asm/mmzone.h
 include/asm/mpspec.h
@@ -128,7 +127,6 @@ include/asm/processor.h
 include/asm/ptrace.h
 include/asm/rwlock.h
 include/asm/rwsem.h
-include/asm/segment.h
 include/asm/serial.h
 include/asm/setup.h
 include/asm/sigcontext.h

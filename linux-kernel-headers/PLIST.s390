@@ -17,7 +17,6 @@ include/asm/ptrace.h
 include/asm/qdio.h
 include/asm/rwsem.h
 include/asm/s390_ext.h
-include/asm/segment.h
 include/asm/setup.h
 include/asm/sfp-machine.h
 include/asm/sigcontext.h

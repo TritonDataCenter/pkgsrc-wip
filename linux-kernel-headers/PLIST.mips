@@ -146,7 +146,6 @@ include/asm/r4kcache.h
 include/asm/reboot.h
 include/asm/regdef.h
 include/asm/riscos-syscall.h
-include/asm/segment.h
 include/asm/semaphore-helper.h
 include/asm/serial.h
 include/asm/sgi/gio.h

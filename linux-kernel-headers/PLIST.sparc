@@ -58,7 +58,6 @@ include/asm/reg.h
 include/asm/ross.h
 include/asm/sbi.h
 include/asm/sbus.h
-include/asm/segment.h
 include/asm/setup.h
 include/asm/sfp-machine.h
 include/asm/sigcontext.h

@@ -27,7 +27,6 @@ include/asm/proc-fns.h
 include/asm/processor.h
 include/asm/procinfo.h
 include/asm/ptrace.h
-include/asm/segment.h
 include/asm/semaphore-helper.h
 include/asm/serial.h
 include/asm/setup.h

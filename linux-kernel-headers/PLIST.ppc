@@ -57,6 +57,7 @@ include/asm/parport.h
 include/asm/pc_serial.h
 include/asm/pci-bridge.h
 include/asm/pmac_feature.h
+include/asm/pmac_low_i2c.h
 include/asm/pnp.h
 include/asm/ppc405_dma.h
 include/asm/ppc4xx_pic.h
@@ -72,7 +73,6 @@ include/asm/reg.h
 include/asm/reg_booke.h
 include/asm/residual.h
 include/asm/rwsem.h
-include/asm/segment.h
 include/asm/serial.h
 include/asm/setup.h
 include/asm/sigcontext.h

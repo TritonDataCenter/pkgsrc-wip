@@ -26,7 +26,6 @@ include/asm/processor.h
 include/asm/ptrace.h
 include/asm/regs267x.h
 include/asm/regs306x.h
-include/asm/segment.h
 include/asm/semaphore-helper.h
 include/asm/setup.h
 include/asm/sh_bios.h

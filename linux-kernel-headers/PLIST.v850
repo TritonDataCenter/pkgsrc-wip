@@ -22,7 +22,6 @@ include/asm/rte_ma1_cb.h
 include/asm/rte_mb_a_pci.h
 include/asm/rte_me2_cb.h
 include/asm/rte_nb85e_cb.h
-include/asm/segment.h
 include/asm/serial.h
 include/asm/sigcontext.h
 include/asm/sim.h

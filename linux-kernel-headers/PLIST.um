@@ -27,7 +27,6 @@ include/asm/ptrace-generic.h
 include/asm/ptrace-i386.h
 include/asm/rwlock.h
 include/asm/rwsem.h
-include/asm/segment.h
 include/asm/serial.h
 include/asm/sigcontext-generic.h
 include/asm/sigcontext-i386.h

@@ -34,7 +34,6 @@ include/asm/ipc.h
 include/asm/processor.h
 include/asm/ptrace.h
 include/asm/rs485.h
-include/asm/segment.h
 include/asm/semaphore-helper.h
 include/asm/setup.h
 include/asm/sigcontext.h

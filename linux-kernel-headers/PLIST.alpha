@@ -39,7 +39,6 @@ include/asm/ptrace.h
 include/asm/reg.h
 include/asm/regdef.h
 include/asm/rwsem.h
-include/asm/segment.h
 include/asm/serial.h
 include/asm/sfp-machine.h
 include/asm/sigcontext.h

@@ -70,7 +70,6 @@ include/asm/q40_master.h
 include/asm/q40ints.h
 include/asm/raw_io.h
 include/asm/sbus.h
-include/asm/segment.h
 include/asm/semaphore-helper.h
 include/asm/serial.h
 include/asm/setup.h

@@ -3,6 +3,9 @@ include/asm/asmregs.h
 include/asm/assembly.h
 include/asm/bootdata.h
 include/asm/compat.h
+include/asm/compat_rt_sigframe.h
+include/asm/compat_signal.h
+include/asm/compat_ucontext.h
 include/asm/eisa_bus.h
 include/asm/eisa_eeprom.h
 include/asm/fixmap.h
@@ -32,7 +35,6 @@ include/asm/ptrace.h
 include/asm/real.h
 include/asm/rt_sigframe.h
 include/asm/runway.h
-include/asm/segment.h
 include/asm/semaphore-helper.h
 include/asm/serial.h
 include/asm/setup.h

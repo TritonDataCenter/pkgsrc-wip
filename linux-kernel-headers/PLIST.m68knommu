@@ -56,7 +56,6 @@ include/asm/page_offset.h
 include/asm/processor.h
 include/asm/ptrace.h
 include/asm/quicc_simple.h
-include/asm/segment.h
 include/asm/semaphore-helper.h
 include/asm/semp3.h
 include/asm/setup.h
