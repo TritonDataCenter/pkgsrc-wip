@@ -60,7 +60,7 @@ pre-configure:
 		-e "s|@NET_NAME@|${DANCER_IRCD_NETWORK_NAME}|g" \
 		-e "s|@NET_DESCR@|${DANCER_IRCD_NETWORK_DESCR}|g" \
 		-e "s|@NET_RNAME@|${DANCER_IRCD_REALNAME}|g" \
-                < ${WRKSRC}/include/config.h.dist.in > \
+		< ${WRKSRC}/include/config.h.dist.in > \
 		${WRKSRC}/include/config.h.dist
 
 do-install:
