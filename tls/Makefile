@@ -1,14 +1,16 @@
 # $NetBSD: $
 #
 
-DISTNAME=	tls1.4
-PKGNAME=	${DISTNAME:S/tls/tls-/}
-CATEGORIES=	security
-MASTER_SITES=	ftp://tcl.activestate.com/pub/tcl/tls/
+DISTNAME=		tls1.5.0-src
+PKGNAME=		tls-1.5.0
+CATEGORIES=		security
+MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=tls/}
 
-MAINTAINER=	tech-pkg@NetBSD.org
-HOMEPAGE=	http://www.tcl.tk/
-COMMENT=	TLS (aka SSL) Channel for the TCL language
+MAINTAINER=		peter@pointless.nl
+HOMEPAGE=		http://www.tcl.tk/
+COMMENT=		TLS (aka SSL) Channel for the Tcl language
+
+WRKSRC=			${WRKDIR}/tls1.5
 
 USE_BUILDLINK3=		yes
 GNU_CONFIGURE=		yes
