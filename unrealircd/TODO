@@ -5,3 +5,9 @@ Test SSL connections
 Test IPv6 connections
 Extra options in rc.d script
 Better inform user of setup in MESSAGE
+
+Put all mirrors in Makefile
+Add GNU make depend ?
+
+bl3ify
+update to latest version
