@@ -16,7 +16,7 @@ COMMENT=		Script to make and update Linux /dev device nodes
 
 ONLY_FOR_PLATFORM=	Linux-*-* # This is for the Linux kernel devices
 
-VERSION=		2.3.1-63
+VERSION=		2.3.1-66
 
 NO_CONFIGURE=		YES
 NO_BUILD=		YES
