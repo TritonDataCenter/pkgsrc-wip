@@ -13,7 +13,7 @@ PKG_INSTALLATION_TYPES=	overwrite pkgviews
 
 USE_BUILDLINK3=		yes
 GNU_CONFIGURE=		yes
-USE_GNU_TOOLS+=		lex yacc
+USE_GNU_TOOLS+=		lex yacc m4
 USE_LIBTOOL=		yes
 
 .include "../../mk/bsd.prefs.mk"
