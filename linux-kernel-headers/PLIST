@@ -3444,6 +3444,7 @@ include/linux/user.h
 include/linux/utime.h
 include/linux/uts.h
 include/linux/utsname.h
+include/linux/version.h
 include/linux/vfs.h
 include/linux/video_decoder.h
 include/linux/video_encoder.h
