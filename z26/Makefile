@@ -10,7 +10,7 @@ MAINTAINER=		xmor61@users.sourceforge.net
 HOMEPAGE=		http://www.whimsey.com/z26/
 COMMENT=		Atari 2600 Emulator
 
-BUILD_DEPENDS+=		nasm-*:../../devel/nasm
+BUILD_DEPENDS+=		nasm-[0-9]*:../../devel/nasm
 
 ONLY_FOR_PLATFORM+=	*-i386
 
