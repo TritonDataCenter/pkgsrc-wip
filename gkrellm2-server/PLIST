@@ -2,3 +2,5 @@
 bin/gkrellmd
 etc/rc.d/gkrellmd
 man/man1/gkrellmd.1
+share/examples/gkrellm-server/gkrellmd.conf
+@dirrm share/examples/gkrellm-server

@@ -1,22 +1,22 @@
 # $NetBSD$
-
-PKGNAME=	gkrellm-2.1.8a
 .include "Makefile.common"
+
+GKRELLM_PKGBASE=	gkrellm
 
 COMMENT=	GTK2 based system monitor
 
-DEPENDS+=		gkrellm-share-2.1.8a:../../wip/gkrellm2-share
+DEPENDS+=		gkrellm-share-${GKRELLM_VERSION}:../../wip/gkrellm2-share
 
 USE_BUILDLINK2=		YES
 USE_X11=		YES
 PTHREAD_OPTS=		require
 
+OSVERSION_SPECIFIC=	YES
+
 ALL_TARGET=		netbsd
 INSTALL_TARGET=		install_netbsd
 
 MAKE_ENV+=		LINK_FLAGS=${EXPORT_SYMBOLS_LDFLAGS}
-
-WRKSRC=			${WRKDIR}/gkrellm-2.1.8
 
 pre-build:
 	${SED} -e s,@@PREFIX@@,${PREFIX}, <${WRKSRC}/src/gkrellm.h >${WRKSRC}/src/gkrellm.h.sed

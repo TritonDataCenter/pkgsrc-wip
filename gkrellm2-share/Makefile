@@ -1,14 +1,13 @@
 # $NetBSD$
-
-PKGNAME=	gkrellm-share-2.1.8a
 .include "../../wip/gkrellm2/Makefile.common"
 
-COMMENT=	gkrellm2 shared files
+GKRELLM_PKGBASE=	gkrellm-share
+WRKSRC=			${WRKDIR}/gkrellm-${GKRELLM_VERSION}/po
+
+COMMENT=	gkrellm2 locale files
 CONFLICTS=	gkrellm-1*
 
 BUILD_USES_MSGFMT=	YES
-
-WRKSRC=			${WRKDIR}/gkrellm-2.1.8/po
 
 post-install:
 	${INSTALL_DATA_DIR} ${PREFIX}/share/gkrellm2
