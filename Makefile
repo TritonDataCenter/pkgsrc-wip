@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.1651 2005/02/14 06:43:42 oht Exp $
+# $Id: Makefile,v 1.1652 2005/02/14 11:46:35 socrtp Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -431,6 +431,7 @@ SUBDIR+=	libwbxml2-patched
 SUBDIR+=	libwhisker2
 SUBDIR+=	libwpd
 SUBDIR+=	libxml++
+SUBDIR+=	lighttpd
 SUBDIR+=	lilo
 SUBDIR+=	lincvs
 SUBDIR+=	lingoteach-lesson
@@ -629,6 +630,7 @@ SUBDIR+=	php-doc-ru
 SUBDIR+=	php-doc-sk
 SUBDIR+=	php-doc-sl
 SUBDIR+=	php-doc-sv
+SUBDIR+=	php-fcgi
 SUBDIR+=	php-mode
 SUBDIR+=	picasm
 SUBDIR+=	picprog
