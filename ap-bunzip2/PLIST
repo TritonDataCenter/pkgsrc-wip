@@ -1,0 +1,4 @@
+@comment $NetBSD$
+lib/httpd/mod_${PKGVERSION}.so
+share/doc/${PKGNAME}/README
+@dirrm share/doc/${PKGNAME}
