@@ -10,7 +10,7 @@ MASTER_SITES=		http://www.eskimo.com/~weidai/ \
 EXTRACT_SUFX=           .zip
 
 MAINTAINER=		tech-pkg@NetBSD.org
-HOMEPAGE=		http://www.eskimo.com/~weidai/cryptlib.html
+HOMEPAGE=		http://www.cryptopp.com/
 COMMENT=		Free C++ class library of Cryptographic Primitives
 
 USE_GNU_TOOLS+=		make
