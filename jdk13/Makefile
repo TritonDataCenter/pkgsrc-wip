@@ -54,7 +54,9 @@ MESSAGE_SRC=	${WRKDIR}/LegalReadme.txt
 NO_MTREE=	YES # since we change PREFIX below
 OWN_DIRS=	${PREFIX} ${PREFIX}/jre ${PREFIX}/jre/lib \
 		${PREFIX}/jre/lib/images ${PREFIX}/jre/lib/images/cursors \
-		${PREFIX}/jre/lib/security
+		${PREFIX}/jre/lib/security \
+		${PREFIX}/jre/lib/applet ${PREFIX}/jre/lib/ext \
+		${PREFIX}/jre/plugin
 PLIST_SRC=	# added to below
 
 .include "../../mk/bsd.prefs.mk"
