@@ -7,7 +7,7 @@ CATEGORIES=		biology
 MASTER_SITES=		#empty
 DISTFILES=		#empty
 
-MAINTAINER=		hdp@cs.nmsu.edu
+MAINTAINER=		dprice@cs.nmsu.edu
 HOMEPAGE=		http://www.emboss.org/
 COMMENT=	 	European Molecular Biology Open Software Suite
 
