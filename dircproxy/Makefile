@@ -2,7 +2,7 @@
 
 DISTNAME=	dircproxy-1.1.0
 CATEGORIES=	chat
-MASTER_SITES=  	http://www.dircproxy.net/download/1.1/ 
+MASTER_SITES=  	http://www.dircproxy.net/download/1.1/
 
 MAINTAINER=     sb125499@ohiou.edu
 HOMEPAGE=	http://www.dircproxy.net/
