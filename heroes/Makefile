@@ -23,7 +23,7 @@ HEROES_DIRS=		heroes-0.21 heroes-data-1.5 \
        			heroes-sound-effects-1.0 \
 			heroes-sound-tracks-1.0
 
-CONFIGURE_ARGS+=	--with-sdl-mixer
+CONFIGURE_ARGS+=	--with-sdl-mixer --enable-sound
 
 do-configure:
 	@for dir in ${HEROES_DIRS}; do \
