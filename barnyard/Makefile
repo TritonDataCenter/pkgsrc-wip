@@ -1,7 +1,7 @@
 # $NetBSD$
 
 DISTNAME=	barnyard-0.1.0
-CATEGORIES=	net www
+CATEGORIES=	net
 MASTER_SITES=	http://www.snort.org/dl/barnyard/
 
 MAINTAINER=	adrianp@stindustries.net
