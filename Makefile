@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.286 2003/07/01 00:00:24 jeremy-c-reed Exp $
+# $Id: Makefile,v 1.287 2003/07/01 08:22:47 blef Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -251,6 +251,7 @@ SUBDIR+=	tuxtype2
 SUBDIR+=	typhoon
 SUBDIR+=	umbrello
 SUBDIR+=	umix
+SUBDIR+=	vba
 SUBDIR+=	vcdgear
 SUBDIR+=	vixie-cron
 SUBDIR+=	vmac
