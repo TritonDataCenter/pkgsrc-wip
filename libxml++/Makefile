@@ -2,6 +2,7 @@
 #
 
 DISTNAME=		libxml++-0.27.0
+PKGREVISION=		1
 CATEGORIES=		textproc devel
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=libxmlplusplus/}
 EXTRACT_SUFX=		.tar.bz2
