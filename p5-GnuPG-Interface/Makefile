@@ -11,7 +11,7 @@ MAINTAINER=		tv@duh.org
 HOMEPAGE=		http://gnupg-interface.sourceforge.net/
 COMMENT=		Perl interface to GnuPG
 
-DEPENDS+=		p5-Class-MethodMaker>=1.00:../../wip/p5-Class-MethodMaker
+DEPENDS+=		p5-Class-MethodMaker>=1.00:../../devel/p5-Class-MethodMaker
 DEPENDS+=		gnupg>=1.2.3:../../security/gnupg
 
 USE_BUILDLINK3=		yes
