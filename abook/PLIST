@@ -1,0 +1,4 @@
+@comment $NetBSD$
+bin/abook
+man/man1/abook.1
+man/man5/abookrc.5
