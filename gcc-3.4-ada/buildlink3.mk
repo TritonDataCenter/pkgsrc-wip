@@ -19,7 +19,6 @@ BUILDLINK_PKGSRCDIR.gccAda?=    ../../wip/gcc-3.4-ada
 BUILDLINK_PKGSRCDIR.gccAda?=     ../../wip/gcc-3.4-ada
 BUILDLINK_CONTENTS_FILTER.gccAda= \
 	${EGREP} '(libexec.*|bin.*/|include.*/|\.h$$|\.pc$$|lib.*/lib[^/]*$$)'
-BUILDLINK_ENV+=$PATH:=${BUILDLINK_PREFIX.gccAda-3.4.0}:${PATH}
 
 # Packages that link against shared libraries need a full dependency.
 .  if defined(USE_GCC_SHLIB)
