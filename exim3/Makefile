@@ -41,7 +41,7 @@ _LOOKUP_LIBS+=		${LDFLAGS}
 
 .if defined(EXIM_DB.mysql) && ${EXIM_DB.mysql} == "YES"
 _EXIM_DB+=		mysql
-_LOOKUP_INCLUDE+=	-I${BUILDLINK_PREFIX.mysql-client}/include
+_LOOKUP_INCLUDE+=	-I${BUILDLINK_PREFIX.mysql-client}/include/mysql
 _LOOKUP_LIBS+=		${BUILDLINK_LDFLAGS.mysql-client} -lmysqlclient
 .  include "../../databases/mysql-client/buildlink2.mk"
 .endif
