@@ -1,0 +1,13 @@
+$NetBSD$
+
+--- console/Makefile.in.orig	2002-04-13 09:18:04.000000000 +0200
++++ console/Makefile.in
+@@ -5,7 +5,7 @@ bindir = /usr/local/bin
+ SHELL = /bin/sh
+ CC = @CC@
+ 
+-LDFLAGS = @THREADLIBS@ -lm
++LDFLAGS = @LDFLAGS@ @THREADLIBS@ -lm
+ INCPATHS = -I ../mpglib -I ../lib
+ CFLAGS = @CFLAGS@
+ DEFS = -D_REENTRANT -DUSE_LAYER3 -DHAVE_MPGLIB -DNOANALYSIS -D__DEBUG
