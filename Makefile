@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.922 2004/01/29 23:17:20 poppnk Exp $
+# $Id: Makefile,v 1.923 2004/02/02 02:20:37 dawszy Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -364,6 +364,7 @@ SUBDIR+=	mopac
 SUBDIR+=	mpgedit
 SUBDIR+=	mplusfonts
 SUBDIR+=	mtf
+SUBDIR+=	mtrack
 SUBDIR+=	muse
 SUBDIR+=	mutella
 SUBDIR+=	mutt-devel
