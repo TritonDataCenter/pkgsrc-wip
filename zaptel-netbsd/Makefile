@@ -6,9 +6,9 @@ CATEGORIES=		wip
 MASTER_SITES=		http://www.tastylime.net/netbsd/zaptel/
 EXTRACT_SUFX=		.tar.bz2
 
-MAINTAINER=		riz@NetBSD.org
-HOMEPAGE=		http://www.tastylime.net/netbsd/zaptel/
-COMMENT=		zaptel drivers for the Asterisk Software PBX
+MAINTAINER=	riz@NetBSD.org
+HOMEPAGE=	http://www.tastylime.net/netbsd/zaptel/
+COMMENT=	The "zaptel" drivers and utils for the Asterisk Software PBX
 
 ONLY_FOR_PLATFORM=	NetBSD-[2-9]*-*
 INSTALLATION_DIRS=	lkm
