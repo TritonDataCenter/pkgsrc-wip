@@ -1,0 +1,5 @@
+@comment $NetBSD$
+bin/xfce4-iconbox
+lib/xfce4/mcs-plugins/xfce4-iconbox_settings.a
+lib/xfce4/mcs-plugins/xfce4-iconbox_settings.la
+lib/xfce4/mcs-plugins/xfce4-iconbox_settings.so
