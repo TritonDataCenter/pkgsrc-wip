@@ -28,11 +28,11 @@ do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/arka ${PREFIX}/bin
 	${INSTALL_MAN} ${WRKSRC}/arka.1 ${PREFIX}/man/man1
 .for f in arka_16x16.xpm arka_32x32.xpm
-	${INSTALL_DATA} ${WRKSRC}/icons/$f ${PREFIX}/share/pixmaps
+	${INSTALL_DATA} ${WRKSRC}/icons/${f} ${PREFIX}/share/pixmaps
 .endfor
 	${INSTALL_DATA_DIR} ${PREFIX}/share/doc/arka
 .for f in CHANGES.TXT INSTALL.TXT LICENSE.TXT README.TXT TODO.TXT
-	${INSTALL_DATA} ${WRKSRC}/$f ${PREFIX}/share/doc/arka
+	${INSTALL_DATA} ${WRKSRC}/${f} ${PREFIX}/share/doc/arka
 .endfor
 	${INSTALL_DATA_DIR} ${PREFIX}/share/examples/arka
 	${INSTALL_DATA} ${WRKSRC}/arkarc ${PREFIX}/share/examples/arka
