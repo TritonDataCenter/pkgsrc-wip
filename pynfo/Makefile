@@ -11,7 +11,7 @@ MAINTAINER=		dotz@irc.pl
 HOMEPAGE=		http://pynfo.sourceforge.net/
 COMMENT=		Nice, configureable info bot in Python
 
-DEPENDS+=		${PYPKGPREFIX}-Twisted>=1.1.1rc1:../../net/py-twisted
+DEPENDS+=		${PYPKGPREFIX}-twisted>=1.1.1rc1:../../net/py-twisted
 
 USE_BUILDLINK3=		yes
 PY_PATCHPLIST=		yes
