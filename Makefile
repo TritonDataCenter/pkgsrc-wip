@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.1366 2004/07/07 17:33:53 xtraeme Exp $
+# $Id: Makefile,v 1.1367 2004/07/07 18:06:46 xtraeme Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -79,7 +79,6 @@ SUBDIR+=	cjk-latex
 SUBDIR+=	cjk-latex-chinese
 SUBDIR+=	cjk-latex-japanese
 SUBDIR+=	cjk-latex-korean
-SUBDIR+=	cmatrix
 SUBDIR+=	com_err
 SUBDIR+=	compare
 SUBDIR+=	compositeext
