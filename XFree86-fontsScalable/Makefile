@@ -16,7 +16,16 @@ DEPENDS+=	XFree86-fontsEncodings>=4.3.0:../../wip/XFree86-fontsEncodings
 USE_BUILDLINK2=		YES
 NO_XFREE86_TARGETS=	# defined
 
+FILESDIR=	${PKGDIR}/../XFree86-fontsEncodings/files
+
 do-configure:
+	@${SED} \
+		-e "s|@PREFIX@|${X11PREFIX}|g" \
+		-e "s|@MAKE@|${MAKE_PROGRAM}|g" \
+		-e "s|@IMAKE@|${IMAKE}|g" \
+		${FILESDIR}/host.def > ${WRKSRC}/host.def
+	@${LN} -sf ${WRKSRC}/host.def ${WRKDIR}/xc/fonts/encodings
+	@${LN} -sf ${WRKSRC}/host.def ${WRKDIR}/xc/fonts/encodings/large
 	(cd ${WRKSRC}/encodings && \
 	${IMAKE} -DUseInstalled -I${PREFIX}/lib/X11/config \
 		-DTOPDIR=../.. -DCURDIR=.; \

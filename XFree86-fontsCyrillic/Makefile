@@ -19,9 +19,13 @@ NO_XFREE86_TARGETS=	# defined
 FILESDIR=	${PKGDIR}/../XFree86-fontsEncodings/files
 
 post-extract:
-	@${LN} -sf ${FILESDIR}/host.def ${WRKSRC}
-	@${LN} -sf ${FILESDIR}/host.def ${WRKDIR}/xc/fonts/encodings
-	@${LN} -sf ${FILESDIR}/host.def ${WRKDIR}/xc/fonts/encodings/large
+	@${SED} \
+		-e "s|@PREFIX@|${X11PREFIX}|g" \
+		-e "s|@MAKE@|${MAKE_PROGRAM}|g" \
+		-e "s|@IMAKE@|${IMAKE}|g" \
+		${FILESDIR}/host.def > ${WRKSRC}/host.def
+	@${LN} -sf ${WRKSRC}/host.def ${WRKDIR}/xc/fonts/encodings
+	@${LN} -sf ${WRKSRC}/host.def ${WRKDIR}/xc/fonts/encodings/large
 
 do-configure:
 	(cd ${WRKDIR}/xc/fonts/encodings && \
