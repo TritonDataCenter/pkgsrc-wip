@@ -16,6 +16,15 @@ USE_BUILDLINK3=	yes
 USE_GNU_TOOLS+=	make
 HAS_CONFIGURE=	yes
 
+.include "../../mk/bsd.prefs.mk"
+
+.if ${OPSYS} != "Linux"
+SUBST_CLASSES=ldl
+SUBST_FILES.ldl=Makefile
+SUBST_STAGE.ldl=post-patch
+SUBST_SED.ldl=-e 's,LIBS=,\#LIBS,'
+.endif
+
 CONFIGURE_ARGS+=	--prefix=${PREFIX}
 
 .include "../../mk/bsd.pkg.mk"
