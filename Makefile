@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.520 2003/10/05 13:22:31 cubidou Exp $
+# $Id: Makefile,v 1.521 2003/10/05 17:51:13 adrian_p Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -362,6 +362,7 @@ SUBDIR+=	sarg
 SUBDIR+=	scm
 SUBDIR+=	scons
 SUBDIR+=	scponly
+SUBDIR+=	sgmltools-lite
 SUBDIR+=	shoutcast
 SUBDIR+=	slocate
 SUBDIR+=	slrn-pl
