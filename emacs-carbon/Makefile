@@ -26,17 +26,17 @@ CONFIGURE_ARGS+=	--srcdir=${WRKSRC}
 
 MAKE_ENV+=	"MAKEINFO=${LOCALBASE}/bin/makeinfo"
 
-.include "../../graphics/xpm/buildlink2.mk"
+.include "../../graphics/xpm/buildlink3.mk"
 CONFIGURE_ARGS+=	--with-xpm
-.include "../../graphics/jpeg/buildlink2.mk"
+.include "../../graphics/jpeg/buildlink3.mk"
 CONFIGURE_ARGS+=	--with-jpeg
-.include "../../graphics/tiff/buildlink2.mk"
+.include "../../graphics/tiff/buildlink3.mk"
 CONFIGURE_ARGS+=	--with-tiff
 # need 4.1.0b1 or higher (a bug in 4.1.0 can crash Emacs)
 BUILDLINK_DEPENDS.libungif=	libungif>=4.1.0.1
-.include "../../graphics/libungif/buildlink2.mk"
+.include "../../graphics/libungif/buildlink3.mk"
 CONFIGURE_ARGS+=	--with-gif
-.include "../../graphics/png/buildlink2.mk"
+.include "../../graphics/png/buildlink3.mk"
 CONFIGURE_ARGS+=	--with-png
 
 .include "../../mk/bsd.prefs.mk"
