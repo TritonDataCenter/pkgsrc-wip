@@ -7,7 +7,7 @@ $NetBSD$
  GTK_LIBS = `pkg-config gtk+-2.0 --libs`
  
 -X11_LIB = -L/usr/X11R6/lib -lX11 -lXtst
-+X11_LIB = -L$(BUILDLINK_X11_DIR)/lib -lX11 -lXtst
++X11_LIB = -L$(X11BASE)/lib $(RPATH_FLAG)$(X11BASE)/lib -lX11 -lXtst
  
  WIN32_LIBS = -luser32 -lkernel32 -lwinspool -lcomdlg32 -ladvapi32 -lshell32 -lole32 -loleaut32 -luuid -lodbc32 -lodbccp32 -lws2_32 $(GTK_LIBS)
  UNIX_LIBS = $(X11_LIB) $(GTK_LIBS)
