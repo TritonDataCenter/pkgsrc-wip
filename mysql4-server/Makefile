@@ -57,6 +57,8 @@ post-install:
 .if defined(PTHREAD_TYPE) && (${PTHREAD_TYPE} == "pth")
 CFLAGS+=	-DSIGNALS_DONT_BREAK_READ
 CXXFLAGS+=	-DSIGNALS_DONT_BREAK_READ
+CONFIGURE_ENV+=	ac_cv_func_pthread_setschedparam=no
+CONFIGURE_ENV+=	ac_cv_func_pthread_attr_setschedparam=no
 .endif
 
 .include "../../mk/bsd.pkg.mk"
