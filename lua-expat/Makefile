@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		luaexpat-1.0a
-PKGNAME=		lua-expat
+PKGNAME=		${DISTNAME:S/lua/lua-/}
 CATEGORIES=		wip
 MASTER_SITES=		http://www.keplerproject.org/luaexpat/
 
