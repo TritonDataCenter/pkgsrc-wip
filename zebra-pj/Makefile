@@ -31,9 +31,9 @@ CONFIGURE_ARGS+=	--localstatedir=/var/run
 PLIST_SRC=		# empty (built from optional pieces below)
 
 .if defined(USE_ZEBRA_VTYSH) && ${USE_ZEBRA_VTYSH} == "YES"
-USE_BUILDLINK2=		# defined
+USE_BUILDLINK3=		yes
 USE_GNU_READLINE=	# uses rl_pending_input
-.  include "../../devel/readline/buildlink2.mk"
+.  include "../../devel/readline/buildlink3.mk"
 CONFIGURE_ARGS+=	--enable-vtysh
 PLIST_SRC+=		${PKGDIR}/PLIST.vtysh
 .else
