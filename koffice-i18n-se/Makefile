@@ -1,8 +1,8 @@
 # $NetBSD$
 
-DISTNAME=		koffice-i18n-se-1.3.3
+DISTNAME=		koffice-i18n-se-1.3.4
 CATEGORIES=		x11 kde
-MASTER_SITES=	ftp://ftp.kde.org/pub/kde/stable/koffice-1.3.3/src/
+MASTER_SITES=	ftp://ftp.kde.org/pub/kde/stable/koffice-1.3.4/src/
 EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=		ianzag@mail.ru
