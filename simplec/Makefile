@@ -3,7 +3,7 @@
 
 DISTNAME=		simplec
 PKGNAME=		simplec-0.1.1
-CATEGORIES=		wip
+CATEGORIES=		lang
 MASTER_SITES=		http://retro.tunes.org/simplec/
 
 MAINTAINER=		pancake@phreaker.net
