@@ -1,0 +1,7 @@
+@comment $NetBSD$
+lib/gtk-2.0/2.2.0/engines/liblighthouseblue.so
+lib/gtk-2.0/2.2.0/engines/liblighthouseblue.la
+lib/gtk-2.0/2.2.0/engines/liblighthouseblue.a
+share/themes/lighthouseblue/gtk-2.0/gtkrc
+@dirrm share/themes/LighthouseBlue/gtk-2.0
+@dirrm share/themes/Bluecurve
