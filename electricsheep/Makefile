@@ -9,13 +9,11 @@ HOMEPAGE=		http://electricsheep.org/
 COMMENT=		Distributed fractal flame screensaver
 
 DEPENDS+=		xli-[0-9]*:../../graphics/xli
+DEPENDS+=		curl>=7.12.1:../../www/curl
 
 USE_BUILDLINK3=		YES
-USE_PKGINSTALL=		YES
 USE_X11BASE=		YES
 GNU_CONFIGURE=		YES
-
-.include "../../mk/bsd.prefs.mk"
 
 do-install:
 	@${INSTALL_PROGRAM} ${WRKSRC}/electricsheep ${PREFIX}/bin
