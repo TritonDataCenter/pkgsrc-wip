@@ -3,7 +3,7 @@
 
 DISTNAME=	dancer-ircd-1.0.31+maint8
 PKGNAME=	${DISTNAME:S/+maint/m/}
-CATEGORIES=	FILLTHISINPLEASE
+CATEGORIES=	chat
 MASTER_SITES=	http://www.doc.ic.ac.uk/~aps100/dancer/dancer-ircd/stable/releases/
 
 MAINTAINER=	jrp@hispabsd.org
