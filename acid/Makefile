@@ -10,7 +10,7 @@ MAINTAINER=	adrianp@stindustries.net
 HOMEPAGE= 	http://www.andrew.cmu.edu/~rdanyliw/snort/snortacid.html
 COMMENT=	Database class library for PHP4
 
-DEPENDS+=       php>=4.0.4:../../www/php4
+DEPENDS+=       ap-php>=4.0.4:../../www/ap-php4
 DEPENDS+=	apache>=1.3:../../www/apache
 DEPENDS+=	adodb>=1.2:../../wip/adodb
 DEPENDS+=	php-jpgraph>=1.8:../../wip/php-jpgraph
@@ -21,7 +21,7 @@ USE_BUILDLINK2=	YES
 
 .include "../../mk/bsd.prefs.mk"
 
-# This package will default to using mySQL.  If you want to use
+# This package will default to using MySQL.  If you want to use
 # postgresql set USE_PGSQL=YES in /etc/mk.conf or pass it to
 # make. ie. make install USE_PGSQL=YES
 #
