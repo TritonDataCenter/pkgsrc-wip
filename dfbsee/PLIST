@@ -1,0 +1,5 @@
+@comment $NetBSD$
+bin/dfbsee
+man/man1/dfbsee.1
+share/DFBSee/decker.ttf
+@dirrm share/DFBSee
