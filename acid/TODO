@@ -9,6 +9,9 @@ This requires a few packages which are not in the main pkgsrc tree but are in
 pkgsrc/wip.  Specifically adodb and jpgraph will be pulled in when you install
 this package.
 
+You can also specify postgresql or mysql database support. See package
+Makefile for details.
+
 Tested on NetBSD 1.6 i386.
 
 Ta,
