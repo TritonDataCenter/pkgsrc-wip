@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.232 2003/06/10 10:40:19 airhead Exp $
+# $Id: Makefile,v 1.233 2003/06/10 13:46:21 airhead Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -39,6 +39,7 @@ SUBDIR+=	ed
 SUBDIR+=	emirror
 SUBDIR+=	ezbounce
 SUBDIR+=	elvis
+SUBDIR+=	elvis-x11
 SUBDIR+=	fluxconf
 SUBDIR+=	frontpage
 SUBDIR+=	fuse
