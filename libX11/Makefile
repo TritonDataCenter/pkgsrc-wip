@@ -3,11 +3,11 @@
 
 DISTNAME=		libX11-6.2.1
 CATEGORIES=		x11 devel
-MASTER_SITES=		http://freedesktop.org/~xlibs/dist/
+MASTER_SITES=		http://freedesktop.org/~xlibs/release/
 EXTRACT_SUFX=		.tar.bz2
 
 MAINTAINER=		reed@reedmedia.net
-HOMEPAGE=		http://www.freedesktop.org/Software/X11
+HOMEPAGE=		http://xlibs.freedesktop.org/Software/X11
 COMMENT=		Base X libraries from freedesktop.org
 
 CONFLICTS+=		XFree86-libs-[0-9]*
