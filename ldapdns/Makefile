@@ -14,7 +14,7 @@ USE_PKGINSTALL=	YES
 USE_GNU_TOOLS+=	make
 ALL_TARGET=	it
 GNU_CONFIGURE=	YES
-USE_BUILDLINK2=	YES
+USE_BUILDLINK3=	YES
 RCD_SCRIPTS=	ldapdns
 
 do-install:
@@ -25,5 +25,5 @@ do-install:
 	${INSTALL_DATA}    ${WRKSRC}/INSTALL       ${PREFIX}/share/doc/ldapdns/
 	${INSTALL_DATA}    ${WRKSRC}/README*	   ${PREFIX}/share/doc/ldapdns/
 
-.include "../../devel/pth/buildlink2.mk"
+.include "../../mk/pthread.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

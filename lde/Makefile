@@ -10,7 +10,7 @@ MAINTAINER=	pancake@phreaker.net
 HOMEPAGE=	http://lde.sourceforge.net
 COMMENT=	Curses based file system viewer/editor for Linux
 
-USE_BUILDLINK2=	YES
+USE_BUILDLINK3=	YES
 USE_NCURSES=	YES # missing function termname
 GNU_CONFIGURE=	YES
 USE_GNU_TOOLS+=	make
@@ -23,5 +23,5 @@ CONFIGURE_ARGS+=--with-ncurses=${PREFIX} \
 LIBS=		-lcompat
 .endif
 
-.include "../../devel/ncurses/buildlink2.mk"
+.include "../../devel/ncurses/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
