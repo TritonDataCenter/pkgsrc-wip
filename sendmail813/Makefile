@@ -5,7 +5,7 @@
 PKGNAME=	sendmail-${DIST_VERS}
 COMMENT=	The well known Mail Transport Agent
 
-CONFLICTS+=	postfix-[0-9]*
+CONFLICTS+=	postfix-[0-9]* fastforward-[0-9]*
 
 MESSAGE_SRC=	${WRKDIR}/.MESSAGE_SRC
 PLIST_SRC=	${WRKDIR}/.PLIST_SRC
