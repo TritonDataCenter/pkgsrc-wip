@@ -1,9 +1,9 @@
 # $NetBSD$
 #
 
-DISTNAME=		kadu-0.3.6
+DISTNAME=		kadu-0.3.7
 CATEGORIES=		chat
-MASTER_SITES=		http://kadu.net/releases/
+MASTER_SITES=		http://kadu.net/download/stable/
 EXTRACT_SUFX=		.tar.bz2
 
 MAINTAINER=		dotz@irc.pl
