@@ -229,6 +229,7 @@ share/msf/msfpayload
 share/msf/msfpayload.cgi
 share/msf/msfpescan
 share/msf/msfweb
+share/msf/msfupdate
 @dirrm share/msf/encoders
 @dirrm share/msf/exploits
 @dirrm share/msf/lib/Msf/PayloadComponent

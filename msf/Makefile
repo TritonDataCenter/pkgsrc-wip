@@ -20,7 +20,7 @@ MESSAGE_SUBST+= MSFDIR=${MSFDIR}
 PERL5_REQD=	5.6.0
 USE_PERL5=	YES
 PERL_FILES=	msfcli msfconsole msfdldebug msfencode msflogdump msfpayload \
-		msfpayload.cgi msfpescan msfweb
+		msfpayload.cgi msfpescan msfweb msfupdate
 REPLACE_PERL+=	${PERL_FILES} tools/socketNinja.pl sdk/formatGen.pl \
 		sdk/patternOffset.pl sdk/spitCode.pl
 
