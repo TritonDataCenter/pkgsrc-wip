@@ -11,7 +11,7 @@ COMMENT=        Apache module for using macros in config files
 
 CONFLICTS=	ap-macro-[0-9]*
 
-USE_BUILDLINK2=         yes
+USE_BUILDLINK3=         yes
 NO_CONFIGURE=		yes
 
 APACHE_MODULE_NAME=     ${DISTNAME:C|-.*||}.so
@@ -35,5 +35,5 @@ do-build:
 do-install:
 	cd ${WRKSRC} && ${APXS} -i -n ${APACHE_MODULE_NAME} ${APACHE_MODULE_LA}
 
-.include "../../www/apache2/buildlink2.mk"
+.include "../../www/apache2/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
