@@ -10,7 +10,7 @@ HOMEPAGE=	http://cjk.ffii.org/
 COMMENT=	The CJK package for LaTeX
 
 DEPENDS+=	teTeX-bin>=1.0.7nb1:../../print/teTeX-bin
-DEPENDS+=	freetype-lib-1.3.1:../../graphics/freetype-lib
+DEPENDS+=	freetype-lib>=1.3.1:../../graphics/freetype-lib
 
 TEXMFMAIN=	${PREFIX}/share/texmf
 TTFDIR=		${TEXMFMAIN}/fonts/truetype

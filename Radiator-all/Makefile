@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	Radiator-All-3.6
+DISTNAME=	Radiator-all-3.6
 CATEGORIES=	meta-pkgs net wip
 MASTER_SITES=	# empty
 DISTFILES=	# empty
@@ -10,7 +10,7 @@ MAINTAINER=	cjep@netbsd.org
 HOMEPAGE=	# irrelevant
 COMMENT=	provides some useful modules for Radiator
 
-DEPENDS+=	p5-Digest-MD4:../../security/p5-Digest-MD4
+DEPENDS+=	p5-Digest-MD4>=1.1:../../security/p5-Digest-MD4
 DEPENDS+=	p5-perl-ldap>=0.22:../../databases/p5-perl-ldap
 DEPENDS+=	p5-Net-SSLeay>=0.22:../../security/p5-Net-SSLeay
 DEPENDS+=	p5-Digest-HMAC>=1.01:../../security/p5-Digest-HMAC
