@@ -11,7 +11,9 @@ COMMENT=	Delayed creation of objects
 
 DEPENDS+=	p5-Scalar-List-Utils-[0-9]*:../../devel/p5-Scalar-List-Utils
 
-USE_BUILDLINK2=	YES
+PKG_INSTALLATION_TYPES=	overwrite pkgviews
+
+USE_BUILDLINK3=	YES
 PERL5_PACKLIST=	${PERL5_SITEARCH}/auto/Object/Realize/Later/.packlist
 
 .include "../../lang/perl5/module.mk"
