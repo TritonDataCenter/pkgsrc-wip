@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.275 2003/06/27 03:26:29 poppnk Exp $
+# $Id: Makefile,v 1.276 2003/06/27 11:17:01 drue Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -114,6 +114,7 @@ SUBDIR+=	jpgraph
 SUBDIR+=	kapital
 SUBDIR+=	kgpg
 SUBDIR+=	korelib
+SUBDIR+=	lbdb
 SUBDIR+=	ldapdns
 SUBDIR+=	lde
 SUBDIR+=	libdialog
