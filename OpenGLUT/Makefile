@@ -1,8 +1,8 @@
 # $NetBSD$
 #
 
-DISTNAME=	openglut-0.6.2
-PKGNAME=	OpenGLUT-0.6.2
+DISTNAME=	openglut-0.6.3
+PKGNAME=	OpenGLUT-0.6.3
 CATEGORIES=	graphics
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=openglut/}
 EXTRACT_SUFX=	.tar.bz2
