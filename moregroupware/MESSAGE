@@ -21,5 +21,6 @@ ${PKG_SYSCONFDIR}/php.ini:
 	- extension=ldap.so
 	- extension=pcre.so
 	- extension=session.so
+	- extension=curl.so
 
 ===========================================================================
