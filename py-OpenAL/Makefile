@@ -10,10 +10,10 @@ MAINTAINER=		dotz@irc.pl
 HOMEPAGE=		http://oomadness.tuxfamily.org/en/pyopenal/index.html
 COMMENT=		Python bindings for audio/openal; see openal package for details
 
-USE_BUILDLINK2=		yes
+USE_BUILDLINK3=		yes
 PY_PATCHPLIST=		yes
 PYDISTUTILSPKG=		yes
 
-.include "../../audio/openal/buildlink2.mk"
+.include "../../audio/openal/buildlink3.mk"
 .include "../../lang/python/extension.mk"
 .include "../../mk/bsd.pkg.mk"
