@@ -10,10 +10,10 @@ HOMEPAGE=		http://primates.ximian.com/~dave/mist/
 COMMENT=		Flat engine for GTK+ 2.x
 
 GNU_CONFIGURE=		YES
-USE_BUILDLINK2=		YES
+USE_BUILDLINK3=		YES
 
 USE_LIBTOOL=		YES
 GNU_CONFIGURE=		YES
 
-.include "../../x11/gtk2/buildlink2.mk"
+.include "../../x11/gtk2/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
