@@ -5,6 +5,20 @@ Add the similar to following to /etc/services:
   drwebd	3000/tcp	# DrWeb daemon
 
 Add the similar to following to crontab(5) file:
-  0 2 * * *	${PREFIX}/sbin/drweb-update
+  * */2 * * *	${PREFIX}/sbin/drweb-update
+
+
+	*** IMPORTANT ***
+
+If you are doing upgrade from DrWeb version prior to 4.30, it is
+HIGHLY RECOMMENDED to pass trough the following steps:
+
+    1) deinstall any installed DrWeb package using pkg_delete(1);
+    2) remove at least the following things:
+
+	contents of the "${DRW_BASESDIR}" directory,
+	"${PKG_SYSCONFDIR}/drweb32.ini" file;
+
+    3) install ${PKGNAME} package back.
 
 ===========================================================================

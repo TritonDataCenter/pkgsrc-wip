@@ -14,7 +14,7 @@ command="@PREFIX@/sbin/${name}-bin"
 procname="${command}"
 drw_inifile="@PKG_SYSCONFDIR@/drweb32.ini"
 required_files="${drw_inifile}"
-command_args="-ini:${drw_inifile}"
+command_args="-ini=${drw_inifile}"
 
 extra_commands="reload"
 
