@@ -21,7 +21,5 @@ post-install:
 	${PYTHONBIN} -O ${PREFIX}/${PYLIB}/compileall.py \
 		${PREFIX}/${PYSITELIB}/twisted
 
-.include "../../lang/python/application.mk"
 .include "../../lang/python/extension.mk"
-.include "../../mk/pthread.buildlink2.mk"
 .include "../../mk/bsd.pkg.mk"
