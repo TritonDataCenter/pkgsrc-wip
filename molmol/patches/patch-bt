@@ -1,0 +1,13 @@
+$NetBSD$
+
+--- src/data/DataCalc.c.orig	Sun May 27 22:18:10 2001
++++ src/data/DataCalc.c
+@@ -28,7 +28,7 @@
+ 
+ #include <stdio.h>
+ #include <stdlib.h>
+-#include <values.h>
++//#include <values.h>
+ #include <math.h>
+ 
+ #include <mat_vec.h>

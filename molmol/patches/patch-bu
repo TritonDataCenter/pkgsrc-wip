@@ -1,0 +1,13 @@
+$NetBSD$
+
+--- src/data/DataHand.c.orig	Sun May 27 21:07:42 2001
++++ src/data/DataHand.c
+@@ -27,7 +27,7 @@
+ 
+ #include <stdio.h>
+ #include <stdlib.h>
+-#include <values.h>
++//#include <values.h>
+ #include <math.h>
+ 
+ #include <prop_tab.h>

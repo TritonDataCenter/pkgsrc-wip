@@ -1,0 +1,13 @@
+$NetBSD$
+
+--- Makefile.orig	Mon Jan 20 21:10:18 2003
++++ Makefile
+@@ -1,7 +1,7 @@
+ SRCDIRS  = tools sg src
+ SUBDIRS  = $(SRCDIRS) lib
+ TARGETS  = default depend
+-
++all: default
+ default:
+ 
+ $(TARGETS):

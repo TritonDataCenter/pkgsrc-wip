@@ -1,0 +1,9 @@
+@comment $NetBSD$
+bin/clustalx
+bin/clustalx_help
+bin/coldna.par
+bin/colprint.par
+bin/colprot.par
+share/doc/clustalx/README_X
+share/doc/clustalx/clustalx.html
+@dirrm share/doc/clustalx

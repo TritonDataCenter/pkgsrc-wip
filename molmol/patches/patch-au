@@ -1,0 +1,13 @@
+$NetBSD$
+
+--- sg/src/rib/RIBShape.c.orig	Mon May 28 00:59:10 2001
++++ sg/src/rib/RIBShape.c
+@@ -26,7 +26,7 @@
+ #include "rib_shape.h"
+ 
+ #include <math.h>
+-#include <values.h>
++//#include <values.h>
+ 
+ #include <mat_vec.h>
+ #include <sg_map.h>

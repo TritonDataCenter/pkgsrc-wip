@@ -1,0 +1,13 @@
+$NetBSD$
+
+--- src/prim/PrimDraw.c.orig	Sun May 27 20:41:49 2001
++++ src/prim/PrimDraw.c
+@@ -27,7 +27,7 @@
+ 
+ #include <stdio.h>
+ #include <stdlib.h>
+-#include <values.h>
++//#include <values.h>
+ #include <math.h>
+ 
+ #include <princip_axis.h>

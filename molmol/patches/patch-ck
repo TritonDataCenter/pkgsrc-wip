@@ -1,0 +1,13 @@
+$NetBSD$
+
+--- src/prim/SolidCalc.c.orig	Sun May 27 20:31:07 2001
++++ src/prim/SolidCalc.c
+@@ -27,7 +27,7 @@
+ 
+ #include <stdio.h>
+ #include <stdlib.h>
+-#include <values.h>
++//#include <values.h>
+ #include <math.h>
+ 
+ #include <break.h>

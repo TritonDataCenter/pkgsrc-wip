@@ -1,0 +1,13 @@
+$NetBSD$
+
+--- sg/src/sgdev/SgPick.c.orig	Mon May 28 02:33:27 2001
++++ sg/src/sgdev/SgPick.c
+@@ -27,7 +27,7 @@
+ #include <sg_pick.h>
+ 
+ #include <stdio.h>
+-#include <values.h>
++//#include <values.h>
+ #include <math.h>
+ 
+ #include <sg.h>

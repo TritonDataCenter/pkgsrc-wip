@@ -1,0 +1,13 @@
+$NetBSD$
+
+--- tools/src/MatVec.c.orig	Sun May 27 20:18:15 2001
++++ tools/src/MatVec.c
+@@ -24,7 +24,7 @@
+ */
+ #include <mat_vec.h>
+ 
+-#include <values.h>
++//#include <values.h>
+ #include <math.h>
+ 
+ void

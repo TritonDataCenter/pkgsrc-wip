@@ -1,0 +1,13 @@
+$NetBSD$
+
+--- src/expr/ExprEval.c.orig	Sat Oct 16 17:59:47 1999
++++ src/expr/ExprEval.c
+@@ -27,7 +27,7 @@
+ 
+ #include <stdio.h>
+ #include <stdlib.h>
+-#include <values.h>
++//#include <values.h>
+ #include <string.h>
+ #include <math.h>
+ 

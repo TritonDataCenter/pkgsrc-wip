@@ -1,0 +1,10 @@
+$NetBSD$
+
+--- tools/include/values.h.orig	Thu Sep  4 14:35:51 2003
++++ tools/include/values.h
+@@ -0,0 +1,5 @@
++#include <machine/float.h>
++#include <machine/limits.h>
++
++#define MAXFLOAT FLT_MAX
++#define MAXINT   INT_MAX
