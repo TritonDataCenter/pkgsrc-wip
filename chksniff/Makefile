@@ -6,7 +6,7 @@ CATEGORIES=	security net
 MASTER_SITES=	http://virtus.ath.cx/chksniff/
 
 MAINTAINER=	virtus@wanadoo.nl
-HOMEPAGE=	http://virtus.ath.cx/chksniff
+HOMEPAGE=	http://virtus.ath.cx/chksniff/
 COMMENT=	Small tool to check for promiscuous interfaces
 
 USE_BUILDLINK2=	YES
