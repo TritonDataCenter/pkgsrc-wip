@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	generateDS-1.4a
+DISTNAME=	generateDS-1.4b
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	textproc
 MASTER_SITES=	http://www.rexx.com/~dkuhlman/
@@ -26,6 +26,6 @@ post-install:
 
 .include "../../lang/python/extension.mk"
 .include "../../lang/python/application.mk"
-.include "../../textproc/pyxml/buildlink2.mk"
+#.include "../../textproc/pyxml/buildlink2.mk"
 
 .include "../../mk/bsd.pkg.mk"
