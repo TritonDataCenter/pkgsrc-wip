@@ -5,7 +5,7 @@ DISTNAME=	newsx-1.6
 CATEGORIES=	news
 MASTER_SITES=	ftp://ftp.kvaleberg.com/pub/
 
-MAINTAINER=	cube@cubidou.net
+MAINTAINER=	cube@NetBSD.org
 HOMEPAGE=	http://www.kvaleberg.com/newsx.html
 COMMENT=	NNTP news exchange program
 
