@@ -1,8 +1,8 @@
 $NetBSD$
 
---- src/mouse/ms.c.orig	Fri Aug 25 04:39:39 2000
+--- src/mouse/ms.c.orig	Sun Aug 20 22:10:15 2000
 +++ src/mouse/ms.c
-@@ -116,7 +116,7 @@
+@@ -117,7 +117,7 @@ static void ms_setspeed(const int old, c
      tty.c_iflag = IGNBRK | IGNPAR;
      tty.c_oflag = 0;
      tty.c_lflag = 0;
@@ -11,7 +11,7 @@ $NetBSD$
      tty.c_cc[VTIME] = 0;
      tty.c_cc[VMIN]  = 1;
  
-@@ -509,7 +509,7 @@
+@@ -511,7 +511,7 @@ static int ms_init(void)
  	tty.c_iflag = IGNBRK | IGNPAR;
  	tty.c_oflag = 0;
  	tty.c_lflag = 0;
