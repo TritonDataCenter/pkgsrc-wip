@@ -1,10 +1,10 @@
 # $NetBSD$
 #
 
-DISTNAME=	dancer-ircd-1.0.31+maint8
-PKGNAME=	${DISTNAME:S/+maint/m/}
+DISTNAME=	dancer-ircd-1.0.31+maint8-fn6
+PKGNAME=	${DISTNAME:S/+maint8-fn6/m8/}
 CATEGORIES=	chat
-MASTER_SITES=	http://www.doc.ic.ac.uk/~aps100/dancer/dancer-ircd/stable/releases/
+MASTER_SITES=	http://freenode.net/
 
 MAINTAINER=	jrp@hispabsd.org
 HOMEPAGE=	http://freenode.net/dancer_ircd.shtml
