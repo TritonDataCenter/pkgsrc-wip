@@ -1,0 +1,4 @@
+@comment $NetBSD$
+bin/dvdbackup
+share/doc/dvdbackup/README
+@dirrm share/doc/dvdbackup
