@@ -1,0 +1,4 @@
+@comment $NetBSD$
+bin/darcnes-svgalib
+share/doc/darcnes-svgalib/readme
+@dirrm share/doc/darcnes-svgalib
