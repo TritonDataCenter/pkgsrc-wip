@@ -18,7 +18,7 @@ ONLY_FOR_PLATFORM=      NetBSD-*-i386
 USE_BUILDLINK3=		yes
 USE_GNU_TOOLS+=		make
 GNU_CONFIGURE=		yes
-ALL_TARGET=		eci-load1 eci-load2 pppoeci
+BUILD_TARGET=		eci-load1 eci-load2 pppoeci
 
 pre-build:
 			cd ${WRKSRC} && ${GMAKE} clean # archive's dirty

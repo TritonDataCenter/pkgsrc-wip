@@ -11,7 +11,7 @@ HOMEPAGE=	http://www.monkeymental.com/
 COMMENT=	Cisco Discovery Protocol Reporter
 
 USE_BUILDLINK3=         yes
-ALL_TARGET=		cdpr
+BUILD_TARGET=		cdpr
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/cdpr ${PREFIX}/bin

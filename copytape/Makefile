@@ -14,7 +14,7 @@ COMMENT=	Copytape duplicates magnetic tapes, with only one drive
 BUILD_DEPENDS+=	gsharutils>=4.2.1nb2:../../archivers/gsharutils
 
 WRKSRC=			${WRKDIR}
-ALL_TARGET=		copytape
+BUILD_TARGET=		copytape
 
 # MASTER_SITES=		${MASTER_SITE_COMP_SOURCES}
 # DISTNAME=		copytape

@@ -14,14 +14,14 @@ COMMENT=		Python bindings for Ming library
 USE_BUILDLINK3=		yes
 PY_PATCHPLIST=		yes
 
-ALL_TARGET=		mingcmodule.so
+BUILD_TARGET=		mingcmodule.so
 REALSRC=		${WRKSRC}/py_ext
 
 do-build:
 	cd ${REALSRC} && ${MAKE} PYINC=${PREFIX}/${PYINC} \
 		PYLIB=${PREFIX}/${PYLIB} PYSITELIB=${PREFIX}/${PYSITELIB} \
 		PREFIX=${PREFIX} COMPILER_RPATH_FLAG=${COMPILER_RPATH_FLAG} \
-		${ALL_TARGET}
+		${BUILD_TARGET}
 
 do-install:
 	cd ${REALSRC} && ${MAKE} PYINC=${PREFIX}/${PYINC} \

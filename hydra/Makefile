@@ -13,7 +13,7 @@ COMMENT=	Login password cracker
 
 GNU_CONFIGURE=	YES
 USE_BUILDLINK3=	YES
-ALL_TARGET=	all ssl
+BUILD_TARGET=	all ssl
 
 CONFIGURE_ARGS+=	--prefix=${PREFIX}
 

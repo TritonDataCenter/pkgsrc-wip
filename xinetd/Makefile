@@ -14,7 +14,7 @@ USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 USE_PKGINSTALL=		yes
 USE_GNU_TOOLS+=		make
-ALL_TARGET=		build
+BUILD_TARGET=		build
 CONFIGURE_ARGS+=	--with-loadavg
 
 .include "../../mk/bsd.prefs.mk"

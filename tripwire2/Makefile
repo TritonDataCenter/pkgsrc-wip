@@ -11,7 +11,7 @@ COMMENT=	File and directory integrity checker
 
 WRKSRC=		${WRKDIR}/${DISTNAME}/src/
 CONFLICTS+=	tripwire-1*
-ALL_TARGET=	release
+BUILD_TARGET=	release
 USE_GNU_TOOLS+=	make
 USE_BUILDLINK3=	yes
 ONLY_FOR_PLATFORM= Linux-*-* OpenBSD-*-* FreeBSD-*-*

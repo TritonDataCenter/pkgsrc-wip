@@ -11,7 +11,7 @@ COMMENT=	Gtk+ 2 port of Glk interface for text adventures
 
 USE_BUILDLINK3=	yes
 USE_GNU_TOOLS+=	make
-ALL_TARGET=	default
+BUILD_TARGET=	default
 
 post-install:
 	${INSTALL_DATA_DIR} ${PREFIX}/include/gtkglk

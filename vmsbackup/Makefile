@@ -12,7 +12,7 @@ HOMEPAGE=	http://garbo.uwasa.fi/pub/unix/vmsbackup/
 COMMENT=	Utility to read VMS backup tapes
 
 USE_BUILDLINK3=	YES
-ALL_TARGET=	vmsbackup
+BUILD_TARGET=	vmsbackup
 MAKE_FLAGS+=	PREFIX=${PREFIX}
 
 .include "../../mk/endian.mk"

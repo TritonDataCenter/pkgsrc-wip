@@ -18,7 +18,7 @@ HOMEPAGE=	http://server.ccl.net/cca/software/LINUX/mopac7/index.shtml
 COMMENT=	Molecular energy calculation program
 
 WRKSRC=			${WRKDIR}/mopac7
-ALL_TARGET=		MOPAC7
+BUILD_TARGET=		MOPAC7
 USE_GNU_TOOLS+=		make
 USE_BUILDLINK3=		yes
 USE_FORTRAN=		yes

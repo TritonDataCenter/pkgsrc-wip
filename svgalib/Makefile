@@ -15,7 +15,7 @@ USE_BUILDLINK3=	yes
 CFLAGS+=	-g -DUSE_LIBC_VM86
 MANCOMPRESSED=	yes
 
-ALL_TARGET=	shared static
+BUILD_TARGET=	shared static
 
 #ONLY_FOR_ARCHS=	i386
 

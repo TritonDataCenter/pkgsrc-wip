@@ -11,7 +11,7 @@ HOMEPAGE=		http://www.tecgraf.puc-rio.br/~diego/luasocket/new/
 COMMENT=		Gives socket capabilities to lua50
 
 MAKEFILE=		${WRKSRC}/makefile
-ALL_TARGET=		dyn
+BUILD_TARGET=		dyn
 USE_GNU_TOOLS+=		make
 USE_BUILDLINK3=		YES
 

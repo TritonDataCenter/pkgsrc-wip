@@ -12,7 +12,7 @@ COMMENT=		Utility to make your AMD CPU cooler
 
 HAS_CONFIGURE=		yes
 ONLY_FOR_PLATFORM=	FreeBSD-*-i386
-ALL_TARGET=		# empty
+BUILD_TARGET=		# empty
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/fvcool ${PREFIX}/sbin/fvcool

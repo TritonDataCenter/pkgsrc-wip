@@ -15,7 +15,7 @@ WRKSRC=			${WRKDIR}/nestra
 USE_BUILDLINK3=		yes
 USE_X11=		yes
 
-ALL_TARGET=		nestra
+BUILD_TARGET=		nestra
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/nestra ${PREFIX}/bin

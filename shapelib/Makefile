@@ -14,7 +14,7 @@ USE_LIBTOOL=		YES
 
 NO_CONFIGURE=		YES
 
-ALL_TARGET=		lib
+BUILD_TARGET=		lib
 INSTALL_TARGET=		lib_install
 
 .include "../../mk/bsd.pkg.mk"

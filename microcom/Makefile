@@ -12,7 +12,7 @@ COMMENT=		Minicom-like serial terminal emulator with scripting
 
 WRKSRC=		${WRKDIR}/
 USE_BUILDLINK3=		yes
-ALL_TARGET=microcom
+BUILD_TARGET=microcom
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/microcom ${PREFIX}/bin/

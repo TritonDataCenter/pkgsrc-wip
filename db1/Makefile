@@ -11,7 +11,7 @@ HOMEPAGE=		http://www.sleepycat.com/
 COMMENT=		Berkeley DB 1.86
 
 BUILD_DIRS=		${WRKSRC}/PORT/linux
-ALL_TARGET=		libdb.a
+BUILD_TARGET=		libdb.a
 
 do-install:
 	${INSTALL_DATA} ${BUILD_DIRS}/libdb.a ${PREFIX}/lib

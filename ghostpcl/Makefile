@@ -14,7 +14,7 @@ COMMENT=		PCL-5 and PCL-XL interpreter
 USE_BUILDLINK3=		yes
 
 USE_GNU_TOOLS+=make
-ALL_TARGET=pcl6
+BUILD_TARGET=pcl6
 
 .if defined(GHOSTPCL_USE_X11)
 .  if ${GHOSTPCL_USE_X11} == "YES" || ${GHOSTPCL_USE_X11} == "yes"

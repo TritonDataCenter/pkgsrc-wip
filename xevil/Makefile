@@ -15,7 +15,7 @@ MAKEFILE=	makefile
 
 USE_BUILDLINK3=	yes
 USE_X11BASE=	yes
-ALL_TARGET=	pkgsrc
+BUILD_TARGET=	pkgsrc
 
 MAKE_ENV+=	HOSTTYPE="pkgsrc"
 

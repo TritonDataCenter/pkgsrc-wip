@@ -21,7 +21,7 @@ DEPENDS+=	slib>=2.4.4:../../devel/slib
 USE_BUILDLINK3=	# defined
 USE_GNU_TOOLS+=	make
 
-ALL_TARGET=	scmlit
+BUILD_TARGET=	scmlit
 
 SCM_DATA=	scm.info hobbit.info
 INFO_FILES=	${SCM_INFO}

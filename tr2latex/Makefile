@@ -25,7 +25,7 @@ DIST_SUBDIR=	${PKGNAME_NOREV}
 
 # todo: maybe patch Makefile.unix for CC and CFLAGS not overwritten
 MAKEFILE=	Makefile.unix
-ALL_TARGET=	tr2latex
+BUILD_TARGET=	tr2latex
 PKGMANDIR?=	man  # until in pkgsrc
 INSTALLATION_DIRS=	bin ${PKGMANDIR}/man1 share/texmf/tex/latex/misc
 

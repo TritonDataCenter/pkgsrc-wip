@@ -24,7 +24,7 @@ PTHREAD_OPTS+=          require
 MAKE_ENV+=              PWLIBDIR="${WRKSRC}"
 MAKE_ENV+=              CC="${CC}"
 MAKE_ENV+=              CPLUS="${CXX}"
-ALL_TARGET=             opt
+BUILD_TARGET=             opt
 
 FILES_SUBST+=           LIBTOOL="${LIBTOOL}"
 FILES_SUBST+=           PTHREADS_PREFIX="${BUILDLINK_PREFIX.pthread}"

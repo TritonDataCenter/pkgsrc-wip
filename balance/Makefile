@@ -11,7 +11,7 @@ COMMENT=		TCP loadbalancer with roundrobin and failover
 
 USE_BUILDLINK3=		yes
 
-ALL_TARGET=balance
+BUILD_TARGET=balance
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/balance ${PREFIX}/sbin/

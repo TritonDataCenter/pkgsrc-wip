@@ -16,7 +16,7 @@ GNU_CONFIGURE=		yes
 CONFIGURE_ARGS+=	--with-lispdir=${EMACS_LISPPREFIX}/gnus
 CONFIGURE_ARGS+=	--with-etcdir=${PREFIX}/share/gnus
 
-ALL_TARGET=		all-ja
+BUILD_TARGET=		all-ja
 INSTALL_TARGET=		install-ja
 
 USE_MAKEINFO=		YES

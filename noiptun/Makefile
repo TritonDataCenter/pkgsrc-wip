@@ -13,7 +13,7 @@ COMMENT=		Allows communication with computers that do not have an IP address
 USE_BUILDLINK3=		yes
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
-ALL_TARGET=		noiptun
+BUILD_TARGET=		noiptun
 
 .include "../../devel/libnet/buildlink3.mk"
 .include "../../net/libpcap/buildlink3.mk"

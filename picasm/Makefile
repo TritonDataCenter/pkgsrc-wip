@@ -12,7 +12,7 @@ HOMEPAGE=	http://www.iki.fi/hyvatti/pic/picasm105/
 COMMENT=	Assembler for Microchip PIC16Cxx microcontrollers
 
 MAKEFILE=	makefile.uni
-ALL_TARGET=	picasm
+BUILD_TARGET=	picasm
 
 USE_GNU_TOOLS+=	make
 USE_BUILDLINK3=	yes

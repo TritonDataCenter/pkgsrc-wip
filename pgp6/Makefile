@@ -19,7 +19,7 @@ USE_GNU_TOOLS+=		make
 
 buildDIRS=		libs/pfl libs/pgpcdk clients/pgp/shared clients/pgp/cmdline
 
-ALL_TARGET=		headers all
+BUILD_TARGET=		headers all
 CONFIGURE_DIRS=		${buildDIRS:C|^|${WRKSRC}/|}
 BUILD_DIRS=		${buildDIRS:C|^|${WRKSRC}/|}
 MAKE_FLAGS+=		DEBUG=0 LDAP_DEBUG=

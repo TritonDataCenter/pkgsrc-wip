@@ -17,7 +17,7 @@ USE_GNU_TOOLS+=	make
 USE_LIBTOOL=	yes
 
 AP_JK_VER=	2.0.4
-ALL_TARGET=	jk2-build-apxs
+BUILD_TARGET=	jk2-build-apxs
 EGDIR=		${PREFIX}/share/examples/${PKGBASE}
 
 do-install:

@@ -47,7 +47,7 @@ INFO_FILES+=	reftex sc speedbar vip viper widget woman
 
 REPLACE_PERL=	lib-src/grep-changelog
 
-ALL_TARGET=	bootstrap
+BUILD_TARGET=	bootstrap
 
 pre-install:
 	@${FIND} ${WRKSRC} -type f -name "*.orig" | ${XARGS} ${RM} -f

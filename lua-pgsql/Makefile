@@ -12,7 +12,7 @@ COMMENT=		PostgreSQL bindings for LUA
 
 USE_BUILDLINK3=		yes
 
-ALL_TARGET=		pglinux
+BUILD_TARGET=		pglinux
 
 do-install:
 	${INSTALL_DATA} ${WRKSRC}/libluasqlpostgres.2.0b.so \

@@ -12,7 +12,7 @@ COMMENT=	Tiny, fast authoritative nameserver that queries LDAP
 
 USE_PKGINSTALL=	YES
 USE_GNU_TOOLS+=	make
-ALL_TARGET=	it
+BUILD_TARGET=	it
 GNU_CONFIGURE=	YES
 USE_BUILDLINK3=	YES
 RCD_SCRIPTS=	ldapdns

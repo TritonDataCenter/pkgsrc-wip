@@ -11,7 +11,7 @@ COMMENT=		auto nice daemon
 
 USE_BUILDLINK3=		yes
 USE_GNU_TOOLS+=	make
-ALL_TARGET=	default
+BUILD_TARGET=	default
 
 USE_BUILDLINK3=		yes
 MYARCH=${OPSYS}

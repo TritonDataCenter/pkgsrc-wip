@@ -10,7 +10,7 @@ MAINTAINER=	tech-pkg@NetBSD.org
 HOMEPAGE=	http://www.layton-graphics.com/mtf/
 COMMENT=	Unix reader for the Microsoft Tape Format used by NT Backup
 
-ALL_TARGET=	# empty
+BUILD_TARGET=	# empty
 MTF_DOCSDIR=	${PREFIX}/share/doc/mtf
 
 do-install:

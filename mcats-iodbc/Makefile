@@ -21,7 +21,7 @@ CONFIGURE_ARGS+=	--enable-iodbc
 
 do-build:
 	cd ${WRKSRC}/src/modules/iodbc &&			\
-	${SETENV} ${MAKE_ENV} ${MAKE_PROGRAM} ${MAKE_FLAGS} -f ${MAKEFILE} ${ALL_TARGET}
+	${SETENV} ${MAKE_ENV} ${MAKE_PROGRAM} ${MAKE_FLAGS} -f ${MAKEFILE} ${BUILD_TARGET}
 
 do-install:
 	cd ${WRKSRC}/src/modules/iodbc &&			\

@@ -18,7 +18,7 @@ USE_BUILDLINK3=		yes
 GNU_CONFIGURE=		# defined
 USE_GNU_TOOLS+=		make
 ONLY_FOR_PLATFORM=	*-*-i386
-ALL_TARGET=		zsnes
+BUILD_TARGET=		zsnes
 USE_X11=		# defined
 
 .include "../../devel/SDL/buildlink3.mk"

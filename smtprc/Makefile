@@ -4,7 +4,7 @@
 
 COMMENT=	Open relay scanner
 
-ALL_TARGET=	freebsd
+BUILD_TARGET=	freebsd
 
 PTHREAD_OPTS=	require
 

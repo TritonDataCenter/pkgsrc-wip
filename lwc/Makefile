@@ -12,7 +12,7 @@ COMMENT=		Lightweight C++
 
 USE_BUILDLINK3=		yes
 
-ALL_TARGET= objdir/lwc
+BUILD_TARGET= objdir/lwc
 SUBST_CLASSES=gcc
 SUBST_STAGE.gcc=pre-build
 SUBST_FILES.gcc=Makefile
