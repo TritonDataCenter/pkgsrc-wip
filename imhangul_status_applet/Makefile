@@ -16,9 +16,7 @@ USE_BUILDLINK2=		yes
 USE_PKGLOCALEDIR=	yes
 USE_GMAKE=		yes
 
-CONFIGURE_ENV+=		CPPFLAGS="-I${LOCALBASE}/include" \
-			LIBS="-L${LOCALBASE}/lib" \
-			GCONF_SCHEMA_FILE_DIR="${PREFIX}/share/gconf/schemas/"
+CONFIGURE_ENV+=		GCONF_SCHEMA_FILE_DIR="${PREFIX}/share/gconf/schemas/"
 MAKE_ENV+=		GCONF_SCHEMA_FILE_DIR="${PREFIX}/share/gconf/schemas/"
 
 GCONF2_SCHEMAS=		imhangul_status.schemas
