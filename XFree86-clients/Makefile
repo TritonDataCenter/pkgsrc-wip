@@ -7,7 +7,7 @@ MASTER_SITES=	${MASTER_SITE_XFREE}
 DISTFILES=	X430src-1.tgz X430src-2.tgz \
 		X430src-3.tgz X430src-4.tgz
 
-MAINTAINER=	xfree86@xtraeme.unixbsd.org
+MAINTAINER=	xfree86@blef.org
 HOMEPAGE=	http://www.xfree86.org/
 COMMENT=	XFree86 client programs and related files
 
