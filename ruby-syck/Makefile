@@ -4,7 +4,7 @@ DISTNAME=	syck-${VER}
 PKGNAME=	${RUBY_PKGNAMEPREFIX}${DISTNAME}
 WRKSRC=	${WRKDIR}/${DISTNAME}/ext/ruby
 CATEGORIES=	textproc
-MASTER_SITES=   http://heanet.dl.sourceforge.net/sourceforge/yaml4r/
+MASTER_SITES=   ${MASTER_SITE_SOURCEFORGE:=yaml4r/}
 
 MAINTAINER=	rasputnik@hellooperator.net
 HOMEPAGE=	http://www.whytheluckystiff.net/syck/
