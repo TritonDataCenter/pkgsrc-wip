@@ -11,6 +11,7 @@ MAINTAINER=	reed@reedmedia.net
 #HOMEPAGE=
 COMMENT=	Locate a command
 
+NO_CONFIGURE=	yes
 NO_CHECKSUM=	# defined
 PKGMANDIR?=	man  # this will be removed once PKGMANDIR is in real pkgsrc
 
