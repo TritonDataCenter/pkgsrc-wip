@@ -2,6 +2,7 @@
 #
 
 DISTNAME=		gtk+-2.4.0
+PKGNAME=		${DISTNAME:S/gtk/gtk2/}
 CATEGORIES=		wip
 MASTER_SITES=		ftp://ftp.gtk.org/pub/gtk/v2.4/
 EXTRACT_SUFX=		.tar.bz2
