@@ -6,7 +6,7 @@ CATEGORIES=	textproc
 MASTER_SITES=	http://www.redland.opensource.ac.uk/dist/source/
 
 MAINTAINER=	jrp@hispabsd.org
-HOMEPAGE=	http://www.redland.opensource.ac.uk/dist/source/
+HOMEPAGE=	http://www.redland.opensource.ac.uk/raptor/
 COMMENT=	RDF Parser Toolkit written in C
 
 USE_BUILDLINK2=		yes
