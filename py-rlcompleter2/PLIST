@@ -1,0 +1,4 @@
+@comment $NetBSD$
+${PYSITELIB}/rlcompleter2.py
+${PYSITELIB}/rlcompleter2.pyc
+${PYSITELIB}/rlcompleter2.pyo
