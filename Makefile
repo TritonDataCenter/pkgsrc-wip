@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.690 2003/11/27 18:49:50 marc Exp $
+# $Id: Makefile,v 1.691 2003/11/27 19:33:41 marc Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -70,6 +70,7 @@ SUBDIR+=	bugzilla
 SUBDIR+=	busybox
 SUBDIR+=	byacc
 SUBDIR+=	c-news
+SUBDIR+=	cairo
 SUBDIR+=	cal3d
 SUBDIR+=	cal3d_cally
 SUBDIR+=	cawf
@@ -89,6 +90,7 @@ SUBDIR+=	cjk-latex-korean
 SUBDIR+=	cmatrix
 SUBDIR+=	compositeext
 SUBDIR+=	cops
+SUBDIR+=	copytape
 SUBDIR+=	crack-attack
 SUBDIR+=	cvsd
 SUBDIR+=	cyrus-imapd22
