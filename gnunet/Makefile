@@ -40,12 +40,15 @@ CONFIGURE_ARGS+=	--with-extractor=${BUILDLINK_PREFIX.libextractor}
 CONFIGURE_ARGS+=        --without-gtk
 CONFIGURE_ARGS+=	--sysconfdir=${PKG_SYSCONFDIR}
 
-BUILD_DEFS+=		USE_INET6
-.if defined(USE_INET6)
-CONFIGURE_ARGS+=	--with-ipv6
-.else
+# IPv6 doesn't compile in this release
+#BUILD_DEFS+=		USE_INET6
+#.if defined(USE_INET6)
+#CONFIGURE_ARGS+=	--enable-ipv6
+#GNUNET_PLIST_ADD+=	lib/libgnunettransport_tcp6.la
+#GNUNET_PLIST_ADD+=	lib/libgnunettransport_udp6.la
+#.else
 CONFIGURE_ARGS+=	--disable-ipv6
-.endif
+#.endif
 
 .if !empty(PKG_OPTIONS:Mbdb)
 BDB_ACCEPTED=		db4 db3 db2
