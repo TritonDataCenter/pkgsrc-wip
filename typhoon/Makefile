@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		typhoon-1.11.0
-CATEGORIES=		wip
+CATEGORIES=		databases
 MASTER_SITES=		http://users.footprints.net/~kaz/
 
 MAINTAINER=		adam@monkeybyte.org

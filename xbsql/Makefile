@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		xbsql-0.11
-CATEGORIES=		wip
+CATEGORIES=		database
 MASTER_SITES=		http://www.rekallrevealed.org/packages/
 EXTRACT_SUFX=		.tgz
 

@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		xbase-2.0.0
-CATEGORIES=		wip
+CATEGORIES=		databases
 MASTER_SITES=		http://www.rekallrevealed.org/packages/
 EXTRACT_SUFX=		.tgz
 
