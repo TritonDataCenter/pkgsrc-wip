@@ -18,19 +18,19 @@ MAKE_ENV+=	OSTYPE=${OPSYS}
 
 EXT=bsd # Default one :)
 .if ${OPSYS} == "Linux"
-	.if    ${MACHINE_ARCH} == "i86pc"
+.	if   ${MACHINE_ARCH} == "i86pc"
 		EXT="lnx"
-	.elsif ${MACHINE_ARCH} == "sparc"
+.	elif ${MACHINE_ARCH} == "sparc"
 		EXT="slx"
-	.elsif ${MACHINE_ARCH} == "ppc"
+.	elif ${MACHINE_ARCH} == "ppc"
 		EXT="plx"
-	.endif
-.elsif ${OPSYS} == "Solaris"
-	.if    ${MACHINE_ARCH} == "sparc"
+.	endif
+.elif ${OPSYS} == "Solaris"
+.	if   ${MACHINE_ARCH} == "sparc"
 		EXT="sso"
-	.elsif ${MACHINE_ARCH} == "i86pc"
+.	elif ${MACHINE_ARCH} == "i86pc"
 		EXT="ssx"
-	.endif
+.	endif
 .endif
 
 MAKEFILE=Makefile.${EXT}
