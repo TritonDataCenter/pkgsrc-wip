@@ -34,9 +34,7 @@ do-install:
 		${PERL5_SITELIB}/XML/DTDParse
 	${MKDIR} ${XMLDIR}
 	${INSTALL_DATA} ${WRKSRC}/dtd.dtd ${XMLDIR}
-	${ECHO} \
-		'PUBLIC "-//Norman Walsh//DTD DTDParse V2.0//EN" "dtd.dtd"' \
-		>${XMLDIR}/catalog
+	${INSTALL_DATA} ${FILESDIR}/catalog ${XMLDIR}/catalog
 
 post-install:
 	${MKDIR} ${EGDIR}
