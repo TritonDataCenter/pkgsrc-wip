@@ -10,15 +10,15 @@ MAINTAINER=		benedikt.meurer@unix-ag.uni-siegen.de
 HOMEPAGE=		http://www.imendio.com/projects/drwright/
 COMMENT=		Computer break reminder
 
-DEPENDS=		gnome2-dirs>=1.0:../../misc/gnome2-dirs
 BUILD_USES_MSGFMT=	yes
+DEPENDS=		gnome2-dirs>=1.4:../../misc/gnome2-dirs
 
-USE_PERL5=		yes
-USE_BUILDLINK3=		yes
-USE_PKGLOCALEDIR=	yes
-USE_LIBTOOL=		yes
 GNU_CONFIGURE=		yes
+USE_BUILDLINK3=		yes
 USE_GNU_TOOLS+=		make
+USE_LIBTOOL=		yes
+USE_PERL5=		yes
+USE_PKGLOCALEDIR=	yes
 
 GCONF2_SCHEMAS=		drwright.schemas
 
