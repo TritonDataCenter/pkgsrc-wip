@@ -1,3 +1,2 @@
 @comment $NetBSD$
 bin/d2x-sdl
-@unexec ${RMDIR} -p ${D2X_DATA} 2>/dev/null || ${TRUE}
