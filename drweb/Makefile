@@ -35,6 +35,9 @@ DISTTYPE=	freebsd4
 DISTTYPE=	solaris
 .elif ${OPSYS} == "Linux"
 GLIBC_VERSION?=	2.3
+.  if empty(GLIBC_VERSION:tW:M2.[1-3])
+PKG_FAIL_REASON="Unknown glibc version (must be one of 2.[1-3], but set to ${GLIBC_VERSION})."
+.  endif
 BUILD_DEFS+=	GLIBC_VERSION
 DISTTYPE=	glibc.${GLIBC_VERSION}
 .endif
