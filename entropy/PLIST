@@ -12,6 +12,10 @@ share/examples/entropy/node/mime.types
 share/examples/entropy/node/my0812.bdf.gz
 share/examples/entropy/node/next.png
 share/examples/entropy/node/prev.png
+share/examples/entropy/node/s15.gif
+share/examples/entropy/node/s30.gif
+share/examples/entropy/node/s45.gif
+share/examples/entropy/node/s60.gif
 share/examples/entropy/node/style.css
 share/examples/entropy/node/unicode.txt.gz
 share/examples/entropy/seed.txt
