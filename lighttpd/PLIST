@@ -52,9 +52,11 @@ share/doc/lighttpd/setenv.txt
 share/doc/lighttpd/simple-vhost.txt
 share/doc/lighttpd/skeleton.txt
 share/doc/lighttpd/ssi.txt
+share/doc/lighttpd/ssl.txt
 share/doc/lighttpd/state.dot
 share/doc/lighttpd/state.ps.gz
 share/doc/lighttpd/state.txt
+share/doc/lighttpd/status.txt
 share/doc/lighttpd/traffic-shaping.txt
 share/doc/lighttpd/userdir.txt
 share/examples/lighttpd/lighttpd.conf
