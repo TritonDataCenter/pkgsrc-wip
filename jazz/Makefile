@@ -6,7 +6,7 @@ PKGNAME=		jazz-4.1.3
 CATEGORIES=		audio
 MASTER_SITES=		ftp://ftp.jazzware.com/pub/jazz/stable/source/
 
-MAINTAINER=		collver@linuxfreemail.com
+MAINTAINER=		collver1@attbi.com
 HOMEPAGE=		http://www.jazzware.com
 COMMENT=		MIDI sequencer
 
