@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.468 2003/09/17 18:33:08 xtraeme Exp $
+# $Id: Makefile,v 1.469 2003/09/17 18:41:47 xtraeme Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -79,6 +79,7 @@ SUBDIR+=	cyrus-imapd22
 SUBDIR+=	dancer-ircd
 SUBDIR+=	darcnes-svgalib
 SUBDIR+=	darkice
+SUBDIR+=	dasm
 SUBDIR+=	dbf
 SUBDIR+=	devhelp
 SUBDIR+=	dfbpoint
@@ -87,6 +88,7 @@ SUBDIR+=	dfm
 SUBDIR+=	dgen
 SUBDIR+=	directfb
 SUBDIR+=	directory-administrator
+SUBDIR+=	distella
 SUBDIR+=	dnsmasq
 SUBDIR+=	dpkg
 SUBDIR+=	drweb
