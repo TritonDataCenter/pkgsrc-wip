@@ -4,7 +4,6 @@
 
 COMMENT=	Open relay scanner
 
-USE_BUILDLINK2=	YES
 ALL_TARGET=	freebsd
 
 PTHREAD_OPTS=	require
@@ -32,5 +31,5 @@ do-install:
 	${INSTALL_DATA} ${WRKSRC}/FAQ ${PREFIX}/share/doc/smtprc
 	${INSTALL_MAN} ${WRKSRC}/smtprc.1 ${PREFIX}/man/man1
 
-.include "../../mk/pthread.buildlink2.mk"
+.include "../../mk/pthread.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
