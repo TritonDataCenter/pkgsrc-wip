@@ -18,14 +18,14 @@ NO_BUILD=		# defined
 
 PYFILES=	URLRead.py pybabelfish.py pyfilter.py pytheme.py \
 		pythonol_festival.py symbolbar.py
-	
+
 TARGET_DIR=	${PREFIX}/${PYSITELIB}/BabelPhish
 SCRIPTNAME=	${PREFIX}/bin/pybabelfish
 
 do-install:
 	${INSTALL_DATA_DIR} ${TARGET_DIR}
 	${INSTALL_DATA_DIR} ${TARGET_DIR}/pixmaps
-	
+
 	for a in ${PYFILES}; do \
 		${INSTALL_DATA} ${WRKSRC}/$$a ${TARGET_DIR}/$$a; \
 	done

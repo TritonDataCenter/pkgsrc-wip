@@ -10,7 +10,7 @@ BUILDLINK_PKGSRCDIR.xbase?=	../../wip/xbase
 EVAL_PREFIX+=			BUILDLINK_PREFIX.xbase=xbase
 BUILDLINK_PREFIX.xbase_DEFAULT=	${LOCALBASE}
 BUILDLINK_FILES.xbase=	include/xbase/*
-BUILDLINK_FILES.xbase+=	lib/libxbase* 
+BUILDLINK_FILES.xbase+=	lib/libxbase*
 BUILDLINK_FILES.xbase+=	bin/xbase-config
 
 BUILDLINK_TARGETS+=	xbase-buildlink
