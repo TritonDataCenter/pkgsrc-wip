@@ -22,4 +22,5 @@ pre-configure:
 	${CHMOD} 755 ${WRKSRC}/configure
 
 .include "../../mk/pthread.buildlink2.mk"
+.include "../../mk/ossaudio.buildlink2.mk"
 .include "../../mk/bsd.pkg.mk"

@@ -7,7 +7,7 @@ $NetBSD$
  CC = @CC@
  CFLAGS = @CFLAGS@ -Ipa_common
 -LIBS = @LIBS@
-+LIBS = -lossaudio -L@prefix@/lib -Wl,-R@prefix@/lib @LIBS@
++LIBS = ${LIBOSSAUDIO} -L@prefix@/lib ${RPATH_FLAG} @prefix@/lib @LIBS@
  AR = @AR@
  RANLIB = @RANLIB@
  INSTALL = @INSTALL@
