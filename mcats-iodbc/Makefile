@@ -16,7 +16,7 @@ DEPENDS+=	mcats>=0.1.0:../../wip/mcats
 GNU_CONFIGURE=		YES
 USE_GNU_TOOLS+=		make
 USE_LIBTOOL=		YES
-USE_BUILDLINK2=		YES
+USE_BUILDLINK3=		YES
 CONFIGURE_ARGS+=	--enable-iodbc
 
 do-build:
@@ -27,5 +27,5 @@ do-install:
 	cd ${WRKSRC}/src/modules/iodbc &&			\
 	${SETENV} ${MAKE_ENV} ${MAKE_PROGRAM} ${MAKE_FLAGS} -f ${MAKEFILE} ${INSTALL_TARGET}
 
-.include "../../databases/iodbc/buildlink2.mk"
+.include "../../databases/iodbc/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
