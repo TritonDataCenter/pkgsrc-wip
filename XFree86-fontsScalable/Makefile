@@ -1,5 +1,4 @@
 # $NetBSD$
-# $Id: Makefile,v 1.2 2003/07/23 22:31:56 blef Exp $
 
 DISTNAME=	${DISTFILES}
 PKGNAME=	XFree86-fontsScalable-${XFREE86_VERSION}
