@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.1183 2004/04/10 12:50:25 lsed Exp $
+# $Id: Makefile,v 1.1184 2004/04/10 17:55:22 xtraeme Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -262,6 +262,7 @@ SUBDIR+=	java-charva
 SUBDIR+=	java-getopt
 SUBDIR+=	java-gnucrypto
 SUBDIR+=	java-gnujaxp
+SUBDIR+=	java-gtk2
 SUBDIR+=	java-jep
 SUBDIR+=	java-jflex
 SUBDIR+=	java-muse
