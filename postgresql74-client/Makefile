@@ -28,6 +28,11 @@ post-install:
 	cd ${PREFIX}/man && 						\
 		${PAX} -O -crzf ${WRKSRC}/doc/man.tar.gz
 
+.include "../../mk/bsd.prefs.mk"
+.if ${OPSYS} == "FreeBSD" && ${LOWER_OPSYS_VERSUFFIX} == "4"
+USE_GNU_READLINE=yes
+.endif
+
 .include "../../wip/postgresql74-lib/buildlink2.mk"
 .include "../../devel/readline/buildlink2.mk"
 .include "../../devel/zlib/buildlink2.mk"
