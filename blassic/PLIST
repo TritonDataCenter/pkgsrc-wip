@@ -87,5 +87,8 @@ share/blassic/examples/trim.bas
 share/blassic/examples/viewpass.bas
 share/blassic/examples/while.bas
 share/blassic/examples/window.bas
+share/blassic/examples/graphget.bas
+share/blassic/examples/regexp.bas
+share/blassic/examples/tierra.bas
 @dirrm share/blassic/examples
 @dirrm share/blassic
