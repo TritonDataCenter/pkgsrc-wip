@@ -7,7 +7,7 @@ MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=moregroupware/}
 DISTFILES=	moregroupware-core-0.7.1${EXTRACT_SUFX} \
 		moregroupware-docs-0.7.1${EXTRACT_SUFX}
 
-MAINTAINER=	david@netbsd-fr.org
+MAINTAINER=	pih@bsdmail.dk
 COMMENT=	A web based GroupWare system
 USE_BUILDLINK3=	YES
 
