@@ -13,11 +13,11 @@ COMMENT=		Authorization Protocol for X from freedesktop.org
 CONFLICTS+=		XFree86-libs-[0-9]*
 
 USE_BUILDLINK2=		yes
-USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=		yes
-LIBTOOL_OVERRIDE=	${WRKSRC}/libtool
-PKGCONFIG_OVERRIDE+=	${WRKSRC}/xau.pc.in
 GNU_CONFIGURE=		yes
+
+LIBTOOL_OVERRIDE=       ${WRKSRC}/libtool
+PKGCONFIG_OVERRIDE+=    ${WRKSRC}/xau.pc.in
 
 .include "../../devel/pkgconfig/buildlink2.mk"
 .include "../../mk/bsd.pkg.mk"
