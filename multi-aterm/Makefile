@@ -18,10 +18,28 @@ CONFIGURE_ARGS+=	--enable-mousewheel \
 			--enable-keepscrolling \
 			--enable-half-shadow \
 			--enable-shading \
-			--enable-fading \
-			--enable-xterm-scroll \
-			--enable-kanji \
-			--enable-big5
+			--enable-fading
+
+BUILD_DEFS+=    ATERM_USE_KANJI ATERM_USE_XTERM_SCROLL
+BUILD_DEFS+=    ATERM_USE_BIG5 ATERM_USE_GREEK
+
+.include "../../mk/bsd.prefs.mk"
+
+.if defined(ATERM_USE_XTERM_SCROLL) && ${ATERM_USE_XTERM_SCROLL} != NO
+CONFIGUE_ARGS+=--enable-xterm-scroll
+.endif
+
+.if defined(ATERM_USE_KANJI) && ${ATERM_USE_KANJI} != NO
+CONFIGURE_ARGS+=--enable-kanji
+.endif
+
+.if defined(ATERM_USE_BIG5) && ${ATERM_USE_BIG5} != NO
+CONFIGURE_ARGS+=--enable-big5
+.endif
+
+.if defined(ATERM_USE_GREEK) && ${ATERM_USE_GREEK} != NO
+CONFIGURE_ARGS+=--enable-greek
+.endif
 
 .include "../../graphics/xpm/buildlink2.mk"
 .include "../../mk/bsd.pkg.mk"
