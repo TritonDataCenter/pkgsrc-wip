@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	mod_bunzip2
-PKGNAME=	${DISTNAME:S/mod_/ap-/}
+PKGNAME=	${DISTNAME:S/mod_/ap-/}-0.1
 WRKSRC=         ${WRKDIR}/mod_bunzip2-2
 CATEGORIES=	www
 MASTER_SITES=	http://www.oldach.net/
