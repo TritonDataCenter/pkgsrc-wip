@@ -13,6 +13,7 @@ COMMENT=		Java based LDAP browser and editor
 
 WRKSRC=			${WRKDIR}/ldapbrowser
 
+USE_BUILDLINK2=		yes
 NO_CONFIGURE=		yes
 LBE_DIR=		${PREFIX}/lib/ldapbrowser
 USE_JAVA=		run
