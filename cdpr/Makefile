@@ -4,6 +4,7 @@
 DISTNAME=	cdpr-1.0.8
 CATEGORIES=	net security
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=cdpr/}
+EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	adam@monkeybyte.org
 HOMEPAGE=	http://www.monkeymental.com/
