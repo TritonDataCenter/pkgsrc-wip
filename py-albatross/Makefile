@@ -34,8 +34,8 @@ RCD_SCRIPTS=	al_session_daemon
 PKG_GROUPS=	${ALBATROSS_USER}
 PKG_USERS=	${ALBATROSS_USER}:${ALBATROSS_GROUP}
 
-OWN_DIRS=	${RUNTIME_DIR}
-OWN_DIRS+=	${LOGDIR}
+#OWN_DIRS=	${RUNTIME_DIR}
+#OWN_DIRS+=	${LOGDIR}
 OWN_DIRS_PERMS=	${RUNTIME_DIR} ${ALBATROSS_USER} ${ALBATROSS_GROUP} 0750
 OWN_DIRS_PERMS+=${LOGDIR} ${ALBATROSS_USER} ${ALBATROSS_GROUP} 0750
 
@@ -69,8 +69,6 @@ post-install:
 		-print | ${PAX} -rw -pp -pm ${EXAMPLEDIR}
 	${PYTHONBIN} -O ${PREFIX}/${PYLIB}/compileall.py \
 		${PREFIX}/${PYSITELIB}/albatross
-	${CHMOD} 0750 ${RUNTIME_DIR} ${LOGDIR}
-	${CHOWN} ${PKG_USERS} ${RUNTIME_DIR} ${LOGDIR}
 
 .include "../../lang/python/application.mk"
 .include "../../lang/python/extension.mk"
