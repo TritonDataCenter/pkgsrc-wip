@@ -7,6 +7,7 @@ CATEGORIES=		www perl5
 MASTER_SITES=		${MASTER_SITE_PERL_CPAN:=WWW/}
 
 MAINTAINER=		dieter.NetBSD@pandora.be
+HOMEPAGE=		http://search.cpan.org/dist/WWW-Mechanize/
 COMMENT=		Automates web page form & link interaction
 
 DEPENDS+=	p5-libwww>=5.76:../../www/p5-libwww
