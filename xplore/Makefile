@@ -10,9 +10,9 @@ MAINTAINER=		benedikt.meurer@unix-ag.uni-siegen.de
 HOMEPAGE=		http://www.musikwissenschaft.uni-mainz.de/~ag/xplore/
 COMMENT=		X11/Motif File Manager
 
-USE_BUILDLINK2=		YES
+USE_BUILDLINK3=		YES
 USE_IMAKE=		YES
 
-.include "../../graphics/xpm/buildlink2.mk"
-.include "../../mk/motif.buildlink2.mk"
+.include "../../graphics/xpm/buildlink3.mk"
+.include "../../mk/motif.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
