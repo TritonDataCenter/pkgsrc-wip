@@ -6,7 +6,8 @@ DISTNAME=	quagga-0.96.4-20031223
 PKGNAME=	quagga-0.96.4.20031223
 WRKSRC=		${WRKDIR}/quagga-0.96.4
 CATEGORIES=	net
-MASTER_SITES=	http://www.quagga.net/download/cvs/
+# Use pkgsrc/ for saved snapshots, cvs/ for current ones
+MASTER_SITES=	http://www.quagga.net/download/pkgsrc/
 
 MAINTAINER=	gdt@ir.bbn.com
 HOMEPAGE=	http://www.quagga.net/
