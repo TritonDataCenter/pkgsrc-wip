@@ -17,8 +17,10 @@ GNU_CONFIGURE=		yes
 USE_GNU_TOOLS+=		make
 MAKEFLAGS+=		LDFLAGS=
 MAKEFLAGS+=		CPPFLAGS=
+MAKEFLAGS+=		MAKEMANUAL=${TRUE:Q}
 MAKEFILE=		${WRKSRC}/GNUmakefile
 
+.include "../../devel/libidn/buildlink3.mk"
 .include "../../devel/zlib/buildlink3.mk"
 .include "../../lang/ghc/buildlink3.mk"
 .include "../../www/curl/buildlink3.mk"
