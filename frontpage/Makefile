@@ -48,6 +48,7 @@ FP_VER=		5.0
 #FP_VER=		${PORTVERSION:C/\..*//}
 
 BUILD_DEFS+=	FP_DIR
+BUILD_DEFS+=	FPOWN FPGRP
 
 EXTRACT_ONLY=	${FRONTPAGE}
 
@@ -55,6 +56,8 @@ FP_DIR=		frontpage/version${FP_VER}
 FPINSTALL=	${FP_DIR}/fp_install.sh
 README=		${FP_DIR}/readme.htm
 FPCSS=		${FP_DIR}/admin/1033/webadmin.css
+FPOWN?=		${BINOWN}
+FPGRP?=		${BINGRP}
 
 MOD_FPDOCDIR=	share/httpd/htdocs/manual/frontpage
 
@@ -105,7 +108,7 @@ pre-install ${METALOG}: plist
 		type="dir" ; \
 		mode=0755; \
 	    fi; \
-	    ${ECHO} "$$fn type=$$type mode=$$mode uname=${BINOWN} gname=${BINGRP}";\
+	    ${ECHO} "$$fn type=$$type mode=$$mode uname=${FPOWN} gname=${FPGRP}";\
 	done | ${SORT} >${METALOG}
 
 do-install:
