@@ -1,14 +1,13 @@
 # $NetBSD$
 #
 
-PKGREVISION=	1
 MOZILLA=	thunderbird
 MOZILLA_BIN=	thunderbird-bin
-MOZ_VER=	0.3
+MOZ_VER=	0.4
 EXTRACT_SUFX=	.tar.bz2
 DISTNAME=	thunderbird-source-${MOZ_VER}
 CATEGORIES=	mail
-MASTER_SITES=	http://ftp.mozilla.org/pub/mozilla.org/thunderbird/releases/0.3/
+MASTER_SITES=	http://ftp.mozilla.org/pub/mozilla.org/thunderbird/releases/0.4/
 
 MAINTAINER=	hiramatu@boreas.dti.ne.jp
 HOMEPAGE=	http://www.mozilla.org/projects/thunderbird/
