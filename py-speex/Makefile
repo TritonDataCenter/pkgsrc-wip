@@ -1,9 +1,9 @@
 # $NetBSD$
 #
 
-DISTNAME=		pySpeex-0
-PKGNAME=		${PYPKGPREFIX}-speex
-WRKSRC=			${WRKDIR}/python/
+DISTNAME=		pySpeex-0.2
+PKGNAME=		${PYPKGPREFIX}-speex-0.2
+WRKSRC=			${WRKDIR}/${DISTNAME:S/-0.2//}
 CATEGORIES=		audio
 MASTER_SITES=		http://www.freenet.org.nz/python/pySpeex/
 
