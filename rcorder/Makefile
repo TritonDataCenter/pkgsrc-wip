@@ -14,10 +14,10 @@ NOT_FOR_PLATFORM=	NetBSD-*-*
 
 NO_CHECKSUM=		# defined
 
-USE_BUILDLINK2=		# defined
+USE_BUILDLINK3=		yes
 
 do-extract:
 	@${CP} -Rp ${FILESDIR} ${WRKSRC}
 
-.include "../../pkgtools/libnbcompat/buildlink2.mk"
+.include "../../pkgtools/libnbcompat/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

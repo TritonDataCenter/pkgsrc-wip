@@ -10,7 +10,7 @@ MAINTAINER=	tech-pkg@NetBSD.org
 HOMEPAGE=	http://www.weewm.org/
 COMMENT=	Fast and ultra light windowmanager with total keyboard control
 
-USE_BUILDLINK2=		yes
+USE_BUILDLINK3=		yes
 USE_X11=		yes
 
 EXAMPLESDIR=	${PREFIX}/share/examples/weewm
