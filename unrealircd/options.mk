@@ -22,7 +22,7 @@ PKG_FAIL_REASON+=	"The server cannot be both a hub and a leaf." \
 .endif
 
 ###
-### Enable IPv6 support 
+### Enable IPv6 support
 ###
 .if !empty(PKG_OPTIONS:Minet6)
 CONFIGURE_ARGS+=	--enable-inet6
@@ -71,9 +71,9 @@ CONFIGURE_ARGS+=		--enable-libcurl
 .endif
 
 ###
-### Compile in CHROOTDIR support. 
-### As far as pkgsrc goes this is just an expirement.  You should read the 
-### unrealircd docs/source for further information on this.  By default 
+### Compile in CHROOTDIR support.
+### As far as pkgsrc goes this is just an expirement.  You should read the
+### unrealircd docs/source for further information on this.  By default
 ### CHROOTDIR is defined as ${IRCD_HOME}.
 ###
 .if !empty(PKG_OPTIONS:Mchroot)
