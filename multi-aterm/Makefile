@@ -23,4 +23,5 @@ CONFIGURE_ARGS+=	--enable-mousewheel \
 			--enable-kanji \
 			--enable-big5
 
+.include "../../graphics/xpm/buildlink2.mk"
 .include "../../mk/bsd.pkg.mk"
