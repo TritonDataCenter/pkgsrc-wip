@@ -17,8 +17,6 @@ PTHREAD_OPTS=		require
 
 CONFIGURE_ARGS+=	--with-pthreads
 
-DEINSTALL_FILE=		${WRKDIR}/DEINSTALL
-
 PKG_USERS=		${MYSQL_USER}:${MYSQL_GROUP}::MySQL\\ database\\ administrator:${MYSQL_DATADIR}:${SH}
 PKG_GROUPS=		${MYSQL_GROUP}
 RCD_SCRIPTS=		mysqld
@@ -35,11 +33,6 @@ post-configure:
 post-build:
 	cd ${WRKSRC}/scripts && ${SETENV} ${MAKE_ENV} ${MAKE_PROGRAM}	\
 		${MAKE_FLAGS} safe_mysqld mysql_install_db
-
-pre-install:
-	${SED}	-e "s|@MYSQL_DATADIR@|${MYSQL_DATADIR}|g"		\
-		-e "s|@CAT@|${CAT}|g"					\
-		${PKGDIR}/DEINSTALL > ${DEINSTALL_FILE}
 
 post-install:
 	${INSTALL_SCRIPT} ${WRKSRC}/scripts/safe_mysqld ${PREFIX}/bin
