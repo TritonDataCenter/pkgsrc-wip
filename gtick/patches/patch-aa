@@ -1,9 +1,9 @@
 $NetBSD$
 
---- about.c.orig	Sun Jun 15 22:20:38 2003
-+++ about.c
-@@ -30,7 +30,11 @@
- #ifdef FREEBSD
+--- src/dsp.c~	Mon Dec  8 11:45:37 2003
++++ src/dsp.c	Sun Jan 18 14:42:27 2004
+@@ -44,7 +44,11 @@
+ #ifdef __FreeBSD__
  #include <machine/soundcard.h>
  #else
 +#ifdef __NetBSD__
@@ -13,4 +13,4 @@ $NetBSD$
 +#endif
  #endif
  
- #include "gtick.h"
+ /* GTK+ headers */
