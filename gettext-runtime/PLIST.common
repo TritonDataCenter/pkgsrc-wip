@@ -4,7 +4,6 @@ bin/gettext
 bin/gettext.sh
 bin/ngettext
 include/autosprintf.h
-info/autosprintf.info
 lib/libasprintf.a
 lib/libasprintf.la
 lib/libasprintf.so
