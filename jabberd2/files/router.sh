@@ -31,5 +31,5 @@ if [ -f /etc/rc.subr ]; then
 	run_rc_command "$1"
 else
 	@ECHO@ -n " ${name}"
-	${command} ${smbd_flags} ${command_args}
+	${command} ${router_flags} ${command_args}
 fi
