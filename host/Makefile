@@ -2,6 +2,7 @@
 #
 
 DISTNAME=		host-20031203
+PKGREVISION=		1
 CATEGORIES=		wip
 MASTER_SITES=		ftp://ftp.weird.com/pub/local/
 
