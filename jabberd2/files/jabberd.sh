@@ -2,18 +2,53 @@
 #
 # $NetBSD$
 #
+# KEYWORD: nostart
 
-# PROVIDE: jabberd
-# REQUIRE: DAEMON LOGIN
+if [ -f /etc/rc.subr ]; then
+	. /etc/rc.subr
+fi
 
-. /etc/rc.subr
+rcd_dir=`@DIRNAME@ $0`
+
+# NOTE: run_rc_command sets $rc_arg
+#
+forward_commands()
+{
+	# Backward compat with NetBSD <1.6:
+	[ -z "$rc_arg" ] && rc_arg=$_arg
+
+	for file in $COMMAND_LIST; do
+		$rcd_dir/$file $rc_arg
+	done
+}
+
+reverse_commands()
+{
+	# Backward compat with NetBSD <1.6:
+	[ -z "$rc_arg" ] && rc_arg=$_arg
+
+	REVCOMMAND_LIST=
+	for file in $COMMAND_LIST; do
+		REVCOMMAND_LIST="$file $REVCOMMAND_LIST"
+	done
+	for file in $REVCOMMAND_LIST; do
+		$rcd_dir/$file $rc_arg
+	done
+}
+
+COMMAND_LIST="c2s resolver router s2s sm"
 
 name="jabberd"
-rcvar=$name
-command="@PREFIX@/bin/${name}"
-command_args="-D"
-required_files="@PKG_SYSCONFDIR@/jabberd.cfg"
-jabberd_user="@JABBERD_USER@"
+start_cmd="forward_commands"
+stop_cmd="reverse_commands"
+reload_cmd="forward_commands"
+status_cmd="forward_commands"
+extra_commands="reload status"
 
-load_rc_config $name
-run_rc_command "$1"
+if [ -f /etc/rc.subr ]; then
+	run_rc_command "$1"
+else
+	@ECHO@ -n " ${name}"
+	_arg="$1"
+	${start_cmd}
+fi
