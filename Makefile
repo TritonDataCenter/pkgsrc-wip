@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.611 2003/11/13 19:24:40 grantbeattie Exp $
+# $Id: Makefile,v 1.612 2003/11/13 19:31:18 grantbeattie Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -317,6 +317,7 @@ SUBDIR+=	netkit-base
 SUBDIR+=	newsx
 SUBDIR+=	nikto
 SUBDIR+=	noip
+SUBDIR+=	nuppelvideo
 SUBDIR+=	obconf
 SUBDIR+=	ode
 SUBDIR+=	ogre
