@@ -1,3 +1,4 @@
 $NetBSD$
 
+- 4.0.16 does not build on -current. Watch this space for further info.
 - Does not shutdown correctly on -current (last confirmed on 1.6U)

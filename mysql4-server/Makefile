@@ -44,6 +44,7 @@ post-install:
 	${INSTALL_MAN} ${WRKSRC}/man/mysqld.1 ${PREFIX}/man/man1
 	${INSTALL_MAN} ${WRKSRC}/man/mysqld_safe.1 ${PREFIX}/man/man1
 	PKG_PREFIX=${PREFIX} ${SH} ${INSTALL_FILE} ${PKGNAME} POST-INSTALL
+	#${CHOWN} -R ${MYSQL_USER}:${MYSQL_GROUP} ${MYSQL_DATADIR}
 
 .include "../../wip/mysql4-client/buildlink2.mk"
 .include "../../security/tcp_wrappers/buildlink2.mk"
