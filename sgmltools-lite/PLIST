@@ -4,6 +4,7 @@ bin/gensgmlenv
 bin/sgmltools
 bin/sgmlwhich
 etc/sgml/aliases
+etc/sgml/catalog
 etc/sgml/catalog.rh62
 etc/sgml/catalog.suse
 man/man1/sgmltools-lite.1
