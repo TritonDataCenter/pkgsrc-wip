@@ -10,7 +10,7 @@ MAINTAINER=		dotz@irc.pl
 HOMEPAGE=		http://leo.sourceforge.net/
 COMMENT=		Programmer's editor and a flexible browser
 
-USE_BUILDLINK2=		yes
+USE_BUILDLINK3=		yes
 NO_BUILD=	# defined
 PYTHON_PATCH_SCRIPTS=	src/leo.py
 
@@ -20,5 +20,5 @@ do-install:
 EXTRACT_CMD_OPTS.zip=	-aqo
 
 .include "../../lang/python/application.mk"
-.include "../../x11/py-Tk/buildlink2.mk"
+.include "../../x11/py-Tk/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
