@@ -4,8 +4,8 @@ $NetBSD$
 Add these lines to /etc/aliases and update your MTA with 'newaliases'.
 
  minimalist: "|${PREFIX}/bin/minimalist.pl"
- 
-To create a new list copy the directory 
+
+To create a new list copy the directory
 	${PREFIX}/share/examples/minimalist/list to
 	/var/spool/minimalist/
 
