@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		tcllib-1.4
+DISTNAME=		tcllib-1.6.1
 CATEGORIES=		devel
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=tcllib/}
 EXTRACT_SUFX=		.tar.bz2
@@ -12,11 +12,14 @@ COMMENT=		Collection of utility modules for Tcl
 
 USE_BUILDLINK3=		yes
 GNU_CONFIGURE=		yes
+NO_BUILD=		yes
+
+PKGVERSION=		1.6 # XXX
 
 post-patch:
 	@${MV} ${WRKSRC}/modules/doctools/mpformats/_html.tcl \
 		${WRKSRC}/modules/doctools/mpformats/_html.sed
-	@${SED} -e "s,@PREFIX@,${PREFIX}," \
+	@${SED} -e "s,@FETCH_CMD@,${FETCH_CMD}," \
 		${WRKSRC}/modules/doctools/mpformats/_html.sed > \
 		${WRKSRC}/modules/doctools/mpformats/_html.tcl
 	@${RM} ${WRKSRC}/modules/doctools/mpformats/_html.sed
