@@ -1,0 +1,12 @@
+@comment $NetBSD$
+bin/legend
+bin/scalebar
+bin/shp2img
+bin/shp2pdf
+bin/shptree
+bin/shptreetst
+bin/shptreevis
+bin/sortshp
+include/map.h
+lib/libmap.a
+libexec/cgi-bin/mapserv
