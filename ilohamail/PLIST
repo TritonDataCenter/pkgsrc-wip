@@ -701,6 +701,7 @@ share/httpd/htdocs/IlohaMail/source/tool.php
 share/httpd/htdocs/IlohaMail/source/view.php
 @dirrm share/httpd/htdocs/IlohaMail/source/themes/default/images
 @dirrm share/httpd/htdocs/IlohaMail/source/themes/default
+@dirrm share/httpd/htdocs/IlohaMail/source/themes
 @dirrm share/httpd/htdocs/IlohaMail/source/images
 @dirrm share/httpd/htdocs/IlohaMail/source
 @dirrm share/httpd/htdocs/IlohaMail/lang/vn
