@@ -1,10 +1,4 @@
-$Id: TODO,v 1.4 2003/04/29 14:45:44 lsed Exp $
-
-missing features:
-
-- make db3 support optional (POEDIT_USE_DB3, default YES)
-- package could use db4 as well, so it might be good to allow it's use instead
-  of db3 (POEDIT_USE_DB4, default NO)
+$Id: TODO,v 1.5 2003/05/09 03:38:00 xtraeme Exp $
 
 remaining issues:
 
@@ -16,3 +10,7 @@ remaining issues:
 
   /usr/src/lib/libpthread/pthread_mutex.c:
      $NetBSD: pthread_mutex.c,v 1.14 2003/04/23 19:36:12 nathanw Exp $
+
+--
+Poedit can run on -current, exporting PTHREAD_ERRORMODE to ignore or print.
+    
