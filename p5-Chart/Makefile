@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	Chart-1.0.1
+DISTNAME=	Chart-2.3
 PKGNAME=	p5-${DISTNAME}
 CATEGORIES=	graphics perl5
 MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=Chart/}
