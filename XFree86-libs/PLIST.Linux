@@ -19,6 +19,7 @@ lib/libXcursor.so.1.0
 lib/libXext.so.6.4
 lib/libXfont.so.1.4
 lib/libXi.so.6.0
+lib/libXinerama.so.1.0
 lib/libXmu.so.6.2
 lib/libXmuu.so.1.0
 lib/libXp.so.6.2
