@@ -3,7 +3,6 @@
 
 DISTNAME=		copytape
 PKGNAME=		copytape-1.0
-WRKSRC=			${WRKDIR}
 CATEGORIES=		sysutils
 MASTER_SITES=		${MASTER_SITE_COMP_SOURCES:=unix/volume10/}
 EXTRACT_SUFX=		.Z
@@ -13,6 +12,8 @@ HOMEPAGE=
 COMMENT=	Copytape duplicates magnetic tapes, with only one drive
 
 BUILD_DEPENDS+=	gsharutils>=4.2.1nb2:../../archivers/gsharutils
+
+WRKSRC=			${WRKDIR}
 
 # MASTER_SITES=		${MASTER_SITE_COMP_SOURCES}
 # DISTNAME=		copytape
