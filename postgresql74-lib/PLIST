@@ -240,7 +240,7 @@ include/postgresql/server/port/freebsd.h
 include/postgresql/server/port/hpux.h
 include/postgresql/server/port/irix5.h
 include/postgresql/server/port/linux.h
-include/postgresql/server/port/${LOWER_OPSYS}.h
+include/postgresql/server/port/netbsd.h
 include/postgresql/server/port/nextstep.h
 include/postgresql/server/port/openbsd.h
 include/postgresql/server/port/osf.h
