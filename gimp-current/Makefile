@@ -40,13 +40,6 @@ CONFIGURE_ARGS+=	--with-html-dir=${PREFIX}/share/doc/html/${PKGNAME}
 # Ensure we export symbols in the linked shared object.
 LDFLAGS+=		${EXPORT_SYMBOLS_LDFLAGS}
 
-MAKE_ENV+=		X11BASE=${X11BASE}
-PLIST_SUBST+=		LOCALBASE=${LOCALBASE}
-
-pre-build:
-	${BUILDLINK_CC} -o ${WRKSRC}/docs/pdb_self_doc			\
-		${FILESDIR}/pdb_self_doc.c
-
 post-install:
 	${TEST} ${PREFIX} = ${LOCALBASE} ||				\
 		${LN} -fs ${PREFIX}/share/aclocal/gimp.m4		\
