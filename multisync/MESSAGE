@@ -1,0 +1,7 @@
+===========================================================================
+$NetBSD$
+
+You need to install at least one of the synchronization modules from
+multisync-* before multisync can do anything useful!
+
+===========================================================================
