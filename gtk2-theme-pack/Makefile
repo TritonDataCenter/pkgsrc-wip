@@ -113,6 +113,7 @@ HOMEPAGE=		http://art.gnome.org/
 COMMENT=		Art for your GTK+ 2.x desktop
 
 # TODO: buildlinks?
+DEPENDS+=	gtk2-engines>=2.2.0nb6:../../x11/gtk2-engines
 DEPENDS+=	gtk2-engines-bluecurve>=1.0:../../wip/gtk2-engines-bluecurve
 DEPENDS+=	gtk2-engines-dwerg>=0.6:../../wip/gtk2-engines-dwerg
 DEPENDS+=	gtk2-engines-flat>=2.0:../../wip/gtk2-engines-flat
@@ -136,5 +137,4 @@ do-configure:
 do-install:
 	cd ${WRKDIR} && ${PAX} -rw -pe [A-Za-z]* ${PREFIX}/share/themes
 
-.include "../../x11/gtk2-engines/buildlink2.mk"
 .include "../../mk/bsd.pkg.mk"
