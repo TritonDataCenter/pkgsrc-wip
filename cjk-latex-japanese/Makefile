@@ -6,7 +6,7 @@ CATEGORIES=	print
 MASTER_SITES=	# empty
 DISTFILES=	# empty
 
-MAINTAINER=	rxg@netbsd.org
+MAINTAINER=	rxg@NetBSD.org
 HOMEPAGE=	http://cjk.ffii.org/
 COMMENT=	Japanese support for CJK-LaTeX
 

@@ -6,7 +6,7 @@ CATEGORIES=	meta-pkgs net wip
 MASTER_SITES=	# empty
 DISTFILES=	# empty
 
-MAINTAINER=	cjep@netbsd.org
+MAINTAINER=	cjep@NetBSD.org
 HOMEPAGE=	# irrelevant
 COMMENT=	Provides some useful modules for Radiator
 

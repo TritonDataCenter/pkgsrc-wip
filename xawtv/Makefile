@@ -7,7 +7,7 @@ WRKSRC=		${WRKDIR}/${PKGNAME_NOREV}
 CATEGORIES=	graphics
 MASTER_SITES=	http://bytesex.org/xawtv/
 
-MAINTAINER=	jmmv@netbsd.org
+MAINTAINER=	jmmv@NetBSD.org
 HOMEPAGE=	http://bytesex.org/xawtv/
 COMMENT=	TV application for Brooktree 848 compatible cards
 

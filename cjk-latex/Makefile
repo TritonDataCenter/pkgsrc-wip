@@ -5,7 +5,7 @@ PKGNAME=	cjk-latex-4.5.1
 CATEGORIES=	print
 MASTER_SITES=	ftp://ftp.ffii.org/pub/cjk/
 
-MAINTAINER=	rxg@netbsd.org
+MAINTAINER=	rxg@NetBSD.org
 HOMEPAGE=	http://cjk.ffii.org/
 COMMENT=	The CJK package for LaTeX
 

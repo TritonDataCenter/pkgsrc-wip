@@ -5,7 +5,7 @@ DISTNAME=	idled-1.16
 CATEGORIES=	sysutils
 MASTER_SITES=	http://www.darkwing.com/idled/download/
 
-MAINTAINER=	tmarc@netbsd.org.pl
+MAINTAINER=	tmarc@NetBSD.org.pl
 HOMEPAGE=	http://www.darkwing.com/idled/
 COMMENT=	Daemon that logs out idle users
 

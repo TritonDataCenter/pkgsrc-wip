@@ -5,7 +5,7 @@ DISTNAME=	zinf-2.2.0
 CATEGORIES=	audio
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=zinf/}
 
-MAINTAINER=	rxg@netbsd.org
+MAINTAINER=	rxg@NetBSD.org
 HOMEPAGE=	http://www.zinf.org/
 COMMENT=	Simple but powerful audio player
 

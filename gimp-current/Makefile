@@ -9,7 +9,7 @@ MASTER_SITES=		ftp://ftp.gimp.org/pub/gimp/v1.3/v${GIMP_VER}/ \
 	ftp://ftp.cs.umn.edu/pub/gimp/gimp/v1.3/v${GIMP_VER}/
 EXTRACT_SUFX=		.tar.bz2
 
-MAINTAINER=		adam@netbsd.org
+MAINTAINER=		adam@NetBSD.org
 HOMEPAGE=		http://www.gimp.org/
 COMMENT=		Image manipulation program similar to Photoshop[tm]
 

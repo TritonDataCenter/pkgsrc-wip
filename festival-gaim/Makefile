@@ -5,7 +5,7 @@ DISTNAME=	festival-gaim-0.64
 CATEGORIES=	audio chat
 MASTER_SITES=	http://primates.ximian.com/~sandino/festival/SOURCES/
 
-MAINTAINER=	jmmv@netbsd.org
+MAINTAINER=	jmmv@NetBSD.org
 HOMEPAGE=	http://www.gnome.org/softwaremap/projects/festival-gaim/
 COMMENT=	Synthesizes incoming messages using voice
 

@@ -6,7 +6,7 @@ CATEGORIES=		net wip
 MASTER_SITES=		# Need to get it yourself.
 EXTRACT_SUFX=		.tgz
 
-MAINTAINER=		cjep@netbsd.org
+MAINTAINER=		cjep@NetBSD.org
 HOMEPAGE=		http://www.open.com.au/radiator/
 COMMENT=		RADIUS server implemented in Perl
 
