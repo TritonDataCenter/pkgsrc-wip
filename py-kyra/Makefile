@@ -20,8 +20,8 @@ CONFIGURE_ENV+=		PYTHON=${PYTHONBIN}
 
 .include "../../devel/SDL/buildlink3.mk"
 .include "../../audio/SDL_mixer/buildlink3.mk"
-.include "../../devel/smpeg/buildlink3.mk"
 .include "../../wip/kyra/buildlink3.mk"
 .include "../../lang/python/extension.mk"
+.include "../../multimedia/smpeg/buildlink3.mk"
 .include "../../mk/pthread.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

@@ -18,9 +18,9 @@ PYTHON_VERSIONS_ACCEPTED= 23 23pth 22 22pth
 
 .include "../../audio/SDL_mixer/buildlink3.mk"
 .include "../../devel/SDL_ttf/buildlink3.mk"
-.include "../../devel/smpeg/buildlink3.mk"
 .include "../../graphics/SDL_image/buildlink3.mk"
 .include "../../lang/python/extension.mk"
+.include "../../multimedia/smpeg/buildlink3.mk"
 .include "../../math/py-Numeric/buildlink3.mk"
 
 .include "../../mk/bsd.pkg.mk"
