@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.146 2003/05/08 04:08:17 xtraeme Exp $
+# $Id: Makefile,v 1.147 2003/05/08 05:10:38 jeremy-c-reed Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -126,6 +126,7 @@ SUBDIR+=	shoutcast
 SUBDIR+=	srvx
 SUBDIR+=	streamripper
 SUBDIR+=	sysklogd
+SUBDIR+=	sysvinit
 SUBDIR+=	tendra
 SUBDIR+=	tex-foiltex
 SUBDIR+=	totem
