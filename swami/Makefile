@@ -19,10 +19,8 @@ USE_LIBTOOL=		YES
 LDFLAGS+=		${EXPORT_SYMBOLS_LDFLAGS}
 
 .include "../../audio/libsndfile/buildlink3.mk"
-.include "../../devel/SDL/buildlink3.mk"
 .include "../../devel/pkgconfig/buildlink3.mk"
 .include "../../devel/popt/buildlink3.mk"
-.include "../../graphics/libgnomecanvas/buildlink3.mk"
 .include "../../graphics/png/buildlink3.mk"
 .include "../../x11/gtk/buildlink3.mk"
 .include "../../wip/fluidsynth/buildlink3.mk"
