@@ -76,7 +76,6 @@ PKG_DEFAULT_OPTIONS+=	inet6 tcpwrappers
 .if !empty(PKG_OPTIONS:Msocketmap)
 USE_PERL5=	YES
 REPLACE_PERL=	contrib/socketmapClient.pl contrib/socketmapServer.pl
-PLIST_SRC+=	${PKGDIR}/PLIST.socketmap
 .endif
 
 ###
