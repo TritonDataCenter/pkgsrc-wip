@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.1607 2005/01/11 12:47:22 imilh Exp $
+# $Id: Makefile,v 1.1608 2005/01/11 19:51:13 xmor61 Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -41,6 +41,7 @@ SUBDIR+=	Siesta
 SUBDIR+=	WEPCrack
 SUBDIR+=	abuse_sdl
 SUBDIR+=	acpid
+SUBDIR+=        adamem
 SUBDIR+=	afterstep2
 SUBDIR+=	aircrack
 SUBDIR+=	airsnort
