@@ -10,14 +10,14 @@ HOMEPAGE= 	http://www.nta-monitor.com/ike-scan/
 COMMENT=	Discovers IKE hosts and can also fingerprint them
 
 USE_BUILDLINK2=	YES
+GNU_CONFIGURE=	YES
 
-GNU_CONFIGURE=	yes
-CONFIGURE_ARGS+=--datadir=${PREFIX}/share/ike-scan
+CONFIGURE_ARGS+=	--datadir=${PREFIX}/share/ike-scan
 
 post-install:
-		${INSTALL_DATA_DIR} ${PREFIX}/share/doc/ike-scan
-		${INSTALL_DATA} ${WRKSRC}/README ${PREFIX}/share/doc/ike-scan/
-		${INSTALL_DATA} ${WRKSRC}/udp-backoff-fingerprinting-paper.txt \
-			${PREFIX}/share/doc/ike-scan/
+	${INSTALL_DATA_DIR} ${PREFIX}/share/doc/ike-scan
+	${INSTALL_DATA} ${WRKSRC}/README ${PREFIX}/share/doc/ike-scan/
+	${INSTALL_DATA} ${WRKSRC}/udp-backoff-fingerprinting-paper.txt \
+		${PREFIX}/share/doc/ike-scan/
 
 .include "../../mk/bsd.pkg.mk"
