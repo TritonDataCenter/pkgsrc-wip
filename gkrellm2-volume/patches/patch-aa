@@ -16,7 +16,7 @@ $NetBSD$
  
  FLAGS = -O2 -Wall -fPIC $(GTK_CFLAGS) $(GKRELLM_INCLUDE)
 -LIBS = $(GTK_LIB)
-+LIBS = $(GTK_LIB) -lossaudio
++LIBS = $(GTK_LIB) $(LIBOSSAUDIO)
  LFLAGS = -shared
  
  PACKAGE ?= gkrellm-volume
