@@ -4,7 +4,6 @@ bin/heroeslvl
 info/heroes.info
 info/heroes.info-1
 info/heroes.info-2
-lib/charset.alias
 man/man6/heroes.6
 man/man6/heroeslvl.6
 share/heroes/etc/heroesrc

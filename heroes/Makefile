@@ -13,6 +13,8 @@ MAINTAINER=		dotz@irc.pl
 HOMEPAGE=		http://heroes.sourceforge.net/
 COMMENT=		Feature-packed game, like Nibbles or Tron clone
 
+BUILDLINK_DEPENDS.gettext+=	gettext-lib>=0.10.36
+
 WRKSRC=			${WRKDIR}
 USE_BUILDLINK3=		yes
 USE_PKGLOCALEDIR=	yes
@@ -43,4 +45,5 @@ do-install:
 .include "../../devel/SDL/buildlink3.mk"
 .include "../../audio/SDL_mixer/buildlink3.mk"
 .include "../../audio/libmikmod/buildlink3.mk"
+.include "../../devel/gettext-lib/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
