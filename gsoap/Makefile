@@ -9,7 +9,6 @@ HOMEPAGE=		http://gsoap2.sourceforge.net/
 COMMENT=		Tools for coding SOAP XML Web Services in C and C++
 
 USE_BUILDLINK3=		yes
-USE_PKGLOCALEDIR=	yes
 PKGCONFIG_OVERRIDE+=	${WRKSRC}/gsoap++.pc.in
 PKGCONFIG_OVERRIDE+=	${WRKSRC}/gsoap.pc.in
 PKGCONFIG_OVERRIDE+=	${WRKSRC}/gsoapck++.pc.in
