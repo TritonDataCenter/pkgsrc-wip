@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	honeyd-0.7
+DISTNAME=	honeyd-0.8
 CATEGORIES=	security net
 MASTER_SITES=	http://niels.xtdnet.nl/honeyd/
 
