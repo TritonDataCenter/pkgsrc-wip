@@ -1,0 +1,6 @@
+@comment $NetBSD$
+bin/tr2latex
+man/man1/tr2latex.1
+share/texmf/tex/latex/misc/troffman.sty
+share/texmf/tex/latex/misc/troffms.sty
+@dirrm share/texmf/tex/latex/misc
