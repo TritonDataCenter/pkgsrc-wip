@@ -1,4 +1,2 @@
 @comment $NetBSD$
-etc/screenrc
 lib/httpd/mod_php5.so
-@dirrm lib/httpd
