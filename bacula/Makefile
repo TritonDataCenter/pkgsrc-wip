@@ -20,6 +20,7 @@ BACULA_WORKINGDIR?=	/var/spool/bacula
 BACULA_GROUP?=		bacula
 BACULA_DIR_USER?=	bacula-dir
 BACULA_SD_USER?=	bacula-sd
+BACULA_DB?=		sqlite
 
 OWN_DIRS_PERMS=		${BACULA_PIDDIR} root ${BACULA_GROUP} 770
 OWN_DIRS_PERMS+=	${BACULA_WORKINGDIR} root ${BACULA_GROUP} 770
@@ -37,7 +38,9 @@ CONFIGURE_ARGS+=	--with-pid-dir=${BACULA_PIDDIR}
 CONFIGURE_ARGS+=	--with-readline=${PREFIX}/include/readline
 CONFIGURE_ARGS+=	--with-dir-user=${BACULA_DIR_USER} --with-dir-group=${BACULA_GROUP}
 CONFIGURE_ARGS+=	--with-sd-user=${BACULA_SD_USER} --with-sd-group=${BACULA_GROUP}
+.if ${BACULA_DB} == "sqlite"
 CONFIGURE_ARGS+=	--with-sqlite=${PREFIX}
+.endif
 
 .include "../../mk/bsd.prefs.mk"
 .if ${OPSYS} == "Linux"
@@ -52,7 +55,6 @@ PKG_GROUPS=	${BACULA_GROUP}
 PKG_USERS=	${BACULA_DIR_USER}:${BACULA_GROUP}
 PKG_USERS+=	${BACULA_SD_USER}:${BACULA_GROUP}
 
-BACULA_DB=	sqlite
 PLIST_SUBST+=	BACULA_DB=${BACULA_DB}
 
 EXAMPLESDIR=	${PREFIX}/share/examples/bacula
