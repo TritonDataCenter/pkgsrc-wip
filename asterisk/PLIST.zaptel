@@ -1,0 +1,7 @@
+@comment $NetBSD$
+lib/asterisk/modules/app_flash.so
+lib/asterisk/modules/app_meetme.so
+lib/asterisk/modules/app_zapbarge.so
+lib/asterisk/modules/app_zapras.so
+lib/asterisk/modules/app_zapscan.so
+lib/asterisk/modules/chan_zap.so
