@@ -5,7 +5,7 @@ DISTNAME=	mutella-0.4.3
 CATEGORIES=	net www
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=mutella/}
 
-MAINTAINER=	Peter.Bex@student.kun.nl
+MAINTAINER=	airhead@sourceforge.net
 HOMEPAGE=	http://mutella.sourceforge.net
 COMMENT=	Console mode Gnutella client with optional HTTP interface
 
