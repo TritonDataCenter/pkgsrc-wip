@@ -6,7 +6,7 @@ WRKSRC=		${WRKDIR}/kgpg
 CATEGORIES=	security
 MASTER_SITES=	http://devel-home.kde.org/~kgpg/src/
 
-MAINTAINER=	packages@netbsd.org
+MAINTAINER=	ingolf@users.sourceforge.net
 HOMEPAGE=	http://devel-home.kde.org/~kgpg/
 COMMENT=	Simple, free, open source KDE frontend for gpg
 
