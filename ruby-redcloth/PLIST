@@ -1,0 +1,4 @@
+@comment $NetBSD$
+${RUBY_SITELIBDIR}/redcloth.rb
+${RUBY_DOCDIR}/redcloth/README
+@dirrm ${RUBY_DOCDIR}/redcloth
