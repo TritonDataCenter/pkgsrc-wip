@@ -109,6 +109,9 @@ post-extract:
 	@${LN} -sf ${PREFIX}/bin/pswrap ${WRKSRC}/config/pswrap
 	@${LN} -sf ${PREFIX}/lib/X11/config/version.def ${WRKSRC}/config/cf
 	@${LN} -sf ${PREFIX}/lib/X11/config/date.def ${WRKSRC}/config/cf
+.if exists(${FILESDIR}/ucs2any.c)
+	@${CP} ${FILESDIR}/ucs2any.c ${WRKSRC}/fonts/util
+.endif
 
 .for F in ${SYSTEMS}
 	@${MV} ${WRKSRC}/config/cf/${F}.cf \
