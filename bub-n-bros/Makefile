@@ -1,11 +1,11 @@
 # $NetBSD$
 #
 
-DISTNAME=		bub-n-bros-1.0
+DISTNAME=		bub-n-bros-1.1
 CATEGORIES=		games
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=bub-n-bros/}
 
-MAINTAINER=		marc@informatik.uni-bremen.de
+MAINTAINER=		recht@NetBSD.org
 HOMEPAGE=		http://bub-n-bros.sourceforge.net/
 COMMENT=		Multiplayer crazy clone of Bubble Bobble
 
@@ -17,7 +17,7 @@ USE_BUILDLINK2=		yes
 MAKE_ENV=		CFLAGS="${CFLAGS}"
 MAKE_ENV+=		LDFLAGS="${LDFLAGS}"
 
-PYTHON_VERSIONS_ACCEPTED= 22 22pth
+PYTHON_VERSIONS_ACCEPTED= 23 23pth 22 22pth
 
 PYTHON_PATCH_SCRIPTS=	pclient-pygame.py
 PYTHON_PATCH_SCRIPTS+=	pclient-slow-X.py
