@@ -1,4 +1,4 @@
 $NetBSD: distinfo,v 1.4 2003/11/18 16:34:49 wiz Exp $
 
-SHA1 (quagga-0.96.5-20040701.tar.gz) = a7b07ee09611b7c81347569966501e1c0b9fd446
-Size (quagga-0.96.5-20040701.tar.gz) = 1645574 bytes
+SHA1 (quagga-0.96.5-20040706.tar.gz) = 8f13f53fda1f3c46b7d0c03d177610e94bc276b3
+Size (quagga-0.96.5-20040706.tar.gz) = 1645991 bytes
