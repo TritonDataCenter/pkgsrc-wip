@@ -13,6 +13,13 @@ NO_CONFIGURE=	yes
 
 MAKE_ENV+=	OSLEVEL=34
 CFLAGS+=	-I${PREFIX}/include
+PATCHDIR=	${.CURDIR}/patches
+
+PF_VERSION=	3.6	# XXX FIXME
+
+.if !empty(PF_VERSION:M3.6)
+OPTIONAL_PATCHFILES+=	${PATCHDIR}/patch-optional-3.6
+.endif
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/pftop ${PREFIX}/sbin
