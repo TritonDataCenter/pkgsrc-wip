@@ -1,0 +1,12 @@
+@comment $NetBSD$
+include/gss.h
+include/gss/api.h
+include/gss/ext.h
+info/gss.info
+lib/libgss.a
+lib/libgss.la
+lib/libgss.so
+lib/libgss.so.0
+lib/libgss.so.0.6
+lib/pkgconfig/gss.pc
+@dirrm include/gss
