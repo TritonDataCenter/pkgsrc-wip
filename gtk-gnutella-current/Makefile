@@ -1,6 +1,7 @@
 # $NetBSD$
 
 DISTNAME=		gtk-gnutella-current-${GTK_GNUTELLA_VER}
+PKGREVISION=		1
 CATEGORIES=		net
 MASTER_SITES=		# not defined
 
@@ -10,6 +11,8 @@ COMMENT=		GTK-based gnutella client, CVS snapshot
 
 USE_BUILDLINK3=		yes
 USE_GNU_TOOLS+=		make
+BUILD_USES_MSGFMT=	yes
+_USE_GNU_GETTEXT=	yes
 USE_PKGLOCALEDIR=	yes
 USE_X11=		yes
 HAS_CONFIGURE=		yes
