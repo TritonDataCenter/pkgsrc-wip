@@ -17,7 +17,7 @@ USE_BUILDLINK3=		yes
 GNU_CONFIGURE=		yes
 USE_GNU_TOOLS+=		make
 
-USE_LIPBTOOL=		yes
+USE_LIBTOOL=		yes
 USE_LANGUAGES=		"c c++"
 
 post-build:
