@@ -1,0 +1,7 @@
+@comment $NetBSD$
+bin/mozplugger-controller
+bin/mozplugger-helper
+lib/mozilla/plugins/mozplugger.so
+share/examples/mozplugger/mozpluggerrc
+@dirrm share/examples/mozplugger
+@unexec ${RMDIR} %D/lib/mozilla/plugins 2>/dev/null || ${TRUE}
