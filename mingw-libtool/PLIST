@@ -1,0 +1,2 @@
+@comment $NetBSD$
+${MINGWTARGET}/bin/libtool
