@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.1523 2004/11/06 14:36:12 bencollver Exp $
+# $Id: Makefile,v 1.1524 2004/11/07 04:43:40 rxg Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -234,6 +234,7 @@ SUBDIR+=	guile16-slib
 SUBDIR+=	guilerxspencer
 SUBDIR+=	gurlchecker
 SUBDIR+=	gwc
+SUBDIR+=	hanzim
 SUBDIR+=	hasciicam
 SUBDIR+=	hdparm
 SUBDIR+=	help2man
