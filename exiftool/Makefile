@@ -3,10 +3,10 @@
 DISTNAME=	Image-ExifTool-3.49
 PKGNAME=	exiftool-3.49
 CATEGORIES=	graphics perl5
-MASTER_SITES=	http://www.sno.phy.queensu.ca/~phil/exiftool/
+MASTER_SITES=	http://owl.phy.queensu.ca/~phil/exiftool/
 
 MAINTAINER=	gdt@ir.bbn.com
-HOMEPAGE=	http://www.sno.phy.queensu.ca/~phil/exiftool/
+HOMEPAGE=	http://owl.phy.queensu.ca/~phil/exiftool/
 COMMENT=	Perl module and program to read EXIF information
 
 USE_BUILDLINK3=	YES
