@@ -14,6 +14,6 @@ BUILDLINK_DEPENDS.embryo+=	embryo>=0.9.0
 BUILDLINK_PKGSRCDIR.embryo?=	../../wip/embryo
 .endif	# EMBRYO_BUILDLINK3_MK
 
-.include "../../devel/libtool/buildlink3.mk"
+.include "../../devel/libltdl/buildlink3.mk"
 
 BUILDLINK_DEPTH:=     ${BUILDLINK_DEPTH:S/+$//}

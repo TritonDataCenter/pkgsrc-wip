@@ -24,5 +24,5 @@ post-install:
 
 .include "../../graphics/imlib/buildlink3.mk"
 .include "../../fonts/Xft2/buildlink3.mk"
-.include "../../devel/libtool/buildlink3.mk"
+.include "../../devel/libltdl/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

@@ -14,7 +14,7 @@ BUILDLINK_DEPENDS.edje+=	edje>=0.5.0
 BUILDLINK_PKGSRCDIR.edje?=	../../wip/edje
 .endif	# EDJE_BUILDLINK3_MK
 
-.include "../../devel/libtool/buildlink3.mk"
+.include "../../devel/libltdl/buildlink3.mk"
 .include "../../graphics/jpeg/buildlink3.mk"
 .include "../../graphics/imlib2/buildlink3.mk"
 .include "../../wip/eet/buildlink3.mk"

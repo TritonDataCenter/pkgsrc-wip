@@ -20,5 +20,5 @@ CONFIGURE_SCRIPT=	${WRKSRC}/configure
 
 WRKSRC=		${WRKDIR}/palm-db-tools
 
-.include "../../devel/libtool/buildlink3.mk"
+.include "../../devel/libltdl/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

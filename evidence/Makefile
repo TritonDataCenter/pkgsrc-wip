@@ -57,7 +57,7 @@ CONFIGURE_ARGS+=        --disable-${val}
 CONFIGURE_ARGS+=	--disable-${val}
 .endfor
 
-.include "../../devel/libtool/buildlink3.mk"
+.include "../../devel/libltdl/buildlink3.mk"
 .include "../../graphics/jpeg/buildlink3.mk"
 .include "../../graphics/png/buildlink3.mk"
 .include "../../graphics/imlib2/buildlink3.mk"

@@ -16,7 +16,7 @@ USE_BUILDLINK3=		YES
 USE_LIBTOOL=		YES
 USE_X11=		YES
 
-.include "../../devel/libtool/buildlink3.mk"
+.include "../../devel/libltdl/buildlink3.mk"
 .include "../../databases/edb/buildlink3.mk"
 .include "../../devel/eet/buildlink3.mk"
 .include "../../graphics/freetype2/buildlink3.mk"

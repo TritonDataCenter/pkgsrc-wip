@@ -14,7 +14,7 @@ BUILDLINK_DEPENDS.ecore+=	ecore>=1.0.0nb1
 BUILDLINK_PKGSRCDIR.ecore?=	../../wip/ecore
 .endif	# ECORE_BUILDLINK3_MK
 
-.include "../../devel/libtool/buildlink3.mk"
+.include "../../devel/libltdl/buildlink3.mk"
 .include "../../security/openssl/buildlink3.mk"
 .include "../../wip/evas/buildlink3.mk"
 
