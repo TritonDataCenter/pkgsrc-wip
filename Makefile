@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.53 2003/04/10 17:28:06 thomasklausner Exp $
+# $Id: Makefile,v 1.54 2003/04/10 18:53:53 jmmv Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -10,6 +10,7 @@ SUBDIR+=	autoproject
 SUBDIR+=	byacc
 SUBDIR+=	chksniff
 SUBDIR+=	cvsd
+SUBDIR+=	drweb
 SUBDIR+=	gaim-gtk2
 SUBDIR+=	gkrellm2
 SUBDIR+=	gkrellm2-flynn
