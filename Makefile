@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.905 2004/01/24 20:10:05 oherrala Exp $
+# $Id: Makefile,v 1.906 2004/01/25 04:27:19 xtraeme Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -180,7 +180,6 @@ SUBDIR+=	glkterm
 SUBDIR+=	glulxe
 SUBDIR+=	gnats4
 SUBDIR+=	gnome-spell
-SUBDIR+=	gnome2-extras
 SUBDIR+=	gnome2-pkgview
 SUBDIR+=	gnomeicu
 SUBDIR+=	gnucash-docs
