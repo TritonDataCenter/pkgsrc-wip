@@ -4,3 +4,4 @@ TODO:
 - Fetch the SCSH version from ../../shells/scsh/Makefile.common  (to be done
    when this pkg is moved into pkgsrc) in Makefile.common.
 - Find a way to determine which SCSH is installed (for SCSH_LIB_DIRS).
+- Do something about installation of scheme48
