@@ -1,0 +1,13 @@
+$NetBSD$
+
+--- pppd/main.c.orig	2002-12-24 00:03:27.000000000 -0800
++++ pppd/main.c	2002-12-24 00:04:07.000000000 -0800
+@@ -1509,7 +1509,7 @@
+ 	    syslog(LOG_ERR, "Can't execute %s: %m", prog);
+ 	    closelog();
+ 	}
+-	_exit(-1);
++	_exit(1);
+     }
+ 
+     if (debug)
