@@ -1,7 +1,10 @@
 @comment $NetBSD$
 bin/qnetwalk
+man/man6/qnetwalk.6
 share/games/qnetwalk/click.wav
 share/games/qnetwalk/connect.wav
+share/games/qnetwalk/qnetwalk_fr.qm
+share/games/qnetwalk/qnetwalk_nl.qm
 share/games/qnetwalk/qnetwalk_ru.qm
 share/games/qnetwalk/start.wav
 share/games/qnetwalk/turn.wav
