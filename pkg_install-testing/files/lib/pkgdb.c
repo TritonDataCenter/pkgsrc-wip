@@ -134,7 +134,7 @@ pkgdb_close(void)
  * Store value "val" with key "key" in database
  * Return value is as from ypdb_store:
  *  0: ok
- *  1: key already present
+ *  1: key already present  -- not any longer now it overwrites it
  * -1: some other error, see errno
  */
 int
@@ -153,7 +153,8 @@ pkgdb_store(const char *key, const char *val)
 	if (keyd.size > FILENAME_MAX || vald.size > FILENAME_MAX)
 		return -1;
 
-	return (*pkgdbp->put) (pkgdbp, &keyd, &vald, R_NOOVERWRITE);
+/* 	return (*pkgdbp->put) (pkgdbp, &keyd, &vald, R_NOOVERWRITE); */
+	return (*pkgdbp->put) (pkgdbp, &keyd, &vald, 0);
 }
 
 /*

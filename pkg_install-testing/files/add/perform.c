@@ -925,15 +925,15 @@ ignore_replace_depends_check:
 #ifdef PKGDB_DEBUG
 								printf("pkgdb_retrieve(\"%s\")=\"%s\"\n", t, s);	/* pkgdb-debug - HF */
 #endif
-								/* file exists */
-								if (!s) {
+								if (0 == strcmp(s, old_installed)) {
 									if (Verbose)
-										printf("%s is not in pkgdb; deleting.\n", t);
+										printf("%s belongs to older %s; deleting.\n", t, s);
 
 									/* TODO: this needs to be tested with pkgviews */
 									if (!Fake) 
 					/*					unlink(t); */
 printf ("Unlink of %s would be done here.\n", t);
+/* todo: and probably remove from pkgdb too **/
 								}
 							}
 						}

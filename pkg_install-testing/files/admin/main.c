@@ -706,6 +706,7 @@ main(int argc, char *argv[])
 			perror("pkgdb_store");
 			break;
 		case 1:
+/* reed: this won't happen because now R_NOOVERWRITE flag is not used */
 			printf("Key already present.\n");
 			break;
 		default:

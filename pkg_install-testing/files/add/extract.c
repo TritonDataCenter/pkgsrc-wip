@@ -216,13 +216,11 @@ extract_plist(char *home, package_t *pkg)
 #endif
 						if (s && !Overwrite)
 							warnx("Overwriting %s - pkg %s bogus/conflicting?", t, s);
-						else {
-							rc = pkgdb_store(t, PkgName);
+						rc = pkgdb_store(t, PkgName);
 #ifdef PKGDB_DEBUG
-							printf("pkgdb_store(\"%s\", \"%s\") = %d\n", t, PkgName, rc);	/* pkgdb-debug - HF */
+						printf("pkgdb_store(\"%s\", \"%s\") = %d\n", t, PkgName, rc);	/* pkgdb-debug - HF */
 #endif
 
-						}
 					}
 
 					/* try to add to list of perms to be changed and run in bulk. */
@@ -282,12 +280,10 @@ extract_plist(char *home, package_t *pkg)
 #endif
 						if (s && !Overwrite)
 							warnx("Overwriting %s - pkg %s bogus/conflicting?", t, s);
-						else {
-							rc = pkgdb_store(t, PkgName);
+						rc = pkgdb_store(t, PkgName);
 #ifdef PKGDB_DEBUG
-							printf("pkgdb_store(\"%s\", \"%s\") = %d\n", t, PkgName, rc);	/* pkgdb-debug - HF */
+						printf("pkgdb_store(\"%s\", \"%s\") = %d\n", t, PkgName, rc);	/* pkgdb-debug - HF */
 #endif
-						}
 					}
 				}
 			}

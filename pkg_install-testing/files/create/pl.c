@@ -173,12 +173,10 @@ check_list(char *home, package_t *pkg, const char *PkgName)
 				if (s && PlistOnly)
 					warnx("Overwriting %s - "
 					    "pkg %s bogus/conflicting?", t, s);
-				else {
-					pkgdb_store(t, PkgName);
+				pkgdb_store(t, PkgName);
 #ifdef PKGDB_DEBUG
-					fprintf(stderr, "pkgdb_store(\"%s\", \"%s\")\n", t, PkgName);	/* pkgdb-debug - HF */
+				fprintf(stderr, "pkgdb_store(\"%s\", \"%s\")\n", t, PkgName);	/* pkgdb-debug - HF */
 #endif
-				}
 			}
 
 			if (cwd == home) {
