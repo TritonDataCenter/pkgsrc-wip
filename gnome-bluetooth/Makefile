@@ -23,13 +23,13 @@ SUBST_STAGE.py=post-configure
 SUBST_SED.py=-e 's,/usr/share/,${PREFIX}/share/,g' \
 		-e 's,python ,python2.3 ,g'
 
-.include "../../devel/libgnomeui/buildlink3.mk"
-.include "../../security/gnutls/buildlink3.mk"
 .include "../../audio/esound/buildlink3.mk"
-.include "../../net/ORBit2/buildlink3.mk"
 .include "../../devel/GConf2/buildlink3.mk"
-.include "../../x11/gnome-python/buildlink3.mk"
+.include "../../devel/libgnomeui/buildlink3.mk"
+.include "../../devel/gob2/buildlink3.mk"
+.include "../../net/ORBit2/buildlink3.mk"
+.include "../../security/gnutls/buildlink3.mk"
 .include "../../security/gnome-keyring/buildlink3.mk"
-.include "../../wip/gob2/buildlink3.mk"
 .include "../../wip/libbtctl/buildlink3.mk"
+.include "../../x11/gnome-python/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
