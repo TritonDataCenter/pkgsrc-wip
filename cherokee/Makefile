@@ -3,6 +3,7 @@
 
 DISTNAME=	cherokee-0.4.3-pre9
 PKGNAME=	${DISTNAME:S/-pre/rc/}
+WRKSRC=		${WRKDIR}/cherokee-0.4.3
 CATEGORIES=	www
 MASTER_SITES=	ftp://alobbs.com/cherokee/
 
@@ -10,7 +11,6 @@ MAINTAINER=	jrp@hispabsd.org
 HOMEPAGE=	http://alobbs.com/cherokee/
 COMMENT=	Extremely fast and tiny web server
 
-WRKSRC=		${WRKDIR}/cherokee-0.4.3
 
 USE_BUILDLINK2=		yes
 USE_PKGLOCALEDIR=	yes
@@ -32,6 +32,6 @@ post-install:
 	${INSTALL_DATA_DIR} ${EGDIR}
 	${INSTALL_DATA} ${WRKSRC}/cherokee.conf \
 		${EGDIR}/cherokee.conf.default
-	
+
 .include "../../sysutils/gnome-vfs2/buildlink2.mk"
 .include "../../mk/bsd.pkg.mk"
