@@ -35,5 +35,5 @@ post-install:
 
 # "g77" can not be used for external function 
 
-.include "../../lang/f2c/buildlink.mk"
+.include "../../lang/f2c/buildlink2.mk"
 .include "../../mk/bsd.pkg.mk"
