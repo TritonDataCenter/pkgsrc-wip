@@ -24,7 +24,7 @@ pre-build:
 	${CHMOD} 755 ${WRKSRC}/create_qm_files.sh
 
 .include "../../wip/grass/buildlink3.mk"
-.include "../../wip/gdal/buildlink3.mk"
+.include "../../wip/gdal-lib/buildlink3.mk"
 .include "../../x11/qt3-tools/buildlink3.mk"
 .include "../../x11/qt3-libs/buildlink3.mk"
 .include "../../mk/pgsql.buildlink3.mk"
