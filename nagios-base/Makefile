@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	nagios-1.0
+DISTNAME=	nagios-1.2
 PKGNAME=	${DISTNAME:S/-/-base-/}
 PKGREVISION=	# not defined
 CATEGORIES=	net sysutils
