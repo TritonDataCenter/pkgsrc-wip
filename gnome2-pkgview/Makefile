@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	gnome-pkgview-1.0.0
+PKGNAME=	${DISTNAME:S/gnome/gnome2/}
 CATEGORIES=	sysutils gnome2
 MASTER_SITES=	http://www.greatnorthern.demon.co.uk/packages/gnome-pkgview/
 EXTRACT_SUFX=	.tar.bz2
