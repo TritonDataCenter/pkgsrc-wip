@@ -99,4 +99,5 @@ CONFIGURE_ARGS+=	--enable-webmail
 
 .include "../../devel/pkgconfig/buildlink3.mk"
 .include "../../mk/bdb.buildlink3.mk"
+.include "../../mk/pthread.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
