@@ -1,6 +1,5 @@
 @comment $NetBSD$
 bin/hol-filter
-bin/caml-hol
 bin/holrun
 lib/caml-light/arith.ml
 lib/caml-light/basics.ml

@@ -17,14 +17,13 @@ DEPENDS+=		caml-libnum>=0.74:../../wip/caml-libnum
 
 do-build:
 	(cd ${WRKSRC} && ${CC} ${CFLAGS} -o hol-filter filter.c)
-	# Build a custom caml with requirements libunix and libnum
-	(cd ${WRKSRC} && camlmktop -o caml-hol -custom unix.zo \
-	  ${PREFIX}/lib/caml-light/libunix.a int_misc.zo fnat.zo nat.zo \
-	  big_int.zo arith_flags.zo ratio.zo num.zo arith_status.zo \
-	  numprint.zo ${PREFIX}/lib/caml-light/libnums.a)
+
+post-patch:
+	@${CP} ${WRKSRC}/caml ${WRKSRC}/caml.patched
+	@${SED} -e "s,@HOLDIR@,${PREFIX}/lib/caml-light,g" \
+	< ${WRKSRC}/caml.patches > ${WRKSRC}/caml
 
 do-install:
-	${INSTALL_PROGRAM} ${WRKSRC}/caml-hol ${PREFIX}/bin
 	${INSTALL_PROGRAM} ${WRKSRC}/hol-filter ${PREFIX}/bin
 	${INSTALL_SCRIPT} ${WRKSRC}/caml ${PREFIX}/bin/holrun
 	${INSTALL_DATA} ${WRKSRC}/arith.ml ${PREFIX}/lib/caml-light
