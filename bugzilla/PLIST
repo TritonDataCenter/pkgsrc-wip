@@ -1,6 +1,6 @@
 @comment $NetBSD$
 share/examples/bugzilla/bugzilla.conf
-share/examples/bugzilla/localconfig.sample
+share/examples/bugzilla/localconfig
 share/bugzilla/1x1.gif
 share/bugzilla/Bugzilla.pm
 share/bugzilla/Bugzilla/Attachment.pm
@@ -136,7 +136,6 @@ share/bugzilla/globals.pl
 share/bugzilla/importxml.pl
 share/bugzilla/index.cgi
 share/bugzilla/js/duplicates.js
-share/bugzilla/localconfig
 share/bugzilla/localconfig.js
 share/bugzilla/long_list.cgi
 share/bugzilla/move.pl
