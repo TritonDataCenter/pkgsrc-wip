@@ -50,8 +50,14 @@ CPPFLAGS+=	-DHAVE_CRYPT_H
 
 pre-configure:
 .if ${OPSYS} == "SunOS"
-	${MV} ${WRKSRC}/Makefile ${WRKSRC}/Makefile.patched
-	${SED} -e 's!LDADD=	-lcrypt!LDADD=	-lsocket -lnsl!' \
+	@${MV} ${WRKSRC}/Makefile ${WRKSRC}/Makefile.patched
+	@${SED} -e 's!LDADD=	-lcrypt!LDADD=	-lsocket -lnsl!' \
+	< ${WRKSRC}/Makefile.patched \
+	> ${WRKSRC}/Makefile
+.endif
+.if ${OPSYS} == "Linux" || ${OPSYS} == "FreeBSD"
+	@${MV} ${WRKSRC}/Makefile ${WRKSRC}/Makefile.patched
+	@${SED} -e 's!util.c stub.c!util.c sendfile.c stub.c!' \
 	< ${WRKSRC}/Makefile.patched \
 	> ${WRKSRC}/Makefile
 .endif
