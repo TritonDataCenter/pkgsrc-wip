@@ -4,6 +4,7 @@ bin/entropy-storechg
 share/examples/entropy/entropy.conf
 share/examples/entropy/node/background.png
 share/examples/entropy/node/bar.png
+share/examples/entropy/node/favicon.ico
 share/examples/entropy/node/font8x13.txt
 share/examples/entropy/node/gateway.de.html
 share/examples/entropy/node/gateway.en.html
