@@ -18,6 +18,9 @@ DEPENDS+=	zenity>=1.2:../../wip/zenity
 DEPENDS+=	gtranslator>=0.99:../../wip/gtranslator
 DEPENDS+=       tsclient>=0.104:../../wip/tsclient
 DEPENDS+=	gmencoder>=0.07:../../wip/gmencoder
+DEPENDS+=	gimp-current>=1.3.5:../../wip/gimp-current
+DEPENDS+=	xchat2>=2.0.1:../../chat/xchat2
+DEPENDS+=	gaim>=0.60:../../chat/gaim
 
 USE_X11=	yes
 USE_BUILDLINK2=	yes
