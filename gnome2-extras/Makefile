@@ -21,6 +21,7 @@ DEPENDS+=	gmencoder>=0.0.7:../../wip/gmencoder
 DEPENDS+=	gimp-current>=1.3.5:../../wip/gimp-current
 DEPENDS+=	xchat>=2.0.1:../../chat/xchat2
 DEPENDS+=	gossip>=0.5:../../wip/gossip
+DEPENDS+=	apotheke>=0.2:../../wip/apotheke
 
 USE_X11=	yes
 USE_BUILDLINK2=	yes
