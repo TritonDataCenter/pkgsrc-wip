@@ -19,7 +19,7 @@ BUILDLINK_FILES.libfwbuilder+=	lib/libfwcompiler.*
 .include "../../devel/glib/buildlink2.mk"
 .include "../../net/net-snmp/buildlink2.mk"
 .include "../../textproc/libxslt/buildlink2.mk"
-.include "../../mk/gcc.buildlink2.mk"
+.include "../../mk/compiler.mk"
 
 .if defined(FWBUILDER_USE_BIND) && !empty(FWBUILDER_USE_BIND:M[yY][eE][sS])
 .include "../../net/bind9/buildlink2.mk"
