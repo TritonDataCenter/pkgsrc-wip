@@ -1,6 +1,0 @@
-@comment $NetBSD$
-man/man5/ntpd.conf.5
-man/man8/ntpd.8
-sbin/ntpd
-share/examples/openntpd/ntpd.conf
-@dirrm share/examples/openntpd
