@@ -20,7 +20,7 @@ PYDISTUTILSPKG=		yes
 
 EXTRACT_CMD.zip=	${LOCALBASE}/bin/unzip -aqo $${extract_file}
 # TODO: should be added, but gives some strange errors on my setup
-# BUILD_DEPENDS=		py-pyrex>=0.8.1:../../lang/py-pyrex
+BUILD_DEPENDS=		${PYPKGPREFIX}-pyrex>=0.8.1:../../lang/py-pyrex
 
 post-extract:
 	${MV} ${WRKDIR}/fastaudio/* ${WRKDIR}/portaudio_v18_1
@@ -28,4 +28,5 @@ post-extract:
 .include "../../wip/portaudio/buildlink2.mk"
 .include "../../audio/libsndfile/buildlink2.mk"
 .include "../../lang/python/extension.mk"
+.include "../../mk/ossaudio.buildlink2.mk"
 .include "../../mk/bsd.pkg.mk"
