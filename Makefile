@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.676 2003/11/26 21:17:42 mpasternak Exp $
+# $Id: Makefile,v 1.677 2003/11/26 21:23:21 mpasternak Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -193,6 +193,7 @@ SUBDIR+=	gtk-theme-switch
 SUBDIR+=	gtk2-engines-bluecurve
 SUBDIR+=	gtk2-engines-dwerg
 SUBDIR+=	gtk2-engines-mist
+SUBDIR+=	gtk2-engines-smooth
 SUBDIR+=	gtkglk
 SUBDIR+=	gtkmagnetic
 SUBDIR+=	gtkpod
