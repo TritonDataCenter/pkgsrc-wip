@@ -6,7 +6,7 @@ CATEGORIES=	textproc
 MASTER_SITES=	ftp://xmlsoft.org/python/
 
 MAINTAINER=	minskim@bawi.org
-HOMEPAGE=	http://xmlsoft.org/
+HOMEPAGE=	http://xmlsoft.org/XSLT/
 COMMENT=	Python wrapper for libxslt
 
 DEPENDS+=	${PYPKGPREFIX}-libxml2>=${LIBXML_VERSION}:../../wip/py-libxml2
