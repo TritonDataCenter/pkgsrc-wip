@@ -11,25 +11,25 @@ COMMENT=	Bedevilled Audio System
 
 AUTOCONF_REQD=	2.13
 
-USE_BUILDLINK2=	yes
+USE_BUILDLINK3=	yes
 USE_X11=	yes
 USE_LIBTOOL=	yes
 USE_GNU_TOOLS+=	make
 GNU_CONFIGURE=	yes
 
-LDFLAGS+=	-lossaudio
+LDFLAGS+=	${LIBOSSAUDIO}
 
 pre-configure:
 	cd ${WRKSRC} && ${AUTOCONF}
 
-.include "../../audio/libmad/buildlink2.mk"
-.include "../../audio/libvorbis/buildlink2.mk"
-.include "../../graphics/libgnomecanvas/buildlink2.mk"
-.include "../../lang/guile/buildlink2.mk"
-.include "../../multimedia/libogg/buildlink2.mk"
-.include "../../x11/gtk2/buildlink2.mk"
+.include "../../audio/libmad/buildlink3.mk"
+.include "../../audio/libvorbis/buildlink3.mk"
+.include "../../graphics/libgnomecanvas/buildlink3.mk"
+.include "../../lang/guile/buildlink3.mk"
+.include "../../multimedia/libogg/buildlink3.mk"
+.include "../../x11/gtk2/buildlink3.mk"
 
 .include "../../mk/autoconf.mk"
-.include "../../mk/ossaudio.buildlink2.mk"
-.include "../../mk/pthread.buildlink2.mk"
+.include "../../mk/ossaudio.buildlink3.mk"
+.include "../../mk/pthread.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
