@@ -6,7 +6,7 @@
 # This is not linke a perl module in that you will need to generate
 # a PLIST on your own and add it to your package.
 #
-# If you don't know what pair is you can visit: http://pear.php.net/
+# If you don't know what pear is, you can visit: http://pear.php.net/
 #
 # PEAR_PREFIX	the directory under which pear packages are installed.
 #		this will default to ${PREFIX}/lib/php
