@@ -1,0 +1,6 @@
+@comment $NetBSD$
+etc/rc.d/dnsmasq
+sbin/dnsmasq
+share/doc/dnsmasq/doc.html
+share/doc/dnsmasq/setup.html
+@dirrm share/doc/dnsmasq
