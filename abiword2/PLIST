@@ -177,8 +177,6 @@ share/AbiSuite-${PKGVERSION}.0/clipart/tree.png
 share/AbiSuite-${PKGVERSION}.0/clipart/tux_bordelais.png
 share/AbiSuite-${PKGVERSION}.0/clipart/weather.png
 share/AbiSuite-${PKGVERSION}.0/clipart/write.png
-share/AbiSuite-${PKGVERSION}.0/dictionary/american.hash
-share/AbiSuite-${PKGVERSION}.0/dictionary/ispell_dictionary_list.xml
 share/AbiSuite-${PKGVERSION}.0/icons/abiword_16.xpm
 share/AbiSuite-${PKGVERSION}.0/icons/abiword_48.png
 share/AbiSuite-${PKGVERSION}.0/icons/abiword_48.tif
@@ -254,7 +252,6 @@ share/applications/abiword.desktop
 share/icons/abiword_48.png
 @dirrm share/AbiSuite-${PKGVERSION}.0/templates
 @dirrm share/AbiSuite-${PKGVERSION}.0/icons
-@dirrm share/AbiSuite-${PKGVERSION}.0/dictionary
 @dirrm share/AbiSuite-${PKGVERSION}.0/clipart
 @dirrm share/AbiSuite-${PKGVERSION}.0/AbiWord/strings
 @dirrm share/AbiSuite-${PKGVERSION}.0/AbiWord/scripts
