@@ -30,7 +30,7 @@ do-install:
 		${WRKDIR}/pppd/pppd ${PREFIX}/sbin/pppd
 	${INSTALL_MAN} ${WRKDIR}/pppd/pppd.cat8 ${PREFIX}/man/cat8/pppd.0
 	${INSTALL_MAN} ${WRKDIR}/pppd/pppd.8 ${PREFIX}/man/man8/pppd.8
-	${INSTALL} ${COPY} ${_STRIPFLAG_INSTALL} -o ${BINOWN} -g ${BINGRP} -m 444 \
+	${INSTALL} ${COPY} -o ${BINOWN} -g ${BINGRP} -m 444 \
 		${WRKDIR}/lkm/lzs.o ${PREFIX}/lkm/lzs.o
 
 .include "../../mk/bsd.pkg.mk"
