@@ -1,2 +1,2 @@
 @comment $NetBSD$
-lib/python2p2/site-packages/pyRXP.so
+${PYSITELIB}/pyRXP.so
