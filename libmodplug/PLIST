@@ -1,0 +1,11 @@
+@comment $NetBSD$
+include/libmodplug/it_defs.h
+include/libmodplug/modplug.h
+include/libmodplug/sndfile.h
+include/libmodplug/stdafx.h
+lib/libmodplug.la
+lib/libmodplug.so
+lib/libmodplug.so.0
+lib/libmodplug.so.0.0
+lib/pkgconfig/libmodplug.pc
+@dirrm include/libmodplug
