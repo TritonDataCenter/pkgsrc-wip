@@ -1,7 +1,7 @@
 # $NetBSD$
 
 DISTNAME=	X430src-4
-PKGNAME=	XFree86-fontsEncodings-${XF_VER}
+PKGNAME=	XFree86-fontsEncodings-${XFREE86_VERSION}
 WRKSRC=		${WRKDIR}/xc/fonts/encodings
 CATEGORIES=	x11
 MASTER_SITES=	${MASTER_SITE_XFREE}
