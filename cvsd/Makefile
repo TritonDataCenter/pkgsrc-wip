@@ -6,7 +6,7 @@ CATEGORIES=	devel
 MASTER_SITES=	http://tiefighter.et.tudelft.nl/~arthur/cvsd/
 
 MAINTAINER=	virtus@wanadoo.nl
-HOMEPAGE=	http://tiefighter.et.tudelft.nl/~arthur/cvsd
+HOMEPAGE=	http://tiefighter.et.tudelft.nl/~arthur/cvsd/
 COMMENT=	cvs pserver daemon
 
 USE_BUILDLINK2=	YES
