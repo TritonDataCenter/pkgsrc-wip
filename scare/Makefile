@@ -16,8 +16,7 @@ MAKE_ENV+=		BUILDLINK_DIR=${BUILDLINK_DIR}
 
 DOCDIR=			${LOCALBASE}/share/doc/scare
 
-.include "../../wip/glkterm/buildlink3.mk"
-#.include "../../wip/gtkglk/buildlink3.mk"
+.include "../../wip/glkloader/buildlink3.mk"
 .include "../../devel/zlib/buildlink3.mk"
 
 do-install:
