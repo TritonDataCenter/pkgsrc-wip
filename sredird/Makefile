@@ -9,7 +9,7 @@ MAINTAINER=		tv@duh.org
 HOMEPAGE=		http://www.pcmicro.com/sredird/
 COMMENT=		RFC2217 compliant serial port redirector
 
-USE_BUILDLINK2=		yes
+USE_BUILDLINK3=		yes
 
 MAKE_FLAGS=		CC="${CC}" CFLAGS="${CFLAGS}"
 ALL_TARGET=		sredird
