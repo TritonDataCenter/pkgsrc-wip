@@ -17,6 +17,7 @@ DEPENDS+=	${RUBY_PKGPREFIX}-racc>=1.4.3:../../devel/ruby-racc
 USE_BUILDLINK3= 	yes
 USE_RUBY_SETUP=		yes
 RUBY_DIST_SUBDIR=	# make it empty
+RUBY_HAS_ARCHLIB=	yes
 RUBY_SETUP=		install.rb
 VER=			0.42
 WRKSRC=			${WRKDIR}/${DISTNAME}/ext/ruby
