@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.489 2003/09/24 12:03:56 jmmv Exp $
+# $Id: Makefile,v 1.490 2003/09/24 22:11:41 cubidou Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -237,6 +237,7 @@ SUBDIR+=	mhonarc
 SUBDIR+=	mit-krb5
 SUBDIR+=	mixer.tk
 SUBDIR+=	mixmaster
+SUBDIR+=	monkey-bubble
 SUBDIR+=	mopac
 SUBDIR+=	mplusfonts
 SUBDIR+=	mtf
