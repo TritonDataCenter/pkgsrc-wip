@@ -1,14 +1,15 @@
 # $NetBSD$
 
-DISTNAME=	${DISTFILES}
-PKGNAME=	XFree86-server-${XF_VER}
-CATEGORIES=	x11
-MASTER_SITES=	${MASTER_SITE_XFREE}
-DISTFILES=	X430src-1.tgz X430src-2.tgz X430src-3.tgz X430src-4.tgz
+DISTNAME=		${DISTFILES}
+PKGNAME=		XFree86-server-${XF_VER}
+CATEGORIES=		x11
+MASTER_SITES=		${MASTER_SITE_XFREE}
+DISTFILES=		X430src-1.tgz X430src-2.tgz \
+			X430src-3.tgz X430src-4.tgz
 
-MAINTAINER=	xfree86@blef.org
-HOMEPAGE=	http://www.xfree86.org/
-COMMENT=	XFree86 X server and related programs
+MAINTAINER=		xfree86@blef.org
+HOMEPAGE=		http://www.xfree86.org/
+COMMENT=		XFree86 X server and related programs
 
 USE_BUILDLINK2=		YES
 DISTINFO_FILE=		${.CURDIR}/../XFree86-libs/distinfo
