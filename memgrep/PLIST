@@ -1,0 +1,6 @@
+@comment $NetBSD$
+bin/memgrep
+include/memgrep.h
+lib/heaplist.so
+lib/libmemgrep.a
+lib/libmemgrep.so
