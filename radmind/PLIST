@@ -20,3 +20,5 @@ bin/lfdiff
 bin/twhich
 bin/ra.sh
 @unexec ${RMDIR} /var/radmind/cert
+@unexec ${RMDIR} /var/radmind/client
+@unexec ${RMDIR} /var/radmind
