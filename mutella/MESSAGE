@@ -1,0 +1,8 @@
+===========================================================================
+$NetBSD$
+
+	The http interface is disabled by default.
+	Please refer to the documentation for information about
+	enabling it.
+
+===========================================================================
