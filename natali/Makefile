@@ -8,7 +8,7 @@ MAINTAINER=	hauke@Espresso.Rhein-Neckar.DE
 HOMEPAGE=	http://ppr.trincoll.edu/
 COMMENT=	AT&T/Apple AppleTalk Library Interface for Netatalk
 
-USE_BUILDLINK2=	YES
+USE_BUILDLINK3=	YES
 
 CONFLICTS=	netatalk-asun-[0-9]* netatalk-umich-[0-9]*
 
@@ -26,7 +26,7 @@ do-install:
 	${INSTALL_DATA} ${WRKSRC}/pap.h ${PREFIX}/include/at
 	${INSTALL_DATA} ${WRKSRC}/libnatali.a ${PREFIX}/lib
 
-.include "../../net/netatalk/buildlink2.mk"
+.include "../../net/netatalk/buildlink3.mk"
 
 .include "../../mk/bsd.pkg.install.mk"
 .include "../../mk/bsd.pkg.mk"
