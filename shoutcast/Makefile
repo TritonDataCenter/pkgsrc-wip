@@ -30,3 +30,4 @@ do-install:
 
 .include "../../emulators/suse_linux/Makefile.application"
 
+.include "../../mk/bsd.pkg.mk"
