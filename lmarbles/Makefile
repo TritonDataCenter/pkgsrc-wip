@@ -23,7 +23,7 @@ post-install:
 	${INSTALL_DATA} ${WRKSRC}/src/manual/marbles.jpg ${PREFIX}/share/doc/html/lmarbles
 	${INSTALL_DATA} ${WRKSRC}/src/manual/teleport.jpg ${PREFIX}/share/doc/html/lmarbles
 
-.include "../../audio/SDL-mixer/buildlink2.mk"
+.include "../../audio/SDL_mixer/buildlink2.mk"
 .include "../../devel/SDL/buildlink2.mk"
 
 .include "../../mk/bsd.pkg.mk"
