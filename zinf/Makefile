@@ -13,7 +13,7 @@ COMMENT=	Simple but powerful audio player
 
 PTHREAD_OPTS=	require
 
-USE_BUILDLINK2=	yes
+USE_BUILDLINK3=	yes
 GNU_CONFIGURE=	yes
 USE_GNU_TOOLS+=	make
 USE_X11=	yes
@@ -25,14 +25,14 @@ CONFIGURE_ARGS+=--enable-cmdline \
 		--disable-x86opts \
 #		--enable-mutex-debug
 
-.include "../../audio/musicbrainz/buildlink2.mk"
-.include "../../audio/esound/buildlink2.mk"
-.include "../../audio/libvorbis/buildlink2.mk"
-.include "../../devel/ncurses/buildlink2.mk"
-.include "../../graphics/freetype-lib/buildlink2.mk"
-.include "../../graphics/gdk-pixbuf/buildlink2.mk"
-.include "../../net/ORBit/buildlink2.mk"
-.include "../../x11/gtk/buildlink2.mk"
-.include "../../mk/ossaudio.buildlink2.mk"
-.include "../../mk/pthread.buildlink2.mk"
+.include "../../audio/musicbrainz/buildlink3.mk"
+.include "../../audio/esound/buildlink3.mk"
+.include "../../audio/libvorbis/buildlink3.mk"
+.include "../../devel/ncurses/buildlink3.mk"
+.include "../../graphics/freetype-lib/buildlink3.mk"
+.include "../../graphics/gdk-pixbuf/buildlink3.mk"
+.include "../../net/ORBit/buildlink3.mk"
+.include "../../x11/gtk/buildlink3.mk"
+.include "../../mk/ossaudio.buildlink3.mk"
+.include "../../mk/pthread.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
