@@ -3,15 +3,15 @@
 
 DISTNAME=	chrsh
 PKGNAME=	chrsh-1.0.2
-WRKSRC=         ${WRKDIR}
 CATEGORIES=	sysutils
 MASTER_SITES=	http://www.aarongifford.com/computers/
 EXTRACT_SUFX=	.c
 
 MAINTAINER=	brook@nmsu.edu
 HOMEPAGE=	http://www.aarongifford.com/computers/chrsh.html
-COMMENT=	chroot jail wrapper for ordinary Unix shells
+COMMENT=	Chroot jail wrapper for ordinary Unix shells
 
+WRKSRC=         ${WRKDIR}
 USE_BUILDLINK3=	YES
 EXTRACT_CMD=	${CP} $${extract_file} .
 
