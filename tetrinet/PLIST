@@ -1,0 +1,7 @@
+@comment $NetBSD$
+bin/tetrinet
+bin/tetrinet-server
+share/tetrinet/doc/README
+share/tetrinet/doc/tetrinet.txt
+@dirrm share/tetrinet/doc
+@dirrm share/tetrinet

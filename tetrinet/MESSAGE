@@ -1,0 +1,11 @@
+===========================================================================
+$NetBSD$
+
+This tty version of tetrinet requires a 50-line terminal (you'll get the error
+bad textwin size if you don't have a 50-line terminal).
+
+You have two solutions :
+	- Run tetrinet in a 50-line X terminal
+	- Run tetrinet in a 50-line wscons terminal (see wscons.conf(5))
+
+===========================================================================
