@@ -12,7 +12,7 @@ HOMEPAGE=	http://fredrik.hubbe.net/plugger/plugger.html
 COMMENT=	Plugin for multimedia types in Mozilla, Netscape and Opera
 
 USE_X11=	YES
-ALL_TARGET=	netbsd
+ALL_TARGET=	auto
 
 # Remove the following lines when the package will install
 NO_PKG_REGISTER=	YES
