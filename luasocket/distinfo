@@ -2,3 +2,4 @@ $NetBSD$
 
 SHA1 (luasocket-2.0-beta2.tar.gz) = c27e8b20f3e1119f5d6bbf947ecacfdad27b4330
 Size (luasocket-2.0-beta2.tar.gz) = 109897 bytes
+SHA1 (patch-aa) = f7675982fa47850cdcf5a5482cafc2c5075214a8
