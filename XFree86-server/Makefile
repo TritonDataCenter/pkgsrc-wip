@@ -31,6 +31,13 @@ XINSTALL_DIRS+=		lib/GL/mesa/src/drv
 
 .endif
 
+pre-install:
+	@cd ${WRKSRC}/programs/Xserver/hw/xfree86/parser && \
+		${CP} Makefile Makefile.orig && \
+		${SED} -e '/$$(INSTALL).*lib$$(LIBNAME).a/ d' \
+			-e '/$$(RANLIB).*lib$$(LIBNAME).a/ d' Makefile.orig \
+			> Makefile
+
 .include "../../wip/XFree86/Makefile.common"
 .include "../../wip/XFree86-libs/buildlink2.mk"
 .include "../../mk/bsd.pkg.mk"
