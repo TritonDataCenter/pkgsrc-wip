@@ -19,12 +19,6 @@ PROJECTROOT=		-DProjectRoot=${PREFIX}
 
 FILESDIR=	${PKGDIR}/../XFree86-fontsEncodings/files
 
-.include "../../mk/bsd.prefs.mk"
-
-.if ${OPSYS} == "Linux" || ${OPSYS} == "FreeBSD"
-PLIST_SRC+=	${.CURDIR}/PLIST.PERL
-.endif
-
 post-extract:
 	@${LN} -sf ${FILESDIR}/host.def ${WRKSRC}
 	@${LN} -sf ${FILESDIR}/host.def ${WRKDIR}/xc/fonts/encodings
