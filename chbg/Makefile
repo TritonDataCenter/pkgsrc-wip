@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		chbg-1.5
-CATEGORIES=		wip
+CATEGORIES=		sysutils x11
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=chbg/}
 EXTRACT_SUFX=		.tgz
 
