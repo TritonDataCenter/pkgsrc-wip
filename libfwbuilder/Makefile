@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		libfwbuilder-0.10.13
+DISTNAME=		libfwbuilder-1.0.0
 CATEGORIES=		security
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=fwbuilder/}
 
@@ -31,9 +31,9 @@ pre-configure:
 	cd ${WRKSRC} && ${AUTOCONF}
 
 .include "../../devel/glib/buildlink2.mk"
-.include "../../lang/gcc/buildlink2.mk"
 .include "../../net/net-snmp/buildlink2.mk"
 .include "../../textproc/libxslt/buildlink2.mk"
 
 .include "../../mk/automake.mk"
+.include "../../mk/gcc.buildlink2.mk"
 .include "../../mk/bsd.pkg.mk"
