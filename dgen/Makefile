@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	dgen-sdl-1.22
+DISTNAME=	dgen-sdl-1.23
 CATEGORIES=	emulators
 MASTER_SITES=	http://www.pknet.com/~joe/
 
