@@ -11,12 +11,19 @@ MAINTAINER=	xfree86@blef.org
 HOMEPAGE=	http://www.xfree86.org/
 COMMENT=	XFree86 Manuals
 
-DEPENDS=	imake>=4.3.0:../../wip/imake
+BUILD_DEPENDS=	imake>=4.3.0:../../wip/imake
 
 USE_BUILDLINK2=		yes
 
 NO_XFREE86_TARGETS=	# defined
 INSTALL_TARGET=		install.man
+
+# XXX please share suggestion on how to do this correctly
+pre-configure:
+.for F in general X11 GL/gl GL/glx GLU GLw Xv Xau Xt Xext Xext/dbe Xi 
+	@${LN} -sf ${FILESDIR}/host.def ${WRKSRC}/${F}/
+.endfor
+.undef F
 
 do-configure:
 	(cd ${WRKSRC} ; \
