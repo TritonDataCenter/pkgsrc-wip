@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		xmms-infopipe-1.3
-CATEGORIES=		wip
+CATEGORIES=		audio
 MASTER_SITES=		http://www.beastwithin.org/users/wwwwolf/code/xmms/
 
 MAINTAINER=		ivaniclixx@terra.es
