@@ -1,9 +1,9 @@
 # $NetBSD$
 #
 
-DISTNAME=	cherokee-0.4.3-pre9
+DISTNAME=	cherokee-0.4.4-pre3
 PKGNAME=	${DISTNAME:S/-pre/rc/}
-WRKSRC=		${WRKDIR}/cherokee-0.4.3
+WRKSRC=		${WRKDIR}/cherokee-0.4.4
 CATEGORIES=	www
 MASTER_SITES=	ftp://alobbs.com/cherokee/
 
