@@ -12,7 +12,6 @@ COMMENT=	Functional X client library for Python
 USE_BUILDLINK3=	yes
 
 PYDISTUTILSPKG= yes
-PYBINMODULE=    yes
 
 .include "../../lang/python/extension.mk"
 .include "../../mk/bsd.pkg.mk"
