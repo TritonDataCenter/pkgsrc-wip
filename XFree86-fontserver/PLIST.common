@@ -1,0 +1,4 @@
+@comment $NetBSD$
+bin/xfs
+lib/X11/fs/config
+@dirrm lib/X11/fs
