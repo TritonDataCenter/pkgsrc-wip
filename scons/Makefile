@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		scons-0.94
+DISTNAME=		scons-0.95
 CATEGORIES=		devel
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=scons/}
 
