@@ -1,9 +1,8 @@
 # $NetBSD$
 
-DISTNAME=	qstat25c
-PKGNAME=	qstat-2.5c
+DISTNAME=	qstat-2.6
 CATEGORIES=	games
-MASTER_SITES=	http://www.qstat.org/
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=qstat/}
 
 MAINTAINER=	peter@pointless.nl
 HOMEPAGE=	http://www.qstat.org/
