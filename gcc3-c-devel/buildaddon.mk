@@ -8,7 +8,7 @@ pre-build:
 	${LN} -sf ${GCC_PREFIX}/bin/gcc ${WRKSRC}/gcc/xgcc
 
 BUILDLINK_DEPENDS.gcc34c?=	gcc3${GCC3_PKGMODIF}-c-3.4-devel
-BUILDLINK_PKGSRCDIR.gcc34c?=	../../lang/gcc3-c-devel
+BUILDLINK_PKGSRCDIR.gcc34c?=	../../wip/gcc3-c-devel
 
 BUILDLINK_PREFIX.gcc34c=	${LOCALBASE}
 
