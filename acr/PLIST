@@ -1,0 +1,5 @@
+@comment $NetBSD$
+bin/acr
+bin/acr-sh
+man/man1/acr.1
+man/man5/configure.acr.5
