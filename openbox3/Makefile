@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	openbox-3.0-beta1
+DISTNAME=	openbox-3.0-beta2
 PKGNAME=	${DISTNAME:S/-beta/beta/}
 CATEGORIES=	wm x11
 MASTER_SITES=	http://icculus.org/openbox/releases/
@@ -26,6 +26,5 @@ LIBTOOL_OVERRIDE=	${WRKSRC}/libtool
 .include "../../fonts/Xft2/buildlink2.mk"
 .include "../../textproc/libxml2/buildlink2.mk"
 .include "../../x11/startup-notification/buildlink2.mk"
-.include "../../x11/gtk2/buildlink2.mk"
 
 .include "../../mk/bsd.pkg.mk"
