@@ -2,7 +2,7 @@
 
 DRW_CLIENT_NAME=	dc
 
-MAINTAINER=		mishka@terabyte.com.ua
+MAINTAINER=		tech-pkg@netbsd.org
 COMMENT=		Command line client for DrWeb Daemon antivirus
 
 do-install:

@@ -2,7 +2,7 @@
 
 DRW_CLIENT_NAME=	smf
 
-MAINTAINER=		mishka@terabyte.com.ua
+MAINTAINER=		tech-pkg@netbsd.org
 COMMENT=		Sendmail MTA filter for DrWeb Daemon antivirus
 
 RCD_SCRIPTS=		drweb-smf
