@@ -1,0 +1,7 @@
+@comment $NetBSD$
+share/dict/words
+share/dict/linux.words
+share/doc/words/README.linux.words
+share/doc/words/README${PKGVERSION}.linux.words
+@dirrm share/doc/words
+@dirrm share/dict
