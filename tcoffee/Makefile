@@ -11,7 +11,7 @@ MAINTAINER=		dprice@cs.nmsu.edu
 HOMEPAGE=		http://igs-server.cnrs-mrs.fr/~cnotred/Packages/
 COMMENT=		Multiple Sequence Alignment Package
 
-DEPENDS+=               clustalw-1.8:../../biology/clustalw
+DEPENDS+=               clustalw>=1.8:../../biology/clustalw
 
 MESSAGE_SUBST+=         PREFIX=${PREFIX}
 MAKEFILE=               makefile
