@@ -1,10 +1,13 @@
 # $NetBSD$
 #
 
-PKGNAME=	nagios-plugins-${PLUGINSVERSION}
+DISTNAME=	nagios-plugins-${PLUGINSVERSION}
 PKGREVISION=	# not defined
+CATEGORIES=	net sysutils
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=nagiosplug/}
 
 MAINTAINER=     murray@river-styx.org
+HOMEPAGE=       http://sourceforge.net/projects/nagiosplug/
 COMMENT=	Nagios plugins
 
 .include "../../wip/nagios-plugins/Makefile.common"
