@@ -1,5 +1,5 @@
 @comment $NetBSD$
-etc/rc.d/jabber
+etc/rc.d/jabberd
 include/jabberd/jabberd.h
 include/jabberd/lib.h
 include/jabberd/xmlparse.h
