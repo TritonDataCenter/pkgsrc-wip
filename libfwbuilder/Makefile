@@ -1,11 +1,11 @@
 # $NetBSD$
 #
 
-DISTNAME=		libfwbuilder-1.0.0
+DISTNAME=		libfwbuilder-1.0.1
 CATEGORIES=		security
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=fwbuilder/}
 
-MAINTAINER=		marc@informatik.uni-bremen.de
+MAINTAINER=		recht@NetBSD.org
 HOMEPAGE=		http://www.fwbuilder.org/
 COMMENT=		Firewall configuration and management tool
 

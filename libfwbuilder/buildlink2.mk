@@ -5,7 +5,7 @@
 LIBFWBUILDER_BUILDLINK2_MK=	# defined
 
 BUILDLINK_PACKAGES+=			libfwbuilder
-BUILDLINK_DEPENDS.libfwbuilder?=		libfwbuilder>=1.0.0
+BUILDLINK_DEPENDS.libfwbuilder?=		libfwbuilder>=1.0.1
 BUILDLINK_PKGSRCDIR.libfwbuilder?=		../../wip/libfwbuilder
 
 EVAL_PREFIX+=	BUILDLINK_PREFIX.libfwbuilder=libfwbuilder
