@@ -9,13 +9,11 @@ MAINTAINER=	recht@NetBSD.org
 HOMEPAGE=	http://www.gnu.org/software/gnats/
 COMMENT=	GNATS bug tracking system
 
-BUILD_DEPENDS+=	m4-*:../../devel/m4
-
 CONFLICTS=	gnats-[0-9]*
 
 USE_BUILDLINK2=		yes
 USE_PKGLOCALEDIR=	yes
-USE_GNU_TOOLS+=		make
+USE_GNU_TOOLS+=		m4 make
 USE_BISON=		yes
 USE_MAKEINFO=		yes
 USE_LIBTOOL=		yes
