@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.1342 2004/06/24 23:48:06 adrian_p Exp $
+# $Id: Makefile,v 1.1343 2004/06/25 14:49:30 minskim Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -603,6 +603,7 @@ SUBDIR+=	py-nevow
 SUBDIR+=	py-oak
 SUBDIR+=	py-orm
 SUBDIR+=	py-pcapy
+SUBDIR+=	py-plucker
 SUBDIR+=	py-rlcompleter2
 SUBDIR+=	py-scapy
 SUBDIR+=	py-scipy_distutils
