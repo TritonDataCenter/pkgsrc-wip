@@ -10,7 +10,7 @@ MAINTAINER=		jaapboen@sci.kun.nl
 HOMEPAGE=		http://www.cs.kun.nl/~kees/eag
 COMMENT=		Transducer generator using affix grammars
 
-USE_BUILDLINK2=		yes
+USE_BUILDLINK3=		yes
 USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=		yes
 GNU_CONFIGURE=		yes
