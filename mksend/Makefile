@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		mksend-0.5.2
+DISTNAME=		mksend-0.5.3
 CATEGORIES=		wip net
 MASTER_SITES=		ftp://ftp.nopcode.org/prj/mksend/
 
