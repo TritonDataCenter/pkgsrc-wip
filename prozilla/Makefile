@@ -7,7 +7,7 @@ MASTER_SITES=		http://prozilla.genesys.ro/downloads/prozilla/tarballs/
 
 MAINTAINER=	 	low@ameba6.com
 HOMEPAGE=		http://www.gnu.org/directory/network/Tools/ProZilla.html
-COMMENT=		ProZilla is a multi-threaded download accelerator.
+COMMENT=		ProZilla is a multi-threaded download accelerator
 
 USE_BUILDLINK3=		yes
 USE_PKGLOCALEDIR=	yes
