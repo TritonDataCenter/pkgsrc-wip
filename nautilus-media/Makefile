@@ -6,7 +6,7 @@ CATEGORIES=	sysutils
 MASTER_SITES=	${MASTER_SITE_GNOME:=sources/nautilus-media/0.2/}
 EXTRACT_SUFX=	.tar.bz2
 
-MAINTAINER=	tech-pkg@NetBSD.org
+MAINTAINER=	jrp@hispabsd.org
 HOMEPAGE=	http://www.gnome.org/
 COMMENT=	GStreamer-based multimedia views for Nautilus
 

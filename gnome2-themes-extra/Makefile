@@ -7,7 +7,7 @@ CATEGORIES=	x11 gnome2
 MASTER_SITES=	${MASTER_SITE_GNOME:=sources/gnome-themes-extras/0.1/}
 EXTRACT_SUFX=	.tar.bz2
 
-MAINTAINER=	tech-pkg@NetBSD.org
+MAINTAINER=	jrp@hispabsd.org
 HOMEPAGE=	http://www.gnome.org/
 COMMENT=	Extra themes for GNOME2
 
