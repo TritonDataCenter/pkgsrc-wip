@@ -7,7 +7,7 @@ CATEGORIES=	devel games cross emulators
 MASTER_SITES=	http://members.cox.net/rcolbert/zip/
 EXTRACT_SUFX=	.zip
 
-MAINTAINER=	mor@linex.com
+MAINTAINER=	xmor61@users.sourceforge.net
 HOMEPAGE=	http://members.cox.net/rcolbert/index.htm
 COMMENT=	6502 Disassembler with Atari 2600 headers and cycle counting info
 
