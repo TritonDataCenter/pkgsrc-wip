@@ -4,7 +4,7 @@ DISTNAME=	mini_httpd-1.19
 CATEGORIES=	www
 MASTER_SITES=	http://www.acme.com/software/mini_httpd/
 
-MAINTAINER=	bjan+pkgsrc@bjan.freeshell.org
+MAINTAINER=	pkgsrc@bjan.freeshell.org
 HOMEPAGE=	http://www.acme.com/software/mini_httpd/
 COMMENT=	Small, forking webserver with IPv6 and SSL support
 
