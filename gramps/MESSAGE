@@ -1,0 +1,9 @@
+===========================================================================
+$NetBSD$
+
+To generate PDF reports, install ReportLab (print/py-reportlab).
+
+To be able to use thumbnail images, install the Python Imaging Library
+(graphics/py-imaging) or ImageMagick (graphics/ImageMagick).
+
+===========================================================================
