@@ -9,6 +9,8 @@ MAINTAINER=		roland.illig@gmx.de
 HOMEPAGE=		http://abridgegame.org/darcs/
 COMMENT=		Advanced Revision Control System based on patches
 
+BUILD_DEPENDS+=		latex2html-[0-9]*:../../textproc/latex2html
+
 USE_BUILDLINK3=		yes
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
