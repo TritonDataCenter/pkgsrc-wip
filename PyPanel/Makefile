@@ -17,5 +17,5 @@ USE_X11=		yes
 .include "../../lang/python/application.mk"
 .include "../../lang/python/extension.mk"
 .include "../../fonts/Xft2/buildlink3.mk"
-.include "../../wip/py-Xlib/buildlink3.mk"
+.include "../../x11/py-Xlib/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
