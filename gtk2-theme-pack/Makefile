@@ -114,6 +114,7 @@ COMMENT=		Art for your GTK+ 2.x desktop
 # TODO: buildlinks?
 DEPENDS+=	gtk2-engines-bluecurve>=1.0:../../wip/gtk2-engines-bluecurve
 DEPENDS+=	gtk2-engines-dwerg>=0.6:../../wip/gtk2-engines-dwerg
+DEPENDS+=	gtk2-engines-lighthouseblue>=0.4:../../wip/gtk2-engines-lighthouseblue
 DEPENDS+=	gtk2-engines-magichicken>=1.0.2:../../wip/gtk2-engines-magichicken
 DEPENDS+=	gtk2-engines-mist>=0.10:../../wip/gtk2-engines-mist
 DEPENDS+=	gtk2-engines-smooth>=0:../../wip/gtk2-engines-smooth
