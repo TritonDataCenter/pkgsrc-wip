@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	gkrellflynn-0.8
-PKGNAME=	${DISTNAME:S/gkrellm/gkrellm-/}
+PKGNAME=	${DISTNAME:S/gkrell/gkrellm-/}
 CATEGORIES=	systutils
 MASTER_SITES=	http://horus.comlab.uni-rostock.de/flynn/
 
