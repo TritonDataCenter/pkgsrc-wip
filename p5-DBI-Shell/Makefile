@@ -12,7 +12,7 @@ HOMEPAGE=	http://www.perldoc.com/perl5.6.1/lib/DBI/Shell.html
 COMMENT=	Interactive command Shell for the Perl DBI
 
 DEPENDS+=	p5-DBI>=1.37:../../databases/p5-DBI
-DEPENDS+=	p5-IO-Tee>=0.64:../../wip/p5-IO-Tee
+DEPENDS+=	p5-IO-Tee>=0.64:../../devel/p5-IO-Tee
 DEPENDS+=	p5-Text-Reform>=1.11:../../wip/p5-Text-Reform
 
 USE_BUILDLINK2=		YES
