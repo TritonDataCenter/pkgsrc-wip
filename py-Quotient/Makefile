@@ -14,6 +14,8 @@ USE_BUILDLINK2=		yes
 PY_PATCHPLIST=		yes
 PYDISTUTILSPKG=		yes
 
+DEPENDS+=		${PYPKGPREFIX}-Lupy>=0.1.5.5.1:../../textproc/py-Lupy
+
 .include "../../lang/python/extension.mk"
 .include "../../wip/py-bsddb/buildlink2.mk"
 .include "../../wip/py-spambayes/buildlink2.mk"
