@@ -1,4 +1,4 @@
-#!/bin/sh
+#!@RCS_SCRIPTS_SHELL@
 #
 # $NetBSD$
 #
