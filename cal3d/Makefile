@@ -12,6 +12,7 @@ COMMENT=	        Skeletal based 3d character animation library in C++
 USE_BUILDLINK2=		yes
 USE_LIBTOOL=		yes
 GNU_CONFIGURE=		yes
+AUTOMAKE_REQD=		1.8
 LIBTOOL_OVERRIDE=	${WRKSRC}/libtool
 
 pre-configure:
