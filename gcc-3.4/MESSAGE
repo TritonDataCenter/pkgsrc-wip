@@ -1,7 +1,7 @@
 ===========================================================================
 $NetBSD$
 
-cgg-3.4.0 has been installed in ${LOCALBASE}/gcc-3.4.0
+gcc-3.4.0 has been installed in ${LOCALBASE}/gcc-3.4.0
 
 Consider adding ${LOCALBASE}/gcc-3.4.0/lib to your LD_LIBRARY_PATH or
 including it in /etc/ld.so.conf
