@@ -1,10 +1,11 @@
 # $NetBSD$
 #
 
-DISTNAME=		Soya-0.5.1
+DISTNAME=		Soya-0.6.1
 PKGNAME=		${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=		devel
 MASTER_SITES=		http://oomadness.tuxfamily.org/downloads/
+EXTRACT_SUFX=		.tar.bz2
 
 MAINTAINER=		dotz@irc.pl
 HOMEPAGE=		http://oomadness.tuxfamily.org/en/soya/index.html
@@ -17,7 +18,7 @@ PYDISTUTILSPKG=		yes
 PYTHON_VERSIONS_ACCEPTED=	23pth
 
 .include "../../lang/python/extension.mk"
-.include "../../graphics/Mesa/buildlink2.mk"
+.include "../../mk/opengl.buildlink2.mk"
 .include "../../graphics/freetype2/buildlink2.mk"
 .include "../../graphics/png/buildlink2.mk"
 .include "../../wip/cal3d/buildlink2.mk"
