@@ -37,7 +37,7 @@ pre-install:
 		${SED} -e '/$$(INSTALL).*lib$$(LIBNAME).a/ d' \
 		-e '/$$(RANLIB).*lib$$(LIBNAME).a/ d' \
 		-e 's|$$(INSTALL) $$(INSTALLFLAGS) $$(INSTINCFLAGS)|echo|' \
-	       	Makefile.orig > Makefile
+		Makefile.orig > Makefile
 	@cd ${WRKSRC}/lib/font/stubs && \
 		${CP} Makefile Makefile.orig && \
 		${SED} -e '/$$(INSTALL).*libfntstubs.a/ d' \

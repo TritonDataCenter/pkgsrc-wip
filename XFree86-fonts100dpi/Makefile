@@ -26,7 +26,7 @@ post-extract:
 do-configure:
 	(cd ${WRKDIR}/xc/fonts/encodings && \
 	${IMAKE} -DUseInstalled -I${PREFIX}/lib/X11/config -DTOPDIR=../.. \
-       		-DCURDIR=.; \
+		-DCURDIR=.; \
 	${MAKE} Makefiles ; \
 	${MAKE} includes ; \
 	${MAKE} depend)
