@@ -58,7 +58,6 @@ PKG_USERS=              ${DSPAM_GROUP}:${DSPAM_USER}
 
 # Default options
 CONFIGURE_ARGS+=	--enable-client-compression
-CONFIGURE_ARGS+=	--enable-robinson
 CONFIGURE_ARGS+=	--enable-chi-square
 CONFIGURE_ARGS+=	--enable-robinson-pvalues
 CONFIGURE_ARGS+=	--with-signature-life=${DSPAM_SIGNATURE_LIFE}
