@@ -10,7 +10,7 @@ MAINTAINER=		mchittur@cs.nmsu.edu
 HOMEPAGE=		http://gdal.org/
 COMMENT=		Documentation for GDAL
 
-EPENDS+=		doxygen>=1.4.1:../../devel/doxygen/
+DEPENDS+=		doxygen>=1.4.1:../../devel/doxygen/
 
 USE_BUILDLINK3=		yes
 USE_GNU_TOOLS+=		make
