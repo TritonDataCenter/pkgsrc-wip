@@ -6,7 +6,7 @@ CATEGORIES=	lang
 MASTER_SITES=	http://fabrice.bellard.free.fr/tcc/
 
 MAINTAINER=	pancake@phreaker.net
-HOMEPAGE=	http://www.tinycc.org
+HOMEPAGE=	http://www.tinycc.org/
 COMMENT=	The Smallest ANSI C compiler
 
 USE_GMAKE=	yes
