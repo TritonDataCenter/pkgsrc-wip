@@ -9,7 +9,7 @@
 XFCE4_FM_BUILDLINK2_MK=	# defined
 
 BUILDLINK_PACKAGES+=			xfce4-fm
-BUILDLINK_DEPENDS.xfce4-fm?=		xfce4-fm>=3.99.2
+BUILDLINK_DEPENDS.xfce4-fm?=		xfce4-fm>=3.99.3
 BUILDLINK_PKGSRCDIR.xfce4-fm?=		../../wip/xfce4-fm
 
 EVAL_PREFIX+=	BUILDLINK_PREFIX.xfce4-fm=xfce4-fm

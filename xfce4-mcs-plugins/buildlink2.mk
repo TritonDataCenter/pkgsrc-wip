@@ -9,7 +9,7 @@
 XFCE4_MCS_PLUGINS_BUILDLINK2_MK=	# defined
 
 BUILDLINK_PACKAGES+=			xfce4-mcs-plugins
-BUILDLINK_DEPENDS.xfce4-mcs-plugins?=		xfce4-mcs-plugins>=3.99.2
+BUILDLINK_DEPENDS.xfce4-mcs-plugins?=		xfce4-mcs-plugins>=3.99.3
 BUILDLINK_PKGSRCDIR.xfce4-mcs-plugins?=		../../wip/xfce4-mcs-plugins
 
 EVAL_PREFIX+=	BUILDLINK_PREFIX.xfce4-mcs-plugins=xfce4-mcs-plugins

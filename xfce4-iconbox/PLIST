@@ -10,6 +10,7 @@ ${PKGLOCALEDIR}/locale/es_MX/LC_MESSAGES/xfce4-iconbox.mo
 ${PKGLOCALEDIR}/locale/fr/LC_MESSAGES/xfce4-iconbox.mo
 ${PKGLOCALEDIR}/locale/hu/LC_MESSAGES/xfce4-iconbox.mo
 ${PKGLOCALEDIR}/locale/it/LC_MESSAGES/xfce4-iconbox.mo
+${PKGLOCALEDIR}/locale/lt/LC_MESSAGES/xfce4-iconbox.mo
 ${PKGLOCALEDIR}/locale/nl/LC_MESSAGES/xfce4-iconbox.mo
 ${PKGLOCALEDIR}/locale/tr/LC_MESSAGES/xfce4-iconbox.mo
 ${PKGLOCALEDIR}/locale/zh_CN/LC_MESSAGES/xfce4-iconbox.mo

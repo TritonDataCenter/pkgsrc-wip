@@ -10,7 +10,7 @@ XFCE4_NETLOAD_PLUGIN_BUILDLINK2_MK=	# defined
 
 BUILDLINK_PACKAGES+=			xfce4-netload-plugin
 BUILDLINK_DEPENDS.xfce4-netload-plugin?=		xfce4-netload-plugin>=0.2.0pre1
-BUILDLINK_PKGSRCDIR.xfce4-netload-plugin?=		../../wip/xfce4-netload
+BUILDLINK_PKGSRCDIR.xfce4-netload-plugin?=		../../wip/xfce4-netload-plugin
 
 EVAL_PREFIX+=	BUILDLINK_PREFIX.xfce4-netload-plugin=xfce4-netload-plugin
 BUILDLINK_PREFIX.xfce4-netload-plugin_DEFAULT=	${X11PREFIX}

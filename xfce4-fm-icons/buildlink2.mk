@@ -9,7 +9,7 @@
 XFCE4_FM_ICONS_BUILDLINK2_MK=	# defined
 
 BUILDLINK_PACKAGES+=			xfce4-fm-icons
-BUILDLINK_DEPENDS.xfce4-fm-icons?=		xfce4-fm-icons>=3.99.2
+BUILDLINK_DEPENDS.xfce4-fm-icons?=		xfce4-fm-icons>=3.99.3
 BUILDLINK_PKGSRCDIR.xfce4-fm-icons?=		../../wip/xfce4-fm-icons
 
 EVAL_PREFIX+=	BUILDLINK_PREFIX.xfce4-fm-icons=xfce4-fm-icons
