@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.1697 2005/03/21 21:42:13 tvierling Exp $
+# $Id: Makefile,v 1.1698 2005/03/23 11:13:12 obache Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -83,6 +83,7 @@ SUBDIR+=	asfrecorder
 SUBDIR+=	asterisk
 SUBDIR+=	autoproject
 SUBDIR+=	avida2
+SUBDIR+=	avifile-devel
 SUBDIR+=	awflwm
 SUBDIR+=	axe
 SUBDIR+=	azara
