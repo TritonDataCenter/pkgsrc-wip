@@ -12,7 +12,7 @@
 #
 # * Because this all requires SCSL acceptance, the JRE is not
 #   actually redistributable.  Thus source building is required, and
-#   there's little point in separating JDK and JRE int separate
+#   there's little point in separating JDK and JRE into separate
 #   pkgsrc entities.
 #
 # * There is no LICENSE setting, since obtaining the source tarball
