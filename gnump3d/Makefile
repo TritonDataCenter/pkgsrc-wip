@@ -15,6 +15,20 @@ USE_GNU_TOOLS+=		make
 REPLACE_PERL=   	${WRKSRC}/bin/*
 USE_BUILDLINK3=		yes
 
+SUBST_CLASSES=		usr etc
+SUBST_FILES=		bin/gnump3d-index bin/gnump3d-top bin/gnump3d2 etc/gnump3d.conf
+
+SUBST_STAGE.usr=	pre-patch
+SUBST_FILES.usr=	${SUBST_FILES}
+SUBST_SED.usr=		-e s!/usr\/!${PREFIX}/!
+
+SUBST_STAGE.etc=	pre-patch
+SUBST_FILES.etc=	${SUBST_FILES}
+SUBST_SED.etc=		-e s!/etc\/!${PREFIX}/etc/!
+
 do-build:
+
+pre-install:
+	${FIND} ${WRKSRC} -type f -name \*.sav |${XARGS} ${RM} -f
 
 .include "../../mk/bsd.pkg.mk"
