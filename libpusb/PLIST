@@ -1,3 +1,8 @@
 @comment $NetBSD$
+lib/libpusb.so.0.1
+lib/libpusb.so.0
 lib/libpusb.so
+lib/libpusb.a
+lib/libpusb_p.a
+lib/libpusb_pic.a
 include/pusb.h
