@@ -1,3 +1,0 @@
-@comment $NetBSD$
-bin/xenvstat
-lib/X11/app-defaults/Xenvstat
