@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.233 2003/06/10 13:46:21 airhead Exp $
+# $Id: Makefile,v 1.234 2003/06/11 08:20:04 xtraeme Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -34,6 +34,7 @@ SUBDIR+=	devhelp
 SUBDIR+=	dfbpoint
 SUBDIR+=	dfbsee
 SUBDIR+=	directfb
+SUBDIR+=	directory-administrator
 SUBDIR+=	drweb
 SUBDIR+=	ed
 SUBDIR+=	emirror
