@@ -1,3 +1,5 @@
 $NetBSD$
 
-Does not shutdown correctly on -current (last confirmed on 1.6U)
+- Does not shutdown correctly on -current (last confirmed on 1.6U)
+- Stop server package from installing include files that are already there
+from the mysql4-client package.
