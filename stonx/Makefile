@@ -5,7 +5,7 @@ DISTNAME=		STonX-0.6.7.6
 CATEGORIES=		emulators
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=stonx/}
 
-MAINTAINER=		packages@NetBSD.org
+MAINTAINER=		xmor61@users.sourceforge.net
 HOMEPAGE=		http://stonx.sourceforge.net/
 COMMENT=		Atari ST Emulator
 
