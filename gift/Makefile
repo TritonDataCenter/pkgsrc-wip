@@ -14,22 +14,18 @@ USE_BUILDLINK2=		yes
 USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=		yes
 GNU_CONFIGURE=		yes
-USE_PKGINSTALL=		yes
 
 LIBTOOL_OVERRIDE=       ${WRKSRC}/libtool
 PKGCONFIG_OVERRIDE+=    ${WRKSRC}/lib/libgift.pc.in
 
-PKG_SYSCONFSUBDIR=      gift
-
 EGDIR=		${PREFIX}/share/examples/gift
-CONF_FILES=	${EGDIR}/giftd.conf.template ${PKG_SYSCONFDIR}/giftd.conf
-CONF_FILES+=	${EGDIR}/ui.conf.template ${PKG_SYSCONFDIR}/ui.conf
 
 post-install:
 	${INSTALL_DATA_DIR} ${EGDIR}
 	${INSTALL_DATA} ${WRKSRC}/etc/giftd.conf.template \
 		${WRKSRC}/etc/ui/ui.conf.template ${EGDIR}
 
+.include "../../devel/libtool/buildlink2.mk"
 .include "../../audio/libvorbis/buildlink2.mk"
 .include "../../devel/pkgconfig/buildlink2.mk"
 .include "../../mk/bsd.pkg.mk"
