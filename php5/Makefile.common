@@ -1,20 +1,16 @@
 # $NetBSD$
 #
 
-DISTNAME?=	php-${PHP5_VERSION}
-CATEGORIES=	wip www
+DISTNAME?=		php-${PHP5_VERSION}
 MASTER_SITES=	http://www.php.net/distributions/
 EXTRACT_SUFX=	.tar.bz2
-
-MAINTAINER=	pancake@phreaker.net
-HOMEPAGE=	http://www.php.net/
 
 USE_BUILDLINK3=	YES
 GNU_CONFIGURE=	YES
 USE_GNU_TOOLS+=	make
 
 PHP5_VERSION=	5.0.0RC2
-CONFLICTS+=	php-[34]*
+CONFLICTS+=		php-[34]*
 
 .include "../../mk/bsd.prefs.mk"
 
