@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.32 2003/04/05 21:49:28 marc Exp $
+# $Id: Makefile,v 1.33 2003/04/05 22:07:05 freyr Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -10,6 +10,7 @@ SUBDIR+=	chksniff
 SUBDIR+=	chktex
 SUBDIR+=	cvsd
 SUBDIR+=	dbh
+SUBDIR+=	golem
 SUBDIR+=	gtk-sharp
 SUBDIR+=	gtkglarea2
 SUBDIR+=	httrack
