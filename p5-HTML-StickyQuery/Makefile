@@ -14,7 +14,9 @@ COMMENT=		Add sticky QUERY_STRING to a tag href attributes
 DEPENDS+=		p5-HTML-Parser>=3.34:../../www/p5-HTML-Parser
 DEPENDS+=		p5-URI>=1.27:../../www/p5-URI
 
-USE_BUILDLINK2=		YES
+PKG_INSTALLATION_TYPES=	overwrite pkgviews
+
+USE_BUILDLINK3=		YES
 PERL5_PACKLIST=		${PERL5_SITEARCH}/auto/HTML/StickyQuery/.packlist
 
 .include "../../lang/perl5/module.mk"
