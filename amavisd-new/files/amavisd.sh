@@ -4,6 +4,7 @@
 #
 # PROVIDE: amavisd
 # REQUIRE: DAEMON
+# BEFORE:  mail
 #
 # To start spread at startup, copy this script to /etc/rc.d and set
 # spread=YES in /etc/rc.conf.
