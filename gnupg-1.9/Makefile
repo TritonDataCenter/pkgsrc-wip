@@ -17,7 +17,7 @@ LIBTOOL_OVERRIDE=       ${WRKSRC}/libtool
 GNU_CONFIGURE=          yes
 USE_GNU_TOOLS+=         make
 
-.include "../libgpg-error/buildlink3.mk"
+.include "../../security/libgpg-error/buildlink3.mk"
 .include "../libgcrypt/buildlink3.mk"
 .include "../libassuan/buildlink3.mk"
 .include "../libksba/buildlink3.mk"
