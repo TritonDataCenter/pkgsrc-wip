@@ -1,0 +1,3 @@
+@comment $NetBSD$
+bin/mutt_vc_query
+man/man1/mutt_vc_query.1
