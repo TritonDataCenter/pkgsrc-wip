@@ -23,9 +23,9 @@ post-install:
 	${INSTALL_DATA} ${WRKSRC}/AUTHORS ${PREFIX}/share/doc/${PKGBASE}/
 	${INSTALL_DATA} ${WRKSRC}/ChangeLog ${PREFIX}/share/doc/${PKGBASE}/
 
+.include "../../devel/gmp/buildlink3.mk"
 .include "../../devel/zlib/buildlink3.mk"
 .include "../../lang/ghc/buildlink3.mk"
-.include "../../math/gmp/buildlink3.mk"
 .include "../../www/curl/buildlink3.mk"
 .include "../../mk/pthread.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
