@@ -13,7 +13,7 @@ BUILDLINK_DEPENDS+=	xlibs
 .if !empty(XLIBS_BUILDLINK3_MK:M+)
 BUILDLINK_PACKAGES+=			xlibs
 BUILDLINK_DEPENDS.xlibs+=		xlibs>=1.0
-BUILDLINK_PKGSRCDIR.xlibs?=		../../new/xlibs
+BUILDLINK_PKGSRCDIR.xlibs?=		../../wip/xlibs
 
 .include "../../wip/xextensions/buildlink3.mk"
 .include "../../wip/xproto/buildlink3.mk"

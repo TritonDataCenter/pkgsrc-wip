@@ -8,7 +8,7 @@ XLIBS_BUILDLINK2_MK=	# defined
 
 BUILDLINK_PACKAGES+=			xlibs
 BUILDLINK_DEPENDS.xlibs?=		xlibs>=1.0
-BUILDLINK_PKGSRCDIR.xlibs?=		../../new/xlibs
+BUILDLINK_PKGSRCDIR.xlibs?=		../../wip/xlibs
 
 EVAL_PREFIX+=	BUILDLINK_PREFIX.xlibs=xlibs
 BUILDLINK_PREFIX.xlibs_DEFAULT=	${X11PREFIX}
