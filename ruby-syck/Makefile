@@ -28,5 +28,5 @@ post-install:
 .endfor
 
 .include "../../lang/ruby-base/Makefile.common"
-.include "../../lang/ruby-base/buildlink2.mk"
+.include "../../lang/ruby-base/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
