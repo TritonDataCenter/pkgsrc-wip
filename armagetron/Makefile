@@ -39,6 +39,7 @@ do-install:
 .include "../../devel/SDL/buildlink2.mk"
 .include "../../graphics/MesaLib/buildlink2.mk"
 .include "../../graphics/SDL_image/buildlink2.mk"
+.include "../../graphics/glu/buildlink2.mk"
 .include "../../graphics/jpeg/buildlink2.mk"
 .include "../../graphics/png/buildlink2.mk"
 
