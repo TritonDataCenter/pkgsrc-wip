@@ -13,11 +13,11 @@ COMMENT=		Gives socket capabilities to lua50
 MAKEFILE=		${WRKSRC}/makefile
 ALL_TARGET=		dyn
 USE_GNU_TOOLS+=		make
-USE_BUILDLINK2=		YES
+USE_BUILDLINK3=		YES
 
 post-install:
 	${INSTALL_DATA_DIR} ${PREFIX}/lib/lua/
 	${INSTALL_DATA} ${WRKSRC}/*.lua ${PREFIX}/lib/lua/
 
-.include "../../lang/lua/buildlink2.mk"
+.include "../../lang/lua/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
