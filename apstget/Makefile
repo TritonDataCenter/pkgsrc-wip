@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	apstget-20041214
+DISTNAME=	apstget-20041223
 CATEGORIES=	pkgtools wip
 MASTER_SITES=	# empty
 DISTFILES=	# empty
@@ -29,6 +29,7 @@ do-install:
 
 .include "../../mk/bsd.prefs.mk"
 
+# AWK compatibilty stuff
 .if ${OPSYS} != "Linux"
 SUBST_SED.etc= -e "s,-W interactive,,"
 .endif
