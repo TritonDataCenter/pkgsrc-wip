@@ -16,6 +16,8 @@ GNU_CONFIGURE=	YES
 
 MAKEFILE=		makefile
 ALL_TARGET=		# there is no 'all' target for some reason
+USE_NEW_TEXINFO=	YES
+USE_MAKEINFO=		YES
 INFO_FILES=		allegro.info
 INSTALL_TARGET=		install install-info
 
@@ -33,5 +35,4 @@ CONFIGURE_ARGS+=	--disable-xwin-dga2
 LIBS+=		${LIBOSSAUDIO}
 
 .include "../../mk/ossaudio.buildlink2.mk"
-.include "../../mk/texinfo.mk"
 .include "../../mk/bsd.pkg.mk"
