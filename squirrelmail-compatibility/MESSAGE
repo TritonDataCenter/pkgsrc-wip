@@ -1,0 +1,7 @@
+===========================================================================
+$NetBSD$
+
+    This plugin needs no enabling, it's picked up automatically
+    by those plugins requiring it.
+
+===========================================================================
