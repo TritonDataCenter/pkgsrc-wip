@@ -8,7 +8,7 @@ $NetBSD$
 -PREFIX      = /usr
 -CONFDIR     = /etc/gnump3d
 +#PREFIX      = /usr
-+CONFDIR     = ${PREFIX}/gnump3d
++CONFDIR     = ${PREFIX}/etc/gnump3d
  CACHEDIR    = /var/cache/gnump3d
  SERVEDIR    = /var/cache/gnump3d/serving
  LOGDIR      = /var/log/gnump3d
