@@ -15,7 +15,7 @@ USE_BUILDLINK2=		YES
 USE_LIBTOOL=		YES
 USE_X11BASE=		YES
 
-LTCONFIG_OVERRIDE=	${WRKSRC}/ltconfig
+LIBTOOL_OVERRIDE=	${WRKSRC}/libtool
 
 .include "../../x11/gtk/buildlink2.mk"
 .include "../../mk/bsd.pkg.mk"
