@@ -24,7 +24,6 @@ FILESDIR=		${.CURDIR}/../isc-dhcpd/files
 VAR_DIR?=		/var
 
 USE_PKGINSTALL=			YES
-PKG_RCD_SCRIPTS=		YES
 RCD_SCRIPTS=			isc_${ISC_DHCP_TYPE}
 
 pre-configure:
