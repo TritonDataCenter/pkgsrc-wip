@@ -5,7 +5,7 @@ DISTNAME=	oops-1.5.23
 CATEGORIES=	net
 MASTER_SITES=	http://zipper.paco.net/~igor/oops/
 
-MAINTAINER=	tech-pkg@netbsd.org
+MAINTAINER=	shattered@users.sourceforge.net
 HOMEPAGE=	http://oops-cache.org/
 COMMENT=	Multithreaded caching HTTP proxy server
 
