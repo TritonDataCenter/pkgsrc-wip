@@ -296,7 +296,7 @@ share/texmf/tex/latex/CJK/thai/c90dbss.fd
 share/texmf/tex/latex/CJK/thai/c90enc.def
 share/texmf/tex/latex/CJK/thai/c90nrsr.fd
 share/texmf/tex/latex/CJK/thai/thaicjk.ldf
-share/texmf/ttf2tfm/base/ttfonts.map
+@unexec mktexlsr
 @dirrm share/texmf/tex/latex/CJK/thai
 @dirrm share/texmf/tex/latex/CJK/mule
 @dirrm share/texmf/tex/latex/CJK/UTF8
