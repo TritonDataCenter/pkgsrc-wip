@@ -27,7 +27,7 @@ post-extract:
 
 # XXX please share suggestion on how to do this correctly
 pre-configure:
-.for F in general X11 GL/gl GL/glx GLU GLw Xv Xau Xt Xext Xext/dbe Xi 
+.for F in general X11 GL/gl GL/glx GLU GLw Xv Xau Xt Xext Xext/dbe Xi
 	@${LN} -sf ${WRKSRC}/host.def ${WRKSRC}/${F}/
 .endfor
 .undef F
