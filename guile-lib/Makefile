@@ -13,28 +13,22 @@ COMMENT=	Library functions for Guile, implemented in Scheme
 # from 1.6 onwards.
 DEPENDS+=	guile>=1.6:../../lang/guile
 
+# This package may not be built from the src directory (arch configure
+# rules).  The build directory must be created by hand; see the
+# pre-configure target.
 HAS_CONFIGURE=	yes
-#CONFIGURE_SCRIPT=	../src/configure
-#CONFIGURE_ARGS= --prefix=${LOCALBASE}
+CONFIGURE_DIRS=	${WRKSRC}/build
+BUILD_DIRS=	${WRKSRC}/build
+CONFIGURE_SCRIPT=	../src/configure
+CONFIGURE_ARGS=	--prefix=${PREFIX}
+
 USE_GNU_TOOLS=	make
-
-USE_MAKEINFO=	yes
-INFO_FILES=	guile-library.info
-
-# This package has split src/build directories, and there does not
-# seem to be explicit support for this in pkgsrc.  Thus, all the targets
-# below are overridden.
 
 pre-configure:
 	${MKDIR} ${WRKSRC}/build
 
-do-configure:
-	cd ${WRKSRC}/build && ../src/configure --prefix=${PREFIX}
 
-do-build:
-	cd ${WRKSRC}/build && ${MAKE_PROGRAM}
-
-do-install:
-	cd ${WRKSRC}/build && ${MAKE_PROGRAM} install
+USE_MAKEINFO=	yes
+INFO_FILES=	guile-library.info
 
 .include "../../mk/bsd.pkg.mk"
