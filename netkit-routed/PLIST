@@ -1,0 +1,5 @@
+@comment $NetBSD$
+man/man8/ripquery.8
+man/man8/routed.8
+sbin/ripquery
+sbin/routed
