@@ -1,6 +1,6 @@
 # $NetBSD: Makefile,v 1.8 2004/06/13 08:40:36 plunky $
 
-DISTNAME=	ppp-lzs-1.1
+DISTNAME=	ppp-lzs-1.2
 CATEGORIES=	net
 MASTER_SITES=	http://homepages.rya-online.net/plunky/
 
@@ -38,7 +38,7 @@ do-patch:
 	    ${ECHO} "patching..";							\
 	    ${CAT} $${v}/patch.* | ${PATCH} --quiet;					\
 	else										\
-	    ${ECHO} "cannot patch this version, sorry!";				\
+	    ${ECHO} "Have no patches for this version, sorry!";				\
 	    ${FALSE};									\
 	fi
 
