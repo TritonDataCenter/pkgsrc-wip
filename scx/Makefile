@@ -3,7 +3,7 @@
 #
 
 DISTNAME=		scx-0.2
-CATEGORIES=		wip devel
+CATEGORIES=		wip devel x11
 MASTER_SITES=		ftp://ftp.scsh.net/pub/scsh/packages/scx/
 
 MAINTAINER=		airhead@users.sf.net
