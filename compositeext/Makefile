@@ -8,7 +8,7 @@ EXTRACT_SUFX=		.tar.bz2
 
 MAINTAINER=		xtraeme@NetBSD.org
 HOMEPAGE=		http://freedesktop.org/
-COMMENT=		Header and documentation files for Composite extension
+COMMENT=		Headers and specification for X Composite extension
 
 USE_BUILDLINK2=		yes
 GNU_CONFIGURE=		yes
