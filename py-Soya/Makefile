@@ -7,7 +7,7 @@ CATEGORIES=		devel
 MASTER_SITES=		http://oomadness.tuxfamily.org/downloads/
 
 MAINTAINER=		dotz@irc.pl
-HOMEPAGE=		http://oomadness.tuxfamily.org/en/soya/
+HOMEPAGE=		http://oomadness.tuxfamily.org/en/soya/index.html
 COMMENT=		High level 3D engine for Python
 
 USE_BUILDLINK2=		yes
