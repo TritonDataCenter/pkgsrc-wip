@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		zaptel-netbsd-20050320
+DISTNAME=		zaptel-netbsd-20050330
 CATEGORIES=		wip
 MASTER_SITES=		http://www.tastylime.net/netbsd/zaptel/
 EXTRACT_SUFX=		.tar.bz2
