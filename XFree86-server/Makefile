@@ -24,6 +24,9 @@ XINSTALL_MAN_DIRS=	programs/Xserver
 
 .if ${OPSYS} == "FreeBSD" || ${OPSYS} == "Linux"
 
+USE_PERL5=		yes # Still we need perl (at least for now)
+.include "../../lang/perl5/buildlink2.mk"
+
 .if ${MACHINE_ARCH} == "i386" || ${MACHINE_ARCH} == "alpha"
 XBUILD_DIRS+=		lib/XThrStub lib/X11 lib/Xext lib/GL
 XINSTALL_DIRS+=		lib/GL/mesa/src/drv
