@@ -18,7 +18,7 @@ BUILD_USES_MSGFMT=	YES
 MAKE_ENV+=	LOCALEDIR=${PREFIX}/${PKGLOCALEDIR}/locale \
 		enable_nls=1
 
-.include "../../sysutils/gkrellm2/buildlink2.mk"
+.include "../../wip/gkrellm2/buildlink2.mk"
 .include "../../x11/gtk2/buildlink2.mk"
 .include "../../mk/ossaudio.buildlink2.mk"
 .include "../../mk/pthread.buildlink2.mk"

@@ -5,7 +5,7 @@ GKRELLM_BUILDLINK2_MK=	# defined
 
 BUILDLINK_PACKAGES+=			gkrellm
 BUILDLINK_DEPENDS.gkrellm?=		gkrellm>=2.1.8a
-BUILDLINK_PKGSRCDIR.gkrellm?=		../../sysutils/gkrellm2
+BUILDLINK_PKGSRCDIR.gkrellm?=		../../wip/gkrellm2
 
 EVAL_PREFIX+=	BUILDLINK_PREFIX.gkrellm=gkrellm
 BUILDLINK_PREFIX.gkrellm_DEFAULT=	${LOCALBASE}

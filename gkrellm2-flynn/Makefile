@@ -15,5 +15,5 @@ USE_GMAKE=	YES
 ALL_TARGET=	gkrellm2
 INSTALL_TARGET=	installgkrellm2
 
-.include "../../sysutils/gkrellm2/buildlink2.mk"
+.include "../../wip/gkrellm2/buildlink2.mk"
 .include "../../mk/bsd.pkg.mk"

@@ -1,7 +1,7 @@
 # $NetBSD$
 
 PKGNAME=	gkrellm-share-2.1.8a
-.include "../../sysutils/gkrellm2/Makefile.common"
+.include "../../wip/gkrellm2/Makefile.common"
 
 COMMENT=	gkrellm2 shared files
 

@@ -5,7 +5,7 @@ PKGNAME=	gkrellm-2.1.8a
 
 COMMENT=	GTK2 based system monitor
 
-DEPENDS+=		gkrellm-share-2.1.8a:../../sysutils/gkrellm2-share
+DEPENDS+=		gkrellm-share-2.1.8a:../../wip/gkrellm2-share
 
 USE_BUILDLINK2=		YES
 USE_X11=		YES
