@@ -3,3 +3,4 @@ $NetBSD$
 SHA1 (zaptel-netbsd-20050330.tar.bz2) = d1c837bc92f7c70bec032ef626fa876e5c129411
 RMD160 (zaptel-netbsd-20050330.tar.bz2) = ecb5128f3ed8345114154ccbc1bfaf5c58cef0e4
 Size (zaptel-netbsd-20050330.tar.bz2) = 113989 bytes
+SHA1 (patch-aa) = 3c288b41e1fbf266cdd3f20bda83ea316b749cf1
