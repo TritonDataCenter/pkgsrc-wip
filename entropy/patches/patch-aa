@@ -1,3 +1,5 @@
+$NetBSD$
+
 Index: include/unicode.h
 ===================================================================
 RCS file: /home/cvs/entropy/include/unicode.h,v
