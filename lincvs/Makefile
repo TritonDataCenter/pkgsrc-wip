@@ -12,7 +12,7 @@ MAINTAINER=		dotz@irc.pl
 HOMEPAGE=		http://www.lincvs.org/
 COMMENT=		Nice GUI front-end to CVS (using Qt)
 
-USE_BUILDLINK2=		YES
+USE_BUILDLINK3=		YES
 
 pre-build:
 	 ${QTDIR}/bin/qmake -o ${WRKSRC}/Makefile ${WRKSRC}/lincvs.pro
@@ -20,5 +20,5 @@ pre-build:
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/lincvs.bin ${PREFIX}/bin/lincvs
 
-.include "../../x11/qt3-libs/buildlink2.mk"
+.include "../../x11/qt3-libs/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

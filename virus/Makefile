@@ -10,12 +10,12 @@ MAINTAINER=	pancake@phreaker.net
 HOMEPAGE=	http://www.rocklinux.net/people/ripclaw/projects/software/virus/
 COMMENT=	VI resembling utility skeleton
 
+USE_BUILDLINK3=		yes
+
 do-build:
 	cd ${WRKSRC} && ${SH} mkvirus
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/virus ${PREFIX}/bin/virus
-
-USE_BUILDLINK2=		yes
 
 .include "../../mk/bsd.pkg.mk"

@@ -13,7 +13,7 @@ COMMENT=	RPC portmapper with access control
 # XXX allow this to install on NetBSD, because this also
 # XXX provides pmap_dump and pmap_set
 
-USE_BUILDLINK2=	# defined
+USE_BUILDLINK3=	yes
 NO_CONFIGURE=	yes
 USE_PKGINSTALL=	yes
 
@@ -28,5 +28,5 @@ do-install:
 	${INSTALL_DATA_DIR} ${PREFIX}/share/doc/portmap
 	${INSTALL_DATA} ${WRKSRC}/README ${PREFIX}/share/doc/portmap/
 
-.include "../../security/tcp_wrappers/buildlink2.mk"
+.include "../../security/tcp_wrappers/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

@@ -9,7 +9,7 @@ MAINTAINER=	virtus@wanadoo.nl
 HOMEPAGE=	http://virtus.ath.cx/chksniff/
 COMMENT=	Small tool to check for promiscuous interfaces
 
-USE_BUILDLINK2=	YES
+USE_BUILDLINK3=	YES
 GNU_CONFIGURE=	YES
 
 .include "../../mk/bsd.pkg.mk"
