@@ -1,8 +1,5 @@
 # $NetBSD$
 
-.if defined(USE_INET6) && !empty(USE_INET6:M[yY][eE][sS])
-PKG_DEFAULT_OPTIONS+=   inet6
-.endif
 .if defined(USE_SSL) && !empty(USE_SSL:M[yY][eE][sS])
 PKG_DEFAULT_OPTIONS+=	ssl
 .endif
