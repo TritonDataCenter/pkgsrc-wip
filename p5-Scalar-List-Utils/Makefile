@@ -11,7 +11,9 @@ MAINTAINER=		tech-pkg@NetBSD.org
 HOMEPAGE=		http://search.cpan.org/search?dist=Scalar-List-Utils
 COMMENT=		Perl subroutines that would be nice to have in the perl core
 
-USE_BUILDLINK2=		YES
+PKG_INSTALLATION_TYPES=	overwrite pkgviews
+
+USE_BUILDLINK3=		YES
 PERL5_PACKLIST=		${PERL5_SITEARCH}/auto/List/Util/.packlist
 
 .include "../../lang/perl5/module.mk"
