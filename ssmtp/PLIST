@@ -4,4 +4,3 @@ sbin/ssmtp
 share/examples/ssmtp/revaliases
 share/examples/ssmtp/ssmtp.conf
 @dirrm share/examples/ssmtp
-@dirrm etc/ssmtp
