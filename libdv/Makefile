@@ -13,11 +13,13 @@ USE_LIBTOOL=		yes
 GNU_CONFIGURE=		yes
 PKGCONFIG_OVERRIDE+=     ${WRKSRC}/libdv.pc.in
 
+.include "../../mk/bsd.prefs.mk"
+.if !empty(MACHINE_PLATFORM:MLinux-*-*)
 # XXX workaround build problem, make sure -O is defined
 # XXX this needs to be improved to not reset -O2 for example
 CFLAGS+=		-O
+.endif
 
-.include "../../mk/bsd.prefs.mk"
 .if empty(MACHINE_PLATFORM:MNetBSD-*-i386)
 CONFIGURE_ARGS+=	--disable-asm
 .endif
@@ -33,6 +35,8 @@ CONFIGURE_ARGS+=	--disable-asm
 .include "../../mk/ossaudio.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
 
+.if !empty(MACHINE_PLATFORM:MLinux-*-*)
 # work-around bug where -O is not defined
 # Or use  ${CFLAGS:N-O0}
 CFLAGS:=        ${CFLAGS:C/-O0//g}
+.endif
