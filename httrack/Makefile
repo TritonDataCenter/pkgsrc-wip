@@ -1,0 +1,22 @@
+# $NetBSD$
+#
+
+DISTNAME=	httrack-3.23.20
+CATEGORIES=	www
+MASTER_SITES=	http://www.httrack.com/ \
+		http://httrack.free.fr/mirror/
+
+MAINTAINER=	jrp@hispabsd.org
+HOMEPAGE=	http://www.httrack.com/
+COMMENT=	Easy-to-use offline browser utility
+
+WRKSRC=		${WRKDIR}/httrack-3.23.20
+
+USE_BUILDLINK2=	YES
+USE_LIBTOOL=	YES
+GNU_CONFIGURE=	YES
+USE_GMAKE=	YES
+
+LIBTOOL_OVERRIDE=       ${WRKSRC}/libtool
+
+.include "../../mk/bsd.pkg.mk"
