@@ -24,7 +24,8 @@ do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/src/TestEmu ${PREFIX}/bin
 	${INSTALL_PROGRAM} ${WRKSRC}/src/VisualBoyAdvance ${PREFIX}/bin
 
-.include "../../mk/gcc.buildlink2.mk"
 .include "../../devel/SDL/buildlink2.mk"
 .include "../../graphics/png/buildlink2.mk"
+
+.include "../../mk/compiler.mk"
 .include "../../mk/bsd.pkg.mk"
