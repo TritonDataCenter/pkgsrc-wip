@@ -14,7 +14,7 @@ COMMENT=	Displays the version of GNOME components installed
 DEPENDS=		gnome2-dirs>=1.2:../../misc/gnome2-dirs
 BUILD_USES_MSGFMT=	yes
 
-USE_BUILDLINK2=		yes
+USE_BUILDLINK3=		yes
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 USE_GNU_TOOLS+=		make
@@ -29,5 +29,5 @@ GCONF2_SCHEMAS+=	gnome-pkgview.schemas
 GCONF2_SCHEMAS+=	gnome-pkgview.schemas
 
 .include "../../devel/GConf2/schemas.mk"
-.include "../../devel/libgnomeui/buildlink2.mk"
+.include "../../devel/libgnomeui/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

@@ -12,12 +12,12 @@ COMMENT=	Gnome2 program to check a page/website for broken links
 DEPENDS=		gnome2-dirs>=1.0:../../misc/gnome2-dirs
 BUILD_USES_MSGFMT=	yes
 
-USE_BUILDLINK2=		yes
+USE_BUILDLINK3=		yes
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 USE_GNU_TOOLS+=		make
 USE_X11=		yes
 
-.include "../../devel/libgnomeui/buildlink2.mk"
-.include "../../mk/pthread.buildlink2.mk"
+.include "../../devel/libgnomeui/buildlink3.mk"
+.include "../../mk/pthread.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

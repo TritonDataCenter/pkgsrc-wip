@@ -11,7 +11,7 @@ COMMENT=	Educational games for children
 
 USE_GNU_TOOLS+=		make
 GNU_CONFIGURE=		YES
-USE_BUILDLINK2=		YES
+USE_BUILDLINK3=		YES
 USE_PKGLOCALEDIR=	YES
 GNU_CONFIGURE=		YES
 USE_LIBTOOL=		YES
@@ -19,10 +19,10 @@ LTCONFIG_OVERRIDE=	${WRKSRC}/ltconfig
 
 USE_GNU_TOOLS+=		tar
 
-.include "../../converters/libiconv/buildlink2.mk"
-.include "../../audio/libvorbis/buildlink2.mk"
-.include "../../audio/libao/buildlink2.mk"
-.include "../../x11/gtk2/buildlink2.mk"
-.include "../../devel/libgnomeui/buildlink2.mk"
+.include "../../audio/libao/buildlink3.mk"
+.include "../../audio/libvorbis/buildlink3.mk"
+.include "../../devel/libgnomeui/buildlink3.mk"
+.include "../../converters/libiconv/buildlink3.mk"
+.include "../../x11/gtk2/buildlink3.mk"
 
 .include "../../mk/bsd.pkg.mk"
