@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.465 2003/09/17 18:13:46 xtraeme Exp $
+# $Id: Makefile,v 1.466 2003/09/17 18:19:34 xtraeme Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -358,6 +358,7 @@ SUBDIR+=	srvx
 SUBDIR+=	stickynotes-applet
 SUBDIR+=	strace
 SUBDIR+=	streamripper
+SUBDIR+=	sudoscript
 SUBDIR+=	svgalib
 SUBDIR+=	sysklogd
 SUBDIR+=	sysvinit
