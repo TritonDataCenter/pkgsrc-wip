@@ -1,0 +1,3 @@
+@comment $NetBSD$
+boot/bzImage-${LINUX_VERSION}
+boot/System.map-${LINUX_VERSION}
