@@ -1,7 +1,7 @@
 # $NetBSD$
 # FreeBSD Id: ports/devel/cvsd/Makefile,v 1.18 2003/04/26 22:38:53 nork Exp
 
-DISTNAME=	cvsd-0.9.19
+DISTNAME=	cvsd-1.0.0
 CATEGORIES=	devel
 MASTER_SITES=	http://tiefighter.et.tudelft.nl/~arthur/cvsd/
 
