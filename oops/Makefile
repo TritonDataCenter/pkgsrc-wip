@@ -82,5 +82,4 @@ post-install:
 .include "../../mk/compiler.mk"
 .include "../../mk/pthread.buildlink3.mk"
 .include "../../mk/bdb.buildlink3.mk"
-.include "../../mk/bsd.pkg.install.mk"
 .include "../../mk/bsd.pkg.mk"

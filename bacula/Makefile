@@ -89,5 +89,4 @@ pre-install:
 .include "../../devel/zlib/buildlink3.mk"
 .include "../../security/tcp_wrappers/buildlink3.mk"
 .include "../../mk/pthread.buildlink3.mk"
-.include "../../mk/bsd.pkg.install.mk"
 .include "../../mk/bsd.pkg.mk"
