@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.1404 2004/07/21 03:20:00 blef Exp $
+# $Id: Makefile,v 1.1405 2004/07/23 02:07:13 minskim Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -71,7 +71,6 @@ SUBDIR+=	caml-libunix
 SUBDIR+=	cawf
 SUBDIR+=	ccrypt
 SUBDIR+=	ccze
-SUBDIR+=	cdl3
 SUBDIR+=	cdpr
 SUBDIR+=	chbg
 SUBDIR+=	cherokee
