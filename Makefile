@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.1096 2004/03/19 19:19:06 mpasternak Exp $
+# $Id: Makefile,v 1.1097 2004/03/20 01:28:11 jeremy-c-reed Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -759,6 +759,7 @@ SUBDIR+=	xpdq
 SUBDIR+=	xpilot-ng
 SUBDIR+=	xplore
 SUBDIR+=	xproto
+SUBDIR+=	xrestop
 SUBDIR+=	xscribble-fs
 SUBDIR+=	xsh
 SUBDIR+=	xtrans
