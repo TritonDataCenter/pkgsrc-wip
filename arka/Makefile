@@ -10,6 +10,8 @@ MAINTAINER=	hdp@cs.nmsu.edu
 HOMEPAGE=	http://www.bioinformatics.org/genpak/
 COMMENT=	Graphic interface for the programs from the GP package
 
+DEPENDS+=	gp-[0-9]*:../../biology/gp
+
 USE_DIRS+=	xdg-1.1
 USE_PKGINSTALL=	YES
 
