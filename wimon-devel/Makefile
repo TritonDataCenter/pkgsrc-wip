@@ -16,7 +16,7 @@ ONLY_FOR_PLATFORM=      FreeBSD-*-* NetBSD-*-* OpenBSD-*-*
 WRKSRC=		${WRKDIR}/wimon
 USE_BUILDLINK3=	yes
 
-INSTALLATION_DIRS=	bin
+INSTALLATION_DIRS=	bin man/man8
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/wimon ${PREFIX}/bin
