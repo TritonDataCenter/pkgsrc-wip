@@ -6,7 +6,7 @@ CATEGORIES=		mail
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=elmo/}
 
 MAINTAINER=		pkg@burningsoda.com
-HOMEPAGE=		http://elmo.sourceforge.net
+HOMEPAGE=		http://elmo.sourceforge.net/
 COMMENT=		The ELectronic Mail Operator is a console mail client
 
 USE_BUILDLINK3=		yes
