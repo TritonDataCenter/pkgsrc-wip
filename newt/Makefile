@@ -28,7 +28,7 @@ do-install:
 	cd ${WRKSRC}; \
 	 ${LIBTOOL} --mode=install ${INSTALL_PROGRAM} libnewt.la ${PREFIX}/lib;\
 	 ${INSTALL_DATA} newt.h ${PREFIX}/include; \
-	 ${INSTALL_PROGRAM} .libs/whiptail ${PREFIX}/bin
+	 ${LIBTOOL} --mode=install ${INSTALL} whiptail ${PREFIX}/bin
 
 .include "../../devel/libslang/buildlink3.mk"
 .include "../../devel/popt/buildlink3.mk"
