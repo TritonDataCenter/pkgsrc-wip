@@ -9,12 +9,12 @@
 #
 # Usage:
 #
-#   bmake extract
+#   bmake # so include/linux/version.h will be made
 #   sh files/mkplists
 #
 set -e
 
-cd `pwd`/work/linux-*/include
+cd `pwd`/work*/linux-*/include
 
 echo "Creating temporary sets for each ARCH"
 for i in asm-*
