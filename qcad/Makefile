@@ -27,7 +27,7 @@ BUILD_DIRS=		${CONFIGURE_DIRS}
 BUILD_DIRS+=		${WRKSRC}/qcad
 
 # XXX how to determine the below dynamically?
-MAKE_ENV+=		QMAKESPEC=${QTDIR}/mkspecs/netbsd-g++
+MAKE_ENV+=		QMAKESPEC=${QTDIR}/mkspecs/default
 PREPEND_PATH+=		${QTDIR}/bin
 
 # I really want this to be post-*patch* where it makes sense, but QTDIR
