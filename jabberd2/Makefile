@@ -22,6 +22,11 @@ LIBTOOL_OVERRIDE=       ${WRKSRC}/libtool
 RCD_SCRIPTS=		jabberd
 PKG_SYSCONFSUBDIR=	jabberd
 
+JABBERD_USER=           jabberd
+JABBERD_GROUP=          jabberd
+PKG_GROUPS=             ${JABBERD_GROUP}
+PKG_USERS=              ${JABBERD_USER}:${JABBERD_GROUP}::Jabberd\\ user
+
 EGDIR=			${PREFIX}/share/examples/jabberd
 SUPPORT_FILES=          ${EGDIR}/jabberd.cfg ${PKG_SYSCONFDIR}/jabberd.cfg
 
@@ -35,7 +40,7 @@ CONF_FILES+=		${EGDIR}/${f} ${PKG_SYSCONFDIR}/${f}
 DIRS=			/var/log/jabberd /var/db/jabberd
 
 .for f in ${DIRS}
-OWN_DIRS+=		${f}
+OWN_DIRS_PERMS+=	${f} jabberd jabberd 750
 .endfor
 .undef f
 
