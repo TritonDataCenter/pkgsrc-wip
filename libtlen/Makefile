@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	libtlen-20040112
+DISTNAME=	libtlen-20040212
 CATEGORIES=	chat
 MASTER_SITES=	http://www.libtlen.eu.org/snapshots/archive/
 

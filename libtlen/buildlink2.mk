@@ -9,7 +9,7 @@
 LIBTLEN_BUILDLINK2_MK=	# defined
 
 BUILDLINK_PACKAGES+=			libtlen
-BUILDLINK_DEPENDS.libtlen?=		libtlen>=20040112
+BUILDLINK_DEPENDS.libtlen?=		libtlen>=20040212
 BUILDLINK_PKGSRCDIR.libtlen?=		../../wip/libtlen
 
 EVAL_PREFIX+=	BUILDLINK_PREFIX.libtlen=libtlen

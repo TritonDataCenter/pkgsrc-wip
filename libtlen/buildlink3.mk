@@ -14,7 +14,7 @@ BUILDLINK_DEPENDS+=	libtlen
 
 .if !empty(LIBTLEN_BUILDLINK3_MK:M+)
 BUILDLINK_PACKAGES+=			libtlen
-BUILDLINK_DEPENDS.libtlen+=		libtlen>=20040112
+BUILDLINK_DEPENDS.libtlen+=		libtlen>=20040212
 BUILDLINK_PKGSRCDIR.libtlen?=		../../wip/libtlen
 
 .endif # LIBTLEN_BUILDLINK3_MK
