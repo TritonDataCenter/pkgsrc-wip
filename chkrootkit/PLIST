@@ -1,7 +1,0 @@
-@comment $NetBSD$
-bin/chkdirs
-bin/chklastlog
-bin/chkproc
-bin/chkwtmp
-bin/ifpromisc
-bin/strings-static
