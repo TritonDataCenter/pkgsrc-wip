@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		ft-0.2.12
+DISTNAME=		ft-0.2.13
 PKGNAME=		${DISTNAME:S/ft-/freenet-tools-/}
 PKGREVISION=		1
 WRKSRC=			${WRKDIR}/ft
