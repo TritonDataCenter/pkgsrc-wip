@@ -22,4 +22,6 @@ PKGCONFIG_OVERRIDE+=    ${WRKSRC}/ice.pc.in
 .include "../../wip/xproto/buildlink2.mk"
 .include "../../wip/xtrans/buildlink2.mk"
 .include "../../devel/pkgconfig/buildlink2.mk"
+.include "../../mk/pthread.buildlink2.mk"
+
 .include "../../mk/bsd.pkg.mk"
