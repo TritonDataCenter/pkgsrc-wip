@@ -1,6 +1,6 @@
 @comment $NetBSD$
 bin/monkey-srv
-bin/ui
+bin/monkey-bubble
 lib/libgdkview.a
 lib/libgdkview.la
 lib/libgdkview.so
