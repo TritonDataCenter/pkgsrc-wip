@@ -12,6 +12,7 @@ COMMENT=		Keyboard layout indicator for KDE 2 or 3
 USE_BUILDLINK3=	YES
 USE_GNU_TOOLS+=	make
 GNU_CONFIGURE=	YES
+CONFIGURE_ARGS+= --disable-ru-ua-layout
 
 .include "../../meta-pkgs/kde3/kde3.mk"
 .include "../../x11/kdelibs3/buildlink3.mk"
