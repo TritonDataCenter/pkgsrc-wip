@@ -4,7 +4,7 @@ DISTNAME=	nvtv-0.4.5
 CATEGORIES=	graphics
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=nv-tv-out/}
 
-MAINTAINER=	cube@cubidou.net
+MAINTAINER=	cube@NetBSD.net
 HOMEPAGE=	http://sourceforge.net/projects/nv-tv-out/
 COMMENT=	tool to manipulate TV-Out settings on NVidia cards
 
