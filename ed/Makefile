@@ -1,6 +1,7 @@
 # $NetBSD$
 
 DISTNAME=		ed-0.2
+PKGREVISION=		1
 CATEGORIES=		editors
 MASTER_SITES=		${MASTER_SITE_GNU:=ed/}
 
