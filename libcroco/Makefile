@@ -8,7 +8,7 @@ EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	xtraeme@NetBSD.org
 HOMEPAGE=	http://www.freespiders.org/projects/libcroco/
-COMMENT=	Toolkit to parse and manipulate CSS ( Cascade Style Sheets )
+COMMENT=	Toolkit to parse and manipulate CSS (Cascading Style Sheets)
 
 USE_BUILDLINK2=		yes
 USE_LIBTOOL=		yes
