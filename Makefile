@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.502 2003/09/26 06:42:26 thomasklausner Exp $
+# $Id: Makefile,v 1.503 2003/09/26 16:44:30 bubuchka Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -356,6 +356,7 @@ SUBDIR+=	rlpr
 SUBDIR+=	rolo
 SUBDIR+=	rosegarden-current
 SUBDIR+=	samba3
+SUBDIR+=	sarg
 SUBDIR+=	scm
 SUBDIR+=	scons
 SUBDIR+=	scponly
