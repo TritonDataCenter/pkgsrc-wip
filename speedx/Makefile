@@ -15,7 +15,7 @@ SITES_mercrain.s3m.zip=	http://www.modarchive.com/cgi-bin/download.cgi/M/
 GNU_CONFIGURE=	YES
 USE_GMAKE=	YES
 USE_BUILDLINK2=	YES
-USE_X11BASE=	YES
+USE_X11=	YES
 
 post-build:
 # XXX should just use find and cpio instead, but cpio isn't on all systems
