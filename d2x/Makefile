@@ -25,6 +25,7 @@ CONFIGURE_ARGS+=	--disable-network
 CONFIGURE_ARGS+=	--prefix=${PREFIX}
 CONFIGURE_ARGS+=	--with-sharepath=${D2X_DATA}
 
+.include "../../graphics/SDL_image/buildlink3.mk"
 .include "../../devel/SDL/buildlink3.mk"
 .include "../../mk/pthread.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
