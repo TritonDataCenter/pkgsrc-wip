@@ -128,6 +128,7 @@ include/linux/atmsap.h
 include/linux/atmsvc.h
 include/linux/auto_fs.h
 include/linux/auto_fs4.h
+include/linux/autoconf.h
 include/linux/awe_voice.h
 include/linux/ax25.h
 include/linux/b1lli.h
