@@ -1,2 +1,2 @@
 @comment $NetBSD$
-share/mupen64-base/plugins/mupen64_hle_rsp.so
+share/mupen64-base/plugins/mupen64_hle_rsp_azimer.so
