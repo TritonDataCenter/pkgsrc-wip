@@ -56,8 +56,6 @@ ${PYSITELIB}/matplotlib/patches.pyo
 ${PYSITELIB}/matplotlib/setup.py
 ${PYSITELIB}/matplotlib/setup.pyc
 ${PYSITELIB}/matplotlib/setup.pyo
-@dirrm ${PYSITELIB}/matplotlib/backends
-@dirrm ${PYSITELIB}/matplotlib
 share/matplotlib/Vera.ttf
 share/matplotlib/VeraBI.ttf
 share/matplotlib/VeraBd.ttf
@@ -119,3 +117,5 @@ share/matplotlib/stock_up.xpm
 share/matplotlib/stock_zoom-in.xpm
 share/matplotlib/stock_zoom-out.xpm
 @dirrm share/matplotlib
+@dirrm ${PYSITELIB}/matplotlib/backends
+@dirrm ${PYSITELIB}/matplotlib
