@@ -1,4 +1,4 @@
-#!@RCS_SCRIPTS_SHELL@
+#!@RCD_SCRIPTS_SHELL@
 #
 # $NetBSD$
 #
