@@ -40,8 +40,8 @@ $NetBSD$
 +      <mod_filter>@LIBDIR@/jsm.so</mod_filter>
 +      <mod_offline>@LIBDIR@/jsm.so</mod_offline>
 +      <mod_presence>@LIBDIR@/jsm.so</mod_presence>
-+      <mod_auth_plain>@LIBDIR@/jsm.so</mod_auth_plain>
 +      <mod_auth_digest>@LIBDIR@/jsm.so</mod_auth_digest>
++      <mod_auth_plain>@LIBDIR@/jsm.so</mod_auth_plain>
 +      <mod_auth_0k>@LIBDIR@/jsm.so</mod_auth_0k>
 +      <mod_log>@LIBDIR@/jsm.so</mod_log>
 +      <mod_register>@LIBDIR@/jsm.so</mod_register>
