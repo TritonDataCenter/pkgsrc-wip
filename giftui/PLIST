@@ -24,4 +24,3 @@ share/giFTui/icons/openft-search.png
 share/giFTui/icons/openft-up.png
 ${PKGLOCALEDIR}/locale/fr/LC_MESSAGES/giFTui.mo
 @dirrm share/giFTui/icons
-@dirrm doc/giFTui
