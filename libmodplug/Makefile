@@ -9,9 +9,11 @@ MAINTAINER=		ben@NetBSD.org
 HOMEPAGE=		http://modplug-xmms.sourceforge.net/
 COMMENT=		Library for decoding mod-like music formats
 
-USE_BUILDLINK2=		yes
+USE_BUILDLINK3=		yes
 GNU_CONFIGURE=		yes
 USE_LIBTOOL=		yes
 
-.include "../../mk/ossaudio.buildlink2.mk"
+PKG_INSTALLATION_TYPES=	overwrite pkgviews
+
+.include "../../mk/ossaudio.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

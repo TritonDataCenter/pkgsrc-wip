@@ -14,15 +14,17 @@ DEPENDS+=		unzip-[0-9]*:../../archivers/unzip
 
 LDFLAGS+=		-lm -lossaudio
 USE_X11=		yes
-USE_BUILDLINK2=		yes
+USE_BUILDLINK3=		yes
 GNU_CONFIGURE=		yes
 USE_LIBTOOL=		yes
 SHLIBTOOL_OVERRIDE=	libtool-disable-static
 
 CFLAGS+=		-DDEVICE_NAME="\"\\\"${DEVOSSSOUND}\\\"\""
 
-.include "../../wip/libmodplug/buildlink2.mk"
-.include "../../audio/xmms/buildlink2.mk"
-.include "../../mk/ossaudio.buildlink2.mk"
-.include "../../mk/pthread.buildlink2.mk"
+PKG_INSTALLATION_TYPES=	overwrite pkgviews
+
+.include "../../wip/libmodplug/buildlink3.mk"
+.include "../../audio/xmms/buildlink3.mk"
+.include "../../mk/ossaudio.buildlink3.mk"
+.include "../../mk/pthread.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
