@@ -13,7 +13,6 @@ USE_BUILDLINK3=	yes
 
 PYDISTUTILSPKG= yes
 PYBINMODULE=    yes
-PYSETUP=        setup.py
 
 .include "../../lang/python/extension.mk"
 .include "../../mk/bsd.pkg.mk"
