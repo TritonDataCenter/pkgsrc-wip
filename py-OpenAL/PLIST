@@ -1,3 +1,4 @@
+@comment $NetBSD$
 ${PYSITELIB}/_openal.so
 ${PYSITELIB}/pyopenal/__init__.py
 ${PYSITELIB}/pyopenal/__init__.pyc
