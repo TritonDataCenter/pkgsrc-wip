@@ -9,7 +9,7 @@ EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	adrianp@stindustries.net
 HOMEPAGE=	http://www.laurentconstantin.com/en/netw/
-COMMENT=	Network library
+COMMENT=	Network library providing network functionality for developers
 
 WRKSRC=         	${WRKDIR}/${DISTNAME}/src
 USE_BUILDLINK3=		YES
