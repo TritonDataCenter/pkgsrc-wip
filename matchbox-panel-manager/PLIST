@@ -1,0 +1,4 @@
+@comment $NetBSD$
+bin/matchbox-panel-manager
+share/applications/mb-panel-manager.desktop
+share/pixmaps/mbpanelmgr.png
