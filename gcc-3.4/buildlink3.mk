@@ -19,7 +19,7 @@ BUILDLINK_PKGSRCDIR.gcc34?=    ../../wip/gcc-3.4
 BUILDLINK_PKGSRCDIR.gcc34?=     ../../wip/gcc-3.4
 BUILDLINK_CONTENTS_FILTER.gcc34= \
 	${EGREP} '(libexec.*|bin.*/|include.*/|\.h$$|\.idl$$|\.pc$$|/lib[^/]*\.[^/]*$$)'
-BUILDLINK_ENV+=$PATH:=${BUILDLINK_PREFIX.gcc-3.4.0}:${PATH}
+BUILDLINK_ENV+=PATH:=${BUILDLINK_PREFIX.gcc-3.4.0}:${PATH}
 
 # Packages that link against shared libraries need a full dependency.
 .  if defined(USE_GCC_SHLIB)
