@@ -19,7 +19,7 @@ MAKEFILE=	Makefile.gtk
 .include "../../mk/bsd.prefs.mk"
 
 .if ${OPSYS} == "NetBSD" || ${OPSYS} == "FreeBSD" || ${OPSYS} == "OpenBSD"
-CFLAGS+=	-DOMIT_UTMP -DHAVE_NO_SETRESUID
+CFLAGS+=	-DHAVE_NO_SETRESUID
 .endif
 
 .if !empty(USE_INET6:M[Yy][Ee][Ss])
