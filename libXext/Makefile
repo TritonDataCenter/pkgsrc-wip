@@ -7,8 +7,8 @@ MASTER_SITES=		http://freedesktop.org/~xlibs/dist/
 EXTRACT_SUFX=		.tar.bz2
 
 MAINTAINER=		xtraeme@NetBSD.org
-HOMEPAGE=		http://freedesktop.org/
-COMMENT=		Xext extension (Library)
+HOMEPAGE=		http://www.freedesktop.org/Software/xlibs
+COMMENT=		X Extension library
 
 USE_BUILDLINK2=		yes
 USE_LIBTOOL=		yes
