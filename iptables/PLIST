@@ -60,6 +60,7 @@ lib/iptables/libipt_physdev.so
 lib/iptables/libipt_pkttype.so
 lib/iptables/libipt_realm.so
 lib/iptables/libipt_rpc.so
+lib/iptables/libipt_sctp.so
 lib/iptables/libipt_standard.so
 lib/iptables/libipt_state.so
 lib/iptables/libipt_tcp.so
