@@ -13,7 +13,7 @@ MAINTAINER=	shannonjr@NetBSD.org
 HOMEPAGE=	http://www.gnu.org/software/gcc/gcc.html
 COMMENT=	This is the gcc 3.4 compiler
 
-GCC_VERSION=	3.4-20040611
+GCC_VERSION=	3.4-20040618
 
 .include "../../mk/bsd.prefs.mk"
 
