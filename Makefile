@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.1618 2005/01/14 16:04:19 jmmv Exp $
+# $Id: Makefile,v 1.1619 2005/01/15 01:28:56 zul_ Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -202,6 +202,7 @@ SUBDIR+=	ezbounce
 SUBDIR+=	fakenes
 SUBDIR+=	fbpanel
 SUBDIR+=	festival-gaim
+SUBDIR+=	ffmepg-devel
 SUBDIR+=	firebird
 SUBDIR+=	firefox-wrapper
 SUBDIR+=	firehose
