@@ -16,6 +16,9 @@ BUILDLINK_PACKAGES+=	gettext-runtime
 BUILDLINK_DEPENDS.gettext-runtime+=	gettext-runtime>=0.14.1
 BUILDLINK_PKGSRCDIR.gettext-runtime?=	../../wip/gettext-runtime
 
+# XXX need to only depend on GNU libiconv on non-glibc systems
+.include "../../converters/libiconv/buildlink3.mk"
+
 .endif	# GETTEXT_RUNTIME_BUILDLINK3_MK
 
 BUILDLINK_DEPTH:=     ${BUILDLINK_DEPTH:S/+$//}

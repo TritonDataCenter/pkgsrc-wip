@@ -9,3 +9,6 @@ MAINTAINER=		tech-pkg@NetBSD.org
 HOMEPAGE=		http://www.gnu.org/software/gettext/gettext.html
 
 GNU_CONFIGURE=		yes
+
+# XXX need to only depend on GNU libiconv on non-glibc systems
+.include "../../converters/libiconv/buildlink3.mk"
