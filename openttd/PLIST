@@ -1,5 +1,6 @@
 @comment $NetBSD$
 bin/ttd
+bin/openttd
 share/openttd/lang/norwegian.lng
 share/openttd/lang/italian.lng
 share/openttd/lang/french.lng
