@@ -1,7 +1,6 @@
 # $NetBSD: $
 
-DISTNAME=       spamd_20040511
-PKGNAME=        ${DISTNAME:S/_/-/}
+DISTNAME=       spamd-20040609
 CATEGORIES=     mail
 MASTER_SITES=   http://nedbsd.nl/~ppostma/pf/
 
