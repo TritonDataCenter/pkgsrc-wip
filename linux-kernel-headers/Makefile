@@ -15,9 +15,10 @@ do-build:
 do-install:
 	cd ${WRKSRC}/include && ${PAX} -rw -pe linux ${PREFIX}/include
 	${INSTALL_DATA_DIR} ${PREFIX}/include/asm
-	cd ${WRKSRC}/include/asm-generic && \
-		${PAX} -rw -pe . ${PREFIX}/include/asm
+	${LN} -sf ${PREFIX}/include/asm ${PREFIX}/include/asm-generic
 	cd ${WRKSRC}/include/asm-${LOWER_ARCH} && \
+		${PAX} -rw -pe . ${PREFIX}/include/asm
+	cd ${WRKSRC}/include/asm-generic && \
 		${PAX} -rw -pe . ${PREFIX}/include/asm
 
 .include "../../mk/bsd.pkg.mk"
