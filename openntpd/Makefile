@@ -12,7 +12,7 @@ USE_BUILDLINK3=		yes
 USE_PKGINSTALL=		yes
 GNU_CONFIGURE=		yes
 
-EGDIR=			${PREFIX}/share/examples/ntpd
+EGDIR=			${PREFIX}/share/examples/openntpd
 CONF_FILES=		${EGDIR}/ntpd.conf ${PKG_SYSCONFDIR}/ntpd.conf
 
 RCD_SCRIPTS=		openntpd
