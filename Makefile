@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.374 2003/08/15 15:20:26 thomasklausner Exp $
+# $Id: Makefile,v 1.375 2003/08/15 15:26:19 tvierling Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -254,6 +254,7 @@ SUBDIR+=	p5-XML-Stream
 SUBDIR+=	p5-gtk2
 SUBDIR+=	pdns
 SUBDIR+=	perltidy
+SUBDIR+=	pgp6
 SUBDIR+=	pgpenvelope
 SUBDIR+=	php-jpgraph
 SUBDIR+=	php4-exif
