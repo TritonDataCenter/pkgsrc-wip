@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	ike-scan-1.2
+DISTNAME=	ike-scan-1.5.1
 CATEGORIES=	security net
 MASTER_SITES=	http://www.nta-monitor.com/ike-scan/download/
 
@@ -12,7 +12,7 @@ COMMENT=	Discovers IKE hosts and can also fingerprint them
 USE_BUILDLINK2=	YES
 GNU_CONFIGURE=	YES
 
-CONFIGURE_ARGS+=	--datadir=${PREFIX}/share/ike-scan
+CONFIGURE_ARGS+=	--datadir=${PREFIX}/share
 
 post-install:
 	${INSTALL_DATA_DIR} ${PREFIX}/share/doc/ike-scan
