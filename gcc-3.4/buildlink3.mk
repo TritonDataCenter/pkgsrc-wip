@@ -18,12 +18,10 @@ _GNAT1!=${LOCALBASE}/gcc-3.4.0/bin/gcc -print-prog-name=gnat1
 .  if exists(${_GNAT1})
 BUILDLINK_ENV+=	ADAC=${LOCALBASE}/gcc-3.4.0/bin/gcc
 .  endif
-BUILDLINK_RPATHDIRS.gcc+=	${LOCALBASE}/gcc-3.4.0/lib
-BUILDLINK_LDFLAGS.gcc+=	-L${LOCALBASE}/gcc-3.4.0/lib -Wl,-R${LOCALBASE}/gcc-3.4.0/lib
+BUILDLINK_LIBDIRS.gcc+=	lib
 _GCC_ARCHDIR!=	${DIRNAME} `${LOCALBASE}/gcc-3.4.0/bin/gcc --print-libgcc-file-name`
 .  if empty(_GCC_ARCHDIR:M*not_found*)
-BUILDLINK_RPATHDIRS.gcc+=	${_GCC_ARCHDIR}
-BUILDLINK_LDFLAGS.gcc+=	-L${_GCC_ARCHDIR} -Wl,-R${_GCC_ARCHDIR}
+BUILDLINK_LIBDIRS.gcc+=	${_GCC_ARCHDIR:S/^${BUILDLINK_PREFIX.gcc-3.4.0}\///}
 .  endif
 .endif  # GCC34_BUILDLINK3_MK
 
