@@ -1,0 +1,3 @@
+$NetBSD$
+
+There's a postinstall file that should be included as a part of the package
