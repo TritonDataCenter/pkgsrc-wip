@@ -2,7 +2,7 @@
 
 DISTNAME=	icmpchat-0.6
 CATEGORIES=	chat
-MASTER_SITES=	http://switch.dl.sourceforge.net/sourceforge/icmpchat/
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=icmpchat/}
 
 MAINTAINER=	pancake@phreaker.net
 HOMEPAGE=	http://icmpchat.sourceforge.net/

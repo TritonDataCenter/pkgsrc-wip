@@ -3,9 +3,7 @@
 DISTNAME=	WEPCrack-0.0.10
 WRKSRC=		${WRKDIR}/
 CATEGORIES=	security
-MASTER_SITES=	http://belnet.dl.sourceforge.net/sourceforge/wepcrack/ \
-		http://heanet.dl.sourceforge.net/sourceforge/ap-utils/ \
-		http://twtelecom.dl.sourceforge.net/sourceforge/ap-utils/
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=wepcrack/}
 
 MAINTAINER=	pancake@phreaker.net
 HOMEPAGE=	http://wepcrack.sourceforge.net/

@@ -3,9 +3,7 @@
 DISTNAME=	ap-utils-1.3.2-pre3
 PKGNAME=	aputils-1.3.2pre3
 CATEGORIES=	net
-MASTER_SITES=	http://heanet.dl.sourceforge.net/sourceforge/ap-utils/ \
-		http://belnet.dl.sourceforge.net/sourceforge/ap-utils/ \
-		http://twtelecom.dl.sourceforge.net/sourceforge/ap-utils/
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=ap-utils/}
 EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	pancake@phreaker.net
