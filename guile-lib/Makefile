@@ -27,7 +27,6 @@ USE_GNU_TOOLS=	make
 pre-configure:
 	${MKDIR} ${WRKSRC}/build
 
-
 USE_MAKEINFO=	yes
 INFO_FILES=	guile-library.info
 
