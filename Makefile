@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.1159 2004/04/02 06:00:02 jeremy-c-reed Exp $
+# $Id: Makefile,v 1.1160 2004/04/02 14:31:00 jmmv Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -231,7 +231,6 @@ SUBDIR+=	honeyd
 SUBDIR+=	honeyd-arpd
 SUBDIR+=	host
 SUBDIR+=	howl
-SUBDIR+=	ht
 SUBDIR+=	ht2html
 SUBDIR+=	html2latex
 SUBDIR+=	httrack
