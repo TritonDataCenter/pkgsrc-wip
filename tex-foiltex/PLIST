@@ -1,0 +1,12 @@
+@comment $NetBSD$
+share/texmf/tex/latex/foiltex/fltfonts.def
+share/texmf/tex/latex/foiltex/foil17.clo
+share/texmf/tex/latex/foiltex/foil20.clo
+share/texmf/tex/latex/foiltex/foil25.clo
+share/texmf/tex/latex/foiltex/foil30.clo
+share/texmf/tex/latex/foiltex/foils.cls
+share/texmf/tex/latex/foiltex/foils.sty
+share/texmf/tex/latex/foiltex/foilshrt.clo
+@dirrm share/texmf/tex/latex/foiltex
+@exec mktexlsr
+@unexec mktexlsr
