@@ -47,6 +47,11 @@ CONFIGURE_ARGS+=	--with-mysql=${LOCALBASE}
 .error unknown ENTROPY_STORE_TYPE: ${ENTROPY_STORE_TYPE}
 .endif
 
+# maximum allowed peer connections (and child processes); default 64
+.ifdef ENTROPY_MAX_PEERS
+CONFIGURE_ARGS+=	--enable-max-peers=${ENTROPY_MAX_PEERS}
+.endif
+
 .include "../../devel/zlib/buildlink2.mk"
 .include "../../textproc/expat/buildlink2.mk"
 .include "../../mk/bsd.pkg.mk"
