@@ -24,6 +24,8 @@ CONFIGURE_ARGS+=	--enable-small-icons
 CONFIGURE_ARGS+=	--enable-startup-notification
 CONFIGURE_ARGS+=	--enable-nls
 
+BUILD_DEPENDS+=		gettext>=0.11.5:../../devel/gettext
+
 CONFIGURE_ENV+=		XGETTEXT=${LOCALBASE}/bin/xgettext
 CONFIGURE_ENV+=		GMSGFMT=${LOCALBASE}/bin/msgfmt
 CONFIGURE_ENV+=		MSGFMT=${LOCALBASE}/bin/msgfmt
