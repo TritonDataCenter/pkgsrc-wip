@@ -15,7 +15,7 @@ DEPENDS+=	autotrace>=0.31:../../graphics/autotrace
 DEPENDS+=	t1utils>=1.27:../../fonts/t1utils
 DEPENDS+=	pfaedit>=20030712:../../fonts/pfaedit
 
-USE_BUILDLINK2=	yes
+USE_BUILDLINK3=	yes
 GNU_CONFIGURE=	yes
 USE_GNU_TOOLS+=	make
 MAKEFILE=	GNUmakefile

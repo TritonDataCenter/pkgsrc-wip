@@ -11,7 +11,7 @@ HOMEPAGE=	http://lilypond.org/web/
 COMMENT=	GNU Music Typesetter
 
 GNU_CONFIGURE=		YES
-USE_BUILDLINK2=		YES
+USE_BUILDLINK3=		YES
 USE_PKGLOCALEDIR=	YES
 USE_GNU_TOOLS+=		make
 USE_PKGINSTALL=		YES
@@ -57,9 +57,9 @@ post-install:
 	${INSTALL_DATA} ${WRKSRC}/Documentation/topdocs/out/${f} ${DOCSDIR}
 .endfor
 
-.include "../../wip/mftrace/buildlink2.mk"
-.include "../../lang/guile/buildlink2.mk"
+.include "../../wip/mftrace/buildlink3.mk"
+.include "../../lang/guile/buildlink3.mk"
 .include "../../lang/python/application.mk"
-.include "../../print/teTeX-bin/kpathsea.buildlink2.mk"
+.include "../../print/teTeX-bin/kpathsea.buildlink3.mk"
 .include "../../mk/ghostscript.mk"
 .include "../../mk/bsd.pkg.mk"
