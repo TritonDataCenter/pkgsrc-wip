@@ -9,6 +9,8 @@ MAINTAINER=	jdunn@opentrend.net
 HOMEPAGE=	http://www.cri.ensmp.fr/~coelho/mod_macro/
 COMMENT=        Apache module for using macros in config files
 
+CONFLICTS=      ap2-macro-[0-9]*
+
 USE_BUILDLINK2=         yes
 
 APACHE_MODULE_NAME=     ${DISTNAME:C|-.*||}.so
