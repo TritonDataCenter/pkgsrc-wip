@@ -1,7 +1,8 @@
 # $NetBSD$
 #
 
-DISTNAME=	httrack-3.23.20
+DISTNAME=	httrack-3.23
+WRKSRC=         ${WRKDIR}/httrack-3.23.20
 CATEGORIES=	www
 MASTER_SITES=	http://www.httrack.com/ \
 		http://httrack.free.fr/mirror/
@@ -9,8 +10,6 @@ MASTER_SITES=	http://www.httrack.com/ \
 MAINTAINER=	jrp@hispabsd.org
 HOMEPAGE=	http://www.httrack.com/
 COMMENT=	Easy-to-use offline browser utility
-
-WRKSRC=		${WRKDIR}/httrack-3.23.20
 
 USE_BUILDLINK2=	YES
 USE_LIBTOOL=	YES
