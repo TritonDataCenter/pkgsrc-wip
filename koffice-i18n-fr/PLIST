@@ -324,7 +324,7 @@ ${PKGLOCALEDIR}/locale/fr/LC_MESSAGES/olefilterswinword97filter.mo
 ${PKGLOCALEDIR}/locale/fr/LC_MESSAGES/thesaurus_tool.mo
 ${PKGLOCALEDIR}/locale/fr/LC_MESSAGES/xsltexportfilter.mo
 ${PKGLOCALEDIR}/locale/fr/LC_MESSAGES/xsltimportfilter.mo
-@dirrm share/kde/apps/koffice/autocorrect
+@comment in koffice: dirrm share/kde/apps/koffice/autocorrect
 @dirrm share/doc/kde/HTML/fr/thesaurus
 @dirrm share/doc/kde/HTML/fr/kword
 @dirrm share/doc/kde/HTML/fr/kugar

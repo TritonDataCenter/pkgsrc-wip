@@ -76,6 +76,6 @@ ${PKGLOCALEDIR}/locale/sk/LC_MESSAGES/olefilterswinword97filter.mo
 ${PKGLOCALEDIR}/locale/sk/LC_MESSAGES/thesaurus_tool.mo
 ${PKGLOCALEDIR}/locale/sk/LC_MESSAGES/xsltexportfilter.mo
 ${PKGLOCALEDIR}/locale/sk/LC_MESSAGES/xsltimportfilter.mo
-@dirrm share/kde/apps/koffice/autocorrect
+@comment in koffice: @dirrm share/kde/apps/koffice/autocorrect
 @dirrm share/doc/kde/HTML/sk/kpresenter
 @comment in kde: @dirrm share/doc/kde/HTML/sk
