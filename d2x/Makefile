@@ -16,7 +16,6 @@ USE_BUILDLINK2=		YES
 D2X_DATA=		${PREFIX}/share/games/${PKGBASE}
 MAKE_DIRS=		${D2X_DATA}
 MESSAGE_SUBST+=		D2X_DATA=${D2X_DATA}
-PLIST_SUBST+=		D2X_DATA=${D2X_DATA}
 
 #
 # Network disabled for now, since only IPX is supported which NetBSD doesn't
