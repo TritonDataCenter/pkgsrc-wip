@@ -5,7 +5,7 @@ DISTNAME=	xmule-1.4.0
 CATEGORIES=	net
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=xmule/}
 
-MAINTAINER=	packages@netbsd.org
+MAINTAINER=	marc@informatik.uni-bremen.de
 HOMEPAGE=	http://www.xmule.org/
 COMMENT=	eDonkey2000 client based on eMule
 
