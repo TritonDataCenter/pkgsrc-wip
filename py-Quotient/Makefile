@@ -14,8 +14,13 @@ USE_BUILDLINK2=		yes
 PY_PATCHPLIST=		yes
 PYDISTUTILSPKG=		yes
 
+
 DEPENDS+=		${PYPKGPREFIX}-Twisted>=1.1.0:../../wip/py-twisted
+
+# TODO: propably some more OS could need py-bsddb3
+.if ${OPSYS} == "NetBSD"
 DEPENDS+=		${PYPKGPREFIX}-bsddb3>=4.1.1:../../databases/py-bsddb3
+.endif
 
 .include "../../lang/python/extension.mk"
 .include "../../mk/bsd.pkg.mk"
