@@ -8,6 +8,10 @@ MAINTAINER=	gdt@ir.bbn.com
 HOMEPAGE=	http://home.gna.org/guile-lib/
 COMMENT=	Library functions for Guile, implemented in Scheme
 
+# Because the distribution does not specify a version, accept anything
+# from 1.6 onwards.
+DEPENDS+=	guile>=1.6:../../lang/guile
+
 HAS_CONFIGURE=	yes
 #CONFIGURE_SCRIPT=	../src/configure
 #CONFIGURE_ARGS= --prefix=${LOCALBASE}
@@ -32,5 +36,4 @@ do-build:
 do-install:
 	cd ${WRKSRC}/build && ${MAKE_PROGRAM} install
 
-.include "../../lang/guile/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
