@@ -18,7 +18,7 @@ do-configure:
 	cd ${WRKSRC} && ${PYTHONBIN} config_unix.py --prefix ${PREFIX}
 
 .include "../../lang/python/extension.mk"
-.include "../../wip/py-ogg/buildlink2.mk"
+.include "../../audio/py-ogg/buildlink2.mk"
 .include "../../audio/libogg/buildlink2.mk"
 .include "../../audio/libvorbis/buildlink2.mk"
 .include "../../mk/bsd.pkg.mk"
