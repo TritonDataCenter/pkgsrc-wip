@@ -36,6 +36,7 @@ include/X11/pixmaps/computer.xpm
 include/X11/pixmaps/keyboard.xpm
 include/X11/pixmaps/monitor.xpm
 include/X11/pixmaps/mouse.xpm
+lib/X11/Cards
 lib/X11/Options
 lib/X11/XF86Config.98
 lib/X11/XF86Config.eg

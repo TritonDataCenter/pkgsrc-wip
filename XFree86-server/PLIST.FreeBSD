@@ -1,5 +1,4 @@
 @comment $NetBSD$
-lib/X11/Cards
 lib/X11/doc/html/XF86Config.5.html
 lib/X11/doc/html/XF86VidMode.3.html
 lib/X11/doc/html/XF86VidModeDeleteModeLine.3.html
