@@ -1,8 +1,6 @@
 @comment $NetBSD$
 ${PYSITELIB}/afm.py
 ${PYSITELIB}/tfm.py
-${PYSITELIB}/afm.pyc
-${PYSITELIB}/tfm.pyc
 bin/gf2pbm
 bin/mftrace
 man/man1/mftrace.1
