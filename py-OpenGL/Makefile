@@ -13,7 +13,7 @@ COMMENT=	Pyhton bindings for OpenGL
 USE_X11=	YES
 USE_BUILDLINK2=	YES
 PYDISTUTILSPKG=	YES
-PY_PATCH_PLIST=	YES
+PY_PATCHPLIST=	YES
 
 post-extract:
 	${CP} ${WRKSRC}/config/freebsd.cfg ${WRKSRC}/config/netbsd1.cfg.tmp
