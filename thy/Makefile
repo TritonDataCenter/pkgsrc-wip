@@ -12,7 +12,7 @@ COMMENT=		Tiny and fast HTTP daemon
 BUILD_DEFS+=		USE_INET6
 GNU_CONFIGURE=		yes
 USE_GNU_TOOLS+=		make
-USE_BUILDLINK2=		yes
+USE_BUILDLINK3=		yes
 USE_PKGINSTALL=		yes
 
 PKG_SYSCONFSUBDIR=	thy
@@ -46,6 +46,6 @@ pre-install:
 post-install:
 	${INSTALL_DATA} ${WRKSRC}/etc/thy.conf ${EGDIR}/
 
-.include "../../security/gnutls/buildlink2.mk"
-.include "../../devel/zlib/buildlink2.mk"
+.include "../../security/gnutls/buildlink3.mk"
+.include "../../devel/zlib/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
