@@ -1,6 +1,0 @@
-@comment $NetBSD$
-man/man8/ssmtp.8
-sbin/ssmtp
-share/examples/ssmtp/revaliases
-share/examples/ssmtp/ssmtp.conf
-@dirrm share/examples/ssmtp
