@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.1653 2005/02/14 18:35:42 dillo Exp $
+# $Id: Makefile,v 1.1654 2005/02/15 20:57:35 airhead Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -768,6 +768,7 @@ SUBDIR+=	scm
 SUBDIR+=	scourge
 SUBDIR+=	scponly
 SUBDIR+=	scribus
+SUBDIR+=	scsh-install-lib
 SUBDIR+=	secpanel
 SUBDIR+=	send-pr
 SUBDIR+=	serlook
