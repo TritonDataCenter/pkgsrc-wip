@@ -1,8 +1,8 @@
 # $NetBSD$
 #
 
-DISTNAME=		elementtree-1.2a2-20030729
-PKGNAME=		${PYPKGPREFIX}-${DISTNAME:S/-20030729//}
+DISTNAME=		elementtree-1.2a5-20031115
+PKGNAME=		${PYPKGPREFIX}-${DISTNAME:S/-20031115//}
 CATEGORIES=		textproc
 MASTER_SITES=		http://effbot.org/downloads/
 EXTRACT_SUFX=		.zip
@@ -13,7 +13,7 @@ COMMENT=		Read XML and HTML files into trees of Element objects
 
 PY_PATCHPLIST=		yes
 PYDISTUTILSPKG=		yes
-USE_BUILDLINK2=		yes
+USE_BUILDLINK3=		yes
 
 .include "../../lang/python/extension.mk"
 .include "../../mk/bsd.pkg.mk"
