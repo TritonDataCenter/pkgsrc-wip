@@ -13,6 +13,7 @@ BUILDLINK_PACKAGES+=	damageext
 .if !empty(DAMAGEEXT_BUILDLINK3_MK:M+)
 BUILDLINK_DEPENDS.damageext+=	damageext>=1.0
 BUILDLINK_PKGSRCDIR.damageext?=	../../wip/damageext
+BUILDLINK_DEPMETHOD.damageext?=	build
 .endif	# DAMAGEEXT_BUILDLINK3_MK
 
 BUILDLINK_DEPTH:=     ${BUILDLINK_DEPTH:S/+$//}
