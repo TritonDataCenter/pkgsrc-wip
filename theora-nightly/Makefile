@@ -13,6 +13,7 @@ COMMENT=	Video codec for Ogg multimedia streaming (nightly source)
 
 PKGVER!=	date +%Y%m%d
 
+NO_SRC_ON_FTP=	# defined
 DIST_SUBDIR=	${PKGNAME}
 NO_CHECKSUM=	# defined
 

@@ -15,6 +15,8 @@ CONFLICTS=	libogg-[0-9]*
 
 PKGVER!=	date +%Y%m%d
 
+NO_SRC_ON_FTP=	# defined
+
 GNU_CONFIGURE=	YES
 USE_LIBTOOL=	YES
 LIBTOOL_OVERRIDE=	${WRKSRC}/libtool
