@@ -8,7 +8,9 @@ MAINTAINER=	roland.illig@gmx.de
 HOMEPAGE=	http://www.bitwizard.nl/
 COMMENT=	Find identical files and link(2) them to save disk space
 
-MAKEFILE=	Makefile.pkgsrc
-USE_GMAKE=	yes
+MAKEFILE=	${FILESDIR}/Makefile
+
+post-patch:
+	@${CP} -rP ${FILESDIR}/same.1 ${WRKSRC}
 
 .include "../../mk/bsd.pkg.mk"
