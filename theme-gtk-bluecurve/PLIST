@@ -1,0 +1,5 @@
+@comment $NetBSD$
+lib/gtk/themes/engines/libbluecurve.so
+share/themes/Bluecurve/gtk/gtkrc
+@dirrm share/themes/Bluecurve/gtk
+@dirrm share/themes/Bluecurve
