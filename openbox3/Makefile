@@ -19,7 +19,7 @@ USE_LIBTOOL=		YES
 USE_X11=		YES
 USE_PKGINSTALL=		YES
 
-PKG_SYSCONFSUBDIR?=	openbox
+PKG_SYSCONFSUBDIR=	openbox
 EGDIR=			${PREFIX}/share/examples/openbox
 CONF_FILES=		${EGDIR}/rc.xml ${PKG_SYSCONFDIR}/rc.xml
 CONF_FILES+=		${EGDIR}/menu.xml ${PKG_SYSCONFDIR}/menu.xml
