@@ -20,7 +20,7 @@ BUILDLINK_FILES.mingw-binutils+=	\
 	bin/i586-mingw32-objcopy bin/i586-mingw32-objdump \
 	bin/i586-mingw32-ranlib bin/i586-mingw32-readelf \
 	bin/i586-mingw32-size bin/i586-mingw32-strings \
-	bin/i586-mingw32-strip bin/i586-mingw32-windres lib/libiberty.* 
+	bin/i586-mingw32-strip bin/i586-mingw32-windres lib/libiberty.*
 
 BUILDLINK_TARGETS+=	mingw-binutils-buildlink
 

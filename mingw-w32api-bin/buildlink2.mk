@@ -10,7 +10,7 @@ BUILDLINK_DEPENDS.mingw-w32api-bin?=		mingw-w32api-bin>=2.4
 BUILDLINK_PKGSRCDIR.mingw-w32api-bin?=		../../wip/mingw-w32api-bin
 
 EVAL_PREFIX+=	BUILDLINK_PREFIX.mingw-w32api-bin=mingw-w32api-bin
-BUILDLINK_PREFIX.mingw-w32api-bin_DEFAULT=	${CROSSBASE}/i586-mingw
+BUILDLINK_PREFIX.mingw-w32api-bin_DEFAULT=	${CROSSBASE}/${MINGW_TARGET}
 
 BUILDLINK_FILES.mingw-w32api-bin= \
 	include/accctrl.h include/aclapi.h include/basetsd.h \
@@ -116,11 +116,11 @@ BUILDLINK_FILES.mingw-w32api-bin= \
 	lib/libversion.a lib/libvfw32.a lib/libwin32k.a lib/libvideoprt.a \
 	lib/libwin32spl.a lib/libwininet.a lib/libwinmm.a lib/libwinspool.a \
 	lib/libwinstrm.a lib/libwldap32.a lib/libwow32.a lib/libws2_32.a \
-	lib/libwsnmp32.a lib/libwsock32.a lib/libwst.a 
-
+	lib/libwsnmp32.a lib/libwsock32.a lib/libwst.a
 
 BUILDLINK_TARGETS+=	mingw-w32api-bin-buildlink
 
 mingw-w32api-bin-buildlink: _BUILDLINK_USE
 
+.include "../../wip/mingw/Makefile.common"
 .endif	# MINGW_W32API_BIN_BUILDLINK2_MK

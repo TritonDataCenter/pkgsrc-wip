@@ -1,16 +1,16 @@
 # $NetBSD$
 #
 
-DISTNAME=		mingw
+DISTNAME=		mingw-3.3.1
 CATEGORIES=		cross
+MASTER_SITES=		# empty
 DISTFILES=		# empty
 
 MAINTAINER=		dotz@irc.pl
 HOMEPAGE=		http://mingw.sf.net/
 COMMENT=		GNU C Compiler for win32 cross development
 
-.include "../../wip/mingw-c/buildlink2.mk"
 .include "../../wip/mingw-binutils/buildlink2.mk"
-#.include "../../wip/mingw-objc/buildlink2.mk"
-.include "../../wip/mingw-g++/buildlink2.mk"
+.include "../../wip/mingw-gcc/buildlink2.mk"
+.include "../../wip/mingw-libtool/buildlink2.mk"
 .include "../../mk/bsd.pkg.mk"
