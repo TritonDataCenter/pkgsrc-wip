@@ -23,6 +23,7 @@ post-patch:
 .include "../../wip/py-game/buildlink2.mk"
 .include "../../wip/py-twisted/buildlink2.mk"
 .include "../../wip/py-mmpython/buildlink2.mk"
+.include "../../wip/py-xml/buildlink2.mk"
 .include "../../graphics/py-imaging/buildlink2.mk"
 .include "../../lang/python/extension.mk"
 .include "../../mk/bsd.pkg.mk"
