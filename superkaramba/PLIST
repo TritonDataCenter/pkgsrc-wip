@@ -1,0 +1,9 @@
+@comment $NetBSD$
+bin/superkaramba
+share/doc/HTML/en/karamba/index.docbook
+share/doc/HTML/en/karamba/index.cache.bz2
+share/applnk/Utilities/karamba.desktop
+share/apps/superkaramba/karambaui.rc
+@dirrm share/doc/HTML/en/karamba/common
+@dirrm share/doc/HTML/en/karamba
+@dirrm share/apps/superkaramba
