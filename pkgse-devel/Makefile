@@ -8,7 +8,7 @@ EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	imil@gcu.info
 HOMEPAGE=	http://imil.net/
-COMMENT=	Fetch informations about a NetBSD package on pkgsrc.netbsd.se
+COMMENT=	Fetch informations about a NetBSD package from pkgsrc.netbsd.se
 
 DEPENDS+=	p5-libwww>=5.76:../../www/p5-libwww
 
