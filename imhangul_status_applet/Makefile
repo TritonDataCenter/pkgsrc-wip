@@ -9,7 +9,7 @@ MAINTAINER=		minskim@bawi.org
 HOMEPAGE=		http://imhangul.kldp.net/\#APPLET
 COMMENT=		GNOME2 applet to show imhangul status
 
-DEPENDS=		imhangul>=0.9.6:../imhangul
+DEPENDS=		imhangul>=0.9.6:../../inputmethod/imhangul
 
 GNU_CONFIGURE=		yes
 USE_BUILDLINK2=		yes
