@@ -12,9 +12,9 @@ HOMEPAGE=		http://freedesktop.org/~xlibs/dist/
 COMMENT=		Network API translation layer to insulate X
 
 USE_BUILDLINK2=		yes
-USE_PKGLOCALEDIR=	yes
-PKGCONFIG_OVERRIDE+=	${WRKSRC}/xtrans.pc.in
 GNU_CONFIGURE=		yes
+
+PKGCONFIG_OVERRIDE+=    ${WRKSRC}/xtrans.pc.in
 
 .include "../../devel/pkgconfig/buildlink2.mk"
 .include "../../mk/bsd.pkg.mk"
