@@ -10,6 +10,8 @@ MAINTAINER=		dotz@irc.pl
 HOMEPAGE=		http://kyra.sourceforge.net/
 COMMENT=		Sprite engine in C++ that uses SDL library
 
+CONFLICTS+=		kyra2-*
+
 WRKSRC=			${WRKDIR}/kyra
 USE_BUILDLINK3=		yes
 USE_PKGLOCALEDIR=	yes
