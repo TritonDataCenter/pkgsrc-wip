@@ -2,7 +2,6 @@
 bin/geoipexport
 bin/geoiplookup
 bin/geoipupdate
-etc/GeoIP.conf
 include/GeoIP.h
 include/GeoIPBitReader.h
 include/GeoIPCity.h
@@ -24,3 +23,5 @@ lib/libGeoIPUpdate.so.0
 lib/libGeoIPUpdate.so.0.0
 man/man1/geoiplookup.1
 man/man1/geoipupdate.1
+share/examples/GeoIP/GeoIP.conf.default
+@dirrm share/examples/GeoIP
