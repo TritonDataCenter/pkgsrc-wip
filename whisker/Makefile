@@ -11,9 +11,10 @@ COMMENT=	URL scanner used to search for known vulnerable CGIs on websites
 DEPENDS+=	p5-Net-SSLeay>=1.20:../../security/p5-Net-SSLeay
 
 USE_PERL5=      YES
+REPLACE_PERL=	whisker.pl
 
 do-build:
-	${SED} s#@PREFIX@#${PREFIX}#g < ${WRKSRC}/whisker.pl > ${WRKSRC}/whisker
+	${SED} -e 's|@PREFIX@|${PREFIX}|g' < ${WRKSRC}/whisker.pl > ${WRKSRC}/whisker
 
 do-install:
 	${INSTALL_DATA_DIR} ${PREFIX}/share/doc/whisker
