@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.470 2003/09/17 18:50:59 xtraeme Exp $
+# $Id: Makefile,v 1.471 2003/09/17 18:59:38 xtraeme Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -293,6 +293,7 @@ SUBDIR+=	p5-Unicode-String
 SUBDIR+=	p5-XML-Stream
 SUBDIR+=	p5-gtk2
 SUBDIR+=	palm-db-tools
+SUBDIR+=	pdb2ldif
 SUBDIR+=	pdns
 SUBDIR+=	pear-Date
 SUBDIR+=	pear-HTML_Common
