@@ -17,6 +17,8 @@ USE_GNU_TOOLS+=		make
 ALL_TARGET=		build
 CONFIGURE_ARGS+=	--with-loadavg
 
+.include "../../mk/bsd.prefs.mk"
+
 # OPTIONS
 BUILD_DEFS=	XINETD_USE_TCPWRAPPER
 XINETD_USE_TCPWRAPPER?=NO
