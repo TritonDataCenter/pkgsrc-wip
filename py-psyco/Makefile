@@ -15,5 +15,8 @@ PYDISTUTILSPKG=	YES
 PYBINMODULE=	YES
 PY_PATCHPLIST=	YES
 
+ONLY_FOR_PLATFORM=		*-*-i386
+PYTHON_VERSIONS_ACCEPTED=	23 23pth 22 22pth 21 21pth
+
 .include	"../../lang/python/extension.mk"
 .include        "../../mk/bsd.pkg.mk"
