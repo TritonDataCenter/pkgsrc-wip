@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.597 2003/11/05 04:10:49 mpasternak Exp $
+# $Id: Makefile,v 1.598 2003/11/05 05:02:35 mpasternak Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -65,6 +65,7 @@ SUBDIR+=	busybox
 SUBDIR+=	byacc
 SUBDIR+=	c-news
 SUBDIR+=	cal3d
+SUBDIR+=	cal3d_cally
 SUBDIR+=	cawf
 SUBDIR+=	ccrypt
 SUBDIR+=	ccze
