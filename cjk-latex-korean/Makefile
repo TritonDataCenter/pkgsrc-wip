@@ -1,6 +1,7 @@
 # $NetBSD$
 
 DISTNAME=	cjk-latex-korean-20020721
+WRKSRC=		${WRKDIR}
 CATEGORIES=	print
 MASTER_SITES=	# empty
 DISTFILES=	# empty
@@ -15,9 +16,7 @@ DEPENDS+=	baekmuk-ttf-*:../../fonts/baekmuk-ttf
 FONT_FILES=	batang dotum gulim hline
 
 EXTRACT_ONLY=	# empty
-WRKSRC=		${WRKDIR}
 NO_CHECKSUM=	yes
-NO_PATCH=	yes
 NO_CONFIGURE=	yes
 NO_BUILD=	yes
 

@@ -1,6 +1,7 @@
 # $NetBSD$
 
 DISTNAME=	cjk-latex-japanese-20020721
+WRKSRC=		${WRKDIR}
 CATEGORIES=	print
 MASTER_SITES=	# empty
 DISTFILES=	# empty
@@ -9,15 +10,14 @@ MAINTAINER=	rxg@netbsd.org
 HOMEPAGE=	http://cjk.ffii.org/
 COMMENT=	Japanese support for CJK-LaTeX
 
-DEPENDS+=	cjk-latex>=4.5.1:../../print/cjk-latex
+#DEPENDS+=	cjk-latex>=4.5.1:../../print/cjk-latex
+DEPENDS+=	cjk-latex>=4.5.1:../../wip/cjk-latex
 DEPENDS+=	kochi-ttf-*:../../fonts/kochi-ttf
 
 FONT_FILES=	gothic mincho
 
 EXTRACT_ONLY=	# empty
-WRKSRC=		${WRKDIR}
 NO_CHECKSUM=	yes
-NO_PATCH=	yes
 NO_CONFIGURE=	yes
 NO_BUILD=	yes
 
