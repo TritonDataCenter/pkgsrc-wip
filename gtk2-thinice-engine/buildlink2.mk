@@ -17,7 +17,6 @@ BUILDLINK_PREFIX.gtk2-thinice-engine_DEFAULT=	${LOCALBASE}
 BUILDLINK_FILES.gtk2-thinice-engine+=	lib/gtk-2.0/2.2.0/engines/libthinice.*
 BUILDLINK_FILES.gtk2-thinice-engine+=	lib/pkgconfig/gtk-thinice-engine-2.pc
 
-.include "../../devel/pkgconfig/buildlink2.mk"
 .include "../../x11/gtk2/buildlink2.mk"
 .include "../../devel/gettext-lib/buildlink2.mk"
 
