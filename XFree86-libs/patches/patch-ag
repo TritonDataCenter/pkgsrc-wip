@@ -8,7 +8,7 @@ $NetBSD$
  #ifndef MakeStringsDependency
 +#if defined(UseInstalled) || defined(UseInstalledPrograms)
 +#define MakeStringsDependency						@@\
-+MAKESTRS = makestrs
++MAKESTRS = @MAKESTRS@
 +#else
  # define MakeStringsDependency						@@\
  MAKESTRS = $(CONFIGSRC)/util/makestrs					@@\
