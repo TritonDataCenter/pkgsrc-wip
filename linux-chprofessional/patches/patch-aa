@@ -20,7 +20,7 @@ $NetBSD$
  
  #default installation directory for ch
 -INSTALL_DIR="/usr/local/ch${VERSION}"
-+INSTALL_DIR="/usr/pkg/chprofessional4.0.0"
++INSTALL_DIR="$PREFIX/chprofessional4.0.0"
  
  
  # CHECK FOR root
