@@ -18,7 +18,6 @@ USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=		yes
 GNU_CONFIGURE=		yes
 USE_GMAKE=		yes
-USE_GNU_ICONV=		yes
 
 GCONF2_SCHEMAS=		gossip.schemas
 LIBTOOL_OVERRIDE=       ${WRKSRC}/libtool
