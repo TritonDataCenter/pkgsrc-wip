@@ -15,7 +15,7 @@ COMMENT=	Video codec for Ogg multimedia streaming (nightly source)
 
 PKGVER!=	${DATE} +%Y%m%d
 NO_SRC_ON_FTP=	# defined
-DIST_SUBDIR=	${PKGNAME}
+DIST_SUBDIR=	${PKGNAME_NOREV}
 NO_CHECKSUM=	# defined
 
 USE_BUILDLINK2=	YES
