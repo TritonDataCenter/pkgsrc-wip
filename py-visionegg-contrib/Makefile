@@ -11,7 +11,7 @@ MAINTAINER=		dotz@irc.pl
 HOMEPAGE=		http://visionegg.sourceforge.net/
 COMMENT=		Additional modules for py-visionegg package
 
-USE_BUILDLINK2=		yes
+USE_BUILDLINK3=		yes
 NO_BUILD=		# defined
 PLIST_SUBST+=		PYVERSSUFFIX=${PYVERSSUFFIX}
 
@@ -31,5 +31,5 @@ do-install:
 			"${PREFIX}/share/VisionEgg-${PYVERSSUFFIX}/labview/$$a"; \
 	done
 
-.include "../../wip/py-visionegg/buildlink2.mk"
+.include "../../wip/py-visionegg/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

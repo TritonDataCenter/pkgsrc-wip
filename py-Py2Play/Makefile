@@ -10,7 +10,7 @@ MAINTAINER=		dotz@irc.pl
 HOMEPAGE=		http://oomadness.tuxfamily.org/en/py2play/index.html
 COMMENT=		Network game engine in Python, utilizing P2P model
 
-USE_BUILDLINK2=		yes
+USE_BUILDLINK3=		yes
 PY_PATCHPLIST=		yes
 PYDISTUTILSPKG=		yes
 

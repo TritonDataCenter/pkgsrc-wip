@@ -628,8 +628,6 @@ ${PYSITELIB}/OpenGL/GLX/__init__.pyo
 ${PYSITELIB}/OpenGL/Tk/__init__.py
 ${PYSITELIB}/OpenGL/Tk/__init__.pyc
 ${PYSITELIB}/OpenGL/Tk/__init__.pyo
-${PYSITELIB}/OpenGL/Tk/${LOWER_OPSYS}1-tk8.3/Togl.so
-${PYSITELIB}/OpenGL/Tk/${LOWER_OPSYS}1-tk8.3/pkgIndex.tcl
 ${PYSITELIB}/OpenGL/__init__.py
 ${PYSITELIB}/OpenGL/__init__.pyc
 ${PYSITELIB}/OpenGL/__init__.pyo

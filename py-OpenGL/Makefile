@@ -11,7 +11,7 @@ HOMEPAGE=	http://pyopengl.sourceforge.net/
 COMMENT=	Pyhton bindings for OpenGL
 
 USE_X11=	YES
-USE_BUILDLINK2=	YES
+USE_BUILDLINK3=	YES
 PYDISTUTILSPKG=	YES
 PY_PATCHPLIST=	YES
 
@@ -24,8 +24,8 @@ pre-build:
 	    ${WRKSRC}/config/netbsd1.cfg.tmp > ${WRKSRC}/config/netbsd1.cfg
 
 .include "../../lang/python/extension.mk"
-.include "../../graphics/Mesa/buildlink2.mk"
-.include "../../math/py-Numeric/buildlink2.mk"
-.include "../../x11/py-Tk/buildlink2.mk"
-.include "../../lang/tcl/buildlink2.mk"
+.include "../../graphics/Mesa/buildlink3.mk"
+.include "../../math/py-Numeric/buildlink3.mk"
+.include "../../x11/py-Tk/buildlink3.mk"
+.include "../../lang/tcl/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
