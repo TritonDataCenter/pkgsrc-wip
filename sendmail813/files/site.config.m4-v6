@@ -1,0 +1,4 @@
+# $NetBSD$
+
+# enable IPv6 
+APPENDDEF(`confENVDEF', `-DNETINET6')

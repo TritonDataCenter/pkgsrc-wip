@@ -1,0 +1,8 @@
+# $NetBSD$
+
+# man pathnames specific for Solaris
+define(`confMAN1EXT', `0')
+define(`confMAN3EXT', `0')
+define(`confMAN4EXT', `0')
+define(`confMAN5EXT', `0')
+define(`confMAN8EXT', `0')

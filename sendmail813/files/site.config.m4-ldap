@@ -1,0 +1,5 @@
+# $NetBSD$
+
+# enable ldap
+APPENDDEF(`confMAPDEF', `-DLDAPMAP')
+APPENDDEF(`confLIBS', `-lldap -llber')

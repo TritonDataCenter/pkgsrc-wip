@@ -1,0 +1,4 @@
+# $NetBSD$
+
+# enable milter
+APPENDDEF(`conf_sendmail_ENVDEF', `-DMILTER')
