@@ -1,0 +1,4 @@
+@comment $NetBSD$
+bin/dxmake
+man/cat1/dxmake.0
+man/man1/dxmake.1
