@@ -1,5 +1,7 @@
 @comment $NetBSD$
+bin/adam
 bin/adamem
+bin/coleco
 bin/cvem
 bin/snapedit
 bin/z80dasm
