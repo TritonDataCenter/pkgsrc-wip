@@ -21,10 +21,9 @@ USE_GNU_TOOLS+=		make
 USE_PERL5=		YES
 
 GNU_CONFIGURE=		YES
-CONFIGURE_ARGS+=	--with-python
+CONFIGURE_ARGS+=	--with-python=${PYTHONBIN:T}
 CONFIGURE_ARGS+=	--with-bonobo --with-gnome-db
 CONFIGURE_ARGS+=	--without-psiconv --without-guile
-CONFIGURE_ENV+=		python_prog=python${PYVERSSUFFIX}
 LIBS+=      		-lunicode
 
 USE_LIBTOOL=		YES
