@@ -14,8 +14,11 @@ BUILDLINK_DEPENDS+=	libX11
 
 .if !empty(LIBX11_BUILDLINK3_MK:M+)
 BUILDLINK_PACKAGES+=			libX11
-BUILDLINK_DEPENDS.libX11?=		libX11>=6.2.1
+BUILDLINK_DEPENDS.libX11+=		libX11>=6.2.1
 BUILDLINK_PKGSRCDIR.libX11?=		../../wip/libX11
+
+.include "../../mk/pthread.buildlink3.mk"
+LIBS+=		${BUILDLINK_LDADD.pthread}
 
 .include "../../wip/xextensions/buildlink3.mk"
 .include "../../wip/xproto/buildlink3.mk"
