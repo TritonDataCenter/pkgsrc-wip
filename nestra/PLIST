@@ -1,0 +1,5 @@
+@comment $NetBSD$
+bin/nestra
+share/doc/nestra/BUGS
+share/doc/nestra/README
+@dirrm share/doc/nestra
