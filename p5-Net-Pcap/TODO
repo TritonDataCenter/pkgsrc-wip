@@ -1,9 +1,3 @@
 $NetBSD$
 
-Tested on NetBSD 1.6 i386.
-
-Give it a go and let me know if there are any problems.
-
-Ta,
-
-Adrian.
+Ready for pkgsrc.
