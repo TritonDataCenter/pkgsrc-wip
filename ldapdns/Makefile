@@ -1,7 +1,7 @@
 # $NetBSD$
 
 DISTNAME=	ldapdns-cvs-snapshot
-PKGNAME=	ldapdns-cvs
+PKGNAME=	ldapdns-cvs-0.0.1
 WRKSRC=		${WRKDIR}/ldapdns/
 CATEGORIES=	net
 MASTER_SITES=	http://ldapdns.sourceforge.net/
