@@ -17,8 +17,15 @@ GNU_CONFIGURE=		YES
 USE_BUILDLINK2=		YES
 USE_LIBTOOL=		YES
 USE_X11=		YES
+USE_PKGINSTALL=		YES
+
+PKG_SYSCONFSUBDIR?=	openbox
+EGDIR=			${PREFIX}/share/examples/openbox
+CONF_FILES=		${EGDIR}/rc.xml ${PKG_SYSCONFDIR}/rc.xml
+CONF_FILES+=		${EGDIR}/menu.xml ${PKG_SYSCONFDIR}/menu.xml
 
 LIBTOOL_OVERRIDE=	${WRKSRC}/libtool
+CONFIGURE_ARGS+=	--sysconfdir=${PKG_SYSCONFDIR}
 
 .include "../../converters/libiconv/buildlink2.mk"
 .include "../../devel/glib2/buildlink2.mk"
