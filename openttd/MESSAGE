@@ -14,4 +14,10 @@ in order to play:
 	trgir.grf
 	trgtr.grf
 
+All *.gm files should be copied to ${PREFIX}/share/games/openttd/gm
+in order to play original MIDI music.
+
+Note: On NetBSD playing MIDI music is not supported now. Probably in the
+future versions.
+
 ===========================================================================
