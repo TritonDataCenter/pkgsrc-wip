@@ -14,7 +14,7 @@ COMMENT=		Python IDE with wxGlade GUI designer, auto-indentation and more
 USE_BUILDLINK3=		yes
 PY_PATCHPLIST=		yes
 PYDISTUTILSPKG=		yes
-EXTRACT_CMD_OPTS.zip=	-aqo
+EXTRACT_CMD_OPTS.zip=	-qo
 
 .include "../../x11/py-wxWindows/buildlink3.mk"
 .include "../../lang/python/extension.mk"
