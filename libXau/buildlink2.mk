@@ -17,7 +17,6 @@ BUILDLINK_PREFIX.libXau_DEFAULT=	${LOCALBASE}
 BUILDLINK_FILES.libXau+=	include/X11/Xauth.h
 BUILDLINK_FILES.libXau+=	lib/libXau.*
 
-
 BUILDLINK_TARGETS+=	libXau-buildlink
 
 libXau-buildlink: _BUILDLINK_USE

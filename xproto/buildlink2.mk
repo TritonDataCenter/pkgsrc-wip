@@ -31,7 +31,6 @@ BUILDLINK_FILES.xproto+=	include/X11/Xthreads.h
 BUILDLINK_FILES.xproto+=	include/X11/keysym.h
 BUILDLINK_FILES.xproto+=	include/X11/keysymdef.h
 
-
 BUILDLINK_TARGETS+=	xproto-buildlink
 
 xproto-buildlink: _BUILDLINK_USE

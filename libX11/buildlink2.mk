@@ -26,7 +26,6 @@ BUILDLINK_FILES.libX11+=	include/X11/cursorfont.h
 BUILDLINK_FILES.libX11+=	include/X11/region.h
 BUILDLINK_FILES.libX11+=	lib/libX11.*
 
-
 BUILDLINK_TARGETS+=	libX11-buildlink
 
 libX11-buildlink: _BUILDLINK_USE
