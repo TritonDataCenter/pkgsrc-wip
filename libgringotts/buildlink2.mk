@@ -16,7 +16,6 @@ EVAL_PREFIX+=	BUILDLINK_PREFIX.libgringotts=libgringotts
 BUILDLINK_PREFIX.libgringotts_DEFAULT=	${LOCALBASE}
 BUILDLINK_FILES.libgringotts+=	include/libgringotts.h
 BUILDLINK_FILES.libgringotts+=	lib/libgringotts.*
-BUILDLINK_FILES.libgringotts+=	lib/pkgconfig/libgringotts.pc
 
 .include "../../security/libmcrypt/buildlink2.mk"
 .include "../../security/mhash/buildlink2.mk"
