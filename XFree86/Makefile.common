@@ -42,7 +42,7 @@ _XINCLUDE_DIRS=	include ${XBUILD_DIRS} ${XINCLUDE_DIRS}
 
 # Operating Systems to pass our compiler options (CC, CXX, CPP, CFLAGS)
 
-SYSTEMS=	NetBSD FreeBSD
+SYSTEMS=	NetBSD FreeBSD linux
 
 .if defined(FAKE_XFREE86_DEPS)
 
