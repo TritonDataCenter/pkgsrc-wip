@@ -16,7 +16,7 @@ SPECIAL_PERMS+=         ${PREFIX}/bin/gkrellmd ${ROOT_USER} kmem 2711
 ALL_TARGET=		netbsd
 INSTALL_TARGET=		install_netbsd
 
-WRKSRC=			${WRKDIR}/gkrellm-${GKRELLM_VERSION}
+WRKSRC=			${GKRELLM_SRCDIR}
 
 pre-build:
 	${SED} -e s,@@PREFIX@@,${PREFIX}, \
