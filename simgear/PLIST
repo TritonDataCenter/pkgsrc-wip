@@ -73,7 +73,6 @@ include/simgear/scene/tgdb/pt_lights.hxx
 include/simgear/scene/tgdb/userdata.hxx
 include/simgear/screen/colors.hxx
 include/simgear/screen/extensions.hxx
-include/simgear/screen/jpgfactory.hxx
 include/simgear/screen/screen-dump.hxx
 include/simgear/screen/texture.hxx
 include/simgear/screen/tr.h
