@@ -11,14 +11,16 @@ HOMEPAGE=	http://pyzor.sourceforge.net/
 COMMENT=	Collaborative, networked system to detect and block spam
 
 .if defined(PYZOR_USE_PYZORD) && !empty(PYZOR_USE_PYZORD:M[Yy][Ee][Ss])
-DEPENDS+=	py23-gdbm>=0nb1:../../databases/py-gdbm
+DEPENDS+=	${PYPKGPREFIX}-gdbm>=0nb1:../../databases/py-gdbm
 # pyzords needs python with threading support
 PYTHON_VERSIONS_ACCEPTED=	23pth
 .else
 PYTHON_VERSIONS_ACCEPTED=	23 23pth
 .endif
 
-PYDISTUTILSPKG=			YES
+BUILD_DEFS+=	PYZOR_USE_PYZORD
+
+PYDISTUTILSPKG=	YES
 
 PYTHON_PATCH_SCRIPTS=		scripts/pyzor	\
 				scripts/pyzord
