@@ -10,7 +10,7 @@ MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://ws.apache.org/xmlrpc/
 COMMENT=		Java implementation of XML-RPC
 
-USE_BUILDLINK2=		yes
+USE_BUILDLINK3=		yes
 
 do-build:
 
@@ -21,4 +21,5 @@ do-install:
 	${INSTALL_DATA} ${WRKSRC}/xmlrpc-1.2-b1-applet.jar \
 		${PREFIX}/share/classpath/xmlrpc-1.2-b1-applet.jar
 
+.include "../../mk/java-vm.mk"
 .include "../../mk/bsd.pkg.mk"
