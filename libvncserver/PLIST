@@ -1,6 +1,5 @@
 @comment $NetBSD$
 bin/libvncserver-config
-bin/x11vnc
 include/rfb/keysym.h
 include/rfb/rfb.h
 include/rfb/rfbclient.h
