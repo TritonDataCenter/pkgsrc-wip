@@ -7,7 +7,7 @@ PYORBIT_BUILDLINK2_MK=	# defined
 
 BUILDLINK_PACKAGES+=			pyorbit
 BUILDLINK_DEPENDS.pyorbit?=		${PYPKGPREFIX}-orbit>=1.99.4
-BUILDLINK_PKGSRCDIR.pyorbit?=		../../net/pyorbit
+BUILDLINK_PKGSRCDIR.pyorbit?=		../../wip/pyorbit
 
 EVAL_PREFIX+=	BUILDLINK_PREFIX.pyorbit=${PYPKGPREFIX}-orbit
 BUILDLINK_PREFIX.pyorbit_DEFAULT=	${LOCALBASE}
@@ -18,6 +18,6 @@ BUILDLINK_FILES.pyorbit+=	lib/pkgconfig/pyorbit-2.pc
 
 BUILDLINK_TARGETS+=	pyorbit-buildlink
 
-py22-orbit-buildlink: _BUILDLINK_USE
+pyorbit-buildlink: _BUILDLINK_USE
 
 .endif	# PYORBIT_BUILDLINK2_MK

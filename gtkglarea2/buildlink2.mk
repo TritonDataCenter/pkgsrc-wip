@@ -10,7 +10,7 @@ GTKGLAREA2_BUILDLINK2_MK=	# defined
 
 BUILDLINK_PACKAGES+=			gtkglarea2
 BUILDLINK_DEPENDS.gtkglarea2?=		gtkglarea2>=1.99.0
-BUILDLINK_PKGSRCDIR.gtkglarea2?=		../../x11/gtkglarea2
+BUILDLINK_PKGSRCDIR.gtkglarea2?=		../../wip/gtkglarea2
 
 EVAL_PREFIX+=	BUILDLINK_PREFIX.gtkglarea2=gtkglarea2
 BUILDLINK_PREFIX.gtkglarea2_DEFAULT=	${LOCALBASE}
