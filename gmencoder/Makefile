@@ -10,10 +10,9 @@ MAINTAINER=	jrp@hispabsd.org
 HOMEPAGE=	http://gmencoder.sourceforge.net/
 COMMENT=	GTK2 Frontend to mencoder
 
+DEPENDS+=       gnome2-dirs>=1.0:../../misc/gnome2-dirs
+DEPENDS+=       mencoder-[0-9]*:../../graphics/mencoder
 BUILD_USES_MSGFMT=	yes
-
-DEPENDS+=	gnome2-dirs>=1.0:../../misc/gnome2-dirs
-DEPENDS+=	mencoder-[0-9]*:../../graphics/mencoder
 
 USE_BUILDLINK2=		yes
 USE_PKGLOCALEDIR=	yes
@@ -23,4 +22,5 @@ USE_X11=		yes
 
 .include "../../mk/pthread.buildlink2.mk"
 .include "../../devel/libgnomeui/buildlink2.mk"
+.include "../../devel/gettext-lib/buildlink2.mk"
 .include "../../mk/bsd.pkg.mk"
