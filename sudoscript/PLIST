@@ -1,4 +1,4 @@
-@comment <$>NetBSD<$>
+@comment $NetBSD$
 bin/ss
 bin/sudoshell
 etc/rc.d/sudoscriptd
