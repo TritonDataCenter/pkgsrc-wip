@@ -1,0 +1,15 @@
+@comment $NetBSD$
+sbin/pts
+share/pts/locale/en.msg
+share/pts/locale/ja.msg
+share/pts/pts.ban
+share/pts/pts.ini
+share/pts/pts.motd
+share/pts/pts.news
+share/pts/pts.secure
+@exec ${MKDIR} %D/share/pts/logs
+@dirrm share/pts/logs
+@dirrm share/pts/locale
+@exec ${MKDIR} %D/share/pts/dstats
+@dirrm share/pts/dstats
+@dirrm share/pts
