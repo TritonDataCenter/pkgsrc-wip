@@ -14,6 +14,11 @@ USE_PKGINSTALL=	YES
 GNU_CONFIGURE=	YES
 USE_GMAKE=	YES
 
+CONF_FILES=	${PREFIX}/lib/php.ini
+
+BUILD_DEFS=	USE_INET6 PHP5_WITH_FTP \
+		PHP5_WITHOUT_XML
+
 post-install:
 	${INSTALL_DATA} ${WRKSRC}/php.ini-recommended \
 		${PREFIX}/lib/php.ini
