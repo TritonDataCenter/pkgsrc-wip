@@ -103,12 +103,8 @@ INSTALLATION_DIRS=	share/doc/${PKGBASE} \
 			share/${PKGBASE}/txt share/${PKGBASE}/cgi
 
 post-install:
-.for d in txt cgi cgi/templates
-	${FIND} ${WRKSRC}/${d} -name Makefile\* | ${XARGS} ${RM} -f
-.endfor
-.undef d
 .for d in txt cgi
-	cd ${WRKSRC}/${d} && && ${PAX} -rwppm . ${PREFIX}/share/${PKGBASE}/${d}
+	cd ${WRKSRC}/${d} && ${PAX} -rwppm '-s|.*/Makefile.*$$||' . ${PREFIX}/share/${PKGBASE}/${d}
 .endfor
 	${INSTALL_DATA} ${WRKSRC}/RE* ${PREFIX}/share/doc/${PKGBASE}
 
