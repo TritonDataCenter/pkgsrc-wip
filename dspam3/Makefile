@@ -20,7 +20,7 @@ REPLACE_PERL=		tools/dspam_genaliases.in \
 
 PKGCONFIG_OVERRIDE+=	dspam.pc.in
 
-BDB_ACCEPTED=		db3 db4
+BDB_ACCEPTED=		db4 db3
 
 BUILD_DEFS+=		DSPAM_DELIVERY_AGENT
 BUILD_DEFS+=		DSPAM_HOME
