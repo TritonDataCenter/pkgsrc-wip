@@ -2,6 +2,7 @@
 #
 
 DISTNAME=		flc
+PKGNAME=		flc-0.1
 CATEGORIES=		wip
 MASTER_SITES=		ftp://coombs.anu.edu.au/pub/net/firewall/ip-filter/
 
