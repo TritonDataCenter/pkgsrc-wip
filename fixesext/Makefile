@@ -16,4 +16,5 @@ GNU_CONFIGURE=		yes
 PKGCONFIG_OVERRIDE+=    ${WRKSRC}/fixesext.pc.in
 
 .include "../../devel/pkgconfig/buildlink2.mk"
+.include "../../wip/xextensions/buildlink2.mk"
 .include "../../mk/bsd.pkg.mk"
