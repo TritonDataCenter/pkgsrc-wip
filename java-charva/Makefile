@@ -1,8 +1,8 @@
 # $NetBSD$
 #
 
-DISTNAME=		charva-1.0.2
-PKG_NAME=		java-charva-1.0.2
+DISTNAME=		charva-1.1.0
+PKG_NAME=		java-charva-1.1.0
 CATEGORIES=		devel
 MASTER_SITES=		http://www.pitman.co.za/projects/download/
 
