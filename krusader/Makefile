@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		krusader-1.40-beta2
+DISTNAME=		krusader-1.40
 CATEGORIES=		kde x11
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=krusader/}
 
