@@ -11,7 +11,7 @@ COMMENT=	Manipulating Flash movie (SWF) files
 
 DEPENDS+=       p5-Data-TemporaryBag-[0-9]*:../../wip/p5-Data-TemporaryBag
 
-USE_BUILDLINK2=		yes
+USE_BUILDLINK3=		yes
 PERL5_PACKLIST=		${PERL5_SITEARCH}/auto/SWF/File/.packlist
 
 .include "../../lang/perl5/module.mk"

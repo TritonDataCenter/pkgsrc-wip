@@ -8,7 +8,7 @@ MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=NetPacket/}
 MAINTAINER=	david@netbsd-fr.org
 COMMENT=	Modules to assemble/disassemble network packets
 
-USE_BUILDLINK2=		yes
+USE_BUILDLINK3=		yes
 PERL5_PACKLIST=		${PERL5_SITEARCH}/auto/NetPacket/.packlist
 
 .include "../../lang/perl5/module.mk"
