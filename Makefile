@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.1027 2004/02/26 17:47:20 cubidou Exp $
+# $Id: Makefile,v 1.1028 2004/02/26 19:07:04 poppnk Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -319,6 +319,7 @@ SUBDIR+=	lletters
 SUBDIR+=	lmarbles
 SUBDIR+=	lsdvd
 SUBDIR+=	lua-expat
+SUBDIR+=	lua-pgsql
 SUBDIR+=	luacheia
 SUBDIR+=	luaposix
 SUBDIR+=	luasocket
