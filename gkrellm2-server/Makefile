@@ -13,10 +13,7 @@ CONF_FILES=		${PREFIX}/share/examples/gkrellm-server/gkrellmd.conf ${PREFIX}/etc
 
 SPECIAL_PERMS+=         ${PREFIX}/bin/gkrellmd ${ROOT_USER} kmem 2711
 
-ALL_TARGET=		netbsd
-INSTALL_TARGET=		install_netbsd
-
-WRKSRC=			${GKRELLM_SRCDIR}
+MAKE_ENV+=		MODULES=server
 
 pre-build:
 	${SED} -e s,@@PREFIX@@,${PREFIX}, \
