@@ -45,12 +45,6 @@ pre-configure:
 
 pre-install:
 	${INSTALL_DATA_DIR} ${EGDIR}
-	strip ${WRKSRC}/build*/exim
-	strip ${WRKSRC}/build*/exim_dbmbuild
-	strip ${WRKSRC}/build*/exim_tidydb
-	strip ${WRKSRC}/build*/exim_fixdb
-	strip ${WRKSRC}/build*/exim_dumpdb
-	strip ${WRKSRC}/build*/exim_lock
 
 post-build:
 	@${SED} ${FILES_SUBST_SED} ${FILESDIR}/mailer.conf.exim \
