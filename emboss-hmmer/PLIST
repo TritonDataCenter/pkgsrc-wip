@@ -9,11 +9,7 @@ bin/ehmmfetch
 bin/ehmmindex
 bin/ehmmpfam
 bin/ehmmsearch
-lib/libhmmer.a
 lib/libhmmer.la
-lib/libhmmer.so
-lib/libhmmer.so.2
-lib/libhmmer.so.2.1
 share/EMBOSS/acd/ealistat.acd
 share/EMBOSS/acd/ehmmalign.acd
 share/EMBOSS/acd/ehmmbuild.acd
