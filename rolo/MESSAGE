@@ -1,7 +1,0 @@
-===========================================================================
-$NetBSD$
-
-Currently, you must edit the vCard data by hand; to help you, RFC2426,
-which documents the vCard format is provided in ${PREFIX}/share/doc/rolo.
-
-===========================================================================
