@@ -27,10 +27,7 @@ REPLACE_PERL=		fonts/util/bdftruncate.pl fonts/util/ucs2any.pl
 # XXX PAM support
 
 .if ${OPSYS} == "Linux"
-PLIST_SRC+=	${.CURDIR}/PLIST.html
 .include "../../security/PAM/buildlink2.mk"
-.elif ${OPSYS} == "FreeBSD"
-PLIST_SRC+=	${.CURDIR}/PLIST.html
 .endif
 
 post-configure:
