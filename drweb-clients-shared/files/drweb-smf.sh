@@ -6,13 +6,13 @@
 # REQUIRE: DAEMON
 # BEFORE: LOGIN
 
-. /etc/rc.subr
+. @RCD_SUBR@
 
 name="drwebsmf"
 rcvar=$name
 command="@PREFIX@/sbin/drweb-smf"
 procname="${command}"
-start_precmd="drweb_smf_clean"
+start_precmd="drwebsmf_clean"
 required_files="@PKG_SYSCONFDIR@/drweb-smf.conf"
 
 drweb_smf_clean()

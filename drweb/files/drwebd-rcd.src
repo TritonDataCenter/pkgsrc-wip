@@ -6,7 +6,7 @@
 # REQUIRE: SERVERS
 # BEFORE: DAEMON
 
-. /etc/rc.subr
+. @RCD_SUBR@
 
 name="drwebd"
 rcvar=$name
