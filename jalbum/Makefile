@@ -23,7 +23,6 @@ do-build:
 
 do-install:
 	${INSTALL_SCRIPT} ${WRKDIR}/jalbum ${PREFIX}/bin
-	${INSTALL_DATA_DIR} ${PREFIX}/JAlbum
 	(cd ${WRKDIR} && ${TAR} -cf - JAlbum) | ${TAR} -xf - -C ${PREFIX}
 
 .include "../../mk/java-vm.mk"
