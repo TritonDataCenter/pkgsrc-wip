@@ -2,6 +2,7 @@
 
 DISTNAME=	moregroupware-0.7.2
 PKGNAME=	${DISTNAME}
+PKGREVISION=	1
 CATEGORIES=	www
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=moregroupware/}
 DISTFILES=	moregroupware-core-0.7.2${EXTRACT_SUFX} \
@@ -13,7 +14,6 @@ MAINTAINER=	pih@bsdmail.dk
 HOMEPAGE=	http://moregroupware.org/
 COMMENT=	Web based GroupWare system
 
-DEPENDS+=	ap-php>=4.3.4:../../www/ap-php4
 DEPENDS+=	php-curl>=4.3.4:../../www/php4-curl
 DEPENDS+=	mysql-server>=3.23:../../databases/mysql-server
 DEPENDS+=	php-ldap>=4.3.4:../../databases/php4-ldap
