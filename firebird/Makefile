@@ -12,7 +12,7 @@ HOMEPAGE=		http://firebird.sf.net/
 COMMENT=		SQL database, opensource version of InterBase
 
 WRKSRC=			${WRKDIR}/firebird15
-USE_BUILDLINK2=		yes
+USE_BUILDLINK3=		yes
 USE_LIBTOOL=		yes
 USE_GNU_TOOLS+=		make
 PREFIX=			${LOCALBASE}/firebird15
