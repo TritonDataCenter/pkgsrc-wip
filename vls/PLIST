@@ -1,7 +1,0 @@
-@comment $NetBSD$
-bin/vls
-bin/vlsd
-lib/videolan/vls/dvdreader.so
-share/examples/vls/vls.cfg
-@dirrm share/examples/vls
-@dirrm lib/videolan/vls
