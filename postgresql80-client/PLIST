@@ -34,8 +34,6 @@ man/man1/pg_dumpall.1
 man/man1/pg_resetxlog.1
 man/man1/pg_restore.1
 man/man1/postgres.1
-man/man1/postmaster.1
-man/man1/psql.1
 man/man1/vacuumdb.1
 man/manl/abort.l
 man/manl/alter_aggregate.l
