@@ -1,4 +1,10 @@
 @comment $NetBSD$
+bin/jdk14-appletviewer
+bin/jdk14-jar
+bin/jdk14-javac
+bin/jdk14-javadoc
+bin/jdk14-javah
+bin/jdk14-javap
 java/jdk-1.4.2/COPYRIGHT
 java/jdk-1.4.2/LICENSE
 java/jdk-1.4.2/README

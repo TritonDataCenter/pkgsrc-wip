@@ -1,6 +1,7 @@
 # $NetBSD$
 
 DISTNAME=	j2sdk-1_4_2-src-scsl
+PKGREVISION=	1
 PKGNAME=	jdk14-${JDK_VERSION}.${JDK_PATCHSET_VERSION}
 CATEGORIES=	lang java
 MASTER_SITES=	# http://www.sun.com/software/java2/download.html
@@ -43,6 +44,7 @@ JVM_HOME=	${LOCALBASE}/java/jdk-1.4.2
 JAVA_HOME=	${JVM_HOME}
 JAVA_NAME=	jdk14
 JAVA_UNLIMIT=	datasize
+JAVA_WRAPPERS=	appletviewer jar java javac javadoc javah javap
 
 # Let an installed version of this package bootstrap a later version
 # (skips having to reinstall sun-jdk14 again)
