@@ -1,4 +1,4 @@
-# $NetBSD: Makefile,v 1.6 2003/08/28 15:43:04 pancake Exp $
+# $NetBSD$
 #
 
 DISTNAME=	idesk-0.3.5
@@ -12,7 +12,6 @@ COMMENT=	Show png icons on your desktop
 USE_GMAKE=	yes
 USE_X11=	yes
 USE_BUILDLINK2=	yes
-#MAKE_ENV+=	PREFIX=${PREFIX}
 
 .include "../../graphics/imlib/buildlink2.mk"
 .include "../../fonts/Xft2/buildlink2.mk"
