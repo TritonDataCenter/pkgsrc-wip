@@ -3,7 +3,7 @@
 
 DISTNAME=	matchbox-panel-manager-0.1
 CATEGORIES=	x11
-MASTER_SITES=	http://matchbox.handhelds.org/sources/matchbox-panel-manager/0.1/
+MASTER_SITES=	ftp://ftp.handhelds.org/projects/matchbox/sources/matchbox-panel-manager/0.1/
 EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	tech-pkg@NetBSD.org
