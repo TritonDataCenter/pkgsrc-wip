@@ -17,6 +17,7 @@ USE_GNU_TOOLS+=		make
 ALL_TARGET=		build
 
 RCD_SCRIPTS=		xinetd
+CPPFLAGS+=		-DDEFAULT_CONFIG_FILE=\\\"\"${PREFIX}/etc/xinetd.conf\\\"\"
 
 post-install:
 	${INSTALL_DATA_DIR} ${PREFIX}/share/examples/xinetd/
