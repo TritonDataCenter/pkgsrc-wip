@@ -1,0 +1,5 @@
+@comment $NetBSD$
+bin/yabause
+man/man1/yabause.1
+share/doc/yabause/README
+@dirrm share/doc/yabause
