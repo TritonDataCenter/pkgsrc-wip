@@ -1,6 +1,5 @@
 @comment $NetBSD$
-share/gdesklets/Displays/rssgrab/rssgrab-lite-dc.display
-share/gdesklets/Displays/rssgrab/rssgrab-lite.display
+share/gdesklets/Displays/rssgrab/rssgrab-orig.display
 share/gdesklets/Displays/rssgrab/rssgrab-psi.display
 share/gdesklets/Displays/rssgrab/rssgrab.display
 share/gdesklets/Displays/rssgrab/gfx/action.png
