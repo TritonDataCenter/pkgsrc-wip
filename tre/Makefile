@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	tre-0.6.8
+DISTNAME=	tre-0.7.0
 CATEGORIES=	devel
 MASTER_SITES=	http://laurikari.net/tre/
 
