@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.1109 2004/03/23 01:43:50 rockpiper Exp $
+# $Id: Makefile,v 1.1110 2004/03/24 00:13:13 rockpiper Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -187,6 +187,7 @@ SUBDIR+=	gliv
 SUBDIR+=	glkterm
 SUBDIR+=	glulxe
 SUBDIR+=	gmfsk
+SUBDIR+=	gmpc
 SUBDIR+=	gnome-clipboard-daemon
 SUBDIR+=	gnomeicu
 SUBDIR+=	gnucash-docs
