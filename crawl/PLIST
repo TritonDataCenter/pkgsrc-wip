@@ -1,0 +1,5 @@
+@comment $NetBSD$
+bin/crawl
+man/man1/crawl.1
+share/examples/${PKGBASE}/crawl.conf
+@dirrm share/examples/${PKGBASE}
