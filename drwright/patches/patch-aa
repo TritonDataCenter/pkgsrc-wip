@@ -1,5 +1,7 @@
 $NetBSD$
 
+http://bugzilla.gnome.org/show_bug.cgi?id=135300
+
 --- src/drw-monitor.c.orig	Fri Jun 13 19:32:51 2003
 +++ src/drw-monitor.c
 @@ -26,7 +26,6 @@
