@@ -7,7 +7,7 @@ MASTER_SITES=		http://freedesktop.org/~xlibs/dist/
 EXTRACT_SUFX=		.tar.bz2
 
 MAINTAINER=		xtraeme@NetBSD.org
-HOMEPAGE=		http://www.freedesktop.org/Software/xlibs
+HOMEPAGE=		http://www.freedesktop.org/Software/FixesExt
 COMMENT=		X Fixes extension headers and specification
 
 USE_BUILDLINK2=		yes
