@@ -1,4 +1,0 @@
-@comment $NetBSD$
-bin/gtkmagnetic
-share/doc/gtkmagnetic/README
-@dirrm share/doc/gtkmagnetic
