@@ -12,6 +12,8 @@ USE_BUILDLINK2=		YES
 USE_PKGINSTALL=		YES
 USE_GMAKE=		YES
 
+CONFLICTS=		{mysql-server-[0-9]*,mysql3-server-[0-9]*}
+
 PTHREAD_OPTS=		require
 
 CONFIGURE_ARGS+=	--with-pthreads
