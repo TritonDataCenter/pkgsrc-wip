@@ -1,0 +1,5 @@
+@comment $NetBSD$
+${MINGWTARGET}/bin/pkg-config
+${MINGWTARGET}/man/man1/pkg-config.1
+${MINGWTARGET}/share/aclocal/pkg.m4
+bin/${MINGWTARGET}-pkg-config
