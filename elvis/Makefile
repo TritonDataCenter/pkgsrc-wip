@@ -16,4 +16,6 @@ HAS_CONFIGURE=		YES
 CONFIGURE_ARGS+=	--with-x=no
 CONFIGURE_ARGS+=	--prefix=${PREFIX}
 
+MAKEFLAGS+=		DOCDIR=${PREFIX}/share/doc/elvis
+
 .include "../../mk/bsd.pkg.mk"
