@@ -1,4 +1,0 @@
-@comment $NetBSD$
-lib/xmms/Input/libmusepack.la
-lib/xmms/Input/libmusepack.so
-@comment in xmms: @dirrm lib/xmms/Input
