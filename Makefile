@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.644 2003/11/22 16:33:23 mpasternak Exp $
+# $Id: Makefile,v 1.645 2003/11/22 17:24:10 mpasternak Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -420,6 +420,7 @@ SUBDIR+=	py-biggles
 SUBDIR+=	py-buildbot
 SUBDIR+=	py-cjkcodecs
 SUBDIR+=	py-elementtree
+SUBDIR+=	py-fastaudio
 SUBDIR+=	py-fonttools
 SUBDIR+=	py-game
 SUBDIR+=	py-gdick
