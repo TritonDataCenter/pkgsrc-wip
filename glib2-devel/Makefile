@@ -23,7 +23,7 @@ PKGCONFIG_OVERRIDE+=	${WRKSRC}/gmodule-2.0.pc.in
 PKGCONFIG_OVERRIDE+=	${WRKSRC}/gobject-2.0.pc.in
 PKGCONFIG_OVERRIDE+=	${WRKSRC}/gthread-2.0.pc.in
 
-CONFIGURE_ARGS.gnu-iconv=	--with-libiconv=gnu
+CONFIGURE_ARGS+=	--with-libiconv=gnu
 CONFIGURE_ENV+=		PTHREAD_CFLAGS=${PTHREAD_CFLAGS}
 
 .include "../../devel/pkgconfig/buildlink3.mk"
