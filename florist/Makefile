@@ -19,6 +19,7 @@ USE_AUTOCONF=		yes
 AUTOCONF_REQD=		2.12
 USE_GNU_TOOLS+=		make
 GCC_SUBPREFIX=		gcc3
+GCC_REQUIRED+=	3.3
 
 post-extract:
 	${CP} ${FILESDIR}/pconfig.NetBSD ${WRKSRC}/configs
