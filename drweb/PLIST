@@ -5,17 +5,17 @@ bin/drweb-update
 etc/rc.d/drwebd
 sbin/drwebd
 sbin/drwebd-bin
-${_DOCDIR}/ChangeLog
-${_DOCDIR}/README
-${_DOCDIR}/drwebd-api
-${_DOCDIR}/readme.daemon
-${_DOCDIR}/readme.eicar
-${_DOCDIR}/readme.scanner
-${_DOCDIR}/readme.update
-${_EGDIR}/drweb.key
-${_EGDIR}/drweb32.dll
-${_EGDIR}/drweb32.ini
-${_EGDIR}/drwebase.vdb
-${_EGDIR}/drwebd.key
-@dirrm ${_DOCDIR}
-@dirrm ${_EGDIR}
+${DRW_DOCDIR}/ChangeLog
+${DRW_DOCDIR}/README
+${DRW_DOCDIR}/drwebd-api
+${DRW_DOCDIR}/readme.daemon
+${DRW_DOCDIR}/readme.eicar
+${DRW_DOCDIR}/readme.scanner
+${DRW_DOCDIR}/readme.update
+${DRW_EGDIR}/drweb.key
+${DRW_EGDIR}/drweb32.dll
+${DRW_EGDIR}/drweb32.ini
+${DRW_EGDIR}/drwebase.vdb
+${DRW_EGDIR}/drwebd.key
+@dirrm ${DRW_DOCDIR}
+@dirrm ${DRW_EGDIR}
