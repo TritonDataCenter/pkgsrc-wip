@@ -12,6 +12,8 @@ MAINTAINER=		cube@NetBSD.org
 HOMEPAGE=		ftp://ftp.redhat.com/pub/redhat/linux/9/en/os/i386/SRPMS/
 COMMENT=		Module to allow Apache 2 authentication against a MySQL database.
 
+CONFLICTS+=		ap-auth-mysql-*
+
 DIST_SUBDIR=		ap2-auth-mysql
 EXTRACT_ONLY=		${DISTNAME}.gz
 

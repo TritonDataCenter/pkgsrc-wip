@@ -11,6 +11,8 @@ MAINTAINER=		cube@NetBSD.org
 HOMEPAGE=		http://packages.debian.org/unstable/web/libapache-mod-auth-mysql.html
 COMMENT=		Module to allow Apache authentication against a MySQL database.
 
+CONFLICTS+=		ap2-auth-mysql-*
+
 USE_BUILDLINK2=		yes
 GNU_CONFIGURE=		yes
 
