@@ -829,7 +829,7 @@ lib/X11/xman.help
 lib/X11/xsm/system.xsm
 @dirrm lib/X11/icons/whiteglass/cursors
 @dirrm lib/X11/icons/whiteglass
-@dirrm lib/X11/icons/redglass/cursors 
+@dirrm lib/X11/icons/redglass/cursors
 @dirrm lib/X11/icons/redglass
 @dirrm lib/X11/icons/handhelds/cursors
 @dirrm lib/X11/icons/handhelds
