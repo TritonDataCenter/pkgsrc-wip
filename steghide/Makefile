@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		steghide-0.5.1
-CATEGORIES=		wip
+CATEGORIES=		security
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=steghide/}
 
 MAINTAINER=		adam@monkeybyte.org

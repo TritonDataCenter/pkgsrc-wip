@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	tripwire-2.3.1-2
-CATEGORIES=	wip
+CATEGORIES=	security
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=tripwire/}
 
 MAINTAINER=	pancake@phreaker.net
