@@ -22,6 +22,7 @@ CONFLICTS=		kth-krb4-[0-9]*
 YACC=			bison -y
 GNU_CONFIGURE=		YES
 CONFIGURE_ARGS+=	--enable-shared
+MAKE_ENV+=		ROOT_USER=${ROOT_USER}
 
 # XXX do we care?
 RESTRICTED=		"Redistribution not permitted"
