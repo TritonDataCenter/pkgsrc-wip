@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.493 2003/09/25 04:56:47 xtraeme Exp $
+# $Id: Makefile,v 1.494 2003/09/25 06:35:09 mpasternak Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -312,6 +312,7 @@ SUBDIR+=	pgpenvelope
 SUBDIR+=	php-jpgraph
 #SUBDIR+=	php4			# not a package
 SUBDIR+=	php4-exif
+SUBDIR+=	php4-mysql4
 SUBDIR+=	picasm
 SUBDIR+=	picprog
 SUBDIR+=	pinball
