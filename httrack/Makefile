@@ -1,8 +1,8 @@
 # $NetBSD$
 #
 
-DISTNAME=	httrack-3.23
-WRKSRC=         ${WRKDIR}/httrack-3.23.20
+DISTNAME=	httrack-3.32
+WRKSRC=         ${WRKDIR}/httrack-3.32.03
 CATEGORIES=	www
 MASTER_SITES=	http://www.httrack.com/ \
 		http://httrack.free.fr/mirror/
@@ -16,4 +16,5 @@ USE_LIBTOOL=	YES
 GNU_CONFIGURE=	YES
 USE_GNU_TOOLS+=	make
 
+.include "../../devel/zlib/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
