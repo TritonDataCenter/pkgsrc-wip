@@ -9,7 +9,7 @@ EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	cube@NetBSD.org
 HOMEPAGE=	http://www.dsv.su.se/~pelle/ion-dock/
-COMMENT=	ion module that enables docking
+COMMENT=	Ion module that enables docking
 
 USE_BUILDLINK2=		YES
 USE_PKGINSTALL=		YES
