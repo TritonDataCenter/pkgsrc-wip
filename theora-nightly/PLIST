@@ -1,0 +1,12 @@
+@comment $NetBSD$
+bin/theora-encoder_example
+bin/theora-player_example
+share/doc/theora/README
+include/theora/theora.h
+lib/libtheora.a
+lib/libtheora.la
+lib/libtheora.so
+lib/libtheora.so.0
+lib/libtheora.so.0.0
+@dirrm include/theora
+@dirrm share/doc/theora
