@@ -54,6 +54,10 @@ PLIST_SRC=	# added to below
 
 .include "../../mk/bsd.prefs.mk"
 
+.if defined(JDK_WITH_BUNDLES) && !empty(JDK_WITH_BUNDLES:M[Yy][Ee][Ss])
+ALL_TARGET+=	release-bundles
+.endif
+
 # Let an installed version of this package bootstrap a later version
 # (skips having to reinstall sun-jdk13 again)
 #

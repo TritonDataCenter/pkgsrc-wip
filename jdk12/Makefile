@@ -50,6 +50,10 @@ WRKSRC=		${WRKDIR}
 
 .include "../../mk/bsd.prefs.mk"
 
+.if defined(JDK_WITH_BUNDLES) && !empty(JDK_WITH_BUNDLES:M[Yy][Ee][Ss])
+ALL_TARGET+=	release-bundles
+.endif
+
 MOTIF_TYPE=	openmotif
 
 MAKE_FLAGS+=	LOCALDIR=${LOCALBASE} # used to find "zip" and "unzipsfx"
