@@ -1,12 +1,12 @@
 # $NetBSD$
 #
 
-DISTNAME=	Geo-IP-1.15
-PKGNAME=	p5-GeoIP-1.15
+DISTNAME=	Geo-IP-1.21
+PKGNAME=	p5-${DISTNAME}
 CATEGORIES=	net
 MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=Geo/}
 
-MAINTAINER=	tech-pkg@NetBSD.org
+MAINTAINER=	minskim@NetBSD.org
 HOMEPAGE=	http://www.maxmind.com/geoip/api/perl.shtml
 COMMENT=	Gets country name by IP or hostname
 
