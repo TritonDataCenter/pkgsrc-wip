@@ -28,7 +28,3 @@ man/man1/watch.1
 man/man5/sysctl.conf.5
 man/man8/sysctl.8
 man/man8/vmstat.8
-@dirrm man/man8
-@dirrm man/man5
-@dirrm man/man1
-@dirrm man
