@@ -11,11 +11,11 @@ MAINTAINER=		dotz@irc.pl
 HOMEPAGE=		http://spe.pycs.net/
 COMMENT=		Python IDE with wxGlade GUI designer, auto-indentation and more
 
-USE_BUILDLINK2=		yes
+USE_BUILDLINK3=		yes
 PY_PATCHPLIST=		yes
 PYDISTUTILSPKG=		yes
 EXTRACT_CMD_OPTS.zip=	-aqo
 
-.include "../../x11/py-wxWindows/buildlink2.mk"
+.include "../../x11/py-wxWindows/buildlink3.mk"
 .include "../../lang/python/extension.mk"
 .include "../../mk/bsd.pkg.mk"
