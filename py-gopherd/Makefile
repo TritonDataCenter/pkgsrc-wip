@@ -35,6 +35,7 @@ SEDFILES+=	${WRKSRC}/conf/pygopherd.conf ${WRKSRC}/pygopherd.8
 
 RCD_SCRIPTS=	pygopherd
 FILES_SUBST+=	RUNTIMEDIR=${RUNTIMEDIR}
+FILES_SUBST+=	PYTHONBIN=${PYTHONBIN}
 
 PYTHON_PATCH_SCRIPTS=	bin/pygopherd
 PYTHON_PATCH_SCRIPTS+=	pygopherd/GopherExceptionsTest.py

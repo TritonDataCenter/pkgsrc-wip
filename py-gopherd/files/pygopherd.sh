@@ -19,6 +19,7 @@ rcd_dir=`@DIRNAME@ $0`
 name="pygopherd"
 rcvar=$name
 command="@PREFIX@/bin/${name}"
+command_interpreter="@PYTHONBIN@"
 pidfile="/var/run/${name}.pid"
 conf_file="@PKG_SYSCONFDIR@/${name}.conf"
 mime_file="@PKG_SYSCONFDIR@/mime.types"
