@@ -12,7 +12,6 @@ COMMENT=	Log coloriser, fast and light on resources
 GNU_CONFIGURE=		yes
 USE_BUILDLINK2=		yes
 USE_GMAKE=		yes
-USE_NCURSES=		yes
 
 .include "../../devel/ncurses/buildlink2.mk"
 .include "../../devel/pcre/buildlink2.mk"
