@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.1285 2004/05/18 04:45:41 marmfield Exp $
+# $Id: Makefile,v 1.1286 2004/05/19 02:39:20 adrian_p Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -416,6 +416,8 @@ SUBDIR+=	nehe-opengl-tutorials
 SUBDIR+=	net-quanta
 SUBDIR+=	net-tools
 SUBDIR+=	netkit-base
+SUBDIR+=	netwib
+SUBDIR+=	netwox
 SUBDIR+=	noip
 SUBDIR+=	noiptun
 SUBDIR+=	nsd
