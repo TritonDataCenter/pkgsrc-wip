@@ -18,9 +18,6 @@ USE_GNU_TOOLS+=		make
 USE_LIBTOOL=		yes
 LIBTOOL_OVERRIDE=	${WRKSRC}/libtool
 
-CONFIGURE_ENV+=		GCONF_SCHEMA_FILE_DIR="${PREFIX}/share/gconf/schemas/"
-MAKE_ENV+=		GCONF_SCHEMA_FILE_DIR="${PREFIX}/share/gconf/schemas/"
-
 GCONF2_SCHEMAS=		imhangul_status.schemas
 
 .include "../../devel/GConf2/schemas.mk"
