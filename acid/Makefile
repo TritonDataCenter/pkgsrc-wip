@@ -33,6 +33,8 @@ DEPENDS+=	php-mysql>=4.0.4:../../databases/php4-mysql
 DBTYPE=		mysql
 .endif
 
+BUILD_DEFS+=	USE_PGSQL
+
 DOC_FILES=	CHANGELOG CREDITS README README.mssql TODO
 ACID_DIR=	${PREFIX}/share/acid
 EXDIR=		${PREFIX}/share/examples/acid
