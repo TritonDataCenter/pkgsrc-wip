@@ -76,7 +76,7 @@ CONFIGURE_ARGS+=	-Dinstallsiteman1dir="${VIEWBASE}/man/man1"
 # Build a threaded perl if native pthreads is available.
 #
 PTHREAD_OPTS+=	native
-.  include "../../mk/pthread.buildlink2.mk"
+.  include "../../mk/pthread.buildlink3.mk"
 .  if defined(PTHREAD_TYPE) && (${PTHREAD_TYPE} == "native")
 BUILD_DEFS+=            USE_PTHREADS
 CONFIGURE_ARGS+=        -Duseithreads
