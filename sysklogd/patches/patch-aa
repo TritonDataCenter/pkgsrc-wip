@@ -18,7 +18,7 @@ $NetBSD$
 -BINDIR = /usr/sbin
 -MANDIR = /usr/man
 +BINDIR = ${DESTDIR}/sbin
-+MANDIR = ${DESTDIR}/man
++MANDIR = ${DESTDIR}/${PKGMANDIR}
  
  # There is one report that under an all ELF system there may be a need to
  # explicilty link with libresolv.a.  If linking syslogd fails you may wish
