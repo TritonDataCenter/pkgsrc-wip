@@ -1,5 +1,5 @@
 @comment $NetBSD$
 bin/dia2code
 man/man1/dia2code.1.gz
-docs/dia2code/README
-@dirrm docs/dia2code
+share/doc/dia2code/README
+@dirrm share/doc/dia2code
