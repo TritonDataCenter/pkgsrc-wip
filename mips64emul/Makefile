@@ -6,7 +6,7 @@ PKGNAME=	mips64emul-${DIST_VER}
 CATEGORIES=	emulators
 MASTER_SITES=	http://www.mdstud.chalmers.se/~md1gavan/mips64emul/src/
 
-MAINTAINER=	tech-pkg@NetBSD.org
+MAINTAINER=	xtraeme@NetBSD.org
 HOMEPAGE=	http://www.mdstud.chalmers.se/~md1gavan/mips64emul/
 COMMENT=	MIPS 32/64-bit emulator
 
@@ -15,10 +15,9 @@ USE_X11=	yes
 HAS_CONFIGURE=	yes
 WRKSRC=		${WRKDIR}/mips64emul-${DIST_VER}
 
-.include "../../mk/bsd.prefs.mk"
+INSTALLATION_DIRS=	bin
 
-DIST_VER=	20040507
-#DIST_VER!=	${DATE} +%Y%m%d
+DIST_VER=	20040607
 
 GLOBAL_LDFLAGS=	-L${X11BASE}/lib \
 		${_COMPILER_LD_FLAG}${RPATH_FLAG}${X11BASE}/lib
