@@ -54,7 +54,7 @@ IRCD_NICKHIST?=	2000
 IRCD_FDSIZE?=	512
 IRCD_USER?=	uircd
 IRCD_GROUP?=	uircd
-IRCD_HOST?=	`${UNAME} -n`
+IRCD_HOST?=	localhost
 IRCD_HOME?=	${VARBASE}/unrealircd
 
 DOC_FILES=	doc/Authors doc/coding-guidelines doc/tao.of.irc LICENSE
@@ -79,6 +79,11 @@ SUBST_SED.homedir=	-e "s|src/modules|${IRCD_SHARE}/modules|g" \
 SUBST_MESSAGE.homedir=	"Fixing home directory of IRC server."
 
 OWN_DIRS_PERMS=		${IRCD_HOME} ${IRCD_USER} ${IRCD_GROUP} 0700
+
+# Do an explicit disable of inet6 as --disable-inet6 does not do the job
+.if empty(PKG_OPTIONS:Minet6)         
+CONFIGURE_ENV+=		ac_cv_ip6=no  
+.endif
 
 # Bad hack as I think there's a bug floating round the place
 # with INSTALL_UNSTRIPPED=yes being ignored in cetain cases.
