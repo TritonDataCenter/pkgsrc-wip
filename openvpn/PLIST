@@ -32,4 +32,5 @@ share/examples/openvpn/keys/tmp-ca.crt
 share/examples/openvpn/keys/tmp-ca.key
 @dirrm share/examples/openvpn/keys
 @dirrm share/examples/openvpn/config
+@dirrm share/examples/openvpn
 @dirrm share/doc/openvpn
