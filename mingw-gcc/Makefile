@@ -22,8 +22,7 @@ USE_GMAKE=		yes
 PATH:=			${CROSSBASE}/bin:${PATH}
 
 CONFIGURE_ARGS+=	--prefix=${PREFIX} --exec-prefix=${PREFIX} \
-			--target=${MINGW_TARGET} \
-			--enable-languages=c++, objc
+			--target=${MINGW_TARGET}
 
 do-build:
 	cd ${WRKSRC} && ${SETENV} ${MAKE_ENV} ${MAKE} ${MAKE_FLAGS}
