@@ -2,3 +2,5 @@ $NetBSD$
 
 SHA1 (ezbounce-1.04a.tar.gz) = 673e9ffce7c0e964b2a041b49d2f0d5d69c58ecc
 Size (ezbounce-1.04a.tar.gz) = 189147 bytes
+SHA1 (ezb-1.04a-crash-fix-patch) = 446107bbccb472f1fbc52d5818626e487952d31f
+Size (ezb-1.04a-crash-fix-patch) = 945 bytes
