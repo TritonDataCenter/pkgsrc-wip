@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.732 2003/12/03 23:43:32 xtraeme Exp $
+# $Id: Makefile,v 1.733 2003/12/03 23:54:29 xtraeme Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -565,9 +565,6 @@ SUBDIR+=	syslog-ng
 SUBDIR+=	sysvinit
 SUBDIR+=	tcc
 SUBDIR+=	tcllib
-SUBDIR+=	tei
-SUBDIR+=	teixsl-fo
-SUBDIR+=	teixsl-html
 SUBDIR+=	tendra
 SUBDIR+=	tetrinet
 SUBDIR+=	tetrinetx
