@@ -40,8 +40,6 @@ PYTHON_PATCH_SCRIPTS=	icecursorscfg-0.6/icecurcfg.py iceiconcvt-1.0/iceiconcvt.p
 PYTHON_PATCH_SCRIPTS+=	icemergeprefs-0.5/icemergeprefs.py icerrun-0.5/icerrrun.py
 PYTHON_PATCH_SCRIPTS+=	icerrun-0.5/icerrun.py
 
-PYTHON_VERSIONS_ACCEPTED=	23pth 22pth 21pth
-
 SUBST_CLASSES=		path
 SUBST_STAGE.path=	post-patch
 SUBST_FILES.path=	icebgset-1.3/icebgset.pro icecc-2.9/icecc.pro iceked-1.5/iceked.pro
