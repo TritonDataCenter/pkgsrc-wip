@@ -11,7 +11,7 @@ HOMEPAGE=		http://www.labyrinth.net.au/~trandor/abuse/
 COMMENT=		Port of the Abuse side scroller to SDL
 
 USE_GNU_TOOLS+=		make
-USE_BUILDLINK2=		YES
+USE_BUILDLINK3=		YES
 USE_LIBTOOL=		YES
 GNU_CONFIGURE=		YES
 
@@ -27,6 +27,6 @@ post-install:
 		${FIND} . -type f -exec ${CHMOD} ${SHAREMODE} '{}' ';' && \
 		${FIND} . -type d -exec ${CHMOD} ${BINMODE} '{}' ';')
 
-.include "../../graphics/glu/buildlink2.mk"
-.include "../../devel/SDL/buildlink2.mk"
+.include "../../graphics/glu/buildlink3.mk"
+.include "../../devel/SDL/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
