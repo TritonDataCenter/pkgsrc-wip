@@ -1,6 +1,5 @@
 @comment $NetBSD$
-lib/python2p2/site-packages/generic.py
-lib/python2p2/site-packages/spark.py
+${PYSITELIB}/spark.py
 share/py-spark/doc/doc.html
 share/py-spark/doc/doc.tex
 share/py-spark/doc/paper.ps.gz
