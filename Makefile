@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.1687 2005/03/15 17:25:08 thomasklausner Exp $
+# $Id: Makefile,v 1.1688 2005/03/15 17:34:51 obache Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -655,6 +655,7 @@ SUBDIR+=	pcsx
 SUBDIR+=	pdb2ldif
 SUBDIR+=	pdns
 SUBDIR+=	pdq
+SUBDIR+=	pdumpfs
 SUBDIR+=	pekwm-nightly
 SUBDIR+=	perl59
 SUBDIR+=	perltidy
