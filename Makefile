@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.277 2003/06/27 18:58:24 xtraeme Exp $
+# $Id: Makefile,v 1.278 2003/06/27 22:35:12 jmmv Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -121,7 +121,6 @@ SUBDIR+=	lde
 SUBDIR+=	libdialog
 SUBDIR+=	libdisasm
 SUBDIR+=	libfwbuilder
-SUBDIR+=	libgsf
 SUBDIR+=	libogg-nightly
 SUBDIR+=	libshout
 SUBDIR+=	libspectrum
