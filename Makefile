@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.1195 2004/04/13 14:59:47 jeremy-c-reed Exp $
+# $Id: Makefile,v 1.1196 2004/04/14 09:57:48 tripledes Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -790,6 +790,7 @@ SUBDIR+=	ypbind-mt
 SUBDIR+=	ypserv
 SUBDIR+=	zebra-pj
 SUBDIR+=	zinf
+SUBDIR+=        cryptopp
 
 ${.CURDIR}/PKGDB:
 	@${RM} -f ${.CURDIR}/PKGDB
