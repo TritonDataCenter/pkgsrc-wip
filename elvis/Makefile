@@ -10,8 +10,7 @@ MAINTAINER=	airhead@sourceforge.net
 HOMEPAGE=	http://elvis.the-little-red-haired-girl.org
 COMMENT=	vi with regex search, hex editing, HTML and TeX previewing
 
-USE_BUILDLINK2=		yes
-HAS_CONFIGURE=		yes
+HAS_CONFIGURE=		YES
 CONFIGURE_ARGS+=	--with-x=no
 CONFIGURE_ARGS+=	--bindir=${PREFIX}/bin
 CONFIGURE_ARGS+=	--datadir=${PREFIX}/share/elvis
