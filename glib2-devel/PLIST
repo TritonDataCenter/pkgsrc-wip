@@ -6,6 +6,7 @@ bin/gobject-query
 include/glib-2.0/glib-object.h
 include/glib-2.0/glib.h
 include/glib-2.0/glib/galloca.h
+include/glib-2.0/glib/gatomic.h
 include/glib-2.0/glib/garray.h
 include/glib-2.0/glib/gasyncqueue.h
 include/glib-2.0/glib/gbacktrace.h
