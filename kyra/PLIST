@@ -60,7 +60,7 @@ lib/libkyra.a
 lib/libkyra.la
 lib/libkyra.so
 lib/libkyra.so.0
-lib/libkyra.so.0.0
+@comment lib/libkyra.so.0.0
 share/aclocal/kyra.m4
 @dirrm include/Kyra/util
 @dirrm include/Kyra/tinyxml
