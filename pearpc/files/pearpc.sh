@@ -2,5 +2,5 @@
 #
 # $NetBSD$
 
-exec @PREFIX@/bin/ppc @PKG_SYSCONFDIR@/ppccfg.conf
+cd @PREFIX@/share/pearpc && exec ./ppc "$@" @PKG_SYSCONFDIR@/ppccfg.conf
 exit 0
