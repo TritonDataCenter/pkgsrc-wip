@@ -27,6 +27,6 @@ do-install:
 	${SED} -e "s/^/@dirrm /" >>${PLIST_SRC}
 	${LN} -s ${PREFIX}/${DRPYTHON_DIR}/drpython.py ${PREFIX}/bin
 
-.include "../../x11/py-wxWindows/buildlink3.mk"
+.include "../../x11/py-wxWidgets/buildlink3.mk"
 .include "../../lang/python/application.mk"
 .include "../../mk/bsd.pkg.mk"

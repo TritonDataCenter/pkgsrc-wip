@@ -16,6 +16,6 @@ PY_PATCHPLIST=		yes
 PYDISTUTILSPKG=		yes
 EXTRACT_CMD_OPTS.zip=	-qo
 
-.include "../../x11/py-wxWindows/buildlink3.mk"
+.include "../../x11/py-wxWidgets/buildlink3.mk"
 .include "../../lang/python/extension.mk"
 .include "../../mk/bsd.pkg.mk"
