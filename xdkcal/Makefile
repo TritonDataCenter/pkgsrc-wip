@@ -10,9 +10,14 @@ COMMENT=		X Desktop Calendar
 
 GNU_CONFIGURE=		yes
 USE_X11=		yes
+USE_BUILDLINK3=		yes
+
+PKG_INSTALLATION_TYPES=	overwrite pkgviews
 
 do-install:
+		${INSTALL_PROGRAM_DIR} ${PREFIX}/bin
 		${INSTALL_PROGRAM} ${WRKSRC}/xdkcal ${PREFIX}/bin
+		${INSTALL_MAN_DIR} ${PREFIX}/man/man1
 		${INSTALL_MAN} ${WRKSRC}/xdkcal.1x ${PREFIX}/man/man1/xdkcal.1
 
 .include "../../mk/bsd.pkg.mk"
