@@ -1,8 +1,8 @@
-$NetBSD: $
+$NetBSD$
 
---- configure.in.orig	Fri Aug 18 21:09:22 2000
-+++ configure.in	Sun Sep 22 18:41:00 2002
-@@ -299,6 +299,7 @@
+--- configure.in.orig	2000-08-18 21:09:22.000000000 +0200
++++ configure.in
+@@ -299,6 +299,7 @@ SHLIB_LD=${TCL_SHLIB_LD}
  STLIB_LD=${TCL_STLIB_LD}
  SHLIB_CFLAGS=${TCL_SHLIB_CFLAGS}
  
