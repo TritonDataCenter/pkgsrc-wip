@@ -38,5 +38,9 @@ sbin/bsmtp
 sbin/btape
 sbin/btraceback
 sbin/dbcheck
+${BACULA_STATIC}sbin/static-bacula-dir
+${BACULA_STATIC}sbin/static-bacula-fd
+${BACULA_STATIC}sbin/static-bacula-sd
+${BACULA_STATIC}sbin/static-bconsole
 @dirrm share/examples/bacula
 @dirrm libexec/bacula
