@@ -20,8 +20,8 @@ CONFIGURE_ARGS+=	--with-dvbpsi=${BUILDLINK_PREFIX.libdvbpsi}
 EGDIR=			${PREFIX}/share/examples/vls
 CONF_FILES=		${EGDIR}/vls.cfg ${PKG_SYSCONFDIR}/vls.cfg
 
-.include "../../graphics/libdvbpsi/buildlink2.mk"
-.include "../../misc/libdvdplay/buildlink2.mk"
-.include "../../misc/libdvdread/buildlink2.mk"
+.include "../../multimedia/libdvdplay/buildlink2.mk"
+.include "../../multimedia/libdvbpsi/buildlink2.mk"
+.include "../../multimedia/libdvdread/buildlink2.mk"
 .include "../../mk/pthread.buildlink2.mk"
 .include "../../mk/bsd.pkg.mk"
