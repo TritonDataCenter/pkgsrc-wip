@@ -1,0 +1,4 @@
+@comment $NetBSD$
+bin/gnome-alsamixer
+share/pixmaps/gnome-alsamixer/gnome-alsamixer-icon.png
+@dirrm share/pixmaps/gnome-alsamixer
