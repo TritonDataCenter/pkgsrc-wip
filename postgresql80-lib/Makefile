@@ -15,9 +15,7 @@ BUILD_DIRS+=		${WRKSRC}/src/interfaces
 
 # without this the Darwin build fails
 # (-bundle_loader related)
-.if ${OPSYS} == "Darwin"
 BUILD_DIRS+=		${WRKSRC}/src/backend
-.endif
 
 BUILD_DIRS+=		${WRKSRC}/src/pl
 
