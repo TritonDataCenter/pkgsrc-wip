@@ -14,6 +14,7 @@ DEPENDS+=		wget>=1.8.2:../../net/wget
 
 GNU_CONFIGURE=		yes
 USE_BUILDLINK2=		yes
+USE_PKGLOCALEDIR=	yes
 
 CONFIGURE_ARGS+=	--without-gui
 
