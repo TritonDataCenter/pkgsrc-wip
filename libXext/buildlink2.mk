@@ -17,7 +17,6 @@ BUILDLINK_PREFIX.libXext_DEFAULT=	${LOCALBASE}
 BUILDLINK_FILES.libXext+=	lib/libXext.*
 
 .include "../../wip/libX11/buildlink2.mk"
-.include "../../wip/libXau/buildlink2.mk"
 .include "../../wip/xproto/buildlink2.mk"
 .include "../../wip/xextensions/buildlink2.mk"
 
