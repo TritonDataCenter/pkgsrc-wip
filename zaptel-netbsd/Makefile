@@ -20,6 +20,8 @@ CONF_FILES=		${PREFIX}/share/examples/zaptel/zaptel.conf \
 			${PKG_SYSCONFDIR}/zaptel.conf
 
 USE_BUILDLINK3=		yes
+USE_PKGINSTALL=		yes
+RCD_SCRIPTS=		ztcfg
 
 .include "../../wip/newt/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
