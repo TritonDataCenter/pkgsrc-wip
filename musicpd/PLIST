@@ -1,7 +1,0 @@
-@comment $NetBSD$
-bin/mpd
-man/man1/mpd.1
-share/doc/mpd/COMMANDS
-share/doc/mpd/README
-share/doc/mpd/UPGRADING
-@dirrm share/doc/mpd
