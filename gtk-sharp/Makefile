@@ -19,6 +19,12 @@ USE_LIBTOOL=	YES
 LIBTOOL_OVERRIDE=	${WRKSRC}/libtool
 GNU_CONFIGURE=	YES
 PERL5_SITELIB=	YES
+MAKEFILE=	makefile
+
+REPLACE_PERL=	bin/gapi.pl
+REPLACE_PERL+=	bin/gapi2xml.pl
+REPLACE_PERL+=	bin/gapi_pp.pl
+
 
 PARSER_MK=	${WRKSRC}/parser/Makefile.in
 
@@ -26,12 +32,6 @@ post-patch:
 	${SED} -e 's,%%PERL5_SITELIB%%,${PERL5_SITELIB},' \
 		${PARSER_MK} > ${PARSER_MK}.new
 	${MV} ${PARSER_MK}.new ${PARSER_MK}
-
-do-build:
-	cd ${WRKSRC} && ${GMAKE} -f makefile
-
-do-install:
-	cd ${WRKSRC} && ${GMAKE} -f makefile install
 
 .include "../../databases/libgnomedb/buildlink2.mk"
 .include "../../lang/mono/buildlink2.mk"
