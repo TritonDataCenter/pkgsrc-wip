@@ -10,7 +10,7 @@ MAINTAINER=	jmmv@NetBSD.org
 HOMEPAGE=	http://www.afterstep.org/
 COMMENT=	Window manager based on the look and feel of the NeXTStep interface
 
-PKG_INSTALLATION_TYPES=	 pkgviews overwrite
+PKG_INSTALLATION_TYPES=	 overwrite pkgviews
 
 GNU_CONFIGURE=		YES
 USE_BUILDLINK3=		YES
