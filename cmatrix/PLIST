@@ -1,0 +1,5 @@
+@comment $NetBSD$
+bin/cmatrix
+man/man1/cmatrix.1
+share/cmatrix/mtx.pcf
+@dirrm share/cmatrix
