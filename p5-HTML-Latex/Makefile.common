@@ -1,0 +1,10 @@
+# $NetBSD$
+#
+# common file because latex2html tool comes from same source download
+
+HTML2LATEX_VERSION=	1.1
+DISTNAME=		html2latex-${HTML2LATEX_VERSION}
+MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=html2latex/}
+
+MAINTAINER=		reed@reedmedia.net
+HOMEPAGE=		http://html2latex.sourceforge.net/
