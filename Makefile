@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.1444 2004/08/28 10:07:57 plunky Exp $
+# $Id: Makefile,v 1.1445 2004/08/31 13:26:46 airhead Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -132,6 +132,7 @@ SUBDIR+=	ecl
 SUBDIR+=	eic
 SUBDIR+=	emacs-carbon
 SUBDIR+=	emirror
+SUBDIR+=	epplets
 SUBDIR+=	etpan-ng
 SUBDIR+=	evolution-sharp
 SUBDIR+=	ezbounce
