@@ -57,7 +57,7 @@ post-install:
 	${INSTALL_DATA} ${WRKSRC}/Documentation/topdocs/out/${f} ${DOCSDIR}
 .endfor
 
-.include "../../wip/mftrace/buildlink3.mk"
+.include "../../fonts/mftrace/buildlink3.mk"
 .include "../../lang/guile/buildlink3.mk"
 .include "../../lang/python/application.mk"
 .include "../../print/teTeX-bin/kpathsea.buildlink3.mk"
