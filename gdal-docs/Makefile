@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		gdal-1.2.5
-PKGNAME=		gdal-doc-1.2.5
+PKGNAME=		gdal-docs-1.2.5
 CATEGORIES=		wip
 MASTER_SITES=		http://gdal.org/dl/
 
