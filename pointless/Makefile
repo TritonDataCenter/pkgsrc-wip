@@ -12,6 +12,7 @@ COMMENT=		Markup-language presentation tool
 DEPENDS+=               a2ps>=4.1:../../print/a2ps
 DEPENDS+=               gnuplot>=3.7:../../graphics/gnuplot
 DEPENDS+=               teTeX>=2.0:../../print/teTeX
+DEPENDS+=               Mesa>=6.0:../../graphics/Mesa
 
 USE_BUILDLINK3=		yes
 USE_PKGLOCALEDIR=       yes
