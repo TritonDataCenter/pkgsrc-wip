@@ -24,17 +24,16 @@ RCD_SCRIPTS=            ezbounce
 CONF_FILES=	${EGDIR}/ezbounce.conf.default ${PKG_SYSCONFDIR}/ezbounce.conf
 
 do-install:
-	${INSTALL_DATA_DIR} ${EGDIR}
+	${INSTALL_DATA_DIR} ${EGDIR} ${DOCDIR}
 	${INSTALL_PROGRAM} ${WRKSRC}/ezbounce ${PREFIX}/sbin
 	${INSTALL_SCRIPT} ${WRKSRC}/ezbchk ${PREFIX}/sbin
 	${INSTALL_DATA} ${WRKSRC}/sample.conf ${EGDIR}/ezbounce.conf.default
 	${INSTALL_DATA} ${WRKSRC}/ezb.conf ${PKG_SYSCONFDIR}/ezbounce.conf
 	${INSTALL_PROGRAM} ${WRKSRC}/mdidentd/mdidentd ${PREFIX}/sbin
 	${INSTALL_DATA} ${WRKSRC}/misc/ezbounce.1 ${PREFIX}/man/man1
-	${INSTALL_DATA_DIR} ${DOCDIR}
-	cd ${WRKSRC} &&	\
-	for f in README* TODO CHANGES; do \
-	${INSTALL_DATA} $$f ${DOCDIR}; done
+	( cd ${WRKSRC} && for f in README* TODO CHANGES; do \
+		${INSTALL_DATA} $$f ${DOCDIR}; \
+	done )
 
 .include "../../security/openssl/buildlink2.mk"
 .include "../../mk/bsd.pkg.mk"
