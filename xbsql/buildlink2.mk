@@ -13,6 +13,8 @@ BUILDLINK_FILES.xbsql=	include/xbsql.h
 BUILDLINK_FILES.xbsql+=	lib/libxbsql* 
 BUILDLINK_FILES.xbsql+=	bin/xql
 
+.include "../../wip/xbase/buildlink2.mk"
+
 BUILDLINK_TARGETS+=	xbsql-buildlink
 
 xbsql-buildlink: _BUILDLINK_USE
