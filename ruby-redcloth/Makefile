@@ -3,13 +3,13 @@
 DISTNAME=	redcloth-${VER}
 PKGNAME=	${RUBY_PKGNAMEPREFIX}${DISTNAME}
 CATEGORIES=	textproc
-MASTER_SITES=	http://rubyforge.org/frs/download.php/493/
+MASTER_SITES=	http://rubyforge.org/frs/download.php/514/
 
 MAINTAINER=	rasputnik@hellooperator.net
 HOMEPAGE=	http://www.whytheluckystiff.net/ruby/redcloth/
 COMMENT=		Textile library for Ruby
 
-VER=	2.0.4
+VER=	2.0.5
 USE_RUBY_SETUP=	yes
 RUBY_SETUP=	install.rb
 
