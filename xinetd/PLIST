@@ -1,0 +1,9 @@
+@comment $NetBSD$
+man/man5/xinetd.conf.5
+man/man8/itox.8
+man/man8/xconv.pl.8
+man/man8/xinetd.8
+man/man8/xinetd.log.8
+sbin/itox
+sbin/xconv.pl
+sbin/xinetd
