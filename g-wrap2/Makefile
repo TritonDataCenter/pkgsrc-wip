@@ -9,7 +9,7 @@ MAINTAINER=	gdt@ir.bbn.com
 HOMEPAGE=	http://www.nongnu.org/g-wrap/
 COMMENT=	Tool for generating guile wrappers for C code
 
-DEPENDS+=	guile-lib>=0.1.2:../../wip/guile-lib
+DEPENDS+=	guile-lib>=0.1.2:../../devel/guile-lib
 
 USE_BUILDLINK3=		YES
 
