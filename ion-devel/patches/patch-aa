@@ -7,7 +7,7 @@ $NetBSD$
  ##
  
 -PREFIX=/usr/local/ion-devel
-+#PREFIX=/usr/local/ion-devel
++PREFIX?=@@PREFIX@@
  
  # No need to modify these usually
  BINDIR=$(PREFIX)/bin
@@ -33,7 +33,7 @@ $NetBSD$
  ##
  
 -X11_PREFIX=/usr/X11R6
-+X11_PREFIX=$(BUILDLINK_X11_DIR)
++X11_PREFIX?=@@X11BASE@@
  # SunOS/Solaris
  #X11_PREFIX=/usr/openwin
  
