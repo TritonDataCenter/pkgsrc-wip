@@ -100,4 +100,3 @@ share/sylpheed/manual/ja/sylpheed.sgml
 @dirrm share/sylpheed/faq
 @dirrm share/sylpheed
 @dirrm share/examples/sylpheed
-@dirrm etc/sylpheed
