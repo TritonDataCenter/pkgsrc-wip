@@ -63,11 +63,6 @@ share/examples/lighttpd/lighttpd.conf
 share/examples/lighttpd/lighttpd.user
 share/examples/lighttpd/rrdtool-graph.sh
 share/examples/lighttpd/spawn-php.sh
-share/examples/lighttpd/tests/fastcgi-10.conf
-share/examples/lighttpd/tests/fastcgi-11.conf
-share/examples/lighttpd/tests/fastcgi-12.conf
-share/examples/lighttpd/tests/lighttpd.conf
 @dirrm lib/lighttpd
 @dirrm share/doc/lighttpd
-@dirrm share/examples/lighttpd/tests
 @dirrm share/examples/lighttpd
