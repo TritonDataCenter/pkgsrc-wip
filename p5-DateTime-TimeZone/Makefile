@@ -9,7 +9,7 @@ MAINTAINER=		cube@cubidou.net
 HOMEPAGE=		http://search.cpan.org/dist/DateTime-TimeZone/
 COMMENT=		Perl module to handle time zone manipulation
 
-DEPENDS+=		p5-Class-Singleton-[0-9]*:../../local/p5-Class-Singleton
+DEPENDS+=		p5-Class-Singleton-[0-9]*:../../wip/p5-Class-Singleton
 DEPENDS+=		p5-Params-Validate-[0-9]*:../../devel/p5-Params-Validate
 
 USE_BUILDLINK2=	YES
