@@ -5,3 +5,6 @@ include/gkrellm2/gkrellm-public-proto.h
 lib/pkgconfig/gkrellm.pc
 man/man1/gkrellm.1
 @dirrm include/gkrellm2
+@dirrm lib/gkrellm2/plugins
+@dirrm lib/gkrellm2
+@dirrm share/gkrellm2/themes

@@ -25,6 +25,11 @@ pre-build:
 	${SED} -e s,@@PREFIX@@,${PREFIX}, <${WRKSRC}/src/gkrellm.h >${WRKSRC}/src/gkrellm.h.sed
 	${MV} ${WRKSRC}/src/gkrellm.h.sed ${WRKSRC}/src/gkrellm.h
 
+post-install:
+	${INSTALL_DATA_DIR} ${PREFIX}/lib/gkrellm2
+	${INSTALL_DATA_DIR} ${PREFIX}/lib/gkrellm2/plugins
+	${INSTALL_DATA_DIR} ${PREFIX}/share/gkrellm2/themes
+
 .include "../../x11/gtk2/buildlink2.mk"
 .include "../../devel/glib2/buildlink2.mk"
 .include "../../mk/pthread.buildlink2.mk"
