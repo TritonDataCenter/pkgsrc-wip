@@ -19,11 +19,10 @@ BUILDLINK_PKGSRCDIR.libpcap?=	../../wip/libpcap-latest
 # on Solaris, we always need libnsl and libsocket because libpcap.a
 # references symbols in them.
 .if ${OPSYS} == "SunOS"
-BUILDLINK_LDADD.libpcap+=       -lnsl -lsocket
-LDFLAGS+=                       ${BUILDLINK_LDADD.libpcap}
-
+BUILDLINK_LDADD.libpcap+=	-lnsl -lsocket
+LDFLAGS+=			${BUILDLINK_LDADD.libpcap}
 .endif
 
 .endif	# LIBPCAP_BUILDLINK3_MK
 
-BUILDLINK_DEPTH:=     ${BUILDLINK_DEPTH:S/+$//}
+BUILDLINK_DEPTH:=	${BUILDLINK_DEPTH:S/+$//}
