@@ -7,11 +7,9 @@ MASTER_SITES=	http://modeemi.fi/~tuomov/dl/
 
 MAINTAINER=	tom@replic8.net
 HOMEPAGE=	http://modeemi.fi/~tuomov/ion/
-COMMENT=	Keyboard friendly tiling window manager
 COMMENT=	Tiling tabbed window manager designed with keyboard users in mind
 
-#BUILDLINK_DEPENDS.ltdl=	libtool-base>=1.4.20010614nb19
-#BUILDLINK_DEPENDS.lua=	lua>=5.0.1
+CONFLICTS=	ion
 
 USE_BUILDLINK2=	YES
 USE_PKGINSTALL=	YES
