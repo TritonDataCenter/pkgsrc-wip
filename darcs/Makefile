@@ -17,5 +17,8 @@ MAKEFLAGS+=		LDFLAGS=
 MAKEFLAGS+=		CPPFLAGS=
 MAKEFILE=		${WRKSRC}/GNUmakefile
 
+.include "../../devel/zlib/buildlink3.mk"
 .include "../../lang/ghc/buildlink3.mk"
+.include "../../www/curl/buildlink3.mk"
+.include "../../mk/pthread.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
