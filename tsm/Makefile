@@ -62,6 +62,6 @@ show-shlib-type:
 	@${ECHO} linux-${MACHINE_ARCH}
 
 post-install:
-	${RM} -f ${EMULDIR}/etc/mtab && ${LN} -s /etc/fstab ${EMULDIR}/etc/mtab
+	${TEST} -f ${EMULDIR}/etc/mtab || ${LN} -s /etc/fstab ${EMULDIR}/etc/mtab
 
 .include "../../mk/bsd.pkg.mk"
