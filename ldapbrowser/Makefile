@@ -14,7 +14,7 @@ COMMENT=		Java based LDAP browser and editor
 USE_JAVA=		run
 USE_JAVA2=		yes
 
-USE_BUILDLINK2=		yes
+NO_BUILDLINK=		yes
 NO_CONFIGURE=		yes
 
 LBE_DIR=		${PREFIX}/lib/ldapbrowser
