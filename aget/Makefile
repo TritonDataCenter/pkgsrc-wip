@@ -16,5 +16,5 @@ PTHREAD_OPTS+=          require
 .include "../../mk/pthread.buildlink2.mk"
 
 do-install:
-	${INSTALL} -c  -o bin -g bin -m 555 ${WRKSRC}/aget ${PREFIX}/bin/aget
+	${INSTALL_PROGRAM} ${WRKSRC}/aget ${PREFIX}/bin/aget
 .include "../../mk/bsd.pkg.mk"
