@@ -6,13 +6,12 @@ CATEGORIES=	net
 MASTER_SITES=	http://www.gnomepro.com/tsclient/
 
 MAINTAINER=	jrp@hispabsd.org
-HOMEPAGE=	http://www.gnomepro.com/tsclient/	
+HOMEPAGE=	http://www.gnomepro.com/tsclient/
 COMMENT=	GNOME2 Frontend for rdesktop
 
 DEPENDS+=       rdesktop-[0-9]*:../../net/rdesktop
 DEPENDS+=       vncviewer-[0-9]*:../../net/vncviewer
 DEPENDS+=	gnome2-dirs>=1.1:../../misc/gnome2-dirs
-
 BUILD_USES_MSGFMT=	yes
 
 USE_BUILDLINK2=		yes
