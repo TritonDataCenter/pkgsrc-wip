@@ -14,7 +14,8 @@ COMMENT=		Library for the Ogg Vorbis audio encoding format (nightly source)
 CONFLICTS=		libvorbis-[0-9]*
 
 PKGVER!=		date +%Y%m%d
-
+DIST_SUBDIR=		${PKGNAME}
+NO_CHECKSUM=		YES
 NO_SRC_ON_FTP=		# defined
 
 USE_BUILDLINK2=		YES

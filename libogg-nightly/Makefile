@@ -14,7 +14,8 @@ COMMENT=	Ogg project codecs library (nightly source)
 CONFLICTS=	libogg-[0-9]*
 
 PKGVER!=	date +%Y%m%d
-
+DIST_SUBDIR=	${PKGNAME}
+NO_CHECKSUM=	YES
 NO_SRC_ON_FTP=	# defined
 
 GNU_CONFIGURE=	YES
