@@ -7,9 +7,7 @@ COMMENT=	GTK-based implementation of the wxWidgets GUI library
 LIBWXREGEX=	${WRKSRC}/lib/libwxregex${UNICODE}.a
 
 post-install:
-.if exists(${LIBWXREGEX})
-	${INSTALL_DATA} ${LIBWXREGEX} ${PREFIX}/lib
-.endif
+	@-${INSTALL_DATA} ${LIBWXREGEX} ${PREFIX}/lib
 
 .include "../../devel/SDL/buildlink3.mk"
 .include "../../devel/pkgconfig/buildlink3.mk"
