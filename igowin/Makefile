@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		igowin
-PKG_VERSION=		1.0
+PKGNAME=		igowin-1.0
 CATEGORIES=		games
 MASTER_SITES=		http://www.smart-games.com/
 EXTRACT_SUFX=		.exe
@@ -11,15 +11,15 @@ MAINTAINER=		roland.illig@gmx.de
 HOMEPAGE=		http://www.smart-games.com/
 COMMENT=		Go playing program
 
+BUILD_DEPENDS+=		unzip-[0-9]*:../../archivers/unzip
+DEPENDS+=		wine-[0-9]*:../../emulators/wine
+
 WRKSRC=			${WRKDIR}
-USE_BUILDLINK3=		yes
 NO_BUILDLINK=		yes
 NO_TOOLS=		yes
 NO_BUILD=		yes
 
 EXTRACT_CMD=		${EXTRACT_CMD.zip}
-BUILD_DEPENDS+=		unzip-[0-9]*:../../archivers/unzip
-DEPENDS+=		wine-[0-9]*:../../emulators/wine
 
 INSTALLATION_DIRS=	bin share/${PKGNAME}
 
