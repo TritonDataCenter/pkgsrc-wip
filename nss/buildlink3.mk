@@ -13,7 +13,9 @@ BUILDLINK_PACKAGES+=	nss
 .if !empty(NSS_BUILDLINK3_MK:M+)
 BUILDLINK_DEPENDS.nss+=		nss>=3.9.2
 BUILDLINK_RECOMMENDED.nss+=	nss>=3.9.2
-BUILDLINK_PKGSRCDIR.nss?=	../../security/nss
+BUILDLINK_PKGSRCDIR.nss?=	../../wip/nss
 .endif  # NSS_BUILDLINK3_MK
+
+.include "../../wip/nspr/buildlink3.mk"
 
 BUILDLINK_DEPTH:=     ${BUILDLINK_DEPTH:S/+$//}
