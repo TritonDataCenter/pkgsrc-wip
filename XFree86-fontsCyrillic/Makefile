@@ -14,8 +14,7 @@ COMMENT=	XFree86 Cyrillic fonts
 DEPENDS+=	XFree86-fontsEncodings>=4.3.0:../../wip/XFree86-fontsEncodings
 
 USE_BUILDLINK2=		yes
-PROJECTROOT=		-DProjectRoot=${PREFIX}
-NO_XFREE86_TARGETS=	#defined
+NO_XFREE86_TARGETS=	# defined
 
 FILESDIR=	${PKGDIR}/../XFree86-fontsEncodings/files
 
@@ -26,13 +25,13 @@ post-extract:
 
 do-configure:
 	(cd ${WRKDIR}/xc/fonts/encodings && \
-	${IMAKE} -DUseInstalled ${PROJECTROOT} -I${PREFIX}/lib/X11/config \
+	${IMAKE} -DUseInstalled -I${PREFIX}/lib/X11/config \
 		-DTOPDIR=../../.. -DCURDIR=.; \
 	${MAKE} Makefiles ; \
 	${MAKE} includes ; \
 	${MAKE} depend)
 	(cd ${WRKSRC} && \
-	${IMAKE} -DUseInstalled ${PROJECTROOT} -I${PREFIX}/lib/X11/config \
+	${IMAKE} -DUseInstalled -I${PREFIX}/lib/X11/config \
 		-DTOPDIR=../../.. -DCURDIR=.; \
 	${MAKE} Makefiles ; \
 	${MAKE} includes ; \
