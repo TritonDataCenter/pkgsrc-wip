@@ -13,8 +13,8 @@ rcvar=$name
 command="@PREFIX@/bin/${name}"
 command_args="-D"
 required_files="@PKG_SYSCONFDIR@/jabberd.cfg"
-jabberd_user="jabberd"
-jabberd_group="jabberd"
+jabberd_user="@JABBERD_USER@"
+jabberd_group="@JABBERD_GROUP@"
 
 load_rc_config $name
 run_rc_command "$1"
