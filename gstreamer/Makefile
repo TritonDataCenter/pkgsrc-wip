@@ -32,6 +32,7 @@ pre-configure:
 		${AUTOHEADER} && ${AUTOCONF} && \
 		${AUTOMAKE} --add-missing --copy
 
+.include "../../mk/pthread.buildlink2.mk"
 .include "../../devel/libgnomeui/buildlink2.mk"
 .include "../../devel/popt/buildlink2.mk"
 .include "../../lang/python22/buildlink2.mk"
