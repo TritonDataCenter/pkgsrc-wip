@@ -3,6 +3,7 @@
 .include "../xfce4/Makefile.common"
 
 DISTNAME=	xfce4-mixer-0.1
+CATEGORIES=	audio
 COMMENT=	XFce4 mixer plugin
 
 .include "../../devel/pkgconfig/buildlink2.mk"

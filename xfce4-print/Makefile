@@ -4,6 +4,7 @@
 
 PKGNAME=	xfce4-print-${XFCE4_VERSION}
 DISTNAME=	xfprint-${XFCE4_VERSION}
+CATEGORIES=	print
 COMMENT=	XFce4 print dialog
 
 .include "../../devel/pkgconfig/buildlink2.mk"

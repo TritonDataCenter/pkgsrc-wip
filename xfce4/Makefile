@@ -4,6 +4,7 @@
 
 DISTNAME=	xfce4-${XFCE4_VERSION}
 DISTFILES=	# empty
+CATEGORIES=	meta-pkgs
 COMMENT=	XFce4
 
 NO_CHECKSUM=	# defined

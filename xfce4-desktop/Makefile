@@ -4,6 +4,7 @@
 
 PKGNAME=	xfce4-desktop-${XFCE4_VERSION}
 DISTNAME=	xfdesktop-${XFCE4_VERSION}
+CATEGORIES=	x11
 COMMENT=	XFce4 desktop background manager
 
 .include "../../devel/pkgconfig/buildlink2.mk"

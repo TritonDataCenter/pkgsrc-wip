@@ -4,6 +4,7 @@
 
 PKGNAME=	libxfce4gui-${XFCE4_VERSION}
 DISTNAME=	libxfcegui4-${XFCE4_VERSION}
+CATEGORIES=	x11
 COMMENT=	XFce4 widget library
 
 .include "../../devel/pkgconfig/buildlink2.mk"

@@ -4,6 +4,7 @@
 
 VERSION=	0.1
 DISTNAME=	xfce4-systray-${VERSION}
+CATEGORIES=	sysutils
 COMMENT=	XFce4 systray plugin
 
 .include "../../devel/pkgconfig/buildlink2.mk"

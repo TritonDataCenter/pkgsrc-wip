@@ -4,6 +4,7 @@
 
 PKGNAME=	xfce4-utils-${XFCE4_VERSION}
 DISTNAME=	xfce-utils-${XFCE4_VERSION}
+CATEGORIES=	x11
 COMMENT=	XFce4 utilities
 
 .include "../../devel/pkgconfig/buildlink2.mk"

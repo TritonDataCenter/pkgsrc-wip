@@ -3,6 +3,7 @@
 .include "../xfce4/Makefile.common"
 
 DISTNAME=	xfce4-iconbox-${XFCE4_VERSION}
+CATEGORIES=	graphics
 COMMENT=	XFce4 icon displayer
 
 .include "../../devel/pkgconfig/buildlink2.mk"

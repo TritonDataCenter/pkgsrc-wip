@@ -4,6 +4,7 @@
 
 PKGNAME=	xfce4-mcs-manager-${XFCE4_VERSION}
 DISTNAME=	xfce-mcs-manager-${XFCE4_VERSION}
+CATEGORIES=	x11
 COMMENT=	XFce4 settings manager
 
 .include "../../devel/pkgconfig/buildlink2.mk"

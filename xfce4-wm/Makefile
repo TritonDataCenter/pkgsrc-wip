@@ -4,6 +4,7 @@
 
 PKGNAME=	xfce4-wm-${XFCE4_VERSION}
 DISTNAME=	xfwm4-${XFCE4_VERSION}
+CATEGORIES=	wm
 COMMENT=	XFce4 window manager
 
 .include "../../devel/pkgconfig/buildlink2.mk"

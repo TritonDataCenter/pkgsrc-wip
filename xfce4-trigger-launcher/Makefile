@@ -5,6 +5,7 @@
 BROKEN=		No distfile available yet
 
 PKGNAME=	xfce4-trigger-launcher-${XFCE4_VERSION}
+CATEGORIES=	x11
 COMMENT=	XFce4 trigger-launcher
 
 WRKSRC=		${WRKDIR}/xfce4-extras/xfce4-trigger-launcher

@@ -3,6 +3,7 @@
 .include "../xfce4/Makefile.common"
 
 DISTNAME=	xfce4-themes-${XFCE4_VERSION}
+CATEGORIES=	x11
 COMMENT=	XFce4 themes
 
 .include "../../devel/pkgconfig/buildlink2.mk"

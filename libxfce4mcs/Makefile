@@ -3,6 +3,7 @@
 .include "../xfce4/Makefile.common"
 
 DISTNAME=	libxfce4mcs-${XFCE4_VERSION}
+CATEGORIES=	x11
 COMMENT=	XFce4 settings management library
 
 .include "../../devel/pkgconfig/buildlink2.mk"
