@@ -1,21 +1,21 @@
 # $NetBSD$
 #
 
-DISTNAME=		stratagus-2.0-src
-CATEGORIES=		wip games
-MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=stratagus/}
-EXTRACT_SUFX=		.zip
+DISTNAME=	stratagus-2.0-src
+PKGNAME=	${DISTNAME:S/-src//}
+CATEGORIES=	games
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=stratagus/}
+EXTRACT_SUFX=	.zip
 
-MAINTAINER=		pancake@phreaker.net
-HOMEPAGE=		http://stratagus.sourceforge.net/
-COMMENT=		Real Time Strategy Engine
+MAINTAINER=	pancake@phreaker.net
+HOMEPAGE=	http://stratagus.sourceforge.net/
+COMMENT=	Real Time Strategy Engine
 
 WRKSRC=		${WRKDIR}/stratagus-040305
-USE_BUILDLINK3=		yes
-USE_PKGLOCALEDIR=	yes
-GNU_CONFIGURE=		yes
+USE_BUILDLINK3=	yes
+GNU_CONFIGURE=	yes
 
-USE_GNU_TOOLS+=		make
+USE_GNU_TOOLS+=	make
 
 #.if ${OPSYS} != "Linux"
 SUBST_CLASSES+=	ldl
@@ -25,7 +25,7 @@ SUBST_SED.ldl= -e 's,-ldl,,g'
 #.endif
 
 do-install:
-		${INSTALL_PROGRAM} ${WRKSRC}/stratagus ${PREFIX}/bin/
+	${INSTALL_PROGRAM} ${WRKSRC}/stratagus ${PREFIX}/bin/
 
 .include "../../devel/ncurses/buildlink3.mk"
 .include "../../devel/SDL/buildlink3.mk"
