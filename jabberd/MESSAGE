@@ -1,9 +1,0 @@
-===========================================================================
-$NetBSD$
-
-You need to specify the directory which contains the modules of jabberd,
-located at ${PREFIX}/lib/jabberd in the configuration file:
-
-  ${PKG_SYSCONFDIR}/jabber.xml
-  
-===========================================================================
