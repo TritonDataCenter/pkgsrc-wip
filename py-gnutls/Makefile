@@ -11,12 +11,12 @@ MAINTAINER=		minskim@bawi.org
 HOMEPAGE=		http://home.o2w.net/~ivo/wiki/moin.cgi/PythonGnutls
 COMMENT=		Python bindings for GNUTLS
 
-USE_BUILDLINK2=		yes
+USE_BUILDLINK3=		yes
 PYDISTUTILSPKG=		yes
 NO_CONFIGURE=		yes
 
 PYTHON_VERSIONS_ACCEPTED= 22 22pth 23 23pth
 
 .include "../../lang/python/extension.mk"
-.include "../../security/gnutls/buildlink2.mk"
+.include "../../security/gnutls/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
