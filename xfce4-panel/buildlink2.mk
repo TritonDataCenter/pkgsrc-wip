@@ -9,7 +9,7 @@
 XFCE4_PANEL_BUILDLINK2_MK=	# defined
 
 BUILDLINK_PACKAGES+=			xfce4-panel
-BUILDLINK_DEPENDS.xfce4-panel?=		xfce4-panel>=3.99.20030604
+BUILDLINK_DEPENDS.xfce4-panel?=		xfce4-panel>=3.90.20030604
 BUILDLINK_PKGSRCDIR.xfce4-panel?=		../../wip/xfce4-panel
 
 EVAL_PREFIX+=	BUILDLINK_PREFIX.xfce4-panel=xfce4-panel
