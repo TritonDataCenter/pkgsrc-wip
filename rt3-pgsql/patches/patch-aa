@@ -7,11 +7,11 @@ $NetBSD$
  </Layout>
  
 +<Layout pkgsrc>
-+  prefix:		/usr/pkg
++  prefix:		${PREFIX}
 +  exec_prefix:		${prefix}
 +  bindir:		${exec_prefix}/bin
 +  sbindir:		${exec_prefix}/sbin
-+  sysconfdir:		${prefix}/etc+
++  sysconfdir:		${PKG_SYSCONFDIR}
 +  mandir:		${prefix}/man
 +  libdir:		${prefix}/lib+
 +  datadir:		${prefix}/share+
