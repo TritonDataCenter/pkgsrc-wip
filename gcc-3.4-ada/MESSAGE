@@ -1,7 +1,10 @@
 ===========================================================================
 $NetBSD$
 
-To use ${PKGNAME} include "${GCC_PREFIX}/mk/ada.mk" in your
-BSD style makefile.
+A wrapper, "ada", has been placed in ${LOCALBASE}/bin to setup the 
+environment and call the tools in this package. So, to make a program
+with a main program file "main.adb" you would type:
+
+   ada gnatmake main.adb
 
 ===========================================================================
