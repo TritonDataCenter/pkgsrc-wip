@@ -8,9 +8,9 @@ MASTER_SITES=	http://www.geeklog.net/filemgmt/upload_dir/
 
 MAINTAINER=	jrp@hispabsd.org
 HOMEPAGE=	http://www.geeklog.net/
-COMMENT=	Web content management 
+COMMENT=	Web content management
 
-DEPENDS+=	ap-php-[0-9]*:../../www/ap-php4	
+DEPENDS+=	ap-php-[0-9]*:../../www/ap-php4
 DEPENDS+=	mysql-server-[0-9]*:../../databases/mysql-server
 
 USE_BUILDLINK2=	YES
