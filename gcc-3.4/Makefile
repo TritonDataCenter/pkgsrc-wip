@@ -3,7 +3,7 @@
 
 DISTNAME=	gcc-${GCC_VERSION}
 CATEGORIES=	lang
-MASTER_SITES=   ${MASTER_SITE_GNU:=gcc/releases/gcc-${GCC_VERSION}/}
+MASTER_SITES=   ${MASTER_SITE_GNU:=gcc/gcc-${GCC_VERSION}/}
 EXTRACT_SUFX=   .tar.bz2
 
 MAINTAINER=	john@johnrshannon.com
