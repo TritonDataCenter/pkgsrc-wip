@@ -80,7 +80,6 @@ share/xffm/AUTHORS
 share/xffm/pixmaps/Makefile
 share/xffm/pixmaps/Makefile.am
 share/xffm/pixmaps/Makefile.in
-share/xffm/pixmaps/Makefile.in.blsav
 share/xffm/pixmaps/comp1.xpm
 share/xffm/pixmaps/empty.xpm
 share/xffm/pixmaps/network-36.png
