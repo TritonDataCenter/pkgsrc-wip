@@ -3,7 +3,7 @@
 
 .include "../../wip/nagios-plugins/Makefile.common"
 
-PKGNAME=	nagios-plugin-ldap
+PKGNAME=	nagios-plugin-ldap-${PLUGINSVERSION}
 
 MAINTAINER=     murray@river-styx.org
 COMMENT=	Nagios ldap plugin

@@ -3,7 +3,7 @@
 
 .include "../../wip/nagios-plugins/Makefile.common"
 
-PKGNAME=	nagios-plugin-mysql
+PKGNAME=	nagios-plugin-mysql-${PLUGINSVERSION}
 PKGREVISION=	# not defined
 
 MAINTAINER=     murray@river-styx.org
