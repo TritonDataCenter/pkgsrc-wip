@@ -1,0 +1,8 @@
+@comment $NetBSD$
+bin/file
+man/man1/file.1
+man/man5/magic.5
+share/misc/magic
+share/misc/magic.mgc
+share/misc/magic.mime
+share/misc/magic.mime.mgc
