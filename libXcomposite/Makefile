@@ -10,14 +10,14 @@ MAINTAINER=		tech-pkg@NetBSD.org
 HOMEPAGE=		http://freedesktop.org/
 COMMENT=		Xcomposite extension (library)
 
-USE_BUILDLINK2=		yes
+USE_BUILDLINK3=		yes
 USE_LIBTOOL=		yes
 GNU_CONFIGURE=		yes
 
 PKGCONFIG_OVERRIDE+=	xcomposite.pc.in
 
-.include "../../wip/libXfixes/buildlink2.mk"
-.include "../../wip/fixesext/buildlink2.mk"
-.include "../../wip/compositeext/buildlink2.mk"
-.include "../../devel/pkgconfig/buildlink2.mk"
+.include "../../wip/libXfixes/buildlink3.mk"
+.include "../../wip/fixesext/buildlink3.mk"
+.include "../../wip/compositeext/buildlink3.mk"
+.include "../../devel/pkgconfig/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
