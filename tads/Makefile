@@ -16,5 +16,5 @@ NO_CONFIGURE=	yes
 BUILD_DIRS=	${WRKSRC}/tads2 ${WRKSRC}/tads3
 MAKEFILE=	makefile
 
-.include "../../devel/ncurses/buildlink2.mk"
+.include "../../mk/curses.buildlink2.mk"
 .include "../../mk/bsd.pkg.mk"
