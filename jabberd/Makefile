@@ -15,6 +15,8 @@ HAS_CONFIGURE=		yes
 USE_GMAKE=		yes
 USE_PKGINSTALL=		yes
 
+CONFIGURE_ARGS+=	--enable-ssl
+
 RCD_SCRIPTS=		jabber
 
 EGDIR=			${PREFIX}/share/examples/jabberd
@@ -48,6 +50,12 @@ do-install:
 	${INSTALL_DATA} ${WRKSRC}/jabberd/jabberd.h ${INCDIR}
 	${INSTALL_DATA} ${WRKSRC}/jabberd/lib/lib.h ${INCDIR}
 	${INSTALL_DATA} ${WRKSRC}/jabberd/lib/xmlparse.h ${INCDIR}
+
+post-install:
+	${INSTALL_DATA} ${WRKSRC}/platform-settings ${PKG_SYSCONFDIR}
+
+post-deinstall:
+	${RM} ${PKG_SYSCONFDIR}/platform-settings
 
 .include "../../security/openssl/buildlink2.mk"
 .include "../../devel/pth/buildlink2.mk"
