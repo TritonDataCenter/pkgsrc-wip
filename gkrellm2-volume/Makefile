@@ -11,15 +11,14 @@ COMMENT=	Gkrellm2 volume mixer plugin
 
 BUILD_USES_MSGFMT=	YES
 
-USE_BUILDLINK2=		YES
+USE_BUILDLINK3=		YES
 USE_GNU_TOOLS+=		make
 USE_PKGLOCALEDIR=	YES
 
 MAKE_ENV+=	LOCALEDIR=${PREFIX}/${PKGLOCALEDIR}/locale \
 		enable_nls=1
 
-.include "../../wip/gkrellm2/buildlink2.mk"
-.include "../../x11/gtk2/buildlink2.mk"
-.include "../../mk/ossaudio.buildlink2.mk"
-
+.include "../../wip/gkrellm2/buildlink3.mk"
+.include "../../x11/gtk2/buildlink3.mk"
+.include "../../mk/ossaudio.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
