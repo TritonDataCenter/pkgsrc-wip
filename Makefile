@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.830 2004/01/01 04:11:06 thomasklausner Exp $
+# $Id: Makefile,v 1.831 2004/01/01 17:04:02 cjep Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -220,6 +220,7 @@ SUBDIR+=	hashcash
 SUBDIR+=	heimdal
 SUBDIR+=	honeyd
 SUBDIR+=	honeyd-arpd
+SUBDIR+=	host
 SUBDIR+=	ht
 SUBDIR+=	ht2html
 SUBDIR+=	html2latex
