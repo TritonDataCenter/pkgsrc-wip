@@ -12,8 +12,9 @@ COMMENT=	The GNU Eiffel Compiler
 
 WRKSRC=		${WRKDIR}/SmartEiffel
 
+DIST_SUBDIR=	${PKGNAME_NOREV}
+
 MAKE_ENV=	SmartEiffel=${WRKSRC}/sys/system.se
-ALL_TARGET=	all
 
 post-patch:
 	${SED} "s:XXXWORKDIRXXX:${WRKDIR}:g" ${FILESDIR}/system.se \
@@ -28,7 +29,5 @@ post-build:
 
 do-install:
 	${CP} -r ${WRKSRC} ${LOCALBASE}
-
-#post-install:
 
 .include "../../mk/bsd.pkg.mk"
