@@ -13,7 +13,9 @@ COMMENT=		General purpose Bayesian classifier
 NO_BUILDLINK=		yes
 NO_CONFIGURE=		yes
 USE_LANGUAGES=		# empty
-PYDISTUTILSPKG=		yes
+
+PYDISTUTILSPKG=			yes
+PYTHON_VERSIONS_ACCEPTED=	23 23pth
 
 .include "../../lang/python/extension.mk"
 .include "../../mk/bsd.pkg.mk"
