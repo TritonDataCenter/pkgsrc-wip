@@ -12,7 +12,18 @@ COMMENT=		Secure replacement for inetd
 USE_BUILDLINK3=		yes
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
+USE_PKGINSTALL=		yes
 USE_GNU_TOOLS+=		make
 ALL_TARGET=		build
+
+RCD_SCRIPTS=		xinetd
+
+post-install:
+	${INSTALL_DATA_DIR} ${PREFIX}/share/examples/xinetd/
+	${INSTALL_DATA} ${WRKSRC}/contrib/xinetd.conf \
+		${PREFIX}/share/examples/xinetd/
+	${INSTALL_DATA_DIR} ${PREFIX}/share/examples/xinetd/xinetd.d/
+	${INSTALL_DATA} ${WRKSRC}/contrib/xinetd.d/* \
+		${PREFIX}/share/examples/xinetd/xinetd.d/
 
 .include "../../mk/bsd.pkg.mk"
