@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		HTML-StickyQuery-0.11
+DISTNAME=		HTML-StickyQuery-0.12
 PKGNAME=		p5-${DISTNAME}
 SVR4_PKGNAME=		p5sqy
 CATEGORIES=		www perl5
