@@ -34,6 +34,7 @@ SUBST_CLASSES+=		scripts
 SUBST_MESSAGE.scripts=	"Fixing directory locations."
 SUBST_STAGE.scripts=	do-build
 SUBST_FILES.scripts=	configure.pl smbldap_tools.pm smbldap.conf
+SUBST_FILES.scripts+=	smbldap-passwd
 SUBST_SED.scripts=	-e 's|@PREFIX@|${PREFIX}|g'
 
 SCRIPT_TARGET=		smbldap-groupadd smbldap-groupdel smbldap-groupmod
