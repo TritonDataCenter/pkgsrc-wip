@@ -10,7 +10,7 @@ MAINTAINER=		dotz@irc.pl
 HOMEPAGE=		http://pyro.sourceforge.net/
 COMMENT=		Distributed Object Technology system in Python
 
-USE_BUILDLINK2=		yes
+USE_BUILDLINK3=		yes
 PY_PATCHPLIST=		yes
 PYDISTUTILSPKG=		yes
 
