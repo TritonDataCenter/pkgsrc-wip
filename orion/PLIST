@@ -1,6 +1,5 @@
 @comment $NetBSD$
 bin/orion
-share/doc/${PKGNAME}/html/user.html
 share/${PKGNAME}/scheme/button.scm
 share/${PKGNAME}/scheme/config.scm
 share/${PKGNAME}/scheme/drag-window.scm
@@ -19,6 +18,7 @@ share/${PKGNAME}/scheme/split-wm.scm
 share/${PKGNAME}/scheme/switch-wm.scm
 share/${PKGNAME}/scheme/titlebar.scm
 share/${PKGNAME}/scheme/utils.scm
+share/doc/${PKGNAME}/html/user.html
 @dirrm share/${PKGNAME}/scheme
 @dirrm share/${PKGNAME}
 @dirrm share/doc/${PKGNAME}/html
