@@ -13,6 +13,7 @@ COMMENT=	Side scrolling, bloody action game
 
 MAKEFILE=	makefile
 
+USE_BUILDLINK3=	yes
 USE_X11BASE=	yes
 ALL_TARGET=	pkgsrc
 
@@ -28,5 +29,5 @@ do-install:
 	${INSTALL_DATA_DIR} ${PREFIX}/share/doc/xevil
 	${INSTALL_DATA} ${WRKSRC}/instructions/* ${PREFIX}/share/doc/xevil
 
-.include "../../graphics/xpm/buildlink2.mk"
+.include "../../graphics/xpm/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
