@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	ezbounce-1.02
+DISTNAME=	ezbounce-1.04a
 CATEGORIES=	chat
 MASTER_SITES=	http://druglord.freelsd.org/ezbounce/ \
 		http://www.shellcentral.com/downloads/files/
