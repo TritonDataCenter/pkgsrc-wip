@@ -32,7 +32,7 @@ do-install:
 	${INSTALL_DATA_DIR} ${TARGET_DIR}
 	cd ${WRKDIR}/kylix3_open/runimage/kylix && ${PAX} -rw -pe * ${TARGET_DIR}
 	${LN} -s ${EMULOPTDIR}/bin/libwine.borland.so.1.0 ${EMULDIR}/usr/lib/libwine.borland.so
-	${LN} -s ${EMULOPTDIR}/bin/libwine_unicode.borland.so.1.0 ${EMULDIR}/usr/lib/libwine_unicode.borland.so.1.0
+	${LN} -s ${EMULOPTDIR}/bin/libwine_unicode.borland.so.1.0 ${EMULDIR}/usr/lib/libwine_unicode.borland.so
 	${CAT} ${PKGDIR}/PLIST.pre >${PLIST_SRC}
 	cd ${EMULOPTDIR} && ${FIND} kylix -type f | \
 		${SED} -e "s|^|\$${EMULOPTSUBDIR}/|" >> ${PLIST_SRC}
