@@ -1,15 +1,8 @@
 ===========================================================================
 $NetBSD$
 
-Create the ${PKG_SYSCONFDIR}/pkg_notify.list file containing the package
-list you want to be informed on, following this format :
-
-$ cat ${PKG_SYSCONFDIR}/pkg_notify.list
-wip/foo
-net/bar
-www/foobar-devel
-
-or invoke pkg_notify this way :
+Modify the ${PKG_SYSCONFDIR}/pkg_notify.list file containing the package
+list you want to be informed on or invoke pkg_notify this way :
 
 $ pkg_notify category/foo another/bar and/so-on
 
