@@ -53,6 +53,7 @@ post-install:
 .include "../../graphics/librsvg2/buildlink2.mk"
 .include "../../graphics/png/buildlink2.mk"
 .include "../../graphics/tiff/buildlink2.mk"
+.include "../../graphics/libwmf/buildlink2.mk"
 .include "../../www/libgtkhtml/buildlink2.mk"
 .include "../../x11/gtk2/buildlink2.mk"
 
