@@ -10,6 +10,8 @@ MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://retro.tunes.org/simplec/
 COMMENT=		Port of SmallC/i386 compiler
 
+ONLY_FOR_PLATFORM=	*-*-i386
+
 do-build:
 	cd ${WRKSRC}/ && ${SH} ./build
 
