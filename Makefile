@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.181 2003/05/21 10:05:57 xtraeme Exp $
+# $Id: Makefile,v 1.182 2003/05/21 10:10:36 poppnk Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -167,5 +167,6 @@ SUBDIR+=	xml2doc
 SUBDIR+=	xmms-liveice
 SUBDIR+=	xplore
 SUBDIR+=	zebra-pj
+SUBDIR+=	vms-empire
 
 .include "../mk/bsd.pkg.subdir.mk"
