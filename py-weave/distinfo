@@ -2,3 +2,4 @@ $NetBSD$
 
 SHA1 (weave-0.2.3.tar.gz) = 9e009c6733ebe34bb6e77689bd78bd7230cdbbf2
 Size (weave-0.2.3.tar.gz) = 365436 bytes
+SHA1 (patch-aa) = 2b0e08be7e3398c35486ef25869cfe1e5a704d93

@@ -14,5 +14,8 @@ USE_BUILDLINK2=		yes
 PY_PATCHPLIST=		yes
 PYDISTUTILSPKG=		yes
 
+CONFLICTS=		${PYPKGPREFIX}-SciPy-[0-9]*
+
+.include "../../wip/py-scipy_distutils/buildlink2.mk"
 .include "../../lang/python/extension.mk"
 .include "../../mk/bsd.pkg.mk"
