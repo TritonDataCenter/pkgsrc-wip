@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	raptor-0.9.10
+DISTNAME=	raptor-0.9.11
 CATEGORIES=	textproc
 MASTER_SITES=	http://www.redland.opensource.ac.uk/dist/source/
 
@@ -17,6 +17,7 @@ LIBTOOL_OVERRIDE=       ${WRKSRC}/libtool
 PKGCONFIG_OVERRIDE+=    ${WRKSRC}/raptor.pc.in
 
 .include "../../textproc/libxml2/buildlink2.mk"
+.include "../../devel/glib2/buildlink2.mk"
 .include "../../www/curl/buildlink2.mk"
 
 .include "../../mk/bsd.pkg.mk"
