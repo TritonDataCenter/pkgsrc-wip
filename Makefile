@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.719 2003/12/03 05:42:07 marttikuparinen Exp $
+# $Id: Makefile,v 1.720 2003/12/03 12:59:23 jmmv Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -605,7 +605,6 @@ SUBDIR+=	toppler
 SUBDIR+=	totem
 SUBDIR+=	treecc
 SUBDIR+=	tsm
-SUBDIR+=	tsocks
 SUBDIR+=	tutos
 SUBDIR+=	tuxnes
 SUBDIR+=	tuxtype2
