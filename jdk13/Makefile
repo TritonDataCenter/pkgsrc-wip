@@ -9,7 +9,7 @@
 #   implementing some lower level threads glue, as well.)
 
 DISTNAME=	j2sdk-1_3_1-src
-PKGNAME=	jdk13-1.0.8.20030423
+PKGNAME=	jdk13-1.0.8.20030808
 WRKSRC=		${WRKDIR}
 CATEGORIES=	lang
 MASTER_SITES=	# empty
