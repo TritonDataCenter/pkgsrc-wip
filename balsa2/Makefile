@@ -20,7 +20,6 @@ USE_LIBTOOL=		yes
 USE_PKGLOCALEDIR=	yes
 LIBTOOL_OVERRIDE=	${WRKSRC}/libtool
 GNU_CONFIGURE=		yes
-#USE_GNU_GETTEXT=	yes
 
 CONFIGURE_ARGS+=	--enable-gpgme
 CONFIGURE_ARGS+=	--disable-more-warnings
