@@ -7,7 +7,7 @@ MASTER_SITES=		http://bluez.sf.net/download/
 
 MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://bluez.sf.net/download/
-COMMENT=		Linux Bluetooth Stack for Linux
+COMMENT=		Linux Bluetooth Stack libraries
 
 USE_BUILDLINK3=		yes
 USE_PKGLOCALEDIR=	yes
