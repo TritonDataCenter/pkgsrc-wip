@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.826 2003/12/30 18:10:59 xtraeme Exp $
+# $Id: Makefile,v 1.827 2003/12/30 20:09:12 cjep Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -463,9 +463,9 @@ SUBDIR+=	pnetC
 SUBDIR+=	pnetlib
 SUBDIR+=	poedit
 SUBDIR+=	pointless
-SUBDIR+=	postal2-mpdemo-bin
 SUBDIR+=	portaudio
 SUBDIR+=	portmap
+SUBDIR+=	postal2-mpdemo-bin
 SUBDIR+=	ppp
 SUBDIR+=	prelude-lml
 SUBDIR+=	prelude-manager
