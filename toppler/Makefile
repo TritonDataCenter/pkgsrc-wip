@@ -11,5 +11,6 @@ COMMENT=		Tower climbing game
 USE_BUILDLINK2=		yes
 GNU_CONFIGURE=		yes
 
+.include "../../devel/zlib/buildlink2.mk"
 .include "../../audio/SDL_mixer/buildlink2.mk"
 .include "../../mk/bsd.pkg.mk"
