@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	gtk-sharp-0.11
+DISTNAME=	gtk-sharp-0.14
 CATEGORIES=	x11
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=gtk-sharp/}
 

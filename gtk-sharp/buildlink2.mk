@@ -4,7 +4,7 @@
 GTK_SHARP_BUILDLINK2_MK=	# defined
 
 BUILDLINK_PACKAGES+=			gtk-sharp
-BUILDLINK_DEPENDS.gtk-sharp?=		gtk-sharp>=0.11
+BUILDLINK_DEPENDS.gtk-sharp?=		gtk-sharp>=0.14
 BUILDLINK_PKGSRCDIR.gtk-sharp?=		../../wip/gtk-sharp
 
 EVAL_PREFIX+=	BUILDLINK_PREFIX.gtk-sharp=gtk-sharp
