@@ -1,3 +1,4 @@
 @comment $NetBSD$
+bin/generateDS
 ${PYSITELIB}/generateDS.py
 ${PYSITELIB}/generateDS.pyc
