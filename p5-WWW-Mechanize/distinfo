@@ -2,3 +2,4 @@ $NetBSD$
 
 SHA1 (WWW-Mechanize-0.72.tar.gz) = 0dd084437657aff104534481d68af181c80e46fc
 Size (WWW-Mechanize-0.72.tar.gz) = 82958 bytes
+SHA1 (patch-aa) = ea4e0ddd3fdfb723f488f9958856ed5469135fa0
