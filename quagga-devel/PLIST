@@ -57,6 +57,7 @@ sbin/zebra
 share/examples/quagga/bgpd.conf.sample
 share/examples/quagga/bgpd.conf.sample2
 share/examples/quagga/isisd.conf.sample
+share/examples/quagga/log_syslog.conf
 share/examples/quagga/ospfd.conf.sample
 share/examples/quagga/ripd.conf.sample
 share/examples/quagga/zebra.conf.sample
