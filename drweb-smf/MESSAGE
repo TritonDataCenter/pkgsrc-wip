@@ -7,6 +7,9 @@ rebuild last one:
 
 	${EGDIR}/sendmail.mc.addon
 
+
+	*** IMPORTANT ***
+
 If you are doing upgrade from drweb-smf version prior to 4.30, it is
 HIGHLY RECOMMENDED to use the new configuration file. Sample file is
 located on: 
