@@ -10,8 +10,8 @@ MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://pizzacompiler.sourceforge.net/
 COMMENT=		Pizza language is an extension to Java
 
-WRKSRC=			${WRKDIR}/
-USE_BUILDLINK2=		yes
+WRKSRC=			${WRKDIR}
+NO_BUILDLINK=		yes
 
 do-extract:
 
