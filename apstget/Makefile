@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	apstget-20041126
+DISTNAME=	apstget-20041213
 CATEGORIES=	pkgtools wip
 MASTER_SITES=	# empty
 DISTFILES=	# empty
