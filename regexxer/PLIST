@@ -1,0 +1,5 @@
+@comment $NetBSD$
+bin/regexxer
+share/applications/regexxer.desktop
+share/pixmaps/regexxer.png
+@dirrm share/applications
