@@ -13,7 +13,7 @@ COMMENT=	Cross-assembler for 6502 optimized to code for Atari 8 bit computers
 
 NO_CONFIGURE=   YES
 WRKSRC=         ${WRKDIR}/${DISTNAME}/src
-USE_BUILDLINK2=	YES
+USE_BUILDLINK3=	YES
 
 DOCDIR=		${PREFIX}/share/doc/atasm
 
