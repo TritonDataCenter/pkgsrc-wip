@@ -8,8 +8,7 @@ MAINTAINER=	pancake@phreaker.net
 HOMEPAGE=	http://www.php.net/
 COMMENT=	PHP Hypertext Preprocessor version 5
 
-# Did conflicts works? xxx I think NO.
-CONFLICTS+=	php-4 php-3
+CONFLICTS+=	php-[34]*
 USE_BUILDLINK2=	YES
 GNU_CONFIGURE=	YES
 USE_GMAKE=	YES
