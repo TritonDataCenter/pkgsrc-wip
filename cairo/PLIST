@@ -1,0 +1,9 @@
+@comment $NetBSD$
+include/cairo-xlib.h
+include/cairo.h
+lib/libcairo.a
+lib/libcairo.la
+lib/libcairo.so
+lib/libcairo.so.1
+lib/libcairo.so.1.0
+lib/pkgconfig/cairo.pc
