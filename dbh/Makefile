@@ -16,4 +16,14 @@ USE_LIBTOOL=		yes
 LIBTOOL_OVERRIDE=	${WRKSRC}/libtool
 PKGCONFIG_OVERRIDE=	${WRKSRC}/src/dbh-1.0.pc.in
 
+.include "../../mk/bsd.prefs.mk"
+
+post-install:
+	${INSTALL_DATA_DIR} ${PREFIX}/share/doc/dbh/
+	cd ${WRKSRC} && ${INSTALL_DATA} AUTHORS COPYING ChangeLog \
+		${PREFIX}/share/doc/dbh/
+	${INSTALL_DATA_DIR} ${PREFIX}/share/doc/dbh/html/
+	cd ${WRKSRC} && ${INSTALL_DATA} doc/dbh-hash-tables.html \
+		${PREFIX}/share/doc/dbh/html/
+
 .include "../../mk/bsd.pkg.mk"
