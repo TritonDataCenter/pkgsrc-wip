@@ -10,7 +10,7 @@ COMMENT=                Automatic packet filter configurator for FTP
 
 USE_BUILDLINK3=		yes
 USE_PKGINSTALL=		yes
-NO_CONFIGURE=		no
+NO_CONFIGURE=		yes
 
 PKG_USERS=		proxy:nogroup::proxy\\ pseudo-user:${VARBASE}/chroot/proxy:/sbin/nologin
 
