@@ -11,6 +11,6 @@ COMMENT=		GNU C Compiler for win32 cross development
 
 .include "../../wip/mingw-c/buildlink2.mk"
 .include "../../wip/mingw-binutils/buildlink2.mk"
-.include "../../wip/mingw-objc/buildlink2.mk"
+#.include "../../wip/mingw-objc/buildlink2.mk"
 .include "../../wip/mingw-g++/buildlink2.mk"
 .include "../../mk/bsd.pkg.mk"
