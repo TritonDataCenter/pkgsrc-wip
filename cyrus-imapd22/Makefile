@@ -37,8 +37,9 @@ CONFIGURE_ARGS+=	--with-bdb-incdir=${BUILDLINK_PREFIX.db4}/include/db4
 CONFIGURE_ARGS+=	--with-openssl=${BUILDLINK_PREFIX.openssl}
 CONFIGURE_ARGS+=	--with-sasl=${BUILDLINK_PREFIX.cyrus-sasl}
 CONFIGURE_ARGS+=	--with-perl=${PERL5}
-CONFIGURE_ARGS+=	--enable-murder
 CONFIGURE_ARGS+=	--enable-listext
+CONFIGURE_ARGS+=	--enable-murder
+CONFIGURE_ARGS+=	--enable-nntp
 CONFIGURE_ARGS+=	--without-zephyr
 CONFIGURE_ARGS+=	--without-ucdsnmp
 CONFIGURE_ARGS+=	--with-libwrap=${BUILDLINK_PREFIX.tcp_wrappers}
