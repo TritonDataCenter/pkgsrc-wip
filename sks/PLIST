@@ -1,12 +1,4 @@
 @comment $NetBSD$
-bin/build
-bin/clean_keydb
-bin/fastbuild
-bin/merge_keyfiles
-bin/pbuild
 bin/sks_add_mail
-bin/sks_build.sh
-bin/sks_db
-bin/sks_recon
-bin/sksdump
-bin/stopsks
+bin/sks
+man/man8/sks.8
