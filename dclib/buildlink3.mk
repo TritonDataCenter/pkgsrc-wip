@@ -15,6 +15,7 @@ BUILDLINK_DEPENDS.dclib+=	dclib>=0.3.3
 BUILDLINK_PKGSRCDIR.dclib?=	../../wip/dclib
 .endif	# DCLIB_BUILDLINK3_MK
 
+.include "../../devel/zlib/buildlink3.mk"
 .include "../../archivers/bzip2/buildlink3.mk"
 .include "../../security/openssl/buildlink3.mk"
 .include "../../textproc/libxml2/buildlink3.mk"

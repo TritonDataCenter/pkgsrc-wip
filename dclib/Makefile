@@ -20,6 +20,7 @@ PKGCONFIG_OVERRIDE+=	dclib.pc.in
 .include "../../mk/bsd.prefs.mk"
 
 .include "../../devel/pkgconfig/buildlink3.mk"
+.include "../../devel/zlib/buildlink3.mk"
 .include "../../archivers/bzip2/buildlink3.mk"
 .include "../../security/openssl/buildlink3.mk"
 .include "../../textproc/libxml2/buildlink3.mk"
