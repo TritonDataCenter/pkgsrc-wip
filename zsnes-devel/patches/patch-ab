@@ -1,8 +1,8 @@
-$NetBSD: patch-ab,v 1.3 2002/08/31 00:15:41 wiz Exp $
+$NetBSD$
 
---- gblhdr.h.orig	Tue May 14 19:39:10 2002
+--- gblhdr.h.orig	2004-03-11 01:39:51.000000000 +0100
 +++ gblhdr.h
-@@ -117,3 +117,5 @@
+@@ -114,3 +114,5 @@
  	#include <sys/filio.h>
  	#endif
  	#endif
