@@ -1,0 +1,13 @@
+$NetBSD$
+
+--- Hardware/Makefile.in.orig	1998-02-15 09:55:19.000000000 +0200
++++ Hardware/Makefile.in
+@@ -24,7 +24,7 @@ sysconfdir      = @sysconfdir@
+ 
+ .SUFFIXES: .o .c .h .m .i .S
+ 
+-INCLUDES=-I@top_srcdir@/Includes -I$(X_CFLAGS) -I/usr/include -I../ -I.
++INCLUDES=-I@top_srcdir@/Includes $(X_CFLAGS) -I/usr/include -I../ -I.
+ 
+ OBJS =	IWM.o			\
+ 	Keyboard.o		\

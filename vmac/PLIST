@@ -1,0 +1,9 @@
+@comment $NetBSD$
+bin/vMac
+man/man1/vmac.0
+share/doc/vMac/CREDITS
+share/doc/vMac/ChangeLog
+share/doc/vMac/LICENSE
+share/doc/vMac/README
+share/doc/vMac/README.rom
+@dirrm share/doc/vMac
