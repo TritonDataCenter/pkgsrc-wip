@@ -30,4 +30,6 @@ REPLACE_PERL=		src/konversation/konversation-0.14-mainwindow.pl
 CONFIGURE_ARGS+=	--disable-threading
 .endif
 
+CONFIGURE_ARGS+=	--with-extra-includes=${BUILDLINK_PREFIX.jpeg}/include
+
 .include "../../mk/bsd.pkg.mk"
