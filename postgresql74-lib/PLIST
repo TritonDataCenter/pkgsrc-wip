@@ -363,7 +363,7 @@ lib/libecpg_compat.so.1.1
 lib/libpgtypes.a
 lib/libpgtypes.so
 lib/libpgtypes.so.1
-lib/libpgtypes.so.1.1
+lib/libpgtypes.so.1.2
 lib/libpq.a
 lib/libpq.so
 lib/libpq.so.3
