@@ -7,7 +7,7 @@ MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=DateTime/}
 
 MAINTAINER=		cube@cubidou.net
 HOMEPAGE=		http://search.cpan.org/dist/DateTime-Event-Cron/
-COMMENT=		DateTime extension to handle crontab entries 
+COMMENT=		DateTime extension to handle crontab entries
 
 DEPENDS+=		p5-DateTime-Set-[0-9]*:../../wip/p5-DateTime-Set
 DEPENDS+=		p5-Set-Crontab-[0-9]*:../../wip/p5-Set-Crontab

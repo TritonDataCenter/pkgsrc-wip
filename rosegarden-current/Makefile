@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	rosegarden-4-0.9.1
-CATEGORIES=	audio	
+CATEGORIES=	audio
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=rosegarden/}
 
 MAINTAINER=	virtus@wanadoo.nl
