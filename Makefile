@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.560 2003/10/21 09:37:54 thomasklausner Exp $
+# $Id: Makefile,v 1.561 2003/10/21 11:51:04 dillo Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -146,6 +146,7 @@ SUBDIR+=	gkrellm2-xmms
 SUBDIR+=	gl-117
 SUBDIR+=	glaxium
 SUBDIR+=	glide3
+SUBDIR+=	glkterm
 SUBDIR+=	glulxe
 SUBDIR+=	gnats4
 SUBDIR+=	gnetcat
