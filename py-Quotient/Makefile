@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		Quotient-0.8.0
+DISTNAME=		Quotient-0.8.1
 PKGNAME=		${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=		mail
 MASTER_SITES=		http://cesnet.dl.sourceforge.net/sourceforge/divmod/
