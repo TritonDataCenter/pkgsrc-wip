@@ -18,8 +18,8 @@ PKGCONFIG_OVERRIDE+=	${WRKSRC}/cairo.pc.in
 GNU_CONFIGURE=		yes
 
 BUILDLINK_DEPENDS.freetype2=  freetype2>=2.1.5
+.include "../../graphics/freetype2/buildlink2.mk"
 
 .include "../../fonts/Xft2/buildlink2.mk"
-.include "../../graphics/freetype2/buildlink2.mk"
 .include "../../wip/libic/buildlink2.mk"
 .include "../../mk/bsd.pkg.mk"
