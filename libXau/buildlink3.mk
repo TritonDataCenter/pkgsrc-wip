@@ -18,6 +18,4 @@ BUILDLINK_DEPENDS.libXau?=		libXau>=0.1
 BUILDLINK_PKGSRCDIR.libXau?=		../../wip/libXau
 .endif # LIBXAU_BUILDLINK3_MK
 
-.include "../../wip/xproto/buildlink3.mk"
-
 BUILDLINK_DEPTH:=     ${BUILDLINK_DEPTH:S/+$//}
