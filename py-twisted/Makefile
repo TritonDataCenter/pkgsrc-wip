@@ -1,14 +1,14 @@
 # $NetBSD$
 #
 
-DISTNAME=		Twisted-1.0.6
+DISTNAME=		Twisted-1.1.0
 PKGNAME=		${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=		devel net
 MASTER_SITES=		http://twisted.sourceforge.net/ \
 			http://twistedmatrix.com/downloads/
 EXTRACT_SUFX=		.tar.bz2
 
-MAINTAINER=		recht@NetBSD.org
+MAINTAINER=		dotz@irc.pl
 HOMEPAGE=		http://www.twistedmatrix.com/
 COMMENT=		Framework for writing networked applications
 
