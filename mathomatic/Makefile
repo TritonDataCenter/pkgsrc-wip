@@ -14,8 +14,9 @@ COMMENT=		Small portable symbolic math program
 WRKSRC=			${WRKDIR}/am
 MAKEFILE=		makefile
 
+# gcc's optimizer causes problems with this version of the program
+CFLAGS+=		-DUNIX -O0
 CFLAGS.SunOS+=		-DSOLARIS
-CFLAGS+=		-DUNIX
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/am ${PREFIX}/bin/am_mathomatic
