@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.874 2004/01/10 18:09:40 mpasternak Exp $
+# $Id: Makefile,v 1.875 2004/01/10 21:07:39 ora8_ Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -437,6 +437,7 @@ SUBDIR+=	p5-gtk2
 SUBDIR+=	palm-db-tools
 SUBDIR+=	pango-devel
 SUBDIR+=	par2
+SUBDIR+=	parsifal
 SUBDIR+=	passepartout
 SUBDIR+=	patchutils
 SUBDIR+=	pdb2ldif
