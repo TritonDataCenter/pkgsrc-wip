@@ -1,0 +1,6 @@
+@comment $NetBSD$
+lib/libswt-gtk-2135.so
+lib/libswt-pi-gtk-2135.so
+share/classpath/swt-pi.jar
+share/classpath/swt.jar
+@dirrm share/classpath
