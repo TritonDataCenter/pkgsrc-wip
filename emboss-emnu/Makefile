@@ -8,7 +8,8 @@ PKGNAME=		emboss-emnu-1.05
 
 COMMENT=		Simple menu for EMBOSS applications
 
-DIST_SUBDIR=		${PKG_DISTFILES_DIR}/emnu-1.05-20041107
+BUILD_TARGET=		#empty
+DIST_SUBDIR=		emboss/emnu-1.05-20041107
 GNU_CONFIGURE=		yes
 #ncurses required for the redrawwin function
 USE_NCURSES=            yes
@@ -26,8 +27,8 @@ pre-configure:
 		${WRKSRC}/Makefile.in > ${WRKSRC}/Makefile.in.bak
 	${MV} ${WRKSRC}/Makefile.in.bak ${WRKSRC}/Makefile.in
 
-do-build:
-	cd ${WRKSRC} && ${MAKE}
+
+
 
 .include "../../devel/ncurses/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
