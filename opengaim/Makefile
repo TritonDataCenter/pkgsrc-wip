@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	opengaim-0.75c
+DISTNAME=	opengaim-0.76a
 CATEGORIES=	chat x11
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=opengaim/}
 
