@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.82 2003/04/14 09:42:12 jmmv Exp $
+# $Id: Makefile,v 1.83 2003/04/14 10:37:55 xtraeme Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -83,5 +83,6 @@ SUBDIR+=	streamripper
 SUBDIR+=	tsclient
 SUBDIR+=	dovecot
 SUBDIR+=	directfb
+SUBDIR+=	geeklog
 
 .include "../mk/bsd.pkg.subdir.mk"
