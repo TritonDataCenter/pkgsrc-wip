@@ -1,0 +1,13 @@
+===========================================================================
+$NetBSD$
+
+    To enable this plugin:
+
+    cd ${SMDIR}/config &&./conf.pl
+
+    adding vlogin to the list of active plugins.
+
+    Please read ${SMDIR}/plugins/vlogin/README for details 
+    on configuration.
+
+===========================================================================
