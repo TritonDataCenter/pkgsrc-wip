@@ -19,6 +19,8 @@ CONF_FILES=	${EGDIR}/barnyard.conf \
 
 EGDIR=		${PREFIX}/share/examples/barnyard
 
+BUILD_DEFS+=	USE_MYSQL USE_PGSQL
+
 .if defined(USE_MYSQL) && ${USE_MYSQL} == YES
 .include "../../databases/mysql-client/buildlink2.mk"
 CONFIGURE_ARGS+=	--enable-mysql
