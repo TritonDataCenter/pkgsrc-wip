@@ -12,6 +12,7 @@
 name="xinetd"
 rcvar=$name
 command="@PREFIX@/sbin/${name}"
+command_args="-pidfile /var/run/${name}.pid"
 pidfile="/var/run/${name}.pid"
 required_files="@PKG_SYSCONFDIR@/xinetd.conf"
 
