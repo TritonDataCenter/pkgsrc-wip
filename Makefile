@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.402 2003/08/30 16:15:30 xtraeme Exp $
+# $Id: Makefile,v 1.403 2003/08/30 16:25:05 xtraeme Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -314,7 +314,6 @@ SUBDIR+=	py-twisted
 SUBDIR+=	qinx
 SUBDIR+=	qn-x11
 SUBDIR+=	rapidsvn
-SUBDIR+=	raptor
 SUBDIR+=	rcorder
 SUBDIR+=	regexxer
 SUBDIR+=	rlpr
