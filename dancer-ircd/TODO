@@ -4,13 +4,5 @@ $NetBSD$
 * Improve the do-install target ?
 * Would we apply the patch of freenode ?
 
-- The package does not handle PKG_SYSCONFDIR correctly:
-    1) Configuration files must be in share/examples/dancer-ircd, not with
-       documentation.
-    2) Example files must be registered in the PLIST.
-    3) The Makefile must not touch PKG_SYSCONFDIR directly (it does with an
-       ${INSTALL_DATA}).
-    4) Adjust CONF_FILES properly.  It points to an unexistant file.
-
 - There is no need for files/dancer-ircd.sh to have execute permissions.  When
   importing this package in pkgsrc, fix it.
