@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.1094 2004/03/19 18:12:25 xtraeme Exp $
+# $Id: Makefile,v 1.1095 2004/03/19 18:28:41 xtraeme Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -357,6 +357,7 @@ SUBDIR+=	matchbox-common
 SUBDIR+=	matchbox-desktop
 SUBDIR+=	matchbox-panel
 SUBDIR+=	matchbox-panel-manager
+SUBDIR+=	matchbox-wm
 SUBDIR+=	mathomatic
 #SUBDIR+=	maxima		# see TODO
 SUBDIR+=	mc
