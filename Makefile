@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.1311 2004/06/07 16:59:34 minskim Exp $
+# $Id: Makefile,v 1.1312 2004/06/07 17:49:05 minskim Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -302,6 +302,7 @@ SUBDIR+=	libXext
 SUBDIR+=	libXfixes
 SUBDIR+=	libXfont
 SUBDIR+=	libXi
+SUBDIR+=	libXinerama
 SUBDIR+=	libXmu
 SUBDIR+=	libXrender
 SUBDIR+=	libXres
