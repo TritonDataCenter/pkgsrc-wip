@@ -1,9 +1,9 @@
 # $NetBSD$
 #
 
-DISTNAME=		Twisted-1.0.5
+DISTNAME=		Twisted-1.0.6
 PKGNAME=		${PYPKGPREFIX}-${DISTNAME}
-CATEGORIES=		devel
+CATEGORIES=		devel net
 MASTER_SITES=		http://twisted.sourceforge.net/ \
 			http://twistedmatrix.com/downloads/
 EXTRACT_SUFX=		.tar.bz2
