@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.491 2003/09/25 04:28:54 xtraeme Exp $
+# $Id: Makefile,v 1.492 2003/09/25 04:47:23 xtraeme Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -109,7 +109,6 @@ SUBDIR+=	ezbounce
 SUBDIR+=	festival-gaim
 SUBDIR+=	fluxconf
 SUBDIR+=	fluxspace
-SUBDIR+=	foobillard
 SUBDIR+=	fragroute
 SUBDIR+=	freeglut
 SUBDIR+=	freenet-tools
