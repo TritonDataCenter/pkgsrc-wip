@@ -5,8 +5,8 @@
 PKGNAME=	linux-kernel-headers-${LINUX_VERSION}
 COMMENT=	Linux kernel headers
 
-PLIST_SRC+=	${PKGDIR}/PLIST.common
 PLIST_SRC+=	${PKGDIR}/PLIST.${LOWER_ARCH}
+PLIST_SRC+=	${PKGDIR}/PLIST.common
 
 do-build:
 	(cd ${WRKSRC} && ${SETENV} ${MAKE_ENV} ${GMAKE} include/linux/version.h)
@@ -14,10 +14,10 @@ do-build:
 do-install:
 	(cd ${WRKSRC}/include && ${GTAR} -cf - linux) | \
 		${GTAR} -xf - -C ${PREFIX}/include
-	(cd ${WRKSRC}/include && ${GTAR} -cf - asm-${LOWER_ARCH}) | \
-		${GTAR} -xf - -C ${PREFIX}/include
-	(cd ${WRKSRC}/include && ${GTAR} -cf - asm-generic) | \
-		${GTAR} -xf - -C ${PREFIX}/include
-	(cd ${PREFIX}/include && ${LN} -sf asm-${LOWER_ARCH} asm)
+	${INSTALL_DATA_DIR} ${PREFIX}/include/asm
+	(cd ${WRKSRC}/include/asm-generic && ${GTAR} -cf - *) | \
+		${GTAR} -xf - -C ${PREFIX}/include/asm
+	(cd ${WRKSRC}/include/asm-${LOWER_ARCH} && ${GTAR} -cf - *) | \
+		${GTAR} -xf - -C ${PREFIX}/include/asm
 
 .include "../../mk/bsd.pkg.mk"
