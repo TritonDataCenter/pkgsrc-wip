@@ -8,7 +8,7 @@ MAINTAINER=	chris.wareham@btinternet.com
 HOMEPAGE=	http://hydrogen.sourceforge.net/
 COMMENT=	Shared library for the Hydrogen drum machine
 
-USE_BUILDLINK2=		YES
+USE_BUILDLINK3=		YES
 USE_LIBTOOL=		YES
 
 USE_GNU_TOOLS+=	make
@@ -18,7 +18,7 @@ CONFIGURE_ARGS+=	--disable-jack-support
 
 CPPFLAGS=		-DDEVOSSAUDIO=\"\\\"${DEVOSSAUDIO}\\\"\"
 
-.include "../../audio/libaudiofile/buildlink2.mk"
-.include "../../mk/ossaudio.buildlink2.mk"
-.include "../../mk/pthread.buildlink2.mk"
+.include "../../audio/libaudiofile/buildlink3.mk"
+.include "../../mk/ossaudio.buildlink3.mk"
+.include "../../mk/pthread.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

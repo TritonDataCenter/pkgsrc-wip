@@ -9,7 +9,7 @@ MAINTAINER=	chris.wareham@btinternet.com
 HOMEPAGE=	http://hydrogen.sourceforge.net/
 COMMENT=	Real time drum machine/sequencer
 
-USE_BUILDLINK2=		YES
+USE_BUILDLINK3=		YES
 USE_LIBTOOL=		YES
 
 USE_GNU_TOOLS+=		make
@@ -21,7 +21,7 @@ CONFIGURE_ARGS+=	--disable-jack-support
 CONFIGURE_ARGS+=	--with-xinerama
 .endif
 
-.include "../../wip/libhydrogen/buildlink2.mk"
-.include "../../x11/qt3-libs/buildlink2.mk"
-.include "../../x11/qt3-tools/buildlink2.mk"
+.include "../../wip/libhydrogen/buildlink3.mk"
+.include "../../x11/qt3-libs/buildlink3.mk"
+.include "../../x11/qt3-tools/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
