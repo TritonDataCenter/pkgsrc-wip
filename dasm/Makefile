@@ -8,7 +8,7 @@ MASTER_SITES=	http://members.cox.net/rcolbert/zip/
 EXTRACT_SUFX=	.zip
 
 MAINTAINER=	mor@linex.com
-HOMEPAGE=	http://members.cox.net/rcolbert/index.htm
+HOMEPAGE=	http://members.cox.net/rcolbert/dasm.htm
 COMMENT=	Professional-grade multi-CPU cross-assembler for 6502, 6803 and 68HC11
 
 NO_CONFIGURE:	YES
