@@ -2,4 +2,3 @@
 bin/GrabWeather
 lib/gkrellm2/plugins/gkrellweather.so
 ${PKGLOCALEDIR}/locale/ru/LC_MESSAGES/gkrellweather.mo
-@dirrm lib/gkrellm2/plugins
