@@ -6,7 +6,8 @@ PKGNAME=		gimp-current-${GIMP_VER}
 CATEGORIES=		graphics
 MASTER_SITES=		ftp://ftp.gimp.org/pub/gimp/v1.3/v${GIMP_VER}/ \
 	ftp://ftp.fu-berlin.de/unix/X11/graphics/gimp/v1.3/v${GIMP_VER}/ \
-	ftp://ftp.cs.umn.edu/pub/gimp/gimp/v1.3/v${GIMP_VER}/
+	ftp://ftp.cs.umn.edu/pub/gimp/gimp/v1.3/v${GIMP_VER}/ \
+	ftp://ftp.tuwien.ac.at/graphics/gimp/gimp/v1.3/v${GIMP_VER}/
 EXTRACT_SUFX=		.tar.bz2
 
 MAINTAINER=		adam@NetBSD.org
