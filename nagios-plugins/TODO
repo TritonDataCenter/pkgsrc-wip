@@ -6,5 +6,5 @@ TODO file for nagios-plugins:
 	- There is a problem with the sensors check.
 	- Testing, glorious testing. Yes I want some more...
 	- There are a couple of checks which use other pkgs. We may want
-to either included a dependancy or create another nagios-plugin-XXX pkg.
+to either included a dependency or create another nagios-plugin-XXX pkg.
 I have not looked at the checks that aren't compiled/installed.
