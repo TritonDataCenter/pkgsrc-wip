@@ -2,7 +2,7 @@
 
 DISTNAME=	# empty
 PKGNAME=	XFree86-${XF_VER}
-CATEGORIES=	meta-pkgs
+CATEGORIES=	meta-pkgs x11
 MASTER_SITES=	${MASTER_SITE_XFREE}
 DISTFILES=	# empty
 
