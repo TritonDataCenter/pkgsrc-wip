@@ -22,11 +22,11 @@ DISTFILES=	MLRISC.tgz			\
 		smlnj-lib.tgz			\
 		system.tgz
 
-MAINTAINER=	pulahti@users.sourceforge.net
+MAINTAINER=	vnorrman@cc.hut.fi
 HOMEPAGE=	http://www.smlnj.org/index.html
 COMMENT=	Working version of SML/NJ Standard ML compiler
 
-SML_VERSION=	110.44
+SML_VERSION=	110.45
 
 WRKSRC=		${WRKDIR}
 DIST_SUBDIR=	smlnj-${SML_VERSION}
@@ -83,6 +83,15 @@ do-build:
 	cd ${WRKDIR} && unset PWD && \
 	FILESDIR="${FILESDIR}" PATCH="${PATCH}" PATCH_ARGS="${PATCH_ARGS}" \
 		SMLNJ_HOME="${WRKDIR}" ./config/install.sh
+
+# This is a work around of a bug in 110.45
+post-build:
+	cd ${WRKDIR}/bin;		\
+	${LN} -sf .run-sml ml-burg;	\
+	${LN} -sf .run-sml ml-lex;	\
+	${LN} -sf .run-sml ml-nlffigen;	\
+	${LN} -sf .run-sml ml-yacc;	\
+	${LN} -sf .run-sml nowhere
 
 # install target
 # (see ftp://ftp.research.bell-labs.com/dist/smlnj/working/110.38/INSTALL)
