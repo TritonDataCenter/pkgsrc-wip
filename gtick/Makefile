@@ -10,11 +10,11 @@ MAINTAINER=		dotz@irc.pl
 HOMEPAGE=		http://www.antcom.de/gtick/
 COMMENT=		GTK+ metronome
 
-USE_BUILDLINK2=		YES
+USE_BUILDLINK3=		YES
 USE_PKGLOCALEDIR=	YES
 GNU_CONFIGURE=		YES
 
-.include "../../x11/gtk2/buildlink2.mk"
-.include "../../devel/libgetopt/buildlink2.mk"
-.include "../../mk/ossaudio.buildlink2.mk"
+.include "../../x11/gtk2/buildlink3.mk"
+.include "../../devel/libgetopt/buildlink3.mk"
+.include "../../mk/ossaudio.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
