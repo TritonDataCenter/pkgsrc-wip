@@ -7,7 +7,7 @@ EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=		ianzag@mail.ru
 HOMEPAGE=		http://www.koffice.org/
-COMMENT=		KOffice it language pack
+COMMENT=		Italian language pack for KOffice
 
 USE_BUILDLINK3=	YES
 GNU_CONFIGURE=	YES

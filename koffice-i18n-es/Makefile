@@ -7,7 +7,7 @@ EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=		tech-pkg@NetBSD.org
 HOMEPAGE=		http://www.koffice.org/
-COMMENT=		Language bindings for the Koffice
+COMMENT=		es language pack for Koffice
 
 USE_BUILDLINK3=	YES
 GNU_CONFIGURE=	YES

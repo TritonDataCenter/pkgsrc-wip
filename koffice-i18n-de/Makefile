@@ -7,7 +7,7 @@ EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=		recht@NetBSD.org
 HOMEPAGE=		http://www.koffice.org/
-COMMENT=		Language pack for KOffice
+COMMENT=		German language pack for KOffice
 
 USE_BUILDLINK3=	YES
 GNU_CONFIGURE=	YES
