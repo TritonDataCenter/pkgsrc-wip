@@ -32,5 +32,4 @@ PLIST_SRC+=	${.CURDIR}/PLIST.DRI
 .include "../../fonts/fontconfig/buildlink2.mk"
 .include "../../graphics/freetype2/buildlink2.mk"
 .include "../../textproc/expat/buildlink2.mk"
-.include "../../x11/Xrender/buildlink2.mk"
 .include "../../mk/bsd.pkg.mk"
