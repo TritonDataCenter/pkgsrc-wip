@@ -1,3 +1,5 @@
+$NetBSD: patch-ab,v 1.0 2004/03/15 23:38:16 plunky Exp $
+
 --- /dev/null	Thu Apr 17 10:52:18 2003
 +++ lkm/Makefile	Thu Apr 17 10:54:51 2003
 @@ -0,0 +1,13 @@
