@@ -14,7 +14,7 @@ BUILDLINK_DEPENDS+=	vlc
 
 .if !empty(VLC_BUILDLINK3_MK:M+)
 BUILDLINK_PACKAGES+=		vlc
-BUILDLINK_DEPENDS.vlc?=		vlc>=0.7.0
+BUILDLINK_DEPENDS.vlc?=		vlc>=0.7.1
 BUILDLINK_PKGSRCDIR.vlc?=	../../wip/videolanclient
 
 .include "../../audio/flac/buildlink3.mk"

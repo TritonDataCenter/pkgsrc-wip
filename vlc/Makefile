@@ -1,9 +1,9 @@
 # $NetBSD$
 #
 
-DISTNAME=		vlc-0.7.0
-CATEGORIES=		graphics
-MASTER_SITES=		http://download.videolan.org/pub/videolan/vlc/0.7.0/
+DISTNAME=		vlc-0.7.1
+CATEGORIES=		multimedia
+MASTER_SITES=		http://download.videolan.org/pub/videolan/vlc/0.7.1/
 EXTRACT_SUFX=		.tar.bz2
 
 MAINTAINER=		xtraeme@NetBSD.org

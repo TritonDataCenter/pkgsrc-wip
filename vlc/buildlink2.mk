@@ -9,7 +9,7 @@
 VLC_BUILDLINK2_MK=	# defined
 
 BUILDLINK_PACKAGES+=			vlc
-BUILDLINK_DEPENDS.vlc?=		vlc>=0.7.0
+BUILDLINK_DEPENDS.vlc?=		vlc>=0.7.1
 BUILDLINK_PKGSRCDIR.vlc?=		../../wip/videolanclient
 
 EVAL_PREFIX+=	BUILDLINK_PREFIX.vlc=vlc
