@@ -8,7 +8,7 @@ EXTRACT_SUFX=		.tgz
 
 MAINTAINER=		dotz@irc.pl
 HOMEPAGE=		http://www.rekallrevealed.org/packages/
-COMMENT=		SHORT_DESCRIPTION_OF_THE_PACKAGE
+COMMENT=		Xbase (i.e. dBase, FoxPro, etc.) compatible C++ class library
 
 USE_BUILDLINK2=		yes
 USE_PKGLOCALEDIR=	yes
