@@ -9,7 +9,7 @@ MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://www.jabberstudio.org/files/ile/
 COMMENT=		Email notifier component for jabber
 
-DEPENDS=		p5-Net-Jabber>=1.26:../../net/p5-Net-Jabber
+DEPENDS=		p5-Net-Jabber>=1.26:../../chat/p5-Net-Jabber
 
 USE_PERL5=		YES
 USE_BUILDLINK3=	YES
