@@ -18,10 +18,7 @@ BUILDLINK_FILES.libXfixes+=	include/X11/extensions/Xfixes.h
 BUILDLINK_FILES.libXfixes+=	lib/libXfixes.*
 
 .include "../../wip/libX11/buildlink2.mk"
-.include "../../wip/libXau/buildlink2.mk"
 .include "../../wip/fixesext/buildlink2.mk"
-.include "../../wip/xextensions/buildlink2.mk"
-.include "../../wip/xproto/buildlink2.mk"
 
 BUILDLINK_TARGETS+=	libXfixes-buildlink
 
