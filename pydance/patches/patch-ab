@@ -1,0 +1,9 @@
+$NetBSD$
+
+--- pydance.posix.cfg.orig	2004-01-25 00:38:41.000000000 +0300
++++ pydance.posix.cfg
+@@ -1,2 +1,2 @@
+-songdir /usr/share/games/pydance/songs:~/.pydance/songs:/usr/local/share/games/pydance/songs
+-coursedir /usr/share/games/pydance/courses:~/.pydance/courses:/usr/local/share/games/pydance/courses
++songdir ~/.pydance/songs:@PREFIX@/share/games/pydance/songs
++coursedir ~/.pydance/courses:@PREFIX@/share/games/pydance/courses
