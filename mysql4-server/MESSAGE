@@ -13,6 +13,10 @@ the MySQL root user!  This is done by running both:
 (The "Enter password:" prompt is asking for the existing password.
 As there is no existing password, just press Return.)
 
-See the manual for more instructions.
+There is now a script distributed with mysql that can help you lock
+down an installation.  This script has been installed to 
+${PREFIX}/bin/mysql_secure_installation.
+
+See the manual and the mysql web site for more instructions.
 
 ===========================================================================
