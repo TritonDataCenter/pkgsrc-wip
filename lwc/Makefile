@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		lwc-1.3.2
-CATEGORIES=		wip devel
+CATEGORIES=		wip lang
 MASTER_SITES=		http://students.ceid.upatras.gr/~sxanth/lwc/
 EXTRACT_SUFX=		.tar.bz2
 
