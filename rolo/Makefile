@@ -2,7 +2,7 @@
 
 DISTNAME=	rolo-011
 CATEGORIES=	databases
-MASTER_SITES=	http://osdn.dl.sourceforge.net/sourceforge/rolo/
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=rolo/}
 
 MAINTAINER=	bjan+pkgsrc@bjan.net
 HOMEPAGE=	http://rolo.sf.net/
