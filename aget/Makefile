@@ -15,6 +15,11 @@ PTHREAD_OPTS+=          require
 
 .include "../../mk/pthread.buildlink2.mk"
 
+.if ${OPSYS} == "SunOS"
+post-configure:
+	(cd ${WRKDIR}/${DISTNAME} && ${MV} Makefile.Solaris Makefile)
+.endif
+
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/aget ${PREFIX}/bin/aget
 .include "../../mk/bsd.pkg.mk"
