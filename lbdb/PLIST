@@ -3,8 +3,8 @@ bin/lbdb-fetchaddr
 bin/lbdb_dotlock
 bin/lbdbq
 bin/nodelist2lbdb
-etc/lbdb.rc
-etc/lbdb_ldap.rc
+share/examples/lbdb/lbdb.rc
+share/examples/lbdb/lbdb_ldap.rc
 lib/fetchaddr
 lib/lbdb-munge
 lib/lbdb_bbdb_query.el
