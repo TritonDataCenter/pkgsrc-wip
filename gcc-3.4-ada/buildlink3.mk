@@ -16,7 +16,7 @@ GCC34_PKGMODIF=			_${GCC34_INSTALLTO_SUBPREFIX}
 .    endif
 .  endif
 BUILDLINK_PACKAGES+=		gcc-3.4-ada
-BUILDLINK_DEPENDS.gcc-3.4-ada+=	gcc-${GCC_VERSION}-ada
+BUILDLINK_DEPENDS.gcc-3.4-ada+=	gcc-3.4-ada
 BUILDLINK_PKGSRCDIR.gcc-3.4-ada?=	../../wip/gcc-3.4-ada
 BUILDLINK_LIBDIRS.gcc-3.4-ada?=	\
 	lib ${_GCC_ARCHDIR:S/^${BUILDLINK_PREFIX.gcc-3.4-ada}\///}
