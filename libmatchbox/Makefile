@@ -19,6 +19,7 @@ PKGCONFIG_OVERRIDE=    ${WRKSRC}/libmb.pc.in
 
 CONFIGURE_ARGS+=	--enable-jpeg
 
+.include "../../devel/pkgconfig/buildlink3.mk"
 .include "../../fonts/Xft2/buildlink3.mk"
 .include "../../graphics/jpeg/buildlink3.mk"
 .include "../../graphics/png/buildlink3.mk"
