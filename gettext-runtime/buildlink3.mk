@@ -11,7 +11,6 @@ BUILDLINK_PACKAGES:=	${BUILDLINK_PACKAGES:Ngettext}
 BUILDLINK_PACKAGES+=	gettext
 
 .if !empty(GETTEXT_BUILDLINK3_MK:M+)
-BUILDLINK_PKGBASE.gettext?=	gettext-runtime
 BUILDLINK_DEPENDS.gettext+=	gettext-runtime>=0.14.1
 BUILDLINK_PKGSRCDIR.gettext?=	../../wip/gettext-runtime
 .endif	# GETTEXT_BUILDLINK3_MK
