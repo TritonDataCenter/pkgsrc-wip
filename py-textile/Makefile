@@ -11,6 +11,7 @@ HOMEPAGE=		http://dealmeida.net/projects/textile/
 COMMENT=		XHTML generator using a simple markup
 
 PYDISTUTILSPKG=		yes
+NO_CONFIGURE=		yes
 
 .include "../../lang/python/extension.mk"
 .include "../../mk/bsd.pkg.mk"
