@@ -1,10 +1,10 @@
 # $NetBSD$
 #
 
-DISTNAME=	gnome-system-monitor-2.0.5
+DISTNAME=	gnome-system-monitor-2.4.0
 PKGNAME=	${DISTNAME:S/gnome/gnome2/}
 CATEGORIES=	sysutils gnome2
-MASTER_SITES=	${MASTER_SITE_GNOME:=sources/gnome-system-monitor/2.0/}
+MASTER_SITES=	${MASTER_SITE_GNOME:=sources/gnome-system-monitor/2.4/}
 EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	xtraeme@NetBSD.org
@@ -25,9 +25,6 @@ USE_X11=		yes
 .if ${OPSYS} == "NetBSD"
 LDFLAGS+=	-lutil
 .endif
-
-CONFIGURE_ENV+=		GCONF_SCHEMA_FILE_DIR="${PREFIX}/share/gconf/schemas/"
-MAKE_ENV+=		GCONF_SCHEMA_FILE_DIR="${PREFIX}/share/gconf/schemas/"
 
 GCONF2_SCHEMAS+=	gnome-system-monitor.schemas
 
