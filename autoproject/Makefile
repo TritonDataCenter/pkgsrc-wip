@@ -5,7 +5,7 @@ CATEGORIES=		devel
 MASTER_SITES=		http://www.mv.com/ipusers/vanzandt/ \
 			http://www.ibiblio.org/pub/Linux/devel/
 
-MAINTAINER=		benedikt.meurer@unix-ag.uni-siegen.de
+MAINTAINER=		tech-pkg@NetBSD.org
 HOMEPAGE=		http://www.mv.com/ipusers/vanzandt/
 COMMENT=		Creates a skeleton source package for a new program
 

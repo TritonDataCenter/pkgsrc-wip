@@ -6,7 +6,7 @@ CATEGORIES=	print
 MASTER_SITES=	http://www-sp.iti.informatik.tu-darmstadt.de/software/ppower4/
 DISTFILES=	pp4sty.zip pp4p.jar
 
-MAINTAINER=	benedikt.meurer@unix-ag.uni-siegen.de
+MAINTAINER=	tech-pkg@NetBSD.org
 HOMEPAGE=	http://www-sp.iti.informatik.tu-darmstadt.de/software/ppower4/
 COMMENT=	PDF presentation post processor
 

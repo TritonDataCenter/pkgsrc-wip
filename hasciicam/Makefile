@@ -7,7 +7,7 @@ MASTER_SITES=		http://ascii.dyne.org/ \
 			http://www.autistici.org/dyne/hasciicam/ \
 			http://freesoftware.fsf.org/download/hasciicam/
 
-MAINTAINER=		benedikt.meurer@unix-ag.uni-siegen.de
+MAINTAINER=		tech-pkg@NetBSD.org
 HOMEPAGE=		http://ascii.dyne.org/
 COMMENT=		Live ascii video on the web
 
