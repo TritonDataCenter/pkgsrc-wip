@@ -4,7 +4,7 @@ DISTNAME= libneural-1.0.3
 CATEGORIES=	devel
 MASTER_SITES= http://ieee.uow.edu.au/~daniel/software/libneural/
 
-MAINTAINER=	rasputin@idoru.mine.nu
+MAINTAINER=	rasputnik@hellooperator.net
 HOMEPAGE= http://ieee.uow.edu.au/~daniel/software/libneural/
 COMMENT=	C++ library for creating 3-layer backpropagation neural networks
 

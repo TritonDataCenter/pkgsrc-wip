@@ -5,7 +5,7 @@ PKGNAME=	ruby-ming-${VER}
 CATEGORIES=	graphics
 MASTER_SITES=	http://madscientist.jp/~ikegami/sources/
 
-MAINTAINER=	rasputin@idoru.mine.nu
+MAINTAINER=	rasputnik@hellooperator.net
 HOMEPAGE=	http://madscientist.jp/~ikegami/ruby/ming/
 COMMENT=	Ruby extension to drive the Ming SWF library
 
