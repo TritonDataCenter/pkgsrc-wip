@@ -3,7 +3,7 @@
 
 DISTNAME=	scew-0.3.1
 CATEGORIES=	devel
-MASTER_SITES=	http://savannah.nongnu.org/download/scew/scew.pkg/0.3.1/
+MASTER_SITES=	http://www.ccd.uab.es/~aleix/scew/
 
 MAINTAINER=	thorbjorn@jemander.net
 HOMEPAGE=	http://www.nongnu.org/scew/
