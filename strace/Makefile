@@ -7,6 +7,7 @@ EXTRACT_SUFX=		.tar.bz2
 
 MAINTAINER=		reed@reedmedia.net
 HOMEPAGE=		http://www.wi.leidenuniv.nl/~wichert/strace/
+HOMEPAGE=		http://www.liacs.nl/~wichert/strace/
 COMMENT=		System call tracing utility
 
 GNU_CONFIGURE=		YES
