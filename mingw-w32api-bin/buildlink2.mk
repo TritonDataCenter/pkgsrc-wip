@@ -7,7 +7,7 @@ MINGW_W32API_BIN_BUILDLINK2_MK=	# defined
 
 BUILDLINK_PACKAGES+=			mingw-w32api-bin
 BUILDLINK_DEPENDS.mingw-w32api-bin?=		mingw-w32api-bin>=2.4
-BUILDLINK_PKGSRCDIR.mingw-w32api-bin?=		../../wip/mingw-w32api-bin-bin
+BUILDLINK_PKGSRCDIR.mingw-w32api-bin?=		../../wip/mingw-w32api-bin
 
 EVAL_PREFIX+=	BUILDLINK_PREFIX.mingw-w32api-bin=mingw-w32api-bin
 BUILDLINK_PREFIX.mingw-w32api-bin_DEFAULT=	${CROSSBASE}/i586-mingw
