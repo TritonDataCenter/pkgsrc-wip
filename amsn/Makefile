@@ -20,6 +20,7 @@ post-patch:
 	@${MV} ${WRKSRC}/amsn ${WRKSRC}/amsn.orig
 	@${SED} -e 's!@@PREFIX@@!${PREFIX}!g' < ${WRKSRC}/amsn.orig > \
 	    ${WRKSRC}/amsn
+	@${RM} -f ${WRKSRC}/amsn.orig
 
 do-install:
 	${INSTALL_DATA_DIR} ${PREFIX}/share/amsn
