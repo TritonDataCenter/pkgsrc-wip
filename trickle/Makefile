@@ -19,8 +19,8 @@ LIBTOOL_OVERRIDE=       ${WRKSRC}/libtool
 CONFIGURE_ARGS+=	--sysconfdir=${PKG_SYSCONFDIR}
 
 EGDIR=		${PREFIX}/share/examples/trickle
-CONF_FILES=	${PREFIX}/share/examples/trickle/trickled.conf \
-	    	${PKG_SYSCONFDIR}/trickled.conf
+CONF_FILES=	${EGDIR}/trickled.conf ${PKG_SYSCONFDIR}/trickled.conf
+
 pre-install:
 	${INSTALL_DATA_DIR} ${EGDIR}
 	${INSTALL_DATA} ${FILESDIR}/trickled.conf ${EGDIR}
