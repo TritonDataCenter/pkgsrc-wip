@@ -4,5 +4,5 @@ include/gtkglk/gi_blorb.h
 include/gtkglk/gi_dispa.h
 include/gtkglk/glk.h
 include/gtkglk/glkstart.h
-lib/libgtkglk.so
+lib/libgtkglk.la
 @dirrm include/gtkglk
