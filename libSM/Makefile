@@ -17,6 +17,11 @@ GNU_CONFIGURE=		yes
 LIBTOOL_OVERRIDE=       ${WRKSRC}/libtool
 PKGCONFIG_OVERRIDE+=    ${WRKSRC}/sm.pc.in
 
+# XXX does not have an option to disable xthread;
+# XXX it is based on how libX11 was built.
+#PTHREAD_OPTS+=		require
+.include "../../mk/pthread.buildlink2.mk"
+
 .include "../../wip/libICE/buildlink2.mk"
 .include "../../wip/libX11/buildlink2.mk"
 .include "../../devel/pkgconfig/buildlink2.mk"
