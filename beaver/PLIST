@@ -1,0 +1,9 @@
+@comment $NetBSD$
+bin/beaver
+man/man1/beaver.1
+share/beaver/beaver.png
+share/beaver/bl/example1.bl
+share/beaver/bl/example2.bl
+share/beaver/bl/glib.bl
+@dirrm share/beaver/bl
+@dirrm share/beaver
