@@ -1,0 +1,2 @@
+@comment $NetBSD$
+lib/multisync/libldap_plugin.la
