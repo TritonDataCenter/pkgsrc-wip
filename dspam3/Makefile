@@ -14,6 +14,9 @@ USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=		yes
 GNU_CONFIGURE=		yes
 
+REPLACE_PERL=		tools/dspam_genaliases.in \
+			tools/dspam_corpus.in
+
 PKGCONFIG_OVERRIDE+=	dspam.pc.in
 
 BDB_ACCEPTED=		db3 db4
@@ -45,10 +48,10 @@ CONFIGURE_ARGS+=	--with-signature-life=${DSPAM_SIGNATURE_LIFE}
 #
 .if !empty(DSPAM_DELIVERY_AGENT:Mprocmail)
 BUILD_DEPENDS+=		procmail-[0-9]*:../../mail/procmail
-CONFIGURE_ARGS+=	--with-delivery-agent="${PREFIX}/bin/procmail $u"
+CONFIGURE_ARGS+=	--with-delivery-agent="${LOCALBASE}/bin/procmail"
 .elif !empty(DSPAM_DELIVERY_AGENT:Mmaildrop)
 BUILD_DEPENDS+=		maildrop-[0-9]*:../../mail/maildrop
-CONFIGURE_ARGS+=	--with-delivery-agent="${PREFIX}/bin/maildrop $u"
+CONFIGURE_ARGS+=	--with-delivery-agent="${LOCALBASE}/bin/maildrop"
 .endif
 
 #
