@@ -12,11 +12,11 @@ COMMENT=		Library for importing audio and image files
 GNU_CONFIGURE=		yes
 CONFIGURE_ARGS=		--with-ungif --with-jpeg --with-png \
 			--with-tiff --with-mpeg2enc
-USE_BUILDLINK2=		yes
+USE_BUILDLINK3=		yes
 
-.include "../../graphics/tiff/buildlink2.mk"
-.include "../../graphics/png/buildlink2.mk"
-.include "../../graphics/jpeg/buildlink2.mk"
-.include "../../graphics/libungif/buildlink2.mk"
+.include "../../graphics/tiff/buildlink3.mk"
+.include "../../graphics/png/buildlink3.mk"
+.include "../../graphics/jpeg/buildlink3.mk"
+.include "../../graphics/libungif/buildlink3.mk"
 
 .include "../../mk/bsd.pkg.mk"
