@@ -11,6 +11,7 @@ HOMEPAGE=	http://iki.fi/~tuomov/ion/
 COMMENT=	Keyboard friendly tiling window manager
 
 BUILDLINK_DEPENDS.ltdl=	libtool-base>=1.4.20010614nb19
+BUILDLINK_DEPENDS.lua=	lua>=5.0.1
 
 USE_BUILDLINK2=	YES
 USE_PKGINSTALL=	YES
