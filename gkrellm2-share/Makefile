@@ -4,6 +4,7 @@ PKGNAME=	gkrellm-share-2.1.8a
 .include "../../wip/gkrellm2/Makefile.common"
 
 COMMENT=	gkrellm2 shared files
+CONFLICTS=	gkrellm-1*
 
 BUILD_USES_MSGFMT=	YES
 
