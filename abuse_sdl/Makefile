@@ -18,7 +18,7 @@ GNU_CONFIGURE=		YES
 
 SITES_frabs210_unix.src.tar.bz2=       http://www.cs.uidaho.edu/~cass0664/fRaBs/
 
-CFLAGS+=-DPREFIX=\"\\\"${PREFIX}\\\"\"
+CPPFLAGS+=-DPREFIX=\"\\\"${PREFIX}\\\"\"
 
 post-install:
 	${INSTALL_DATA_DIR} ${PREFIX}/share/abuse_sdl
