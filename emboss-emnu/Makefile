@@ -1,18 +1,17 @@
 # $NetBSD$
 #
 
-.include "../emboss/Makefile.common"
 .include "../emboss-base/Makefile.common"
-
+.include "../emboss/Makefile.common"
 DISTNAME=		EMNU-1.05
 PKGNAME=		emboss-emnu-1.05
+
 COMMENT=		Simple menu for EMBOSS applications
 
-USE_NCURSES=            yes
-
-CONFIGURE_ARGS+=        --prefix=${PREFIX}
-
 DIST_SUBDIR=		${PKG_DISTFILES_DIR}/emnu-1.05-20041107
+GNU_CONFIGURE=		yes
+#ncurses required for the redrawwin function
+USE_NCURSES=            yes
 
 pre-configure:
 	${SED} -e 's|../../../plplot/libplplot.la|${PREFIX}/lib/libplplot.la|' \
