@@ -14,6 +14,8 @@ NO_CONFIGURE=	# defined
 
 WRKSRC=		${WRKDIR}
 
+.include "../../mk/emacs.mk"
+
 do-build:
 	cd ${WRKSRC}; \
 		${EMACS_BIN} --no-init-file --no-site-file -batch \
@@ -25,5 +27,4 @@ do-install:
 		${INSTALL_DATA} php-mode.el php-mode.elc \
 			${EMACS_LISPPREFIX}/php-mode
 
-.include "../../mk/emacs.mk"
 .include "../../mk/bsd.pkg.mk"
