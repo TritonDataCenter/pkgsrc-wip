@@ -25,7 +25,7 @@ do-install:
 		${INSTALL_DATA} ${WRKSRC}/$$a ${PREFIX}/${PYSITELIB}/$$a; \
 	done
 	${INSTALL_DATA_DIR} ${BRENDA_DIR}
-	${INSTALL_DATA_DIR} ${BRENDA_DIR}/examples	
+	${INSTALL_DATA_DIR} ${BRENDA_DIR}/examples
 	for a in ${BRENDA_SHARE}; do \
 		${INSTALL_DATA} ${WRKSRC}/$$a ${BRENDA_DIR}/$$a; \
 	done

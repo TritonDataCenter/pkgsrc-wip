@@ -1,7 +1,7 @@
 @comment $NetBSD$
-${PYSITELIB}/Brenda.py 
-${PYSITELIB}/einRpc.py 
-${PYSITELIB}/myMath.py 
+${PYSITELIB}/Brenda.py
+${PYSITELIB}/einRpc.py
+${PYSITELIB}/myMath.py
 ${PYSITELIB}/niftySocket.py
 share/doc/${PYPKGPREFIX}-Brenda-0.4.1/INSTALL
 share/doc/${PYPKGPREFIX}-Brenda-0.4.1/LICENSE

@@ -27,7 +27,7 @@ post-install:
 	${INSTALL_SCRIPT} ${WRKSRC}/songwrite ${PREFIX}/bin/songwrite-${PYVERSSUFFIX}
 	for a in ${SW_FILES}; do \
 		${INSTALL_DATA} ${WRKSRC}/$$a ${PREFIX}/share/songwrite/$$a; \
-	done		
+	done
 
 .include "../../wip/py-EditObj/buildlink2.mk"
 .include "../../lang/python/application.mk"

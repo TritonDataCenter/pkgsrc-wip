@@ -16,7 +16,7 @@ PYDISTUTILSPKG=		yes
 MAKE_ENV+=		PYVERSSUFFIX=${PYVERSSUFFIX}
 PLIST_SUBST+=		PYVERSSUFFIX=${PYVERSSUFFIX}
 
-.if exists(../../mk/opengl.buildlink2.mk) 
+.if exists(../../mk/opengl.buildlink2.mk)
 # see PR 23845 for details
 .include "../../mk/opengl.buildlink2.mk"
 .else

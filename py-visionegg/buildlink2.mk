@@ -15,7 +15,7 @@ BUILDLINK_PKGSRCDIR.${PYPKGPREFIX}-visionegg?=		../../wip/py-visionegg
 EVAL_PREFIX+=	BUILDLINK_PREFIX.${PYPKGPREFIX}-visionegg=${PYPKGPREFIX}-visionegg
 BUILDLINK_PREFIX.${PYPKGPREFIX}-visionegg_DEFAULT=	${LOCALBASE}
 
-.if exists(../../mk/opengl.buildlink2.mk) 
+.if exists(../../mk/opengl.buildlink2.mk)
 # see PR 23845 for details
 .include "../../mk/opengl.buildlink2.mk"
 .else

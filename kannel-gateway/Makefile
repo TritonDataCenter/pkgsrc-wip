@@ -15,7 +15,7 @@ USE_LIBTOOL=            yes
 GNU_CONFIGURE=          yes
 
 CONFIGURE_ARGS+=		--disable-ssl
-CONFIGURE_ARGS+= 		--disable-docs 
+CONFIGURE_ARGS+= 		--disable-docs
 .include "../../mk/pthread.buildlink2.mk"
 .include "../../textproc/libxml2/buildlink2.mk"
 .include "../../mk/bsd.pkg.mk"

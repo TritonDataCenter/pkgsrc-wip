@@ -1,6 +1,6 @@
 @comment $NetBSD$
 @comment ======================================================
-@comment entries below will be not needed when we manage 
+@comment entries below will be not needed when we manage
 @comment to get it running with chat/ekg shared library
 @comment ======================================================
 include/libgadu.h

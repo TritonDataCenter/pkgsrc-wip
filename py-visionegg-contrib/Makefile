@@ -30,6 +30,6 @@ do-install:
 		${INSTALL_DATA} "${WRKSRC}/labview/$$a" \
 			"${PREFIX}/share/VisionEgg-${PYVERSSUFFIX}/labview/$$a"; \
 	done
-		
+
 .include "../../wip/py-visionegg/buildlink2.mk"
 .include "../../mk/bsd.pkg.mk"

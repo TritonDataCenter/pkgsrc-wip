@@ -33,7 +33,7 @@ USE_LIBTOOL=		yes
 USE_GMAKE=		yes
 PREFIX=			${LOCALBASE}/firebird15
 
-CONFIGURE_ARGS+=	--with-lock-manager 
+CONFIGURE_ARGS+=	--with-lock-manager
 CONFIGURE_ARGS+=	--with-editline
 CONFIGURE_ENV+=		AUTOCONF=${AUTOCONF}
 CONFIGURE_ENV+=		AUTOMAKE=${AUTOMAKE}
