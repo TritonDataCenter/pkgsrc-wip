@@ -12,8 +12,8 @@ include/X11/region.h
 lib/libX11.a
 lib/libX11.la
 lib/libX11.so
-lib/libX11.so.0
-lib/libX11.so.0.0
+lib/libX11.so.6
+lib/libX11.so.6.2
 lib/pkgconfig/x11.pc
 share/X11/XErrorDB
 share/X11/XKeysymDB
