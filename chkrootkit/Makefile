@@ -36,7 +36,7 @@ MAKE_ENV+=	STATIC="-static"
 INSTALLATION_DIRS+=	bin
 
 do-install:
-	for A in chkdirs chklastlog chkproc chkwtmp ifpromisc strings-static ;\
-	do ${INSTALL_PROGRAM} ${WRKSRC}/$$A ${PREFIX}/bin ; done
+	cd ${WRKSRC} && ${INSTALL_PROGRAM} chkdirs chklastlog chkproc \
+		chkwtmp ifpromisc strings-static ${PREFIX}/bin
 
 .include "../../mk/bsd.pkg.mk"
