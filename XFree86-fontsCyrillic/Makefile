@@ -1,7 +1,7 @@
 # $NetBSD$
 
 DISTNAME=	X430src-4
-PKGNAME=	XFree86-fontsCyrillic-${XFREE86_VERSION}
+PKGNAME=	XFree86-fontsCyrillic-${XF_VER}
 WRKSRC=		${WRKDIR}/xc/fonts/bdf/cyrillic
 CATEGORIES=	x11
 MASTER_SITES=	${MASTER_SITE_XFREE}
@@ -11,8 +11,7 @@ MAINTAINER=	xfree86@xtraeme.unixbsd.org
 HOMEPAGE=	http://www.xfree86.org/
 COMMENT=	XFree86 Cyrillic fonts
 
-DEPENDS=	XFree86-clients*:../../wip/XFree86-clients
-DEPENDS+=	XFree86-fontsEncodings*:../../wip/XFree86-fontsEncodings
+DEPENDS+=	XFree86-fontsEncodings>=4.3.0:../../wip/XFree86-fontsEncodings
 
 USE_BUILDLINK2=		yes
 PROJECTROOT=		-DProjectRoot=${PREFIX}

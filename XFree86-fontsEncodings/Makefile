@@ -1,7 +1,7 @@
 # $NetBSD$
 
 DISTNAME=	X430src-4
-PKGNAME=	XFree86-fontsEncodings-${XFREE86_VERSION}
+PKGNAME=	XFree86-fontsEncodings-${XF_VER}
 WRKSRC=		${WRKDIR}/xc/fonts/encodings
 CATEGORIES=	x11
 MASTER_SITES=	${MASTER_SITE_XFREE}
@@ -11,7 +11,7 @@ MAINTAINER=	xfree86@xtraeme.unixbsd.org
 HOMEPAGE=	http://www.xfree86.org/
 COMMENT=	XFree86 Encoding fonts
 
-DEPENDS=	XFree86-clients-[0-9]*:../../wip/XFree86-clients
+DEPENDS=	XFree86-clients>=4.3.0:../../wip/XFree86-clients
 
 USE_BUILDLINK2=		yes
 NO_XFREE86_TARGETS=	#defined

@@ -1,7 +1,7 @@
 # $NetBSD$
 
 DISTNAME=	${DISTFILES}
-PKGNAME=	XFree86-defaultBitmaps-${XFREE86_VERSION}
+PKGNAME=	XFree86-defaultBitmaps-${XF_VER}
 WRKSRC=		${WRKDIR}/xc/fonts/bdf/misc
 CATEGORIES=	x11
 MASTER_SITES=	${MASTER_SITE_XFREE}
