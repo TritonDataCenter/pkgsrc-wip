@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.156 2003/05/13 02:35:49 xtraeme Exp $
+# $Id: Makefile,v 1.157 2003/05/13 20:28:00 bmeurer Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -146,6 +146,7 @@ SUBDIR+=	xawtv
 SUBDIR+=	xevil
 SUBDIR+=	xmms-liveice
 SUBDIR+=	xml2doc
+SUBDIR+=	xplore
 SUBDIR+=	zebra-pj
 SUBDIR+=	WEPCrack
 
