@@ -1,4 +1,5 @@
 @comment $NetBSD$
 ${MINGWTARGET}/include/libintl.h
 ${MINGWTARGET}/lib/libintl-2.dll
+${MINGWTARGET}/lib/libintl.a
 ${MINGWTARGET}/lib/libintl.la
