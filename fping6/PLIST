@@ -1,0 +1,4 @@
+@comment $NetBSD$
+sbin/fping
+sbin/fping6
+man/man8/fping.8
