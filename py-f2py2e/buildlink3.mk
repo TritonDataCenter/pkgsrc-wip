@@ -3,6 +3,8 @@
 BUILDLINK_DEPTH:=		${BUILDLINK_DEPTH}+
 PY_F2PY2E_BUILDLINK3_MK:=	${PY_F2PY2E_BUILDLINK3_MK}+
 
+.include "../../lang/python/pyversion.mk"
+
 .if !empty(BUILDLINK_DEPTH:M+)
 BUILDLINK_DEPENDS+=	pyf2py2e
 .endif
