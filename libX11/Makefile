@@ -20,6 +20,13 @@ USE_GMAKE=		yes
 LIBTOOL_OVERRIDE=       ${WRKSRC}/libtool
 PKGCONFIG_OVERRIDE+=    ${WRKSRC}/x11.pc.in
 
+.include "../../mk/pthread.buildlink2.mk"
+
+.if defined(PTHREAD_TYPE) && ${PTHREAD_TYPE} == "none"
+# XXX need to test this and see how PLIST changes
+CONFIGURE_ARGS+=	--disable-xthreads
+.endif
+
 .include "../../wip/xextensions/buildlink2.mk"
 .include "../../wip/xproto/buildlink2.mk"
 .include "../../wip/xtrans/buildlink2.mk"
