@@ -11,7 +11,7 @@ COMMENT=	Fast, featureful web content filter for Squid proxy servers
 
 WRKSRC=		${WRKDIR}/DansGuardian-2.6.1
 HAS_CONFIGURE=	yes
-USE_BUILDLINK2=	yes
+USE_BUILDLINK3=	yes
 MANCOMPRESSED=	yes
 RCD_SCRIPTS=	dansguardian
 USE_PKGINSTALL= YES
@@ -46,5 +46,5 @@ _FETCH_MESSAGE= 							\
 	${ECHO} ; 							\
 	${ECHO} "======================================================================"
 
-.include "../../www/apache/buildlink2.mk"
+.include "../../www/apache/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
