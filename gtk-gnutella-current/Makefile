@@ -33,7 +33,7 @@ NO_CHECKSUM=		# defined
 # number.
 #PKG_INSTALLATION_TYPE=	pkgviews
 
-.include "../../wip/gtk-gnutella-current.import/Makefile.version"
+.include "../../wip/gtk-gnutella-current/Makefile.version"
 
 .include "../../textproc/libxml2/buildlink3.mk"
 .include "../../x11/gtk2/buildlink3.mk"
