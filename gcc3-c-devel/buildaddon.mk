@@ -1,6 +1,6 @@
 # $NetBSD$
 
-.include "../../lang/gcc3-c-devel/Makefile.common"
+.include "../../wip/gcc3-c-devel/Makefile.common"
 
 pre-build:
 	(cd ${WRKSRC}/gcc && ${SETENV} ${MAKE_ENV} ${GMAKE} tconfig.h)
