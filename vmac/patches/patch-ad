@@ -7,7 +7,7 @@ $NetBSD$
  	Arg wargs[3];
  	int n;
 -	char *version = "vMac 0.1.9.2 Unix/X
-+	char *version = "vMac 0.1.9.3nb1 Unix/X
++	char *version = "vMac 0.1.9.3nb1 Unix/X\
  			 By Michael Hanni (mhanni@sprintmail.com)";
  
  	title = XmStringCreateSimple("vMac About...");
