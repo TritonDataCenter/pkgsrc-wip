@@ -1,0 +1,3 @@
+$NetBSD$
+- Get the toplevel system to work without quitting with an error of
+   `Unknown option -stdlib.'
