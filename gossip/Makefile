@@ -1,9 +1,9 @@
 # $NetBSD$
 #
 
-DISTNAME=	gossip-0.3
+DISTNAME=	gossip-0.4
 CATEGORIES=	chat
-MASTER_SITES=	${MASTER_SITE_GNOME:=sources/gossip/0.3/}
+MASTER_SITES=	${MASTER_SITE_GNOME:=sources/gossip/0.4/}
 EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	jrp@hispabsd.org
@@ -20,10 +20,12 @@ GNU_CONFIGURE=		yes
 USE_GMAKE=		yes
 USE_GNU_ICONV=		yes
 
+GCONF2_SCHEMAS=		gossip.schemas
 LIBTOOL_OVERRIDE=       ${WRKSRC}/libtool
 
 .include "../../devel/libgnomeui/buildlink2.mk"
 .include "../../devel/gettext-lib/buildlink2.mk"
 .include "../../wip/loudmouth/buildlink2.mk"
 .include "../../converters/libiconv/buildlink2.mk"
+.include "../../devel/GConf2/schemas.mk"
 .include "../../mk/bsd.pkg.mk"
