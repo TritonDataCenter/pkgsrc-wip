@@ -8,16 +8,6 @@ This passed pkglint just fine until I factored out Makefile.common ... but
 I see the qt3 stuff is factored the same way (and also annoys pkglint).
 I assume that means it's ok....
 
-QMAKESPEC is set unconditionally to netbsd-g++ but is this really the
-right thing to do for a portable pkgsrc?  Is there a good way to get it
-set dynamically?  Can the Qt makefiles arrange it?
-
-The whole post-patch, er, I mean, post-wrapper target is just to arrange
-to patch some fixed paths in sourcefiles to the dynamically determined
-values.  Surely this comes up often enough there's just a way to say I want
-these tokens changed in these files, like the way interpreters are
-handled?  I didn't find one....
-
 I have left tech-pkg@NetBSD.org as the maintainer because I am hoping to
 rework shells/ast-ksh (and probably will set myself as maintainer for that
 one, if nobody objects), but I made this QCad package only because I wanted
