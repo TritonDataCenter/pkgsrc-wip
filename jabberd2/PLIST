@@ -15,7 +15,9 @@ man/man8/sm.8
 share/examples/jabberd/c2s.xml
 share/examples/jabberd/jabberd.cfg
 share/examples/jabberd/resolver.xml
+share/examples/jabberd/roster.xml
 share/examples/jabberd/router.xml
+share/examples/jabberd/router-users.xml
 share/examples/jabberd/s2s.xml
 share/examples/jabberd/sm.xml
 @dirrm share/examples/jabberd
