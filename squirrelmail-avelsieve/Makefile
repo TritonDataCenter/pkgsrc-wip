@@ -15,6 +15,9 @@ USE_BUILDLINK3=	# defined
 
 WRKSRC=		${WRKDIR}
 
+SMDIR=			${PREFIX}/share/squirrelmail
+MESSAGE_SUBST+=		SMDIR=${SMDIR}
+
 do-build:
 
 do-install:

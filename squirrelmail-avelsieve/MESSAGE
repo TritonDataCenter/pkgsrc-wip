@@ -1,0 +1,10 @@
+===========================================================================
+$NetBSD$
+
+    To enable this plugin:
+
+    cd ${SMDIR}/config &&./conf.pl
+
+    adding avelsieve to the list of active plugins.
+
+===========================================================================
