@@ -22,9 +22,15 @@ NO_BUILD=	yes
 
 APACHE_DOCROOT=	${PREFIX}/share/httpd/htdocs
 ILOHADIR=	${APACHE_DOCROOT}/IlohaMail
+PKG_SYSCONFDIR=${ILOHADIR}/conf/
 
 do-install:
-	@${CP} -r ${WRKSRC}/IlohaMail ${APACHE_DOCROOT}
+	${INSTALL_DATA_DIR} ${ILOHADIR}/conf
+	${INSTALL_DATA_DIR} ${ILOHADIR}/conf-orig
+	@${CP} -rf ${ILOHADIR}/conf/ ${ILOHADIR}/conf-orig/
+	@${CP} -r  ${WRKSRC}/IlohaMail/ ${ILOHADIR}
+	@${CP} -rf ${ILOHADIR}/conf-orig/ ${ILOHADIR}/conf/
+	@${CP} -rf ${WRKSRC}/IlohaMail/conf/ ${ILOHADIR}/conf-orig/
 	${CHMOD} -R 700 ${ILOHADIR}
 	${CHOWN} -R www:www ${ILOHADIR}
 
