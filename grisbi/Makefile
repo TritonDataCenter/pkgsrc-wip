@@ -10,12 +10,12 @@ MAINTAINER=		wiz@NetBSD.org
 HOMEPAGE=		http://www.grisbi.org/
 COMMENT=		Personal Finance Manager under Gnome/GTK
 
-USE_BUILDLINK2=		yes
+USE_BUILDLINK3=		yes
 USE_GNU_TOOLS+=		make
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 
-.include "../../print/gnome-print/buildlink2.mk"
-.include "../../x11/gtk/buildlink2.mk"
-.include "../../x11/gnome-libs/buildlink2.mk"
+.include "../../print/gnome-print/buildlink3.mk"
+.include "../../x11/gtk/buildlink3.mk"
+.include "../../x11/gnome-libs/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
