@@ -16,7 +16,7 @@ COMMENT=	Curses port of Glk interface
 INCOMPAT_CURSES+=	NetBSD-1.4[Y-Z]* NetBSD-1.5* NetBSD-1.6-* NetBSD-1.6.*
 INCOMPAT_CURSES+=	NetBSD-1.6[A-L]*
 
-USE_BUILDLINK2=	yes
+USE_BUILDLINK3=	yes
 
 do-install:
 	${INSTALL_DATA_DIR} ${PREFIX}/include/glkterm
@@ -26,5 +26,5 @@ do-install:
 	done
 	${INSTALL_DATA} ${WRKSRC}/libglkterm.a ${PREFIX}/lib
 
-.include "../../devel/ncurses/buildlink2.mk"
+.include "../../devel/ncurses/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
