@@ -7,7 +7,6 @@ MASTER_SITES=	http://gforge.org/download.php/44/
 MAINTAINER=	david@netbsd-fr.org
 HOMEPAGE=	http://www.gforge.org/
 COMMENT=	Open Source collaborative software development tool
-COMMENT=	Open Source collaborative software development tool
 
 DEPENDS+=	wget>=1.9:../../net/wget
 DEPENDS+=	ap-php>=4.3:../../www/ap-php4
