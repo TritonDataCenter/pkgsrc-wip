@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.1373 2004/07/09 09:15:32 imilh Exp $
+# $Id: Makefile,v 1.1374 2004/07/10 05:21:43 blef Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -806,7 +806,6 @@ SUBDIR+=	yafray
 SUBDIR+=	yp-tools
 SUBDIR+=	ypbind-mt
 SUBDIR+=	ypserv
-SUBDIR+=	zebra-pj
 SUBDIR+=	zinf
 SUBDIR+=	zsnes-devel
 
