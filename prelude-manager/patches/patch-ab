@@ -1,0 +1,13 @@
+$NetBSD$
+
+--- configure.orig	Sun Sep 28 12:02:54 2003
++++ configure	Sun Sep 28 12:03:18 2003
+@@ -22807,7 +22807,7 @@
+ decode_plugin_dir=$plugindir/decodes
+ filter_plugin_dir=$plugindir/filters
+ db_plugin_dir=$plugindir/db
+-manager_fifo_dir=$localstatedir/spool/prelude-manager
++manager_fifo_dir=/var/spool/prelude-manager
+ manager_data_dir=$datadir/prelude-manager
+ 
+ 
