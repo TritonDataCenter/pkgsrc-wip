@@ -23,6 +23,8 @@ do-install:
 		${PREFIX}/${PYSITELIB}/pype/configuration.py
 	${INSTALL_DATA} ${WRKSRC}/parsers.py \
 		${PREFIX}/${PYSITELIB}/pype/parsers.py
+	${INSTALL_DATA} ${WRKSRC}/readme.txt \
+		${PREFIX}/${PYSITELIB}/pype/readme.txt
 	${INSTALL_DATA} ${FILESDIR}/__init__.py \
 		${PREFIX}/${PYSITELIB}/pype/__init__.py
 	${INSTALL_SCRIPT} ${WRKSRC}/pype.py ${PREFIX}/bin/pype.py-${PYVERSSUFFIX}
