@@ -1,0 +1,10 @@
+@comment $NetBSD$
+bin/eet
+bin/eet-config
+include/Eet.h
+lib/libeet.a
+lib/libeet.la
+lib/libeet.so
+lib/libeet.so.9
+lib/libeet.so.9.9
+lib/pkgconfig/eet.pc
