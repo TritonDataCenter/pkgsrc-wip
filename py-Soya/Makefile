@@ -21,6 +21,6 @@ PYTHON_VERSIONS_ACCEPTED=	23pth
 .include "../../graphics/MesaLib/buildlink3.mk"
 .include "../../graphics/freetype2/buildlink3.mk"
 .include "../../graphics/png/buildlink3.mk"
-.include "../../graphics/cal3d/buildlink2.mk"
+.include "../../graphics/cal3d/buildlink3.mk"
 .include "../../devel/SDL/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
