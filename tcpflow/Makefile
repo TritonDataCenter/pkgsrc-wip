@@ -10,7 +10,6 @@ HOMEPAGE= 	http://www.circlemud.org/~jelson/software/tcpflow/
 COMMENT=	Captures data transmitted as part of TCP connections
 
 USE_BUILDLINK2=	YES
-
-GNU_CONFIGURE=	yes
+GNU_CONFIGURE=	YES
 
 .include "../../mk/bsd.pkg.mk"
