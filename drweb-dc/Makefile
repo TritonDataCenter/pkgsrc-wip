@@ -2,7 +2,7 @@
 
 DRW_CLIENT_NAME=	dc
 
-MAINTAINER=		tech-pkg@netbsd.org
+MAINTAINER=		tech-pkg@NetBSD.org
 COMMENT=		Command line client for DrWeb Daemon antivirus
 
 do-install:

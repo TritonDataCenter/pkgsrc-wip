@@ -2,7 +2,7 @@
 
 DRW_CLIENT_NAME=	clients-shared
 
-MAINTAINER=		tech-pkg@netbsd.org
+MAINTAINER=		tech-pkg@NetBSD.org
 COMMENT=		Shared files of clients to DrWeb Daemon antivirus
 
 NO_CONFIGURE=		yes
