@@ -5,10 +5,10 @@ DISTNAME=	VTKData-${VTK_VERSION}
 PKGNAME=	vtk-data-${VTK_VERSION}
 
 WRKSRC=		${WRKDIR}/VTKData-release-${VTK_VERSION:S/./-/}
-PATCHDIR=	# defined # ${.CURDIR}/../vtk/patches
 NO_BUILD=	# defined
 NO_CONFIGURE=	# defined
-NO_PATCHING=	# defined
+PATCHDIR=	# empty
+DISTINFO_FILE=		${.CURDIR}/distinfo
 
 EXAMPLES_DIR=	share/vtk/
 PLIST_SRC=	${WRKDIR}/.PLIST_SRC
