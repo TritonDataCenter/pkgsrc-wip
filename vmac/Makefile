@@ -5,7 +5,7 @@ PKGNAME=	vmac-${VMAC_VERSION}
 PKGREVISION=	1
 WRKSRC=		${WRKDIR}/vMac-${VMAC_VERSION}
 CATEGORIES=	emulators
-MASTER_SITES=	http://www.leb.net/vmac/download/XWindows/
+MASTER_SITES=	http://www.vmac.org/download/XWindows/
 EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	mishka@apk.od.ua
