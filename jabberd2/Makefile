@@ -21,6 +21,13 @@ LIBTOOL_OVERRIDE=       ${WRKSRC}/libtool
 
 .include "../../mk/bsd.prefs.mk"
 
+BUILD_DEFS+=	JABBERD2_USES_PGSQL JABBERD2_USES_MYSQL JABBERD2_USES_PAM
+
+.for F in ${BUILD_DEFS}
+${F}?= NO
+.endfor
+.undef F
+
 .if defined(JABBERD2_USES_PGSQL) && !empty(JABBERD2_USES_PGSQL:M[Yy][Ee][Ss])
 CONFIGURE_ARGS+=	--with-pgsql=${BUILDLINK_PREFIX.postgresql-lib}
 .include "../../databases/postgresql-lib/buildlink2.mk"
