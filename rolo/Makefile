@@ -8,7 +8,7 @@ MAINTAINER=	bjan+pkgsrc@bjan.net
 HOMEPAGE=	http://rolo.sf.net/
 COMMENT=	Contact info manager using ncurses and vCards
 
-INCOMPAT_CURSES=	NetBSD-1.5* NetBSD-1.6[.-_]*
+INCOMPAT_CURSES=	NetBSD-1.5* NetBSD-1.6[-_.]*
 INCOMPAT_CURSES=	NetBSD-1.6[A-Z]-* NetBSD-1.6Z[A-C]*
 
 USE_BUILDLINK2=	YES
