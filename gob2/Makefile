@@ -13,4 +13,5 @@ USE_BUILDLINK3=	YES
 GNU_CONFIGURE=	YES
 
 .include "../../devel/glib2/buildlink3.mk"
+.include "../../devel/pkgconfig/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
