@@ -10,6 +10,8 @@ MAINTAINER=		jaapboen@sci.kun.nl
 HOMEPAGE=		http://www.cs.kun.nl/~kees/cdl3
 COMMENT=		Programming language for the development of compilers
 
+PKG_INSTALLATION_TYPES=	overwrite pkgviews
+
 USE_GNU_TOOLS+=		make
 USE_BUILDLINK3=		yes
 USE_PKGLOCALEDIR=	yes
