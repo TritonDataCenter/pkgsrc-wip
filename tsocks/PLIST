@@ -1,4 +1,5 @@
 @comment $NetBSD$
+bin/tsocks
 lib/libtsocks.so
 lib/libtsocks.so.1
 lib/libtsocks.so.${PKGVERSION}
