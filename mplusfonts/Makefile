@@ -7,7 +7,7 @@ CATEGORIES=	fonts japanese
 MASTER_SITES=	http://downloads.sourceforge.jp/mplus-fonts/2050/ \
 		http://wids.net/archive/mplusfonts/distfiles/
 
-MAINTAINER=	packages@netbsd.org
+MAINTAINER=	tech-pkg@NetBSD.org
 HOMEPAGE=	http://mplus-fonts.sourceforge.jp/
 COMMENT=	12x13 dots X11 kanji fonts with simple and readable design
 

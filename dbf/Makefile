@@ -7,7 +7,7 @@ WRKSRC=		${WRKDIR}/${PKGNAME_NOREV}
 CATEGORIES=	converters
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=dbf/}
 
-MAINTAINER=	packages@netbsd.org
+MAINTAINER=	tech-pkg@NetBSD.org
 HOMEPAGE=	http://dbf.sourceforge.net/
 COMMENT=	Converts dBASE files to comma separated values text files
 

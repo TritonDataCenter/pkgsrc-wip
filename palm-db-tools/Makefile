@@ -6,7 +6,7 @@ PKGNAME=	palm-db-tools-0.3.4
 CATEGORIES=	converters
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=palm-db-tools/}
 
-MAINTAINER=	packages@netbsd.org
+MAINTAINER=	tech-pkg@NetBSD.org
 HOMEPAGE=	http://palm-db-tools.sourceforge.net
 COMMENT=	Tools to convert to/from Palm OS databases
 

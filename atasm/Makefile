@@ -7,7 +7,7 @@ CATEGORIES=	devel cross emulators
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=atasm/}
 EXTRACT_SUFX=	.zip
 
-MAINTAINER=	packages@netbsd.org
+MAINTAINER=	tech-pkg@NetBSD.org
 HOMEPAGE=	http://sourceforge.net/projects/atasm/
 COMMENT=	Cross-assembler for 6502 optimized to code for Atari 8 bit computers
 
