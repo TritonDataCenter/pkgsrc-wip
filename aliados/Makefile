@@ -14,6 +14,7 @@ PKG_INSTALLATION_TYPES= overwrite pkgviews
 
 USE_BUILDLINK3=		YES
 NO_CONFIGURE=		YES
+USE_LANGUAGES=		c++
 USE_NCURSES=		# tigetstr tparm setupterm
 
 INSTALLATION_DIRS=	bin
