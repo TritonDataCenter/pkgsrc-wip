@@ -18,7 +18,7 @@ GNU_CONFIGURE=		YES
 CONFIGURE_ARGS+=	--disable-alsa-seq
 CONFIGURE_ARGS+=	--disable-jack-support
 
-.include "../../audio/libhydrogen/buildlink2.mk"
+.include "../../wip/libhydrogen/buildlink2.mk"
 .include "../../x11/qt3-libs/buildlink2.mk"
 .include "../../x11/qt3-tools/buildlink2.mk"
 .include "../../mk/bsd.pkg.mk"
