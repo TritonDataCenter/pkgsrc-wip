@@ -12,7 +12,7 @@ MAINTAINER=		adam@monkeybyte.org
 HOMEPAGE=		http://eic.sourceforge.net/download/eicdist/4_3_0/
 COMMENT=		C style scripting lang
 
-USE_GMAKE= YES
+USE_GNU_TOOLS+=		make
 
 do-configure:
 		cd ${WRKSRC} && config/makeconfig

@@ -12,7 +12,7 @@ HOMEPAGE=		http://dumb.sourceforge.net/
 COMMENT=		IT, XM, S3M and MOD player library
 
 LICENSE=		dumb-license
-USE_GMAKE=		yes
+USE_GNU_TOOLS+=		make
 USE_X11=		yes
 USE_BUILDLINK2=		yes
 

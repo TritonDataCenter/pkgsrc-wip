@@ -15,7 +15,7 @@ CONFLICTS=		bcc-*
 # XXX maybe patches under devel/bcc will help
 ONLY_FOR_PLATFORM=	Linux-*-i[3-6]86
 
-USE_GMAKE=		YES
+USE_GNU_TOOLS+=		make
 
 do-build:
 	cd ${WRKSRC} && ${GMAKE} PREFIX=${PREFIX}

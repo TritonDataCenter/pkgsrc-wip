@@ -11,7 +11,7 @@ HOMEPAGE=	http://horus.comlab.uni-rostock.de/flynn/
 COMMENT=	GKrellM2 plugin that shows system load with a DooM marine
 
 USE_BUILDLINK2=	YES
-USE_GMAKE=	YES
+USE_GNU_TOOLS+=	make
 ALL_TARGET=	gkrellm2
 INSTALL_TARGET=	installgkrellm2
 

@@ -10,6 +10,6 @@ MAINTAINER=	tech-pkg@NetBSD.org
 HOMEPAGE=	http://www.asteriskpbx.com/
 COMMENT=	Open source PBX
 
-USE_GMAKE=	yes
+USE_GNU_TOOLS+=	make
 
 .include "../../mk/bsd.pkg.mk"

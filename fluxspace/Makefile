@@ -11,7 +11,7 @@ COMMENT=		Fluxbox workspace manager, environment
 USE_BUILDLINK2=	YES
 GNU_CONFIGURE=	YES
 USE_X11=		YES
-USE_GMAKE=		YES
+USE_GNU_TOOLS+=		make
 
 USE_LIBTOOL=		YES
 LIBTOOL_OVERRIDE=	${WRKSRC}/libtool

@@ -17,7 +17,7 @@ USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 USE_AUTOCONF=		yes
 AUTOCONF_REQD=		2.12
-USE_GMAKE=		yes
+USE_GNU_TOOLS+=		make
 GCC_SUBPREFIX=		gcc3
 
 post-extract:

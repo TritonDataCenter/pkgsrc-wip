@@ -17,7 +17,7 @@ USE_BUILDLINK2=		yes
 USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=		yes
 GNU_CONFIGURE=		yes
-USE_GMAKE=		yes
+USE_GNU_TOOLS+=		make
 LIBTOOL_OVERRIDE=       ${WRKSRC}/libtool
 
 GCONF2_SCHEMAS=		drwright.schemas

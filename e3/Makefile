@@ -13,7 +13,7 @@ COMMENT=	        The e3  is a full featured text editor highly optimized for siz
 BUILD_DEPENDS+=		nasm>=0.98:../../devel/nasm
 
 CONFIGURE=              no
-USE_GMAKE=              yes
+USE_GNU_TOOLS+=		make
 
 USE_BUILDLINK2=		yes
 

@@ -10,7 +10,7 @@ HOMEPAGE=	http://www.nongnu.org/dmidecode/
 COMMENT=	Print out DMI (SMBIOS) table in human-readable format
 
 USE_BUILDLINK2=		yes
-USE_GMAKE=		yes
+USE_GNU_TOOLS+=		make
 ONLY_FOR_PLATFORM=	*-*-i386 *-*-x86
 
 .include "../../mk/bsd.pkg.mk"

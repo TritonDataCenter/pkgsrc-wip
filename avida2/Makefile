@@ -13,7 +13,7 @@ USE_BUILDLINK2=         YES
 HAS_CONFIGURE= YES
 GNU_CONFIGURE=	YES
 CONFIGURE_ARGS= --enable-viewer
-USE_GMAKE= YES
+USE_GNU_TOOLS+=	make
 
 pre-configure:
 	${ECHO} DESTDIR=${LOCALBASE}/share/avida >> ${WRKSRC}/doc/Makefile.in; \

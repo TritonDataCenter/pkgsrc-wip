@@ -11,6 +11,6 @@ MAINTAINER=	wojtek@3miasto.net
 HOMEPAGE=	http://www.tobias-nopper.de/BillardGL/
 COMMENT=	3D Billard using OpenGL hardware acceleration
 
-USE_GMAKE=	yes
+USE_GNU_TOOLS+=	make
 
 .include "../../mk/bsd.pkg.mk"

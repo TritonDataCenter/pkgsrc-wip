@@ -12,7 +12,7 @@ COMMENT=	3D Tron lightcycle clone with network support
 
 GNU_CONFIGURE=	YES
 USE_BUILDLINK2=	YES
-USE_GMAKE=	YES
+USE_GNU_TOOLS+=	make
 USE_X11=	YES
 
 CONFIGURE_ARGS+=	--disable-etc

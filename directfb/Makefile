@@ -13,7 +13,7 @@ COMMENT=	Thin library that provides hardware graphics acceleration
 ONLY_FOR_PLATFORM=     Linux-*-* NetBSD-*-*
 
 GNU_CONFIGURE=	YES
-USE_GMAKE=	YES
+USE_GNU_TOOLS+=	make
 USE_BUILDLINK2=	YES
 USE_X11=	YES
 

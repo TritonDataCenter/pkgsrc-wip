@@ -15,7 +15,7 @@ DEPENDS+=	gnome1-dirs>=1.0:../../misc/gnome1-dirs
 USE_BUILDLINK2=		yes
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
-USE_GMAKE=		yes
+USE_GNU_TOOLS+=		make
 USE_GNU_GETTEXT=	yes
 
 .include "../../x11/gtk/buildlink2.mk"

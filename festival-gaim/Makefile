@@ -15,7 +15,7 @@ DEPENDS+=	festlex-poslex>=1.4.0:../../audio/festlex-poslex
 DEPENDS+=	festvox-el11>=1.4.0:../../audio/festvox-el11
 DEPENDS+=	gaim>=0.64:../../chat/gaim
 
-USE_GMAKE=	yes
+USE_GNU_TOOLS+=	make
 USE_LIBTOOL=	yes
 
 MAKE_ENV+=	FESTIVAL_VOICES_PATH="${PREFIX}/share/festival/lib/voices"

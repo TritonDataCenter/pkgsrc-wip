@@ -11,7 +11,7 @@ COMMENT=	Advanced architecture for desktop applets
 
 USE_BUILDLINK2=	YES
 GNU_CONFIGURE=	YES
-USE_GMAKE=	YES
+USE_GNU_TOOLS+=	make
 USE_LIBTOOL=	YES
 USE_X11=	YES
 

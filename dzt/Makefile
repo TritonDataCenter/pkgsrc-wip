@@ -9,7 +9,7 @@ MAINTAINER=	pancake@phreaker.net
 HOMEPAGE=	http://dzt.sourceforge.net/
 COMMENT=	Dzt is a Yet Another Tabbed GNOME Terminal
 
-USE_GMAKE=	yes
+USE_GNU_TOOLS+=	make
 USE_X11=	yes
 USE_BUILDLINK2=	yes
 GNU_CONFIGURE=	yes

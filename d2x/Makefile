@@ -10,7 +10,7 @@ HOMEPAGE=	http://icculus.org/d2x/
 COMMENT=	Descent II port
 
 HAS_CONFIGURE=		YES
-USE_GMAKE=		YES
+USE_GNU_TOOLS+=		make
 USE_BUILDLINK2=		YES
 
 D2X_DATA=		${PREFIX}/share/games/${PKGBASE}

@@ -15,7 +15,7 @@ COMMENT=		Anonymous peer-to-peer networking node (similar to Freenet)
 
 GNU_CONFIGURE=		yes
 USE_BUILDLINK2=		yes
-USE_GMAKE=		yes
+USE_GNU_TOOLS+=		make
 
 ENTROPY_VERSION=	0.8.0-405
 

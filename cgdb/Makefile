@@ -11,7 +11,7 @@ COMMENT=	Curses-based interface to the GNU Debugger (GDB)
 
 USE_BUILDLINK2=		yes
 GNU_CONFIGURE=		yes
-USE_GMAKE=		yes
+USE_GNU_TOOLS+=		make
 USE_GNU_READLINE=	yes
 
 CONFIGURE_ARGS+=	--with-curses

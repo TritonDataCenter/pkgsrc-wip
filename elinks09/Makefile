@@ -13,7 +13,7 @@ CONFLICTS=		elinks-[0-9]*
 
 USE_BUILDLINK2=		yes
 GNU_CONFIGURE=		yes
-USE_GMAKE=		yes
+USE_GNU_TOOLS+=		make
 USE_PKGLOCALEDIR=	yes
 
 CONFIGURE_ARGS+=	--without-x --enable-256-colors

@@ -12,7 +12,7 @@ HOMEPAGE=		http://developer.gnome.org/projects/gap/
 COMMENT=		Version of devel/atk that links with wip/glib2-devel
 
 USE_BUILDLINK2=		yes
-USE_GMAKE=		yes
+USE_GNU_TOOLS+=		make
 GNU_CONFIGURE=		yes
 USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=		yes

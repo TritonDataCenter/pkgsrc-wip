@@ -13,7 +13,7 @@ COMMENT=	Computer Oracle and Password System
 
 MAKEFILE=	makefile
 
-USE_GMAKE=	yes
+USE_GNU_TOOLS+=	make
 USE_BUILDLINK2=	yes
 
 .include "../../mk/bsd.pkg.mk"

@@ -12,7 +12,7 @@ HOMEPAGE=	http://dbf.sourceforge.net/
 COMMENT=	Converts dBASE files to comma separated values text files
 
 USE_BUILDLINK2=	YES
-USE_GMAKE=	YES
+USE_GNU_TOOLS+=	make
 BUILD_DIRS=	${WRKSRC}/src
 INSTALL_DIRS=	${WRKSRC}
 

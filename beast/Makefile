@@ -14,7 +14,7 @@ USE_X11=		yes
 USE_BUILDLINK2=		yes
 GNU_CONFIGURE=		yes
 USE_LIBTOOL=		yes
-USE_GMAKE=		yes
+USE_GNU_TOOLS+=		make
 AUTOCONF_REQD=          2.13
 
 pre-configure:

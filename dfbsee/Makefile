@@ -14,7 +14,7 @@ ONLY_FOR_PLATFORM=     Linux-*-* NetBSD-*-*
 
 USE_BUILDLINK2=		yes
 GNU_CONFIGURE=		yes
-USE_GMAKE=		yes
+USE_GNU_TOOLS+=		make
 
 USE_LIBTOOL=            yes
 LIBTOOL_OVERRIDE=       ${WRKSRC}/libtool

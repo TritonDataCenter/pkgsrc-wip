@@ -9,7 +9,7 @@ MAINTAINER=	pancake@phreaker.net
 HOMEPAGE=	ftp://ftp.berlios.de/pub/compare/AN-1.11
 COMMENT=	Fast binary comparision between two files
 
-USE_GMAKE=	yes
+USE_GNU_TOOLS+=	make
 USE_BUILDLINK2=	yes
 
 do-install:

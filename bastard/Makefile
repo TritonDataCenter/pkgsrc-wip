@@ -12,7 +12,7 @@ HOMEPAGE=		http://bastard.sourceforge.net/
 COMMENT=		Disassembler for ELF x86 binarys
 
 USE_BUILDLINK2= YES
-USE_GMAKE= 		YES
+USE_GNU_TOOLS+=	make
 
 .include "../../devel/readline/buildlink2.mk"
 .include "../../mk/bsd.pkg.mk"

@@ -11,7 +11,7 @@ COMMENT=	3D filesystem visualizer
 
 USE_BUILDLINK2=		yes
 GNU_CONFIGURE=		yes
-USE_GMAKE=		yes
+USE_GNU_TOOLS+=		make
 USE_X11=		yes
 
 .include "../../x11/gtkglarea/buildlink2.mk"

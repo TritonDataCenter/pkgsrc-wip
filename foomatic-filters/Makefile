@@ -12,7 +12,7 @@ GNU_CONFIGURE=		YES
 CONFIG_GUESS_OVERRIDE=  ${WRKSRC}/config.guess
 CONFIG_SUB_OVERRIDE=    ${WRKSRC}/config.sub
 
-USE_GMAKE=	yes
+USE_GNU_TOOLS+=	make
 USE_PERL5=	yes
 PERL5_REQD=	5.6
 INSTALL_TARGET=	install-bin install-man

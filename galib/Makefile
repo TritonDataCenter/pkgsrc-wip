@@ -11,7 +11,7 @@ HOMEPAGE=       http://lancet.mit.edu/ga/
 COMMENT=        GAlib contains a set of C++ genetic algorithm objects
 
 USE_BUILDLINK2=         YES
-USE_GMAKE=              YES
+USE_GNU_TOOLS+=		make
 
 pre-configure:
 	cd ${WRKSRC}; 					\

@@ -9,7 +9,7 @@ MAINTAINER=	pancake@phreaker.net
 HOMEPAGE=	http://www.monkey.org/~dugsong/fragroute/
 COMMENT=	Intercept, modify and rewrite traffic
 
-USE_GMAKE=	yes
+USE_GNU_TOOLS+=	make
 GNU_CONFIGURE=	yes
 USE_BUILDLINK2=	yes
 

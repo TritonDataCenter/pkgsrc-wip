@@ -12,7 +12,7 @@ COMMENT=	America Online's open-source web server
 
 DEPENDS+=	ptl>=2.1.7:../../devel/ptl2
 
-USE_GMAKE=	YES
+USE_GNU_TOOLS+=	make
 WRKSRC=		${WRKDIR}/${PKGNAME}
 MAKE_FLAGS=	NSHOME=${WRKSRC}
 

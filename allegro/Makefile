@@ -10,7 +10,7 @@ HOMEPAGE=	http://alleg.sourceforge.net/
 COMMENT=	Allegro game programming library
 
 USE_BUILDLINK2=	YES
-USE_GMAKE=	YES
+USE_GNU_TOOLS+=	make
 USE_X11=	YES
 GNU_CONFIGURE=	YES
 

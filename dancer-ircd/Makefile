@@ -12,7 +12,7 @@ COMMENT=	Irc daemon based on hybrid ircd
 
 USE_BUILDLINK2=	YES
 GNU_CONFIGURE=	YES
-USE_GMAKE=	YES
+USE_GNU_TOOLS+=	make
 USE_PKGINSTALL=	YES
 
 CONFIGURE_ARGS+=	--with-config=dist

@@ -15,7 +15,7 @@ ONLY_FOR_PLATFORM=     Linux-*-*
 USE_BUILDLINK2=		yes
 USE_LIBTOOL=		yes
 GNU_CONFIGURE=		yes
-USE_GMAKE=		yes
+USE_GNU_TOOLS+=		make
 
 LIBTOOL_OVERRIDE=       ${WRKSRC}/libtool
 
