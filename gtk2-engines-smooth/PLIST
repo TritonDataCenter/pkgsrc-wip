@@ -1,0 +1,7 @@
+@comment $NetBSD$
+lib/gtk-2.0/2.2.0/engines/libsmooth.so
+lib/gtk-2.0/2.2.0/engines/libsmooth.la
+lib/gtk-2.0/2.2.0/engines/libsmooth.a
+share/themes/Smooth-Winter/gtk-2.0/gtkrc
+@dirrm share/themes/Smooth-Winter/gtk-2.0
+@dirrm share/themes/Smooth-Winrer
