@@ -6,10 +6,10 @@
 # ugly interactive "Install" script does).
 
 DISTNAME=		mixmaster-2.9.0
-CATEGORIES=		wip security mail
+CATEGORIES=		security mail
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=mixmaster/}
 
-MAINTAINER=		tv@pobox.com
+MAINTAINER=		tv@duh.org
 HOMEPAGE=		http://mixmaster.sourceforge.net/
 COMMENT=		The Mixmaster anonymous remailer client
 

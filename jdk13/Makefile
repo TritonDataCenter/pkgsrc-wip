@@ -16,7 +16,7 @@ MASTER_SITES=	# empty
 EXTRACT_SUFX=	.tar.gz # must be explicitly specified for the ".if exists" below
 DISTFILES=	${SCSL_DF} ${PATCH_DF}
 
-MAINTAINER=	tv@pobox.com
+MAINTAINER=	tv@duh.org
 HOMEPAGE=	http://www.eyesbeyond.com/freebsddom/java/
 COMMENT=	Sun's Java(tm) 2 SDK (SCSL+FreeBSDdom 1.3 release)
 

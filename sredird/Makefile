@@ -5,7 +5,7 @@ DISTNAME=		sredird-2.0.0
 CATEGORIES=		sysutils
 MASTER_SITES=		http://www.pcmicro.com/sredird/
 
-MAINTAINER=		tv@pobox.com
+MAINTAINER=		tv@duh.org
 HOMEPAGE=		http://www.pcmicro.com/sredird/
 COMMENT=		RFC2217 compliant serial port redirector
 

@@ -6,7 +6,7 @@ PKGNAME=		p5-${DISTNAME}
 CATEGORIES=		devel perl5
 MASTER_SITES=		${MASTER_SITE_PERL_CPAN:=Class/}
 
-MAINTAINER=		tv@pobox.com
+MAINTAINER=		tv@duh.org
 HOMEPAGE=		http://search.cpan.org/dist/Class-MethodMaker/
 COMMENT=		Getter/setter OO method maker for class elements
 
