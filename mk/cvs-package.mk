@@ -17,9 +17,9 @@
 _PKG_MK_CVS_PACKAGE_MK=	# defined
 
 # commonly used repositories
-CVS_REPOSITORY_GNU=	:ext:anoncvs@cvs.gnu.org:/cvsroot/
+CVS_REPOSITORY_GNU=	:ext:anoncvs@cvs.gnu.org:/cvsroot
 CVS_REPOSITORY_NONGNU=	${CVS_REPOSITORY_GNU}
-CVS_REPOSITORY_SOURCEFORGE= :pserver:anonymous:@cvs.sourceforge.net:/cvsroot/
+CVS_REPOSITORY_SOURCEFORGE= :pserver:anonymous:@cvs.sourceforge.net:/cvsroot
 
 # default values (internal)
 _CVS_RSH=		ssh
