@@ -1,9 +1,9 @@
 # $NetBSD$
 
-DISTNAME=	Unreal3.2.2
-PKGNAME=	unrealircd-3.2.2
+DISTNAME=	Unreal3.2.2b
+PKGNAME=	unrealircd-3.2.2b
 CATEGORIES=	chat
-MASTER_SITES=	http://www.tiefighter.org/~unreal/downloads/
+MASTER_SITES=	http://unreal.atlanti-ka.org/
 
 MAINTAINER=	adrianp@NetBSD.org
 HOMEPAGE= 	http://www.unrealircd.com/
