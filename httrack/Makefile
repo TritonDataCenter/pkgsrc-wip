@@ -7,7 +7,7 @@ CATEGORIES=	www
 MASTER_SITES=	http://www.httrack.com/ \
 		http://httrack.free.fr/mirror/
 
-MAINTAINER=	jrp@hispabsd.org
+MAINTAINER=	packages@netbsd.org
 HOMEPAGE=	http://www.httrack.com/
 COMMENT=	Easy-to-use offline browser utility
 

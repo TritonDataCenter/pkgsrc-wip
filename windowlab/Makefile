@@ -6,7 +6,7 @@ CATEGORIES=	wm
 MASTER_SITES=	http://www.nickgravgaard.com/windowlab/
 EXTRACT_SUFX=	.tar
 
-MAINTAINER=	jrp@hispabsd.org
+MAINTAINER=	packages@netbsd.org
 HOMEPAGE=	http://www.nickgravgaard.com/windowlab/
 COMMENT=	Small and simple window manager
 

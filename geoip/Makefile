@@ -6,7 +6,7 @@ PKGNAME=	${DISTNAME:S/GeoIP/geoip/}
 CATEGORIES=	net
 MASTER_SITES=	http://www.maxmind.com/download/geoip/api/c/
 
-MAINTAINER=	jrp@hispabsd.org
+MAINTAINER=	packages@netbsd.org
 HOMEPAGE=	http://www.maxmind.com/download/geoip/api/c/
 COMMENT=	Find the country from any IP address
 
