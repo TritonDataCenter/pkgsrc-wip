@@ -1,0 +1,8 @@
+@comment $NetBSD$
+bin/airsnort
+bin/decrypt
+bin/gencases
+bin/orinoco_hopper
+man/man1/airsnort.1
+man/man1/decrypt.1
+man/man1/gencases.1

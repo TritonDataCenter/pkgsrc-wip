@@ -1,0 +1,18 @@
+# $NetBSD$
+#
+
+DISTNAME=		wireless_tools.27
+PKGNAME=		wireless-tools-27
+CATEGORIES=		wip net linux
+MASTER_SITES=		http://pcmcia-cs.sourceforge.net/ftp/contrib/
+
+MAINTAINER=		pancake@phreaker.net
+HOMEPAGE=		http://pcmcia-cs.sourceforge.net/ftp/contrib/
+COMMENT=		Tools for manipulating Linux Wireless Extensions
+
+USE_BUILDLINK3=		yes
+
+ONLY_FOR_PLATFORM= Linux-*-*
+USE_GNU_TOOLS+= make
+
+.include "../../mk/bsd.pkg.mk"
