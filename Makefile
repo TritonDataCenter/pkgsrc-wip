@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.1004 2004/02/21 21:03:09 tomhensel Exp $
+# $Id: Makefile,v 1.1005 2004/02/21 23:24:31 bjan2 Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -671,6 +671,7 @@ SUBDIR+=	unrealtournament-server
 SUBDIR+=	util-linux
 SUBDIR+=	vcdgear
 SUBDIR+=	viewcvs
+SUBDIR+=	viewer
 SUBDIR+=	vixie-cron
 SUBDIR+=	vlc
 SUBDIR+=	vls
