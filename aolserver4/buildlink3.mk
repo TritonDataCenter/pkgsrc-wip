@@ -11,7 +11,7 @@ BUILDLINK_PACKAGES:=	${BUILDLINK_PACKAGES:Naolserver4}
 BUILDLINK_PACKAGES+=	aolserver4
 
 .if !empty(AOLSERVER4_BUILDLINK3_MK:M+)
-BUILDLINK_DEPENDS.aolserver4+=		aolserver>=4.01
+BUILDLINK_DEPENDS.aolserver4+=		aolserver>=4.0.7
 BUILDLINK_PKGSRCDIR.aolserver4?=	../../wip/aolserver4
 
 .endif	# AOLSERVER4_BUILDLINK3_MK
