@@ -10,9 +10,8 @@ COMMENT=        GNAT GDB : An Ada 95 Debugger
 
 GDB_SUBPREFIX=	gdbada
 GDB_PREFIX=	${PREFIX}/${GDB_SUBPREFIX}
-#USE_GCC3=		YES
 GNU_CONFIGURE=          YES
-USE_BUILDLINK2=         YES
+USE_BUILDLINK3=         YES
 USE_PKGLOCALEDIR=       YES
 USE_PKGINSTALL=		YES
 USE_GNU_TOOLS+=		make
@@ -77,7 +76,6 @@ do-extract:
 	cd ${DISTDIR}/${DIST_SUBDIR}/gdb-5.3 ; ${PAX} -pe -rwt . ${WRKSRC}
 
 .include "../../mk/bsd.prefs.mk"
-.include "../../mk/pthread.buildlink2.mk"
-.include "../../devel/libtool/buildlink2.mk"
-.include "../../devel/gettext-lib/buildlink2.mk"
+.include "../../mk/pthread.buildlink3.mk"
+.include "../../devel/gettext-lib/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
