@@ -8,7 +8,7 @@ EXTRACT_SUFX=		.tar.bz2
 
 MAINTAINER=		xtraeme@NetBSD.org
 HOMEPAGE=		http://freedesktop.org/
-COMMENT=		Xfixes extension of X RandR		
+COMMENT=		Xfixes extension of X RandR
 
 USE_BUILDLINK2=		yes
 USE_LIBTOOL=		yes
