@@ -1,5 +1,5 @@
 @comment $NetBSD$
-include/cairo-xlib.h
+include/cairo-features.h
 include/cairo.h
 lib/libcairo.a
 lib/libcairo.la
