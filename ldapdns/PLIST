@@ -1,0 +1,9 @@
+@comment $NetBSD$
+sbin/${PKGNAME}-dg
+sbin/${PKGNAME}-hosts
+sbin/${PKGNAME}-vc
+share/doc/${PKGNAME}/INSTALL
+share/doc/${PKGNAME}/README.axfr
+share/doc/${PKGNAME}/README.charset
+share/doc/${PKGNAME}/README.generic-rr
+@dirrm share/doc/${PKGNAME}
