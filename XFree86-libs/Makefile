@@ -29,9 +29,11 @@ PLIST_SRC+=	${.CURDIR}/PLIST.DRI
 .endif
 
 post-patch:
-	${SED} -e 's,@MAKESTRS@,${X11BASE}/bin/makestrs,g' < ${WRKSRC}/config/cf/Library.tmpl \
-		> ${WRKSRC}/config/cf/Library.tmpl.tmp \
-		&& ${MV} ${WRKSRC}/config/cf/Library.tmpl.tmp ${WRKSRC}/config/cf/Library.tmpl
+	${SED} -e 's,@MAKESTRS@,${X11BASE}/bin/makestrs,g' \
+		${WRKSRC}/config/cf/Library.tmpl \
+		> ${WRKSRC}/config/cf/Library.tmpl.tmp && \
+		${MV} ${WRKSRC}/config/cf/Library.tmpl.tmp \
+		${WRKSRC}/config/cf/Library.tmpl
 
 .include "../../wip/XFree86/Makefile.common"
 .include "../../fonts/fontconfig/buildlink2.mk"
