@@ -1,4 +1,0 @@
-@comment $NetBSD$
-bin/cgdb
-share/doc/cgdb/README
-@dirrm share/doc/cgdb
