@@ -22,6 +22,12 @@ CONFIGURE_ARGS=		--with-pgsql=${PREFIX} \
 			--with-wx=${PREFIX} \
 			--with-pgsql=${PREFIX}
 
-.include "../../wip/wxGTK2/buildlink2.mk"
+.include "../../mk/bsd.prefs.mk"
+
+.if !empty(WXGTK_USE_GTK1:M[Yy][Ee][Ss])
+BROKEN=		Needs wxGTK to be compiled against GTK2 -- unset WXGTK_USE_GTK1 and reinstall wxGTK.
+.endif
+
+.include "../../x11/wxGTK/buildlink2.mk"
 .include "../../databases/postgresql-lib/buildlink2.mk"
 .include "../../mk/bsd.pkg.mk"
