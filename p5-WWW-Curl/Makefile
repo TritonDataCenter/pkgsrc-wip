@@ -7,6 +7,7 @@ CATEGORIES=	www perl5
 MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=WWW/}
 
 MAINTAINER=	imil@gcu.info
+HOMEPAGE=	http://curl.haxx.se/libcurl/perl/
 COMMENT=	Perl binding interface for curl
 
 DEPENDS+=	curl>=7.12.1:../../www/curl
