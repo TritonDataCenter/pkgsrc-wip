@@ -4,18 +4,11 @@
 
 COMMENT=	GTK-based implementation of the wxWidgets GUI library
 
-.include "../../mk/bsd.prefs.mk"
+LIBWXREGEX=	${WRKSRC}/lib/libwxregex${UNICODE}.a
 
-.if !empty(WXGTK_USE_GTK1:M[Yy][Ee][Ss])
-CONFIGURE_ARGS+=	--with-gtk
-PLIST_SUBST+=		GTKVER=
-PLIST_SUBST+=		UNICODE=
-.include "../../x11/gtk/buildlink3.mk"
-.else
-CONFIGURE_ARGS+=	--enable-gtk2 --enable-unicode
-PLIST_SUBST+=		GTKVER=2
-PLIST_SUBST+=		UNICODE=u
-.include "../../x11/gtk2/buildlink3.mk"
+post-install:
+.if exists(${LIBWXREGEX})
+	${INSTALL_DATA} ${LIBWXREGEX} ${PREFIX}/lib
 .endif
 
 .include "../../devel/SDL/buildlink3.mk"

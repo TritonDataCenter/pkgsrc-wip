@@ -405,6 +405,7 @@ lib/libwx_gtk${GTKVER}${UNICODE}_adv-2.5.so
 lib/libwx_gtk${GTKVER}${UNICODE}_core-2.5.so
 lib/libwx_gtk${GTKVER}${UNICODE}_gl-2.5.so
 lib/libwx_gtk${GTKVER}${UNICODE}_html-2.5.so
+${WXREGEX}lib/libwxregex${UNICODE}.a
 lib/wx/include/gtk${GTKVER}${UNICODE}-2.5/wx/setup.h
 share/aclocal/wxwin.m4
 ${PKGLOCALEDIR}/locale/ca/LC_MESSAGES/wxstd.mo
