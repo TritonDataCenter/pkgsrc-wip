@@ -17,6 +17,7 @@ PKGCONFIG_OVERRIDE+=	${WRKSRC}/xv.pc.in
 GNU_CONFIGURE=		yes
 USE_GMAKE=		yes
 
+.include "../../wip/libXau/buildlink2.mk"
 .include "../../wip/libX11/buildlink2.mk"
 .include "../../wip/xextensions/buildlink2.mk"
 .include "../../wip/xproto/buildlink2.mk"

@@ -4,5 +4,5 @@ lib/libXv.a
 lib/libXv.la
 lib/libXv.so
 lib/libXv.so.2
-lib/libXv.so.2.2.1
+lib/libXv.so.2.2
 lib/pkgconfig/xv.pc
