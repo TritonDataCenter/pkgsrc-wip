@@ -14,14 +14,6 @@ USE_BUILDLINK3=		YES
 NO_CONFIGURE=		YES
 NO_BUILD=		YES
 
-SUBST_CLASSES=		fix
-SUBST_STAGE.fix=	post-patch
-SUBST_FILES.fix=	amsn
-SUBST_SED.fix=		-e 's!@@PREFIX@@!${PREFIX}!g'
-
-post-patch:
-	@${FIND} ${WRKSRC} -name \*.orig | ${XARGS} ${RM}
-
 do-install:
 	${INSTALL_DATA_DIR} ${PREFIX}/share/amsn
 	${CP} -R ${WRKSRC}/* ${PREFIX}/share/amsn
