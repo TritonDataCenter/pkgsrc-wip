@@ -1,0 +1,3 @@
+$NetBSD$
+
+- Fix conflicts with mysql4-server PLIST
