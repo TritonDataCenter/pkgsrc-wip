@@ -52,12 +52,6 @@ OWN_DIRS_PERMS+=	${VARBASE}/${_d_} ${NAGIOS_USER} ${NAGIOS_GROUP} 0775
 .endfor
 .undef _d_
 
-post-configure:
-	${SED} < ${FILESDIR}/nagios-setup.sh > ${WRKDIR}/nagios-setup.sh	\
-	-e 's:@@SH@@:${SH}:g'							\
-	-e 's:@@USER@@:${NAGIOS_USER}:g'					\
-	-e 's:@@GROUP@@:${NAGIOS_GROUP}:g'
-
 post-build:
 	cd ${WRKDIR}; uudecode ${FILESDIR}/logofullsize.gif.uu
 	cd ${WRKDIR}; uudecode ${FILESDIR}/sblogo.gif.uu
