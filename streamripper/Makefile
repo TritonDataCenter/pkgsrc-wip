@@ -5,7 +5,7 @@ DISTNAME=	streamripper-1.32
 CATEGORIES=	audio
 MASTER_SITES=	http://streamripper.sourceforge.net/files/
 
-MAINTAINER=	jrp@hispabsd.org
+MAINTAINER=	xtraeme@NetBSD.org
 HOMEPAGE=	http://streamripper.sourceforge.net/
 COMMENT=	Splits SHOUTcast stream into tracks
 

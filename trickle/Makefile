@@ -5,7 +5,7 @@ DISTNAME=	trickle-1.06
 CATEGORIES=	net
 MASTER_SITES=	http://monkey.org/~marius/trickle/
 
-MAINTAINER=	jrp@hispabsd.org
+MAINTAINER=	xtraeme@NetBSD.org
 HOMEPAGE=	http://monkey.org/~marius/trickle/
 COMMENT=	Portable lightweight userspace bandwidth shaper
 

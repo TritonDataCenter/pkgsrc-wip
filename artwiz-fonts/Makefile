@@ -7,7 +7,7 @@ CATEGORIES=	fonts
 MASTER_SITES=	http://fluxbox.org/artwiz-aleczapka/
 EXTRACT_SUFX=	.tar.bz2
 
-MAINTAINER=	jrp@hispabsd.org
+MAINTAINER=	xtraeme@NetBSD.org
 HOMEPAGE=	http://www.vastwaters.com/
 COMMENT=	Set of free fonts for X11 desktops
 

@@ -5,7 +5,7 @@ DISTNAME=	cgdb-0.3.2
 CATEGORIES=	devel
 MASTER_SITES=	http://66.35.250.221:80/sourceforge/cgdb/
 
-MAINTAINER=	jrp@hispabsd.org
+MAINTAINER=	xtraeme@NetBSD.org
 HOMEPAGE=	http://cgdb.sourceforge/
 COMMENT=	Curses-based interface to the GNU Debugger (GDB)
 

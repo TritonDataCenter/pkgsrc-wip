@@ -6,7 +6,7 @@ PKGNAME=	${DISTNAME:S/es_/es-/}
 CATEGORIES=	misc gnome2
 MASTER_SITES=	http://loban.caltech.edu/stickynotes/packages/
 
-MAINTAINER=	jrp@hispabsd.org
+MAINTAINER=	xtraeme@NetBSD.org
 HOMEPAGE=	http://loban.caltech.edu/stickynotes/
 COMMENT=	Applet that adds sticky notes to your desktop
 

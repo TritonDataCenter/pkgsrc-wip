@@ -6,7 +6,7 @@ PKGNAME=	${DISTNAME:S/DFBP/dfbp/}
 CATEGORIES=	graphics
 MASTER_SITES=	http://www.directfb.org/download/DFBPoint/
 
-MAINTAINER=	jrp@hispabsd.org
+MAINTAINER=	xtraeme@NetBSD.org
 HOMEPAGE=	http://www.directfb.org/
 COMMENT=	Simple presentation viewer that uses the DirectFB
 

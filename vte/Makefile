@@ -6,7 +6,7 @@ CATEGORIES=	wip
 MASTER_SITES=	${MASTER_SITE_GNOME:=sources/vte/0.10/}
 EXTRACT_SUFX=	.tar.bz2
 
-MAINTAINER=	jrp@hispabsd.org
+MAINTAINER=	xtraeme@NetBSD.org
 HOMEPAGE=	http://www.gnome.org/
 COMMENT=	Terminal widget with improved accessibility and I18N support
 

@@ -5,7 +5,7 @@ DISTNAME=	raptor-0.9.12
 CATEGORIES=	textproc
 MASTER_SITES=	http://www.redland.opensource.ac.uk/dist/source/
 
-MAINTAINER=	jrp@hispabsd.org
+MAINTAINER=	xtraeme@NetBSD.org
 HOMEPAGE=	http://www.redland.opensource.ac.uk/raptor/
 COMMENT=	RDF Parser Toolkit written in C
 

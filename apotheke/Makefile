@@ -5,7 +5,7 @@ DISTNAME=	apotheke-0.2
 CATEGORIES=	sysutils
 MASTER_SITES=	ftp://ftp.berlios.de/pub/apotheke/
 
-MAINTAINER=	jrp@hispabsd.org
+MAINTAINER=	xtraeme@NetBSD.org
 HOMEPAGE=	http://apotheke.berlios.de/
 COMMENT=	CVS view for Nautilus
 

@@ -5,7 +5,7 @@ DISTNAME=		3ddesktop-0.2.5
 CATEGORIES=		wm
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=desk3d/}
 
-MAINTAINER=		jrp@hispabsd.org
+MAINTAINER=		xtraeme@NetBSD.org
 HOMEPAGE=		http://desk3d.sourceforge.net/
 COMMENT=		3D Virtual Desktop Switcher
 

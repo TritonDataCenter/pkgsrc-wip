@@ -6,7 +6,7 @@ PKGNAME=	${DISTNAME:S/DFBS/dfbs/}
 CATEGORIES=	graphics
 MASTER_SITES=	http://www.directfb.org/download/DFBSee/
 
-MAINTAINER=	jrp@hispabsd.org
+MAINTAINER=	xtraeme@NetBSD.org
 HOMEPAGE=	http://www.directfb.org/download/DFBSee/
 COMMENT=	Image viewer for DirectFB
 

@@ -5,7 +5,7 @@ DISTNAME=	xpad-1.10.1
 CATEGORIES=	wip
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=xpad/}
 
-MAINTAINER=	jrp@hispabsd.org
+MAINTAINER=	xtraeme@NetBSD.org
 HOMEPAGE=	http://xpad.sourceforge.net/
 COMMENT=	Sticky note application in GTK 2
 

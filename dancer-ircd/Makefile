@@ -6,7 +6,7 @@ PKGNAME=	${DISTNAME:S/+maint8-fn6/m8/}
 CATEGORIES=	chat
 MASTER_SITES=	http://freenode.net/
 
-MAINTAINER=	jrp@hispabsd.org
+MAINTAINER=	xtraeme@NetBSD.org
 HOMEPAGE=	http://freenode.net/dancer_ircd.shtml
 COMMENT=	Irc daemon based on hybrid ircd
 

@@ -5,7 +5,7 @@ DISTNAME=	foobillard-2.8
 CATEGORIES=	games
 MASTER_SITES=	http://foobillard.sunsite.dk/dnl/
 
-MAINTAINER=	jrp@hispabsd.org
+MAINTAINER=	xtraeme@NetBSD.org
 HOMEPAGE=	http://foobillard.sunsite.dk/
 COMMENT=	Free OpenGL-billard game
 

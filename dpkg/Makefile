@@ -7,7 +7,7 @@ WRKSRC=		${WRKDIR}/${PKGNAME}
 CATEGORIES=	misc
 MASTER_SITES=	${MASTER_SITE_DEBIAN:=pool/main/d/dpkg/}
 
-MAINTAINER=	jrp@hispabsd.org
+MAINTAINER=	xtraeme@NetBSD.org
 HOMEPAGE=	http://packages.debian.org/stable/base/dpkg.html
 COMMENT=	Package maintenance system for Debian
 

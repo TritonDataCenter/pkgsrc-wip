@@ -5,7 +5,7 @@ DISTNAME=	pixieplus-0.5.4
 CATEGORIES=	graphics
 MASTER_SITES=	http://www.mosfet.org/pixie/
 
-MAINTAINER=	jrp@hispabsd.org
+MAINTAINER=	xtraeme@NetBSD.org
 HOMEPAGE=	http://www.mosfet.org/pixie/
 COMMENT=	Free, fast, and feature packed image browse for KDE
 

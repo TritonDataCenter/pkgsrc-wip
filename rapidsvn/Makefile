@@ -5,7 +5,7 @@ DISTNAME=	rapidsvn-0.1.3
 CATEGORIES=	devel
 MASTER_SITES=	http://rapidsvn.tigris.org/files/documents/341/5143/
 
-MAINTAINER=	jrp@hispabsd.org
+MAINTAINER=	xtraeme@NetBSD.org
 HOMEPAGE=	http://rapidsvn.tigris.org/
 COMMENT=	Cross-platform GUI front-end for the Subversion
 

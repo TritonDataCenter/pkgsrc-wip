@@ -5,7 +5,7 @@ DISTNAME=		gtranslator-0.99
 CATEGORIES=		devel
 MASTER_SITES=		http://www.gtranslator.org/download/releases/0.99/
 
-MAINTAINER=		jrp@hispabsd.org
+MAINTAINER=		xtraeme@NetBSD.org
 HOMEPAGE=		http://www.gtranslator.org/
 COMMENT=		Gettext po file editor for the GNOME desktop environment
 

@@ -5,7 +5,7 @@ DISTNAME=	grip-3.0.7
 CATEGORIES=	audio
 MASTER_SITES=	http://www.nostatic.org/grip/
 
-MAINTAINER=	jrp@hispabsd.org
+MAINTAINER=	xtraeme@NetBSD.org
 HOMEPAGE=	http://www.nostatic.org/grip/
 COMMENT=	CD-player and CD-ripper for the GNOME desktop
 

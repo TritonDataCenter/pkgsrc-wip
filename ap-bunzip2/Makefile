@@ -8,7 +8,7 @@ CATEGORIES=	www
 MASTER_SITES=	http://www.oldach.net/
 EXTRACT_SUFX=	.tar.bz2
 
-MAINTAINER=	jrp@hispabsd.org
+MAINTAINER=	xtraeme@NetBSD.org
 HOMEPAGE=	http://www.oldach.net/
 COMMENT=	Apache module for server-side decompression of bzip2 files
 

@@ -5,7 +5,7 @@ DISTNAME=	poedit-1.2.2
 CATEGORIES=	editors
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=poedit/}
 
-MAINTAINER=	jrp@hispabsd.org
+MAINTAINER=	xtraeme@NetBSD.org
 HOMEPAGE=	http://poedit.sourceforge.net/
 COMMENT=	Cross-platform gettext catalogs (.po files) editor
 

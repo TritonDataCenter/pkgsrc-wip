@@ -5,7 +5,7 @@ CATEGORIES=	meta-pkgs x11 gnome2
 MASTER_SITES=	# empty
 DISTFILES=	# empty
 
-MAINTAINER=	jrp@hispabsd.org
+MAINTAINER=	xtraeme@NetBSD.org
 HOMEPAGE=	http://www.gnome.org/
 COMMENT=	Meta-package with extras for GNOME2
 

@@ -7,7 +7,7 @@ CATEGORIES=	sysutils gnome2
 MASTER_SITES=	${MASTER_SITE_GNOME:=sources/gnome-system-monitor/2.0/}
 EXTRACT_SUFX=	.tar.bz2
 
-MAINTAINER=	jrp@hispabsd.org
+MAINTAINER=	xtraeme@NetBSD.org
 HOMEPAGE=	http://www.gnome.org/
 COMMENT=	GNOME 2.0 system monitor program
 

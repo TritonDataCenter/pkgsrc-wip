@@ -7,7 +7,7 @@ CATEGORIES=		x11
 MASTER_SITES=		${MASTER_SITE_GNOME:=sources/gnome-themes/2.2/}
 EXTRACT_SUFX=		.tar.bz2
 
-MAINTAINER=		jrp@hispabsd.org
+MAINTAINER=		xtraeme@NetBSD.org
 HOMEPAGE=		http://www.gnome.org/
 COMMENT=		Collection of themes and icons for GNOME 2
 

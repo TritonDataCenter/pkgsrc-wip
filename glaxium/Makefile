@@ -6,7 +6,7 @@ PKGNAME=	${DISTNAME:S/_/-/}
 CATEGORIES=	games
 MASTER_SITES=	http://xhosxe.free.fr/glaxium/
 
-MAINTAINER=	jrp@hispabsd.org
+MAINTAINER=	xtraeme@NetBSD.org
 HOMEPAGE=	http://xhosxe.free.fr/glaxium/
 COMMENT=	Space-ship OpenGL shoot them up
 

@@ -6,7 +6,7 @@ PKGNAME=		${DISTNAME:S/-/d-/}
 CATEGORIES=		net
 MASTER_SITES=		http://jabberd.jabberstudio.org/downloads/
 
-MAINTAINER=		jrp@hispabsd.org
+MAINTAINER=		xtraeme@NetBSD.org
 HOMEPAGE=		http://jabberd.jabberstudio.org/downloads/
 COMMENT=		Instant messaging server
 

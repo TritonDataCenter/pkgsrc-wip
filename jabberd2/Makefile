@@ -6,7 +6,7 @@ PKGNAME=		${DISTNAME:S/d-2.0.0-a/d2-2.0rc/}
 CATEGORIES=		chat
 MASTER_SITES=		http://www.jabberstudio.org/files/jabberd2/
 
-MAINTAINER=		jrp@hispabsd.org
+MAINTAINER=		xtraeme@NetBSD.org
 HOMEPAGE=		http://www.jabberstudio.org/
 COMMENT=		Instant messaging server ( version 2 )
 
