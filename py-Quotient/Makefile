@@ -16,6 +16,7 @@ PYDISTUTILSPKG=		yes
 
 
 DEPENDS+=		${PYPKGPREFIX}-Twisted>=1.1.0:../../wip/py-twisted
+DEPENDS+=		${PYPKGPREFIX}-spambayes>=1.0a7:../../wip/py-spambayes
 
 # TODO: propably some more OS could need py-bsddb3
 .include "../../mk/bsd.prefs.mk"
