@@ -17,9 +17,12 @@ USE_GMAKE=		YES
 USE_LIBTOOL=		YES
 LIBTOOL_OVERRIDE=	${WRKSRC}/libtool
 
+.include "../../net/ORBit2/buildlink2.mk"
 .include "../../devel/libbonobo/buildlink2.mk"
 .include "../../devel/libbonoboui/buildlink2.mk"
+.include "../../devel/libglade2/buildlink2.mk"
 .include "../../devel/libgnomeui/buildlink2.mk"
+.include "../../devel/pkgconfig/buildlink2.mk"
 .include "../../textproc/aspell/buildlink2.mk"
 .include "../../x11/gtk2/buildlink2.mk"
 .include "../../mk/bsd.pkg.mk"
