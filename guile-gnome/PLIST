@@ -153,7 +153,6 @@ share/guile-gnome-0/gnome/overrides/ui.defs-type-ignores
 share/guile-gnome-0/gnome/pango.scm
 share/guile-gnome-0/gnome/vfs.scm
 share/guile/site/gnome-0.scm
-@dirrm share/guile/site
 @exec ${MKDIR} %D/share/guile-gnome-platform/examples/gnome-vfs
 @dirrm share/guile-gnome-platform/examples/gnome-vfs
 @exec ${MKDIR} %D/share/guile-gnome-platform/examples/gconf
