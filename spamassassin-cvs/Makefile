@@ -77,9 +77,9 @@ SA_SSLCERTS=		'$$LOCAL_RULES_DIR/certs'
 .endif
 
 .if !empty(SPAMASSASSIN_USE_MYSQL:M[yY][eE][sS])
-.include "../../database/p5-DBI/buildlink3.mk"
-DEPENDS+=		p5-DBI>=1.37:../../database/p5-DBI
-DEPENDS+=		p5-DBD-mysql>=2.1017:../../database/p5-DBD-mysql
+.include "../../databases/p5-DBI/buildlink3.mk"
+DEPENDS+=		p5-DBI>=1.37:../../databases/p5-DBI
+DEPENDS+=		p5-DBD-mysql>=2.1017:../../databases/p5-DBD-mysql
 .endif
 
 .if !empty(SPAMASSASSIN_USE_RAZOR:M[yY][eE][sS])
@@ -94,7 +94,9 @@ SPAMASSASSIN_NET_TESTS?=	YES
 .endif
 
 BUILD_DEFS+=		SPAMASSASSIN_USE_SSL
-BUILD_DEFS+=		SPAMASSASSIN_USE_MYSQL
+BUILD_DEFS+=            SPAMASSASSIN_USE_MYSQL
+BUILD_DEFS+=            SPAMASSASSIN_USE_RAZOR
+BUILD_DEFS+=            SPAMASSASSIN_USE_PYZOR
 BUILD_DEFS+=		SPAMASSASSIN_CONTACT_ADDRESS
 BUILD_DEFS+=		SPAMASSASSIN_PERL_WARNINGS
 BUILD_DEFS+=		SPAMASSASSIN_PERL_TAINT_CHECKS
