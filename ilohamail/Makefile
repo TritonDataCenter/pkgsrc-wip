@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	IlohaMail-0.8.13
+DISTNAME=	IlohaMail-0.8.14-rc1
 PKGNAME=	${DISTNAME:S/IlohaM/iloham/}
 CATEGORIES=	www
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=ilohamail/}

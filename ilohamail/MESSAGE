@@ -4,6 +4,6 @@ $NetBSD$
 You must add an alias to your httpd.conf pointing to ilohamail directory,
 for example:
 
-Alias /webmail "${PREFIX}/share/httpd/htdocs/IlohaMail/source/index.php/"
+Alias /webmail "${PREFIX}/share/httpd/htdocs/IlohaMail/source/index.php"
 
 ===========================================================================
