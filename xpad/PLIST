@@ -1,0 +1,5 @@
+@comment $NetBSD$
+bin/xpad
+man/man1/xpad.1
+share/applications/xpad.desktop
+share/pixmaps/xpad.xpm
