@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.1087 2004/03/17 22:59:29 poppnk Exp $
+# $Id: Makefile,v 1.1088 2004/03/18 15:48:43 poppnk Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -251,6 +251,7 @@ SUBDIR+=	jakarta-log4j
 SUBDIR+=	java-BigDecimal
 SUBDIR+=	java-gnucrypto
 SUBDIR+=	java-gnujaxp
+SUBDIR+=	java-jep
 SUBDIR+=	java-jflex
 SUBDIR+=	java-xmlrpc
 SUBDIR+=	javascript-guide
