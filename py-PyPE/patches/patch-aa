@@ -20,12 +20,3 @@ $NetBSD$
  #--------- The two most useful links for constructing this editor... ---------
  # http://www.pyframe.com/wxdocs/stc/index.html
  # http://personalpages.tds.net/~edream/out2.htm
-@@ -60,7 +60,7 @@
-     #under an if so that I can collapse the declarations
- 
-     VERSION = "1.8.1"
--    VREQ = '2.4.2.4'
-+    VREQ = '2.4.1.2'
- 
-     import string
-     STRINGPRINTABLE = string.printable[:]
