@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	AfterStep-2.00.beta1
+DISTNAME=	AfterStep-2.00.beta3
 PKGNAME=	${DISTNAME:S/AfterStep/afterstep/:S/.beta/beta/}
 CATEGORIES=	wm
 MASTER_SITES=	ftp://ftp.afterstep.org/devel/
