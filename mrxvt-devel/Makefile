@@ -7,7 +7,7 @@ MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=materm/}
 
 MAINTAINER=	tnn@netilium.org
 HOMEPAGE=	http://materm.sourceforge.net/
-COMMENT=	Multi-tabbed terminal emulator with Xft support
+COMMENT=	Multi-tabbed terminal emulator (development version)
 
 GNU_CONFIGURE=		YES
 USE_BUILDLINK3=		YES
