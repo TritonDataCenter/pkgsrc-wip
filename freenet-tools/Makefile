@@ -1,9 +1,8 @@
 # $NetBSD$
 #
 
-DISTNAME=		ft-0.2.13
+DISTNAME=		ft-0.2.16
 PKGNAME=		${DISTNAME:S/ft-/freenet-tools-/}
-PKGREVISION=		1
 WRKSRC=			${WRKDIR}/ft
 CATEGORIES=		security net
 MASTER_SITES=		http://entropy.stop1984.com/files/
@@ -21,7 +20,7 @@ CFLAGS+=		-DFT_BIN=\"${PREFIX}/bin\"
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/ft ${PREFIX}/bin/ft
-.for f in fcpchk fcpdel fcpget fcpgetsite fcphello fcpkey fcpput fcpputsite
+.for f in fcpchk fcpdel fcpget fcpgetsite fcphello fcpinv fcpkey fcpput fcpputsite
 	${LN} -s -f ft ${PREFIX}/bin/$f
 .endfor
 
