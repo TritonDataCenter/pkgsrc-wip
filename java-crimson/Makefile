@@ -17,6 +17,7 @@ USE_BUILDLINK3=		yes
 do-build:
 
 do-install:
+	${INSTALL_DATA_DIR} ${PREFIX}/share/classpath/
 	${INSTALL_DATA} ${WRKSRC}/crimson.jar ${PREFIX}/share/classpath/
 
 .include "../../mk/bsd.pkg.mk"
