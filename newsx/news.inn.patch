@@ -100,7 +100,7 @@ diff -u -r1.6 distinfo
 +INN_SPOOL?=	${INN_DATA_DIR}/spool
 --- /dev/null	2003-05-07 20:56:22.000000000 +0200
 +++ buildlink2.mk	2003-04-06 13:04:45.000000000 +0200
-@@ -0,0 +1,27 @@
+@@ -0,0 +1,25 @@
 +# $NetBSD$
 +#
 +# This Makefile fragment is included by packages that use inn.
@@ -120,8 +120,6 @@ diff -u -r1.6 distinfo
 +BUILDLINK_FILES.inn=          inn/lib/libinn.a
 +BUILDLINK_FILES.inn+=         inn/lib/libstorage.a
 +BUILDLINK_FILES.inn+=         include/inn/*
-+
-+.include "../../lang/perl5/buildlink2.mk"
 +
 +BUILDLINK_TARGETS+=	inn-buildlink
 +

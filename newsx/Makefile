@@ -1,8 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	newsx-1.5pre
-PKGNAME=	${DISTNAME:S/pre//}
+DISTNAME=	newsx-1.6
 CATEGORIES=	news
 MASTER_SITES=	ftp://ftp.kvaleberg.com/pub/
 
