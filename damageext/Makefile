@@ -7,8 +7,8 @@ MASTER_SITES=		http://freedesktop.org/~xlibs/dist/
 EXTRACT_SUFX=		.tar.bz2
 
 MAINTAINER=		xtraeme@NetBSD.org
-HOMEPAGE=		http://freedesktop.org/
-COMMENT=		Header and documentation files for Damage extension
+HOMEPAGE=		http://www.freedesktop.org/Software/DamageExt
+COMMENT=		X Damage extension headers and specification
 
 USE_BUILDLINK2=		yes
 GNU_CONFIGURE=		yes
