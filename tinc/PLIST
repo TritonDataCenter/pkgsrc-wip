@@ -1,0 +1,5 @@
+@comment $NetBSD$
+info/tinc.info
+man/man5/tinc.conf.5
+man/man8/tincd.8
+sbin/tincd
