@@ -14,7 +14,7 @@ USE_BUILDLINK2=		yes
 PY_PATCHPLIST=		yes
 PYDISTUTILSPKG=		yes
 
-DEPENDS+=		${PYPKGPREFIX}-fonttools>=2.0b1:../../wip/py-fonttools
+DEPENDS+=		${PYPKGPREFIX}-fonttools>=2.0b1:../../fonts/py-fonttools
 
 .include "../../lang/python/extension.mk"
 .include "../../mk/bsd.pkg.mk"
