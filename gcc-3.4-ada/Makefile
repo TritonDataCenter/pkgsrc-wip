@@ -4,7 +4,7 @@
 DISTNAME=	gcc-${GCC_VERSION}-ada
 PKGNAME=	gccAda-${GCC_VERSION}
 CATEGORIES=	lang
-MASTER_SITES=   ${MASTER_SITE_GNU:=gcc/releases/gcc-${GCC_VERSION}/}
+MASTER_SITES=   ${MASTER_SITE_GNU:=gcc/gcc-${GCC_VERSION}/}
 DISTFILES=	gcc-${GCC_VERSION}.tar.bz2
 
 MAINTAINER=	john@johnrshannon.com
