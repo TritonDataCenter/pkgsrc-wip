@@ -5,7 +5,7 @@ DISTNAME=	fluxconf-0.9.4
 CATEGORIES=	wm
 MASTER_SITES=	http://devaux.fabien.free.fr/flux/
 
-MAINTAINER=	xtraeme@NetBSD.org
+MAINTAINER=	tech-pkg@NetBSD.org
 HOMEPAGE=	http://devaux.fabien.free.fr/flux/
 COMMENT=	GTK based configuration tool for the fluxbox window manager
 

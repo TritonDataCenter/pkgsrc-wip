@@ -10,7 +10,7 @@ PATCHFILES=	ezb-1.04a-crash-fix-patch
 PATCH_DIST_STRIP=	-p1
 PATCH_SITES=	${MASTER_SITES}
 
-MAINTAINER=	xtraeme@NetBSD.org
+MAINTAINER=	tech-pkg@NetBSD.org
 HOMEPAGE=	http://druglord.freelsd.org/ezbounce/
 COMMENT=	Highly Configurable IRC Proxy
 

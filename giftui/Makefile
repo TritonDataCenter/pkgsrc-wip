@@ -6,7 +6,7 @@ PKGNAME=	${DISTNAME:S/FT/ft/}
 CATEGORIES=	net
 MASTER_SITES=	http://giftui.tuxfamily.org/downloads/sources/
 
-MAINTAINER=	xtraeme@NetBSD.org
+MAINTAINER=	tech-pkg@NetBSD.org
 HOMEPAGE=	http://giftui.tuxfamily.org/
 COMMENT=	Graphical user interface to giFT using GTK+2
 

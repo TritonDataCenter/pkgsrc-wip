@@ -6,7 +6,7 @@ CATEGORIES=	x11
 MASTER_SITES=	http://matchbox.handhelds.org/sources/matchbox-desktop/0.8/
 EXTRACT_SUFX=	.tar.bz2
 
-MAINTAINER=	xtraeme@NetBSD.org
+MAINTAINER=	tech-pkg@NetBSD.org
 HOMEPAGE=	http://matchbox.handhelds.org/sources/matchbox-desktop/0.8/
 COMMENT=	Desktop manager for Matchbox window manager		
 

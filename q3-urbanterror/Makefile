@@ -13,7 +13,7 @@ MASTER_SITES=	ftp://mirror.candidhosting.com/pub/ut/ \
 		http://atrivo.wofut.com/~zac/
 EXTRACT_SUFX=	.zip
 
-MAINTAINER=	xtraeme@NetBSD.org
+MAINTAINER=	tech-pkg@NetBSD.org
 HOMEPAGE=	http://www.urbanterror.net/
 COMMENT=	Quake III Arena Mod: Urban Terror for Linux
 

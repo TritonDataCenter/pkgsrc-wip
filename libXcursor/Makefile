@@ -6,7 +6,7 @@ CATEGORIES=		x11 devel
 MASTER_SITES=		http://freedesktop.org/~xlibs/dist/
 EXTRACT_SUFX=		.tar.bz2
 
-MAINTAINER=		xtraeme@NetBSD.org
+MAINTAINER=		tech-pkg@NetBSD.org
 HOMEPAGE=		http://www.freedesktop.org/Software/xlibs
 COMMENT=		Client-side cursor loading library for X
 

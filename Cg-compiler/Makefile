@@ -6,7 +6,7 @@ PKGNAME=	Cg-compiler-${DIST_VER}
 CATEGORIES=	lang
 MASTER_SITES=	ftp://download.nvidia.com/developer/cg/Cg_1.2/Linux/
 
-MAINTAINER=	xtraeme@NetBSD.org
+MAINTAINER=	tech-pkg@NetBSD.org
 HOMEPAGE=	http://developer.nvidia.com/object/cg_toolkit.html
 COMMENT=	NVIDIA Cg Compiler for Linux
 

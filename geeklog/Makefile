@@ -6,7 +6,7 @@ PKGNAME=	geeklog-1.3.7
 CATEGORIES=	www
 MASTER_SITES=	http://www.geeklog.net/filemgmt/upload_dir/
 
-MAINTAINER=	xtraeme@NetBSD.org
+MAINTAINER=	tech-pkg@NetBSD.org
 HOMEPAGE=	http://www.geeklog.net/
 COMMENT=	Web content management
 

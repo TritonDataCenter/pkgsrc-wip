@@ -5,7 +5,7 @@ DISTNAME=	tkabber-0.9.5beta
 CATEGORIES=	chat
 MASTER_SITES=	http://www.jabberstudio.org/files/tkabber/
 
-MAINTAINER=	xtraeme@NetBSD.org
+MAINTAINER=	tech-pkg@NetBSD.org
 HOMEPAGE=	http://tkabber.jabber.ru/en/
 COMMENT=	Free and Open Source TCL/TK jabber client
 

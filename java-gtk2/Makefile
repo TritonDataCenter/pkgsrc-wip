@@ -6,7 +6,7 @@ PKGNAME=	${DISTNAME:S/gtk/gtk2/}
 CATEGORIES=	devel
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=java-gnome/}
 
-MAINTAINER=	xtraeme@NetBSD.org
+MAINTAINER=	tech-pkg@NetBSD.org
 HOMEPAGE=	http://java-gnome.sourceforge.net/
 COMMENT=	JAVA Bindings for GTK+2
 

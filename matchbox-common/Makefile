@@ -6,7 +6,7 @@ CATEGORIES=	wm
 MASTER_SITES=	http://matchbox.handhelds.org/sources/matchbox-common/0.8/
 EXTRACT_SUFX=	.tar.bz2
 
-MAINTAINER=	xtraeme@NetBSD.org
+MAINTAINER=	tech-pkg@NetBSD.org
 HOMEPAGE=	http://matchbox.handhelds.org/sources/matchbox-common/0.8/
 COMMENT=	Pixmaps for the Matchbox window manager
 

@@ -7,7 +7,7 @@ CATEGORIES=	audio
 MASTER_SITES=	http://www.ladspa.org/download/
 EXTRACT_SUFX=	.tgz
 
-MAINTAINER=	xtraeme@NetBSD.org
+MAINTAINER=	tech-pkg@NetBSD.org
 HOMEPAGE=	http://www.ladspa.org/
 COMMENT=	Linux Audio Developers Simple Plugin API
 

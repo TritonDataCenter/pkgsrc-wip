@@ -6,7 +6,7 @@ WRKSRC=         ${WRKDIR}/mod-xslt
 CATEGORIES=	www
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=mod-xslt/}
 
-MAINTAINER=	xtraeme@NetBSD.org
+MAINTAINER=	tech-pkg@NetBSD.org
 HOMEPAGE=	http://www.mod-xslt.com/mod-xslt/
 COMMENT=	Apache2 module which transforms XML documents using XSL
 

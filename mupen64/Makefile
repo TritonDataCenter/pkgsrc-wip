@@ -7,7 +7,7 @@ CATEGORIES=	meta-pkgs x11
 MASTER_SITES=	# empty
 DISTFILES=	# empty
 
-MAINTAINER=	xtraeme@NetBSD.org
+MAINTAINER=	tech-pkg@NetBSD.org
 HOMEPAGE=	http://www.xfree86.org/
 COMMENT=	XFree86 meta-package
 

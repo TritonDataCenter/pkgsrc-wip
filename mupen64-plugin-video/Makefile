@@ -7,7 +7,7 @@ CATEGORIES=	emulators
 MASTER_SITES=	http://mupen64.emulation64.com/files/src/
 EXTRACT_SUFX=	.tar.bz2
 
-MAINTAINER=	xtraeme@NetBSD.org
+MAINTAINER=	tech-pkg@NetBSD.org
 HOMEPAGE=	http://mupen64.emulation64.com/
 COMMENT=	OpenGL Video plugin for mupen64 emulator
 

@@ -5,7 +5,7 @@ DISTNAME=	fsv-0.9
 CATEGORIES=	sysutils
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=fsv/}
 
-MAINTAINER=	xtraeme@NetBSD.org
+MAINTAINER=	tech-pkg@NetBSD.org
 HOMEPAGE=	http://fsv.sourceforge.net/
 COMMENT=	3D filesystem visualizer
 

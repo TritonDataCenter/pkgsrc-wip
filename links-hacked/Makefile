@@ -7,7 +7,7 @@ MASTER_SITES=	http://xray.sai.msu.ru/~karpov/links-hacked/downloads/
 EXTRACT_SUFX=	.tgz
 DISTFILES+=     ${DISTNAME}${EXTRACT_SUFX} links-fonts-new${EXTRACT_SUFX}
 
-MAINTAINER=	xtraeme@NetBSD.org
+MAINTAINER=	tech-pkg@NetBSD.org
 HOMEPAGE=	http://xray.sai.msu.ru/~karpov/links-hacked/
 COMMENT=        Enhanced version of Links with tabs and more
 

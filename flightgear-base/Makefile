@@ -6,7 +6,7 @@ PKGNAME=	${DISTNAME:S/fgfs/flightgear/}
 CATEGORIES=	games
 MASTER_SITES=	ftp://ftp.flightgear.org/pub/fgfs/Shared/
 
-MAINTAINER=	xtraeme@NetBSD.org
+MAINTAINER=	tech-pkg@NetBSD.org
 HOMEPAGE=	ftp://ftp.flightgear.org/pub/fgfs/Shared/
 COMMENT=	FlightGear Simulator (data files)
 

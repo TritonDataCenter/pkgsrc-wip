@@ -5,7 +5,7 @@ DISTNAME=	howl-0.9.4
 CATEGORIES=	net
 MASTER_SITES=	http://www.porchdogsoft.com/download/
 
-MAINTAINER=	xtraeme@NetBSD.org
+MAINTAINER=	tech-pkg@NetBSD.org
 HOMEPAGE=	http://www.porchdogsoft.com/download/
 COMMENT=	Cross-platform implementation of the Zeroconf
 

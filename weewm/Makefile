@@ -6,7 +6,7 @@ WRKSRC=         ${WRKDIR}/weewm
 CATEGORIES=	wm
 MASTER_SITES=	http://www.weewm.org/download/
 
-MAINTAINER=	xtraeme@NetBSD.org
+MAINTAINER=	tech-pkg@NetBSD.org
 HOMEPAGE=	http://www.weewm.org/
 COMMENT=	Fast and ultra light windowmanager with total keyboard control
 

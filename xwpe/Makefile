@@ -5,7 +5,7 @@ DISTNAME=	xwpe-1.5.29a
 CATEGORIES=	editors
 MASTER_SITES=	http://www.identicalsoftware.com/xwpe/
 
-MAINTAINER=	xtraeme@NetBSD.org
+MAINTAINER=	tech-pkg@NetBSD.org
 HOMEPAGE=	http://www.identicalsoftware.com/xwpe/
 COMMENT=	Programming environment for UNIX systems
 

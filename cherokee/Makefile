@@ -7,7 +7,7 @@ WRKSRC=		${WRKDIR}/cherokee-0.4.4
 CATEGORIES=	www
 MASTER_SITES=	ftp://alobbs.com/cherokee/
 
-MAINTAINER=	xtraeme@NetBSD.org
+MAINTAINER=	tech-pkg@NetBSD.org
 HOMEPAGE=	http://www.alobbs.com/cherokee/
 COMMENT=	Extremely fast and tiny web server
 

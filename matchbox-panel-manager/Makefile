@@ -6,7 +6,7 @@ CATEGORIES=	x11
 MASTER_SITES=	http://matchbox.handhelds.org/sources/matchbox-panel-manager/0.1/
 EXTRACT_SUFX=	.tar.bz2
 
-MAINTAINER=	xtraeme@NetBSD.org
+MAINTAINER=	tech-pkg@NetBSD.org
 HOMEPAGE=	http://matchbox.handhelds.org/sources/matchbox-panel-manager/0.1/
 COMMENT=	Manager panel for the Matchbox desktop
 
