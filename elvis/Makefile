@@ -15,7 +15,4 @@ HAS_CONFIGURE=		yes
 CONFIGURE_ARGS+=	--with-x=no --bindir=${PREFIX}/bin
 CONFIGURE_ARGS+=	--datadir=${PREFIX}/share/elvis
 
-LIBTOOL_OVERRIDE=	${WRKSRC}/libtool
-USE_LIBTOOL=		yes
-
 .include "../../mk/bsd.pkg.mk"
