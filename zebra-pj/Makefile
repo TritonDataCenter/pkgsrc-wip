@@ -4,7 +4,7 @@
 DISTNAME=	zebra-pj-20030428
 PKGREVISION=	1
 CATEGORIES=	net
-MASTER_SITES=	http://zebra.dishone.st/snapshots/pkgsrc
+MASTER_SITES=	http://zebra.dishone.st/snapshots/pkgsrc/
 
 MAINTAINER=	gdt@ir.bbn.com
 HOMEPAGE=	http://zebra.dishone.st/
