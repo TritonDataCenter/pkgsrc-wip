@@ -21,5 +21,5 @@ SUBST_STAGE.initd=pre-install
 SUBST_FILES.initd=scripts/Makefile
 SUBST_SED.initd=-e 's,install-data-local,,g'
 
-.include "../../wip/bluez-libs/buildlink3.mk"
+.include "../../wip/bluez-libs/Makefile.common"
 .include "../../mk/bsd.pkg.mk"
