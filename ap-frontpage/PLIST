@@ -1,0 +1,4 @@
+@comment $NetBSD$
+sbin/fpexec
+sbin/fpstatic
+lib/httpd/mod_frontpage.so

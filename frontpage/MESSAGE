@@ -1,0 +1,9 @@
+===========================================================================
+$NetBSD$
+
+    This port requires an Frontpage enabled Apache web server.
+
+    ../../www/ap-frontpage provides a replacement (non-Microsoft)
+    loadable module for supporting FrontPage.
+
+===========================================================================
