@@ -6,7 +6,7 @@ CATEGORIES=	security
 MASTER_SITES=	http://devel.pluto.linux.it/projects/libGringotts/current/
 EXTRACT_SUFX=	.tar.bz2
 
-MAINTAINER=	jrp@hispabsd.org
+MAINTAINER=	xtraeme@NetBSD.org
 HOMEPAGE=	http://devel.pluto.linux.it/projects/libGringotts/
 COMMENT=	Library for encapsulating data in encrypted form
 
@@ -16,6 +16,17 @@ GNU_CONFIGURE=	YES
 USE_GMAKE=	YES
 
 LIBTOOL_OVERRIDE=       ${WRKSRC}/libtool
+
+.include "../../mk/bsd.prefs.mk"
+
+.if ${OPSYS} != "Linux"
+
+pre-install:
+	@${MV} ${WRKSRC}/Makefile ${WRKSRC}/Makefile.fix
+        @${SED} -e "s|md5sum|md5|g" ${WRKSRC}/Makefile.fix > \
+		${WRKSRC}/Makefile
+
+.endif
 
 .include "../../devel/pkgconfig/buildlink2.mk"
 .include "../../security/libmcrypt/buildlink2.mk"
