@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.780 2003/12/19 23:18:35 mpasternak Exp $
+# $Id: Makefile,v 1.781 2003/12/20 01:57:32 mpasternak Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -371,6 +371,7 @@ SUBDIR+=	nautilus-cd-burner
 SUBDIR+=	nautilus-media
 SUBDIR+=	navigatrix
 SUBDIR+=	ncps
+SUBDIR+=	nehe-opengl-tutorials
 SUBDIR+=	net-tools
 SUBDIR+=	netbeans-ide
 SUBDIR+=	netkit-base
