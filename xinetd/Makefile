@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		xinetd-2.3.13
-CATEGORIES=		wip sysutils
+CATEGORIES=		sysutils
 MASTER_SITES=		http://www.xinetd.org/
 
 MAINTAINER=		pancake@phreaker.net

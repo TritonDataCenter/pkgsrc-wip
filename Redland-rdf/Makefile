@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		redland-0.9.14
-CATEGORIES=		wip
+CATEGORIES=		textproc
 MASTER_SITES=		http://www.redland.opensource.ac.uk/dist/source/
 
 MAINTAINER=		adam@monkeybyte.org

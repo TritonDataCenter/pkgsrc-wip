@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		Glide_V3-2.60-18
-CATEGORIES=		wip
+CATEGORIES=		graphics
 MASTER_SITES=		http://www.sunpoint.net/~freeworld/
 EXTRACT_SUFX=		.tar.bz2
 

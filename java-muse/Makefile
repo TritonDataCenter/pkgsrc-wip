@@ -3,7 +3,7 @@
 
 DISTNAME=		muse-0.8a5
 PKGNAME=		java-muse-0.8a5
-CATEGORIES=		wip
+CATEGORIES=		textproc
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=muse/}
 
 MAINTAINER=		pancake@phreaker.net

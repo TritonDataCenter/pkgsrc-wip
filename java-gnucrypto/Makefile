@@ -3,7 +3,7 @@
 
 DISTNAME=		gnu-crypto-2.0.1-bin
 PKGNAME=		java-gnucrypto-2.0.1
-CATEGORIES=		wip
+CATEGORIES=		security
 MASTER_SITES=		ftp://ftp.gnupg.org/GnuPG/gnu-crypto/
 EXTRACT_SUFX=		.zip
 

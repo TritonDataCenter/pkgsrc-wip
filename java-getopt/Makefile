@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		java-getopt-1.0.9
-CATEGORIES=		wip
+CATEGORIES=		devel
 MASTER_SITES=		ftp://ftp.urbanophile.com/pub/arenn/software/sources/
 EXTRACT_SUFX=		.jar
 

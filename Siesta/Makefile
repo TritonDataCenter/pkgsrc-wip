@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	Siesta-0.65
-CATEGORIES=	wip
+CATEGORIES=	mail
 MASTER_SITES=	http://siesta.unixbeard.net/releases/
 
 MAINTAINER=	pancake@phreaker.net

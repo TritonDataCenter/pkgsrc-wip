@@ -3,7 +3,7 @@
 
 DISTNAME=		jep-2.24
 PKGNAME=		java-jep-2.24
-CATEGORIES=		wip
+CATEGORIES=		math
 MASTER_SITES=		http://www.singularsys.com/download/
 
 MAINTAINER=		pancake@phreaker.net

@@ -3,7 +3,7 @@
 
 DISTNAME=		iTextXML
 PKGNAME=		iTextXML-1.02
-CATEGORIES=		wip
+CATEGORIES=		textproc
 MASTER_SITES=		http://itext.sourceforge.net/downloads/
 EXTRACT_SUFX=		.jar
 

@@ -3,7 +3,7 @@
 
 DISTNAME=		flc
 PKGNAME=		flc-0.1
-CATEGORIES=		wip
+CATEGORIES=		lang
 MASTER_SITES=		ftp://coombs.anu.edu.au/pub/net/firewall/ip-filter/
 
 MAINTAINER=		pancake@phreaker.net

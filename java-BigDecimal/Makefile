@@ -3,7 +3,7 @@
 
 DISTNAME=		decimal
 PKGNAME=		java-BigDecimal-1.0
-CATEGORIES=		wip
+CATEGORIES=		devel math
 MASTER_SITES=		http://www2.hursley.ibm.com/decimalj/
 EXTRACT_SUFX=		.zip
 

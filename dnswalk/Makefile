@@ -3,8 +3,8 @@
 
 DISTNAME=		dnswalk-2.0.2
 WRKSRC=			${WRKDIR}/
-CATEGORIES=		wip
-MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=dnswalk/}
+CATEGORIES=		net
+MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=dnswalk/}
 
 MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://dnswalk.sourceforge.net/

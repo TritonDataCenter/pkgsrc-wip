@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		goldwater-1.4.0
-CATEGORIES=		wip
+CATEGORIES=		sysutils
 MASTER_SITES=		http://www.nfluid.com/download/src/
 EXTRACT_SUFX=		.tgz
 

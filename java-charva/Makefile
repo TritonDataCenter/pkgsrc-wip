@@ -3,7 +3,7 @@
 
 DISTNAME=		charva-1.0.1
 PKG_NAME=		java-charva-1.0.1
-CATEGORIES=		wip
+CATEGORIES=		devel
 MASTER_SITES=		http://www.pitman.co.za/projects/charva/download/
 
 MAINTAINER=		pancake@phreaker.net

@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		gfontview-0.5.0
-CATEGORIES=		wip
+CATEGORIES=		print
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=gfontview/}
 
 MAINTAINER=		ccatrian@eml.cc

@@ -3,7 +3,7 @@
 
 DISTNAME=		glib-2.4.0
 PKGNAME=                ${DISTNAME:S/glib/glib2/}
-CATEGORIES=		wip
+CATEGORIES=		devel
 MASTER_SITES=		ftp://ftp.gtk.org/pub/gtk/v2.4/
 
 MAINTAINER=		dotz@irc.pl

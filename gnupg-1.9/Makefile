@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		gnupg-1.9.5
-CATEGORIES=		wip
+CATEGORIES=		security
 MASTER_SITES=		ftp://ftp.gnupg.org/gcrypt/alpha/gnupg/
 
 MAINTAINER=		john@johnrshannon.com

@@ -3,9 +3,9 @@
 
 DISTNAME=		bastard-0.17-pre
 WRKSRC=			${WRKDIR}/bastard_src-0.17
-CATEGORIES=		wip
-MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=bastard/}
-EXTRACT_SUFX=	.tgz
+CATEGORIES=		sysutils
+MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=bastard/}
+EXTRACT_SUFX=		.tgz
 
 MAINTAINER=		adam@monkeybyte.org
 HOMEPAGE=		http://bastard.sourceforge.net/

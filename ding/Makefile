@@ -1,7 +1,7 @@
 # $NetBSD: Makefile,v 1.5 2004/02/09 17:36:12 neutr1n0x Exp $
 
 DISTNAME=	ding-1.2
-CATEGORIES=	wip
+CATEGORIES=	x11
 MASTER_SITES=	ftp://ftp.tu-chemnitz.de/pub/Local/urz/ding/	\
 		ftp://ftp.tu-chemnitz.de/pub/Local/urz/ding/ger-eng/
 DISTFILES=	ding-1.2.tar.gz		\

@@ -1,7 +1,7 @@
 # $NetBSD: Makefile,v 1.17 2003/01/02 18:46:39 jlam Exp $
 
 DISTNAME=	jakarta-log4j-1.2.8
-CATEGORIES=	wip
+CATEGORIES=	www
 MASTER_SITES?=	http://jakarta.apache.org/log4j/
 
 MAINTAINER=	drue@users.sourceforge.net

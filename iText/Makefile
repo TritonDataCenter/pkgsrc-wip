@@ -3,7 +3,7 @@
 
 DISTNAME=		iText
 PKGNAME=		iText-1.02
-CATEGORIES=		wip
+CATEGORIES=		devel
 MASTER_SITES=		http://itext.sourceforge.net/downloads/
 EXTRACT_SUFX=		.jar
 

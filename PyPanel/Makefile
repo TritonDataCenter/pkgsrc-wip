@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		PyPanel-1.2
-CATEGORIES=		wip
+CATEGORIES=		x11
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=pypanel/}
 
 MAINTAINER=		ccatrian@eml.cc

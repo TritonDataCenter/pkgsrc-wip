@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		cvsreport-0.3.5
-CATEGORIES=		wip
+CATEGORIES=		sysutils
 MASTER_SITES=		http://download.gna.org/cvsreport/cvsreport.pkg/0.3.5/
 
 MAINTAINER=		pancake@phreaker.net

@@ -2,8 +2,8 @@
 #
 
 DISTNAME=		ile-0.4
-CATEGORIES=		wip
-MASTER_SITES=	http://www.jabberstudio.org/files/ile/
+CATEGORIES=		misc
+MASTER_SITES=		http://www.jabberstudio.org/files/ile/
 
 MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://www.jabberstudio.org/files/ile/

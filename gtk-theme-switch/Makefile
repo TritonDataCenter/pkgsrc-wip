@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		gtk-theme-switch-1.0.1
-CATEGORIES=		wip
+CATEGORIES=		x11
 MASTER_SITES=		http://www.muhri.net/
 
 MAINTAINER=		dotz@irc.pl
