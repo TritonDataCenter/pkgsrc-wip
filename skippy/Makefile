@@ -7,7 +7,7 @@ MASTER_SITES=		http://thegraveyard.org/files/
 EXTRACT_SUFX=		.tar.bz2
 
 MAINTAINER=		dotz@irc.pl
-HOMEPAGE=		http://thegraveyard.org/files/
+HOMEPAGE=		http://thegraveyard.org/skippy.php
 COMMENT=		Fullscreen task switcher for X11
 
 USE_BUILDLINK3=		yes
