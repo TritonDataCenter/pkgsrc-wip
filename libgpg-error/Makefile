@@ -9,9 +9,10 @@ MAINTAINER=	minskim@bawi.org
 HOMEPAGE=	http://www.gnupg.org/
 COMMENT=	Definitions of common error values for all GnuPG components
 
-USE_BUILDLINK2=	YES
-USE_LIBTOOL=	YES
-GNU_CONFIGURE=	YES
+USE_BUILDLINK2=		YES
+USE_LIBTOOL=		YES
+GNU_CONFIGURE=		YES
+USE_PKGLOCALEDIR=	YES
 
 LIBTOOL_OVERRIDE=	${WRKSRC}/libtool
 
