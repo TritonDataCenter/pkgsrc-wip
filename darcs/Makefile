@@ -2,6 +2,7 @@
 #
 
 DISTNAME=		darcs-0.9.20
+PKGREVISION=		1
 CATEGORIES=		devel
 MASTER_SITES=		http://abridgegame.org/darcs/
 
@@ -19,6 +20,11 @@ MAKEFLAGS+=		LDFLAGS=
 MAKEFLAGS+=		CPPFLAGS=
 MAKEFLAGS+=		MAKEMANUAL=${TRUE:Q}
 MAKEFILE=		${WRKSRC}/GNUmakefile
+
+post-install:
+	${INSTALL_DATA} ${WRKSRC}/AUTHORS ${PREFIX}/share/doc/${PKGBASE}/
+	${INSTALL_DATA} ${WRKSRC}/ChangeLog ${PREFIX}/share/doc/${PKGBASE}/
+	${INSTALL_DATA} ${WRKSRC}/TODO ${PREFIX}/share/doc/${PKGBASE}/
 
 .include "../../devel/libidn/buildlink3.mk"
 .include "../../devel/zlib/buildlink3.mk"
