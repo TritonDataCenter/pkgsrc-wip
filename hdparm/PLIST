@@ -1,0 +1,4 @@
+@comment $NetBSD$
+man/cat8/hdparm.8.gz
+man/man8/hdparm.8
+sbin/hdparm
