@@ -14,13 +14,13 @@ MAINTAINER=		dotz@irc.pl
 HOMEPAGE=		http://www.freenet.org.nz/python/pyPortAudio/
 COMMENT=		Python bindings for portaudio library
 
+BUILD_DEPENDS=		${PYPKGPREFIX}-pyrex>=0.8.1:../../lang/py-pyrex
+
 USE_BUILDLINK2=		yes
 PY_PATCHPLIST=		yes
 PYDISTUTILSPKG=		yes
 
 EXTRACT_CMD.zip=	${LOCALBASE}/bin/unzip -aqo $${extract_file}
-# TODO: should be added, but gives some strange errors on my setup
-BUILD_DEPENDS=		${PYPKGPREFIX}-pyrex>=0.8.1:../../lang/py-pyrex
 
 post-extract:
 	${MV} ${WRKDIR}/fastaudio/* ${WRKDIR}/portaudio_v18_1
