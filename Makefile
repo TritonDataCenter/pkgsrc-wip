@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.353 2003/07/30 21:43:11 marc Exp $
+# $Id: Makefile,v 1.354 2003/07/31 00:49:55 xtraeme Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -171,6 +171,7 @@ SUBDIR+=	libwpd
 SUBDIR+=	libxfce4gui
 SUBDIR+=	libxfce4mcs
 SUBDIR+=	libxfce4util
+SUBDIR+=	links-hacked
 SUBDIR+=	linux-modutils
 SUBDIR+=	linux-nfs-utils
 SUBDIR+=	liquidwar
