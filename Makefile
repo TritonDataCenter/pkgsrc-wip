@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.1543 2004/11/19 12:13:38 hfath Exp $
+# $Id: Makefile,v 1.1544 2004/11/19 18:58:31 jgoamakf Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -497,8 +497,10 @@ SUBDIR+=	p5-Geo-IPfree
 SUBDIR+=	p5-GnuPG-Interface
 SUBDIR+=	p5-HTML-Latex
 SUBDIR+=	p5-HTTP-GHTTP
+SUBDIR+=	p5-IO-LockedFile
 SUBDIR+=	p5-IO-Multiplex
 SUBDIR+=	p5-Log-Log4perl
+SUBDIR+=	p5-Log-LogLite
 SUBDIR+=	p5-Mail-Box
 SUBDIR+=	p5-Mail-Webmail-Gmail
 SUBDIR+=	p5-Net-PcapUtils
