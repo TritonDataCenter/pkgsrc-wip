@@ -9,9 +9,6 @@ MAINTAINER=		dprice@cs.nmsu.edu
 HOMEPAGE=		http://www.tigr.org/software
 COMMENT=		Sequence Cleanup Program
 
-USE_BUILDLINK3=		YES
-WRKSRC=			${WRKDIR}/lucy-1.18p
-
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/lucy ${PREFIX}/bin
 	${INSTALL_DATA} ${WRKSRC}/lucy.1 ${PREFIX}/man/man1
