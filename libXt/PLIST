@@ -20,5 +20,5 @@ lib/libXt.a
 lib/libXt.la
 lib/libXt.so
 lib/libXt.so.6
-lib/libXt.so.${PKGVERSION}
+lib/libXt.so.6.1
 lib/pkgconfig/xt.pc
