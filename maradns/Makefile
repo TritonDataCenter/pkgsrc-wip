@@ -13,7 +13,7 @@ USE_PKGINSTALL=	YES
 
 RCD_SCRIPTS=	maradns
 
-EGDIR=		${PREFIX}/share/examples/maradns 
+EGDIR=		${PREFIX}/share/examples/maradns
 CONF_FILES=	${EGDIR}/example_mararc ${PKG_SYSCONFDIR}/mararc
 
 post-install:
