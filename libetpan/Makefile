@@ -17,4 +17,6 @@ GNU_CONFIGURE=		yes
 
 .include "../../mk/pthread.buildlink2.mk"
 .include "../../converters/libiconv/buildlink2.mk"
+.include "../../security/openssl/buildlink2.mk"
+.include "../../databases/db4/buildlink2.mk"
 .include "../../mk/bsd.pkg.mk"

@@ -118,6 +118,10 @@ BUILDLINK_FILES.libetpan+=	include/libetpan/pop3driver_types.h
 BUILDLINK_FILES.libetpan+=	include/libetpan/pop3storage.h
 BUILDLINK_FILES.libetpan+=	lib/libetpan.*
 
+.include "../../converters/libiconv/buildlink2.mk"
+.include "../../security/openssl/buildlink2.mk"
+.include "../../databases/db4/buildlink2.mk"
+
 BUILDLINK_TARGETS+=	libetpan-buildlink
 
 libetpan-buildlink: _BUILDLINK_USE
