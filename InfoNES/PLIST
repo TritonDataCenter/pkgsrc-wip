@@ -1,0 +1,4 @@
+@comment $NetBSD$
+bin/InfoNES
+share/doc/InfoNES/keys.txt
+@dirrm share/doc/InfoNES
