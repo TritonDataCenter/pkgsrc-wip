@@ -27,7 +27,7 @@ $NetBSD$
  #define DefaultCCOptions	/**/
  #else
 -#define DefaultCCOptions	-ansi -pedantic -Dasm=__asm GccWarningOptions
-+#define DefaultCCOptions	-ansi @@PKGSRC_CFLAGS@@ -Dasm=__asm GccWarningOptions
++#define DefaultCCOptions	-ansi @@PKGSRC_CFLAGS@@ -Dasm=__asm
  #endif
  #endif
  #ifndef ExtraLibraries
