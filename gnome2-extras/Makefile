@@ -16,7 +16,7 @@ DEPENDS+=	regexxer>=0.4:../../wip/regexxer
 DEPENDS+=	stickynotes-applet>=1.2.0:../../wip/stickynotes-applet
 DEPENDS+=	zenity>=1.2:../../wip/zenity
 DEPENDS+=	gtranslator>=0.99:../../wip/gtranslator
-DEPENDS+=       tsclient>=0.104:../../wip/tsclient
+DEPENDS+=	tsclient>=0.104:../../wip/tsclient
 DEPENDS+=	gmencoder>=0.07:../../wip/gmencoder
 DEPENDS+=	gimp-current>=1.3.5:../../wip/gimp-current
 DEPENDS+=	xchat2>=2.0.1:../../chat/xchat2
