@@ -11,3 +11,19 @@ $NetBSD$
  	$(MAKE) -C ada $(FLAGS_TO_PASS) $(ADA_FLAGS_TO_PASS) \
  	  ADA_INCLUDES="-I- -I../rts"\
  	  CC="../../xgcc -B../../" STAGE_PREFIX=../../  gnattools1
+@@ -945,11 +945,14 @@ ada.stagefeedback: stagefeedback-start
+ check-ada: check-gnat
+ 
+ ACATSDIR = $(TESTSUITEDIR)/ada/acats
++ACATSOBJDIR = $(TESTSUITEDIR)/ada/acatsobj
+ 
+ check-gnat:
+ 	test -d $(ACATSDIR) || mkdir -p $(ACATSDIR)
++	test -d $(ACATSOBJDIR) || mkdir -p $(ACATSOBJDIR)
++	objdir=`cd ${srcdir}/${ACATSOBJDIR}; ${PWD_COMMAND}`; \
+ 	testdir=`cd ${srcdir}/${ACATSDIR}; ${PWD_COMMAND}`; \
+-	export testdir; cd $(ACATSDIR); $${testdir}/run_acats $(CHAPTERS)
++	export objdir; export testdir; cd $(objdir); $${testdir}/run_acats $(CHAPTERS)
+ 
+ .PHONY: check-gnat
+ 
