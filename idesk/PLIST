@@ -1,2 +1,4 @@
 @comment $NetBSD$
 bin/idesk
+share/doc/idesk/README
+@dirrm share/doc/idesk
