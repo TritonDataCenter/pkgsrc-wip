@@ -20,7 +20,7 @@ CONFIGURE_ARGS+=	--disable-network
 CONFIGURE_ARGS+=	--prefix=${PREFIX}
 CONFIGURE_ARGS+=	--with-sharepath=${PREFIX}/share/games/${PKGBASE}
 
-do-install:
+post-install:
 	${INSTALL_DATA_DIR} ${PREFIX}/share/games/${PKGBASE}
 
 .include "../../devel/SDL/buildlink2.mk"
