@@ -17,8 +17,11 @@ USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 USE_GMAKE=		yes
 
-CONFIGURE_ARGS+=	--with-existing-libgadu
+# until pkgsrc will be updated with a new of ekg, that provides 
+# shared library:
+# CONFIGURE_ARGS+=	--with-existing-libgadu
+# .include "../../chat/ekg/buildlink2.mk"
+CONFLICTS=		ekg-[0-9]*
 
 .include "../../x11/kdelibs3/buildlink2.mk"
-.include "../../chat/ekg/buildlink2.mk"
 .include "../../mk/bsd.pkg.mk"

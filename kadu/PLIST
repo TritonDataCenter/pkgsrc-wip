@@ -1,4 +1,14 @@
 @comment $NetBSD$
+@comment ======================================================
+@comment entries below will be not needed when we manage 
+@comment to get it running with chat/ekg shared library
+@comment ======================================================
+include/libgadu.h
+include/libgadu-config.h
+include/libgadu-stdint.h
+lib/pkgconfig/libgadu.pc
+lib/libgadu.a
+@comment ======================================================
 bin/kadu
 share/kadu/translations/kadu_de.qm
 share/kadu/translations/kadu_en.qm
