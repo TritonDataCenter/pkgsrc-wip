@@ -28,7 +28,7 @@ CONFIGURE_ARGS+=	--disable-alsa
 PTHREAD_OPTS+=		require
 
 .if ${OPSYS} == "NetBSD"
-RAWPART!=		/sbin/sysctl -n kern.rawpartition | tr 0-9 a-j
+RAWPART!=		/sbin/sysctl -n kern.rawpartition | ${TR} 0-9 a-j
 CONFIGURE_ARGS+=	--with-dev-dsp=${DEVOSSSOUND}           \
 			--with-cdda-device=/dev/rcd0${RAWPART}  \
 			--with-cdda-dir=/cdrom/
