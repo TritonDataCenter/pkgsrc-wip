@@ -1,0 +1,5 @@
+@comment $NetBSD$
+include/libbridge.h
+lib/libbridge.a
+man/man8/brctl.8
+sbin/brctl
