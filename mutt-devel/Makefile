@@ -3,10 +3,10 @@
 DISTNAME=		mutt-1.5.4i
 WRKSRC=			${WRKDIR}/${DISTNAME:C/i$$//}
 CATEGORIES=		mail
-MASTER_SITES=		ftp://ftp.mutt.org/mutt/ \
-			ftp://ftp.stealth.net/pub/mirrors/ftp.mutt.org/pub/mutt/ \
-			ftp://gd.tuwien.ac.at/infosys/mail/mutt/ \
-			ftp://ftp.fu-berlin.de/pub/unix/mail/mutt/
+MASTER_SITES=		ftp://ftp.mutt.org/mutt/devel/ \
+			ftp://ftp.stealth.net/pub/mirrors/ftp.mutt.org/pub/mutt/devel/ \
+			ftp://gd.tuwien.ac.at/infosys/mail/mutt/devel/ \
+			ftp://ftp.fu-berlin.de/pub/unix/mail/mutt/devel/
 
 MAINTAINER=		charlie@rubberduck.com
 HOMEPAGE=		http://www.mutt.org/
