@@ -1,0 +1,10 @@
+@comment $NetBSD$
+bin/prothon
+lib/prothon-0.0/Dict.so
+lib/prothon-0.0/File.so
+lib/prothon-0.0/Float.so
+lib/prothon-0.0/Int.so
+lib/prothon-0.0/List.so
+lib/prothon-0.0/String.so
+lib/prothon-0.0/Tuple.so
+@dirrm lib/prothon-0.0
