@@ -9,7 +9,7 @@ MAINTAINER=	xtraeme@NetBSD.org
 HOMEPAGE=	http://www.yafray.org/
 COMMENT=	Yet Another Free Raytracer
 
-USE_BUILDLINK2=		yes
+USE_BUILDLINK3=		yes
 USE_LIBTOOL=		yes
 GNU_CONFIGURE=		yes
 USE_GCC_SHLIB=		yes
@@ -32,8 +32,8 @@ do-install:
 	${INSTALL_DATA} ${WRKSRC}/src/gram.yafray ${YAFRAYDIR}
 	${INSTALL_PROGRAM} ${WRKSRC}/src/yafray ${PREFIX}/bin
 
-.include "../../graphics/jpeg/buildlink2.mk"
-.include "../../devel/zlib/buildlink2.mk"
+.include "../../graphics/jpeg/buildlink3.mk"
+.include "../../devel/zlib/buildlink3.mk"
 
-.include "../../mk/pthread.buildlink2.mk"
+.include "../../mk/pthread.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
