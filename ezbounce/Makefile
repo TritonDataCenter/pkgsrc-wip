@@ -14,7 +14,7 @@ MAINTAINER=	xtraeme@NetBSD.org
 HOMEPAGE=	http://druglord.freelsd.org/ezbounce/
 COMMENT=	Highly Configurable IRC Proxy
 
-USE_BUILDLINK2=	YES
+USE_BUILDLINK3=	YES
 GNU_CONFIGURE=	YES
 USE_PKGINSTALL=	YES
 
@@ -44,5 +44,5 @@ do-install:
 		${INSTALL_DATA} $$f ${DOCDIR}; \
 	done )
 
-.include "../../security/openssl/buildlink2.mk"
+.include "../../security/openssl/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

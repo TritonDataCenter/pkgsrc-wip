@@ -10,7 +10,7 @@ MAINTAINER=		cjep@NetBSD.org
 HOMEPAGE=		http://www.weird.com/~woods/projects/host.html
 COMMENT=		Enhanced version of the host DNS query tool
 
-USE_BUILDLINK2=		yes
+USE_BUILDLINK3=		yes
 MAKEFILE=		Makefile.BSD
 #
 #MAKE_FLAGS+=		FILES=

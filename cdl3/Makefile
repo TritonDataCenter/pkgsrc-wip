@@ -11,7 +11,7 @@ HOMEPAGE=		http://www.cs.kun.nl/~kees/cdl3
 COMMENT=		Programming language for the development of compilers
 
 USE_GNU_TOOLS+=		make
-USE_BUILDLINK2=		yes
+USE_BUILDLINK3=		yes
 USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=		yes
 GNU_CONFIGURE=		yes
