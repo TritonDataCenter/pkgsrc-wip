@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	gkrellm-multiping-2.0.3
+DISTNAME=	gkrellm-multiping-2.0.6
 CATEGORIES=	net
 MASTER_SITES=	http://kmlinux.fjfi.cvut.cz/~makovick/gkrellm/
 EXTRACT_SUFX=	.tgz
