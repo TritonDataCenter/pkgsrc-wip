@@ -83,6 +83,11 @@ CONFIGURE_ARGS+=	--without-ssl
 CONFIGURE_ARGS+=	--with-sasl=${BUILDLINK_PREFIX.cyrus-sasl}
 .endif
 
+.if defined(USE_SASL2) && ${USE_SASL2} == "YES"
+.include "../../security/cyrus-sasl2/buildlink2.mk"
+CONFIGURE_ARGS+=	--with-sasl2=${BUILDLINK_PREFIX.cyrus-sasl2}
+.endif
+
 BUILD_DEFS+=		MUTT_USE_NCURSES MUTT_USE_SLANG MUTT_USE_SSL USE_SASL
 
 EGDIR=			${PREFIX}/share/examples/mutt
