@@ -20,10 +20,15 @@ USE_X11=	YES
 
 CONFIGURE_ARGS+=	--with-gfxdrivers=all
 
+.include "../../mk/bsd.prefs.mk"
+
+.if ${OPSYS} != "Linux"
+.include "../../devel/SDL/buildlink2.mk"
+.endif
+
 .include "../../devel/pkgconfig/buildlink2.mk"
 .include "../../graphics/png/buildlink2.mk"
 .include "../../graphics/jpeg/buildlink2.mk"
-.include "../../devel/SDL/buildlink2.mk"
 .include "../../graphics/freetype2/buildlink2.mk"
 
 .include "../../mk/pthread.buildlink2.mk"
