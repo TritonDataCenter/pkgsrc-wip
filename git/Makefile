@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		git-104
-CATEGORIES=		zzz
+CATEGORIES=		games
 MASTER_SITES=		http://diden.net/if/git/releases/
 EXTRACT_SUFX=		.zip
 
@@ -14,5 +14,5 @@ WRKSRC=			${WRKDIR}/git-1.0.4
 USE_BUILDLINK3=		yes
 MAKE_ENV+=		BUILDLINK_DIR=${BUILDLINK_DIR}
 
-.include "../../wip/gtkglk/buildlink3.mk"
+.include "../../wip/glkloader/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
