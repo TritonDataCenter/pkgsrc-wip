@@ -29,3 +29,5 @@ share/pixmaps/signal-1-40.png
 share/pixmaps/signal-41-60.png
 share/pixmaps/signal-61-80.png
 share/pixmaps/signal-81-100.png
+@comment in xdg-dirs: @dirrm share/pixmaps
+@comment in xdg-dirs: @dirrm share/applications
