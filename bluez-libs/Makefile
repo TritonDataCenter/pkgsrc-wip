@@ -6,7 +6,7 @@ CATEGORIES=		wip net
 MASTER_SITES=		http://bluez.sf.net/download/
 
 MAINTAINER=		pancake@phreaker.net
-HOMEPAGE=		http://bluez.sf.net/download/
+HOMEPAGE=		http://www.bluez.org/
 COMMENT=		Linux Bluetooth Stack libraries
 
 USE_BUILDLINK3=		yes
