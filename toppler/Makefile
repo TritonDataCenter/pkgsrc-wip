@@ -1,16 +1,16 @@
 # $NetBSD$
 
-DISTNAME=		toppler-1.0.3
+DISTNAME=		toppler-1.0.6
 CATEGORIES=		games
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=toppler/}
 
-MAINTAINER=		snj@pobox.com
+MAINTAINER=		snj@NetBSD.org
 HOMEPAGE=		http://toppler.sourceforge.net/
 COMMENT=		Tower climbing game
 
-USE_BUILDLINK2=		YES
+USE_BUILDLINK3=		YES
 GNU_CONFIGURE=		YES
 
-.include "../../devel/zlib/buildlink2.mk"
-.include "../../audio/SDL_mixer/buildlink2.mk"
+.include "../../devel/zlib/buildlink3.mk"
+.include "../../audio/SDL_mixer/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
