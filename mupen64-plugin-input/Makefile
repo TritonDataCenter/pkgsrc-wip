@@ -11,7 +11,7 @@ MAINTAINER=	tech-pkg@NetBSD.org
 HOMEPAGE=	http://mupen64.emulation64.com/
 COMMENT=	Input plugin for mupen64 emulator
 
-BUILD_DEPENDS+=	mupen64-base-[0-9]*:../wip/mupen64-base
+BUILD_DEPENDS+=	mupen64-base-[0-9]*:../../wip/mupen64-base
 
 USE_BUILDLINK3=	yes
 USE_X11=	yes
