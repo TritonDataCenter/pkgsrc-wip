@@ -1,4 +1,1 @@
-$NetBSD$
-
 Fix libjpeg support - currently does not detect jpeg installation properly
-USE_X11BASE - should it be used yes/no, why/why not ?
