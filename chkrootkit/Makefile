@@ -3,7 +3,7 @@
 
 DISTNAME=		chkrootkit
 PKGNAME=		chkrootkit-${VERSION}
-CATEGORIES=		wip
+CATEGORIES=		security
 MASTER_SITES=		ftp://ftp.pangeia.com.br/pub/seg/pac/
 
 MAINTAINER=		pancake@phreaker.net
