@@ -15,7 +15,8 @@ GD_NOX11_INSTALLED!=	\
 		${ECHO} "no";			\
 	fi
 
-.if ${GD_NOX11_INSTALLED} == "yes"
+.if (${GD_NOX11_INSTALLED} == "yes" || (defined(PKG_GD_DEFAULT) && \
+	!empty(PKG_GD_DEFAULT:Mgd-nox11)))
 .  include "../../wip/gd-nox11/buildlink3.mk"
 .else
 .  include "../../wip/gd/buildlink3.mk"
