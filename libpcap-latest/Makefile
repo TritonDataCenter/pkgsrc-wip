@@ -15,7 +15,6 @@ USE_BUILDLINK3=		yes
 GNU_CONFIGURE=		yes
 USE_GNU_TOOLS+=		lex yacc
 USE_LIBTOOL=		yes
-LIBTOOL_LA_FILES+=	lib/libpcap.la
 
 .include "../../mk/bsd.prefs.mk"
 
