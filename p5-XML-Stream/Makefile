@@ -1,13 +1,13 @@
 # $NetBSD$
 #
 
-DISTNAME=	XML-Stream-1.15	
+DISTNAME=	XML-Stream-1.15
 PKGNAME=	p5-${DISTNAME}
 CATEGORIES=	textproc
 MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=XML/}
 
 MAINTAINER=	jrp@hispabsd.org
-HOMEPAGE=	http://sourceforge.net/projects/xmlstream/	
+HOMEPAGE=	http://sourceforge.net/projects/xmlstream/
 COMMENT=	XML::Stream provides you with access to XML Stream
 
 DEPENDS+=	p5-XML-Parser-[0-9]*:../../textproc/p5-XML-Parser

@@ -7,7 +7,7 @@ CATEGORIES=	converters
 MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=Unicode/}
 
 MAINTAINER=	jrp@hispabsd.org
-HOMEPAGE=	http://www.unicode.org/	
+HOMEPAGE=	http://www.unicode.org/
 COMMENT=	Perl5 modules to handle various Unicode issues
 
 DEPENDS+=	p5-MIME-Base64-[0-9]*:../../converters/p5-MIME-Base64

@@ -1,13 +1,13 @@
 # $NetBSD$
 #
 
-DISTNAME=	Net-Jabber-1.26	
+DISTNAME=	Net-Jabber-1.26
 PKGNAME=	p5-${DISTNAME}
 CATEGORIES=	net
 MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=Net/}
 
 MAINTAINER=	jrp@hispabsd.org
-HOMEPAGE=	http://www.jabber.org/	
+HOMEPAGE=	http://www.jabber.org/
 COMMENT=	Provide a Perl Developer access to the Jabber protocol
 
 DEPENDS+=	p5-Unicode-String-[0-9]*:../../converters/p5-Unicode-String
