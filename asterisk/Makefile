@@ -41,7 +41,7 @@ ASTEXAMPLEDIR?=${PREFIX}/share/examples/asterisk
 
 # Override default paths in Makefile
 SUBST_CLASSES+= 	asterisk
-SUBST_STAGE.asterisk= 	post-patch
+SUBST_STAGE.asterisk= 	pre-configure
 SUBST_FILES.asterisk=	Makefile
 SUBST_SED.asterisk= 	\
 	-e "s|^\(ASTLIBDIR\)=.*|\1 = ${ASTLIBDIR}|"		\
