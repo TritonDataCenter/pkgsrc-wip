@@ -12,8 +12,8 @@
 name="gdm"
 rcvar=$name
 command="@PREFIX@/bin/${name}"
-pidfile="/var/run/${name}.pid"
-required_files="@PREFIX@/etc/gdm/gdm.conf"
+pidfile="@LOCALSTATEDIR@/run/${name}.pid"
+required_files="@PKG_SYSCONFDIR@/gdm/gdm.conf"
 extra_commands="reload"
 
 load_rc_config $name
