@@ -20,11 +20,6 @@ SUBST_SED.paths=	-e "s|@@PREFIX@@|${PREFIX}|g" \
 			-e "s|@@SMRSH_CMDDIR@@|${SMRSH_CMDDIR}|g"
 SUBST_MESSAGE.paths=	Fixing paths.
 
-.if ${OPSYS} == "SunOS"
-USE_DB2?=	YES
-.else
-USE_DB2?=	NO
-.endif
 .if defined(USE_DB4) && ${USE_DB4} == YES
 .include "../../databases/db4/buildlink3.mk"
 .elif ${USE_DB2} == YES
