@@ -27,8 +27,6 @@ PLIST_SUBST+=		PHP_EXTENSION_DIR=${PHP_EXTENSION_DIR}
 .include "../../mk/bsd.prefs.mk"
 
 CONFIGURE_ARGS+=	--with-config-file-path=${PREFIX}/etc/
-CONFIGURE_ARGS+=	--enable-mbstring
-CONFIGURE_ARGS+=	--enable-calendar
 
 .if defined(USE_INET6) && ${USE_INET6} == "NO"
 CONFIGURE_ARGS+=	--disable-ipv6
