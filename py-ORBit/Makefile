@@ -20,7 +20,7 @@ PKGCONFIG_OVERRIDE+=	${WRKSRC}/pyorbit-2.pc.in
 GNU_CONFIGURE=	YES
 CONFIGURE_ENV+=	PYTHON=${PYTHONBIN}
 
-PYTHON_VERSION_REQD>=	22
+PYTHON_VERSION_REQD=	22
 
 .include "../../net/ORBit2/buildlink2.mk"
 .include "../../lang/python/extension.mk"

@@ -19,7 +19,7 @@ PKGCONFIG_OVERRIDE+=	${WRKSRC}/gnome-python-2.0.pc.in
 GNU_CONFIGURE=	YES
 CONFIGURE_ENV+=	PYTHON=${PYTHONBIN}
 
-PYTHON_VERSION_REQD>=	22
+PYTHON_VERSION_REQD=	22
 
 .include "../../lang/python/application.mk"
 .include "../../lang/python/extension.mk"

@@ -21,7 +21,7 @@ PKGCONFIG_OVERRIDE+=	${WRKSRC}/pygtk-2.0.pc.in
 GNU_CONFIGURE=	YES
 CONFIGURE_ENV+=	PYTHON=${PYTHONBIN}
 
-PYTHON_VERSION_REQD>=	22
+PYTHON_VERSION_REQD=	22
 
 .include "../../mk/pthread.buildlink2.mk"
 .if defined(PTHREAD_TYPE) && (${PTHREAD_TYPE} == "native")
