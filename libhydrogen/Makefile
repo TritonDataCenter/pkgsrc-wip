@@ -1,7 +1,6 @@
 # $NetBSD$
 
 DISTNAME=	libhydrogen-0.8.0
-PKGNAME=	${DISTNAME}
 CATEGORIES=	audio
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=hydrogen/}
 
@@ -17,6 +16,8 @@ USE_GMAKE=		YES
 GNU_CONFIGURE=		YES
 CONFIGURE_ARGS+=	--disable-alsa-seq
 CONFIGURE_ARGS+=	--disable-jack-support
+
+CPPFLAGS=		-DDEVOSSAUDIO=\"\\\"${DEVOSSAUDIO}\\\"\"
 
 .include "../../audio/libaudiofile/buildlink2.mk"
 .include "../../mk/ossaudio.buildlink2.mk"
