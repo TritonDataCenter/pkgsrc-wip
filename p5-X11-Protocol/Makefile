@@ -9,6 +9,8 @@ MASTER_SITES=		${MASTER_SITE_PERL_CPAN:=X11/}
 MAINTAINER=		roland.illig@gmx.de
 COMMENT=		Interface to the X11 protocol
 
+PKG_INSTALLATION_TYPES=	overwrite pkgviews
+
 USE_BUILDLINK3=		YES
 PERL5_PACKLIST=		${PERL5_SITEARCH}/auto/X11/Protocol/.packlist
 
