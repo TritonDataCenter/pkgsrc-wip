@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.310 2003/07/08 11:49:43 adrian_p Exp $
+# $Id: Makefile,v 1.311 2003/07/08 14:51:14 adrian_p Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -149,6 +149,7 @@ SUBDIR+=	liquidwar
 SUBDIR+=	lmarbles
 SUBDIR+=	loudmouth
 SUBDIR+=	mailfilter
+SUBDIR+=	mailman21
 SUBDIR+=	maradns
 SUBDIR+=	mcats
 SUBDIR+=	mcats-iodbc
