@@ -75,6 +75,7 @@ do-extract:
 	${MKDIR} ${WRKSRC}
 	cd ${DISTDIR}/${DIST_SUBDIR}/gdb-5.3 ; ${PAX} -pe -rwt . ${WRKSRC}
 
+.include "../../lang/gcc3-ada/buildlink3.mk"
 .include "../../mk/bsd.prefs.mk"
 .include "../../mk/pthread.buildlink3.mk"
 .include "../../devel/gettext-lib/buildlink3.mk"
