@@ -5,7 +5,7 @@ DISTNAME=	rlpr-2.04
 CATEGORIES=	print net
 MASTER_SITES=	ftp://www.truffula.com/pub/
 
-MAINTAINER=	packages@netbsd.org
+MAINTAINER=	pkg@pop.707.to
 HOMEPAGE=	http://truffula.com/rlpr/
 COMMENT=	Send print jobs to lpd servers anywhere on a network
 
