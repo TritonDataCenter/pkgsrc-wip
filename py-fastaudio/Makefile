@@ -25,7 +25,6 @@ EXTRACT_CMD.zip=	${LOCALBASE}/bin/unzip -aqo $${extract_file}
 post-extract:
 	${MV} ${WRKDIR}/fastaudio/* ${WRKDIR}/portaudio_v18_1
 
-.include "../../wip/portaudio/buildlink2.mk"
 .include "../../audio/libsndfile/buildlink2.mk"
 .include "../../lang/python/extension.mk"
 .include "../../mk/ossaudio.buildlink2.mk"
