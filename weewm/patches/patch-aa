@@ -14,7 +14,7 @@ $NetBSD$
 -INCLUDES=-I/usr/X11R6/include
 -LIBS=-L/usr/X11R6/lib -lX11
 +INCLUDES=-I${X11BASE}/include
-+LIBS= -L${X11BASE}/lib -Wl,${RPATH_FLAG}${X11BASE}/lib -lX11
++LIBS= ${LDFLAGS} -lX11
  
  OUTPUT=weewm
  OBJS=weewm.o client.o events.o screen.o info.o config.o
