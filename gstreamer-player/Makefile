@@ -27,5 +27,6 @@ GCONF2_SCHEMAS=         gst-player.schemas
 
 .include "../../devel/GConf2/schemas.mk"
 .include "../../devel/gettext-lib/buildlink2.mk"
-.include "../../wip/gstreamer-plugins/buildlink2.mk"
+.include "../../misc/gst-plugins/buildlink2.mk"
+.include "../../misc/gstreamer/buildlink2.mk"
 .include "../../mk/bsd.pkg.mk"
