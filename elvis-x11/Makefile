@@ -10,6 +10,9 @@ CONFLICTS+=	elvis-[0-9]*
 
 USE_X11=		YES
 CONFIGURE_ARGS+=	--with-x=yes
+CONFIGURE_ARGS+=	--with-xft
 
-.include "../../graphics/freetype2/buildlink2.mk"
+MAKEFLAGS+=	CC="${CC} -I${LOCALBASE}/include/freetype2 ${CFLAGS}"
+
+.include "../../fonts/Xft2/buildlink2.mk"
 .include "../../mk/bsd.pkg.mk"
