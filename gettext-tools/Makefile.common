@@ -1,0 +1,10 @@
+# $NetBSD$
+
+DISTNAME=		gettext-0.14.1
+CATEGORIES=		devel
+MASTER_SITES=		${MASTER_SITE_GNU:=gettext/}
+
+MAINTAINER=		tech-pkg@NetBSD.org
+HOMEPAGE=		http://www.gnu.org/software/gettext/gettext.html
+
+GNU_CONFIGURE=		yes
