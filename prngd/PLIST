@@ -1,0 +1,7 @@
+@comment $NetBSD$
+bin/prngd
+man/man1/prngd.1
+share/doc/prngd/00DESIGN
+share/doc/prngd/00README
+share/doc/prngd/00README.gatherers
+@dirrm share/doc/prngd
