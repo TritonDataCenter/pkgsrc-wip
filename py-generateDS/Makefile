@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	generateDS-1.4b
+DISTNAME=	generateDS-1.6a
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	textproc
 MASTER_SITES=	http://www.rexx.com/~dkuhlman/
