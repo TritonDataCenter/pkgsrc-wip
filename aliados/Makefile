@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		aliados-0.1.1
-CATEGORIES=		emuliators wip
+CATEGORIES=		emulators
 MASTER_SITES=		http://www.arrakis.es/~ninsesabe/aliados/
 EXTRACT_SUFX=		.tgz
 
@@ -17,8 +17,8 @@ NO_CONFIGURE=		YES
 USE_NCURSES=		YES
 
 do-install:
-	${MKDIR} ${PREFIX}/bin
-	${INSTALL_PROGRAM} ${WRKSRC}/aliados ${PREFIX}/bin/aliados
+	${INSTALL_PROGRAM_DIR} ${INSTALL_DIR_PROGRAM} ${PREFIX}/bin/
+	${INSTALL_PROGRAM} ${WRKSRC}/aliados ${PREFIX}/bin/
 
 .include "../../devel/ncurses/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
