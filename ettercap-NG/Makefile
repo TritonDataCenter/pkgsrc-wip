@@ -37,6 +37,8 @@ CONF_FILES=	${PREFIX}/share/examples/ettercap-NG/etter.conf \
 PKG_OPTIONS_VAR=        PKG_OPTIONS.ettercap-NG
 PKG_SUPPORTED_OPTIONS=	gtk
 
+.include "../../mk/bsd.options.mk"
+
 .if !empty(PKG_OPTIONS:Mgtk)
 .	include "../../x11/gtk2/buildlink3.mk"
 CONFIGURE_ARGS+=	--enable-gtk
