@@ -2,7 +2,7 @@
 
 DISTNAME=	Object-Realize-Later-0.15
 PKGNAME=	p5-${DISTNAME}
-CATEGORIES=	mail perl5
+CATEGORIES=	devel perl5
 MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=Object/}
 
 MAINTAINER=	adrianp@stindustries.net
