@@ -8,7 +8,7 @@ MAINTAINER=	minskim@bawi.org
 HOMEPAGE=	http://ipgrab.sourceforge.net/
 COMMENT=	Verbose packet sniffer for UNIX hosts
 
-PKG_INSTALLATION_TYPES= overwrite pkgviews
+PKG_INSTALLATION_TYPES=	overwrite pkgviews
 
 USE_BUILDLINK3=	yes
 GNU_CONFIGURE=	yes
