@@ -1,0 +1,7 @@
+@comment $NetBSD$
+bin/west
+share/doc/west/background.html
+share/doc/west/command_ref.html
+share/doc/west/index.html
+share/doc/west/scripting.html
+@dirrm share/doc/west
