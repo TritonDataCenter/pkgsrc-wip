@@ -11,5 +11,5 @@ CONFLICTS+=	elvis-[0-9]*
 USE_X11=		YES
 CONFIGURE_ARGS+=	--with-x=yes
 
-.include "../../mk/bsd.pkg.mk"
 .include "../../graphics/freetype2/buildlink2.mk"
+.include "../../mk/bsd.pkg.mk"
