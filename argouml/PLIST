@@ -6,7 +6,4 @@ lib/java/argouml/gef.jar
 lib/java/argouml/i18n.jar
 lib/java/argouml/nsuml.jar
 lib/java/argouml/ocl-argo.jar
-lib/java/argouml/ext/argo_elmuth.jar
-lib/java/argouml/ext/xalan-java1.jar
-@dirrm lib/java/argouml/ext
 @dirrm lib/java/argouml
