@@ -4,14 +4,14 @@ include/matchbox-desktop/mbdesktop.h
 include/matchbox-desktop/mbdesktop_item.h
 include/matchbox-desktop/mbdesktop_module.h
 include/matchbox-desktop/mbdesktop_view.h
+lib/matchbox/desktop/dotdesktop.la
+lib/matchbox/desktop/simplefilebrowser.la
+lib/matchbox/desktop/tasks.la
 lib/pkgconfig/matchbox-desktop.pc
 share/applications/mb-show-desktop.desktop
-share/matchbox-desktop/mbdesktop_modules
-share/matchbox/desktop/modules/dotdesktop.la
-share/matchbox/desktop/modules/simplefilebrowser.la
-share/matchbox/desktop/modules/tasks.la
+share/examples/matchbox-desktop/mbdesktop_modules
 share/pixmaps/mbdesktop.png
-@dirrm share/matchbox/desktop/modules
-@dirrm share/matchbox/desktop
-@dirrm share/matchbox-desktop
+@dirrm lib/matchbox/desktop
+@dirrm lib/matchbox
 @dirrm include/matchbox-desktop
+@dirrm share/examples/matchbox-desktop
