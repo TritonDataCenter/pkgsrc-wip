@@ -25,4 +25,5 @@ do-install:
 	${INSTALL_DATA_DIR} ${PREFIX}/share/doc/java-asm/
 	${CP} -rf ${WRKSRC}/doc/javadoc/user/* ${PREFIX}/share/doc/java-asm/
 
+.include "../../mk/java-vm.mk"
 .include "../../mk/bsd.pkg.mk"
