@@ -2,6 +2,7 @@
 #
 
 DISTNAME=		darcs-1.0.1
+PKGREVISION=		1
 CATEGORIES=		devel
 MASTER_SITES=		http://abridgegame.org/darcs/
 
