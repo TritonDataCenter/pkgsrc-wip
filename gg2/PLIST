@@ -293,6 +293,7 @@ share/gg2/themes/vblue2.theme
 share/gg2/themes/vgreen2.theme
 share/gg2/themes/vred2.theme
 share/gg2/themes/white2.theme
+${PKGLOCALEDIR}/locale/nl/LC_MESSAGES/gg2.mo
 ${PKGLOCALEDIR}/locale/pl/LC_MESSAGES/gg2.mo
 share/pixmaps/gg2.png
 @dirrm share/gg2/themes
