@@ -16,9 +16,11 @@ BUILDLINK_DEPENDS.gccAda+=      gccAda>=3.4.0
 BUILDLINK_PKGSRCDIR.gccAda?=    ../../wip/gcc-3.4-ada
 BUILDLINK_ENV+= PATH=${PATH}:${LOCALBASE}/gccAda-3.4.0/bin
 _GCC_ARCHDIR!=	${DIRNAME} `${LOCALBASE}/gccAda-3.4.0/bin/gcc --print-libgcc-file-name`
+.  if empty(_GCC_ARCHDIR:M*not_found*)
 BUILDLINK_ENV+=	ADA_INCLUDE_PATH=${_GCC_ARCHDIR}/adainclude
 BUILDLINK_ENV+=	ADA_OBJECT_PATH=${_GCC_ARCHDIR}/adalib
 BUILDLINK_RPATHDIRS.gcc+=	${_GCC_ARCHDIR}
+.  endif
 .endif  # GCCADA_BUILDLINK3_MK
 
 BUILDLINK_PKGSRCDIR.gccAda?=     ../../wip/gcc-3.4-ada
