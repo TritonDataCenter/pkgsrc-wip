@@ -50,8 +50,6 @@ CONFIGURE_ARGS+=	--disable-ripngd
 
 PLIST_SRC+=		${PKGDIR}/PLIST
 
-INFO_FILES=		zebra.info
-
 # patches modify Makefile.am and configure.in
 pre-configure:
 	cd ${WRKSRC};						\
