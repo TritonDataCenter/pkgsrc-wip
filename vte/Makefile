@@ -29,4 +29,5 @@ PKGCONFIG_OVERRIDE+=    ${WRKSRC}/vte.pc.in
 
 .include "../../devel/pkgconfig/buildlink2.mk"
 .include "../../x11/gtk2/buildlink2.mk"
+.include "../../x11/libzvt/buildlink2.mk"
 .include "../../mk/bsd.pkg.mk"

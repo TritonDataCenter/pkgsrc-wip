@@ -28,6 +28,7 @@ BUILDLINK_FILES.vte+=	lib/vte/utf8mode
 BUILDLINK_FILES.vte+=	lib/vte/vterdb
 BUILDLINK_FILES.vte+=	lib/vte/window
 
+.include "../../x11/libzvt/buildlink2.mk"
 .include "../../x11/gtk2/buildlink2.mk"
 
 BUILDLINK_TARGETS+=	vte-buildlink
