@@ -1,6 +1,6 @@
 # $NetBSD: Makefile,v 1.39 2003/06/13 09:35:47 abs Exp $
 
-PKGNAME=		${DISTNAME:S/-/4-server-/}
+PKGNAME=		${DISTNAME:S/-/-server-/}
 SVR4_PKGNAME=		mysqs
 COMMENT=		MySQL, a free SQL database (server)
 
@@ -42,9 +42,10 @@ post-install:
 	${INSTALL_SCRIPT} ${WRKSRC}/scripts/mysql_install_db ${PREFIX}/bin
 	${INSTALL_SCRIPT} ${WRKSRC}/support-files/mysql.server ${PREFIX}/bin
 	${INSTALL_MAN} ${WRKSRC}/man/mysqld.1 ${PREFIX}/man/man1
+	${INSTALL_MAN} ${WRKSRC}/man/mysqld_multi.1 ${PREFIX}/man/man1
 	${INSTALL_MAN} ${WRKSRC}/man/mysqld_safe.1 ${PREFIX}/man/man1
 	PKG_PREFIX=${PREFIX} ${SH} ${INSTALL_FILE} ${PKGNAME} POST-INSTALL
-	#${CHOWN} -R ${MYSQL_USER}:${MYSQL_GROUP} ${MYSQL_DATADIR}
+	${CHOWN} -R ${MYSQL_USER}:${MYSQL_GROUP} ${MYSQL_DATADIR}
 
 .include "../../wip/mysql4-client/buildlink2.mk"
 .include "../../security/tcp_wrappers/buildlink2.mk"

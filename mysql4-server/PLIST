@@ -28,6 +28,8 @@ lib/mysql/libnisam.a
 lib/mysql/libvio.a
 libexec/mysqld
 man/man1/mysqld.1
+man/man1/mysqld_multi.1
+man/man1/mysqld_safe.1
 share/mysql/charsets/Index
 share/mysql/charsets/README
 share/mysql/charsets/cp1251.conf
