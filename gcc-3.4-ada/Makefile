@@ -16,6 +16,8 @@ GCC_VERSION=	3.4.0
 USE_BUILDLINK3=		YES
 USE_PKGINSTALL=		YES
 USE_GNU_TOOLS+=		make
+USE_MAKEINFO=		YES
+USE_NEW_TEXINFO=	YES
 HAS_CONFIGURE=		YES
 PTHREAD_OPTS+=  require native
 CONFIGURE_ARGS+=        --enable-languages="c,ada"
@@ -126,5 +128,6 @@ BUILDLINK_DEPMETHOD.gcc-3.4.0=	build
 .include "../../wip/gcc-3.4/buildlink3.mk"
 .endif
 .include "../../converters/libiconv/buildlink3.mk"
+.include "../../devel/gettext-lib/buildlink3.mk"
 .include "../../mk/pthread.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
