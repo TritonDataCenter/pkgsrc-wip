@@ -12,7 +12,7 @@ COMMENT=	Systray icon plugin for X-Chat
 DEPENDS=	xchat>=2.0:../../chat/xchat2
 
 WRKSRC=		${WRKDIR}/${PKGNAME}
-USE_BUILDLINK2=	yes
+USE_BUILDLINK3=	yes
 USE_GNU_TOOLS+=	make
 
 SUBST_CLASSES+=		cflags
@@ -24,6 +24,6 @@ SUBST_SED.cflags=	-e 's|CFLAGS = -O2 -Wall|CFLAGS = ${CFLAGS}|g'
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/systray.so ${LOCALBASE}/lib/xchat/plugins/
 
-.include "../../devel/pkgconfig/buildlink2.mk"
-.include "../../x11/gtk2/buildlink2.mk"
+.include "../../devel/pkgconfig/buildlink3.mk"
+.include "../../x11/gtk2/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
