@@ -96,7 +96,7 @@ NO_BUILDLINK=		yes
 NO_CONFIGURE=		yes
 PLIST_SUBST+=		MILTER="@comment "
 
-do-build:	# do nothing
+do-build:	replace-interpreter
 .endif
 
 SUBST_CLASSES+=		amavisd
