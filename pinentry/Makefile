@@ -37,4 +37,5 @@ post-install:
 .if !empty(PKG_OPTIONS:Mgtk)
 .include "../../x11/gtk/buildlink3.mk"
 .endif
+.include "../../mk/pthread.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
