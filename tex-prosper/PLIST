@@ -87,4 +87,5 @@ share/texmf/tex/latex/misc/prosper/prosper.cls
 @dirrm share/texmf/tex/latex/misc/prosper/designer
 @dirrm share/texmf/tex/latex/misc/prosper/img
 @dirrm share/texmf/tex/latex/misc/prosper
+@exec %D/bin/mktexlsr
 @unexec %D/bin/mktexlsr
