@@ -2,4 +2,6 @@ $NetBSD: $
 
 SHA1 (tls1.4.tar.gz) = 8a19c3c2249da635cb9d3c814619d9ddfce24c11
 Size (tls1.4.tar.gz) = 88974 bytes
-SHA1 (patch-aa) = 1ea7030731ee627f8143c20b68d6b4176dc37dff
+SHA1 (patch-aa) = 45e811274ac1f259fbd2adcc893aa94285cf4d4c
+SHA1 (patch-ab) = eecb924857d813da08a48b9675b8536370016417
+SHA1 (patch-ac) = 3459d50a5e95330c9243b0571f91bece9fc81430
