@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	libstatgrab-0.8.2
+DISTNAME=	libstatgrab-0.9
 CATEGORIES=	devel
 MASTER_SITES=	ftp://ftp.mirror.ac.uk/sites/ftp.i-scream.org/pub/i-scream/libstatgrab/ \
 		http://www.mirror.ac.uk/sites/ftp.i-scream.org/pub/i-scream/libstatgrab/ \
@@ -31,10 +31,6 @@ CONFIGURE_ARGS+=	--disable-saidar
 PLIST_SUBST+=		SAIDAR="@comment "
 .else
 PLIST_SUBST+=		SAIDAR=""
-.endif
-
-.if defined(WITHOUT_SETGID_BINARIES)
-CONFIGURE_ARGS+=	--disable-setgid-binaries
 .endif
 
 .include "../../mk/bsd.pkg.mk"
