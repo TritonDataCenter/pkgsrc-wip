@@ -26,8 +26,8 @@ pre-configure:
 	cd ${WRKSRC} && ${AUTOCONF}
 
 .include "../../graphics/gdk-pixbuf/buildlink3.mk"
+.include "../../security/libfwbuilder/buildlink3.mk"
 .include "../../x11/gtk--/buildlink3.mk"
-.include "../../wip/libfwbuilder/buildlink3.mk"
 
 .include "../../mk/automake.mk"
 .include "../../mk/bsd.pkg.mk"
