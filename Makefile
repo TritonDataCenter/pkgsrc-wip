@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.959 2004/02/13 23:00:09 minskim Exp $
+# $Id: Makefile,v 1.960 2004/02/14 21:44:15 minskim Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -185,7 +185,6 @@ SUBDIR+=	glulxe
 SUBDIR+=	gmfsk
 SUBDIR+=	gnats4
 SUBDIR+=	gnome-clipboard-daemon
-SUBDIR+=	gnome-spell
 SUBDIR+=	gnome2-pkgview
 SUBDIR+=	gnomeicu
 SUBDIR+=	gnucash-docs
