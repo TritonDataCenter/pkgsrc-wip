@@ -1,0 +1,21 @@
+$NetBSD$
+
+--- build/bsd/makefiles/objformat.orig	Wed Jul 28 15:17:49 2004
++++ build/bsd/makefiles/objformat
+@@ -9,15 +9,7 @@ FreeBSD) 
+     ;;
+ 
+ NetBSD)
+-    fmt=`file /netbsd`
+-    case $fmt in
+-        *ELF*) 
+-             echo ELF
+-             ;;
+-        *) 
+-             echo AOUT
+-             ;;
+-    esac
++    echo ELF
+     ;;
+ 
+ OpenBSD)
