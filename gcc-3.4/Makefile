@@ -28,11 +28,7 @@ USE_PKGINSTALL=		YES
 USE_GNU_TOOLS+=		make
 HAS_CONFIGURE=		YES
 PTHREAD_OPTS+=  require native
-.if (${MACHINE_GNU_ARCH} == "x86_64")
 CONFIGURE_ARGS+=        --enable-languages="c,ada,c++,f77,objc"
-.else
-CONFIGURE_ARGS+=        --enable-languages="c,ada,c++,f77,objc,java"
-.endif
 PLIST_SRC=	${WRKDIR}/PLIST_DYNAMIC
 
 # An Ada compiler is required to build this pkg. Two
