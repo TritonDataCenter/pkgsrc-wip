@@ -28,7 +28,7 @@ CONFIGURE_ARGS+=	--sysconfdir=${PKG_SYSCONFDIR} \
 			--without-included-gettext \
 			--enable-pop --enable-imap
 
-REPLACE_PERL=		${WRKSRC}/smime_keys
+REPLACE_PERL=		${WRKSRC}/smime_keys.pl
 
 LDFLAGS+=		${_STRIPFLAG_CC}
 
