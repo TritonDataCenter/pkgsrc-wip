@@ -10,7 +10,6 @@ CONFIGURE_ARGS+=	--with-libwrap
 CONFIGURE_ARGS+=	--without-berkeley-db
 USE_BUILDLINK2=		YES
 USE_PKGINSTALL=		YES
-USE_GMAKE=		YES
 
 CONFLICTS=		{mysql-server-[0-9]*,mysql3-server-[0-9]*}
 
