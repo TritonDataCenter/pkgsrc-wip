@@ -48,8 +48,10 @@ NO_BIN_ON_CDROM=	${RESTRICTED}
 #	    ${ECHO} "  ${DOWNLOAD}."; \
 #	    ${ECHO} "==============================================================="
 
-post-extract:
-	cd ${WRKDIR} && ${PAX} -O -rzf ${WRKDIR}/${DISTNAME}.tar.gz
+# XXX Only need this post-extract target when using the download
+# XXX from the interactive fetch.
+#post-extract:
+#	cd ${WRKDIR} && ${PAX} -O -rzf ${WRKDIR}/${DISTNAME}.tar.gz
 
 #.include "../../mk/yacc.mk"
 
