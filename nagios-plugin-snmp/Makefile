@@ -8,7 +8,7 @@ MAINTAINER=     murray@river-styx.org
 COMMENT=	Nagios snmp plugins
 
 DEPENDS+=	nagios-plugins-${PLUGINSVERSION}:../../wip/nagios-plugins
-DEPENDS+=       p5-Net-SNMP*:../../net/p5-Net-SNMP
+DEPENDS+=       p5-Net-SNMP-[0-9]*:../../net/p5-Net-SNMP
 
 .include "../../wip/nagios-plugins/Makefile.common"
 
