@@ -1,0 +1,7 @@
+@comment $NetBSD$
+bin/vncserver
+bin/vncpasswd
+bin/vncviewer
+bin/vncconfig
+bin/x0vncserver
+bin/Xvnc
