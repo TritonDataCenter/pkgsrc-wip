@@ -8,8 +8,7 @@ MAINTAINER=	peter@pointless.nl
 HOMEPAGE=	http://www.eee.metu.edu.tr/~canacar/
 COMMENT=	Utility for real-time display of statistics for PF
 
-BUILD_DEPENDS+=	pf-lkm-[0-9]*:../../wip/pflkm
-
+USE_BUILDLINK3=	yes
 NO_CONFIGURE=	yes
 
 MAKE_ENV+=	OSLEVEL=34
@@ -19,4 +18,5 @@ do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/pftop ${PREFIX}/sbin
 	${INSTALL_MAN} ${WRKSRC}/pftop.8 ${PREFIX}/man/man8
 
+.include "../../wip/pflkm/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
