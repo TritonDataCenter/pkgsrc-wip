@@ -16,8 +16,10 @@ USE_PERL5=	YES
 USE_X11=	YES
 USE_LIBTOOL=	YES
 USE_GNU_TOOLS+=	make
-CONFIGURE_ENV+=	kde_htmldir=${PREFIX}/share/doc/kde/HTML
-REPLACE_PERL=	src/konversation/konversation-0.14-mainwindow.pl
+
+USE_PKGLOCALEDIR=	YES
+CONFIGURE_ENV+=		kde_htmldir=${PREFIX}/share/doc/kde/HTML
+REPLACE_PERL=		src/konversation/konversation-0.14-mainwindow.pl
 
 .include "../../graphics/jpeg/buildlink3.mk"
 .include "../../x11/kdelibs3/buildlink3.mk"
