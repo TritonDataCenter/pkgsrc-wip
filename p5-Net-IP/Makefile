@@ -12,7 +12,9 @@ COMMENT=	Perl extension for manipulating IPv4/IPv6 addresses
 
 DEPENDS+=	p5-Math-BigInteger-[0-9]*:../../math/p5-Math-BigInteger
 
-USE_BUILDLINK2=		yes
+PKG_INSTALLATION_TYPES=	overwrite pkgviews
+
+USE_BUILDLINK3=		yes
 PERL5_PACKLIST=		${PERL5_SITEARCH}/auto/Net/IP/.packlist
 
 .include "../../lang/perl5/module.mk"
