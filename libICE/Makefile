@@ -1,14 +1,13 @@
 # $NetBSD$
 #
 
-DISTNAME=		libICE-6.3.1
-PKGREVISION=		1
+DISTNAME=		libICE-6.3.3
 CATEGORIES=		x11 devel
-MASTER_SITES=		http://freedesktop.org/~xlibs/dist/
+MASTER_SITES=		http://freedesktop.org/~xlibs/release/
 EXTRACT_SUFX=		.tar.bz2
 
 MAINTAINER=		tech-pkg@NetBSD.org
-HOMEPAGE=		http://www.freedesktop.org/software/xlibs
+HOMEPAGE=		http://xlibs.freedesktop.org/
 COMMENT=		Inter Client Exchange (ICE) library for X
 
 USE_BUILDLINK3=		yes
