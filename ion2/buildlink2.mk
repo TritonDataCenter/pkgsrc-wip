@@ -1,23 +1,23 @@
-# $NetBSD: buildlink2.mk,v 1.2 2004/01/09 23:05:01 cube Exp $
+# $NetBSD$
 
-.if !defined(ION_BUILDLINK2_MK)
-ION_BUILDLINK2_MK=	# defined
+.if !defined(ION2_BUILDLINK2_MK)
+ION2_BUILDLINK2_MK=	# defined
 
-BUILDLINK_PACKAGES+=		ion
-BUILDLINK_DEPENDS.ion?=		ion>=20031211
-BUILDLINK_PKGSRCDIR.ion?=	../../wm/ion-devel
+BUILDLINK_PACKAGES+=		ion2
+BUILDLINK_DEPENDS.ion2?=	ion2
+BUILDLINK_PKGSRCDIR.ion2?=	../../wm/ion2
 
-EVAL_PREFIX+=			BUILDLINK_PREFIX.ion=ion
-BUILDLINK_PREFIX.ion_DEFAULT=	${LOCALBASE}
-BUILDLINK_FILES.ion=		include/ion/*.h
-BUILDLINK_FILES.ion+=		include/ion/mkexports.lua
-BUILDLINK_FILES.ion+=		include/ion/*.mk
-BUILDLINK_FILES.ion+=		include/ion/ioncore/*.h
-BUILDLINK_FILES.ion+=		include/ion/libtu/*.h
-BUILDLINK_FILES.ion+=		include/ion/luaextl/*.h
+EVAL_PREFIX+=			BUILDLINK_PREFIX.ion2=ion2
+BUILDLINK_PREFIX.ion2_DEFAULT=	${LOCALBASE}
+BUILDLINK_FILES.ion2=		include/ion/*.h
+BUILDLINK_FILES.ion2+=		include/ion/mkexports.lua
+BUILDLINK_FILES.ion2+=		include/ion/*.mk
+BUILDLINK_FILES.ion2+=		include/ion/ioncore/*.h
+BUILDLINK_FILES.ion2+=		include/ion/libtu/*.h
+BUILDLINK_FILES.ion2+=		include/ion/luaextl/*.h
 
-BUILDLINK_TARGETS+=		ion-buildlink
+BUILDLINK_TARGETS+=		ion2-buildlink
 
-ion-buildlink: _BUILDLINK_USE
+ion2-buildlink: _BUILDLINK_USE
 
-.endif	# ION_BUILDLINK2_MK
+.endif	# ION2_BUILDLINK2_MK
