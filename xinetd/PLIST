@@ -1,5 +1,4 @@
 @comment $NetBSD$
-etc/rc.d/xinetd
 man/man5/xinetd.conf.5
 man/man8/itox.8
 man/man8/xconv.pl.8
