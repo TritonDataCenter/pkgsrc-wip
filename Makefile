@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.1423 2004/08/12 15:26:10 rillig Exp $
+# $Id: Makefile,v 1.1424 2004/08/13 05:04:28 ianzag Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -157,6 +157,7 @@ SUBDIR+=	freevo
 SUBDIR+=	frontpage
 SUBDIR+=	fvcool
 SUBDIR+=	fwbuilder
+SUBDIR+=	g2k-binutils
 SUBDIR+=	gDesklets
 SUBDIR+=	gDesklets-CornerXMMS
 SUBDIR+=	gDesklets-rssgrab
