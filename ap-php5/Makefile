@@ -5,7 +5,7 @@ PKGNAME=		ap-php-${PHP5_VERSION}
 PKGREVISION=		# empty
 COMMENT=		Apache (${PKG_APACHE}) module for PHP5
 
-DEPENDS+=		php>=${PHP5_VERSION}:../../www/php5
+DEPENDS+=		php>=${PHP5_VERSION}:../../wip/php5
 
 USE_BUILDLINK2=		YES
 APACHE_MODULE=		YES
