@@ -1,7 +1,7 @@
 # $NetBSD: Makefile $
 
 DISTNAME=	tuxnes-0.75
-CATEGORIES=	games
+CATEGORIES=	games emulators
 MASTER_SITES=   ${MASTER_SITE_SOURCEFORGE:=tuxnes/}
 
 MAINTAINER=	snj@pobox.com
