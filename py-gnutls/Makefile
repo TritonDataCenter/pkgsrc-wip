@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		python-gnutls-0.2
-PKGNAME=		${DISTNAME:S/python/${PYPKGPREFIX}/}
+PKGNAME=		${PYPKGPREFIX}${DISTNAME:S/python//}
 WRKSRC=			${WRKDIR}/${DISTNAME}/src
 CATEGORIES=		security
 MASTER_SITES=		http://home.o2w.net/~ivo/python-gnutls/dist/
