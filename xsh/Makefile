@@ -1,16 +1,14 @@
 # $NetBSD$
 #
 
-DISTNAME=	XML-XSH-${VERSION}
-PKGNAME=	xsh-${VERSION}
+DISTNAME=	XML-XSH-1.6
+PKGNAME=	${DISTNAME:S/XML-XSH/xsh/}
 CATEGORIES=	shells
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=xsh/}
 
 MAINTAINER=	pancake@phreaker.net
 HOMEPAGE=	http://xsh.sourceforge.net/
 COMMENT=	XML Editing Shell
-
-VERSION=	1.6
 
 USE_PERL5=	yes
 USE_GMAKE=	yes
