@@ -1,10 +1,13 @@
 ===========================================================================
 $NetBSD$
 
-Load the LKM and create /dev/pf like this:
+To load the kernel module and create the /dev/pf device:
 
 # modload -p ${PREFIX}/sbin/pfmkdev ${PREFIX}/lkm/pfmodule.o
 
-Please go to http://foo.unix.se/joelw/pflkm.html for more documentation.
+If you want PF to get loaded automatically at boot time, you need to set
+lkm=YES in /etc/rc.conf and add this line to /etc/lkm.conf:
+
+${PREFIX}/lkm/pfmodule.o - - ${PREFIX}/sbin/pfmkdev - AFTERMOUNT
 
 ===========================================================================
