@@ -14,4 +14,11 @@ USE_BUILDLINK3=	yes
 
 ONLY_FOR_PlATFORM=	Linux-*-*
 
+SUBST_CLASSES+= prefix
+SUBST_STAGE.prefix=pre-build
+SUBST_FILES.prefix=Makefile
+SUBST_SED.prefix=\
+	-e "s|prefix=|prefix=${PREFIX}\#|" \
+	-e "s|SBINDIR=|SBINDIR=${PREFIX}/sbin \#|"
+
 .include "../../mk/bsd.pkg.mk"
