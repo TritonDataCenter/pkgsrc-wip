@@ -15,6 +15,7 @@ PLIST_SRC+=		${PKGDIR}/PLIST.${OPSYS}
 .if !empty(PKG_OPTIONS:Mzaptel)
 # zaptel only supported under NetBSD at the moment
 .  include "../../wip/zaptel-netbsd/buildlink3.mk"
+MAKE_FLAGS+=	ASTERISK_USE_ZAPTEL=1
 PLIST_SRC+=		${PKGDIR}/PLIST.zaptel
 .endif
 
