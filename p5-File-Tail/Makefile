@@ -12,6 +12,8 @@ COMMENT=        Perl5 functions for monitoring continuously appended files
 
 DEPENDS+=	p5-Time-HiRes>=1.49:../../time/p5-Time-HiRes
 
+PKG_INSTALLATION_TYPES=	overwrite pkgviews
+
 USE_BUILDLINK3=		YES
 PERL5_PACKLIST=         ${PERL5_SITEARCH}/auto/File/Tail/.packlist
 
