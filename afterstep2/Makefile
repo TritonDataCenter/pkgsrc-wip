@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	AfterStep-2.00.00
+DISTNAME=	AfterStep-2.00.01
 PKGNAME=	${DISTNAME:S/AfterStep/afterstep/}
 CATEGORIES=	wm
 MASTER_SITES=	ftp://ftp.afterstep.org/stable/
