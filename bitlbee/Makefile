@@ -6,7 +6,7 @@ CATEGORIES=		chat
 MASTER_SITES=		http://www.lintux.cx/downloads/
 
 PATCHFILES=		bitlbee-daemon.patch
-PATCH_SITES=		http://Insomnio:81/packages/
+PATCH_SITES=		http://xtraeme.unixbsd.org:81/packages/
 PATCH_DIST_STRIP=	-p1
 
 MAINTAINER=		jrp@hispabsd.org
