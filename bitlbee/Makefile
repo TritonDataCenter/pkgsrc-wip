@@ -49,6 +49,6 @@ do-install:
 .for F in FAQ README TODO
 	${INSTALL_DATA} ${WRKSRC}/doc/${F} ${DOCDIR}
 .endfor
-		
+
 .include "../../devel/glib/buildlink2.mk"
 .include "../../mk/bsd.pkg.mk"
