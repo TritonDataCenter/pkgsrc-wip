@@ -23,6 +23,8 @@ SUBST_SED.build=	-e "s|@SSLBASE@|${BUILDLINK_PREFIX.openssl}|g" \
 			-e "s|uname|${UNAME}|g"
 SUBST_MESSAGE.build=	"Patching build files."
 
+USE_OLD_DES_API=	YES
+
 CONFIGURE_ARGS+=	--prefix=${PREFIX}
 
 do-install:
