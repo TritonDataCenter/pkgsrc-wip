@@ -21,6 +21,13 @@ USE_NCURSES=		yes
 CONFIGURE_ARGS+=	--with-rubik
 CONFIGURE_ARGS+=	--enable-debug=no
 
+post-extract:
+	${MV} ${WRKSRC}/jmixer.cpp ${WRKSRC}/jmixer.cpp.in
+
+pre-configure:
+	${SED} -e "s|@DEVOSSAUDIO@|${DEVOSSAUDIO}|g" \
+		< ${WRKSRC}/jmixer.cpp.in > ${WRKSRC}/jmixer.cpp
+
 .include "../../devel/ncurses/buildlink2.mk"
 .include "../../mk/ossaudio.buildlink2.mk"
 .include "../../x11/gtk/buildlink2.mk"
