@@ -1,5 +1,5 @@
 # $NetBSD$
-# 
+#
 # This Makefile fragment is included by packages that use XFree86-libs.
 #
 # This file was created automatically using createbuildlink 2.6.

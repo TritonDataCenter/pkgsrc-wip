@@ -10,7 +10,7 @@ BUILDLINK_PKGSRCDIR.xbsql?=	../../wip/xbsql
 EVAL_PREFIX+=			BUILDLINK_PREFIX.xbsql=xbsql
 BUILDLINK_PREFIX.xbsql_DEFAULT=	${LOCALBASE}
 BUILDLINK_FILES.xbsql=	include/xbsql.h
-BUILDLINK_FILES.xbsql+=	lib/libxbsql* 
+BUILDLINK_FILES.xbsql+=	lib/libxbsql*
 BUILDLINK_FILES.xbsql+=	bin/xql
 
 .include "../../wip/xbase/buildlink2.mk"
