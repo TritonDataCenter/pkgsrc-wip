@@ -6,7 +6,7 @@ PKGNAME=		molmol-2.2.0
 CATEGORIES=		biology
 MASTER_SITES=		ftp://freedom7.swmed.edu/pub/software/MOLMOL/unix-gzip/
 
-MAINTAINER=		hdp@cs.nmsu.edu
+MAINTAINER=		dprice@cs.nmsu.edu
 HOMEPAGE=		http://www.mol.biol.ethz.ch/wuthrich/software/molmol/
 COMMENT=		Graphics Program for manipulating 3D biological macromolecules
 
