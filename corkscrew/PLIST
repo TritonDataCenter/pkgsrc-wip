@@ -1,4 +1,0 @@
-@comment $NetBSD$
-bin/corkscrew
-share/doc/corkscrew/README
-@dirrm share/doc/corkscrew

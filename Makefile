@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.1473 2004/09/20 23:01:52 thomasklausner Exp $
+# $Id: Makefile,v 1.1474 2004/09/22 07:21:58 marttikuparinen Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -86,7 +86,6 @@ SUBDIR+=	compare
 SUBDIR+=	compositeext
 SUBDIR+=	cops
 SUBDIR+=	copytape
-SUBDIR+=	corkscrew
 SUBDIR+=	crawl
 SUBDIR+=	cube
 SUBDIR+=	cvs-syncmail
