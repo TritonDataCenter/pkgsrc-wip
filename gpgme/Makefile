@@ -6,7 +6,7 @@ CATEGORIES=	security
 MASTER_SITES=	ftp://ftp.gnupg.org/gcrypt/gpgme/ \
 		ftp://ftp.gnupg.org/gcrypt/alpha/gpgme/
 
-MAINTAINER=	shannonjr@netbsd.org
+MAINTAINER=	shannonjr@NetBSD.org
 HOMEPAGE=	http://www.gnupg.org/gpgme.html
 COMMENT=	GnuPG Made Easy
 
