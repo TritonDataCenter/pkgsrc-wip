@@ -1,0 +1,5 @@
+@comment $NetBSD$
+bin/filan
+bin/procan
+bin/socat
+man/man1/socat.1
