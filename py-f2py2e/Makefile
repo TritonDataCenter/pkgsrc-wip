@@ -11,10 +11,11 @@ MAINTAINER=		dotz@irc.pl
 HOMEPAGE=		http://cens.ioc.ee/projects/f2py2e/
 COMMENT=		Fortran to Python interface generator
 
-USE_BUILDLINK2=		yes
+DEPENDS+=		${PYPKGPREFIX}-scipy_distutils-[0-9]*:../../wip/py-scipy_distutils
+
+USE_BUILDLINK3=		yes
 PY_PATCHPLIST=		yes
 PYDISTUTILSPKG=		yes
 
 .include "../../lang/python/extension.mk"
-.include "../../wip/py-scipy_distutils/buildlink2.mk"
 .include "../../mk/bsd.pkg.mk"
