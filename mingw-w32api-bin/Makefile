@@ -2,7 +2,6 @@
 
 DISTNAME=		w32api-3.1
 PKGNAME=		mingw-w32api-bin-3.1
-WRKSRC=			${WRKDIR}
 CATEGORIES=		cross
 MASTER_SITES=		${MASTER_SITE_MINGW}
 
@@ -13,6 +12,7 @@ COMMENT=		GNU C Compiler for win32 cross development
 NO_BUILD=		yes
 NO_CONFIGURE=		yes
 USE_CROSSBASE=		yes
+WRKSRC=			${WRKDIR}
 
 do-install:
 	${INSTALL_DATA_DIR} ${PREFIX}/${MINGW_TARGET}
