@@ -36,11 +36,14 @@ _FETCH_MESSAGE= \
 	${ECHO} ; \
 	${ECHO} "======================================================================"
 
+USE_GMAKE=		YES
 GNU_CONFIGURE=  YES
 USE_LIBTOOL=    YES
 LTCONFIG_OVERRIDE=  ${WRKSRC}/ltconfig
+SHLIBTOOL_OVERRIDE=	${WRKSRC}/libtool
 
 .include "../../meta-pkgs/kde3/buildlink2.mk"
 .include "../../x11/kdelibs3/buildlink2.mk"
 .include "../../x11/qt3-tools/buildlink2.mk"
+.include "../../mk/pthread.buildlink2.mk"
 .include "../../mk/bsd.pkg.mk"
