@@ -12,9 +12,10 @@ HOMEPAGE=		http://plasmasturm.org/programs/gtk-chtheme/
 COMMENT=		GTK+2 theme changer with preview
 
 USE_BUILDLINK3=		yes
-USE_X11=                yes
 USE_GNU_TOOLS+=         make
 REPLACE_PERL=		replace
+USE_PERL5=		build
 
+.include "../../devel/pkgconfig/buildlink3.mk"
 .include "../../x11/gtk2/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
