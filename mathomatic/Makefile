@@ -2,6 +2,7 @@
 #
 
 DISTNAME=		am-10.7d
+PKGNAME=		mathomatic-10.7d
 WRKSRC=			${WRKDIR}/math
 CATEGORIES=		wip
 MASTER_SITES=		http://bjan.freeshell.org/nb/
