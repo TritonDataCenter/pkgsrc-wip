@@ -7,7 +7,7 @@ MASTER_SITES=		ftp://ftp.cs.kun.nl/pub/cdl3/
 EXTRACT_SUFX=		.tgz
 
 MAINTAINER=		jaapboen@sci.kun.nl
-HOMEPAGE=		http://www.cs.kun.nl/~kees/cdl3
+HOMEPAGE=		http://www.cs.kun.nl/~kees/cdl3/
 COMMENT=		Programming language for the development of compilers
 
 PKG_INSTALLATION_TYPES=	overwrite pkgviews
