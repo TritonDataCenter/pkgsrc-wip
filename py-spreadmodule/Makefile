@@ -14,8 +14,7 @@ COMMENT=	Python bindings for the Spread messaging service
 WRKSRC=		${WRKDIR}/SpreadModule-1.3
 PYDISTUTILSPKG=	YES
 USE_BUILDLINK2=	YES
-#LDFLAGS+=	-lpthread
-PTHREAD_OPTS+=	require
+PYTHON_VERSION_REQD= 22pth
 
 post-patch:
 	${MV} ${WRKSRC}/setup.py ${WRKSRC}/setup.py.pre
