@@ -2,8 +2,9 @@
 
 .include "../xfce4/Makefile.common"
 
-VERSION=	0.1
-DISTNAME=	xfce4-systray-${VERSION}
+XFCE4_VERSION=	0.1
+
+DISTNAME=	xfce4-systray-${XFCE4_VERSION}
 CATEGORIES=	sysutils
 COMMENT=	XFce4 systray plugin
 

@@ -2,7 +2,9 @@
 
 .include "../xfce4/Makefile.common"
 
-DISTNAME=	xfce4-systemload-plugin-0.2.6
+XFCE4_VERSION=	0.2.6
+
+DISTNAME=	xfce4-systemload-plugin-${XFCE4_VERSION}
 CATEGORIES=	sysutils
 MASTER_SITES=	http://ricpersi.altervista.org/download/
 EXTRACT_SUFX=	.tar.bz2

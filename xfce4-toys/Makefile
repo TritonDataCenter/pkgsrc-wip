@@ -2,7 +2,9 @@
 
 .include "../xfce4/Makefile.common"
 
-DISTNAME=	xfce4-toys-0.3.0
+XFCE4_VERSION=	0.3.0
+
+DISTNAME=	xfce4-toys-${XFCE4_VERSION}
 CATEGORIES=	x11
 COMMENT=	XFce4 toys
 

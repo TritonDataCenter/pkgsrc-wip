@@ -3,9 +3,10 @@
 
 .include "../xfce4/Makefile.common"
 
-VERSION=	2.1.1
-PKGNAME=	xfce4-gtk2-engine-${VERSION}
-DISTNAME=	gtk-xfce-engine-${VERSION}
+XFCE4_VERSION=	2.1.1
+
+PKGNAME=	xfce4-gtk2-engine-${XFCE4_VERSION}
+DISTNAME=	gtk-xfce-engine-${XFCE4_VERSION}
 CATEGORIES=	x11
 COMMENT=	XFce4 GTK2 themes
 
