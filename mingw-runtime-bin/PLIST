@@ -2,6 +2,7 @@
 ${MINGW_TARGET}/bin/mingwm10.dll
 ${MINGW_TARGET}/include/assert.h
 ${MINGW_TARGET}/include/conio.h
+${MINGW_TARGET}/include/complex.h
 ${MINGW_TARGET}/include/ctype.h
 ${MINGW_TARGET}/include/dir.h
 ${MINGW_TARGET}/include/direct.h
