@@ -11,6 +11,8 @@ MAINTAINER=		tech-pkg@NetBSD.org
 HOMEPAGE=		http://www.freedesktop.org/software/xlibs
 COMMENT=		X Input extension library
 
+PKG_INSTALLATION_TYPES=	overwrite pkgviews
+
 USE_BUILDLINK3=		yes
 USE_LIBTOOL=		yes
 GNU_CONFIGURE=		yes
