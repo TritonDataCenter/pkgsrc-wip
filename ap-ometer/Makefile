@@ -22,6 +22,7 @@ CONFIGURE_ARGS+=	--with-jpeg=${BUILDLINK_PREFIX.jpeg}
 APACHE_MODULE_NAME=     ${DISTNAME:C|-.*||}.so
 APACHE_MODULE_SRC=	${DISTNAME:C|-.*||}.c
 
+.include "../../devel/zlib/buildlink2.mk"
 .include "../../graphics/jpeg/buildlink2.mk"
 .include "../../databases/db4/buildlink2.mk"
 .include "../../graphics/gd/buildlink2.mk"
