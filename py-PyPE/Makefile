@@ -12,10 +12,13 @@ MAINTAINER=		dotz@irc.pl
 HOMEPAGE=		http://pype.sourceforge.net/
 COMMENT=		Lightweight, but powerful editor for Python
 
+DEPENDS=	${PYPKGPREFIX}-wxWindows>=2.4.2.4:../../x11/py-wxWindows
+
 PYTHON_PATCH_SCRIPTS=   pype.py
 NO_BUILD=		# defined
 PLIST_SUBST+=		PYVERSSUFFIX=${PYVERSSUFFIX}
 PY_PATCHPLIST=		yes
+NO_BUILDLINK=		yes
 
 do-install:
 	${INSTALL_DATA_DIR} ${PREFIX}/${PYSITELIB}/pype
@@ -31,5 +34,4 @@ do-install:
 
 .include "../../lang/python/application.mk"
 .include "../../lang/python/extension.mk"
-.include "../../x11/py-wxWindows/buildlink2.mk"
 .include "../../mk/bsd.pkg.mk"
