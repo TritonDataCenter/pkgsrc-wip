@@ -11,7 +11,7 @@ HOMEPAGE=	http://www.qcc.ca/~charlesc/software/memtester/
 COMMENT=	Utility for testing the memory subsystem
 
 USE_GNU_TOOLS+=	make
-USE_BUILDLINK2=	yes
+USE_BUILDLINK3=	yes
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/memtest ${PREFIX}/bin/

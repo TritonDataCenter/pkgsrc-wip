@@ -9,7 +9,7 @@ MAINTAINER=	tmarc@NetBSD.org.pl
 HOMEPAGE=	http://www.darkwing.com/idled/
 COMMENT=	Daemon that logs out idle users
 
-USE_BUILDLINK2=	YES
+USE_BUILDLINK3=	YES
 
 post-extract:
 	${RM} -f ${WRKSRC}/parse.c ${WRKSRC}/scan.c
