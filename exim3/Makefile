@@ -78,7 +78,7 @@ post-build:
 		> ${WRKDIR}/mailer.conf
 
 post-install:
-	@${SED} ${FILES_SUBST_SED} ${FILESDIR}/exim_newaliases
+	@${SED} ${FILES_SUBST_SED} ${FILESDIR}/exim_newaliases \
 		> ${PREFIX}/sbin/exim_newaliases
 	${CHMOD} ugo+x ${PREFIX}/sbin/exim_newaliases
 	${INSTALL_DATA} ${WRKDIR}/mailer.conf ${EGDIR}
