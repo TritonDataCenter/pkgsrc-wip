@@ -6,7 +6,7 @@ $NetBSD$
  #  endif
  #  if defined(__NetBSD__)
  #   define USESYSCTL		1	/* use sysctl(3) for getting ncpus */
-+#   define SMRSH_CMDDIR                "/usr/libexec/sm.bin"
++#   define SMRSH_CMDDIR                "@@SMRSH_CMDDIR@@"
  #   include <sys/param.h>
  #   include <sys/sysctl.h>
  #  endif

@@ -20,10 +20,14 @@ PLIST_SUBST+=  CAT5=5
 PLIST_SUBST+=  CAT8=8
 .endif
 
+SMRSH_CMDDIR?=	${PREFIX}/libexec/sm.bin
+PLIST_SUBST+=	SMRSH_CMDDIR=${SMRSH_CMDDIR}
+
 SUBST_CLASSES=		paths
 SUBST_STAGE.paths=	pre-build
-SUBST_FILES.paths=	${WRKDIR}/mailer.conf
-SUBST_SED.paths=	-e "s|@@PREFIX@@|${PREFIX}|g"
+SUBST_FILES.paths=	${WRKDIR}/mailer.conf include/sm/conf.h 
+SUBST_SED.paths=	-e "s|@@PREFIX@@|${PREFIX}|g" \
+			-e "s|@@SMRSH_CMDDIR@@|${SMRSH_CMDDIR}|g"
 SUBST_MESSAGE.paths=	Fixing paths.
 
 .if ${OPSYS} == "SunOS"
@@ -104,6 +108,7 @@ pre-install:
 	${INSTALL_DATA_DIR} ${PREFIX}/libexec/sendmail
 
 post-install:
+	${INSTALL_DATA_DIR} ${SMRSH_CMDDIR}
 	${INSTALL_DATA_DIR} ${PREFIX}/share/examples/sendmail
 	${INSTALL_DATA_DIR} ${PREFIX}/share/sendmail
 	${INSTALL_DATA_DIR} ${PREFIX}/share/doc/sendmail

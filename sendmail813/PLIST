@@ -224,5 +224,6 @@ share/sendmail/siteconfig/uucp.ucbvax.m4
 @dirrm share/sendmail/cf
 @dirrm share/sendmail
 @unexec ${RMDIR} %D/share/examples/sendmail 2>/dev/null || ${TRUE}
+@unexec ${RMDIR} ${SMRSH_CMDDIR} 2>/dev/null || ${TRUE}
 @dirrm share/doc/sendmail
 @dirrm libexec/sendmail
