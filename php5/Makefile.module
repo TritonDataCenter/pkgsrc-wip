@@ -5,7 +5,6 @@
 PKGNAME?=		php-${MODNAME}-${PHP5_VERSION}
 PKGREVISION?=		# empty
 
-AUTOMAKE_REQD?=	1.7
 .include "../../mk/automake.mk"
 
 PKGMODNAME?=		${MODNAME:S/-/_/}

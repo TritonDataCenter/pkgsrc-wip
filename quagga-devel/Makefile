@@ -18,7 +18,6 @@ WRKSRC=		${WRKDIR}/quagga-0.96.5
 
 .include "../../mk/bsd.prefs.mk"
 
-AUTOMAKE_REQD=		1.6
 USE_BUILDLINK3=		yes
 GNU_CONFIGURE=		# defined
 USE_LIBTOOL=		YES
