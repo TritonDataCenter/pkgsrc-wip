@@ -1,5 +1,4 @@
 # $NetBSD$
-# FreeBSD Id: ports/www/mathopd/Makefile,v 1.16 2004/11/29 08:58:58 tobez Exp
 
 DISTNAME=	mathopd-1.5p4
 CATEGORIES=	www

@@ -1,5 +1,4 @@
 # $NetBSD$
-# FreeBSD Id: ports/sysutils/copytape/Makefile,v 1.10 2003/02/20 19:00:46 knu Exp
 
 DISTNAME=		copytape
 PKGNAME=		${DISTNAME}-1.0

@@ -1,5 +1,4 @@
 # $NetBSD$
-# FreeBSD Id: ports/shells/scponly/Makefile,v 1.1 2002/09/10 22:18:46 obraun Exp
 
 DISTNAME=	scponly-3.9
 CATEGORIES=	shells

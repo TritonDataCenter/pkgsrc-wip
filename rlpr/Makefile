@@ -1,5 +1,4 @@
 # $NetBSD$
-# FreeBSD Id: ports/print/rlpr/Makefile,v 1.12 2003/03/07 06:09:06 ade Exp
 
 DISTNAME=	rlpr-2.04
 CATEGORIES=	print net

@@ -1,5 +1,4 @@
 # $NetBSD$
-# FreeBSD Id: ports/news/cnews/Makefile,v 1.43 2001/06/24 04:28:36 dinoex Exp
 
 DISTNAME=	c-news
 PKGNAME=        c-news-CR-7

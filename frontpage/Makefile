@@ -1,5 +1,4 @@
 # $NetBSD$
-# FreeBSD Id: ports/www/frontpage/Makefile,v 1.5 2002/11/03 07:57:25 ijliao Exp
 
 DISTNAME=	frontpage-5.0.2.2623
 CATEGORIES=	www

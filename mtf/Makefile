@@ -1,5 +1,4 @@
 # $NetBSD$
-# FreeBSD Id: ports/archivers/mtf/Makefile,v 1.1 2002/06/26 06:33:35 ijliao Exp
 
 DISTNAME=	mtf-0.2.1
 CATEGORIES=	archivers

@@ -1,5 +1,4 @@
 # $NetBSD$
-# FreeBSD Id: ports/security/fragrouter/Makefile,v 1.8 2003/12/21 00:22:25 sergei Exp
 
 DISTNAME=	fragrouter-1.6
 CATEGORIES=	security

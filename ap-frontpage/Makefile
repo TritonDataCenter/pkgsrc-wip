@@ -1,5 +1,4 @@
 # $NetBSD$
-# FreeBSD Id: ports/www/mod_frontpage/Makefile,v 1.12 2002/05/23 22:38:29 mbr Exp
 
 DISTNAME=	mod_frontpage_mirfak-${M_FPVERSION}
 PKGNAME=	ap-frontpage-${M_FPVERSION}
