@@ -1,0 +1,5 @@
+@comment $NetBSD$
+include/libmilter/mfapi.h
+include/libmilter/mfdef.h
+lib/libmilter.a
+@dirrm include/libmilter
