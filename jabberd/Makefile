@@ -2,7 +2,6 @@
 #
 
 DISTNAME=		jabberd-1.4.3
-#PKGNAME=		${DISTNAME:S/-/d-/}
 CATEGORIES=		net
 MASTER_SITES=		http://jabberd.jabberstudio.org/1.4/dist/
 
