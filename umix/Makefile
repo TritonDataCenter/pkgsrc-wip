@@ -12,7 +12,7 @@ COMMENT=	Replacement for aumix
 USE_BUILDLINK2=	YES
 USE_LIBTOOL=	YES
 
-GAUTOMAKE_REQD=          1.4
+AUTOMAKE_REQD=          1.4
 GNU_CONFIGURE=          yes
 USE_GMAKE=              yes
 USE_LIBTOOL=            yes
