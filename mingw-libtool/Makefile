@@ -24,6 +24,7 @@ NO_BUILDLINK=	# defined
 do-build:
 	cd ${WRKSRC} && ${SETENV} PATH=${PATH} ./configure --host=${MINGWTARGET} --disable-ltdl-install 
 	cd ${WRKSRC} && ${SETENV} PATH=${PATH} ${GMAKE}
+	cd ${WRKSRC} && ${CP} libtool libtool.orig
 	cd ${WRKSRC} && ${CAT} ${.CURDIR}/files/patch-aa | ${PATCH} -p0
 
 do-install:
