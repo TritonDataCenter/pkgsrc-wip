@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.1246 2004/04/29 13:28:46 imilh Exp $
+# $Id: Makefile,v 1.1247 2004/04/29 21:00:39 xtraeme Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -716,6 +716,7 @@ SUBDIR+=	tsm
 SUBDIR+=	tutos
 SUBDIR+=	tuxtype2
 SUBDIR+=	typhoon
+SUBDIR+=	ucarp
 SUBDIR+=	uclibc
 SUBDIR+=	udhcp
 SUBDIR+=	umix
