@@ -5,7 +5,7 @@ CATEGORIES=	wip net
 MASTER_SITES=	http://trash.net/~reeler/bmon/files/
 
 MAINTAINER=	hsaliak@gmail.com
-HOMEPAGE=	http://trash.net/~reeler/bmon/files/
+HOMEPAGE=	http://trash.net/~reeler/bmon/
 COMMENT=	Bmon is an interface bandwidth monitor
 
 GNU_CONFIGURE=	yes
