@@ -19,9 +19,10 @@ CONFIGURE_ARGS+=	-prefix ${PREFIX}/lib				\
 			-with-tclconfig ${BUILDLINK_PREFIX.tcl}/lib/tclConfig.sh
 CONFIGURE_ENV+=		LANG=C
 
+.include "../../lang/tcl/buildlink3.mk"
+.include "../../www/apache/buildlink3.mk"
+
 do-install:
 	cd ${WRKSRC}; ./make.tcl install
 
-.include "../../lang/tcl/buildlink3.mk"
-.include "../../www/apache/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
