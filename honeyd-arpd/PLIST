@@ -1,4 +1,4 @@
 @comment $NetBSD$
-etc/rc.d/arpd
-man/man8/arpd.8
-sbin/arpd
+etc/rc.d/honeydarpd
+man/man8/honeyd-arpd.8
+sbin/honeyd-arpd

@@ -3,16 +3,16 @@
 # $NetBSD$
 #
 
-# PROVIDE: arpd
+# PROVIDE: honeydarpd
 # REQUIRE: DAEMON
 # BEFORE:  honeyd
 
 . /etc/rc.subr
 
-name="arpd"
+name="honeydarpd"
 rcvar=$name
-command="@PREFIX@/sbin/${name}"
-pidfile="/var/run/${name}.pid"
+command="@PREFIX@/sbin/honeyd-arpd"
+pidfile="/var/run/honeyd-arpd.pid"
 
 load_rc_config $name
 run_rc_command "$1"
