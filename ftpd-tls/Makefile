@@ -25,17 +25,17 @@ SUBST_FILES.path=	ftpd.8.TLS pathnames.h tlsutil.c README.TLS
 SUBST_SED.path=		-e "s|/etc|${PKG_SYSCONFBASE}|"			\
 			-e "s|/ftpd|/${PKGBASE}|"
 
-EGDIR=			${PREFIX}/share/${PKGBASE}
+DOCDIR=			${PREFIX}/share/doc/${PKGBASE}
 MESSAGE_SUBST+=		PKGBASE=${PKGBASE}
-MESSAGE_SUBST+=		EGDIR=${EGDIR}
+MESSAGE_SUBST+=		DOCDIR=${DOCDIR}
 MESSAGE_SUBST+=		RCD_SCRIPTS=${RCD_SCRIPTS}
 
 do-install:
-		${INSTALL_DATA_DIR} ${PREFIX}/share/${PKGBASE}
+		${INSTALL_DATA_DIR} ${DOCDIR}
 		${INSTALL_PROGRAM} ${WRKSRC}/ftpd ${PREFIX}/libexec/ftpd-tls
 		${INSTALL_MAN} ${WRKSRC}/ftpd.8.TLS \
 					${PREFIX}/man/man8/ftpd-tls.8
-		${INSTALL_DATA} ${WRKSRC}/README.TLS ${EGDIR}
+		${INSTALL_DATA} ${WRKSRC}/README.TLS ${DOCDIR}/README.TLS
 
 .include "../../security/openssl/buildlink3.mk"
 

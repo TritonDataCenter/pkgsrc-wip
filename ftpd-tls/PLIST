@@ -1,5 +1,5 @@
 @comment $NetBSD$
 libexec/ftpd-tls
 man/man8/ftpd-tls.8
-share/${PKGBASE}/README.TLS
-@dirrm share/${PKGBASE}
+share/doc/${PKGBASE}/README.TLS
+@dirrm share/doc/${PKGBASE}

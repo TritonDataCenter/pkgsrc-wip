@@ -1,7 +1,7 @@
 ===========================================================================
 $NetBSD$
 
-You should read ${EGDIR}/README.TLS to learn how to create
+You should read ${DOCDIR}/README.TLS to learn how to create
 and install your certificate.
 
 ${PKGBASE} can be run either in daemon mode with the ${RCD_SCRIPTS} script
