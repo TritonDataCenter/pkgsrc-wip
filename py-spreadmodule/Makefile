@@ -22,5 +22,4 @@ post-patch:
 
 .include "../../net/spread/buildlink2.mk"
 .include "../../lang/python/extension.mk"
-.include "../../mk/pthread.buildlink2.mk"
 .include "../../mk/bsd.pkg.mk"
