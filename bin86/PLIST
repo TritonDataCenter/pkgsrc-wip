@@ -1,0 +1,10 @@
+@comment $NetBSD$
+bin/as86
+bin/as86_encap
+bin/ld86
+bin/objdump86
+bin/nm86
+bin/size86
+man/man1/as86_encap.1
+man/man1/as86.1
+man/man1/ld86.1
