@@ -14,7 +14,7 @@ PKG_SUPPORTED_OPTIONS=	gnuplot plplot
 
 GNU_CONFIGURE=		yes
 USE_BUILDLINK3=		yes
-USE_GNU_READLINE=	yes
+USE_LANGUAGES=		fortran c
 
 .if !defined(PKG_OPTIONS.rlab)
 PKG_DEFAULT_OPTIONS+=	gnuplot
@@ -23,13 +23,13 @@ PKG_DEFAULT_OPTIONS+=	gnuplot
 .include "../../mk/bsd.options.mk"
 
 .if !empty(PKG_OPTIONS:Mgnuplot)
-DEPENDS+=		gnuplot-*:../../graphics/gnuplot
+DEPENDS+=		gnuplot-[0-9]*:../../graphics/gnuplot
 CONFIGURE_ARGS+=	--with-gnuplot
 .endif
 
 .if !empty(PKG_OPTIONS:Mplplot)
 .  include "../../graphics/plplot/buildlink3.mk"
-CONFIGURE_ARGS+=	--with-plplot=${PREFIX}/lib
+CONFIGURE_ARGS+=	--with-plplot=${BUILDLINK_PREFIX.plplot}/lib
 .endif
 
 CONFIGURE_ARGS+=	--with-LIBS=${PREFIX}/lib
