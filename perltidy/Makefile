@@ -3,8 +3,7 @@
 
 DISTNAME=	Perl-Tidy-20021130
 CATEGORIES=	devel
-MASTER_SITES=	http://us.dl.sourceforge.net/perltidy/
-
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=perltidy/}
 MAINTAINER=	virtus@wanadoo.nl
 HOMEPAGE=	http://perltidy.sourceforge.net
 COMMENT=	Indents and reformats Perl scripts to make them easier to read
