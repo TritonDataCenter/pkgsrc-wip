@@ -12,6 +12,8 @@ GNU_CONFIGURE=		yes
 USE_BUILDLINK3=		yes
 USE_LIBTOOL=		yes
 
+PREFER_PKGSRC=		yes
+
 .if exists(/usr/include/netinet/ip6.h)
 CONFIGURE_ARGS+=	--enable-ipv6
 .endif
