@@ -7,12 +7,12 @@ MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=mutella/}
 
 MAINTAINER=	packages@netbsd.org
 HOMEPAGE=	http://mutella.sourceforge.net
-COMMENT=	Console mode Gnutella client with optional http interface
+COMMENT=	Console mode Gnutella client with optional HTTP interface
 
 GNU_CONFIGURE=		yes
 USE_BUILDLINK2=		yes
 USE_LIBTOOL=		yes
-HAS_CONFIGURE=		yes
+GNU_CONFIGURE=		yes
 
 LIBTOOL_OVERRIDE=	${WRKSRC}/libtool
 
