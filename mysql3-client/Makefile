@@ -11,7 +11,6 @@ USE_BUILDLINK2=		YES
 
 USE_NEW_TEXINFO=	YES
 INFO_FILES=		mysql.info
-PLIST_SUBST+=		DISTNAME="${DISTNAME}"
 
 post-install:
 	cd ${PREFIX}/man/man1; ${RM} -f mysqld.1 safe_mysqld.1
