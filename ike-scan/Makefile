@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	ike-scan-1.1
+DISTNAME=	ike-scan-1.2
 CATEGORIES=	security net
 MASTER_SITES=	http://www.nta-monitor.com/ike-scan/download/
 
