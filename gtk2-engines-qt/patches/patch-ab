@@ -1,0 +1,13 @@
+$NetBSD$
+
+--- Makefile.in~	Tue Jan  6 22:24:20 2004
++++ Makefile.in	Tue Jan  6 22:36:31 2004
+@@ -83,7 +83,7 @@
+ 
+ SUBDIRS = Theme
+ 
+-QTDIR = /usr/lib/qt3
++QTDIR = ${QTDIR}
+ 
+ INCLUDES = $(QTENGINE_CFLAGS) -I$(QTDIR)/include/
+ 
