@@ -4,7 +4,7 @@ DISTNAME=		ed-0.2
 CATEGORIES=		editors
 MASTER_SITES=		${MASTER_SITE_GNU:=ed/}
 
-MAINTAINER=		tech-pkg@NetBSD.org
+MAINTAINER=		reed@reedmedia.net
 HOMEPAGE=		http://www.gnu.org/software/ed/ed.html
 COMMENT=		GNU version of line-oriented text editor
 

@@ -4,7 +4,7 @@ DISTNAME=		man-db-${VERSION}
 CATEGORIES=		misc
 MASTER_SITES=		http://savannah.nongnu.org/download/man-db/stable.pkg/${VERSION}/
 
-MAINTAINER=		tech-pkg@NetBSD.org
+MAINTAINER=		reed@reedmedia.net
 HOMEPAGE=		http://www.chiark.greenend.org.uk/~cjwatson/code/man-db/
 COMMENT=		man pager and related man page utilities
 

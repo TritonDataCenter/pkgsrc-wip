@@ -6,7 +6,7 @@ WRKSRC=			${WRKDIR}/usr/dict
 CATEGORIES=		misc
 MASTER_SITES=		${MASTER_SITE_SUNSITE:=libs/}
 
-MAINTAINER=		tech-pkg@NetBSD.org
+MAINTAINER=		reed@reedmedia.net
 #HOMEPAGE=
 COMMENT=		English word list
 

@@ -6,7 +6,7 @@ CATEGORIES=	devel
 MASTER_SITES=	ftp://invisible-island.net/byacc/
 EXTRACT_SUFX=	.tgz
 
-MAINTAINER=	tech-pkg@NetBSD.org
+MAINTAINER=	reed@reedmedia.net
 HOMEPAGE=	http://dickey.his.com/byacc/byacc.html
 COMMENT=	Berkeley Yacc
 

@@ -6,7 +6,7 @@ CATEGORIES=		sysutils
 MASTER_SITES=		# empty
 DISTFILES=		# empty
 
-MAINTAINER=		tech-pkg@NetBSD.org
+MAINTAINER=		reed@reedmedia.net
 COMMENT=		Print a dependency ordering of interdependent files
 
 # NetBSD since 1.5.2? has this included in base install.

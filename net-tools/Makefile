@@ -5,7 +5,7 @@ CATEGORIES=		net sysutils
 MASTER_SITES=		http://www.tazenda.demon.co.uk/phil/net-tools/
 EXTRACT_SUFX=		.tar.bz2
 
-MAINTAINER=		tech-pkg@NetBSD.org
+MAINTAINER=		reed@reedmedia.net
 #HOMEPAGE
 COMMENT=		Network configuration and status tools for Linux
 

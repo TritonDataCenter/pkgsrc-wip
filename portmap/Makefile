@@ -5,7 +5,7 @@ PKGNAME=	portmap-4
 CATEGORIES=	net
 MASTER_SITES=	ftp://ftp.porcupine.org/pub/security/
 
-MAINTAINER=	tech-pkg@NetBSD.org
+MAINTAINER=	reed@reedmedia.net
 HOMEPAGE=	ftp://ftp.porcupine.org/pub/security/index.html
 COMMENT=	RPC portmapper with access control
 

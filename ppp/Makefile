@@ -4,7 +4,7 @@ DISTNAME=	ppp-2.4.1
 CATEGORIES=	net
 MASTER_SITES=	http://ftp.samba.org/ftp/ppp/
 
-MAINTAINER=	tech-pkg@NetBSD.org
+MAINTAINER=	reed@reedmedia.net
 HOMEPAGE=	http://www.samba.org/ppp/
 COMMENT=	Point-to-Point Protocol (PPP) over serial lines
 

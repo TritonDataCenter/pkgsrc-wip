@@ -5,7 +5,7 @@ CATEGORIES=		sysutils
 MASTER_SITES=		${MASTER_SITE_SUNSITE:=system/daemons/}
 MASTER_SITES+=		http://www.infodrom.org/projects/sysklogd/download/
 
-MAINTAINER=		tech-pkg@NetBSD.org
+MAINTAINER=		reed@reedmedia.net
 HOMEPAGE=		http://www.infodrom.org/projects/sysklogd/
 COMMENT=		System and kernel log daemons for Linux
 
