@@ -19,8 +19,13 @@ BUILDLINK_FILES.libfwbuilder+=	lib/libfwcompiler.*
 .include "../../devel/glib/buildlink2.mk"
 .include "../../lang/gcc/buildlink2.mk"
 .include "../../net/ucd-snmp/buildlink2.mk"
-.include "../../net/bind9/buildlink2.mk"
 .include "../../textproc/libxslt/buildlink2.mk"
+
+.if defined(FWBUILDER_USE_BIND) && !empty(FWBUILDER_USE_BIND:M[yY][eE][sS])
+.include "../../net/bind9/buildlink2.mk"
+.else
+.include "../../security/openssl/buildlink2.mk"
+.endif
 
 BUILDLINK_TARGETS+=	libfwbuilder-buildlink
 
