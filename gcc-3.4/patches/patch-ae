@@ -37,7 +37,7 @@ $NetBSD$
 +    a-intnam.ads<4netbsdintnam.ads \
 +    s-inmaop.adb<7sinmaop.adb \
 +    s-intman.adb<5netbsdintman.adb \
-+    s-osinte.adb<5netbsd64osinte.adb \
++    s-osinte.adb<5netbsdosinte.adb \
 +    s-osinte.ads<5netbsd64osinte.ads \
 +    s-osprim.adb<5posprim.adb \
 +    s-parame.adb<5netbsdparame.adb \
