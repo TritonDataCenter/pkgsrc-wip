@@ -37,7 +37,7 @@ CONFLICTS+=	amavis-perl-[0-9]*
 
 USE_PERL5=		yes
 PERL5_REQD=		5.8.2
-REPLACE_PERL+=		${WRKSRC}/amavisd
+REPLACE_PERL+=		amavisd
 
 USE_PKGINSTALL=		yes
 AMAVIS_USER?=		vscan
