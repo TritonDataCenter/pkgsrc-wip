@@ -52,6 +52,6 @@ share/ettercap/etterfilter.cnt
 share/ettercap/etterfilter.tbl
 share/ettercap/etterlog.dtd
 share/examples/ettercap-NG/etter.conf
+@dirrm share/examples/ettercap-NG
 @dirrm share/ettercap
 @dirrm lib/ettercap
-@dirrm share/examples/ettercap-NG
