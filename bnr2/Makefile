@@ -10,7 +10,7 @@ EXTRACT_SUFX=		.tgz
 DISTFILES=		${DISTNAME}${EXTRACT_SUFX} \
 			libborqt-6.9.0-qt2.3.so.tgz
 
-MAINTAINER=		tv@duh.org
+MAINTAINER=		dhowland@users.sourceforge.net
 HOMEPAGE=		http://www.bnr2.org/
 COMMENT=		USENET bulk binary downloader (X11)
 
