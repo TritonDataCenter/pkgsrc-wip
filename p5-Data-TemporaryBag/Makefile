@@ -10,6 +10,8 @@ MAINTAINER=	tech-pkg@NetBSD.org
 HOMEPAGE=	http://search.cpan.org/search?dist=Data-TemporaryBag
 COMMENT=	Handle long size data using temporary file
 
+PKG_INSTALLATION_TYPES=	overwrite pkgviews
+
 USE_BUILDLINK3=		yes
 
 PERL5_PACKLIST=		${PERL5_SITEARCH}/auto/Data/TemporaryBag/.packlist
