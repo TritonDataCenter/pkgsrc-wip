@@ -1,9 +1,9 @@
 # $NetBSD$
 #
 
-DISTNAME=	liquidwar-5.5.8
+DISTNAME=	liquidwar-5.5.9
 CATEGORIES=	games
-MASTER_SITES=	http://freesoftware.fsf.org/download/liquidwar/
+MASTER_SITES=	http://savannah.nongnu.org/download/liquidwar/
 
 MAINTAINER=	packages@netbsd.org
 HOMEPAGE=	http://www.ufoot.org/liquidwar/
