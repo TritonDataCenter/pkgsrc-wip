@@ -32,5 +32,5 @@ post-install:
 	${RM} -f ${PREFIX}/include/pgsql
 	${LN} -sf postgresql ${PREFIX}/include/pgsql
 
-.include "../../security/openssl/buildlink2.mk"
+.include "../../security/openssl/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

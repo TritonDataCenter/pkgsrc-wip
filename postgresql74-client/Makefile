@@ -33,8 +33,8 @@ post-install:
 USE_GNU_READLINE=yes
 .endif
 
-.include "../../wip/postgresql74-lib/buildlink2.mk"
-.include "../../devel/readline/buildlink2.mk"
-.include "../../devel/zlib/buildlink2.mk"
+.include "../../wip/postgresql74-lib/buildlink3.mk"
+.include "../../devel/readline/buildlink3.mk"
+.include "../../devel/zlib/buildlink3.mk"
 
 .include "../../mk/bsd.pkg.mk"
