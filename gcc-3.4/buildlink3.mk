@@ -29,8 +29,10 @@ BUILDLINK_INCDIRS.gcc-3.4+=	include ${_GCC_ARCHDIR:S/^${BUILDLINK_PREFIX.gcc-3.4
 .endif  # GCC34_BUILDLINK3_MK
 
 BUILDLINK_PKGSRCDIR.gcc-3.4?=     ../../wip/gcc-3.4
-BUILDLINK_CONTENTS_FILTER.gcc-3.4= \
-	${EGREP} '(libexec.*|bin.*/|include.*/|\.h$$|\.pc$$|lib.*/lib[^/]*$$|ada.*path)'
+BUILDLINK_FILES_CMD.gcc-3.4=	\
+	(cd  ${BUILDLINK_PREFIX.gcc-3.4} &&	\
+	${FIND} bin libexec lib \( -type file -o -type link \) -print)
+BUILDLINK_TRANSFORM.gcc-3.4=	-e s:\buildlink:buildlink/gcc-3.4.0:
 
 # Packages that link against shared libraries need a full dependency.
 .  if defined(USE_GCC_SHLIB)
