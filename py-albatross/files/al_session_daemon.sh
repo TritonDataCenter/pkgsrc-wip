@@ -35,6 +35,12 @@ al_session_daemon_precmd()
                 @CHMOD@ 0750 @RUNTIME_DIR@
                 @CHOWN@ @PKG_USERS@ @RUNTIME_DIR@
         fi
+        if [ ! -d @LOGDIR@ ]
+        then
+                @MKDIR@ @LOGDIR@
+                @CHMOD@ 0750 @LOGDIR@
+                @CHOWN@ @PKG_USERS@ @LOGDIR@
+        fi
 }
 
 al_doit()
