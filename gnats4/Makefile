@@ -2,7 +2,6 @@
 #
 
 DISTNAME=	gnats-4.0
-PKGNAME=	${DISTNAME:S/gnats/gnats4/}
 CATEGORIES=	databases
 MASTER_SITES=	http://home.pacific.net.au/~meganandaj/
 
