@@ -1,0 +1,4 @@
+@comment $NetBSD$
+lib/luasocket/libluasocket.so
+lib/luasocket/libluasocket.so.2.0
+@dirrm lib/luasocket
