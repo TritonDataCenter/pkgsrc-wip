@@ -5,11 +5,11 @@ PKGNAME=	${DISTNAME:S/-/-gtk2-/}
 
 CONFLICTS=	nvtv-[0-9]*
 
-DESCR_SRC=	${PKGDIR}/../../wip/nvtv/DESCR
-DISTINFO_FILE=	${PKGDIR}/../../wip/nvtv/distinfo
-FILESDIR=	${PKGDIR}/../../wip/nvtv/files
-PLIST_SRC=	${PKGDIR}/../../wip/nvtv/PLIST
-PATCHDIR=	${PKGDIR}/../../wip/nvtv/patches
+DESCR_SRC=	${.CURDIR}/../../wip/nvtv/DESCR
+DISTINFO_FILE=	${.CURDIR}/../../wip/nvtv/distinfo
+FILESDIR=	${.CURDIR}/../../wip/nvtv/files
+PLIST_SRC=	${.CURDIR}/../../wip/nvtv/PLIST
+PATCHDIR=	${.CURDIR}/../../wip/nvtv/patches
 
 .include "../../x11/gtk2/buildlink2.mk"
 
