@@ -17,5 +17,5 @@ PYSETUP=	setup_gnosis.py
 PY_PATCHPLIST=	YES
 
 .include "../../lang/python/extension.mk"
-.include "../../textproc/pyxml/buildlink2.mk"
+.include "../../textproc/py-xml/buildlink2.mk"
 .include "../../mk/bsd.pkg.mk"
