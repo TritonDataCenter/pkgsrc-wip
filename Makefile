@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.70 2003/04/13 12:35:12 cjep Exp $
+# $Id: Makefile,v 1.71 2003/04/13 12:51:49 cjep Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -10,6 +10,7 @@ SUBDIR+=	ap-bandwidth
 SUBDIR+=	autoproject
 SUBDIR+=	billardgl
 SUBDIR+=	byacc
+SUBDIR+=	celestia
 SUBDIR+=	chksniff
 SUBDIR+=	cvsd
 SUBDIR+=	drweb
