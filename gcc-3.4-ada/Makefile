@@ -23,8 +23,8 @@ CONFIGURE_ARGS+=        --enable-languages="c,ada"
 
 # An Ada compiler is required to build this pkg. Two
 may be used:
-#USE_GCC3	=# Define to use lang/gcc3-ada
-USE_GCC34	=# Define to use gcc-3.4-ada
+USE_GCC3	=# Define to use lang/gcc3-ada
+#USE_GCC34	=# Define to use gcc-3.4-ada
 .if defined(USE_GCC3)
 BUILDLINK_ENV+=PATH=${PREFIX}/gcc3/bin:${PATH}
 .endif
