@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		ipython-0.6.11
+DISTNAME=		ipython-0.6.12
 PKGNAME=		${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=		devel python
 MASTER_SITES=		http://ipython.scipy.org/dist/
