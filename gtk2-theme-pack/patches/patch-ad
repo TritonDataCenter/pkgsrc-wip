@@ -1,9 +1,9 @@
 $NetBSD$
 
---- work/LighthouseGreen/gtk-2.0/gtkrc	Thu Jul 24 14:45:51 2003
-+++ LighthouseGreen/gtk-2.0/gtkrc	Thu Nov 27 16:37:12 2003
-@@ -50,8 +50,8 @@
-   engine "lighthouseblue"
+--- Lighthouse-H20/gtk-2.0/gtkrc~	Fri Mar 14 02:37:42 2003
++++ Lighthouse-H20/gtk-2.0/gtkrc	Thu Nov 27 16:46:04 2003
+@@ -54,8 +54,8 @@
+ engine "lighthouseblue"
    {
      has_notebook_patch = FALSE
 -    make_tab_labels_bold = TRUE
