@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	libwpd-0.4.0
+DISTNAME=	libwpd-0.7.1
 CATEGORIES=	converters
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=libwpd/}
 
@@ -10,6 +10,7 @@ COMMENT=	Library for importing and exporting WordPerfect(tm) documents
 
 USE_BUILDLINK2=	YES
 GNU_CONFIGURE=	YES
+USE_LIBTOOL=	YES
 USE_GNU_TOOLS+=	make
 
 .include "../../devel/glib2/buildlink2.mk"
