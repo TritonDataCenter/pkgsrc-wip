@@ -43,6 +43,6 @@ do-install:
 	${INSTALL_DATA} ${WRKSRC}/doc/sendmail/viruses_list.txt ${DOCDIR}
 
 .include "../../wip/drweb-clients-shared/Makefile.common"
-.include "../../mail/libmilter/buildlink2.mk"
+.include "../../mail/libmilter/buildlink3.mk"
 .include "../../wip/mk/rcd.mk"
 .include "../../mk/bsd.pkg.mk"
