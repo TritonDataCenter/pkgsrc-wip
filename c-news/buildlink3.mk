@@ -1,8 +1,6 @@
 # $NetBSD$
 
-# XXX Packages that only install static libraries or headers should
-# XXX include the following line:
-
+# install static libraries and headers
 BUILDLINK_DEPMETHOD.c-news-CR?=	build
 
 BUILDLINK_DEPTH:=		${BUILDLINK_DEPTH}+
