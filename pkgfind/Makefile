@@ -26,7 +26,7 @@ do-install:
 
 SUBST_CLASSES=		path
 SUBST_STAGE.path=	post-patch
-SUBST_FILES.path=	${FILESDIR}/pkgfind.c ${FILESDIR}/pkgfind.1
+SUBST_FILES.path=	pkgfind.c pkgfind.1
 SUBST_SED.path=		-e "s,/usr/pkgsrc,${_PKGSRCDIR},g"
 SUBST_MESSAGE.path=	"Adjusting pkgsrc directory."
 
