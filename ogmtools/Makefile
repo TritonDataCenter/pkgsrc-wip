@@ -15,7 +15,6 @@ GNU_CONFIGURE=	YES
 
 CONFIGURE_ARGS+=	--with-dvdread-includes=${BUILDLINK_DIR}
 
-.include "../../audio/libogg/buildlink2.mk"
 .include "../../audio/libvorbis/buildlink2.mk"
 .include "../../misc/libdvdread/buildlink2.mk"
 .include "../../mk/bsd.pkg.mk"
