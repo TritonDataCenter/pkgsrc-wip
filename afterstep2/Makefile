@@ -19,7 +19,5 @@ USE_GNU_TOOLS+=		make
 USE_PERL5=		run
 USE_X11=		YES
 
-INSTALLATION_DIRS=	bin include man/man1 man/man3 share
-
 .include "../../graphics/freetype2/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
