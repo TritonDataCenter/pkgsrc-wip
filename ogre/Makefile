@@ -1,8 +1,8 @@
 # $NetBSD$
 #
 
-DISTNAME=	ogre-v0-12-0
-PKGNAME=	ogre-0.12.0
+DISTNAME=	ogre-v0-12-1
+PKGNAME=	ogre-0.12.1
 WRKSRC=		${WRKDIR}/ogrenew
 CATEGORIES=	devel
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=ogre/}
