@@ -1,6 +1,0 @@
-@comment $NetBSD$
-bin/bsflite
-share/doc/bsflite/COPYING
-share/doc/bsflite/ChangeLog
-share/doc/bsflite/README
-@dirrm share/doc/bsflite
