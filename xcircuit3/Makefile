@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	xcircuit-3.1.15
+DISTNAME=	xcircuit-3.1.17
 CATEGORIES=	cad graphics
 MASTER_SITES=	http://xcircuit.ece.jhu.edu/archive/	\
 		http://bach.ece.jhu.edu/~tim/programs/xcircuit/archive/
