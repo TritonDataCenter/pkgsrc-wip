@@ -1,0 +1,9 @@
+@comment $NetBSD$
+bin/bottom
+bin/dateget
+bin/dateserve
+bin/extract
+bin/firepipe
+bin/firerecv
+bin/firesend
+bin/swapon
