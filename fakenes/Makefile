@@ -1,7 +1,7 @@
 # $NetBSD$
 
 DISTNAME=		fakenes-0.1.5
-CATEGORIES=		wip emulators
+CATEGORIES=		emulators
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=fakenes/}
 EXTRACT_SUFX=		.tar.bz2
 
