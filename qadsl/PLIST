@@ -1,4 +1,0 @@
-@comment $NetBSD$
-share/examples/qadsl.conf.sample
-man/man8/qadsl.8.gz
-sbin/qadsl
