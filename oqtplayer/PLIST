@@ -1,0 +1,4 @@
+@comment $NetBSD$
+bin/oqtplayer
+share/oqtplayer/readme
+@dirrm share/oqtplayer
