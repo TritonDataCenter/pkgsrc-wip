@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	libprelude-0.8.7
+DISTNAME=	libprelude-0.8.10
 CATEGORIES=	net www
 MASTER_SITES=	http://www.prelude-ids.org/download/releases/
 

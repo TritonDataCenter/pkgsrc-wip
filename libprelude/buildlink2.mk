@@ -2,7 +2,7 @@
 
 BUILDLINK_PACKAGES+=			libprelude
 BUILDLINK_PKGBASE.libprelude+=		libprelude
-BUILDLINK_DEPENDS.libprelude?=		libprelude>=0.8.7
+BUILDLINK_DEPENDS.libprelude?=		libprelude>=0.8.10
 BUILDLINK_PKGSRCDIR.libprelude?=	../../wip/libprelude
 
 EVAL_PREFIX+=				BUILDLINK_PREFIX.libprelude=libprelude
