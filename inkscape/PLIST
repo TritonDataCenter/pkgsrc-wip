@@ -277,5 +277,3 @@ share/pixmaps/inkscape.png
 @dirrm share/inkscape/clipart
 @dirrm share/inkscape
 @comment in xdg-dirs: @dirrm share/applications
-@exec ${MKDIR} %D/lib/inkscape
-@dirrm lib/inkscape
