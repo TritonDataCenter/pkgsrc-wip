@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	allegro-4.1.11
+DISTNAME=	allegro-4.1.12
 CATEGORIES=	devel
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=alleg/}
 
