@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		py-gtk2-docs
-PKGNAME=		py-gtk2-docs-0
+PKGNAME=		py-gtk2-docs-1
 WRKSRC=			${WRKDIR}
 CATEGORIES=		devel
 MASTER_SITES=		http://www.moeraki.com/pygtktutorial/ \
