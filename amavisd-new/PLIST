@@ -1,4 +1,8 @@
 @comment $NetBSD$
+etc/rc.d/amavisd
+${AMAVIS_MILTER_USED}sbin/amavis
+${AMAVIS_MILTER_USED}sbin/amavis-milter
+sbin/amavisd
 share/doc/amavisd-new/AAAREADME.first
 share/doc/amavisd-new/INSTALL
 share/doc/amavisd-new/LDAP.schema
@@ -21,5 +25,3 @@ share/doc/amavisd-new/README.sendmail-dual
 share/doc/amavisd-new/RELEASE_NOTES
 share/doc/amavisd-new/amavisd.conf
 @dirrm share/doc/amavisd-new
-etc/rc.d/amavisd.sh
-sbin/amavisd
