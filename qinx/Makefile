@@ -19,6 +19,6 @@ LIBTOOL_OVERRIDE=	${WRKSRC}/libtool
 
 LDFLAGS+=		${EXPORT_SYMBOLS_LDFLAGS}
 
-.include "../../x11/kde3/buildlink2.mk"
+.include "../../meta-pkgs/kde3/buildlink2.mk"
 .include "../../mk/pthread.buildlink2.mk"
 .include "../../mk/bsd.pkg.mk"

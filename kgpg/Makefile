@@ -20,7 +20,7 @@ USE_GMAKE=		yes
 .include "../../mk/bsd.prefs.mk"
 
 .include "../../x11/qt3-libs/buildlink2.mk"
-.include "../../x11/kde3/buildlink2.mk"
+.include "../../meta-pkgs/kde3/buildlink2.mk"
 .include "../../x11/kdelibs3/buildlink2.mk"
 
 .include "../../mk/bsd.pkg.mk"

@@ -40,7 +40,7 @@ GNU_CONFIGURE=  YES
 USE_LIBTOOL=    YES
 LTCONFIG_OVERRIDE=  ${WRKSRC}/ltconfig
 
-.include "../../x11/kde3/buildlink2.mk"
+.include "../../meta-pkgs/kde3/buildlink2.mk"
 .include "../../x11/kdelibs3/buildlink2.mk"
 .include "../../x11/qt3-tools/buildlink2.mk"
 .include "../../mk/bsd.pkg.mk"
