@@ -25,7 +25,7 @@ XINSTALL_MAN_DIRS=	${XINSTALL_DIRS}
 .include "../../mk/bsd.prefs.mk"
 
 post-patch:
-	${SED} -e 's,@MAKESTRS@,${X11BASE}/bin/makestrs,g' \
+	${SED} -e 's,@MAKESTRS@,${X11PREFIX}/bin/makestrs,g' \
 		${WRKSRC}/config/cf/Library.tmpl \
 		> ${WRKSRC}/config/cf/Library.tmpl.tmp && \
 		${MV} ${WRKSRC}/config/cf/Library.tmpl.tmp \
