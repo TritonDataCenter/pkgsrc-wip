@@ -18,7 +18,7 @@ NOT_FOR_PLATFORM=	NetBSD-[01].[012345]*-*
 ONLY_FOR_PLATFORM=	NetBSD-*-* FreeBSD-*-*
 
 .include "../../mk/bsd.prefs.mk"
-.if ! empty(WISTUMBLER2_USE_GTK:M[Nn][Oo])
+.if !empty(WISTUMBLER2_USE_GTK:M[Nn][Oo])
 CONFIGURE_ENV+=USE_GTK=0
 .else
 .include "../../x11/gtk2/buildlink2.mk"

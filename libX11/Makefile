@@ -30,4 +30,5 @@ USE_GMAKE=		yes
 
 CONFIGURE_ENV+=		KEYSYMDEF=${X11PREFIX}/include/X11/keysymdef.h
 
+.include "../../devel/pkgconfig/buildlink2.mk"
 .include "../../mk/bsd.pkg.mk"
