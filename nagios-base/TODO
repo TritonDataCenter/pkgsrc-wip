@@ -6,5 +6,7 @@ TODO list for nagios-base
 	- A little more testing.
 	- Add apache installation instructions to some post install
 message, instead of always looking at doco.
+	- Add optional support for MySQL (WITH_MYSQL=1) or PgSQL (WITH_POSTGRES=1)
+Done
 
 Update to 1.1.

@@ -1,8 +1,6 @@
 # $NetBSD$
 #
 
-CATEGORIES=		net sysutils
-
 NAGIOS_USER?=		nagios
 NAGIOS_GROUP?=		${NAGIOS_USER}
 
