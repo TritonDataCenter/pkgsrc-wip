@@ -61,6 +61,11 @@ USE_TCPWRAPPERS?=	YES
 .include "../../security/tcp_wrappers/buildlink3.mk"
 .endif
 
+USE_SOCKETMAP?=	YES
+.if ${USE_SOCKETMAP} == YES
+USE_PERL5= YES
+.endif
+
 post-patch: make-sendmail-siteconfig
 .if ${USE_TCPWRAPPERS} == YES
 	@${CAT} ${FILESDIR}/site.config.m4-tcpwrappers >>${SITECONFIG}
@@ -83,7 +88,6 @@ post-patch: make-sendmail-siteconfig
 .endif
 .if defined(USE_SOCKETMAP) && ${USE_SOCKETMAP} == YES
 	@${CAT} ${FILESDIR}/site.config.m4-socketmap >>${SITECONFIG}
-	USE_PERL5=	YES
 .endif
 
 do-build:
