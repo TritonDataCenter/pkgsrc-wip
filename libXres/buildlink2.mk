@@ -9,7 +9,7 @@
 LIBXRES_BUILDLINK2_MK=	# defined
 
 BUILDLINK_PACKAGES+=			libXres
-BUILDLINK_DEPENDS.libXres?=		libXres>=1.0.1
+BUILDLINK_DEPENDS.libXres?=		libXres>=1.0.1nb1
 BUILDLINK_PKGSRCDIR.libXres?=		../../wip/libXres
 
 EVAL_PREFIX+=	BUILDLINK_PREFIX.libXres=libXres
@@ -19,6 +19,7 @@ BUILDLINK_FILES.libXres+=	lib/libXRes.*
 
 .include "../../wip/libX11/buildlink2.mk"
 .include "../../wip/libXau/buildlink2.mk"
+.include "../../wip/libXext/buildlink2.mk"
 .include "../../wip/xproto/buildlink2.mk"
 .include "../../wip/xextensions/buildlink2.mk"
 .include "../../wip/resourceext/buildlink2.mk"
