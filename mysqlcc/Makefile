@@ -2,6 +2,7 @@
 #
 
 DISTNAME=		mysqlcc-0.9.3-src
+PKGNAME=		${DISTNAME:S/-src//}
 CATEGORIES=		databases
 MASTER_SITES=		http://mysql.belnet.be/Downloads/MySQLCC/
 
