@@ -8,7 +8,7 @@ MAINTAINER=     tech-pkg@NetBSD.org
 HOMEPAGE=       http://nedbsd.nl/~ppostma/pf-lkm.html
 COMMENT=        OpenBSD spamd daemon which rejects false mail
 
-ONLY_FOR_PLATFORM=      NetBSD-2.[0-9]*-*
+ONLY_FOR_PLATFORM=      NetBSD-2*-*
 
 USE_PKGINSTALL=         YES
 
