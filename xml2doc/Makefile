@@ -8,7 +8,7 @@ MASTER_SITES=	http://xml2doc.sourceforge.net/src/
 EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	pancake@phreaker.net
-HOMEPAGE=	http://xml2doc.sourceforge.net/src/
+HOMEPAGE=	http://xml2doc.sourceforge.net/
 COMMENT=	Xml to document formats converter
 
 USE_BUILDLINK2=		yes
