@@ -41,7 +41,7 @@ PYTHON_PATCH_SCRIPTS+=	pygopherd/gopherentryTest.py
 PYTHON_PATCH_SCRIPTS+=	pygopherd/initializationTest.py
 PYTHON_PATCH_SCRIPTS+=	pygopherd/testutil.py
 
-PYTHON_VERSIONS_ACCEPTED=	23pth 22pth
+PYTHON_VERSIONS_ACCEPTED=	23 23pth 22 22pth
 
 post-patch:
 	for sedfile in ${SEDFILES}; do \
