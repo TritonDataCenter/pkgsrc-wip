@@ -8,7 +8,7 @@ EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	xtraeme@NetBSD.org
 HOMEPAGE=	http://gift.sourceforge.net/
-COMMENT=	Modular daemon that abstracts filesharing protocols	
+COMMENT=	Modular daemon that abstracts filesharing protocols
 
 USE_BUILDLINK2=		yes
 USE_PKGLOCALEDIR=	yes

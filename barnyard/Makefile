@@ -15,7 +15,7 @@ USE_BUILDLINK2=		YES
 PKG_SYSCONFSUBDIR=	snort
 
 CONF_FILES=	${EGDIR}/barnyard.conf \
-		${PKG_SYSCONFDIR}/barnyard.conf 
+		${PKG_SYSCONFDIR}/barnyard.conf
 
 EGDIR=		${PREFIX}/share/examples/barnyard
 

@@ -23,7 +23,7 @@ post-install:
 
 	${INSTALL_DATA} ${WRKSRC}/httpd.conf.example-full \
 		${PREFIX}/share/examples/ap-security
-	
+
 	${INSTALL_DATA} ${WRKSRC}/httpd.conf.example-minimal \
 		${PREFIX}/share/examples/ap-security
 
