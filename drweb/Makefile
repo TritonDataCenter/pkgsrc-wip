@@ -13,8 +13,8 @@ MAINTAINER=	tech-pkg@NetBSD.org
 HOMEPAGE=	http://www.sald.com/
 COMMENT=	DrWeb Antivirus Suite
 
-ONLY_FOR_PLATFORM= FreeBSD-[3-5].[0-9]*-i386 OpenBSD-[3-9].*-i386	\
-		NetBSD-1.[6-9]*-i386 NetBSD-[2-9].[0-9]-i386		\
+ONLY_FOR_PLATFORM= FreeBSD-[3-5].*-i386 OpenBSD-[3-9].*-i386		\
+		NetBSD-1.[6-9]*-i386 NetBSD-[2-9].*-i386		\
 		Linux-*-i[3-6]86 Solaris-*-i386
 
 .include "../../wip/mk/rcd.mk"
