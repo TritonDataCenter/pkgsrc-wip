@@ -26,8 +26,8 @@ GCONF2_SCHEMAS+=	gst-thumbnail.schemas
 
 .include "../../devel/GConf2/schemas.mk"
 .include "../../sysutils/nautilus/buildlink2.mk"
-.include "../../misc/gstreamer/buildlink2.mk"
-.include "../../misc/gst-plugins/buildlink2.mk"
+.include "../../multimedia/gstreamer/buildlink2.mk"
+.include "../../multimedia/gst-plugins/buildlink2.mk"
 .include "../../devel/gettext-lib/buildlink2.mk"
 .include "../../mk/pthread.buildlink2.mk"
 .include "../../mk/ossaudio.buildlink2.mk"

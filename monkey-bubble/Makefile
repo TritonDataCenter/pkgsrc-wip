@@ -17,5 +17,5 @@ GNU_CONFIGURE=		yes
 USE_GNU_TOOLS+=		make
 
 .include "../../graphics/librsvg2/buildlink2.mk"
-.include "../../misc/gstreamer/buildlink2.mk"
+.include "../../multimedia/gstreamer/buildlink2.mk"
 .include "../../mk/bsd.pkg.mk"
