@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.785 2003/12/21 08:00:53 marttikuparinen Exp $
+# $Id: Makefile,v 1.786 2003/12/21 11:08:14 xtraeme Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -562,7 +562,6 @@ SUBDIR+=	sqlrelay
 SUBDIR+=	sredird
 SUBDIR+=	srvx
 SUBDIR+=	steghide
-SUBDIR+=	stickynotes-applet
 SUBDIR+=	strace
 SUBDIR+=	streamripper
 SUBDIR+=	stunnel3
