@@ -17,4 +17,6 @@ PKGCONFIG_OVERRIDE+=	${WRKSRC}/pxlib.pc.in
 GNU_CONFIGURE=		yes
 MINGW_STATIC=		# defined
 
+BUILD_DEPENDS=		${MINGW_PKG_PREFIX}libiconv>=1.9.1:../../wip/mingw32-libiconv
+
 .include "../../wip/mk/win32.pkg.mk"
