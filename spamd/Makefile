@@ -7,7 +7,7 @@ MASTER_SITES=   http://nedbsd.nl/~ppostma/pf/
 
 MAINTAINER=     tech-pkg@NetBSD.org
 HOMEPAGE=       http://nedbsd.nl/~ppostma/pf-lkm.html
-COMMENT=        Fake sendmail(8)-like daemon which rejects false mail
+COMMENT=        OpenBSD spamd daemon which rejects false mail
 
 USE_PKGINSTALL=         YES
 
