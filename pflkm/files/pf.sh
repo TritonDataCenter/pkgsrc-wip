@@ -11,7 +11,7 @@
 name="pf"
 rcvar=$name
 command="@PREFIX@/sbin/pfctl"
-config="@PKG_SYSCONFDIR@/etc/pf.conf"
+config="@PKG_SYSCONFDIR@/pf.conf"
 start_cmd="${command} -e -f ${config}"
 stop_cmd="${command} -d"
 status_cmd="${command} -s info"
