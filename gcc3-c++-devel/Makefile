@@ -8,6 +8,7 @@ COMMENT=		GNU Compiler Collection, version 3-${SNAPDATE}, c++ compiler
 
 CONFIGURE_ARGS+=	--enable-languages="c++"
 CONFIGURE_ARGS+=	--disable-nls
+CONFIGURE_ARGS+=	--enable-threads=posix
 
 post-configure:
 	(cd ${WRKSRC} && ${SETENV} ${MAKE_ENV} ${GMAKE} configure-host)
