@@ -12,7 +12,7 @@ BUILDLINK_PACKAGES+=	glkloader
 
 .if !empty(GLKLOADER_BUILDLINK3_MK:M+)
 BUILDLINK_DEPENDS.glkloader+=	glkloader>=0.3.2
-BUILDLINK_PKGSRCDIR.glkloader?=	../../zzz/glkloader
+BUILDLINK_PKGSRCDIR.glkloader?=	../../wip/glkloader
 
 BUILDLINK_TRANSFORM+=	l:glk:glkloader
 BUILDLINK_TARGETS+=	buildlink-glkloader-hook
