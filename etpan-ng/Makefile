@@ -16,4 +16,5 @@ GNU_CONFIGURE=		yes
 .include "../../lang/perl5/buildlink2.mk"
 .include "../../devel/ncurses/buildlink2.mk"
 .include "../../wip/libetpan/buildlink2.mk"
+.include "../../mk/pthread.buildlink2.mk"
 .include "../../mk/bsd.pkg.mk"

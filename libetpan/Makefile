@@ -15,4 +15,6 @@ USE_LIBTOOL=		yes
 LIBTOOL_OVERRIDE=	${WRKSRC}/libtool
 GNU_CONFIGURE=		yes
 
+.include "../../mk/pthread.buildlink2.mk"
+.include "../../converters/libiconv/buildlink2.mk"
 .include "../../mk/bsd.pkg.mk"
