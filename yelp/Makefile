@@ -8,9 +8,9 @@ EXTRACT_SUFX=		.tar.bz2
 
 MAINTAINER=		xtraeme@NetBSD.org
 HOMEPAGE=		http://www.gnome.org/
-COMMENT=		Help browser for GNOME 2.0 desktop
+COMMENT=		Help browser for GNOME 2 desktop
 
-DEPENDS=		gnome2-dirs>=1.0:../../misc/gnome2-dirs
+DEPENDS=		gnome2-dirs>=1.2:../../misc/gnome2-dirs
 BUILD_USES_MSGFMT=	yes
 
 USE_BUILDLINK2=		yes
