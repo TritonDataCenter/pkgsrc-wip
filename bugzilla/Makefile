@@ -28,6 +28,7 @@ DEPENDS+=	p5-XML-Parser-[0-9]*:../../textproc/p5-XML-Parser
 
 BZDIR?=		${PREFIX}/share/bugzilla
 
+SENDMAIL?=	/usr/sbin/sendmail
 BZ_DB_DATABASE?=bugs
 BZ_DB_HOST?=	localhost
 BZ_DB_PORT?=	3306
@@ -47,7 +48,9 @@ do-build:
 	for f in ${WRKSRC}/*.pl ${WRKSRC}/Bug.pm ${WRKSRC}/*.cgi \
 	${WRKSRC}/processmail ${WRKSRC}/syncshadowdb; do \
 		[ -f $$f.BAK ] || ${MV} $$f $$f.BAK ; \
-		${SED} -e 's#\#\!/usr/bonsaitools/bin/perl#\#\!${PREFIX}/bin/perl#g' < $$f.BAK > $$f; \
+		${SED} -e 's#\#\!/usr/bonsaitools/bin/perl#\#\!${PREFIX}/bin/perl#g' \
+			-e "s#/usr/lib/sendmail#${SENDMAIL}#g" \
+			< $$f.BAK > $$f; \
 	done
 
 	for f in localconfig bugzilla.conf; do \

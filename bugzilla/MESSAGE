@@ -1,6 +1,11 @@
 ===========================================================================
 $NetBSD$
 
+To complete the setup you will need to:
+
+	cd ${PREFIX}/share/bugzilla/
+	./checksetup.pl
+
 You will need to make Bugzilla accessible through your HTTP server.
 If you are running Apache then you may either symlink
        
@@ -10,12 +15,13 @@ into DocumentRoot, or copy
 
 	${EXDIR}/bugzilla.conf
 
-to ${PKG_SYSCONFDIR}/httpd and add the following line to httpd.conf:
+to ${PKG_SYSCONFDIR}/httpd and add the following lines to httpd.conf:
 
+	DirectoryIndex index.cgi index.html			
 	Include ${PKG_SYSCONFDIR}/httpd/bugzilla.conf
 
 to make Bugzilla accessible through:
-				
+	
 	http://www.domain.com/bugzilla/
 
 CHANGE YOUR PASSWORD !!
