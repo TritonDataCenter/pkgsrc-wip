@@ -19,5 +19,6 @@ GNU_CONFIGURE=		yes
 LIBTOOL_OVERRIDE=       ${WRKSRC}/libtool
 PKGCONFIG_OVERRIDE+=    ${WRKSRC}/xau.pc.in
 
+.include "../../wip/xproto/buildlink2.mk"
 .include "../../devel/pkgconfig/buildlink2.mk"
 .include "../../mk/bsd.pkg.mk"
