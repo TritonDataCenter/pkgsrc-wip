@@ -16,7 +16,7 @@ USE_GMAKE=		YES
 USE_BUILDLINK2=		YES
 
 CONFIGURE_ARGS=		--prefix=${PREFIX}
-EXTRACT_CMD=		${LOCALBASE}/bin/unzip -aqo $${extract_file}
+EXTRACT_CMD_OPTS.zip=	-aqo
 
 pre-configure:
 	${CHMOD} 755 ${WRKSRC}/configure

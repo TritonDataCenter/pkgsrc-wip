@@ -1,8 +1,8 @@
 # $NetBSD$
 #
 
-DISTNAME=		fastaudio
-PKGNAME=		${PYPKGPREFIX}-${DISTNAME}-0.1
+DISTNAME=		fastaudio-0.3
+PKGNAME=		${PYPKGPREFIX}-${DISTNAME}
 WRKSRC=			${WRKDIR}/portaudio_v18_1
 CATEGORIES=		audio
 MASTER_SITES=		http://www.freenet.org.nz/python/pyPortAudio/ \
@@ -20,7 +20,7 @@ USE_BUILDLINK2=		yes
 PY_PATCHPLIST=		yes
 PYDISTUTILSPKG=		yes
 
-EXTRACT_CMD.zip=	${LOCALBASE}/bin/unzip -aqo $${extract_file}
+EXTRACT_CMD_OPTS.zip=	-aqo
 
 post-extract:
 	${MV} ${WRKDIR}/fastaudio/* ${WRKDIR}/portaudio_v18_1
