@@ -4,7 +4,7 @@
 MYSQL_CLIENT_BUILDLINK2_MK=	# defined
 
 BUILDLINK_PACKAGES+=			mysql-client
-BUILDLINK_DEPENDS.mysql-client?=	mysql-client>=3.23.57
+BUILDLINK_DEPENDS.mysql-client?=	mysql-client>=3.23.58
 BUILDLINK_PKGSRCDIR.mysql-client?=	../../wip/mysql3-client
 
 EVAL_PREFIX+=	BUILDLINK_PREFIX.mysql-client=mysql-client

@@ -62,7 +62,7 @@ share/mysql/my-huge.cnf
 share/mysql/my-large.cnf
 share/mysql/my-medium.cnf
 share/mysql/my-small.cnf
-share/mysql/mysql-3.23.57.spec
+share/mysql/mysql-3.23.58.spec
 share/mysql/mysql-log-rotate
 @dirrm share/mysql
 @dirrm lib/mysql
