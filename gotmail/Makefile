@@ -14,7 +14,7 @@ DEPENDS+=		curl>=7.10.4:../../www/curl
 DEPENDS+=		p5-Net-[0-9]*:../../net/p5-Net
 
 NO_BUILD=		YES
-USE_BUILDLINK2=		YES
+NO_BUILDLINK=		YES
 USE_PERL5=		YES
 REPLACE_PERL=		${WRKSRC}/gotmail
 
