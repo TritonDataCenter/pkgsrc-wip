@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.1207 2004/04/16 22:44:19 xtraeme Exp $
+# $Id: Makefile,v 1.1208 2004/04/16 23:33:15 blef Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -89,6 +89,7 @@ SUBDIR+=	compare
 SUBDIR+=	compositeext
 SUBDIR+=	cops
 SUBDIR+=	copytape
+SUBDIR+=	cryptopp
 SUBDIR+=	cvsd
 SUBDIR+=	d2x
 SUBDIR+=	d4x
@@ -791,7 +792,6 @@ SUBDIR+=	ypbind-mt
 SUBDIR+=	ypserv
 SUBDIR+=	zebra-pj
 SUBDIR+=	zinf
-SUBDIR+=        cryptopp
 
 ${.CURDIR}/PKGDB:
 	@${RM} -f ${.CURDIR}/PKGDB
