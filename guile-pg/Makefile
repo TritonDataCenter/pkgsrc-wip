@@ -18,6 +18,8 @@ USE_LIBTOOL=	YES
 USE_GNU_TOOLS+=	make
 GNU_CONFIGURE=	YES
 
+TEST_TARGET=	check
+
 INFO_FILES=	guile-pg.info
 
 # There are several versions of guile; the relevant ones for this
