@@ -11,7 +11,9 @@ MAINTAINER=		reed@reedmedia.net
 HOMEPAGE=		http://xlibs.freedesktop.org/
 COMMENT=		Network API translation layer to insulate X
 
-USE_BUILDLINK2=		yes
+PKG_INSTALLATION_TYPES=	overwrite pkgviews
+
+USE_BUILDLINK3=		yes
 GNU_CONFIGURE=		yes
 
 PKGCONFIG_OVERRIDE+=    ${WRKSRC}/xtrans.pc.in
