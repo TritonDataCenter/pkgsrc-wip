@@ -1,0 +1,4 @@
+@comment $NetBSD$
+lib/stunnel.so
+man/man8/stunnel.8
+sbin/stunnel
