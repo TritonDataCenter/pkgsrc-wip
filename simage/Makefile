@@ -12,6 +12,8 @@ GNU_CONFIGURE=		yes
 CONFIGURE_ARGS=		--with-ungif --with-jpeg --with-png \
 			--with-tiff --with-mpeg2enc
 USE_BUILDLINK3=		yes
+USE_LIBTOOL=		yes
+LIBTOOL_OVERRIDE=	${WRKSRC}/libtool
 
 .include "../../graphics/tiff/buildlink3.mk"
 .include "../../graphics/png/buildlink3.mk"
