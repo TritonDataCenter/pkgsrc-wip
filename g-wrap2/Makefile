@@ -1,7 +1,6 @@
 # $NetBSD:$
 
 DISTNAME=	g-wrap-1.9.3
-PKGREVISION=	1
 CATEGORIES=	devel
 MASTER_SITES=	http://savannah.nongnu.org/download/g-wrap/
 
@@ -16,6 +15,7 @@ USE_BUILDLINK3=		YES
 GNU_CONFIGURE=		YES
 USE_GNU_TOOLS+=		make
 USE_LIBTOOL=		YES
+TEST_TARGET=		check
 
 USE_MAKEINFO=		YES
 INFO_FILES=		g-wrap.info
