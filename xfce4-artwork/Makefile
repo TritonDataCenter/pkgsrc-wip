@@ -5,7 +5,7 @@
 XFCE4_VERSION=	0.0.4
 
 DISTNAME=	xfce4-artwork-${XFCE4_VERSION}
-CATEGORIES=	misc
+CATEGORIES=	graphics
 MASTER_SITES=	http://download.berlios.de/xfce-goodies/
 COMMENT=	XFce4 artwork
 
