@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.366 2003/08/07 12:32:54 marc Exp $
+# $Id: Makefile,v 1.367 2003/08/07 18:34:16 adrian_p Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -129,7 +129,6 @@ SUBDIR+=	gtk2-thinice-engine
 SUBDIR+=	gtranslator
 SUBDIR+=	gurlchecker
 SUBDIR+=	hasciicam
-SUBDIR+=	honeyd-arpd
 SUBDIR+=	ht
 SUBDIR+=	ht2html
 SUBDIR+=	httrack
