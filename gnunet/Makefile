@@ -10,22 +10,27 @@ MAINTAINER=	pancake@phreaker.net
 HOMEPAGE=	http://www.ovmj.org/GNUnet/
 COMMENT=	Framework for secure p2p networking
 
-BUILD_USES_MSGFMT=yes
+BUILD_USES_MSGFMT=	yes
 
-USE_GMAKE=	yes
+USE_GMAKE=		yes
+GNU_CONFIGURE=		yes
+USE_BUILDLINK2=		yes
+USE_LIBTOOL=		yes
 
-GNU_CONFIGURE=	yes
-USE_BUILDLINK2=	yes
-LIBTOOL_OVERRIDE=yes
+LIBTOOL_OVERRIDE=	${WRKSRC}/libtool
+
 PTHREAD_OPTS=	require
-PKG_DEVELOPER=	yes
+
+CONFIGURE_ARGS+=        --without-gtk
+CONFIGURE_ARGS+=        --with-crypto
+CONFIGURE_ARGS+=	--with-gdbm=${BUILDLINK_PREFIX.gdbm}
+CONFIGURE_ARGS+=	--sysconfdir=${PKG_SYSCONFDIR}
+
+LDFLAGS+=	-lpthread -lintl
 
 .include "../../mk/bsd.prefs.mk"
 BUILD_DEFS+=	USE_INET6
 
-CONFIGURE_ARGS+=	--without-gtk
-CONFIGURE_ARGS+=	--with-gcrypt
-CONFIGURE_ARGS+=	--with-crypto
 .if defined(USE_INET6)
 CONFIGURE_ARGS+=	--with-ipv6
 .else
@@ -33,6 +38,7 @@ CONFIGURE_ARGS+=	--disable-ipv6
 .endif
 
 .include "../../security/openssl/buildlink2.mk"
-.include "../../security/libgcrypt/buildlink2.mk"
+.include "../../devel/gettext-lib/buildlink2.mk"
+.include "../../databases/gdbm/buildlink2.mk"
 .include "../../mk/pthread.buildlink2.mk"
 .include "../../mk/bsd.pkg.mk"
