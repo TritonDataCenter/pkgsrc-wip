@@ -15,8 +15,8 @@ $NetBSD$
 -BINDIR =	/usr/local/sbin
 -MANDIR =	/usr/local/man
 -CC =		gcc
-+BINDIR =	${LOCALBASE}/sbin
-+MANDIR =	${LOCALBASE}/man
++BINDIR =	${PREFIX}/sbin
++MANDIR =	${PREFIX}/man
  CDEFS =		${SSL_DEFS} ${SSL_INC}
 -CFLAGS =	-O ${CDEFS}
 -#CFLAGS =	-g ${CDEFS}

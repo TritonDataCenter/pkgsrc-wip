@@ -2,4 +2,4 @@ $NetBSD$
 
 SHA1 (mini_httpd-1.19.tar.gz) = da1ce9cf717f16aea69a75d3a77e610e9a740cc7
 Size (mini_httpd-1.19.tar.gz) = 42142 bytes
-SHA1 (patch-aa) = 572f6384140a05bd825de79469ea1fa856b95c5c
+SHA1 (patch-aa) = 3e30a58fa50283a5b9fe3d272ae312f825a4c8ec
