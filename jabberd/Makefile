@@ -10,7 +10,6 @@ HOMEPAGE=	http://jabberd.jabberstudio.org/downloads/
 COMMENT=	Instant messaging server
 
 USE_BUILDLINK2=		yes
-USE_PKGLOCALEDIR=	yes
 HAS_CONFIGURE=		yes
 USE_GMAKE=		yes
 USE_PKGINSTALL=		yes

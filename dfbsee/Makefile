@@ -13,7 +13,6 @@ COMMENT=	Image viewer for DirectFB
 ONLY_FOR_PLATFORM=     Linux-*-*
 
 USE_BUILDLINK2=		yes
-USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 USE_GMAKE=		yes
 

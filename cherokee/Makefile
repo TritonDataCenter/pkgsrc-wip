@@ -12,7 +12,6 @@ HOMEPAGE=	http://alobbs.com/cherokee/
 COMMENT=	Extremely fast and tiny web server
 
 USE_BUILDLINK2=		yes
-USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=		yes
 GNU_CONFIGURE=		yes
 USE_PKGINSTALL=		yes

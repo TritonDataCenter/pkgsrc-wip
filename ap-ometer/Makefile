@@ -11,7 +11,6 @@ HOMEPAGE=	http://www.umich.edu/~umweb/software/mod_ometer.html
 COMMENT=	Web counter apache module
 
 USE_BUILDLINK2=		yes
-USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 
 CONFIGURE_ARGS+=	--with-freetype=${BUILDLINK_PREFIX.freetype2}
