@@ -17,7 +17,7 @@ BUILDLINK_PACKAGES+=			Coin
 BUILDLINK_DEPENDS.Coin+=		Coin>=2.2.1
 BUILDLINK_PKGSRCDIR.Coin?=		../../wip/Coin
 
-.include "../../wip/simage/buildlink3.mk"
+.include "../../graphics/simage/buildlink3.mk"
 .include "../../graphics/freetype2/buildlink3.mk"
 .include "../../graphics/glu/buildlink3.mk"
 

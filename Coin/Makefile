@@ -14,7 +14,7 @@ CONFIGURE_ARGS+=	--enable-3ds-import --disable-debug
 
 USE_X11=		yes
 
-.include "../../wip/simage/buildlink3.mk"
+.include "../../graphics/simage/buildlink3.mk"
 #.include "../../audio/openal/buildlink3.mk"
 .include "../../graphics/freetype2/buildlink3.mk"
 .include "../../graphics/glu/buildlink3.mk"
