@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		amsn-0_93
+DISTNAME=		amsn-0_94
 PKGNAME=		${DISTNAME:S/_/./}
 CATEGORIES=		chat
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=amsn/}
