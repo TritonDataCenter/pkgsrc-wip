@@ -22,7 +22,7 @@ BUILDLINK_PACKAGES+=	gdal
 
 .if !empty(GDAL_BUILDLINK3_MK:M+)
 BUILDLINK_DEPENDS.gdal+=	gdal>=1.2.5
-BUILDLINK_PKGSRCDIR.gdal?=	../../wip/gdal
+BUILDLINK_PKGSRCDIR.gdal?=	../../wip/gdal-lib
 .endif	# GDAL_BUILDLINK3_MK
 
 .include "../../misc/proj/buildlink3.mk"
