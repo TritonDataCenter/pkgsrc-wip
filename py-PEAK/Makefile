@@ -10,6 +10,8 @@ MAINTAINER=		dotz@irc.pl
 HOMEPAGE=		http://peak.telecommunity.com/
 COMMENT=		Python Enterprise Application Kit
 
+CONFLICTS+=		${PYPKGPREFIX}-ZODB-*
+
 USE_BUILDLINK3=		yes
 PY_PATCHPLIST=		yes
 PYDISTUTILSPKG=		yes
