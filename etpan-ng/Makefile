@@ -13,8 +13,8 @@ USE_BUILDLINK3=		yes
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 
-.include "../../wip/libetpan/buildlink3.mk"
-.include "../../lang/perl5/buildlink3.mk"
 .include "../../devel/ncurses/buildlink3.mk"
+.include "../../lang/perl5/buildlink3.mk"
+.include "../../mail/libetpan/buildlink3.mk"
 .include "../../mk/pthread.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
