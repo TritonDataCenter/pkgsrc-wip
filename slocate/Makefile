@@ -9,7 +9,9 @@ MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://www.geekreview.org/slocate/
 COMMENT=		Secure Locate
 
-USE_BUILDLINK2=		YES
+PKG_INSTALLATION_TYPES=	overwrite pkgviews
+
+USE_BUILDLINK3=		YES
 GNU_CONFIGURE=		YES
 USE_GNU_TOOLS+=		make
 
