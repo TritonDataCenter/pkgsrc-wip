@@ -30,15 +30,13 @@ _CVS_ENV+=		CVSROOT="${_CVS_ROOT}"
 _CVS_FLAGS=		-Q
 _CVS_CHECKOUT_FLAGS=	-P -d ${DISTNAME}
 _CVS_PASSFILE=		${WRKDIR}/.cvspass
-.if defined(CVS_REPOSITORY)
-_CVS_ROOT=		${CVS_REPOSITORY}
-.  if defined(CVS_MODULE)
-_CVS_MODULE=		${CVS_MODULE}
-.  else
-PKG_FAIL_REASON=	"No CVS module specified."
-.  endif
-.else
+.if !defined(CVS_REPOSITORY)
 PKG_FAIL_REASON=	"No CVS repository specified."
+.elif !defined(CVS_MODULE)
+PKG_FAIL_REASON=	"No CVS module specified."
+.else
+_CVS_ROOT=		${CVS_REPOSITORY}
+_CVS_MODULE=		${CVS_MODULE}
 .endif
 
 # default values (public)
