@@ -10,11 +10,13 @@ MAINTAINER=		xtraeme@NetBSD.org
 HOMEPAGE=		http://www.freedesktop.org/Software/FixesExt
 COMMENT=		X Fixes extension headers and specification
 
-USE_BUILDLINK2=		yes
+PKG_INSTALLATION_TYPES=	overwrite pkgviews
+
+USE_BUILDLINK3=		yes
 GNU_CONFIGURE=		yes
 
 PKGCONFIG_OVERRIDE+=    ${WRKSRC}/fixesext.pc.in
 
-.include "../../devel/pkgconfig/buildlink2.mk"
-.include "../../wip/xextensions/buildlink2.mk"
+.include "../../devel/pkgconfig/buildlink3.mk"
+.include "../../wip/xextensions/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
