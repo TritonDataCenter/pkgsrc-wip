@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=		openntpd-20040716p
+DISTNAME=		openntpd-20040718p
 CATEGORIES=		net
 MASTER_SITES=		http://www.openntpd.org/dist/portable/
 
