@@ -1,4 +1,4 @@
-# $NetBSD: Makefile,v 1.5 2004/01/20 12:09:35 agc Exp $
+# $NetBSD: Makefile,v 1.5 2004/02/09 17:36:12 neutr1n0x Exp $
 
 DISTNAME=	ding-1.2
 CATEGORIES=	wip
@@ -17,13 +17,13 @@ DEPENDS+=	aspell-english>=0.50:../../textproc/aspell-english
 DEPENDS+=	dict-data>=1.8:../../textproc/dict-dictionaries
 DEPENDS+=	dict-client>=1.8:../../textproc/dict-client
 
-USE_BUILDLINK2=	yes
+USE_BUILDLINK3=	yes
 USE_X11=	yes
 NO_CONFIGURE=	yes
 NO_BUILD=	yes
 
 .include "../../mk/bsd.prefs.mk"
-.include "../../textproc/aspell/buildlink2.mk"
+.include "../../textproc/aspell/buildlink3.mk"
 
 do-install:
 	 ${CP} ${WRKSRC}/ding ${PREFIX}/bin/;
