@@ -23,6 +23,8 @@ LIBTOOL_OVERRIDE=	${WRKSRC}/libtool
 CONFIGURE_ARGS+=	--includedir=${PREFIX}/include
 CONFIGURE_ARGS+=	--with-lua=${BUILDLINK_PREFIX.lua}
 
+CXXFLAGS=		-DPKG_SYSCONFDIR=\"\\\"${PKG_SYSCONFDIR}\\\"\"
+
 .include "../../mk/bsd.prefs.mk"
 
 .if exists(${X11BASE}/include/X11/extensions/Xinerama.h)
