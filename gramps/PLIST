@@ -563,6 +563,8 @@ share/pixmaps/gramps.png
 @dirrm share/gramps/gnome/help/gramps/C/figures
 @dirrm share/gramps/gnome/help/gramps/C
 @dirrm share/gramps/gnome/help/gramps
+@dirrm share/gramps/gnome/help
+@dirrm share/gramps/gnome
 @dirrm share/gramps/filters
 @dirrm share/gramps/example
 @dirrm share/gramps/docgen
