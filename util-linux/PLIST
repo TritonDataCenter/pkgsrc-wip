@@ -32,6 +32,7 @@ bin/script
 bin/setfdprm
 bin/setsid
 bin/setterm
+bin/tailf
 bin/ul
 bin/umount
 bin/whereis
@@ -59,6 +60,7 @@ man/man1/rename.1
 man/man1/rev.1
 man/man1/script.1
 man/man1/setterm.1
+man/man1/tailf.1
 man/man1/ul.1
 man/man1/whereis.1
 man/man1/write.1
@@ -116,8 +118,10 @@ sbin/sfdisk
 sbin/swapoff
 sbin/swapon
 sbin/tunelp
+share/examples/util-linux/fdprm
 share/misc/getopt/getopt-parse.bash
 share/misc/getopt/getopt-parse.tcsh
 share/misc/getopt/getopt-test.bash
 share/misc/getopt/getopt-test.tcsh
 @dirrm share/misc/getopt
+@dirrm share/examples/util-linux
