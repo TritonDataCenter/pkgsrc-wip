@@ -1,5 +1,4 @@
 # $NetBSD$
-#
 
 DISTNAME=	libfwbuilder-1.0.2
 CATEGORIES=	security
@@ -13,8 +12,8 @@ USE_GNU_TOOLS+=	make
 USE_BUILDLINK2=	yes
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
-USE_GCC_SHLIB=	yes
 GCC_REQD=	2.95.3
+USE_LANGUAGES=	c c++
 
 CONFIGURE_ARGS+=	--with-openssl-prefix=${BUILDLINK_PREFIX.openssl}
 
