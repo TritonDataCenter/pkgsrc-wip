@@ -9,7 +9,7 @@ CATEGORIES=	wip security
 MASTER_SITES=	ftp://ftp.drweb.ru/pub/unix/				\
 		ftp://ftp.drweb.ru/pub/unix/betas/
 
-MAINTAINER=	tech-pkg@netbsd.org
+MAINTAINER=	tech-pkg@NetBSD.org
 HOMEPAGE=	http://www.sald.com/
 COMMENT=	DrWeb Antivirus Suite
 
