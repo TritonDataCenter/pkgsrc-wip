@@ -3,8 +3,7 @@
 
 DISTNAME=		fonttools-2.0b1
 PKGNAME=		${PYPKGPREFIX}-${DISTNAME}
-WRKSRC=			${WRKDIR}/fonttools
-CATEGORIES=		graphics
+CATEGORIES=		fonts
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=fonttools/}
 EXTRACT_SUFX=		.tgz
 
@@ -12,10 +11,19 @@ MAINTAINER=		dotz@irc.pl
 HOMEPAGE=		http://fonttools.sourceforge.net/
 COMMENT=		Library for manipulating fonts
 
-USE_BUILDLINK2=		yes
+WRKSRC=			${WRKDIR}/fonttools
+USE_BUILDLINK3=		yes
 PY_PATCHPLIST=		yes
 PYDISTUTILSPKG=		yes
 
-.include "../../math/py-Numeric/buildlink2.mk"
+PLIST_SUBST+=		FONTTOOLSPTH=${FONTTOOLSPTH}
+
 .include "../../lang/python/extension.mk"
+.if !empty(PYPKGPREFIX:M*pth)
+FONTTOOLSPTH=	""
+.else
+FONTTOOLSPTH=	"@comment "
+.endif
+
+.include "../../math/py-Numeric/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

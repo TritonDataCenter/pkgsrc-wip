@@ -1,8 +1,6 @@
 @comment $NetBSD$
 bin/ttx
-@comment TODO: existence of this file could be dependent on -pth or
-@comment TODO: non-pth Python version
-${PYSITELIB}/FontTools.pth
+${FONTTOOLSPTH}${PYSITELIB}/FontTools.pth
 ${PYSITELIB}/FontTools/fontTools/__init__.py
 ${PYSITELIB}/FontTools/fontTools/__init__.pyc
 ${PYSITELIB}/FontTools/fontTools/__init__.pyo
