@@ -2,6 +2,7 @@
 
 DISTNAME= 	portmap_4
 PKGNAME=	portmap-4
+PKGREVISION=	1
 CATEGORIES=	net
 MASTER_SITES=	ftp://ftp.porcupine.org/pub/security/
 
@@ -14,8 +15,11 @@ COMMENT=	RPC portmapper with access control
 
 USE_BUILDLINK2=	# defined
 NO_CONFIGURE=	yes
+USE_PKGINSTALL=	yes
 
 MAKE_FLAGS+=	WRAP_DIR=${BUILDLINK_PREFIX.tcp_wrappers}/lib
+
+RCD_SCRIPTS=	portmap
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/portmap ${PREFIX}/sbin/
