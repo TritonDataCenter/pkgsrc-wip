@@ -18,7 +18,7 @@
 # tarball somewhere on NetBSD site.
 
 DISTNAME=		firebird15-rc8
-PKGNAME=		${DISTNAME:S/-rc8//}
+PKGNAME=		${DISTNAME:S/-rc8/-1.5/}
 CATEGORIES=		databases
 MASTER_SITES=		http://www.aims.net.au/chris/firebird/
 EXTRACT_SUFX=		.tar.bz2
