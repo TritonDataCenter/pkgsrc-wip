@@ -7,7 +7,7 @@ CATEGORIES=	converters
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=palm-db-tools/}
 
 MAINTAINER=	tech-pkg@NetBSD.org
-HOMEPAGE=	http://palm-db-tools.sourceforge.net
+HOMEPAGE=	http://palm-db-tools.sourceforge.net/
 COMMENT=	Tools to convert to/from Palm OS databases
 
 USE_GMAKE=	yes
