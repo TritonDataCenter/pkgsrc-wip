@@ -1,0 +1,6 @@
+@comment $NetBSD$
+bin/dgen
+bin/tobin
+man/man1/dgen.1
+man/man1/tobin.1
+man/man5/dgenrc.5
