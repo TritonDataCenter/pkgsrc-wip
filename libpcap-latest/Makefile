@@ -1,6 +1,7 @@
 # $NetBSD$
 
 DISTNAME=		libpcap-0.8.3
+SVR4_PKGNAME=		lpcap
 PKGREVISION=		1
 CATEGORIES=		net
 MASTER_SITES= 		http://www.tcpdump.org/release/
