@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.1480 2004/09/30 12:24:54 thomasklausner Exp $
+# $Id: Makefile,v 1.1481 2004/09/30 12:46:11 thomasklausner Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -325,7 +325,6 @@ SUBDIR+=	libICE
 SUBDIR+=	libSM
 SUBDIR+=	libX11
 SUBDIR+=	libXau
-SUBDIR+=	libXcomposite
 SUBDIR+=	libXcursor
 SUBDIR+=	libXdamage
 SUBDIR+=	libXext
