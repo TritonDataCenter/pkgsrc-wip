@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	GeoIP-1.1.9
-PKGNAME=	geoip-1.1.9
+PKGNAME=	${DISTNAME:S/GeoIP/geoip/}
 CATEGORIES=	net
 MASTER_SITES=	http://www.maxmind.com/download/geoip/api/c/
 
@@ -16,8 +16,6 @@ USE_LIBTOOL=		yes
 GNU_CONFIGURE=		yes
 
 LIBTOOL_OVERRIDE=       ${WRKSRC}/libtool
-
-#CONFIGURE_ARGS+=	--sysconfdir=${PKG_SYSCONFDIR}
 
 post-install:
 	${MV} ${PKG_SYSCONFDIR}/GeoIP.conf.default \
