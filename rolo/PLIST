@@ -1,3 +1,5 @@
 @comment $NetBSD$
 bin/rolo
 man/man1/rolo.1
+share/doc/rolo/rfc2426.txt
+@dirrm share/doc/rolo

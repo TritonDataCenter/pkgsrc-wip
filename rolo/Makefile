@@ -14,6 +14,10 @@ GNU_CONFIGURE=	YES
 CONFIG_GUESS_OVERRIDE=	${WRKSRC}/config.guess
 CONFIG_SUB_OVERRIDE=	${WRKSRC}/config.sub
 
+post-install:
+	${INSTALL_DATA_DIR} ${PREFIX}/share/doc/rolo
+	${INSTALL_DATA} ${WRKSRC}/doc/rfc2426.txt ${PREFIX}/share/doc/rolo
+
 .include "../../devel/ncurses/buildlink2.mk"
 .include "../../wip/libvc/buildlink2.mk"
 .include "../../mk/bsd.pkg.mk"
