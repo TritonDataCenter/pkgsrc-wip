@@ -54,4 +54,4 @@ include/X11/extensions/xteststr.h
 lib/pkgconfig/xextensions.pc
 @exec ${MKDIR} %D/share/doc/xextensions
 @dirrm share/doc/xextensions
-@dirrm include/X11/extensions
+@unexec ${RMDIR} %D/include/X11/extensions 2>/dev/null || ${TRUE}
