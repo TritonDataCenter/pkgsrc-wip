@@ -1,9 +1,5 @@
 @comment $NetBSD$
 bin/jc
-info/jc.info
-info/jc.info-1
-info/jc.info-2
-info/jc.info-3
 jc/bin/cfdump
 jc/bin/genobj
 jc/bin/javah

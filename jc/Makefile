@@ -12,6 +12,10 @@ COMMENT=		Native java compiler using gcc
 USE_BUILDLINK3=		yes
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
+USE_MAKEINFO=	yes
+INFO_FILES=jc.info jc.info-1 jc.info-2 jc.info-3
+
+CONFIGURE_ARGS+=--disable-assertions
 
 SUBST_CLASSES=uname gcc
 SUBST_FILES.uname=configure
