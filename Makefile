@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.425 2003/09/04 16:06:24 xtraeme Exp $
+# $Id: Makefile,v 1.426 2003/09/05 02:36:54 xtraeme Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -62,6 +62,7 @@ SUBDIR+=	cdpr
 SUBDIR+=	cgdb
 SUBDIR+=	cherokee
 SUBDIR+=	chksniff
+SUBDIR+=	chmlib
 SUBDIR+=	cjk-latex
 SUBDIR+=	cjk-latex-chinese
 SUBDIR+=	cjk-latex-japanese
@@ -374,6 +375,7 @@ SUBDIR+=	wmitime
 SUBDIR+=	wmnetload
 SUBDIR+=	words
 SUBDIR+=	xawtv
+SUBDIR+=	xchm
 SUBDIR+=	xcircuit3
 SUBDIR+=	xevil
 SUBDIR+=	xfce4
