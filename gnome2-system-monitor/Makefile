@@ -18,6 +18,7 @@ USE_BUILDLINK2=		yes
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 USE_GMAKE=		yes
+USE_X11=		yes
 
 .include "../../mk/bsd.prefs.mk"
 
@@ -37,4 +38,5 @@ GCONF2_SCHEMAS+=	gnome-system-monitor.schemas
 .include "../../x11/startup-notification/buildlink2.mk"
 .include "../../devel/gettext-lib/buildlink2.mk"
 .include "../../textproc/scrollkeeper/omf.mk"
+.include "../../mk/pthread.buildlink2.mk"
 .include "../../mk/bsd.pkg.mk"
