@@ -16,5 +16,4 @@ USE_BUILDLINK2=		yes
 PKGCONFIG_OVERRIDE+=	${WRKSRC}/xproto.pc.in
 GNU_CONFIGURE=		yes
 
-.include "../../devel/pkgconfig/buildlink2.mk"
 .include "../../mk/bsd.pkg.mk"
