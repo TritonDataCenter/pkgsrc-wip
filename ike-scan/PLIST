@@ -1,0 +1,7 @@
+@comment $NetBSD$
+bin/ike-scan
+share/doc/ike-scan/README
+share/doc/ike-scan/udp-backoff-fingerprinting-paper.txt
+share/ike-scan/ike-backoff-patterns
+@dirrm share/ike-scan
+@dirrm share/doc/ike-scan
