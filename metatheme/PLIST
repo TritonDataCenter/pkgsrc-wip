@@ -83,7 +83,7 @@ share/pixmaps/settings.png
 @comment in gnome2-control-center: @dirrm share/mime-info
 @dirrm share/metatheme-glade
 @comment in gnome2-control-center: @dirrm share/control-center-2.0/capplets
-@comment in gnome2-dirs: @dirrm share/applications
+@comment in xdg-dirs: @dirrm share/applications
 @dirrm lib/metatheme/plugins/${PKGVERSION}
 @dirrm lib/metatheme/plugins
 @dirrm lib/metatheme
