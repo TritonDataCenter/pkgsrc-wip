@@ -1,4 +1,5 @@
 @comment $NetBSD$
+bin/pearpc
 bin/ppc
 share/examples/pearpc/ppccfg.example
 @dirrm share/examples/pearpc
