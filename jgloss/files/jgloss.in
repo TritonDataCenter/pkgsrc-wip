@@ -1,0 +1,3 @@
+#! @SH@
+# $NetBSD$
+exec @PKG_JAVA_HOME@/bin/java -Duser.language=ja -jar @PREFIX@/libexec/jgloss/jgloss.jar
