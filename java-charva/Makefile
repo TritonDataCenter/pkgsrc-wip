@@ -20,7 +20,8 @@ USE_GNU_TOOLS+=		make
 do-build:
 	${RM} -f c/src/libTerminal.so
 	cd ${WRKSRC}/c/src/ && \
-	${CC} -Wl,-R ${PREFIX}/lib -shared -fpic ${CFLAGS} -I ${JAVA_HOME}/include/ \
+	${CC} -Wl,-R ${PREFIX}/lib -shared -fpic -lncurses \
+		${CFLAGS} -I ${JAVA_HOME}/include/ \
 		-I ${PREFIX}/include/ Toolkit.c -o libTerminal.so
 
 do-install:
