@@ -10,10 +10,11 @@ BUILDLINK_PKGSRCDIR.ion?=	../../wip/ion-devel
 EVAL_PREFIX+=			BUILDLINK_PREFIX.ion=ion
 BUILDLINK_PREFIX.ion_DEFAULT=	${LOCALBASE}
 BUILDLINK_FILES.ion=		include/ion/*.h
+BUILDLINK_FILES.ion+=		include/ion/mkexports.lua
 BUILDLINK_FILES.ion+=		include/ion/*.mk
 BUILDLINK_FILES.ion+=		include/ion/ioncore/*.h
-BUILDLINK_FILES.ion+=		include/libtu/*
-BUILDLINK_FILES.ion+=		lib/libtu.a
+BUILDLINK_FILES.ion+=		include/ion/libtu/*.h
+BUILDLINK_FILES.ion+=		include/ion/luaextl/*.h
 
 BUILDLINK_TARGETS+=		ion-buildlink
 
