@@ -4,7 +4,6 @@ DISTNAME=	exim-3.36
 CATEGORIES=	mail net
 MASTER_SITES=	ftp://ftp.csx.cam.ac.uk/pub/software/email/exim/exim3/ \
 		http://public.planetmirror.com.au/pub/exim/exim3/
-
 EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	ad@NetBSD.org
