@@ -9,6 +9,8 @@ WRKSRC=			${WRKDIR}/multisync-0.82/plugins/backup_plugin/
 
 DEPENDS+=		multisync>=0.82:../../wip/multisync
 
+BUILD_DEPENDS+=         libtool-base>=1.5.10:../../devel/libtool-base
+
 pre-configure:
 	cd work/multisync-${PKGVERSION} && \
 		${ACLOCAL} && \
