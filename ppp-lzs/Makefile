@@ -18,10 +18,7 @@ WRKSRC=		${WRKDIR}
 pre-patch:
 	@${MKDIR} ${WRKDIR}/lkm ${WRKDIR}/net ${WRKDIR}/pppd
 	@${CP} ${BSDSRCDIR}/sys/net/ppp-comp.h ${WRKDIR}/net/ppp-comp.h
-	@${CP} ${BSDSRCDIR}/usr.sbin/pppd/pppd/Makefile ${WRKDIR}/pppd/Makefile
-	@${CP} ${BSDSRCDIR}/usr.sbin/pppd/pppd/ccp.c ${WRKDIR}/pppd/ccp.c
-	@${CP} ${BSDSRCDIR}/usr.sbin/pppd/pppd/ccp.h ${WRKDIR}/pppd/ccp.h
-	@${CP} ${BSDSRCDIR}/usr.sbin/pppd/pppd/pppd.8 ${WRKDIR}/pppd/pppd.8
+	@${CP} -R ${BSDSRCDIR}/usr.sbin/pppd/pppd ${WRKDIR}
 
 pre-install:
 .if !exists(${PREFIX}/lkm)
