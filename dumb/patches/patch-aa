@@ -1,0 +1,11 @@
+$NetBSD$
+
+--- make/unix.inc.orig	Thu Apr  3 16:34:18 2003
++++ make/unix.inc
+@@ -16,5 +16,6 @@ EXE_SUFFIX :=
+ 
+ LINK_MATH := -lm
+ LINK_ALLEGRO := `allegro-config --libs`
++CFLAGS_ALLEGRO := `allegro-config --cflags`
+ 
+ # PREFIX is set by config.sh.
