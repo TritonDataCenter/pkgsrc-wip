@@ -1,10 +1,10 @@
 # $NetBSD: Makefile,v 1.55 2002/10/02 19:36:55 wiz Exp $
 # Based on KAME Id: Makefile,v 1.1.2.1.2.1.10.2 1999/01/05 11:03:50 itojun Exp
 
-#DISTNAME=	zebra-pj-20030310
 DISTNAME=	zebra-pj-20030428
+PKGREVISION=	1
 CATEGORIES=	net
-MASTER_SITES=	http://zebra.dishone.st/snapshots/cvs/
+MASTER_SITES=	http://zebra.dishone.st/snapshots/pkgsrc
 
 MAINTAINER=	gdt@ir.bbn.com
 HOMEPAGE=	http://zebra.dishone.st/
