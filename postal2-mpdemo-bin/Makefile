@@ -14,7 +14,7 @@ COMMENT=		Demo of a violent 3D game
 
 DEPENDS+=		suse_glx>=7.3:../../emulators/suse_glx/
 
-NO_SRC_ON_CDROM=	"Its huge, it's demo, it's a game, I'm not sure if we can redistribute it"
+NO_SRC_ON_CDROM=	"It's huge, it's demo, it's a game, I'm not sure if we can redistribute it"
 NO_PKG_ON_CDROM=	${NO_SRC_ON_CDROM}
 NO_BUILD=		# defined
 LICENSE=		postal2mpdemo-license
