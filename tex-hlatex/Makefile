@@ -5,7 +5,8 @@ DISTNAME=	HLaTeX-0.991
 PKGNAME=	tex-hlatex-0.991
 WRKSRC=		${WRKDIR}/hlatex
 CATEGORIES=	print
-MASTER_SITES=	ftp://ftp.linguistik.uni-erlangen.de/hangul/HLaTeX/packed/
+MASTER_SITES=	ftp://ftp.bsdforum.or.kr/pub/distfiles/			\
+		${MASTER_SITE_TEX_CTAN:=fonts/korean/HLaTeX/}
 DISTFILES=	${DISTNAME}${EXTRACT_SUFX} ${HLATEX_FONTS_BASE}
 
 MAINTAINER=	minskim@bawi.org
