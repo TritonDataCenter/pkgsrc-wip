@@ -4,7 +4,7 @@
 DISTNAME=		pygame-1.5.6
 PKGNAME=		${PYPKGPREFIX}-${DISTNAME:S/py//}
 CATEGORIES=		devel
-MASTER_SITES=		http://pygam.org/ftp/
+MASTER_SITES=		http://pygame.org/ftp/
 
 MAINTAINER=		marc@informatik.uni-bremen.de
 HOMEPAGE=		http://pygame.org/
