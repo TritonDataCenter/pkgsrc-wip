@@ -14,8 +14,8 @@ COMMENT=		The Linux /proc file system utilities
 ONLY_FOR_PLATFORM=	Linux-*-*
 
 USE_GNU_TOOLS+=		make
-USE_BUILDLINK2=		YES
+USE_BUILDLINK3=		YES
 MAKE_ENV+=		DESTDIR=${PREFIX}
 
-.include "../../devel/ncurses/buildlink2.mk"
+.include "../../devel/ncurses/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
