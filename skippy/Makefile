@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		skippy-0.4.1
+DISTNAME=		skippy-0.5.0
 CATEGORIES=		wm
 MASTER_SITES=		http://thegraveyard.org/files/
 EXTRACT_SUFX=		.tar.bz2
