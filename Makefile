@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.1542 2004/11/17 18:13:26 xtraeme Exp $
+# $Id: Makefile,v 1.1543 2004/11/19 12:13:38 hfath Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -654,6 +654,7 @@ SUBDIR+=	qinx
 SUBDIR+=	qn-x11
 SUBDIR+=	qstat
 SUBDIR+=	quagga-devel
+SUBDIR+=	radmind
 SUBDIR+=	rar3
 SUBDIR+=	rawphoto
 SUBDIR+=	rc.subr
