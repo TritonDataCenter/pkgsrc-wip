@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.164 2003/05/15 20:57:25 cubidou Exp $
+# $Id: Makefile,v 1.165 2003/05/15 21:09:56 lsed Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -82,7 +82,6 @@ SUBDIR+=	libgsf
 SUBDIR+=	libshout
 SUBDIR+=	libwpd
 SUBDIR+=	liquidwar
-SUBDIR+=	lpe
 SUBDIR+=	mailfilter
 SUBDIR+=	mcats
 SUBDIR+=	mcats-iodbc
