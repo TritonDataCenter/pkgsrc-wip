@@ -10,9 +10,12 @@ BUILDLINK_DEPENDS+=	mingw-gcc
 BUILDLINK_PACKAGES:=	${BUILDLINK_PACKAGES:Nmingw-gcc}
 BUILDLINK_PACKAGES+=	mingw-gcc
 
+.include "../../wip/mingw/Makefile.common"
+
 .if !empty(MINGW_GCC_BUILDLINK3_MK:M+)
 BUILDLINK_DEPENDS.mingw-gcc+=	mingw-gcc>=3.3.1
 BUILDLINK_PKGSRCDIR.mingw-gcc?=	../../wip/mingw-gcc
+BUILDLINK_TRANSFORM.mingw-gcc+=	-e "s,${MINGW_TARGET}/lib,lib/,g"
 .endif	# MINGW_GCC_BUILDLINK3_MK
 
 .include "../../wip/mingw-binutils/buildlink3.mk"
