@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		Py2Play-0.1.5
+DISTNAME=		Py2Play-0.1.6
 PKGNAME=		${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=		devel
 MASTER_SITES=		http://oomadness.tuxfamily.org/downloads/
