@@ -56,7 +56,7 @@ CONFIGURE_ARGS+=	--with-pop3d
 CONFIGURE_ARGS+=        --without-pop3d
 .endif
 
-.if !empty(DOVECOT_USE_GNUTLS:M[Yy][Ee][Ss])
+.if defined(DOVECOT_USE_GNUTLS) && !empty(DOVECOT_USE_GNUTLS:M[Yy][Ee][Ss])
 CONFIGURE_ARGS+=	--enable-ssl=gnutls
 .  include "../../security/gnutls/buildlink3.mk"
 .else
@@ -64,7 +64,7 @@ CONFIGURE_ARGS+=        --enable-ssl=openssl
 .  include "../../security/openssl/buildlink3.mk"
 .endif
 
-.if !empty(DOVECOT_USE_PGSQL:M[Yy][Ee][Ss])
+.if defined(DOVECOT_USE_PGSQL) && !empty(DOVECOT_USE_PGSQL:M[Yy][Ee][Ss])
 CONFIGURE_ARGS+=	--with-pgsql
 CPPFLAGS=		-I${BUILDLINK_DIR}/include/pgsql
 .  include "../../mk/pgsql.buildlink3.mk"
