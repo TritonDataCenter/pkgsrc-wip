@@ -1,7 +1,7 @@
 # $NetBSD$
 
-DISTNAME=		gtetrinet-0.7.0
-PKGNAME=		gtetrinet2-0.7.0
+DISTNAME=		gtetrinet-0.7.1
+PKGNAME=		gtetrinet2-0.7.1
 CATEGORIES=		games gnome
 MASTER_SITES=		${MASTER_SITE_GNOME:=sources/gtetrinet/0.7/}
 
