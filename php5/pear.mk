@@ -17,7 +17,7 @@ _PEAR_PACKAGE_MK=       # defined
 USE_BUILDLINK2=			YES
 BUILDLINK_DEPMETHOD.php5=	full
 
-.include "../../www/php5/buildlink2.mk"
+.include "../../wip/php5/buildlink2.mk"
 
 EXTRACT_SUFX=	.tgz
 

@@ -19,4 +19,3 @@ post-install:
 		${PREFIX}/lib/php.ini
 
 .include "Makefile.common"
-.include "../../mk/bsd.pkg.mk"

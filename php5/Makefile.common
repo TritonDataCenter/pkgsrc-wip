@@ -33,4 +33,10 @@ CONFIGURE_ARGS+=--enable-ipv6
 CONFIGURE_ARGS+=--enable-ftp
 .endif
 
+.if defined(PHP5_WITHOUT_XML) && ${PHP5_WITHOUT_XML} == "YES"
+CONFIGURE_ARGS+=--disable-xml
+.else
+CONFIGURE_ARGS+=--with-libxml-dir=${PREFIX}
 .include "../../textproc/libxml2/buildlink2.mk"
+.endif
+.include "../../mk/bsd.pkg.mk"
