@@ -2,8 +2,8 @@
 #
 
 DISTNAME=		sleuthkit-1.66
-CATEGORIES=		wip
-MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=sleuthkit/}
+CATEGORIES=		sysutils
+MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=sleuthkit/}
 
 MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://sleuthkit.sourceforge.net/

@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	virus-0.0.6
-CATEGORIES=	wip
+CATEGORIES=	sysutils
 MASTER_SITES=	http://www.rocklinux.net/people/ripclaw/projects/software/virus/
 EXTRACT_SUFX=	.tar.bz2
 
