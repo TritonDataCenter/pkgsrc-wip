@@ -30,14 +30,14 @@ CONFIGURE_ARGS+=	--with-ldap
 .include "../../databases/openldap/buildlink2.mk"
 .endif
 
-DOVECOT_USE_OPENSSL?=	NO
+DOVECOT_USE_GNUTLS?=	NO
 
-.if !empty(DOVECOT_USE_OPENSSL:M[Yy][Ee][Ss])
-CONFIGURE_ARGS+=	--enable-ssl=openssl
-.include "../../security/openssl/buildlink2.mk"
-.else
-CONFIGURE_ARGS+=        --enable-ssl=gnutls
+.if !empty(DOVECOT_USE_GNUTLS:M[Yy][Ee][Ss])
+CONFIGURE_ARGS+=	--enable-ssl=gnutls
 .include "../../wip/gnutls/buildlink2.mk"
+.else
+CONFIGURE_ARGS+=        --enable-ssl=openssl
+.include "../../security/openssl/buildlink2.mk"
 .endif
 
 DOVECOT_USE_PGSQL?=	NO
