@@ -68,7 +68,7 @@ may be used:
 # You may also specify the path of a gcc/gnat Ada compiler
 # outside of the pkgsrc system by specifying the full path
 # of the compiler (example) below:
-#ALT_GCC=       /usr/oldpkg/gcc-3.4.0/bin/gcc
+#ALT_GCC=       /usr/pkg/gccAda-3.4.0/bin/gcc
 .  if defined(ALT_GCC)
 .     if exists(${ALT_GCC})
 ALT_GCC_PREFIX:=        ${ALT_GCC:H}/..
