@@ -6,7 +6,7 @@ CATEGORIES=	chat
 MASTER_SITES=	ftp://ftp.esper.net/ircservices/
 
 MAINTAINER=	virtus@wanadoo.nl
-HOMEPAGE=	http://www.ircservices.za.net
+HOMEPAGE=	http://www.ircservices.za.net/
 COMMENT=	Services for IRC networks
 
 USE_BUILDLINK2=	YES
