@@ -12,7 +12,7 @@ BUILDLINK_PACKAGES+=	gpgme
 
 .if !empty(GPGME_BUILDLINK3_MK:M+)
 BUILDLINK_DEPENDS.gpgme+=	gpgme>=0.9.0
-BUILDLINK_RECOMMENDED.gpgme+=	gpgme>=0.9.0nb1
+BUILDLINK_RECOMMENDED.gpgme+=	gpgme>=1.0.1
 BUILDLINK_PKGSRCDIR.gpgme?=	../../wip/gpgme
 .endif	# GPGME_BUILDLINK3_MK
 
