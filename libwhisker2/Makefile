@@ -6,7 +6,7 @@ MASTER_SITES=	http://www.wiretrip.net/rfp/libwhisker/
 
 MAINTAINER=	adrianp@stindustries.net
 HOMEPAGE= 	http://www.wiretrip.net/rfp/lw.asp
-COMMENT=	Perl module geared specificly for HTTP testing
+COMMENT=	Perl module geared specifically for HTTP testing
 
 DEPENDS+=	p5-Net-SSLeay>=1.20:../../security/p5-Net-SSLeay
 
