@@ -31,4 +31,3 @@ sbin/pfmkdev
 sbin/pftcpdump
 share/examples/${PKGBASE}/pf.conf
 share/examples/${PKGBASE}/pf.os
-@dirrm share/examples/${PKGBASE}
