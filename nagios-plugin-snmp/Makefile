@@ -18,6 +18,6 @@ SCRIPT_TARGET=	check_ifoperstatus check_ifstatus
 
 .include "../../wip/nagios-plugins/Makefile.plugin"
 
-.include "../../net/net-snmp/buildlink2.mk"
-.include "../../security/openssl/buildlink2.mk"
+.include "../../net/net-snmp/buildlink3.mk"
+.include "../../security/openssl/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

@@ -12,6 +12,6 @@ BINARY_TARGET=	check_ldap
 
 .include "../../wip/nagios-plugins/Makefile.plugin"
 
-.include "../../databases/openldap/buildlink2.mk"
-.include "../../security/openssl/buildlink2.mk"
+.include "../../databases/openldap/buildlink3.mk"
+.include "../../security/openssl/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

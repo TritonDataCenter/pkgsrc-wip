@@ -16,6 +16,6 @@ CPPFLAGS+=		-I${BUILDLINK_PREFIX.postgresql-lib}/include/pgsql
 
 .include "../../wip/nagios-plugins/Makefile.plugin"
 
-.include "../../databases/postgresql-lib/buildlink2.mk"
-.include "../../security/openssl/buildlink2.mk"
+.include "../../databases/postgresql-lib/buildlink3.mk"
+.include "../../security/openssl/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
