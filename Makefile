@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.184 2003/05/22 08:13:52 jeremy-c-reed Exp $
+# $Id: Makefile,v 1.185 2003/05/22 12:20:38 xtraeme Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -100,6 +100,7 @@ SUBDIR+=	mcats-iodbc
 SUBDIR+=	mixer.tk
 SUBDIR+=	mopac
 SUBDIR+=	mtf
+SUBDIR+=	multi-aterm
 SUBDIR+=	muse
 SUBDIR+=	nagios-base
 SUBDIR+=	nagios-plugin-ldap
