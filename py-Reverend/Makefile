@@ -10,8 +10,9 @@ MAINTAINER=		dotz@irc.pl
 HOMEPAGE=		http://www.divmod.org/Reverend/
 COMMENT=		General purpose Bayesian classifier
 
-USE_BUILDLINK2=		yes
-PY_PATCHPLIST=		yes
+NO_BUILDLINK=		yes
+NO_CONFIGURE=		yes
+USE_LANGUAGES=		# empty
 PYDISTUTILSPKG=		yes
 
 .include "../../lang/python/extension.mk"
