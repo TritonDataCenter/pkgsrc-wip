@@ -5,7 +5,6 @@ bin/php-config
 bin/phpextdist
 bin/phpize
 etc/pear.conf
-etc/php.ini
 include/php/TSRM/TSRM.h
 include/php/TSRM/acconfig.h
 include/php/TSRM/readdir.h
