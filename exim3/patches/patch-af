@@ -1,5 +1,9 @@
 $NetBSD$
 
+This patch is from:
+
+	http://www.exim.org/pipermail/exim-announce/2003q3/000094.html
+
 --- src/smtp_in.c.orig	2002-04-04 22:56:20.000000000 +1000
 +++ src/smtp_in.c
 @@ -2021,13 +2021,12 @@ while (done <= 0)
