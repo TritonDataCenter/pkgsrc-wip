@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	Mail-Milter-0.01
+DISTNAME=	Mail-Milter-0.02
 PKGNAME=	p5-${DISTNAME}
 CATEGORIES=	wip mail perl5
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=pmilter/}
