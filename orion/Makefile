@@ -16,8 +16,8 @@ COMMENT=		Orion - a window manager for X written in Scheme
 #
 BUILD_DEPENDS+=		scsh-${SCSH_VERSION}.[0-9]:../../shells/scsh
 BUILD_DEPENDS+=		scsh-install-lib>=1:../../wip/scsh-install-lib
-BUILD_DEPENDS+=		sunterlib-*:../../wip/sunterlib
-BUILD_DEPENDS+=		scx-*:../../wip/scx
+DEPENDS+=		sunterlib-*:../../wip/sunterlib
+DEPENDS+=		scx-*:../../wip/scx
 
 SCSH_VERSION?=		0.6
 SCSH_LIBPATH=		${PREFIX}/share/scsh-${SCSH_VERSION}/modules
