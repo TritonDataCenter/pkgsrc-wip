@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		jabberd-2.0rc1
+DISTNAME=		jabberd-2.0s1
 CATEGORIES=		chat
 MASTER_SITES=		http://www.jabberstudio.org/files/jabberd2/
 
@@ -47,7 +47,7 @@ JABBERD_AUTH_METHOD?=		db
 
 .if !empty(JABBERD_AUTH_METHOD:Mdb)
 CONFIGURE_ARGS+=	--enable-authreg=db
-CONFIGURE_ARGS+=	--with-berkeley-db=${BUILDLINK_PREFIX.db4}
+CONFIGURE_ARGS+=	--with-berkeley-db=${BUILDLINK_PREFIX.db4}/include/db4
 .include "../../databases/db4/buildlink2.mk"
 .elif !empty(JABBERD_AUTH_METHOD:Mopenldap)
 CONFIGURE_ARGS+=	--enable-authreg=ldap
@@ -80,7 +80,7 @@ JABBERD_STORAGE_METHOD?=	db
 
 .if !empty(JABBERD_STORAGE_METHOD:Mdb)
 CONFIGURE_ARGS+=	--enable-storage=db
-CONFIGURE_ARGS+=	--with-berkeley-db=${BUILDLINK_PREFIX.db4}
+CONFIGURE_ARGS+=	--with-berkeley-db=${BUILDLINK_PREFIX.db4}/include/db4
 .include "../../databases/db4/buildlink2.mk"
 .elif !empty(JABBERD_STORAGE_METHOD:Mmysql)
 CONFIGURE_ARGS+=	--enable-storage=mysql
