@@ -25,7 +25,6 @@ REPLACE_PERL=	bin/gapi.pl
 REPLACE_PERL+=	bin/gapi2xml.pl
 REPLACE_PERL+=	bin/gapi_pp.pl
 
-
 PARSER_MK=	${WRKSRC}/parser/Makefile.in
 
 post-patch:
