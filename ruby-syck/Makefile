@@ -10,7 +10,7 @@ MAINTAINER=	rasputnik@hellooperator.net
 HOMEPAGE=	http://www.whytheluckystiff.net/syck/
 COMMENT=		Fast YAML reader/writer for Ruby
 
-USE_BUILDLINK2= # defined
+USE_BUILDLINK3= # defined
 
 DEPENDS+=	ruby-racc>=1.4.3:../../devel/ruby-racc
 VER=	0.42
