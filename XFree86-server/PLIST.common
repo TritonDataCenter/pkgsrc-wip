@@ -9,7 +9,6 @@ bin/inb
 bin/inl
 bin/inw
 bin/ioport
-bin/kbd_mode
 bin/mmapr
 bin/mmapw
 bin/outb
