@@ -1,4 +1,0 @@
-# $NetBSD$
-
-# enable socketmap lookups
-APPENDDEF(`confMAPDEF', `-DSOCKETMAP')

@@ -1,4 +1,0 @@
-# $NetBSD$
-
-# enable IPv6 - not Solaris
-APPENDDEF(`confENVDEF', `-DNEEDSGETIPNODE')

@@ -1,5 +1,0 @@
-# $NetBSD$
-
-# enable SASL 2
-APPENDDEF(`confENVDEF', `-DSASL=2')
-APPENDDEF(`conf_sendmail_LIBS', `-lsasl2')

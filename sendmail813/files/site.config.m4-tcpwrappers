@@ -1,5 +1,0 @@
-# $NetBSD$
-
-# enable tcpwrappers
-APPENDDEF(`confENVDEF', `-DTCPWRAPPERS')
-APPENDDEF(`conf_sendmail_LIBS', `-lwrap')

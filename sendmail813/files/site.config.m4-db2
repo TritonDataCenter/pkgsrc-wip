@@ -1,5 +1,0 @@
-# $NetBSD$
-
-# enable db2
-APPENDDEF(`confENVDEF', `-DNEWDB -I${BUILDLINK_DIR}/include/db2')
-APPENDDEF(`confLIBS', `-ldb2')
