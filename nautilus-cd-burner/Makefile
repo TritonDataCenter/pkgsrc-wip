@@ -22,8 +22,6 @@ USE_LIBTOOL=		yes
 USE_X11=		yes
 GNU_CONFIGURE=		yes
 
-LIBTOOL_OVERRIDE=       ${WRKSRC}/libtool
-
 CONFIGURE_ARGS+=	--sysconfdir=${PKG_SYSCONFDIR}
 
 PKG_SYSCONFSUBDIR=	gnome-vfs-2.0/modules

@@ -18,7 +18,6 @@ USE_BUILDLINK3=		yes
 USE_LIBTOOL=		yes
 GNU_CONFIGURE=		yes
 
-LIBTOOL_OVERRIDE=       ${WRKSRC}/libtool
 PKGCONFIG_OVERRIDE+=    ${WRKSRC}/xau.pc.in
 
 .include "../../wip/xproto/buildlink3.mk"

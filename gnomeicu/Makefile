@@ -16,8 +16,6 @@ USE_X11=		YES
 USE_GNU_TOOLS+=		make
 USE_LIBTOOL=		YES
 
-LIBTOOL_OVERRIDE=	${WRKSRC}/libtool
-
 GCONF2_SCHEMAS=		gnomeicu.schemas
 
 .include "../../databases/gdbm/buildlink2.mk"

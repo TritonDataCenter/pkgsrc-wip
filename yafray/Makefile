@@ -14,8 +14,6 @@ USE_LIBTOOL=		yes
 GNU_CONFIGURE=		yes
 USE_GCC_SHLIB=		yes
 
-LIBTOOL_OVERRIDE=       ${WRKSRC}/libtool
-
 YAFRAYDIR=		${PREFIX}/share/yafray/
 DOCDIR=			${PREFIX}/share/doc/yafray
 

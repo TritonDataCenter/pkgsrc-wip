@@ -16,8 +16,6 @@ USE_LIBTOOL=		yes
 GNU_CONFIGURE=		yes
 USE_PKGINSTALL=		yes
 
-LIBTOOL_OVERRIDE=       ${WRKSRC}/libtool
-
 CONFIGURE_ARGS+=	--bindir=${PREFIX}/sbin
 
 RCD_SCRIPTS=	cherokee

@@ -23,7 +23,6 @@ NO_SRC_ON_FTP=	# defined
 
 GNU_CONFIGURE=	YES
 USE_LIBTOOL=	YES
-LIBTOOL_OVERRIDE=	${WRKSRC}/libtool
 
 pre-configure:
 	cd ${WRKSRC} && ${ACLOCAL}

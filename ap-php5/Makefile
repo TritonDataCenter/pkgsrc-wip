@@ -9,7 +9,7 @@ DEPENDS+=		php>=${PHP5_VERSION}:../../www/php5
 
 USE_BUILDLINK2=		YES
 APACHE_MODULE=		YES
-SHLIBTOOL_OVERRIDE=	${WRKSRC}/libtool
+SHLIBTOOL_OVERRIDE=	libtool
 
 .include "../../wip/php5/Makefile.common"
 

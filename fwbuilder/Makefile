@@ -19,7 +19,6 @@ BUILD_USES_MSGFMT=	yes
 BUILD_USES_GETTEXT_M4=	yes
 USE_GCC_SHLIB=		yes
 GCC_REQD=		2.95.3
-LIBTOOL_OVERRIDE=	${WRKSRC}/libtool
 
 pre-configure:
 	cd ${WRKSRC} && ${LOCALBASE}/bin/libtoolize --force --copy

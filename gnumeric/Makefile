@@ -27,7 +27,6 @@ CONFIGURE_ARGS+=	--without-psiconv
 LIBS+=      		-lunicode
 
 USE_LIBTOOL=		YES
-LIBTOOL_OVERRIDE=	${WRKSRC}/libtool
 
 GCONF2_SCHEMAS=		gnumeric-dialogs.schemas
 GCONF2_SCHEMAS+=	gnumeric-general.schemas

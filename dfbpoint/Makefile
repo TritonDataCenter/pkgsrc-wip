@@ -17,8 +17,6 @@ USE_LIBTOOL=		yes
 GNU_CONFIGURE=		yes
 USE_GNU_TOOLS+=		make
 
-LIBTOOL_OVERRIDE=       ${WRKSRC}/libtool
-
 .include "../../wip/directfb/buildlink2.mk"
 .include "../../devel/glib2/buildlink2.mk"
 

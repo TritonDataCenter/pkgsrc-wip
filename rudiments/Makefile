@@ -15,6 +15,4 @@ USE_GNU_TOOLS+=		make
 USE_LIBTOOL=		YES
 USE_PKGLOCALEDIR=	YES
 
-LIBTOOL_OVERRIDE=	${WRKSRC}/libtool
-
 .include "../../mk/bsd.pkg.mk"

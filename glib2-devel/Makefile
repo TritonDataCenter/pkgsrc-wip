@@ -13,7 +13,6 @@ COMMENT=		Development (unstable) version of devel/glib2
 USE_BUILDLINK2=		yes
 USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=		yes
-LIBTOOL_OVERRIDE=	${WRKSRC}/libtool
 PKGCONFIG_OVERRIDE+=	${WRKSRC}/glib-2.0.pc.in
 PKGCONFIG_OVERRIDE+=	${WRKSRC}/gmodule-2.0.pc.in
 PKGCONFIG_OVERRIDE+=	${WRKSRC}/gobject-2.0.pc.in

@@ -16,6 +16,4 @@ USE_LIBTOOL=	YES
 GNU_CONFIGURE=	YES
 USE_GNU_TOOLS+=	make
 
-LIBTOOL_OVERRIDE=       ${WRKSRC}/libtool
-
 .include "../../mk/bsd.pkg.mk"

@@ -12,7 +12,6 @@ COMMENT=	Instant messenger software for Poland; Jabber plugin included
 USE_BUILDLINK2=		yes
 USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=		yes
-LIBTOOL_OVERRIDE=	${WRKSRC}/libtool
 PKGCONFIG_OVERRIDE+=	${WRKSRC}/lib/gg2_core.pc.in
 GNU_CONFIGURE=		yes
 

@@ -15,7 +15,6 @@ USE_GNU_TOOLS+=	make
 USE_LIBTOOL=	YES
 USE_X11=	YES
 
-LIBTOOL_OVERRIDE=	${WRKSRC}/libtool
 PKGCONFIG_OVERRIDE=	gdesklets-core.pc.in
 GCONF2_SCHEMAS=		gdesklets-display-thumbnail.schemas
 

@@ -15,8 +15,6 @@ USE_LIBTOOL=		YES
 USE_GNU_TOOLS+=		make
 USE_X11=		YES
 
-LIBTOOL_OVERRIDE=	${WRKSRC}/libtool
-
 LDFLAGS+=		${EXPORT_SYMBOLS_LDFLAGS}
 
 .include "../../meta-pkgs/kde3/buildlink2.mk"

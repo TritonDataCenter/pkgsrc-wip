@@ -14,8 +14,6 @@ USE_BUILDLINK2=		yes
 USE_LIBTOOL=		yes
 GNU_CONFIGURE=		yes
 
-LIBTOOL_OVERRIDE=	${WRKSRC}/libtool
-
 PTHREAD_OPTS+=		require
 
 .include "../../devel/readline/buildlink2.mk"

@@ -17,8 +17,6 @@ GNU_CONFIGURE=		yes
 USE_BUILDLINK2=		yes
 USE_LIBTOOL=		yes
 
-LIBTOOL_OVERRIDE=	${WRKSRC}/libtool
-
 PTHREAD_OPTS=	require
 
 CONFIGURE_ARGS+=        --without-gtk

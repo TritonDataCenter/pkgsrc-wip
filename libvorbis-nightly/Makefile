@@ -24,7 +24,6 @@ NO_SRC_ON_FTP=		# defined
 USE_BUILDLINK2=		YES
 GNU_CONFIGURE=		YES
 USE_LIBTOOL=		YES
-LIBTOOL_OVERRIDE=	${WRKSRC}/libtool
 
 pre-configure:
 	cd ${WRKSRC} && ${ACLOCAL}

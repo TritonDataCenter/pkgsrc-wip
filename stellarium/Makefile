@@ -12,7 +12,6 @@ COMMENT=		Generate photorealistic skys with OpenGL
 USE_BUILDLINK2=		yes
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
-LIBTOOL_OVERRIDE=	yes
 
 .include "../../devel/SDL/buildlink2.mk"
 .include "../../mk/bsd.pkg.mk"

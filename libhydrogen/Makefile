@@ -10,7 +10,6 @@ COMMENT=	Shared library for the Hydrogen drum machine
 
 USE_BUILDLINK2=		YES
 USE_LIBTOOL=		YES
-LIBTOOL_OVERRIDE=	${WRKSRC}/libtool
 
 USE_GNU_TOOLS+=	make
 GNU_CONFIGURE=		YES

@@ -15,7 +15,5 @@ GNU_CONFIGURE=		YES
 USE_GNU_TOOLS+=		make
 USE_X11BASE=		YES
 
-LIBTOOL_OVERRIDE=       ${WRKSRC}/libtool
-
 .include "../../x11/gtk/buildlink2.mk"
 .include "../../mk/bsd.pkg.mk"

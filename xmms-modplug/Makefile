@@ -17,8 +17,7 @@ USE_X11=		yes
 USE_BUILDLINK2=		yes
 GNU_CONFIGURE=		yes
 USE_LIBTOOL=		yes
-LIBTOOL_OVERRIDE=	${WRKSRC}/libtool
-SHLIBTOOL_OVERRIDE=	${WRKSRC}/libtool-disable-static
+SHLIBTOOL_OVERRIDE=	libtool-disable-static
 
 CFLAGS+=		-DDEVICE_NAME="\"\\\"${DEVOSSSOUND}\\\"\""
 

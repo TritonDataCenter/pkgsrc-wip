@@ -14,7 +14,6 @@ COMMENT=		Development (unstable) version of devel/pango
 USE_BUILDLINK2=		yes
 USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=		yes
-LIBTOOL_OVERRIDE=	${WRKSRC}/libtool
 PKGCONFIG_OVERRIDE+=	${WRKSRC}/pango.pc.in
 PKGCONFIG_OVERRIDE+=	${WRKSRC}/pangoft2.pc.in
 PKGCONFIG_OVERRIDE+=	${WRKSRC}/pangowin32.pc.in

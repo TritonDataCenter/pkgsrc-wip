@@ -13,7 +13,6 @@ COMMENT=		SQL frontend for DB4 (DBF) files with xbase
 USE_BUILDLINK2=		yes
 USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=		yes
-LIBTOOL_OVERRIDE=	${WRKSRC}/libtool
 GNU_CONFIGURE=		yes
 
 .include "../../wip/xbase/buildlink2.mk"

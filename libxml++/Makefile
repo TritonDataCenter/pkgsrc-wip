@@ -13,7 +13,6 @@ COMMENT=		C++ wrapper for the libxml2 XML parser library
 
 USE_BUILDLINK2=		yes
 USE_LIBTOOL=		yes
-LIBTOOL_OVERRIDE=	${WRKSRC}/libtool
 PKGCONFIG_OVERRIDE+=	${WRKSRC}/libxml++-1.0.pc.in
 GNU_CONFIGURE=		yes
 

@@ -17,7 +17,6 @@ USE_BUILDLINK2=		yes
 USE_PKGLOCALEDIR=	yes
 BUILD_USES_MSGFMT=	yes
 USE_LIBTOOL=		yes
-LIBTOOL_OVERRIDE=	${WRKSRC}/libtool
 GNU_CONFIGURE=		yes
 
 .include "../../textproc/intltool/buildlink2.mk"

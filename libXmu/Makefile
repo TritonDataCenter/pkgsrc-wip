@@ -13,7 +13,6 @@ COMMENT=		X Miscellaneous Utilities library
 
 USE_BUILDLINK2=		yes
 USE_LIBTOOL=		yes
-LIBTOOL_OVERRIDE=	${WRKSRC}/libtool
 PKGCONFIG_OVERRIDE+=	${WRKSRC}/xmu.pc.in
 PKGCONFIG_OVERRIDE+=	${WRKSRC}/xmuu.pc.in
 GNU_CONFIGURE=		yes

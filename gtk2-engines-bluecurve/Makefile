@@ -14,7 +14,6 @@ COMMENT=		Port of famous Bluecurve theme, introduced by RedHat
 USE_BUILDLINK2=		YES
 USE_LIBTOOL=		YES
 USE_GNU_TOOLS+=		make
-LIBTOOL_OVERRIDE=	${WRKSRC}/libtool
 GNU_CONFIGURE=		YES
 
 .include "../../x11/gtk2/buildlink2.mk"

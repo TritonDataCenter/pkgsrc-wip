@@ -14,7 +14,6 @@ USE_BUILDLINK2=		yes
 USE_LIBTOOL=		yes
 USE_X11=		yes
 
-LIBTOOL_OVERRIDE=       ${WRKSRC}/libtool
 FILESDIR=		${.CURDIR}/../../audio/xmms/files
 
 .include "../../mk/bsd.prefs.mk"

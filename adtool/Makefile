@@ -17,8 +17,6 @@ USE_PKGLOCALEDIR=	yes
 
 CONFIGURE_ARGS+=	--sysconfdir=${PKG_SYSCONFDIR}
 
-LIBTOOL_OVERRIDE=       ${WRKSRC}/libtool
-
 EGDIR=			${PREFIX}/share/examples/adtool
 CONF_FILES=		${EGDIR}/adtool.cfg.dist ${PKG_SYSCONFDIR}/adtool.cfg
 

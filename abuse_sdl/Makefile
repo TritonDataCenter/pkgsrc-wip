@@ -13,7 +13,6 @@ COMMENT=		Port of the Abuse side scroller to SDL
 USE_GNU_TOOLS+=		make
 USE_BUILDLINK2=		YES
 USE_LIBTOOL=		YES
-LIBTOOL_OVERRIDE=	${WRKSRC}/libtool
 GNU_CONFIGURE=		YES
 
 SITES_frabs210_unix.src.tar.bz2=       http://www.cs.uidaho.edu/~cass0664/fRaBs/

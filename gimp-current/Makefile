@@ -27,7 +27,6 @@ USE_X11=		yes
 USE_GNU_TOOLS+=		make
 
 USE_LIBTOOL=		yes
-LIBTOOL_OVERRIDE=	${WRKSRC}/libtool
 
 PKGCONFIG_OVERRIDE=	gimp-1.3.pc.in
 PKGCONFIG_OVERRIDE+=	gimpthumb-1.3.pc.in

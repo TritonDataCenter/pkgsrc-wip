@@ -24,8 +24,6 @@ CONFIGURE_ARGS+=	--with-big-channels
 CONFIGURE_ARGS+=	--without-arts-support
 CONFIGURE_ARGS+=	--with-aa-fonts
 
-LIBTOOL_OVERRIDE=	${WRKSRC}/libtool
-
 PTHREAD_OPTS+=		require
 AUTOMAKE_REQD=		1.5
 

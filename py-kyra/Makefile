@@ -13,7 +13,6 @@ COMMENT=		Game development framework for Python
 USE_BUILDLINK2=		yes
 USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=		yes
-LIBTOOL_OVERRIDE=	${WRKSRC}/libtool
 GNU_CONFIGURE=		yes
 PY_PATCHPLIST=		yes
 PYDISTUTILSPKG=		yes

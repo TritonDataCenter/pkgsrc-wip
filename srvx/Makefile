@@ -11,7 +11,6 @@ COMMENT=	Srvx IRC services
 
 USE_BUILDLINK2=	YES
 USE_LIBTOOL=	YES
-LIBTOOL_OVERRIDE=	${WRKSRC}/libtool
 GNU_CONFIGURE=	YES
 
 .include "../../mk/bsd.pkg.mk"

@@ -15,8 +15,6 @@ USE_GNU_TOOLS+=		make
 USE_LIBTOOL=		yes
 USE_X11BASE=		yes
 
-LIBTOOL_OVERRIDE=	${WRKSRC}/libtool
-
 CONFIGURE_ARGS+=	--with-extra-includes=${LOCALBASE}/include
 CONFIGURE_ARGS+=	--with-extra-libs=${LOCALBASE}/libs
 

@@ -15,7 +15,6 @@ USE_PKGLOCALEDIR=	yes
 USE_PERL5=		build
 
 USE_LIBTOOL=		yes
-LIBTOOL_OVERRIDE=	libtool
 
 .include "../../audio/libao/buildlink3.mk"
 .include "../../audio/libid3tag/buildlink3.mk"

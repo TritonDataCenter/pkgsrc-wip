@@ -18,8 +18,6 @@ USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=		yes
 GNU_CONFIGURE=		yes
 
-LIBTOOL_OVERRIDE=       ${WRKSRC}/libtool
-
 .include "../../devel/libgnomeui/buildlink2.mk"
 .include "../../textproc/libcroco/buildlink2.mk"
 .include "../../textproc/libxml2/buildlink2.mk"

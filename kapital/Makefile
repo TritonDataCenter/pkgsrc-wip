@@ -40,7 +40,7 @@ USE_GNU_TOOLS+=	make
 GNU_CONFIGURE=  YES
 USE_LIBTOOL=    YES
 LTCONFIG_OVERRIDE=  ${WRKSRC}/ltconfig
-SHLIBTOOL_OVERRIDE=	${WRKSRC}/libtool
+SHLIBTOOL_OVERRIDE=	libtool
 
 .include "../../meta-pkgs/kde3/buildlink2.mk"
 .include "../../x11/kdelibs3/buildlink2.mk"

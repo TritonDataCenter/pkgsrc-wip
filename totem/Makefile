@@ -19,8 +19,6 @@ USE_PKGLOCALEDIR=	YES
 USE_GNU_TOOLS+=		make
 USE_X11=		YES
 
-LIBTOOL_OVERRIDE=       ${WRKSRC}/libtool
-
 GCONF2_SCHEMAS=		totem-video-thumbnail.schemas
 GCONF2_SCHEMAS+=	totem.schemas
 

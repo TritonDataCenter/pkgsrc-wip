@@ -17,6 +17,4 @@ GNU_CONFIGURE=		yes
 USE_GNU_TOOLS+=		make
 USE_X11=		yes
 
-LIBTOOL_OVERRIDE=       ${WRKSRC}/libtool
-
 .include "../../mk/bsd.pkg.mk"

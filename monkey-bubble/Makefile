@@ -12,7 +12,6 @@ COMMENT=		Bust'a'move clone written in C for GNOME2
 USE_BUILDLINK2=		yes
 USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=		yes
-LIBTOOL_OVERRIDE=	${WRKSRC}/libtool
 GNU_CONFIGURE=		yes
 USE_GNU_TOOLS+=		make
 

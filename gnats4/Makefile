@@ -17,7 +17,6 @@ USE_GNU_TOOLS+=		m4 make
 USE_BISON=		yes
 USE_MAKEINFO=		yes
 USE_LIBTOOL=		yes
-LIBTOOL_OVERRIDE=	${WRKSRC}/libtool
 GNU_CONFIGURE=		yes
 
 INFO_FILES=	gnats.info gnats-faq.info

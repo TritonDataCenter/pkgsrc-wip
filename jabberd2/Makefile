@@ -26,7 +26,6 @@ SUBST_SED.foo=		-e "s,/usr/local,${PREFIX},g"			\
 			-e "s,$sysconfdir/jabberd,$sysconfdir,g"
 
 CONFIGURE_ARGS+=	--sysconfdir=${PKG_SYSCONFDIR}
-LIBTOOL_OVERRIDE=       ${WRKSRC}/libtool
 
 REPLACE_PERL=		tools/pipe-auth.pl
 

@@ -19,8 +19,6 @@ GNU_CONFIGURE=		yes
 USE_GNU_TOOLS+=		make
 USE_X11=		yes
 
-LIBTOOL_OVERRIDE=       ${WRKSRC}/libtool
-
 CONFIGURE_ARGS+=	--disable-id3
 
 #.include "../../audio/id3lib/buildlink2.mk"
