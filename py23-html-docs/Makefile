@@ -1,11 +1,11 @@
 # $NetBSD$
 #
 
-DISTNAME=	html-2.3
-PKGNAME=	py23-html-docs-2.3
-WRKSRC=		${WRKDIR}/Python-Docs-2.3/
+DISTNAME=	html-2.3.3
+PKGNAME=	py23-html-docs-2.3.3
+WRKSRC=		${WRKDIR}/Python-Docs-2.3.3/
 CATEGORIES=	lang
-MASTER_SITES=	http://www.python.org/ftp/python/doc/2.3/
+MASTER_SITES=	http://www.python.org/ftp/python/doc/2.3.3/
 EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	dotz@irc.pl
