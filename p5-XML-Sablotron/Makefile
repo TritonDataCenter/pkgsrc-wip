@@ -18,7 +18,7 @@ EXPATINCPATH=	${LOCALBASE}/include
 SABLOTLIBPATH=	${LOCALBASE}/lib
 SABLOTINCPATH=	${LOCALBASE}/include
 
-USE_BUILDLINK2=		YES
+USE_BUILDLINK3=		YES
 PERL5_PACKLIST=		${PERL5_SITEARCH}/auto/XML/Sablotron/.packlist
 
 post-patch:
@@ -30,6 +30,6 @@ post-patch:
 	-e "s|^\(my \$$sablot_incpath = '\)\(';\)$$|\1${SABLOTINCPATH}\2|" \
 	${WRKSRC}/Makefile.PL.orig > ${WRKSRC}/Makefile.PL
 
-.include "../../textproc/sablotron/buildlink2.mk"
+.include "../../textproc/sablotron/buildlink3.mk"
 .include "../../lang/perl5/module.mk"
 .include "../../mk/bsd.pkg.mk"
