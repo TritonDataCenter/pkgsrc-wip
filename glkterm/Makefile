@@ -3,7 +3,6 @@
 
 DISTNAME=	glkterm-078
 PKGNAME=	glkterm-0.7.8
-WRKSRC=		${WRKDIR}/glkterm
 CATEGORIES=	games
 MASTER_SITES=	http://mirror.ifarchive.org/if-archive/programming/glk/implementations/
 EXTRACT_SUFX=	.tar.Z
@@ -16,6 +15,7 @@ COMMENT=	Curses port of Glk interface
 INCOMPAT_CURSES+=	NetBSD-1.4[Y-Z]* NetBSD-1.5* NetBSD-1.6-* NetBSD-1.6.*
 INCOMPAT_CURSES+=	NetBSD-1.6[A-L]*
 
+WRKSRC=		${WRKDIR}/glkterm
 USE_BUILDLINK3=	yes
 USE_LIBTOOL=	yes
 
