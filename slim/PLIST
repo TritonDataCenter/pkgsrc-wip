@@ -1,0 +1,5 @@
+@comment $NetBSD$
+include/slim_export.h
+include/slim_import.h
+include/slim_internal.h
+lib/pkgconfig/slim.pc
