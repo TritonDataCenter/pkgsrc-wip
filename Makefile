@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.128 2003/04/28 16:23:49 jeremy-c-reed Exp $
+# $Id: Makefile,v 1.129 2003/04/28 22:12:57 xtraeme Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -89,6 +89,7 @@ SUBDIR+=	navigatrix
 SUBDIR+=	nvtv
 SUBDIR+=	p5-Chart
 SUBDIR+=	p5-HTTP-GHTTP
+SUBDIR+=	p5-Net-Gnats
 SUBDIR+=	p5-Net-Jabber
 SUBDIR+=	p5-Unicode-String
 SUBDIR+=	p5-XML-Stream
