@@ -10,9 +10,8 @@ HOMEPAGE=	http://sdlmm.sourceforge.net/
 COMMENT=	C++ Wrapper for the Simple DirectMedia Layer
 
 USE_BUILDLINK2=	YES
-USE_LIBTOOL=	YES
 GNU_CONFIGURE=	YES
-USE_GMAKE=	YES
+USE_LIBTOOL=	YES
 
 LIBTOOL_OVERRIDE=       ${WRKSRC}/libtool
 
