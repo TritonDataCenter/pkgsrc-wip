@@ -38,9 +38,9 @@ DOCSDIR?=	${PREFIX}/doc/${DISTNAME}
 CPIO?=/usr/bin/cpio
 
 pre-configure:
-	@ ${SETENV} WRKSRC=${WRKSRC} ${FILESDIR}/pre-configure
+	@ ${SETENV} WRKSRC=${WRKSRC} ${SH} ${FILESDIR}/pre-configure
 post-configure:
-	@ ${SETENV} WRKSRC=${WRKSRC} ${FILESDIR}/post-configure
+	@ ${SETENV} WRKSRC=${WRKSRC} ${SH} ${FILESDIR}/post-configure
 
 post-install:
 	@ ${ECHO} Installing examples to ${EXAMPLES_DIR}
