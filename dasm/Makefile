@@ -11,7 +11,7 @@ MAINTAINER=	mor@linex.com
 HOMEPAGE=	http://members.cox.net/rcolbert/dasm.htm
 COMMENT=	Professional-grade multi-CPU cross-assembler for 6502, 6803 and 68HC11
 
-NO_CONFIGURE:	YES
+NO_CONFIGURE=	YES
 
 post-extract:
 	${MKDIR} ${WRKSRC}
