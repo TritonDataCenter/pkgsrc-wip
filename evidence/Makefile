@@ -69,7 +69,7 @@ CONFIGURE_ARGS+=	--disable-${val}
 # means users can simply remove a dependency and get into trouble. (?)
 #
 .include "../../sysutils/fam/buildlink3.mk"
-.include "../../wip/epeg/buildlink3.mk"
+.include "../../graphics/epeg/buildlink3.mk"
 .include "../../devel/pcre/buildlink3.mk"
 
 .include "../../mk/bsd.pkg.mk"
