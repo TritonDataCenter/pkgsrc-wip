@@ -9,7 +9,7 @@ MAINTAINER=	xtraeme@NetBSD.org
 HOMEPAGE=	http://streamripper.sourceforge.net/
 COMMENT=	Splits SHOUTcast stream into tracks
 
-USE_BUILDLINK2=		yes
+USE_BUILDLINK3=		yes
 GNU_CONFIGURE=		yes
 
 do-install:
@@ -23,5 +23,5 @@ do-install:
 
 PTHREAD_OPTS+=	require
 
-.include "../../mk/pthread.buildlink2.mk"
+.include "../../mk/pthread.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
