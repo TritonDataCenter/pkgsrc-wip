@@ -12,7 +12,8 @@ COMMENT=	vi with regex search, hex editing, HTML and TeX previewing
 
 USE_BUILDLINK2=		yes
 HAS_CONFIGURE=		yes
-CONFIGURE_ARGS+=	--with-x=no --bindir=${PREFIX}/bin
+CONFIGURE_ARGS+=	--with-x=no
+CONFIGURE_ARGS+=	--bindir=${PREFIX}/bin
 CONFIGURE_ARGS+=	--datadir=${PREFIX}/share/elvis
 
 .include "../../mk/bsd.pkg.mk"
