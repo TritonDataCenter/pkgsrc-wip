@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.1188 2004/04/11 23:36:58 minskim Exp $
+# $Id: Makefile,v 1.1189 2004/04/11 23:53:40 blef Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -373,7 +373,6 @@ SUBDIR+=	mcats-iodbc
 SUBDIR+=	memtester
 SUBDIR+=	metatheme
 SUBDIR+=	mftrace
-SUBDIR+=	mhonarc
 SUBDIR+=	ming
 SUBDIR+=	mingw
 SUBDIR+=	mingw-binutils
