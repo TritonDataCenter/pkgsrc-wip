@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.213 2003/06/03 14:40:14 thomasklausner Exp $
+# $Id: Makefile,v 1.214 2003/06/03 16:22:05 xtraeme Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -171,6 +171,7 @@ SUBDIR+=	vcdgear
 SUBDIR+=	vixie-cron
 SUBDIR+=	vmac
 SUBDIR+=	vmsbackup
+SUBDIR+=	weewm
 SUBDIR+=	windowlab
 SUBDIR+=	words
 SUBDIR+=	xawtv
