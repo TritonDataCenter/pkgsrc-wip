@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.757 2003/12/13 18:02:07 xtraeme Exp $
+# $Id: Makefile,v 1.758 2003/12/13 18:16:04 xtraeme Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -191,7 +191,6 @@ SUBDIR+=	grip
 SUBDIR+=	gstreamer-player
 SUBDIR+=	gtick
 SUBDIR+=	gtk-engines-thinice
-SUBDIR+=	gtk-send-pr
 SUBDIR+=	gtk-sharp
 SUBDIR+=	gtk-theme-switch
 SUBDIR+=	gtk2-engines-bluecurve
