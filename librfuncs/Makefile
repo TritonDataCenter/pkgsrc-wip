@@ -14,9 +14,16 @@ USE_BUILDLINK3=		yes
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 USE_LIBTOOL=		yes
-PTHREAD_OPTS+=		require
 
 TEST_TARGET=		check
 
 .include "../../mk/pthread.buildlink3.mk"
+.if defined(PTHREAD_TYPE) && ${PTHREAD_TYPE} == "none"
+CONFIGURE_ARGS+=	--disable-threads
+.else
+CONFIGURE_ARGS+=	--enable-threads
+CFLAGS+=	${PTHREAD_CFLAGS}
+LDFLAGS+=	${PTHREAD_LDFLAGS}
+.endif
+
 .include "../../mk/bsd.pkg.mk"
