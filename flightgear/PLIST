@@ -1,0 +1,14 @@
+@comment $NetBSD$
+bin/est-epsilon
+bin/fgfs
+bin/fgjs
+bin/gl-info
+bin/js_demo
+bin/terrasync
+bin/yasim
+man/man1/est-epsilon.1
+man/man1/fgfs.1
+man/man1/fgjs.1
+man/man1/gl-info.1
+man/man1/js_demo.1
+man/man1/pstest.1
