@@ -4,13 +4,13 @@
 DISTNAME=		mod_auth_mysql.c
 PKGNAME=		ap2-auth-mysql-1.11.12
 WRKSRC=			${WRKDIR}/${PKGNAME}
-CATEGORIES=		local
+CATEGORIES=		www databases
 MASTER_SITES=		ftp://ftp.kcilink.com/pub/
 DISTFILES=		${DISTNAME}.gz mysql-group-auth.txt
 
 MAINTAINER=		cube@NetBSD.org
 HOMEPAGE=		ftp://ftp.redhat.com/pub/redhat/linux/9/en/os/i386/SRPMS/
-COMMENT=		Module to allow Apache 2 authentication against a MySQL database.
+COMMENT=		Module to allow Apache 2 authentication against a MySQL database
 
 CONFLICTS+=		ap-auth-mysql-*
 
