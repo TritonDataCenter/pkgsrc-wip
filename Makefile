@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.1696 2005/03/21 14:32:10 imilh Exp $
+# $Id: Makefile,v 1.1697 2005/03/21 21:42:13 tvierling Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -110,7 +110,6 @@ SUBDIR+=	bscript
 SUBDIR+=	bub-n-bros
 SUBDIR+=	busybox
 SUBDIR+=	bwidget
-SUBDIR+=	byacc
 SUBDIR+=	c-ares
 SUBDIR+=	c-news
 SUBDIR+=	caml-libnum
