@@ -13,6 +13,8 @@ COMMENT=	Ogg project codecs library (nightly source)
 
 CONFLICTS=	libogg-[0-9]*
 
+.include "../../mk/bsd.prefs.mk"
+
 PKGVER!=	${DATE} +%Y%m%d
 DIST_SUBDIR=	${PKGNAME}
 NO_CHECKSUM=	YES

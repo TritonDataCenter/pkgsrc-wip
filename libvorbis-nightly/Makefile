@@ -13,6 +13,8 @@ COMMENT=		Library for the Ogg Vorbis audio encoding format (nightly source)
 
 CONFLICTS=		libvorbis-[0-9]*
 
+.include "../../mk/bsd.prefs.mk"
+
 PKGVER!=		${DATE} +%Y%m%d
 DIST_SUBDIR=		${PKGNAME}
 NO_CHECKSUM=		YES
