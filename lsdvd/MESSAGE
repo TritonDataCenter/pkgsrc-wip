@@ -1,8 +1,7 @@
 ===========================================================================
 $NetBSD$
 
-You will have to make one symlink of your DVD device to /dev/dvd.
-
-Enjoy!
+In order for this program to function properly, you must symlink your DVD
+device to /dev/dvd.
 
 ===========================================================================
