@@ -3,8 +3,6 @@ bin/rox
 libexec/rox/ROX-Filer
 man/man1/rox.1
 share/rox/ROX-Filer/.DirIcon
-share/rox/ROX-Filer/Action.png
-share/rox/ROX-Filer/Action-it.png
 share/rox/ROX-Filer/AppInfo.xml
 share/rox/ROX-Filer/AppRun
 share/rox/ROX-Filer/style.css
