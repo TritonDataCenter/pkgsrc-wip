@@ -16,7 +16,16 @@ MAKE_ENV+=	BSDSRCDIR="${BSDSRCDIR}"
 MESSAGE_SUBST+= PREFIX="${PREFIX}"
 WRKSRC=		${WRKDIR}
 
+.include "../../mk/bsd.prefs.mk"
+
 pre-patch:
+.if !exists(${BSDSRCDIR}/usr.sbin/pppd/Makefile)
+	@${ECHO} "This package requires the NetBSD source sets to be installed"
+	@${ECHO} "in order to compile, as it patches against the supplied pppd."
+	@${ECHO} "Please place them in ${BSDSRCDIR} or set the BSDSRCDIR variable"
+	@${ECHO} "to their location."
+	@${FALSE}
+.endif
 	@${MKDIR} ${WRKDIR}/lkm ${WRKDIR}/net ${WRKDIR}/pppd
 	@${CP} ${BSDSRCDIR}/sys/net/ppp-comp.h ${WRKDIR}/net/ppp-comp.h
 	@${CP} -R ${BSDSRCDIR}/usr.sbin/pppd/pppd ${WRKDIR}
