@@ -1,0 +1,4 @@
+@comment $NetBSD$
+lib/httpd/mod_choke.so
+share/doc/mod_choke/README
+@dirrm share/doc/mod_choke
