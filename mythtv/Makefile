@@ -10,7 +10,7 @@ MAINTAINER=		grant@NetBSD.org
 HOMEPAGE=		http://www.mythtv.org/
 COMMENT=		TV/video recorder with many features
 
-USE_BUILDLINK2=		YES
+USE_BUILDLINK3=		yes
 
 ONLY_FOR_PLATFORM=	Linux-*-*
 
@@ -44,6 +44,6 @@ post-patch:
 pre-install:
 	${INSTALL_DATA_DIR} ${PREFIX}/share/mythtv
 
-.include "../../audio/lame/buildlink2.mk"
-.include "../../x11/qt3-libs/buildlink2.mk"
+.include "../../audio/lame/buildlink3.mk"
+.include "../../x11/qt3-libs/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
