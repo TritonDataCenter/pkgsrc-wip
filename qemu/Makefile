@@ -11,16 +11,14 @@ COMMENT=		CPU emulator using dynamic translation
 
 #PKG_SKIP_REASON=	unfinished / fails to build
 
-BUILD_DEPENDS+=		SDL>=1.2.7:../../devel/SDL
 CONFLICTS+=		qemu-bin-*
 
 GNU_CONFIGURE=		yes
 USE_GNU_TOOLS+=		make
 
-ONLY_FOR_PLATFORM=	NetBSD-*-i386
-
 .include "../../mk/bsd.prefs.mk"
 
 CONFIGURE_ARGS+=	--interp-prefix=${PREFIX}/share/gnemul/qemu-%M
 
+.include "../../devel/SDL/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
