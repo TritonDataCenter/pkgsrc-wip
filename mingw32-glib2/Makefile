@@ -1,4 +1,4 @@
-# $NetBSD: Makefile,v 1.33 2003/11/02 07:03:40 xtraeme Exp $
+# $NetBSD$
 
 DISTNAME=		glib-2.2.3
 PKGNAME=		${MINGW_PKG_PREFIX}${DISTNAME:S/glib/glib2/}
@@ -25,11 +25,8 @@ PKGCONFIG_OVERRIDE+=	${WRKSRC}/gmodule-2.0.pc.in
 PKGCONFIG_OVERRIDE+=	${WRKSRC}/gobject-2.0.pc.in
 PKGCONFIG_OVERRIDE+=	${WRKSRC}/gthread-2.0.pc.in
 
-GNU_CONFIGURE=		# defined
-CONFIGURE_ENV+=		PKGLOCALEDIR=${PKGLOCALEDIR}
-CONFIGURE_ARGS+=	--enable-gtk-doc=no
-CONFIGURE_ARGS+=	--includedir=${PREFIX}/include/glib
-CONFIGURE_ARGS+=	--with-html-dir=${PREFIX}/share/doc/html
+NO_CONFIGURE=		# defined
+MAKEFILE=		makefile.mingw
 
 BUILD_DEPENDS=		${MINGW_PKG_PREFIX}gettext-lib>=0.11.5:../../wip/mingw32-gettext-lib
 
