@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	imhangul-0.9.6
+DISTNAME=	imhangul-0.9.7
 CATEGORIES=	inputmethod
 MASTER_SITES=	http://download.kldp.net/imhangul/
 EXTRACT_SUFX=	.tar.bz2
