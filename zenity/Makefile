@@ -22,4 +22,5 @@ USE_X11=		yes
 .include "../../textproc/scrollkeeper/omf.mk"
 .include "../../graphics/libgnomecanvas/buildlink2.mk"
 .include "../../devel/GConf2/schemas.mk"
+.include "../../devel/gettext-lib/buildlink2.mk"
 .include "../../mk/bsd.pkg.mk"
