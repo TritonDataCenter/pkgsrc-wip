@@ -3,7 +3,6 @@
 
 DISTNAME=		premake-src-1.2
 PKGNAME=		premake-1.2
-WRKSRC=			${WRKDIR}/Premake-1.2
 CATEGORIES=		devel
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=premake/}
 EXTRACT_SUFX=		.zip
@@ -13,10 +12,11 @@ HOMEPAGE=		http://www.scons.org/
 COMMENT=		Build script generator
 
 USE_GNU_TOOLS+=		make
-USE_BUILDLINK2=		yes
+USE_BUILDLINK3=		yes
+WRKSRC=			${WRKDIR}/Premake-1.2
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/premake ${PREFIX}/bin/
 
-.include "../../lang/lua/buildlink2.mk"
+.include "../../lang/lua/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
