@@ -7,15 +7,16 @@ MASTER_SITES=		http://www.is-vn.bg/hamster/
 
 MAINTAINER=		dotz@irc.pl
 HOMEPAGE=		http://www.is-vn.bg/hamster/jimmy-en.html
-COMMENT=		Terminus Font - a clean fixed width font
+COMMENT=		Clean fixed width font
 
 USE_BUILDLINK2=		yes
-USE_PKGLOCALEDIR=	yes
-GNU_CONFIGURE=		yes
 
 USE_X11BASE=		yes
-GNU_CONFIGURE=		yes
-CONFIGURE_ARGS+=	--x11dir=${X11BASE}/lib/X11/fonts/misc
+HAS_CONFIGURE=		yes
+CONFIGURE_ARGS+=	--x11dir=${PREFIX}/lib/X11/fonts/misc
+
+FONTS_X11_DIRS=         ${PREFIX}/lib/X11/fonts/misc
 
 .include "../../lang/perl5/buildlink2.mk"
+.include "../../mk/fonts.mk"
 .include "../../mk/bsd.pkg.mk"
