@@ -20,7 +20,7 @@ BUILD_DEFS+=	NAGIOS_USE_MYSQL NAGIOS_USE_POSTGRESQL
 CONFIGURE_ARGS+=	--with-mysql-lib=${LOCALBASE}/lib/mysql		\
 			--with-mysql-inc=${LOCALBASE}/include/mysql	\
 			--with-mysql-xdata
-.include "../../databases/mysql-client/buildlink3.mk"
+.include "../../mk/mysql.buildlink3.mk"
 .endif
 
 .if defined(NAGIOS_USE_POSTGRESQL)

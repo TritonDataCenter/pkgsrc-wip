@@ -28,7 +28,7 @@ SUBST_SED.paths=	-e "s|@PREFIX@|${PREFIX}|g"
 SUBST_MESSAGE.paths=	"Fixing paths."
 
 .if defined(USE_MYSQL) && ${USE_MYSQL} == YES
-.include "../../databases/mysql-client/buildlink3.mk"
+.include "../../mk/mysql.buildlink3.mk"
 CONFIGURE_ARGS+=	--enable-mysql
 CONFIGURE_ARGS+=	--with-mysql-includes=${BUILDLINK_PREFIX.mysql-client}/include/mysql
 CONFIGURE_ARGS+=	--with-mysql-libraries=${BUILDLINK_PREFIX.mysql-client}/lib/mysql

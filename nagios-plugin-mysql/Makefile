@@ -16,6 +16,6 @@ LDFLAGS+=		-Wl,-R${LOCALBASE}/lib/mysql
 
 .include "../../wip/nagios-plugins/Makefile.plugin"
 
-.include "../../databases/mysql-client/buildlink3.mk"
+.include "../../mk/mysql.buildlink3.mk"
 .include "../../security/openssl/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

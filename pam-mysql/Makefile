@@ -29,5 +29,5 @@ do-install:
 	${INSTALL_DATA} ${WRKSRC}/Readme ${DOCDIR}
 
 .include "../../security/PAM/buildlink3.mk"
-.include "../../databases/mysql-client/buildlink3.mk"
+.include "../../mk/mysql.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

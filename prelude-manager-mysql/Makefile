@@ -19,5 +19,5 @@ DISTINFO_FILE=  ${PKGDIR}/distinfo
 PLIST_SRC=      ${PKGDIR}/PLIST
 PLIST_SRC+=     PLIST.mysql
 
-.include "../../databases/mysql-client/buildlink3.mk"
+.include "../../mk/mysql.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

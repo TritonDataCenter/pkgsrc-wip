@@ -14,5 +14,5 @@ EVAL_PREFIX+=		MYSQLDIR=mysql-client
 CONFIGURE_ARGS+=	--with-${MODNAME}=shared,${MYSQLDIR}
 LDFLAGS+=		${COMPILER_RPATH_FLAG}${LOCALBASE}/lib/mysql
 
-.include "../../databases/mysql-client/buildlink3.mk"
+.include "../../mk/mysql.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
