@@ -25,7 +25,7 @@ CONFIGURE_ARGS+=	--with-libwrap=${BUILDLINK_PREFIX.tcp_wrappers}/lib
 .endif
 
 RCD_SCRIPTS=		xinetd
-CPPFLAGS+=		-DDEFAULT_CONFIG_FILE=\\\"\"${PREFIX}/etc/xinetd.conf\\\"\"
+CPPFLAGS+=	-DDEFAULT_CONFIG_FILE=\\\"\"${PKG_SYSCONFDIR}/etc/xinetd.conf\\\"\"
 
 USE_PERL5=YES
 REPLACE_PERL+=	${WRKSRC}/xinetd/xconv.pl
