@@ -17,11 +17,11 @@ DEPENDS+=	mupen64-plugin-rsp-[0-9]*:../mupen64-plugin-rsp
 DEPENDS+=	mupen64-plugin-sound-[0-9]*:../mupen64-plugin-sound
 DEPENDS+=	mupen64-plugin-video-[0-9]*:../mupen64-plugin-video
 
-NO_BUILD=		# defined
-NO_BUILDLINK=		# defined
-NO_CHECKSUM=		# defined
-NO_MTREE=		# defined
-NO_CONFIGURE=		# defined
+NO_BUILD=	# defined
+NO_BUILDLINK=	# defined
+NO_CHECKSUM=	# defined
+NO_MTREE=	# defined
+NO_CONFIGURE=	# defined
 
 do-install:
 	# empty
