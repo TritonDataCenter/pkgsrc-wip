@@ -40,6 +40,7 @@ include/gtk-2.0/gdk/gdkregion.h
 include/gtk-2.0/gdk/gdkrgb.h
 include/gtk-2.0/gdk/gdkscreen.h
 include/gtk-2.0/gdk/gdkselection.h
+include/gtk-2.0/gdk/gdkspawn.h
 include/gtk-2.0/gdk/gdktypes.h
 include/gtk-2.0/gdk/gdkvisual.h
 include/gtk-2.0/gdk/gdkwindow.h
