@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		patchutils-0.2.29
+DISTNAME=		patchutils-0.2.30
 CATEGORIES=		devel
 MASTER_SITES=		http://cyberelk.net/tim/data/patchutils/stable/
 EXTRACT_SUFX=		.tar.bz2
