@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.1608 2005/01/11 19:51:13 xmor61 Exp $
+# $Id: Makefile,v 1.1609 2005/01/12 13:44:33 xtraeme Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -788,7 +788,6 @@ SUBDIR+=	sim-kde
 SUBDIR+=	sim-qt
 SUBDIR+=	simgear
 SUBDIR+=	simplec
-SUBDIR+=	skippy
 SUBDIR+=	sks
 SUBDIR+=	slackpkg2pkgsrc
 SUBDIR+=	slackware_aaa_base
