@@ -11,6 +11,7 @@ HOMEPAGE=		http://uml.sourceforge.net/
 COMMENT=		Unified Modelling Language diagram programme for KDE
 
 USE_GMAKE=		YES
+USE_BUILDLINK2=		YES
 GNU_CONFIGURE=		YES
 USE_LIBTOOL=		YES
 SHLIBTOOL_OVERRIDE=	${WRKSRC}/libtool
