@@ -11,6 +11,7 @@ HOMEPAGE=	http://www.svgalib.org/
 COMMENT=	Low level console graphics library
 
 USE_GNU_TOOLS+=	make
+USE_BUILDLINK3=	yes
 CFLAGS+=	-g -DUSE_LIBC_VM86
 MANCOMPRESSED=	yes
 
