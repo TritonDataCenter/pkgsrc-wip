@@ -1,0 +1,8 @@
+===========================================================================
+$NetBSD$
+
+TSM has been installed in
+		${PREFIX}/${MSES}/opt/tivoli
+with binaries and configuration in
+		${PREFIX}/${MSES}/opt/tivoli/tsm/client/ba/bin
+===========================================================================
