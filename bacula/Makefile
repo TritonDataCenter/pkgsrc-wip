@@ -7,7 +7,7 @@ CATEGORIES=		sysutils
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=bacula/}
 
 MAINTAINER=		dotz@irc.pl
-HOMEPAGE=		http://bacula.sourceforge.net/
+HOMEPAGE=		http://www.bacula.org/
 COMMENT=		Network Backup Solution
 
 USE_BUILDLINK2=		yes
