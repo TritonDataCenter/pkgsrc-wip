@@ -16,7 +16,7 @@ DEPENDS+=	free-[0-9]*:../../sysutils/free
 USE_BUILDLINK3=	YES
 BUILD_TARGET=	lsh
 WRKSRC=		${WRKDIR}/lsh-0.70
-CFLAGS+=	-DLSH_SYSCONFDIR="\"\\\"${PKG_SYSCONFDIR}\\\"\""
+CFLAGS+=	-DLSH_SYSCONFDIR="\"${PKG_SYSCONFDIR}\""
 CONFLICTS+=	lsh-[0-9]*:../../security/lsh
 
 USE_PKGINSTALL=	yes
