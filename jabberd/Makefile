@@ -9,6 +9,8 @@ MAINTAINER=	jrp@hispabsd.org
 HOMEPAGE=	http://jabberd.jabberstudio.org/downloads/
 COMMENT=	Instant messaging server
 
+CONFLICTS=		jabberd2-[0-9]*:../../wip/jabberd2
+
 USE_BUILDLINK2=		yes
 HAS_CONFIGURE=		yes
 USE_GMAKE=		yes
