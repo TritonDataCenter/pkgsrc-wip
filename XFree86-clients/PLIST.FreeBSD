@@ -48,6 +48,7 @@ man/man1/xclipboard.1.gz
 man/man1/xclock.1.gz
 man/man1/xcmsdb.1.gz
 man/man1/xconsole.1.gz
+man/man1/xcursorgen.1.gz
 man/man1/xcutsel.1.gz
 man/man1/xditview.1.gz
 man/man1/xdm.1.gz
