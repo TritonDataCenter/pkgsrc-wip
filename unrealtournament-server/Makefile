@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	ut-server-436
-PKGNAME=	unrealtournament-server
+PKGNAME=	${DISTNAME:S/ut/unrealtournament/}
 WRKSRC=		${WRKDIR}/ut-server
 CATEGORIES=	games
 MASTER_SITES=	http://public.planetmirror.com/pub/lokigames/installers/ut/
