@@ -8,6 +8,7 @@ COMMENT=		MySQL, a free SQL database (server)
 
 CONFIGURE_ARGS+=	--with-libwrap
 CONFIGURE_ARGS+=	--without-berkeley-db
+CONFIGURE_ARGS+=	--without-mysqlfs
 USE_BUILDLINK2=		YES
 USE_PKGINSTALL=		YES
 
