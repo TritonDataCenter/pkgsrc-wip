@@ -1,6 +1,6 @@
 $NetBSD$
 
---- configure.in.orig	2004-11-22 15:37:02.000000000 +0200
+--- configure.in.orig	2005-02-21 20:13:21.000000000 +0200
 +++ configure.in
 @@ -2,37 +2,10 @@ dnl Process this file with autoconf to p
  AC_INIT(log.c)

@@ -1,6 +1,6 @@
 $NetBSD$
 
---- splitlog.c.orig	2004-10-04 00:37:03.000000000 +0300
+--- splitlog.c.orig	2005-02-21 20:13:22.000000000 +0200
 +++ splitlog.c
 @@ -36,7 +36,7 @@ void splitlog(char *arq, char *df, int d
     struct tm *t;

@@ -1,6 +1,6 @@
 $NetBSD$
 
---- convlog.c.orig	2004-10-04 00:37:03.000000000 +0300
+--- convlog.c.orig	2005-02-21 20:13:21.000000000 +0200
 +++ convlog.c
 @@ -36,7 +36,7 @@ void convlog(char *arq, char *df, int df
     struct tm *t;

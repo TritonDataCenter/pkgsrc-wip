@@ -1,6 +1,6 @@
 $NetBSD$
 
---- htaccess.orig	2004-10-04 00:37:03.000000000 +0300
+--- htaccess.orig	2005-02-21 20:13:22.000000000 +0200
 +++ htaccess
 @@ -1,4 +1,4 @@
 -AuthUserFile /usr/local/sarg/passwd

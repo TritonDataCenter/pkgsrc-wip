@@ -1,6 +1,6 @@
 $NetBSD$
 
---- usage.c.orig	2004-11-22 15:37:02.000000000 +0200
+--- usage.c.orig	2005-02-21 20:13:21.000000000 +0200
 +++ usage.c
 @@ -30,7 +30,7 @@ void usage(char *prog)
    fprintf(stderr, "%5s-c %s\n"," ",text[69]);

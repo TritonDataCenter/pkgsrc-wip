@@ -1,6 +1,6 @@
 $NetBSD$
 
---- sarg.1.orig	2004-10-04 00:37:03.000000000 +0300
+--- sarg.1.orig	2005-02-21 20:13:21.000000000 +0200
 +++ sarg.1
 @@ -131,11 +131,11 @@ Convert the logfile's date/time field to
  .B \-split
