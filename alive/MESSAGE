@@ -1,0 +1,10 @@
+===========================================================================
+$NetBSD: MESSAGE,v 1.4  2005/03/04 oht $
+
+Example of the configfile can be found at:
+	${PREFIX}/etc/alive.conf
+
+Copy this file to /etc/alive.conf and enter your
+username and password.
+Review also other options for your ISP provider.
+===========================================================================
