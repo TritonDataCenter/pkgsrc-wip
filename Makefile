@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.758 2003/12/13 18:16:04 xtraeme Exp $
+# $Id: Makefile,v 1.759 2003/12/13 19:13:31 xtraeme Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -386,7 +386,6 @@ SUBDIR+=	nuppelvideo
 SUBDIR+=	obconf
 SUBDIR+=	oinkmaster
 SUBDIR+=	opax
-SUBDIR+=	openbox3
 SUBDIR+=	openvpn
 SUBDIR+=	p5-CDDB
 SUBDIR+=	p5-Chart
