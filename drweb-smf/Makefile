@@ -44,5 +44,5 @@ do-install:
 
 .include "../../wip/drweb-clients-shared/Makefile.common"
 .include "../../mail/libmilter/buildlink2.mk"
-.include "../../wip/oshavercd.mk"
+.include "../../wip/mk/rcd.mk"
 .include "../../mk/bsd.pkg.mk"
