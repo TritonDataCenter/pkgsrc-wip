@@ -1,0 +1,4 @@
+@comment $NetBSD$
+bin/crwinfo
+share/doc/crwinfo/README
+@dirrm share/doc/crwinfo
