@@ -996,5 +996,4 @@ share/man/man1/xgettext.1
 @dirrm share/doc/gettext/examples/hello-c
 @dirrm share/doc/gettext/examples/config
 @dirrm share/doc/gettext/examples
-@dirrm share/doc/gettext
 @dirrm lib/gettext
