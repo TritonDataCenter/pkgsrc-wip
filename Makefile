@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.242 2003/06/14 01:26:08 mjasm Exp $
+# $Id: Makefile,v 1.243 2003/06/14 01:29:57 mjasm Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -195,6 +195,7 @@ SUBDIR+=	totem
 SUBDIR+=	trickle
 SUBDIR+=	tsclient
 SUBDIR+=	tuxtype2
+SUBDIR+=	typhoon
 SUBDIR+=	umbrello
 SUBDIR+=	umix
 SUBDIR+=	vcdgear
