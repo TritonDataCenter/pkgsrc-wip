@@ -5,7 +5,7 @@ LIBMODPLUG_BUILDLINK2_MK=		# defined
 
 BUILDLINK_PACKAGES+=			libmodplug
 BUILDLINK_DEPENDS.libmodplug?=		libmodplug>=0.7
-BUILDLINK_PKGSRCDIR.libmodplug?=	../../audio/libmodplug
+BUILDLINK_PKGSRCDIR.libmodplug?=	../../wip/libmodplug
 
 EVAL_PREFIX+=				BUILDLINK_PREFIX.libmodplug=libmodplug
 BUILDLINK_PREFIX.libmodplug_DEFAULT=	${LOCALBASE}
