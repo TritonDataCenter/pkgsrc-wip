@@ -18,8 +18,9 @@ WRKSRC=         ${WRKDIR}/mplayerplug-in
 USE_BUILDLINK2=	YES
 USE_X11=	YES
 
+MOZ_PLUGDIR=    ${PREFIX}/lib/mozilla/plugins
+
 do-install:
-	${INSTALL_DATA} ${WRKSRC}/mplayerplug-in.so \
-	${X11BASE}/lib/mozilla/plugins/
+	${INSTALL_DATA} ${WRKSRC}/mplayerplug-in.so ${MOZ_PLUGDIR}
 
 .include "../../mk/bsd.pkg.mk"
