@@ -1,0 +1,12 @@
+$NetBSD$
+
+--- gnuPlotFunction.h.orig	1998-03-20 20:30:33.000000000 -0700
++++ gnuPlotFunction.h
+@@ -28,6 +28,7 @@
+ 
+ #include <string>
+ #include <iostream.h>
++using namespace std;
+ 
+ class gnuPlotFunction
+ {

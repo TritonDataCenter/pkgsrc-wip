@@ -1,0 +1,13 @@
+$NetBSD$
+
+--- fileLegendTitle.cpp.orig	1998-03-20 20:24:41.000000000 -0700
++++ fileLegendTitle.cpp
+@@ -45,7 +45,7 @@ fileLegendTitle::~fileLegendTitle()
+ 
+ void fileLegendTitle::setFileLegendTitleOK()
+ {
+-  string title = fileLegendTitleEdit->text();
++  string title = fileLegendTitleEdit->text().ascii();
+   gnuInt->setFileLegendTitle(title);
+ 
+   if (defaultCButton->isChecked() == TRUE)
