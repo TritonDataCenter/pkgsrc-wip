@@ -8,7 +8,7 @@ MASTER_SITES=		http://ftp.gnome.org/pub/GNOME/teams/art.gnome.org/themes/gtk2/
 
 MAINTAINER=		dotz@irc.pl
 HOMEPAGE=		http://art.gnome.org/
-COMMENT=		Theme engine for GTK+ 2.x
+COMMENT=		Flat theme engine for GTK+ 2.x
 
 USE_BUILDLINK2=		YES
 USE_LIBTOOL=		YES

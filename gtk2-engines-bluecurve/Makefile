@@ -9,7 +9,7 @@ EXTRACT_SUFX=		.tar.bz2
 
 MAINTAINER=		dotz@irc.pl
 HOMEPAGE=		http://art.gnome.org/
-COMMENT=		Theme engine for GTK+ 2.x
+COMMENT=		Port of famous Bluecurve theme, introduced by RedHat
 
 USE_BUILDLINK2=		YES
 USE_LIBTOOL=		YES
