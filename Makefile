@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.864 2004/01/08 10:56:09 jmmv Exp $
+# $Id: Makefile,v 1.865 2004/01/08 11:55:52 minskim Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -131,6 +131,7 @@ SUBDIR+=	e2fsprogs
 SUBDIR+=	e3
 SUBDIR+=	eag
 SUBDIR+=	ed
+SUBDIR+=	ed2k-gtk-gui
 SUBDIR+=	eic
 SUBDIR+=	elinks09
 SUBDIR+=	elvis
