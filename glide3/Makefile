@@ -13,7 +13,7 @@ COMMENT=		Software needed for 3dfx voodoo3 cards
 NO_CONFIGURE=		yes
 
 USE_BUILDLINK2=		yes
-USE_GMAKE=		yes
+USE_GNU_TOOLS+=		make
 #USE_X11BASE=		yes
 
 pre-build:

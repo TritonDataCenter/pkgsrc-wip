@@ -13,7 +13,7 @@ COMMENT=	Curses based file system viewer/editor for Linux
 USE_BUILDLINK2=	YES
 USE_NCURSES=	YES # missing function termname
 GNU_CONFIGURE=	YES
-USE_GMAKE=	YES
+USE_GNU_TOOLS+=	make
 CONFIGURE_ARGS+=--with-ncurses=${PREFIX} \
 		--disable-root-sbin
 

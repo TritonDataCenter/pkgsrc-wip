@@ -11,7 +11,7 @@ COMMENT=	File editor/viewer/analyzer for executables
 
 USE_BUILDLINK2=	YES
 GNU_CONFIGURE=	YES
-USE_GMAKE=	YES
+USE_GNU_TOOLS+=	make
 USE_NCURSES=	YES
 
 .include "../../devel/ncurses/buildlink2.mk"

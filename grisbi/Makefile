@@ -11,7 +11,7 @@ HOMEPAGE=		http://www.grisbi.org/
 COMMENT=		Personal Finance Manager under Gnome/GTK
 
 USE_BUILDLINK2=		yes
-USE_GMAKE=		yes
+USE_GNU_TOOLS+=		make
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 

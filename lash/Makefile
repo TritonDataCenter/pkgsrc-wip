@@ -9,7 +9,7 @@ MAINTAINER=	pancake@phreaker.net
 HOMEPAGE=	http://lash.kerneled.com/
 COMMENT=	Modular slighty shell with alias and interfaces
 
-USE_GMAKE=	yes
+USE_GNU_TOOLS+=	make
 USE_BUILDLINK2=	yes
 PKG_SHELL=	${PREFIX}/bin/lash
 

@@ -14,7 +14,7 @@ DEPENDS+=       wget>=1.8:../../net/wget
 BUILD_USES_MSGFMT=      YES
 
 USE_BUILDLINK2=		YES
-USE_GMAKE=		YES
+USE_GNU_TOOLS+=		make
 USE_PKGLOCALEDIR=	YES
 ALL_TARGET=		gkrellweather.so
 

@@ -36,7 +36,7 @@ _FETCH_MESSAGE= \
 	${ECHO} ; \
 	${ECHO} "======================================================================"
 
-USE_GMAKE=		YES
+USE_GNU_TOOLS+=	make
 GNU_CONFIGURE=  YES
 USE_LIBTOOL=    YES
 LTCONFIG_OVERRIDE=  ${WRKSRC}/ltconfig

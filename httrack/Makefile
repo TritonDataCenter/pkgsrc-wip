@@ -14,7 +14,7 @@ COMMENT=	Easy-to-use offline browser utility
 USE_BUILDLINK2=	YES
 USE_LIBTOOL=	YES
 GNU_CONFIGURE=	YES
-USE_GMAKE=	YES
+USE_GNU_TOOLS+=	make
 
 LIBTOOL_OVERRIDE=       ${WRKSRC}/libtool
 

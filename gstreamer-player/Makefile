@@ -14,7 +14,7 @@ BUILD_USES_MSGFMT=	YES
 DEPENDS=                gnome2-dirs>=1.0:../../misc/gnome2-dirs
 
 USE_BUILDLINK2=		YES
-USE_GMAKE=		YES
+USE_GNU_TOOLS+=		make
 USE_LIBTOOL=		YES
 USE_PKGLOCALEDIR=	YES
 USE_X11=		YES

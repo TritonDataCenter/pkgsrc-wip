@@ -10,7 +10,7 @@ HOMEPAGE=		http://www.kannel.org/download/1.2.1/
 COMMENT=		Kannel WAP gateway
 
 USE_BUILDLINK2=         yes
-USE_GMAKE=              yes
+USE_GNU_TOOLS+=		make
 USE_LIBTOOL=            yes
 GNU_CONFIGURE=          yes
 

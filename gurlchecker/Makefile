@@ -15,7 +15,7 @@ BUILD_USES_MSGFMT=	yes
 USE_BUILDLINK2=		yes
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
-USE_GMAKE=		yes
+USE_GNU_TOOLS+=		make
 USE_X11=		yes
 
 .include "../../devel/libgnomeui/buildlink2.mk"

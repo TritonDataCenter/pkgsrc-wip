@@ -11,7 +11,7 @@ COMMENT=	Help documentation and tutorial guide for gnucash
 
 USE_BUILDLINK2=	# defined
 GNU_CONFIGURE=	YES
-USE_GMAKE=	YES
+USE_GNU_TOOLS+=	make
 USE_PERL5=	# defined
 
 post-build:

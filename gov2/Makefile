@@ -13,7 +13,7 @@ COMMENT=	Preprocessor for making GObjects with inline C
 USE_BUILDLINK2=		yes
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
-USE_GMAKE=		yes
+USE_GNU_TOOLS+=		make
 
 .include "../../devel/glib2/buildlink2.mk"
 .include "../../mk/bsd.pkg.mk"

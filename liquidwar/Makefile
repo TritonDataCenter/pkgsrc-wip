@@ -13,7 +13,7 @@ COMMENT=	Unique multiplayer wargame
 DEPENDS+=	gnome2-dirs>=1.1:../../misc/gnome2-dirs
 
 USE_BUILDLINK2=	YES
-USE_GMAKE=	YES
+USE_GNU_TOOLS+=	make
 GNU_CONFIGURE=	YES
 
 CONFIGURE_ARGS+=	--enable-debug

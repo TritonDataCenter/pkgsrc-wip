@@ -13,7 +13,7 @@ COMMENT=	Space-ship OpenGL shoot them up
 USE_BUILDLINK2=		yes
 GNU_CONFIGURE=		yes
 USE_X11=		yes
-USE_GMAKE=		yes
+USE_GNU_TOOLS+=		make
 
 MESA_REQD=		5.0.1
 ALL_TARGET=		glaxium

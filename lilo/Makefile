@@ -20,7 +20,7 @@ USE_PERL5=		YES
 BUILD_DEPENDS+=		bin86>=0.16.9:../../wip/bin86
 BUILD_DEPENDS+=		nasm>=0.98:../../devel/nasm
 
-USE_GMAKE=		YES
+USE_GNU_TOOLS+=		make
 MAKE_ENV+=		ROOT=${PREFIX}
 MAKE_ENV+=		SYSCONFDIR=${PKG_SYSCONFDIR}
 

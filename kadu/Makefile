@@ -15,7 +15,7 @@ USE_BUILDLINK2=		yes
 USE_PKGLOCALEDIR=	yes
 # PKGCONFIG_OVERRIDE+=	${WRKSRC}/libgadu/lib/libgadu.pc.in
 GNU_CONFIGURE=		yes
-USE_GMAKE=		yes
+USE_GNU_TOOLS+=		make
 
 # until pkgsrc will be updated with a new of ekg, that provides 
 # shared library:

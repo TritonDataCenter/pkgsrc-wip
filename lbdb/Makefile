@@ -16,7 +16,7 @@ DEPENDS+=	p5-perl-ldap-[0-9]*:../../databases/p5-perl-ldap
 USE_BUILDLINK2=		yes
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
-USE_GMAKE=  yes
+USE_GNU_TOOLS+=		make
 
 DOCDIR=	${PREFIX}/share/doc/${PKGBASE}
 

@@ -11,7 +11,7 @@ HOMEPAGE=	http://heim.ifi.uio.no/~oyvinha/article.php?2.0.0
 COMMENT=	GKrellM plugin that monitors CapsLock, NumLock and ScrollLock keys
 
 USE_BUILDLINK2=	YES
-USE_GMAKE=	YES
+USE_GNU_TOOLS+=	make
 ALL_TARGET=	unix
 
 do-install:

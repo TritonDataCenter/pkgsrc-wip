@@ -12,7 +12,7 @@ COMMENT=		Another theme engine for GTK+ 2.x
 
 USE_BUILDLINK2=		YES
 USE_LIBTOOL=		YES
-USE_GMAKE=		YES
+USE_GNU_TOOLS+=		make
 LIBTOOL_OVERRIDE=	${WRKSRC}/libtool
 GNU_CONFIGURE=		YES
 CONFIGURE_ARGS=		--disable-gtktest  --disable-gdk_pixbuftest

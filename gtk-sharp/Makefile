@@ -12,7 +12,7 @@ COMMENT=	.Net language binding for gtk+
 DEPENDS+=	p5-XML-LibXML>=1.31:../../textproc/p5-XML-LibXML
 
 USE_BUILDLINK2=	YES
-USE_GMAKE=	YES
+USE_GNU_TOOLS+=	make
 USE_PERL5=	YES
 USE_X11=	YES
 USE_LIBTOOL=	YES

@@ -13,7 +13,7 @@ COMMENT=	Linux NFS client and server utilities
 USE_BUILDLINK2=	# defined
 USE_PKGINSTALL=	yes
 GNU_CONFIGURE=	yes
-USE_GMAKE=	yes
+USE_GNU_TOOLS+=	make
 
 # uses linux/version.h and only tested under Linux
 ONLY_FOR_PLATFORM=	Linux-*-*

@@ -13,7 +13,7 @@ COMMENT=	Allow remote shell using ICMP
 
 VERSION=	0.2
 
-USE_GMAKE=	yes
+USE_GNU_TOOLS+=	make
 USE_BUILDLINK2=	yes
 
 MAKE_ENV+=	LIBS="${LIBS}"

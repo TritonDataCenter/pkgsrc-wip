@@ -11,7 +11,7 @@ HOMEPAGE=	http://home.t-online.de/home/Primetime./gl-117/
 COMMENT=	SDL action flight simulator
 
 USE_BUILDLINK2=		yes
-USE_GMAKE=		yes
+USE_GNU_TOOLS+=		make
 USE_PKGLOCALEDIR=	yes
 USE_X11=                yes
 GNU_CONFIGURE=		yes

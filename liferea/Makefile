@@ -11,7 +11,7 @@ COMMENT=		Liferea is a simple FeedReader clone for reading RSS/RDF feeds
 
 USE_BUILDLINK2=         yes
 GNU_CONFIGURE=          yes
-USE_GMAKE=              yes
+USE_GNU_TOOLS+=		make
 USE_X11=                yes
 
 .include "../../x11/gtk2/buildlink2.mk"

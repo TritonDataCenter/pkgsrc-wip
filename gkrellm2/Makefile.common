@@ -11,7 +11,7 @@ HOMEPAGE=	http://gkrellm.net/
 
 CONFLICTS+=	gkrellm-1*
 
-USE_GMAKE=		YES
+USE_GNU_TOOLS+=		make
 USE_PKGLOCALEDIR=	YES
 
 MAKE_ENV+=		LOCALEDIR=${PREFIX}/${PKGLOCALEDIR}/locale

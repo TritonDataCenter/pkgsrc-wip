@@ -10,7 +10,7 @@ COMMENT=	Library for importing and exporting WordPerfect(tm) documents
 
 USE_BUILDLINK2=	YES
 GNU_CONFIGURE=	YES
-USE_GMAKE=	YES
+USE_GNU_TOOLS+=	make
 
 .include "../../devel/glib2/buildlink2.mk"
 .include "../../devel/libgsf/buildlink2.mk"

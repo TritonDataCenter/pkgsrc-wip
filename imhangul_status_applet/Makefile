@@ -14,7 +14,7 @@ DEPENDS=		imhangul>=0.9.6:../imhangul
 GNU_CONFIGURE=		yes
 USE_BUILDLINK2=		yes
 USE_PKGLOCALEDIR=	yes
-USE_GMAKE=		yes
+USE_GNU_TOOLS+=		make
 
 CONFIGURE_ENV+=		GCONF_SCHEMA_FILE_DIR="${PREFIX}/share/gconf/schemas/"
 MAKE_ENV+=		GCONF_SCHEMA_FILE_DIR="${PREFIX}/share/gconf/schemas/"

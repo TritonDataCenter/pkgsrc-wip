@@ -13,7 +13,7 @@ COMMENT=        Enhanced version of Links with tabs and more
 
 USE_BUILDLINK2=		yes
 GNU_CONFIGURE=		yes
-USE_GMAKE=		yes
+USE_GNU_TOOLS+=		make
 USE_X11=		yes
 
 VER=			030709

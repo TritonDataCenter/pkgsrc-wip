@@ -13,7 +13,7 @@ COMMENT=		Live ascii video on the web
 
 USE_BUILDLINK2=		YES
 GNU_CONFIGURE=		YES
-USE_GMAKE=		YES
+USE_GNU_TOOLS+=		make
 
 ONLY_FOR_PLATFORM=	Linux-*-*
 

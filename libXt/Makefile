@@ -22,7 +22,7 @@ BUILD_DEPENDS+=		imake-[0-9]*:../../wip/imake
 .endif
 
 USE_BUILDLINK2=		yes
-USE_GMAKE=		yes
+USE_GNU_TOOLS+=		make
 GNU_CONFIGURE=		yes
 USE_LIBTOOL=		yes
 

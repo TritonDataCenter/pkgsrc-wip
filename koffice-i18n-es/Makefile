@@ -12,7 +12,7 @@ COMMENT=	Language bindings for the Koffice
 
 USE_BUILDLINK2=		YES
 GNU_CONFIGURE=		YES
-USE_GMAKE=              YES
+USE_GNU_TOOLS+=		make
 
 .include "../../misc/koffice/buildlink2.mk"
 .include "../../mk/bsd.pkg.mk"

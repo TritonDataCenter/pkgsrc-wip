@@ -10,7 +10,7 @@ HOMEPAGE=		http://www.muhri.net/
 COMMENT=		Allows quick & easy switching of GTK1 themes.
 
 USE_BUILDLINK2=		YES
-USE_GMAKE=		YES
+USE_GNU_TOOLS+=		make
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/switch ${PREFIX}/bin/gtk-theme-switch

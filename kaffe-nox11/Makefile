@@ -13,7 +13,7 @@ COMMENT=		Virtual machine capable of running Java(tm) code
 USE_BUILDLINK2=		yes
 USE_PKGINSTALL=		yes
 USE_LIBTOOL=		yes
-USE_GMAKE=		yes
+USE_GNU_TOOLS+=		make
 LTCONFIG_OVERRIDE=	${WRKSRC}/ltconfig
 TEST_TARGET=		check
 

@@ -11,7 +11,7 @@ HOMEPAGE=	http://ldapdns.sourceforge.net
 COMMENT=	Tiny, fast authoritative nameserver that queries LDAP
 
 USE_PKGINSTALL=	YES
-USE_GMAKE=	YES
+USE_GNU_TOOLS+=	make
 ALL_TARGET=	it
 GNU_CONFIGURE=	YES
 USE_BUILDLINK2=	YES

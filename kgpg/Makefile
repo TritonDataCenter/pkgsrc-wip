@@ -15,7 +15,7 @@ DEPENDS+=	gnupg>=1.2:../../security/gnupg
 GNU_CONFIGURE=		yes
 USE_BUILDLINK2=		yes
 USE_PKGLOCALEDIR=	yes
-USE_GMAKE=		yes
+USE_GNU_TOOLS+=		make
 
 .include "../../mk/bsd.prefs.mk"
 
