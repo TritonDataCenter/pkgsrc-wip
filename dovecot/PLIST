@@ -9,6 +9,10 @@ share/doc/dovecot/mail-storages.txt
 share/doc/dovecot/multiaccess.txt
 share/doc/dovecot/nfs.txt
 share/examples/dovecot/dovecot.conf.default
+share/examples/dovecot/dovecot-ldap.conf
+share/examples/dovecot/dovecot-openssl.cnf
+share/examples/dovecot/dovecot-pgsql.conf
+share/examples/dovecot/mkcert.sh
 @dirrm share/examples/dovecot
 @dirrm share/doc/dovecot
 @dirrm libexec/dovecot
