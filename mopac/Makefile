@@ -20,7 +20,7 @@ COMMENT=	Molecular energy calculation program
 WRKSRC=			${WRKDIR}/mopac7
 ALL_TARGET=		MOPAC7
 USE_GNU_TOOLS+=		make
-USE_BUILDLINK2=		yes
+USE_BUILDLINK3=		yes
 USE_FORTRAN=		yes
 PKG_FC?=		f2c-f77
 
@@ -35,5 +35,5 @@ post-install:
 
 # "g77" can not be used for external function
 
-.include "../../lang/f2c/buildlink2.mk"
+.include "../../lang/f2c/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
