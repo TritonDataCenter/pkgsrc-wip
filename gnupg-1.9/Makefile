@@ -37,8 +37,9 @@ GETTEXT_IS_TOO_OLD!=if ${PKG_ADMIN} pmatch 'gettext-lib < 0.14.1' gettext-lib ; 
 	fi
  
 .if GETTEXT_IS_TOO_OLD
-CONFIGURE_ARGS+=	--disable-threads
+CONFIGURE_ARGS+=	--disable-nls
 .endif
+CONFIGURE_ARGS+=	--disable-threads
 
 .include "../../security/libgpg-error/buildlink3.mk"
 .include "../../security/libgcrypt/buildlink3.mk"
@@ -46,6 +47,5 @@ CONFIGURE_ARGS+=	--disable-threads
 .include "../../security/libksba/buildlink3.mk"
 .include "../../wip/pinentry/buildlink3.mk"
 .include "../../wip/dirmngr/buildlink3.mk"
-.include "../../mk/pthread.buildlink3.mk"
 .include "../../devel/zlib/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
