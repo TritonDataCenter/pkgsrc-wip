@@ -1,8 +1,8 @@
 $NetBSD$
 
---- data/Makefile.in.orig	2003-12-29 16:19:27.000000000 -0600
+--- data/Makefile.in.orig	2004-02-22 05:36:58.000000000 -0600
 +++ data/Makefile.in
-@@ -220,7 +220,7 @@ pixmap_DATA = gdesklets.png
+@@ -225,7 +225,7 @@ pixmap_DATA = gdesklets.png
  fakepixmapdir = $(coredir)/data
  
  schema_in_files = gdesklets-display-thumbnail.schemas.in
