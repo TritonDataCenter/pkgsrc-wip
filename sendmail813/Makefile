@@ -21,7 +21,7 @@ PLIST_SUBST+=  CAT8=8
 .endif
 
 SUBST_CLASSES=		paths
-SUBST_STAGE.paths=	post-build
+SUBST_STAGE.paths=	pre-build
 SUBST_FILES.paths=	${WRKDIR}/mailer.conf
 SUBST_SED.paths=	-e "s|@@PREFIX@@|${PREFIX}|g"
 SUBST_MESSAGE.paths=	Fixing paths.
@@ -80,6 +80,7 @@ post-patch: make-sendmail-siteconfig
 .endif
 .if defined(USE_SOCKETMAP) && ${USE_SOCKETMAP} == YES
 	@${CAT} ${FILESDIR}/site.config.m4-socketmap >>${SITECONFIG}
+	USE_PERL5=	YES
 .endif
 
 do-build:
