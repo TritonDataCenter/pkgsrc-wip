@@ -15,6 +15,7 @@ lib/ldapbrowser/lbe.jar
 lib/ldapbrowser/lbe.old.bat
 lib/ldapbrowser/lbe.old.sh
 lib/ldapbrowser/lbe.sh
+lib/ldapbrowser/lbe.sh.orig
 lib/ldapbrowser/lib/jndi.jar
 lib/ldapbrowser/lib/ldap.jar
 lib/ldapbrowser/lib/ldapbp.jar
