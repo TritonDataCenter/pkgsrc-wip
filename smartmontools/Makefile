@@ -1,8 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		smartmontools-5.30
-PKGREVISION=		1
+DISTNAME=		smartmontools-5.32
 CATEGORIES=		sysutils
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=smartmontools/}
 
