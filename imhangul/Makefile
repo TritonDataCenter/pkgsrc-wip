@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	imhangul-0.9.9
-CATEGORIES=	inputmethod
+CATEGORIES=	inputmethod korean
 MASTER_SITES=	http://download.kldp.net/imhangul/
 EXTRACT_SUFX=	.tar.bz2
 
