@@ -4,7 +4,7 @@ DISTNAME=       spamd-20040609
 CATEGORIES=     mail
 MASTER_SITES=   http://nedbsd.nl/~ppostma/pf/
 
-MAINTAINER=     tech-pkg@NetBSD.org
+MAINTAINER=     peter@pointless.nl
 HOMEPAGE=       http://nedbsd.nl/~ppostma/pf-lkm.html
 COMMENT=        OpenBSD spamd daemon which rejects false mail
 
