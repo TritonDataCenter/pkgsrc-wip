@@ -76,5 +76,6 @@ post-install:
 post-deinstall:
 	${RM} ${PKG_SYSCONFDIR}/platform-settings
 
+.include "../../devel/pth/buildlink2.mk" # uses pth.h, not pthread.h
 .include "../../security/openssl/buildlink2.mk"
 .include "../../mk/bsd.pkg.mk"
