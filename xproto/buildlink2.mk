@@ -15,6 +15,7 @@ BUILDLINK_PKGSRCDIR.xproto?=		../../wip/xproto
 EVAL_PREFIX+=	BUILDLINK_PREFIX.xproto=xproto
 BUILDLINK_PREFIX.xproto_DEFAULT=	${LOCALBASE}
 BUILDLINK_FILES.xproto+=	include/X11/X.h
+BUILDLINK_FILES.xproto+=	include/X11/XF86keysym.h
 BUILDLINK_FILES.xproto+=	include/X11/Xarch.h
 BUILDLINK_FILES.xproto+=	include/X11/Xatom.h
 BUILDLINK_FILES.xproto+=	include/X11/Xdefs.h
