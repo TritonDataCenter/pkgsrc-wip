@@ -2,14 +2,14 @@
 #
 
 DISTNAME=	mailfilter-0.2.4
+WRKSRC=		${WRKDIR}/*
 CATEGORIES=	mail
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=mailfilter/}
 
 MAINTAINER=	virtus@wanadoo.nl
-HOMEPAGE=	http://mailfilter.sourceforge.net
+HOMEPAGE=	http://mailfilter.sourceforge.net/
 COMMENT=	Filter mail on a pop3 server
 
-WRKSRC=		${WRKDIR}/*
 USE_BUILDLINK2=	YES
 GNU_CONFIGURE=  YES
 
