@@ -13,10 +13,10 @@ HOMEPAGE=	http://tuxtype.sourceforge.net/
 VERSION=	1.5.0
 
 GNU_CONFIGURE=	YES
-USE_BUILDLINK2=	YES
+USE_BUILDLINK3=	YES
 
-.include "../../graphics/SDL_image/buildlink2.mk"
-.include "../../audio/SDL_mixer/buildlink2.mk"
-.include "../../devel/SDL_ttf/buildlink2.mk"
+.include "../../graphics/SDL_image/buildlink3.mk"
+.include "../../audio/SDL_mixer/buildlink3.mk"
+.include "../../devel/SDL_ttf/buildlink3.mk"
 
 .include "../../mk/bsd.pkg.mk"
