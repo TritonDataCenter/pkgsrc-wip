@@ -4,7 +4,7 @@
 DISTNAME=		dnswalk-2.0.2
 WRKSRC=			${WRKDIR}/
 CATEGORIES=		wip
-MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=dnswalk/}
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=dnswalk/}
 
 MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://dnswalk.sourceforge.net/
@@ -12,10 +12,10 @@ COMMENT=		DNS debugger
 
 DEPENDS+=		p5-Net-DNS>=0.42:../../net/p5-Net-DNS
 
-USE_BUILDLINK2=		YES
+USE_BUILDLINK3=	YES
 USE_PERL5=		YES
 
-REPLACE_PERL=		dnswalk makereports
+REPLACE_PERL=	dnswalk makereports
 
 do-install:
 	${INSTALL_SCRIPT} ${WRKSRC}/dnswalk     ${PREFIX}/bin/
