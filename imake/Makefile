@@ -22,9 +22,6 @@ FAKE_XFREE86_DEPS=	# defined
 .if ${OPSYS} == "Linux"
 DEPENDS+=	bison-[0-9]*:../../devel/bison
 DEPENDS+=	flex-[0-9]*:../../devel/flex
-PLIST_SRC+=	${.CURDIR}/PLIST.html
-.elif ${OPSYS} == "FreeBSD"
-PLIST_SRC+=	${.CURDIR}/PLIST.html
 .endif
 
 .include "../../wip/XFree86/Makefile.common"
