@@ -2,12 +2,9 @@
 
 .include "../xfce4/Makefile.common"
 
-BROKEN=		No distfile available yet
-
-PKGNAME=	xfce4-systray-${XFCE4_VERSION}
+VERSION=	0.1
+DISTNAME=	xfce4-systray-${VERSION}
 COMMENT=	XFce4 systray plugin
-
-WRKSRC=		${WRKDIR}/xfce4-extras/xfce4-systray
 
 .include "../../devel/pkgconfig/buildlink2.mk"
 .include "../../textproc/libxml2/buildlink2.mk"

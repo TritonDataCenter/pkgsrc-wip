@@ -6,7 +6,7 @@ MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=xfce/}
 MAINTAINER=		martti@netbsd.org
 HOMEPAGE=		http://www.xfce.org/
 
-XFCE4_VERSION=		3.90.0
+XFCE4_VERSION=		3.91.0
 
 USE_BUILDLINK2=		# defined
 USE_X11BASE=		# defined

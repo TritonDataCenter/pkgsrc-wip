@@ -6,7 +6,7 @@ lib/libxfce4util.a
 lib/libxfce4util.la
 lib/libxfce4util.so
 lib/libxfce4util.so.0
-lib/libxfce4util.so.0.3
+lib/libxfce4util.so.0.4
 lib/pkgconfig/libxfce4util-1.0.pc
 share/xfce4/i18n/nls.alias
 share/xfce4/m4/X11.m4

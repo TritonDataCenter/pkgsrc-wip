@@ -9,7 +9,7 @@
 LIBXFCE4UTIL_BUILDLINK2_MK=	# defined
 
 BUILDLINK_PACKAGES+=			libxfce4util
-BUILDLINK_DEPENDS.libxfce4util?=		libxfce4util>=3.90.0
+BUILDLINK_DEPENDS.libxfce4util?=		libxfce4util>=3.91.0
 BUILDLINK_PKGSRCDIR.libxfce4util?=		../../wip/libxfce4util
 
 EVAL_PREFIX+=	BUILDLINK_PREFIX.libxfce4util=libxfce4util

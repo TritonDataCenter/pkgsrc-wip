@@ -9,7 +9,7 @@
 XFCE4_WM_BUILDLINK2_MK=	# defined
 
 BUILDLINK_PACKAGES+=			xfce4-wm
-BUILDLINK_DEPENDS.xfce4-wm?=		xfce4-wm>=3.90.0
+BUILDLINK_DEPENDS.xfce4-wm?=		xfce4-wm>=3.91.0
 BUILDLINK_PKGSRCDIR.xfce4-wm?=		../../wip/xfce4-wm
 
 EVAL_PREFIX+=	BUILDLINK_PREFIX.xfce4-wm=xfce4-wm

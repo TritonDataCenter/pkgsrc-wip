@@ -21,6 +21,7 @@ include/xfce4/libxfcegui4/session-client.h
 include/xfce4/libxfcegui4/xfce_clock.h
 include/xfce4/libxfcegui4/xfce_decorbutton.h
 include/xfce4/libxfcegui4/xfce_decortoggle.h
+include/xfce4/libxfcegui4/xfce_framebox.h
 include/xfce4/libxfcegui4/xfce_iconbutton.h
 include/xfce4/libxfcegui4/xfce_marshal.h
 include/xfce4/libxfcegui4/xfce_menubutton.h

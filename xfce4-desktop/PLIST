@@ -16,6 +16,7 @@ ${PKGLOCALEDIR}/locale/ja/LC_MESSAGES/xfdesktop.mo
 ${PKGLOCALEDIR}/locale/ms/LC_MESSAGES/xfdesktop.mo
 ${PKGLOCALEDIR}/locale/nl/LC_MESSAGES/xfdesktop.mo
 ${PKGLOCALEDIR}/locale/pl/LC_MESSAGES/xfdesktop.mo
+${PKGLOCALEDIR}/locale/ru/LC_MESSAGES/xfdesktop.mo
 ${PKGLOCALEDIR}/locale/ta/LC_MESSAGES/xfdesktop.mo
 ${PKGLOCALEDIR}/locale/tr/LC_MESSAGES/xfdesktop.mo
 ${PKGLOCALEDIR}/locale/zh_CN/LC_MESSAGES/xfdesktop.mo

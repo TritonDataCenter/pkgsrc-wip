@@ -17,6 +17,7 @@ ${PKGLOCALEDIR}/locale/ja/LC_MESSAGES/xfwm4.mo
 ${PKGLOCALEDIR}/locale/ms/LC_MESSAGES/xfwm4.mo
 ${PKGLOCALEDIR}/locale/nl/LC_MESSAGES/xfwm4.mo
 ${PKGLOCALEDIR}/locale/pl/LC_MESSAGES/xfwm4.mo
+${PKGLOCALEDIR}/locale/ru/LC_MESSAGES/xfwm4.mo
 ${PKGLOCALEDIR}/locale/ta/LC_MESSAGES/xfwm4.mo
 ${PKGLOCALEDIR}/locale/tr/LC_MESSAGES/xfwm4.mo
 ${PKGLOCALEDIR}/locale/zh_CN/LC_MESSAGES/xfwm4.mo

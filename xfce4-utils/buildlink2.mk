@@ -9,7 +9,7 @@
 XFCE4_UTILS_BUILDLINK2_MK=	# defined
 
 BUILDLINK_PACKAGES+=			xfce4-utils
-BUILDLINK_DEPENDS.xfce4-utils?=		xfce4-utils>=3.90.0
+BUILDLINK_DEPENDS.xfce4-utils?=		xfce4-utils>=3.91.0
 BUILDLINK_PKGSRCDIR.xfce4-utils?=		../../wip/xfce4-utils
 
 EVAL_PREFIX+=	BUILDLINK_PREFIX.xfce4-utils=xfce4-utils

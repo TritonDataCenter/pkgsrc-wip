@@ -9,7 +9,7 @@
 XFCE4_PRINT_BUILDLINK2_MK=	# defined
 
 BUILDLINK_PACKAGES+=			xfce4-print
-BUILDLINK_DEPENDS.xfce4-print?=		xfce4-print>=3.90.0
+BUILDLINK_DEPENDS.xfce4-print?=		xfce4-print>=3.91.0
 BUILDLINK_PKGSRCDIR.xfce4-print?=		../../wip/xfce4-print
 
 EVAL_PREFIX+=	BUILDLINK_PREFIX.xfce4-print=xfce4-print

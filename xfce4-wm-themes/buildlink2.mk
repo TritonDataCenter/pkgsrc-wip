@@ -9,7 +9,7 @@
 XFCE4_WM_THEMES_BUILDLINK2_MK=	# defined
 
 BUILDLINK_PACKAGES+=			xfce4-wm-themes
-BUILDLINK_DEPENDS.xfce4-wm-themes?=		xfce4-wm-themes>=3.90.0
+BUILDLINK_DEPENDS.xfce4-wm-themes?=		xfce4-wm-themes>=3.91.0
 BUILDLINK_PKGSRCDIR.xfce4-wm-themes?=		../../wip/xfce4-wm-themes
 
 EVAL_PREFIX+=	BUILDLINK_PREFIX.xfce4-wm-themes=xfce4-wm-themes

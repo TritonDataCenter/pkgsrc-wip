@@ -2,12 +2,8 @@
 
 .include "../xfce4/Makefile.common"
 
-BROKEN=		No distfile available yet
-
-PKGNAME=	xfce4-themes-${XFCE4_VERSION}
+DISTNAME=	xfce4-themes-${XFCE4_VERSION}
 COMMENT=	XFce4 themes
-
-WRKSRC=		${WRKDIR}/xfce4-extras/xfce4-themes
 
 .include "../../devel/pkgconfig/buildlink2.mk"
 .include "../../textproc/libxml2/buildlink2.mk"
