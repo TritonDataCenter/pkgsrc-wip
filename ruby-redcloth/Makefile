@@ -9,7 +9,7 @@ MAINTAINER=	rasputnik@hellooperator.net
 HOMEPAGE=	http://www.whytheluckystiff.net/ruby/redcloth/
 COMMENT=		Textile library for Ruby
 
-VER=	2.0.1
+VER=	2.0.2
 USE_RUBY_SETUP=	yes
 RUBY_SETUP=	install.rb
 
