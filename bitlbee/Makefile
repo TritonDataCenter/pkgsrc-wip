@@ -14,7 +14,6 @@ HOMEPAGE=		http://www.lintux.cx/downloads/
 COMMENT=		IRC to other chat networks gateway
 
 USE_BUILDLINK2=		yes
-USE_PKGLOCALEDIR=	yes
 HAS_CONFIGURE=		yes
 USE_GMAKE=		yes
 USE_PKGINSTALL=		yes
