@@ -4,7 +4,7 @@ DISTNAME=	gtklookat-0.13.0
 CATEGORIES=	graphics
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=openvrml/}
 
-MAINTAINER=	pkgsrc@bjan.freeshell.org
+MAINTAINER=	tech-pkg@NetBSD.org
 HOMEPAGE=	http://www.openvrml.org/
 COMMENT=	GTK VRML97 viewer
 

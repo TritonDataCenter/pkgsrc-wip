@@ -5,7 +5,7 @@ CATEGORIES=	print
 MASTER_SITES=	#
 DISTFILES=
 
-MAINTAINER=	pkgsrc@bjan.freeshell.org
+MAINTAINER=	tech-pkg@NetBSD.org
 HOMEPAGE=	http://www.linuxprinting.org/
 COMMENT=	CUPS support for foomatic-filters
 

@@ -4,7 +4,7 @@ DISTNAME=		Coin-2.2.1
 CATEGORIES=		graphics
 MASTER_SITES=		ftp://ftp.coin3d.org/pub/coin/src/
 
-MAINTAINER=		pkgsrc@bjan.freeshell.org
+MAINTAINER=		tech-pkg@NetBSD.org
 HOMEPAGE=		http://www.coin3d.org/
 COMMENT=		Free, portable, Open Inventor API implementation
 

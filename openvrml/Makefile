@@ -4,7 +4,7 @@ DISTNAME=	openvrml-0.14.3
 CATEGORIES=	graphics
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=openvrml/}
 
-MAINTAINER=	pkgsrc@bjan.freeshell.org
+MAINTAINER=	tech-pkg@NetBSD.org
 HOMEPAGE=	http://www.openvrml.org/
 COMMENT=	Portable C++ library for displaying VRML97 files
 

@@ -4,7 +4,7 @@ DISTNAME=		simage-1.6.0
 CATEGORIES=		graphics
 MASTER_SITES=		ftp://ftp.coin3d.org/pub/coin/src/
 
-MAINTAINER=		pkgsrc@bjan.freeshell.org
+MAINTAINER=		tech-pkg@NetBSD.org
 HOMEPAGE=		http://www.coin3d.org/
 COMMENT=		Library for image format loaders and front-ends
 

@@ -6,7 +6,7 @@ WRKSRC=			${WRKDIR}/QUANTA_0.3
 CATEGORIES=		net
 MASTER_SITES=		http://www.evl.uic.edu/cavern/quanta/downloads/
 
-MAINTAINER=		pkgsrc@bjan.freeshell.org
+MAINTAINER=		tech-pkg@NetBSD.org
 HOMEPAGE=		http://www.evl.uic.edu/cavern/quanta/
 COMMENT=		Toolkit for extremely high bandwidth networking
 
