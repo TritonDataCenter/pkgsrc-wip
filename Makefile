@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.1680 2005/03/08 11:53:42 mwdavies Exp $
+# $Id: Makefile,v 1.1681 2005/03/10 08:17:49 ianzag Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -395,7 +395,6 @@ SUBDIR+=	kapital
 SUBDIR+=	kazehakase
 SUBDIR+=	kino
 SUBDIR+=	kissme
-SUBDIR+=	koffice-i18n
 SUBDIR+=	konversation
 SUBDIR+=	korelib
 SUBDIR+=	kpanta
