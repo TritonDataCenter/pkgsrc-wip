@@ -1,0 +1,7 @@
+@comment $NetBSD$
+bin/pypanel
+${PYSITELIB}/ppmodule.so
+${PYSITELIB}/pypanel/COPYING
+${PYSITELIB}/pypanel/README
+${PYSITELIB}/pypanel/pypanelrc
+@dirrm ${PYSITELIB}/pypanel
