@@ -13,6 +13,7 @@ BUILDLINK_PACKAGES+=	postgresql-lib
 .if !empty(POSTGRESQL_LIB_BUILDLINK3_MK:M+)
 BUILDLINK_DEPENDS.postgresql-lib+=	postgresql-lib>=7.4.2
 BUILDLINK_PKGSRCDIR.postgresql-lib?=	../../wip/postgresql74-lib
+BUILDLINK_INCDIRS.postgresql-lib?=	include/postgresql
 .endif	# POSTGRESQL_LIB_BUILDLINK3_MK
 
 .include "../../security/openssl/buildlink3.mk"

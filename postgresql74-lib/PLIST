@@ -9,7 +9,6 @@ include/libpq/libpq-fs.h
 include/pg_config.h
 include/pg_config_manual.h
 include/pg_config_os.h
-include/pgsql
 include/pgtypes_date.h
 include/pgtypes_error.h
 include/pgtypes_interval.h
@@ -132,6 +131,7 @@ include/postgresql/server/executor/hashjoin.h
 include/postgresql/server/executor/instrument.h
 include/postgresql/server/executor/nodeAgg.h
 include/postgresql/server/executor/nodeAppend.h
+include/postgresql/server/executor/nodeConn.h
 include/postgresql/server/executor/nodeFunctionscan.h
 include/postgresql/server/executor/nodeGroup.h
 include/postgresql/server/executor/nodeHash.h
@@ -346,6 +346,7 @@ include/postgresql/server/utils/sets.h
 include/postgresql/server/utils/syscache.h
 include/postgresql/server/utils/timestamp.h
 include/postgresql/server/utils/tqual.h
+include/postgresql/server/utils/tupleconn.h
 include/postgresql/server/utils/tuplesort.h
 include/postgresql/server/utils/tuplestore.h
 include/postgresql/server/utils/typcache.h

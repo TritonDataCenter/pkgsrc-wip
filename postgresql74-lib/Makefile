@@ -27,10 +27,10 @@ post-buildlink:
 post-install:
 	cd ${WRKSRC}/src/include && ${SETENV} ${MAKE_ENV}		\
 		${MAKE_PROGRAM} install-all-headers
-	${GTAR} zxCf ${PREFIX}/man ${WRKSRC}/doc/man.tar.gz             \
-		`${SED} -e "s|^#.*||" ${FILESDIR}/man.lib`
-	${RM} -f ${PREFIX}/include/pgsql
-	${LN} -sf postgresql ${PREFIX}/include/pgsql
+#	${GTAR} zxCf ${PREFIX}/man ${WRKSRC}/doc/man.tar.gz             \
+#		`${SED} -e "s|^#.*||" ${FILESDIR}/man.lib`
+#	${RM} -f ${PREFIX}/include/pgsql
+#	${LN} -sf postgresql ${PREFIX}/include/pgsql
 
 .include "../../security/openssl/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

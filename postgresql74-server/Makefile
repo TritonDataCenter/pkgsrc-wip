@@ -53,6 +53,13 @@ post-buildlink:
 	${TOUCH} ${BUILDLINK_DIR}/include/crypt.h
 .endif
 
+pre-build:
+	${_PKG_SILENT}${_PKG_DEBUG}${_ULIMIT_CMD}cd ${WRKSRC}/src/backend && \
+       	${SETENV} ${MAKE_ENV} ${MAKE_PROGRAM} ${BUILD_MAKE_FLAGS} \
+	 ../../src/include/parser/parse.h ../../src/include/utils/fmgroids.h
+	${_PKG_SILENT}${_PKG_DEBUG}${_ULIMIT_CMD}cd ${WRKSRC}/src/port && \
+       	${SETENV} ${MAKE_ENV} ${MAKE_PROGRAM} ${BUILD_MAKE_FLAGS}
+
 pre-install:
 	@case "X${PGUSER}" in						\
 	Xbin|Xetc|Xinclude|Xinfo|Xlib|Xlibdata|Xlibexec|Xman|Xsbin|Xshare) \
