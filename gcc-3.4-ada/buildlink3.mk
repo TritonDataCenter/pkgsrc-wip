@@ -4,19 +4,19 @@ BUILDLINK_DEPTH:=     ${BUILDLINK_DEPTH}+
 GCC-3.4-ADA_BUILDLINK3_MK:=   ${GCC-3.4-ADA_BUILDLINK3_MK}+
 
 .if !empty(BUILDLINK_DEPTH:M+)
-BUILDLINK_DEPENDS+=   gccAda-3.4
+BUILDLINK_DEPENDS+=   gccAda-3.4.0
 .endif
 
 BUILDLINK_PACKAGES:=  ${BUILDLINK_PACKAGES:NgccAda-3.4}
-BUILDLINK_PACKAGES+=  gccAda-3.4
+BUILDLINK_PACKAGES+=  gccAda-3.4.0
 
 .if !empty(GCC-3.4-ADA_BUILDLINK3_MK:M+)
 .  if defined(GCC34_INSTALLTO_SUBPREFIX)
-.    if ${GCC34_INSTALLTO_SUBPREFIX} != "gccAda-3.4"
+.    if ${GCC34_INSTALLTO_SUBPREFIX} != "gccAda-3.4.0"
 GCC34_PKGMODIF=			_${GCC34_INSTALLTO_SUBPREFIX}
 .    endif
 .  endif
-BUILDLINK_DEPENDS.gccAda-3.4+=       gccAda-3.4
+BUILDLINK_DEPENDS.gccAda-3.4+=       gccAda-3.4.0
 BUILDLINK_PKGSRCDIR.gccAda-3.4?=     ../../wip/gcc-3.4-ada
 BUILDLINK_CONTENTS_FILTER.gccAda-3.4= \
 	${EGREP} '(gnat1|bin.*/|include.*/|\.h$$|\.pc$$|lib.*/lib[^/]*$$)'
