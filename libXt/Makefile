@@ -15,6 +15,12 @@ COMMENT=		X Toolkit Intrinsics library
 
 CONFLICTS+=		XFree86-libs-[0-9]*
 
+.include "../../mk/bsd.prefs.mk"
+
+.if !exists(${X11BASE}/bin/makestrs) && !exists(/usr/bin/makestrs)
+BUILD_DEPENDS+=		imake-[0-9]*:../../wip/imake
+.endif
+
 USE_BUILDLINK2=		yes
 USE_GMAKE=		yes
 GNU_CONFIGURE=		yes
