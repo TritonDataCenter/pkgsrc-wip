@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		skippy-0.4.0
+DISTNAME=		skippy-0.4.1
 CATEGORIES=		wm
 MASTER_SITES=		http://thegraveyard.org/files/
 EXTRACT_SUFX=		.tar.bz2
@@ -15,6 +15,9 @@ USE_X11=		# defined
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/skippy ${PREFIX}/bin/skippy
+	${INSTALL_DATA_DIR} ${PREFIX}/share/examples/skippy
+	${INSTALL_DATA} ${WRKSRC}/skippyrc-default \
+		${PREFIX}/share/examples/skippy
 
 .include "../../fonts/Xft2/buildlink3.mk"
 .include "../../graphics/imlib2/buildlink3.mk"

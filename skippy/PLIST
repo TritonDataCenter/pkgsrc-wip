@@ -1,2 +1,4 @@
 @comment $NetBSD$
 bin/skippy
+share/examples/skippy/skippyrc-default
+@dirrm share/examples/skippy
