@@ -3,7 +3,7 @@
 DRW_CLIENT_NAME=	clients-shared
 
 MAINTAINER=		mishka@terabyte.com.ua
-COMMENT=		Shared files of clients to DrWeb AntiVirus daemon
+COMMENT=		Shared files of clients to DrWeb Daemon antivirus
 
 NO_CONFIGURE=		yes
 NO_BUILD=		yes
