@@ -14,9 +14,7 @@ BUILDLINK_PKGSRCDIR.openbox?=		../../wip/openbox3
 
 EVAL_PREFIX+=	BUILDLINK_PREFIX.openbox=openbox
 BUILDLINK_PREFIX.openbox_DEFAULT=	${LOCALBASE}
-BUILDLINK_FILES.openbox+=	include/openbox/3.0/openbox/parse.h
-BUILDLINK_FILES.openbox+=	include/openbox/3.0/openbox/render.h
-BUILDLINK_FILES.openbox+=	include/openbox/3.0/openbox/theme.h
+BUILDLINK_FILES.openbox+=	include/openbox/3.0/openbox/*
 BUILDLINK_FILES.openbox+=	lib/libobparser.*
 BUILDLINK_FILES.openbox+=	lib/libobrender.*
 BUILDLINK_FILES.openbox+=	lib/pkgconfig/obparser-3.0.pc
@@ -24,7 +22,6 @@ BUILDLINK_FILES.openbox+=	lib/pkgconfig/obrender-3.0.pc
 
 .include "../../converters/libiconv/buildlink2.mk"
 .include "../../devel/glib2/buildlink2.mk"
-.include "../../devel/pkgconfig/buildlink2.mk"
 .include "../../fonts/Xft2/buildlink2.mk"
 .include "../../textproc/libxml2/buildlink2.mk"
 .include "../../x11/startup-notification/buildlink2.mk"
