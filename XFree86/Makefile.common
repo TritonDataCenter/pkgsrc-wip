@@ -156,4 +156,4 @@ do-install:
 	done
 .endif
 
-.endif # ! XFREE86_TARGETS
+.endif # ! NO_XFREE86_TARGETS
