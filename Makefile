@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.998 2004/02/21 01:40:54 minskim Exp $
+# $Id: Makefile,v 1.999 2004/02/21 02:03:57 minskim Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -533,7 +533,6 @@ SUBDIR+=	py-elementtree
 SUBDIR+=	py-f2py2e
 SUBDIR+=	py-fastaudio
 SUBDIR+=	py-game
-SUBDIR+=	py-gdick
 SUBDIR+=	py-generateDS
 SUBDIR+=	py-gettext-tools
 SUBDIR+=	py-gnosis-utils
