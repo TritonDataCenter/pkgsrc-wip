@@ -16,7 +16,8 @@ CONFLICTS=	libogg-[0-9]*
 .include "../../mk/bsd.prefs.mk"
 
 PKGVER!=	${DATE} +%Y%m%d
-DIST_SUBDIR=	${PKGNAME}
+# This distfile is shared with libvorbis-nightly
+DIST_SUBDIR=	 ${DISTNAME}-${PKGVER}
 NO_CHECKSUM=	YES
 NO_SRC_ON_FTP=	# defined
 
