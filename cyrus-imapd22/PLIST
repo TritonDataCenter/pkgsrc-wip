@@ -39,6 +39,7 @@ cyrus/bin/quota
 cyrus/bin/reconstruct
 cyrus/bin/rehash
 cyrus/bin/sievec
+cyrus/bin/smmapd
 cyrus/bin/squatter
 cyrus/bin/timsieved
 cyrus/bin/tls_prune
@@ -114,6 +115,7 @@ man/man8/notifyd.8
 man/man8/quota.8
 man/man8/reconstruct.8
 man/man8/rmnews.8
+man/man8/smmapd.8
 man/man8/squatter.8
 man/man8/syncnews.8
 man/man8/timsieved.8
