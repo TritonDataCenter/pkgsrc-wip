@@ -12,5 +12,5 @@ COMMENT=	C application for reading the contents of a DVD
 USE_BUILDLINK2=		yes
 GNU_CONFIGURE=		yes
 
-.include "../../misc/libdvdread/buildlink2.mk"
+.include "../../multimedia/libdvdread/buildlink2.mk"
 .include "../../mk/bsd.pkg.mk"
