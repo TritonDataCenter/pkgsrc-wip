@@ -66,6 +66,9 @@ post-patch: make-sendmail-siteconfig
 .elif defined(USE_SASL) && ${USE_SASL} == YES
 	@${CAT} ${FILESDIR}/site.config.m4-sasl >>${SITECONFIG}
 .endif
+.if defined(USE_SOCKETMAP) && ${USE_SOCKETMAP} == YES
+	@${CAT} ${FILESDIR}/site.config.m4-socketmap >>${SITECONFIG}
+.endif
 
 do-build:
 	@(cd ${WRKSRC}; ${SETENV} ${MAKE_ENV} ./Build)
