@@ -11,7 +11,6 @@ COMMENT=		Email client
 
 DEPENDS+=      		ap{,2}-php>=4.3.0:../../www/ap-php4
 WRKSRC=			${WRKDIR}/uebimiau-2.7.2
-USE_BUILDLINK3=		no
 NO_BUILD=		yes
 
 do-install:
