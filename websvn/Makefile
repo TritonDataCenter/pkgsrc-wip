@@ -8,7 +8,7 @@ MASTER_SITES=	http://websvn.tigris.org/files/documents/1380/10659/
 
 MAINTAINER=	tech-pkg@NetBSD.org
 HOMEPAGE=	http://websvn.tigris.org/
-COMMENT=	SHORT_DESCRIPTION_OF_THE_PACKAGE
+COMMENT=	Subversion repository web frontend
 
 BUILD_DEPENDS+=	{apache-[0-9]*,apache6-[0-9]*,apache2-[0-9]*}
 BUILD_DEPENDS+=	ap-php-[0-9]*:../../www/ap-php4
