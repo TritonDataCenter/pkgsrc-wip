@@ -1,5 +1,7 @@
 $NetBSD$
 
+Well there are quite a few errors in compilation, so lets not die because of them
+
 --- src/Makefile.in.orig	Thu Jun 10 22:57:07 2004
 +++ src/Makefile.in	Thu Jun 10 22:57:19 2004
 @@ -92,7 +92,7 @@
