@@ -15,7 +15,7 @@ procname="${command}"
 start_precmd="drwebsmf_clean"
 required_files="@PKG_SYSCONFDIR@/drweb-smf.conf"
 
-drweb_smf_clean()
+drwebsmf_clean()
 {
 	if [ -e @DRW_SMF_SOCKFILE@ ]; then
 		rm -f @DRW_SMF_SOCKFILE@
