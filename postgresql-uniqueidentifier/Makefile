@@ -12,7 +12,7 @@ MAINTAINER=		dotz@irc.pl
 HOMEPAGE=		http://gborg.postgresql.org/project/uniqueidentifier/projdisplay.php
 COMMENT=		Allows PostgreSQL databases to use Global Unique Identifier (GUID)
 
-DEPENDS=		postgresql-server>=7.4.1:../../databases/postgresql74-server
+DEPENDS=		postgresql-server74>=7.4.1:../../databases/postgresql74-server
 
 WRKSRC=			${PGSQL_CONTRIBSRC}/${DISTNAME:S/-0.2//}
 USE_BUILDLINK3=		yes
