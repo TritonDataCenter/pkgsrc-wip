@@ -8,7 +8,7 @@ MASTER_SITES=	http://dovecot.procontrol.fi/
 PATCH_SITES=	${MASTER_SITES}
 PATCHFILES=	freebsd.patch fetch.patch
 
-MAINTAINER=	jrp@hispabsd.org
+MAINTAINER=	packages@netbsd.org
 HOMEPAGE=	http://dovecot.procontrol.fi/
 COMMENT=	Secure IMAP and POP3 server
 
@@ -21,7 +21,6 @@ LIBTOOL_OVERRIDE=	${WRKSRC}/libtool
 
 CONFIGURE_ARGS+=	--sysconfdir=${PKG_SYSCONFDIR}
 CONFIGURE_ARGS+=	--localstatedir=/var
-CONFIGURE_ARGS+=	--with-storages=maildir
 
 DOVECOT_USE_LDAP?=	NO
 
