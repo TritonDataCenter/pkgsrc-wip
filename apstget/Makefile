@@ -26,10 +26,16 @@ do-install:
 	${INSTALL_SCRIPT} ${WRKSRC}/apst-get ${PREFIX}/bin/apst-get
 	${INSTALL_SCRIPT} ${WRKSRC}/apstget-wrapper ${PREFIX}/libexec/
 
-SUBST_CLASSES=		etc
+.include "../../mk/bsd.prefs.mk"
+
+.if ${OPSYS} != "Linux"
+SUBST_SED.etc= -e "s,-W interactive,,"
+.endif
+
+SUBST_CLASSES+=		etc
 SUBST_STAGE.etc=	post-patch
 SUBST_FILES.etc=	apst-get apstget-wrapper
-SUBST_SED.etc=		-e "s,_etc_,${PKG_SYSCONFDIR},g" \
+SUBST_SED.etc+=		-e "s,_etc_,${PKG_SYSCONFDIR},g" \
 			-e "s,_pfx_,${PREFIX},g" \
 			-e "s,_psd_,${PKGSRCDIR},g" \
 			-e "s,_makebin_,${MAKE},g"
