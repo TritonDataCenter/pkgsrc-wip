@@ -8,7 +8,7 @@ $NetBSD$
  		#include <sys/ioctl.h>
 +#ifdef __Linux__
  		#include <linux/soundcard.h>
-+#elif defined(__FreeBSD__) && (__FreeBSD_version >= 500000)
++#elif defined(__FreeBSD__)
 +		#include <sys/soundcard.h>
 +#else
 +		#include <soundcard.h>
