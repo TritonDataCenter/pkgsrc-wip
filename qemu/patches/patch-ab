@@ -1,6 +1,6 @@
 $NetBSD$
 
---- vmdk2raw.c.orig	Sat Jul 10 14:20:09 2004
+--- vmdk2raw.c.orig	2004-07-10 21:20:09.000000000 +0300
 +++ vmdk2raw.c
 @@ -84,7 +84,9 @@ static size_t copy_virtual(struct vmdk_p
      unsigned int granule_offset;

@@ -1,6 +1,6 @@
 $NetBSD$
 
---- vl.c.orig	Sat Jul 10 14:20:09 2004
+--- vl.c.orig	2004-07-10 21:20:09.000000000 +0300
 +++ vl.c
 @@ -40,9 +40,9 @@
  #include <sys/socket.h>

@@ -1,6 +1,6 @@
 $NetBSD$
 
---- configure.orig	Sat Jul 10 14:20:09 2004
+--- configure.orig	2004-07-10 21:20:09.000000000 +0300
 +++ configure
 @@ -241,7 +241,7 @@ aa="no"
  `$sdl_config --static-libs | grep \\\-laa > /dev/null` && aa="yes"
