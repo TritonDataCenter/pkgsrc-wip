@@ -11,8 +11,7 @@ MAINTAINER=	reed@reedmedia.net
 HOMEPAGE=	http://www.theora.org/
 COMMENT=	Video codec for Ogg multimedia streaming (nightly source)
 
-PKGVER!=	date +%Y%m%d
-
+PKGVER!=	${DATE} +%Y%m%d
 NO_SRC_ON_FTP=	# defined
 DIST_SUBDIR=	${PKGNAME}
 NO_CHECKSUM=	# defined
