@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		Scalar-List-Utils-1.11
+DISTNAME=		Scalar-List-Utils-1.13
 PKGNAME=		p5-${DISTNAME}
 SVR4_PKGNAME=		p5slu
 CATEGORIES=		lang perl5
