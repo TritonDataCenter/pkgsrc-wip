@@ -5,7 +5,6 @@ CATEGORIES=		games
 MASTER_SITES=		http://www.labyrinth.net.au/~trandor/abuse/files/
 EXTRACT_SUFX=		.tar.bz2
 DISTFILES=		${DISTNAME}${EXTRACT_SUFX} frabs210_unix.src.tar.bz2
-SITES_frabs210_unix.src.tar.bz2=	http://www.cs.uidaho.edu/~cass0664/fRaBs/
 
 MAINTAINER=		soren@blef.org
 HOMEPAGE=		http://www.labyrinth.net.au/~trandor/abuse/
@@ -16,6 +15,8 @@ USE_BUILDLINK2=		yes
 USE_LIBTOOL=		yes
 LIBTOOL_OVERRIDE=	${WRKSRC}/libtool
 GNU_CONFIGURE=		yes
+
+SITES_frabs210_unix.src.tar.bz2=	http://www.cs.uidaho.edu/~cass0664/fRaBs/
 
 post-patch:
 	${SED} -e "s|/usr/local/share/games/abuse|${PREFIX}/share/abuse_sdl|"  \
