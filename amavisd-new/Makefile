@@ -58,8 +58,6 @@ PKG_GROUPS=	${AMAVIS_GROUP}
 PKG_USERS=	${AMAVIS_USER}:${AMAVIS_GROUP}::Virus\\ Scanning\\ Account:${AMAVIS_DIR}:${SH}
 RCD_SCRIPTS=	amavisd
 CONF_FILES=	${EGDIR}/amavisd.conf-minimal ${PKG_SYSCONFDIR}/amavisd.conf
-OWN_DIRS_PERMS=	${AMAVIS_DIR} ${AMAVIS_USER} ${AMAVIS_GROUP} 0750 \
-		${AMAVIS_QUARANTINE} ${AMAVIS_USER} ${AMAVIS_GROUP} 0750
 
 # Global and legacy options
 .if defined(USE_MILTER)
