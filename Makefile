@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.95 2003/04/16 17:38:26 xtraeme Exp $
+# $Id: Makefile,v 1.96 2003/04/18 03:43:35 adrian_p Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -66,6 +66,7 @@ SUBDIR+=	p5-Net-Jabber
 SUBDIR+=	p5-Unicode-String
 SUBDIR+=	p5-XML-Stream
 SUBDIR+=	perltidy
+SUBDIR+=	phplot
 SUBDIR+=	poedit
 SUBDIR+=	pts
 SUBDIR+=	py-ORBit
