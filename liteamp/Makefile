@@ -12,9 +12,12 @@ USE_BUILDLINK2=		yes
 GNU_CONFIGURE=		yes
 USE_GNU_TOOLS+=		make
 USE_PKGLOCALEDIR=	yes
+USE_PERL5=		build
 
 USE_LIBTOOL=		yes
 LIBTOOL_OVERRIDE=	libtool
+
+CONFIGURE_ENV+=		INTLTOOL_PERL=${PERL5}
 
 .include "../../audio/libao/buildlink2.mk"
 .include "../../audio/libid3tag/buildlink2.mk"
