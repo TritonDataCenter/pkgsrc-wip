@@ -20,6 +20,6 @@ PYSETUPBUILDARGS+=	--with-berkeleydb=${BUILDLINK_PREFIX.db4} \
 			--with-pathan=${BUILDLINK_PREFIX.libpathan}
 
 .include "../../wip/dbxml/buildlink2.mk"
-.include "../../wip/libpathan/buildlink2.mk"
+.include "../../textproc/libpathan/buildlink2.mk"
 .include "../../textproc/xerces-c/buildlink2.mk"
 .include "../../mk/bsd.pkg.mk"

@@ -20,6 +20,6 @@ CONFIGURE_ARGS+=	--with-xerces=${BUILDLINK_PREFIX.xerces-c}
 CONFIGURE_ARGS+=	--with-pathan=${BUILDLINK_PREFIX.libpathan}
 
 .include "../../databases/db4/buildlink2.mk"
-.include "../../wip/libpathan/buildlink2.mk"
+.include "../../textproc/libpathan/buildlink2.mk"
 .include "../../textproc/xerces-c/buildlink2.mk"
 .include "../../mk/bsd.pkg.mk"
