@@ -31,6 +31,9 @@ BUILDLINK_FILES.libX11+=	lib/libX11.*
 .include "../../wip/xtrans/buildlink2.mk"
 .include "../../wip/libXau/buildlink2.mk"
 
+.include "../../mk/pthread.buildlink2.mk"
+LIBS+=		${BUILDLINK_LDFLAGS.pthread}
+
 BUILDLINK_TARGETS+=	libX11-buildlink
 
 libX11-buildlink: _BUILDLINK_USE

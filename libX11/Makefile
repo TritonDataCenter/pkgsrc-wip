@@ -27,6 +27,8 @@ PKGCONFIG_OVERRIDE+=    ${WRKSRC}/x11.pc.in
 .if defined(PTHREAD_TYPE) && ${PTHREAD_TYPE} == "none"
 # XXX need to test this and see how PLIST changes
 CONFIGURE_ARGS+=	--disable-xthreads
+.else
+CONFIGURE_ENV+=		XTHREADS_LIBS=${BUILDLINK_LDADD.pthread}
 .endif
 
 .include "../../wip/xextensions/buildlink3.mk"
