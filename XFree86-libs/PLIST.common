@@ -566,7 +566,7 @@ lib/libXi.a
 lib/libXi.so
 lib/libXi.so.6
 lib/libXinerama.a
-lib/libXinerama.so  
+lib/libXinerama.so
 lib/libXinerama.so.1
 lib/libXmu.a
 lib/libXmu.so
