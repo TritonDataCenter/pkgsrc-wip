@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.331 2003/07/18 16:02:21 poppnk Exp $
+# $Id: Makefile,v 1.332 2003/07/18 16:50:27 poppnk Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -223,6 +223,8 @@ SUBDIR+=	picprog
 SUBDIR+=	pinball
 SUBDIR+=	pixieplus
 SUBDIR+=	plugger
+SUBDIR+=	pnet
+SUBDIR+=	pnetlib
 SUBDIR+=	poedit
 SUBDIR+=	portmap
 SUBDIR+=	postgresql-autodoc
