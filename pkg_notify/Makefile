@@ -12,25 +12,24 @@ COMMENT=	Notifies package maintainer when a new version is available
 DEPENDS+=	p5-libwww>=5.76:../../www/p5-libwww
 
 WRKSRC=		${WRKDIR}/pkg_notify
-USE_BUILDLINK3= yes
 
 PKG_INSTALLATION_TYPES=	overwrite pkgviews
 
+NO_BUILDLINK=	yes
 NO_CONFIGURE=	yes
 NO_BUILD=	yes
 USE_PERL5=	yes
 
-CONF_FILES=	${PKG_SYSCONFDIR}/pkg_notify.list
-
 INSTALLATION_DIRS=	bin
-
-post-extract:
-	${SED} 's%\/usr\/pkgsrc%${PKGSRCDIR}%g' ${WRKSRC}/pkg_notify |\
-	${SED} 's%\/usr\/pkg%${LOCALBASE}%g' 				\
-				 > ${WRKSRC}/pkg_notify.tmp &&		\
-	${MV} ${WRKSRC}/pkg_notify.tmp ${WRKSRC}/pkg_notify;
 
 do-install:
 	${INSTALL_SCRIPT} ${WRKSRC}/pkg_notify ${PREFIX}/bin
+
+SUBST_CLASSES+=		path
+SUBST_STAGE.path=	post-extract
+SUBST_FILES.path=	pkg_notify
+SUBST_SED.path=		-e "s|/usr/pkgsrc|${PKGSRCDIR}|g" \
+			-e "s|/usr/pkg|${LOCALBASE}|g"
+SUBST_MESSAGE.path=	"Fixing harcoded paths."
 
 .include "../../mk/bsd.pkg.mk"
