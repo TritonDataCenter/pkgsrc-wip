@@ -15,8 +15,7 @@ BUILDLINK_PKGSRCDIR.xfce4-fm-icons?=		../../wip/xfce4-fm-icons
 EVAL_PREFIX+=	BUILDLINK_PREFIX.xfce4-fm-icons=xfce4-fm-icons
 BUILDLINK_PREFIX.xfce4-fm-icons_DEFAULT=	${X11PREFIX}
 
-.include "../../devel/pkgconfig/buildlink2.mk"
-.include "../../textproc/libxml2/buildlink2.mk"
+.include "../../wip/xfce4-fm/buildlink2.mk"
 .include "../../devel/glib2/buildlink2.mk"
 .include "../../devel/pkgconfig/buildlink2.mk"
 
