@@ -1,6 +1,6 @@
 # $NetBSD:$
 
-DISTNAME=	ufraw-0.2
+DISTNAME=	ufraw-0.4
 CATEGORIES=	graphics
 MASTER_SITES=	http://www.aei.mpg.de/~udif/UFRaw/
 
@@ -18,5 +18,6 @@ BUILD_TARGET=	build
 INSTALL_TARGET=	install-admin
 
 .include "../../graphics/jpeg/buildlink3.mk"
+.include "../../graphics/lcms/buildlink3.mk"
 .include "../../graphics/gimp/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
