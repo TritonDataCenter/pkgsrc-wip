@@ -84,6 +84,3 @@ ${PKGLOCALEDIR}/locale/tr/LC_MESSAGES/opcodes.mo
 ${PKGLOCALEDIR}/locale/zh_CN/LC_MESSAGES/bfd.mo
 ${PKGLOCALEDIR}/locale/zh_CN/LC_MESSAGES/binutils.mo
 @dirrm ${MINGW_TARGET}/lib/ldscripts
-@dirrm ${MINGW_TARGET}/lib
-@dirrm ${MINGW_TARGET}/bin
-@dirrm ${MINGW_TARGET}
