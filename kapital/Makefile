@@ -36,5 +36,5 @@ _FETCH_MESSAGE= \
 	${ECHO} ; \
 	${ECHO} "======================================================================"
 
-.include "../../new/korelib/buildlink2.mk"
+.include "../../wip/korelib/buildlink2.mk"
 .include "../../mk/bsd.pkg.mk"
