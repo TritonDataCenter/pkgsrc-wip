@@ -17,7 +17,11 @@ USE_BUILDLINK2=		yes
 NO_XFREE86_TARGETS=	# defined
 
 pre-configure:
-	@${LN} -sf ${FILESDIR}/host.def ${WRKSRC}
+	@${SED} \
+		-e "s|@PREFIX@|${X11PREFIX}|g" \
+		-e "s|@MAKE@|${MAKE_PROGRAM}|g" \
+		-e "s|@IMAKE@|${IMAKE}|g" \
+		${FILESDIR}/host.def > ${WRKSRC}/host.def
 
 do-configure:
 	( cd ${WRKSRC}; \
