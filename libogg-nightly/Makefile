@@ -9,7 +9,7 @@ EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	reed@reedmedia.net
 HOMEPAGE=	http://www.xiph.org/ogg/
-COMMENT=	Ogg project codecs library (nightly binary pkg)
+COMMENT=	Ogg project codecs library (nightly source)
 
 CONFLICTS=	libogg-[0-9]*
 

@@ -9,7 +9,7 @@ EXTRACT_SUFX=		.tgz
 
 MAINTAINER=		reed@reedmedia.net
 HOMEPAGE=		http://www.xiph.org/ogg/vorbis/
-COMMENT=		Library for the Ogg Vorbis audio encoding format (nightly binary pkg)
+COMMENT=		Library for the Ogg Vorbis audio encoding format (nightly source)
 
 CONFLICTS=		libvorbis-[0-9]*
 
