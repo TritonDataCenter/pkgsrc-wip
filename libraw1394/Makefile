@@ -12,6 +12,7 @@ COMMENT=		Functions for converting raw1394 protocol packets
 
 USE_BUILDLINK3=		yes
 USE_LIBTOOL=		yes
+LIBTOOL_LA_FILES+=	lib/libraw1394.la
 LIBTOOL_OVERRIDE=	${WRKSRC}/libtool
 PKGCONFIG_OVERRIDE+=	${WRKSRC}/libraw1394.pc.in
 GNU_CONFIGURE=		yes

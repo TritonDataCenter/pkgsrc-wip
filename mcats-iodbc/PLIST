@@ -1,6 +1,1 @@
 @comment $NetBSD$
-lib/mcats/libmiodbc.a
-lib/mcats/libmiodbc.la
-lib/mcats/libmiodbc.so
-lib/mcats/libmiodbc.so.1
-lib/mcats/libmiodbc.so.1.0

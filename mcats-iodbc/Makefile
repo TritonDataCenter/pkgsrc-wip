@@ -16,6 +16,7 @@ DEPENDS+=	mcats>=0.1.0:../../wip/mcats
 GNU_CONFIGURE=		YES
 USE_GNU_TOOLS+=		make
 USE_LIBTOOL=		YES
+LIBTOOL_LA_FILES+=	lib/mcats/libmiodbc.la
 USE_BUILDLINK3=		YES
 CONFIGURE_ARGS+=	--enable-iodbc
 

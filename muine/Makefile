@@ -12,6 +12,7 @@ COMMENT=	Simple and intuitive music player for GNOME
 GNU_CONFIGURE=		YES
 USE_BUILDLINK3=		YES
 USE_LIBTOOL=		YES
+LIBTOOL_LA_FILES+=	lib/muine/libmuine.la
 USE_PKGLOCALEDIR=	YES
 
 GCONF2_SCHEMAS=		muine.schemas

@@ -1,7 +1,4 @@
 @comment $NetBSD$
-lib/gtk/themes/engines/libqnx.so
-lib/gtk/themes/engines/libqnx.la
-lib/gtk/themes/engines/libqnx.a
 share/themes/QN-X11/gtk/gtkrc
 share/themes/QN-X11/ICON.png
 share/themes/QN-X11/README.html

@@ -15,6 +15,7 @@ PKG_INSTALLATION_TYPES=	overwrite pkgviews
 
 USE_BUILDLINK3=		yes
 USE_LIBTOOL=		yes
+LIBTOOL_LA_FILES+=	lib/libXi.la
 GNU_CONFIGURE=		yes
 
 PKGCONFIG_OVERRIDE+=	xi.pc.in

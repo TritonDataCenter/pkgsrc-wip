@@ -1,9 +1,4 @@
 @comment $NetBSD$
 bin/unshield
 include/libunshield.h
-lib/libunshield.a
-lib/libunshield.la
-lib/libunshield.so
-lib/libunshield.so.0
-lib/libunshield.so.0.0
 share/aclocal/unshield.m4

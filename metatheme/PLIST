@@ -13,11 +13,6 @@ include/mtm/mtm-stateful.h
 include/mtm/mtm-theme.h
 include/mtm/mtm-util.h
 include/mtm/mtm.h
-lib/libmtm.a
-lib/libmtm.la
-lib/libmtm.so
-lib/libmtm.so.0
-lib/libmtm.so.0.0
 lib/metatheme/plugins/${PKGVERSION}/libbgplugin.a
 lib/metatheme/plugins/${PKGVERSION}/libbgplugin.la
 lib/metatheme/plugins/${PKGVERSION}/libbgplugin.so

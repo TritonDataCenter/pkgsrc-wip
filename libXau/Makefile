@@ -16,6 +16,7 @@ PKG_INSTALLATION_TYPES=	overwrite pkgviews
 
 USE_BUILDLINK3=		yes
 USE_LIBTOOL=		yes
+LIBTOOL_LA_FILES+=	lib/libXau.la
 GNU_CONFIGURE=		yes
 
 PKGCONFIG_OVERRIDE+=	xau.pc.in

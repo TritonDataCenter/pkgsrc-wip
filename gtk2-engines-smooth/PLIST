@@ -1,7 +1,4 @@
 @comment $NetBSD$
-lib/gtk-2.0/2.4.0/engines/libsmooth.a
-lib/gtk-2.0/2.4.0/engines/libsmooth.la
-lib/gtk-2.0/2.4.0/engines/libsmooth.so
 share/themes/Delightfully-Smooth/gtk-2.0/gtkrc
 @dirrm share/themes/Delightfully-Smooth/gtk-2.0
 @dirrm share/themes/Delightfully-Smooth

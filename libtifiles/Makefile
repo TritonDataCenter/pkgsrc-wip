@@ -14,6 +14,7 @@ WRKSRC=			${WRKDIR}/${PKGNAME}
 
 LDFLAGS+=		-lintl
 USE_LIBTOOL=		YES
+LIBTOOL_LA_FILES+=	lib/libtifiles.la
 GNU_CONFIGURE=		YES
 CONFIGURE_ARGS+=	--disable-nls
 USE_GNU_TOOLS+=		make

@@ -13,6 +13,7 @@ COMMENT=	Easy-to-use offline browser utility
 
 USE_BUILDLINK3=	YES
 USE_LIBTOOL=	YES
+LIBTOOL_LA_FILES+=	lib/libhttrack.la
 GNU_CONFIGURE=	YES
 USE_GNU_TOOLS+=	make
 

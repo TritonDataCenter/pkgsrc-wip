@@ -12,6 +12,7 @@ COMMENT=		Plugin that reports XMMS status via named pipe
 USE_BUILDLINK3=		yes
 USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=		yes
+LIBTOOL_LA_FILES+=	lib/xmms/General/libinfopipe.la
 LIBTOOL_OVERRIDE=	${WRKSRC}/libtool
 GNU_CONFIGURE=		yes
 

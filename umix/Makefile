@@ -10,6 +10,7 @@ COMMENT=	Replacement for aumix
 
 USE_BUILDLINK3=	YES
 USE_LIBTOOL=	YES
+LIBTOOL_LA_FILES+=	${GTK}lib/umix/libuigtk.la
 
 GNU_CONFIGURE=          yes
 USE_GNU_TOOLS+=		make

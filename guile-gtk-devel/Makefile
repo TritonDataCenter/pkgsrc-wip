@@ -16,6 +16,8 @@ COMMENT=		Library to make GTK 1.2 accessible from guile
 USE_BUILDLINK3=		# defined
 USE_X11=		# defined
 USE_LIBTOOL=		# defined
+LIBTOOL_LA_FILES+=	lib/libguilegdkpixbuf-1.2.la
+LIBTOOL_LA_FILES+=	lib/libguilegtk-1.2.la
 
 GNU_CONFIGURE=		# defined
 MAKE_ENV+=		MACHINE_ARCH=${MACHINE_ARCH}

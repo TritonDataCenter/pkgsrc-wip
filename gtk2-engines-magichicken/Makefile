@@ -12,6 +12,7 @@ COMMENT=		MagicChicken theme engine for GTK+ 2.x
 
 USE_BUILDLINK3=		YES
 USE_LIBTOOL=		YES
+LIBTOOL_LA_FILES+=	lib/gtk-2.0/2.4.0/engines/libmgicchikn.la
 USE_GNU_TOOLS+=		make
 GNU_CONFIGURE=		YES
 

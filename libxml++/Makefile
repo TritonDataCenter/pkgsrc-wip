@@ -13,6 +13,8 @@ COMMENT=		C++ wrapper for the libxml2 XML parser library
 
 USE_BUILDLINK3=		yes
 USE_LIBTOOL=		yes
+LIBTOOL_LA_FILES+=	lib/libio.la
+LIBTOOL_LA_FILES+=	lib/libxml++-0.1.la
 PKGCONFIG_OVERRIDE+=	libxml++-1.0.pc.in
 GNU_CONFIGURE=		yes
 

@@ -1,7 +1,4 @@
 @comment $NetBSD$
-lib/gtk-2.0/2.4.0/engines/libmgicchikn.a
-lib/gtk-2.0/2.4.0/engines/libmgicchikn.la
-lib/gtk-2.0/2.4.0/engines/libmgicchikn.so
 share/themes/CortlandChicken/README
 share/themes/CortlandChicken/gtk-2.0/gtkrc
 share/themes/MagicChicken/README

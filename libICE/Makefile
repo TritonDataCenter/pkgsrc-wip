@@ -14,6 +14,7 @@ PKG_INSTALLATION_TYPES=	overwrite pkgviews
 
 USE_BUILDLINK3=		yes
 USE_LIBTOOL=		yes
+LIBTOOL_LA_FILES+=	lib/libICE.la
 GNU_CONFIGURE=		yes
 
 PKGCONFIG_OVERRIDE+=	ice.pc.in

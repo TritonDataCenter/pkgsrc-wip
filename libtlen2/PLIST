@@ -1,9 +1,4 @@
 @comment $NetBSD$
 include/libtlen2/libtlen2.h
-lib/libtlen2.a
-lib/libtlen2.la
-lib/libtlen2.so
-lib/libtlen2.so.1
-lib/libtlen2.so.1.0
 lib/pkgconfig/libtlen-2.0.pc
 @dirrm include/libtlen2

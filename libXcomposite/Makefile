@@ -12,6 +12,7 @@ COMMENT=		Xcomposite extension (library)
 
 USE_BUILDLINK3=		yes
 USE_LIBTOOL=		yes
+LIBTOOL_LA_FILES+=	lib/libXcomposite.la
 GNU_CONFIGURE=		yes
 
 PKGCONFIG_OVERRIDE+=	xcomposite.pc.in

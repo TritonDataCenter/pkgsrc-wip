@@ -1,7 +1,4 @@
 @comment $NetBSD$
-lib/gtk-2.0/2.4.0/engines/libmist.a
-lib/gtk-2.0/2.4.0/engines/libmist.la
-lib/gtk-2.0/2.4.0/engines/libmist.so
 share/themes/Mist/gtk-2.0/gtkrc
 @dirrm share/themes/Mist/gtk-2.0
 @dirrm share/themes/Mist

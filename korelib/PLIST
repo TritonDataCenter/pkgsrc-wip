@@ -12,14 +12,4 @@ include/kore/metainfo.h
 include/kore/robackend.h
 include/kore/rwbackend.h
 include/kore/wrbackend.h
-lib/libkore.a
-lib/libkore.la
-lib/libkore.so
-lib/libkore.so.8
-lib/libkore.so.8.0
-lib/libkoretest.a
-lib/libkoretest.la
-lib/libkoretest.so
-lib/libkoretest.so.8
-lib/libkoretest.so.8.0
 @dirrm include/kore

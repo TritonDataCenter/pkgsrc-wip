@@ -1,7 +1,2 @@
 @comment $NetBSD$
-lib/libXi.a
-lib/libXi.la
-lib/libXi.so
-lib/libXi.so.6
-lib/libXi.so.6.1
 lib/pkgconfig/xi.pc

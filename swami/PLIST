@@ -1,10 +1,4 @@
 @comment $NetBSD$
 bin/swami
-lib/swami/samplelib_libsndfile.a
-lib/swami/samplelib_libsndfile.la
-lib/swami/samplelib_libsndfile.so
-lib/swami/wavetbl_fluidsynth.a
-lib/swami/wavetbl_fluidsynth.la
-lib/swami/wavetbl_fluidsynth.so
 ${PKGLOCALEDIR}/locale/de/LC_MESSAGES/swami.mo
 @dirrm lib/swami

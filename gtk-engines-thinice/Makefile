@@ -11,6 +11,7 @@ COMMENT=	Simple, clean theme engine for gtk+ 1.2.x
 
 USE_BUILDLINK3=		YES
 USE_LIBTOOL=		YES
+LIBTOOL_LA_FILES+=	lib/gtk/themes/engines/libthinice.la
 GNU_CONFIGURE=		YES
 USE_GNU_TOOLS+=		make
 USE_X11BASE=		YES

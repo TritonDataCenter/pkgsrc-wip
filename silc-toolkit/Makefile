@@ -24,6 +24,8 @@ USE_BUILDLINK3=		YES
 USE_PKGINSTALL=		YES
 GNU_CONFIGURE=		YES
 USE_LIBTOOL=		YES
+LIBTOOL_LA_FILES+=	lib/silc-toolkit/libsilc.la
+LIBTOOL_LA_FILES+=	lib/silc-toolkit/libsilcclient.la
 
 CONFIG_GUESS_OVERRIDE=	${WRKSRC}/config.guess
 CONFIG_SUB_OVERRIDE=	${WRKSRC}/config.sub

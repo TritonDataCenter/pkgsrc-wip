@@ -12,6 +12,8 @@ COMMENT=		Interface for the 1394 Audio/Video Controls
 USE_BUILDLINK3=		yes
 USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=		yes
+LIBTOOL_LA_FILES+=	lib/libavc1394.la
+LIBTOOL_LA_FILES+=	lib/librom1394.la
 LIBTOOL_OVERRIDE=	${WRKSRC}/libtool
 GNU_CONFIGURE=		yes
 

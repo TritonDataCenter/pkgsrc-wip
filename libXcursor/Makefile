@@ -13,6 +13,7 @@ COMMENT=		Client-side cursor loading library for X
 USE_BUILDLINK3=		yes
 USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=		yes
+LIBTOOL_LA_FILES+=	lib/libXcursor.la
 GNU_CONFIGURE=		yes
 
 PKGCONFIG_OVERRIDE+=	xcursor.pc.in

@@ -13,6 +13,7 @@ CONFIGURE_ARGS=		--with-ungif --with-jpeg --with-png \
 			--with-tiff --with-mpeg2enc
 USE_BUILDLINK3=		yes
 USE_LIBTOOL=		yes
+LIBTOOL_LA_FILES+=	lib/libsimage.la
 
 .include "../../graphics/tiff/buildlink3.mk"
 .include "../../graphics/png/buildlink3.mk"

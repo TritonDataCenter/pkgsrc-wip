@@ -12,11 +12,6 @@ include/httrack/htsopt.h
 include/httrack/htssystem.h
 include/httrack/htswrap.h
 include/httrack/httrack-library.h
-lib/libhttrack.a
-lib/libhttrack.la
-lib/libhttrack.so
-lib/libhttrack.so.1
-lib/libhttrack.so.1.32
 man/man1/htsserver.1
 man/man1/httrack.1
 man/man1/webhttrack.1
