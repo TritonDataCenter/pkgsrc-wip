@@ -8,7 +8,7 @@ MAINTAINER=	adrianp@stindustries.net
 HOMEPAGE= 	http://joshbeam.com/software/prtunnel.html
 COMMENT=	Tunnels TCP connections through an HTTP or SOCKS5 proxy
 
-USE_BUILDLINK2=	YES
+USE_BUILDLINK3=	YES
 ALL_TARGET=	# defined
 
 do-install:

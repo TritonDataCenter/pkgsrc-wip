@@ -9,7 +9,7 @@ HOMEPAGE= 	http://www.mnogosearch.org/
 COMMENT=	Web search engine software for intranet and internet servers
 
 GNU_CONFIGURE=		YES
-USE_BUILDLINK2=		YES
+USE_BUILDLINK3=		YES
 USE_PKGINSTALL=         YES
 
 PKG_SYSCONFSUBDIR=	mnogosearch
@@ -32,13 +32,13 @@ CONFIGURE_ARGS+=	--localstatedir=${MNOGOSEARCH_DATADIR}
 CONFIGURE_ARGS+=	--sysconfdir=${PKG_SYSCONFDIR}
 
 .if defined(USE_MYSQL) && ${USE_MYSQL} == YES
-.include "../../databases/mysql4-client/buildlink2.mk"
+.include "../../databases/mysql4-client/buildlink3.mk"
 LIBS=			-Wl,-R${PREFIX}/lib/mysql
 DB_TYPE=		--with-mysql=${BUILDLINK_PREFIX.mysql-client}
 .endif
 
 .if defined(USE_PGSQL) && ${USE_PGSQL} == YES
-.include "../../databases/postgresql-lib/buildlink2.mk"
+.include "../../databases/postgresql-lib/buildlink3.mk"
 LIBS=			-Wl,-R${PREFIX}/lib/postgresql
 DB_TYPE=		--with-pgsql=${BUILDLINK_PREFIX.postgresql-lib}
 .endif
@@ -53,5 +53,5 @@ post-install:
 	@${FIND} ${WRKSRC}/create -name CVS -type d | ${XARGS} ${RM} -rf
 	cd ${WRKSRC}/create && ${PAX} -rw . ${DOCDIR}/create
 
-.include "../../security/openssl/buildlink2.mk"
+.include "../../security/openssl/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
