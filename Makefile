@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.1031 2004/02/26 21:25:22 mpasternak Exp $
+# $Id: Makefile,v 1.1032 2004/02/26 22:51:46 minskim Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -499,7 +499,6 @@ SUBDIR+=	py-Fnorb
 SUBDIR+=	py-Fnorb-docs
 SUBDIR+=	py-Genetic
 SUBDIR+=	py-Impacket
-SUBDIR+=	py-IndexedCatalog
 SUBDIR+=	py-InlineEgg
 SUBDIR+=	py-MayaVi
 SUBDIR+=	py-OpenAL
