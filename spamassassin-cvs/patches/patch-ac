@@ -1,4 +1,4 @@
-$NetBSD: patch-aq,v 1.2 2003/12/27 19:16:04 heinz Exp $
+$NetBSD$
 
 --- README.orig	Sun Sep 28 18:21:54 2003
 +++ README
