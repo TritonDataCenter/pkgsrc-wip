@@ -8,7 +8,7 @@ EXTRACT_SUFX=		.tar.bz2
 
 MAINTAINER=		xtraeme@NetBSD.org
 HOMEPAGE=		http://freedesktop.org/
-COMMENT=		ICE extension
+COMMENT=		Inter Client Exchange (ICE) library for X
 
 USE_BUILDLINK2=		yes
 USE_LIBTOOL=		yes
