@@ -15,5 +15,5 @@ GNU_CONFIGURE=		yes
 
 # ... when it's ready:
 
-.include "../../gcl/buildlink2.mk"
+#.include "../../gcl/buildlink2.mk"
 .include "../../mk/bsd.pkg.mk"
