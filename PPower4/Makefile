@@ -11,7 +11,7 @@ HOMEPAGE=	http://www-sp.iti.informatik.tu-darmstadt.de/software/ppower4/
 COMMENT=	PDF presentation post processor
 
 BUILD_DEPENDS+=	unzip-[0-9]*:../../archivers/unzip
-DEPENDS+=	teTeX-bin>=1.0.2:../../print/teTeX-bin
+DEPENDS+=	{teTeX-bin>=1.0.6,teTeX2-bin-[0-9]*}:../../print/teTeX-bin
 
 # This requires Java 1.2 or better
 USE_JAVA=	run
