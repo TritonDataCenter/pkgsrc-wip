@@ -25,6 +25,6 @@ do-install:
 	${INSTALL_DATA} ${WRKSRC}/00README ${PREFIX}/share/doc/prngd
 	${INSTALL_DATA} ${WRKSRC}/00README.gatherers ${PREFIX}/share/doc/prngd
 	${INSTALL_DATA} ${WRKSRC}/00DESIGN ${PREFIX}/share/doc/prngd
-	${INSTALL_MAN} ${WRKSRC}/prngd.man ${PREFIX}/man/man1/prngd.1
+#	${INSTALL_MAN} ${WRKSRC}/prngd.man ${PREFIX}/man/man1/prngd.1
 
 .include "../../mk/bsd.pkg.mk"
