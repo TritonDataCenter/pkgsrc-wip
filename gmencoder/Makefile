@@ -1,10 +1,10 @@
 # $NetBSD$
 #
 
-DISTNAME=	gmencoder-0.0.7		
+DISTNAME=	gmencoder-0.0.7
 CATEGORIES=	graphics
-MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=gmencoder/}	
-EXTRACT_SUFX=	.tgz	
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=gmencoder/}
+EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	jrp@hispabsd.org
 HOMEPAGE=	http://gmencoder.sourceforge.net/
