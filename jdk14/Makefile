@@ -36,7 +36,6 @@ ONLY_FOR_PLATFORM=	NetBSD-[2-9]*-i386
 ALL_TARGET=		all # added to below
 BUILD_DIRS=		${WRKSRC}/control/make
 CHECK_SHLIBS=		no # scripts set LD_LIBRARY_PATH
-NO_MTREE=		yes # since we change PREFIX below
 
 .include "../../mk/bsd.prefs.mk"
 
