@@ -1,0 +1,21 @@
+$NetBSD$
+
+--- src/loop.h.orig	Mon Jun  2 16:03:39 2003
++++ src/loop.h	Mon Jun  2 16:03:42 2003
+@@ -77,12 +77,16 @@
+ 
+ 
+ 
++extern KeyCode ALTERNATE_KEY_UP;
+ extern KeyCode KEY_UP;
+ 
++extern KeyCode ALTERNATE_KEY_DOWN;
+ extern KeyCode KEY_DOWN;
+ 
++extern KeyCode ALTERNATE_KEY_RIGHT;
+ extern KeyCode KEY_RIGHT;
+ 
++extern KeyCode ALTERNATE_KEY_LEFT;
+ extern KeyCode KEY_LEFT;
+ 
+ 
