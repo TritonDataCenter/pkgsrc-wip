@@ -12,7 +12,7 @@ COMMENT=		the video cd toolbox
 
 ONLY_FOR_PLATFORM=	NetBSD-*-i386
 
-do-build:
+NO_BUILD=		YES
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/vcdgear16 ${PREFIX}/bin
