@@ -106,9 +106,8 @@ pre-configure:
 
 .if !target(do-configure)
 do-configure:
-	@cd ${WRKSRC} && ${SETENV} ${MAKE_ENV} ${MAKE} Makefile.boot
 	@for dir in ${_XINCLUDE_DIRS}; do \
-		cd ${WRKSRC}/$${dir} && ${WRKSRC}/config/imake/imake \
+		cd ${WRKSRC}/$${dir} && ${IMAKE} \
 			-DTOPDIR=${WRKSRC} -DCURDIR=$${dir} \
 			-I${WRKSRC}/config/cf; \
 	done
