@@ -64,7 +64,7 @@ post-install:
 
 .include "../../devel/gettext-lib/buildlink2.mk"
 .include "../../graphics/mpeg-lib/buildlink2.mk"
-.if defined(GIMP_WITH_HELPBROWSER) && ${GIMP_WITH_HELPBROWSER} != "no" 
+.if defined(GIMP_WITH_HELPBROWSER) && ${GIMP_WITH_HELPBROWSER} != "no"
 PLIST_SUBST+=	HELPBROWSER=""
 .include "../../x11/gnome-libs/buildlink2.mk"
 .else

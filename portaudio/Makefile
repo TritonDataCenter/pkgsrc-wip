@@ -9,7 +9,7 @@ EXTRACT_SUFX=		.zip
 
 MAINTAINER=		dotz@irc.pl
 HOMEPAGE=		http://www.portaudio.com/archives/
-COMMENT=		Portable cross-platform Audio API 
+COMMENT=		Portable cross-platform Audio API
 
 HAS_CONFIGURE=		YES
 USE_GMAKE=		YES
