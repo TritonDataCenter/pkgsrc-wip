@@ -2,3 +2,4 @@ $NetBSD$
 
 SHA1 (DateTime-TimeZone-0.19.tar.gz) = 8073a214b989860b0e077a6980b6fa24759162b2
 Size (DateTime-TimeZone-0.19.tar.gz) = 240667 bytes
+SHA1 (patch-aa) = 7b29441c3ac5636548abf97e12844143e67a3bd8
