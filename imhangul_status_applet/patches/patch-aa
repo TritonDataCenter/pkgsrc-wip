@@ -7,7 +7,7 @@ $NetBSD$
  
  
 -CFLAGS = -Wall -g @IMHANGUL_STATUS_CFLAGS@
-+CFLAGS += -Wall @IMHANGUL_STATUS_CFLAGS@
++CFLAGS = @IMHANGUL_STATUS_CFLAGS@
  
  libexec_PROGRAMS = imhangul-status-applet
  
