@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	pkgclean-20040614
+DISTNAME=	pkgclean-20040615
 CATEGORIES=	pkgtools
 MASTER_SITES=	# empty
 DISTFILES=	# empty
@@ -27,7 +27,7 @@ do-install:
 SUBST_CLASSES=          path
 SUBST_STAGE.path=       post-patch
 SUBST_FILES.path=       pkgclean.c pkgclean.1
-SUBST_SED.path=         -e "s,/usr/pkgsrc,${_PKGSRCDIR},g"
+SUBST_SED.path=         -e "s,@PKGSRCDIR@,${_PKGSRCDIR},g"
 SUBST_MESSAGE.path=     "Adjusting pkgsrc directory."
 
 .include "../../mk/bsd.pkg.mk"
