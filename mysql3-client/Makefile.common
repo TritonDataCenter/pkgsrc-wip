@@ -29,6 +29,7 @@ MYSQL_EXTRA_CHARSET?=	all
 
 USE_BUILDLINK2=		# defined
 GNU_CONFIGURE=		# defined
+USE_GMAKE=		# defined
 CONFIGURE_ARGS+=	--localstatedir=${MYSQL_DATADIR}
 CONFIGURE_ARGS+=	--with-named-z-libs=z
 CONFIGURE_ARGS+=	--without-libwrap
