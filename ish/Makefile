@@ -31,3 +31,7 @@ do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/ishd ${PREFIX}/sbin
 
 .include "../../mk/bsd.pkg.mk"
+
+.if ${OPSYS} == "SunOS"
+ALL_TARGET=	solaris
+.endif
