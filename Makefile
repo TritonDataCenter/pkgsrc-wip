@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.348 2003/07/28 09:22:02 blef Exp $
+# $Id: Makefile,v 1.349 2003/07/28 11:50:16 drue Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -133,6 +133,7 @@ SUBDIR+=	ices
 SUBDIR+=	icmpchat
 SUBDIR+=	idesk
 SUBDIR+=	idled
+SUBDIR+=	igal
 SUBDIR+=	iisemulator
 SUBDIR+=	ike-scan
 SUBDIR+=	ilohamail
