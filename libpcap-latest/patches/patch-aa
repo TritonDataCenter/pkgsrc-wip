@@ -90,16 +90,19 @@ $NetBSD$
  	[ -d $(DESTDIR)$(includedir) ] || \
  	    (mkdir -p $(DESTDIR)$(includedir); chmod 755 $(DESTDIR)$(includedir))
  	$(INSTALL_DATA) $(srcdir)/pcap.h $(DESTDIR)$(includedir)/pcap.h
-@@ -168,8 +176,11 @@ install:
+@@ -168,8 +176,14 @@ install:
  	$(INSTALL_DATA) $(srcdir)/pcap.3 \
  	    $(DESTDIR)$(mandir)/man3/pcap.3
  
 +
  uninstall:
 -	rm -f $(DESTDIR)$(libdir)/libpcap.a
++	# pretty useless with pkgsrc but well...
 +	rm -f $(DESTDIR)$(libdir)/$(LIB)
++	rm -f $(DESTDIR)$(libdir)/libpcap.la
 +	rm -f $(DESTDIR)$(libdir)/libpcap.so
-+	rm -f $(DESTDIR)$(libdir)/libpcap.so.$(VERSION)
++	rm -f $(DESTDIR)$(libdir)/libpcap.so.$(MAJOR)
++	rm -f $(DESTDIR)$(libdir)/libpcap.so.$(MAJOR).$(MINOR)
  	rm -f $(DESTDIR)$(includedir)/pcap.h
  	rm -f $(DESTDIR)$(includedir)/pcap-bpf.h
  	rm -f $(DESTDIR)$(includedir)/pcap-namedb.h
