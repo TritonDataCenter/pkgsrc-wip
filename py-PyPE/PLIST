@@ -1,0 +1,6 @@
+@comment $NetBSD$
+bin/pype.py-${PYVERSSUFFIX}
+${PYSITELIB}/pype/configuration.py
+${PYSITELIB}/pype/parsers.py
+${PYSITELIB}/pype/__init__.py
+@dirrm ${PYSITELIB}/pype
