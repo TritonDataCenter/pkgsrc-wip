@@ -15,13 +15,6 @@ GNU_CONFIGURE=	YES
 
 CONFIGURE_ARGS+=	--enable-debug
 
-post-install:
-	${RM} ${PREFIX}/bin/liquidwar
-	${RM} ${PREFIX}/bin/liquidwar-server
-	${MV} ${PREFIX}/games/liquidwar ${PREFIX}/bin
-	${MV} ${PREFIX}/games/liquidwar-server ${PREFIX}/bin
-	-${RMDIR} ${PREFIX}/games
-
 .include "../../wip/allegro/buildlink2.mk"
 .include "../../mk/pthread.buildlink2.mk"
 .include "../../mk/bsd.pkg.mk"
