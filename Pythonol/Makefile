@@ -16,10 +16,13 @@ DEPENDS=		${PYPKGPREFIX}-sqlite>=0.4.3:../../databases/py-sqlite
 
 USE_BUILDLINK2=		yes
 PY_PATCHPLIST=		yes
-NO_BUILD=		# defined
 
 TARGET_DIR=		${PREFIX}/${PYSITELIB}/Pythonol
 SCRIPTNAME=		${PREFIX}/bin/pythonol
+
+do-build:
+	${RM} -r ${WRKSRC}/sqlite
+	${PYTHONBIN} ${WRKSRC}/dictionary/makedb.py
 
 do-install:
 	${INSTALL_DATA_DIR} ${TARGET_DIR}
