@@ -1,13 +1,13 @@
 $NetBSD$
 
---- Makefile.am.orig	2003-05-29 23:09:01.000000000 -0400
-+++ Makefile.am	2003-05-29 23:09:17.000000000 -0400
-@@ -2,7 +2,7 @@
- # Makefile for Hydra - (c) 2001-2002 by van Hauser / THC <vh@reptile.rug.ac.be>
- #
- 
--INSTALL = /usr/local/bin
-+INSTALL = /usr/pkg/bin
+--- Makefile.am.orig	2003-11-14 17:10:29.000000000 +0000
++++ Makefile.am	2003-11-14 17:10:43.000000000 +0000
+@@ -4,7 +4,7 @@
  
  CC = gcc
  OPTS = -O2 -I. -Wall
+-LIBS = 
++LIBS = -lm
+ DIR = /bin
+ 
+ SRC = hydra-vnc.c hydra-pcnfs.c hydra-rexec.c hydra-nntp.c hydra-socks5.c \
