@@ -87,6 +87,10 @@ CONFIGURE_ARGS+=--with-user=${AMAVISUSER}
 CONFIGURE_DIRS=       ${WRKSRC}/helper-progs
 BUILD_DIRS=   ${WRKSRC}/helper-progs
 AMAVIS_MILTER_USED=
+
+# Doesn't work with pth
+PTHREAD_OPTS+=          require native
+
 .else
 do-configure:
 
