@@ -5,7 +5,7 @@ The Metasploit Framework and associated scripts are now installed in:
 
 	${MSFDIR}
 
-You may now wish to run ${MSFDIR}/msfupdate to get the latest updates
-to the package from metasploit.com.
+You may now wish to run ${MSFDIR}/msfupdate to get the latest 
+updates to the package from metasploit.com.
 
 ===========================================================================

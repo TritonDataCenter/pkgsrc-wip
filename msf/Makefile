@@ -47,7 +47,7 @@ PYTHON_PATCH_SCRIPTS=	payloads/external/WindowsSyscall.py \
 
 do-install:
 	${INSTALL_DATA_DIR} ${MSFDIR}
-	${INSTALL_DATA_DIR} ${MSFDOC}
+	${INSTALL_DATA_DIR} ${MSFDIR}/docs
 	${INSTALL_DATA_DIR} ${MSFDIR}/data
 	${INSTALL_DATA_DIR} ${MSFDIR}/encoders
 	${INSTALL_DATA_DIR} ${MSFDIR}/exploits
@@ -59,11 +59,12 @@ do-install:
 	${INSTALL_DATA_DIR} ${MSFDIR}/tools
 	${INSTALL_DATA_DIR} ${MSFDIR}/src
 
-	${INSTALL_DATA} ${WRKSRC}/docs/* ${MSFDOC}
+	${INSTALL_DATA} ${WRKSRC}/docs/* ${MSFDIR}/docs
 	${INSTALL_DATA} ${WRKSRC}/data/* ${MSFDIR}/data
 	${INSTALL_DATA} ${WRKSRC}/encoders/*.pm ${MSFDIR}/encoders
 	${INSTALL_DATA} ${WRKSRC}/exploits/*.pm ${MSFDIR}/exploits
 
+	cd ${PREFIX}/share/doc && ${LN} -s ${MSFDIR}/docs msf
 	cd ${WRKSRC}/lib && ${PAX} -rw . ${MSFDIR}/lib
 	cd ${WRKSRC}/sdk && ${PAX} -rw . ${MSFDIR}/sdk
 	cd ${WRKSRC}/tools && ${PAX} -rw . ${MSFDIR}/tools
