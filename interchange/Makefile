@@ -90,7 +90,7 @@ do-configure:
 # Install the daemon start up script in ${PREFIX}/etc/rc.d
 #
 # Install the interchange PDF documentation in ${PREFIX}/share/doc
-# (interchange documentation is now in a seperate tarball)
+# (interchange documentation is now in a separate tarball)
 #	for i in ${WRKDIR}/${DISTNAME}/pdf/*.pdf ; do \
 #	    ${INSTALL_DATA} $$i ${PREFIX}/share/doc/interchange ;\
 #	done
