@@ -1,6 +1,6 @@
 # $NetBSD: Makefile,v 1.23 2003/06/29 22:28:17 seb Exp $
 
-PKGNAME=		${DISTNAME:S/-/4-client-/}
+PKGNAME=		${DISTNAME:S/-/-client-/}
 SVR4_PKGNAME=		mysqc
 COMMENT=		MySQL, a free SQL database (client)
 
@@ -15,8 +15,9 @@ USE_NEW_TEXINFO=	YES
 INFO_FILES=		mysql.info
 
 post-install:
-	cd ${PREFIX}/man/man1; ${RM} -f mysqld.1 safe_mysqld.1
-	cd ${PREFIX}/share/mysql; ${RM} -f mysql.server
+	cd ${PREFIX}/man/man1 && \
+		 ${RM} -f mysqld.1 mysqld_multi.1 mysqld_safe.1 safe_mysqld.1
+	cd ${PREFIX}/share/mysql && ${RM} -f mysql.server
 	${INSTALL_DATA} ${WRKSRC}/Docs/mysql.info ${PREFIX}/info
 
 .include "../../devel/readline/buildlink2.mk"
