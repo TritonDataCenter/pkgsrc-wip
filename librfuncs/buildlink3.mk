@@ -17,7 +17,9 @@ BUILDLINK_PKGSRCDIR.librfuncs?=	../../wip/librfuncs
 
 .include "../../mk/pthread.buildlink3.mk"
 LIBS+=	${BUILDLINK_LDADD.pthread}
-LDFLAGS+=	-lrfuncs
-LDFLAGS+=	${BUILDLINK_LDADD.pthread}
+BUILDLINK_LDFLAGS.librfuncs+=	-lrfuncs
+BUILDLINK_LDFLAGS.librfuncs+=	${PTHREAD_LDFLAGS}
+BUILDLINK_CPPFLAGS.librfuncs+=	-include rfuncs.h
+BUILDLINK_CPPFLAGS.librfuncs+=	${PTHREAD_CFLAGS}
 
 BUILDLINK_DEPTH:=     ${BUILDLINK_DEPTH:S/+$//}
