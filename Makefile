@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.129 2003/04/28 22:12:57 xtraeme Exp $
+# $Id: Makefile,v 1.130 2003/04/28 22:28:00 tvierling Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -10,7 +10,6 @@ SUBDIR+=	adodb
 SUBDIR+=	allegro
 SUBDIR+=	amsn
 SUBDIR+=	aolserver
-SUBDIR+=	ap-bandwidth
 SUBDIR+=	autoproject
 SUBDIR+=	billardgl
 SUBDIR+=	bugzilla
