@@ -4,7 +4,7 @@
 DISTNAME=		ASFRecorder
 PKGNAME=		asfrecorder-1.1
 WRKSRC=			${WRKDIR}/ASFRecorder/source
-CATEGORIES=		local
+CATEGORIES=		graphics
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=asfrecorder/}
 EXTRACT_SUFX=		.zip
 
