@@ -9,7 +9,7 @@
 OPENBOX_BUILDLINK2_MK=	# defined
 
 BUILDLINK_PACKAGES+=			openbox
-BUILDLINK_DEPENDS.openbox?=		openbox>=3.0beta2
+BUILDLINK_DEPENDS.openbox?=		openbox>=3.0beta3
 BUILDLINK_PKGSRCDIR.openbox?=		../../wip/openbox3
 
 EVAL_PREFIX+=	BUILDLINK_PREFIX.openbox=openbox

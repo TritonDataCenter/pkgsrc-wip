@@ -42,6 +42,7 @@ share/openbox/themes/om4ob/shade_hover.xbm
 share/openbox/themes/om4ob/shade_toggled.xbm
 share/openbox/themes/om4ob/themerc
 share/openbox/themes/thebear/themerc
+share/pixmaps/openbox.png
 @dirrm share/openbox/themes/thebear
 @dirrm share/openbox/themes/om4ob
 @dirrm share/openbox/themes/blah41
