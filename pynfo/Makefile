@@ -15,5 +15,7 @@ USE_BUILDLINK2=		yes
 PY_PATCHPLIST=		yes
 PYDISTUTILSPKG=		yes
 
+DEPENDS+=		${PYPKGPREFIX}-Twisted>=1.1.1rc1:../../wip/py-twisted
+
 .include "../../lang/python/extension.mk"
 .include "../../mk/bsd.pkg.mk"
