@@ -10,7 +10,7 @@ PTHREAD_OPT=require
 BUILDLINK_PACKAGES+=			boost-base
 BUILDLINK_PKGBASE.boost-base =	boost-base
 BUILDLINK_DEPENDS.boost-base?=  boost-base>=1.30.0
-BUILDLINK_PKGSRCDIR.boost-base?= ../../devel/boost-base
+BUILDLINK_PKGSRCDIR.boost-base?= ../../wip/boost-base
 
 EVAL_PREFIX+=					BUILDLINK_PREFIX.boost-base=boost-base
 BUILDLINK_PREFIX.boost-base_DEFAULT=${LOCALBASE}
