@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.809 2003/12/26 21:11:06 mpasternak Exp $
+# $Id: Makefile,v 1.810 2003/12/26 21:30:45 minskim Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -106,6 +106,7 @@ SUBDIR+=	darcnes-svgalib
 SUBDIR+=	darkice
 SUBDIR+=	dasm
 SUBDIR+=	dbf
+#SUBDIR+=	dbxml		# depends on libpathan
 SUBDIR+=	dccserver
 SUBDIR+=	dfbpoint
 SUBDIR+=	dfbsee
