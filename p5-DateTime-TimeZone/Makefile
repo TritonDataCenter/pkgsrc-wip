@@ -15,11 +15,7 @@ DEPENDS+=	p5-Params-Validate-[0-9]*:../../devel/p5-Params-Validate
 
 USE_BUILDLINK3=	YES
 
-.include "../../mk/bsd.prefs.mk"
-
-PERL5_MAN3DIR!=	eval `${PERL5} -V:installsiteman3dir 2>/dev/null`;	\
-		${ECHO} $${installsiteman3dir}
-PLIST_SUBST+=	PERL5_MAN3DIR=${PERL5_MAN3DIR:S/^${PREFIX}\///}
+.include "../../wip/p5-DateTime/plist.mk"
 
 .include "../../lang/perl5/module.mk"
 .include "../../mk/bsd.pkg.mk"
