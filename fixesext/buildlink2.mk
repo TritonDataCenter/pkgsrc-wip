@@ -17,6 +17,8 @@ BUILDLINK_PREFIX.fixesext_DEFAULT=	${LOCALBASE}
 BUILDLINK_FILES.fixesext+=	include/X11/extensions/xfixesproto.h
 BUILDLINK_FILES.fixesext+=	include/X11/extensions/xfixeswire.h
 
+.include "../../wip/xextensions/buildlink2.mk"
+
 BUILDLINK_TARGETS+=	fixesext-buildlink
 
 fixesext-buildlink: _BUILDLINK_USE
