@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=		samba-3.0.0
+DISTNAME=		samba-3.0.1
 WRKSRC?=		${WRKDIR}/${DISTNAME}/source
 CATEGORIES=		net
 MASTER_SITES=		ftp://ftp.samba.org/pub/samba/ \
