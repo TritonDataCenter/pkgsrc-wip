@@ -11,7 +11,7 @@ COMMENT=	.Net language binding for gtk+
 
 DEPENDS+=	p5-XML-LibXML>=1.31:../../textproc/p5-XML-LibXML
 
-USE_BUILDLINK2=	YES
+USE_BUILDLINK3=	YES
 USE_GNU_TOOLS+=	make
 USE_PERL5=	YES
 USE_X11=	YES
@@ -34,10 +34,10 @@ post-patch:
 		${PARSER_MK} > ${PARSER_MK}.new
 	${MV} ${PARSER_MK}.new ${PARSER_MK}
 
-.include "../../databases/libgnomedb/buildlink2.mk"
-.include "../../graphics/librsvg2/buildlink2.mk"
-.include "../../lang/mono/buildlink2.mk"
-.include "../../www/libgtkhtml/buildlink2.mk"
+.include "../../databases/libgnomedb/buildlink3.mk"
+.include "../../graphics/librsvg2/buildlink3.mk"
+.include "../../lang/mono/buildlink3.mk"
+.include "../../www/libgtkhtml/buildlink3.mk"
 
-.include "../../mk/pthread.buildlink2.mk"
+.include "../../mk/pthread.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
