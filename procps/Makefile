@@ -17,5 +17,5 @@ USE_GMAKE=		YES
 USE_BUILDLINK2=		YES
 MAKE_ENV+=		DESTDIR=${PREFIX}
 
-.include "../../mk/curses.buildlink2.mk"
+.include "../../devel/ncurses/buildlink2.mk"
 .include "../../mk/bsd.pkg.mk"

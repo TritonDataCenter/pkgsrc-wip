@@ -19,6 +19,6 @@ INFO_FILES=	bc.info dc.info
 BUILD_DEPENDS+=	flex-[0-9]*:../../devel/flex
 .endif
 
-.include "../../mk/curses.buildlink2.mk"
+.include "../../devel/ncurses/buildlink2.mk"
 .include "../../devel/readline/buildlink2.mk"
 .include "../../mk/bsd.pkg.mk"

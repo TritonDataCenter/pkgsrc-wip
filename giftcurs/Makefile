@@ -20,7 +20,7 @@ USE_PKGLOCALEDIR=	yes
 .if ${OPSYS} == "Linux"
 USE_NCURSES=		yes
 CONFIGURE_ARGS+=	--with-ncurses=${BUILDLINK_PREFIX.ncurses}
-.include "../../mk/curses.buildlink2.mk"
+.include "../../devel/ncurses/buildlink2.mk"
 .endif
 
 .include "../../devel/glib2/buildlink2.mk"

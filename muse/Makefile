@@ -24,7 +24,7 @@ BUILD_DEFS+=	MUSE_USES_RUBIK
 .if defined(MUSE_USES_RUBIK) && !empty(MUSE_USES_RUBIK:M[yY][eE][sS])
 USE_NCURSES=    YES
 CONFIGURE_ARGS=	--with-rubik
-.include "../../mk/curses.buildlink2.mk"
+.include "../../devel/ncurses/buildlink2.mk"
 .endif
 
 CPPFLAGS=	-DDEVOSSAUDIO=\"\\\"${DEVOSSAUDIO}\\\"\"

@@ -164,5 +164,5 @@ post-install:
 	${CHMOD} -R go-w ${EXAMPLESDIR}
 
 .include "../../devel/readline/buildlink2.mk"
-.include "../../mk/curses.buildlink2.mk"
+.include "../../devel/ncurses/buildlink2.mk"
 .include "../../mk/bsd.pkg.mk"
