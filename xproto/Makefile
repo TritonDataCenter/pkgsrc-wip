@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		xproto-6.6.1
+DISTNAME=		xproto-6.6.2
 CATEGORIES=		x11 devel
 MASTER_SITES=		http://freedesktop.org/~xlibs/release/
 EXTRACT_SUFX=		.tar.bz2
