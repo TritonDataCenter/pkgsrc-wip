@@ -71,9 +71,9 @@ BUILDLINK_FILES.XFree86-libs+=	lib/libpsres.*
 BUILDLINK_FILES.XFree86-libs+=	lib/libxf86config.*
 BUILDLINK_FILES.XFree86-libs+=	lib/libxkbfile.*
 BUILDLINK_FILES.XFree86-libs+=	lib/libxkbui.*
-BUILDLINK_FILES.XFree86-libs+=  lib/libGL.*
-BUILDLINK_FILES.XFree86-libs+=  lib/libGLU.*
-BUILDLINK_FILES.XFree86-libs+=  lib/libOSMesa.*
+BUILDLINK_FILES.XFree86-libs+=	lib/libGL.*
+BUILDLINK_FILES.XFree86-libs+=	lib/libGLU.*
+BUILDLINK_FILES.XFree86-libs+=	lib/libOSMesa.*
 
 .include "../../fonts/fontconfig/buildlink2.mk"
 .include "../../graphics/freetype2/buildlink2.mk"

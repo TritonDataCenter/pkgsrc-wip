@@ -1,7 +1,7 @@
 # $NetBSD$
 
 DISTNAME=	${DISTFILES}
-PKGNAME=	XFree86-fontsScalable-${XFREE86_VERSION}
+PKGNAME=	XFree86-fontsScalable-${XF_VER}
 WRKSRC=		${WRKDIR}/xc/fonts
 CATEGORIES=	x11
 MASTER_SITES=	${MASTER_SITE_XFREE}
@@ -15,7 +15,7 @@ DEPENDS+=	XFree86-fontsEncodings>=4.3.0:../../wip/XFree86-fontsEncodings
 
 USE_BUILDLINK2=		yes
 NO_XFREE86_TARGETS=	#defined
-PROJECTROOT=            -DProjectRoot=${PREFIX}
+PROJECTROOT=		-DProjectRoot=${PREFIX}
 
 do-configure:
 	(cd ${WRKDIR}/xc/fonts/encodings && \

@@ -13,7 +13,7 @@ COMMENT=	XFree86 Libraries
 
 DEPENDS+=		imake-[0-9]*:../../wip/imake
 
-USE_BUILDLINK2=         YES
+USE_BUILDLINK2=		YES
 
 XBUILD_DIRS=		lib nls programs/Xserver/include \
 			programs/Xserver/hw/xfree86/parser

@@ -25,8 +25,8 @@ XINSTALL_MAN_DIRS=	programs/Xserver
 .if ${OPSYS} == "FreeBSD" || ${OPSYS} == "Linux"
 
 .if ${MACHINE_ARCH} == "i386" || ${MACHINE_ARCH} == "alpha"
-XBUILD_DIRS+=           lib/XThrStub lib/X11 lib/Xext lib/GL
-XINSTALL_DIRS+=         lib/GL/mesa/src/drv
+XBUILD_DIRS+=		lib/XThrStub lib/X11 lib/Xext lib/GL
+XINSTALL_DIRS+=		lib/GL/mesa/src/drv
 .endif
 
 .endif

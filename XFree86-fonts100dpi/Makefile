@@ -15,9 +15,9 @@ DEPENDS+=	XFree86-fontsEncodings>=4.3.0:../../wip/XFree86-fontsEncodings
 
 USE_BUILDLINK2=		yes
 NO_XFREE86_TARGETS=	#defined
-PROJECTROOT=            -DProjectRoot=${PREFIX}
+PROJECTROOT=		-DProjectRoot=${PREFIX}
 
-FILESDIR=       ${PKGDIR}/../XFree86-fontsEncodings/files
+FILESDIR=	${PKGDIR}/../XFree86-fontsEncodings/files
 
 post-extract:
 	@${LN} -sf ${FILESDIR}/host.def ${WRKSRC}
