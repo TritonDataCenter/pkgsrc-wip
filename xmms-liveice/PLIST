@@ -1,0 +1,4 @@
+@comment $NetBSD$
+lib/xmms/Effect/libliveice.a
+lib/xmms/Effect/libliveice.la
+lib/xmms/Effect/libliveice.so
