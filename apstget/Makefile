@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	apstget-20041021
+DISTNAME=	apstget-20041022
 CATEGORIES=	pkgtools wip
 MASTER_SITES=	# empty
 DISTFILES=	# empty
@@ -16,6 +16,8 @@ NO_BUILDLINK=	yes
 NO_CONFIGURE=	yes
 NO_CHECKSUM=	yes
 NO_BUILD=	yes
+
+CONF_FILES=	${PKG_SYSCONFDIR}/apstget.conf
 
 do-extract:
 	@${CP} -Rp ${FILESDIR} ${WRKSRC}
