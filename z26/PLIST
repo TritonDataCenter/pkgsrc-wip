@@ -1,1 +1,3 @@
 @comment $NetBSD$
+bin/z26
+man/man1/z26.1
