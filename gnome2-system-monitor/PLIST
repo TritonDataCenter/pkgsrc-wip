@@ -1,13 +1,5 @@
 @comment $NetBSD$
 bin/gnome-system-monitor
-etc/gconf/gconf.xml.defaults/apps/procman/%gconf.xml
-etc/gconf/gconf.xml.defaults/apps/procman/disktree/%gconf.xml
-etc/gconf/gconf.xml.defaults/apps/procman/memmapstree/%gconf.xml
-etc/gconf/gconf.xml.defaults/apps/procman/proctree/%gconf.xml
-etc/gconf/gconf.xml.defaults/schemas/apps/procman/%gconf.xml
-etc/gconf/gconf.xml.defaults/schemas/apps/procman/disktree/%gconf.xml
-etc/gconf/gconf.xml.defaults/schemas/apps/procman/memmapstree/%gconf.xml
-etc/gconf/gconf.xml.defaults/schemas/apps/procman/proctree/%gconf.xml
 share/applications/gnome-system-monitor.desktop
 share/gconf/schemas/gnome-system-monitor.schemas
 share/gnome/help/gnome-system-monitor/C/figures/addColumn.png
@@ -75,12 +67,5 @@ share/omf/gnome-system-monitor/gnome-system-monitor-C.omf
 share/pixmaps/procman.png
 @dirrm share/omf/gnome-system-monitor
 @dirrm share/gnome/help/gnome-system-monitor/C/figures
+@dirrm share/gnome/help/gnome-system-monitor/C
 @dirrm share/gnome/help/gnome-system-monitor
-@dirrm etc/gconf/gconf.xml.defaults/schemas/apps/procman/proctree
-@dirrm etc/gconf/gconf.xml.defaults/schemas/apps/procman/memmapstree
-@dirrm etc/gconf/gconf.xml.defaults/schemas/apps/procman/disktree
-@dirrm etc/gconf/gconf.xml.defaults/schemas/apps/procman
-@dirrm etc/gconf/gconf.xml.defaults/apps/procman/proctree
-@dirrm etc/gconf/gconf.xml.defaults/apps/procman/memmapstree
-@dirrm etc/gconf/gconf.xml.defaults/apps/procman/disktree
-@dirrm etc/gconf/gconf.xml.defaults/apps/procman
