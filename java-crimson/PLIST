@@ -1,0 +1,3 @@
+@comment $NetBSD$
+share/classpath/crimson.jar
+@dirrm share/classpath
