@@ -16,6 +16,7 @@ USE_JAVA2=		YES
 USE_JAVA=		run
 
 PKG_JVM_DEFAULT=	sun-jdk14
+PKG_JVMS_ACCEPTED=	sun-jdk13 sun-jdk14
 
 do-build:
 	${SED}	-e "s#@PKG_JAVA_HOME@#${PKG_JAVA_HOME}#g"	\
