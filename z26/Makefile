@@ -10,13 +10,14 @@ MAINTAINER=		xmor61@users.sourceforge.net
 HOMEPAGE=		http://www.whimsey.com/z26/
 COMMENT=		Atari 2600 Emulator
 
-DEPENDS+=		nasm-*:../../devel/nasm
+BUILD_DEPENDS+=		nasm-*:../../devel/nasm
 
 ONLY_FOR_PLATFORM+=	*-i386
 
 WRKSRC=			${WRKDIR}/z26_snapshot-20040523
 USE_BUILDLINK3=		yes
 USE_GNU_TOOLS+=		make
+USE_PERL5+=		build
 ALL_TARGET=		netbsd
 MAKE_ENV+=		"INSTALL_BINDIR=${PREFIX}/bin"
 MAKE_ENV+=		"INSTALL_MANDIR=${PREFIX}/man/man1"
