@@ -12,7 +12,7 @@ name="jabberd"
 rcvar=$name
 command="@PREFIX@/bin/${name}"
 pidfile="/var/run/${help_name}.pid"
-required_files="@PKG_SYSCONFDIR@/jabber.cfg"
+required_files="@PKG_SYSCONFDIR@/jabberd.cfg"
 
 load_rc_config $name
 run_rc_command "$1"
