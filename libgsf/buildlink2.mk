@@ -5,7 +5,7 @@ LIBGSF_BUILDLINK2_MK=	# defined
 
 BUILDLINK_PACKAGES+=		libgsf
 BUILDLINK_DEPENDS.libgsf?=	libgsf>=1.8.0
-BUILDLINK_PKGSRCDIR.libgsf?=	../../devel/libgsf
+BUILDLINK_PKGSRCDIR.libgsf?=	../../wip/libgsf
 
 EVAL_PREFIX+=			BUILDLINK_PREFIX.libgsf=libgsf
 BUILDLINK_PREFIX.libgsf_DEFAULT=	${LOCALBASE}
