@@ -16,7 +16,11 @@ USE_PKGLOCALEDIR=	yes
 USE_X11=                yes
 GNU_CONFIGURE=		yes
 
-.include "../../devel/SDL/buildlink2.mk"
+CONFIGURE_ARGS+=	--with-sdl-dir=${BUILDLINK_PREFIX.SDL}
+CONFIGURE_ARGS+=	--with-opengl-dir=${BUILDLINK_PREFIX.MesaLib}
+
 .include "../../audio/SDL_mixer/buildlink2.mk"
+.include "../../devel/SDL/buildlink2.mk"
+.include "../../graphics/glut/buildlink2.mk"
 .include "../../graphics/Mesa/buildlink2.mk"
 .include "../../mk/bsd.pkg.mk"
