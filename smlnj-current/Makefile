@@ -26,7 +26,7 @@ MAINTAINER=	vnorrman@cc.hut.fi
 HOMEPAGE=	http://www.smlnj.org/index.html
 COMMENT=	Working version of SML/NJ Standard ML compiler
 
-SML_VERSION=	110.45
+SML_VERSION=	110.46
 
 WRKSRC=		${WRKDIR}
 DIST_SUBDIR=	smlnj-${SML_VERSION}
