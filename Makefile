@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.662 2003/11/25 12:58:33 adrian_p Exp $
+# $Id: Makefile,v 1.663 2003/11/25 15:17:12 adrian_p Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -197,6 +197,7 @@ SUBDIR+=	gxmame
 SUBDIR+=	hasciicam
 SUBDIR+=	hashcash
 SUBDIR+=	heimdal
+SUBDIR+=	honeyd-arpd
 SUBDIR+=	honeyd
 SUBDIR+=	ht
 SUBDIR+=	ht2html
