@@ -7,7 +7,7 @@ MASTER_SITES=	http://fredrik.hubbe.net/plugger/ \
 		ftp://ftp.netscape.com/pub/sdk/plugin/unix/
 DISTFILES=	${DISTNAME}${EXTRACT_SUFX} unix-sdk-3.0b5.tar.Z
 
-MAINTAINER=	airhead@sourceforge.net
+MAINTAINER=	airhead@users.sourceforge.net
 HOMEPAGE=	http://fredrik.hubbe.net/plugger.html
 COMMENT=	Plugin for multimedia types in Mozilla, Netscape and Opera
 

@@ -6,7 +6,7 @@ PKGNAME=        elvis-2.1.4
 CATEGORIES=	editors
 MASTER_SITES=	ftp://ftp.cs.pdx.edu/pub/elvis/
 
-MAINTAINER=	airhead@sourceforge.net
+MAINTAINER=	airhead@users.sourceforge.net
 HOMEPAGE=	http://elvis.the-little-red-haired-girl.org
 COMMENT=	vi with regex search, hex editing, HTML and TeX previewing
 

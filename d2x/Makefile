@@ -5,7 +5,7 @@ DISTNAME=	d2x-0.2.5
 CATEGORIES=	games x11
 MASTER_SITES=	http://icculus.org/d2x/src/
 
-MAINTAINER=	airhead@sourceforge.net
+MAINTAINER=	airhead@users.sourceforge.net
 HOMEPAGE=	http://icculus.org/d2x/
 COMMENT=	Descent II port
 

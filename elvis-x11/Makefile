@@ -6,7 +6,7 @@ PKGNAME=        elvis-x11-2.1.4
 CATEGORIES=	editors x11
 MASTER_SITES=	ftp://ftp.cs.pdx.edu/pub/elvis/
 
-MAINTAINER=	airhead@sourceforge.net
+MAINTAINER=	airhead@users.sourceforge.net
 HOMEPAGE=	http://elvis.the-little-red-haired-girl.org
 COMMENT=	GUI for elvis, includes console elvis
 
