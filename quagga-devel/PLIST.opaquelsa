@@ -1,5 +1,5 @@
 @comment $NetBSD:$
-lib/libospfapiclient.a
-sbin/ospfclient
 include/quagga/ospfapi/ospf_apiclient.h
+lib/libospfapiclient.la
+sbin/ospfclient
 @dirrm include/quagga/ospfapi
