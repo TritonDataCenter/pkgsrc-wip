@@ -19,7 +19,7 @@ DOC_FILES=		AUTHORS COPYING COPYRIGHT.GPL ChangeLog NEWS PORTS README
 SAMPLE_FILES=		sample-config-files sample-keys
 
 post-install:
-	${INSTALL_DATA_DIR} ${PREFIX}/share/doc/openvpn 
+	${INSTALL_DATA_DIR} ${PREFIX}/share/doc/openvpn
 	${INSTALL_DATA_DIR} ${PREFIX}/share/examples/openvpn
 	${INSTALL_DATA_DIR} ${PREFIX}/share/examples/openvpn/config
 	${INSTALL_DATA_DIR} ${PREFIX}/share/examples/openvpn/keys
@@ -30,7 +30,6 @@ post-install:
 
 	${INSTALL_DATA} ${WRKSRC}/sample-config-files/* ${PREFIX}/share/examples/openvpn/config
 	${INSTALL_DATA} ${WRKSRC}/sample-keys/* ${PREFIX}/share/examples/openvpn/keys
-
 
 .include "../../security/openssl/buildlink2.mk"
 .include "../../archivers/liblzo/buildlink2.mk"
