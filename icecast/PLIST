@@ -1,6 +1,5 @@
 @comment $NetBSD$
 bin/icecast
-etc/icecast/.pkgsrc
 etc/rc.d/icecast
 share/doc/icecast/manual.html
 share/examples/icecast/groups.aut.dist
