@@ -10,7 +10,7 @@ MAINTAINER=	alex@catbull.com
 HOMEPAGE=	http://gift.sourceforge.net/
 COMMENT=	Modular daemon that abstracts filesharing protocols
 
-USE_BUILDLINK2=		yes
+USE_BUILDLINK3=		yes
 USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=		yes
 GNU_CONFIGURE=		yes
@@ -24,7 +24,7 @@ post-install:
 	${INSTALL_DATA} ${WRKSRC}/etc/giftd.conf.template \
 		${WRKSRC}/etc/ui/ui.conf.template ${EGDIR}
 
-.include "../../devel/libtool/buildlink2.mk"
-.include "../../audio/libvorbis/buildlink2.mk"
-.include "../../devel/pkgconfig/buildlink2.mk"
+.include "../../devel/libtool/buildlink3.mk"
+.include "../../audio/libvorbis/buildlink3.mk"
+.include "../../devel/pkgconfig/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
