@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.934 2004/02/07 23:34:39 mpasternak Exp $
+# $Id: Makefile,v 1.935 2004/02/08 01:05:38 oherrala Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -182,6 +182,7 @@ SUBDIR+=	glib2-devel
 SUBDIR+=	glide3
 SUBDIR+=	glkterm
 SUBDIR+=	glulxe
+SUBDIR+=	gmfsk
 SUBDIR+=	gnats4
 SUBDIR+=	gnome-clipboard-daemon
 SUBDIR+=	gnome-spell
