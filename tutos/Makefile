@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	TUTOS-php-1.2.20040906
-PKGNAME=	${DISTNAME:tl}
+PKGNAME=	${DISTNAME:s/TUTOS/tutos/}
 WRKSRC=		${WRKDIR}/tutos
 CATEGORIES=	devel
 MASTER_SITES=	http://www.tutos.org/download/
