@@ -18,6 +18,10 @@ GNU_CONFIGURE=		YES
 CONFIGURE_ARGS+=	--disable-alsa-seq
 CONFIGURE_ARGS+=	--disable-jack-support
 
+.if exists(${X11BASE}/include/X11/extensions/Xinerama.h)
+CONFIGURE_ARGS+=        --with-xinerama
+.endif
+
 .include "../../wip/libhydrogen/buildlink2.mk"
 .include "../../x11/qt3-libs/buildlink2.mk"
 .include "../../x11/qt3-tools/buildlink2.mk"
