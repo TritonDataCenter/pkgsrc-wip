@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.635 2003/11/20 20:54:21 blef Exp $
+# $Id: Makefile,v 1.636 2003/11/20 21:50:26 adrian_p Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -37,7 +37,6 @@ SUBDIR+=	aolserver
 SUBDIR+=	ap-bunzip2
 SUBDIR+=	ap-frontpage
 SUBDIR+=	ap-ometer
-SUBDIR+=	ap-security
 SUBDIR+=	ap2-python
 SUBDIR+=	ap2-xslt
 SUBDIR+=	apotheke
