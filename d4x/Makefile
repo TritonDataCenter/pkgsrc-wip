@@ -9,7 +9,7 @@ MAINTAINER=		dotz@irc.pl
 HOMEPAGE=		http://www.krasu.ru/soft/chuchelo/files/
 COMMENT=		Download files using a nice GUI
 
-USE_BUILDLINK2=		yes
+USE_BUILDLINK3=		yes
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 
@@ -23,7 +23,7 @@ LIBCOMPAT=	# none?
 
 MAKE_ENV+=		LIBOSSAUDIO=${LIBOSSAUDIO} LIBCOMPAT=${LIBCOMPAT}
 
-.include "../../x11/gtk2/buildlink2.mk"
-.include "../../mk/ossaudio.buildlink2.mk"
-.include "../../mk/pthread.buildlink2.mk"
+.include "../../x11/gtk2/buildlink3.mk"
+.include "../../mk/ossaudio.buildlink3.mk"
+.include "../../mk/pthread.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
