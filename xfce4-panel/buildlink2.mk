@@ -9,7 +9,7 @@
 XFCE4_PANEL_BUILDLINK2_MK=	# defined
 
 BUILDLINK_PACKAGES+=			xfce4-panel
-BUILDLINK_DEPENDS.xfce4-panel?=		xfce4-panel>=3.91.0
+BUILDLINK_DEPENDS.xfce4-panel?=		xfce4-panel>=3.99.1
 BUILDLINK_PKGSRCDIR.xfce4-panel?=		../../wip/xfce4-panel
 
 EVAL_PREFIX+=	BUILDLINK_PREFIX.xfce4-panel=xfce4-panel
@@ -29,6 +29,7 @@ BUILDLINK_FILES.xfce4-panel+=	lib/xfce4/mcs-plugins/libxfce4settings.*
 BUILDLINK_FILES.xfce4-panel+=	lib/xfce4/panel-plugins/libclock.*
 BUILDLINK_FILES.xfce4-panel+=	lib/xfce4/panel-plugins/libmailcheck.*
 BUILDLINK_FILES.xfce4-panel+=	lib/xfce4/panel-plugins/libpager.*
+BUILDLINK_FILES.xfce4-panel+=	lib/xfce4/panel-plugins/libseparator.*
 BUILDLINK_FILES.xfce4-panel+=	lib/xfce4/panel-plugins/libswitcher.*
 BUILDLINK_FILES.xfce4-panel+=	lib/xfce4/panel-plugins/libsystembuttons.*
 

@@ -3,6 +3,11 @@ bin/xfce4-iconbox
 lib/xfce4/mcs-plugins/xfce4-iconbox_settings.a
 lib/xfce4/mcs-plugins/xfce4-iconbox_settings.la
 lib/xfce4/mcs-plugins/xfce4-iconbox_settings.so
+${PKGLOCALEDIR}/locale/ca/LC_MESSAGES/xfce4-iconbox.mo
 ${PKGLOCALEDIR}/locale/de/LC_MESSAGES/xfce4-iconbox.mo
+${PKGLOCALEDIR}/locale/es/LC_MESSAGES/xfce4-iconbox.mo
+${PKGLOCALEDIR}/locale/es_MX/LC_MESSAGES/xfce4-iconbox.mo
 ${PKGLOCALEDIR}/locale/fr/LC_MESSAGES/xfce4-iconbox.mo
 ${PKGLOCALEDIR}/locale/it/LC_MESSAGES/xfce4-iconbox.mo
+${PKGLOCALEDIR}/locale/nl/LC_MESSAGES/xfce4-iconbox.mo
+${PKGLOCALEDIR}/locale/zh_CN/LC_MESSAGES/xfce4-iconbox.mo

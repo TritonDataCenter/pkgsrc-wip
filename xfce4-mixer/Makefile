@@ -2,8 +2,6 @@
 
 .include "../xfce4/Makefile.common"
 
-XFCE4_VERSION=	0.1
-
 DISTNAME=	xfce4-mixer-${XFCE4_VERSION}
 CATEGORIES=	audio
 COMMENT=	XFce4 mixer plugin

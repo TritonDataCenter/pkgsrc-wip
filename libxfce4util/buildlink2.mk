@@ -9,13 +9,14 @@
 LIBXFCE4UTIL_BUILDLINK2_MK=	# defined
 
 BUILDLINK_PACKAGES+=			libxfce4util
-BUILDLINK_DEPENDS.libxfce4util?=		libxfce4util>=3.91.0
+BUILDLINK_DEPENDS.libxfce4util?=		libxfce4util>=3.99.1
 BUILDLINK_PKGSRCDIR.libxfce4util?=		../../wip/libxfce4util
 
 EVAL_PREFIX+=	BUILDLINK_PREFIX.libxfce4util=libxfce4util
 BUILDLINK_PREFIX.libxfce4util_DEFAULT=	${X11PREFIX}
 BUILDLINK_FILES.libxfce4util+=	include/xfce4/libxfce4util/debug.h
 BUILDLINK_FILES.libxfce4util+=	include/xfce4/libxfce4util/i18n.h
+BUILDLINK_FILES.libxfce4util+=	include/xfce4/libxfce4util/utf8.h
 BUILDLINK_FILES.libxfce4util+=	include/xfce4/libxfce4util/util.h
 BUILDLINK_FILES.libxfce4util+=	lib/libxfce4util.*
 BUILDLINK_FILES.libxfce4util+=	lib/pkgconfig/libxfce4util-1.0.pc

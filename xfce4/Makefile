@@ -30,7 +30,7 @@ do-install:	# empty
 .include "../../wip/xfce4-systray/buildlink2.mk"
 .include "../../wip/xfce4-themes/buildlink2.mk"
 .include "../../wip/xfce4-toys/buildlink2.mk"
-## .include "../../wip/xfce4-trigger-launcher/buildlink2.mk"
+.include "../../wip/xfce4-trigger-launcher/buildlink2.mk"
 .include "../../wip/xfce4-wm-themes/buildlink2.mk"
 
 .include "../../mk/bsd.pkg.mk"

@@ -24,6 +24,9 @@ lib/xfce4/panel-plugins/libmailcheck.so
 lib/xfce4/panel-plugins/libpager.a
 lib/xfce4/panel-plugins/libpager.la
 lib/xfce4/panel-plugins/libpager.so
+lib/xfce4/panel-plugins/libseparator.a
+lib/xfce4/panel-plugins/libseparator.la
+lib/xfce4/panel-plugins/libseparator.so
 lib/xfce4/panel-plugins/libswitcher.a
 lib/xfce4/panel-plugins/libswitcher.la
 lib/xfce4/panel-plugins/libswitcher.so

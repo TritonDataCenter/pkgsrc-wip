@@ -9,4 +9,5 @@ COMMENT=	XFce4 utilities
 
 .include "../../devel/pkgconfig/buildlink2.mk"
 .include "../../wip/xfce4-mcs-plugins/buildlink2.mk"
+.include "../../x11/xscreensaver/buildlink2.mk"
 .include "../../mk/bsd.pkg.mk"

@@ -9,7 +9,7 @@
 XFCE4_GTK2_ENGINE_BUILDLINK2_MK=	# defined
 
 BUILDLINK_PACKAGES+=			xfce4-gtk2-engine
-BUILDLINK_DEPENDS.xfce4-gtk2-engine?=		xfce4-gtk2-engine>=2.1.1
+BUILDLINK_DEPENDS.xfce4-gtk2-engine?=		xfce4-gtk2-engine>=2.1.2
 BUILDLINK_PKGSRCDIR.xfce4-gtk2-engine?=		../../wip/xfce4-gtk2-engines
 
 EVAL_PREFIX+=	BUILDLINK_PREFIX.xfce4-gtk2-engine=xfce4-gtk2-engine
