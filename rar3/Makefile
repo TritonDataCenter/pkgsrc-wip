@@ -11,7 +11,7 @@ MAINTAINER=		dotz@irc.pl
 HOMEPAGE=		http://files10.rarlab.com/rar/
 COMMENT=		File archiver (binary only)
 
-ONLY_FOR_PLATFORM=	FreeBSD-*-i386
+ONLY_FOR_PLATFORM=	FreeBSD-*-i386 NetBSD-*-i386
 
 NO_BUILD=		# defined
 NO_CONFIGURE=		# defined
