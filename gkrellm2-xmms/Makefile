@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	gkrellmms-2.1.12
+DISTNAME=	gkrellmms-2.1.13
 PKGNAME=	${DISTNAME:S/mms/m-xmms/}
 CATEGORIES=	audio
 MASTER_SITES=	http://gkrellm.luon.net/files/
