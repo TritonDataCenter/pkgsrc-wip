@@ -1,0 +1,6 @@
+@comment $NetBSD$
+sbin/shapecfg
+share/doc/shaper/README.shaper
+share/examples/shaper/shaper.conf
+@dirrm share/examples/shaper
+@dirrm share/doc/shaper
