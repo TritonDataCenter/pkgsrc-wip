@@ -1,0 +1,9 @@
+===========================================================================
+$NetBSD$
+
+The *optional* 3D editor (and the Blender exporter) requires also:
+ - Tkinter 	=> pkgsrc/x11/py-Tk
+ - PIL 		=> pkgsrc/graphics/py-imaging
+ - EditObj	=> pkgsrc/wip/py-EditObj
+
+===========================================================================
