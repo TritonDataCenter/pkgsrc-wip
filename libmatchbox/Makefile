@@ -15,7 +15,7 @@ USE_LIBTOOL=	yes
 USE_X11=	yes
 GNU_CONFIGURE=	yes
 
-PKGCONFIG_OVERRIDE=    ${WRKSRC}/libmb.pc.in
+PKGCONFIG_OVERRIDE=	libmb.pc.in
 
 CONFIGURE_ARGS+=	--enable-jpeg
 

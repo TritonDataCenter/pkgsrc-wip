@@ -14,7 +14,7 @@ USE_BUILDLINK2=		yes
 USE_LIBTOOL=		yes
 GNU_CONFIGURE=		yes
 
-PKGCONFIG_OVERRIDE+=    ${WRKSRC}/xdamage.pc.in
+PKGCONFIG_OVERRIDE+=	xdamage.pc.in
 
 .include "../../wip/libX11/buildlink2.mk"
 .include "../../wip/libXfixes/buildlink2.mk"

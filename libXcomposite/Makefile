@@ -14,7 +14,7 @@ USE_BUILDLINK2=		yes
 USE_LIBTOOL=		yes
 GNU_CONFIGURE=		yes
 
-PKGCONFIG_OVERRIDE+=    ${WRKSRC}/xcomposite.pc.in
+PKGCONFIG_OVERRIDE+=	xcomposite.pc.in
 
 .include "../../wip/libXfixes/buildlink2.mk"
 .include "../../wip/fixesext/buildlink2.mk"

@@ -16,7 +16,7 @@ USE_BUILDLINK2=		yes
 USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=		yes
 USE_GNU_TOOLS+=		make
-PKGCONFIG_OVERRIDE+=	${WRKSRC}/gtk-qt-engine-2.pc.in
+PKGCONFIG_OVERRIDE+=	gtk-qt-engine-2.pc.in
 GNU_CONFIGURE=		yes
 
 # needed

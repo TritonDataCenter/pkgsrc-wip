@@ -14,7 +14,7 @@ USE_BUILDLINK3=		yes
 USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=		yes
 USE_GNU_TOOLS+=		make
-PKGCONFIG_OVERRIDE+=	${WRKSRC}/lib/gg2_core.pc.in
+PKGCONFIG_OVERRIDE+=	lib/gg2_core.pc.in
 GNU_CONFIGURE=		yes
 LIBS+=			-lm
 

@@ -14,7 +14,7 @@ WRKSRC=		${WRKDIR}/pxlib-0.2.0
 USE_BUILDLINK3=		yes
 USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=		yes
-PKGCONFIG_OVERRIDE+=	${WRKSRC}/pxlib.pc.in
+PKGCONFIG_OVERRIDE+=	pxlib.pc.in
 GNU_CONFIGURE=		yes
 
 .include "../../converters/libiconv/buildlink3.mk"

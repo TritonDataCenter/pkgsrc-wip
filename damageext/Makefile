@@ -13,7 +13,7 @@ COMMENT=		X Damage extension headers and specification
 USE_BUILDLINK2=		yes
 GNU_CONFIGURE=		yes
 
-PKGCONFIG_OVERRIDE+=    ${WRKSRC}/damageext.pc.in
+PKGCONFIG_OVERRIDE+=	damageext.pc.in
 
 .include "../../devel/pkgconfig/buildlink2.mk"
 .include "../../mk/bsd.pkg.mk"

@@ -14,7 +14,7 @@ USE_BUILDLINK3=		yes
 USE_LIBTOOL=		yes
 GNU_CONFIGURE=		yes
 
-PKGCONFIG_OVERRIDE+=    ${WRKSRC}/xrender.pc.in
+PKGCONFIG_OVERRIDE+=	xrender.pc.in
 
 .include "../../wip/libX11/buildlink3.mk"
 .include "../../wip/libXau/buildlink3.mk"

@@ -14,7 +14,7 @@ COMMENT=	Provides a useful interface to system statistics
 DIST_SUBDIR=	i-scream
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
-PKGCONFIG_OVERRIDE+=	${WRKSRC}/libstatgrab.pc.in
+PKGCONFIG_OVERRIDE+=	libstatgrab.pc.in
 USE_BUILDLINK3=	yes
 
 CONFIGURE_ARGS+=	--disable-examples

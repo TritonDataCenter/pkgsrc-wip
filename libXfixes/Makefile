@@ -16,7 +16,7 @@ USE_BUILDLINK3=		yes
 USE_LIBTOOL=		yes
 GNU_CONFIGURE=		yes
 
-PKGCONFIG_OVERRIDE+=    ${WRKSRC}/xfixes.pc.in
+PKGCONFIG_OVERRIDE+=	xfixes.pc.in
 
 .include "../../wip/libX11/buildlink3.mk"
 .include "../../wip/fixesext/buildlink3.mk"

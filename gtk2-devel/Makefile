@@ -15,10 +15,10 @@ USE_BUILDLINK3=		yes
 USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=		yes
 LIBTOOL_OVERRIDE=	${WRKSRC}/ltmain.sh ${WRKSRC}/libtool
-PKGCONFIG_OVERRIDE+=	${WRKSRC}/contrib/gdk-pixbuf-xlib/gdk-pixbuf-xlib-2.0.pc.in
-PKGCONFIG_OVERRIDE+=	${WRKSRC}/gdk-2.0.pc.in
-PKGCONFIG_OVERRIDE+=	${WRKSRC}/gdk-pixbuf-2.0.pc.in
-PKGCONFIG_OVERRIDE+=	${WRKSRC}/gtk+-2.0.pc.in
+PKGCONFIG_OVERRIDE+=	contrib/gdk-pixbuf-xlib/gdk-pixbuf-xlib-2.0.pc.in
+PKGCONFIG_OVERRIDE+=	gdk-2.0.pc.in
+PKGCONFIG_OVERRIDE+=	gdk-pixbuf-2.0.pc.in
+PKGCONFIG_OVERRIDE+=	gtk+-2.0.pc.in
 GNU_CONFIGURE=		yes
 
 .include "../../wip/pango-devel/buildlink3.mk"

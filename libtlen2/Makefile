@@ -12,7 +12,7 @@ COMMENT=		Library to access tlen.pl IM system
 USE_BUILDLINK3=		yes
 USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=		yes
-PKGCONFIG_OVERRIDE+=	${WRKSRC}/libtlen-2.0.pc.in
+PKGCONFIG_OVERRIDE+=	libtlen-2.0.pc.in
 GNU_CONFIGURE=		yes
 
 .include "../../devel/glib2/buildlink3.mk"

@@ -15,7 +15,7 @@ USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=		yes
 GNU_CONFIGURE=		yes
 
-PKGCONFIG_OVERRIDE+=    ${WRKSRC}/xcursor.pc.in
+PKGCONFIG_OVERRIDE+=	xcursor.pc.in
 
 .include "../../wip/xproto/buildlink3.mk"
 .include "../../wip/libX11/buildlink3.mk"

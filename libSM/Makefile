@@ -14,7 +14,7 @@ USE_BUILDLINK2=		yes
 USE_LIBTOOL=		yes
 GNU_CONFIGURE=		yes
 
-PKGCONFIG_OVERRIDE+=    ${WRKSRC}/sm.pc.in
+PKGCONFIG_OVERRIDE+=	sm.pc.in
 
 # XXX does not have an option to disable xthread;
 # XXX it is based on how libX11 was built.

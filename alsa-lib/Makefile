@@ -17,7 +17,7 @@ COMMENT=		Libraries for the Advanced Linux Sound Architecture (ALSA)
 
 USE_BUILDLINK3=		yes
 USE_LIBTOOL=		yes
-PKGCONFIG_OVERRIDE+=	${WRKSRC}/utils/alsa.pc.in
+PKGCONFIG_OVERRIDE+=	utils/alsa.pc.in
 GNU_CONFIGURE=		yes
 
 .include "../../mk/bsd.pkg.mk"

@@ -15,7 +15,7 @@ PKG_INSTALLATION_TYPES=	overwrite pkgviews
 USE_BUILDLINK3=		yes
 GNU_CONFIGURE=		yes
 
-PKGCONFIG_OVERRIDE+=    ${WRKSRC}/fixesext.pc.in
+PKGCONFIG_OVERRIDE+=	fixesext.pc.in
 
 .include "../../devel/pkgconfig/buildlink3.mk"
 .include "../../wip/xextensions/buildlink3.mk"

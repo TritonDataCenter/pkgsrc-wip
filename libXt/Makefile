@@ -25,7 +25,7 @@ USE_GNU_TOOLS+=		make
 GNU_CONFIGURE=		yes
 USE_LIBTOOL=		yes
 
-PKGCONFIG_OVERRIDE+=	${WRKSRC}/xt.pc.in
+PKGCONFIG_OVERRIDE+=	xt.pc.in
 
 post-extract:
 	${MV} ${WRKSRC}/ObjectP.h ${WRKSRC}/include/X11/

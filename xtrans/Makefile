@@ -16,6 +16,6 @@ PKG_INSTALLATION_TYPES=	overwrite pkgviews
 USE_BUILDLINK3=		yes
 GNU_CONFIGURE=		yes
 
-PKGCONFIG_OVERRIDE+=    ${WRKSRC}/xtrans.pc.in
+PKGCONFIG_OVERRIDE+=	xtrans.pc.in
 
 .include "../../mk/bsd.pkg.mk"

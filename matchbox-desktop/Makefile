@@ -15,7 +15,7 @@ USE_LIBTOOL=	yes
 USE_X11=	yes
 GNU_CONFIGURE=	yes
 
-PKGCONFIG_OVERRIDE=     ${WRKSRC}/matchbox-desktop.pc.in
+PKGCONFIG_OVERRIDE=	matchbox-desktop.pc.in
 
 CONFIGURE_ARGS+=	--enable-startup-notification
 

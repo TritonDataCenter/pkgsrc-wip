@@ -16,7 +16,7 @@ USE_BUILDLINK3=		yes
 USE_LIBTOOL=		yes
 GNU_CONFIGURE=		yes
 
-PKGCONFIG_OVERRIDE+=    ${WRKSRC}/xext.pc.in
+PKGCONFIG_OVERRIDE+=	xext.pc.in
 
 .include "../../wip/libX11/buildlink3.mk"
 .include "../../wip/xproto/buildlink3.mk"

@@ -13,6 +13,6 @@ COMMENT=		X Resource usage extension headers
 USE_BUILDLINK3=		yes
 GNU_CONFIGURE=		yes
 
-PKGCONFIG_OVERRIDE+=    ${WRKSRC}/resourceext.pc.in
+PKGCONFIG_OVERRIDE+=	resourceext.pc.in
 
 .include "../../mk/bsd.pkg.mk"
