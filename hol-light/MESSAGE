@@ -1,0 +1,13 @@
+===========================================================================
+$NetBSD$
+
+To run HOL-light, type `holrun'. Then, in CAML, type:
+
+include "hol.ml";;
+
+This will load all the system from scratch (it takes several minutes).
+If you don't need the whole system, you can edit out parts of
+${PREFIX}/lib/caml-light/hol.ml
+which indicates the build sequence.
+
+===========================================================================
