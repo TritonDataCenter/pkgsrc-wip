@@ -9,7 +9,7 @@ MAINTAINER=	recht@NetBSD.org
 HOMEPAGE=	http://ambient.2y.net/pysite/
 COMMENT=	XHTML website generation tool
 
-USE_BUILDLINK2=	yes
+USE_BUILDLINK3=	yes
 PYDISTUTILSPKG=	yes
 PY_PATCHPLIST=	yes
 

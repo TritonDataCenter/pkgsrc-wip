@@ -10,7 +10,7 @@ MAINTAINER=	recht@NetBSD.org
 HOMEPAGE=	http://www.rexx.com/~dkuhlman/
 COMMENT=	Python XML data binding library
 
-USE_BUILDLINK2=	yes
+USE_BUILDLINK3=	yes
 PY_PATCHPLIST=	yes
 PYDISTUTILSPKG=	yes
 PLIST_SUBST+=	PYVERSSUFFIX=${PYVERSSUFFIX}
