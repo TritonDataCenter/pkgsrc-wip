@@ -1,4 +1,4 @@
-# $NetBSD: Makefile,v 1.0 2004/05/29 18:03:49 plunky $
+# $NetBSD: Makefile,v 1.1 2004/05/30 18:03:49 plunky $
 #
 
 DISTNAME=		lcab-1.0b10
@@ -9,7 +9,6 @@ MAINTAINER=		plunky@rya-online.net
 HOMEPAGE=		http://www.geekshop.be/rien/lcab
 COMMENT=		Microsoft cabinet (.CAB) file creator
 
-USE_BUILDLINK3=		yes
 GNU_CONFIGURE=		yes
 
 .include "../../mk/bsd.pkg.mk"
