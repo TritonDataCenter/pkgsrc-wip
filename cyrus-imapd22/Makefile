@@ -2,6 +2,7 @@
 #
 
 DISTNAME=		cyrus-imapd-2.2.1-BETA
+PKGNAME=		${DISTNAME:S/-BETA/b1/}
 CATEGORIES=		mail
 MASTER_SITES=		ftp://ftp.andrew.cmu.edu/pub/cyrus-mail/ \
 			ftp://ftp.andrew.cmu.edu/pub/cyrus-mail/OLD-VERSIONS/imap/
