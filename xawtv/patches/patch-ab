@@ -1,0 +1,13 @@
+$NetBSD$
+
+--- Makefile.in.orig	2003-04-12 20:00:30.000000000 +0200
++++ Makefile.in
+@@ -84,7 +84,7 @@ CXXFLAGS := $(CFLAGS)
+ %.so : CXXFLAGS += -fPIC
+ 
+ # libraries
+-LDLIBS  := @LDLIBS@
++LDLIBS  := @LDLIBS@ @LDFLAGS@
+ 
+ 
+ #########################################################
