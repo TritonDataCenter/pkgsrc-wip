@@ -12,3 +12,4 @@ man/man8/pfctl.8
 man/man8/pflogd.8
 man/man8/authpf.8
 man/man4/pfmodule.4
+etc/pf.os
