@@ -23,7 +23,6 @@ NO_CONFIGURE=	yes
 NO_BUILD=	yes
 
 TEXMFMAIN=	${PREFIX}/share/texmf
-SFDDIR=		${TEXMFMAIN}/ttf2tfm/base
 TFMDIR=		${TEXMFMAIN}/fonts/tfm
 TTFDIR=		${TEXMFMAIN}/fonts/truetype
 
@@ -46,7 +45,7 @@ do-install:
 	${LN} -fs ${X11TTFDIR}/kochi-${f}.ttf ${TTFDIR}/kochi/${f}.ttf
 	${INSTALL_DATA_DIR} ${TFMDIR}/kochi/${f}
 	(cd ${TFMDIR}/kochi/${f}; \
-		ttf2tfm ${TTFDIR}/kochi/${f} -P 3 -E 1 ${f}@${SFDDIR}/UJIS@)
+		ttf2tfm ${TTFDIR}/kochi/${f} -P 3 -E 1 ${f}@UJIS@)
 .endfor
 
 post-install:
