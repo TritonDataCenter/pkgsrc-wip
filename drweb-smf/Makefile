@@ -6,7 +6,6 @@ MAINTAINER=		mishka@terabyte.com.ua
 COMMENT=		Sendmail MTA filter for DrWeb Daemon antivirus
 
 RCD_SCRIPTS=		drweb-smf
-#RCD_SCRIPT_SRC.drweb-smf=	${FILESDIR}/drweb-smf-rcd.src
 
 PKG_GROUPS=		${DRW_GROUP}
 PKG_USERS=		${DRW_USER}:${PKG_GROUPS}::DrWeb\\ AntiVirus
