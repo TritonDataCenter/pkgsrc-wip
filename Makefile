@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.375 2003/08/15 15:26:19 tvierling Exp $
+# $Id: Makefile,v 1.376 2003/08/15 18:26:05 tvierling Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -38,6 +38,7 @@ SUBDIR+=	ap2-xslt
 SUBDIR+=	argouml
 SUBDIR+=	armagetron
 SUBDIR+=	artwiz-fonts
+SUBDIR+=	asfrecorder
 SUBDIR+=	autoproject
 SUBDIR+=	avida2
 SUBDIR+=	bastard
