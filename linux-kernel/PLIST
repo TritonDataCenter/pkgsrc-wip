@@ -39,7 +39,7 @@ lib/modules/${PKGVERSION}/modules.generic_string
 lib/modules/${PKGVERSION}/modules.ieee1394map
 lib/modules/${PKGVERSION}/modules.isapnpmap
 lib/modules/${PKGVERSION}/modules.parportmap
-lib/modules/${PKGVERSION}/modules.${LOWER_VENDOR}imap
+lib/modules/${PKGVERSION}/modules.pcimap
 lib/modules/${PKGVERSION}/modules.pnpbiosmap
 lib/modules/${PKGVERSION}/modules.usbmap
 @dirrm lib/modules/${PKGVERSION}/kernel/sound/drivers/mpu401
