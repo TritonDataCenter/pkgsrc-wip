@@ -1,6 +1,7 @@
 # $NetBSD$
 
 DISTNAME=	wang-ttf-1.3
+PKGREVISION=	1
 CATEGORIES=	fonts chinese
 MASTER_SITES=	ftp://cle.linux.org.tw/pub/fonts/wangfonts/ \
 		ftp://cle.linux.org.tw/pub/fonts/wangfonts/WCL/
