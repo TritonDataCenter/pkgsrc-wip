@@ -1,7 +1,0 @@
-===========================================================================
-$NetBSD$
-
-In order for this program to function properly, you must symlink your DVD
-device to /dev/dvd.
-
-===========================================================================
