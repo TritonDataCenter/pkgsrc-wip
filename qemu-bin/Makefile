@@ -12,6 +12,8 @@ COMMENT=		CPU emulator using dynamic translation
 
 NO_BUILD=		# defined
 
+CONFLICTS+=             qemu-*
+
 ONLY_FOR_PLATFORM=      Linux-*-i386 NetBSD-*-i386
 
 WRKSRC=			${WRKDIR}/usr/local
