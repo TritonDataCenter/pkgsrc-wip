@@ -87,8 +87,8 @@ MESSAGE_SRC+=		${PKGDIR}/MESSAGE.milter
 PLIST_SUBST+=		MILTER=
 
 PTHREAD_OPTS+=          require native	# doesn't work with pth
-.  include "../../mk/pthread.buildlink3.mk"
 .  include "../../mail/libmilter/buildlink3.mk"
+.  include "../../mk/pthread.buildlink3.mk"
 .else
 USE_LANGUAGES=		# empty
 NO_BUILDLINK=		yes
