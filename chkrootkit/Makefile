@@ -12,6 +12,7 @@ HOMEPAGE=		http://www.chkrootkit.org/
 COMMENT=		Locally checks for signs of a rootkit
 
 VERSION=		0.43
+DIST_SUBDIR=		${PKGNAME}
 USE_GNU_TOOLS+=		make
 USE_BUILDLINK2=		yes
 
