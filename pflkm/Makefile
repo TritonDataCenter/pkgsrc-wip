@@ -9,6 +9,8 @@ MAINTAINER=		imil@gcu.info
 HOMEPAGE=		http://foo.unix.se/joelw/pflkm.html
 COMMENT=		Pf loadable kernel module for NetBSD
 
+SUBDIR+=		pflkm
+
 ONLY_FOR_PLATFORM=	NetBSD-2.0*-*
 
 pre-install:
