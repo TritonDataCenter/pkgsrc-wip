@@ -29,5 +29,7 @@ pre-build:
 do-install:
 			${LIBTOOL} --mode=install ${INSTALL_LIB} 	\
 				${WRKSRC}/libpusb.so ${PREFIX}/lib
+			${INSTALL_DATA} ${WRKSRC}/pusb.h 		\
+				${PREFIX}/include
 
 .include "../../mk/bsd.pkg.mk"
