@@ -19,7 +19,6 @@ NO_BUILD=	YES
 APACHEDIR=	${PREFIX}/share/httpd/htdocs/
 
 do-install:
-
 	${MKDIR} ${APACHEDIR}/geeklog
 	${CP} -R ${WRKSRC}/* ${APACHEDIR}/geeklog
 	${CHOWN} -R www:www ${APACHEDIR}/geeklog
