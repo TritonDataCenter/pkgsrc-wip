@@ -14,7 +14,7 @@ MAINTAINER=		dotz@irc.pl
 HOMEPAGE=		http://mingw.sf.net/
 COMMENT=		GNU C Compiler ported to win32 platforms
 
-USE_BUILDLINK2=		yes
+USE_BUILDLINK3=		yes
 USE_PKGLOCALEDIR=      	yes
 GNU_CONFIGURE=		yes
 USE_CROSSBASE=		yes
@@ -38,5 +38,5 @@ post-install:
 	cd ${CROSSBASE}/bin/ && ${LN} -s ${MINGW_TARGET}-gcc ${MINGW_TARGET}-cc
 
 .include "../../wip/mingw/Makefile.common"
-.include "../../wip/mingw-binutils/buildlink2.mk"
+.include "../../wip/mingw-binutils/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
