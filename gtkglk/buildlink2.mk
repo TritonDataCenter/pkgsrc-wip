@@ -16,7 +16,7 @@ BUILDLINK_FILES.gtkglk+=	include/gtkglk/*
 BUILDLINK_FILES.gtkglk+=	lib/libgtkglk.*
 
 BUILDLINK_CPPFLAGS.gtkglk= \
-        -I${BUILDLINK_PREFIX.gtkglk}/include/gtkglk
+	-I${BUILDLINK_PREFIX.gtkglk}/include/gtkglk
 
 CPPFLAGS+=      ${BUILDLINK_CPPFLAGS.gtkglk}
 
