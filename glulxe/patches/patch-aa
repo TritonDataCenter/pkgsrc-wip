@@ -20,13 +20,14 @@ $NetBSD$
 -#GLKINCLUDEDIR = ../xglk
 -#GLKLIBDIR = ../xglk
 -#GLKMAKEFILE = Make.xglk
-+GLKINCLUDEDIR = ${PREFIX}/include
++GLKINCLUDEDIR = ${PREFIX}/include/glk
 +GLKLIBDIR = ${PREFIX}/lib
 +GLKMAKEFILE = Make.glk
  
  # Pick a C compiler.
  #CC = cc
- CC = gcc
+-CC = gcc
++#CC = gcc
  
 -OPTIONS = -g -Wall -Wmissing-prototypes -Wstrict-prototypes -Wno-unused -DOS_UNIX
 +OPTIONS = -Wall -Wmissing-prototypes -Wstrict-prototypes -Wno-unused -DOS_UNIX
