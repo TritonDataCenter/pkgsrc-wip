@@ -18,6 +18,7 @@ USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=		yes
 GNU_CONFIGURE=		yes
 USE_GMAKE=		yes
+USE_X11=		yes
 
 LIBTOOL_OVERRIDE=       ${WRKSRC}/libtool
 
@@ -31,4 +32,6 @@ GCONF2_SCHEMAS+=	gst-thumbnail.schemas
 .include "../../misc/gstreamer/buildlink2.mk"
 .include "../../misc/gst-plugins/buildlink2.mk"
 .include "../../devel/gettext-lib/buildlink2.mk"
+.include "../../mk/pthread.buildlink2.mk"
+.include "../../mk/ossaudio.buildlink2.mk"
 .include "../../mk/bsd.pkg.mk"
