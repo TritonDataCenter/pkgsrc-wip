@@ -10,6 +10,8 @@ MAINTAINER=	airhead@users.sourceforge.net
 HOMEPAGE=	http://elvis.vi-editor.org/
 COMMENT=	Vi clone with regex search, hex editing, HTML and TeX previewing
 
+CONFLICTS+=	elvis-x11[0-9]*
+
 HAS_CONFIGURE=		YES
 CONFIGURE_ARGS+=	--with-x=no
 CONFIGURE_ARGS+=	--prefix=${PREFIX}
