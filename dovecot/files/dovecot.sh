@@ -1,10 +1,10 @@
-#!/bin/sh
+#!@RCD_SCRIPTS_SHELL@
 #
 # $NetBSD$
 #
 
 # PROVIDE: dovecot
-# REQUIRE: DAEMON
+# REQUIRE: DAEMON LOGIN
 
 . /etc/rc.subr
 
