@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.289 2003/07/02 04:04:29 blef Exp $
+# $Id: Makefile,v 1.290 2003/07/02 09:05:54 jmmv Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -24,7 +24,6 @@ SUBDIR+=	bastard
 SUBDIR+=	bc
 SUBDIR+=	billardgl
 SUBDIR+=	bin86
-SUBDIR+=	bitlbee
 SUBDIR+=	boost-base
 SUBDIR+=	boost-thread
 SUBDIR+=	bub-n-bros
