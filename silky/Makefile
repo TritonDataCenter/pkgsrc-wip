@@ -24,7 +24,7 @@ CONFIGURE_ARGS+=	--with-included-gettext
 
 .include "../../converters/libiconv/buildlink3.mk"
 .include "../../devel/libglade2/buildlink3.mk"
+.include "../../devel/silc-toolkit/buildlink3.mk"
 .include "../../x11/gtk2/buildlink3.mk"
-.include "../../wip/silc-toolkit/buildlink3.mk"
 
 .include "../../mk/bsd.pkg.mk"
