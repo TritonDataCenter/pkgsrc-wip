@@ -85,6 +85,10 @@ share/pixmaps/gtranslator/fuzzy.png
 share/pixmaps/gtranslator/fuzzy_small.png
 share/pixmaps/gtranslator/untranslated.png
 share/pixmaps/gtranslator/untranslated_small.png
+@exec ${MKDIR} %D/share/gnome/help/gtranslator/C/figures
+@dirrm share/gnome/help/gtranslator/C/figures
+@dirrm share/gnome/help/gtranslator/C
+@dirrm share/gnome/help/gtranslator
 @dirrm share/pixmaps/gtranslator
 @dirrm share/omf/gtranslator
 @dirrm share/gtranslator/scripts
