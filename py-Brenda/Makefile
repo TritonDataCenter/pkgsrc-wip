@@ -10,7 +10,7 @@ MAINTAINER=		dotz@irc.pl
 HOMEPAGE=		http://www.snurgle.org/~pybrenda/
 COMMENT=		Paralell computation system
 
-USE_BUILDLINK2=		yes
+USE_BUILDLINK3=		yes
 PY_PATCHPLIST=		yes
 NO_BUILD=		# defined
 
