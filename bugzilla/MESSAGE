@@ -16,7 +16,7 @@ If you are running Apache then you may add the following lines to httpd.conf:
 
 to make Bugzilla accessible through:
 	
-	http://www.domain.com/bugzilla/
+	http://www.domain.com/bugzilla/index.cgi
 
 IMPORTANTLY: CHANGE YOUR DATABASE PASSWORD FROM THE DEFAULT !!
 
