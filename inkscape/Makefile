@@ -2,6 +2,7 @@
 #
 
 DISTNAME=		inkscape-0.39
+PKGREVISION=		1
 CATEGORIES=		graphics
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=inkscape/}
 EXTRACT_SUFX=		.tar.bz2
