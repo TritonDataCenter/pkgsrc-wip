@@ -15,8 +15,7 @@ BUILDLINK_PKGSRCDIR.xfce4-wm-themes?=		../../wip/xfce4-wm-themes
 EVAL_PREFIX+=	BUILDLINK_PREFIX.xfce4-wm-themes=xfce4-wm-themes
 BUILDLINK_PREFIX.xfce4-wm-themes_DEFAULT=	${X11PREFIX}
 
-.include "../../devel/pkgconfig/buildlink2.mk"
-.include "../../textproc/libxml2/buildlink2.mk"
+.include "../../wip/xfce4-wm/buildlink2.mk"
 .include "../../devel/glib2/buildlink2.mk"
 .include "../../devel/pkgconfig/buildlink2.mk"
 
