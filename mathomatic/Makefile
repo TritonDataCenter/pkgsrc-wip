@@ -8,7 +8,7 @@ CATEGORIES=		wip
 MASTER_SITES=		http://bjan.freeshell.org/nb/
 EXTRACT_SUFX=		.tgz
 
-MAINTAINER=		bjan+pkgsrc@bjan.freeshell.org
+MAINTAINER=		pkgsrc@bjan.freeshell.org
 HOMEPAGE=		http://www.panix.com/~gesslein/
 COMMENT=		Small portable symbolic math program
 

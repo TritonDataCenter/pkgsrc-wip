@@ -4,7 +4,7 @@ DISTNAME=	foomatic-filters-3.0-20031224
 CATEGORIES=	print
 MASTER_SITES=	http://www.linuxprinting.org/download/foomatic/
 
-MAINTAINER=	bjan+pkgsrc@bjan.net
+MAINTAINER=	pkgsrc@bjan.net
 HOMEPAGE=	http://www.linuxprinting.org/
 COMMENT=	Spooler independent postscript printing filter
 
