@@ -11,7 +11,6 @@
 name="dovecot"
 rcvar=$name
 command="@PREFIX@/sbin/${name}"
-pidfile="/var/run/${name}.pid"
 required_files="@PKG_SYSCONFDIR@/$name.conf"
 
 load_rc_config $name
