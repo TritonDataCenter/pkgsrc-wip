@@ -6,7 +6,7 @@ CATEGORIES=		wip
 MASTER_SITES=		http://www.singularsys.com/download/
 
 MAINTAINER=		pancake@phreaker.net
-HOMEPAGE=		http://www.singularsys.com/
+HOMEPAGE=		http://www.singularsys.com/jep/
 COMMENT=		Java Mathematical Expression Parser
 
 USE_BUILDLINK3=		yes
