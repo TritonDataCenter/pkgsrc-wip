@@ -10,8 +10,6 @@ MAINTAINER=		mchittur@cs.nmsu.edu
 HOMEPAGE=		http://geos.refractions.net/
 COMMENT=		C++ port of the Java Topology Suite (JTS)
 
-CONFLICTS=		geos-1.0.0
-
 USE_BUILDLINK3=		yes
 USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=		yes
