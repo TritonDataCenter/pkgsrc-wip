@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.1291 2004/05/23 04:06:37 jeremy-c-reed Exp $
+# $Id: Makefile,v 1.1292 2004/05/23 23:23:31 dillo Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -167,6 +167,7 @@ SUBDIR+=	gettext-tools
 SUBDIR+=	gforge
 SUBDIR+=	gg2
 SUBDIR+=	ghostpcl
+SUBDIR+=	git
 SUBDIR+=	gkrellm-launch
 SUBDIR+=	gkrellm-reminder
 SUBDIR+=	glade2-nognome
