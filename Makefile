@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.1615 2005/01/14 00:27:31 kirtai Exp $
+# $Id: Makefile,v 1.1616 2005/01/14 11:33:26 imilh Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -642,7 +642,6 @@ SUBDIR+=	picprog
 SUBDIR+=	pinball
 SUBDIR+=	pizza
 SUBDIR+=	pkg_install-testing
-SUBDIR+=	pkg_notify
 SUBDIR+=	plugger
 SUBDIR+=	pngnq
 SUBDIR+=	pointless
