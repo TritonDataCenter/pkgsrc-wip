@@ -88,10 +88,10 @@ share/xawtv/secam-france.list
 share/xawtv/secam-russia.list
 share/xawtv/uhf.list
 @dirrm share/xawtv
-@dirrm man/fr/man1
-@dirrm man/es/man8
-@dirrm man/es/man5
-@dirrm man/es/man1
-@dirrm man/es
+@comment dirrm man/fr/man1
+@comment dirrm man/es/man8
+@comment dirrm man/es/man5
+@comment dirrm man/es/man1
+@comment dirrm man/es
 @dirrm lib/xawtv
 @unexec ${RMDIR} %D/lib/X11/app-defaults 2>/dev/null || ${TRUE}
