@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.514 2003/10/01 02:07:15 minskim Exp $
+# $Id: Makefile,v 1.515 2003/10/01 02:50:58 jeremy-c-reed Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -210,8 +210,10 @@ SUBDIR+=	libvc
 SUBDIR+=	libvorbis-nightly
 SUBDIR+=	libwpd
 SUBDIR+=	liferea
+SUBDIR+=	lilo
 SUBDIR+=	lincvs
 SUBDIR+=	links-hacked
+SUBDIR+=	linux-makedev
 SUBDIR+=	linux-modutils
 SUBDIR+=	linux-nfs-utils
 SUBDIR+=	liquidwar
