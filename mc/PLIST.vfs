@@ -24,3 +24,4 @@ share/mc/extfs/ulha
 share/mc/extfs/urar
 share/mc/extfs/uzip
 share/mc/extfs/uzoo
+@dirrm share/mc/extfs

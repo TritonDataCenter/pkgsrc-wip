@@ -7,6 +7,7 @@ man/hu/man1/mc.1
 man/it/man1/mc.1
 man/pl/man1/mc.1
 man/ru/man1/mc.1
+man/man1/mc.1
 man/man1/mcedit.1
 man/man1/mcview.1
 share/mc/mc.hint
@@ -110,3 +111,13 @@ ${PKGLOCALEDIR}/locale/tr/LC_MESSAGES/mc.mo
 ${PKGLOCALEDIR}/locale/wa/LC_MESSAGES/mc.mo
 ${PKGLOCALEDIR}/locale/zh_CN/LC_MESSAGES/mc.mo
 ${PKGLOCALEDIR}/locale/zh_TW/LC_MESSAGES/mc.mo
+@dirrm share/mc/term
+@dirrm share/mc/syntax
+@dirrm share/mc/bin
+@unexec ${RMDIR} %D/share/mc 2>/dev/null || ${TRUE}
+@unexec ${RMDIR} %D/man/ru/man1 2>/dev/null || ${TRUE}
+@unexec ${RMDIR} %D/man/ru 2>/dev/null || ${TRUE}
+@unexec ${RMDIR} %D/man/it/man1 2>/dev/null || ${TRUE}
+@unexec ${RMDIR} %D/man/it 2>/dev/null || ${TRUE}
+@unexec ${RMDIR} %D/man/hu/man1 2>/dev/null || ${TRUE}
+@unexec ${RMDIR} %D/man/hu 2>/dev/null || ${TRUE}
