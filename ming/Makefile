@@ -1,7 +1,15 @@
 # $NetBSD$
 #
 
-PKGNAME=	${DISTNAME}
+DISTNAME=		${MING_DISTNAME}
+PKGNAME=		${MING_PKGNAME}
+CATEGORIES=		graphics
+MASTER_SITES=		${MING_MASTER_SITES}
+EXTRACT_SUFX=		${MING_EXTRACT_SUFX}
+
+MAINTAINER=		dotz@irc.pl
+HOMEPAGE=		http://ming.sourceforge.net/
+COMMENT=		Create SWF (Macromedia Flash) files with this library
 
 .include "../../wip/ming/Makefile.common"
 .include "../../mk/bsd.pkg.mk"
