@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		orm-0.16
-PKGNAME=		${PYPKGPREFIX}-${DISTFILES}
+PKGNAME=		${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=		databases
 MASTER_SITES=		http://tux4web.de/computer/software/orm/download/
 
