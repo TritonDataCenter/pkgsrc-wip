@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		ucarp-0.8
+DISTNAME=		ucarp-1.0
 CATEGORIES=		net
 MASTER_SITES=		http://www.pureftpd.org/ucarp/
 EXTRACT_SUFX=		.tar.bz2
@@ -15,5 +15,6 @@ GNU_CONFIGURE=		yes
 
 USE_BUILTIN.libpcap=	no
 
+.include "../../devel/gettext-lib/buildlink3.mk"
 .include "../../net/libpcap/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
