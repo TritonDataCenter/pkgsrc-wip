@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		asterisk-1.0.5
+DISTNAME=		asterisk-1.0.6
 CATEGORIES=		wip
 MASTER_SITES=		ftp://ftp.asterisk.org/pub/asterisk/ \
 			ftp://ftp.asterisk.org/pub/asterisk/old-releases/
