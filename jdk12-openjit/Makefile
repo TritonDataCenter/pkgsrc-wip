@@ -6,4 +6,4 @@ PKG_JVMS_ACCEPTED= jdk12
 CLASSDIR=	jre/classes
 JRELIB=		jre/lib/${MACHINE_ARCH}
 
-.include "../jdk-openjit/Makefile.common"
+.include "../../lang/jdk-openjit/Makefile.common"
