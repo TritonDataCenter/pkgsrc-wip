@@ -203,8 +203,8 @@ lib/cinelerra/spectrogram.la
 lib/cinelerra/spectrogram.so
 lib/cinelerra/svg.la
 lib/cinelerra/svg.so
-lib/cinelerra/swa${LOWER_VENDOR}hannels.la
-lib/cinelerra/swa${LOWER_VENDOR}hannels.so
+lib/cinelerra/swapchannels.la
+lib/cinelerra/swapchannels.so
 lib/cinelerra/synthesizer.la
 lib/cinelerra/synthesizer.so
 lib/cinelerra/timeavg.la
@@ -231,11 +231,6 @@ lib/libguicast.la
 lib/libguicast.so
 lib/libguicast.so.1
 lib/libguicast.so.1.0.0
-lib/libmp3lame.a
-lib/libmp3lame.la
-lib/libmp3lame.so
-lib/libmp3lame.so.0
-lib/libmp3lame.so.0.0
 lib/libmpeg3hv-1.5.0.so.1
 lib/libmpeg3hv-1.5.0.so.1.0.0
 lib/libmpeg3hv.la
