@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.284 2003/06/30 08:07:13 xtraeme Exp $
+# $Id: Makefile,v 1.285 2003/06/30 14:47:45 drue Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -17,6 +17,7 @@ SUBDIR+=	aolserver
 SUBDIR+=	ap-bunzip2
 SUBDIR+=	ap-frontpage
 SUBDIR+=	ap-ometer
+SUBDIR+=	argouml
 SUBDIR+=	autoproject
 SUBDIR+=	avida2
 SUBDIR+=	bastard
