@@ -16,10 +16,10 @@ DEPENDS+=       p5-DBI>=1.13:../../databases/p5-DBI
 DEPENDS+=	p5-DBD-mysql>=1.2209:../../databases/p5-DBD-mysql
 DEPENDS+=       {p5-Data-Dumper-[0-9]*,perl>=5.6.1nb2}:${PERL5_PKGSRCDIR}
 DEPENDS+=       p5-TimeDate-[0-9]*:../../time/p5-TimeDate
-DEPENDS+=       p5-CGI-*:../../www/p5-CGI
-DEPENDS+=	p5-XML-Parser-*:../../textproc/p5-XML-Parser
-DEPENDS+=	p5-MIME-tools-*:../../mail/p5-MIME-tools
-DEPENDS+=	p5-Chart-*:../../graphics/p5-Chart
+DEPENDS+=       p5-CGI-[0-9]*:../../www/p5-CGI
+DEPENDS+=	p5-XML-Parser-[0-9]*:../../textproc/p5-XML-Parser
+DEPENDS+=	p5-MIME-tools-[0-9]*:../../mail/p5-MIME-tools
+DEPENDS+=	p5-Chart-[0-9]*:../../graphics/p5-Chart
 
 BZDIR?=		${PREFIX}/share/bugzilla
 

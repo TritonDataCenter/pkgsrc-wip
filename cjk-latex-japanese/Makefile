@@ -12,7 +12,7 @@ COMMENT=	Japanese support for CJK-LaTeX
 
 #DEPENDS+=	cjk-latex>=4.5.1:../../print/cjk-latex
 DEPENDS+=	cjk-latex>=4.5.1:../../wip/cjk-latex
-DEPENDS+=	kochi-ttf-*:../../fonts/kochi-ttf
+DEPENDS+=	kochi-ttf-[0-9]*:../../fonts/kochi-ttf
 
 FONT_FILES=	gothic mincho
 

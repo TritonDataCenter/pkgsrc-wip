@@ -16,7 +16,7 @@ INFO_FILES=	bc.info dc.info
 .include "../../mk/bsd.prefs.mk"
 
 .if !exists(/usr/bin/flex)
-BUILD_DEPENDS+=	flex-*:../../devel/flex
+BUILD_DEPENDS+=	flex-[0-9]*:../../devel/flex
 .endif
 
 .include "../../devel/ncurses/buildlink2.mk"

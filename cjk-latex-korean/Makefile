@@ -12,7 +12,7 @@ COMMENT=	Korean support for CJK-LaTeX
 
 #DEPENDS+=	cjk-latex>=4.5.1:../../print/cjk-latex
 DEPENDS+=	cjk-latex>=4.5.1:../../wip/cjk-latex
-DEPENDS+=	baekmuk-ttf-*:../../fonts/baekmuk-ttf
+DEPENDS+=	baekmuk-ttf-[0-9]*:../../fonts/baekmuk-ttf
 
 FONT_FILES=	batang dotum gulim hline
 

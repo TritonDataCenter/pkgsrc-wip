@@ -12,7 +12,7 @@ COMMENT=	Chinese BIG5/GB support for CJK-LaTeX
 
 #DEPENDS+=	cjk-latex>=4.5.1:../../print/cjk-latex
 DEPENDS+=	cjk-latex>=4.5.1:../../wip/cjk-latex
-DEPENDS+=	arphic-ttf-*:../../fonts/arphic-ttf
+DEPENDS+=	arphic-ttf-[0-9]*:../../fonts/arphic-ttf
 
 FONT_FILES=	bkai00mp bsmi00lp gbsn00lp gkai00mp
 
