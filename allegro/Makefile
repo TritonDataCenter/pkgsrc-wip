@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	allegro-4.1.8
+DISTNAME=	allegro-4.1.11
 CATEGORIES=	devel
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=alleg/}
 
@@ -15,6 +15,7 @@ USE_X11=	YES
 GNU_CONFIGURE=	YES
 
 MAKEFILE=		makefile
+ALL_TARGET=		# there is no 'all' target for some reason
 INFO_FILES=		allegro.info
 INSTALL_TARGET=		install install-info
 
