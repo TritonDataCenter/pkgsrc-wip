@@ -18,7 +18,7 @@ lib/m_bbdb
 lib/m_fido
 lib/m_finger
 lib/m_gnomecard
-lib/m_gpg
+@comment lib/m_gpg
 lib/m_inmail
 lib/m_ldap
 lib/m_muttalias
