@@ -1,4 +1,4 @@
-#!/bin/sh
+#!@RCD_SCRIPTS_SHELL@
 #
 #	$NetBSD: exim,v 1.1 2001/06/26 00:21:47 wiz Exp $
 #

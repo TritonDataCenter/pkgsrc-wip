@@ -10,7 +10,10 @@ MAINTAINER=	ad@NetBSD.org
 HOMEPAGE=	http://www.exim.org/
 COMMENT=	The Exim mail transfer agent, a replacement for sendmail
 
-USE_PERL5=	yes
+USE_PERL5=	YES
+USE_PKGINSTALL=	YES
+
+RCD_SCRIPTS=	exim
 
 pre-patch:
 	${MKDIR} ${WRKSRC}/Local
@@ -33,9 +36,6 @@ pre-install:
 	strip ${WRKSRC}/build*/exim_lock
 
 post-install:
-	${SED} -e 's:@PREFIX@:${PREFIX}:' \
-	    ${FILESDIR}/exim \
-	    > ${PREFIX}/etc/rc.d/exim
 	${SED} -e 's:@PREFIX@:${PREFIX}:' \
 	    ${FILESDIR}/exim_newaliases \
 	    > ${PREFIX}/sbin/exim_newaliases
