@@ -1,0 +1,6 @@
+@comment $NetBSD$
+bin/glkscare
+share/doc/scare/DEBUGGER
+share/doc/scare/README
+share/doc/scare/RUNNING
+@dirrm share/doc/scare
