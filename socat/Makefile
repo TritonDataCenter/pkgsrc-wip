@@ -12,7 +12,8 @@ COMMENT=	"netcat++" (extended design, new implementation)
 GNU_CONFIGURE=		YES
 USE_BUILDLINK2=		YES
 
-CONFIGURE_ARGS+=	--disable-libwrap --disable-readline
+CONFIGURE_ARGS+=	--disable-libwrap
+CONFIGURE_ARGS+=	--disable-readline
 
 .include "../../security/openssl/buildlink2.mk"
 .include "../../mk/bsd.pkg.mk"
