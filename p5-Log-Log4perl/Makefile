@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	Log-Log4perl-0.48
+DISTNAME=	Log-Log4perl-0.51
 PKGNAME=	p5-${DISTNAME}
 SVR4_PKGNAME=	p5llp
 CATEGORIES=	devel perl5
