@@ -1,6 +1,7 @@
 # $NetBSD:$
 
 DISTNAME=	guile-lib-0.1.2
+PKGREVISION=	1
 CATEGORIES=	devel
 MASTER_SITES=	http://download.gna.org/guile-lib/
 
