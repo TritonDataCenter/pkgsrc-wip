@@ -1,8 +1,9 @@
 # $NetBSD: Makefile,v 1.7 2003/09/05 21:18:52 bouyer Exp $
 
-DISTNAME=	mailman-2.1.2
+DISTNAME=	mailman-2.1.3
 CATEGORIES=	mail www
-MASTER_SITES=	${MASTER_SITE_GNU:=mailman/}
+MASTER_SITES=	http://www.list.org/ \
+		${MASTER_SITE_GNU:=mailman/}
 EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	bouyer@NetBSD.org
