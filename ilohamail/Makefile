@@ -10,7 +10,7 @@ MAINTAINER=	jrp@hispabsd.org
 HOMEPAGE=	http://www.ilohamail.org/
 COMMENT=	Light weight yet full featured multilingual webmail
 
-DEPENDS=	ap-php4-[0-9]*:../../www/ap-php4
+DEPENDS+=	{ap-php-4.[0-9]*,ap2-php-4.[0-9]*}:../../www/ap-php4
 
 NO_BUILD=	yes
 
