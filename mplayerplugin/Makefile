@@ -21,7 +21,7 @@ USE_X11BASE=	YES
 MOZ_PLUGDIR=    ${PREFIX}/lib/mozilla/plugins
 
 do-install:
-	${INSTALL_DATA_DIR} ${MOZPLUGDIR}
+	${INSTALL_DATA_DIR} ${MOZ_PLUGDIR}
 	${INSTALL_DATA} ${WRKSRC}/mplayerplug-in.so ${MOZ_PLUGDIR}
 
 .include "../../mk/bsd.pkg.mk"
