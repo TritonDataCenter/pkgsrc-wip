@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.44 2003/04/07 06:14:43 marc Exp $
+# $Id: Makefile,v 1.45 2003/04/07 08:40:08 bmeurer Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -18,6 +18,7 @@ SUBDIR+=	gkrellm2-share
 SUBDIR+=	gkrellm2-volume
 SUBDIR+=	gkrellm2-xmms
 SUBDIR+=	golem
+SUBDIR+=	gtetrinet2
 SUBDIR+=	gtk-sharp
 SUBDIR+=	gtkglarea2
 SUBDIR+=	httrack
