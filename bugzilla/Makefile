@@ -93,5 +93,4 @@ do-install:
 	cd ${WRKSRC}/template && ${PAX} -rw . ${BZDIR}/template
 	${CHOWN} -R ${SHAREOWN}:${SHAREGRP} ${BZDIR}/template
 
-.include "../../lang/perl5/module.mk"
 .include "../../mk/bsd.pkg.mk"
