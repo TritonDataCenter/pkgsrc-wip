@@ -1,0 +1,4 @@
+@comment $NetBSD$
+lib/pam_pop3.so
+share/doc/pam-pop3/README
+@dirrm share/doc/pam-pop3
