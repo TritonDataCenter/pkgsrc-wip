@@ -1,14 +1,14 @@
 # $NetBSD$
 #
 
-DISTNAME=		ZSNESS_0703
-PKGNAME=		zsnes-20040703
+DISTNAME=		ZSNESS_0717
+PKGNAME=		zsnes-20040717
 CATEGORIES=		emulators
-MASTER_SITES=		http://ipher.emuhost.com/files/zsnes/
+MASTER_SITES=		http://www.ipherswipsite.com/files/zsnes/
 EXTRACT_SUFX=		.tar.bz2
 
 MAINTAINER=		dillo@NetBSD.org
-HOMEPAGE=		http://www.zsnes.com/sourceforge.php
+HOMEPAGE=		http://ipherswipsite.com/zsnes/
 COMMENT=		Super NES emulator, development version
 
 BUILD_DEPENDS+=		nasm-[0-9]*:../../devel/nasm
