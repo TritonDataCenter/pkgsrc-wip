@@ -6,4 +6,4 @@ man/man8/syslogd.8
 sbin/klogd
 sbin/syslogd
 share/examples/sysklogd/syslog.conf.example
-@dirrm share/sysklogd
+@dirrm share/examples/sysklogd
