@@ -4,6 +4,7 @@
 DISTNAME=		airsnort-0.2.6
 CATEGORIES=		wip net security linux
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=airsnort/}
+PKGREVISION=		1
 
 MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://airsnort.sourceforge.net/
