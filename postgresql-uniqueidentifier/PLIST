@@ -1,0 +1,4 @@
+@comment $NetBSD$
+share/uniqueidentifier/README
+share/uniqueidentifier/uniqueidentifier.sql
+lib/postgresql/uniqueidentifier.so
