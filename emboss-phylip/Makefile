@@ -1,13 +1,16 @@
 # $NetBSD$
 #
-.include "../emboss/Makefile.common"
+
 .include "../emboss-base/Makefile.common"
+.include "../emboss/Makefile.common"
 
 DISTNAME=	PHYLIP-3.57c
 PKGNAME=	emboss-phylip-3.57c
+
 COMMENT=	A package of programs for inferring phylogenies
 
-DIST_SUBDIR=		${PKG_DISTFILES_DIR}/phylip-3.57c-20041107
+DIST_SUBDIR=		emboss/phylip-3.57c-20041107
+BUILD_TARGET=		#empty
 
 pre-configure:
 	${SED} -e 's|../../../ajax/libajax.la|${PREFIX}/lib/libajax.la|' \
@@ -16,8 +19,5 @@ pre-configure:
 		${WRKSRC}/src/Makefile.in.bak
 	${MV} ${WRKSRC}/src/Makefile.in.bak \
 	      ${WRKSRC}/src/Makefile.in
-
-do-build:
-	cd ${WRKSRC} && ${MAKE}
 
 .include "../../mk/bsd.pkg.mk"
