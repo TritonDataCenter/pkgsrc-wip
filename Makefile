@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.633 2003/11/20 17:24:32 mpasternak Exp $
+# $Id: Makefile,v 1.634 2003/11/20 20:53:19 blef Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -407,8 +407,8 @@ SUBDIR+=	py-OpenSSL
 SUBDIR+=	py-Py2Play
 SUBDIR+=	py-PythonDirector
 SUBDIR+=	py-Quotient
-SUBDIR+=	py-Reverend
 SUBDIR+=	py-RXP
+SUBDIR+=	py-Reverend
 SUBDIR+=	py-Soya
 SUBDIR+=	py-ZODB
 SUBDIR+=	py-albatross
