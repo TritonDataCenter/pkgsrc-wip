@@ -10,6 +10,7 @@ MAINTAINER=	gdt@ir.bbn.com
 HOMEPAGE=	http://search.cpan.org/~rsavage/Getopt-Simple-1.46/Simple.pm
 COMMENT=	Simple Getopt wrapper
 
+USE_BUILDLINK3=	YES
 PERL5_PACKLIST=	${PERL5_SITEARCH}/auto/Getopt/Simple/.packlist
 
 .include "../../lang/perl5/module.mk"
