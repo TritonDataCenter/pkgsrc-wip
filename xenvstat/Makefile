@@ -23,7 +23,7 @@ do-build:
 	${CC} ${CFLAGS} ${LDFLAGS} -o ${WRKSRC}/xenvstat ${WRKSRC}/xenvstat.c ${LIBS}
 
 do-install:
-	${INSTALL_PROGRAM} ${WRKSRC}/pkgclean ${PREFIX}/bin/pkgclean
+	${INSTALL_PROGRAM} ${WRKSRC}/xenvstat ${PREFIX}/bin/xenvstat
 	${INSTALL_DATA} ${WRKSRC}/Xenvstat ${PREFIX}/lib/X11/app-defaults
 
 .include "../../mk/bsd.pkg.mk"
