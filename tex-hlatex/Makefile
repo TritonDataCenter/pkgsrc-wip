@@ -12,7 +12,7 @@ MAINTAINER=	minskim@bawi.org
 HOMEPAGE=	http://ftp.ktug.or.kr/mirrors/HLaTeX/hlatex.html
 COMMENT=	LaTeX package to use Hangul (UHC/KSX1001)
 
-DEPENDS+=	teTeX{,2}-bin-[0-9]*:../../print/teTeX-bin
+DEPENDS+=	teTeX-bin-[0-9]*:../../print/teTeX-bin
 
 EXTRACT_ONLY=	${DISTNAME}${EXTRACT_SUFX}
 TEXMF=		${LOCALBASE}/share/texmf

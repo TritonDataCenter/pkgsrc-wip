@@ -10,7 +10,7 @@ MAINTAINER=	atamaniuk-pkgsrc@frobs.net
 HOMEPAGE=	http://www.xs4all.nl/~hanwen/mftrace/
 COMMENT=	Scalable PostScript (Type1) Fonts for MetaFont
 
-DEPENDS+=	teTeX2>=2.0.2:../../print/teTeX2
+DEPENDS+=	teTeX>=2.0.2:../../print/teTeX
 DEPENDS+=	autotrace>=0.31:../../graphics/autotrace
 DEPENDS+=	t1utils>=1.27:../../fonts/t1utils
 DEPENDS+=	pfaedit>=20030712:../../fonts/pfaedit

@@ -60,6 +60,6 @@ post-install:
 .include "../../wip/mftrace/buildlink2.mk"
 .include "../../lang/guile/buildlink2.mk"
 .include "../../lang/python/application.mk"
-.include "../../print/teTeX2-bin/kpathsea.buildlink2.mk"
+.include "../../print/teTeX-bin/kpathsea.buildlink2.mk"
 .include "../../mk/ghostscript.mk"
 .include "../../mk/bsd.pkg.mk"

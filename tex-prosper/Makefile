@@ -12,7 +12,7 @@ MAINTAINER=	minskim@bawi.org
 HOMEPAGE=	http://prosper.sourceforge.net/
 COMMENT=	LaTeX class for writing transparencies
 
-DEPENDS+=	teTeX{,2}-bin-[0-9]*:../../print/teTeX-bin
+DEPENDS+=	teTeX-bin-[0-9]*:../../print/teTeX-bin
 
 EXTRACT_ONLY=	${DISTNAME}${EXTRACT_SUFX}
 NO_CONFIGURE=	yes

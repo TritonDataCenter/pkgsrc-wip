@@ -12,7 +12,7 @@ MAINTAINER=	minskim@bawi.org
 HOMEPAGE=	http://www.dcarlisle.demon.co.uk/xmltex/manual.html
 COMMENT=	Non-validating XML parser implemented in TeX
 
-DEPENDS+=	teTeX{,2}-bin-[0-9]*:../../print/teTeX-bin
+DEPENDS+=	teTeX-bin-[0-9]*:../../print/teTeX-bin
 
 NO_CONFIGURE=	yes
 
