@@ -15,6 +15,10 @@ BUILDLINK_DEPENDS.allegro+=	allegro>=4.1.13
 BUILDLINK_PKGSRCDIR.allegro?=	../../wip/allegro
 .endif	# ALLEGRO_BUILDLINK3_MK
 
-.include "../../audio/esound/buildlink3.mk"
+.include "../../mk/bsd.prefs.mk"
+
+.if !empty(USE_ESOUND:M[Yy][Ee][Ss])
+  .include "../../audio/esound/buildlink3.mk"
+.endif
 
 BUILDLINK_DEPTH:=     ${BUILDLINK_DEPTH:S/+$//}
