@@ -1,0 +1,4 @@
+@comment $NetBSD$
+lib/liblualxp.so
+share/examples/lua/lxp.lua
+@dirrm share/examples/lua
