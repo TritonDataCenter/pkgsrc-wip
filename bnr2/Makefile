@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		BNR2beta-0.14.1
+DISTNAME=		BNR2beta-0.14.2
 PKGNAME=		${DISTNAME:S/BNR2beta/bnr2/}
 CATEGORIES=		news
 MASTER_SITES=		http://www.bnr2.org/
