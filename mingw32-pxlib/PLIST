@@ -1,7 +1,0 @@
-@comment $NetBSD$
-${MINGWTARGET}/include/paradox.h
-${MINGWTARGET}/include/paradox-gsf.h
-${MINGWTARGET}/include/pxversion.h
-${MINGWTARGET}/lib/libpx.a
-${MINGWTARGET}/lib/libpx.la
-${MINGWTARGET}/lib/pkgconfig/pxlib.pc

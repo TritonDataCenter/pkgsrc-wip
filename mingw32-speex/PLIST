@@ -1,8 +1,0 @@
-@comment $NetBSD$
-${MINGWTARGET}/include/speex.h
-${MINGWTARGET}/include/speex_bits.h
-${MINGWTARGET}/include/speex_callbacks.h
-${MINGWTARGET}/include/speex_header.h
-${MINGWTARGET}/include/speex_stereo.h
-${MINGWTARGET}/lib/libspeex.a
-${MINGWTARGET}/lib/libspeex-1.0.dll
