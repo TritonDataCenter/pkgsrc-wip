@@ -113,7 +113,7 @@ SMBPASSWD_FILE=		/dev/null ${SAMBA_PRIVATE}/smbpasswd		\
 SAMBA_USE_ACTIVE_DIRECTORY?=	YES
 .if defined(SAMBA_USE_ACTIVE_DIRECTORY) && ${SAMBA_USE_ACTIVE_DIRECTORY} == "YES"
 .include "../../databases/openldap/buildlink2.mk"
-.include "../../security/mit-krb5/buildlink2.mk"
+.include "../../wip/mit-krb5/buildlink2.mk"
 BUILD_DEFS+=		SAMBA_USE_ACTIVE_DIRECTORY
 CONFIGURE_ARGS+=	--with-ads
 CONFIGURE_ARGS+=	--with-ldap
