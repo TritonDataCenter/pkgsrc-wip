@@ -1,5 +1,5 @@
 @comment $NetBSD$
-bin/generateDS
+bin/generateDS${PYVERSSUFFIX}
 ${PYSITELIB}/generateDS.py
 ${PYSITELIB}/generateDS.pyc
 ${PYSITELIB}/generateDS.pyo
