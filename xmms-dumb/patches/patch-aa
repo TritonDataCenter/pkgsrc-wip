@@ -9,7 +9,7 @@ $NetBSD$
  
  $(PLUGIN_FILE): $(OBJECTS)
 -	$(CC) -o $@ $^ -ldumb -lxmms -shared
-+	$(CC) -o $@ $^ -ldumb -lxmms -shared `pkg-config gtk+ --libs`
++	$(CC) -o $@ $^ -ldumb -lxmms -shared `gtk-config --libs`
  
  $(OBJDIR)/%.o: %.c
  	$(CC) -c -o $@ $(CFLAGS) $<

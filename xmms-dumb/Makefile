@@ -17,6 +17,5 @@ USE_BUILDLINK2=		yes
 
 .include "../../wip/dumb/buildlink2.mk"
 .include "../../audio/xmms/buildlink2.mk"
-.include "../../devel/pkgconfig/buildlink2.mk"
 .include "../../mk/ossaudio.buildlink2.mk"
 .include "../../mk/bsd.pkg.mk"
