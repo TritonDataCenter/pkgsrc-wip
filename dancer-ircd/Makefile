@@ -41,7 +41,7 @@ DANCER_IRCD_NETWORK_DESCR?=	"A\ happy\ and\ sweet\ network"
 DANCER_IRCD_REALNAME?=		"my_ircd.com"
 DANCER_IRCD_LOGDIR?=		/var/log/dancer-ircd
 DANCER_IRCD_PIDDIR?=		/var/run
-DANCER_IRCD_CONFDIR?=		${PKG_SYSCONFDIR}/dancer-ircd
+DANCER_IRCD_CONFDIR?=		${PKG_SYSCONFDIR}
 
 post-extract:
 	${MV} ${WRKSRC}/include/config.h.dist ${WRKSRC}/include/config.h.dist.in
