@@ -22,7 +22,7 @@ do-build:
 
 do-install:
 	cd ${WRKDIR} && ${TAR} -cf - ${DISTNAME:C/-.*$//} | \
-		${TAR} -xf - -C ${PREFIX}/share/squirrelmail/plugins
+		${TAR} -xf - -C ${SMDIR}/plugins
 
 .include "../../mail/squirrelmail/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
