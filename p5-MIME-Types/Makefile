@@ -6,7 +6,7 @@ CATEGORIES=	mail perl5
 MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=MIME/}
 
 MAINTAINER=	adrianp@stindustries.net
-HOMEPAGE=	http://perl.overmeer.net/
+HOMEPAGE=	http://perl.overmeer.net/mimetypes/
 COMMENT=	Definition of MIME types
 
 USE_BUILDLINK2=	YES
