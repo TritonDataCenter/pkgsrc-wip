@@ -1,0 +1,5 @@
+@comment $NetBSD$
+bin/bmon
+man/man1/bmon.1
+share/examples/bmon/bmonrc
+@dirrm share/examples/bmon
