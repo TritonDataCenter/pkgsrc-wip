@@ -2,7 +2,6 @@
 bin/entropy
 bin/entropy-storechg
 share/examples/entropy/entropy.conf
-share/examples/entropy/node/7x14.bdf.gz
 share/examples/entropy/node/background.png
 share/examples/entropy/node/bar.png
 share/examples/entropy/node/font8x13.txt
