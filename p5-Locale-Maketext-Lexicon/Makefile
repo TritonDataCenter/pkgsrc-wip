@@ -10,7 +10,10 @@ MAINTAINER=		dieter.NetBSD@pandora.be
 HOMEPAGE=		http://www.autrijus.org/webl10n/
 COMMENT=		Use other catalog formats in Maketext
 
-USE_BUILDLINK2=		yes
+PKG_INSTALLATION_TYPES=	overwrite pkgviews
+
+USE_BUILDLINK3=		yes
+USE_LANGUAGES=		# empty
 PERL5_PACKLIST=		${PERL5_SITEARCH}/auto/Locale/Maketext/Lexicon/.packlist
 
 .include "../../lang/perl5/module.mk"
