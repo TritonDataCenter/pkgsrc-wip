@@ -10,7 +10,6 @@ HOMEPAGE=	http://www.maradns.org/
 COMMENT=	Secure DNS server for *NIX systems
 
 USE_PKGINSTALL=	YES
-
 RCD_SCRIPTS=	maradns
 
 EGDIR=		${PREFIX}/share/examples/maradns

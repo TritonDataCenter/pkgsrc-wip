@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	umix-0.9.2
+DISTNAME=	umix-1.0
 CATEGORIES=	audio
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=umix/}
 

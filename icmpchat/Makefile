@@ -8,6 +8,6 @@ MAINTAINER=	pancake@phreaker.net
 HOMEPAGE=	http://icmpchat.sourceforge.net/
 COMMENT=	Simple chat using ICMP and Rijndael-256 encryptation
 
-#USE_GMAKE=	yes
+USE_GMAKE=	yes
 
 .include	"../../mk/bsd.pkg.mk"
