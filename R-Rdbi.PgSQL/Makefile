@@ -16,7 +16,6 @@ R_PKGNAME=      Rdbi.PgSQL
 R_PKGVER=       0.1-2
 
 DEPENDS+=	R-Rdbi>=0.1.2:../../wip/R-Rdbi
-DEPENDS+=	postgresql74-lib>=7.4.3:../../databases/postgresql74-lib
 
 WRKSRC=		${WRKDIR}/Rdbi.PgSQL
 MAKE_ENV=	PREFIX=${PREFIX}
@@ -29,4 +28,5 @@ post-patch:
 	${CHMOD} 755 ${WRKSRC}/configure
 	
 .include "../../math/R/Makefile.extension"
+.include "../../mk/pgsql.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
