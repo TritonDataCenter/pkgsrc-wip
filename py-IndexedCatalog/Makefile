@@ -11,8 +11,8 @@ HOMEPAGE=		http://async.com.br/projects/IndexedCatalog/
 COMMENT=		Indexed Catalog extension for standalone ZODB
 
 USE_BUILDLINK3=		yes
-PY_PATCHPLIST=		yes
 PYDISTUTILSPKG=		yes
+PYBINMODULE=		yes
 
 .include "../../lang/python/extension.mk"
 .include "../../databases/py-ZODB/buildlink3.mk"
