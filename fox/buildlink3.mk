@@ -12,7 +12,7 @@ BUILDLINK_PACKAGES+=	fox
 
 .if !empty(FOX_BUILDLINK3_MK:M+)
 BUILDLINK_DEPENDS.fox+=	fox>=1.2.9
-BUILDLINK_PKGSRCDIR.fox?=	../../wip/fox.import
+BUILDLINK_PKGSRCDIR.fox?=	../../wip/fox
 .endif	# FOX_BUILDLINK3_MK
 
 .include "../../graphics/jpeg/buildlink3.mk"
