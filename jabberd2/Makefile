@@ -33,12 +33,11 @@ OWN_DIRS=		/var/log/jabberd
 OWN_DIRS+=		/var/db/jabberd
 
 post-extract:
+
+.for f in ${FILES}
+	${MV} ${WRKSRC}/etc/${f}.xml.dist.in ${WRKSRC}/etc/${f}.xml.in
+.endfor
 	${MV} ${WRKSRC}/etc/jabberd.cfg.dist.in ${WRKSRC}/etc/jabberd.cfg.in
-	${MV} ${WRKSRC}/etc/c2s.xml.dist.in ${WRKSRC}/etc/c2s.xml.in
-	${MV} ${WRKSRC}/etc/router.xml.dist.in ${WRKSRC}/etc/router.xml.in 
-	${MV} ${WRKSRC}/etc/resolver.xml.dist.in ${WRKSRC}/etc/resolver.xml.in
-	${MV} ${WRKSRC}/etc/s2s.xml.dist.in ${WRKSRC}/etc/s2s.xml.in
-	${MV} ${WRKSRC}/etc/sm.xml.dist.in ${WRKSRC}/etc/sm.xml.in
 
 pre-configure:
 
