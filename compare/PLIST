@@ -1,0 +1,5 @@
+@comment $NetBSD$
+bin/compare
+man/man1/compare.1
+man/man4/makefiles.4
+man/man4/makerules.4
