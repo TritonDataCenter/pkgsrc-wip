@@ -12,6 +12,8 @@ PLIST_SRC=	${.CURDIR}/../elvis/PLIST.common
 PATCHDIR=	${.CURDIR}/../elvis/patches
 DISTINFO_FILE=	${.CURDIR}/../elvis/distinfo
 
+USE_BUILDLINK2=		YES
+
 HAS_CONFIGURE=		YES
 CONFIGURE_ARGS+=	--prefix=${PREFIX}
 CONFIGURE_ARGS+=	--docdir=${PREFIX}/share/doc/elvis
