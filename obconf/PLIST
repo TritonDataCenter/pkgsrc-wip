@@ -1,0 +1,4 @@
+@comment $NetBSD$
+bin/obconf
+share/obconf/obconf.glade
+@dirrm share/obconf
