@@ -51,7 +51,7 @@ CONFIGURE_ARGS+=	--disable-screensaver
 .include "../../devel/pkgconfig/buildlink3.mk"
 .include "../../devel/silc-toolkit/buildlink3.mk"
 .include "../../wip/nss/buildlink3.mk"
-.include "../../wip/nspr/buildlink3.mk"
+.include "../../devel/nspr/buildlink3.mk"
 .include "../../textproc/gtkspell/buildlink3.mk"
 .include "../../x11/gtk2/buildlink3.mk"
 .include "../../x11/startup-notification/buildlink3.mk"

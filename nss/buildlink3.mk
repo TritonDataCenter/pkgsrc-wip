@@ -16,6 +16,6 @@ BUILDLINK_RECOMMENDED.nss+=	nss>=3.9.2
 BUILDLINK_PKGSRCDIR.nss?=	../../wip/nss
 .endif  # NSS_BUILDLINK3_MK
 
-.include "../../wip/nspr/buildlink3.mk"
+.include "../../devel/nspr/buildlink3.mk"
 
 BUILDLINK_DEPTH:=     ${BUILDLINK_DEPTH:S/+$//}

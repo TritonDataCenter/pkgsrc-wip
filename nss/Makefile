@@ -47,7 +47,7 @@ SCRIPTS_ENV+=		OS_VERSION=${OS_VERSION:Q}
 do-install:
 	${SETENV} ${SCRIPTS_ENV} ${SH} ${FILESDIR}/nss-install
 
-.include "../../wip/nspr/buildlink3.mk"
+.include "../../devel/nspr/buildlink3.mk"
 .include "../../mk/pthread.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
 
