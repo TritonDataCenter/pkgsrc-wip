@@ -23,7 +23,7 @@ BUILDLINK_ENV+=$PATH:=${BUILDLINK_PREFIX.gccAda-3.4.0}:${PATH}
 
 # Packages that link against shared libraries need a full dependency.
 .  if defined(USE_GCC_SHLIB)
-BUILDLINK_DEPMETHOD.gccAda+=	full
+BUILDLINK_DEPMETHOD.gccAda?=	full
 .  else
 BUILDLINK_DEPMETHOD.gccAda?=	build
 .  endif

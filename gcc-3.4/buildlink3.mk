@@ -25,7 +25,7 @@ BUILDLINK_ENV+=$PATH:=${BUILDLINK_PREFIX.gcc-3.4.0}:${PATH}
 
 # Packages that link against shared libraries need a full dependency.
 .  if defined(USE_GCC_SHLIB)
-BUILDLINK_DEPMETHOD.gcc-3.4.0+= full
+BUILDLINK_DEPMETHOD.gcc-3.4.0?= full
 .  else
 BUILDLINK_DEPMETHOD.gcc-3.4.0?= build
 .  endif
