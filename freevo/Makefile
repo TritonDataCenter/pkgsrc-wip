@@ -9,7 +9,7 @@ MAINTAINER=		dotz@irc.pl
 HOMEPAGE=		http://freevo.sourceforge.net/
 COMMENT=		Fancy-lookging digital video jukebox
 
-DEPENDS+=		mplayer>=1.0rc3:../../graphics/mplayer
+DEPENDS+=		mplayer>=1.0rc3:../../multimedia/mplayer
 
 USE_BUILDLINK2=		yes
 PY_PATCHPLIST=		yes
