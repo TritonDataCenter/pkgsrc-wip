@@ -7,7 +7,7 @@ MASTER_SITES=   http://quasar.mathstat.uottawa.ca/~selinger/ccrypt/download/
 
 MAINTAINER=	poff@sixbit.org
 HOMEPAGE=	http://quasar.mathstat.uottawa.ca/~selinger/ccrypt/
-COMMENT=	encrypts/decrypts files using Rijndael block cipher
+COMMENT=	Encrypts/decrypts files using Rijndael block cipher
 
 GNU_CONFIGURE=	yes
 
