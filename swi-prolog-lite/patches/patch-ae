@@ -1,0 +1,13 @@
+$NetBSD$
+
+--- src/configure.orig	Sat Oct  4 14:12:34 2003
++++ src/configure
+@@ -1302,7 +1302,7 @@ fi
+ EXTRAOBJ=""
+ EXTRAHDR=""
+ INSTALLTARGET=dv-install
+-PL=pl
++#PL=pl
+ PLLIB=libpl.a
+ RT=""
+ PLVERSION=`cat ../VERSION`
