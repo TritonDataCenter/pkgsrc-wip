@@ -8,6 +8,7 @@
 . /etc/rc.subr
 
 name="exim"                      
+exim_flags=${exim_flags-"-bd -q30m"}
 rcvar=$name         
 command="@PREFIX@/sbin/${name}"
 pidfile="/var/run/${name}.pid"
