@@ -1,6 +1,6 @@
 # $NetBSD:$
 
-DISTNAME=	guile-gnome-platform-2.7.95
+DISTNAME=	guile-gnome-platform-2.7.96
 CATEGORIES=	devel
 MASTER_SITES=	http://download.gna.org/guile-gnome/releases/
 
