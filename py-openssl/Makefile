@@ -10,16 +10,11 @@ MAINTAINER=	goteki@users.sourceforge.net
 HOMEPAGE=	http://pyopenssl.sourceforge.net/
 COMMENT=	Python OpenSSL framework
 
-PYTHON_VERSIONS_ACCEPTED=23pth 22pth
+PYTHON_VERSIONS_ACCEPTED=	24pth 23pth 22pth
 
-PY_PATCHPLIST= 	yes
 USE_BUILDLINK3= yes
-
-do-build:
-	(cd ${WRKSRC} && ${PYTHONBIN} setup.py build)
-
-do-install:
-	(cd ${WRKSRC} && ${PYTHONBIN} setup.py install)
+PYDISTUTILSPKG=	yes
+PYBINMODULE=	yes
 
 .include "../../lang/python/extension.mk"
 .include "../../mk/pthread.buildlink3.mk"
