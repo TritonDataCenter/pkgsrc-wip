@@ -1,0 +1,4 @@
+@comment $NetBSD$
+bin/rtorrent
+share/doc/rtorrent/README
+@dirrm share/doc/rtorrent
