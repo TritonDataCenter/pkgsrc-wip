@@ -15,6 +15,7 @@ PY_PATCHPLIST=		yes
 PYDISTUTILSPKG=		yes
 
 DEPENDS+=		${PYPKGPREFIX}-Twisted>=1.1.0:../../wip/py-twisted
+DEPENDS+=		${PYPKGPREFIX}-bsddb3>=4.1.1:../../databases/py-bsddb3
 
 .include "../../lang/python/extension.mk"
 .include "../../mk/bsd.pkg.mk"
