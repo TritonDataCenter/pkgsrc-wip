@@ -1,0 +1,6 @@
+@comment $NetBSD$
+sbin/portmap
+sbin/pmap_dump
+sbin/pmap_set
+share/doc/portmap/README
+@dirrm share/doc/portmap
