@@ -3,7 +3,8 @@
 
 DISTNAME=		asterisk-1.0.4
 CATEGORIES=		wip
-MASTER_SITES=		ftp://ftp.asterisk.org/pub/asterisk/
+MASTER_SITES=		ftp://ftp.asterisk.org/pub/asterisk/ \
+			ftp://ftp.asterisk.org/pub/asterisk/old-releases/
 
 MAINTAINER=		riz@tastylime.net
 HOMEPAGE=		http://www.asterisk.org/
