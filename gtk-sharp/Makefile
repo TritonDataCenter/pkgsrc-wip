@@ -40,7 +40,6 @@ pre-configure:
 .include "../../devel/libgnomeui/buildlink3.mk"
 .include "../../devel/pkgconfig/buildlink3.mk"
 .include "../../graphics/libart2/buildlink3.mk"
-.include "../../graphics/libgdiplus/buildlink3.mk"
 .include "../../graphics/libgnomecanvas/buildlink3.mk"
 .include "../../graphics/librsvg2/buildlink3.mk"
 .include "../../lang/mono/buildlink3.mk"
