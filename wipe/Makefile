@@ -10,6 +10,8 @@ MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://wipe.sourceforge.net/
 COMMENT=		Secure data destruction
 
+PKG_INSTALLATION_TYPES=	overwrite pkgviews
+
 USE_BUILDLINK3=		yes
 GNU_CONFIGURE=		yes
 
