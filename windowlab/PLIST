@@ -1,0 +1,4 @@
+@comment $NetBSD$
+bin/windowlab
+etc/windowlab/menurc
+man/man1/windowlab.1
