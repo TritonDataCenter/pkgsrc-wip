@@ -23,8 +23,7 @@ PATH:=			${CROSSBASE}/bin:${PATH}
 
 CONFIGURE_ARGS+=	--prefix=${PREFIX} --exec-prefix=${PREFIX} \
 			--target=${MINGW_TARGET} \
-			--enable-languages="c++" --enable-languages="objc" \
-			--enable-languages="c"
+			--enable-languages=c++, objc
 
 do-build:
 	cd ${WRKSRC} && ${SETENV} ${MAKE_ENV} ${MAKE} ${MAKE_FLAGS}
