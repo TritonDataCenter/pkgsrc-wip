@@ -23,4 +23,6 @@ BUILDLINK_DEPENDS.db4=  db4>=4.0
 .endif
 
 .include "../../x11/wxGTK/buildlink2.mk"
+
+.include "../../mk/pthread.buildlink2.mk"
 .include "../../mk/bsd.pkg.mk"
