@@ -33,8 +33,4 @@ CONFIGURE_ARGS+=--enable-ipv6
 CONFIGURE_ARGS+=--enable-ftp
 .endif
 
-.if defined(PHP5_WITH_XML) && ${PHP5_WITH_XML} == "YES"
 .include "../../textproc/libxml2/buildlink2.mk"
-.else
-CONFIGURE_ARGS+=--disable-libxml
-.endif
