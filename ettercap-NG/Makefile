@@ -56,7 +56,7 @@ post-install:
 
 .include "../../security/openssl/buildlink3.mk"
 .include "../../devel/ncurses/buildlink3.mk"
-.include "../../wip/libnet11/buildlink3.mk"
+.include "../../devel/libnet11/buildlink3.mk"
 .include "../../net/libpcap/buildlink3.mk"
 .include "../../devel/pcre/buildlink3.mk"
 .include "../../mk/pthread.buildlink3.mk"
