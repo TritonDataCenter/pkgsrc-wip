@@ -17,11 +17,11 @@ EXAMPLESDIR=	${PREFIX}/share/examples/weewm
 DOCDIR=		${PREFIX}/share/doc/weewm
 
 do-install:
-	${INSTALL_DATA_DIR} ${EXAMPLESDIR}
-	${INSTALL_DATA_DIR} ${DOCDIR}
+	${INSTALL_DATA_DIR} ${EXAMPLESDIR} ${DOCDIR}
 	${INSTALL_PROGRAM} ${WRKSRC}/weewm ${PREFIX}/bin
 	${INSTALL_DATA} ${WRKSRC}/keys.rc ${EXAMPLESDIR}
-	${INSTALL_DATA} ${WRKSRC}/README ${WRKSRC}/INSTALL ${WRKSRC}/FAQ \
-		${DOCDIR}
+	( cd ${WRKSRC} && for file in README FAQ INSTALL; do \
+		${INSTALL_DATA} $$file ${DOCDIR}; \
+	done )
 
 .include "../../mk/bsd.pkg.mk"
