@@ -1,2 +1,0 @@
-@comment $NetBSD$
-bin/${GNU_PROGRAM_PREFIX}time
