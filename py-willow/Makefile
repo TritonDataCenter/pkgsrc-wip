@@ -8,7 +8,7 @@ MASTER_SITES=		http://www.digitallumber.com/TAR/
 
 MAINTAINER=		dotz@irc.pl
 HOMEPAGE=		http://www.digitallumber.com/
-COMMENT=		Content-filtering proxy server 
+COMMENT=		Content-filtering proxy server
 
 USE_BUILDLINK2=		yes
 PY_PATCHPLIST=		yes

@@ -26,7 +26,7 @@ do-install:
 	${INSTALL_DATA_DIR} ${PREFIX}/share/examples/smtprc
 	${INSTALL_PROGRAM} ${WRKSRC}/smtprc ${PREFIX}/bin
 	${INSTALL_DATA} ${WRKSRC}/auto.conf ${PREFIX}/share/examples/smtprc
-	${INSTALL_DATA} ${WRKSRC}/email.tmpl ${PREFIX}/share/examples/smtprc 
+	${INSTALL_DATA} ${WRKSRC}/email.tmpl ${PREFIX}/share/examples/smtprc
 	${INSTALL_DATA} ${WRKSRC}/rcheck.conf ${PREFIX}/share/examples/smtprc
 	${INSTALL_DATA} ${WRKSRC}/README ${PREFIX}/share/doc/smtprc
 	${INSTALL_DATA} ${WRKSRC}/FAQ ${PREFIX}/share/doc/smtprc

@@ -49,7 +49,7 @@ do-install:
 		${PREFIX}/share/php-jpgraph/utils/jpdocgen
 	${INSTALL_DATA} ${WRKSRC}/src/utils/jpdocgen/*.css \
 		${PREFIX}/share/php-jpgraph/utils/jpdocgen
-	
+
 	${INSTALL_DATA} ${WRKSRC}/QPL.txt ${PREFIX}/share/doc/php-jpgraph
 	cd ${WRKSRC}/docs && ${PAX} -rw . ${PREFIX}/share/doc/php-jpgraph
 

@@ -6,7 +6,7 @@ CATEGORIES=		sysutils
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=rox/}
 EXTRACT_SUFX=	.tgz
 
-MAINTAINER=	    froz@icix.org	
+MAINTAINER=	    froz@icix.org
 HOMEPAGE=		http://rox.sourceforge.net/
 COMMENT=		RISC OS-like filer for X
 
@@ -19,7 +19,7 @@ CONFIGURE_ARGS+=    --with-platform="src"
 TYPE_FILE= ${WRKSRC}/type.c
 post-patch:
 	${MV} ${TYPE_FILE} ${TYPE_FILE}.pre
-	${SED} -e "s:@PREFIX@:"${PREFIX}":g" ${TYPE_FILE}.pre > ${TYPE_FILE} 
+	${SED} -e "s:@PREFIX@:"${PREFIX}":g" ${TYPE_FILE}.pre > ${TYPE_FILE}
 	${SED} -e "s:@PREFIX@:"${PREFIX}":g" ${FILESDIR}/rox > \
 		${WRKDIR}/${DISTNAME}/rox
 

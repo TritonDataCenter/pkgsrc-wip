@@ -23,7 +23,7 @@ pre-install:
 	@${SED} -e 's#@PREFIX@#${PREFIX}#g' \
 		-e 's#@PKG_SYSCONFDIR@#${PKG_SYSCONFDIR}#g' \
 		< ${WRKSRC}/gsmtprc > ${WRKSRC}/gsmtprc.new
-	
+
 do-install:
 	${INSTALL_SCRIPT} ${WRKSRC}/gsmtprc.new ${PREFIX}/bin/gsmtprc
 	${INSTALL_MAN} ${WRKSRC}/gsmtprc.1 ${PREFIX}/man/man1

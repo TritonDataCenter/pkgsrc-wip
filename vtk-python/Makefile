@@ -21,7 +21,7 @@ VTK_PY_LIBS=	bin/libvtkCommonPython.so \
 
 do-build:
 	cd ${WRKSRC} && ${MAKE} default_target_Wrapping_Python
-	 	 
+
 do-install:
 	for lib in ${VTK_PY_LIBS}; do \
 		${INSTALL_PROGRAM} ${WRKSRC}/$$lib ${VTK_LIBDIR}; \

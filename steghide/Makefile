@@ -7,7 +7,7 @@ MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=steghide/}
 
 MAINTAINER=		adam@monkeybyte.org
 HOMEPAGE=		http://steghide.sourceforge.net/
-COMMENT=		steganography program that is able to hide data 
+COMMENT=		steganography program that is able to hide data
 
 DEPENDS+=	mcrypt-*:../../security/mcrypt
 
