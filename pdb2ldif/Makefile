@@ -9,7 +9,7 @@ MAINTAINER=	tech-pkg@NetBSD.org
 HOMEPAGE=	http://www.uslinux.net/software/pkginfo.php?pkg=pdb2ldif
 COMMENT=	Converts Palm Address Book PDB files into an LDAP-usable LDIF file
 
-DEPENDS+=	p5-Palm>=1.3.0:../../devel/p5-Palm
+DEPENDS+=	p5-Palm>=1.3.0:../../databases/p5-Palm
 
 NO_BUILD=	YES
 USE_BUILDLINK3=	YES
