@@ -15,6 +15,7 @@ DEPENDS+=	autotrace>=0.31:../../graphics/autotrace
 DEPENDS+=	t1utils>=1.27:../../fonts/t1utils
 DEPENDS+=	pfaedit>=20030712:../../fonts/pfaedit
 
+USE_BUILDLINK2=	yes
 GNU_CONFIGURE=	yes
 USE_GMAKE=	yes
 MAKEFILE=	GNUmakefile
@@ -24,6 +25,7 @@ CONFIGURE_ENV+= PYTHON=${PYTHONBIN}
 
 PYTHON_VERSIONS_ACCEPTED= 20 21 23 # 22 has some regular expression problem
 PY_PATCHPLIST=  YES
+PLIST_SUBST+=   PYINC=${PYINC} PYSITELIB=${PYSITELIB}
 
 MANPREFIX?=	${PREFIX}
 
