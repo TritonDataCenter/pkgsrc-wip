@@ -9,4 +9,8 @@ wip/foo
 net/bar
 www/foobar-devel
 
+or invoke pkg_notify this way :
+
+$ pkg_notify category/foo another/bar and/so-on
+
 ===========================================================================
