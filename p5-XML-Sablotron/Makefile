@@ -13,8 +13,8 @@ COMMENT=	Perl interface to the Sablotron XSLT processor
 DEPENDS+=	p5-XML-DOM>=1.25:../../textproc/p5-XML-DOM
 DEPENDS+=	p5-XML-Parser>=2.23:../../textproc/p5-XML-Parser
 
-EXPATLIBPATH=	${LOCALBASE}/lib
-EXPATINCPATH=	${LOCALBASE}/include
+EXPATLIBPATH=	${BUILDLINK_PREFIX.expat}/lib
+EXPATINCPATH=	${BUILDLINK_PREFIX.expat}/include
 SABLOTLIBPATH=	${LOCALBASE}/lib
 SABLOTINCPATH=	${LOCALBASE}/include
 
@@ -30,6 +30,7 @@ post-patch:
 	-e "s|^\(my \$$sablot_incpath = '\)\(';\)$$|\1${SABLOTINCPATH}\2|" \
 	${WRKSRC}/Makefile.PL.orig > ${WRKSRC}/Makefile.PL
 
+.include "../../textproc/expat/buildlink3.mk"
 .include "../../textproc/sablotron/buildlink3.mk"
 .include "../../lang/perl5/module.mk"
 .include "../../mk/bsd.pkg.mk"
