@@ -9,11 +9,9 @@ MAINTAINER=		algernon@bonehunter.rulez.org
 HOMEPAGE=		http://bonehunter.rulez.org/Thy.phtml
 COMMENT=		Tiny and fast HTTP daemon
 
-BUILD_DEPENDS+=		bison-[0-9]*:../../devel/bison
-BUILD_DEPENDS+=		flex-[0-9]*:../../devel/flex
 BUILD_DEFS+=		USE_INET6
 GNU_CONFIGURE=		yes
-USE_GNU_TOOLS+=		make
+USE_GNU_TOOLS+=		make lex yacc
 USE_BUILDLINK3=		yes
 USE_PKGINSTALL=		yes
 
