@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.1304 2004/06/01 03:03:04 cetrox Exp $
+# $Id: Makefile,v 1.1305 2004/06/01 16:44:11 ianharding Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -25,6 +25,7 @@ SUBDIR+=	amap
 SUBDIR+=	amavisd-new
 SUBDIR+=	amsn
 SUBDIR+=	aolserver
+SUBDIR+=	aolserver4
 SUBDIR+=	ap-auth-mysql
 SUBDIR+=	ap-bunzip2
 SUBDIR+=	ap-frontpage
