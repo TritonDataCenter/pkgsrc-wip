@@ -41,13 +41,15 @@ do-test:
 		${ECHO} dejagnu is required for the test target;	\
 	fi
 
-.if !empty(USE_GCC_34:M[Yy][Ee][Ss])
-.  include "../../wip/gcc-3.4/buildlink3.mk"
 pre-configure:
-.  include "../../wip/gcc-3.4/preconfigure.mk"
 	cd ${WRKSRC}/gdb; ${AUTOCONF}
+.if !empty(USE_GCC_34:M[Yy][Ee][Ss])
+.  include "../../wip/gcc-3.4/preconfigure.mk"
 .endif
 
+.if !empty(USE_GCC_34:M[Yy][Ee][Ss])
+.include "../../wip/gcc-3.4/buildlink3.mk"
+.endif
 .include "../../mk/autoconf.mk"
 .include "../../devel/gettext-lib/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
