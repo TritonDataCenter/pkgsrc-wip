@@ -16,5 +16,5 @@ GNU_CONFIGURE=	yes
 .include "../../x11/gtk/buildlink2.mk"
 .include "../../textproc/libxml2/buildlink2.mk"
 .include "../../graphics/png/buildlink2.mk"
-.include "../../emulators/libspectrum/buildlink2.mk"
+.include "../libspectrum/buildlink2.mk"
 .include "../../mk/bsd.pkg.mk"

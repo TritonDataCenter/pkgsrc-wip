@@ -14,5 +14,5 @@ USE_X11=	yes
 GNU_CONFIGURE=	yes
 
 .include "../../devel/glib/buildlink2.mk"
-.include "../../emulators/libspectrum/buildlink2.mk"
+.include "../libspectrum/buildlink2.mk"
 .include "../../mk/bsd.pkg.mk"
