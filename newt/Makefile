@@ -6,7 +6,7 @@ CATEGORIES=		devel
 MASTER_SITES=		http://download.fedora.redhat.com/pub/fedora/linux/core/development/SRPMS/
 EXTRACT_SUFX=		# empty
 
-MAINTAINER=		riz@tastylime.net
+MAINTAINER=		riz@netbsd.org
 HOMEPAGE=		# empty
 COMMENT=		Windowing toolkit based on libslang
 
