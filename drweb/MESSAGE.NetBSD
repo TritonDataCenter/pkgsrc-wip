@@ -1,7 +1,0 @@
-===========================================================================
-$NetBSD$
-
-WARNING!!! Be sure having compiled kernel with following option:
-  options	COMPAT_FREEBSD	# binary compatibility with FreeBSD
-
-===========================================================================
