@@ -10,7 +10,7 @@ HOMEPAGE=		http://httpd.apache.org/
 COMMENT=		Apache HTTP (Web) server benchmarking tool
 
 BUILD_DEFS+=		USE_INET6
-USE_BUILDLINK2=		YES
+USE_BUILDLINK3=		YES
 USE_PKGINSTALL=		YES
 #USE_LIBTOOL=		YES
 GNU_CONFIGURE=		YES
@@ -30,5 +30,5 @@ do-install:
 	${INSTALL_MAN} ${WRKSRC}/docs/man/ab.8 ${PREFIX}/man/man8/apachebench2.8
 
 .include "../../www/apache2/Makefile.common"
-.include "../../security/openssl/buildlink2.mk"
+.include "../../security/openssl/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
