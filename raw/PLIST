@@ -1,4 +1,0 @@
-@comment $NetBSD$
-bin/raw
-share/doc/raw/README
-@dirrm share/doc/raw
