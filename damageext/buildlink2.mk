@@ -17,7 +17,6 @@ BUILDLINK_PREFIX.damageext_DEFAULT=	${LOCALBASE}
 BUILDLINK_FILES.damageext+=	include/X11/extensions/damageproto.h
 BUILDLINK_FILES.damageext+=	include/X11/extensions/damagewire.h
 
-
 BUILDLINK_TARGETS+=	damageext-buildlink
 
 damageext-buildlink: _BUILDLINK_USE

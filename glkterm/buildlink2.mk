@@ -46,5 +46,4 @@ glkterm-glk:
 		${LN} -s ${BUILDLINK_DIR}/lib/libglkterm.a ${BUILDLINK_DIR}/lib/libglk.so; \
 	fi
 
-
 .endif	# GLKTERM_BUILDLINK2_MK

@@ -16,7 +16,6 @@ EVAL_PREFIX+=	BUILDLINK_PREFIX.resourceext=resourceext
 BUILDLINK_PREFIX.resourceext_DEFAULT=	${LOCALBASE}
 BUILDLINK_FILES.resourceext+=	include/X11/extensions/XResproto.h
 
-
 BUILDLINK_TARGETS+=	resourceext-buildlink
 
 resourceext-buildlink: _BUILDLINK_USE

@@ -43,5 +43,4 @@ gtkglk-glk:
 		${LN} -s ${BUILDLINK_DIR}/lib/libgtkglk.so ${BUILDLINK_DIR}/lib/libglk.so; \
 	fi
 
-
 .endif	# GTKGLK_BUILDLINK2_MK
