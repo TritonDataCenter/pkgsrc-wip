@@ -18,7 +18,7 @@ SHLIBTOOL_OVERRIDE=	libtool
 # Ensure we export symbols in the linked shared object.
 LDFLAGS+=		${EXPORT_SYMBOLS_LDFLAGS}
 
-pre-install:
+do-install:
 	if [ -f ${WRKSRC}/libs/libphp5.so ]; then		\
 		${INSTALL_DATA} ${WRKSRC}/libs/libphp5.so	\
 			${PREFIX}/lib/httpd/mod_php5.so;        \
