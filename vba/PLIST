@@ -1,5 +1,0 @@
-@comment $NetBSD$
-bin/TestEmu
-bin/VisualBoyAdvance
-share/doc/vba/README
-@dirrm share/doc/vba
