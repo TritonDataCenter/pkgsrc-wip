@@ -14,7 +14,7 @@ DIST_SUBDIR=		${PKGNAME}
 USE_BUILDLINK3=		YES
 USE_JAVA2=		YES
 USE_JAVA=		run
-PKG_JVM_DEFAULT=	sun-jdk
+PKG_JVMS_ACCEPTED=	blackdown-jdk13 kaffe sun-jdk13 sun-jdk14
 
 do-build:
 	${SED}	-e "s#@PKG_JAVA_HOME@#${PKG_JAVA_HOME}#g"	\
