@@ -10,9 +10,9 @@ MAINTAINER=     recht@NetBSD.org
 HOMEPAGE=       http://www.koffice.org/
 COMMENT=	Language pack for KOffice
 
-USE_BUILDLINK2=		YES
+USE_BUILDLINK3=		YES
 GNU_CONFIGURE=		YES
 USE_GNU_TOOLS+=		make
 
-.include "../../misc/koffice/buildlink2.mk"
+.include "../../misc/koffice/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
