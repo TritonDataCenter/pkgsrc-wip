@@ -10,7 +10,6 @@ MAINTAINER=	obata@lins.jp
 HOMEPAGE=	http://linux-igd.sourceforge.net/
 COMMENT=	Linux UPnP Internet Gateway Device
 
-USE_BUILDLINK3=	yes
 USE_LANGUAGES=	c c++
 USE_PKGINSTALL=	yes
 USE_GNU_TOOLS+= make

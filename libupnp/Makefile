@@ -10,7 +10,6 @@ MAINTAINER=	obata@lins.jp
 HOMEPAGE=	http://upnp.sourceforge.net/
 COMMENT=	Linux SDK for UPnP Devices
 
-USE_BUILDLINK3=	yes
 USE_PKGINSTALL=	yes
 USE_GNU_TOOLS+= make
 

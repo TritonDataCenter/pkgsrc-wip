@@ -9,7 +9,6 @@ MAINTAINER=	obata@lins.jp
 HOMEPAGE=	http://namazu.org/~satoru/zphoto/
 COMMENT=	Flash-based photo album generator
 
-USE_BUILDLINK3=		yes
 USE_X11=		yes
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes

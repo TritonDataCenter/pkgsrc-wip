@@ -14,7 +14,6 @@ DEPENDS=	win32-codecs>=010122:../../multimedia/win32-codecs
 .endif
 
 USE_X11=		YES
-USE_BUILDLINK3=		YES
 USE_GNU_TOOLS+=		make
 USE_LIBTOOL=		YES
 USE_LANGUAGE+=		c c++ fortran
