@@ -198,6 +198,7 @@ lib/scons/SCons/__init__.py
 lib/scons/SCons/__init__.pyc
 lib/scons/SCons/exitfuncs.py
 lib/scons/SCons/exitfuncs.pyc
+man/man1/scons.1
 @dirrm lib/scons/SCons/Tool
 @dirrm lib/scons/SCons/Sig
 @dirrm lib/scons/SCons/Script

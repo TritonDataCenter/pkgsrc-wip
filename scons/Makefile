@@ -12,5 +12,8 @@ COMMENT=		build system, written in Python
 PYDISTUTILSPKG=		yes
 USE_BUILDLINK2=		yes
 
+post-install:
+	${INSTALL_MAN} ${WRKSRC}/scons.1 ${PREFIX}/man/man1
+
 .include "../../lang/python/extension.mk"
 .include "../../mk/bsd.pkg.mk"
