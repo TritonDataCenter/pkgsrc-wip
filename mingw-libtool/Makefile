@@ -28,6 +28,7 @@ do-build:
 	cd ${WRKSRC} && ${CAT} ${.CURDIR}/files/patch-aa | ${PATCH} -p0
 
 do-install:
+	${INSTALL_SCRIPT} ${WRKSRC}/libtool ${CROSSBASE}/${MINGWTARGET}/bin/libtool-static
 	${INSTALL_SCRIPT} ${WRKSRC}/libtool ${CROSSBASE}/${MINGWTARGET}/bin
 
 .include "../../wip/mingw/Makefile.common"
