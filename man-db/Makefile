@@ -25,7 +25,7 @@ MAN_DB_USER?=		man-db
 PKG_USERS=		${MAN_DB_USER}:${ROOT_GROUP}::man-db\\ user:${MAN_DB_CAT_DIR}
 USE_PKGINSTALL=		YES
 
-USE_BUILDLINK2=		YES
+USE_BUILDLINK3=		YES
 USE_PKGLOCALEDIR=	YES
 GNU_CONFIGURE=		YES
 USE_GNU_TOOLS+=		make
@@ -44,7 +44,7 @@ pre-install:
 	${INSTALL_DATA_DIR} ${PREFIX}/share/examples/man-db
 	${INSTALL_DATA} ${WRKSRC}/src/man_db.conf ${PREFIX}/share/examples/man-db
 
-.include "../../databases/db/buildlink2.mk"
-.include "../../devel/gettext-lib/buildlink2.mk"
+.include "../../databases/db/buildlink3.mk"
+.include "../../devel/gettext-lib/buildlink3.mk"
 
 .include "../../mk/bsd.pkg.mk"
