@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.461 2003/09/17 16:30:15 xtraeme Exp $
+# $Id: Makefile,v 1.462 2003/09/17 16:47:17 xtraeme Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -133,6 +133,7 @@ SUBDIR+=	gkrellm2-share
 SUBDIR+=	gkrellm2-snmp
 SUBDIR+=	gkrellm2-volume
 SUBDIR+=	gkrellm2-xmms
+SUBDIR+=	gkrellmlaunch
 SUBDIR+=	gl-117
 SUBDIR+=	glaxium
 SUBDIR+=	gnome2-extras
