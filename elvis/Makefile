@@ -1,8 +1,8 @@
 # $NetBSD$
 #
 
-PKGNAME=        elvis-2.1.4
 DISTNAME=	elvis-2.1_4
+PKGNAME=        elvis-2.1.4
 CATEGORIES=	editors
 MASTER_SITES=	ftp://ftp.cs.pdx.edu/pub/elvis/
 
