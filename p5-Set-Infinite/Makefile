@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=		Set-Infinite-0.49
+DISTNAME=		Set-Infinite-0.57
 PKGNAME=		p5-${DISTNAME}
 CATEGORIES=		math perl5
 MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=Set/}
