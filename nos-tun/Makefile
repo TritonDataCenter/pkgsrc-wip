@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	nos-tun
+PKGNAME=	nos-tun-20041005
 CATEGORIES=	net
 MASTER_SITES=	http://imil.net/NetBSD/
 
