@@ -19,7 +19,7 @@ NO_BUILD=	YES
 APACHEDIR=	${PREFIX}/share/httpd/htdocs/
 
 do-install:
-	${MKDIR} ${APACHEDIR}/geeklog
+	${INSTALL_DATA_DIR} ${APACHEDIR}/geeklog
 	${CP} -R ${WRKSRC}/* ${APACHEDIR}/geeklog
 	${CHOWN} -R www:www ${APACHEDIR}/geeklog
 	${CHMOD} -R 755 ${APACHEDIR}/geeklog/logs
