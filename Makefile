@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.283 2003/06/30 00:44:41 felix9x Exp $
+# $Id: Makefile,v 1.284 2003/06/30 08:07:13 xtraeme Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -121,6 +121,7 @@ SUBDIR+=	korelib
 SUBDIR+=	lbdb
 SUBDIR+=	ldapdns
 SUBDIR+=	lde
+SUBDIR+=	libcroco
 SUBDIR+=	libdialog
 SUBDIR+=	libdisasm
 SUBDIR+=	libfwbuilder
