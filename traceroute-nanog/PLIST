@@ -1,0 +1,4 @@
+@comment $NetBSD$
+
+sbin/traceroute-nanog
+man/man8/traceroute-nanog.8
