@@ -1,6 +1,7 @@
 # $NetBSD$
 #
 
+PKGREVISION=	1
 MOZILLA=	thunderbird
 MOZILLA_BIN=	thunderbird-bin
 MOZ_VER=	0.3
