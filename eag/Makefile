@@ -7,11 +7,13 @@ MASTER_SITES=		ftp://ftp.cs.kun.nl/pub/eag/
 EXTRACT_SUFX=		.tgz
 
 MAINTAINER=		jaapboen@sci.kun.nl
-HOMEPAGE=		http://www.cs.kun.nl/~kees/eag
+HOMEPAGE=		http://www.cs.kun.nl/~kees/eag/
 COMMENT=		Transducer generator using affix grammars
 
+PKG_INSTALLATION_TYPES=	overwrite pkgviews
+
 USE_BUILDLINK3=		yes
-USE_PKGLOCALEDIR=	yes
+USE_X11=		yes
 USE_LIBTOOL=		yes
 GNU_CONFIGURE=		yes
 
