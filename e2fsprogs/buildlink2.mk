@@ -20,6 +20,7 @@ BUILDLINK_FILES.e2fsprogs+=	include/et/com_err.h
 BUILDLINK_FILES.e2fsprogs+=	include/ext2fs/*.h
 BUILDLINK_FILES.e2fsprogs+=	include/ss/*.h
 BUILDLINK_FILES.e2fsprogs+=	include/uuid/*.h
+.include "../../mk/bsd.prefs.mk"
 .if ${OPSYS} == "Linux"
 BUILDLINK_FILES.e2fsprogs+=	lib/evms/libe2fsim.1.2.1.*
 .endif
