@@ -15,6 +15,8 @@ USE_LIBTOOL=		yes
 LIBTOOL_OVERRIDE=	${WRKSRC}/libtool
 GNU_CONFIGURE=		yes
 
+# Message catalog files need to be rebuilt to incorporate fuzzy
+# entries, allowed by the -f arg in patch-ac.
 pre-build:
 		cd ${WRKSRC}/po ; \
 		${MAKE} update-po
