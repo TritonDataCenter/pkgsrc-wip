@@ -1,0 +1,5 @@
+@comment $NetBSD$
+bin/adtool
+man/man1/adtool.1
+share/examples/adtool/adtool.cfg.dist
+@dirrm share/examples/adtool
