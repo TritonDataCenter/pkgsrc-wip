@@ -17,7 +17,7 @@ COMMENT=		USENET bulk binary downloader (X11)
 CONFLICTS+=		BNR2beta-0.*
 
 NO_BUILD=		# defined
-USE_BUILDLINK2=		yes
+USE_BUILDLINK3=		yes
 USE_PKGINSTALL=		yes
 
 ONLY_FOR_PLATFORM=	Linux-*-i386 NetBSD-*-i386
