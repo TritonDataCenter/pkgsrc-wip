@@ -38,7 +38,7 @@ CATEGORIES=		wip security
 MASTER_SITES=		ftp://ftp.drweb.ru/pub/unix/			\
 			ftp://ftp.drweb.ru/pub/unix/betas/
 
-HOMEPAGE=		http://www.drweb.ru/
+HOMEPAGE=		http://www.sald.com/
 
 .if ${DRW_CLIENT_NAME} != "clients-shared"
 DEPENDS+=		drweb-clients-shared-${DRW_CLVERN}:../../wip/drweb-clients-shared
