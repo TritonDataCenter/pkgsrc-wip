@@ -13,7 +13,7 @@ COMMENT=		Free, portable c++ libraries that integrate with C++ Standard library
 
 CONFLICTS=		boost-1.28.0
 
-USE_BUILDLINK2=		yes
+USE_BUILDLINK3=		yes
 INCDIR=			${PREFIX}/include
 SHAREDIR=		${PREFIX}/share/doc/html/boost
 
