@@ -69,7 +69,6 @@ SUBST_SED.conf=		-e "s|@PREFIX@|${PREFIX}|g" \
 			-e "s|@BZ_DB_PASS@|${BZ_DB_PASS}|g"
 SUBST_MESSAGE.conf=	"Fixing configuration files."
 
-
 post-extract:
 	@${FIND} ${WRKSRC}/docs/images -type d -name CVS | ${XARGS} ${RM} -rf
 	@${FIND} ${WRKSRC}/template -type d -name CVS | ${XARGS} ${RM} -rf
