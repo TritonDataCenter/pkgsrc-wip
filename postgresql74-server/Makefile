@@ -1,10 +1,10 @@
 # $NetBSD: Makefile,v 1.36 2003/11/14 01:46:39 explorer Exp $
 
-PKGNAME=		postgresql74-server-${BASE_VERS}
+PKGNAME=		postgresql-server-${BASE_VERS}
 SVR4_PKGNAME=		pstgs
 COMMENT=		PostgreSQL database server programs
 
-DEPENDS+=		postgresql-client>=${BASE_VERS}:../../wip/postgresql74-client
+DEPENDS+=		postgresql-client>=${BASE_VERS}:../../wip/postgresql-client
 
 # mips has no TAS implementation
 NOT_FOR_PLATFORM=	*-*-mips

@@ -1,6 +1,6 @@
 # $NetBSD: Makefile,v 1.7 2003/09/18 16:25:17 jmmv Exp $
 
-PKGNAME=		postgresql74-docs-${BASE_VERS}
+PKGNAME=		postgresql-docs-${BASE_VERS}
 SVR4_PKGNAME=		pstgd
 COMMENT=		PostgreSQL database system documentation
 

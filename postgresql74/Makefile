@@ -1,11 +1,11 @@
 # $NetBSD: Makefile,v 1.71 2003/04/01 05:14:08 jmc Exp $
 
-PKGNAME=	postgresql74-${BASE_VERS}
+PKGNAME=	postgresql-${BASE_VERS}
 COMMENT=	Robust, next generation, object-relational DBMS
 
-DEPENDS+=	postgresql-client>=${BASE_VERS}:../../wip/postgresql74-client
-DEPENDS+=	postgresql-server>=${BASE_VERS}:../../wip/postgresql74-server
-DEPENDS+=	postgresql-docs>=${BASE_VERS}:../../wip/postgresql74-docs
+DEPENDS+=	postgresql-client>=${BASE_VERS}:../../wip/postgresql-client
+DEPENDS+=	postgresql-server>=${BASE_VERS}:../../wip/postgresql-server
+DEPENDS+=	postgresql-docs>=${BASE_VERS}:../../wip/postgresql-docs
 
 PLIST_SRC=	${.CURDIR}/../../databases/postgresql/PLIST
 DESCR_SRC=	${.CURDIR}/../../databases/postgresql/DESCR
