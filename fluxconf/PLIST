@@ -1,0 +1,7 @@
+@comment $NetBSD$
+bin/fluxbare
+bin/fluxconf
+bin/fluxkeys
+bin/fluxmenu
+${PKGLOCALEDIR}/locale/fi/LC_MESSAGES/fluxconf.mo
+${PKGLOCALEDIR}/locale/fr/LC_MESSAGES/fluxconf.mo
