@@ -1,4 +1,0 @@
-$NetBSD$
-
-- add option for graphic console support.  Haven't looked at this yet, not
-  sure how necessary it is.
