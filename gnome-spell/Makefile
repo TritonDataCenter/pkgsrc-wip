@@ -9,9 +9,13 @@ MAINTAINER=	bitbucket@netbsd.org
 HOMEPAGE=	http://www.gnome.org/
 COMMENT=	Spell checking as you type like gtkspell
 
-GNU_CONFIGURE=	YES
-USE_BUILDLINK2=	YES
+GNU_CONFIGURE=		YES
+USE_BUILDLINK2=		YES
 USE_PKGLOCALEDIR=	YES
+USE_GMAKE=		YES
+
+USE_LIBTOOL=		YES
+LIBTOOL_OVERRIDE=	${WRKSRC}/libtool
 
 .include "../../devel/libbonobo/buildlink2.mk"
 .include "../../devel/libbonoboui/buildlink2.mk"
