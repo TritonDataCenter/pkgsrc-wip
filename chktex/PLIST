@@ -1,0 +1,7 @@
+@comment $NetBSD$
+bin/chktex
+bin/chkweb
+bin/deweb
+man/man1/deweb.1
+share/chktex/chktexrc
+@dirrm share/chktex
