@@ -13,7 +13,6 @@ COMMENT=		Windowing toolkit based on libslang
 
 BUILD_DEPENDS+=		rpm2pkg>=2.0:../../pkgtools/rpm2pkg
 
-USE_BUILDLINK3=		yes
 USE_GNU_TOOLS+=		make
 USE_LIBTOOL=		yes
 NO_EXPORT_CPP=		yes

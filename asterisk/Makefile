@@ -10,8 +10,6 @@ MAINTAINER=		riz@NetBSD.org
 HOMEPAGE=		http://www.asterisk.org/
 COMMENT=		The Asterisk Software PBX
 
-USE_BUILDLINK3=		yes
-
 USE_GNU_TOOLS+= 	make yacc
 
 MANCOMPRESSED= 		yes
