@@ -4,6 +4,7 @@
 
 DISTNAME=	quagga-0.96.5-20040812
 PKGNAME=	quagga-0.96.5.20040812
+PKGREVISION=	1
 CATEGORIES=	net
 # Use pkgsrc/ for saved snapshots, cvs/ for current ones
 MASTER_SITES=	http://www.quagga.net/download/cvs/ \
