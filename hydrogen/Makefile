@@ -19,7 +19,7 @@ CONFIGURE_ARGS+=	--disable-alsa-seq
 CONFIGURE_ARGS+=	--disable-jack-support
 
 .if exists(${X11BASE}/include/X11/extensions/Xinerama.h)
-CONFIGURE_ARGS+=        --with-xinerama
+CONFIGURE_ARGS+=	--with-xinerama
 .endif
 
 .include "../../wip/libhydrogen/buildlink2.mk"
