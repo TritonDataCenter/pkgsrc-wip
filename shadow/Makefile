@@ -17,14 +17,32 @@ GNU_CONFIGURE=		YES
 
 .include "../../mk/bsd.prefs.mk"
 
-.if defined(USE_PAM)
+# Global and legacy options
+.if defined(USE_PAM) || defined(USE_LIBCRACK)
+.  if !defined(PKG_OPTIONS.shadow)
+.    if defined(USE_PAM)
+PKG_OPTIONS.shadow+=	PAM
+.    endif
+.    if defined(USE_LIBCRACK) && !empty(USE_LIBCRACK:M[yY][eE][sS])
+PKG_OPTIONS.shadow+=	libcrack
+.    endif
+.  endif
+.endif
+
+###
+### PAM support.
+###
+.if !empty(PKG_OPTIONS:MPAM)
+.  include "../../security/PAM/buildlink3.mk"
 CONFIGURE_ARGS+=	--with-libpam
-.include "../../security/PAM/buildlink3.mk"
 .else
 CONFIGURE_ARGS+=	--without-libpam
 .endif
 
-.if ${USE_LIBCRACK} == YES
+###
+### Support using libcrack to protect against weak passwords.
+###
+.if !empty(PKG_OPTIONS:Mlibcrack)
 .  include "../../security/libcrack/buildlink3.mk"
 CONFIGURE_ARGS+=	--with-libcrack
 .else
