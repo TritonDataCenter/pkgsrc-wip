@@ -2,3 +2,4 @@
 bin/generateDS
 ${PYSITELIB}/generateDS.py
 ${PYSITELIB}/generateDS.pyc
+${PYSITELIB}/generateDS.pyo
