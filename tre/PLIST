@@ -1,0 +1,6 @@
+@comment $NetBSD$
+include/tre/regex.h
+include/tre/tre-config.h
+lib/libtre.la
+lib/pkgconfig/tre.pc
+@dirrm include/tre
