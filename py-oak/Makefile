@@ -14,9 +14,9 @@ PY_PATCHPLIST=		yes
 PYDISTUTILSPKG=		yes
 
 #
-# TODO: I am not sure about non-pth versions
+# TODO: I am not sure about non- versions
 #
-PYTHON_VERSIONS_ACCEPTED=	23pth 22pth 23 22
+PYTHON_VERSIONS_ACCEPTED=	23 22
 
 post-patch:
 	${CP} ${WRKSRC}/setup.cfg ${WRKSRC}/setup.cfg.pkgsrc

@@ -12,11 +12,9 @@ COMMENT=	Collaborative, networked system to detect and block spam
 
 .if defined(PYZOR_USE_PYZORD) && !empty(PYZOR_USE_PYZORD:M[Yy][Ee][Ss])
 DEPENDS+=	${PYPKGPREFIX}-gdbm>=0nb1:../../databases/py-gdbm
-# pyzords needs python with threading support
-PYTHON_VERSIONS_ACCEPTED=	23pth
-.else
-PYTHON_VERSIONS_ACCEPTED=	23 23pth
 .endif
+
+PYTHON_VERSIONS_ACCEPTED=	23
 
 BUILD_DEFS+=	PYZOR_USE_PYZORD
 

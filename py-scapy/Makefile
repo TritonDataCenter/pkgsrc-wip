@@ -11,7 +11,7 @@ MAINTAINER=		dotz@irc.pl
 HOMEPAGE=		http://www.cartel-securite.fr/pbiondi/projects/scapy.html
 COMMENT=		Interactive packet manipulation tool
 
-PYTHON_VERSIONS_ACCEPTED=	23 22 23pth 22pth
+PYTHON_VERSIONS_ACCEPTED=	23 22
 
 PYTHON_PATCH_SCRIPTS=		scapy.py
 

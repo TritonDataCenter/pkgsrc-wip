@@ -2,6 +2,7 @@
 #
 
 DISTNAME=		4stAttack-2.1.4
+PKGREVISION=		1
 CATEGORIES=		games
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=forcedattack/}
 

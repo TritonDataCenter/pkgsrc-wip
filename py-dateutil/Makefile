@@ -15,7 +15,7 @@ USE_BUILDLINK3=	yes
 PYDISTUTILSPKG=	yes
 PY_PATCHPLIST=	yes
 
-PYTHON_VERSIONS_ACCEPTED=	23pth 23
+PYTHON_VERSIONS_ACCEPTED=	23
 
 .include "../../lang/python/extension.mk"
 .include "../../mk/bsd.pkg.mk"

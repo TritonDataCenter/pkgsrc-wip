@@ -17,10 +17,10 @@ GNU_CONFIGURE=		yes
 CONFIGURE_ARGS+=	--with-apxs=${APXS}
 CONFIGURE_ARGS+=	--with-python=${PYTHONBIN}
 
-PYTHON_VERSIONS_ACCEPTED= 23pth
+PYTHON_VERSIONS_ACCEPTED= 23
 
 .include "../../lang/python/extension.mk"
 .include "../../www/apache2/buildlink3.mk"
 
-.include "../../mk/pthread.buildlink3.mk"
+.include "../../mk/read.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

@@ -13,10 +13,7 @@ COMMENT=		Content-filtering proxy server
 PY_PATCHPLIST=		yes
 PYDISTUTILSPKG=		yes
 
-#
-# TODO: I am not sure about non-pth versions
-#
-PYTHON_VERSIONS_ACCEPTED=	23pth 23 22pth 22
+PYTHON_VERSIONS_ACCEPTED=	23 22
 
 post-patch:
 	${CP} ${WRKSRC}/setup.cfg ${WRKSRC}/setup.cfg.pkgsrc

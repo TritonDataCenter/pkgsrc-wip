@@ -14,7 +14,7 @@ GNU_CONFIGURE=	YES
 CONFIGURE_ARGS+=--with-pythondir=${PREFIX}
 USE_LIBTOOL=	yes
 
-PYTHON_VERSIONS_ACCEPTED=	23 23pth
+PYTHON_VERSIONS_ACCEPTED=	23
 
 .include "../../graphics/jpeg/buildlink3.mk"
 .include "../../lang/python/extension.mk"

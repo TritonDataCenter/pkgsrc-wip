@@ -14,7 +14,7 @@ PY_PATCHPLIST=		yes
 PYDISTUTILSPKG=		yes
 USE_BUILDLINK3=		yes
 
-PYTHON_VERSIONS_ACCEPTED= 23 23pth 22 22pth
+PYTHON_VERSIONS_ACCEPTED= 23 22
 
 .include "../../audio/SDL_mixer/buildlink3.mk"
 .include "../../devel/SDL_ttf/buildlink3.mk"

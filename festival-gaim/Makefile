@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	festival-gaim-0.64
+PKGREVISION=	1
 CATEGORIES=	audio chat
 MASTER_SITES=	http://primates.ximian.com/~sandino/festival/SOURCES/
 
