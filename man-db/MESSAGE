@@ -1,0 +1,9 @@
+===========================================================================
+$NetBSD$
+
+You may want to create or update your manual page index
+caches for ${PKGNAME} by running as root:
+
+  ${LOCALBASE}/bin/mandb -c
+
+===========================================================================
