@@ -7,7 +7,7 @@ DRWEB=			drweb
 DRW_USER=		${DRWEB}
 DRW_GROUP=		${DRWEB}
 
-DRW_DIR?=		/var/${DRWEB}
+DRW_DIR?=		${VARBASE}/${DRWEB}
 DRW_BASESDIR?=		${DRW_DIR}/bases
 DRW_INFECTDIR?=		${DRW_DIR}/infected
 DRW_LOGDIR?=		${DRW_DIR}
