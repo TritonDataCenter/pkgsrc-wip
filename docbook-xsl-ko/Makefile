@@ -18,6 +18,13 @@ XSLDIR=		${PREFIX}/share/xsl/docbook-ko
 
 XML_CATALOGS=	${XSLDIR}/catalog
 
+SUBST_CLASSES+=		xsl
+SUBST_MESSAGE.xsl=	"Fixing remote URLs."
+SUBST_STAGE.xsl=	post-patch
+SUBST_FILES.xsl=	dbk-fo.xsl dbk-html-chunk.xsl dbk-html.xsl \
+			dbk-htmlhelp.xsl
+SUBST_SED.xsl=		-e 's,http://docbook.sourceforge.net/release/xsl/current/,../docbook/,g'
+
 do-install:
 	${INSTALL_DATA_DIR} ${XSLDIR}
 	${INSTALL_DATA} ${WRKSRC}/*.xsl ${XSLDIR}
