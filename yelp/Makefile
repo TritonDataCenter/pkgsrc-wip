@@ -11,6 +11,7 @@ HOMEPAGE=		http://www.gnome.org/
 COMMENT=		Help browser for GNOME 2.0 desktop
 
 DEPENDS=		gnome2-dirs>=1.0:../../misc/gnome2-dirs
+BUILD_USES_MSGFMT=	yes
 
 USE_BUILDLINK2=		yes
 USE_PKGLOCALEDIR=	yes
@@ -23,5 +24,6 @@ LIBTOOL_OVERRIDE=       ${WRKSRC}/libtool
 .include "../../devel/libgnomeui/buildlink2.mk"
 .include "../../www/libgtkhtml/buildlink2.mk"
 .include "../../textproc/scrollkeeper/omf.mk"
+.include "../../devel/gettext-lib/buildlink2.mk"
 
 .include "../../mk/bsd.pkg.mk"
