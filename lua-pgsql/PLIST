@@ -1,0 +1,3 @@
+@comment $NetBSD$
+lib/libluasqlpostgres.${PKGVERSION}.a
+lib/libluasqlpostgres.${PKGVERSION}.so
