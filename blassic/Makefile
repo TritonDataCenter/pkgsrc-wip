@@ -6,7 +6,7 @@ CATEGORIES=		lang
 MASTER_SITES=		http://www.arrakis.es/~ninsesabe/blassic/
 EXTRACT_SUFX=		.tgz
 
-MAINTAINER=		ivaniclixx@terra.es
+MAINTAINER=		ivaniclixx@gmail.com
 HOMEPAGE=		http://www.arrakis.es/~ninsesabe/blassic/
 COMMENT=		Blassic is a classic Basic interpreter
 
