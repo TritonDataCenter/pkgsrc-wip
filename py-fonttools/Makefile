@@ -3,6 +3,7 @@
 
 DISTNAME=		fonttools-2.0b1
 PKGNAME=		${PYPKGPREFIX}-${DISTNAME}
+WRKSRC=			${WRKDIR}/fonttools
 CATEGORIES=		graphics
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=fonttools/}
 EXTRACT_SUFX=		.tgz
@@ -10,8 +11,6 @@ EXTRACT_SUFX=		.tgz
 MAINTAINER=		dotz@irc.pl
 HOMEPAGE=		http://fonttools.sourceforge.net/
 COMMENT=		Library for manipulating fonts
-
-WRKSRC=			${WRKDIR}/fonttools
 
 USE_BUILDLINK2=		yes
 PY_PATCHPLIST=		yes
