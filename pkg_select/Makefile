@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	pkg_select-20050221
-PKGREVISION=	1
+PKGREVISION=	2
 CATEGORIES=	pkgtools
 MASTER_SITES=	# empty
 DISTFILES=	# empty
@@ -32,8 +32,9 @@ do-install:
 SUBST_CLASSES=		path
 SUBST_STAGE.path=	post-patch
 SUBST_FILES.path=	Makefile pkg_select.1
-SUBST_SED.path=         -e "s|/usr/pkgsrc|${PKGSRCDIR}|g"		\
-			-e "s|/var/db/pkg|${PKG_DBDIR}|g"
+SUBST_SED.path=         -e "s|/usr/pkgsrc|${PKGSRCDIR}|g" \
+			-e "s|/var/db/pkg|${PKG_DBDIR}|g" \
+			-e "s|/usr/bin/make|${MAKE}|g"
 SUBST_MESSAGE.path=     "Adjusting path."
 
 .include "../../mk/bsd.pkg.mk"
