@@ -16,6 +16,7 @@ COMMENT=		Free C++ class library of Cryptographic Primitives
 USE_GNU_TOOLS+=		make
 MAKEFILE=		GNUmakefile
 WRKSRC=			${WRKDIR}
+USE_LANGUAGES=		c++
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/cryptest ${PREFIX}/bin
