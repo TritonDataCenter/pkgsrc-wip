@@ -18,8 +18,8 @@ GNU_CONFIGURE=		yes
 CONFIGURE_ARGS+=	--with-gui --with-gadu --with-tlen \
 			--with-sms --with-xosd --with-oss
 
-.include "../../wip/libtlen/buildlink3.mk"
 .include "../../chat/ekg/buildlink3.mk"
+.include "../../chat/libtlen/buildlink3.mk"
 .include "../../textproc/intltool/buildlink3.mk"
 .include "../../x11/gtk2/buildlink3.mk"
 .include "../../x11/xosd/buildlink3.mk"

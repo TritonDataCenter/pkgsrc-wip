@@ -16,5 +16,5 @@ GNU_CONFIGURE=		yes
 LIBS+=			-lm
 
 .include "../../x11/gtk2/buildlink3.mk"
-.include "../../wip/libtlen/buildlink3.mk"
+.include "../../chat/libtlen/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
