@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.801 2003/12/24 10:32:17 marc Exp $
+# $Id: Makefile,v 1.802 2003/12/25 02:14:00 bjan2 Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -138,6 +138,7 @@ SUBDIR+=	fixesext
 SUBDIR+=	florist
 SUBDIR+=	fluxconf
 SUBDIR+=	fluxspace
+SUBDIR+=	foomatic-filters
 SUBDIR+=	fragroute
 SUBDIR+=	freeglut
 SUBDIR+=	freenet-tools
