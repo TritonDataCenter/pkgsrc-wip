@@ -2,8 +2,9 @@
 #
 
 DISTNAME=		libXi-6.0.1
+PKGREVISION=		1
 CATEGORIES=		x11 devel
-MASTER_SITES=		http://freedesktop.org/~xlibs/dist/
+MASTER_SITES=		http://freedesktop.org/~xlibs/release/
 EXTRACT_SUFX=		.tar.bz2
 
 MAINTAINER=		xtraeme@NetBSD.org
@@ -19,6 +20,7 @@ PKGCONFIG_OVERRIDE+=    ${WRKSRC}/xi.pc.in
 
 .include "../../wip/libX11/buildlink2.mk"
 .include "../../wip/libXau/buildlink2.mk"
+.include "../../wip/libXext/buildlink2.mk"
 .include "../../wip/xproto/buildlink2.mk"
 .include "../../wip/xextensions/buildlink2.mk"
 .include "../../devel/pkgconfig/buildlink2.mk"
