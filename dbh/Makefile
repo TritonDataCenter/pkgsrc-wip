@@ -10,9 +10,10 @@ MAINTAINER=		benedikt.meurer@unix-ag.uni-siegen.de
 HOMEPAGE=		http://dbh.sourceforge.net/
 COMMENT=		Library to create disk based Hashtables
 
+GNU_CONFIGURE=		yes
 USE_BUILDLINK2=		yes
 USE_LIBTOOL=		yes
 LIBTOOL_OVERRIDE=	${WRKSRC}/libtool
-GNU_CONFIGURE=		yes
+PKGCONFIG_OVERRIDE=	${WRKSRC}/src/dbh-1.0.pc.in
 
 .include "../../mk/bsd.pkg.mk"
