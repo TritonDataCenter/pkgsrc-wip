@@ -6,7 +6,7 @@ CATEGORIES=	security
 MASTER_SITES=	http://savannah.nongnu.org/download/sks/sks.pkg/${SKS_VERSION}/
 EXTRACT_SUFX=	.tgz
 
-MAINTAINER=	tech-pkg@netbsd.org
+MAINTAINER=	cube@NetBSD.org
 HOMEPAGE=	http://www.nongnu.org/sks/
 COMMENT=	Self Replicating PGP Key Server
 
