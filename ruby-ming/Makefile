@@ -9,7 +9,7 @@ MAINTAINER=	rasputnik@hellooperator.net
 HOMEPAGE=	http://madscientist.jp/~ikegami/ruby/ming/
 COMMENT=	Ruby extension to drive the Ming SWF library
 
-USE_BUILDLINK2=	# defined
+USE_BUILDLINK3=	yes
 
 VER=		0.1.6
 USE_RUBY_SETUP=	yes
@@ -24,7 +24,7 @@ post-install:
 		${INSTALL_DATA} ${WRKSRC}/examples/$f ${RUBY_EXAMPLESDIR}/ming
 .endfor
 
-.include "../../wip/ming/buildlink2.mk"
+.include "../../wip/ming/buildlink3.mk"
 .include "../../lang/ruby-base/Makefile.common"
-.include "../../lang/ruby-base/buildlink2.mk"
+.include "../../lang/ruby-base/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
