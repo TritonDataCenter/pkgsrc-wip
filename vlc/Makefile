@@ -4,14 +4,13 @@
 
 VLC_VERSION=		0.4.6
 DISTNAME=		vlc-${VLC_VERSION}
-PKGNAME=		vlc
-COMMENT=		VideoLan Client
 CATEGORIES=		graphics
 MASTER_SITES=		http://www.videolan.org/pub/videolan/vlc/${VLC_VERSION}/
 EXTRACT_SUFX=		.tar.bz2
 
 MAINTAINER=		packages@netbsd.org
 HOMEPAGE=		http://www.videolan.org/
+COMMENT=		VideoLan Client
 
 USE_BUILDLINK2=		YES
 USE_GMAKE=		YES
