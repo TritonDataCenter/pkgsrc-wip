@@ -27,7 +27,6 @@ pre-install:
 	    ${FILESDIR}/raine.sh > ${WRKSRC}/raine.sh
 	@${INSTALL_SCRIPT} ${WRKSRC}/raine.sh ${PREFIX}/bin/raine
 
-.include "../../devel/SDL/buildlink3.mk"
 .include "../../devel/zlib/buildlink3.mk"
 .include "../../wip/allegro/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
