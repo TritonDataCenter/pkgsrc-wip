@@ -27,7 +27,7 @@ CONFIGURE_ARGS+=	--with-mysql-lib=${LOCALBASE}/lib/mysql		\
 CONFIGURE_ARGS+=	--with-pgsql-lib=${LOCALBASE}/pgsql \
 			--with-pgsql-inc=${LOCALBASE}/pgsql \
 			--with-pgsql-xdata
-.include "../../databases/postgresql-lib/buildlink3.mk"
+.include "../../mk/pgsql.buildlink3.mk"
 .endif
 
 CONFIGURE_ARGS+=	--with-gd-lib=${LOCALBASE}/lib		\

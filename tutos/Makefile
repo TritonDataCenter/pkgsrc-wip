@@ -29,7 +29,7 @@ do-install:
 	${INSTALL_DATA_DIR} ${PREFIX}/share/httpd/htdocs/tutos
 	cd ${WRKSRC}; ${PAX} -rwpe . ${PREFIX}/share/httpd/htdocs/tutos
 
-.include "../../databases/postgresql-lib/buildlink3.mk"
 .include "../../www/php4/buildlink3.mk"
 .include "../../www/apache2/buildlink3.mk"
+.include "../../mk/pgsql.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

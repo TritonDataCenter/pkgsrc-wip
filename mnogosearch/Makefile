@@ -38,9 +38,9 @@ DB_TYPE=		--with-mysql=${BUILDLINK_PREFIX.mysql-client}
 .endif
 
 .if defined(USE_PGSQL) && ${USE_PGSQL} == YES
-.include "../../databases/postgresql-lib/buildlink3.mk"
+.include "../../mk/pgsql.buildlink3.mk"
 LIBS=			-Wl,-R${PREFIX}/lib/postgresql
-DB_TYPE=		--with-pgsql=${BUILDLINK_PREFIX.postgresql-lib}
+DB_TYPE=		--with-pgsql=${PGSQL_PREFIX}
 .endif
 
 CONFIGURE_ARGS+=	${DB_TYPE}

@@ -36,10 +36,10 @@ LIBS=	-Wl,-R${PREFIX}/lib/mysql
 .endif
 
 .if defined(USE_PGSQL) && ${USE_PGSQL} == YES
-.include "../../databases/postgresql-lib/buildlink3.mk"
+.include "../../mk/pgsql.buildlink3.mk"
 CONFIGURE_ARGS+=	--enable-postgres
-CONFIGURE_ARGS+=	--with-postgres-includes=${BUILDLINK_PREFIX.postgresql-lib}/include/postgresql
-CONFIGURE_ARGS+=	--with-postgres-libraries=${BUILDLINK_PREFIX.postgresql-lib}/lib/postgresql
+CONFIGURE_ARGS+=	--with-postgres-includes=${PGSQL_PREFIX}/include/postgresql
+CONFIGURE_ARGS+=	--with-postgres-libraries=${PGSQL_PREFIX}/lib/postgresql
 LIBS=	-Wl,-R${PREFIX}/lib/postgresql
 .endif
 

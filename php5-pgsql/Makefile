@@ -8,7 +8,7 @@ USE_BUILDLINK3=		YES
 
 .include "../../wip/php5/Makefile.module"
 
-CONFIGURE_ARGS+=	--with-pgsql=shared,${BUILDLINK_PREFIX.postgresql-lib}
+CONFIGURE_ARGS+=	--with-pgsql=shared,${PGSQL_PREFIX}
 
-.include "../../databases/postgresql-lib/buildlink3.mk"
+.include "../../mk/pgsql.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

@@ -9,7 +9,7 @@ COMMENT=	Prelude manager with PostgreSQL support
 CONFLICTS+=	prelude-manager-[0-9]*
 CONFLICTS+=	prelude-manager-mysql-[0-9]*
 
-DEPENDS+=	postgresql-client>=7.3.4:../../databases/postgresql-client
+DEPENDS+=	postgresql73-client>=7.3.4:../../databases/postgresql73-client
 
 CONFIGURE_ARGS+=        --disable-mysql
 CONFIGURE_ARGS+=        --enable-pgsql
@@ -21,5 +21,5 @@ DISTINFO_FILE=  ${PKGDIR}/distinfo
 PLIST_SRC=	${PKGDIR}/PLIST
 PLIST_SRC+=	PLIST.pgsql
 
-.include "../../databases/postgresql-lib/buildlink3.mk"
+.include "../../databases/postgresql73-lib/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

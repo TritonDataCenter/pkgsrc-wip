@@ -17,6 +17,6 @@ CFLAGS+=	-I/usr/pkg/include/nsd/include
 USE_BUILDLINK3=         yes
 USE_GNU_TOOLS+=         make
 
-.include "../../databases/postgresql-lib/buildlink3.mk"
 .include "../../wip/aolserver4/buildlink3.mk"
+.include "../../mk/pgsql.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

@@ -67,7 +67,7 @@ CONFIGURE_ARGS+=        --enable-ssl=openssl
 .if !empty(DOVECOT_USE_PGSQL:M[Yy][Ee][Ss])
 CONFIGURE_ARGS+=	--with-pgsql
 CPPFLAGS=		-I${BUILDLINK_DIR}/include/pgsql
-.  include "../../databases/postgresql-lib/buildlink3.mk"
+.  include "../../mk/pgsql.buildlink3.mk"
 .endif
 
 RCD_SCRIPTS=	dovecot
