@@ -11,16 +11,16 @@ MAINTAINER=		tech-pkg@NetBSD.org
 HOMEPAGE=		http://www.freedesktop.org/software/xlibs
 COMMENT=		X Input extension library
 
-USE_BUILDLINK2=		yes
+USE_BUILDLINK3=		yes
 USE_LIBTOOL=		yes
 GNU_CONFIGURE=		yes
 
 PKGCONFIG_OVERRIDE+=	xi.pc.in
 
-.include "../../wip/libX11/buildlink2.mk"
-.include "../../wip/libXau/buildlink2.mk"
-.include "../../wip/libXext/buildlink2.mk"
-.include "../../wip/xproto/buildlink2.mk"
-.include "../../wip/xextensions/buildlink2.mk"
-.include "../../devel/pkgconfig/buildlink2.mk"
+.include "../../wip/libX11/buildlink3.mk"
+.include "../../wip/libXau/buildlink3.mk"
+.include "../../wip/libXext/buildlink3.mk"
+.include "../../wip/xproto/buildlink3.mk"
+.include "../../wip/xextensions/buildlink3.mk"
+.include "../../devel/pkgconfig/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
