@@ -9,7 +9,7 @@ MAINTAINER=	dotz@irc.pl
 HOMEPAGE=	http://www.libtlen.eu.org/
 COMMENT=	Library to access tlen.pl IM system
 
-USE_BUILDLINK2=		yes
+USE_BUILDLINK3=		yes
 USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=		yes
 GNU_CONFIGURE=		yes
