@@ -17,6 +17,12 @@ USE_BUILDLINK3=	yes
 USE_GNU_TOOLS+=	make
 USE_PKGINSTALL=	YES	# to allow the examples to be copied over to the confdir
 
+# In NetBSD 1.6.x the native curses implementation has problems with bmon
+# So mark it as incompatible and link bmon  against the
+# 3rd party ncurses library in NetBSD 1.6.x
+
+INCOMPAT_CURSES= NetBSD-1.6*-*
+
 CONFIGURE_ARGS+=	--sysconfdir=${PKG_SYSCONFDIR}
 
 EGDIR=		${PREFIX}/share/examples/bmon
@@ -29,5 +35,5 @@ do-install:
 	${INSTALL_DATA_DIR} ${PREFIX}/share/examples/bmon
 	${INSTALL_DATA}  ${WRKSRC}/etc/bmon.conf ${PREFIX}/share/examples/bmon/bmon.conf
 
-.include "../../mk/curses.buildlink3.mk"
+.include "../../devel/ncurses/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
