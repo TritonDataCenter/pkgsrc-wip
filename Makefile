@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.1625 2005/01/19 22:42:07 matthewluckie Exp $
+# $Id: Makefile,v 1.1626 2005/01/20 18:15:59 adrian_p Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -435,7 +435,6 @@ SUBDIR+=	libgeotiff
 SUBDIR+=	libgrass5
 SUBDIR+=	liblingoteach
 SUBDIR+=	libmatchbox
-SUBDIR+=	libnet11
 SUBDIR+=	libneural
 SUBDIR+=	libpano12
 SUBDIR+=	libpcap-latest
