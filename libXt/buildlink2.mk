@@ -39,6 +39,9 @@ BUILDLINK_FILES.libXt+=	lib/libXt.*
 .include "../../wip/xproto/buildlink2.mk"
 .include "../../wip/xextensions/buildlink2.mk"
 
+.include "../../mk/pthread.buildlink2.mk"
+LIBS+=		${BUILDLINK_LDFLAGS.pthread}
+
 BUILDLINK_TARGETS+=	libXt-buildlink
 
 libXt-buildlink: _BUILDLINK_USE
