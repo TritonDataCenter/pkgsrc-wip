@@ -27,5 +27,4 @@ do-install:
 .include "../../devel/SDL/buildlink2.mk"
 .include "../../graphics/png/buildlink2.mk"
 
-.include "../../mk/compiler.mk"
 .include "../../mk/bsd.pkg.mk"

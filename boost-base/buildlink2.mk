@@ -21,7 +21,6 @@ BUILDLINK_TARGETS+=				boost-base-buildlink
 
 boost-base-buildlink: _BUILDLINK_USE
 
-. include "../../mk/compiler.mk"
 . include "../../mk/pthread.buildlink2.mk"
 
 .endif # BOOST_BUILDLINK2_MK

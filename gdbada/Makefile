@@ -82,5 +82,4 @@ do-extract:
 .include "../../mk/pthread.buildlink2.mk"
 .include "../../devel/libtool/buildlink2.mk"
 .include "../../devel/gettext-lib/buildlink2.mk"
-.include "../../mk/compiler.mk"
 .include "../../mk/bsd.pkg.mk"
