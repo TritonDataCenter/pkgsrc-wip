@@ -17,6 +17,7 @@ USE_BUILDLINK2=		yes
 NO_CONFIGURE=		yes
 LBE_DIR=		${PREFIX}/lib/ldapbrowser
 USE_JAVA=		run
+USE_JAVA2=		yes
 
 do-build:
 	${SED} s%DESTINATION%${LBE_DIR}% ${WRKSRC}/lbe.sh \
