@@ -8,7 +8,11 @@ MAINTAINER=	roland.illig@gmx.de
 HOMEPAGE=	http://www.bitwizard.nl/
 COMMENT=	Find identical files and link(2) them to save disk space
 
+PKG_INSTALLATION_TYPES=	overwrite pkgviews
+
 MAKEFILE=	${FILESDIR}/Makefile
+
+INSTALLATION_DIRS=	bin man/man1
 
 post-patch:
 	@${CP} ${FILESDIR}/same.1 ${WRKSRC}
