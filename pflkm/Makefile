@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=		pf-lkm-20040607
+DISTNAME=		pf-lkm-20040803
 CATEGORIES=		security ipv6
 MASTER_SITES=		http://nedbsd.nl/~ppostma/pf/
 
