@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		EditObj-0.5.2
+DISTNAME=		EditObj-0.5.3
 PKGNAME=		${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=		devel
 MASTER_SITES=		http://oomadness.tuxfamily.org/downloads/
