@@ -16,6 +16,7 @@ DEPENDS+=		slackware_make>=3.80:../../wip/slackware_make
 DEPENDS+=		slackware_sed>=4.0.9:../../wip/slackware_sed
 DEPENDS+=		slackware_awk>=3.1.3:../../wip/slackware_awk
 DEPENDS+=		slackware_grep>=2.5:../../wip/slackware_grep
+DEPENDS+=		slackware_binutils>=2.14.90.0.8:../../wip/slackware_binutils
 
 EXTRACT_ONLY=		# empty
 NO_CHECKSUM=		yes
