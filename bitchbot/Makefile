@@ -8,14 +8,18 @@ MAINTAINER=	adrianp@stindustries.net
 HOMEPAGE= 	http://www.r1ch.net/projects/bitchbot/
 COMMENT=	Bitchbot is a perl-based IRC bot
 
+PKG_INSTALLATION_TYPES=	overwrite pkgviews
+
 USE_PERL5=	YES
 USE_PKGINSTALL=	YES
 NO_BUILDLINK=	YES
 
 REPLACE_PERL=	bitch.pl genstats.pl
 
-CONF_FILES=	${PREFIX}share/examples/bitch/bitch.conf.template \
+CONF_FILES=	${PREFIX}/share/examples/bitch/bitch.conf.template \
 		${PKG_SYSCONFDIR}/bitch.conf
+
+INSTALLATION_DIRS=	bin
 
 do-build:
 	@${SED} -e 's#@PKG_SYSCONFDIR@#${PKG_SYSCONFDIR}#g' \
