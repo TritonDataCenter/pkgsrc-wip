@@ -9,7 +9,7 @@ EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	pancake@phreaker.net
 HOMEPAGE=	http://www.mhonarc.org/
-COMMENT=	perl mail-to-HTML converter
+COMMENT=	Perl mail-to-HTML converter
 
 VERSION=	2.6.3
 

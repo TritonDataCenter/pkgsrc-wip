@@ -7,7 +7,7 @@ MASTER_SITES=	http://tiefighter.et.tudelft.nl/~arthur/cvsd/
 
 MAINTAINER=	eric@cirr.com
 HOMEPAGE=	http://tiefighter.et.tudelft.nl/~arthur/cvsd/
-COMMENT=	run CVS pserver in a chroot-ed environment
+COMMENT=	Run CVS pserver in a chroot-ed environment
 
 .include "../../mk/bsd.prefs.mk"
 

@@ -7,7 +7,7 @@ MASTER_SITES=	ftp://ftp.gnucash.org/pub/gnucash/sources/stable/ \
 
 MAINTAINER=	reed@reedmedia.net
 HOMEPAGE=	http://www.gnucash.org/
-COMMENT=	help documentation and tutorial guide for gnucash
+COMMENT=	Help documentation and tutorial guide for gnucash
 
 USE_BUILDLINK2=	# defined
 GNU_CONFIGURE=	YES

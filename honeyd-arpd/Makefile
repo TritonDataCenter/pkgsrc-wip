@@ -9,7 +9,7 @@ MASTER_SITES=	http://niels.xtdnet.nl/honeyd/
 
 MAINTAINER=	adrianp@stindustries.net
 HOMEPAGE=	http://niels.xtdnet.nl/honeyd/index.php
-COMMENT=	arp daemon for honeyd
+COMMENT=	ARP daemon for honeyd
 
 USE_PKGINSTALL= YES
 RCD_SCRIPTS=	honeydarpd

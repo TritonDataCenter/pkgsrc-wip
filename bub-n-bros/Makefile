@@ -7,7 +7,7 @@ MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=bub-n-bros/}
 
 MAINTAINER=		marc@informatik.uni-bremen.de
 HOMEPAGE=		http://bub-n-bros.sourceforge.net/
-COMMENT=		multiplayer crazy clone of Bubble Bobble
+COMMENT=		Multiplayer crazy clone of Bubble Bobble
 
 WRKSRC=			${WRKDIR}/bub-n-bros
 USE_X11=		yes

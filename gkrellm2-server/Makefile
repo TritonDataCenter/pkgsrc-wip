@@ -2,7 +2,7 @@
 .include "../../wip/gkrellm2/Makefile.common"
 
 GKRELLM_PKGBASE=	gkrellm-server
-COMMENT=		monitoring daemon remotely accessible by a GKrellM client
+COMMENT=		Monitoring daemon remotely accessible by a GKrellM client
 DEPENDS+=		gkrellm-share-${GKRELLM_VERSION}:../../wip/gkrellm2-share
 
 USE_BUILDLINK2=		YES

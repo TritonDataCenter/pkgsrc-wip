@@ -7,7 +7,7 @@ MASTER_SITES=   ${MASTER_SITE_SOURCEFORGE:=hte/}
 
 MAINTAINER=	pancake@phreaker.net
 HOMEPAGE=	http://hte.sourceforge.net
-COMMENT=	file editor/viewer/analyzer for executables
+COMMENT=	File editor/viewer/analyzer for executables
 
 USE_BUILDLINK2=	YES
 GNU_CONFIGURE=	YES

@@ -8,7 +8,7 @@ MASTER_SITES=   ${MASTER_SITE_SOURCEFORGE:=lde/}
 
 MAINTAINER=	pancake@phreaker.net
 HOMEPAGE=	http://lde.sourceforge.net
-COMMENT=	curses based file system viewer/editor for Linux
+COMMENT=	Curses based file system viewer/editor for Linux
 
 USE_BUILDLINK2=	YES
 USE_NCURSES=	YES # missing function termname

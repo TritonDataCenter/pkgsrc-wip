@@ -8,7 +8,7 @@ DISTFILES=	# empty
 
 MAINTAINER=	cjep@netbsd.org
 HOMEPAGE=	# irrelevant
-COMMENT=	provides some useful modules for Radiator
+COMMENT=	Provides some useful modules for Radiator
 
 DEPENDS+=	p5-Digest-MD4>=1.1:../../security/p5-Digest-MD4
 DEPENDS+=	p5-perl-ldap>=0.22:../../databases/p5-perl-ldap

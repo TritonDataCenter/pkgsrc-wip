@@ -9,7 +9,7 @@ EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	reed@reedmedia.net
 HOMEPAGE=	http://www.theora.org/
-COMMENT=	video codec for Ogg multimedia streaming (nightly source)
+COMMENT=	Video codec for Ogg multimedia streaming (nightly source)
 
 PKGVER!=	date +%Y%m%d
 

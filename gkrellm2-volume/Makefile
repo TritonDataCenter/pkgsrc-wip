@@ -7,7 +7,7 @@ MASTER_SITES=	http://gkrellm.luon.net/files/
 
 MAINTAINER=	cube@cubidou.net
 HOMEPAGE=	http://gkrellm.luon.net/volume.phtml
-COMMENT=	gkrellm2 volume mixer plugin
+COMMENT=	Gkrellm2 volume mixer plugin
 
 BUILD_USES_MSGFMT=	YES
 

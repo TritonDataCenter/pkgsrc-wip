@@ -7,6 +7,6 @@ MASTER_SITES=		http://users.footprints.net/~kaz/
 
 MAINTAINER=		adam@monkeybyte.org
 HOMEPAGE=		http://users.footprints.net/~kaz/
-COMMENT=		database management system
+COMMENT=		Database management system
 
 .include "../../mk/bsd.pkg.mk"

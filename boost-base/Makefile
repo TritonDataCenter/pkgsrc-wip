@@ -9,7 +9,7 @@ MASTER_SITES=	http://twtelecom.dl.sourceforge.net/sourceforge/boost/
 
 MAINTAINER=		felix@students.poly.edu
 HOMEPAGE=		http://www.boost.org
-COMMENT=		free, portable c++ libraries that integrate with C++ Standard library
+COMMENT=		Free, portable c++ libraries that integrate with C++ Standard library
 
 CONFLICTS=		boost-1.28.0
 

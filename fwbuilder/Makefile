@@ -7,7 +7,7 @@ MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=fwbuilder/}
 
 MAINTAINER=		marc@informatik.uni-bremen.de
 HOMEPAGE=		http://www.fwbuilder.org/
-COMMENT=		firewall configuration and management tool
+COMMENT=		Firewall configuration and management tool
 
 USE_CXX=		yes
 USE_X11=		yes

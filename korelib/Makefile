@@ -6,7 +6,7 @@ MASTER_SITES=	http://host33.ipowerweb.com/~smga3000/thekompany/Korelib/
 
 MAINTAINER=	jnr@cwru.edu
 HOMEPAGE=	http://www.thekompany.com/projects/korelib/
-COMMENT=	cross-platform C++ library for developing modular applications
+COMMENT=	Cross-platform C++ library for developing modular applications
 
 GNU_CONFIGURE=	YES
 USE_LIBTOOL=	YES

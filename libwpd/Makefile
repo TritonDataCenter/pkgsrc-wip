@@ -6,7 +6,7 @@ MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=libwpd/}
 
 MAINTAINER=	reed@reedmedia.net
 HOMEPAGE=	http://libwpd.sourceforge.net/
-COMMENT=	library for importing and exporting WordPerfect(tm) documents
+COMMENT=	Library for importing and exporting WordPerfect(tm) documents
 
 USE_BUILDLINK2=	YES
 GNU_CONFIGURE=	YES

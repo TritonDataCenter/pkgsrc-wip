@@ -6,7 +6,7 @@ MASTER_SITES=		http://www.cix.co.uk/~mayday/dev86/
 EXTRACT_SUFX=		.tar.bz2
 
 MAINTAINER=		packages@netbsd.org
-COMMENT=	 	simple assember and linker for x86 machine code
+COMMENT=	 	Simple assember and linker for x86 machine code
 
 # devel/bcc also provides as86 and ld86
 CONFLICTS=		bcc-*

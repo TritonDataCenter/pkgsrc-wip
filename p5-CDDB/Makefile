@@ -7,7 +7,7 @@ MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=../by-authors/id/R/RC/RCAPUTO/}
 
 MAINTAINER=	packages@netbsd.org
 HOMEPAGE=	http://search.cpan.org/search?module=CDDB
-COMMENT=	high-level interface to the Compact Disc Database
+COMMENT=	High-level interface to the Compact Disc Database
 
 USE_BUILDLINK2=		yes
 

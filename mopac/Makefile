@@ -15,7 +15,7 @@ PATCH_DIST_STRIP=	-p1
 
 MAINTAINER=	oishi@ims.ac.jp
 HOMEPAGE=	http://server.ccl.net/cca/software/LINUX/mopac7/index.shtml
-COMMENT=	molecular energy calculation program
+COMMENT=	Molecular energy calculation program
 
 WRKSRC=			${WRKDIR}/mopac7
 ALL_TARGET=		MOPAC7

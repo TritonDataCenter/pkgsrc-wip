@@ -7,7 +7,7 @@ MASTER_SITES=	http://ftp.mozilla.org/pub/webtools/
 
 MAINTAINER=	adrianp@stindustries.net
 HOMEPAGE=	http://www.bugzilla.org/
-COMMENT=	web based bug tracking system
+COMMENT=	Web based bug tracking system
 
 DEPENDS+=	p5-Template-Toolkit>=2.07:../../www/p5-Template-Toolkit
 #DEPENDS+=	gd>=1.19:../../graphics/gd

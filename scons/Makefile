@@ -7,7 +7,7 @@ MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=scons/}
 
 MAINTAINER=		marc@informatik.uni-bremen.de
 HOMEPAGE=		http://www.scons.org/
-COMMENT=		build system, written in Python
+COMMENT=		Build system, written in Python
 
 PYDISTUTILSPKG=		yes
 USE_BUILDLINK2=		yes

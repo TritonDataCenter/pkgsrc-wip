@@ -8,7 +8,7 @@ EXTRACT_SUFX=	.zip
 
 MAINTAINER=	soren@blef.org
 HOMEPAGE=	http://www.xevil.com/
-COMMENT=	side scrolling, bloody action game
+COMMENT=	Side scrolling, bloody action game
 
 MAKEFILE=	makefile
 

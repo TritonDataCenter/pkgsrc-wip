@@ -7,7 +7,7 @@ MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=ht2html/}
 
 MAINTAINER=		marc@informatik.uni-bremen.de
 HOMEPAGE=		http://ht2html.sourceforge.net/
-COMMENT=		simple web page templating system
+COMMENT=		Simple web page templating system
 
 USE_BUILDLINK2=		yes
 PY_PATCHPLIST=		yes

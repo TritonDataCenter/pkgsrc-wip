@@ -7,7 +7,7 @@ MASTER_SITES=		http://primates.ximian.com/~dave/mist/
 
 MAINTAINER=		soren@blef.org
 HOMEPAGE=		http://primates.ximian.com/~dave/mist/
-COMMENT=		flat engine for GTK+ 2.x
+COMMENT=		Flat engine for GTK+ 2.x
 
 GNU_CONFIGURE=		YES
 USE_BUILDLINK2=		YES

@@ -8,7 +8,7 @@ EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	cube@cubidou.net
 HOMEPAGE=	http://kmlinux.fjfi.cvut.cz/~makovick/gkrellm/index.html
-COMMENT=	pings several machines and prints out stats
+COMMENT=	Pings several machines and prints out stats
 
 USE_BUILDLINK2=	YES
 USE_PKGINSTALL=	YES

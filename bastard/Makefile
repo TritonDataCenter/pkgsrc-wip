@@ -9,7 +9,7 @@ EXTRACT_SUFX=	.tgz
 
 MAINTAINER=		adam@monkeybyte.org
 HOMEPAGE=		http://bastard.sourceforge.net/
-COMMENT=		disassembler for ELF x86 binarys
+COMMENT=		Disassembler for ELF x86 binarys
 
 USE_BUILDLINK2= YES
 USE_GMAKE= 		YES

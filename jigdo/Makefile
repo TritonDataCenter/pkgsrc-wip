@@ -8,7 +8,7 @@ EXTRACT_SUFX=		.tar.bz2
 
 MAINTAINER=		collver1@comcast.net
 HOMEPAGE=		http://home.in.tum.de/~atterer/jigdo/
-COMMENT=		download manager and ISO image constructor
+COMMENT=		Download manager and ISO image constructor
 
 DEPENDS+=		wget>=1.8.2:../../net/wget
 

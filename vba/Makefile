@@ -9,7 +9,7 @@ EXTRACT_SUFX=		.zip
 
 MAINTAINER=		soren@blef.org
 HOMEPAGE=		http://vboy.emuhq.com/
-COMMENT=		gameboy advance emulator
+COMMENT=		Gameboy advance emulator
 
 USE_GMAKE=		yes
 USE_BUILDLINK2=		yes

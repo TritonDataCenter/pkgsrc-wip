@@ -7,7 +7,7 @@ CATEGORIES=	games
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=tuxtype/}
 
 MAINTAINER=	reed@reedmedia.net
-COMMENT=	educational typing tutorial game for children
+COMMENT=	Educational typing tutorial game for children
 HOMEPAGE=	http://tuxtype.sourceforge.net/
 
 VERSION=	1.5.0

@@ -8,7 +8,7 @@ MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=nagios/}
 
 MAINTAINER=	murray@river-styx.org
 HOMEPAGE=	http://www.nagios.org/
-COMMENT=	network monitor
+COMMENT=	Network monitor
 
 .include "../../wip/nagios-base/Makefile.common"
 

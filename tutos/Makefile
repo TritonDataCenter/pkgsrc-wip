@@ -9,7 +9,7 @@ EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	packages@netbsd.org
 HOMEPAGE=	http://www.tutos.org/homepage/about.html
-COMMENT=	time and team management software
+COMMENT=	Time and team management software
 
 USE_BUILDLINK2=	yes
 USE_PKGINSTALL=	yes

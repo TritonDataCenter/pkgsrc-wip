@@ -9,7 +9,7 @@ EXTRACT_SUFX=		.zip
 
 MAINTAINER=		marc@informatik.uni-bremen.de
 HOMEPAGE=		http://effbot.org/zone/element.htm
-COMMENT=		read XML and HTML files into trees of Element objects
+COMMENT=		Read XML and HTML files into trees of Element objects
 
 PY_PATCHPLIST=		yes
 PYDISTUTILSPKG=		yes

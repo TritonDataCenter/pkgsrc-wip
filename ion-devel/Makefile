@@ -8,7 +8,7 @@ MASTER_SITES=	http://modeemi.fi/~tuomov/dl/
 
 MAINTAINER=	cube@cubidou.net
 HOMEPAGE=	http://iki.fi/~tuomov/ion/
-COMMENT=	keyboard friendly tiling window manager
+COMMENT=	Keyboard friendly tiling window manager
 
 USE_BUILDLINK2=	YES
 USE_PKGINSTALL=	YES

@@ -7,7 +7,7 @@ MASTER_SITES=		# empty
 DISTFILES=		# empty
 
 MAINTAINER=		packages@NetBSD.ORG
-COMMENT=		print a dependency ordering of interdependent files
+COMMENT=		Print a dependency ordering of interdependent files
 
 # NetBSD since 1.5.2? has this included in base install.
 NOT_FOR_PLATFORM=	NetBSD-*-*

@@ -7,7 +7,7 @@ DISTFILES=	# empty
 
 MAINTAINER=	jrp@hispabsd.org
 HOMEPAGE=	http://www.gnome.org/
-COMMENT=	meta-package with extras for GNOME2
+COMMENT=	Meta-package with extras for GNOME2
 
 DEPENDS+=	gnome>=2.2.3:../../meta-pkgs/gnome2
 DEPENDS+=	gnome2-pkgview>=1.0.0:../../wip/gnome2-pkgview

@@ -8,7 +8,7 @@ EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	adrianp@stindustries.net
 HOMEPAGE= 	http://www.list.org
-COMMENT=	the GNU Mailing List Manager
+COMMENT=	The GNU Mailing List Manager
 
 .include "../../mk/bsd.prefs.mk"
 

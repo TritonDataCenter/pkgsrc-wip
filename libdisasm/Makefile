@@ -9,7 +9,7 @@ EXTRACT_SUFX=	.tgz
 
 MAINTAINER=		adam@monkeybyte.org
 HOMEPAGE=		http://bastard.sourceforge.net/
-COMMENT=		dissassembly library for ELF x86 binarys
+COMMENT=		Dissassembly library for ELF x86 binarys
 
 do-build:
 	cd ${WRKSRC}/src/arch/i386/libdisasm && make

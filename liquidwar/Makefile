@@ -7,7 +7,7 @@ MASTER_SITES=	http://savannah.nongnu.org/download/liquidwar/
 
 MAINTAINER=	packages@netbsd.org
 HOMEPAGE=	http://www.ufoot.org/liquidwar/
-COMMENT=	unique multiplayer wargame
+COMMENT=	Unique multiplayer wargame
 
 USE_BUILDLINK2=	YES
 USE_GMAKE=	YES

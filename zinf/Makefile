@@ -7,7 +7,7 @@ MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=zinf/}
 
 MAINTAINER=	rxg@netbsd.org
 HOMEPAGE=	http://www.zinf.org/
-COMMENT=	simple but powerful audio player
+COMMENT=	Simple but powerful audio player
 
 #BUILD_DEPENDS+=	nasm>=0.98:../../devel/nasm
 

@@ -8,7 +8,7 @@ DISTFILES=	${DISTNAME}${EXTRACT_SUFX} mercrain.s3m.zip
 
 MAINTAINER=	reed@reedmedia.net
 HOMEPAGE=	http://medernac.home.cern.ch/medernac/SpeedX/index_en.html
-COMMENT=	car racing game for X
+COMMENT=	Car racing game for X
 
 SITES_mercrain.s3m.zip=	http://www.modarchive.com/cgi-bin/download.cgi/M/
 

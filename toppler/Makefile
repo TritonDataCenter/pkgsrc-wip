@@ -6,7 +6,7 @@ MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=toppler/}
 
 MAINTAINER=		soren@blef.org
 HOMEPAGE=		http://topple.sf.net/
-COMMENT=		tower climbing game
+COMMENT=		Tower climbing game
 
 USE_BUILDLINK2=		yes
 GNU_CONFIGURE=		yes

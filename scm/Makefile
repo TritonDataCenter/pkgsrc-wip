@@ -13,7 +13,7 @@ EXTRACT_SUFX=	.zip
 
 MAINTAINER=	davids@idiom.com
 HOMEPAGE=	http://www.swiss.ai.mit.edu/~jaffer/SCM.html
-COMMENT=	portable scheme interpreter
+COMMENT=	Portable scheme interpreter
 
 BUILD_DEPENDS+=	slib-${SLIB_VER}:../../devel/slib
 DEPENDS+=	${BUILD_DEPENDS}

@@ -7,7 +7,7 @@ EXTRACT_SUFX=		.tar.bz2
 
 MAINTAINER=		packages@netbsd.org
 HOMEPAGE=		http://www.wi.leidenuniv.nl/~wichert/strace/
-COMMENT=		system call tracing utility
+COMMENT=		System call tracing utility
 
 GNU_CONFIGURE=		YES
 

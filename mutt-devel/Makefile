@@ -10,7 +10,7 @@ MASTER_SITES=		ftp://ftp.mutt.org/mutt/ \
 
 MAINTAINER=		charlie@rubberduck.com
 HOMEPAGE=		http://www.mutt.org/
-COMMENT=		text-based MIME mail client with PGP support
+COMMENT=		Text-based MIME mail client with PGP support
 
 # for nntp patch
 DISTFILES=  ${DISTNAME}${EXTRACT_SUFX}
