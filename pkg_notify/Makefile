@@ -22,8 +22,6 @@ USE_PERL5=	yes
 
 INSTALLATION_DIRS=	bin
 
-pre-patch:
-
 SUBST_CLASSES+=	pkg_notify
 SUBST_MESSAGE.pkg_notify=	"Setting up various path."
 SUBST_STAGE.pkg_notify=		post-patch
