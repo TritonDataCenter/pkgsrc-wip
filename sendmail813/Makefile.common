@@ -50,4 +50,9 @@ make-sendmail-siteconfig:
 .if ${OPSYS} == "SunOS"
 	@${CAT} ${FILESDIR}/site.config.m4-solaris >>${SITECONFIG}
 .endif
+
+.if ${OPSYS} == "Linux"
+	@${CAT} ${FILESDIR}/site.config.m4-linux >>${SITECONFIG}
+.endif
+
 	@${CAT} ${FILESDIR}/site.config.m4-milter >>${SITECONFIG}
