@@ -33,7 +33,7 @@ post-install:
 	${CP} ${WRKSRC}/test_* ${PREFIX}/share/mopac7/sample
 	${CP} -pR ${WRKDIR}/mopac7-man ${PREFIX}/share/mopac7
 
-# "g77" can not be used for external function 
+# "g77" can not be used for external function
 
 .include "../../lang/f2c/buildlink2.mk"
 .include "../../mk/bsd.pkg.mk"

@@ -12,7 +12,7 @@ COMMENT=	Library for using icecast servers
 GNU_CONFIGURE=		# defined
 REAL_INSTALL=		${INSTALL} -c -o 0 -g 0
 
-# The GNU Makefile in the distribution is stubborn about changing where 
+# The GNU Makefile in the distribution is stubborn about changing where
 # docs and examples get installed, so...
 
 .include "../../mk/bsd.prefs.mk"

@@ -3,9 +3,9 @@ $NetBSD$
 Juan RP:
 
 * I can't test this package because only I've got a nvidia
-  graphics card, the suppport is very bad. 
+  graphics card, the suppport is very bad.
 
 * In the documentation, it says that works on BSD with SDL.
 
 * Test it and report any problem to the mailing list.
-  Thank you. 
+  Thank you.

@@ -25,7 +25,7 @@ CONFIGURE_ARGS+=	--with-lame=${BUILDLINK_PREFIX.lame} \
 # Set USE_VORBIS to optionally include these in ices
 #
 
-# For Python support, we need a shared library.. 
+# For Python support, we need a shared library..
 #.if defined(USE_PYTHON)
 #.   include "../../lang/python/application.mk"
 #CONFIGURE_ARGS+=	--with-python
