@@ -27,6 +27,7 @@ CONFIGURE_ARGS+=	--disable-gtk
 
 USE_BUILTIN.libpcap=	no
 USE_BUILTIN.ncurses=	no
+USE_BUILTIN.openssl=	no
 
 CONF_FILES=	${PREFIX}/share/examples/ettercap-NG/etter.conf \
 		${PKG_SYSCONFDIR}/etter.conf
@@ -44,8 +45,8 @@ CONFIGURE_ARGS+=	--enable-gtk
 # Bad hack as I think there's a bug floating round the place
 # with INSTALL_UNSTRIPPED=yes being ignored in cetain cases.
 .if ${OPSYS} == "Darwin"
-_STRIPFLAG_CC=		
-_STRIPFLAG_INSTALL=	
+_STRIPFLAG_CC=
+_STRIPFLAG_INSTALL=
 .endif
 
 post-install:
