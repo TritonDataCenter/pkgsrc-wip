@@ -10,7 +10,7 @@ MAINTAINER=		tv@duh.org
 HOMEPAGE=		http://search.cpan.org/dist/String-Approx/
 COMMENT=		Approximate (fuzzy) string matching library for Perl
 
-USE_BUILDLINK2=		yes
+USE_BUILDLINK3=		yes
 PERL5_PACKLIST=		${PERL5_SITEARCH}/auto/String/Approx/.packlist
 
 .include "../../lang/perl5/module.mk"

@@ -13,7 +13,7 @@ COMMENT=	Pure-Perl Milter protocol API
 # Though it doesn't exist yet, just in case:
 CONFLICTS+=	p5-Sendmail-Milter-[0-9]*
 
-USE_BUILDLINK2=	YES
+USE_BUILDLINK3=	YES
 PERL5_PACKLIST=	${PERL5_SITEARCH}/auto/Sendmail/PMilter/.packlist
 PERL5_REQD+=	5.6.0
 

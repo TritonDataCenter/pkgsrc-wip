@@ -12,7 +12,7 @@ COMMENT=		Hash collision based postage stamp
 
 MAKE_FLAGS=		COPT="${CFLAGS} -Dunix"
 
-USE_BUILDLINK2=		yes
+USE_BUILDLINK3=		yes
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/hashcash ${PREFIX}/bin/

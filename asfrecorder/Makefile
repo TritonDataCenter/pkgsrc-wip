@@ -12,7 +12,7 @@ MAINTAINER=		tv@duh.org
 HOMEPAGE=		http://asfrecorder.sourceforge.net/
 COMMENT=		Static-file downloader for ASF streaming media
 
-USE_BUILDLINK2=		yes
+USE_BUILDLINK3=		yes
 
 do-build:
 	cd ${WRKSRC} && ${LINK.c} -o asfrecorder asfrecorder.c

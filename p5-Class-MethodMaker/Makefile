@@ -10,7 +10,7 @@ MAINTAINER=		tv@duh.org
 HOMEPAGE=		http://search.cpan.org/dist/Class-MethodMaker/
 COMMENT=		Getter/setter OO method maker for class elements
 
-USE_BUILDLINK2=		yes
+USE_BUILDLINK3=		yes
 USE_PKGLOCALEDIR=	yes
 PERL5_PACKLIST=		${PERL5_SITEARCH}/auto/Class-MethodMaker/.packlist
 

@@ -14,7 +14,7 @@ COMMENT=		Perl interface to GnuPG
 DEPENDS+=		p5-Class-MethodMaker>=1.00:../../wip/p5-Class-MethodMaker
 DEPENDS+=		gnupg>=1.2.3:../../security/gnupg
 
-USE_BUILDLINK2=		yes
+USE_BUILDLINK3=		yes
 PERL5_PACKLIST=		${PERL5_SITEARCH}/auto/GnuPG/Interface/.packlist
 
 .include "../../lang/perl5/module.mk"
