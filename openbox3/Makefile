@@ -8,7 +8,7 @@ MASTER_SITES=	http://icculus.org/openbox/releases/
 
 MAINTAINER=	jmmv@NetBSD.org
 HOMEPAGE=	http://icculus.org/openbox/
-COMMENT=	Standards compliant, light-weight and extensible window manager.
+COMMENT=	Standards compliant, light-weight and extensible window manager
 
 BUILD_USES_MSGFMT=	YES
 DEPENDS+=		gnome2-dirs>=1.2:../../misc/gnome2-dirs
