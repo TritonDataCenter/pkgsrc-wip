@@ -6,7 +6,7 @@ CATEGORIES=		wip devel
 MASTER_SITES=		http://download.berlios.de/gune/
 
 MAINTAINER=		Peter.Bex@student.kun.nl
-HOMEPAGE=		http://gune.sourceforge.net/
+HOMEPAGE=		http://gune.berlios.de/
 COMMENT=		High level C utility library
 
 .include "../../mk/bsd.pkg.mk"
