@@ -18,12 +18,7 @@ GNU_CONFIGURE=		yes
 USE_AUTOCONF=		yes
 AUTOCONF_REQD=		2.12
 USE_GMAKE=		yes
-CC=${LOCALBASE}/gcc3/bin/cc
-CPP=${LOCALBASE}/gcc3/bin/cpp
-CXX=${LOCALBASE}/gcc3/bin/cxx
-GCC=${LOCALBASE}/gcc3/bin/gcc
-MAKE_ENV+=ADAC=${LOCALBASE}/gcc3/bin/gcc
-MAKE_ENV+=ADA_INCLUDE_PATH+=${GCC_ARCHDIR}/adainclude
+GCC_SUBPREFIX=		gcc3
 
 post-extract:
 	${CP} ${FILESDIR}/pconfig.NetBSD ${WRKSRC}/configs
@@ -40,3 +35,4 @@ do-install:
 
 .include "../../mk/autoconf.mk"
 .include "../../mk/bsd.pkg.mk"
+.include "${LOCALBASE}/${GCC_SUBPREFIX}/mk/ada.mk"
