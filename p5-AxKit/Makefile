@@ -23,7 +23,7 @@ DEPENDS+=	p5-XML-XPath>=1.00:../../textproc/p5-XML-XPath
 DEPENDS+=	p5-XML-LibXML>=1.51:../../textproc/p5-XML-LibXML
 DEPENDS+=	p5-XML-LibXSLT>=1.49:../../wip/p5-XML-LibXSLT
 DEPENDS+=	p5-XML-Sablotron>=0.40:../../wip/p5-XML-Sablotron
-DEPENDS+=	p5-Perl-Tidy>=20031021:../../wip/p5-Perl-Tidy
+DEPENDS+=	p5-Perl-Tidy>=20031021:../../devel/p5-Perl-Tidy
 
 .include "../../textproc/libxml2/buildlink2.mk"
 DEPENDS+=	${BUILDLINK_DEPENDS.libxml2}
