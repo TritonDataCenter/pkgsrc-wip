@@ -34,7 +34,6 @@ do-install:
 	${MV} ${PREFIX}/games/${PKGBASE}/bin/starter ${PREFIX}/bin/${PKGBASE}
 
 .include "../../audio/SDL_mixer/buildlink2.mk"
-.include "../../graphics/glu/buildlink2.mk"
 .include "../../graphics/SDL_image/buildlink2.mk"
 .include "../../graphics/jpeg/buildlink2.mk"
 .include "../../graphics/png/buildlink2.mk"
