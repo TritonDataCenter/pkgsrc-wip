@@ -102,7 +102,7 @@ post-extract:
 		-e "s|BLNK|${BUILDLINK_DIR}|g" \
 		-e "s|PREFIX|${X11BASE}|g" \
 		-e "s|LOCALBASE|${LOCALBASE}|g" \
-		-e "s|@LDFLAGS@|${LDFLAGS}|g" \
+		-e "s|LDFLAGS|${LDFLAGS}|g" \
 		${FILESDIR}/host.def > ${WRKSRC}/config/cf/host.def
 	@${LN} -sf ${PREFIX}/bin/gccmakedep ${WRKSRC}/config/util
 	@${LN} -sf ${PREFIX}/bin/revpath ${WRKSRC}/config/util
