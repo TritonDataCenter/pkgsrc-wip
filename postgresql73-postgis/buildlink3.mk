@@ -31,7 +31,7 @@ BUILDLINK_PKGSRCDIR.postgresql73-postgis-1.0.0?=	../../wip/postgresql73-postgis
 # XXX provides a wrappered API or otherwise does not expose the APIs of the
 # XXX buildlink3 lines below to dependencies, remove them.
 # XXX
-.include "../../wip/geos2/buildlink3.mk"
+.include "../../wip/geos/buildlink3.mk"
 .include "../../misc/proj/buildlink3.mk"
 
 BUILDLINK_DEPTH:=     ${BUILDLINK_DEPTH:S/+$//}
