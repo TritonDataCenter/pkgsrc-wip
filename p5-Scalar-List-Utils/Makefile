@@ -7,7 +7,7 @@ SVR4_PKGNAME=		p5slu
 CATEGORIES=		lang perl5
 MASTER_SITES=		${MASTER_SITE_PERL_CPAN:=Scalar/}
 
-MAINTAINER=		tech-pkg@netbsd.org
+MAINTAINER=		tech-pkg@NetBSD.org
 HOMEPAGE=		http://search.cpan.org/search?dist=Scalar-List-Utils
 COMMENT=		Perl subroutines that would be nice to have in the perl core
 
