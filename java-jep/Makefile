@@ -11,11 +11,14 @@ HOMEPAGE=		http://www.singularsys.com/jep/
 COMMENT=		Java Mathematical Expression Parser
 
 USE_BUILDLINK3=		yes
-
-do-build:
+NO_BUILD=		#defined
 
 do-install:
 	${INSTALL_DATA} ${WRKSRC}/jep-2.24.jar \
 		${PREFIX}/share/classpath/jep.jar
+	${INSTALL_DATA_DIR} ${PREFIX}/share/doc/java-jep/
+	${CP} -rf ${WRKSRC}/doc/* ${PREFIX}/share/doc/java-jep/
+	${CHOWN} -R ${SHAREOWN}:${SHAREGRP} ${PREFIX}/share/doc/java-jep/
+	${CHMOD} ${SHAREMODE} ${PREFIX}/share/doc/java-jep/
 
 .include "../../mk/bsd.pkg.mk"
