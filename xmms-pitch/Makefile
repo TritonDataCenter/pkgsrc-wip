@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		pitch-plugin-xmms
-PKGNAME=		xmms-${DISTNAME:S/-xmms//}
+PKGNAME=		xmms-${DISTNAME:S/-xmms//}-0.0.1
 CATEGORIES=		audio
 MASTER_SITES=		http://www.lionking.org/%7Ejammet/temp/
 
