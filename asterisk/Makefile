@@ -42,10 +42,8 @@ ASTEXAMPLEDIR?=${PREFIX}/share/examples/asterisk
 # Override default paths in Makefile
 SUBST_CLASSES+= 	asterisk
 SUBST_STAGE.asterisk= 	pre-configure
-SUBST_FILES.asterisk=	Makefile apps/Makefile channels/Makefile res/Makefile
+SUBST_FILES.asterisk=	Makefile
 SUBST_SED.asterisk= 	\
-	-e "s|/usr/local/include/zaptel.h|${PREFIX}/include/zaptel.h|"	\
-	-e "s|-ltonezone|-L${PREFIX}/lib -ltonezone|"		\
 	-e "s|^\(ASTLIBDIR\)=.*|\1 = ${ASTLIBDIR}|"		\
 	-e "s|^\(ASTVARLIBDIR\)=.*|\1 = ${ASTVARLIBDIR}|"	\
 	-e "s|^\(ASTETCDIR\)=.*|\1 = ${ASTETCDIR}|"		\
