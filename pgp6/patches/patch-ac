@@ -7,7 +7,7 @@ $NetBSD$
  # define ioctlsocket(a,b,c) ioctl((a),(b),(c))
  typedef int		SOCKET;
 -#if PGP_UNIX_LINUX || PGP_UNIX_HPUX || PGP_UNIX_AIX
-+#if PGP_UNIX_LINUX || PGP_UNIX_HPUX || PGP_UNIX_AIX || defined(__NetBSD__)
++#if PGP_UNIX_LINUX || PGP_UNIX_HPUX || PGP_UNIX_AIX || defined(__NetBSD__) || defined(__FreeBSD__) || defined(__OpenBSD__)
  int gethostname (char * name, size_t namelen);
  #else
  int gethostname (char * name, int namelen);
