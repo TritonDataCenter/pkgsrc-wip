@@ -1,4 +1,0 @@
-@comment $NetBSD$
-bin/GrabWeather
-lib/gkrellm2/plugins/gkrellweather.so
-${PKGLOCALEDIR}/locale/ru/LC_MESSAGES/gkrellweather.mo
