@@ -35,4 +35,4 @@ do-install:
 
 .include "../../mk/autoconf.mk"
 .include "../../mk/bsd.pkg.mk"
-.include "${LOCALBASE}/${GCC_SUBPREFIX}/mk/ada.mk"
+#.include "${LOCALBASE}/${GCC_SUBPREFIX}/mk/ada.mk"
