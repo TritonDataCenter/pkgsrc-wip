@@ -30,5 +30,5 @@ BROKEN=		Needs wxGTK to be compiled against GTK2 -- unset WXGTK_USE_GTK1 and rei
 
 .include "../../x11/wxGTK/buildlink3.mk"
 .include "../../wip/wxGTK-contrib/buildlink3.mk"
-.include "../../wip/postgresql74-lib/buildlink3.mk"
+.include "../../databases/postgresql74-lib/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
