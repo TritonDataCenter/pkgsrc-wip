@@ -1,0 +1,5 @@
+@comment $NetBSD$
+man/man5/and.conf.5
+man/man5/and.priorities.5
+man/man8/and.8
+sbin/and
