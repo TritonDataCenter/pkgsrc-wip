@@ -9,7 +9,7 @@
 LIBGPG_ERROR_BUILDLINK2_MK=	# defined
 
 BUILDLINK_PACKAGES+=			libgpg-error
-BUILDLINK_DEPENDS.libgpg-error?=		libgpg-error>=0.5
+BUILDLINK_DEPENDS.libgpg-error?=		libgpg-error>=0.6
 BUILDLINK_PKGSRCDIR.libgpg-error?=		../../wip/libgpg-error
 
 EVAL_PREFIX+=	BUILDLINK_PREFIX.libgpg-error=libgpg-error

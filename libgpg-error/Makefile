@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	libgpg-error-0.5
+DISTNAME=	libgpg-error-0.6
 CATEGORIES=	security devel
 MASTER_SITES=	ftp://ftp.gnupg.org/GnuPG/alpha/libgpg-error/
 
@@ -14,5 +14,7 @@ USE_LIBTOOL=	YES
 GNU_CONFIGURE=	YES
 
 LIBTOOL_OVERRIDE=	${WRKSRC}/libtool
+
+.include "../../devel/gettext-lib/buildlink2.mk"
 
 .include "../../mk/bsd.pkg.mk"

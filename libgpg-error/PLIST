@@ -5,5 +5,6 @@ lib/libgpg-error.a
 lib/libgpg-error.la
 lib/libgpg-error.so
 lib/libgpg-error.so.1
-lib/libgpg-error.so.1.0
+lib/libgpg-error.so.1.1
 share/aclocal/gpg-error.m4
+${PKGLOCALEDIR}/locale/de/LC_MESSAGES/libgpg-error.mo

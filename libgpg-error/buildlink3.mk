@@ -8,7 +8,7 @@ BUILDLINK_DEPENDS+=	libgpg-error
 .endif
 
 .if !empty(LIBGPG_ERROR_BUILDLINK3_MK:M\+)
-BUILDLINK_DEPENDS.libgpg-error?=	libgpg-error>=0.5
+BUILDLINK_DEPENDS.libgpg-error?=	libgpg-error>=0.6
 BUILDLINK_PKGSRCDIR.libgpg-error?=	../../wip/libgpg-error
 BUILDLINK_PACKAGES+=	libgpg-error
 .endif # LIBGPG_ERROR_BUILDLINK3_MK
