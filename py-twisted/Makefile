@@ -9,7 +9,7 @@ MASTER_SITES=		http://twisted.sourceforge.net/ \
 EXTRACT_SUFX=		.tar.bz2
 
 MAINTAINER=		marc@informatik.uni-bremen.de
-HOMEPAGE=		http://twisted.sourceforge.net/
+HOMEPAGE=		http://www.twistedmatrix.com/
 COMMENT=		Framework for writing networked applications
 
 USE_BUILDLINK2=		yes
