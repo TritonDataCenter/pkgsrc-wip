@@ -8,7 +8,7 @@ $NetBSD$
  #include <unistd.h>
 +#include <sys/param.h>
 +#ifdef __FreeBSD__ && __FreeBSD_version >= 500000
-+#include <sys/endian.h>a
++#include <sys/endian.h>
 +#elif defined __NetBSD__
 +#include <sys/endian.h>
 +#else
