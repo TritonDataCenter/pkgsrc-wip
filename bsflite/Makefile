@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	bsflite-0.72
+DISTNAME=	bsflite-0.73
 CATEGORIES=	chat
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=bsflite/}
 
