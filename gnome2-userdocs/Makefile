@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	gnome2-user-docs-2.0.6
-CATEGORIES=	x11
+CATEGORIES=	misc
 MASTER_SITES=	${MASTER_SITE_GNOME:=sources/gnome2-user-docs/2.0/}
 EXTRACT_SUFX=	.tar.bz2
 
