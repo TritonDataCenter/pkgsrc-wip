@@ -1,0 +1,10 @@
+===========================================================================
+$NetBSD$
+
+Please install package:
+
+	security/py-amkCrypto
+
+if you plan to use Twisted Conch (SSH client/server).
+
+===========================================================================
