@@ -8,7 +8,7 @@ MASTER_SITES=	${MASTER_SITE_GNOME:=sources/gtk-thinice-engine/2.0/}
 EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	jrp@hispabsd.org
-HOMEPAGE=	http://www.gnome.org/
+HOMEPAGE=	http://thinice.sourceforge.net/
 COMMENT=	Simple, clean theme engine
 
 DEPENDS=		gnome2-dirs>=1.0:../../misc/gnome2-dirs
