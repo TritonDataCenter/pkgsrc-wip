@@ -7,6 +7,7 @@ CATEGORIES=	math perl5
 MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=Math/}
 
 MAINTAINER=	imil@gcu.info
+HOMEPAGE=	http://search.cpan.org/dist/Math-Random/
 COMMENT=	Random number generators
 
 USE_BUILDLINK3=	YES
