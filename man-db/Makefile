@@ -2,6 +2,7 @@
 
 DISTNAME=		man-db_${VERSION}.orig
 PKGNAME=		man-db-${VERSION}
+WRKSRC=			${WRKDIR}/${PKGNAME}
 CATEGORIES=		misc
 MASTER_SITES=		${MASTER_SITE_DEBIAN:=pool/main/m/man-db/}
 
