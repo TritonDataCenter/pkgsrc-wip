@@ -13,6 +13,7 @@ rcvar=$name
 command="@PREFIX@/sbin/${name} @PKG_SYSCONFDIR@/$name.conf"
 pidfile="/var/run/${name}.pid"
 required_files="@PKG_SYSCONFDIR@/$name.conf"
+ezbounce_user="ezbounce"
 
 load_rc_config $name
 run_rc_command "$1"

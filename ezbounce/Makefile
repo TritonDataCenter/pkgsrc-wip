@@ -19,6 +19,12 @@ CONFIGURE_ARGS+=	--with-ssl
 EGDIR=		${PREFIX}/share/examples/ezbounce
 DOCDIR=		${PREFIX}/share/doc/ezbounce
 
+EZBOUNCE_USER=		ezbounce
+EZBOUNCE_GROUP=		ezbounce
+
+PKG_GROUPS=             ${EZBOUNCE_GROUP}
+PKG_USERS=		${EZBOUNCE_USER}:${EZBOUNCE_GROUP}::Ezbounce\\ user
+
 RCD_SCRIPTS=            ezbounce
 
 CONF_FILES=	${EGDIR}/ezbounce.conf.default ${PKG_SYSCONFDIR}/ezbounce.conf
