@@ -1,6 +1,10 @@
 ===========================================================================
 $NetBSD$
 
-Please go to http://foo.unix.se/joelw/pflkm.html for documentation.
+Load the LKM and create /dev/pf like this:
+
+# modload -p ${PREFIX}/sbin/pfmkdev ${PREFIX}/lkm/pfmodule.o
+
+Please go to http://foo.unix.se/joelw/pflkm.html for more documentation.
 
 ===========================================================================

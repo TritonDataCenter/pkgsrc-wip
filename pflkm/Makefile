@@ -2,6 +2,8 @@
 #
 
 DISTNAME=		pflkm-3.3-current
+PKGNAME=		pflkm-3.3
+PKGREVISION=		2
 CATEGORIES=		net
 MASTER_SITES=		http://unix.se/joelw/pflkm/
 
