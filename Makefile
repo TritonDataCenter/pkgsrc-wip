@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.854 2004/01/05 21:41:39 xtraeme Exp $
+# $Id: Makefile,v 1.855 2004/01/05 23:25:10 xtraeme Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -142,8 +142,6 @@ SUBDIR+=	emirror
 SUBDIR+=	entropy
 SUBDIR+=	ezbounce
 SUBDIR+=	ezm3
-SUBDIR+=	ezm3-FreeBSD-i386
-SUBDIR+=	ezm3-NetBSD-i386
 SUBDIR+=	fakenes
 SUBDIR+=	festival-gaim
 SUBDIR+=	firebird
