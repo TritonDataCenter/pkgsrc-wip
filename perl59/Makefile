@@ -56,7 +56,7 @@ CONFIGURE_ARGS+=	-Uusemymalloc
 CONFIGURE_ARGS+=	-Uinstallusrbinperl
 TEST_TARGET=		test
 
-# Install Perl man3 pages into a private directory under the the normal
+# Install Perl man3 pages into a private directory under the normal
 # Perl installation.  Also install site-specific Perl man3 pages into a
 # private directory within site_perl.  This avoids manpage conflicts
 # between 3rd-party modules, the standard Perl library, and other
