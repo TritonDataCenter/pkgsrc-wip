@@ -10,7 +10,7 @@ MAINTAINER=		dotz@irc.pl
 HOMEPAGE=		http://www.dclunie.com/
 COMMENT=		Library for dealing with DICOM 3 files
 
-USE_BUILDLINK2=		yes
+USE_BUILDLINK3=		yes
 USE_X11=		yes
 USE_IMAKE=		yes
 
@@ -25,11 +25,11 @@ do-build:
 do-install:
 	cd ${WRKSRC} && ${SETENV} ${MAKE_ENV} ${MAKE} install install.man
 
-.if exists(../../mk/opengl.buildlink2.mk)
+.if exists(../../mk/opengl.buildlink3.mk)
 # see PR #23845 for details
-.include "../../mk/opengl.buildlink2.mk"
+.include "../../mk/opengl.buildlink3.mk"
 .else
-.include "../../graphics/Mesa/buildlink2.mk"
+.include "../../graphics/Mesa/buildlink3.mk"
 .endif
 
 .include "../../mk/bsd.pkg.mk"
