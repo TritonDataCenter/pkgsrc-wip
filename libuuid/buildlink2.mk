@@ -7,7 +7,7 @@
 LIBUUID_BUILDLINK2_MK=	# defined
 
 BUILDLINK_PACKAGES+=			libuuid
-BUILDLINK_DEPENDS.libuuid?=		libuuid>=1.34
+BUILDLINK_DEPENDS.libuuid?=		libuuid>=1.35
 BUILDLINK_PKGSRCDIR.libuuid?=		../../wip/libuuid
 
 EVAL_PREFIX+=	BUILDLINK_PREFIX.libuuid=libuuid
