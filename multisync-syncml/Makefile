@@ -31,4 +31,5 @@ do-install:
 		${MAKE} install
 
 .include "../../devel/libgnomeui/buildlink3.mk"
+.include "../../wip/libwbxml2-patched/buildlink3.mk"
 .include "../../wip/multisync/Makefile.common"
