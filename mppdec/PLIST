@@ -1,2 +1,4 @@
 @comment $NetBSD$
 bin/mppdec
+share/doc/mppdec/MANUAL.TXT
+@dirrm share/doc/mppdec

@@ -11,7 +11,9 @@ HOMEPAGE=		http://www.personal.uni-jena.de/~pfk/mpp/
 COMMENT=		Musepack (MPC) audio file decoder
 
 USE_GNU_TOOLS+=		make
-USE_BUILDLINK3=		# yeah
+USE_BUILDLINK3=		YES
+
+MAKE_ENV+=		LIBOSSAUDIO=${LIBOSSAUDIO:Q}
 
 .include "../../mk/bsd.prefs.mk"
 
@@ -31,6 +33,8 @@ MAKEFILE=		Makefile.nol
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/mppdec ${PREFIX}/bin/mppdec
+	${INSTALL_DATA_DIR} ${PREFIX}/share/doc/mppdec
+	${INSTALL_DATA} ${WRKSRC}/MANUAL.TXT ${PREFIX}/share/doc/mppdec
 
 .include "../../mk/ossaudio.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

@@ -1,0 +1,12 @@
+$NetBSD$
+
+--- Makefile.nol.orig	Wed Jul 31 00:19:57 2002
++++ Makefile.nol
+@@ -6,6 +6,7 @@
+ CC       = cc
+ RM_F     = rm -f
+ LDADD    = -lm
++LDADD   += ${LIBOSSAUDIO}
+ #LDADD  += -lesd
+ #LDADD  += -lossaudio
+ 
