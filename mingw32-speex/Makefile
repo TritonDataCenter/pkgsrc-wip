@@ -23,7 +23,7 @@ do-build:
 	cd ${WRKSRC}/libspeex && for a in ${CFILES}; do \
 		${CC} -c $$a; \
 	done       
-	cd ${WRKSRC}/libspeex && i586-pc-mingw32-gcc -shared -o libspeex-1.0.dll -Wl,--out-implib=libspeex.a *.o
+	cd ${WRKSRC}/libspeex && ${CC} -shared -o libspeex-1.0.dll -Wl,--out-implib=libspeex.a *.o
 	
 do-install:
 	${INSTALL_DATA} ${WRKSRC}/libspeex/libspeex-1.0.dll ${PREFIX}/${MINGWTARGET}/lib
