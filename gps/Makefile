@@ -9,7 +9,7 @@ MAINTAINER=		tech-pkg@NetBSD.org
 HOMEPAGE=		http://gps.sourceforge.net/
 COMMENT=		Ghost Port Scan
 
-USE_BUILDLINK2=		yes
+USE_BUILDLINK3=		yes
 USE_GNU_TOOLS+=		make
 GNU_CONFIGURE=		yes
 
@@ -21,7 +21,7 @@ post-install:
 	${INSTALL_DATA} ${WRKSRC}/AUTHORS ${WRKSRC}/COPYING ${WRKSRC}/ChangeLog ${MISCDIR}
 	${INSTALL_DATA} ${WRKSRC}/docs/* ${DOCSDIR}
 
-.include "../../devel/libnet/buildlink2.mk"
-.include "../../net/libpcap/buildlink2.mk"
+.include "../../devel/libnet/buildlink3.mk"
+.include "../../net/libpcap/buildlink3.mk"
 
 .include "../../mk/bsd.pkg.mk"
