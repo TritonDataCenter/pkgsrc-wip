@@ -1,0 +1,4 @@
+@comment $NetBSD$
+${PYSITELIB}/pexpect.py
+${PYSITELIB}/pexpect.pyc
+${PYSITELIB}/pexpect.pyo
