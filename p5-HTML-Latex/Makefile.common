@@ -1,6 +1,6 @@
 # $NetBSD$
 #
-# common file because latex2html tool comes from same source download
+# common file because html2latex tool comes from same source download
 
 HTML2LATEX_VERSION=	1.1
 DISTNAME=		html2latex-${HTML2LATEX_VERSION}
