@@ -11,12 +11,12 @@ MAINTAINER=		reed@reedmedia.net
 HOMEPAGE=		http://libxmlplusplus.sourceforge.net/
 COMMENT=		C++ wrapper for the libxml2 XML parser library
 
-USE_BUILDLINK2=		yes
+USE_BUILDLINK3=		yes
 USE_LIBTOOL=		yes
 PKGCONFIG_OVERRIDE+=	${WRKSRC}/libxml++-1.0.pc.in
 GNU_CONFIGURE=		yes
 
 CPPFLAGS+=		-I${BUILDLINK_PREFIX.libxml2}/include/libxml2
 
-.include "../../textproc/libxml2/buildlink2.mk"
+.include "../../textproc/libxml2/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
