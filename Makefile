@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.1131 2004/03/28 20:46:29 jmmv Exp $
+# $Id: Makefile,v 1.1132 2004/03/28 20:47:55 jmmv Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -656,7 +656,6 @@ SUBDIR+=	ruby-raggle
 SUBDIR+=	ruby-redcloth
 SUBDIR+=	ruby-syck
 SUBDIR+=	rudiments
-SUBDIR+=	sablevm
 SUBDIR+=	samba3
 SUBDIR+=	same
 SUBDIR+=	scite
