@@ -2,3 +2,4 @@ $NetBSD$
 
 SHA1 (ftpd-tls-20031008.tar.gz) = 409facd3d105bd20c82fed06591687375ac2ac1e
 Size (ftpd-tls-20031008.tar.gz) = 202139 bytes
+SHA1 (patch-aa) = ca4c6840a1e75448ddd57384b9c1dac208ba47f8
