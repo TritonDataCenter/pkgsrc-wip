@@ -1,0 +1,2 @@
+@comment $NetBSD$
+boot/bzImage-${LINUX_VERSION}
