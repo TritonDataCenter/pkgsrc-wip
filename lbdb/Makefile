@@ -18,4 +18,15 @@ USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 USE_GMAKE=  yes
 
+DOCDIR=	${PREFIX}/share/doc/${PKGBASE}
+
+post-install:
+	${INSTALL_DATA_DIR} ${DOCDIR}
+	for f in COPYING README TODO; \
+	do \
+		${INSTALL_DATA} ${WRKSRC}/$${f} ${DOCDIR}; \
+	done
+	${INSTALL_DATA} ${WRKSRC}/debian/changelog ${DOCDIR}/ChangeLog
+	${INSTALL_DATA} ${WRKSRC}/lbdb.sl ${PREFIX}/share/examples/lbdb/
+
 .include "../../mk/bsd.pkg.mk"
