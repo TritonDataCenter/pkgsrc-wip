@@ -11,6 +11,7 @@ COMMENT=	Arbitrary precision calculator language
 
 USE_BUILDLINK2=	YES
 GNU_CONFIGURE=	YES
+INFO_FILES=	bc.info dc.info
 
 .include "../../mk/bsd.prefs.mk"
 
@@ -20,5 +21,4 @@ BUILD_DEPENDS+=	flex-*:../../devel/flex
 
 .include "../../devel/ncurses/buildlink2.mk"
 .include "../../devel/readline/buildlink2.mk"
-.include "../../mk/texinfo.mk"
 .include "../../mk/bsd.pkg.mk"

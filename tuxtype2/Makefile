@@ -14,10 +14,11 @@ VERSION=	1.5.0
 
 GNU_CONFIGURE=	YES
 USE_BUILDLINK2=	YES
+INFO_DIR=	share/tuxtype2/data/text
+INFO_FILES=	english.info spanish.info menu.info
 
 .include "../../graphics/SDL_image/buildlink2.mk"
 .include "../../audio/SDL_mixer/buildlink2.mk"
 .include "../../devel/SDL_ttf/buildlink2.mk"
 
-.include "../../mk/texinfo.mk"
 .include "../../mk/bsd.pkg.mk"

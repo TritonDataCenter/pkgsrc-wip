@@ -16,6 +16,8 @@ AUTOCONF_REQD=		2.13
 AUTOMAKE_REQD=		1.4
 GNU_CONFIGURE=		# defined
 USE_GMAKE=		# defined
+INFO_FILES=	zebra.info zebra.info-1 zebra.info-2 \
+		zebra.info-3 zebra.info-4
 
 # for INET6
 .include "../../mk/bsd.prefs.mk"
@@ -63,5 +65,4 @@ post-install:
 	@${CHMOD} a+r ${PREFIX}/share/examples/zebra/*
 
 .include "../../mk/automake.mk"
-.include "../../mk/texinfo.mk"
 .include "../../mk/bsd.pkg.mk"

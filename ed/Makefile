@@ -9,6 +9,7 @@ HOMEPAGE=		http://www.gnu.org/software/ed/ed.html
 COMMENT=		GNU version of line-oriented text editor
 
 GNU_CONFIGURE=		YES
+INFO_FILES=		ed.info
 
 .include "../../mk/bsd.prefs.mk"
 
@@ -19,5 +20,4 @@ MAKE_ENV+=		binprefix="${GNU_PROGRAM_PREFIX}"
 PLIST_SUBST+=           GNU_PROGRAM_PREFIX=${GNU_PROGRAM_PREFIX}
 BUILD_DEFS+=            GNU_PROGRAM_PREFIX
 
-.include "../../mk/texinfo.mk"
 .include "../../mk/bsd.pkg.mk"

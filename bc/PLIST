@@ -3,9 +3,5 @@ bin/bc
 bin/dc
 man/man1/bc.1
 man/man1/dc.1
-@unexec ${INSTALL_INFO} --delete --info-dir=%D/info %D/info/bc.info
-@unexec ${INSTALL_INFO} --delete --info-dir=%D/info %D/info/dc.info
 info/bc.info
 info/dc.info
-@exec ${INSTALL_INFO} --info-dir=%D/info %D/info/dc.info
-@exec ${INSTALL_INFO} --info-dir=%D/info %D/info/bc.info

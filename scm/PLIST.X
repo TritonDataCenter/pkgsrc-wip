@@ -1,15 +1,9 @@
 @comment $NetBSD$
 bin/scm
 bin/scmlit
-@unexec ${INSTALL_INFO} --delete --info-dir=%D/info %D/info/Xlibscm.info
 info/Xlibscm.info
-@exec ${INSTALL_INFO} --info-dir=%D/info %D/info/Xlibscm.info
-@unexec ${INSTALL_INFO} --delete --info-dir=%D/info %D/info/hobbit.info
 info/hobbit.info
-@exec ${INSTALL_INFO} --info-dir=%D/info %D/info/hobbit.info
-@unexec ${INSTALL_INFO} --delete --info-dir=%D/info %D/info/scm.info
 info/scm.info
-@exec ${INSTALL_INFO} --info-dir=%D/info %D/info/scm.info
 man/man1/scm.1
 share/scm/COPYING
 share/scm/Iedline.scm
