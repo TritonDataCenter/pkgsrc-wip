@@ -8,7 +8,7 @@ lib/libstatgrab.a
 lib/libstatgrab.la
 lib/libstatgrab.so
 lib/libstatgrab.so.3
-lib/libstatgrab.so.3.1
+lib/libstatgrab.so.3.2
 lib/pkgconfig/libstatgrab.pc
 man/man3/cpu_percent_usage.3
 man/man3/get_cpu_diff.3
