@@ -18,7 +18,8 @@ USE_BUILDLINK2=	yes
 NO_CONFIGURE=	yes
 
 post-patch:
-.for f in gdick gdick_applet lib/gdick/gdick.py lib/gdick/YahooDict.py
+.for f in gdick gdick_applet lib/gdick/gdick.py lib/gdick/YahooDict.py \
+		GNOME_GDick.server
 	cd ${WRKSRC}; ${MV} $f $f.orig; \
 	${SED} -e \
 		's,/usr/,${LOCALBASE}/,g' \
