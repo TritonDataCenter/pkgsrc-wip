@@ -2,7 +2,8 @@
 
 .include "Makefile.common"
 
-PKGNAME=	xfce4-${XFCE4_VERSION}
+DISTNAME=	xfce4-${XFCE4_VERSION}
+DISTFILES=	# empty
 COMMENT=	XFce4
 
 NO_CHECKSUM=	# defined
@@ -24,10 +25,10 @@ do-install:	# empty
 # Extras
 .include "../../wip/xfce4-fm-icons/buildlink2.mk"
 .include "../../wip/xfce4-mixer/buildlink2.mk"
-.include "../../wip/xfce4-systray/buildlink2.mk"
-.include "../../wip/xfce4-themes/buildlink2.mk"
-.include "../../wip/xfce4-toys/buildlink2.mk"
-.include "../../wip/xfce4-trigger-launcher/buildlink2.mk"
+## .include "../../wip/xfce4-systray/buildlink2.mk"
+## .include "../../wip/xfce4-themes/buildlink2.mk"
+## .include "../../wip/xfce4-toys/buildlink2.mk"
+## .include "../../wip/xfce4-trigger-launcher/buildlink2.mk"
 .include "../../wip/xfce4-wm-themes/buildlink2.mk"
 
 .include "../../mk/bsd.pkg.mk"

@@ -3,9 +3,8 @@
 .include "../xfce4/Makefile.common"
 
 PKGNAME=	xfce4-desktop-${XFCE4_VERSION}
+DISTNAME=	xfdesktop-${XFCE4_VERSION}
 COMMENT=	XFce4 desktop background manager
-
-WRKSRC=		${WRKDIR}/xfce-devel/xfdesktop
 
 .include "../../devel/pkgconfig/buildlink2.mk"
 .include "../../textproc/libxml2/buildlink2.mk"

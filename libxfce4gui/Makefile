@@ -3,9 +3,8 @@
 .include "../xfce4/Makefile.common"
 
 PKGNAME=	libxfce4gui-${XFCE4_VERSION}
+DISTNAME=	libxfcegui4-${XFCE4_VERSION}
 COMMENT=	XFce4 widget library
-
-WRKSRC=		${WRKDIR}/xfce-devel/libxfcegui4
 
 .include "../../devel/pkgconfig/buildlink2.mk"
 .include "../../wip/libxfce4util/buildlink2.mk"

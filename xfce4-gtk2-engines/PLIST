@@ -32,6 +32,9 @@ share/themes/Xfce-stellar/gtk-2.0/gtkrc
 share/themes/Xfce/ICON.png
 share/themes/Xfce/README.html
 share/themes/Xfce/gtk-2.0/gtkrc
+@dirrm lib/gtk-2.0/2.2.0/engines
+@dirrm lib/gtk-2.0/2.2.0
+@dirrm lib/gtk-2.0
 @dirrm share/themes/Xfce/gtk-2.0
 @dirrm share/themes/Xfce-stellar/gtk-2.0
 @dirrm share/themes/Xfce-stellar

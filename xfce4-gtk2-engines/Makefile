@@ -3,10 +3,10 @@
 
 .include "../xfce4/Makefile.common"
 
-PKGNAME=	xfce4-gtk2-engines-${XFCE4_VERSION}
+VERSION=	2.1.1
+PKGNAME=	xfce4-gtk2-engine-${VERSION}
+DISTNAME=	gtk-xfce-engine-${VERSION}
 COMMENT=	XFce4 GTK2 themes
-
-WRKSRC=		${WRKDIR}/xfce-devel/gtk-xfce-engine-2
 
 .include "../../x11/gtk2/buildlink2.mk"
 .include "../../mk/bsd.pkg.mk"

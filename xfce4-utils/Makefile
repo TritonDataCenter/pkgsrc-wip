@@ -3,9 +3,8 @@
 .include "../xfce4/Makefile.common"
 
 PKGNAME=	xfce4-utils-${XFCE4_VERSION}
+DISTNAME=	xfce-utils-${XFCE4_VERSION}
 COMMENT=	XFce4 utilities
-
-WRKSRC=		${WRKDIR}/xfce-devel/xfce-utils
 
 .include "../../devel/pkgconfig/buildlink2.mk"
 .include "../../wip/xfce4-mcs-plugins/buildlink2.mk"

@@ -9,7 +9,7 @@
 XFCE4_TOYS_BUILDLINK2_MK=	# defined
 
 BUILDLINK_PACKAGES+=			xfce4-toys
-BUILDLINK_DEPENDS.xfce4-toys?=		xfce4-toys>=3.90.20030604
+BUILDLINK_DEPENDS.xfce4-toys?=		xfce4-toys>=0.2.0
 BUILDLINK_PKGSRCDIR.xfce4-toys?=		../../wip/xfce4-toys
 
 EVAL_PREFIX+=	BUILDLINK_PREFIX.xfce4-toys=xfce4-toys

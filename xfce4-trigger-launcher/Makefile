@@ -2,6 +2,8 @@
 
 .include "../xfce4/Makefile.common"
 
+BROKEN=		No distfile available yet
+
 PKGNAME=	xfce4-trigger-launcher-${XFCE4_VERSION}
 COMMENT=	XFce4 trigger-launcher
 

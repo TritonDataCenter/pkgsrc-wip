@@ -2,6 +2,8 @@
 
 .include "../xfce4/Makefile.common"
 
+BROKEN=		No distfile available yet
+
 PKGNAME=	xfce4-themes-${XFCE4_VERSION}
 COMMENT=	XFce4 themes
 

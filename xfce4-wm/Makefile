@@ -3,9 +3,8 @@
 .include "../xfce4/Makefile.common"
 
 PKGNAME=	xfce4-wm-${XFCE4_VERSION}
+DISTNAME=	xfwm4-${XFCE4_VERSION}
 COMMENT=	XFce4 window manager
-
-WRKSRC=		${WRKDIR}/xfce-devel/xfwm4
 
 .include "../../devel/pkgconfig/buildlink2.mk"
 .include "../../wip/xfce4-mcs-plugins/buildlink2.mk"
