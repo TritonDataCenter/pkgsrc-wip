@@ -13,5 +13,5 @@ do-install:
 	${INSTALL_MAN} ${WRKSRC}/readme ${PREFIX}/share/doc/darcnes-svgalib
 
 .include "../../emulators/darcnes/Makefile.common"
-.include "../../wip/svgalib/buildlink2.mk"
+.include "../../wip/svgalib/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
