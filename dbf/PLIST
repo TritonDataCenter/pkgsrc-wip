@@ -1,0 +1,9 @@
+@comment $NetBSD$
+bin/dbf
+share/dbf/CHANGELOG
+share/dbf/CREDITS
+share/dbf/FAQ
+share/dbf/INSTALL
+share/dbf/MANIFEST
+share/dbf/README
+@dirrm share/dbf
