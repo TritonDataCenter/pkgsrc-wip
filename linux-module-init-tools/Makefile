@@ -17,7 +17,7 @@ ONLY_FOR_PLATFORM=	Linux-*-* # configure: error: Linux only, dude!
 
 USE_PKGINSTALL= 	YES
 
-USE_BUILDLINK2=		YES
+USE_BUILDLINK3=		YES
 GNU_CONFIGURE=		YES
 
 RCD_SCRIPTS=		modutils
