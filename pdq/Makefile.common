@@ -13,7 +13,7 @@ HOMEPAGE=		http://pdq.sourceforge.net/
 DISTINFO_FILE=		${.CURDIR}/../../wip/pdq/distinfo
 PATCHDIR=		${.CURDIR}/../../wip/pdq/patches
 
-USE_BUILDLINK2=		yes
+USE_BUILDLINK3=		yes
 GNU_CONFIGURE=		yes
 
 PKG_SYSCONFSUBDIR=	pdq
