@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.516 2003/10/01 04:06:33 blef Exp $
+# $Id: Makefile,v 1.517 2003/10/01 20:58:02 jeremy-c-reed Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -357,7 +357,6 @@ SUBDIR+=	rapidsvn
 SUBDIR+=	rc.subr
 SUBDIR+=	rcorder
 SUBDIR+=	regexxer
-SUBDIR+=	ripmime
 SUBDIR+=	rlpr
 SUBDIR+=	rolo
 SUBDIR+=	rosegarden-current
