@@ -30,13 +30,13 @@ SCM_DATA=	scm.info hobbit.info
 INFO_FILES=	${SCM_DATA}
 
 .if defined(USE_X) && defined(USE_NCURSES)
-.include "../../mk/x11.buildlink.mk"
+USE_X11=	yes
 .include "../../devel/ncurses/buildlink.mk"
 PLIST_SRC=	${PKGDIR}/PLIST.X_ncurses
 SCM_INFO=	${SCM_DATA} Xlibscm.info
 BUILD_SCRIPT=	${FILESDIR}/buildscm_X_ncurses.sh
 .elif defined(USE_X)
-.include "../../mk/x11.buildlink.mk"
+USE_X11=	yes
 PLIST_SRC=	${PKGDIR}/PLIST.X
 SCM_INFO=	${SCM_DATA} Xlibscm.info
 BUILD_SCRIPT=	${FILESDIR}/buildscm_X.sh

@@ -14,6 +14,7 @@ BUILD_DEPENDS+=		tex2rtf-*:../../converters/tex2rtf
 
 USE_GMAKE=		yes
 USE_BUILDLINK2=		yes
+USE_X11=		yes
 CFLAGS+=		-fpermissive
 
 pre-build:
@@ -33,6 +34,5 @@ do-install:
 .include "../../graphics/xpm/buildlink2.mk"
 .include "../../x11/wx1Motif/buildlink2.mk"
 .include "../../mk/motif.buildlink2.mk"
-.include "../../mk/x11.buildlink2.mk"
 .include "../../mk/ossaudio.buildlink2.mk"
 .include "../../mk/bsd.pkg.mk"

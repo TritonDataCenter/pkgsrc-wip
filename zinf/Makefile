@@ -16,6 +16,7 @@ PTHREAD_OPTS=	require
 USE_BUILDLINK2=	yes
 GNU_CONFIGURE=	yes
 USE_GMAKE=	yes
+USE_X11=	yes
 #USE_PERL5=	yes
 
 CONFIGURE_ARGS+=--enable-cmdline \
@@ -34,5 +35,4 @@ CONFIGURE_ARGS+=--enable-cmdline \
 .include "../../x11/gtk/buildlink2.mk"
 .include "../../mk/ossaudio.buildlink2.mk"
 .include "../../mk/pthread.buildlink2.mk"
-.include "../../mk/x11.buildlink2.mk"
 .include "../../mk/bsd.pkg.mk"
