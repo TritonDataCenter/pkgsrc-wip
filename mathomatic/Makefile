@@ -19,3 +19,9 @@ do-install:
 	${INSTALL_SCRIPT} ${WRKSRC}/am_mathomatic ${PREFIX}/bin/am_mathomatic
 
 .include "../../mk/bsd.pkg.mk"
+
+.if ${OPSYS} == "SunOS"
+BUILD_MAKE_FLAGS+=	FEATURES="-DUNIX -DSOLARIS"
+.else
+BUILD_MAKE_FLAGS+=	FEATURES="-DUNIX"
+.endif
