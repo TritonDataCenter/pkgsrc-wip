@@ -7,8 +7,8 @@ MASTER_SITES=		http://freedesktop.org/~xlibs/dist/
 EXTRACT_SUFX=		.tar.bz2
 
 MAINTAINER=		xtraeme@NetBSD.org
-HOMEPAGE=		http://freedesktop.org/
-COMMENT=		Xi extension (Library)
+HOMEPAGE=		http://www.freedesktop.org/software/xlibs
+COMMENT=		X Input extension library
 
 USE_BUILDLINK2=		yes
 USE_LIBTOOL=		yes
