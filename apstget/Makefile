@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	apstget-20050206
+DISTNAME=	apstget-20050220
 CATEGORIES=	pkgtools
 MASTER_SITES=	# empty
 DISTFILES=	# empty
@@ -10,7 +10,7 @@ COMMENT=	apt-get like tool for pkgsrc
 
 DEPENDS+=	pkgfind>=20041020:../../pkgtools/pkgfind
 DEPENDS+=	pkg_tarup>=1.6.3:../../pkgtools/pkg_tarup
-DEPENDS+=	pkg_chk>=1.51:../../pkgtools/pkg_chk
+DEPENDS+=	pkg_chk>=1.54:../../pkgtools/pkg_chk
 DEPENDS+=	pkglint>=3.94:../../pkgtools/pkglint
 
 NO_BUILDLINK=	yes
