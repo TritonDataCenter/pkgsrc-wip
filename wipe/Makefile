@@ -11,7 +11,6 @@ HOMEPAGE=		http://wipe.sourceforge.net/
 COMMENT=		Secure data destruction
 
 USE_BUILDLINK3=		yes
-USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 
 .include "../../mk/bsd.pkg.mk"
