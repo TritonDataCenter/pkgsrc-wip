@@ -11,7 +11,7 @@ MAINTAINER=	xfree86@blef.org
 HOMEPAGE=	http://www.xfree86.org/
 COMMENT=	XFree86 Documentation
 
-DEPENDS=	imake>=4.3.0:../../wip/imake
+BUILD_DEPENDS=	imake>=4.3.0:../../wip/imake
 
 USE_BUILDLINK2=		yes
 NO_XFREE86_TARGETS=	# defined
