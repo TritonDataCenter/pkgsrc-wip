@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	scew-0.3.1
-CATEGORIES=	devel
+CATEGORIES=	textproc devel
 MASTER_SITES=	http://www.ccd.uab.es/~aleix/scew/
 
 MAINTAINER=	thorbjorn@jemander.net
