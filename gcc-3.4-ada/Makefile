@@ -21,7 +21,7 @@ HAS_CONFIGURE=		YES
 PTHREAD_OPTS+=  require native
 CONFIGURE_ARGS+=        --enable-languages="c,ada"
 ADA_BOOT_PATH=               /usr/pkg/gcc3.4
-ADA_BOOT_ADAC=  ${ADA_BOOT_PATH}/bin/gcc
+ADA_BOOT_ADAC?=  ${ADA_BOOT_PATH}/bin/gcc
 ADA_BOOT_GNATBIND=      ${ADA_BOOT_PATH}/bin/gnatbind
 EXTRA_ENV+=     ADAC=${ADA_BOOT_ADAC:Q}
 CONFIGURE_ENV+=	${EXTRA_ENV}
