@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.1640 2005/02/01 19:42:10 tnn2 Exp $
+# $Id: Makefile,v 1.1641 2005/02/02 07:10:26 jeremy-c-reed Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -458,6 +458,7 @@ SUBDIR+=	luaposix
 SUBDIR+=	luasocket
 SUBDIR+=	lwc
 SUBDIR+=	mailfilter
+SUBDIR+=	man
 SUBDIR+=	man-db
 SUBDIR+=	map-browse
 SUBDIR+=	matchbox-common
