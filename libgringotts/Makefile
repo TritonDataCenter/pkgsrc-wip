@@ -23,7 +23,7 @@ LIBTOOL_OVERRIDE=       ${WRKSRC}/libtool
 
 pre-install:
 	@${MV} ${WRKSRC}/Makefile ${WRKSRC}/Makefile.fix
-        @${SED} -e "s|md5sum|md5|g" ${WRKSRC}/Makefile.fix > \
+	@${SED} -e "s|md5sum|md5|g" ${WRKSRC}/Makefile.fix > \
 		${WRKSRC}/Makefile
 
 .endif
