@@ -1,4 +1,4 @@
 @comment $NetBSD$
+bin/whiptail
 include/newt.h
 lib/libnewt.la
-bin/whiptail
