@@ -9,7 +9,9 @@ MAINTAINER=	pancake@phreaker.net
 HOMEPAGE=	http://www.pknet.com/~joe/dgen-sdl.html
 COMMENT=	Genesis/Megadrive emulator for Unix platforms
 
+.if ${MACHINE_ARCH} == "i386"
 DEPENDS+=	nasm-[0-9]*:../../devel/nasm
+.endif
 
 USE_GMAKE=	yes
 GNU_CONFIGURE=	yes
