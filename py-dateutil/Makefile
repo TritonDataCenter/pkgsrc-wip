@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	python-dateutil-0.3
+DISTNAME=	python-dateutil-0.4
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME:S/python-//}
 CATEGORIES=	time python
 MASTER_SITES=	http://www.pybsd.org/
@@ -11,7 +11,7 @@ MAINTAINER=	recht@NetBSD.org
 HOMEPAGE=	https://moin.conectiva.com.br/DateUtil
 COMMENT=	Extensions to the standard datetime module
 
-USE_BUILDLINK2=	yes
+USE_BUILDLINK3=	yes
 PYDISTUTILSPKG=	yes
 PY_PATCHPLIST=	yes
 
