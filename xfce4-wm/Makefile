@@ -8,6 +8,7 @@ CATEGORIES=	wm
 COMMENT=	XFce4 window manager
 
 .include "../../devel/pkgconfig/buildlink2.mk"
+.include "../../graphics/xpm/buildlink2.mk"
 .include "../../wip/xfce4-mcs-plugins/buildlink2.mk"
 .include "../../x11/startup-notification/buildlink2.mk"
 .include "../../mk/bsd.pkg.mk"
