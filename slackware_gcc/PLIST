@@ -1,6 +1,4 @@
 @comment $NetBSD$
-${EMULSUBDIR}/install/doinst.sh
-${EMULSUBDIR}/install/slack-desc
 ${EMULSUBDIR}/usr/bin/cpp
 ${EMULSUBDIR}/usr/bin/gcc-3.3.3
 ${EMULSUBDIR}/usr/bin/gccbug
