@@ -14,4 +14,8 @@ USE_BUILDLINK2=	YES
 USE_GMAKE=	YES
 USE_X11BASE=	YES
 
+post-install:
+	${GZIP_CMD} -d ${PREFIX}/man/man1/golem.1.gz
+	${CHMOD} 644 ${PREFIX}/man/man1/golem.1
+
 .include "../../mk/bsd.pkg.mk"
