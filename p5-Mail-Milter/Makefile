@@ -4,7 +4,8 @@
 DISTNAME=	Mail-Milter-0.02
 PKGNAME=	p5-${DISTNAME}
 CATEGORIES=	wip mail perl5
-MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=pmilter/}
+MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=Mail/} \
+		${MASTER_SITE_SOURCEFORGE:=pmilter/}
 
 MAINTAINER=	tv@duh.org
 HOMEPAGE=	http://pmilter.sourceforge.net/
