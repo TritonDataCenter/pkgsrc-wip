@@ -12,11 +12,12 @@ BUILDLINK_PACKAGES+=	OpenGLUT
 
 .if !empty(OPENGLUT_BUILDLINK3_MK:M+)
 BUILDLINK_DEPENDS.OpenGLUT+=	OpenGLUT>=0.6.0
-BUILDLINK_PKGSRCDIR.OpengGLUT?=	../../graphics/OpenGLUT
+BUILDLINK_PKGSRCDIR.OpenGLUT?=	../../wip/OpenGLUT
 .endif	# OPENGLUT_BUILDLINK3_MK
 
 MESA_REQD+=     6.0
 
 .include "../../graphics/MesaLib/buildlink3.mk"
+.include "../../graphics/glu/buildlink3.mk"
 
 BUILDLINK_DEPTH:=     ${BUILDLINK_DEPTH:S/+$//}
