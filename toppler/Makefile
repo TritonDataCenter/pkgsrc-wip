@@ -4,7 +4,7 @@ DISTNAME=		toppler-1.0.2
 CATEGORIES=		games
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=toppler/}
 
-MAINTAINER=		soren@blef.org
+MAINTAINER=		snj@pobox.com
 HOMEPAGE=		http://topple.sf.net/
 COMMENT=		Tower climbing game
 

@@ -7,7 +7,7 @@ CATEGORIES=	games x11
 MASTER_SITES=	http://www.xevil.com/download/stable/
 EXTRACT_SUFX=	.zip
 
-MAINTAINER=	soren@blef.org
+MAINTAINER=	snj@pobox.com
 HOMEPAGE=	http://www.xevil.com/
 COMMENT=	Side scrolling, bloody action game
 

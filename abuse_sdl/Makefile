@@ -6,7 +6,7 @@ MASTER_SITES=		http://www.labyrinth.net.au/~trandor/abuse/files/
 EXTRACT_SUFX=		.tar.bz2
 DISTFILES=		${DISTNAME}${EXTRACT_SUFX} frabs210_unix.src.tar.bz2
 
-MAINTAINER=		soren@blef.org
+MAINTAINER=		snj@pobox.com
 HOMEPAGE=		http://www.labyrinth.net.au/~trandor/abuse/
 COMMENT=		Port of the Abuse side scroller to SDL
 

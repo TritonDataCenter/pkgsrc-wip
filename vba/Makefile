@@ -7,7 +7,7 @@ CATEGORIES=		emulators
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=vba/}
 EXTRACT_SUFX=		.zip
 
-MAINTAINER=		soren@blef.org
+MAINTAINER=		snj@pobox.com
 HOMEPAGE=		http://vboy.emuhq.com/
 COMMENT=		Gameboy advance emulator
 

@@ -5,7 +5,7 @@ PKGNAME=		gtk2-engines-mist-0.10
 CATEGORIES=		x11
 MASTER_SITES=		http://primates.ximian.com/~dave/mist/
 
-MAINTAINER=		soren@blef.org
+MAINTAINER=		snj@pobox.com
 HOMEPAGE=		http://primates.ximian.com/~dave/mist/
 COMMENT=		Flat engine for GTK+ 2.x
 
