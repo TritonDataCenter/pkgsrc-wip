@@ -1,0 +1,5 @@
+@comment $NetBSD$
+bin/csv2pdb
+bin/pdb2csv
+share/palm-db-tools/manual.txt
+@dirrm share/palm-db-tools
