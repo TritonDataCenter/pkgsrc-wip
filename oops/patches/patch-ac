@@ -2,7 +2,7 @@ $NetBSD$
 
 --- src/Makefile.in.orig	2004-02-19 23:57:43.000000000 +0300
 +++ src/Makefile.in
-@@ -63,11 +63,7 @@ mkinstalldirs:
+@@ -63,11 +63,7 @@
  install: all mkinstalldirs
  	$(INSTALL) -d ${OOPS_SBINDIR}
  	$(INSTALL) oops ${OOPS_SBINDIR}
