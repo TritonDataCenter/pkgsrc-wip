@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		BNR2beta-0.12.4
+DISTNAME=		BNR2beta-0.12.5
 PKGNAME=		${DISTNAME:S/BNR2beta/bnr2/}
 WRKSRC=			${WRKDIR}/BNR2
 CATEGORIES=		news
