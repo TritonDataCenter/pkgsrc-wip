@@ -7,7 +7,7 @@ MASTER_SITES=	http://jabberd.jabberstudio.org/downloads/
 
 MAINTAINER=	jrp@hispabsd.org
 HOMEPAGE=	http://jabberd.jabberstudio.org/downloads/
-COMMENT=	Server messagging instant
+COMMENT=	Instant messaging server
 
 USE_BUILDLINK2=		yes
 USE_PKGLOCALEDIR=	yes
