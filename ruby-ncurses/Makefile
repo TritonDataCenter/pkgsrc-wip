@@ -10,6 +10,7 @@ MAINTAINER=	rasputnik@hellooperator.net
 HOMEPAGE=	http://ncurses-ruby.berlios.de/
 COMMENT=	Ruby interface to ncurses
 
+BROKEN=	problem with latest ncurses - "Undefined symbol "_unctrl" (symnum = 284) - /usr/pkg/lib/ruby/1.6/i386-netbsdelf/ncurses.so (LoadError) "
 DIST_SUBDIR=	ruby
 NAME=	ncurses
 VER=	0.8
