@@ -35,6 +35,5 @@ post-install:
 	${INSTALL_DATA} ${WRKDIR}/mercrain.s3m ${PREFIX}/share/speedx/music/
 
 .include "../../graphics/png/buildlink2.mk"
-.include "../../devel/zlib/buildlink2.mk"
 .include "../../audio/libmikmod/buildlink2.mk"
 .include "../../mk/bsd.pkg.mk"
