@@ -13,7 +13,7 @@ BUILDLINK_PACKAGES+=	glkterm
 .if !empty(GLKTERM_BUILDLINK3_MK:M+)
 BUILDLINK_DEPENDS.glkterm+=	glkterm>=0.7.8
 BUILDLINK_PKGSRCDIR.glkterm?=	../../wip/glkterm
-BUILDLINK_DEPMETHOD.glkterm?=	build
+#BUILDLINK_DEPMETHOD.glkterm?=	build
 
 BUILDLINK_TRANSFORM+=	l:glk:glkterm
 BUILDLINK_TARGETS+=	buildlink-glkterm-hook

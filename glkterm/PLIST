@@ -4,5 +4,5 @@ include/glkterm/gi_blorb.h
 include/glkterm/gi_dispa.h
 include/glkterm/glk.h
 include/glkterm/glkstart.h
-lib/libglkterm.a
+lib/libglkterm.la
 @dirrm include/glkterm
