@@ -1,3 +1,4 @@
+$NetBSD$
 --- ickle/SettingsDialog.cpp.orig	Fri Apr 11 21:46:32 2003
 +++ ickle/SettingsDialog.cpp	Fri Apr 11 21:47:03 2003
 @@ -216,7 +216,7 @@
