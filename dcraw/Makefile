@@ -17,7 +17,7 @@ WRKSRC=		${WRKDIR}
 
 do-extract:
 	for f in ${DISTFILES}; do					\
-		${CP} ${DISTDIR}/${DIST_SUBDIR}/$$f ${WRKDIR};		\
+		${CP} ${_DISTDIR}//$$f ${WRKDIR};			\
 	done
 
 do-build:
