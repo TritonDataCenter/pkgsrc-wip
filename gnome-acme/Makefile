@@ -4,6 +4,7 @@ DISTNAME=	acme-2.4.2
 PKGNAME=	gnome-${DISTNAME}
 CATEGORIES=	sysutils gnome
 MASTER_SITES=	${MASTER_SITE_GNOME:=sources/acme/2.4/}
+EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	minskim@bawi.org
 HOMEPAGE=	http://www.gnome.org/
