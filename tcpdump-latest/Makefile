@@ -8,8 +8,9 @@ MAINTAINER=		imil@gcu.info
 HOMEPAGE=		http://www.tcpdump.org/
 COMMENT=		Network monitoring tool
 
-GNU_CONFIGURE=		YES
-USE_BUILDLINK3=		YES
+GNU_CONFIGURE=		yes
+USE_BUILDLINK3=		yes
+USE_LIBTOOL=		yes
 
 .if exists(/usr/include/netinet/ip6.h)
 CONFIGURE_ARGS+=	--enable-ipv6
