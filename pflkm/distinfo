@@ -2,5 +2,3 @@ $NetBSD$
 
 SHA1 (pf-lkm-20040607.tar.gz) = 047ac10896f11096e0ec5238d1898381ce3d2eca
 Size (pf-lkm-20040607.tar.gz) = 768194 bytes
-SHA1 (patch-aa) = b76e16a4f6ad8596a5967a4e4dce4d0c6dd9149b
-SHA1 (patch-ab) = 5b4ab84e9270b869c0711f2db138c0b0316c310b
