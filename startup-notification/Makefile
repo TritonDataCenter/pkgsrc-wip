@@ -24,5 +24,4 @@ post-install:
 		doc/startup-notification.txt \
 		${PREFIX}/share/doc/startup-notification/
 
-.include "../../devel/pkgconfig/buildlink2.mk"
 .include "../../mk/bsd.pkg.mk"
