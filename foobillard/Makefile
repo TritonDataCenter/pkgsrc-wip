@@ -15,9 +15,17 @@ GNU_CONFIGURE=		yes
 USE_GMAKE=		yes
 USE_X11=		yes
 
-.include "../../graphics/glut/buildlink2.mk"
-.include "../../graphics/freetype2/buildlink2.mk"
+.include "../../mk/bsd.prefs.mk"
+
+.if ${OPSYS} == "NetBSD"
+CONFIGURE_ARGS+=	--enable-nvidia=no
 .include "../../devel/SDL/buildlink2.mk"
+.else
+CONFIGURE_ARGS+=	--enable-glut
+.endif
+
+.include "../../graphics/MesaLib/buildlink2.mk"
+.include "../../graphics/freetype2/buildlink2.mk"
 .include "../../graphics/png/buildlink2.mk"
 .include "../../devel/zlib/buildlink2.mk"
 .include "../../mk/bsd.pkg.mk"
