@@ -45,6 +45,6 @@ post-install:
 	${INSTALL_DATA} ${FILESDIR}/syslog-ng.conf.netbsd \
 		${PKG_SYSCONFDIR}/syslog-ng
 
-.include "../../wip/libol/buildlink3.mk"
+.include "../../sysutils/libol/buildlink3.mk"
 #.include "../../security/tcp_wrappers/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
