@@ -18,8 +18,6 @@ BUILDLINK_FILES.libtlen+=	include/libtlen
 BUILDLINK_FILES.libtlen+=	include/libtlen/*.h
 BUILDLINK_FILES.libtlen+=	lib/libtlen.*
 
-.include "../../textproc/expat/buildlink2.mk"
-
 BUILDLINK_TARGETS+=	libtlen-buildlink
 
 libtlen-buildlink: _BUILDLINK_USE

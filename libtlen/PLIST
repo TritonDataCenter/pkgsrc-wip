@@ -1,5 +1,4 @@
 @comment $NetBSD$
-include/libtlen
 include/libtlen/asciitab.h
 include/libtlen/hashtable.h
 include/libtlen/iasciitab.h
@@ -14,7 +13,9 @@ include/libtlen/xmlparse.h
 include/libtlen/xmlrole.h
 include/libtlen/xmltok.h
 include/libtlen/xmltok_impl.h
-lib/libtlen.so.1.5
-lib/libtlen.so.1
-lib/libtlen.so
 lib/libtlen.a
+lib/libtlen.la
+lib/libtlen.so
+lib/libtlen.so.1
+lib/libtlen.so.1.5
+@dirrm include/libtlen
