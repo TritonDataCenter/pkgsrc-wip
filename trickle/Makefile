@@ -25,6 +25,8 @@ pre-install:
 	${INSTALL_DATA_DIR} ${EGDIR}
 	${INSTALL_DATA} ${FILESDIR}/trickled.conf ${EGDIR}
 
+.if !exists(/usr/include/event.h)
 .include "../../devel/libevent/buildlink2.mk"
+.endif
 
 .include "../../mk/bsd.pkg.mk"
