@@ -37,5 +37,5 @@ do-install:
 	${CHOWN} ${BINOWN}:${BINGRP} ${SCRIPTNAME}
 
 .include "../../lang/python/extension.mk"
-.include "../..//x11/py-gtk2/buildlink2.mk"
+.include "../../x11/py-gtk2/buildlink2.mk"
 .include "../../mk/bsd.pkg.mk"
