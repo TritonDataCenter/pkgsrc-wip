@@ -1,8 +1,8 @@
 # $NetBSD$
 #
 
-.if !defined(PY22PTH_GAME_BUILDLINK2_MK)
-PY22PTH_GAME_BUILDLINK2_MK=	# defined
+.if !defined(PYGAME_BUILDLINK2_MK)
+PYGAME_BUILDLINK2_MK=	# defined
 
 .include "../../lang/python/pyversion.mk"
 
@@ -21,6 +21,6 @@ BUILDLINK_PREFIX.pygame_DEFAULT=	${LOCALBASE}
 
 BUILDLINK_TARGETS+=	pygame-buildlink
 
-py22pth-game-buildlink: _BUILDLINK_USE
+pygame-buildlink: _BUILDLINK_USE
 
-.endif	# PY22PTH_GAME_BUILDLINK2_MK
+.endif	# PYGAME_BUILDLINK2_MK
