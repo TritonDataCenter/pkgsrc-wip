@@ -1,13 +1,13 @@
 # $NetBSD$
 
-DISTNAME=	gdick-0.8.1
+DISTNAME=	gdick-0.9
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	textproc
-MASTER_SITES=	http://ddt.mirstyle.org/data/
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=gdick/}
 EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	minskim@bawi.org
-HOMEPAGE=	http://ddt.mirstyle.org/gdick.html
+HOMEPAGE=	http://gdick.sourceforge.net/
 COMMENT=	English-Korean Dictionary Client for GNOME2
 
 DEPENDS+=	${PYPKGPREFIX}-cjkcodecs-[0-9]*:../../wip/py-cjkcodecs
