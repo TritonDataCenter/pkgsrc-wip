@@ -1,0 +1,9 @@
+@comment $NetBSD$
+bin/mailfilter
+man/man1/mailfilter.1
+man/man5/mailfilterex.5
+man/man5/mailfilterrc.5
+${PKGLOCALEDIR}/locale/de/LC_MESSAGES/mailfilter.mo
+${PKGLOCALEDIR}/locale/fr/LC_MESSAGES/mailfilter.mo
+${PKGLOCALEDIR}/locale/it/LC_MESSAGES/mailfilter.mo
+${PKGLOCALEDIR}/locale/pt_BR/LC_MESSAGES/mailfilter.mo
