@@ -11,7 +11,7 @@ HOMEPAGE=	http://cjk.ffii.org/
 COMMENT=	The CJK (Chinese, Japanese, Korean) package for LaTeX
 
 DEPENDS+=	teTeX-bin>=2:../../print/teTeX-bin
-DEPENDS+=	ttf2pk>=1.3.1:../../test/ttf2pk
+DEPENDS+=	ttf2pk>=1.3.1:../../fonts/ttf2pk
 
 TEXMFMAIN=	${PREFIX}/share/texmf
 TTFDIR=		${TEXMFMAIN}/fonts/truetype
