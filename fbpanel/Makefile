@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		fbpanel-3.8
+DISTNAME=		fbpanel-4.1
 CATEGORIES=		x11
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=fbpanel/}
 EXTRACT_SUFX=		.tgz

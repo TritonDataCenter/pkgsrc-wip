@@ -1,6 +1,6 @@
 @comment $NetBSD$
 bin/fbpanel
-man/man1/fbpanel.1.gz
+man/man1/fbpanel.1
 share/fbpanel/default
 share/fbpanel/images/Desktop2.png
 share/fbpanel/images/Editor.png
