@@ -9,6 +9,8 @@ EXTRACT_SUFX=	.tar.bz2
 MAINTAINER=	cube@NetBSD.org
 HOMEPAGE=	http://gkrellm.net/
 
+CONFLICTS+=	gkrellm-1*
+
 USE_GMAKE=		YES
 USE_PKGLOCALEDIR=	YES
 

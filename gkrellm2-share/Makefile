@@ -4,7 +4,6 @@
 GKRELLM_PKGBASE=	gkrellm-share
 
 COMMENT=		GKrellM2 locale files
-CONFLICTS=		gkrellm-1*
 
 BUILD_USES_MSGFMT=	YES
 
