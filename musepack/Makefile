@@ -35,5 +35,8 @@ SUBST_SED.osconf+=	-e 's,\#define USE_ASM,// &,g'
 BUILD_DEPENDS=		nasm>=0.98:../../devel/nasm
 .endif
 
+pre-patch:
+	cd ${WRKSRC} && ${MV} install install.txt
+
 .include "../../mk/ossaudio.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
