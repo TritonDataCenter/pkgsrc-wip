@@ -13,5 +13,6 @@ WRKSRC=         ${WRKDIR}/wmitime/wmitime
 
 USE_GMAKE=	YES
 USE_X11=	YES
+USE_BUILDLINK2=	YES
 
 .include "../../mk/bsd.pkg.mk"
