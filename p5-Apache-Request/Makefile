@@ -11,9 +11,9 @@ MAINTAINER=		adam@migus.org
 HOMEPAGE=		http://httpd.apache.org/apreq/
 COMMENT=		Methods for dealing with client request data
 
-USE_BUILDLINK2=		YES
+USE_BUILDLINK3=		YES
 PERL5_PACKLIST=		${PERL5_SITEARCH}/auto/libapreq/.packlist
 
-.include "../../www/ap-perl/buildlink2.mk"
 .include "../../lang/perl5/module.mk"
+.include "../../www/ap-perl/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

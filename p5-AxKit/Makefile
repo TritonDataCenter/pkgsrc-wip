@@ -25,14 +25,15 @@ DEPENDS+=	p5-XML-LibXSLT>=1.49:../../wip/p5-XML-LibXSLT
 DEPENDS+=	p5-XML-Sablotron>=0.40:../../wip/p5-XML-Sablotron
 DEPENDS+=	p5-Perl-Tidy>=20031021:../../devel/p5-Perl-Tidy
 
-.include "../../textproc/libxml2/buildlink2.mk"
+.include "../../lang/perl5/module.mk"
+
+.include "../../textproc/libxml2/buildlink3.mk"
 DEPENDS+=	${BUILDLINK_DEPENDS.libxml2}
 
-.include "../../www/ap-perl/buildlink2.mk"
+.include "../../www/ap-perl/buildlink3.mk"
 DEPENDS+=	${BUILDLINK_DEPENDS.ap-perl}
 
 PERL5_PACKLIST=		${PERL5_SITEARCH}/auto/AxKit/.packlist
 
-.include "../../converters/libiconv/buildlink2.mk"
-.include "../../lang/perl5/module.mk"
+.include "../../converters/libiconv/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
