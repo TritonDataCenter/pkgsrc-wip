@@ -2,8 +2,8 @@
 $NetBSD: MESSAGE,v 1.0 2004/07/12 12:31:21 othyro@freeshell Exp $
 
 - Create a PRNGD configuration file ${PKG_SYSCONFDIR}/prngd.conf
-   (see ${SHAREDIR}/doc/prngd). An example conf file was installed in
-	 ${SHAREDIR}/examples/prngd/prngd.conf.
+   (see ${PREFIX}/share/doc/prngd). An example conf file was installed in
+	 ${PREFIX}/share/examples/prngd/prngd.conf.netbsd.
 
 -- Regarding entropy gathering commands in prngd.conf:
 
