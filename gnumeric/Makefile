@@ -24,7 +24,7 @@ GNU_CONFIGURE=		YES
 CONFIGURE_ARGS+=	--with-python
 CONFIGURE_ARGS+=	--with-bonobo --with-gnome-db
 CONFIGURE_ARGS+=	--without-psiconv --without-guile
-CONFIGURE_ENV+=		python_prog=${PYTHONBIN}
+CONFIGURE_ENV+=		python_prog=python${PYVERSSUFFIX}
 LIBS+=      		-lunicode
 
 USE_LIBTOOL=		YES
