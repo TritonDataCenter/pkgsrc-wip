@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.453 2003/09/17 15:06:08 xtraeme Exp $
+# $Id: Makefile,v 1.454 2003/09/17 15:17:04 xtraeme Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -44,6 +44,7 @@ SUBDIR+=	apotheke
 SUBDIR+=	argouml
 SUBDIR+=	armagetron
 SUBDIR+=	asfrecorder
+SUBDIR+=	atasm
 SUBDIR+=	autoproject
 SUBDIR+=	avida2
 SUBDIR+=	barnyard
