@@ -1,8 +1,8 @@
 # $NetBSD$
 #
 
-DISTNAME=	openbox-3.0-alpha6
-PKGNAME=	${DISTNAME:S/-alpha/alpha/}
+DISTNAME=	openbox-3.0-beta1
+PKGNAME=	${DISTNAME:S/-beta/beta/}
 CATEGORIES=	wm x11
 MASTER_SITES=	http://icculus.org/openbox/releases/
 
