@@ -13,7 +13,7 @@ COMMENT=	Gkrellm2 weather plugin
 DEPENDS+=       wget>=1.8:../../net/wget
 BUILD_USES_MSGFMT=      YES
 
-USE_BUILDLINK2=		YES
+USE_BUILDLINK3=		YES
 USE_GNU_TOOLS+=		make
 USE_PKGLOCALEDIR=	YES
 ALL_TARGET=		gkrellweather.so
@@ -29,8 +29,8 @@ pre-build:
 	${SED}  -e "s|/usr/bin/perl|${PERL5}|" \
 	${WRKSRC}/GrabWeather.orig > ${WRKSRC}/GrabWeather
 
-.include "../../wip/gkrellm2/buildlink2.mk"
-.include "../../lang/perl5/buildlink2.mk"
-.include "../../x11/gtk2/buildlink2.mk"
+.include "../../wip/gkrellm2/buildlink3.mk"
+.include "../../lang/perl5/buildlink3.mk"
+.include "../../x11/gtk2/buildlink3.mk"
 
 .include "../../mk/bsd.pkg.mk"
