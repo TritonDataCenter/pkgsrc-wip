@@ -6,7 +6,7 @@ CATEGORIES=	converters
 MASTER_SITES=	http://mcats.net/files/
 
 MAINTAINER=	pehr@mcats.net
-HOMEPAGE=	http://mcats.net/	
+HOMEPAGE=	http://mcats.net/
 COMMENT=	Catalog converter
 
 GNU_CONFIGURE=		YES
