@@ -10,12 +10,12 @@ MAINTAINER=		dotz@irc.pl
 HOMEPAGE=		http://www.freenet.org.nz/python/pywm/
 COMMENT=		Window manager in Python
 
-USE_BUILDLINK2=		yes
+USE_BUILDLINK3=		yes
 PY_PATCHPLIST=		yes
 PYDISTUTILSPKG=		yes
 
 BUILD_DEPENDS=		${PYPKGPREFIX}-pyrex>=0.8.1:../../lang/py-pyrex
 
 .include "../../lang/python/extension.mk"
-.include "../../x11/fltk/buildlink2.mk"
+.include "../../x11/fltk/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
