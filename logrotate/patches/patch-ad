@@ -1,7 +1,7 @@
-$NetBSD: $
+$NetBSD$
 
---- config.c.orig	Thu Aug  7 20:13:14 2003
-+++ config.c	Sat Mar 27 01:43:39 2004
+--- logrotate.c.orig	Tue Jan 27 05:08:04 2004
++++ logrotate.c	Sat Mar 27 01:43:51 2004
 @@ -1,4 +1,6 @@
 +#ifndef __NetBSD__
  #include <alloca.h>
