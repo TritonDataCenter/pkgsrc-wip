@@ -1,3 +1,0 @@
-$NetBSD$
-
-- The shutdown works now correctly on -current (tested on NetBSD/i386 1.6ZG)
