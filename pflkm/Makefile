@@ -6,7 +6,7 @@ MASTER_SITES=		http://nedbsd.nl/~ppostma/pf/
 
 MAINTAINER=		peter@pointless.nl
 HOMEPAGE=		http://nedbsd.nl/~ppostma/pf/
-COMMENT=		OpenBSD PF loadable kernel module for NetBSD
+COMMENT=		OpenBSD Packet Filter as loadable kernel module for NetBSD
 
 ONLY_FOR_PLATFORM=	NetBSD-[2-9]*-*
 
