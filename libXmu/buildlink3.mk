@@ -14,13 +14,17 @@ BUILDLINK_DEPENDS+=	libXmu
 
 .if !empty(LIBXMU_BUILDLINK3_MK:M+)
 BUILDLINK_PACKAGES+=			libXmu
-BUILDLINK_DEPENDS.libXmu+=		libXmu>=6.2.1nb1
+BUILDLINK_DEPENDS.libXmu+=		libXmu>=6.2.1nb2
 BUILDLINK_PKGSRCDIR.libXmu?=		../../wip/libXmu
 
 .include "../../wip/libXt/buildlink3.mk"
 .include "../../wip/libX11/buildlink3.mk"
+.include "../../wip/libXext/buildlink3.mk"
 .include "../../wip/xextensions/buildlink3.mk"
 .include "../../wip/xproto/buildlink3.mk"
+
+# libXmu uses libXext's XShapeCombineMask()
+LDFLAGS+=	-lXext
 
 .include "../../mk/pthread.buildlink3.mk"
 LIBS+=		${BUILDLINK_LDADD.pthread}

@@ -9,7 +9,7 @@
 LIBXMU_BUILDLINK2_MK=	# defined
 
 BUILDLINK_PACKAGES+=			libXmu
-BUILDLINK_DEPENDS.libXmu?=		libXmu>=6.2.1nb1
+BUILDLINK_DEPENDS.libXmu?=		libXmu>=6.2.1nb2
 BUILDLINK_PKGSRCDIR.libXmu?=		../../wip/libXmu
 
 EVAL_PREFIX+=	BUILDLINK_PREFIX.libXmu=libXmu
@@ -41,6 +41,7 @@ BUILDLINK_FILES.libXmu+=	lib/libXmuu.*
 
 .include "../../wip/libXt/buildlink2.mk"
 .include "../../wip/libX11/buildlink2.mk"
+.include "../../wip/libXext/buildlink2.mk"
 .include "../../wip/xextensions/buildlink2.mk"
 .include "../../wip/xproto/buildlink2.mk"
 
