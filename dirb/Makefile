@@ -1,16 +1,16 @@
 # $NetBSD$
 #
 
-DISTNAME=		dirb120
-PKGNAME=			dirb-1.2.0
-CATEGORIES=		wip
+DISTNAME=	dirb120
+PKGNAME=	dirb-1.2.0
+CATEGORIES=	wip
 MASTER_SITES=	http://www.t0s.org/code/tools/dirb/
 
-MAINTAINER=		pancake@phreaker.net
-HOMEPAGE=		http://www.t0s.org/code/tools/dirb/
-COMMENT=			Web Content Scanner
+MAINTAINER=	pancake@phreaker.net
+HOMEPAGE=	http://www.t0s.org/dirb.php
+COMMENT=	Web Content Scanner
 
-USE_BUILDLINK3=	yes
+USE_BUILDLINK3=		yes
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 
