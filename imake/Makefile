@@ -21,6 +21,7 @@ NO_XFREE86_TARGETS=	# defined
 .if ${OPSYS} == "Linux"
 DEPENDS+=	bison-[0-9]*:../../devel/bison
 DEPENDS+=	flex-[0-9]*:../../devel/flex
+USE_GMAKE=	#defined
 .endif
 
 .include "../../wip/XFree86/Makefile.common"
@@ -52,6 +53,7 @@ pre-build:
 		-e "s|BLNK|${BUILDLINK_DIR}|g" \
 		-e "s|LOCALBASE|${LOCALBASE}|g " \
 		-e "s|LDFLAGS|${LDFLAGS}|g" \
+		-e "s|MAKE|${MAKE_PROGRAM}|" \
 		${FILESDIR}/host.def > \
 		${WRKSRC}/config/cf/host.def
 
