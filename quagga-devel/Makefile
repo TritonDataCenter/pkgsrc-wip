@@ -4,7 +4,7 @@
 
 DISTNAME=	quagga-0.96.5-20040831
 PKGNAME=	quagga-0.96.5.20040831
-#PKGREVISION=	0
+PKGREVISION=	1
 CATEGORIES=	net
 # Use pkgsrc/ for saved snapshots, cvs/ for current ones
 MASTER_SITES=	http://www.quagga.net/download/cvs/ \
@@ -53,7 +53,7 @@ CONF_FILES_PERMS+=      ${PREFIX}/share/examples/quagga/log_syslog.conf ${PKG_SY
 
 BUILD_DEFS+=			USE_ZEBRA_VTYSH USE_ZEBRA_OSPF_OPAQUELSA
 USE_ZEBRA_VTYSH?=		YES
-USE_ZEBRA_OSPF_OPAQUELSA?=	NO
+USE_ZEBRA_OSPF_OPAQUELSA?=	YES
 
 .if defined(USE_ZEBRA_VTYSH) && ${USE_ZEBRA_VTYSH} == "YES"
 USE_GNU_READLINE=	# uses rl_pending_input
