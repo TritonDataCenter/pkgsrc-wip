@@ -1,12 +1,11 @@
 # $NetBSD$
 
-DISTNAME=		devhelp-0.6.0
+DISTNAME=		devhelp-0.7
 CATEGORIES=		devel x11
-MASTER_SITES=		http://devhelp.codefactory.se/download/ \
-			ftp://ftp.codefactory.se/pub/software/devhelp/source/
+MASTER_SITES=		http://www.imendio.com/projects/devhelp/src/
 
 MAINTAINER=		benedikt.meurer@unix-ag.uni-siegen.de
-HOMEPAGE=		http://devhelp.codefactory.se/
+HOMEPAGE=		http://www.imendio.com/projects/devhelp/
 COMMENT=		Documentation viewer based on GNOME2
 
 DEPENDS+=		gnome2-dirs>=1.1:../../misc/gnome2-dirs

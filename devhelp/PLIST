@@ -41,6 +41,8 @@ ${PKGLOCALEDIR}/locale/pt/LC_MESSAGES/devhelp.mo
 ${PKGLOCALEDIR}/locale/pt_BR/LC_MESSAGES/devhelp.mo
 ${PKGLOCALEDIR}/locale/ru/LC_MESSAGES/devhelp.mo
 ${PKGLOCALEDIR}/locale/sk/LC_MESSAGES/devhelp.mo
+${PKGLOCALEDIR}/locale/sr/LC_MESSAGES/devhelp.mo
+${PKGLOCALEDIR}/locale/sr@Latn/LC_MESSAGES/devhelp.mo
 ${PKGLOCALEDIR}/locale/sv/LC_MESSAGES/devhelp.mo
 ${PKGLOCALEDIR}/locale/uk/LC_MESSAGES/devhelp.mo
 ${PKGLOCALEDIR}/locale/vi/LC_MESSAGES/devhelp.mo
