@@ -9,6 +9,8 @@ MAINTAINER=	pancake@phreaker.net
 HOMEPAGE=	http://siesta.unixbeard.net/
 COMMENT=	Siesta Mailing List Manager
 
+DEPENDS+=	p5-Module-Build-[0-9]*:../../devel/p5-Module-Build
+
 USE_PERL5=	YES
 
 .include "../../lang/perl5/module.mk"
