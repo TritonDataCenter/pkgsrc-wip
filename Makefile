@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.1341 2004/06/24 23:37:56 bencollver Exp $
+# $Id: Makefile,v 1.1342 2004/06/24 23:48:06 adrian_p Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -755,6 +755,7 @@ SUBDIR+=	umix
 SUBDIR+=	unmo3
 SUBDIR+=	unrealtournament-server
 SUBDIR+=	unshield
+SUBDIR+=	up-imapproxy
 SUBDIR+=	util-linux
 SUBDIR+=	vcdgear
 SUBDIR+=	vche
