@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.230 2003/06/05 20:35:37 marc Exp $
+# $Id: Makefile,v 1.231 2003/06/06 09:24:51 takasan-tt Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -174,6 +174,7 @@ SUBDIR+=	shoutcast
 SUBDIR+=	slocate
 SUBDIR+=	speedx
 SUBDIR+=	srvx
+SUBDIR+=	ssmtp
 SUBDIR+=	strace
 SUBDIR+=	streamripper
 SUBDIR+=	sysklogd
