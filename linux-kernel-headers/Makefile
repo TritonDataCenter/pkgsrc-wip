@@ -5,6 +5,9 @@
 PKGNAME=	linux-kernel-headers-${LINUX_VERSION}
 COMMENT=	Linux kernel headers
 
+NO_BUILDLINK=	yes
+USE_LANGUAGES=	# empty
+
 PLIST_SRC+=	${PKGDIR}/PLIST.${LOWER_ARCH}
 PLIST_SRC+=	${PKGDIR}/PLIST.common
 
