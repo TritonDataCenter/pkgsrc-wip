@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-.include "../../net/nagios-plugins/Makefile.common"
+.include "../../wip/nagios-plugins/Makefile.common"
 
 PKGNAME=	nagios-plugin-ldap
 
@@ -10,7 +10,7 @@ COMMENT=	Nagios ldap plugin
 
 BINARY_TARGET=	check_ldap
 
-.include "../../net/nagios-plugins/Makefile.plugin"
+.include "../../wip/nagios-plugins/Makefile.plugin"
 
 .include "../../databases/openldap/buildlink2.mk"
 .include "../../security/openssl/buildlink2.mk"

@@ -7,16 +7,16 @@ PKGREVISION=	# not defined
 MAINTAINER=     murray@river-styx.org
 COMMENT=	Nagios snmp plugins
 
-DEPENDS+=	nagios-plugins-${PLUGINSVERSION}:../../net/nagios-plugins
+DEPENDS+=	nagios-plugins-${PLUGINSVERSION}:../../wip/nagios-plugins
 DEPENDS+=       p5-Net-SNMP*:../../net/p5-Net-SNMP
 
-.include "../../net/nagios-plugins/Makefile.common"
+.include "../../wip/nagios-plugins/Makefile.common"
 
 BINARY_TARGET=	check_snmp check_hpjd
 SCRIPT_TARGET=	check_ifoperstatus check_ifstatus
 #SCRIPT_TARGET+=	check_breeze check_wave
 
-.include "../../net/nagios-plugins/Makefile.plugin"
+.include "../../wip/nagios-plugins/Makefile.plugin"
 
 .include "../../net/net-snmp/buildlink2.mk"
 .include "../../security/openssl/buildlink2.mk"

@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-.include "../../net/nagios-plugins/Makefile.common"
+.include "../../wip/nagios-plugins/Makefile.common"
 
 PKGNAME=	nagios-plugin-mysql
 PKGREVISION=	# not defined
@@ -14,7 +14,7 @@ BINARY_TARGET=	utils.o check_mysql
 CONFIGURE_ARGS+=	--with-mysql=${BUILDLINK_PREFIX.mysql-client}
 LDFLAGS+=		-Wl,-R${LOCALBASE}/lib/mysql
 
-.include "../../net/nagios-plugins/Makefile.plugin"
+.include "../../wip/nagios-plugins/Makefile.plugin"
 
 .include "../../databases/mysql-client/buildlink2.mk"
 .include "../../security/openssl/buildlink2.mk"
