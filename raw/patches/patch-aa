@@ -9,7 +9,7 @@ This includes sound-20040508.diff from the master site.
  SDL_LIBS = `sdl-config --libs`
  
 -DEFINES = -DLITTLE_ENDIAN
-+DEFINES = -DSYS_LITTLE_ENDIAN -DBYPASS_PROTECTION
++DEFINES = -DBYPASS_PROTECTION
  
 -CXX = g++
 -CXXFLAGS:= -g -O2 -Wall -Wuninitialized -Wno-unknown-pragmas -Wshadow -Wstrict-prototypes

@@ -13,6 +13,15 @@ COMMENT=		Engine for playing Another World
 USE_BUILDLINK3=		yes
 ALL_TARGET=		raw
 
+.include "../../mk/endian.mk"
+.if ${MACHINE_ENDIAN} == "big"
+CFLAGS+=	-DSYS_BIG_ENDIAN
+.elif ${MACHINE_ENDIAN} == "little"
+CFLAGS+=	-DSYS_LITTLE_ENDIAN
+.else
+BROKEN=       "Unknown endianness"
+.endif
+
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/raw ${PREFIX}/bin
 	${INSTALL_DATA_DIR} ${PREFIX}/share/doc/raw
