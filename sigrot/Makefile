@@ -1,12 +1,14 @@
 # $NetBSD$
 
-DISTNAME=	sigrot_1.2-1
-PKGNAME=	sigrot-1.2
+DISTNAME=	sigrot_${DIST_VERS}-1
+PKGNAME=	sigrot-${DIST_VERS}
 WRKSRC=		${WRKDIR}/${PKGNAME}
 CATEGORIES=	mail
 MASTER_SITES=	ftp://ftp.debian.org/debian/pool/main/s/sigrot/ \
 		ftp://ftp.de.debian.org/debian/pool/main/s/sigrot/
+# you can list all Debian mirros here ;-)
 
+DIST_VERS=	1.2
 MAINTAINER=	drue@users.sourceforge.net
 HOMEPAGE=	http://packages.debian.org/stable/mail/sigrot.html
 COMMENT=	Signature file rotation program
@@ -15,7 +17,7 @@ SRDOCS= 	${PREFIX}/share/doc/sigrot
 SREXAM= 	${PREFIX}/share/sigrot
 USE_GMAKE=	yes
 
-post-install:
+do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/sigrot ${PREFIX}/bin
 	${INSTALL_MAN} ${WRKSRC}/sigrot.1 ${PREFIX}/man/man1
 	${INSTALL_DATA_DIR} ${SRDOCS}
