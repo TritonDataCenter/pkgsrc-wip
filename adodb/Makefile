@@ -9,7 +9,7 @@ MASTER_SITES=	http://phplens.com/lens/dl/
 EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	packages@netbsd.org
-HOMEPAGE= 	http://php.weblogs.com/ADODB	
+HOMEPAGE= 	http://php.weblogs.com/ADODB
 COMMENT=	Database class library for PHP4
 
 DEPENDS+=       php>=4.0.1pl2:../../www/php4

@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	ap-bandwidth-2.0.3
+WRKSRC=		${WRKDIR}
 CATEGORIES=	www
 MASTER_SITES=	ftp://ftp.cohprog.com/pub/apache/module/1.3.0/ \
 		http://www.cohprog.com/v3/bandwidth/
@@ -17,7 +18,6 @@ USE_PERL5=	build	# for "apxs"
 DIST_SUBDIR=	${PKGNAME}
 
 EXTRACT_CMD=	${GZIP_CMD} -dc >${WRKDIR}/${DISTNAME} ${_DISTDIR}/${DISTNAME}${EXTRACT_SUFX}
-WRKSRC=		${WRKDIR}
 
 # the sed rule below cleans up the docs so that it's not dependent on the
 # homepage's structure (there's no "detached" docs available).
