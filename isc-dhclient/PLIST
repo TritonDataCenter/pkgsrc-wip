@@ -1,5 +1,4 @@
 @comment $NetBSD$
-etc/rc.d/isc_dhclient
 man/man5/dhclient.conf.5
 man/man5/dhclient.leases.5
 man/man8/dhclient-script.8
