@@ -27,5 +27,3 @@ do-install:
 
 
 .include "../../mk/apache.mk"
-
-.include "../../mk/bsd.pkg.mk"
