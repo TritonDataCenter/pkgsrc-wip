@@ -9,7 +9,10 @@ DEPENDS+=		gkrellm-share-${GKRELLM_VERSION}:../../wip/gkrellm2-share
 
 USE_BUILDLINK2=		YES
 USE_X11=		YES
+USE_PKGINSTALL=		YES
 PTHREAD_OPTS=		require
+
+SPECIAL_PERMS+=		${PREFIX}/bin/gkrellm ${ROOT_USER} kmem 2711
 
 OSVERSION_SPECIFIC=	YES
 
