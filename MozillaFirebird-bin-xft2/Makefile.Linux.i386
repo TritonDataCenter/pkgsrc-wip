@@ -1,0 +1,10 @@
+# $NetBSD$
+#
+
+DISTNAME=	MozillaFirebird-0.7-i686-linux-gtk2+xft
+MASTER_SITES=	http://ftp.mozilla.org/pub/firebird/releases/0.7/
+
+PLATFORM=	linux
+MOZILLA_LIB=	${PREFIX}/lib/MozillaFirebird-xft2-${PLATFORM}
+
+DEPENDS+=	gtk2+>=2.2:../../x11/gtk2
