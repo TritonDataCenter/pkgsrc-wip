@@ -1,14 +1,15 @@
 # $NetBSD$
 #
-.include "../emboss/Makefile.common"
-.include "../emboss-base/Makefile.common"
 
+.include "../emboss-base/Makefile.common"
+.include "../emboss/Makefile.common"
 DISTNAME=		DOMAINATRIX-1.0.0
 PKGNAME=		emboss-domainatrix-1.0.0
+
 COMMENT=		Collection of bioinformatic programs for EMBOSS
 
-DIST_SUBDIR=		${PKG_DISTFILES_DIR}/domainatrix-1.0.0-20040715
-
+BUILD_TARGET=		#empty
+DIST_SUBDIR=		emboss/domainatrix-1.0.0-20040715
 
 pre-configure:
 	${SED} -e 's|../../../plplot/libplplot.la|${PREFIX}/lib/libplplot.la|' \
@@ -21,8 +22,4 @@ pre-configure:
 	       ${WRKSRC}/src/Makefile.in > ${WRKSRC}/src/Makefile.in.bak
 	${MV} ${WRKSRC}/src/Makefile.in.bak ${WRKSRC}/src/Makefile.in
 
-do-build:
-	cd ${WRKSRC} && ${MAKE}
-
 .include "../../mk/bsd.pkg.mk"
-
