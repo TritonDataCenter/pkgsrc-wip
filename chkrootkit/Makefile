@@ -11,10 +11,14 @@ MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://www.chkrootkit.org/
 COMMENT=		Locally checks for signs of a rootkit
 
+PKG_INSTALLATION_TYPES=	overwrite pkgviews
+
 VERSION=		0.43
 DIST_SUBDIR=		${PKGNAME}
 USE_GNU_TOOLS+=		make
-USE_BUILDLINK2=		yes
+USE_BUILDLINK3=		yes
+
+INSTALLATION_DIRS+=	bin
 
 do-install:
 	for A in chkdirs chklastlog chkproc chkwtmp ifpromisc strings-static ;\
