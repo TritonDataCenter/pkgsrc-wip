@@ -3,7 +3,6 @@
 
 DISTNAME=		T-COFFEE_distribution
 PKGNAME=		t-coffee-1.37
-WRKSRC=		 	${WRKDIR}/T-COFFEE_distribution_Version_1.37/t_coffee_source
 CATEGORIES=		biology
 MASTER_SITES=		http://igs-server.cnrs-mrs.fr/~cnotred/Packages/
 
@@ -11,7 +10,9 @@ MAINTAINER=		dprice@cs.nmsu.edu
 HOMEPAGE=		http://igs-server.cnrs-mrs.fr/~cnotred/Packages/
 COMMENT=		Multiple Sequence Alignment Package
 
-DEPENDS+=               clustalw>=1.8:../../biology/clustalw
+DEPENDS+=               clustalw-1.8:../../biology/clustalw
+
+WRKSRC=		 	${WRKDIR}/T-COFFEE_distribution_Version_1.37/t_coffee_source
 
 MESSAGE_SUBST+=         PREFIX=${PREFIX}
 MAKEFILE=               makefile
