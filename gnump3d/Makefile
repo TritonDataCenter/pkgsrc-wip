@@ -10,6 +10,10 @@ MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://savannah.gnu.org/download/gnump3d/
 COMMENT=		The GNU Streaming MP3 / Media Server
 
+USE_PKGINSTALL=		YES
+RCD_SCRIPTS=		gnump3d
+CONF_FILES=		${PREFIX}/etc/gnump3d/gnump3d.conf
+
 USE_PERL5=		YES
 USE_GNU_TOOLS+=		make
 REPLACE_PERL=   	${WRKSRC}/bin/*
