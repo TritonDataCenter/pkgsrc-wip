@@ -11,6 +11,8 @@ COMMENT=	Manipulating Flash movie (SWF) files
 
 DEPENDS+=       p5-Data-TemporaryBag-[0-9]*:../../devel/p5-Data-TemporaryBag
 
+PKG_INSTALLATION_TYPES=	overwrite pkgviews
+
 USE_BUILDLINK3=		yes
 PERL5_PACKLIST=		${PERL5_SITEARCH}/auto/SWF/File/.packlist
 
