@@ -1,4 +1,4 @@
-NetBSD $NetBSD$
+# $NetBSD$
 #
 
 DISTNAME=		xbelmark.py
