@@ -5,7 +5,7 @@ DISTNAME=	CDDB-1.08
 CATEGORIES=	audio perl5
 MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=../by-authors/id/R/RC/RCAPUTO/}
 
-MAINTAINER=	packages@netbsd.org
+MAINTAINER=	tech-pkg@NetBSD.org
 HOMEPAGE=	http://search.cpan.org/search?module=CDDB
 COMMENT=	High-level interface to the Compact Disc Database
 

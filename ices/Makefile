@@ -5,7 +5,7 @@ DISTNAME=	ices-0.2.3
 CATEGORIES=	audio
 MASTER_SITES=	http://www.icecast.org/releases/
 
-MAINTAINER=	packages@netbsd.org
+MAINTAINER=	tech-pkg@NetBSD.org
 HOMEPAGE=	http://www.icecast.org/
 COMMENT=	MP3/Vorbis encoder for icecast servers
 

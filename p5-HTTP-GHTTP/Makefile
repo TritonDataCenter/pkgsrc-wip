@@ -6,7 +6,7 @@ PKGNAME=	p5-${DISTNAME}
 CATEGORIES=	www
 MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=HTTP/}
 
-MAINTAINER=	packages@netbsd.org
+MAINTAINER=	tech-pkg@NetBSD.org
 COMMENT=	Perl interface to the gnome ghttp library
 
 USE_BUILDLINK2=	YES

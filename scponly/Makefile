@@ -6,7 +6,7 @@ CATEGORIES=	shells
 MASTER_SITES=	http://www.sublimation.org/scponly/
 EXTRACT_SUFX=	.tgz
 
-MAINTAINER=	packages@netbsd.org
+MAINTAINER=	tech-pkg@NetBSD.org
 HOMEPAGE=	http://www.sublimation.org/scponly/
 COMMENT=	Tiny shell which only permits scp and sftp
 

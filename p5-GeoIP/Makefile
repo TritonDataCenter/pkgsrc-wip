@@ -6,7 +6,7 @@ PKGNAME=	p5-GeoIP-1.15
 CATEGORIES=	net
 MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=Geo/}
 
-MAINTAINER=	packages@netbsd.org
+MAINTAINER=	tech-pkg@NetBSD.org
 HOMEPAGE=	http://maxmind.com/geoip/api/perl.shtml
 COMMENT=	Gets country name by IP or hostname
 

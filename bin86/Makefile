@@ -5,7 +5,7 @@ CATEGORIES=		devel
 MASTER_SITES=		http://www.cix.co.uk/~mayday/dev86/
 EXTRACT_SUFX=		.tar.bz2
 
-MAINTAINER=		packages@netbsd.org
+MAINTAINER=		tech-pkg@NetBSD.org
 COMMENT=	 	Simple assember and linker for x86 machine code
 
 # devel/bcc also provides as86 and ld86

@@ -7,7 +7,7 @@ CATEGORIES=	devel
 MASTER_SITES=	http://www.tutos.org/download/
 EXTRACT_SUFX=	.tar.bz2
 
-MAINTAINER=	packages@netbsd.org
+MAINTAINER=	tech-pkg@NetBSD.org
 HOMEPAGE=	http://www.tutos.org/homepage/about.html
 COMMENT=	Time and team management software
 

@@ -6,7 +6,7 @@ CATEGORIES=		sysutils
 #MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=procps/}
 MASTER_SITES=		http://procps.sourceforge.net/
 
-MAINTAINER=		packages@netbsd.org
+MAINTAINER=		tech-pkg@NetBSD.org
 HOMEPAGE=		http://procps.sourceforge.net/
 COMMENT=		The Linux /proc file system utilities
 

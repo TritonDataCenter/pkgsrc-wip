@@ -5,7 +5,7 @@ DISTNAME=	libshout-1.0.9
 CATEGORIES=	audio
 MASTER_SITES=	http://developer.icecast.org/libshout/releases/
 
-MAINTAINER=	packages@netbsd.org
+MAINTAINER=	tech-pkg@NetBSD.org
 HOMEPAGE=	http://developer.icecast.org/libshout/
 COMMENT=	Library for using icecast servers
 

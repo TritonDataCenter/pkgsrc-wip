@@ -5,7 +5,7 @@ PKGNAME=	tendra-4.1.2
 CATEGORIES=	devel
 MASTER_SITES=	http://www.info.uni-karlsruhe.de/~andf/download/
 
-MAINTAINER=	packages@netbsd.org
+MAINTAINER=	tech-pkg@NetBSD.org
 HOMEPAGE=	http://www.info.uni-karlsruhe.de/~andf/tendra.htm
 COMMENT=	Multi-targetted C and C++ compiler
 

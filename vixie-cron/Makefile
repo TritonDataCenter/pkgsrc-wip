@@ -6,7 +6,7 @@ CATEGORIES=		sysutils
 MASTER_SITES=		ftp://ftp.isc.org/isc/cron/
 EXTRACT_SUFX=		.shar
 
-MAINTAINER=		packages@NetBSD.ORG
+MAINTAINER=		tech-pkg@NetBSD.org
 COMMENT=		Execute and maintain scheduled commands
 
 USE_PKGINSTALL=		YES

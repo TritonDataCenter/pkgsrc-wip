@@ -5,7 +5,7 @@ DISTNAME=	gdrdao-0.4.1
 CATEGORIES=	sysutils
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=gdrdao/}
 
-MAINTAINER=	packages@netbsd.org
+MAINTAINER=	tech-pkg@NetBSD.org
 HOMEPAGE=	http://gdrdao.sourceforge.net/
 COMMENT=	GTK-based GUI frontend for cdrdao
 

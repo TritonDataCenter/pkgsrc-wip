@@ -5,7 +5,7 @@ CATEGORIES=		net
 # sunsite has older 0.16 version
 MASTER_SITES=		ftp://ftp.uk.linux.org/pub/linux/Networking/netkit/
 
-MAINTAINER=		packages@netbsd.org
+MAINTAINER=		tech-pkg@NetBSD.org
 HOMEPAGE=		http://www.hcs.harvard.edu/~dholland/computers/netkit.html
 COMMENT=		The inetd super server and ping for Linux
 

@@ -4,7 +4,7 @@ DISTNAME=	bc-1.06
 CATEGORIES=	math
 MASTER_SITES=	${MASTER_SITE_GNU:=bc/}
 
-MAINTAINER=	packages@netbsd.org
+MAINTAINER=	tech-pkg@NetBSD.org
 HOMEPAGE=	http://www.gnu.org/software/bc/bc.html
 COMMENT=	Arbitrary precision calculator language
 # this provides dc(1) which is essential for pkgsrc installations

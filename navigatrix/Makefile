@@ -5,7 +5,7 @@ DISTNAME=	navigatrix-0.5
 CATEGORIES=	misc
 MASTER_SITES=	http://www.maraudingpirates.org/navigatrix/src/
 
-MAINTAINER=	packages@netbsd.org
+MAINTAINER=	tech-pkg@NetBSD.org
 HOMEPAGE=	http://www.maraudingpirates.org/navigatrix/
 COMMENT=	GPS navigational system for KDE
 

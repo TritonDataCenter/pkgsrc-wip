@@ -7,7 +7,7 @@ CATEGORIES=		sysutils
 # XXX MASTER_SITES=		${MASTER_SITE_SUNSITE:=system/daemons/init/}
 MASTER_SITES=		ftp://ftp.cistron.nl/pub/people/miquels/sysvinit/
 
-MAINTAINER=		packages@netbsd.org
+MAINTAINER=		tech-pkg@NetBSD.org
 #HOMEPAGE
 COMMENT=		The Linux System V init and miscellaneous Linux tools
 

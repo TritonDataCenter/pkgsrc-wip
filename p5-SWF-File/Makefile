@@ -5,7 +5,7 @@ DISTNAME=	SWF-File-0.22
 CATEGORIES=	graphics www perl5
 MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=../../authors/id/Y/YS/YSAS/}
 
-MAINTAINER=	packages@netbsd.org
+MAINTAINER=	tech-pkg@NetBSD.org
 HOMEPAGE=	http://search.cpan.org/dist/SWF-File/
 COMMENT=	Manipulating Flash movie (SWF) files
 
