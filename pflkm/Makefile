@@ -16,6 +16,8 @@ NO_CONFIGURE=		yes
 
 PKG_USERS=		_pflogd:nogroup:60:pflogd\\ pseudo-user:/var/empty:/sbin/nologin
 
+RCD_SCRIPTS=		pf pflogd
+
 post-patch:
 .for f in sbin/pfctl/pfctl_parser.h usr.sbin/authpf/pathnames.h
 	@${MV} ${WRKSRC}/${f} ${WRKSRC}/${f}.orig
