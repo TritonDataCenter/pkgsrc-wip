@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	windowlab-1.10
+DISTNAME=	windowlab-1.11
 CATEGORIES=	wm
 MASTER_SITES=	http://www.nickgravgaard.com/windowlab/
 EXTRACT_SUFX=	.tar
