@@ -6,7 +6,7 @@ $NetBSD$
  # Your system may have these in a different place.
  #    IVE_HOME   - IBM's version of Java (J9)
 -IVE_HOME   = /bluebird/teamswt/swt-builddir/ive
-+IVE_HOME   = /usr/pkg/java/kaffe
++IVE_HOME   = @PKG_JVM_HOME@
  #IVE_HOME   = /opt/IBMvame1.4/ive
  
 -JAVA_JNI=$(IVE_HOME)/bin/include
