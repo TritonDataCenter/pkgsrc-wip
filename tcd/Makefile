@@ -15,5 +15,5 @@ USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 
 .include "../../devel/SDL/buildlink3.mk"
-.include "../../devel/ncurses.mk"
+.include "../../devel/ncurses/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
