@@ -1,5 +1,7 @@
-DISTNAME=       avida-2.0b1
+# $NetBSD$
+#
 
+DISTNAME=       avida-2.0b1
 CATEGORIES=     misc
 MASTER_SITES=   ${MASTER_SITE_SOURCEFORGE:=avida/}
 
