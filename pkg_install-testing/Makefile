@@ -72,8 +72,8 @@ VERSION!=		${AWK} -F '"' '/PKGTOOLS_VERSION/ {print $$2}' \
 			${FILESDIR}/lib/version.h
 
 do-extract:
-	@${CP} -Rp ${LIBNBCOMPAT_FILESDIR} ${LIBNBCOMPAT_SRCDIR}
-	@${CP} -Rp ${FILESDIR} ${WRKSRC}
+	@${CP} -R ${LIBNBCOMPAT_FILESDIR} ${LIBNBCOMPAT_SRCDIR}
+	@${CP} -R ${FILESDIR} ${WRKSRC}
 
 pre-configure:
 	@cd ${LIBNBCOMPAT_SRCDIR} && ${SETENV} ${CONFIGURE_ENV:NLIBS=*}	\

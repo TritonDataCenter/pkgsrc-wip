@@ -21,7 +21,7 @@ NO_BUILD=	yes
 CONF_FILES=	${PKG_SYSCONFDIR}/apstget.conf
 
 do-extract:
-	@${CP} -Rp ${FILESDIR} ${WRKSRC}
+	@${CP} -R ${FILESDIR} ${WRKSRC}
 
 do-install:
 	${INSTALL_SCRIPT} ${WRKSRC}/apst-get ${PREFIX}/bin/apstget

@@ -14,7 +14,7 @@ NO_CONFIGURE=		YES
 USE_BUILDLINK3=		yes
 
 do-extract:
-	@${CP} -Rp ${FILESDIR} ${WRKSRC}
+	@${CP} -R ${FILESDIR} ${WRKSRC}
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/mkdep ${PREFIX}/bin
