@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.1211 2004/04/18 05:46:22 blef Exp $
+# $Id: Makefile,v 1.1212 2004/04/18 11:11:32 poppnk Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -193,6 +193,7 @@ SUBDIR+=	gnome-clipboard-daemon
 SUBDIR+=	gnomeicu
 SUBDIR+=	gnucash-docs
 SUBDIR+=	gnumeric
+SUBDIR+=	gnump3d
 SUBDIR+=	gnunet
 SUBDIR+=	gnupg-1.9
 SUBDIR+=	goldwater
