@@ -18,7 +18,7 @@ BUILDLINK_DEPENDS.freetype2=	freetype2>=2.1.4
 
 CONFLICTS+=		gimp<=1.2.3
 
-GIMP_VER=		1.3.18
+GIMP_VER=		1.3.19
 
 USE_BUILDLINK2=		yes
 USE_PKGLOCALEDIR=	yes
