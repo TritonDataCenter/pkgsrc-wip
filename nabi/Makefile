@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		nabi-0.4
+DISTNAME=		nabi-0.5
 CATEGORIES=		korean inputmethod
 MASTER_SITES=		http://download.kldp.net/nabi/
 
