@@ -8,10 +8,9 @@ MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=ttfquery/}
 
 MAINTAINER=		dotz@irc.pl
 HOMEPAGE=		http://ttfquery.sourceforge.net/
-COMMENT=		Query TTF font files for metadata and font outlines in a cross-platform manner
+COMMENT=		Query TTF font files for metadata and font outlines
 
-USE_BUILDLINK2=		yes
-PY_PATCHPLIST=		yes
+USE_BUILDLINK3=		yes
 PYDISTUTILSPKG=		yes
 
 DEPENDS+=		${PYPKGPREFIX}-fonttools>=2.0b1:../../fonts/py-fonttools
