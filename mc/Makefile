@@ -22,7 +22,7 @@ PLIST_SRC+=	${PKGDIR}/PLIST.cons.saver
 
 # remove dir if no extensions were installed there
 post-install:
-	@${RMDIR} ${PREFIX}/lib/mc 2>/dev/null
+	@${RMDIR} ${PREFIX}/lib/mc 2>/dev/null || ${TRUE}
 
 # we need working e2fsprogs and gpm packages first
 CONFIGURE_ARGS=	--prefix=${PREFIX} \
