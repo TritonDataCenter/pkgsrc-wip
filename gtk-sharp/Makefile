@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	gtk-sharp-0.10
+DISTNAME=	gtk-sharp-0.11
 CATEGORIES=	x11
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=gtk-sharp/}
 
@@ -20,6 +20,8 @@ GNU_CONFIGURE=	YES
 PERL5_SITELIB=	YES
 
 LIBTOOL_OVERRIDE=	${WRKSRC}/libtool
+PKGCONFIG_OVERRIDE=	gtk-sharp.pc.in
+PKGCONFIG_OVERRIDE+=	parser/gapi.pc.in
 
 REPLACE_PERL=	mapdllnames.pl
 REPLACE_PERL+=	bin/gapi.pl

@@ -1,11 +1,10 @@
 # $NetBSD$
-#
 
 .if !defined(GTK_SHARP_BUILDLINK2_MK)
 GTK_SHARP_BUILDLINK2_MK=	# defined
 
 BUILDLINK_PACKAGES+=			gtk-sharp
-BUILDLINK_DEPENDS.gtk-sharp?=		gtk-sharp>=0.10
+BUILDLINK_DEPENDS.gtk-sharp?=		gtk-sharp>=0.11
 BUILDLINK_PKGSRCDIR.gtk-sharp?=		../../wip/gtk-sharp
 
 EVAL_PREFIX+=	BUILDLINK_PREFIX.gtk-sharp=gtk-sharp
@@ -23,6 +22,9 @@ BUILDLINK_FILES.gtk-sharp+=	lib/gnomedb-sharp.dll
 BUILDLINK_FILES.gtk-sharp+=	lib/gtk-sharp.dll
 BUILDLINK_FILES.gtk-sharp+=	lib/libgtksharpglue.*
 BUILDLINK_FILES.gtk-sharp+=	lib/pango-sharp.dll
+BUILDLINK_FILES.gtk-sharp+=	lib/pkgconfig/gapi.pc
+BUILDLINK_FILES.gtk-sharp+=	lib/pkgconfig/gtk-sharp.pc
+BUILDLINK_FILES.gtk-sharp+=	lib/rsvg-sharp.dll
 
 .include "../../databases/libgnomedb/buildlink2.mk"
 .include "../../graphics/librsvg2/buildlink2.mk"
