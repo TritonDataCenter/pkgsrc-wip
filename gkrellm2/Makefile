@@ -15,9 +15,15 @@ PTHREAD_OPTS=		require
 
 SPECIAL_PERMS+=		${PREFIX}/bin/gkrellm ${ROOT_USER} kmem 2711
 
-ONLY_FOR_PLATFORM=	NetBSD-*
+ONLY_FOR_PLATFORM=	NetBSD-* FreeBSD-*
 
+.include "../../mk/bsd.prefs.mk"
+
+.if ${OPSYS} == "FreeBSD"
+ALL_TARGET=		freebsd
+.else
 ALL_TARGET=		netbsd
+.endif
 INSTALL_TARGET=		install_netbsd
 
 MAKE_ENV+=		LINK_FLAGS=${EXPORT_SYMBOLS_LDFLAGS}
@@ -34,5 +40,4 @@ post-install:
 .include "../../x11/gtk2/buildlink2.mk"
 .include "../../devel/glib2/buildlink2.mk"
 .include "../../mk/pthread.buildlink2.mk"
-
 .include "../../mk/bsd.pkg.mk"
