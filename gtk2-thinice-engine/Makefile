@@ -11,7 +11,7 @@ MAINTAINER=	xtraeme@NetBSD.org
 HOMEPAGE=	http://thinice.sourceforge.net/
 COMMENT=	Simple, clean theme engine
 
-DEPENDS=		gnome2-dirs>=1.0:../../misc/gnome2-dirs
+DEPENDS=		gnome2-dirs>=1.2:../../misc/gnome2-dirs
 BUILD_USES_MSGFMT=	yes
 
 USE_BUILDLINK2=		yes
