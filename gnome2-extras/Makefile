@@ -17,6 +17,7 @@ DEPENDS+=	stickynotes-applet>=1.2.0:../../wip/stickynotes-applet
 DEPENDS+=	zenity>=1.2:../../wip/zenity
 DEPENDS+=	gtranslator>=0.99:../../wip/gtranslator
 DEPENDS+=       tsclient>=0.104:../../wip/tsclient
+DEPENDS+=	gmencoder>=0.07:../../wip/gmencoder
 
 USE_X11=	yes
 USE_BUILDLINK2=	yes
