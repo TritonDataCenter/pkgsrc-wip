@@ -15,7 +15,8 @@ COMMENT=		Framework for writing networked applications
 USE_BUILDLINK2=		yes
 PY_PATCHPLIST=		yes
 PYDISTUTILSPKG=		yes
-PYTHON_VERSION_REQD=	22pth
+
+PYTHON_VERSIONS_ACCEPTED=	23pth 22pth
 
 post-install:
 	${PYTHONBIN} -O ${PREFIX}/${PYLIB}/compileall.py \
