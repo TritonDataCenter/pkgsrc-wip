@@ -45,7 +45,7 @@ PLIST_SRC+=		${PKGDIR}/PLIST.vtysh
 CONFIGURE_ARGS+=	--disable-vtysh
 .endif
 
-USE_GMAKE=		# defined
+USE_GNU_TOOLS+=		make
 
 BUILD_DEFS+=		USE_INET6
 

@@ -12,7 +12,7 @@ HOMEPAGE=		http://www.portaudio.com/archives/
 COMMENT=		Portable cross-platform Audio API
 
 HAS_CONFIGURE=		YES
-USE_GMAKE=		YES
+USE_GNU_TOOLS+=		make
 USE_BUILDLINK2=		YES
 
 CONFIGURE_ARGS=		--prefix=${PREFIX}

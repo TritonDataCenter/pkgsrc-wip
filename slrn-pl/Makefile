@@ -14,7 +14,7 @@ HOMEPAGE=	http://slrn-pl.zamiast.net/
 COMMENT=	Highly customizable threaded newsreader (PoLished version)
 
 PKG_SYSCONFSUBDIR=	slrn-pl
-USE_GMAKE=		yes
+USE_GNU_TOOLS+=		make
 USE_BUILDLINK2=		yes
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes

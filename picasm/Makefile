@@ -14,7 +14,7 @@ COMMENT=	Assembler for Microchip PIC16Cxx microcontrollers
 MAKEFILE=	makefile.uni
 ALL_TARGET=	picasm
 
-USE_GMAKE=	yes
+USE_GNU_TOOLS+=	make
 USE_BUILDLINK2=	yes
 
 do-install:

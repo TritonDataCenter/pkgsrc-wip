@@ -14,7 +14,7 @@ HOMEPAGE=		http://gborg.postgresql.org/project/uniqueidentifier/projdisplay.php
 COMMENT=		Allows PostgreSQL databases to use Global Unique Identifier (GUID)
 
 USE_BUILDLINK2=		yes
-USE_GMAKE=		yes
+USE_GNU_TOOLS+=		make
 DEPENDS=		postgresql-server>=7.3.4:../../databases/postgresql-server
 
 post-extract: postgresql-post-extract

@@ -8,7 +8,7 @@ MAINTAINER=     dotz@irc.pl
 HOMEPAGE=       http://netdragon.sourceforge.net/
 COMMENT=        Interactive eyecandy for your KDE desktop
 
-USE_GMAKE=	YES
+USE_GNU_TOOLS+=	make
 USE_BUILDLINK2= YES
 GNU_CONFIGURE=	YES
 CONFIGURE_ARGS+=--with-pythondir=${PREFIX}

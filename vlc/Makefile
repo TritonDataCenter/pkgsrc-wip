@@ -11,7 +11,7 @@ HOMEPAGE=		http://www.videolan.org/
 COMMENT=		VideoLAN Client
 
 USE_BUILDLINK2=		yes
-USE_GMAKE=		yes
+USE_GNU_TOOLS+=		make
 USE_PKGLOCALEDIR=	yes
 USE_X11=		yes
 GNU_CONFIGURE=		yes

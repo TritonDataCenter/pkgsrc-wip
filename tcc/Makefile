@@ -9,7 +9,7 @@ MAINTAINER=	pancake@phreaker.net
 HOMEPAGE=	http://www.tinycc.org/
 COMMENT=	The Smallest ANSI C compiler
 
-USE_GMAKE=	yes
+USE_GNU_TOOLS+=	make
 GNU_CONFIGURE=	yes
 USE_BUILDLINK2=	yes
 

@@ -12,7 +12,7 @@ COMMENT=		Gives socket capabilities to lua50
 
 MAKEFILE=		${WRKSRC}/makefile
 ALL_TARGET=		dyn
-USE_GMAKE=		YES
+USE_GNU_TOOLS+=		make
 USE_BUILDLINK2=		YES
 
 .include "../../lang/lua/buildlink2.mk"

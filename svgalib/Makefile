@@ -10,7 +10,7 @@ MAINTAINER=	collver1@comcast.net
 HOMEPAGE=	http://www.svgalib.org/
 COMMENT=	Low level console graphics library
 
-USE_GMAKE=	yes
+USE_GNU_TOOLS+=	make
 CFLAGS+=	-g -DUSE_LIBC_VM86
 MANCOMPRESSED=	yes
 

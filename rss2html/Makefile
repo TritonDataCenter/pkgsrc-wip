@@ -10,6 +10,6 @@ HOMEPAGE=		http://www.nopcode.org/?t=rss2html
 COMMENT=		RSS to HTML converter
 
 USE_BUILDLINK2=	YES
-USE_GMAKE=	YES
+USE_GNU_TOOLS+=	make
 
 .include "../../mk/bsd.pkg.mk"

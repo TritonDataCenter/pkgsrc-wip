@@ -13,7 +13,7 @@ COMMENT=	Linux Letters and Numbers childrens game
 USE_BUILDLINK2=		YES
 USE_PKGLOCALEDIR=	YES
 GNU_CONFIGURE=		YES
-USE_GMAKE=		YES
+USE_GNU_TOOLS+=		make
 CPPFLAGS+=		-DDEVOSSAUDIO=\"\\\"${DEVOSSAUDIO}\\\"\"
 
 pre-configure:

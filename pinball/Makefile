@@ -11,7 +11,7 @@ HOMEPAGE=	http://pinball.sourceforge.net/
 COMMENT=	Pinball using the Allegro game library
 
 USE_BUILDLINK2= YES
-USE_GMAKE=	YES
+USE_GNU_TOOLS+=	make
 GNU_CONFIGURE=  YES
 
 .include "../allegro/buildlink2.mk"

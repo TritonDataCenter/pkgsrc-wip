@@ -11,7 +11,7 @@ COMMENT=		Tiny and fast HTTP daemon
 
 BUILD_DEFS+=		USE_INET6
 GNU_CONFIGURE=		yes
-USE_GMAKE=		yes
+USE_GNU_TOOLS+=		make
 USE_BUILDLINK2=		yes
 USE_PKGINSTALL=		yes
 

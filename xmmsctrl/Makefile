@@ -10,7 +10,7 @@ HOMEPAGE=		http://www.docs.uu.se/~adavid/utils/
 COMMENT=		Small utility to control xmms from the command line
 
 USE_BUILDLINK2=		YES
-USE_GMAKE=		YES
+USE_GNU_TOOLS+=		make
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/xmmsctrl ${PREFIX}/bin/xmmsctrl

@@ -14,7 +14,7 @@ DEPENDS+=	zip-[0-9]*:../../archivers/zip
 USE_BUILDLINK2=		YES
 GNU_CONFIGURE=		YES
 USE_PKGLOCALEDIR=	YES
-USE_GMAKE=		YES
+USE_GNU_TOOLS+=		make
 USE_X11=		YES
 
 .include "../../mk/bsd.prefs.mk"

@@ -30,7 +30,7 @@ COMMENT=	Working version of SML/NJ Standard ML compiler
 SML_VERSION=	110.44
 
 DIST_SUBDIR=	smlnj-${SML_VERSION}
-USE_GMAKE=	yes
+USE_GNU_TOOLS+=	make
 
 SML_BASE=	${PREFIX}/lib/smlnj
 SML_LIBDIR=	${SML_BASE}/lib

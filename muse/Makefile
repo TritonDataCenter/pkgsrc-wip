@@ -14,7 +14,7 @@ COMMENT=	Multiple Streaming Engine
 USE_BUILDLINK2=	YES
 USE_X11=	YES
 USE_OSS=	YES
-USE_GMAKE=	YES
+USE_GNU_TOOLS+=	make
 GNU_CONFIGURE=	YES
 
 .include "../../mk/bsd.prefs.mk"

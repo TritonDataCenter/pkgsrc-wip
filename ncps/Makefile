@@ -9,7 +9,7 @@ HOMEPAGE=	http://www.math.ohio-state.edu/~pschan/ncps/
 COMMENT=	ncurses based process-killer
 
 GNU_CONFIGURE=		YES
-USE_GMAKE=		YES
+USE_GNU_TOOLS+=		make
 USE_BUILDLINK2=		YES
 USE_NCURSES=		YES
 

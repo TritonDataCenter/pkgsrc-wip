@@ -8,7 +8,7 @@ MASTER_SITES=	http://lev.serebryakov.spb.ru/download/0.48/
 MAINTAINER=	gik@nc.ru
 COMMENT=	FidoNet mailer
 
-USE_GMAKE=	yes
+USE_GNU_TOOLS+=	make
 
 MAKE_ENV+=	SH="${SH}" AWK="${AWK}" MORDA="${QCC}"
 

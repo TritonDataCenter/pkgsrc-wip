@@ -12,7 +12,7 @@ COMMENT=		Themes for GNOME 2
 
 DEPENDS=		gnome2-dirs>=1.0:../../misc/gnome2-dirs
 
-USE_GMAKE=		yes
+USE_GNU_TOOLS+=		make
 USE_BUILDLINK2=		yes
 USE_PKGLOCALEDIR=	yes
 BUILD_USES_MSGFMT=	yes

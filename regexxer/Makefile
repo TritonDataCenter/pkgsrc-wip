@@ -13,7 +13,7 @@ DEPENDS=		gnome2-dirs>=1.0:../../misc/gnome2-dirs
 
 USE_BUILDLINK2=		yes
 GNU_CONFIGURE=		yes
-USE_GMAKE=		yes
+USE_GNU_TOOLS+=		make
 USE_X11=		yes
 
 .include "../../devel/gettext-lib/buildlink2.mk"

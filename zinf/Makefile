@@ -15,7 +15,7 @@ PTHREAD_OPTS=	require
 
 USE_BUILDLINK2=	yes
 GNU_CONFIGURE=	yes
-USE_GMAKE=	yes
+USE_GNU_TOOLS+=	make
 USE_X11=	yes
 #USE_PERL5=	yes
 

@@ -9,7 +9,7 @@ MAINTAINER=	pancake@phreaker.net
 HOMEPAGE=	http://www.uclibc.org/
 COMMENT=	C library for developing embedded Linux systems
 
-USE_GMAKE=	yes
+USE_GNU_TOOLS+=	make
 USE_BUILDLINK2=	yes
 
 ONLY_FOR_PLATFORM=	Linux-*-*

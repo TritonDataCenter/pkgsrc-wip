@@ -12,7 +12,7 @@ MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://www.scons.org/
 COMMENT=		Build script generator
 
-USE_GMAKE=		yes
+USE_GNU_TOOLS+=		make
 USE_BUILDLINK2=		yes
 
 do-install:

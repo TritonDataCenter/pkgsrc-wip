@@ -18,7 +18,7 @@ USE_BUILDLINK2=		yes
 USE_PKGLOCALEDIR=      	yes
 GNU_CONFIGURE=		yes
 USE_CROSSBASE=		yes
-USE_GMAKE=		yes
+USE_GNU_TOOLS+=		make
 
 PATH:=			${CROSSBASE}/bin:${PATH}
 

@@ -22,7 +22,7 @@ HOMEPAGE=		http://nehe.gamedev.net/
 COMMENT=		OpenGL tutorials from NeHe.gamedev.net - ${NEHE_OPENGL_TUT_FLAVOUR} versions
 
 DIST_SUBDIR=   		nehe-opengl-tutorials-${NEHE_OPENGL_TUT_FLAVOUR}
-USE_GMAKE=		yes
+USE_GNU_TOOLS+=		make
 USE_X11=		yes
 USE_BUILDLINK2=		yes
 RESTRICTED=		"I am not sure if we can redistribute it"

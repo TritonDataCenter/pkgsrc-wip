@@ -9,7 +9,7 @@ HOMEPAGE=	http://www.powerdns.com/
 COMMENT=	Modern, advanced and high performance nameserver
 
 USE_PKGINSTALL=	YES
-USE_GMAKE=	YES
+USE_GNU_TOOLS+=	make
 GNU_CONFIGURE=	YES
 CONFIGURE_ARGS=	--with-modules=""
 USE_BUILDLINK2=	YES

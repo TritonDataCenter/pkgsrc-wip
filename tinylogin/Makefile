@@ -9,7 +9,7 @@ MAINTAINER=	pancake@phreaker.net
 HOMEPAGE=	http://tinylogin.busybox.net/
 COMMENT=	Suite of tiny Unix utilities for handling logging
 
-USE_GMAKE=	yes
+USE_GNU_TOOLS+=	make
 USE_BUILDLINK2=	yes
 
 ONLY_FOR_PLATFORM=	Linux-*-*

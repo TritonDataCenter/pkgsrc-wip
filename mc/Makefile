@@ -13,7 +13,7 @@ COMMENT=	User-friendly file manager and visual shell
 
 USE_BUILDLINK2=
 GNU_CONFIGURE=
-USE_GMAKE=
+USE_GNU_TOOLS+=		make
 USE_PKGLOCALEDIR=
 
 .if ${OPSYS} == "Linux"

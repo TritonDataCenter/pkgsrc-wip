@@ -11,7 +11,7 @@ COMMENT=		System and kernel log daemons for Linux
 
 ONLY_FOR_PLATFORM=	Linux-*-*	# This has Linux klogd
 
-USE_GMAKE=		YES
+USE_GNU_TOOLS+=		make
 CFLAGS+=		-D_PATH_LOGCONF='\"${PKG_SYSCONFBASE}/syslog.conf\"'
 MAKE_ENV+=		DESTDIR=${PREFIX} ROOT_GROUP=${ROOT_GROUP} \
 			ROOT_USER=${ROOT_USER}

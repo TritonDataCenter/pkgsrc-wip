@@ -10,7 +10,7 @@ MAINTAINER=	pancake@phreaker.net
 HOMEPAGE=	http://www.qcc.ca/~charlesc/software/memtester/
 COMMENT=	Utility for testing the memory subsystem
 
-USE_GMAKE=	yes
+USE_GNU_TOOLS+=	make
 USE_BUILDLINK2=	yes
 
 do-install:

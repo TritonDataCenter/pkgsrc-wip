@@ -13,6 +13,6 @@ COMMENT=		API for secure io/net/mem/str functions
 USE_BUILDLINK2=		yes
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
-USE_GMAKE=		yes
+USE_GNU_TOOLS+=		make
 
 .include "../../mk/bsd.pkg.mk"

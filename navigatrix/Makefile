@@ -11,7 +11,7 @@ COMMENT=	GPS navigational system for KDE
 
 GNU_CONFIGURE=		yes
 USE_BUILDLINK2=		yes
-USE_GMAKE=		yes
+USE_GNU_TOOLS+=		make
 USE_LIBTOOL=		yes
 USE_X11BASE=		yes
 

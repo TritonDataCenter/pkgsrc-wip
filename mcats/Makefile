@@ -10,7 +10,7 @@ HOMEPAGE=	http://mcats.net/
 COMMENT=	Catalog converter
 
 GNU_CONFIGURE=		YES
-USE_GMAKE=		YES
+USE_GNU_TOOLS+=		make
 USE_LIBTOOL=		YES
 LIBTOOL_OVERRIDE=	${WRKSRC}/libtool
 

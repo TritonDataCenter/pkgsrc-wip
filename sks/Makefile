@@ -11,7 +11,7 @@ HOMEPAGE=	http://www.nongnu.org/sks/
 COMMENT=	Self Replicating PGP Key Server
 
 USE_BUILDLINK2=	yes
-USE_GMAKE=	yes
+USE_GNU_TOOLS+=	make
 
 SKS_VERSION=	1.0.4
 

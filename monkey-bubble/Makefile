@@ -14,7 +14,7 @@ USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=		yes
 LIBTOOL_OVERRIDE=	${WRKSRC}/libtool
 GNU_CONFIGURE=		yes
-USE_GMAKE=		yes
+USE_GNU_TOOLS+=		make
 
 .include "../../graphics/librsvg2/buildlink2.mk"
 .include "../../misc/gstreamer/buildlink2.mk"

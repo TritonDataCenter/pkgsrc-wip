@@ -15,7 +15,7 @@ DEPENDS+=	p5-Term-ReadLine>=1.12:../../devel/p5-Term-ReadLine
 DEPENDS+=	p5-XML-LibXML>=1.31:../../textproc/p5-XML-LibXML
 
 USE_PERL5=	yes
-USE_GMAKE=	yes
+USE_GNU_TOOLS+=	make
 USE_BUILDLINK2=	yes
 PKG_SHELL=	${PREFIX}/bin/xsh
 

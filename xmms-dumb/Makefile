@@ -12,7 +12,7 @@ HOMEPAGE=		http://dumb.sourceforge.net/
 COMMENT=		XMMS mod player plugin based on dumb
 
 USE_BUILDLINK2=		yes
-USE_GMAKE=		yes
+USE_GNU_TOOLS+=		make
 USE_X11=		yes
 
 .include "../../wip/dumb/buildlink2.mk"

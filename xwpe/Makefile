@@ -11,7 +11,7 @@ COMMENT=	Programming environment for UNIX systems
 
 GNU_CONFIGURE=		yes
 USE_BUILDLINK2=		yes
-USE_GMAKE=		yes
+USE_GNU_TOOLS+=		make
 USE_NCURSES=		# tigetstr()
 USE_X11=		yes
 

@@ -13,7 +13,7 @@ COMMENT=		The Linux /proc file system utilities
 # This uses Linux include/asm/page.h
 ONLY_FOR_PLATFORM=	Linux-*-*
 
-USE_GMAKE=		YES
+USE_GNU_TOOLS+=		make
 USE_BUILDLINK2=		YES
 MAKE_ENV+=		DESTDIR=${PREFIX}
 
