@@ -21,6 +21,7 @@ PLIST_SUBST+=		EGDIR=${REL_EGDIR}
 do-install:
 	${INSTALL_DATA_DIR} ${EGDIR}
 	${INSTALL_PROGRAM} ${WRKSRC}/plugger-${PKGVERSION} ${PREFIX}/bin/
+	${INSTALL_PROGRAM} ${WRKSRC}/plugger-controller ${PREFIX}/bin/
 	${INSTALL_DATA} ${WRKSRC}/plugger.so ${PREFIX}/lib/
 	${INSTALL_MAN} ${WRKSRC}/plugger.7 ${PREFIX}/man/man7/
 	${INSTALL_DATA} ${WRKSRC}/pluggerrc ${EGDIR}/
