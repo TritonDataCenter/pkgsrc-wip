@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.299 2003/07/04 04:32:56 blef Exp $
+# $Id: Makefile,v 1.300 2003/07/04 11:55:23 jmmv Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -40,7 +40,6 @@ SUBDIR+=	cjk-latex
 SUBDIR+=	cjk-latex-chinese
 SUBDIR+=	cjk-latex-japanese
 SUBDIR+=	cjk-latex-korean
-SUBDIR+=	conglomerate
 SUBDIR+=	cvsd
 SUBDIR+=	dancer-ircd
 SUBDIR+=	darkice
