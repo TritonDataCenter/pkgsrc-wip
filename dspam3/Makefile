@@ -97,6 +97,19 @@ CONFIGURE_ARGS+=	--enable-homedir-dotfiles
 CONFIGURE_ARGS+=	--enable-webmail
 .endif
 
+INSTALLATION_DIRS=	share/doc/${PKGBASE} \
+			share/${PKGBASE}/txt share/${PKGBASE}/cgi
+
+post-install:
+.for d in txt cgi cgi/templates
+	${FIND} ${WRKSRC}/${d} -name Makefile\* | ${XARGS} ${RM} -f
+.endfor
+.undef d
+.for d in txt cgi
+	cd ${WRKSRC}/${d} && && ${PAX} -rwppm . ${PREFIX}/share/${PKGBASE}/${d}
+.endfor
+	${INSTALL_DATA} ${WRKSRC}/RE* ${PREFIX}/share/doc/${PKGBASE}
+
 .include "../../devel/pkgconfig/buildlink3.mk"
 .include "../../mk/bdb.buildlink3.mk"
 .include "../../mk/pthread.buildlink3.mk"
