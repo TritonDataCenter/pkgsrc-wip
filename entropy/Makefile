@@ -44,16 +44,17 @@ do-install:
 
 .include "../../mk/bsd.prefs.mk"
 
-ENTROPY_STORE_TYPE?=	file
+# "monolithic" is somehow broken at the moment
+ENTROPY_STORE_TYPE?=	tree
 
-.if ${ENTROPY_STORE_TYPE} == "directory"
+.if ${ENTROPY_STORE_TYPE} == "tree"
 MAKE_FLAGS+=		STORE_TYPE=1
 .elif ${ENTROPY_STORE_TYPE} == "mysql"
 MAKE_FLAGS+=		STORE_TYPE=2
 MAKE_FLAGS+=		INCMYSQL=${PREFIX}/include/mysql LIBMYSQL=-lmysqlclient
 LDFLAGS+=		${BUILDLINK_LDFLAGS.mysql-client}
 .include "../../databases/mysql-client/buildlink2.mk"
-.elif ${ENTROPY_STORE_TYPE} != "file"
+.elif ${ENTROPY_STORE_TYPE} != "monolithic"
 .error unknown ENTROPY_STORE_TYPE: ${ENTROPY_STORE_TYPE}
 .endif
 
