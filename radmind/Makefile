@@ -15,11 +15,10 @@ CONFIGURE_ARGS+=	--with-openssl=${BUILDLINK_PREFIX.openssl}
 CONFIGURE_ARGS+=	--with-radminddir=${VARBASE}/radmind
 PLIST_SUBST+=		VARBASE=${VARBASE}
 
+BUILD_TARGET=	all man rash
+
 USE_PKGINSTALL=	YES
 RCD_SCRIPTS=	radmind
-
-post-build:
-	(cd ${WRKSRC} && ${MAKE} man rash)
 
 .include "../../security/openssl/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
