@@ -14,3 +14,4 @@ lkm/mod_ztdummy.o
 sbin/zaptel_postinstall
 share/examples/zaptel/zaptel.conf
 @dirrm share/examples/zaptel
+@unexec ${RMDIR} %D/lkm 2>/dev/null || ${TRUE}
