@@ -16,11 +16,12 @@ DEPENDS+=	mozilla-[0-9]*:../../www/mozilla
 WRKSRC=         ${WRKDIR}/mplayerplug-in
 
 USE_BUILDLINK2=	YES
-USE_X11=	YES
+USE_X11BASE=	YES
 
 MOZ_PLUGDIR=    ${PREFIX}/lib/mozilla/plugins
 
 do-install:
+	${INSTALL_DATA_DIR} ${MOZPLUGDIR}
 	${INSTALL_DATA} ${WRKSRC}/mplayerplug-in.so ${MOZ_PLUGDIR}
 
 .include "../../mk/bsd.pkg.mk"
