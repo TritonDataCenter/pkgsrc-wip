@@ -13,7 +13,7 @@ MAINTAINER=		tv@duh.org
 HOMEPAGE=		http://mixmaster.sourceforge.net/
 COMMENT=		The Mixmaster anonymous remailer client
 
-USE_BUILDLINK2=		yes
+USE_BUILDLINK3=		yes
 USE_PKGINSTALL=		yes
 
 BUILD_DEFS+=		USE_IDEA
@@ -36,7 +36,7 @@ installed_confs=	abuse.txt.in adminkey.txt blocked.txt.in \
 .include "../../mk/bsd.prefs.mk"
 
 .if defined(USE_IDEA) && ${USE_IDEA} == YES
-.include "../../security/libidea/buildlink2.mk"
+.include "../../security/libidea/buildlink3.mk"
 CFLAGS+=		-DUSE_IDEA
 LDFLAGS+=		-lidea # must go before -lcrypto to override
 .else
@@ -65,8 +65,8 @@ do-install:
 	${INSTALL_DATA_DIR} ${egdir}
 	${INSTALL_DATA} ${WRKSRC}/conf.eg/* ${egdir}/
 
-.include "../../devel/ncurses/buildlink2.mk"
-.include "../../devel/pcre/buildlink2.mk"
-.include "../../devel/zlib/buildlink2.mk"
-.include "../../security/openssl/buildlink2.mk"
+.include "../../devel/ncurses/buildlink3.mk"
+.include "../../devel/pcre/buildlink3.mk"
+.include "../../devel/zlib/buildlink3.mk"
+.include "../../security/openssl/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
