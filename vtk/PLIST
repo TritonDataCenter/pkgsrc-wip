@@ -497,7 +497,6 @@ include/vtk/vtkPropPicker.h
 include/vtk/vtkProperty.h
 include/vtk/vtkProperty2D.h
 include/vtk/vtkPyramid.h
-include/vtk/vtkPythonUtil.h
 include/vtk/vtkQuad.h
 include/vtk/vtkQuadraticEdge.h
 include/vtk/vtkQuadraticHexahedron.h
