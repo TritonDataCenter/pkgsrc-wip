@@ -5,7 +5,7 @@ DISTNAME=		ht2html-2.0
 CATEGORIES=		textproc
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=ht2html/}
 
-MAINTAINER=		marc@informatik.uni-bremen.de
+MAINTAINER=		recht@NetBSD.org
 HOMEPAGE=		http://ht2html.sourceforge.net/
 COMMENT=		Simple web page templating system
 
@@ -40,7 +40,7 @@ do-install:
 	done
 	${INSTALL_SCRIPT} ${WRKSRC}/ht2html.py ${PREFIX}/bin
 
-.include "../../lang/python/application.mk"
 .include "../../lang/python/extension.mk"
+.include "../../lang/python/application.mk"
 
 .include "../../mk/bsd.pkg.mk"
