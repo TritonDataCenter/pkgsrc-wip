@@ -23,7 +23,7 @@ ONLY_FOR_PLATFORM=	NetBSD-*-i386 NetBSD-*-alpha
 #			SunOS-*-sparc64 SunOS-*-x86
 
 .if	${OPSYS} == "NetBSD"
-RUN_DEPENDS+=	ap-frontpage:../../wip/ap-frontpage
+DEPENDS+=	ap-frontpage:../../wip/ap-frontpage
 . if	${MACHINE_ARCH} == "i386"
 FRONTPAGE=	fp${FP_VER:S/.//}.bsdi.tar.Z
 . elif	${MACHINE_ARCH} == "alpha"
