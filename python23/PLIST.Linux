@@ -1,3 +1,4 @@
+@comment $NetBSD$
 lib/python${PKGVERSION}/lib-dynload/_bsddb.so
 lib/python${PKGVERSION}/lib-dynload/${LOWER_OPSYS}audiodev.so
 lib/python${PKGVERSION}/lib-dynload/ossaudiodev.so

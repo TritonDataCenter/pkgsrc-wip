@@ -1,5 +1,6 @@
 @comment $NetBSD$
-bin/pydoc23
+bin/idle
+bin/pydoc
 bin/python
 bin/python${PKGVERSION}
 include/python${PKGVERSION}/Python.h

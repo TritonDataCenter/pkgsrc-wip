@@ -1,3 +1,4 @@
+@comment $NetBSD$
 @dirrm lib/python${PKGVERSION}/xml/sax
 @dirrm lib/python${PKGVERSION}/xml/parsers
 @dirrm lib/python${PKGVERSION}/xml/dom

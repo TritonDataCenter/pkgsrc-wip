@@ -18,7 +18,15 @@ CONFIGURE_ARGS+=	--enable-shared
 
 .include "../../mk/bsd.prefs.mk"
 
+.if ${OPSYS} == "SunOS"
+LOWER_OPSYS=	sunos
+.endif
+
+.if ${OPSYS} == "Darwin" || ${OPSYS} == "IRIX"
+PLIST_SUBST+=	PY_PLATNAME=${LOWER_OPSYS}
+.else
 PLIST_SUBST+=	PY_PLATNAME=${LOWER_OPSYS}${OS_VERSION:C/\..*//}
+.endif
 
 PTHREAD_OPTS=	require
 .include "../../mk/pthread.buildlink2.mk"
@@ -28,8 +36,8 @@ CONFIGURE_ARGS+=	--with-pth
 
 #INSTALL_TARGET=	altinstall
 
-post-extract:
-	${MV} ${WRKSRC}/Tools/scripts/pydoc ${WRKSRC}/Tools/scripts/pydoc23
+#post-extract:
+#	${MV} ${WRKSRC}/Tools/scripts/pydoc ${WRKSRC}/Tools/scripts/pydoc23
 
 .include "../../devel/zlib/buildlink2.mk"
 .include "../../mk/bsd.pkg.mk"
