@@ -1,7 +1,1 @@
 @comment $NetBSD$
-lib/php/.registry/date.reg
-lib/php/Date.php
-lib/php/Date/Calc.php
-lib/php/Date/Human.php
-lib/php/Date/TimeZone.php
-@dirrm lib/php/Date

@@ -1,4 +1,1 @@
 @comment $NetBSD$
-lib/php/.registry/html_common.reg
-lib/php/HTML/Common.php
-@dirrm lib/php/HTML

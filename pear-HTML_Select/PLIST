@@ -1,3 +1,1 @@
 @comment $NetBSD$
-lib/php/.registry/html_select.reg
-lib/php/HTML/Select.php
