@@ -26,6 +26,9 @@ CONFIGURE_ARGS+=--disable-inews \
 		--with-gen-mid \
 		--with-slrnpull \
 		--with-contrib \
+		--with-ssl \
+		--with-ssl-library=/usr \
+		--with-ssl-includes=/usr \
 		--with-libdir=${PREFIX}/lib/slrn \
 		--sysconfdir=${PKG_SYSCONFDIR} \
 		--with-localedir=${PREFIX}/${PKGLOCALEDIR}/locale
