@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.173 2003/05/17 13:45:36 marc Exp $
+# $Id: Makefile,v 1.174 2003/05/17 14:55:44 virtus Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -14,6 +14,7 @@ SUBDIR+=	ap-bunzip2
 SUBDIR+=	ap-ometer
 SUBDIR+=	aputils
 SUBDIR+=	autoproject
+SUBDIR+=	bftpd
 SUBDIR+=	billardgl
 SUBDIR+=	bin86
 SUBDIR+=	bugzilla
