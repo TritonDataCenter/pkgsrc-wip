@@ -15,6 +15,7 @@ NOT_FOR_PLATFORM=	NetBSD-*-*
 NO_CHECKSUM=		# defined
 
 USE_BUILDLINK3=		yes
+NO_CONFIGURE=		yes
 
 do-extract:
 	@${CP} -Rp ${FILESDIR} ${WRKSRC}
