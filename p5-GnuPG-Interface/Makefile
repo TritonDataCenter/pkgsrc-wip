@@ -3,6 +3,7 @@
 
 DISTNAME=		GnuPG-Interface-0.34
 PKGNAME=		p5-${DISTNAME}
+PKGREVISION=		1
 CATEGORIES=		security perl5
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=gnupg-interface/}
 
