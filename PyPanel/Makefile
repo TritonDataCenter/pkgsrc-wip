@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		PyPanel-1.2
+DISTNAME=		PyPanel-2.0
 CATEGORIES=		x11
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=pypanel/}
 
@@ -16,6 +16,7 @@ USE_X11=		yes
 
 .include "../../lang/python/application.mk"
 .include "../../lang/python/extension.mk"
+.include "../../graphics/imlib2/buildlink3.mk"
 .include "../../fonts/Xft2/buildlink3.mk"
 .include "../../x11/py-Xlib/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
