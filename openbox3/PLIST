@@ -93,6 +93,6 @@ share/openbox/themes/thebear/themerc
 @dirrm share/openbox/themes/BBstylE
 @dirrm share/openbox/themes
 @dirrm share/openbox
-@dirrm share/gnome/wm-properties
+@comment in gnome2-dirs: @dirrm share/gnome/wm-properties
 @dirrm lib/openbox/plugins
 @dirrm lib/openbox

@@ -11,6 +11,7 @@ HOMEPAGE=	http://icculus.org/openbox/
 COMMENT=	Standards compliant, light-weight and extensible window manager.
 
 BUILD_USES_MSGFMT=	YES
+DEPENDS+=		gnome2-dirs>=1.2:../../misc/gnome2-dirs
 
 GNU_CONFIGURE=		YES
 USE_BUILDLINK2=		YES
