@@ -1,4 +1,0 @@
-@comment $NetBSD$
-bin/modplugplay
-lib/xmms/Input/libmodplugxmms.la
-lib/xmms/Input/libmodplugxmms.so
