@@ -2,6 +2,7 @@
 #
 
 DISTNAME=		rt-3.0.10
+DISTNAME=		rt-pgsql-3.0.10
 CATEGORIES=		devel
 MASTER_SITES=		http://download.bestpractical.com/pub/rt/release/
 
