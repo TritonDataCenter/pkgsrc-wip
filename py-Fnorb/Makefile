@@ -10,9 +10,8 @@ MAINTAINER=		dotz@irc.pl
 HOMEPAGE=		http://fnorb.sourceforge.net/
 COMMENT=		CORBA 2.0 ORB for Python
 
-USE_BUILDLINK2=		yes
+USE_BUILDLINK3=		yes
 
-USE_BUILDLINK2=		yes
 PY_PATCHPLIST=		yes
 PYDISTUTILSPKG=		yes
 

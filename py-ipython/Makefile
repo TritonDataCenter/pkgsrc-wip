@@ -12,7 +12,7 @@ COMMENT=		Interactive, enhanced Python shell
 
 DEPENDS+=		${PYPKGPREFIX}-readline>=0:../../devel/py-readline
 
-USE_BUILDLINK2=		yes
+USE_BUILDLINK3=		yes
 PY_PATCHPLIST=		yes
 PYDISTUTILSPKG=		yes
 

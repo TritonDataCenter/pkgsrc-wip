@@ -9,7 +9,7 @@ MAINTAINER=		cube@cubidou.net
 HOMEPAGE=		http://search.cpan.org/dist/Set-Infinite/
 COMMENT=		Perl module for sets of integers and objects
 
-USE_BUILDLINK2=	YES
+USE_BUILDLINK3=	YES
 PERL5_PACKLIST=	${PERL5_SITEARCH}/auto/Set/Infinite/.packlist
 
 .include "../../lang/perl5/module.mk"
