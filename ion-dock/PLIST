@@ -1,3 +1,6 @@
 @comment $NetBSD$
+lib/ion/dock.a
+lib/ion/dock.la
 lib/ion/dock.so
-share/examples/ion/dock.conf
+share/examples/ion/dock-draw.lua
+share/examples/ion/dock.lua
