@@ -9,8 +9,8 @@ if [ -f /etc/rc.subr ]; then
 	. /etc/rc.subr
 fi
 
-if [ -f @PKG_SYSCONFDIR@/thy.conf ]; then
-	. @PKG_SYSCONFDIR@/thy.conf
+if [ -f @PKG_SYSCONFDIR@/thyrc ]; then
+	. @PKG_SYSCONFDIR@/thyrc
 fi
 
 name="thy"
