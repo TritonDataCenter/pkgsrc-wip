@@ -54,6 +54,7 @@ post-extract:
 	@${SED} \
 		-e "s|@BLNK@|${BUILDLINK_DIR}|g" \
 		-e "s|@MAKE@|${MAKE_PROGRAM}|g" \
+		-e "s|@MAKE_PROGRAM@|${MAKE_PROGRAM}|g" \
 		-e "s|@IMAKE@|${IMAKE}|g" \
 		-e "s|@RMAN@|${X11BASE}/bin/rman|g" \
 		-e "s|@MKHTMLINDEX@|${X11BASE}/bin/mkhtmlindex|g" \
