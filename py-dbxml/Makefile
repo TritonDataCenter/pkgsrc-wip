@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	dbxml-1.2.0
+DISTNAME=	dbxml-1.2.1
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 WRKSRC=		${WRKDIR}/${DISTNAME}/src/python
 CATEGORIES=	databases
