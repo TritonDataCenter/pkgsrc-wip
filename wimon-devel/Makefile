@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	wimon-0.2.1
+DISTNAME=	wimon-0.3
 CATEGORIES=	net
 MASTER_SITES=	http://imil.net/wimon/
 
@@ -20,6 +20,7 @@ INSTALLATION_DIRS=	bin
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/wimon ${PREFIX}/bin
+	${INSTALL_MAN} ${WRKSRC}/wimon.8 ${PREFIX}/man/man8/wimon.8
 
 .include "../../devel/ncurses/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
