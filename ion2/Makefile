@@ -55,6 +55,8 @@ post-install:
 	${INSTALL_DATA} ${WRKSRC}/ioncore/*.h ${ION_INCLUDE_DIR}/ioncore
 	${INSTALL_DATA} ${WRKSRC}/libtu/include/libtu/*.h ${ION_INCLUDE_DIR}/libtu
 	${INSTALL_DATA} ${WRKSRC}/luaextl/luaextl.h ${ION_INCLUDE_DIR}/luaextl/
+	${INSTALL_MAN} ${WRKSRC}/man/ion.1 ${PREFIX}/man/man1
+	${INSTALL_MAN} ${WRKSRC}/man/pwm.1 ${PREFIX}/man/man1
 
 .include "../../lang/lua/buildlink2.mk"
 .include "../../devel/libtool/buildlink2.mk"
