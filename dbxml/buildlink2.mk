@@ -20,8 +20,8 @@ BUILDLINK_FILES.dbxml+=	lib/libdbxml-1.2.*
 BUILDLINK_FILES.dbxml+=	lib/libdbxml.*
 
 .include "../../databases/db4/buildlink2.mk"
+.include "../../textproc/libpathan/buildlink2.mk"
 .include "../../textproc/xerces-c/buildlink2.mk"
-.include "../../wip/libpathan/buildlink2.mk"
 
 BUILDLINK_TARGETS+=	dbxml-buildlink
 
