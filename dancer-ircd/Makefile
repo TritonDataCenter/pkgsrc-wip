@@ -27,7 +27,7 @@ PKG_USERS=              ${DANCER_IRCD_USER}:${DANCER_IRCD_GROUP}::dancer_ircd\\ 
 
 DIRS=	/var/lib/dancer-ircd /var/log/dancer-ircd
 
-.for f in ${DIR}
+.for f in ${DIRS}
 OWN_DIRS_PERMS+=	${f} dancer_ircd dancer_ircd 750
 .endfor
 
