@@ -44,7 +44,7 @@ pre-configure:
 .endfor
 .undef F
 
-pre-build:
+do-build:
 	@${TOUCH} ${WRKSRC}/config/cf/version.def
 	@${TOUCH} ${WRKSRC}/config/cf/date.def
 	@${CP} ${FILESDIR}/xf86site.def ${WRKSRC}/config/cf
@@ -56,10 +56,8 @@ pre-build:
 		-e "s|MAKE|${MAKE_PROGRAM}|" \
 		${FILESDIR}/host.def > \
 		${WRKSRC}/config/cf/host.def
-
-do-build:
 	( cd ${WRKSRC} && ${MAKE} Makefile.boot && \
-	${MAKE} -f xmakefile VerifyOS version.def \
+	${MAKE_PROGRAM} -f xmakefile VerifyOS version.def \
 		Makefiles includes )
 
 pre-install:
