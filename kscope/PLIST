@@ -18,6 +18,7 @@ share/kde/apps/kscope/pics/file_rw.png
 share/kde/apps/kscope/pics/file_save.png
 share/kde/apps/kscope/pics/query_locked.png
 share/kde/apps/kscope/pics/query_unlocked.png
+share/kde/config/kscoperc
 share/kde/icons/hicolor/16x16/apps/kscope.png
 share/kde/icons/hicolor/32x32/apps/kscope.png
 share/kde/icons/locolor/16x16/apps/kscope.png
