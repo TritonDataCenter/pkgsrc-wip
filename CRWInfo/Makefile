@@ -9,7 +9,10 @@ MAINTAINER=		kirtai@users.sourceforge.net
 HOMEPAGE=		http://neuemuenze.heim1.tu-clausthal.de/~sven/crwinfo/
 COMMENT=		Extract exposure information and thumbnails from Canons RAW files
 
+NO_CONFIGURE=		yes
 USE_BUILDLINK3=		yes
+
+INSTALLATION_DIRS=	bin
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/crwinfo ${PREFIX}/bin/
