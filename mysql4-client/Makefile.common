@@ -38,7 +38,6 @@ CONFIGURE_ARGS+=	--without-debug
 CONFIGURE_ARGS+=	--without-bench
 CONFIGURE_ARGS+=	--with-low-memory
 CONFIGURE_ARGS+=	--with-vio
-CONFIGURE_ARGS+=	--with-openssl
 
 CPPFLAGS+=		-Dunix
 
@@ -71,4 +70,3 @@ post-extract:
 	done
 
 .include "../../devel/zlib/buildlink2.mk"
-.include "../../security/openssl/buildlink2.mk"
