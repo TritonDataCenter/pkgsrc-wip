@@ -30,7 +30,7 @@ BUILDLINK_PKGSRCDIR.mapserver?=	../../wip/mapserver-4.4.1
 .include "../../print/pdflib/buildlink3.mk"
 .include "../../www/php4/buildlink3.mk"
 .include "../../misc/proj/buildlink3.mk"
-.include "../../wip/gdal/buildlink3.mk"
+.include "../../wip/gdal-lib/buildlink3.mk"
 .include "../../converters/libiconv/buildlink3.mk"
 .include "../../devel/zlib/buildlink3.mk"
 .include "../../graphics/gd/buildlink3.mk"
