@@ -18,6 +18,6 @@ ALL_TARGET=		xjump
 USE_X11=		YES
 
 do-install:
-	${INSTALL_PROGRAM} ${WRKSRC}/xjump ${PREFIX}/bin/xjump
+	${INSTALL} -g games -m 2755 ${WRKSRC}/xjump ${PREFIX}/bin/xjump
 
 .include "../../mk/bsd.pkg.mk"
