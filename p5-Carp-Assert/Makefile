@@ -11,7 +11,9 @@ MAINTAINER=		hiramatu@boreas.dti.ne.jp
 HOMEPAGE=		http://search.cpan.org/search?dist=Carp-Assert
 COMMENT=		Executable comments like the ANSI C library assert.h
 
-USE_BUILDLINK2=		YES
+PKG_INSTALLATION_TYPES=	overwrite pkgviews
+
+USE_BUILDLINK3=		YES
 PERL5_PACKLIST=		${PERL5_SITEARCH}/auto/Carp/Assert/.packlist
 
 .include "../../lang/perl5/module.mk"
