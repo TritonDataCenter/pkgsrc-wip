@@ -70,21 +70,13 @@ do-install:
 	(cd ${WRKSRC}/doc && \
 	    for f in RE* *.txt; do ${INSTALL_DATA} $$f ${DOCDIR}; done )
 	( cd ${WRKSRC}/doc/hybrid/ && \
-	for f in *; do \
-		${INSTALL_DATA} $$f ${DOCDIR}/hybrid; done )
-	${INSTALL_PROGRAM} ${WRKSRC}/src/dancer-ircd \
-		${PREFIX}/sbin
-	${INSTALL_SCRIPT} ${WRKSRC}/tools/mkconf \
-		${PREFIX}/sbin
-	${INSTALL_SCRIPT} ${WRKSRC}/tools/install_ircd \
-		${PREFIX}/sbin
-	${INSTALL_PROGRAM} ${WRKSRC}/tools/viconf \
-		${PREFIX}/sbin
-	${INSTALL_PROGRAM} ${WRKSRC}/tools/mkpasswd \
-		${PREFIX}/sbin
-	${INSTALL_MAN} ${WRKSRC}/doc/ircd.8 \
-		${PREFIX}/man/man8
-	${INSTALL_DATA} ${WRKSRC}/doc/example.conf \
-		${EGDIR}/ircd.conf.default
+	for f in *; do ${INSTALL_DATA} $$f ${DOCDIR}/hybrid; done )
+	${INSTALL_PROGRAM} ${WRKSRC}/src/dancer-ircd ${PREFIX}/sbin
+	${INSTALL_SCRIPT} ${WRKSRC}/tools/mkconf ${PREFIX}/sbin
+	${INSTALL_SCRIPT} ${WRKSRC}/tools/install_ircd ${PREFIX}/sbin
+	${INSTALL_PROGRAM} ${WRKSRC}/tools/viconf ${PREFIX}/sbin
+	${INSTALL_PROGRAM} ${WRKSRC}/tools/mkpasswd ${PREFIX}/sbin
+	${INSTALL_MAN} ${WRKSRC}/doc/ircd.8 ${PREFIX}/man/man8
+	${INSTALL_DATA} ${WRKSRC}/doc/example.conf ${EGDIR}/ircd.conf.default
 
 .include "../../mk/bsd.pkg.mk"
