@@ -2,9 +2,9 @@
 # Based on KAME Id: Makefile,v 1.1.2.1.2.1.10.2 1999/01/05 11:03:50 itojun Exp
 #
 
-DISTNAME=	quagga-0.96.5-20040812
-PKGNAME=	quagga-0.96.5.20040812
-PKGREVISION=	2
+DISTNAME=	quagga-0.96.5-20040831
+PKGNAME=	quagga-0.96.5.20040831
+#PKGREVISION=	0
 CATEGORIES=	net
 # Use pkgsrc/ for saved snapshots, cvs/ for current ones
 MASTER_SITES=	http://www.quagga.net/download/cvs/ \
@@ -88,6 +88,10 @@ CONFIGURE_ARGS+=	--disable-ripngd
 PLIST_CAT+=		${PKGDIR}/PLIST
 
 LIBS+=			${LDFLAGS}
+
+.for _script_ in ${RCD_SCRIPTS}
+RCD_SCRIPT_SRC.${_script_}?=	${WRKSRC}/pkgsrc/${_script_}.sh
+.endfor
 
 pre-configure:
 	cd ${WRKSRC} && ${AUTORECONF} --force
