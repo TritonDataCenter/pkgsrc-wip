@@ -10,11 +10,11 @@ MAINTAINER=	cube@NetBSD.org
 HOMEPAGE=	http://gkrellmlaunch.sourceforge.net/
 COMMENT=	GKrellM plugin to allow quick launch of applications
 
-USE_BUILDLINK2=	YES
+USE_BUILDLINK3=	YES
 ALL_TARGET=	gkrellmlaunch.so
 
 do-install:
 	${INSTALL_DATA} ${WRKSRC}/gkrellmlaunch.so ${PREFIX}/lib/gkrellm2/plugins
 
-.include "../../wip/gkrellm2/buildlink2.mk"
+.include "../../wip/gkrellm2/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
