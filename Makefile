@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.570 2003/10/26 05:55:41 minskim Exp $
+# $Id: Makefile,v 1.571 2003/10/26 18:37:20 marc Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -262,6 +262,7 @@ SUBDIR+=	mc
 SUBDIR+=	mcats
 SUBDIR+=	mcats-iodbc
 SUBDIR+=	memtester
+SUBDIR+=	metatheme
 SUBDIR+=	mftrace
 SUBDIR+=	mhonarc
 SUBDIR+=	mit-krb5
