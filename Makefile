@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.1438 2004/08/20 20:20:23 jeremy-c-reed Exp $
+# $Id: Makefile,v 1.1439 2004/08/23 11:52:52 mwdavies Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -280,7 +280,6 @@ SUBDIR+=	kapital
 SUBDIR+=	kazehakase
 SUBDIR+=	kino
 SUBDIR+=	kissme
-SUBDIR+=	kkbswitch
 SUBDIR+=	koffice-i18n-de
 SUBDIR+=	koffice-i18n-es
 SUBDIR+=	koffice-i18n-ru
