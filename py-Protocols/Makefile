@@ -3,7 +3,6 @@
 
 DISTNAME=		PyProtocols-0.9.2
 PKGNAME=		${PYPKGPREFIX}-${DISTNAME:S/Py//}
-WRKSRC=			${WRKDIR}/pyprotocols-0.9.2/
 CATEGORIES=		devel
 MASTER_SITES=		http://peak.telecommunity.com/dist/
 EXTRACT_SUFX=		.zip
@@ -15,6 +14,7 @@ COMMENT=		Lets you easily define your own protocols and adapters
 USE_BUILDLINK3=		yes
 PY_PATCHPLIST=		yes
 PYDISTUTILSPKG=		yes
+EXTRACT_CMD_OPTS.zip=   -aqo
 
 .include "../../lang/python/extension.mk"
 .include "../../mk/bsd.pkg.mk"
