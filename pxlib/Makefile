@@ -11,12 +11,12 @@ HOMEPAGE=		http://cesnet.dl.sourceforge.net/sourceforge/pxlib/
 COMMENT=		C language library for reading Paradox database files
 
 WRKSRC=		${WRKDIR}/pxlib-0.2.0
-USE_BUILDLINK2=		yes
+USE_BUILDLINK3=		yes
 USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=		yes
 PKGCONFIG_OVERRIDE+=	${WRKSRC}/pxlib.pc.in
 GNU_CONFIGURE=		yes
 
-.include "../../converters/libiconv/buildlink2.mk"
-.include "../../converters/recode/buildlink2.mk"
+.include "../../converters/libiconv/buildlink3.mk"
+.include "../../converters/recode/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

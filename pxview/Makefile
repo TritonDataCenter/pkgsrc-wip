@@ -11,10 +11,10 @@ HOMEPAGE=		http://cesnet.dl.sourceforge.net/sourceforge/pxlib/
 COMMENT=		Simple utility to view Paradox database files
 
 WRKSRC=			${WRKDIR}/pxview-0.1.4
-USE_BUILDLINK2=		yes
+USE_BUILDLINK3=		yes
 USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=		yes
 GNU_CONFIGURE=		yes
 
-.include "../../wip/pxlib/buildlink2.mk"
+.include "../../wip/pxlib/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
