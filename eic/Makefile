@@ -8,14 +8,13 @@ CATEGORIES=		wip
 MASTER_SITES=	http://eic.sourceforge.net/download/eicdist/4_3_0/
 EXTRACT_SUFX=	.tgz
 
-
 MAINTAINER=		adam@monkeybyte.org
 HOMEPAGE=		http://eic.sourceforge.net/download/eicdist/4_3_0/
 COMMENT=		C style scripting lang
 
 USE_GMAKE= YES
 
-do-configure: 
+do-configure:
 		cd ${WRKSRC} && config/makeconfig
 
 do-build:	do-install
