@@ -40,6 +40,7 @@ CONFIGURE_ARGS+=	--with-libpng=${BUILDLINK_PREFIX.png}
 .include "../../wip/gucharmap/buildlink2.mk"
 .include "../../devel/popt/buildlink2.mk"
 .include "../../converters/libiconv/buildlink2.mk"
+.include "../../textproc/enchant/buildlink2.mk"
 .include "../../textproc/libxml2/buildlink2.mk"
 .include "../../graphics/png/buildlink2.mk"
 .include "../../graphics/jpeg/buildlink2.mk"
