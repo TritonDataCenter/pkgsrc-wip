@@ -38,7 +38,7 @@ do-install:
 	cd ${EMULOPTDIR} && ${FIND} kylix -type l | \
 		${SED} -e "s|^|\$${EMULOPTSUBDIR}/|" >> ${PLIST_SRC}
 	cd ${EMULOPTDIR} && ${FIND} -d kylix  -type d  | \
-	${SED} -e "s/^/@dirrm \$${EMULOPTSUBDIR}/" >>${PLIST_SRC}
+	${SED} -e "s/^/@dirrm \$${EMULOPTSUBDIR}\//" >>${PLIST_SRC}
 	${CAT} ${PKGDIR}/PLIST.post >${PLIST_SRC}	
 
 .include "../../wip/mk/linuxbin.pkg.mk"
