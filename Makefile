@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.1026 2004/02/26 09:22:27 xtraeme Exp $
+# $Id: Makefile,v 1.1027 2004/02/26 17:47:20 cubidou Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -161,9 +161,6 @@ SUBDIR+=	giftui
 SUBDIR+=	gimp-current
 SUBDIR+=	gkrellm-launch
 SUBDIR+=	gkrellm-reminder
-SUBDIR+=	gkrellm2-flynn
-SUBDIR+=	gkrellm2-launch
-SUBDIR+=	gkrellm2-leds
 SUBDIR+=	gl-117
 SUBDIR+=	glaxium
 SUBDIR+=	glib2-devel
