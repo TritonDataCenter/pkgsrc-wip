@@ -15,6 +15,11 @@ USE_BUILDLINK2=		yes
 PY_PATCHPLIST=		yes
 PYDISTUTILSPKG=		yes
 
+post-patch:
+	${CP} ${WRKSRC}/freevo ${WRKSRC}/freevo.pre
+	sed -e 's|@@PYTHONBIN@@|${PYTHONBIN}|g' < ${WRKSRC}/freevo.pre > \
+		${WRKSRC}/freevo
+
 .include "../../wip/py-game/buildlink2.mk"
 .include "../../wip/py-twisted/buildlink2.mk"
 .include "../../wip/py-mmpython/buildlink2.mk"
