@@ -13,8 +13,11 @@ USE_BUILDLINK2=		# defined
 GNU_CONFIGURE=		# defined
 CONFIGURE_ARGS+=	--with-lame=${BUILDLINK_PREFIX.lame} \
 			--with-perl=${BUILDLINK_PREFIX.perl} \
-			--with-xml=${BUILDLINK_PREFIX.libxml2}/bin
+			--with-xml=${BUILDLINK_PREFIX.libxml2}/bin \
+			--with-docdir=${LOCALBASE}/share/doc/ices \
+			--with-libshout=${BUILDLINK_PREFIX.libshout}
 
+.include "../../wip/libshout/buildlink2.mk"
 .include "../../textproc/libxml2/buildlink2.mk"
 .include "../../lang/perl5/buildlink2.mk"
 .include "../../audio/lame/buildlink2.mk"
