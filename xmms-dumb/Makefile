@@ -8,7 +8,7 @@ CATEGORIES=		audio
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=dumb/}
 
 MAINTAINER=		collver1@comcast.net
-HOMEPAGE=		http://dumb.sourceforge.net
+HOMEPAGE=		http://dumb.sourceforge.net/
 COMMENT=		XMMS mod player plugin based on dumb
 
 USE_BUILDLINK2=		yes

@@ -7,7 +7,7 @@ CATEGORIES=		sysutils
 MASTER_SITES=		http://www.vcdgear.com/files/
 
 MAINTAINER=		collver1@comcast.net
-HOMEPAGE=		http://www.vcdgear.com
+HOMEPAGE=		http://www.vcdgear.com/
 COMMENT=		Video CD toolbox and MPEG repair tool
 
 ONLY_FOR_PLATFORM=	NetBSD-*-i386

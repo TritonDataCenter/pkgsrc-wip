@@ -7,7 +7,7 @@ CATEGORIES=		audio
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=modplug-xmms/}
 
 MAINTAINER=		collver1@comcast.net
-HOMEPAGE=		http://modplug-xmms.sourceforge.net
+HOMEPAGE=		http://modplug-xmms.sourceforge.net/
 COMMENT=		XMMS plugin based on modplug
 
 DEPENDS+=		unzip-[0-9]*:../../archivers/unzip

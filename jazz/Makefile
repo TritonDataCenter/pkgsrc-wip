@@ -7,7 +7,7 @@ CATEGORIES=		audio
 MASTER_SITES=		ftp://ftp.jazzware.com/pub/jazz/stable/source/
 
 MAINTAINER=		collver1@comcast.net
-HOMEPAGE=		http://www.jazzware.com
+HOMEPAGE=		http://www.jazzware.com/
 COMMENT=		MIDI sequencer
 
 BUILD_DEPENDS+=		tex2rtf-*:../../converters/tex2rtf
