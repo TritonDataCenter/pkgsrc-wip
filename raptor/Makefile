@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	raptor-0.9.11
+DISTNAME=	raptor-0.9.12
 CATEGORIES=	textproc
 MASTER_SITES=	http://www.redland.opensource.ac.uk/dist/source/
 
