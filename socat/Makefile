@@ -10,7 +10,7 @@ HOMEPAGE= 	http://www.dest-unreach.org/socat/
 COMMENT=	"netcat++" (extended design, new implementation)
 
 GNU_CONFIGURE=		YES
-USE_BUILDLINK2=		YES
+USE_BUILDLINK3=		YES
 USE_GNU_READLINE=	YES
 
 CONFIGURE_ARGS+=	--disable-libwrap
@@ -21,6 +21,6 @@ pre-install:
 	${SED} -e 's#@PREFIX@#${PREFIX}#g' < ${WRKSRC}/socat.1.orig \
 		> ${WRKSRC}/socat.1
 
-.include "../../security/openssl/buildlink2.mk"
-.include "../../devel/readline/buildlink2.mk"
+.include "../../security/openssl/buildlink3.mk"
+.include "../../devel/readline/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
