@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.76 2003/04/13 15:56:55 cjep Exp $
+# $Id: Makefile,v 1.77 2003/04/14 00:25:35 blef Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -73,5 +73,6 @@ SUBDIR+=	tex-foiltex
 SUBDIR+=	umix
 SUBDIR+=	vim-gtk2
 SUBDIR+=	xawtv
+SUBDIR+=	xevil
 
 .include "../mk/bsd.pkg.subdir.mk"
