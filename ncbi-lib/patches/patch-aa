@@ -7,7 +7,7 @@ $NetBSD$
  NCBI_VIBFLAG = -I/usr/X11R6/include -L/usr/X11R6/lib -DWIN_MOTIF
  NCBI_VIBLIBS = -lXm -lXmu -lXp -lXpm -lXt -lX11 -lXext 
 -NCBI_DISTVIBLIBS = -L/usr/X11R6/lib /usr/X11R6/lib/libXm.a /usr/X11R6/lib/libXp.a /usr/X11R6/lib/libXpm.a -lXmu -lXt -lX11 -lXext
-+NCBI_DISTVIBLIBS = -L/usr/X11R6/lib /usr/X11R6/lib/libXm.a /usr/X11R6/lib/libXp.a /usr/X11R6/lib/libXpm.a -lXm -lXmu -lXt -lX11 -lXext
++NCBI_DISTVIBLIBS = -L/usr/X11R6/lib -L${PREFIX}/lib -lXp -lXpm -lXm -lXmu -lXt -lX11 -lXext
  NCBI_OTHERLIBS = -lm
  NCBI_RANLIB = ranlib
  # Used by makedis.csh
