@@ -24,5 +24,17 @@ DEPENDS+=		${PYPKGPREFIX}-vorbis>=1.3:../../wip/py-vorbis
 
 PYSETUPINSTALLARGS=	--install-lib ${PYSITELIB} --install-scripts ${PREFIX}/bin --install-data ${PREFIX}/share/
 
+PYFILES= __init__.py character.py circuit_generator.py controler.py \
+		fight.py freestyle.py globdef.py gui.py gui_gl.py \
+		gui_option.py hunt.py ia_algogen.py init_editobj.py level.py \
+		player.py race.py race_algogen.py race_algogen2.py \
+		sound.py videosequence.py
+
+post-install:
+	${INSTALL_DATA_DIR} ${PREFIX}/${PYSITELIB}/slune
+	for a in ${PYFILES}; do \
+		${INSTALL_DATA} ${WRKSRC}/$$a ${PREFIX}/${PYSITELIB}/slune/$$a ; \
+	done
+
 .include "../../lang/python/extension.mk"
 .include "../../mk/bsd.pkg.mk"
