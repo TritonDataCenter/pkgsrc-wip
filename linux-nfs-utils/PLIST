@@ -1,5 +1,6 @@
 @comment $NetBSD$
 man/man5/exports.5
+man/man7/nfsd.7
 man/man8/exportfs.8
 man/man8/lockd.8
 man/man8/mountd.8
