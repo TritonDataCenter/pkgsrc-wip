@@ -26,6 +26,6 @@ post-install:
 
 .include "../../lang/python/extension.mk"
 .include "../../lang/python/application.mk"
-#.include "../../textproc/pyxml/buildlink2.mk"
+#.include "../../textproc/py-xml/buildlink2.mk"
 
 .include "../../mk/bsd.pkg.mk"

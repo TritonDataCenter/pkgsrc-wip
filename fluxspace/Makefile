@@ -22,7 +22,7 @@ LDFLAGS+=       ${EXPORT_SYMBOLS_LDFLAGS}
 CONFIGURE_ENV+= PYTHON="${LOCALBASE}/bin/python2.2"
 CONFIGURE_ENV+= PYTHON_LDFLAGS="${BUILDLINK_LDFLAGS.python22}"
 
-.include "../../textproc/pyxml/buildlink2.mk"
+.include "../../textproc/py-xml/buildlink2.mk"
 .include "../../devel/swig/buildlink2.mk"
 .include "../../graphics/imlib2/buildlink2.mk"
 .include "../../lang/python22/buildlink2.mk"

@@ -33,7 +33,7 @@ PYTHON_VERSION_REQD=	23pth
 # WITHOUT either PIL or ImageMagick *YOU WILL NOT BE ABLE TO USE THUMBNAILS*
 
 .include "../../textproc/scrollkeeper/omf.mk"
-.include "../../textproc/pyxml/buildlink2.mk"
+.include "../../textproc/py-xml/buildlink2.mk"
 .include "../../x11/py-gtk2/buildlink2.mk"
 .include "../../x11/py-gnome2/buildlink2.mk"
 .include "../../lang/python/application.mk"
