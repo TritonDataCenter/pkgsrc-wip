@@ -235,6 +235,7 @@ lib/php/doc/Archive_Tar/docs/Archive_Tar.txt
 lib/php/pearcmd.php
 share/examples/php/php.ini-dist
 share/examples/php/php.ini-recommended
+@dirrm share/examples/php
 @dirrm lib/php/doc/Archive_Tar/docs
 @dirrm lib/php/doc/Archive_Tar
 @dirrm lib/php/doc
