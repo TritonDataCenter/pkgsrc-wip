@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.591 2003/11/04 03:15:13 mpasternak Exp $
+# $Id: Makefile,v 1.592 2003/11/04 05:09:12 mpasternak Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -384,6 +384,8 @@ SUBDIR+=	procps
 SUBDIR+=	prtunnel
 SUBDIR+=	psh
 SUBDIR+=	pts
+SUBDIR+=	pxlib
+SUBDIR+=	pxview
 SUBDIR+=	py-OpenGL
 SUBDIR+=	py-OpenSSL
 SUBDIR+=	py-RXP
