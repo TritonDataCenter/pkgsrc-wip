@@ -11,7 +11,7 @@ COMMENT=	Tunnels TCP connections through an HTTP or SOCKS5 proxy
 USE_BUILDLINK2=	YES
 
 do-build:
-	cd ${WRKSRC} && make
+	cd ${WRKSRC} && ${MAKE_PROGRAM}
 
 do-install:
 	${INSTALL_SCRIPT} ${WRKSRC}/prtunnel ${PREFIX}/bin
