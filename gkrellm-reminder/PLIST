@@ -1,3 +1,2 @@
 @comment $NetBSD$
 lib/gkrellm/plugins/reminder.so
-@dirrm lib/gkrellm/plugins
