@@ -2,3 +2,5 @@ $NetBSD$
 
 SHA1 (Tuxtype2-1.5.0.tar.gz) = cb664d674232f676ef0af7339b934c98e4662ab1
 Size (Tuxtype2-1.5.0.tar.gz) = 13944319 bytes
+SHA1 (patch-aa) = 1a484dcc29111144cb132b321e39b4032a2a8c32
+SHA1 (patch-ab) = 95962b903bca33b1643e31674ca5059fae71e080
