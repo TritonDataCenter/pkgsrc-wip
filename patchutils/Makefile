@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		patchutils-0.2.25pre5
+DISTNAME=		patchutils-0.2.29
 CATEGORIES=		devel
 MASTER_SITES=		http://cyberelk.net/tim/data/patchutils/stable/
 EXTRACT_SUFX=		.tar.bz2
@@ -12,7 +12,7 @@ COMMENT=		Some programs for manipulating patch files
 
 DEPENDS+=               patch-[0-9]*:../../devel/patch
 
-USE_BUILDLINK2=		yes
+USE_BUILDLINK3=		yes
 USE_PKGLOCALEDIR=	yes
 USE_PERL5=		yes
 GNU_CONFIGURE=		yes
