@@ -6,7 +6,7 @@ PKGNAME=		${DISTNAME:S/_/./}
 CATEGORIES=		chat
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=amsn/}
 
-MAINTAINER=		virtus@wanadoo.nl
+MAINTAINER=		peter@pointless.nl
 HOMEPAGE=		http://amsn.sourceforge.net/
 COMMENT=		"Alvaro's MSN messenger client"
 
