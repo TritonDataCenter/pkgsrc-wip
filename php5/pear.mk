@@ -14,10 +14,10 @@
 .if !defined(_PEAR_PACKAGE_MK)
 _PEAR_PACKAGE_MK=       # defined
 
-USE_BUILDLINK2=			YES
+USE_BUILDLINK3=			YES
 BUILDLINK_DEPMETHOD.php5=	full
 
-.include "../../wip/php5/buildlink2.mk"
+.include "../../wip/php5/buildlink3.mk"
 
 EXTRACT_SUFX=	.tgz
 
