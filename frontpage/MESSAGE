@@ -6,4 +6,26 @@ $NetBSD$
     ../../www/ap-frontpage provides a replacement (non-Microsoft)
     loadable module for supporting FrontPage.
 
+    For the FrontPage Server Extentions to operate properly, the
+    following directives need to be set in your Apache web server
+    Configuration.  
+
+    At the global level:
+
+	# Enable FP Extensions Client publish
+	FrontPageEnable
+	# Enable FP Extensions Admin web site
+	FrontPageAdminEnable
+
+    At the <Directory> level:
+
+	AllowOverride AuthConfig Limit FileInfo Options Indexes
+
+    FYI: The owsadm.exe program expects to find the following directives
+    in the configuration file it uses for (sub)site enablement:
+
+	ServerRoot
+	ResourceConfig
+	AccessConfig
+
 ===========================================================================
