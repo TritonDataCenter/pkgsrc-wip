@@ -13,9 +13,9 @@ COMMENT=	Perl interface to the libxslt library
 
 DEPENDS+=	p5-XML-LibXML>=1.49:../../textproc/p5-XML-LibXML
 
-USE_BUILDLINK2=	YES
+USE_BUILDLINK3=	YES
 PERL5_PACKLIST=	${PERL5_SITEARCH}/auto/XML/LibXSLT/.packlist
 
-.include "../../textproc/libxslt/buildlink2.mk"
+.include "../../textproc/libxslt/buildlink3.mk"
 .include "../../lang/perl5/module.mk"
 .include "../../mk/bsd.pkg.mk"
