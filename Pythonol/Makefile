@@ -24,7 +24,7 @@ SCRIPTNAME=		${PREFIX}/bin/pythonol
 do-install:
 	${INSTALL_DATA_DIR} ${TARGET_DIR}
 	cd ${WRKSRC} && ${PAX} -rw -pe * ${TARGET_DIR}
-	printf "#!/bin/sh\nexec ${PYTHONBIN} ${PREFIX}/${PYSITELIB}/pythonolui.py" > ${SCRIPTNAME}
+	printf "#!/bin/sh\nexec ${PYTHONBIN} ${TARGET_DIR}/pythonolui.py" > ${SCRIPTNAME}
 	${CHMOD} ${BINMODE} ${SCRIPTNAME}
 	${CHOWN} ${BINOWN}:${BINGRP} ${SCRIPTNAME}
 
