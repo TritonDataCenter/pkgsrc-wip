@@ -3,3 +3,6 @@ lib/gtk/themes/engines/libbluecurve.so
 share/themes/Bluecurve/gtk/gtkrc
 @dirrm share/themes/Bluecurve/gtk
 @dirrm share/themes/Bluecurve
+@unexec ${RMDIR} -p %D/lib/gtk/themes/engines 2>/dev/null || ${TRUE}
+@unexec ${RMDIR} -p %D/lib/gtk/themes 2>/dev/null || ${TRUE}
+@unexec ${RMDIR} -p %D/lib/gtk 2>/dev/null || ${TRUE}
