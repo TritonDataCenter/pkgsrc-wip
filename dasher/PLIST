@@ -34,4 +34,3 @@ share/icons/dasher.png
 ${PKGLOCALEDIR}/locale/fr/LC_MESSAGES/dasher.mo
 @comment share/icons is also installed by KDE - remove it? @dirrm share/icons
 @dirrm share/dasher
-@comment share/applications is also installed by KDE - remove it? @dirrm share/applications
