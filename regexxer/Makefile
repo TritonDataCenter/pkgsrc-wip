@@ -9,9 +9,8 @@ MAINTAINER=	xtraeme@NetBSD.org
 HOMEPAGE=	http://regexxer.sourceforge.net/
 COMMENT=	Interactive tool for performing search and replace operations
 
-DEPENDS=		gnome2-dirs>=1.0:../../misc/gnome2-dirs
-
 USE_BUILDLINK2=		yes
+USE_DIRS+=		gnome2-1.5
 GNU_CONFIGURE=		yes
 USE_GNU_TOOLS+=		make
 USE_X11=		yes

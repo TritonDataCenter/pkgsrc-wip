@@ -10,9 +10,8 @@ MAINTAINER=	wiz@NetBSD.org
 HOMEPAGE=	http://www.ufoot.org/liquidwar/
 COMMENT=	Unique multiplayer wargame
 
-DEPENDS+=	gnome2-dirs>=1.1:../../misc/gnome2-dirs
-
 USE_BUILDLINK3=	YES
+USE_DIRS+=	gnome2-1.5
 USE_GNU_TOOLS+=	make
 GNU_CONFIGURE=	YES
 

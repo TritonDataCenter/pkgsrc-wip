@@ -10,9 +10,8 @@ MAINTAINER=	xtraeme@NetBSD.org
 HOMEPAGE=	http://diradmin.open-it.org/
 COMMENT=	Smart LDAP directory management tool
 
-DEPENDS+=	gnome1-dirs>=1.0:../../misc/gnome1-dirs
-
 USE_BUILDLINK2=		yes
+USE_DIRS+=		gnome1-1.5
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 USE_GNU_TOOLS+=		make

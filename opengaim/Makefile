@@ -10,12 +10,12 @@ HOMEPAGE=	http://opengaim.sourceforge.net/
 COMMENT=	GTK2 based multiprotocol instant messaging client
 
 BUILD_USES_MSGFMT=	YES
-DEPENDS+=		xdg-dirs>=1.1:../../misc/xdg-dirs
 
 CONFLICTS+=	gaim-gnome-[0-9]* gaim-[0-9]*
 
 GNU_CONFIGURE=		YES
 USE_BUILDLINK3=		YES
+USE_DIRS+=		xdg-1.1
 USE_GNU_TOOLS+=		make
 USE_LIBTOOL=		YES
 USE_PKGLOCALEDIR=	YES

@@ -10,9 +10,9 @@ HOMEPAGE=	http://www.nostatic.org/grip/
 COMMENT=	CD-player and CD-ripper for the GNOME desktop
 
 BUILD_USES_MSGFMT=	yes
-DEPENDS+=		gnome1-dirs>=1.2:../../misc/gnome1-dirs
 
 USE_BUILDLINK2=		yes
+USE_DIRS+=		gnome1-1.5
 USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=		yes
 GNU_CONFIGURE=		yes

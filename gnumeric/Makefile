@@ -11,10 +11,10 @@ HOMEPAGE=	http://www.gnome.org/gnumeric/
 COMMENT=	Spreadsheet program from the GNOME project
 
 BUILD_USES_MSGFMT=	yes
-DEPENDS=		gnome2-dirs>=1.5:../../misc/gnome2-dirs
 BUILDLINK_DEPENDS.freetype2=	freetype2>=2.1.4
 
 USE_BUILDLINK3=		YES
+USE_DIRS+=		gnome2-1.5
 USE_PKGLOCALEDIR=	YES
 USE_X11BASE=		YES
 USE_GNU_TOOLS+=		make
