@@ -7,7 +7,7 @@ PKGNAME=		emboss-base-2.9.0
 
 COMMENT=	 	European Molecular Biology Open Software Suite
 
-DIST_SUBDIR=		${PKG_DISTFILES_DIR}/emboss-2.9.0
+DIST_SUBDIR=		emboss/emboss-2.9.0
 
 post-extract:
 	${CP} ${FILESDIR}/digestchange ${WRKSRC}/digestchange
