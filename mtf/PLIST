@@ -1,0 +1,4 @@
+@comment $NetBSD$
+bin/mtf
+share/doc/mtf/README
+@dirrm share/doc/mtf
