@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.1042 2004/03/02 14:31:34 thomasklausner Exp $
+# $Id: Makefile,v 1.1043 2004/03/03 20:15:05 poppnk Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -251,6 +251,7 @@ SUBDIR+=	kahakai
 SUBDIR+=	kannel-gateway
 SUBDIR+=	kapital
 SUBDIR+=	kgpg
+SUBDIR+=	kissme
 SUBDIR+=	koffice-i18n-de
 SUBDIR+=	koffice-i18n-es
 SUBDIR+=	konversation
