@@ -10,14 +10,16 @@ MAINTAINER=		xtraeme@NetBSD.org
 HOMEPAGE=		http://xlibs.freedesktop.org/
 COMMENT=		Xfixes extension of X RandR
 
-USE_BUILDLINK2=		yes
+PKG_INSTALLATION_TYPES=	overwrite pkgviews
+
+USE_BUILDLINK3=		yes
 USE_LIBTOOL=		yes
 GNU_CONFIGURE=		yes
 
 LIBTOOL_OVERRIDE=       ${WRKSRC}/libtool
 PKGCONFIG_OVERRIDE+=    ${WRKSRC}/xfixes.pc.in
 
-.include "../../wip/libX11/buildlink2.mk"
-.include "../../wip/fixesext/buildlink2.mk"
-.include "../../devel/pkgconfig/buildlink2.mk"
+.include "../../wip/libX11/buildlink3.mk"
+.include "../../wip/fixesext/buildlink3.mk"
+.include "../../devel/pkgconfig/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
