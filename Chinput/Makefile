@@ -2,7 +2,8 @@
 
 DISTNAME=	Chinput-3.0.2
 CATEGORIES=	inputmethod
-MASTER_SITES=	http://www.opencjk.org/~yumj/download/
+MASTER_SITES=	ftp://linux.nctu.edu.tw/dists/gentoo/distfiles/ \
+		http://www.opencjk.org/~yumj/download/
 
 MAINTAINER=	rxg@NetBSD.org
 HOMEPAGE=	http://www.opencjk.org/~yumj/project-chinput.html
