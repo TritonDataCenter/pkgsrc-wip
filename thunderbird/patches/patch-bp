@@ -8,7 +8,7 @@ diff -ru ../Orig/mozilla/other-licenses/libical/src/libical/Makefile.in ./other-
                  $(DESIGNDATA)/restrictions.csv > icalrestriction.c
  
 -ifneq (,$(filter BeOS Darwin OpenVMS,$(OS_ARCH)))
-+ifneq (,$(filter BeOS Darwin OpenVMS NetBSD,$(OS_ARCH)))
++ifneq (,$(filter BeOS Darwin OpenVMS NetBSD,FreeBSD,$(OS_ARCH)))
  DEFINES	+= -D__USE_BSD=1
  endif
  
