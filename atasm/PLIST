@@ -1,1 +1,5 @@
 @comment $NetBSD$
+bin/atasm
+man/man1/atasm.1
+share/doc/atasm/atasm.txt
+@dirrm share/doc/atasm
