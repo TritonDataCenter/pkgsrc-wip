@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		drwright-0.17
-CATEGORIES=		x11
+CATEGORIES=		misc gnome
 MASTER_SITES=		${MASTER_SITE_GNOME:=sources/drwright/0.17/}
 EXTRACT_SUFX=		.tar.bz2
 
