@@ -10,7 +10,7 @@ MAINTAINER=	cinnion@ka8zrt.com
 HOMEPAGE=	http://www.boutell.com/cgic/
 COMMENT=	Thomas Boutell's ANSI C library for CGI Programming
 
-USE_BUILDLINK2=		yes
+USE_BUILDLINK3=		yes
 USE_LIBTOOL=		yes
 
 .include "../../mk/bsd.pkg.mk"

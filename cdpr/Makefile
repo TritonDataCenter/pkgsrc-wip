@@ -10,11 +10,11 @@ MAINTAINER=	adam@monkeybyte.org
 HOMEPAGE=	http://www.monkeymental.com/
 COMMENT=	Cisco Discovery Protocol Reporter
 
-USE_BUILDLINK2=         yes
+USE_BUILDLINK3=         yes
 ALL_TARGET=		cdpr
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/cdpr ${PREFIX}/bin
 
-.include "../../net/libpcap/buildlink2.mk"
+.include "../../net/libpcap/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

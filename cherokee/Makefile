@@ -11,7 +11,7 @@ MAINTAINER=	xtraeme@NetBSD.org
 HOMEPAGE=	http://www.alobbs.com/cherokee/
 COMMENT=	Extremely fast and tiny web server
 
-USE_BUILDLINK2=		yes
+USE_BUILDLINK3=		yes
 USE_LIBTOOL=		yes
 GNU_CONFIGURE=		yes
 USE_PKGINSTALL=		yes
@@ -29,5 +29,5 @@ post-install:
 	${INSTALL_DATA} ${WRKSRC}/cherokee.conf \
 		${EGDIR}/cherokee.conf.default
 
-.include "../../sysutils/gnome-vfs2/buildlink2.mk"
+.include "../../sysutils/gnome-vfs2/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
