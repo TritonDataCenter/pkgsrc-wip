@@ -5,7 +5,7 @@ DISTNAME=		libmodplug-0.7
 CATEGORIES=		audio
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=modplug-xmms/}
 
-MAINTAINER=		ben@netbsd.org
+MAINTAINER=		ben@NetBSD.org
 HOMEPAGE=		http://modplug-xmms.sourceforge.net/
 COMMENT=		Library for decoding mod-like music formats
 

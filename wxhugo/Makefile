@@ -8,7 +8,7 @@ CATEGORIES=	games
 MASTER_SITES=	http://www.ifarchive.org/if-archive/programming/hugo/source/
 DISTFILES=	${DISTNAME}${EXTRACT_SUFX} ${DISTFILE_WX}
 
-MAINTAINER=	dillo@netbsd.org
+MAINTAINER=	dillo@NetBSD.org
 HOMEPAGE=	http://161.184.245.22/tessman/gcc/hugo.html
 COMMENT=	Interactive fiction interpreter with sound and graphics support
 

@@ -5,7 +5,7 @@ DISTNAME=		maxima-5.9.0
 CATEGORIES=		science
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=maxima/}
 
-MAINTAINER=		tech-pkg@netbsd.org
+MAINTAINER=		tech-pkg@NetBSD.org
 HOMEPAGE=		http://maxima.sourceforge.net/
 COMMENT=		Sophisticated computer algebra system
 

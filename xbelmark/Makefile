@@ -1,4 +1,4 @@
-# $NetBSD$
+NetBSD $NetBSD$
 #
 
 DISTNAME=		xbelmark.py
@@ -8,7 +8,7 @@ CATEGORIES=		textproc www
 MASTER_SITES=		http://www.stud.uni-hamburg.de/users/lennart/projects/xbelmark/
 EXTRACT_SUFX=		# nothing to extract
 
-MAINTAINER=		tech-pkg@netbsd.org
+MAINTAINER=		tech-pkg@NetBSD.org
 HOMEPAGE=		http://www.stud.uni-hamburg.de/users/lennart/projects/xbelmark/
 COMMENT=		XBEL XML bookmarks to readable HTML converter
 
