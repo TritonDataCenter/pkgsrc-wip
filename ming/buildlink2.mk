@@ -17,6 +17,7 @@ BUILDLINK_PREFIX.ming_DEFAULT=	${LOCALBASE}
 BUILDLINK_FILES.ming+=	include/ming.h
 BUILDLINK_FILES.ming+=	include/mingpp.h
 BUILDLINK_FILES.ming+=	lib/libming.*
+BUILDLINK_FILES.ming+=	lib/libming.a
 
 BUILDLINK_TARGETS+=	ming-buildlink
 
