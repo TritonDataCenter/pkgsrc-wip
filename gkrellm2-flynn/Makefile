@@ -1,8 +1,8 @@
 # $NetBSD$
 #
 
-DISTNAME=	gkrellflynn-0.6
-PKGNAME=	gkrellm-flynn-0.6
+DISTNAME=	gkrellflynn-0.8
+PKGNAME=	${DISTNAME:S/gkrellm/gkrellm-/}
 CATEGORIES=	systutils
 MASTER_SITES=	http://horus.comlab.uni-rostock.de/flynn/
 
