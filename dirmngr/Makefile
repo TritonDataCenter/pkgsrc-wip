@@ -27,7 +27,7 @@ pre-configure:
 #			cd ${WRKSRC} && ${SETENV} ${CONFIGURE_ENV} ${SH} autogen.sh
 			cd ${WRKSRC} && ${AUTOCONF}
 
-.include "../../wip/libgpg-error/buildlink3.mk"
+.include "../../security/libgpg-error/buildlink3.mk"
 .include "../../security/libgcrypt/buildlink3.mk"
 .include "../../security/libksba/buildlink3.mk"
 .include "../../wip/libassuan/buildlink3.mk"
