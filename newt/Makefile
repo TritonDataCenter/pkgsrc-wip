@@ -8,7 +8,7 @@ MASTER_SITES=		http://download.fedora.redhat.com/pub/fedora/linux/core/3/SRPMS/
 EXTRACT_SUFX=		# empty
 PKGREVISION=		1
 
-MAINTAINER=		riz@netbsd.org
+MAINTAINER=		riz@NetBSD.org
 HOMEPAGE=		# empty
 COMMENT=		Windowing toolkit based on libslang
 
