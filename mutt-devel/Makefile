@@ -80,11 +80,6 @@ CONFIGURE_ARGS+=	--with-ssl=${SSLBASE}
 CONFIGURE_ARGS+=	--without-ssl
 .endif
 
-.if defined(USE_SASL) && ${USE_SASL} == "YES"
-.include "../../security/cyrus-sasl/buildlink3.mk"
-CONFIGURE_ARGS+=	--with-sasl=${BUILDLINK_PREFIX.cyrus-sasl}
-.endif
-
 .if defined(USE_SASL2) && ${USE_SASL2} == "YES"
 .include "../../security/cyrus-sasl2/buildlink3.mk"
 CONFIGURE_ARGS+=	--with-sasl2=${BUILDLINK_PREFIX.cyrus-sasl2}
