@@ -1,0 +1,4 @@
+@comment $NetBSD$
+lib/libguilerxspencer.la
+share/guile/site/regex/spencer.scm
+@dirrm share/guile/site/regex
