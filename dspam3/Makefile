@@ -1,8 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	dspam-3.0.0.rc2
-PKGNAME=	${DISTNAME:S/3.0.0./3.0.0/}
+DISTNAME=	dspam-3.0.0
 CATEGORIES=	mail
 MASTER_SITES=	http://www.nuclearelephant.com/projects/dspam/sources/
 
