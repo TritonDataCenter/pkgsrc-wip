@@ -8,6 +8,10 @@ PKGNAME=	xfce4-fm-${XFCE4_VERSION}
 DISTNAME=	xffm-${XFCE4_VERSION}
 COMMENT=	XFce4 filemanager
 
+.if defined(XFCE4_USE_SAMBA) && ${XFCE4_USE_SAMBA} == "YES"
+.include "../../net/samba/buildlink2.mk"
+.endif
+
 .include "../../databases/dbh/buildlink2.mk"
 .include "../../devel/pkgconfig/buildlink2.mk"
 .include "../../textproc/libxml2/buildlink2.mk"
