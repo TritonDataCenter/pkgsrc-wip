@@ -4,7 +4,7 @@
 DISTNAME=	glulxe-035
 PKGNAME=	glulxe-0.3.5
 CATEGORIES=	games
-MASTER_SITES=	http://mirror.ifarchive.org/if-archive/programming/glulx/interpreters/glulxe/
+MASTER_SITES=	${MASTER_SITE_IFARCHIVE:=programming/glulx/interpreters/glulxe/}
 EXTRACT_SUFX=	.tar.Z
 
 MAINTAINER=	dillo@NetBSD.org

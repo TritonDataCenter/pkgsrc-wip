@@ -4,7 +4,7 @@
 DISTNAME=	glkterm-078
 PKGNAME=	glkterm-0.7.8
 CATEGORIES=	games
-MASTER_SITES=	http://mirror.ifarchive.org/if-archive/programming/glk/implementations/
+MASTER_SITES=	${MASTER_SITE_IFARCHIVE:=programming/glk/implementations/}
 EXTRACT_SUFX=	.tar.Z
 
 MAINTAINER=	dillo@NetBSD.org
