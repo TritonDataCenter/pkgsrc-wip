@@ -1,0 +1,15 @@
+$NetBSD$
+
+--- setup.py.orig	Wed Apr  3 00:29:06 2002
++++ setup.py
+@@ -7,8 +7,8 @@ if sys.platform == 'win32':
+     FXLIBDIR = r'..\fox-1.0.5\lib'
+     FXINCDIR = r'..\fox-1.0.5\include'
+ else:
+-    FXLIBDIR = '/usr/local/lib'
+-    FXINCDIR = '/usr/local/include/fox'
++    FXLIBDIR = '@PKGDIR@/lib'
++    FXINCDIR = '@PKGDIR@/include/fox'
+ 
+ # Location of X libraries
+ if sys.platform == 'win32':
