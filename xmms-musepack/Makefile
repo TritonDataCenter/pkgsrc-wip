@@ -13,7 +13,7 @@ COMMENT=	Musepack audio output plugin for XMMS
 USE_BUILDLINK2=	yes
 USE_LIBTOOL=	yes
 
-CFLAGS+=	-DVERSION=\"\\\"${PKGVERSION}\\\"\"
+CFLAGS+=	-DVERSION='"${PKGVERSION}"'
 XMMS_CONFIG=	${BUILDLINK_PREFIX.xmms}/bin/xmms-config
 
 do-build:
