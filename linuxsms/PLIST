@@ -1,0 +1,6 @@
+@comment $NetBSD$
+bin/linuxsms.pl
+man/man1/linuxsms.1
+share/doc/linuxsms/README
+share/doc/linuxsms/README.ES
+@dirrm share/doc/linuxsms
