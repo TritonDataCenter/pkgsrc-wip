@@ -1,0 +1,4 @@
+@comment $NetBSD$
+bin/strace
+bin/strace-graph
+man/man1/strace.1
