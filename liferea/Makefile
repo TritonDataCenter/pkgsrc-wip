@@ -7,7 +7,7 @@ MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=liferea/}
 
 MAINTAINER=		adam@monkeybyte.org
 HOMEPAGE=		http://liferea.sourceforge.net/
-COMMENT=		Liferea is a simple FeedReader clone. It is a reader for RSS/RDF feeds.
+COMMENT=		Liferea is a simple FeedReader clone for reading RSS/RDF feeds
 
 USE_BUILDLINK2=         yes
 GNU_CONFIGURE=          yes
