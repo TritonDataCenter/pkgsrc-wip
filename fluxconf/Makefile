@@ -6,7 +6,7 @@ CATEGORIES=	wm
 MASTER_SITES=	http://devaux.fabien.free.fr/flux/
 
 MAINTAINER=	jrp@hispabsd.org
-HOMEPAGE=	pttp://devaux.fabien.free.fr/flux/
+HOMEPAGE=	http://devaux.fabien.free.fr/flux/
 COMMENT=	GTK based configuration tool for the fluxbox window manager
 
 BUILD_USES_MSGFMT=	yes
