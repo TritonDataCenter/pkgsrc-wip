@@ -11,14 +11,35 @@ COMMENT=	Implementation of the layer two tunneling protocol (l2tp)
 
 USE_BUILDLINK3=	YES
 USE_PKGINSTALL= YES
-
-.include "../../mk/bsd.prefs.mk"
+NO_CONFIGURE=	YES
 
 PKG_SYSCONFSUBDIR?=     l2tpd
 DOCDIR=		${PREFIX}/share/doc/l2tpd
 EGDIR=		${PREFIX}/share/examples/l2tpd
 CONF_FILES=	${EGDIR}/l2tpd.conf.sample ${PKG_SYSCONFDIR}/l2tpd.conf
 CONF_FILES+=	${EGDIR}/l2tpd-secrets.sample ${PKG_SYSCONFDIR}/l2tpd-secrets
+
+CFLAGS+=	-DPREFIX="\\\"${PREFIX}\\\"" -DSANITY
+
+SUBST_CLASSES+=		options
+SUBST_MESSAGE.options=	"Fixing build options."
+SUBST_STAGE.options=	post-patch
+SUBST_FILES.options=	Makefile Makefile.Solaris
+SUBST_SED.options=	-e 's,DFLAGS=,\#DFLAGS=,' \
+			-e 's,OSFLAGS=,\#OSFLAGS=,' \
+			-e 's,CFLAGS=,\#CFLAGS=,' \
+			-e 's,(LIBS),(LDFLAGS),'
+
+.include "../../mk/bsd.prefs.mk"
+
+.if ${OPSYS} == "FreeBSD"
+CFLAGS+= -DFREEBSD
+.elif ${OPSYS} == "SunOS"
+CFLAGS+= -DSOLARIS
+LDFLAGS+= -lnsl -lsocket
+.elif ${OPSYS} == "Linux"
+CFLAGS= -DLINUX -I/usr/include
+.endif
 
 post-patch:
 	@cd ${WRKSRC}/doc && 							\
