@@ -7,7 +7,7 @@ $NetBSD$
         to know the process ID from outside the process (eg for control
         scripts) -->
 -  <pidfile>@localstatedir@/jabberd/pid/router.pid</pidfile>
-+  <pidfile>@@PIDDIR@@/router.pid</pidfile>
++  <pidfile>@PIDDIR@/router.pid</pidfile>
  
    <!-- Log configuration - type is "syslog", "file" or "stdout" -->
    <log type='syslog'>
@@ -16,7 +16,7 @@ $NetBSD$
      <!-- If logging to file, this is the filename of the logfile -->
      <!--
 -    <file>@localstatedir@/jabberd/log/router.log</file>
-+    <file>@@LOGDIR@@/router.log</file>
++    <file>@LOGDIR@/router.log</file>
      -->
    </log>
  
@@ -25,7 +25,7 @@ $NetBSD$
           its component and secret information from for component
           authentication.-->
 -    <users>@sysconfdir@/router-users.xml</users>
-+    <users>@@PKG_SYSCONFDIR@@/router-users.xml</users>
++    <users>@PKG_SYSCONFDIR@/router-users.xml</users>
  
      <!-- Shared secret used to identify legacy components (that is,
           "jabber:component:accept" components that authenticate using
@@ -34,6 +34,6 @@ $NetBSD$
           will not be able to request a SSL-encrypted channel. -->
      <!--
 -    <pemfile>@sysconfdir@/server.pem</pemfile>
-+    <pemfile>@@SSLCERTS@@/server.pem</pemfile>
++    <pemfile>@SSLCERTS@/server.pem</pemfile>
      -->
    </local>
