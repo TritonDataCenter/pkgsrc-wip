@@ -12,8 +12,8 @@ HOMEPAGE=		http://simpleparse.sourceforge.net/
 COMMENT=		Simple parser generator for mxTextTools text-tagging engine
 
 PYDISTUTILSPKG=		yes
-PYTHON_VERSION_REQD=	22pth
 USE_BUILDLINK2=		yes
+PYTHON_VERSIONS_ACCEPTED=	23pth 22pth
 
 .include "../../lang/python/extension.mk"
 .include "../../time/py-mxDateTime/buildlink2.mk"

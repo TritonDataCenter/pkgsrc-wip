@@ -68,8 +68,6 @@ post-install:
 		${INSTALL_DATA} $$egfile ${EXAMPLEDIR}; \
 	done
 	${INSTALL_MAN} ${WRKSRC}/pygopherd.8 ${PREFIX}/man/man8
-	${PYTHONBIN} -O ${PREFIX}/${PYLIB}/compileall.py \
-		${PREFIX}/${PYSITELIB}/pygopherd
 
 .include "../../lang/python/extension.mk"
 .include "../../mk/bsd.pkg.mk"

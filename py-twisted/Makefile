@@ -18,9 +18,5 @@ PYDISTUTILSPKG=		yes
 
 PYTHON_VERSIONS_ACCEPTED=	23pth 22pth
 
-post-install:
-	${PYTHONBIN} -O ${PREFIX}/${PYLIB}/compileall.py \
-		${PREFIX}/${PYSITELIB}/twisted
-
 .include "../../lang/python/extension.mk"
 .include "../../mk/bsd.pkg.mk"

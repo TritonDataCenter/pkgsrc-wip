@@ -6,7 +6,7 @@ PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	www python
 MASTER_SITES=	http://www.object-craft.com.au/projects/albatross/download/
 
-MAINTAINER=	marc@informatik.uni-bremen.de
+MAINTAINER=	recht@NetBSD.org
 HOMEPAGE=	http://www.object-craft.com.au/projects/albatross/
 COMMENT=	Toolkit for Stateful Web Applications
 
@@ -65,10 +65,8 @@ post-install:
 	${INSTALL_DATA_DIR} ${EXAMPLEDIR}
 	cd ${WRKSRC}/samples && ${FIND} . -type f \! -name \.cvsignore \
 		-print | ${PAX} -rw -pp -pm ${EXAMPLEDIR}
-	${PYTHONBIN} -O ${PREFIX}/${PYLIB}/compileall.py \
-		${PREFIX}/${PYSITELIB}/albatross
 
-.include "../../lang/python/application.mk"
 .include "../../lang/python/extension.mk"
+.include "../../lang/python/application.mk"
 
 .include "../../mk/bsd.pkg.mk"
