@@ -21,11 +21,11 @@ INC_FILES=`ls ${WRKSRC}/include/libparsifal/*.h`
 pre-build:
 
 	@for f in ${SRC_FILES}; do \
-                ${TR} -d "\r" < $${f} > $${f}; \
+		${TR} -d "\r" < $${f} > $${f}; \
 	done
 
 	@for f in ${INC_FILES}; do \
-                ${TR} -d "\r" < $${f} > $${f}; \
+		${TR} -d "\r" < $${f} > $${f}; \
 	done
 
 .include "../../mk/bsd.pkg.mk"
