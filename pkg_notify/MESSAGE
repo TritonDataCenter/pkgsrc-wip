@@ -1,9 +1,6 @@
 ===========================================================================
 $NetBSD$
 
-Modify the ${PKG_SYSCONFDIR}/pkg_notify.list file containing the package
-list you want to be informed on or invoke pkg_notify this way :
-
-$ pkg_notify category/foo another/bar and/so-on
+Please read ${DOCDIR}/README
 
 ===========================================================================
