@@ -32,6 +32,7 @@ CONFIGURE_ARGS+=	--libdir=${PREFIX}/libexec/oops
 
 .if defined(OOPS_CURRENT) && ${OOPS_CURRENT} == YES
 PATCHFILES+=	diff_from_1.5.23.patch.gz
+PATCH_SITES=	${MASTER_SITES}
 PATCH_DIST_STRIP= -p1
 PLIST_SUBST+=	OOPS_CURRENT=""
 .else
