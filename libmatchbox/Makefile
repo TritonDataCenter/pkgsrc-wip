@@ -1,19 +1,19 @@
 # $NetBSD$
 #
 
-DISTNAME=		libmatchbox-1.1
-CATEGORIES=		x11
-MASTER_SITES=		http://matchbox.handhelds.org/sources/libmatchbox/1.1/
-EXTRACT_SUFX=		.tar.bz2
+DISTNAME=	libmatchbox-1.1
+CATEGORIES=	devel
+MASTER_SITES=	http://matchbox.handhelds.org/sources/libmatchbox/1.1/
+EXTRACT_SUFX=	.tar.bz2
 
-MAINTAINER=		xtraeme@NetBSD.org
-HOMEPAGE=		http://matchbox.handhelds.org/sources/libmatchbox/1.1/
-COMMENT=		Library used by Matchbox Window Manager		
+MAINTAINER=	xtraeme@NetBSD.org
+HOMEPAGE=	http://matchbox.handhelds.org/sources/libmatchbox/1.1/
+COMMENT=	Library used by Matchbox Window Manager		
 
-USE_BUILDLINK3=		yes
-USE_LIBTOOL=		yes
-USE_X11=		yes
-GNU_CONFIGURE=		yes
+USE_BUILDLINK3=	yes
+USE_LIBTOOL=	yes
+USE_X11=	yes
+GNU_CONFIGURE=	yes
 
 PKGCONFIG_OVERRIDE=    ${WRKSRC}/libmb.pc.in
 

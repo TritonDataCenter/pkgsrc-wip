@@ -1,14 +1,14 @@
 # $NetBSD$
 #
 
-DISTNAME=		matchbox-window-manager-0.8
-CATEGORIES=		wm
-MASTER_SITES=		http://matchbox.handhelds.org/sources/matchbox-window-manager/0.8/
-EXTRACT_SUFX=		.tar.bz2
+DISTNAME=	matchbox-window-manager-0.8
+CATEGORIES=	wm
+MASTER_SITES=	http://matchbox.handhelds.org/sources/matchbox-window-manager/0.8/
+EXTRACT_SUFX=	.tar.bz2
 
-MAINTAINER=		xtraeme@NetBSD.org
-HOMEPAGE=		http://matchbox.handhelds.org/sources/matchbox-window-manager/0.8/
-COMMENT=		The Matchbox window manager
+MAINTAINER=	xtraeme@NetBSD.org
+HOMEPAGE=	http://matchbox.handhelds.org/sources/matchbox-window-manager/0.8/
+COMMENT=	The Matchbox window manager
 
 USE_BUILDLINK3=		yes
 USE_PKGLOCALEDIR=	yes
