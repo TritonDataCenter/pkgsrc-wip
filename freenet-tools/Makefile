@@ -1,12 +1,12 @@
 # $NetBSD$
 #
 
-DISTNAME=		ft-0.2.16
+DISTNAME=		ft-0.2.17
 PKGNAME=		${DISTNAME:S/ft-/freenet-tools-/}
-PKGREVISION=		1
 WRKSRC=			${WRKDIR}/ft
 CATEGORIES=		security net
-MASTER_SITES=		http://entropy.stop1984.com/files/
+MASTER_SITES=		http://entropy.stop1984.com/files/ \
+			http://www.duh.org/extropy/files/
 EXTRACT_SUFX=		.tgz
 
 MAINTAINER=		tv@duh.org
