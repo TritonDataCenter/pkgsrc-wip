@@ -1,5 +1,6 @@
 @comment $NetBSD$
 bin/freevo
+${PKG_SYSCONFDIR}/local_config.py
 ${PYSITELIB}/freevo/__init__.py
 ${PYSITELIB}/freevo/__init__.pyc
 ${PYSITELIB}/freevo/__init__.pyo
