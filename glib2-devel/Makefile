@@ -2,6 +2,7 @@
 #
 
 DISTNAME=		glib-2.4.0
+PKGNAME=                ${DISTNAME:S/glib/glib2/}
 CATEGORIES=		wip
 MASTER_SITES=		ftp://ftp.gtk.org/pub/gtk/v2.4/
 
