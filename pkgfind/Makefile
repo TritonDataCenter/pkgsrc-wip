@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	pkgfind-20040614
+DISTNAME=	pkgfind-20040615
 CATEGORIES=	pkgtools
 MASTER_SITES=	# empty
 DISTFILES=	# empty
