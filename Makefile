@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.1381 2004/07/13 17:09:41 cetrox Exp $
+# $Id: Makefile,v 1.1382 2004/07/15 02:40:52 hsaliak Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -57,6 +57,7 @@ SUBDIR+=	billardgl
 SUBDIR+=	bin86
 SUBDIR+=	bison13
 SUBDIR+=	blassic
+SUBDIR+=	bmon
 SUBDIR+=	bnr2
 SUBDIR+=	bub-n-bros
 SUBDIR+=	bugzilla
