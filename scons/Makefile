@@ -10,7 +10,7 @@ HOMEPAGE=		http://www.scons.org/
 COMMENT=		Build system, written in Python
 
 PYDISTUTILSPKG=		yes
-USE_BUILDLINK2=		yes
+USE_BUILDLINK3=		yes
 
 post-install:
 	${INSTALL_MAN} ${WRKSRC}/scons.1 ${PREFIX}/man/man1
