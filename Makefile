@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.993 2004/02/20 04:11:53 minskim Exp $
+# $Id: Makefile,v 1.994 2004/02/20 04:17:08 minskim Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -399,7 +399,6 @@ SUBDIR+=	p5-Chart
 SUBDIR+=	p5-Class-Factory-Util
 SUBDIR+=	p5-Class-MethodMaker
 SUBDIR+=	p5-Class-Singleton
-SUBDIR+=	p5-Class-Trigger
 SUBDIR+=	p5-DBI-Shell
 SUBDIR+=	p5-Data-TemporaryBag
 SUBDIR+=	p5-DateTime
