@@ -59,13 +59,11 @@ REPLACE_PERL=	*.pl *.cgi
 SUBST_CLASSES=		conf
 SUBST_STAGE.conf=	pre-install
 SUBST_FILES.conf=	bugzilla.conf localconfig
-SUBST_SED.conf=		-e "s|@PREFIX@|${PREFIX}|g" \
-			-e "s|@BZDIR@|${BZDIR}|g" \
-			-e "s|@BZ_DB_HOST@|${BZ_DB_HOST}|g" \
-			-e "s|@BZ_WEB_GROUP@|${BZ_WEB_GROUP}|g" \
-			-e "s|@BZ_DB_PORT@|${BZ_DB_PORT}|g" \
-			-e "s|@BZ_DB_DATABASE@|${BZ_DB_DATABASE}|g" \
-			-e "s|@BZ_DB_USER@|${BZ_DB_USER}|g" \
+			-e "s|@BZ_DB_HOST@|${BZ_DB_HOST}|g" 		\
+			-e "s|@BZ_WEB_GROUP@|${BZ_WEB_GROUP}|g" 	\
+			-e "s|@BZ_DB_PORT@|${BZ_DB_PORT}|g" 		\
+			-e "s|@BZ_DB_DATABASE@|${BZ_DB_DATABASE}|g" 	\
+			-e "s|@BZ_DB_USER@|${BZ_DB_USER}|g" 		\
 			-e "s|@BZ_DB_PASS@|${BZ_DB_PASS}|g"
 SUBST_MESSAGE.conf=	"Fixing configuration files."
 
