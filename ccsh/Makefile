@@ -9,8 +9,12 @@ MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://ccsh.sourceforge.net/
 COMMENT=		C-like syntax scripting
 
+PKG_INSTALLATION_TYPES=	overwrite pkgviews
+
 USE_GNU_TOOLS+=		make
-USE_BUILDLINK2=		yes
+USE_BUILDLINK3=		yes
+
+INSTALLATION_DIRS+=	bin
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/ccsh ${PREFIX}/bin/ccsh
