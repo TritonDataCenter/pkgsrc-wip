@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	gg2-2.0pre5
+DISTNAME=	gg2-2.0pre6
 CATEGORIES=	chat
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=ggadu/}
 
