@@ -25,5 +25,6 @@ CONFIGURE_ARGS+= --without-included-sqlite
 .include "../../multimedia/kdemultimedia3/buildlink3.mk"
 .include "../../databases/sqlite/buildlink3.mk"
 .include "../../audio/xmms/buildlink3.mk"
+.include "../../audio/taglib/buildlink3.mk"
 .include "../../mk/ossaudio.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
