@@ -1,0 +1,6 @@
+@comment $NetBSD$
+share/lingoteach/AUTHORS.lessons
+share/lingoteach/COPYING.lessons
+share/lingoteach/README.lessons
+share/lingoteach/data/countries.xml
+share/lingoteach/data/freedict.xml
