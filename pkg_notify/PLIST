@@ -1,6 +1,0 @@
-@comment $NetBSD$
-bin/pkg_notify
-share/examples/${PKGBASE}/${PKGBASE}.list
-share/doc/${PKGBASE}/README
-@dirrm share/examples/${PKGBASE}
-@dirrm share/doc/${PKGBASE}
