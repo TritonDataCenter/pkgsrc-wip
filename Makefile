@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.80 2003/04/14 04:56:09 xtraeme Exp $
+# $Id: Makefile,v 1.81 2003/04/14 05:30:39 xtraeme Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -80,5 +80,7 @@ SUBDIR+=	fluxconf
 SUBDIR+=	mplayerplugin
 SUBDIR+=	streamripper
 SUBDIR+=	tsclient
+SUBDIR+=	dovecot
+SUBDIR+=	directfb
 
 .include "../mk/bsd.pkg.subdir.mk"
