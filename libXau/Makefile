@@ -12,13 +12,15 @@ COMMENT=		Authorization Protocol for X from freedesktop.org
 
 CONFLICTS+=		XFree86-libs-[0-9]*
 
-USE_BUILDLINK2=		yes
+PKG_INSTALLATION_TYPES=	overwrite pkgviews
+
+USE_BUILDLINK3=		yes
 USE_LIBTOOL=		yes
 GNU_CONFIGURE=		yes
 
 LIBTOOL_OVERRIDE=       ${WRKSRC}/libtool
 PKGCONFIG_OVERRIDE+=    ${WRKSRC}/xau.pc.in
 
-.include "../../wip/xproto/buildlink2.mk"
-.include "../../devel/pkgconfig/buildlink2.mk"
+.include "../../wip/xproto/buildlink3.mk"
+.include "../../devel/pkgconfig/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
