@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.1222 2004/04/19 18:25:15 xtraeme Exp $
+# $Id: Makefile,v 1.1223 2004/04/19 18:39:12 xtraeme Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -147,7 +147,6 @@ SUBDIR+=	foomatic-db-engine
 SUBDIR+=	foomatic-filters
 SUBDIR+=	foomatic-filters-cups
 SUBDIR+=	fragroute
-SUBDIR+=	freeglut
 SUBDIR+=	freevo
 SUBDIR+=	frontpage
 SUBDIR+=	fsv
