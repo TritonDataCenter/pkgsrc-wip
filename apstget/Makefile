@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	apstget-20041020
+DISTNAME=	apstget-20041021
 CATEGORIES=	pkgtools wip
 MASTER_SITES=	# empty
 DISTFILES=	# empty
@@ -26,6 +26,8 @@ do-install:
 SUBST_CLASSES=		etc
 SUBST_STAGE.etc=	post-patch
 SUBST_FILES.etc=	apst-get
-SUBST_SED.etc=		-e "s,_etc_,${PREFIX}/etc,g"
+SUBST_SED.etc=		-e "s,_etc_,${PKG_SYSCONFDIR},g" \
+			-e "s,_pfx_,${PREFIX},g" \
+			-e "s,_psd_,${PKGSRCDIR},g"
 
 .include "../../mk/bsd.pkg.mk"
