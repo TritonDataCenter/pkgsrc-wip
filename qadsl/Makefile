@@ -2,16 +2,18 @@
 #
 
 DISTNAME=	qadsl-final-1.2
-PKGNAME=		qadsl-1.2
+PKGNAME=	qadsl-1.2
 CATEGORIES=	net
 MASTER_SITES=	http://qba.linuxsweden.nu/code/
 
 MAINTAINER=	packages@netbsd.org
-HOMEPAGE=	http://qba.linuxsweden.nu
+HOMEPAGE=	http://qba.linuxsweden.nu/
 COMMENT=	Login software for Swedish Telia ADSL/Comhem cable Internet users
 
 ALL_TARGET=	bsd
 MANCOMPRESSED=	yes
+
+MAKE_ENV+=	PKG_SYSCONFDIR=${PKG_SYSCONFDIR}
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/qadsl ${PREFIX}/sbin
