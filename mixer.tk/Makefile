@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	mixer.tk-0.2
+DISTNAME=	mixer.tk-0.3
 CATEGORIES=	audio
 MASTER_SITES=	http://netbsd.gnorw.net/Applications/mixer.tk/downloads/
 
