@@ -1,0 +1,4 @@
+@comment $NetBSD$
+lib/xfce4/panel-plugins/libdiskperf.a
+lib/xfce4/panel-plugins/libdiskperf.la
+lib/xfce4/panel-plugins/libdiskperf.so
