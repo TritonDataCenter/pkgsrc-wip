@@ -19,12 +19,15 @@ LIBTOOL_OVERRIDE=       ${WRKSRC}/libtool
 YAFRAYDIR=		${PREFIX}/share/yafray/
 DOCDIR=			${PREFIX}/share/doc/yafray
 
+PTHREAD_OPTS=		require
+
 post-extract:
 	${MV} ${WRKSRC}/src/loader/loader.cc ${WRKSRC}/src/loader/loader.cc.in
 
 pre-configure:
 	${SED} -e "s|@@YAFRAYDIR@@|${YAFRAYDIR}|g" \
-		< ${WRKSRC}/src/loader/loader.cc.in > ${WRKSRC}/src/loader/loader.cc
+		${WRKSRC}/src/loader/loader.cc.in \
+		> ${WRKSRC}/src/loader/loader.cc
 do-install:
 	${INSTALL_DATA_DIR} ${YAFRAYDIR} ${DOCDIR}
 	${INSTALL_DATA} ${WRKSRC}/doc/*.html ${DOCDIR}
