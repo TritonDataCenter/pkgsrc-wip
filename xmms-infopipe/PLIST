@@ -1,0 +1,6 @@
+@comment $NetBSD$
+lib/xmms/General/libinfopipe-${PKGVERSION}.so.1
+lib/xmms/General/libinfopipe-${PKGVERSION}.so.1.1
+lib/xmms/General/libinfopipe.a
+lib/xmms/General/libinfopipe.la
+lib/xmms/General/libinfopipe.so
