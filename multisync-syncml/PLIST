@@ -1,3 +1,2 @@
 @comment $NetBSD$
 lib/multisync/libsyncml_plugin.la
-@dirrm lib/multisync
