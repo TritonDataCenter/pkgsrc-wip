@@ -66,7 +66,7 @@ USE_BINUTILS!=		${TEST} ${AS_VERSION} -lt 02130201 && ${ECHO} YES || ${ECHO} NO
 .if defined(USE_BINUTILS) && ${USE_BINUTILS} == "YES"
 DEPENDS=		binutils>=2.13.2.1:../../devel/binutils
 CONFIGURE_ARGS+=	--with-as=${PREFIX}/${MACHINE_GNU_PLATFORM}/bin/as
-#.  include "../../devel/binutils/buildlink2.mk"
+#.  include "../../devel/binutils/buildlink3.mk"
 .endif
 
 .if ${OPSYS} == "NetBSD" || ${OPSYS} == "Linux"
