@@ -11,6 +11,8 @@ COMMENT=	GNU Emacs with Aqua user interface
 
 BUILD_DEPENDS+=	gtexinfo>=4.6:../../devel/gtexinfo
 
+ONLY_FOR_PLATFORM=	Darwin-*-*
+
 CONFLICTS=	mule-[0-9]*
 
 USE_BUILDLINK2=		yes
