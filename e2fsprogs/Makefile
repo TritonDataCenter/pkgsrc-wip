@@ -8,12 +8,12 @@ MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=e2fsprogs/} \
 		ftp://tsx-11.mit.edu/pub/linux/packages/ext2fs/ \
 		ftp://ftp.gwdg.de/pub/linux/mirrors/tsx-11/packages/ext2fs/
 
-MAINTAINER=	hubert.feyrer@rz.uni-regensburg.de
+MAINTAINER=	reed@reedmedia.net
 HOMEPAGE=	http://e2fsprogs.sourceforge.net/
 COMMENT=	Second extended file system (ext2fs) management programs
 
 #BUILD_DEPENDS=	gettext>=0.11.5:../../devel/gettext
-#BUILD_USES_MSGFMT=	YES
+BUILD_USES_MSGFMT=	YES
 
 GNU_CONFIGURE=		YES
 USE_MAKEINFO=		YES
