@@ -20,7 +20,7 @@ BUILDLINK_PKGSRCDIR.libXcursor?=		../../wip/libXcursor
 .include "../../wip/xproto/buildlink3.mk"
 .include "../../wip/libX11/buildlink3.mk"
 .include "../../wip/libXrender/buildlink3.mk"
-.include "../../wip/libXfixes/buildlink3.mk"
+.include "../../x11/Xfixes/buildlink3.mk"
 
 .endif # LIBXCURSOR_BUILDLINK3_MK
 

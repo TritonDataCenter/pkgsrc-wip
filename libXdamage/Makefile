@@ -17,9 +17,9 @@ USE_LIBTOOL=		yes
 PKGCONFIG_OVERRIDE+=	xdamage.pc.in
 
 .include "../../wip/libX11/buildlink3.mk"
-.include "../../wip/libXfixes/buildlink3.mk"
 .include "../../wip/damageext/buildlink3.mk"
 .include "../../wip/xproto/buildlink3.mk"
+.include "../../x11/Xfixes/buildlink3.mk"
 .include "../../x11/fixesext/buildlink3.mk"
 .include "../../devel/pkgconfig/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
