@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	socat-1.3.1.0
+DISTNAME=	socat-1.3.2.1
 WRKSRC=         ${WRKDIR}/socat-1.3
 CATEGORIES=	net www
 MASTER_SITES=	http://www.dest-unreach.org/socat/download/
