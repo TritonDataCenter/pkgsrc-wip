@@ -15,9 +15,13 @@ LIBTOOL_OVERRIDE=	# empty
 
 .include "Makefile.common"
 
-EGDIR=			${PREFIX}/
-CONF_FILES=		${EGDIR}/php.ini-recommended ${PKG_SYSCONFDIR}/php.ini
+EGDIR=			${PREFIX}/share/examples/php
 
+CONF_FILES=		${EGDIR}/php.ini-recommended ${PKG_SYSCONFDIR}/php.ini
 OWN_DIRS=		${PREFIX}/${PHP_EXTENSION_DIR}
+
+post-install:
+	@${INSTALL_DATA_DIR} ${EGDIR}
+	cd ${WRKSRC} && ${INSTALL_DATA} php.ini-dist php.ini-recommended ${EGDIR}
 
 .include "../../mk/bsd.pkg.mk"
