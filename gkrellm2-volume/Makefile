@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	gkrellm-volume-2.1.7
+DISTNAME=	gkrellm-volume-2.1.8
 WRKSRC=		${WRKDIR}/gkrellm-volume
 CATEGORIES=	audio
 MASTER_SITES=	http://gkrellm.luon.net/files/
