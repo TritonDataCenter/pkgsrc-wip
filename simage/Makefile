@@ -6,7 +6,7 @@ CATEGORIES=		graphics
 MASTER_SITES=		ftp://ftp.coin3d.org/pub/coin/src/
 
 MAINTAINER=		pkgsrc@bjan.freeshell.org
-HOMEPAGE=		http://www.coin3d.org
+HOMEPAGE=		http://www.coin3d.org/
 COMMENT=		Library for importing audio and image files
 
 GNU_CONFIGURE=		yes
