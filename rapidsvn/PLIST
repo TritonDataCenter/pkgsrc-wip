@@ -1,0 +1,8 @@
+@comment $NetBSD$
+bin/rapidsvn
+lib/libsvncpp.a
+lib/libsvncpp.la
+lib/libsvncpp.so
+lib/libsvncpp.so.0
+lib/libsvncpp.so.0.0
+man/man1/rapidsvn.1
