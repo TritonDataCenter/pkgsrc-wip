@@ -5,7 +5,7 @@ PKGNAME=	xpilot-ng-4.5.4X2
 CATEGORIES=	games
 MASTER_SITES=	http://www.hut.fi/~ksoderbl/xpilot/
 
-MAINTAINER=	pulahti@sourceforge.net
+MAINTAINER=	vnorrman@cc.hut.fi
 HOMEPAGE=	http://xpilot.sourceforge.net/
 COMMENT=	Enhanced version of XPilot network space battle
 
