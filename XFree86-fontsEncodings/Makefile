@@ -18,7 +18,6 @@ NO_XFREE86_TARGETS=	# defined
 
 post-extract:
 	@${LN} -sf ${FILESDIR}/host.def ${WRKSRC}
-	@${LN} -sf ${LOCALBASE}/bin/fc-cache ${X11BASE}/bin
 
 do-configure:
 	(cd ${WRKSRC} && \
