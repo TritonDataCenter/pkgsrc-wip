@@ -2,7 +2,7 @@
 
 DISTNAME=		electricsheep-2.5
 CATEGORIES=		x11
-MASTER_SITES=   http://electricsheep.org/
+MASTER_SITES=		http://electricsheep.org/
 
 MAINTAINER=		dyeske@yahoo.com
 HOMEPAGE=		http://electricsheep.org/
@@ -12,6 +12,8 @@ USE_BUILDLINK3=		YES
 USE_PKGINSTALL=		YES
 USE_X11BASE=		YES
 GNU_CONFIGURE=		YES
+
+DEPENDS+=		xli-[0-9]*:../../graphics/xli
 
 .include "../../mk/bsd.prefs.mk"
 
@@ -30,7 +32,6 @@ post-patch:
 	@${SED} < ${WRKSRC}/electricsheep.c.orig > ${WRKSRC}/electricsheep.c \
 		-e 's|/usr/local/share|${PREFIX}/share/electricsheep|'
 
-#.include "../../graphics/xli
 .include "../../graphics/jpeg/buildlink3.mk"
 .include "../../graphics/png/buildlink3.mk"
 .include "../../graphics/tiff/buildlink3.mk"
