@@ -30,16 +30,12 @@ gdbada/info/stabs.info-1
 gdbada/info/stabs.info-2
 gdbada/info/stabs.info-3
 gdbada/info/stabs.info-4
-gdbada/lib/libbfd-2.13.90.so
 gdbada/lib/libbfd.a
 gdbada/lib/libbfd.la
-gdbada/lib/libbfd.so
 gdbada/lib/libiberty.a
 gdbada/lib/libmmalloc.a
-gdbada/lib/libopcodes-2.13.90.so
 gdbada/lib/libopcodes.a
 gdbada/lib/libopcodes.la
-gdbada/lib/libopcodes.so
 gdbada/man/man1/gdb.1
 @dirrm gdbada/man/man1
 @dirrm gdbada/man
