@@ -20,7 +20,7 @@ CONFLICTS+=		XFree86-libs-[0-9]*
 #BUILD_DEPENDS+=		imake-[0-9]*:../../wip/imake
 #.endif
 
-USE_BUILDLINK2=		yes
+USE_BUILDLINK3=		yes
 USE_GNU_TOOLS+=		make
 GNU_CONFIGURE=		yes
 USE_LIBTOOL=		yes
@@ -30,11 +30,11 @@ PKGCONFIG_OVERRIDE+=	xt.pc.in
 post-extract:
 	${MV} ${WRKSRC}/ObjectP.h ${WRKSRC}/include/X11/
 
-.include "../../wip/libICE/buildlink2.mk"
-.include "../../wip/libSM/buildlink2.mk"
-.include "../../wip/libX11/buildlink2.mk"
-.include "../../wip/xproto/buildlink2.mk"
-.include "../../wip/xextensions/buildlink2.mk"
-.include "../../mk/pthread.buildlink2.mk"
+.include "../../wip/libICE/buildlink3.mk"
+.include "../../wip/libSM/buildlink3.mk"
+.include "../../wip/libX11/buildlink3.mk"
+.include "../../wip/xproto/buildlink3.mk"
+.include "../../wip/xextensions/buildlink3.mk"
+.include "../../mk/pthread.buildlink3.mk"
 
 .include "../../mk/bsd.pkg.mk"
