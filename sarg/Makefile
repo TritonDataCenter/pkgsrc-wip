@@ -19,6 +19,7 @@ CONFIGURE_ARGS+=	--with-gcc					\
 
 USE_PKGINSTALL=		yes
 
+DIST_SUBDIR=		${DISTNAME}
 PKG_SYSCONFSUBDIR=	sarg
 EGDIR=			${PREFIX}/share/examples/sarg
 EGLNG=			${EGDIR}/languages
