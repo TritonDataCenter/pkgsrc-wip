@@ -2,3 +2,5 @@ $NetBSD$
 
 SHA1 (STonX-0.6.7.6.tar.gz) = fb0705a98393c6334b3e57e76a8d10afb945a857
 Size (STonX-0.6.7.6.tar.gz) = 379738 bytes
+SHA1 (patch-aa) = 23d922a963a0a4007f6743780409e30e2cf975a8
+SHA1 (patch-ab) = 1ca8b052d8d257fc726753b8bb6c5eacba44318c
