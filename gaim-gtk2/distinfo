@@ -1,4 +1,5 @@
-$NetBSD: distinfo,v 1.20 2003/01/09 16:15:08 mycroft Exp $
+$NetBSD$
 
-SHA1 (gaim-0.60.tar.gz) = b84c15f021b081f9c73ba1880ffcb24e035a43a0
-Size (gaim-0.60.tar.gz) = 2989283 bytes
+SHA1 (gaim-0.61.tar.gz) = abfb78a0b81e39ed744fbe0ac088abdd47601f90
+Size (gaim-0.61.tar.gz) = 2959190 bytes
+SHA1 (patch-aa) = 0428b0cd5c97d061b58fe4bf5bc0514a2aa5ce74
