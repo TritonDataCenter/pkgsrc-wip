@@ -6,7 +6,7 @@ CATEGORIES=		pkgtools
 MASTER_SITES=		# empty
 DISTFILES=		# empty
 
-MAINTAINER=		grant@NetBSD.org
+MAINTAINER=		reed@NetBSD.org
 HOMEPAGE=		http://www.NetBSD.org/Documentation/rc/
 COMMENT=		Portable NetBSD rc.subr implementation for pkgsrc
 
