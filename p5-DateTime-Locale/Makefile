@@ -9,6 +9,8 @@ MAINTAINER=	cube@NetBSD.org
 HOMEPAGE=	http://datetime.perl.org/
 COMMENT=	Localization data for p5-DateTime
 
+DEPENDS+=	p5-Module-Build-[0-9]*:../../devel/p5-Module-Build
+
 USE_BUILDLINK3=	YES
 
 .include "../../wip/p5-DateTime/plist.mk"
