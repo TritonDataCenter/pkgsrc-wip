@@ -12,7 +12,7 @@ MAINTAINER=		dotz@irc.pl
 HOMEPAGE=		http://pythonol.sourceforge.net/
 COMMENT=		Gtk-based frontend for several translation services on web
 
-USE_BUILDLINK2=		yes
+USE_BUILDLINK3=		yes
 PY_PATCHPLIST=		yes
 NO_CONFIGURE=		yes
 
@@ -40,5 +40,5 @@ do-install:
 	${INSTALL_SCRIPT} ${WRKSRC}/${SCRIPTNAME} ${PREFIX}/bin
 
 .include "../../lang/python/extension.mk"
-.include "../../x11/py-gtk2/buildlink2.mk"
+.include "../../x11/py-gtk2/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
