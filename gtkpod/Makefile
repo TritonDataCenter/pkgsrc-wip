@@ -6,7 +6,7 @@ CATEGORIES=	audio
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=gtkpod/}
 
 MAINTAINER=	david@dyn-ns.net
-HOMEPAGE=	http://gtkpod.sourceforge.net
+HOMEPAGE=	http://gtkpod.sourceforge.net/
 COMMENT=	GUI for iPod using GTK2
 
 BUILD_USES_MSGFMT=	yes
