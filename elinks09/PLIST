@@ -4,6 +4,7 @@ lib/charset.alias
 man/man1/elinks.1
 man/man5/elinks.conf.5
 man/man5/elinkskeys.5
+${EGDIR}/hooks.lua
 ${PKGLOCALEDIR}/locale/be/LC_MESSAGES/elinks.mo
 ${PKGLOCALEDIR}/locale/bg/LC_MESSAGES/elinks.mo
 ${PKGLOCALEDIR}/locale/ca/LC_MESSAGES/elinks.mo
