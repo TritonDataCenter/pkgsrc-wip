@@ -11,11 +11,15 @@ COMMENT=	Cross-platform gettext catalogs (.po files) editor
 
 DEPENDS+=		zip-[0-9]*:../../archivers/zip
 
+BUILDLINK_DEPENDS.db3=	db3>=3.1
+
 USE_BUILDLINK2=		YES
 GNU_CONFIGURE=		YES
 USE_PKGLOCALEDIR=	YES
 USE_GMAKE=		YES
 USE_X11=		YES
 
+.include "../../databases/db3/buildlink2.mk"
 .include "../../x11/wxGTK/buildlink2.mk"
+
 .include "../../mk/bsd.pkg.mk"
