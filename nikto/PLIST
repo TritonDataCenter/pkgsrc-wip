@@ -1,6 +1,7 @@
 @comment $NetBSD$
 bin/nikto
 share/doc/nikto/CHANGES.txt
+share/nikto/CHANGES.txt
 share/doc/nikto/LICENSE.txt
 share/doc/nikto/README_plugins.txt
 share/doc/nikto/nikto_usage.html

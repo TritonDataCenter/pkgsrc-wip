@@ -26,6 +26,8 @@ do-install:
 	${INSTALL_DATA_DIR} ${PREFIX}/share/nikto/plugins
 	${INSTALL_DATA_DIR} ${PREFIX}/share/examples/nikto
 	${INSTALL_DATA} ${WRKSRC}/docs/*.txt ${PREFIX}/share/doc/nikto
+	${INSTALL_DATA} ${WRKSRC}/docs/CHANGES.txt ${PREFIX}/share/nikto
+	${CHMOD} 0644 ${PREFIX}/share/nikto/CHANGES.txt
 	${INSTALL_DATA} ${WRKSRC}/docs/*.html ${PREFIX}/share/doc/nikto
 	${INSTALL_DATA} ${WRKSRC}/config.txt.sample \
 		${PREFIX}/share/examples/nikto
