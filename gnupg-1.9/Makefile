@@ -20,5 +20,5 @@ USE_GNU_TOOLS+=         make
 .include "../../security/libgpg-error/buildlink3.mk"
 .include "../../security/libgcrypt/buildlink3.mk"
 .include "../libassuan/buildlink3.mk"
-.include "../libksba/buildlink3.mk"
+.include "../../security/libksba/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
