@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=		strace-4.4.94
+DISTNAME=		strace-4.4.98
 CATEGORIES=		devel
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=strace/}
 EXTRACT_SUFX=		.tar.bz2
