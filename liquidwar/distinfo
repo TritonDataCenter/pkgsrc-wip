@@ -2,5 +2,5 @@ $NetBSD$
 
 SHA1 (liquidwar-5.5.9.tar.gz) = 6ee695f58c2709e6f9a5e9fd527ad9913341b440
 Size (liquidwar-5.5.9.tar.gz) = 1674585 bytes
-SHA1 (patch-aa) = 8c6886d201375c6d2081edf8fdfaf3697d503a49
+SHA1 (patch-aa) = aac3007db130acc5e3f81d4efb0809b424bf055b
 SHA1 (patch-ab) = 7b37d0851e341c25c87c377091a20d2b0e9ec29d
