@@ -10,7 +10,7 @@ MAINTAINER=	jrp@hispabsd.org
 HOMEPAGE=	http://www.directfb.org/download/DFBSee/
 COMMENT=	Image viewer for DirectFB
 
-ONLY_FOR_PLATFORM=     Linux-*-*
+ONLY_FOR_PLATFORM=     Linux-*-* NetBSD-*-*
 
 USE_BUILDLINK2=		yes
 GNU_CONFIGURE=		yes

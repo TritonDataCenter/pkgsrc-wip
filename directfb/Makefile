@@ -10,8 +10,7 @@ MAINTAINER=	jrp@hispabsd.org
 HOMEPAGE=	http://www.directfb.org/
 COMMENT=	Thin library that provides hardware graphics acceleration
 
-#XXX DirectFB doesn't work on NetBSD yet at least with Nvidia ...
-ONLY_FOR_PLATFORM=     Linux-*-*
+ONLY_FOR_PLATFORM=     Linux-*-* NetBSD-*-*
 
 GNU_CONFIGURE=	YES
 USE_GMAKE=	YES
