@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	streamripper-1.32
+DISTNAME=	streamripper-1.60
 CATEGORIES=	audio
 MASTER_SITES=	http://streamripper.sourceforge.net/files/
 
@@ -11,6 +11,8 @@ COMMENT=	Splits SHOUTcast stream into tracks
 
 USE_BUILDLINK3=		yes
 GNU_CONFIGURE=		yes
+
+MAKE_ENV+=		SH=${SH:Q}
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/streamripper ${PREFIX}/bin
