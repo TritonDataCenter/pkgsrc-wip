@@ -9,7 +9,7 @@ MAINTAINER=		benedikt.meurer@unix-ag.uni-siegen.de
 HOMEPAGE=		http://devhelp.codefactory.se/
 COMMENT=		Documentation viewer based on GNOME2
 
-DEPENDS+=		gnome2-dirs>=1.0:../../misc/gnome2-dirs
+DEPENDS+=		gnome2-dirs>=1.1:../../misc/gnome2-dirs
 
 USE_BUILDLINK2=		yes
 USE_GMAKE=		yes
