@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		kissme-0.0.32
-CATEGORIES=		wip
+CATEGORIES=		devel
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=kissme/}
 
 MAINTAINER=		pancake@phreaker.net

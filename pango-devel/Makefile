@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		pango-1.4.0
-CATEGORIES=		wip
+CATEGORIES=		devel
 MASTER_SITES=		ftp://ftp.gtk.org/pub/gtk/v2.4/
 EXTRACT_SUFX=		.tar.bz2
 

@@ -4,8 +4,8 @@
 DISTNAME=		swingwt-0.82
 PKGNAME=		java-swingswt-0.82
 WRKSRC=			${WRKDIR}/SwingWT
-CATEGORIES=		wip
-MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=swingwt/}
+CATEGORIES=		sysutils
+MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=swingwt/}
 
 MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://swingwt.sourceforge.net/

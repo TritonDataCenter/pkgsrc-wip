@@ -4,7 +4,7 @@
 DISTNAME=		lposix
 PKGNAME=		luaposix-1.0
 WRKSRC=			${WRKDIR}/posix/
-CATEGORIES=		wip
+CATEGORIES=		devel
 MASTER_SITES=		http://www.tecgraf.puc-rio.br/~lhf/ftp/lua/
 
 MAINTAINER=		pancake@phreaker.net

@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		luacheia5-5.0.1a4
-CATEGORIES=		wip
+CATEGORIES=		devel
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=/luacheia/}
 
 MAINTAINER=		pancake@phreaker.net

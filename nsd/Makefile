@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		nsd-2.0.2
-CATEGORIES=		wip
+CATEGORIES=		net
 MASTER_SITES=		http://www.nlnetlabs.nl/downloads/nsd/
 
 MAINTAINER=		pancake@phreaker.net

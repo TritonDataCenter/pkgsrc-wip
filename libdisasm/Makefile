@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	libdisasm-0.17pre2
-CATEGORIES=	wip
+CATEGORIES=	devel
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=bastard/}
 EXTRACT_SUFX=	.tgz
 

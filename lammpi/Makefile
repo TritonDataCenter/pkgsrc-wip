@@ -1,8 +1,8 @@
 # $NetBSD$
 #
 
-DISTNAME=		lam-7.0.2
-CATEGORIES=		wip
+DISTNAME=	lam-7.0.2
+CATEGORIES=	net
 MASTER_SITES=	http://www.lam-mpi.org/download/files/
 
 MAINTAINER=	adam@monkeybyte.org

@@ -3,7 +3,7 @@
 
 DISTNAME=		luasocket-2.0-alpha
 PKGNAME=		luasocket-2.0alpha
-CATEGORIES=		wip
+CATEGORIES=		net
 MASTER_SITES=		http://www.tecgraf.puc-rio.br/~diego/luasocket/new/
 
 MAINTAINER=		pancake@phreaker.net

@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		n0t-1.87
-CATEGORIES=		wip
+CATEGORIES=		net
 MASTER_SITES=		http://r3b00t.itsec.pl/n0t/
 EXTRACT_SUFX=		.tgz
 

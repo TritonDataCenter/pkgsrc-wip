@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		libassuan-0.6.4
-CATEGORIES=		wip
+CATEGORIES=		security
 MASTER_SITES=		ftp://ftp.gnupg.org/gcrypt/alpha/libassuan/
 
 MAINTAINER=		john@johnrshannon.com
