@@ -23,7 +23,7 @@ SUBST_STAGE.path=post-patch
 SUBST_FILES.path=minimalist.conf-sample
 SUBST_FILES.path+=minimalist.pl
 SUBST_FILES.path+=contrib/minimalist_request.pl
-SUBST_SED.path= -e 's,/usr/local/,${PREFIX},'
+SUBST_SED.path= -e 's,/usr/local,${PREFIX},'
 
 do-build:
 
