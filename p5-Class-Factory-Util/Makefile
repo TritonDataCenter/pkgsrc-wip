@@ -9,6 +9,8 @@ MAINTAINER=	cube@NetBSD.org
 HOMEPAGE=	http://search.cpan.org/dist/Class-Factory-Util/
 COMMENT=	Perl module to help factory classes
 
+PKG_INSTALLATION_TYPES=	overwrite pkgviews
+
 USE_BUILDLINK3=	YES
 PERL5_PACKLIST=	${PERL5_SITEARCH}/auto/Class/Factory/Util/.packlist
 
