@@ -12,10 +12,12 @@ MAINTAINER=		adam@netbsd.org
 HOMEPAGE=		http://www.gimp.org/
 COMMENT=		Image manipulation program similar to Photoshop[tm]
 
-GIMP_VER=		1.3.15
+BUILD_USES_MSGFMT=	yes
+
 CONFLICTS+=		gimp<=1.2.3
 
-BUILD_USES_MSGFMT=	yes
+GIMP_VER=		1.3.15
+
 USE_BUILDLINK2=		yes
 USE_PKGLOCALEDIR=	yes
 USE_X11=		yes
