@@ -9,7 +9,7 @@ MAINTAINER=	tech-pkg@NetBSD.org
 HOMEPAGE=	http://search.cpan.org/dist/SWF-File/
 COMMENT=	Manipulating Flash movie (SWF) files
 
-DEPENDS+=       p5-Data-TemporaryBag-[0-9]*:../../wip/p5-Data-TemporaryBag
+DEPENDS+=       p5-Data-TemporaryBag-[0-9]*:../../devel/p5-Data-TemporaryBag
 
 USE_BUILDLINK3=		yes
 PERL5_PACKLIST=		${PERL5_SITEARCH}/auto/SWF/File/.packlist
