@@ -3,7 +3,6 @@
 
 DISTNAME=	adodb400
 PKGNAME=	adodb-4.00
-WRKSRC=		${WRKDIR}/adodb
 CATEGORIES=	databases www
 MASTER_SITES=	http://phplens.com/lens/dl/
 EXTRACT_SUFX=	.tgz
@@ -14,6 +13,8 @@ COMMENT=	Database class library for PHP4
 
 DEPENDS+=       php>=4.0.5:../../www/php4
 
+WRKSRC=		${WRKDIR}/adodb
+NO_CONFIGURE=	YES
 NO_BUILD=	YES
 
 DOC_FILES=	license.txt readme.htm readme.txt tips_portable_sql.htm \
