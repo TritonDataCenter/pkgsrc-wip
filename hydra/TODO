@@ -1,3 +1,4 @@
 $NetBSD$
 
 Not tested on -current
+patch-ac is not portable enough it needs a few #if's
