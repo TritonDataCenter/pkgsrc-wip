@@ -1,8 +1,8 @@
 # $NetBSD$
 #
 
-DISTNAME=		scite158
-PKGNAME=		scite-1.58
+DISTNAME=		scite159
+PKGNAME=		scite-1.59
 WRKSRC=			${WRKDIR}
 CATEGORIES=		wip
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=scintilla/}
@@ -21,6 +21,7 @@ do-build:
 
 do-install:
 	cd ${WRKSRC}/scite/gtk && ${GMAKE} GTK2=1 install
+	${INSTALL_MAN} ${WRKSRC}/scite/doc/scite.1 ${PREFIX}/man/man1
 
 .include "../../converters/libiconv/buildlink2.mk"
 .include "../../x11/gtk2/buildlink2.mk"

@@ -1,5 +1,6 @@
 @comment $NetBSD$
 bin/SciTE
+man/man1/scite.1
 share/pixmaps/Sci48M.png
 share/scite/Embedded.properties
 share/scite/PrintHi.png
