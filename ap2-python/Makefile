@@ -22,5 +22,5 @@ PYTHON_VERSIONS_ACCEPTED= 23
 .include "../../lang/python/extension.mk"
 .include "../../www/apache2/buildlink3.mk"
 
-.include "../../mk/read.buildlink3.mk"
+.include "../../mk/pthread.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
