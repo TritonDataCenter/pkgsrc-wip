@@ -7,7 +7,7 @@ MAINTAINER=	greyskyy@users.sourceforge.net
 HOMEPAGE=	http://www.thekompany.com/products/kapital/
 COMMENT=	Personal finance manager
 
-USE_BUILDLINK2=	YES
+USE_BUILDLINK3=	YES
 
 DOWNLOAD_PAGE=	http://www.thekompany.com/products/
 
@@ -42,8 +42,8 @@ USE_LIBTOOL=    YES
 LTCONFIG_OVERRIDE=  ${WRKSRC}/ltconfig
 SHLIBTOOL_OVERRIDE=	libtool
 
-.include "../../meta-pkgs/kde3/buildlink2.mk"
-.include "../../x11/kdelibs3/buildlink2.mk"
-.include "../../x11/qt3-tools/buildlink2.mk"
-.include "../../mk/pthread.buildlink2.mk"
+.include "../../meta-pkgs/kde3/kde3.mk"
+.include "../../x11/kdelibs3/buildlink3.mk"
+.include "../../x11/qt3-tools/buildlink3.mk"
+.include "../../mk/pthread.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
