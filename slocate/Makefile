@@ -15,4 +15,9 @@ USE_GNU_TOOLS+=		make
 
 MANCOMPRESSED=		locate.1.gz
 
+pre-configure:
+.for f in aclocal.m4 Makefile.in configure stamp-h.in
+	${TOUCH} ${WRKSRC}/$f
+.endfor
+
 .include "../../mk/bsd.pkg.mk"
