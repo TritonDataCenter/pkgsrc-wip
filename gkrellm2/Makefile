@@ -20,8 +20,6 @@ SPECIAL_PERMS+=		${PREFIX}/bin/gkrellm ${ROOT_USER} kmem 2711
 
 NOT_FOR_PLATFORM=	IRIX-*
 
-.include "../../mk/bsd.prefs.mk"
-
 MAKE_ENV+=		MODULES=src LINK_FLAGS=${EXPORT_SYMBOLS_LDFLAGS}
 
 pre-build:
