@@ -1,0 +1,4 @@
+@comment $NetBSD$
+${EMACS_LISPPREFIX}/php-mode/php-mode.el
+${EMACS_LISPPREFIX}/php-mode/php-mode.elc
+@dirrm ${EMACS_LISPPREFIX}/php-mode
