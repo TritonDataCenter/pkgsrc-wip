@@ -17,7 +17,7 @@ ZAPTEL_KERNEL_ENV?=	# empty
 BUILD_DEFS+=		ZAPTEL_KERNEL_ENV
 MAKE_ENV+=		ZAPTEL_KERNEL_ENV=${ZAPTEL_KERNEL_ENV:Q}
 CONF_FILES=		${PREFIX}/share/examples/zaptel/zaptel.conf \
-			${PKG_SYSCONFDIR}
+			${PKG_SYSCONFDIR}/zaptel.conf
 
 USE_BUILDLINK3=		yes
 
