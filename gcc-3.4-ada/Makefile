@@ -20,12 +20,12 @@ USE_GMAKE=		YES
 HAS_CONFIGURE=		YES
 PTHREAD_OPTS+=  require native
 CONFIGURE_ARGS+=        --enable-languages="c,ada"
-EXTRA_ENV+=     ADAC=/usr/pkg/gcc3/bin/gcc
+EXTRA_ENV+=     ADAC= -- Add path to your Ada compiler here
 CONFIGURE_ENV+= ${EXTRA_ENV}
 MAKE_ENV+=      ${EXTRA_ENV}
 
 # Make location overridable, to allow ping-pong bootstraps.
-GCC3_DEFAULT_SUBPREFIX=	gcc3
+GCC3_DEFAULT_SUBPREFIX=	gcc34
 GCC3_INSTALLTO_SUBPREFIX?=	${GCC3_DEFAULT_SUBPREFIX}
 .if ${GCC3_INSTALLTO_SUBPREFIX} != ${GCC3_DEFAULT_SUBPREFIX}
 GCC3_PKGMODIF=		_${GCC3_INSTALLTO_SUBPREFIX}
