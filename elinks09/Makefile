@@ -16,6 +16,7 @@ GNU_CONFIGURE=		yes
 USE_GMAKE=		yes
 USE_PKGLOCALEDIR=	yes
 
+CONFIGURE_ARGS+=	--without-x
 CONFIGURE_ENV+=		PKGLOCALEDIR=${PKGLOCALEDIR}
 
 .include "../../archivers/bzip2/buildlink2.mk"
