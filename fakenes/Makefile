@@ -13,7 +13,6 @@ COMMENT=		Portable Open Source NES emulator
 BUILD_DEPENDS+=		nasm>=0.98:../../devel/nasm
 
 USE_BUILDLINK3=		yes
-USE_PKGLOCALEDIR=	yes
 USE_GNU_TOOLS+=		make
 GNU_CONFIGURE=		yes
 
