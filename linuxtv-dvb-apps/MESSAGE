@@ -1,0 +1,14 @@
+===========================================================================
+$NetBSD$
+
+To scan channels use:
+	$ scan ${PREFIX}/share/linuxtv-dvb/dvb-[tsc]/[satellite] > \
+		~/.szap/channels.conf 
+
+To sintonize it:
+	$ szap -r "Channel Name"
+
+To view it:
+	$ mplayer /dev/dvb/adapter0/dvr0
+
+===========================================================================
