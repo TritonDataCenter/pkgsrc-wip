@@ -1,0 +1,9 @@
+@comment $NetBSD$
+bin/epeg
+bin/epeg-config
+include/Epeg.h
+lib/libepeg.a
+lib/libepeg.la
+lib/libepeg.so
+lib/libepeg.so.9
+lib/libepeg.so.9.0
