@@ -12,7 +12,6 @@ COMMENT=	Library used by Matchbox
 
 USE_BUILDLINK3=	yes
 USE_LIBTOOL=	yes
-LIBTOOL_LA_FILES+=	lib/libmb.la
 USE_X11=	yes
 GNU_CONFIGURE=	yes
 

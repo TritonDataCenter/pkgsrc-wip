@@ -62,10 +62,7 @@ include/QUANTA/md5.hxx
 include/QUANTA/md5Key_c.hxx
 include/QUANTA/perfmon.hxx
 include/QUANTA/pthread_win.hxx
-lib/libquanta_32.a
 lib/libquanta_32.la
-lib/libquanta_32.so
-lib/libquanta_32.so.0
 share/QUANTA/demos/db/client
 share/QUANTA/demos/db/doc/README.html
 share/QUANTA/demos/db/server

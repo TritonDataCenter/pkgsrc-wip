@@ -22,6 +22,7 @@ include/tilp/types92.h
 include/tilp/types92p.h
 include/tilp/typesv2.h
 include/tilp/typesxx.h
+lib/libtifiles.la
 libdata/pkgconfig/tifiles.pc
 man/man1/tifiles-config.1
 @unexec ${RMDIR} libdata/pkgconfig >/dev/null 2>&1 || ${TRUE}

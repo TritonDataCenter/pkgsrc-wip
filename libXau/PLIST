@@ -1,3 +1,4 @@
 @comment $NetBSD$
 include/X11/Xauth.h
+lib/libXau.la
 lib/pkgconfig/xau.pc

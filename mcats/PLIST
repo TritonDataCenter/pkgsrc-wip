@@ -1,5 +1,8 @@
 @comment $NetBSD$
 bin/mcats
+lib/mcats/libcdinput.la
+lib/mcats/libstdout.la
+lib/mcats/libwii.la
 man/man1/mcats.1
 man/man1/mcats_cdinput.1
 man/man1/mcats_iodbc.1

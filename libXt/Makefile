@@ -25,7 +25,6 @@ USE_BUILDLINK3=		yes
 USE_GNU_TOOLS+=		make
 GNU_CONFIGURE=		yes
 USE_LIBTOOL=		yes
-LIBTOOL_LA_FILES+=	lib/libXt.la
 
 PKGCONFIG_OVERRIDE+=	xt.pc.in
 

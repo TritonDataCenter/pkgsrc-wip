@@ -15,8 +15,6 @@ USE_BUILDLINK3=		YES
 USE_LOCALEDIR=		YES
 GNU_CONFIGURE=		YES
 USE_LIBTOOL=		YES
-LIBTOOL_LA_FILES+=	lib/swami/samplelib_libsndfile.la
-LIBTOOL_LA_FILES+=	lib/swami/wavetbl_fluidsynth.la
 
 LDFLAGS+=		${EXPORT_SYMBOLS_LDFLAGS}
 

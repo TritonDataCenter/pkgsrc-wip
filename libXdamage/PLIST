@@ -1,3 +1,4 @@
 @comment $NetBSD$
 include/X11/extensions/Xdamage.h
+lib/libXdamage.la
 lib/pkgconfig/xdamage.pc

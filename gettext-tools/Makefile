@@ -18,10 +18,6 @@ USE_BUILDLINK3=		yes
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 USE_LIBTOOL=		yes
-LIBTOOL_LA_FILES+=	lib/libgettextlib.la
-LIBTOOL_LA_FILES+=	lib/libgettextpo.la
-LIBTOOL_LA_FILES+=	lib/libgettextsrc.la
-LIBTOOL_LA_FILES+=	lib/libgnuintl.la
 CONFIGURE_ARGS+=	--mandir=${PREFIX}/man
 
 INFO_FILES=		gettext.info

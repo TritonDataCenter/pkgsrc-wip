@@ -1,6 +1,7 @@
 @comment $NetBSD$
 bin/muine
 lib/muine/AmazonSearchService.dll
+lib/muine/libmuine.la
 lib/muine/muine.exe
 share/application-registry/muine.applications
 share/applications/muine.desktop

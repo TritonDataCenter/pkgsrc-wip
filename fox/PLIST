@@ -218,16 +218,8 @@ include/fox-1.2/fxdefs.h
 include/fox-1.2/fxkeys.h
 include/fox-1.2/fxver.h
 include/fox-1.2/xincs.h
-lib/libCHART-1.2.a
 lib/libCHART-1.2.la
-lib/libCHART-1.2.so
-lib/libCHART-1.2.so.0
-lib/libCHART-1.2.so.0.9
-lib/libFOX-1.2.a
 lib/libFOX-1.2.la
-lib/libFOX-1.2.so
-lib/libFOX-1.2.so.0
-lib/libFOX-1.2.so.0.9
 man/man1/PathFinder.1
 man/man1/adie.1
 man/man1/calculator.1

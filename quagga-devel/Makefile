@@ -21,8 +21,6 @@ WRKSRC=		${WRKDIR}/quagga-0.96.5
 USE_BUILDLINK3=		yes
 GNU_CONFIGURE=		# defined
 USE_LIBTOOL=		YES
-LIBTOOL_LA_FILES+=	lib/libospf.la
-LIBTOOL_LA_FILES+=	lib/libzebra.la
 
 PKG_SYSCONFSUBDIR?=	zebra
 CONFIGURE_ARGS+=	--sysconfdir=${PKG_SYSCONFDIR}

@@ -1,5 +1,4 @@
 @comment $NetBSD$
 lib/prelude-manager/db/mysql.la
-lib/prelude-manager/db/mysql.so
 @dirrm lib/prelude-manager/db
 @dirrm lib/prelude-manager

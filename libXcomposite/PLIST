@@ -1,3 +1,4 @@
 @comment $NetBSD$
 include/X11/extensions/Xcomposite.h
+lib/libXcomposite.la
 lib/pkgconfig/xcomposite.pc

@@ -15,7 +15,6 @@ BUILD_DEPENDS+=		bison-[0-9]*:../../devel/bison
 USE_BUILDLINK3=		yes
 USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=		yes
-LIBTOOL_LA_FILES+=	lib/libxbsql.la
 GNU_CONFIGURE=		yes
 
 .include "../../wip/xbase/buildlink3.mk"

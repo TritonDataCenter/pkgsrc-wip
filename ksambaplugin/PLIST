@@ -1,4 +1,6 @@
 @comment $NetBSD$
+lib/kde3/ksambakonqiplugin.la
+lib/kde3/libkcm_kcmsambaconf.la
 share/kde/applnk/Settings/Network/kcmsambaconf.desktop
 share/kde/icons/hicolor/16x16/apps/kcmsambaconf.png
 share/kde/services/ksambakonqiplugin.desktop

@@ -9,11 +9,7 @@ include/Evas.h
 include/Evas_Engine_Buffer.h
 include/Evas_Engine_GL_X11.h
 include/Evas_Engine_Software_X11.h
-lib/libevas.a
 lib/libevas.la
-lib/libevas.so
-lib/libevas.so.1
-lib/libevas.so.1.0
 lib/pkgconfig/evas.pc
 share/evas/data/Vera.ttf
 share/evas/data/VeraBI.ttf

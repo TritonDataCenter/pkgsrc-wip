@@ -5,16 +5,8 @@ bin/edje_cc
 bin/edje_ls
 include/Edje.h
 include/Edje_Edit.h
-lib/libedje.a
 lib/libedje.la
-lib/libedje.so
-lib/libedje.so.5
-lib/libedje.so.5.0
-lib/libedje_edit.a
 lib/libedje_edit.la
-lib/libedje_edit.so
-lib/libedje_edit.so.5
-lib/libedje_edit.so.5.0
 share/edje/data/e_logo.sh
 share/edje/data/images/bg.png
 share/edje/data/images/e.png

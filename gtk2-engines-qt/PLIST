@@ -1,4 +1,5 @@
 @comment $NetBSD$
+lib/gtk-2.0/2.4.0/engines/libqtengine.la
 lib/pkgconfig/gtk-qt-engine-2.pc
 share/themes/Qt/ICON.png
 share/themes/Qt/README.html

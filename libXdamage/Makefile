@@ -13,7 +13,6 @@ COMMENT=		Xdamage extension (Library)
 GNU_CONFIGURE=		yes
 USE_BUILDLINK3=		yes
 USE_LIBTOOL=		yes
-LIBTOOL_LA_FILES+=	lib/libXdamage.la
 
 PKGCONFIG_OVERRIDE+=	xdamage.pc.in
 

@@ -14,7 +14,6 @@ USE_X11=		YES
 USE_GNU_TOOLS+=		make
 
 USE_LIBTOOL=		YES
-LIBTOOL_LA_FILES+=	lib/libfluxspace.la
 
 # Ensure we export symbols in the linked shared object.
 LDFLAGS+=       ${EXPORT_SYMBOLS_LDFLAGS}

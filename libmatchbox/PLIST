@@ -8,5 +8,6 @@ include/libmb/mbmenu.h
 include/libmb/mbpixbuf.h
 include/libmb/mbtray.h
 include/libmb/mbutil.h
+lib/libmb.la
 lib/pkgconfig/libmb.pc
 @dirrm include/libmb

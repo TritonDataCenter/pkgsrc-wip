@@ -1,12 +1,7 @@
 @comment $NetBSD$
 bin/LabPlot
-lib/libLabPlot.a
 lib/libLabPlot.la
-lib/libLabPlotcephes.a
 lib/libLabPlotcephes.la
-lib/libLabPlotcephes.so
-lib/libLabPlotcephes.so.1
-lib/libLabPlotcephes.so.1.0
 share/doc/kde/HTML/de/LabPlot/index.docbook
 share/doc/kde/HTML/de/LabPlot/small_pics
 share/doc/kde/HTML/en/LabPlot/index.docbook

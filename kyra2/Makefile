@@ -14,7 +14,6 @@ COMMENT=		Sprite engine
 USE_BUILDLINK3=		yes
 USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=		yes
-LIBTOOL_LA_FILES+=	lib/libkyra.la
 GNU_CONFIGURE=		yes
 CONFLICTS+=		kyra-*
 

@@ -11,7 +11,6 @@ COMMENT=	Library for importing and exporting WordPerfect(tm) documents
 USE_BUILDLINK3=	YES
 GNU_CONFIGURE=	YES
 USE_LIBTOOL=	YES
-LIBTOOL_LA_FILES+=	lib/libwpd-1.la
 USE_GNU_TOOLS+=	make
 
 .include "../../devel/glib2/buildlink3.mk"

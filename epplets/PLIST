@@ -32,11 +32,7 @@ bin/E-Wireless.epplet
 bin/E-Xss.epplet
 bin/Emix.epplet
 include/epplet.h
-lib/libepplet.a
 lib/libepplet.la
-lib/libepplet.so
-lib/libepplet.so.1
-lib/libepplet.so.1.0
 share/enlightenment/epplet_data/E-Biff/7of9.png
 share/enlightenment/epplet_data/E-Biff/newmail.png
 share/enlightenment/epplet_data/E-Biff/nomail.png

@@ -14,9 +14,6 @@ share/pointless/lib/python/pointless/eps.pyc
 share/pointless/lib/python/pointless/gnuplot.py
 share/pointless/lib/python/pointless/gnuplot.pyc
 share/pointless/lib/python/pointless/libpointless.la
-share/pointless/lib/python/pointless/libpointless.so
-share/pointless/lib/python/pointless/libpointless.so.0
-share/pointless/lib/python/pointless/libpointless.so.0.0
 share/pointless/lib/python/pointless/merger.py
 share/pointless/lib/python/pointless/merger.pyc
 share/pointless/lib/python/pointless/metapost.py

@@ -1,6 +1,4 @@
 @comment $NetBSD$
 bin/umix
-man/man1/umix.1
-${GTK}lib/umix/libuigtk.a
 ${GTK}lib/umix/libuigtk.la
-${GTK}lib/umix/libuigtk.so
+man/man1/umix.1

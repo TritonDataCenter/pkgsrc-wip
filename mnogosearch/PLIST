@@ -42,7 +42,6 @@ include/udm_utils.h
 include/udm_word.h
 include/udm_xmalloc.h
 include/udmsearch.h
-lib/libudmsearch.a
 lib/libudmsearch.la
 man/man1/indexer.1
 man/man5/indexer.conf.5

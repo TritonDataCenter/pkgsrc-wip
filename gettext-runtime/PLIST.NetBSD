@@ -1,4 +1,5 @@
 @comment $NetBSD$
 include/libintl.h
 lib/charset.alias
+lib/libintl.la
 ${PKGLOCALEDIR}/locale/locale.alias

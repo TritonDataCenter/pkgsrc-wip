@@ -3,11 +3,7 @@ bin/embryo
 bin/embryo-config
 bin/embryo_cc
 include/Embryo.h
-lib/libembryo.a
 lib/libembryo.la
-lib/libembryo.so
-lib/libembryo.so.9
-lib/libembryo.so.9.0
 lib/pkgconfig/embryo.pc
 share/embryo/examples/example.inc
 share/embryo/examples/example.sma

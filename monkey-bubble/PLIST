@@ -3,6 +3,11 @@ bin/gsttest
 bin/monkey-bubble
 bin/monkey-srv
 etc/gconf/schemas/monkey-bubble.schemas
+lib/libgdkview.la
+lib/libgstaudio.la
+lib/libmonkey.la
+lib/libmonkeyutil.la
+lib/libnetcltmonkey.la
 share/applications/monkey-bubble.desktop
 ${PKGLOCALEDIR}/locale/de/LC_MESSAGES/monkey-bubble.mo
 ${PKGLOCALEDIR}/locale/fr/LC_MESSAGES/monkey-bubble.mo

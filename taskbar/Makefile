@@ -12,8 +12,6 @@ COMMENT=		Panel for X11 for menu and to show windows
 USE_BUILDLINK3=		yes
 USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=		yes
-LIBTOOL_LA_FILES+=	share/taskbar/libclock.la
-LIBTOOL_LA_FILES+=	share/taskbar/libsensors.la
 LIBTOOL_OVERRIDE=	${WRKSRC}/libtool
 GNU_CONFIGURE=		yes
 

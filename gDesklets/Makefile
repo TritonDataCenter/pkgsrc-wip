@@ -13,9 +13,6 @@ USE_BUILDLINK3=	YES
 GNU_CONFIGURE=	YES
 USE_GNU_TOOLS+=	make
 USE_LIBTOOL=	YES
-LIBTOOL_LA_FILES+=	share/gdesklets/libdesklets/_glibtopmodule.la
-LIBTOOL_LA_FILES+=	share/gdesklets/utils/_ewmhmodule.la
-LIBTOOL_LA_FILES+=	share/gdesklets/utils/_systraymodule.la
 USE_X11=	YES
 
 PKGCONFIG_OVERRIDE=	gdesklets-core.pc.in

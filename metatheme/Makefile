@@ -16,12 +16,6 @@ USE_DIRS+=		xdg-1.1
 USE_PKGLOCALEDIR=	yes
 BUILD_USES_MSGFMT=	yes
 USE_LIBTOOL=		yes
-LIBTOOL_LA_FILES+=	lib/libmtm.la
-LIBTOOL_LA_FILES+=	lib/metatheme/plugins/${PKGVERSION}/libbgplugin.la
-LIBTOOL_LA_FILES+=	lib/metatheme/plugins/${PKGVERSION}/libgtkplugin1.la
-LIBTOOL_LA_FILES+=	lib/metatheme/plugins/${PKGVERSION}/libgtkplugin2.la
-LIBTOOL_LA_FILES+=	lib/metatheme/plugins/${PKGVERSION}/libnautilus.la
-LIBTOOL_LA_FILES+=	lib/metatheme/plugins/${PKGVERSION}/libsawfish.la
 GNU_CONFIGURE=		yes
 
 .include "../../devel/GConf2/buildlink3.mk"

@@ -1,3 +1,4 @@
 @comment $NetBSD$
 bin/xql
 include/xbsql.h
+lib/libxbsql.la

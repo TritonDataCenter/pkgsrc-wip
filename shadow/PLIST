@@ -12,9 +12,7 @@ bin/newgrp
 bin/passwd
 bin/sg
 bin/su
-lib/libmisc.a
 lib/libmisc.la
-lib/libshadow.a
 lib/libshadow.la
 man/cs/man5/passwd.5
 man/cs/man5/shadow.5

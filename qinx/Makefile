@@ -12,9 +12,6 @@ COMMENT=	Widget style and window decoration for KDE3
 GNU_CONFIGURE=		YES
 USE_BUILDLINK3=		YES
 USE_LIBTOOL=		YES
-LIBTOOL_LA_FILES+=	lib/kde3/kwin_qinx.la
-LIBTOOL_LA_FILES+=	lib/kde3/kwin_qinx_config.la
-LIBTOOL_LA_FILES+=	lib/kde3/plugins/styles/qinx.la
 USE_GNU_TOOLS+=		make
 USE_X11=		YES
 

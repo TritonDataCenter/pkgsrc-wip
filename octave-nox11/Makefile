@@ -30,9 +30,6 @@ USE_GNU_TOOLS+=		make
 USE_GNU_READLINE=	yes
 USE_MAKEINFO=		yes
 USE_LIBTOOL=		yes
-LIBTOOL_LA_FILES+=	lib/libcruft.la
-LIBTOOL_LA_FILES+=	lib/liboctave.la
-LIBTOOL_LA_FILES+=	lib/liboctinterp.la
 LTCONFIG_OVERRIDE=	${WRKSRC}/ltconfig
 GNU_CONFIGURE=		yes
 

@@ -16,7 +16,6 @@ WRKSRC=			${WRKDIR}/kyra
 USE_BUILDLINK3=		yes
 USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=		yes
-LIBTOOL_LA_FILES+=	lib/libkyra.la
 GNU_CONFIGURE=		yes
 
 .include "../../devel/SDL/buildlink3.mk"

@@ -12,11 +12,6 @@ COMMENT=		Bust'a'move clone written in C for GNOME2
 USE_BUILDLINK3=		yes
 USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=		yes
-LIBTOOL_LA_FILES+=	lib/libgdkview.la
-LIBTOOL_LA_FILES+=	lib/libgstaudio.la
-LIBTOOL_LA_FILES+=	lib/libmonkey.la
-LIBTOOL_LA_FILES+=	lib/libmonkeyutil.la
-LIBTOOL_LA_FILES+=	lib/libnetcltmonkey.la
 GNU_CONFIGURE=		yes
 USE_GNU_TOOLS+=		make
 

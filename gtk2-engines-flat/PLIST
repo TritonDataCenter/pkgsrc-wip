@@ -1,4 +1,5 @@
 @comment $NetBSD$
+lib/gtk-2.0/2.4.0/engines/libflat.la
 share/themes/Flat/ICON.png
 share/themes/Flat/README.html
 share/themes/Flat/gtk-2.0/gtkrc

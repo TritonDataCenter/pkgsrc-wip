@@ -12,11 +12,8 @@ ${MINGW_TARGET}/bin/cc
 ${MINGW_TARGET}/bin/cpp
 ${MINGW_TARGET}/bin/g++
 ${MINGW_TARGET}/bin/gcc
-${MINGW_TARGET}/lib/libobjc.a
 ${MINGW_TARGET}/lib/libobjc.la
-${MINGW_TARGET}/lib/libstdc++.a
 ${MINGW_TARGET}/lib/libstdc++.la
-${MINGW_TARGET}/lib/libsupc++.a
 ${MINGW_TARGET}/lib/libsupc++.la
 include/c++/3.3.1/algorithm
 include/c++/3.3.1/backward/algo.h

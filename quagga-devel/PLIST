@@ -42,6 +42,8 @@ include/quagga/version.h
 include/quagga/vty.h
 include/quagga/zclient.h
 include/quagga/zebra.h
+lib/libospf.la
+lib/libzebra.la
 man/man1/vtysh.1
 man/man8/bgpd.8
 man/man8/ospf6d.8

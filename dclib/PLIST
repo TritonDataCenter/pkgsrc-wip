@@ -54,7 +54,5 @@ include/dclib/dcobject.h
 include/dclib/dcos.h
 include/dclib/hash/tiger.h
 include/dclib/hash/tigertree.h
-lib/libdc.a
 lib/libdc.la
-lib/libdc.so.0.1
 lib/pkgconfig/dclib.pc

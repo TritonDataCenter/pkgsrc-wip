@@ -22,6 +22,10 @@ lib/gettext/hostname
 lib/gettext/project-id
 lib/gettext/urlget
 lib/gettext/user-email
+lib/libgettextlib.la
+lib/libgettextpo.la
+lib/libgettextsrc.la
+lib/libgnuintl.la
 lib/preloadable_libintl.so
 share/aclocal/codeset.m4
 share/aclocal/gettext.m4

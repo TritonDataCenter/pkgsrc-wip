@@ -7,6 +7,9 @@ include/matchbox-desktop/mbdesktop_view.h
 lib/pkgconfig/matchbox-desktop.pc
 share/applications/mb-show-desktop.desktop
 share/matchbox-desktop/mbdesktop_modules
+share/matchbox/desktop/modules/dotdesktop.la
+share/matchbox/desktop/modules/simplefilebrowser.la
+share/matchbox/desktop/modules/tasks.la
 share/pixmaps/mbdesktop.png
 @dirrm share/matchbox/desktop/modules
 @dirrm share/matchbox/desktop

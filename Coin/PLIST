@@ -667,8 +667,6 @@ include/Inventor/threads/SbTypedStorage.h
 include/SoWinEnterScope.h
 include/SoWinLeaveScope.h
 lib/libCoin.la
-lib/libCoin.so
-lib/libCoin.so.42
 man/man1/coin-config.1
 share/Coin/conf/coin-default.cfg
 share/Coin/draggerDefaults/centerballDragger.iv

@@ -3,9 +3,7 @@ bin/amarok
 bin/amarok_xmmswrapper
 bin/amarokapp
 lib/kde3/libamarok_artsengine_plugin.la
-lib/kde3/libamarok_artsengine_plugin.so
 lib/libamarokarts.la
-lib/libamarokarts.so
 lib/mcop/Amarok/RawScope.mcopclass
 lib/mcop/Amarok/Synth_STEREO_XFADE.mcopclass
 lib/mcop/amarokarts.mcopclass

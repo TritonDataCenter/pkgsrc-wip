@@ -13,7 +13,6 @@ COMMENT=		X Resource usage library
 
 USE_BUILDLINK3=		yes
 USE_LIBTOOL=		yes
-LIBTOOL_LA_FILES+=	lib/libXRes.la
 GNU_CONFIGURE=		yes
 
 PKGCONFIG_OVERRIDE+=	xres.pc.in

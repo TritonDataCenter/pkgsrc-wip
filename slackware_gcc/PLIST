@@ -96,7 +96,6 @@ ${EMULSUBDIR}/usr/lib/gcc-lib/i486-slackware-linux/3.3.3/libgcc.a
 ${EMULSUBDIR}/usr/lib/gcc-lib/i486-slackware-linux/3.3.3/libgcc_eh.a
 ${EMULSUBDIR}/usr/lib/gcc-lib/i486-slackware-linux/3.3.3/specs
 ${EMULSUBDIR}/usr/lib/libffi-2.00-beta.so
-${EMULSUBDIR}/usr/lib/libffi.a
 ${EMULSUBDIR}/usr/lib/libffi.la
 ${EMULSUBDIR}/usr/lib/libgcc_s.so.1
 ${EMULSUBDIR}/usr/man/man1/cpp.1.gz

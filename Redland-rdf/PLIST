@@ -29,11 +29,7 @@ include/rdf_types.h
 include/rdf_uri.h
 include/rdf_utf8.h
 include/redland.h
-lib/librdf.a
 lib/librdf.la
-lib/librdf.so
-lib/librdf.so.0
-lib/librdf.so.0.0
 lib/perl5/5.6.1/${MACHINE_ARCH}-${LOWER_OPSYS}/perllocal.pod
 lib/perl5/site_perl/5.6.1/${MACHINE_ARCH}-${LOWER_OPSYS}/auto/RDF/Redland/CORE/.packlist
 lib/perl5/site_perl/5.6.1/${MACHINE_ARCH}-${LOWER_OPSYS}/auto/RDF/Redland/CORE/CORE.bs

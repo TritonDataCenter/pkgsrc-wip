@@ -19,6 +19,8 @@ include/reiserfs/path.h
 include/reiserfs/reiserfs.h
 include/reiserfs/tools.h
 include/reiserfs/tree.h
+lib/libdal.la
+lib/libreiserfs.la
 man/man8/cpfs.reiserfs.8
 man/man8/mkfs.reiserfs.8
 man/man8/reiserfs.8

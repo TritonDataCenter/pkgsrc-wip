@@ -13,6 +13,7 @@ include/tilp/pause.h
 include/tilp/ticalcs.h
 include/tilp/tikeys.h
 include/tilp/update.h
+lib/libticalcs-4.la
 libdata/pkgconfig/ticalcs-4.pc
 man/man1/ticalcs-config.1
 @unexec ${RMDIR} libdata/pkgconfig >/dev/null 2>&1 || ${TRUE}

@@ -16,14 +16,12 @@ CONFLICTS=	gettext-[0-9]*
 # maybe should be !Linux
 .if ${OPSYS} == "NetBSD"
 CONFLICTS+=		gettext-lib-[0-9]*
-LIBTOOL_LA_FILES+=	lib/libintl.la
 .endif
 
 USE_BUILDLINK3=		yes
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 USE_LIBTOOL=		yes
-LIBTOOL_LA_FILES+=	lib/libasprintf.la
 CONFIGURE_ARGS+=	--mandir=${PREFIX}/man
 
 INFO_FILES=		autosprintf.info

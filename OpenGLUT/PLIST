@@ -3,6 +3,7 @@ include/GL/openglut.h
 include/GL/openglut_exp.h
 include/GL/openglut_ext.h
 include/GL/openglut_std.h
+lib/libopenglut.la
 man/cat3/glutAddMenuEntry.0
 man/cat3/glutAddSubMenu.0
 man/cat3/glutAttachMenu.0

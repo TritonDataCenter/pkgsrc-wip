@@ -34,6 +34,7 @@ include/alsa/sound/sscape_ioctl.h
 include/alsa/timer.h
 include/alsa/version.h
 include/sys/asoundlib.h
+lib/libasound.la
 lib/pkgconfig/alsa.pc
 share/aclocal/alsa.m4
 share/alsa/alsa.conf

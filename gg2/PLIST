@@ -1,6 +1,13 @@
 @comment $NetBSD$
 bin/gg2
 include/gg2_core.h
+lib/gg2/libGUI_plugin.la
+lib/gg2/libgadu_gadu_plugin.la
+lib/gg2/libsms_plugin.la
+lib/gg2/libsound_oss_plugin.la
+lib/gg2/libtlen_plugin.la
+lib/gg2/libxosd_plugin.la
+lib/libgg2_core.la
 lib/pkgconfig/gg2_core.pc
 share/gg2/pixmaps/arrow.png
 share/gg2/pixmaps/away.png

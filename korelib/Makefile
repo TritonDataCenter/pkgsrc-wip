@@ -10,8 +10,6 @@ COMMENT=	Cross-platform C++ library for developing modular applications
 
 GNU_CONFIGURE=	YES
 USE_LIBTOOL=	YES
-LIBTOOL_LA_FILES+=	lib/libkore.la
-LIBTOOL_LA_FILES+=	lib/libkoretest.la
 LTCONFIG_OVERRIDE=	${WRKSRC}/ltconfig
 
 pre-configure:

@@ -12,7 +12,6 @@ COMMENT=		Xfont extension (Library)
 
 USE_BUILDLINK3=		yes
 USE_LIBTOOL=		yes
-LIBTOOL_LA_FILES+=	lib/libXfont.la
 GNU_CONFIGURE=		yes
 
 PKGCONFIG_OVERRIDE+=	xfont.pc.in

@@ -13,7 +13,6 @@ COMMENT=		Database of TI calculator model information
 WRKSRC=			${WRKDIR}/${PKGNAME}
 
 USE_LIBTOOL=		YES
-LIBTOOL_LA_FILES+=	lib/libticalcs-4.la
 GNU_CONFIGURE=		YES
 CONFIGURE_ARGS+=	--disable-nls
 USE_GNU_TOOLS+=		make

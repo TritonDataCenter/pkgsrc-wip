@@ -13,7 +13,6 @@ GNU_CONFIGURE=		YES
 USE_BUILDLINK3=		YES
 
 USE_LIBTOOL=		YES
-LIBTOOL_LA_FILES+=	lib/gtk-2.0/2.4.0/engines/libmist.la
 GNU_CONFIGURE=		YES
 
 .include "../../x11/gtk2/buildlink3.mk"

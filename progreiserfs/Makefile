@@ -11,8 +11,6 @@ COMMENT=	Library to manipulate reiserfs filesystems
 
 USE_BUILDLINK3=	yes
 USE_LIBTOOL=	yes
-LIBTOOL_LA_FILES+=	lib/libdal.la
-LIBTOOL_LA_FILES+=	lib/libreiserfs.la
 GNU_CONFIGURE=	yes
 
 .include "../../mk/bsd.pkg.mk"

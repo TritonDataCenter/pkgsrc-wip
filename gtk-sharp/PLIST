@@ -10,6 +10,12 @@ bin/gapi_format_xml
 bin/gapi_pp.pl
 bin/gconfsharp-schemagen
 bin/gconfsharp-schemagen.exe
+lib/libgdksharpglue.la
+lib/libgladesharpglue.la
+lib/libglibsharpglue.la
+lib/libgnomesharpglue.la
+lib/libgtksharpglue.la
+lib/libpangosharpglue.la
 lib/mono/gac/art-sharp/1.0.0.0__35e10195dab3c99f/art-sharp.dll
 lib/mono/gac/art-sharp/1.0.0.0__35e10195dab3c99f/art-sharp.dll.config
 lib/mono/gac/atk-sharp/1.0.0.0__35e10195dab3c99f/atk-sharp.dll
