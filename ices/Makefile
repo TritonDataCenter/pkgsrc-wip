@@ -17,7 +17,7 @@ CONFIGURE_ARGS+=	--with-lame=${BUILDLINK_PREFIX.lame} \
 			--with-docdir=${LOCALBASE}/share/doc/ices \
 			--with-libshout=${BUILDLINK_PREFIX.libshout}
 
-.include "../../wip/libshout/buildlink2.mk"
+.include "../../audio/libshout/buildlink2.mk"
 .include "../../textproc/libxml2/buildlink2.mk"
 .include "../../lang/perl5/buildlink2.mk"
 .include "../../audio/lame/buildlink2.mk"
