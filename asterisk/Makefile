@@ -2,6 +2,7 @@
 #
 
 DISTNAME=		asterisk-1.0.7
+PKGREVISION=		1
 CATEGORIES=		wip
 MASTER_SITES=		ftp://ftp.asterisk.org/pub/asterisk/ \
 			ftp://ftp.asterisk.org/pub/asterisk/old-releases/
@@ -33,7 +34,7 @@ ASTHEADERDIR?=${PREFIX}/include/asterisk
 ASTCONFPATH?=${ASTETCDIR}/asterisk.conf
 ASTBINDIR?=${PREFIX}/bin
 ASTSBINDIR?=${PREFIX}/sbin
-ASTVARRUNDIR?=${VARBASE}/run/asterisk
+ASTVARRUNDIR?=${VARBASE}/run
 ASTMANDIR?=${PREFIX}/man
 ASTEXAMPLEDIR?=${PREFIX}/share/examples/asterisk
 
