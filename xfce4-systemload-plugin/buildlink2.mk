@@ -9,7 +9,7 @@
 XFCE4_SYSTEMLOAD_PLUGIN_BUILDLINK2_MK=	# defined
 
 BUILDLINK_PACKAGES+=			xfce4-systemload-plugin
-BUILDLINK_DEPENDS.xfce4-systemload-plugin?=		xfce4-systemload-plugin>=0.3.1
+BUILDLINK_DEPENDS.xfce4-systemload-plugin?=		xfce4-systemload-plugin>=0.3.2
 BUILDLINK_PKGSRCDIR.xfce4-systemload-plugin?=		../../wip/xfce4-systemload-plugin
 
 EVAL_PREFIX+=	BUILDLINK_PREFIX.xfce4-systemload-plugin=xfce4-systemload-plugin
