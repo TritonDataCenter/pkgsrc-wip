@@ -6,7 +6,7 @@ CATEGORIES=		sysutils devel
 MASTER_SITES=		ftp://ftp.pld.org.pl/software/shadow/
 EXTRACT_SUFX=		.tar.bz2
 
-MAINTAINER=		packages@netbsd.org
+MAINTAINER=		tech-pkg@NetBSD.org
 HOMEPAGE=		http://shadow.pld.org.pl/
 COMMENT=		User administration and passwd database tools for Linux
 
