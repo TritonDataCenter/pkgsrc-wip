@@ -10,7 +10,7 @@ SVGALIB_BUILDLINK2_MK=	# defined
 
 BUILDLINK_PACKAGES+=			svgalib
 BUILDLINK_DEPENDS.svgalib?=		svgalib>=1.4.2
-BUILDLINK_PKGSRCDIR.svgalib?=		../../graphics/svgalib
+BUILDLINK_PKGSRCDIR.svgalib?=		../../wip/svgalib
 
 EVAL_PREFIX+=	BUILDLINK_PREFIX.svgalib=svgalib
 BUILDLINK_PREFIX.svgalib_DEFAULT=	${LOCALBASE}
