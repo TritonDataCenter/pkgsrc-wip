@@ -1,8 +1,8 @@
 # $NetBSD$
 #
 
-DISTNAME=		jabberd-2.0b2
-PKGNAME=		${DISTNAME:S/d-2.0b1/d2-2.0beta2/}
+DISTNAME=		jabberd-2.0b3
+PKGNAME=		${DISTNAME:S/d-2.0b/d2-2.0beta/}
 CATEGORIES=		chat
 MASTER_SITES=		http://www.jabberstudio.org/files/jabberd2/
 
