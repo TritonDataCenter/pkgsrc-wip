@@ -13,4 +13,3 @@ share/examples/jabberd/router.xml
 share/examples/jabberd/s2s.xml
 share/examples/jabberd/sm.xml
 @dirrm share/examples/jabberd
-@dirrm etc/jabberd
