@@ -13,7 +13,5 @@ USE_BUILDLINK3=		yes
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 
-DEPENDS+=	bluez-libs>=2.15:../../wip/bluez-libs
-
 .include "../../wip/bluez-libs/Makefile.common"
 .include "../../mk/bsd.pkg.mk"
