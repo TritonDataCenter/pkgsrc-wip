@@ -12,13 +12,5 @@ USE_BUILDLINK3=	YES
 GNU_CONFIGURE=	YES
 USE_GNU_TOOLS+=	make
 
-CONF_FILES=	${PREFIX}/etc/php.ini
-
-BUILD_DEFS=	USE_INET6 PHP5_WITHOUT_NETWORK
-
-post-install:
-	${INSTALL_DATA} ${WRKSRC}/php.ini-recommended \
-		${PREFIX}/etc/php.ini
-
 .include "Makefile.common"
 .include "../../mk/bsd.pkg.mk"
