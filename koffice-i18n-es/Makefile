@@ -1,7 +1,6 @@
 # $NetBSD$
 
 DISTNAME=		koffice-i18n-es-1.3.3
-#WRKSRC=         ${WRKDIR}/koffice-i18n-es
 CATEGORIES=		x11
 MASTER_SITES=	ftp://ftp.kde.org/pub/kde/stable/koffice-1.3.3/src/
 EXTRACT_SUFX=	.tar.bz2
