@@ -6,7 +6,7 @@ PKGNAME=	p5-${DISTNAME}
 CATEGORIES=	net
 MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=Net/}
 
-MAINTAINER=	jrp@hispabsd.org
+MAINTAINER=	packages@netbsd.org
 HOMEPAGE=	http://www.jabber.org/
 COMMENT=	Provide a Perl Developer access to the Jabber protocol
 
