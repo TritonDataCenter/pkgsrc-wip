@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	tcpflow-0.20
-CATEGORIES=	security net
+CATEGORIES=	net security
 MASTER_SITES=	http://www.circlemud.org/pub/jelson/tcpflow/
 
 MAINTAINER=	adrianp@stindustries.net
@@ -12,4 +12,5 @@ COMMENT=	Captures data transmitted as part of TCP connections
 USE_BUILDLINK2=	YES
 GNU_CONFIGURE=	YES
 
+.include "../../net/libpcap/buildlink2.mk"
 .include "../../mk/bsd.pkg.mk"
