@@ -2,3 +2,4 @@ $NetBSD$
 
 SHA1 (e2fsprogs-1.35.tar.gz) = cad214c4a18a2f6a3c832f9d5c08a9eb1fe69842
 Size (e2fsprogs-1.35.tar.gz) = 3152299 bytes
+SHA1 (patch-aa) = a7f0e972c0d92de98ab8e7d225372a1ab8985568

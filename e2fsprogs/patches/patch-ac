@@ -1,7 +1,7 @@
 $NetBSD$
 
---- ./lib/ext2fs/getsize.c.orig	Tue Mar  2 17:01:12 2004
-+++ ./lib/ext2fs/getsize.c	Tue Mar  2 17:04:56 2004
+--- lib/ext2fs/getsize.c.orig	Tue Mar  2 17:01:12 2004
++++ lib/ext2fs/getsize.c	Tue Mar  2 17:04:56 2004
 @@ -152,7 +152,7 @@
  	}
  #endif
