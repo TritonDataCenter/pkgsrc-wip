@@ -93,6 +93,8 @@ share/libfwbuilder/migration/0.9.3/FWObjectDatabase.xslt
 share/libfwbuilder/migration/0.9.4/FWObjectDatabase.xslt
 share/libfwbuilder/migration/0.9.5/FWObjectDatabase.xslt
 share/libfwbuilder/migration/1.0.0/FWObjectDatabase.xslt
+share/libfwbuilder/migration/1.0.1/FWObjectDatabase.xslt
+@dirrm share/libfwbuilder/migration/1.0.1
 @dirrm share/libfwbuilder/migration/1.0.0
 @dirrm share/libfwbuilder/migration/0.9.5
 @dirrm share/libfwbuilder/migration/0.9.4
