@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		gwenview-1.1.3
+DISTNAME=		gwenview-1.1.4
 CATEGORIES=		kde graphics
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=gwenview/}
 EXTRACT_SUFX=	.tar.bz2
