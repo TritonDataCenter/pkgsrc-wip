@@ -126,4 +126,5 @@ do-install:
 
 .include "../../databases/p5-DBI/buildlink3.mk"
 .include "../../mk/mysql.buildlink3.mk"
+.include "../../mk/apache.mk"
 .include "../../mk/bsd.pkg.mk"
