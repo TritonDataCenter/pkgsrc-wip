@@ -10,7 +10,7 @@ MAINTAINER=	recht@NetBSD.org
 HOMEPAGE=	http://www.modpython.org/
 COMMENT=	Module that embeds the Python interpreter within the server
 
-USE_BUILDLINK2=		yes
+USE_BUILDLINK3=		yes
 PY_PATCHPLIST=		yes
 APACHE_MODULE=		yes
 GNU_CONFIGURE=		yes
@@ -20,6 +20,6 @@ CONFIGURE_ARGS+=	--with-python=${PYTHONBIN}
 PYTHON_VERSIONS_ACCEPTED= 23pth
 
 .include "../../lang/python/extension.mk"
-.include "../../www/apache2/buildlink2.mk"
+.include "../../www/apache2/buildlink3.mk"
 
 .include "../../mk/bsd.pkg.mk"

@@ -10,7 +10,7 @@ MAINTAINER=		tv@duh.org
 HOMEPAGE=		http://dominia.org/djao/limitipconn2.html
 COMMENT=		Limits per-IP connections to an Apache 2 server
 
-USE_BUILDLINK2=		yes
+USE_BUILDLINK3=		yes
 
 MAKE_FLAGS+=		APXS=${APXS:Q}
 
@@ -18,5 +18,5 @@ post-install:
 	${INSTALL_DATA_DIR} ${PREFIX}/share/doc/mod_limitipconn
 	${INSTALL_DATA} ${WRKSRC}/README ${PREFIX}/share/doc/mod_limitipconn/
 
-.include "../../www/apache2/buildlink2.mk"
+.include "../../www/apache2/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
