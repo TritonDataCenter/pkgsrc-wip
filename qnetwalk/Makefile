@@ -22,7 +22,7 @@ QNETWALK_DATA=	${PREFIX}/share/games/${PKGBASE}
 
 # Should we care about Qt3 package paths here ?
 do-configure:
-	(cd ${WRKSRC} && qmake)
+	(cd ${WRKSRC} && ${QTDIR}/bin/qmake -o Makefile qnetwalk.pro)
 
 # Fix hardcoded paths
 SUBST_CLASSES=		path
