@@ -22,10 +22,12 @@ cyrus/bin/imapd
 cyrus/bin/ipurge
 cyrus/bin/lmtpd
 cyrus/bin/lmtpproxyd
+cyrus/bin/masssievec
 cyrus/bin/master
 cyrus/bin/mbexamine
 cyrus/bin/mbpath
 cyrus/bin/mkimap
+cyrus/bin/mknewsgroups
 cyrus/bin/mupdate
 cyrus/bin/notifyd
 cyrus/bin/pop3d
