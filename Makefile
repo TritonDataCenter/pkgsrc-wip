@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.646 2003/11/22 17:57:23 blef Exp $
+# $Id: Makefile,v 1.647 2003/11/22 18:59:27 mpasternak Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -437,6 +437,7 @@ SUBDIR+=	py-spreadmodule
 SUBDIR+=	py-twisted
 SUBDIR+=	py-vorbis
 SUBDIR+=	py-willow
+SUBDIR+=	py-weave
 SUBDIR+=	py-zsi
 SUBDIR+=	py23-html-docs
 SUBDIR+=	pysite
