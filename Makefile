@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.1350 2004/06/26 23:57:41 adrian_p Exp $
+# $Id: Makefile,v 1.1351 2004/06/27 00:07:25 xtraeme Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -243,9 +243,6 @@ SUBDIR+=	icc
 SUBDIR+=	icc8
 SUBDIR+=	icecast
 SUBDIR+=	ices
-SUBDIR+=	icewm
-SUBDIR+=	icewm-gnome
-SUBDIR+=	icewm-imlib
 SUBDIR+=	icmpchat
 SUBDIR+=	idled
 SUBDIR+=	ifstat
