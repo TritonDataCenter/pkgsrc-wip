@@ -7,7 +7,4 @@ share/themes/ThinIce/README.html
 share/themes/ThinIce/gtk/gtkrc
 @dirrm share/themes/ThinIce/gtk
 @dirrm share/themes/ThinIce
-@dirrm share/themes
 @dirrm lib/gtk/themes/engines
-@dirrm lib/gtk/themes
-@dirrm lib/gtk

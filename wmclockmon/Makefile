@@ -9,7 +9,7 @@ MAINTAINER=	poff@sixbit.org
 HOMEPAGE=	http://tnemeth.free.fr/projets/dockapps.html
 COMMENT=	Windowmaker dockapp for time/date
 
-USE_BUILDLINK2= yes
+USE_BUILDLINK3= yes
 USE_X11=	yes
 GNU_CONFIGURE=	yes
 
@@ -17,5 +17,5 @@ post-install:
 	${INSTALL_DATA_DIR} ${PREFIX}/share/examples/wmclockmon
 	${INSTALL_DATA} ${WRKSRC}/doc/sample.wmclockmonrc ${PREFIX}/share/examples/wmclockmon
 
-.include "../../x11/gtk/buildlink2.mk"
+.include "../../x11/gtk/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
