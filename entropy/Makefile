@@ -18,9 +18,9 @@ GNU_CONFIGURE=		yes
 USE_BUILDLINK2=		yes
 USE_GMAKE=		yes
 
-ENTROPY_VERSION=	0.5.8-345
+ENTROPY_VERSION=	0.5.9-346
 
-CONFIGURE_ARGS+=	--enable-verbose --disable-debug
+CONFIGURE_ARGS+=	--enable-verbose
 
 post-patch:
 	${SED} -e '/^# /!s/^#//' <${WRKSRC}/seed.txt-dist >${WRKSRC}/seed.txt
