@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.498 2003/09/25 14:24:15 xtraeme Exp $
+# $Id: Makefile,v 1.499 2003/09/25 16:09:48 xtraeme Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -80,7 +80,6 @@ SUBDIR+=	darcnes-svgalib
 SUBDIR+=	darkice
 SUBDIR+=	dasm
 SUBDIR+=	dbf
-SUBDIR+=	devhelp
 SUBDIR+=	dfbpoint
 SUBDIR+=	dfbsee
 SUBDIR+=	dfm
