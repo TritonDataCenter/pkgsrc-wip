@@ -3,14 +3,16 @@
 
 DISTNAME=		vche-1.7.2
 CATEGORIES=		wip editors
-MASTER_SITES=		http://www.grigna.com/diego/linux/vche/
+MASTER_SITES=	http://www.grigna.com/diego/linux/vche/
 
 MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://www.grigna.com/diego/linux/vche/
 COMMENT=		Hex Editor for console
 
-GNU_TOOLS+=	make
-USE_BUILDLINK3=		yes
+USE_GNU_TOOLS+=	make
+USE_BUILDLINK3=	YES
+
+NOT_FOR_PLATFORM=	NetBSD-*-*
 
 do-build:
 	cd ${WRKSRC}/src &&\
