@@ -1,0 +1,5 @@
+@comment $NetBSD$
+bin/bitch
+bin/genstats
+share/examples/bitch/bitch.conf.template
+@dirrm share/examples/bitch
