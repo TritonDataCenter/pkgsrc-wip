@@ -1,14 +1,16 @@
 # $NetBSD$
 #
 
-DISTNAME=		IPython-0.5.0
+DISTNAME=		ipython-0.6.11
 PKGNAME=		${PYPKGPREFIX}-${DISTNAME}
-CATEGORIES=		devel
+CATEGORIES=		devel python
 MASTER_SITES=		http://ipython.scipy.org/dist/
 
-MAINTAINER=		dotz@irc.pl
-HOMEPAGE=		http://ipython.scipy.org/dist/
+MAINTAINER=		sifu@0xx0.net
+HOMEPAGE=		http://ipython.scipy.org/
 COMMENT=		Interactive, enhanced Python shell
+
+CONFLICTS=              py*-IPython-*
 
 DEPENDS+=		${PYPKGPREFIX}-readline>=0:../../devel/py-readline
 
