@@ -37,7 +37,7 @@ CONFIGURE_ARGS+= --with-unicode-set=utf-32
 .endif
 
 DOCDIR=			${PREFIX}/share/doc/icewm
-HTMLDIR=		${PREFIX}/share/doc/html/icewm
+HTMLDIR=		${PREFIX}/share/doc/icewm/html
 INSTALL_TARGET=		install-base install-nls
 
 post-extract:
