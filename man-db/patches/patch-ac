@@ -8,7 +8,7 @@ $NetBSD$
  /* FSSTND directories */
 -#define CAT_ROOT	"/var/catman"		/* required by fsstnd() */
 -#define MAN_ROOT	"/usr" 			/* required by fsstnd() */
-+#define CAT_ROOT	"@prefix@/man"
++#define CAT_ROOT	"@mandir@"
 +#define MAN_ROOT	"@prefix@"
  /* FHS directories */
  #define FHS_CAT_ROOT	"/var/cache/man"	/* required by fsstnd() */
