@@ -7,7 +7,7 @@ MASTER_SITES=	http://gdesklets.gnomedesktop.org/files/
 EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	minskim@bawi.org
-HOMEPAGE=	http://gdesklets.gnomedesktop.org/files/
+HOMEPAGE=	http://gdesklets.gnomedesktop.org/categories.php?func=gd_show_app&gd_app_id=101
 COMMENT=	RSS/RDF News Feed Grabber
 
 DEPENDS=	gDesklets-[0-9]*:../../wip/gDesklets
