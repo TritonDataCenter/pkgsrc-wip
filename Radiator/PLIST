@@ -1,5 +1,1 @@
 @comment $NetBSD$
-bin/builddbm
-bin/buildsql
-bin/radiusd
-bin/radpwtst

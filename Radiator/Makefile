@@ -27,6 +27,7 @@ _FETCH_MESSAGE= \
 	${ECHO} '=============================================='
 
 USE_BUILDLINK2=		yes
+PERL5_PACKLIST=		${PERL5_SITEARCH}/auto/Radius/.packlist
 
 .include "../../lang/perl5/module.mk"
 .include "../../mk/bsd.pkg.mk"
