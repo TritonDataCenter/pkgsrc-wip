@@ -1,0 +1,5 @@
+# $NetBSD$
+#
+
+TODO file for nagios-plugin-snmp:
+	- This pkg has had practically no testing. It compiles and installs.	
