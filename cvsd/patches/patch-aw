@@ -1,3 +1,5 @@
+$NetBSD$
+
 Index: xmalloc.c
 ===================================================================
 RCS file: /arthur/cvsd/xmalloc.c,v

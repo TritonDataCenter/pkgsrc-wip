@@ -1,12 +1,13 @@
 @comment $NetBSD$
-etc/rc.d/cvsd
-sbin/cvsd
-sbin/cvsd-buildroot
-sbin/cvsd-passwd
 man/man5/cvsd.conf.5
+man/man8/cvsd-buginfo.8
 man/man8/cvsd-buildroot.8
 man/man8/cvsd-passwd.8
 man/man8/cvsd.8
+sbin/cvsd
+sbin/cvsd-buginfo
+sbin/cvsd-buildroot
+sbin/cvsd-passwd
 share/doc/cvsd/README
 share/examples/cvsd/cvsd.conf.example
 @dirrm share/examples/cvsd
