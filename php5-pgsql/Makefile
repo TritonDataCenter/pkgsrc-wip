@@ -12,4 +12,3 @@ MODNAME=pgsql
 CONFIGURE_ARGS+=--with-pgsql=shared,${BUILDLINK_PREFIX.postgresql-lib}
 
 .include "../../databases/postgresql-lib/buildlink2.mk"
-.include "../../mk/bsd.pkg.mk"
