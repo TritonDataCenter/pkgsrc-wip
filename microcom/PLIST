@@ -1,0 +1,4 @@
+@comment $NetBSD$
+bin/microcom
+share/doc/microcom/index.html
+@dirrm share/doc/microcom
