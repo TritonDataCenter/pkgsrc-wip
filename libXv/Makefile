@@ -3,11 +3,11 @@
 
 DISTNAME=		libXv-2.2.1
 CATEGORIES=		x11 devel
-MASTER_SITES=		http://freedesktop.org/~xlibs/dist/
+MASTER_SITES=		http://freedesktop.org/~xlibs/release/
 EXTRACT_SUFX=		.tar.bz2
 
 MAINTAINER=		reed@reedmedia.net
-HOMEPAGE=		http://www.freedesktop.org/Software/xlibs
+HOMEPAGE=		http://xlibs.freedesktop.org/
 COMMENT=		Xv Extension library
 
 USE_BUILDLINK2=		yes
@@ -17,8 +17,6 @@ PKGCONFIG_OVERRIDE+=	${WRKSRC}/xv.pc.in
 GNU_CONFIGURE=		yes
 USE_GNU_TOOLS+=		make
 
-.include "../../wip/libXau/buildlink2.mk"
 .include "../../wip/libX11/buildlink2.mk"
-.include "../../wip/xextensions/buildlink2.mk"
-.include "../../wip/xproto/buildlink2.mk"
+.include "../../devel/pkgconfig/buildlink2.mk"
 .include "../../mk/bsd.pkg.mk"
