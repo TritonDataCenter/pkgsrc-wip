@@ -1,0 +1,6 @@
+@comment $NetBSD$
+bin/802ether
+bin/aircrack
+bin/aireplay
+bin/airodump
+bin/hopper.sh
