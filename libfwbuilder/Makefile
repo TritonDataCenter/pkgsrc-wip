@@ -35,5 +35,5 @@ pre-configure:
 .include "../../textproc/libxslt/buildlink2.mk"
 
 .include "../../mk/automake.mk"
-.include "../../mk/gcc.buildlink2.mk"
+.include "../../mk/compiler.mk"
 .include "../../mk/bsd.pkg.mk"
