@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		gmpc-0.10.1
+DISTNAME=		gmpc-0.10.2
 CATEGORIES=		audio
 MASTER_SITES=		http://download.qballcow.nl/programs/gmpc/
 
