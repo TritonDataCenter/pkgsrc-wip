@@ -1,7 +1,7 @@
 # $NetBSD$
 
 DISTNAME=	bmon-1.2.1
-CATEGORIES=	wip net
+CATEGORIES=	net
 MASTER_SITES=	http://trash.net/~reeler/bmon/files/
 
 MAINTAINER=	hsaliak@gmail.com
