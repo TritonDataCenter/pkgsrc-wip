@@ -1,0 +1,4 @@
+$NetBSD$
+
+Test more.
+Does not shutdown correctly on -current (tested on 1.6U)
