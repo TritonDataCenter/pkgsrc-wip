@@ -1,7 +1,0 @@
-@comment $NetBSD$
-lib/giFT/libOpenFT.la
-lib/giFT/libOpenFT.so
-share/giFT/OpenFT/OpenFT.conf.template
-share/giFT/OpenFT/nodes
-@dirrm share/giFT/OpenFT
-@dirrm lib/giFT
