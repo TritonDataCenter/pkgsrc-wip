@@ -27,7 +27,7 @@ do-install:
 	
 .include "../../mk/autoconf.mk"
 .include "../../mk/automake.mk"
-.include "../../x11/qt3-libs/buildlink2.mk"
+.include "../../databases/mysql4-client/buildlink2.mk"
 .include "../../security/openssl/buildlink2.mk"
-.include "../../wip/mysql4-client/buildlink2.mk"
+.include "../../x11/qt3-libs/buildlink2.mk"
 .include "../../mk/bsd.pkg.mk"

@@ -19,7 +19,7 @@ GNU_CONFIGURE=		yes
 CONFIGURE_ENV=		"PYTHONBIN=${PYTHONBIN}"
 
 .include "../../wip/xbsql/buildlink2.mk"
-.include "../../wip/mysql4-client/buildlink2.mk"
+.include "../../databases/mysql4-client/buildlink2.mk"
 .include "../../databases/postgresql-lib/buildlink2.mk"
 .include "../../lang/python/extension.mk"
 .include "../../x11/kdelibs3/buildlink2.mk"
