@@ -2,9 +2,7 @@
 
 .include "../xfce4/Makefile.common"
 
-BROKEN=     Not working yet
-
-DISTNAME=	xfce4-toys-0.2.0
+DISTNAME=	xfce4-toys-0.3.0
 COMMENT=	XFce4 toys
 
 .include "../../devel/pkgconfig/buildlink2.mk"
