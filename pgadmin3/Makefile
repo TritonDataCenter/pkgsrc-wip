@@ -14,7 +14,7 @@ MAINTAINER=		dotz@irc.pl
 HOMEPAGE=		http://pgadmin.postgresql.org/
 COMMENT=		GUI administration tool for PostgreSQL RDBMS
 
-USE_BUILDLINK2=		yes
+USE_BUILDLINK3=		yes
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 CONFIGURE_ARGS=		--with-pgsql=${PREFIX} \
@@ -28,6 +28,7 @@ CONFIGURE_ARGS=		--with-pgsql=${PREFIX} \
 BROKEN=		Needs wxGTK to be compiled against GTK2 -- unset WXGTK_USE_GTK1 and reinstall wxGTK.
 .endif
 
-.include "../../x11/wxGTK/buildlink2.mk"
-.include "../../databases/postgresql-lib/buildlink2.mk"
+.include "../../x11/wxGTK/buildlink3.mk"
+.include "../../wip/wxGTK-contrib/buildlink3.mk"
+.include "../../wip/postgresql74-lib/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
