@@ -14,6 +14,6 @@ USE_BUILDLINK2=		yes
 
 PERL5_PACKLIST=		${PERL5_SITEARCH}/auto/Geo/IP/.packlist
 
-.include "../../wip/geoip/buildlink2.mk"
 .include "../../lang/perl5/module.mk"
+.include "../../net/GeoIP/buildlink2.mk"
 .include "../../mk/bsd.pkg.mk"
