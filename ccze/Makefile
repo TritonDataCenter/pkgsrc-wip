@@ -9,6 +9,8 @@ MAINTAINER=	tech-pkg@NetBSD.org
 HOMEPAGE=	http://bonehunter.rulez.org/software/ccze/
 COMMENT=	Log coloriser, fast and light on resources
 
+PKG_INSTALLATION_TYPES=	overwrite pkgviews
+
 GNU_CONFIGURE=		yes
 USE_BUILDLINK3=		yes
 USE_GNU_TOOLS+=		make
