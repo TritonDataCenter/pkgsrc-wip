@@ -2,10 +2,10 @@
 
 DISTNAME=	pts-0.20a
 CATEGORIES=	games
-MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=pts/}
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=ptns/}
 
 MAINTAINER=	david@netbsd-fr.org
-HOMEPAGE=	http://pts.sourceforge.net
+HOMEPAGE=	http://ptns.sourceforge.net
 COMMENT=	Perl TetriNET Server
 
 DEPENDS+=	p5-Config-IniFiles>=2.20:../../devel/p5-Config-IniFiles

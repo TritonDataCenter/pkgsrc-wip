@@ -1,13 +1,13 @@
 # $NetBSD$
 #
 
-DISTNAME=	srvx-1.2rc3
+DISTNAME=	srvx-1.1.3
 CATEGORIES=	chat
-MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=/srvx/}
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=srvx/}
 
 MAINTAINER=	virtus@wanadoo.nl
-HOMEPAGE=	http://svrx.sf.net
-COMMENT=	svrx IRC services
+HOMEPAGE=	http://srvx.sourceforge.net/
+COMMENT=	srvx IRC services
 
 USE_BUILDLINK2=	YES
 USE_LIBTOOL=	YES

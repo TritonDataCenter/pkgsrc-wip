@@ -3,10 +3,10 @@
 
 DISTNAME=	cgdb-0.3.2
 CATEGORIES=	devel
-MASTER_SITES=	http://66.35.250.221:80/sourceforge/cgdb/
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=cgdb/}
 
 MAINTAINER=	xtraeme@NetBSD.org
-HOMEPAGE=	http://cgdb.sourceforge/
+HOMEPAGE=	http://cgdb.sourceforge.net/
 COMMENT=	Curses-based interface to the GNU Debugger (GDB)
 
 USE_BUILDLINK2=		yes

@@ -5,7 +5,7 @@ CATEGORIES=		games
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=toppler/}
 
 MAINTAINER=		snj@pobox.com
-HOMEPAGE=		http://topple.sf.net/
+HOMEPAGE=		http://toppler.sourceforge.net/
 COMMENT=		Tower climbing game
 
 USE_BUILDLINK2=		yes
