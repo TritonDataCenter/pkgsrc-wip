@@ -6,7 +6,7 @@ CATEGORIES=		emulators
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=fakenes/}
 EXTRACT_SUFX=		.tar.bz2
 
-MAINTAINER=		snj@pobox.com
+MAINTAINER=		wiz@NetBSD.org
 HOMEPAGE=		http://fakenes.sourceforge.net/
 COMMENT=		Portable Open Source NES emulator
 
