@@ -4,6 +4,7 @@ DISTNAME=	apstget-20050301
 CATEGORIES=	pkgtools
 MASTER_SITES=	# empty
 DISTFILES=	# empty
+PKGREVISION=1
 
 MAINTAINER=	pancake@phreaker.net
 COMMENT=	apt-get like tool for pkgsrc
