@@ -11,11 +11,11 @@ COMMENT=	Tcl/Tk audio mixer using mixerctl utility
 
 NO_CONFIGURE=	yes
 NO_BUILD=	yes
-USE_BUILDLINK2=	yes
+USE_BUILDLINK3=	yes
 
 do-install:
 	${INSTALL_SCRIPT} ${WRKSRC}/mixer.tk ${PREFIX}/bin
 
-.include "../../x11/tk/buildlink2.mk"
+.include "../../x11/tk/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
 
