@@ -27,4 +27,5 @@ CONFIGURE_ARGS+=	--disable-debug
 .include "../../devel/libgnomeui/buildlink2.mk"
 .include "../../sysutils/gnome-vfs2/buildlink2.mk"
 .include "../../textproc/scrollkeeper/omf.mk"
+.include "../../devel/gettext-lib/buildlink2.mk"
 .include "../../mk/bsd.pkg.mk"
