@@ -1,0 +1,9 @@
+===========================================================================
+$NetBSD$
+
+This precomiled binary version is hard-coded to look for its BIOS
+image files in /usr/local/share/qemu/.  However, if your prefix is
+not "/usr/local/" then you will have to run the program with the -L
+option to specify the proper location. (eg. -L /usr/pkg/share/qemu)
+
+===========================================================================
