@@ -24,12 +24,12 @@ PATCHDATA=		cally.cfg paladin.cfg skeleton.cfg
 
 pre-configure:
 	cd ${WRKSRC} && ./autogen.sh
-	
+
 post-patch:
 	${CP} ${WRKSRC}/src/demo.cpp ${WRKSRC}/src/demo.cpp.pkgsrc
 	${SED} -e 's|@@DATADIR@@|${DATADIR}|g' ${WRKSRC}/src/demo.cpp.pkgsrc > \
 		${WRKSRC}/src/demo.cpp
-		
+
 	for f in ${PATCHDATA}; do \
 		${CP} ${WRKDATADIR}/$$f ${WRKDATADIR}/$$f.pkgsrc && \
 		${SED} -e 's|@@DATADIR@@|${DATADIR}|g' ${WRKDATADIR}/$$f.pkgsrc > \
