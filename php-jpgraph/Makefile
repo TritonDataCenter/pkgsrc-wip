@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	jpgraph-1.12.2
+DISTNAME=	jpgraph-1.13
 PKGNAME=	php-${DISTNAME}
 CATEGORIES=	graphics www
 MASTER_SITES=	http://www.aditus.nu/jpgraph/downloads/
@@ -9,7 +9,7 @@ MAINTAINER=	adrianp@stindustries.net
 HOMEPAGE= 	http://www.aditus.nu/jpgraph/index.php
 COMMENT=	JpGraph is an OO class library for PHP
 
-DEPENDS+=	php-gd>=4.1:../../graphics/php4-gd
+DEPENDS+=	php-gd>=4.3.0:../../graphics/php4-gd
 
 NO_BUILD=	YES
 
@@ -49,7 +49,8 @@ do-install:
 		${PREFIX}/share/php-jpgraph/utils/jpdocgen
 	${INSTALL_DATA} ${WRKSRC}/src/utils/jpdocgen/*.css \
 		${PREFIX}/share/php-jpgraph/utils/jpdocgen
-
+	
+	${INSTALL_DATA} ${WRKSRC}/QPL.txt ${PREFIX}/share/doc/php-jpgraph
 	cd ${WRKSRC}/docs && ${PAX} -rw . ${PREFIX}/share/doc/php-jpgraph
 
 .include "../../mk/bsd.pkg.mk"
