@@ -12,6 +12,7 @@
 #   bmake extract
 #   sh files/mkplists
 #
+set -e
 
 cd `pwd`/work/linux-*/include
 
