@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.1226 2004/04/20 09:39:03 xtraeme Exp $
+# $Id: Makefile,v 1.1227 2004/04/20 09:54:57 xtraeme Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -16,8 +16,6 @@ SUBDIR+=	Siesta
 SUBDIR+=	SpeedyCGI
 SUBDIR+=	WEPCrack
 SUBDIR+=	abuse_sdl
-SUBDIR+=	acid
-SUBDIR+=	adodb
 SUBDIR+=	adtool
 SUBDIR+=	afterstep2
 SUBDIR+=	alsa-lib
