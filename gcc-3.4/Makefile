@@ -52,6 +52,8 @@ USE_BUILDLINK3=		YES
 USE_PKGINSTALL=		YES
 USE_GNU_TOOLS+=		make
 HAS_CONFIGURE=		YES
+USE_MAKEINFO=		YES
+USE_NEW_TEXINFO=	YES
 PTHREAD_OPTS+=  require native
 PLIST_SRC=	${WRKDIR}/PLIST_DYNAMIC
 
@@ -163,4 +165,5 @@ BUILDLINK_DEPMETHOD.gccAda-3.4.0=build
 .endif
 .include "../../mk/pthread.buildlink3.mk"
 .include "../../converters/libiconv/buildlink3.mk"
+.include "../../devel/gettext-lib/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
