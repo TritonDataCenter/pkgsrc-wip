@@ -1,6 +1,7 @@
 # $NetBSD$
 
 DISTNAME=	CornerXMMS-0.0.5
+PKGNAME=	gDesklets-${DISTNAME}
 CATEGORIES=	audio
 MASTER_SITES=	http://gdesklets.gnomedesktop.org/files/
 EXTRACT_SUFX=	.tar.bz2
