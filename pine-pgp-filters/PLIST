@@ -1,0 +1,11 @@
+@comment $NetBSD$
+libexec/ppf_decrypt
+libexec/ppf_encrypt
+libexec/ppf_mime
+libexec/ppf_sign
+libexec/ppf_verify
+share/doc/pine-pgp-filters/BUGS
+share/doc/pine-pgp-filters/CHANGES
+share/doc/pine-pgp-filters/INSTALL
+share/doc/pine-pgp-filters/LICENSE
+share/doc/pine-pgp-filters/README
