@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		scons-0.90
+DISTNAME=		scons-0.91
 CATEGORIES=		devel
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=scons/}
 
@@ -14,6 +14,7 @@ USE_BUILDLINK2=		yes
 
 post-install:
 	${INSTALL_MAN} ${WRKSRC}/scons.1 ${PREFIX}/man/man1
+	${INSTALL_MAN} ${WRKSRC}/sconsign.1 ${PREFIX}/man/man1
 
 .include "../../lang/python/extension.mk"
 .include "../../mk/bsd.pkg.mk"
