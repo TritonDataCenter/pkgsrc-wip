@@ -2,16 +2,14 @@
 
 DISTNAME= 	tcpick-0.1.19
 CATEGORIES=	net
-MASTER_SITES=   http://switch.dl.sourceforge.net/sourceforge/tcpick/
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=tcpick/}
 
 MAINTAINER=	josediazfer@yahoo.es
-HOMEPAGE=       http://tcpick.sourceforge.net	
-COMMENT= 	Simple tcp sniffer with tcpdump-style rules and with captures of traffic colored
+HOMEPAGE=	http://tcpick.sourceforge.net/
+COMMENT=	Simple tcp sniffer with tcpdump-style rules
 
-USE_BUILDLINK2= YES
-GNU_CONFIGURE=  YES
+USE_BUILDLINK3=	YES
+GNU_CONFIGURE=	YES
 
-CONFIGURE_ARGS+=--prefix=${LOCALBASE}
-
-.include "../../net/libpcap/buildlink2.mk"
+.include "../../net/libpcap/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
