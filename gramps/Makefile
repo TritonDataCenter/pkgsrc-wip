@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		gramps-0.99
+DISTNAME=		gramps-1.0.1
 CATEGORIES=		misc
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=gramps/}
 
