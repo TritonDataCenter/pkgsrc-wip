@@ -11,7 +11,11 @@ PTHREAD_OPTS=		require
 RCD_SCRIPTS=		gkrellmd
 CONF_FILES=		${PREFIX}/share/examples/gkrellm-server/gkrellmd.conf ${PREFIX}/etc/gkrellmd.conf
 
+.include "../../mk/bsd.prefs.mk"
+
+.if (${OPSYS} == "NetBSD" || ${OPSYS} == "FreeBSD" || ${OPSYS} == "OpenBSD")
 SPECIAL_PERMS+=         ${PREFIX}/bin/gkrellmd ${ROOT_USER} kmem 2711
+.endif
 
 MAKE_ENV+=		MODULES=server
 

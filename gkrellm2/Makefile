@@ -13,7 +13,11 @@ USE_X11=		YES
 USE_PKGINSTALL=		YES
 PTHREAD_OPTS=		require
 
+.include "../../mk/bsd.prefs.mk"
+
+.if (${OPSYS} == "NetBSD" || ${OPSYS} == "FreeBSD" || ${OPSYS} == "OpenBSD")
 SPECIAL_PERMS+=		${PREFIX}/bin/gkrellm ${ROOT_USER} kmem 2711
+.endif
 
 ONLY_FOR_PLATFORM=	NetBSD-* FreeBSD-* OpenBSD-* Linux-*
 
