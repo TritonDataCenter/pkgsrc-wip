@@ -1,5 +1,6 @@
 @comment $NetBSD$
 bin/entropy
+bin/entropy-monoopt
 bin/entropy-storechg
 share/examples/entropy/entropy.conf
 share/examples/entropy/node/background.png

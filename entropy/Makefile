@@ -17,7 +17,7 @@ GNU_CONFIGURE=		yes
 USE_BUILDLINK2=		yes
 USE_GNU_TOOLS+=		make
 
-ENTROPY_VERSION=	0.8.0-405
+ENTROPY_VERSION=	0.8.2-409
 
 CONFIGURE_ARGS+=	--enable-verbose --disable-posix-sem
 
@@ -26,6 +26,7 @@ post-patch:
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/entropy ${PREFIX}/bin/entropy
+	${INSTALL_PROGRAM} ${WRKSRC}/monoopt ${PREFIX}/bin/entropy-monoopt
 	${INSTALL_PROGRAM} ${WRKSRC}/storechg ${PREFIX}/bin/entropy-storechg
 	${INSTALL_DATA_DIR} ${PREFIX}/share/examples/entropy
 	${INSTALL_DATA_DIR} ${PREFIX}/share/examples/entropy/node
