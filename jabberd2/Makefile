@@ -40,7 +40,7 @@ BUILD_DEFS+=	JABBERD_USER JABBERD_GROUP \
 # pam (Pluggable Authentication Module)
 # pgsql (PostgreSQL)
 
-JABBERD_AUTH_METOD?=		db
+JABBERD_AUTH_METHOD?=		db
 
 .if defined(JABBERD_AUTH_METHOD) && ${JABBERD_AUTH_METHOD} == "db"
 CONFIGURE_ARGS+=	--enable-authreg=db
