@@ -5,7 +5,7 @@ To use exim, you will need to do the following:
 
 1. Read the documentation. Edit ${PKG_SYSCONFDIR}/configure to taste.
    Note that depending on your operating system, the `aliases' file may
-   be in /etc/mail and not /etc, as it was previously.
+   be in /etc/mail or /etc.
 
 2. If you use mailwrapper (eg. NetBSD), back-up /etc/mailer.conf to
    /etc/mailer.conf.sendmail and copy
