@@ -11,7 +11,7 @@ MAINTAINER=	xfree86@xtraeme.unixbsd.org
 HOMEPAGE=	http://www.xfree86.org/
 COMMENT=	XFree86 Encoding fonts
 
-DEPENDS=	XFree86-clients*:../../wip/XFree86-clients
+DEPENDS=	XFree86-clients-[0-9]*:../../wip/XFree86-clients
 
 USE_BUILDLINK2=		yes
 NO_XFREE86_TARGETS=	#defined
