@@ -10,6 +10,7 @@ lib/jabberd/pthsock_client.so
 lib/jabberd/xdb_file.so
 sbin/jabberd
 share/examples/jabberd/jabber.xml
+share/examples/jabberd/platform-settings
 @dirrm share/examples/jabberd
 @dirrm lib/jabberd
 @dirrm include/jabberd
