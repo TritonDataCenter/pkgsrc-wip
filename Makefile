@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.592 2003/11/04 05:09:12 mpasternak Exp $
+# $Id: Makefile,v 1.593 2003/11/04 21:53:23 airhead Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -81,6 +81,7 @@ SUBDIR+=	cjk-latex-korean
 SUBDIR+=	cops
 SUBDIR+=	cvsd
 SUBDIR+=	cyrus-imapd22
+SUBDIR+=	d2x
 SUBDIR+=	dancer-ircd
 SUBDIR+=	darcnes-svgalib
 SUBDIR+=	darkice
