@@ -1,7 +1,7 @@
 # $NetBSD$
 
-DISTNAME=		lighttpd-1.3.10
-PKGNAME=		lighttpd-1.3.10
+DISTNAME=		lighttpd-1.3.11
+# PKGNAME=		lighttpd-1.3.10
 CATEGORIES=		www
 MASTER_SITES=		http://lighttpd.net/download/
 
