@@ -1,0 +1,8 @@
+@comment $NetBSD$
+bin/upnpd
+share/examples/linuxigd/gateconnSCPD.xml
+share/examples/linuxigd/gatedesc.skl
+share/examples/linuxigd/gatedesc.xml
+share/examples/linuxigd/gateicfgSCPD.xml
+share/examples/linuxigd/gateinfoSCPD.xml
+@dirrm share/examples/linuxigd
