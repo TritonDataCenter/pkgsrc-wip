@@ -29,6 +29,10 @@ USE_GMAKE=		yes
 USE_LIBTOOL=		yes
 LIBTOOL_OVERRIDE=	${WRKSRC}/libtool
 
+PKGCONFIG_OVERRIDE=	gimp-1.3.pc.in
+PKGCONFIG_OVERRIDE+=	gimpthumb-1.3.pc.in
+PKGCONFIG_OVERRIDE+=	gimpui-1.3.pc.in
+
 .include "../../mk/bsd.prefs.mk"
 
 GNU_CONFIGURE=		yes
