@@ -8,8 +8,4 @@ include/imagedefs.h
 include/imagery.h
 include/libgrass.h
 include/site.h
-lib/libgrass5.a
 lib/libgrass5.la
-lib/libgrass5.so
-lib/libgrass5.so.3
-lib/libgrass5.so.3.0
