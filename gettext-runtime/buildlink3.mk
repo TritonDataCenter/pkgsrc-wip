@@ -14,7 +14,7 @@ BUILDLINK_PACKAGES+=	gettext-runtime
 
 .if !empty(GETTEXT_RUNTIME_BUILDLINK3_MK:M+)
 BUILDLINK_DEPENDS.gettext-runtime+=	gettext-runtime>=0.14.1
-BUILDLINK_PKGSRCDIR.gettext-runtime?=	../../devel/gettext-runtime
+BUILDLINK_PKGSRCDIR.gettext-runtime?=	../../wip/gettext-runtime
 
 .endif	# GETTEXT_RUNTIME_BUILDLINK3_MK
 
