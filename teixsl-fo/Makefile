@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	teixsl-html
+DISTNAME=	teixsl-fo
 PKGNAME=	${DISTNAME}-3.0
 WRKSRC=		${WRKDIR}
 CATEGORIES=	textproc
@@ -9,12 +9,12 @@ EXTRACT_SUFX=	.zip
 
 MAINTAINER=	minskim@bawi.org
 HOMEPAGE=	http://www.tei-c.org/Stylesheets/teixsl.html
-COMMENT=	XSLT Stylesheets to convert TEI to HTML
+COMMENT=	XSLT Stylesheets to convert TEI to XSL Formatting Objects
 
 NO_CONFIGURE=	YES
 NO_BUILD=	YES
 
-XSLDIR=		${PREFIX}/share/xsl/tei/html
+XSLDIR=		${PREFIX}/share/xsl/tei/fo
 
 XML_CATALOGS=	${XSLDIR}/catalog
 

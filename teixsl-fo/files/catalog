@@ -5,5 +5,5 @@
 <!-- $NetBSD$ -->
 
 <catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
-  <system systemId="http://www.tei-c.org/Stylesheets/P4/teihtml.xsl" uri="teihtml.xsl" />
+  <system systemId="http://www.tei-c.org/Stylesheets/P4/tei.xsl" uri="tei.xsl" />
 </catalog>
