@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.451 2003/09/16 21:12:27 tvierling Exp $
+# $Id: Makefile,v 1.452 2003/09/17 14:51:39 xtraeme Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -60,6 +60,7 @@ SUBDIR+=	busybox
 SUBDIR+=	byacc
 SUBDIR+=	cawf
 SUBDIR+=	ccrypt
+SUBDIR+=	cdl3
 SUBDIR+=	cdpr
 SUBDIR+=	cgdb
 SUBDIR+=	cgic
@@ -92,6 +93,7 @@ SUBDIR+=	drweb-smf
 SUBDIR+=	drwright
 SUBDIR+=	dumb
 SUBDIR+=	dzt
+SUBDIR+=	eag
 SUBDIR+=	ed
 SUBDIR+=	eic
 SUBDIR+=	elvis
