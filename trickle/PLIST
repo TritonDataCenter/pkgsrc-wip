@@ -6,4 +6,6 @@ lib/trickle/trickle-overload.so
 man/man1/trickle.1
 man/man5/trickled.conf.5
 man/man8/trickled.8
+share/examples/trickle/trickled.conf
+@dirrm share/examples/trickle
 @dirrm lib/trickle

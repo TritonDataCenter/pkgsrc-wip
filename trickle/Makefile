@@ -12,10 +12,18 @@ COMMENT=	Portable lightweight userspace bandwidth shaper
 USE_BUILDLINK2=		yes
 USE_LIBTOOL=		yes
 GNU_CONFIGURE=		yes
+USE_PKGINSTALL=		yes
 
 LIBTOOL_OVERRIDE=       ${WRKSRC}/libtool
 
 CONFIGURE_ARGS+=	--sysconfdir=${PKG_SYSCONFDIR}
+
+EGDIR=		${PREFIX}/share/examples/trickle
+CONF_FILES=	${PREFIX}/share/examples/trickle/trickled.conf \
+	    	${PKG_SYSCONFDIR}/trickled.conf
+pre-install:
+	${INSTALL_DATA_DIR} ${EGDIR}
+	${INSTALL_DATA} ${FILESDIR}/trickled.conf ${EGDIR}
 
 .include "../../devel/libevent/buildlink2.mk"
 
