@@ -15,9 +15,6 @@ USE_PKGLOCALEDIR=	yes
 
 USE_LIBTOOL=		yes
 LIBTOOL_OVERRIDE=	libtool
-#post-patch:
-#	${REINPLACE_CMD} -e '15s,^,#include <pthread.h>,' \
-#		${WRKSRC}/src/decoder.c
 
 .include "../../audio/libao/buildlink2.mk"
 .include "../../audio/libid3tag/buildlink2.mk"
