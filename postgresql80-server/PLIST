@@ -55,22 +55,6 @@ share/postgresql/postgresql.conf.sample
 share/postgresql/recovery.conf.sample
 share/postgresql/sql_features.txt
 share/postgresql/system_views.sql
-@dirrm ${PKGLOCALEDIR}/locale/zh_TW/LC_MESSAGES
-@dirrm ${PKGLOCALEDIR}/locale/zh_CN/LC_MESSAGES
-@dirrm ${PKGLOCALEDIR}/locale/tr/LC_MESSAGES
-@dirrm ${PKGLOCALEDIR}/locale/sv/LC_MESSAGES
-@dirrm ${PKGLOCALEDIR}/locale/sk/LC_MESSAGES
-@dirrm ${PKGLOCALEDIR}/locale/ru/LC_MESSAGES
-@dirrm ${PKGLOCALEDIR}/locale/pt_BR/LC_MESSAGES
-@dirrm ${PKGLOCALEDIR}/locale/nb/LC_MESSAGES
-@dirrm ${PKGLOCALEDIR}/locale/it/LC_MESSAGES
-@dirrm ${PKGLOCALEDIR}/locale/hu/LC_MESSAGES
-@dirrm ${PKGLOCALEDIR}/locale/hr/LC_MESSAGES
-@dirrm ${PKGLOCALEDIR}/locale/fr/LC_MESSAGES
-@dirrm ${PKGLOCALEDIR}/locale/es/LC_MESSAGES
-@dirrm ${PKGLOCALEDIR}/locale/de/LC_MESSAGES
-@dirrm ${PKGLOCALEDIR}/locale/cs/LC_MESSAGES
-@dirrm ${PKGLOCALEDIR}/locale/af/LC_MESSAGES
 @comment in postgresql80-client: @dirrm share
 @comment in postgresql80-lib: @dirrm man/man1
 @comment in postgresql80-lib: @dirrm lib/postgresql
