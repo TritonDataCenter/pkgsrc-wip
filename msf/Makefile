@@ -11,7 +11,7 @@ HOMEPAGE=	http://www.metasploit.com/
 COMMENT=	Platform for developing, testing, and using exploit code
 
 DEPENDS+=	p5-Net-SSLeay>=1.23:../../security/p5-Net-SSLeay
-DEPENDS+=	p5-Term-ReadLine>=1.12:../../devel/p5-Term-ReadLine
+DEPENDS+=	p5-Term-ReadLine>=1.14:../../devel/p5-Term-ReadLine
 
 MSFDIR?=	${PREFIX}/share/msf
 MSFDOC?=	${PREFIX}/share/doc/msf
