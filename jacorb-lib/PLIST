@@ -1,0 +1,4 @@
+@comment $NetBSD$
+lib/java/IDL.jar
+lib/java/JacORB.jar
+@unexec ${RMDIR} %D/lib/java 2>/dev/null || ${TRUE}

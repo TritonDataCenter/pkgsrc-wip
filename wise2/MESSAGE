@@ -1,0 +1,8 @@
+===========================================================================
+$NetBSD$
+
+After Installing Wise2, the environment variable WISECONFIGDIR must be 
+set to: 
+             ${PREFIX}/share/wise2/wisecfg
+
+===========================================================================
