@@ -9,7 +9,7 @@ MAINTAINER=	cube@NetBSD.org
 HOMEPAGE=	http://search.cpan.org/dist/Class-Factory-Util/
 COMMENT=	Perl module to help factory classes
 
-USE_BUILDLINK2=	YES
+USE_BUILDLINK3=	YES
 PERL5_PACKLIST=	${PERL5_SITEARCH}/auto/Class/Factory/Util/.packlist
 
 .include "../../lang/perl5/module.mk"

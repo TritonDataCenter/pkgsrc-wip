@@ -9,7 +9,7 @@ MAINTAINER=	tech-pkg@NetBSD.org
 HOMEPAGE=	http://search.cpan.org/search?module=CDDB
 COMMENT=	High-level interface to the Compact Disc Database
 
-USE_BUILDLINK2=		yes
+USE_BUILDLINK3=		yes
 
 PERL5_PACKLIST=		${PERL5_SITEARCH}/auto/CDDB/.packlist
 

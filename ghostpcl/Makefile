@@ -11,7 +11,7 @@ MAINTAINER=		dieter.NetBSD@pandora.be
 HOMEPAGE=		http://www.artifex.com/downloads/
 COMMENT=		PCL-5 and PCL-XL interpreter
 
-USE_BUILDLINK2=		yes
+USE_BUILDLINK3=		yes
 
 USE_GNU_TOOLS+=make
 ALL_TARGET=pcl6
@@ -28,5 +28,5 @@ do-install:
 	@${INSTALL_DATA_DIR} ${PREFIX}/share/ghostpcl/fonts
 	${INSTALL_DATA} ${WRKSRC}/urwfonts/* ${PREFIX}/share/ghostpcl/fonts
 
-.include "../../mk/pthread.buildlink2.mk"
+.include "../../mk/pthread.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
