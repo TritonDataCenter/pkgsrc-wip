@@ -1,12 +1,12 @@
 # $NetBSD$
 #
 
-DISTNAME=	gift-0.11.3
+DISTNAME=	gift-0.11.6
 CATEGORIES=	net
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=gift/}
 EXTRACT_SUFX=	.tar.bz2
 
-MAINTAINER=	xtraeme@NetBSD.org
+MAINTAINER=	alex@catbull.com
 HOMEPAGE=	http://gift.sourceforge.net/
 COMMENT=	Modular daemon that abstracts filesharing protocols
 
