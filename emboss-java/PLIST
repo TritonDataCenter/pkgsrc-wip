@@ -1,0 +1,4 @@
+@comment $NetBSD$
+lib/libajaxj.a
+lib/libajaxj.la
+lib/libajaxj.so

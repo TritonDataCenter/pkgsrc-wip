@@ -1,0 +1,8 @@
+
+===========================================================================
+$NetBSD: MESSAGE $
+
+This package creates an i386-linux version of the emboss libraries,
+so that jemboss (the java gui for emboss) can work correctly.
+
+===========================================================================
