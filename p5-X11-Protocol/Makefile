@@ -7,6 +7,7 @@ CATEGORIES=		x11 perl5
 MASTER_SITES=		${MASTER_SITE_PERL_CPAN:=X11/}
 
 MAINTAINER=		roland.illig@gmx.de
+HOMEPAGE=		http://search.cpan.org/dist/X11-Protocol/
 COMMENT=		Interface to the X11 protocol
 
 PKG_INSTALLATION_TYPES=	overwrite pkgviews
