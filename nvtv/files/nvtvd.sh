@@ -10,7 +10,7 @@
 
 name="nvtvd"
 rcvar=$name
-command="@PREFIX@/sbin/nvtvd"
+command="@PREFIX@/bin/nvtvd"
 
 load_rc_config $name
 run_rc_command "$1"
