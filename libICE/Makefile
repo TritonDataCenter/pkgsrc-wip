@@ -11,17 +11,17 @@ MAINTAINER=		tech-pkg@NetBSD.org
 HOMEPAGE=		http://www.freedesktop.org/software/xlibs
 COMMENT=		Inter Client Exchange (ICE) library for X
 
-USE_BUILDLINK2=		yes
+USE_BUILDLINK3=		yes
 USE_LIBTOOL=		yes
 GNU_CONFIGURE=		yes
 
 PKGCONFIG_OVERRIDE+=	ice.pc.in
 
-.include "../../wip/libX11/buildlink2.mk"
-.include "../../wip/libXau/buildlink2.mk"
-.include "../../wip/xproto/buildlink2.mk"
-.include "../../wip/xtrans/buildlink2.mk"
-.include "../../devel/pkgconfig/buildlink2.mk"
-.include "../../mk/pthread.buildlink2.mk"
+.include "../../wip/libX11/buildlink3.mk"
+.include "../../wip/libXau/buildlink3.mk"
+.include "../../wip/xproto/buildlink3.mk"
+.include "../../wip/xtrans/buildlink3.mk"
+.include "../../devel/pkgconfig/buildlink3.mk"
+.include "../../mk/pthread.buildlink3.mk"
 
 .include "../../mk/bsd.pkg.mk"
