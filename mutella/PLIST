@@ -64,5 +64,5 @@ share/mutella/remote/template/images/stop-16x16.gif
 share/mutella/remote/template/images/stop-32x32.gif
 share/mutella/remote/template/images/transfers-64x64.gif
 @dirrm share/mutella/remote/template/images
-@dirrm share/doc/html/mutella/remote/template/modules
-@dirrm share/doc/html/mutella/remote/template
+@dirrm share/mutella/remote/template/modules
+@dirrm share/mutella/remote/template
