@@ -20,8 +20,6 @@ USE_GMAKE=		yes
 LIBTOOL_OVERRIDE=       ${WRKSRC}/libtool
 PKGCONFIG_OVERRIDE+=    ${WRKSRC}/x11.pc.in
 
-CONFIGURE_ENV+=		KEYSYMDEF=${X11PREFIX}/include/X11/keysymdef.h
-
 .include "../../wip/xextensions/buildlink2.mk"
 .include "../../wip/xproto/buildlink2.mk"
 .include "../../wip/xtrans/buildlink2.mk"
