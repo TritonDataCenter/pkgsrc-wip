@@ -1,0 +1,4 @@
+@comment $NetBSD$
+bin/dirb
+bin/gendict
+man/man1/dirb.1
