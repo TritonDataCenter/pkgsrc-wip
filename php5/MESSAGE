@@ -1,7 +1,7 @@
 ===========================================================================
 $NetBSD$
 
-You must edit your "${PREFIX}/lib/php.ini" if you want to use PEAR packages:
+You must edit your "${PREFIX}/etc/php.ini" if you want to use PEAR packages:
 
   register_argc_argv = On
   register_globals = On
