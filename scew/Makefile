@@ -12,6 +12,8 @@ COMMENT=	Light-weight DOM-like object model API for Expat
 USE_BUILDLINK3=	YES
 GNU_CONFIGURE=	YES
 
+PKGCONFIG_OVERRIDE=	etc/pkg-config/scew.pc.in
+
 .include "../../textproc/expat/buildlink3.mk"
 .include "../../mk/pthread.buildlink3.mk"
 
