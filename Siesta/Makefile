@@ -1,0 +1,15 @@
+# $NetBSD$
+#
+
+DISTNAME=	Siesta-0.65
+CATEGORIES=	wip
+MASTER_SITES=	http://siesta.unixbeard.net/releases/
+
+MAINTAINER=	pancake@phreaker.net
+HOMEPAGE=	http://siesta.unixbeard.net/
+COMMENT=	Siesta Mailing List Manager
+
+USE_PERL5=	YES
+
+.include "../../lang/perl5/module.mk"
+.include "../../mk/bsd.pkg.mk"
