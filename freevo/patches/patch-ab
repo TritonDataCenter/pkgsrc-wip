@@ -26,7 +26,7 @@ $NetBSD$
  # Config file handling
  #
 -cfgfilepath = [ '.', os.path.expanduser('~/.freevo'), '/etc/freevo',
-+cfgfilepath = [ '.', os.path.expanduser('~/.freevo'), os.path.join(os.environ.get("PKGSRC_SYSCONF_DIR", "/usr/pkg/etc"), "freevo"), '/etc/freevo',
++cfgfilepath = [ '.', os.path.expanduser('~/.freevo'), os.environ.get("PKGSRC_SYSCONF_DIR", "/usr/pkg/etc/freevo"), '/etc/freevo',
                  '/usr/local/etc/freevo' ]
  
  
