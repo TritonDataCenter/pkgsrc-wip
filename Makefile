@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.1132 2004/03/28 20:47:55 jmmv Exp $
+# $Id: Makefile,v 1.1133 2004/03/28 23:13:46 minskim Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -617,7 +617,6 @@ SUBDIR+=	py-spambayes
 SUBDIR+=	py-spark
 SUBDIR+=	py-speex
 SUBDIR+=	py-stem
-SUBDIR+=	py-textile
 SUBDIR+=	py-twisted
 SUBDIR+=	py-twisted-docs
 SUBDIR+=	py-visionegg

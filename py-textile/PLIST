@@ -1,4 +1,0 @@
-@comment $NetBSD$
-${PYSITELIB}/textile.py
-${PYSITELIB}/textile.pyc
-${PYSITELIB}/textile.pyo
