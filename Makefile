@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.1667 2005/02/28 07:20:42 ianzag Exp $
+# $Id: Makefile,v 1.1668 2005/02/28 07:39:26 ianzag Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -54,7 +54,6 @@ SUBDIR+=	airsnort
 SUBDIR+=	alsa-lib
 SUBDIR+=	alsa-utils
 SUBDIR+=	amap
-SUBDIR+=	amarok
 SUBDIR+=	and
 SUBDIR+=	anope
 SUBDIR+=	aols-freetds
