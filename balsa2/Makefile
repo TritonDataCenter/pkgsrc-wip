@@ -20,7 +20,9 @@ USE_LIBTOOL=		yes
 USE_PKGLOCALEDIR=	yes
 LIBTOOL_OVERRIDE=	${WRKSRC}/libtool
 GNU_CONFIGURE=		yes
+#USE_GNU_GETTEXT=	yes
 
+CONFIGURE_ARGS+=	--enable-gpgme
 CONFIGURE_ARGS+=	--disable-more-warnings
 CONFIGURE_ARGS+=	--enable-threads
 CONFIGURE_ARGS+=	--enable-pcre
@@ -32,6 +34,12 @@ EGDIR=		${PREFIX}/share/examples/balsa
 CONF_FILES+=	${EGDIR}/${cnf} ${PKG_SYSCONFDIR}/sound/events/${cnf}
 .endfor
 
+.if defined(USE_OPENLDAP) && ${USE_OPENLDAP} == YES
+CONFIGURE_ARGS+=        --enable-ldap
+.include "../../databases/openldap/buildlink2.mk"
+.endif
+
+.include "../../security/gpgme/buildlink2.mk"
 .include "../../devel/pcre/buildlink2.mk"
 .include "../../devel/glib2/buildlink2.mk"
 .include "../../devel/libtool/buildlink2.mk"
