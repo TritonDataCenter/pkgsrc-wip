@@ -18,6 +18,6 @@ GNU_CONFIGURE=		yes
 PKGCONFIG_OVERRIDE+=	compositeext.pc.in
 
 .include "../../wip/fixesext/buildlink3.mk"
-.include "../../wip/xextensions/buildlink3.mk"
+.include "../../x11/xextensions/buildlink3.mk"
 .include "../../devel/pkgconfig/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

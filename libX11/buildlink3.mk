@@ -20,7 +20,7 @@ BUILDLINK_PKGSRCDIR.libX11?=		../../wip/libX11
 .include "../../mk/pthread.buildlink3.mk"
 LIBS+=		${BUILDLINK_LDADD.pthread}
 
-.include "../../wip/xextensions/buildlink3.mk"
+.include "../../x11/xextensions/buildlink3.mk"
 .include "../../wip/xproto/buildlink3.mk"
 .include "../../wip/xtrans/buildlink3.mk"
 .include "../../wip/libXau/buildlink3.mk"

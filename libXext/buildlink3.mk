@@ -17,7 +17,7 @@ BUILDLINK_PKGSRCDIR.libXext?=		../../wip/libXext
 
 .include "../../wip/libX11/buildlink3.mk"
 .include "../../wip/xproto/buildlink3.mk"
-.include "../../wip/xextensions/buildlink3.mk"
+.include "../../x11/xextensions/buildlink3.mk"
 
 .endif # LIBXEXT_BUILDLINK3_MK
 

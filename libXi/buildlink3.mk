@@ -21,7 +21,7 @@ BUILDLINK_PKGSRCDIR.libXi?=		../../wip/libXi
 .include "../../wip/libXau/buildlink3.mk"
 .include "../../wip/libXext/buildlink3.mk"
 .include "../../wip/xproto/buildlink3.mk"
-.include "../../wip/xextensions/buildlink3.mk"
+.include "../../x11/xextensions/buildlink3.mk"
 
 .endif # LIBXI_BUILDLINK3_MK
 

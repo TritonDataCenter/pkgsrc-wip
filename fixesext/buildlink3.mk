@@ -15,7 +15,7 @@ BUILDLINK_PACKAGES+=			fixesext
 BUILDLINK_DEPENDS.fixesext?=		fixesext>=2.0
 BUILDLINK_PKGSRCDIR.fixesext?=		../../wip/fixesext
 
-.include "../../wip/xextensions/buildlink3.mk"
+.include "../../x11/xextensions/buildlink3.mk"
 
 .endif # FIXESEXT_BUILDLINK3_MK
 
