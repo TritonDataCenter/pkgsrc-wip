@@ -1,5 +1,4 @@
 @comment $NetBSD$
-etc/rc.d/amavisd
 ${AMAVIS_MILTER_USED}sbin/amavis
 ${AMAVIS_MILTER_USED}sbin/amavis-milter
 sbin/amavisd

@@ -1,6 +1,5 @@
 @comment $NetBSD$
 sbin/drweb-smf
-etc/rc.d/drweb-smf
 ${DRW_DOCDIR}/addresses_list.txt
 ${DRW_DOCDIR}/conf_file.txt
 ${DRW_DOCDIR}/notify.txt

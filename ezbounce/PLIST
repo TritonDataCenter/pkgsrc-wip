@@ -1,5 +1,4 @@
 @comment $NetBSD$
-etc/rc.d/ezbounce
 man/man1/ezbounce.1
 sbin/ezbchk
 sbin/ezbounce

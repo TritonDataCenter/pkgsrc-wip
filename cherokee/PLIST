@@ -1,5 +1,4 @@
 @comment $NetBSD$
-etc/rc.d/cherokee
 include/cherokee/avl.h
 include/cherokee/buffer.h
 include/cherokee/cherokee.h

@@ -1,7 +1,6 @@
 @comment $NetBSD$
 bin/drweb
 bin/drweb-bin
-etc/rc.d/drwebd
 sbin/drweb-update
 sbin/drwebd
 sbin/drwebd-bin

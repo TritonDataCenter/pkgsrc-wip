@@ -1,6 +1,5 @@
 @comment $NetBSD$
 bin/qico
 ${QCC}bin/qcc
-etc/rc.d/qico
 share/examples/qico/qico.conf
 @dirrm share/examples/qico

@@ -1,6 +1,4 @@
 @comment $NetBSD$
-etc/rc.d/cvsd
-etc/rc.d/cvsd
 sbin/cvsd
 sbin/cvsd-buildroot
 sbin/cvsd-passwd
