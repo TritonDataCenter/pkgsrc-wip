@@ -14,6 +14,5 @@ USE_BUILDLINK3=		yes
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 
-DEPENDS+=		SDL:../../devel/SDL
-
+.include "../../devel/SDL/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
