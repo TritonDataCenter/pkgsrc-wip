@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	chksniff-0.1
+DISTNAME=	chksniff-0.2
 CATEGORIES=	security net
 MASTER_SITES=	http://virtus.ath.cx/chksniff/
 
