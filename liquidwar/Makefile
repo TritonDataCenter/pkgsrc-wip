@@ -5,7 +5,7 @@ DISTNAME=	liquidwar-5.5.9
 CATEGORIES=	games
 MASTER_SITES=	http://savannah.nongnu.org/download/liquidwar/
 
-MAINTAINER=	tech-pkg@NetBSD.org
+MAINTAINER=	wiz@NetBSD.org
 HOMEPAGE=	http://www.ufoot.org/liquidwar/
 COMMENT=	Unique multiplayer wargame
 
