@@ -56,9 +56,7 @@ jre/lib/${MACHINE_ARCH}/libzip-${PKGVERSION}.so
 jre/lib/${MACHINE_ARCH}/libzip.la
 jre/lib/${MACHINE_ARCH}/libzip.so
 jre/lib/rt.jar
-jre/lib/security/.pkgsrc
 jre/lib/security/java.security
-jre/lib/security/java.security.default
 lib/kjc.jar
 license.terms
 man/man1/kaffe.1
