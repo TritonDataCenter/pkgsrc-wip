@@ -9,7 +9,7 @@ MAINTAINER=	marc@informatik.uni-bremen.de
 HOMEPAGE=	http://www.nongnu.org/chktex/
 COMMENT=	LaTeX semantic checker
 
-DEPENDS+=	lynx:../../www/lynx
+DEPENDS+=	lynx-[0-9]*:../../www/lynx
 
 USE_BUILDLINK2=	YES
 USE_GMAKE=	YES
