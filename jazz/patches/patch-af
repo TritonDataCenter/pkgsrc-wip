@@ -1,0 +1,18 @@
+$NetBSD$
+
+--- src/events.h.orig	Fri Mar  3 11:03:57 2000
++++ src/events.h
+@@ -40,13 +40,6 @@
+ #define assert_h
+ #endif
+ 
+-#ifndef wx_msw
+-#ifndef values_h
+-#include <values.h>
+-#define values_h
+-#endif
+-#endif
+-
+ #ifndef wx_wxh
+ #ifdef wx_xview
+ #undef BITSPERBYTE
