@@ -1,0 +1,9 @@
+@comment $NetBSD$
+bin/uqm
+lib/uqm/uqm
+share/uqm/content/version
+@dirrm share/uqm/content/packages/addons
+@dirrm share/uqm/content/packages
+@dirrm share/uqm/content
+@dirrm share/uqm
+@dirrm lib/uqm
