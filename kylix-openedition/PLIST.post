@@ -1,0 +1,3 @@
+@comment $NetBSD$
+@exec %D/${EMULSUBDIR}/sbin/ldconfig -r %D/${EMULSUBDIR}
+@unexec %D/${EMULSUBDIR}/sbin/ldconfig -r %D/${EMULSUBDIR} 2>/dev/null
