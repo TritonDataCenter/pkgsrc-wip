@@ -5,12 +5,12 @@ PKGNAME=		p5-gtk2-0.12
 CATEGORIES=		x11 perl5
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=gtk2-perl/}
 
-DEPENDS+=		perl>=5.8.0:../../lang/perl58
-DEPENDS+=		p5-Inline>=0.43:../../devel/p5-Inline
-
 MAINTAINER=		benedikt.meurer@unix-ag.uni-siegen.de
 HOMEPAGE=		http://gtk2-perl.sourceforge.net/
 COMMENT=		Perl bindings for GTK+ 2.0
+
+DEPENDS+=		perl>=5.8.0:../../lang/perl58
+DEPENDS+=		p5-Inline>=0.43:../../devel/p5-Inline
 
 USE_BUILDLINK2=		YES
 USE_X11=		YES
