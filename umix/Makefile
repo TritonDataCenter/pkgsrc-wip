@@ -15,7 +15,6 @@ USE_LIBTOOL=	YES
 AUTOMAKE_REQD=          1.4
 GNU_CONFIGURE=          yes
 USE_GMAKE=              yes
-USE_LIBTOOL=            yes
 #LIBTOOL_OVERRIDE=      ${WRKSRC}/libtool
 
 PLIST_SUBST+=           DISTNAME=${DISTNAME}
