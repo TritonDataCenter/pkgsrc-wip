@@ -1,4 +1,3 @@
 $NetBSD$
 
 Not tested on -current
-patch-aa needs work as it should follow ${SSLBASE}
