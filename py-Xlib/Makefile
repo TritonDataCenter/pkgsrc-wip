@@ -2,7 +2,7 @@
 
 DISTNAME=	python-xlib-0.12
 PKGNAME=	${PYPKGPREFIX}-Xlib-0.12
-CATEGORIES=	wip
+CATEGORIES=	devel x11
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=python-xlib/}
 
 MAINTAINER=	ccatrian@eml.cc
