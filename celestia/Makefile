@@ -5,6 +5,8 @@
 
 COMMENT=	Free real-time 3D space simulator
 
+USE_GMAKE=	YES
+
 CONFIGURE_ARGS+=	--without-gtk
 CONFIGURE_ARGS+=	--without-kde
 
