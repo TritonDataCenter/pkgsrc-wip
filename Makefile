@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.1688 2005/03/15 17:34:51 obache Exp $
+# $Id: Makefile,v 1.1689 2005/03/16 01:04:30 dmb_ Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -64,6 +64,7 @@ SUBDIR+=	aols-postgres
 SUBDIR+=	aolserver
 SUBDIR+=	aolserver4
 SUBDIR+=	ap-bunzip2
+SUBDIR+=	ap-choke
 SUBDIR+=	ap-frontpage
 SUBDIR+=	ap-macro
 SUBDIR+=	ap-ometer
