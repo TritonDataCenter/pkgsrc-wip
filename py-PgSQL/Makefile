@@ -1,8 +1,9 @@
 # $NetBSD$
 #
 
-DISTNAME=	pyPgSQL-2.3
+DISTNAME=	pyPgSQL-2.4
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME:S/py//}
+WRKSRC=		${WRKDIR}/pypgsql
 CATEGORIES=	databases
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=pypgsql/}
 
@@ -10,7 +11,6 @@ MAINTAINER=	marc@informatik.uni-bremen.de
 HOMEPAGE=	http://pypgsql.sourceforge.net/
 COMMENT=	Python DB-API 2.0 compliant interface to PostgreSQL
 
-WRKSRC=		${WRKDIR}/pypgsql
 USE_BUILDLINK2=	YES
 PYDISTUTILSPKG=	YES
 PYBINMODULE=	YES
