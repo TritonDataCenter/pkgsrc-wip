@@ -9,6 +9,8 @@ COMMENT=	XFce4 filemanager
 
 MESSAGE_SRC+=	${.CURDIR}/MESSAGE
 
+PKGCONFIG_OVERRIDE=	src/xffm-1.0.pc.in
+
 .include "../../databases/dbh/buildlink2.mk"
 .include "../../devel/pkgconfig/buildlink2.mk"
 .include "../../textproc/libxml2/buildlink2.mk"
