@@ -19,8 +19,6 @@ BUILDLINK_FILES.freeglut+=	include/GL/freeglut_ext.h
 BUILDLINK_FILES.freeglut+=	include/GL/glut.h
 BUILDLINK_FILES.freeglut+=	lib/libglut.*
 
-.include "../../graphics/MesaLib/buildlink2.mk"
-
 BUILDLINK_TARGETS+=	freeglut-buildlink
 
 freeglut-buildlink: _BUILDLINK_USE
