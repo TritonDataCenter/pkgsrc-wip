@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		gdal-1.2.5
+DISTNAME=		gdal-lib-1.2.5
 CATEGORIES=		wip
 MASTER_SITES=		http://gdal.org/dl/
 
