@@ -16,6 +16,8 @@ USE_LOCALEDIR=		YES
 GNU_CONFIGURE=		YES
 USE_LIBTOOL=		YES
 
+LDFLAGS+=		${EXPORT_SYMBOLS_LDFLAGS}
+
 .include "../../audio/libsndfile/buildlink3.mk"
 .include "../../devel/SDL/buildlink3.mk"
 .include "../../devel/pkgconfig/buildlink3.mk"
