@@ -2,7 +2,7 @@
 
 .include "../xfce4/Makefile.common"
 
-XFCE4_VERSION=	0.2.6
+XFCE4_VERSION=	0.2.8
 
 DISTNAME=	xfce4-systemload-plugin-${XFCE4_VERSION}
 CATEGORIES=	sysutils
