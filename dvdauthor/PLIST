@@ -1,0 +1,9 @@
+@comment $NetBSD$
+bin/dvdauthor
+bin/dvddirdel
+bin/dvdunauthor
+bin/mpeg2desc
+bin/spumux
+bin/spuunmux
+man/man1/dvdauthor.1
+man/man1/spumux.1
