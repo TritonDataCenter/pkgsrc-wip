@@ -10,7 +10,7 @@ MAINTAINER=	 	zul@netbsd-fr.org
 HOMEPAGE=		http://eboard.sourceforge.net/
 COMMENT=		Chess Inteface for Unix chess engines
 
-DEPENDS+=	sox*:../../audio/sox
+DEPENDS+=		sox-[0-9]*:../../audio/sox
 
 USE_BUILDLINK3=		yes
 USE_PERL5=		yes

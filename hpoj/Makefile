@@ -11,9 +11,9 @@ HOMEPAGE=		http://hpoj.sourceforge.net/
 COMMENT=		HP OfficeJet Linux driver; printing, scanning, and photo-card access
 
 # Add this DEPENDS for killall command
-DEPENDS+=       psmisc[0-9]*:../../sysutils/psmisc
+DEPENDS+=       psmisc-[0-9]*:../../sysutils/psmisc
 # The ptal-cups script require bash
-DEPENDS+=	bash[0-9]*:../../shells/bash
+DEPENDS+=	bash-[0-9]*:../../shells/bash
 
 USE_BUILDLINK3=		yes
 USE_GNU_TOOLS+=		make
