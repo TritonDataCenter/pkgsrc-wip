@@ -1,0 +1,3 @@
+@comment $NetBSD$
+lib/jabberd/msntrans.so
+share/examples/jabberd/jabberd-msn.xml
