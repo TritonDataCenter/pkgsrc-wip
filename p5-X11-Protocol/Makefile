@@ -9,7 +9,7 @@ MASTER_SITES=		${MASTER_SITE_PERL_CPAN:=X11/}
 MAINTAINER=		roland.illig@gmx.de
 COMMENT=		Interface to the X11 protocol
 
-USE_BUILDLINK2=		YES
+USE_BUILDLINK3=		YES
 PERL5_PACKLIST=		${PERL5_SITEARCH}/auto/X11/Protocol/.packlist
 
 .include "../../lang/perl5/module.mk"
