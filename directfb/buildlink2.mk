@@ -34,7 +34,6 @@ BUILDLINK_FILES.directfb+=	lib/libdirectfb.*
 BUILDLINK_FILES.directfb+=	lib/pkgconfig/directfb-internal.pc
 BUILDLINK_FILES.directfb+=	lib/pkgconfig/directfb.pc
 
-.include "../../devel/pkgconfig/buildlink2.mk"
 .include "../../graphics/png/buildlink2.mk"
 .include "../../graphics/jpeg/buildlink2.mk"
 .include "../../graphics/freetype2/buildlink2.mk"

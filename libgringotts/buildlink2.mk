@@ -18,7 +18,6 @@ BUILDLINK_FILES.libgringotts+=	include/libgringotts.h
 BUILDLINK_FILES.libgringotts+=	lib/libgringotts.*
 BUILDLINK_FILES.libgringotts+=	lib/pkgconfig/libgringotts.pc
 
-.include "../../devel/pkgconfig/buildlink2.mk"
 .include "../../security/libmcrypt/buildlink2.mk"
 .include "../../security/mhash/buildlink2.mk"
 

@@ -20,7 +20,6 @@ BUILDLINK_FILES.gift+=	lib/libgiftproto.*
 BUILDLINK_FILES.gift+=	lib/pkgconfig/libgift.pc
 
 .include "../../audio/libvorbis/buildlink2.mk"
-.include "../../devel/pkgconfig/buildlink2.mk"
 
 BUILDLINK_TARGETS+=	gift-buildlink
 
