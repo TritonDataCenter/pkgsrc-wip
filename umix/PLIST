@@ -1,0 +1,10 @@
+@comment $NetBSD$
+bin/umix
+lib/umix/libuincurses.a
+lib/umix/libuincurses.la
+lib/umix/libuincurses.so
+man/man1/umix.1
+${GTK}lib/umix/libuigtk.a
+${GTK}lib/umix/libuigtk.la
+${GTK}lib/umix/libuigtk.so
+
