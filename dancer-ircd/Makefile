@@ -29,7 +29,7 @@ PKG_SYSCONFSUBDIR=	dancer-ircd
 CONF_FILES=	${EGDIR}/ircd.conf.default ${PKG_SYSCONFDIR}/ircd.conf
 
 post-extract:
-	${MV} ${WRKSRC}/doc/example.conf ${WRKSRC}/doc/example.conf.in
+	${MV} ${WRKSRC}/include/config.h.dist ${WRKSRC}/include/config.h.dist.in
 
 pre-configure:
 	${SED} -e "s|@SPATH@|${PREFIX}/bin/dancer-ircd|g" \
@@ -42,7 +42,8 @@ pre-configure:
 		-e "s|@HPATH@|${PKG_SYSCONFDIR}/ohelp|g" \
 		-e "s|@OPATH@|${PKG_SYSCONFDIR}/omotd|g" \
 		-e "s|@MXPATH@|${PKG_SYSCONFDIR}/ircd.max|g" \
-                < ${WRKSRC}/doc/example.conf.in > ${WRKSRC}/doc/example.conf
+                < ${WRKSRC}/include/config.h.dist.in > \
+		  ${WRKSRC}/include/config.h.dist
 
 do-install:
 	${INSTALL_DATA_DIR} ${EGDIR}
