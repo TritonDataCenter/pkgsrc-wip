@@ -15,7 +15,7 @@ to make ACID accessible through:
 	http://www.domain.com/acid/
 
 You will need to customise ${ACID_DIR}/acid_conf.php before 
-ACID will work.  This includes setting up mySQL database access. 
+ACID will work.  This includes setting up database access. 
 For detailed instructions see:
 
 	http://www.andrew.cmu.edu/~rdanyliw/snort/acid_config.html
