@@ -29,5 +29,6 @@ CONFIGURE_ARGS+=	--disable-id3
 .include "../../www/libghttp/buildlink2.mk"
 .include "../../converters/libiconv/buildlink2.mk"
 
+.include "../../mk/ossaudio.buildlink2.mk"
 .include "../../mk/pthread.buildlink2.mk"
 .include "../../mk/bsd.pkg.mk"
