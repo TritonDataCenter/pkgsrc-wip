@@ -1,0 +1,14 @@
+$NetBSD$
+
+--- src/main.c	Thu Oct 30 10:11:29 2003
++++ src/main.c	Tue Nov  4 05:53:45 2003
+@@ -9,6 +9,9 @@
+ #include <libgen.h>
+ #include <paradox-gsf.h>
+ #include "config.h"
++#ifdef ENABLE_NLS
++#include <locale.h>
++#endif
+ #define _(String) gettext(String)
+ 
+ void strrep(char *str, char c1, char c2) {
