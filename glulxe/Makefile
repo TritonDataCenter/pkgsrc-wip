@@ -13,8 +13,8 @@ HOMEPAGE=	http://www.eblong.com/zarf/glulx/index.html
 COMMENT=	Interpreter for Glulx text adventures
 
 USE_BUILDLINK2=	yes
-USE_X11=	yes
 
 .include "../../wip/gtkglk/buildlink2.mk"
+#.include "../../wip/glkterm/buildlink2.mk"
 #.include "../../wip/xglk/buildlink2.mk"
 .include "../../mk/bsd.pkg.mk"
