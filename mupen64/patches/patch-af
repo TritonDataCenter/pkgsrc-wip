@@ -24,7 +24,7 @@ $NetBSD$
  
  mupen64_nogui:	$(OBJ) $(OBJ_X86) main/main.o
 -		$(CC) $^ $(LIB) -Wl,-export-dynamic -L/usr/X11R6/lib -lSDL -lGL -lpthread -ldl -o $@
-+		$(CC) $^ $(LIB) @LDFLAGS@ -L${X11BASE}/lib -Wl,-R${X11BASE}/lib -L$(PREFIX)/lib -Wl,-R$(PREFIX)/lib -lSDL -lGL -o $@
++		$(CC) $^ $(LIB) @LDFLAGS@ -L${X11BASE}/lib -Wl,-R${X11BASE}/lib -L$(PREFIX)/lib -Wl,-R$(PREFIX)/lib `sdl-config --libs` -lGL -o $@
  		strip --strip-all $@
  
  mupen64:	$(OBJ) $(OBJ_X86) $(OBJ_GTK_GUI)
