@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.579 2003/10/30 01:31:28 xtraeme Exp $
+# $Id: Makefile,v 1.580 2003/10/30 05:33:37 minskim Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -383,6 +383,7 @@ SUBDIR+=	py-biggles
 SUBDIR+=	py-cjkcodecs
 SUBDIR+=	py-elementtree
 SUBDIR+=	py-game
+SUBDIR+=	py-gdick
 SUBDIR+=	py-generateDS
 SUBDIR+=	py-gnosis-utils
 SUBDIR+=	py-libpcap
