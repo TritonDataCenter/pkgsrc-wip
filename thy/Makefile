@@ -50,5 +50,4 @@ post-install:
 .include "../../security/gnutls/buildlink2.mk"
 .include "../../security/PAM/buildlink2.mk"
 .include "../../devel/zlib/buildlink2.mk"
-.include "../../mk/texinfo.mk"
 .include "../../mk/bsd.pkg.mk"
