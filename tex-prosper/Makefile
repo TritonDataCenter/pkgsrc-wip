@@ -13,7 +13,6 @@ HOMEPAGE=	http://prosper.sourceforge.net/
 COMMENT=	LaTeX class for writing transparencies
 
 DEPENDS+=	teTeX{,2}-bin-[0-9]*:../../print/teTeX-bin
-DEPENDS+=	teTeX{,2}-share-[0-9]*:../../print/teTeX-share
 
 EXTRACT_ONLY=	${DISTNAME}${EXTRACT_SUFX}
 NO_CONFIGURE=	yes
