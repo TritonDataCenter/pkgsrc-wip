@@ -14,17 +14,13 @@ DEPENDS+=	${PYPKGPREFIX}-cjkcodecs-[0-9]*:../../wip/py-cjkcodecs
 
 PYDISTUTILSPKG=	yes
 USE_BUILDLINK2=	yes
-
 NO_CONFIGURE=	yes
 
-post-patch:
-.for f in gdick gdick_applet lib/gdick/gdick.py lib/gdick/YahooDict.py \
-		GNOME_GDick.server
-	cd ${WRKSRC}; ${MV} $f $f.orig; \
-	${SED} -e \
-		's,/usr/,${LOCALBASE}/,g' \
-		$f.orig > $f
-.endfor
+SUBST_CLASSES+=		paths
+SUBST_MESSAGE.paths=	"Fixing hardcoded paths."
+SUBST_STAGE.paths=	post-patch
+SUBST_FILES.paths=	GNOME_GDick.server lib/gdick/gdick.py
+SUBST_SED.paths=	-e 's,/usr/,${PREFIX}/,g'
 
 .include "../../x11/py-gnome2/buildlink2.mk"
 .include "../../lang/python/extension.mk"
