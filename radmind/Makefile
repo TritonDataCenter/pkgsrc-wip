@@ -14,6 +14,9 @@ GNU_CONFIGURE=	YES
 CONFIGURE_ARGS+=	--with-openssl=${BUILDLINK_PREFIX.openssl}
 CONFIGURE_ARGS+=	--with-radminddir=${VARBASE}/radmind
 
+USE_PKGINSTALL=	YES
+RCD_SCRIPTS=	radmind
+
 post-build:
 	(cd ${WRKSRC} && ${MAKE} man rash)
 
