@@ -1,4 +1,6 @@
 @comment $NetBSD$
 bin/obconf
+share/applications/obconf.desktop
 share/obconf/obconf.glade
 @dirrm share/obconf
+@comment in gnome2-dirs: @dirrm share/applications
