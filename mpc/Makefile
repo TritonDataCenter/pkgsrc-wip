@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	mpc-0.10.1
+DISTNAME=	mpc-0.10.3
 CATEGORIES=	audio
 MASTER_SITES=	http://mercury.chem.pitt.edu/~shank/
 
