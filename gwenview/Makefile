@@ -14,7 +14,7 @@ USE_BUILDLINK3=	YES
 USE_GNU_TOOLS+=	make
 GNU_CONFIGURE=	YES
 
-CONFIGURE_ARGS+= --enable-kipi
+#CONFIGURE_ARGS+= --enable-kipi
 
 .include "../../meta-pkgs/kde3/kde3.mk"
 .include "../../x11/kdelibs3/buildlink3.mk"
