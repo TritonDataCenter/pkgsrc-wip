@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.1155 2004/04/01 05:25:08 xtraeme Exp $
+# $Id: Makefile,v 1.1156 2004/04/01 05:33:04 xtraeme Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -722,7 +722,6 @@ SUBDIR+=	theme-gtk-bluecurve
 SUBDIR+=	theora-nightly
 SUBDIR+=	thunderbird
 SUBDIR+=	tilp
-SUBDIR+=	tinc
 SUBDIR+=	tinylogin
 SUBDIR+=	tkabber
 SUBDIR+=	tleenx2
