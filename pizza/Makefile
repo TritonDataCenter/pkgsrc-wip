@@ -21,7 +21,7 @@ do-install:
 	${INSTALL_DATA} ${DISTDIR}/${DISTNAME}.jar \
 		${PREFIX}/bin/pizza.jar
 	${ECHO} "#!/bin/sh" > ${PREFIX}/bin/pizza
-	${ECHO} "java -jar ${PREFIX}/bin/pizza.jar" >> ${PREFIX}/bin/pizza
+	${ECHO} "java -jar ${PREFIX}/bin/pizza.jar \$$*" >> ${PREFIX}/bin/pizza
 	${CHMOD} +x ${PREFIX}/bin/pizza
 
 .include "../../mk/java-vm.mk"
