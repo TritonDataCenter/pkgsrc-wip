@@ -16,7 +16,10 @@ USE_PKGINSTALL=		yes
 GNU_CONFIGURE=		yes
 
 REPLACE_PERL=		tools/dspam_genaliases.in \
-			tools/dspam_corpus.in
+			tools/dspam_corpus.in \
+			cgi/admin.cgi cgi/admingraph.cgi \
+			cgi/dspam.cgi cgi/graph.cgi
+			
 
 PKGCONFIG_OVERRIDE+=	dspam.pc.in
 
