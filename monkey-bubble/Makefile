@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		monkey-bubble-0.1
+DISTNAME=		monkey-bubble-0.1.5
 CATEGORIES=		games
 MASTER_SITES=		http://monkey-bubble.tuxfamily.org/
 
