@@ -17,7 +17,7 @@ INSTALL_TARGET=	install install-setuid
 post-patch:
 	# Replacing references to /etc/rlprrc to ${PREFIX}/etc/rlprrc
 	@for f in `${GREP} -l /etc/rlprrc ${WRKSRC}/man/*.[0-9n]`; do \
-		if ${TEST} -e $$f.orig; then continue; fi; \
+		if ${TEST} -r $$f.orig; then continue; fi; \
 		${MV} $$f $$f.orig ; \
 		${SED} s%/etc/rlprrc%${PREFIX}/etc/rlprrc%g < $$f.orig > \
 			$$f ; \
