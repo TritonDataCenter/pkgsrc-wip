@@ -11,7 +11,7 @@ HOMEPAGE=		http://www.divmod.org/Home/Projects/Nevow/index.html
 COMMENT=		Next-generation web application templating system
 
 DEPENDS+=		${PYPKGPREFIX}-twisted>=1.2.0:../../wip/py-twisted
-DEPENDS+=		${PYPKGPREFIX}-XML>=0.8.3:../../textproc/py-xml
+DEPENDS+=		${PYPKGPREFIX}-xml>=0.8.3:../../textproc/py-xml
 
 WRKSRC=			${WRKDIR}/${DISTNAME:S/N/n/}
 PY_PATCHPLIST=		yes
