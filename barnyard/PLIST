@@ -1,0 +1,5 @@
+@comment $NetBSD$
+bin/barnyard
+share/doc/barnyard/FAQ
+share/doc/barnyard/USAGE
+@dirrm share/doc/barnyard
