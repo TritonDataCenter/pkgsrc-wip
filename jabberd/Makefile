@@ -34,6 +34,7 @@ pre-configure:
 	${SED} -e "s|@LIBDIR@|${PREFIX}/lib/jabberd|g" \
 		-e "s|@LOG_DIR@|/var/log/jabberd|g" \
 		-e "s|@PID_DIR@|/var/run|g" \
+		-e "s|@SPOOLDIR@|/var/spool/jabberd|g" \
 		< ${WRKSRC}/jabber.xml.in > ${WRKSRC}/jabber.xml
 
 do-install:
