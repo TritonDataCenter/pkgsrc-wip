@@ -1,0 +1,10 @@
+@comment $NetBSD$
+bin/gfontview
+share/gfontviewrc
+share/gnome/apps/Utilities/gfontview.desktop
+${PKGLOCALEDIR}/locale/de/LC_MESSAGES/gfontview.mo
+${PKGLOCALEDIR}/locale/es/LC_MESSAGES/gfontview.mo
+${PKGLOCALEDIR}/locale/fr/LC_MESSAGES/gfontview.mo
+${PKGLOCALEDIR}/locale/ru/LC_MESSAGES/gfontview.mo
+share/pixmaps/gfontview.png
+@dirrm share/gnome/apps/Utilities
