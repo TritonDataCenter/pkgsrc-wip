@@ -7,7 +7,7 @@ CATEGORIES=		net
 MASTER_SITES=		http://oss.corest.com/repo/
 
 MAINTAINER=		dotz@irc.pl
-HOMEPAGE=		http://oss.corest.com/repo/
+HOMEPAGE=		http://oss.corest.com/projects/impacket.html
 COMMENT=		Collection of Python classes for working with network protocols
 
 USE_BUILDLINK2=		yes
