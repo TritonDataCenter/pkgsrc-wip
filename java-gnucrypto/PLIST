@@ -1,0 +1,4 @@
+@comment $NetBSD$
+share/classpath/gnu-crypto.jar
+share/classpath/javax-crypto.jar
+share/classpath/javax-security.jar
