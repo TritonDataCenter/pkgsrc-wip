@@ -1,0 +1,13 @@
+$NetBSD$
+
+--- configure.orig	Wed May 19 22:24:23 2004
++++ configure	Wed May 19 22:24:38 2004
+@@ -20870,7 +20870,7 @@
+ 
+ 	LINKFLAGS="-ldevstat"
+ 	;;
+-netbsdelf1*)
++netbsdelf)
+ 
+ cat >>confdefs.h <<\_ACEOF
+ #define ALLBSD

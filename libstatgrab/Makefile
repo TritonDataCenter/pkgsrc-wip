@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	libstatgrab-0.9
+DISTNAME=	libstatgrab-0.10
 CATEGORIES=	devel
 MASTER_SITES=	ftp://ftp.mirror.ac.uk/sites/ftp.i-scream.org/pub/i-scream/libstatgrab/ \
 		http://www.mirror.ac.uk/sites/ftp.i-scream.org/pub/i-scream/libstatgrab/ \

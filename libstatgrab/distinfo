@@ -1,4 +1,5 @@
 $NetBSD$
 
-SHA1 (i-scream/libstatgrab-0.9.tar.gz) = 03cc50e03e4711629b27f771cfec708c8832a6ed
-Size (i-scream/libstatgrab-0.9.tar.gz) = 396709 bytes
+SHA1 (i-scream/libstatgrab-0.10.tar.gz) = 90ed5616776dc3043646dff55c29486bb99f7a0a
+Size (i-scream/libstatgrab-0.10.tar.gz) = 406060 bytes
+SHA1 (patch-aa) = 4e9af45924d019d77c78e1944c0727ae5c8691c5
