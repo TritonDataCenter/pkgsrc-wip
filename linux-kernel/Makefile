@@ -22,9 +22,9 @@ do-build:
 
 do-install:
 	${CP} ${WRKSRC}/arch/${LOWER_ARCH}/boot/bzImage \
-		/boot/bzImage-${LINUX_VERSION}
+		${PREFIX}/boot/bzImage-${LINUX_VERSION}
 	${CP} ${WRKSRC}/System.map \
-		/boot/System.map-${LINUX_VERSION}
+		${PREFIX}/boot/System.map-${LINUX_VERSION}
 	cd ${WRKSRC} && ${SETENV} ${MAKE_ENV} ${GMAKE} modules_install
 
 .include "../../mk/bsd.pkg.mk"
