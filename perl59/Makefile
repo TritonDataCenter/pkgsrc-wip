@@ -39,7 +39,7 @@ CONFLICTS=	perl-5.00* perl-base-[0-9]* \
 		p5-Devel-DProf-[0-9]* p5-Devel-Peek-[0-9]* \
 		perl-mk-[0-9]*
 
-USE_BUILDLINK2=		YES
+USE_BUILDLINK3=		YES
 HAS_CONFIGURE=		YES
 CONFIGURE_SCRIPT=	./Configure
 CONFIGURE_ARGS+=	-sde

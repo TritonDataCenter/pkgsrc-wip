@@ -15,7 +15,7 @@ DEPENDS+=	p5-XML-LibXML>=1.31:../../textproc/p5-XML-LibXML
 
 USE_PERL5=	yes
 USE_GNU_TOOLS+=	make
-USE_BUILDLINK2=	yes
+USE_BUILDLINK3=	yes
 PKG_SHELL=	${PREFIX}/bin/xsh
 
 PERL5_PACKLIST= ${PERL5_SITEARCH}/auto/XML/XSH/.packlist

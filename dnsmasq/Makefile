@@ -1,16 +1,16 @@
 # $NetBSD$
 #
 
-DISTNAME=	dnsmasq-1.18
-CATEGORIES=	net
+DISTNAME=		dnsmasq-1.18
+CATEGORIES=		net
 MASTER_SITES=	http://www.thekelleys.org.uk/dnsmasq/
 
-MAINTAINER=	pancake@phreaker.net
-HOMEPAGE=	http://www.thekelleys.org.uk/dnsmasq/doc.html
-COMMENT=	Lightweight, easy to configure DNS forwarder
+MAINTAINER=		pancake@phreaker.net
+HOMEPAGE=		http://www.thekelleys.org.uk/dnsmasq/doc.html
+COMMENT=		Lightweight, easy to configure DNS forwarder
 
 USE_GNU_TOOLS+=	make
-USE_BUILDLINK2=	yes
+USE_BUILDLINK3=	YES
 USE_PKGINSTALL= yes
 RCD_SCRIPTS=	dnsmasq
 

@@ -1,16 +1,16 @@
 # $NetBSD$
 #
 
-DISTNAME=	dfm-0.99.9
-CATEGORIES=	x11
-MASTER_SITES=   http://www.kaisersite.de/dfm/
+DISTNAME=			dfm-0.99.9
+CATEGORIES=			x11
+MASTER_SITES=   	http://www.kaisersite.de/dfm/
 
-MAINTAINER=	pancake@phreaker.net
-HOMEPAGE=	http://www.kaisersite.de/dfm/
-COMMENT=	File Manager for Linux and other UNIX like OSs
+MAINTAINER=			pancake@phreaker.net
+HOMEPAGE=			http://www.kaisersite.de/dfm/
+COMMENT=			File Manager for Linux and other UNIX like OSs
 
-USE_BUILDLINK2=		YES
-USE_X11=		YES
+USE_BUILDLINK3=		YES
+USE_X11=			YES
 GNU_CONFIGURE=		YES
 USE_GNU_TOOLS+=		make
 USE_PKGLOCALEDIR=	YES

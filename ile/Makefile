@@ -3,7 +3,7 @@
 
 DISTNAME=		ile-0.4
 CATEGORIES=		wip
-MASTER_SITES=		http://www.jabberstudio.org/files/ile/
+MASTER_SITES=	http://www.jabberstudio.org/files/ile/
 
 MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://www.jabberstudio.org/files/ile/
@@ -12,8 +12,8 @@ COMMENT=		Email notifier component for jabber
 DEPENDS=		p5-Net-Jabber>=1.26:../../net/p5-Net-Jabber
 
 USE_PERL5=		YES
-USE_BUILDLINK2=		yes
-REPLACE_PERL=		${WRKSRC}/ile.pl
+USE_BUILDLINK3=	YES
+REPLACE_PERL=	${WRKSRC}/ile.pl
 
 do-build:
 

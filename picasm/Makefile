@@ -15,7 +15,7 @@ MAKEFILE=	makefile.uni
 ALL_TARGET=	picasm
 
 USE_GNU_TOOLS+=	make
-USE_BUILDLINK2=	yes
+USE_BUILDLINK3=	yes
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/picasm ${PREFIX}/bin/
