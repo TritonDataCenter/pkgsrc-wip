@@ -12,7 +12,7 @@ MAINTAINER=		dotz@irc.pl
 HOMEPAGE=		http://www.kde-look.org/content/show.php?content=9714
 COMMENT=		GTK+ 2.x theme, which looks just like Qt toolkit
 
-USE_BUILDLINK2=		yes
+USE_BUILDLINK3=		yes
 USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=		yes
 USE_GNU_TOOLS+=		make
@@ -25,7 +25,7 @@ CONFIGURE_ENV+=		PKG_CONFIG=${PREFIX}/bin/pkg-config \
 MAKE_ENV+=		QTDIR=${QTDIR}
 MAKE_FLAGS+=		QTDIR=${QTDIR}
 
-.include "../../x11/gtk2/buildlink2.mk"
-.include "../../devel/pkgconfig/buildlink2.mk"
-.include "../../x11/qt3-libs/buildlink2.mk"
+.include "../../x11/gtk2/buildlink3.mk"
+.include "../../devel/pkgconfig/buildlink3.mk"
+.include "../../x11/qt3-libs/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
