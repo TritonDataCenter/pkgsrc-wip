@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		phlib-1.20
-CATEGORIES=		wip
+CATEGORIES=		devel
 MASTER_SITES=		http://www.nfluid.com/download/src/
 EXTRACT_SUFX=		.tgz
 
