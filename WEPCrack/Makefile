@@ -18,5 +18,4 @@ do-install:
 	${INSTALL_SCRIPT} $$A ${PREFIX}/bin/; \
 	done
 
-.include	"../../lang/perl5/buildlink2.mk"
 .include	"../../mk/bsd.pkg.mk"
