@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.764 2003/12/14 01:26:20 xtraeme Exp $
+# $Id: Makefile,v 1.765 2003/12/14 03:31:54 xtraeme Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -26,7 +26,6 @@ SUBDIR+=	XFree86-fontserver
 SUBDIR+=	XFree86-libs
 SUBDIR+=	XFree86-man
 SUBDIR+=	XFree86-server
-SUBDIR+=	abiword2
 SUBDIR+=	abuse_sdl
 SUBDIR+=	acid
 SUBDIR+=	adodb
