@@ -13,7 +13,7 @@ MAINTAINER=		tv@duh.org
 HOMEPAGE=		http://entropy.stop1984.com/
 COMMENT=		Freenet Tools, freesite manipulation tools for Freenet and Entropy
 
-USE_BUILDLINK2=		yes
+USE_BUILDLINK3=		yes
 USE_GNU_TOOLS+=		make
 
 MAKE_FLAGS+=		CC=${CC:Q} LD=${CC:Q} CFLAGS=${CFLAGS:Q} LDFLAGS=${LDFLAGS:Q}
