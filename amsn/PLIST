@@ -144,7 +144,3 @@ share/amsn/smileys.tcl
 share/amsn/socks.tcl
 share/amsn/uninstall.sh
 share/pixmaps/messenger.png
-@dirrm share/amsn/s
-@dirrm share/amsn/lang
-@dirrm share/amsn/i
-@dirrm share/amsn
