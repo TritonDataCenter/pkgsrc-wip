@@ -10,7 +10,7 @@ PKGREVISION=	1
 CATEGORIES=	security
 MASTER_SITES=	ftp://ftp.drweb.ru/pub/unix/4.29.5/			\
 		ftp://ftp.drweb.ru/pub/unix/				\
-		http://drweb.spb.ru/download/unix/
+		ftp://ftp.drweb.ru/pub/unix/betas/
 
 MAINTAINER=	mishka@terabyte.com.ua
 HOMEPAGE=	http://www.drweb.ru/
