@@ -1,0 +1,4 @@
+@comment $NetBSD$
+bin/netcat
+info/netcat.info
+man/man1/netcat.1
