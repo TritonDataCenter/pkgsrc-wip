@@ -22,6 +22,12 @@ XINSTALL_DIRS=		include lib nls programs/Xserver/include \
 			programs/Xserver/hw/xfree86/parser
 XINSTALL_MAN_DIRS=	${XINSTALL_DIRS}
 
+.include "../../mk/bsd.prefs.mk"
+
+.if ${OPSYS} == "FreeBSD" || ${OPSYS} == "Linux"
+PLIST_SRC+=	${.CURDIR}/PLIST.DRI
+.endif
+
 .include "../../wip/XFree86/Makefile.common"
 .include "../../fonts/fontconfig/buildlink2.mk"
 .include "../../graphics/freetype2/buildlink2.mk"
