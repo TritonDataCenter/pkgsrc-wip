@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.279 2003/06/27 22:41:28 marc Exp $
+# $Id: Makefile,v 1.280 2003/06/28 00:47:25 tripledes Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -161,6 +161,7 @@ SUBDIR+=	newsx
 SUBDIR+=	nvtv
 SUBDIR+=	nvtv-gtk2
 SUBDIR+=	opax
+SUBDIR+=	openvpn
 SUBDIR+=	p5-Authen-SASL
 SUBDIR+=	p5-Authen-SASL-Cyrus
 SUBDIR+=	p5-CDDB
