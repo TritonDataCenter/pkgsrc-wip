@@ -43,8 +43,10 @@ CONFIGURE_ARGS+=        --enable-languages="${LANGS}"
 CONFIGURE_ARGS+=        --with-system-zlib
 CONFIGURE_ARGS+=	--enable-shared
 CONFIGURE_ARGS+=	--enable-__cxa_atexit
-CONFIGURE_ARGS+=	--disable-nls
+CONFIGURE_ARGS+=	--enable-nls
+CONFIGURE_ARGS+=	--without-included-gettext
 CONFIGURE_ARGS+=	--enable-long-long
+CONFIGURE_ARGS+=        --enable-clocale=generic
 
 USE_BUILDLINK3=		YES
 USE_PKGINSTALL=		YES
