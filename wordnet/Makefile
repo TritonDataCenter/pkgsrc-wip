@@ -17,10 +17,13 @@ BUILD_TARGET=		SrcWorld
 USE_X11=		yes
 USE_BUILDLINK3=		yes
 
-pre-build:
-	${MKDIR} ${WRKSRC}/bin/pkgsrc
+PTHREAD_OPTS+=		require
 
 .include "../../lang/tcl/buildlink3.mk"
 .include "../../x11/tk/buildlink3.mk"
 .include "../../mk/pthread.buildlink3.mk"
+
+pre-build:
+	${MKDIR} ${WRKSRC}/bin/pkgsrc
+
 .include "../../mk/bsd.pkg.mk"

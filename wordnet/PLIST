@@ -122,9 +122,9 @@ share/wordnet/dict/sentidx.vrb
 share/wordnet/dict/sents.vrb
 share/wordnet/dict/verb.exc
 @dirrm lib/wnres
-@dirrm share/doc/wordnet
 @dirrm share/doc/wordnet/html
 @dirrm share/doc/wordnet/pdf
 @dirrm share/doc/wordnet/ps
-@dirrm share/wordnet
+@dirrm share/doc/wordnet
 @dirrm share/wordnet/dict
+@dirrm share/wordnet
