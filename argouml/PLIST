@@ -1,8 +1,10 @@
 @comment $NetBSD$
 bin/argouml
-lib/java/antlrall.jar
-lib/java/argouml.jar
-lib/java/gef.jar
-lib/java/i18n.jar
-lib/java/nsuml.jar
-lib/java/ocl-argo.jar
+lib/java/argouml/antlrall.jar
+lib/java/argouml/argouml.jar
+lib/java/argouml/gef.jar
+lib/java/argouml/i18n.jar
+lib/java/argouml/nsuml.jar
+lib/java/argouml/ocl-argo.jar
+lib/java/argouml/ext/argo_elmuth.jar
+lib/java/argouml/ext/xalan-java1.jar
