@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.1666 2005/02/28 01:19:06 jsrocket Exp $
+# $Id: Makefile,v 1.1667 2005/02/28 07:20:42 ianzag Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -394,6 +394,23 @@ SUBDIR+=	kazehakase
 SUBDIR+=	kino
 SUBDIR+=	kissme
 SUBDIR+=	koffice-i18n
+SUBDIR+=	koffice-i18n-ja
+SUBDIR+=	koffice-i18n-lo
+SUBDIR+=	koffice-i18n-mt
+SUBDIR+=	koffice-i18n-nb
+SUBDIR+=	koffice-i18n-nn
+SUBDIR+=	koffice-i18n-pt
+SUBDIR+=	koffice-i18n-pt_BR
+SUBDIR+=	koffice-i18n-sl
+SUBDIR+=	koffice-i18n-sr
+SUBDIR+=	koffice-i18n-tg
+SUBDIR+=	koffice-i18n-th
+SUBDIR+=	koffice-i18n-tr
+SUBDIR+=	koffice-i18n-ven
+SUBDIR+=	koffice-i18n-xh
+SUBDIR+=	koffice-i18n-zh_CN
+SUBDIR+=	koffice-i18n-zh_TW
+SUBDIR+=	koffice-i18n-zu
 SUBDIR+=	konversation
 SUBDIR+=	korelib
 SUBDIR+=	kpanta
