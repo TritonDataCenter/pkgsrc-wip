@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	Gnosis_Utils-1.0.7
+DISTNAME=	Gnosis_Utils-1.1.0
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME:S/_/-/}
 CATEGORIES=	textproc python
 MASTER_SITES=	http://gnosis.cx/download/

@@ -6,7 +6,7 @@ GNOSIS_UTILS_BUILDLINK2_MK=	# defined
 .include "../../lang/python/pyversion.mk"
 
 BUILDLINK_PACKAGES+=			Gnosis-Utils
-BUILDLINK_DEPENDS.Gnosis-Utils?=	${PYPKGPREFIX}-Gnosis-Utils>=1.0.7
+BUILDLINK_DEPENDS.Gnosis-Utils?=	${PYPKGPREFIX}-Gnosis-Utils>=1.1.0
 BUILDLINK_PKGSRCDIR.Gnosis-Utils?=	../../wip/py-gnosis-utils
 
 EVAL_PREFIX+=	BUILDLINK_PREFIX.Gnosis-Utils=${PYPKGPREFIX}-Gnosis-Utils
