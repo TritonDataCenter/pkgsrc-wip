@@ -1,0 +1,4 @@
+@comment $NetBSD$
+etc/rc.d/arpd
+man/man8/arpd.8
+sbin/arpd
