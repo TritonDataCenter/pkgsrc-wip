@@ -6,7 +6,7 @@ CATEGORIES=		korean inputmethod
 MASTER_SITES=		http://download.kldp.net/imhangul/
 
 MAINTAINER=		minskim@bawi.org
-HOMEPAGE=		http://imhangul.kldp.net/#APPLET
+HOMEPAGE=		http://imhangul.kldp.net/\#APPLET
 COMMENT=		GNOME2 applet to show imhangul status
 
 DEPENDS=		imhangul>=0.9.6:../imhangul
