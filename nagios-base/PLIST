@@ -1,7 +1,6 @@
 @comment $NetBSD$
 bin/nagios
 bin/p1.pl
-etc/nagios/nagios-setup.sh
 libexec/nagios/cgi-bin/avail.cgi
 libexec/nagios/cgi-bin/cmd.cgi
 libexec/nagios/cgi-bin/config.cgi
