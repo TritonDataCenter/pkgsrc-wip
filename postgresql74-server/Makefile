@@ -4,12 +4,12 @@ PKGNAME=		postgresql74-server-${BASE_VERS}
 SVR4_PKGNAME=		pstgs
 COMMENT=		PostgreSQL database server programs
 
-DEPENDS+=		postgresql-client>=${BASE_VERS}:../../databases/postgresql-client
+DEPENDS+=		postgresql-client>=${BASE_VERS}:../../wip/postgresql74-client
 
 # mips has no TAS implementation
 NOT_FOR_PLATFORM=	*-*-mips
 
-.include "../../wip/postgresql/Makefile.common"
+.include "../../wip/postgresql74/Makefile.common"
 
 USE_PKGINSTALL=		yes
 DEINSTALL_EXTRA_TMPL+=	${.CURDIR}/../../databases/postgresql-server/DEINSTALL
