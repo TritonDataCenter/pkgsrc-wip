@@ -21,7 +21,7 @@ $NetBSD$
  
  mupen64_input.so:	$(OBJ)
 -			$(CC) $(OBJ) -Wl,-Bsymbolic -shared -lSDL `gtk-config --cflags --libs` -o $@
-+			$(CC) $(CFLAGS) $(OBJ) -Wl,-Bsymbolic -shared -lSDL \
++			$(CC) $(CFLAGS) $(OBJ) -Wl,-Bsymbolic -shared `sdl-config --libs` \
 +			    `gtk-config --cflags --libs` -o $@
  			strip --strip-all $@
  

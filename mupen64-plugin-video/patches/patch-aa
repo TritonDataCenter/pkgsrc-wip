@@ -10,7 +10,7 @@ $NetBSD$
 +#CC = gcc
 +CFLAGS += -DUSE_GTK `sdl-config --cflags` `gtk-config --cflags`
 +#LD = gcc
-+LDFLAGS += -lGL -lGLU -L${X11BASE}/lib -lSDL
++LDFLAGS += -lGL -lGLU -L${X11BASE}/lib `sdl-config --libs`
  
 -OBJECTS = 3dmath.o autodet.o combine1.o debug.o display.o driver.o lighting.o rdp.o rdp_gl.o render.o sdlgl.o texture.o
 +OBJECTS =   3dmath.o autodet.o combine1.o debug.o display.o driver.o \
