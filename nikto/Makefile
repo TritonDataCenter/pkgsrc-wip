@@ -1,8 +1,8 @@
 # $NetBSD$
 
-DISTNAME=	nikto-1.31
+DISTNAME=	nikto-1.32
 CATEGORIES=	security www
-MASTER_SITES=	http://www.cirt.net/source/
+MASTER_SITES=	http://www.cirt.net/nikto/
 
 MAINTAINER=	adrianp@stindustries.net
 HOMEPAGE= 	http://www.cirt.net/code/nikto.shtml
