@@ -1,9 +1,6 @@
 @comment $NetBSD$
 bin/gnumeric
 bin/ssconvert
-etc/gconf/schemas/gnumeric-dialogs.schemas
-etc/gconf/schemas/gnumeric-general.schemas
-etc/gconf/schemas/gnumeric-plugins.schemas
 lib/bonobo/servers/GNOME_Gnumeric.server
 lib/gnumeric/${PKGVERSION}-bonobo/plugins/applix/applix.a
 lib/gnumeric/${PKGVERSION}-bonobo/plugins/applix/applix.la
