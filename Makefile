@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.1379 2004/07/13 04:09:42 cetrox Exp $
+# $Id: Makefile,v 1.1380 2004/07/13 11:02:29 jmmv Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -793,7 +793,6 @@ SUBDIR+=	wxgtk-devel-contrib
 SUBDIR+=	xbase
 SUBDIR+=	xbelmark
 SUBDIR+=	xbsql
-SUBDIR+=	xdkcal
 SUBDIR+=	xevil
 SUBDIR+=	xinetd
 SUBDIR+=	xlibs
