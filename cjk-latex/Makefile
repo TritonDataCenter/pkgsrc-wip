@@ -41,4 +41,5 @@ post-install:
 	# Update ls-R
 	@${SH} ${INSTALL_FILE} ${PKGNAME} POST-INSTALL
 
+.include "../../print/teTeX-bin/kpathsea.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
