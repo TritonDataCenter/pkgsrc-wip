@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.1148 2004/03/30 22:14:52 poppnk Exp $
+# $Id: Makefile,v 1.1149 2004/03/30 23:14:20 xtraeme Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -528,7 +528,6 @@ SUBDIR+=	picprog
 SUBDIR+=	pinball
 SUBDIR+=	pizza
 SUBDIR+=	plugger
-SUBDIR+=	poedit
 SUBDIR+=	pointless
 SUBDIR+=	portaudio
 SUBDIR+=	portmap
