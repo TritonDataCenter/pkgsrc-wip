@@ -1,0 +1,4 @@
+@comment $NetBSD$
+include/ming.h
+include/mingpp.h
+lib/libming.so.0.2
