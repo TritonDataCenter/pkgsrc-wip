@@ -11,7 +11,7 @@
 name="jabberd"
 rcvar=$name
 command="@PREFIX@/bin/${name}"
-pidfile="/var/run/${help_name}.pid"
+command_args="-D"
 required_files="@PKG_SYSCONFDIR@/jabberd.cfg"
 jabberd_user="jabberd"
 jabberd_group="jabberd"
