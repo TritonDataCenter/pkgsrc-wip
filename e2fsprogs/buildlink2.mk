@@ -10,7 +10,7 @@ E2FSPROGS_BUILDLINK2_MK=	# defined
 
 BUILDLINK_PACKAGES+=			e2fsprogs
 BUILDLINK_DEPENDS.e2fsprogs?=		e2fsprogs>=1.34
-BUILDLINK_PKGSRCDIR.e2fsprogs?=		../../sysutils/e2fsprogs
+BUILDLINK_PKGSRCDIR.e2fsprogs?=		../../wip/e2fsprogs
 
 EVAL_PREFIX+=	BUILDLINK_PREFIX.e2fsprogs=e2fsprogs
 BUILDLINK_PREFIX.e2fsprogs_DEFAULT=	${LOCALBASE}
