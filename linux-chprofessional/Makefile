@@ -32,7 +32,7 @@ do-install:
 	cd ${WRKSRC} && ${SETENV} PREFIX="${PREFIX}" ./install.sh
 	${CAT} ${PKGDIR}/PLIST.pre >${PLIST_SRC}
 	cd ${PREFIX} && ${FIND} chprofessional4.0.0 -type f -print >>${PLIST_SRC}
-	cd ${PREFIX} && ${FIND} chprofessional4.0.0 -type l -print >>${PLIST_SRC}	
+	cd ${PREFIX} && ${FIND} chprofessional4.0.0 -type l -print >>${PLIST_SRC}
 	cd ${PREFIX} && ${FIND} -d chprofessional4.0.0  -type d -print | \
 	${SED} -e "s/^/@dirrm /" >>${PLIST_SRC}
 

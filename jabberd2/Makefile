@@ -162,7 +162,7 @@ post-install:
 	${INSTALL_DATA_DIR} ${EGDIR}
 	@${MV} ${WRKSRC}/etc/templates/roster.xml.dist.in \
 		${WRKSRC}/etc/roster.xml
-	${INSTALL_SCRIPT} ${WRKSRC}/tools/pipe-auth.pl ${BINDIR}	
+	${INSTALL_SCRIPT} ${WRKSRC}/tools/pipe-auth.pl ${BINDIR}
 .for f in ${DBFILES}
 	${INSTALL_DATA} ${WRKSRC}/tools/${f} ${EGDIR}
 .endfor
