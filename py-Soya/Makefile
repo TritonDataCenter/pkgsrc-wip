@@ -18,7 +18,11 @@ PYDISTUTILSPKG=		yes
 PYTHON_VERSIONS_ACCEPTED=	23pth
 
 .include "../../lang/python/extension.mk"
+.if exists(../../mk/opengl.buildlink2.mk") # see PR #23845 for details
 .include "../../mk/opengl.buildlink2.mk"
+.else
+.include "../../graphics/MesaLib/buildlink2.mk"
+.endif
 .include "../../graphics/freetype2/buildlink2.mk"
 .include "../../graphics/png/buildlink2.mk"
 .include "../../wip/cal3d/buildlink2.mk"
