@@ -10,7 +10,7 @@ MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://www.nfluid.com/download/src/
 COMMENT=		API for secure io/net/mem/str functions
 
-USE_BUILDLINK2=		yes
+USE_BUILDLINK3=		yes
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 USE_GNU_TOOLS+=		make

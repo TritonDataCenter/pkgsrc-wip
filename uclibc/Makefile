@@ -10,7 +10,7 @@ HOMEPAGE=	http://www.uclibc.org/
 COMMENT=	C library for developing embedded Linux systems
 
 USE_GNU_TOOLS+=	make
-USE_BUILDLINK2=	yes
+USE_BUILDLINK3=	yes
 
 ONLY_FOR_PLATFORM=	Linux-*-*
 

@@ -8,7 +8,7 @@ MAINTAINER=	recht@NetBSD.org
 HOMEPAGE=	http://www.python.org/topics/database/
 COMMENT=	Python extension module for Berkeley DB 3 and 4
 
-USE_BUILDLINK2=	yes
+USE_BUILDLINK3=	yes
 PYDISTUTILSPKG=	yes
 PYBINMODULE=	yes
 
@@ -27,7 +27,7 @@ do-patch:
 	${PATCH} --batch <$$f || true; \
 	done)
 
-.include "../../databases/db4/buildlink2.mk"
+.include "../../databases/db4/buildlink3.mk"
 .include "../../lang/python/extension.mk"
 .include "../../lang/python/srcdist.mk"
 .include "../../mk/bsd.pkg.mk"

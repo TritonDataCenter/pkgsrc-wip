@@ -17,7 +17,7 @@ VMAC_VERSION=	0.1.9.3
 VMAC_MOTIFGUI?=	yes
 BUILD_DEFS=	VMAC_MOTIFGUI
 
-USE_BUILDLINK2=	YES
+USE_BUILDLINK3=	YES
 GNU_CONFIGURE=	YES
 USE_X11BASE=	YES
 CONFIGURE_ARGS=	--with-x
@@ -40,6 +40,6 @@ do-install:
 		${INSTALL_DATA} ${WRKSRC}/LICENSE ${PREFIX}/share/doc/vMac
 
 .if ${VMAC_MOTIFGUI} == "yes"
-.include "../../mk/motif.buildlink2.mk"
+.include "../../mk/motif.buildlink3.mk"
 .endif
 .include "../../mk/bsd.pkg.mk"
