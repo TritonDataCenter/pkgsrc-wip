@@ -7,7 +7,7 @@ MASTER_SITES=	http://imil.net/NetBSD/
 
 MAINTAINER=	imil@gcu.info
 HOMEPAGE=	http://imil.net/
-COMMENT=	Notifies package maintener when a new version is available
+COMMENT=	Notifies package maintainer when a new version is available
 
 DEPENDS+=	p5-libwww>=5.76:../../www/p5-libwww
 
