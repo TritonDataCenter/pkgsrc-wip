@@ -42,9 +42,7 @@ CONFLICTS+=     amavis-perl-[0-9]*
 PERL5_REQD=     5.8.0
 
 .include "../../mk/bsd.prefs.mk"
-.if defined(USE_MILTER) && ${USE_MILTER} == "YES"
 USE_BUILDLINK2= yes
-.endif
 
 VERSION=	20030616
 PATCHLEVEL=	p6
