@@ -2,18 +2,20 @@
 #
 
 DISTNAME=		darcs-0.9.20
-CATEGORIES=		rillig
+CATEGORIES=		devel
 MASTER_SITES=		http://abridgegame.org/darcs/
 
 MAINTAINER=		roland.illig@gmx.de
 HOMEPAGE=		http://abridgegame.org/darcs/
 COMMENT=		Advanced Revision Control System based on patches
 
-USE_BUILDLINK3=		no
+USE_BUILDLINK3=		yes
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 USE_GNU_TOOLS+=		make
-MAKEFLAGS=		LDFLAGS=
+MAKEFLAGS+=		LDFLAGS=
+MAKEFLAGS+=		CPPFLAGS=
 MAKEFILE=		${WRKSRC}/GNUmakefile
 
+.include "../../lang/ghc/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
