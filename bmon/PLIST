@@ -1,5 +1,5 @@
 @comment $NetBSD$
 bin/bmon
 man/man1/bmon.1
-share/examples/bmon/bmonrc
+share/examples/bmon/bmon.conf
 @dirrm share/examples/bmon
