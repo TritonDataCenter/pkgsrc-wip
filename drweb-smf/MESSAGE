@@ -1,0 +1,10 @@
+===========================================================================
+$NetBSD$
+
+To enable this mail filter on your sendmail server, please add the
+contents of the following file to /etc/mail/sendmail.mc, and then
+rebuild last one:
+
+	${EGDIR}/sendmail.mc.addon
+
+===========================================================================
