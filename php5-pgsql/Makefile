@@ -1,6 +1,6 @@
 # $NetBSD$
 
-PKGNAME=	php5-pgsql
+PKGNAME=	php5-pgsql-${PHP5_VERSION}
 CATEGORIES+=	databases
 COMMENT=	PHP5 extension for PostgreSQL databases
 
