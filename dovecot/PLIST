@@ -1,10 +1,5 @@
 @comment $NetBSD$
 etc/rc.d/dovecot
-libexec/dovecot/dovecot-auth
-libexec/dovecot/imap
-libexec/dovecot/imap-login
-libexec/dovecot/pop3
-libexec/dovecot/pop3-login
 sbin/dovecot
 share/doc/dovecot/auth.txt
 share/doc/dovecot/configuration.txt
