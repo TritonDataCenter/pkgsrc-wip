@@ -36,7 +36,9 @@ DISTTYPE=	glibc.${GLIBC_VERSION}
 .endif
 
 # The following used by drweb-update script only
+.if ${OPSYS} != "FreeBSD"	# FreeBSD have a fetch(1)
 DEPENDS=	wget>=1.7:../../net/wget
+.endif
 USE_PERL5=	YES
 
 NO_BUILD=	YES
