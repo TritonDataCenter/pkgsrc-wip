@@ -5,8 +5,8 @@ DISTNAME=		xmms-infopipe-1.3
 CATEGORIES=		audio
 MASTER_SITES=		http://www.beastwithin.org/users/wwwwolf/code/xmms/
 
-MAINTAINER=		ivaniclixx@terra.es
-HOMEPAGE=		http://www.beastwithin.org/users/wwwwolf/code/xmms/
+MAINTAINER=		ivaniclixx@gmail.com
+HOMEPAGE=		http://www.beastwithin.org/users/wwwwolf/code/xmms/infopipe.html
 COMMENT=		Plugin that reports XMMS status via named pipe
 
 USE_BUILDLINK3=		yes
