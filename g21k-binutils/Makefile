@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		g21k-binutils-PL4
-PKGNAME=		g21k-binutils
+PKGNAME=		g21k-binutils-0.4
 CATEGORIES=		lang
 MASTER_SITES=	ftp://ftp.kvaleberg.com/pub/
 
