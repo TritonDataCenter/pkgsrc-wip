@@ -45,8 +45,6 @@ pre-configure:
 
 pre-install:
 	${INSTALL_DATA_DIR} ${EGDIR}
-	${INSTALL_DATA_DIR} /var/log/exim
-	${CHMOD} 750 /var/log/exim
 	strip ${WRKSRC}/build*/exim
 	strip ${WRKSRC}/build*/exim_dbmbuild
 	strip ${WRKSRC}/build*/exim_tidydb
