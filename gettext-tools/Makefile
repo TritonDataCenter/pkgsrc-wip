@@ -18,7 +18,6 @@ USE_BUILDLINK3=		yes
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 USE_LIBTOOL=		yes
-CONFIGURE_ARGS+=	--mandir=${PREFIX}/man
 
 INFO_FILES=		gettext.info
 

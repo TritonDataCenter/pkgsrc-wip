@@ -16,6 +16,8 @@ BUILDLINK_PACKAGES+=	gettext-tools
 BUILDLINK_DEPENDS.gettext-tools+=	gettext-tools>=0.14.1
 BUILDLINK_PKGSRCDIR.gettext-tools?=	../../wip/gettext-tools
 
+# XXX need to only depend on GNU libiconv on non-glibc systems
+.include "../../converters/libiconv/buildlink3.mk"
 .include "../../wip/gettext-runtime/buildlink3.mk"
 
 .endif	# GETTEXT_TOOLS_BUILDLINK3_MK

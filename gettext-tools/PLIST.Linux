@@ -1,0 +1,2 @@
+@comment $NetBSD$
+lib/preloadable_libintl.so
