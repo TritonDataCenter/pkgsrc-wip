@@ -19,7 +19,7 @@ USE_GMAKE=		yes
 
 ENTROPY_VERSION=	0.8.0-401
 
-CONFIGURE_ARGS+=	--enable-verbose --disable-posix-sem --disable-svid-sem
+CONFIGURE_ARGS+=	--enable-verbose --disable-posix-sem
 
 post-patch:
 	${SED} -e '/^# /!s/^#//' <${WRKSRC}/seed.txt-dist >${WRKSRC}/seed.txt
