@@ -11,7 +11,8 @@ HOMEPAGE=		http://slackware.com/
 COMMENT=		Meta package for slackware_compat development
 
 DEPENDS+=		slackware_gcc>=3.3.3:../../wip/slackware_gcc
-DEPENDS+=		slackware_glibc>=2.3.2:../../wip/slackware-glibc
+DEPENDS+=		slackware_glibc>=2.3.2:../../wip/slackware_glibc
+DEPENDS+=		slackware_make>=3.80:../../wip/slackware_make
 
 EXTRACT_ONLY=		# empty
 NO_CHECKSUM=		yes
