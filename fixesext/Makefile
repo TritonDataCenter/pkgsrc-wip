@@ -7,8 +7,8 @@ MASTER_SITES=		http://freedesktop.org/~xlibs/dist/
 EXTRACT_SUFX=		.tar.bz2
 
 MAINTAINER=		xtraeme@NetBSD.org
-HOMEPAGE=		http://freedesktop.org/
-COMMENT=		header files and documentation for the X RandR extension		
+HOMEPAGE=		http://www.freedesktop.org/Software/xlibs
+COMMENT=		X Fixes extension headers and specification
 
 USE_BUILDLINK2=		yes
 GNU_CONFIGURE=		yes
