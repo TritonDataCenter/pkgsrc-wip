@@ -2,6 +2,7 @@
 #
 
 DISTNAME=		jep-2.24
+PKGNAME=		java-jep-2.24
 CATEGORIES=		wip
 MASTER_SITES=		http://www.singularsys.com/download/
 
