@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.65 2003/04/13 08:26:01 jmmv Exp $
+# $Id: Makefile,v 1.66 2003/04/13 10:52:30 cjep Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -28,6 +28,7 @@ SUBDIR+=	honeyd-arpd
 SUBDIR+=	httrack
 SUBDIR+=	ices
 SUBDIR+=	ickle
+SUBDIR+=	idled
 SUBDIR+=	ike-scan
 SUBDIR+=	ion-devel
 SUBDIR+=	ion-dock
