@@ -22,7 +22,7 @@ GCONF2_SCHEMAS=		gnomeicu.schemas
 
 .include "../../databases/gdbm/buildlink2.mk"
 .include "../../devel/GConf2/schemas.mk"
-.include "../../net/gnet/buildlink2.mk"
+.include "../../net/gnet1/buildlink2.mk"
 .include "../../textproc/scrollkeeper/omf.mk"
 .include "../../x11/gnome-desktop/buildlink2.mk"
 .include "../../mk/bsd.pkg.mk"
