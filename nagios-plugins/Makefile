@@ -23,5 +23,5 @@ DEPENDS+=	nagios-base>=1.0:../../wip/nagios-base
 DEPENDS+=	{ssh{,6}-[0-9]*,openssh-[0-9]*}:../../security/ssh
 .endif
 
-.include "../../security/openssl/buildlink2.mk"
+.include "../../security/openssl/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

@@ -18,7 +18,7 @@ DEPENDS+=	mysql-client>=3.23.49:../../databases/mysql-client
 CONFIGURE_ARGS+=--with-mysql-lib=${LOCALBASE}/lib/mysql \
 		--with-mysql-inc=${LOCALBASE}/include/mysql \
 		--with-mysql-xdata
-.include "../../databases/mysql-client/buildlink2.mk"
+.include "../../databases/mysql-client/buildlink3.mk"
 .endif
 
 .if defined(WITH_POSTGRES)
@@ -57,7 +57,7 @@ post-install:
 	${INSTALL_DATA} ${WRKDIR}/logofullsize.gif ${PREFIX}/share/nagios/images
 	${INSTALL_DATA} ${WRKDIR}/sblogo.gif ${PREFIX}/share/nagios/images
 
-.include "../../graphics/gd/buildlink2.mk"
-.include "../../lang/perl5/buildlink2.mk"
+.include "../../graphics/gd/buildlink3.mk"
+.include "../../lang/perl5/buildlink3.mk"
 .include "../../mk/bsd.pkg.install.mk"
 .include "../../mk/bsd.pkg.mk"
