@@ -12,9 +12,9 @@ name="jabberd"
 help_name="jabber"
 rcvar=$name
 command="@PREFIX@/sbin/${name}"
-command_args="-B -H /var/spool/jabberd -c \$required_files"
-pidfile="/var/run/${help_name}.pid"
 required_files="@PKG_SYSCONFDIR@/jabber.xml"
+command_args="-B -H /var/spool/jabberd -c $required_files"
+pidfile="/var/run/${help_name}.pid"
 jabberd_user="jabberd"
 
 load_rc_config $name

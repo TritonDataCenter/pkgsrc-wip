@@ -69,5 +69,4 @@ post-deinstall:
 	${RM} ${PKG_SYSCONFDIR}/platform-settings
 
 .include "../../security/openssl/buildlink2.mk"
-.include "../../devel/pth/buildlink2.mk"
 .include "../../mk/bsd.pkg.mk"
