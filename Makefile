@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.1310 2004/06/06 23:52:47 tvierling Exp $
+# $Id: Makefile,v 1.1311 2004/06/07 16:59:34 minskim Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -461,6 +461,7 @@ SUBDIR+=	palm-db-tools
 SUBDIR+=	pam-mysql
 SUBDIR+=	pam-pop3
 SUBDIR+=	pango-devel
+SUBDIR+=	panoramixext
 SUBDIR+=	parsifal
 SUBDIR+=	passepartout
 SUBDIR+=	patchutils
