@@ -1,12 +1,12 @@
 @comment $NetBSD$
 lib/libluasocket.so
 lib/libluasocket.so.2.0
-lib/lua/auxiliar.lua
-lib/lua/code.lua
-lib/lua/concat.lua
 lib/lua/ftp.lua
 lib/lua/http.lua
-lib/lua/select.lua
+lib/lua/ltn12.lua
+lib/lua/mime.lua
 lib/lua/smtp.lua
+lib/lua/socket.lua
+lib/lua/tp.lua
 lib/lua/url.lua
 @dirrm lib/lua
