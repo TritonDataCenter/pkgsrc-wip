@@ -19,7 +19,7 @@ PTHREAD_OPTS=		require
 SPECIAL_PERMS+=		${PREFIX}/bin/gkrellm ${ROOT_USER} kmem 2711
 .endif
 
-ONLY_FOR_PLATFORM=	NetBSD-* FreeBSD-* OpenBSD-* Linux-*
+NOT_FOR_PLATFORM=	IRIX-*
 
 .include "../../mk/bsd.prefs.mk"
 

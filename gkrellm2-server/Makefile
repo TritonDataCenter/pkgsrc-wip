@@ -17,6 +17,8 @@ CONF_FILES=		${PREFIX}/share/examples/gkrellm-server/gkrellmd.conf ${PREFIX}/etc
 SPECIAL_PERMS+=         ${PREFIX}/bin/gkrellmd ${ROOT_USER} kmem 2711
 .endif
 
+NOT_FOR_PLATFORM=	IRIX-*
+
 MAKE_ENV+=		MODULES=server
 
 pre-build:
