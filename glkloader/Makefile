@@ -9,7 +9,7 @@ MAINTAINER=		dillo@NetBSD.org
 HOMEPAGE=		http://mirror.ifarchive.org/if-archiveXprogrammingXglkXimplementations.html
 COMMENT=		Glk library that loads real glk implementation at runtime
 
-DEPENDS+=		glkterm-[0-9]:../../wip/glkterm
+DEPENDS+=		glkterm-[0-9]*:../../wip/glkterm
 
 USE_BUILDLINK3=		yes
 USE_PERL5=		build
