@@ -1,5 +1,0 @@
-@comment $NetBSD$
-bin/epeg
-bin/epeg-config
-include/Epeg.h
-lib/libepeg.la
