@@ -9,7 +9,7 @@ If you are running Apache and ap-php, then you may either symlink
 into DocumentRoot, or add the following lines to httpd.conf:
 	
 	<IfModule mod_alias.c>
-		Alias /moregroupware/ "${PREFIX}/share/moregroupware"
+		Alias /moregroupware/ "${PREFIX}/share/moregroupware/"
 	</IfModule>
 
 By the way, You need to have the following directives in
