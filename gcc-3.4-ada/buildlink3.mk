@@ -14,6 +14,7 @@ BUILDLINK_PACKAGES+=    gccAda
 .if !empty(GCCADA_BUILDLINK3_MK:M+)
 BUILDLINK_DEPENDS.gccAda+=      gccAda>=3.4.0
 BUILDLINK_PKGSRCDIR.gccAda?=    ../../wip/gcc-3.4-ada
+BUILDLINK_ENV+= PATH=${PATH}:${LOCALBASE}/gccAda-3.4.0/bin
 .endif  # GCCADA_BUILDLINK3_MK
 
 BUILDLINK_PKGSRCDIR.gccAda?=     ../../wip/gcc-3.4-ada
