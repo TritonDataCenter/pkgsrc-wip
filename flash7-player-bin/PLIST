@@ -1,5 +1,0 @@
-@comment $NetBSD$
-lib/netscape/plugins/flashplayer.xpt
-lib/netscape/plugins/libflashplayer.so
-@dirrm lib/netscape/plugins
-@dirrm lib/netscape
