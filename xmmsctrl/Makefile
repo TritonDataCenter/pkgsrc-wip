@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		xmmsctrl-1.6
-CATEGORIES=		misc
+CATEGORIES=		audio
 MASTER_SITES=		http://www.docs.uu.se/~adavid/utils/
 
 MAINTAINER=		dotz@irc.pl
