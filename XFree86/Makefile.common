@@ -62,6 +62,9 @@ post-extract:
 .if exists(${FILESDIR}/ucs2any.c)
 	@${CP} ${FILESDIR}/ucs2any.c ${WRKSRC}/fonts/util
 .endif
+.if exists(${FILESDIR}/Wraphelp.c)
+	@${CP} ${FILESDIR}/Wraphelp.c ${WRKSRC}/lib/Xdmcp
+.endif
 
 .for F in ${SYSTEMS}
 	@${MV} ${WRKSRC}/config/cf/${F}.cf \
