@@ -11,6 +11,8 @@ MAINTAINER=	adrianp@NetBSD.org
 HOMEPAGE=	http://www.thc.org/
 COMMENT=	Login password cracker
 
+.include "../../mk/bsd.prefs.mk"
+
 GNU_CONFIGURE=	YES
 USE_BUILDLINK3=	YES
 BUILD_TARGET=	all ssl
@@ -21,7 +23,9 @@ SUBST_FILES.build=	Makefile.am configure hydra-gtk/src/main.c
 SUBST_SED.build=	-e "s|@SSLBASE@|${BUILDLINK_PREFIX.openssl}|g" \
 			-e "s|@PREFIX@|${PREFIX}|g" \
 			-e "s|uname|${UNAME}|g" \
-			-e "s|\./hydra|${PREFIX}/bin/hydra|g"
+			-e "s|\./hydra|${PREFIX}/bin/hydra|g" \
+			-e "s|LIBS=-lm|LIBS=-lm -Wl,-R${PREFIX}/lib -Wl,-R/usr/lib|g"
+
 SUBST_MESSAGE.build=	"Patching build files."
 
 USE_OLD_DES_API=	YES
@@ -40,7 +44,7 @@ PKG_SUPPORTED_OPTIONS=	gtkfe
 
 post-configure:
 	cd ${WRKSRC}/hydra-gtk && \
-	${SETENV} ${CONFIGURE_ENV} ./configure ${CONFIGURE_ARGS}
+	${SETENV} ${CONFIGURE_ENV} ${CONFIGURE_SCRIPT} ${CONFIGURE_ARGS}
 
 post-build:
 	cd ${WRKSRC}/hydra-gtk && \
