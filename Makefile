@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.896 2004/01/20 00:33:44 xtraeme Exp $
+# $Id: Makefile,v 1.897 2004/01/20 13:52:27 xtraeme Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -166,7 +166,6 @@ SUBDIR+=	gcc3-c-devel
 SUBDIR+=	gcompris
 SUBDIR+=	gDesklets
 SUBDIR+=	gdbada
-SUBDIR+=	gdm
 SUBDIR+=	geeklog
 SUBDIR+=	gg2
 SUBDIR+=	ghostpcl
