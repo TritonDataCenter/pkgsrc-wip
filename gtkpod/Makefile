@@ -11,14 +11,14 @@ COMMENT=	GUI for iPod using GTK2
 
 BUILD_USES_MSGFMT=	yes
 
-USE_BUILDLINK2=		yes
+USE_BUILDLINK3=		yes
 GNU_CONFIGURE=		yes
 USE_X11=		yes
 USE_PKGLOCALEDIR=	yes
 USE_GNU_GETTEXT=	yes
 
-.include "../../audio/id3lib/buildlink2.mk"
-.include "../../devel/gettext-lib/buildlink2.mk"
-.include "../../x11/gtk2/buildlink2.mk"
-.include "../../mk/pthread.buildlink2.mk"
+.include "../../audio/id3lib/buildlink3.mk"
+.include "../../devel/gettext-lib/buildlink3.mk"
+.include "../../x11/gtk2/buildlink3.mk"
+.include "../../mk/pthread.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
