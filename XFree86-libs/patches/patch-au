@@ -14,7 +14,7 @@ $NetBSD$
 -# define CcCmd			cc
 -# define CplusplusCmd		c++
 +# define CcCmd			@@PKGSRC_CC@@
-+# define CplusplusCmd		@@PKGSRC_CPP@@
++# define CplusplusCmd		@@PKGSRC_CXX@@
  #endif
  
 -#define CppCmd			/usr/bin/cpp

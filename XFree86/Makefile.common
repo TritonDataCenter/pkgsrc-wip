@@ -61,6 +61,7 @@ pre-configure:
 .for F in ${SYSTEMS}
 	@${SED} -e "s|@@PKGSRC_CC@@|${CC}|g" \
 		-e "s|@@PKGSRC_CPP@@|${CPP}|g" \
+		-e "s|@@PKGSRC_CXX@@|${CXX}|g" \
 		-e "s|@@PKGSRC_CFLAGS@@|${CFLAGS}|g" \
 		${WRKSRC}/config/cf/${F}.cf.in > \
 		${WRKSRC}/config/cf/${F}.cf
@@ -123,6 +124,7 @@ pre-configure:
 
 .for F in ${SYSTEMS}
 	@${SED} -e "s|@@PKGSRC_CC@@|${CC}|g" \
+		-e "s|@@PKGSRC_CXX@@|${CXX}|g" \
 		-e "s|@@PKGSRC_CPP@@|${CPP}|g" \
 		-e "s|@@PKGSRC_CFLAGS@@|${CFLAGS}|g" \
 		-e "s|-I${LOCALBASE}/include||" \
