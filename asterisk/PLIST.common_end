@@ -1,0 +1,4 @@
+@comment $NetBSD$
+@dirrm lib/asterisk/modules
+@dirrm lib/asterisk
+@dirrm include/asterisk
