@@ -7,7 +7,7 @@ CATEGORIES=	emulators
 MASTER_SITES=	http://www.leb.net/vmac/download/XWindows/
 EXTRACT_SUFX=	.tgz
 
-MAINTAINER=	pkgsrc@netbsd.org
+MAINTAINER=	mishka@terabyte.com.ua
 HOMEPAGE=	http://www.vmac.org/
 COMMENT=	Macintosh Plus Emulator
 
