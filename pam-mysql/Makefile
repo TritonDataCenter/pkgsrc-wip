@@ -10,8 +10,8 @@ HOMEPAGE=	http://pam-mysql.sourceforge.net/
 COMMENT=	PAM module for authenticating with MySQL
 
 WRKSRC=		${WRKDIR}/pam_mysql
-USE_GMAKE=	YES
-USE_BUILDLINK2=	YES
+USE_GNU_TOOLS+=	make
+USE_BUILDLINK3=	YES
 DOCDIR=		${PREFIX}/share/doc/pam-mysql
 
 post-patch:
@@ -28,6 +28,6 @@ do-install:
 	${INSTALL_DATA} ${WRKSRC}/CREDITS ${DOCDIR}
 	${INSTALL_DATA} ${WRKSRC}/Readme ${DOCDIR}
 
-.include "../../security/PAM/buildlink2.mk"
-.include "../../databases/mysql-client/buildlink2.mk"
+.include "../../security/PAM/buildlink3.mk"
+.include "../../databases/mysql-client/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

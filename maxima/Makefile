@@ -9,11 +9,11 @@ MAINTAINER=		tech-pkg@NetBSD.org
 HOMEPAGE=		http://maxima.sourceforge.net/
 COMMENT=		Sophisticated computer algebra system
 
-USE_BUILDLINK2=		yes
+USE_BUILDLINK3=		yes
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 
 # ... when it's ready:
 
-#.include "../../gcl/buildlink2.mk"
+#.include "../../wip/gcl/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
