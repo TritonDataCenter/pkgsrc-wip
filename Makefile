@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.256 2003/06/22 12:00:25 cjep Exp $
+# $Id: Makefile,v 1.257 2003/06/22 13:50:16 marc Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -78,6 +78,7 @@ SUBDIR+=	gtranslator
 SUBDIR+=	hasciicam
 SUBDIR+=	honeyd-arpd
 SUBDIR+=	ht
+SUBDIR+=	ht2html
 SUBDIR+=	httrack
 SUBDIR+=	ices
 SUBDIR+=	icmpchat
