@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		tcllib-1.6.1
+DISTNAME=		tcllib-1.7
 CATEGORIES=		devel
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=tcllib/}
 EXTRACT_SUFX=		.tar.bz2
@@ -13,8 +13,6 @@ COMMENT=		Collection of utility modules for Tcl
 USE_BUILDLINK3=		yes
 GNU_CONFIGURE=		yes
 NO_BUILD=		yes
-
-PKGVERSION=		1.6 # XXX
 
 SUBST_CLASSES=		fix
 SUBST_STAGE.fix=	post-patch
