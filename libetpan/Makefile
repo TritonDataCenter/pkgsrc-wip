@@ -9,13 +9,13 @@ MAINTAINER=		dawszy@arhea.pl
 HOMEPAGE=		http://libetpan.sourceforge.net/
 COMMENT=		Really nice mail library
 
-USE_BUILDLINK2=		yes
+USE_BUILDLINK3=		yes
 USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=		yes
 GNU_CONFIGURE=		yes
 
-.include "../../mk/pthread.buildlink2.mk"
-.include "../../converters/libiconv/buildlink2.mk"
-.include "../../security/openssl/buildlink2.mk"
-.include "../../databases/db4/buildlink2.mk"
+.include "../../converters/libiconv/buildlink3.mk"
+.include "../../security/openssl/buildlink3.mk"
+.include "../../databases/db4/buildlink3.mk"
+.include "../../mk/pthread.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

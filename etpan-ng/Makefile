@@ -9,12 +9,12 @@ MAINTAINER=		dawszy@arhea.pl
 HOMEPAGE=		http://libetpan.sourceforge.net/etpan/
 COMMENT=		Mail console client with S/MIME, PGP and bogofilter support
 
-USE_BUILDLINK2=		yes
+USE_BUILDLINK3=		yes
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 
-.include "../../wip/libetpan/buildlink2.mk"
-.include "../../lang/perl5/buildlink2.mk"
-.include "../../devel/ncurses/buildlink2.mk"
-.include "../../mk/pthread.buildlink2.mk"
+.include "../../wip/libetpan/buildlink3.mk"
+.include "../../lang/perl5/buildlink3.mk"
+.include "../../devel/ncurses/buildlink3.mk"
+.include "../../mk/pthread.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
