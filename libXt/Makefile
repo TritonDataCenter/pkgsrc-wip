@@ -1,17 +1,18 @@
 # $NetBSD$
 #
 
-DISTNAME=		libXt-0.1.4
-WRKSRC=			${WRKDIR}/${PKGNAME}
+DISTNAME=		libXt-0.1.5
 CATEGORIES=		x11 devel
-MASTER_SITES=		http://freedesktop.org/~xlibs/release/xlibs-1.0/
+MASTER_SITES=		http://freedesktop.org/~xlibs/release/
 EXTRACT_SUFX=		.tar.bz2
 
 MAINTAINER=		reed@reedmedia.net
-HOMEPAGE=		http://www.freedesktop.org/Software/X11
+HOMEPAGE=		http://xlibs.freedesktop.org/
 COMMENT=		X Toolkit Intrinsics library
 
 CONFLICTS+=		XFree86-libs-[0-9]*
+
+PKG_INSTALLATION_TYPES=	overwrite pkgviews
 
 .include "../../mk/bsd.prefs.mk"
 
@@ -27,9 +28,7 @@ USE_LIBTOOL=		yes
 
 PKGCONFIG_OVERRIDE+=	xt.pc.in
 
-post-extract:
-	${MV} ${WRKSRC}/ObjectP.h ${WRKSRC}/include/X11/
-
+.include "../../devel/pkgconfig/buildlink3.mk"
 .include "../../wip/libICE/buildlink3.mk"
 .include "../../wip/libSM/buildlink3.mk"
 .include "../../wip/libX11/buildlink3.mk"
