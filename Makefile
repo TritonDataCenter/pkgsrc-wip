@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.1676 2005/03/04 12:12:42 hsaliak Exp $
+# $Id: Makefile,v 1.1677 2005/03/04 19:07:58 oht Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -51,6 +51,7 @@ SUBDIR+=	acpid
 SUBDIR+=        adamem
 SUBDIR+=	aircrack
 SUBDIR+=	airsnort
+SUBDIR+=	alive
 SUBDIR+=	alsa-lib
 SUBDIR+=	alsa-utils
 SUBDIR+=	amap
