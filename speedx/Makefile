@@ -14,7 +14,7 @@ SITES_mercrain.s3m.zip=	http://www.modarchive.com/cgi-bin/download.cgi/M/
 
 GNU_CONFIGURE=	YES
 USE_GNU_TOOLS+=	make
-USE_BUILDLINK2=	YES
+USE_BUILDLINK3=	YES
 USE_X11=	YES
 
 post-build:
@@ -34,6 +34,6 @@ post-install:
 	${INSTALL_DATA} ${WRKSRC}/README ${PREFIX}/share/doc/speedx
 	${INSTALL_DATA} ${WRKDIR}/mercrain.s3m ${PREFIX}/share/speedx/music/
 
-.include "../../graphics/png/buildlink2.mk"
-.include "../../audio/libmikmod/buildlink2.mk"
+.include "../../graphics/png/buildlink3.mk"
+.include "../../audio/libmikmod/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
