@@ -350,7 +350,8 @@ expect(int fd, const char *str, int *ftprc)
 				fflush(stdout);
 #endif /* EXPECT_DEBUG */
 
-				if (ftprc && isdigit(buf[match.rm_so+1])) 
+				if (ftprc && 
+				    isdigit((unsigned char)buf[match.rm_so+1])) 
 					*ftprc = atoi(buf+match.rm_so+1);
 
 				done=1;
