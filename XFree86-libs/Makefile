@@ -11,6 +11,10 @@ MAINTAINER=		xfree86@blef.org
 HOMEPAGE=		http://www.xfree86.org/
 COMMENT=		XFree86 Libraries
 
+CONFLICTS+=		xextensions-[0-9]*
+CONFLICTS+=		libX11-[0-9]*
+CONFLICTS+=		libXau-[0-9]*
+
 DEPENDS=		imake>=4.3.0:../../wip/imake
 
 .include "../../mk/bsd.prefs.mk"
