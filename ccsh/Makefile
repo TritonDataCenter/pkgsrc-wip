@@ -9,7 +9,7 @@ MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://ccsh.sourceforge.net/
 COMMENT=		C-like syntax scripting
 
-USE_GNU_TOOLS+=		gmake
+USE_GNU_TOOLS+=		make
 USE_BUILDLINK2=		yes
 
 do-install:
