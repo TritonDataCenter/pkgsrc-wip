@@ -9,7 +9,7 @@ MAINTAINER=		grant@NetBSD.org
 HOMEPAGE=		http://frost.htu.tuwien.ac.at/~roman/nuppelvideo/
 COMMENT=		Fast and simple RTjpeg-based video capture program
 
-USE_BUILDLINK2=		YES
+USE_BUILDLINK3=		YES
 USE_X11=		YES
 
 CFLAGS+=		${CPPFLAGS}
