@@ -10,7 +10,7 @@ MAINTAINER=		xtraeme@NetBSD.org
 HOMEPAGE=		http://tcllib.sourceforge.net/
 COMMENT=		High-level widget set for Tcl/Tk
 
-USE_BUILDLINK2=		yes
+USE_BUILDLINK3=		yes
 NO_BUILD=		yes
 
 do-install:
@@ -23,5 +23,5 @@ do-install:
 	${INSTALL_DATA} ${WRKSRC}/BWman/*.htm* \
 		${PREFIX}/share/doc/html/bwidget
 
-.include "../../x11/tk/buildlink2.mk"
+.include "../../x11/tk/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

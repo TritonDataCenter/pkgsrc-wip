@@ -10,7 +10,7 @@ MAINTAINER=		tech-pkg@NetBSD.org
 HOMEPAGE=		http://tcllib.sourceforge.net/
 COMMENT=		Collection of utility modules for Tcl
 
-USE_BUILDLINK2=		yes
+USE_BUILDLINK3=		yes
 GNU_CONFIGURE=		yes
 
 post-patch:
@@ -22,5 +22,5 @@ post-patch:
 	@${RM} ${WRKSRC}/modules/doctools/mpformats/_html.sed
 	@${FIND} ${WRKSRC} -name \*.orig | ${XARGS} ${RM}
 
-.include "../../lang/tcl/buildlink2.mk"
+.include "../../lang/tcl/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
