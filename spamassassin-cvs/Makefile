@@ -88,8 +88,8 @@ SPAMASSASSIN_NET_TESTS?=	YES
 .endif
 
 .if !empty(SPAMASSASSIN_USE_PYZOR:M[yY][eE][sS])
-#DEPENDS+=		pyzor>=0.40:../../mail/pyzor
-DEPENDS+=		pyzor>=0.40:../../wip/pyzor
+#DEPENDS+=		pyzor>=0.4.0:../../mail/pyzor
+DEPENDS+=		pyzor>=0.4.0:../../wip/pyzor
 SPAMASSASSIN_NET_TESTS?=	YES
 .endif
 
