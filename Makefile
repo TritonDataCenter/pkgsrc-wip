@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.957 2004/02/13 19:39:04 minskim Exp $
+# $Id: Makefile,v 1.958 2004/02/13 21:29:29 minskim Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -543,7 +543,6 @@ SUBDIR+=	py-biggles
 SUBDIR+=	py-bsddb
 SUBDIR+=	py-buildbot
 SUBDIR+=	py-dateutil
-SUBDIR+=	py-dbxml
 SUBDIR+=	py-elementtree
 SUBDIR+=	py-f2py2e
 SUBDIR+=	py-fastaudio
