@@ -11,7 +11,6 @@ COMMENT=	Console mode Gnutella client with optional http interface
 
 GNU_CONFIGURE=		yes
 USE_BUILDLINK2=		yes
-USE_GMAKE=		yes
 USE_LIBTOOL=		yes
 HAS_CONFIGURE=		yes
 
