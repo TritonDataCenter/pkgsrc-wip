@@ -15,6 +15,7 @@ WRKSRC=			${WRKDIR}/ldapbrowser
 
 NO_CONFIGURE=		yes
 LBE_DIR=		${PREFIX}/lib/ldapbrowser
+USE_JAVA=		run
 
 do-build:
 	${SED} s%DESTINATION%${LBE_DIR}% ${WRKSRC}/lbe.sh \
