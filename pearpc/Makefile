@@ -27,6 +27,8 @@ BUILD_DEPENDS+=		nasm-[0-9]*:../../devel/nasm
 CONFIGURE_ARGS+=	--enable-cpu=jitc_x86
 .endif
 
+CONFIGURE_ARGS+=	--disable-debug
+
 INSTALLATION_DIRS=	share/${PKGBASE} bin
 
 do-install:
