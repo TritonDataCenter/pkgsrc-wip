@@ -3,7 +3,8 @@
 
 DISTNAME=	pixieplus-0.5.4
 CATEGORIES=	graphics
-MASTER_SITES=	http://www.mosfet.org/pixie/
+MASTER_SITES=	http://people.fruitsalad.org/avleeuwen/distfiles/pixieplus/ \
+		http://www.mosfet.org/pixie/
 
 MAINTAINER=	xtraeme@NetBSD.org
 HOMEPAGE=	http://www.mosfet.org/pixie/
