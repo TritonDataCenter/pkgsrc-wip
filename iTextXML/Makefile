@@ -12,7 +12,7 @@ HOMEPAGE=		http://itext.sourceforge.net/
 COMMENT=		Java classes to generate and parse XML files
 
 WRKSRC=			${WRKDIR}
-USE_BUILDLINK2=		yes
+USE_BUILDLINK3=		yes
 
 do-extract:
 
