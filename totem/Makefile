@@ -5,7 +5,7 @@ DISTNAME=	totem-0.95.1
 CATEGORIES=	graphics
 MASTER_SITES=	http://www.hadess.net/files/software/totem/
 
-MAINTAINER=	packages@netbsd.org
+MAINTAINER=	jrp@hispabsd.org
 HOMEPAGE=	http://www.hadess.net/totem.php3
 COMMENT=	Simple movie player for the Gnome desktop based on xine
 

@@ -5,7 +5,7 @@ DISTNAME=	multi-aterm-0.0.4
 CATEGORIES=	x11
 MASTER_SITES=	http://www.materm.tuxfamily.org/
 
-MAINTAINER=	packages@netbsd.org
+MAINTAINER=	jrp@hispabsd.org
 HOMEPAGE=	http://www.materm.tuxfamily.org/
 COMMENT=	Multi-terminal for the X Window system based on aterm
 

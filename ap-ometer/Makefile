@@ -6,7 +6,7 @@ PKGNAME=	${DISTNAME:S/mod_/ap-/}
 CATEGORIES=	www
 MASTER_SITES=	http://www.umich.edu/~umweb/downloads/
 
-MAINTAINER=	packages@netbsd.org
+MAINTAINER=	jrp@hispabsd.org
 HOMEPAGE=	http://www.umich.edu/~umweb/software/mod_ometer.html
 COMMENT=	Web counter apache module
 

@@ -7,7 +7,7 @@ CATEGORIES=	audio
 MASTER_SITES=	http://muse.dyne.org/releases/ \
 		http://savannah.nongnu.org/download/muse/
 
-MAINTAINER=	packages@netbsd.org
+MAINTAINER=	jrp@hispabsd.org
 HOMEPAGE=	http://muse.dyne.org/
 COMMENT=	Multiple Streaming Engine
 

@@ -6,7 +6,7 @@ CATEGORIES=	chat
 MASTER_SITES=	http://druglord.freelsd.org/ezbounce/ \
 		http://www.shellcentral.com/downloads/files/
 
-MAINTAINER=	packages@netbsd.org
+MAINTAINER=	jrp@hispabsd.org
 HOMEPAGE=	http://druglord.freelsd.org/ezbounce/
 COMMENT=	Highly Configurable IRC Proxy
 

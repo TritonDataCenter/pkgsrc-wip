@@ -5,7 +5,7 @@ DISTNAME=	tsclient-0.104
 CATEGORIES=	net
 MASTER_SITES=	http://www.gnomepro.com/tsclient/
 
-MAINTAINER=	packages@netbsd.org
+MAINTAINER=	jrp@hispabsd.org
 HOMEPAGE=	http://www.gnomepro.com/tsclient/
 COMMENT=	GNOME2 Frontend for rdesktop
 
