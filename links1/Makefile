@@ -1,8 +1,8 @@
 # $NetBSD$
 #
 
-DISTNAME=		links-1.00pre2
-PKGNAME=		links1-0.99.2
+DISTNAME=		links-1.00pre3
+PKGNAME=		links1-0.99.3
 CATEGORIES=		www
 MASTER_SITES=		http://artax.karlin.mff.cuni.cz/~mikulas/links/download/
 
