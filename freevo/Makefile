@@ -36,7 +36,7 @@ post-install:
 		${PKG_SYSCONFDIR}/local_conf.py
 
 .include "../../wip/py-game/buildlink2.mk"
-.include "../../wip/py-twisted/buildlink2.mk"
+.include "../../net/py-twisted/buildlink2.mk"
 .include "../../wip/py-mmpython/buildlink2.mk"
 .include "../../textproc/py-xml/buildlink2.mk"
 .include "../../graphics/py-imaging/buildlink2.mk"
