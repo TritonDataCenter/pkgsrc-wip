@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.41 2003/04/06 14:44:12 thomasklausner Exp $
+# $Id: Makefile,v 1.42 2003/04/06 19:00:41 jmmv Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -34,6 +34,7 @@ SUBDIR+=	nagios-plugin-mysql
 SUBDIR+=	nagios-plugin-pgsql
 SUBDIR+=	nagios-plugin-snmp
 SUBDIR+=	nagios-plugins
+SUBDIR+=	navigatrix
 SUBDIR+=	nvtv
 SUBDIR+=	p5-Chart
 SUBDIR+=	p5-Net-Jabber
