@@ -11,6 +11,8 @@ COMMENT=	Perl binding interface for curl
 
 DEPENDS+=	curl>=7.12.1:../../www/curl
 
+PKG_INSTALLATION_TYPES=	overwrite pkgviews
+
 USE_BUILDLINK3=	YES
 PERL5_PACKLIST=	${PERL5_SITEARCH}/auto/WWW/Curl/.packlist
 
