@@ -3,5 +3,3 @@
 # l2tpd pkg issues:
 
 - test in a realistic setup
-- the log() function from misc.h conflicts with some gcc 3 
-  builtin 'log()', i.e. the package does not build under -current

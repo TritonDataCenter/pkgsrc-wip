@@ -32,7 +32,7 @@ $NetBSD$
 +#FFLAGS= -DIP_ALLOCATION 
  
 -CFLAGS= $(DFLAGS) -Wall -DSANITY $(OSFLAGS) $(FFLAGS)
-+CFLAGS+= -Wall -DSANITY $(OSFLAGS) $(FFLAGS)
++CFLAGS+= $(DFLAGS) -Wall -fno-builtin-log -DSANITY $(OSFLAGS)
  HDRS=l2tp.h avp.h misc.h control.h call.h scheduler.h file.h aaa.h md5.h
  OBJS=l2tpd.o pty.o misc.o control.o avp.o call.o network.o avpsend.o scheduler.o file.o aaa.o md5.o
  LIBS= $(OSLIB) # -lefence # efence for malloc checking
@@ -41,4 +41,4 @@ $NetBSD$
  
  $(BIN): $(OBJS) $(HDRS) 
 -	$(CC) -o $(BIN) $(DFLAGS) $(OBJS) $(LIBS)
-+	$(CC) -o $(BIN) $(CFLAGS) $(DFLAGS) $(OBJS) $(LIBS)
++	$(CC) -o $(BIN) $(CFLAGS) $(OBJS) $(LIBS)
