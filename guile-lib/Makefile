@@ -9,10 +9,6 @@ MAINTAINER=	gdt@ir.bbn.com
 HOMEPAGE=	http://home.gna.org/guile-lib/
 COMMENT=	Library functions for Guile, implemented in Scheme
 
-# Because the distribution does not specify a version, accept anything
-# from 1.6 onwards.
-DEPENDS+=	guile>=1.6:../../lang/guile
-
 # This package may not be built from the src directory (arch configure
 # rules).  The build directory must be created by hand; see the
 # pre-configure target.
@@ -22,12 +18,14 @@ BUILD_DIRS=	${WRKSRC}/build
 CONFIGURE_SCRIPT=	../src/configure
 CONFIGURE_ARGS=	--prefix=${PREFIX}
 
+USE_BUILDLINK3=	YES
 USE_GNU_TOOLS=	make
+USE_MAKEINFO=	yes
+INFO_FILES=	guile-library.info
+TEST_TARGET=	test
 
 pre-configure:
 	${MKDIR} ${WRKSRC}/build
 
-USE_MAKEINFO=	yes
-INFO_FILES=	guile-library.info
-
+.include "../../lang/guile/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
