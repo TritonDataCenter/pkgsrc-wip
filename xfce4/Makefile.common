@@ -10,6 +10,7 @@ XFCE4_VERSION=		3.99.2
 USE_BUILDLINK2=		# defined
 USE_X11BASE=		# defined
 USE_PKGLOCALEDIR=	# defined
+USE_GNU_GETTEXT=	# defined
 
 USE_LIBTOOL=		# defined
 LIBTOOL_OVERRIDE=	${WRKSRC}/libtool
