@@ -1,8 +1,8 @@
 # $NetBSD$
 #
 
-DISTNAME=	pbl_1_02
-PKGNAME=	pbl-1.02
+DISTNAME=	pbl_1_03
+PKGNAME=	pbl-1.03
 CATEGORIES=	databases devel
 MASTER_SITES=	http://mission.base.com/peter/source/
 
@@ -18,9 +18,9 @@ NO_CONFIGURE=	#defined
 USE_GNU_TOOLS+=make
 MAKEFILE=makefile
 
+INSTALLATION_DIRS= lib include
+
 do-install:
-	${INSTALL_DATA_DIR} ${PREFIX}/lib
-	${INSTALL_DATA_DIR} ${PREFIX}/include
 	${INSTALL_DATA} ${WRKSRC}/libpbl.a ${PREFIX}/lib/
 	${INSTALL_DATA} ${WRKSRC}/pbl.h ${PREFIX}/include/
 
