@@ -1,6 +1,0 @@
-@comment $NetBSD$
-bin/eet
-bin/eet-config
-include/Eet.h
-lib/libeet.la
-lib/pkgconfig/eet.pc
