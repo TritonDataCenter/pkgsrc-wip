@@ -20,6 +20,8 @@ MAKEFILE=	makefile
 MAKE_ENV+=	OSTYPE=linux
 USE_PERL5=	run
 
+ONLY_FOR_PLATFORM=  *-*-i386
+
 pre-install:
 	@${SED} -e s,@RAINEDATA@,${PREFIX}/share/raine, \
 	    ${FILESDIR}/raine.sh > ${WRKSRC}/raine.sh
