@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		pearpc-0.1.2
+DISTNAME=		pearpc-0.2.0
 CATEGORIES=		emulators
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=pearpc/}
 EXTRACT_SUFX=		.tar.bz2
