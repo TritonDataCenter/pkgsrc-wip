@@ -1,25 +1,20 @@
 $NetBSD$
-
---- Makefile.orig	2003-06-01 18:45:23.000000000 +0000
-+++ Makefile	2003-07-24 16:04:33.000000000 +0000
-@@ -1,6 +1,6 @@
+--- Makefile.orig	Sat Jan 10 20:56:08 2004
++++ Makefile	Sat Jan 10 20:56:42 2004
+@@ -2,11 +2,12 @@
+ #LIBS = -lsocket -lnsl
+ 
  OBJS = cache.o rfc1035.o dhcp.o util.o option.o forward.o network.o dnsmasq.o
 -BINDIR = /usr/local/sbin
 -MANDIR = /usr/local/man
-+BINDIR = ${PREFIX}/sbin/
-+DOCDIR = ${PREFIX}/share/doc/dnsmasq/
++PREFIX?=/usr/local
++BINDIR = ${PREFIX}/sbin
++MANDIR = ${PREFIX}/man
  
- CC = gcc
- CFLAGS = -O2
-@@ -17,8 +17,9 @@
- 	$(CC) -o $@  $(OBJS) $(LIBS)
+-CC = gcc
+-CFLAGS = -O2
++CC?= gcc
++CFLAGS?= -O2
  
- install : dnsmasq
--	install -d $(BINDIR) -d $(MANDIR)/man8
--	install -m 644 dnsmasq.8 $(MANDIR)/man8 
-+	install -d $(BINDIR) -d $(DOCDIR)
-+	install -m 644 doc.html $(DOCDIR)
-+	install -m 644 setup.html $(DOCDIR)
- 	install -m 755 dnsmasq $(BINDIR)
- 
+ all : dnsmasq
  
