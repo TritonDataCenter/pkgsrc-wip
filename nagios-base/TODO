@@ -6,3 +6,5 @@ TODO list for nagios-base
 	- A little more testing.
 	- Add apache installation instructions to some post install
 message, instead of always looking at doco.
+
+Update to 1.1.
