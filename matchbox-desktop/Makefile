@@ -7,8 +7,8 @@ MASTER_SITES=	http://matchbox.handhelds.org/sources/matchbox-desktop/0.8/
 EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	tech-pkg@NetBSD.org
-HOMEPAGE=	http://matchbox.handhelds.org/sources/matchbox-desktop/0.8/
-COMMENT=	Desktop manager for Matchbox window manager		
+HOMEPAGE=	http://matchbox.handhelds.org/
+COMMENT=	Desktop manager for Matchbox
 
 USE_BUILDLINK3=	yes
 USE_LIBTOOL=	yes
