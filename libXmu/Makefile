@@ -21,7 +21,7 @@ USE_GNU_TOOLS+=		make
 .include "../../wip/libXt/buildlink3.mk"
 .include "../../wip/libX11/buildlink3.mk"
 .include "../../wip/libXext/buildlink3.mk"
-.include "../../wip/xextensions/buildlink3.mk"
+.include "../../x11/xextensions/buildlink3.mk"
 .include "../../wip/xproto/buildlink3.mk"
 .include "../../mk/pthread.buildlink3.mk"
 
