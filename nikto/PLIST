@@ -16,6 +16,7 @@ share/nikto/plugins/nikto_msgs.plugin
 share/nikto/plugins/nikto_mutate.plugin
 share/nikto/plugins/nikto_outdated.plugin
 share/nikto/plugins/nikto_passfiles.plugin
+share/nikto/plugins/nikto_plugin_order.txt
 share/nikto/plugins/nikto_realms.plugin
 share/nikto/plugins/nikto_robots.plugin
 share/nikto/plugins/nikto_user_enum_apache.plugin
