@@ -16,5 +16,4 @@ GNU_CONFIGURE=		yes
 
 PKGCONFIG_OVERRIDE+=    ${WRKSRC}/xtrans.pc.in
 
-.include "../../devel/pkgconfig/buildlink2.mk"
 .include "../../mk/bsd.pkg.mk"
