@@ -9,7 +9,7 @@ HOMEPAGE= 	http://www.prelude-ids.org/
 COMMENT=	Hybrid IDS
 
 GNU_CONFIGURE=		YES
-USE_BUILDLINK2=		YES
+USE_BUILDLINK3=		YES
 USE_GNU_TOOLS+=		make
 USE_PKGINSTALL=         YES
 
@@ -22,6 +22,6 @@ CONF_FILES=	${WRKSRC}/sensors-default.conf \
 
 CONFIGURE_ARGS+=	--enable-openssl
 
-.include "../../security/openssl/buildlink2.mk"
-.include "../../mk/pthread.buildlink2.mk"
+.include "../../security/openssl/buildlink3.mk"
+.include "../../mk/pthread.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

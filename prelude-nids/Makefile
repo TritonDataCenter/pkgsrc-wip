@@ -9,7 +9,7 @@ HOMEPAGE= 	http://www.prelude-ids.org/
 COMMENT=	Prelude NIDS sensor
 
 GNU_CONFIGURE=		YES
-USE_BUILDLINK2=		YES
+USE_BUILDLINK3=		YES
 USE_GNU_TOOLS+=		make
 USE_PKGINSTALL=		YES
 
@@ -22,6 +22,6 @@ CONF_FILES=		${WRKSRC}/prelude-nids.conf \
 
 CONFIGURE_ARGS+=	--enable-ipv6
 
-.include "../../wip/libprelude/buildlink2.mk"
-.include "../../mk/pthread.buildlink2.mk"
+.include "../../wip/libprelude/buildlink3.mk"
+.include "../../mk/pthread.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
