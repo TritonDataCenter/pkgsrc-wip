@@ -10,7 +10,7 @@ MAINTAINER=		dotz@irc.pl
 HOMEPAGE=		http://visionegg.sourceforge.net/
 COMMENT=		Documentation for py-visionegg in HTML format
 
-USE_BUILDLINK2=		yes
+USE_BUILDLINK3=		yes
 NO_BUILD=		# defined
 
 PY_VE_DOC_DIR=		${PREFIX}/share/doc/${PKGNAME}

@@ -9,7 +9,7 @@ MAINTAINER=	cube@NetBSD.org
 HOMEPAGE=	http://search.cpan.org/dist/Class-Singleton/
 COMMENT=	Perl module to implement Singleton classes
 
-USE_BUILDLINK2=	YES
+USE_BUILDLINK3=	YES
 PERL5_PACKLIST=	${PERL5_SITEARCH}/auto/Class/Singleton/.packlist
 
 .include "../../lang/perl5/module.mk"
