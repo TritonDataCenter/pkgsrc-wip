@@ -11,6 +11,6 @@ COMMENT=	Find identical files and link(2) them to save disk space
 MAKEFILE=	${FILESDIR}/Makefile
 
 post-patch:
-	@${CP} -rP ${FILESDIR}/same.1 ${WRKSRC}
+	@${CP} ${FILESDIR}/same.1 ${WRKSRC}
 
 .include "../../mk/bsd.pkg.mk"
