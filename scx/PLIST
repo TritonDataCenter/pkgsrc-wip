@@ -49,3 +49,5 @@ share/scsh-0.6/modules/${PKGNAME}/scheme/xt/widget.scm
 @dirrm share/scsh-0.6/modules/${PKGNAME}
 @dirrm lib/scsh-0.6/modules/${PKGNAME}/${MACHINE_GNU_PLATFORM}
 @dirrm lib/scsh-0.6/modules/${PKGNAME}
+@dirrm lib/scsh-0.6/modules
+@dirrm lib/scsh-0.6
