@@ -29,5 +29,4 @@ post-install:
 
 .include "../../devel/glib2/buildlink2.mk"
 .include "../../mk/pthread.buildlink2.mk"
-
 .include "../../mk/bsd.pkg.mk"
