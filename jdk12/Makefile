@@ -22,6 +22,7 @@ COMMENT=	Sun's Java(tm) 2 SDK (SCSL+FreeBSDdom 1.2 release)
 
 LICENSE=	scsl-2.3-license
 
+BUILD_DEPENDS+=	m4-[0-9]*:../../devel/m4
 BUILD_DEPENDS+=	unzip-[0-9]*:../../archivers/unzip
 BUILD_DEPENDS+=	zip-[0-9]*:../../archivers/zip
 
@@ -56,10 +57,11 @@ ALL_TARGET+=	release-bundles
 MOTIF_TYPE=	openmotif
 
 MAKE_FLAGS+=	LOCALDIR=${LOCALBASE} # used to find "zip" and "unzipsfx"
-MAKE_FLAGS+=	M4=${M4}
+MAKE_FLAGS+=	M4=${LOCALBASE}/bin/gm4
 MAKE_ENV+=	ALT_BOOTDIR=${WRKSRC}/jdk1.2.2
 MAKE_ENV+=	ALT_MOTIF_DIR=${MOTIFBASE}
 MAKE_ENV+=	HAVE_ODBC=no
+MAKE_ENV+=	JAVA_COMPILER=NONE
 MAKE_ENV+=	LD_RUN_PATH=${MOTIFBASE}/lib:${X11BASE}/lib # substitute for -rpath option
 MAKE_ENV+=	OPENWINHOME=${MOTIFBASE}
 MAKE_ENV+=	USE_GNU_M4=1
