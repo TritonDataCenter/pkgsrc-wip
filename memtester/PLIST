@@ -1,3 +1,0 @@
-@comment $NetBSD$
-bin/memtest
-man/man1/memtest.1
