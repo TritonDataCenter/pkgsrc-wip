@@ -9,14 +9,14 @@ MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://tinc.nl.linux.org/
 COMMENT=		Virtual Private Network (VPN) daemon
 
-USE_BUILDLINK2=		yes
+USE_BUILDLINK3=		yes
 GNU_CONFIGURE=		yes
 
 INFO_FILES=		tinc.info
 
-.include "../../archivers/liblzo/buildlink2.mk"
-.include "../../converters/libiconv/buildlink2.mk"
-.include "../../devel/zlib/buildlink2.mk"
-.include "../../security/openssl/buildlink2.mk"
+.include "../../archivers/liblzo/buildlink3.mk"
+.include "../../converters/libiconv/buildlink3.mk"
+.include "../../devel/zlib/buildlink3.mk"
+.include "../../security/openssl/buildlink3.mk"
 
 .include "../../mk/bsd.pkg.mk"
