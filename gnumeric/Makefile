@@ -1,13 +1,14 @@
 # $NetBSD: Makefile,v 1.75 2003/07/17 21:47:33 grant Exp $
 #
 
-DISTNAME=		gnumeric-1.2.1
-CATEGORIES=		math gnome
-MASTER_SITES=		${MASTER_SITE_GNOME:=sources/gnumeric/1.2/}
+DISTNAME=	gnumeric-1.2.2
+CATEGORIES=	math gnome
+MASTER_SITES=	${MASTER_SITE_GNOME:=sources/gnumeric/1.2/}
+EXTRACT_SUFX=	.tar.bz2
 
-MAINTAINER=		rh@NetBSD.org
-HOMEPAGE=		http://www.gnome.org/gnumeric/
-COMMENT=		Spreadsheet program from the GNOME project
+MAINTAINER=	rh@NetBSD.org
+HOMEPAGE=	http://www.gnome.org/gnumeric/
+COMMENT=	Spreadsheet program from the GNOME project
 
 #DEPENDS+=		gnome1-dirs>=1.2:../../misc/gnome1-dirs
 # for Python support a shared libpython is required but not provided yet
