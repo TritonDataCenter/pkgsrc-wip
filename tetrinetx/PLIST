@@ -1,0 +1,8 @@
+@comment $NetBSD$
+bin/tetrix
+etc/rc.d/tetrinetx
+share/tetrinetx/game.conf
+share/tetrinetx/game.motd
+share/tetrinetx/game.pmotd
+share/tetrinetx/game.secure
+@dirrm share/tetrinetx
