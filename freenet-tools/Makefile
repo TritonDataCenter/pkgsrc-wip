@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		ft-0.2.11
+DISTNAME=		ft-0.2.12
 PKGNAME=		${DISTNAME:S/ft-/freenet-tools-/}
 WRKSRC=			${WRKDIR}/ft
 CATEGORIES=		wip
