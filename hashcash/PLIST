@@ -1,3 +1,0 @@
-@comment $NetBSD$
-bin/hashcash
-man/man1/hashcash.1
