@@ -1,7 +1,8 @@
 # $NetBSD$
 #
 
-DISTNAME=		git-104
+DISTNAME=		git-110
+PKGNAME=		git-1.1.0
 CATEGORIES=		games
 MASTER_SITES=		http://diden.net/if/git/releases/
 EXTRACT_SUFX=		.zip
@@ -10,7 +11,7 @@ MAINTAINER=		dillo@NetBSD.org
 HOMEPAGE=		http://diden.net/if/git/
 COMMENT=		Interprter for Glulx interactive fiction
 
-WRKSRC=			${WRKDIR}/git-1.0.4
+WRKSRC=			${WRKDIR}/${PKGNAME_NOREV}
 USE_BUILDLINK3=		yes
 MAKE_ENV+=		BUILDLINK_DIR=${BUILDLINK_DIR}
 
