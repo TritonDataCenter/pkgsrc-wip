@@ -1,0 +1,13 @@
+$NetBSD$
+
+--- config.dat.orig	Wed May 19 03:02:56 2004
++++ config.dat	Wed May 19 03:03:43 2004
+@@ -4,7 +4,7 @@
+ 
+ ##########################################################################
+ ### installation prefix directory of netwib [should not need to be modified]
+-NETWIBDEF_INSTPREFIX=/usr/local
++NETWIBDEF_INSTPREFIX=@PREFIX@
+ 
+ ##########################################################################
+ ### installation destination directory [should not need to be modified]
