@@ -6,7 +6,7 @@ Tycoon Deluxe.
 
 The following files should be copied to ${PREFIX}/share/games/openttd/data
 in order to play:
-	
+
 	sample.cat
 	trg1r.grf
 	trgcr.grf
