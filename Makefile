@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.1443 2004/08/28 09:48:01 plunky Exp $
+# $Id: Makefile,v 1.1444 2004/08/28 10:07:57 plunky Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -232,6 +232,7 @@ SUBDIR+=	iTextXML
 SUBDIR+=	icc
 SUBDIR+=	icc8
 SUBDIR+=	icecast
+SUBDIR+=	icecc
 SUBDIR+=	ices
 SUBDIR+=	icmpchat
 SUBDIR+=	idled
