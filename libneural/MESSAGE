@@ -1,0 +1,10 @@
+===========================================================================
+$NetBSD$
+
+  See 
+  ${PREFIX}/share/libneural-1.0.3/README
+  for an overview.
+  Sample applications are in
+  ${PREFIX}/share/libneural-1.0.3/examples/
+
+===========================================================================
