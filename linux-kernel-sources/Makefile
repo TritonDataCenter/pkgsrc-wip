@@ -1,18 +1,9 @@
 # $NetBSD$
 
-DISTNAME=		linux-${KERNEL_VERSION}
-PKGNAME=		linux-kernel-sources-${KERNEL_VERSION}
-CATEGORIES=		linux
-MASTER_SITES=		http://www.kernel.org/pub/linux/kernel/v2.4/
-EXTRACT_SUFX=		.tar.bz2
+.include "../../wip/linux-kernel/Makefile.common"
 
-MAINTAINER=		martti@NetBSD.org
-HOMEPAGE=		http://www.kernel.org/
+PKGNAME=		linux-kernel-sources-${LINUX_VERSION}
 COMMENT=		Linux kernel sources
-
-KERNEL_VERSION=		2.4.24
-
-ONLY_FOR_PLATFORM=	Linux-*-*
 
 NO_BUILD=		# defined
 
