@@ -48,6 +48,6 @@ make-sendmail-siteconfig:
 .endif
 
 .if ${OPSYS} == "SunOS"
-	#@${CAT} ${FILESDIR}/site.config.m4-solaris >>${SITECONFIG}
+	@${CAT} ${FILESDIR}/site.config.m4-solaris >>${SITECONFIG}
 .endif
 	@${CAT} ${FILESDIR}/site.config.m4-milter >>${SITECONFIG}
