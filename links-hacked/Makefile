@@ -9,7 +9,7 @@ DISTFILES+=     ${DISTNAME}${EXTRACT_SUFX} links-fonts-new${EXTRACT_SUFX}
 
 MAINTAINER=	jrp@hispabsd.org
 HOMEPAGE=	http://xray.sai.msu.ru/~karpov/links-hacked/
-COMMENT=        Enhanced version of Links with tabs and more ( text mode )
+COMMENT=        Enhanced version of Links with tabs and more
 
 USE_BUILDLINK2=		yes
 GNU_CONFIGURE=		yes
