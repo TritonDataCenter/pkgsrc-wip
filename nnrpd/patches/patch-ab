@@ -1,0 +1,13 @@
+$NetBSD$
+
+--- config/Makefile.orig	Tue Dec  9 00:48:50 1997
++++ config/Makefile
+@@ -10,7 +10,7 @@
+ LIST	= `grep -v '^;' <$(FILE)`
+ BACKUP	= backup.tar
+ 
+-INTERPLIST = inncheck innlog.pl pgpverify scanspool innmail
++INTERPLIST = inncheck innlog.pl pgpverify scanspool innmail mailpost
+ 
+ ##  Pick your method of source control:  RCS, SCCS, or NONE
+ SRCCTL		= NONE

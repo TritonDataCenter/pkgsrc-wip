@@ -1,0 +1,12 @@
+@comment $NetBSD$
+libexec/filter_nnrpd.pl
+sbin/mailpost
+sbin/actived
+sbin/nnrpd
+man/man3/dbz.3
+man/man5/nnrp.access.5
+man/man5/moderators.5
+man/man8/nnrpd.8
+share/examples/nnrpd/nnrp.access
+share/examples/nnrpd/moderators
+@dirrm share/examples/nnrpd

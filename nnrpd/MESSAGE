@@ -1,0 +1,9 @@
+===========================================================================
+$NetBSD$
+
+Please start actived at boot time with ${PREFIX}/etc/rc.d/actived
+and add nnrpd to /etc/inetd.conf like
+
+nntp  stream  tcp     nowait  news:news /usr/pkg/sbin/nnrpd   nnrpd
+
+===========================================================================
