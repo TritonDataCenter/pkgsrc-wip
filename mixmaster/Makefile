@@ -5,7 +5,7 @@
 # $PREFIX/share/examples/mixmaster that correspond with what the
 # ugly interactive "Install" script does).
 
-DISTNAME=		mixmaster-2.9.0
+DISTNAME=		mixmaster-2.9.1
 CATEGORIES=		security mail
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=mixmaster/}
 
