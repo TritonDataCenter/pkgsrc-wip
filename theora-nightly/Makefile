@@ -39,7 +39,7 @@ post-install:
 
 # XXX use the latest libvorbis (and libogg too)
 BUILDLINK_DEPENDS.libvorbis=   libvorbis>=20030520
-BUILDLINK_PKGSRCDIR.libvorbis= ../../audio/libvorbis-nightly
+BUILDLINK_PKGSRCDIR.libvorbis= ../../wip/libvorbis-nightly
 .include "../../audio/libvorbis/buildlink2.mk"
 
 .include "../../mk/automake.mk"

@@ -28,7 +28,7 @@ pre-configure:
 
 # XXX use latest libogg too
 BUILDLINK_DEPENDS.libogg=	libogg>=20030520
-BUILDLINK_PKGSRCDIR.libogg=	../../audio/libogg-nightly
+BUILDLINK_PKGSRCDIR.libogg=	../../wip/libogg-nightly
 .include "../../audio/libogg/buildlink2.mk"
 .include "../../mk/automake.mk"
 .include "../../mk/bsd.pkg.mk"
