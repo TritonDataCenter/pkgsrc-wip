@@ -1,6 +1,7 @@
 # $NetBSD:$
 
 DISTNAME=	g-wrap-1.9.3
+PKGREVISION=	1
 CATEGORIES=	devel
 MASTER_SITES=	http://savannah.nongnu.org/download/g-wrap/
 
