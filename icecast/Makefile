@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	icecast-1.3.12
-PKGREVISION=	1
+PKGREVISION=	2
 CATEGORIES=	audio
 MASTER_SITES=	http://www.icecast.org/files/
 
@@ -20,8 +20,7 @@ PKG_SYSCONFSUBDIR=	icecast
 .include "../../mk/bsd.prefs.mk"
 
 CONFIGURE_ARGS+=	--with-readline \
-			--with-libwrap \
-			--sysconfdir=${PKG_SYSCONFDIR}
+			--with-libwrap
 
 .if defined(ICECAST_USE_PYTHON) && ${ICECAST_USE_PYTHON} == YES
 CONFIGURE_ARGS+=	--with-python
