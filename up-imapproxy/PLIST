@@ -1,0 +1,9 @@
+@comment $NetBSD$
+sbin/in.imapproxyd
+sbin/pimpstat
+share/doc/up-imapproxy/README
+share/doc/up-imapproxy/README.known_issues
+share/doc/up-imapproxy/README.ssl
+share/examples/up-imapproxy/imapproxy.conf
+@dirrm share/examples/up-imapproxy
+@dirrm share/doc/up-imapproxy
