@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	bugzilla-2.18rc3
-CATEGORIES=	www
+CATEGORIES=	www devel
 MASTER_SITES=	http://ftp.mozilla.org/pub/mozilla.org/webtools/
 
 MAINTAINER=	adrianp@NetBSD.org
