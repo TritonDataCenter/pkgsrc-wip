@@ -10,7 +10,17 @@ $NetBSD$
  Online documentation for more information. 
  
  Getting started in Ch, type
-  ch
+ 
+  setenv CHHOME ${EMULOPTDIR}/ch4.0.0/
+  
+ if you use csh, or
+ 
+  export CHHOME="${EMULOPTDIR}/ch4.0.0/"
+  
+ if you use (ba)sh. Then execute:
+  
+  ${EMULOPTDIR}/ch4.0.0/bin/ch
+  
   help
 				       
 ===========================================================================
