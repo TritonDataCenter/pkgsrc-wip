@@ -1,7 +1,9 @@
 @comment $NetBSD$
+bin/arm-tcc
+bin/c67-tcc
 bin/tcc
-include/tcc/libtcc.h
 include/tcc/float.h
+include/tcc/libtcc.h
 include/tcc/stdarg.h
 include/tcc/stdbool.h
 include/tcc/stddef.h
@@ -11,5 +13,7 @@ lib/libtcc.a
 lib/tcc/bcheck.o
 lib/tcc/libtcc1.a
 man/man1/tcc.1
+share/doc/tcc/tcc-doc.html
+@dirrm share/doc/tcc
 @dirrm lib/tcc
 @dirrm include/tcc
