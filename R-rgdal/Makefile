@@ -11,7 +11,9 @@ COMMENT=		Provides bindings to GDAL and R
 R_PKGNAME=              rgdal
 R_PKGVER=               0.2-7
 
-DEPENDS+=		gdal>=1.1.9:../../wip/gdal
+DEPENDS+=		gdal>=1.1.9:../../wip/gdal-lib
+DEPENDS+=		R-abind>=1.1.0:../../wip/R-abind
+DEPENDS+=		R-pixmap>=1.1.0:../../wip/R-pixmap
 
 .include "../../math/R/Makefile.extension"
 .include "../../mk/bsd.pkg.mk"
