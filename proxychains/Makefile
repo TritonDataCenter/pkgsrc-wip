@@ -26,4 +26,14 @@ SUBST_STAGE.pfx=pre-build
 SUBST_FILES.pfx=proxychains/main.c
 SUBST_SED.pfx=-e s!/usr!${PREFIX}!
 
+SUBST_CLASSES+=etc
+SUBST_STAGE.etc=pre-build
+SUBST_FILES.etc=proxychains/libproxychains.c
+SUBST_SED.etc=-e s!/etc!${PREFIX}/etc!
+
+post-install:
+	${INSTALL_DATA_DIR} ${PREFIX}/share/examples/proxychains/
+	${INSTALL_DATA} ${WRKSRC}/proxychains/proxychains.conf \
+		${PREFIX}/share/examples/proxychains/
+
 .include "../../mk/bsd.pkg.mk"

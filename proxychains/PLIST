@@ -1,3 +1,5 @@
 @comment $NetBSD$
 bin/proxychains
 lib/libproxychains.la
+share/examples/proxychains/proxychains.conf
+@dirrm share/examples/proxychains
