@@ -18,7 +18,7 @@ BUILD_DEFS+=	CAWFLIB
 MAKE_FLAGS+=	CAWFLIB=${CAWFLIB}
 
 post-extract:
-	${MV} ${WRKSRC}/cawf.1 ${WRKSRC}/cawf.1.orig &&
+	${MV} ${WRKSRC}/cawf.1 ${WRKSRC}/cawf.1.orig && \
 	${SED} -e "s|/Homes/abe/lib/cawf|${CAWFLIB}|g" \
 		< ${WRKSRC}/cawf.1.orig > ${WRKSRC}/cawf.1
 
