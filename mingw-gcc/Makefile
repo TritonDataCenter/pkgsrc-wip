@@ -19,6 +19,8 @@ GNU_CONFIGURE=		yes
 USE_CROSSBASE=		yes
 USE_GMAKE=		yes
 
+PATH:=			${CROSSBASE}/bin:${PATH}
+
 CONFIGURE_ARGS+=	--prefix=${PREFIX} --exec-prefix=${PREFIX} \
 			--target=${MINGW_TARGET} \
 			--enable-languages="c++" --enable-languages="objc" \
@@ -26,7 +28,7 @@ CONFIGURE_ARGS+=	--prefix=${PREFIX} --exec-prefix=${PREFIX} \
 
 do-build:
 	cd ${WRKSRC} && ${SETENV} ${MAKE_ENV} ${MAKE} ${MAKE_FLAGS}
-	cd ${GCCDIR} && ${SETENV} ${MAKE_ENV} ${MAKE} ${MAKE_FLAGS} all-target-libstdc++-v3 all-target-libobjc
+#	cd ${GCCDIR} && ${SETENV} ${MAKE_ENV} ${MAKE} ${MAKE_FLAGS} all-target-libobjc
 
 #do-install:
 #	cd ${GCCDIR} && ${SETENV} ${MAKE_ENV} ${MAKE} install \
