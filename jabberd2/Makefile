@@ -11,7 +11,6 @@ HOMEPAGE=	http://www.jabberstudio.org/
 COMMENT=	Instant messaging server ( version 2 )
 
 USE_BUILDLINK2=		yes
-USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=		yes
 GNU_CONFIGURE=		yes
 USE_PKGINSTALL=		yes
