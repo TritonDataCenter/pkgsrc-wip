@@ -15,6 +15,8 @@ GNU_CONFIGURE=		yes
 
 LIBTOOL_OVERRIDE=       ${WRKSRC}/libtool
 
+CONFIGURE_ARGS+=	--sysconfdir=${PKG_SYSCONFDIR}
+
 .include "../../devel/libevent/buildlink2.mk"
 
 .include "../../mk/bsd.pkg.mk"
