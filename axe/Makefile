@@ -11,6 +11,6 @@ COMMENT=	Manipulate contents of Atari 8bit disk image files (.ATR, .XFD)
 
 NO_CONFIGURE=  YES
 
-USE_BUILDLINK2=	YES
+USE_BUILDLINK3=	YES
 
 .include "../../mk/bsd.pkg.mk"
