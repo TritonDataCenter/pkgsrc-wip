@@ -12,7 +12,7 @@ COMMENT=	Open Source collaborative software development tool
 DEPENDS+=	wget>=1.9:../../net/wget
 DEPENDS+=	php-jpgraph>=1.12:../../graphics/php-jpgraph
 DEPENDS+=	php-pgsql>=4.3:../../databases/php-pgsql
-DEPENDS+=	postgresql-lib>=7.3.1:../../databases/postgresql-lib
+DEPENDS+=	postgresql-lib73>=7.3.1:../../databases/postgresql-lib73
 
 USE_PERL5=	YES
 NO_BUILD=	YES
