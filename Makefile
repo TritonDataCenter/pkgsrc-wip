@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.1193 2004/04/12 23:00:09 jeremy-c-reed Exp $
+# $Id: Makefile,v 1.1194 2004/04/13 13:37:53 adrian_p Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -395,6 +395,7 @@ SUBDIR+=	moregroupware
 SUBDIR+=	mpc
 SUBDIR+=	mpgedit
 SUBDIR+=	mplusfonts
+SUBDIR+=	msf
 SUBDIR+=	mtf
 SUBDIR+=	mtrack
 SUBDIR+=	muine
