@@ -112,7 +112,7 @@ JABBERD_DBDIR?=		/var/db/jabberd
 # Directory to store the pid files
 JABBERD_PIDDIR?=	/var/run/jabberd
 
-.for f in ${JABBERD_LOGDIR} ${JABBERD_DBDIR}
+.for f in ${JABBERD_LOGDIR} ${JABBERD_DBDIR} ${JABBERD_PIDDIR}
 OWN_DIRS_PERMS+=	${f} ${JABBERD_USER} ${JABBERD_GROUP} 750
 .endfor
 .undef f
