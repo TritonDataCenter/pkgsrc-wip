@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.1255 2004/05/07 16:38:09 jeremy-c-reed Exp $
+# $Id: Makefile,v 1.1256 2004/05/08 00:45:34 xtraeme Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -697,7 +697,6 @@ SUBDIR+=	tex-xmltex
 SUBDIR+=	thaixfonts
 SUBDIR+=	thcrut
 SUBDIR+=	theme-gtk-bluecurve
-SUBDIR+=	thunderbird
 SUBDIR+=	tilp
 SUBDIR+=	time
 SUBDIR+=	tinylogin
