@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	dclib-0.3.6
+DISTNAME=	dclib-0.3.7
 CATEGORIES=	net
 MASTER_SITES=	http://download.berlios.de/dcgui/
 EXTRACT_SUFX=	.tar.bz2
