@@ -47,7 +47,7 @@ DEPENDS+=	libmilter>=8.12.9nb1:../../mail/libmilter
 .endif
 
 VERSION=	20030616
-PATCHLEVEL=	p5
+PATCHLEVEL=	p6
 
 USE_PKGINSTALL=	YES
 AMAVISUSER?=    vscan
