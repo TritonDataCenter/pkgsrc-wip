@@ -10,6 +10,9 @@ MAINTAINER=		john@johnrshannon.com
 HOMEPAGE=		ftp://sources.redhat.com/pub/gdb/releases/
 COMMENT=		The GNU Project Debugger
 
+# OPTIONS
+USE_GCC_3.4=		# defined
+
 USE_BUILDLINK3=		yes
 USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=		yes
@@ -33,10 +36,18 @@ CONFIGURE_ARGS+=	--datadir=${GDB_PREFIX}/share
 CONFIGURE_ARGS+=	--disable-nls
 CONFIGURE_ARGS+=	--without-included-gettext
 
+.if defined(USE_GCC_3.4)
+pre-configure:
+.include "../../wip/gcc-3.4/preconfigure.mk"
+.endif
+
 do-test:
 	(cd ${WRKSRC} && ${GMAKE} check)
 
 .include "../../converters/libiconv/buildlink3.mk"
 .include "../../devel/gettext-lib/buildlink3.mk"
+.if defined(USE_GCC_3.4)
+.include "../../wip/gcc-3.4/buildlink3.mk"
+.endif
 .include "../../mk/pthread.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
