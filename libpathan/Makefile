@@ -23,8 +23,7 @@ CONFIGURE_ARGS+=	XERCESCROOT=${LOCALBASE}
 CONFIGURE_ARGS+=	YACC=${LOCALBASE}/bin/bison
 
 pre-configure:
-	${CP} ${FILESDIR}/*.hpp \
-		/usr/pkgsrc/wip/libpathan/work/.buildlink/include/xercesc/dom/impl/
+	${CP} ${FILESDIR}/*.hpp ${BUILDLINK_DIR}/include/xercesc/dom/impl/
 
 BUILDLINK_DEPENDS.xerces-c=	xerces-c>=2.3.0
 .include "../../textproc/xerces-c/buildlink2.mk"
