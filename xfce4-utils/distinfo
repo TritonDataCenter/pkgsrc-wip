@@ -1,5 +1,5 @@
 $NetBSD$
 
-SHA1 (xfce-utils-3.99.1.tar.gz) = c9768797faf7e5e56376e0b34faf2ec189aae546
-Size (xfce-utils-3.99.1.tar.gz) = 702580 bytes
-SHA1 (patch-aa) = a1ac12b462aecab63ef1158f9d53a8667f0d3427
+SHA1 (xfce-utils-3.99.2.tar.gz) = 2af84775ec5a503ea25e716f3622857537727ff2
+Size (xfce-utils-3.99.2.tar.gz) = 704501 bytes
+SHA1 (patch-aa) = 6c4a6417d7a4b92d670013f303127d8640028278

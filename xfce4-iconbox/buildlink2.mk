@@ -9,7 +9,7 @@
 XFCE4_ICONBOX_BUILDLINK2_MK=	# defined
 
 BUILDLINK_PACKAGES+=			xfce4-iconbox
-BUILDLINK_DEPENDS.xfce4-iconbox?=		xfce4-iconbox>=3.99.1
+BUILDLINK_DEPENDS.xfce4-iconbox?=		xfce4-iconbox>=3.99.2
 BUILDLINK_PKGSRCDIR.xfce4-iconbox?=		../../wip/xfce4-iconbox
 
 EVAL_PREFIX+=	BUILDLINK_PREFIX.xfce4-iconbox=xfce4-iconbox

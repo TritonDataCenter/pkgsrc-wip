@@ -5,6 +5,7 @@ lib/xfce4/panel-plugins/libmixer.so
 ${PKGLOCALEDIR}/locale/ca/LC_MESSAGES/xfce4-mixer.mo
 ${PKGLOCALEDIR}/locale/de/LC_MESSAGES/xfce4-mixer.mo
 ${PKGLOCALEDIR}/locale/fr/LC_MESSAGES/xfce4-mixer.mo
+${PKGLOCALEDIR}/locale/hu/LC_MESSAGES/xfce4-mixer.mo
 ${PKGLOCALEDIR}/locale/it/LC_MESSAGES/xfce4-mixer.mo
 ${PKGLOCALEDIR}/locale/nl/LC_MESSAGES/xfce4-mixer.mo
 ${PKGLOCALEDIR}/locale/ru/LC_MESSAGES/xfce4-mixer.mo

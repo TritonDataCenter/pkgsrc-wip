@@ -13,6 +13,7 @@ ${PKGLOCALEDIR}/locale/es/LC_MESSAGES/xfdesktop.mo
 ${PKGLOCALEDIR}/locale/es_MX/LC_MESSAGES/xfdesktop.mo
 ${PKGLOCALEDIR}/locale/fi/LC_MESSAGES/xfdesktop.mo
 ${PKGLOCALEDIR}/locale/fr/LC_MESSAGES/xfdesktop.mo
+${PKGLOCALEDIR}/locale/hu/LC_MESSAGES/xfdesktop.mo
 ${PKGLOCALEDIR}/locale/ja/LC_MESSAGES/xfdesktop.mo
 ${PKGLOCALEDIR}/locale/ms/LC_MESSAGES/xfdesktop.mo
 ${PKGLOCALEDIR}/locale/nl/LC_MESSAGES/xfdesktop.mo
@@ -24,6 +25,7 @@ ${PKGLOCALEDIR}/locale/zh_CN/LC_MESSAGES/xfdesktop.mo
 share/xfce4/backdrops/flower.png
 share/xfce4/backdrops/xfce-in-the-moon.png
 share/xfce4/backdrops/xfce-stellar-tile.png
+share/xfce4/backdrops/xfce-stripes.png
 share/xfce4/backdrops/xfce-turbulence.png
 share/xfce4/backdrops/xfce4gradientcurve.png
 share/xfce4/backdrops/xfce4logo.png

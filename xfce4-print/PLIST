@@ -11,6 +11,7 @@ ${PKGLOCALEDIR}/locale/de/LC_MESSAGES/xfprint.mo
 ${PKGLOCALEDIR}/locale/es/LC_MESSAGES/xfprint.mo
 ${PKGLOCALEDIR}/locale/es_MX/LC_MESSAGES/xfprint.mo
 ${PKGLOCALEDIR}/locale/fr/LC_MESSAGES/xfprint.mo
+${PKGLOCALEDIR}/locale/hu/LC_MESSAGES/xfprint.mo
 ${PKGLOCALEDIR}/locale/ja/LC_MESSAGES/xfprint.mo
 ${PKGLOCALEDIR}/locale/ms/LC_MESSAGES/xfprint.mo
 ${PKGLOCALEDIR}/locale/nl/LC_MESSAGES/xfprint.mo
