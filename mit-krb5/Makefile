@@ -16,6 +16,8 @@ MAINTAINER=		reed@reedmedia.net
 HOMEPAGE=		http://web.mit.edu/kerberos/www/
 COMMENT=		MIT Kerberos 5 authentication system
 
+CONFLICTS=		heimdal-[0-9]*
+
 .if !exists(/usr/bin/yacc)
 BUILD_DEPENDS+=		bison-[0-9]*:../../devel/bison
 YACC=			${LOCALBASE}/bin/bison -y
