@@ -12,6 +12,7 @@ COMMENT=	Remote file administration and integrity tool
 
 GNU_CONFIGURE=	YES
 CONFIGURE_ARGS+=	--with-openssl=${BUILDLINK_PREFIX.openssl}
+CONFIGURE_ARGS+=	--with-radminddir=${VARBASE}/radmind
 
 post-build:
 	(cd ${WRKSRC} && ${MAKE} man rash)
