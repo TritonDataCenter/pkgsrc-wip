@@ -11,7 +11,7 @@ COMMENT=		Compiler that produces program analysis information
 
 USE_BUILDLINK3=		yes
 BUILD_TARGET=		tout
-CFLAGS+=		-DNOGNU=\\\"${PREFIX}/share/ncc/nognu\\\"
+CFLAGS+=		-DNOGNU='"${PREFIX}/share/ncc/nognu"'
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/objdir/ncc ${PREFIX}/bin

@@ -19,7 +19,7 @@ EGDIR=		${PREFIX}/share/examples/l2tpd
 CONF_FILES=	${EGDIR}/l2tpd.conf.sample ${PKG_SYSCONFDIR}/l2tpd.conf
 CONF_FILES+=	${EGDIR}/l2tpd-secrets.sample ${PKG_SYSCONFDIR}/l2tpd-secrets
 
-CFLAGS+=	-DPREFIX="\\\"${PREFIX}\\\"" -DSANITY
+CFLAGS+=	-DPREFIX='"${PREFIX}"' -DSANITY
 
 SUBST_CLASSES+=		options
 SUBST_MESSAGE.options=	"Fixing build options."
