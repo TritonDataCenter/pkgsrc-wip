@@ -1,0 +1,5 @@
+@comment $NetBSD$
+bin/iksfejs
+bin/slrnface
+share/doc/slrn-pl/Protocol
+share/doc/slrn-pl/README.slrnface
