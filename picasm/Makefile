@@ -3,7 +3,6 @@
 
 DISTNAME=	picasm105
 PKGNAME=	picasm-1.05
-WRKSRC=		${WRKDIR}
 CATEGORIES=	devel
 MASTER_SITES=	http://www.iki.fi/hyvatti/pic/
 
@@ -13,6 +12,7 @@ COMMENT=	Assembler for Microchip PIC16Cxx microcontrollers
 
 MAKEFILE=	makefile.uni
 BUILD_TARGET=	picasm
+WRKSRC=		${WRKDIR}
 
 USE_GNU_TOOLS+=	make
 USE_BUILDLINK3=	yes
