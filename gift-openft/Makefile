@@ -5,7 +5,7 @@ DISTNAME=	gift-openft-0.2.1.2
 CATEGORIES=	net
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=gift/}
 
-MAINTAINER=	alex@schurkenstaat.org
+MAINTAINER=	alex@catbull.com
 HOMEPAGE=	http://gift.sourceforge.net/
 COMMENT=	OpenFT Plugin for the gift daemon
 
