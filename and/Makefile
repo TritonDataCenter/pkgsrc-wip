@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		and-1.2.0
-CATEGORIES=		wip
+CATEGORIES=		wip sysutils
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=and/}
 
 MAINTAINER=		pancake@phreaker.net
