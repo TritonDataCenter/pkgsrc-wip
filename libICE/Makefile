@@ -2,6 +2,7 @@
 #
 
 DISTNAME=		libICE-6.3.1
+PKGREVISION=		1
 CATEGORIES=		x11 devel
 MASTER_SITES=		http://freedesktop.org/~xlibs/dist/
 EXTRACT_SUFX=		.tar.bz2
