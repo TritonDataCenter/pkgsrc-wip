@@ -8,7 +8,7 @@ MAINTAINER=		peter@pointless.nl
 HOMEPAGE=		http://nedbsd.nl/~ppostma/pf-lkm.html
 COMMENT=		OpenBSD PF loadable kernel module for NetBSD
 
-ONLY_FOR_PLATFORM=	NetBSD-2.0*-*
+ONLY_FOR_PLATFORM=	NetBSD-[2-9]*-*
 
 USE_PKGINSTALL=		yes
 USE_BUILDLINK3=		yes
