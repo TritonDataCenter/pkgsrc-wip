@@ -17,6 +17,8 @@ USE_LIBTOOL=		yes
 GNU_CONFIGURE=		yes
 USE_PKGINSTALL=		yes
 
+BUILDLINK_DEPENDS.openssl=	openssl>=0.9.6b
+
 CONFIGURE_ARGS+=	--sysconfdir=${PKG_SYSCONFDIR}
 
 LIBTOOL_OVERRIDE=       ${WRKSRC}/libtool
