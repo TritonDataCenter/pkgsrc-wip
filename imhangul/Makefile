@@ -10,8 +10,10 @@ MAINTAINER=	minskim@bawi.org
 HOMEPAGE=	http://imhangul.kldp.net/
 COMMENT=	GTK+-2.0 Hangul Input Module
 
-USE_BUILDLINK2=	YES
-GNU_CONFIGURE=	YES
+USE_BUILDLINK2=		YES
+GNU_CONFIGURE=		YES
+USE_LIBTOOL=		YES
+LIBTOOL_OVERRIDE=	${WRKSRC}/libtool
 
 .include "../../x11/gtk2/buildlink2.mk"
 .include "../../mk/bsd.pkg.mk"
