@@ -33,10 +33,10 @@ $NetBSD$
 +    extra_link_args = [PREFIX + '/lib/libsndfile.a']
 +    if LIBOSSAUDIO is not None:
 +        extra_link_args.append(LIBOSSAUDIO)
-+    try:
-+	extra_link_args.append(os.environ['PTHREAD_LDFLAGS'])
-+    except KeyError:
-+	pass
++#    try: # This has been commented out to make it build on -current, please check other OSs, as I can't do that now -- dotz@irc.pl
++#	extra_link_args.append(os.environ['PTHREAD_LDFLAGS'])
++#    except KeyError:
++#	pass
  #faSources=['fastaudio.pyx']
  
  ext_fastaudio = [Extension('fastaudio',

@@ -16,16 +16,18 @@ COMMENT=		Python bindings for portaudio library
 
 BUILD_DEPENDS=		${PYPKGPREFIX}-pyrex>=0.8.1:../../lang/py-pyrex
 
-USE_BUILDLINK2=		yes
+USE_BUILDLINK3=		yes
 PY_PATCHPLIST=		yes
 PYDISTUTILSPKG=		yes
+MAKE_ENV+=		PTHREAD_LDFLAGS="${PTHREAD_LDFLAGS}"
 
 EXTRACT_CMD_OPTS.zip=	-aqo
 
 post-extract:
 	${MV} ${WRKDIR}/fastaudio/* ${WRKDIR}/portaudio_v18_1
 
-.include "../../audio/libsndfile/buildlink2.mk"
+.include "../../audio/libsndfile/buildlink3.mk"
 .include "../../lang/python/extension.mk"
-.include "../../mk/ossaudio.buildlink2.mk"
+.include "../../mk/ossaudio.buildlink3.mk"
+.include "../../mk/pthread.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
