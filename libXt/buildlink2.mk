@@ -42,6 +42,9 @@ BUILDLINK_FILES.libXt+=	lib/libXt.*
 .include "../../mk/pthread.buildlink2.mk"
 LIBS+=		${BUILDLINK_LDFLAGS.pthread}
 
+# libXt needs IceProcessMessages and SmcSaveYourselfDone and others
+LDFLAGS+=	-lICE -lSM
+
 BUILDLINK_TARGETS+=	libXt-buildlink
 
 libXt-buildlink: _BUILDLINK_USE

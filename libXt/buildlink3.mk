@@ -26,6 +26,9 @@ BUILDLINK_PKGSRCDIR.libXt?=		../../wip/libXt
 .include "../../mk/pthread.buildlink3.mk"
 LIBS+=		${BUILDLINK_LDADD.pthread}
 
+# libXt needs IceProcessMessages and SmcSaveYourselfDone and others
+LDFLAGS+=	-lICE -lSM
+
 .endif # LIBXT_BUILDLINK3_MK
 
 BUILDLINK_DEPTH:=     ${BUILDLINK_DEPTH:S/+$//}
