@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.1280 2004/05/14 15:46:59 dillo Exp $
+# $Id: Makefile,v 1.1281 2004/05/15 12:38:33 mpasternak Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -631,6 +631,7 @@ SUBDIR+=	silky
 SUBDIR+=	simage
 SUBDIR+=	simgear
 SUBDIR+=	simplec
+SUBDIR+=	skippy
 SUBDIR+=	sks
 SUBDIR+=	slackpkg2pkgsrc
 SUBDIR+=	slackware_aaa_base
