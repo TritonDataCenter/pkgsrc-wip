@@ -13,7 +13,6 @@ COMMENT=		NIS (YP) Server
 DEPENDS+=		portmap>=4:../../wip/portmap
 
 USE_BUILDLINK2=		yes
-USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 
 CONFIGURE_ARGS+=	--libexecdir=${PREFIX}/sbin
