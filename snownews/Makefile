@@ -8,11 +8,12 @@ MAINTAINER=     bjan+pkgsrc@bjan.net
 HOMEPAGE=	http://home.kcore.de/~kiza/software/snownews/
 COMMENT=        Small, curses based RSS feed reader
 
+BUILD_USES_MSGFMT=	YES
+
 USE_BUILDLINK2= 	YES
 USE_GMAKE=		YES
 USE_NCURSES=		# missing WA_BOLD, WA_REVERSE, KEY_RESIZE
 USE_PKGLOCALEDIR=	YES
-BUILD_USES_MSGFMT=	YES
 
 MAKE_ENV+=	PKGLOCALEDIR=${PKGLOCALEDIR} GMAKE=${GMAKE}
 MAKE_ENV+=	EXTRA_CFLAGS="${CFLAGS}" 
