@@ -53,4 +53,10 @@ post-install:
 .include "../../wip/mysql4-client/buildlink2.mk"
 .include "../../security/tcp_wrappers/buildlink2.mk"
 .include "../../mk/pthread.buildlink2.mk"
+
+.if defined(PTHREAD_TYPE) && (${PTHREAD_TYPE} == "pth")
+CFLAGS+=	-DSIGNALS_DONT_BREAK_READ
+CXXFLAGS+=	-DSIGNALS_DONT_BREAK_READ
+.endif
+
 .include "../../mk/bsd.pkg.mk"
