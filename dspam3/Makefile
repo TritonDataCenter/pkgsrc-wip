@@ -89,11 +89,13 @@ CONFIGURE_ARGS+=	--with-storage-driver=lib${BDB_TYPE}_drv
 #
 # Use of home directory dot file for opt-in/opt-out
 #
-.if defined(DSPAM_HOMEDIR_DOTFILES) && !empty(DSPAM_HOMEDIR_DOTFILES:M[Yy][Ee][Ss])
+.if defined(DSPAM_HOMEDIR_DOTFILES) && \
+    !empty(DSPAM_HOMEDIR_DOTFILES:M[Yy][Ee][Ss])
 CONFIGURE_ARGS+=	--enable-homedir-dotfiles
 .endif
 
-.if defined(DSPAM_USE_WEBMAIL) && !empty(DSPAM_USE_WEBMAIL:M[Yy][Ee][Ss])
+.if defined(DSPAM_USE_WEBMAIL) && \
+    !empty(DSPAM_USE_WEBMAIL:M[Yy][Ee][Ss])
 CONFIGURE_ARGS+=	--enable-webmail
 .endif
 
