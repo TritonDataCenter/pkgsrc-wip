@@ -1,5 +1,0 @@
-@comment $NetBSD$
-${PYSITELIB}/libxslt.py
-${PYSITELIB}/libxslt.pyc
-${PYSITELIB}/libxslt.pyo
-${PYSITELIB}/libxsltmod.so
