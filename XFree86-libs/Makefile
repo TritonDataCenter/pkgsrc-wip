@@ -11,8 +11,9 @@ MAINTAINER=	xfree86@xtraeme.unixbsd.org
 HOMEPAGE=	http://www.xfree86.org/
 COMMENT=	XFree86 Libraries
 
-DEPENDS+=		imake-*:../../wip/imake
-USE_BUILDLINK2=         yes
+DEPENDS+=		imake-[0-9]*:../../wip/imake
+
+USE_BUILDLINK2=         YES
 
 XBUILD_DIRS=		lib nls programs/Xserver/include \
 			programs/Xserver/hw/xfree86/parser
