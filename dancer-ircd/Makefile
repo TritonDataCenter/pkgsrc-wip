@@ -48,5 +48,7 @@ do-install:
 		${PREFIX}/sbin
 	${INSTALL_MAN} ${WRKSRC}/doc/ircd.8 \
 		${PREFIX}/man/man8
+	${INSTALL_DATA} ${WRKSRC}/doc/example.conf \
+		${PKG_SYSCONFDIR}/ircd.conf
 
 .include "../../mk/bsd.pkg.mk"
