@@ -9,8 +9,8 @@
 LIBXMLXX_BUILDLINK2_MK=	# defined
 
 BUILDLINK_PACKAGES+=			libxmlxx
-BUILDLINK_DEPENDS.libxmlXX?=		libxml++>=0.27.0
-BUILDLINK_PKGSRCDIR.libxmlXX?=		../../new/libxml++
+BUILDLINK_DEPENDS.libxmlxx?=		libxml++>=0.27.0
+BUILDLINK_PKGSRCDIR.libxmlxx?=		../../new/libxml++
 
 EVAL_PREFIX+=	BUILDLINK_PREFIX.libxmlxx=libxmlxx
 BUILDLINK_PREFIX.libxmlxx_DEFAULT=	${LOCALBASE}
