@@ -20,11 +20,11 @@ BUILDLINK_ENV+=	ADAC=${LOCALBASE}/gcc-3.4.0/bin/gcc
 .  endif
 _GCC_ARCHDIR!=	${DIRNAME} `${LOCALBASE}/gcc-3.4.0/bin/gcc --print-libgcc-file-name`
 .  if empty(_GCC_ARCHDIR:M*not_found*)
-BUILDLINK_LIBDIRS.gcc-3.4+=	lib ${_GCC_ARCHDIR:S/^${BUILDLINK_PREFIX.gcc-3.4.0}\///}/
+BUILDLINK_LIBDIRS.gcc-3.4+=	lib ${_GCC_ARCHDIR:S/^${BUILDLINK_PREFIX.gcc-3.4}\///}/
 .    if exists(${_GNAT1})
-BUILDLINK_LIBDIRS.gcc-3.4+=	${_GCC_ARCHDIR:S/^${BUILDLINK_PREFIX.gcc-3.4.0}\///}/adalib
+BUILDLINK_LIBDIRS.gcc-3.4+=	${_GCC_ARCHDIR:S/^${BUILDLINK_PREFIX.gcc-3.4}\///}/adalib
 .    endif
-BUILDLINK_INCDIRS.gcc-3.4+=	include ${_GCC_ARCHDIR:S/^${BUILDLINK_PREFIX.gcc-3.4.0}\///}/include
+BUILDLINK_INCDIRS.gcc-3.4+=	include ${_GCC_ARCHDIR:S/^${BUILDLINK_PREFIX.gcc-3.4}\///}/include
 .  endif
 .endif  # GCC34_BUILDLINK3_MK
 
@@ -35,11 +35,7 @@ BUILDLINK_FILES_CMD.gcc-3.4=	\
 BUILDLINK_TRANSFORM.gcc-3.4=	-e s:\buildlink:buildlink/gcc-3.4.0:
 
 # Packages that link against shared libraries need a full dependency.
-.  if defined(USE_GCC_SHLIB)
 BUILDLINK_DEPMETHOD.gcc-3.4?=	full
-.  else
-BUILDLINK_DEPMETHOD.gcc-3.4?=	build
-.  endif
 
 .include "../../mk/pthread.buildlink3.mk"
 .include "../../converters/libiconv/buildlink3.mk"
