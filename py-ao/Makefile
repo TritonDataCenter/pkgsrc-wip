@@ -10,13 +10,13 @@ MAINTAINER=		dotz@irc.pl
 HOMEPAGE=		http://vorbis.com/
 COMMENT=		Libao bindings for Python; see libao description
 
-USE_BUILDLINK2=		yes
+USE_BUILDLINK3=		yes
 PY_PATCHPLIST=		yes
 PYDISTUTILSPKG=		yes
 
 do-configure:
 	cd ${WRKSRC} && ${PYTHONBIN} config_unix.py --prefix ${PREFIX}
 
-.include "../../audio/libao/buildlink2.mk"
+.include "../../audio/libao/buildlink3.mk"
 .include "../../lang/python/extension.mk"
 .include "../../mk/bsd.pkg.mk"
