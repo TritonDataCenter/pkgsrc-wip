@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=		obconf-1.0
+DISTNAME=		obconf-1.1
 CATEGORIES=		x11 wm
 MASTER_SITES=		http://icculus.org/openbox/releases/
 
