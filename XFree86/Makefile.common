@@ -25,6 +25,7 @@ MANCOMPRESSED=	YES
 
 WRKSRC?=	${WRKDIR}/xc
 USE_X11BASE?=	YES
+USE_X11_LINKS=  NO
 
 MASTER_SITE_XFREE+=	\
 	ftp://archive.progeny.com/XFree86/${XF_VER}/source/ \
