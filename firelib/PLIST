@@ -1,0 +1,6 @@
+@comment $NetBSD$
+bin/fireSim
+lib/libfire.a
+share/doc/firelib/firelib.ps
+share/doc/firelib/license.txt
+@dirrm share/doc/firelib
