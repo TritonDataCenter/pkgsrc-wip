@@ -10,12 +10,13 @@ MAINTAINER=	marc@informatik.uni-bremen.de
 HOMEPAGE=	http://www.gnu.org/software/coreutils/
 COMMENT=	GNU basic file, shell and text manipulation utilities
 
+BUILD_USES_MSGFMT=	YES
+
 CONFLICTS=	sh-utils-* fileutils-*
 CONFLICTS+=	textutils-*
 
 GNU_CONFIGURE=		YES
 USE_BUILDLINK2=		YES
-BUILD_USES_MSGFMT=	YES
 USE_PERL5=		build
 
 .include "../../mk/bsd.prefs.mk"
