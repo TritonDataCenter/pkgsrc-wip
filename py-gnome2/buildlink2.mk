@@ -3,10 +3,11 @@
 .if !defined(PYGNOME2_BUILDLINK2_MK)
 PYGNOME2_BUILDLINK2_MK=	# defined
 
+PYTHON_VERSIONS_ACCEPTED=	23pth 22pth
 .include "../../lang/python/pyversion.mk"
 
 BUILDLINK_PACKAGES+=			pygnome2
-BUILDLINK_DEPENDS.pygnome2?=		${PYPKGPREFIX}-gnome2>=1.99.16
+BUILDLINK_DEPENDS.pygnome2?=		${PYPKGPREFIX}-gnome2>=1.99.18
 BUILDLINK_PKGSRCDIR.pygnome2?=		../../wip/py-gnome2
 
 EVAL_PREFIX+=	BUILDLINK_PREFIX.pygnome2=${PYPKGPREFIX}-gnome2
