@@ -29,6 +29,7 @@ PKGCONFIG_OVERRIDE+=    ${WRKSRC}/libgsasl.pc.in
 .include "../../devel/gettext-lib/buildlink2.mk"
 .include "../../devel/pkgconfig/buildlink2.mk"
 .include "../../security/libgcrypt/buildlink2.mk"
+.include "../../wip/gss/buildlink2.mk"
 .include "../../wip/libidn/buildlink2.mk"
 .include "../../wip/libntlm/buildlink2.mk"
 
