@@ -2,6 +2,7 @@
 bin/gkrellm
 include/gkrellm2/gkrellm.h
 include/gkrellm2/gkrellm-public-proto.h
+lib/pkgconfig/gkrellm.pc
 man/man1/gkrellm.1
 @dirrm share/gkrellm2/themes
 @dirrm lib/gkrellm2/plugins
