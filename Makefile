@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.878 2004/01/12 04:01:50 xtraeme Exp $
+# $Id: Makefile,v 1.879 2004/01/12 06:13:53 marttikuparinen Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -126,6 +126,7 @@ SUBDIR+=	drweb-clients-shared
 SUBDIR+=	drweb-dc
 SUBDIR+=	drweb-smf
 SUBDIR+=	drwright
+SUBDIR+=	dvdbackup
 SUBDIR+=	dumb
 SUBDIR+=	dzt
 SUBDIR+=	e2fsprogs
