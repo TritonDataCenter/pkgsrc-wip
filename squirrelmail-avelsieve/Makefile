@@ -18,7 +18,7 @@ WRKSRC=		${WRKDIR}
 do-build:
 
 do-install:
-	cd ${WRKDIR} && ${TAR} -cf - avelsieve | \
+	cd ${WRKDIR} && ${TAR} -cf - ${DISTNAME:C/-.*$//} | \
 		${TAR} -xf - -C ${PREFIX}/share/squirrelmail/plugins
 
 .include "../../mail/squirrelmail/buildlink3.mk"
