@@ -1,2 +1,8 @@
 @comment $NetBSD$
 bin/streamripper
+share/doc/streamripper/CHANGES
+share/doc/streamripper/COPYING
+share/doc/streamripper/README
+share/doc/streamripper/THANKS
+share/doc/streamripper/TODO
+@dirrm share/doc/streamripper
