@@ -1,4 +1,4 @@
-#!/bin/sh
+#!@SH@
 #
 # $NetBSD$
 
