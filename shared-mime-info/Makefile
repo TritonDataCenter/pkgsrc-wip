@@ -1,18 +1,20 @@
 # $NetBSD$
+#
 
-DISTNAME=		shared-mime-info-0.12	
-CATEGORIES=		misc
-MASTER_SITES=	http://www.freedesktop.org/software/shared-mime-info/releases/
+DISTNAME=		shared-mime-info-0.13
+CATEGORIES=		databases
+MASTER_SITES=   	http://www.freedesktop.org/software/shared-mime-info/
 
-MAINTAINER=		froz@icix.org
-COMMENT=		The freedesktop.org shared MIME database
+MAINTAINER=		aniou@smutek.pl
+HOMEPAGE=		http://www.freedesktop.org/software/shared-mime-info/
+COMMENT=		Large number of common MIME types
 
-USE_BUILDLINK2=		YES
-GNU_CONFIGURE=		YES
+USE_BUILDLINK3=		yes
+USE_PKGLOCALEDIR=	yes
+GNU_CONFIGURE=		yes
 
-MAKE_ENV+=  XDG_DATA_HOME=${LOCALBASE}/share
-MAKE_ENV+=  XDG_DATA_DIRS=${LOCALBASE}/share
-
-.include "../../textproc/libxml2/buildlink2.mk"
-.include "../../devel/glib2/buildlink2.mk"
+.include "../../devel/glib2/buildlink3.mk"
+.include "../../devel/pkgconfig/buildlink3.mk"
+.include "../../textproc/intltool/buildlink3.mk"
+.include "../../textproc/libxml2/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
