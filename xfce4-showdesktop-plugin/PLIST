@@ -1,0 +1,4 @@
+@comment $NetBSD$
+lib/xfce4/panel-plugins/libshowdesktop.a
+lib/xfce4/panel-plugins/libshowdesktop.la
+lib/xfce4/panel-plugins/libshowdesktop.so
