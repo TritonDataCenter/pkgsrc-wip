@@ -1,0 +1,10 @@
+@comment $NetBSD$
+bin/gps
+share/doc/gps/features.html
+share/doc/gps/links.html
+share/doc/gps/usage.html
+share/gps/AUTHORS
+share/gps/COPYING
+share/gps/ChangeLog
+@dirrm share/gps
+@dirrm share/doc/gps
