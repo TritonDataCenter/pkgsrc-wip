@@ -32,6 +32,7 @@ share/games/openttd/lang/slovak.lng
 share/games/openttd/lang/spanish.lng
 share/games/openttd/lang/swedish.lng
 @dirrm share/games/openttd/lang
+@dirrm share/games/openttd/gm
 @dirrm share/games/openttd/docs
 @dirrm share/games/openttd/data
 @dirrm share/games/openttd
