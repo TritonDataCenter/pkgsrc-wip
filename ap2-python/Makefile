@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	mod_python-3.0.3
+DISTNAME=	mod_python-3.0.4
 CATEGORIES=	www python
 MASTER_SITES=	http://www.apache.org/dist/httpd/modpython/
 EXTRACT_SUFX=	.tgz
