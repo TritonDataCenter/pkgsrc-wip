@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	pkg_notify-0.2.2
+DISTNAME=	pkg_notify-0.3.0
 CATEGORIES=	pkgtools
 MASTER_SITES=	http://imil.net/NetBSD/
 
