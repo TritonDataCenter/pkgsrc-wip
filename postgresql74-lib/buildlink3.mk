@@ -17,6 +17,7 @@ BUILDLINK_INCDIRS.postgresql-lib?=	include/postgresql
 .endif	# POSTGRESQL_LIB_BUILDLINK3_MK
 
 .include "../../security/openssl/buildlink3.mk"
+.include "../../devel/gettext-lib/buildlink3.mk"
 .include "../../devel/zlib/buildlink3.mk"
 
 BUILDLINK_DEPTH:=     ${BUILDLINK_DEPTH:S/+$//}

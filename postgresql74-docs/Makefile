@@ -8,7 +8,6 @@ COMMENT=		PostgreSQL database system documentation
 
 BUILD_DIRS=		${WRKSRC}/doc
 DOCDIR=			${PREFIX}/share/doc/postgresql
-DESCR_SRC=		${.CURDIR}/../../databases/postgresql-docs/DESCR
 
 # The manpage documentation is installed with the relevant packages.
 pre-build:
@@ -16,11 +15,14 @@ pre-build:
 
 post-install:
 	${INSTALL_DATA_DIR} ${DOCDIR}
+	${INSTALL_DATA_DIR} ${DOCDIR}/TODO.detail
 	cd ${WRKSRC}/doc; for file in					\
 		FAQ* KNOWN_BUGS MISSING_FEATURES README.* TODO		\
 		bug.template;						\
 	do								\
 		${INSTALL_DATA}	$${file} ${DOCDIR}/$${file};		\
 	done
+	cd ${WRKSRC}/doc/TODO.detail && \
+		${PAX} -rwppm . ${DOCDIR}/TODO.detail
 
 .include "../../mk/bsd.pkg.mk"
