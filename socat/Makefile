@@ -16,10 +16,11 @@ USE_GNU_READLINE=	YES
 CONFIGURE_ARGS+=	--disable-libwrap
 CONFIGURE_ARGS+=	--with-readline=${BUILDLINK_PREFIX.readline}
 
-pre-install:
-	${CP} ${WRKSRC}/socat.1 ${WRKSRC}/socat.1.orig
-	${SED} -e 's#@PREFIX@#${PREFIX}#g' < ${WRKSRC}/socat.1.orig \
-		> ${WRKSRC}/socat.1
+SUBST_CLASSES+=		paths
+SUBST_MESSAGE.paths=	"Fixing hardcoded paths."
+SUBST_STAGE.paths=	post-patch
+SUBST_FILES.paths=	socat.1
+SUBST_SED.paths=	-e 's,/usr/,${PREFIX}/,g'
 
 .include "../../security/openssl/buildlink3.mk"
 .include "../../devel/readline/buildlink3.mk"
