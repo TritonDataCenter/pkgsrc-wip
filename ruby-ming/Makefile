@@ -14,8 +14,6 @@ USE_BUILDLINK2=	# defined
 VER=		0.1.6
 USE_RUBY_SETUP=	yes
 
-DEPENDS+=	ming>0.2:../../wip/ming
-
 EXAMPLES=	README action.rb button.rb drag.rb \
 	gradient.rb gradientxform.rb keypress.rb mousetrack.rb \
 	newbutton.rb shape.rb sparks.rb sprite.rb
@@ -26,6 +24,7 @@ post-install:
 		${INSTALL_DATA} ${WRKSRC}/examples/$f ${RUBY_EXAMPLESDIR}/ming
 .endfor
 
+.include "../../wip/ming/buildlink2.mk"
 .include "../../lang/ruby-base/Makefile.common"
 .include "../../lang/ruby-base/buildlink2.mk"
 .include "../../mk/bsd.pkg.mk"
