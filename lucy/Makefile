@@ -9,6 +9,10 @@ MAINTAINER=		dprice@cs.nmsu.edu
 HOMEPAGE=		http://www.tigr.org/software
 COMMENT=		Sequence Cleanup Program
 
+PKG_INSTALLATION_TYPES=	overwrite pkgviews
+
+INSTALLATION_DIRS=	bin man/man1
+
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/lucy ${PREFIX}/bin
 	${INSTALL_DATA} ${WRKSRC}/lucy.1 ${PREFIX}/man/man1
