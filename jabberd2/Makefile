@@ -50,25 +50,26 @@ BUILD_DEFS+=	JABBERD_USER JABBERD_STATIC				\
 # pgsql (PostgreSQL)
 
 JABBERD_AUTH_METHOD?=		db
+AUTHREG_MODS="anon pipe ${JABBERD_AUTH_METHOD}"
 
 .if !empty(JABBERD_AUTH_METHOD:Mdb)
-CONFIGURE_ARGS+=	--enable-authreg=db
+CONFIGURE_ARGS+=	--enable-authreg=${AUTHREG_MODS}
 CONFIGURE_ARGS+=	--with-berkeley-db=${BUILDLINK_DIR}/include
 .include "../../mk/bdb.buildlink3.mk"
 .elif !empty(JABBERD_AUTH_METHOD:Mopenldap)
-CONFIGURE_ARGS+=	--enable-authreg=ldap
+CONFIGURE_ARGS+=	--enable-authreg=${AUTHREG_MODS}
 CONFIGURE_ARGS+=	--with-openldap=${BUILDLINK_PREFIX.openldap}
 .include "../../databases/openldap/buildlink3.mk"
 .elif !empty(JABBERD_AUTH_METHOD:Mpgsql)
-CONFIGURE_ARGS+=	--enable-authreg=pgsql
+CONFIGURE_ARGS+=	--enable-authreg=${AUTHREG_MODS}
 CONFIGURE_ARGS+=	--with-pgsql=${BUILDLINK_PREFIX.postgresql-lib}
 .include "../../databases/postgresql-lib/buildlink3.mk"
 .elif !empty(JABBERD_AUTH_METHOD:Mmysql)
-CONFIGURE_ARGS+=	--enable-authreg=mysql
+CONFIGURE_ARGS+=	--enable-authreg=${AUTHREG_MODS}
 CONFIGURE_ARGS+=	--with-mysql=${BUILDLINK_PREFIX.mysql-server}
 .include "../../databases/mysql-client/buildlink3.mk"
 .elif !empty(JABBERD_AUTH_METHOD:Mpam)
-CONFIGURE_ARGS+=	--enable-authreg=pam
+CONFIGURE_ARGS+=	--enable-authreg=${AUTHREG_MODS}
 CONFIGURE_ARGS+=	--with-pam=${BUILDLINK_PREFIX.PAM}
 .include "../../security/PAM/buildlink3.mk"
 .endif
