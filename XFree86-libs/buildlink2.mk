@@ -1,7 +1,5 @@
 # $NetBSD$
 # 
-# $Id: buildlink2.mk,v 1.2 2003/07/23 22:36:11 blef Exp $
-#
 # This Makefile fragment is included by packages that use XFree86-libs.
 #
 # This file was created automatically using createbuildlink 2.6.
