@@ -14,12 +14,11 @@ USE_BUILDLINK2=         yes
 PY_PATCHPLIST=          yes
 PYDISTUTILSPKG=         yes
 
-DEPENDS+=		${PYPKGPREFIX}-pyogg>=1.3:../../wip/py-ogg
-
 do-configure:
 	cd ${WRKSRC} && ${PYTHONBIN} config_unix.py --prefix ${PREFIX}
 
+.include "../../lang/python/extension.mk"
+.include "../../wip/py-ogg/buildlink2.mk"
 .include "../../audio/libogg/buildlink2.mk"
 .include "../../audio/libvorbis/buildlink2.mk"
-.include "../../lang/python/extension.mk"
 .include "../../mk/bsd.pkg.mk"
