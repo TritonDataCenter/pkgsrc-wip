@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.90 2003/04/15 22:21:12 cubidou Exp $
+# $Id: Makefile,v 1.91 2003/04/15 22:29:38 bmeurer Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -9,6 +9,7 @@ SUBDIR+=	allegro
 SUBDIR+=	aolserver
 SUBDIR+=	ap-bandwidth
 SUBDIR+=	autoproject
+SUBDIR+=	beaver
 SUBDIR+=	billardgl
 SUBDIR+=	byacc
 SUBDIR+=	celestia
