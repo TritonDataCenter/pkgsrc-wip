@@ -2,7 +2,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		openvpn-1.4.1
+DISTNAME=		openvpn-1.4.2
 CATEGORIES=		net
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=openvpn/}
 
