@@ -1,3 +1,5 @@
 $NetBSD$
 
 Needs more testing.
+
+Fix IPv6 as it is not autodetecting correctly at the moment.
