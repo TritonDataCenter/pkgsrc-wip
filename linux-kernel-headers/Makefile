@@ -9,13 +9,13 @@ PLIST_SRC+=	${PKGDIR}/PLIST.${LOWER_ARCH}
 PLIST_SRC+=	${PKGDIR}/PLIST.common
 
 do-build:
-	${TOUCH} ${WRKSRC}/.config
-	(cd ${WRKSRC} && ${SETENV} ${MAKE_ENV} ${GMAKE} include/linux/version.h)
+	cd ${WRKSRC} && ${SETENV} ${MAKE_ENV} ${GMAKE} include/linux/version.h
 
 do-install:
 	cd ${WRKSRC}/include && ${PAX} -rw -pe linux ${PREFIX}/include
 	${INSTALL_DATA_DIR} ${PREFIX}/include/asm
-	${LN} -sf ${PREFIX}/include/asm ${PREFIX}/include/asm-generic
+	${RM} ${PREFIX}/include/asm-generic
+	${LN} -s ${PREFIX}/include/asm ${PREFIX}/include/asm-generic
 	cd ${WRKSRC}/include/asm-${LOWER_ARCH} && \
 		${PAX} -rw -pe . ${PREFIX}/include/asm
 	cd ${WRKSRC}/include/asm-generic && \
