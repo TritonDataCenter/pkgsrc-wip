@@ -9,7 +9,7 @@ $NetBSD$
 -# define CcCmd			$(CLIENTENVSETUP) cc
 -# define CplusplusCmd		$(CLIENTENVSETUP) c++
 +# define CcCmd			$(CLIENTENVSETUP) @@PKGSRC_CC@@
-+# define CplusplusCmd		$(CLIENTENVSETUP) @@PKGSRC_CPP@@
++# define CplusplusCmd		$(CLIENTENVSETUP) @@PKGSRC_CXX@@
  #else
 -# define CcCmd			cc
 -# define CplusplusCmd		c++
