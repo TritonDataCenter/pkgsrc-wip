@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.27 2003/04/05 13:54:40 virtus Exp $
+# $Id: Makefile,v 1.28 2003/04/05 14:21:42 virtus Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -8,6 +8,7 @@ SUBDIR+=	aolserver
 SUBDIR+=	autoproject
 SUBDIR+=	chksniff
 SUBDIR+=	chktex
+SUBDIR+=	cvsd
 SUBDIR+=	dbh
 SUBDIR+=	gtk-sharp
 SUBDIR+=	gtkglarea2
