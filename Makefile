@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.1382 2004/07/15 02:40:52 hsaliak Exp $
+# $Id: Makefile,v 1.1383 2004/07/15 11:59:21 ianzag Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -663,6 +663,7 @@ SUBDIR+=	scponly
 SUBDIR+=	scribus
 SUBDIR+=	send-pr
 SUBDIR+=	sendmail813
+SUBDIR+=	serlook
 SUBDIR+=	sgmltools-lite
 SUBDIR+=	shadow
 SUBDIR+=	shoutcast
