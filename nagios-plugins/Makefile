@@ -1,7 +1,6 @@
 # $NetBSD$
 #
 
-DISTNAME=	nagios-plugins-${PLUGINSVERSION}
 PKGREVISION=	# not defined
 CATEGORIES=	net sysutils
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=nagiosplug/}

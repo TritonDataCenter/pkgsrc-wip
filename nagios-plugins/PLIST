@@ -26,7 +26,6 @@ libexec/nagios/check_rpc
 libexec/nagios/check_sensors
 libexec/nagios/check_smtp
 libexec/nagios/check_ssh
-libexec/nagios/check_swap
 libexec/nagios/check_tcp
 libexec/nagios/check_time
 libexec/nagios/check_udp
