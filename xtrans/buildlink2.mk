@@ -14,8 +14,7 @@ BUILDLINK_PKGSRCDIR.xtrans?=		../../wip/xtrans
 
 EVAL_PREFIX+=	BUILDLINK_PREFIX.xtrans=xtrans
 BUILDLINK_PREFIX.xtrans_DEFAULT=	${LOCALBASE}
-BUILDLINK_FILES.xtrans+=	include/X11/Xtrans/*.h
-BUILDLINK_FILES.xtrans+=	include/X11/Xtrans/transport.c
+BUILDLINK_FILES.xtrans+=	include/X11/Xtrans/*
 
 BUILDLINK_TARGETS+=	xtrans-buildlink
 
