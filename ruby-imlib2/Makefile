@@ -15,15 +15,11 @@ USE_X11= yes
 VER=		0.5.0
 RUBY_HAS_ARCHLIB=	yes
 USE_RUBY_EXTCONF=	yes
+RUBY_REQD=      1.8.0
+
+BUILDLINK_DEPENDS.imlib2+=      imlib2>=1.2.0nb2
 
 INSTALL_TARGET=	site-install
-
-SUBST_CLASSES+=		libs
-SUBST_STAGE.libs=	pre-configure
-SUBST_MESSAGE.libs=	If the X11 and Xext libraries are not weeded out,\
-			they will be unresolved in the resulting .so
-SUBST_FILES.libs=	extconf.rb
-SUBST_SED.libs=		-e "s%\#{imlib2_config} --libs%\#{imlib2_config} --libs | ${SED} -e 's/-lX11//g' -e 's/-lXext//g'%"
 
 REPLACE_RUBY_DIRS=	${WRKSRC}/examples
 
