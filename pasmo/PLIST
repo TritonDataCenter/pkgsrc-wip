@@ -1,0 +1,6 @@
+@comment $NetBSD$
+bin/pasmo
+share/doc/pasmo/README
+share/doc/pasmo/pasmodoc.html
+share/doc/pasmo/NEWS
+@dirrm share/doc/pasmo
