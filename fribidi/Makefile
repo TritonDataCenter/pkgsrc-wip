@@ -18,5 +18,7 @@ GNU_CONFIGURE=		yes
 LIBTOOL_OVERRIDE=       ${WRKSRC}/libtool
 PKGCONFIG_OVERRIDE=	${WRKSRC}/fribidi.pc.in
 
+TEST_TARGET=		check
+
 .include "../../devel/pkgconfig/buildlink2.mk"
 .include "../../mk/bsd.pkg.mk"
