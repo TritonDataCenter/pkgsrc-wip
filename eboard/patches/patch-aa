@@ -13,11 +13,3 @@ $NetBSD: patch-aa,v 1.0 2005/01/08 02:04:15 he Exp $
      if ($_ eq '-h' || $_ eq '--help') {
  	usage();
  	exit 1;
-@@ -506,6 +510,7 @@
- 
- print CONFIGH "\n#endif\n";
- close CONFIGH;
-+    
- print "wrote $configh\n";
- 
- print CONFIGMAKE "CXX       = $cxx\n";

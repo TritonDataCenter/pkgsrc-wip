@@ -1,3 +1,4 @@
+
 # $NetBSD$
 #
 
@@ -9,14 +10,22 @@ MAINTAINER=	 	zul@netbsd-fr.org
 HOMEPAGE=		http://eboard.sourceforge.net/
 COMMENT=		Chess Inteface for Unix chess engines
 
+DEPENDS+=	sox*:../../audio/sox
+
 USE_BUILDLINK3=		yes
-BUILD_DEPENDS+=		perl-5.[0-9\.]*:../../lang/perl58
+USE_PERL5=		yes
 USE_GNU_TOOLS+=		make
 
 .include "../../mk/ossaudio.buildlink3.mk"
 
+SUBST_CLASSES=		sox_dev
+SUBST_STAGE.sox_dev=	post-patch
+SUBST_FILES.sox_dev=	sound.cc
+SUBST_SED.sox_dev=	-e 's,/dev/dsp,${DEVOSSAUDIO},g'
+SUBST_MESSAGE.sox_dev=  "Fixing hard-coded device used by sox with ${DEVOSSAUDIO}"
+
 do-configure:
-	 cd ${WRKSRC} && ${PREFIX}/bin/perl ${WRKSRC}/configure \
+	 cd ${WRKSRC} && ${PERL5} ${WRKSRC}/configure \
 		--prefix=${PREFIX}  --libossaudio=${LIBOSSAUDIO} 
 
 .include "../../x11/gtk/buildlink3.mk"
