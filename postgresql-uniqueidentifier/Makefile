@@ -15,7 +15,8 @@ COMMENT=		Allows PostgreSQL databases to use Global Unique Identifier (GUID)
 
 USE_BUILDLINK2=		yes
 USE_GNU_TOOLS+=		make
-DEPENDS=		postgresql-server>=7.3.4:../../databases/postgresql-server
+DEPENDS=		postgresql74-server>=7.4.1:../../wip/postgresql74-server
+
 
 post-extract: postgresql-post-extract
 	${MV} ${WRKDIR}/uniqueidentifier ${PGSQL_CONTRIBSRC}
