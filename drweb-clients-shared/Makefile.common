@@ -36,7 +36,8 @@ DISTNAME=		drweb-clients-${DRW_CLVER}-sources
 PKGNAME=		drweb-${DRW_CLIENT_NAME}-${DRW_CLVERN}
 CATEGORIES=		wip security
 MASTER_SITES=		ftp://ftp.drweb.ru/pub/unix/			\
-			ftp://ftp.drweb.ru/pub/unix/betas/
+			ftp://ftp.drweb.ru/pub/unix/archive/drweb-clients-${DRW_CLVER}/ \
+			ftp://ftp.drweb.ru/pub/unix/archive/
 
 HOMEPAGE=		http://www.sald.com/
 

@@ -6,8 +6,10 @@
 DISTNAME=	drweb-4.31.3-${DISTTYPE}
 PKGNAME=	drweb-4.31.3
 CATEGORIES=	wip security
-MASTER_SITES=	ftp://ftp.drweb.ru/pub/unix/				\
-		ftp://ftp.drweb.ru/pub/unix/betas/
+MASTER_SITES=	ftp://ftp.drweb.ru/pub/unix/generic/			\
+		ftp://ftp.drweb.ru/pub/unix/				\
+		ftp://ftp.drweb.ru/pub/unix/archive/${PKGNAME}/		\
+		ftp://ftp.drweb.ru/pub/unix/archive/
 
 MAINTAINER=	tech-pkg@NetBSD.org
 HOMEPAGE=	http://www.sald.com/
