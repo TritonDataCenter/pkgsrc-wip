@@ -6,7 +6,7 @@ PKGNAME=	p5-${DISTNAME}
 CATEGORIES=	converters
 MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=Unicode/}
 
-MAINTAINER=	jrp@hispabsd.org
+MAINTAINER=	packages@netbsd.org
 HOMEPAGE=	http://www.unicode.org/
 COMMENT=	Perl5 modules to handle various Unicode issues
 
