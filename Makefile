@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.1642 2005/02/02 18:06:07 jsrocket Exp $
+# $Id: Makefile,v 1.1643 2005/02/04 00:45:41 rxg Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -826,6 +826,7 @@ SUBDIR+=	spfmilter
 SUBDIR+=	squirrelmail-avelsieve
 SUBDIR+=	squirrelmail-chg_sasl_passwd
 SUBDIR+=	srvx
+SUBDIR+=	stardict
 SUBDIR+=	stmpclean
 SUBDIR+=	stonx
 SUBDIR+=	streamripper
