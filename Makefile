@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.431 2003/09/06 17:30:26 marc Exp $
+# $Id: Makefile,v 1.432 2003/09/06 18:10:08 adrian_p Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -234,7 +234,6 @@ SUBDIR+=	nagios-plugins
 SUBDIR+=	nautilus-media
 SUBDIR+=	navigatrix
 SUBDIR+=	ncps
-SUBDIR+=	nemesis
 SUBDIR+=	net-tools
 SUBDIR+=	netbeans-ide
 SUBDIR+=	netkit-base
