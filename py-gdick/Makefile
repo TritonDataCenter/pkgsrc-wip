@@ -10,6 +10,8 @@ MAINTAINER=	minskim@bawi.org
 HOMEPAGE=	http://ddt.mirstyle.org/gdick.html
 COMMENT=	English-Korean Dictionary Client for GNOME2
 
+DEPENDS+=	${PYPKGPREFIX}-cjkcodecs-[0-9]*:../../wip/py-cjkcodecs
+
 PYDISTUTILSPKG=	yes
 USE_BUILDLINK2=	yes
 
