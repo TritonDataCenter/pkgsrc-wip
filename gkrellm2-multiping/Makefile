@@ -1,12 +1,12 @@
 # $NetBSD$
 #
 
-DISTNAME=	gkrellm-multiping-2.0.2
+DISTNAME=	gkrellm-multiping-2.0.3
 CATEGORIES=	net
 MASTER_SITES=	http://kmlinux.fjfi.cvut.cz/~makovick/gkrellm/
 EXTRACT_SUFX=	.tgz
 
-MAINTAINER=	cube@cubidou.net
+MAINTAINER=	cube@NetBSD.org
 HOMEPAGE=	http://kmlinux.fjfi.cvut.cz/~makovick/gkrellm/index.html
 COMMENT=	Pings several machines and prints out stats
 
