@@ -1,7 +1,7 @@
 # $NetBSD: Makefile,v 1.18 2004/10/15 14:50:06 tv Exp $
 #
 
-DISTNAME=	guile-pg-0.22
+DISTNAME=	guile-pg-0.23
 CATEGORIES=	databases
 MASTER_SITES=	http://www.glug.org/people/ttn/software/guile-pg/
 
@@ -30,6 +30,8 @@ INFO_FILES=	guile-pg.info
 # library which of course cannot go in share.
 
 post-install:
+	# guile should make this, but if not
+	${MKDIR} ${PREFIX}/share/guile/site
 	cd ${PREFIX}/share/guile/site && ${LN} -sf ../../../lib/guile/site/database .
 
 PGSQL_VERSION_REQD=	74
