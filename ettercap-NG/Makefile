@@ -31,6 +31,16 @@ USE_BUILTIN.ncurses=	no
 
 CONF_FILES=	${WRKSRC}/share/etter.conf ${PKG_SYSCONFDIR}/etter.conf
 
+PKG_OPTIONS_VAR=        PKG_OPTIONS.ettercap-NG
+PKG_SUPPORTED_OPTIONS=	gtk
+
+.include "../../mk/bsd.options.mk"
+
+.if !empty(PKG_OPTIONS:Mgtk)
+.	include "../../x11/gtk2/buildlink3.mk"
+CONFIGURE_ARGS+=	--enable-gtk
+.endif
+
 .include "../../security/openssl/buildlink3.mk"
 .include "../../devel/ncurses/buildlink3.mk"
 .include "../../wip/libnet11/buildlink3.mk"
