@@ -36,7 +36,7 @@ PATCHDIR?=		${.CURDIR}/../postgresql80/patches
 # BASE_VERS		pkgsrc-mangled version number (convert pl -> .)
 #
 # Note: Do not forget jdbc-postgresql when updating version
-DIST_VERS?=		8.0.0beta4
+DIST_VERS?=		8.0.0
 BASE_VERS?=		${DIST_VERS}
 
 BUILDLINK_DEPENDS.postgresql80-lib?=	postgresql80-lib>=${BASE_VERS}
