@@ -7,7 +7,7 @@ CATEGORIES=	games
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=pinball/}
 
 MAINTAINER=	virtus@wanadoo.nl
-HOMEPAGE=	http://pinball.sourceforge.net
+HOMEPAGE=	http://pinball.sourceforge.net/
 COMMENT=	Pinball using the Allegro game library
 
 USE_BUILDLINK2= YES
