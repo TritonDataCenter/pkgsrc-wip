@@ -26,7 +26,7 @@ BUILDLINK_PKGSRCDIR.gdal?=	../../wip/gdal-lib
 .endif	# GDAL_BUILDLINK3_MK
 
 .include "../../misc/proj/buildlink3.mk"
-.include "../../wip/geos2/buildlink3.mk"
+.include "../../wip/geos/buildlink3.mk"
 .include "../../textproc/xerces-c/buildlink3.mk"
 
 BUILDLINK_DEPTH:=     ${BUILDLINK_DEPTH:S/+$//}

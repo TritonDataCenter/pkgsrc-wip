@@ -28,6 +28,6 @@ CONFIGURE_ARGS+=	--with-geos
 
 .include "../../misc/proj/buildlink3.mk"
 .include "../../mk/pgsql.buildlink3.mk"
-.include "../../wip/geos2/buildlink3.mk"
+.include "../../wip/geos/buildlink3.mk"
 .include "../../textproc/xerces-c/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
