@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	pyOpenSSL-0.5.1
-PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
+PKGNAME=	${PYPKGPREFIX}-${DISTNAME:S/py//}
 CATEGORIES=	security
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=pyopenssl/}
 
@@ -10,9 +10,10 @@ MAINTAINER=     adam@monkeybyte.org
 HOMEPAGE=       http://pyopenssl.sourceforge.net/
 COMMENT=        Python interface to the OpenSSL library
 
-PYDISTUTILSPKG=
-PYBINMODULE=
-USE_BUILDLINK2= yes
+PYDISTUTILSPKG=	yes
+PYBINMODULE=	yes
+USE_BUILDLINK3= yes
 
 .include "../../lang/python/extension.mk"
+.include "../../security/openssl/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
