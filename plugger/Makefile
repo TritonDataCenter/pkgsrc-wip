@@ -3,8 +3,8 @@
 
 DISTNAME=	plugger-4.0
 CATEGORIES=	www
-MASTER_SITES=	http://fredrik.hubbe.net/plugger/
-MASTER_SITES+=	ftp://ftp.netscape.com/pub/sdk/plugin/unix/
+MASTER_SITES=	http://fredrik.hubbe.net/plugger/ \
+		ftp://ftp.netscape.com/pub/sdk/plugin/unix/
 DISTFILES=	${DISTNAME}${EXTRACT_SUFX} unix-sdk-3.0b5.tar.Z
 
 MAINTAINER=	airhead@sourceforge.net

@@ -1,0 +1,5 @@
+@comment $NetBSD$
+bin/${PKGNAME}
+man/man7/plugger.7
+share/examples/plugger/pluggerrc
+@dirrm share/examples/plugger
