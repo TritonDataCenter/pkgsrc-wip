@@ -1,5 +1,3 @@
-$NetBSD$
-
 It is intended to be a complete, though small and very fast, free Eiffel
 compiler. It is available for a very wide range of platforms: GNU/Linux,
 GNU/Hurd, FreeBSD, BSD/OS, NetBSD, OpenBSD, HP-UX, IRIX, XENIX, Solaris,
