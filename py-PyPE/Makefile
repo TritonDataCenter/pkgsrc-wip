@@ -12,7 +12,7 @@ MAINTAINER=		dotz@irc.pl
 HOMEPAGE=		http://pype.sourceforge.net/
 COMMENT=		Lightweight, but powerful editor for Python
 
-DEPENDS=	${PYPKGPREFIX}-wxWindows>=2.4.2.4:../../x11/py-wxWindows
+DEPENDS=	${PYPKGPREFIX}-wxWidgets>=2.4.2.4:../../x11/py-wxWidgets
 
 PYTHON_PATCH_SCRIPTS=   pype.py
 NO_BUILD=		# defined
