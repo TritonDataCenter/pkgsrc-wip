@@ -61,6 +61,7 @@ post-install:
 	@${ECHO_MSG} "Be sure to read the license agreement in"
 	@${ECHO_MSG} "${PREFIX}/Acrobat7/Reader/Legal/ENU/License.html"
 	${LN} -sf ${PREFIX}/bin/acroread7 ${PREFIX}/bin/acroread
+	${RM} ${PREFIX}/Acrobat7/Reader/${PLATFORM}/plug_ins/PPKLite.api
 
 # do not include the linux stuff if we are, for example, on a Solaris box
 . if (${MACHINE_ARCH} == "i386")

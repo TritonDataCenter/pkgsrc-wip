@@ -172,7 +172,7 @@ Acrobat7/Reader/${PLATFORM}/plug_ins/EScript.api
 Acrobat7/Reader/${PLATFORM}/plug_ins/LegalPDF.api
 Acrobat7/Reader/${PLATFORM}/plug_ins/MakeAccessible.api
 Acrobat7/Reader/${PLATFORM}/plug_ins/PDDom.api
-Acrobat7/Reader/${PLATFORM}/plug_ins/PPKLite.api
+@comment Acrobat7/Reader/${PLATFORM}/plug_ins/PPKLite.api
 Acrobat7/Reader/${PLATFORM}/plug_ins/SOAP.api
 Acrobat7/Reader/${PLATFORM}/plug_ins/SaveAsRTF.api
 Acrobat7/Reader/${PLATFORM}/plug_ins/SearchFind.api
