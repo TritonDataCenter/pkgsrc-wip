@@ -1,8 +1,0 @@
-===========================================================================
-$NetBSD$
-
-You may wish to add the artwiz directory to your /etc/X11/XF86Config:
-
-	FontPath	"${PREFIX}/lib/X11/fonts/artwiz/"
-
-===========================================================================
