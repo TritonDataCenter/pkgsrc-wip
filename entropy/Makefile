@@ -17,7 +17,7 @@ GNU_CONFIGURE=		yes
 USE_BUILDLINK2=		yes
 USE_GMAKE=		yes
 
-ENTROPY_VERSION=	0.7.2-399
+ENTROPY_VERSION=	0.8.0-400
 
 CONFIGURE_ARGS+=	--enable-verbose --disable-posix-sem --disable-svid-sem
 
