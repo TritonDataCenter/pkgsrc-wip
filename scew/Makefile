@@ -9,8 +9,8 @@ MAINTAINER=	thorbjorn@jemander.net
 HOMEPAGE=	http://www.nongnu.org/scew/
 COMMENT=	Light-weight DOM-like object model API for Expat
 
-USE_BUILDLINK2=	YES
+USE_BUILDLINK3=	YES
 GNU_CONFIGURE=	YES
 
-.include "../../textproc/expat/buildlink2.mk"
+.include "../../textproc/expat/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
