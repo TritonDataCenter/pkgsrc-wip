@@ -8,9 +8,9 @@ MASTER_SITES=	ftp://ftp.cs.pdx.edu/pub/elvis/
 MAINTAINER=	airhead@users.sourceforge.net
 HOMEPAGE=	http://elvis.vi-editor.org/
 
-PLIST_SRC=	${.CURDIR}/../../elvis/PLIST.common
-PATCHDIR=	${.CURDIR}/../../elvis/patches
-DISTINFO_FILE=	${.CURDIR}/../../elvis/distinfo
+PLIST_SRC=	${.CURDIR}/../elvis/PLIST.common
+PATCHDIR=	${.CURDIR}/../elvis/patches
+DISTINFO_FILE=	${.CURDIR}/../elvis/distinfo
 
 HAS_CONFIGURE=		YES
 CONFIGURE_ARGS+=	--prefix=${PREFIX}
