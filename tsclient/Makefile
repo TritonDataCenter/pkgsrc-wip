@@ -20,4 +20,5 @@ USE_X11=		yes
 USE_PKGLOCALEDIR=	yes
 
 .include "../../x11/gnome-panel/buildlink2.mk"
+.include "../../devel/gettext-lib/buildlink2.mk"
 .include "../../mk/bsd.pkg.mk"
