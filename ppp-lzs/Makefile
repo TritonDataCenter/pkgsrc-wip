@@ -10,7 +10,7 @@ HOMEPAGE=	http://homepages.rya-online.net/plunky/lzs.html
 COMMENT=	PPP daemon and LKM with Stac LZS decompression
 
 CONFLICTS+=		ppp-* ppp-mppe-*
-ONLY_FOR_PLATFORM= 	NetBSD-*-*
+ONLY_FOR_PLATFORM= 	NetBSD-1.[56].*-*
 
 MAKE_ENV+=	BSDSRCDIR="${BSDSRCDIR}"
 MESSAGE_SUBST+= PREFIX="${PREFIX}"
