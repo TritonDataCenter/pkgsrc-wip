@@ -1,0 +1,4 @@
+@comment $NetBSD$
+bin/memtest
+share/man/man1/memtest.1
+@dirrm share/man/man1
