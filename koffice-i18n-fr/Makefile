@@ -5,7 +5,7 @@ CATEGORIES=		x11 kde
 MASTER_SITES=	ftp://ftp.kde.org/pub/kde/stable/koffice-1.3.4/src/
 EXTRACT_SUFX=	.tar.bz2
 
-MAINTAINER=		ianzag@NetBSD.org
+MAINTAINER=		ianzag@mail.ru
 HOMEPAGE=		http://www.koffice.org/
 COMMENT=		Language pack for KOffice
 
