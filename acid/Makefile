@@ -13,7 +13,7 @@ COMMENT=	Database class library for PHP4
 DEPENDS+=       ap-php>=4.0.4:../../www/ap-php4
 DEPENDS+=	apache>=1.3:../../www/apache
 DEPENDS+=	adodb>=1.2:../../wip/adodb
-DEPENDS+=	php-jpgraph>=1.8:../../wip/php-jpgraph
+DEPENDS+=	php-jpgraph>=1.8:../../graphics/php-jpgraph
 DEPENDS+=	php-gd>=4.0.4:../../graphics/php4-gd
 DEPENDS+=	php-sockets>=4.0.4:../../net/php4-sockets
 
