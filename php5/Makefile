@@ -14,5 +14,9 @@ USE_PKGINSTALL=	YES
 GNU_CONFIGURE=	YES
 USE_GMAKE=	YES
 
+post-install:
+	${INSTALL_DATA} ${WRKSRC}/php.ini-recommended \
+		${PREFIX}/lib/php.ini
+
 .include "Makefile.common"
 .include "../../mk/bsd.pkg.mk"

@@ -20,6 +20,8 @@ PHP5_VERSION=	5.0.0b3
 
 CONFIGURE_ARGS+=--enable-mbstring
 CONFIGURE_ARGS+=--enable-calendar
+## XXX THIS COULD BE VULN (alert?)
+CONFIGURE_ARGS+=--enable-sockets
 
 .if defined(USE_INET6) && ${USE_INET6} == "NO"
 CONFIGURE_ARGS+=--disable-ipv6
