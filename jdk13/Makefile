@@ -90,7 +90,7 @@ ALL_TARGET+=	images
 MOTIF_TYPE=	openmotif
 PLIST_SRC+=	${.CURDIR}/PLIST
 
-MAKE_FLAGS+=	ALT_DEVTOOLS_PATH=${LOCALBASE} # used to find "zip" and "unzipsfx"
+MAKE_FLAGS+=	ALT_DEVTOOLS_PATH=${LOCALBASE}/bin # used to find "zip" and "unzipsfx"
 MAKE_ENV+=	ALT_MOTIF_DIR=${MOTIFBASE}
 MAKE_ENV+=	BUILD_CLASSIC=yes
 MAKE_FLAGS+=	M4=${LOCALBASE}/bin/gm4
