@@ -1,0 +1,6 @@
+$NetBSD$
+
+TODO list for ecore:
+
+- Make sure openssl gets detected even if it's in base.  The problem lies
+   deeper than just this package, though.
