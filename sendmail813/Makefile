@@ -20,13 +20,16 @@ PLIST_SUBST+=  CAT5=5
 PLIST_SUBST+=  CAT8=8
 .endif
 
-SUBST_CLASSES=		paths
+SUBST_CLASSES=		paths perl
 SUBST_STAGE.paths=	pre-build
 SUBST_FILES.paths=	${WRKDIR}/mailer.conf
 SUBST_SED.paths=	-e "s|@@PREFIX@@|${PREFIX}|g"
 SUBST_MESSAGE.paths=	Fixing paths.
 
-REPLACE_PERL=	contrib/socketmapClient.pl contrib/socketmapServer.pl
+SUBST_STAGE.perl=	pre-build
+SUBST_FILES.perl=	contrib/socketmapClient.pl contrib/socketmapServer.pl
+SUBST_SED.perl=		-e "s|/usr/bin/perl|${PREFIX}/bin/perl|g"
+SUBST_MESSAGE.perl=	Fixing perl path.
 
 .if ${OPSYS} == "SunOS"
 USE_DB2?=	YES
