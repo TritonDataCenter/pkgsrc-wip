@@ -1,19 +1,18 @@
 # $NetBSD$
 #
 
-DISTNAME=		xextensions-1.0
+DISTNAME=		xextensions-1.0.1
 CATEGORIES=		x11 devel
-MASTER_SITES=		http://freedesktop.org/~xlibs/dist/
+MASTER_SITES=		http://freedesktop.org/~xlibs/release/
 EXTRACT_SUFX=		.tar.bz2
 
 MAINTAINER=		reed@reedmedia.net
-HOMEPAGE=		http://www.freedesktop.org/Software/xlibs
+HOMEPAGE=		http://xlibs.freedesktop.org/
 COMMENT=		Various extension headers for xlibs from freedesktop.org
 
 CONFLICTS+=		XFree86-libs-[0-9]*
 
 USE_BUILDLINK2=		yes
-USE_PKGLOCALEDIR=	yes
 PKGCONFIG_OVERRIDE+=	${WRKSRC}/xextensions.pc.in
 GNU_CONFIGURE=		yes
 
