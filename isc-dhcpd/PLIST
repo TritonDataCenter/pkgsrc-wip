@@ -1,5 +1,6 @@
 @comment $NetBSD$
 bin/omshell
+etc/rc.d/isc_dhcpd
 include/dhcpctl.h
 include/isc-dhcp/boolean.h
 include/isc-dhcp/dst.h
