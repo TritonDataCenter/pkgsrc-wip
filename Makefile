@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.1335 2004/06/21 20:39:35 xtraeme Exp $
+# $Id: Makefile,v 1.1336 2004/06/22 02:47:19 sourceforge_low Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -45,6 +45,7 @@ SUBDIR+=	asterisk
 SUBDIR+=	atk-devel
 SUBDIR+=	autoproject
 SUBDIR+=	avida2
+SUBDIR+=	awflwm
 SUBDIR+=	axe
 SUBDIR+=	backplane
 SUBDIR+=	bacula
