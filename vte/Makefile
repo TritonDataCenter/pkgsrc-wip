@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	vte-0.10.29
-CATEGORIES=	
+CATEGORIES=	wip
 MASTER_SITES=	${MASTER_SITE_GNOME:=sources/vte/0.10/}
 EXTRACT_SUFX=	.tar.bz2
 
