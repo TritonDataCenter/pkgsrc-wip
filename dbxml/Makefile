@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	dbxml-1.2.0
+DISTNAME=	dbxml-1.2.1
 WRKSRC=		${WRKDIR}/${DISTNAME}/build_unix
 CATEGORIES=	databases
 MASTER_SITES=	http://www.sleepycat.com/update/snapshot/
