@@ -19,5 +19,7 @@ USE_GNU_TOOLS+=	make
 USE_BUILDLINK2=	yes
 PKG_SHELL=	${PREFIX}/bin/xsh
 
+PERL5_PACKLIST= ${PERL5_SITEARCH}/auto/XML/XSH/.packlist
+
 .include "../../lang/perl5/module.mk"
 .include "../../mk/bsd.pkg.mk"
