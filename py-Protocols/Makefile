@@ -13,6 +13,7 @@ COMMENT=		Lets you easily define your own protocols and adapters
 USE_BUILDLINK3=		yes
 PY_PATCHPLIST=		yes
 PYDISTUTILSPKG=		yes
+PYBINMODULE=		# defined
 
 .include "../../lang/python/extension.mk"
 .include "../../mk/bsd.pkg.mk"
