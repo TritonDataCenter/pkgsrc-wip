@@ -1,0 +1,18 @@
+$NetBSD$
+
+--- Makefile.in.orig	2003-04-25 20:20:55.000000000 +0300
++++ Makefile.in
+@@ -4,10 +4,10 @@ CC 		= @CC@
+ BINDIR   	= @BINDIR@
+ IBINDIR   	= -DBINDIR=\"@BINDIR@\"
+ MANDIR		= @MANDIR@
+-SYSCONFDIR	= @SYSCONFDIR@
++SYSCONFDIR	= ${EGDIR}
+ ISYSCONFDIR	= -DSYSCONFDIR=\"@SYSCONFDIR@\"
+-CFLAGS 		= @CFLAGS@
+-LDFLAGS 	= @LDFLAGS@
++CFLAGS 		+= @CFLAGS@ ${PKG_FLAGS}
++LDFLAGS 	+= @LDFLAGS@
+ DEFS            = @DEFS@ 
+ SRCDIR 		= .
+ VPATH 		= .
