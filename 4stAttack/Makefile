@@ -5,7 +5,7 @@ DISTNAME=		4stAttack-2.1.4
 CATEGORIES=		games
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=forcedattack/}
 
-MAINTAINER=		marc@informatik.uni-bremen.de
+MAINTAINER=		recht@NetBSD.org
 HOMEPAGE=		http://forcedattack.sourceforge.net/
 COMMENT=		Game in which you have to try to out-smart your opponent
 

@@ -6,7 +6,7 @@ CATEGORIES=	www python
 MASTER_SITES=	http://www.apache.org/dist/httpd/modpython/
 EXTRACT_SUFX=	.tgz
 
-MAINTAINER=	marc@informatik.uni-bremen.de
+MAINTAINER=	recht@NetBSD.org
 HOMEPAGE=	http://www.modpython.org/
 COMMENT=	Module that embeds the Python interpreter within the server
 

@@ -5,7 +5,7 @@ DISTNAME=	gtk-sharp-0.11
 CATEGORIES=	x11
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=gtk-sharp/}
 
-MAINTAINER=	marc@informatik.uni-bremen.de
+MAINTAINER=	recht@NetBSD.org
 HOMEPAGE=	http://gtk-sharp.sourceforge.net/
 COMMENT=	.Net language binding for gtk+
 

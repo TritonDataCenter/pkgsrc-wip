@@ -5,7 +5,7 @@ DISTNAME=		scons-0.92
 CATEGORIES=		devel
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=scons/}
 
-MAINTAINER=		marc@informatik.uni-bremen.de
+MAINTAINER=		recht@NetBSD.org
 HOMEPAGE=		http://www.scons.org/
 COMMENT=		Build system, written in Python
 
