@@ -1,0 +1,12 @@
+$NetBSD$
+--- src/common.h.orig	Sun Mar 14 23:21:12 2004
++++ src/common.h	Sun Mar 14 23:21:17 2004
+@@ -17,8 +17,6 @@
+ #include <termios.h>
+ 
+ /* They are needed to see devices */
+-#include <linux/fs.h>
+-#include <linux/fd.h>
+ 
+ 
+ /*
