@@ -24,8 +24,8 @@ include/X11/Xmu/Xmu.h
 lib/libXmu.a
 lib/libXmu.la
 lib/libXmu.so
-lib/libXmu.so.0
-lib/libXmu.so.0.0
+lib/libXmu.so.6
+lib/libXmu.so.6.2
 lib/libXmuu.a
 lib/libXmuu.la
 lib/libXmuu.so

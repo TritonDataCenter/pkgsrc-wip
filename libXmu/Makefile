@@ -2,6 +2,7 @@
 #
 
 DISTNAME=		libXmu-6.2.1
+PKGREVISION=		1
 CATEGORIES=		x11 devel
 MASTER_SITES=		http://freedesktop.org/~xlibs/release/xlibs-1.0/
 EXTRACT_SUFX=		.tar.bz2
