@@ -17,8 +17,6 @@ MAINTAINER=		reed@reedmedia.net
 HOMEPAGE=		http://www.samba.org/
 COMMENT=		SMB/CIFS protocol server suite for UNIX (v3)
 
-CONFLICTS=		samba-[0-9]*
-
 USE_BUILDLINK2=		yes
 USE_PKGINSTALL=		yes
 GNU_CONFIGURE=		# defined
