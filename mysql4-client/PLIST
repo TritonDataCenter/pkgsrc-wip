@@ -75,6 +75,7 @@ share/mysql/MySQL-shared-compat.spec
 share/mysql/StartupParameters.plist
 share/mysql/binary-configure
 share/mysql/make_binary_distribution
+share/mysql/make_sharedlib_distribution
 share/mysql/my-huge.cnf
 share/mysql/my-large.cnf
 share/mysql/my-medium.cnf
