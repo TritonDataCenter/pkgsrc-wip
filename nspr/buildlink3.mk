@@ -13,7 +13,7 @@ BUILDLINK_PACKAGES+=	nspr
 .if !empty(NSPR_BUILDLINK3_MK:M+)
 BUILDLINK_DEPENDS.nspr+=	nspr>=4.4.1
 BUILDLINK_RECOMMENDED.nspr+=	nspr>=4.4.1
-BUILDLINK_PKGSRCDIR.nspr?=	../../devel/nspr
+BUILDLINK_PKGSRCDIR.nspr?=	../../wip/nspr
 .endif  # NSPR_BUILDLINK3_MK
 
 BUILDLINK_DEPTH:=     ${BUILDLINK_DEPTH:S/+$//}

@@ -20,6 +20,7 @@ AUTOCONF_REQD=		2.13
 
 MAKE_ENV=		DIST=${WRKSRC}/dist
 CONFIGURE_SCRIPT=	../configure
+CONFIGURE_ENV=		LIBRUNPATH=${PREFIX}/lib
 
 .include		"../../mk/bsd.prefs.mk"
 
