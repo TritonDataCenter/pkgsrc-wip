@@ -15,7 +15,7 @@ USE_DIRS+=	gnome2-1.5
 USE_GNU_TOOLS+=	make
 GNU_CONFIGURE=	YES
 
-CONFIGURE_ARGS+=	--enable-debug
+#CONFIGURE_ARGS+=	--enable-debug
 
 .include "../../devel/allegro/buildlink3.mk"
 .include "../../mk/pthread.buildlink3.mk"
