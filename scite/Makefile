@@ -1,8 +1,8 @@
 # $NetBSD$
 #
 
-DISTNAME=		scite159
-PKGNAME=		scite-1.59
+DISTNAME=		scite161
+PKGNAME=		scite-1.61
 WRKSRC=			${WRKDIR}
 CATEGORIES=		editors
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=scintilla/}
@@ -24,5 +24,6 @@ do-install:
 	${INSTALL_MAN} ${WRKSRC}/scite/doc/scite.1 ${PREFIX}/man/man1
 
 .include "../../converters/libiconv/buildlink3.mk"
+.include "../../lang/lua/buildlink3.mk"
 .include "../../x11/gtk2/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
