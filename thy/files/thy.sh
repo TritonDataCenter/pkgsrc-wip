@@ -27,3 +27,5 @@ else
 	@ECHO@ -n " ${name}"
 	eval ${command} ${command_args}
 fi
+
+# arch-tag: cb56d479-9936-4a22-9c62-6d776430dd83
