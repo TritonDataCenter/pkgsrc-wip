@@ -1,0 +1,11 @@
+===========================================================================
+$NetBSD$
+
+Configuration files have been installed to:
+
+	${PREFIX}/etc/oak
+	
+The will not be automatically removed at deinstall. Remove this directory by
+hand if you will not be planning to use py-oak in future.
+
+===========================================================================
