@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		shapelib-1.2.10
-CATEGORIES=		wip
+CATEGORIES=		geography
 MASTER_SITES=		http://shapelib.maptools.org/dl/
 
 MAINTAINER=		mchittur@cs.nmsu.edu
