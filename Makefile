@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.37 2003/04/06 11:22:55 thomasklausner Exp $
+# $Id: Makefile,v 1.38 2003/04/06 11:34:09 thomasklausner Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -27,6 +27,7 @@ SUBDIR+=	ike-scan
 SUBDIR+=	ion-devel
 SUBDIR+=	ion-dock
 SUBDIR+=	ircservices
+SUBDIR+=	liquidwar
 SUBDIR+=	mailfilter
 SUBDIR+=	nagios-base
 SUBDIR+=	nagios-plugin-ldap
