@@ -10,7 +10,7 @@ MAINTAINER=	xfree86@xtraeme.unixbsd.org
 HOMEPAGE=	http://www.xfree86.org/
 COMMENT=	XFree86 font server
 
-USE_BUILDLINK2=	YES
+USE_BUILDLINK2=		YES
 DISTINFO_FILE=		${.CURDIR}/../XFree86-libs/distinfo
 PATCHDIR=		${.CURDIR}/../XFree86-libs/patches
 
