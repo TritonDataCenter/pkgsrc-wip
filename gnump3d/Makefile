@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		gnump3d-2.7
+DISTNAME=		gnump3d-2.8
 CATEGORIES=		wip
 MASTER_SITES=		http://savannah.gnu.org/download/gnump3d/
 EXTRACT_SUFX=		.tar.bz2
