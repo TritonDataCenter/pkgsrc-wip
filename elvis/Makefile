@@ -10,7 +10,7 @@ HOMEPAGE=	http://elvis.the-little-red-haired-girl.org
 COMMENT=	vi with regex search, hex editing, HTML and TeX previewing
 
 USE_BUILDLINK2=		yes
-GNU_CONFIGURE=		no
+HAS_CONFIGURE=		yes
 CONFIGURE_ARGS+=	--with-x=no --bindir=${PREFIX}/bin
 CONFIGURE_ARGS+=	--datadir=${PREFIX}/share/elvis
 
