@@ -9,7 +9,7 @@ HOMEPAGE=       http://tcpick.sourceforge.net
 COMMENT= 	Simple tcp sniffer with tcpdump-style rules and with captures of traffic colored
 
 USE_BUILDLINK2= YES
-HAS_CONFIGURE=  YES
+GNU_CONFIGURE=  YES
 
 CONFIGURE_ARGS+=--prefix=${LOCALBASE}
 
