@@ -1,5 +1,4 @@
 @comment $NetBSD$
-bin/f2py2p3
 ${PYSITELIB}/f2py2e/__cvs_version__.py
 ${PYSITELIB}/f2py2e/__cvs_version__.pyc
 ${PYSITELIB}/f2py2e/__cvs_version__.pyo

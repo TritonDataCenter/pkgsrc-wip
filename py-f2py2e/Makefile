@@ -16,4 +16,5 @@ PY_PATCHPLIST=		yes
 PYDISTUTILSPKG=		yes
 
 .include "../../lang/python/extension.mk"
+.include "../../wip/py-scipy_distutils/buildlink2.mk"
 .include "../../mk/bsd.pkg.mk"
