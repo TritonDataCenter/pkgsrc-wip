@@ -7,10 +7,12 @@ ${PKGLOCALEDIR}/locale/ca/LC_MESSAGES/xfce4-toys.mo
 ${PKGLOCALEDIR}/locale/de/LC_MESSAGES/xfce4-toys.mo
 ${PKGLOCALEDIR}/locale/hu/LC_MESSAGES/xfce4-toys.mo
 ${PKGLOCALEDIR}/locale/lt/LC_MESSAGES/xfce4-toys.mo
+${PKGLOCALEDIR}/locale/ms/LC_MESSAGES/xfce4-toys.mo
 ${PKGLOCALEDIR}/locale/nl/LC_MESSAGES/xfce4-toys.mo
 ${PKGLOCALEDIR}/locale/ru/LC_MESSAGES/xfce4-toys.mo
 ${PKGLOCALEDIR}/locale/tr/LC_MESSAGES/xfce4-toys.mo
 ${PKGLOCALEDIR}/locale/zh_CN/LC_MESSAGES/xfce4-toys.mo
+${PKGLOCALEDIR}/locale/zh_TW/LC_MESSAGES/xfce4-toys.mo
 share/xfce4/eyes/themes/Bizarre/Bizarre-eye.png
 share/xfce4/eyes/themes/Bizarre/Bizarre-pupil.png
 share/xfce4/eyes/themes/Bizarre/config

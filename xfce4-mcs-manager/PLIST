@@ -22,6 +22,7 @@ ${PKGLOCALEDIR}/locale/ru/LC_MESSAGES/xfce-mcs-manager.mo
 ${PKGLOCALEDIR}/locale/ta/LC_MESSAGES/xfce-mcs-manager.mo
 ${PKGLOCALEDIR}/locale/tr/LC_MESSAGES/xfce-mcs-manager.mo
 ${PKGLOCALEDIR}/locale/zh_CN/LC_MESSAGES/xfce-mcs-manager.mo
+${PKGLOCALEDIR}/locale/zh_TW/LC_MESSAGES/xfce-mcs-manager.mo
 share/xfce4/doc/C/images/settings_manager.png
 share/xfce4/doc/C/images/smgr_from_panel.png
 share/xfce4/doc/C/images/smgr_from_root_menu.png

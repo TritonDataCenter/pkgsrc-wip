@@ -9,7 +9,7 @@
 XFCE4_SYSTRAY_BUILDLINK2_MK=	# defined
 
 BUILDLINK_PACKAGES+=			xfce4-systray
-BUILDLINK_DEPENDS.xfce4-systray?=		xfce4-systray>=3.99.3
+BUILDLINK_DEPENDS.xfce4-systray?=		xfce4-systray>=3.99.4
 BUILDLINK_PKGSRCDIR.xfce4-systray?=		../../wip/xfce4-systray
 
 EVAL_PREFIX+=	BUILDLINK_PREFIX.xfce4-systray=xfce4-systray

@@ -24,6 +24,7 @@ ${PKGLOCALEDIR}/locale/ru/LC_MESSAGES/xfwm4.mo
 ${PKGLOCALEDIR}/locale/ta/LC_MESSAGES/xfwm4.mo
 ${PKGLOCALEDIR}/locale/tr/LC_MESSAGES/xfwm4.mo
 ${PKGLOCALEDIR}/locale/zh_CN/LC_MESSAGES/xfwm4.mo
+${PKGLOCALEDIR}/locale/zh_TW/LC_MESSAGES/xfwm4.mo
 share/xfce4/doc/C/images/decoration_style.png
 share/xfce4/doc/C/images/keyboard_and_focus.png
 share/xfce4/doc/C/images/misc_wm_prefs.png

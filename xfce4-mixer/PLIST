@@ -8,7 +8,9 @@ ${PKGLOCALEDIR}/locale/fr/LC_MESSAGES/xfce4-mixer.mo
 ${PKGLOCALEDIR}/locale/hu/LC_MESSAGES/xfce4-mixer.mo
 ${PKGLOCALEDIR}/locale/it/LC_MESSAGES/xfce4-mixer.mo
 ${PKGLOCALEDIR}/locale/lt/LC_MESSAGES/xfce4-mixer.mo
+${PKGLOCALEDIR}/locale/ms/LC_MESSAGES/xfce4-mixer.mo
 ${PKGLOCALEDIR}/locale/nl/LC_MESSAGES/xfce4-mixer.mo
 ${PKGLOCALEDIR}/locale/ru/LC_MESSAGES/xfce4-mixer.mo
 ${PKGLOCALEDIR}/locale/tr/LC_MESSAGES/xfce4-mixer.mo
 ${PKGLOCALEDIR}/locale/zh_CN/LC_MESSAGES/xfce4-mixer.mo
+${PKGLOCALEDIR}/locale/zh_TW/LC_MESSAGES/xfce4-mixer.mo

@@ -9,7 +9,7 @@
 LIBXFCE4GUI_BUILDLINK2_MK=	# defined
 
 BUILDLINK_PACKAGES+=			libxfce4gui
-BUILDLINK_DEPENDS.libxfce4gui?=		libxfce4gui>=3.99.3
+BUILDLINK_DEPENDS.libxfce4gui?=		libxfce4gui>=3.99.4
 BUILDLINK_PKGSRCDIR.libxfce4gui?=		../../wip/libxfce4gui
 
 EVAL_PREFIX+=	BUILDLINK_PREFIX.libxfce4gui=libxfce4gui

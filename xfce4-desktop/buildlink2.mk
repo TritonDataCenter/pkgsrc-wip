@@ -9,7 +9,7 @@
 XFCE4_DESKTOP_BUILDLINK2_MK=	# defined
 
 BUILDLINK_PACKAGES+=			xfce4-desktop
-BUILDLINK_DEPENDS.xfce4-desktop?=		xfce4-desktop>=3.99.3
+BUILDLINK_DEPENDS.xfce4-desktop?=		xfce4-desktop>=3.99.4
 BUILDLINK_PKGSRCDIR.xfce4-desktop?=		../../wip/xfce4-desktop
 
 EVAL_PREFIX+=	BUILDLINK_PREFIX.xfce4-desktop=xfce4-desktop

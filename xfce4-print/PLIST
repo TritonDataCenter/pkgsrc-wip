@@ -21,3 +21,4 @@ ${PKGLOCALEDIR}/locale/ru/LC_MESSAGES/xfprint.mo
 ${PKGLOCALEDIR}/locale/ta/LC_MESSAGES/xfprint.mo
 ${PKGLOCALEDIR}/locale/tr/LC_MESSAGES/xfprint.mo
 ${PKGLOCALEDIR}/locale/zh_CN/LC_MESSAGES/xfprint.mo
+${PKGLOCALEDIR}/locale/zh_TW/LC_MESSAGES/xfprint.mo

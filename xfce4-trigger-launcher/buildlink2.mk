@@ -9,7 +9,7 @@
 XFCE4_TRIGGER_LAUNCHER_BUILDLINK2_MK=	# defined
 
 BUILDLINK_PACKAGES+=			xfce4-trigger-launcher
-BUILDLINK_DEPENDS.xfce4-trigger-launcher?=		xfce4-trigger-launcher>=3.99.3
+BUILDLINK_DEPENDS.xfce4-trigger-launcher?=		xfce4-trigger-launcher>=3.99.4
 BUILDLINK_PKGSRCDIR.xfce4-trigger-launcher?=		../../wip/xfce4-trigger-launcher
 
 EVAL_PREFIX+=	BUILDLINK_PREFIX.xfce4-trigger-launcher=xfce4-trigger-launcher

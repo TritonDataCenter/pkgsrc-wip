@@ -9,7 +9,7 @@
 XFCE4_MCS_MANAGER_BUILDLINK2_MK=	# defined
 
 BUILDLINK_PACKAGES+=			xfce4-mcs-manager
-BUILDLINK_DEPENDS.xfce4-mcs-manager?=		xfce4-mcs-manager>=3.99.3
+BUILDLINK_DEPENDS.xfce4-mcs-manager?=		xfce4-mcs-manager>=3.99.4
 BUILDLINK_PKGSRCDIR.xfce4-mcs-manager?=		../../wip/xfce4-mcs-manager
 
 EVAL_PREFIX+=	BUILDLINK_PREFIX.xfce4-mcs-manager=xfce4-mcs-manager
