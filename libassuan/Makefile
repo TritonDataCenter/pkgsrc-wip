@@ -7,7 +7,7 @@ MASTER_SITES=		ftp://ftp.gnupg.org/gcrypt/alpha/libassuan/
 
 MAINTAINER=		john@johnrshannon.com
 HOMEPAGE=		ftp://ftp.gnupg.org/gcrypt/alpha/libassuan/
-COMMENT=		The IPC library used by some GnuPG related software.
+COMMENT=		The IPC library used by some GnuPG related software
 
 USE_BUILDLINK3=		yes
 PKG_INSTALLATION_TYPES= overwrite pkgviews

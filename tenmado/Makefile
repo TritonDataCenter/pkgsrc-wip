@@ -7,7 +7,7 @@ MASTER_SITES=		http://www.interq.or.jp/libra/oohara/tenmado/
 
 MAINTAINER=		dotz@irc.pl
 HOMEPAGE=		http://www.interq.or.jp/libra/oohara/tenmado/
-COMMENT=		Vertical scrolling shoot'em-up game.
+COMMENT=		Vertical scrolling shoot'em-up game
 
 USE_BUILDLINK3=		yes
 USE_PKGLOCALEDIR=	yes

@@ -8,7 +8,7 @@ MASTER_SITES=		http://oomadness.tuxfamily.org/downloads/
 
 MAINTAINER=		dotz@irc.pl
 HOMEPAGE=		http://oomadness.tuxfamily.org/en/genetic/index.html
-COMMENT=		A package for genetic algorithms in Python.
+COMMENT=		A package for genetic algorithms in Python
 
 USE_BUILDLINK3=		yes
 PY_PATCHPLIST=		yes

@@ -7,7 +7,7 @@ MASTER_SITES=		ftp://ftp.gnupg.org/gcrypt/alpha/gnupg/
 
 MAINTAINER=		john@johnrshannon.com
 HOMEPAGE=		ftp://ftp.gnupg.org/gcrypt/alpha/gnupg/
-COMMENT=		GnuPG 1.9 is the experimental branch of GnuPG with support for S/MIME.
+COMMENT=		GnuPG 1.9 is the experimental branch of GnuPG with support for S/MIME
 
 USE_BUILDLINK3=         yes
 PKG_INSTALLATION_TYPES= overwrite pkgviews
