@@ -1,0 +1,5 @@
+@comment $NetBSD$
+libexec/nagios/check_hpjd
+libexec/nagios/check_ifoperstatus
+libexec/nagios/check_ifstatus
+libexec/nagios/check_snmp
