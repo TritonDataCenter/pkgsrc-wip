@@ -6,7 +6,7 @@ PKGNAME=	ap2-jk2-${AP_JK_VER}
 CATEGORIES=	www
 MASTER_SITES=	http://www.apache.org/dist/jakarta/tomcat-connectors/jk2/source/
 
-MAINTAINER=	xtraeme@NetBSD.org
+MAINTAINER=	tech-pkg@NetBSD.org
 HOMEPAGE=	http://jakarta.apache.org/tomcat/
 COMMENT=	Apache2 JK2 module for connecting to Tomcat using AJP1X
 

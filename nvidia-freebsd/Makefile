@@ -6,7 +6,7 @@ PKGNAME=	nvidia-freebsd-${DIST_VERSION}
 CATEGORIES=	sysutils
 MASTER_SITES=	http://download.nvidia.com/freebsd/
 
-MAINTAINER=	xtraeme@NetBSD.org
+MAINTAINER=	tech-pkg@NetBSD.org
 HOMEPAGE=	http://www.nvidia.com/
 COMMENT=	NVIDIA Graphic drivers for FreeBSD/i386
 
