@@ -43,7 +43,7 @@ CONFIGURE_ARGS+=	--enable-ssl=${SSLBASE}
 ### Enable Anti-Spoofing protection for older OS's with an insecure IPv4 stack
 ###
 .if !empty(PKG_OPTIONS:Mnospoof)
-CONFIGURE_ARGS+=-	--enable-nospoof
+CONFIGURE_ARGS+=	--enable-nospoof
 .endif
 
 ###
