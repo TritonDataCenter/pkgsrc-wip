@@ -6,7 +6,7 @@ PKGNAME=		z26-2.13
 CATEGORIES=		emulators games
 MASTER_SITES=		http://www.whimsey.com/z26/
 
-MAINTAINER=		packages@NetBSD.org
+MAINTAINER=		xmor61@users.sourceforge.net
 HOMEPAGE=		http://www.whimsey.com/z26/
 COMMENT=		Atari 2600 Emulator
 
