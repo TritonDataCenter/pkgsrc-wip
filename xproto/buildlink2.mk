@@ -11,6 +11,7 @@ XPROTO_BUILDLINK2_MK=	# defined
 BUILDLINK_PACKAGES+=			xproto
 BUILDLINK_DEPENDS.xproto?=		xproto>=6.6
 BUILDLINK_PKGSRCDIR.xproto?=		../../wip/xproto
+BUILDLINK_DEPMETHOD.xproto?=		build
 
 EVAL_PREFIX+=	BUILDLINK_PREFIX.xproto=xproto
 BUILDLINK_PREFIX.xproto_DEFAULT=	${LOCALBASE}

@@ -16,6 +16,7 @@ BUILDLINK_PACKAGES+=	xproto
 .if !empty(XPROTO_BUILDLINK3_MK:M+)
 BUILDLINK_DEPENDS.xproto?=		xproto>=6.6
 BUILDLINK_PKGSRCDIR.xproto?=		../../wip/xproto
+BUILDLINK_DEPMETHOD.xproto?=		build
 .endif # XPROTO_BUILDLINK3_MK
 
 BUILDLINK_DEPTH:=     ${BUILDLINK_DEPTH:S/+$//}
