@@ -3,8 +3,8 @@
 .if !defined(MYSQL_CLIENT_BUILDLINK2_MK)
 MYSQL_CLIENT_BUILDLINK2_MK=	# defined
 
-BUILDLINK_PACKAGES+=			mysql-client
-BUILDLINK_DEPENDS.mysql-client?=	mysql-client>=3.23.49nb2
+BUILDLINK_PACKAGES+=			mysql4-client
+BUILDLINK_DEPENDS.mysql-client?=	mysql4-client>=4.0.13
 BUILDLINK_PKGSRCDIR.mysql-client?=	../../databases/mysql-client
 
 EVAL_PREFIX+=	BUILDLINK_PREFIX.mysql-client=mysql-client
