@@ -1,0 +1,4 @@
+@comment $NetBSD$
+bin/copytape
+man/man1/copytape.1
+man/man5/copytape.5
