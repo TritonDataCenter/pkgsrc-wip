@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		rss2html-0.3
+DISTNAME=		rss2html-0.5
 CATEGORIES=		wip converters
 MASTER_SITES=		ftp://ftp.nopcode.org/prj/rss2html/
 
