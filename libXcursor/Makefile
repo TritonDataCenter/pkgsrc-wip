@@ -7,8 +7,8 @@ MASTER_SITES=		http://freedesktop.org/~xlibs/dist/
 EXTRACT_SUFX=		.tar.bz2
 
 MAINTAINER=		xtraeme@NetBSD.org
-HOMEPAGE=		http://freedesktop.org/
-COMMENT=		Xcursor extension
+HOMEPAGE=		http://www.freedesktop.org/Software/xlibs
+COMMENT=		Client-side cursor loading library for X
 
 USE_BUILDLINK2=		yes
 USE_PKGLOCALEDIR=	yes
