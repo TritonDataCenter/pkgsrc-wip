@@ -1,0 +1,9 @@
+@comment $NetBSD$
+man/man8/ramsize.8
+man/man8/rdev.8
+man/man8/rootflags.8
+man/man8/vidmode.8
+sbin/ramsize
+sbin/rdev
+sbin/rootflags
+sbin/vidmode
