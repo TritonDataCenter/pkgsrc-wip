@@ -21,6 +21,6 @@ PKGCONFIG_OVERRIDE+=	xdamage.pc.in
 .include "../../wip/libXfixes/buildlink3.mk"
 .include "../../wip/damageext/buildlink3.mk"
 .include "../../wip/xproto/buildlink3.mk"
-.include "../../wip/fixesext/buildlink3.mk"
+.include "../../x11/fixesext/buildlink3.mk"
 .include "../../devel/pkgconfig/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

@@ -15,7 +15,7 @@ BUILDLINK_PACKAGES+=			compositeext
 BUILDLINK_DEPENDS.compositeext?=		compositeext>=2.0
 BUILDLINK_PKGSRCDIR.compositeext?=		../../wip/compositeext
 
-.include "../../wip/fixesext/buildlink3.mk"
+.include "../../x11/fixesext/buildlink3.mk"
 .include "../../x11/xextensions/buildlink3.mk"
 
 .endif # COMPOSITEEXT_BUILDLINK3_MK
