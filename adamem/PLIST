@@ -1,11 +1,11 @@
 @comment $NetBSD$
 bin/adamem
 bin/cvem
-bin/z80dasm
 bin/snapedit
-share/adamem/adamem.txt
-share/adamem/adamem.snd
-share/adamem/OS7.rom
+bin/z80dasm
 share/adamem/EOS.rom
+share/adamem/OS7.rom
 share/adamem/WP.rom
+share/adamem/adamem.snd
+share/adamem/adamem.txt
 @dirrm share/adamem
