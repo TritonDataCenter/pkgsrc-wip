@@ -8,7 +8,7 @@ MASTER_SITES=	http://fredrik.hubbe.net/plugger/ \
 DISTFILES=	${DISTNAME}${EXTRACT_SUFX} unix-sdk-3.0b5.tar.Z
 
 MAINTAINER=	airhead@sourceforge.net
-HOMEPAGE=	http://fredrik.hubbe.net/plugger/plugger.html
+HOMEPAGE=	http://fredrik.hubbe.net/plugger.html
 COMMENT=	Plugin for multimedia types in Mozilla, Netscape and Opera
 
 USE_X11=		YES

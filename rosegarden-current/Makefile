@@ -6,7 +6,7 @@ CATEGORIES=	audio
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=rosegarden/}
 
 MAINTAINER=	virtus@wanadoo.nl
-HOMEPAGE=	http://www.all-day-breakfast.cm/rosegarden/
+HOMEPAGE=	http://www.all-day-breakfast.com/rosegarden/
 COMMENT=	Development release of rosegarden
 
 USE_BUILDLINK2=	YES

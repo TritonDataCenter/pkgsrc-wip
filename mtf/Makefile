@@ -7,7 +7,7 @@ MASTER_SITES=	${MASTER_SITE_SUNSITE:=system/backup/}
 EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	tech-pkg@NetBSD.org
-HOMEPAGE=	http://layton-graphics.com/mtf/
+HOMEPAGE=	http://www.layton-graphics.com/mtf/
 COMMENT=	Unix reader for the Microsoft Tape Format used by NT Backup
 
 ALL_TARGET=	# empty

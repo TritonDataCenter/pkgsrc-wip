@@ -8,7 +8,7 @@ CATEGORIES=	www
 MASTER_SITES=	ftp://alobbs.com/cherokee/
 
 MAINTAINER=	xtraeme@NetBSD.org
-HOMEPAGE=	http://alobbs.com/cherokee/
+HOMEPAGE=	http://www.alobbs.com/cherokee/
 COMMENT=	Extremely fast and tiny web server
 
 USE_BUILDLINK2=		yes

@@ -7,7 +7,7 @@ CATEGORIES=	net
 MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=Geo/}
 
 MAINTAINER=	tech-pkg@NetBSD.org
-HOMEPAGE=	http://maxmind.com/geoip/api/perl.shtml
+HOMEPAGE=	http://www.maxmind.com/geoip/api/perl.shtml
 COMMENT=	Gets country name by IP or hostname
 
 USE_BUILDLINK2=		yes
