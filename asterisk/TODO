@@ -1,0 +1,6 @@
+$NetBSD$
+
+- add options for zaptel support.  This will require a separate package for
+  the drivers.
+- add option for graphic console support.  Haven't looked at this yet, not
+  sure how necessary it is.
