@@ -16,8 +16,6 @@ HAS_CONFIGURE=		YES
 USE_X11=		YES
 USE_X11BASE=		YES
 CONFIGURE_ARGS+=	--with-x=yes
-HAS_CONFIGURE=		YES
-CONFIGURE_ARGS+=	--with-x=no
 CONFIGURE_ARGS+=	--prefix=${X11PREFIX}
 
 .include "../../mk/bsd.pkg.mk"
