@@ -20,6 +20,12 @@ EXTRACT_ONLY=		X430src-4.tgz
 
 FILESDIR=	${PKGDIR}/../XFree86-fontsEncodings/files
 
+.include "../../mk/bsd.prefs.mk"
+
+.if ${OPSYS} == "Linux" || ${OPSYS} == "FreeBSD"
+PLIST_SRC+=     ${.CURDIR}/PLIST.PERL
+.endif
+
 post-extract:
 	cd ${WRKDIR} && \
 		${GUNZIP_CMD} -c ${DISTDIR}/X430src-1.tgz | ${GTAR} -xf - \
