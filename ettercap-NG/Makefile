@@ -10,12 +10,6 @@ COMMENT=	Multipurpose sniffer/interceptor/logger for switched LAN
 
 CONFLICTS=	ettercap-0*
 
-.include "../../mk/bsd.prefs.mk"
-
-.if ${OPSYS} == "Darwin"
-INSTALL_UNSTRIPPED=	yes
-.endif
-
 GNU_CONFIGURE=		YES
 USE_BUILDLINK3=		YES
 PTHREAD_OPTS+=		require
@@ -45,6 +39,13 @@ PKG_SUPPORTED_OPTIONS=	gtk
 .if !empty(PKG_OPTIONS:Mgtk)
 .	include "../../x11/gtk2/buildlink3.mk"
 CONFIGURE_ARGS+=	--enable-gtk
+.endif
+
+# Bad hack as I think there's a bug floating round the place
+# with INSTALL_UNSTRIPPED=yes being ignored in cetain cases.
+.if ${OPSYS} == "Darwin"
+_STRIPFLAG_CC=		
+_STRIPFLAG_INSTALL=	
 .endif
 
 post-install:
