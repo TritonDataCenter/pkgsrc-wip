@@ -9,7 +9,7 @@ MAINTAINER=	cube@cubidou.net
 HOMEPAGE=	http://lgames.sourceforge.net/
 COMMENT=	Atomix-style arcade game
 
-USE_BUILDLINK2=		YES
+USE_BUILDLINK3=		YES
 USE_X11=		YES
 GNU_CONFIGURE=		YES
 CONFIGURE_ARGS+=	--with-profile-path=${LOCALBASE}/share/games
@@ -23,7 +23,7 @@ post-install:
 	${INSTALL_DATA} ${WRKSRC}/src/manual/marbles.jpg ${PREFIX}/share/doc/html/lmarbles
 	${INSTALL_DATA} ${WRKSRC}/src/manual/teleport.jpg ${PREFIX}/share/doc/html/lmarbles
 
-.include "../../audio/SDL_mixer/buildlink2.mk"
-.include "../../devel/SDL/buildlink2.mk"
+.include "../../audio/SDL_mixer/buildlink3.mk"
+.include "../../devel/SDL/buildlink3.mk"
 
 .include "../../mk/bsd.pkg.mk"
