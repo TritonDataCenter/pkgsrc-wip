@@ -3,8 +3,8 @@
 DISTNAME=	Net_DIME-0.3
 CATEGORIES=	www
 
-MAINTAINER=	tech-kern@NetBSD.org
-HOMEPAGE= 	http://pear.php.net/package/HTTP_Request
+MAINTAINER=	tech-pkg@NetBSD.org
+HOMEPAGE= 	http://pear.php.net/package/Net_DIME
 COMMENT=	PHP classes that implements DIME encoding
 
 .include "../../mk/bsd.prefs.mk"

@@ -3,8 +3,8 @@
 DISTNAME=	SOAP-0.7.5
 CATEGORIES=	www
 
-MAINTAINER=	tech-kern@NetBSD.org
-HOMEPAGE= 	http://pear.php.net/package/HTTP_Request
+MAINTAINER=	tech-pkg@NetBSD.org
+HOMEPAGE= 	http://pear.php.net/package/SOAP
 COMMENT=	SOAP Client/Server for PHP
 
 DEPENDS+=	pear-Mail_Mime>=1.2:../../wip/pear-Mail_Mime

@@ -3,7 +3,7 @@
 DISTNAME=	Net_URL-1.0.10
 CATEGORIES=	www
 
-MAINTAINER=	tech-kern@NetBSD.org
+MAINTAINER=	tech-pkg@NetBSD.org
 HOMEPAGE= 	http://pear.php.net/package/Net_URL/
 COMMENT=	PHP classes to easy parsing of Urls
 

@@ -3,7 +3,7 @@
 DISTNAME=	Net_Socket-1.0.1
 CATEGORIES=	www
 
-MAINTAINER=	tech-kern@NetBSD.org
+MAINTAINER=	tech-pkg@NetBSD.org
 HOMEPAGE= 	http://pear.php.net/package/Net_Socket
 COMMENT=	PHP classes to provide Network Socket Interface
 

@@ -3,7 +3,7 @@
 DISTNAME=	HTTP_Request-1.2
 CATEGORIES=	www
 
-MAINTAINER=	tech-kern@NetBSD.org
+MAINTAINER=	tech-pkg@NetBSD.org
 HOMEPAGE= 	http://pear.php.net/package/HTTP_Request
 COMMENT=	PHP classes to provides an easy way to perform HTTP requests
 

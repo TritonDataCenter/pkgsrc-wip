@@ -3,7 +3,7 @@
 DISTNAME=	Mail_Mime-1.2.1
 CATEGORIES=	www
 
-MAINTAINER=	tech-kern@NetBSD.org
+MAINTAINER=	tech-pkg@NetBSD.org
 HOMEPAGE= 	http://pear.php.net/package/Mail_Mime/
 COMMENT=	PHP classes to create and decode mime messages
 
