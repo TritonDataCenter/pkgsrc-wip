@@ -3,9 +3,11 @@
 DISTNAME=		sarg-2.0.4
 CATEGORIES=		www
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=sarg/}
+PKGREVISION=		1
 
 PATCH_SITES=		http://sarg.sourceforge.net/
-PATCHFILES=		sarg-2.0.4-segmentation-fault.patch
+PATCHFILES=		sarg-2.0.4-segmentation-fault.patch		\
+			sarg-2.0.4-rlim-freebsd.patch
 
 MAINTAINER=		mishka@apk.od.ua
 HOMEPAGE=		http://www.sarg-squid.org/
