@@ -9,6 +9,8 @@ MAINTAINER=		tom@replic8.net
 HOMEPAGE=		http://dovecot.fi/
 COMMENT=		Secure, full-featured IMAP (and POP3) server
 
+NO_CHECKSUM=		YES
+
 CONFLICTS=		dovecot
 
 USE_BUILDLINK3=		YES
@@ -91,7 +93,7 @@ CONF_FILES=	${EGDIR}/dovecot.conf.default ${PKG_SYSCONFDIR}/dovecot.conf
 
 post-configure:
 	@cd ${WRKSRC};							\
-	for file in dovecot-example.conf; do				\
+	for ${FILE} in dovecot-example.conf; do				\
 		${SED} ${FILES_SUBST_SED} $$file > $$file.new;		\
 		${MV} -f $$file.new $$file;				\
 	done
