@@ -9,7 +9,7 @@ MASTER_SITES=	http://www.spinnaker.de/debian/
 
 MAINTAINER=		drue@users.sf.net
 HOMEPAGE=		http://www.spinnaker.de/debian/
-COMMENT=		adapter to various address db for use in mutt
+COMMENT=		The little brother's database for the mutt mail reader
 
 DEPENDS+=	p5-perl-ldap-[0-9]*:../../databases/p5-perl-ldap
 
