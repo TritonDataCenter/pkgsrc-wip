@@ -59,6 +59,10 @@ pre-patch:
 pre-configure:
 	@${SED} ${FILES_SUBST_SED} ${WRKSRC}/Local/Makefile.netbsd \
 		> ${WRKSRC}/Local/Makefile
+	for f in ${WRKSRC}/OS/Makefile-*; do \
+		${SED} -e 's/^CFLAGS.*/& $$(CPPFLAGS)/' $$f > $$f.cppsubst; \
+		${MV} -f $$f.cppsubst $$f; \
+	done
 .if defined(_EXIM_DB)
 	@${ECHO} LOOKUP_INCLUDE=${_LOOKUP_INCLUDE} >> ${WRKSRC}/Local/Makefile
 	@${ECHO} LOOKUP_LIBS=${_LOOKUP_LIBS} >> ${WRKSRC}/Local/Makefile
