@@ -2,7 +2,7 @@
 
 DISTNAME=		pf-lkm-20040607
 CATEGORIES=		security ipv6
-MASTER_SITES=		http://ipv4.pointless.nl/~peter/
+MASTER_SITES=		http://nedbsd.nl/~ppostma/pf/
 
 MAINTAINER=		peter@pointless.nl
 HOMEPAGE=		http://nedbsd.nl/~ppostma/pf-lkm.html
