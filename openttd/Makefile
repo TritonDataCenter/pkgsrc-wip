@@ -40,6 +40,7 @@ do-install:
 	${INSTALL_DATA} -m 644 ${WRKSRC}/docs/Manual.txt ${DATA_DIR}/docs
 	${INSTALL_DATA} -m 644 ${WRKSRC}/docs/multiplayer.txt ${DATA_DIR}/docs
 
-#.include "../../graphics/png/buildlink3.mk"
+.include "../../graphics/png/buildlink3.mk"
 .include "../../devel/SDL/buildlink3.mk"
+.include "../../devel/zlib/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

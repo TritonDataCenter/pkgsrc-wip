@@ -14,3 +14,17 @@ $NetBSD$
  # Automatically recognize if building on MacOSX
  ifeq ($(VENDOR), apple)
  OSX:=1
+@@ -75,8 +80,13 @@ ifdef WITH_PNG
+ WITH_PNG:=1
+ endif
+ else
++ifdef NETBSD
++# NetBSD uses generic pkg-config instead of libpng-config
++WITH_PNG:=$(shell pkg-config --version libpng12 2>/dev/null)
++else
+ WITH_PNG:=$(shell libpng-config --version 2>/dev/null)
+ endif
++endif
+ 
+ ifdef WITH_PNG
+ # LibPNG depends on Zlib
