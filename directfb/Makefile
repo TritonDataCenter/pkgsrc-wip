@@ -1,8 +1,8 @@
 # $NetBSD$
 #
 
-DISTNAME=	DirectFB-0.9.18
-PKGNAME=	${DISTNAME:S/DirectFB/directfb/}
+DISTNAME=	DirectFB-0.9.19
+PKGNAME=	${DISTNAME:S/DFB/dfb/}
 CATEGORIES=	devel
 MASTER_SITES=	http://www.directfb.org/download/DirectFB/
 
