@@ -1,0 +1,2 @@
+@comment $NetBSD$
+lib/gkrellm2/plugins/gkrellmlaunch.so
