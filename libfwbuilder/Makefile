@@ -23,15 +23,9 @@ CONFIGURE_ARGS+=	--with-lwres
 .endif
 BUILD_DEFS+=	FWBUILDER_USE_BIND
 
-pre-configure:
-	cd ${WRKSRC} && ${LOCALBASE}/bin/libtoolize --force --copy
-	cd ${WRKSRC} && ${ACLOCAL}
-	cd ${WRKSRC} && ${AUTOCONF}
-
 .include "../../devel/glib/buildlink2.mk"
 .include "../../net/net-snmp/buildlink2.mk"
 .include "../../security/openssl/buildlink2.mk"
 .include "../../textproc/libxslt/buildlink2.mk"
 
-.include "../../mk/automake.mk"
 .include "../../mk/bsd.pkg.mk"
