@@ -29,13 +29,16 @@ MAKE_FLAGS+=		ARCH=X86
 MAKE_FLAGS+=		ARCH=PPC
 .endif
 
+post-patch:
+	${SED} -e '/^# /!s/^#//' <${WRKSRC}/seed.txt-dist >${WRKSRC}/seed.txt
+
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/entropy ${PREFIX}/bin/entropy
 	${INSTALL_PROGRAM} ${WRKSRC}/storechg ${PREFIX}/bin/entropy-storechg
 	${INSTALL_DATA_DIR} ${PREFIX}/share/examples/entropy
 	${INSTALL_DATA_DIR} ${PREFIX}/share/examples/entropy/node
 	${INSTALL_DATA} ${WRKSRC}/entropy.conf-dist ${PREFIX}/share/examples/entropy/entropy.conf
-	${INSTALL_DATA} ${WRKSRC}/seed.txt-dist ${PREFIX}/share/examples/entropy/seed.txt
+	${INSTALL_DATA} ${WRKSRC}/seed.txt ${PREFIX}/share/examples/entropy/
 	${INSTALL_DATA} ${WRKSRC}/node/[0-9a-z]* ${PREFIX}/share/examples/entropy/node/
 
 .include "../../devel/zlib/buildlink2.mk"
