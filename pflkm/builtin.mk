@@ -1,10 +1,10 @@
 # $NetBSD$
 
-.if !defined(IS_BUILTIN.pf-lkm)
-IS_BUILTIN.pf-lkm=	no
+.if !defined(IS_BUILTIN.pflkm)
+IS_BUILTIN.pflkm=	no
 .  if exists(/usr/include/net/pfvar.h)
-IS_BUILTIN.pf-lkm=	yes
+IS_BUILTIN.pflkm=	yes
 .  endif
-.endif  # IS_BUILTIN.pf-lkm
+.endif  # IS_BUILTIN.pflkm
 
-USE_BUILTIN.pf-lkm?=	${IS_BUILTIN.pf-lkm}
+USE_BUILTIN.pflkm?=	${IS_BUILTIN.pflkm}
