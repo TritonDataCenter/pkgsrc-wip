@@ -17,6 +17,22 @@ APACHE_MODULE_NAME=	${DISTNAME:C|-.*||}.la
 APACHE_MODULE_SRC=      ${DISTNAME:C|-.*||}.c
 APACHE_MODULE_SRCDIR=	${WRKSRC}/apache2
 
+post-install:
+	${INSTALL_DATA_DIR} ${PREFIX}/share/examples/ap2-security
+	${INSTALL_DATA_DIR} ${PREFIX}/share/doc/ap2-security
+
+	${INSTALL_DATA} ${WRKSRC}/httpd.conf.example-full \
+		${PREFIX}/share/examples/ap2-security
+        
+	${INSTALL_DATA} ${WRKSRC}/httpd.conf.example-minimal \
+		${PREFIX}/share/examples/ap2-security
+
+	${INSTALL_DATA} ${WRKSRC}/modsecurity-manual-v1.6.pdf \
+		${PREFIX}/share/doc/ap2-security
+
+	${INSTALL_DATA} ${WRKSRC}/LICENSE \
+		${PREFIX}/share/doc/ap2-security
+
 .include "../../www/apache2/buildlink2.mk"
 .include "../../www/apache2/module.mk"
 
