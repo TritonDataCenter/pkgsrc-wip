@@ -20,11 +20,8 @@ USE_PKGINSTALL=		yes
 
 CONFIGURE_ARGS+=	--prefix=${PREFIX}
 CONFIGURE_ARGS+=	--bindir=${PREFIX}/sbin
-CONFIGURE_ARGS+=	--etcdir=${PKG_SYSCONFDIR}
 CONFIGURE_ARGS+=	--datadir=${DATADIR}
 CONFIGURE_ARGS+=	--confdir=/var/lib/bitlbee
-
-PKG_SYSCONFSUBDIR=	bitlbee
 
 DATADIR=	${PREFIX}/share/bitlbee/data
 DOCDIR=		${PREFIX}/share/doc/bitlbee
