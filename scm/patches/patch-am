@@ -1,0 +1,14 @@
+$NetBSD$
+
+--- unix.c.orig	Sat Apr 13 13:35:53 2002
++++ unix.c
+@@ -69,6 +69,9 @@ SCM scm_lstat P((SCM str));
+ # ifdef SVR4
+ #  include <unistd.h>
+ # endif
++# ifdef __NetBSD__
++#  include <unistd.h>
++# endif
+ # ifdef __OpenBSD__
+ #  include <unistd.h>
+ # endif
