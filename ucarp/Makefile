@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		ucarp-0.6
+DISTNAME=		ucarp-0.8
 CATEGORIES=		net
 MASTER_SITES=		http://www.pureftpd.org/ucarp/
 EXTRACT_SUFX=		.tar.bz2
