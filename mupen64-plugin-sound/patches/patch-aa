@@ -28,7 +28,7 @@ $NetBSD$
  	$(CC) $(CFLAGS) -c -o $@ $<
  
 +install:
-+	$(BSD_INSTALL_DATA) mupen64_audio.so $(PREFIX)/share/mupen64/plugins
++	$(BSD_INSTALL_DATA) mupen64_audio.so $(PREFIX)/share/mupen64-base/plugins
 +
  clean:
  	rm -rf mupen64_audio.so $(OBJECTS)

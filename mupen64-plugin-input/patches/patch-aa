@@ -28,8 +28,8 @@ $NetBSD$
 -instruction:
 -	$(warning please copy mupen64_input.so in the plugins/ folder of the emulator)
 +install:
-+	$(BSD_INSTALL_DATA_DIR) $(PREFIX)/share/mupen64/plugins
-+	$(BSD_INSTALL_DATA) mupen64_input.so $(PREFIX)/share/mupen64/plugins
++	$(BSD_INSTALL_DATA_DIR) $(PREFIX)/share/mupen64-base/plugins
++	$(BSD_INSTALL_DATA) mupen64_input.so $(PREFIX)/share/mupen64-base/plugins
  
  clean:
  	find . -name '*.o' -print0 | xargs -0r rm -f

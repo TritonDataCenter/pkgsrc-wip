@@ -29,7 +29,7 @@ $NetBSD$
  	$(CC) $(CFLAGS) -o $@ $<
  
 +install:
-+	$(BSD_INSTALL_DATA) tr64gl.so $(PREFIX)/share/mupen64/plugins
++	$(BSD_INSTALL_DATA) tr64gl.so $(PREFIX)/share/mupen64-base/plugins
 +
  clean:
  	rm -rf $(OBJECTS) $(ALL)

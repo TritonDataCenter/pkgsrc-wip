@@ -1,2 +1,2 @@
 @comment $NetBSD$
-share/mupen64/plugins/tr64gl.so
+share/mupen64-base/plugins/tr64gl.so

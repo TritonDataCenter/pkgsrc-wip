@@ -1,2 +1,2 @@
 @comment $NetBSD$
-share/mupen64/plugins/mupen64_audio.so
+share/mupen64-base/plugins/mupen64_audio.so
