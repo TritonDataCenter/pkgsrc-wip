@@ -4,8 +4,6 @@
 
 COMMENT=	Prelude manager
 
-USE_BUILDLINK2=		YES
-
 CONFLICTS+=     prelude-mysql-manager-[0-9]*
 CONFLICTS+=     prelude-pgsql-manager-[0-9]*
 
