@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	bugzilla-2.16.6
+DISTNAME=	bugzilla-2.16.7
 CATEGORIES=	www
 MASTER_SITES=	http://ftp.mozilla.org/pub/mozilla.org/webtools/
 
