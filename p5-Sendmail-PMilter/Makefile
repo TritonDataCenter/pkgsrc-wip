@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	Sendmail-PMilter-0.91_01
+DISTNAME=	Sendmail-PMilter-0.91_02
 PKGNAME=	p5-${DISTNAME:S/_/./}
 CATEGORIES=	wip mail perl5
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=pmilter/}
