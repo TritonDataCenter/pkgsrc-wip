@@ -7,6 +7,5 @@ lib/${PKGNAME}/config.h
 lib/${PKGNAME}/rlib/gp-compat.r
 lib/${PKGNAME}/rlib/plot.r
 lib/rlab2
-lib/rlab2.old
 man/man1/rlab2.1
 @dirrm lib/${PKGNAME}
