@@ -9,7 +9,7 @@ MAINTAINER=	adrianp@stindustries.net
 HOMEPAGE=	http://search.cpan.org/~muir/Text-Tabs+Wrap-2001.0929/
 COMMENT=	Line wrapping to form simple paragraphs
 
-USE_BUILDLINK2=	YES
+NO_BUILDLINK=	YES
 PERL5_PACKLIST=	${PERL5_SITEARCH}/auto/Text/.packlist
 
 .include "../../lang/perl5/module.mk"

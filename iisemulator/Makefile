@@ -9,6 +9,7 @@ HOMEPAGE= 	http://sourceforge.net/projects/iisemul8/
 COMMENT=	IIS emulator
 
 IISEMUL8=	${PREFIX}/share/iisemulator
+NO_BUILDLINK=	YES
 USE_PERL5=	YES
 REPLACE_PERL=	iisemul8.pl
 

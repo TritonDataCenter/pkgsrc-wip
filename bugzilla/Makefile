@@ -26,6 +26,8 @@ DEPENDS+=	gd>=1.19:../../graphics/gd
 DEPENDS+=	p5-Chart-[0-9]*:../../wip/p5-Chart
 DEPENDS+=	p5-XML-Parser-[0-9]*:../../textproc/p5-XML-Parser
 
+NO_BUILDLINK=	YES
+
 BZDIR?=		${PREFIX}/share/bugzilla
 
 SENDMAIL?=	/usr/sbin/sendmail

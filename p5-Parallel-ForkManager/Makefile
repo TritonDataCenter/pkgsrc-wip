@@ -10,7 +10,7 @@ MAINTAINER=	adrianp@stindustries.net
 HOMEPAGE=	http://search.cpan.org/~dlux/Parallel-ForkManager-0.7.5/
 COMMENT=	Simple parallel processing fork manager
 
-USE_BUILDLINK2=	YES
+NO_BUILDLINK=	YES
 
 PERL5_PACKLIST=	${PERL5_SITEARCH}/auto/Parallel/ForkManager/.packlist
 

@@ -10,6 +10,7 @@ COMMENT=	Bitchbot is a perl-based IRC bot
 
 USE_PERL5=	YES
 USE_PKGINSTALL=	YES
+NO_BUILDLINK=	YES
 
 REPLACE_PERL=	bitch.pl genstats.pl
 

@@ -12,6 +12,7 @@ COMMENT=	Remote SMTP version checker
 DEPENDS+=	p5-Net-DNS-[0-9]*:../../net/p5-Net-DNS
 
 USE_PERL5=	YES
+NO_BUILDLINK=	YES
 REPLACE_PERL=	src/smtpscan
 
 SSVERSION?=	0.5

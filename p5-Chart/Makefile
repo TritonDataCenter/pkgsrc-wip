@@ -12,7 +12,7 @@ COMMENT=	Perl5 charting library
 
 DEPENDS+=	p5-GD>=1.32:../../graphics/p5-GD
 
-USE_BUILDLINK2=	YES
+NO_BUILDLINK=	YES
 
 PERL5_PACKLIST=	${PERL5_SITEARCH}/auto/Chart/.packlist
 

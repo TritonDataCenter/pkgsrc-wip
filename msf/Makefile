@@ -22,6 +22,7 @@ USE_PERL5=	YES
 PERL_FILES=	msfcli msfconsole msfdldebug msfencode msflogdump msfpayload \
 		msfpayload.cgi msfpescan msfweb
 REPLACE_PERL+=	${PERL_FILES}
+NO_BUILDLINK=	YES
 
 NO_BUILD=	YES
 
