@@ -1,0 +1,4 @@
+@comment $NetBSD: PLIST,v 1.2 2003/06/23 07:02:16 grant Exp $
+share/examples/rc.subr/rc.conf.example
+share/examples/rc.subr/rc.subr
+@dirrm share/examples/${PKGBASE}

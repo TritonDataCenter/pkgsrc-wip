@@ -1,0 +1,9 @@
+#!@RCD_SCRIPTS_SHELL@
+#
+# $NetBSD: NETWORKING,v 1.1.1.1 2003/06/19 16:07:12 grant Exp $
+#
+
+# PROVIDE: NETWORKING NETWORK
+
+#	This is a dummy dependency, for services which require networking
+#	to be operational before starting.
