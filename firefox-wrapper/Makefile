@@ -20,7 +20,7 @@ do-extract:
 
 do-install:
 	${INSTALL_SCRIPT} ${WRKSRC}/firefox ${PREFIX}/bin/firefox
-	${INSTALL_SCRIPT} ${WRKSRC}/firefox-wrapper.conf \
+	${INSTALL_DATA} ${WRKSRC}/firefox-wrapper.conf \
 		${PKG_SYSCONFDIR}/firefox-wrapper.conf
 
 .include "../../mk/bsd.prefs.mk"
