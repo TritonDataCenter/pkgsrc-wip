@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.446 2003/09/14 17:04:31 jcd Exp $
+# $Id: Makefile,v 1.447 2003/09/14 19:15:21 jmmv Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -75,7 +75,6 @@ SUBDIR+=	cyrus-imapd22
 SUBDIR+=	dancer-ircd
 SUBDIR+=	darcnes-svgalib
 SUBDIR+=	darkice
-SUBDIR+=	dega
 SUBDIR+=	devhelp
 SUBDIR+=	dfbpoint
 SUBDIR+=	dfbsee
