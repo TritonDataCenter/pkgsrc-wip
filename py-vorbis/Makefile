@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		pyvorbis-1.3
-PKGNAME=                ${PYPKGPREFIX}-${DISTNAME}
+PKGNAME=                ${PYPKGPREFIX}-${DISTNAME:S/py//}
 CATEGORIES=		audio
 MASTER_SITES=		http://vorbis.com/files/1.0.1/unix/py/
 
