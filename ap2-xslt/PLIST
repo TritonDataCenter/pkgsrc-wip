@@ -1,0 +1,5 @@
+@comment $NetBSD$
+lib/httpd/mod-xslt.so
+share/httpd/htdocs/mod-xslt/index.xml
+share/httpd/htdocs/mod-xslt/index.xsl
+@dirrm share/httpd/htdocs/mod-xslt
