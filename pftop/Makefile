@@ -5,7 +5,7 @@ CATEGORIES=	sysutils net
 MASTER_SITES=	http://www.eee.metu.edu.tr/~canacar/
 
 MAINTAINER=	peter@pointless.nl
-HOMEPAGE=	http://www.eee.metu.edu.tr/~canacar/
+HOMEPAGE=	http://www.eee.metu.edu.tr/~canacar/pftop/
 COMMENT=	Utility for real-time display of statistics for PF
 
 USE_BUILDLINK3=	yes
