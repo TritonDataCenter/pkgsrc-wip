@@ -1,0 +1,8 @@
+@comment $NetBSD$
+lib/xfce4/panel-plugins/libtriggerlauncher.a
+lib/xfce4/panel-plugins/libtriggerlauncher.la
+lib/xfce4/panel-plugins/libtriggerlauncher.so
+${PKGLOCALEDIR}/locale/ca/LC_MESSAGES/xfce4-trigger-launcher.mo
+${PKGLOCALEDIR}/locale/de/LC_MESSAGES/xfce4-trigger-launcher.mo
+${PKGLOCALEDIR}/locale/tr/LC_MESSAGES/xfce4-trigger-launcher.mo
+${PKGLOCALEDIR}/locale/zh_CN/LC_MESSAGES/xfce4-trigger-launcher.mo

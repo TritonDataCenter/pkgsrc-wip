@@ -1,0 +1,4 @@
+@comment $NetBSD$
+lib/xfce4/panel-plugins/libsystray.a
+lib/xfce4/panel-plugins/libsystray.la
+lib/xfce4/panel-plugins/libsystray.so

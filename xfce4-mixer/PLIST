@@ -1,0 +1,8 @@
+@comment $NetBSD$
+lib/xfce4/panel-plugins/libmixer.a
+lib/xfce4/panel-plugins/libmixer.la
+lib/xfce4/panel-plugins/libmixer.so
+${PKGLOCALEDIR}/locale/ca/LC_MESSAGES/xfce4-mixer.mo
+${PKGLOCALEDIR}/locale/de/LC_MESSAGES/xfce4-mixer.mo
+${PKGLOCALEDIR}/locale/tr/LC_MESSAGES/xfce4-mixer.mo
+${PKGLOCALEDIR}/locale/zh_CN/LC_MESSAGES/xfce4-mixer.mo
