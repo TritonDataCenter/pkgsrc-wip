@@ -16,7 +16,6 @@ USE_BUILDLINK2=	YES
 USE_X11=	YES
 
 CONFIGURE_ARGS+=	--with-gfxdrivers=all
-#CONFIGURE_ARGS+=	--enable-freetype=no
 
 .include "../../devel/pkgconfig/buildlink2.mk"
 .include "../../graphics/png/buildlink2.mk"
