@@ -1,7 +1,0 @@
-@comment $NetBSD$
-bin/dccsend
-bin/dccserver
-man/man1/dccsend.1
-man/man1/dccserver.1
-share/dccserver/dccsend.pl
-@dirrm share/dccserver
