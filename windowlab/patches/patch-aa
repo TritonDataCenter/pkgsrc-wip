@@ -42,7 +42,7 @@ $NetBSD$
 -CFGDIR   = $(DESTDIR)/etc/X11/windowlab
  INCLUDES = -I$(XROOT)/include $(EXTRA_INC)
 -LDPATH   = -L$(XROOT)/lib
-+LDPATH   = -Wl,${RPATH_FLAG}$(XROOT)/lib -Wl,${RPATH_FLAG}${X11BASE}/lib
++LDPATH   = ${LDFLAGS}
  LIBS     = -lX11 $(EXTRA_LIBS)
  
  PROG     = windowlab
