@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		wipe-2.2.0
-CATEGORIES=		wip sysutils
+CATEGORIES=		sysutils
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=wipe/}
 EXTRACT_SUFX=		.tar.bz2
 
