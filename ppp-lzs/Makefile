@@ -1,7 +1,6 @@
 # $NetBSD$
 
 DISTNAME=	ppp-lzs-1.0
-WRKSRC=		${WRKDIR}
 CATEGORIES=	net
 MASTER_SITES=	http://homepages.rya-online.net/plunky/
 
@@ -14,6 +13,7 @@ ONLY_FOR_PLATFORM= 	NetBSD-*-*
 
 MAKE_ENV+=	BSDSRCDIR="${BSDSRCDIR}"
 MESSAGE_SUBST+= PREFIX="${PREFIX}"
+WRKSRC=		${WRKDIR}
 
 pre-patch:
 	@${MKDIR} ${WRKDIR}/lkm ${WRKDIR}/net ${WRKDIR}/pppd
