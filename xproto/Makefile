@@ -12,7 +12,9 @@ COMMENT=		X protocol and ancillary headers
 
 CONFLICTS+=		XFree86-libs-[0-9]*
 
-USE_BUILDLINK2=		yes
+PKG_INSTALLATION_TYPES=	overwrite pkgviews
+
+USE_BUILDLINK3=		yes
 PKGCONFIG_OVERRIDE+=	${WRKSRC}/xproto.pc.in
 GNU_CONFIGURE=		yes
 
