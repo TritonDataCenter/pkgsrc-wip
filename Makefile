@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.873 2004/01/10 18:06:38 minskim Exp $
+# $Id: Makefile,v 1.874 2004/01/10 18:09:40 mpasternak Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -320,6 +320,7 @@ SUBDIR+=	libprelude
 SUBDIR+=	libshout
 SUBDIR+=	libstatgrab
 SUBDIR+=	libtlen
+SUBDIR+=	libuuid
 SUBDIR+=	libvorbis-nightly
 SUBDIR+=	libwpd
 SUBDIR+=	libxml++
