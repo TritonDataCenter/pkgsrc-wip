@@ -1,8 +1,0 @@
-@comment $NetBSD$
-${PYSITELIB}/drv_libxml2.py
-${PYSITELIB}/drv_libxml2.pyc
-${PYSITELIB}/drv_libxml2.pyo
-${PYSITELIB}/libxml2.py
-${PYSITELIB}/libxml2.pyc
-${PYSITELIB}/libxml2.pyo
-${PYSITELIB}/libxml2mod.so
