@@ -196,6 +196,7 @@ ${RUBY_DOCDIR}/RMagick/ex/get_type_metrics.rb
 ${RUBY_DOCDIR}/RMagick/ex/get_pixels.jpg
 ${RUBY_DOCDIR}/RMagick/ex/get_pixels.rb
 ${RUBY_DOCDIR}/RMagick/ex/gradientfill.rb
+${RUBY_DOCDIR}/RMagick/ex/gradientfill.gif
 ${RUBY_DOCDIR}/RMagick/ex/grav.gif
 ${RUBY_DOCDIR}/RMagick/ex/grav.rb
 ${RUBY_DOCDIR}/RMagick/ex/gravity.rb

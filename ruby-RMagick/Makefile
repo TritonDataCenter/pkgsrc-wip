@@ -1,9 +1,9 @@
 # $NetBSD$
 
-DISTNAME=	RMagick-1.7.1
+DISTNAME=	RMagick-1.7.4
 PKGNAME=	${RUBY_PKGPREFIX}-${DISTNAME}
 CATEGORIES=	graphics ruby
-MASTER_SITES=	http://rubyforge.org/frs/download.php/2343/
+MASTER_SITES=	http://rubyforge.org/frs/download.php/3788/
 
 MAINTAINER=	obata@lins.jp
 HOMEPAGE=	http://rmagick.rubyforge.org/
