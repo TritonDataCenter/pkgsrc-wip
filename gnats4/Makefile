@@ -12,6 +12,8 @@ COMMENT=	GNATS bug tracking system
 
 BUILD_DEPENDS+=	m4-*:../../devel/m4
 
+CONFLICTS=	gnats-[0-9]*
+
 USE_BUILDLINK2=		yes
 USE_PKGLOCALEDIR=	yes
 USE_GMAKE=		yes
