@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		etpan-ng-0.3
+DISTNAME=		etpan-ng-0.5
 CATEGORIES=		mail
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=libetpan/}
 
