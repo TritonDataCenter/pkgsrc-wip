@@ -4,6 +4,7 @@ bin/elmoconf.pl
 man/man1/elmo.1
 man/man1/elmoconf.pl.1
 share/elmo/tutorial
+share/elmo/template
 ${PKGLOCALEDIR}/locale/de/LC_MESSAGES/elmo.mo
 ${PKGLOCALEDIR}/locale/pl/LC_MESSAGES/elmo.mo
 @dirrm share/elmo
