@@ -17,6 +17,7 @@ ${PKGLOCALEDIR}/locale/en_GB/LC_MESSAGES/matchbox-panel.mo
 ${PKGLOCALEDIR}/locale/es_ES/LC_MESSAGES/matchbox-panel.mo
 ${PKGLOCALEDIR}/locale/fi_FI/LC_MESSAGES/matchbox-panel.mo
 ${PKGLOCALEDIR}/locale/fr_FR/LC_MESSAGES/matchbox-panel.mo
+${PKGLOCALEDIR}/locale/zh_TW/LC_MESSAGES/matchbox-panel.mo
 share/pixmaps/broken-0.png
 share/pixmaps/mbmenu.png
 share/pixmaps/mbterm.png
