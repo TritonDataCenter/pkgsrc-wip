@@ -40,7 +40,7 @@ JABBERD_LOGDIR?=	/var/log/jabberd
 JABBERD_SPOOLDIR?=	/var/spool/jabberd
 JABBERD_PIDDIR?=	/var/run/jabberd
 
-.for f in ${JABBERD_LOGDIR} ${JABBERD_SPOOLDIR}
+.for f in ${JABBERD_LOGDIR} ${JABBERD_SPOOLDIR} ${JABBERD_PIDDIR}
 OWN_DIRS_PERMS+=	${f} ${JABBERD_USER} ${JABBERD_GROUP} 750
 .endfor
 
