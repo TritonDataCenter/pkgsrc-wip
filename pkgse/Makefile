@@ -3,7 +3,7 @@
 
 DISTNAME=		pkgse-0.1
 CATEGORIES=		pkgtools
-MASTER_SITES=		http://imil.net/stuff/
+MASTER_SITES=		http://imil.net/NetBSD/
 EXTRACT_SUFX=		.tgz
 
 MAINTAINER=		imil@gcu.info
