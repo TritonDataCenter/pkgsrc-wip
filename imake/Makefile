@@ -23,6 +23,8 @@ DEPENDS+=	bison-[0-9]*:../../devel/bison
 DEPENDS+=	flex-[0-9]*:../../devel/flex
 .endif
 
+.include "../../wip/XFree86/Makefile.common"
+
 post-extract:
 .for F in ${SYSTEMS}
 	@${MV} ${WRKSRC}/config/cf/${F}.cf \
@@ -58,5 +60,4 @@ do-build:
 	${MAKE} -f xmakefile VerifyOS version.def \
 		Makefiles includes )
 
-.include "../../wip/XFree86/Makefile.common"
 .include "../../mk/bsd.pkg.mk"
