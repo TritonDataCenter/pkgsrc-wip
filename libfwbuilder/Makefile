@@ -32,7 +32,8 @@ pre-configure:
 
 .include "../../devel/glib/buildlink2.mk"
 .include "../../lang/gcc/buildlink2.mk"
-.include "../../net/ucd-snmp/buildlink2.mk"
+.include "../../net/net-snmp/buildlink2.mk"
 .include "../../textproc/libxslt/buildlink2.mk"
+
 .include "../../mk/automake.mk"
 .include "../../mk/bsd.pkg.mk"
