@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		amsn-0_92
+DISTNAME=		amsn-0_93
 PKGNAME=		${DISTNAME:S/_/./}
 CATEGORIES=		chat
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=amsn/}
@@ -13,8 +13,6 @@ COMMENT=		"Alvaro's MSN messenger client"
 USE_BUILDLINK3=		YES
 NO_CONFIGURE=		YES
 NO_BUILD=		YES
-
-WRKSRC=			${WRKDIR}/msn
 
 SUBST_CLASSES=		fix
 SUBST_STAGE.fix=	post-patch
