@@ -1,7 +1,14 @@
 # $NetBSD$
 #
 
-PKGNAME=	py-twisted-docs-${TWISTED_VERSION}
+DISTNAME=		${TWISTED_DISTNAME}
+PKGNAME=		py-twisted-docs-${TWISTED_VERSION}
+CATEGORIES=		devel net
+MASTER_SITES=		${TWISTED_MASTER_SITES}
+
+MAINTAINER=		dotz@irc.pl
+HOMEPAGE=		http://www.twistedmatrix.com/
+COMMENT=		Framework for writing networked applications
 
 NO_CONFIGURE=	# defined
 NO_BUILD=	# defined
