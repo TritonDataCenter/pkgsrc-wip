@@ -1,3 +1,2 @@
 @comment $NetBSD$
 lib/httpd/mod_${PKGVERSION}.so
-@dirrm lib/httpd
