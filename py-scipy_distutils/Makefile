@@ -11,7 +11,7 @@ MAINTAINER=		dotz@irc.pl
 HOMEPAGE=		http://www.scipy.org/
 COMMENT=		SciPy distutils: standalone package
 
-USE_BUILDLINK2=		yes
+USE_BUILDLINK3=		yes
 PY_PATCHPLIST=		yes
 PYDISTUTILSPKG=		yes
 PYSETUPSUBDIR=		scipy_core/scipy_distutils/
