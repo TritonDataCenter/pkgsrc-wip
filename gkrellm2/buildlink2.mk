@@ -4,7 +4,7 @@
 GKRELLM_BUILDLINK2_MK=	# defined
 
 BUILDLINK_PACKAGES+=			gkrellm
-BUILDLINK_DEPENDS.gkrellm?=		gkrellm>=2.1.9
+BUILDLINK_DEPENDS.gkrellm?=		gkrellm>=2.1.22
 BUILDLINK_PKGSRCDIR.gkrellm?=		../../wip/gkrellm2
 
 EVAL_PREFIX+=	BUILDLINK_PREFIX.gkrellm=gkrellm

@@ -1,6 +1,6 @@
 @comment $NetBSD$
-share/gkrellm2/README
 share/gkrellm2/COPYRIGHT
+share/gkrellm2/README
 ${PKGLOCALEDIR}/locale/cs/LC_MESSAGES/gkrellm.mo
 ${PKGLOCALEDIR}/locale/da/LC_MESSAGES/gkrellm.mo
 ${PKGLOCALEDIR}/locale/de/LC_MESSAGES/gkrellm.mo
