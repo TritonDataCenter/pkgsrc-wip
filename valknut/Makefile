@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	valknut-0.3.5
+DISTNAME=	valknut-0.3.6
 CATEGORIES=	net x11
 MASTER_SITES=	http://download.berlios.de/dcgui/
 EXTRACT_SUFX=	.tar.bz2
@@ -10,7 +10,7 @@ MAINTAINER=	tnn@netilium.org
 HOMEPAGE=	http://dcgui.berlios.de/
 COMMENT=	Direct Connect client using the QT toolkit
 
-DEPENDS+=               dclib>=0.3.5:../../wip/dclib
+DEPENDS+=               dclib>=0.3.6:../../wip/dclib
 BUILD_DEPENDS+=         qt3-tools-3.*:../../x11/qt3-tools
 
 GNU_CONFIGURE=		YES
