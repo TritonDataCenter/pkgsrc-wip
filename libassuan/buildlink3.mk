@@ -15,6 +15,6 @@ BUILDLINK_DEPENDS.libassuan+=	libassuan>=0.6.7
 BUILDLINK_PKGSRCDIR.libassuan?=	../../wip/libassuan
 .endif	# LIBASSUAN_BUILDLINK3_MK
 
-.include "../../wip/libgpg-error/buildlink3.mk"
+.include "../../security/libgpg-error/buildlink3.mk"
 
 BUILDLINK_DEPTH:=     ${BUILDLINK_DEPTH:S/+$//}
