@@ -23,9 +23,6 @@ DEPENDS+=	xchat>=2.0.1:../../chat/xchat2
 DEPENDS+=	gossip>=0.5:../../chat/gossip
 DEPENDS+=	apotheke>=0.2:../../wip/apotheke
 
-USE_X11=	yes
-USE_BUILDLINK2=	yes
-EXTRACT_ONLY=	# empty
 NO_CHECKSUM=	yes
 NO_CONFIGURE=	yes
 NO_BUILD=	yes
