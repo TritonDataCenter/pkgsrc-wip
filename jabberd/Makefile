@@ -25,9 +25,8 @@ OWN_DIRS+=		/var/log/jabberd
 
 CONF_FILES=	${EGDIR}/jabber.xml.conf.default ${PKG_SYSCONFDIR}/jabber.xml
 
-post-configure:
-	${CP} ${WRKSRC}/jabber.xml ${WRKSRC}/jabber.xml.in
-	${RM} ${WRKSRC}/jabber.xml
+post-extract:
+	${MV} ${WRKSRC}/jabber.xml ${WRKSRC}/jabber.xml.in
 
 pre-build:
 	${SED} -e "s|@LIBDIR@|${PREFIX}/lib/jabberd|g" \
