@@ -7,7 +7,7 @@ MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=celestia/}
 
 MAINTAINER=	cesar_catrian@yahoo.com
 HOMEPAGE=	http://www.shatters.net/celestia/
-COMMENT=	Free real time space simulator in three dimensions.
+COMMENT=	Free real time space simulator in three dimensions
 
 USE_BUILDLINK2=	YES
 GNU_CONFIGURE=	YES
