@@ -5,6 +5,7 @@ DISTNAME=	ezbounce-1.04a
 CATEGORIES=	chat
 MASTER_SITES=	http://druglord.freelsd.org/ezbounce/ \
 		http://www.shellcentral.com/downloads/files/
+
 PATCHFILES=	ezb-1.04a-crash-fix-patch
 PATCH_DIST_STRIP=	-p1
 PATCH_SITES=	${MASTER_SITES}
