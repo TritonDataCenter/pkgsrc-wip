@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		Locale-Maketext-Lexicon-0.35
+DISTNAME=		Locale-Maketext-Lexicon-0.36
 PKGNAME=		p5-${DISTNAME}
 CATEGORIES=		misc perl5
 MASTER_SITES=		${MASTER_SITE_PERL_CPAN:=Locale/}
