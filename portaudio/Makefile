@@ -13,7 +13,7 @@ COMMENT=		Portable cross-platform Audio API
 
 HAS_CONFIGURE=		YES
 USE_GNU_TOOLS+=		make
-USE_BUILDLINK2=		YES
+USE_BUILDLINK3=		YES
 
 CONFIGURE_ARGS=		--prefix=${PREFIX}
 EXTRACT_CMD_OPTS.zip=	-aqo
@@ -21,6 +21,6 @@ EXTRACT_CMD_OPTS.zip=	-aqo
 pre-configure:
 	${CHMOD} 755 ${WRKSRC}/configure
 
-.include "../../mk/pthread.buildlink2.mk"
-.include "../../mk/ossaudio.buildlink2.mk"
+.include "../../mk/pthread.buildlink3.mk"
+.include "../../mk/ossaudio.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
