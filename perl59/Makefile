@@ -48,7 +48,7 @@ CONFIGURE_ARGS+=	-Dscriptdir="${PREFIX}/bin"
 CONFIGURE_ARGS+=	-Darchname="${MACHINE_ARCH}-${LOWER_OPSYS}"
 CONFIGURE_ARGS+=	-Doptimize="${CFLAGS}"
 CONFIGURE_ARGS+=	-Dinstallstyle="lib/perl5"
-CONFIGURE_ARGS+=	-Duseithreads="y"
+CONFIGURE_ARGS+=	-Dusethreads="y"
 CONFIGURE_ARGS+=	-Dusedevel="y"
 CONFIGURE_ARGS+=	-Di_malloc="y"
 CONFIGURE_ARGS+=	-Ui_malloc
