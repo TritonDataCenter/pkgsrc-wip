@@ -1,13 +1,13 @@
 $NetBSD$
 
---- jmixer.cpp.in.orig	2003-05-14 12:44:19.000000000 +0200
-+++ jmixer.cpp.in	2003-05-14 12:44:57.000000000 +0200
+--- jmixer.cpp.orig	2003-05-14 12:44:19.000000000 +0200
++++ jmixer.cpp	2003-05-14 12:44:57.000000000 +0200
 @@ -137,7 +137,7 @@
    
    /* can't be nonblocking for correct playing
       but to check if /dev/dsp is free we must use that */
 -  if((dsp=open("/dev/dsp",O_RDWR|O_NONBLOCK))==-1) {
-+  if((dsp=open("@DEVOSSAUDIO@",O_RDWR|O_NONBLOCK))==-1) {
++  if((dsp=open(DEVOSSAUDIO,O_RDWR|O_NONBLOCK))==-1) {
      error("can't open soundcard: %s", strerror(errno));
      return(false);
    } else {
@@ -16,7 +16,7 @@ $NetBSD$
        return(false);
      }
 -    notice("Found soundcard on /dev/dsp");
-+    notice("Found soundcard on @DEVOSSAUDIO@");
++    notice("Found soundcard on "DEVOSSAUDIO);
    }
    
    /* BUFFER FRAGMENTATION
