@@ -9,9 +9,6 @@ MAINTAINER=	minskim@NetBSD.org
 HOMEPAGE=	http://tcl.apache.org/rivet/
 COMMENT=	System for creating dynamic web content via Tcl
 
-DEPENDS+=	apache-1.3.*:../../www/apache
-DEPENDS+=	tcl-[0-9]*:../../lang/tcl
-
 WRKSRC=		${WRKDIR}/tcl-rivet/src
 HAS_CONFIGURE=	yes
 USE_BUILDLINK3=	yes
