@@ -1,4 +1,4 @@
-# $NetBSD: Makefile,v 1.3 2003/03/16 14:02:23 cjep Exp $
+# $NetBSD$
 
 DISTNAME=	rolo-011
 CATEGORIES=	databases
