@@ -10,7 +10,8 @@ HOMEPAGE=	http://www.lam-mpi.org/download/files/
 COMMENT=	Implementation of the Message Passing Interface (MPI) Standard
 
 GNU_CONFIGURE=	YES
+USE_BUILDLINK3=	YES
 USE_GNU_TOOLS+=	make
 
-.include "../../mk/pthread.buildlink2.mk"
+.include "../../mk/pthread.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
