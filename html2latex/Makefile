@@ -1,14 +1,14 @@
 # $NetBSD$
 
-DISTNAME=		html2latex-1.0
-CATEGORIES=		print
-MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=html2latex/}
+.include "../../wip/p5-HTML-Latex/Makefile.common"
 
-MAINTAINER=		reed@reedmedia.net
-HOMEPAGE=		http://html2latex.sourceforge.net/
+CATEGORIES=		print
+
 COMMENT=		HTML to LaTeX converter
 
-DEPENDS+		p5-HTML-Latex-[0-9]*:../../wip/p5-HTML-Latex
+DEPENDS+=		p5-HTML-Latex-${HTML2LATEX_VERSION}:../../wip/p5-HTML-Latex
+
+DISTINFO_FILE=		${.CURDIR}/../../wip/p5-HTML-Latex/distinfo
 
 REPLACE_PERL=		html2latex
 
