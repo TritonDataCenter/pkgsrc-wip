@@ -1,0 +1,4 @@
+@comment $NetBSD$
+${PYSITELIB}/_dbxml.so
+${PYSITELIB}/dbxml.pyc
+${PYSITELIB}/dbxml.pyo
