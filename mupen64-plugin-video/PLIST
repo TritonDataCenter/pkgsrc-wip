@@ -1,2 +1,4 @@
 @comment $NetBSD$
 share/mupen64-base/plugins/tr64gl.so
+@unexec ${RMDIR} %D/share/mupen64-base/plugins 2>/dev/null || ${TRUE}
+@unexec ${RMDIR} %D/share/mupen64-base 2>/dev/null || ${TRUE}

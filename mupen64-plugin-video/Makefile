@@ -16,6 +16,9 @@ USE_X11=	yes
 
 LIBS+=		${PTHREAD_LDFLAGS}
 
+pre-install:
+	${INSTALL_DATA_DIR} ${PREFIX}/share/mupen64-base/plugins
+
 .include "../../devel/SDL/buildlink3.mk"
 .include "../../graphics/Mesa/buildlink3.mk"
 .include "../../x11/gtk/buildlink3.mk"

@@ -21,6 +21,6 @@ share/mupen64-base/roms/fire.bin.gz
 @exec ${MKDIR} %D/share/mupen64-base/scripts
 @dirrm share/mupen64-base/scripts
 @exec ${MKDIR} %D/share/mupen64-base/plugins
-@dirrm share/mupen64-base/plugins
-@dirrm share/mupen64-base
+@unexec ${RMDIR} %D/share/mupen64-base/plugins 2>/dev/null || ${TRUE}
+@unexec ${RMDIR} %D/share/mupen64-base 2>/dev/null || ${TRUE}
 @dirrm share/doc/mupen64-base

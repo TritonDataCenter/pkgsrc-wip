@@ -22,6 +22,9 @@ SUBST_FILES.dsp=    main.c
 SUBST_SED.dsp=	    -e "s,/dev/dsp,${DEVOSSAUDIO},g"
 SUBST_MESSAGE.dsp=  "Fixing harcoded audio device."
 
+pre-install:
+	${INSTALL_DATA_DIR} ${PREFIX}/share/mupen64-base/plugins
+
 .include "../../devel/SDL/buildlink3.mk"
 .include "../../x11/gtk/buildlink3.mk"
 .include "../../mk/ossaudio.buildlink3.mk"
