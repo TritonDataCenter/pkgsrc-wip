@@ -6,7 +6,7 @@ PKGNAME=		vcdgear-1.6e
 CATEGORIES=		sysutils
 MASTER_SITES=		http://www.vcdgear.com/files/
 
-MAINTAINER=		collver1@attbi.com
+MAINTAINER=		collver1@comcast.net
 HOMEPAGE=		http://www.vcdgear.com
 COMMENT=		the video cd toolbox
 

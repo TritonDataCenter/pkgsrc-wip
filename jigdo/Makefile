@@ -6,7 +6,7 @@ CATEGORIES=		misc
 MASTER_SITES=		http://home.in.tum.de/~atterer/jigdo/
 EXTRACT_SUFX=		.tar.bz2
 
-MAINTAINER=		collver1@attbi.com
+MAINTAINER=		collver1@comcast.net
 HOMEPAGE=		http://home.in.tum.de/~atterer/jigdo/
 COMMENT=		download manager and ISO image constructor
 
