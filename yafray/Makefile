@@ -12,7 +12,7 @@ COMMENT=	Yet Another Free Raytracer
 USE_BUILDLINK3=		yes
 USE_LIBTOOL=		yes
 GNU_CONFIGURE=		yes
-USE_GCC_SHLIB=		yes
+USE_LANGUAGES=		c c++
 
 YAFRAYDIR=		${PREFIX}/share/yafray/
 DOCDIR=			${PREFIX}/share/doc/yafray
