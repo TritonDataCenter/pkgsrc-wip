@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.1675 2005/03/04 00:01:08 florian_stoehr Exp $
+# $Id: Makefile,v 1.1676 2005/03/04 12:12:42 hsaliak Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -199,6 +199,7 @@ SUBDIR+=	emboss-phylip
 SUBDIR+=	emboss-topo
 SUBDIR+=	embryo
 SUBDIR+=	emirror
+SUBDIR+=	erc
 SUBDIR+=	epplets
 SUBDIR+=	ethtool
 SUBDIR+=	etpan-ng
