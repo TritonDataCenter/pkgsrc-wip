@@ -68,7 +68,7 @@ do-install:
 	${INSTALL_SCRIPT} ${WRKDIR}/drwebd-bin ${PREFIX}/sbin
 	${INSTALL_SCRIPT} ${WRKDIR}/drweb-sh ${PREFIX}/bin/drweb
 	${INSTALL_SCRIPT} ${WRKDIR}/drwebd-sh ${PREFIX}/sbin/drwebd
-	${INSTALL_SCRIPT} ${WRKDIR}/drweb-update ${PREFIX}/bin
+	${INSTALL_SCRIPT} ${WRKDIR}/drweb-update ${PREFIX}/sbin
 
 	${INSTALL_DATA_DIR} ${EGDIR}
 

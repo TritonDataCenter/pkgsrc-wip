@@ -1,8 +1,8 @@
 @comment $NetBSD$
 bin/drweb
 bin/drweb-bin
-bin/drweb-update
 etc/rc.d/drwebd
+sbin/drweb-update
 sbin/drwebd
 sbin/drwebd-bin
 ${DRW_DOCDIR}/ChangeLog

@@ -5,6 +5,6 @@ Add the similar to following to /etc/services:
   drwebd	3000/tcp	# DrWeb daemon
 
 Add the similar to following to crontab(5) file:
-  0 2 * * *	${PREFIX}/bin/drweb-update
+  0 2 * * *	${PREFIX}/sbin/drweb-update
 
 ===========================================================================
