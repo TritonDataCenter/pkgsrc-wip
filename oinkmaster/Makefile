@@ -11,6 +11,8 @@ COMMENT=	Manage snort rule updates
 
 DEPENDS+=	wget>=1.00:../../net/wget
 
+USE_PERL5=	YES
+
 USE_PKGINSTALL=	YES
 USE_BUILDLINK2=	YES
 
