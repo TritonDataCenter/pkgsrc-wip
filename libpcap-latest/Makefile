@@ -19,8 +19,6 @@ LIBTOOL_LA_FILES+=	lib/libpcap.la
 
 .include "../../mk/bsd.prefs.mk"
 
-# this come from 0.7.2 pcap pkgsrc :
-
 .if ${OPSYS} == "SunOS" || ${OPSYS} == "Linux"
 .  if exists(/usr/include/netinet/ip6.h)
 CONFIGURE_ARGS+=	--enable-ipv6
