@@ -1,5 +1,5 @@
 @comment $NetBSD$
-bin/demo
+bin/korelib_demo
 include/kore/componentproxy.h
 include/kore/componentref.h
 include/kore/componenttrader.h
