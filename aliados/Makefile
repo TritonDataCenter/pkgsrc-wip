@@ -16,8 +16,9 @@ USE_BUILDLINK3=		YES
 NO_CONFIGURE=		YES
 USE_NCURSES=		YES
 
+INSTALLATION_DIRS=	bin
+
 do-install:
-	${INSTALL_PROGRAM_DIR} ${INSTALL_DIR_PROGRAM} ${PREFIX}/bin/
 	${INSTALL_PROGRAM} ${WRKSRC}/aliados ${PREFIX}/bin/
 
 .include "../../devel/ncurses/buildlink3.mk"
