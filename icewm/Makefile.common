@@ -30,7 +30,7 @@ CONFIGURE_ARGS+=	--disable-xinerama
 PKG_SYSCONFSUBDIR=	icewm
 
 .if ${OPSYS} == "FreeBSD" || ${OPSYS} == "NetBSD" || ${OPSYS} == "OpenBSD"
-CPPFLAGS+=		-DSTART_PIXMAP=\"\\\"bsd-daemon.xpm\\\"\"
+CXXFLAGS+=		-DSTART_PIXMAP=\"\\\"bsd-daemon.xpm\\\"\"
 .endif
 .if ${OPSYS} == "NetBSD"
 CONFIGURE_ARGS+= --with-unicode-set=utf-32
@@ -41,7 +41,7 @@ HTMLDIR=		${PREFIX}/share/doc/html/icewm
 INSTALL_TARGET=		install-base install-nls
 
 post-extract:
-	${CP} ${FILES} ${FILESDIR}/bsd-daemon.xpm ${WRKSRC}/lib/taskbar
+	${CP} ${FILESDIR}/bsd-daemon.xpm ${WRKSRC}/lib/taskbar
 
 post-install:
 	${INSTALL_DATA_DIR} ${DOCDIR} ${HTMLDIR}
