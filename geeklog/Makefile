@@ -10,7 +10,7 @@ MAINTAINER=	tech-pkg@NetBSD.org
 HOMEPAGE=	http://www.geeklog.net/
 COMMENT=	Web content management
 
-DEPENDS+=       {ap-php-4.[0-9]*,ap2-php-4.[0-9]*}:../../www/ap-php4
+DEPENDS+=       ap{,2}-php>=4.3.0:../../www/ap-php
 DEPENDS+=	mysql-server-[0-9]*:../../databases/mysql-server
 
 NO_BUILD=	YES
