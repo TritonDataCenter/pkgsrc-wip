@@ -2,7 +2,8 @@
 
 DISTNAME=		autoproject-0.17
 CATEGORIES=		devel
-MASTER_SITES=		http://www.mv.com/ipusers/vanzandt/
+MASTER_SITES=		http://www.mv.com/ipusers/vanzandt/ \
+			http://www.ibiblio.org/pub/Linux/devel/
 
 MAINTAINER=		benedikt.meurer@unix-ag.uni-siegen.de
 HOMEPAGE=		http://www.mv.com/ipusers/vanzandt/
