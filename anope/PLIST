@@ -1,5 +1,6 @@
 @comment $NetBSD$
 share/anope/anoperc
+share/anope/anopesmtp
 share/examples/anope/example.chk
 share/examples/anope/example.conf
 share/anope/languages/cat

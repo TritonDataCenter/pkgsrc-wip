@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	anope-1.7.6
+DISTNAME=	anope-1.7.8
 CATEGORIES=	net
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=anope/}
 
@@ -13,6 +13,7 @@ USE_BUILDLINK3=		YES
 PTHREAD_OPTS+=		require
 USE_PKGINSTALL=		YES
 USE_GNU_TOOLS+=		make
+USE_PERL5=		build
 
 .include "../../mk/bsd.prefs.mk"
 
