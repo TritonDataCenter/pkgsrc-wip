@@ -13,6 +13,7 @@ COMMENT=	Toolkit for Stateful Web Applications
 PYDISTUTILSPKG=	yes
 PY_PATCHPLIST=	yes
 USE_BUILDLINK2=	yes
+USE_PKGINSTALL=	yes
 
 RUNTIME_DIR?=	/var/run/albatross
 LOGDIR?=	/var/log/albatross
@@ -74,5 +75,4 @@ post-install:
 .include "../../lang/python/application.mk"
 .include "../../lang/python/extension.mk"
 
-.include "../../mk/bsd.pkg.install.mk"
 .include "../../mk/bsd.pkg.mk"
