@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.811 2003/12/27 00:19:24 thomasklausner Exp $
+# $Id: Makefile,v 1.812 2003/12/27 02:02:03 thomasklausner Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -351,6 +351,7 @@ SUBDIR+=	mkdep
 SUBDIR+=	mlview
 SUBDIR+=	monkey-bubble
 SUBDIR+=	mopac
+SUBDIR+=	mpgedit
 SUBDIR+=	mplusfonts
 SUBDIR+=	mtf
 SUBDIR+=	muse
