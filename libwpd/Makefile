@@ -12,6 +12,6 @@ USE_BUILDLINK2=	YES
 GNU_CONFIGURE=	YES
 USE_GMAKE=	YES
 
-.include "../../wip/libgsf/buildlink2.mk"
 .include "../../devel/glib2/buildlink2.mk"
+.include "../../devel/libgsf/buildlink2.mk"
 .include "../../mk/bsd.pkg.mk"
