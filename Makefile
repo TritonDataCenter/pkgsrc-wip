@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.492 2003/09/25 04:47:23 xtraeme Exp $
+# $Id: Makefile,v 1.493 2003/09/25 04:56:47 xtraeme Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -85,7 +85,6 @@ SUBDIR+=	devhelp
 SUBDIR+=	dfbpoint
 SUBDIR+=	dfbsee
 SUBDIR+=	dfm
-SUBDIR+=	dgen
 SUBDIR+=	directfb
 SUBDIR+=	directory-administrator
 SUBDIR+=	distella
