@@ -9,3 +9,11 @@ ${RUBY_SITELIBDIR}/misen/style-tex.rb
 ${RUBY_SITELIBDIR}/misen/style.rb
 ${RUBY_SITELIBDIR}/misen/util.rb
 @dirrm ${RUBY_SITELIBDIR}/misen/
+${RUBY_EXAMPLESDIR}/misen/acq-expand.rb
+${RUBY_EXAMPLESDIR}/misen/bookmark.rb
+${RUBY_EXAMPLESDIR}/misen/conditional.rb
+${RUBY_EXAMPLESDIR}/misen/hello-latex.rb
+${RUBY_EXAMPLESDIR}/misen/hello-latex.sh
+${RUBY_EXAMPLESDIR}/misen/hello.rb
+${RUBY_EXAMPLESDIR}/misen/hello.sh
+@dirrm ${RUBY_EXAMPLESDIR}/misen

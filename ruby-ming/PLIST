@@ -1,5 +1,5 @@
 @comment $NetBSD$
-${RUBY_SITEARCHLIBDIR}/ming/ming.so
+${RUBY_SITEARCHLIBDIR}/ming/ming.${RUBY_DLEXT}
 @dirrm ${RUBY_SITEARCHLIBDIR}/ming
 ${RUBY_EXAMPLESDIR}/ming/README
 ${RUBY_EXAMPLESDIR}/ming/action.rb

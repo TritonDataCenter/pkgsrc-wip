@@ -1,7 +1,7 @@
 # $NetBSD$
 
 DISTNAME=	ming-ruby-${VER}
-PKGNAME=	ruby-ming-${VER}
+PKGNAME=	${RUBY_PKGPREFIX}-ming-${VER}
 CATEGORIES=	graphics
 MASTER_SITES=	http://madscientist.jp/~ikegami/sources/
 
@@ -10,13 +10,14 @@ HOMEPAGE=	http://madscientist.jp/~ikegami/ruby/ming/
 COMMENT=	Ruby extension to drive the Ming SWF library
 
 USE_BUILDLINK3=	yes
-
-VER=		0.1.6
 USE_RUBY_SETUP=	yes
+VER=		0.1.6
 
-EXAMPLES=	README action.rb button.rb drag.rb \
-	gradient.rb gradientxform.rb keypress.rb mousetrack.rb \
-	newbutton.rb shape.rb sparks.rb sprite.rb
+EXAMPLES=		README action.rb button.rb drag.rb \
+			gradient.rb gradientxform.rb keypress.rb \
+			mousetrack.rb newbutton.rb shape.rb sparks.rb \
+			sprite.rb
+REPLACE_RUBY_DIRS=	${WRKSRC}/examples
 
 post-install:
 		${INSTALL_DATA_DIR} ${RUBY_EXAMPLESDIR}/ming
@@ -25,6 +26,5 @@ post-install:
 .endfor
 
 .include "../../wip/ming/buildlink3.mk"
-.include "../../lang/ruby-base/Makefile.common"
-.include "../../lang/ruby-base/buildlink3.mk"
+.include "../../lang/ruby/modules.mk"
 .include "../../mk/bsd.pkg.mk"
