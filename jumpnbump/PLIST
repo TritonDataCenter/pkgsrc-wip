@@ -1,0 +1,11 @@
+@comment $NetBSD$
+bin/gobpack
+bin/jnbmenu.tcl
+bin/jnbpack
+bin/jnbunpack
+bin/jumpnbump
+bin/jumpnbump.fbcon
+bin/jumpnbump.svgalib
+man/man6/jumpnbump.6
+share/jumpnbump/jumpbump.dat
+@dirrm share/jumpnbump
