@@ -10,12 +10,12 @@ MAINTAINER=		dotz@irc.pl
 HOMEPAGE=		http://www.gnu.org/software/libiconv/
 COMMENT=		Character set conversion library
 
-USE_BUILDLINK2=		YES
-USE_PKGINSTALL=		YES
-USE_GMAKE=		YES
-GNU_CONFIGURE=		YES
-USE_LIBTOOL=		YES
-USE_CROSSBASE=		YES
+USE_BUILDLINK2=		yes
+USE_GMAKE=		yes
+GNU_CONFIGURE=		yes
+USE_LIBTOOL=		yes
+USE_CROSSBASE=		yes
+
 LIBTOOL_OVERRIDE+=	${WRKSRC}/libtool
 LIBTOOL_OVERRIDE+=	${WRKSRC}/libcharset/libtool
 

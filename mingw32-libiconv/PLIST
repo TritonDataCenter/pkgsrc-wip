@@ -1,5 +1,5 @@
 @comment $NetBSD$
-i586-pc-mingw32/bin/iconv
+i586-pc-mingw32/bin/iconv.exe
 i586-pc-mingw32/include/iconv.h
 i586-pc-mingw32/include/libcharset.h
 i586-pc-mingw32/include/localcharset.h
