@@ -4,7 +4,7 @@
 PKGNAME=		gcc3${GCC3_PKGMODIF}-ada-${GCC_VERSION}-devel
 COMMENT=		GNU Compiler Collection, version 3-${SNAPDATE}, Ada compiler
 
-.include "../../lang/gcc3-c-devel/buildaddon.mk"
+.include "../../wip/gcc3-c-devel/buildaddon.mk"
 
 PTHREAD_OPTS+=  require native
 CONFIGURE_ARGS+=	--enable-languages="ada"
