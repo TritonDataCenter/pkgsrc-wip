@@ -19,6 +19,9 @@ ALL_TARGET=		build
 RCD_SCRIPTS=		xinetd
 CPPFLAGS+=		-DDEFAULT_CONFIG_FILE=\\\"\"${PREFIX}/etc/xinetd.conf\\\"\"
 
+USE_PERL5=YES
+REPLACE_PERL+=	${WRKSRC}/xinetd/xconv.pl
+
 post-install:
 	${INSTALL_DATA_DIR} ${PREFIX}/share/examples/xinetd/
 	${INSTALL_DATA} ${WRKSRC}/contrib/xinetd.conf \
