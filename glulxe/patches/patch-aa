@@ -37,7 +37,7 @@ $NetBSD$
  
  CFLAGS = $(OPTIONS) -I$(GLKINCLUDEDIR)
 -LIBS = -L$(GLKLIBDIR) $(GLKLIB) $(LINKLIBS) 
-+LIBS = -L$(GLKLIBDIR) -W,${RPATH_FLAG}${GLKLIBDIR} $(GLKLIB) $(LINKLIBS) 
++LIBS = -L$(GLKLIBDIR) ${COMPILER_RPATH_FLAG}${GLKLIBDIR} $(GLKLIB) $(LINKLIBS) 
  
  OBJS = main.o files.o vm.o exec.o funcs.o operand.o string.o glkop.o \
    serial.o search.o gestalt.o osdepend.o

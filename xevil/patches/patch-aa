@@ -7,7 +7,7 @@ $NetBSD$
  DEBUG_OPT   =   -O #-DNDEBUG
  
 -LINK_OPT    =	
-+LINK_OPT    =	-Wl,$(RPATH_FLAG)$(X11BASE)/lib
++LINK_OPT    =	$(COMPILER_RPATH_FLAG)$(X11BASE)/lib
  
  # The string that will be used for making the packaged .tar.Z file.
  VERSION     =   2.02r2

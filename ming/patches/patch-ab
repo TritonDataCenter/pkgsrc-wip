@@ -15,7 +15,7 @@ $NetBSD$
  
  mingcmodule.so: ming_wrap.o
 -	gcc -g -Wall -shared -o mingcmodule.so ming_wrap.o -lming
-+	gcc -g -Wall -Wl,${RPATH_FLAG} -shared -o mingcmodule.so ming_wrap.o -lming
++	gcc -g -Wall ${COMPILER_RPATH_FLAG} -shared -o mingcmodule.so ming_wrap.o -lming
  
  mingc.pyd: ming_wrap.o
  	dllwrap --dllname mingc.pyd --driver-name gcc --def mingc.def \

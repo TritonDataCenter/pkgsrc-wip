@@ -7,7 +7,7 @@ $NetBSD$
  CFLAGS = $(WARN) $(OPTIMIZE) -I../include
  #Use the next one for the Alpha/AXP if you need it
 -#LDFLAGS = -L../staticlib 
-+LDFLAGS = -L../sharedlib -Wl,$(RPATH_FLAG)$(PREFIX)/lib
++LDFLAGS = -L../sharedlib $(COMPILER_RPATH_FLAG)$(PREFIX)/lib
  LIBS = -lvga -lm
  
  #----------------------------------------------------------------------
