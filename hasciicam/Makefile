@@ -11,11 +11,11 @@ MAINTAINER=		benedikt.meurer@unix-ag.uni-siegen.de
 HOMEPAGE=		http://ascii.dyne.org/
 COMMENT=		Live ascii video on the web
 
-USE_BUILDLINK2=		YES
+USE_BUILDLINK3=		YES
 GNU_CONFIGURE=		YES
 USE_GNU_TOOLS+=		make
 
 ONLY_FOR_PLATFORM=	Linux-*-*
 
-.include "../../graphics/aalib/buildlink2.mk"
+.include "../../graphics/aalib/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
