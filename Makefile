@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.660 2003/11/24 17:29:02 cubidou Exp $
+# $Id: Makefile,v 1.661 2003/11/25 01:34:51 minskim Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -496,6 +496,7 @@ SUBDIR+=	sysklogd
 SUBDIR+=	syslog-ng
 SUBDIR+=	sysvinit
 SUBDIR+=	tcc
+SUBDIR+=	tei
 SUBDIR+=	tendra
 SUBDIR+=	tetrinet
 SUBDIR+=	tetrinetx
