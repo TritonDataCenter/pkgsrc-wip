@@ -17,7 +17,7 @@ NO_BUILD=		yes
 SUBST_CLASSES=		fix
 SUBST_STAGE.fix=	post-patch
 SUBST_FILES.fix=	modules/doctools/mpformats/_html.tcl
-SUBST_SED.fix=		-e "s,@FETCH_CMD@,${FETCH_CMD},g"
+SUBST_SED.fix=		-e "s,/usr/bin/wget -q -O,${FETCH_CMD} -V -o,g"
 SUBST_MESSAGE.fix=	"Fixing hardcoded ftp binary"
 
 post-patch:
