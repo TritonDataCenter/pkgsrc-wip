@@ -1,7 +1,7 @@
 # $NetBSD$
 
-DISTNAME=	spamprobe-0.9g2
-PKGNAME=	spamprobe-pbl-0.9g2
+DISTNAME=	spamprobe-0.9h
+PKGNAME=	spamprobe-pbl-0.9h
 CATEGORIES=	mail
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=spamprobe/}
 
