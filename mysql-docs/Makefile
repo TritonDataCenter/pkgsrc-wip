@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		manual-split
-PKGNAME=		mysql-doc-0
+PKGNAME=		mysql-docs-0
 WRKSRC=			${WRKDIR}
 CATEGORIES=		misc
 MASTER_SITES=		http://mysql.belnet.be/Downloads/Manual/
