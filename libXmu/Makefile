@@ -22,4 +22,6 @@ USE_GNU_TOOLS+=		make
 .include "../../wip/libX11/buildlink2.mk"
 .include "../../wip/xextensions/buildlink2.mk"
 .include "../../wip/xproto/buildlink2.mk"
+.include "../../mk/pthread.buildlink2.mk"
+
 .include "../../mk/bsd.pkg.mk"
