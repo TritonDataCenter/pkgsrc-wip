@@ -3,7 +3,7 @@
 
 DISTNAME=		gnome-themes-2.2
 PKGNAME=		${DISTNAME:S/gnome/gnome2/}
-CATEGORIES=		wip
+CATEGORIES=		x11
 MASTER_SITES=		${MASTER_SITE_GNOME:=sources/gnome-themes/2.2/}
 EXTRACT_SUFX=		.tar.bz2
 
