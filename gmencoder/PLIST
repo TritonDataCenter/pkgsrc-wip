@@ -1,0 +1,6 @@
+@comment $NetBSD$
+bin/gmencoder
+${PKGLOCALEDIR}/locale/es/LC_MESSAGES/gmencoder.mo
+share/pixmaps/gmencoder/media-pause.png
+share/pixmaps/gmencoder/media-play.png
+@dirrm share/pixmaps/gmencoder
