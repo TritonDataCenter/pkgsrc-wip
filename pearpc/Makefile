@@ -10,8 +10,6 @@ MAINTAINER=		dotz@irc.pl
 HOMEPAGE=		http://pearpc.sourceforge.net/
 COMMENT=		PowerPC emulator
 
-ONLY_FOR_PLATFORMS=	NetBSD-*-* Linux-*-i386
-
 GNU_CONFIGURE=		yes
 USE_BUILDLINK3=		yes
 USE_PKGINSTALL=		yes
