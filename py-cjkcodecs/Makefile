@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	cjkcodecs-1.0.1
+DISTNAME=	cjkcodecs-1.0.2
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	converters
 MASTER_SITES=	http://download.berlios.de/cjkpython/
