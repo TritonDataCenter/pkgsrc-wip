@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		jigdo-0.6.9
+DISTNAME=		jigdo-0.7.0
 CATEGORIES=		misc
 MASTER_SITES=		http://home.in.tum.de/~atterer/jigdo/
 EXTRACT_SUFX=		.tar.bz2
