@@ -1,11 +1,11 @@
 # $NetBSD$
 #
 
-DISTNAME=	dmidecode-2.3
+DISTNAME=	dmidecode-2.4
 CATEGORIES=	sysutils
 MASTER_SITES=	http://savannah.gnu.org/download/dmidecode/
 
-MAINTAINER=	tech-pkg@NetBSD.org
+MAINTAINER=	shattered@users.sourceforge.net
 HOMEPAGE=	http://www.nongnu.org/dmidecode/
 COMMENT=	Print out DMI (SMBIOS) table in human-readable format
 
