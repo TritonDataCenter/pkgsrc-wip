@@ -7,7 +7,7 @@ MASTER_SITES=	${HOMEPAGE}
 
 MAINTAINER=	charlie@rubberduck.com
 HOMEPAGE=	http://gael.roualland.free.fr/ifstat/
-COMMENT=	iftat is a tool to report network interfaces bandwith.
+COMMENT=	ifstat is a tool to report network interfaces bandwidth.
 
 USE_BUILDLINK3=	YES
 GNU_CONFIGURE=	YES
