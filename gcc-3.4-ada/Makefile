@@ -13,7 +13,7 @@ HOMEPAGE=	http://www.gnu.org/software/gcc/gcc.html
 COMMENT=	This is the developmental gcc 3.4 Ada compiler
 
 GCC_VERSION=	3.4
-SNAPDATE=	20040303
+SNAPDATE=	20040310
 
 USE_BUILDLINK3=		YES
 USE_PKGINSTALL=		YES
