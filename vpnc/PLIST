@@ -4,5 +4,6 @@ bin/vpnc-connect
 bin/vpnc-disconnect
 man/man8/vpnc.8
 share/doc/vpnc/README
-share/doc/vpnc/vpnc.conf
+share/examples/vpnc/vpnc.conf
+@dirrm share/examples/vpnc
 @dirrm share/doc/vpnc
