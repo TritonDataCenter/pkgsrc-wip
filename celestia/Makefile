@@ -2,21 +2,26 @@
 #
 
 DISTNAME=	celestia-1.3.0
-CATEGORIES=	x11
+CATEGORIES=	misc x11
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=celestia/}
 
 MAINTAINER=	cesar_catrian@yahoo.com
 HOMEPAGE=	http://www.shatters.net/celestia/
-COMMENT=	Free real time space simulator in three dimensions
+COMMENT=	Free real-time 3D space simulator
 
 USE_BUILDLINK2=	YES
 GNU_CONFIGURE=	YES
 USE_GMAKE=	YES
 USE_X11=	YES
 
-.include "../../x11/gtkglarea/buildlink2.mk"
-.include "../../graphics/glut/buildlink2.mk"
+CONFIGURE_ARGS+=	--includedir=${PREFIX}/include
+CONFIGURE_ARGS+=	--with-lua=${BUILDLINK_PREFIX.lua}
+CONFIGURE_ARGS+=	--without-gtk
+CONFIGURE_ARGS+=	--without-kde
+
+.include "../../graphics/Mesa/buildlink2.mk"
 .include "../../graphics/jpeg/buildlink2.mk"
 .include "../../graphics/png/buildlink2.mk"
+.include "../../lang/lua/buildlink2.mk"
 
 .include "../../mk/bsd.pkg.mk"
