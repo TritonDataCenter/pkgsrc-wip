@@ -7,7 +7,7 @@ WRKSRC=		${WRKDIR}/tuxmath
 CATEGORIES=	games math
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=tuxmath/}
 
-MAINTAINER=	packages@netbsd.org
+MAINTAINER=	reed@reedmedia.net
 HOMEPAGE=	http://www.newbreedsoftware.com/tuxmath/
 COMMENT=	educational math arcade game
 
