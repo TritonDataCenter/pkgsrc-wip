@@ -51,6 +51,7 @@ do-install:
 	${INSTALL_DATA_DIR} ${MSFDIR}/data
 	${INSTALL_DATA_DIR} ${MSFDIR}/encoders
 	${INSTALL_DATA_DIR} ${MSFDIR}/exploits
+	${INSTALL_DATA_DIR} ${MSFDIR}/extras
 	${INSTALL_DATA_DIR} ${MSFDIR}/lib
 	${INSTALL_DATA_DIR} ${MSFDIR}/nops
 	${INSTALL_DATA_DIR} ${MSFDIR}/payloads
@@ -63,6 +64,7 @@ do-install:
 	${INSTALL_DATA} ${WRKSRC}/data/* ${MSFDIR}/data
 	${INSTALL_DATA} ${WRKSRC}/encoders/*.pm ${MSFDIR}/encoders
 	${INSTALL_DATA} ${WRKSRC}/exploits/*.pm ${MSFDIR}/exploits
+	${INSTALL_DATA} ${WRKSRC}/extras/*.tar.gz ${MSFDIR}/extras
 
 	cd ${PREFIX}/share/doc && ${LN} -s ${MSFDIR}/docs msf
 	cd ${WRKSRC}/lib && ${PAX} -rw . ${MSFDIR}/lib
