@@ -55,13 +55,11 @@ pre-install:
 	strip ${WRKSRC}/build*/exim_lock
 
 post-build:
-	${SED} -e 's:@PREFIX@:${PREFIX}:' \
-		${FILESDIR}/mailer.conf.exim \
+	@${SED} ${FILES_SUBST_SED} ${FILESDIR}/mailer.conf.exim \
 		> ${WRKDIR}/mailer.conf
 
 post-install:
-	${SED} -e 's:@PREFIX@:${PREFIX}:' \
-		${FILESDIR}/exim_newaliases
+	@${SED} ${FILES_SUBST_SED} ${FILESDIR}/exim_newaliases
 		> ${PREFIX}/sbin/exim_newaliases
 	${CHMOD} ugo+x ${PREFIX}/sbin/exim_newaliases
 	${INSTALL_DATA} ${WRKDIR}/mailer.conf ${EGDIR}
