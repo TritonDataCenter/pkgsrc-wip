@@ -1,8 +1,9 @@
 @comment $NetBSD$
-lib/gtk-2.0/2.2.0/engines/libdwerg.so
-lib/gtk-2.0/2.2.0/engines/libdwerg.la
-lib/gtk-2.0/2.2.0/engines/libdwerg.a
-share/themes/dwerg/gtk-2.0/gtkrc
+lib/gtk-2.0/2.4.0/engines/libdwerg.a
+lib/gtk-2.0/2.4.0/engines/libdwerg.la
+lib/gtk-2.0/2.4.0/engines/libdwerg.so
 share/themes/dwerg/README
+share/themes/dwerg/gtk-2.0/gtkrc
 @dirrm share/themes/dwerg/gtk-2.0
 @dirrm share/themes/dwerg
+@comment in gtk2: @dirrm lib/gtk-2.0/2.4.0/engines

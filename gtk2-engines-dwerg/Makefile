@@ -10,10 +10,10 @@ MAINTAINER=		dotz@irc.pl
 HOMEPAGE=		http://art.gnome.org/
 COMMENT=		Theme engine for GTK+ 2.x
 
-USE_BUILDLINK2=		YES
+USE_BUILDLINK3=		YES
 USE_LIBTOOL=		YES
 USE_GNU_TOOLS+=		make
 GNU_CONFIGURE=		YES
 
-.include "../../x11/gtk2/buildlink2.mk"
+.include "../../x11/gtk2/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

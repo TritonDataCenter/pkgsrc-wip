@@ -1,7 +1,7 @@
 @comment $NetBSD$
-lib/gtk-2.0/2.2.0/engines/libindustrial.a
-lib/gtk-2.0/2.2.0/engines/libindustrial.la
-lib/gtk-2.0/2.2.0/engines/libindustrial.so
+lib/gtk-2.0/2.4.0/engines/libindustrial.a
+lib/gtk-2.0/2.4.0/engines/libindustrial.la
+lib/gtk-2.0/2.4.0/engines/libindustrial.so
 share/themes/Industrial/gtk-2.0/gtkrc
 share/themes/Industrial/gtk-2.0/stock_apply.png
 share/themes/Industrial/gtk-2.0/stock_bottom-16.png
@@ -27,3 +27,4 @@ share/themes/Industrial/gtk-2.0/stock_up-16.png
 share/themes/Industrial/gtk-2.0/stock_up.png
 @dirrm share/themes/Industrial/gtk-2.0
 @dirrm share/themes/Industrial
+@comment in gtk2: @dirrm lib/gtk-2.0/2.4.0/engines

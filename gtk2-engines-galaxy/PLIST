@@ -1,7 +1,8 @@
 @comment $NetBSD$
-lib/gtk-2.0/2.2.0/engines/libgalaxy.so
-lib/gtk-2.0/2.2.0/engines/libgalaxy.la
-lib/gtk-2.0/2.2.0/engines/libgalaxy.a
+lib/gtk-2.0/2.4.0/engines/libgalaxy.a
+lib/gtk-2.0/2.4.0/engines/libgalaxy.la
+lib/gtk-2.0/2.4.0/engines/libgalaxy.so
 share/themes/Galaxy/gtk-2.0/gtkrc
 @dirrm share/themes/Galaxy/gtk-2.0
 @dirrm share/themes/Galaxy
+@comment in gtk2: @dirrm lib/gtk-2.0/2.4.0/engines
