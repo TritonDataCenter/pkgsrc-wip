@@ -18,7 +18,7 @@ NO_CONFIGURE=	yes
 NO_CHECKSUM=	yes
 NO_BUILD=	yes
 
-CONF_FILES=	${PKG_SYSCONFDIR}/apstget.conf
+CONF_FILES=	apstget.conf ${PKG_SYSCONFDIR}/apstget.conf
 
 do-extract:
 	@${CP} -R ${FILESDIR} ${WRKSRC}
