@@ -8,7 +8,7 @@ CATEGORIES=			wip
 MASTER_SITES=		http://www.panix.com/~gesslein/
 EXTRACT_SUFX=		.tgz
 
-MAINTAINER=			adam@monkeybyte.org
+MAINTAINER=			bjan+pkgsrc@bjan.net
 HOMEPAGE=			http://www.panix.com/~gesslein/
 COMMENT=			Small portable symbolic math program
 
