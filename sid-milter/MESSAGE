@@ -14,7 +14,4 @@ At a minmium you will need to specify:
 in your /etc/rc.conf.
 
 For security you may also wish to investigate the use of "-u userid".
-
-THIS IS PRE-RELEASE SOFTWARE, and should not be used in any critical 
-production environments.
 ===========================================================================
