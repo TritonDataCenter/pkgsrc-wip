@@ -6,7 +6,7 @@ CATEGORIES=	mail perl5
 MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=Object/}
 
 MAINTAINER=	adrianp@stindustries.net
-HOMEPAGE=	http://perl.overmeer.net/
+HOMEPAGE=	http://search.cpan.org/dist/Object-Realize-Later/
 COMMENT=	Delayed creation of objects
 
 DEPENDS+=	p5-Scalar-List-Utils-[0-9]*:../../devel/p5-Scalar-List-Utils
