@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.1175 2004/04/06 14:19:50 jmmv Exp $
+# $Id: Makefile,v 1.1176 2004/04/06 17:21:57 xtraeme Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -272,8 +272,6 @@ SUBDIR+=	jdk12-openjit
 SUBDIR+=	jdk13
 SUBDIR+=	jdk13-openjit
 SUBDIR+=	kadu
-SUBDIR+=	kaffe
-SUBDIR+=	kaffe-nox11
 SUBDIR+=	kahakai
 SUBDIR+=	kannel-gateway
 SUBDIR+=	kapital
