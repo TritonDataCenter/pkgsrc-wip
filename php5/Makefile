@@ -21,3 +21,4 @@ post-install:
 		${PREFIX}/etc/php.ini
 
 .include "Makefile.common"
+.include "../../mk/bsd.pkg.mk"
