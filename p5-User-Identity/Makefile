@@ -11,7 +11,9 @@ COMMENT=	Define a person
 
 DEPENDS+=	p5-Geography-Countries-[0-9]*:../../misc/p5-Geography-Countries
 
-USE_BUILDLINK2=	YES
+PKG_INSTALLATION_TYPES=	overwrite pkgviews
+
+USE_BUILDLINK3=	YES
 PERL5_PACKLIST=	${PERL5_SITEARCH}/auto/User/Identity/.packlist
 
 .include "../../lang/perl5/module.mk"
