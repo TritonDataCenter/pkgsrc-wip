@@ -21,4 +21,9 @@ SUBST_STAGE.ooo=pre-build
 SUBST_FILES.ooo=proxychains/Makefile
 SUBST_SED.ooo=-e s!OBJEXT\ =!OBJEXT=o!
 
+SUBST_CLASSES+=pfx
+SUBST_STAGE.pfx=pre-build
+SUBST_FILES.pfx=proxychains/main.c
+SUBST_SED.pfx=-e s!/usr!${PREFIX}!
+
 .include "../../mk/bsd.pkg.mk"
