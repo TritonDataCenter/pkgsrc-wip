@@ -10,5 +10,4 @@ USE_BUILDLINK2=		YES
 
 CONFIGURE_ARGS+=	--enable-exif=shared,${BUILDLINK_PREFIX.exif}
 
-.include "../../graphics/libexif/buildlink2.mk"
 .include "../../mk/bsd.pkg.mk"
