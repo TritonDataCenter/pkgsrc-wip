@@ -14,8 +14,7 @@ CONFLICTS=	elvis-[0-9]*
 
 HAS_CONFIGURE=		YES
 USE_X11=		YES
-USE_X11BASE=		YES
 CONFIGURE_ARGS+=	--with-x=yes
-CONFIGURE_ARGS+=	--prefix=${X11PREFIX}
+CONFIGURE_ARGS+=	--prefix=${PREFIX}
 
 .include "../../mk/bsd.pkg.mk"
