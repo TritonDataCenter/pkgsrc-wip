@@ -10,7 +10,7 @@ MAINTAINER=	tech-pkg@NetBSD.org
 HOMEPAGE=	http://websvn.tigris.org/
 COMMENT=	Subversion repository web frontend
 
-BUILD_DEPENDS+=	{apache-[0-9]*,apache6-[0-9]*,apache2-[0-9]*}
+BUILD_DEPENDS+=	{apache-[0-9]*,apache6-[0-9]*,apache2-[0-9]*}:../../www/apache2
 BUILD_DEPENDS+=	ap-php-[0-9]*:../../www/ap-php4
 
 WRKSRC=		${WRKDIR}/WebSVN
