@@ -21,7 +21,7 @@ PYTHON_VERSIONS_ACCEPTED=	23 22 23pth 22pth
 ###########################################################################
 # WARNING!
 # 
-# this is only temporary solution because of braindead buildlink2.mk
+# this is only temporary solution because of braindead buildlink3.mk
 # "autoconfiguration"; on 1.6.1-stable system this will _not_ build just
 # because -stable has too old pcap library.
 ###########################################################################
