@@ -19,7 +19,7 @@ DEPENDS+=	jakarta-log4j>=1.2.8:../../wip/jakarta-log4j
 SITES_argo_elmuth.jar= http://elmuth.tigris.org/files/documents/312/573/
 SITES_xalan-java1.jar= http://elmuth.tigris.org/files/documents/312/574/
 
-USE_BUILDLINK2=		yes
+USE_BUILDLINK3=	yes
 USE_JAVA=	run
 USE_X11=	yes
 NO_CONFIGURE=	yes
