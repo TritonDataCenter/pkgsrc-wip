@@ -9,7 +9,6 @@ CONFLICTS=		{mysql-client-[0-9]*,mysql3-client-[0-9]*}
 .include "Makefile.common"
 
 CONFIGURE_ARGS+=	--without-server
-CONFIGURE_ARGS+=        --with-openssl
 USE_BUILDLINK2=		YES
 
 USE_NEW_TEXINFO=	YES
@@ -21,5 +20,4 @@ post-install:
 	${INSTALL_DATA} ${WRKSRC}/Docs/mysql.info ${PREFIX}/info
 
 .include "../../devel/readline/buildlink2.mk"
-.include "../../security/openssl/buildlink2.mk"
 .include "../../mk/bsd.pkg.mk"
