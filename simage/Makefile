@@ -1,5 +1,4 @@
 # $NetBSD$
-#
 
 DISTNAME=		simage-1.6.0
 CATEGORIES=		graphics
@@ -7,7 +6,7 @@ MASTER_SITES=		ftp://ftp.coin3d.org/pub/coin/src/
 
 MAINTAINER=		pkgsrc@bjan.freeshell.org
 HOMEPAGE=		http://www.coin3d.org/
-COMMENT=		Library for importing audio and image files
+COMMENT=		Library for image format loaders and front-ends
 
 GNU_CONFIGURE=		yes
 CONFIGURE_ARGS=		--with-ungif --with-jpeg --with-png \
