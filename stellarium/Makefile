@@ -9,9 +9,9 @@ MAINTAINER=		dotz@irc.pl
 HOMEPAGE=		http://stellarium.free.fr/
 COMMENT=		Generate photorealistic skys with OpenGL
 
-USE_BUILDLINK2=		yes
+USE_BUILDLINK3=		yes
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 
-.include "../../devel/SDL/buildlink2.mk"
+.include "../../devel/SDL/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

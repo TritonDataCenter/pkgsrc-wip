@@ -12,12 +12,12 @@ COMMENT=	Simple presentation viewer that uses the DirectFB
 
 ONLY_FOR_PLATFORM=     Linux-*-*
 
-USE_BUILDLINK2=		yes
+USE_BUILDLINK3=		yes
 USE_LIBTOOL=		yes
 GNU_CONFIGURE=		yes
 USE_GNU_TOOLS+=		make
 
-.include "../../wip/directfb/buildlink2.mk"
-.include "../../devel/glib2/buildlink2.mk"
+.include "../../wip/directfb/buildlink3.mk"
+.include "../../devel/glib2/buildlink3.mk"
 
 .include "../../mk/bsd.pkg.mk"

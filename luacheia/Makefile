@@ -10,6 +10,7 @@ HOMEPAGE=		http://luacheia.sourceforge.net/
 COMMENT=		Extension libraries for LUA
 
 GNU_CONFIGURE=	YES
+USE_BUILDLINK3=	YES
 USE_GNU_TOOLS+=	make
 USE_X11=	YES
 CPPFLAGS+=	"-I${PREFIX}/include"
@@ -17,6 +18,6 @@ CPPFLAGS+=	"-I/usr/X11R6/include"
 LDFLAGS+=	"-L${PREFIX}/lib"
 LDFLAGS+=	"-L/usr/X11R6/lib"
 
-.include "../../graphics/Mesa/buildlink2.mk"
-.include "../../devel/SDL/buildlink2.mk"
+.include "../../graphics/Mesa/buildlink3.mk"
+.include "../../devel/SDL/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
