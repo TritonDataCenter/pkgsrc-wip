@@ -1,0 +1,10 @@
+@comment $NetBSD$
+bin/fcpchk
+bin/fcpdel
+bin/fcpget
+bin/fcpgetsite
+bin/fcphello
+bin/fcpkey
+bin/fcpput
+bin/fcpputsite
+bin/freenet-tools
