@@ -11,7 +11,7 @@ PKG_OPTIONS_VAR=	PKG_OPTIONS.unrealircd
 PKG_SUPPORTED_OPTIONS=	inet6 nospoof hub leaf ziplinks remoteinc ssl
 
 .if !defined(PKG_OPTIONS.unrealircd)
-PKG_DEFAULT_OPTIONS+=	hub
+PKG_DEFAULT_OPTIONS+=	hub nospoof
 .endif
 
 .include "../../mk/bsd.options.mk"
