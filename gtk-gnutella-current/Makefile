@@ -11,8 +11,7 @@ COMMENT=		GTK-based gnutella client, CVS snapshot
 
 USE_BUILDLINK3=		yes
 USE_GNU_TOOLS+=		make
-BUILD_USES_MSGFMT=	yes
-_USE_GNU_GETTEXT=	yes
+BUILD_DEPENDS+=		../../devel/gettext
 USE_PKGLOCALEDIR=	yes
 USE_X11=		yes
 HAS_CONFIGURE=		yes
