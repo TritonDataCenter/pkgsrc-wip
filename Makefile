@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.1063 2004/03/09 00:32:35 poppnk Exp $
+# $Id: Makefile,v 1.1064 2004/03/09 13:15:05 mpasternak Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -707,6 +707,7 @@ SUBDIR+=	xlibs
 SUBDIR+=	xmail
 SUBDIR+=	xmms-dumb
 SUBDIR+=	xmms-pitch
+SUBDIR+=	xmms-wip
 SUBDIR+=	xmmsctrl
 SUBDIR+=	xpde
 SUBDIR+=	xpdq
