@@ -1,0 +1,5 @@
+@comment $NetBSD$
+bin/dnswalk
+bin/makereports
+bin/sendreports
+man/man1/dnswalk.1
