@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.1534 2004/11/12 20:21:52 lexort Exp $
+# $Id: Makefile,v 1.1535 2004/11/12 22:47:31 xmor61 Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -732,6 +732,7 @@ SUBDIR+=	speedx
 SUBDIR+=	spfmilter
 SUBDIR+=	srvx
 SUBDIR+=	stmpclean
+SUBDIR+=	stonx
 SUBDIR+=	streamripper
 SUBDIR+=	stunnel3
 SUBDIR+=	sudoscript
