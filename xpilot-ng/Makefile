@@ -11,9 +11,7 @@ COMMENT=	Enhanced version of XPilot network space battle
 
 CONFLICTS+=	xpilot-[0-9]*
 USE_BUILDLINK3=	yes
-USE_GNU_TOOLS+=	make
 USE_X11=	yes
 GNU_CONFIGURE=	yes
 
-.include "../../textproc/expat/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
