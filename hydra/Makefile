@@ -1,8 +1,8 @@
 # $NetBSD$
 #
 
-DISTNAME=	hydra-4.5-src
-PKGNAME=	hydra-4.5
+DISTNAME=	${PKGNAME}-src
+PKGNAME=	hydra-4.6
 WRKSRC=		${WRKDIR}/${DISTNAME}
 CATEGORIES=	security
 MASTER_SITES=	http://www.thc.org/releases/
