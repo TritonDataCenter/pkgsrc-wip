@@ -9,7 +9,7 @@ MAINTAINER=	shattered@users.sourceforge.net
 HOMEPAGE=	http://www.nongnu.org/dmidecode/
 COMMENT=	Print out DMI (SMBIOS) table in human-readable format
 
-USE_BUILDLINK3=		yes
+NO_BUILDLINK=	YES
 USE_GNU_TOOLS+=		make
 ONLY_FOR_PLATFORM=	*-*-i386 *-*-x86
 
