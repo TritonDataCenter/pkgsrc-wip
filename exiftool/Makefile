@@ -1,7 +1,7 @@
 # $NetBSD$
 
-DISTNAME=	Image-ExifTool-3.50
-PKGNAME=	exiftool-3.50
+DISTNAME=	Image-ExifTool-3.60
+PKGNAME=	exiftool-3.60
 CATEGORIES=	graphics perl5
 MASTER_SITES=	http://owl.phy.queensu.ca/~phil/exiftool/
 
