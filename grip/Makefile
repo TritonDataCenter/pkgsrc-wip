@@ -7,10 +7,10 @@ MASTER_SITES=	http://www.nostatic.org/grip/
 
 MAINTAINER=	jrp@hispabsd.org
 HOMEPAGE=	http://www.nostatic.org/grip/
-COMMENT=	cd-player and cd-ripper for the Gnome desktop
+COMMENT=	CD-player and CD-ripper for the GNOME desktop
 
-DEPENDS+=	gnome1-dirs>=1.0:../../misc/gnome1-dirs
 BUILD_USES_MSGFMT=	yes
+DEPENDS+=		gnome1-dirs>=1.2:../../misc/gnome1-dirs
 
 USE_BUILDLINK2=		yes
 USE_PKGLOCALEDIR=	yes
