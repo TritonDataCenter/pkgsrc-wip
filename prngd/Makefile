@@ -11,7 +11,7 @@ MASTER_SITES=		ftp://ftp.aet.tu-cottbus.de/pub/postfix_tls/related/prngd/ \
 			http://planetmirror.com/pub/solaris-random/prngd/ \
 			ftp://planetmirror.com/pub/solaris-random/prngd/
 
-MAINTAINER=		tech-pkg@netbsd.org
+MAINTAINER=		tech-pkg@NetBSD.org
 HOMEPAGE=		http://www.aet.tu-cottbus.de/personen/jaenicke/postfix_tls/prngd.html
 COMMENT=		Pseudo Random Number Generator Daemon
 

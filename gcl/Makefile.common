@@ -5,7 +5,7 @@ DISTNAME?=		gcl-2.5.3
 CATEGORIES?=		lang
 MASTER_SITES?=		ftp://ftp.gnu.org/pub/gnu/gcl/
 
-MAINTAINER?=		tech-pkg@netbsd.org
+MAINTAINER?=		tech-pkg@NetBSD.org
 HOMEPAGE?=		http://www.gnu.org/software/gcl/gcl.html
 COMMENT?=		GNU Common Lisp
 
