@@ -1,0 +1,13 @@
+$NetBSD$
+
+--- conf/mix.cfg.server.orig	Mon Aug 18 15:27:26 2003
++++ conf/mix.cfg.server
+@@ -29,8 +29,6 @@ SENDPOOL	1h
+ IDEXP		7d
+ PACKETEXP	7d
+ 
+-SENDMAIL	/usr/lib/sendmail -t
+-
+ # Where to log error messages:
+ ERRLOG		error.log
+ 
