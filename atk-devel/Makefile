@@ -15,6 +15,7 @@ USE_GNU_TOOLS+=		make
 GNU_CONFIGURE=		yes
 USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=		yes
+LIBTOOL_OVERRIDE=	${WRKSRC}/ltmain.sh ${WRKSRC}/libtool
 PKGCONFIG_OVERRIDE=	${WRKSRC}/atk.pc.in
 
 CONFIGURE_ARGS+=	--enable-gtk-doc=no
