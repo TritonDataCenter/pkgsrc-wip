@@ -15,5 +15,5 @@ USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 USE_GNU_TOOLS+=         make
 
-.include "../libgpg-error/buildlink3.mk"
+.include "../../security/libgpg-error/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
