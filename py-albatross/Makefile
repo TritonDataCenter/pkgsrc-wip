@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	albatross-1.10pre2
+DISTNAME=	albatross-1.10
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	www python
 MASTER_SITES=	http://www.object-craft.com.au/projects/albatross/download/
