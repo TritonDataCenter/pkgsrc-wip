@@ -1,7 +1,7 @@
 # $NetBSD$
 
 DISTNAME=	dtd
-PKGNAME=	tei-p4
+PKGNAME=	tei-4
 WRKSRC=		${WRKDIR}
 CATEGORIES=	textproc
 MASTER_SITES=	http://www.tei-c.org/P4X/DTD/
