@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.508 2003/09/28 13:08:16 adrian_p Exp $
+# $Id: Makefile,v 1.509 2003/09/29 12:26:20 marc Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -347,6 +347,7 @@ SUBDIR+=	py-spark
 SUBDIR+=	py-spreadmodule
 SUBDIR+=	py-twisted
 SUBDIR+=	py23-html-docs
+SUBDIR+=	pysite
 SUBDIR+=	q3-urbanterror
 SUBDIR+=	qico
 SUBDIR+=	qinx
