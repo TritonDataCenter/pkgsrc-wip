@@ -76,7 +76,6 @@ man/man1/ktelnet.1
 man/man1/kv4rcp.1
 man/man1/kvno.1
 man/man1/sclient.1
-man/man1/tmac.doc
 man/man1/v5passwd.1
 man/man5/.k5login.5
 man/man5/kdc.conf.5
