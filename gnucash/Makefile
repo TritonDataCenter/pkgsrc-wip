@@ -73,7 +73,7 @@ GNUCASH_GUILE_MAKEFILE_IN_FILES= \
 .include "../../devel/gal/buildlink3.mk"
 .include "../../devel/glib/buildlink3.mk"
 .include "../../print/gnome-print/buildlink3.mk"
-.include "../../wip/g-wrap2/buildlink3.mk"
+.include "../../devel/g-wrap/buildlink3.mk"
 .include "../../devel/libglade/buildlink3.mk"
 .include "../../devel/pkgconfig/buildlink3.mk"
 .include "../../devel/popt/buildlink3.mk"
