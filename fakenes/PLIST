@@ -1,0 +1,4 @@
+@comment $NetBSD$
+bin/fakenes
+share/fakenes/fakenes.dat
+@dirrm share/fakenes
