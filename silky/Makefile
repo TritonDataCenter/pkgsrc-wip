@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	silky-0.4.3
+DISTNAME=	silky-0.5.0
 CATEGORIES=	chat security
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=silky/}
 
@@ -20,6 +20,7 @@ USE_PKGLOCALEDIR=	YES
 CONFIGURE_ARGS+=	--with-silc-includes=${BUILDLINK_PREFIX.silc-toolkit}/include/silc-toolkit
 CONFIGURE_ARGS+=	--with-silc-libs=${BUILDLINK_PREFIX.silc-toolkit}/lib/silc-toolkit
 CONFIGURE_ARGS+=	--with-docdir=${PREFIX}/share/doc/silky
+CONFIGURE_ARGS+=	--with-included-gettext
 
 .include "../../x11/gtk2/buildlink2.mk"
 .include "../../devel/libglade2/buildlink2.mk"
