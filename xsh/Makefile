@@ -10,7 +10,7 @@ MAINTAINER=	pancake@phreaker.net
 HOMEPAGE=	http://xsh.sourceforge.net/
 COMMENT=	XML Editing Shell
 
-DEPENDS+=	p5-Parse-RedDescent>=1.94:../../devel/p5-Parse-RedDescent
+DEPENDS+=	p5-Parse-RecDescent>=1.94:../../devel/p5-Parse-RecDescent
 DEPENDS+=	p5-Term-ReadLine>=1.12:../../devel/p5-Term-ReadLine
 DEPENDS+=	p5-XML-LibXML>=1.31:../../textproc/p5-XML-LibXML
 
