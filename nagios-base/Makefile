@@ -10,7 +10,7 @@ MAINTAINER=	murray@river-styx.org
 HOMEPAGE=	http://www.nagios.org/
 COMMENT=	network monitor
 
-.include "../../net/nagios-base/Makefile.common"
+.include "../../wip/nagios-base/Makefile.common"
 
 CONFIGURE_ARGS+=	--with-gd-lib=${LOCALBASE}/lib		\
 			--with-gd-inc=${LOCALBASE}/include	\
