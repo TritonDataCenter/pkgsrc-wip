@@ -1,4 +1,5 @@
 #!/bin/sh
 # $NetBSD$
 
+export LD_LIBRARY_PATH=@PREFIX@/lib/bnr2:$LD_LIBRARY_PATH
 exec @PREFIX@/lib/bnr2/BNR2 "$@"
