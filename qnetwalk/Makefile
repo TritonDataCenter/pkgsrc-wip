@@ -20,7 +20,6 @@ USE_LIBTOOL=	YES
 QNETWALK_BIN=	${PREFIX}/bin
 QNETWALK_DATA=	${PREFIX}/share/games/${PKGBASE}
 
-# Should we care about Qt3 package paths here ?
 do-configure:
 	(cd ${WRKSRC} && ${QTDIR}/bin/qmake -o Makefile qnetwalk.pro)
 
