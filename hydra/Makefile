@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	hydra-2.4
+DISTNAME=	hydra-2.6
 CATEGORIES=	security
 MASTER_SITES=	http://www.thc.org/releases/
 
