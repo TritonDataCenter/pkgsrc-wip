@@ -10,7 +10,7 @@ COMMENT=		Universal SSL tunnel
 
 CONFLICTS=		stunnel-[4-9]*
 
-USE_BUILDLINK2=		# defined
+USE_BUILDLINK3=		# defined
 USE_PKGINSTALL=		yes
 GNU_CONFIGURE=		# defined
 CONFIGURE_ARGS+=	--with-ssl=${SSLBASE} \
@@ -18,6 +18,6 @@ CONFIGURE_ARGS+=	--with-ssl=${SSLBASE} \
 			--with-pem-dir="${SSLCERTS}" \
 			--with-tcp-wrappers
 
-.include "../../security/openssl/buildlink2.mk"
-.include "../../security/tcp_wrappers/buildlink2.mk"
+.include "../../security/openssl/buildlink3.mk"
+.include "../../security/tcp_wrappers/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
