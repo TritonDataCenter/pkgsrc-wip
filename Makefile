@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.1594 2005/01/05 14:28:01 thomasklausner Exp $
+# $Id: Makefile,v 1.1595 2005/01/05 14:40:43 thomasklausner Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -826,7 +826,6 @@ SUBDIR+=	spamassassin-cvs
 SUBDIR+=	spamd
 SUBDIR+=	spamprobe-pbl
 SUBDIR+=	spe
-SUBDIR+=	speedtouch131
 SUBDIR+=	speedx
 SUBDIR+=	spfmilter
 SUBDIR+=	srvx
