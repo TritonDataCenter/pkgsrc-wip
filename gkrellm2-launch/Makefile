@@ -6,7 +6,7 @@ PKGNAME=	${DISTNAME:S/gkrellm/gkrellm-/}
 CATEGORIES=	misc
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=gkrellmlaunch/}
 
-MAINTAINER=	cube@cubidou.net
+MAINTAINER=	cube@NetBSD.org
 HOMEPAGE=	http://gkrellmlaunch.sourceforge.net/
 COMMENT=	GKrellM plugin to allow quick launch of applications
 

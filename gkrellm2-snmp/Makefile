@@ -6,7 +6,7 @@ PKGNAME=	${DISTNAME:S/_/-/}
 CATEGORIES=	net
 MASTER_SITES=	http://triq.net/gkrellm/
 
-MAINTAINER=	cube@cubidou.net
+MAINTAINER=	cube@NetBSD.org
 HOMEPAGE=	http://triq.net/gkrellm_snmp.html
 COMMENT=	GKrellM plugin to display values collected from a SNMP agent
 

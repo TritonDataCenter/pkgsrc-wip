@@ -6,7 +6,7 @@ PKGNAME=	${DISTNAME:S/gkrellm/gkrellm-/}
 CATEGORIES=	systutils
 MASTER_SITES=	http://horus.comlab.uni-rostock.de/flynn/
 
-MAINTAINER=	cube@cubidou.net
+MAINTAINER=	cube@NetBSD.org
 HOMEPAGE=	http://horus.comlab.uni-rostock.de/flynn/
 COMMENT=	GKrellM2 plugin that shows system load with a DooM marine
 
