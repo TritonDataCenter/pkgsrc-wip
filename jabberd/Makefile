@@ -17,7 +17,7 @@ USE_PKGINSTALL=		yes
 
 CONFIGURE_ARGS+=	--enable-ssl
 
-RCD_SCRIPTS=		jabber
+RCD_SCRIPTS=		jabberd
 
 EGDIR=			${PREFIX}/share/examples/jabberd
 LIBDIR=			${PREFIX}/lib/jabberd
@@ -38,9 +38,7 @@ pre-configure:
 		< ${WRKSRC}/jabber.xml.in > ${WRKSRC}/jabber.xml
 
 do-install:
-	${INSTALL_DATA_DIR} ${EGDIR}
-	${INSTALL_DATA_DIR} ${LIBDIR}
-	${INSTALL_DATA_DIR} ${INCDIR}
+	${INSTALL_DATA_DIR} ${EGDIR} ${LIBDIR} ${INCDIR}
 	${INSTALL_DATA} ${WRKSRC}/jabber.xml ${EGDIR}/jabber.xml
 	${INSTALL_PROGRAM} ${WRKSRC}/jabberd/jabberd ${PREFIX}/sbin
 	${INSTALL_DATA} ${WRKSRC}/jsm/jsm.so ${LIBDIR}
