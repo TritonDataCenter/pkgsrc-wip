@@ -7,7 +7,7 @@ MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=srvx/}
 
 MAINTAINER=	virtus@wanadoo.nl
 HOMEPAGE=	http://srvx.sourceforge.net/
-COMMENT=	srvx IRC services
+COMMENT=	Srvx IRC services
 
 USE_BUILDLINK2=	YES
 USE_LIBTOOL=	YES
