@@ -1,0 +1,13 @@
+$NetBSD$
+
+--- mutella/gnushare.cpp.orig	2003-07-17 21:43:40.000000000 +0200
++++ mutella/gnushare.cpp	2003-07-17 21:43:57.000000000 +0200
+@@ -24,6 +24,8 @@
+ #include "config.h"
+ #endif
+ 
++#include <assert.h>
++
+ #include "mutella.h"
+ #include "structures.h"
+ 
