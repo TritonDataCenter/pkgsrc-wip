@@ -9,9 +9,7 @@ HOMEPAGE= 	http://joshbeam.com/software/prtunnel.html
 COMMENT=	Tunnels TCP connections through an HTTP or SOCKS5 proxy
 
 USE_BUILDLINK2=	YES
-
-do-build:
-	cd ${WRKSRC} && ${MAKE_PROGRAM}
+ALL_TARGET=	# defined
 
 do-install:
 	${INSTALL_SCRIPT} ${WRKSRC}/prtunnel ${PREFIX}/bin
