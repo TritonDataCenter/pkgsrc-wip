@@ -1,0 +1,6 @@
+$NetBSD$
+
+SHA1 (glibc-2.3.2.tar.gz) = 7251e2bc6e418090e48a4a348ed5b366a41992a0
+Size (glibc-2.3.2.tar.gz) = 18115189 bytes
+SHA1 (glibc-linuxthreads-2.3.2.tar.gz) = 54b880552f86e0625c84faec82e71045fae1cfd4
+Size (glibc-linuxthreads-2.3.2.tar.gz) = 285547 bytes
