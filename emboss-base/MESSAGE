@@ -5,10 +5,10 @@ $NetBSD: MESSAGE $
      package correctly:
 
      (.cshrc)
-     setenv EMBOSS_DATA		/usr/pkg/share/EMBOSS/data
-     setenv EMBOSS_ACDROOT	/usr/pkg/share/EMBOSS/acd
+     setenv EMBOSS_DATA		${PREFIX}/share/EMBOSS/data
+     setenv EMBOSS_ACDROOT	${PREFIX}/share/EMBOSS/acd
 
      (.profile)
-     EMBOSS_DATA=/usr/pkg/share/EMBOSS/data export EMBOSS_DATA;
-     EMBOSS_ACDROOT=/usr/pkg/share/EMBOSS/acd export EMBOSS_ACDROOT;
+     EMBOSS_DATA=${PREFIX}/share/EMBOSS/data export EMBOSS_DATA;
+     EMBOSS_ACDROOT=${PREFIX}/share/EMBOSS/acd export EMBOSS_ACDROOT;
 ===========================================================================
