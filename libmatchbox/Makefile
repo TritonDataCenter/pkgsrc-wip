@@ -1,14 +1,14 @@
 # $NetBSD$
 #
 
-DISTNAME=	libmatchbox-1.1
+DISTNAME=	libmatchbox-1.2
 CATEGORIES=	devel
-MASTER_SITES=	http://matchbox.handhelds.org/sources/libmatchbox/1.1/
+MASTER_SITES=	http://matchbox.handhelds.org/sources/libmatchbox/1.2/
 EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	tech-pkg@NetBSD.org
-HOMEPAGE=	http://matchbox.handhelds.org/sources/libmatchbox/1.1/
-COMMENT=	Library used by Matchbox Window Manager		
+HOMEPAGE=	http://matchbox.handhelds.org/
+COMMENT=	Library used by Matchbox
 
 USE_BUILDLINK3=	yes
 USE_LIBTOOL=	yes
