@@ -22,6 +22,7 @@ CONFIGURE_ARGS+=	--enable-nvidia=no
 .include "../../devel/SDL/buildlink2.mk"
 .else
 CONFIGURE_ARGS+=	--enable-glut
+.include "../../graphics/glut/buildlink2.mk"
 .endif
 
 .include "../../graphics/MesaLib/buildlink2.mk"
