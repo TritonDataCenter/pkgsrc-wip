@@ -10,15 +10,11 @@ MAINTAINER=	adam@monkeybyte.org
 HOMEPAGE=	http://www.monkeymental.com/
 COMMENT=	Cisco Discovery Protocol Reporter
 
-CFLAGS= -DZAURUS -Wall -I. -I${LOCALBASE}/include
-LDFLAGS= -L${LOCALBASE}/lib -ggdb -lpcap
 USE_BUILDLINK2=         yes
-
-do-build:
-	cd ${WRKSRC} && ${CC} ${CFLAGS} cdpr.c ${LDFLAGS} -o cdpr
+ALL_TARGET=		cdpr
 
 do-install:
-	cd ${WRKSRC} && ${CP} cdpr ${LOCALBASE}/bin
+	${INSTALL_PROGRAM} ${WRKSRC}/cdpr ${PREFIX}/bin
 
 .include "../../net/libpcap/buildlink2.mk"
 .include "../../mk/bsd.pkg.mk"
