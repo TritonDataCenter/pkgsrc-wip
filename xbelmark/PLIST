@@ -1,0 +1,4 @@
+@comment $NetBSD$
+bin/xbelmark.py
+share/doc/xbelmark/README
+@dirrm share/doc/xbelmark
