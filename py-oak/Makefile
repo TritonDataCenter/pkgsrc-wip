@@ -10,7 +10,6 @@ MAINTAINER=		dotz@irc.pl
 HOMEPAGE=		http://www.digitallumber.com/TAR/
 COMMENT=		Authoritative/recursive DNS server
 
-USE_BUILDLINK2=		yes
 PY_PATCHPLIST=		yes
 PYDISTUTILSPKG=		yes
 
