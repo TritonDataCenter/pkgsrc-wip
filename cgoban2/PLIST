@@ -1,0 +1,4 @@
+@comment $NetBSD$
+bin/${PKGNAME}
+share/${PKGNAME}/cgoban.jar
+@dirrm share/${PKGNAME}
