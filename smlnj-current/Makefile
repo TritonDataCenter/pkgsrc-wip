@@ -84,15 +84,6 @@ do-build:
 	FILESDIR="${FILESDIR}" PATCH="${PATCH}" PATCH_ARGS="${PATCH_ARGS}" \
 		SMLNJ_HOME="${WRKDIR}" ./config/install.sh
 
-# This is a work around of a bug in 110.45
-post-build:
-	cd ${WRKDIR}/bin;		\
-	${LN} -sf .run-sml ml-burg;	\
-	${LN} -sf .run-sml ml-lex;	\
-	${LN} -sf .run-sml ml-nlffigen;	\
-	${LN} -sf .run-sml ml-yacc;	\
-	${LN} -sf .run-sml nowhere
-
 # install target
 # (see ftp://ftp.research.bell-labs.com/dist/smlnj/working/110.38/INSTALL)
 # 1. create installation directories
