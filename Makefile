@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.598 2003/11/05 05:02:35 mpasternak Exp $
+# $Id: Makefile,v 1.599 2003/11/05 05:21:56 mpasternak Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -392,6 +392,7 @@ SUBDIR+=	pxview
 SUBDIR+=	py-EditObj
 SUBDIR+=	py-OpenGL
 SUBDIR+=	py-OpenSSL
+SUBDIR+=	py-Py2Play
 SUBDIR+=	py-RXP
 SUBDIR+=	py-Soya
 SUBDIR+=	py-albatross
