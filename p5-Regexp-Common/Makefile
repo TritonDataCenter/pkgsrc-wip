@@ -9,7 +9,10 @@ MASTER_SITES=		${MASTER_SITE_PERL_CPAN:=Regexp/}
 MAINTAINER=		dieter.NetBSD@pandora.be
 COMMENT=		Provide commonly requested regular expressions
 
-USE_BUILDLINK2=		yes
+PKG_INSTALLATION_TYPES=	overwrite pkgviews
+
+USE_BUILDLINK3=		yes
+USE_LANGUAGES=		# empty
 PERL5_PACKLIST=		${PERL5_SITEARCH}/auto/Regexp/Common/.packlist
 
 .include "../../lang/perl5/module.mk"
