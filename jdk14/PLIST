@@ -561,6 +561,8 @@ java/jdk-1.4.2/jre/lib/logging.properties
 java/jdk-1.4.2/jre/lib/psfont.properties.ja
 java/jdk-1.4.2/jre/lib/psfontj2d.properties
 java/jdk-1.4.2/jre/lib/rt.jar
+@JDK14_USE_JCE@java/jdk-1.4.2/jre/lib/security/COPYRIGHT.html
+@JDK14_USE_JCE@java/jdk-1.4.2/jre/lib/security/README.txt
 java/jdk-1.4.2/jre/lib/security/US_export_policy.jar
 java/jdk-1.4.2/jre/lib/security/cacerts
 java/jdk-1.4.2/jre/lib/security/java.policy
