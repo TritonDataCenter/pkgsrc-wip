@@ -35,7 +35,7 @@ post-configure:
 	done
 
 .include "../../wip/XFree86/Makefile.common"
+.include "../../wip/XFree86-libs/buildlink2.mk"
 .include "../../graphics/png/buildlink2.mk"
 .include "../../fonts/Xft2/buildlink2.mk"
-.include "../../wip/XFree86-libs/buildlink2.mk"
 .include "../../mk/bsd.pkg.mk"
