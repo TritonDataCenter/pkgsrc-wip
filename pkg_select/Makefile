@@ -1,9 +1,8 @@
 # $NetBSD$
 #
 
-DISTNAME=	pkg_select-20050221
-PKGREVISION=	2
-CATEGORIES=	pkgtools
+DISTNAME=		pkg_select-20050222
+CATEGORIES=		pkgtools
 MASTER_SITES=	# empty
 DISTFILES=	# empty
 
