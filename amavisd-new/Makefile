@@ -14,9 +14,6 @@ MAINTAINER=	jdunn@aquezada.com
 HOMEPAGE=	http://www.ijs.si/software/amavisd/
 COMMENT=	Performance-enhanced daemonized version of amavis-perl
 
-CONFLICTS+=	amavis-[0-9]*
-CONFLICTS+=	amavis-perl-[0-9]*
-
 DEPENDS+=	perl>=5.8:../../lang/perl58
 DEPENDS+=	spamassassin-[0-9]*:../../mail/spamassassin
 DEPENDS+=	unarj-[0-9]*:../../archivers/unarj
@@ -39,11 +36,14 @@ DEPENDS+=	p5-Net-Server-[0-9]*:../../net/p5-Net-Server
 DEPENDS+=	p5-Time-HiRes-[0-9]*:../../time/p5-Time-HiRes
 DEPENDS+=	p5-Unix-Syslog-[0-9]*:../../sysutils/p5-Unix-Syslog
 
+CONFLICTS+=     amavis-[0-9]*
+CONFLICTS+=     amavis-perl-[0-9]*
+
 PERL5_REQD=     5.8.0
 
 .include "../../mk/bsd.prefs.mk"
 .if defined(USE_MILTER) && ${USE_MILTER} == "YES"
-DEPENDS+=	libmilter>=8.12.9nb1:../../mail/libmilter
+USE_BUILDLINK2= yes
 .endif
 
 VERSION=	20030616
