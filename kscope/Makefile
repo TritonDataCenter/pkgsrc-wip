@@ -18,14 +18,13 @@ GNU_CONFIGURE=		yes
 USE_GNU_TOOLS+=		make
 
 USE_LIBTOOL=		yes
-USE_LANGUAGES=		"c c++"
+USE_LANGUAGES=		c c++
 
 post-build:
 	@${SED} -e "s,@LOCALBASE@,${LOCALBASE},g" \
 		${FILESDIR}/kscoperc > ${WRKDIR}/kscoperc
 
 pre-install:
-	${INSTALL_DATA_DIR} ${KDEDIR}/share/kde/config
 	${INSTALL_DATA} ${WRKDIR}/kscoperc ${KDEDIR}/share/kde/config
 
 .include "../../meta-pkgs/kde3/kde3.mk"
