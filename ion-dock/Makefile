@@ -18,5 +18,5 @@ PKG_SYSCONFSUBDIR=	ion
 
 CONF_FILES=		${PREFIX}/share/examples/ion/dock.conf ${PKG_SYSCONFDIR}/dock.conf
 
-.include "../../local/ion-devel/buildlink2.mk"
+.include "../../wip/ion-devel/buildlink2.mk"
 .include "../../mk/bsd.pkg.mk"
