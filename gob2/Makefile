@@ -3,7 +3,8 @@
 
 DISTNAME=	gob2-2.0.11
 CATEGORIES=	devel gnome
-MASTER_SITES=	http://ftp.5z.com/pub/gob/
+MASTER_SITES=	http://ftp.5z.com/pub/gob/ \
+		http://ftp.5z.com/pub/gob/old/
 
 MAINTAINER=	tech-pkg@NetBSD.org
 HOMEPAGE=	http://www.5z.com/jirka/gob.html
