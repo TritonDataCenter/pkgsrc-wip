@@ -7,7 +7,7 @@ PKGREVISION=	# not defined
 MAINTAINER=     murray@river-styx.org
 COMMENT=	Nagios plugins
 
-.include "../../net/nagios-plugins/Makefile.common"
+.include "../../wip/nagios-plugins/Makefile.common"
 
 .include "../../mk/bsd.prefs.mk"
 
@@ -15,7 +15,7 @@ COMMENT=	Nagios plugins
 CONFIGURE_ARGS+=      --with-df-command="/bin/df -Pklt nokernfs,procfs,fdesc"
 .endif
 
-DEPENDS+=	nagios-base>=1.0:../../net/nagios-base
+DEPENDS+=	nagios-base>=1.0:../../wip/nagios-base
 .if !exists(/usr/bin/ssh)
 DEPENDS+=	{ssh{,6}-[0-9]*,openssh-[0-9]*}:../../security/ssh
 .endif

@@ -8,7 +8,7 @@ MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=nagiosplug/}
 
 HOMEPAGE=	http://sourceforge.net/projects/nagiosplug/
 
-.include "../../net/nagios-base/Makefile.common"
+.include "../../wip/nagios-base/Makefile.common"
 
 CONFIGURE_ARGS+=	--with-nagios-user=${NAGIOS_USER}
 CONFIGURE_ARGS+=	--with-nagios-group=${NAGIOS_GROUP}
