@@ -12,12 +12,12 @@ COMMENT=	Unique multiplayer wargame
 
 DEPENDS+=	gnome2-dirs>=1.1:../../misc/gnome2-dirs
 
-USE_BUILDLINK2=	YES
+USE_BUILDLINK3=	YES
 USE_GNU_TOOLS+=	make
 GNU_CONFIGURE=	YES
 
 CONFIGURE_ARGS+=	--enable-debug
 
-.include "../../wip/allegro/buildlink2.mk"
-.include "../../mk/pthread.buildlink2.mk"
+.include "../../devel/allegro/buildlink3.mk"
+.include "../../mk/pthread.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
