@@ -3,6 +3,7 @@
 
 TWISTED_VERSION=	1.1.1
 TWISTED_DISTNAME=	Twisted-${TWISTED_VERSION}
+TWISTED_PKGNAME=	${TWISTED_DISTNAME:S/T/t/}
 TWISTED_MASTER_SITES=  	http://twisted.sourceforge.net/ \
 			http://twistedmatrix.com/downloads/
 EXTRACT_SUFX=		.tar.bz2
