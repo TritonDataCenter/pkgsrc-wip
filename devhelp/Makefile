@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=		devhelp-0.5.0
+DISTNAME=		devhelp-0.6.0
 CATEGORIES=		devel x11
 MASTER_SITES=		http://devhelp.codefactory.se/download/ \
 			ftp://ftp.codefactory.se/pub/software/devhelp/source/
