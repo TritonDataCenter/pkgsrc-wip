@@ -13,4 +13,6 @@ USE_BUILDLINK3=	YES
 GNU_CONFIGURE=	YES
 
 .include "../../textproc/expat/buildlink3.mk"
+.include "../../mk/pthread.buildlink3.mk"
+
 .include "../../mk/bsd.pkg.mk"
