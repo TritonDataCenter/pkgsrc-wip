@@ -1,0 +1,8 @@
+@comment $NetBSD$
+bin/meme
+lib/libmeme.a
+lib/libmeme.la
+lib/libmeme.so
+lib/libmeme.so.2
+lib/libmeme.so.2.3
+share/EMBOSS/acd/meme.acd
