@@ -9,4 +9,10 @@ Binaries have been installed in:
 
 	${EMULOPTDIR}/kylix/bin/
 
+After obtaining license key, do as the registration e-mail says and run:
+
+	${EMULOPTDIR}/kylix/bin/kreg
+
+[TODO: kreg currently doesn't seem to work on my NetBSD-stable box]
+
 ===========================================================================
