@@ -1,3 +1,8 @@
 @comment $NetBSD$
 bin/pkg_select
 man/man1/pkg_select.1
+share/pkg_select/mirrors.ftp
+share/pkg_select/mirrors.cvs
+share/examples/pkg_select/pkg_select.conf.example
+@dirrm share/pkg_select
+@dirrm share/examples/pkg_select
