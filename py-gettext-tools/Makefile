@@ -13,8 +13,6 @@ NO_BUILD=	# defined
 
 EXTRACT_ELEMENTS=		${PYSUBDIR}/Tools/i18n/*
 
-PYTHON_VERSIONS_ACCEPTED=	2
-
 PYTHON_PATCH_SCRIPTS=		Tools/i18n/msgfmt.py Tools/i18n/pygettext.py
 
 # Why the hell it is not declared in python/pyvers.mk ?!
