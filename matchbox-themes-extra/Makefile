@@ -3,11 +3,11 @@
 
 DISTNAME=	matchbox-themes-extra-0.3
 CATEGORIES=	x11
-MASTER_SITES=	ftp://ftp.handhelds.org/projects/matchbox/sources/matchbox-themes-extra/0.3/
+MASTER_SITES=	http://projects.o-hand.com/matchbox/sources/matchbox-themes-extra/0.3/
 EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	tech-pkg@NetBSD.org
-HOMEPAGE=	http://matchbox.handhelds.org/
+HOMEPAGE=	http://projects.o-hand.com/matchbox/
 COMMENT=	Collection of themes for Matchbox
 
 USE_BUILDLINK3=		yes
