@@ -3,16 +3,16 @@
 
 DISTNAME=	matchbox-nest-0.3
 CATEGORIES=	x11
-MASTER_SITES=	ftp://ftp.handhelds.org/projects/matchbox/sources/matchbox-nest/0.3/
+MASTER_SITES=	http://projects.o-hand.com/matchbox/sources/matchbox-nest/0.3/
 EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	tech-pkg@NetBSD.org
-HOMEPAGE=	http://matchbox.handhelds.org/
+HOMEPAGE=	http://projects.o-hand.com/matchbox/
 COMMENT=	Matchbox Xnest wrapper
 
 USE_BUILDLINK3=		yes
 USE_X11=		yes
 GNU_CONFIGURE=		yes
 
-.include "../../wip/libmatchbox/buildlink3.mk"
+.include "../../devel/libmatchbox/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
