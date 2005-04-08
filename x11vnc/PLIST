@@ -1,0 +1,7 @@
+@comment $NetBSD$
+bin/x11vnc
+man/man1/x11vnc.1
+share/x11vnc/classes/VncViewer.jar
+share/x11vnc/classes/index.vnc
+@dirrm share/x11vnc/classes
+@dirrm share/x11vnc
