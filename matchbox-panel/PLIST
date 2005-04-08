@@ -9,7 +9,6 @@ share/applications/mb-applet-battery.desktop
 share/applications/mb-applet-clock.desktop
 share/applications/mb-applet-menu-launcher.desktop
 share/applications/mb-applet-system-monitor.desktop
-share/applications/mb-applet-wireless.desktop
 share/applications/mb-launcher-term.desktop
 ${PKGLOCALEDIR}/locale/cs/LC_MESSAGES/matchbox-panel.mo
 ${PKGLOCALEDIR}/locale/de/LC_MESSAGES/matchbox-panel.mo
