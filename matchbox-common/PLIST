@@ -1,5 +1,7 @@
 @comment $NetBSD$
 bin/matchbox-session
+share/icons/blondie/48x48/apps/mbfolder.png
+share/icons/blondie/48x48/apps/mbfolderprev.png
 share/matchbox/vfolders/Accessories.directory
 share/matchbox/vfolders/Applications.directory
 share/matchbox/vfolders/Development.directory
