@@ -10,7 +10,7 @@ DISTFILES=	moregroupware-core-0.7.2${EXTRACT_SUFX} \
 		moregroupware-addons-0.7.2${EXTRACT_SUFX} \
 		moregroupware-scripts-0.7.2${EXTRACT_SUFX} \
 
-MAINTAINER=	pih@bsdmail.dk
+MAINTAINER=	pih@xbase.dk
 HOMEPAGE=	http://moregroupware.org/
 COMMENT=	Web based GroupWare system
 

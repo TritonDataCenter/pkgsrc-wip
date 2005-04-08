@@ -5,7 +5,7 @@ DISTNAME=		pointless-0.5
 CATEGORIES=		graphics
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=pointless/}
 
-MAINTAINER=		pih@bsdmail.dk
+MAINTAINER=		pih@xbase.dk
 HOMEPAGE=		http://pointless.sourceforge.net/
 COMMENT=		Markup-language presentation tool
 
