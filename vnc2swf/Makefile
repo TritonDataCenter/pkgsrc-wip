@@ -5,7 +5,7 @@ DISTNAME=		vnc2swf-0.4.2
 CATEGORIES=		wip
 MASTER_SITES=		http://www.unixuser.org/~euske/vnc2swf/
 
-MAINTAINER=		pih@bsdmail.dk
+MAINTAINER=		pih@xbase.dk
 HOMEPAGE=		http://www.unixuser.org/~euske/vnc2swf/
 COMMENT=		Record vnc session as flash movie
 
