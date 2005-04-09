@@ -20,4 +20,4 @@ share/squirrelmail/plugins/chg_sasl_passwd/version
 @dirrm share/squirrelmail/plugins/chg_sasl_passwd/locale/de_DE/LC_MESSAGES
 @dirrm share/squirrelmail/plugins/chg_sasl_passwd/locale/de_DE
 @dirrm share/squirrelmail/plugins/chg_sasl_passwd/locale
-@dirrm share/squirrelmail/plugins/chg_sasl_passwd
+@unexec ${RMDIR} %D/share/squirrelmail/plugins/chg_sasl_passwd 2>/dev/null || ${TRUE}
