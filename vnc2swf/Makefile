@@ -5,16 +5,37 @@ DISTNAME=		vnc2swf-0.4.2
 CATEGORIES=		wip
 MASTER_SITES=		http://www.unixuser.org/~euske/vnc2swf/
 
-MAINTAINER=		pih@xbase.dk
+MAINTAINER=		obata@lins.jp
 HOMEPAGE=		http://www.unixuser.org/~euske/vnc2swf/
 COMMENT=		Record vnc session as flash movie
 
-DEPENDS+=               ming>=0.2:../../wip/ming
+DEPENDS+=               x11rec-[0-9]*:../../wip/x11vnc
 
-USE_BUILDLINK3=		yes
-#USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 USE_X11=                yes
+USE_LANGUAGES=		c c++
 
+INSTALLATION_DIRS=	share/doc/html/vnc2swf
+
+SUBST_CLASSES+=         x11base
+SUBST_STAGE.x11base=    pre-configure
+SUBST_MESSAGE.x11base=  Change X11base to ${PREFIX} in Makefile
+SUBST_FILES.x11base=    Makefile.in
+SUBST_SED.x11base=      -e "s|/usr/X11R6|${PREFIX}|"
+
+SUBST_CLASSES+=         toolpath
+SUBST_STAGE.toolpath=   pre-configure
+SUBST_FILES.toolpath=   recordwin.sh
+SUBST_SED.toolpath=     -E -e "s|^(VNC2SWF=).*|\1${PREFIX}/bin/vnc2swf|" \
+			-e "s|^(X11VNC=).*|\1${PREFIX}/bin/x11vnc|" \
+			-e "s|^(XWININFO=).*|\1${X11BASE}/bin/xwininfo|" \
+			-e "s|^(AWK=).*|\1${AWK}|" \
+			-e 's|-mouse|-localhost|'
+post-install:
+	${INSTALL_DATA} ${WRKSRC}/Vnc2Swf.ad ${PREFIX}/lib/X11/app-defaults/Vnc2Swf
+	cd ${WRKSRC}/docs && \
+	${PAX} -rw -pp -pm . ${PREFIX}/share/doc/html/vnc2swf
+
+.include "../../devel/zlib/buildlink3.mk"
 .include "../../wip/ming/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

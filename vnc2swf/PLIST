@@ -1,3 +1,15 @@
 @comment $NetBSD$
-usr/X11R6/bin/recordwin
-usr/X11R6/bin/vnc2swf
+bin/recordwin
+bin/vnc2swf
+lib/X11/app-defaults/Vnc2Swf
+share/doc/html/vnc2swf/index-j.html
+share/doc/html/vnc2swf/index.html
+share/doc/html/vnc2swf/out_vncserver.swf
+share/doc/html/vnc2swf/out_x11vnc.swf
+share/doc/html/vnc2swf/rec_vncserver.html
+share/doc/html/vnc2swf/rec_vncserver.swf
+share/doc/html/vnc2swf/rec_x11vnc.html
+share/doc/html/vnc2swf/rec_x11vnc.swf
+share/doc/html/vnc2swf/recordwin.html
+share/doc/html/vnc2swf/vnc2swf.html
+@dirrm share/doc/html/vnc2swf
