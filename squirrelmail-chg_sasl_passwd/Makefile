@@ -10,15 +10,22 @@ MAINTAINER=	eric@cirr.com
 HOMEPAGE=	http://www.squirrelmail.org/
 COMMENT=	SASL password changing plugin for SquirrelMail
 
-NO_CONFIGURE=	# defined
+NO_CONFIGURE=	YES
 USE_BUILDLINK3=	# defined
 
 WRKSRC=		${WRKDIR}
 
 SMDIR=			${PREFIX}/share/squirrelmail
+PIDIR=			${SMDIR}/plugins/${DISTNAME:C/-.*$//}
+
 MESSAGE_SUBST+=		SMDIR=${SMDIR}
+MESSAGE_SUBST+=		PIDIR=${PIDIR}
+
+CONF_FILES=     ${PIDIR}/config_default.php ${PIDIR}/config.php
 
 do-build:
+	cd ${WRKDIR}/${DISTNAME:C/-.*$//} ;\
+	${MV} config.php config_default.php
 
 do-install:
 	cd ${WRKDIR} && ${TAR} -cf - ${DISTNAME:C/-.*$//} | \
