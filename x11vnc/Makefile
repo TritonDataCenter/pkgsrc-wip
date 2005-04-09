@@ -12,6 +12,8 @@ COMMENT=	VNC server for real X displays
 USE_X11=		yes
 GNU_CONFIGURE=		yes
 
+CONFIGURE_ENV+=	ac_cv_header_pthread_h=no
+
 .include "../../devel/zlib/buildlink3.mk"
 .include "../../graphics/jpeg/buildlink3.mk"
 .include "../../mk/pthread.buildlink3.mk"
