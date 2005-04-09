@@ -16,5 +16,4 @@ CONFIGURE_ENV+=	ac_cv_header_pthread_h=no
 
 .include "../../devel/zlib/buildlink3.mk"
 .include "../../graphics/jpeg/buildlink3.mk"
-.include "../../mk/pthread.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
