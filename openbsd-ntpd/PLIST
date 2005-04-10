@@ -1,0 +1,4 @@
+@comment $NetBSD$
+man/man5/ntpd.conf.5
+man/man8/ntpd.8
+sbin/ntpd
