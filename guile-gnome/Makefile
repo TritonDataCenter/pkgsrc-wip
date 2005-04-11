@@ -11,7 +11,6 @@ COMMENT=	Library to access gobject/glib/gtk and gnome from guile
 
 DEPENDS+=	guile-slib>=2.4.2:../../devel/guile-slib
 
-USE_BUILDLINK3=		YES
 
 GNU_CONFIGURE=		YES
 USE_GNU_TOOLS+=		make

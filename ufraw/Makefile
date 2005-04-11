@@ -11,7 +11,6 @@ COMMENT=	Fancy GIMP plugin for dcraw (digital camera raw file decoder)
 # Each plugin claims .nef, so they can't coexist.
 CONFLICTS+=	rawphoto
 
-USE_BUILDLINK3=	yes
 
 USE_GNU_TOOLS+=	make
 BUILD_TARGET=	build

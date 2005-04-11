@@ -9,7 +9,6 @@ MAINTAINER=		reed@reedmedia.net
 HOMEPAGE=		http://mozplugger.mozdev.org/
 COMMENT=		Mozilla plugin for launching external viewers
 
-USE_BUILDLINK3=		yes
 USE_X11=		yes
 MAKE_ARGS+=		-DPKG_SYSCONFDIR=${PKG_SYSCONFDIR}
 USE_PKGINSTALL=		yes

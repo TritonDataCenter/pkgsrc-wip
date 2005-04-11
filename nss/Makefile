@@ -12,7 +12,6 @@ BUILD_DEPENDS+=		zip>=2.3:../../archivers/zip
 
 WRKSRC=			${WRKDIR}/${DISTNAME}/mozilla/security/nss
 
-USE_BUILDLINK3=		YES
 USE_PERL5=		build
 USE_GNU_TOOLS+=		make
 CFLAGS+=		-I${LOCALBASE}/include/nspr

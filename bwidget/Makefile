@@ -10,7 +10,6 @@ MAINTAINER=		tech-pkg@NetBSD.org
 HOMEPAGE=		http://tcllib.sourceforge.net/
 COMMENT=		High-level widget set for Tcl/Tk
 
-USE_BUILDLINK3=		yes
 NO_BUILD=		yes
 
 do-install:

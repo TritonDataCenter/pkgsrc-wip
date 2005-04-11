@@ -12,7 +12,6 @@ MAINTAINER=		tech-pkg@NetBSD.org
 HOMEPAGE=		http://www.olib.org/~rkr/mud/software/map-browse/
 COMMENT=		GLUT-based 3D data graph (vertices, edges) viewer
 
-USE_BUILDLINK3=		yes
 
 .include "../../graphics/glut/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

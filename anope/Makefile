@@ -9,7 +9,6 @@ HOMEPAGE=	http://www.anope.org/
 COMMENT=	Set of Services for IRC networks
 
 GNU_CONFIGURE=		YES
-USE_BUILDLINK3=		YES
 PTHREAD_OPTS+=		require
 USE_PKGINSTALL=		YES
 USE_GNU_TOOLS+=		make

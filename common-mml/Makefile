@@ -12,7 +12,6 @@ COMMENT=		Common multimedia library required by mbone tools
 VERSION=		1.2.16
 
 WRKSRC=			${WRKDIR}/common
-USE_BUILDLINK3=		yes
 GNU_CONFIGURE=		yes
 USE_LIBTOOL=		yes
 

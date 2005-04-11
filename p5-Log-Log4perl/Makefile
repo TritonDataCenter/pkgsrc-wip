@@ -12,7 +12,6 @@ COMMENT=	Log4j implementation for Perl
 
 PKG_INSTALLATION_TYPES=	overwrite pkgviews
 
-USE_BUILDLINK3=		YES
 PERL5_PACKLIST=		${PERL5_SITEARCH}/auto/Log/Log4perl/.packlist
 
 .include "../../lang/perl5/module.mk"

@@ -12,7 +12,6 @@ COMMENT=		Python Enterprise Application Kit
 
 CONFLICTS+=		${PYPKGPREFIX}-ZODB-*
 
-USE_BUILDLINK3=		yes
 PY_PATCHPLIST=		yes
 PYDISTUTILSPKG=		yes
 

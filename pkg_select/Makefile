@@ -13,7 +13,6 @@ PKG_INSTALLATION_TYPES=	overwrite pkgviews
 
 ONLY_FOR_PLATFORM=      NetBSD-*-* FreeBSD-*-* Darwin-*-*
 
-USE_BUILDLINK3=	yes
 NO_CONFIGURE=	yes
 NO_CHECKSUM=	yes
 

@@ -11,7 +11,6 @@ COMMENT=		Beta-version of tinyfugue
 
 WRKSRC=			${WRKDIR}/tf-50b6
 
-USE_BUILDLINK3=		yes
 GNU_CONFIGURE=		yes
 USE_LANGUAGES=		c
 

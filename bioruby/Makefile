@@ -11,7 +11,6 @@ HOMEPAGE=		http://bioruby.org
 COMMENT=		Intergrated environment for Bioinformatics using Ruby
 
 NO_BUILD=		yes
-USE_BUILDLINK3=		yes
 
 do-configure:
 	cd ${WRKSRC}; \

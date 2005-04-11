@@ -9,7 +9,6 @@ HOMEPAGE=	http://laurikari.net/tre/
 COMMENT=	Lightweight and robust POSIX compliant regexp matching library
 
 GNU_CONFIGURE=		YES
-USE_BUILDLINK3=		YES
 
 CONFIGURE_ARGS+=	--disable-agrep
 CONFIGURE_ARGS+=	--disable-shared

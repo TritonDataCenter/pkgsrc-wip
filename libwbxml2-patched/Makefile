@@ -11,7 +11,6 @@ HOMEPAGE=		http://libwbxml.aymerick.com/
 COMMENT=		Library to handle WBXML (Patched for MultiSync)
 
 WRKSRC=		${WRKDIR}/wbxml2-0.9.0
-USE_BUILDLINK3=		yes
 USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=		yes
 LIBTOOL_OVERRIDE=	${WRKSRC}/libtool

@@ -15,7 +15,6 @@ DEPENDS+=       psmisc-[0-9]*:../../sysutils/psmisc
 # The ptal-cups script require bash
 DEPENDS+=	bash-[0-9]*:../../shells/bash
 
-USE_BUILDLINK3=		yes
 USE_GNU_TOOLS+=		make
 USE_PERL5=		YES
 GNU_CONFIGURE=		YES

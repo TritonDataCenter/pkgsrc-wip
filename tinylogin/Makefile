@@ -10,7 +10,6 @@ HOMEPAGE=	http://tinylogin.busybox.net/
 COMMENT=	Suite of tiny Unix utilities for handling logging
 
 USE_GNU_TOOLS+=	make
-USE_BUILDLINK3=	yes
 
 ONLY_FOR_PLATFORM=	Linux-*-*
 

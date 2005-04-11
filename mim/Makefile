@@ -12,7 +12,6 @@ COMMENT=		Multicast MPEG-I stream viewer
 DEPENDS+=		mpg123>=0.59.18:../../audio/mpg123
 DEPENDS+=		mtv>=1.2.5:../../graphics/mtv
 
-USE_BUILDLINK3=		yes
 GNU_CONFIGURE=		yes
 
 post-install:

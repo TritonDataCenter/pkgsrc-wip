@@ -13,7 +13,6 @@ COMMENT=	RPC portmapper with access control
 # XXX allow this to install on NetBSD, because this also
 # XXX provides pmap_dump and pmap_set
 
-USE_BUILDLINK3=	yes
 NO_CONFIGURE=	yes
 USE_PKGINSTALL=	yes
 

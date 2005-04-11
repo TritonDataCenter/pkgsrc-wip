@@ -11,7 +11,6 @@ COMMENT=		Encode.pm emulation layer
 
 PKG_INSTALLATION_TYPES=	overwrite pkgviews
 
-USE_BUILDLINK3=		yes
 USE_LANGUAGES=		# empty
 PERL5_PACKLIST=		${PERL5_SITEARCH}/auto/Encode/compat/.packlist
 

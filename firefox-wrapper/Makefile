@@ -8,7 +8,6 @@ DISTFILES=	# empty
 MAINTAINER=	pancake@phreaker.net
 COMMENT=	Firefox binary wrapper
 
-NO_BUILDLINK=	yes
 NO_CONFIGURE=	yes
 NO_CHECKSUM=	yes
 NO_BUILD=	yes

@@ -10,7 +10,6 @@ MAINTAINER=		tv@duh.org
 HOMEPAGE=		http://www.invisiblenet.net/iip/
 COMMENT=		The Invisible IRC Project
 
-USE_BUILDLINK3=		yes
 
 BUILD_DIRS=		${WRKSRC}/src
 MAKE_FLAGS+=		CC=${CC:Q} LD=${CC:Q} LDFLAGS=${LDFLAGS:Q}

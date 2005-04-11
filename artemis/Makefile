@@ -13,7 +13,6 @@ COMMENT=
 WRKSRC=			${WRKDIR}/artemis
 USE_JAVA=		yes
 USE_JAVA2=		yes
-USE_BUILDLINK3=		yes
 
 NO_BUILD=		#DEFINED
 INSTALL_DIR=		${PREFIX}/share/Artemis

@@ -21,7 +21,6 @@ SUBST_SED.sshots=	-e \
 	's|$(prefix)/@PACKAGE@/html/screenshots|$(prefix)/share/@PACKAGE@/html/screenshots|'
 SUBST_STAGE.sshots=	pre-patch
 
-USE_BUILDLINK3=		yes
 USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=		yes
 LIBTOOL_OVERRIDE=	${WRKSRC}/libtool

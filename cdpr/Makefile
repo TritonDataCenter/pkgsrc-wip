@@ -10,7 +10,6 @@ MAINTAINER=	adam@monkeybyte.org
 HOMEPAGE=	http://www.monkeymental.com/
 COMMENT=	Cisco Discovery Protocol Reporter
 
-USE_BUILDLINK3=         yes
 BUILD_TARGET=		cdpr
 
 do-install:

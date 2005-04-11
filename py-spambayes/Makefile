@@ -10,7 +10,6 @@ MAINTAINER=		dotz@irc.pl
 HOMEPAGE=		http://spambayes.sourceforge.net/
 COMMENT=		Bayesian anti-spam filter, initially based on the work of Paul Graham
 
-USE_BUILDLINK3=		yes
 PY_PATCHPLIST=		yes
 PYDISTUTILSPKG=		yes
 

@@ -10,7 +10,6 @@ MAINTAINER=		dotz@irc.pl
 HOMEPAGE=		http://www.dclunie.com/
 COMMENT=		Library for dealing with DICOM 3 files
 
-USE_BUILDLINK3=		yes
 USE_X11=		yes
 USE_IMAKE=		yes
 

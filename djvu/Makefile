@@ -13,7 +13,6 @@ CONFIGURE_ARGS+=         --enable-djview
 CFLAG+=		-I${PREFIX}/include
 
 GNU_CONFIGURE=  YES
-USE_BUILDLINK3= YES
 
 .include "../../x11/qt3-tools/buildlink3.mk"
 .include "../../graphics/tiff/buildlink3.mk"

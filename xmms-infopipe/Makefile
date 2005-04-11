@@ -9,7 +9,6 @@ MAINTAINER=		ivaniclixx@gmail.com
 HOMEPAGE=		http://www.beastwithin.org/users/wwwwolf/code/xmms/infopipe.html
 COMMENT=		Plugin that reports XMMS status via named pipe
 
-USE_BUILDLINK3=		yes
 USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=		yes
 LIBTOOL_OVERRIDE=	${WRKSRC}/libtool

@@ -15,7 +15,6 @@ ONLY_FOR_PLATFORM=      FreeBSD-*-* NetBSD-*-* OpenBSD-*-* Linux-*-*
 
 WRKSRC=			${WRKDIR}/libpusb/src
 
-USE_BUILDLINK3=		yes
 INSTALL_TARGET=		install includes
 
 pre-build:

@@ -11,7 +11,6 @@ HOMEPAGE=		http://www.cybertherial.com/pngnq/pngnq.html
 COMMENT=		Tool for quantizing PNG images in RGBA format
 
 WRKSRC=		${WRKDIR}/pngnq
-USE_BUILDLINK3=		yes
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/pngnq ${PREFIX}/bin

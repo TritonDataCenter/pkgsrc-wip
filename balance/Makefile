@@ -9,7 +9,6 @@ MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://www.inlab.de/balance.html
 COMMENT=		TCP loadbalancer with roundrobin and failover
 
-USE_BUILDLINK3=		yes
 
 BUILD_TARGET=balance
 

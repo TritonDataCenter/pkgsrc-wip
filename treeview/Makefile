@@ -11,7 +11,6 @@ HOMEPAGE=       http://darwin.zoology.gla.ac.uk/~rpage/treeviewx/index.html
 COMMENT=	Phylogenetic tree viewer for Linux and Unix
 
 USE_GNU_TOOLS+= make
-USE_BUILDLINK3=	YES
 GNU_CONFIGURE=	YES
 
 .include "../../x11/wxGTK/buildlink3.mk"

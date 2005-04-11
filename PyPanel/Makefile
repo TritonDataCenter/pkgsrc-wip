@@ -11,7 +11,6 @@ COMMENT=		Lightweight panel written in Python and C for X11
 
 PYDISTUTILSPKG=		yes
 PY_PATCHPLIST=  	yes
-USE_BUILDLINK3= 	yes
 USE_X11=		yes
 
 SUBST_CLASSES+=		setup

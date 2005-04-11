@@ -10,7 +10,6 @@ COMMENT=	gMFSK is a multimode HF terminal program for radio amateurs
 
 PKG_INSTALLATION_TYPES= overwrite pkgviews
 
-USE_BUILDLINK3=		YES
 GNU_CONFIGURE=		YES
 
 .include "../../devel/libgnomeui/buildlink3.mk"

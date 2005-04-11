@@ -16,7 +16,6 @@ MAINTAINER=		reed@reedmedia.net
 HOMEPAGE=		http://www.alsa-project.org/
 COMMENT=		Advanced Linux Sound Architecture (ALSA) command-line utilities
 
-USE_BUILDLINK3=		yes
 GNU_CONFIGURE=		yes
 
 .include "../../wip/alsa-lib/buildlink3.mk"

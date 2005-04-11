@@ -13,7 +13,6 @@ COMMENT=	JAVA Bindings for GTK+2
 DEPENDS+=	apache-ant>=1.6.1:../../devel/apache-ant
 DEPENDS+=	jikes-[0-9]*:../../lang/jikes
 
-USE_BUILDLINK3=		yes
 USE_GNU_TOOLS+=		make
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes

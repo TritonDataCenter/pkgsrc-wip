@@ -12,7 +12,6 @@ MAINTAINER=	tech-pkg@NetBSD.org
 HOMEPAGE=	http://www.oldach.net/
 COMMENT=	Apache module for server-side decompression of bzip2 files
 
-USE_BUILDLINK3=		yes
 
 APACHE_MODULE_NAME=     ${DISTNAME:C|-.*||}.so
 APACHE_MODULE_SRC=      ${DISTNAME:C|-.*||}.c

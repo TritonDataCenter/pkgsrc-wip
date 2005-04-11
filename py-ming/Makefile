@@ -11,7 +11,6 @@ MAINTAINER=		dotz@irc.pl
 HOMEPAGE=		http://ming.sourceforge.net/
 COMMENT=		Python bindings for Ming library
 
-USE_BUILDLINK3=		yes
 PY_PATCHPLIST=		yes
 
 BUILD_TARGET=		mingcmodule.so

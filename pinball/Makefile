@@ -9,7 +9,6 @@ MAINTAINER=	virtus@wanadoo.nl
 HOMEPAGE=	http://pinball.sourceforge.net/
 COMMENT=	Pinball using the Allegro game library
 
-USE_BUILDLINK3= YES
 USE_GNU_TOOLS+=	make
 GNU_CONFIGURE=  YES
 WRKSRC=		${WRKDIR}/pinball-0.2.0

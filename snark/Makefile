@@ -9,7 +9,6 @@ MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://www.klomp.org/snark/
 COMMENT=		BitTorrent application suite in Java
 
-USE_BUILDLINK3=		yes
 BUILD_TARGET=	snark.jar
 
 # yet defined in java-sh

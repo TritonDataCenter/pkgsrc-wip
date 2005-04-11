@@ -9,7 +9,6 @@ MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		ftp://metalab.unc.edu/pub/Linux/utils/terminal/
 COMMENT=		TTY snoop for GNU/Linux
 
-USE_BUILDLINK3=		yes
 
 SUBST_CLASSES=lib etc
 SUBST_FILES.lib=Makefile

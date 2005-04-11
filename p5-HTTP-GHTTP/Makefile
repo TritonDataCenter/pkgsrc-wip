@@ -9,7 +9,6 @@ MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=HTTP/}
 MAINTAINER=	tech-pkg@NetBSD.org
 COMMENT=	Perl interface to the gnome ghttp library
 
-USE_BUILDLINK3=	YES
 
 PERL5_PACKLIST=         ${PERL5_SITEARCH}/auto/HTTP/GHTTP/.packlist
 

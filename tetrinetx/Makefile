@@ -11,7 +11,6 @@ COMMENT=	Server for an addictive 6 player tetris game
 
 WRKSRC=		${WRKDIR}/${DISTNAME}
 SHAREDIR=	${PREFIX}/share/tetrinetx
-USE_BUILDLINK3=	YES
 BINARY=		tetrix.netbsd
 
 LIBS.SunOS=	-lsocket -lnsl -lresolv

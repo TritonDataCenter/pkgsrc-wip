@@ -10,7 +10,6 @@ HOMEPAGE=		http://httpd.apache.org/
 COMMENT=		Apache HTTP (Web) server benchmarking tool
 
 BUILD_DEFS+=		USE_INET6
-USE_BUILDLINK3=		YES
 USE_PKGINSTALL=		YES
 #USE_LIBTOOL=		YES
 GNU_CONFIGURE=		YES

@@ -14,7 +14,6 @@ DEPENDS+=		enlightenment-0.16.*:../../wm/enlightenment
 BUILD_USES_MSGFMT=	yes
 
 GNU_CONFIGURE=		yes
-USE_BUILDLINK3=		yes
 USE_DIRS+=			gnome2-1.5
 USE_PKGLOCALEDIR=	yes
 USE_X11=			yes

@@ -14,7 +14,6 @@ MAINTAINER=		dotz@irc.pl
 HOMEPAGE=		http://pgadmin.postgresql.org/
 COMMENT=		GUI administration tool for PostgreSQL RDBMS
 
-USE_BUILDLINK3=		yes
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 CONFIGURE_ARGS=		--with-pgsql=${PREFIX} \

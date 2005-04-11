@@ -10,7 +10,6 @@ HOMEPAGE=	http://www.sublimation.org/scponly/
 COMMENT=	Tiny shell which only permits scp and sftp
 
 GNU_CONFIGURE=	yes
-USE_BUILDLINK3=	yes
 PKG_SHELL=	${PREFIX}/bin/scponly
 
 .include "../../mk/bsd.pkg.install.mk"

@@ -9,7 +9,6 @@ MAINTAINER?=		tech-pkg@NetBSD.org
 HOMEPAGE?=		http://www.gnu.org/software/gcl/gcl.html
 COMMENT?=		GNU Common Lisp
 
-USE_BUILDLINK3?=       	yes
 USE_PKGLOCALEDIR?=	yes
 USE_X11=		yes
 USE_LIBTOOL?=		yes

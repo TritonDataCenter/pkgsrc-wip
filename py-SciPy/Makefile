@@ -13,7 +13,6 @@ COMMENT=		Open source library of scientific tools for Python
 DEPENDS+=		${PYPKGPREFIX}-scipy_distutils-[0-9]*:../../wip/py-scipy_distutils
 
 WRKSRC=			${WRKDIR}/${DISTNAME:S/_src//}
-USE_BUILDLINK3=		yes
 USE_X11=		yes
 PY_PATCHPLIST=		yes
 PYDISTUTILSPKG=		yes

@@ -10,7 +10,6 @@ MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://www.hcs.harvard.edu/~dholland/computers/netkit.html
 COMMENT=		Network RIP and router discovery daemon for Linux
 
-USE_BUILDLINK3=		yes
 USE_PKGLOCALEDIR=	yes
 HAS_CONFIGURE=		yes
 USE_GNU_TOOLS+=		make

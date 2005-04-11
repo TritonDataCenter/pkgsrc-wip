@@ -9,7 +9,6 @@ MAINTAINER=		dotz@irc.pl
 HOMEPAGE=		http://www.is-vn.bg/hamster/jimmy-en.html
 COMMENT=		Clean fixed width font
 
-USE_BUILDLINK3=		yes
 
 USE_X11BASE=		yes
 HAS_CONFIGURE=		yes

@@ -9,7 +9,6 @@ MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://www.pizzashack.org/rssh/
 COMMENT=		Restricted shell allowing only scp and/or sftp
 
-USE_BUILDLINK3=         yes
 GNU_CONFIGURE=		yes
 
 # TODO THIS MUST BE PORTED TO BSD!!!! f*cking wordexp.? !!!

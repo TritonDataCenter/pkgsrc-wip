@@ -12,7 +12,6 @@ HOMEPAGE=		http://optusnet.dl.sourceforge.net/sourceforge/cvs-syncmail/
 COMMENT=		Automatically send cvs commit messages via mail
 
 WRKSRC=			${WRKDIR}
-USE_BUILDLINK3=		yes
 EXTRACT_CMD=		${CP} ${DOWNLOADED_DISTFILE} ${WRKSRC}
 NO_BUILD=		yes
 PYTHON_PATCH_SCRIPTS=	syncmail

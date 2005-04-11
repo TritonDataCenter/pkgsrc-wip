@@ -11,7 +11,6 @@ COMMENT=	RSS/RDF News Feed Grabber
 
 DEPENDS+=	gDesklets-[0-9]*:../../wip/gDesklets
 
-USE_BUILDLINK3=	yes
 NO_CONFIGURE=	yes
 NO_BUILD=	yes
 

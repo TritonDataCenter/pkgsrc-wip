@@ -15,7 +15,6 @@ VKB_TCLFILE =	"\\\"${PREFIX}/share/vkeybd/vkeybd.tcl\\\""
 NO_CONFIGURE=   yes
 CFLAGS+= -Wall -O2 -DVKB_TCLFILE=${VKB_TCLFILE} \
  	-DVKB_USE_MIDI -DMIDI_DEV=${RAWMIDI}
-USE_BUILDLINK3= yes
 
 .include "../../x11/tk/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

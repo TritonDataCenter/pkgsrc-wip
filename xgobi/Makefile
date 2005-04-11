@@ -12,7 +12,6 @@ HOMEPAGE=		http://www.research.att.com/areas/stat/xgobi/
 COMMENT=		Data Visualization Systems for viewing high-dimensional data
 
 USE_X11=                yes
-USE_BUILDLINK3=		yes
 
 do-configure:
 	cd ${WRKSRC}/src; \

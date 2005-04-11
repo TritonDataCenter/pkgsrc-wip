@@ -17,7 +17,6 @@ COMMENT=	Miscellaneous essential utilities for Linux systems
 
 ONLY_FOR_PLATFORM=	Linux-*-* # Uses Linux kernel headers
 
-USE_BUILDLINK3=		YES
 USE_PKGINSTALL=		YES
 USE_GNU_TOOLS+=		make
 GNU_CONFIGURE=		YES

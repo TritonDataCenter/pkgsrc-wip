@@ -13,7 +13,6 @@ COMMENT=		Emulator for the Colecovision game console and Adam computer system
 MAKEFILE=		Makefile.X
 USE_X11=		YES
 WRKSRC=		        ${WRKDIR}
-USE_BUILDLINK3=		yes
 
 SUBST_CLASSES+=         dsp
 SUBST_STAGE.dsp=        post-patch

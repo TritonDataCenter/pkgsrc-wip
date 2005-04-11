@@ -11,7 +11,6 @@ COMMENT=		Glk library that loads real glk implementation at runtime
 
 DEPENDS+=		glkterm-[0-9]*:../../wip/glkterm
 
-USE_BUILDLINK3=		yes
 USE_PERL5=		build
 USE_PKGINSTALL=		yes
 

@@ -11,7 +11,6 @@ COMMENT=		Digital DJ audio mixer
 
 DEPENDS+=		mpg123>=0.0:../../audio/mpg123
 
-USE_BUILDLINK3=		yes
 USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=		yes
 LIBTOOL_OVERRIDE=	${WRKSRC}/libtool

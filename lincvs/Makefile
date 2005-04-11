@@ -12,7 +12,6 @@ MAINTAINER=		dotz@irc.pl
 HOMEPAGE=		http://www.lincvs.org/
 COMMENT=		Nice GUI front-end to CVS (using Qt)
 
-USE_BUILDLINK3=		YES
 
 pre-build:
 	 ${QTDIR}/bin/qmake -o ${WRKSRC}/Makefile ${WRKSRC}/lincvs.pro

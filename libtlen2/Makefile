@@ -9,7 +9,6 @@ MAINTAINER=		dotz@irc.pl
 HOMEPAGE=		http://www.libtlen.eu.org/index.php?theme=teary&page=libtlen2
 COMMENT=		Library to access tlen.pl IM system
 
-USE_BUILDLINK3=		yes
 USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=		yes
 PKGCONFIG_OVERRIDE+=	libtlen-2.0.pc.in

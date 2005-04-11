@@ -12,7 +12,6 @@ COMMENT=	GTK based configuration tool for the fluxbox window manager
 BUILD_USES_MSGFMT=	yes
 DEPENDS+=		fluxbox-[0-9]*:../../wm/fluxbox
 
-USE_BUILDLINK3=		yes
 GNU_CONFIGURE=		yes
 USE_PKGLOCALEDIR=	yes
 USE_X11=		yes

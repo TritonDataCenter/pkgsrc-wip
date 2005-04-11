@@ -21,7 +21,6 @@ PKG_INSTALLATION_TYPES=	overwrite pkgviews
 #BUILD_DEPENDS+=		imake-[0-9]*:../../wip/imake
 #.endif
 
-USE_BUILDLINK3=		yes
 USE_GNU_TOOLS+=		make
 GNU_CONFIGURE=		yes
 USE_LIBTOOL=		yes

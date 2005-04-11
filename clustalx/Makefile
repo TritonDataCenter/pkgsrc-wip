@@ -15,7 +15,6 @@ MESSAGE_SUBST+=         PREFIX=${PREFIX}
 MAKEFILE=		makefile
 USE_X11=		yes
 
-USE_BUILDLINK3=		yes
 
 do-install:
 .for PROGRAM in clustalx

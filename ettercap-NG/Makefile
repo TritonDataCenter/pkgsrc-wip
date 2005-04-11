@@ -15,7 +15,6 @@ BUILDLINK_DEPENDS.libpcap+=	libpcap>=0.8.1
 .include "../../mk/bsd.prefs.mk"
 
 GNU_CONFIGURE=		YES
-USE_BUILDLINK3=		YES
 PTHREAD_OPTS+=		require
 USE_PKGINSTALL=		YES
 USE_LIBTOOL=		YES

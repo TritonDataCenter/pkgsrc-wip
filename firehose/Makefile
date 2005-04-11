@@ -12,7 +12,6 @@ HOMEPAGE=		http://heroinewarrior.com/firehose.php3
 COMMENT=		Super fast throughput over cheap ethernet
 
 WRKSRC=		${WRKDIR}/firehose-0.6.0
-USE_BUILDLINK3=		yes
 USE_GNU_TOOLS+=make
 
 SUBST_CLASSES=gcc

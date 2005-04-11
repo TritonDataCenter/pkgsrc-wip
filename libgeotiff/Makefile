@@ -8,7 +8,6 @@ MAINTAINER=	gdt@ir.bbn.com
 HOMEPAGE=	http://www.remotesensing.org/geotiff/geotiff.html
 COMMENT=	Library and tools for reading and writing GeoTIFF data
 
-USE_BUILDLINK3=	yes
 GNU_CONFIGURE=	yes
 
 .include "../../mk/bsd.prefs.mk"

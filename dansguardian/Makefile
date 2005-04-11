@@ -11,7 +11,6 @@ COMMENT=	Fast, featureful web content filter for Squid proxy servers
 
 WRKSRC=		${WRKDIR}/DansGuardian-2.6.1
 HAS_CONFIGURE=	yes
-USE_BUILDLINK3=	yes
 MANCOMPRESSED=	yes
 RCD_SCRIPTS=	dansguardian
 USE_PKGINSTALL= YES

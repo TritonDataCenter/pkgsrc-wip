@@ -14,7 +14,6 @@ CONFLICTS=	gettext-[0-9]*
 #CONFLICTS+=	gettext-lib-[0-9]*
 CONFLICTS+=	gettext-m4-[0-9]*
 
-USE_BUILDLINK3=		yes
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 USE_LIBTOOL=		yes

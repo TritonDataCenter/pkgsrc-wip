@@ -10,7 +10,6 @@ MAINTAINER=		ianzag@mail.ru
 HOMEPAGE=		http://sim-icq.sourceforge.net/
 COMMENT=		SIM (Simple Instant Messenger)
 
-USE_BUILDLINK3=	YES
 USE_GNU_TOOLS+=	make
 USE_LANGUAGES=	c c++
 USE_LIBTOOL=	YES

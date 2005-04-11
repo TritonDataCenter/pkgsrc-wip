@@ -10,7 +10,6 @@ MAINTAINER=		dotz@irc.pl
 HOMEPAGE=		http://noiptun.sourceforge.net/
 COMMENT=		Allows communication with computers that do not have an IP address
 
-USE_BUILDLINK3=		yes
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 BUILD_TARGET=		noiptun

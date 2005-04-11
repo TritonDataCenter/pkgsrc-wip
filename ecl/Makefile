@@ -12,7 +12,6 @@ COMMENT=		Embeddable Common Lisp
 
 WRKSRC=			${WRKDIR}/${DISTNAME}-build/
 
-USE_BUILDLINK3=		yes
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 CONFIGURE_SCRIPT=	../${DISTNAME}/src/configure

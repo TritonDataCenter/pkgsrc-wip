@@ -12,7 +12,6 @@ HOMEPAGE=		http://www2.hursley.ibm.com/decimalj/
 COMMENT=		Decimal arithmetic for Java
 
 WRKSRC=			${WRKDIR}/
-USE_BUILDLINK3=		yes
 
 do-build:
 

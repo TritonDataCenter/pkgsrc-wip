@@ -10,7 +10,6 @@ COMMENT=	Jabber MSN-Transport module
 
 USE_GNU_TOOLS+=	make
 GNU_CONFIGURE=	YES
-USE_BUILDLINK3=	YES
 CONFIGURE_ARGS+= --with-jabberd=${PREFIX}/include/jabberd \
 		 --with-pth=${PREFIX}/include \
 

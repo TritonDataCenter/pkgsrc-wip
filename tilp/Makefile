@@ -12,7 +12,6 @@ COMMENT=		Database of TI calculator model information
 
 WRKSRC=			${WRKDIR}/${PKGNAME}
 
-USE_BUILDLINK3=		YES
 USE_LIBTOOL=		YES
 GNU_CONFIGURE=		YES
 CONFIGURE_ARGS+=	--disable-nls --enable-exit-homedir

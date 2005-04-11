@@ -11,7 +11,6 @@ HOMEPAGE=	http://dcgui.berlios.de/
 COMMENT=	Direct Connect P2P library
 
 GNU_CONFIGURE=		YES
-USE_BUILDLINK3=		YES
 USE_LIBTOOL=		YES
 USE_GNU_TOOLS+=		make
 

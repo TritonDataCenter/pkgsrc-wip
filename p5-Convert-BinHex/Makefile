@@ -9,7 +9,6 @@ MAINTAINER=		tech-pkg@NetBSD.org
 HOMEPAGE=		http://search.cpan.org/search?query=convert+binhex
 COMMENT=		Read and write Macintosh BinHex streams
 
-USE_BUILDLINK3=		yes
 
 .include "../../lang/perl5/module.mk"
 .include "../../mk/bsd.pkg.mk"

@@ -12,7 +12,6 @@ HOMEPAGE=		http://diden.net/if/git/
 COMMENT=		Interprter for Glulx interactive fiction
 
 WRKSRC=			${WRKDIR}/${PKGNAME_NOREV}
-USE_BUILDLINK3=		yes
 MAKE_ENV+=		BUILDLINK_DIR=${BUILDLINK_DIR}
 
 .include "../../wip/glkloader/buildlink3.mk"

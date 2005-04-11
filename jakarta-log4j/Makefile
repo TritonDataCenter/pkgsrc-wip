@@ -8,7 +8,6 @@ MAINTAINER=	drue@users.sourceforge.net
 HOMEPAGE=	http://jakarta.apache.org/log4j/docs/index.html
 COMMENT=	Logging facility for Java
 
-USE_BUILDLINK3= yes
 NO_CONFIGURE=	yes
 NO_BUILD=	yes
 USE_JAVA=	run

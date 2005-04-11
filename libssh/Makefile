@@ -11,7 +11,6 @@ HOMEPAGE=	http://0xbadc0de.be/
 COMMENT=	Working SSH implementation by the mean of a library
 
 GNU_CONFIGURE=	YES
-USE_BUILDLINK3=	YES
 
 post-install:
 

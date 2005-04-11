@@ -9,7 +9,6 @@ MAINTAINER=	tech-pkg@NetBSD.org
 HOMEPAGE=	http://reiserfs.osdn.org.ua/
 COMMENT=	Library to manipulate reiserfs filesystems
 
-USE_BUILDLINK3=	yes
 USE_LIBTOOL=	yes
 GNU_CONFIGURE=	yes
 

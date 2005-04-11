@@ -11,7 +11,6 @@ COMMENT=		Display Netfilter state tables in a "top"-like interface
 
 ONLY_FOR_PLATFORM=	Linux-2.4*
 
-USE_BUILDLINK3=		yes
 
 do-install:
 	cd ${WRKSRC} && ${INSTALL_PROGRAM} iptstate ${PREFIX}/bin/

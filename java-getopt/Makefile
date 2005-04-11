@@ -19,6 +19,5 @@ do-install:
 		${PREFIX}/share/classpath/java-getopt.jar
 
 WRKSRC=		${WRKDIR}/
-USE_BUILDLINK3=		yes
 
 .include "../../mk/bsd.pkg.mk"

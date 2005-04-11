@@ -9,7 +9,6 @@ MAINTAINER=	tech-pkg@NetBSD.org
 HOMEPAGE=	http://streamripper.sourceforge.net/
 COMMENT=	Splits SHOUTcast stream into tracks
 
-USE_BUILDLINK3=		yes
 GNU_CONFIGURE=		yes
 
 MAKE_ENV+=		SH=${SH:Q}

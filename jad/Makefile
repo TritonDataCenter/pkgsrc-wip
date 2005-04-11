@@ -13,7 +13,6 @@ HOMEPAGE=		http://www.kpdus.com/jad.html
 COMMENT=		The fast JAva Decompiler
 
 WRKSRC=		${WRKDIR}
-USE_BUILDLINK3=		yes
 
 LICENSE=no-commercial-use
 NO_BUILD=YES

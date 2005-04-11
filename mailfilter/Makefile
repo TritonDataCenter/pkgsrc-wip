@@ -10,7 +10,6 @@ HOMEPAGE=	http://mailfilter.sourceforge.net/
 COMMENT=	Filter mail on a pop3 server
 
 GNU_CONFIGURE=  YES
-USE_BUILDLINK3=	YES
 WRKSRC=		${WRKDIR}/*
 
 USE_PKGLOCALEDIR=YES

@@ -15,7 +15,6 @@ DEPENDS+=	dcraw>=1.208:../../graphics/dcraw
 
 WRKSRC=		${WRKDIR}
 DIST_SUBDIR=	${PKGNAME_NOREV}
-USE_BUILDLINK3=	yes
 
 do-extract:
 	(cd ${DISTDIR}/${DIST_SUBDIR} && ${CP} ${DISTNAME} ${WRKSRC})

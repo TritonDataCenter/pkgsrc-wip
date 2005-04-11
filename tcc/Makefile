@@ -12,7 +12,6 @@ COMMENT=	The Smallest ANSI C compiler
 ONLY_FOR_PLATFORM=      *-*-i386
 NOT_FOR_PLATFORM=       NetBSD-1.6.2-*
 
-USE_BUILDLINK3=	yes
 USE_GNU_TOOLS+=	make
 HAS_CONFIGURE=	yes
 

@@ -9,7 +9,6 @@ MAINTAINER=		tech-pkg@NetBSD.org
 HOMEPAGE=		http://lingoteach.sourceforge.net/
 COMMENT=		Library for lingoteach
 
-USE_BUILDLINK3=		yes
 USE_LIBTOOL=		yes
 PKGCONFIG_OVERRIDE+=	${WRKSRC}/liblingoteach.pc.in
 GNU_CONFIGURE=		yes

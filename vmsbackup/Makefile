@@ -11,7 +11,6 @@ MAINTAINER=	tech-pkg@NetBSD.org
 HOMEPAGE=	http://garbo.uwasa.fi/pub/unix/vmsbackup/
 COMMENT=	Utility to read VMS backup tapes
 
-USE_BUILDLINK3=	YES
 BUILD_TARGET=	vmsbackup
 MAKE_FLAGS+=	PREFIX=${PREFIX}
 

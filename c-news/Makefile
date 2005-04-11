@@ -30,7 +30,6 @@ MAINTAINER=	hauke@Espresso.Rhein-Neckar.DE
 HOMEPAGE=	http://www.dinoex.net/c-news.html
 COMMENT=	The 3rd generation USENET news server
 
-USE_BUILDLINK3= YES
 CONFLICTS+=	nntpclnt-[0-9]* inn*
 
 WRKSRC=		${WRKDIR}

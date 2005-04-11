@@ -16,7 +16,6 @@ MAKEFILE=		Makefile.bsd
 MAKE_ENV+=		LIBOSSAUDIO="${LIBOSSAUDIO}"
 MAKE_ENV+=		PREFIX="${PREFIX}"
 
-USE_BUILDLINK3=		yes
 
 SUBST_CLASSES+=		osconf
 SUBST_MESSAGE.osconf=	"Configuring os-specific build-time definitions."

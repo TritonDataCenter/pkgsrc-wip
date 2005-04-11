@@ -10,7 +10,6 @@ HOMEPAGE=		http://www.pingx.net/secpanel/
 COMMENT=		GUI front-end for SSH
 
 NO_BUILD=		# defined
-USE_BUILDLINK3=         yes
 
 .include "../../mk/bsd.prefs.mk"
 .include "../../lang/tcl/buildlink3.mk"

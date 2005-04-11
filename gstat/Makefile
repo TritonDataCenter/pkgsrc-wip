@@ -12,7 +12,6 @@ COMMENT=	Geostatistical modelling, prediction and simulation
 GNU_CONFIGURE=	YES
 MAKEFILE=	makefile
 
-USE_BUILDLINK3= YES
 # TODO:  detects ncurses instead of curses
 CONFIGURE_ARGS+=	--without-curses
 # TODO:  does not detect gd properly; needs INCLUDES set properly

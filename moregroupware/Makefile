@@ -23,7 +23,6 @@ DEPENDS+=	php-gd>=4.3.4:../../graphics/php-gd
 NO_BUILD=	yes
 WRKSRC=		${WRKDIR}/moregroupware
 
-USE_BUILDLINK3=	YES
 
 do-install:
 	${CP} -r ${WRKSRC} ${PREFIX}/share

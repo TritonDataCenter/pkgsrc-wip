@@ -12,7 +12,6 @@ HOMEPAGE=		http://ginger.ucdavis.edu/r8s/
 COMMENT=		Estimate rates of molecular evolution
 
 WRKSRC=		${WRKDIR}/dist/src
-USE_BUILDLINK3=		yes
 BUILD_TARGET=		r8s
 
 BINDIR=			${PREFIX}/bin

@@ -10,7 +10,6 @@ HOMEPAGE=		http://evidence.sourceforge.net/
 COMMENT=		Enlightened file manager
 
 GNU_CONFIGURE=		YES
-USE_BUILDLINK3=		YES
 USE_LIBTOOL=		YES
 USE_X11=		YES
 

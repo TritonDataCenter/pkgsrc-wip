@@ -12,7 +12,6 @@ DEPENDS+=	sendmail>=8.13.0:../../mail/sendmail
 
 BUILDLINK_DEPENDS.libmilter+=	libmilter>=8.13.0
 
-USE_BUILDLINK3=		YES
 
 USE_BUILTIN.libmilter=	NO
 LICENSE=		no-profit

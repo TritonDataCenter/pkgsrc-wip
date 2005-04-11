@@ -11,7 +11,6 @@ MAINTAINER=	tech-pkg@NetBSD.org
 HOMEPAGE=	http://www.tutos.org/homepage/about.html
 COMMENT=	Time and team management software
 
-USE_BUILDLINK3=	yes
 USE_PKGINSTALL=	yes
 
 TUTOS_USER?=	tutos

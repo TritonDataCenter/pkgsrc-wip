@@ -12,7 +12,6 @@ HOMEPAGE=		http://west.sourceforge.net/
 COMMENT=		Web scripting/stress tool
 
 WRKSRC=		${WRKDIR}/west
-USE_BUILDLINK3=		yes
 
 SUBST_CLASSES+=make
 SUBST_STAGE.make=pre-build

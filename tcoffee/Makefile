@@ -16,7 +16,6 @@ WRKSRC=		 	${WRKDIR}/T-COFFEE_distribution_Version_1.37/t_coffee_source
 
 MESSAGE_SUBST+=         PREFIX=${PREFIX}
 MAKEFILE=               makefile
-USE_BUILDLINK3=         yes
 
 do-install:
 	${INSTALL_DATA_DIR} ${PREFIX}/share/doc/html/tcoffee

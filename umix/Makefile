@@ -8,7 +8,6 @@ MAINTAINER=	cez@compsoc.man.ac.uk
 HOMEPAGE=	http://umix.sourceforge.net/
 COMMENT=	Replacement for aumix
 
-USE_BUILDLINK3=	YES
 USE_LIBTOOL=	YES
 
 GNU_CONFIGURE=          yes

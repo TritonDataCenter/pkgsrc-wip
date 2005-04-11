@@ -11,7 +11,6 @@ MAINTAINER=		dotz@irc.pl
 HOMEPAGE=		http://visionegg.sourceforge.net/
 COMMENT=		Additional modules for py-visionegg package
 
-USE_BUILDLINK3=		yes
 NO_BUILD=		# defined
 PLIST_SUBST+=		PYVERSSUFFIX=${PYVERSSUFFIX}
 

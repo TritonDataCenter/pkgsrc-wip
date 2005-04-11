@@ -11,7 +11,6 @@ HOMEPAGE=		http://www.bio.cam.ac.uk/azara
 COMMENT=		Programs to process and view NMR data
 
 WRKSRC=			${WRKDIR}/azara-2.7
-USE_BUILDLINK3=		YES
 USE_X11=		YES
 
 MAKEFILE=		makefile

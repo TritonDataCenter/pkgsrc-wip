@@ -11,7 +11,6 @@ MAINTAINER=	tech-pkg@NetBSD.org
 HOMEPAGE=	http://mupen64.emulation64.com/
 COMMENT=	Sound plugin for mupen64 emulator
 
-USE_BUILDLINK3=	yes
 USE_X11=	yes
 
 LDFLAGS+=	${LIBOSSAUDIO}

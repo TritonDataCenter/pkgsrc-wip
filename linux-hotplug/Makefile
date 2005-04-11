@@ -12,6 +12,5 @@ MAINTAINER=		reed@reedmedia.net
 HOMEPAGE=		http://linux-hotplug.sourceforge.net/
 COMMENT=		Hardware autoconfiguration for Linux
 
-USE_BUILDLINK3=		yes
 
 .include "../../mk/bsd.pkg.mk"

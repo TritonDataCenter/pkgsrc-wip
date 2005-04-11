@@ -13,7 +13,6 @@ COMMENT=		Security Auditor's Research Assistant
 DEPENDS+=		nmap>=3.50:../../net/nmap/
 DEPENDS+=		fping>=2.4:../../net/fping/
 
-USE_BUILDLINK3=		yes
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 USE_PERL5=			yes

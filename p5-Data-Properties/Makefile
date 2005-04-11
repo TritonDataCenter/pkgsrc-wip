@@ -13,7 +13,6 @@ COMMENT=	Perl version of Java's java.util.Properties
 
 PKG_INSTALLATION_TYPES= overwrite pkgviews
 
-USE_BUILDLINK3=         YES
 USE_LANGUAGES=          # empty
 PERL5_PACKLIST=		${PERL5_SITEARCH}/auto/Data/Properties/.packlist
 

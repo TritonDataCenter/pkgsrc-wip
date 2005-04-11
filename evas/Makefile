@@ -12,7 +12,6 @@ HOMEPAGE=		http://www.enlightenment.org/pages/evas.html
 COMMENT=		High level display-independent canvas API
 
 GNU_CONFIGURE=		YES
-USE_BUILDLINK3=		YES
 USE_LIBTOOL=		YES
 USE_X11=		YES
 

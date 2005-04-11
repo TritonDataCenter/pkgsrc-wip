@@ -11,7 +11,6 @@ COMMENT=		Linux tool for view and manipulate IDE drive parameters
 
 ONLY_FOR_PLATFORM=	Linux-*-*
 
-USE_BUILDLINK3=		yes
 
 SUBST_CLASSES+= prefix
 

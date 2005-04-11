@@ -9,7 +9,6 @@ MAINTAINER=	recht@NetBSD.org
 HOMEPAGE=	http://www.go-mono.org/
 COMMENT=	Documentation for the Mono class libraries
 
-USE_BUILDLINK3=		yes
 USE_PKGLOCALEDIR=	yes
 PKGCONFIG_OVERRIDE+=	monodoc.pc.in
 GNU_CONFIGURE=		yes

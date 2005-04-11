@@ -8,7 +8,6 @@ MAINTAINER=	dotz@irc.pl
 HOMEPAGE=	http://www.python.org/topics/database/
 COMMENT=	Python tools for development of I18N Python apps
 
-USE_BUILDLINK3=	yes
 NO_BUILD=	# defined
 
 EXTRACT_ELEMENTS=		${PYSUBDIR}/Tools/i18n/*

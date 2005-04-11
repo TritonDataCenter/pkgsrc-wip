@@ -12,7 +12,6 @@ COMMENT=	Image viewer for DirectFB
 
 ONLY_FOR_PLATFORM=     Linux-*-* NetBSD-*-*
 
-USE_BUILDLINK3=		yes
 GNU_CONFIGURE=		yes
 USE_GNU_TOOLS+=		make
 

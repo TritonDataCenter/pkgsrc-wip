@@ -12,7 +12,6 @@ COMMENT=		X Damage extension headers and specification
 
 PKG_INSTALLATION_TYPES=	overwrite pkgviews
 
-USE_BUILDLINK3=		yes
 GNU_CONFIGURE=		yes
 
 PKGCONFIG_OVERRIDE+=	damageext.pc.in

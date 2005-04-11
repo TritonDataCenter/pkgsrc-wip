@@ -9,7 +9,6 @@ HOMEPAGE= 	http://www.mnogosearch.org/
 COMMENT=	Web search engine software for intranet and internet servers
 
 GNU_CONFIGURE=		YES
-USE_BUILDLINK3=		YES
 USE_PKGINSTALL=         YES
 
 PKG_SYSCONFSUBDIR=	mnogosearch

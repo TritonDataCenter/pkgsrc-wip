@@ -10,7 +10,6 @@ MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://www.singularsys.com/jep/
 COMMENT=		Java Mathematical Expression Parser
 
-USE_BUILDLINK3=		yes
 NO_BUILD=		#defined
 
 do-install:

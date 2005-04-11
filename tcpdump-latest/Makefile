@@ -9,7 +9,6 @@ HOMEPAGE=		http://www.tcpdump.org/
 COMMENT=		Network monitoring tool
 
 GNU_CONFIGURE=		yes
-USE_BUILDLINK3=		yes
 USE_LIBTOOL=		yes
 
 PREFER_PKGSRC=		yes

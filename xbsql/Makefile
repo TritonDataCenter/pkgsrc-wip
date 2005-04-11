@@ -12,7 +12,6 @@ COMMENT=		SQL frontend for DB4 (DBF) files with xbase
 
 BUILD_DEPENDS+=		bison-[0-9]*:../../devel/bison
 
-USE_BUILDLINK3=		yes
 USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=		yes
 GNU_CONFIGURE=		yes

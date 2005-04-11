@@ -11,7 +11,6 @@ HOMEPAGE=	http://www.squirrelmail.org/
 COMMENT=	Sieve Script editing plugin for SquirrelMail
 
 NO_CONFIGURE=	# defined
-USE_BUILDLINK3=	# defined
 
 WRKSRC=		${WRKDIR}
 

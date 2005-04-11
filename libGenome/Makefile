@@ -11,7 +11,6 @@ HOMEPAGE=		http://www.libgenome.org/releases/
 COMMENT=		A development library for bioinformatic software
 
 WRKSRC=			${WRKDIR}/libgenome-0.5.2
-USE_BUILDLINK3=		yes
 USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=		yes
 LIBTOOL_OVERRIDE=	${WRKSRC}/libtool

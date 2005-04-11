@@ -13,7 +13,6 @@ CONFLICTS=	spamprobe-[0-9]*
 
 PKG_INSTALLATION_TYPES= overwrite pkgviews
 
-USE_BUILDLINK3=		YES
 GNU_CONFIGURE=		YES
 
 CONFIGURE_ARGS+=	--enable-default-8bit

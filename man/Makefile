@@ -18,7 +18,6 @@ CONFLICTS+=		man-db-[0-9]*
 #DEPENDS on groff
 
 PKGMANDIR?=		man
-USE_BUILDLINK3=		yes
 USE_PKGINSTALL=		yes
 USE_PKGLOCALEDIR=	yes
 HAS_CONFIGURE=		yes

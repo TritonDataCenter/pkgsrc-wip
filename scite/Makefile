@@ -12,7 +12,6 @@ MAINTAINER=		shattered@users.sourceforge.net
 HOMEPAGE=		http://www.scintilla.org/
 COMMENT=		Editor with facilities for building and running programs
 
-USE_BUILDLINK3=		yes
 USE_GNU_TOOLS+=		make
 
 do-build:

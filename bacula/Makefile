@@ -10,7 +10,6 @@ MAINTAINER=		dotz@irc.pl
 HOMEPAGE=		http://www.bacula.org/
 COMMENT=		Network Backup Solution
 
-USE_BUILDLINK3=		yes
 USE_PKGLOCALEDIR=	yes
 USE_PKGINSTALL=		yes
 GNU_CONFIGURE=		yes

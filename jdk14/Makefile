@@ -23,7 +23,6 @@ NO_BIN_ON_FTP=	${RESTRICTED}
 LICENSE=	scsl-2.3-license
 
 USE_X11=		yes
-USE_BUILDLINK3=		yes
 USE_PKGINSTALL=		yes
 USE_GNU_TOOLS+=		make m4
 USE_LANGUAGES=		c c++

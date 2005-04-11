@@ -9,7 +9,6 @@ MAINTAINER=	minskim@NetBSD.org
 HOMEPAGE=	http://gdesklets.gnomedesktop.org/
 COMMENT=	Advanced architecture for desktop applets
 
-USE_BUILDLINK3=	YES
 GNU_CONFIGURE=	YES
 USE_GNU_TOOLS+=	make
 USE_LIBTOOL=	YES

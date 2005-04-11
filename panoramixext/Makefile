@@ -13,7 +13,6 @@ CONFLICTS+=	XFree86-libs-[0-9]*
 
 PKG_INSTALLATION_TYPES=	overwrite pkgviews
 
-USE_BUILDLINK3=	yes
 GNU_CONFIGURE=	yes
 
 PKGCONFIG_OVERRIDE+=	panoramixext.pc.in

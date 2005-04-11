@@ -11,7 +11,6 @@ HOMEPAGE=		http://cesnet.dl.sourceforge.net/sourceforge/pxlib/
 COMMENT=		C language library for reading Paradox database files
 
 WRKSRC=		${WRKDIR}/pxlib-0.2.0
-USE_BUILDLINK3=		yes
 USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=		yes
 PKGCONFIG_OVERRIDE+=	pxlib.pc.in

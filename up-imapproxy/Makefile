@@ -9,7 +9,6 @@ HOMEPAGE=	http://www.imapproxy.org/
 COMMENT=	Connection caching IMAP proxy server
 
 GNU_CONFIGURE=	YES
-USE_BUILDLINK3=	YES
 USE_PKGINSTALL=	YES
 RCD_SCRIPTS=	upimapproxy
 

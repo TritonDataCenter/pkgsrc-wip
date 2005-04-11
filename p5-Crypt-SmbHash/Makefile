@@ -13,7 +13,6 @@ COMMENT=		Perl5 module for generating LM/NT hashes
 
 DEPENDS+=		p5-Digest-MD4>=1.3:../../security/p5-Digest-MD4
 
-USE_BUILDLINK3=		YES
 PERL5_PACKLIST=		${PERL5_SITEARCH}/auto/Crypt/SmbHash/.packlist
 
 .include "../../lang/perl5/module.mk"

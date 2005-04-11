@@ -10,7 +10,6 @@ COMMENT=		Universal SSL tunnel
 
 CONFLICTS=		stunnel-[4-9]*
 
-USE_BUILDLINK3=		# defined
 USE_PKGINSTALL=		yes
 GNU_CONFIGURE=		# defined
 CONFIGURE_ARGS+=	--with-ssl=${SSLBASE} \

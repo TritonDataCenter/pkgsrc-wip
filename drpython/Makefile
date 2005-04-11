@@ -10,7 +10,6 @@ MAINTAINER=		dotz@irc.pl
 HOMEPAGE=		http://drpython.sourceforge.net/
 COMMENT=		Source code editor, written in Python, for Python
 
-USE_BUILDLINK3=		yes
 NO_CONFIGURE=
 NO_BUILD=
 

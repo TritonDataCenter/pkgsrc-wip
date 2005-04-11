@@ -10,7 +10,6 @@ MAINTAINER=	hubertf@NetBSD.org
 HOMEPAGE=	http://www.icecast.org/
 COMMENT=	Internet broadcasting system using Mpeg Layer III streaming
 
-USE_BUILDLINK3=		yes
 GNU_CONFIGURE=		# defined
 USE_PKGINSTALL=		yes
 

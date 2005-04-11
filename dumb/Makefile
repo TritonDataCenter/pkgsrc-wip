@@ -14,7 +14,6 @@ COMMENT=		IT, XM, S3M and MOD player library
 LICENSE=		dumb-license
 USE_GNU_TOOLS+=		make
 USE_X11=		yes
-USE_BUILDLINK3=		yes
 
 post-install:
 	${INSTALL_DATA_DIR} ${PREFIX}/share/doc/dumb

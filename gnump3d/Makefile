@@ -17,7 +17,6 @@ CONF_FILES=		${PREFIX}/etc/gnump3d/gnump3d.conf
 USE_PERL5=		YES
 USE_GNU_TOOLS+=		make
 REPLACE_PERL=   	${WRKSRC}/bin/*
-USE_BUILDLINK3=		yes
 
 SUBST_CLASSES=		usr etc
 SUBST_FILES=		bin/gnump3d-index bin/gnump3d-top bin/gnump3d2 etc/gnump3d.conf

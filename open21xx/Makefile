@@ -10,7 +10,6 @@ MAINTAINER=		ianzag@mail.ru
 HOMEPAGE=		http://www3.telus.net/sharpshin/adi.html
 COMMENT=		Assembler tool suite for the Analog Devices 21xx family of DSP
 
-USE_BUILDLINK3=	YES
 USE_LANGUAGES=	c
 USE_GNU_TOOLS+=	make
 USE_GNU_TOOLS+= yacc

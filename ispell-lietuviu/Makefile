@@ -14,6 +14,5 @@ BUILD_DEPENDS+=		python23-[0-9]*:../../lang/python23
 DEPENDS+=		ispell-base-[0-9]*:../../textproc/ispell-base
 
 BUILD_TARGET=		lietuviu.hash
-USE_BUILDLINK3=		yes
 
 .include "../../mk/bsd.pkg.mk"

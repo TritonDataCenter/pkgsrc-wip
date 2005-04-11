@@ -10,7 +10,6 @@ HOMEPAGE=		http://www.reptilelabour.com/software/chromium/
 COMMENT=		Data files for chromium scrollshooter
 
 WRKSRC=		${WRKDIR}/Chromium-0.9
-USE_BUILDLINK3=		yes
 NO_BUILD=#
 
 do-install:

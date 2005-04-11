@@ -9,7 +9,6 @@ MAINTAINER=	reed@reedmedia.net
 HOMEPAGE=	http://sourceforge.net/projects/nfs/
 COMMENT=	Linux NFS client and server utilities
 
-USE_BUILDLINK3=	# defined
 USE_PKGINSTALL=	yes
 GNU_CONFIGURE=	yes
 USE_GNU_TOOLS+=	make

@@ -9,7 +9,6 @@ COMMENT=		Internationalized Message Handling Library (libintl)
 
 PKG_INSTALLATION_TYPES=	overwrite pkgviews
 
-USE_BUILDLINK3=		yes
 USE_LIBTOOL=		yes
 
 GNU_CONFIGURE=		yes

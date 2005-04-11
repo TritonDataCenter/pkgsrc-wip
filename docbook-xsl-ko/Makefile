@@ -12,7 +12,6 @@ DEPENDS=	docbook-xsl-[0-9]*:../../textproc/docbook-xsl
 
 NO_CONFIGURE=	YES
 NO_BUILD=	YES
-USE_BUILDLINK3=	YES
 
 XSLDIR=		${PREFIX}/share/xsl/docbook-ko
 

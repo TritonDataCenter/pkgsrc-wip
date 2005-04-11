@@ -10,7 +10,6 @@ MAINTAINER=		reed@reedmedia.net
 HOMEPAGE=		http://poppler.freedesktop.org/
 COMMENT=		PDF rendering library
 
-USE_BUILDLINK3=		yes
 #USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=		yes
 LIBTOOL_OVERRIDE=	${WRKSRC}/libtool

@@ -12,7 +12,6 @@ COMMENT=		Dance Dance Revolution, Pump It Up and similar dance machines emulator
 
 DEPENDS+=		${PYPKGPREFIX}-game>=1.6:../../wip/py-game
 
-USE_BUILDLINK3=		yes
 USE_PKGINSTALL=		yes
 
 EXAMPLESDIR=	${PREFIX}/share/examples/pydance

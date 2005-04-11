@@ -11,7 +11,6 @@ COMMENT=		low-level ELF file analyzer
 
 GNU_CONFIGURE=		YES
 
-USE_BUILDLINK3=		yes
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 

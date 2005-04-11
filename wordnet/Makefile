@@ -15,7 +15,6 @@ COMMENT=		English lexical reference system
 BUILD_TARGET=		SrcWorld
 
 USE_X11=		yes
-USE_BUILDLINK3=		yes
 
 PTHREAD_OPTS+=		require
 

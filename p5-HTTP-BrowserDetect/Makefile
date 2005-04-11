@@ -12,7 +12,6 @@ COMMENT=		Detect browser, version, OS from UserAgent
 
 PKG_INSTALLATION_TYPES=	overwrite pkgviews
 
-USE_BUILDLINK3=		YES
 PERL5_PACKLIST=		${PERL5_SITEARCH}/auto/HTTP/BrowserDetect/.packlist
 
 .include "../../lang/perl5/module.mk"

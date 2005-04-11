@@ -10,7 +10,6 @@ MAINTAINER=		goteki@users.sourceforge.net
 HOMEPAGE=		http://www.hellion.org.uk/xmms-status-plugin/
 COMMENT=		Plugin that provides XMMS docklet support
 
-USE_BUILDLINK3=		yes
 USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=		yes
 GNU_CONFIGURE=		yes

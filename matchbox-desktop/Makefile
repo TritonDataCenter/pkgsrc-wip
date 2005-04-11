@@ -11,7 +11,6 @@ HOMEPAGE=	http://project.o-hand.com/matchbox/
 COMMENT=	Desktop manager for Matchbox
 
 USE_PKGINSTALL=	yes
-USE_BUILDLINK3=	yes
 USE_LIBTOOL=	yes
 USE_X11=	yes
 GNU_CONFIGURE=	yes

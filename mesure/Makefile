@@ -10,6 +10,5 @@ HOMEPAGE=		http://www.nopcode.org/?t=mesure
 COMMENT=		Tool to measure different kind of streams
 GNU_CONFIGURE=		yes
 USE_GNU_TOOLS+=		make
-USE_BUILDLINK3=		yes
 
 .include "../../mk/bsd.pkg.mk"

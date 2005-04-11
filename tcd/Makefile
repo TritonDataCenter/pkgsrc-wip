@@ -10,7 +10,6 @@ MAINTAINER=		roland.illig@gmx.de
 HOMEPAGE=		http://savannah.gnu.org/download/tcd/
 COMMENT=		Audio CD player using ncurses and SDL
 
-USE_BUILDLINK3=		yes
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 

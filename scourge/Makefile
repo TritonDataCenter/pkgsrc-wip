@@ -11,7 +11,6 @@ COMMENT=		Graphical 3D roguelike, vermin extermination
 
 PKG_INSTALLATION_TYPES=	overwrite pkgviews
 
-USE_BUILDLINK3=		YES
 MAKEFILE=		Makefile.Fedora
 
 post-extract:

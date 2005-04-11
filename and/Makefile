@@ -9,11 +9,9 @@ MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://and.sourceforge.net/
 COMMENT=		auto nice daemon
 
-USE_BUILDLINK3=		yes
 USE_GNU_TOOLS+=	make
 BUILD_TARGET=	default
 
-USE_BUILDLINK3=		yes
 MYARCH=${OPSYS}
 .if ${MYARCH} == "NetBSD"
 MYARCH=OpenBSD

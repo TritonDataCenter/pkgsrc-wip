@@ -11,7 +11,6 @@ MAINTAINER=	recht@NetBSD.org
 HOMEPAGE=	https://moin.conectiva.com.br/DateUtil
 COMMENT=	Extensions to the standard datetime module
 
-USE_BUILDLINK3=	yes
 PYDISTUTILSPKG=	yes
 PY_PATCHPLIST=	yes
 

@@ -11,7 +11,6 @@ HOMEPAGE=		http://www.jflex.de/
 COMMENT=		The Fast Scanner Generator for Java
 
 WRKSRC=		${WRKDIR}/JFlex
-USE_BUILDLINK3=		yes
 
 do-install:
 	${INSTALL_DATA} ${WRKSRC}/lib/JFlex.jar \

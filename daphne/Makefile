@@ -11,7 +11,6 @@ HOMEPAGE=		http://daphne.rulecity.com/
 COMMENT=		Emulator for Laserdisc arcade games
 
 WRKSRC=			${WRKDIR}/daphne/src
-USE_BUILDLINK3=		yes
 USE_GNU_TOOLS+=		make
 GNU_CONFIGURE=		#defined
 CONFIGURE_DIRS=		${WRKSRC}/vldp2

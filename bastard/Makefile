@@ -11,7 +11,6 @@ MAINTAINER=		adam@monkeybyte.org
 HOMEPAGE=		http://bastard.sourceforge.net/
 COMMENT=		Disassembler for ELF x86 binarys
 
-USE_BUILDLINK3= YES
 USE_GNU_TOOLS+=	make
 
 .include "../../devel/readline/buildlink3.mk"

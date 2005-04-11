@@ -24,7 +24,6 @@ CONFLICTS+=	octave-2.0.*
 BROKEN=		Internal compiler error occurs on arm32 (even with gcc-2.95.3)
 .endif
 
-USE_BUILDLINK3=		yes
 #USE_FORTRAN=		yes
 USE_GNU_TOOLS+=		make
 USE_GNU_READLINE=	yes

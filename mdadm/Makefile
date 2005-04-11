@@ -11,7 +11,6 @@ MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://www.cse.unsw.edu.au/~neilb/source/mdadm/ANNOUNCE
 COMMENT=		RAID management for Linux systems
 
-USE_BUILDLINK3=		yes
 USE_GNU_TOOLS+= make
 
 ONLY_FOR_PLATFORM=Linux-*-*

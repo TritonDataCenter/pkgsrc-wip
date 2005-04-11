@@ -13,7 +13,6 @@ USE_PKGLOCALEDIR=	YES
 USE_LIBTOOL=		YES
 GNU_CONFIGURE=		YES
 USE_X11=		YES
-USE_BUILDLINK3=		YES
 
 pre-configure:
 	cd ${WRKSRC};                                           \

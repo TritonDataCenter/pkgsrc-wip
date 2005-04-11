@@ -10,7 +10,6 @@ HOMEPAGE=		http://xlibs.freedesktop.org/
 COMMENT=		Meta-package for X Libraries and Protocol Headers Project
 
 EXTRACT_ONLY=	# empty
-USE_BUILDLINK3=	yes
 NO_CHECKSUM=	yes
 NO_CONFIGURE=	yes
 NO_BUILD=	yes

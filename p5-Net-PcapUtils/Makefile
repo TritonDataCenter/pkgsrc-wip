@@ -14,7 +14,6 @@ DEPENDS+=	p5-Net-Pcap>=0.3:../../net/p5-Net-Pcap
 
 PKG_INSTALLATION_TYPES=	overwrite pkgviews
 
-USE_BUILDLINK3=	yes
 PERL5_PACKLIST=	${PERL5_SITEARCH}/auto/Net/PcapUtils/.packlist
 
 .include "../../lang/perl5/module.mk"

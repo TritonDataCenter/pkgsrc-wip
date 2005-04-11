@@ -11,7 +11,6 @@ COMMENT=		Firewall configuration and management tool
 
 USE_X11=		yes
 USE_GNU_TOOLS+=		make
-USE_BUILDLINK3=		yes
 GNU_CONFIGURE=		yes
 USE_LIBTOOL=		yes
 USE_PKGLOCALEDIR=	yes

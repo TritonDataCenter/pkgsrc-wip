@@ -8,7 +8,6 @@ MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=Term/}
 MAINTAINER=	tech-pkg@NetBSD.org
 COMMENT=	Term::Cap based screen positioning module
 
-USE_BUILDLINK3=		YES
 PERL5_PACKLIST=		${PERL5_SITEARCH}/auto/Term/Screen/.packlist
 
 .include "../../lang/perl5/module.mk"

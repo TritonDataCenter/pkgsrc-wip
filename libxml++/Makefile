@@ -11,7 +11,6 @@ MAINTAINER=		reed@reedmedia.net
 HOMEPAGE=		http://libxmlplusplus.sourceforge.net/
 COMMENT=		C++ wrapper for the libxml2 XML parser library
 
-USE_BUILDLINK3=		yes
 USE_LIBTOOL=		yes
 PKGCONFIG_OVERRIDE+=	libxml++-1.0.pc.in
 GNU_CONFIGURE=		yes

@@ -7,7 +7,6 @@ MAINTAINER=	greyskyy@users.sourceforge.net
 HOMEPAGE=	http://www.thekompany.com/products/kapital/
 COMMENT=	Personal finance manager
 
-USE_BUILDLINK3=	YES
 
 DOWNLOAD_PAGE=	http://www.thekompany.com/products/
 

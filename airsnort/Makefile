@@ -12,7 +12,6 @@ COMMENT=		WLAN sniffer and realtime WEP cracker
 
 DEPENDS+=		linux-wlan-ng>=0.2:../../wip/linux-wlan-ng/
 
-USE_BUILDLINK3=		yes
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 

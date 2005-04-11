@@ -10,7 +10,6 @@ COMMENT=	Jabber AIM Transport module
 
 GNU_CONFIGURE=	YES
 USE_GNU_TOOLS+=	make
-USE_BUILDLINK3=	YES
 EXAMPLEFILE=	${PREFIX}/share/examples/jabberd/jabberd-aim.xml
 MESSAGE_SUBST+=	EXAMPLEFILE=${EXAMPLEFILE}
 

@@ -11,7 +11,6 @@ MAINTAINER=		hauke@Espresso.Rhein-Neckar.DE
 HOMEPAGE=		http://www.isc.org/inn.html
 COMMENT=		NNTP reader daemon from release 1.7 of InterNet News (INN)
 
-USE_BUILDLINK3=		YES
 USE_PERL5=      	YES
 
 USE_PKGINSTALL=		YES

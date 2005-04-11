@@ -9,7 +9,6 @@ MAINTAINER=	david@netbsd-fr.org
 COMMENT=	This module authenticates a user against a POP3 server
 
 WRKSRC=		${WRKDIR}/pam_pop3
-USE_BUILDLINK3=	YES
 
 do-build:
 	${CC} ${CFLAGS} -fpic -DPIC -Wall -c ${WRKSRC}/pam_pop3.c \

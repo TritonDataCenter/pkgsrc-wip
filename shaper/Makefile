@@ -11,7 +11,6 @@ HOMEPAGE=		http://ftp.debian.org/debian/pool/main/s/shaper/
 COMMENT=		Bandwidth limiter for Linux
 
 WRKSRC=		${WRKDIR}/shaper-2.2.12-0.7.3/shaper/
-USE_BUILDLINK3=		yes
 
 ONLY_FOR_PLATFORM=Linux-*-*
 

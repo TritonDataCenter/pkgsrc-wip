@@ -10,7 +10,6 @@ MAINTAINER=	virtus@wanadoo.nl
 HOMEPAGE=	http://perltidy.sourceforge.net/
 COMMENT=	Indents and reformats Perl scripts to make them easier to read
 
-USE_BUILDLINK3=	YES
 USE_PERL5=	YES
 PERL_CONFIGURE= YES
 

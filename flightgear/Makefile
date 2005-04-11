@@ -12,7 +12,6 @@ COMMENT=		The FlightGear Simulator
 
 DEPENDS=		flightgear-base>=0.9.3:../../wip/flightgear-base
 
-USE_BUILDLINK3=		yes
 USE_PKGLOCALEDIR=	yes
 USE_X11=		yes
 GNU_CONFIGURE=		yes

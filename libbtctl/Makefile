@@ -9,7 +9,6 @@ MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://downloads.usefulinc.com/libbtctl/
 COMMENT=		GObject Bluetooth controller
 
-USE_BUILDLINK3=		yes
 USE_GNU_TOOLS=make
 USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=		yes

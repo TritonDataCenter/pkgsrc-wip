@@ -9,7 +9,6 @@ MAINTAINER=	recht@NetBSD.org
 HOMEPAGE=	http://www.modpython.org/
 COMMENT=	Module that embeds the Python interpreter within the server
 
-USE_BUILDLINK3=		yes
 PY_PATCHPLIST=		yes
 APACHE_MODULE=		yes
 USE_GNU_TOOLS+=		make

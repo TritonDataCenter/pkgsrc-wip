@@ -16,7 +16,6 @@ MAKE_FLAGS+=		NSHOME=/${PREFIX}/include/nsd \
 			TCL_CC=gcc
 CFLAGS+=		-I/usr/pkg/include/nsd/include
 
-USE_BUILDLINK3=         yes
 USE_GNU_TOOLS+=         make
 
 .include "../../wip/aolserver4/buildlink3.mk"

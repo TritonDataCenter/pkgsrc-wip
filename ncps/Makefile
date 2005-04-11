@@ -10,7 +10,6 @@ COMMENT=	ncurses based process-killer
 
 GNU_CONFIGURE=		YES
 USE_GNU_TOOLS+=		make
-USE_BUILDLINK3=		YES
 USE_NCURSES=		YES
 
 # It uses /proc...could be emulated, but not tested

@@ -20,7 +20,6 @@ DEPENDS+=		cross-binutils>=2.15.0.0:../../cross/binutils
 
 
 WRKSRC=			${WRKDIR}/${DISTNAME}
-USE_BUILDLINK3=		YES
 USE_JAVA=		YES
 USE_X11=		yes
 USE_PKGLOCALEDIR=	yes

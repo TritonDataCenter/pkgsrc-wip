@@ -13,7 +13,6 @@ COMMENT=		Python libraries for computational molecular biology
 DEPENDS+=		py22-mxDateTime>=2.0.4:../../time/py-mxDateTime
 DEPENDS+=		py22-Numeric>=23.3:../../math/py-Numeric
 
-USE_BUILDLINK3=		yes
 NO_CONFIGURE=		yes
 
 LICENSE=		non-commercial-use

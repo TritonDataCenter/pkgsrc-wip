@@ -13,7 +13,6 @@ COMMENT=		Changes destop background pictures with some period
 
 DEPENDS+=		ImageMagick>=6.0.2.7:../../graphics/ImageMagick
 
-USE_BUILDLINK3=		yes
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 CONFIGURE_ARGS+=	--with-image-library=imlib2

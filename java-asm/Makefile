@@ -13,7 +13,6 @@ MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://asm.objectweb.org/
 COMMENT=		Java bytecode manipulation framework
 
-USE_BUILDLINK3=		yes
 
 do-build:
 

@@ -7,7 +7,6 @@ MASTER_SITES=		http://energyhq.homeip.net/files/
 MAINTAINER=		flynn@energyhq.homeip.net
 COMMENT=		Port of FreeBSD's console menu system
 
-USE_BUILDLINK3=		YES
 USE_NCURSES=		YES
 
 do-install:

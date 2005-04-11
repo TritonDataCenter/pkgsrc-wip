@@ -14,7 +14,6 @@ MAINTAINER=		tv@duh.org
 HOMEPAGE=		http://mixmaster.sourceforge.net/
 COMMENT=		The Mixmaster anonymous remailer client
 
-USE_BUILDLINK3=		yes
 USE_PKGINSTALL=		yes
 
 BUILD_DEFS+=		USE_IDEA

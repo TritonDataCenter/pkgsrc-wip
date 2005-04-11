@@ -15,7 +15,6 @@ BUILD_DEPENDS+=		nasm-[0-9]*:../../devel/nasm
 ONLY_FOR_PLATFORM+=	*-i386
 
 WRKSRC=			${WRKDIR}/z26_snapshot-20040523
-USE_BUILDLINK3=		yes
 USE_GNU_TOOLS+=		make
 USE_PERL5+=		build
 BUILD_TARGET=		netbsd

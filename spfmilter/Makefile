@@ -8,7 +8,6 @@ MAINTAINER=	adrianp@NetBSD.org
 HOMEPAGE=	http://www.acme.com/software/spfmilter/
 COMMENT=	Implementation of the Sender Policy Framework (SPF) as a milter
 
-USE_BUILDLINK3=	YES
 GNU_CONFIGURE=	YES
 PTHREAD_OPTS+=	require
 USE_PKGINSTALL=	YES

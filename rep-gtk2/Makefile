@@ -14,7 +14,6 @@ DEPENDS+=               gtk2+>=2.4.0:../../x11/gtk2
 
 CONFLICTS=		rep-gtk-*
 
-USE_BUILDLINK3=		yes
 USE_LIBTOOL=		yes
 GNU_CONFIGURE=		yes
 USE_GNU_TOOLS+=		make

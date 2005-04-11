@@ -12,7 +12,6 @@ COMMENT=		Multiplayer crazy clone of Bubble Bobble
 WRKSRC=			${WRKDIR}/bub-n-bros
 USE_X11=		yes
 PY_PATCHPLIST=		yes
-USE_BUILDLINK3=		yes
 
 MAKE_ENV=		CFLAGS="${CFLAGS}"
 MAKE_ENV+=		LDFLAGS="${LDFLAGS}"

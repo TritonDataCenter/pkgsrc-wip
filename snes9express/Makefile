@@ -11,7 +11,6 @@ COMMENT=		Frontend for snes9x written in GTK2
 
 DEPENDS+=		snes9x>=1.39:../../emulators/snes9x
 
-USE_BUILDLINK3=		yes
 GNU_CONFIGURE=		yes
 
 .include "../../mk/autoconf.mk"

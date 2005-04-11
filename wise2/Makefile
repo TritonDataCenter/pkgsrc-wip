@@ -13,7 +13,6 @@ COMMENT=		Tool for Comparing bio polymers like DNA and Protein sequences
 
 MAKEFILE=		makefile
 MESSAGE_SUBST+=		PREFIX=${PREFIX}
-USE_BUILDLINK3=		yes
 
 do-install:
 	${INSTALL_DATA_DIR} ${PREFIX}/share/wise2/wisecfg

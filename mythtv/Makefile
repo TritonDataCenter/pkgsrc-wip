@@ -10,7 +10,6 @@ MAINTAINER=		grant@NetBSD.org
 HOMEPAGE=		http://www.mythtv.org/
 COMMENT=		TV/video recorder with many features
 
-USE_BUILDLINK3=		yes
 
 ONLY_FOR_PLATFORM=	Linux-*-*
 

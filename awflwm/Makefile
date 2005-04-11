@@ -11,7 +11,6 @@ MAINTAINER=	low@ameba6.com
 HOMEPAGE=	http://awflwm.berlios.de/
 COMMENT=	Fork of the flwm project
 
-USE_BUILDLINK3=	yes
 USE_X11=	# defined
 
 GNU_CONFIGURE=	# defined

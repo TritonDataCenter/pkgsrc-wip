@@ -10,7 +10,6 @@ MAINTAINER=		wiz@NetBSD.org
 HOMEPAGE=		http://artax.karlin.mff.cuni.cz/~mikulas/links/
 COMMENT=		Text browser with tables (original version)
 
-USE_BUILDLINK3=		yes
 GNU_CONFIGURE=		yes
 CONFIGURE_ENV+=		ac_cv_path_PKG_CONFIG=""
 

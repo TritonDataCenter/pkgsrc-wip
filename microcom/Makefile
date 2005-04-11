@@ -11,7 +11,6 @@ HOMEPAGE=		http://microcom.port5.com/
 COMMENT=		Minicom-like serial terminal emulator with scripting
 
 WRKSRC=		${WRKDIR}/
-USE_BUILDLINK3=		yes
 BUILD_TARGET=microcom
 
 do-install:

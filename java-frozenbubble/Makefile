@@ -12,7 +12,6 @@ HOMEPAGE=		http://glenn.sanson.free.fr/fb/index.html
 COMMENT=		Java port of Frozen Bubble
 
 WRKSRC=${WRKDIR}
-USE_BUILDLINK3=		yes
 NO_BUILD=		yes
 
 JAVA_APP_TARGETS=	fb

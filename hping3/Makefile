@@ -9,7 +9,6 @@ MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://wiki.hping.org/uploadedfiles/101/
 COMMENT=		Command-line oriented TCP/IP packet assembler/analyzer
 
-USE_BUILDLINK3=		yes
 USE_PKGLOCALEDIR=	yes
 HAS_CONFIGURE=		yes
 

@@ -14,7 +14,6 @@ ONLY_FOR_PLATFORM=     Linux-*-* NetBSD-*-*
 
 GNU_CONFIGURE=	YES
 USE_GNU_TOOLS+=	make
-USE_BUILDLINK3=	YES
 USE_X11=	YES
 
 CONFIGURE_ARGS+=	--with-gfxdrivers=all

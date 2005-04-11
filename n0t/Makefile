@@ -11,7 +11,6 @@ HOMEPAGE=		http://r3b00t.itsec.pl/n0t/
 COMMENT=		Network OS Tracer
 
 WRKSRC=		${WRKDIR}/n0t
-USE_BUILDLINK3=		yes
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/n0t ${PREFIX}/sbin/n0t

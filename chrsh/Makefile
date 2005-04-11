@@ -12,7 +12,6 @@ HOMEPAGE=	http://www.aarongifford.com/computers/chrsh.html
 COMMENT=	Chroot jail wrapper for ordinary Unix shells
 
 WRKSRC=         ${WRKDIR}
-USE_BUILDLINK3=	YES
 EXTRACT_CMD=	${CP} $${extract_file} .
 
 RCS_HEAD=	$$NetBSD$$

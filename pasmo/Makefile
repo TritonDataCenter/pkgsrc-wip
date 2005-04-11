@@ -11,7 +11,6 @@ HOMEPAGE=		http://www.arrakis.es/~ninsesabe/pasmo/
 COMMENT=		Z80 cross assembler written in C++
 
 WRKSRC=		${WRKDIR}/pasmo-0.5.1
-USE_BUILDLINK3=		yes
 
 INSTALLATION_DIRS=	bin
 

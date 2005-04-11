@@ -8,7 +8,6 @@ MAINTAINER=	hauke@Espresso.Rhein-Neckar.DE
 HOMEPAGE=	http://www.l2tpd.org/
 COMMENT=	Implementation of the layer two tunneling protocol (l2tp)
 
-USE_BUILDLINK3=	YES
 USE_PKGINSTALL= YES
 NO_CONFIGURE=	YES
 

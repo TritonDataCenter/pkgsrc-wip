@@ -13,7 +13,6 @@ COMMENT=		Set of ldap administration scripts for samba
 DEPENDS+=		samba>=3.0.4:../../net/samba
 DEPENDS+=		p5-perl-ldap>=0.30nb1:../../databases/p5-perl-ldap
 
-USE_BUILDLINK3=		yes
 
 REPLACE_PERL=		"smbldap-migrate-accounts"
 REPLACE_PERL+=		"smbldap-groupshow"

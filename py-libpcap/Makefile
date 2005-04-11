@@ -11,7 +11,6 @@ HOMEPAGE=	http://pylibpcap.sourceforge.net/
 COMMENT=	Python module for libpcap
 
 PY_PATCHPLIST=	yes
-USE_BUILDLINK3=	yes
 
 do-build:
 	(cd ${WRKSRC} && ${PYTHONBIN} setup.py build)

@@ -11,7 +11,6 @@ COMMENT=	Front end to select loop for perl
 
 PKG_INSTALLATION_TYPES=	overwrite pkgviews
 
-USE_BUILDLINK3=		yes
 
 PERL5_PACKLIST=		${PERL5_SITEARCH}/auto/IO/Multiplex/.packlist
 

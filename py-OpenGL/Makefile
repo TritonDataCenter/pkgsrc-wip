@@ -11,7 +11,6 @@ HOMEPAGE=	http://pyopengl.sourceforge.net/
 COMMENT=	Pyhton bindings for OpenGL
 
 USE_X11=	YES
-USE_BUILDLINK3=	YES
 PYDISTUTILSPKG=	YES
 PY_PATCHPLIST=	YES
 

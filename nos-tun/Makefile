@@ -15,7 +15,6 @@ PKG_INSTALLATION_TYPES=	overwrite pkgviews
 ONLY_FOR_PLATFORM=      FreeBSD-*-* NetBSD-*-* OpenBSD-*-*
 
 WRKSRC=		${WRKDIR}/nos-tun
-USE_BUILDLINK3=	yes
 
 INSTALLATION_DIRS=	sbin man/man8
 

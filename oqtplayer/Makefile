@@ -11,7 +11,6 @@ MAINTAINER=		tech-pkg@NetBSD.org
 HOMEPAGE=		http://www.openquicktime.org/
 COMMENT=		Small OpenQuickTime (TM) player, using SDL
 
-USE_BUILDLINK3=		yes
 
 WRKSRC=			${WRKDIR}/OQTPlayer-0.5
 

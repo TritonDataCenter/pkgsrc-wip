@@ -26,7 +26,6 @@ _FETCH_MESSAGE= \
 	${ECHO} 'software from Open System Consultants Pty Ltd.';	\
 	${ECHO} '=============================================='
 
-USE_BUILDLINK3=		yes
 PERL5_PACKLIST=		${PERL5_SITEARCH}/auto/Radius/.packlist
 
 .include "../../lang/perl5/module.mk"

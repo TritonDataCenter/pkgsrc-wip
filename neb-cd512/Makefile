@@ -16,7 +16,6 @@ NO_CONFIGURE=		yes
 ONLY_FOR_PLATFORM=	NetBSD-*-*
 
 WRKSRC=			${WRKDIR}
-USE_BUILDLINK3=		yes
 INSTALLATION_DIRS=	bin man/man1
 
 do-install:

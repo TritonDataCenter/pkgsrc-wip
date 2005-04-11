@@ -11,7 +11,6 @@ COMMENT=	Library for private, deniable messaging
 PKG_INSTALLATION_TYPES=	overwrite pkgviews
 
 GNU_CONFIGURE=	yes
-USE_BUILDLINK3=	yes
 USE_LIBTOOL=	yes
 
 .include "../../security/libgpg-error/buildlink3.mk"

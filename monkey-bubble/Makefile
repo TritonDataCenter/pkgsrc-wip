@@ -9,7 +9,6 @@ MAINTAINER=		cube@NetBSD.org
 HOMEPAGE=		http://monkey-bubble.tuxfamily.org/
 COMMENT=		Bust'a'move clone written in C for GNOME2
 
-USE_BUILDLINK3=		yes
 USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=		yes
 GNU_CONFIGURE=		yes

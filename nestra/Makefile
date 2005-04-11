@@ -12,7 +12,6 @@ COMMENT=		NES emulator (without sound)
 ONLY_FOR_PLATFORM=	*-*-i386
 
 WRKSRC=			${WRKDIR}/nestra
-USE_BUILDLINK3=		yes
 USE_X11=		yes
 
 BUILD_TARGET=		nestra

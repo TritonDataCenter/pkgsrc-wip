@@ -11,7 +11,6 @@ COMMENT=		System-independent interface for user-level packet capture
 
 PKG_INSTALLATION_TYPES=	overwrite pkgviews
 
-USE_BUILDLINK3=		yes
 GNU_CONFIGURE=		yes
 USE_GNU_TOOLS+=		lex yacc m4
 USE_LIBTOOL=		yes

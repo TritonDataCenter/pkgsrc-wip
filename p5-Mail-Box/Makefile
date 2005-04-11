@@ -26,7 +26,6 @@ PERL5_REQD?=	5.8.0
 
 PKG_INSTALLATION_TYPES=	overwrite pkgviews
 
-USE_BUILDLINK3=	YES
 PERL5_PACKLIST=	${PERL5_SITEARCH}/auto/Mail/Box/.packlist
 
 # .include "../../lang/perl5/buildlink3.mk"

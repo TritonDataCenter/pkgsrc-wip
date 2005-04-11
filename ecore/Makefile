@@ -12,7 +12,6 @@ HOMEPAGE=		http://www.enlightenment.org/pages/ecore.html
 COMMENT=		Core events/X abstraction layer for Enlightenment
 
 GNU_CONFIGURE=		YES
-USE_BUILDLINK3=		YES
 USE_LIBTOOL=		YES
 USE_X11=		YES
 

@@ -13,7 +13,6 @@ COMMENT=	Treetool is for displaying, editing, and printing phylogenetic trees
 DECOMPRESS_CMD=	${CAT}
 USE_GNU_TOOLS+=	make
 
-USE_BUILDLINK3=	yes
 USE_X11=	yes
 MAKE_ENV+=	CFLAGS="-g -O0"
 

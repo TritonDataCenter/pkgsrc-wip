@@ -10,7 +10,6 @@ MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://www.keplerproject.org/luasql/
 COMMENT=		PostgreSQL bindings for LUA
 
-USE_BUILDLINK3=		yes
 
 BUILD_TARGET=		pglinux
 

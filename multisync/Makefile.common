@@ -9,7 +9,6 @@ EXTRACT_SUFX=		.tar.bz2
 MAINTAINER=		ola@mrEriksson.net
 HOMEPAGE=		http://multisync.sourceforge.net/
 
-USE_BUILDLINK3=		yes
 USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=		yes
 USE_X11=		yes

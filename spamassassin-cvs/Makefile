@@ -38,7 +38,6 @@ WRKSRC=		${WRKDIR}/${DISTNAME:S/-cvs//}
 
 PERL5_REQD+=    5.6.1	# MakeMaker >= 5.45 needed, >= 6.16 recommended
 
-USE_BUILDLINK3=		YES
 USE_PKGINSTALL=		YES
 PKG_SYSCONFSUBDIR=	spamassassin
 

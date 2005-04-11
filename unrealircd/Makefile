@@ -10,7 +10,6 @@ HOMEPAGE= 	http://www.unrealircd.com/
 COMMENT=	Advanced IRC server with IPv6 and SSL support
 
 GNU_CONFIGURE=	YES
-USE_BUILDLINK3=	YES
 USE_PKGINSTALL=	YES
 WRKSRC=		${WRKDIR}/Unreal3.2
 TRE_NEEDED=	0.7.2

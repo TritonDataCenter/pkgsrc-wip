@@ -10,7 +10,6 @@ HOMEPAGE=		http://www.grigna.com/diego/linux/vche/
 COMMENT=		Hex Editor for console
 
 USE_GNU_TOOLS+=	make
-USE_BUILDLINK3=	YES
 
 NOT_FOR_PLATFORM=	NetBSD-*-*
 

@@ -9,7 +9,6 @@ MAINTAINER=		ccatrian@eml.cc
 HOMEPAGE=		http://urlget.sourceforge.net/
 COMMENT=		Download manager for X
 
-USE_BUILDLINK3=		yes
 USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=		yes
 LIBTOOL_OVERRIDE=	${WRKSRC}/libtool

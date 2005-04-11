@@ -8,7 +8,6 @@ MAINTAINER=		tech-pkg@NetBSD.org
 HOMEPAGE=		http://www-users.cs.umn.edu/~wburdick
 COMMENT=		OpenGL based multipurpose image viewer
 
-USE_BUILDLINK3=		yes
 GNU_CONFIGURE=		yes
 CONFIG_STATUS_OVERRIDE= # defined
 

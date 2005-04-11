@@ -12,7 +12,6 @@ COMMENT=	The Program Base Library
 
 PKG_INSTALLATION_TYPES= overwrite pkgviews
 
-NO_BUILDLINK=	#defined
 NO_CONFIGURE=	#defined
 
 USE_GNU_TOOLS+=make

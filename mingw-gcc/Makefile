@@ -14,7 +14,6 @@ MAINTAINER=		dotz@irc.pl
 HOMEPAGE=		http://mingw.sf.net/
 COMMENT=		GNU C Compiler ported to win32 platforms
 
-USE_BUILDLINK3=		yes
 USE_GNU_TOOLS+=		make
 USE_PKGLOCALEDIR=      	yes
 GNU_CONFIGURE=		yes

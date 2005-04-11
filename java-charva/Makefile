@@ -12,7 +12,6 @@ HOMEPAGE=		http://www.pitman.co.za/projects/charva/
 COMMENT=		Java Windowing Toolkit for Text Terminals
 
 USE_JAVA=		YES
-USE_BUILDLINK3=		yes
 USE_GNU_TOOLS+=		make
 
 do-build:

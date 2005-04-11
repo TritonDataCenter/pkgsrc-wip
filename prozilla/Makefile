@@ -9,7 +9,6 @@ MAINTAINER=	 	low@ameba6.com
 HOMEPAGE=		http://www.gnu.org/directory/network/Tools/ProZilla.html
 COMMENT=		ProZilla is a multi-threaded download accelerator
 
-USE_BUILDLINK3=		yes
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 USE_GNU_TOOLS+=		make

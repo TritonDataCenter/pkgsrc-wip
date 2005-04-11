@@ -11,7 +11,6 @@ COMMENT=		System for debugging and profiling x86-Linux programs
 
 ONLY_FOR_PLATFORM=	Linux-*-*
 
-USE_BUILDLINK3=		YES
 GNU_CONFIGURE=		YES
 USE_GNU_TOOLS=		make
 

@@ -9,7 +9,6 @@ MAINTAINER=		reed@reedmedia.net
 HOMEPAGE=		http://kino.schirmacher.de/
 COMMENT=		Non-linear editor for Digital Video data
 
-USE_BUILDLINK3=		yes
 USE_X11=		yes
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes

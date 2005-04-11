@@ -11,7 +11,6 @@ HOMEPAGE=		http://www.lionking.org/%7Ejammet/temp/
 COMMENT=		Pitch control plugin for xmms
 
 WRKSRC=			${WRKDIR}/pitch
-USE_BUILDLINK3=		yes
 
 do-install:
 	${INSTALL_DATA}	${WRKSRC}/libpitch.so ${PREFIX}/lib/xmms/Effect/

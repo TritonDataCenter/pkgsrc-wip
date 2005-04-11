@@ -14,7 +14,6 @@ DEPENDS+=               dclib>=0.3.7:../../wip/dclib
 BUILD_DEPENDS+=         qt3-tools-3.*:../../x11/qt3-tools
 
 GNU_CONFIGURE=		YES
-USE_BUILDLINK3=		YES
 USE_LIBTOOL=		YES
 USE_X11=		YES
 USE_GNU_TOOLS+=		make

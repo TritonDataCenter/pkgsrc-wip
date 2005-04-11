@@ -11,7 +11,6 @@ COMMENT=		Message reports from CVS activity
 
 REPLACE_PERL+=		cvsreport
 USE_PERL5=		yes
-USE_BUILDLINK3=		yes
 NO_BUILD=#
 
 do-install:

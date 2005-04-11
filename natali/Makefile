@@ -8,7 +8,6 @@ MAINTAINER=	hauke@Espresso.Rhein-Neckar.DE
 HOMEPAGE=	http://ppr.trincoll.edu/
 COMMENT=	AT&T/Apple AppleTalk Library Interface for Netatalk
 
-USE_BUILDLINK3=	YES
 
 CONFLICTS=	netatalk-asun-[0-9]* netatalk-umich-[0-9]*
 

@@ -12,7 +12,6 @@ HOMEPAGE=		http://fasta.bioch.virginia.edu/
 COMMENT=		FASTA sequence comparison programs
 
 MAKEFILE=		Makefile.NetBSD
-USE_BUILDLINK3=		yes
 
 WRKSRC=			${WRKDIR}
 

@@ -8,7 +8,6 @@ MAINTAINER=	recht@NetBSD.org
 HOMEPAGE=	http://www.python.org/topics/database/
 COMMENT=	Python extension module for Berkeley DB 3 and 4
 
-USE_BUILDLINK3=	yes
 PYDISTUTILSPKG=	yes
 PYBINMODULE=	yes
 

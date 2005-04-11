@@ -15,7 +15,6 @@ COMMENT=	UML design tool environment with cognitive support
 DEPENDS+=	xerces-j>=1.4.4:../../wip/xerces-j
 DEPENDS+=	jakarta-log4j>=1.2.8:../../wip/jakarta-log4j
 
-USE_BUILDLINK3=		yes
 USE_JAVA=		run
 USE_X11=		yes
 NO_BUILD=		yes

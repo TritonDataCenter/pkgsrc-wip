@@ -11,7 +11,6 @@ COMMENT=	Perl TetriNET Server
 DEPENDS+=	p5-Config-IniFiles>=2.20:../../devel/p5-Config-IniFiles
 
 NO_BUILD=	YES
-USE_BUILDLINK3= YES
 USE_PKGINSTALL=	YES
 
 REPLACE_PERL=	${WRKSRC}/pts.pl

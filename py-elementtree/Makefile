@@ -13,7 +13,6 @@ COMMENT=		Read XML and HTML files into trees of Element objects
 
 PY_PATCHPLIST=		yes
 PYDISTUTILSPKG=		yes
-USE_BUILDLINK3=		yes
 
 .include "../../lang/python/extension.mk"
 .include "../../mk/bsd.pkg.mk"

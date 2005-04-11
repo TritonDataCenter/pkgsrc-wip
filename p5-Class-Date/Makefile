@@ -12,7 +12,6 @@ COMMENT=	Perl class for easy date and time manipulation
 
 PKG_INSTALLATION_TYPES=	overwrite pkgviews
 
-USE_BUILDLINK3=		YES
 PERL5_PACKLIST=		${PERL5_SITEARCH}/auto/Class/Date/.packlist
 
 .include "../../lang/perl5/module.mk"

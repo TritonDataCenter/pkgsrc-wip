@@ -12,7 +12,6 @@ COMMENT=	Easy Virtual domain support plugin for SquirrelMail
 
 DEPENDS+=   squirrelmail-compatibility>=1.3:../../wip/squirrelmail-compatibility
 
-USE_BUILDLINK3=	# defined
 
 WRKSRC=		${WRKDIR}
 

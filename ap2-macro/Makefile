@@ -11,7 +11,6 @@ COMMENT=        Apache module for using macros in config files
 
 CONFLICTS=	ap-macro-[0-9]*
 
-USE_BUILDLINK3=         yes
 NO_CONFIGURE=		yes
 
 APACHE_MODULE_NAME=     ${DISTNAME:C|-.*||}.so

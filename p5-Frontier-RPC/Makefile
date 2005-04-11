@@ -10,7 +10,6 @@ HOMEPAGE=		http://datetime.perl.org/
 COMMENT=		Perl module to handle client/server xmlrpc
 
 DEPENDS+=	p5-libwww-[0-9]*:../../www/p5-libwww
-USE_BUILDLINK3=	YES
 
 PERL5_PACKLIST=	${PERL5_SITEARCH}/auto/Frontier/RPC/.packlist
 

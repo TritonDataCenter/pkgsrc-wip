@@ -12,7 +12,6 @@ MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://ws.apache.org/xmlrpc/
 COMMENT=		Java implementation of XML-RPC
 
-USE_BUILDLINK3=		yes
 
 do-build:
 

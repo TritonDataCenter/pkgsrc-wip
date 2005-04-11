@@ -10,7 +10,6 @@ MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://www.cr0.net:8040/code/network/
 COMMENT=		Lightweight remote shel wity 128AES and file transfers
 
-USE_BUILDLINK3=		yes
 
 BUILD_TARGET=${LOWER_OPSYS}
 

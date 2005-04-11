@@ -9,7 +9,6 @@ MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://proxychains.sourceforge.net/
 COMMENT=			Chain multiple proxies in a transparent way
 
-USE_BUILDLINK3=		yes
 USE_PKGLOCALEDIR=	yes
 USE_GNU_TOOLS+=	make
 USE_LIBTOOL=		yes

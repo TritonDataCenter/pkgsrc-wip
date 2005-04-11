@@ -21,7 +21,6 @@ COMMENT=		Non-linear video and audio editor and compositor (unofficial)
 #WRKSRC=			${WRKDIR}/cinelerra-1.2.0
 WRKSRC=			${WRKDIR}/hvirtual
 USE_X11=		yes
-USE_BUILDLINK3=		yes
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 USE_GNU_TOOLS+=		make

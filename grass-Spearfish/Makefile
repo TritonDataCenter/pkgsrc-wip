@@ -12,7 +12,6 @@ MAINTAINER=		mchittur@cs.nmsu.edu
 HOMEPAGE=		http://grass.itc.it/sampledata/
 COMMENT=		Example data set for Grass 5.0
 
-USE_BUILDLINK3=		yes
 NO_CONFIGURE=		yes
 NO_BUILD=		yes
 

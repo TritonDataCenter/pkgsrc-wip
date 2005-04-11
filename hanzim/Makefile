@@ -10,7 +10,6 @@ MAINTAINER=	rxg@NetBSD.org
 HOMEPAGE=	http://zakros.ucsd.edu/~arobert/hanzim.html
 COMMENT=	Chinese character learning-aid program
 
-USE_BUILDLINK3=	yes
 USE_X11=	yes
 
 WRKSRC=		${WRKDIR}/Hanzim

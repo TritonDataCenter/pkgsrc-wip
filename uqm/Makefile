@@ -15,7 +15,6 @@ COMMENT=		Star Control 2
 
 PKG_INSTALLATION_TYPES=	overwrite pkgviews
 
-USE_BUILDLINK3=		YES
 USE_X11=		YES
 USE_GNU_TOOLS=		make
 WRKSRC=			${WRKDIR}/${PKGNAME}

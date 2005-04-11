@@ -10,7 +10,6 @@ MAINTAINER=		dotz@irc.pl
 HOMEPAGE=		http://visionegg.sourceforge.net/
 COMMENT=		Demonstration programs for py-visionegg
 
-USE_BUILDLINK3=		yes
 NO_BUILD=		# defined
 PLIST_SUBST+=		PYVERSSUFFIX=${PYVERSSUFFIX}
 MESSAGE_SUBST+=		PY_VE_DIR=${PY_VE_DEMO_DIR}

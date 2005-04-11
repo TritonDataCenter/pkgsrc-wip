@@ -12,7 +12,6 @@ COMMENT=	Simple presentation viewer that uses the DirectFB
 
 ONLY_FOR_PLATFORM=     Linux-*-*
 
-USE_BUILDLINK3=		yes
 USE_LIBTOOL=		yes
 GNU_CONFIGURE=		yes
 USE_GNU_TOOLS+=		make

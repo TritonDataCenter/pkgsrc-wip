@@ -10,7 +10,6 @@ MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://jakarta.apache.org/bcel/
 COMMENT=		ByteCode Engineering Library
 
-USE_BUILDLINK3=		yes
 
 do-build:
 

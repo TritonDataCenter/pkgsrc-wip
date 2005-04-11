@@ -10,7 +10,6 @@ MAINTAINER=		recht@NetBSD.org
 HOMEPAGE=		http://forcedattack.sourceforge.net/
 COMMENT=		Game in which you have to try to out-smart your opponent
 
-USE_BUILDLINK3=		yes
 
 PYTHON_PATCH_SCRIPTS=	4stattack.py
 

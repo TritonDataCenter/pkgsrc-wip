@@ -10,7 +10,6 @@ MAINTAINER=	tech-pkg@NetBSD.org
 HOMEPAGE=	http://diradmin.open-it.org/
 COMMENT=	Smart LDAP directory management tool
 
-USE_BUILDLINK3=		yes
 USE_DIRS+=		gnome1-1.5
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes

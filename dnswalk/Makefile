@@ -12,7 +12,6 @@ COMMENT=		DNS debugger
 
 DEPENDS+=		p5-Net-DNS>=0.42:../../net/p5-Net-DNS
 
-USE_BUILDLINK3=	YES
 USE_PERL5=		YES
 
 REPLACE_PERL=	dnswalk makereports

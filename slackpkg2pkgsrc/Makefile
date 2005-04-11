@@ -11,7 +11,6 @@ MAINTAINER=		dotz@irc.pl
 HOMEPAGE=		# none
 COMMENT=		Simple script for easy generation of Slackware binary packages
 
-USE_BUILDLINK3=		yes
 PY_PATCHPLIST=		yes
 NO_BUILD=		# defined
 PYTHON_PATCH_SCRIPTS=	slackpkg2pkgsrc.py

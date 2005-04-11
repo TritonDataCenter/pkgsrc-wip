@@ -10,7 +10,6 @@ MAINTAINER=		reed@reedmedia.net
 HOMEPAGE=		http://fbpanel.sourceforge.net/
 COMMENT=		Desktop panel with menu, pager, and other plugins
 
-USE_BUILDLINK3=		yes
 USE_GNU_TOOLS+=		make
 HAS_CONFIGURE=		yes
 CONFIGURE_ARGS+=	--prefix=${PREFIX}

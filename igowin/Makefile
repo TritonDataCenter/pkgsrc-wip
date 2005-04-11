@@ -36,7 +36,6 @@ DEPENDS+=		wine-[0-9]*:../../emulators/wine
 
 WRKSRC=			${WRKDIR}
 EXTRACT_CMD=		${EXTRACT_CMD.zip}
-NO_BUILDLINK=		yes
 NO_TOOLS=		yes
 NO_BUILD=		yes
 

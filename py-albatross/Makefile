@@ -12,7 +12,6 @@ COMMENT=	Toolkit for Stateful Web Applications
 
 PYDISTUTILSPKG=	yes
 PY_PATCHPLIST=	yes
-USE_BUILDLINK3=	yes
 USE_PKGINSTALL=	yes
 
 RUNTIME_DIR?=	/var/run/albatross

@@ -14,7 +14,6 @@ DEPENDS+=               gnuplot>=3.7:../../graphics/gnuplot
 DEPENDS+=               teTeX>=2.0:../../print/teTeX
 DEPENDS+=               Mesa>=6.0:../../graphics/Mesa
 
-USE_BUILDLINK3=		yes
 USE_PKGLOCALEDIR=       yes
 GNU_CONFIGURE=		yes
 USE_X11=		yes

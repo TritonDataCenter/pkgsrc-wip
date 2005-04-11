@@ -9,7 +9,6 @@ MAINTAINER=	dhowland@users.sourceforge.net
 HOMEPAGE=	http://www.no-ip.com/
 COMMENT=	Dynamic DNS update client from no-ip.com
 
-USE_BUILDLINK3=	YES
 USE_PKGINSTALL=	YES
 RCD_SCRIPTS=	noip
 

@@ -11,7 +11,6 @@ HOMEPAGE=		http://pysnmp.sourceforge.net/
 COMMENT=		Python SNMP framework
 
 PY_PATCHPLIST=  	yes
-USE_BUILDLINK3= 	yes
 
 do-build:
 	(cd ${WRKSRC} && ${PYTHONBIN} setup.py build)

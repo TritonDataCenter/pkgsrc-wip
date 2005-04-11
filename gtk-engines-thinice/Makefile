@@ -9,7 +9,6 @@ MAINTAINER=	snj@pobox.com
 HOMEPAGE=	http://thinice.sourceforge.net/
 COMMENT=	Simple, clean theme engine for gtk+ 1.2.x
 
-USE_BUILDLINK3=		YES
 USE_LIBTOOL=		YES
 GNU_CONFIGURE=		YES
 USE_GNU_TOOLS+=		make

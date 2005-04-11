@@ -9,7 +9,6 @@ HOMEPAGE=	http://www.openvrml.org/
 COMMENT=	Portable C++ library for displaying VRML97 files
 
 USE_X11=	YES
-USE_BUILDLINK3=	YES
 GNU_CONFIGURE=	YES
 CONFIGURE_ARGS+=--disable-script-node-java --disable-script-node-javascript
 USE_GNU_TOOLS+=	make

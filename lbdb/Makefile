@@ -13,7 +13,6 @@ COMMENT=		The little brother's database for the mutt mail reader
 
 DEPENDS+=	p5-perl-ldap-[0-9]*:../../databases/p5-perl-ldap
 
-USE_BUILDLINK3=		yes
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 USE_GNU_TOOLS+=		make

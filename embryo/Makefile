@@ -10,7 +10,6 @@ HOMEPAGE=		http://www.enlightenment.org/pages/embryo.html
 COMMENT=		Tiny scripting language for Enlightenment
 
 GNU_CONFIGURE=		YES
-USE_BUILDLINK3=		YES
 USE_LIBTOOL=		YES
 
 .include "../../devel/libltdl/buildlink3.mk"

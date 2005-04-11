@@ -9,7 +9,6 @@ MAINTAINER=	rxg@NetBSD.org
 HOMEPAGE=	http://www.opencjk.org/~yumj/project-chinput.html
 COMMENT=	Chinese input server
 
-USE_BUILDLINK3=	yes
 USE_X11BASE=	yes
 
 BUILD_TARGET=	chinput

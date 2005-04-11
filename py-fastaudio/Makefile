@@ -16,7 +16,6 @@ COMMENT=		Python bindings for portaudio library
 
 BUILD_DEPENDS=		${PYPKGPREFIX}-pyrex>=0.8.1:../../lang/py-pyrex
 
-USE_BUILDLINK3=		yes
 PY_PATCHPLIST=		yes
 PYDISTUTILSPKG=		yes
 MAKE_ENV+=		PTHREAD_LDFLAGS="${PTHREAD_LDFLAGS}"

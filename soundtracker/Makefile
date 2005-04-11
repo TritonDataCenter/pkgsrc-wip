@@ -9,7 +9,6 @@ MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://www.soundtracker.org/
 COMMENT=		Music tracker for XM and MOD files
 
-USE_BUILDLINK3=		yes
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 LIBS+=	${LIBOSSAUDIO}

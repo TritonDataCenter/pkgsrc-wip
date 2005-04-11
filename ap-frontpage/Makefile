@@ -14,7 +14,6 @@ COMMENT=	Improved mod_frontpage for Apache
 
 M_FPVERSION=	1.6.2
 
-USE_BUILDLINK3=	YES
 # APACHE_MODULE_NAME=	mod_frontpage.so
 
 # RUN_DEPENDS=	${FPSETPERM}:../../www/frontpage

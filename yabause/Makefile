@@ -9,7 +9,6 @@ MAINTAINER=		wiz@NetBSD.org
 HOMEPAGE=		http://yabause.sourceforge.net/
 COMMENT=		Sega Saturn emulator
 
-USE_BUILDLINK3=		yes
 GNU_CONFIGURE=		yes
 
 post-install:

@@ -11,7 +11,6 @@ HOMEPAGE=		http://pages.cpsc.ucalgary.ca/~aycock/spark/
 COMMENT=		Scanning, Parsing, and Rewriting Kit for Python
 
 NO_BUILD=	YES
-USE_BUILDLINK3= YES
 PY_PATCHPLIST=	YES
 PYTHON_VERSIONS_ACCEPTED=    23 22
 

@@ -13,7 +13,6 @@ COMMENT=		Advanced Revision Control System based on patches
 BUILD_DEPENDS+=		teTeX-bin>=1.0:../../print/teTeX-bin
 BUILD_DEPENDS+=		latex2html-[0-9]*:../../textproc/latex2html
 
-USE_BUILDLINK3=		yes
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 USE_GNU_TOOLS+=		make

@@ -10,7 +10,6 @@ HOMEPAGE=	http://www.usermode.org/code.html
 COMMENT=	Widget style and window decoration for KDE3
 
 GNU_CONFIGURE=		YES
-USE_BUILDLINK3=		YES
 USE_LIBTOOL=		YES
 USE_GNU_TOOLS+=		make
 USE_X11=		YES

@@ -9,7 +9,6 @@ MAINTAINER=		dawszy@arhea.pl
 HOMEPAGE=		http://libetpan.sourceforge.net/etpan/
 COMMENT=		Mail console client with S/MIME, PGP and bogofilter support
 
-USE_BUILDLINK3=		yes
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 

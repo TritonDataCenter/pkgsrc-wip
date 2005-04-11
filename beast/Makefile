@@ -11,7 +11,6 @@ COMMENT=	Bedevilled Audio System
 
 AUTOCONF_REQD=	2.13
 
-USE_BUILDLINK3=	yes
 USE_X11=	yes
 USE_LIBTOOL=	yes
 USE_GNU_TOOLS+=	make

@@ -9,7 +9,6 @@ MAINTAINER=	minskim@NetBSD.org
 HOMEPAGE=	http://members.chello.nl/~h.lai/gnome-clipboard-daemon/
 COMMENT=	Program that keeps the content of your X clipboard in memory
 
-USE_BUILDLINK3=	yes
 NO_CONFIGURE=	yes
 USE_X11=	yes
 

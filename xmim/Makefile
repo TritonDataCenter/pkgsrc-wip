@@ -11,7 +11,6 @@ HOMEPAGE=	 	http://videolab.uoregon.edu/
 COMMENT=		GUI interface for multicast MPEG-I stream viewer
 
 WRKSRC=			${WRKDIR}/mim-1.2
-USE_BUILDLINK3=		yes
 GNU_CONFIGURE=		yes
 CONFIGURE_ARGS+=	--enable-gui
 CONFIGURE_ARGS+=	--disable-gtktest

@@ -26,7 +26,6 @@ CONFIGURE_ARGS+=	--with-pax=${PAX}
 CONFIGURE_ARGS+=	--with-tar=${TAR}
 
 NO_PKGTOOLS_REQD_CHECK=	# defined
-NO_BUILDLINK=		# defined
 NO_CHECKSUM=		# defined
 NO_MTREE=		# defined
 # Removing this package would break pkgsrc, so allow this package to

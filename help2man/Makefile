@@ -12,7 +12,6 @@ COMMENT=		Generate simple manual pages from program output
 
 DEPENDS+=       	p5-gettext>=1.01:../../devel/p5-gettext
 
-USE_BUILDLINK3=		yes
 WRKSRC=			${WRKDIR}/${PKGNAME}
 GNU_CONFIGURE=		yes
 USE_PKGLOCALEDIR=	yes

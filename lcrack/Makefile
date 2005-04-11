@@ -11,7 +11,6 @@ COMMENT=		Generic password hash cracker
 
 WRKSRC=		${WRKDIR}/
 HAS_CONFIGURE=	yes
-USE_BUILDLINK3=		yes
 
 CONFIGURE_ARGS+=unknown  # talking with authors to solve this :)
 

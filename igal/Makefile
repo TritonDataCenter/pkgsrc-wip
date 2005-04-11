@@ -13,7 +13,6 @@ DEPENDS+=	ImageMagick>=5.0:../../graphics/ImageMagick
 
 NO_CONFIGURE=		YES
 NO_BUILD=		YES
-NO_BUILDLINK=		YES
 REPLACE_PERL=		igal
 USE_PERL5=		# defined
 USE_PKGLOCALEDIR=	YES

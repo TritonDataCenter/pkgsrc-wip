@@ -11,7 +11,6 @@ COMMENT=		Distributed fractal flame screensaver
 DEPENDS+=		xli-[0-9]*:../../graphics/xli
 DEPENDS+=		curl>=7.12.1:../../www/curl
 
-USE_BUILDLINK3=		YES
 USE_X11BASE=		YES
 GNU_CONFIGURE=		YES
 

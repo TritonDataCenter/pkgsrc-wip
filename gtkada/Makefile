@@ -10,7 +10,6 @@ MAINTAINER=		john@johnrshannon.com
 HOMEPAGE=		http://libre.act-europe.fr/GtkAda/
 COMMENT=		Ada95 graphical toolkit
 
-USE_BUILDLINK3=		yes
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 USE_GNU_TOOLS+=		make

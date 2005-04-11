@@ -15,7 +15,6 @@ BUILD_TARGET=	picasm
 WRKSRC=		${WRKDIR}
 
 USE_GNU_TOOLS+=	make
-USE_BUILDLINK3=	yes
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/picasm ${PREFIX}/bin/

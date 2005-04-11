@@ -9,7 +9,6 @@ MAINTAINER=	david@netbsd-fr.org
 HOMEPAGE=	http://www.engr.orst.edu/~simonsen/reminder
 COMMENT=	GKrellM plugin that reminds you of important events
 
-USE_BUILDLINK3=	YES
 
 .include "../../sysutils/gkrellm1/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

@@ -21,7 +21,6 @@ NO_BUILD=#
 NO_FETCH=#
 NO_CONFIGURE=#
 NO_MTREE=yes
-USE_BUILDLINK3=YES
 
 USE_PKGINSTALL=YES
 RESTRICTED="Redistribution of repackaged binaries not permitted"

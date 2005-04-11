@@ -9,7 +9,6 @@ MAINTAINER=		dotz@irc.pl
 HOMEPAGE=		http://www.muhri.net/
 COMMENT=		Allows quick & easy switching of GTK1 themes
 
-USE_BUILDLINK3=		YES
 USE_GNU_TOOLS+=		make
 
 do-install:

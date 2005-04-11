@@ -9,7 +9,6 @@ MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://wepcrack.sourceforge.net/
 COMMENT=		Open source tool for breaking 802.11 WEP secret keys
 
-USE_BUILDLINK3=	YES
 USE_PERL5=		YES
 REPLACE_PERL=	${WRKSRC}/*.pl
 

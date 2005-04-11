@@ -11,7 +11,6 @@ HOMEPAGE=	http://gwc.sourceforge.net/
 COMMENT=	Gnome Wave Cleaner: dehiss and declick .wav files
 
 GNU_CONFIGURE=	YES
-USE_BUILDLINK3=	YES
 USE_X11BASE=	YES
 
 post-patch:

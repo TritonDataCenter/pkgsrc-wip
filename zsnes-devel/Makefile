@@ -14,7 +14,6 @@ COMMENT=		Super NES emulator, development version
 BUILD_DEPENDS+=		nasm-[0-9]*:../../devel/nasm
 
 WRKSRC=			${WRKDIR}/zsnes/src
-USE_BUILDLINK3=		yes
 GNU_CONFIGURE=		# defined
 USE_GNU_TOOLS+=		make
 ONLY_FOR_PLATFORM=	*-*-i386

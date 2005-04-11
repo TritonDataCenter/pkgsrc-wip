@@ -9,7 +9,6 @@ HOMEPAGE= 	http://www.balabit.com/products/syslog_ng/
 COMMENT=	Syslog-ng tries to fill the gaps original syslogd's were lacking
 
 GNU_CONFIGURE=		YES
-USE_BUILDLINK3=		YES
 USE_PKGINSTALL=		YES
 RCD_SCRIPTS=		syslogng
 PKG_SYSCONFSUBDIR=	syslog-ng

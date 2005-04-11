@@ -11,7 +11,6 @@ MAINTAINER=		wiz@NetBSD.org
 HOMEPAGE=		http://www.geocities.co.jp/SiliconValley/5604/infones.html
 COMMENT=		Portable NES emulator
 
-USE_BUILDLINK3=		yes
 BUILD_DIRS=		${WRKSRC}/linux
 MAKE_VARS+=		INCLUDES="${CFLAGS} ${LIBOSSAUDIO}"
 

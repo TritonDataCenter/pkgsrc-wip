@@ -13,7 +13,6 @@ DEPENDS+=	pkg_tarup>=1.6.3:../../pkgtools/pkg_tarup
 DEPENDS+=	pkg_chk>=1.54:../../pkgtools/pkg_chk
 DEPENDS+=	pkglint>=3.94:../../pkgtools/pkglint
 
-NO_BUILDLINK=	yes
 NO_CONFIGURE=	yes
 NO_CHECKSUM=	yes
 NO_BUILD=	yes

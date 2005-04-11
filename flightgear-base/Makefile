@@ -12,7 +12,6 @@ COMMENT=	FlightGear Simulator (data files)
 
 WRKSRC=		${WRKDIR}/FlightGear-0.9.3/data
 NO_BUILD=	yes
-NO_BUILDLINK=	yes
 USE_LANGUAGES=	# empty
 
 FG_SHAREDIR=	${PREFIX}/lib/FlightGear

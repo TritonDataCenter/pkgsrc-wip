@@ -16,7 +16,6 @@ COMMENT=		Feature-packed game, like Nibbles or Tron clone
 BUILDLINK_DEPENDS.gettext+=	gettext-lib>=0.10.36
 
 WRKSRC=			${WRKDIR}
-USE_BUILDLINK3=		yes
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 

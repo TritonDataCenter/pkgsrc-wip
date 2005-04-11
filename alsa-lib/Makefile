@@ -17,7 +17,6 @@ COMMENT=		Libraries for the Advanced Linux Sound Architecture (ALSA)
 
 ONLY_FOR_PLATFORM=	Linux-*-*
 
-USE_BUILDLINK3=		yes
 USE_LIBTOOL=		yes
 PKGCONFIG_OVERRIDE+=	utils/alsa.pc.in
 GNU_CONFIGURE=		yes

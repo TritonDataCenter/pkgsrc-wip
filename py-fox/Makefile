@@ -11,7 +11,6 @@ HOMEPAGE=		http://fxpy.sourceforge.net/
 COMMENT=		Python bindings for the FOX toolkit
 
 USE_X11=		YES
-USE_BUILDLINK3=		YES
 PYDISTUTILSPKG=		YES
 
 pre-configure:

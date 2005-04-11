@@ -15,7 +15,6 @@ COMMENT=	Highly customizable threaded newsreader (PoLished version)
 
 PKG_SYSCONFSUBDIR=	slrn-pl
 USE_GNU_TOOLS+=		make
-USE_BUILDLINK3=		yes
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 CONFIGURE_ARGS+=--disable-inews \

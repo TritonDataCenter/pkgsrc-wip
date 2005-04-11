@@ -9,7 +9,6 @@ MAINTAINER=		ben@NetBSD.org
 HOMEPAGE=		http://arglist.com/guile/
 COMMENT=		Scheme Shell that runs in Guile
 
-USE_BUILDLINK3=		yes
 GNU_CONFIGURE=		yes
 
 .include "../../lang/guile/buildlink3.mk"

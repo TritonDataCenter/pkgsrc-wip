@@ -4,7 +4,6 @@
 PKGNAME=		php-fcgi-${PHP_BASE_VERS}
 COMMENT=		FastCGI interface for ${PKG_PHP}
 
-USE_BUILDLINK3=		YES
 LIBTOOL_OVERRIDE=	
 
 .include "../../lang/php/phpversion.mk"

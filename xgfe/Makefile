@@ -10,7 +10,6 @@ HOMEPAGE=		http://www.bl.physik.uni-muenchen.de/rechner/grafik/xgfe/xgfe.html
 COMMENT=		GUI front end for Gnuplot plotting package
 
 USE_X11=		yes
-USE_BUILDLINK3=		yes
 
 WRKSRC=			${WRKDIR}/xgfe-2.1/source
 

@@ -9,7 +9,6 @@ MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://acpid.sourceforge.net/
 COMMENT=		Linux ACPI event handler
 
-USE_BUILDLINK3=		yes
 USE_GNU_TOOLS=		make
 
 do-install:

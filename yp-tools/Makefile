@@ -15,7 +15,6 @@ COMMENT=		Linux NIS (YP) Tools
 
 ONLY_FOR_PLATFORM=	Linux-*-* # uses glibc header rpcsvc/ypclnt.h
 
-USE_BUILDLINK3=		yes
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 

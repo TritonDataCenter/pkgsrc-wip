@@ -12,7 +12,6 @@ COMMENT=	Validating XML parser for Python
 
 WRKSRC=		${WRKDIR}
 MAKE_ENV+=	LIBERROR=0
-USE_BUILDLINK3=	YES
 PYDISTUTILSPKG=	YES
 
 .include "../../lang/python/extension.mk"

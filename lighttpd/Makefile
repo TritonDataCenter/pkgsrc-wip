@@ -8,7 +8,6 @@ MAINTAINER=		socrtp@soclab.eu.org
 HOMEPAGE=		http://lighttpd.net/
 COMMENT=		Fast as lightning HTTP server
 
-USE_BUILDLINK3=		YES
 USE_LIBTOOL=		YES
 GNU_CONFIGURE=		YES
 USE_PKGINSTALL=		YES

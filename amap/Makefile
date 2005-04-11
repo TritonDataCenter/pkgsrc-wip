@@ -9,7 +9,6 @@ MAINTAINER=     adam@monkeybyte.org
 HOMEPAGE=       http://www.thc.org/
 COMMENT=        Applications and Services scanner
 
-USE_BUILDLINK3=	YES
 HAS_CONFIGURE=	YES
 
 CONFIGURE_ARGS+=	--prefix=${PREFIX}

@@ -11,7 +11,6 @@ MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://www.gnu.org/software/classpathx/jaxp/
 COMMENT=		XML extensions for GNU classpath
 
-USE_BUILDLINK3=		yes
 
 do-build:
 

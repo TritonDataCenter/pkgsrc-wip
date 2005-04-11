@@ -9,7 +9,6 @@ MAINTAINER=     adam@monkeybyte.org
 HOMEPAGE=       http://nemus.dllab.caltech.edu/avida/
 COMMENT=        Avida is an auto-adaptive genetic system
 
-USE_BUILDLINK3=         YES
 HAS_CONFIGURE= YES
 GNU_CONFIGURE=	YES
 CONFIGURE_ARGS= --enable-viewer

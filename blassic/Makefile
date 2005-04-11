@@ -10,7 +10,6 @@ MAINTAINER=		ivaniclixx@gmail.com
 HOMEPAGE=		http://blassic.org
 COMMENT=		Blassic is a classic Basic interpreter
 
-USE_BUILDLINK3=		yes
 GNU_CONFIGURE=		yes
 USE_X11=                yes
 

@@ -12,7 +12,6 @@ HOMEPAGE=		http://www.scons.org/
 COMMENT=		Build script generator
 
 USE_GNU_TOOLS+=		make
-USE_BUILDLINK3=		yes
 WRKSRC=			${WRKDIR}/Premake-1.2
 
 do-install:

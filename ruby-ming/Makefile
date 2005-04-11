@@ -9,7 +9,6 @@ MAINTAINER=	rasputnik@hellooperator.net
 HOMEPAGE=	http://madscientist.jp/~ikegami/ruby/ming/
 COMMENT=	Ruby extension to drive the Ming SWF library
 
-USE_BUILDLINK3=	yes
 USE_RUBY_SETUP=	yes
 VER=		0.1.6
 

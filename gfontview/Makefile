@@ -9,7 +9,6 @@ MAINTAINER=		ccatrian@eml.cc
 HOMEPAGE=		http://gfontview.sourceforge.net/
 COMMENT=		Outline font viewer for X11
 
-USE_BUILDLINK3=		yes
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 CONFIGURE_ARGS+=	--with-fontdir=${LOCALBASE}/share/ghostscript/fonts

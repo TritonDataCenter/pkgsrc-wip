@@ -10,7 +10,6 @@ MAINTAINER=	tnn@netilium.org
 HOMEPAGE=	http://www.audioscrobbler.com/
 COMMENT=	XMMS plugin for the Audioscrobbler music community
 
-USE_BUILDLINK3=		YES
 GNU_CONFIGURE=		YES
 USE_LIBTOOL=		YES
 

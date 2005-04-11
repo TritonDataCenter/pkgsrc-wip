@@ -12,7 +12,6 @@ HOMEPAGE=		http://xml.apache.org/dist/crimson/
 COMMENT=		XML parser for JAXP with DOM and SAX2.
 
 WRKSRC=		${WRKDIR}/crimson-1.1.3
-USE_BUILDLINK3=		yes
 
 do-build:
 

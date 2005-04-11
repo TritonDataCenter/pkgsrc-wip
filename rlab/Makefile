@@ -13,7 +13,6 @@ PKG_OPTIONS_VAR=	PKG_OPTIONS.rlab
 PKG_SUPPORTED_OPTIONS=	gnuplot plplot
 
 GNU_CONFIGURE=		yes
-USE_BUILDLINK3=		yes
 USE_LANGUAGES=		fortran c
 
 .if !defined(PKG_OPTIONS.rlab)

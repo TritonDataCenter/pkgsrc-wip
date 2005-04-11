@@ -9,6 +9,5 @@ HOMEPAGE=	http://daniel.haxx.se/projects/c-ares/
 COMMENT=	Asynchronous resolver library
 
 GNU_CONFIGURE=		YES
-USE_BUILDLINK3=		YES
 
 .include "../../mk/bsd.pkg.mk"

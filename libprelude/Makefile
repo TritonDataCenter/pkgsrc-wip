@@ -9,7 +9,6 @@ HOMEPAGE= 	http://www.prelude-ids.org/
 COMMENT=	Hybrid IDS
 
 GNU_CONFIGURE=		YES
-USE_BUILDLINK3=		YES
 USE_GNU_TOOLS+=		make
 USE_PKGINSTALL=         YES
 

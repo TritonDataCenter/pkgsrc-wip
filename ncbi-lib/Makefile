@@ -14,7 +14,6 @@ COMMENT=		Portable, modular software for molecular biology
 
 WRKSRC=			${WRKDIR}/ncbi
 DIST_SUBDIR=		${PKGNAME}
-USE_BUILDLINK3=		yes
 USE_X11=		yes
 
 MAKE_ENV+=		PREFIX=${PREFIX}

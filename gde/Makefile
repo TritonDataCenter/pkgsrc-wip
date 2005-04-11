@@ -13,7 +13,6 @@ COMMENT=		Genetic Data Environment
 WRKSRC=			${WRKDIR}/GDE
 USE_LINUX=		YES
 USE_X11=		YES
-USE_BUILDLINK3=		YES
 
 post-extract:
 	${MV} ${WRKSRC}/HGL_SRC/global_defs.h.orig \

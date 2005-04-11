@@ -13,7 +13,6 @@ COMMENT=	OpenGLUT is an open source evolution of the GLUT API
 
 PKG_INSTALLATION_TYPES=	overwrite pkgviews
 
-USE_BUILDLINK3=	yes
 USE_LIBTOOL=	yes
 GNU_CONFIGURE=	yes
 USE_X11=	yes

@@ -12,7 +12,6 @@ HOMEPAGE=		http://itext.sourceforge.net/
 COMMENT=		Java classes to generate PDF files on the fly
 
 WRKSRC=			${WRKDIR}
-USE_BUILDLINK3=		yes
 
 do-extract:
 

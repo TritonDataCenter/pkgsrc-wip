@@ -8,7 +8,6 @@ MAINTAINER=		peter@pointless.nl
 HOMEPAGE=		http://www.sentia.org/projects/ftpsesame/
 COMMENT=                Automatic packet filter configurator for FTP
 
-USE_BUILDLINK3=		yes
 USE_PKGINSTALL=		yes
 NO_CONFIGURE=		yes
 

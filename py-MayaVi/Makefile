@@ -12,7 +12,6 @@ COMMENT=		Scientific data visualizer written in Python
 
 DEPENDS=	${PYPKGPREFIX}-vtkmodule>=4.2:../../wip/vtk-python
 
-USE_BUILDLINK3=		yes
 PY_PATCHPLIST=		yes
 PYDISTUTILSPKG=		yes
 

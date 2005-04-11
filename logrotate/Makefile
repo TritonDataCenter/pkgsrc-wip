@@ -12,7 +12,6 @@ COMMENT=		Daemon to rotate, compress, remove and mail system log files
 
 BUILD_DEPENDS+=		rpm2pkg>=2.0:../../pkgtools/rpm2pkg
 
-USE_BUILDLINK3=		yes
 USE_GNU_TOOLS+=		make
 NO_EXPORT_CPP=		yes
 MAKE_ENV+=		"BASEDIR=${PREFIX}"

@@ -13,7 +13,6 @@ COMMENT=		GTK2 frontend for CD writting and audio conversion
 DEPENDS+=		sox>12:../../audio/sox
 DEPENDS+=		dvd+rw-tools>5.21:../../sysutils/dvd+rw-tools
 
-USE_BUILDLINK3=		yes
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 USE_GNU_TOOLS+=		make

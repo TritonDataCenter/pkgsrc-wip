@@ -11,7 +11,6 @@ MAINTAINER=		reed@reedmedia.net
 HOMEPAGE=		http://kazehakase.sourceforge.jp/
 COMMENT=		Web browser with multiple layout engines support
 
-USE_BUILDLINK3=		yes
 USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=		yes
 LIBTOOL_OVERRIDE=	${WRKSRC}/libtool

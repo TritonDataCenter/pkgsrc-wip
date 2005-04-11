@@ -12,7 +12,6 @@ COMMENT=		Molecular dynamics package
 DEPENDS+=               fftw2>=2.1.5:../../math/fftw2
 DEPENDS+=               binutils>=2.10.91:../../devel/binutils
 
-USE_BUILDLINK3=		yes
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 

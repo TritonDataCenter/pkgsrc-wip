@@ -12,7 +12,6 @@ COMMENT=		Keys setup program for Enlightenment
 DEPENDS+=		enlightenment-0.16.*:../../wm/enlightenment
 
 USE_LIBTOOL=		YES
-USE_BUILDLINK3=		YES
 USE_X11=		YES
 
 do-install:

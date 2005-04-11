@@ -10,7 +10,6 @@ MAINTAINER=	tech-pkg@NetBSD.org
 HOMEPAGE=	http://projects.o-hand.com/matchbox/
 COMMENT=	Collection of themes for Matchbox
 
-USE_BUILDLINK3=		yes
 USE_DIRS+=		gnome2-1.5
 USE_LIBTOOL=		yes
 GNU_CONFIGURE=		yes

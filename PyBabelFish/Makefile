@@ -12,7 +12,6 @@ MAINTAINER=		dotz@irc.pl
 HOMEPAGE=		http://pythonol.sourceforge.net/
 COMMENT=		Gtk-based frontend for several translation services on web
 
-USE_BUILDLINK3=		yes
 PY_PATCHPLIST=		yes
 NO_CONFIGURE=		yes
 

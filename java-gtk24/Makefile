@@ -13,7 +13,6 @@ COMMENT=		Java bindings for GTK+2
 
 DEPENDS+=       jikes-[0-9]*:../../lang/jikes
 
-USE_BUILDLINK3=		yes
 GNU_CONFIGURE=YES
 USE_GNU_TOOLS+=make
 CONFIGURE_ARGS+=--without-gcj-compile

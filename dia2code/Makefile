@@ -9,7 +9,6 @@ MAINTAINER=		dprice@cs.nmsu.edu
 HOMEPAGE=		http://dia2code.sourceforge.net/
 COMMENT=		Small utility used to generate code from a Dia diagram
 
-USE_BUILDLINK3=		yes
 GNU_CONFIGURE=		yes
 
 pre-build:

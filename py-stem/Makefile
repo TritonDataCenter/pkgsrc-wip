@@ -10,7 +10,6 @@ MAINTAINER=		dotz@irc.pl
 HOMEPAGE=		http://www.alobbs.com//pystem/
 COMMENT=		Binding of the Porter stemming algorithm to Python
 
-USE_BUILDLINK3=		yes
 PY_PATCHPLIST=		# defined
 # How the heck do I get Python include directory?!
 CFLAGS+=		-I. -I${PREFIX}/include/python${PYVERSSUFFIX}

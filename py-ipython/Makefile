@@ -14,7 +14,6 @@ CONFLICTS=              py*-IPython-*
 
 DEPENDS+=		${PYPKGPREFIX}-readline>=0:../../devel/py-readline
 
-USE_BUILDLINK3=		yes
 PY_PATCHPLIST=		yes
 PYDISTUTILSPKG=		yes
 

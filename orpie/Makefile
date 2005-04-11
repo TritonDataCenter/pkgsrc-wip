@@ -9,7 +9,6 @@ MAINTAINER=	tnn@netilium.org
 HOMEPAGE=	http://www.eecs.umich.edu/~pelzlpj/orpie/
 COMMENT=	Curses-based reverse polish notation (RPN) calculator
 
-USE_BUILDLINK3=		YES
 GNU_CONFIGURE=		YES
 USE_GNU_TOOLS+=		make
 

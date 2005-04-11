@@ -15,7 +15,6 @@ COMMENT=		Jalview is a multiple alignment editor written in java
 USE_JAVA=		run
 NO_CONFIGURE=		yes
 NO_BUILD=		yes
-USE_BUILDLINK3=		yes
 
 post-extract:
 	${MV} ${WRKSRC}/jalview.sh ${WRKSRC}/jalview.sh.in

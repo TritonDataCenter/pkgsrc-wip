@@ -10,7 +10,6 @@ HOMEPAGE=	http://www.busybox.net/
 COMMENT=	Embedded DHCP Client/Server
 
 USE_GNU_TOOLS+=	make
-USE_BUILDLINK3=	yes
 
 ONLY_FOR_PlATFORM=	Linux-*-*
 

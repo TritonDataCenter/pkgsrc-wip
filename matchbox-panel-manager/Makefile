@@ -10,7 +10,6 @@ MAINTAINER=	tech-pkg@NetBSD.org
 HOMEPAGE=	http://projects.o-hand.com/matchbox/
 COMMENT=	Manager panel for the Matchbox desktop
 
-USE_BUILDLINK3=	yes
 USE_DIRS+=	gnome2-1.5
 USE_X11=	yes
 GNU_CONFIGURE=	yes

@@ -11,7 +11,6 @@ HOMEPAGE=	http://palm-db-tools.sourceforge.net/
 COMMENT=	Tools to convert to/from Palm OS databases
 
 USE_GNU_TOOLS+=	make
-USE_BUILDLINK3=	YES
 USE_LIBTOOL=	YES
 LTCONFIG_OVERRIDE=${WRKSRC}/ltconfig
 

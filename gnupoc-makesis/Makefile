@@ -15,7 +15,6 @@ USE_GNU_TOOLS+=	make
 ONLY_FOR_PLATFORM+=	Linux-*-* # Need to check swprintf on other OSs
 
 WRKSRC=		${WRKDIR}/makesis-2.0.0
-USE_BUILDLINK3=		yes
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/src/makesis ${PREFIX}/bin/

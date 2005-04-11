@@ -12,7 +12,6 @@ COMMENT=		Set of Python modules designed for writing games
 
 PY_PATCHPLIST=		yes
 PYDISTUTILSPKG=		yes
-USE_BUILDLINK3=		yes
 
 PYTHON_VERSIONS_ACCEPTED= 23 22
 

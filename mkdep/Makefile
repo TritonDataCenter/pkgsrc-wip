@@ -11,7 +11,6 @@ COMMENT=		Fast mkdep
 
 NO_CHECKSUM=		# defined
 NO_CONFIGURE=		YES
-USE_BUILDLINK3=		yes
 
 do-extract:
 	@${CP} -R ${FILESDIR} ${WRKSRC}

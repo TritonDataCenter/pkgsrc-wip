@@ -12,7 +12,6 @@ MAINTAINER=		dotz@irc.pl
 HOMEPAGE=		http://www.geocities.com/anil_rvce/kpanta.html
 COMMENT=		AntiChess - like ordinary chess, but the objective is to loose pieces
 
-USE_BUILDLINK3=		yes
 GNU_CONFIGURE=		# defined
 
 # propably ${TAR} options include extraction to a specified dir

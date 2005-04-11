@@ -13,7 +13,6 @@ COMMENT=		Network API translation layer to insulate X
 
 PKG_INSTALLATION_TYPES=	overwrite pkgviews
 
-USE_BUILDLINK3=		yes
 GNU_CONFIGURE=		yes
 
 PKGCONFIG_OVERRIDE+=	xtrans.pc.in

@@ -11,7 +11,6 @@ COMMENT=		User administration and passwd database tools for Linux
 
 ONLY_FOR_PLATFORM=	Linux-*-* # Linux shadow format
 
-USE_BUILDLINK3=		YES
 GNU_CONFIGURE=		YES
 
 .include "../../mk/bsd.prefs.mk"

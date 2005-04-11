@@ -10,7 +10,6 @@ MAINTAINER=	pancake@phreaker.net
 HOMEPAGE=	http://lde.sourceforge.net
 COMMENT=	Curses based file system viewer/editor for Linux
 
-USE_BUILDLINK3=	YES
 USE_NCURSES=	YES # missing function termname
 GNU_CONFIGURE=	YES
 USE_GNU_TOOLS+=	make

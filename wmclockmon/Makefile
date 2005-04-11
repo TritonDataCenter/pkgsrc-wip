@@ -9,7 +9,6 @@ MAINTAINER=	poff@sixbit.org
 HOMEPAGE=	http://tnemeth.free.fr/projets/dockapps.html
 COMMENT=	Windowmaker dockapp for time/date
 
-USE_BUILDLINK3= yes
 USE_X11=	yes
 GNU_CONFIGURE=	yes
 

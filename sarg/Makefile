@@ -20,7 +20,6 @@ CONFIGURE_ARGS+=	--enable-bindir=${PREFIX}/sbin			\
 			--enable-sysconfdir=${DATADIR}			\
 			--enable-htmldir=${SARG_REPORTSDIR}
 
-USE_BUILDLINK3=		yes
 USE_PKGINSTALL=		yes
 
 PKG_SYSCONFSUBDIR=	sarg

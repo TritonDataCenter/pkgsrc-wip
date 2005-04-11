@@ -10,7 +10,6 @@ MAINTAINER=	packages@NetBSD.org
 # XXX: HOMEPAGE=	http://www.anzen.com/research/nidsbench/
 COMMENT=	Tool for testing network IDS implementations
 
-USE_BUILDLINK3=	yes
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS+=	--with-libnet=${BUILDLINK_PREFIX.libnet}
 CONFIGURE_ARGS+=	--with-libpcap=${BUILDLINK_PREFIX.libpcap}

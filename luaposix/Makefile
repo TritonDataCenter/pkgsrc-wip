@@ -12,7 +12,6 @@ HOMEPAGE=		http://www.tecgraf.puc-rio.br/~diego/luasocket/new/
 COMMENT=		POSIX library for Lua
 
 USE_GNU_TOOLS+=		make
-USE_BUILDLINK3=		YES
 
 do-install:
 	${INSTALL_DATA} ${WRKSRC}/lposix.so ${PREFIX}/lib/libluaposix.so

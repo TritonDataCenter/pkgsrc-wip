@@ -9,7 +9,6 @@ HOMEPAGE=       http://netdragon.sourceforge.net/
 COMMENT=        Interactive eyecandy for your KDE desktop
 
 USE_GNU_TOOLS+=	make
-USE_BUILDLINK3= YES
 GNU_CONFIGURE=	YES
 CONFIGURE_ARGS+=--with-pythondir=${PREFIX}
 USE_LIBTOOL=	yes

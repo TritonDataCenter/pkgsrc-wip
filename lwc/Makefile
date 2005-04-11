@@ -10,7 +10,6 @@ MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://students.ceid.upatras.gr/~sxanth/lwc/
 COMMENT=		Lightweight C++
 
-USE_BUILDLINK3=		yes
 
 BUILD_TARGET= objdir/lwc
 SUBST_CLASSES=gcc

@@ -11,7 +11,6 @@ HOMEPAGE=	http://www.squirrelmail.org/
 COMMENT=	SASL password changing plugin for SquirrelMail
 
 NO_CONFIGURE=	YES
-USE_BUILDLINK3=	# defined
 USE_PKGINSTALL=YES
 
 .include "../../mk/bsd.prefs.mk"

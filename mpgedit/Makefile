@@ -12,7 +12,6 @@ MAINTAINER=		wiz@NetBSD.org
 HOMEPAGE=		http://www.mpgedit.org/mpgedit/
 COMMENT=		MPEG audio file editor
 
-USE_BUILDLINK3=		yes
 MAKEFILE=		makefile.linux
 
 do-install:

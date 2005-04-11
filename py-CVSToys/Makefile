@@ -11,7 +11,6 @@ MAINTAINER=		dotz@irc.pl
 HOMEPAGE=		http://twistedmatrix.com/users/acapnotic/wares/code/CVSToys/
 COMMENT=		Watch CVS tree changes on web, RSS, list or IRC
 
-USE_BUILDLINK3=		yes
 PY_PATCHPLIST=		yes
 PYDISTUTILSPKG=		yes
 

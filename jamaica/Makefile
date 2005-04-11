@@ -14,7 +14,6 @@ COMMENT=		JVM Macro Assembler language
 DEPENDS+=		java-bcel>=5.1:../../wip/java-bcel
 DEPENDS+=		java-asm>=1.4.2:../../wip/java-asm
 
-USE_BUILDLINK3=		yes
 
 do-build:
 

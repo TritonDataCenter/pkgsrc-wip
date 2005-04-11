@@ -12,7 +12,6 @@ COMMENT=		Shared data cache using memory mapped files
 
 PKG_INSTALLATION_TYPES=	overwrite pkgviews
 
-USE_BUILDLINK3=		YES
 PERL5_PACKLIST=		${PERL5_SITEARCH}/auto/Cache/Mmap/.packlist
 
 .include "../../lang/perl5/module.mk"

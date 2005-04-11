@@ -10,7 +10,6 @@ MAINTAINER=		dotz@irc.pl
 HOMEPAGE=		http://leo.sourceforge.net/
 COMMENT=		Programmer's editor and a flexible browser
 
-USE_BUILDLINK3=		yes
 NO_BUILD=	# defined
 PYTHON_PATCH_SCRIPTS=	src/leo.py
 

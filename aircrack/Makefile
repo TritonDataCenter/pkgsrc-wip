@@ -10,7 +10,6 @@ MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://www.cr0.net:8040/code/network/aircrack/
 COMMENT=		802.11 WEP key cracker
 
-USE_BUILDLINK3=		yes
 NO_CONFIGURE=		yes
 
 SUBST_CLASSES=pfx

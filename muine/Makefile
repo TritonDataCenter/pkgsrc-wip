@@ -10,7 +10,6 @@ HOMEPAGE=	http://muine.gooeylinux.org/
 COMMENT=	Simple and intuitive music player for GNOME
 
 GNU_CONFIGURE=		YES
-USE_BUILDLINK3=		YES
 USE_LIBTOOL=		YES
 USE_PKGLOCALEDIR=	YES
 

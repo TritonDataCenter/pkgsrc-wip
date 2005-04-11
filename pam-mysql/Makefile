@@ -10,7 +10,6 @@ HOMEPAGE=	http://pam-mysql.sourceforge.net/
 COMMENT=	PAM module for authenticating with MySQL
 
 WRKSRC=		${WRKDIR}/pam_mysql
-USE_BUILDLINK3=	YES
 
 DOCDIR=		${PREFIX}/share/doc/pam-mysql
 

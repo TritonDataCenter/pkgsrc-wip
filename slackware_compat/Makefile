@@ -19,7 +19,6 @@ EXTRACT_ONLY=		# empty
 NO_CHECKSUM=		yes
 NO_CONFIGURE=		yes
 NO_BUILD=		yes
-NO_BUILDLINK=		yes
 NO_MTREE=		yes
 
 do-install:	# empty

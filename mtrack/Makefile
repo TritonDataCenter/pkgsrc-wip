@@ -9,7 +9,6 @@ MAINTAINER=		dawszy@arhea.pl
 HOMEPAGE=		http://www.qsl.net/g4klx/
 COMMENT=		Satellite tracking program for amateurs
 
-USE_BUILDLINK3=		yes
 NO_CONFIGURE=		yes
 
 pre-build:

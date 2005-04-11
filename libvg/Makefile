@@ -10,7 +10,6 @@ HOMEPAGE=		http://www.7a69ezine.org/project/libvg/
 COMMENT=		High-level ptrace library
 
 WRKSRC=		${WRKDIR}/libvg/src
-USE_BUILDLINK3=		yes
 BUILD_TARGET= ${LOWER_OPSYS}
 ONLY_FOR_PLATFORM= FreeBSD-*-* NetBSD-*-* OpenBSD-*-* Linux-*-*
 

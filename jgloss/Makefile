@@ -10,7 +10,6 @@ MAINTAINER=		tech-pkg@NetBSD.org
 HOMEPAGE=		http://jgloss.sourceforge.net/
 COMMENT=		Add reading and translation annotations in a Japanese text document
 
-NO_BUILDLINK=		yes
 NO_BUILD=		yes
 USE_JAVA=		run
 PKG_JVMS_ACCEPTED=	sun-jdk14

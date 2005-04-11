@@ -11,7 +11,6 @@ MAINTAINER=		dieter.NetBSD@pandora.be
 HOMEPAGE=		http://www.artifex.com/downloads/
 COMMENT=		PCL-5 and PCL-XL interpreter
 
-USE_BUILDLINK3=		yes
 
 USE_GNU_TOOLS+=make
 BUILD_TARGET=pcl6

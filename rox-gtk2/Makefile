@@ -12,7 +12,6 @@ COMMENT=	RISC OS-like filer for X
 
 DEPENDS+=	shared-mime-info>=0.12:../../databases/shared-mime-info
 
-USE_BUILDLINK3=	yes
 USE_X11=	yes
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS+=--enable-rox

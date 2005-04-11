@@ -10,7 +10,6 @@ MAINTAINER=	eric@cirr.com
 HOMEPAGE=	http://www.squirrelmail.org/
 COMMENT=	Previous version compatibility plugin for SquirrelMail
 
-USE_BUILDLINK3=	# defined
 
 WRKSRC=		${WRKDIR}
 

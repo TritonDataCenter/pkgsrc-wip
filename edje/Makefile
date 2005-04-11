@@ -10,7 +10,6 @@ HOMEPAGE=		http://www.enlightenment.org/pages/edje.html
 COMMENT=		Complex Graphical Design/Layout Engine
 
 GNU_CONFIGURE=		YES
-USE_BUILDLINK3=		YES
 USE_LIBTOOL=		YES
 USE_X11=		YES
 

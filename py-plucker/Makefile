@@ -13,7 +13,6 @@ COMMENT=	Set of tools converting web pages to Plucker format
 CONFLICTS=	py*-plucker-[0-9]*
 
 WRKSRC=		${WRKDIR}/${DISTNAME:S/_parser//}
-USE_BUILDLINK3=	yes
 USE_PKGINSTALL=	yes
 NO_BUILD=	yes
 

@@ -12,7 +12,6 @@ COMMENT=		Graphics Program for manipulating 3D biological macromolecules
 
 USE_X11=		yes
 USE_LIBTOOLS=		yes
-USE_BUILDLINK3=		yes
 
 WRKSRC=			${WRKDIR}
 

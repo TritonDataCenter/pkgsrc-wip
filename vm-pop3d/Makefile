@@ -13,7 +13,6 @@ MAINTAINER=		reed@reedmedia.net
 HOMEPAGE=		http://www.reedmedia.net/software/virtualmail-pop3d/
 COMMENT=		POP3 server with support for virtual mail accounts
 
-USE_BUILDLINK3=		YES
 GNU_CONFIGURE=		YES
 
 .include "../../mk/bsd.prefs.mk"

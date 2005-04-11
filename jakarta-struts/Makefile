@@ -9,7 +9,6 @@ MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://apache.rediris.es/jakarta/struts/binaries/
 COMMENT=		struts is struts xD
 
-USE_BUILDLINK3=		yes
 
 do-build:
 

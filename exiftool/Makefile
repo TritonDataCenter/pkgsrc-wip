@@ -9,7 +9,6 @@ MAINTAINER=	gdt@ir.bbn.com
 HOMEPAGE=	http://owl.phy.queensu.ca/~phil/exiftool/
 COMMENT=	Perl module and program to read EXIF information
 
-USE_BUILDLINK3=	YES
 PERL5_PACKLIST=	${PERL5_SITEARCH}/auto/Image/ExifTool/.packlist
 
 REPLACE_PERL=	exiftool

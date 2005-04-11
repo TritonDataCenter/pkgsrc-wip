@@ -12,7 +12,6 @@ HOMEPAGE=	http://pekwm.org/
 COMMENT=	Window manager based on aewm++ (CVS version)
 
 GNU_CONFIGURE=	    yes
-USE_BUILDLINK3=	    yes
 USE_GNU_TOOLS+=	    make
 USE_X11=	    yes
 USE_PERL5=	    run

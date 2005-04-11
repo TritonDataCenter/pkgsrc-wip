@@ -14,7 +14,6 @@ CONFLICTS+=		XFree86-libs-[0-9]*
 
 PKG_INSTALLATION_TYPES=	overwrite pkgviews
 
-USE_BUILDLINK3=		yes
 PKGCONFIG_OVERRIDE+=	xproto.pc.in
 GNU_CONFIGURE=		yes
 

@@ -13,7 +13,6 @@ COMMENT=	Simple but powerful audio player
 
 PTHREAD_OPTS=	require
 
-USE_BUILDLINK3=	yes
 GNU_CONFIGURE=	yes
 USE_GNU_TOOLS+=	make
 USE_X11=	yes

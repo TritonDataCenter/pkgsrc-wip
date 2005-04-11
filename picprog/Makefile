@@ -10,6 +10,5 @@ HOMEPAGE=		http://hyvatti.iki.fi/~jaakko/pic/picprog.html
 COMMENT=		pic16xxx microcontroller programmer for JDM (TE-20)
 
 USE_GNU_TOOLS+=	make
-USE_BUILDLINK3=	yes
 
 .include "../../mk/bsd.pkg.mk"

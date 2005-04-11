@@ -9,7 +9,6 @@ MAINTAINER=		tech-pkg@NetBSD.org
 HOMEPAGE=		http://robert.cheramy.net/ipfm/
 COMMENT=		Bandwidth analysis tool
 
-USE_BUILDLINK3=		yes
 USE_PKGINSTALL=		yes
 
 GNU_CONFIGURE=		yes

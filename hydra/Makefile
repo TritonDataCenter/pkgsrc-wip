@@ -14,7 +14,6 @@ COMMENT=	Login password cracker
 .include "../../mk/bsd.prefs.mk"
 
 GNU_CONFIGURE=	YES
-USE_BUILDLINK3=	YES
 BUILD_TARGET=	all ssl
 
 SUBST_CLASSES=		build

@@ -11,7 +11,6 @@ PKGNAME=		qcad-2.0.4.0
 
 COMMENT=		2D CAD system
 
-USE_BUILDLINK3=		yes
 USE_X11=		yes
 GNU_CONFIGURE=		yes
 USE_GNU_TOOLS+= 	make

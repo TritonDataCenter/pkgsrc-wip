@@ -8,7 +8,6 @@ MAINTAINER=		snj@NetBSD.org
 HOMEPAGE=		http://toppler.sourceforge.net/
 COMMENT=		Tower climbing game
 
-USE_BUILDLINK3=		YES
 GNU_CONFIGURE=		YES
 
 .include "../../devel/zlib/buildlink3.mk"

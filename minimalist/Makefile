@@ -10,7 +10,6 @@ MAINTAINER=	pancake@phreaker.net
 HOMEPAGE=	http://www.mml.org.ua/LIST/
 COMMENT=	Minimalistic Mailing Lists Manager
 
-USE_BUILDLINK3= YES
 USE_PERL5=	YES
 REPLACE_PERL=	${WRKSRC}/minimalist.pl
 REPLACE_PERL+=	${WRKSRC}/contrib/minimalist_request.pl

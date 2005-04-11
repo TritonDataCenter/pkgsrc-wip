@@ -8,7 +8,6 @@ MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=fluxspace/}
 MAINTAINER=		poff@sixbit.org
 COMMENT=		Fluxbox workspace manager, environment
 
-USE_BUILDLINK3=	YES
 GNU_CONFIGURE=	YES
 USE_X11=		YES
 USE_GNU_TOOLS+=		make
