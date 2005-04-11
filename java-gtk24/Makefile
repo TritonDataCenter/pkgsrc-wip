@@ -1,8 +1,8 @@
 # $NetBSD$
 #
 
-DISTNAME=		libgtk-java-2.6.0
-PKGNAME=		java-gtk24-2.6.0
+DISTNAME=		libgtk-java-2.6.2
+PKGNAME=		java-gtk24-2.6.2
 CATEGORIES=		wip x11
 MASTER_SITES=		ftp://ftp.gnome.org/pub/GNOME/sources/libgtk-java/2.6/
 EXTRACT_SUFX=		.tar.bz2
