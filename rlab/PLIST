@@ -1,11 +1,9 @@
 @comment $NetBSD$
 bin/${PKGNAME}
 bin/rlab2
-lib/${PKGNAME}/Makefile
-lib/${PKGNAME}/Makefile.in
-lib/${PKGNAME}/config.h
-lib/${PKGNAME}/rlib/gp-compat.r
 lib/${PKGNAME}/rlib/plot.r
-lib/rlab2
 man/man1/rlab2.1
+@dirrm lib/${PKGNAME}/rlib/doc/help
+@dirrm lib/${PKGNAME}/rlib/doc
+@dirrm lib/${PKGNAME}/rlib
 @dirrm lib/${PKGNAME}
