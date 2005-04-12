@@ -1,17 +1,16 @@
 # $NetBSD$
 #
 
-DISTNAME=	mutella-0.4.3
+DISTNAME=	mutella-0.4.5
 CATEGORIES=	net www
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=mutella/}
 
 MAINTAINER=	airhead@users.sourceforge.net
-HOMEPAGE=	http://mutella.sourceforge.net
+HOMEPAGE=	http://mutella.sourceforge.net/
 COMMENT=	Console mode Gnutella client with optional HTTP interface
 
 GNU_CONFIGURE=		yes
 USE_LIBTOOL=		yes
-GNU_CONFIGURE=		yes
 
 PTHREAD_OPTS+=		require
 
