@@ -12,7 +12,6 @@ COMMENT=		MenuMaker is written in Python and generates menu for XWindow managers
 PYDISTUTILSPKG=		yes
 PYBINMODULE=    	yes
 PYSETUPOPTARGS?=       
-#USE_BUILDLINK3=        yes
 PY_PATCHPLIST=          yes
 
 .include "../../lang/python/extension.mk"
