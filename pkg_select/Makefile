@@ -11,7 +11,7 @@ COMMENT=	Curses based pkgsrc system browser / manager
 
 PKG_INSTALLATION_TYPES=	overwrite pkgviews
 
-ONLY_FOR_PLATFORM=      NetBSD-*-* FreeBSD-*-* Darwin-*-*
+ONLY_FOR_PLATFORM=      NetBSD-[2-9]*-* FreeBSD-*-* Darwin-*-*
 
 NO_CONFIGURE=	yes
 NO_CHECKSUM=	yes
