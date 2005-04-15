@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.1733 2005/04/15 14:41:15 mwdavies Exp $
+# $Id: Makefile,v 1.1734 2005/04/15 18:45:34 lexort Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -982,7 +982,6 @@ SUBDIR+=	uade
 SUBDIR+=	uclibc
 SUBDIR+=	udhcp
 SUBDIR+=	uebimiau
-SUBDIR+=	ufraw
 SUBDIR+=	umix
 SUBDIR+=	unmo3
 SUBDIR+=	unrealircd
