@@ -25,6 +25,6 @@ CONFIGURE_ARGS+=	--enable-startup-notification
 .include "../../devel/GConf2/schemas.mk"
 .include "../../fonts/Xft2/buildlink3.mk"
 .include "../../textproc/expat/buildlink3.mk"
-.include "../../wip/libmatchbox/buildlink3.mk"
+.include "../../devel/libmatchbox/buildlink3.mk"
 .include "../../x11/startup-notification/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
