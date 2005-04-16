@@ -9,7 +9,7 @@ EXTRACT_SUFX=		.zip
 
 MAINTAINER=		dillo@NetBSD.org
 HOMEPAGE=		http://diden.net/if/git/
-COMMENT=		Interprter for Glulx interactive fiction
+COMMENT=		Interpreter for Glulx interactive fiction
 
 WRKSRC=			${WRKDIR}/${PKGNAME_NOREV}
 MAKE_ENV+=		BUILDLINK_DIR=${BUILDLINK_DIR}
