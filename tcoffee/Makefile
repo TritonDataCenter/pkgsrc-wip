@@ -10,7 +10,7 @@ MAINTAINER=		dprice@cs.nmsu.edu
 HOMEPAGE=		http://igs-server.cnrs-mrs.fr/~cnotred/Packages/
 COMMENT=		Multiple Sequence Alignment Package
 
-DEPENDS+=               clustalw-1.8:../../biology/clustalw
+DEPENDS+=               clustalw>=1.8:../../biology/clustalw
 
 WRKSRC=		 	${WRKDIR}/T-COFFEE_distribution_Version_1.37/t_coffee_source
 
