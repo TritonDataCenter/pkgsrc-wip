@@ -57,7 +57,7 @@ do-install:
 .include "../../www/php4/buildlink3.mk"
 .include "../../misc/proj/buildlink3.mk"
 .include "../../wip/gdal-lib/buildlink3.mk"
-.include "../../wip/mk/postgis.buildlink3.mk"
+.include "../../wip/postgis/buildlink3.mk"
 .include "../../mk/pgsql.buildlink3.mk"
 .include "../../converters/libiconv/buildlink3.mk"
 .include "../../devel/zlib/buildlink3.mk"
