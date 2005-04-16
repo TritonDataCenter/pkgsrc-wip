@@ -17,5 +17,5 @@ USE_X11=		yes
 
 .include "../../graphics/freetype2/buildlink3.mk"
 .include "../../fonts/Xft2/buildlink3.mk"
-.include "../../devel/boost/buildlink3.mk"
+.include "../../devel/boost-libs/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
