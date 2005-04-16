@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.1736 2005/04/16 12:21:57 thomasklausner Exp $
+# $Id: Makefile,v 1.1737 2005/04/16 12:26:54 thomasklausner Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -240,7 +240,6 @@ SUBDIR+=	frontpage
 SUBDIR+=	ftpd-tls
 SUBDIR+=	ftpsesame
 SUBDIR+=	fvcool
-SUBDIR+=	fwbuilder
 SUBDIR+=	g21k-binutils
 SUBDIR+=	gDesklets
 SUBDIR+=	gDesklets-CornerXMMS
