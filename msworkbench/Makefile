@@ -24,6 +24,6 @@ do-install:
 	${INSTALL_DATA} ${WRKSRC}/test/*.* ${PREFIX}/share/examples/${DISTNAME}
 
 .include "../../lang/tcl/buildlink3.mk"
-.include "../../geography/mapserver/buildlink3.mk"
+.include "../../wip/mapserver/buildlink3.mk"
 .include "../../x11/tk/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
