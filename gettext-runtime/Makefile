@@ -2,7 +2,6 @@
 
 .include "Makefile.common"
 
-# should this be called gettext-base ?
 PKGNAME=	gettext-runtime-${GETTEXT_VERSION}
 WRKSRC=		${WRKDIR}/${DISTNAME}/gettext-runtime
 
@@ -21,7 +20,6 @@ CONFLICTS+=		gettext-lib-[0-9]*
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 USE_LIBTOOL=		yes
-CONFIGURE_ARGS+=	--mandir=${PREFIX}/man
 
 INFO_FILES=		autosprintf.info
 
