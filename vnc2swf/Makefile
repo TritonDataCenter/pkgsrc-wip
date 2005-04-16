@@ -9,7 +9,7 @@ MAINTAINER=		obata@lins.jp
 HOMEPAGE=		http://www.unixuser.org/~euske/vnc2swf/
 COMMENT=		Record vnc session as flash movie
 
-DEPENDS+=               x11rec-[0-9]*:../../wip/x11vnc
+DEPENDS+=               x11vnc-[0-9]*:../../wip/x11vnc
 
 GNU_CONFIGURE=		yes
 USE_X11=                yes
