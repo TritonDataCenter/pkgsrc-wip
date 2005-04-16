@@ -1,8 +1,0 @@
-@comment $NetBSD$
-lib/vtk/libvtkCommonPython.so
-lib/vtk/libvtkFilteringPython.so
-lib/vtk/libvtkGraphicsPython.so
-lib/vtk/libvtkIOPython.so
-lib/vtk/libvtkImagingPython.so
-lib/vtk/libvtkRenderingPython.so
-lib/vtk/libvtkRenderingPythonTkWidgets.so
