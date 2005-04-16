@@ -1,0 +1,5 @@
+@comment $NetBSD$
+bin/x11rec
+share/doc/html/x11rec/index.html.en
+share/doc/html/x11rec/index.html.ja
+@dirrm share/doc/html/x11rec
