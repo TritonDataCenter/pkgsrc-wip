@@ -1,10 +1,10 @@
 # $NetBSD$
 
-DISTNAME=	mathopd-1.5p4
+DISTNAME=	mathopd-1.5p5
 CATEGORIES=	www
 MASTER_SITES=	http://www.mathopd.org/dist/
 
-MAINTAINER=	tech-pkg@NetBSD.org
+MAINTAINER=	ishit@users.sourceforge.jp
 HOMEPAGE=	http://www.mathopd.org/
 COMMENT=	Very small, yet very fast HTTP server
 
