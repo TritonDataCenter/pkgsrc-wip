@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	siproxd-16Apr2005
+DISTNAME=	siproxd-17Apr2005
 CATEGORIES=	net
 MASTER_SITES=	http://home.tiscalinet.ch/ries/siproxd/
 
@@ -20,4 +20,5 @@ PLIST_SUBST+=		PKG_SYSCONFDIR=${PKG_SYSCONFDIR:S|^${PREFIX}/||}
 INSTALLATION_DIRS=	sbin ${PKG_SYSCONFDIR:S|^${PREFIX}/||}
 
 .include "../../devel/libosip/buildlink3.mk"
+.include "../../mk/pthread.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
