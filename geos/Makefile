@@ -15,4 +15,6 @@ USE_LIBTOOL=		yes
 LIBTOOL_OVERRIDE=	${WRKSRC}/libtool
 GNU_CONFIGURE=		yes
 
+USE_LANGUAGES+=		c++
+
 .include "../../mk/bsd.pkg.mk"
