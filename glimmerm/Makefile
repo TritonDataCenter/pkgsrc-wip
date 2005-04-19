@@ -14,6 +14,7 @@ USE_GNU_TOOLS+=		make
 
 WRKSRC=         	${WRKDIR}/GlimmerM/sources
 
+USE_LANGUAGES+=		c++ 
 
 post-build:
 	cd ${WRKSRC}/../train; ${GMAKE}
