@@ -3,7 +3,6 @@
 
 DISTNAME=		wise2.2.0
 PKGNAME=                wise-2.2.0
-WRKSRC=			${WRKDIR}/wise2.2.0/src
 CATEGORIES=		biology
 MASTER_SITES=		ftp://ftp.ebi.ac.uk/pub/software/unix/wise2/
 
@@ -11,6 +10,7 @@ MAINTAINER=		dprice@cs.nmsu.edu
 HOMEPAGE=		http://www.ebi.ac.uk/Wise2
 COMMENT=		Tool for Comparing bio polymers like DNA and Protein sequences
 
+WRKSRC=			${WRKDIR}/wise2.2.0/src
 MAKEFILE=		makefile
 MESSAGE_SUBST+=		PREFIX=${PREFIX}
 
