@@ -13,10 +13,11 @@ then
 fi
 
 name="unrealircd"
-rcvar=$name
+rcvar=${name}
 command="@PREFIX@/sbin/ircd"
 required_files="@IRCD_HOME@/unrealircd.conf"
-command_args="-u @IRCD_USER@:@IRCD_GROUP@"
+unrealircd_user="@IRCD_USER@"
+unrealircd_group="@IRCD_GROUP@"
 
 load_rc_config $name
 run_rc_command "$1"
