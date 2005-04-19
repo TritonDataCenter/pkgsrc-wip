@@ -8,7 +8,7 @@ MAINTAINER=	rasputnik@hellooperator.net
 HOMEPAGE=	http://www.raggle.org/
 COMMENT=	Console-based screen(1)-aware RSS reader written in Ruby
 
-DEPENDS+=	${RUBY_PKGPREFIX}-syck>=0.42:../../wip/ruby-syck
+DEPENDS+=	${RUBY_PKGPREFIX}-syck>=0.42:../../textproc/ruby-syck
 DEPENDS+=	${RUBY_PKGPREFIX}-ncurses>=0.8:../../wip/ruby-ncurses
 
 .include "../../lang/ruby/rubyversion.mk"
