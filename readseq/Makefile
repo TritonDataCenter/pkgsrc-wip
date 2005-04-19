@@ -11,7 +11,6 @@ MAINTAINER=		dprice@cs.nmsu.edu
 HOMEPAGE=		ftp://ftp.ebi.ac.uk/pub/software/unix/
 COMMENT=		Widely Used Tool to Convert Various Sequence Formats
 
-
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/readseq ${PREFIX}/bin
 	${INSTALL_DATA_DIR} ${PREFIX}/share/doc/${DISTNAME}
