@@ -1,4 +1,5 @@
 @comment $NetBSD$
+bin/grass60
 grass-6.0.0/bin/bmif_to_cell
 grass-6.0.0/bin/d.ask
 grass-6.0.0/bin/d.barscale
