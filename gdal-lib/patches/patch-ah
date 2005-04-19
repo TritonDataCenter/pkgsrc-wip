@@ -1,6 +1,6 @@
 $NetBSD$
 
---- frmts/pcraster/GNUmakefile.orig	2004-11-10 03:09:19.000000000 -0700
+--- frmts/pcraster/GNUmakefile.orig	2005-04-09 11:36:40.000000000 -0600
 +++ frmts/pcraster/GNUmakefile
 @@ -14,8 +14,8 @@ clean:
  

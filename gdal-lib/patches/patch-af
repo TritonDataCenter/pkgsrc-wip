@@ -1,6 +1,6 @@
 $NetBSD$
 
---- frmts/gxf/GNUmakefile.orig	2004-10-06 07:04:10.000000000 -0600
+--- frmts/gxf/GNUmakefile.orig	2005-04-09 11:35:07.000000000 -0600
 +++ frmts/gxf/GNUmakefile
 @@ -28,10 +28,10 @@ $(SHARED_LIB):	$(OBJ)
  install-lib:	$(SHARED_LIB)
@@ -22,7 +22,7 @@ $NetBSD$
  
  
 -dist:	docs
-+dist:
++dist:	
  	rm -rf $(DISTDIR)
  	mkdir $(DISTDIR)
  	mkdir $(DISTDIR)/html
