@@ -3,7 +3,6 @@
 
 DISTNAME=		clustalx1.83.sun
 PKGNAME=		clustalx-1.83
-WRKSRC=                 ${WRKDIR}/clustalx1.83.sun
 CATEGORIES=		biology
 MASTER_SITES=		ftp://ftp-igbmc.u-strasbg.fr/pub/ClustalX/
 
@@ -11,10 +10,10 @@ MAINTAINER=		hdp@cs.nmsu.edu
 HOMEPAGE=		http://www-igbmc.u-strasbg.fr/BioInfo/ClustalX/Top.html
 COMMENT=		X-Windows interface for ClustalW
 
+WRKSRC=                 ${WRKDIR}/clustalx1.83.sun
 MESSAGE_SUBST+=         PREFIX=${PREFIX}
 MAKEFILE=		makefile
 USE_X11=		yes
-
 
 do-install:
 .for PROGRAM in clustalx
