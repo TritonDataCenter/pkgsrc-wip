@@ -1,16 +1,15 @@
 # $NetBSD$
 #
 
-DISTNAME=		gdal-1.2.5
-PKGNAME=		gdal-lib-1.2.5
+DISTNAME=		gdal-1.2.6
+PKGNAME=		gdal-lib-1.2.6
 CATEGORIES=		wip
 MASTER_SITES=		http://gdal.org/dl/
 
-MAINTAINER=		pshah@nmsu.edu
+MAINTAINER=		mchittur@cs.nmsu.edu
 HOMEPAGE=		http://gdal.org/
 COMMENT=		Translator library for raster geospatial data formats
 
-USE_BUILDLINK3=		yes
 USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=		yes
 LIBTOOL_OVERRIDE=	${WRKSRC}/libtool
@@ -26,6 +25,7 @@ CONFIGURE_ARGS+=	--with-xerces
 CONFIGURE_ARGS+=	--with-xerces-inc=${PREFIX}/include
 CONFIGURE_ARGS+=	--with-xerces-lib="-L${PREFIX}/lib -lxerces-c"
 CONFIGURE_ARGS+=	--with-geos
+CONFIGURE_ARGS+=	--without-python
 
 .include "../../misc/proj/buildlink3.mk"
 .include "../../mk/pgsql.buildlink3.mk"

@@ -10,8 +10,8 @@
 # XXX
 # XXX	BUILDLINK_DEPMETHOD.gdal-lib?=	build
 
-BUILDLINK_DEPTH:=	${BUILDLINK_DEPTH}+
-GDAL_BUILDLINK3_MK:=	${GDAL_BUILDLINK3_MK}+
+BUILDLINK_DEPTH:=		${BUILDLINK_DEPTH}+
+GDAL_LIB_BUILDLINK3_MK:=	${GDAL_LIB_BUILDLINK3_MK}+
 
 .if !empty(BUILDLINK_DEPTH:M+)
 BUILDLINK_DEPENDS+=	gdal-lib
@@ -20,13 +20,19 @@ BUILDLINK_DEPENDS+=	gdal-lib
 BUILDLINK_PACKAGES:=	${BUILDLINK_PACKAGES:Ngdal-lib}
 BUILDLINK_PACKAGES+=	gdal-lib
 
-.if !empty(GDAL_BUILDLINK3_MK:M+)
-BUILDLINK_DEPENDS.gdal-lib+=	gdal-lib>=1.2.5
+.if !empty(GDAL_LIB_BUILDLINK3_MK:M+)
+BUILDLINK_DEPENDS.gdal-lib+=	gdal-lib>=1.2.6
 BUILDLINK_PKGSRCDIR.gdal-lib?=	../../wip/gdal-lib
-.endif	# GDAL_BUILDLINK3_MK
+.endif	# GDAL_LIB_BUILDLINK3_MK
 
-.include "../../misc/proj/buildlink3.mk"
-.include "../../wip/geos/buildlink3.mk"
-.include "../../textproc/xerces-c/buildlink3.mk"
+# XXX
+# XXX Uncomment and keep only the buildlink3 lines below which are directly
+# XXX needed for dependencies to compile, link, and run.  If this package
+# XXX provides a wrappered API or otherwise does not expose the APIs of the
+# XXX buildlink3 lines below to dependencies, remove them.
+# XXX
+#.include "../../misc/proj/buildlink3.mk"
+#.include "../../wip/geos/buildlink3.mk"
+#.include "../../textproc/xerces-c/buildlink3.mk"
 
 BUILDLINK_DEPTH:=     ${BUILDLINK_DEPTH:S/+$//}
