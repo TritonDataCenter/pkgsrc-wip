@@ -3,7 +3,6 @@
 
 DISTNAME=		spearfish_grass50data
 PKGNAME=		grass-Spearfish-20030825
-WRKSRC=			${WRKDIR}/
 CATEGORIES=		geography
 MASTER_SITES+=		http://grass.itc.it/sampledata/
 MASTER_SITES+=		http://grass.ibiblio.org/sampledata/
@@ -12,6 +11,7 @@ MAINTAINER=		mchittur@cs.nmsu.edu
 HOMEPAGE=		http://grass.itc.it/sampledata/
 COMMENT=		Example data set for Grass 5.0
 
+WRKSRC=			${WRKDIR}/
 NO_CONFIGURE=		yes
 NO_BUILD=		yes
 
