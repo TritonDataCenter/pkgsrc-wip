@@ -11,8 +11,6 @@ COMMENT=		Set of tools for development of MapServer web mapping applications
 
 WRKSRC=			${WRKDIR}/msworkbench
 
-USE_BUILDLINK3=		YES
-
 pre-install:
 	${SED} -e 's:$${PREFIX}:${PREFIX}:g' ${WRKSRC}/install.sh > ${WRKSRC}/install.sh.temp
 	${MV} ${WRKSRC}/install.sh.temp ${WRKSRC}/install.sh
