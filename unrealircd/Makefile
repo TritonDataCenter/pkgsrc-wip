@@ -14,7 +14,7 @@ USE_PKGINSTALL=	YES
 WRKSRC=		${WRKDIR}/Unreal3.2
 TRE_NEEDED=	0.7.2
 
-BUILDLINK_DEPENDS.tre+=	tre>=${TRE_NEEDED}
+BUILDLINK_DEPENDS.tre+=	tre-${TRE_NEEDED}
 
 .include "../../mk/bsd.prefs.mk"
 
