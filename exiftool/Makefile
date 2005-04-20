@@ -1,13 +1,15 @@
 # $NetBSD$
 
-DISTNAME=	Image-ExifTool-3.60
-PKGNAME=	exiftool-3.60
+DISTNAME=	Image-ExifTool-${VERSION}
+PKGNAME=	exiftool-${VERSION}
 CATEGORIES=	graphics perl5
 MASTER_SITES=	http://owl.phy.queensu.ca/~phil/exiftool/
 
 MAINTAINER=	gdt@ir.bbn.com
 HOMEPAGE=	http://owl.phy.queensu.ca/~phil/exiftool/
 COMMENT=	Perl module and program to read EXIF information
+
+VERSION=	4.93
 
 PERL5_PACKLIST=	${PERL5_SITEARCH}/auto/Image/ExifTool/.packlist
 
