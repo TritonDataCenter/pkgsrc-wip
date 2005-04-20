@@ -2,6 +2,7 @@
 #
 
 DISTNAME=		xmlformat-1.03
+PKGREVISION=		1
 CATEGORIES=		textproc wip
 MASTER_SITES=		http://www.kitebird.com/software/xmlformat/
 
@@ -13,11 +14,7 @@ USE_PERL5=		run
 REPLACE_PERL=		xmlformat.pl
 
 NO_BUILD=		yes
-USE_PKGINSTALL=		yes
 PKG_INSTALLATION_TYPES=	overwrite pkgviews
-
-CONF_FILES=		${PREFIX}/share/examples/xmlformat/xmlformat.conf \
-			${PKG_SYSCONFDIR}/xmlformat.conf
 
 do-install:
 	${INSTALL_SCRIPT} ${WRKSRC}/xmlformat.pl ${PREFIX}/bin/xmlformat
