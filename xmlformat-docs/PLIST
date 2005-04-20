@@ -1,0 +1,10 @@
+@comment $NetBSD$
+share/doc/xmlformat/API
+share/doc/xmlformat/tutorial.html
+share/doc/xmlformat/tutorial.pdf
+share/doc/xmlformat/tutorial.xml
+share/doc/xmlformat/xmlformat.conf
+share/doc/xmlformat/xmlformat.html
+share/doc/xmlformat/xmlformat.pdf
+share/doc/xmlformat/xmlformat.xml
+@dirrm share/doc/xmlformat
