@@ -1,8 +1,8 @@
 # $NetBSD$
 #
 
-DISTNAME=		xmlformat-1.03
-PKGNAME=		xmlformat-docs-1.03
+DISTNAME=		xmlformat-${XMLFORMAT_VERSION}
+PKGNAME=		xmlformat-docs-${XMLFORMAT_VERSION}
 CATEGORIES=		textproc wip
 MASTER_SITES=		http://www.kitebird.com/software/xmlformat/
 
@@ -27,4 +27,5 @@ do-install:
 	${INSTALL_DATA} ${WRKSRC}/docs/xmlformat.conf \
 		${PREFIX}/share/doc/xmlformat
 
+.include "../../wip/xmlformat-docs/version.mk"
 .include "../../mk/bsd.pkg.mk"

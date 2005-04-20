@@ -1,8 +1,8 @@
 # $NetBSD$
 #
 
-DISTNAME=		xmlformat-1.03
-PKGNAME=		xmlformat-ruby-1.03
+DISTNAME=		xmlformat-${XMLFORMAT_VERSION}
+PKGNAME=		xmlformat-ruby-${XMLFORMAT_VERSION}
 CATEGORIES=		textproc wip
 MASTER_SITES=		http://www.kitebird.com/software/xmlformat/
 
@@ -22,6 +22,7 @@ DESCR_SRC=		${.CURDIR}/../../wip/xmlformat-docs/DESCR.common \
 do-install:
 	${INSTALL_SCRIPT} ${WRKSRC}/xmlformat.rb ${PREFIX}/bin
 
+.include "../../wip/xmlformat-docs/version.mk"
 .include "../../lang/ruby/buildlink3.mk"
 .include "../../lang/ruby/replace.mk"
 .include "../../mk/bsd.pkg.mk"

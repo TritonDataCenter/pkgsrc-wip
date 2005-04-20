@@ -1,0 +1,3 @@
+# $NetBSD$
+
+XMLFORMAT_VERSION=	1.03
