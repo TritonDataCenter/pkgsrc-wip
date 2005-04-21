@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		acr-0.2
+DISTNAME=		acr-0.3
 CATEGORIES=		wip devel
 MASTER_SITES=		ftp://ftp.nopcode.org/prj/acr/
 
