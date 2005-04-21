@@ -14,6 +14,8 @@ USE_LANGUAGES=	c c++
 USE_PKGINSTALL=	yes
 USE_GNU_TOOLS+= make
 
+.include "options.mk"
+
 WRKSRC=		${WRKDIR}/linux-igd
 
 PKG_SYSCONFSUBDIR?=	linuxigd
