@@ -25,4 +25,3 @@ CFLAGS+=	-DFILTER_CMD="ipfilter"
 PKG_FAIL_REASON+=	"${PKG_OPTIONS_VAR} must contaion one of" \
 			"\"iptables\" or \"pf\" or \"ipfilter\"!"
 .endif
-
