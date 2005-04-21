@@ -19,6 +19,7 @@ PKG_DEFAULT_OPTIONS=	ipfilter
 CFLAGS+=	-DFILTER_CMD="iptables"
 .elif !empty(PKG_OPTIONS:Mpf)
 CFLAGS+=	-DFILTER_CMD="pf"
+MESSAGE_SRC+=	${.CURDIR}/MESSAGE.pf
 .elif !empty(PKG_OPTIONS:Mipfilter)
 CFLAGS+=	-DFILTER_CMD="ipfilter"
 .else
