@@ -1,0 +1,5 @@
+===========================================================================
+$NetBSD$
+You will need to make sure you have a route in your routing table for the
+multicast address.
+===========================================================================

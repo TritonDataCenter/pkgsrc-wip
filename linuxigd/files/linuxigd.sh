@@ -14,22 +14,5 @@ rcvar=${name}
 command="@PREFIX@/bin/upnpd"
 required_vars="ipnat"
 
-start_precmd="route_add_cmd"
-stop_postcmd="route_del_cmd"
-
-route_add_cmd()
-{
-	if [ ! -z "$linuxigd_intaddr" ]; then
-		route add -net 239.0.0.0 -netmask 255.0.0.0 ${linuxigd_intaddr}
-	fi
-}
-
-route_del_cmd()
-{
-	if [ ! -z "$linuxigd_intaddr" ]; then
-		route delete -net 239.0.0.0 -netmask 255.0.0.0 ${linuxigd_intaddr}
-	fi
-}
-
 load_rc_config ${name}
 run_rc_command "$1"

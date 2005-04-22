@@ -1,0 +1,6 @@
+===========================================================================
+$NetBSD$
+for the multicast address, add fllowing lines in /etc/rc.conf.local
+	multicast_host="<INT_IF>"
+where <INT_IF> is internal interface name (ex. fxp1).
+===========================================================================
