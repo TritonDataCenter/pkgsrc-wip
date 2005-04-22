@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.1756 2005/04/22 02:28:06 jgoamakf Exp $
+# $Id: Makefile,v 1.1757 2005/04/22 13:42:32 jgoamakf Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -644,7 +644,6 @@ SUBDIR+=	p5-Parallel-ForkManager
 SUBDIR+=	p5-Term-Screen
 SUBDIR+=	p5-Text-Glob
 SUBDIR+=	p5-Tk-TableMatrix
-SUBDIR+=	p5-Tree-Simple
 SUBDIR+=	p5-UNIVERSAL-exports
 SUBDIR+=	palm-db-tools
 SUBDIR+=	pam-mysql
