@@ -10,7 +10,7 @@ MAINTAINER=		dotz@irc.pl
 HOMEPAGE=		http://mayavi.sourceforge.net/
 COMMENT=		Scientific data visualizer written in Python
 
-DEPENDS=	${PYPKGPREFIX}-vtkmodule>=4.2:../../wip/vtk-python
+DEPENDS=	${PYPKGPREFIX}-vtkmodule>=4.2:../../graphics/vtk-python
 
 PY_PATCHPLIST=		yes
 PYDISTUTILSPKG=		yes
