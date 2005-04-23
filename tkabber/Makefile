@@ -9,7 +9,7 @@ MAINTAINER=	tech-pkg@NetBSD.org
 HOMEPAGE=	http://tkabber.jabber.ru/en/
 COMMENT=	Free and Open Source TCL/TK jabber client
 
-DEPENDS+=	tcllib-[0-9]*:../../wip/tcllib
+DEPENDS+=	tcllib-[0-9]*:../../devel/tcllib
 DEPENDS+=	bwidget-[0-9]*:../../wip/bwidget
 
 NO_BUILD=	yes
