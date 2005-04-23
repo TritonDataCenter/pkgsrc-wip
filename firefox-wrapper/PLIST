@@ -1,3 +1,4 @@
 @comment $NetBSD$
 bin/firefox
+share/examples/firefox-wrapper/firefox-wrapper.conf
 etc/firefox-wrapper.conf
