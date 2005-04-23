@@ -22,7 +22,7 @@ DEPENDS+=		p5-GDTextUtil>=0.80nb1:../../graphics/p5-GDTextUtil
 DEPENDS+=		p5-Storable>=2.06:../../devel/p5-Storable
 DEPENDS+=		p5-Date-Manip>=5.40:../../devel/p5-Date-Manip
 DEPENDS+=		mysql-server>=3.23.49nb3:../../databases/mysql-server
-DEPENDS+=		p5-Tree-DAG_Node>=1.04:../../wip/p5-Tree-DAG_Node
+DEPENDS+=		p5-Tree-DAG_Node>=1.04:../../devel/p5-Tree-DAG_Node
 DEPENDS+=		p5-DBD-Sybase>=0.94:../../databases/p5-DBD-Sybase
 
 USE_PKGLOCALEDIR=	yes
