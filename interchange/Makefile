@@ -1,10 +1,10 @@
 # $NetBSD$
 #
 
-DISTNAME=       interchange-5.0.1
+DISTNAME=       interchange-5.2.0
 PKGNAME=        ${DISTNAME}
 CATEGORIES=	www perl5
-MASTER_SITES=	http://ftp.icdevgroup.org/interchange/5.0/tar/
+MASTER_SITES=	http://ftp.icdevgroup.org/interchange/5.2/tar/
 
 MAINTAINER=	eric@cirr.com
 HOMEPAGE=	http://www.icdevgroup.org
