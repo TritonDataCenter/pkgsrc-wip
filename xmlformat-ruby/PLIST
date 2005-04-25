@@ -1,2 +1,2 @@
 @comment $NetBSD$
-bin/xmlformat.rb
+bin/xmlformat
