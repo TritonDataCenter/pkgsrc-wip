@@ -1,7 +1,7 @@
 $NetBSD$
---- lib/video/renderer.cpp.orig	2004-10-01 22:42:25.000000000 +0900
-+++ lib/video/renderer.cpp	2005-02-16 23:38:40.000000000 +0900
-@@ -1441,6 +1441,7 @@
+--- lib/video/renderer.cpp.orig	2005-02-15 21:33:39.000000000 +0900
++++ lib/video/renderer.cpp	2005-04-26 18:12:07.000000000 +0900
+@@ -1430,6 +1430,7 @@
  	m_iFontHeight = 0;
  
  	//font = XLoadQueryFont(dpy, lf);
@@ -9,7 +9,7 @@ $NetBSD$
  #ifdef HAVE_LIBXFT
  	xftfont = 0; // only truetype fonts
  	if (XftDefaultHasRender(dpy) == 1 && lf)
-@@ -1521,7 +1522,6 @@
+@@ -1510,7 +1511,6 @@
  #endif /* HAVE_ICONV */
  	}
  

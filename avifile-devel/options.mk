@@ -72,7 +72,7 @@ SUBST_CLASSES+=		xvidlib
 SUBST_STAGE.xvidlib=	pre-configure
 SUBST_MESSAGE.xvidlib=	add -lm to XVID4LIBS
 SUBST_FILES.xvidlib=	configure
-SUBST_SED.xvidlib=	-E -e 's|(XVID4_LIBS -lxvidcore)|\1 -lm|'
+SUBST_SED.xvidlib=	-e 's|XVID4_LIBS -lxvidcore|XVID4_LIBS -Wl,-lxvidcore -lm|'
 .else
 CONFIGURE_ARGS+=	--disable-xvid4 \
 			--without-xvid4-prefix
