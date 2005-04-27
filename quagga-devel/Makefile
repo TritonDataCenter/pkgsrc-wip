@@ -4,9 +4,11 @@
 
 DISTNAME=	quagga-0.99.0-20050425
 PKGNAME=	quagga-0.99.0.20050425
+PKGREVISION=	1
 CATEGORIES=	net
 # Use pkgsrc/ for saved snapshots, cvs/ for current ones
 MASTER_SITES=	http://www.quagga.net/download/cvs/ \
+		http://www.quagga.net/download/pkgsrc/ \
 		http://www.ir.bbn.com/~gdt/pkgsrc-wip/
 
 MAINTAINER=	gdt@ir.bbn.com
