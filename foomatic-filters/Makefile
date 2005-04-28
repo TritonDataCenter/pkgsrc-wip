@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	foomatic-filters-3.0.1
+DISTNAME=	foomatic-filters-3.0.2
 CATEGORIES=	print
 MASTER_SITES=	http://www.linuxprinting.org/download/foomatic/
 
@@ -12,6 +12,8 @@ COMMENT=	Spooler independent postscript printing filter
 DEPENDS+=	mpage-[0-9]*:../../print/mpage
 #DEPENDS+=	a2ps-[0-9]*:../../print/a2ps
 #DEPENDS+=	enscript-[0-9]*:../../print/enscript
+
+CONFLICTS+=	foomatic-gswrapper-[0-9]
 
 GNU_CONFIGURE=		YES
 CONFIG_GUESS_OVERRIDE=  ${WRKSRC}/config.guess
