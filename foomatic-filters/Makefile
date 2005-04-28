@@ -27,6 +27,7 @@ CONFIGURE_ENV+= 	PRINTCAP=/etc/printcap
 
 USE_GNU_TOOLS+=	make
 USE_PERL5=	yes
+USE_PKGINSTALL=	yes
 PERL5_REQD=	5.6
 INSTALL_TARGET=	install-bin install-man
 
