@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.1765 2005/04/28 20:40:53 kristerw Exp $
+# $Id: Makefile,v 1.1766 2005/04/28 22:39:57 jeremy-c-reed Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -232,7 +232,6 @@ SUBDIR+=	fluxconf
 SUBDIR+=	fluxspace
 SUBDIR+=	foomatic-db
 SUBDIR+=	foomatic-db-engine
-SUBDIR+=	foomatic-filters
 SUBDIR+=	foomatic-filters-cups
 SUBDIR+=	fox
 SUBDIR+=	fragrouter
