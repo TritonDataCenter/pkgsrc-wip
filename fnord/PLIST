@@ -1,0 +1,4 @@
+@comment $NetBSD$
+sbin/fnord
+sbin/fnord-cgi
+sbin/fnord-idx
