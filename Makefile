@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.1766 2005/04/28 22:39:57 jeremy-c-reed Exp $
+# $Id: Makefile,v 1.1767 2005/05/01 18:41:41 bubuchka Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -720,6 +720,7 @@ SUBDIR+=	proxychains
 SUBDIR+=	prozilla
 SUBDIR+=	prtunnel
 SUBDIR+=	pts
+SUBDIR+=	pwsafe
 SUBDIR+=	pxlib
 SUBDIR+=	pxview
 SUBDIR+=	py-Brenda
