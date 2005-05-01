@@ -1,0 +1,3 @@
+@comment $NetBSD$
+bin/pwsafe
+man/man1/pwsafe.1
