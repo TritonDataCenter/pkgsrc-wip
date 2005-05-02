@@ -5,7 +5,7 @@ DISTNAME=	qico-0.48.5
 CATEGORIES=	comms
 MASTER_SITES=	http://lev.serebryakov.spb.ru/download/0.48/
 
-MAINTAINER=	gik@nc.ru
+MAINTAINER=	tech-pkg@NetBSD.org
 COMMENT=	FidoNet mailer
 
 USE_GNU_TOOLS+=	make
