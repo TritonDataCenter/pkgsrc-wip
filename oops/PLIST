@@ -34,6 +34,7 @@ share/examples/oops/select.sql
 share/examples/oops/auth_template.html
 share/examples/oops/err_template.html
 share/examples/oops/redir_template.html
+share/examples/rc.d/oops
 @dirrm share/examples/oops
 @dirrm etc/oops/tables
 @dirrm etc/oops

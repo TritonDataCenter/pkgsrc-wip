@@ -2,4 +2,5 @@
 libexec/ftpd-tls
 man/man8/ftpd-tls.8
 share/doc/${PKGBASE}/README.TLS
+share/examples/rc.d/ftpdtls
 @dirrm share/doc/${PKGBASE}

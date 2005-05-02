@@ -64,6 +64,12 @@ share/examples/quagga/log_syslog.conf
 share/examples/quagga/ospfd.conf.sample
 share/examples/quagga/ripd.conf.sample
 share/examples/quagga/zebra.conf.sample
+share/examples/rc.d/ripngd
+share/examples/rc.d/ospf6d
+share/examples/rc.d/ripd
+share/examples/rc.d/ospfd
+share/examples/rc.d/bgpd
+share/examples/rc.d/zebra
 @dirrm share/examples/quagga
 @dirrm include/quagga/ospfd
 @dirrm include/quagga

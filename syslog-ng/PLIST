@@ -20,6 +20,7 @@ share/doc/html/syslog-ng/x97.html
 share/doc/syslog-ng/INSTALL
 share/doc/syslog-ng/README
 share/doc/syslog-ng/syslog-ng.conf.doc
+share/examples/rc.d/syslogng
 share/examples/syslog-ng/syslog-ng.conf.demo
 share/examples/syslog-ng/syslog-ng.conf.sample
 share/examples/syslog-ng/syslog-ng.conf.solaris

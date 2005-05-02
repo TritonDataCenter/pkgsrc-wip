@@ -3,3 +3,4 @@ man/man5/yp.conf.5
 man/man8/ypbind.8
 sbin/ypbind
 ${PKGLOCALEDIR}/locale/de/LC_MESSAGES/ypbind-mt.mo
+share/examples/rc.d/ypbind

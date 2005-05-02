@@ -36,6 +36,7 @@ man/man1/gnump3d-index.1
 man/man1/gnump3d-top.1
 man/man1/gnump3d.1
 man/man1/gnump3d.conf.1
+share/examples/rc.d/gnump3d
 share/gnump3d/Clean/AUTHOR
 share/gnump3d/Clean/COPYING.html
 share/gnump3d/Clean/bug.html

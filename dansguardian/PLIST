@@ -43,6 +43,7 @@ etc/dansguardian/weightedphraselist
 libexec/cgi-bin/dansguardian.pl
 man/man8/dansguardian.8.gz
 sbin/dansguardian
+share/examples/rc.d/dansguardian
 @dirrm etc/dansguardian/phraselists/weapons
 @dirrm etc/dansguardian/phraselists/warezhacking
 @dirrm etc/dansguardian/phraselists/violence

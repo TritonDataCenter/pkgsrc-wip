@@ -7,6 +7,7 @@ man/man8/xinetd.log.8
 sbin/itox
 sbin/xconv.pl
 sbin/xinetd
+share/examples/rc.d/xinetd
 share/examples/xinetd/xinetd.conf
 share/examples/xinetd/xinetd.d/chargen-dgram
 share/examples/xinetd/xinetd.d/chargen-stream

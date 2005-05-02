@@ -9,5 +9,6 @@ share/doc/mathopd/running.txt
 share/doc/mathopd/sample.cfg
 share/doc/mathopd/syntax.txt
 share/examples/mathopd/mathopd.conf
+share/examples/rc.d/mathopd
 @dirrm share/examples/mathopd
 @dirrm share/doc/mathopd

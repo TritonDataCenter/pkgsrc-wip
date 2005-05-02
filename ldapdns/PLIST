@@ -6,4 +6,5 @@ share/doc/${PKGNAME}/INSTALL
 share/doc/${PKGNAME}/README.axfr
 share/doc/${PKGNAME}/README.charset
 share/doc/${PKGNAME}/README.generic-rr
+share/examples/rc.d/ldapdns
 @dirrm share/doc/${PKGNAME}

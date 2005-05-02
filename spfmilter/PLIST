@@ -1,3 +1,4 @@
 @comment $NetBSD$
 man/man8/spfmilter.8
 sbin/spfmilter
+share/examples/rc.d/spfmilter

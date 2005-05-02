@@ -26,5 +26,6 @@ share/examples/${PKGBASE}/etc.sample/services
 share/examples/${PKGBASE}/etc.sample/slip.hosts
 share/examples/${PKGBASE}/etc.sample/slip.login
 share/examples/${PKGBASE}/inetd.conf
+share/examples/rc.d/inetd
 @dirrm share/examples/${PKGBASE}/etc.sample
 @dirrm share/examples/${PKGBASE}

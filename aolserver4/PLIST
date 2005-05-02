@@ -852,6 +852,7 @@ man/mann/nsv_names.n
 man/mann/nsv_set.n
 man/mann/nsv_unset.n
 share/examples/nsd/sample-config.tcl
+share/examples/rc.d/nsd
 share/nsd/modules/tcl/charsets.tcl
 share/nsd/modules/tcl/compat.tcl
 share/nsd/modules/tcl/debug.tcl

@@ -26,5 +26,6 @@ sbin/lsmod
 sbin/modinfo
 sbin/modprobe
 sbin/rmmod
+share/examples/rc.d/modutils
 share/linux-modutils/modules.conf.example
 @dirrm share/linux-modutils

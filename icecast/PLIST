@@ -5,6 +5,7 @@ share/examples/icecast/groups.aut.dist
 share/examples/icecast/icecast.conf.dist
 share/examples/icecast/mounts.aut.dist
 share/examples/icecast/users.aut.dist
+share/examples/rc.d/icecast
 share/icecast/templates/306.html
 share/icecast/templates/400.html
 share/icecast/templates/403.html

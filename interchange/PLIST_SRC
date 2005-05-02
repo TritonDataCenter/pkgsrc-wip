@@ -1190,6 +1190,7 @@ man/man1/makecat.1
 man/man1/offline.1
 man/man1/restart.1
 man/man1/update.1
+share/examples/rc.d/interchange
 @dirrm interchange/src/mod_interchange
 @dirrm interchange/src
 @dirrm interchange/lib/UI/vars

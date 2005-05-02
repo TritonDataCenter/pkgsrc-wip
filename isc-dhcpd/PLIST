@@ -26,6 +26,7 @@ man/man8/dhcrelay.8
 sbin/dhcpd
 sbin/dhcrelay
 share/doc/isc-dhcpd/README
+share/examples/rc.d/isc_dhcpd
 @dirrm share/doc/isc-dhcpd
 @dirrm include/omapip
 @dirrm include/isc-dhcp

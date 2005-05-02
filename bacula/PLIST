@@ -42,5 +42,9 @@ ${BACULA_STATIC}sbin/static-bacula-dir
 ${BACULA_STATIC}sbin/static-bacula-fd
 ${BACULA_STATIC}sbin/static-bacula-sd
 ${BACULA_STATIC}sbin/static-bconsole
+share/examples/rc.d/bacula-fd
+share/examples/rc.d/bacula-sd
+share/examples/rc.d/bacula-dir
+share/examples/rc.d/bacula
 @dirrm share/examples/bacula
 @dirrm libexec/bacula

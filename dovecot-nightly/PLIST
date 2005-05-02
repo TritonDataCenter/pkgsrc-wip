@@ -17,6 +17,7 @@ share/examples/dovecot/dovecot-openssl.cnf
 share/examples/dovecot/dovecot-pgsql.conf
 share/examples/dovecot/dovecot.conf.default
 share/examples/dovecot/mkcert.sh
+share/examples/rc.d/dovecot
 @dirrm share/examples/dovecot
 @dirrm share/doc/dovecot
 @dirrm libexec/dovecot

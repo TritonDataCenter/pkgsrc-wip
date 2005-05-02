@@ -10,5 +10,6 @@ sbin/cvsd-buildroot
 sbin/cvsd-passwd
 share/doc/cvsd/README
 share/examples/cvsd/cvsd.conf.example
+share/examples/rc.d/cvsd
 @dirrm share/examples/cvsd
 @dirrm share/doc/cvsd

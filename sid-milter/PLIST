@@ -8,4 +8,5 @@ share/doc/sid-milter/LICENSE
 share/doc/sid-milter/README
 share/doc/sid-milter/README-SenderID
 share/doc/sid-milter/RELEASE_NOTES
+share/examples/rc.d/sidmilter
 @dirrm share/doc/sid-milter

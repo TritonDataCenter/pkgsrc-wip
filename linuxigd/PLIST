@@ -5,4 +5,5 @@ share/examples/linuxigd/gatedesc.skl
 share/examples/linuxigd/gatedesc.xml
 share/examples/linuxigd/gateicfgSCPD.xml
 share/examples/linuxigd/gateinfoSCPD.xml
+share/examples/rc.d/linuxigd
 @dirrm share/examples/linuxigd

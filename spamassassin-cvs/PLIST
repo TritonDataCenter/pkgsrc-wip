@@ -2,6 +2,7 @@
 @comment Most of this PLIST is auto-generated; see Makefile.
 share/doc/html/spamassassin/ninjabutton.png
 @comment @dirrm share/doc/html/spamassassin
+share/examples/rc.d/spamd
 share/examples/spamassassin/local.cf
 share/examples/spamassassin/netbsd_lists.cf
 share/examples/spamassassin/procmailrc.example

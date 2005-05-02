@@ -29,6 +29,7 @@ sbin/cherokee-config
 share/aclocal/cherokee.m4
 share/cherokee/mime_types.txt
 share/examples/cherokee/cherokee.conf.default
+share/examples/rc.d/cherokee
 @dirrm share/examples/cherokee
 @dirrm share/cherokee
 @dirrm lib/cherokee
