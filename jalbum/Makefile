@@ -1,7 +1,7 @@
 # $NetBSD$
 
 DISTNAME=		JAlbum
-PKGNAME=		jalbum-5.1
+PKGNAME=		jalbum-5.2
 CATEGORIES=		www
 MASTER_SITES=		http://www.jalbum.net/download/
 EXTRACT_SUFX=		.zip
