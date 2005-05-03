@@ -1,0 +1,12 @@
+$NetBSD$
+--- src/backend/DSP/TPitchChanger.h.orig	2005-05-02 21:49:03.000000000 -0400
++++ src/backend/DSP/TPitchChanger.h	2005-05-02 22:52:55.000000000 -0400
+@@ -142,7 +142,7 @@
+ 
+ 	TAutoBuffer<soundtouch::SAMPLETYPE> inputBuffer;
+ 
+-	SoundTouch changer;
++	soundtouch::SoundTouch changer;
+ };
+ 
+ #endif // HAVE_LIBSOUNDTOUCH
