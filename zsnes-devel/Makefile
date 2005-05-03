@@ -1,8 +1,8 @@
 # $NetBSD$
 #
 
-DISTNAME=		ZSNESS_0920
-PKGNAME=		zsnes-20040920
+DISTNAME=		ZSNESS_0411
+PKGNAME=		zsnes-20050411
 CATEGORIES=		emulators
 MASTER_SITES=		http://www.ipherswipsite.com/files/zsnes/
 EXTRACT_SUFX=		.tar.bz2
