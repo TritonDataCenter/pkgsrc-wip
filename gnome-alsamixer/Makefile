@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		gnome-alsamixer-0.9.6
-CATEGORIES=		audio
+CATEGORIES=		audio gnome
 MASTER_SITES=		ftp://ftp.paw.co.za/pub/PAW/sources/
 
 MAINTAINER=		reed@reedmedia.net
