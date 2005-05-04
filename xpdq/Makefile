@@ -4,7 +4,9 @@
 PKGNAME=	x${DISTNAME}
 COMMENT=	X11 interface for pdq printing subsystem
 
-DEPENDS+=	${DISTNAME}:../../wip/pdq
+DEPENDS+=	pdq>=2.2.1nb1:../../wip/pdq
+
+PKGMANDIR?=	man  # until this is in real pkgsrc
 
 CONFIGURE_ARGS+=	--with-glib-prefix="${BUILDLINK_PREFIX.glib}"
 CONFIGURE_ARGS+=	--with-gtk-prefix="${BUILDLINK_PREFIX.gtk}"
@@ -16,7 +18,7 @@ do-build:
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/src/xpdq ${PREFIX}/bin/xpdq
-	${INSTALL_MAN} ${WRKSRC}/doc/xpdq.1 ${PREFIX}/man/man1/xpdq.1
+	${INSTALL_MAN} ${WRKSRC}/doc/xpdq.1 ${PREFIX}/${PKGMANDIR}/man1/xpdq.1
 
 .include "../../wip/pdq/Makefile.common"
 .include "../../x11/gtk/buildlink3.mk"
