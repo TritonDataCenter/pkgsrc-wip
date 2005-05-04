@@ -3,7 +3,7 @@
 
 DISTNAME=		xrestop-0.3
 CATEGORIES=		x11
-MASTER_SITES=		http://www.freedesktop.org/Software/xrestop/
+MASTER_SITES=		http://www.freedesktop.org/software/xrestop/
 
 MAINTAINER=		reed@reedmedia.net
 HOMEPAGE=		http://www.freedesktop.org/Software/xrestop
