@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		xrestop-0.2
+DISTNAME=		xrestop-0.3
 CATEGORIES=		x11
 MASTER_SITES=		http://www.freedesktop.org/Software/xrestop/
 
