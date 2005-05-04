@@ -2,7 +2,7 @@
 
 DISTNAME=		cron_4.0_b1
 PKGNAME=		vixie-cron-4.0.1
-CATEGORIES=		sysutils
+CATEGORIES=		sysutils time
 MASTER_SITES=		ftp://ftp.isc.org/isc/cron/
 EXTRACT_SUFX=		.shar
 
