@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	mrxvt-0.4.0
+DISTNAME=	mrxvt-0.4.1
 CATEGORIES=	x11
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=materm/}
 
