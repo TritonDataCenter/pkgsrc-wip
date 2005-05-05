@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.1771 2005/05/05 19:54:10 xtraeme Exp $
+# $Id: Makefile,v 1.1772 2005/05/05 20:09:16 xtraeme Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -1014,7 +1014,6 @@ SUBDIR+=	words
 SUBDIR+=	wxGTK-contrib
 SUBDIR+=	wxgtk-devel
 SUBDIR+=	wxgtk-devel-contrib
-SUBDIR+=	x11rec
 SUBDIR+=	x11vnc
 SUBDIR+=	xbase
 SUBDIR+=	xbelmark
