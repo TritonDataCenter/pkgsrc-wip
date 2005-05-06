@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		Crypt-SmbHash-0.02
+DISTNAME=		Crypt-SmbHash-0.12
 PKGNAME=		p5-${DISTNAME}
 SVR4_PKGNAME=		p5csm
 CATEGORIES=		security perl5
