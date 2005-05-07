@@ -7,8 +7,8 @@ $NetBSD$
  #ifdef ENABLE_OSS
 -string gOSSOutputDevice="/dev/dsp";
 -string gOSSInputDevice="/dev/dsp";
-+string gOSSOutputDevice="/dev/sound";
-+string gOSSInputDevice="/dev/sound";
++string gOSSOutputDevice=DEVOSSSOUND;
++string gOSSInputDevice=DEVOSSSOUND;
  #endif
  #ifdef ENABLE_ALSA
  string gALSAOutputDevice="hw:0";
