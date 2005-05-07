@@ -2,6 +2,7 @@
 #
 
 DISTNAME=		fox-1.2.16
+PKGREVISION=		1
 CATEGORIES=		x11
 MASTER_SITES=		http://www.fox-toolkit.org/ftp/
 
@@ -22,4 +23,5 @@ GNU_CONFIGURE=		yes
 .include "../../graphics/png/buildlink3.mk"
 .include "../../graphics/tiff/buildlink3.mk"
 
+.include "../../mk/pthread.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
