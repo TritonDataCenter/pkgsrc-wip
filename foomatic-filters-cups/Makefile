@@ -9,7 +9,7 @@ MAINTAINER=	tech-pkg@NetBSD.org
 HOMEPAGE=	http://www.linuxprinting.org/
 COMMENT=	CUPS support for foomatic-filters
 
-DEPENDS+=	foomatic-filters-3.0*:../../wip/foomatic-filters
+DEPENDS+=	foomatic-filters-3.0*:../../print/foomatic-filters
 
 NO_CHECKSUM=	yes
 NO_BUILD=	yes
