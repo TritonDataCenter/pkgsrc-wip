@@ -8,7 +8,7 @@ MAINTAINER=	tech-pkg@NetBSD.org
 HOMEPAGE=	http://www.linuxprinting.org/
 COMMENT=	Spooler independent postscript printing filter
 
-DEPENDS+=	foomatic-filters>=3.0.1:../../wip/foomatic-filters
+DEPENDS+=	foomatic-filters>=3.0.1:../../print/foomatic-filters
 #DEPENDS+=	foomatic-db-[0-9]*:../../wip/foomatic-db # XXX
 
 GNU_CONFIGURE=	YES
