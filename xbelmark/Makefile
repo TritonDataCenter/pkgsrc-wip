@@ -2,8 +2,7 @@
 #
 
 DISTNAME=		xbelmark.py
-PKGNAME=		xbelmark-20030119
-WRKSRC=			${WRKDIR}
+PKGNAME=		xbelmark-20040924
 CATEGORIES=		textproc www
 MASTER_SITES=		http://www.stud.uni-hamburg.de/users/lennart/projects/xbelmark/
 EXTRACT_SUFX=		# nothing to extract
@@ -12,8 +11,9 @@ MAINTAINER=		tech-pkg@NetBSD.org
 HOMEPAGE=		http://www.stud.uni-hamburg.de/users/lennart/projects/xbelmark/
 COMMENT=		XBEL XML bookmarks to readable HTML converter
 
-DEPENDS=		py23-expat-[0-9]*:../../textproc/py-expat
+DEPENDS=		${PYPKGPREFIX}-expat-[0-9]*:../../textproc/py-expat
 
+WRKSRC=			${WRKDIR}
 NO_BUILD=		YES
 
 PYTHON_VERSIONS_ACCEPTED=	22 22pth 23 23pth
