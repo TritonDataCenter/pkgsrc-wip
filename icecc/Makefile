@@ -27,8 +27,6 @@ DEPENDS+=		vim-{gtk,gtk2,kde,motif,xaw}>=6.3.0:../../editors/vim-xaw
 
 USE_GNU_TOOLS+=		make
 
-.include "../../mk/bsd.prefs.mk"
-
 WRKSRC=			${WRKDIR}
 
 QSRC=			icecc-2.9 icebgset-1.3 iceked-1.5 icemc-2.1
