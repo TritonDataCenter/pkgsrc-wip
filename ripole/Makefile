@@ -14,7 +14,7 @@ PKG_INSTALLATION_TYPES=	overwrite pkgviews
 
 USE_LIBTOOL=		yes
 USE_PKGINSTALL=		yes
-BUILD_TARGET=
+BUILD_TARGET=		default
 
 do-configure: # empty
 
