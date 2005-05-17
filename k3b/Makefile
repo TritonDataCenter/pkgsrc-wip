@@ -10,6 +10,9 @@ MAINTAINER=		martijn.van.buul@gmail.com
 HOMEPAGE=		http://www.k3b.org/
 COMMENT=		DVD and CD authoring program
 
+DEPENDS+=  		cdrdao-[0-9]*:../../sysutils/cdrdao
+DEPENDS+=  		{cdrecord,cdrtools-ossdvd}-[0-9]*:../../sysutils/cdrecord
+
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 
