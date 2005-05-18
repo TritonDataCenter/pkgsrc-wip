@@ -21,7 +21,7 @@ USE_X11=		yes
 .include "../../mk/pthread.buildlink3.mk"
 
 .if defined(PTHREAD_TYPE) && ${PTHREAD_TYPE} != "none"
-CONFIGURE_ARGS+=        --with-pthreads=yes --enable-threadsafe 
+CONFIGURE_ARGS+=        --with-pthreads=yes --enable-threadsafe
 .endif
 
 .include "../../mk/bsd.pkg.mk"
