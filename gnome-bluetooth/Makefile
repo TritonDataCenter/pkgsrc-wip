@@ -30,5 +30,5 @@ SUBST_SED.py=-e 's,/usr/share/,${PREFIX}/share/,g' \
 .include "../../security/gnutls/buildlink3.mk"
 .include "../../security/gnome-keyring/buildlink3.mk"
 .include "../../wip/libbtctl/buildlink3.mk"
-.include "../../x11/gnome-python/buildlink3.mk"
+.include "../../x11/py-gnome2/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
