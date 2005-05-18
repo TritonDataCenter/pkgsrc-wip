@@ -12,9 +12,9 @@ COMMENT=		Library for predicting fire spread rate, intensity, and more
 WRKSRC=			${WRKDIR}
 
 MAKEFILE=		makefile
+BUILD_TARGET=		fireSim
 
-do-build:
-	cd  ${WRKSRC} && ${MAKE} -f ${MAKEFILE}
+post-build:
 	cd  ${WRKSRC} && ${AR} cru libfire.a fireLib.o
 	cd  ${WRKSRC} && ${RANLIB} libfire.a
 
