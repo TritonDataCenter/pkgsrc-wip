@@ -26,7 +26,7 @@ post-patch:
 	${SED} -e 's:@PG_LIB_PATH@:${PREFIX}/lib:g' ${WRKSRC}/configure > ${WRKSRC}/configure.tmp
 	${MV} ${WRKSRC}/configure.tmp ${WRKSRC}/configure
 	${CHMOD} 755 ${WRKSRC}/configure
-	
+
 .include "../../math/R/Makefile.extension"
 .include "../../mk/pgsql.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
