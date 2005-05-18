@@ -7,7 +7,7 @@ CATEGORIES=             www
 MASTER_SITES=           ${MASTER_SITE_SOURCEFORGE:=aolserver/}
 
 MAINTAINER=		iharding@destinydata.com
-HOMEPAGE=		www.aolserver.com
+HOMEPAGE=		http://www.aolserver.com/
 COMMENT=		FreeTDS database access module for aolserver
 
 WRKSRC=                 ${WRKDIR}/${DISTNAME:S/-src//}
