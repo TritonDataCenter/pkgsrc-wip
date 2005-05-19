@@ -9,10 +9,14 @@ MAINTAINER=		mchittur@cs.nmsu.edu
 HOMEPAGE=		http://fire.org/firelib/
 COMMENT=		Library for predicting fire spread rate, intensity, and more
 
+PKG_INSTALLATION_TYPES=	overwrite pkgviews
+
 WRKSRC=			${WRKDIR}
 
 MAKEFILE=		makefile
 BUILD_TARGET=		fireSim
+
+INSTALLATION_DIRS=	bin include lib
 
 post-build:
 	cd  ${WRKSRC} && ${AR} cru libfire.a fireLib.o
