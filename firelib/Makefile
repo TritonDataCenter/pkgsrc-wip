@@ -3,10 +3,10 @@
 
 DISTNAME=		firelib-1.0.1
 CATEGORIES=		wip
-MASTER_SITES=		http://fire.org/firelib//
+MASTER_SITES=		http://fire.org/firelib/
 
 MAINTAINER=		mchittur@cs.nmsu.edu
-HOMEPAGE=		http://fire.org/firelib//
+HOMEPAGE=		http://fire.org/firelib/
 COMMENT=		Library for predicting fire spread rate, intensity, and more
 
 WRKSRC=			${WRKDIR}
