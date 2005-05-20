@@ -92,7 +92,7 @@ PLIST_SUBST+=		OPERA_PKG_VERSION=${OPERA_PKG_VERSION}
 
 SUBST_CLASSES+=		opera7
 SUBST_STAGE.opera7=	post-build
-SUBST_FILES.opera7=	${WRKSRC}/man/opera.1
+SUBST_FILES.opera7=	man/opera.1
 SUBST_SED.opera7=	-e 's,/usr/,${PREFIX}/,g'
 .endif
 
