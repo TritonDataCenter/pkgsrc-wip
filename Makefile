@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.1782 2005/05/19 13:08:15 minskim Exp $
+# $Id: Makefile,v 1.1783 2005/05/21 20:11:21 christian_gall Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -574,6 +574,7 @@ SUBDIR+=	mupen64-plugin-video
 SUBDIR+=	musepack
 SUBDIR+=	mutella
 SUBDIR+=	mutt-devel
+SUBDIR+=	mutt-ng
 SUBDIR+=	mxterm
 SUBDIR+=	mysql-docs
 SUBDIR+=	mythtv
