@@ -17,7 +17,7 @@ required_files="@PKG_SYSCONFDIR@/conserver.cf"
 pidfile="/var/run/conserver.pid"
 command_args="-d"              # _must_ start as daemon from rc.d;
                                # add more flags through ${${name}_flags}
-extra_command="reload status"
+extra_commands="reload status"
 
 if [ -f /etc/rc.subr ]
 then
