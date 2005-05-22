@@ -17,6 +17,7 @@ INCOMPAT_CURSES+=	NetBSD-1.6[A-L]*
 
 WRKSRC=		${WRKDIR}/glkterm
 USE_LIBTOOL=	yes
+UNWRAP_FILES+=	Make.glkterm
 
 .include "../../devel/ncurses/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
