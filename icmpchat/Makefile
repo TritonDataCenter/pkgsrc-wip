@@ -8,9 +8,9 @@ MAINTAINER=	pancake@phreaker.net
 HOMEPAGE=	http://icmpchat.sourceforge.net/
 COMMENT=	Simple chat using ICMP and Rijndael-256 encryptation
 
-USE_GNU_TOOLS+=	make
+USE_TOOLS+=	gmake
 
-MAKE_ENV+=	LIBS="${LIBS}"
+MAKE_ENV+=	LIBS=${LIBS:Q}
 LIBS.SunOS+=	-lnsl -lsocket -lresolv
 
 .include	"../../mk/bsd.pkg.mk"
