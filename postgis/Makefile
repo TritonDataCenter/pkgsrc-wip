@@ -43,17 +43,17 @@ pre-build:
 do-install:
 	${INSTALL_DATA_DIR} ${DOCDIR} ${EXAMPLEDIR} ${HTMLDIR} ${SQLDIR}
 .for f in libpostgis.a libpostgis.so.0.7
-	${INSTALL_DATA} ${BUILD_DIRS}/$f ${LIBDIR}/$f
+	${INSTALL_DATA} ${BUILD_DIRS}/${f} ${LIBDIR}/${f}
 .endfor
 	${RM} -f ${LIBDIR}/libpostgis.so.0
 	${RM} -f ${LIBDIR}/libpostgis.so
 	${LN} -s libpostgis.so.0.7 ${LIBDIR}/libpostgis.so.0
 	${LN} -s libpostgis.so.0.7 ${LIBDIR}/libpostgis.so
 .for f in postgis.sql postgis_undef.sql spatial_ref_sys.sql
-	${INSTALL_DATA} ${BUILD_DIRS}/$f ${SQLDIR}/$f
+	${INSTALL_DATA} ${BUILD_DIRS}/${f} ${SQLDIR}/${f}
 .endfor
 .for f in pgsql2shp shp2pgsql
-	${INSTALL_PROGRAM} ${BUILD_DIRS}/loader/$f ${PREFIX}/bin/$f
+	${INSTALL_PROGRAM} ${BUILD_DIRS}/loader/${f} ${PREFIX}/bin/${f}
 .endfor
 	${CP} -r ${BUILD_DIRS}/examples/* ${EXAMPLEDIR}
 	${INSTALL_DATA} ${BUILD_DIRS}/README.postgis ${DOCDIR}
