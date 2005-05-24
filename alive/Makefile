@@ -1,4 +1,4 @@
-# $NetBSD $
+# $NetBSD$
 #
 
 DISTNAME=	alive-1.4.0
