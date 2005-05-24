@@ -14,7 +14,7 @@ HOMEPAGE=		http://www.pgpi.org/products/pgp/versions/freeware/unix/6.5.8/
 COMMENT=		Public-key encryption and digital signature utilities (v6)
 
 GNU_CONFIGURE=		yes
-USE_GNU_TOOLS+=		make
+USE_TOOLS+=		gmake
 
 buildDIRS=		libs/pfl libs/pgpcdk clients/pgp/shared clients/pgp/cmdline
 

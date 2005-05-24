@@ -10,7 +10,7 @@ HOMEPAGE=	http://www.eecs.umich.edu/~pelzlpj/orpie/
 COMMENT=	Curses-based reverse polish notation (RPN) calculator
 
 GNU_CONFIGURE=		YES
-USE_GNU_TOOLS+=		make
+USE_TOOLS+=		gmake
 
 CONFIGURE_ARGS+=	--with-ncurses
 

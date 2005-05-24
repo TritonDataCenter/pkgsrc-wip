@@ -12,7 +12,7 @@ COMMENT=	Flash-based photo album generator
 USE_X11=		yes
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
-USE_GNU_TOOLS+=		make
+USE_TOOLS+=		gmake
 USE_PERL5=		build
 
 .include "options.mk"

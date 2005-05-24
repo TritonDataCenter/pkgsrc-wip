@@ -13,7 +13,7 @@ DEPENDS+=	foomatic-filters>=3.0.1:../../print/foomatic-filters
 
 GNU_CONFIGURE=	YES
 
-USE_GNU_TOOLS+=	make
+USE_TOOLS+=	gmake
 USE_PERL5=	yes
 PERL5_REQD=	5.6
 REPLACE_PERL+=	makeMan makeDefaults

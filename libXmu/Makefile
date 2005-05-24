@@ -16,7 +16,7 @@ USE_LIBTOOL=		yes
 PKGCONFIG_OVERRIDE+=	xmu.pc.in
 PKGCONFIG_OVERRIDE+=	xmuu.pc.in
 GNU_CONFIGURE=		yes
-USE_GNU_TOOLS+=		make
+USE_TOOLS+=		gmake
 
 .include "../../devel/pkgconfig/buildlink3.mk"
 .include "../../wip/libXext/buildlink3.mk"

@@ -24,7 +24,7 @@ LICENSE=	scsl-2.3-license
 
 USE_X11=		yes
 USE_PKGINSTALL=		yes
-USE_GNU_TOOLS+=		make m4
+USE_TOOLS+=		gmake m4
 USE_LANGUAGES=		c c++
 EXTRACT_CMD_OPTS.zip=	-q
 WRKSRC=			${WRKDIR}

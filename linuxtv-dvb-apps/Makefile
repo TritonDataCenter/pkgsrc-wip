@@ -10,7 +10,7 @@ MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://212.227.36.83/linuxtv/downloads/
 COMMENT=		DVB applications from LinuxTV project
 
-USE_GNU_TOOLS+=		make
+USE_TOOLS+=		gmake
 
 ONLY_FOR_PLATFORM= Linux-*-*
 

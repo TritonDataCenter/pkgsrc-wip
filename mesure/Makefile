@@ -9,6 +9,6 @@ MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://www.nopcode.org/?t=mesure
 COMMENT=		Tool to measure different kind of streams
 GNU_CONFIGURE=		yes
-USE_GNU_TOOLS+=		make
+USE_TOOLS+=		gmake
 
 .include "../../mk/bsd.pkg.mk"

@@ -9,7 +9,7 @@ MAINTAINER=		lars.nordlund@hem.utfors.se
 HOMEPAGE=		http://gtk-gnutella.sourceforge.net/
 COMMENT=		GTK-based gnutella client, CVS snapshot
 
-USE_GNU_TOOLS+=		make
+USE_TOOLS+=		gmake
 USE_PKGLOCALEDIR=	yes
 USE_X11=		yes
 HAS_CONFIGURE=		yes

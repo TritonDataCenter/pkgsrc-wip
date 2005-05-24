@@ -11,7 +11,7 @@ MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://www.cse.unsw.edu.au/~neilb/source/mdadm/ANNOUNCE
 COMMENT=		RAID management for Linux systems
 
-USE_GNU_TOOLS+= make
+USE_TOOLS+= gmake
 
 ONLY_FOR_PLATFORM=Linux-*-*
 

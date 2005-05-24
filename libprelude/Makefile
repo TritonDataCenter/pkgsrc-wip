@@ -9,7 +9,7 @@ HOMEPAGE= 	http://www.prelude-ids.org/
 COMMENT=	Hybrid IDS
 
 GNU_CONFIGURE=		YES
-USE_GNU_TOOLS+=		make
+USE_TOOLS+=		gmake
 USE_PKGINSTALL=         YES
 
 PTHREAD_OPTS=		require

@@ -11,7 +11,7 @@ COMMENT=	Portable C++ library for displaying VRML97 files
 USE_X11=	YES
 GNU_CONFIGURE=	YES
 CONFIGURE_ARGS+=--disable-script-node-java --disable-script-node-javascript
-USE_GNU_TOOLS+=	make
+USE_TOOLS+=	gmake
 
 .include "../../graphics/glu/buildlink3.mk"
 .include "../../graphics/glut/buildlink3.mk"

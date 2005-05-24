@@ -11,7 +11,7 @@ HOMEPAGE=		http://www.grisbi.org/
 COMMENT=		Personal Finance Manager under Gnome/GTK
 
 USE_DIRS+=		xdg-1.1
-USE_GNU_TOOLS+=		make
+USE_TOOLS+=		gmake
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 

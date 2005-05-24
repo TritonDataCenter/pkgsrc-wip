@@ -9,7 +9,7 @@ MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://www.grigna.com/diego/linux/vche/
 COMMENT=		Hex Editor for console
 
-USE_GNU_TOOLS+=	make
+USE_TOOLS+=	gmake
 
 NOT_FOR_PLATFORM=	NetBSD-*-*
 

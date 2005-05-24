@@ -15,7 +15,7 @@ ONLY_FOR_PLATFORM=	Linux-*-*
 
 CONFLICTS+=		top-[0-9]*
 
-USE_GNU_TOOLS+=		make
+USE_TOOLS+=		gmake
 MAKE_ENV+=		DESTDIR=${PREFIX}
 
 .include "../../devel/ncurses/buildlink3.mk"

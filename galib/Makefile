@@ -10,7 +10,7 @@ MAINTAINER=     adam@monkeybyte.org
 HOMEPAGE=       http://lancet.mit.edu/ga/
 COMMENT=        GAlib contains a set of C++ genetic algorithm objects
 
-USE_GNU_TOOLS+=		make
+USE_TOOLS+=		gmake
 
 pre-configure:
 	cd ${WRKSRC}; 					\

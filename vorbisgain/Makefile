@@ -10,7 +10,7 @@ HOMEPAGE=		http://sjeng.org/vorbisgain.html
 COMMENT=		ReplayGain technology for Vorbis
 
 GNU_CONFIGURE=		yes
-USE_GNU_TOOLS+=		make
+USE_TOOLS+=		gmake
 
 EXTRACT_CMD_OPTS.zip=   -aqo
 

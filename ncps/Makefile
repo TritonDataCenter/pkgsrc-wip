@@ -9,7 +9,7 @@ HOMEPAGE=	http://www.math.ohio-state.edu/~pschan/ncps/
 COMMENT=	ncurses based process-killer
 
 GNU_CONFIGURE=		YES
-USE_GNU_TOOLS+=		make
+USE_TOOLS+=		gmake
 USE_NCURSES=		YES
 
 # It uses /proc...could be emulated, but not tested

@@ -9,7 +9,7 @@ MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://downloads.usefulinc.com/libbtctl/
 COMMENT=		GObject Bluetooth controller
 
-USE_GNU_TOOLS=make
+USE_TOOLS=gmake
 USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=		yes
 LIBTOOL_OVERRIDE=	${WRKSRC}/libtool

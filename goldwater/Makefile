@@ -12,7 +12,7 @@ COMMENT=		Highly scalable distributed middleware
 
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
-USE_GNU_TOOLS+=		make
+USE_TOOLS+=		gmake
 
 .include "../../textproc/expat/buildlink3.mk"
 .include "../../wip/phlib/buildlink3.mk"

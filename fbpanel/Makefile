@@ -10,7 +10,7 @@ MAINTAINER=		reed@reedmedia.net
 HOMEPAGE=		http://fbpanel.sourceforge.net/
 COMMENT=		Desktop panel with menu, pager, and other plugins
 
-USE_GNU_TOOLS+=		make
+USE_TOOLS+=		gmake
 HAS_CONFIGURE=		yes
 CONFIGURE_ARGS+=	--prefix=${PREFIX}
 PKGMANDIR?=		man

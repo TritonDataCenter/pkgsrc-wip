@@ -16,7 +16,7 @@ DEPENDS+=  		{cdrecord,cdrtools-ossdvd}-[0-9]*:../../sysutils/cdrecord
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 
-USE_GNU_TOOLS+=		make
+USE_TOOLS+=		gmake
 USE_LIBTOOL=            yes
 USE_LANGUAGES=          c c++
 

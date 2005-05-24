@@ -14,7 +14,7 @@ COMMENT=		The Linux System V init and miscellaneous Linux tools
 # this uses linux/kd.h for example
 ONLY_FOR_PLATFORM=	Linux-*-*	# This is the Linux init
 
-USE_GNU_TOOLS+=		make
+USE_TOOLS+=		gmake
 MAKE_ENV+=		ROOT=${PREFIX} ROOT_GROUP=${ROOT_GROUP} \
 			ROOT_USER=${ROOT_USER}
 

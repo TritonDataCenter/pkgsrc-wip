@@ -11,7 +11,7 @@ COMMENT=	GTK VRML97 viewer
 USE_X11=	YES
 GNU_CONFIGURE=	YES
 #CONFIGURE_ARGS+=--disable-script-node-java --disable-script-node-javascript
-USE_GNU_TOOLS+=	make
+USE_TOOLS+=	gmake
 LIBS+=		-lX11
 
 .include "../../wip/openvrml/buildlink3.mk"

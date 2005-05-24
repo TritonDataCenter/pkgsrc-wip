@@ -12,7 +12,7 @@ COMMENT=	Linux UPnP Internet Gateway Device
 
 USE_LANGUAGES=	c c++
 USE_PKGINSTALL=	yes
-USE_GNU_TOOLS+= make
+USE_TOOLS+= gmake
 
 .include "options.mk"
 

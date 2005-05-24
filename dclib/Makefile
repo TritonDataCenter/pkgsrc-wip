@@ -12,7 +12,7 @@ COMMENT=	Direct Connect P2P library
 
 GNU_CONFIGURE=		YES
 USE_LIBTOOL=		YES
-USE_GNU_TOOLS+=		make
+USE_TOOLS+=		gmake
 
 PKGCONFIG_OVERRIDE+=	dclib.pc.in
 

@@ -11,6 +11,6 @@ HOMEPAGE=	http://www.tobias-nopper.de/BillardGL/
 COMMENT=	3D Billard using OpenGL hardware acceleration
 
 WRKSRC=		${WRKDIR}/src
-USE_GNU_TOOLS+=	make
+USE_TOOLS+=	gmake
 
 .include "../../mk/bsd.pkg.mk"

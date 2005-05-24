@@ -8,7 +8,7 @@ MASTER_SITES=	http://msn-transport.jabberstudio.org/
 MAINTAINER=	david@netbsd-fr.org
 COMMENT=	Jabber MSN-Transport module
 
-USE_GNU_TOOLS+=	make
+USE_TOOLS+=	gmake
 GNU_CONFIGURE=	YES
 CONFIGURE_ARGS+= --with-jabberd=${PREFIX}/include/jabberd \
 		 --with-pth=${PREFIX}/include \

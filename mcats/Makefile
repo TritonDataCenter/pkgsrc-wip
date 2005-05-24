@@ -10,7 +10,7 @@ HOMEPAGE=	http://mcats.net/
 COMMENT=	Catalog converter
 
 GNU_CONFIGURE=		YES
-USE_GNU_TOOLS+=		make
+USE_TOOLS+=		gmake
 USE_LIBTOOL=		YES
 
 .include "../../mk/bsd.pkg.mk"

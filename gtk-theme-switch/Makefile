@@ -9,7 +9,7 @@ MAINTAINER=		dotz@irc.pl
 HOMEPAGE=		http://www.muhri.net/
 COMMENT=		Allows quick & easy switching of GTK1 themes
 
-USE_GNU_TOOLS+=		make
+USE_TOOLS+=		gmake
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/switch ${PREFIX}/bin/gtk-theme-switch

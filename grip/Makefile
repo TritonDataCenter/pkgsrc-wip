@@ -12,7 +12,7 @@ COMMENT=		CD-player and CD-ripper for the Gnome desktop
 BUILD_USES_MSGFMT=	yes
 
 USE_DIRS+=		xdg-1.1
-USE_GNU_TOOLS+=		make
+USE_TOOLS+=		gmake
 USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=		yes
 USE_X11=		yes

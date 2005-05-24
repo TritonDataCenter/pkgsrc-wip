@@ -16,7 +16,7 @@ ONLY_FOR_PLATFORM=	Linux-*-* # Uses Linux kernel headers
 
 BUILD_USES_MSGFMT=	YES	# and xgettext
 HAS_CONFIGURE=		YES
-USE_GNU_TOOLS+=		make
+USE_TOOLS+=		gmake
 USE_PKGLOCALEDIR=	YES
 
 CONFIGURE_ARGS+=	--prefix=${PREFIX}

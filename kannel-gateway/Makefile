@@ -9,7 +9,7 @@ MAINTAINER=		adam@monkeybyte.org
 HOMEPAGE=		http://www.kannel.org/download/1.2.1/
 COMMENT=		Kannel WAP gateway
 
-USE_GNU_TOOLS+=		make
+USE_TOOLS+=		gmake
 USE_LIBTOOL=            yes
 GNU_CONFIGURE=          yes
 

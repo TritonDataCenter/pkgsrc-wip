@@ -9,7 +9,7 @@ MAINTAINER=	virtus@wanadoo.nl
 HOMEPAGE=	http://pinball.sourceforge.net/
 COMMENT=	Pinball using the Allegro game library
 
-USE_GNU_TOOLS+=	make
+USE_TOOLS+=	gmake
 GNU_CONFIGURE=  YES
 WRKSRC=		${WRKDIR}/pinball-0.2.0
 

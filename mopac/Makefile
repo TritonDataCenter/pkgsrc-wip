@@ -19,7 +19,7 @@ COMMENT=	Molecular energy calculation program
 
 WRKSRC=			${WRKDIR}/mopac7
 BUILD_TARGET=		MOPAC7
-USE_GNU_TOOLS+=		make
+USE_TOOLS+=		gmake
 USE_FORTRAN=		yes
 PKG_FC?=		f2c-f77
 

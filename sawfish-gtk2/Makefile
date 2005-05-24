@@ -23,7 +23,7 @@ GNU_CONFIGURE=		# defined
 USE_X11=		# defined
 CONFIGURE_ARGS+=	--without-audiofile --without-esd
 
-USE_GNU_TOOLS+=		make
+USE_TOOLS+=		gmake
 USE_PKGLOCALEDIR=	# defined
 USE_MAKEINFO=		YES
 

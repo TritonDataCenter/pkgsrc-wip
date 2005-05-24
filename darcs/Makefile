@@ -15,7 +15,7 @@ BUILD_DEPENDS+=		latex2html-[0-9]*:../../textproc/latex2html
 
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
-USE_GNU_TOOLS+=		make
+USE_TOOLS+=		gmake
 MAKEFILE=		${WRKSRC}/GNUmakefile
 
 post-install:

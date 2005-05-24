@@ -10,7 +10,7 @@ MAINTAINER=	tech-pkg@NetBSD.org
 HOMEPAGE=	http://dbf.sourceforge.net/
 COMMENT=	Converts dBASE files to comma separated values text files
 
-USE_GNU_TOOLS+=	make
+USE_TOOLS+=	gmake
 WRKSRC=		${WRKDIR}/${PKGNAME_NOREV}
 BUILD_DIRS=	${WRKSRC}/src
 INSTALL_DIRS=	${WRKSRC}

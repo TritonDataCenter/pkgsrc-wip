@@ -11,7 +11,7 @@ COMMENT=	Widget style and window decoration for KDE3
 
 GNU_CONFIGURE=		YES
 USE_LIBTOOL=		YES
-USE_GNU_TOOLS+=		make
+USE_TOOLS+=		gmake
 USE_X11=		YES
 
 LDFLAGS+=		${EXPORT_SYMBOLS_LDFLAGS}

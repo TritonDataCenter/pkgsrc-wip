@@ -9,7 +9,7 @@ HOMEPAGE=	http://www.samba.org/ppp/
 COMMENT=	Point-to-Point Protocol (PPP) over serial lines
 
 HAS_CONFIGURE=	yes
-USE_GNU_TOOLS+=	make
+USE_TOOLS+=	gmake
 
 post-install:
 	${INSTALL_DATA_DIR} ${PREFIX}/share/doc/ppp

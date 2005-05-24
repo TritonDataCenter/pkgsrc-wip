@@ -12,7 +12,7 @@ HOMEPAGE=		http://heroinewarrior.com/firehose.php3
 COMMENT=		Super fast throughput over cheap ethernet
 
 WRKSRC=		${WRKDIR}/firehose-0.6.0
-USE_GNU_TOOLS+=make
+USE_TOOLS+=gmake
 
 SUBST_CLASSES=gcc
 SUBST_SED.gcc=-e 's,TARGET\ =\ mips,TARGET\ =\ i686,g'

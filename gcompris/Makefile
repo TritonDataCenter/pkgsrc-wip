@@ -9,7 +9,7 @@ MAINTAINER=	reed@reedmedia.net
 HOMEPAGE=	http://ofset.sourceforge.net/gcompris/
 COMMENT=	Educational games for children
 
-USE_GNU_TOOLS+=		make
+USE_TOOLS+=		gmake
 GNU_CONFIGURE=		YES
 USE_PKGLOCALEDIR=	YES
 GNU_CONFIGURE=		YES

@@ -9,7 +9,7 @@ MAINTAINER=	pancake@phreaker.net
 HOMEPAGE=	http://www.busybox.net/
 COMMENT=	The Swiss Army Knife of Embedded Linux
 
-USE_GNU_TOOLS+=	make
+USE_TOOLS+=	gmake
 
 ONLY_FOR_PLATFORM=	Linux-*-*
 

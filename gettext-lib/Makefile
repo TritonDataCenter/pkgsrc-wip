@@ -12,7 +12,7 @@ PKG_INSTALLATION_TYPES=	overwrite pkgviews
 USE_LIBTOOL=		yes
 
 GNU_CONFIGURE=		yes
-USE_GNU_TOOLS+=		make
+USE_TOOLS+=		gmake
 CONFIGURE_ARGS+=	--with-included-gettext
 
 CONFIGURE_ENV+=		PKGLOCALEDIR="${PKGLOCALEDIR}"

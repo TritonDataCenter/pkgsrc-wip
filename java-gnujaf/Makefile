@@ -12,7 +12,7 @@ COMMENT=		GNU Java Activation Framework
 
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
-USE_GNU_TOOLS+=		make
+USE_TOOLS+=		gmake
 
 .include "../../mk/java-env.mk"
 .include "../../mk/bsd.pkg.mk"

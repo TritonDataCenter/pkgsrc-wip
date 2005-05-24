@@ -9,7 +9,7 @@ MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://and.sourceforge.net/
 COMMENT=		auto nice daemon
 
-USE_GNU_TOOLS+=	make
+USE_TOOLS+=	gmake
 BUILD_TARGET=	default
 
 MYARCH=${OPSYS}

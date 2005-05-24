@@ -19,7 +19,7 @@ USE_LIBTOOL=		yes
 USE_PKGINSTALL=		yes
 OWN_DIRS=		?
 GNU_CONFIGURE=		yes
-USE_GNU_TOOLS+=		make
+USE_TOOLS+=		gmake
 
 EGDIR=                  ${PREFIX}/share/examples/nsd
 PKG_SYSCONFSUBDIR=      nsd

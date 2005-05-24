@@ -11,7 +11,7 @@ COMMENT=	Simple, clean theme engine for gtk+ 1.2.x
 
 USE_LIBTOOL=		YES
 GNU_CONFIGURE=		YES
-USE_GNU_TOOLS+=		make
+USE_TOOLS+=		gmake
 USE_X11BASE=		YES
 
 .include "../../x11/gtk/buildlink3.mk"

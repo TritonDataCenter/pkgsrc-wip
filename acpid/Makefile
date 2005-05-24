@@ -14,7 +14,7 @@ EGDIR=			${PKG_SYSCONFDIR}/acpid ${PREFIX}/share/examples/acpid
 USE_PKGINSTALL=		yes
 RCD_SCRIPTS=		acpid
 
-USE_GNU_TOOLS=		make
+USE_TOOLS=		gmake
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/acpid ${PREFIX}/sbin

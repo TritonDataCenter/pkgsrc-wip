@@ -15,7 +15,7 @@ DEPENDS+=		dvd+rw-tools>5.21:../../sysutils/dvd+rw-tools
 
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
-USE_GNU_TOOLS+=		make
+USE_TOOLS+=		gmake
 
 .include "../../audio/libid3tag/buildlink3.mk"
 .include "../../audio/libmad/buildlink3.mk"

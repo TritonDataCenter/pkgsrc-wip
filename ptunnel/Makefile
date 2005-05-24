@@ -12,7 +12,7 @@ HOMEPAGE=		http://www.cs.uit.no/~daniels/PingTunnel/
 COMMENT=		TCP tunnel over ICMP
 
 WRKSRC=			${WRKDIR}/PingTunnel
-USE_GNU_TOOLS+=		make
+USE_TOOLS+=		gmake
 
 .include "../../net/libpcap/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

@@ -8,7 +8,7 @@ MASTER_SITES=	http://lev.serebryakov.spb.ru/download/0.48/
 MAINTAINER=	tech-pkg@NetBSD.org
 COMMENT=	FidoNet mailer
 
-USE_GNU_TOOLS+=	make
+USE_TOOLS+=	gmake
 
 MAKE_ENV+=	SH="${SH}" AWK="${AWK}" MORDA="${QCC}"
 

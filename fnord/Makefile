@@ -9,7 +9,7 @@ MAINTAINER=	schwarz@NetBSD.org
 HOMEPAGE=	http://www.fefe.de/fnord/
 COMMENT=	A small HTTP server
 
-USE_GNU_TOOLS+=	make
+USE_TOOLS+=	gmake
 DEPENDS+=	ucspi-tcp-*:../../net/ucspi-tcp
 
 INSTALLATION_DIRS=	sbin

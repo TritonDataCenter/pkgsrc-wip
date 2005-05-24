@@ -14,7 +14,7 @@ COMMENT=	iODBC module for MCatS
 DEPENDS+=	mcats>=0.1.0:../../wip/mcats
 
 GNU_CONFIGURE=		YES
-USE_GNU_TOOLS+=		make
+USE_TOOLS+=		gmake
 USE_LIBTOOL=		YES
 CONFIGURE_ARGS+=	--enable-iodbc
 

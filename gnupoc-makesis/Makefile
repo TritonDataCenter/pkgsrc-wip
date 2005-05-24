@@ -10,7 +10,7 @@ MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://symbianos.org/download/
 COMMENT=		GNU SIS file generator for SymbianOS
 
-USE_GNU_TOOLS+=	make
+USE_TOOLS+=	gmake
 
 ONLY_FOR_PLATFORM+=	Linux-*-* # Need to check swprintf on other OSs
 

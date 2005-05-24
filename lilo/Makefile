@@ -21,7 +21,7 @@ ONLY_FOR_PLATFORM=	Linux-*-*
 BUILD_DEPENDS+=		bin86>=0.16.9:../../wip/bin86
 BUILD_DEPENDS+=		nasm>=0.98:../../devel/nasm
 
-USE_GNU_TOOLS+=		make
+USE_TOOLS+=		gmake
 MAKE_ENV+=		ROOT=${PREFIX}
 MAKE_ENV+=		SYSCONFDIR=${PKG_SYSCONFDIR}
 PKGMANDIR?=		man

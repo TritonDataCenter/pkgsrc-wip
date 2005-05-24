@@ -9,7 +9,7 @@ HOMEPAGE=	http://sipsak.org
 COMMENT=	a command-line SIP testing utility
 
 GNU_CONFIGURE=	YES
-USE_GNU_TOOLS+=	make
+USE_TOOLS+=	gmake
 
 INSTALLATION_DIRS=	bin man/man1
 

@@ -15,7 +15,7 @@ USE_X11=		YES
 USE_BUILDLINK3=		YES
 
 GNU_CONFIGURE=		YES
-USE_GNU_TOOLS+=		make
+USE_TOOLS+=		gmake
 
 do-configure:
 	cd ${WRKSRC} && ${CONFIGURE_SCRIPT} --prefix=${PREFIX} --without-debug --with-fltk=${PREFIX} --with-wxwin=${PREFIX}

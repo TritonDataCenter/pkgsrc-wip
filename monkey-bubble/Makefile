@@ -12,7 +12,7 @@ COMMENT=		Bust'a'move clone written in C for GNOME2
 USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=		yes
 GNU_CONFIGURE=		yes
-USE_GNU_TOOLS+=		make
+USE_TOOLS+=		gmake
 
 .include "../../graphics/librsvg2/buildlink3.mk"
 .include "../../multimedia/gstreamer/buildlink3.mk"

@@ -11,7 +11,7 @@ HOMEPAGE=		http://www3.telus.net/sharpshin/adi.html
 COMMENT=		Assembler tool suite for the Analog Devices 21xx family of DSP
 
 USE_LANGUAGES=	c
-USE_GNU_TOOLS+=	make
+USE_TOOLS+=	gmake
 USE_GNU_TOOLS+= yacc
 
 .include "../../devel/flex/buildlink3.mk"

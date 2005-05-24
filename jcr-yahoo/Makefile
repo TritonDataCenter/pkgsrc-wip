@@ -17,7 +17,7 @@ WRKSRC=			${WRKDIR}/jcr-0.2.4
 SUBWRKSRC=		${WRKSRC}/${DISTNAME}
 XMLCONFIG=		${WRKDIR}/${DISTNAME}/yahoo-jcr.xml
 
-USE_GNU_TOOLS+=		make
+USE_TOOLS+=		gmake
 USE_PKGINSTALL=		yes
 
 PKG_SYSCONFSUBDIR=      jabberd

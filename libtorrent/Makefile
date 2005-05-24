@@ -11,7 +11,7 @@ COMMENT=	BitTorrent library written in C++ for *nix
 USE_LIBTOOL=		yes
 USE_BUILDLINK3=		yes
 GNU_CONFIGURE=		yes
-USE_GNU_TOOLS+=		make
+USE_TOOLS+=		gmake
 
 PREFER_PKGSRC=		openssl
 

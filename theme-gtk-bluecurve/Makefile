@@ -21,7 +21,7 @@ COMMENT=	RedHat bluecurve theme for GTK
 BUILD_DEPENDS+=	rpm-[0-9]*:../../misc/rpm
 
 WRKSRC= 	${WRKDIR}/redhat-artwork-${THEMEVERSION}
-USE_GNU_TOOLS+=	make
+USE_TOOLS+=	gmake
 USE_X11=	YES
 THEMES_SUBDIRS= ${WRKSRC}/art/gtk/Bluecurve1
 USE_LIBTOOL=	YES

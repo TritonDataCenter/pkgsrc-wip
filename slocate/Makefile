@@ -12,7 +12,7 @@ COMMENT=		Secure Locate
 PKG_INSTALLATION_TYPES=	overwrite pkgviews
 
 GNU_CONFIGURE=		YES
-USE_GNU_TOOLS+=		make
+USE_TOOLS+=		gmake
 
 MANCOMPRESSED=		locate.1.gz
 

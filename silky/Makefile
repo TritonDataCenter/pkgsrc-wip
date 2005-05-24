@@ -11,7 +11,7 @@ COMMENT=	Silky is an easy-to-use graphical SILC client
 
 PKG_INSTALLATION_TYPES= overwrite pkgviews
 
-USE_GNU_TOOLS+=make
+USE_TOOLS+=gmake
 GNU_CONFIGURE=		YES
 USE_LIBTOOL=		YES
 USE_PKGLOCALEDIR=	YES

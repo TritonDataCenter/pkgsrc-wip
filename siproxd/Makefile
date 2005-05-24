@@ -10,7 +10,7 @@ COMMENT=	a SIP ALG
 
 WRKSRC=		${WRKDIR}/siproxd-0.5.11
 GNU_CONFIGURE=	YES
-USE_GNU_TOOLS+=	make
+USE_TOOLS+=	gmake
 
 CONFIGURE_ARGS+=	--sysconfdir=${PKG_SYSCONFDIR}
 CONFIGURE_ARGS+=	--with-libosip-prefix=${BUILDLINK_PREFIX.libosip2}

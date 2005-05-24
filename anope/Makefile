@@ -11,7 +11,7 @@ COMMENT=	Set of Services for IRC networks
 GNU_CONFIGURE=		YES
 PTHREAD_OPTS+=		require
 USE_PKGINSTALL=		YES
-USE_GNU_TOOLS+=		make
+USE_TOOLS+=		gmake
 USE_PERL5=		build
 
 .include "../../mk/bsd.prefs.mk"

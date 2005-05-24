@@ -9,7 +9,7 @@ MAINTAINER=		tech-pkg@NetBSD.org
 HOMEPAGE=		http://gps.sourceforge.net/
 COMMENT=		Ghost Port Scan
 
-USE_GNU_TOOLS+=		make
+USE_TOOLS+=		gmake
 GNU_CONFIGURE=		yes
 
 MISCDIR=		${PREFIX}/share/gps

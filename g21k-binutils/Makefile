@@ -10,7 +10,7 @@ MAINTAINER=		ianzag@mail.ru
 HOMEPAGE=		http://www.kvaleberg.com/g21.html
 COMMENT=		Assemblre and linker tools for Analog Devices 21k series DSPs
 
-USE_GNU_TOOLS+=	make
+USE_TOOLS+=	gmake
 GNU_CONFIGURE=	YES
 CONFIGURE_ARGS+= --with-adidsp=${PREFIX}
 

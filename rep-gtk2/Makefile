@@ -16,7 +16,7 @@ CONFLICTS=		rep-gtk-*
 
 USE_LIBTOOL=		yes
 GNU_CONFIGURE=		yes
-USE_GNU_TOOLS+=		make
+USE_TOOLS+=		gmake
 
 REPEXECDIR=		libexec/rep/${MACHINE_GNU_PLATFORM}
 

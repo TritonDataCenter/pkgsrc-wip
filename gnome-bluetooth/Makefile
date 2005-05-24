@@ -11,7 +11,7 @@ COMMENT=		Gnome Bluetooth Manager
 
 USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=		yes
-USE_GNU_TOOLS=	make
+USE_TOOLS=	gmake
 LIBTOOL_OVERRIDE=	${WRKSRC}/libtool
 PKGCONFIG_OVERRIDE+=	${WRKSRC}/gnome-bluetooth.pc.in
 GNU_CONFIGURE=		yes

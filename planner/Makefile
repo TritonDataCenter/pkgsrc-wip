@@ -14,7 +14,7 @@ BUILD_USES_MSGFMT=	yes
 BUILD_DEPENDS= 	p5-XML-Parser>=2.31nb1:../../textproc/p5-XML-Parser
 
 USE_DIRS+=		gnome2-1.5
-USE_GNU_TOOLS+=	make
+USE_TOOLS+=	gmake
 USE_LIBTOOL=		yes
 USE_PKGLOCALEDIR=   yes
 GNU_CONFIGURE=		yes

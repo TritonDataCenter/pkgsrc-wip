@@ -15,7 +15,7 @@ WRKSRC=			${WRKDIR}/${PKGNAME}
 USE_LIBTOOL=		YES
 GNU_CONFIGURE=		YES
 CONFIGURE_ARGS+=	--disable-nls --enable-exit-homedir
-USE_GNU_TOOLS+=		make
+USE_TOOLS+=		gmake
 
 .include "../../wip/libticables/buildlink3.mk"
 .include "../../wip/libtifiles/buildlink3.mk"

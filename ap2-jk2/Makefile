@@ -12,7 +12,7 @@ COMMENT=	Apache2 JK2 module for connecting to Tomcat using AJP1X
 
 WRKSRC=		${WRKDIR}/${DISTNAME}/jk/native2
 GNU_CONFIGURE=	yes
-USE_GNU_TOOLS+=	make
+USE_TOOLS+=	gmake
 USE_LIBTOOL=	yes
 
 AP_JK_VER=	2.0.4

@@ -15,7 +15,7 @@ BUILD_DEPENDS+=		nasm-[0-9]*:../../devel/nasm
 
 WRKSRC=			${WRKDIR}/zsnes/src
 GNU_CONFIGURE=		# defined
-USE_GNU_TOOLS+=		make
+USE_TOOLS+=		gmake
 ONLY_FOR_PLATFORM=	*-*-i386
 BUILD_TARGET=		zsnes
 USE_X11=		# defined

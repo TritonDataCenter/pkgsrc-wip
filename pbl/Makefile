@@ -14,7 +14,7 @@ PKG_INSTALLATION_TYPES= overwrite pkgviews
 
 NO_CONFIGURE=	#defined
 
-USE_GNU_TOOLS+=make
+USE_TOOLS+=gmake
 MAKEFILE=makefile
 
 INSTALLATION_DIRS= lib include

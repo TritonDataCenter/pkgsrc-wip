@@ -13,7 +13,7 @@ COMMENT=		Chess Inteface for Unix chess engines
 DEPENDS+=		sox-[0-9]*:../../audio/sox
 
 USE_PERL5=		yes
-USE_GNU_TOOLS+=		make
+USE_TOOLS+=		gmake
 
 .include "../../mk/ossaudio.buildlink3.mk"
 

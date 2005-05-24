@@ -13,7 +13,7 @@ COMMENT=	GNU C library
 VERSION=	2.3.2
 
 GNU_CONFIGURE=	YES
-USE_GNU_TOOLS+=	make
+USE_TOOLS+=	gmake
 
 WRKSRC=		${WRKDIR}/work
 CFLAGS+=	-I${PREFIX}/include

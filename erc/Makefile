@@ -9,7 +9,7 @@ MAINTAINER=	hsaliak@gmail.com
 HOMEPAGE=	http://www.emacswiki.org/cgi-bin/wiki?EmacsIRCClient
 COMMENT=	IRC client for Emacs
 
-USE_GNU_TOOLS+=	make
+USE_TOOLS+=	gmake
 
 .include "../../mk/emacs.mk"
 .if ${EMACS_FLAVOR} == "xemacs"

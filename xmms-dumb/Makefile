@@ -11,7 +11,7 @@ MAINTAINER=		collver1@comcast.net
 HOMEPAGE=		http://dumb.sourceforge.net/
 COMMENT=		XMMS mod player plugin based on dumb
 
-USE_GNU_TOOLS+=		make
+USE_TOOLS+=		gmake
 USE_X11=		yes
 
 .include "../../wip/dumb/buildlink3.mk"

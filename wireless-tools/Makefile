@@ -12,6 +12,6 @@ COMMENT=		Tools for manipulating Linux Wireless Extensions
 
 
 ONLY_FOR_PLATFORM= Linux-*-*
-USE_GNU_TOOLS+= make
+USE_TOOLS+= gmake
 
 .include "../../mk/bsd.pkg.mk"

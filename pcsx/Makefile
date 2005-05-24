@@ -12,7 +12,7 @@ HOMEPAGE=	http://www.pcsx.net/
 COMMENT=	Free Playstation(TM) emulator
 
 GNU_CONFIGURE=	yes
-USE_GNU_TOOLS+=	make
+USE_TOOLS+=	gmake
 USE_X11=	yes
 WRKSRC=		${WRKDIR}/${DISTNAME}/Linux
 

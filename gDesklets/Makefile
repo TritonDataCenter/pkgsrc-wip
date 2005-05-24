@@ -10,7 +10,7 @@ HOMEPAGE=	http://gdesklets.gnomedesktop.org/
 COMMENT=	Advanced architecture for desktop applets
 
 GNU_CONFIGURE=	YES
-USE_GNU_TOOLS+=	make
+USE_TOOLS+=	gmake
 USE_LIBTOOL=	YES
 USE_X11=	YES
 

@@ -12,7 +12,7 @@ HOMEPAGE=		http://kino.schirmacher.de/
 COMMENT=		Non-linear editor for Digital Video data
 
 USE_DIRS+=		xdg-1.1
-USE_GNU_TOOLS+=		make
+USE_TOOLS+=		gmake
 USE_PKGLOCALEDIR=	yes
 USE_X11=		yes
 GNU_CONFIGURE=		yes

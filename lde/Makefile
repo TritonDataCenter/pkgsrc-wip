@@ -12,7 +12,7 @@ COMMENT=	Curses based file system viewer/editor for Linux
 
 USE_NCURSES=	YES # missing function termname
 GNU_CONFIGURE=	YES
-USE_GNU_TOOLS+=	make
+USE_TOOLS+=	gmake
 CONFIGURE_ARGS+=--with-ncurses=${PREFIX} \
 		--disable-root-sbin
 

@@ -11,7 +11,7 @@ COMMENT=	Linux NFS client and server utilities
 
 USE_PKGINSTALL=	yes
 GNU_CONFIGURE=	yes
-USE_GNU_TOOLS+=	make
+USE_TOOLS+=	gmake
 
 # uses linux/version.h and only tested under Linux
 ONLY_FOR_PLATFORM=	Linux-*-*

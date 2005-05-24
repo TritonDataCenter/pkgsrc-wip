@@ -12,7 +12,7 @@ COMMENT=		Documentation for GDAL
 
 DEPENDS+=		doxygen>=1.4.1:../../devel/doxygen
 
-USE_GNU_TOOLS+=		make
+USE_TOOLS+=		gmake
 GNU_CONFIGURE=		YES
 
 MAKEFILE=		GNUmakefile

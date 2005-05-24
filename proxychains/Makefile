@@ -10,7 +10,7 @@ HOMEPAGE=		http://proxychains.sourceforge.net/
 COMMENT=			Chain multiple proxies in a transparent way
 
 USE_PKGLOCALEDIR=	yes
-USE_GNU_TOOLS+=	make
+USE_TOOLS+=	gmake
 USE_LIBTOOL=		yes
 LIBTOOL_OVERRIDE=	${WRKSRC}/libtool
 GNU_CONFIGURE=		yes

@@ -9,7 +9,7 @@ MAINTAINER=	david@netbsd-fr.org
 COMMENT=	Jabber AIM Transport module
 
 GNU_CONFIGURE=	YES
-USE_GNU_TOOLS+=	make
+USE_TOOLS+=	gmake
 EXAMPLEFILE=	${PREFIX}/share/examples/jabberd/jabberd-aim.xml
 MESSAGE_SUBST+=	EXAMPLEFILE=${EXAMPLEFILE}
 

@@ -12,7 +12,7 @@ COMMENT=		Portable Open Source NES emulator
 
 BUILD_DEPENDS+=		nasm>=0.98:../../devel/nasm
 
-USE_GNU_TOOLS+=		make
+USE_TOOLS+=		gmake
 GNU_CONFIGURE=		yes
 
 # disable netplay support: needs nl.h

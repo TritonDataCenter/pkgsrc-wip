@@ -12,7 +12,7 @@ COMMENT=		The Q Home Accountant for personal bookkeeping
 USE_LIBTOOL=		yes
 LIBTOOL_OVERRIDE=	${WRKSRC}/libtool
 GNU_CONFIGURE=		yes
-USE_GNU_TOOLS=		make
+USE_TOOLS=		gmake
 
 CONFIGURE_ARGS+=	--includedir=${PREFIX}/include/qhacc
 CONFIGURE_ARGS+=	--libdir=${PREFIX}/lib/qhacc

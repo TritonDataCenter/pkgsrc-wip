@@ -12,7 +12,7 @@ HOMEPAGE=	http://xray.sai.msu.ru/~karpov/links-hacked/
 COMMENT=        Enhanced version of Links with tabs and more
 
 GNU_CONFIGURE=		yes
-USE_GNU_TOOLS+=		make
+USE_TOOLS+=		gmake
 USE_X11=		yes
 
 VER=			030709

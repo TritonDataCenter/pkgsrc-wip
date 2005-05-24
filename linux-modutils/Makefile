@@ -21,7 +21,7 @@ ONLY_FOR_PLATFORM=      Linux-*-* # This is for the Linux kernel
 
 GNU_CONFIGURE=		YES
 CONFIGURE_ARGS+=	--exec-prefix=${PREFIX} --sysconfdir=${PKG_SYSCONFDIR}
-USE_GNU_TOOLS+=		make
+USE_TOOLS+=		gmake
 
 RCD_SCRIPTS=		modutils
 

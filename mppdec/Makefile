@@ -10,7 +10,7 @@ MAINTAINER=		dotz@irc.pl
 HOMEPAGE=		http://www.personal.uni-jena.de/~pfk/mpp/
 COMMENT=		Musepack (MPC) audio file decoder
 
-USE_GNU_TOOLS+=		make
+USE_TOOLS+=		gmake
 
 MAKE_ENV+=		LIBOSSAUDIO=${LIBOSSAUDIO:Q}
 

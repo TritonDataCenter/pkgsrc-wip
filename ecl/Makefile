@@ -15,7 +15,7 @@ WRKSRC=			${WRKDIR}/${DISTNAME}-build/
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 CONFIGURE_SCRIPT=	../${DISTNAME}/src/configure
-USE_GNU_TOOLS+=		make
+USE_TOOLS+=		gmake
 
 post-extract:
 	${MKDIR} ${WRKSRC}

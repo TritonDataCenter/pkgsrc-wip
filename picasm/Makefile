@@ -14,7 +14,7 @@ MAKEFILE=	makefile.uni
 BUILD_TARGET=	picasm
 WRKSRC=		${WRKDIR}
 
-USE_GNU_TOOLS+=	make
+USE_TOOLS+=	gmake
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/picasm ${PREFIX}/bin/

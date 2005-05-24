@@ -18,7 +18,7 @@ COMMENT=	Portable scheme interpreter
 
 DEPENDS+=	slib>=2.4.4:../../devel/slib
 
-USE_GNU_TOOLS+=	make
+USE_TOOLS+=	gmake
 
 BUILD_TARGET=	scmlit
 

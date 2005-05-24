@@ -10,7 +10,7 @@ HOMEPAGE=		http://luacheia.sourceforge.net/
 COMMENT=		Extension libraries for LUA
 
 GNU_CONFIGURE=	YES
-USE_GNU_TOOLS+=	make
+USE_TOOLS+=	gmake
 USE_X11=	YES
 CPPFLAGS+=	"-I${PREFIX}/include"
 CPPFLAGS+=	"-I/usr/X11R6/include"

@@ -13,7 +13,7 @@ COMMENT=		Interface to Linux netfilter firewalling subsystem
 # This package requires a Linux 2.4.4 kernel, or above.
 ONLY_FOR_PLATFORM=	Linux-[2-9]*-*
 
-USE_GNU_TOOLS+=		make
+USE_TOOLS+=		gmake
 NO_CONFIGURE=		YES
 PKGMANDIR?=		man  # until this in official pkgsrc
 

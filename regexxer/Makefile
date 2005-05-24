@@ -11,7 +11,7 @@ COMMENT=	Interactive tool for performing search and replace operations
 
 USE_DIRS+=		gnome2-1.5
 GNU_CONFIGURE=		yes
-USE_GNU_TOOLS+=		make
+USE_TOOLS+=		gmake
 USE_X11=		yes
 
 .include "../../devel/gettext-lib/buildlink3.mk"

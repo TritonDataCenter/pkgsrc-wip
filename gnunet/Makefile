@@ -13,7 +13,7 @@ COMMENT=	Framework for secure p2p networking
 
 BUILD_USES_MSGFMT=	yes
 
-USE_GNU_TOOLS+=		make
+USE_TOOLS+=		gmake
 GNU_CONFIGURE=		yes
 PLIST_SRC=		${WRKDIR}/PLIST.src
 USE_LIBTOOL=		yes

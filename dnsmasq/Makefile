@@ -9,7 +9,7 @@ MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://www.thekelleys.org.uk/dnsmasq/doc.html
 COMMENT=		Lightweight, easy to configure DNS forwarder
 
-USE_GNU_TOOLS+=	make
+USE_TOOLS+=	gmake
 USE_PKGINSTALL= yes
 RCD_SCRIPTS=	dnsmasq
 

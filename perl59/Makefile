@@ -90,7 +90,7 @@ CONFIGURE_ARGS+=	-Dcc="${PERL5_CC}"
 # The perl build attempts to work around case-insensitivity problems on
 # HFS filesystems by using GNUmakefiles, so we need to use GNU make.
 #
-USE_GNU_TOOLS+=	make
+USE_TOOLS+=	gmake
 #
 # Perl is _always_ built using shared libraries on Darwin; there's no
 # way to build a statically-linked perl binary.

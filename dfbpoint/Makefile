@@ -14,7 +14,7 @@ ONLY_FOR_PLATFORM=     Linux-*-*
 
 USE_LIBTOOL=		yes
 GNU_CONFIGURE=		yes
-USE_GNU_TOOLS+=		make
+USE_TOOLS+=		gmake
 
 .include "../../wip/directfb/buildlink3.mk"
 .include "../../devel/glib2/buildlink3.mk"

@@ -13,7 +13,7 @@ COMMENT=	Easy-to-use offline browser utility
 
 USE_LIBTOOL=	YES
 GNU_CONFIGURE=	YES
-USE_GNU_TOOLS+=	make
+USE_TOOLS+=	gmake
 LIBTOOL_OVERRIDE=${WRKSRC}/libtool
 LDFLAGS+=-L${WRKSRC}/./src/.libs/
 

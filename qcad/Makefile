@@ -13,7 +13,7 @@ COMMENT=		2D CAD system
 
 USE_X11=		yes
 GNU_CONFIGURE=		yes
-USE_GNU_TOOLS+= 	make
+USE_TOOLS+= 	gmake
 
 CONFIGURE_DIRS= 	${WRKSRC}/fparser ${WRKSRC}/dxflib
 

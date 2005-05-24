@@ -12,7 +12,7 @@ HOMEPAGE=		http://www.artifex.com/downloads/
 COMMENT=		PCL-5 and PCL-XL interpreter
 
 
-USE_GNU_TOOLS+=make
+USE_TOOLS+=gmake
 BUILD_TARGET=pcl6
 
 .if defined(GHOSTPCL_USE_X11)

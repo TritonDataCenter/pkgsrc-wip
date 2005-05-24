@@ -12,7 +12,7 @@ COMMENT=		Network RIP and router discovery daemon for Linux
 
 USE_PKGLOCALEDIR=	yes
 HAS_CONFIGURE=		yes
-USE_GNU_TOOLS+=		make
+USE_TOOLS+=		gmake
 
 CONFIGURE_ARGS+=--prefix=${PREFIX}
 

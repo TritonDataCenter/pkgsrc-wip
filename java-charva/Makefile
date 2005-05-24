@@ -12,7 +12,7 @@ HOMEPAGE=		http://www.pitman.co.za/projects/charva/
 COMMENT=		Java Windowing Toolkit for Text Terminals
 
 USE_JAVA=		YES
-USE_GNU_TOOLS+=		make
+USE_TOOLS+=		gmake
 
 do-build:
 	${RM} -f c/src/libTerminal.so

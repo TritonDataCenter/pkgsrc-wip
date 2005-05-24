@@ -9,7 +9,7 @@ MAINTAINER=	dillo@NetBSD.org
 HOMEPAGE=	http://mirror.ifarchive.org/if-archiveXprogrammingXglkXimplementations.html
 COMMENT=	Gtk+ 2 port of Glk interface for text adventures
 
-USE_GNU_TOOLS+=	make
+USE_TOOLS+=	gmake
 USE_LIBTOOL=	yes
 BUILD_TARGET=	default
 

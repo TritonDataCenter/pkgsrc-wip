@@ -15,7 +15,7 @@ LDFLAGS+=		-lintl
 LDFLAGS.NetBSD+=	-li386
 
 GNU_CONFIGURE=		YES
-USE_GNU_TOOLS+=		make
+USE_TOOLS+=		gmake
 
 .include "../../devel/libusb/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

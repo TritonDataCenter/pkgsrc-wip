@@ -11,7 +11,7 @@ COMMENT=	Replacement for aumix
 USE_LIBTOOL=	YES
 
 GNU_CONFIGURE=          yes
-USE_GNU_TOOLS+=		make
+USE_TOOLS+=		gmake
 
 PLIST_SUBST+=           DISTNAME=${DISTNAME}
 

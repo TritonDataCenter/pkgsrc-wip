@@ -10,7 +10,7 @@ MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://jbluez.sourceforge.net/
 COMMENT=		Java interface for BlueZ stack
 
-USE_GNU_TOOLS=make
+USE_TOOLS=gmake
 USE_JAVA= YES
 MAKE_ENV=JDK_HOME=${PKG_JAVA_HOME}
 

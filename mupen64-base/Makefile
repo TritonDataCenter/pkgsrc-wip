@@ -11,7 +11,7 @@ MAINTAINER=	tech-pkg@NetBSD.org
 HOMEPAGE=	http://mupen64.emulation64.com/
 COMMENT=	Free Nintendo 64(TM) emulator for unix-like OS 
 
-USE_GNU_TOOLS+=	make
+USE_TOOLS+=	gmake
 USE_X11=	yes
 WRKSRC=		${WRKDIR}/emu64
 

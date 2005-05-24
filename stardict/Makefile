@@ -13,7 +13,7 @@ COMMENT=		Cross-Platform and international dictionary written in Gtk2
 USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=		yes
 USE_X11=		yes
-USE_GNU_TOOLS+=		make
+USE_TOOLS+=		gmake
 LIBTOOL_OVERRIDE=	${WRKSRC}/libtool
 GNU_CONFIGURE=		yes
 

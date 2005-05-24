@@ -11,7 +11,7 @@ COMMENT=		Run CVS pserver in a chroot-ed environment
 .include "../../mk/bsd.prefs.mk"
 
 USE_PERL5=		YES
-USE_GNU_TOOLS+=		make
+USE_TOOLS+=		gmake
 USE_PKGINSTALL=		YES
 GNU_CONFIGURE=		YES
 

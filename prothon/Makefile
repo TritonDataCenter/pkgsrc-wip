@@ -13,7 +13,7 @@ BUILD_DEPENDS+=		bison13>=1.35:../../wip/bison13
 
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
-USE_GNU_TOOLS+=		make
+USE_TOOLS+=		gmake
 
 .include "../../devel/apr/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

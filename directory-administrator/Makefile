@@ -13,7 +13,7 @@ COMMENT=	Smart LDAP directory management tool
 USE_DIRS+=		gnome1-1.5
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
-USE_GNU_TOOLS+=		make
+USE_TOOLS+=		gmake
 USE_GNU_GETTEXT=	yes
 
 .include "../../x11/gtk/buildlink3.mk"

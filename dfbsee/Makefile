@@ -13,7 +13,7 @@ COMMENT=	Image viewer for DirectFB
 ONLY_FOR_PLATFORM=     Linux-*-* NetBSD-*-*
 
 GNU_CONFIGURE=		yes
-USE_GNU_TOOLS+=		make
+USE_TOOLS+=		gmake
 
 USE_LIBTOOL=            yes
 

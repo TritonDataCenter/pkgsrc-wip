@@ -23,7 +23,7 @@ WRKSRC=			${WRKDIR}/hvirtual
 USE_X11=		yes
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
-USE_GNU_TOOLS+=		make
+USE_TOOLS+=		gmake
 
 # maybe have an option for HAVE_ALSA
 .include "../../wip/alsa-lib/buildlink3.mk"

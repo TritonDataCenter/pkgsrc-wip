@@ -13,7 +13,7 @@ COMMENT=		SQL database, opensource version of InterBase
 
 WRKSRC=			${WRKDIR}/firebird15
 USE_LIBTOOL=		yes
-USE_GNU_TOOLS+=		make
+USE_TOOLS+=		gmake
 PREFIX=			${LOCALBASE}/firebird15
 
 CONFIGURE_ARGS+=	--with-lock-manager

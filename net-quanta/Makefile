@@ -12,7 +12,7 @@ COMMENT=		Toolkit for extremely high bandwidth networking
 
 GNU_CONFIGURE=		yes
 CONFIGURE_ENV+=		CXXFLAGS="${PTHREAD_CFLAGS} ${EXTRA_LDFLAGS}"
-USE_GNU_TOOLS+=		make
+USE_TOOLS+=		gmake
 
 .include "../../mk/bsd.prefs.mk"
 

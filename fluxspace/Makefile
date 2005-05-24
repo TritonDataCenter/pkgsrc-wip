@@ -10,7 +10,7 @@ COMMENT=		Fluxbox workspace manager, environment
 
 GNU_CONFIGURE=	YES
 USE_X11=		YES
-USE_GNU_TOOLS+=		make
+USE_TOOLS+=		gmake
 
 USE_LIBTOOL=		YES
 

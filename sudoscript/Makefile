@@ -19,6 +19,6 @@ PERMIT_DISTFILES_FTP=	Yes
 
 NO_BUILD=		Yes
 NO_REGRESS=		Yes
-USE_GNU_TOOLS+=		make
+USE_TOOLS+=		gmake
 
 .include "../../mk/bsd.pkg.mk"

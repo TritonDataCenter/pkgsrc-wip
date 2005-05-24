@@ -11,7 +11,7 @@ COMMENT=		Ethernet bridging utilities for GNU/Linux
 
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
-USE_GNU_TOOLS+=		make
+USE_TOOLS+=		gmake
 
 ONLY_FOR_PLATFORM=	Linux-*-*
 

@@ -12,7 +12,7 @@ COMMENT=	Linux Letters and Numbers childrens game
 
 USE_PKGLOCALEDIR=	YES
 GNU_CONFIGURE=		YES
-USE_GNU_TOOLS+=		make
+USE_TOOLS+=		gmake
 CPPFLAGS+=		-DDEVOSSAUDIO=\"\\\"${DEVOSSAUDIO}\\\"\"
 
 pre-configure:

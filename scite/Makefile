@@ -12,7 +12,7 @@ MAINTAINER=		shattered@users.sourceforge.net
 HOMEPAGE=		http://www.scintilla.org/
 COMMENT=		Editor with facilities for building and running programs
 
-USE_GNU_TOOLS+=		make
+USE_TOOLS+=		gmake
 
 do-build:
 	cd ${WRKSRC}/scintilla/gtk && ${GMAKE} GTK2=1 CPPFLAGS=-Dunix

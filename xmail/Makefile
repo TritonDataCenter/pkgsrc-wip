@@ -9,7 +9,7 @@ MAINTAINER=	pancake@phreaker.net
 HOMEPAGE=	http://www.xmailserver.com/
 COMMENT=	SMTP, POP3 and finder server
 
-USE_GNU_TOOLS+=	make
+USE_TOOLS+=	gmake
 
 MAKE_ENV+=	OSTYPE=${OPSYS}
 

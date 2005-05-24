@@ -12,7 +12,7 @@ HOMEPAGE=		http://ascii.dyne.org/
 COMMENT=		Live ascii video on the web
 
 GNU_CONFIGURE=		YES
-USE_GNU_TOOLS+=		make
+USE_TOOLS+=		gmake
 
 ONLY_FOR_PLATFORM=	Linux-*-*
 

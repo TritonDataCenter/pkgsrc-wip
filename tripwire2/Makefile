@@ -12,7 +12,7 @@ COMMENT=	File and directory integrity checker
 WRKSRC=		${WRKDIR}/${DISTNAME}/src/
 CONFLICTS+=	tripwire-1*
 BUILD_TARGET=	release
-USE_GNU_TOOLS+=	make
+USE_TOOLS+=	gmake
 ONLY_FOR_PLATFORM= Linux-*-* OpenBSD-*-* FreeBSD-*-*
 
 .include "../../mk/bsd.prefs.mk"

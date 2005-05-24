@@ -12,7 +12,7 @@ COMMENT=		Ada95 graphical toolkit
 
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
-USE_GNU_TOOLS+=		make
+USE_TOOLS+=		gmake
 USE_AUTOCONF=		yes
 USE_X11=		yes
 

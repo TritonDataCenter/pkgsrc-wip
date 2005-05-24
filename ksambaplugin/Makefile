@@ -9,7 +9,7 @@ MAINTAINER=		ianzag@mail.ru
 HOMEPAGE=		http://ksambakdeplugin.sourceforge.net/
 COMMENT=		KSambaPlugin is a KDE 3 plugin for configuring a SAMBA server
 
-USE_GNU_TOOLS+=	make
+USE_TOOLS+=	gmake
 GNU_CONFIGURE=	YES
 USE_LIBTOOL=	YES
 

@@ -13,7 +13,7 @@ COMMENT=	Self Replicating PGP Key Server
 BUILDLINK_DEPENDS.ocaml+=	ocaml>=3.08.2
 BUILDLINK_DEPENDS.db4+=		db4>=4.3.0
 
-USE_GNU_TOOLS+=	make
+USE_TOOLS+=	gmake
 BDB_ACCEPTED=	db4
 USE_PERL5=	YES
 

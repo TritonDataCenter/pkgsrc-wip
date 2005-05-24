@@ -9,7 +9,7 @@ MAINTAINER=	ianzag@mail.ru
 HOMEPAGE=	http://mitarbeiter.mbi-berlin.de/gerlach/Linux/LabPlot/
 COMMENT=	Data analysis and visualisation
 
-USE_GNU_TOOLS+=	make
+USE_TOOLS+=	gmake
 GNU_CONFIGURE=	YES
 
 CONFIGURE_ARGS+= --enable-gsl

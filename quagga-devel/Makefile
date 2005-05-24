@@ -68,7 +68,7 @@ CONFIGURE_ARGS+=	--enable-opaque-lsa
 PLIST_CAT+=		${PKGDIR}/PLIST.opaquelsa
 .endif
 
-USE_GNU_TOOLS+=		make
+USE_TOOLS+=		gmake
 
 BUILD_DEFS+=		USE_INET6
 

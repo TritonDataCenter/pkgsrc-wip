@@ -15,7 +15,7 @@ RCD_SCRIPTS=		gnump3d
 CONF_FILES=		none ${PREFIX}/etc/gnump3d/gnump3d.conf
 
 USE_PERL5=		YES
-USE_GNU_TOOLS+=		make
+USE_TOOLS+=		gmake
 REPLACE_PERL=   	${WRKSRC}/bin/*
 NO_BUILD=		yes
 

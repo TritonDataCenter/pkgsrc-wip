@@ -14,7 +14,7 @@ COMMENT=		GTK+ 2.x theme, which looks just like Qt toolkit
 
 USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=		yes
-USE_GNU_TOOLS+=		make
+USE_TOOLS+=		gmake
 PKGCONFIG_OVERRIDE+=	gtk-qt-engine-2.pc.in
 GNU_CONFIGURE=		yes
 

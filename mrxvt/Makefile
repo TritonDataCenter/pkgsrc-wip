@@ -12,7 +12,7 @@ COMMENT=	Multi-tabbed terminal emulator with Xft support
 GNU_CONFIGURE=		YES
 USE_PKGINSTALL=		YES
 USE_X11=		YES
-USE_GNU_TOOLS+=		make
+USE_TOOLS+=		gmake
 
 CONFIGURE_ARGS+=	--enable-xft
 CONFIGURE_ARGS+=	--enable-text-shadow

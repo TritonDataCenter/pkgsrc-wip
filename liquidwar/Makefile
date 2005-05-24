@@ -11,7 +11,7 @@ HOMEPAGE=	http://www.ufoot.org/liquidwar/
 COMMENT=	Unique multiplayer wargame
 
 USE_DIRS+=	gnome2-1.5
-USE_GNU_TOOLS+=	make
+USE_TOOLS+=	gmake
 GNU_CONFIGURE=	YES
 
 #CONFIGURE_ARGS+=	--enable-debug

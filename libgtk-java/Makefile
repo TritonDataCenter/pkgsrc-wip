@@ -11,7 +11,7 @@ HOMEPAGE=		http://java-gnome.sourceforge.net/
 COMMENT=		Gtk2 bindings for Java
 
 GNU_CONFIGURE=		yes
-USE_GNU_TOOLS+=		make
+USE_TOOLS+=		gmake
 CONFIGURE_ARGS+=	--without-gcj-compile
 
 .include "../../x11/gtk2/buildlink3.mk"

@@ -12,7 +12,7 @@ COMMENT=		omniORB is an ORB that implements the 2.6 specification of the CORBA
 MAKEFILE=		GNUmakefile
 GNU_CONFIGURE=	YES
 USE_LANGUAGES=	c c++
-USE_GNU_TOOLS+=	make
+USE_TOOLS+=	gmake
 
 # Note: not sure if it is required though
 USE_LIBTOOL=	YES

@@ -12,6 +12,6 @@ COMMENT=		System for debugging and profiling x86-Linux programs
 ONLY_FOR_PLATFORM=	Linux-*-*
 
 GNU_CONFIGURE=		YES
-USE_GNU_TOOLS=		make
+USE_TOOLS=		gmake
 
 .include "../../mk/bsd.pkg.mk"

@@ -11,7 +11,7 @@ COMMENT=	Module that embeds the Python interpreter within the server
 
 PY_PATCHPLIST=		yes
 APACHE_MODULE=		yes
-USE_GNU_TOOLS+=		make
+USE_TOOLS+=		gmake
 GNU_CONFIGURE=		yes
 CONFIGURE_ARGS+=	--with-apxs=${APXS}
 CONFIGURE_ARGS+=	--with-python=${PYTHONBIN}
