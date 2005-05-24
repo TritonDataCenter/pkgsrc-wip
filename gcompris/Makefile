@@ -16,7 +16,7 @@ GNU_CONFIGURE=		YES
 USE_LIBTOOL=		YES
 LTCONFIG_OVERRIDE=	${WRKSRC}/ltconfig
 
-USE_GNU_TOOLS+=		tar
+USE_TOOLS+=		gtar
 
 .include "../../audio/libao/buildlink3.mk"
 .include "../../audio/libvorbis/buildlink3.mk"

@@ -15,7 +15,7 @@ BUILDLINK_DEPENDS.libmilter+=	libmilter>=8.13.0
 
 USE_BUILTIN.libmilter=	NO
 LICENSE=		no-profit
-USE_GNU_TOOLS+=		m4
+USE_TOOLS+=		gm4
 MAKE_ENV+=		M4="${M4}"
 PTHREAD_OPTS+=		require
 USE_PKGINSTALL=		YES

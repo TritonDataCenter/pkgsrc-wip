@@ -19,7 +19,7 @@ CONFIGURE_ARGS+=	--enable-oss
 CONFIGURE_ARGS+=	--enable-portaudio
 CPPFLAGS+=		-DDEVOSSSOUND="\"${DEVOSSSOUND}\""
 #LDFLAGS+=		-lcompat
-USE_GNU_TOOLS+=		lex make yacc
+USE_TOOLS+=		flex gmake bison
 USE_LANGUAGES=		c c++
 USE_PKGLOCALEDIR=	yes
 USE_X11=		yes

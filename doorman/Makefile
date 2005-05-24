@@ -14,7 +14,7 @@ DEPENDS=	lsof>4.7:../../sysutils/lsof
 
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
-USE_GNU_TOOLS=yacc
+USE_TOOLS=		bison
 
 .include "../../databases/db4/buildlink3.mk"
 .include "../../net/libpcap/buildlink3.mk"

@@ -12,7 +12,7 @@ COMMENT=		System-independent interface for user-level packet capture
 PKG_INSTALLATION_TYPES=	overwrite pkgviews
 
 GNU_CONFIGURE=		yes
-USE_GNU_TOOLS+=		lex yacc m4
+USE_TOOLS+=		flex bison gm4
 USE_LIBTOOL=		yes
 
 .include "../../mk/bsd.prefs.mk"

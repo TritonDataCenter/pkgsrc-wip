@@ -14,8 +14,7 @@ CONFIGURE_ARGS+=	--with-libdb=2
 
 ONLY_FOR_PLATFORM= *-*-i386
 
-USE_TOOLS+= gmake
-USE_GNU_TOOLS+= yacc
+USE_TOOLS+=		gmake bison
 
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
