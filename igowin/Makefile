@@ -23,7 +23,7 @@ IGOWIN_DIR=		${PREFIX}/libdata/${PKGNAME}
 INSTALLATION_DIRS=	bin libdata/${PKGNAME}
 
 do-configure:
-.for _F_ in igowin.sh
+.for f in igowin.sh
 	@${SED} -e 's|@SHELL@|${SHELL}|g'			\
 		-e 's|@TEST@|${TEST}|g'				\
 		-e 's|@MKDIR@|${MKDIR}|g'			\
@@ -31,13 +31,13 @@ do-configure:
 		-e 's|@LN@|${LN}|g'				\
 		-e 's|@PKGDIR@|${IGOWIN_DIR}|g'			\
 		-e 's|@FILES@|${IGOWIN_FILES}|g'		\
-		${FILESDIR}/${_F_}.in > ${WRKSRC}/${_F_}
+		${FILESDIR}/${f}.in > ${WRKSRC}/${f}
 .endfor
 
 do-install:
 	${INSTALL_SCRIPT} ${WRKSRC}/igowin.sh ${PREFIX}/bin/igowin
-.for _F_ in ${IGOWIN_FILES}
-	${INSTALL_DATA} ${WRKSRC}/${_F_} ${IGOWIN_DIR}/${_F_}
+.for f in ${IGOWIN_FILES}
+	${INSTALL_DATA} ${WRKSRC}/${f} ${IGOWIN_DIR}/${f}
 .endfor
 
 .include "../../emulators/wine/buildlink3.mk"
