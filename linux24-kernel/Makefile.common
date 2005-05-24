@@ -14,7 +14,7 @@ HOMEPAGE=		http://www.kernel.org/
 
 ONLY_FOR_PLATFORM=	Linux-*-*
 
-USE_GNU_TOOLS+=		make
+USE_TOOLS+=		gmake
 PLIST_SUBST+=		LINUX_VERSION=${LINUX_VERSION}
 CFLAGS+=		-I${WRKSRC}/include
 
