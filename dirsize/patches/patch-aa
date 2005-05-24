@@ -21,4 +21,4 @@ $NetBSD$
 -	install -c $(EXENAME)   $(DESTDIR)/$(BINDIR)
 +	strip $(EXENAME)
 +	${BSD_INSTALL_DATA_DIR} $(BINDIR)
-+	${BSD_INSTALL_PROGRAM} -c $(EXENAME) $(BINDIR)
++	${BSD_INSTALL_PROGRAM} dirsize $(BINDIR)
