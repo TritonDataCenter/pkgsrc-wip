@@ -51,7 +51,7 @@ pre-build:
 
 do-install:
 	${INSTALL_DATA_DIR} ${DOCDIR} ${EXAMPLEDIR} ${HTMLDIR} ${SQLDIR}
-	cd ${BUILD_DIRS} && ${GMAKE} ${INSTALL}
+	cd ${BUILD_DIRS} && ${GMAKE} install
 	${CP} -r ${BUILD_DIRS}/examples/* ${EXAMPLEDIR}
 	${INSTALL_DATA} ${BUILD_DIRS}/README.postgis ${DOCDIR}
 	${INSTALL_DATA} ${BUILD_DIRS}/doc/postgis.xml ${DOCDIR}
