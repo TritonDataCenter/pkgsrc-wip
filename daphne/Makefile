@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		${PKGNAME_NOREV}-src
-PKGNAME=		daphne-0.99.6
+PKGNAME=		daphne-0.99.6c
 CATEGORIES=		emulators
 MASTER_SITES=		http://daphne.rulecity.com/download/
 
@@ -12,7 +12,7 @@ COMMENT=		Emulator for Laserdisc arcade games
 
 WRKSRC=			${WRKDIR}/daphne/src
 USE_TOOLS+=		gmake
-GNU_CONFIGURE=		#defined
+GNU_CONFIGURE=		YES
 CONFIGURE_DIRS=		${WRKSRC}/vldp2
 
 MAKE_ENV+=		DATA_DIR=${LOCALBASE}/share/daphne
