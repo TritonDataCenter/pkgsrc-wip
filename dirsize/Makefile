@@ -10,4 +10,6 @@ MAINTAINER=	lems@gmx.net
 HOMEPAGE=	http://plasmasturm.org/code/dirsize/
 COMMENT=	Outputs aggregate size of all files in one or more directories
 
+PKG_INSTALLATION_TYPES=	overwrite pkgviews
+
 .include "../../mk/bsd.pkg.mk"
