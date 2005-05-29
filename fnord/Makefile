@@ -12,6 +12,10 @@ COMMENT=	A small HTTP server
 USE_TOOLS+=	gmake
 DEPENDS+=	ucspi-tcp-*:../../net/ucspi-tcp
 
+.if exists(/usr/include/alloca.h)
+CFLAGS+=	-DNEED_ALLOCA_H
+.endif
+
 INSTALLATION_DIRS=	sbin
 
 do-install:
