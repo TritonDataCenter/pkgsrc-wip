@@ -3,7 +3,7 @@
 
 .include "../../wip/wmii/Makefile.common"
 
-PKGNAME=	${DISTNAME:S/wmii/wmii-cairo/}
+PKGNAME=	${DISTNAME:S/wmii-0/wmii-cairo/}
 
 COMMENT+=	(built with cairo support)
 
