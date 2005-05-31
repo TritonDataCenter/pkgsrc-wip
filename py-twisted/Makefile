@@ -14,7 +14,7 @@ DEPENDS+=               ${PYPKGPREFIX}-ZopeInterface>=3.0.1:../../wip/py-ZopeInt
 
 PY_PATCHPLIST=		yes
 PYDISTUTILSPKG=		yes
-TWISTED_VERSION=	2.0.0
+TWISTED_VERSION=	2.0.1
 
 .include "../../lang/python/extension.mk"
 .include "../../mk/bsd.pkg.mk"
