@@ -13,6 +13,6 @@ share/doc/SDL-intro/fr/usingvideofr.html
 share/doc/SDL-intro/fr/whatcanitdofr.html
 share/doc/SDL-intro/fr/whatisitfr.html
 share/doc/SDL-intro/fr/whatplatformsfr.html
-@exec ${MKDIR} %D/share/doc/SDL-intro-fr
+@exec ${MKDIR} %D/share/doc/SDL-intro/fr
 @dirrm share/doc/SDL-intro/fr
 @dirrm share/doc/SDL-intro
