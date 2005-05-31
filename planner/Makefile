@@ -1,22 +1,22 @@
 # $NetBSD$
 #
 
-DISTNAME=			planner-0.12.1
-CATEGORIES=		devel
-MASTER_SITES=		${MASTER_SITE_GNOME:=sources/planner/0.12/}
-EXTRACT_SUFX=		.tar.bz2
+DISTNAME=	planner-0.12.1
+CATEGORIES=	devel
+MASTER_SITES=	${MASTER_SITE_GNOME:=sources/planner/0.12/}
+EXTRACT_SUFX=	.tar.bz2
 
-MAINTAINER=		pkgsrc@blackmouse.biz
-HOMEPAGE=			http://www.imendio.com/projects/planner/
-COMMENT=			GTK2 project management tool
+MAINTAINER=	pkgsrc@blackmouse.biz
+HOMEPAGE=	http://www.imendio.com/projects/planner/
+COMMENT=	GTK2 project management tool
 
+BUILD_DEPENDS=		p5-XML-Parser>=2.31nb1:../../textproc/p5-XML-Parser
 BUILD_USES_MSGFMT=	yes
-BUILD_DEPENDS= 	p5-XML-Parser>=2.31nb1:../../textproc/p5-XML-Parser
 
 USE_DIRS+=		gnome2-1.5
-USE_TOOLS+=	gmake
+USE_TOOLS+=		gmake
 USE_LIBTOOL=		yes
-USE_PKGLOCALEDIR=   yes
+USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 
 CONFIGURE_ARGS+=	--enable-python
