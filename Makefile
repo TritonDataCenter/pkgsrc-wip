@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.1796 2005/05/31 10:50:21 ianzag Exp $
+# $Id: Makefile,v 1.1797 2005/05/31 12:24:08 ianzag Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -48,6 +48,9 @@ SUBDIR+=	Radiator
 SUBDIR+=	Radiator-all
 SUBDIR+=	ReZound
 SUBDIR+=	Redland-rdf
+SUBDIR+=	SDL-doc
+SUBDIR+=	SDL-doc-html
+SUBDIR+=	SDL-doc-ps
 SUBDIR+=	SDL-intro
 SUBDIR+=	SDL-intro-cn
 SUBDIR+=	SDL-intro-de
