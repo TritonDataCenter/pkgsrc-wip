@@ -1,0 +1,5 @@
+@comment $NetBSD$
+share/doc/SDL-doc/ps/sdldoc.ps
+@exec ${MKDIR} %D/share/doc/SDL-doc/ps
+@dirrm share/doc/SDL-doc/ps
+@dirrm share/doc/SDL-doc
