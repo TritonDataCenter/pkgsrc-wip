@@ -2,7 +2,7 @@
 
 PKG_OPTIONS_VAR=	PKG_OPTIONS.avifile-devel
 PKG_SUPPORTED_OPTIONS=	sdl faad qt vorbis xvid mad a52 lame jpeg ac3_passthrough
-PKG_DEFAULT_OPTIONS+=	sdl xvid vorbis mad jpeg a52
+PKG_SUGGESTED_OPTIONS=	sdl xvid vorbis mad jpeg a52
 
 .include "../../mk/bsd.options.mk"
 

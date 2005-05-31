@@ -6,9 +6,9 @@ PKG_SUPPORTED_OPTIONS=	bdb gdbm inet6 libgcrypt openssl tdb
 
 # some sane defaults to use base OS functionality where appropriate
 .if !empty(OPSYS:M*BSD)
-PKG_DEFAULT_OPTIONS+=	openssl
+PKG_SUGGESTED_OPTIONS=	openssl
 .else
-PKG_DEFAULT_OPTIONS+=	libgcrypt
+PKG_SUGGESTED_OPTIONS=	libgcrypt
 .endif
 
 .include "../../mk/bsd.options.mk"

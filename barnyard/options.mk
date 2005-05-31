@@ -2,10 +2,7 @@
 
 PKG_OPTIONS_VAR=	PKG_OPTIONS.barnyard
 PKG_SUPPORTED_OPTIONS=	mysql pgsql
-
-.if !defined(PKG_OPTIONS.barnyard)
-PKG_DEFAULT_OPTIONS+=	mysql
-.endif
+PKG_SUGGESTED_OPTIONS=	mysql
 
 .include "../../mk/bsd.options.mk"
 

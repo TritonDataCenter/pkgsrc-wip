@@ -9,15 +9,12 @@ MAINTAINER=		Peter.Bex@student.kun.nl
 HOMEPAGE=		http://rlab.sourceforge.net/
 COMMENT=		Matlab-like scientific programming environment
 
-PKG_OPTIONS_VAR=	PKG_OPTIONS.rlab
-PKG_SUPPORTED_OPTIONS=	gnuplot plplot
-
 GNU_CONFIGURE=		yes
 USE_LANGUAGES=		fortran c
 
-.if !defined(PKG_OPTIONS.rlab)
-PKG_DEFAULT_OPTIONS+=	gnuplot
-.endif
+PKG_OPTIONS_VAR=	PKG_OPTIONS.rlab
+PKG_SUPPORTED_OPTIONS=	gnuplot plplot
+PKG_SUGGESTED_OPTIONS=	gnuplot
 
 .include "../../mk/bsd.options.mk"
 

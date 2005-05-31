@@ -2,7 +2,7 @@
 
 PKG_OPTIONS_VAR=	PKG_OPTIONS.zphoto
 PKG_SUPPORTED_OPTIONS=	imlib2 magick zip avifile wx
-PKG_DEFAULT_OPTIONS+=	imlib2
+PKG_SUGGESTED_OPTIONS=	imlib2
 
 .include "../../mk/bsd.options.mk"
 

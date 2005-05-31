@@ -6,11 +6,11 @@ PKG_SUPPORTED_OPTIONS=	iptables pf ipfilter
 .include "../../mk/bsd.prefs.mk"
 
 .if ${OPSYS} == "Linux"
-PKG_DEFAULT_OPTIONS=	iptables
+PKG_SUGGESTED_OPTIONS=	iptables
 .elif ${OPSYS} == "OpenBSD"
-PKG_DEFAULT_OPTIONS=	pf
+PKG_SUGGESTED_OPTIONS=	pf
 .else
-PKG_DEFAULT_OPTIONS=	ipfilter
+PKG_SUGGESTED_OPTIONS=	ipfilter
 .endif
 
 .include "../../mk/bsd.options.mk"

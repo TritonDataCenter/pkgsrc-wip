@@ -2,10 +2,7 @@
 
 PKG_OPTIONS_VAR=	PKG_OPTIONS.anope
 PKG_SUPPORTED_OPTIONS=	mysql unrealircd
-
-.if !defined(PKG_OPTIONS.anope)
-PKG_DEFAULT_OPTIONS+=	unrealircd
-.endif
+PKG_SUGGESTED_OPTIONS=	unrealircd
 
 .include "../../mk/bsd.options.mk"
 
