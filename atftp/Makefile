@@ -2,6 +2,7 @@
 #
 
 DISTNAME=		atftp-0.7
+PKGREVISION=		1
 CATEGORIES=		wip net
 MASTER_SITES=		ftp://ftp.mamalinux.com/pub/atftp/
 
@@ -18,4 +19,5 @@ do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/atftpd ${PREFIX}/sbin
 	${INSTALL_MAN} ${WRKSRC}/atftpd.8 ${PREFIX}/man/man8
 
+.include "../../devel/readline/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
