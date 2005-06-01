@@ -9,11 +9,11 @@ MAINTAINER=	apost@recalcitrant.org
 HOMEPAGE=	http://pdl.perl.org/
 COMMENT=	PDL turns perl in to a free, array-oriented, numerical language
 
-USE_X11=	YES
-
 DEPENDS+=	p5-Term-ReadLine-[0-9]*:../../devel/p5-Term-ReadLine
 DEPENDS+=	p5-Filter-[0-9]*:../../textproc/p5-Filter
 DEPENDS+=	p5-Text-Balanced-[0-9]*:../../textproc/p5-Text-Balanced
+
+USE_X11=	YES
 
 PERL5_PACKLIST=		${PERL5_SITEARCH}/auto/PDL/.packlist
 
