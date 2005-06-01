@@ -34,12 +34,6 @@ CONFIGURE_ARGS+=	--disable-win32
 PLIST_SUBST+=	WIN32_COMMENT="@comment "
 .endif
 .if ${MACHINE_ARCH} == "i386" || ${MACHINE_ARCH} == "amd64"
-BUILD_DEFS+=            USE_MMX
-. if !empty(USE_MMX:M[Yy][Ee][Ss])
-CONFIGURE_ARGS+=	--enable-x86opt
-. else
-CONFIGURE_ARGS+=	--disable-x86opt
-. endif
 CONFIGURE_ARGS+=	--enable-ffmpeg
 PLIST_SUBST+=	FFMPEG_COMMENT=
 .else
