@@ -18,7 +18,7 @@ SUBST_CLASSES+=	paths
 SUBST_MESSAGE.paths=	"Fixing hardcoded paths."
 SUBST_STAGE.paths=	post-patch
 SUBST_FILES.paths=	rc/rc
-SUBST_SED.paths=	-e 's|CONFPREFIX/wmii|${PKG_SYSCONFDIR}|;s|SHAREPREFIX|${LOCALBASE}/share|'
+SUBST_SED.paths=	-e 's|CONFPREFIX|${LOCALBASE}/share/examples|;s|SHAREPREFIX|${LOCALBASE}/share|'
 
 .include "../../mk/bsd.prefs.mk"
 
