@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	minimalist-2.4
+DISTNAME=	minimalist-2.5.2.3
 CATEGORIES=	wip mail
 MASTER_SITES=	http://www.mml.org.ua/LIST/
 EXTRACT_SUFX=	.tgz
