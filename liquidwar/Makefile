@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	liquidwar-5.6.0
+DISTNAME=	liquidwar-5.6.2
 CATEGORIES=	games
 #MASTER_SITES=	http://savannah.nongnu.org/download/liquidwar/
 MASTER_SITES=	http://liquidwar.sunsite.dk/archive/
