@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.1801 2005/06/03 20:10:16 thomasklausner Exp $
+# $Id: Makefile,v 1.1802 2005/06/04 11:24:16 thomasklausner Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -513,7 +513,6 @@ SUBDIR+=	linux24-kernel
 SUBDIR+=	linux24-kernel-headers
 SUBDIR+=	linuxigd
 SUBDIR+=	linuxtv-dvb-apps
-SUBDIR+=	liquidwar
 SUBDIR+=	lletters
 SUBDIR+=	lmarbles
 SUBDIR+=	logrotate
