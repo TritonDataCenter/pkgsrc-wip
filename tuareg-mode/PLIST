@@ -1,0 +1,5 @@
+@comment $NetBSD$
+${EMACS_LISPPREFIX}/camldebug.el
+${EMACS_LISPPREFIX}/sym-lock.el
+${EMACS_LISPPREFIX}/tuareg.el
+@unexec ${RMDIR} ${EMACS_LISPPREFIX} 2>/dev/null || ${TRUE}
