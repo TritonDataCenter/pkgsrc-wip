@@ -1,12 +1,12 @@
 # $NetBSD$
 
-.include "../../chat/xchat2/Makefile.common"
+.include "../../chat/xchat/Makefile.common"
 
 PKGNAME=	${DISTNAME:S/-/-perl-/}
 
-COMMENT=	Perl scripting plugin for xchat2
+COMMENT=	Perl scripting plugin for xchat
 
-DEPENDS+=	xchat>=2.0.0:../../chat/xchat2
+DEPENDS+=	xchat>=2.0.0:../../chat/xchat
 
 BUILD_DIRS?=	${WRKSRC}/plugins/perl
 
