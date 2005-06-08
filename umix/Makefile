@@ -11,14 +11,13 @@ COMMENT=	Replacement for aumix
 USE_LIBTOOL=	YES
 
 GNU_CONFIGURE=          yes
-USE_TOOLS+=		gmake
+USE_TOOLS+=		gmake automake
 
 PLIST_SUBST+=           DISTNAME=${DISTNAME}
 
 .include "../../devel/pkgconfig/buildlink3.mk"
 .include "../../devel/ncurses/buildlink3.mk"
 .include "../../mk/ossaudio.buildlink3.mk"
-.include "../../mk/automake.mk"
 
 .if defined(USE_GTK2)
 .include "../../x11/gtk2/buildlink3.mk"
@@ -30,9 +29,9 @@ PLIST_SUBST+=           GTK="@comment "
 LIBS+=		${LIBOSSAUDIO}
 
 pre-configure:
-	cd ${WRKSRC} && ${ACLOCAL}
+	cd ${WRKSRC} && aclocal
 	cd ${WRKSRC} && ${LOCALBASE}/bin/libtoolize --automake
-	cd ${WRKSRC} && ${AUTOMAKE} --add-missing
-	cd ${WRKSRC} && ${AUTOCONF}
+	cd ${WRKSRC} && automake --add-missing
+	cd ${WRKSRC} && autoconf
 
 .include "../../mk/bsd.pkg.mk"

@@ -13,11 +13,10 @@ USE_PKGLOCALEDIR=	YES
 USE_LIBTOOL=		YES
 GNU_CONFIGURE=		YES
 USE_X11=		YES
+USE_TOOLS+=		autoconf
 
 pre-configure:
-	cd ${WRKSRC};                                           \
-	${AUTOCONF}
+	cd ${WRKSRC} && autoconf
 
-.include "../../mk/autoconf.mk"
 .include "../../graphics/xpm/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

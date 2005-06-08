@@ -14,7 +14,6 @@ USE_LIBTOOL=		yes
 USE_X11=		yes
 LIBTOOL_OVERRIDE=	${WRKSRC}/libtool
 GNU_CONFIGURE=		yes
+USE_TOOLS+=		automake
 
-.include "../../mk/autoconf.mk"
-.include "../../mk/automake.mk"
 .include "../../mk/bsd.pkg.mk"

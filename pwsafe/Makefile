@@ -11,7 +11,7 @@ HOMEPAGE=		http://nsd.dyndns.org/pwsafe/
 COMMENT=		CLI based PasswordSafe compatible password manager
 
 GNU_CONFIGURE=		yes
-USE_TOOLS+=		gmake
+USE_TOOLS+=		gmake autoconf
 
 PKG_OPTIONS_VAR=	PKG_OPTIONS.pwsafe
 PKG_SUPPORTED_OPTIONS=	readline x11
@@ -39,7 +39,6 @@ CONFIGURE_ARGS+=	--without-x
 PKG_INSTALLATION_TYPES=	overwrite pkgviews
 
 pre-configure:
-		cd ${WRKSRC} && ${AUTOCONF}
+		cd ${WRKSRC} && autoconf
 
-.include "../../mk/autoconf.mk"
 .include "../../mk/bsd.pkg.mk"

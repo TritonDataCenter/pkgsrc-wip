@@ -12,16 +12,15 @@ COMMENT=	Login software for Swedish Telia ADSL/Comhem cable Internet users
 AUTOMAKE_REQD=  1.7.1
 MANCOMPRESSED=	yes
 GNU_CONFIGURE=  yes
+USE_TOOLS+=	automake
 
 LIBS.SunOS=	-lnsl -lsocket
 
 pre-configure:
-	cd ${WRKSRC};                                           \
-	${ACLOCAL};                                             \
-	${AUTOHEADER};                                          \
-	${AUTOMAKE} -a --foreign -i;                            \
-	${AUTOCONF}
+	cd ${WRKSRC} && aclocal
+	cd ${WRKSRC} && autoheader
+	cd ${WRKSRC} && automake -a --foreign -i
+	cd ${WRKSRC} && autoconf
 
 .include "../../devel/gettext-lib/buildlink3.mk"
-.include "../../mk/automake.mk"
 .include "../../mk/bsd.pkg.mk"

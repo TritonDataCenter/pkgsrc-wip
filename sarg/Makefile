@@ -15,6 +15,7 @@ DIST_SUBDIR=		${DISTNAME}
 
 AUTOCONF_REQD=		2.56
 GNU_CONFIGURE=		yes
+USE_TOOLS+=		autoconf
 CONFIGURE_ARGS+=	--enable-bindir=${PREFIX}/sbin			\
 			--enable-mandir=${PREFIX}/man/man1		\
 			--enable-sysconfdir=${DATADIR}			\
@@ -64,7 +65,7 @@ post-extract:
 		@${RM} ${WRKSRC}/languages/.new
 
 pre-configure:
-		cd ${WRKSRC} && ${AUTOCONF}
+		cd ${WRKSRC} && autoconf
 
 do-install:
 		${INSTALL_PROGRAM} ${WRKSRC}/sarg ${PREFIX}/sbin
@@ -80,5 +81,4 @@ do-install:
 		${INSTALL_DATA} ${WRKSRC}/images/* ${DATADIR}/images
 		${INSTALL_DATA} ${WRKSRC}/languages/* ${DATADIR}/languages
 
-.include "../../mk/autoconf.mk"
 .include "../../mk/bsd.pkg.mk"

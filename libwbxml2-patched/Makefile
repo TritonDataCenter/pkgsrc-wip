@@ -15,16 +15,15 @@ USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=		yes
 LIBTOOL_OVERRIDE=	${WRKSRC}/libtool
 GNU_CONFIGURE=		yes
+USE_TOOLS+=		automake
 
 pre-configure:
 	cd ${WRKSRC} && \
-		${ACLOCAL} && \
+		aclocal && \
 		${PREFIX}/bin/libtoolize --force --copy && \
-		${AUTOHEADER} && \
-		${AUTOCONF} && \
-		${AUTOMAKE} -acf
+		autoheader && \
+		autoconf && \
+		automake -acf
 
 .include "../../textproc/expat/buildlink3.mk"
-.include "../../mk/autoconf.mk"
-.include "../../mk/automake.mk"
 .include "../../mk/bsd.pkg.mk"

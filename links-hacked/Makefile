@@ -12,7 +12,7 @@ HOMEPAGE=	http://xray.sai.msu.ru/~karpov/links-hacked/
 COMMENT=        Enhanced version of Links with tabs and more
 
 GNU_CONFIGURE=		yes
-USE_TOOLS+=		gmake
+USE_TOOLS+=		gmake automake
 USE_X11=		yes
 
 VER=			030709
@@ -56,13 +56,11 @@ post-extract:
 	@${MV} ${WRKDIR}/font ${WRKSRC}
 
 pre-configure:
-	@cd ${WRKSRC};                                           \
-	${ACLOCAL};                                             \
-	${AUTOHEADER};                                          \
-	${AUTOMAKE} -a --foreign -i;                            \
-	${AUTOCONF}
+	cd ${WRKSRC} && aclocal
+	cd ${WRKSRC} && autoheader
+	cd ${WRKSRC} && automake -a --foreign -i
+	cd ${WRKSRC} && autoconf
 
-.include "../../mk/automake.mk"
 .include "../../graphics/png/buildlink3.mk"
 .include "../../graphics/freetype2/buildlink3.mk"
 .include "../../graphics/jpeg/buildlink3.mk"
