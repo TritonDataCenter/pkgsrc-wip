@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	libtorrent-0.5.4
+DISTNAME=	libtorrent-0.6.4
 CATEGORIES=	net
 MASTER_SITES=	http://libtorrent.rakshasa.no/downloads/
 
@@ -17,5 +17,4 @@ PREFER_PKGSRC=		openssl
 
 .include "../../security/openssl/buildlink3.mk"
 .include "../../devel/libsigc++2/buildlink3.mk"
-
 .include "../../mk/bsd.pkg.mk"
