@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	rtorrent-0.1.4
+DISTNAME=	rtorrent-0.2.4
 CATEGORIES=	net
 MASTER_SITES=	http://libtorrent.rakshasa.no/downloads/
 
