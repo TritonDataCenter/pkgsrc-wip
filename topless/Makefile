@@ -14,8 +14,10 @@ COMMENT=	Display and update information of target command like 'top'
 NO_CONFIGURE=	YES
 NO_BUILD=	YES
 
+DIST_SUBDIR=	${PKGNAME_NOREV}
+
 do-extract:
 do-install:
-	${INSTALL_SCRIPT} ${DISTDIR}/${DISTFILES} ${PREFIX}/bin
+	${INSTALL_SCRIPT} ${DISTDIR}/${DIST_SUBDIR}/${DISTFILES} ${PREFIX}/bin
 
 .include "../../mk/bsd.pkg.mk"
