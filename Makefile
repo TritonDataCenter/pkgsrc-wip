@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.1802 2005/06/04 11:24:16 thomasklausner Exp $
+# $Id: Makefile,v 1.1803 2005/06/09 12:36:23 obache Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -984,6 +984,7 @@ SUBDIR+=	tinylogin
 SUBDIR+=	tkabber
 SUBDIR+=	tleenx2
 SUBDIR+=	tleenx3
+SUBDIR+=	topless
 SUBDIR+=	toppler
 SUBDIR+=	tops-bin
 SUBDIR+=	tr2latex
