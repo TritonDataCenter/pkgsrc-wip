@@ -10,7 +10,7 @@ MAINTAINER=		martti@NetBSD.org
 HOMEPAGE=		http://www.jalbum.net/
 COMMENT=		Web photo album generator
 
-DIST_SUBDIR=		${PKGNAME_NOREV}
+DIST_SUBDIR=		${PKGNAME_NOREV}-20050609
 USE_JAVA=		run
 PKG_JVMS_ACCEPTED=	blackdown-jdk13 kaffe sun-jdk13 sun-jdk14 sun-jdk15
 
