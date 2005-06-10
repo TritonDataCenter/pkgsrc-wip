@@ -25,6 +25,7 @@ CONFIGURE_ARGS+=        --with-fftw=no
 .include "../../graphics/png/buildlink3.mk"
 .include "../../graphics/jpeg/buildlink3.mk"
 .include "../../graphics/tiff/buildlink3.mk"
+.include "../../misc/proj/buildlink3.mk"
 .include "../../wip/gdal-lib/buildlink3.mk"
 .include "../../mk/pthread.buildlink3.mk"
 .include "../../mk/pgsql.buildlink3.mk"
