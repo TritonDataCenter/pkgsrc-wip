@@ -2,4 +2,4 @@
 #
 # $NetBSD$
 #
-@PKG_JAVA_HOME@/bin/java -jar @PREFIX@/JAlbum/JAlbum.jar
+@PKG_JAVA_HOME@/bin/java -jar @PREFIX@/share/jalbum/JAlbum.jar
