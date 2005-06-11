@@ -14,7 +14,6 @@ COMMENT=	MPEG-4 (DivX) video player library
 DEPENDS=	win32-codecs>=010122:../../multimedia/win32-codecs
 .endif
 
-USE_X11=		YES
 USE_TOOLS+=		gmake
 USE_LIBTOOL=		YES
 USE_LANGUAGE+=		c c++ fortran
@@ -99,4 +98,5 @@ CONFIGURE_ARGS+=	--with-iconv=${BUILDLINK_PREFIX.iconv}
 .include "../../fonts/Xft2/buildlink3.mk"
 .include "../../graphics/freetype2/buildlink3.mk"
 .include "../../mk/pthread.buildlink3.mk"
+.include "../../mk/x11.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
