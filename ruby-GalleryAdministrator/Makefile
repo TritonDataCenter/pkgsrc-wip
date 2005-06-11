@@ -31,6 +31,9 @@ post-install:
 .endfor
 	${INSTALL_DATA_DIR} ${RUBY_EXAMPLESDIR}/gallery
 	cd ${WRKSRC}/sample && ${PAX} -rw -pp * ${RUBY_EXAMPLESDIR}/gallery
+	${RM} -r ${RUBY_EXAMPLESDIR}/gallery/templates/.en/.svn
+	${RM} -r ${RUBY_EXAMPLESDIR}/gallery/templates/.ja/.svn
+	${RM} -r ${RUBY_EXAMPLESDIR}/gallery/templates/.ja.i/.svn
 	${INSTALL_DATA_DIR} ${RUBY_EXAMPLESDIR}/gallery/interface
 	${INSTALL_SCRIPT} ${WRKSRC}/interface/admin.rb ${RUBY_EXAMPLESDIR}/gallery/interface
 	${INSTALL_SCRIPT} ${WRKSRC}/interface/mail_admin.rb ${RUBY_EXAMPLESDIR}/gallery/interface
