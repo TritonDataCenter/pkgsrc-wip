@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.1807 2005/06/12 12:18:25 kristerw Exp $
+# $Id: Makefile,v 1.1808 2005/06/12 14:41:25 dillo Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -493,6 +493,7 @@ SUBDIR+=	libwbxml2-patched
 SUBDIR+=	libwhisker2
 SUBDIR+=	libwpd
 SUBDIR+=	libxml++
+SUBDIR+=	libzip
 SUBDIR+=	lighttpd
 SUBDIR+=	lilo
 SUBDIR+=	lincvs
