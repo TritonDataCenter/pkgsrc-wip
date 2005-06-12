@@ -15,7 +15,6 @@ BUILDLINK_DEPENDS.libzip+=	libzip>=0.6
 BUILDLINK_PKGSRCDIR.libzip?=	../../archivers/libzip
 .endif	# LIBZIP_BUILDLINK3_MK
 
-# XXX: not exposed, i think
-#.include "../../devel/zlib/buildlink3.mk"
+.include "../../devel/zlib/buildlink3.mk"
 
 BUILDLINK_DEPTH:=     ${BUILDLINK_DEPTH:S/+$//}
