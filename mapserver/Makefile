@@ -10,7 +10,6 @@ HOMEPAGE=		http://mapserver.gis.umn.edu/
 COMMENT=		Environment for building spatially enabled Internet apps
 
 USE_PKGLOCALEDIR=	yes
-USE_X11=		yes
 GNU_CONFIGURE=		yes
 
 CONFIGURE_ARGS+=	--with-curl-config		\
@@ -72,4 +71,5 @@ do-install:
 .include "../../graphics/jpeg/buildlink3.mk"
 .include "../../graphics/png/buildlink3.mk"
 .include "../../wip/geos/buildlink3.mk"
+.include "../../mk/x11.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

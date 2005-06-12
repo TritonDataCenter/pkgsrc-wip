@@ -29,7 +29,7 @@ ONLY_FOR_PLATFORM=	FreeBSD-*-i386 NetBSD-*-i386 Linux-*-i386
 .include "../../mk/bsd.prefs.mk"
 
 .if ${OPSYS} == "Linux"
-USE_X11=	yes
+.include "../../mk/x11.buildlink3.mk"
 .else
 .include "../../emulators/suse_linux/Makefile.application"
 .endif

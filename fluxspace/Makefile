@@ -9,7 +9,6 @@ MAINTAINER=		poff@sixbit.org
 COMMENT=		Fluxbox workspace manager, environment
 
 GNU_CONFIGURE=	YES
-USE_X11=		YES
 USE_TOOLS+=		gmake
 
 USE_LIBTOOL=		YES
@@ -24,4 +23,5 @@ CONFIGURE_ENV+= PYTHON_LDFLAGS="${BUILDLINK_LDFLAGS.python22}"
 .include "../../devel/swig/buildlink3.mk"
 .include "../../graphics/imlib2/buildlink3.mk"
 .include "../../lang/python22/buildlink3.mk"
+.include "../../mk/x11.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

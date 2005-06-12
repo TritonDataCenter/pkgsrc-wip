@@ -22,7 +22,6 @@ CPPFLAGS+=		-DDEVOSSSOUND="\"${DEVOSSSOUND}\""
 USE_TOOLS+=		flex gmake bison
 USE_LANGUAGES=		c c++
 USE_PKGLOCALEDIR=	yes
-USE_X11=		yes
 
 PKG_SUPPORTED_OPTIONS= alsa
 PKG_OPTIONS_VAR=       PKG_OPTIONS.rezound
@@ -48,4 +47,5 @@ CONFIGURE_ARGS+=	--disable-alsa
 
 .include "../../mk/ossaudio.buildlink3.mk"
 .include "../../mk/pthread.buildlink3.mk"
+.include "../../mk/x11.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

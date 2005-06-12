@@ -12,7 +12,6 @@ COMMENT=	Advanced architecture for desktop applets
 GNU_CONFIGURE=	YES
 USE_TOOLS+=	gmake
 USE_LIBTOOL=	YES
-USE_X11=	YES
 
 PKGCONFIG_OVERRIDE=	gdesklets-core.pc.in
 GCONF2_SCHEMAS=		gdesklets-display-thumbnail.schemas
@@ -42,4 +41,5 @@ post-install:
 # libXau.so is required to build dynamically-linked Python modules.
 .include "../../wip/libXau/buildlink3.mk"
 
+.include "../../mk/x11.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

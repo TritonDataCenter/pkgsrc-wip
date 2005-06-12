@@ -12,10 +12,10 @@ COMMENT=	Widget style and window decoration for KDE3
 GNU_CONFIGURE=		YES
 USE_LIBTOOL=		YES
 USE_TOOLS+=		gmake
-USE_X11=		YES
 
 LDFLAGS+=		${EXPORT_SYMBOLS_LDFLAGS}
 
 .include "../../meta-pkgs/kde3/kde3.mk"
 .include "../../mk/pthread.buildlink3.mk"
+.include "../../mk/x11.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

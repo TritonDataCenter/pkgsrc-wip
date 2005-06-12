@@ -17,5 +17,6 @@ BUILDLINK_PKGSRCDIR.matchbox-desktop?=	../../wip/matchbox-desktop
 
 .include "../../wip/libmatchbox/buildlink3.mk"
 .include "../../x11/startup-notification/buildlink3.mk"
+.include "../../mk/x11.buildlink3.mk"
 
 BUILDLINK_DEPTH:=     ${BUILDLINK_DEPTH:S/+$//}

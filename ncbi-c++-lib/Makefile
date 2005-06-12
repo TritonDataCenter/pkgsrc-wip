@@ -11,7 +11,6 @@ HOMEPAGE=		http://www.ncbi.nlm.nih.gov/IEB/ToolBox/index.cgi
 COMMENT=		Libraries needed by apps dependent on NCBI C++ toolkit
 
 CONFLICTS=		ncbi_cxx-lib-[0-9]*
-USE_X11=		YES
 USE_BUILDLINK3=		YES
 
 GNU_CONFIGURE=		YES
@@ -24,4 +23,5 @@ do-configure:
 .include "../../wip/ncbi-lib/buildlink3.mk"
 .include "../../x11/fltk/buildlink3.mk"
 .include "../../x11/wxGTK/buildlink3.mk"
+.include "../../mk/x11.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

@@ -10,7 +10,6 @@ MAINTAINER=		dprice@cs.nmsu.edu
 HOMEPAGE=		http://www.mol.biol.ethz.ch/wuthrich/software/molmol/
 COMMENT=		Graphics Program for manipulating 3D biological macromolecules
 
-USE_X11=		yes
 USE_LIBTOOLS=		yes
 
 WRKSRC=			${WRKDIR}
@@ -26,4 +25,5 @@ do-install:
 .include "../../graphics/jpeg/buildlink3.mk"
 .include "../../graphics/png/buildlink3.mk"
 .include "../../mk/motif.buildlink3.mk"
+.include "../../mk/x11.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

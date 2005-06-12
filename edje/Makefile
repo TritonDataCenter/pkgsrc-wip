@@ -11,7 +11,6 @@ COMMENT=		Complex Graphical Design/Layout Engine
 
 GNU_CONFIGURE=		YES
 USE_LIBTOOL=		YES
-USE_X11=		YES
 
 .include "../../devel/libltdl/buildlink3.mk"
 .include "../../graphics/jpeg/buildlink3.mk"
@@ -20,4 +19,5 @@ USE_X11=		YES
 .include "../../wip/embryo/buildlink3.mk"
 .include "../../wip/ecore/buildlink3.mk"
 .include "../../wip/evas/buildlink3.mk"
+.include "../../mk/x11.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

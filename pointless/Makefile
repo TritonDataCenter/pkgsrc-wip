@@ -16,11 +16,11 @@ DEPENDS+=               Mesa>=6.0:../../graphics/Mesa
 
 USE_PKGLOCALEDIR=       yes
 GNU_CONFIGURE=		yes
-USE_X11=		yes
 
 INSTALL_TARGET=		${INSTALL} install-modules
 
 .include "../../graphics/freetype2/buildlink3.mk"
 .include "../../graphics/png/buildlink3.mk"
 .include "../../lang/python22/buildlink3.mk"
+.include "../../mk/x11.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

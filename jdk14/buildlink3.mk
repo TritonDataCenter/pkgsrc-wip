@@ -22,4 +22,6 @@ BUILDLINK_CPPFLAGS.jdk14= \
 	-I${BUILDLINK_JAVA_PREFIX.jdk14}/include/netbsd
 .endif	# JDK14_BUILDLINK3_MK
 
+.include "../../mk/x11.buildlink3.mk"
+
 BUILDLINK_DEPTH:=     ${BUILDLINK_DEPTH:S/+$//}

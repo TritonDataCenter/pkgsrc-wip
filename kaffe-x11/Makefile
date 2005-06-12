@@ -7,8 +7,6 @@ PKGNAME=    ${DISTNAME:S/kaffe/kaffe-x11/}
 
 COMMENT+=   (AWT support through X11)
 
-USE_X11=    YES
-
 CONFIGURE_ARGS:=  ${CONFIGURE_ARGS:S/--disable-native-awt/--with-kaffe-x-awt/}
 
 BUILD_DIRS=     ${WRKSRC}/config
@@ -30,4 +28,5 @@ PRINT_PLIST_AWK+= /^@dirrm/ { print "@comment in kaffe: " $$0; next; }
 .include "../../graphics/libungif/buildlink3.mk"
 .include "../../graphics/png/buildlink3.mk"
 .include "../../wip/kaffe/buildlink3.mk"
+.include "../../mk/x11.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

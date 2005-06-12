@@ -18,10 +18,10 @@ GNU_CONFIGURE=		# defined
 USE_TOOLS+=		gmake automake
 ONLY_FOR_PLATFORM=	*-*-i386
 BUILD_TARGET=		zsnes
-USE_X11=		# defined
 
 .include "../../devel/SDL/buildlink3.mk"
 .include "../../graphics/png/buildlink3.mk"
+.include "../../mk/x11.buildlink3.mk"
 
 pre-configure:
 	cd ${WRKSRC} && aclocal

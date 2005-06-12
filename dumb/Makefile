@@ -13,7 +13,6 @@ COMMENT=		IT, XM, S3M and MOD player library
 
 LICENSE=		dumb-license
 USE_TOOLS+=		gmake
-USE_X11=		yes
 
 post-install:
 	${INSTALL_DATA_DIR} ${PREFIX}/share/doc/dumb
@@ -25,4 +24,5 @@ post-install:
 
 .include "../../devel/allegro/buildlink3.mk"
 .include "../../mk/ossaudio.buildlink3.mk"
+.include "../../mk/x11.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

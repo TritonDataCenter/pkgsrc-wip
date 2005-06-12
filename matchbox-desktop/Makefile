@@ -12,7 +12,6 @@ COMMENT=	Desktop manager for Matchbox
 
 USE_PKGINSTALL=	yes
 USE_LIBTOOL=	yes
-USE_X11=	yes
 GNU_CONFIGURE=	yes
 
 PKGCONFIG_OVERRIDE=	matchbox-desktop.pc.in
@@ -26,4 +25,5 @@ CONF_FILES=		${EGDIR}/mbdesktop_modules ${PKG_SYSCONFDIR}/mbdesktop_modules
 .include "../../devel/pkgconfig/buildlink3.mk"
 .include "../../devel/libmatchbox/buildlink3.mk"
 .include "../../x11/startup-notification/buildlink3.mk"
+.include "../../mk/x11.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

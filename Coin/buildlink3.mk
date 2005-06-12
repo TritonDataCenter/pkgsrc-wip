@@ -20,6 +20,7 @@ BUILDLINK_PKGSRCDIR.Coin?=		../../wip/Coin
 .include "../../graphics/simage/buildlink3.mk"
 .include "../../graphics/freetype2/buildlink3.mk"
 .include "../../graphics/glu/buildlink3.mk"
+.include "../../mk/x11.buildlink3.mk"
 
 .endif # COIN_BUILDLINK3_MK
 

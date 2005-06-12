@@ -12,9 +12,9 @@ HOMEPAGE=		http://dumb.sourceforge.net/
 COMMENT=		XMMS mod player plugin based on dumb
 
 USE_TOOLS+=		gmake
-USE_X11=		yes
 
 .include "../../wip/dumb/buildlink3.mk"
 .include "../../audio/xmms/buildlink3.mk"
 .include "../../mk/ossaudio.buildlink3.mk"
+.include "../../mk/x11.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

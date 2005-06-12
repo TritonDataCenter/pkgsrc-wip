@@ -15,7 +15,6 @@ COMMENT=		Star Control 2
 
 PKG_INSTALLATION_TYPES=	overwrite pkgviews
 
-USE_X11=		YES
 USE_TOOLS=		gmake
 WRKSRC=			${WRKDIR}/${PKGNAME}
 DIST_SUBDIR=		uqm
@@ -43,4 +42,5 @@ do-install:
 .include "../../multimedia/libogg/buildlink3.mk"
 .include "../../mk/ossaudio.buildlink3.mk"
 .include "../../mk/pthread.buildlink3.mk"
+.include "../../mk/x11.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

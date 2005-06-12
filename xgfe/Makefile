@@ -9,9 +9,8 @@ MAINTAINER=		dprice@cs.nmsu.edu
 HOMEPAGE=		http://www.bl.physik.uni-muenchen.de/rechner/grafik/xgfe/xgfe.html
 COMMENT=		GUI front end for Gnuplot plotting package
 
-USE_X11=		yes
-
 WRKSRC=			${WRKDIR}/xgfe-2.1/source
 
 .include "../../x11/qt3-libs/buildlink3.mk"
+.include "../../mk/x11.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

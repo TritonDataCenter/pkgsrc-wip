@@ -12,7 +12,6 @@ HOMEPAGE=		http://www.sander.embl-ebi.ac.uk/tops/TOPSSoftware.html
 COMMENT=		Protein Topology Cartoons Tools
 
 USE_JAVA=		yes
-USE_X11=		yes
 
 CHECK_SHLIBS=   	no
 
@@ -34,4 +33,5 @@ do-install:
 
 .include "../../emulators/suse_linux/Makefile.application"
 .include "../../mk/java-vm.mk"
+.include "../../mk/x11.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

@@ -13,10 +13,9 @@ COMMENT=	RSP plugin for mupen64 emulator
 
 BUILD_DEPENDS+=	mupen64-base-[0-9]*:../../wip/mupen64-base
 
-USE_X11=	yes
-
 .include "../../devel/SDL/buildlink3.mk"
 .include "../../graphics/Mesa/buildlink3.mk"
 .include "../../x11/gtk/buildlink3.mk"
 .include "../../mk/pthread.buildlink3.mk"
+.include "../../mk/x11.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

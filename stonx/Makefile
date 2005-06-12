@@ -9,7 +9,7 @@ MAINTAINER=		xmor61@users.sourceforge.net
 HOMEPAGE=		http://stonx.sourceforge.net/
 COMMENT=		Atari ST Emulator
 
-USE_X11=		yes
 GNU_CONFIGURE=		yes
 
+.include "../../mk/x11.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

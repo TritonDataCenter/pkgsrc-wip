@@ -14,12 +14,11 @@ COMMENT=		English lexical reference system
 
 BUILD_TARGET=		SrcWorld
 
-USE_X11=		yes
-
 PTHREAD_OPTS+=		require
 
 .include "../../lang/tcl/buildlink3.mk"
 .include "../../x11/tk/buildlink3.mk"
+.include "../../mk/x11.buildlink3.mk"
 .include "../../mk/pthread.buildlink3.mk"
 
 pre-build:

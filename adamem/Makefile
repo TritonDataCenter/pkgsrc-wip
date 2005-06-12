@@ -11,7 +11,6 @@ HOMEPAGE=		http://www.komkon.org/~dekogel/adamem.html
 COMMENT=		Emulator for the Colecovision game console and Adam computer system
 
 MAKEFILE=		Makefile.X
-USE_X11=		YES
 WRKSRC=		        ${WRKDIR}
 
 SUBST_CLASSES+=         dsp
@@ -48,4 +47,5 @@ do-install:
 .include "../../devel/allegro/buildlink3.mk"
 .include "../../devel/zlib/buildlink3.mk"
 .include "../../mk/ossaudio.buildlink3.mk"
+.include "../../mk/x11.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

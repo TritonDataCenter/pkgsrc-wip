@@ -15,7 +15,6 @@ BUILD_USES_MSGFMT=	yes
 USE_DIRS+=		gnome2-1.5
 USE_TOOLS+=		gmake
 USE_PKGLOCALEDIR=	yes
-USE_X11=		yes
 GNU_CONFIGURE=		yes
 
 CONFIGURE_ARGS+=	--enable-small-icons
@@ -33,4 +32,5 @@ CONFIGURE_ENV+=		MSGMERGE=${LOCALBASE}/bin/msgmerge
 .include "../../fonts/Xft2/buildlink3.mk"
 .include "../../devel/libmatchbox/buildlink3.mk"
 .include "../../x11/startup-notification/buildlink3.mk"
+.include "../../mk/x11.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

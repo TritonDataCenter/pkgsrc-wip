@@ -11,7 +11,6 @@ COMMENT=		GTK-based gnutella client, CVS snapshot
 
 USE_TOOLS+=		gmake
 USE_PKGLOCALEDIR=	yes
-USE_X11=		yes
 HAS_CONFIGURE=		yes
 CONFIGURE_SCRIPT=	./Configure
 CONFIGURE_ARGS+=	-d -e -r -s -D prefix="${PREFIX}" -D cc="${CC}" \
@@ -40,4 +39,5 @@ NO_CHECKSUM=		# defined
 .include "../../wip/gettext-tools/buildlink3.mk"
 
 .include "../../wip/mk/cvs-package.mk"
+.include "../../mk/x11.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

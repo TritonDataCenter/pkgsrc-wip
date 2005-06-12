@@ -20,7 +20,6 @@ CONFIGURE_ENV+=		PKGLOCALEDIR=${PKGLOCALEDIR}
 MAKE_ENV+=		PKGLOCALEDIR=${PKGLOCALEDIR}
 BUILD_USES_MSGFMT=	YES
 GNU_CONFIGURE=		# defined
-USE_X11=		# defined
 CONFIGURE_ARGS+=	--without-audiofile --without-esd
 
 USE_TOOLS+=		gmake
@@ -32,4 +31,5 @@ PLIST_SUBST+=		SF_VERS=${SF_VERS}
 
 .include "../../x11/gtk2/buildlink3.mk"
 .include "../../lang/librep/buildlink3.mk"
+.include "../../mk/x11.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

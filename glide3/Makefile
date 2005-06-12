@@ -13,7 +13,6 @@ COMMENT=		Software needed for 3dfx voodoo3 cards
 NO_CONFIGURE=		yes
 
 USE_TOOLS+=		gmake
-USE_X11=		yes
 USE_LIBTOOL=		yes
 
 CFLAGS+=		-O
@@ -75,4 +74,5 @@ post-install:
 	${LN} -sf libglide3.so.3.10 ${PREFIX}/lib/libglide3.so.3
 	${LN} -sf libglide3.so.3.10 ${PREFIX}/lib/libglide3.so
 
+.include "../../mk/x11.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

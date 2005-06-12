@@ -15,7 +15,6 @@ BUILD_DEPENDS+=         qt3-tools-3.*:../../x11/qt3-tools
 
 GNU_CONFIGURE=		YES
 USE_LIBTOOL=		YES
-USE_X11=		YES
 USE_TOOLS+=		gmake
 
 .include "../../mk/bsd.prefs.mk"
@@ -27,4 +26,5 @@ USE_TOOLS+=		gmake
 .include "../../graphics/jpeg/buildlink3.mk"
 .include "../../wip/dclib/buildlink3.mk"
 .include "../../x11/qt3-libs/buildlink3.mk"
+.include "../../mk/x11.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

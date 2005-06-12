@@ -11,9 +11,9 @@ HOMEPAGE=	http://projects.o-hand.com/matchbox/
 COMMENT=	Manager panel for the Matchbox desktop
 
 USE_DIRS+=	gnome2-1.5
-USE_X11=	yes
 GNU_CONFIGURE=	yes
 
 .include "../../devel/libmatchbox/buildlink3.mk"
 .include "../../x11/gtk2/buildlink3.mk"
+.include "../../mk/x11.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

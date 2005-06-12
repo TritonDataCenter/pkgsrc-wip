@@ -17,7 +17,6 @@ HAS_CONFIGURE=		YES
 USE_LANGUAGES=		c c++
 USE_LIBTOOL=		YES
 USE_PKGINSTALL=		YES
-USE_X11=		YES
 
 USE_TOOLS+=		gmake
 
@@ -45,4 +44,5 @@ pre-install:
 
 .include "../../audio/lame/buildlink3.mk"
 .include "../../x11/qt3-libs/buildlink3.mk"
+.include "../../mk/x11.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

@@ -12,7 +12,6 @@ COMMENT=	RISC OS-like filer for X
 
 DEPENDS+=	shared-mime-info>=0.12:../../databases/shared-mime-info
 
-USE_X11=	yes
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS+=--enable-rox
 CONFIGURE_ARGS+=--with-platform="src"
@@ -48,4 +47,5 @@ do-install:
 .include "../../textproc/libxml2/buildlink3.mk"
 .include "../../x11/gtk2/buildlink3.mk"
 .include "../../sysutils/gnome-vfs2/buildlink3.mk"
+.include "../../mk/x11.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

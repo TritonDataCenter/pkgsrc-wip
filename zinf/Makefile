@@ -15,7 +15,6 @@ PTHREAD_OPTS=	require
 
 GNU_CONFIGURE=	yes
 USE_TOOLS+=	gmake
-USE_X11=	yes
 #USE_PERL5=	yes
 
 CONFIGURE_ARGS+=--enable-cmdline \
@@ -34,4 +33,5 @@ CONFIGURE_ARGS+=--enable-cmdline \
 .include "../../x11/gtk/buildlink3.mk"
 .include "../../mk/ossaudio.buildlink3.mk"
 .include "../../mk/pthread.buildlink3.mk"
+.include "../../mk/x11.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

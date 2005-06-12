@@ -13,7 +13,6 @@ COMMENT=		Open source library of scientific tools for Python
 DEPENDS+=		${PYPKGPREFIX}-scipy_distutils-[0-9]*:../../wip/py-scipy_distutils
 
 WRKSRC=			${WRKDIR}/${DISTNAME:S/_src//}
-USE_X11=		yes
 PY_PATCHPLIST=		yes
 PYDISTUTILSPKG=		yes
 
@@ -25,4 +24,5 @@ CONFLICTS=		${PYPKGPREFIX}-weave-[0-9]*
 .include "../../wip/py-f2py2e/buildlink3.mk"
 .include "../../math/py-Numeric/buildlink3.mk"
 .include "../../lang/python/extension.mk"
+.include "../../mk/x11.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

@@ -11,7 +11,6 @@ HOMEPAGE=		http://www.bio.cam.ac.uk/azara
 COMMENT=		Programs to process and view NMR data
 
 WRKSRC=			${WRKDIR}/azara-2.7
-USE_X11=		YES
 
 MAKEFILE=		makefile
 
@@ -34,4 +33,5 @@ do-install:
 
 .include "../../graphics/glut/buildlink3.mk"
 .include "../../mk/motif.buildlink3.mk"
+.include "../../mk/x11.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

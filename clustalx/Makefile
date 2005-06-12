@@ -13,7 +13,6 @@ COMMENT=		X-Windows interface for ClustalW
 WRKSRC=                 ${WRKDIR}/clustalx1.83.sun
 MESSAGE_SUBST+=         PREFIX=${PREFIX}
 MAKEFILE=		makefile
-USE_X11=		yes
 
 do-install:
 .for PROGRAM in clustalx
@@ -30,4 +29,5 @@ do-install:
 .include "../../wip/ncbi-lib/buildlink3.mk"
 .include "../../mk/pthread.buildlink3.mk"
 .include "../../mk/motif.buildlink3.mk"
+.include "../../mk/x11.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

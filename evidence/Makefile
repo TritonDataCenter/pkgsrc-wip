@@ -11,7 +11,6 @@ COMMENT=		Enlightened file manager
 
 GNU_CONFIGURE=		YES
 USE_LIBTOOL=		YES
-USE_X11=		YES
 
 # Optional modules.  This variable is similar to the MPLAYER_DRIVERS variable.
 EVIDENCE_MODULES=							\
@@ -71,4 +70,5 @@ CONFIGURE_ARGS+=	--disable-${val}
 .include "../../graphics/epeg/buildlink3.mk"
 .include "../../devel/pcre/buildlink3.mk"
 
+.include "../../mk/x11.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

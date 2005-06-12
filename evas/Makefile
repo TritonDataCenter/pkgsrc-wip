@@ -13,7 +13,6 @@ COMMENT=		High level display-independent canvas API
 
 GNU_CONFIGURE=		YES
 USE_LIBTOOL=		YES
-USE_X11=		YES
 
 .include "../../devel/libltdl/buildlink3.mk"
 .include "../../databases/edb/buildlink3.mk"
@@ -22,4 +21,5 @@ USE_X11=		YES
 .include "../../graphics/jpeg/buildlink3.mk"
 .include "../../graphics/png/buildlink3.mk"
 .include "../../graphics/Mesa/buildlink3.mk"
+.include "../../mk/x11.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

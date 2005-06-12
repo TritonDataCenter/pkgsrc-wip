@@ -13,7 +13,6 @@ COMMENT=	Window manager based on aewm++ (CVS version)
 
 GNU_CONFIGURE=	    yes
 USE_TOOLS+=	    gmake
-USE_X11=	    yes
 USE_PERL5=	    run
 USE_LANGUAGES=	    c c++
 NO_CHECKSUM=	    # defined
@@ -39,4 +38,5 @@ CONFIGURE_ARGS+=	--sysconfdir=${PKG_SYSCONFDIR}
 .include "../../fonts/Xft2/buildlink3.mk"
 .include "../../graphics/imlib2/buildlink3.mk"
 .include "../../graphics/xpm/buildlink3.mk"
+.include "../../mk/x11.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

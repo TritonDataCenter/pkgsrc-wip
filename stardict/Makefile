@@ -12,7 +12,6 @@ COMMENT=		Cross-Platform and international dictionary written in Gtk2
 
 USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=		yes
-USE_X11=		yes
 USE_TOOLS+=		gmake
 LIBTOOL_OVERRIDE=	${WRKSRC}/libtool
 GNU_CONFIGURE=		yes
@@ -25,4 +24,5 @@ GCONF2_SCHEMAS+=	stardict.schemas
 .include "../../devel/GConf2/schemas.mk"
 .include "../../devel/libgnomeui/buildlink3.mk"
 .include "../../textproc/scrollkeeper/omf.mk"
+.include "../../mk/x11.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

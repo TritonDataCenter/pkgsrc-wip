@@ -9,7 +9,6 @@ MAINTAINER=		reed@reedmedia.net
 HOMEPAGE=		http://mozplugger.mozdev.org/
 COMMENT=		Mozilla plugin for launching external viewers
 
-USE_X11=		yes
 MAKE_ARGS+=		-DPKG_SYSCONFDIR=${PKG_SYSCONFDIR}
 USE_PKGINSTALL=		yes
 CONF_FILES+=		${PREFIX}/share/examples/mozplugger/mozpluggerrc ${PKG_SYSCONFDIR}/mozpluggerrc
@@ -22,4 +21,5 @@ do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/mozplugger-controller ${PREFIX}/bin
 	${INSTALL_PROGRAM} ${WRKSRC}/mozplugger-helper ${PREFIX}/bin
 
+.include "../../mk/x11.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

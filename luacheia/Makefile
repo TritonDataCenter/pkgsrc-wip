@@ -11,7 +11,6 @@ COMMENT=		Extension libraries for LUA
 
 GNU_CONFIGURE=	YES
 USE_TOOLS+=	gmake
-USE_X11=	YES
 CPPFLAGS+=	"-I${PREFIX}/include"
 CPPFLAGS+=	"-I/usr/X11R6/include"
 LDFLAGS+=	"-L${PREFIX}/lib"
@@ -19,4 +18,5 @@ LDFLAGS+=	"-L/usr/X11R6/lib"
 
 .include "../../graphics/Mesa/buildlink3.mk"
 .include "../../devel/SDL/buildlink3.mk"
+.include "../../mk/x11.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

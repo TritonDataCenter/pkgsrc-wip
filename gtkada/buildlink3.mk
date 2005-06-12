@@ -18,5 +18,6 @@ BUILDLINK_PKGSRCDIR.GtkAda?=	../../wip/gtkada
 .include "../../x11/gtk2/buildlink3.mk"
 .include "../../devel/libglade2/buildlink3.mk"
 .include "../../devel/libgnomeui/buildlink3.mk"
+.include "../../mk/x11.buildlink3.mk"
 
 BUILDLINK_DEPTH:=     ${BUILDLINK_DEPTH:S/+$//}

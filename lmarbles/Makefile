@@ -9,7 +9,6 @@ MAINTAINER=	cube@cubidou.net
 HOMEPAGE=	http://lgames.sourceforge.net/
 COMMENT=	Atomix-style arcade game
 
-USE_X11=		YES
 GNU_CONFIGURE=		YES
 CONFIGURE_ARGS+=	--with-profile-path=${LOCALBASE}/share/games
 
@@ -25,4 +24,5 @@ post-install:
 .include "../../audio/SDL_mixer/buildlink3.mk"
 .include "../../devel/SDL/buildlink3.mk"
 
+.include "../../mk/x11.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

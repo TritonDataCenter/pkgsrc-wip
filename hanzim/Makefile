@@ -10,8 +10,6 @@ MAINTAINER=	rxg@NetBSD.org
 HOMEPAGE=	http://zakros.ucsd.edu/~arobert/hanzim.html
 COMMENT=	Chinese character learning-aid program
 
-USE_X11=	yes
-
 WRKSRC=		${WRKDIR}/Hanzim
 
 pre-install:
@@ -23,4 +21,5 @@ pre-install:
 .include "../../lang/tcl/buildlink3.mk"
 .include "../../x11/tk/buildlink3.mk"
 .include "../../mk/pthread.buildlink3.mk"
+.include "../../mk/x11.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

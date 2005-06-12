@@ -10,7 +10,6 @@ HOMEPAGE=		http://bub-n-bros.sourceforge.net/
 COMMENT=		Multiplayer crazy clone of Bubble Bobble
 
 WRKSRC=			${WRKDIR}/bub-n-bros
-USE_X11=		yes
 PY_PATCHPLIST=		yes
 
 MAKE_ENV=		CFLAGS="${CFLAGS}"
@@ -49,4 +48,5 @@ do-install:
 .include "../../lang/python/application.mk"
 .include "../../wip/py-game/buildlink3.mk"
 
+.include "../../mk/x11.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

@@ -10,8 +10,8 @@ MAINTAINER=	tech-pkg@NetBSD.org
 HOMEPAGE=	http://projects.o-hand.com/matchbox/
 COMMENT=	Matchbox Xnest wrapper
 
-USE_X11=		yes
 GNU_CONFIGURE=		yes
 
 .include "../../devel/libmatchbox/buildlink3.mk"
+.include "../../mk/x11.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

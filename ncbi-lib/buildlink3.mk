@@ -17,4 +17,6 @@ BUILDLINK_DEPENDS.ncbi-lib+=	ncbi-lib>=20040505
 BUILDLINK_PKGSRCDIR.ncbi-lib?=	../../wip/ncbi-lib
 .endif	# NCBI_LIB_BUILDLINK3_MK
 
+.include "../../mk/x11.buildlink3.mk"
+
 BUILDLINK_DEPTH:=     ${BUILDLINK_DEPTH:S/+$//}

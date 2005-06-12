@@ -17,8 +17,8 @@ BUILD_TARGET=pcl6
 
 .if defined(GHOSTPCL_USE_X11)
 .  if ${GHOSTPCL_USE_X11} == "YES" || ${GHOSTPCL_USE_X11} == "yes"
-USE_X11=	YES
-MAKE_ENV+=	USE_X11=${USE_X11}
+MAKE_ENV+=	USE_X11=YES
+.include "../../mk/x11.buildlink3.mk"
 .  endif
 .endif
 

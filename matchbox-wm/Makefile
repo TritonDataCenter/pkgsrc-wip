@@ -12,7 +12,6 @@ HOMEPAGE=	http://matchbox.handhelds.org/
 COMMENT=	The Matchbox window manager
 
 USE_PKGLOCALEDIR=	yes
-USE_X11=		yes
 GNU_CONFIGURE=		yes
 
 GCONF2_SCHEMAS+=	matchbox.schemas
@@ -27,4 +26,5 @@ CONFIGURE_ARGS+=	--enable-startup-notification
 .include "../../textproc/expat/buildlink3.mk"
 .include "../../devel/libmatchbox/buildlink3.mk"
 .include "../../x11/startup-notification/buildlink3.mk"
+.include "../../mk/x11.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

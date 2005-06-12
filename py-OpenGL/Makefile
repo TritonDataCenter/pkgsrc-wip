@@ -10,7 +10,6 @@ MAINTAINER=	cube@cubidou.net
 HOMEPAGE=	http://pyopengl.sourceforge.net/
 COMMENT=	Pyhton bindings for OpenGL
 
-USE_X11=	YES
 PYDISTUTILSPKG=	YES
 PY_PATCHPLIST=	YES
 
@@ -27,4 +26,5 @@ pre-build:
 .include "../../math/py-Numeric/buildlink3.mk"
 .include "../../x11/py-Tk/buildlink3.mk"
 .include "../../lang/tcl/buildlink3.mk"
+.include "../../mk/x11.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

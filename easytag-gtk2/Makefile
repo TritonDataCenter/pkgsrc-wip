@@ -15,7 +15,6 @@ BUILD_USES_MSGFMT=      yes     # xgettext, really
 
 GNU_CONFIGURE=          yes
 USE_DIRS+=              xdg-1.1
-USE_X11=                yes
 USE_PKGLOCALEDIR=       yes
 USE_LIBTOOL=            yes
 
@@ -24,4 +23,5 @@ USE_LIBTOOL=            yes
 .include "../../audio/libvorbis/buildlink3.mk"
 .include "../../multimedia/libogg/buildlink3.mk"
 .include "../../x11/gtk2/buildlink3.mk"
+.include "../../mk/x11.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

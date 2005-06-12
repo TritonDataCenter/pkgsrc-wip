@@ -11,10 +11,9 @@ HOMEPAGE=	http://inittab.netizenweb.com/software.jsp
 COMMENT=	Motif XTerm
 
 GNU_CONFIGURE=	YES
-USE_X11=	YES
 
 WRKSRC=		${WRKDIR}/${PKGNAME}
 
 .include "../../mk/motif.buildlink3.mk"
+.include "../../mk/x11.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
-

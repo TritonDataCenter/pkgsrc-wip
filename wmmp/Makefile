@@ -12,11 +12,11 @@ COMMENT=		Dockable MusicPD client for Window Maker and similar window managers
 USE_PKGLOCALEDIR=	YES
 USE_LIBTOOL=		YES
 GNU_CONFIGURE=		YES
-USE_X11=		YES
 USE_TOOLS+=		autoconf
 
 pre-configure:
 	cd ${WRKSRC} && autoconf
 
 .include "../../graphics/xpm/buildlink3.mk"
+.include "../../mk/x11.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

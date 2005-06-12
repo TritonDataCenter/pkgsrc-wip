@@ -12,7 +12,6 @@ COMMENT=	KDE IRC Client
 
 GNU_CONFIGURE=	YES
 USE_PERL5=	YES
-USE_X11=	YES
 USE_LIBTOOL=	YES
 USE_TOOLS+=	gmake
 
@@ -31,4 +30,5 @@ CONFIGURE_ARGS+=	--disable-threading
 
 CONFIGURE_ARGS+=	--with-extra-includes=${BUILDLINK_PREFIX.jpeg}/include
 
+.include "../../mk/x11.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

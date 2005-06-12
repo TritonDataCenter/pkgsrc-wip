@@ -21,7 +21,6 @@ DEPENDS+=		cross-binutils>=2.15.0.0:../../cross/binutils
 
 WRKSRC=			${WRKDIR}/${DISTNAME}
 USE_JAVA=		YES
-USE_X11=		yes
 USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=		yes
 LIBTOOL_OVERRIDE=	${WRKSRC}/libtool
@@ -64,5 +63,5 @@ do-install:
 
 .include "../../wip/emboss-base/buildlink3.mk"
 .include "../../mk/java-vm.mk"
+.include "../../mk/x11.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
-

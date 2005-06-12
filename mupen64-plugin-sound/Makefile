@@ -11,8 +11,6 @@ MAINTAINER=	tech-pkg@NetBSD.org
 HOMEPAGE=	http://mupen64.emulation64.com/
 COMMENT=	Sound plugin for mupen64 emulator
 
-USE_X11=	yes
-
 LDFLAGS+=	${LIBOSSAUDIO}
 
 SUBST_CLASSES=	    dsp
@@ -28,4 +26,5 @@ pre-install:
 .include "../../x11/gtk/buildlink3.mk"
 .include "../../mk/ossaudio.buildlink3.mk"
 .include "../../mk/pthread.buildlink3.mk"
+.include "../../mk/x11.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

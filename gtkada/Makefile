@@ -14,7 +14,6 @@ USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 USE_TOOLS+=		gmake autoconf
 USE_AUTOCONF=		yes
-USE_X11=		yes
 
 .include "../../mk/bsd.prefs.mk"
 
@@ -43,4 +42,5 @@ pre-configure:
 .include "../../devel/libglade2/buildlink3.mk"
 .include "../../devel/libgnomeui/buildlink3.mk"
 .include "../../mk/pthread.buildlink3.mk"
+.include "../../mk/x11.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

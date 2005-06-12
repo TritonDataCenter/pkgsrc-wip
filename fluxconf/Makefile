@@ -14,7 +14,7 @@ DEPENDS+=		fluxbox-[0-9]*:../../wm/fluxbox
 
 GNU_CONFIGURE=		yes
 USE_PKGLOCALEDIR=	yes
-USE_X11=		yes
 
 .include "../../x11/gtk2/buildlink3.mk"
+.include "../../mk/x11.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

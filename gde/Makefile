@@ -12,7 +12,6 @@ COMMENT=		Genetic Data Environment
 
 WRKSRC=			${WRKDIR}/GDE
 USE_LINUX=		YES
-USE_X11=		YES
 
 post-extract:
 	${MV} ${WRKSRC}/HGL_SRC/global_defs.h.orig \
@@ -42,4 +41,5 @@ do-install:
 	${INSTALL_DATA} ${WRKSRC}/db/* ${PREFIX}/gde/db/
 
 .include "../../x11/xview-lib/buildlink3.mk"
+.include "../../mk/x11.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

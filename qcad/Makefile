@@ -11,7 +11,6 @@ PKGNAME=		qcad-2.0.4.0
 
 COMMENT=		2D CAD system
 
-USE_X11=		yes
 GNU_CONFIGURE=		yes
 USE_TOOLS+= 	gmake
 
@@ -72,4 +71,5 @@ do-install:
 
 .include "../../x11/qt3-libs/buildlink3.mk"
 .include "../../x11/qt3-tools/buildlink3.mk"
+.include "../../mk/x11.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

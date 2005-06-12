@@ -13,7 +13,6 @@ COMMENT=	Free Playstation(TM) emulator
 
 GNU_CONFIGURE=	yes
 USE_TOOLS+=	gmake
-USE_X11=	yes
 WRKSRC=		${WRKDIR}/${DISTNAME}/Linux
 
 INSTALLATION_DIRS=	bin
@@ -22,4 +21,5 @@ do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/pcsx ${PREFIX}/bin
 
 .include "../../x11/gtk2/buildlink3.mk"
+.include "../../mk/x11.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

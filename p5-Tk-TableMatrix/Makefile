@@ -11,10 +11,10 @@ MAINTAINER=	jmmv@NetBSD.org
 HOMEPAGE=	http://www.cpan.org/
 COMMENT=	Table/Matrix widget extension to Perl/Tk
 
-USE_X11=		YES
 CPPFLAGS+=		-I${PERL5_SITEARCH}/Tk/pTk
 PERL5_PACKLIST=		${PERL5_SITEARCH}/auto/Tk/TableMatrix/.packlist
 
 .include "../../lang/perl5/module.mk"
 .include "../../x11/p5-Tk/buildlink3.mk"
+.include "../../mk/x11.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

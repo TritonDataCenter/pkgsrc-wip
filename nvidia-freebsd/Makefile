@@ -11,7 +11,6 @@ HOMEPAGE=	http://www.nvidia.com/
 COMMENT=	NVIDIA Graphic drivers for FreeBSD/i386
 
 ONLY_FOR_PLATFORM=	FreeBSD-5*-i386 # Yeah I don't use 4.x, sorry.
-USE_X11=		yes
 DIST_VERSION=		1.0-4365
 LINUX_DISTVER=		1.0.4365
 
@@ -131,4 +130,5 @@ do-install:
 post-install:
 	${LDCONFIG} -m ${X11BASE}/lib
 
+.include "../../mk/x11.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

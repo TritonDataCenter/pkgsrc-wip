@@ -12,7 +12,6 @@ COMMENT=		NES emulator (without sound)
 ONLY_FOR_PLATFORM=	*-*-i386
 
 WRKSRC=			${WRKDIR}/nestra
-USE_X11=		yes
 
 BUILD_TARGET=		nestra
 
@@ -22,4 +21,5 @@ do-install:
 	${INSTALL_DATA} ${WRKSRC}/BUGS ${PREFIX}/share/doc/nestra
 	${INSTALL_DATA} ${WRKSRC}/README ${PREFIX}/share/doc/nestra
 
+.include "../../mk/x11.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

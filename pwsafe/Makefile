@@ -31,7 +31,7 @@ CONFIGURE_ARGS+=	--without-readline
 
 .if !empty(PKG_OPTIONS:Mx11)
 CONFIGURE_ARGS+=	--with-x
-USE_X11=		yes
+.include "../../mk/x11.buildlink3.mk"
 .else
 CONFIGURE_ARGS+=	--without-x
 .endif

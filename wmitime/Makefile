@@ -12,6 +12,6 @@ COMMENT=	Windowmaker dockapp for time/date/itime
 WRKSRC=         ${WRKDIR}/wmitime/wmitime
 
 USE_TOOLS+=	gmake
-USE_X11=	YES
 
+.include "../../mk/x11.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

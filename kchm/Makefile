@@ -12,7 +12,6 @@ COMMENT=		KDE CHM file viewer
 
 GNU_CONFIGURE=	YES
 USE_BUILDLINK3=	YES
-USE_X11=		YES
 USE_LIBTOOL=	YES
 USE_TOOLS+=	gmake
 
@@ -20,4 +19,5 @@ USE_TOOLS+=	gmake
 CONFIGURE_ARGS+= --datadir=${PREFIX}/share/kde
 
 .include "../../x11/kdelibs3/buildlink3.mk"
+.include "../../mk/x11.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

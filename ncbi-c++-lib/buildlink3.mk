@@ -35,5 +35,6 @@ BUILDLINK_PKGSRCDIR.ncbi_cxx-lib?=	../../wip/ncbi-c++-lib
 #.include "../../wip/ncbi-lib/buildlink3.mk"
 #.include "../../x11/fltk/buildlink3.mk"
 #.include "../../x11/wxGTK/buildlink3.mk"
+.include "../../mk/x11.buildlink3.mk"
 
 BUILDLINK_DEPTH:=     ${BUILDLINK_DEPTH:S/+$//}

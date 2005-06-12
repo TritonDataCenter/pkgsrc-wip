@@ -11,8 +11,6 @@ MAINTAINER=	tech-pkg@NetBSD.org
 HOMEPAGE=	http://mupen64.emulation64.com/
 COMMENT=	OpenGL Video plugin for mupen64 emulator
 
-USE_X11=	yes
-
 LIBS+=		${PTHREAD_LDFLAGS}
 
 pre-install:
@@ -22,4 +20,5 @@ pre-install:
 .include "../../graphics/Mesa/buildlink3.mk"
 .include "../../x11/gtk/buildlink3.mk"
 .include "../../mk/pthread.buildlink3.mk"
+.include "../../mk/x11.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

@@ -13,7 +13,6 @@ COMMENT=	Treetool is for displaying, editing, and printing phylogenetic trees
 DECOMPRESS_CMD=	${CAT}
 USE_TOOLS+=	gmake
 
-USE_X11=	yes
 MAKE_ENV+=	CFLAGS="-g -O0"
 
 post-extract:
@@ -36,4 +35,5 @@ do-install:
 	${INSTALL_DATA} ${WRKSRC}/treetool_release/font_map ${PREFIX}/share/misc/treetool/font_map
 
 .include "../../x11/xview-lib/buildlink3.mk"
+.include "../../mk/x11.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

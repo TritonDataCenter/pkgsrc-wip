@@ -15,4 +15,6 @@ BUILDLINK_DEPENDS.dumb+=	dumb>=0.9.2
 BUILDLINK_PKGSRCDIR.dumb?=	../../wip/dumb
 .endif	# DUMB_BUILDLINK3_MK
 
+.include "../../mk/x11.buildlink3.mk"
+
 BUILDLINK_DEPTH:=     ${BUILDLINK_DEPTH:S/+$//}

@@ -14,7 +14,6 @@ ONLY_FOR_PLATFORM=     Linux-*-* NetBSD-*-*
 
 GNU_CONFIGURE=	YES
 USE_TOOLS+=	gmake
-USE_X11=	YES
 
 CONFIGURE_ARGS+=	--with-gfxdrivers=all
 
@@ -30,4 +29,5 @@ CONFIGURE_ARGS+=	--with-gfxdrivers=all
 .include "../../graphics/freetype2/buildlink3.mk"
 
 .include "../../mk/pthread.buildlink3.mk"
+.include "../../mk/x11.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

@@ -21,5 +21,6 @@ BUILDLINK_PKGSRCDIR.edje?=	../../wip/edje
 .include "../../wip/embryo/buildlink3.mk"
 .include "../../wip/ecore/buildlink3.mk"
 .include "../../wip/evas/buildlink3.mk"
+.include "../../mk/x11.buildlink3.mk"
 
 BUILDLINK_DEPTH:=     ${BUILDLINK_DEPTH:S/+$//}

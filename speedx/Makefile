@@ -14,7 +14,6 @@ SITES_mercrain.s3m.zip=	http://www.modarchive.com/cgi-bin/download.cgi/M/
 
 GNU_CONFIGURE=	YES
 USE_TOOLS+=	gmake
-USE_X11=	YES
 
 post-build:
 # XXX should just use find and cpio instead, but cpio isn't on all systems
@@ -35,4 +34,5 @@ post-install:
 
 .include "../../graphics/png/buildlink3.mk"
 .include "../../audio/libmikmod/buildlink3.mk"
+.include "../../mk/x11.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

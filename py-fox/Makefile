@@ -10,7 +10,6 @@ MAINTAINER= 		pkg@burningsoda.com
 HOMEPAGE=		http://fxpy.sourceforge.net/
 COMMENT=		Python bindings for the FOX toolkit
 
-USE_X11=		YES
 PYDISTUTILSPKG=		YES
 
 pre-configure:
@@ -22,4 +21,5 @@ pre-configure:
 
 .include "../../x11/fox/buildlink3.mk"
 .include "../../lang/python/extension.mk"
+.include "../../mk/x11.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

@@ -20,7 +20,6 @@ COMMENT=		Non-linear video and audio editor and compositor (unofficial)
 #WRKSRC=			${WRKDIR}/cinelerra-1.2.0/cinelerra
 #WRKSRC=			${WRKDIR}/cinelerra-1.2.0
 WRKSRC=			${WRKDIR}/hvirtual
-USE_X11=		yes
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 USE_TOOLS+=		gmake
@@ -56,4 +55,5 @@ USE_TOOLS+=		gmake
 
 .include "../../devel/zlib/buildlink3.mk"
 .include "../../mk/pthread.buildlink3.mk"
+.include "../../mk/x11.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

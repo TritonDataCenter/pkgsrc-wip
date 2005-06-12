@@ -11,7 +11,6 @@ HOMEPAGE=		http://www.scsh.net/resources/graphics.html
 COMMENT=		Scx - a GUI library for scsh and Scheme 48
 
 USE_LIBTOOL=		yes
-USE_X11=		yes
 GNU_CONFIGURE=		yes
 
 CONFIGURE_ARGS+=	--with-scsh-includes=${PREFIX}/include
@@ -28,4 +27,5 @@ do-install:
 			 --layout fhs \
 			 --verbose
 
+.include "../../mk/x11.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
