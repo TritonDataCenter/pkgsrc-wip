@@ -36,7 +36,7 @@ do-install:
 	cd ${PREFIX} && ${FIND} -d chprofessional4.0.0  -type d -print | \
 	${SED} -e "s/^/@dirrm /" >>${PLIST_SRC}
 
-.include "../../mk/bsd.prefs.mk"
+.include "../../emulators/suse_linux/Makefile.application"
 
 .if ${OPSYS} == "NetBSD"
 DEPENDS+=	suse_compat-[0-9]*:../../emulators/${SUSE_DIR_PREFIX}_compat
