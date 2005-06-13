@@ -27,5 +27,5 @@ do-install:
 
 .include "../../net/netatalk/buildlink3.mk"
 
-.include "../../mk/bsd.pkg.install.mk"
+.include "../../mk/install/bsd.pkginstall.mk"
 .include "../../mk/bsd.pkg.mk"

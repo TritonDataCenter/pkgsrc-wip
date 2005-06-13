@@ -39,7 +39,7 @@ MESSAGE_SUBST+= 	ICUSER=${INTERCHANGE_USER}	\
 			ICDIR=${INTERCHANGE_DIR}
 
 .include "../../mk/bsd.prefs.mk"
-.include "../../mk/bsd.pkg.install.mk"
+.include "../../mk/install/bsd.pkginstall.mk"
 
 USE_PERL5=	# defined
 
