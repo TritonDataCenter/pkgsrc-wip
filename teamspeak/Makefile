@@ -11,7 +11,6 @@ MAINTAINER=		rillig@NetBSD.org
 HOMEPAGE=		ftp://ftp.freenet.de/pub/4players/teamspeak.org/releases/
 COMMENT=		Talk to other people over the internet
 
-USE_BUILDLINK3=		yes
 NO_BUILD=		yes
 LICENSE=		fee-based-commercial-use
 

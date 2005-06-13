@@ -10,8 +10,6 @@ MAINTAINER=		dmb@except.one.pl
 HOMEPAGE=		http://os.cyberheatinc.com/mod_choke.php
 COMMENT=		Limit resource usage by greedy clients
 
-USE_BUILDLINK3=		yes
-
 APACHE_MODULE_NAME=	mod_choke.so
 
 .include "../../www/apache/module.mk"

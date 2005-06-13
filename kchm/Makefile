@@ -11,7 +11,6 @@ HOMEPAGE=		http://kchmnew.sourceforge.net/
 COMMENT=		KDE CHM file viewer
 
 GNU_CONFIGURE=	YES
-USE_BUILDLINK3=	YES
 USE_LIBTOOL=	YES
 USE_TOOLS+=	gmake
 

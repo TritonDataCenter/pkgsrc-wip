@@ -9,7 +9,6 @@ MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://cplusplus.sourceforge.net/
 COMMENT=		Portable and highly optimized class framework for C++
 
-USE_BUILDLINK3=		yes
 USE_PKGLOCALEDIR=	yes
 PKGCONFIG_OVERRIDE+=	${WRKSRC}/src/libccgnu2.pc.in
 PKGCONFIG_OVERRIDE+=	${WRKSRC}/src/libccext2.pc.in

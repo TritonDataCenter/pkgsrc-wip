@@ -11,7 +11,6 @@ HOMEPAGE=		http://www.ncbi.nlm.nih.gov/IEB/ToolBox/index.cgi
 COMMENT=		Libraries needed by apps dependent on NCBI C++ toolkit
 
 CONFLICTS=		ncbi_cxx-lib-[0-9]*
-USE_BUILDLINK3=		YES
 
 GNU_CONFIGURE=		YES
 USE_TOOLS+=		gmake

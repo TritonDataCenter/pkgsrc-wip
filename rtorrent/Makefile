@@ -9,7 +9,6 @@ HOMEPAGE=	http://libtorrent.rakshasa.no/
 COMMENT=	Ncurses based torrent client with support for sessions
 
 USE_LIBTOOL=		yes
-USE_BUILDLINK3=		yes
 GNU_CONFIGURE=		yes
 USE_TOOLS+=		gmake
 

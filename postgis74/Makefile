@@ -11,8 +11,6 @@ MAINTAINER=		hdp@cs.nmsu.edu
 HOMEPAGE=		http://postgis.refractions.net/
 COMMENT=		Spatial database capabilities for PostgreSQL
 
-USE_BUILDLINK3=		YES
-
 # XXX - Override these so they work correctly with Makefile.common.
 #       The last two don't really need changing, except that Makefile.common
 #       uses .. rather than ../../databases; the former will not work from
@@ -24,7 +22,6 @@ PATCHDIR=		${.CURDIR}/../../databases/postgresql74/patches
 .include "../../databases/postgresql74/Makefile.common"
 
 USE_PERL5=		YES
-USE_BUILDLINK3=		YES
 
 # Add postgis to the postgresql distfile
 DISTFILES+=      	postgis-${VERSION}.tar.gz ${DISTNAME}${EXTRACT_SUFX}

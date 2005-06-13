@@ -9,7 +9,6 @@ COMMENT=	tool to collect news and mail packets for offline reading
 MAINTAINER=	schwarz@netbsd.org
 
 GNU_CONFIGURE=	YES
-USE_BUILDLINK3=	YES
 
 INSTALLATION_DIRS=	bin man/man1
 

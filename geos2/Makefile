@@ -10,7 +10,6 @@ MAINTAINER=		mchittur@cs.nmsu.edu
 HOMEPAGE=		http://geos.refractions.net/
 COMMENT=		C++ port of the Java Topology Suite (JTS)
 
-USE_BUILDLINK3=		YES
 USE_PKGLOCALEDIR=	YES
 USE_LIBTOOL=		YES
 LIBTOOL_OVERRIDE=	${WRKSRC}/libtool

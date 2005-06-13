@@ -11,8 +11,6 @@ COMMENT=		Spatial database capabilities for PostgreSQL
 
 CONFLICTS=		postgis-[0-9]*
 
-USE_BUILDLINK3=		YES
-
 # XXX - Override these so they work correctly with Makefile.common.
 #       The last two don't really need changing, except that Makefile.common
 #       uses .. rather than ../../databases; the former will not work from
@@ -27,7 +25,6 @@ MASTER_SITES+=  	${PGSQL_SITES:=source/v${DIST_VERS}/}
 MASTER_SITES+=  	http://postgis.refractions.net/
 
 USE_PERL5=		YES
-USE_BUILDLINK3=		YES
 
 PGSQL_VERSION_REQD=	80
 
