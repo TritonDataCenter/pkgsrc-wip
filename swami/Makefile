@@ -22,6 +22,6 @@ LDFLAGS+=		${EXPORT_SYMBOLS_LDFLAGS}
 .include "../../devel/popt/buildlink3.mk"
 .include "../../graphics/png/buildlink3.mk"
 .include "../../x11/gtk/buildlink3.mk"
-.include "../../wip/fluidsynth/buildlink3.mk"
+.include "../../audio/fluidsynth/buildlink3.mk"
 .include "../../mk/pthread.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
