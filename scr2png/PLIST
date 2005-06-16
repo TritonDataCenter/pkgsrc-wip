@@ -1,0 +1,4 @@
+@comment $NetBSD$
+bin/scr2png
+man/man1/scr2png.1
+share/scr2png/cp850-8x16.fnt
