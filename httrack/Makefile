@@ -1,8 +1,8 @@
 # $NetBSD$
 #
 
-DISTNAME=	httrack-3.32-2
-WRKSRC=         ${WRKDIR}/httrack-3.32.03
+DISTNAME=	httrack-3.33
+WRKSRC=         ${WRKDIR}/httrack-3.33.16
 CATEGORIES=	www
 MASTER_SITES=	http://www.httrack.com/ \
 		http://httrack.free.fr/mirror/
