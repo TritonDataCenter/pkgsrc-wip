@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		aolserver-4.0.8-src
+DISTNAME=		aolserver-4.0.10-src
 PKGNAME=		${DISTNAME:S/-src//}
 CATEGORIES=		www
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=aolserver/}
@@ -10,7 +10,7 @@ MAINTAINER=		iharding@destinydata.com
 HOMEPAGE=		http://www.aolserver.com/
 COMMENT=		America Online's open source web server
 
-MAKE_FLAGS=		NSHOME=${WRKSRC} TCL_CC="gcc -nostartfiles"
+MAKE_FLAGS=		NSHOME=${WRKSRC}
 CONFIGURE_ARGS+=	--with-tcl=${BUILDLINK_PREFIX.tcl}/lib
 
 WRKSRC=			${WRKDIR}/${PKGNAME}
