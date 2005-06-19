@@ -1,0 +1,4 @@
+@comment $NetBSD$
+man/man5/metalog.conf.5
+man/man8/metalog.8
+sbin/metalog
