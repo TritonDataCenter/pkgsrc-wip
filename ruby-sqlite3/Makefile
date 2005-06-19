@@ -13,11 +13,18 @@ COMMENT=	SQLite3/Ruby Interface
 RUBY_HAS_ARCHLIB=	yes
 USE_RUBY_SETUP=		yes
 
+DOCS=	ChangeLog LICENSE README
+
+.include "../../databases/sqlite3/buildlink3.mk"
+.include "../../devel/swig13/buildlink3.mk"
+.include "../../lang/ruby/modules.mk"
+
 post-install:
 	${INSTALL_DATA_DIR} ${RUBY_DOCDIR}/sqlite3/api
+.for f in ${DOCS}
+	${CP} ${WRKSRC}/${f} ${RUBY_DOCDIR}/sqlite3/
+.endfor
 	cd ${WRKSRC}/doc && ${PAX} -rw -pp * ${RUBY_DOCDIR}/sqlite3
 	cd ${WRKSRC}/api && ${PAX} -rw -pp * ${RUBY_DOCDIR}/sqlite3/api
 
-.include "../../databases/sqlite3/buildlink3.mk"
-.include "../../lang/ruby/modules.mk"
 .include "../../mk/bsd.pkg.mk"
