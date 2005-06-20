@@ -7,7 +7,7 @@ CATEGORIES=	www
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=aolserver/}
 
 MAINTAINER=	iharding@destinydata.com
-HOMEPAGE=	www.aolserver.com
+HOMEPAGE=	http://www.aolserver.com/
 COMMENT=	Postgres database access module for aolserver
 
 MAKE_FLAGS+=	POSTGRES=${PREFIX} INST=/${PREFIX}/include/nsd \
