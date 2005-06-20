@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.1817 2005/06/20 00:21:06 hisazumi Exp $
+# $Id: Makefile,v 1.1818 2005/06/20 00:29:59 hisazumi Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -889,6 +889,7 @@ SUBDIR+=	sawfish-gtk2
 SUBDIR+=	scare
 SUBDIR+=	scite
 SUBDIR+=	scm
+SUBDIR+=	scmail
 SUBDIR+=	scourge
 SUBDIR+=	scr2png
 SUBDIR+=	scsh-install-lib
