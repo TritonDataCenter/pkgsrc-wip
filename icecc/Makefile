@@ -48,8 +48,7 @@ SUBST_FILES.path+=	icemergeprefs-0.5/icemergeprefs.py
 SUBST_SED.path=		"s|/usr/local|${PREFIX}|g"
 SUBST_MESSAGE.path=	"Fixing hardcoded paths."
 
-# Would like to get this directly out of the vim package eventually..
-VIM_SUBDIR?=		vim63
+# VIM_SUBDIR comes from "editors/vim-share/version.mk"
 PLIST_SUBST+=		VIM_SUBDIR=${VIM_SUBDIR}
 
 do-configure:
@@ -69,6 +68,7 @@ post-install:
 	${INSTALL_DATA} ${WRKSRC}/icewm4vim/icewm.vim ${PREFIX}/share/vim/${VIM_SUBDIR}/ftplugin/iceprefs.vim
 	${INSTALL_DATA} ${WRKSRC}/icewm4vim/syntax/icewm.vim ${PREFIX}/share/vim/${VIM_SUBDIR}/syntax/iceprefs.vim
 
+.include "../../editors/vim-share/version.mk"
 .include "../../lang/python/application.mk"
 .include "../../x11/py-qt3-base/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
