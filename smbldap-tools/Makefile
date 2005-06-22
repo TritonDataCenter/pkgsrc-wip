@@ -13,12 +13,13 @@ COMMENT=		Set of ldap administration scripts for samba
 DEPENDS+=		samba>=3.0.14anb1:../../net/samba
 DEPENDS+=		p5-perl-ldap>=0.32.02:../../databases/p5-perl-ldap
 DEPENDS+=		p5-Crypt-SmbHash>=0.12:../../wip/p5-Crypt-SmbHash
+DEPENDS+=		p5-Digest-SHA1>=2.10nb1:../../security/p5-Digest-SHA1
 
 EGDIR=			${PREFIX}/share/examples/smbldap-tools
 CONFS=			smbldap.conf smbldap_bind.conf
 
 .for FILE in ${CONFS}
-CONF_FILES+=		${EGDIR}/${FILE} ${PKG_SYSCONFDIR}/${FILE}
+CONF_FILES+=		${EGDIR}/${FILE} ${PKG_SYSCONFDIR}/smbldap-tools/${FILE}
 .endfor
 
 REPLACE_PERL=		"smbldap-groupadd"
@@ -50,11 +51,10 @@ do-build:
 
 pre-install:
 	${RM} ${WRKSRC}/smbldap*.orig
-
-post-install:
+	${RM} ${WRKSRC}/smbldap-tools.spec
+	${MKDIR} ${PREFIX}/etc/smbldap-tools
 	${MKDIR} ${PREFIX}/share/smbldap-tools
 	${CP} ${WRKSRC}/configure.pl ${PREFIX}/share/smbldap-tools
 	${CP} ${WRKSRC}/doc/smbldap-* ${PREFIX}/share/smbldap-tools
-	${RM} ${PREFIX}/sbin/smbldap-tools.spec
 
 .include "../../mk/bsd.pkg.mk"
