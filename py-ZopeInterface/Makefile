@@ -11,7 +11,6 @@ MAINTAINER=		sifu@0xx0.net
 HOMEPAGE=		http://www.zope.org/
 COMMENT=		The zope.interface package used in Zope 3 and Twisted
 
-PY_PATCHPLIST=		yes
 PYDISTUTILSPKG=		yes
 
 .include "../../lang/python/extension.mk"
