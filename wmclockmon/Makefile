@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	wmclockmon-0.8.1
-CATEGORIES=	x11 sysutils
+CATEGORIES=	time x11
 MASTER_SITES=   http://tnemeth.free.fr/projets/programmes/
 
 MAINTAINER=	poff@sixbit.org
