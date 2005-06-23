@@ -10,7 +10,7 @@ MAINTAINER=		sifu@0xx0.net
 HOMEPAGE=		http://www.twistedmatrix.com/
 COMMENT=		Event-driven networking framework for Python
 
-DEPENDS+=               ${PYPKGPREFIX}-ZopeInterface>=3.0.1:../../wip/py-ZopeInterface
+DEPENDS+=               ${PYPKGPREFIX}-ZopeInterface>=3.0.1:../../devel/py-ZopeInterface
 
 PY_PATCHPLIST=		yes
 PYDISTUTILSPKG=		yes
