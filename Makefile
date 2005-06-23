@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.1824 2005/06/23 07:33:10 marttikuparinen Exp $
+# $Id: Makefile,v 1.1825 2005/06/23 13:19:32 emil_s Exp $
 # $NetBSD: for pkglint$
 
 COMMENT=	WIP pkgsrc packages
@@ -305,6 +305,7 @@ SUBDIR+=	gnome-jabber
 SUBDIR+=	gnump3d
 SUBDIR+=	gnunet
 SUBDIR+=	gnupoc-makesis
+SUBDIR+=	gofish
 SUBDIR+=	goldwater
 SUBDIR+=	gotmail
 SUBDIR+=	gov2
