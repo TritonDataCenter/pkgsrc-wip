@@ -11,6 +11,6 @@ COMMENT=	Windowmaker dockapp for time/date
 
 GNU_CONFIGURE=	yes
 
-.include "../../x11/gtk/buildlink3.mk"
 .include "../../mk/x11.buildlink3.mk"
+.include "../../x11/gtk/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
