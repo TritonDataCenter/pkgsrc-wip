@@ -1,0 +1,3 @@
+@comment $NetBSD$
+bin/stepmania
+bin/GtkModule.so
