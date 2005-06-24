@@ -12,7 +12,6 @@ COMMENT=		Event-driven networking framework for Python
 
 DEPENDS+=               ${PYPKGPREFIX}-ZopeInterface>=3.0.1:../../devel/py-ZopeInterface
 
-PY_PATCHPLIST=		yes
 PYDISTUTILSPKG=		yes
 TWISTED_VERSION=	2.0.1
 
