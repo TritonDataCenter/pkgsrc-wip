@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=		File-Slurp-9999.07
+DISTNAME=		File-Slurp-9999.09
 PKGNAME=		p5-${DISTNAME}
 SVR4_PKGNAME=		p5fsl
 CATEGORIES=		devel perl5
