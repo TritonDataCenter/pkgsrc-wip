@@ -10,8 +10,8 @@ MAINTAINER=	hiramatu@boreas.dti.ne.jp
 HOMEPAGE=	http://search.cpan.org/dist/File-Find-Rule/
 COMMENT=	Alternative interface to File::Find
 
-DEPENDS+=	p5-Number-Compare>=0.01:../../wip/p5-Number-Compare
-DEPENDS+=	p5-Text-Glob>=0.06:../../wip/p5-Text-Glob
+DEPENDS+=	p5-Number-Compare>=0.01:../../math/p5-Number-Compare
+DEPENDS+=	p5-Text-Glob>=0.06:../../textproc/p5-Text-Glob
 
 PKG_INSTALLATION_TYPES=	overwrite pkgviews
 
