@@ -1,5 +1,4 @@
 @comment $NetBSD$
 bin/WEPCrack.pl
 bin/WeakIVGen.pl
-bin/prism-decode.pl
-bin/prism-getIV.pl
+bin/pcap-getIV.pl
