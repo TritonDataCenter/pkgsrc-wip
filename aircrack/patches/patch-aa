@@ -6,7 +6,7 @@ $NetBSD$
 -CFLAGS          = -s -W -Wall -O2
  OPTFLAGS        = -D_FILE_OFFSET_BITS=64
  
--prefix          = /usr/pkg
+-prefix          = /usr/local
 +prefix          = ${PREFIX}
  bindir          = $(prefix)/bin
  datadir         = $(prefix)/share
