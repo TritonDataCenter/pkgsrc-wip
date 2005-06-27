@@ -2,17 +2,17 @@
 #
 # $NetBSD$
 #
-# PROVIDE: spamd
+# PROVIDE: pfspamd
 # REQUIRE: DAEMON
 #
 
 . /etc/rc.subr
 
-name="spamd"
+name="pfspamd"
 rcvar=$name
-command="@PREFIX@/libexec/${name}"
+command="@PREFIX@/libexec/spamd"
 
-spamd_postcmd()
+pfspamd_postcmd()
 {
 	if [ -x @PREFIX@/libexec/spamd-setup ]; then
 		@PREFIX@/libexec/spamd-setup
