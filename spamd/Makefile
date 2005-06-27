@@ -8,7 +8,6 @@ MAINTAINER=		peter@pointless.nl
 HOMEPAGE=		http://www.benzedrine.cx/relaydb.html
 COMMENT=		OpenBSD spamd daemon which rejects false mail
 
-CONFLICTS=		spamassassin-[1-9]*
 ONLY_FOR_PLATFORM=	NetBSD-[2-9]*-*
 
 USE_PKGINSTALL=		yes
@@ -18,7 +17,7 @@ PKG_USERS=		_spamd:_spamd::Spam\\ Daemon:${VARBASE}/chroot/spamd:/sbin/nologin
 PKG_GROUPS=		_spamd
 
 OWN_DIRS=		${VARBASE}/chroot/spamd
-RCD_SCRIPTS=            spamd
+RCD_SCRIPTS=            pfspamd
 
 CONF_FILES=		${PREFIX}/share/examples/spamd/spamd.conf \
 			    ${PKG_SYSCONFDIR}/spamd.conf
