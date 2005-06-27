@@ -152,4 +152,3 @@ ${RUBY_EXAMPLESDIR}/bioruby/tdiary.rb
 ${RUBY_EXAMPLESDIR}/bioruby/tfastx2tab.rb
 ${RUBY_EXAMPLESDIR}/bioruby/vs-genes.rb
 @dirrm ${RUBY_EXAMPLESDIR}/bioruby
-

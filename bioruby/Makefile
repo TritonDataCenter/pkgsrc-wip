@@ -39,4 +39,3 @@ post-install:
 
 .include "../../lang/ruby/modules.mk"
 .include "../../mk/bsd.pkg.mk"
-
