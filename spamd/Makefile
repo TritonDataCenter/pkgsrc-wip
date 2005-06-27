@@ -8,6 +8,7 @@ MAINTAINER=		peter@pointless.nl
 HOMEPAGE=		http://www.benzedrine.cx/relaydb.html
 COMMENT=		OpenBSD spamd daemon which rejects false mail
 
+CONFLICTS=		spamassassin-[1-9]*
 ONLY_FOR_PLATFORM=	NetBSD-[2-9]*-*
 
 USE_PKGINSTALL=		yes
