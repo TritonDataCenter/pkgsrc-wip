@@ -1,0 +1,4 @@
+@comment $NetBSD$
+bin/relaydb
+man/cat8/relaydb.cat8
+man/man8/relaydb.8
