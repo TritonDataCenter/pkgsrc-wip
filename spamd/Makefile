@@ -6,7 +6,7 @@ MASTER_SITES=		http://nedbsd.nl/~ppostma/pf/
 
 MAINTAINER=		peter@pointless.nl
 HOMEPAGE=		http://www.benzedrine.cx/relaydb.html
-COMMENT=		OpenBSD spamd daemon which rejects false mail
+COMMENT=		OpenBSD spam deferral daemon
 
 ONLY_FOR_PLATFORM=	NetBSD-[2-9]*-*
 
