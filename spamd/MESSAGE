@@ -1,9 +1,0 @@
-===========================================================================
-$NetBSD$
-
-Don't forget to add the spamd ports to /etc/services:
-
-spamd		8025/tcp		# spamd(8)
-spamd-cfg	8026/tcp		# spamd(8) configuration
-
-===========================================================================
