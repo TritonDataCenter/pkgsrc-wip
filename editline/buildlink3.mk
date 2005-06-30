@@ -12,7 +12,7 @@ BUILDLINK_PACKAGES+=	editline
 
 .if !empty(EDITLINE_BUILDLINK3_MK:M+)
 BUILDLINK_DEPENDS.editline+=	editline>=20041207.2.9
-BUILDLINK_PKGSRCDIR.editline?=	../../new/editline
+BUILDLINK_PKGSRCDIR.editline?=	../../wip/editline
 .endif	# EDITLINE_BUILDLINK3_MK
 
 BUILDLINK_DEPTH:=     ${BUILDLINK_DEPTH:S/+$//}
