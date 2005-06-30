@@ -1,4 +1,6 @@
 @comment $NetBSD$
 bin/rtorrent
-share/doc/rtorrent/README
+man/man1/rtorrent.1
+share/doc/rtorrent/rtorrent.rc
+share/doc/rtorrent/faq.xml
 @dirrm share/doc/rtorrent
