@@ -1,8 +1,8 @@
 # $NetBSD$
 #
 
-DISTNAME=		libedit-20041207-2.9
-PKGNAME=		editline-20041207.2.9
+DISTNAME=		libedit-20050628-2.9
+PKGNAME=		editline-20050628.2.9
 CATEGORIES=		devel
 MASTER_SITES=		http://www.thrysoee.dk/editline/
 
@@ -11,9 +11,8 @@ HOMEPAGE=		http://www.thrysoee.dk/editline/
 COMMENT=		NetBSD Editline library (libedit) for generic line editing
 
 USE_LIBTOOL=		yes
-LIBTOOL_OVERRIDE=	${WRKSRC}/libtool
 GNU_CONFIGURE=		yes
 
-#INSTALLATION_DIRS+=	include/editline
+INSTALLATION_DIRS+=	include/editline
 
 .include "../../mk/bsd.pkg.mk"
