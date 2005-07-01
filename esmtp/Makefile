@@ -20,6 +20,8 @@ SUBST_STAGE.paths=	post-patch
 SUBST_FILES.paths=	sample.esmtprc
 SUBST_SED.paths=	-e 's,/usr/bin,${LOCALBASE}/bin,g'
 
+PTHREAD_OPTS+=	require
+
 EGDIR=	${PREFIX}/share/examples/esmtp
 
 post-install:
@@ -28,4 +30,5 @@ post-install:
 
 .include "../../mail/libesmtp/buildlink3.mk"
 .include "../../security/openssl/buildlink3.mk"
+.include "../../mk/pthread.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
