@@ -10,7 +10,6 @@ HOMEPAGE=		http://moc.daper.net/
 COMMENT=		Curses based console audio player
 
 GNU_CONFIGURE=		YES
-HAS_CONFIGURE=          YES
 
 # We require ncurses because with curses arrow key navigation is buggy
 CONFIGURE_ARGS+=        --with-ncurses
