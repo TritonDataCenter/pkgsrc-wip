@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	sipsak-0.8.12
+DISTNAME=	sipsak-0.8.13
 CATEGORIES=	net
 MASTER_SITES=	http://download.berlios.de/sipsak/
 
