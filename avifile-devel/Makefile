@@ -16,7 +16,7 @@ DEPENDS=	win32-codecs>=010122:../../multimedia/win32-codecs
 
 USE_TOOLS+=		gmake
 USE_LIBTOOL=		YES
-USE_LANGUAGE+=		c c++ fortran
+USE_LANGUAGES=		c c++ fortran
 
 .include "options.mk"
 
