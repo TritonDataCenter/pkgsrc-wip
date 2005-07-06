@@ -3,11 +3,11 @@
 DISTNAME=	mxterm_129
 PKGNAME=	${DISTNAME:S/_/-/}
 CATEGORIES=	wip
-MASTER_SITES=	http://inittab.netizenweb.com/downloads/
+MASTER_SITES=	http://www.unixdev.net/downloads/mxterm/129/
 
 MAINTAINER=	inittab@netizenweb.com
 #HOMEPAGE=	http://www.fh-wilhelmshaven.de/~akcaagaa/index_mxterm.html
-HOMEPAGE=	http://inittab.netizenweb.com/software.jsp
+HOMEPAGE=	http://www.unixdev.net/projects/mxterm
 COMMENT=	Motif XTerm
 
 GNU_CONFIGURE=	YES
