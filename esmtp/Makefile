@@ -17,7 +17,7 @@ GNU_CONFIGURE=	yes
 SUBST_CLASSES+=	paths
 SUBST_MESSAGE.paths=	"Fixing hardcoded paths."
 SUBST_STAGE.paths=	post-patch
-SUBST_FILES.paths=	sample.esmtprc
+SUBST_FILES.paths=	sample.esmtprc esmtprc.5
 SUBST_SED.paths=	-e 's,/usr/bin,${LOCALBASE}/bin,g'
 
 PTHREAD_OPTS+=	require
