@@ -88,6 +88,9 @@ lib/libpoppler.la
 lib/pkgconfig/poppler-glib.pc
 lib/pkgconfig/poppler-splash.pc
 lib/pkgconfig/poppler.pc
+share/doc/poppler/README
+share/doc/poppler/README-XPDF
+@dirrm share/doc/poppler
 @dirrm include/poppler/splash
 @dirrm include/poppler/goo
 @dirrm include/poppler/glib
