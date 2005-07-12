@@ -10,13 +10,13 @@ MAINTAINER=		reed@reedmedia.net
 HOMEPAGE=		http://www.gnome.org/projects/evince/
 COMMENT=		Document viewer for multiple formats like PDF and Postscript
 
-#BUILD_USES_MSGFMT=	yes
+BUILD_USES_MSGFMT=	yes
 
 GNU_CONFIGURE=		yes
 USE_DIRS+=		gnome2-1.5
 USE_TOOLS+=		gmake
 USE_LIBTOOL=		yes
-USE_MSGFMT_PLURALS=	YES
+USE_MSGFMT_PLURALS=	yes
 USE_PKGLOCALEDIR=	yes
 
 CONFIGURE_ENV+=		GCONF_SCHEMA_FILE_DIR="${PREFIX}/share/gconf/schemas/"
