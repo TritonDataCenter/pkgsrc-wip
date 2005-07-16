@@ -41,7 +41,6 @@ CONF_FILES=		${EGDIR}/${f} ${PKG_SYSCONFDIR}/${f}
 .endfor
 .undef f
 
-ACDIR=			${PREFIX}/share/examples/wmii/action
 ACFILES=		actions attach border clientupdate	\
 			close cnext cprev detach fnext fprev	\
 			fresize ftoggle	icons kbare kmove	\
@@ -51,6 +50,6 @@ ACFILES=		actions attach border clientupdate	\
 			pprev premove presize programs ptoggle  \
 			quit scr tab term www zoom
 .for f in ${ACFILES}
-CONF_FILES+=		${ACDIR}/${f} ${PKG_SYSCONFDIR}/action/${f}
+CONF_FILES+=		${EGDIR}/action/${f} ${PKG_SYSCONFDIR}/action/${f}
 .endfor
 .undef f
