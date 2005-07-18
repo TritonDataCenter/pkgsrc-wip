@@ -9,13 +9,11 @@ MAINTAINER=	adrianp@NetBSD.org
 HOMEPAGE=	http://www.sendmail.org/
 COMMENT=	Something to do with mail
 
-.include "../../mk/bsd.prefs.mk"
-
 CONFLICTS+=	postfix-[0-9]* fastforward>=0.51nb2 sendmail-[0-9]*
 GNU_CONFIGURE=	YES
 USE_PKGINSTALL=	YES
 PTHREAD_OPTS+=	require
-VERSION=	0.0.Alpha3.0
+VERSION=	0.0.Alpha8.0
 
 PKG_GROUPS=     smxs smxq smxc smxm smx
 PKG_USERS=      smxs:smxs::Sendmail\\ X\\ SMTPS
@@ -29,6 +27,6 @@ CONFIGURE_ARGS+=	--disable-SASL
 .include "options.mk"
 
 .include "../../security/openssl/buildlink3.mk"
-.include "../../databases/db4/buildlink3.mk"
+#.include "../../databases/db4/buildlink3.mk"
 .include "../../mk/pthread.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

@@ -3,10 +3,6 @@
 PKG_OPTIONS_VAR=	PKG_OPTIONS.sendmailX
 PKG_SUPPORTED_OPTIONS=	starttls sasl2
 
-.if !defined(PKG_OPTIONS.sendmailX)
-PKG_DEFAULT_OPTIONS+=	starttls
-.endif
-
 .include "../../mk/bsd.options.mk"
 
 ###
