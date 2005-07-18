@@ -5,10 +5,10 @@ DISTNAME=	base
 PKGNAME=	tex-xmltex-1.9
 WRKSRC=		${WRKDIR}/base
 CATEGORIES=	textproc
-MASTER_SITES=	ftp://ftp.tex.ac.uk/tex-archive/macros/xmltex/
+MASTER_SITES=	${MASTER_SITE_TEX_CTAN:=macros/xmltex/}
 EXTRACT_SUFX=	.zip
 
-MAINTAINER=	minskim@bawi.org
+MAINTAINER=	minskim@NetBSD.org
 HOMEPAGE=	http://www.dcarlisle.demon.co.uk/xmltex/manual.html
 COMMENT=	Non-validating XML parser implemented in TeX
 
