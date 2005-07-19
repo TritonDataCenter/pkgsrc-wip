@@ -1,7 +1,7 @@
 # $NetBSD$
 
 PKG_OPTIONS_VAR=	PKG_OPTIONS.sendmailX
-PKG_SUPPORTED_OPTIONS=	tls sasl2
+PKG_SUPPORTED_OPTIONS=	tls sasl
 
 .include "../../mk/bsd.options.mk"
 
@@ -17,7 +17,7 @@ CFLAGS+=		-DSM_USE_TLS
 ###
 ### Use SASLv2 for SMTP AUTH
 ###
-.if !empty(PKG_OPTIONS:Msasl2)
+.if !empty(PKG_OPTIONS:Msasl)
 .	include "../../security/cyrus-sasl2/buildlink3.mk"
 CONFIGURE_ARGS+=	--enable-SASL
 CFLAGS+=		-DSM_USE_SASL

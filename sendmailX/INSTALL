@@ -3,12 +3,7 @@
 # directories and files
 SMXQD=@VARBASE@/spool/smx
 DEFEDB=${SMXQD}/defedb
-SMXETC=/etc/smx
-MT=@SMXETC@/mt
 LOGDIR=${SMXQD}
-
-# get the hostname
-MYHOST=`@HOSTNAME@`
 
 case ${STAGE} in
 
@@ -54,15 +49,6 @@ POST-INSTALL)
 	${CHMOD} 0700 ${SMXQD}/ibdb 
 	${CHMOD} 0700 ${SMXQD}/ibdb/ibdb
 	${CHMOD} 0750 ${SMXQD}/smtps 
-
-	# create initial mailertable
-	${CAT} > ${MT} <<EOF
-local.host	lmtp:
-${MYHOST}	lmtp:
-EOF
-
-	${CHMOD} 0644 ${MT}
-	${CHOWN} smxm:smxm ${MT}
 
 	;;
 

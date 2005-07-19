@@ -1,0 +1,4 @@
+# $NetBSD$
+
+local.host	lmtp:                 
+localhost	lmtp:

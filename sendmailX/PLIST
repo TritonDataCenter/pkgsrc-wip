@@ -17,5 +17,6 @@ sbin/mcp
 share/examples/smX/Makefile
 share/examples/smX/aliases
 share/examples/smX/smx.conf
+share/examples/smX/mt
 @dirrm include/smX
 @dirrm share/examples/smX
