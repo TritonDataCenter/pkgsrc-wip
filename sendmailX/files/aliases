@@ -1,0 +1,6 @@
+# $NetBSD$
+
+# Replace user with a valid user who is responsible for this MTS
+postmaster:	user                  
+root:		user                          
+user:		local:
