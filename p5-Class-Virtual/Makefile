@@ -10,7 +10,7 @@ HOMEPAGE=	http://search.cpan.org/dist/Class-Virtual/
 COMMENT=	Base class for virtual base classes in Perl
 
 BUILD_DEPENDS=	p5-Class-Data-Inheritable>=0.02:../../devel/p5-Class-Data-Inheritable
-DEPENDS+=	p5-Class-ISA>=0.31:../../devel/p5-Class-ISA
+DEPENDS+=	p5-Class-ISA>=0.31:../../wip/p5-Class-ISA
 DEPENDS+=	p5-Carp-Assert>=0.10:../../devel/p5-Carp-Assert
 DEPENDS+=	p5-Test-Simple>=0.50:../../devel/p5-Test-Simple
 
