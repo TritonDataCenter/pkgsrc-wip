@@ -12,7 +12,7 @@ COMMENT=		Game to measure your typing speed, with network mode
 
 MAKEFILE=		${FILESDIR}/Makefile
 
-CONFDIR=		${PKG_SYSCONFDIR}/typespeedrc
+CONF_FILES=		${PKG_SYSCONFDIR}/typespeedrc
 
 pre-patch:
 	${MV} ${WRKSRC}/typespeed.1 ${WRKSRC}/typespeed.6
