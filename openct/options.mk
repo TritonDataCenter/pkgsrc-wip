@@ -1,7 +1,7 @@
 # $NetBSD$
 
 PKG_OPTIONS_VAR=	PKG_OPTIONS.openct
-PKG_SUPPORTED_OPTIONS=	pcsc-lite
+PKG_SUPPORTED_OPTIONS=	pcsc-lite usb
 
 .include "../../mk/bsd.options.mk"
 
@@ -9,4 +9,8 @@ PKG_SUPPORTED_OPTIONS=	pcsc-lite
 .include "../../wip/pcsc-lite/buildlink3.mk"
 .else
 CONFIGURE_ARGS+=	--with-pcsclite=no
+.endif
+
+.if !empty(PKG_OPTIONS:Musb)
+.include "../../devel/libusb/buildlink3.mk"
 .endif
