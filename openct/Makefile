@@ -22,6 +22,7 @@ RCD_SCRIPTS=		openct
 MAKE_DIRS+=		${VARBASE}/openct
 MAKE_DIRS+=		${VARBASE}/openct/run
 MAKE_DIRS+=		${VARBASE}/openct/run/openct
+CONF_FILES+=		${EGDIR}/openct.conf ${PKG_SYSCONFDIR}/openct.conf
 
 post-install:
 	${INSTALL_DATA_DIR} ${EGDIR}
