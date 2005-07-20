@@ -5,7 +5,7 @@ DISTNAME=       aop-0.6
 CATEGORIES=     wip games
 MASTER_SITES=   http://raffi.at/code/aop/
 
-MAINTAINER= reilles@loria.fr
+MAINTAINER= tonio@NetBSD.org
 HOMEPAGE=   http://raffi.at/view/code/aop/
 COMMENT=    Aop is a curses based arcade game with only 64 lines of sourcecode
 

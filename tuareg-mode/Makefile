@@ -6,7 +6,7 @@ CATEGORIES=		wip devel editors
 MASTER_SITES=		http://www-rocq.inria.fr/~acohen/tuareg/mode/
 EXTRACT_SUFX=		.tar.bz2
 
-MAINTAINER=		reilles@loria.fr
+MAINTAINER=		tonio@NetBSD.org
 HOMEPAGE=		http://www-rocq.inria.fr/~acohen/tuareg/
 COMMENT=		GNU Emacs/XEmacs major mode for editing Caml and OCaml programs
 
