@@ -1,0 +1,3 @@
+$NetBSD$
+To-do list for pcsc-lite
+- check why aclocal cant be run and fix it
