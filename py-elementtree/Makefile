@@ -1,11 +1,10 @@
 # $NetBSD$
 #
 
-DISTNAME=		elementtree-1.2a5-20031115
-PKGNAME=		${PYPKGPREFIX}-${DISTNAME:S/-20031115//}
+DISTNAME=		elementtree-1.2.6-20050316
+PKGNAME=		${PYPKGPREFIX}-${DISTNAME:S/-20050316//}
 CATEGORIES=		textproc
 MASTER_SITES=		http://effbot.org/downloads/
-EXTRACT_SUFX=		.zip
 
 MAINTAINER=		recht@NetBSD.org
 HOMEPAGE=		http://effbot.org/zone/element.htm
