@@ -1,11 +1,10 @@
 # $NetBSD$
-#
 
 DISTNAME=     emacs-jabber-0.6.1
 CATEGORIES=   chat
 MASTER_SITES= ${MASTER_SITE_SOURCEFORGE:=emacs-jabber/}
 
-MAINTAINER=   reilles@loria.fr
+MAINTAINER=   tonio@NetBSD.org
 HOMEPAGE=     http://intellectronica.net/emacs-jabber/
 COMMENT=      Minimal jabber client for emacs
 
