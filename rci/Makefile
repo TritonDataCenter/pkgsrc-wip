@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	rci-20050720
-CATEGORIES=	wip
+CATEGORIES=	shells
 MASTER_SITES=	http://wmi.modprobe.de/snaps/
 EXTRACT_SUFX=	.tar.bz2
 
