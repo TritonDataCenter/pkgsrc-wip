@@ -5,7 +5,7 @@ CATEGORIES=	mail
 MASTER_SITES=	http://www.libspf2.org/patch/
 
 MAINTAINER=	adrianp@NetBSD.org
-HOMEPAGE=	http://www.acme.com/software/spfmilter/
+HOMEPAGE=	http://www.libspf2.org/
 COMMENT=	Implementation of the Sender Policy Framework (SPF) as a milter
 
 GNU_CONFIGURE=	YES
