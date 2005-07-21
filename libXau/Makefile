@@ -20,5 +20,5 @@ GNU_CONFIGURE=		yes
 PKGCONFIG_OVERRIDE+=	xau.pc.in
 
 .include "../../wip/xproto/buildlink3.mk"
-.include "../../devel/pkgconfig/buildlink3.mk"
+.include "../../devel/pkg-config/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

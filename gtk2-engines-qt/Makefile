@@ -25,6 +25,6 @@ MAKE_ENV+=		QTDIR=${QTDIR}
 MAKE_FLAGS+=		QTDIR=${QTDIR}
 
 .include "../../x11/gtk2/buildlink3.mk"
-.include "../../devel/pkgconfig/buildlink3.mk"
+.include "../../devel/pkg-config/buildlink3.mk"
 .include "../../x11/qt3-libs/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

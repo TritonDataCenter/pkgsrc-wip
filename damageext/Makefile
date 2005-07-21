@@ -16,6 +16,6 @@ GNU_CONFIGURE=		yes
 
 PKGCONFIG_OVERRIDE+=	damageext.pc.in
 
-.include "../../devel/pkgconfig/buildlink3.mk"
+.include "../../devel/pkg-config/buildlink3.mk"
 .include "../../x11/fixesext/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

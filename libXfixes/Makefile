@@ -19,5 +19,5 @@ PKGCONFIG_OVERRIDE+=	xfixes.pc.in
 
 .include "../../wip/libX11/buildlink3.mk"
 .include "../../x11/fixesext/buildlink3.mk"
-.include "../../devel/pkgconfig/buildlink3.mk"
+.include "../../devel/pkg-config/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

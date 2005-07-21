@@ -93,7 +93,7 @@ SUBST_FILES.dsp=	ffmpeg/libavformat/audio.c \
 SUBST_SED.dsp=		-e 's|/dev/dsp|${DEVOSSSOUND}|'
 .include "../../converters/libiconv/buildlink3.mk"
 CONFIGURE_ARGS+=	--with-iconv=${BUILDLINK_PREFIX.iconv}
-.include "../../devel/pkgconfig/buildlink3.mk"
+.include "../../devel/pkg-config/buildlink3.mk"
 .include "../../devel/zlib/buildlink3.mk"
 .include "../../fonts/Xft2/buildlink3.mk"
 .include "../../graphics/freetype2/buildlink3.mk"

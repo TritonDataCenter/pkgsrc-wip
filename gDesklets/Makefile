@@ -31,7 +31,7 @@ post-install:
 	${INSTALL_DATA_DIR} ${PREFIX}/share/gdesklets/Displays
 
 .include "../../devel/GConf2/schemas.mk"
-.include "../../devel/pkgconfig/buildlink3.mk"
+.include "../../devel/pkg-config/buildlink3.mk"
 .include "../../lang/python/application.mk"
 .include "../../sysutils/libgtop2/buildlink3.mk"
 .include "../../x11/gtk2/buildlink3.mk"

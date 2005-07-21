@@ -22,7 +22,7 @@ PKG_SYSCONFSUBDIR=	matchbox
 EGDIR=			${PREFIX}/share/examples/matchbox-desktop
 CONF_FILES=		${EGDIR}/mbdesktop_modules ${PKG_SYSCONFDIR}/mbdesktop_modules
 
-.include "../../devel/pkgconfig/buildlink3.mk"
+.include "../../devel/pkg-config/buildlink3.mk"
 .include "../../devel/libmatchbox/buildlink3.mk"
 .include "../../x11/startup-notification/buildlink3.mk"
 .include "../../mk/x11.buildlink3.mk"

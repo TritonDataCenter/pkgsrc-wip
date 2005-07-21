@@ -53,6 +53,6 @@ do-install:
 	${INSTALL_DATA} ${XMLCONFIG} ${EGDIR}
 
 .include "../../devel/glib2/buildlink3.mk"
-.include "../../devel/pkgconfig/buildlink3.mk"
+.include "../../devel/pkg-config/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
 

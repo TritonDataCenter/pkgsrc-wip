@@ -95,7 +95,7 @@ MESSAGE_SRC+=		${WRKDIR}/.MESSAGE_SRC.inet6
 INSTALL_UNSTRIPPED=YES
 .endif
 
-.include "../../devel/pkgconfig/buildlink3.mk"
+.include "../../devel/pkg-config/buildlink3.mk"
 .include "../../mk/pthread.buildlink3.mk"
 .include "../../wip/tre/buildlink3.mk"
 

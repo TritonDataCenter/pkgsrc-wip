@@ -27,7 +27,7 @@ USE_LIBTOOL=		yes
 
 PKGCONFIG_OVERRIDE+=	xt.pc.in
 
-.include "../../devel/pkgconfig/buildlink3.mk"
+.include "../../devel/pkg-config/buildlink3.mk"
 .include "../../wip/libICE/buildlink3.mk"
 .include "../../wip/libSM/buildlink3.mk"
 .include "../../wip/libX11/buildlink3.mk"

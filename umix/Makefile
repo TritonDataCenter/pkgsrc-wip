@@ -15,7 +15,7 @@ USE_TOOLS+=		gmake automake
 
 PLIST_SUBST+=           DISTNAME=${DISTNAME}
 
-.include "../../devel/pkgconfig/buildlink3.mk"
+.include "../../devel/pkg-config/buildlink3.mk"
 .include "../../devel/ncurses/buildlink3.mk"
 .include "../../mk/ossaudio.buildlink3.mk"
 

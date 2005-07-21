@@ -23,5 +23,5 @@ PKGCONFIG_OVERRIDE+=	xi.pc.in
 .include "../../wip/libXext/buildlink3.mk"
 .include "../../wip/xproto/buildlink3.mk"
 .include "../../x11/xextensions/buildlink3.mk"
-.include "../../devel/pkgconfig/buildlink3.mk"
+.include "../../devel/pkg-config/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

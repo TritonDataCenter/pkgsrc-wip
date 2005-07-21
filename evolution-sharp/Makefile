@@ -15,7 +15,7 @@ PKGCONFIG_OVERRIDE+=	evolution-sharp.pc.in
 USE_TOOLS+=		gmake
 GNU_CONFIGURE=		yes
 
-.include "../../devel/pkgconfig/buildlink3.mk"
+.include "../../devel/pkg-config/buildlink3.mk"
 .include "../../mail/evolution-data-server/buildlink3.mk"
 .include "../../wip/gtk-sharp/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

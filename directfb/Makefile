@@ -23,7 +23,7 @@ CONFIGURE_ARGS+=	--with-gfxdrivers=all
 .include "../../devel/SDL/buildlink3.mk"
 .endif
 
-.include "../../devel/pkgconfig/buildlink3.mk"
+.include "../../devel/pkg-config/buildlink3.mk"
 .include "../../graphics/png/buildlink3.mk"
 .include "../../graphics/jpeg/buildlink3.mk"
 .include "../../graphics/freetype2/buildlink3.mk"

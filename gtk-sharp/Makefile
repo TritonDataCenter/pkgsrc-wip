@@ -49,7 +49,7 @@ MAKE_FLAGS+=	RUNTIME=${MONO:Q}
 .include "../../databases/libgnomedb/buildlink3.mk"
 .include "../../devel/libglade2/buildlink3.mk"
 .include "../../devel/libgnomeui/buildlink3.mk"
-.include "../../devel/pkgconfig/buildlink3.mk"
+.include "../../devel/pkg-config/buildlink3.mk"
 .include "../../graphics/libart2/buildlink3.mk"
 .include "../../graphics/libgdiplus/buildlink3.mk"
 .include "../../graphics/libgnomecanvas/buildlink3.mk"

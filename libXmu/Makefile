@@ -18,7 +18,7 @@ PKGCONFIG_OVERRIDE+=	xmuu.pc.in
 GNU_CONFIGURE=		yes
 USE_TOOLS+=		gmake
 
-.include "../../devel/pkgconfig/buildlink3.mk"
+.include "../../devel/pkg-config/buildlink3.mk"
 .include "../../wip/libXext/buildlink3.mk"
 .include "../../wip/libXt/buildlink3.mk"
 .include "../../mk/pthread.buildlink3.mk"

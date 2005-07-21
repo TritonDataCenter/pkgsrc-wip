@@ -39,7 +39,7 @@ GCONF2_SCHEMAS+=	evince.schemas
 .include "../../devel/libbonoboui/buildlink3.mk"
 .include "../../devel/libglade2/buildlink3.mk"
 .include "../../devel/libgnomeui/buildlink3.mk"
-.include "../../devel/pkgconfig/buildlink3.mk"
+.include "../../devel/pkg-config/buildlink3.mk"
 .include "../../graphics/tiff/buildlink3.mk"
 .include "../../net/ORBit2/buildlink3.mk"
 .include "../../print/libgnomeprint/buildlink3.mk"

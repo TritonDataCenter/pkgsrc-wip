@@ -33,5 +33,5 @@ CONFIGURE_ENV+=		XTHREADS_LIBS=${BUILDLINK_LDADD.pthread}
 .include "../../wip/xproto/buildlink3.mk"
 .include "../../wip/xtrans/buildlink3.mk"
 .include "../../wip/libXau/buildlink3.mk"
-.include "../../devel/pkgconfig/buildlink3.mk"
+.include "../../devel/pkg-config/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

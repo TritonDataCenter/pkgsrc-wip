@@ -10,7 +10,7 @@ post-install:
 	@-${INSTALL_DATA} ${LIBWXREGEX} ${PREFIX}/lib
 
 .include "../../devel/SDL/buildlink3.mk"
-.include "../../devel/pkgconfig/buildlink3.mk"
+.include "../../devel/pkg-config/buildlink3.mk"
 .include "../../devel/zlib/buildlink3.mk"
 .include "../../graphics/MesaLib/buildlink3.mk"
 .include "../../graphics/jpeg/buildlink3.mk"

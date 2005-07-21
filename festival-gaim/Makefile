@@ -25,6 +25,6 @@ MAKE_ENV+=	PLUGIN_GAIM_PATH="${PREFIX}/lib/gaim"
 do-install:
 	${INSTALL_DATA} ${WRKSRC}/festival.so ${PREFIX}/lib/gaim
 
-.include "../../devel/pkgconfig/buildlink3.mk"
+.include "../../devel/pkg-config/buildlink3.mk"
 .include "../../x11/gtk2/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
