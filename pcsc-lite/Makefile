@@ -31,9 +31,10 @@ CONF_FILES+=		${EGDIR}/reader.conf ${PKG_SYSCONFDIR}/pcsc-lite/reader.conf
 
 pre-configure:
 	cd ${WRKSRC} && \
+	aclocal && \
 	autoheader && \
-	libtoolize --automake && \
-	automake && \
+	libtoolize --force && \
+	automake --copy --add-missing && \
 	autoconf
 
 post-install:
