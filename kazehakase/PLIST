@@ -67,5 +67,3 @@ share/pixmaps/kazehakase-icon.png
 @dirrm share/examples/kazehakase/mozilla
 @dirrm share/examples/kazehakase
 @comment in xdg-dirs: @dirrm share/applications
-@dirrm etc/kazehakase/mozilla
-@dirrm etc/kazehakase
