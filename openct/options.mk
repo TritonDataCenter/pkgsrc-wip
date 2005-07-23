@@ -7,6 +7,7 @@ PKG_SUPPORTED_OPTIONS=	pcsc-lite usb
 
 .if !empty(PKG_OPTIONS:Mpcsc-lite)
 .include "../../wip/pcsc-lite/buildlink3.mk"
+PLIST_SRC+=		${PKGDIR}/PLIST.pcsc-lite
 .else
 CONFIGURE_ARGS+=	--with-pcsclite=no
 .endif

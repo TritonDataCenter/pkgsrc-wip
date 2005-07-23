@@ -24,6 +24,8 @@ MAKE_DIRS+=		${VARBASE}/openct/run
 MAKE_DIRS+=		${VARBASE}/openct/run/openct
 CONF_FILES+=		${EGDIR}/openct.conf ${PKG_SYSCONFDIR}/openct.conf
 
+PLIST_SRC+=		${PKGDIR}/PLIST.common
+
 post-install:
 	${INSTALL_DATA_DIR} ${EGDIR}
 	${INSTALL_DATA} ${WRKSRC}/etc/openct.conf ${EGDIR}
