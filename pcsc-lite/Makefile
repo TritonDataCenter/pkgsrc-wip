@@ -17,7 +17,7 @@ USE_TOOLS+=             automake gmake
 .include "options.mk"
 
 RCD_SCRIPTS=		pcscd
-CONFIGURE_ARGS+=        --sysconfdir=${PKG_SYSCONFDIR}/pcsc-lite/
+CONFIGURE_ARGS+=        --sysconfdir=${PKG_SYSCONFDIR}
 CONFIGURE_ARGS+=	--enable-confdir=${PKG_SYSCONFDIR}
 CONFIGURE_ARGS+=	--enable-ipcdir=${VARBASE}/pcsc-lite
 CONFIGURE_ARGS+=	--enable-usbdropdir=${PREFIX}/lib/pcsc-lite/drivers
@@ -26,12 +26,11 @@ MAKE_DIRS+=		${PREFIX}/lib/pcsc-lite
 MAKE_DIRS+=		${PREFIX}/lib/pcsc-lite/drivers
 
 EGDIR=			${PREFIX}/share/examples/pcsc-lite
-OWN_DIRS+=		${PKG_SYSCONFDIR}/pcsc-lite
-CONF_FILES+=		${EGDIR}/reader.conf ${PKG_SYSCONFDIR}/pcsc-lite/reader.conf
+CONF_FILES+=		${EGDIR}/reader.conf ${PKG_SYSCONFDIR}/reader.conf
 
 pre-configure:
 	cd ${WRKSRC} && \
-	aclocal && \
+	aclocal -I ./m4 && \
 	autoheader && \
 	libtoolize --force && \
 	automake --copy --add-missing && \

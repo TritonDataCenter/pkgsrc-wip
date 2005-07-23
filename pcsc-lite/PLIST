@@ -30,4 +30,3 @@ share/examples/rc.d/pcscd
 @dirrm lib/pcsc-lite/drivers
 @dirrm lib/pcsc-lite
 @dirrm include/PCSC
-@dirrm etc/pcsc-lite
