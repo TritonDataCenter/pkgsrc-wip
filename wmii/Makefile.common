@@ -10,9 +10,9 @@ MAINTAINER=	lems@gmx.net
 HOMEPAGE=	http://wmi.modprobe.de/
 COMMENT=	Modular, minimalist and highly customizable window manager
 
-DISTINFO_FILE=		${.CURDIR}/../../wip/wmii/distinfo
-PATCHDIR=		${.CURDIR}/../../wip/wmii/patches
-PLIST_SRC=		${.CURDIR}/../../wip/wmii/PLIST
+DISTINFO_FILE=	${.CURDIR}/../../wip/wmii/distinfo
+PATCHDIR=	${.CURDIR}/../../wip/wmii/patches
+PLIST_SRC=	${.CURDIR}/../../wip/wmii/PLIST
 
 USE_PKGINSTALL=		yes
 NO_CONFIGURE=		yes
