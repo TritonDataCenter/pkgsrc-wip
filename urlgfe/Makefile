@@ -1,8 +1,8 @@
 # $NetBSD$
 #
 
-DISTNAME=		urlgfe-0.7.1
-CATEGORIES=		net x11
+DISTNAME=		urlgfe-0.98
+CATEGORIES=		net
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=urlget/}
 
 MAINTAINER=		ccatrian@eml.cc
@@ -14,6 +14,7 @@ USE_LIBTOOL=		yes
 LIBTOOL_OVERRIDE=	${WRKSRC}/libtool
 GNU_CONFIGURE=		yes
 
+.include "../../devel/pcre/buildlink3.mk"
 .include "../../www/curl/buildlink3.mk"
 .include "../../x11/gtk2/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

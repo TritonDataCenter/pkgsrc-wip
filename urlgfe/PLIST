@@ -1,12 +1,6 @@
 @comment $NetBSD$
 bin/urlgfe
-share/doc/urlgfe/ABOUT-NLS
-share/doc/urlgfe/AUTHORS
-share/doc/urlgfe/COPYING
-share/doc/urlgfe/ChangeLog
-share/doc/urlgfe/INSTALL
-share/doc/urlgfe/NEWS
-share/doc/urlgfe/README
-share/doc/urlgfe/TODO
+share/applications/urlgfe.desktop
+${PKGLOCALEDIR}/locale/zh_CN/LC_MESSAGES/urlgfe.mo
 ${PKGLOCALEDIR}/locale/zh_TW/LC_MESSAGES/urlgfe.mo
-@dirrm share/doc/urlgfe
+share/pixmaps/urlgfe-icon.png
