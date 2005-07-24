@@ -2,7 +2,7 @@
 
 DISTNAME=	mxterm_129
 PKGNAME=	${DISTNAME:S/_/-/}
-CATEGORIES=	wip
+CATEGORIES=	x11
 MASTER_SITES=	http://www.unixdev.net/downloads/mxterm/129/
 
 MAINTAINER=	inittab@netizenweb.com
