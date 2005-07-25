@@ -9,7 +9,7 @@ MAINTAINER=	kuli0020@umn.edu
 HOMEPAGE=	http://search.cpan.org/dist/Class-ISA/
 COMMENT=	Report the search path for a class's ISA tree
 
-PERL5_PACKLIST= ${PERL5_SITEARCH}/auto/Class/ISA/.packlist
+PERL5_PACKLIST= auto/Class/ISA/.packlist
 
 .include "../../lang/perl5/module.mk"
 .include "../../mk/bsd.pkg.mk"

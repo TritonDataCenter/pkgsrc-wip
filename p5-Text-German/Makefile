@@ -9,7 +9,7 @@ MAINTAINER=	kuli0020@umn.edu
 HOMEPAGE=	http://search.cpan.org/dist/Text-German/
 COMMENT=		German grundform reduction
 
-PERL5_PACKLIST= ${PERL5_SITEARCH}/auto/Text/German/.packlist
+PERL5_PACKLIST= auto/Text/German/.packlist
 
 .include "../../lang/perl5/module.mk"
 .include "../../mk/bsd.pkg.mk"

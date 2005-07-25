@@ -14,7 +14,7 @@ DEPENDS+=	p5-Class-ISA>=0.31:../../wip/p5-Class-ISA
 DEPENDS+=	p5-Carp-Assert>=0.10:../../devel/p5-Carp-Assert
 DEPENDS+=	p5-Test-Simple>=0.50:../../devel/p5-Test-Simple
 
-PERL5_PACKLIST= ${PERL5_SITEARCH}/auto/Class/Virtual/.packlist
+PERL5_PACKLIST= auto/Class/Virtual/.packlist
 
 .include "../../lang/perl5/module.mk"
 .include "../../mk/bsd.pkg.mk"

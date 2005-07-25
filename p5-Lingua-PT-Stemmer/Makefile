@@ -9,7 +9,7 @@ MAINTAINER=	kuli0020@umn.edu
 HOMEPAGE=	http://search.cpan.org/dist/Lingua-PT-Stemmer
 COMMENT=	Stemmers for Portuguese and Galician
 
-PERL5_PACKLIST= ${PERL5_SITEARCH}/auto/Lingua/PT/Stemmer/.packlist
+PERL5_PACKLIST= auto/Lingua/PT/Stemmer/.packlist
 
 .include "../../lang/perl5/module.mk"
 .include "../../mk/bsd.pkg.mk"
