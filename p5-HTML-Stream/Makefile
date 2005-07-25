@@ -9,7 +9,7 @@ MAINTAINER=	kuli0020@umn.edu
 HOMEPAGE=	http://search.cpan.org/dist/HTML-Stream/
 COMMENT=	Perl5 HTML output stream class, and some markup utilities
 
-PERL5_PACKLIST= ${PERL5_SITEARCH}/auto/HTML/Stream/.packlist
+PERL5_PACKLIST= auto/HTML/Stream/.packlist
 
 .include "../../lang/perl5/module.mk"
 .include "../../mk/bsd.pkg.mk"

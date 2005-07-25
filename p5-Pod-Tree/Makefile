@@ -12,7 +12,7 @@ COMMENT=	Create a static syntax tree for a POD
 BUILD_DEPENDS=	p5-HTML-Stream>=1.49:../../wip/p5-HTML-Stream
 DEPENDS+=	p5-Pod-Escapes>=1.02:../../textproc/p5-Pod-Escapes
 
-PERL5_PACKLIST= ${PERL5_SITEARCH}/auto/Pod/Tree/.packlist
+PERL5_PACKLIST= auto/Pod/Tree/.packlist
 
 .include "../../lang/perl5/module.mk"
 .include "../../mk/bsd.pkg.mk"
