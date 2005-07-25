@@ -13,7 +13,7 @@ BUILD_DEPENDS=	p5-Scalar-List-Utils>=1.14:../../devel/p5-Scalar-List-Utils
 
 CONFIGURE_ARGS+=	DEFINE="-DHAS_GETCWD"
 
-PERL5_PACKLIST= ${PERL5_SITEARCH}/auto/PathTools/.packlist
+PERL5_PACKLIST= auto/PathTools/.packlist
 
 .include "../../lang/perl5/module.mk"
 .include "../../mk/bsd.pkg.mk"

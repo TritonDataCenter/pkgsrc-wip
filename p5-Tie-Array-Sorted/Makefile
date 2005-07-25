@@ -9,7 +9,7 @@ MAINTAINER=	kuli0020@umn.edu
 HOMEPAGE=	http://search.cpan.org/dist/Tie-Array-Sorted/
 COMMENT=	Perl array which is kept sorted
 
-PERL5_PACKLIST= ${PERL5_SITEARCH}/auto/Tie/Array/Sorted/.packlist
+PERL5_PACKLIST= auto/Tie/Array/Sorted/.packlist
 
 .include "../../lang/perl5/module.mk"
 .include "../../mk/bsd.pkg.mk"
