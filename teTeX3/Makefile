@@ -11,7 +11,6 @@ HOMEPAGE=	http://www.tug.org/tetex/
 COMMENT=	Thomas Esser's TeX distribution for UNIX compatible systems, version 3
 
 DEPENDS+=	teTeX-texmf>=3:../../print/teTeX3-texmf
-DEPENDS+=	teTeX-texmfsrc>=3:../../print/teTeX3-texmfsrc
 DEPENDS+=	teTeX-bin>=3:../../print/teTeX3-bin
 
 CONFLICTS+=	teTeX-[1-2]*
