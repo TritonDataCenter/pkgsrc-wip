@@ -14,7 +14,7 @@ COMMENT=	Perl version of Java's java.util.Properties
 PKG_INSTALLATION_TYPES= overwrite pkgviews
 
 USE_LANGUAGES=          # empty
-PERL5_PACKLIST=		${PERL5_SITEARCH}/auto/Data/Properties/.packlist
+PERL5_PACKLIST=		auto/Data/Properties/.packlist
 
 .include "../../lang/perl5/module.mk"
 .include "../../mk/bsd.pkg.mk"

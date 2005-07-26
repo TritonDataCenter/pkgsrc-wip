@@ -12,7 +12,7 @@ COMMENT=		Shared data cache using memory mapped files
 
 PKG_INSTALLATION_TYPES=	overwrite pkgviews
 
-PERL5_PACKLIST=		${PERL5_SITEARCH}/auto/Cache/Mmap/.packlist
+PERL5_PACKLIST=		auto/Cache/Mmap/.packlist
 
 .include "../../lang/perl5/module.mk"
 .include "../../mk/bsd.pkg.mk"

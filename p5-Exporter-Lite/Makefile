@@ -12,7 +12,7 @@ COMMENT=	Lightweight exporting of variables
 
 PKG_INSTALLATION_TYPES=	overwrite pkgviews
 
-PERL5_PACKLIST=		${PERL5_SITEARCH}/auto/Exporter/Lite/.packlist
+PERL5_PACKLIST=		auto/Exporter/Lite/.packlist
 
 .include "../../lang/perl5/module.mk"
 .include "../../mk/bsd.pkg.mk"

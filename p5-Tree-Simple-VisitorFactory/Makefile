@@ -15,7 +15,7 @@ DEPENDS+=		p5-Tree-Simple>=1.00:../../devel/p5-Tree-Simple
 
 PKG_INSTALLATION_TYPES=	overwrite pkgviews
 
-PERL5_PACKLIST=		${PERL5_SITEARCH}/auto/Tree/Simple/VisitorFactory/.packlist
+PERL5_PACKLIST=		auto/Tree/Simple/VisitorFactory/.packlist
 
 .include "../../lang/perl5/module.mk"
 .include "../../mk/bsd.pkg.mk"

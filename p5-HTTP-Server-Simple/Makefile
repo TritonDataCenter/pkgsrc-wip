@@ -12,7 +12,7 @@ COMMENT=	Simple standalone http dameon
 
 PKG_INSTALLATION_TYPES=	overwrite pkgviews
 
-PERL5_PACKLIST=		${PERL5_SITEARCH}/auto/HTTP/Server/Simple/.packlist
+PERL5_PACKLIST=		auto/HTTP/Server/Simple/.packlist
 
 .include "../../lang/perl5/module.mk"
 .include "../../mk/bsd.pkg.mk"

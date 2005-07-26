@@ -14,7 +14,7 @@ DEPENDS+=		p5-Exporter-Lite>=0.01:../../wip/p5-Exporter-Lite
 
 PKG_INSTALLATION_TYPES=	overwrite pkgviews
 
-PERL5_PACKLIST=		${PERL5_SITEARCH}/auto/UNIVERSAL/exports/.packlist
+PERL5_PACKLIST=		auto/UNIVERSAL/exports/.packlist
 
 .include "../../lang/perl5/module.mk"
 .include "../../mk/bsd.pkg.mk"

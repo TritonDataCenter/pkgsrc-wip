@@ -15,7 +15,7 @@ DEPENDS+=	p5-File-Find-Rule>=0.28:../../devel/p5-File-Find-Rule
 
 PKG_INSTALLATION_TYPES=	overwrite pkgviews
 
-PERL5_PACKLIST=	${PERL5_SITEARCH}/auto/Module/Pluggable/Fast/.packlist
+PERL5_PACKLIST=	auto/Module/Pluggable/Fast/.packlist
 
 .include "../../lang/perl5/module.mk"
 .include "../../mk/bsd.pkg.mk"

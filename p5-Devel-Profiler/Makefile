@@ -12,7 +12,7 @@ COMMENT=		Perl profiler compatible with dprofpp
 
 PKG_INSTALLATION_TYPES=	overwrite pkgviews
 
-PERL5_PACKLIST=		${PERL5_SITEARCH}/auto/Devel/Profiler/.packlist
+PERL5_PACKLIST=		auto/Devel/Profiler/.packlist
 
 .include "../../lang/perl5/module.mk"
 .include "../../mk/bsd.pkg.mk"

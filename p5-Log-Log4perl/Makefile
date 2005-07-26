@@ -12,7 +12,7 @@ COMMENT=	Log4j implementation for Perl
 
 PKG_INSTALLATION_TYPES=	overwrite pkgviews
 
-PERL5_PACKLIST=		${PERL5_SITEARCH}/auto/Log/Log4perl/.packlist
+PERL5_PACKLIST=		auto/Log/Log4perl/.packlist
 
 .include "../../lang/perl5/module.mk"
 .include "../../mk/bsd.pkg.mk"

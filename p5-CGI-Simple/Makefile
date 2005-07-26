@@ -12,7 +12,7 @@ COMMENT=		Simple totally OO CGI interface that is CGI.pm compliant
 
 PKG_INSTALLATION_TYPES=	overwrite pkgviews
 
-PERL5_PACKLIST=		${PERL5_SITEARCH}/auto/CGI/Simple/.packlist
+PERL5_PACKLIST=		auto/CGI/Simple/.packlist
 
 .include "../../lang/perl5/module.mk"
 .include "../../mk/bsd.pkg.mk"

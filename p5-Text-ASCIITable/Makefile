@@ -12,7 +12,7 @@ COMMENT=		Create a nice formatted table using ASCII characters
 
 PKG_INSTALLATION_TYPES=	overwrite pkgviews
 
-PERL5_PACKLIST=		${PERL5_SITEARCH}/auto/Text/ASCIITable/.packlist
+PERL5_PACKLIST=		auto/Text/ASCIITable/.packlist
 
 .include "../../lang/perl5/module.mk"
 .include "../../mk/bsd.pkg.mk"

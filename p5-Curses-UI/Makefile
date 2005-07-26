@@ -17,7 +17,7 @@ DEPENDS+=	p5-Test-Pod>=1.20:../../devel/p5-Test-Pod
 
 PKG_INSTALLATION_TYPES=	overwrite pkgviews
 
-PERL5_PACKLIST=		${PERL5_SITEARCH}/auto/Curses/UI/.packlist
+PERL5_PACKLIST=		auto/Curses/UI/.packlist
 
 .include "../../lang/perl5/module.mk"
 .include "../../mk/bsd.pkg.mk"

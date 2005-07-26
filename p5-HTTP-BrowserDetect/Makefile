@@ -12,7 +12,7 @@ COMMENT=		Detect browser, version, OS from UserAgent
 
 PKG_INSTALLATION_TYPES=	overwrite pkgviews
 
-PERL5_PACKLIST=		${PERL5_SITEARCH}/auto/HTTP/BrowserDetect/.packlist
+PERL5_PACKLIST=		auto/HTTP/BrowserDetect/.packlist
 
 .include "../../lang/perl5/module.mk"
 .include "../../mk/bsd.pkg.mk"
