@@ -1,0 +1,4 @@
+$NetBSD$
+To-do list for muscle-pam
+- needs testing
+- check build behaviour on environments other than openpam or linux-PAM

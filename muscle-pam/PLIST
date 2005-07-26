@@ -1,0 +1,4 @@
+@comment $NetBSD$
+lib/security/pam_musclecard.so
+share/examples/muscle-pam/pam-muscle.conf
+@dirrm share/examples/muscle-pam
