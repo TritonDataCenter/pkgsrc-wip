@@ -9,7 +9,7 @@ MAINTAINER=	kuli0020@umn.edu
 HOMEPAGE=	http://search.cpan.org/~cine/Lingua-Stem-Snowball-Da-1.01/Da.pm
 COMMENT=	Stemmer for Danish
 
-PERL5_PACKLIST= ${PERL5_SITEARCH}/auto/Lingua/Stem/Snowball/Da/.packlist
+PERL5_PACKLIST= auto/Lingua/Stem/Snowball/Da/.packlist
 
 .include "../../lang/perl5/module.mk"
 .include "../../mk/bsd.pkg.mk"

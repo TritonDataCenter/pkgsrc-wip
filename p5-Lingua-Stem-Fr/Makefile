@@ -9,7 +9,7 @@ MAINTAINER=	kuli0020@umn.edu
 HOMEPAGE=	http://search.cpan.org/dist/Lingua-Stem-Fr
 COMMENT=		Perl French Stemming
 
-PERL5_PACKLIST= ${PERL5_SITEARCH}/auto/Lingua/Stem/Fr/.packlist
+PERL5_PACKLIST= auto/Lingua/Stem/Fr/.packlist
 
 .include "../../lang/perl5/module.mk"
 .include "../../mk/bsd.pkg.mk"
