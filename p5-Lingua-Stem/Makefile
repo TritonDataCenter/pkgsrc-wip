@@ -14,8 +14,8 @@ DEPENDS+=	p5-Lingua-Stem-Fr>=0.02:../../textproc/p5-Lingua-Stem-Fr
 DEPENDS+=	p5-Lingua-Stem-It>=0:../../textproc/p5-Lingua-Stem-It
 DEPENDS+=	p5-Lingua-Stem-Ru>=0:../../textproc/p5-Lingua-Stem-Ru
 DEPENDS+=	p5-Lingua-Stem-Snowball-Da>=1.01:../../textproc/p5-Lingua-Stem-Snowball-Da
-DEPENDS+=	p5-Snowball-Norwegian>=0:../../textproc/p5-Snowball-Norwegian
-DEPENDS+=	p5-Snowball-Swedish>=1.01:../../textproc/p5-Snowball-Swedish
+DEPENDS+=	p5-Lingua-Stem-Snowball-No>=0:../../textproc/p5-p5-Lingua-Stem-Snowball-No
+DEPENDS+=	p5-Lingua-Stem-Snowball-Se>=1.01:../../textproc/p5-Lingua-Stem-Snowball-Se
 DEPENDS+=	p5-Text-German>=0:../../textproc/p5-Text-German
 
 MAN3PREFIX=		${PREFIX}/lib/perl5/${PERL_VERSION}
