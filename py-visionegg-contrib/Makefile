@@ -7,7 +7,7 @@ CATEGORIES=		misc
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=visionegg/}
 EXTRACT_SUFX=		.zip
 
-MAINTAINER=		dotz@irc.pl
+MAINTAINER=		tech-pkg@NetBSD.org
 HOMEPAGE=		http://visionegg.sourceforge.net/
 COMMENT=		Additional modules for py-visionegg package
 

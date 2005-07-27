@@ -7,7 +7,7 @@ CATEGORIES=		games
 MASTER_SITES=		http://oomadness.tuxfamily.org/downloads/
 EXTRACT_SUFX=		.tar.bz2
 
-MAINTAINER=		dotz@irc.pl
+MAINTAINER=		tech-pkg@NetBSD.org
 HOMEPAGE=		http://oomadness.tuxfamily.org/en/slune/index.html
 COMMENT=		Action game, featuring cars, races and Tux the Penguin
 

@@ -6,7 +6,7 @@ WRKSRC=			${WRKDIR}/galaxy-0.2
 CATEGORIES=		x11
 MASTER_SITES=		http://ftp.gnome.org/pub/GNOME/teams/art.gnome.org/themes/gtk2/
 
-MAINTAINER=		dotz@irc.pl
+MAINTAINER=		tech-pkg@NetBSD.org
 HOMEPAGE=		http://art.gnome.org/
 COMMENT=		Another theme engine for GTK+ 2.x
 

@@ -7,7 +7,7 @@ WRKSRC=			${WRKDIR}
 CATEGORIES=		misc
 MASTER_SITES=		http://mysql.belnet.be/Downloads/Manual/
 
-MAINTAINER=		dotz@irc.pl
+MAINTAINER=		tech-pkg@NetBSD.org
 HOMEPAGE=		http://mysql.com/
 COMMENT=		Latest documentation for MySQL database server
 

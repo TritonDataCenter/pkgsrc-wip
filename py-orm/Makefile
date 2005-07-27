@@ -6,7 +6,7 @@ PKGNAME=		${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=		databases
 MASTER_SITES=		http://tux4web.de/computer/software/orm/download/
 
-MAINTAINER=		dotz@irc.pl
+MAINTAINER=		tech-pkg@NetBSD.org
 HOMEPAGE=		http://tux4web.de/computer/software/orm
 COMMENT=		Object-relational membrane for Python
 

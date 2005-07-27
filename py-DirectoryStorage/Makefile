@@ -7,7 +7,7 @@ CATEGORIES=		devel
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=dirstorage/}
 EXTRACT_SUFX=		.tgz
 
-MAINTAINER=		dotz@irc.pl
+MAINTAINER=		tech-pkg@NetBSD.org
 HOMEPAGE=		http://dirstorage.sourceforge.net/
 COMMENT=		Storage for ZODB, that uses files and directories
 

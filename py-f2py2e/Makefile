@@ -7,7 +7,7 @@ WRKSRC=			${WRKDIR}/F2PY-2.37.233-1545
 CATEGORIES=		devel
 MASTER_SITES=		http://cens.ioc.ee/projects/f2py2e/2.x/
 
-MAINTAINER=		dotz@irc.pl
+MAINTAINER=		tech-pkg@NetBSD.org
 HOMEPAGE=		http://cens.ioc.ee/projects/f2py2e/
 COMMENT=		Fortran to Python interface generator
 

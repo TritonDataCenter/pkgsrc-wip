@@ -6,7 +6,7 @@ PKGNAME=		${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=		net
 MASTER_SITES=		http://oss.corest.com/repo/
 
-MAINTAINER=		dotz@irc.pl
+MAINTAINER=		tech-pkg@NetBSD.org
 HOMEPAGE=		http://oss.corest.com/projects/pcapy.html
 COMMENT=		Python interface to pcap library
 

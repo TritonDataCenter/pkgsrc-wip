@@ -5,7 +5,7 @@ DISTNAME=		terminus-font-4.06
 CATEGORIES=		fonts
 MASTER_SITES=		http://www.is-vn.bg/hamster/
 
-MAINTAINER=		dotz@irc.pl
+MAINTAINER=		tech-pkg@NetBSD.org
 HOMEPAGE=		http://www.is-vn.bg/hamster/jimmy-en.html
 COMMENT=		Clean fixed width font
 

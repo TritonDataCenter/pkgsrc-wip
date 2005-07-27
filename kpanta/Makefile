@@ -8,7 +8,7 @@ CATEGORIES=		games
 MASTER_SITES=		http://www.geocities.com/anil_rvce/kpanta/
 EXTRACT_SUFX=		.tgz
 
-MAINTAINER=		dotz@irc.pl
+MAINTAINER=		tech-pkg@NetBSD.org
 HOMEPAGE=		http://www.geocities.com/anil_rvce/kpanta.html
 COMMENT=		AntiChess - like ordinary chess, but the objective is to loose pieces
 

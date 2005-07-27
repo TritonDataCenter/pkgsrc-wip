@@ -6,7 +6,7 @@ WRKSRC=			${WRKDIR}/gtk-flat-theme-2.0
 CATEGORIES=		x11
 MASTER_SITES=		http://ftp.gnome.org/pub/GNOME/teams/art.gnome.org/themes/gtk2/
 
-MAINTAINER=		dotz@irc.pl
+MAINTAINER=		tech-pkg@NetBSD.org
 HOMEPAGE=		http://art.gnome.org/
 COMMENT=		Flat theme engine for GTK+ 2.x
 

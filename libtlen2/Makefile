@@ -5,7 +5,7 @@ DISTNAME=		libtlen2-20040301
 CATEGORIES=		chat
 MASTER_SITES=		http://www.libtlen.eu.org/libtlen2_files/
 
-MAINTAINER=		dotz@irc.pl
+MAINTAINER=		tech-pkg@NetBSD.org
 HOMEPAGE=		http://www.libtlen.eu.org/index.php?theme=teary&page=libtlen2
 COMMENT=		Library to access tlen.pl IM system
 

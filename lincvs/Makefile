@@ -8,7 +8,7 @@ CATEGORIES=		devel x11
 MASTER_SITES=	        http://ppprs1.phy.tu-dresden.de/~trogisch/lincvs/download/20_LinCVS/hr_lincvs-1.3.0rc2/
 EXTRACT_SUFX=		.tgz
 
-MAINTAINER=		dotz@irc.pl
+MAINTAINER=		tech-pkg@NetBSD.org
 HOMEPAGE=		http://www.lincvs.org/
 COMMENT=		Nice GUI front-end to CVS (using Qt)
 

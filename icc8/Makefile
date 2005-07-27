@@ -10,7 +10,7 @@ MASTER_SITES=	http://www.intel.com/software/products/compilers/downloads/ \
 		ftp://download.intel.com/software/products/compilers/downloads/ \
 		ftp://download.intel.co.jp/software/products/compilers/downloads/
 
-MAINTAINER=	dotz@irc.pl
+MAINTAINER=	tech-pkg@NetBSD.org
 HOMEPAGE=	http://developer.intel.com/software/products/compilers/
 COMMENT=	Intel C++ Compiler for Linux
 

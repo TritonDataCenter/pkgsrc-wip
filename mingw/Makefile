@@ -6,7 +6,7 @@ CATEGORIES=		cross
 MASTER_SITES=		# empty
 DISTFILES=		# empty
 
-MAINTAINER=		dotz@irc.pl
+MAINTAINER=		tech-pkg@NetBSD.org
 HOMEPAGE=		http://mingw.sf.net/
 COMMENT=		GNU C Compiler for win32 cross development
 

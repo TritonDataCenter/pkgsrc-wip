@@ -7,7 +7,7 @@ WRKSRC=			${WRKDIR}/rar
 CATEGORIES=		archivers
 MASTER_SITES=		http://files10.rarlab.com/rar/
 
-MAINTAINER=		dotz@irc.pl
+MAINTAINER=		tech-pkg@NetBSD.org
 HOMEPAGE=		http://files10.rarlab.com/rar/
 COMMENT=		File archiver (binary only)
 

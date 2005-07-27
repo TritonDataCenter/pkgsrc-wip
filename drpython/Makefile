@@ -6,7 +6,7 @@ CATEGORIES=		editors
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=drpython/}
 EXTRACT_SUFX=		.zip
 
-MAINTAINER=		dotz@irc.pl
+MAINTAINER=		tech-pkg@NetBSD.org
 HOMEPAGE=		http://drpython.sourceforge.net/
 COMMENT=		Source code editor, written in Python, for Python
 

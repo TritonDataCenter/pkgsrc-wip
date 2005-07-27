@@ -5,7 +5,7 @@ DISTNAME=		freevo-1.4.1
 CATEGORIES=		graphics
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=freevo/}
 
-MAINTAINER=		dotz@irc.pl
+MAINTAINER=		tech-pkg@NetBSD.org
 HOMEPAGE=		http://freevo.sourceforge.net/
 COMMENT=		Fancy-lookging digital video jukebox
 
@@ -20,7 +20,7 @@ CONF_FILES=		${PKG_SYSCONFDIR}/local_conf.py
 PLIST_SUBST=		PKG_SYSCONFDIR=${PKG_SYSCONFDIR}
 
 # well, this could be propably done better way I can't think of
-# 	-- dotz@irc.pl
+# 	-- tech-pkg@NetBSD.org
 
 post-patch:
 	${CP} ${WRKSRC}/freevo ${WRKSRC}/freevo.pre

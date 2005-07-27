@@ -6,7 +6,7 @@ PKGNAME=		${PYPKGPREFIX}-${DISTNAME:S/Py//}
 CATEGORIES=		devel
 MASTER_SITES=		http://peak.telecommunity.com/dist/
 
-MAINTAINER=		dotz@irc.pl
+MAINTAINER=		tech-pkg@NetBSD.org
 HOMEPAGE=		http://peak.telecommunity.com/PyProtocols.html
 COMMENT=		Lets you easily define your own protocols and adapters
 

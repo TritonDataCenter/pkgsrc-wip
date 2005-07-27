@@ -8,7 +8,7 @@ CATEGORIES=		sysutils
 MASTER_SITES=		http://www.bacula.org/
 DIST_SUBDIR=		${PKGNAME}
 
-MAINTAINER=		dotz@irc.pl
+MAINTAINER=		tech-pkg@NetBSD.org
 HOMEPAGE=		http://www.bacula.org/
 COMMENT=		Documentation for Bacula - The Network Backup Solution
 

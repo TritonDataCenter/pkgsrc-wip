@@ -107,7 +107,7 @@ DISTFILES=	GKT2-Quantumcurve.tar.gz \
 		GTK2-red-onion.tar.gz \
 		GTK2-yglacier.tgz
 
-MAINTAINER=		dotz@irc.pl
+MAINTAINER=		tech-pkg@NetBSD.org
 HOMEPAGE=		http://art.gnome.org/
 COMMENT=		Art for your GTK+ 2.x desktop
 

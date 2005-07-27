@@ -5,7 +5,7 @@ DISTNAME=		viewcvs-0.9.2
 CATEGORIES=		devel www
 MASTER_SITES=		http://viewcvs.sourceforge.net/
 
-MAINTAINER=		dotz@irc.pl
+MAINTAINER=		tech-pkg@NetBSD.org
 HOMEPAGE=		http://viewcvs.sourceforge.net/
 COMMENT=		View CVS repositories via WWW. No HTTP server needed
 

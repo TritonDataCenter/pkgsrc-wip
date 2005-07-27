@@ -6,7 +6,7 @@ PKGNAME=		${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=		devel
 MASTER_SITES=		http://oomadness.tuxfamily.org/downloads/
 
-MAINTAINER=		dotz@irc.pl
+MAINTAINER=		tech-pkg@NetBSD.org
 HOMEPAGE=		http://oomadness.tuxfamily.org/en/py2play/index.html
 COMMENT=		Network game engine in Python, utilizing P2P model
 

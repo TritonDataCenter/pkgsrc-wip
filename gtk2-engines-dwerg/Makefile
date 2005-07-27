@@ -6,7 +6,7 @@ CATEGORIES=		x11
 MASTER_SITES=		http://ftp.gnome.org/pub/GNOME/teams/art.gnome.org/themes/gtk2/
 EXTRACT_SUFX=		.tar.bz2
 
-MAINTAINER=		dotz@irc.pl
+MAINTAINER=		tech-pkg@NetBSD.org
 HOMEPAGE=		http://art.gnome.org/
 COMMENT=		Theme engine for GTK+ 2.x
 

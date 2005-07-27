@@ -5,7 +5,7 @@ DISTNAME=		prothon-115
 CATEGORIES=		lang
 MASTER_SITES=		http://prothon.org/pub/prothon/
 
-MAINTAINER=		dotz@irc.pl
+MAINTAINER=		tech-pkg@NetBSD.org
 HOMEPAGE=		http://www.prothon.org/
 COMMENT=		Classless prototype-based programming language
 

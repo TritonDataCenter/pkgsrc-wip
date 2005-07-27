@@ -6,7 +6,7 @@ PKGNAME=		${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=		wm
 MASTER_SITES=		http://www.freenet.org.nz/python/pywm/
 
-MAINTAINER=		dotz@irc.pl
+MAINTAINER=		tech-pkg@NetBSD.org
 HOMEPAGE=		http://www.freenet.org.nz/python/pywm/
 COMMENT=		Window manager in Python
 

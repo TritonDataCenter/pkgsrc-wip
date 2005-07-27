@@ -10,7 +10,7 @@ MASTER_SITES=		http://www.postgresql.org/ftpsite/pgadmin3/release/src/ \
 			ftp://ftp.sunsite.auc.dk/mirrors/postgresql/pgadmin3/release/src/ \
 			ftp://ftp6.pl.postgresql.org/pub/postgresql/pgadmin3/release/src/
 
-MAINTAINER=		dotz@irc.pl
+MAINTAINER=		tech-pkg@NetBSD.org
 HOMEPAGE=		http://pgadmin.postgresql.org/
 COMMENT=		GUI administration tool for PostgreSQL RDBMS
 

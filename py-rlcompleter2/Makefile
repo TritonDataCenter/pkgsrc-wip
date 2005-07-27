@@ -6,7 +6,7 @@ PKGNAME=		${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=		devel
 MASTER_SITES=		http://codespeak.net/rlcompleter2/download/
 
-MAINTAINER=		dotz@irc.pl
+MAINTAINER=		tech-pkg@NetBSD.org
 HOMEPAGE=		http://codespeak.net/rlcompleter2/index.cgi?home
 COMMENT=		Python command line completion
 

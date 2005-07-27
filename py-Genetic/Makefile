@@ -6,7 +6,7 @@ PKGNAME=		${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=		devel
 MASTER_SITES=		http://oomadness.tuxfamily.org/downloads/
 
-MAINTAINER=		dotz@irc.pl
+MAINTAINER=		tech-pkg@NetBSD.org
 HOMEPAGE=		http://oomadness.tuxfamily.org/en/genetic/index.html
 COMMENT=		A package for genetic algorithms in Python
 

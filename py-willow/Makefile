@@ -6,7 +6,7 @@ PKGNAME=		${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=		www
 MASTER_SITES=		http://www.digitallumber.com/TAR/
 
-MAINTAINER=		dotz@irc.pl
+MAINTAINER=		tech-pkg@NetBSD.org
 HOMEPAGE=		http://www.digitallumber.com/
 COMMENT=		Content-filtering proxy server
 

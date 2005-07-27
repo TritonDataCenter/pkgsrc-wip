@@ -6,7 +6,7 @@ CATEGORIES=		lang
 MASTER_SITES=		http://slate.tunes.org/downloads/
 EXTRACT_SUFX=		.tgz
 
-MAINTAINER=		dotz@irc.pl
+MAINTAINER=		tech-pkg@NetBSD.org
 HOMEPAGE=		http://slate.tunes.org/
 COMMENT=		Prototype-based object-oriented programming language
 

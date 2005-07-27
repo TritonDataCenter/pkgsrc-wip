@@ -6,7 +6,7 @@ PKGNAME=		pxview-0.1.4
 CATEGORIES=		databases
 MASTER_SITES=		http://cesnet.dl.sourceforge.net/sourceforge/pxlib/
 
-MAINTAINER=		dotz@irc.pl
+MAINTAINER=		tech-pkg@NetBSD.org
 HOMEPAGE=		http://cesnet.dl.sourceforge.net/sourceforge/pxlib/
 COMMENT=		Simple utility to view Paradox database files
 

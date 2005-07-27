@@ -6,7 +6,7 @@ PKGNAME=		dicom3tools-20030501
 CATEGORIES=		graphics
 MASTER_SITES=		http://www.dclunie.com/dicom3tools/workinprogress/
 
-MAINTAINER=		dotz@irc.pl
+MAINTAINER=		tech-pkg@NetBSD.org
 HOMEPAGE=		http://www.dclunie.com/
 COMMENT=		Library for dealing with DICOM 3 files
 

@@ -7,7 +7,7 @@ CATEGORIES=		devel
 MASTER_SITES=		http://twistedmatrix.com/users/acapnotic/wares/code/CVSToys/
 EXTRACT_SUFX=		.tar.bz2
 
-MAINTAINER=		dotz@irc.pl
+MAINTAINER=		tech-pkg@NetBSD.org
 HOMEPAGE=		http://twistedmatrix.com/users/acapnotic/wares/code/CVSToys/
 COMMENT=		Watch CVS tree changes on web, RSS, list or IRC
 

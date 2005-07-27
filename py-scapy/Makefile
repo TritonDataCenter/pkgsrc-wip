@@ -7,7 +7,7 @@ CATEGORIES=		net
 MASTER_SITES=		http://www.cartel-securite.fr/pbiondi/python/
 EXTRACT_SUFX=		.tgz
 
-MAINTAINER=		dotz@irc.pl
+MAINTAINER=		tech-pkg@NetBSD.org
 HOMEPAGE=		http://www.cartel-securite.fr/pbiondi/projects/scapy.html
 COMMENT=		Interactive packet manipulation tool
 

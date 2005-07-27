@@ -4,7 +4,7 @@ DISTNAME=       superkaramba-0.33
 CATEGORIES=     x11 misc
 MASTER_SITES=   ${MASTER_SITE_SOURCEFORGE:=netdragon/}
 
-MAINTAINER=     dotz@irc.pl
+MAINTAINER=     tech-pkg@NetBSD.org
 HOMEPAGE=       http://netdragon.sourceforge.net/
 COMMENT=        Interactive eyecandy for your KDE desktop
 

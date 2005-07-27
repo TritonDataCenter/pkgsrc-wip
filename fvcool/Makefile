@@ -6,7 +6,7 @@ PKGNAME=		fvcool-1.0.3
 CATEGORIES=		misc
 MASTER_SITES=		http://www.nt.phys.kyushu-u.ac.jp/shimizu/download/
 
-MAINTAINER=		dotz@irc.pl
+MAINTAINER=		tech-pkg@NetBSD.org
 HOMEPAGE=		http://www.nt.phys.kyushu-u.ac.jp/shimizu/download/README-FVCool100.html
 COMMENT=		Utility to make your AMD CPU cooler
 

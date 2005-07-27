@@ -6,7 +6,7 @@ CATEGORIES=		editors
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=leo/}
 EXTRACT_SUFX=		.zip
 
-MAINTAINER=		dotz@irc.pl
+MAINTAINER=		tech-pkg@NetBSD.org
 HOMEPAGE=		http://leo.sourceforge.net/
 COMMENT=		Programmer's editor and a flexible browser
 

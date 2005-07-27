@@ -8,7 +8,7 @@ MASTER_SITES=		http://altd.borland.com/download/kylix/k3/ \
 			ftp://ftpd.borland.com/download/kylix/k3/
 DISTFILES=		k3_open_update_2.tar.gz kylix3_open.tar.gz
 
-MAINTAINER=		dotz@irc.pl
+MAINTAINER=		tech-pkg@NetBSD.org
 HOMEPAGE=		http://www.borland.com/kylix/open/
 COMMENT=		ANSI/ISO C++, Delphi and IDE in one
 

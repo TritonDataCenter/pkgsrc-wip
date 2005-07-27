@@ -6,7 +6,7 @@ CATEGORIES=		emulators
 MASTER_SITES=		# none
 DISTFILES=		# none
 
-MAINTAINER=		dotz@irc.pl
+MAINTAINER=		tech-pkg@NetBSD.org
 HOMEPAGE=		http://slackware.com/
 COMMENT=		Slackware emulation base
 

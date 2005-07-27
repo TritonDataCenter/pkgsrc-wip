@@ -17,7 +17,7 @@ DISTFILES=	lesson01.tar.gz lesson02.tar.gz lesson03.tar.gz \
 		lesson36.tar.gz lesson37.tar.gz lesson40.tar.gz \
 		lesson41.tar.gz lesson42.tar.gz
 
-MAINTAINER=		dotz@irc.pl
+MAINTAINER=		tech-pkg@NetBSD.org
 HOMEPAGE=		http://nehe.gamedev.net/
 COMMENT=		OpenGL tutorials from NeHe.gamedev.net - ${NEHE_OPENGL_TUT_FLAVOUR} versions
 

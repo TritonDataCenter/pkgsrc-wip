@@ -5,7 +5,7 @@ DISTNAME=		d4x-2.5.0beta2
 CATEGORIES=		net
 MASTER_SITES=		http://www.krasu.ru/soft/chuchelo/files/
 
-MAINTAINER=		dotz@irc.pl
+MAINTAINER=		tech-pkg@NetBSD.org
 HOMEPAGE=		http://www.krasu.ru/soft/chuchelo/files/
 COMMENT=		Download files using a nice GUI
 

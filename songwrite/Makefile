@@ -6,7 +6,7 @@ PKGNAME=		${DISTNAME:S/S/s/}
 CATEGORIES=		misc
 MASTER_SITES=		http://oomadness.tuxfamily.org/downloads/
 
-MAINTAINER=		dotz@irc.pl
+MAINTAINER=		tech-pkg@NetBSD.org
 HOMEPAGE=		http://oomadness.tuxfamily.org/en/songwrite/index.html
 COMMENT=		Tablature (guitar partition) editor
 

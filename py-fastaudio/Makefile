@@ -10,7 +10,7 @@ MASTER_SITES=		http://www.freenet.org.nz/python/pyPortAudio/ \
 DISTFILES=		${DISTNAME}${EXTRACT_SUFX} \
 			portaudio_v18_1.zip
 
-MAINTAINER=		dotz@irc.pl
+MAINTAINER=		tech-pkg@NetBSD.org
 HOMEPAGE=		http://www.freenet.org.nz/python/pyPortAudio/
 COMMENT=		Python bindings for portaudio library
 

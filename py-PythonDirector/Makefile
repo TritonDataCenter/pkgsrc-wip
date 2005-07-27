@@ -6,7 +6,7 @@ PKGNAME=		${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=		net
 MASTER_SITES=		http://cesnet.dl.sourceforge.net/sourceforge/pythondirector/
 
-MAINTAINER=		dotz@irc.pl
+MAINTAINER=		tech-pkg@NetBSD.org
 HOMEPAGE=		http://cesnet.dl.sourceforge.net/sourceforge/pythondirector/
 COMMENT=		Pure-python TCP load balancer
 

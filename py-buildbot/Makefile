@@ -6,7 +6,7 @@ PKGNAME=		${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=		devel
 MASTER_SITES=		http://cesnet.dl.sourceforge.net/sourceforge/buildbot/
 
-MAINTAINER=		dotz@irc.pl
+MAINTAINER=		tech-pkg@NetBSD.org
 HOMEPAGE=		http://buildbot.sourceforge.net/
 COMMENT=		System to automate the compile/test cycle
 

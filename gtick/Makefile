@@ -6,7 +6,7 @@ CATEGORIES=		audio
 MASTER_SITES=		http://www.antcom.de/gtick/download/
 EXTRACT_SUFX=		.tar.bz2
 
-MAINTAINER=		dotz@irc.pl
+MAINTAINER=		tech-pkg@NetBSD.org
 HOMEPAGE=		http://www.antcom.de/gtick/
 COMMENT=		GTK+ metronome
 

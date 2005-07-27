@@ -7,7 +7,7 @@ CATEGORIES=		chat
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=pynfo/}
 EXTRACT_SUFX=		.tar.bz2
 
-MAINTAINER=		dotz@irc.pl
+MAINTAINER=		tech-pkg@NetBSD.org
 HOMEPAGE=		http://pynfo.sourceforge.net/
 COMMENT=		Nice, configureable info bot in Python
 

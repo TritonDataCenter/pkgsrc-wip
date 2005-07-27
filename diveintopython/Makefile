@@ -8,7 +8,7 @@ CATEGORIES=		misc
 MASTER_SITES=		http://diveintopython.org/download/
 EXTRACT_SUFX=		.zip
 
-MAINTAINER=		dotz@irc.pl
+MAINTAINER=		tech-pkg@NetBSD.org
 HOMEPAGE=		http://diveintopython.org/download/
 COMMENT=		Free book for experienced Python programmers
 

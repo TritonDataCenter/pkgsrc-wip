@@ -6,7 +6,7 @@ PKGNAME=		pxlib-0.2.0
 CATEGORIES=		databases devel
 MASTER_SITES=		http://cesnet.dl.sourceforge.net/sourceforge/pxlib/
 
-MAINTAINER=		dotz@irc.pl
+MAINTAINER=		tech-pkg@NetBSD.org
 HOMEPAGE=		http://cesnet.dl.sourceforge.net/sourceforge/pxlib/
 COMMENT=		C language library for reading Paradox database files
 

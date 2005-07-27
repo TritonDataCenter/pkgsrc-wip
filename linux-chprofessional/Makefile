@@ -5,7 +5,7 @@ PKGNAME=	linux-chproffessional-4.0.0
 CATEGORIES=	devel
 MASTER_SITES=	http://www.softintegration.com/download/software/release/Linux/
 
-MAINTAINER=	dotz@irc.pl
+MAINTAINER=	tech-pkg@NetBSD.org
 HOMEPAGE=	http://www.softintegration.com/products/chprofessional/
 COMMENT=	Ch is an interactive C development environment
 

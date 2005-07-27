@@ -5,7 +5,7 @@ DISTNAME=		webcleaner-2.8
 CATEGORIES=		www
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=webcleaner/}
 
-MAINTAINER=		dotz@irc.pl
+MAINTAINER=		tech-pkg@NetBSD.org
 HOMEPAGE=		http://webcleaner.sourceforge.net/
 COMMENT=		Filtering HTTP proxy
 

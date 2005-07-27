@@ -6,7 +6,7 @@ PKGNAME=	tleenx2-20040214
 CATEGORIES=	chat
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=tleenx/}
 
-MAINTAINER=	dotz@irc.pl
+MAINTAINER=	tech-pkg@NetBSD.org
 HOMEPAGE=	http://tleenx.sourceforge.net/
 COMMENT=	Client to tlen.pl - polish IM / chat system
 

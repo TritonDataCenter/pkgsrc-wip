@@ -7,7 +7,7 @@ CATEGORIES=		lang
 MASTER_SITES=		ftp://ftp.digitalmars.com/
 EXTRACT_SUFX=		.zip
 
-MAINTAINER=		dotz@irc.pl
+MAINTAINER=		tech-pkg@NetBSD.org
 HOMEPAGE=		http://www.digitalmars.com/d/dcompiler.html
 COMMENT=		The D Programming Language from Digital Mars
 

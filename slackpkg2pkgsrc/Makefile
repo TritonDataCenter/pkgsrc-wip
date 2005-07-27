@@ -7,7 +7,7 @@ CATEGORIES=		pkgtools
 MASTER_SITES=		# none
 DISTFILES=		# none
 
-MAINTAINER=		dotz@irc.pl
+MAINTAINER=		tech-pkg@NetBSD.org
 HOMEPAGE=		# none
 COMMENT=		Simple script for easy generation of Slackware binary packages
 

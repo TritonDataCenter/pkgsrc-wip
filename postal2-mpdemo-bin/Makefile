@@ -8,7 +8,7 @@ CATEGORIES=		games
 MASTER_SITES=		http://files3.worthplaying.com/postal2/
 EXTRACT_SUFX=		.tar.bz2
 
-MAINTAINER=		dotz@irc.pl
+MAINTAINER=		tech-pkg@NetBSD.org
 HOMEPAGE=		http://files3.worthplaying.com/postal2/
 COMMENT=		Demo of a violent 3D game
 

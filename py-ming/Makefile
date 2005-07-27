@@ -7,7 +7,7 @@ CATEGORIES=		graphics
 MASTER_SITES=		${MING_MASTER_SITES}
 EXTRACT_SUFX=		${MING_EXTRACT_SUFX}
 
-MAINTAINER=		dotz@irc.pl
+MAINTAINER=		tech-pkg@NetBSD.org
 HOMEPAGE=		http://ming.sourceforge.net/
 COMMENT=		Python bindings for Ming library
 

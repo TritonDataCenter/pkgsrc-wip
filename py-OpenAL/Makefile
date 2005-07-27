@@ -6,7 +6,7 @@ PKGNAME=		${PYPKGPREFIX}-${DISTNAME:S/Py//}
 CATEGORIES=		audio
 MASTER_SITES=		http://oomadness.tuxfamily.org/downloads/
 
-MAINTAINER=		dotz@irc.pl
+MAINTAINER=		tech-pkg@NetBSD.org
 HOMEPAGE=		http://oomadness.tuxfamily.org/en/pyopenal/index.html
 COMMENT=		Python bindings for audio/openal; see openal package for details
 

@@ -9,7 +9,7 @@ MASTER_SITES=		http://www.moeraki.com/pygtktutorial/ \
 			http://www.moeraki.com/pygtkreference/
 DISTFILES=		pygtk2tutorial.tgz pygtk2reference.tgz
 
-MAINTAINER=		dotz@irc.pl
+MAINTAINER=		tech-pkg@NetBSD.org
 HOMEPAGE=		http://www.moeraki.com/
 COMMENT=		Tutorial and reference manual for PyGTK 2.0
 

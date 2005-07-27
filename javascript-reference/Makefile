@@ -7,7 +7,7 @@ CATEGORIES=		misc
 MASTER_SITES=		http://devedge.netscape.com/library/manuals/2000/javascript/1.5/reference/
 EXTRACT_SUFX=		.zip
 
-MAINTAINER=		dotz@irc.pl
+MAINTAINER=		tech-pkg@NetBSD.org
 HOMEPAGE=		http://devedge.netscape.com/
 COMMENT=		JavaScript Reference from Netscape Devedge
 

@@ -6,7 +6,7 @@ PKGNAME=		${PYPKGPREFIX}-${DISTNAME:S/PyK/k/}
 CATEGORIES=		devel
 MASTER_SITES=		http://www.alobbs.com/pykyra/
 
-MAINTAINER=		dotz@irc.pl
+MAINTAINER=		tech-pkg@NetBSD.org
 HOMEPAGE=		http://www.alobbs.com/modules.php?op=modload&name=pykyra&file=index
 COMMENT=		Game development framework for Python
 

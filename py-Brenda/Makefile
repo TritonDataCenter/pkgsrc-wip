@@ -6,7 +6,7 @@ PKGNAME=		${PYPKGPREFIX}-${DISTNAME:S/Py//}
 CATEGORIES=		devel
 MASTER_SITES=		http://www.snurgle.org/~pybrenda/
 
-MAINTAINER=		dotz@irc.pl
+MAINTAINER=		tech-pkg@NetBSD.org
 HOMEPAGE=		http://www.snurgle.org/~pybrenda/
 COMMENT=		Paralell computation system
 

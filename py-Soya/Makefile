@@ -7,7 +7,7 @@ CATEGORIES=		devel
 MASTER_SITES=		http://oomadness.tuxfamily.org/downloads/
 EXTRACT_SUFX=		.tar.bz2
 
-MAINTAINER=		dotz@irc.pl
+MAINTAINER=		tech-pkg@NetBSD.org
 HOMEPAGE=		http://oomadness.tuxfamily.org/en/soya/index.html
 COMMENT=		High level 3D engine for Python
 

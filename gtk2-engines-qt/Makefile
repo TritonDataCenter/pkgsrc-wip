@@ -8,7 +8,7 @@ CATEGORIES=		devel x11
 MASTER_SITES=		http://www.kde-look.org/content/files/
 EXTRACT_SUFX=		.tar.bz2
 
-MAINTAINER=		dotz@irc.pl
+MAINTAINER=		tech-pkg@NetBSD.org
 HOMEPAGE=		http://www.kde-look.org/content/show.php?content=9714
 COMMENT=		GTK+ 2.x theme, which looks just like Qt toolkit
 

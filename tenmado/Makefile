@@ -5,7 +5,7 @@ DISTNAME=		tenmado-0.6
 CATEGORIES=		games
 MASTER_SITES=		http://www.interq.or.jp/libra/oohara/tenmado/
 
-MAINTAINER=		dotz@irc.pl
+MAINTAINER=		tech-pkg@NetBSD.org
 HOMEPAGE=		http://www.interq.or.jp/libra/oohara/tenmado/
 COMMENT=		Vertical scrolling shoot'em-up game
 

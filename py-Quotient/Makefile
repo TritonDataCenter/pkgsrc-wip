@@ -6,7 +6,7 @@ PKGNAME=		${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=		mail
 MASTER_SITES=		http://www.divmod.org/users/release/divmod/
 
-MAINTAINER=		dotz@irc.pl
+MAINTAINER=		tech-pkg@NetBSD.org
 HOMEPAGE=		http://www.divmod.org/Home/Projects/Quotient/index.html
 COMMENT=		E-mail server, messaging server (IM/IRC) and IP telephony
 

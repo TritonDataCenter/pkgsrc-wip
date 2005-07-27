@@ -5,7 +5,7 @@ PKGNAME=		mingw-w32api-bin-3.1
 CATEGORIES=		cross
 MASTER_SITES=		${MASTER_SITE_MINGW}
 
-MAINTAINER=		dotz@irc.pl
+MAINTAINER=		tech-pkg@NetBSD.org
 HOMEPAGE=		http://mingw.sf.net/
 COMMENT=		GNU C Compiler for win32 cross development
 

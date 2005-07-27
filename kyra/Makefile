@@ -6,7 +6,7 @@ PKGNAME=		kyra-1.6.5
 CATEGORIES=		devel
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=kyra/}
 
-MAINTAINER=		dotz@irc.pl
+MAINTAINER=		tech-pkg@NetBSD.org
 HOMEPAGE=		http://kyra.sourceforge.net/
 COMMENT=		Sprite engine in C++ that uses SDL library
 

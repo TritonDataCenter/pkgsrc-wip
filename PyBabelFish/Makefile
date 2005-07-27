@@ -8,7 +8,7 @@ CATEGORIES=		textproc
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=pythonol/}
 EXTRACT_SUFX=		.tar.bz2
 
-MAINTAINER=		dotz@irc.pl
+MAINTAINER=		tech-pkg@NetBSD.org
 HOMEPAGE=		http://pythonol.sourceforge.net/
 COMMENT=		Gtk-based frontend for several translation services on web
 

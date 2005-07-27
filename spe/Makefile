@@ -7,7 +7,7 @@ CATEGORIES=		editors
 MASTER_SITES=		http://projects.blender.org/download.php/47/
 EXTRACT_SUFX=		.zip
 
-MAINTAINER=		dotz@irc.pl
+MAINTAINER=		tech-pkg@NetBSD.org
 HOMEPAGE=		http://spe.pycs.net/
 COMMENT=		Python IDE with wxGlade GUI designer, auto-indentation and more
 

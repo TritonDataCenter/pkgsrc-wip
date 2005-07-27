@@ -7,7 +7,7 @@ CATEGORIES=		databases
 MASTER_SITES=		http://www.rekallrevealed.org/packages/
 EXTRACT_SUFX=		.tgz
 
-MAINTAINER=		dotz@irc.pl
+MAINTAINER=		tech-pkg@NetBSD.org
 HOMEPAGE=		http://www.rekallrevealed.org/packages/
 COMMENT=		KDE database frontend
 
