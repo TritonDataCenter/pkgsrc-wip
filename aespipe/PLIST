@@ -1,0 +1,6 @@
+@comment $NetBSD$
+bin/aespipe
+bin/bz2aespipe
+man/man1/aespipe.1
+share/doc/aespipe/README
+@dirrm share/doc/aespipe
