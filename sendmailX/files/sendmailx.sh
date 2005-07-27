@@ -18,12 +18,13 @@ conf_file="@PKG_SYSCONFDIR@/smx.conf"
 required_files=$conf_file
 extra_commands="restart"
 start_cmd="sendmailx_start"
-pidfile="/var/run/${name}.pid"
+pidfile="@VARBASE@/run/${name}.pid"
+logdir="@VARBASE@/log/smx/"
 # restart_cmd="sendmailx_restart"
 
 sendmailx_start()
 {
-	${ctl_command} -l -p ${pidfile} ${conf_files}
+	${ctl_command} -l -p ${pidfile} -L ${logdir} ${conf_file} &
 }
 
 load_rc_config $name
