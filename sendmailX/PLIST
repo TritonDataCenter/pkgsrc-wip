@@ -6,6 +6,7 @@ bin/qmgrctl
 bin/rcvrenvfromlog.sh
 bin/runas
 bin/smconf
+bin/t-getgroup
 bin/t-mm
 bin/t-unixcl
 include/smX/mfapi.h
