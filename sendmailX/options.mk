@@ -12,6 +12,8 @@ PKG_SUPPORTED_OPTIONS=	tls sasl
 .	include "../../security/openssl/buildlink3.mk"
 CONFIGURE_ARGS+=	--enable-TLS
 CFLAGS+=		-DSM_USE_TLS
+.else
+CONFIGURE_ENV+=		ac_cv_header_openssl_ssl_h=no
 .endif
 
 ###
