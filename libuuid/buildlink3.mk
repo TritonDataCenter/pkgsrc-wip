@@ -11,7 +11,7 @@ BUILDLINK_PACKAGES:=	${BUILDLINK_PACKAGES:Nlibuuid}
 BUILDLINK_PACKAGES+=	libuuid
 
 .if !empty(LIBUUID_BUILDLINK3_MK:M+)
-BUILDLINK_DEPENDS.libuuid+=	libuuid>=1.35
+BUILDLINK_DEPENDS.libuuid+=	libuuid>=1.36
 BUILDLINK_PKGSRCDIR.libuuid?=	../../wip/libuuid
 .endif	# LIBUUID_BUILDLINK3_MK
 
