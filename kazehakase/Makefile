@@ -6,7 +6,7 @@ CATEGORIES=		www
 MASTER_SITES=		http://osdn.dl.sourceforge.jp/kazehakase/15343/ \
 			http://keihanna.dl.sourceforge.jp/kazehakase/15343/
 
-MAINTAINER=		reed@reedmedia.net
+MAINTAINER=		lems@gmx.net
 HOMEPAGE=		http://kazehakase.sourceforge.jp/
 COMMENT=		Web browser with multiple layout engines support
 
