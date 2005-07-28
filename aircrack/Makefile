@@ -1,7 +1,8 @@
 # $NetBSD$
 #
 
-DISTNAME=		aircrack-2.1
+DISTNAME=		aircrack-2.2-beta11
+PKGNAME=		aircrack-2.2b11
 CATEGORIES=		wip security
 MASTER_SITES=		http://www.cr0.net:8040/code/network/
 EXTRACT_SUFX=		.tgz
@@ -13,6 +14,7 @@ COMMENT=		802.11 WEP key cracker
 ONLY_FOR_PLATFORM=	Linux-[2-9]*-*
 
 NO_CONFIGURE=		yes
+USE_TOOLS+=		gmake
 
 #SUBST_CLASSES=pfx
 #SUBST_STAGE.pfx=patch

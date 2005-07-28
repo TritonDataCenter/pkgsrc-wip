@@ -1,6 +1,6 @@
 @comment $NetBSD$
-bin/802ether
 bin/aircrack
+bin/airdecap
+bin/arpforge
 bin/aireplay
 bin/airodump
-bin/hopper.sh
