@@ -1,9 +1,9 @@
 # $NetBSD$
 #
 
-DISTNAME=		commoncpp2-1.3.8
+DISTNAME=		commoncpp2-1.3.16
 CATEGORIES=		wip devel
-MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=cplusplus/}
+MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=gnutelephony/}
 
 MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://cplusplus.sourceforge.net/
