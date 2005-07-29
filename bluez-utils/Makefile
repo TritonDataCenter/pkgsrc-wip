@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		bluez-utils-2.15
+DISTNAME=		bluez-utils-2.18
 CATEGORIES=		wip net
 MASTER_SITES=		http://bluez.sf.net/download/
 

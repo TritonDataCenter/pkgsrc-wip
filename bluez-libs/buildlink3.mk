@@ -11,7 +11,7 @@ BUILDLINK_PACKAGES:=	${BUILDLINK_PACKAGES:Nbluez-libs}
 BUILDLINK_PACKAGES+=	bluez-libs
 
 .if !empty(BLUEZ_LIBS_BUILDLINK3_MK:M+)
-BUILDLINK_DEPENDS.bluez-libs+=	bluez-libs>=2.11
+BUILDLINK_DEPENDS.bluez-libs+=	bluez-libs>=2.18
 BUILDLINK_PKGSRCDIR.bluez-libs?=	../../wip/bluez-libs
 .endif	# BLUEZ_LIBS_BUILDLINK3_MK
 
