@@ -17,6 +17,7 @@ USE_PKGLOCALEDIR=	yes
 
 CONFIGURE_ARGS+=	--with-osip=${BUILDLINK_PREFIX.libosip2}
 CONFIGURE_ARGS+=        --with-speex=${BUILDLINK_PREFIX.speex}
+CONFIGURE_ARGS+=	--with-html-dir=${PREFIX}/share/doc/html
 CONFIGURE_ARGS+=	--disable-manual --enable-glib
 
 PKG_SUPPORTED_OPTIONS=	alsa nogui
@@ -46,6 +47,10 @@ CONFIGURE_ARGS+=	--enable-ipv6
 USE_PERL5+=	build
 BUILD_DEPENDS+=	p5-XML-Parser-*:../../textproc/p5-XML-Parser
 
+LIBS+=		${LIBOSSAUDIO}
+CPPFLAGS+=	-DDSP_NAME="\"${DEVOSSAUDIO}\""
+
+.include "../../mk/ossaudio.buildlink3.mk"
 .include "../../devel/glib2/buildlink3.mk"
 .include "../../devel/libosip/buildlink3.mk"
 .include "../../audio/speex/buildlink3.mk"
