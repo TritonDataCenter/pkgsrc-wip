@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=		Tree-Simple-VisitorFactory-0.05
+DISTNAME=		Tree-Simple-VisitorFactory-0.07
 PKGNAME=		p5-${DISTNAME}
 SVR4_PKGNAME=		p5trs
 CATEGORIES=		devel perl5
