@@ -33,6 +33,5 @@ share/worker/scripts/xliwrapper_worker
 @dirrm share/worker/scripts
 @dirrm share/worker/catalogs
 @dirrm share/worker
-@dirrm share/pixmaps
 @exec ${MKDIR} %D/share/desktop-directories
 @dirrm share/desktop-directories
