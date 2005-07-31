@@ -1,0 +1,8 @@
+===========================================================================
+$NetBSD$
+
+pkgmanager is currently EXPERIMENTAL software! Only use it if you can
+risk breakage on the system. Read the documentation at
+http://www.scode.org/pkgmanager before proceeding.
+
+===========================================================================
