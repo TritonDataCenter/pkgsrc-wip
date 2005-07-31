@@ -1,14 +1,14 @@
 # $NetBSD$
 #
 
-DISTNAME=	wmii-2-rc2
+DISTNAME=	wmii-2
 CATEGORIES=	wm x11
 MASTER_SITES=	http://wmi.modprobe.de/download/
 EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	lems@gmx.net
 HOMEPAGE=	http://wmi.modprobe.de/
-COMMENT=	Modular, minimalist and highly customizable window manager
+COMMENT=	Modular and keyboard-friendly window manager
 
 DISTINFO_FILE=	${.CURDIR}/../../wip/wmii/distinfo
 PATCHDIR=	${.CURDIR}/../../wip/wmii/patches
