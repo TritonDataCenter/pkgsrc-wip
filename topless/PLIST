@@ -1,2 +1,3 @@
 @comment $NetBSD$
 bin/topless
+man/man1/topless.1
