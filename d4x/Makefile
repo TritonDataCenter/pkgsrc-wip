@@ -1,7 +1,8 @@
 # $NetBSD$
 #
 
-DISTNAME=		d4x-2.5.0beta2
+DISTNAME=		d4x-2.5.0final
+PKGNAME=		d4x-2.5.0
 CATEGORIES=		net
 MASTER_SITES=		http://www.krasu.ru/soft/chuchelo/files/
 
