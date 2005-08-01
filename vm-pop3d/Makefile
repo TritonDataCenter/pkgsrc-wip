@@ -15,9 +15,12 @@ COMMENT=		POP3 server with support for virtual mail accounts
 
 GNU_CONFIGURE=		YES
 
-.include "../../mk/bsd.prefs.mk"
+PKG_OPTIONS_VAR=	PKG_OPTIONS.vm-pop3d
+PKG_SUPPORTED_OPTIONS=	pam
 
-.if defined(USE_PAM)
+.include "../../mk/bsd.options.mk"
+
+.if !empty(PKG_OPTIONS:Mpam)
 .include "../../security/PAM/buildlink3.mk"
 CONFIGURE_ARGS+=	 --enable-pam
 .else
