@@ -15,16 +15,18 @@ name="sendmailx"
 rcvar=$name
 ctl_command="@PREFIX@/sbin/mcp"
 conf_file="@PKG_SYSCONFDIR@/smx.conf"
-required_files=$conf_file
+required_files=${conf_file}
 extra_commands="restart"
 start_cmd="sendmailx_start"
 pidfile="@VARBASE@/run/${name}.pid"
 logdir="@VARBASE@/log/smx/"
+spooldir="@VARBASE@/spool/smx"
 # restart_cmd="sendmailx_restart"
 
 sendmailx_start()
 {
-	${ctl_command} -l -p ${pidfile} -L ${logdir} ${conf_file} &
+	cd ${spooldir} && \
+		${ctl_command} -l -p ${pidfile} -L ${logdir} ${conf_file} &
 }
 
 load_rc_config $name
