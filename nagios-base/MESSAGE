@@ -23,4 +23,7 @@ You must add this in your httpd.conf file
 
 See the manual for more instructions.
 
+/etc/rc.d startup script:
+Please look in /usr/pkg/share/examples/rc.d/ for a nagios startup script.
+
 ===========================================================================

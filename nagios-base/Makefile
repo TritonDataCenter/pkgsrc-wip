@@ -27,6 +27,8 @@ CONFIGURE_ARGS+=	--with-command-grp=${ROOT_GROUP}
 CONFIGURE_ARGS+=	--with-init-dir=${PREFIX}/etc/rc.d
 CONFIGURE_ARGS+=	--with-lockfile=/var/run/nagios/nagios.lock
 
+RCD_SCRIPTS+=		nagios
+
 INSTALL_TARGET=		install install-config
 
 PKG_GROUPS+=	${NAGIOS_GROUP}
