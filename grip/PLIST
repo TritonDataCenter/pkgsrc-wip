@@ -69,4 +69,5 @@ share/pixmaps/gripicon.png
 @dirrm ${PKGLOCALEDIR}/locale/zh_HK
 @dirrm share/gnome/help/grip/C
 @dirrm share/gnome/help/grip
+@comment in gnome2-dirs: @dirrm share/gnome/help
 @comment in xdg-dirs: @dirrm share/applications
