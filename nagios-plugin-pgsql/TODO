@@ -2,6 +2,4 @@
 #
 
 TODO file for nagios-plugin-pgsql:
-	- Makefile structure has been done to handle multiple pkg's from
-the one plugins package.
-	- Untested, not compiled for quite a while. It's literally wip.
+	check_pgsql compiles but is untested.
