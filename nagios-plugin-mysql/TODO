@@ -2,6 +2,7 @@
 #
 
 TODO file for nagios-plugin-mysql:
-	- Makefile structure has been done to handle multiple pkg's from
-the one plugins package.
-	- Untested, not compiled for quite a while. It's literally wip.
+     check_mysql tested and works+.
+
+(if 'works' has a '+' it was tested in my configuration, else it was tested
+"offline").
