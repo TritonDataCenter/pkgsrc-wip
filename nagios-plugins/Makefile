@@ -18,9 +18,11 @@ CONFIGURE_ARGS+=      --with-df-command="/bin/df -Pklt nokernfs,procfs,fdesc"
 .endif
 
 DEPENDS+=	nagios-base>=1.0:../../wip/nagios-base
+
 .if !exists(/usr/bin/ssh)
 DEPENDS+=	{ssh{,6}-[0-9]*,openssh-[0-9]*}:../../security/ssh
 .endif
 
 .include "../../security/openssl/buildlink3.mk"
+.include "../../devel/gettext-lib/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
