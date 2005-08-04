@@ -14,13 +14,9 @@ WRKSRC=         ${WRKDIR}
 MAINTAINER=	peter.schuller@infidyne.com
 HOMEPAGE=	http://www.scode.org/pkgmanager/
 COMMENT=	Package manager for pkgsrc
-BROKEN=         Broken until lang/clisp is updated in pkgsrc. You can fix \
-                it locally by applying \
-                http://starfury.scode.org/pkgmanager/lang_clisp.diff and \
-                commenting out this line from wip/pkgmanager/Makefile
 
 USE_TOOLS+=     gmake
-DEPENDS+=       clisp>=2.33.2:../../lang/clisp
+DEPENDS+=       clisp>=2.33.2nb1:../../lang/clisp
 
 CLISP=		${PREFIX}/bin/clisp
 PKGMGR_SRC=	${WRKDIR}/pkgmanager-${PKGMGR_VERSION}/src
