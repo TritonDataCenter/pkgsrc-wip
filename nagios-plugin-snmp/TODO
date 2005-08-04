@@ -2,4 +2,13 @@
 #
 
 TODO file for nagios-plugin-snmp:
-	- This pkg has had practically no testing. It compiles and installs.	
+     check_snmp tested and works
+     check_hpjd tested and works+ (cool!)
+     check_ifoperstatus tested and works
+     check_ifstatus: works but net-snmp thinks lo0 is
+		     ifAdminStatus.4 = INTEGER: up(1)
+		     ifOperStatus.4 = INTEGER: down(2)
+     ruh?? use -u option to skip lo0
+	     
+     check_breeze patched to use utils.pm correctly, not tested - don't have device.
+     check_wave patched to use utils.pm correctly, not tested - don't have device.
