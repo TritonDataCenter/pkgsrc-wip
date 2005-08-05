@@ -9,7 +9,7 @@ MAINTAINER=	kuli0020@NetBSD.org
 HOMEPAGE=	http://cpan.uwinnipeg.ca/module/Text::Context
 COMMENT=	Perl module for highlighting search result context snippets
 
-BUILD_DEPENDS=	p5-Text-Context-EitherSide>=1.1:../../textproc/p5-Text-Context-EitherSide
+DEPENDS+=	p5-Text-Context-EitherSide>=1.1:../../textproc/p5-Text-Context-EitherSide
 DEPENDS+=	p5-UNIVERSAL-exports>=0.03:../../devel/p5-UNIVERSAL-exports
 
 PERL5_PACKLIST=		auto/Text/Context/.packlist
