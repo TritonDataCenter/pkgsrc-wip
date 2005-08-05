@@ -1,0 +1,4 @@
+@comment $NetBSD$
+include/vc.h
+lib/libvc.la
+man/man3/vc.3
