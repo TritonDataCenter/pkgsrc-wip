@@ -9,7 +9,7 @@ MAINTAINER=	kuli0020@umn.edu
 HOMEPAGE=	http://search.cpan.org/dist/PathTools/
 COMMENT=	Perl module for portably manipulating file specifications
 
-BUILD_DEPENDS=	p5-Scalar-List-Utils>=1.14:../../devel/p5-Scalar-List-Utils
+DEPENDS=	p5-Scalar-List-Utils>=1.14:../../devel/p5-Scalar-List-Utils
 
 CONFIGURE_ARGS+=	DEFINE="-DHAS_GETCWD"
 
