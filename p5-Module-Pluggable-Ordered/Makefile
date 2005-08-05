@@ -9,7 +9,7 @@ MAINTAINER=	kuli0020@umn.edu
 HOMEPAGE=	http://search.cpan.org/dist/Module-Pluggable-Ordered/
 COMMENT=	Call module plugins in a specified order
 
-BUILD_DEPENDS=	p5-Module-Pluggable>=1.9:../../devel/p5-Module-Pluggable
+DEPENDS=	p5-Module-Pluggable>=1.9:../../devel/p5-Module-Pluggable
 DEPENDS+=	p5-UNIVERSAL-exports>=0:../../wip/p5-UNIVERSAL-exports
 
 PERL5_PACKLIST= auto/Module/Pluggable/Ordered/.packlist

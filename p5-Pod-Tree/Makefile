@@ -9,7 +9,7 @@ MAINTAINER=	kuli0020@umn.edu
 HOMEPAGE=	http://search.cpan.org/dist/Pod-Tree/
 COMMENT=	Create a static syntax tree for a POD
 
-BUILD_DEPENDS=	p5-HTML-Stream>=1.49:../../wip/p5-HTML-Stream
+DEPENDS+=	p5-HTML-Stream>=1.49:../../wip/p5-HTML-Stream
 DEPENDS+=	p5-Pod-Escapes>=1.02:../../textproc/p5-Pod-Escapes
 
 PERL5_PACKLIST= auto/Pod/Tree/.packlist

@@ -9,7 +9,7 @@ MAINTAINER=	tech-pkg@NetBSD.org
 HOMEPAGE=	http://search.cpan.org/dist/Class-Accessor-Chained
 COMMENT=	make chained accessors
 
-BUILD_DEPENDS=	p5-Class-Accessor>=0:../../devel/p5-Class-Accessor
+DEPENDS=	p5-Class-Accessor>=0:../../devel/p5-Class-Accessor
 
 PERL_MODBUILD=	yes
 
