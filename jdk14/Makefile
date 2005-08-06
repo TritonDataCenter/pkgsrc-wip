@@ -157,7 +157,7 @@ pre-build:
 
 post-build:
 .if !empty(JDK14_USE_JCE:M[Yy][Ee][Ss])
-	cd ${WRKDIR}/jce ; pax -rw -pe . ${JDKIMAGEDIR}/jre/lib/security
+	cd ${WRKDIR}/jce ; ${PAX} -rw -pe . ${JDKIMAGEDIR}/jre/lib/security
 	${SED} 's/@JDK14_USE_JCE@//' ${PKGDIR}/PLIST > ${PLIST_SRC}
 .else
 	${SED} '/@JDK14_USE_JCE@/d' ${PKGDIR}/PLIST > ${PLIST_SRC}
