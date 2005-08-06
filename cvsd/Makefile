@@ -1,17 +1,16 @@
 # $NetBSD$
 
-DISTNAME=		cvsd-1.0.3
+DISTNAME=		cvsd-1.0.8
 CATEGORIES=		devel
-MASTER_SITES=		http://tiefighter.et.tudelft.nl/~arthur/cvsd/
+MASTER_SITES=		http://ch.tudelft.nl/~arthur/cvsd/
 
 MAINTAINER=		eric@cirr.com
-HOMEPAGE=		http://tiefighter.et.tudelft.nl/~arthur/cvsd/
+HOMEPAGE=		http://ch.tudelft.nl/~arthur/cvsd/
 COMMENT=		Run CVS pserver in a chroot-ed environment
 
 .include "../../mk/bsd.prefs.mk"
 
-USE_PERL5=		YES
-USE_TOOLS+=		gmake
+USE_TOOLS+=		gmake perl
 USE_PKGINSTALL=		YES
 GNU_CONFIGURE=		YES
 

@@ -7,7 +7,7 @@ $NetBSD$
     Read the README file in ${PREFIX}/share/doc/cvsd for more
     details on setting up the environment.
 
-    Further details on setting up a CVS repository under cvsd can be 
+    Further details on setting up a CVS repository under cvsd can be
     found at http://virtus.ath.cx/cvsd.html
 
 ===========================================================================
