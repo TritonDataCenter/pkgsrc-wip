@@ -2,6 +2,10 @@
 lib/pkgmanager/init.mem
 lib/pkgmanager/run.lisp
 lib/pkgmanager/packages.fas
+lib/pkgmanager/pkgmgr-except.fas
+lib/pkgmanager/pkgmgr-print.fas
+lib/pkgmanager/pkgmgr-util.fas
+lib/pkgmanager/pkgmgr-pkgdb.fas
 lib/pkgmanager/pkgmanager.fas
 bin/pkgmanager
 @dirrm lib/pkgmanager
