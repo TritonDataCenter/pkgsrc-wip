@@ -1,0 +1,4 @@
+@comment $NetBSD$
+include/X11/extensions/bigreqstr.h
+lib/pkgconfig/bigreqsproto.pc
+@unexec ${RMDIR} %D/include/X11/extensions 2>/dev/null || ${TRUE}
