@@ -1,17 +1,17 @@
 # $NetBSD$
 #
 
-DISTNAME=	tv-0.3
-PKGNAME=        treeviewx-0.3
+DISTNAME=	tv-0.5
+PKGNAME=	treeviewx-0.5
 CATEGORIES=	biology
 MASTER_SITES=	http://darwin.zoology.gla.ac.uk/~rpage/treeviewx/
 
 MAINTAINER=	hdp@cs.nmsu.edu
-HOMEPAGE=       http://darwin.zoology.gla.ac.uk/~rpage/treeviewx/index.html
+HOMEPAGE=	http://darwin.zoology.gla.ac.uk/~rpage/treeviewx/index.html
 COMMENT=	Phylogenetic tree viewer for Linux and Unix
 
-USE_TOOLS+= gmake
+USE_TOOLS+=	gmake
 GNU_CONFIGURE=	YES
 
-.include "../../x11/wxGTK/buildlink3.mk"
+.include "../../x11/wxGTK-contrib/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
