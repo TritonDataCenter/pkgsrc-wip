@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	Perl-Tidy-20021130
+DISTNAME=	Perl-Tidy-20031021
 PKGNAME=	${DISTNAME:S/Perl-Tidy/perltidy/}
 CATEGORIES=	devel
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=perltidy/}
