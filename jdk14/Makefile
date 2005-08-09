@@ -114,7 +114,7 @@ _FETCH_MESSAGE= \
 	${ECHO} "======================================================================"
 .endif
 
-MESSAGE_SUBST+=		LOCALBASE=${LOCALBASE}
+MESSAGE_SUBST+=		JAVA_HOME=${JAVA_HOME}
 
 SUBST_CLASSES+=		paths
 SUBST_STAGE.paths=	pre-configure
