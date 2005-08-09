@@ -11,7 +11,7 @@ $NetBSD$
  endif
  ifeq ($(TRUE_PLATFORM), NetBSD)
 -EXTRA_CPPFLAGS += -I/usr/pkg/include/mozilla/nspr
-+EXTRA_CPPFLAGS += -I%%LOCALBASE%%/include/mozilla/nspr
++EXTRA_CPPFLAGS += -I%%LOCALBASE%%/include/nspr
  endif
  ifeq ($(TRUE_PLATFORM), OpenBSD)
  EXTRA_CPPFLAGS += -I$(LOCALBASE)/include/nspr
