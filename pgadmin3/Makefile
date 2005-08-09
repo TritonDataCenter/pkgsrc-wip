@@ -58,5 +58,5 @@ pre-install:
 	${INSTALL_DATA_DIR} ${PGDIR}/docs/en_US/pg
 
 .include "../../databases/postgresql74-lib/buildlink3.mk"
-.include "../../mk/bsd.pkg.mk"
 .include "../../x11/wxGTK-contrib/buildlink3.mk"
+.include "../../mk/bsd.pkg.mk"
