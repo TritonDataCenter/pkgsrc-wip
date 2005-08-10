@@ -1,10 +1,10 @@
 # $NetBSD$
 #
 
-DISTNAME=		kazehakase-0.2.8
+DISTNAME=		kazehakase-0.2.9
 CATEGORIES=		www
-MASTER_SITES=		http://osdn.dl.sourceforge.jp/kazehakase/15343/ \
-			http://keihanna.dl.sourceforge.jp/kazehakase/15343/
+MASTER_SITES=		http://osdn.dl.sourceforge.jp/kazehakase/15824/ \
+			http://keihanna.dl.sourceforge.jp/kazehakase/15824/
 
 MAINTAINER=		lems@gmx.net
 HOMEPAGE=		http://kazehakase.sourceforge.jp/
@@ -21,6 +21,7 @@ USE_PKGLOCALEDIR=	yes
 
 LIBTOOL_OVERRIDE=	${WRKSRC}/libtool
 
+CONFIGURE_ARGS+=	--disable-ssl
 CONFIGURE_ARGS+=	--sysconfdir=${PKG_SYSCONFDIR}
 
 PKG_OPTIONS_VAR=	PKG_OPTIONS.kazehakase
