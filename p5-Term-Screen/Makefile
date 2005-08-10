@@ -8,7 +8,9 @@ MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=Term/}
 MAINTAINER=	tech-pkg@NetBSD.org
 COMMENT=	Term::Cap based screen positioning module
 
-PERL5_PACKLIST=		${PERL5_SITEARCH}/auto/Term/Screen/.packlist
+PKG_INSTALLATION_TYPES= overwrite pkgviews
+
+PERL5_PACKLIST=		auto/Term/Screen/.packlist
 
 .include "../../lang/perl5/module.mk"
 .include "../../mk/bsd.pkg.mk"
