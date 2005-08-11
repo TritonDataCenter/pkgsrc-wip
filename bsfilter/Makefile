@@ -1,8 +1,8 @@
 # $NetBSD: $
 
-DISTNAME=	bsfilter-1.0.6
+DISTNAME=	bsfilter-1.0.9
 CATEGORIES=	mail
-MASTER_SITES=	http://keihanna.dl.sourceforge.jp/bsfilter/12638/
+MASTER_SITES=	http://keihanna.dl.sourceforge.jp/bsfilter/15724/
 EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	ura@jp.netbsd.org
@@ -14,6 +14,8 @@ COMMENT=	Bayesian spam filter written in Ruby
 DEPENDS+=       ${RUBY_PKGPREFIX}-gdbm>=${RUBY_VERSION}:../../databases/ruby-gdbm
 
 NO_BUILD=	yes
+REPLACE_RUBY=	bsfilter/bsfilter
+
 EXAMPLESDIR=	${PREFIX}/share/examples/bsfilter
 
 .include "../../mk/bsd.prefs.mk"
@@ -28,4 +30,5 @@ do-install:
 	@${CP} -r ${WRKSRC}/${DIR} ${EXAMPLESDIR}/${DIR}
 .endfor
 
+.include "../../lang/ruby/replace.mk"
 .include "../../mk/bsd.pkg.mk"
