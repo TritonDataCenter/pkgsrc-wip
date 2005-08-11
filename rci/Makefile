@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	rci-20050720
+DISTNAME=	rci-20050809
 CATEGORIES=	shells
 MASTER_SITES=	http://wmi.modprobe.de/snaps/
 EXTRACT_SUFX=	.tar.bz2
