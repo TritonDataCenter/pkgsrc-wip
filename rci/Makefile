@@ -10,4 +10,8 @@ MAINTAINER=	lems@gmx.net
 HOMEPAGE=	http://wmi.modprobe.de/
 COMMENT=	Shell based on UNIX rc version 1.4 and 1.7.x
 
+USE_PKGINSTALL=	yes
+
+PKG_SHELL=	bin/rci
+
 .include "../../mk/bsd.pkg.mk"
