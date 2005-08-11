@@ -27,7 +27,7 @@ USE_TOOLS+=		gmake m4
 USE_LANGUAGES=		c c++
 EXTRACT_CMD_OPTS.zip=	-q
 WRKSRC=			${WRKDIR}
-PLIST_SRC=      	PLIST
+PLIST_SRC=      	PLIST.common
 
 ONLY_FOR_PLATFORM=	NetBSD-[2-9]*-i386
 
@@ -142,6 +142,8 @@ SUBST_SED.paths+=	-e 's,%%JVM_HOME%%,${JVM_HOME},g'
 BUILDLINK_PASSTHRU_DIRS+=	${JAVA_HOME}
 
 .include "options.mk"
+
+PLIST_SRC+=		PLIST.common_end
 
 post-extract:
 	${CHMOD} -R u+w ${WRKSRC}

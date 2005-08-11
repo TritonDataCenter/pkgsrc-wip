@@ -23,7 +23,7 @@ post-build:
 .if !empty(PKG_OPTIONS:Mjdk14-plugin)
 .include "../../devel/nspr/buildlink3.mk"
 BUILDLINK_DEPMETHOD.nspr=	build
-PLIST_SCR+=			PLIST.plugin
+PLIST_SRC+=			PLIST.plugin
 .else
 MAKE_ENV+=			NO_PLUGIN=YES
 .endif
