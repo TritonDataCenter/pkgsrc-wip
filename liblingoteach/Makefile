@@ -12,7 +12,7 @@ COMMENT=		Library for lingoteach
 USE_LIBTOOL=		yes
 PKGCONFIG_OVERRIDE+=	${WRKSRC}/liblingoteach.pc.in
 GNU_CONFIGURE=		yes
+USE_TOOLS+=		pkg-config
 
-.include "../../devel/pkg-config/buildlink3.mk"
 .include "../../textproc/libxml2/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

@@ -15,8 +15,7 @@ PKG_INSTALLATION_TYPES=	overwrite pkgviews
 USE_LIBTOOL=		yes
 PKGCONFIG_OVERRIDE+=	xv.pc.in
 GNU_CONFIGURE=		yes
-USE_TOOLS+=		gmake
+USE_TOOLS+=		gmake pkg-config
 
 .include "../../wip/libX11/buildlink3.mk"
-.include "../../devel/pkg-config/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

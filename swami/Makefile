@@ -14,11 +14,11 @@ PKG_INSTALLATION_TYPES=	overwrite pkgviews
 USE_LOCALEDIR=		YES
 GNU_CONFIGURE=		YES
 USE_LIBTOOL=		YES
+USE_TOOLS+=		pkg-config
 
 LDFLAGS+=		${EXPORT_SYMBOLS_LDFLAGS}
 
 .include "../../audio/libsndfile/buildlink3.mk"
-.include "../../devel/pkg-config/buildlink3.mk"
 .include "../../devel/popt/buildlink3.mk"
 .include "../../graphics/png/buildlink3.mk"
 .include "../../x11/gtk/buildlink3.mk"

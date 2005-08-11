@@ -15,6 +15,7 @@ PKG_INSTALLATION_TYPES=	overwrite pkgviews
 
 USE_LIBTOOL=		yes
 GNU_CONFIGURE=		yes
+USE_TOOLS+=		pkg-config
 
 PKGCONFIG_OVERRIDE+=	xi.pc.in
 
@@ -23,5 +24,4 @@ PKGCONFIG_OVERRIDE+=	xi.pc.in
 .include "../../wip/libXext/buildlink3.mk"
 .include "../../wip/xproto/buildlink3.mk"
 .include "../../x11/xextensions/buildlink3.mk"
-.include "../../devel/pkg-config/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

@@ -15,10 +15,10 @@ PKG_INSTALLATION_TYPES=	overwrite pkgviews
 
 USE_LIBTOOL=	yes
 GNU_CONFIGURE=	yes
+USE_TOOLS+=	pkg-config
 
 PKGCONFIG_OVERRIDE+=	xinerama.pc.in
 
-.include "../../devel/pkg-config/buildlink3.mk"
 .include "../../wip/libX11/buildlink3.mk"
 .include "../../wip/libXext/buildlink3.mk"
 .include "../../wip/panoramixext/buildlink3.mk"

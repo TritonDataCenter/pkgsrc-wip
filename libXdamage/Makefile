@@ -12,6 +12,7 @@ COMMENT=		Xdamage extension (Library)
 
 GNU_CONFIGURE=		yes
 USE_LIBTOOL=		yes
+USE_TOOLS+=		pkg-config
 
 PKGCONFIG_OVERRIDE+=	xdamage.pc.in
 
@@ -20,5 +21,4 @@ PKGCONFIG_OVERRIDE+=	xdamage.pc.in
 .include "../../wip/xproto/buildlink3.mk"
 .include "../../x11/Xfixes/buildlink3.mk"
 .include "../../x11/fixesext/buildlink3.mk"
-.include "../../devel/pkg-config/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

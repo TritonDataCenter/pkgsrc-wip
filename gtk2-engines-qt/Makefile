@@ -14,7 +14,7 @@ COMMENT=		GTK+ 2.x theme, which looks just like Qt toolkit
 
 USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=		yes
-USE_TOOLS+=		gmake
+USE_TOOLS+=		gmake pkg-config
 PKGCONFIG_OVERRIDE+=	gtk-qt-engine-2.pc.in
 GNU_CONFIGURE=		yes
 
@@ -25,6 +25,5 @@ MAKE_ENV+=		QTDIR=${QTDIR}
 MAKE_FLAGS+=		QTDIR=${QTDIR}
 
 .include "../../x11/gtk2/buildlink3.mk"
-.include "../../devel/pkg-config/buildlink3.mk"
 .include "../../x11/qt3-libs/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

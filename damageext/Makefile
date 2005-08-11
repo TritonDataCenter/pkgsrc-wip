@@ -11,11 +11,11 @@ HOMEPAGE=		http://www.freedesktop.org/Software/DamageExt
 COMMENT=		X Damage extension headers and specification
 
 PKG_INSTALLATION_TYPES=	overwrite pkgviews
+USE_TOOLS+=		pkg-config
 
 GNU_CONFIGURE=		yes
 
 PKGCONFIG_OVERRIDE+=	damageext.pc.in
 
-.include "../../devel/pkg-config/buildlink3.mk"
 .include "../../x11/fixesext/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

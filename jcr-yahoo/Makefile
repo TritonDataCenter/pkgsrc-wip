@@ -17,7 +17,7 @@ WRKSRC=			${WRKDIR}/jcr-0.2.4
 SUBWRKSRC=		${WRKSRC}/${DISTNAME}
 XMLCONFIG=		${WRKDIR}/${DISTNAME}/yahoo-jcr.xml
 
-USE_TOOLS+=		gmake
+USE_TOOLS+=		gmake pkg-config
 USE_PKGINSTALL=		yes
 
 PKG_SYSCONFSUBDIR=      jabberd
@@ -53,6 +53,5 @@ do-install:
 	${INSTALL_DATA} ${XMLCONFIG} ${EGDIR}
 
 .include "../../devel/glib2/buildlink3.mk"
-.include "../../devel/pkg-config/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
 

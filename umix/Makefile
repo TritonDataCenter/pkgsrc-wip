@@ -11,11 +11,10 @@ COMMENT=	Replacement for aumix
 USE_LIBTOOL=	YES
 
 GNU_CONFIGURE=          yes
-USE_TOOLS+=		gmake automake
+USE_TOOLS+=		gmake automake pkg-config
 
 PLIST_SUBST+=           DISTNAME=${DISTNAME}
 
-.include "../../devel/pkg-config/buildlink3.mk"
 .include "../../devel/ncurses/buildlink3.mk"
 .include "../../mk/ossaudio.buildlink3.mk"
 

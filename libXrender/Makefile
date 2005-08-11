@@ -12,6 +12,7 @@ COMMENT=		Xrender extension (Library)
 
 USE_LIBTOOL=		yes
 GNU_CONFIGURE=		yes
+USE_TOOLS+=		pkg-config
 
 PKGCONFIG_OVERRIDE+=	xrender.pc.in
 
@@ -19,5 +20,4 @@ PKGCONFIG_OVERRIDE+=	xrender.pc.in
 .include "../../wip/libXau/buildlink3.mk"
 .include "../../wip/xproto/buildlink3.mk"
 .include "../../x11/render/buildlink3.mk"
-.include "../../devel/pkg-config/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

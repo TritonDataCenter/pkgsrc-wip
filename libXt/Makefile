@@ -21,13 +21,12 @@ PKG_INSTALLATION_TYPES=	overwrite pkgviews
 #BUILD_DEPENDS+=		imake-[0-9]*:../../wip/imake
 #.endif
 
-USE_TOOLS+=		gmake
+USE_TOOLS+=		gmake pkg-config
 GNU_CONFIGURE=		yes
 USE_LIBTOOL=		yes
 
 PKGCONFIG_OVERRIDE+=	xt.pc.in
 
-.include "../../devel/pkg-config/buildlink3.mk"
 .include "../../wip/libICE/buildlink3.mk"
 .include "../../wip/libSM/buildlink3.mk"
 .include "../../wip/libX11/buildlink3.mk"

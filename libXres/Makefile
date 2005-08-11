@@ -13,6 +13,7 @@ COMMENT=		X Resource usage library
 
 USE_LIBTOOL=		yes
 GNU_CONFIGURE=		yes
+USE_TOOLS+=		pkg-config
 
 PKGCONFIG_OVERRIDE+=	xres.pc.in
 
@@ -22,5 +23,4 @@ PKGCONFIG_OVERRIDE+=	xres.pc.in
 .include "../../wip/xproto/buildlink3.mk"
 .include "../../x11/xextensions/buildlink3.mk"
 .include "../../wip/resourceext/buildlink3.mk"
-.include "../../devel/pkg-config/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

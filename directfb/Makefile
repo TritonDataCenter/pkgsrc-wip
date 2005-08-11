@@ -13,7 +13,7 @@ COMMENT=	Thin library that provides hardware graphics acceleration
 ONLY_FOR_PLATFORM=     Linux-*-* NetBSD-*-*
 
 GNU_CONFIGURE=	YES
-USE_TOOLS+=	gmake
+USE_TOOLS+=	gmake pkg-config
 
 CONFIGURE_ARGS+=	--with-gfxdrivers=all
 
@@ -23,7 +23,6 @@ CONFIGURE_ARGS+=	--with-gfxdrivers=all
 .include "../../devel/SDL/buildlink3.mk"
 .endif
 
-.include "../../devel/pkg-config/buildlink3.mk"
 .include "../../graphics/png/buildlink3.mk"
 .include "../../graphics/jpeg/buildlink3.mk"
 .include "../../graphics/freetype2/buildlink3.mk"

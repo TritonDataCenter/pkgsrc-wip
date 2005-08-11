@@ -12,10 +12,9 @@ COMMENT=	.NET language binding for various Evolution libraries
 
 USE_PKGLOCALEDIR=	yes
 PKGCONFIG_OVERRIDE+=	evolution-sharp.pc.in
-USE_TOOLS+=		gmake
+USE_TOOLS+=		gmake pkg-config
 GNU_CONFIGURE=		yes
 
-.include "../../devel/pkg-config/buildlink3.mk"
 .include "../../mail/evolution-data-server/buildlink3.mk"
 .include "../../wip/gtk-sharp/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
