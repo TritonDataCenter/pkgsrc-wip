@@ -1,9 +1,10 @@
 # $NetBSD: $
 #
 
-DISTNAME=	xmms-scrobbler-0.3.6
+DISTNAME=	xmms-scrobbler-0.3.8
 CATEGORIES=	audio
-MASTER_SITES=	http://static.audioscrobbler.com/plugins/
+MASTER_SITES=	http://static.audioscrobbler.com/plugins/ \
+		http://www.pipian.com/stuffforchat/
 EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	tnn@netilium.org
