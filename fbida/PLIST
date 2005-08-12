@@ -1,0 +1,6 @@
+@comment $NetBSD$
+bin/exiftran
+bin/ida
+lib/X11/app-defaults/Ida
+man/man1/exiftran.1
+man/man1/ida.1
