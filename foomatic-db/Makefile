@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	foomatic-db-3.0-20050729
+DISTNAME=	foomatic-db-3.0-20050814
 CATEGORIES=	print
 MASTER_SITES=	http://www.linuxprinting.org/download/foomatic/
 
