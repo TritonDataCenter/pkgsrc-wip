@@ -1,0 +1,4 @@
+@comment $NetBSD$
+bin/rc
+lib/rcmain
+man/man1/rc.1
