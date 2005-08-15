@@ -1,0 +1,5 @@
+@comment $NetBSD$
+bin/${PKGNAME}
+lib/X11/${PKGNAME}/system.${PKGNAME}rc
+man/cat1/${PKGNAME}.0.gz
+@dirrm lib/X11/${PKGNAME}
