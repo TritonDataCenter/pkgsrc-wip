@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	Module-Pluggable-Fast-0.13
+DISTNAME=	Module-Pluggable-Fast-0.16
 PKGNAME=	p5-${DISTNAME}
 SVR4_PKGNAME=	p5mpf
 CATEGORIES=	devel perl5
