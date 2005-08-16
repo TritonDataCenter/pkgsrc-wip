@@ -6,7 +6,7 @@ CATEGORIES=	shells
 MASTER_SITES=	http://wmi.modprobe.de/snaps/
 
 MAINTAINER=	lems@gmx.net
-HOMEPAGE=	http://wmii.modprobe.de/
+HOMEPAGE=	http://wmi.modprobe.de/
 COMMENT=	Port of the original rc shell from plan9
 
 CONFLICTS=		rc-[0-9]*
