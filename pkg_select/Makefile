@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		pkg_select-20050512
+DISTNAME=		pkg_select-20050817
 CATEGORIES=		pkgtools
 MASTER_SITES=	http://imil.net/NetBSD/
 
