@@ -25,12 +25,6 @@ BUILDLINK_DEPENDS.postgresql80-postgis-1.0.0+=	postgresql80-postgis-1.0.0>=rc2
 BUILDLINK_PKGSRCDIR.postgresql80-postgis-1.0.0?=	../../wip/postgresql80-postgis
 .endif	# POSTGRESQL80_POSTGIS_1.0.0_BUILDLINK3_MK
 
-# XXX
-# XXX Uncomment and keep only the buildlink3 lines below which are directly
-# XXX needed for dependencies to compile, link, and run.  If this package
-# XXX provides a wrappered API or otherwise does not expose the APIs of the
-# XXX buildlink3 lines below to dependencies, remove them.
-# XXX
 .include "../../wip/geos/buildlink3.mk"
 .include "../../misc/proj/buildlink3.mk"
 .include "../../devel/gettext-lib/buildlink3.mk"
