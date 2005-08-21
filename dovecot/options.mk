@@ -20,7 +20,7 @@ CONFIGURE_ARGS+=        --enable-ssl=openssl
 ###
 .if !empty(PKG_OPTIONS:Mmysql)
 CONFIGURE_ARGS+=	--with-mysql
-.  include "../../databases/mysql4-client/buildlink3.mk"
+.  include "../../databases/mysql-client/buildlink3.mk"
 .endif
 
 ###
