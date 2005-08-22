@@ -16,4 +16,3 @@ EXTRACT_CMD_OPTS.zip=   -aqo
 
 .include "../../audio/libvorbis/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
-
