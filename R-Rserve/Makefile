@@ -9,7 +9,7 @@ HOMEPAGE=              	http://stats.math.uni-augsburg.de/Rserve/index.shtml
 COMMENT=		TCP/IP server which allows other programs to use facilities of R
 
 R_PKGNAME=		Rserve
-R_PKGVER=               0.3-11
+R_PKGVER=               0.3-16
 
 .include "../../math/R/Makefile.extension"
 .include "../../mk/bsd.pkg.mk"
