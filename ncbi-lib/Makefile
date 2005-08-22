@@ -3,15 +3,15 @@
 
 DISTNAME=		ncbi
 PKGNAME=		ncbi-lib-${PKG_VER}
+PKG_VER=		20050605
 CATEGORIES=		biology
-MASTER_SITES=		ftp://ftp.ncbi.nih.gov/toolbox/ncbi_tools/old/20040505/
-EXTRACT_SUFX=		.tar.Z
+MASTER_SITES=		ftp://ftp.ncbi.nih.gov/toolbox/ncbi_tools/old/${PKG_VER}/
+EXTRACT_SUFX=		.tar.gz
 
 MAINTAINER=		mchittur@cs.nmsu.edu
 HOMEPAGE=		http://www.ncbi.nlm.nih.gov/IEB/ToolBox
 COMMENT=		Portable, modular software for molecular biology
 
-PKG_VER=		20040505
 WRKSRC=			${WRKDIR}/ncbi
 DIST_SUBDIR=		${PKGNAME}
 
