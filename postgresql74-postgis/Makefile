@@ -20,7 +20,7 @@ PATCHDIR=		${.CURDIR}/../../databases/postgresql74/patches
 .include "../../databases/postgresql74/Makefile.common"
 
 MASTER_SITES+=  	${PGSQL_SITES:=source/v${DIST_VERS}/}
-MASTER_SITES+=  	http://postgis.refractions.net/
+MASTER_SITES+=  	http://postgis.refractions.net/download/
 
 USE_PERL5=		YES
 
