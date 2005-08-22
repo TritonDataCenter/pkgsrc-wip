@@ -17,11 +17,13 @@ USE_JAVA2=		yes
 NO_BUILD=		#DEFINED
 INSTALL_DIR=		${PREFIX}/share/Artemis
 
+USE_TOOLS+=		gtar
+
 do-install:
 
 	${INSTALL_DATA_DIR} ${INSTALL_DIR}
 
-	(cd ${WRKSRC} && ${GTAR} cf - .) | (cd ${INSTALL_DIR} && ${GTAR} xf -)
+	(cd ${WRKSRC} && ${GTAR} -cf - .) | (cd ${INSTALL_DIR} && ${GTAR} -xf -)
 
 	${MKDIR} ${WRKSRC}/qwerty
 
