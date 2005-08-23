@@ -14,7 +14,6 @@ libexec/bacula/drop_${BACULA_DB}_database
 libexec/bacula/drop_${BACULA_DB}_tables
 libexec/bacula/drop_bacula_database
 libexec/bacula/drop_bacula_tables
-libexec/bacula/fd
 libexec/bacula/gconsole
 libexec/bacula/grant_${BACULA_DB}_privileges
 libexec/bacula/grant_bacula_privileges
