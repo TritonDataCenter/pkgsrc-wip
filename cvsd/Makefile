@@ -24,7 +24,7 @@ CONF_FILES=		${EGDIR}/cvsd.conf.example ${PKG_SYSCONFDIR}/cvsd.conf
 
 CVSD_USER?=		cvsd
 CVSD_GROUP?=		cvsd
-PKG_USERS=		${CVSD_USER}:${CVSD_GROUP}::CVS\\ wrapper:
+PKG_USERS=		${CVSD_USER}:${CVSD_GROUP}::CVS\ wrapper:
 PKG_GROUPS=		${CVSD_GROUP}
 
 pre-install:

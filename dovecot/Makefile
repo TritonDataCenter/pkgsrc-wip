@@ -26,7 +26,7 @@ RCD_SCRIPTS=	dovecot
 DOVECOT_USER?=	dovecot
 DOVECOT_GROUP?=	dovecot
 PKG_GROUPS=	${DOVECOT_GROUP}
-PKG_USERS=	${DOVECOT_USER}:${DOVECOT_GROUP}::Dovecot\\ IMAP/POP3\\ user
+PKG_USERS=	${DOVECOT_USER}:${DOVECOT_GROUP}::Dovecot\ IMAP/POP3\ user
 
 EGDIR=		${PREFIX}/share/examples/dovecot
 CONF_FILES=	${EGDIR}/dovecot.conf.default ${PKG_SYSCONFDIR}/dovecot.conf

@@ -37,11 +37,11 @@ SMXCNF=			${SMXCNFDIR}/smx.conf
 INSTALL_EXTRA_TMPL+=	${.CURDIR}/INSTALL
 
 PKG_GROUPS=     smxs smxq smxc smxm smx
-PKG_USERS=      smxs:smxs::Sendmail\\ X\\ SMTP\\ Server
-PKG_USERS+=	smxq:smxq::Sendmail\\ X\\ Queue\\ Manager
-PKG_USERS+=	smxc:smxc::Sendmail\\ X\\ SMTP\\ Client
-PKG_USERS+=	smxm:smxm::Sendmail\\ X\\ Address\\ Resolver
-PKG_USERS+=	smx:smx::Sendmail\\ X\\ Misc
+PKG_USERS=      smxs:smxs::Sendmail\ X\ SMTP\ Server
+PKG_USERS+=	smxq:smxq::Sendmail\ X\ Queue\ Manager
+PKG_USERS+=	smxc:smxc::Sendmail\ X\ SMTP\ Client
+PKG_USERS+=	smxm:smxm::Sendmail\ X\ Address\ Resolver
+PKG_USERS+=	smx:smx::Sendmail\ X\ Misc
 
 CONFIGURE_ARGS+=	--disable-TLS
 CONFIGURE_ARGS+=	--disable-SASL

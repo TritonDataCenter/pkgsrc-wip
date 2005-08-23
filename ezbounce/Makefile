@@ -26,7 +26,7 @@ EZBOUNCE_USER=		ezbounce
 EZBOUNCE_GROUP=		ezbounce
 
 PKG_GROUPS=             ${EZBOUNCE_GROUP}
-PKG_USERS=		${EZBOUNCE_USER}:${EZBOUNCE_GROUP}::Ezbounce\\ user
+PKG_USERS=		${EZBOUNCE_USER}:${EZBOUNCE_GROUP}::Ezbounce\ user
 
 RCD_SCRIPTS=            ezbounce
 

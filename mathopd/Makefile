@@ -25,7 +25,7 @@ MAKE_DIRS=	${PREFIX}/share/mathopd
 OWN_DIRS_PERMS+=	${VARBASE}/log/mathopd ${MATHOPD_USER} ${MATHOPD_GROUP} 0755
 
 PKG_GROUPS=	${MATHOPD_GROUP}
-PKG_USERS=	${MATHOPD_USER}:${MATHOPD_GROUP}::mathopd\\ user
+PKG_USERS=	${MATHOPD_USER}:${MATHOPD_GROUP}::mathopd\ user
 
 DOCS=	CHANGES cgi.txt config.txt running.txt sample.cfg syntax.txt
 

@@ -48,8 +48,8 @@ PPRWEB_USER?=		pprwww
 PPR_GROUP?=		ppr
 
 PKG_GROUPS=             ${PPR_GROUP}
-PKG_USERS=              ${PPR_USER}:${PPR_GROUP}::PPR\\ user::${SH}
-PKG_USERS+=		${PPRWEB_USER}:${PPR_GROUP}::PPR\\ web\\ user::${SH}
+PKG_USERS=              ${PPR_USER}:${PPR_GROUP}::PPR\ user::${SH}
+PKG_USERS+=		${PPRWEB_USER}:${PPR_GROUP}::PPR\ web\ user::${SH}
 
 #FILES_SUBST+=		PPR_USER=${PPR_USER}
 #FILES_SUBST+=		PPRWEB_USER=${PPRWEB_USER}

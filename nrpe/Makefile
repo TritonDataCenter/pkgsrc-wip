@@ -18,7 +18,7 @@ USE_REINPLACE=		yes
 
 RCD_SCRIPTS=		nrpe
 PKG_GROUPS?=		${NRPE_GROUP}
-PKG_USERS?=		${NRPE_USER}:${NRPE_GROUP}::Nagios\\ Runtime\\ User
+PKG_USERS?=		${NRPE_USER}:${NRPE_GROUP}::Nagios\ Runtime\ User
 
 INSTALLATION_DIRS=	sbin libexec/nagios share/examples/nagios
 

@@ -34,7 +34,7 @@ CONFLICTS+=	nntpclnt-[0-9]* inn*
 
 WRKSRC=		${WRKDIR}
 USE_PKGINSTALL=	YES
-PKG_USERS=	news:news::Internet\\ News:${CNEWSDATA}:${SH}
+PKG_USERS=	news:news::Internet\ News:${CNEWSDATA}:${SH}
 PKG_GROUPS=	news
 
 PKG_SYSCONFDIR.c-news=     ${CNEWSDATA}/etc

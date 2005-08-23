@@ -34,8 +34,8 @@ INSTALL_TARGET=		install install-config
 PKG_GROUPS+=	${NAGIOS_GROUP}
 PKG_GROUPS+=	${NAGIOSADM_GROUP}
 
-PKG_USERS+=	${NAGIOS_USER}:${NAGIOS_GROUP}::Nagios\\ Runtime\\ User
-PKG_USERS+=	${NAGIOSADM_USER}:${NAGIOSADM_GROUP}::Nagios\\ Administrator:${PREFIX}/etc/nagios:${SH}
+PKG_USERS+=	${NAGIOS_USER}:${NAGIOS_GROUP}::Nagios\ Runtime\ User
+PKG_USERS+=	${NAGIOSADM_USER}:${NAGIOSADM_GROUP}::Nagios\ Administrator:${PREFIX}/etc/nagios:${SH}
 
 EGDIR=		${PREFIX}/share/examples/nagios
 EGFILES=	cgi.cfg checkcommands.cfg contactgroups.cfg contacts.cfg	\

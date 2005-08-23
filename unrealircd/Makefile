@@ -65,7 +65,7 @@ DOC_FILES=	doc/Authors doc/coding-guidelines doc/tao.of.irc LICENSE
 CONF_FILES_PERMS=	${IRCD_EG}/example.conf ${IRCD_HOME}/unrealircd.conf \
 			${IRCD_USER} ${IRCD_GROUP} 0660
 
-PKG_USERS=	${IRCD_USER}:${IRCD_GROUP}::UnrealIRCD\\ user:${IRCD_HOME}:${NOLOGIN}
+PKG_USERS=	${IRCD_USER}:${IRCD_GROUP}::UnrealIRCD\ user:${IRCD_HOME}:${NOLOGIN}
 PKG_GROUPS=	${IRCD_GROUP}
 RCD_SCRIPTS=	unrealircd
 
