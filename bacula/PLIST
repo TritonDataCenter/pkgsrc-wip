@@ -6,6 +6,7 @@ share/examples/bacula/bconsole.conf
 libexec/bacula/query.sql
 libexec/bacula/bacula
 libexec/bacula/bconsole
+libexec/bacula/btraceback.dbx
 libexec/bacula/btraceback.gdb
 libexec/bacula/create_${BACULA_DB}_database
 libexec/bacula/create_bacula_database
