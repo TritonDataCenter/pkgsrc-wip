@@ -1,8 +1,8 @@
 # $NetBSD$
 #
 
-DISTNAME=		cvsutils-0.2.1
-CATEGORIES=		wip
+DISTNAME=		cvsutils-0.2.3
+CATEGORIES=		wip devel
 MASTER_SITES=		http://www.red-bean.com/cvsutils/releases/
 
 MAINTAINER=		pancake@phreaker.net
