@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		jamvm-1.3.0
+DISTNAME=		jamvm-1.3.2
 CATEGORIES=		wip lang
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=jamvm/}
 
