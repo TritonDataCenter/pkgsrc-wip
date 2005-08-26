@@ -13,7 +13,7 @@ COMMENT=		Music/rhythm game (Dance Dance Revolution) simulator
 GNU_CONFIGURE=		yes
 CONFIGURE_ARGS+=	--disable-tests
 USE_X11=		YES
-USE_GNU_TOOLS+=		make
+USE_TOOLS+=		gmake autoconf
 
 post-extract:
 	${CP} ${FILESDIR}/arch_bsd.h ${WRKSRC}/src/arch
