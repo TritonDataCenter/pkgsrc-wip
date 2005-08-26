@@ -1,10 +1,10 @@
 # $NetBSD$
 #
 
-DISTNAME=		mesure-0.4
+DISTNAME=		mesure-0.5
 CATEGORIES=		wip sysutils
-MASTER_SITES=		ftp://ftp.nopcode.org/prj/mesure/ \
-			http://www.nopcode.org/ftp/mesure/
+MASTER_SITES=		http://cvs.nopcode.org/ftp/mesure/\
+			ftp://ftp.nopcode.org/prj/mesure/
 
 MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://www.nopcode.org/?t=mesure
