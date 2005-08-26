@@ -12,6 +12,8 @@ COMMENT=		Tool to measure different kind of streams
 GNU_CONFIGURE=		yes
 USE_TOOLS+=		gmake
 
+NOT_FOR_PLATFORM+=	OpenBSD-*-*
+
 .include "../../devel/gmp/buildlink3.mk"
 .include "../../net/libpcap/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
