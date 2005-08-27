@@ -11,6 +11,8 @@ CONFLICTS=	wmii-[0-9]*
 
 MAKE_ENV+=	DRAW=cairo
 
+BROKEN=		Current version lacks cairo support
+
 SUBST_CLASSES+=	conf
 SUBST_STAGE.conf=	post-patch
 SUBST_FILES.conf=	config.mk
