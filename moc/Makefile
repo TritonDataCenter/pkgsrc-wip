@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=		moc-2.3.0
+DISTNAME=		moc-2.3.1
 CATEGORIES=		audio
 MASTER_SITES=		ftp://ftp.daper.net/pub/soft/moc/stable/
 EXTRACT_SUFX=		.tar.bz2
