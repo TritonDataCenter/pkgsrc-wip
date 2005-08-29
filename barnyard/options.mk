@@ -9,7 +9,7 @@ PKG_SUGGESTED_OPTIONS=	mysql
 ###
 ### Use PostgreSQL for storing user details
 ###
-.if !empty(PKG_OPTIONS:Mpostgresql)
+.if !empty(PKG_OPTIONS:Mpgsql)
 .	include "../../mk/pgsql.buildlink3.mk"
 CONFIGURE_ARGS+=	--enable-postgres
 CONFIGURE_ARGS+=	--with-postgres-includes=${PREFIX}/include/postgresql
