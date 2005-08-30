@@ -3,6 +3,7 @@
 DISTNAME=	texmaker-1.12
 CATEGORIES=	editors
 MASTER_SITES=	http://www.xm1math.net/texmaker/
+MASTER_SITES=	http://www.epidauros.be/pkgsrc/	### TEMPORARY!
 EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	geert.hendrickx@ua.ac.be
