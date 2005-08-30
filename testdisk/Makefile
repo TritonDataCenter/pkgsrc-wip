@@ -6,7 +6,7 @@ CATEGORIES=		wip sysutils
 MASTER_SITES=		http://www.cgsecurity.org/
 
 MAINTAINER=		pancake@phreaker.net
-HOMEPAGE=		http://www.cgsecurity.org/
+HOMEPAGE=		http://www.cgsecurity.org/testdisk.html
 COMMENT=		Tool to check and undelete partitions
 
 USE_PKGLOCALEDIR=	yes
