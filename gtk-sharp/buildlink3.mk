@@ -25,7 +25,7 @@ BUILDLINK_PKGSRCDIR.gtk-sharp?=	../../wip/gtk-sharp
 .include "../../graphics/librsvg2/buildlink3.mk"
 .include "../../lang/mono/buildlink3.mk"
 .include "../../textproc/libxml2/buildlink3.mk"
-.include "../../www/gtkhtml3/buildlink3.mk"
+.include "../../www/gtkhtml36/buildlink3.mk"
 .include "../../x11/vte/buildlink3.mk"
 .include "../../mk/x11.buildlink3.mk"
 
