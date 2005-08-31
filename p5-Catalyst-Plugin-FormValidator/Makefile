@@ -11,7 +11,7 @@ COMMENT=	FormValidator for Catalyst
 
 PERL5_REQD+=    5.6.3
 
-DEPENDS+=	p5-Catalyst>=2.99:../../www/p5-Catalyst
+DEPENDS+=	p5-Catalyst>=2.99:../../wip/p5-Catalyst
 DEPENDS+=	p5-Data-FormValidator>=0:../../textproc/p5-Data-FormValidator
 
 PERL5_PACKLIST= auto/Catalyst/Plugin/FormValidator/.packlist

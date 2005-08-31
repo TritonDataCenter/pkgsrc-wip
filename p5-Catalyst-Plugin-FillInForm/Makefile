@@ -11,9 +11,9 @@ HOMEPAGE=	http://search.cpan.org/dist/Catalyst-Plugin-FillInForm/
 COMMENT=	Automatically fill in forms in Catalyst using HTML::FillInForms
 PERL5_REQD+=    5.8
 
-DEPENDS+=	p5-Catalyst>=2.99:../../www/p5-Catalyst
+DEPENDS+=	p5-Catalyst>=2.99:../../wip/p5-Catalyst
 DEPENDS+=	p5-HTML-FillInForm>=0:../../www/p5-HTML-FillInForm
-DEPENDS+=	p5-NEXT>=0.00:../../devel/p5-NEXT
+DEPENDS+=	p5-NEXT>=0.00:../../wip/p5-NEXT
 
 PERL5_PACKLIST= auto/Catalyst/Plugin/FillInForm/.packlist
 
