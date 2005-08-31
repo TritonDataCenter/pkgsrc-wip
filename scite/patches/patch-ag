@@ -6,8 +6,8 @@ $NetBSD$
  vpath %.cxx ../src
  
  INCLUDEDIRS=-I ../include -I ../src
--CXXBASEFLAGS=-W -Wall -Wno-char-subscripts -DGTK -DSCI_LEXER $(INCLUDEDIRS)
-+CXXBASEFLAGS=-W -Wall -Wno-char-subscripts -DGTK -DSCI_LEXER $(CPPFLAGS) $(INCLUDEDIRS)
+-CXXBASEFLAGS=-Wall -Wno-missing-braces -Wno-char-subscripts -DGTK -DSCI_LEXER $(INCLUDEDIRS)
++CXXBASEFLAGS=-Wall -Wno-missing-braces -Wno-char-subscripts -DGTK -DSCI_LEXER $(CPPFLAGS) $(INCLUDEDIRS)
  
  ifdef NOTHREADS
  THREADFLAGS=-DG_THREADS_IMPL_NONE
