@@ -10,9 +10,9 @@ HOMEPAGE=	http://search.cpan.org/dist/Catalyst-View-TT
 COMMENT=	Template Toolkit view class for Catalyst
 
 PERL5_REQD+=    5.8.0
-DEPENDS+=	p5-Catalyst>=5.00:../../www/p5-Catalyst
+DEPENDS+=	p5-Catalyst>=5.00:../../wip/p5-Catalyst
 DEPENDS+=	p5-Template-Toolkit>=0:../../www/p5-Template-Toolkit
-DEPENDS+=	p5-Template-Timer>=0:../../www/p5-Template-Timer
+DEPENDS+=	p5-Template-Timer>=0:../../wip/p5-Template-Timer
 
 PERL5_PACKLIST= auto/Catalyst/View/TT/.packlist
 

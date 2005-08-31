@@ -10,7 +10,7 @@ HOMEPAGE=	http://search.cpan.org/dist/Catalyst-Plugin-SubRequest/
 COMMENT=	Serve static files from config->{root}.
 PERL5_REQD+=    5.8.0
 
-DEPENDS+=	p5-Catalyst>=2.99:../../www/p5-Catalyst
+DEPENDS+=	p5-Catalyst>=2.99:../../wip/p5-Catalyst
 
 PERL5_PACKLIST= auto/Catalyst/Plugin/SubRequest/.packlist
 
