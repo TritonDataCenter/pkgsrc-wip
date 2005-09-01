@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		gnump3d-2.8
+DISTNAME=		gnump3d-2.9.4
 CATEGORIES=		audio
 MASTER_SITES=		http://savannah.gnu.org/download/gnump3d/
 EXTRACT_SUFX=		.tar.bz2
