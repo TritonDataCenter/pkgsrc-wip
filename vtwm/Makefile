@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		vtwm-5.4.7
-CATEGORIES=		x11 wm
+CATEGORIES=		wip x11 wm
 MASTER_SITES=  http://www.vtwm.org/downloads/
 
 MAINTAINER=		mehul.sanghvi@gmail.com
