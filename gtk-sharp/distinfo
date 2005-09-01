@@ -3,4 +3,3 @@ $NetBSD$
 SHA1 (gtk-sharp-1.0.10.tar.gz) = 6965559e2e3b741f587a41d286935c73a2c2c437
 RMD160 (gtk-sharp-1.0.10.tar.gz) = 53db7e93424b2429cf825390633ede4d7c511564
 Size (gtk-sharp-1.0.10.tar.gz) = 1841067 bytes
-SHA1 (patch-aa) = ccc08bf0130e6005f66be61516aadc335c789feb
