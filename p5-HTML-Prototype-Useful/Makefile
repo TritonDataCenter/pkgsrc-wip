@@ -11,7 +11,6 @@ COMMENT=	Some useful additions for the Prototype library.
 
 DEPENDS+=	p5-HTML-Prototype>=1.32:../../www/p5-HTML-Prototype
 
-BUILDING_MODULE_BUILD=  yes
 PERL5_MODULE_TYPE=      Module::Build
 PERL5_PACKLIST= auto/HTML/Prototype/Useful/.packlist
 

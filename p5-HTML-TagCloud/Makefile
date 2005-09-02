@@ -11,7 +11,6 @@ COMMENT=	Generate An HTML Tag Cloud
 
 DEPENDS+=	p5-Test-Simple>=0:../../devel/p5-Test-Simple
 
-BUILDING_MODULE_BUILD=  yes
 PERL5_MODULE_TYPE=      Module::Build
 PERL5_PACKLIST= auto/HTML/TagCloud/.packlist
 

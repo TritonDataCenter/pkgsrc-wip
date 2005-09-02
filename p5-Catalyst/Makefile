@@ -25,7 +25,6 @@ DEPENDS+=	p5-Tree-Simple-VisitorFactory>=0:../../wip/p5-Tree-Simple-VisitorFacto
 DEPENDS+=	p5-URI>=0:../../www/p5-URI
 DEPENDS+=	p5-Path-Class>=0.09:../../wip/p5-Path-Class
 
-BUILDING_MODULE_BUILD=  yes
 PERL5_MODULE_TYPE=      Module::Build
 PERL5_PACKLIST= auto/Catalyst/.packlist
 

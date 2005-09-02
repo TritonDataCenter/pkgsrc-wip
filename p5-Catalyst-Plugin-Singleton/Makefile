@@ -14,7 +14,6 @@ PERL5_REQD+=    5.7.3
 DEPENDS+=	p5-Catalyst>=0:../../wip/p5-Catalyst
 DEPENDS+=	p5-Scalar-List-Utils>=0:../../devel/p5-Scalar-List-Utils
 
-BUILDING_MODULE_BUILD=  yes
 PERL5_MODULE_TYPE=      Module::Build
 PERL5_PACKLIST= 	auto/Catalyst/Plugin/Singleton/.packlist
 
