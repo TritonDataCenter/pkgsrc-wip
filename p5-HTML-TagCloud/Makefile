@@ -9,7 +9,7 @@ MAINTAINER=	kuli0020@umn.edu
 HOMEPAGE=	http://search.cpan.org/dist/HTML-TagCloud/
 COMMENT=	Generate An HTML Tag Cloud
 
-DEPENDS+=	p5-Test-Simple>=0:../../devel/p5-Test-Simple
+DEPENDS+=       {perl>=5.7.3,p5-Test-Simple>=0.47}:../../devel/p5-Test-Simple
 
 PERL5_MODULE_TYPE=      Module::Build
 PERL5_PACKLIST= auto/HTML/TagCloud/.packlist
