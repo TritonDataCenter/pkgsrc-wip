@@ -11,7 +11,7 @@ COMMENT=	Pager utility for Class::DBI
 
 DEPENDS+=	p5-Class-Accessor-Chained>=0:../../wip/p5-Class-Accessor-Chained
 BUILD_DEPENDS+=	p5-Test-Exception>=0:../../devel/p5-Test-Exception
-BUILD_DEPENDS+=	p5-Test-Simple>=0:../../devel/p5-Test-Simple
+DEPENDS+=       {perl>=5.7.3,p5-Test-Simple>=0}:../../devel/p5-Test-Simple
 
 PERL5_MODULE_TYPE=      Module::Build
 PERL5_PACKLIST= auto/Data/Page/.packlist
