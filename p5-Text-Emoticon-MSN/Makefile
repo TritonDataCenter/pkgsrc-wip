@@ -9,7 +9,7 @@ MAINTAINER=	kuli0020@NetBSD.org
 HOMEPAGE=	http://cpan.uwinnipeg.ca/dist/Text-Emoticon-MSN
 COMMENT=	Emoticon filter of MSN Messenger
 
-BUILD_DEPENDS=	p5-Test-Simple>=0.32:../../devel/p5-Test-Simple
+DEPENDS+=       {perl>=5.7.3,p5-Test-Simple>=0.32}:../../devel/p5-Test-Simple
 
 PERL5_PACKLIST=		auto/Text/Emoticon/MSN/.packlist
 
