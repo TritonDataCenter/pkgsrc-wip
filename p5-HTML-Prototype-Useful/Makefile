@@ -9,7 +9,7 @@ MAINTAINER=	kuli0020@umn.edu
 HOMEPAGE=	http://search.cpan.org/dist/HTML-Prototype-Useful
 COMMENT=	Some useful additions for the Prototype library.
 
-DEPENDS+=	p5-HTML-Prototype>=1.32:../../www/p5-HTML-Prototype
+DEPENDS+=	p5-HTML-Prototype>=1.32:../../wip/p5-HTML-Prototype
 
 PERL5_MODULE_TYPE=      Module::Build
 PERL5_PACKLIST= auto/HTML/Prototype/Useful/.packlist
