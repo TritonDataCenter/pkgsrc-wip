@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		Encode-compat-0.06
+DISTNAME=		Encode-compat-0.07
 PKGNAME=		p5-${DISTNAME}
 CATEGORIES=		compat perl5
 MASTER_SITES=		${MASTER_SITE_PERL_CPAN:=Encode/}
