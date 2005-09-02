@@ -10,7 +10,7 @@ HOMEPAGE=	http://datetime.perl.org/
 COMMENT=	Convert between DateTime and RFC2822/822 formats
 
 DEPENDS+=       p5-DateTime-[0-9]*:../../time/p5-DateTime
-DEPENDS+=	p5-Test-Simple>=0.47:../../devel/p5-Test-Simple
+DEPENDS+=       {perl>=5.7.3,p5-Test-Simple>=0.47}:../../devel/p5-Test-Simple
 DEPENDS+=	p5-Params-Validate>=0.67:../../devel/p5-Params-Validate
 
 PERL5_MODULE_TYPE=      Module::Build
