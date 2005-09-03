@@ -13,4 +13,3 @@ PERL5_PACKLIST=         ${PERL5_SITEARCH}/auto/Date/Simple/.packlist
 
 .include "../../lang/perl5/module.mk"
 .include "../../mk/bsd.pkg.mk"
-
