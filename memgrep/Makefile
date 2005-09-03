@@ -6,7 +6,7 @@ CATEGORIES=		wip devel
 MASTER_SITES=		http://www.hick.org/code/skape/memgrep/
 
 MAINTAINER=		pancake@phreaker.net
-HOMEPAGE=		http://www.hick.org/code/skape/memgrep/
+HOMEPAGE=		http://www.hick.org/code.html
 COMMENT=		Tool to modify applications on-the-fly
 
 USE_PKGLOCALEDIR=	yes
