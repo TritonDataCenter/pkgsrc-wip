@@ -3,7 +3,7 @@
 DISTNAME=	smX-${VERSION}
 PKGNAME=	sendmailX-${VERSION}
 CATEGORIES=	mail
-MASTER_SITES=	ftp://ftp.sendmail.org/pub/sendmail/.beta/fnlly/
+MASTER_SITES=	ftp://ftp.sendmail.org/pub/sendmail/.beta/thatsit/
 
 MAINTAINER=	adrianp@NetBSD.org
 HOMEPAGE=	http://www.sendmail.org/
@@ -13,7 +13,7 @@ CONFLICTS+=	postfix-[0-9]* fastforward>=0.51nb2 sendmail-[0-9]*
 GNU_CONFIGURE=	YES
 USE_PKGINSTALL=	YES
 PTHREAD_OPTS+=	require
-VERSION=	0.0.Beta0.0
+VERSION=	0.0.Beta1.0
 USE_TOOLS+=	sed
 
 # Note: This will work on Linux, NetBSD, OpenBSD, SunOS, OSF1 and UnixWare but

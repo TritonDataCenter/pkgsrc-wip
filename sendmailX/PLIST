@@ -29,6 +29,7 @@ man/man8/smar.8
 man/man8/smtpc.8
 man/man8/smtps.8
 sbin/greyprint
+sbin/greyrm
 sbin/mcp
 share/doc/smX/README.html
 share/doc/smX/README.txt
