@@ -15,7 +15,7 @@ command_args="-d ${conf_file}"
 pidfile="/var/run/${name}.pid"
 required_files="${conf_file}"
 
-start_precmd="${name}_precmd"
+# start_precmd="${name}_precmd"
 
 load_rc_config $name
 run_rc_command "$1"
