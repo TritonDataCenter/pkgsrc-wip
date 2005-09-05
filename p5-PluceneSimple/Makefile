@@ -1,7 +1,7 @@
 # $NetBSD$
 
 DISTNAME=	PluceneSimple-1.04
-PKGNAME=	p5-{DISTNAME}
+PKGNAME=	p5-${DISTNAME}
 CATEGORIES=	textproc perl5
 MASTER_SITES=   ${MASTER_SITE_PERL_CPAN:=../by-authors/id/S/ST/STRYTOAST/}
 
