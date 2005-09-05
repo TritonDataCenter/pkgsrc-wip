@@ -12,7 +12,6 @@ DISTINFO_FILE=		${.CURDIR}/../../wip/p5-HTML-Latex/distinfo
 
 REPLACE_PERL=		html2latex
 
-NO_CONFIGURE=		YES
 NO_BUILD=		YES
 
 do-install:
