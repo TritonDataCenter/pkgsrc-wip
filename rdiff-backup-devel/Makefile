@@ -1,9 +1,9 @@
 # $NetBSD$
 #
 
-DISTNAME=	rdiff-backup-0.13.6
+DISTNAME=	rdiff-backup-1.0.0
 CATEGORIES=	sysutils net
-MASTER_SITES=	http://www.nongnu.org/rdiff-backup/
+MASTER_SITES=	http://savannah.nongnu.org/download/rdiff-backup/
 
 MAINTAINER=	peter.schuller@infidyne.com
 HOMEPAGE=	http://www.nongnu.org/rdiff-backup/
