@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	easytag-1.99.7
+DISTNAME=	easytag-1.99.8
 CATEGORIES=	audio
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=easytag/}
 EXTRACT_SUFX=	.tar.bz2
@@ -14,13 +14,13 @@ BUILD_USES_MSGFMT=      yes     # xgettext, really
 
 GNU_CONFIGURE=          yes
 USE_DIRS+=              xdg-1.1
+USE_TOOLS+=		pkg-config
 USE_PKGLOCALEDIR=       yes
 USE_LIBTOOL=            yes
 
-.include "../../audio/flac/buildlink3.mk"
+.include "options.mk"
+
 .include "../../audio/id3lib/buildlink3.mk"
-.include "../../audio/libvorbis/buildlink3.mk"
-.include "../../multimedia/libogg/buildlink3.mk"
 .include "../../x11/gtk2/buildlink3.mk"
 .include "../../mk/x11.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
