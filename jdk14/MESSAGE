@@ -8,4 +8,8 @@ If you have built the Mozilla browser plugin, you must create a symlink to
 in the ${LOCALBASE}/lib/${MOZILLA}/plugins/ dir, for any ${MOZILLA} package
 (firefox, firefox-gtk1, mozilla, mozilla-gtk2) you want to use the plugin
 with.
+
+For the plugin to work, you may have to increase your datasize limit (any
+value bigger than the default 128M seems to suffice).  On an IPv6-enabled
+kernel, you will also have to disable the net.inet6.ip6.v6only sysctl.
 ===========================================================================
