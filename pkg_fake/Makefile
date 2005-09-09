@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	pkg_fake-20050421
+DISTNAME=	pkg_fake-0.1
 CATEGORIES=	pkgtools
 MASTER_SITES=	# empty
 DISTFILES=	# empty
@@ -11,6 +11,8 @@ COMMENT=	pkgsrc tool to create and manage fake packages
 NO_CONFIGURE=	yes
 NO_CHECKSUM=	yes
 NO_BUILD=	yes
+
+DEPENDS+=  pkg_alternatives>=1.3:../../pkgtools/pkg_alternatives/
 
 do-extract:
 	@${CP} -R ${FILESDIR} ${WRKSRC}
