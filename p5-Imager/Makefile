@@ -16,7 +16,7 @@ DEPENDS+=	jpeg>=0:../../graphics/jpeg
 
 USE_FREETYPE=	yes
 CONFIGURE_ENV=	IM_LIBPATH="${LOCALBASE}/lib:${X11BASE}/lib" \
-		IM_INCPATH="${X11BASE}/include:${LOCALBASE}/include"
+		IM_INCPATH="${LOCALBASE}/include:${X11BASE}/include"
 
 USE_TOOLS+=	gmake
 
