@@ -45,11 +45,12 @@ CONFIGURE_ARGS+=	--disable-native-awt
 CONFIGURE_ENV+=		VM_LIBS="-lc"
 .endif
 
-.if (${OPSYS} == "NetBSD") && (${MACHINE_ARCH} == "alpha")
+.if (((${OPSYS} == "NetBSD") && (${MACHINE_ARCH} == "alpha")) || (${MACHINE_ARCH} == "powerpc") || ((${OPSYS} == "SunOS") && ${MACHINE_ARCH} == "i386"))
 # On these systems, jit3 is not working.
 CONFIGURE_ARGS+=	--with-engine=intrp
 .endif
 
+.include "../../mk/pthread.buildlink3.mk"
 .include "../../converters/libiconv/buildlink3.mk"
 .include "../../devel/gmp/buildlink3.mk"
 .include "../../devel/zlib/buildlink3.mk"
