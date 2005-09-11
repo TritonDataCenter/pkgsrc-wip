@@ -1,6 +1,6 @@
 # $NetBSD$
 
-PKG_OPTIONS_VAR=        PKG_OPTIONS.obby
+PKG_OPTIONS_VAR=        PKG_OPTIONS.libobby
 PKG_SUPPORTED_OPTIONS=  zeroconf
 
 .include "../../mk/bsd.options.mk"
