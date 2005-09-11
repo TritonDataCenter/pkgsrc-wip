@@ -3,7 +3,7 @@
 
 DISTNAME=		libxml++-2.10.0
 PKGNAME=		libxml++2-2.10.0
-CATEGORIES=		wip
+CATEGORIES=		textproc
 MASTER_SITES=		http://ftp.gnome.org/pub/GNOME/sources/libxml++/2.10/
 EXTRACT_SUFX=		.tar.bz2
 

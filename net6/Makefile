@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		net6-1.1.0
-CATEGORIES=		wip
+CATEGORIES=		devel net
 MASTER_SITES=		http://releases.0x539.de/net6/
 
 MAINTAINER=		evaldo@gardenali.biz
