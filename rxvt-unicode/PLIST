@@ -6,5 +6,3 @@ man/man1/urxvt.1
 man/man1/urxvtc.1
 man/man1/urxvtd.1
 man/man7/urxvt.7
-share/terminfo/r/rxvt-unicode
-@unexec ${RMDIR} %D/share/terminfo/r 2> /dev/null || ${TRUE}
