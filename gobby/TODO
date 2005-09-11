@@ -1,0 +1,3 @@
+$NetBSD$
+To-do list for gobby
+- Fix optional dependency inheritance for when libobby is built with zeroconf
