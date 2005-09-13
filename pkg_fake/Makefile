@@ -13,7 +13,7 @@ NO_CHECKSUM=	yes
 NO_BUILD=	yes
 
 DEPENDS+=  pkg_alternatives>=1.3:../../pkgtools/pkg_alternatives/
-DEPENDS+=  pkg_find>=20050302:../../pkgtools/pkgfind/
+DEPENDS+=  pkgfind>=20050804:../../pkgtools/pkgfind/
 
 do-extract:
 	@${CP} -R ${FILESDIR} ${WRKSRC}
