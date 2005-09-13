@@ -15,3 +15,12 @@ $NetBSD$
  	if sys.platform == 'darwin':
  		default_cpppath = ['/sw/lib']
  	else:
+@@ -44,7 +44,7 @@ opts = Options("options.cache")
+ opts.Add('CC', 'C compiler to use')
+ opts.Add('CXX', 'C++ compiler to use')
+ opts.Add('LD', 'Linker to use')
+-opts.Add(SimpleListOption('LINKFLAGS', 'Linker flags', []))
++opts.Add(SimpleListOption('LINKFLAGS', 'Linker flags', '-Wl,-R$PREFIX/lib'))
+ opts.Add(SimpleListOption('LIBPATH', 'Path to libs', []))
+ opts.Add(SimpleListOption('CPPPATH', 'path to include files', default_cpppath))
+ opts.Add(SimpleListOption('CXXFLAGS', 'C++ compilerflags', default_cxxflags))
