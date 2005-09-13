@@ -25,7 +25,8 @@ PKGCONFIG_OVERRIDE_STAGE=	post-build
 
 do-build:
 	${_PKG_SILENT}${_PKG_DEBUG}${_ULIMIT_CMD}cd ${WRKSRC} \
-		&& ${SETENV} ${MAKE_ENV} ${PREFIX}/bin/scons EXCLUDE="${EXCLUDE}"
+		&& ${SETENV} ${MAKE_ENV} ${PREFIX}/bin/scons \
+		EXCLUDE="${EXCLUDES}"
 
 do-install:
 	${_PKG_SILENT}${_PKG_DEBUG}${_ULIMIT_CMD}cd ${WRKSRC} \
