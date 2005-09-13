@@ -16,11 +16,6 @@ CONFIGURE_ARGS+=	--dependency-dir=${LOCALBASE}/bin\;${LOCALBASE}/lib\;${LOCALBAS
 CONFIGURE_ARGS+=	--disable-alsa
 CONFIGURE_ARGS+=	--disable-jack
 
-SUBST_CLASSES+=		machine
-SUBST_STAGE.machine=	post-patch
-SUBST_FILES.machine=	../lib/portaudio-v18/pa_unix_oss/pa_unix_oss.c
-SUBST_SED.machine=	-e 's,machine/soundcard.h,soundcard.h,g'
-
 SUBST_CLASSES+=		bash
 SUBST_STAGE.bash=	pre-configure
 SUBST_FILES.bash=	configure
