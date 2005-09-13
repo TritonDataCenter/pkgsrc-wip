@@ -9,12 +9,17 @@ MAINTAINER=	lems@gmx.net
 HOMEPAGE=	http://xmms2.xmms.org/
 COMMENT=	Audio player using a client-server model
 
+BUILD_DEPENDS+=		scons>=0.96.1nb1:../../devel/scons
+
 NO_CONFIGURE=		yes
 USE_TOOLS+=		pkg-config
-
 MANCOMPRESSED=		yes
 
-BUILD_DEPENDS+=		scons>=0.96.1nb1:../../devel/scons
+PKGCONFIG_OVERRIDE=	xmms2-client-ecore.pc
+PKGCONFIG_OVERRIDE+=	xmms2-client-glib.pc
+PKGCONFIG_OVERRIDE+=	xmms2-client.pc
+PKGCONFIG_OVERRIDE+=	xmms2-plugin.pc
+PKGCONFIG_OVERRIDE_STAGE=	post-build
 
 .include "options.mk"
 
