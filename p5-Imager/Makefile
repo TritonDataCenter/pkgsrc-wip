@@ -15,10 +15,11 @@ DEPENDS+=	png>=0:../../graphics/png
 DEPENDS+=	jpeg>=0:../../graphics/jpeg
 
 USE_FREETYPE=	yes
-CONFIGURE_ENV=	IM_LIBPATH="${LOCALBASE}/lib:${X11BASE}/lib" \
-		IM_INCPATH="${LOCALBASE}/include:${X11BASE}/include"
+CONFIGURE_ENV+=	IM_LIBPATH="${X11BASE}/lib:${LOCALBASE}/lib"
+CONFIGURE_ENV+=	IM_INCPATH="${X11BASE}/include:${LOCALBASE}/include"
+CONFIGURE_ENV+=	IM_CFLAGS="${CFLAGS}"
 
-USE_TOOLS+=	gmake
+#USE_TOOLS+=	gmake
 
 PERL5_PACKLIST= auto/Imager/.packlist
 

@@ -2,4 +2,5 @@ $NetBSD$
 
 SHA1 (Imager-0.45.tar.gz) = 9a6c4371267262e7ccb4f9bcad6bbdb27ddba4a6
 RMD160 (Imager-0.45.tar.gz) = 87792924279c9edd21e8fa9ac67b16493f76e849
-Size (Imager-0.45.tar.gz) = 591926 bytes
+Size (Imager-0.45.tar.gz) = 591926  bytes
+SHA1 (patch-Makefile.PL) = ade1fff425f0d93a3e54ea8ad27190fc5f5f5234
