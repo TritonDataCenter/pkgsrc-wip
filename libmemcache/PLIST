@@ -1,0 +1,5 @@
+@comment $NetBSD$
+include/_buffer.h
+include/buffer.h
+include/memcache.h
+lib/libmemcache.la
