@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	Catalyst-5.30
+DISTNAME=	Catalyst-5.33
 PKGNAME=	p5-${DISTNAME}
 CATEGORIES=	www perl5
 MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=../by-authors/id/M/MR/MRAMBERG/}
