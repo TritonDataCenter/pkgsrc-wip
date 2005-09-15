@@ -11,7 +11,7 @@ BUILDLINK_PACKAGES:=	${BUILDLINK_PACKAGES:Nlibmemcache}
 BUILDLINK_PACKAGES+=	libmemcache
 
 .if !empty(LIBMEMCACHE_BUILDLINK3_MK:M+)
-BUILDLINK_DEPENDS.libmemcache+=	libmemcache>=1.3.99
+BUILDLINK_DEPENDS.libmemcache+=	libmemcache>=1.4.0beta5
 BUILDLINK_PKGSRCDIR.libmemcache?=	../../wip/libmemcache
 .endif	# LIBMEMCACHE_BUILDLINK3_MK
 
