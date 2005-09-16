@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	emelfm2-0.1.1
+DISTNAME=	emelfm2-0.1.2
 CATEGORIES=	sysutils
 MASTER_SITES=	http://emelfm2.org/rel/
 
