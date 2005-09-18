@@ -13,6 +13,9 @@ CONF_FILES=		${JAVA_HOME}/jre/lib/security/java.security.default \
 
 .include "../../mk/bsd.prefs.mk"
 
+UNLIMIT_RESOURCES=        datasize
+LIBS= -lltdl
+
 PRINT_PLIST_AWK+=	/^java\/kaffe\/jre\/lib\/security\/java.security$$/ \
 				{ next; }
 
