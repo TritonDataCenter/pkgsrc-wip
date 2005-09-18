@@ -30,6 +30,7 @@ DISTINFO_FILE=		${.CURDIR}/../../wip/kaffe/distinfo
 
 BUILDLINK_PASSTHRU_DIRS+=	${JAVA_HOME}/jre/lib/${MACHINE_ARCH}
 
+CONFIGURE_ARGS+=	--with-gc=kaffe-gc
 CONFIGURE_ARGS+=	--without-alsa
 CONFIGURE_ARGS+=	--without-esd
 CONFIGURE_ARGS+=	--disable-esdtest

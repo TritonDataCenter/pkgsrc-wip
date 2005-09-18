@@ -5,6 +5,7 @@ bin/kaffe-java
 bin/kaffe-javac
 bin/kaffe-javadoc
 bin/kaffe-javah
+bin/kaffe-javakey
 bin/kaffe-javap
 bin/kaffe-jdb
 bin/kaffe-rmic
