@@ -7,7 +7,7 @@ MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=xmms2/}
 
 MAINTAINER=	lems@gmx.net
 HOMEPAGE=	http://xmms2.xmms.org/
-COMMENT=	Audio player using a client-server model
+COMMENT=	Audio player featuring a client-server model
 
 BUILD_DEPENDS+=		scons>=0.96.1nb1:../../devel/scons
 

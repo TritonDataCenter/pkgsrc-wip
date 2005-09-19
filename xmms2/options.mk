@@ -2,7 +2,7 @@
 
 PKG_OPTIONS_VAR=	PKG_OPTIONS.xmms2
 PKG_SUPPORTED_OPTIONS=	curl flac ogg pyrex ruby
-PKG_SUGGESTED_OPTIONS=	curl flac ogg pyrex ruby
+PKG_SUGGESTED_OPTIONS=	curl flac ogg ruby
 
 .include "../../mk/bsd.options.mk"
 
