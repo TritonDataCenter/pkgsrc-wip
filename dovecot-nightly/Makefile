@@ -12,7 +12,7 @@ COMMENT=		Secure IMAP and POP3 server
 PKG_INSTALLATION_TYPES=	overwrite pkgviews
 
 # generate WRKSRC on demand
-WRKSRC_CMD=		${ECHO} ${WRKDIR}/dovecot-1.0-test*
+WRKSRC_CMD=		${ECHO} ${WRKDIR}/dovecot-1.0*
 WRKSRC=			${WRKSRC_CMD:sh}
 
 USE_LIBTOOL=		yes
