@@ -6,7 +6,7 @@ CATEGORIES=	graphics perl5
 MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=Imager/}
 
 MAINTAINER=	kuli0020@umn.edu
-HOMEPAGE=	http://www.eecs.umich.edu/~addi/perl/Imager/
+HOMEPAGE=	http://search.cpan.org/~tonyc/Imager/
 COMMENT=	A Perl module for manipulating gray, color and rgba format images
 
 DEPENDS+=	t1lib>=0:../../fonts/t1lib
@@ -14,12 +14,9 @@ DEPENDS+=	tiff>=0:../../graphics/tiff
 DEPENDS+=	png>=0:../../graphics/png
 DEPENDS+=	jpeg>=0:../../graphics/jpeg
 
-USE_FREETYPE=	yes
-CONFIGURE_ENV+=	IM_LIBPATH="${X11BASE}/lib:${LOCALBASE}/lib"
-CONFIGURE_ENV+=	IM_INCPATH="${X11BASE}/include:${LOCALBASE}/include"
-CONFIGURE_ENV+=	IM_CFLAGS="${CFLAGS}"
-
-#USE_TOOLS+=	gmake
+MAKE_ENV+=	IM_LIBPATH="${X11BASE}/lib:${LOCALBASE}/lib"
+MAKE_ENV+=	IM_INCPATH="${X11BASE}/include:${LOCALBASE}/include"
+MAKE_ENV+=	IM_CFLAGS="${CFLAGS}"
 
 PERL5_PACKLIST= auto/Imager/.packlist
 
