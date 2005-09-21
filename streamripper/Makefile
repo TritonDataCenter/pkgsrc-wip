@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	streamripper-1.61.9
+DISTNAME=	streamripper-1.61.13
 CATEGORIES=	audio
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=streamripper/}
 
@@ -13,8 +13,8 @@ GNU_CONFIGURE=		yes
 
 PTHREAD_OPTS+=	require
 
+.include "options.mk"
+
 .include "../../audio/libmad/buildlink3.mk"
-.include "../../audio/libvorbis/buildlink3.mk"
-.include "../../converters/libiconv/buildlink3.mk"
 .include "../../mk/pthread.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
