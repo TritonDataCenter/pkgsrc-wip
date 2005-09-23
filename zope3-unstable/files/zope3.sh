@@ -11,7 +11,7 @@ $_rc_subr_loaded .  /etc/rc.subr
 name="zope3"
 rcvar=$name
 extra_commands="status"
-command="@PREFIX@/bin/zdctl.py"
+command="@PREFIX@/share/zope3/bin/zdctl.py"
 start_cmd="zope3_start"
 start_precmd="zope3_precmd"
 stop_cmd="zope3_stop"

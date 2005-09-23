@@ -12,7 +12,7 @@ COMMENT=	Zope 3 Application Server
 
 HAS_CONFIGURE=	yes
 CONFIGURE_ARGS=	--with-python ${PYTHONBIN} \
-		--prefix ${PREFIX} \
+		--prefix ${PREFIX}/share/zope3 \
 		--force
 BUILD_TARGET=
 
@@ -26,11 +26,15 @@ PKG_USERS=	${ZOPE3_USER}:${ZOPE3_GROUP}::Zope3\ user
 PYTHON_VERSION_DEFAULT=		23
 PYTHON_VERSION_ACCEPTED=	24 23
 
-PLIST_SUBST+=	PYINC=${PYINC} PYLIB=${PYLIB} PYSITELIB=${PYSITELIB}
 MESSAGE_SUBST+=	ZOPE3_USER=${ZOPE3_USER} ZOPE3_GROUP=${ZOPE3_GROUP}
 
 pre-install:
 	${FIND} ${WRKSRC} -name "*.orig" -type f -print | ${XARGS} ${RM} -f
+
+post-install:
+	$(LN) -s ${PREFIX}/share/zope3/bin/mkzeoinstance ${PREFIX}/bin
+	$(LN) -s ${PREFIX}/share/zope3/bin/mkzopeinstance ${PREFIX}/bin
+	$(LN) -s ${PREFIX}/share/zope3/bin/zopetest ${PREFIX}/bin
 
 .include "../../lang/python/application.mk"
 .include "../../textproc/py-xml/buildlink3.mk"

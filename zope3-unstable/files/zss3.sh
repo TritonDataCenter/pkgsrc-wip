@@ -12,7 +12,7 @@ $_rc_subr_loaded .  /etc/rc.subr
 name="zss3"
 rcvar=$name
 extra_commands="status"
-command="@PREFIX@/bin/zdctl.py"
+command="@PREFIX@/share/zope3/bin/zdctl.py"
 start_cmd="zss3_start"
 start_precmd="zss3_precmd"
 stop_cmd="zss3_stop"
