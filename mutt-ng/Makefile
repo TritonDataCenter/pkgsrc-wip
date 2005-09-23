@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.9 2005/09/18 22:20:09 poppnk Exp $
+# $Id: Makefile,v 1.10 2005/09/23 07:00:32 rillig Exp $
 # $NetBSD$
 
 DISTNAME=	muttng-20050916
@@ -81,4 +81,3 @@ pre-configure:
 
 .include "../../mk/pthread.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
-
