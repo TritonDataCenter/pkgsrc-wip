@@ -32,9 +32,9 @@ pre-install:
 	${FIND} ${WRKSRC} -name "*.orig" -type f -print | ${XARGS} ${RM} -f
 
 post-install:
-	$(LN) -s ${PREFIX}/share/zope3/bin/mkzeoinstance ${PREFIX}/bin
-	$(LN) -s ${PREFIX}/share/zope3/bin/mkzopeinstance ${PREFIX}/bin
-	$(LN) -s ${PREFIX}/share/zope3/bin/zopetest ${PREFIX}/bin
+	${LN} -s ${PREFIX}/share/zope3/bin/mkzeoinstance ${PREFIX}/bin
+	${LN} -s ${PREFIX}/share/zope3/bin/mkzopeinstance ${PREFIX}/bin
+	${LN} -s ${PREFIX}/share/zope3/bin/zopetest ${PREFIX}/bin
 
 .include "../../lang/python/application.mk"
 .include "../../textproc/py-xml/buildlink3.mk"
