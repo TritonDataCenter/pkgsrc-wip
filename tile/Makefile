@@ -3,7 +3,7 @@
 
 DISTNAME=		tile_0.7.3
 PKGNAME=		tile-0.7.3
-CATEGORIES=		wip
+CATEGORIES=		x11
 MASTER_SITES=		http://www.unixdev.net/downloads/tile/0.7.3/
 
 MAINTAINER=		inittab@unixdev.net
