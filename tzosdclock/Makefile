@@ -15,4 +15,3 @@ GNU_CONFIGURE=		yes
 
 .include "../../x11/xosd/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
-
