@@ -10,7 +10,7 @@ MAINTAINER=		inittab@unixdev.net
 HOMEPAGE=		http://www.unixdev.net/projects/tzosdclock
 COMMENT=		OnScreen Display Clock for Multiple Timezones
 
-WRKSRC=		${WRKDIR}/tzosdclock
+WRKSRC=		${WRKDIR}/${PKGNAME}
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 
