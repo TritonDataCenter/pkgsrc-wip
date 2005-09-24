@@ -1,0 +1,5 @@
+@comment $NetBSD$
+bin/tile
+share/tile/rc
+share/tile/wmprofiles
+man/man1/tile.1
