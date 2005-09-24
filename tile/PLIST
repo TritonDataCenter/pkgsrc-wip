@@ -1,5 +1,7 @@
 @comment $NetBSD$
 bin/tile
+share/applications/horizontal.desktop
+share/applications/vertical.desktop
 share/tile/rc
 share/tile/wmprofiles
 man/man1/tile.1
