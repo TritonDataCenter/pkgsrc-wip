@@ -2,7 +2,8 @@
 #
 
 DISTNAME=		tzosdclock_1.0.2
-CATEGORIES=		wip
+PKGNAME=		tzosdclock-1.0.2
+CATEGORIES=		x11
 MASTER_SITES=		http://www.unixdev.net/downloads/tzosdclock/1.0.2/
 
 MAINTAINER=		inittab@unixdev.net
