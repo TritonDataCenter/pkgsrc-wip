@@ -1,9 +1,9 @@
 # $NetBSD$
 #
 
-DISTNAME=		tzosdclock_1.0
+DISTNAME=		tzosdclock_1.0.2
 CATEGORIES=		wip
-MASTER_SITES=		http://www.unixdev.net/downloads/tzosdclock/1.0/
+MASTER_SITES=		http://www.unixdev.net/downloads/tzosdclock/1.0.2/
 
 MAINTAINER=		inittab@unixdev.net
 HOMEPAGE=		http://www.unixdev.net/projects/tzosdclock
