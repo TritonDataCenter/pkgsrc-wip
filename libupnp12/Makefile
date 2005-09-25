@@ -15,6 +15,14 @@ USE_TOOLS+= gmake gcc
 BUILD_DIRS=	${WRKDIR}/${DISTNAME}/upnp
 MAKEFILE=       makefile
 
+.include "../../mk/bsd.prefs.mk"
+
+.if ${OPSYS} == "NetBSD"
+MAKE_ENV+=	EXTRA_LIBS="-lcompat"      # XXX need this for ftime(3)
+.else
+MAKE_ENV+=	EXTRA_LIBS=""
+.endif
+
 do-install:
 .for d in upnp ixml threadutil
 	cd ${WRKDIR}/${DISTNAME}/${d} && ${SETENV} ${MAKE_ENV} ${GMAKE} install

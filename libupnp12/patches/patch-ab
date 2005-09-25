@@ -19,7 +19,7 @@ $NetBSD$
  			   $(OBJ_DIR)iasnprintf.o
  
 -libthreadutil.so_libs = -lpthread 
-+libthreadutil.so_libs = $(PTHREAD_LIBS)
++libthreadutil.so_libs = $(PTHREAD_LIBS) $(EXTRA_LIBS)
  
  ifeq ($(EFENCE),1)
  libthreadutil.so_libs += -lefence
