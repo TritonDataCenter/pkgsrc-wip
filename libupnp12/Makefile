@@ -17,7 +17,7 @@ MAKEFILE=       makefile
 
 .include "../../mk/bsd.prefs.mk"
 
-.if ${OPSYS} == "NetBSD"
+.if ${OPSYS} == "NetBSD" || ${OPSYS} == "FreeBSD" || ${OPSYS} == "OpenBSD" || ${OPSYS} == "DragonFly" || ${OPSYS} == "Darwin" || ${OPSYS} == "BSDOS"
 MAKE_ENV+=	EXTRA_LIBS="-lcompat"      # XXX need this for ftime(3)
 .else
 MAKE_ENV+=	EXTRA_LIBS=""
