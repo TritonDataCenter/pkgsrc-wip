@@ -1,4 +1,0 @@
-@comment $NetBSD$
-bin/mesure
-share/doc/mesure/mesure.txt
-man/man1/mesure.1
