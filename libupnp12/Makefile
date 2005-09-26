@@ -10,7 +10,7 @@ HOMEPAGE=	http://upnp.sourceforge.net/
 COMMENT=	Linux SDK for UPnP Devices
 
 USE_PKGINSTALL=	yes
-USE_TOOLS+= gmake gcc
+USE_TOOLS+= gmake
 
 BUILD_DIRS=	${WRKDIR}/${DISTNAME}/upnp
 MAKEFILE=       makefile
