@@ -32,7 +32,7 @@ SUBST_CLASSES+=         wrapper
 SUBST_STAGE.wrapper= 	post-patch
 SUBST_FILES.wrapper=	pkgmanager-${PKGMGR_VERSION}/src/pkgmanager-wrapper.sh
 SUBST_SED.wrapper=	-e "s|@PREFIX@|${PREFIX}|g" -e "s|@MAKE@|${MAKE}|g" \
-                        -e "s|@DBDIR@|${PKG_DBDIR}|g"
+			-e "s|@DBDIR@|${PKG_DBDIR}|g"
 SUBST_MESSAGE.wrapper=	"Fixing prefix in pkgmanager shell script wrapper"
 
 SUBST_CLASSES+=		runner
