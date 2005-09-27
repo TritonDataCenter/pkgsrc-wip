@@ -6,7 +6,7 @@ CATEGORIES=		sysutils net databases
 MASTER_SITES=		http://www.idealx.org/prj/samba/dist/
 EXTRACT_SUFX=		.tgz
 
-MAINTAINER=		murray@river-styx.org
+MAINTAINER=		tech-pkg@NetBSD.org
 HOMEPAGE=		http://www.idealx.org/prj/samba/index.en.html
 COMMENT=		Set of ldap administration scripts for samba
 

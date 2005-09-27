@@ -5,7 +5,7 @@ PKGNAME=	nagios-plugin-snmp-${PLUGINSVERSION}
 PKGREVISION=	# not defined
 CATEGORIES=     net sysutil
 
-MAINTAINER=     murray@river-styx.org
+MAINTAINER=     tech-pkg@NetBSD.org
 COMMENT=	Nagios snmp plugins
 
 DEPENDS+=	nagios-plugins-${PLUGINSVERSION}:../../wip/nagios-plugins

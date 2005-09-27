@@ -5,7 +5,7 @@ PKGREVISION=	# not defined
 CATEGORIES=	net sysutils
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=nagiosplug/}
 
-MAINTAINER=     murray@river-styx.org
+MAINTAINER=     tech-pkg@NetBSD.org
 HOMEPAGE=       http://sourceforge.net/projects/nagiosplug/
 COMMENT=	Nagios plugins
 

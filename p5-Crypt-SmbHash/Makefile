@@ -7,7 +7,7 @@ SVR4_PKGNAME=		p5csm
 CATEGORIES=		security perl5
 MASTER_SITES=		${MASTER_SITE_PERL_CPAN:=Crypt/}
 
-MAINTAINER=		murray@river-styx.org
+MAINTAINER=		tech-pkg@NetBSD.org
 HOMEPAGE=		http://search.cpan.org/dist/Crypt-SmbHash/
 COMMENT=		Perl5 module for generating LM/NT hashes
 

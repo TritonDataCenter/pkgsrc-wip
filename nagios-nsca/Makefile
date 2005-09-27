@@ -8,7 +8,7 @@ PKGREVISION=	# not defined
 CATEGORIES=	net sysutils
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=nagios/}
 
-MAINTAINER=	murray@river-styx.org
+MAINTAINER=	tech-pkg@NetBSD.org
 HOMEPAGE=	http://www.nagios.org/
 COMMENT=	Remote/passive network service for nagios
 
