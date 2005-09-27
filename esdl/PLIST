@@ -88,4 +88,3 @@ lib/erlang/lib/${PKGNAME}/vsn
 @dirrm lib/erlang/lib/${PKGNAME}/doc
 @dirrm lib/erlang/lib/${PKGNAME}/c_src
 @dirrm lib/erlang/lib/${PKGNAME}
-@dirrm lib/erlang/lib
