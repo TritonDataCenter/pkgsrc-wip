@@ -1,0 +1,5 @@
+@comment $NetBSD$
+bin/jwm
+man/man1/jwm.1.gz
+@exec ${MKDIR} %D/etc/jwm
+@dirrm etc/jwm
