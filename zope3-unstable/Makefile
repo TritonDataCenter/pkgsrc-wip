@@ -28,6 +28,8 @@ PYTHON_VERSION_ACCEPTED=	24 23
 
 MESSAGE_SUBST+=	ZOPE3_USER=${ZOPE3_USER} ZOPE3_GROUP=${ZOPE3_GROUP}
 
+ZOPE3_DOCDIR=	${PREFIX}/share/doc/zope3
+
 pre-install:
 	${FIND} ${WRKSRC} -name "*.orig" -type f -print | ${XARGS} ${RM} -f
 
@@ -35,6 +37,10 @@ post-install:
 	${LN} -s ${PREFIX}/share/zope3/bin/mkzeoinstance ${PREFIX}/bin
 	${LN} -s ${PREFIX}/share/zope3/bin/mkzopeinstance ${PREFIX}/bin
 	${LN} -s ${PREFIX}/share/zope3/bin/zopetest ${PREFIX}/bin
+	${INSTALL_DATA_DIR} ${ZOPE3_DOCDIR}
+	${INSTALL_DATA} ${WRKSRC}/Zope/LICENSES.txt ${ZOPE3_DOCDIR}
+	${INSTALL_DATA} ${WRKSRC}/Zope/ZopePublicLicense.txt ${ZOPE3_DOCDIR}
+	${INSTALL_DATA} ${WRKSRC}/Zope/doc/*.txt ${ZOPE3_DOCDIR}
 
 .include "../../lang/python/application.mk"
 .include "../../textproc/py-xml/buildlink3.mk"
