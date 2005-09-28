@@ -20,7 +20,7 @@ ONLY_FOR_PLATFORM=	NetBSD-*-i386 SunOS-*-sparc FreeBSD-*-i386
 
 LICENSE=	opera-license
 
-NO_CONFGURE=		yes
+NO_CONFIGURE=		yes
 NO_TOOLS=		yes
 USE_LANGUAGES=		# empty
 
