@@ -18,7 +18,6 @@ PERMIT_DISTFILES_CDROM=	Yes
 PERMIT_DISTFILES_FTP=	Yes
 
 NO_BUILD=		Yes
-NO_REGRESS=		Yes
 USE_TOOLS+=		gmake
 
 .include "../../mk/bsd.pkg.mk"
