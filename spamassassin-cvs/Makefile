@@ -42,7 +42,7 @@ USE_PKGINSTALL=		YES
 PKG_SYSCONFSUBDIR=	spamassassin
 
 # Set contact address (e-mail, URL, ...) for use in spam report messages
-# See "perldoc Mail::SpamAssassin::Conf" for option "report_contact" 
+# See "perldoc Mail::SpamAssassin::Conf" for option "report_contact"
 SPAMASSASSIN_CONTACT_ADDRESS?=		'postmaster'
 
 # Use "NO" to turn off warnings and taint checks in spamd/spamassassin

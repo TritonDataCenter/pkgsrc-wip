@@ -22,7 +22,7 @@ M_FPVERSION=	1.6.2
 
 PKG_PREFIX=	${PREFIX}
 
-# minimum UID and GID's for fpexec..  
+# minimum UID and GID's for fpexec..
 # you probably want to use the same values as for suexec
 FP_UID_MIN?=	100
 FP_GID_MIN?=	100

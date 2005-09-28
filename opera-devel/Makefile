@@ -127,7 +127,7 @@ USE_PKGINSTALL=		YES
 
 do-install:
 	@cd ${WRKSRC} && ${ECHO} "n" | PKGSRC_PREFIX=${PREFIX} ./install.sh --prefix=${PREFIX}
-	@${ECHO} 
+	@${ECHO}
 	@${ECHO} "=> You can ignore any previous lines about '... cannot be prefixed'"
 	@${ECHO}
 

@@ -22,8 +22,8 @@ INSTALL_TARGET=		install-ja
 USE_MAKEINFO=		YES
 INFO_FILES=		t-gnus t-message t-emacs-mime t-sieve t-gnus-ja t-message-ja
 
-# last template is ${_FOOTER_TMPL} which is just 'exit 0'.  but conveniently 
-# the pkgsrc graybeards have said INSTALL_SRC?=${INSTALL_TEMPLATES}.  insert 
+# last template is ${_FOOTER_TMPL} which is just 'exit 0'.  but conveniently
+# the pkgsrc graybeards have said INSTALL_SRC?=${INSTALL_TEMPLATES}.  insert
 # our INSTALL/DEINSTALL script as second-to-last.
 INSTALL_SRC=		${INSTALL_TEMPLATES:[1..-2]} ${FILESDIR}/install.sh ${INSTALL_TEMPLATES:[-1]}
 DEINSTALL_SRC=		${DEINSTALL_TEMPLATES:[1..-2]} ${FILESDIR}/install.sh ${DEINSTALL_TEMPLATES:[-1]}

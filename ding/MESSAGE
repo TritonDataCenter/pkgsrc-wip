@@ -4,10 +4,10 @@ $NetBSD$
 - Note that ${PREFIX}/bin/ding uses a defined path to access it's
   dictionary file.
 
-  If your LOCALBASE variable is not set to /usr/pkg, you'll have to change 
+  If your LOCALBASE variable is not set to /usr/pkg, you'll have to change
   manually the path to ${PREFIX}/share/dict/ger-eng.txt .
 
-- The dictionary file can be frequently updated. You can always fetch a 
+- The dictionary file can be frequently updated. You can always fetch a
   newer one at http://dict.tu-chemnitz.de/ .
 
 - Have fun!

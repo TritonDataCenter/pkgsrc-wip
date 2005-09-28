@@ -6,7 +6,7 @@ interested in running GUI, make sure you launch shtoom properly: use --ui
 parameter, for example:
 
 	${PREFIX}/shtoom.py --ui=tk
-	
+
 or:
 
 	${PREFIX}/shtoom.py --ui=text

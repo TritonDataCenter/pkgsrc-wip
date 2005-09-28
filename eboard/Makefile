@@ -25,7 +25,7 @@ SUBST_MESSAGE.sox_dev=  "Fixing hard-coded device used by sox with ${DEVOSSAUDIO
 
 do-configure:
 	 cd ${WRKSRC} && ${PERL5} ${WRKSRC}/configure \
-		--prefix=${PREFIX}  --libossaudio=${LIBOSSAUDIO} 
+		--prefix=${PREFIX}  --libossaudio=${LIBOSSAUDIO}
 
 .include "../../x11/gtk/buildlink3.mk"
 .include "../../graphics/imlib/buildlink3.mk"

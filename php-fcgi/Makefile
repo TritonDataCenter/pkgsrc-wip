@@ -4,7 +4,7 @@
 PKGNAME=		php-fcgi-${PHP_BASE_VERS}
 COMMENT=		FastCGI interface for ${PKG_PHP}
 
-LIBTOOL_OVERRIDE=	
+LIBTOOL_OVERRIDE=
 
 .include "../../lang/php/phpversion.mk"
 .include "${PHPPKGSRCDIR}/Makefile.php"

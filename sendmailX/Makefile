@@ -46,13 +46,13 @@ PKG_USERS+=	smx:smx::Sendmail\ X\ Misc
 CONFIGURE_ARGS+=	--disable-TLS
 CONFIGURE_ARGS+=	--disable-SASL
 
-# Note: Do not use Berkeley DB 4.3.27/28 in 64 bit mode on Solaris 5.8/9 as 
-# it crashes at least in those configurations. This bug is fixed in the 
-# version that is distributed with sendmail X. 
+# Note: Do not use Berkeley DB 4.3.27/28 in 64 bit mode on Solaris 5.8/9 as
+# it crashes at least in those configurations. This bug is fixed in the
+# version that is distributed with sendmail X.
 #
 # This is unconfirmed on pkgsrc so we roll with the pkgsrc version of db4.
 #
-CONFIGURE_ARGS+=	--disable-included-bdb 
+CONFIGURE_ARGS+=	--disable-included-bdb
 
 .include "options.mk"
 

@@ -28,7 +28,7 @@ CONFIGURE_ARGS+=	--with-lame=${BUILDLINK_PREFIX.lame} \
 #.if defined(USE_PYTHON)
 #.   include "../../lang/python/application.mk"
 #CONFIGURE_ARGS+=	--with-python
-#CPPFLAGS+=		${BUILDLINK_CPPFLAGS.${PYPACKAGE}}	
+#CPPFLAGS+=		${BUILDLINK_CPPFLAGS.${PYPACKAGE}}
 #LDFLAGS+=		${BUILDLINK_LDFLAGS.${PYPACKAGE}}
 #.else
 CONFIGURE_ARGS+=	--without-python

@@ -4,7 +4,7 @@ $NetBSD$
 Installation done. To finish the setup, type:
 
 	freevo setup
-	
+
 at the command prompt. freevo will perform then package checking, which
 looks like this:
 
@@ -12,7 +12,7 @@ looks like this:
 	checking for mencoder...   not found (deactivated)
 	checking for tvtime...     not found (deactivated)
 	[...]
-	
+
 You can of course install additional packages to increase freevo
 functionality.
 

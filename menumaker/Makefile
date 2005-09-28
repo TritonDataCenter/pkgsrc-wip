@@ -11,7 +11,7 @@ COMMENT=		Generates menus for X Window managers by scanning for installed progra
 
 PYDISTUTILSPKG=		yes
 PYBINMODULE=    	yes
-PYSETUPOPTARGS?=       
+PYSETUPOPTARGS?=
 PY_PATCHPLIST=          yes
 
 .include "../../lang/python/extension.mk"

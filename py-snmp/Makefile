@@ -1,5 +1,5 @@
 # $NetBSD$
-# 
+#
 
 DISTNAME=		pysnmp-3.4.2
 PKGNAME=		${PYPKGPREFIX}-${DISTNAME:S/py//}

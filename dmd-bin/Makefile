@@ -18,38 +18,29 @@ do-install:
 	#
 	# binaries
 	#
-	
 	for a in dumpobj obj2asm dmd; do \
 		${INSTALL_PROGRAM} ${WRKSRC}/bin/$$a ${EMULDIR}/usr/bin/$$a; \
 	done
-	
-	# 
+	#
 	# libraries
 	#
-	
 	${INSTALL_DATA} ${WRKSRC}/lib/libphobos.a ${EMULDIR}/usr/lib/libphobos.a
-	
 	#
 	# docs
 	#
-	
 	${INSTALL_DATA_DIR} ${PREFIX}/${HTMLDIR}
 	cd ${WRKSRC}/html/d && ${PAX} -rw -pe [a-z]* ${PREFIX}/${HTMLDIR}
-
 	#
 	# sources
 	#
-	
 	${INSTALL_DATA_DIR} ${EMULDIR}/usr/src
 	cd ${WRKSRC}/src && ${PAX} -rw -pe * ${EMULDIR}/usr/src
-
 	#
 	# dmd.conf
 	#
-	
 	${ECHO} "[Environment]" > ${WRKSRC}/dmd.conf
 	${ECHO} "DFLAGS=-I/usr/src/phobos" >> ${WRKSRC}/dmd.conf
 	${INSTALL_DATA} ${WRKSRC}/dmd.conf ${EMULDIR}/etc/dmd.conf
-	
+
 .include "../../wip/mk/linuxbin.pkg.mk"
 .include "../../mk/bsd.pkg.mk"

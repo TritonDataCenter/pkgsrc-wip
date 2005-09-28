@@ -84,7 +84,7 @@ do-install:
 	${MV} ${X11BASE}/lib/${nlib}.so.1.bak ${X11BASE}/lib/${nlib}.so.1
 .    else
 	${CP} ${X11BASE}/lib/${nlib}.so.1 ${X11BASE}/lib/${nlib}.so.1.bak
-.    endif  
+.    endif
 .  endif
 	${LN} -sf ${X11BASE}/lib/${nlib}.so.1 ${X11BASE}/lib/${nlib}.so
 .endfor

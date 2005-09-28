@@ -14,7 +14,7 @@ Please check that your existing mail configuration still works.
 More information can be found in the man pages for 'spamassassin',
 'sa-learn', 'spamc' and 'spamd', with 'perldoc Mail::SpamAssassin::Conf'
 and in
-      
+
         ${PREFIX}/share/doc/spamassassin/
 
 ===========================================================================

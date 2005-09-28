@@ -1,14 +1,14 @@
 ===========================================================================
 $NetBSD$
 
-Files have been installed in 
+Files have been installed in
 
 	${PREFIX}/share/${PKGNAME}
 
 You can also download PDF version of tutorial from:
 
 	http://nehe.gamedev.net/files/resources/nehe_opengl_pdf.zip
-	
+
 or browse tutorial pages at:
 
 	http://nehe.gamedev.net/lesson.asp?index=LESSON_NUMBER

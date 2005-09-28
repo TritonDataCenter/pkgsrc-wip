@@ -82,7 +82,7 @@ do-build:
 metalog: ${METALOG}
 
 #	some rather ugly scripting to generate a METALOG file
-#	to be fed to pax. On the other hand, we're kinda clever 
+#	to be fed to pax. On the other hand, we're kinda clever
 #	to build the metalog file from the PLIST :-)
 #
 #	note, the file ownerships have to match those used

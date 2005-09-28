@@ -19,5 +19,5 @@ do-install:
 	${INSTALL_DATA} ${WRKSRC}/src/jni.h ${PREFIX}/include/
 	${INSTALL_DATA_DIR} ${PREFIX}/share/jamvm/classes/
 	unzip -o ${WRKSRC}/lib/classes.zip -d ${PREFIX}/share/jamvm/classes/
-	
+
 .include "../../mk/bsd.pkg.mk"

@@ -9,7 +9,7 @@ EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	tech-pkg@NetBSD.org
 HOMEPAGE=	http://mupen64.emulation64.com/
-COMMENT=	Free Nintendo 64(TM) emulator for unix-like OS 
+COMMENT=	Free Nintendo 64(TM) emulator for unix-like OS
 
 USE_TOOLS+=	gmake
 WRKSRC=		${WRKDIR}/emu64

@@ -1,7 +1,7 @@
 ===========================================================================
 $NetBSD$
 
-Copy ppp.conf from ${PREFIX}/share/examples/${PKGBASE} to 
+Copy ppp.conf from ${PREFIX}/share/examples/${PKGBASE} to
 ${PKG_SYSCONFDIR}/ppp and modify these to suit to your needs :
 
 . vpi / vci

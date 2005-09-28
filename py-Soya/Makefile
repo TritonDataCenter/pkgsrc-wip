@@ -16,7 +16,7 @@ PYDISTUTILSPKG=		yes
 
 PYTHON_VERSIONS_ACCEPTED=	23
 
-.include "../../lang/python/extension.mk" 
+.include "../../lang/python/extension.mk"
 .include "../../graphics/MesaLib/buildlink3.mk"
 .include "../../graphics/freetype2/buildlink3.mk"
 .include "../../graphics/png/buildlink3.mk"

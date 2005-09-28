@@ -5,7 +5,7 @@ You will need to make GForge accessible through your HTTP server.
 For this:
 
 	- Add these lines to ${PKG_SYSCONFDIR}/etc/httpd/httpd.conf
-	
+
 	<IfModule mod_alias.c>
 		Alias /gforge/ "${PREFIX}/share/gforge/www/"
 	</IfModule>

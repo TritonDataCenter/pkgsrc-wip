@@ -21,7 +21,7 @@ CONFIGURE_ARGS+=	--with-hotplug-script-dir=${PREFIX}/share/examples/kino/hotplug
 # or should the following be used to not use default PREFIX/lib/hotplug/kino ?
 #CONFIGURE_ARGS+=	--with-hotplug-usermap-dir=${PREFIX}/libdata/hotplug/kino
 
-# Use FFMPEG libavcodec for DV video decoding instead of libdv.  
+# Use FFMPEG libavcodec for DV video decoding instead of libdv.
 # XXX maybe should be an option
 #CONFIGURE_ARGS+=	--with-avcodec
 #.include "../../multimedia/ffmpeg/buildlink3.mk"

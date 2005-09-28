@@ -4,7 +4,7 @@ $NetBSD$
 IMPORTANT:
 
 	Make sure your /compat/linux symlink points to:
-	
+
 		${PREFIX}/emul/linux
 
 ===========================================================================

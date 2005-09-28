@@ -8,7 +8,7 @@ $NetBSD$
 
     For the FrontPage Server Extentions to operate properly, the
     following directives need to be set in your Apache web server
-    Configuration.  
+    Configuration.
 
     At the global level:
 

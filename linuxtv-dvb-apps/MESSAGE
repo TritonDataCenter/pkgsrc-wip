@@ -3,7 +3,7 @@ $NetBSD$
 
 To scan channels use:
 	$ scan ${PREFIX}/share/linuxtv-dvb/dvb-[tsc]/[satellite] > \
-		~/.szap/channels.conf 
+		~/.szap/channels.conf
 
 To sintonize it:
 	$ szap -r "Channel Name"
