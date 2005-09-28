@@ -12,7 +12,7 @@ COMMENT=		Xen libraries
 
 USE_TOOLS+=		gmake
 WRKSRC=			${WRKDIR}/xen-2.0/tools
-VERSION=		2.0.6
+VERSION=		2.0.7
 
 ONLY_FOR_PLATFORM=	NetBSD-*-i386
 
