@@ -19,8 +19,8 @@ TUTOS_GROUP?=	${TUTOS_USER}
 PKG_GROUPS+=	${TUTOS_GROUP}
 PKG_USERS+=     ${TUTOS_USER}:${TUTOS_GROUP}::Tutos\ Runtime\ User
 
-NO_CONFIGURE=	# defined
-NO_BUILD=	# defined
+NO_CONFIGURE=	yes
+NO_BUILD=	yes
 
 do-install:
 	${SED} -e 's|@PREFIX@|${PREFIX}|g' -e 's|@X11BASE@|${X11BASE}|g' \

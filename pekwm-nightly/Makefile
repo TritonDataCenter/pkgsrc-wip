@@ -15,7 +15,7 @@ GNU_CONFIGURE=	    yes
 USE_TOOLS+=	    gmake
 USE_PERL5=	    run
 USE_LANGUAGES=	    c c++
-NO_CHECKSUM=	    # defined
+NO_CHECKSUM=	    yes
 
 .include "../../mk/bsd.prefs.mk"
 

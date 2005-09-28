@@ -8,7 +8,7 @@ MAINTAINER=	tech-pkg@NetBSD.org
 HOMEPAGE=	http://www.python.org/topics/database/
 COMMENT=	Python tools for development of I18N Python apps
 
-NO_BUILD=	# defined
+NO_BUILD=	yes
 
 EXTRACT_ELEMENTS=		${PYSUBDIR}/Tools/i18n/*
 

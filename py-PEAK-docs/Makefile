@@ -10,8 +10,8 @@ MAINTAINER=		tech-pkg@NetBSD.org
 HOMEPAGE=		http://peak.telecommunity.com/
 COMMENT=		Python Enterprise Application Kit
 
-NO_CONFIGURE=		# defined
-NO_BUILD=		# defined
+NO_CONFIGURE=		yes
+NO_BUILD=		yes
 
 HTMLDIR=		share/doc/${PKGNAME}
 DOC_SRCDIR=		${WRKSRC}/docs

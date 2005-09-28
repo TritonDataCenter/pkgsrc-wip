@@ -11,7 +11,7 @@ HOMEPAGE=		http://www.snurgle.org/~pybrenda/
 COMMENT=		Paralell computation system
 
 PY_PATCHPLIST=		yes
-NO_BUILD=		# defined
+NO_BUILD=		yes
 
 PLIST_SUBST+=		PYPKGPREFIX=${PYPKGPREFIX}
 

@@ -15,8 +15,8 @@ COMMENT=		Free book for experienced Python programmers
 HTMLDIR=		share/doc/diveintopython
 DOC_SRCDIR=		${WRKSRC}
 PLIST_SRC=		${WRKDIR}/.PLIST_SRC
-NO_BUILD= 		# defined
-NO_CONFIGURE=		# defined
+NO_BUILD= 		yes
+NO_CONFIGURE=		yes
 
 do-install:
 	${INSTALL_DATA_DIR} ${PREFIX}/${HTMLDIR}

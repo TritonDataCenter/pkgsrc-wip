@@ -26,7 +26,7 @@ CVS_MODULE=		gtk-gnutella-current
 
 # Dynamic plist is a pkgviews feature.
 #PLIST_TYPE=		dynamic
-NO_CHECKSUM=		# defined
+NO_CHECKSUM=		yes
 
 # Not pkgviews-enabled yet because of problems generating the date-like version
 # number.

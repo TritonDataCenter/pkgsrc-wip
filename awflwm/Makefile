@@ -11,7 +11,7 @@ MAINTAINER=	low@ameba6.com
 HOMEPAGE=	http://awflwm.berlios.de/
 COMMENT=	Fork of the flwm project
 
-GNU_CONFIGURE=	# defined
+GNU_CONFIGURE=	yes
 CONFIGURE_ENV+=	X_LIBS="-lGL"
 MAKE_ENV+=	CXXFLAGS="${CXXFLAGS}"
 CXXFLAGS+=	-DFLTK_1_0_COMPAT

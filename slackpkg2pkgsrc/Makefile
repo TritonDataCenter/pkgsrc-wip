@@ -12,7 +12,7 @@ HOMEPAGE=		# none
 COMMENT=		Simple script for easy generation of Slackware binary packages
 
 PY_PATCHPLIST=		yes
-NO_BUILD=		# defined
+NO_BUILD=		yes
 PYTHON_PATCH_SCRIPTS=	slackpkg2pkgsrc.py
 
 do-extract:

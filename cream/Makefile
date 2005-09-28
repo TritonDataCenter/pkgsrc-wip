@@ -11,7 +11,7 @@ COMMENT=		Usability add-on for Vim
 
 DEPENDS+=		vim-gtk2-6.*:../../editors/vim-gtk2
 
-NO_BUILD=		# defined
+NO_BUILD=		yes
 
 VIM_SUBDIR=		vim63
 VIMRUNTIME=		${PREFIX}/share/vim/${VIM_SUBDIR}

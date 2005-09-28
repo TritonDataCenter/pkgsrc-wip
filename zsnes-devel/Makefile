@@ -14,7 +14,7 @@ COMMENT=		Super NES emulator, development version
 BUILD_DEPENDS+=		nasm-[0-9]*:../../devel/nasm
 
 WRKSRC=			${WRKDIR}/zsnes/src
-GNU_CONFIGURE=		# defined
+GNU_CONFIGURE=		yes
 USE_TOOLS+=		gmake automake
 ONLY_FOR_PLATFORM=	*-*-i386
 BUILD_TARGET=		zsnes

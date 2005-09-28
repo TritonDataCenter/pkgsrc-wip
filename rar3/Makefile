@@ -13,8 +13,8 @@ COMMENT=		File archiver (binary only)
 
 ONLY_FOR_PLATFORM=	FreeBSD-*-i386 NetBSD-*-i386
 
-NO_BUILD=		# defined
-NO_CONFIGURE=		# defined
+NO_BUILD=		yes
+NO_CONFIGURE=		yes
 
 NO_BIN_ON_CDROM=	"Only unmodified original package can be distributed"
 NO_BIN_ON_FTP=		${NO_BIN_ON_CDROM}

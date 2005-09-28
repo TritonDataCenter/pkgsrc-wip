@@ -10,7 +10,7 @@ MAINTAINER=	dmb@except.one.pl
 HOMEPAGE=	http://php-mode.sourceforge.net/
 COMMENT=	PHP editing mode for Emacs
 
-NO_CONFIGURE=	# defined
+NO_CONFIGURE=	yes
 
 WRKSRC=		${WRKDIR}
 

@@ -14,7 +14,7 @@ COMMENT=		JavaScript Guide from Netscape Devedge
 HTMLDIR=		share/doc/${PKGNAME}
 NO_BIN_ON_CDROM=	"I am not sure if we can redistribute it"
 NO_SRC_ON_CDROM=	"I am not sure if we can redistribute it"
-NO_BUILD=		# defined
+NO_BUILD=		yes
 
 do-install:
 	${INSTALL_DATA_DIR} ${PREFIX}/${HTMLDIR}

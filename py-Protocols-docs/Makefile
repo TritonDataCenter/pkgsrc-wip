@@ -10,8 +10,8 @@ MAINTAINER=		tech-pkg@NetBSD.org
 HOMEPAGE=		http://peak.telecommunity.com/PyProtocols.html
 COMMENT=		HTML docs for devel/py-Protocols
 
-NO_CONFIGURE=	# defined
-NO_BUILD=	# defined
+NO_CONFIGURE=	yes
+NO_BUILD=	yes
 
 HTMLDIR=	share/doc/py-Protocols-0.9.2
 DOC_SRCDIR=	${WRKSRC}/docs/html/reference/

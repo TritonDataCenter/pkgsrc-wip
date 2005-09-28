@@ -10,7 +10,7 @@ MAINTAINER=		tech-pkg@NetBSD.org
 HOMEPAGE=		http://visionegg.sourceforge.net/
 COMMENT=		Documentation for py-visionegg in HTML format
 
-NO_BUILD=		# defined
+NO_BUILD=		yes
 
 PY_VE_DOC_DIR=		${PREFIX}/share/doc/${PKGNAME}
 

@@ -10,7 +10,7 @@ MAINTAINER=		dhowland@users.sourceforge.net
 HOMEPAGE=		http://fabrice.bellard.free.fr/qemu/
 COMMENT=		CPU emulator using dynamic translation
 
-NO_BUILD=		# defined
+NO_BUILD=		yes
 
 CONFLICTS+=             qemu-*
 

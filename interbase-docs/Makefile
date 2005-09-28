@@ -14,7 +14,7 @@ COMMENT=		Documentation for InterBase 6.0 in PDF format
 
 NO_BIN_ON_CDROM=	"I am not sure if we can redistribute it"
 NO_SRC_ON_CDROM=	${NO_BIN_ON_CDROM}
-NO_BUILD=		# defined
+NO_BUILD=		yes
 
 ID6_DIR=       		${PREFIX}/share/doc/${PKGNAME}
 ID6_FILES=		apiguide.pdf datadef.pdf devguide.pdf embedsql.pdf \

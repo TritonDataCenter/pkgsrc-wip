@@ -11,7 +11,7 @@ COMMENT=		Universal SSL tunnel
 CONFLICTS=		stunnel-[4-9]*
 
 USE_PKGINSTALL=		yes
-GNU_CONFIGURE=		# defined
+GNU_CONFIGURE=		yes
 CONFIGURE_ARGS+=	--with-ssl=${SSLBASE} \
 			--with-cert-dir="${SSLCERTS}" \
 			--with-pem-dir="${SSLCERTS}" \

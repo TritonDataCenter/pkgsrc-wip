@@ -11,7 +11,7 @@ MAINTAINER=		tech-pkg@NetBSD.org
 HOMEPAGE=		http://dirstorage.sourceforge.net/
 COMMENT=		Storage for ZODB, that uses files and directories
 
-NO_CONFIGURE=		# defined
+NO_CONFIGURE=		yes
 PYTHON_PATCH_SCRIPTS=	${TOOLS}
 PY_PATCHPLIST=		yes
 

@@ -11,7 +11,7 @@ MAINTAINER=		tech-pkg@NetBSD.org
 HOMEPAGE=		http://visionegg.sourceforge.net/
 COMMENT=		Additional modules for py-visionegg package
 
-NO_BUILD=		# defined
+NO_BUILD=		yes
 PLIST_SUBST+=		PYVERSSUFFIX=${PYVERSSUFFIX}
 
 PY_VC_FILES_LABVIEW=	"Edit Grating C.vi" \

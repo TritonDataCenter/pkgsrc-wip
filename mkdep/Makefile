@@ -9,7 +9,7 @@ DISTFILES=		# empty
 MAINTAINER=		reed@reedmedia.net
 COMMENT=		Fast mkdep
 
-NO_CHECKSUM=		# defined
+NO_CHECKSUM=		yes
 NO_CONFIGURE=		YES
 
 do-extract:

@@ -10,7 +10,7 @@ MAINTAINER=		tech-pkg@NetBSD.org
 HOMEPAGE=		http://leo.sourceforge.net/
 COMMENT=		Programmer's editor and a flexible browser
 
-NO_BUILD=	# defined
+NO_BUILD=	yes
 PYTHON_PATCH_SCRIPTS=	src/leo.py
 
 do-install:

@@ -9,7 +9,7 @@ MAINTAINER=		dhowland@users.sourceforge.net
 HOMEPAGE=		http://www.pingx.net/secpanel/
 COMMENT=		GUI front-end for SSH
 
-NO_BUILD=		# defined
+NO_BUILD=		yes
 
 .include "../../mk/bsd.prefs.mk"
 .include "../../lang/tcl/buildlink3.mk"

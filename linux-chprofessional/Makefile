@@ -9,7 +9,7 @@ MAINTAINER=	tech-pkg@NetBSD.org
 HOMEPAGE=	http://www.softintegration.com/products/chprofessional/
 COMMENT=	Ch is an interactive C development environment
 
-NO_BUILD=	# defined
+NO_BUILD=	yes
 
 #
 # I have included chpro-license for pkgsrc-wip purposes as

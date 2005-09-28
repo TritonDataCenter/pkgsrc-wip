@@ -12,7 +12,7 @@ COMMENT=	Internet Streaming server for MP3 audio
 DEPENDS+=	suse_base>=6.4:../../emulators/suse_base
 
 ONLY_FOR_PLATFORM=	Linux-*-i[3-6]86 NetBSD-1.5Z*-i386 NetBSD-1.[6-9]*-i386
-NO_CONFIGURE=	# defined
+NO_CONFIGURE=	yes
 PKG_SYSCONFSUBDIR=	shoutcast
 
 # check-shlibs will fail unless LD_LIBRARY_PATH points to /emul/linux, but

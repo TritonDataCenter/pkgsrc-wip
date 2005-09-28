@@ -10,7 +10,7 @@ MAINTAINER=	eric@cirr.com
 HOMEPAGE=	http://www.squirrelmail.org/
 COMMENT=	Sieve Script editing plugin for SquirrelMail
 
-NO_CONFIGURE=	# defined
+NO_CONFIGURE=	yes
 
 WRKSRC=		${WRKDIR}
 

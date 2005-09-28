@@ -13,7 +13,7 @@ COMMENT=		Latest documentation for MySQL database server
 
 HTMLDIR=	share/doc/${PKGNAME}
 PLIST_SRC=	${WRKDIR}/.PLIST_SRC
-NO_BUILD=	# defined
+NO_BUILD=	yes
 
 do-install:
 	${INSTALL_DATA_DIR} ${PREFIX}/${HTMLDIR}

@@ -9,7 +9,7 @@ MAINTAINER=	tech-pkg@NetBSD.org
 HOMEPAGE=	http://www.icecast.org/
 COMMENT=	MP3/Vorbis encoder for icecast servers
 
-GNU_CONFIGURE=		# defined
+GNU_CONFIGURE=		yes
 CONFIGURE_ARGS+=	--with-lame=${BUILDLINK_PREFIX.lame} \
 			--with-perl=${BUILDLINK_PREFIX.perl} \
 			--with-xml=${BUILDLINK_PREFIX.libxml2}/bin \

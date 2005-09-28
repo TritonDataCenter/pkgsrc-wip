@@ -10,7 +10,7 @@ MAINTAINER=		tech-pkg@NetBSD.org
 HOMEPAGE=		http://visionegg.sourceforge.net/
 COMMENT=		Demonstration programs for py-visionegg
 
-NO_BUILD=		# defined
+NO_BUILD=		yes
 PLIST_SUBST+=		PYVERSSUFFIX=${PYVERSSUFFIX}
 MESSAGE_SUBST+=		PY_VE_DIR=${PY_VE_DEMO_DIR}
 

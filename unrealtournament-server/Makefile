@@ -11,7 +11,7 @@ MAINTAINER=	grant@NetBSD.org
 HOMEPAGE=	http://files.sobservers.com/UnrealTournament/UTServerOnly/
 COMMENT=	Server for Unreal Tournament first person shooter
 
-NO_BUILD=		# defined
+NO_BUILD=		yes
 SHLIB_HANDLING=		NO
 
 ONLY_FOR_PLATFORM=	Linux-*-i[3-6]86 NetBSD-*-i386
