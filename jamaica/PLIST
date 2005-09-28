@@ -8,6 +8,7 @@ share/examples/jamaica/gototest.ja
 share/examples/jamaica/iftest.ja
 share/examples/jamaica/inputtest.ja
 share/examples/jamaica/interfacetest.ja
+share/examples/jamaica/invokespecialtest.class
 share/examples/jamaica/invokespecialtest.ja
 share/examples/jamaica/iteratetest.ja
 share/examples/jamaica/jat.bat
@@ -19,3 +20,4 @@ share/examples/jamaica/staticfinaltest.ja
 share/examples/jamaica/switchtest.ja
 share/examples/jamaica/valuegetsettest.ja
 @dirrm share/examples/jamaica
+@dirrm lib/java
