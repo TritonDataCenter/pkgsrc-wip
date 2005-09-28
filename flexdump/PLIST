@@ -1,5 +1,5 @@
 @comment $NetBSD$
 bin/flexbackup
-etc/flexbackup.conf
 man/man1/flexbackup.1
 man/man5/flexbackup.conf.5
+share/examples/flexbackup/flexbackup.conf
