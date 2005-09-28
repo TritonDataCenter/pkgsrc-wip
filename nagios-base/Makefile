@@ -3,7 +3,6 @@
 
 DISTNAME=	nagios-1.2
 PKGNAME=	${DISTNAME:S/-/-base-/}
-PKGREVISION=	# not defined
 CATEGORIES=	net sysutils
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=nagios/}
 
