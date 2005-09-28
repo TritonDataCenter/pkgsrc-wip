@@ -7,10 +7,10 @@ MASTER_SITES=		http://www.porcupine.org/forensics/
 
 MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://www.porcupine.org/forensics/tct.html
-COMMENT=		memory dumper for UNIX-like systems
+COMMENT=		Memory dumper for UNIX-like systems
 
-USE_TOOLS+=	gmake
-BUILD_TARGET=what
+USE_TOOLS+=		gmake
+BUILD_TARGET=		what
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/memdump ${PREFIX}/sbin
