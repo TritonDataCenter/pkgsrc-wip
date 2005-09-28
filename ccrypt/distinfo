@@ -1,6 +1,7 @@
 $NetBSD$
 
 SHA1 (ccrypt-1.4.tar.gz) = d3a55097c0681cf02a0c5626aaebfcbaeb5a4aca
+RMD160 (ccrypt-1.4.tar.gz) = f80c1a24889d4dcffb852c8e02455f095896eeda
 Size (ccrypt-1.4.tar.gz) = 165797 bytes
 SHA1 (patch-ab) = ec1bc807704b32783ac1aa5e1f019ef96f505069
 SHA1 (patch-ad) = b5ce3306a010ab30d23eec9556acdf8257a99357

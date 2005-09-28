@@ -1,6 +1,7 @@
 $NetBSD$
 
 SHA1 (sks-1.0.9.tgz) = 301ecc30a1a0c99e6b87fae324925695287942b3
+RMD160 (sks-1.0.9.tgz) = 9cb98d68d2465a0c24ef040c4f24d4377fbc00e0
 Size (sks-1.0.9.tgz) = 925362 bytes
 SHA1 (patch-aa) = 1e3854f1be32bf39a85940ec779ad857a49d786d
 SHA1 (patch-ab) = 919846f9c31a89f23430081dbad853d088dcb7e5

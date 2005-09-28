@@ -1,6 +1,7 @@
 $NetBSD$
 
 SHA1 (icmpchat-0.6.tar.gz) = bb980081481ba887fea5832a42f99486dc508261
+RMD160 (icmpchat-0.6.tar.gz) = 1ab67f2baf08379245c2e3afd6b58f9ef5243798
 Size (icmpchat-0.6.tar.gz) = 36782 bytes
 SHA1 (patch-aa) = 428d515447da98d5a61fa0b61855e4b4cdd06b2f
 SHA1 (patch-ab) = b89f6a0dc398c0173026839d371aff79d8bc7738

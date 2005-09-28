@@ -1,5 +1,6 @@
 $NetBSD$
 
 SHA1 (libXi-6.0.1.tar.bz2) = c003eb44cf8b17207642d8d56ffdff7792cdbb1f
+RMD160 (libXi-6.0.1.tar.bz2) = 81a364de6f48ce09ce36c6f466347233aaabcc9d
 Size (libXi-6.0.1.tar.bz2) = 209914 bytes
 SHA1 (patch-aa) = 5fc61f0edc00dec2bbb0f79f75c416d1b71ff856

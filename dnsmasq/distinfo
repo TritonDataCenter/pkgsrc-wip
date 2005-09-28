@@ -1,5 +1,6 @@
 $NetBSD$
 
 SHA1 (dnsmasq-1.18.tar.gz) = b2413c85a75fd2bd9374e425d972f3586d4acfcc
+RMD160 (dnsmasq-1.18.tar.gz) = 657089b143a488d74b993c16f6f26b0d6950067f
 Size (dnsmasq-1.18.tar.gz) = 70839 bytes
 SHA1 (patch-aa) = 28d0fa9527e9fb3c5c4d45ee9efafceff0c4e4b9

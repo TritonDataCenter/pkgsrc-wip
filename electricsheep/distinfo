@@ -1,5 +1,6 @@
 $NetBSD$
 
 SHA1 (electricsheep-2.5.tar.gz) = 409b5b26288bb8f742858980239001034e6862bd
+RMD160 (electricsheep-2.5.tar.gz) = 65503ef21073edae1164cdac25c997db9132128f
 Size (electricsheep-2.5.tar.gz) = 618906 bytes
 SHA1 (patch-aa) = 3fe00144866cc172651b7e1e14c95c5a4b269ed9

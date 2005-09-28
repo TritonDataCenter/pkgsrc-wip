@@ -1,5 +1,6 @@
 $NetBSD$
 
 SHA1 (viewer-0.7.3.tar.gz) = d190f54bddedb98ee147063d22438f590f1287b7
+RMD160 (viewer-0.7.3.tar.gz) = c246e281dbab012c08a164a18d6e831b118b1af9
 Size (viewer-0.7.3.tar.gz) = 44622 bytes
 SHA1 (patch-aa) = 60aab69c6d1224545db91c9491c6e611f503f2b9
