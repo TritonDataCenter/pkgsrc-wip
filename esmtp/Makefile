@@ -24,8 +24,9 @@ CONFIGURE_ARGS+=	--sysconfdir=${PKG_SYSCONFDIR}
 SUBST_CLASSES+=		paths
 SUBST_MESSAGE.paths=	"Fixing hardcoded paths."
 SUBST_STAGE.paths=	pre-configure
-SUBST_FILES.paths=	README esmtprc.5 sample.esmtprc
+SUBST_FILES.paths=	README esmtp.1 esmtprc.5 sample.esmtprc
 SUBST_SED.paths=	-e 's|/usr/bin|${PREFIX}/bin|g'
+SUBST_SED.paths+=	-e 's|/etc|${PKG_SYSCONFDIR}|g'
 
 PKG_SYSCONFSUBDIR=	esmtp
 
