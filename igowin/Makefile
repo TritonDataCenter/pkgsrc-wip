@@ -13,7 +13,6 @@ COMMENT=		Go playing program
 
 WRKSRC=			${WRKDIR}
 EXTRACT_CMD=		${EXTRACT_CMD.zip}
-NO_TOOLS=		yes
 NO_BUILD=		yes
 USE_TOOLS+=		unzip
 
