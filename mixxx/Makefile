@@ -16,6 +16,8 @@ CONFIGURE_ARGS+=	--dependency-dir=${LOCALBASE}/bin\;${LOCALBASE}/lib\;${LOCALBAS
 CONFIGURE_ARGS+=	--disable-alsa
 CONFIGURE_ARGS+=	--disable-jack
 
+USE_TOOLS+=		bash
+
 SUBST_CLASSES+=		bash
 SUBST_STAGE.bash=	pre-configure
 SUBST_FILES.bash=	configure
