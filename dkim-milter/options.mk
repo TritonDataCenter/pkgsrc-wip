@@ -1,4 +1,4 @@
-# $NetBSD: options.mk,v 1.1.1.1 2005/07/20 19:42:50 tv Exp $
+# $NetBSD$
 
 PKG_OPTIONS_VAR=	PKG_OPTIONS.dk-milter
 PKG_SUPPORTED_OPTIONS=	inet6

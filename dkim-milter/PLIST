@@ -1,4 +1,4 @@
-@comment $NetBSD: PLIST,v 1.1.1.1 2005/07/20 19:42:50 tv Exp $
+@comment $NetBSD$
 man/man8/dkim-milter.8
 sbin/dkim-milter
 share/doc/dkim-milter/FEATURES
