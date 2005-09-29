@@ -29,7 +29,7 @@ PKG_SYSCONFSUBDIR=	esmtp
 
 EGDIR=			${PREFIX}/share/examples/esmtp
 CONF_FILES=		${EGDIR}/sample.esmtprc \
-			${PKG_SYSCONFDIR}/sample-esmtprc
+			${PKG_SYSCONFDIR}/sample.esmtprc
 post-install:
 	${INSTALL_DATA_DIR} ${EGDIR}
 	${INSTALL_DATA} ${WRKSRC}/sample.esmtprc ${EGDIR}
