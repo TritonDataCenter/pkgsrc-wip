@@ -15,7 +15,7 @@ MAKEFILE=		Makefile.NetBSD
 
 WRKSRC=			${WRKDIR}
 
-LICENSE= 		non-commercial-use
+LICENSE= 		no-commercial-use
 
 post-extract:
 	${SED} -e 's:/seqprg/slib/bin:@PREFIX@:' \

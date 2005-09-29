@@ -10,7 +10,7 @@ MAINTAINER=		dprice@cs.nmsu.edu
 HOMEPAGE=		http://biopython.org
 COMMENT=		Python libraries for computational molecular biology
 
-LICENSE=		non-commercial-use
+LICENSE=		no-commercial-use
 
 PY_PATCHPLIST=		YES
 PYDISTUTILSPKG=         YES
