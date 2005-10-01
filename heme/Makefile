@@ -12,9 +12,12 @@ COMMENT=		Fast and portable console hex editor
 PKG_INSTALLATION_TYPES=	overwrite pkgviews
 
 BUILD_TARGET=		heme
+USE_NCURSES=		# mvwchgat
 USE_TOOLS+=		gmake
 
 INSTALLATION_DIRS=	bin man/man1
+
+.include "../../devel/ncurses/buildlink3.mk"
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/heme ${PREFIX}/bin
