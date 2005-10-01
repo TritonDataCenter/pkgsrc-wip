@@ -10,6 +10,8 @@ MAINTAINER=		martti@NetBSD.org
 HOMEPAGE=		http://www.cl.cam.ac.uk/Research/SRG/netos/xen/
 COMMENT=		Xen libraries
 
+CONFLICTS+=		xentools20-[0-9]*
+
 USE_TOOLS+=		gmake
 WRKSRC=			${WRKDIR}/xen-2.0/tools
 VERSION=		2.0.7
