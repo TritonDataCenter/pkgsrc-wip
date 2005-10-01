@@ -11,8 +11,6 @@ COMMENT=		Lightweight management framework for Xen
 
 ONLY_FOR_PLATFORM=	NetBSD-*-i386
 
-CONFLICTS+=		xentools20-[0-9]*
-
 GNU_CONFIGURE=		YES
 USE_TOOLS+=		gmake
 
