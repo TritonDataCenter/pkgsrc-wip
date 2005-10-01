@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		vm-tools-0.1.6
+DISTNAME=		vm-tools-0.1.9
 CATEGORIES=		sysutils
 MASTER_SITES=		http://www.cs.utexas.edu/users/aliguori/vm-tools/
 
@@ -21,6 +21,7 @@ pre-build:
 	${CP} ${FILESDIR}/event_channel.h ${BUILDLINK_DIR}/include/xen/
 	${CP} ${FILESDIR}/sched_ctl.h ${BUILDLINK_DIR}/include/xen/
 	${CP} ${FILESDIR}/xen.h ${BUILDLINK_DIR}/include/xen/
+	${CP} ${FILESDIR}/xenio.h ${BUILDLINK_DIR}/include/xen
 
 	${MKDIR} ${BUILDLINK_DIR}/include/xen/io
 	${CP} ${FILESDIR}/domain_controller.h ${BUILDLINK_DIR}/include/xen/io/
