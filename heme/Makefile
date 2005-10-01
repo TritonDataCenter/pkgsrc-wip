@@ -9,8 +9,12 @@ MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://keihanna.dl.sourceforge.net/sourceforge/heme/
 COMMENT=		Fast and portable console hex editor
 
+PKG_INSTALLATION_TYPES=	overwrite pkgviews
+
 BUILD_TARGET=		heme
 USE_TOOLS+=		gmake
+
+INSTALLATION_DIRS=	bin man/man1
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/heme ${PREFIX}/bin
