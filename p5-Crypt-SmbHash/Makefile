@@ -3,7 +3,6 @@
 
 DISTNAME=		Crypt-SmbHash-0.12
 PKGNAME=		p5-${DISTNAME}
-SVR4_PKGNAME=		p5csm
 CATEGORIES=		security perl5
 MASTER_SITES=		${MASTER_SITE_PERL_CPAN:=Crypt/}
 
