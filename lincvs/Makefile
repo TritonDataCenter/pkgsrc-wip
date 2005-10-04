@@ -17,7 +17,7 @@ SUBST_STAGE.qmake=	post-patch
 SUBST_FILES.qmake=	lincvs.pro
 SUBST_SED.qmake=	-e 's,%%QTDIR%%,${PREFIX}${QTDIR},'
 
-pre-build:
+do-configure:
 	 ${QTDIR}/bin/qmake -o ${WRKSRC}/Makefile ${WRKSRC}/lincvs.pro
 
 do-install:
