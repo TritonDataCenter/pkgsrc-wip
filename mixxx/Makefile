@@ -9,7 +9,7 @@ HOMEPAGE=	http://mixxx.sourceforge.net/
 COMMENT=	Digital DJ tool
 
 # needs pselect(2). if you know a workaround, please let me know
-NOT_FOR_PLATFORM=	NetBSD-[0-2]*-* FreeBSD-[0-4]*-* OpenBSD-*-*
+NOT_FOR_PLATFORM=	NetBSD-[0-2]*-* FreeBSD-[0-4]*-* OpenBSD-*-* DragonFly-*-*
 
 WRKSRC=		${WRKDIR}/${DISTNAME}/src
 
