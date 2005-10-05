@@ -7,10 +7,10 @@ CATEGORIES=	www
 MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=HTTP/}
 
 MAINTAINER=	tech-pkg@NetBSD.org
+HOMEPAGE=	http://search.cpan.org/dist/HTTP-GHTTP/
 COMMENT=	Perl interface to the gnome ghttp library
 
-
-PERL5_PACKLIST=         ${PERL5_SITEARCH}/auto/HTTP/GHTTP/.packlist
+PERL5_PACKLIST= auto/HTTP/GHTTP/.packlist
 
 .include "../../lang/perl5/module.mk"
 .include "../../www/libghttp/buildlink3.mk"
