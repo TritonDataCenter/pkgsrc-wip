@@ -6,6 +6,7 @@ CATEGORIES=	perl5 wip devel
 MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=Term/}
 
 MAINTAINER=	tech-pkg@NetBSD.org
+HOMEPAGE=	http://search.cpan.org/dist/Term-Screen/
 COMMENT=	Term::Cap based screen positioning module
 
 PKG_INSTALLATION_TYPES= overwrite pkgviews
