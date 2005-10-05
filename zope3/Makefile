@@ -16,7 +16,7 @@ HAS_CONFIGURE=	yes
 CONFIGURE_ARGS=	--with-python ${PYTHONBIN} \
 		--prefix ${PREFIX}/share/zope3 \
 		--force
-BUILD_TARGET=
+BUILD_TARGET=	build
 
 USE_PKGINSTALL=	yes
 RCD_SCRIPTS=	zope3 zss3
