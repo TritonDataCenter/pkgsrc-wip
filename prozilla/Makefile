@@ -2,6 +2,7 @@
 #
 
 DISTNAME=		prozilla-1.3.6
+PKGREVISION=		1
 CATEGORIES=		net
 MASTER_SITES=		http://prozilla.genesys.ro/downloads/prozilla/tarballs/
 
