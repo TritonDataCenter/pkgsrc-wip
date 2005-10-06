@@ -8,7 +8,7 @@ CATEGORIES=		devel x11
 MASTER_SITES=	        http://lincvs.com/download/
 EXTRACT_SUFX=		.tgz
 
-MAINTAINER=		tech-pkg@NetBSD.org
+MAINTAINER=		geert.hendrickx@ua.ac.be
 HOMEPAGE=		http://lincvs.org/
 COMMENT=		Nice GUI front-end to CVS (using Qt)
 
