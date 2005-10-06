@@ -14,5 +14,12 @@ USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 USE_TOOLS+=		gmake
 
+EGDIR=			${PREFIX}/share/examples/prozilla
+CONF_FILES=		${EGDIR}/prozilla.conf ${PKG_SYSCONFDIR}/prozilla.conf
+
+post-install:
+	${INSTALL_DATA_DIR} ${EGDIR}
+	${INSTALL_DATA} ${WRKSRC}/prozrc.sample ${EGDIR}/prozilla.conf
+
 .include "../../devel/ncurses/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
