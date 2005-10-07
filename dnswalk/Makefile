@@ -12,9 +12,8 @@ COMMENT=		DNS debugger
 
 DEPENDS+=		p5-Net-DNS>=0.42:../../net/p5-Net-DNS
 
-USE_PERL5=		YES
-
-REPLACE_PERL=	dnswalk makereports
+USE_TOOLS+=		perl:run
+REPLACE_PERL=		dnswalk makereports
 
 do-install:
 	${INSTALL_SCRIPT} ${WRKSRC}/dnswalk     ${PREFIX}/bin/
