@@ -25,7 +25,7 @@ CONFIGURE_ARGS+=	--disable-dbus
 
 SUBST_CLASSES+=		shebang
 SUBST_STAGE.shebang=	pre-configure
-SUBST_FILES.shebang=	scripts/mkrevision.sh scripts/mkgets.sh
+SUBST_FILES.shebang=	scripts/mkgets.sh
 SUBST_SED.shebang=	-e 's|/bin/bash|${SH}|g'
 
 .include "../../audio/taglib/buildlink3.mk"
