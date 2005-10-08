@@ -10,5 +10,4 @@ $NetBSD$
 +SUBDIRS = jemboss
  
  # AJAX_FIXED_ROOT = \"`pwd`/emboss/acd\"
-
-
+ 

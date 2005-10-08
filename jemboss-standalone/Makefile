@@ -18,7 +18,7 @@ DEPENDS+=		apache-ant>=1.5.3.1:../../devel/apache-ant
 
 DIST_SUBDIR=		emboss/emboss-2.9.0
 
-PKG_JVM=        	sun-jdk13
+PKG_DEFAULT_JVM=	sun-jdk13
 
 WRKSRC=			${WRKDIR}/${DISTNAME}
 USE_JAVA=		yes
