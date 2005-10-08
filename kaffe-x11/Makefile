@@ -12,7 +12,6 @@ CONFIGURE_ARGS:=  ${CONFIGURE_ARGS:S/--disable-native-awt/--with-kaffe-x-awt/}
 BUILD_DIRS=     ${WRKSRC}/config
 BUILD_DIRS+=    ${WRKSRC}/libraries/javalib
 BUILD_DIRS+=    ${WRKSRC}/include
-BUILD_DIRS+=    ${WRKSRC}/libltdl
 BUILD_DIRS+=    ${WRKSRC}/replace
 BUILD_DIRS+=    ${WRKSRC}/kaffe/kaffevm
 BUILD_DIRS+=    ${WRKSRC}/libraries/clib/classpath
