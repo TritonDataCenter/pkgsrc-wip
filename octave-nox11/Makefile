@@ -46,15 +46,15 @@ post-extract:
 
 post-install:
 .for f in ${LIBOCTAVE_INFO}
-	${INSTALL_DATA} ${WRKSRC}/doc/liboctave/$f ${PREFIX}/info
+	${INSTALL_DATA} ${WRKSRC}/doc/liboctave/${f} ${PREFIX}/info
 .endfor
 	${INSTALL_DATA_DIR} ${PREFIX}/share/octave/${OCTAVE_VER}/doc
 .for f in ${OCTAVE_DOC}
-	${INSTALL_DATA} ${WRKSRC}/doc/$f ${PREFIX}/share/octave/${OCTAVE_VER}/doc
+	${INSTALL_DATA} ${WRKSRC}/doc/${f} ${PREFIX}/share/octave/${OCTAVE_VER}/doc
 .endfor
 	${INSTALL_DATA_DIR} ${PREFIX}/share/doc/html/octave
 .for f in ${OCTAVE_HTML}
-	${INSTALL_DATA} ${WRKSRC}/doc/$f ${PREFIX}/share/doc/html/octave
+	${INSTALL_DATA} ${WRKSRC}/doc/${f} ${PREFIX}/share/doc/html/octave
 .endfor
 
 .include "../../devel/readline/buildlink3.mk"
