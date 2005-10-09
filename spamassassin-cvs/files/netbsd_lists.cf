@@ -27,4 +27,3 @@ score NETBSD_PR		-5
 meta NETBSD_PR_COMMENT	(! __NETBSD_SEND_PR && __NETBSD_PR_SUBJECT && __NETBSD_BUGS_SENDER && __NETBSD_RCVD && __NETBSD_BUGS_DELIVERED)
 describe NETBSD_PR_COMMENT   Message concerns a problem report from netbsd-bugs
 score NETBSD_PR_COMMENT	-2.5
-
