@@ -114,7 +114,7 @@ do-install:
 	cd ${WRKSRC}; ${MAKE} ${MAKE_FLAGS} ${MAKEFILE} setup
 	cd ${WRKSRC}; ${MAKE} ${MAKE_FLAGS} ${MAKEFILE} ui readpostcheck
 .for f in checknews cnewsdo inews injnews postnews readnews
-	${CHOWN} ${BINOWN}:${BINGRP} ${PREFIX}/bin/$f
+	${CHOWN} ${BINOWN}:${BINGRP} ${PREFIX}/bin/${f}
 .endfor
 	${CHOWN} -R news:news ${CNEWSARTS} ${CNEWSOV} ${CNEWSCTL}
 	${CHOWN} news:news ${CNEWSBIN}/input/newsspool
