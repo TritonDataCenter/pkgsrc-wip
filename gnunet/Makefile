@@ -39,7 +39,7 @@ post-patch:
 post-build:
 	${CP} -f ${PKGDIR}/PLIST ${PLIST_SRC}
 .for f in ${GNUNET_PLIST_ADD}
-	${ECHO} '$f' >>${PLIST_SRC}
+	${ECHO} ${f:Q} >>${PLIST_SRC}
 .endfor
 
 .include "../../devel/gettext-lib/buildlink3.mk"
