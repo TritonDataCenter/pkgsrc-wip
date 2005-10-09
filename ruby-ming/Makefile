@@ -21,7 +21,7 @@ REPLACE_RUBY_DIRS=	${WRKSRC}/examples
 post-install:
 		${INSTALL_DATA_DIR} ${RUBY_EXAMPLESDIR}/ming
 .for f in ${EXAMPLES}
-		${INSTALL_DATA} ${WRKSRC}/examples/$f ${RUBY_EXAMPLESDIR}/ming
+		${INSTALL_DATA} ${WRKSRC}/examples/${f} ${RUBY_EXAMPLESDIR}/ming
 .endfor
 
 .include "../../wip/ming/buildlink3.mk"
