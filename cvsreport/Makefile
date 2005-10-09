@@ -10,8 +10,8 @@ HOMEPAGE=		http://home.gna.org/report/
 COMMENT=		Message reports from CVS activity
 
 REPLACE_PERL+=		cvsreport
-USE_PERL5=		yes
-NO_BUILD=#
+USE_TOOLS+=		perl:run
+NO_BUILD=		yes
 
 do-install:
 	${INSTALL_SCRIPT} ${WRKSRC}/cvsreport ${PREFIX}/bin/

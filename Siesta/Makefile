@@ -11,7 +11,7 @@ COMMENT=	Siesta Mailing List Manager
 
 DEPENDS+=	p5-Module-Build-[0-9]*:../../devel/p5-Module-Build
 
-USE_PERL5=	YES
+USE_TOOLS+=	perl5:run
 
 .include "../../lang/perl5/module.mk"
 .include "../../mk/bsd.pkg.mk"

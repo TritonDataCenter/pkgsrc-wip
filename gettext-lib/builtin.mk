@@ -172,7 +172,7 @@ CONFIGURE_ARGS+=	--without-libintl-prefix
 .endif
 
 .if defined(USE_MSGFMT_PLURALS) && !empty(USE_MSGFMT_PLURALS:M[Yy][Ee][Ss])
-USE_PERL5?=		build
+USE_TOOLS+=		perl
 CONFIGURE_ENV+=		MSGFMT=${BUILDLINK_DIR}/bin/msgfmt
 
 SUBST_CLASSES+=			fix-msgfmt

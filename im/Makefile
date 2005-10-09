@@ -9,7 +9,7 @@ MAINTAINER=	ura@jp.NetBSD.org
 HOMEPAGE=	http://tats.haun.org/im/
 COMMENT=	Set of user interfaces of Email and NetNews
 
-USE_PERL5=	yes
+USE_TOOLS+=	perl:run
 GNU_CONFIGURE=	yes
 CONFIGURE_ENV=	im_path_perl=${PERL5}
 CONFIGURE_ARGS= --libdir=${PREFIX}/etc
