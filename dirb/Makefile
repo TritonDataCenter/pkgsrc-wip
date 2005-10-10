@@ -1,13 +1,13 @@
 # $NetBSD$
 #
 
-DISTNAME=	dirb120
-PKGNAME=	dirb-1.2.0
-CATEGORIES=	wip
-MASTER_SITES=	http://www.t0s.org/code/tools/dirb/
+DISTNAME=	dirb18
+PKGNAME=	dirb-1.8
+CATEGORIES=	wip security
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=dirb/}
 
 MAINTAINER=	pancake@phreaker.net
-HOMEPAGE=	http://www.t0s.org/dirb.php
+HOMEPAGE=	http://dirb.sourceforge.net/
 COMMENT=	Web Content Scanner
 
 USE_PKGLOCALEDIR=	yes
