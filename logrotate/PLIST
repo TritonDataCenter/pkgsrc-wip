@@ -1,6 +1,6 @@
 @comment $NetBSD: $
-sbin/logrotate
 man/man8/logrotate.8
+sbin/logrotate
 share/examples/logrotate/logrotate.conf.sample
 share/examples/logrotate/logrotate.d/syslog.sample
 @dirrm share/examples/logrotate/logrotate.d
