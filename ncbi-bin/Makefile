@@ -13,7 +13,7 @@ COMMENT=		Portable, modular software for molecular biology
 
 PKG_VER=		20040505
 WRKSRC=			${WRKDIR}/ncbi
-DIST_SUBDIR=		${PKGNAME}
+DIST_SUBDIR=		${PKGNAME_NOREV}
 
 MAKE_ENV+=		PREFIX=${PREFIX}
 

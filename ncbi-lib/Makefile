@@ -13,7 +13,7 @@ HOMEPAGE=		http://www.ncbi.nlm.nih.gov/IEB/ToolBox
 COMMENT=		Portable, modular software for molecular biology
 
 WRKSRC=			${WRKDIR}/ncbi
-DIST_SUBDIR=		${PKGNAME}
+DIST_SUBDIR=		${PKGNAME_NOREV}
 
 MAKE_ENV+=		PREFIX=${PREFIX}
 
