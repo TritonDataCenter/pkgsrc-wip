@@ -1,12 +1,10 @@
 # $NetBSD$
 #
 
-DISTNAME=		rel-bacula-doc
-PKGNAME=		bacula-docs-1.34.5
-WRKSRC=			${WRKDIR}/html-manual
+DISTNAME=		bacula-doc-1.36.3
+PKGNAME=		bacula-docs-1.36.3
 CATEGORIES=		sysutils
-MASTER_SITES=		http://www.bacula.org/
-DIST_SUBDIR=		${PKGNAME}
+MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=bacula/}
 
 MAINTAINER=		tech-pkg@NetBSD.org
 HOMEPAGE=		http://www.bacula.org/
