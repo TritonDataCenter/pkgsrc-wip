@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		${PKGNAME}-src
+DISTNAME=		pngnq-0.3-src
 PKGNAME=		pngnq-0.3
 CATEGORIES=		graphics
 MASTER_SITES=		http://www.cybertherial.com/pngnq/
