@@ -10,7 +10,7 @@ MAINTAINER=		tech-pkg@NetBSD.org
 HOMEPAGE=		http://tilp.info/
 COMMENT=		Database of TI calculator model information
 
-WRKSRC=			${WRKDIR}/${PKGNAME}
+WRKSRC=			${WRKDIR}/${PKGNAME_NOREV}
 
 USE_LIBTOOL=		YES
 GNU_CONFIGURE=		YES

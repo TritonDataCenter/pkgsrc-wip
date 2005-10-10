@@ -10,7 +10,7 @@ MAINTAINER=		tech-pkg@NetBSD.org
 HOMEPAGE=		http://tilp.info/
 COMMENT=		Library for reading files from TI calculators
 
-WRKSRC=			${WRKDIR}/${PKGNAME}
+WRKSRC=			${WRKDIR}/${PKGNAME_NOREV}
 
 LDFLAGS+=		-lintl
 USE_LIBTOOL=		YES

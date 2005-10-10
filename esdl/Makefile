@@ -9,7 +9,7 @@ MAINTAIER=	geert.hendrickx@ua.ac.be
 HOMEPAGE=	http://esdl.sourceforge.net/
 COMMENT=	SDL and OpenGL library for Erlang
 
-WRKSRC=		${WRKDIR}/${PKGNAME}
+WRKSRC=		${WRKDIR}/${PKGNAME_NOREV}
 
 USE_TOOLS+=	gmake
 BUILD_TARGET=	target

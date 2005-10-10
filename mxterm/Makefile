@@ -12,7 +12,7 @@ COMMENT=	Motif XTerm
 
 GNU_CONFIGURE=	YES
 
-WRKSRC=		${WRKDIR}/${PKGNAME}
+WRKSRC=		${WRKDIR}/${PKGNAME_NOREV}
 
 .include "../../mk/motif.buildlink3.mk"
 .include "../../mk/x11.buildlink3.mk"

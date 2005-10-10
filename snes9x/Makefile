@@ -12,7 +12,7 @@ MAINTAINER=		jmcneill@NetBSD.org
 HOMEPAGE=		http://www.snes9x.com/
 COMMENT=		Super Nintendo Entertainment System (SNES) emulator
 
-WRKSRC=			${WRKDIR}/${PKGNAME}-src/snes9x
+WRKSRC=			${WRKDIR}/${DISTNAME}/snes9x
 GNU_CONFIGURE=		yes
 USE_TOOLS+=		gmake
 PTHREAD_OPTS=		require

@@ -10,7 +10,7 @@ MAINTAINER=		inittab@unixdev.net
 HOMEPAGE=		http://tile.unixdev.net/
 COMMENT=		X11 Window Tiler
 
-WRKSRC=		${WRKDIR}/${PKGNAME}
+WRKSRC=			${WRKDIR}/${PKGNAME_NOREV}
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 
