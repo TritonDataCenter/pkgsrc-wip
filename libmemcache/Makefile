@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		libmemcache-1.4.0.b5
+DISTNAME=		libmemcache-1.4.0.b9
 PKGNAME=		${DISTNAME:S/.b/beta/}
 CATEGORIES=		devel
 MASTER_SITES=		http://people.freebsd.org/~seanc/libmemcache/
