@@ -13,7 +13,7 @@ BUILDLINK_PACKAGES+=	kaffe
 .if !empty(KAFFE_BUILDLINK3_MK:M+)
 BUILDLINK_DEPENDS.kaffe+=	kaffe>=1.1.4nb2
 BUILDLINK_RECOMMENDED.kaffe+=	kaffe>=1.1.4nb4
-BUILDLINK_PKGSRCDIR.kaffe?=	../../lang/kaffe
+BUILDLINK_PKGSRCDIR.kaffe?=	../../wip/kaffe
 BUILDLINK_JAVA_PREFIX.kaffe=	${PREFIX}/java/kaffe
 
 BUILDLINK_PASSTHRU_DIRS+=	${BUILDLINK_JAVA_PREFIX.kaffe}
