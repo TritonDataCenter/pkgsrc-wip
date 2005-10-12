@@ -1,0 +1,8 @@
+#!/bin/sh
+#
+#	$NetBSD$
+#
+# Wrapper around the XaraLX binary because it uses
+# the dirname of its argv[0] to find some files
+
+exec %%XARALXDIR%%/XaraLX "$@"
