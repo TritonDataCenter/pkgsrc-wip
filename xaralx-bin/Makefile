@@ -3,6 +3,7 @@
 DISTNAME=		XaraLX0.1
 PKGNAME=		${DISTNAME:S,LX,LX-,}
 CATEGORIES=		graphics
+MASTER_SITES=		http://downloads.xara.com/opensource/
 EXTRACT_SUFX=		.tbz2
 
 MAINTAINER=		geert.hendrickx@ua.ac.be
