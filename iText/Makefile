@@ -1,10 +1,10 @@
 # $NetBSD$
 #
 
-DISTNAME=		iText
-PKGNAME=		iText-1.02
-CATEGORIES=		devel
-MASTER_SITES=		http://itext.sourceforge.net/downloads/
+DISTNAME=		itext-1.3
+PKGNAME=		java-itext-1.3
+CATEGORIES=		textproc
+MASTER_SITES=		http://${MASTER_SITE_SOURCEFORGE:=itext/}
 EXTRACT_SUFX=		.jar
 
 MAINTAINER=		pancake@phreaker.net
@@ -18,7 +18,8 @@ do-extract:
 do-build:
 
 do-install:
-		${INSTALL_DATA} ${DISTDIR}/iText.jar ${PREFIX}/lib/iText.jar
+	${INSTALL_DATA_DIR} ${PREFIX}/lib/java
+	${INSTALL_DATA} ${DISTDIR}/${DISTNAME}.jar ${PREFIX}/lib/java/itext.jar
 
 .include "../../mk/java-vm.mk"
 .include "../../mk/bsd.pkg.mk"
