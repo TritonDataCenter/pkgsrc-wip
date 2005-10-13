@@ -8,7 +8,7 @@ EXTRACT_SUFX=		.tar.bz2
 
 MAINTAINER=		lems@gmx.net
 HOMEPAGE=		http://software.schmorp.de/#rxvt-unicode
-COMMENT=		A rxvt clone supporting Xft fonts and Unicode
+COMMENT=		rxvt clone supporting Xft fonts and Unicode
 
 GNU_CONFIGURE=		yes
 USE_LANGUAGES=		c++
