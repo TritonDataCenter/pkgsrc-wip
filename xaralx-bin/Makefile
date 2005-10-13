@@ -12,9 +12,6 @@ COMMENT=		Vector graphics program
 
 DEPENDS+=		suse_gtk2>=7.3:../../emulators/${SUSE_DIR_PREFIX}_gtk2
 
-USE_TOOLS+=		bzcat tar
-EXTRACT_CMD=		${EXTRACT_CMD.tar.bz2}
-
 NO_CONFIGURE=		yes
 NO_BUILD=		yes
 
