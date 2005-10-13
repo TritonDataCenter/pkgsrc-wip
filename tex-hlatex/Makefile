@@ -9,7 +9,7 @@ MASTER_SITES=	ftp://ftp.bsdforum.or.kr/pub/distfiles/			\
 		${MASTER_SITE_TEX_CTAN:=fonts/korean/HLaTeX/}
 DISTFILES=	${DISTNAME}${EXTRACT_SUFX} ${HLATEX_FONTS_BASE}
 
-MAINTAINER=	minskim@bawi.org
+MAINTAINER=	minskim@NetBSD.org
 HOMEPAGE=	http://ftp.ktug.or.kr/mirrors/HLaTeX/hlatex.html
 COMMENT=	LaTeX package to use Hangul (UHC/KSX1001)
 

@@ -4,7 +4,7 @@ DISTNAME=	docbook-xsl-ko-0.2
 CATEGORIES=	textproc
 MASTER_SITES=	http://download.kldp.net/docbook/
 
-MAINTAINER=	minskim@bawi.org
+MAINTAINER=	minskim@NetBSD.org
 HOMEPAGE=	http://docbook.or.kr/
 COMMENT=	DocBook XSL customization layer for Korean
 

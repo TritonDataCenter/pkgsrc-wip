@@ -7,7 +7,7 @@ CATEGORIES=	print
 MASTER_SITES=	http://www.tei-c.org.uk/Software/passivetex/
 EXTRACT_SUFX=	.zip
 
-MAINTAINER=	minskim@bawi.org
+MAINTAINER=	minskim@NetBSD.org
 HOMEPAGE=	http://www.tei-c.org.uk/Software/passivetex/
 COMMENT=	TeX macros for formatting objects
 
