@@ -11,7 +11,7 @@ HOMEPAGE=		http://tile.unixdev.net/
 COMMENT=		X11 Window Tiler
 
 WRKSRC=			${WRKDIR}/${PKGNAME_NOREV}
-USE_PKGLOCALEDIR=	yes
+USE_DIRS+=		xdg-1.2
 GNU_CONFIGURE=		yes
 
 .include "../../devel/libgetopt/buildlink3.mk"
