@@ -10,7 +10,6 @@ lib/secpanel/images/profiles.gif
 lib/secpanel/images/scp.gif
 lib/secpanel/images/sscreen.gif
 lib/secpanel/images/back.gif
-@dirrm lib/secpanel/images
 lib/secpanel/convert_history.tcl
 lib/secpanel/default.config
 lib/secpanel/default.profile
@@ -21,4 +20,5 @@ lib/secpanel/secpanel.wait
 lib/secpanel/convert_profile.tcl
 lib/secpanel/export_profiles.tcl
 lib/secpanel/sp_scp.tcl
+@dirrm lib/secpanel/images
 @dirrm lib/secpanel
