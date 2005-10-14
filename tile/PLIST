@@ -1,7 +1,9 @@
 @comment $NetBSD$
 bin/tile
+man/man1/tile.1
 share/applications/horizontal.desktop
 share/applications/vertical.desktop
 share/tile/rc
 share/tile/wmprofiles
-man/man1/tile.1
+@dirrm share/tile
+@comment in xdg-dirs: @dirrm share/applications
