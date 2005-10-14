@@ -50,14 +50,8 @@ share/applications/xfmedia.desktop
 @dirrm share/xfmedia/doc
 @dirrm share/xfmedia
 @dirrm share/icons/hicolor/48x48/apps
-@dirrm share/icons/hicolor/48x48
 @dirrm share/icons/hicolor/22x22/actions
-@dirrm share/icons/hicolor/22x22
-@dirrm share/icons/hicolor
-@dirrm share/icons
-@dirrm share/applications
 @dirrm lib/xfmedia/plugins
 @dirrm lib/xfmedia
 @dirrm include/xfmedia
 @dirrm etc/xdg/xfmedia
-@dirrm etc/xdg
