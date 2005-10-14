@@ -28,5 +28,4 @@ post-install:
 .include "../../sysutils/dbus-glib/buildlink3.mk"
 .include "../../x11/libexo/buildlink3.mk"
 .include "../../multimedia/xine-lib/buildlink3.mk"
-.include "../../mk/bsd.prefs.mk"
 .include "../../mk/bsd.pkg.mk"
