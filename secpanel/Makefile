@@ -9,11 +9,11 @@ MAINTAINER=		dhowland@users.sourceforge.net
 HOMEPAGE=		http://www.pingx.net/secpanel/
 COMMENT=		GUI front-end for SSH
 
+DEPENDS+=		tk>=8.4:../../x11/tk
+
 NO_BUILD=		yes
 
 .include "../../mk/bsd.prefs.mk"
-.include "../../lang/tcl/buildlink3.mk"
-.include "../../x11/tk/buildlink3.mk"
 
 do-install:
 	${INSTALL_DATA_DIR} ${PREFIX}/lib/secpanel
