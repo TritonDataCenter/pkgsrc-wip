@@ -13,8 +13,6 @@ DEPENDS+=		tk>=8.4:../../x11/tk
 
 NO_BUILD=		yes
 
-.include "../../mk/bsd.prefs.mk"
-
 do-install:
 	${INSTALL_DATA_DIR} ${PREFIX}/lib/secpanel
 	${INSTALL_DATA} ${WRKSRC}/src/lib/secpanel/*.tcl ${PREFIX}/lib/secpanel/
