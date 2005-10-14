@@ -1,8 +1,8 @@
 # $NetBSD$
 #
 
-DISTNAME=		qemu-0.6.1-i386
-PKGNAME=		qemu-bin-0.6.1
+DISTNAME=		qemu-0.7.2-i386
+PKGNAME=		qemu-bin-0.7.2
 CATEGORIES=		emulators
 MASTER_SITES=		http://fabrice.bellard.free.fr/qemu/
 
@@ -32,5 +32,7 @@ do-install:
 	${INSTALL_DATA_DIR} ${PREFIX}/share/doc/qemu
 	${INSTALL_DATA} ${WRKSRC}/share/doc/qemu/*.html ${PREFIX}/share/doc/qemu
 	${INSTALL_DATA} ${WRKSRC}/share/qemu/*.bin ${PREFIX}/share/qemu
+	${INSTALL_DATA} ${WRKSRC}/share/qemu/*.elf ${PREFIX}/share/qemu
+	${INSTALL_DATA} ${WRKSRC}/share/qemu/*.x ${PREFIX}/share/qemu
 
 .include "../../mk/bsd.pkg.mk"
