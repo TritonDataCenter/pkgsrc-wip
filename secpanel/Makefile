@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		secpanel-0.4.3
+DISTNAME=		secpanel-0.5.1
 CATEGORIES=		security x11
 MASTER_SITES=		http://www.pingx.net/secpanel/
 
