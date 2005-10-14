@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		secpanel-0.5.1
-CATEGORIES=		security x11
+CATEGORIES=		security
 MASTER_SITES=		http://www.pingx.net/secpanel/
 
 MAINTAINER=		dhowland@users.sourceforge.net
