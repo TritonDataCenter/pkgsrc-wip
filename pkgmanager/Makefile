@@ -1,9 +1,8 @@
 # $NetBSD$
 #
 
-PKGMGR_VERSION= 0.5.0
+PKGMGR_VERSION= 0.6.0
 DISTNAME=	pkgmanager-${PKGMGR_VERSION}
-PKGREVISION=	1
 CATEGORIES=	pkgtools
 MASTER_SITES=	http://starfury.scode.org/pkgmanager/
 PPCRE_VERSION=  1.2.10
