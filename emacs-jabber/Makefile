@@ -9,12 +9,12 @@ MAINTAINER=   tonio@NetBSD.org
 HOMEPAGE=     http://intellectronica.net/emacs-jabber/
 COMMENT=      Minimal jabber client for emacs
 
-DEPENDS+=  gnus>=5.10:../../mail/gnus
+DEPENDS+=     gnus>=5.10:../../mail/gnus
 
 INFO_FILES=   jabber.info
 
-NO_CONFIGURE=YES
-NO_BUILD=     #
+NO_CONFIGURE= yes
+NO_BUILD=     yes
 
 do-install:
 	${INSTALL_DATA_DIR} ${EMACS_LISPPREFIX}/emacs-jabber
