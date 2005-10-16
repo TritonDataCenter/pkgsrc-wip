@@ -1,6 +1,7 @@
 # $NetBSD$
 
 DISTNAME=     emacs-jabber-0.6.1
+PKGNAME=      ${EMACS_PKGNAME_PREFIX}${DISTNAME}
 CATEGORIES=   chat
 MASTER_SITES= ${MASTER_SITE_SOURCEFORGE:=emacs-jabber/}
 
