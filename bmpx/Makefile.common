@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	bmpx-0.12-RC8
+DISTNAME=	bmpx-0.12_RC11
 CATEGORIES=	audio
 MASTER_SITES=	http://download.berlios.de/bmpx/
 EXTRACT_SUFX=	.tar.bz2
