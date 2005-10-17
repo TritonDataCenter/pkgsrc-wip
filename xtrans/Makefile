@@ -1,14 +1,13 @@
 # $NetBSD$
 #
 
-DISTNAME=		libXtrans-0.1
-PKGNAME=		xtrans-0.1
+DISTNAME=		xtrans-0.99.0
 CATEGORIES=		x11 net
-MASTER_SITES=		http://xlibs.freedesktop.org/release/
+MASTER_SITES=		http://xorg.freedesktop.org/X11R7.0-RC0/lib/
 EXTRACT_SUFX=		.tar.bz2
 
 MAINTAINER=		reed@reedmedia.net
-HOMEPAGE=		http://xlibs.freedesktop.org/
+HOMEPAGE=		http://xorg.freedesktop.org/
 COMMENT=		Network API translation layer to insulate X
 
 PKG_INSTALLATION_TYPES=	overwrite pkgviews

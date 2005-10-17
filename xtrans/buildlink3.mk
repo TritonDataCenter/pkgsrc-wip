@@ -14,7 +14,7 @@ BUILDLINK_PACKAGES:=	${BUILDLINK_PACKAGES:Nxtrans}
 BUILDLINK_PACKAGES+=	xtrans
 
 .if !empty(XTRANS_BUILDLINK3_MK:M+)
-BUILDLINK_DEPENDS.xtrans?=		xtrans>=0.1
+BUILDLINK_DEPENDS.xtrans?=		xtrans>=0.99.0
 BUILDLINK_PKGSRCDIR.xtrans?=		../../wip/xtrans
 BUILDLINK_DEPMETHOD.xtrans?=		build
 .endif # XTRANS_BUILDLINK3_MK
