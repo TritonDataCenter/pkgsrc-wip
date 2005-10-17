@@ -35,7 +35,7 @@ CPPFLAGS+=		-DXUSE_MTSAFE_API -DXNO_MTSAFE_PWDAPI -D_REENTRANT
 .include "../../wip/inputproto/buildlink3.mk"
 .include "../../wip/kbproto/buildlink3.mk"
 .include "../../wip/libXau/buildlink3.mk"
-.include "../../new/libXdmcp/buildlink3.mk"
+.include "../../wip/libXdmcp/buildlink3.mk"
 .include "../../wip/xcmiscproto/buildlink3.mk"
 .include "../../wip/xextproto/buildlink3.mk"
 .include "../../wip/xf86bigfontproto/buildlink3.mk"
