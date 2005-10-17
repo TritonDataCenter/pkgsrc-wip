@@ -8,9 +8,9 @@ EXTRACT_SUFX=		.tar.bz2
 
 MAINTAINER=		lars.nordlund@hem.utfors.se
 HOMEPAGE=		http://xorg.freedesktop.org/
-COMMENT=		TBD
+COMMENT=		XF86BigFont extension headers from X.org
 
-CONFLICTS+=		xorg-libs-[0-9]*
+#CONFLICTS+=		xorg-libs-[0-9]*
 
 GNU_CONFIGURE=		yes
 PKGCONFIG_OVERRIDE+=	${WRKSRC}/xf86bigfontproto.pc.in
