@@ -41,9 +41,9 @@ PLIST_SUBST+=		PYREX="@comment "
 .endif
 
 .if !empty(PKG_OPTIONS:Mruby)
-RUBY_DIST_SUBDIR=
+USE_RUBY_DIST_SUBDIR=	no
 RUBY_VERSION_SUPPORTED=	18
-.  include "../../lang/ruby/modules.mk"
+.  include "../../lang/ruby/buildlink3.mk"
 PLIST_SUBST+=		RUBY=""
 .else
 EXCLUDES+=		ruby
