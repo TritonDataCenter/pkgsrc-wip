@@ -8,10 +8,10 @@ EXTRACT_SUFX=		.tar.bz2
 
 MAINTAINER=		lars.nordlund@hem.utfors.se
 HOMEPAGE=		http://xorg.freedesktop.org/
-COMMENT=		TBD
+COMMENT=		KB extension headers from X.org
 
 CONFLICTS+=		xextensions-[0-9]*
-CONFLICTS+=		xorg-libs-[0-9]*
+#CONFLICTS+=		xorg-libs-[0-9]* # in different PREFIX
 
 GNU_CONFIGURE=		yes
 PKGCONFIG_OVERRIDE+=	${WRKSRC}/kbproto.pc.in
