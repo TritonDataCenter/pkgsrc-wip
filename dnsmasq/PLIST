@@ -1,4 +1,6 @@
 @comment $NetBSD$
 man/man8/dnsmasq.8
 sbin/dnsmasq
+share/examples/dnsmasq/dnsmasq.conf.example
 share/examples/rc.d/dnsmasq
+@dirrm share/examples/dnsmasq
