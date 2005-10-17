@@ -14,7 +14,7 @@ BUILDLINK_DEPENDS+=	libXfont
 
 .if !empty(LIBXFONT_BUILDLINK3_MK:M+)
 BUILDLINK_PACKAGES+=			libXfont
-BUILDLINK_DEPENDS.libXfont+=		libXfont>=1.4.1
+BUILDLINK_DEPENDS.libXfont+=		libXfont>=0.99.0
 BUILDLINK_PKGSRCDIR.libXfont?=		../../wip/libXfont
 
 .include "../../wip/libX11/buildlink3.mk"
