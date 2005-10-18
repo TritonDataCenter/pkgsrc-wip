@@ -5,3 +5,14 @@ bin/vncviewer
 bin/vncconfig
 bin/x0vncserver
 bin/Xvnc
+lib/modules/extensions/vnc.so
+man/man1/vncviewer.1
+man/man1/x0vncserver.1
+man/man1/vncpasswd.1
+man/man1/vncconfig.1
+man/man1/vncserver.1
+share/vnc/classes/index.vnc
+share/vnc/classes/logo150x150.gif
+share/vnc/classes/vncviewer.jar
+@dirrm share/vnc/classes
+@dirrm share/vnc
