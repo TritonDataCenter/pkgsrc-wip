@@ -1,8 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	9rc-20050823
-PKGREVISION=	1
+DISTNAME=	9rc-20051017
 CATEGORIES=	shells
 MASTER_SITES=	http://wmi.modprobe.de/snaps/
 
