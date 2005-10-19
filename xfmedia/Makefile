@@ -18,6 +18,8 @@ GNU_CONFIGURE=          yes
 USE_X11=                yes
 USE_TOOLS+=             gmake pkg-config
 
+OWN_DIRS=	${PKG_SYSCONFDIR}/xdg/xfmedia
+
 CONF_FILES=    ${PREFIX}/share/xfmedia/keybindings.rc \
 	       ${PKG_SYSCONFDIR}/xdg/xfmedia/keybindings.rc
 
