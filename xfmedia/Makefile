@@ -19,8 +19,8 @@ USE_TOOLS+=             gmake pkg-config
 
 OWN_DIRS=	${PKG_SYSCONFDIR}/xdg/xfmedia
 
-CONF_FILES=    ${PREFIX}/share/xfmedia/keybindings.rc \
-	       ${PKG_SYSCONFDIR}/xdg/xfmedia/keybindings.rc
+CONF_FILES=	${PREFIX}/share/xfmedia/keybindings.rc \
+		${PKG_SYSCONFDIR}/xdg/xfmedia/keybindings.rc
 
 post-install:
 	${INSTALL} ${WRKSRC}/src/keybindings.rc \
