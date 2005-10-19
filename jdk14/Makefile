@@ -12,7 +12,7 @@ MASTER_SITES=	# http://www.sun.com/software/java2/download.html
 EXTRACT_SUFX=	.zip
 DISTFILES=	${SCSL_SRCFILE} ${SCSL_BINFILE} ${PATCHSETFILE}
 
-MAINTAINER=	recht@NetBSD.org
+MAINTAINER=	geert.hendrickx@ua.ac.be
 HOMEPAGE=	http://www.eyesbeyond.com/freebsddom/java/
 COMMENT=	Java Development Kit 1.4.2
 
