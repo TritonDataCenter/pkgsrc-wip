@@ -3,10 +3,10 @@
 
 DISTNAME=	9rc-20051017
 CATEGORIES=	shells
-MASTER_SITES=	http://wmi.modprobe.de/snaps/
+MASTER_SITES=	http://wmii.de/snaps/
 
 MAINTAINER=	lems@gmx.net
-HOMEPAGE=	http://wmi.modprobe.de/
+HOMEPAGE=	http://wmii.de/
 COMMENT=	Port of various original plan9 tools
 
 CONFLICTS=		rc-[0-9]*

@@ -3,10 +3,10 @@
 
 DISTNAME=	wmii-20051017
 CATEGORIES=	wm x11
-MASTER_SITES=	http://wmi.modprobe.de/snaps/
+MASTER_SITES=	http://wmii.de/snaps/
 
 MAINTAINER=	lems@gmx.net
-HOMEPAGE=	http://wmi.modprobe.de/
+HOMEPAGE=	http://wmii.de/
 COMMENT=	Modular and keyboard-friendly window manager
 
 DEPENDS+=		9rc-[0-9]*:../../wip/9rc
