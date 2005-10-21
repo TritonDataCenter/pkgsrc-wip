@@ -15,8 +15,7 @@ BUILD_DEPENDS+=		nasm-[0-9]*:../../devel/nasm
 ONLY_FOR_PLATFORM+=	*-i386
 
 WRKSRC=			${WRKDIR}/z26_snapshot-20040523
-USE_TOOLS+=		gmake
-USE_PERL5+=		build
+USE_TOOLS+=		gmake perl
 BUILD_TARGET=		netbsd
 MAKE_ENV+=		"INSTALL_BINDIR=${PREFIX}/bin"
 MAKE_ENV+=		"INSTALL_MANDIR=${PREFIX}/man/man1"
