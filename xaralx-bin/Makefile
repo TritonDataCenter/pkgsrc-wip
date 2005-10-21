@@ -1,9 +1,9 @@
 # $NetBSD$
 
-DISTNAME=		XaraLX0.1
+DISTNAME=		XaraLX0.1b
 PKGNAME=		${DISTNAME:S,LX,LX-,}
 CATEGORIES=		graphics
-MASTER_SITES=		http://downloads.xara.com/opensource/
+MASTER_SITES=		http://www.cconcepts.co.uk/downloads/
 EXTRACT_SUFX=		.tbz2
 
 MAINTAINER=		geert.hendrickx@ua.ac.be
