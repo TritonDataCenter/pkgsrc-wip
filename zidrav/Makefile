@@ -21,6 +21,8 @@ PKG_INSTALLATION_TYPES=	overwrite pkgviews
   CXXFLAGS+=-DCPU_BIGENDIAN
 .endif
 
+INSTALLATION_DIRS=	bin man/man1
+
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/zidrav ${PREFIX}/bin/zidrav
 	${INSTALL_MAN} ${WRKSRC}/zidrav.1 ${PREFIX}/man/man1/zidrav.1
