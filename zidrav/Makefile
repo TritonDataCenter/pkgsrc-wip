@@ -8,7 +8,7 @@ MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=zidrav/}
 
 MAINTAINER=	tnn@netilium.org
 HOMEPAGE=	http://sourceforge.net/projects/zidrav
-COMMENT=	file corruption detection and repair program
+COMMENT=	File corruption detection and repair program
 
 USE_LANGUAGES=  c c++
 BUILD_TARGET=	zidrav
