@@ -15,4 +15,4 @@ BUILDLINK_DEPENDS.zope3-unstable+=	zope3-unstable>=3.1.0c3
 BUILDLINK_PKGSRCDIR.zope3-unstable?=	../../wip/zope3-unstable
 .endif	# ZOPE3_UNSTABLE_BUILDLINK3_MK
 
-BUILDLINK_DEPTH:=     ${BUILDLINK_DEPTH:S/+$//}
+BUILDLINK_DEPTH:=	${BUILDLINK_DEPTH:S/+$//}

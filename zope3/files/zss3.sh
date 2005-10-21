@@ -21,7 +21,7 @@ restart_cmd="zss3_restart"
 restart_precmd="zss3_precmd"
 status_cmd="zss3_status"
 status_precmd="zss3_precmd"
-zss3_instance_home="/var/zss3"
+zss3_instance_home="@VARBASE@/zss3"
 required_dirs="${zss3_instance_home}"
 command_args="--daemon --socket-name ${zss3_instance_home}/var/zdsock --program ${zss3_instance_home}/bin/runzeo"
 

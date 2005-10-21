@@ -20,7 +20,7 @@ restart_cmd="zope3_restart"
 restart_precmd="zope3_precmd"
 status_cmd="zope3_status"
 status_precmd="zope3_precmd"
-zope3_instance_home="/var/zope3"
+zope3_instance_home="@VARBASE@/zope3"
 required_dirs="${zope3_instance_home}"
 command_args="--daemon --socket-name ${zope3_instance_home}/var/zdsock --program ${zope3_instance_home}/bin/runzope"
 
