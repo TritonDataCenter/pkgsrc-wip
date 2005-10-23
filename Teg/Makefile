@@ -1,7 +1,7 @@
 # $NetBSD$
 
 DISTNAME=		teg-0.11.1
-CATEGORIES=		wip
+CATEGORIES=		games
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=teg/}
 
 MAINTAINER=		wrzymski@gmail.com
