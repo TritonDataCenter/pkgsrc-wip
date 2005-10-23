@@ -3,20 +3,19 @@
 
 DISTNAME=	ArgoUML-0.14
 PKGNAME=	argouml-0.14
-WRKSRC=		${WRKDIR}
 CATEGORIES=	devel
 MASTER_SITES=	http://argouml.tigris.org/files/documents/4/0/argouml-0.14/
-#EXTRACT_SUFX=	.tar.gz
 
 MAINTAINER=	hdp@cs.nmsu.edu
 HOMEPAGE=	http://argouml.tigris.org/
 COMMENT=	UML design tool environment with cognitive support
 
-DEPENDS+=	xerces-j>=1.4.4:../../wip/xerces-j
+DEPENDS+=	xerces-j>=1.4.4:../../textproc/xerces-j
 DEPENDS+=	jakarta-log4j>=1.2.8:../../wip/jakarta-log4j
 
 USE_JAVA=		run
 NO_BUILD=		yes
+WRKSRC=		${WRKDIR}
 
 do-configure:
 	${SED} -e 's|@PREFIX@|${PREFIX}|g' \
