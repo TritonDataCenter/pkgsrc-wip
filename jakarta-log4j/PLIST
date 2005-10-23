@@ -486,4 +486,4 @@ share/examples/java/jakarta-log4j/subclass/MyLoggerTest.java
 @dirrm share/doc/java/jakarta-log4j/api/org
 @dirrm share/doc/java/jakarta-log4j/api
 @dirrm share/doc/java/jakarta-log4j
-@unexec /bin/rmdir %D/lib/java 2>/dev/null || true
+@unexec ${RMDIR} %D/lib/java 2>/dev/null || true
