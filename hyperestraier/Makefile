@@ -13,5 +13,5 @@ USE_TOOLS+=	pkg-config
 PKGCONFIG_OVERRIDE=	hyperestraier.pc.in
 TEST_TARGET=            check
 
-.include "../../wip/qdbm/buildlink3.mk"
+.include "../../databases/qdbm/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
