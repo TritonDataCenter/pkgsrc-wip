@@ -14,18 +14,14 @@ DEPENDS+=		9rc-[0-9]*:../../shells/9rc
 USE_PKGINSTALL=		yes
 NO_CONFIGURE=		yes
 
+CFLAGS.SunOS+=		-D__EXTENSIONS__
+
 SUBST_CLASSES+=		vars
 SUBST_STAGE.vars=	post-patch
 SUBST_FILES.vars=	base/wmii util/wmirefcard action/* base/wmii.1
 SUBST_SED.vars=		-e 's|SHAREPREFIX|${PREFIX}/share|g'
 SUBST_SED.vars+=	-e 's|CONFPREFIX|${PREFIX}/share/examples|g'
 SUBST_SED.vars+=	-e 's|9PREFIX|${PREFIX}|g'
-
-.include "../../mk/bsd.prefs.mk"
-
-.if ${OPSYS} == "Solaris"
-CFLAGS+=		-D__EXTENSIONS__
-.endif
 
 PKG_SYSCONFSUBDIR=	wmii
 EGDIR=			${PREFIX}/share/examples/wmii
