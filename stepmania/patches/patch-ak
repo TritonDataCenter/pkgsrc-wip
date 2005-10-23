@@ -45,7 +45,7 @@ diff -ru -x 'config.*' work.i386/StepMania-3.9-rc2a-src/src/archutils/Unix/Signa
 +#ifdef __NetBSD__
 +#include <sys/param.h>
 +#define NEED_STRTOF
-+#if __NetBSD_Version__ < 200070000
++#if __NetBSD_Version__ < 299000900
 +#define lrintf(x)	((int)rint(x))
 +#endif
 +#endif
