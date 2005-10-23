@@ -8,6 +8,7 @@ MAINTAINER=		wrzymski@gmail.com
 HOMEPAGE=		http://teg.sourceforge.net/
 COMMENT=		Round-based computer board game
 
+USE_DIRS=		xdg-1.2 gnome2-1.5
 USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=		yes
 GNU_CONFIGURE=		yes
