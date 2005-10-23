@@ -9,7 +9,7 @@ MAINTAINER=	lems@gmx.net
 HOMEPAGE=	http://wmii.de/
 COMMENT=	Modular and keyboard-friendly window manager
 
-DEPENDS+=		9rc-[0-9]*:../../wip/9rc
+DEPENDS+=		9rc-[0-9]*:../../shells/9rc
 
 USE_PKGINSTALL=		yes
 NO_CONFIGURE=		yes
