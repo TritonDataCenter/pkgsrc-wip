@@ -1,5 +1,4 @@
 @comment $NetBSD$
-
 lib/X11/fonts/thaixfonts/Phaisarn97-14.pcf.gz
 lib/X11/fonts/thaixfonts/PnThai.pcf.gz
 lib/X11/fonts/thaixfonts/PsMule.pcf.gz

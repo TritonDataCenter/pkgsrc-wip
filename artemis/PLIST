@@ -1,5 +1,4 @@
 @comment $NetBSD$
-
 bin/art
 bin/act
 share/Artemis/images/helix.gif

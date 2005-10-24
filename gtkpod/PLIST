@@ -1,5 +1,4 @@
 @comment $NetBSD$
-
 bin/gtkpod
 ${PKGLOCALEDIR}/locale/de/LC_MESSAGES/gtkpod.mo
 ${PKGLOCALEDIR}/locale/ja/LC_MESSAGES/gtkpod.mo

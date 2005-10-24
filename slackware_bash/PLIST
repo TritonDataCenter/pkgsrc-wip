@@ -18,4 +18,3 @@ ${EMULSUBDIR}/usr/man/man1/bash.1.gz
 ${EMULSUBDIR}/usr/man/man1/builtins.1.gz
 ${EMULSUBDIR}/usr/man/man1/rbash.1.gz
 @dirrm ${EMULSUBDIR}/usr/doc/bash-2.05b
-

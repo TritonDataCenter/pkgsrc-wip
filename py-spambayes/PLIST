@@ -13,7 +13,6 @@ bin/sb_unheader.py
 bin/sb_upload.py
 bin/sb_xmlrpcserver.py
 bin/sb_chkopts.py
-
 ${PYSITELIB}/spambayes/Corpus.py
 ${PYSITELIB}/spambayes/Corpus.pyc
 ${PYSITELIB}/spambayes/Corpus.pyo
