@@ -33,6 +33,9 @@ MESSAGE_SUBST+=		ZOPE3_USER=${ZOPE3_USER} ZOPE3_GROUP=${ZOPE3_GROUP} \
 
 ZOPE3_DOCDIR=		${PREFIX}/share/doc/zope3
 
+.include "../../lang/python/application.mk"
+.include "../../textproc/py-xml/buildlink3.mk"
+
 pre-install:
 	${FIND} ${WRKSRC} -name "*.orig" -type f -print | ${XARGS} ${RM} -f
 
@@ -45,6 +48,4 @@ post-install:
 	${INSTALL_DATA} ${WRKSRC}/Zope/ZopePublicLicense.txt ${ZOPE3_DOCDIR}
 	${INSTALL_DATA} ${WRKSRC}/Zope/doc/*.txt ${ZOPE3_DOCDIR}
 
-.include "../../lang/python/application.mk"
-.include "../../textproc/py-xml/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
