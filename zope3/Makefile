@@ -3,7 +3,7 @@
 
 DISTNAME=		Zope-3.1.0
 PKGNAME=		zope3-3.1.0
-CATEGORIES=		wip www
+CATEGORIES=		www
 MASTER_SITES=		http://www.zope.org/Products/Zope3/3.1.0final/
 EXTRACT_SUFX=		.tgz
 
