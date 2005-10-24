@@ -2,12 +2,7 @@
 #
 
 CATEGORIES=	databases math
-MASTER_SITES=	http://easynews.dl.sourceforge.net/sourceforge/rdbi/ \
-		http://umn.dl.sourceforge.net/sourceforge/rdbi/ \
-		http://unc.dl.sourceforge.net/sourceforge/rdbi/ \
-		http://twtelecom.dl.sourceforge.net/sourceforge/rdbi/ \
-		http://aleron.dl.sourceforge.net/sourceforge/rdbi/
-
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=rdbi/}
 MAINTAINER=     mchittur@cs.nmsu.edu
 HOMEPAGE=	http://rdbi.sourceforge.net/
 COMMENT=        Provides interface between R and PostgreSQL
@@ -17,8 +12,10 @@ R_PKGVER=       0.1-2
 
 DEPENDS+=	R-Rdbi>=0.1.2:../../wip/R-Rdbi
 
+.include "../../mk/bsd.prefs.mk"
+
 WRKSRC=		${WRKDIR}/Rdbi.PgSQL
-MAKE_ENV=	PREFIX=${PREFIX}
+MAKE_ENV+=	PREFIX=${PREFIX}
 
 post-patch:
 	${SED} -e 's:@PG_INC_PATH@:${PREFIX}/include:g' ${WRKSRC}/configure > ${WRKSRC}/configure.tmp
