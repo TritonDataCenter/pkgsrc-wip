@@ -16,8 +16,6 @@ PKG_INSTALLATION_TYPES= overwrite pkgviews
 
 WRKSRC=       ${WRKDIR}/or1k/or1ksim
 
-USE_BUILDLINK3=	YES
-HAS_CONFIGURE=	YES
 GNU_CONFIGURE=  YES
 
 CONFIGURE_ENV+=	OR1KSIM_CPU="or32"
@@ -38,4 +36,3 @@ do-install:
 .endfor
 
 .include "../../mk/bsd.pkg.mk"
-

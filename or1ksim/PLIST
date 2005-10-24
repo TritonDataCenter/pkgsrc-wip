@@ -3,8 +3,8 @@ bin/or1ksim
 share/doc/or1ksim/AUTHORS
 share/doc/or1ksim/BUGS
 share/doc/or1ksim/COPYING
-share/doc/or1ksim/INSTALL
 share/doc/or1ksim/ChangeLog
+share/doc/or1ksim/INSTALL
 share/doc/or1ksim/NEWS
 share/doc/or1ksim/README
 share/doc/or1ksim/README.gdb
