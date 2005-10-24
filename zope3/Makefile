@@ -14,7 +14,7 @@ COMMENT=		Zope 3 Application Server
 CONFLICTS=		zope3-unstable-3.1.0*
 
 HAS_CONFIGURE=		yes
-CONFIGURE_ARGS=		--with-python ${PYTHONBIN} \
+CONFIGURE_ARGS+=	--with-python ${PYTHONBIN} \
 			--prefix ${PREFIX}/share/zope3 \
 			--force
 BUILD_TARGET=		build
