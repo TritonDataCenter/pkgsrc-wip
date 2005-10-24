@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	PathTools-3.09
+DISTNAME=	PathTools-3.12
 PKGNAME=	p5-${DISTNAME}
 CATEGORIES=	devel perl5
 MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=File/}
@@ -13,7 +13,7 @@ DEPENDS=	p5-Scalar-List-Utils>=1.14:../../devel/p5-Scalar-List-Utils
 
 CONFIGURE_ARGS+=	DEFINE="-DHAS_GETCWD"
 
-PERL5_PACKLIST= auto/PathTools/.packlist
+PERL5_PACKLIST= auto/Cwd/.packlist
 
 .include "../../lang/perl5/module.mk"
 .include "../../mk/bsd.pkg.mk"
