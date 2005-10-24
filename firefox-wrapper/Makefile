@@ -1,10 +1,9 @@
 # $NetBSD$
 
-DISTNAME=	firefox-wrapper-0.1
+DISTNAME=	firefox-wrapper-0.2
 CATEGORIES=	www wip
 MASTER_SITES=	# empty
 DISTFILES=	# empty
-PKGREVISION=	1
 
 MAINTAINER=	pancake@phreaker.net
 COMMENT=	Firefox binary wrapper
@@ -30,7 +29,7 @@ do-install:
 SUBST_CLASSES+=		etc
 SUBST_STAGE.etc=	post-patch
 SUBST_FILES.etc=	firefox firefox-wrapper.conf
-SUBST_SED.etc+=	-e "s,_etc_,${PKG_SYSCONFDIR},g" \
+SUBST_SED.etc+=		-e "s,_etc_,${PKG_SYSCONFDIR},g" \
 			-e "s,_pfx_,${PREFIX},g"
 
 .include "../../mk/bsd.pkg.mk"
