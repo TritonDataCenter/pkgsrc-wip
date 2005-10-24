@@ -14,7 +14,7 @@ MANCOMPRESSED=	yes
 GNU_CONFIGURE=  yes
 USE_TOOLS+=	automake
 
-LIBS.SunOS=	-lnsl -lsocket
+LIBS.SunOS+=	-lnsl -lsocket
 
 pre-configure:
 	cd ${WRKSRC} && aclocal
