@@ -6,7 +6,7 @@ CATEGORIES=		wip databases
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=mdbtools/}
 
 MAINTAINER=		pancake@phreaker.net
-HOMEPAGE=		http://sourceforge.net/sourceforge/mdbtools/
+HOMEPAGE=		http://mdbtools.sourceforge.net/
 COMMENT=		Microsoft Access Database management tools
 
 USE_TOOLS+=		gmake
