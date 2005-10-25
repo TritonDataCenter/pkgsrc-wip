@@ -2,7 +2,6 @@
 bin/check-files
 bin/gmap2cache
 bin/mkcache
-etc/gofish.conf
 man/man1/gmap2cache.1
 man/man1/gofish.1
 man/man1/gopherd.1
