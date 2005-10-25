@@ -10,9 +10,9 @@ man/man5/dotcache.5
 man/man5/gofish.5
 sbin/gofish
 sbin/gopherd
-share/examples/rc.d/gopherd
-share/examples/gofish/gofish.conf
-share/examples/gofish/gofish-www.conf
 share/doc/gofish/Configure_GoFish
+share/examples/gofish/gofish-www.conf
+share/examples/gofish/gofish.conf
+share/examples/rc.d/gopherd
 @dirrm share/examples/gofish
 @dirrm share/doc/gofish
