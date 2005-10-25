@@ -1,0 +1,8 @@
+@comment $NetBSD$
+include/panda/constants.h
+include/panda/functions.h
+include/panda/legacy.h
+include/panda/objects.h
+lib/libpanda.la
+lib/pkgconfig/panda.pc
+@dirrm include/panda
