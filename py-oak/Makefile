@@ -4,7 +4,7 @@
 DISTNAME=		oak-1.2
 PKGNAME=		${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=		net
-MASTER_SITES=		http://www.digitallumber.com/TAR/
+MASTER_SITES=		http://www.digitallumber.com/software/oak/code/
 
 MAINTAINER=		tech-pkg@NetBSD.org
 HOMEPAGE=		http://www.digitallumber.com/TAR/
