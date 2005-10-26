@@ -1,7 +1,7 @@
 # $NetBSD$
 
 DISTNAME=		gofish-1.0
-CATEGORIES=		wip
+CATEGORIES=		net
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=gofish/}
 
 MAINTAINER=		emil@math.su.se
