@@ -5,7 +5,7 @@ CATEGORIES=	www
 MASTER_SITES=	http://snapshot.opera.com/${OPERA_DIR}/
 DISTFILES=	opera-${OPERA_DIST_VERSION}${OPERA_ARCH}-${OPERA_LANG}${EXTRACT_SUFX}
 
-MAINTAINER=	tech-pkg@NetBSD.org
+MAINTAINER=	geert.hendrickx@ua.ac.be
 HOMEPAGE=	http://snapshot.opera.com/
 COMMENT=	Small, fast and customizable WWW client
 
