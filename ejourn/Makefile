@@ -11,8 +11,6 @@ COMMENT=		Application to help track a journal or diary
 
 WRKSRC=			${WRKDIR}/ejourn
 
-#USE_DIRS+=              xdg-1.2
-#USE_TOOLS+=		pkg-config
 USE_TOOLS+=		gmake
 
 do-configure:
