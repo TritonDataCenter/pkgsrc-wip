@@ -10,8 +10,7 @@ MAINTAINER=	tech-pkg@NetBSD.org
 HOMEPAGE=	http://www.nagios.org/
 COMMENT=	Network monitor
 
-.include "../../mk/bsd.prefs.mk"
-.include "../../wip/nagios-base/Makefile.common"
+.include "Makefile.common"
 .include "options.mk"
 
 CONFIGURE_ARGS+=	--with-gd-lib=${LOCALBASE}/lib		\
