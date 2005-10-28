@@ -11,7 +11,6 @@ HOMEPAGE=		http://www.unixdev.net/projects/tzosdclock
 COMMENT=		OnScreen Display Clock for Multiple Timezones
 
 WRKSRC=			${WRKDIR}/${PKGNAME_NOREV}
-USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 
 .include "../../mk/x11.buildlink3.mk"
