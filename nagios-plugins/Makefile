@@ -9,6 +9,7 @@ HOMEPAGE=       http://sourceforge.net/projects/nagiosplug/
 COMMENT=	Nagios plugins
 
 .include "Makefile.common"
+.include "../../mk/bsd.pkg.mk"
 
 .if ${OPSYS} == "NetBSD"
 CONFIGURE_ARGS+=      --with-df-command="/bin/df -Pklt nokernfs,procfs,fdesc"
@@ -22,4 +23,3 @@ DEPENDS+=	{ssh{,6}-[0-9]*,openssh-[0-9]*}:../../security/ssh
 
 .include "../../security/openssl/buildlink3.mk"
 .include "../../devel/gettext-lib/buildlink3.mk"
-.include "../../mk/bsd.pkg.mk"
