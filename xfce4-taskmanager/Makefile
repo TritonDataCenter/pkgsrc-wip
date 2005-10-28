@@ -9,5 +9,6 @@ CATEGORIES=	sysutils
 MASTER_SITES=	http://download.berlios.de/xfce-goodies/
 COMMENT=	XFce4 task manager
 
+.include "../../textproc/intltool/buildlink3.mk"
 .include "../../x11/libxfce4gui/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
