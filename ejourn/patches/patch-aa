@@ -1,0 +1,13 @@
+$NetBSD$
+
+--- src/time.h.orig	2005-10-09 16:55:32.000000000 -0400
++++ src/time.h
+@@ -2,7 +2,7 @@
+ #define _TIME_H_
+ 
+ #include <stdlib.h>
+-#include <time.h>
++#include <sys/time.h>
+ 
+ typedef unsigned long long Time_t;
+ 
