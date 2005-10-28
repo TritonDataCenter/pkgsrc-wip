@@ -6,7 +6,11 @@ lib/libgsoap++.a
 lib/libgsoap.a
 lib/libgsoapck++.a
 lib/libgsoapck.a
+lib/libgsoapssl++.a
+lib/libgsoapssl.a
 lib/pkgconfig/gsoap++.pc
 lib/pkgconfig/gsoap.pc
 lib/pkgconfig/gsoapck++.pc
 lib/pkgconfig/gsoapck.pc
+lib/pkgconfig/gsoapssl++.pc
+lib/pkgconfig/gsoapssl.pc
