@@ -14,5 +14,6 @@ WRKSRC=			${WRKDIR}/${PKGNAME_NOREV}
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 
+.include "../../mk/x11.buildlink3.mk"
 .include "../../x11/xosd/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
