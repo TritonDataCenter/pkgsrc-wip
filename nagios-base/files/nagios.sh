@@ -1,4 +1,4 @@
-#!/bin/sh
+#!@RCD_SCRIPTS_SHELL@
 #
 # $NetBSD: nagios.sh,v 1.2 2003/09/12 12:07:19 uebayasi Exp $
 #
@@ -12,7 +12,7 @@ fi
 name="nagios"
 rcvar=$name
 command="@PREFIX@/bin/${name}"
-pidfile="/var/run/${name}/${name}.lock"
+pidfile="@VARBASE@/run/${name}/${name}.lock"
 config="@PKG_SYSCONFDIR@/${name}.cfg"
 
 command_args="-d $config"

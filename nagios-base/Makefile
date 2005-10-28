@@ -23,7 +23,7 @@ CONFIGURE_ARGS+=	--with-nagios-grp=${NAGIOS_GROUP}
 CONFIGURE_ARGS+=	--with-command-user=${ROOT_USER}
 CONFIGURE_ARGS+=	--with-command-grp=${ROOT_GROUP}
 CONFIGURE_ARGS+=	--with-init-dir=${PREFIX}/etc/rc.d
-CONFIGURE_ARGS+=	--with-lockfile=/var/run/nagios/nagios.lock
+CONFIGURE_ARGS+=	--with-lockfile=${VARBASE}/run/nagios/nagios.lock
 
 RCD_SCRIPTS+=		nagios
 
@@ -51,6 +51,8 @@ NAGIOS_DIRS=	log/nagios log/nagios/archives run/nagios run/nagios/rw
 OWN_DIRS_PERMS+=	${VARBASE}/${_d_} ${NAGIOS_USER} ${NAGIOS_GROUP} 0775
 .endfor
 .undef _d_
+
+MESSAGE_SUBST+=	PREFIX=${PREFIX}
 
 .include "../../graphics/gd/buildlink3.mk"
 .include "../../lang/perl5/buildlink3.mk"
