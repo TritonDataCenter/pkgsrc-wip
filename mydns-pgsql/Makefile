@@ -6,8 +6,8 @@ COMMENT=	PostgreSQL-based DNS server
 CONFLICTS=	mydns-mysql-[0-9]*
 
 CONFIGURE_ARGS+=	--without-mysql
-CONFIGURE_ARGS+=	--with-pgsql-lib=${PREFIX}/lib
-CONFIGURE_ARGS+=	--with-pgsql-include=${PREFIX}/include
+CONFIGURE_ARGS+=	--with-pgsql-lib=${BUILDLINK_PREFIX.${PGSQL_TYPE}}/lib
+CONFIGURE_ARGS+=	--with-pgsql-include=${BUILDLINK_PREFIX.${PGSQL_TYPE}}/include
 
 .include	"../../mk/pgsql.buildlink3.mk"
 .include	"Makefile.common"
