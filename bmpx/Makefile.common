@@ -23,8 +23,11 @@ USE_PKGLOCALEDIR=	yes
 # needs dbus >= 0.35.2
 CONFIGURE_ARGS+=	--disable-dbus
 
+MAKE_ENV+=	SED=${SED}
+
 .include "../../audio/taglib/buildlink3.mk"
 .include "../../devel/libglade2/buildlink3.mk"
+.include "../../graphics/hicolor-icon-theme/buildlink3.mk"
 .include "../../textproc/intltool/buildlink3.mk"
 .include "../../www/curl/buildlink3.mk"
 .include "../../x11/gtk2/buildlink3.mk"
