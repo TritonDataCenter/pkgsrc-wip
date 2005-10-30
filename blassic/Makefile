@@ -3,7 +3,7 @@
 
 DISTNAME=		blassic-0.10.0
 CATEGORIES=		lang
-MASTER_SITES=		http://www.arrakis.es/~ninsesabe/blassic/
+MASTER_SITES=		http://www.blassic.org/bin/
 EXTRACT_SUFX=		.tgz
 
 PKG_OPTIONS_VAR=		PKG_OPTIONS.blassic
