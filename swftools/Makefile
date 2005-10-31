@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	swftools-0.6.3
+DISTNAME=	swftools-0.7.0
 CATEGORIES=	graphics converters
 MASTER_SITES=	http://www.swftools.org/
 
