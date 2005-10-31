@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	gxmms2-0.4.2
+DISTNAME=	gxmms2-0.5.1
 CATEGORIES=	audio
 MASTER_SITES=	http://wejp.homelinux.org/wejp/xmms2/
 
