@@ -3,10 +3,10 @@
 
 DISTNAME=	swftools-0.6.3
 CATEGORIES=	graphics converters
-MASTER_SITES=	http://www.quiss.org/swftools/
+MASTER_SITES=	http://www.swftools.org/
 
 MAINTAINER=	obata@lins.jp
-HOMEPAGE=	http://www.quiss.org/swftools/
+HOMEPAGE=	http://www.swftools.org/
 COMMENT=	Collection of SWF manipulation and creation utilities
 
 GNU_CONFIGURE=		yes
