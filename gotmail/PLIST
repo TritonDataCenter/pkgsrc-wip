@@ -1,6 +1,7 @@
 @comment $NetBSD$
 bin/gotmail
 man/man1/gotmail.1
-share/examples/gotmail/README
+share/doc/gotmail/README
 share/examples/gotmail/sample.gotmailrc
 @dirrm share/examples/gotmail
+@dirrm share/doc/gotmail
