@@ -8,7 +8,7 @@ EXTRACT_SUFX=		.tar.bz2
 
 MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://graveman.tuxfamily.org/
-COMMENT=		GTK2 frontend for CD writting and audio conversion
+COMMENT=		GTK2 frontend for CD writing and audio conversion
 
 DEPENDS+=		sox>12:../../audio/sox
 DEPENDS+=		dvd+rw-tools>5.21:../../sysutils/dvd+rw-tools
