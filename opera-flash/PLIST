@@ -1,5 +1,0 @@
-@comment $NetBSD$
-${PLUGINDIR}/libflashplayer.so
-${DOCDIR}/Readme.htm
-${DOCDIR}/Readme.txt
-@dirrm ${DOCDIR}
