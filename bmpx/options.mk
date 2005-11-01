@@ -7,10 +7,8 @@ PKG_SUGGESTED_OPTIONS=	gui
 .include "../../mk/bsd.options.mk"
 
 .if !empty(PKG_OPTIONS:Mgui)
-BUILDLINK_DEPENDS.glib2+=	glib2>=2.8.0
 BUILDLINK_DEPENDS.libglade2+=	libglade2>=2.5.1
 
-.  include "../../devel/glib2/buildlink3.mk"
 .  include "../../devel/libglade2/buildlink3.mk"
 .  include "../../devel/pango/buildlink3.mk"
 .  include "../../graphics/cairo/buildlink3.mk"
