@@ -32,7 +32,7 @@ EXCLUDES+=		ogg
 
 .if !empty(PKG_OPTIONS:Mpyrex)
 PY_PATCHPLIST=		yes
-BUILD_DEPENDS=		${PYPKGPREFIX}-pyrex>=0.8.1:../../lang/py-pyrex
+BUILD_DEPENDS+=		${PYPKGPREFIX}-pyrex>=0.8.1:../../lang/py-pyrex
 .  include "../../lang/python/extension.mk"
 PLIST_SUBST+=		PYREX=""
 .else
