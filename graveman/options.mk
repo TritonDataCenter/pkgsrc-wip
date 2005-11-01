@@ -1,10 +1,16 @@
 # $NetBSD$
 
 PKG_OPTIONS_VAR=	PKG_OPTIONS.graveman
-PKG_SUPPORTED_OPTIONS=	flac mp3 ogg
+PKG_SUPPORTED_OPTIONS=	debug flac mp3 ogg
 PKG_SUGGESTED_OPTIONS=	flac mp3 ogg
 
 .include "../../mk/bsd.options.mk"
+
+.if !empty(PKG_OPTIONS:Mdebug)
+CONFIGURE_ARGS+=	--enable-debug
+.else
+CONFIGURE_ARGS+=	--disable-debug
+.endif
 
 .if !empty(PKG_OPTIONS:Mflac)
 .  include "../../audio/flac/buildlink3.mk"
