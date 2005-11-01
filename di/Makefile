@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	di-4.3f
+DISTNAME=	di-4.3
 CATEGORIES=	sysutils
 MASTER_SITES=	http://www.gentoo.com/di/
 
