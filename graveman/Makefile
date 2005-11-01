@@ -18,6 +18,8 @@ USE_TOOLS+=		gmake pkg-config
 
 .include "options.mk"
 
+BUILDLINK_DEPENDS.libglade2+=	libglade2>=2.4.0
+
 .include "../../devel/atk/buildlink3.mk"
 .include "../../devel/glib2/buildlink3.mk"
 .include "../../devel/libglade2/buildlink3.mk"
