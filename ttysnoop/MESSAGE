@@ -1,11 +1,9 @@
 ===========================================================================
 $NetBSD$
 
-You must edit ${PKG_SYSCONFDIR} adding this line:
+Edit /etc/inetd.conf and add this line:
 
-	"*   socket    login    /bin/login"
-
-After that, modify the inetd.conf adding the
-'-L ${PREFIX}/ttysnoops' to the telnet daemon.
+telnet      stream   tcp   nowait   root.telnetd   /usr/sbin/tcpd \
+	/usr/sbin/in.telnetd  -L ${PREFIX}/sbin/ttysnoops
 
 ===========================================================================
