@@ -1,6 +1,4 @@
 @comment $NetBSD$
 sbin/ttysnoop
 sbin/ttysnoops
-share/examples/ttysnoop/snooptab.dist
-share/man/man8/ttysnoop.8
-@dirrm share/examples/ttysnoop
+man/man8/ttysnoop.8
