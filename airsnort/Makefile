@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		airsnort-0.2.7e
-CATEGORIES=		wip net security linux
+CATEGORIES=		net security linux
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=airsnort/}
 
 MAINTAINER=		pancake@phreaker.net

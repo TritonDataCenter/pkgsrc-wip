@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		orion-0.2
-CATEGORIES=		wip wm
+CATEGORIES=		wm
 MASTER_SITES=		ftp://ftp.scsh.net/pub/scsh/packages/orion-wm/
 
 MAINTAINER=		airhead@users.sf.net

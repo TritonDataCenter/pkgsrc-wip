@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		sara-5.0.5b
-CATEGORIES=		wip security
+CATEGORIES=		security
 MASTER_SITES=		http://www-arc.com/sara/downloads/
 EXTRACT_SUFX=		.tgz
 

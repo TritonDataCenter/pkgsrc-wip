@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		mdbtools-0.6pre1
-CATEGORIES=		wip databases
+CATEGORIES=		databases
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=mdbtools/}
 
 MAINTAINER=		pancake@phreaker.net

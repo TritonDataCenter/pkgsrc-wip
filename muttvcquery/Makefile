@@ -3,7 +3,7 @@
 
 DISTNAME=		mutt_vc_query-002
 PKGNAME=		muttvcquery-002
-CATEGORIES=		wip mail
+CATEGORIES=		mail
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=rolo/}
 
 MAINTAINER=		pancake@phreaker.net

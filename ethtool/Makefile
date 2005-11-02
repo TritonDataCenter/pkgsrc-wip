@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		ethtool-1.6
-CATEGORIES=		wip net linux
+CATEGORIES=		net linux
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=gkernel/}
 
 MAINTAINER=		pancake@phreaker.net

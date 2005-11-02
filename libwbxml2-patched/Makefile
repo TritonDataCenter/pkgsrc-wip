@@ -3,7 +3,7 @@
 
 DISTNAME=		wbxml2-0.9.0-patched
 PKGNAME=		libwbxml2-0.9.0
-CATEGORIES=		wip
+CATEGORIES=		textproc
 MASTER_SITES=		http://multisync.sourceforge.net/files/
 
 MAINTAINER=		ola@mrEriksson.net

@@ -3,14 +3,14 @@
 
 DISTNAME=		jadlx158
 PKGNAME=		jad-1.5.8
-CATEGORIES=		wip
+CATEGORIES=		lang
 MASTER_SITES=		http://www.kpdus.com/jad/${JAD_OSDIR}
 EXTRACT_SUFX=		.zip
 JAD_OSDIR=		linux # Default one
 
 MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://www.kpdus.com/jad.html
-COMMENT=		The fast JAva Decompiler
+COMMENT=		The fast Java Decompiler
 
 WRKSRC=		${WRKDIR}
 

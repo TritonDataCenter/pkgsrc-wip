@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		commoncpp2-1.3.16
-CATEGORIES=		wip devel
+CATEGORIES=		devel
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=gnutelephony/}
 
 MAINTAINER=		pancake@phreaker.net

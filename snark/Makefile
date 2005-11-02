@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		snark-0.5
-CATEGORIES=		wip net
+CATEGORIES=		net
 MASTER_SITES=		http://www.klomp.org/snark/
 
 MAINTAINER=		pancake@phreaker.net

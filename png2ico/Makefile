@@ -3,7 +3,7 @@
 
 DISTNAME=		png2ico-src-2002-12-08
 PKGNAME=		png2ico-20021208
-CATEGORIES=		wip graphics
+CATEGORIES=		graphics
 MASTER_SITES=		http://www.winterdrache.de/freeware/png2ico/data/
 
 MAINTAINER=		pancake@phreaker.net

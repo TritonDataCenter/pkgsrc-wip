@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		pizza-1.1
-CATEGORIES=		wip lang
+CATEGORIES=		lang
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=pizzacompiler/}
 EXTRACT_SUFX=		.jar
 

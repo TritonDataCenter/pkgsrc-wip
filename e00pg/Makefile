@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		e00pg-1.0.1
-CATEGORIES=		wip
+CATEGORIES=		geography
 MASTER_SITES=		http://easynews.dl.sourceforge.net/sourceforge/e00pg/
 
 MAINTAINER=		mchittur@cs.nmsu.edu

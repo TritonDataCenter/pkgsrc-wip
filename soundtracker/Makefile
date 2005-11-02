@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		soundtracker-0.6.6
-CATEGORIES=		wip audio
+CATEGORIES=		audio
 MASTER_SITES=		http://www.soundtracker.org/dl/v0.6/
 
 MAINTAINER=		pancake@phreaker.net

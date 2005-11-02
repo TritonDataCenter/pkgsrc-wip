@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		bluez-hciemu-1.2
-CATEGORIES=		wip net
+CATEGORIES=		net
 MASTER_SITES=		http://bluez.sf.net/download/
 
 MAINTAINER=		pancake@phreaker.net

@@ -3,7 +3,7 @@
 
 DISTNAME=		jflex_small-1.3.5
 PKGNAME=		java-jflex-1.3.5
-CATEGORIES=		wip textproc
+CATEGORIES=		textproc
 MASTER_SITES=		http://www.jflex.de/
 
 MAINTAINER=		pancake@phreaker.net

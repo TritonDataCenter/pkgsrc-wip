@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		gune-0.1
-CATEGORIES=		wip devel
+CATEGORIES=		devel
 MASTER_SITES=		http://download.berlios.de/gune/
 
 MAINTAINER=		Peter.Bex@student.kun.nl

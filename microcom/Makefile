@@ -3,7 +3,7 @@
 
 DISTNAME=		m102
 PKGNAME=		microcom-1.02
-CATEGORIES=		wip comms
+CATEGORIES=		comms
 MASTER_SITES=		http://microcom.port5.com/
 
 MAINTAINER=		pancake@phreaker.net

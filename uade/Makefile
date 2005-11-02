@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		uade-1.00
-CATEGORIES=		wip audio
+CATEGORIES=		audio
 MASTER_SITES=		http://uade.ton.tut.fi/uade/
 EXTRACT_SUFX=		.tar.bz2
 

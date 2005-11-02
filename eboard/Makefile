@@ -1,9 +1,8 @@
-
 # $NetBSD$
 #
 
 DISTNAME=		eboard-0.9.5
-CATEGORIES=		wip games
+CATEGORIES=		games
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=eboard/}
 
 MAINTAINER=	 	zul@netbsd-fr.org

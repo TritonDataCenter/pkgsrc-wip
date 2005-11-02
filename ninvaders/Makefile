@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		ninvaders-0.1.1
-CATEGORIES=		wip games
+CATEGORIES=		games
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=ninvaders/}
 
 MAINTAINER=		pancake@phreaker.net

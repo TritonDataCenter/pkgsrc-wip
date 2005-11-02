@@ -3,7 +3,7 @@
 #
 
 DISTNAME=		sunterlib-0.7
-CATEGORIES=		wip devel
+CATEGORIES=		devel
 MASTER_SITES=		http://savannah.nongnu.org/download/sunterlib/
 
 MAINTAINER=		airhead@users.sf.net

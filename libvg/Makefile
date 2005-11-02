@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		libvg-0.2.0
-CATEGORIES=		wip devel
+CATEGORIES=		devel
 MASTER_SITES=		http://www.7a69ezine.org/download/
 
 MAINTAINER=		pancake@phreaker.net

@@ -3,7 +3,7 @@
 
 DISTNAME=		jbluez-1.0
 PKGNAME=		java-${DISTNAME}
-CATEGORIES=		wip net
+CATEGORIES=		net
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=jbluez/}
 
 MAINTAINER=		pancake@phreaker.net

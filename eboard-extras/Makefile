@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		eboard-extras-2
-CATEGORIES=             wip games
+CATEGORIES=             games
 MASTER_SITES=           ${MASTER_SITE_SOURCEFORGE:=eboard/}
 
 MAINTAINER=             zul@netbsd-fr.org

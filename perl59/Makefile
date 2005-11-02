@@ -25,7 +25,7 @@ SNAPSHOT_SITES=	http://www.cpan.org/authors/id/J/JH/JHI/
 .endif
 
 PERL5_VERS=	5.9.0
-CATEGORIES=	lang devel perl5 wip
+CATEGORIES=	lang devel perl5
 MASTER_SITES=	${SNAPSHOT_SITES} \
 		${MASTER_SITE_PERL_CPAN:S,/modules/by-module/$,/src/,}
 

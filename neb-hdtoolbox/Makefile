@@ -3,7 +3,7 @@
 
 DISTNAME=		neb-hdtoolbox-src-0.9
 PKGNAME=		neb-hdtoolbox-0.9
-CATEGORIES=		wip
+CATEGORIES=		sysutils
 MASTER_SITES=		http://binary.florian-stoehr.de/
 EXTRACT_SUFX=		.tgz
 

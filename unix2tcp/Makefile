@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		unix2tcp-0.8.2
-CATEGORIES=		wip net
+CATEGORIES=		net
 MASTER_SITES=		http://ahriman.bucharest.roedu.net/unix2tcp/
 
 MAINTAINER=		pancake@phreaker.net

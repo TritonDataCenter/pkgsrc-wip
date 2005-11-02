@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		bmap-1.0.17
-CATEGORIES=		wip sysutils
+CATEGORIES=		sysutils
 MASTER_SITES=		http://packetstorm.linuxsecurity.com/linux/security/
 
 MAINTAINER=		pancake@phreaker.net

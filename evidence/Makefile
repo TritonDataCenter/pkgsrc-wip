@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		evidence-0.9.8
-CATEGORIES=		wip sysutils x11
+CATEGORIES=		sysutils x11
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=evidence/}
 
 MAINTAINER=		Peter.Bex@student.kun.nl

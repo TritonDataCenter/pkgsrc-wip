@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		firebird-1.5.2.4731
-CATEGORIES=		wip
+CATEGORIES=		databases
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=firebird/}
 EXTRACT_SUFX=		.tar.bz2
 

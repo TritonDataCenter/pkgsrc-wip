@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		jamaica-1.0
-CATEGORIES=		wip lang
+CATEGORIES=		lang
 MASTER_SITES=		http://www.judoscript.com/store/
 EXTRACT_SUFX=		.zip
 

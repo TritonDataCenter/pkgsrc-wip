@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		libbtctl-0.4.1
-CATEGORIES=		wip net
+CATEGORIES=		net
 MASTER_SITES=		http://downloads.usefulinc.com/libbtctl/
 
 MAINTAINER=		pancake@phreaker.net

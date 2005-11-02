@@ -3,7 +3,7 @@
 
 DISTNAME=		makesis_2.0.0-1
 PKGNAME=	gnupoc-makesis-2.0.0
-CATEGORIES=		wip devel
+CATEGORIES=		devel
 MASTER_SITES=		http://symbianos.org/download/
 
 MAINTAINER=		pancake@phreaker.net

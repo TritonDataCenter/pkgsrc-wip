@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		vche-1.7.2
-CATEGORIES=		wip editors
+CATEGORIES=		editors
 MASTER_SITES=	http://www.grigna.com/diego/linux/vche/
 
 MAINTAINER=		pancake@phreaker.net

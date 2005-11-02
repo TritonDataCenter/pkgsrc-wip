@@ -3,7 +3,7 @@
 
 DISTNAME=		flexbackup-1.2.1
 PKGREVISION=		1
-CATEGORIES=		wip sysutils
+CATEGORIES=		sysutils
 MASTER_SITES=		http://flexbackup.sourceforge.net/tarball/
 
 MAINTAINER=		pancake@phreaker.net

@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		hdparm-5.4
-CATEGORIES=		wip linux sysutils
+CATEGORIES=		linux sysutils
 MASTER_SITES=		http://www.ibiblio.org/pub/Linux/system/hardware/
 
 MAINTAINER=		pancake@phreaker.net

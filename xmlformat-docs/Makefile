@@ -3,7 +3,7 @@
 
 DISTNAME=		xmlformat-${XMLFORMAT_VERSION}
 PKGNAME=		xmlformat-docs-${XMLFORMAT_VERSION}
-CATEGORIES=		textproc wip
+CATEGORIES=		textproc
 MASTER_SITES=		http://www.kitebird.com/software/xmlformat/
 
 MAINTAINER=		mishka@apk.od.ua

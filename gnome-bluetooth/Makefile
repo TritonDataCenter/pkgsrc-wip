@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		gnome-bluetooth-0.5.1
-CATEGORIES=		wip net
+CATEGORIES=		net
 MASTER_SITES=		http://downloads.usefulinc.com/gnome-bluetooth/
 
 MAINTAINER=		pancake@phreaker.net

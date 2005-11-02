@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		qgis-0.6.0
-CATEGORIES=		wip
+CATEGORIES=		geography
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=qgis/}
 
 MAINTAINER=		mchittur@cs.nmsu.edu

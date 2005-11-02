@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		libvc-003
-CATEGORIES=		wip mail
+CATEGORIES=		mail
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=rolo/}
 
 MAINTAINER=		pancake@phreaker.net

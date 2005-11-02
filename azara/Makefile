@@ -3,7 +3,7 @@
 
 DISTNAME=		azara-2.7-src
 PKGNAME=		azara-2.7
-CATEGORIES=		wip
+CATEGORIES=		biology
 MASTER_SITES=		ftp://www.bio.cam.ac.uk/pub/azara/
 
 MAINTAINER=		mchittur@cs.nmsu.edu

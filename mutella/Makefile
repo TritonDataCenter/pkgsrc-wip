@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	mutella-0.4.5
-CATEGORIES=	wip net www
+CATEGORIES=	net www
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=mutella/}
 
 MAINTAINER=	airhead@users.sourceforge.net

@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		memdump-1.01
-CATEGORIES=		wip sysutils
+CATEGORIES=		sysutils
 MASTER_SITES=		http://www.porcupine.org/forensics/
 
 MAINTAINER=		pancake@phreaker.net

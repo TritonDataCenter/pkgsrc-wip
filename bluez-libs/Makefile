@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		bluez-libs-2.21
-CATEGORIES=		wip net
+CATEGORIES=		net
 MASTER_SITES=		http://bluez.sf.net/download/
 
 MAINTAINER=		pancake@phreaker.net

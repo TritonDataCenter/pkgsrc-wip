@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		netkit-telnet-0.17
-CATEGORIES=		wip net
+CATEGORIES=		net
 MASTER_SITES=		ftp://ftp.uk.linux.org/pub/linux/Networking/netkit/
 
 MAINTAINER=		pancake@phreaker.net

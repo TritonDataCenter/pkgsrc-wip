@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		jamvm-1.3.2
-CATEGORIES=		wip lang
+CATEGORIES=		lang
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=jamvm/}
 
 MAINTAINER=		pancake@phreaker.net

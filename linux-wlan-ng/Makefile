@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		linux-wlan-ng-0.2.1pre23
-CATEGORIES=		wip net linux
+CATEGORIES=		net linux
 MASTER_SITES=		ftp://ftp.linux-wlan.org/pub/linux-wlan-ng/
 EXTRACT_SUFX=		.tar.bz2
 

@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		matanza-0.13
-CATEGORIES=		wip games
+CATEGORIES=		games
 MASTER_SITES=		http://bachue.com/matanza/
 
 MAINTAINER=		pancake@phreaker.net

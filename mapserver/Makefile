@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		mapserver-4.4.2
-CATEGORIES=		wip
+CATEGORIES=		geography
 MASTER_SITES=		http://cvs.gis.umn.edu/dist/
 
 MAINTAINER=		mchittur@cs.nmsu.edu

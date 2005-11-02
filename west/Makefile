@@ -3,7 +3,7 @@
 
 DISTNAME=		west_0.9
 PKGNAME=		west-0.9
-CATEGORIES=		wip www
+CATEGORIES=		www
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=west/}
 EXTRACT_SUFX=		.tgz
 

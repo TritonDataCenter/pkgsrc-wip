@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		mdadm-1.8.1
-CATEGORIES=		wip sysutils linux
+CATEGORIES=		sysutils linux
 MASTER_SITES=		http://www.cse.unsw.edu.au/~neilb/source/mdadm/ \
 			http://www.kernel.org/pub/linux/utils/raid/mdadm/
 EXTRACT_SUFX=		.tar.bz2

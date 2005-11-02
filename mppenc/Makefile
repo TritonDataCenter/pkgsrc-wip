@@ -3,7 +3,7 @@
 
 PKGNAME=		mppenc-1.15
 DISTNAME=		mpcsv7-src-1.15v
-CATEGORIES=		wip audio
+CATEGORIES=		audio
 MASTER_SITES=		http://files.musepack.net/source/
 EXTRACT_SUFX=		.tar.bz2
 

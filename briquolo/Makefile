@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		briquolo-0.5.2
-CATEGORIES=		wip games
+CATEGORIES=		games
 MASTER_SITES=		http://briquolo.free.fr/download/
 EXTRACT_SUFX=		.tar.bz2
 

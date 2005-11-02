@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		libopenmodeller-0.3.3
-CATEGORIES=		wip
+CATEGORIES=		geography
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=openmodeller/}
 
 MAINTAINER=		mchittur@cs.nmsu.edu

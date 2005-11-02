@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		bwm-ng-0.5
-CATEGORIES=		wip net
+CATEGORIES=		net
 MASTER_SITES=		http://www.gropp.org/bwm-ng/
 
 MAINTAINER=		pancake@phreaker.net

@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		gnormalize-0.35
-CATEGORIES=		wip audio
+CATEGORIES=		audio
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=gnormalize/}
 
 MAINTAINER=		pancake@phreaker.net

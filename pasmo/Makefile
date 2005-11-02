@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		pasmo-0.5.2
-CATEGORIES=		wip
+CATEGORIES=		devel
 MASTER_SITES=		http://www.arrakis.es/~ninsesabe/pasmo/
 EXTRACT_SUFX=		.tgz
 

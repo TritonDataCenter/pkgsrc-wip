@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		jumpnbump-1.50
-CATEGORIES=		wip games
+CATEGORIES=		games
 MASTER_SITES=		http://jumpbump.mine.nu/port/
 
 MAINTAINER=		Peter.Bex@student.kun.nl

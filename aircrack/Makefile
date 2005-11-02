@@ -3,7 +3,7 @@
 
 DISTNAME=		aircrack-2.2-beta11
 PKGNAME=		aircrack-2.2b11
-CATEGORIES=		wip security
+CATEGORIES=		security
 MASTER_SITES=		http://www.cr0.net:8040/code/network/
 EXTRACT_SUFX=		.tgz
 

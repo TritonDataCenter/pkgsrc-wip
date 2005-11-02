@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		rssh-2.1.1
-CATEGORIES=		wip shells
+CATEGORIES=		shells
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=rssh/}
 
 MAINTAINER=		pancake@phreaker.net

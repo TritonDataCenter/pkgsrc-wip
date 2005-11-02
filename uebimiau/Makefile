@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		uebimiau-2.7.2
-CATEGORIES=		wip
+CATEGORIES=		www mail
 MASTER_SITES=		http://www.contenidosonline.com.ar/pkgsrc/
 
 MAINTAINER=		rpereyra@users.sourceforge.net

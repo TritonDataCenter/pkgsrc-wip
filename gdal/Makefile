@@ -1,7 +1,7 @@
 # $NetBSD$
 
 DISTNAME=		gdal-1.2.6
-CATEGORIES=		wip
+CATEGORIES=		geography
 MASTER_SITES=		#empty
 DISTFILES=		#empty
 

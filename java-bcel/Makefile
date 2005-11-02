@@ -3,7 +3,7 @@
 
 DISTNAME=		bcel-5.1
 PKGNAME=		java-bcel-5.1
-CATEGORIES=		wip devel
+CATEGORIES=		devel
 MASTER_SITES=	http://apache.rediris.es/jakarta/bcel/binaries/
 
 MAINTAINER=		pancake@phreaker.net

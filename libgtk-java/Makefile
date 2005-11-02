@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		libgtk-java-2.6.2
-CATEGORIES=		wip x11
+CATEGORIES=		x11
 MASTER_SITES=		${MASTER_SITE_GNOME:=sources/libgtk-java/2.6/}
 EXTRACT_SUFX=		.tar.bz2
 

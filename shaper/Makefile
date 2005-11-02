@@ -3,7 +3,7 @@
 
 DISTNAME=		shaper_2.2.12-0.7.3.orig
 PKGNAME=	shaper-2.2.12
-CATEGORIES=		wip net linux
+CATEGORIES=		net linux
 MASTER_SITES=		http://ftp.debian.org/debian/pool/main/s/shaper/
 
 MAINTAINER=		pancake@phreaker.net

@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		edje-0.5.0
-CATEGORIES=		wip graphics x11
+CATEGORIES=		graphics x11
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=enlightenment/}
 
 MAINTAINER=		Peter.Bex@student.kun.nl

@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		btscanner-2.0
-CATEGORIES=		wip net security
+CATEGORIES=		net security
 MASTER_SITES=		http://www.pentest.co.uk/src/
 EXTRACT_SUFX=		.tar.bz2
 

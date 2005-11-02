@@ -3,7 +3,7 @@
 
 DISTNAME=		atftp-0.7
 PKGREVISION=		1
-CATEGORIES=		wip net
+CATEGORIES=		net
 MASTER_SITES=		ftp://ftp.mamalinux.com/pub/atftp/
 
 MAINTAINER=		pancake@phreaker.net

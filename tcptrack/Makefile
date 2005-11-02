@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		tcptrack-1.1.4
-CATEGORIES=		wip
+CATEGORIES=		net
 MASTER_SITES=		http://www.rhythm.cx/~steve/devel/tcptrack/release/1.1.4/source/
 
 MAINTAINER=		pancake@phreaker.net

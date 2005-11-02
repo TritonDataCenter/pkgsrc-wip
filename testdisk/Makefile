@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		testdisk-5.8
-CATEGORIES=		wip sysutils
+CATEGORIES=		sysutils
 MASTER_SITES=		http://www.cgsecurity.org/
 
 MAINTAINER=		pancake@phreaker.net

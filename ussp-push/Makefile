@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		ussp-push-0.4
-CATEGORIES=		wip comms
+CATEGORIES=		comms
 MASTER_SITES=		http://xmailserver.org/
 
 MAINTAINER=		pancake@phreaker.net

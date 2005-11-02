@@ -4,7 +4,7 @@
 DISTNAME=		holl-1.0
 PKGNAME=		hol-light-1.0
 WRKSRC=			${WRKDIR}/hol-light
-CATEGORIES=		wip math
+CATEGORIES=		math
 MASTER_SITES=		http://www.cl.cam.ac.uk/users/jrh/hol-light/
 
 MAINTAINER=		airhead@users.sf.net

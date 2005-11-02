@@ -2,7 +2,7 @@
 
 DISTNAME=	ffmpeg-0.4.9-pre1
 PKGNAME=	ffmpeg-devel-0.4.9pre1
-CATEGORIES=	wip multimedia
+CATEGORIES=	multimedia
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=ffmpeg/}
 
 MAINTAINER=	zul@NetBSD-fr.org

@@ -3,7 +3,7 @@
 
 DISTNAME=		typespeed-0.4.4
 PKGREVISION=		1
-CATEGORIES=		wip games
+CATEGORIES=		games
 MASTER_SITES=		http://ls.purkki.org/typespeed/
 
 MAINTAINER=		hernani@vecirex.net

@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		libhttpd-1.4
-CATEGORIES=		wip
+CATEGORIES=		www
 MASTER_SITES=		http://www.hughes.com.au/products/libhttpd/
 
 MAINTAINER=		packages@NetBSD.org

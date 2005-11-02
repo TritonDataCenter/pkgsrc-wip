@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		gromacs-3.2.1
-CATEGORIES=		wip
+CATEGORIES=		biology
 MASTER_SITES=		ftp://ftp.gromacs.org/pub/gromacs/
 
 MAINTAINER=		pih@xbase.dk

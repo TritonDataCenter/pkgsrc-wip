@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		multisync-0.82-1
-CATEGORIES=		wip
+CATEGORIES=		comms
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=multisync/}
 EXTRACT_SUFX=		.tar.bz2
 

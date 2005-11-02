@@ -4,7 +4,7 @@
 DISTNAME=		asm-1.4.2-bin
 PKGNAME=		java-asm-1.4.2
 WRKSRC=		${WRKDIR}/asm-1.4.2
-CATEGORIES=		wip devel
+CATEGORIES=		devel
 MASTER_SITES=		http://download.forge.objectweb.org/asm/ \
 				http://download.us.forge.objectweb.org/asm/
 EXTRACT_SUFX=	.zip

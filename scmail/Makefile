@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		scmail-1.3
-CATEGORIES=		wip
+CATEGORIES=		mail
 MASTER_SITES=		http://namazu.org/~satoru/scmail/
 
 MAINTAINER=		nel@soraneko.com

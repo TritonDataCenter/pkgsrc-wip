@@ -3,7 +3,7 @@
 
 DISTNAME=		WordNet-2.0
 PKGNAME=		wordnet-2.0
-CATEGORIES=		wip misc
+CATEGORIES=		misc
 MASTER_SITES=		ftp://ftp.cogsci.princeton.edu/pub/wordnet/2.0/	\
 			ftp://ftp.ims.uni-stuttgart.de/pub/wordnet/2.0/
 

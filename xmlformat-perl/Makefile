@@ -4,7 +4,7 @@
 DISTNAME=		xmlformat-${XMLFORMAT_VERSION}
 PKGNAME=		xmlformat-perl-${XMLFORMAT_VERSION}
 PKGREVISION=		1
-CATEGORIES=		textproc wip
+CATEGORIES=		textproc
 MASTER_SITES=		http://www.kitebird.com/software/xmlformat/
 
 MAINTAINER=		mishka@apk.od.ua

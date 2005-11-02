@@ -4,7 +4,7 @@
 # TODO : wrong name ?
 DISTNAME=		ttysnoop-0.12d.k26
 PKGREVISION=	2
-CATEGORIES=		wip sysutils
+CATEGORIES=		sysutils
 MASTER_SITES=		http://grad.icmc.usp.br/~duker/ttysnoop/
 
 MAINTAINER=		pancake@phreaker.net

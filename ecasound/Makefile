@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		ecasound-2.4.1
-CATEGORIES=		wip audio
+CATEGORIES=		audio
 MASTER_SITES=		http://ecasound.seul.org/download/
 
 MAINTAINER=		pancake@phreaker.net

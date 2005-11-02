@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		grass-6.0.0
-CATEGORIES=		wip
+CATEGORIES=		geography
 MASTER_SITES=		http://grass.itc.it/grass60/source/
 
 MAINTAINER=		mchittur@cs.nmsu.edu

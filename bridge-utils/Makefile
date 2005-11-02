@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		bridge-utils-1.0.4
-CATEGORIES=		wip net linux
+CATEGORIES=		net linux
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=bridge/}
 
 MAINTAINER=		pancake@phreaker.net

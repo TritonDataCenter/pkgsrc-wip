@@ -1,7 +1,7 @@
 # $NetBSD$
 
 DISTNAME=	firefox-wrapper-0.2
-CATEGORIES=	www wip
+CATEGORIES=	www
 MASTER_SITES=	# empty
 DISTFILES=	# empty
 

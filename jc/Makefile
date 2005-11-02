@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		jc-1.2.3
-CATEGORIES=		wip lang
+CATEGORIES=		lang
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=jcvm/}
 
 MAINTAINER=		pancake@phreaker.net

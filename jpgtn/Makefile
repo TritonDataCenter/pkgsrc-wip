@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		jpgtn-2.06
-CATEGORIES=		wip graphics
+CATEGORIES=		graphics
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=jpgtn/}
 
 MAINTAINER=		pancake@phreaker.net

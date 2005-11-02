@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		geos-2.0.0
-CATEGORIES=		wip
+CATEGORIES=		geography
 MASTER_SITES=		http://geos.refractions.net/
 EXTRACT_SUFX=		.tar.bz2
 

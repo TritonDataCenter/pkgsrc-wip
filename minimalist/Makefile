@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	minimalist-2.5.3
-CATEGORIES=	wip mail
+CATEGORIES=	mail
 MASTER_SITES=	http://www.mml.org.ua/LIST/
 
 MAINTAINER=	pancake@phreaker.net

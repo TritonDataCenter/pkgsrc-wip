@@ -3,7 +3,7 @@
 
 DISTNAME=		gnujaxp-1.0beta1
 PKGNAME=		java-gnujaxp-1.0b1
-CATEGORIES=		wip devel
+CATEGORIES=		devel
 MASTER_SITES=		${MASTER_SITE_GNU:=classpathx/}
 EXTRACT_SUFX=		.zip
 

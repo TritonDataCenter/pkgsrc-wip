@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		gtypist-2.7
-CATEGORIES=		wip textproc
+CATEGORIES=		textproc
 MASTER_SITES=		ftp://ftp.gnu.org/gnu/gtypist/
 
 MAINTAINER=		pancake@phreaker.net

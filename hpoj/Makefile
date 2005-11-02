@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		hpoj-0.91
-CATEGORIES=		wip print
+CATEGORIES=		print
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=hpoj/}
 EXTRACT_SUFX=		.tgz
 

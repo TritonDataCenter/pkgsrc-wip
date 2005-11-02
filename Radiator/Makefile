@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		Radiator-3.6
-CATEGORIES=		net wip
+CATEGORIES=		net
 MASTER_SITES=		# Need to get it yourself.
 EXTRACT_SUFX=		.tgz
 

@@ -3,7 +3,7 @@
 
 DISTNAME=		wireless_tools.27
 PKGNAME=		wireless-tools-27
-CATEGORIES=		wip net linux
+CATEGORIES=		net linux
 MASTER_SITES=		http://pcmcia-cs.sourceforge.net/ftp/contrib/
 
 MAINTAINER=		pancake@phreaker.net

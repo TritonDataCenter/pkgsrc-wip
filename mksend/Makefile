@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		mksend-0.5.3
-CATEGORIES=		wip net
+CATEGORIES=		net
 MASTER_SITES=		ftp://ftp.nopcode.org/prj/mksend/
 
 MAINTAINER=		pancake@phreaker.net

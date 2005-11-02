@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		p3nfs-5.16
-CATEGORIES=		wip
+CATEGORIES=		sysutils
 MASTER_SITES=		http://www.koeniglich.de/packages/
 
 MAINTAINER=		pancake@phreaker.net

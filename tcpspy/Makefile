@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		tcpspy-1.7
-CATEGORIES=		wip
+CATEGORIES=		net
 MASTER_SITES=		http://www.mirrors.wiretapped.net/security/network-monitoring/tcpspy/
 
 MAINTAINER=		pancake@phreaker.net

@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		embryo-0.9.0
-CATEGORIES=		wip lang
+CATEGORIES=		lang
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=enlightenment/}
 
 MAINTAINER=		Peter.Bex@student.kun.nl

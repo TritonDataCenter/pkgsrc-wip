@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		Kahua-0.3.2
-CATEGORIES=		wip
+CATEGORIES=		www
 MASTER_SITES=		http://www.kahua.org/download/kahua/
 EXTRACT_SUFX=		.tgz
 

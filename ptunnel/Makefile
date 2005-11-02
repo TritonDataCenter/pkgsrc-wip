@@ -3,7 +3,7 @@
 
 DISTNAME=		PingTunnel-0.60
 PKGNAME=		ptunnel-0.60
-CATEGORIES=		wip net
+CATEGORIES=		net
 MASTER_SITES=		http://www.cs.uit.no/~daniels/PingTunnel/ \
 			http://dag.wieers.com/packages/ptunnel/
 

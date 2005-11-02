@@ -3,7 +3,7 @@
 
 DISTNAME=		chromium-src-0.9.12
 PKGNAME=		chromium-0.9.12
-CATEGORIES=		wip
+CATEGORIES=		games
 MASTER_SITES=		http://www.reptilelabour.com/software/files/chromium/
 
 MAINTAINER=		pancake@phreaker.net

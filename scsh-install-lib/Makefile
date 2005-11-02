@@ -3,7 +3,7 @@
 #
 
 DISTNAME=		scsh-install-lib-1.2.0
-CATEGORIES=		wip devel
+CATEGORIES=		devel
 MASTER_SITES=		http://lamp.epfl.ch/~schinz/scsh_packages/
 
 MAINTAINER=		airhead@users.sf.net

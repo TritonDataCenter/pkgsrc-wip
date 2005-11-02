@@ -3,7 +3,7 @@
 
 DISTNAME=	or1k_or1ksim-stable_0_1_x
 PKGNAME=	or1ksim-0.1.x
-CATEGORIES=	wip emulators
+CATEGORIES=	emulators
 DYNAMIC_MASTER_SITES=YES
 
 MAINTAINER=	tech-pkg@NetBSD.org

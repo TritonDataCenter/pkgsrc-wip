@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		hping3-alpha-2
-CATEGORIES=		wip net
+CATEGORIES=		net
 MASTER_SITES=		http://wiki.hping.org/uploadedfiles/101/
 
 MAINTAINER=		pancake@phreaker.net

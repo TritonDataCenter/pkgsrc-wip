@@ -3,7 +3,7 @@
 
 DISTNAME=		firehose-0.6.0-src
 PKGNAME=	firehose-0.6
-CATEGORIES=		wip net
+CATEGORIES=		net
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=heroines/}
 EXTRACT_SUFX=		.tar.bz2
 

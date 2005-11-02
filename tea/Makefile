@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		tea-10.2
-CATEGORIES=		wip editors
+CATEGORIES=		editors
 MASTER_SITES=		http://tea.linux.kiev.ua/
 EXTRACT_SUFX=		.tar.bz2
 

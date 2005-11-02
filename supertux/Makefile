@@ -3,7 +3,7 @@
 
 DISTNAME=		supertux-0.1.3
 PKGREVISION=		1
-CATEGORIES=		wip games
+CATEGORIES=		games
 MASTER_SITES=		http://download.berlios.de/supertux/
 EXTRACT_SUFX=		.tar.bz2
 

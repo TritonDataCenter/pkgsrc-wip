@@ -3,7 +3,7 @@
 
 DISTNAME=	SugarSuite-Full-${VERSION}
 PKGNAME=	sugarCRM-${VERSION}
-CATEGORIES=	wip misc
+CATEGORIES=	misc
 MASTER_SITES=	http://www.sugarforge.org/frs/download.php/235/
 EXTRACT_SUFX=	.zip
 

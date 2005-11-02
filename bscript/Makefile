@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		bscript-0.3
-CATEGORIES=		wip lang
+CATEGORIES=		lang
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=bscript/}
 
 MAINTAINER=		pancake@phreaker.net

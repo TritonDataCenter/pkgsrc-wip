@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		panda-0.5.4
-CATEGORIES=		wip print
+CATEGORIES=		print
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=panda/}
 EXTRACT_SUFX=		.tar.bz2
 

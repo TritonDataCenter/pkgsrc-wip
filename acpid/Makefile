@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		acpid-1.0.4
-CATEGORIES=		wip linux sysutils
+CATEGORIES=		linux sysutils
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=acpid/}
 PKGREVISION=		1
 

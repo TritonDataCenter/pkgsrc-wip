@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		stmpclean-0.3
-CATEGORIES=		wip sysutils
+CATEGORIES=		sysutils
 MASTER_SITES=		http://www.internet2.edu/~shalunov/stmpclean/
 
 MAINTAINER=		pancake@phreaker.net

@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		proxychains-2.1
-CATEGORIES=		wip
+CATEGORIES=		net
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=proxychains/}
 
 MAINTAINER=		pancake@phreaker.net

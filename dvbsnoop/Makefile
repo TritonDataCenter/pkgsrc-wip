@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		dvbsnoop-1.3.77
-CATEGORIES=		wip net
+CATEGORIES=		net
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=dvbsnoop/}
 
 MAINTAINER=		pancake@phreaker.net

@@ -3,7 +3,7 @@
 
 DISTNAME=		gdal-1.2.6
 PKGNAME=		gdal-lib-1.2.6
-CATEGORIES=		wip
+CATEGORIES=		geography
 MASTER_SITES=		http://gdal.org/dl/
 
 MAINTAINER=		mchittur@cs.nmsu.edu

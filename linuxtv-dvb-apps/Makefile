@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		linuxtv-dvb-apps-1.1.0
-CATEGORIES=		wip linux
+CATEGORIES=		linux
 MASTER_SITES=		http://212.227.36.83/linuxtv/downloads/
 EXTRACT_SUFX=		.tar.bz2
 

@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		worker-2.10.0
-CATEGORIES=		wip sysutils
+CATEGORIES=		sysutils
 MASTER_SITES=		http://www.boomerangsworld.de/worker/downloads/
 EXTRACT_SUFX=		.tar.bz2
 

@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		memgrep-0.8.0
-CATEGORIES=		wip devel
+CATEGORIES=		devel
 MASTER_SITES=		http://www.hick.org/code/skape/memgrep/
 
 MAINTAINER=		pancake@phreaker.net

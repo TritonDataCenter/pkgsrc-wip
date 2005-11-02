@@ -1,7 +1,7 @@
 # $NetBSD$
 
 DISTNAME=      aop-0.6
-CATEGORIES=    wip games
+CATEGORIES=    games
 MASTER_SITES=  http://raffi.at/code/aop/
 
 MAINTAINER=    tonio@NetBSD.org

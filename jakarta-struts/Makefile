@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		jakarta-struts-1.1
-CATEGORIES=		wip www
+CATEGORIES=		www
 MASTER_SITES=		http://apache.rediris.es/jakarta/struts/binaries/
 
 MAINTAINER=		pancake@phreaker.net

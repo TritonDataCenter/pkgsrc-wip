@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	gdvb-0.2
-CATEGORIES=	wip multimedia
+CATEGORIES=	multimedia
 MASTER_SITES=	ftp://ftp.nopcode.org/prj/gdvb/ \
 		http://cvs.nopcode.org/ftp/
 

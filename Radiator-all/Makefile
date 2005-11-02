@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	Radiator-all-3.6
-CATEGORIES=	meta-pkgs net wip
+CATEGORIES=	meta-pkgs net
 MASTER_SITES=	# empty
 DISTFILES=	# empty
 

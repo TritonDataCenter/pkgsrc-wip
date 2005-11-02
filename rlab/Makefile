@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		rlab-2.1.05
-CATEGORIES=		wip math
+CATEGORIES=		math
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=rlab/}
 
 MAINTAINER=		Peter.Bex@student.kun.nl

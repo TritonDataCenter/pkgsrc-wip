@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		chromium-data-0.9.12
-CATEGORIES=		wip games
+CATEGORIES=		games
 MASTER_SITES=		http://www.reptilelabour.com/software/files/chromium/
 
 MAINTAINER=		pancake@phreaker.net

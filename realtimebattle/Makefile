@@ -3,7 +3,7 @@
 
 DISTNAME=		RealTimeBattle-1.0.7-Std
 PKGNAME=		realtimebattle-1.0.7
-CATEGORIES=		wip games
+CATEGORIES=		games
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=realtimebattle/}
 
 MAINTAINER=		pancake@phreaker.net

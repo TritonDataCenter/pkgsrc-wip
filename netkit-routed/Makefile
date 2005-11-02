@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		netkit-routed-0.17
-CATEGORIES=		wip net
+CATEGORIES=		net
 MASTER_SITES=		ftp://ftp.uk.linux.org/pub/linux/Networking/netkit/ \
 			${MASTER_SITE_SUNSITE:=system/network/}
 

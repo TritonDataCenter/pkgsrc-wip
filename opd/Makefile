@@ -3,7 +3,7 @@
 
 DISTNAME=		opd-v0.2-2003-03-18
 PKGNAME=		opd-0.2
-CATEGORIES=		wip comms
+CATEGORIES=		comms
 MASTER_SITES=		http://oss.bdit.de/download/
 EXTRACT_SUFX=		.tgz
 

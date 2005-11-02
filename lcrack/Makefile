@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		lcrack-20040914
-CATEGORIES=		wip security
+CATEGORIES=		security
 MASTER_SITES=		http://usuarios.lycos.es/reinob/lcrack/
 
 MAINTAINER=		pancake@phreaker.net

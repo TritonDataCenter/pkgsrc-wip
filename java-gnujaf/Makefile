@@ -3,7 +3,7 @@
 
 DISTNAME=		activation-1.0
 PKGNAME=		java-gnujaf-1.0
-CATEGORIES=		wip
+CATEGORIES=		textproc
 MASTER_SITES=	http://ftp.gnu.org/gnu/classpathx/
 
 MAINTAINER=		pancake@phreaker.net

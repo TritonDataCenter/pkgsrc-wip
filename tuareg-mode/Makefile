@@ -2,7 +2,7 @@
 
 DISTNAME=      tuareg-mode-1.45.0
 PKGNAME=       ${EMACS_PKGNAME_PREFIX}${DISTNAME}
-CATEGORIES=    wip devel editors
+CATEGORIES=    devel editors
 MASTER_SITES=  http://www-rocq.inria.fr/~acohen/tuareg/mode/
 EXTRACT_SUFX=  .tar.bz2
 
