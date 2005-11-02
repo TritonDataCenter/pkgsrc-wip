@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		graveman-0.3.12-4
-CATEGORIES=		wip sysutils
+CATEGORIES=		sysutils
 MASTER_SITES=		http://graveman.tuxfamily.org/sources/
 EXTRACT_SUFX=		.tar.bz2
 
