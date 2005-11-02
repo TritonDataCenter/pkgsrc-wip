@@ -1,8 +1,9 @@
 # $NetBSD$
 #
 
-# TODO : wrong name
+# TODO : wrong name ?
 DISTNAME=		ttysnoop-0.12d.k26
+PKGREVISION=	1
 CATEGORIES=		wip sysutils
 MASTER_SITES=		http://grad.icmc.usp.br/~duker/ttysnoop/
 
@@ -19,5 +20,7 @@ do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/ttysnoop ${PREFIX}/sbin
 	${INSTALL_PROGRAM} ${WRKSRC}/ttysnoops ${PREFIX}/sbin
 	${INSTALL_MAN} ${WRKSRC}/ttysnoop.8 ${PREFIX}/man/man8/
+	${INSTALL_DATA_DIR} /var/spool/ttysnoop
 
+ONLY_FOR_PLATFORM=	Linux-*-*
 .include "../../mk/bsd.pkg.mk"
