@@ -1,6 +1,5 @@
 @comment $NetBSD$
 bin/chinput
-etc/Chinput.ad
 share/doc/Chinput/API
 share/doc/Chinput/BUGS
 share/doc/Chinput/CHANGES
@@ -9,4 +8,6 @@ share/doc/Chinput/FAQ
 share/doc/Chinput/INSTALL
 share/doc/Chinput/README
 share/doc/Chinput/USAGE
+share/examples/Chinput/Chinput.ad
 @dirrm share/doc/Chinput
+@dirrm share/examples/Chinput
