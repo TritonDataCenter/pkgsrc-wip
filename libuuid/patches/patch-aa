@@ -1,7 +1,7 @@
 $NetBSD$
 
---- ../../MCONFIG.in.orig	2005-02-05 00:43:57.000000000 +0900
-+++ ../../MCONFIG.in
+--- MCONFIG.in.orig	2005-02-05 00:43:57.000000000 +0900
++++ MCONFIG.in
 @@ -38,8 +38,7 @@ CPPFLAGS =  -I$(top_builddir)/lib -I$(to
  INTL_FLAGS = @INTL_FLAGS@
  ALL_CFLAGS = $(CPPFLAGS) $(DEFS) $(USE_WFLAGS) $(CFLAGS) $(XTRA_CFLAGS) \
