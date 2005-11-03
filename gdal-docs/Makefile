@@ -20,7 +20,7 @@ MAKEFILE=		GNUmakefile
 BUILD_TARGET=		docs
 INSTALL_TARGET=		install-docs
 
-SUBST_CLASSES=		pyversion
+SUBST_CLASSES+=		pyversion
 SUBST_STAGE.pyversion=	do-configure
 SUBST_FILES.pyversion=	GNUmakefile
 SUBST_SED.pyversion=	"s:python:${PYTHONBIN}:g"

@@ -14,7 +14,7 @@ USE_PKGINSTALL=		yes
 EGDIR=			${PREFIX}/share/examples/ez-ipupdate
 RCD_SCRIPTS=		ez-ipupdate
 
-SUBST_CLASSES=		path
+SUBST_CLASSES+=		path
 SUBST_STAGE.path=	post-patch
 SUBST_MESSAGE.path=	"Correcting paths in example scripts."
 SUBST_FILES.path=	example-*.conf example.conf

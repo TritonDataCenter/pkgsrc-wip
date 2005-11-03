@@ -75,7 +75,7 @@ FILES_SUBST+=	IRCD_HOME=${IRCD_HOME}
 FILES_SUBST+=	IRCD_USER=${IRCD_USER}
 FILES_SUBST+=	IRCD_GROUP=${IRCD_GROUP}
 
-SUBST_CLASSES=		homedir
+SUBST_CLASSES+=		homedir
 SUBST_STAGE.homedir=	post-patch
 SUBST_FILES.homedir=	doc/example.conf
 SUBST_SED.homedir=	-e "s|src/modules|${IRCD_SHARE}/modules|g" \

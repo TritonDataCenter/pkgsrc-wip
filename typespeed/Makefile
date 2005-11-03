@@ -27,7 +27,7 @@ do-install:
 	cd ${PREFIX}/share/typespeed && ${PREFIX}/bin/typespeed --makescore
 	${ECHO} ${PREFIX}/share/typespeed/ > ${PKG_SYSCONFDIR}/typespeedrc
 
-SUBST_CLASSES=		datapath etcpath man
+SUBST_CLASSES+=		datapath etcpath man
 SUBST_STAGE.etcpath=	post-patch
 SUBST_FILES.etcpath=	typespeed.6 typespeed.h
 SUBST_SED.etcpath=	-e 's|/etc/typespeedrc|${PKG_SYSCONFDIR}/typespeedrc|g'

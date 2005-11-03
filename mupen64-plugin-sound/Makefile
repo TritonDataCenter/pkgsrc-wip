@@ -13,7 +13,7 @@ COMMENT=	Sound plugin for mupen64 emulator
 
 LDFLAGS+=	${LIBOSSAUDIO}
 
-SUBST_CLASSES=	    dsp
+SUBST_CLASSES+=	    dsp
 SUBST_STAGE.dsp=    post-patch
 SUBST_FILES.dsp=    main.c
 SUBST_SED.dsp=	    -e "s,/dev/dsp,${DEVOSSAUDIO},g"

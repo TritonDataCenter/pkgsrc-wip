@@ -30,7 +30,7 @@ NO_INSTALL_MANPAGES=    yes
 USE_TOOLS+=		perl:run
 REPLACE_PERL=		vncserver
 
-SUBST_CLASSES=		pl
+SUBST_CLASSES+=		pl
 SUBST_STAGE.pl=		pre-install
 SUBST_FILES.pl=		vncserver
 SUBST_MESSAGE.pl=	"Fixing paths..."

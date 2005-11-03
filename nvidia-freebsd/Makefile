@@ -30,7 +30,7 @@ COMPAT_LINUX?=		no		# Linux compat libraries.
 CHECK_SHLIBS=		no
 
 .if !empty(X11_TYPE:MXFree86)
-SUBST_CLASSES=		fixme
+SUBST_CLASSES+=		fixme
 SUBST_STAGE.fixme=	post-patch
 SUBST_FILES.fixme=	doc/Makefile driver/Makefile \
 			extension/Makefile lib/libGL/Makefile \

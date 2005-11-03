@@ -15,7 +15,7 @@ USE_TOOLS+= gmake
 
 ONLY_FOR_PLATFORM=Linux-*-*
 
-SUBST_CLASSES=pfx
+SUBST_CLASSES+=pfx
 SUBST_FILES.pfx=Makefile
 SUBST_STAGE.pfx=configure
 SUBST_SED.pfx=-e 's,DESTDIR\ =,DESTDIR=\"${PREFIX}\",'

@@ -33,7 +33,7 @@ do-install:
 	cd ${WRKDIR} && ${TAR} -cf - ${DISTNAME:C/-.*$//} | \
 		${TAR} -xf - -C ${SMDIR}/plugins
 
-SUBST_CLASSES=		prefix
+SUBST_CLASSES+=		prefix
 SUBST_STAGE.prefix=	post-patch
 SUBST_FILES.prefix=	chg_sasl_passwd/chgsaslpasswd.c
 SUBST_SED.prefix+=	-e "s,/usr/local,${PREFIX},g"

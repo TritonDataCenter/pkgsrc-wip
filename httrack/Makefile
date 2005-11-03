@@ -17,7 +17,7 @@ USE_TOOLS+=	gmake
 LIBTOOL_OVERRIDE=${WRKSRC}/libtool
 LDFLAGS+=-L${WRKSRC}/./src/.libs/
 
-SUBST_CLASSES=html
+SUBST_CLASSES+=html
 SUBST_STAGE.html=pre-install
 SUBST_FILES.html=html/Makefile
 SUBST_SED.html=-e 's,install-data-hook,,'

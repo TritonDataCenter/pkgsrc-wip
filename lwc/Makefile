@@ -12,7 +12,7 @@ COMMENT=		Lightweight C++
 
 
 BUILD_TARGET= objdir/lwc
-SUBST_CLASSES=gcc
+SUBST_CLASSES+=gcc
 SUBST_STAGE.gcc=pre-build
 SUBST_FILES.gcc=Makefile
 SUBST_SED.gcc= -e 's,CCC\ \=,\#,g' -e 's,CC\ =\ ,CC+=-c ${CFLAGS}\#,' \

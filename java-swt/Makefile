@@ -28,7 +28,7 @@ post-extract:
 do-build:
 	cd ${WRKSRC} && ${SH} build.sh
 
-SUBST_CLASSES=	    foo
+SUBST_CLASSES+=	    foo
 SUBST_STAGE.foo=    post-patch
 SUBST_FILES.foo=    make_gtk.mak
 SUBST_SED.foo=	    -e s,@PKG_JVM_HOME@,${PKG_JAVA_HOME},

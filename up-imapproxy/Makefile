@@ -12,7 +12,7 @@ GNU_CONFIGURE=	YES
 USE_PKGINSTALL=	YES
 RCD_SCRIPTS=	upimapproxy
 
-SUBST_CLASSES=		paths
+SUBST_CLASSES+=		paths
 SUBST_STAGE.paths=	post-patch
 SUBST_FILES.paths=	include/imapproxy.h
 SUBST_SED.paths=	-e "s|@PKG_SYSCONFDIR@|${PKG_SYSCONFDIR}|g"

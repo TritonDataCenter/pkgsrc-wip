@@ -16,7 +16,7 @@ MAKE_ENV=JDK_HOME=${PKG_JAVA_HOME}
 
 WRKSRC=		${WRKDIR}/src
 
-SUBST_CLASSES=jh
+SUBST_CLASSES+=jh
 SUBST_STAGE.jh=pre-build
 SUBST_FILES.jh= c/Makefile
 SUBST_SED.jh= -e 's,/usr/lib/java,${PKG_JAVA_HOME},g'

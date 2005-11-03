@@ -11,7 +11,7 @@ MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://grad.icmc.usp.br/~duker/ttysnoop/
 COMMENT=		Snoop TTYs on Linux for kernels 2.6
 
-SUBST_CLASSES=etc
+SUBST_CLASSES+=etc
 SUBST_FILES.etc=config.h
 SUBST_STAGE.etc=configure
 SUBST_SED.etc=-e 's,/var/,${VARBASE}/,'

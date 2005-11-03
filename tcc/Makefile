@@ -18,7 +18,7 @@ HAS_CONFIGURE=	yes
 .include "../../mk/bsd.prefs.mk"
 
 .if ${OPSYS} != "Linux"
-SUBST_CLASSES=ldl
+SUBST_CLASSES+=ldl
 SUBST_FILES.ldl=Makefile
 SUBST_STAGE.ldl=post-patch
 SUBST_SED.ldl=-e 's,LIBS=,\#LIBS,'

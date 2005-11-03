@@ -20,7 +20,7 @@ USE_TOOLS+=		gmake
 REPLACE_PERL=   	${WRKSRC}/bin/*
 NO_BUILD=		yes
 
-SUBST_CLASSES=		gnump3d
+SUBST_CLASSES+=		gnump3d
 SUBST_FILES.gnump3d=	bin/gnump3d-index bin/gnump3d-top bin/gnump3d2 \
 			etc/gnump3d.conf
 SUBST_STAGE.gnump3d=	pre-patch

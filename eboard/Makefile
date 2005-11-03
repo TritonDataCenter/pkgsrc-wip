@@ -16,7 +16,7 @@ USE_TOOLS+=		gmake
 
 .include "../../mk/ossaudio.buildlink3.mk"
 
-SUBST_CLASSES=		sox_dev
+SUBST_CLASSES+=		sox_dev
 SUBST_STAGE.sox_dev=	post-patch
 SUBST_FILES.sox_dev=	sound.cc
 SUBST_SED.sox_dev=	-e 's,/dev/dsp,${DEVOSSAUDIO},g'

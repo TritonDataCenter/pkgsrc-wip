@@ -17,7 +17,7 @@ WRKSRC=		${WRKDIR}/emu64
 # Ensure we export symbols in the linked shared object.
 LDFLAGS+=	${EXPORT_SYMBOLS_LDFLAGS}
 
-SUBST_CLASSES=	    fixme
+SUBST_CLASSES+=	    fixme
 SUBST_STAGE.fixme=  post-patch
 SUBST_FILES.fixme=  Makefile
 SUBST_SED.fixme=    -e "s|@BLNK@|${BUILDLINK_DIR}|g" \

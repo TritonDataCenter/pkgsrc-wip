@@ -15,7 +15,7 @@ USE_LIBTOOL=		yes
 LIBTOOL_OVERRIDE=	${WRKSRC}/libtool
 GNU_CONFIGURE=		yes
 
-SUBST_CLASSES=ooo
+SUBST_CLASSES+=ooo
 SUBST_STAGE.ooo=pre-build
 SUBST_FILES.ooo=proxychains/Makefile
 SUBST_SED.ooo=-e s!OBJEXT\ =!OBJEXT=o!

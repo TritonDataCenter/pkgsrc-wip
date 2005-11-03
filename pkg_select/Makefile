@@ -34,7 +34,7 @@ do-install:
 	${INSTALL_DATA} ${WRKSRC}/mirrors.ftp ${PREFIX}/share/pkg_select
 	${INSTALL_MAN} ${WRKSRC}/pkg_select.1 ${PREFIX}/man/man1
 
-SUBST_CLASSES=		path
+SUBST_CLASSES+=		path
 SUBST_STAGE.path=	post-patch
 SUBST_FILES.path=	Makefile pkg_select.1
 SUBST_SED.path=		-e "s|/usr/pkgsrc|${PKGSRCDIR}|g" \

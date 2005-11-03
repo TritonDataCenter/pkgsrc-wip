@@ -16,7 +16,7 @@ REPLACE_PERL+=	${WRKSRC}/contrib/minimalist_request.pl
 EGDIR=		${PREFIX}/share/examples/minimalist/
 CONF_FILES=	${EGDIR}/minimalist.conf ${PKG_SYSCONFDIR}/minimalist.conf
 
-SUBST_CLASSES=	path
+SUBST_CLASSES+=	path
 SUBST_STAGE.path=post-patch
 SUBST_FILES.path=minimalist.conf-sample
 SUBST_FILES.path+=minimalist.pl

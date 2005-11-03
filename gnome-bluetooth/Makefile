@@ -16,7 +16,7 @@ LIBTOOL_OVERRIDE=	${WRKSRC}/libtool
 PKGCONFIG_OVERRIDE+=	${WRKSRC}/gnome-bluetooth.pc.in
 GNU_CONFIGURE=		yes
 
-SUBST_CLASSES= py
+SUBST_CLASSES+= py
 SUBST_FILES.py=src/Makefile
 SUBST_STAGE.py=post-configure
 SUBST_SED.py=-e 's,/usr/share/,${PREFIX}/share/,g' \

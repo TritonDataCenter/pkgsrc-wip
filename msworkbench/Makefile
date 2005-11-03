@@ -11,7 +11,7 @@ COMMENT=		Set of tools for development of MapServer web mapping applications
 
 WRKSRC=			${WRKDIR}/msworkbench
 
-SUBST_CLASSES=		wishpath
+SUBST_CLASSES+=		wishpath
 SUBST_STAGE.wishpath=	pre-install
 SUBST_FILES.wishpath=	install.sh
 SUBST_SED.qtbindir=	's:$${PREFIX}:${PREFIX}:g'
