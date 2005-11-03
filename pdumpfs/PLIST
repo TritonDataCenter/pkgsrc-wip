@@ -2,11 +2,11 @@
 bin/pdumpfs
 man/ja_JP.EUC/man8/pdumpfs.8
 man/man8/pdumpfs.8
-share/doc/html/pdumpfs/images/pdumpfs-ja-mini.png
-share/doc/html/pdumpfs/images/pdumpfs-ja.png
-share/doc/html/pdumpfs/images/pdumpfs-mini.png
-share/doc/html/pdumpfs/images/pdumpfs.png
-share/doc/html/pdumpfs/pdumpfs-ja.html
-share/doc/html/pdumpfs/pdumpfs.html
-@dirrm share/doc/html/pdumpfs/images
-@dirrm share/doc/html/pdumpfs
+share/doc/pdumpfs/images/pdumpfs-ja-mini.png
+share/doc/pdumpfs/images/pdumpfs-ja.png
+share/doc/pdumpfs/images/pdumpfs-mini.png
+share/doc/pdumpfs/images/pdumpfs.png
+share/doc/pdumpfs/pdumpfs-ja.html
+share/doc/pdumpfs/pdumpfs.html
+@dirrm share/doc/pdumpfs/images
+@dirrm share/doc/pdumpfs

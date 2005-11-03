@@ -14,14 +14,14 @@ BUILD_TARGET=	pdumpfs
 
 REPLACE_RUBY=	pdumpfs.in
 
-INSTALLATION_DIRS=	share/doc/html/pdumpfs
+INSTALLATION_DIRS=	share/doc/pdumpfs
 
 do-install:
 	${INSTALL_SCRIPT} ${WRKSRC}/pdumpfs ${PREFIX}/bin
 	${INSTALL_MAN} ${WRKSRC}/man/man8/pdumpfs.8 ${PREFIX}/man/man8
 	${INSTALL_MAN} ${WRKSRC}/man/ja/man8/pdumpfs.8 ${PREFIX}/man/ja_JP.EUC/man8
 	cd ${WRKSRC}/doc && \
-		${PAX} -rw -pp -pm . ${PREFIX}/share/doc/html/pdumpfs
+		${PAX} -rw -pp -pm . ${PREFIX}/share/doc/pdumpfs
 
 .include "../../lang/ruby/modules.mk"
 .include "../../mk/bsd.pkg.mk"
