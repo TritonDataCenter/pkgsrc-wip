@@ -2,7 +2,7 @@
 
 DISTNAME=	mod_python-3.1.3
 CATEGORIES=	www python
-MASTER_SITES=	http://www.apache.org/dist/httpd/modpython/
+MASTER_SITES=	${MASTER_SITE_APACHE:=httpd/modpython/}
 EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	recht@NetBSD.org

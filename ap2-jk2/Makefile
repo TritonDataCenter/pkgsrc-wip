@@ -4,7 +4,7 @@
 DISTNAME=	jakarta-tomcat-connectors-jk2-${AP_JK_VER}-src
 PKGNAME=	ap2-jk2-${AP_JK_VER}
 CATEGORIES=	www
-MASTER_SITES=	http://www.apache.org/dist/jakarta/tomcat-connectors/jk2/source/
+MASTER_SITES=	${MASTER_SITE_APACHE:=jakarta/tomcat-connectors/jk2/source/}
 
 MAINTAINER=	tech-pkg@NetBSD.org
 HOMEPAGE=	http://jakarta.apache.org/tomcat/
