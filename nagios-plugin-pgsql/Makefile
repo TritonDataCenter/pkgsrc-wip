@@ -2,7 +2,6 @@
 #
 
 PKGNAME=	nagios-plugin-pgsql-${PLUGINSVERSION}
-PKGREVISION=	# not defined
 CATEGORIES=   	net sysutil databases
 
 MAINTAINER=     tech-pkg@NetBSD.org

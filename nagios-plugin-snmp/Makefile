@@ -2,7 +2,6 @@
 #
 
 PKGNAME=	nagios-plugin-snmp-${PLUGINSVERSION}
-PKGREVISION=	# not defined
 CATEGORIES=     net sysutil
 
 MAINTAINER=     tech-pkg@NetBSD.org
