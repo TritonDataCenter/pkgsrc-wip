@@ -6,7 +6,7 @@ CATEGORIES=		biology
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=manatee/}
 
 MAINTAINER=		hdp@cs.nmsu.edu
-HOMEPAGE=		http://easynews.dl.sourceforge.net/sourceforge/manatee/
+HOMEPAGE=		http://sourceforge.net/projects/manatee/
 COMMENT=		Web-based gene evaluation and genome annotation tool
 
 WRKSRC=			${WRKDIR}/manatee

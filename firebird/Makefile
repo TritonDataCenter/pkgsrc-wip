@@ -7,7 +7,7 @@ MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=firebird/}
 EXTRACT_SUFX=		.tar.bz2
 
 MAINTAINER=		nel@soraneko.com
-HOMEPAGE=		http://jaist.dl.sourceforge.net/sourceforge/firebird/
+HOMEPAGE=		http://sourceforge.net/projects/firebird/
 COMMENT=		SQL database, opensource version of InterBase
 
 DEPENDS=		autoconf>=2.58:../../devel/autoconf
