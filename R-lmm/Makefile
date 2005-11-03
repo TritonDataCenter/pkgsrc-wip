@@ -5,7 +5,7 @@ CATEGORIES=             math
 MASTER_SITES=           ${MASTER_SITE_R_CRAN:=contrib/}
 
 MAINTAINER=             mchittur@cs.nmsu.edu
-HOMEPAGE=               ${MASTER_SITE_R_CRAN:=contrib/Descriptions/lmm.html}
+HOMEPAGE=               ${R_HOMEPAGE_BASE}/lmm.html
 COMMENT=		Improved procedures for linear mixed models with R
 
 R_PKGNAME=		lmm

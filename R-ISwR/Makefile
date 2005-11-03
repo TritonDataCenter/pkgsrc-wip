@@ -5,7 +5,7 @@ CATEGORIES=             databases math
 MASTER_SITES=           ${MASTER_SITE_R_CRAN:=contrib/}
 
 MAINTAINER=             mchittur@cs.nmsu.edu
-HOMEPAGE=               ${MASTER_SITE_R_CRAN:=contrib/Descriptions/ISwR.html}
+HOMEPAGE=               ${R_HOMEPAGE_BASE}/ISwR.html
 COMMENT=		Data sets and scripts for 'Introductory Statistics with R'
 
 R_PKGNAME=              ISwR

@@ -5,7 +5,7 @@ CATEGORIES=             math
 MASTER_SITES=           ${MASTER_SITE_R_CRAN:=contrib/}
 
 MAINTAINER=             mchittur@cs.nmsu.edu
-HOMEPAGE=               ${MASTER_SITE_R_CRAN:=contrib/Descriptions/sgeostat.html}
+HOMEPAGE=               ${R_HOMEPAGE_BASE}/sgeostat.html
 COMMENT=		Object-oriented Framework for Geostatistical Modeling in S+
 
 R_PKGNAME=		sgeostat

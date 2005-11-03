@@ -5,7 +5,7 @@ CATEGORIES=             math
 MASTER_SITES=           ${MASTER_SITE_R_CRAN:=contrib/}
 
 MAINTAINER=             mchittur@cs.nmsu.edu
-HOMEPAGE=               ${MASTER_SITE_R_CRAN:=contrib/Descriptions/clim.pact.html}
+HOMEPAGE=               ${R_HOMEPAGE_BASE}/clim.pact.html
 COMMENT=		Climate analysis and downscaling package for monthly and daily data
 
 R_PKGNAME=		clim.pact

@@ -5,7 +5,7 @@ CATEGORIES=             databases math
 MASTER_SITES=           ${MASTER_SITE_R_CRAN:=contrib/}
 
 MAINTAINER=             mchittur@cs.nmsu.edu
-HOMEPAGE=               ${MASTER_SITE_R_CRAN:=contrib/Descriptions/VR.html}
+HOMEPAGE=               ${R_HOMEPAGE_BASE}/VR.html
 COMMENT=		Functions and datasets for 'Modern Applied Statistics with S'
 
 R_PKGNAME=              VR

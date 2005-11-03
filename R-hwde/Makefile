@@ -5,7 +5,7 @@ CATEGORIES=             math
 MASTER_SITES=           ${MASTER_SITE_R_CRAN:=contrib/}
 
 MAINTAINER=             mchittur@cs.nmsu.edu
-HOMEPAGE=               ${MASTER_SITE_R_CRAN:=contrib/Descriptions/hwde.html}
+HOMEPAGE=               ${R_HOMEPAGE_BASE}/hwde.html
 COMMENT=		Models and tests for departure from Hardy-Weinberg equilibrium
 
 R_PKGNAME=		hwde

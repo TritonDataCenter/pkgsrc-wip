@@ -5,7 +5,7 @@ CATEGORIES=             math
 MASTER_SITES=           ${MASTER_SITE_R_CRAN:=contrib/}
 
 MAINTAINER=             mchittur@cs.nmsu.edu
-HOMEPAGE=               ${MASTER_SITE_R_CRAN:=contrib/Descriptions/genetics.html}
+HOMEPAGE=               ${R_HOMEPAGE_BASE}/genetics.html
 COMMENT=		Classes and methods for handling genetic data
 
 R_PKGNAME=		genetics

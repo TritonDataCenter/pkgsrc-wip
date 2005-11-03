@@ -5,7 +5,7 @@ CATEGORIES=             math
 MASTER_SITES=           ${MASTER_SITE_R_CRAN:=contrib/}
 
 MAINTAINER=             mchittur@cs.nmsu.edu
-HOMEPAGE=               ${MASTER_SITE_R_CRAN:=contrib/Descriptions/shapefiles.html}
+HOMEPAGE=               ${R_HOMEPAGE_BASE}/shapefiles.html
 COMMENT=		Functions to read and write ESRI shapefiles
 
 R_PKGNAME=              shapefiles

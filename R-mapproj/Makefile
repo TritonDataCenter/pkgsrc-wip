@@ -5,7 +5,7 @@ CATEGORIES=             math
 MASTER_SITES=           ${MASTER_SITE_R_CRAN:=contrib/}
 
 MAINTAINER=             mchittur@cs.nmsu.edu
-HOMEPAGE=               ${MASTER_SITE_R_CRAN:=contrib/Descriptions/mapproj.html}
+HOMEPAGE=               ${R_HOMEPAGE_BASE}/mapproj.html
 COMMENT=		Converts latitude/longitude into projected coordinates
 
 R_PKGNAME=		mapproj

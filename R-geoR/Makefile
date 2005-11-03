@@ -5,7 +5,7 @@ CATEGORIES=             math
 MASTER_SITES=           ${MASTER_SITE_R_CRAN:=contrib/}
 
 MAINTAINER=             mchittur@cs.nmsu.edu
-HOMEPAGE=               ${MASTER_SITE_R_CRAN:=contrib/Descriptions/geoR.html}
+HOMEPAGE=               ${R_HOMEPAGE_BASE}/geoR.html
 COMMENT=		Geostatistical analysis including likelihood-based and Bayesian methods
 
 R_PKGNAME=		geoR

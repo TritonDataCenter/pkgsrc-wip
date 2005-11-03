@@ -5,7 +5,7 @@ CATEGORIES=             math
 MASTER_SITES=           ${MASTER_SITE_R_CRAN:=contrib/}
 
 MAINTAINER=             mchittur@cs.nmsu.edu
-HOMEPAGE=               ${MASTER_SITE_R_CRAN:=contrib/Descriptions/gstat.html}
+HOMEPAGE=               ${R_HOMEPAGE_BASE}/gstat.html
 COMMENT=		Uni/multivariable geostatistical modelling, prediction and simulation
 
 R_PKGNAME=		gstat

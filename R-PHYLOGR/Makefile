@@ -5,7 +5,7 @@ CATEGORIES=             databases math
 MASTER_SITES=           ${MASTER_SITE_R_CRAN:=contrib/}
 
 MAINTAINER=             mchittur@cs.nmsu.edu
-HOMEPAGE=               ${MASTER_SITE_R_CRAN:=contrib/Descriptions/PHYLOGR.html}
+HOMEPAGE=               ${R_HOMEPAGE_BASE}/PHYLOGR.html
 COMMENT=		Manipulation of phylogenetically simulated data sets using GLS
 
 R_PKGNAME=              PHYLOGR

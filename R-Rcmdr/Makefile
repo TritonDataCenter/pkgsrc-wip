@@ -5,7 +5,7 @@ CATEGORIES=             math
 MASTER_SITES=           ${MASTER_SITE_R_CRAN:=contrib/}
 
 MAINTAINER=             mchittur@cs.nmsu.edu
-HOMEPAGE=               ${MASTER_SITE_R_CRAN:=contrib/Descriptions/Rcmdr.html}
+HOMEPAGE=               ${R_HOMEPAGE_BASE}/Rcmdr.html
 COMMENT=		Platform-independent basic-statistics GUI for R
 
 R_PKGNAME=              Rcmdr

@@ -5,7 +5,7 @@ CATEGORIES=             math
 MASTER_SITES=           ${MASTER_SITE_R_CRAN:=contrib/}
 
 MAINTAINER=             mchittur@cs.nmsu.edu
-HOMEPAGE=               ${MASTER_SITE_R_CRAN:=contrib/Descriptions/date.html}
+HOMEPAGE=               ${R_HOMEPAGE_BASE}/date.html
 COMMENT=		Functions for handling dates
 
 R_PKGNAME=              date
