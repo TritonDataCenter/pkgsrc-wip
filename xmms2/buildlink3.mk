@@ -31,6 +31,14 @@ MAKEVARS+=	PKG_BUILD_OPTIONS.xmms2
 .  include "../../audio/flac/buildlink3.mk"
 .endif
 
+.if !empty(PKG_BUILD_OPTIONS.xmms2:Mgnomevfs)
+.  include "../../sysutils/gnome-vfs2/buildlink3.mk"
+.endif
+
+.if !empty(PKG_BUILD_OPTIONS.xmms2:Mmodplug)
+.  include "../../audio/modplug/buildlink3.mk"
+.endif
+
 .if !empty(PKG_BUILD_OPTIONS.xmms2:Mogg)
 .  include "../../audio/libvorbis/buildlink3.mk"
 .endif
