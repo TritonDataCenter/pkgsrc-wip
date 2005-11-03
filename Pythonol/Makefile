@@ -12,7 +12,7 @@ MAINTAINER=		tech-pkg@NetBSD.org
 HOMEPAGE=		http://pythonol.sourceforge.net/
 COMMENT=		Learn Spanish (with a little help of Python)
 
-DEPENDS=		${PYPKGPREFIX}-sqlite>=0.4.3:../../databases/py-sqlite
+DEPENDS+=		${PYPKGPREFIX}-sqlite>=0.4.3:../../databases/py-sqlite
 
 PY_PATCHPLIST=		yes
 
