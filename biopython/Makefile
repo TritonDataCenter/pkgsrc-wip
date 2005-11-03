@@ -2,12 +2,11 @@
 #
 
 DISTNAME=		biopython-1.40b
-WRKSRC=                 ${WRKDIR}/${DISTNAME}
 CATEGORIES=		biology
 MASTER_SITES=		http://biopython.org/files/
 
 MAINTAINER=		dprice@cs.nmsu.edu
-HOMEPAGE=		http://biopython.org
+HOMEPAGE=		http://biopython.org/
 COMMENT=		Python libraries for computational molecular biology
 
 LICENSE=		no-commercial-use
