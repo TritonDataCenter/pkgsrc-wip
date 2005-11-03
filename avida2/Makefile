@@ -9,10 +9,10 @@ MAINTAINER=     adam@monkeybyte.org
 HOMEPAGE=       http://nemus.dllab.caltech.edu/avida/
 COMMENT=        Avida is an auto-adaptive genetic system
 
-HAS_CONFIGURE= YES
-GNU_CONFIGURE=	YES
-CONFIGURE_ARGS= --enable-viewer
-USE_TOOLS+=	gmake
+HAS_CONFIGURE=		YES
+GNU_CONFIGURE=		YES
+CONFIGURE_ARGS+=	--enable-viewer
+USE_TOOLS+=		gmake
 
 pre-configure:
 	${ECHO} DESTDIR=${LOCALBASE}/share/avida >> ${WRKSRC}/doc/Makefile.in; \
