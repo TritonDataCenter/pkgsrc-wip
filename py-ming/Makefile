@@ -12,21 +12,12 @@ HOMEPAGE=		http://ming.sourceforge.net/
 COMMENT=		Python bindings for Ming library
 
 PY_PATCHPLIST=		yes
+PYBINMODULE=		yes
 
 BUILD_TARGET=		mingcmodule.so
-REALSRC=		${WRKSRC}/py_ext
+BUILD_DIRS=		${WRKSRC}/py_ext
 
-do-build:
-	cd ${REALSRC} && ${MAKE} PYINC=${PREFIX}/${PYINC} \
-		PYLIB=${PREFIX}/${PYLIB} PYSITELIB=${PREFIX}/${PYSITELIB} \
-		PREFIX=${PREFIX} COMPILER_RPATH_FLAG=${COMPILER_RPATH_FLAG} \
-		${BUILD_TARGET}
-
-do-install:
-	cd ${REALSRC} && ${MAKE} PYINC=${PREFIX}/${PYINC} \
-		PYLIB=${PREFIX}/${PYLIB} PYSITELIB=${PREFIX}/${PYSITELIB} \
-		PREFIX=${PREFIX} COMPILER_RPATH_FLAG=${COMPILER_RPATH_FLAG}
-		${INSTALL_TARGET}
+MAKE_ENV+=		PYSITELIB=${PYSITELIB}
 
 .include "../../wip/ming/buildlink3.mk"
 .include "../../wip/ming/Makefile.common"
