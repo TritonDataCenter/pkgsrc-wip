@@ -125,5 +125,5 @@ post-install:
 .include "../../databases/openldap/buildlink3.mk"
 .include "../../mk/apache.mk"
 .include "../../security/openssl/buildlink3.mk"
-.include "../../mk/automake.mk"
+.include "../../mk/tools/automake.mk"
 .include "../../mk/bsd.pkg.mk"
