@@ -16,7 +16,8 @@ PKG_INSTALLATION_TYPES=	overwrite pkgviews
 USE_LIBTOOL=	yes
 GNU_CONFIGURE=	yes
 
-CONFIGURE_ARGS= --disable-xf86vidmode --enable-fast
+CONFIGURE_ARGS+=	--disable-xf86vidmode
+CONFIGURE_ARGS+=	--enable-fast
 
 .include "../../graphics/MesaLib/buildlink3.mk"
 .include "../../graphics/glu/buildlink3.mk"
