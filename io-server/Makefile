@@ -5,8 +5,8 @@ DISTNAME=		IoServer-2005-05-31
 PKGNAME=		io-server-20050531
 COMMENT=		Small Programming Language (vm + server addons)
 
-CONFLICT+=		io-vm-[0-9]*
-CONFLICT+=		io-desktop-[0-9]*
+CONFLICTS+=		io-vm-[0-9]*
+CONFLICTS+=		io-desktop-[0-9]*
 
 post-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/IoServer/ioServer ${PREFIX}/bin
