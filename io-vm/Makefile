@@ -5,8 +5,8 @@ DISTNAME=		IoVM-2005-05-31
 PKGNAME=		io-vm-20050531
 COMMENT=		Small programming language (vm)
 
-CONFLICT+=		io-server-[0-9]*
-CONFLICT+=		io-desktop-[0-9]*
+CONFLICTS+=		io-server-[0-9]*
+CONFLICTS+=		io-desktop-[0-9]*
 
 .include "../../wip/io-vm/Makefile.common"
 
