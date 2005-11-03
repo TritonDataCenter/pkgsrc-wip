@@ -3,7 +3,7 @@
 
 DISTNAME=		e00pg-1.0.1
 CATEGORIES=		geography
-MASTER_SITES=		http://easynews.dl.sourceforge.net/sourceforge/e00pg/
+MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=e00pg/}
 
 MAINTAINER=		mchittur@cs.nmsu.edu
 HOMEPAGE=		http://e00pg.sourceforge.net/

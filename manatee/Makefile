@@ -3,7 +3,7 @@
 
 DISTNAME=		manatee-1.8.4.1
 CATEGORIES=		biology
-MASTER_SITES=		http://easynews.dl.sourceforge.net/sourceforge/manatee/
+MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=manatee/}
 
 MAINTAINER=		hdp@cs.nmsu.edu
 HOMEPAGE=		http://easynews.dl.sourceforge.net/sourceforge/manatee/
