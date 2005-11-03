@@ -6,7 +6,7 @@ PKGNAME=		java-xmlrpc-1.2
 CATEGORIES=		net
 MASTER_SITES=		http://apache.rediris.es/ws/xmlrpc/v1.2-b1/ \
 			http://nagoya.apache.org/mirror/ws/xmlrpc/ \
-			http://www.apache.org/dist/ws/xmlrpc/
+			${MASTER_SITE_APACHE:=ws/xmlrpc/}
 
 MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://ws.apache.org/xmlrpc/
