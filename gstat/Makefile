@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	gstat-2.4.3
-CATEGORIES=	gis,math
+CATEGORIES=	geography math
 MASTER_SITES=	http://www.gstat.org/bin/
 
 MAINTAINER=	brook@nmsu.edu
