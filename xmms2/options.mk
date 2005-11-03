@@ -42,7 +42,6 @@ PLIST_SUBST+=		PYREX="@comment "
 
 .if !empty(PKG_OPTIONS:Mruby)
 USE_RUBY_DIST_SUBDIR=	no
-RUBY_VERSION_SUPPORTED=	18
 .  include "../../lang/ruby/buildlink3.mk"
 PLIST_SUBST+=		RUBY=""
 .else

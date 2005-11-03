@@ -12,8 +12,6 @@ COMMENT=	Simple daily backup system similar to Plan9's dumpfs
 VER=		1.3
 BUILD_TARGET=	pdumpfs
 
-RUBY_VERSION_SUPPORTED=	18
-
 REPLACE_RUBY=	pdumpfs.in
 
 INSTALLATION_DIRS=	share/doc/html/pdumpfs
