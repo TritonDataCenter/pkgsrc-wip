@@ -2,10 +2,7 @@
 #
 
 CATEGORIES=	databases math
-MASTER_SITES=	http://easynews.dl.sourceforge.net/sourceforge/rdbi/ \
-		http://aleron.dl.sourceforge.net/sourceforge/rdbi/ \
-		http://umn.dl.sourceforge.net/sourceforge/rdbi/ \
-		http://unc.dl.sourceforge.net/sourceforge/rdbi/
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=rdbi/}
 
 MAINTAINER=    	hdp@cs.nmsu.edu
 HOMEPAGE=	http://rdbi.sourceforge.net/
