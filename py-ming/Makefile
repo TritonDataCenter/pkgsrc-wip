@@ -19,7 +19,7 @@ BUILD_DIRS=		${WRKSRC}/py_ext
 
 MAKE_ENV+=		PYSITELIB=${PYSITELIB}
 
-.include "../../wip/ming/buildlink3.mk"
-.include "../../wip/ming/Makefile.common"
+.include "../../graphics/ming/buildlink3.mk"
+.include "../../graphics/ming/Makefile.common"
 .include "../../lang/python/extension.mk"
 .include "../../mk/bsd.pkg.mk"

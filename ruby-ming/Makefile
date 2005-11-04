@@ -24,6 +24,6 @@ post-install:
 		${INSTALL_DATA} ${WRKSRC}/examples/${f} ${RUBY_EXAMPLESDIR}/ming
 .endfor
 
-.include "../../wip/ming/buildlink3.mk"
+.include "../../graphics/ming/buildlink3.mk"
 .include "../../lang/ruby/modules.mk"
 .include "../../mk/bsd.pkg.mk"
