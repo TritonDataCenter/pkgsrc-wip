@@ -5,7 +5,7 @@ PKGNAME=	exiftool-${VERSION}
 CATEGORIES=	graphics perl5
 MASTER_SITES=	http://owl.phy.queensu.ca/~phil/exiftool/
 
-MAINTAINER=	gdt@ir.bbn.com
+MAINTAINER=	gdt@NetBSD.org
 HOMEPAGE=	http://owl.phy.queensu.ca/~phil/exiftool/
 COMMENT=	Perl module and program to read EXIF information
 
