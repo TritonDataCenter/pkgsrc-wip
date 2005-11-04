@@ -12,8 +12,8 @@ R_PKGNAME=              rgdal
 R_PKGVER=               0.2-7
 
 DEPENDS+=		gdal>=1.1.9:../../wip/gdal
-DEPENDS+=		R-abind>=1.1.0:../../wip/R-abind
-DEPENDS+=		R-pixmap>=0.4.1:../../wip/R-pixmap
+DEPENDS+=		R-abind>=1.1.0:../../math/R-abind
+DEPENDS+=		R-pixmap>=0.4.1:../../math/R-pixmap
 
 .include "../../math/R/Makefile.extension"
 .include "../../mk/bsd.pkg.mk"
