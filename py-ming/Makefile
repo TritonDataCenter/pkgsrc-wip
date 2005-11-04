@@ -19,7 +19,16 @@ BUILD_DIRS=		${WRKSRC}/py_ext
 
 MAKE_ENV+=		PYSITELIB=${PYSITELIB}
 
+PYCOMPILEALL=	${BUILDLINK_PREFIX.${PYPACKAGE}}/${PYLIB}/compileall.py
+
 .include "../../multimedia/ming/buildlink3.mk"
 .include "../../multimedia/ming/Makefile.common"
 .include "../../lang/python/extension.mk"
+
+post-build:
+	${PYTHONBIN} ${PYCOMPILEALL} ${WRKSRC}/py_ext
+
+post-install:
+	${INSTALL_DATA} ${WRKSRC}/py_ext/ming.pyc ${PREFIX}/${PYSITELIB}
+
 .include "../../mk/bsd.pkg.mk"

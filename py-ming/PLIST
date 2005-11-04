@@ -1,3 +1,4 @@
 @comment $NetBSD$
 ${PYSITELIB}/ming.py
+${PYSITELIB}/ming.pyc
 ${PYSITELIB}/mingcmodule.so
