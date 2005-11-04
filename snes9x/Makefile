@@ -15,7 +15,7 @@ COMMENT=		Super Nintendo Entertainment System (SNES) emulator
 WRKSRC=			${WRKDIR}/${DISTNAME}/snes9x
 GNU_CONFIGURE=		yes
 USE_TOOLS+=		gmake
-PTHREAD_OPTS=		require
+PTHREAD_OPTS+=		require
 INSTALLATION_DIRS=	bin
 
 S9X_VER=		1.43
