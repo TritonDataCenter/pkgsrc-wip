@@ -3,6 +3,7 @@
 
 DISTNAME=		igowin
 PKGNAME=		igowin-1.0
+PKGREVISION=		1
 CATEGORIES=		games
 MASTER_SITES=		http://www.smart-games.com/
 EXTRACT_SUFX=		.exe
@@ -17,9 +18,9 @@ NO_BUILD=		yes
 USE_TOOLS+=		unzip
 
 IGOWIN_FILES=		grain.bmp igowin.exe igowin.hlp readme.txt tutor.hlp
-IGOWIN_DIR=		${PREFIX}/libdata/${PKGNAME}
+IGOWIN_DIR=		${PREFIX}/share/${PKGBASE}
 
-INSTALLATION_DIRS=	bin libdata/${PKGNAME}
+INSTALLATION_DIRS=	bin share/${PKGBASE}
 
 do-configure:
 .for f in igowin.sh
