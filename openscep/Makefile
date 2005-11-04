@@ -12,6 +12,7 @@ BUILD_DEPENDS+=		w3m>=0.5.1:../../www/w3m
 
 .include "../../mk/bsd.prefs.mk"
 
+USE_TOOLS+=		automake autoconf
 USE_BUILDLINK3=		yes
 USE_PKGINSTALL=		YES
 OPENSCEP_USER?=		openscep
@@ -125,5 +126,4 @@ post-install:
 .include "../../databases/openldap/buildlink3.mk"
 .include "../../mk/apache.mk"
 .include "../../security/openssl/buildlink3.mk"
-.include "../../mk/tools/automake.mk"
 .include "../../mk/bsd.pkg.mk"
