@@ -34,6 +34,7 @@ remove_pidfile()
 }
 
 if [ -f /etc/rc.subr ]; then
+	. /etc/rc.subr
 	load_rc_config $name
 	run_rc_command "$1"
 else
