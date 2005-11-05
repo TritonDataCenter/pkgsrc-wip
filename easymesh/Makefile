@@ -7,7 +7,7 @@ DISTFILES=	easymesh_1_4.c
 
 MAINTAINER=	schwarz@NetBSD.org
 HOMEPAGE=	http://www-dinma.univ.trieste.it/nirftc/research/easymesh/
-COMMENT=	a mesh generator
+COMMENT=	Mesh generator
 
 WRKSRC=		${WRKDIR}
 NO_CONFIGURE=	YES
