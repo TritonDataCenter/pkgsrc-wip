@@ -14,7 +14,7 @@ USE_TOOLS+=	pkg-config
 NO_CONFIGURE=	yes
 
 do-install:
-	@${INSTALL_PROGRAM} ${WRKSRC}/${PKGNAME:C/-[^-]*$//} ${PREFIX}/bin/
+	${INSTALL_PROGRAM} ${WRKSRC}/gnome-clipboard-daemon ${PREFIX}/bin/
 
 .include "../../x11/gtk2/buildlink3.mk"
 .include "../../mk/x11.buildlink3.mk"
