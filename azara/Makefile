@@ -7,7 +7,7 @@ CATEGORIES=		biology
 MASTER_SITES=		ftp://www.bio.cam.ac.uk/pub/azara/
 
 MAINTAINER=		mchittur@cs.nmsu.edu
-HOMEPAGE=		http://www.bio.cam.ac.uk/azara
+HOMEPAGE=		http://www.bio.cam.ac.uk/azara/
 COMMENT=		Programs to process and view NMR data
 
 WRKSRC=			${WRKDIR}/azara-2.7
