@@ -1,3 +1,4 @@
 @comment $NetBSD$
+
 sbin/traceroute-nanog
-man/man8/traceroute-nanog.8
+${PKGMANDIR}/man8/traceroute-nanog.8
