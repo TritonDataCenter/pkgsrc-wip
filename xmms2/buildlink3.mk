@@ -36,7 +36,7 @@ MAKEVARS+=	PKG_BUILD_OPTIONS.xmms2
 .endif
 
 .if !empty(PKG_BUILD_OPTIONS.xmms2:Mmodplug)
-.  include "../../audio/modplug/buildlink3.mk"
+.  include "../../audio/libmodplug/buildlink3.mk"
 .endif
 
 .if !empty(PKG_BUILD_OPTIONS.xmms2:Mogg)
