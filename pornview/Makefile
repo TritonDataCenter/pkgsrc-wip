@@ -1,4 +1,4 @@
-# $NetBSD: Makefile,v 1.1.1.1 2005/10/19 04:48:28 minskim Exp $
+# $NetBSD$
 #
 
 PKGNAME=		pornview-0.2
