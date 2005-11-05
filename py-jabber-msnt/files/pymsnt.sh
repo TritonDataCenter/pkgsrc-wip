@@ -12,6 +12,7 @@
 name="pymsnt"
 rcvar=$name
 command=@PREFIX@/bin/twistd
+command_interpreter="@PYTHONBIN@"
 required_files="@PREFIX@/@TRANSPORTDIR@/PyMSNt.tac"
 pymsnt_user="@JABBERD_USER@"
 pidfile="@JABBERD_PIDDIR@/${name}.pid"
