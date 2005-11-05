@@ -1,2 +1,4 @@
 @comment $NetBSD$
 bin/gxmms2
+share/doc/gxmms2/README
+@dirrm share/doc/gxmms2
