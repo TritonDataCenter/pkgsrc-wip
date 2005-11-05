@@ -1,8 +1,8 @@
 # $NetBSD$
 #
 
-DISTNAME=		StepMania-3.9-rc2a-src
-PKGNAME=		stepmania-3.9rc2
+DISTNAME=		StepMania-3.9-rc4a-src
+PKGNAME=		stepmania-3.9rc4
 CATEGORIES=		games
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=stepmania/}
 
@@ -10,6 +10,7 @@ MAINTAINER=		shattered@users.sourceforge.net
 HOMEPAGE=		http://www.stepmania.com/stepmania/
 COMMENT=		Music/rhythm game (Dance Dance Revolution) simulator
 
+WRKSRC=			${WRKDIR}/StepMania-3.9-rc4-src
 GNU_CONFIGURE=		yes
 CONFIGURE_ARGS+=	--disable-tests
 USE_X11=		YES
