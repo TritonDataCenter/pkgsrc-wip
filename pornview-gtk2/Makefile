@@ -3,11 +3,13 @@
 
 .include "../../wip/pornview/Makefile.common"
 
-PKGNAME=		${DISTNAME:S/pornview/pornview-gtk2/}
+PKGNAME=		${DISTNAME:S/_0.2pre1.orig/-gtk2/}
 
 COMMENT=		(GTK+ 2.0 interface)
 
 CONFLICTS=		pornview-[0-9]*
+
+USE_TOOLS+=		pkg-config
 
 CONFIGURE_ARGS+=	--with-gtk2
 
