@@ -19,7 +19,7 @@ PATCHDIR=		${.CURDIR}/../../wip/pornview/patches
 PLIST_SRC=		${.CURDIR}/../../wip/pornview/PLIST
 
 GNU_CONFIGURE=          yes
-USE_DIRS+=              xdg-1.2
+USE_DIRS+=              gnome2-1.5
 USE_LIBTOOL=            yes
 USE_PKGLOCALEDIR=	yes
 
