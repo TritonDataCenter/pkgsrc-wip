@@ -36,6 +36,9 @@ CPPFLAGS+=	-DBYTESWAP_IP_LEN
 .if ${OPSYS} == "Linux"
 EXTRALIBS+=	-lresolv
 .endif
+.if ${OPSYS} == "Darwin"
+CPPFLAGS+=	-DBIND_8_COMPAT -DRA_SERVICE=\"nicname\"
+.endif
 
 INSTALLATION_DIRS=	sbin ${PKGMANDIR}/man8
 
