@@ -15,7 +15,12 @@ USE_LANGUAGES=		c c++
 USE_PKGLOCALEDIR=	yes
 
 post-extract:
-	@${RM} -f ${WRKSRC}/src/getopt.h
+	${RM} -f ${WRKSRC}/src/getopt.h
+
+post-install:
+	${INSTALL_DATA_DIR} ${PREFIX}/share/doc/mailfilter
+	${INSTALL_DATA} ${WRKSRC}/INSTALL ${PREFIX}/share/doc/mailfilter
+	${INSTALL_DATA} ${WRKSRC}/doc/FAQ ${PREFIX}/share/doc/mailfilter
 
 .include "../../converters/libiconv/buildlink3.mk"
 .include "../../devel/gettext-lib/buildlink3.mk"
