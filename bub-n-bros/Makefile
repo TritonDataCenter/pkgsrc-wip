@@ -46,7 +46,7 @@ do-install:
 		-rwpe . ${PREFIX}/games/${PKGBASE}
 
 .include "../../lang/python/application.mk"
-.include "../../wip/py-game/buildlink3.mk"
+.include "../../devel/py-game/buildlink3.mk"
 
 .include "../../mk/x11.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
