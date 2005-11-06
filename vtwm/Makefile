@@ -13,4 +13,5 @@ USE_IMAKE=	YES
 
 .include "../../graphics/xpm/buildlink3.mk"
 .include "../../audio/rplay/buildlink3.mk"
+.include "../../mk/x11.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
