@@ -1,5 +1,4 @@
 # $NetBSD$
-#
 
 DISTNAME=	Curses-UI-POE-0.02801
 PKGNAME=	p5-${DISTNAME}
