@@ -17,7 +17,7 @@ USE_PKGLOCALEDIR=	yes
 post-extract:
 	@${RM} -f ${WRKSRC}/src/getopt.h
 
+.include "../../converters/libiconv/buildlink3.mk"
 .include "../../devel/gettext-lib/buildlink3.mk"
 .include "../../devel/libgetopt/buildlink3.mk"
-.include "../../converters/libiconv/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
