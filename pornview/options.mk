@@ -4,7 +4,7 @@ PKG_OPTIONS_VAR=		PKG_OPTIONS.pornview
 PKG_SUPPORTED_OPTIONS=		exif
 PKG_OPTIONS_OPTIONAL_GROUPS=	movie
 PKG_OPTIONS_GROUP.movie=	mplayer xine
-PKG_SUGGESTED_OPTIONS=		exif xine
+PKG_SUGGESTED_OPTIONS=		exif
 
 .include "../../mk/bsd.options.mk"
 
