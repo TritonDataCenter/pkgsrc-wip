@@ -54,7 +54,7 @@ do-install:
 	${INSTALL_DATA} ${BUILD_DIRS}/doc/postgis.xml ${DOCDIR}
 	${CP} -r ${BUILD_DIRS}/doc/html/* ${HTMLDIR}
 
-.include "../../wip/geos/buildlink3.mk"
+.include "../../geography/geos/buildlink3.mk"
 .include "../../misc/proj/buildlink3.mk"
 .include "../../mk/pgsql.buildlink3.mk"
 .include "../../mk/pthread.buildlink3.mk"

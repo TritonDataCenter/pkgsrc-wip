@@ -32,7 +32,7 @@ BUILDLINK_PKGSRCDIR.gdal-lib?=	../../wip/gdal-lib
 # XXX buildlink3 lines below to dependencies, remove them.
 # XXX
 #.include "../../misc/proj/buildlink3.mk"
-#.include "../../wip/geos/buildlink3.mk"
+#.include "../../geography/geos/buildlink3.mk"
 #.include "../../textproc/xerces-c/buildlink3.mk"
 
 BUILDLINK_DEPTH:=     ${BUILDLINK_DEPTH:S/+$//}

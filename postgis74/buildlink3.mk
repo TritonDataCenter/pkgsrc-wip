@@ -25,7 +25,7 @@ BUILDLINK_DEPENDS.postgis+=	postgis>=0.8.2
 BUILDLINK_PKGSRCDIR.postgis?=	../../wip/postgis74
 .endif	# POSTGIS_BUILDLINK3_MK
 
-.include "../../wip/geos/buildlink3.mk"
+.include "../../geography/geos/buildlink3.mk"
 .include "../../misc/proj/buildlink3.mk"
 .include "../../databases/postgresql74-lib/buildlink3.mk"
 .include "../../devel/gettext-lib/buildlink3.mk"
