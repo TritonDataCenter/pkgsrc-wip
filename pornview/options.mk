@@ -9,7 +9,6 @@ PKG_SUGGESTED_OPTIONS=		exif xine
 .include "../../mk/bsd.options.mk"
 
 .if !empty(PKG_OPTIONS:Mexif)
-.  include "../../graphics/libexif/buildlink3.mk"
 CONFIGURE_ARGS+=	--enable-exif
 .else
 CONFIGURE_ARGS+=	--disable-exif
