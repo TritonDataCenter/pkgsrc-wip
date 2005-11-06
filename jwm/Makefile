@@ -11,21 +11,20 @@ MAINTAINER=		pip88nl@gmail.com
 HOMEPAGE=		http://joewing.net/programs/jwm
 COMMENT=		Lightweight window manager with virtual desktops
 
-USE_PKGINSTALL=		YES
 GNU_CONFIGURE=          yes
+USE_PKGINSTALL=		yes
+
 CONFIGURE_ARGS+=        --sysconfdir=${PKG_SYSCONFDIR}
 
+SUBST_CLASSES+=		egdir
+SUBST_STAGE.egdir=	pre-configure
+SUBST_FILES.egdir=	Makefile.in
+SUBST_SED.egdir=	-e 's,@@EGDIR@@,${EGDIR},g'
+
 PKG_SYSCONFSUBDIR=	jwm
-
-INSTALLATION_DIRS=	share/examples/jwm
-
 EGDIR=			${PREFIX}/share/examples/jwm
 CONF_FILES= 		${EGDIR}/system.jwmrc ${PKG_SYSCONFDIR}/system.jwmrc
 
-SUBST_CLASSES+=		egdir
-SUBST_STAGE.egdir=	post-patch
-SUBST_FILES.egdir=	Makefile.in
-SUBST_SED.egdir=	-e 's,@@EGDIR@@,${EGDIR},g'
 
 .include "../../mk/x11.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
