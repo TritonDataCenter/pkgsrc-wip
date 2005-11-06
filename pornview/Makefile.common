@@ -20,8 +20,11 @@ PLIST_SRC=		${.CURDIR}/../../wip/pornview/PLIST
 
 GNU_CONFIGURE=          yes
 USE_DIRS+=              xdg-1.2
-USE_TOOLS+=		pkg-config
 USE_LIBTOOL=            yes
 USE_PKGLOCALEDIR=	yes
 
 .include "options.mk"
+
+.include "../../graphics/jpeg/buildlink3.mk"
+.include "../../graphics/png/buildlink3.mk"
+.include "../../textproc/intltool/buildlink3.mk"
