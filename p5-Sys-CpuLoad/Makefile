@@ -2,7 +2,7 @@
 
 DISTNAME=	Sys-CpuLoad-0.03
 PKGNAME=	p5-${DISTNAME}
-CATEGORIES=	devel perl5
+CATEGORIES=	sysutils perl5
 MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=Sys/}
 
 MAINTAINER=	martti@NetBSD.org
