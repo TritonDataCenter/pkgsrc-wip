@@ -12,7 +12,6 @@ COMMENT=		C++ port of the Java Topology Suite (JTS)
 
 USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=		yes
-LIBTOOL_OVERRIDE=	${WRKSRC}/libtool
 GNU_CONFIGURE=		yes
 
 USE_LANGUAGES+=		c++
