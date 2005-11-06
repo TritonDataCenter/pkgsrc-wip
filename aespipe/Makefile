@@ -20,7 +20,7 @@ GNU_CONFIGURE=          YES
 
 ONLY_FOR_PLATFORM+=     Linux-*-i[3-6]86
 
-.if (${MACHINE_ARCH} == "amd64")
+.if ${MACHINE_ARCH} == "amd64"
 BUILD_TARGET=		amd64
 .elif ${MACHINE_ARCH} == "i386"
 BUILD_TARGET=		x86
