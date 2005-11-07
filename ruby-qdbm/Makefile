@@ -5,7 +5,6 @@
 
 PKGNAME=	${RUBY_PKGPREFIX}-qdbm-1.0.0.${QDBM_VERSION}
 CATEGORIES=	databases ruby
-MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=qdbm/}
 
 MAINTAINER=	obata@lins.jp
 HOMEPAGE=	http://qdbm.sourceforge.net/
