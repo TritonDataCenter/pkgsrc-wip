@@ -1,7 +1,7 @@
 # $NetBSD$
 
-PKGNAME=	xenconsole-0.15b1.1
 DISTNAME=	xenConsole-r0.15b1-1
+PKGNAME=	xenconsole-0.15b1.1
 CATEGORIES=	sysutils
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=ucck/}
 
