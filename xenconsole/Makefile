@@ -29,6 +29,10 @@ SUBST_FILES.xenconsole=		xcon.pl xen_list.pm xsnmp.pm
 SUBST_SED.xenconsole=		-e "s,@PERL@,${PERL5},g"
 SUBST_SED.xenconsole+=		-e "s,@PREFIX@,${PREFIX},g"
 
+USE_PKGINSTALL=		yes
+EGDIR=			${PREFIX}/share/examples/xenconsole
+CONF_FILES=		${EGDIR}/xcon.ini ${PKG_SYSCONFDIR}/xcon.ini
+
 do-build:
 	${SED} -e "s,@PREFIX@,${PREFIX},g" \
 		< ${FILESDIR}/xcon.sh > ${WRKDIR}/xcon
@@ -39,9 +43,8 @@ do-install:
 	${INSTALL_SCRIPT} ${WRKSRC}/xcon.pl ${PREFIX}/share/xenconsole/xcon
 
 	# Configuration file
-	${INSTALL_DATA_DIR} ${PREFIX}/share/examples/xenconsole
-	${INSTALL_DATA} ${WRKSRC}/sample-inifile \
-		${PREFIX}/share/examples/xenconsole/xcon.ini
+	${INSTALL_DATA_DIR} ${EGDIR}
+	${INSTALL_DATA} ${WRKSRC}/sample-inifile ${EGDIR}/xcon.ini
 
 	# Documentation
 	${INSTALL_DATA_DIR} ${PREFIX}/share/doc/xenconsole
