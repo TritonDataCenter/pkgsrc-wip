@@ -24,6 +24,13 @@ DEPENDS+=	p5-Sys-CpuLoad>=0.03:../../sysutils/p5-Sys-CpuLoad
 DEPENDS+=	p5-Term-Size>=0.2:../../devel/p5-Term-Size
 DEPENDS+=	p5-Time-HiRes>=0:../../time/p5-Time-HiRes
 
+SUBST_CLASSES+=			xenconsole
+SUBST_STAGE.xenconsole=		pre-configure
+SUBST_MESSAGE.xenconsole=	"Fixing paths."
+SUBST_FILES.xenconsole=		xcon.pl xen_list.pm xsnmp.pm
+SUBST_SED.xenconsole=		-e "s,@PERL@,${PERL5},g"
+SUBST_SED.xenconsole+=		-e "s,@PREFIX@,${PREFIX},g"
+
 do-install:
 	@echo ""
 	@echo "Does NOT work yet. Feel free to fix the installation."
