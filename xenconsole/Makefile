@@ -9,8 +9,6 @@ MAINTAINER=	martti@NetBSD.org
 HOMEPAGE=	http://ucck.sourceforge.net/xenConsole/
 COMMENT=	Console monitor for Xen
 
-NO_BUILD=	YES
-
 WRKSRC=		${WRKDIR}/xenConsole
 
 DEPENDS+=	p5-Config-IniFiles>=2.38:../../devel/p5-Config-IniFiles
@@ -31,10 +29,25 @@ SUBST_FILES.xenconsole=		xcon.pl xen_list.pm xsnmp.pm
 SUBST_SED.xenconsole=		-e "s,@PERL@,${PERL5},g"
 SUBST_SED.xenconsole+=		-e "s,@PREFIX@,${PREFIX},g"
 
+do-build:
+	${SED} -e "s,@PREFIX@,${PREFIX},g" \
+		< ${FILESDIR}/xcon.sh > ${WRKDIR}/xcon
+
 do-install:
-	@echo ""
-	@echo "Does NOT work yet. Feel free to fix the installation."
-	@echo ""
-	@${FALSE}
+	${INSTALL_DATA_DIR} ${PREFIX}/share/xenconsole
+	(cd ${WRKSRC} && ${PAX} -rw *.pm */*.pm ${PREFIX}/share/xenconsole)
+	${INSTALL_SCRIPT} ${WRKSRC}/xcon.pl ${PREFIX}/share/xenconsole/xcon
+
+	# Configuration file
+	${INSTALL_DATA_DIR} ${PREFIX}/share/examples/xenconsole
+	${INSTALL_DATA} ${WRKSRC}/sample-inifile \
+		${PREFIX}/share/examples/xenconsole/xcon.ini
+
+	# Documentation
+	${INSTALL_DATA_DIR} ${PREFIX}/share/doc/xenconsole
+	(cd ${WRKSRC} && ${PAX} -rw *.txt ${PREFIX}/share/doc/xenconsole)
+
+	# Launcher script
+	${INSTALL_SCRIPT} ${WRKDIR}/xcon ${PREFIX}/bin/xcon
 
 .include "../../mk/bsd.pkg.mk"
