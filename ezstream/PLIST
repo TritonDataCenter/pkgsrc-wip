@@ -1,0 +1,4 @@
+@comment $NetBSD$
+bin/ezstream
+share/doc/ezstream/README
+@dirrm share/doc/ezstream
