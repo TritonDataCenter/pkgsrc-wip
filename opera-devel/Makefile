@@ -30,7 +30,6 @@ _OPERA_MACHINE_ARCH?=	${MACHINE_ARCH}
 
 .if (${_OPERA_OPSYS} == NetBSD)
 DEPENDS+=	suse_x11>=7.3:../../emulators/${SUSE_DIR_PREFIX}_x11
-DEPENDS+=	suse_openmotif>=7.3:../../emulators/${SUSE_DIR_PREFIX}_openmotif
 
 # we need the DIST_SUBDIR=. because of the inclusion of suse's Makefile.common
 DIST_SUBDIR=	.
