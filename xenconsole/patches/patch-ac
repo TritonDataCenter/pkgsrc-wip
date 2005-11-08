@@ -4,7 +4,7 @@ $NetBSD$
 +++ xsnmp.pm
 @@ -1,4 +1,4 @@
 -#!/usr/bin/env perl
-+#!@PERL@
++#!/usr/bin/perl
  # vim:aw:
  # 
  # xcon.pl - xenConsole main executable

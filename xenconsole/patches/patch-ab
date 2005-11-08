@@ -7,7 +7,7 @@ $NetBSD$
  # --- Globals -------------------------------------------------------------
      
 -our $pn_xen_xm = '/usr/sbin/xm';
-+our $pn_xen_xm = '@PREFIX@/sbin/xm';
++our $pn_xen_xm = '@LOCALBASE@/sbin/xm';
  my $pn_xm_list = $pn_xen_xm . ' list|';
  my $pn_xm_info = $pn_xen_xm . ' info|';
  
