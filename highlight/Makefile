@@ -23,7 +23,7 @@ EGDIR=			${PREFIX}/share/examples/highlight
 CONF_FILES=		${EGDIR}/extensions.conf		\
 			${PKG_SYSCONFDIR}/extensions.conf	\
 			${EGDIR}/scriptre.conf			\
-			${PKG_SYSCONFDIR}/scriptre.conf	
+			${PKG_SYSCONFDIR}/scriptre.conf
 
 SUBST_CLASSES+=		etc
 SUBST_MESSAGE.etc=	"Fixing hardcoded paths."
