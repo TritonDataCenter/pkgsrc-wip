@@ -3,7 +3,7 @@
 
 .include "../../wip/pornview/Makefile.common"
 
-PKGNAME=		${DISTNAME:S/_0.2pre1.orig/-gtk2/}
+PKGNAME=		${DISTNAME:S/_0.2pre1.orig/-gtk2-0.2.0pre1/}
 
 COMMENT=		(GTK+ 2.0 interface)
 
