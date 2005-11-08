@@ -7,7 +7,7 @@ MASTER_SITES=	http://mednafen.com/releases/
 EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	lems@gmx.net
-HOMEPAGE=	http://mednafen.com/releases/
+HOMEPAGE=	http://mednafen.com/
 COMMENT=	Portable multi-system emulator
 
 WRKSRC=			${WRKDIR}/mednafen
