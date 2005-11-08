@@ -1,0 +1,6 @@
+@comment $NetBSD$
+lib/libparser.a
+lib/libparser_pic.a
+bin/hcidump
+man/man1/hcidump.1
+man/cat1/hcidump.0
