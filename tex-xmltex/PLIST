@@ -1,4 +1,4 @@
 @comment $NetBSD$
-share/texmf/web2c/xmltex.fmt
-share/texmf/web2c/pdfxmltex.fmt
+${PKG_TEXMFPREFIX}/web2c/xmltex.fmt
+${PKG_TEXMFPREFIX}/web2c/pdfxmltex.fmt
 @unexec %D/bin/mktexlsr

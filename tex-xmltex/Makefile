@@ -12,8 +12,6 @@ MAINTAINER=	minskim@NetBSD.org
 HOMEPAGE=	http://www.dcarlisle.demon.co.uk/xmltex/manual.html
 COMMENT=	Non-validating XML parser implemented in TeX
 
-DEPENDS+=	teTeX-bin-[0-9]*:../../print/teTeX-bin
-
 NO_CONFIGURE=	yes
 
 DIST_SUBDIR=	${PKGBASE}
@@ -22,8 +20,9 @@ post-extract:
 	${CP} ${FILESDIR}/Makefile ${WRKSRC}
 
 do-install:
-	@cd ${WRKSRC}; TEXMFMAIN=$$(kpsewhich -expand-var '$$TEXMFMAIN'); \
-	${INSTALL_DATA} xmltex.fmt pdfxmltex.fmt $$TEXMFMAIN/web2c;
+	@cd ${WRKSRC}; \
+	${INSTALL_DATA} xmltex.fmt pdfxmltex.fmt ${PKG_TEXMFPREFIX}/web2c;
 	${LOCALBASE}/bin/mktexlsr
 
+.include "../../mk/tex.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
