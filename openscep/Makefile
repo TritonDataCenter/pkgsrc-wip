@@ -112,8 +112,8 @@ pre-configure:
 	cd ${WRKSRC} && ${RM} -rf libltdl ltmain.sh ltconfig
 #	cd ${WRKSRC} && libtoolize --ltdl -c -f
 	cd ${WRKSRC} && libtoolize -c -f
-	cd ${WRKSRC} && ${LN} -s ${PREFIX}/share/automake-1.9/depcomp . # flame on, flaming piece of shit.  flame on.
-	cd ${WRKSRC} && ${SETENV} LIBTOOLIZE=true ${AUTORECONF} --force
+	cd ${WRKSRC} && ${LN} -sf ${PREFIX}/share/automake-1.9/depcomp . # flame on, flaming piece of shit.  flame on.
+	cd ${WRKSRC} && ${SETENV} LIBTOOLIZE=true autoreconf --force
 
 post-install:
 	${SED} ${FILES_SUBST_SED} ${FILESDIR}/ldap-cheatsheet.sh > ${WRKDIR}/ldap-cheatsheet.sh
