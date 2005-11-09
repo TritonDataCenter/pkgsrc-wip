@@ -13,4 +13,10 @@ WRKSRC=		${WRKDIR}/hcidump
 
 INSTALLATION_DIRS=	man/man1
 
+post-patch:
+	${MKDIR} ${WRKSRC}/bluetooth
+	${CP} files/bluetooth.h ${WRKSRC}/bluetooth
+	${CP} files/hci.h ${WRKSRC}/bluetooth
+	${CP} files/l2cap.h ${WRKSRC}/bluetooth
+
 .include "../../mk/bsd.pkg.mk"

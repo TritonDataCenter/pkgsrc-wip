@@ -2,7 +2,7 @@ $NetBSD$
 
 --- hcidump/Makefile.orig	2004-03-12 22:16:58.000000000 +0000
 +++ hcidump/Makefile
-@@ -2,10 +2,10 @@
+@@ -2,13 +2,13 @@
  # $FreeBSD$
  
  PROG=		hcidump
@@ -14,4 +14,8 @@ $NetBSD$
 +MANDIR=		${PREFIX}/man
  WARNS?=		2
  DEBUG_FLAGS=	-g
- CFLAGS=		-O2 -I../parser
+-CFLAGS=		-O2 -I../parser
++CFLAGS=		-O2 -I../parser -I..
+ 
+ DPADD+=		../parser/libparser.a
+ LDADD+=		-L../parser -lparser
