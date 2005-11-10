@@ -1,0 +1,4 @@
+@comment $NetBSD$
+include/X11/extensions/XResproto.h
+lib/pkgconfig/resourceproto.pc
+@comment @dirrm include/X11/extensions
