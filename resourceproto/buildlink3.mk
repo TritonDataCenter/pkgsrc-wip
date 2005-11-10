@@ -1,20 +1,20 @@
 # $NetBSD$
 
-BUILDLINK_DEPMETHOD.resourceprotoproto?=	build
+BUILDLINK_DEPMETHOD.resourceproto?=	build
 
 BUILDLINK_DEPTH:=		${BUILDLINK_DEPTH}+
-RESOURCEPROTOPROTO_BUILDLINK3_MK:=	${RESOURCEPROTOPROTO_BUILDLINK3_MK}+
+RESOURCEPROTO_BUILDLINK3_MK:=	${RESOURCEPROTO_BUILDLINK3_MK}+
 
 .if !empty(BUILDLINK_DEPTH:M+)
-BUILDLINK_DEPENDS+=	resourceprotoproto
+BUILDLINK_DEPENDS+=	resourceproto
 .endif
 
-BUILDLINK_PACKAGES:=	${BUILDLINK_PACKAGES:Nresourceprotoproto}
-BUILDLINK_PACKAGES+=	resourceprotoproto
+BUILDLINK_PACKAGES:=	${BUILDLINK_PACKAGES:Nresourceproto}
+BUILDLINK_PACKAGES+=	resourceproto
 
-.if !empty(RESOURCEPROTOPROTO_BUILDLINK3_MK:M+)
-BUILDLINK_DEPENDS.resourceprotoproto+=	resourceprotoproto>=1.0.1
-BUILDLINK_PKGSRCDIR.resourceprotoproto?=	../../wip/resourceprotoproto
-.endif	# RESOURCEPROTOPROTO_BUILDLINK3_MK
+.if !empty(RESOURCEPROTO_BUILDLINK3_MK:M+)
+BUILDLINK_DEPENDS.resourceproto+=	resourceproto>=1.0.1
+BUILDLINK_PKGSRCDIR.resourceproto?=	../../wip/resourceproto
+.endif	# RESOURCEPROTO_BUILDLINK3_MK
 
 BUILDLINK_DEPTH:=     ${BUILDLINK_DEPTH:S/+$//}
