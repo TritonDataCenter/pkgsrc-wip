@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		mmpython-0.3
+DISTNAME=		mmpython-0.4.9
 PKGNAME=		${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=		devel
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=mmpython/}
