@@ -12,7 +12,7 @@ BUILD_DEPENDS+=		w3m>=0.5.1:../../www/w3m
 
 .include "../../mk/bsd.prefs.mk"
 
-USE_TOOLS+=		automake autoconf
+USE_TOOLS+=		automake autoconf grep
 USE_BUILDLINK3=		yes
 USE_PKGINSTALL=		YES
 OPENSCEP_USER?=		openscep
