@@ -12,7 +12,7 @@ BUILDLINK_PACKAGES+=	libfontenc
 
 .if !empty(LIBFONTENC_BUILDLINK3_MK:M+)
 BUILDLINK_DEPENDS.libfontenc+=	libfontenc>=0.99.0
-BUILDLINK_PKGSRCDIR.libfontenc?=	../../new/libfontenc
+BUILDLINK_PKGSRCDIR.libfontenc?=	../../wip/libfontenc
 .endif	# LIBFONTENC_BUILDLINK3_MK
 
 BUILDLINK_DEPTH:=     ${BUILDLINK_DEPTH:S/+$//}
