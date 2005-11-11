@@ -30,7 +30,7 @@ CONFIGURE_ARGS+= --disable-lame
 .include "../../fonts/fontconfig/buildlink3.mk"
 .include "../../graphics/jpeg/buildlink3.mk"
 .include "../../graphics/libungif/buildlink3.mk"
-.include "../../wip/ming/buildlink3.mk"
+.include "../../multimedia/ming/buildlink3.mk"
 .include "../../fonts/t1lib/buildlink3.mk"
 .include "../../devel/zlib/buildlink3.mk"
 .include "../../mk/pthread.buildlink3.mk"
