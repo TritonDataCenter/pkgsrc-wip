@@ -12,7 +12,7 @@ BUILDLINK_PACKAGES+=	libXdmcp
 
 .if !empty(LIBXDMCP_BUILDLINK3_MK:M+)
 BUILDLINK_DEPENDS.libXdmcp+=	libXdmcp>=0.99.0
-BUILDLINK_PKGSRCDIR.libXdmcp?=	../../new/libXdmcp
+BUILDLINK_PKGSRCDIR.libXdmcp?=	../../wip/libXdmcp
 .endif	# LIBXDMCP_BUILDLINK3_MK
 
 BUILDLINK_DEPTH:=     ${BUILDLINK_DEPTH:S/+$//}
