@@ -147,11 +147,11 @@ Index: distinfo
 ===================================================================
 RCS file: /scratch/cvsroot/netbsd/pkgsrc/databases/openldap/distinfo,v
 retrieving revision 1.1.1.8
-retrieving revision 1.2
-diff -u -r1.1.1.8 -r1.2
+retrieving revision 1.3
+diff -u -r1.1.1.8 -r1.3
 --- distinfo	29 Aug 2005 20:04:10 -0000	1.1.1.8
-+++ distinfo	9 Nov 2005 22:12:02 -0000	1.2
-@@ -5,10 +5,13 @@
++++ distinfo	11 Nov 2005 01:33:21 -0000	1.3
+@@ -5,10 +5,14 @@
  Size (openldap-2.2.27.tgz) = 2628140 bytes
  SHA1 (patch-ac) = 473ad88f580ef60d520647033901d8070382ba11
  SHA1 (patch-ad) = ca8efe627797c83e97ff0f4a905b73a346d0b25a
@@ -168,6 +168,7 @@ diff -u -r1.1.1.8 -r1.2
 +SHA1 (patch-la) = 25ffb10186f60cb71ce38b8f88af0b078eda7c65
 +SHA1 (patch-lb) = 91e7494af17cbad5bed273b571c184ac6a50f256
 +SHA1 (patch-lc) = 21b766ca67c593ca70ccad4242c0de8727acd584
++SHA1 (patch-ld) = 5621c5ff9ae96422c6b30eaaee90a71bb3b131bf
 Index: files/slapd.sh
 ===================================================================
 RCS file: /scratch/cvsroot/netbsd/pkgsrc/databases/openldap/files/slapd.sh,v
@@ -536,3 +537,43 @@ diff -N patches/patch-lc
 + rootpw		secret
 + # The database directory MUST exist prior to running slapd AND 
 + # should only be accessible by the slapd and slap tools.
+Index: patches/patch-ld
+===================================================================
+RCS file: patches/patch-ld
+diff -N patches/patch-ld
+--- /dev/null	1 Jan 1970 00:00:00 -0000
++++ patches/patch-ld	11 Nov 2005 01:33:21 -0000	1.1
+@@ -0,0 +1,33 @@
++$NetBSD$
++
++--- servers/slapd/daemon.c.orig	Fri Nov 11 01:21:32 2005
+++++ servers/slapd/daemon.c
++@@ -731,11 +731,10 @@ static int slap_open_listener(
++ 	l.sl_is_udp = ( tmp == LDAP_PROTO_UDP );
++ #endif
++ 
+++	l.sl_perms = S_IRWXU | S_IRWXG | S_IRWXO;
++ #if defined(LDAP_PF_LOCAL) || defined(SLAP_X_LISTENER_MOD)
++ 	if ( lud->lud_exts ) {
++ 		err = get_url_perms( lud->lud_exts, &l.sl_perms, &crit );
++-	} else {
++-		l.sl_perms = S_IRWXU | S_IRWXO;
++ 	}
++ #endif /* LDAP_PF_LOCAL || SLAP_X_LISTENER_MOD */
++ 
++@@ -888,7 +887,6 @@ static int slap_open_listener(
++ #ifdef LDAP_PF_LOCAL
++ 	case AF_LOCAL: {
++ 		char *addr = ((struct sockaddr_un *)*sal)->sun_path;
++-#if 0 /* don't muck with socket perms */
++ 		if ( chmod( addr, l.sl_perms ) < 0 && crit ) {
++ 			int err = sock_errno();
++ #ifdef NEW_LOGGING
++@@ -903,7 +901,6 @@ static int slap_open_listener(
++ 			slap_free_listener_addresses(psal);
++ 			return -1;
++ 		}
++-#endif
++ 		l.sl_name.bv_len = strlen(addr) + sizeof("PATH=") - 1;
++ 		l.sl_name.bv_val = ber_memalloc( l.sl_name.bv_len + 1 );
++ 		snprintf( l.sl_name.bv_val, l.sl_name.bv_len + 1, 
