@@ -11,7 +11,7 @@ MAINTAINER=	minskim@NetBSD.org
 HOMEPAGE=	http://www.tei-c.org.uk/Software/passivetex/
 COMMENT=	TeX macros for formatting objects
 
-DEPENDS+=	tex-xmltex>=1.9:../tex-xmltex
+DEPENDS+=	tex-xmltex>=1.9:../../wip/tex-xmltex
 
 NO_CONFIGURE=	yes
 NO_BUILD=	yes
