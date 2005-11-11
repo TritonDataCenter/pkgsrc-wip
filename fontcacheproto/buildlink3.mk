@@ -14,7 +14,7 @@ BUILDLINK_PACKAGES+=	fontcacheproto
 
 .if !empty(FONTCACHEPROTO_BUILDLINK3_MK:M+)
 BUILDLINK_DEPENDS.fontcacheproto+=	fontcacheproto>=0.1
-BUILDLINK_PKGSRCDIR.fontcacheproto?=	../../new/fontcacheproto
+BUILDLINK_PKGSRCDIR.fontcacheproto?=	../../wip/fontcacheproto
 .endif	# FONTCACHEPROTO_BUILDLINK3_MK
 
 BUILDLINK_DEPTH:=     ${BUILDLINK_DEPTH:S/+$//}
