@@ -10,7 +10,7 @@ MAINTAINER=		shattered@users.sourceforge.net
 HOMEPAGE=		http://icculus.org/pyddr/
 COMMENT=		Dance Dance Revolution, Pump It Up and similar dance machines emulator
 
-DEPENDS+=		${PYPKGPREFIX}-game>=1.6:../../wip/py-game
+DEPENDS+=		${PYPKGPREFIX}-game>=1.6:../../devel/py-game
 
 USE_PKGINSTALL=		yes
 

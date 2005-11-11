@@ -23,7 +23,7 @@ PLIST_SUBST+=		PYVERSSUFFIX=${PYVERSSUFFIX}
 .endif
 
 .include "../../math/py-Numeric/buildlink3.mk"
-.include "../../wip/py-game/buildlink3.mk"
+.include "../../devel/py-game/buildlink3.mk"
 .include "../../x11/py-Tk/buildlink3.mk"
 .include "../../lang/python/extension.mk"
 .include "../../mk/bsd.pkg.mk"
