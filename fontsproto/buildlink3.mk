@@ -14,7 +14,7 @@ BUILDLINK_PACKAGES+=	fontsproto
 
 .if !empty(FONTSPROTO_BUILDLINK3_MK:M+)
 BUILDLINK_DEPENDS.fontsproto+=	fontsproto>=2.0
-BUILDLINK_PKGSRCDIR.fontsproto?=	../../new/fontsproto
+BUILDLINK_PKGSRCDIR.fontsproto?=	../../wip/fontsproto
 .endif	# FONTSPROTO_BUILDLINK3_MK
 
 BUILDLINK_DEPTH:=     ${BUILDLINK_DEPTH:S/+$//}
