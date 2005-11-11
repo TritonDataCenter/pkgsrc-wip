@@ -13,6 +13,7 @@ CONFLICTS+=		compositeext-[0-9]*
 
 GNU_CONFIGURE=		YES
 PKGCONFIG_OVERRIDE+=	${WRKSRC}/compositeproto.pc.in
+USE_LANGUAGES=		# empty
 
 .include "../../wip/fixesproto/buildlink3.mk"
 .include "../../wip/xproto/buildlink3.mk"
