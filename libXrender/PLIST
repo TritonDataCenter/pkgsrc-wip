@@ -2,3 +2,4 @@
 include/X11/extensions/Xrender.h
 lib/libXrender.la
 lib/pkgconfig/xrender.pc
+@comment @dirrm include/X11/extensions

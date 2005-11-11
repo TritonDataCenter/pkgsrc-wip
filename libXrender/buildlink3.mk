@@ -14,13 +14,11 @@ BUILDLINK_DEPENDS+=	libXrender
 
 .if !empty(LIBXRENDER_BUILDLINK3_MK:M+)
 BUILDLINK_PACKAGES+=			libXrender
-BUILDLINK_DEPENDS.libXrender+=		libXrender>=0.8.3
+BUILDLINK_DEPENDS.libXrender+=		libXrender>=0.9.0
 BUILDLINK_PKGSRCDIR.libXrender?=		../../wip/libXrender
 
 .include "../../wip/libX11/buildlink3.mk"
-.include "../../wip/libXau/buildlink3.mk"
-.include "../../wip/xproto/buildlink3.mk"
-.include "../../x11/render/buildlink3.mk"
+.include "../../wip/renderproto/buildlink3.mk"
 
 .endif # LIBXRENDER_BUILDLINK3_MK
 
