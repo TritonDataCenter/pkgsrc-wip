@@ -14,13 +14,8 @@ BUILDLINK_DEPENDS+=	libICE
 
 .if !empty(LIBICE_BUILDLINK3_MK:M+)
 BUILDLINK_PACKAGES+=			libICE
-BUILDLINK_DEPENDS.libICE+=		libICE>=6.3.1nb1
+BUILDLINK_DEPENDS.libICE+=		libICE>=0.99.1
 BUILDLINK_PKGSRCDIR.libICE?=		../../wip/libICE
-
-.include "../../wip/libX11/buildlink3.mk"
-.include "../../wip/libXau/buildlink3.mk"
-.include "../../wip/xproto/buildlink3.mk"
-.include "../../wip/xtrans/buildlink3.mk"
 
 .endif # LIBICE_BUILDLINK3_MK
 
