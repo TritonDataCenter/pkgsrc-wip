@@ -268,9 +268,11 @@ share/doc/libxml++-2.6/docs/reference/2.10/html/validity__error_8h.html
 @dirrm share/doc/libxml++-2.6/docs/manual/html
 @dirrm share/doc/libxml++-2.6/docs/manual
 @dirrm share/doc/libxml++-2.6/docs
+@dirrm share/doc/libxml++-2.6
 @dirrm include/libxml++-2.6/libxml++/validators
 @dirrm include/libxml++-2.6/libxml++/parsers
 @dirrm include/libxml++-2.6/libxml++/nodes
 @dirrm include/libxml++-2.6/libxml++/io
 @dirrm include/libxml++-2.6/libxml++/exceptions
 @dirrm include/libxml++-2.6/libxml++
+@dirrm include/libxml++-2.6
