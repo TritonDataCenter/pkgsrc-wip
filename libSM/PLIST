@@ -5,3 +5,4 @@ include/X11/SM/SMproto.h
 lib/libSM.la
 lib/pkgconfig/sm.pc
 @dirrm include/X11/SM
+@comment @dirrm include/X11

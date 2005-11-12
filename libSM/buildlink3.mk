@@ -14,15 +14,11 @@ BUILDLINK_DEPENDS+=	libSM
 
 .if !empty(LIBSM_BUILDLINK3_MK:M+)
 BUILDLINK_PACKAGES+=			libSM
-BUILDLINK_DEPENDS.libSM+=		libSM>=6.0.1
+BUILDLINK_DEPENDS.libSM+=		libSM>=0.99.2
 BUILDLINK_PKGSRCDIR.libSM?=		../../wip/libSM
 
-.include "../../wip/libICE/buildlink3.mk"
-.include "../../wip/libX11/buildlink3.mk"
-.include "../../mk/pthread.buildlink3.mk"
-
-LIBS+=					${BUILDLINK_LDADD.pthread}
-
 .endif # LIBSM_BUILDLINK3_MK
+
+.include "../../wip/libICE/buildlink3.mk"
 
 BUILDLINK_DEPTH:=     ${BUILDLINK_DEPTH:S/+$//}
