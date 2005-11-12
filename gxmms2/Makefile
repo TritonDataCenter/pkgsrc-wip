@@ -18,10 +18,13 @@ SUBST_STAGE.var=	post-patch
 SUBST_FILES.var=	Makefile
 SUBST_SED.var=		-e 's,%%BUILDLINK_DIR%%,${BUILDLINK_DIR}/include,g'
 
+INSTALLATION_DIRS=	bin
+
+.include "../../wip/xmms2/buildlink3.mk"
+.include "../../x11/gtk2/buildlink3.mk"
+
 post-install:
 	${INSTALL_DATA_DIR} ${PREFIX}/share/doc/gxmms2
 	${INSTALL_DATA} ${WRKSRC}/README ${PREFIX}/share/doc/gxmms2
 
-.include "../../wip/xmms2/buildlink3.mk"
-.include "../../x11/gtk2/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
