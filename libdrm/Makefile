@@ -6,7 +6,7 @@ CATEGORIES=		x11 ## fix this
 MASTER_SITES=		http://dri.freedesktop.org/libdrm/
 
 MAINTAINER=		reed@reedmedia.net
-HOMEPAGE=		http://dri.freedesktop.org/libdrm/
+HOMEPAGE=		http://dri.freedesktop.org/wiki/DRM
 COMMENT=		Userspace interface to kernel DRM services
 
 USE_PKGLOCALEDIR=	yes
