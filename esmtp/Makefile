@@ -10,13 +10,9 @@ MAINTAINER=	lems@gmx.net
 HOMEPAGE=	http://esmtp.sourceforge.net/
 COMMENT=	Relay-only Mail Transfer Agent with sendmail-compatible syntax
 
-.if !exists(/usr/bin/flex)
-BUILD_DEPENDS+=		flex-[0-9]*:../../devel/flex
-.endif
-
 GNU_CONFIGURE=		yes
 USE_PKGINSTALL=		yes
-USE_TOOLS+=		bison
+USE_TOOLS+=		bison flex
 PTHREAD_OPTS+=		require
 
 CONFIGURE_ARGS+=	--sysconfdir=${PKG_SYSCONFDIR}
