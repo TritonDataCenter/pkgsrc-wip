@@ -15,6 +15,8 @@ USE_PKGINSTALL=		yes
 USE_PKGLOCALEDIR=	yes
 USE_TOOLS+=		pkg-config
 
+CONFIGURE_ARGS+=	--enable-nls
+
 PKG_SYSCONFSUBDIR=	mpop
 
 EGDIR=		${PREFIX}/share/examples/mpop

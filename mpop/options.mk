@@ -2,10 +2,10 @@
 #
 
 PKG_OPTIONS_VAR=		PKG_OPTIONS.mpop
-PKG_SUPPORTED_OPTIONS=		gsasl nls
+PKG_SUPPORTED_OPTIONS=		gsasl
 PKG_OPTIONS_OPTIONAL_GROUPS=	ssl
 PKG_OPTIONS_GROUP.ssl=		gnutls ssl
-PKG_SUGGESTED_OPTIONS=		nls ssl
+PKG_SUGGESTED_OPTIONS=		ssl
 
 .include "../../mk/bsd.options.mk"
 
@@ -22,11 +22,4 @@ CONFIGURE_ARGS+=	--disable-ssl
 .if !empty(PKG_OPTIONS:Mgsasl)
 CONFIGURE_ARGS+=	--enable-gsasl
 .  include "../../security/gsasl/buildlink3.mk"
-.endif
-
-.if !empty(PKG_OPTIONS:Mnls)
-.  include "../../devel/gettext-lib/buildlink3.mk"
-PLIST_SUBST+=		NLS=""
-.else
-PLIST_SUBST+=		NLS="@comment "
 .endif

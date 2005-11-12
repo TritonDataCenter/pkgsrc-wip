@@ -2,5 +2,5 @@
 bin/mpop
 man/man1/mpop.1
 share/examples/mpop/mpoprc.example
-${NLS}${PKGLOCALEDIR}/locale/de/LC_MESSAGES/mpop.mo
+${PKGLOCALEDIR}/locale/de/LC_MESSAGES/mpop.mo
 @dirrm share/examples/mpop
