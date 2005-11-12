@@ -1,9 +1,10 @@
 # $NetBSD$
 #
 
-DISTNAME=		libX11-0.99.0
+# todo: do PLIST again
+DISTNAME=		libX11-0.99.3
 CATEGORIES=		x11 devel
-MASTER_SITES=		http://xorg.freedesktop.org/X11R7.0-RC0/lib/
+MASTER_SITES=		http://xorg.freedesktop.org/releases/X11R7.0-RC2/lib/
 EXTRACT_SUFX=		.tar.bz2
 
 MAINTAINER=		reed@reedmedia.net

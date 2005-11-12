@@ -23,5 +23,6 @@ LIBS+=		${BUILDLINK_LDADD.pthread}
 .include "../../wip/xproto/buildlink3.mk"
 #.include "../../wip/xtrans/buildlink3.mk"
 #.include "../../wip/libXau/buildlink3.mk"
+#.include "../../wip/libXdmcp/buildlink3.mk"
 
 BUILDLINK_DEPTH:=     ${BUILDLINK_DEPTH:S/+$//}
