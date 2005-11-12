@@ -1,4 +1,5 @@
 @comment $NetBSD$
-${PKG_SYSCONFDIR}/siproxd.conf.example
-${PKG_SYSCONFDIR}/siproxd_passwd.cfg
+share/examples/siproxd/siproxd.conf.example
+share/examples/siproxd/siproxd_passwd.cfg
 sbin/siproxd
+@dirrm share/examples/siproxd
