@@ -18,6 +18,8 @@ MOZILLA=		mozilla-gtk2
 CONFIGURE_ARGS+=	--with-mozilla-includes=${PREFIX}/include/${MOZILLA}
 CONFIGURE_ARGS+=	--with-mozilla-libs=${PREFIX}/lib/${MOZILLA}
 CONFIGURE_ARGS+=	--enable-cvs-mozilla
+CONFIGURE_ARGS+=	--enable-nls
+CONFIGURE_ARGS+=	--with-localedir=${PREFIX}/${PKGLOCALEDIR}/locale
 LDFLAGS+=		${COMPILER_RPATH_FLAG}${PREFIX}/lib/${MOZILLA}
 
 .include "../../www/${MOZILLA}/buildlink3.mk"
