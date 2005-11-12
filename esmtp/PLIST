@@ -1,8 +1,0 @@
-@comment $NetBSD$
-bin/esmtp
-man/man1/esmtp.1
-man/man5/esmtprc.5
-share/doc/esmtp/README
-share/examples/esmtp/sample.esmtprc
-@dirrm share/examples/esmtp
-@dirrm share/doc/esmtp
