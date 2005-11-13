@@ -10,7 +10,6 @@ HOMEPAGE=	http://www.egbok.com/sudoscript/
 COMMENT=	Audited shells with sudo(8) and script(1)
 
 MESSAGE_SUBST+=	DISTNAME=${DISTNAME}
-MESSAGE_SUBST+=	PREFIX=${PREFIX}
 
 PERMIT_PACKAGE_CDROM=	Yes
 PERMIT_PACKAGE_FTP=	Yes
