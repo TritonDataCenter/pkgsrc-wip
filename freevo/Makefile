@@ -42,6 +42,6 @@ post-install:
 .include "../../textproc/py-xml/buildlink3.mk"
 .include "../../time/py-mxDateTime/buildlink3.mk"
 .include "../../wip/py-mmpython/buildlink3.mk"
-#.include "../../wip/py-osd/buildlink3.mk"
+.include "../../wip/py-osd/buildlink3.mk"
 .include "../../lang/python/extension.mk"
 .include "../../mk/bsd.pkg.mk"
