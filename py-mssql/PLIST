@@ -1,0 +1,5 @@
+@comment $NetBSD$
+${PYSITELIB}/_mssql.so
+${PYSITELIB}/pymssql.py
+${PYSITELIB}/pymssql.pyc
+${PYSITELIB}/pymssql.pyo
