@@ -10,7 +10,6 @@ HOMEPAGE=		http://www.roland-riegel.de/nload/
 COMMENT=		Monitoring network traffic and bandwidth usage
 
 MANCOMPRESSED=		yes
-USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 
 .include "../../devel/ncurses/buildlink3.mk"
