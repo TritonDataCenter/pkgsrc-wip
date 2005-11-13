@@ -15,7 +15,6 @@ DEPENDS+=		mplayer>=1.0rc7:../../multimedia/mplayer
 DEPENDS+=		${PYPKGPREFIX}-twisted>=2.0.0:../../wip/py-twisted
 DEPENDS+=		${PYPKGPREFIX}-twisted-web>=0.5.0:../../wip/py-twisted-web
 
-PY_PATCHPLIST=		yes
 PYDISTUTILSPKG=		yes
 USE_PKGINSTALL=		yes
 USE_PKGLOCALEDIR=	yes
