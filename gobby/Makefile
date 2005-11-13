@@ -23,5 +23,5 @@ PLIST_SRC+=		${PKGDIR}/PLIST.common
 .include "../../devel/glib2/buildlink3.mk"
 .include "../../x11/gtksourceview/buildlink3.mk"
 .include "../../x11/gtkmm/buildlink3.mk"
-.include "../../wip/libxml++2/buildlink3.mk"
+.include "../../textproc/libxml++2/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
