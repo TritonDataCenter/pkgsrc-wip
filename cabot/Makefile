@@ -17,7 +17,7 @@ USE_PKGINSTALL=         yes
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 PERL5_CONFIGURE=	no
-REPLACE_PERL=		Cabot.pm
+REPLACE_PERL=		Cabot.pm ca-createsendout ca-recv ca-sendout ca-dosign
 
 EGDIR=			${PREFIX}/share/examples/cabot
 CONF_FILES+=            ${EGDIR}/cabot.conf ${PKG_SYSCONFDIR}/cabot.conf
