@@ -1,0 +1,5 @@
+@comment $NetBSD$
+bin/nstxd
+bin/nstxcd
+share/doc/nstx/README
+@dirrm share/doc/nstx
