@@ -31,7 +31,7 @@ DEPENDS+=		vorbis-tools>=1.1.1:../../audio/vorbis-tools
 .endif
 
 .if !empty(PKG_OPTIONS:Mxmltv)
-DEPENDS+=		xmltv>=0.5.40:../../multimedia/xmltv
+DEPENDS+=		xmltv>=0.5.40:../../multimedia/p5-xmltv
 .endif
 
 .if !empty(PKG_OPTIONS:Mxmame)
