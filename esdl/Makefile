@@ -5,7 +5,7 @@ PKGNAME=	${DISTNAME:S/.src//}
 CATEGORIES=	graphics
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=esdl/}
 
-MAINTAIER=	geert.hendrickx@ua.ac.be
+MAINTAINER=	geert.hendrickx@ua.ac.be
 HOMEPAGE=	http://esdl.sourceforge.net/
 COMMENT=	SDL and OpenGL library for Erlang
 
