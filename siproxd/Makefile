@@ -6,7 +6,7 @@ MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=siproxd/}
 
 MAINTAINER=     schwarz@NetBSD.org
 HOMEPAGE=	http://siproxd.sourceforge.net/
-COMMENT=	Siproxd is a SIP ALG (Application-Level Gateway)
+COMMENT=	Session Initiation Protocol Application-Level Gateway (SIP ALG)
 
 GNU_CONFIGURE=	YES
 USE_TOOLS+=	gmake
