@@ -3,4 +3,5 @@ $NetBSD$
 SHA1 (unshield-0.3.tar.gz) = 5d352efe5111638fb9e74b9681059ae532d400d7
 RMD160 (unshield-0.3.tar.gz) = c37cd862fc8fb86d6b3c44bf4a5fcfe948506842
 Size (unshield-0.3.tar.gz) = 221825 bytes
-SHA1 (patch-aa) = a4dcd272e86f523014c35b890fc75aae05ffc80b
+SHA1 (patch-aa) = 07ea4ea26c8ad69881ee4b1c366a634cf6d2989e
+SHA1 (patch-ab) = 310c823f3f912174ddae407f9b11f80462376628

@@ -10,7 +10,7 @@ HOMEPAGE=		http://synce.sourceforge.net/
 COMMENT=		Extractor for InstallShield cabinet files
 
 GNU_CONFIGURE=		yes
-CONFIGURE_ARGS=		CPPFLAGS=-I${WRKSRC}/lib
+CONFIGURE_ARGS+=	CPPFLAGS=-I${WRKSRC}/lib
 USE_LIBTOOL=		yes
 
 pre-configure:
