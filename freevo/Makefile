@@ -21,6 +21,8 @@ USE_PKGLOCALEDIR=	yes
 
 PYTHON_VERSIONS_ACCEPTED=	23
 
+.include "options.mk"
+
 PKG_SYSCONFSUBDIR=	freevo
 EGDIR=			${PREFIX}/share/examples/freevo
 CONF_FILES=		${EGDIR}/local_conf.py.example		\
