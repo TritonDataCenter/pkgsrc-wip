@@ -13,7 +13,6 @@ COMMENT=		Python interface to MS SQL
 BUILDLINK_DEPENDS.freetds+=	freetds>=0.63
 
 PYTHON_VERSION_REQD=	24
-PY_PATCHPLIST=		yes
 PYBINMODULE=		yes
 PYDISTUTILSPKG=		yes
 
