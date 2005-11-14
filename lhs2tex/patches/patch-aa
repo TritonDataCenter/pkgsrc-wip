@@ -6,7 +6,7 @@ $NetBSD$
  >                                  ,deep (relPath [env "HOME","lhs2TeX"])
  >                                  ,deep (relPath [env "HOME",".lhs2TeX"])
  >                                  ,deep (relPath [env "LHS2TEX"])
-+>                                  ,deep (absPath [@PREFIX_HS@,"lhs2tex"])
++>                                  ,deep (absPath [@PREFIX_HS@, "share", "lhs2tex"])
  >                                  ,deep (absPath ["usr","local","share","lhs2tex"])
  >                                  ,deep (absPath ["usr","local","share","lhs2TeX"])
  >                                  ,deep (absPath ["usr","local","lib","lhs2tex"])
