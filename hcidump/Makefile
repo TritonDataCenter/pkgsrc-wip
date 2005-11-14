@@ -1,7 +1,7 @@
 # $NetBSD: Makefile$
 
 DISTNAME=	hcidump-1.5.1
-CATEGORIES=	wip sysutils
+CATEGORIES=	sysutils
 MASTER_SITES=	http://www.geocities.com/m_evmenkin/
 
 MAINTAINER=	plunky@rya-online.net

@@ -26,11 +26,10 @@
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#ifndef _BLUETOOTH_BLUETOOTH_H_
-#define _BLUETOOTH_BLUETOOTH_H_
+#ifndef _NETBT_BLUETOOTH_H_
+#define _NETBT_BLUETOOTH_H_
 
 #include <sys/socket.h>
-#include <string.h>
 
 /*
  * Bluetooth Protocol Numbers
@@ -77,4 +76,4 @@ static inline void bdaddr_copy(bdaddr_t *d, bdaddr_t *s)
 	memcpy(d, s, sizeof(bdaddr_t));
 }
 
-#endif	/* _BLUETOOTH_BLUETOOTH_H_ */
+#endif	/* _NETBT_BLUETOOTH_H_ */
