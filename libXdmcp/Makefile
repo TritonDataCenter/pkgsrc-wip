@@ -10,8 +10,8 @@ MAINTAINER=		reed@reedmedia.net
 HOMEPAGE=		http://xorg.freedesktop.org/
 COMMENT=		X Display Manager Control Protocol library from X.org
 
-USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=		yes
+USE_TOOLS+=		pkg-config
 PKGCONFIG_OVERRIDE+=	${WRKSRC}/xdmcp.pc.in
 GNU_CONFIGURE=		yes
 

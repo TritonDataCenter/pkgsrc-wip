@@ -10,8 +10,8 @@ MAINTAINER=		reed@reedmedia.net
 HOMEPAGE=		http://xorg.freedesktop.org/
 COMMENT=		The fontenc Library from X.org
 
-USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=		yes
+USE_TOOLS+=		pkg-config
 PKGCONFIG_OVERRIDE+=	${WRKSRC}/fontenc.pc.in
 GNU_CONFIGURE=		yes
 
