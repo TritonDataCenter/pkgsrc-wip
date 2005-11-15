@@ -9,6 +9,8 @@ HOMEPAGE=	http://xxdiff.sourceforge.net/
 COMMENT=	Graphical file comparator and merge tool
 
 USE_TOOLS+=	gmake
+USE_TOOLS+=	bison
+USE_TOOLS+=	flex
 BUILD_DEPENDS+=	tmake>=1.7:../../devel/tmake
 
 WRKSRC=		${WRKDIR}/${PKGNAME_NOREV}/src
