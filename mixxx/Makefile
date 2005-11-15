@@ -1,19 +1,19 @@
 # $NetBSD$
 
-DISTNAME=	mixxx-1.4.2
-CATEGORIES=	audio
-MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=mixxx/}
+DISTNAME=		mixxx-1.4.2
+CATEGORIES=		audio
+MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=mixxx/}
 
-MAINTAINER=	geert.hendrickx@ua.ac.be
-HOMEPAGE=	http://mixxx.sourceforge.net/
-COMMENT=	Digital DJ tool
+MAINTAINER=		geert.hendrickx@ua.ac.be
+HOMEPAGE=		http://mixxx.sourceforge.net/
+COMMENT=		Digital DJ tool
 
-# needs pselect(2). if you know a workaround, please let me know
+# needs pselect(2). if you know a workaround, please let me know.
 NOT_FOR_PLATFORM=	NetBSD-[0-2]*-* FreeBSD-[0-4]*-* OpenBSD-*-* DragonFly-*-*
 
-WRKSRC=		${WRKDIR}/${DISTNAME}/src
+WRKSRC=			${WRKDIR}/${DISTNAME}/src
 
-HAS_CONFIGURE=	yes
+HAS_CONFIGURE=		yes
 CONFIGURE_ARGS+=	--prefix=${LOCALBASE}
 CONFIGURE_ARGS+=	--dependency-dir=${LOCALBASE}/bin\;${LOCALBASE}/lib\;${LOCALBASE}/include
 CONFIGURE_ARGS+=	--disable-alsa
