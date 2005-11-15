@@ -34,4 +34,5 @@ BUILDLINK_DEPMETHOD.qt3-tools=	build
 .include "../../audio/libvorbis/buildlink3.mk"
 .include "../../audio/libsndfile/buildlink3.mk"
 .include "../../mk/ossaudio.buildlink3.mk"
+.include "../../devel/zlib/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
