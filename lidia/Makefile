@@ -2,7 +2,6 @@
 #
 
 DISTNAME=		LiDIA-2.1.3
-PKGNAME=		lidia-2.1.3
 CATEGORIES=		math
 MASTER_SITES=		ftp://ftp.informatik.tu-darmstadt.de/pub/TI/systems/LiDIA/current/
 
