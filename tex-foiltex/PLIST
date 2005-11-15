@@ -8,5 +8,3 @@ ${PKG_LOCALTEXMFPREFIX}/tex/latex/foiltex/foils.cls
 ${PKG_LOCALTEXMFPREFIX}/tex/latex/foiltex/foils.sty
 ${PKG_LOCALTEXMFPREFIX}/tex/latex/foiltex/foilshrt.clo
 @dirrm ${PKG_LOCALTEXMFPREFIX}/tex/latex/foiltex
-@exec mktexlsr
-@unexec mktexlsr
