@@ -33,6 +33,8 @@ SUBST_SED.path=		-e 's|@PREFIX_HS@|${PREFIX_HS}|'
 
 DOCDIR=			${PREFIX}/share/doc/lhs2tex
 
+.include "../../print/teTeX/module.mk"
+.include "../../lang/ghc/buildlink3.mk"
 
 post-install:
 	${INSTALL_DATA_DIR} ${DOCDIR}
@@ -46,10 +48,5 @@ post-install:
 		${PKG_LOCALTEXMFPREFIX}/tex/latex/polytable
 	${INSTALL_DATA} ${WRKSRC}/polytable/lazylist.sty \
 		${PKG_LOCALTEXMFPREFIX}/tex/latex/lazylist
-	${LOCALBASE}/bin/texconfig rehash
-	${LOCALBASE}/bin/mktexlsr
 
-
-.include "../../mk/tex.buildlink3.mk"
-.include "../../lang/ghc/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
