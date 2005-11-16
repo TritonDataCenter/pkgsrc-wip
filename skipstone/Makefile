@@ -12,6 +12,8 @@ COMMENT=		Light and fast Gecko-based browser
 GNU_CONFIGURE=		yes
 USE_TOOLS+=		gmake
 
+USE_PKGLOCALEDIR=	yes
+
 # it doesn't build with firefox headers, otherwise I'd make it an option
 MOZILLA=		mozilla-gtk2
 
