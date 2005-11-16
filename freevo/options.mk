@@ -4,7 +4,7 @@ PKG_OPTIONS_VAR=		PKG_OPTIONS.freevo
 PKG_SUPPORTED_OPTIONS=		mencoder xine lame flac oggenc xmltv xmame
 PKG_OPTIONS_OPTIONAL_GROUPS=	snes
 PKG_OPTIONS_GROUP.snes=		snes9x zsnes
-PKG_SUGGESTED_OPTIONS=		mencoder lame oggenc
+PKG_SUGGESTED_OPTIONS=
 
 .include "../../mk/bsd.options.mk"
 
