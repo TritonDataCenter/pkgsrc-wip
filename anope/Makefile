@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	anope-1.7.8
+DISTNAME=	anope-1.7.12
 CATEGORIES=	net
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=anope/}
 
@@ -39,6 +39,8 @@ SUBST_SED.paths=	-e "s|/home/ircd/services|${PREFIX}/share/anope|g" \
 			-e "s|/usr/local/lib/services|${PREFIX}/share/anope|g"
 SUBST_MESSAGE.paths=	"Fixing hardcoded paths."
 
+.include "../../mk/pthread.buildlink3.mk"
+
 post-install:
 	${INSTALL_DATA_DIR} ${PREFIX}/share/doc/anope
 	${INSTALL_DATA_DIR} ${PREFIX}/share/examples/anope
@@ -50,5 +52,4 @@ post-install:
 	@${CHMOD} ${BINMODE} ${PREFIX}/share/anope/modules/*.so
 	${INSTALL_DATA} ${WRKSRC}/data/* ${PREFIX}/share/examples/anope
 
-.include "../../mk/pthread.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
