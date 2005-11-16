@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		nstx-1.1-beta6
-CATEGORIES=		wip net
+CATEGORIES=		net
 MASTER_SITES=		http://nstx.dereference.de/nstx/
 EXTRACT_SUFX=		.tgz
 
