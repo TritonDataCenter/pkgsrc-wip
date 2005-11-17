@@ -22,7 +22,6 @@ post-install:
 	${INSTALL_DATA} ${WRKSRC}/INSTALL ${PREFIX}/share/doc/mailfilter
 	${INSTALL_DATA} ${WRKSRC}/doc/FAQ ${PREFIX}/share/doc/mailfilter
 
-.include "../../converters/libiconv/buildlink3.mk"
 .include "../../devel/gettext-lib/buildlink3.mk"
 .include "../../devel/libgetopt/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
