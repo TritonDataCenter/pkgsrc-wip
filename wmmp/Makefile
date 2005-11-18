@@ -13,6 +13,7 @@ USE_PKGLOCALEDIR=	YES
 USE_LIBTOOL=		YES
 GNU_CONFIGURE=		YES
 USE_TOOLS+=		autoconf
+CONFIGURE_ARGS+=	--with-default-port=6600
 
 pre-configure:
 	cd ${WRKSRC} && autoconf
