@@ -16,6 +16,8 @@ DEPENDS+=		gst-plugins-vorbis>=0.8.1:../../audio/gst-plugins-vorbis
 CONFIGURE_ARGS+=	--enable-gst
 CONFIGURE_ARGS+=	--disable-xine
 
+BROKEN=			This needs GStreamer >= 0.9.1
+
 .include "../../multimedia/gst-plugins/buildlink3.mk"
 .include "../../multimedia/gstreamer/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
