@@ -1,4 +1,4 @@
 @comment $NetBSD$
-lib/httpd/mod_${PKGVERSION}.so
+lib/httpd/mod_bunzip2.so
 share/doc/${PKGNAME}/README
 @dirrm share/doc/${PKGNAME}
