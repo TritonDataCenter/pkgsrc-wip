@@ -21,8 +21,12 @@ USE_TOOLS+=	gmake lex
 CPPFLAGS+=	-Dsocklen_t=int
 .endif
 
-BUILD_DEFS+=	USE_INET6
-.if defined (USE_INET6) && !empty(USE_INET6:M[Yy][Ee][Ss])
+PKG_SUPPORTED_OPTIONS=	inet6
+PKG_OPTIONS_VAR=	PKG_OPTIONS.boa
+
+.include "../../mk/bsd.options.mk"
+
+.if !empty(PKG_OPTIONS:Minet6)
 CPPFLAGS+=	-DINET6
 .endif
 
