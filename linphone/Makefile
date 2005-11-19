@@ -20,8 +20,9 @@ CONFIGURE_ARGS+=        --with-speex=${BUILDLINK_PREFIX.speex}
 CONFIGURE_ARGS+=	--with-html-dir=${PREFIX}/share/doc/linphone
 CONFIGURE_ARGS+=	--disable-manual --enable-glib
 
-PKG_SUPPORTED_OPTIONS=	alsa nogui inet6
+PKG_SUPPORTED_OPTIONS=	alsa inet6 linphone-gui
 PKG_OPTIONS_VAR=	PKG_OPTIONS.linphone
+PKG_DEFAULT_OPTIONS+=	linphone-gui
 
 .include "../../mk/bsd.options.mk"
 
@@ -29,7 +30,7 @@ PKG_OPTIONS_VAR=	PKG_OPTIONS.linphone
 CONFIGURE_ARGS+=	--enable-alsa
 .endif
 
-.if !empty(PKG_OPTIONS:Mnogui)
+.if empty(PKG_OPTIONS:Mlinphone-gui)
 CONFIGURE_ARGS+=	--enable-gnome_ui=no
 PLIST_SUBST+=	GUI="@comment "
 .else
