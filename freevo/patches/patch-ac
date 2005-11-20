@@ -24,7 +24,7 @@ $NetBSD$
              return
  
 -        self.device_name = '/dev/input/js' + str((config.JOY_DEV - 1))
-+        pygame.init()
++        pygame.joystick.init()
 +
 +        num_joy = pygame.joystick.get_count()
 +        print "Found %d joysticks." % num_joy
