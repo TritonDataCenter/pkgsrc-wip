@@ -26,5 +26,6 @@ PYTHON_VERSIONS_ACCEPTED=	24 23 22
 .include "../../lang/python/extension.mk"
 .include "../../graphics/imlib2/buildlink3.mk"
 .include "../../x11/py-Xlib/buildlink3.mk"
+.include "../../x11/renderext/buildlink3.mk"
 .include "../../mk/x11.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
