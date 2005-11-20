@@ -11,7 +11,7 @@ COMMENT=		Image viewer and editor
 
 MAKEFILE=		GNUmakefile
 MAKE_ENV+=		prefix=${PREFIX:Q}
-USE_TOOLS+=		gmake
+USE_TOOLS+=		gmake perl
 
 # not used, even though the configure output claims it
 #.include "../../graphics/ImageMagick/buildlink3.mk"
