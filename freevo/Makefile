@@ -10,7 +10,6 @@ HOMEPAGE=		http://freevo.sourceforge.net/
 COMMENT=		Fancy-lookging digital video jukebox
 
 DEPENDS+=		aumix>=2.8:../../audio/aumix
-DEPENDS+=		lsdvd>=0.10:../../multimedia/lsdvd
 DEPENDS+=		mplayer>=1.0rc7:../../multimedia/mplayer
 DEPENDS+=		${PYPKGPREFIX}-sqlite>=1.0.1:../../databases/py-sqlite
 DEPENDS+=		${PYPKGPREFIX}-twisted>=2.0.0:../../wip/py-twisted

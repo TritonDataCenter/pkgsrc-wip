@@ -10,6 +10,8 @@ MAINTAINER=		tech-pkg@NetBSD.org
 HOMEPAGE=		http://mmpython.sourceforge.net/
 COMMENT=		Extract text information from mp3, ogg, avi, jpg and more
 
+DEPENDS+=               lsdvd>=0.10:../../multimedia/lsdvd
+
 PYDISTUTILSPKG=		yes
 
 .include "../../lang/python/extension.mk"
