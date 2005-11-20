@@ -12,7 +12,7 @@ COMMENT=		Audio CD player using ncurses and SDL
 
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
-INCOMPAT_CURSES+=	NetBSD-*-*
+INCOMPAT_CURSES+=	NetBSD-1.6*-*
 
 .include "../../devel/SDL/buildlink3.mk"
 .include "../../devel/ncurses/buildlink3.mk"
