@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=		XaraLX0.1b
+DISTNAME=		XaraLX0.1c
 PKGNAME=		${DISTNAME:S,LX,LX-,}
 CATEGORIES=		graphics
 MASTER_SITES=		http://www.cconcepts.co.uk/downloads/
