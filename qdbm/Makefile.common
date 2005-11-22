@@ -4,7 +4,7 @@
 DISTNAME=	qdbm-${QDBM_VERSION}
 CATEGORIES=	databases
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=qdbm/}
-QDBM_VERSION=	1.8.33
+QDBM_VERSION=	1.8.34
 
 MAINTAINER=	obata@lins.jp
 HOMEPAGE=	http://qdbm.sourceforge.net/
