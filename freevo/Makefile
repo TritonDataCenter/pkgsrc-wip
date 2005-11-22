@@ -7,7 +7,7 @@ MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=freevo/}
 
 MAINTAINER=		tech-pkg@NetBSD.org
 HOMEPAGE=		http://freevo.sourceforge.net/
-COMMENT=		Fancy-lookging digital video jukebox
+COMMENT=		Fancy-looking digital video jukebox
 
 DEPENDS+=		aumix>=2.8:../../audio/aumix
 DEPENDS+=		mplayer>=1.0rc7:../../multimedia/mplayer
