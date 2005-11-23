@@ -6,7 +6,7 @@ PKGNAME=		${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=		devel
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=mmpython/}
 
-MAINTAINER=		tech-pkg@NetBSD.org
+MAINTAINER=		dhowland@users.sourceforge.net
 HOMEPAGE=		http://mmpython.sourceforge.net/
 COMMENT=		Extract text information from mp3, ogg, avi, jpg and more
 

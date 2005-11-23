@@ -5,7 +5,7 @@ DISTNAME=		freevo-1.5.4
 CATEGORIES=		multimedia
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=freevo/}
 
-MAINTAINER=		tech-pkg@NetBSD.org
+MAINTAINER=		dhowland@users.sourceforge.net
 HOMEPAGE=		http://freevo.sourceforge.net/
 COMMENT=		Fancy-looking digital video jukebox
 
