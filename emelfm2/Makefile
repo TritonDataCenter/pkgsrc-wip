@@ -1,18 +1,18 @@
 # $NetBSD$
 #
 
-DISTNAME=	emelfm2-0.1.2
+DISTNAME=	emelfm2-0.1.3
 CATEGORIES=	sysutils
 MASTER_SITES=	http://emelfm2.org/rel/
 
-MAINTAINER=	lems@gmx.net
+MAINTAINER=	tech-pkg@NetBSD.org
 HOMEPAGE=	http://emelfm2.org/
 COMMENT=	Fast two-pane file manager using GTK2
 
 PTHREAD_OPTS+=	require
 
-USE_DIRS+=		xdg-1.1
-USE_TOOLS+=		gmake
+USE_DIRS+=	xdg-1.2
+USE_TOOLS+=	gmake
 
 .include "../../converters/libiconv/buildlink3.mk"
 .include "../../devel/gettext-lib/buildlink3.mk"

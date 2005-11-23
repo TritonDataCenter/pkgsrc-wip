@@ -26,7 +26,6 @@ share/doc/emelfm2/INSTALL
 share/doc/emelfm2/LGPL
 share/doc/emelfm2/PLUGINS
 share/doc/emelfm2/README
-share/doc/emelfm2/ROADMAP
 share/doc/emelfm2/SPEC
 share/doc/emelfm2/TODO
 share/doc/emelfm2/USAGE
@@ -36,13 +35,8 @@ share/pixmaps/emelfm2/apply_all_48.png
 share/pixmaps/emelfm2/bookmark_48.png
 share/pixmaps/emelfm2/cl_clear_48.png
 share/pixmaps/emelfm2/copy_as_48.png
-share/pixmaps/emelfm2/emelfm2_1_24.png
-share/pixmaps/emelfm2/emelfm2_1_32.png
-share/pixmaps/emelfm2/emelfm2_1_48.png
+share/pixmaps/emelfm2/dragsel.png
 share/pixmaps/emelfm2/emelfm2_24.png
-share/pixmaps/emelfm2/emelfm2_2_24.png
-share/pixmaps/emelfm2/emelfm2_2_32.png
-share/pixmaps/emelfm2/emelfm2_2_48.png
 share/pixmaps/emelfm2/emelfm2_32.png
 share/pixmaps/emelfm2/emelfm2_48.png
 share/pixmaps/emelfm2/filter_48.png
