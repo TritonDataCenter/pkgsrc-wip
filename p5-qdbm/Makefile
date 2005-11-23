@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-.include "../../wip/qdbm/Makefile.common"
+.include "../../databases/qdbm/Makefile.common"
 
 PKGNAME=	p5-qdbm-1.0.0.${QDBM_VERSION}
 CATEGORIES=	databases perl5
