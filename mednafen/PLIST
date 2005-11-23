@@ -1,3 +1,9 @@
 @comment $NetBSD$
 bin/mednafen
+@comment belongs to libiconv: lib/charset.alias
+share/doc/mednafen/cheat.html
+share/doc/mednafen/mcm.txt
+share/doc/mednafen/mcs.txt
+share/doc/mednafen/mednafen.html
 ${PKGLOCALEDIR}/locale/ru/LC_MESSAGES/mednafen.mo
+@dirrm share/doc/mednafen

@@ -6,7 +6,7 @@ CATEGORIES=	emulators
 MASTER_SITES=	http://mednafen.com/releases/
 EXTRACT_SUFX=	.tar.bz2
 
-MAINTAINER=	lems@gmx.net
+MAINTAINER=	tech-pkg@NetBSD.org
 HOMEPAGE=	http://mednafen.com/
 COMMENT=	Portable multi-system emulator
 
@@ -16,6 +16,13 @@ USE_TOOLS+=		pkg-config
 USE_LANGUAGES+=		c c++
 USE_LIBTOOL=		yes
 USE_PKGLOCALEDIR=	yes
+
+post-install:
+	${INSTALL_DATA_DIR} ${PREFIX}/share/doc/mednafen
+	${INSTALL_DATA} ${WRKSRC}/Documentation/*.html \
+		${PREFIX}/share/doc/mednafen
+	${INSTALL_DATA} ${WRKSRC}/Documentation/*.txt \
+		${PREFIX}/share/doc/mednafen
 
 .include "../../audio/esound/buildlink3.mk"
 .include "../../audio/libaudiofile/buildlink3.mk"
