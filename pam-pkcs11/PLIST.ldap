@@ -1,0 +1,2 @@
+@comment $NetBSD$
+lib/pam_pkcs11/ldap_mapper.la
