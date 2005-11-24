@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=      		openct-0.6.5
+DISTNAME=      		openct-0.6.6
 CATEGORIES=     	security
 MASTER_SITES= 		http://www.opensc.org/files/
 
@@ -11,7 +11,7 @@ COMMENT=		Smart Card Reader drivers and middleware
 GNU_CONFIGURE= 		YES
 USE_PKGINSTALL=		YES
 USE_LIBTOOL=		YES
-USE_TOOLS+= 		gmake
+USE_TOOLS+= 		gmake pkg-config
 
 .include "options.mk"
 
@@ -29,5 +29,5 @@ PLIST_SRC+=		${PKGDIR}/PLIST.common
 post-install:
 	${INSTALL_DATA_DIR} ${EGDIR}
 	${INSTALL_DATA} ${WRKSRC}/etc/openct.conf ${EGDIR}
-
+.include "../../devel/libltdl/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
