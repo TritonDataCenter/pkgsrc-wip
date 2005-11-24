@@ -12,7 +12,7 @@ COMMENT=		MUSCLE SmartCard framework support library
 GNU_CONFIGURE=          YES
 USE_PKGINSTALL=         YES
 USE_LIBTOOL=            YES
-USE_TOOLS+=             automake gmake
+USE_TOOLS+=             automake gmake pkg-config
 
 CONFIGURE_ARGS+=	--enable-muscledropdir=${PREFIX}/lib/pcsc-lite/drivers
 CONFIGURE_ARGS+=	--sysconfdir=${PKG_SYSCONFDIR}
