@@ -1,0 +1,4 @@
+@comment $NetBSD$
+include/libp11.h
+lib/libp11.la
+lib/pkgconfig/libp11.pc
