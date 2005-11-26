@@ -1,0 +1,8 @@
+@comment $NetBSD$
+include/physfs.h
+lib/libphysfs-1.0.so
+lib/libphysfs-1.0.so.1
+lib/libphysfs-1.0.so.1.0
+lib/libphysfs.a
+lib/libphysfs.la
+lib/libphysfs.so
