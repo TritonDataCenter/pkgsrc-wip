@@ -1,11 +1,11 @@
 # $NetBSD$
 
-DISTNAME=	sipsak-0.9.2
+DISTNAME=	sipsak-0.9.5
 CATEGORIES=	net
 MASTER_SITES=	http://download.berlios.de/sipsak/
 
 MAINTAINER=     schwarz@NetBSD.org
-HOMEPAGE=	http://sipsak.org
+HOMEPAGE=	http://sipsak.org/
 COMMENT=	Sipsak is a command-line SIP testing utility
 
 GNU_CONFIGURE=	YES
