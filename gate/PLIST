@@ -1,0 +1,4 @@
+@comment $NetBSD$
+bin/gate
+man/man1/gate.1
+share/gate.help
