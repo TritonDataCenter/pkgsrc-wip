@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		jamvm-1.3.2
+DISTNAME=		jamvm-1.4.0
 CATEGORIES=		lang
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=jamvm/}
 
@@ -11,7 +11,9 @@ COMMENT=		Compact Java Virtual Machine
 
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
+CONFIGURE_ARGS+=	--with-classpath-install-dir=${PREFIX}/
 
+DEPENDS+=	classpath-0.19:../../lang/classpath
 DEPENDS+=	unzip-[0-9]*:../../archivers/unzip
 
 do-install:
@@ -20,4 +22,6 @@ do-install:
 	${INSTALL_DATA_DIR} ${PREFIX}/share/jamvm/classes/
 	unzip -o ${WRKSRC}/lib/classes.zip -d ${PREFIX}/share/jamvm/classes/
 
+.include "../../devel/libffi/buildlink3.mk"
+.include "../../devel/zlib/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

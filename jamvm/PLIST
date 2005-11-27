@@ -17,6 +17,9 @@ share/jamvm/classes/jamvm/java/lang/JarLauncher.class
 @dirrm share/jamvm/classes/java/lang/reflect
 @dirrm share/jamvm/classes/java/lang
 @dirrm share/jamvm/classes/jamvm/java/lang
+@dirrm share/jamvm/classes/jamvm/java
+@dirrm share/jamvm/classes/jamvm
 @dirrm share/jamvm/classes/gnu/classpath
+@dirrm share/jamvm/classes/gnu
 @dirrm share/jamvm/classes
 @dirrm share/jamvm
