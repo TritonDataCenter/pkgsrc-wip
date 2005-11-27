@@ -33,7 +33,7 @@ CONF_FILES= 		${EGDIR}/system.jwmrc ${PKG_SYSCONFDIR}/system.jwmrc
 .include "options.mk"
 
 .include "../../fonts/Xft2/buildlink3.mk"
-.include "../../graphics/xpm/buildlink3.mk"
 .include "../../graphics/png/buildlink3.mk"
+.include "../../graphics/xpm/buildlink3.mk"
 .include "../../mk/x11.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
