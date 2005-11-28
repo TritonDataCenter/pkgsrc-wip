@@ -33,6 +33,9 @@ SUBST_STAGE.freevo=	post-patch
 SUBST_FILES.freevo=	src/config.py
 SUBST_SED.freevo+=	-e 's|@@PKG_SYSCONFDIR@@|${PKG_SYSCONFDIR}|g'
 
+post-patch:
+	${CP} ${FILESDIR}/pygamejoy.py ${WRKSRC}/src/plugins/pygamejoy.py
+
 post-install:
 	${INSTALL_DATA_DIR} ${PREFIX}/share/examples/freevo
 	${INSTALL_DATA} ${WRKSRC}/local_conf.py.example \

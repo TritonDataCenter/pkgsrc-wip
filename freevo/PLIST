@@ -350,6 +350,9 @@ ${PYSITELIB}/freevo/plugins/mixer.pyo
 ${PYSITELIB}/freevo/plugins/ossmixer.py
 ${PYSITELIB}/freevo/plugins/ossmixer.pyc
 ${PYSITELIB}/freevo/plugins/ossmixer.pyo
+${PYSITELIB}/freevo/plugins/pygamejoy.py
+${PYSITELIB}/freevo/plugins/pygamejoy.pyc
+${PYSITELIB}/freevo/plugins/pygamejoy.pyo
 ${PYSITELIB}/freevo/plugins/rom_drives.py
 ${PYSITELIB}/freevo/plugins/rom_drives.pyc
 ${PYSITELIB}/freevo/plugins/rom_drives.pyo
