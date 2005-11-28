@@ -12,7 +12,7 @@ COMMENT=		The Invisible IRC Project
 
 
 BUILD_DIRS=		${WRKSRC}/src
-MAKE_FLAGS+=		CC=${CC:Q} LD=${CC:Q} LDFLAGS=${LDFLAGS:Q}
+MAKE_FLAGS+=		CC=${CC:Q} LD=${CC:Q} LDFLAGS=${LDFLAGS:M*:Q}
 MAKE_FLAGS+=		CFLAGS=${CFLAGS:Q}" "${CPPFLAGS:Q}" -I."
 
 do-install:

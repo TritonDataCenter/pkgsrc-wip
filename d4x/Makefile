@@ -21,7 +21,7 @@ LIBCOMPAT=	-lcompat
 LIBCOMPAT=	# none?
 .endif
 
-MAKE_ENV+=		LIBOSSAUDIO=${LIBOSSAUDIO} LIBCOMPAT=${LIBCOMPAT}
+MAKE_ENV+=		LIBOSSAUDIO=${LIBOSSAUDIO:Q} LIBCOMPAT=${LIBCOMPAT:Q}
 
 .include "../../x11/gtk2/buildlink3.mk"
 .include "../../mk/ossaudio.buildlink3.mk"

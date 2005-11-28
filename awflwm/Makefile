@@ -13,7 +13,7 @@ COMMENT=	Fork of the flwm project
 
 GNU_CONFIGURE=	yes
 CONFIGURE_ENV+=	X_LIBS="-lGL"
-MAKE_ENV+=	CXXFLAGS="${CXXFLAGS}"
+MAKE_ENV+=	CXXFLAGS=${CXXFLAGS:M*:Q}
 CXXFLAGS+=	-DFLTK_1_0_COMPAT
 
 .include "../../x11/fltk/buildlink3.mk"

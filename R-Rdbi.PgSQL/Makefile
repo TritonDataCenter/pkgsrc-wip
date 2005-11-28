@@ -15,7 +15,7 @@ DEPENDS+=	R-Rdbi>=0.1.2:../../wip/R-Rdbi
 .include "../../mk/bsd.prefs.mk"
 
 WRKSRC=		${WRKDIR}/Rdbi.PgSQL
-MAKE_ENV+=	PREFIX=${PREFIX}
+MAKE_ENV+=	PREFIX=${PREFIX:Q}
 
 post-patch:
 	${SED} -e 's:@PG_INC_PATH@:${PREFIX}/include:g' ${WRKSRC}/configure > ${WRKSRC}/configure.tmp

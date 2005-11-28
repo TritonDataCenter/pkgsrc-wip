@@ -19,7 +19,7 @@ EGDIR=			${PREFIX}/share/examples/brltty
 CONF_FILES=		${EGDIR}/brlapi.key ${PKG_SYSCONFDIR}/brlapi.key
 CONF_FILES+=		${EGDIR}/brltty.conf ${PKG_SYSCONFDIR}/brltty.conf
 
-MAKE_ENV+=		EGDIR=${EGDIR}
+MAKE_ENV+=		EGDIR=${EGDIR:Q}
 CONFIGURE_ARGS+=	--without-viavoice
 CONFIGURE_ARGS+=	--without-theta
 CONFIGURE_ARGS+=	--without-swift

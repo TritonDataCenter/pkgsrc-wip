@@ -15,7 +15,7 @@ BUILD_DEPENDS+=	rpm-[0-9]*:../../misc/rpm
 
 USE_X11BASE=	yes
 
-MAKE_ENV+=	FONTDIR=${FONTDIR}
+MAKE_ENV+=	FONTDIR=${FONTDIR:Q}
 
 FONTDIR=	${PREFIX}/lib/X11/fonts/thaixfonts/
 

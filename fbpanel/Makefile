@@ -24,7 +24,7 @@ CONFIGURE_ARGS+=	--cpu=off
 CONFIGURE_ARGS+=	--prefix=${PREFIX}
 
 PKGMANDIR?=		man
-MAKE_ENV+=		PKGMANDIR=${PKGMANDIR}
+MAKE_ENV+=		PKGMANDIR=${PKGMANDIR:Q}
 MANCOMPRESSED=		yes
 
 .include "../../x11/gtk2/buildlink3.mk"

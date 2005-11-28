@@ -16,8 +16,8 @@ DEPENDS+=		rep-gtk2>=0.18:../../wip/rep-gtk2
 CONFLICTS+=		sawfish-*
 CONFLICTS+=		sawfish-replibs-*
 
-CONFIGURE_ENV+=		PKGLOCALEDIR=${PKGLOCALEDIR}
-MAKE_ENV+=		PKGLOCALEDIR=${PKGLOCALEDIR}
+CONFIGURE_ENV+=		PKGLOCALEDIR=${PKGLOCALEDIR:Q}
+MAKE_ENV+=		PKGLOCALEDIR=${PKGLOCALEDIR:Q}
 BUILD_USES_MSGFMT=	YES
 GNU_CONFIGURE=		yes
 CONFIGURE_ARGS+=	--without-audiofile --without-esd
@@ -27,7 +27,7 @@ USE_PKGLOCALEDIR=	yes
 USE_MAKEINFO=		YES
 
 INFO_FILES=		sawfish.info
-PLIST_SUBST+=		SF_VERS=${SF_VERS}
+PLIST_SUBST+=		SF_VERS=${SF_VERS:Q}
 
 .include "../../x11/gtk2/buildlink3.mk"
 .include "../../lang/librep/buildlink3.mk"

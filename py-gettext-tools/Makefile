@@ -16,7 +16,7 @@ PYTHON_PATCH_SCRIPTS=		Tools/i18n/msgfmt.py Tools/i18n/pygettext.py
 
 # Why the hell it is not declared in python/pyvers.mk ?!
 # 	-- tech-pkg@NetBSD.org
-PLIST_SUBST+=			PYVERSSUFFIX=${PYVERSSUFFIX}
+PLIST_SUBST+=			PYVERSSUFFIX=${PYVERSSUFFIX:Q}
 
 do-patch:
 	@echo "Patches ignored"

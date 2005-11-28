@@ -38,9 +38,9 @@ PKG_SUPPORTED_OPTIONS=	gd
 .  include "../../graphics/gd/buildlink3.mk"
 .endif
 
-FILES_SUBST+=		SARG_REPORTSDIR=${SARG_REPORTSDIR}		\
-			SG_LOG=${SG_LOG}				\
-			SQUID_ACCESSLOG=${SQUID_ACCESSLOG}
+FILES_SUBST+=		SARG_REPORTSDIR=${SARG_REPORTSDIR:Q}		\
+			SG_LOG=${SG_LOG:Q}				\
+			SQUID_ACCESSLOG=${SQUID_ACCESSLOG:Q}
 SUBST_CLASSES+=		sargconf sargsrc
 SUBST_MESSAGE.sargconf=	"[Adjust values in SARG configuration files]"
 SUBST_MESSAGE.sargsrc=	"[Adjust values in SARG sources]"

@@ -12,8 +12,8 @@ COMMENT=		Visual stimulus creation and control in Python
 
 PY_PATCHPLIST=		yes
 PYDISTUTILSPKG=		yes
-MAKE_ENV+=		PYVERSSUFFIX=${PYVERSSUFFIX}
-PLIST_SUBST+=		PYVERSSUFFIX=${PYVERSSUFFIX}
+MAKE_ENV+=		PYVERSSUFFIX=${PYVERSSUFFIX:Q}
+PLIST_SUBST+=		PYVERSSUFFIX=${PYVERSSUFFIX:Q}
 
 .if exists(../../mk/opengl.buildlink3.mk)
 # see PR 23845 for details

@@ -10,7 +10,7 @@ COMMENT=	FidoNet mailer
 
 USE_TOOLS+=	gmake
 
-MAKE_ENV+=	SH="${SH}" AWK="${AWK}" MORDA="${QCC}"
+MAKE_ENV+=	SH=${SH:Q} AWK=${AWK:Q} MORDA=${QCC:Q}
 
 .if defined(WITH_QCC)
 QCC=		1

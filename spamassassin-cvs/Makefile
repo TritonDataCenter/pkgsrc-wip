@@ -168,8 +168,8 @@ INTERPRETER_SUPPORT=	YES
 .endif
 
 # These values are substituted into netbsd-rc-script.sh.
-FILES_SUBST+=		INTERPRETER_SUPPORT="${INTERPRETER_SUPPORT}"
-FILES_SUBST+=		OPSYS="${OPSYS}"
+FILES_SUBST+=		INTERPRETER_SUPPORT=${INTERPRETER_SUPPORT:Q}
+FILES_SUBST+=		OPSYS=${OPSYS:Q}
 
 pre-configure: perl5-configure
 

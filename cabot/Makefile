@@ -22,7 +22,7 @@ REPLACE_PERL=		Cabot.pm ca-createsendout ca-recv ca-sendout ca-dosign
 EGDIR=			${PREFIX}/share/examples/cabot
 CONF_FILES+=            ${EGDIR}/cabot.conf ${PKG_SYSCONFDIR}/cabot.conf
 CONFIGURE_ARGS+=	--sysconfdir=${PKG_SYSCONFDIR}
-MAKE_ENV+=		PKG_PERL5_SITELIB=${PERL5_INSTALLVENDORLIB}
+MAKE_ENV+=		PKG_PERL5_SITELIB=${PERL5_INSTALLVENDORLIB:Q}
 
 pre-install:
 	${INSTALL_DATA_DIR} ${EGDIR}

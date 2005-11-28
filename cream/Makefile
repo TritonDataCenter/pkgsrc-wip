@@ -15,7 +15,7 @@ NO_BUILD=		yes
 
 .include "../../editors/vim-share/version.mk"
 VIMRUNTIME=		${PREFIX}/share/vim/${VIM_SUBDIR}
-PLIST_SUBST+=		VIM_SUBDIR=${VIM_SUBDIR}
+PLIST_SUBST+=		VIM_SUBDIR=${VIM_SUBDIR:Q}
 
 .include "../../mk/bsd.prefs.mk"
 

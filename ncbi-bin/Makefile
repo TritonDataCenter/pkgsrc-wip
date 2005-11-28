@@ -15,7 +15,7 @@ PKG_VER=		20040505
 WRKSRC=			${WRKDIR}/ncbi
 DIST_SUBDIR=		${PKGNAME_NOREV}
 
-MAKE_ENV+=		PREFIX=${PREFIX}
+MAKE_ENV+=		PREFIX=${PREFIX:Q}
 
 do-build:
 	cd ${WRKSRC}/.. && ${SETENV} ${MAKE_ENV} ${CSH} ncbi/make/makedis.csh

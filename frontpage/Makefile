@@ -65,7 +65,7 @@ FPGRP?=		${BINGRP}
 
 MOD_FPDOCDIR=	share/httpd/htdocs/manual/frontpage
 
-PLIST_SUBST+=	FP_VER=${FP_VER}
+PLIST_SUBST+=	FP_VER=${FP_VER:Q}
 
 METALOG=	${WRKDIR}/.METALOG
 

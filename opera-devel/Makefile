@@ -72,7 +72,7 @@ CONF_FILES+=		${PREFIX}/share/opera/config/opera6rc.fixed \
 			/etc/opera6rc.fixed
 .  endif
 
-PLIST_SUBST+=		OPERA_VER_DATE=${OPERA_VER_DATE}
+PLIST_SUBST+=		OPERA_VER_DATE=${OPERA_VER_DATE:Q}
 PLIST_SUBST+=		OPERA_PKG_VERSION=${OPERA_PKG_VERSION:C/u.*//}
 
 .endif

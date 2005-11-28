@@ -18,7 +18,7 @@ USE_TOOLS+=		gmake perl:run
 ANOPE_GROUP?=		anope
 PKG_GROUPS=		${ANOPE_GROUP}
 BUILD_DEFS+=		ANOPE_GROUP
-MAKE_ENV+=		RUNGROUP=${ANOPE_GROUP}
+MAKE_ENV+=		RUNGROUP=${ANOPE_GROUP:Q}
 
 CONF_FILES+=		${PREFIX}/share/examples/anope/example.conf \
 			${PREFIX}/share/anope/services.conf

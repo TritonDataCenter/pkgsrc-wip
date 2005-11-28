@@ -39,8 +39,8 @@ EXAMPLEDIR=		${PREFIX}/share/examples/postgis
 HTMLDIR=		${PREFIX}/share/doc/html/postgis
 SQLDIR=			${PREFIX}/share/postgresql
 
-MAKE_ENV+=		PROJ_DIR=${PREFIX}
-MAKE_ENV+=		GEOS_DIR=${PREFIX}
+MAKE_ENV+=		PROJ_DIR=${PREFIX:Q}
+MAKE_ENV+=		GEOS_DIR=${PREFIX:Q}
 
 # install postgis source within contrib directory
 pre-build:

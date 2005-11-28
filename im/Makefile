@@ -11,7 +11,7 @@ COMMENT=	Set of user interfaces of Email and NetNews
 
 USE_TOOLS+=	perl:run
 GNU_CONFIGURE=	yes
-CONFIGURE_ENV=	im_path_perl=${PERL5}
+CONFIGURE_ENV=	im_path_perl=${PERL5:Q}
 CONFIGURE_ARGS= --libdir=${PREFIX}/etc
 # If you use RPOP instead of APOP, comment out following line.
 #CONFIGURE_ARGS+=--enable-rpop

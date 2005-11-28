@@ -13,11 +13,11 @@ USE_TOOLS+=		gmake
 USE_PKGLOCALEDIR=	yes
 HAS_CONFIGURE=		yes
 CONFIGURE_SCRIPT=	./Configure
-CONFIGURE_ARGS+=	-d -e -r -s -D prefix="${PREFIX}" -D cc="${CC}" \
+CONFIGURE_ARGS+=	-d -e -r -s -D prefix=${PREFIX:Q} -D cc=${CC:Q} \
 			-D privlib="${PREFIX}/share/gtk-gnutella" \
-			-D sysman="${PREFIX}/man" -D cflags="${CFLAGS}" \
+			-D sysman="${PREFIX}/man" -D cflags=${CFLAGS:M*:Q} \
 			-D locale="${PREFIX}/${PKGLOCALEDIR}/locale" \
-			-D optimize="${COPTS}" -D gtkversion=2 -D yacc="yacc"
+			-D optimize=${COPTS:Q} -D gtkversion=2 -D yacc="yacc"
 
 CONFLICTS=		gtk-gnutella-*
 

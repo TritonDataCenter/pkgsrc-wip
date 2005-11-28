@@ -17,7 +17,7 @@ PYDISTUTILSPKG=		yes
 
 PYTHON_PATCH_SCRIPTS=	songwrite
 
-PLIST_SUBST+=		PYVERSSUFFIX=${PYVERSSUFFIX}
+PLIST_SUBST+=		PYVERSSUFFIX=${PYVERSSUFFIX:Q}
 
 SW_FILES= 	__init__.py asciitab.py drum.py fourml.py globdef.py \
 		gp3_loader.py init_editobj.py latex.py lilypond.py lyric.py \

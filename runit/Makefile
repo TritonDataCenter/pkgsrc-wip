@@ -17,7 +17,7 @@ DOCDIR=		${PREFIX}/share/doc/${PKGBASE}
 DOCS=		package/CHANGES package/COPYING package/README \
 		package/THANKS doc/*.html
 
-PLIST_SUBST+=	SERVICEDIR=${SERVICEDIR}
+PLIST_SUBST+=	SERVICEDIR=${SERVICEDIR:Q}
 DEINSTALL_FILE=	${WRKDIR}/.DEINSTALL
 
 INSTALLATION_DIRS= man man/man8 sbin share/examples/runit

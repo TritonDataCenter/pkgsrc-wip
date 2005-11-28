@@ -13,7 +13,7 @@ COMMENT=		Paralell computation system
 PY_PATCHPLIST=		yes
 NO_BUILD=		yes
 
-PLIST_SUBST+=		PYPKGPREFIX=${PYPKGPREFIX}
+PLIST_SUBST+=		PYPKGPREFIX=${PYPKGPREFIX:Q}
 
 BRENDA_FILES=		Brenda.py einRpc.py myMath.py niftySocket.py
 BRENDA_SHARE=		INSTALL LICENSE NEWS QuickStart README TODO examples/hello.py

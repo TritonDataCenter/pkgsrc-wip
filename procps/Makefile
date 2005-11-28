@@ -16,7 +16,7 @@ ONLY_FOR_PLATFORM=	Linux-*-*
 CONFLICTS+=		top-[0-9]*
 
 USE_TOOLS+=		gmake
-MAKE_ENV+=		DESTDIR=${PREFIX}
+MAKE_ENV+=		DESTDIR=${PREFIX:Q}
 
 .include "../../devel/ncurses/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

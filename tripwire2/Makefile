@@ -23,7 +23,7 @@ SYSPRE=i386-unknown-openbsd
 SYSPRE=i386-unknown-freebsd
 .endif
 
-MAKE_ENV+=	SYSPRE=${SYSPRE}
+MAKE_ENV+=	SYSPRE=${SYSPRE:Q}
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/../bin/${SYSPRE}/* \

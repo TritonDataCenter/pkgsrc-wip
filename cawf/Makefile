@@ -15,7 +15,7 @@ COMMENT=	nroff-like text formatter
 CAWFLIB=	${PREFIX}/share/cawf
 PLIST_SUBST+=   CAWFLIB=share/cawf
 BUILD_DEFS+=	CAWFLIB
-MAKE_FLAGS+=	CAWFLIB=${CAWFLIB}
+MAKE_FLAGS+=	CAWFLIB=${CAWFLIB:Q}
 
 post-extract:
 	${MV} ${WRKSRC}/cawf.1 ${WRKSRC}/cawf.1.orig && \

@@ -15,7 +15,7 @@ REL_EGDIR=		share/examples/plugger
 EGDIR=			${PREFIX}/${REL_EGDIR}
 CONF_FILES=		${EGDIR}/pluggerrc ${PKG_SYSCONFDIR}/pluggerrc
 
-PLIST_SUBST+=		EGDIR=${REL_EGDIR}
+PLIST_SUBST+=		EGDIR=${REL_EGDIR:Q}
 
 do-install:
 	${INSTALL_DATA_DIR} ${EGDIR}

@@ -13,7 +13,7 @@ USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 
 GAUCHE_VERSION!=	gauche-config -V
-PLIST_SUBST+=		GAUCHE_VERSION=${GAUCHE_VERSION}
+PLIST_SUBST+=		GAUCHE_VERSION=${GAUCHE_VERSION:Q}
 
 .include "../../lang/gauche/buildlink3.mk"
 .include "../../www/fcgi/buildlink3.mk"

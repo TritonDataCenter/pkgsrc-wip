@@ -11,7 +11,7 @@ COMMENT=	SMTP, POP3 and finder server
 
 USE_TOOLS+=	gmake
 
-MAKE_ENV+=	OSTYPE=${OPSYS}
+MAKE_ENV+=	OSTYPE=${OPSYS:Q}
 
 .include "../../mk/bsd.prefs.mk"
 

@@ -28,8 +28,8 @@ CONFIGURE_ARGS+=	--prefix=${PREFIX}
 # Slackware 9, so build without MMX support for now.
 CONFIGURE_ARGS+=	--disable-mmx
 
-MAKE_ENV+=		QTPREFIX=${QTPREFIX}
-MAKE_ENV+=		QTDIR=${QTPREFIX}
+MAKE_ENV+=		QTPREFIX=${QTPREFIX:Q}
+MAKE_ENV+=		QTDIR=${QTPREFIX:Q}
 
 # needed to find qmake
 PATH:=			${PATH}:${QTPREFIX}/bin

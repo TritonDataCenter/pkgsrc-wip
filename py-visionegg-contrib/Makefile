@@ -12,7 +12,7 @@ HOMEPAGE=		http://visionegg.sourceforge.net/
 COMMENT=		Additional modules for py-visionegg package
 
 NO_BUILD=		yes
-PLIST_SUBST+=		PYVERSSUFFIX=${PYVERSSUFFIX}
+PLIST_SUBST+=		PYVERSSUFFIX=${PYVERSSUFFIX:Q}
 
 PY_VC_FILES_LABVIEW=	"Edit Grating C.vi" \
 			"Grating C to A.vi" \

@@ -10,7 +10,7 @@ COMMENT=	Simple chat using ICMP and Rijndael-256 encryptation
 
 USE_TOOLS+=	gmake
 
-MAKE_ENV+=	LIBS=${LIBS:Q}
+MAKE_ENV+=	LIBS=${LIBS:M*:Q}
 LIBS.SunOS+=	-lnsl -lsocket -lresolv
 
 .include	"../../mk/bsd.pkg.mk"

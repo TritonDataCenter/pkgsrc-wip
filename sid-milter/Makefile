@@ -16,7 +16,7 @@ BUILDLINK_DEPENDS.libmilter+=	libmilter>=8.13.0
 USE_BUILTIN.libmilter=	NO
 LICENSE=		no-profit
 USE_TOOLS+=		gm4
-MAKE_ENV+=		M4="${M4}"
+MAKE_ENV+=		M4=${M4:Q}
 PTHREAD_OPTS+=		require
 USE_PKGINSTALL=		YES
 RCD_SCRIPTS=		sidmilter

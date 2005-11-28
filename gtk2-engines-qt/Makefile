@@ -20,9 +20,9 @@ GNU_CONFIGURE=		yes
 
 # needed
 CONFIGURE_ENV+=		PKG_CONFIG=${PREFIX}/bin/pkg-config \
-			QTDIR=${QTDIR}
-MAKE_ENV+=		QTDIR=${QTDIR}
-MAKE_FLAGS+=		QTDIR=${QTDIR}
+			QTDIR=${QTDIR:Q}
+MAKE_ENV+=		QTDIR=${QTDIR:Q}
+MAKE_FLAGS+=		QTDIR=${QTDIR:Q}
 
 .include "../../x11/gtk2/buildlink3.mk"
 .include "../../x11/qt3-libs/buildlink3.mk"

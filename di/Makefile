@@ -8,7 +8,7 @@ MAINTAINER=	dhowland@users.sourceforge.net
 HOMEPAGE=	http://www.gentoo.com/di/
 COMMENT=	Command-line disk information utility
 
-MAKE_ENV+=	prefix=${PREFIX}
+MAKE_ENV+=	prefix=${PREFIX:Q}
 
 USE_PKGLOCALEDIR=	yes
 
