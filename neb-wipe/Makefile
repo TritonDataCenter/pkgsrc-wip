@@ -1,8 +1,8 @@
 # $NetBSD$
 #
 
-DISTNAME=		neb-wipe-src-0.9
-PKGNAME=		neb-wipe-0.9
+DISTNAME=		neb-wipe-src-0.9.1
+PKGNAME=		neb-wipe-0.9.1
 CATEGORIES=		sysutils
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=neb-stoehr/}
 EXTRACT_SUFX=		.tgz
