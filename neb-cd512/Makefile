@@ -1,8 +1,8 @@
 # $NetBSD$
 #
 
-DISTNAME=		neb-cd512-src-0.9
-PKGNAME=		neb-cd512-0.9
+DISTNAME=		neb-cd512-src-0.9.1
+PKGNAME=		neb-cd512-0.9.1
 CATEGORIES=		sysutils
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=neb-stoehr/}
 EXTRACT_SUFX=		.tgz
