@@ -23,8 +23,6 @@ MAKE_ENV+=		RUNGROUP=${ANOPE_GROUP:Q}
 CONF_FILES+=		${PREFIX}/share/examples/anope/example.conf \
 			${PREFIX}/share/anope/services.conf
 
-CONFIGURE_ARGS+=	--without-encryption
-CONFIGURE_ARGS+=	--without-mysql
 CONFIGURE_ARGS+=	--with-permissions=077
 CONFIGURE_ARGS+=	--with-bindir=${PREFIX}/share/anope
 CONFIGURE_ARGS+=	--with-datadir=${PREFIX}/share/anope
