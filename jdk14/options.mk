@@ -11,8 +11,8 @@ PKG_OPTIONS_LEGACY_VARS+=	JDK14_USE_JCE:jdk14-jce
 ### Java(TM) Cryptography Extension (JCE)
 ###
 .if !empty(PKG_OPTIONS:Mjdk14-jce)
-DISTFILES+=	jce_policy-1_4_2.zip
-PLIST_SRC+=	PLIST.jce
+DISTFILES+=			jce_policy-1_4_2.zip
+PLIST_SRC+=			PLIST.jce
 post-build:
 	cd ${WRKDIR}/jce ; ${PAX} -rw -pe . ${JDKIMAGEDIR}/jre/lib/security
 .endif
