@@ -11,7 +11,6 @@ HOMEPAGE=		http://www.unixpapa.com/gate.html
 COMMENT=		Lightweight text editor
 
 GNU_CONFIGURE=		yes
-CONFIGURE_ARGS+=	--prefix=${PREFIX}
 BUILD_TARGET=		# empty
 
 .include	"../../mk/bsd.pkg.mk"
