@@ -1,7 +1,7 @@
 # $NetBSD$
 
-PKG_OPTIONS_VAR=	PKG_OPTIONS.anope 
-PKG_SUPPORTED_OPTIONS=	mysql unrealircd ircd-hybrid db-encryption
+PKG_OPTIONS_VAR=	PKG_OPTIONS.anope
+PKG_SUPPORTED_OPTIONS=	mysql db-encryption
 
 .include "../../mk/bsd.options.mk"
 
@@ -19,18 +19,4 @@ CONFIGURE_ARGS+=	--without-mysql
 ###
 .if !empty(PKG_OPTIONS:Mmysql) && !empty(PKG_OPTIONS:Mdb-encryption)
 CONFIGURE_ARGS+=	--with-encryption
-.endif
-
-###
-### Use UnrealIRCd IRC server
-###
-.if !empty(PKG_OPTIONS:Munrealircd)
-DEPENDS+=		unrealircd>=3.1:../../wip/unrealircd
-.endif
-
-###
-### Use ircd-hybrid IRC server
-###
-.if !empty(PKG_OPTIONS:Mircd-hybrid)
-DEPENDS+=		ircd-hybrid>=7.0:../../chat/ircd-hybrid
 .endif
