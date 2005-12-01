@@ -1,8 +1,8 @@
 # $NetBSD$
 #
 
-DISTNAME=		Kahua-0.3.2
-CATEGORIES=		www
+DISTNAME=		Kahua-0.3.4
+CATEGORIES=		wip
 MASTER_SITES=		http://www.kahua.org/download/kahua/
 EXTRACT_SUFX=		.tgz
 
