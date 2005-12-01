@@ -10,7 +10,6 @@ HOMEPAGE=		http://www.clex.sk/download/
 COMMENT=		File manager with a full-screen user interface
 
 USE_NCURSES=		# enter_{bold,reverse,underline}_mode
-USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 
 .include "../../devel/ncurses/buildlink3.mk"
