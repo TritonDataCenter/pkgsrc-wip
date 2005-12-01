@@ -1,3 +1,9 @@
 $NetBSD$
-To-Do lsit for libp11:
-- Package should be ready
+Doesn't build on NetBSD-3.0_BETA with the following error:
+
+  configure: error: Package requirements (openssl) were not met.
+  Consider adjusting the PKG_CONFIG_PATH environment variable if you
+  installed software in a non-standard prefix.
+
+  Alternatively you may set the OPENSSL_CFLAGS and OPENSSL_LIBS
+  environment variables to avoid the need to call pkg-config.
