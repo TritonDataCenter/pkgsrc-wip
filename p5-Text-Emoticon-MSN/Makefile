@@ -5,7 +5,7 @@ PKGNAME=        p5-${DISTNAME}
 CATEGORIES=	textproc perl5
 MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=../../authors/id/M/MI/MIYAGAWA/}
 
-MAINTAINER=	kuli0020@NetBSD.org
+MAINTAINER=	kuli0020@umn.edu
 HOMEPAGE=	http://cpan.uwinnipeg.ca/dist/Text-Emoticon-MSN
 COMMENT=	Emoticon filter of MSN Messenger
 
