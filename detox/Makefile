@@ -2,6 +2,7 @@
 #
 
 DISTNAME=		detox-1.2.0-rc1
+PKGNAME=		${DISTNAME:S/-rc/rc}
 CATEGORIES=		sysutils
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=detox/}
 EXTRACT_SUFX=		.tar.bz2
