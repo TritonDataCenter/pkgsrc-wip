@@ -9,7 +9,7 @@ MAINTAINER=		bartosz@atom.eu.org
 HOMEPAGE=		http://www.clex.sk/download/
 COMMENT=		File manager with a full-screen user interface
 
-USE_NCURSES=		yes
+USE_NCURSES=		# enter_{bold,reverse,underline}_mode
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 
