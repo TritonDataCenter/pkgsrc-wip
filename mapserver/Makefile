@@ -40,12 +40,6 @@ CFLAGS+=		-I${PREFIX}/include/php/regex
 CFLAGS+=		-I${PREFIX}/include/php
 CFLAGS+=		-I${WRKSRC}
 
-PKG_OPTIONS_VAR=	PKG_OPTIONS.mapserver
-PKG_SUPPORTED_OPTIONS=	postgresql73 postgresql74 postgresql80
-PKG_SUGGESTED_OPTIONS=	postgresql80
-
-.include "../../mk/bsd.options.mk"
-
 do-install:
 	${INSTALL_DATA} ${WRKSRC}/libmap.a ${PREFIX}/lib
 	${INSTALL_DATA} ${WRKSRC}/map.h ${PREFIX}/include
