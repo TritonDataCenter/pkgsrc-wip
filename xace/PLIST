@@ -1,0 +1,5 @@
+@comment $NetBSD$
+bin/xace
+share/doc/xace/README
+share/doc/xace/forth.txt
+share/xace/ace.rom
