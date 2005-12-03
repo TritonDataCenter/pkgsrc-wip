@@ -5,9 +5,9 @@ DISTNAME=		xace-0.4
 CATEGORIES=		emulators
 MASTER_SITES=		http://hem.passagen.se/tiletech/
 
-MAINTAINER=		xmor61@users.sourceforge.net
-HOMEPAGE=		${MASTER_SITES}/ace.html
-COMMENT=		Jupiter Ace Emulator
+MAINTAINER=		ben@NetBSD.org
+HOMEPAGE=		${MASTER_SITES}ace.html
+COMMENT=		Jupiter Ace emulator
 
 EXTR_PREFIX=		.tar.gz
 ONLY_FOR_PLATFORM+=	*-i386
