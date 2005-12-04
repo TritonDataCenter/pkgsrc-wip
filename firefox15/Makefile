@@ -16,6 +16,8 @@ MAINTAINER=		geert.hendrickx@ua.ac.be
 COMMENT=		Standalone web-browser by Mozilla
 HOMEPAGE=		http://www.mozilla.com/firefox/
 
+BUILD_DEPENDS+=		zip>=2.3:../../archivers/zip
+
 WRKSRC=			${WRKDIR}/mozilla
 
 GNU_CONFIGURE=		yes
