@@ -1,0 +1,4 @@
+$NetBSD$
+To-do list for php-recode:
+- Fix pkg/32253 before importing this package
+- Package should be ready for deployment
