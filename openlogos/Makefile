@@ -13,7 +13,7 @@ USE_TOOLS+=	gmake
 USE_LIBTOOL=	YES
 GNU_CONFIGURE=	YES
 USE_JAVA=	YES
-CONFIGURE_ARGS+=	--with-java=${PKG_JAVA_HOME}
+CONFIGURE_ARGS+=	--with-java=${PKG_JAVA_HOME:Q}
 
 .include "../../devel/libltdl/buildlink3.mk"
 .include "../../databases/unixodbc/buildlink3.mk"

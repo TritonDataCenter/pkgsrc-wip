@@ -46,7 +46,7 @@ CONFIGURE_ARGS+=	--without-faad-prefix
 
 .if !empty(PKG_OPTIONS:Mqt)
 .include "../../x11/qt3-libs/buildlink3.mk"
-CONFIGURE_ARGS+=	--with-qt-prefix=${QTDIR}
+CONFIGURE_ARGS+=	--with-qt-prefix=${QTDIR:Q}
 PLIST_SUBST+=		QT_COMMENT=
 .else
 CONFIGURE_ARGS+=	--without-qt

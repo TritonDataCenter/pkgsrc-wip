@@ -15,9 +15,9 @@ USE_LIBTOOL=		yes
 USE_PKGINSTALL= 	yes
 GNU_CONFIGURE=		yes
 
-CONFIGURE_ARGS+=	--sysconfdir=${PKG_SYSCONFDIR}
-CONFIGURE_ARGS+=	--localstatedir=${VARBASE}
-CONFIGURE_ARGS+=	--with-ssldir=${SSLCERTS}
+CONFIGURE_ARGS+=	--sysconfdir=${PKG_SYSCONFDIR:Q}
+CONFIGURE_ARGS+=	--localstatedir=${VARBASE:Q}
+CONFIGURE_ARGS+=	--with-ssldir=${SSLCERTS:Q}
 
 .include "../../mk/bsd.prefs.mk"
 .include "options.mk"

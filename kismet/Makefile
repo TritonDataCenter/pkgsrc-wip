@@ -32,7 +32,7 @@ CONF_FILES+=		${EGDIR}/kismet_ui.conf.default		\
 				${PKG_SYSCONFDIR}/kismet_ui.conf
 OWN_DIRS_PERMS+=	${VARBASE}/log/kismet ${KISMET_USER} ${KISMET_GROUP} 0700
 
-CONFIGURE_ARGS+=	--sysconfdir=${PKG_SYSCONFDIR}
+CONFIGURE_ARGS+=	--sysconfdir=${PKG_SYSCONFDIR:Q}
 
 SUBST_CLASSES+=		user
 SUBST_MESSAGE.user=	"Fixing user name."

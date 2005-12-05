@@ -15,8 +15,8 @@ GNU_CONFIGURE=		yes
 USE_TOOLS+=		autoconf
 CONFIGURE_ARGS+=	--enable-bindir=${PREFIX}/sbin			\
 			--enable-mandir=${PREFIX}/man/man1		\
-			--enable-sysconfdir=${DATADIR}			\
-			--enable-htmldir=${SARG_REPORTSDIR}
+			--enable-sysconfdir=${DATADIR:Q}			\
+			--enable-htmldir=${SARG_REPORTSDIR:Q}
 
 USE_PKGINSTALL=		yes
 

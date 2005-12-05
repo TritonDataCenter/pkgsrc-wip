@@ -10,7 +10,7 @@ HOMEPAGE=		http://www.molspaces.com/cb2bib/
 COMMENT=		Extract and organize bibliographic references
 
 QTPREFIX=		${PREFIX}/qt3
-CONFIGURE_ENV+=		QTDIR=${QTPREFIX}
+CONFIGURE_ENV+=		QTDIR=${QTPREFIX:Q}
 
 USE_DIRS+=              xdg-1.2
 USE_TOOLS+=		gmake

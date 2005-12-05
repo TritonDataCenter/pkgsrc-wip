@@ -15,14 +15,14 @@ GNU_CONFIGURE=		yes
 CONFIGURE_ARGS+=	--with-curl-config		\
 			--with-tiff			\
 			--with-pdf			\
-			--with-php=${PREFIX}		\
+			--with-php=${PREFIX:Q}		\
 			--with-proj			\
 			--with-ogr			\
 			--with-gdal			\
 			--with-postgis			\
 			--with-libiconv			\
 			--with-zlib			\
-			--with-gd=${PREFIX}		\
+			--with-gd=${PREFIX:Q}		\
 			--with-tiff			\
 			--with-xpm=${PREFIX}/lib	\
 			--with-jpeg			\

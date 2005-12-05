@@ -14,6 +14,6 @@ USE_PKGLOCALEDIR=	yes
 HAS_CONFIGURE=		yes
 USE_TOOLS+=		gmake
 
-CONFIGURE_ARGS+=--prefix=${PREFIX}
+CONFIGURE_ARGS+=--prefix=${PREFIX:Q}
 
 .include "../../mk/bsd.pkg.mk"

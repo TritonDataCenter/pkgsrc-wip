@@ -13,6 +13,6 @@ COMMENT=		Unix Amiga Delitracker Emulator
 USE_PKGLOCALEDIR=	yes
 HAS_CONFIGURE=		yes
 
-CONFIGURE_ARGS=--with-oss --without-xmms --without-bmp --prefix=${PREFIX}
+CONFIGURE_ARGS=--with-oss --without-xmms --without-bmp --prefix=${PREFIX:Q}
 
 .include "../../mk/bsd.pkg.mk"

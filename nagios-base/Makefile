@@ -18,10 +18,10 @@ CONFIGURE_ARGS+=	--with-gd-lib=${LOCALBASE}/lib		\
 			--enable-embedded-perl			\
 			--with-perlcache
 
-CONFIGURE_ARGS+=	--with-nagios-user=${NAGIOS_USER}
-CONFIGURE_ARGS+=	--with-nagios-grp=${NAGIOS_GROUP}
-CONFIGURE_ARGS+=	--with-command-user=${ROOT_USER}
-CONFIGURE_ARGS+=	--with-command-grp=${ROOT_GROUP}
+CONFIGURE_ARGS+=	--with-nagios-user=${NAGIOS_USER:Q}
+CONFIGURE_ARGS+=	--with-nagios-grp=${NAGIOS_GROUP:Q}
+CONFIGURE_ARGS+=	--with-command-user=${ROOT_USER:Q}
+CONFIGURE_ARGS+=	--with-command-grp=${ROOT_GROUP:Q}
 CONFIGURE_ARGS+=	--with-init-dir=${PREFIX}/etc/rc.d
 CONFIGURE_ARGS+=	--with-lockfile=${VARBASE}/run/nagios/nagios.lock
 

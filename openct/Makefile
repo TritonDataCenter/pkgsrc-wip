@@ -16,7 +16,7 @@ USE_TOOLS+= 		gmake pkg-config
 .include "options.mk"
 
 CONFIGURE_ARGS+=	--localstatedir=${VARBASE}/openct
-CONFIGURE_ARGS+=	--sysconfdir=${PKG_SYSCONFDIR}
+CONFIGURE_ARGS+=	--sysconfdir=${PKG_SYSCONFDIR:Q}
 EGDIR=			${PREFIX}/share/examples/openct
 RCD_SCRIPTS=		openct
 MAKE_DIRS+=		${VARBASE}/openct

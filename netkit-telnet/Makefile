@@ -13,7 +13,7 @@ USE_PKGLOCALEDIR=	yes
 HAS_CONFIGURE=		yes
 USE_TOOLS+=		gmake
 
-CONFIGURE_ARGS+=--prefix=${PREFIX}
+CONFIGURE_ARGS+=--prefix=${PREFIX:Q}
 
 SUBST_CLASSES+=	warn
 SUBST_STAGE.warn=pre-configure

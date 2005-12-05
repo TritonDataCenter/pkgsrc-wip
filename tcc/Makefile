@@ -24,6 +24,6 @@ SUBST_STAGE.ldl=post-patch
 SUBST_SED.ldl=-e 's,LIBS=,\#LIBS,'
 .endif
 
-CONFIGURE_ARGS+=	--prefix=${PREFIX}
+CONFIGURE_ARGS+=	--prefix=${PREFIX:Q}
 
 .include "../../mk/bsd.pkg.mk"

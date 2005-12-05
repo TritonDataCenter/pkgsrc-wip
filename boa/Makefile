@@ -10,7 +10,7 @@ HOMEPAGE=	http://www.boa.org/
 COMMENT=	Small HTTP server
 
 PKG_SYSCONFSUBDIR=	boa
-CONFIGURE_ARGS+=	--sysconfdir=${PKG_SYSCONFDIR}
+CONFIGURE_ARGS+=	--sysconfdir=${PKG_SYSCONFDIR:Q}
 EGDIR=		${PREFIX}/share/examples/boa
 GNU_CONFIGURE=	YES
 USE_TOOLS+=	gmake lex

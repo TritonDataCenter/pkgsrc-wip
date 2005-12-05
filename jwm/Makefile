@@ -19,7 +19,7 @@ USE_PKGINSTALL=		yes
 CONFIGURE_ARGS+=	--enable-xinerama
 .endif
 
-CONFIGURE_ARGS+=	--sysconfdir=${PKG_SYSCONFDIR}
+CONFIGURE_ARGS+=	--sysconfdir=${PKG_SYSCONFDIR:Q}
 
 SUBST_CLASSES+=		egdir
 SUBST_STAGE.egdir=	pre-configure

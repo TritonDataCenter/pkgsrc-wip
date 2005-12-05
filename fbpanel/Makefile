@@ -21,7 +21,7 @@ CONFIGURE_ARGS+=	--cpu=on
 CONFIGURE_ARGS+=	--cpu=off
 .endif
 
-CONFIGURE_ARGS+=	--prefix=${PREFIX}
+CONFIGURE_ARGS+=	--prefix=${PREFIX:Q}
 
 PKGMANDIR?=		man
 MAKE_ENV+=		PKGMANDIR=${PKGMANDIR:Q}

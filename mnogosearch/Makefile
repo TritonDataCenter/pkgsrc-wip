@@ -27,8 +27,8 @@ CONF_FILES+=		${EGDIR}/spelld.conf-dist \
 			${PKG_SYSCONFDIR}/spelld.conf
 
 CONFIGURE_ARGS+=        --with-openssl=${BUILDLINK_PREFIX.openssl}
-CONFIGURE_ARGS+=	--localstatedir=${MNOGOSEARCH_DATADIR}
-CONFIGURE_ARGS+=	--sysconfdir=${PKG_SYSCONFDIR}
+CONFIGURE_ARGS+=	--localstatedir=${MNOGOSEARCH_DATADIR:Q}
+CONFIGURE_ARGS+=	--sysconfdir=${PKG_SYSCONFDIR:Q}
 
 .if defined(USE_MYSQL) && ${USE_MYSQL} == YES
 .include "../../databases/mysql4-client/buildlink3.mk"

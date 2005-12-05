@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.11 2005/11/05 13:16:32 poppnk Exp $
+# $Id: Makefile,v 1.12 2005/12/05 22:27:46 rillig Exp $
 # $NetBSD$
 
 DISTNAME=	muttng-20051104
@@ -38,7 +38,7 @@ CONFIGURE_ARGS+=	--enable-debug
 .endif
 
 .if !empty(PKG_OPTIONS:Mgssapi)
-CONFIGURE_ARGS+=	--with-gss=${KRB5BASE}
+CONFIGURE_ARGS+=	--with-gss=${KRB5BASE:Q}
 .include "../../mk/krb5.buildlink3.mk"
 .else
 CONFIGURE_ARGS+=	--without-gss

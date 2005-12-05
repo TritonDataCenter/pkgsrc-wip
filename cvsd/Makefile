@@ -14,7 +14,7 @@ USE_TOOLS+=		gmake perl
 USE_PKGINSTALL=		YES
 GNU_CONFIGURE=		YES
 
-CONFIGURE_ARGS+=	--sysconfdir=${PKG_SYSCONFDIR}
+CONFIGURE_ARGS+=	--sysconfdir=${PKG_SYSCONFDIR:Q}
 CONFIGURE_ARGS+=	--with-libwrap
 
 RCD_SCRIPTS=		cvsd

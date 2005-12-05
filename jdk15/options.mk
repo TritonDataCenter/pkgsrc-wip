@@ -25,7 +25,7 @@ post-build:
 ###
 MOZILLA=	${PKG_OPTIONS:@opt@${PKG_OPTIONS_GROUP.mozilla:M${opt}}@}
 .include "../../www/${MOZILLA}/buildlink3.mk"
-MAKE_ENV+=	BROWSER=${MOZILLA}
+MAKE_ENV+=	BROWSER=${MOZILLA:Q}
 
 ###
 ### Mozilla plugin

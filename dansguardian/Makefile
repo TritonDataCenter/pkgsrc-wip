@@ -15,7 +15,7 @@ MANCOMPRESSED=	yes
 RCD_SCRIPTS=	dansguardian
 USE_PKGINSTALL= YES
 
-CONFIGURE_ARGS=		--prefix=${PREFIX} \
+CONFIGURE_ARGS=		--prefix=${PREFIX:Q} \
 			--cgidir=/libexec/cgi-bin/ \
 			--sysconfdir=/etc/dansguardian/ \
 			--bindir=/sbin/ \

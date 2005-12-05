@@ -18,8 +18,8 @@ USE_TOOLS+=             automake gmake
 .include "options.mk"
 
 RCD_SCRIPTS=		pcscd
-CONFIGURE_ARGS+=        --sysconfdir=${PKG_SYSCONFDIR}
-CONFIGURE_ARGS+=	--enable-confdir=${PKG_SYSCONFDIR}
+CONFIGURE_ARGS+=        --sysconfdir=${PKG_SYSCONFDIR:Q}
+CONFIGURE_ARGS+=	--enable-confdir=${PKG_SYSCONFDIR:Q}
 CONFIGURE_ARGS+=	--enable-ipcdir=${VARBASE}/pcsc-lite
 CONFIGURE_ARGS+=	--enable-usbdropdir=${PREFIX}/lib/pcsc-lite/drivers
 MAKE_DIRS+=		${VARBASE}/pcsc-lite

@@ -29,7 +29,7 @@ CONFIGURE_ARGS+=--disable-inews \
 		--with-ssl-library=/usr \
 		--with-ssl-includes=/usr \
 		--with-libdir=${PREFIX}/lib/slrn \
-		--sysconfdir=${PKG_SYSCONFDIR} \
+		--sysconfdir=${PKG_SYSCONFDIR:Q} \
 		--with-localedir=${PREFIX}/${PKGLOCALEDIR}/locale
 
 .include "../../mk/bsd.prefs.mk"

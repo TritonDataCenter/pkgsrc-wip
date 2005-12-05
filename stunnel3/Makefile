@@ -12,9 +12,9 @@ CONFLICTS=		stunnel-[4-9]*
 
 USE_PKGINSTALL=		yes
 GNU_CONFIGURE=		yes
-CONFIGURE_ARGS+=	--with-ssl=${SSLBASE} \
-			--with-cert-dir="${SSLCERTS}" \
-			--with-pem-dir="${SSLCERTS}" \
+CONFIGURE_ARGS+=	--with-ssl=${SSLBASE:Q} \
+			--with-cert-dir=${SSLCERTS:Q} \
+			--with-pem-dir=${SSLCERTS:Q} \
 			--with-tcp-wrappers
 
 .include "../../security/openssl/buildlink3.mk"

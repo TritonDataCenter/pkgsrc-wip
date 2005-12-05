@@ -32,7 +32,7 @@ CONFIGURE_ARGS+=	--enable-xinerama
 
 CONFIGURE_ARGS+=	--enable-imlib2
 CONFIGURE_ARGS+=	--enable-harbour
-CONFIGURE_ARGS+=	--sysconfdir=${PKG_SYSCONFDIR}
+CONFIGURE_ARGS+=	--sysconfdir=${PKG_SYSCONFDIR:Q}
 
 .include "../../lang/perl5/buildlink3.mk"
 .include "../../fonts/Xft2/buildlink3.mk"

@@ -14,7 +14,7 @@ NOT_FOR_PLATFORM=	NetBSD-[0-2]*-* FreeBSD-[0-4]*-* OpenBSD-*-* DragonFly-*-*
 WRKSRC=			${WRKDIR}/${DISTNAME}/src
 
 HAS_CONFIGURE=		yes
-CONFIGURE_ARGS+=	--prefix=${LOCALBASE}
+CONFIGURE_ARGS+=	--prefix=${LOCALBASE:Q}
 CONFIGURE_ARGS+=	--dependency-dir=${LOCALBASE}/bin\;${LOCALBASE}/lib\;${LOCALBASE}/include
 CONFIGURE_ARGS+=	--disable-alsa
 CONFIGURE_ARGS+=	--disable-jack

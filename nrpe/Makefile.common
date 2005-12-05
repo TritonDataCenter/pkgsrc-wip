@@ -5,8 +5,8 @@
 NRPE_USER?=		${NAGIOS_USER}
 NRPE_GROUP?=		${NAGIOS_GROUP}
 
-CONFIGURE_ARGS+=	--with-nrpe-user=${NRPE_USER}
-CONFIGURE_ARGS+=	--with-nrpe-group=${NRPE_GROUP}
+CONFIGURE_ARGS+=	--with-nrpe-user=${NRPE_USER:Q}
+CONFIGURE_ARGS+=	--with-nrpe-group=${NRPE_GROUP:Q}
 
 .include "../../mk/bsd.prefs.mk"
 

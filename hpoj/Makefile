@@ -19,7 +19,7 @@ USE_TOOLS+=		gmake
 USE_PERL5=		YES
 GNU_CONFIGURE=		YES
 
-CONFIGURE_ARGS+=	--prefix="${PREFIX}" \
+CONFIGURE_ARGS+=	--prefix=${PREFIX:Q} \
 			--with-cups-backend=${PREFIX}/libexec/cups/backend \
 			--with-sane-backend=${PREFIX}/lib/sane \
 			--with-sane-etc=${PREFIX}/etc/sane.d \

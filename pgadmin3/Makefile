@@ -16,10 +16,10 @@ COMMENT=		GUI administration tool for PostgreSQL RDBMS
 
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
-CONFIGURE_ARGS=		--with-pgsql=${PREFIX} \
+CONFIGURE_ARGS=		--with-pgsql=${PREFIX:Q} \
 			--with-pgsql-include=${PREFIX}/include/postgresql \
-			--with-wx=${PREFIX} \
-			--with-pgsql=${PREFIX}
+			--with-wx=${PREFIX:Q} \
+			--with-pgsql=${PREFIX:Q}
 USE_TOOLS+=		gmake
 
 PGDIR=			${PREFIX}/share/pgadmin3

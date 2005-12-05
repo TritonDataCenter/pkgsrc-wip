@@ -12,8 +12,8 @@ COMMENT=		Bandwidth analysis tool
 USE_PKGINSTALL=		yes
 
 GNU_CONFIGURE=		yes
-CONFIGURE_ARGS+=	--sysconfdir=${PKG_SYSCONFDIR}
-CONFIGURE_ARGS+=	--localstatedir=${VARBASE}
+CONFIGURE_ARGS+=	--sysconfdir=${PKG_SYSCONFDIR:Q}
+CONFIGURE_ARGS+=	--localstatedir=${VARBASE:Q}
 
 EGDIR=			${PREFIX}/share/examples/ipfm
 CONF_FILES=		${EGDIR}/ipfm.conf ${PKG_SYSCONFDIR}/ipfm.conf

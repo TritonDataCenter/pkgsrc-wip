@@ -10,7 +10,7 @@ COMMENT=        Interactive eyecandy for your KDE desktop
 
 USE_TOOLS+=	gmake
 GNU_CONFIGURE=	YES
-CONFIGURE_ARGS+=--with-pythondir=${PREFIX}
+CONFIGURE_ARGS+=--with-pythondir=${PREFIX:Q}
 USE_LIBTOOL=	yes
 
 PYTHON_VERSIONS_ACCEPTED=	23

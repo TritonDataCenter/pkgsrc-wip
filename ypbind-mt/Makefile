@@ -23,6 +23,6 @@ GNU_CONFIGURE=		yes
 USE_PKGINSTALL=		yes
 RCD_SCRIPTS=		ypbind
 
-CONFIGURE_ARGS+=	--sysconfdir=${PKG_SYSCONFDIR}
+CONFIGURE_ARGS+=	--sysconfdir=${PKG_SYSCONFDIR:Q}
 
 .include "../../mk/bsd.pkg.mk"

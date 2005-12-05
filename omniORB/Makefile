@@ -23,7 +23,7 @@ PTHREAD_OPTS=	require native
 OMNIORB_ETCDIR?= ${PKG_SYSCONFDIR}
 OMNIORB_CONFIG=	${OMNIORB_ETCDIR}/omniORB.cfg
 
-CONFIGURE_ARGS+= --with-omniORB-config=${OMNIORB_CONFIG}
+CONFIGURE_ARGS+= --with-omniORB-config=${OMNIORB_CONFIG:Q}
 #CONFIGURE_ARGS+= --with-omniNames-logdir=
 #CONFIGURE_ARGS+= --with-openssl
 

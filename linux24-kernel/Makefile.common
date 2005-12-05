@@ -15,7 +15,7 @@ HOMEPAGE=		http://www.kernel.org/
 ONLY_FOR_PLATFORM=	Linux-*-*
 
 USE_TOOLS+=		gmake
-PLIST_SUBST+=		LINUX_VERSION=${LINUX_VERSION}
+PLIST_SUBST+=		LINUX_VERSION=${LINUX_VERSION:Q}
 CFLAGS+=		-I${WRKSRC}/include
 
 DISTINFO_FILE?=		${.CURDIR}/../../wip/linux24-kernel/distinfo

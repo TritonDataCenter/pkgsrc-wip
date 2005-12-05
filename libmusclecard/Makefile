@@ -15,7 +15,7 @@ USE_LIBTOOL=            YES
 USE_TOOLS+=             automake gmake pkg-config
 
 CONFIGURE_ARGS+=	--enable-muscledropdir=${PREFIX}/lib/pcsc-lite/drivers
-CONFIGURE_ARGS+=	--sysconfdir=${PKG_SYSCONFDIR}
+CONFIGURE_ARGS+=	--sysconfdir=${PKG_SYSCONFDIR:Q}
 
 pre-configure:
 	cd ${WRKSRC} && \

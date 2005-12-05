@@ -18,8 +18,8 @@ USE_TOOLS+= 		gmake pkg-config
 
 USE_OLD_DES_API=	YES
 .include "../../security/openssl/buildlink3.mk"
-CONFIGURE_ARGS+=	--with-openssl=${SSLBASE}
-CONFIGURE_ARGS+=        --sysconfdir=${PKG_SYSCONFDIR}
+CONFIGURE_ARGS+=	--with-openssl=${SSLBASE:Q}
+CONFIGURE_ARGS+=        --sysconfdir=${PKG_SYSCONFDIR:Q}
 CONFIGURE_ARGS+=	--disable-sensitive-logging
 
 .include "../../devel/libltdl/buildlink3.mk"

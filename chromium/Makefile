@@ -15,7 +15,7 @@ DEPENDS=		chromium-data>=0.9:../../wip/chromium-data
 WRKSRC=		${WRKDIR}/Chromium-0.9
 USE_PKGLOCALEDIR=	yes
 HAS_CONFIGURE=		yes
-CONFIGURE_ENV+= HOME=${PREFIX}
+CONFIGURE_ENV+= HOME=${PREFIX:Q}
 CONFIGURE_ARGS+=--disable-setup
 
 do-install:

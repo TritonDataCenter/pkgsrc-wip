@@ -19,12 +19,12 @@ NOT_FOR_PLATFORM=	NetBSD-1.6[M-Z]-*
 USE_PKGINSTALL=		YES
 USE_LANGUAGES=		c c++
 GNU_CONFIGURE=		YES
-CONFIGURE_ARGS+=	--enable-oops-user=${OOPSUSER}
+CONFIGURE_ARGS+=	--enable-oops-user=${OOPSUSER:Q}
 CONFIGURE_ARGS+=	--enable-large-files
-CONFIGURE_ARGS+=	--with-DB=${PREFIX}
+CONFIGURE_ARGS+=	--with-DB=${PREFIX:Q}
 CONFIGURE_ARGS+=	--sbindir=${PREFIX}/sbin
-CONFIGURE_ARGS+=	--sysconfdir=${PKG_SYSCONFDIR}
-CONFIGURE_ARGS+=	--localstatedir=${OOPSVAR}
+CONFIGURE_ARGS+=	--sysconfdir=${PKG_SYSCONFDIR:Q}
+CONFIGURE_ARGS+=	--localstatedir=${OOPSVAR:Q}
 CONFIGURE_ARGS+=	--libdir=${PREFIX}/libexec/oops
 
 .include "../../mk/bsd.prefs.mk"

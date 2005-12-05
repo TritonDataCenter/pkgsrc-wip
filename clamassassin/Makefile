@@ -31,7 +31,7 @@ CONFIGURE_ARGS+=	--enable-clamdscan
 .if empty(CLAMASSASSIN_SUBJECT_REWRITE)
 CONFIGURE_ARGS+=	--enable-subject-rewrite
 .else
-CONFIGURE_ARGS+=	--enable-subject-rewrite=${CLAMASSASSIN_SUBJECT_REWRITE}
+CONFIGURE_ARGS+=	--enable-subject-rewrite=${CLAMASSASSIN_SUBJECT_REWRITE:Q}
 .endif
 .endif
 

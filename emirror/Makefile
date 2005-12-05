@@ -14,8 +14,8 @@ COMMENT=	FTP mirroring tool with nice HTML logfiles
 GNU_CONFIGURE=	yes
 NO_BUILD=	yes
 
-CONFIGURE_ARGS+=	--sysconfdir=${PKG_SYSCONFDIR} \
-			--with-python=${PYTHONBIN}
+CONFIGURE_ARGS+=	--sysconfdir=${PKG_SYSCONFDIR:Q} \
+			--with-python=${PYTHONBIN:Q}
 
 post-extract:
 		${MV} ${WRKSRC}/man/emirror.1 ${WRKSRC}/man/emirror.1.in

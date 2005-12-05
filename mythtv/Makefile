@@ -22,7 +22,7 @@ USE_TOOLS+=		gmake
 
 QTPREFIX=		${X11PREFIX}/qt3
 
-CONFIGURE_ARGS+=	--prefix=${PREFIX}
+CONFIGURE_ARGS+=	--prefix=${PREFIX:Q}
 
 # the assembler can't handle the MMX output from gcc3.2.2 on
 # Slackware 9, so build without MMX support for now.

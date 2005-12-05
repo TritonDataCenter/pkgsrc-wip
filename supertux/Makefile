@@ -12,7 +12,7 @@ HOMEPAGE=		http://supertux.berlios.de/
 COMMENT=		2D jump'n run game in the style of the Super Mario ones
 
 HAS_CONFIGURE=		YES
-CONFIGURE_ARGS+=	--prefix=${PREFIX}
+CONFIGURE_ARGS+=	--prefix=${PREFIX:Q}
 
 USE_TOOLS+=		gmake
 
