@@ -1,0 +1,4 @@
+@comment $NetBSD$
+bin/nc6
+man/man1/nc6.1
+${PKGLOCALEDIR}/locale/it/LC_MESSAGES/nc6.mo
