@@ -4,7 +4,6 @@
 DISTNAME=		gate-2.06
 CATEGORIES=		editors
 MASTER_SITES=		http://www.unixpapa.com/software/
-EXTRACT_SUFX=		.tar.gz
 
 MAINTAINER=		hugor@users.sourceforge.net
 HOMEPAGE=		http://www.unixpapa.com/gate.html
