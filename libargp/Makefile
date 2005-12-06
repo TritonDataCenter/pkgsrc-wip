@@ -1,0 +1,19 @@
+# $NetBSD$
+
+DISTNAME=		argp-standalone-1.3
+PKGNAME=		libargp-1.3
+CATEGORIES=		devel
+MASTER_SITES=		http://www.lysator.liu.se/~nisse/misc/
+
+MAINTAINER=		lkundrak@skosi.org
+HOMEPAGE=		http://saqar/distfiles/
+COMMENT=		Standalone version of GNU libc's argument parsing interface
+
+USE_PKGLOCALEDIR=	yes
+GNU_CONFIGURE=		yes
+
+do-install:
+	${INSTALL_LIB}	${WRKSRC}/libargp.a ${PREFIX}/lib
+	${INSTALL}	${WRKSRC}/argp.h ${PREFIX}/include
+
+.include "../../mk/bsd.pkg.mk"
