@@ -1,12 +1,12 @@
 # $NetBSD$
 #
 
-DISTNAME=		pkg_select-20050817
+DISTNAME=		pkg_select-20051206
 CATEGORIES=		pkgtools
 MASTER_SITES=	http://imil.net/NetBSD/
 
 MAINTAINER=	imil@gcu.info
-HOMEPAGE=	http://imil.net/
+HOMEPAGE=	http://imil.net/wp/pkg_select/
 COMMENT=	Curses based pkgsrc system browser / manager
 
 PKG_INSTALLATION_TYPES=	overwrite pkgviews
