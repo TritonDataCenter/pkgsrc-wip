@@ -3,7 +3,10 @@
 PKG_OPTIONS_VAR=		PKG_OPTIONS.firefox
 PKG_SUPPORTED_OPTIONS=		official-mozilla-branding
 PKG_OPTIONS_REQUIRED_GROUPS=	toolkit
-PKG_OPTIONS_GROUP.toolkit=	gtk1 gtk2 qt3 xlib
+PKG_OPTIONS_GROUP.toolkit=	gtk1 gtk2
+# these two build options are experimental and unsupported:
+#PKG_OPTIONS_GROUP.toolkit+=	qt3
+#PKG_OPTIONS_GROUP.toolkit+=	xlib
 PKG_SUGGESTED_OPTIONS=		gtk2
 
 .include "../../mk/bsd.options.mk"
