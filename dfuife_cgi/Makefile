@@ -1,0 +1,20 @@
+# $NetBSD$
+#
+
+DISTNAME=	dfuife_cgi-1.4
+CATEGORIES=	sysutils
+MASTER_SITES=	ftp://packages.stura.uni-rostock.de/bsdinstaller/distfiles/
+
+MAINTAINER=	joerg@NetBSD.org
+HOMEPAGE=	http://www.bsdinstaller.com/
+COMMENT=	DFUI CGI frontend
+
+USE_LIBTOOL=	yes
+USE_TOOL+=	msgfmt
+
+.include "../../wip/libaura/buildlink3.mk"
+.include "../../wip/libdfui/buildlink3.mk"
+.include "../../wip/libinstaller/buildlink3.mk"
+.include "../../www/cgic/buildlink3.mk"
+.include "../../devel/gettext-lib/buildlink3.mk"
+.include "../../mk/bsd.pkg.mk"

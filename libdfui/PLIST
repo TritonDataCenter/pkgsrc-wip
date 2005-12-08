@@ -1,0 +1,6 @@
+@comment $NetBSD$
+include/dfui/dfui.h
+include/dfui/dump.h
+include/dfui/lang.h
+include/dfui/system.h
+lib/libdfui.la

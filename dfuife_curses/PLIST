@@ -1,0 +1,6 @@
+@comment $NetBSD$
+sbin/dfuife_curses
+share/dfuife_curses/fred.txt
+share/dfuife_curses/puffy.txt
+share/locale/ru/LC_MESSAGES/dfuife_curses.mo
+@dirrm share/dfuife_curses
