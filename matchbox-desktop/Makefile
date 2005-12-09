@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		matchbox-desktop-0.9.1
-CATEGORIES=		wm
+CATEGORIES=		x11
 MASTER_SITES=		http://projects.o-hand.com/matchbox/sources/matchbox-desktop/0.9/
 EXTRACT_SUFX=		.tar.bz2
 

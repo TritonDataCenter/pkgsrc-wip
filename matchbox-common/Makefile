@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		matchbox-common-0.9.1
-CATEGORIES=		wm
+CATEGORIES=		x11
 MASTER_SITES=		http://projects.o-hand.com/matchbox/sources/matchbox-common/0.9/
 EXTRACT_SUFX=		.tar.bz2
 
