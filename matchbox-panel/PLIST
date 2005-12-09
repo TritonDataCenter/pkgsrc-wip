@@ -1,5 +1,6 @@
 @comment $NetBSD$
 bin/matchbox-panel
+bin/mb-applet-battery
 bin/mb-applet-clock
 bin/mb-applet-launcher
 bin/mb-applet-menu-launcher
