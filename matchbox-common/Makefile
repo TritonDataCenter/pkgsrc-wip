@@ -1,16 +1,16 @@
 # $NetBSD$
 #
 
-DISTNAME=	matchbox-common-0.9.1
-CATEGORIES=	wm
-MASTER_SITES=	http://projects.o-hand.com/matchbox/sources/matchbox-common/0.9/
-EXTRACT_SUFX=	.tar.bz2
+DISTNAME=		matchbox-common-0.9.1
+CATEGORIES=		wm
+MASTER_SITES=		http://projects.o-hand.com/matchbox/sources/matchbox-common/0.9/
+EXTRACT_SUFX=		.tar.bz2
 
-MAINTAINER=	tech-pkg@NetBSD.org
-HOMEPAGE=	http://projects.o-hand.com/matchbox/
-COMMENT=	Pixmaps for Matchbox
+MAINTAINER=		tech-pkg@NetBSD.org
+HOMEPAGE=		http://projects.o-hand.com/matchbox/
+COMMENT=		Shared icons and configuration data for Matchbox
 
-GNU_CONFIGURE=	yes
+GNU_CONFIGURE=		yes
 
 PKG_SYSCONFSUBDIR=	matchbox
 
