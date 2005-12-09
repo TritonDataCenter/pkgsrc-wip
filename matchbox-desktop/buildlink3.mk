@@ -15,7 +15,7 @@ BUILDLINK_DEPENDS.matchbox-desktop+=	matchbox-desktop>=0.8
 BUILDLINK_PKGSRCDIR.matchbox-desktop?=	../../wip/matchbox-desktop
 .endif	# MATCHBOX_DESKTOP_BUILDLINK3_MK
 
-.include "../../wip/libmatchbox/buildlink3.mk"
+.include "../../devel/libmatchbox/buildlink3.mk"
 .include "../../x11/startup-notification/buildlink3.mk"
 .include "../../mk/x11.buildlink3.mk"
 
