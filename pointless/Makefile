@@ -12,7 +12,7 @@ COMMENT=		Markup-language presentation tool
 DEPENDS+=               a2ps>=4.1:../../print/a2ps
 DEPENDS+=               gnuplot>=3.7:../../graphics/gnuplot
 DEPENDS+=               Mesa>=6.0:../../graphics/Mesa
-DEPENDS+=               ghostscript-esp-nox11>=7.0:../../print/ghostscript-esp-nox11
+DEPENDS+=               ghostscript-esp>=7.0:../../print/ghostscript-esp
 
 USE_PKGLOCALEDIR=       yes
 GNU_CONFIGURE=		yes
