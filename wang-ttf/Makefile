@@ -3,7 +3,8 @@
 DISTNAME=	wang-ttf-1.3
 PKGREVISION=	1
 CATEGORIES=	fonts chinese
-MASTER_SITES=	ftp://cle.linux.org.tw/pub/fonts/wangfonts/ \
+MASTER_SITES=	${MASTER_SITE_FREEBSD:=zh-wangttf/} \
+		ftp://cle.linux.org.tw/pub/fonts/wangfonts/ \
 		ftp://cle.linux.org.tw/pub/fonts/wangfonts/WCL/
 DISTFILES=	${FONT_FILES} ${MISC_FILES}
 
