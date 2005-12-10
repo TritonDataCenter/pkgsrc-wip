@@ -1,0 +1,7 @@
+===========================================================================
+$NetBSD$
+
+For the -x and -X options to work, you must install x11/xdialog.
+
+For the -k option to work, you must install x11/kdebase3 (for kdialog).
+===========================================================================
