@@ -10,8 +10,8 @@ MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://git.or.cz/
 COMMENT=		Tree History Storage Tool
 
-MAKE_ENV=	"DESTDIR=${PREFIX}/"
-MAKE_ENV+=	"HOME=."
+MAKE_ENV=	"DESTDIR="
+MAKE_ENV+=	"HOME=${PREFIX}/"
 USE_TOOLS+=	gmake
 
 # TODO: add python as dependency? or just show a message?
