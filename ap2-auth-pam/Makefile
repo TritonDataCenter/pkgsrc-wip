@@ -6,7 +6,7 @@ CATEGORIES=	www
 MASTER_SITES=	http://pam.sourceforge.net/mod_auth_pam/dist/
 # Even though it is on sourceforge, it is in web pages repository!
 
-MAINTAINER=	lkundrak@elvraba.edu.sk
+MAINTAINER=	lkundrak@skosi.org
 HOMEPAGE=	http://pam.sourceforge.net/mod_auth_pam/
 COMMENT=	Apache2 module for PAM authentification
 
