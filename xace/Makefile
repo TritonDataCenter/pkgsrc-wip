@@ -10,7 +10,6 @@ HOMEPAGE=		${MASTER_SITES}ace.html
 COMMENT=		Jupiter Ace emulator
 
 EXTR_PREFIX=		.tar.gz
-ONLY_FOR_PLATFORM+=	*-i386 *-hpcmips
 USE_IMAKE=		YES
 
 SUBST_CLASSES+=		prefix
