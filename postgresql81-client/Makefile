@@ -3,7 +3,7 @@
 PKGNAME=	postgresql81-client-${BASE_VERS}
 COMMENT=	PostgreSQL database client programs
 
-.include "../../databases/postgresql81/Makefile.common"
+.include "../../wip/postgresql81/Makefile.common"
 
 USE_TOOLS+=		gzip tar
 USE_LIBTOOL=		yes
@@ -42,7 +42,7 @@ BUILD_DIRS=	${INSTALL_DIRS}
 BUILD_DIRS+=	${WRKSRC}/src/backend
 
 PKG_OPTIONS_VAR=	PKG_OPTIONS.postgresql81-client
-.include "../../databases/postgresql81/options.mk"
+.include "../../wip/postgresql81/options.mk"
 
 USE_PKGINSTALL=	yes
 .for _file_ in pg_service.conf psqlrc

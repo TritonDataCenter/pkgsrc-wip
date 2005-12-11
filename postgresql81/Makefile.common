@@ -9,7 +9,7 @@
 #	<lang>-postgresql	client-side interface to PostgreSQL
 #	postgresql-<lang>	server-side module for PostgreSQL backend
 
-.include "../postgresql81/Makefile.mirrors"
+.include "../../wip/postgresql81/Makefile.mirrors"
 
 DISTNAME?=	postgresql-${DIST_VERS}
 CATEGORIES+=	databases
