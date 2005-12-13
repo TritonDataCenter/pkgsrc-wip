@@ -5,7 +5,7 @@ CATEGORIES=		sysutils
 DISTFILES=		# empty
 MASTER_SITES=		# empty
 
-MAINTAINER=		geert.hendrickx@ua.ac.be
+MAINTAINER=		ghen@NetBSD.org
 COMMENT=		Tool to list open/connected sockets
 HOMEPAGE=		#
 

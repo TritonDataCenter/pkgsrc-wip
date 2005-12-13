@@ -7,7 +7,7 @@ MASTER_SITES=		ftp://ftp.deepspace6.net/pub/ds6/sources/nc6/
 MASTER_SITES+=		http://ftp.deepspace6.net/pub/ds6/sources/nc6/
 EXTRACT_SUFX=		.tar.bz2
 
-MAINTAINER=		geert.hendrickx@ua.ac.be
+MAINTAINER=		ghen@NetBSD.org
 COMMENT=		Network swiss army knife
 HOMEPAGE=		http://www.deepspace6.net/projects/netcat6.html
 

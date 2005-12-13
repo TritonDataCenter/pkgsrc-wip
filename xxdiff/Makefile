@@ -4,7 +4,7 @@ DISTNAME=		xxdiff-3.1
 CATEGORIES=		devel
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=xxdiff/}
 
-MAINTAINER=		geert.hendrickx@ua.ac.be
+MAINTAINER=		ghen@NetBSD.org
 HOMEPAGE=		http://xxdiff.sourceforge.net/
 COMMENT=		Graphical file comparator and merge tool
 

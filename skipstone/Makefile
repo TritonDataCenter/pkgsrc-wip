@@ -5,7 +5,7 @@ PKGREVISION=		1
 CATEGORIES=		www
 MASTER_SITES=		${HOMEPAGE}
 
-MAINTAINER=		geert.hendrickx@ua.ac.be
+MAINTAINER=		ghen@NetBSD.org
 HOMEPAGE=		http://www.muhri.net/skipstone/
 COMMENT=		Light and fast Gecko-based browser
 

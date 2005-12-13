@@ -5,7 +5,7 @@ DISTNAME=	abook-0.5.5pre1
 CATEGORIES=	databases
 MASTER_SITES=	http://abook.sourceforge.net/devel/
 
-MAINTAINER=	geert.hendrickx@ua.ac.be
+MAINTAINER=	ghen@NetBSD.org
 HOMEPAGE=	http://abook.sourceforge.net/
 COMMENT=	Text-based addressbook program
 

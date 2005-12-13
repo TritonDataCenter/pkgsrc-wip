@@ -4,7 +4,7 @@ DISTNAME=		ez-ipupdate-3.0.11b7
 CATEGORIES=		net
 MASTER_SITES=		http://www.ez-ipupdate.com/dist/
 
-MAINTAINER=		geert.hendrickx@ua.ac.be
+MAINTAINER=		ghen@NetBSD.org
 HOMEPAGE=		http://www.ez-ipupdate.com/
 COMMENT=		Client to update dynamic DNS entries
 

@@ -6,7 +6,7 @@ CATEGORIES=	print meta-pkgs
 MASTER_SITES=	# empty
 DISTFILES=	# empty
 
-MAINTAINER=	geert.hendrickx@ua.ac.be
+MAINTAINER=	ghen@NetBSD.org
 HOMEPAGE=	http://www.tug.org/tetex/
 COMMENT=	Thomas Esser's TeX distribution for UNIX compatible systems, version 3
 

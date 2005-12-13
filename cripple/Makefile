@@ -5,7 +5,7 @@ CATEGORIES=	audio
 MASTER_SITES=	${HOMEPAGE}
 EXTRACT_SUFX=	.tar.bz2
 
-MAINTAINER=	geert.hendrickx@ua.ac.be
+MAINTAINER=	ghen@NetBSD.org
 HOMEPAGE=	http://www.vortex.prodigynet.co.uk/cripple/
 COMMENT=	Command line CD ripper/encoder wrapper with cddb support
 

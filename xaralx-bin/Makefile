@@ -6,7 +6,7 @@ CATEGORIES=		graphics
 MASTER_SITES=		http://www.cconcepts.co.uk/downloads/
 EXTRACT_SUFX=		.tbz2
 
-MAINTAINER=		geert.hendrickx@ua.ac.be
+MAINTAINER=		ghen@NetBSD.org
 HOMEPAGE=		http://www.xaraxtreme.org/
 COMMENT=		Vector graphics program
 

@@ -4,7 +4,7 @@ DISTNAME=		mixxx-1.4.2
 CATEGORIES=		audio
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=mixxx/}
 
-MAINTAINER=		geert.hendrickx@ua.ac.be
+MAINTAINER=		ghen@NetBSD.org
 HOMEPAGE=		http://mixxx.sourceforge.net/
 COMMENT=		Digital DJ tool
 
