@@ -6,7 +6,7 @@ $NetBSD$
  #TMAKE_CXXFLAGS += -DXX_KDE -I/usr/include/kde
  #TMAKE_LIBS += -lkdeui -lkio -lqt-mt
  
-+TMAKE_LIBS += -pthread
++TMAKE_LIBS += ${PTHREAD_LDFLAGS} ${PTHREAD_LIBS}
 +
  debug:TMAKE_CFLAGS += -DXX_DEBUG
  debug:TMAKE_CXXFLAGS += -DXX_DEBUG
