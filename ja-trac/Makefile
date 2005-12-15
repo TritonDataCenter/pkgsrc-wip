@@ -1,8 +1,8 @@
 # $NetBSD$
 #
 
-DISTNAME=	trac-0.9.1-ja-1
-PKGNAME=	ja-trac-0.9.1.1
+DISTNAME=	trac-0.9.2-ja-1
+PKGNAME=	ja-trac-0.9.2.1
 CATEGORIES=	devel www
 MASTER_SITES=	http://www.i-act.co.jp/project/products/downloads/
 EXTRACT_SUFX=	.zip
