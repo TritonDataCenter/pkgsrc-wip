@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	easytag-1.99.9
+DISTNAME=	easytag-1.99.11
 CATEGORIES=	audio
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=easytag/}
 EXTRACT_SUFX=	.tar.bz2
