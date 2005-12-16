@@ -3,7 +3,8 @@
 DISTNAME=		jave5
 PKGNAME=		jave-5.0
 CATEGORIES=		editors
-MASTER_SITES=		http://www.jave.de/download/
+MASTER_SITES=		http://www.jave.de/download/ http://www.jave.de/figlet/
+DISTFILES=		jave5${EXTRACT_SUFX} figletfonts37${EXTRACT_SUFX}
 EXTRACT_SUFX=		.zip
 
 MAINTAINER=		martti@NetBSD.org
