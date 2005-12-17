@@ -2,4 +2,4 @@
 #
 # $NetBSD$
 #
-@PKG_JAVA_HOME@/bin/java -jar @PREFIX@/share/jave/jave5.jar
+@PKG_JAVA_HOME@/bin/java -jar @PREFIX@/share/jave/jave.jar
