@@ -13,7 +13,9 @@ COMMENT=	Linux Letters and Numbers childrens game
 USE_PKGLOCALEDIR=	YES
 GNU_CONFIGURE=		YES
 USE_TOOLS+=		gmake
-CPPFLAGS+=		-DDEVOSSAUDIO=\"\\\"${DEVOSSAUDIO}\\\"\"
+# Note: although pkglint warns about the following line, this exact form
+# is required for autoconf2.12.
+CPPFLAGS+=		-DDEVOSSAUDIO="\"${DEVOSSAUDIO}\""
 
 pre-configure:
 	${MV} ${WRKDIR}/sounds/* ${WRKSRC}/sounds/
