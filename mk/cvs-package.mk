@@ -1,4 +1,4 @@
-# $NetBSD$
+# $Id: cvs-package.mk,v 1.8 2005/12/19 08:13:30 rillig Exp $
 
 # Written by:
 #     Roland Illig <roland.illig@gmx.de>, 2004.
