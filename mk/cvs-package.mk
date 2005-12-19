@@ -48,9 +48,9 @@ _CVS_FLAGS=		-Q
 _CVS_CHECKOUT_FLAGS=	-P -d ${DISTNAME:Q} -r ${CVS_TAG:Q}
 _CVS_PASSFILE=		${WRKDIR}/.cvs_passwords
 .if !defined(CVS_REPOSITORY)
-PKG_FAIL_REASON+=	"[cvs-package.mk] No CVS repository specified."
+PKG_FAIL_REASON+=	"[cvs-package.mk] CVS_REPOSITORY must be set."
 .elif !defined(CVS_MODULE)
-PKG_FAIL_REASON+=	"[cvs-package.mk] No CVS module specified."
+PKG_FAIL_REASON+=	"[cvs-package.mk] CVS_MODULE must be set."
 .else
 .endif
 
