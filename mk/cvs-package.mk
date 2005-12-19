@@ -48,14 +48,14 @@ _CVS_FLAGS=		-Q
 _CVS_CHECKOUT_FLAGS=	-P -d ${DISTNAME:Q} -r ${CVS_TAG:Q}
 _CVS_PASSFILE=		${WRKDIR}/.cvs_passwords
 .if !defined(CVS_REPOSITORY)
-PKG_FAIL_REASON=	"[cvs-package.mk] No CVS repository specified."
+PKG_FAIL_REASON+=	"[cvs-package.mk] No CVS repository specified."
 .elif !defined(CVS_MODULE)
-PKG_FAIL_REASON=	"[cvs-package.mk] No CVS module specified."
+PKG_FAIL_REASON+=	"[cvs-package.mk] No CVS module specified."
 .else
 .endif
 
 do-extract:
-	${_PKG_DEBUG}${_PKG_SILENT}set -e;				\
+	${_PKG_SILENT}${_PKG_DEBUG}set -e;				\
 	cd ${WRKDIR};							\
 	case ${CVS_REPOSITORY:Q} in					\
 	  :pserver:*)							\
