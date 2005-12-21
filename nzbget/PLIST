@@ -1,0 +1,4 @@
+@comment $NetBSD$
+bin/nzbget
+share/examples/nzbget/nzbget.cfg.example
+@dirrm share/examples/nzbget
