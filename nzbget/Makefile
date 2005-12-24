@@ -14,7 +14,8 @@ USE_TOOLS+=		autoconf
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 
-EGDIR=          	${LOCALBASE}/share/examples/nzbget
+EGDIR=          	${PREFIX}/share/examples/nzbget
+MESSAGE_SUBST+=		EGDIR=${EGDIR}
 
 pre-configure:
 	cd ${WRKSRC}; autoconf
