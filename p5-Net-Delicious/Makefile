@@ -21,5 +21,7 @@ DEPENDS+=	p5-YAML>=0.39}:../../textproc/p5-YAML
 
 PERL5_PACKLIST= auto/Net/Delicious/.packlist
 
+PERL5_MODULE_TYPE= Module::Build
+
 .include "../../lang/perl5/module.mk"
 .include "../../mk/bsd.pkg.mk"
