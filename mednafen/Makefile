@@ -28,6 +28,7 @@ post-install:
 .include "../../audio/libaudiofile/buildlink3.mk"
 .include "../../audio/libsamplerate/buildlink3.mk"
 .include "../../devel/SDL/buildlink3.mk"
+.include "../../devel/gettext-lib/buildlink3.mk"
 .include "../../net/SDL_net/buildlink3.mk"
 .include "../../textproc/intltool/buildlink3.mk"
 .include "../../mk/ossaudio.buildlink3.mk"
