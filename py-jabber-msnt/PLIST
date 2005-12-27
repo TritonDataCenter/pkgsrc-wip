@@ -19,8 +19,6 @@ ${TRANSPORTDIR}/legacy/legacylist.py
 ${TRANSPORTDIR}/legacy/msnw.py
 ${TRANSPORTDIR}/main.py
 ${TRANSPORTDIR}/misciq.py
-${TRANSPORTDIR}/msnp11chl.py
-${TRANSPORTDIR}/msnp2p.py
 ${TRANSPORTDIR}/register.py
 ${TRANSPORTDIR}/session.py
 ${TRANSPORTDIR}/tlib/__init__.py
@@ -34,8 +32,8 @@ ${TRANSPORTDIR}/tlib/jabber/xmpp_stringprep.py
 ${TRANSPORTDIR}/tlib/msn.py
 ${TRANSPORTDIR}/tlib/msnp11chl.py
 ${TRANSPORTDIR}/tlib/msnp2p.py
-${TRANSPORTDIR}/tlib/proxy.py
 ${TRANSPORTDIR}/tlib/xmlstream.py
+${TRANSPORTDIR}/tlib/xmlw.py
 ${TRANSPORTDIR}/utils.py
 ${TRANSPORTDIR}/xdb.py
 ${TRANSPORTDIR}/xmlconfig.py
