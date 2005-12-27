@@ -24,7 +24,7 @@ do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/linux/InfoNES ${PREFIX}/bin
 	${INSTALL_DATA_DIR} ${PREFIX}/share/doc/InfoNES
 	${INSTALL_DATA} ${FILESDIR}/keys.txt ${PREFIX}/share/doc/InfoNES
-
+ 
 .include "../../x11/gtk/buildlink3.mk"
 .include "../../mk/ossaudio.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
