@@ -1,8 +1,8 @@
 $NetBSD$
 
---- plugins/Makefile.am.orig	Fri Jul 11 08:11:06 2003
+--- plugins/Makefile.am.orig	2005-09-14 13:40:26.000000000 +0100
 +++ plugins/Makefile.am
-@@ -33,7 +33,7 @@ TESTS = @PLUGIN_TEST@
+@@ -40,7 +40,7 @@ TESTS = @PLUGIN_TEST@
  test:
  	perl -I $(top_builddir) -I $(top_srcdir) ../test.pl
  

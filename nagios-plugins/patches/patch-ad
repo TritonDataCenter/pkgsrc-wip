@@ -1,8 +1,8 @@
 $NetBSD$
 
---- plugins-scripts/Makefile.in.orig	2005-08-01 14:34:40.000000000 -0700
-+++ plugins-scripts/Makefile.in	2005-08-04 11:02:01.000000000 -0700
-@@ -238,14 +238,14 @@
+--- plugins-scripts/Makefile.in.orig	2005-09-19 14:58:11.000000000 +0100
++++ plugins-scripts/Makefile.in
+@@ -238,14 +238,14 @@ with_nagios_group = @with_nagios_group@
  with_nagios_user = @with_nagios_user@
  with_trusted_path = @with_trusted_path@
  SUFFIXES = .pl .sh
