@@ -11,6 +11,7 @@ PERL5_REQD+=    5.6.0
 
 DEPENDS+=	p5-ExtUtils-CBuilder>=0.00:../../wip/p5-ExtUtils-CBuilder
 
+PERL5_MODULE_TYPE=      Module::Build
 PERL5_PACKLIST= auto/ExtUtils/ParseXS/.packlist
 
 .include "../../lang/perl5/module.mk"
