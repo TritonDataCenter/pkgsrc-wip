@@ -9,7 +9,7 @@ MAINTAINER=	kuli0020@umn.edu
 COMMENT=	Converts Perl XS code into C code
 PERL5_REQD+=    5.6.0
 
-DEPENDS+=	p5-ExtUtils-CBuilder>=0.00:../../wip/p5-ExtUtils-CBuilder
+DEPENDS+=	p5-ExtUtils-CBuilder>=0:../../wip/p5-ExtUtils-CBuilder
 
 PERL5_MODULE_TYPE=      Module::Build
 PERL5_PACKLIST= auto/ExtUtils/ParseXS/.packlist
