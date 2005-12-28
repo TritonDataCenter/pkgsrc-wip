@@ -1,10 +1,10 @@
 # $NetBSD$
 #
 
-DISTNAME=		InfoNES093J_Src
-PKGNAME=		InfoNES-0.93
+DISTNAME=		InfoNES096J_Src
+PKGNAME=		InfoNES-0.96
 CATEGORIES=		emulators
-MASTER_SITES=		http://www.geocities.co.jp/SiliconValley/5604/bin/
+MASTER_SITES=		http://osdn.dl.sourceforge.jp/infones/15525/
 EXTRACT_SUFX=		.zip
 
 MAINTAINER=		wiz@NetBSD.org
