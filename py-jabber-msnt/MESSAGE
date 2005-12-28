@@ -16,7 +16,7 @@ Quick start for jabberd2:
 	${PKG_SYSCONFDIR}/pymsnt.xml:
 
 	<jid>...</jid>		--  Set to the public name of the service
-				    ex: aim.jabber.example
+				    ex: msn.jabber.example
 	<mainServer>...</mainServer>
 				--  Set to the hostname or IP address
 				    of the main jabber server
