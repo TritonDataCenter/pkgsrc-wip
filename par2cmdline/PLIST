@@ -1,0 +1,5 @@
+@comment $NetBSD$
+bin/par2
+bin/par2create
+bin/par2repair
+bin/par2verify
