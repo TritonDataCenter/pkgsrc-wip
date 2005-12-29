@@ -16,6 +16,7 @@ GNU_CONFIGURE=		YES
 
 .include "../../textproc/expat/buildlink3.mk"
 .include "../../math/gsl/buildlink3.mk"
+.include "../../geography/geos/buildlink3.mk"
 .include "../../wip/gdal-lib/buildlink3.mk"
 .include "../../mk/pgsql.buildlink3.mk"
 .include "../../mk/x11.buildlink3.mk"
