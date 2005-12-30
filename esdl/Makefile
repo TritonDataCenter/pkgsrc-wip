@@ -14,8 +14,6 @@ WRKSRC=		${WRKDIR}/${PKGNAME_NOREV}
 USE_TOOLS+=	gmake
 BUILD_TARGET=	target
 
-DEPENDS+=	erlang>=9:../../lang/erlang
-BUILDLINK_PASSTHRU_DIRS+=	${LOCALBASE}/lib/erlang
-
+.include "../../lang/erlang/buildlink3.mk"
 .include "../../devel/SDL/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
