@@ -193,4 +193,4 @@ share/examples/anope/tables.sql
 @dirrm lib/anope/languages
 @exec ${MKDIR} %D/lib/anope/backups
 @dirrm lib/anope/backups
-@dirrm lib/anope
+@unexec ${RMDIR} %D/lib/anope 2>/dev/null || ${TRUE}
