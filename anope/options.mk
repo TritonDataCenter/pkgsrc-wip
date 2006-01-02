@@ -1,7 +1,7 @@
 # $NetBSD$
 
 PKG_OPTIONS_VAR=	PKG_OPTIONS.anope
-PKG_SUPPORTED_OPTIONS=	mysql db-encryption
+PKG_SUPPORTED_OPTIONS=	mysql dbencryption
 
 .include "../../mk/bsd.options.mk"
 
@@ -17,6 +17,6 @@ CONFIGURE_ARGS+=	--without-mysql
 ###
 ### Encrypt sensitive data in the database (only with mysql)
 ###
-.if !empty(PKG_OPTIONS:Mmysql) && !empty(PKG_OPTIONS:Mdb-encryption)
+.if !empty(PKG_OPTIONS:Mmysql) && !empty(PKG_OPTIONS:Mdbencryption)
 CONFIGURE_ARGS+=	--with-encryption
 .endif
