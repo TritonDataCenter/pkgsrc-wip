@@ -1,10 +1,10 @@
 # $NetBSD$
 #
 
-DISTNAME=		Zope-3.2.0b2
-PKGNAME=		zope3-unstable-3.2.0b2
+DISTNAME=		Zope-3.2.0b3
+PKGNAME=		zope3-unstable-3.2.0b3
 CATEGORIES=		www
-MASTER_SITES=		http://www.zope.org/Products/Zope3/3.2.0b2/
+MASTER_SITES=		http://www.zope.org/Products/Zope3/3.2.0b3/
 EXTRACT_SUFX=		.tgz
 
 MAINTAINER=		ykomatsu@akaumigame.org

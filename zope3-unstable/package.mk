@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DEPENDS+=		zope3-unstable>=3.2.0b2:../../wip/zope3-unstable
+DEPENDS+=		zope3-unstable>=3.2.0b3:../../wip/zope3-unstable
 
 .include "Makefile.common"
 
