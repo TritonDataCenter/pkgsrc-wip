@@ -39,8 +39,7 @@ post-install:
 		${PREFIX}/share/doc/ffmpeg
 	${INSTALL_DATA} ${WRKSRC}/README ${WRKSRC}/doc/TODO \
 		${PREFIX}/share/doc/ffmpeg
-	${INSTALL_DATA} ${WRKSRC}/doc/*.html ${WRKSRC}/doc/*.txt \
-		${PREFIX}/share/doc/ffmpeg
+	${INSTALL_DATA} ${WRKSRC}/doc/*.txt ${PREFIX}/share/doc/ffmpeg
 	${INSTALL_DATA} ${WRKSRC}/doc/ffserver.conf \
 		${PREFIX}/share/examples/ffmpeg
 	# ffplay not installed
@@ -51,5 +50,4 @@ post-install:
 		${PREFIX}/include/ffmpeg/libpostproc
 
 .include "../../devel/libgetopt/buildlink3.mk"
-
 .include "../../mk/bsd.pkg.mk"
