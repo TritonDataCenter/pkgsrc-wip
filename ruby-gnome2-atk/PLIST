@@ -1,0 +1,4 @@
+@comment $NetBSD$
+${RUBY_SITELIBDIR}/atk.rb
+${RUBY_SITELIBDIR}/${MACHINE_ARCH}-${LOWER_OPSYS}elf/atk.so
+@dirrm ${RUBY_SITELIBDIR}/${MACHINE_ARCH}-${LOWER_OPSYS}elf

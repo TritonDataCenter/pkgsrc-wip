@@ -1,0 +1,4 @@
+@comment $NetBSD$
+${RUBY_SITELIBDIR}/gdk_pixbuf2.rb
+${RUBY_SITELIBDIR}/${MACHINE_ARCH}-${LOWER_OPSYS}elf/gdk_pixbuf2.so
+@dirrm ${RUBY_SITELIBDIR}/${MACHINE_ARCH}-${LOWER_OPSYS}elf
