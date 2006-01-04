@@ -1,0 +1,8 @@
+@comment $NetBSD$
+bin/sflphone
+libexec/sflphoned
+share/sflphone/ringtones/konga.ul
+share/sflphone/ringtones/phone.au
+share/sflphone/ringtones/phone2.au
+@dirrm share/sflphone/ringtones
+@dirrm share/sflphone
