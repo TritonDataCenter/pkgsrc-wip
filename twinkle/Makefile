@@ -16,6 +16,10 @@ GNU_CONFIGURE=		yes
 CONFIGURE_ARGS+="--without-kde"
 
 .include "../../x11/qt3-tools/buildlink3.mk"
+# XXX Please verify whether qt3-tools is really needed at run-time.
+# If it is, then remove this comment.  If it is not, then remove
+# this comment and the line below, and bump PKGREVISION.
+BUILDLINK_DEPMETHOD.qt3-tools=	full
 ## x11/qt3-libs/ is broken
 ## cp work/qt-x11-free-3.3.5/lib/qt-mt.pc /usr/pkg/lib/pkgconfig/
 .include "../../x11/qt3-libs/buildlink3.mk"

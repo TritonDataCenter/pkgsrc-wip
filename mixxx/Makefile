@@ -28,7 +28,6 @@ SUBST_SED.bash=		-e 's,%%LOCALBASE%%,${LOCALBASE},g'
 
 .include "../../x11/qt3-libs/buildlink3.mk"
 .include "../../x11/qt3-tools/buildlink3.mk"
-BUILDLINK_DEPMETHOD.qt3-tools=	build
 .include "../../audio/libmad/buildlink3.mk"
 .include "../../audio/libid3tag/buildlink3.mk"
 .include "../../audio/libvorbis/buildlink3.mk"

@@ -15,5 +15,9 @@ CONFIGURE_ARGS+=--with-qt-dir=/usr/X11R6/qt3
 
 .include "../../x11/qt3-libs/buildlink3.mk"
 .include "../../x11/qt3-tools/buildlink3.mk"
+# XXX Please verify whether qt3-tools is really needed at run-time.
+# If it is, then remove this comment.  If it is not, then remove
+# this comment and the line below, and bump PKGREVISION.
+BUILDLINK_DEPMETHOD.qt3-tools=	full
 .include "../../mk/x11.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
