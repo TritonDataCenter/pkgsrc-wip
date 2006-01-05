@@ -11,7 +11,7 @@ HOMEPAGE=		http://www.k3b.org/
 COMMENT=		DVD and CD authoring program
 
 DEPENDS+=  		cdrdao-[0-9]*:../../sysutils/cdrdao
-DEPENDS+=  		{cdrecord,cdrtools-ossdvd}-[0-9]*:../../sysutils/cdrecord
+DEPENDS+=  		{cdrtools,cdrtools-ossdvd}-[0-9]*:../../sysutils/cdrtools
 
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
