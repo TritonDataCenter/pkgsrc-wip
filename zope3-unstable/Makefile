@@ -1,17 +1,16 @@
 # $NetBSD$
 #
 
-DISTNAME=		Zope-3.2.0b3
-PKGNAME=		zope3-unstable-3.2.0b3
+DISTNAME=		Zope-3.2.0
+PKGNAME=		zope3-3.2.0
 CATEGORIES=		www
-MASTER_SITES=		http://www.zope.org/Products/Zope3/3.2.0b3/
+MASTER_SITES=		http://www.zope.org/Products/Zope3/3.2.0final/
 EXTRACT_SUFX=		.tgz
 
 MAINTAINER=		ykomatsu@akaumigame.org
 HOMEPAGE=		http://dev.zope.org/Zope3/
 COMMENT=		Zope 3 Application Server
 
-CONFLICTS=		zope3-3.1.0* zope3-unstable-3.1.0*
 DEPENDS+=		${PYPKGPREFIX}-xml>=0.8.4:../../textproc/py-xml
 
 .include "Makefile.common"
