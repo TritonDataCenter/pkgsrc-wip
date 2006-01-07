@@ -31,9 +31,9 @@ RCD_SCRIPTS=		zope3 zss3
 PKG_GROUPS=		${ZOPE3_GROUP}
 PKG_USERS=		${ZOPE3_USER}:${ZOPE3_GROUP}::Zope3\ user
 
-MESSAGE_SUBST+=		ZOPE3_USER="${ZOPE3_USER}" \
-			ZOPE3_GROUP="${ZOPE3_GROUP}" \
-			VARBASE="${VARBASE}"
+MESSAGE_SUBST+=		ZOPE3_USER=${ZOPE3_USER:Q} \
+			ZOPE3_GROUP=${ZOPE3_GROUP:Q} \
+			VARBASE=${VARBASE:Q}
 
 pre-install:
 	${FIND} ${WRKSRC} -name "*.orig" -type f -print | ${XARGS} ${RM} -f
