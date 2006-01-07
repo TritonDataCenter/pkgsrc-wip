@@ -3,6 +3,7 @@
 
 PKGNAME=		ruby-gnome2-libart-${VERSION}
 COMMENT=		Ruby binding of Libart_lgpl
+CATEGORIES=		graphics
 
 RUBY_EXTCONF_SUBDIRS=	libart
 
@@ -12,4 +13,4 @@ USE_TOOLS+=		pkg-config
 .include "../../graphics/jpeg/buildlink3.mk"
 .include "../../graphics/png/buildlink3.mk"
 .include "../../graphics/libart2/buildlink3.mk"
-.include "../../wip/ruby-gnome2-all/Makefile.common"
+.include "../../wip/ruby-gnome2/Makefile.common"
