@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		jwm-1.1
+DISTNAME=		jwm-1.2
 CATEGORIES=		wm x11
 MASTER_SITES=		http://www.joewing.net/programs/jwm/
 EXTRACT_SUFX=		.tar.bz2
