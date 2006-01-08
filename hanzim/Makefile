@@ -12,6 +12,8 @@ COMMENT=	Chinese character learning-aid program
 
 WRKSRC=		${WRKDIR}/Hanzim
 
+BUILD_TARGET=	hanzim
+
 pre-install:
 	@if [ "$$DISPLAY" = "" ]; then \
 		${ECHO} "${DISTNAME} can only be installed under X11."; \
