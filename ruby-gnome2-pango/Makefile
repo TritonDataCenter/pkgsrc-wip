@@ -14,4 +14,4 @@ USE_TOOLS+=		pkg-config
 INSTALL_TARGET=		install
 
 .include "../../devel/pango/buildlink3.mk"
-.include "../../wip/ruby-gnome2/Makefile.common"
+.include "../../meta-pkgs/ruby-gnome2/Makefile.common"

@@ -13,4 +13,4 @@ DEPENDS+=		ruby-gnome2-gtk>=${VERSION}:../../wip/ruby-gnome2-gtk
 USE_TOOLS+=		pkg-config
 
 .include "../../graphics/libgnomecanvas/buildlink3.mk"
-.include "../../wip/ruby-gnome2/Makefile.common"
+.include "../../meta-pkgs/ruby-gnome2/Makefile.common"

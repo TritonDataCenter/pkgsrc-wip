@@ -13,4 +13,4 @@ USE_TOOLS+=		pkg-config
 .include "../../graphics/jpeg/buildlink3.mk"
 .include "../../graphics/png/buildlink3.mk"
 .include "../../graphics/libart2/buildlink3.mk"
-.include "../../wip/ruby-gnome2/Makefile.common"
+.include "../../meta-pkgs/ruby-gnome2/Makefile.common"

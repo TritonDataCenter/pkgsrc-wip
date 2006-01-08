@@ -13,4 +13,4 @@ USE_TOOLS+=		pkg-config
 
 .include "../../devel/libgnome/buildlink3.mk"
 .include "../../devel/libgnomeui/buildlink3.mk"
-.include "../../wip/ruby-gnome2/Makefile.common"
+.include "../../meta-pkgs/ruby-gnome2/Makefile.common"

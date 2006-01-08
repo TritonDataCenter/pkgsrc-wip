@@ -11,4 +11,4 @@ DEPENDS+=		ruby-gnome2-glib>=${VERSION}:../../wip/ruby-gnome2-glib
 USE_TOOLS+=		pkg-config
 
 .include "../../devel/atk/buildlink3.mk"
-.include "../../wip/ruby-gnome2/Makefile.common"
+.include "../../meta-pkgs/ruby-gnome2/Makefile.common"

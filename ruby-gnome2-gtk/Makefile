@@ -17,4 +17,4 @@ USE_TOOLS+=		pkg-config
 .include "../../graphics/cairo/buildlink3.mk"
 .include "../../x11/gtk2/buildlink3.mk"
 .include "../../wip/ruby-gnome2-pango/buildlink3.mk"
-.include "../../wip/ruby-gnome2/Makefile.common"
+.include "../../meta-pkgs/ruby-gnome2/Makefile.common"
