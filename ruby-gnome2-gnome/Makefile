@@ -7,7 +7,7 @@ CATEGORIES=		gnome x11
 
 RUBY_EXTCONF_SUBDIRS=	gnome
 
-DEPENDS+=		ruby-gnome2-gnomecanvas>=${VERSION}:../../wip/ruby-gnome2-gnomecanvas
+DEPENDS+=		ruby-gnome2-gnomecanvas>=${VERSION}:../../graphics/ruby-gnome2-gnomecanvas
 
 USE_TOOLS+=		pkg-config
 

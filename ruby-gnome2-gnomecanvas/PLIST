@@ -1,3 +1,0 @@
-@comment $NetBSD$
-${RUBY_SITELIBDIR}/gnomecanvas2.rb
-${RUBY_SITELIBDIR}/${MACHINE_ARCH}-${LOWER_OPSYS}elf/gnomecanvas2.so
