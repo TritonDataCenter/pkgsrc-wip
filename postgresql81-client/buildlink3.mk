@@ -13,7 +13,7 @@ BUILDLINK_PACKAGES:=	${BUILDLINK_PACKAGES:Npostgresql81-client}
 BUILDLINK_PACKAGES+=	postgresql81-client
 
 .if !empty(POSTGRESQL81_CLIENT_BUILDLINK3_MK:M+)
-BUILDLINK_DEPENDS.postgresql81-client+=		postgresql81-client>=8.0.2
+BUILDLINK_DEPENDS.postgresql81-client+=		postgresql81-client>=8.1.0
 BUILDLINK_PKGSRCDIR.postgresql81-client?=	../../wip/postgresql81-client
 
 .  if defined(PG_SUBPREFIX) && !empty(PG_SUBPREFIX)
