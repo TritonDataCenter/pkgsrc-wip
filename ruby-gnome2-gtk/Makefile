@@ -8,7 +8,7 @@ CATEGORIES=		x11
 RUBY_EXTCONF_SUBDIRS=	gtk
 
 DEPENDS+=		ruby-gnome2-glib>=${VERSION}:../../devel/ruby-gnome2-glib
-DEPENDS+=		ruby-gnome2-atk>=${VERSION}:../../wip/ruby-gnome2-atk
+DEPENDS+=		ruby-gnome2-atk>=${VERSION}:../../devel/ruby-gnome2-atk
 DEPENDS+=		ruby-gnome2-gdkpixbuf>=${VERSION}:../../wip/ruby-gnome2-gdkpixbuf
 
 USE_TOOLS+=		pkg-config
