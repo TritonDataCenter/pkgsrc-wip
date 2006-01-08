@@ -1,9 +1,11 @@
 # $NetBSD$
 #
 
-DISTNAME=	xmms2-0.1DR2.2
+DISTNAME=	xmms2-0.2DrAlban
+PKGNAME=	xmms2-0.2
 CATEGORIES=	audio
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=xmms2/}
+EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	tech-pkg@NetBSD.org
 HOMEPAGE=	http://xmms2.xmms.org/
