@@ -1,5 +1,0 @@
-@comment $NetBSD$
-${RUBY_SITELIBDIR}/glib2.rb
-${RUBY_SITELIBDIR}/${MACHINE_ARCH}-${LOWER_OPSYS}elf/glib2.so
-${RUBY_SITELIBDIR}/mkmf-gnome2.rb
-${RUBY_SITELIBDIR}/pkg-config.rb
