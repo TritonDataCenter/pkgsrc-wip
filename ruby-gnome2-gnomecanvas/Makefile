@@ -8,7 +8,7 @@ CATEGORIES=		graphics gnome
 RUBY_EXTCONF_SUBDIRS=	gnomecanvas
 
 DEPENDS+=		ruby-gnome2-libart>=${VERSION}:../../graphics/ruby-gnome2-libart
-DEPENDS+=		ruby-gnome2-gtk>=${VERSION}:../../wip/ruby-gnome2-gtk
+DEPENDS+=		ruby-gnome2-gtk>=${VERSION}:../../x11/ruby-gnome2-gtk
 
 USE_TOOLS+=		pkg-config
 
