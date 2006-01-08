@@ -3,7 +3,7 @@
 
 DISTNAME=	hanzim-1.3
 CATEGORIES=	misc
-MASTER_SITES=	ftp://kommos.ucsd.edu/pub/arobert/Chinese/
+MASTER_SITES=	http://kamares.ucsd.edu/~arobert/Files/Chinese/
 EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	rxg@NetBSD.org
