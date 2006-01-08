@@ -7,7 +7,7 @@ CATEGORIES=		devel fonts
 
 RUBY_EXTCONF_SUBDIRS=	pango
 
-DEPENDS+=		ruby-gnome2-glib>=${VERSION}:../../wip/ruby-gnome2-glib
+DEPENDS+=		ruby-gnome2-glib>=${VERSION}:../../devel/ruby-gnome2-glib
 
 USE_TOOLS+=		pkg-config
 

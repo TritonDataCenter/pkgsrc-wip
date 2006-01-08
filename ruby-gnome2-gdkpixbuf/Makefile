@@ -7,7 +7,7 @@ CATEGORIES=		devel graphics
 
 RUBY_EXTCONF_SUBDIRS=	gdkpixbuf
 
-DEPENDS+=		ruby-gnome2-glib>=${VERSION}:../../wip/ruby-gnome2-glib
+DEPENDS+=		ruby-gnome2-glib>=${VERSION}:../../devel/ruby-gnome2-glib
 USE_TOOLS+=		pkg-config
 
 .include "../../x11/gtk2/buildlink3.mk"
