@@ -1,0 +1,4 @@
+@comment $NetBSD$
+bin/qjackctl
+share/icons/qjackctl.png
+@comment in xdg-dirs: @dirrm share/icons
