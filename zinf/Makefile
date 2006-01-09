@@ -11,7 +11,7 @@ COMMENT=	Simple but powerful audio player
 
 #BUILD_DEPENDS+=	nasm>=0.98:../../devel/nasm
 
-PTHREAD_OPTS=	require
+PTHREAD_OPTS+=	require
 
 GNU_CONFIGURE=	yes
 USE_TOOLS+=	gmake
