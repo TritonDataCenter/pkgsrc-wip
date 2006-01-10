@@ -14,7 +14,7 @@ COMMENT=		KDE database frontend
 USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=		yes
 GNU_CONFIGURE=		yes
-CONFIGURE_ENV=		"PYTHONBIN=${PYTHONBIN}"
+CONFIGURE_ENV+=		"PYTHONBIN=${PYTHONBIN}"
 
 .include "../../wip/xbsql/buildlink3.mk"
 .include "../../databases/mysql4-client/buildlink3.mk"
