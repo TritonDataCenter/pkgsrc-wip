@@ -17,7 +17,7 @@ GNU_CONFIGURE=		yes
 CONFIGURE_ENV+=		"PYTHONBIN=${PYTHONBIN}"
 
 .include "../../wip/xbsql/buildlink3.mk"
-.include "../../databases/mysql4-client/buildlink3.mk"
+.include "../../mk/mysql.buildlink3.mk"
 .include "../../lang/python/extension.mk"
 .include "../../meta-pkgs/kde3/kde3.mk"
 .include "../../x11/kdelibs3/buildlink3.mk"
