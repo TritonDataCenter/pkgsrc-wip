@@ -16,7 +16,7 @@ USE_RUBY_SETUP=		yes
 DOCS=	ChangeLog LICENSE README
 
 .include "../../databases/sqlite3/buildlink3.mk"
-.include "../../devel/swig13/buildlink3.mk"
+.include "../../devel/swig/buildlink3.mk"
 .include "../../lang/ruby/modules.mk"
 
 post-install:
