@@ -16,6 +16,7 @@ COMMENT=        Apache module for non-ascii filename interoperability
 
 USE_TOOLS+=	gmake
 USE_LIBTOOL=	yes
+APACHE_MODULE=	yes
 
 GNU_CONFIGURE=		yes
 
