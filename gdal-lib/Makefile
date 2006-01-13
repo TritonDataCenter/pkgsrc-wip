@@ -22,8 +22,8 @@ MAKEFILE=		GNUmakefile
 CONFIGURE_ARGS+=	--with-pg
 CONFIGURE_ARGS+=	--with-mysql=no
 CONFIGURE_ARGS+=	--with-xerces
-CONFIGURE_ARGS+=	--with-xerces-inc=${PREFIX}/include
-CONFIGURE_ARGS+=	--with-xerces-lib="-L${PREFIX}/lib -lxerces-c"
+CONFIGURE_ARGS+=	--with-xerces-inc=${PREFIX:Q}/include
+CONFIGURE_ARGS+=	--with-xerces-lib=-L${PREFIX:Q}/lib\ -lxerces-c
 CONFIGURE_ARGS+=	--with-geos
 CONFIGURE_ARGS+=	--without-python
 
