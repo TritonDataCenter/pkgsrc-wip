@@ -5,12 +5,12 @@ PKGNAME=		grub2-${GRUB_VERSION}
 CATEGORIES=		sysutils
 MASTER_SITES=		# not defined
 
-CVS_REPOSITORY=		:pserver:anonymous:@cvs.savannah.gnu.org:/sources/grub
-CVS_MODULE=		grub2
-
 MAINTAINER=		lkundrak@skosi.org
 HOMEPAGE=		http://www.gnu.org/software/grub/grub.html
 COMMENT=		Universal multiboot compilant GNU boot manager and loader
+
+CVS_REPOSITORY=		:pserver:anonymous:@cvs.savannah.gnu.org:/sources/grub
+CVS_MODULE=		grub2
 
 GNU_CONFIGURE=		yes
 USE_TOOLS=		gmake bison
