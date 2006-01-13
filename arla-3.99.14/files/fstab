@@ -1,0 +1,2 @@
+# $NetBSD: fstab,v 1.2 2005/03/15 15:58:52 wennmach Exp $
+/dev/nnpfs0		/afs	nnpfs	rw		0	0
