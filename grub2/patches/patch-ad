@@ -1,8 +1,8 @@
 $NetBSD$
 
---- conf/i386-pc.rmk.orig	2005-12-03 18:54:55.000000000 +0100
+--- conf/i386-pc.rmk.orig	2005-12-25 16:59:50.000000000 +0100
 +++ conf/i386-pc.rmk
-@@ -100,7 +100,7 @@ grub_emu_SOURCES = commands/boot.c comma
+@@ -101,7 +101,7 @@ grub_emu_SOURCES = commands/boot.c comma
  	util/i386/pc/biosdisk.c util/i386/pc/getroot.c			\
  	util/i386/pc/misc.c grub_emu_init.c
  

@@ -1,8 +1,8 @@
 $NetBSD$
 
---- conf/i386-pc.mk.orig	2005-12-03 18:54:55.000000000 +0100
+--- conf/i386-pc.mk.orig	2005-12-25 16:59:50.000000000 +0100
 +++ conf/i386-pc.mk
-@@ -1310,7 +1310,7 @@ grub_emu-grub_emu_init.d: grub_emu_init.
+@@ -1335,7 +1335,7 @@ grub_emu-grub_emu_init.d: grub_emu_init.
  -include grub_emu-grub_emu_init.d
  
  
