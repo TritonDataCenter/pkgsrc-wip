@@ -20,7 +20,7 @@ BUILD_DEPENDS+=	p5-ExtUtils-ParseXS>=0:../../wip/p5-ExtUtils-ParseXS
 BUILD_DEPENDS+=	p5-CPANPLUS>=0.04:../../wip/p5-CPANPLUS
 DEPENDS+=	p5-YAML>=0.35:../../textproc/p5-YAML
 
-PERL5_PACKLIST= auto/Catalyst/.packlist
+PERL5_PACKLIST= auto/Module/Install/.packlist
 
 .include "../../lang/perl5/module.mk"
 .include "../../mk/bsd.pkg.mk"
