@@ -14,14 +14,14 @@ USE_TOOLS+=		gmake
 USE_LIBTOOL=		YES
 GNU_CONFIGURE=		YES
 
-SITES_frabs210_unix.src.tar.bz2=       http://www.cs.uidaho.edu/~cass0664/fRaBs/
+SITES_frabs210_unix.src.tar.bz2=	http://www.cs.uidaho.edu/~cass0664/fRaBs/
 
-CPPFLAGS+=-DPREFIX="\"${PREFIX}\""
+CPPFLAGS+=		-DPREFIX=\"${PREFIX:Q}\"
 
 post-install:
-	${INSTALL_DATA_DIR} ${PREFIX}/share/abuse_sdl
-	cd ${PREFIX}/share/abuse_sdl && \
-		(${CP} -R ${WRKDIR}/frabs210_unix.src/* . && \
+	${INSTALL_DATA_DIR} ${PREFIX:Q}/share/abuse_sdl
+	cd ${PREFIX:Q}/share/abuse_sdl && \
+		(${CP} -R ${WRKDIR:Q}/frabs210_unix.src/* . && \
 		${CHOWN} -R ${SHAREOWN} . && ${CHGRP} -R ${SHAREGRP} . && \
 		${FIND} . -type f -exec ${CHMOD} ${SHAREMODE} '{}' ';' && \
 		${FIND} . -type d -exec ${CHMOD} ${BINMODE} '{}' ';')
