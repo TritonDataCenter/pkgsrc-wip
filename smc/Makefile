@@ -14,14 +14,12 @@ MAINTAINER=		hernani@vecirex.net
 HOMEPAGE=		http://smclone.sf.net/
 COMMENT=		Super Mario (World) Clone using pretty 2D graphics
 
-DEPENDS+=		autoconf>=2.50:../../devel/autoconf
-DEPENDS+=		automake>=1.7:../../devel/automake
 DEPENDS+=		SDL-nas-[0-9]*:../../audio/SDL-nas
 GCC_REQD=		3.2
 
 WRKSRC=			${WRKDIR}/0.97
 GNU_CONFIGURE=		YES
-USE_TOOLS+=             gmake
+USE_TOOLS+=             gmake automake gmake
 
 SMCSHARE=${PREFIX}/share/smc
 
