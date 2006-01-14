@@ -19,7 +19,7 @@ GCC_REQD=		3.2
 
 WRKSRC=			${WRKDIR}/0.97
 GNU_CONFIGURE=		YES
-USE_TOOLS+=             gmake automake gmake
+USE_TOOLS+=             gmake automake autoconf
 
 SMCSHARE=${PREFIX}/share/smc
 
