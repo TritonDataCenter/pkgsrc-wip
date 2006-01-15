@@ -9,6 +9,7 @@ MAINTAINER=		ola@mreriksson.net
 HOMEPAGE=		http://www.stacken.kth.se/project/arla/
 COMMENT=		Free AFS implementation from KTH
 
+CONFLICTS+=		openafs-[0-9]*
 CONFLICTS+=		lwp-[0-9]*
 CONFLICTS+=		rx-[0-9]*
 
