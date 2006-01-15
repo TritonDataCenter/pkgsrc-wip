@@ -82,7 +82,8 @@ OWN_DIRS+=		${PKG_SYSCONFDIR}/mounted
 OWN_DIRS+=		${PKG_SYSCONFDIR}/printers
 OWN_DIRS+=		${VARBASE}/spool/ppr
 
-.include "../../graphics/netpbm/buildlink3.mk"
+.include "options.mk"
+
 .include "../../wip/natali/buildlink3.mk"
 .include "../../net/netatalk/buildlink3.mk"
 .include "../../databases/gdbm/buildlink3.mk"
