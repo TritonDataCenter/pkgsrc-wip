@@ -19,7 +19,7 @@ pre-install:
 		${ECHO} "${DISTNAME} can only be installed under X11."; \
 		exit 1; \
 	 else \
-		${SETENV} SHELL=${SH}; export LC_CTYPE=en_US.ISO8859-1; \
+		${SETENV} SHELL=${SH:Q}; export LC_CTYPE=en_US.ISO8859-1; \
 	 fi
 
 .include "../../lang/tcl/buildlink3.mk"
