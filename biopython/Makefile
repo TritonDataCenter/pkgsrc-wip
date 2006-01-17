@@ -17,30 +17,20 @@ NO_CONFIGURE=		YES
 
 post-install:
 	${INSTALL_DATA_DIR} ${PREFIX}/share/doc/biopython
-.for DOC in *.txt
-	${INSTALL_DATA} ${WRKSRC}/Doc/${DOC} ${PREFIX}/share/doc/biopython
-.endfor
-.for DOC in README LICENSE CONTRIB
-	${INSTALL_DATA} ${WRKSRC}/${DOC} ${PREFIX}/share/doc/biopython
+	${INSTALL_DATA} ${WRKSRC}/Doc/*.txt ${PREFIX}/share/doc/biopython
+.for f in README LICENSE CONTRIB
+	${INSTALL_DATA} ${WRKSRC}/${f} ${PREFIX}/share/doc/biopython
 .endfor
 	${INSTALL_DATA_DIR} ${PREFIX}/share/examples/biopython
-.for EXAPY in *.py
-	${INSTALL_DATA} ${WRKSRC}/Doc/examples/${EXAPY} \
+	${INSTALL_DATA} ${WRKSRC}/Doc/examples/*.py \
 		${PREFIX}/share/examples/biopython
-.endfor
-.for EXAFS in *.fasta
-	${INSTALL_DATA} ${WRKSRC}/Doc/examples/${EXAFS} \
+	${INSTALL_DATA} ${WRKSRC}/Doc/examples/*.fasta \
 		${PREFIX}/share/examples/biopython
-.endfor
-.for EXAALN in *.aln
-	${INSTALL_DATA} ${WRKSRC}/Doc/examples/${EXAALN} \
+	${INSTALL_DATA} ${WRKSRC}/Doc/examples/*.aln \
 		${PREFIX}/share/examples/biopython
-.endfor
 	${INSTALL_DATA_DIR} ${PREFIX}/share/examples/biopython/nmr
-.for NMR in *
-	${INSTALL_DATA} ${WRKSRC}/Doc/examples/nmr/${NMR} \
+	${INSTALL_DATA} ${WRKSRC}/Doc/examples/nmr/* \
 		${PREFIX}/share/examples/biopython/nmr
-.endfor
 
 .include "../../time/py-mxDateTime/buildlink3.mk"
 .include "../../math/py-Numeric/buildlink3.mk"
