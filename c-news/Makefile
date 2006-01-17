@@ -100,7 +100,7 @@ regression:
 
 build-doc:
 	cd ${WRKSRC}/doc && \
-		${MAKE} PIC=${PIC} NROFF=${NROFF} ${MAKE_FLAGS}
+		${MAKE} PIC=${PIC:Q} NROFF=${NROFF:Q} ${MAKE_FLAGS}
 	cd ${WRKSRC}/notebook && ${MAKE} ${MAKE_FLAGS}
 
 do-install:

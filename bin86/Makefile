@@ -18,9 +18,9 @@ ONLY_FOR_PLATFORM=	Linux-*-i[3-6]86
 USE_TOOLS+=		gmake
 
 do-build:
-	cd ${WRKSRC} && ${GMAKE} PREFIX=${PREFIX}
+	cd ${WRKSRC} && ${GMAKE} PREFIX=${PREFIX:Q}
 
 do-install:
-	cd ${WRKSRC} && ${GMAKE} PREFIX=${PREFIX} install
+	cd ${WRKSRC} && ${GMAKE} PREFIX=${PREFIX:Q} install
 
 .include "../../mk/bsd.pkg.mk"

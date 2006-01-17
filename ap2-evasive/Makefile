@@ -16,7 +16,7 @@ SUBST_CLASSES+=		mailer
 SUBST_STAGE.mailer=	post-patch
 SUBST_FILES.mailer=	mod_evasive.c
 SUBST_SED.mailer=	-e s,/bin/mail,${MAIL_CMD},
-SUBST_MESSAGE.mailer=	"Fixing mail command path."
+SUBST_MESSAGE.mailer=	Fixing mail command path.
 
 .include "../../www/apache2/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

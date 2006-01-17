@@ -10,7 +10,7 @@ PKG_OPTIONS_VAR=		PKG_OPTIONS.blassic
 PKG_SUPPORTED_OPTIONS=		dont-use-x
 
 MAINTAINER=		ivaniclixx@gmail.com
-HOMEPAGE=		http://blassic.org
+HOMEPAGE=		http://blassic.org/
 COMMENT=		Blassic is a classic Basic interpreter
 
 GNU_CONFIGURE=		yes
