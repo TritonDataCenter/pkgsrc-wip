@@ -35,7 +35,7 @@ OWN_DIRS_PERMS+=	${VARBASE}/log/kismet ${KISMET_USER} ${KISMET_GROUP} 0700
 CONFIGURE_ARGS+=	--sysconfdir=${PKG_SYSCONFDIR:Q}
 
 SUBST_CLASSES+=		user
-SUBST_MESSAGE.user=	"Fixing user name."
+SUBST_MESSAGE.user=	Fixing user name.
 SUBST_STAGE.user=	pre-configure
 SUBST_FILES.user=	conf/kismet.conf.in
 SUBST_SED.user=		's/your_user_here/${KISMET_USER}/'

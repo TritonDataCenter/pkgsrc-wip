@@ -21,7 +21,7 @@ pre-build:
 			@cd ${WRKSRC} && ${MAKE} clean # archive's dirty
 
 SUBST_CLASSES+=		path
-SUBST_MESSAGE.path=	"Setting up hardcoded path."
+SUBST_MESSAGE.path=	Setting up hardcoded path.
 SUBST_FILES.path=	Makefile
 SUBST_STAGE.path=	post-patch
 SUBST_SED.path=		-e 's|/usr/pkg|${LOCALBASE}|'

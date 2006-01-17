@@ -18,7 +18,7 @@ XSLDIR=		${PREFIX}/share/xsl/docbook-ko
 XML_CATALOGS=	${XSLDIR}/catalog
 
 SUBST_CLASSES+=		xsl
-SUBST_MESSAGE.xsl=	"Fixing remote URLs."
+SUBST_MESSAGE.xsl=	Fixing remote URLs.
 SUBST_STAGE.xsl=	post-patch
 SUBST_FILES.xsl=	dbk-fo.xsl dbk-html-chunk.xsl dbk-html.xsl \
 			dbk-htmlhelp.xsl

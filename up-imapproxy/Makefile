@@ -16,7 +16,7 @@ SUBST_CLASSES+=		paths
 SUBST_STAGE.paths=	post-patch
 SUBST_FILES.paths=	include/imapproxy.h
 SUBST_SED.paths=	-e "s|@PKG_SYSCONFDIR@|${PKG_SYSCONFDIR}|g"
-SUBST_MESSAGE.paths=	"Fixing hard coded paths."
+SUBST_MESSAGE.paths=	Fixing hard coded paths.
 
 CONF_FILES=	${PREFIX}/share/examples/up-imapproxy/imapproxy.conf \
 			${PKG_SYSCONFDIR}/imapproxy.conf

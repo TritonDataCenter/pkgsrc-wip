@@ -16,7 +16,7 @@ SUBST_CLASSES+=		paths
 SUBST_STAGE.paths=	pre-configure
 SUBST_FILES.paths=	rsyslog.conf.5 rsyslogd.8 sample.conf syslogd.c
 SUBST_SED.paths=	-e "s|/etc/rsyslog.conf|${PKG_SYSCONFDIR}/rsyslog.conf|g" -e "s|/etc/rsyslogd.conf|${PKG_SYSCONFDIR}/rsyslog.conf|g"
-SUBST_MESSAGE.paths=	"Fixing paths."
+SUBST_MESSAGE.paths=	Fixing paths.
 
 USE_PKGINSTALL=		yes
 EGDIR=			${PREFIX}/share/examples/rsyslog

@@ -63,7 +63,7 @@ do-install:
 	${INSTALL_DATA} ${WRKSRC}/config-example.xml ${EGDIR}/pymsnt.xml
 
 SUBST_CLASSES+=		paths
-SUBST_MESSAGE.paths=	"Localizing Paths"
+SUBST_MESSAGE.paths=	Localizing Paths
 SUBST_STAGE.paths=	post-patch
 SUBST_FILES.paths=	config-example.xml PyMSNt.tac
 SUBST_SED.paths+=	-e 's,@PKG_SYSCONFDIR@,${PKG_SYSCONFDIR},g' \

@@ -17,7 +17,7 @@ post-extract:
 	${CP} ${FILESDIR}/scourge.sh ${WRKSRC}
 
 SUBST_CLASSES+=	scourge
-SUBST_MESSAGE.scourge=	"Replacing prefix."
+SUBST_MESSAGE.scourge=	Replacing prefix.
 SUBST_STAGE.scourge=	post-patch
 SUBST_FILES.scourge=	scourge.sh
 SUBST_SED.scourge=	-e "s,XXXPREFIXXXX,${PREFIX},g"

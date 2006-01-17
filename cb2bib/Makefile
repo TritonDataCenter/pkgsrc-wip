@@ -22,7 +22,7 @@ SUBST_CLASSES+=         path
 SUBST_STAGE.path=       post-patch
 SUBST_FILES.path=       src/src.pro
 SUBST_SED.path=          -e 's,xxPREFIXxx,${PREFIX},g'
-SUBST_MESSAGE.path=      "Fixing hardcoded paths."
+SUBST_MESSAGE.path=      Fixing hardcoded paths.
 
 do-configure:
 	cd ${WRKSRC} && ${SET_ENV} ${CONFIGURE_ENV} ./configure \

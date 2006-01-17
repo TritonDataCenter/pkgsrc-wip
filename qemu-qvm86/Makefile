@@ -25,11 +25,11 @@ SUBST_CLASSES+=		snd smbd
 SUBST_STAGE.snd=	post-patch
 SUBST_FILES.snd=	audio/ossaudio.c
 SUBST_SED.snd=		-e "s,/dev/dsp,${DEVOSSAUDIO},g"
-SUBST_MESSAGE.snd=	"Fixing hardcoded audio device."
+SUBST_MESSAGE.snd=	Fixing hardcoded audio device.
 SUBST_STAGE.smbd=	post-patch
 SUBST_FILES.smbd=	vl.c
 SUBST_SED.smbd=		-e "s,/usr/sbin/smbd,${PREFIX}/sbin/smbd,g"
-SUBST_MESSAGE.smbd=	"Fixing hardcoded paths."
+SUBST_MESSAGE.smbd=	Fixing hardcoded paths.
 
 # Remove -march/-mcpu from CFLAGS, otherwise it will fail
 # to build in the SSE code.

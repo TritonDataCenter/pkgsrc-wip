@@ -41,7 +41,7 @@ REPLACE_PERL+=		"doc/smbldap-migrate-unix-accounts"
 REPLACE_PERL+=		"doc/smbldap-migrate-unix-groups"
 
 SUBST_CLASSES+=		scripts
-SUBST_MESSAGE.scripts=	"Fixing directory locations."
+SUBST_MESSAGE.scripts=	Fixing directory locations.
 SUBST_STAGE.scripts=	do-configure
 SUBST_FILES.scripts=	configure.pl smbldap_tools.pm
 SUBST_FILES.scripts+=	smbldap.conf smbldap-populate

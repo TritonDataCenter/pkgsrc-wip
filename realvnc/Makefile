@@ -33,7 +33,7 @@ REPLACE_PERL=		vncserver
 SUBST_CLASSES+=		pl
 SUBST_STAGE.pl=		pre-install
 SUBST_FILES.pl=		vncserver
-SUBST_MESSAGE.pl=	"Fixing paths..."
+SUBST_MESSAGE.pl=	Fixing paths...
 SUBST_SED.pl=		-e "s|/usr/local/vnc/classes|${PREFIX}/share/vnc/classes|g"
 
 .include "../../mk/bsd.prefs.mk"

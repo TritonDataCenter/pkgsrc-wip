@@ -24,7 +24,7 @@ SUBST_CLASSES+=		pyversion
 SUBST_STAGE.pyversion=	do-configure
 SUBST_FILES.pyversion=	GNUmakefile
 SUBST_SED.pyversion=	"s:python:${PYTHONBIN}:g"
-SUBST_MESSAGE.pyversion="Fixing Python Version"
+SUBST_MESSAGE.pyversion=Fixing Python Version
 
 .include "../../lang/python/application.mk"
 .include "../../mk/bsd.pkg.mk"

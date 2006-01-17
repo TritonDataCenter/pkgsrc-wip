@@ -22,7 +22,7 @@ PYTHON_VERSIONS_ACCEPTED=	23 22 21
 PYTHON_PATCH_SCRIPTS=		gdesklets
 
 SUBST_CLASSES+=		python
-SUBST_MESSAGE.python=	"Fixing Python command name."
+SUBST_MESSAGE.python=	Fixing Python command name.
 SUBST_STAGE.python=	post-patch
 SUBST_FILES.python=	locale/Makefile.in
 SUBST_SED.python=	-e 's|python |${PYTHONBIN} |g'

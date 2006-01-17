@@ -17,7 +17,7 @@ SUBST_CLASSES+=	    dsp
 SUBST_STAGE.dsp=    post-patch
 SUBST_FILES.dsp=    main.c
 SUBST_SED.dsp=	    -e "s,/dev/dsp,${DEVOSSAUDIO},g"
-SUBST_MESSAGE.dsp=  "Fixing harcoded audio device."
+SUBST_MESSAGE.dsp=  Fixing harcoded audio device.
 
 pre-install:
 	${INSTALL_DATA_DIR} ${PREFIX}/share/mupen64-base/plugins

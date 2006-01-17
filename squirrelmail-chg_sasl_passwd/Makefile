@@ -37,7 +37,7 @@ SUBST_CLASSES+=		prefix
 SUBST_STAGE.prefix=	post-patch
 SUBST_FILES.prefix=	chg_sasl_passwd/chgsaslpasswd.c
 SUBST_SED.prefix+=	-e "s,/usr/local,${PREFIX},g"
-SUBST_MESSAGE.prefix=	"Fixing harcoded paths."
+SUBST_MESSAGE.prefix=	Fixing harcoded paths.
 
 .include "../../mail/squirrelmail/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

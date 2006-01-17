@@ -27,7 +27,7 @@ SUBST_CLASSES+=		libs
 SUBST_STAGE.libs=	pre-build
 SUBST_FILES.libs=	sid-filter/Makefile.m4
 SUBST_SED.libs=		-e "s|@LMBASE@|${BUILDLINK_PREFIX.libmilter}|g"
-SUBST_MESSAGE.libs=	"Fixing paths."
+SUBST_MESSAGE.libs=	Fixing paths.
 
 .include "../../security/openssl/buildlink3.mk"
 .include "../../mail/libmilter/buildlink3.mk"

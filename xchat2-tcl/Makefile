@@ -19,7 +19,7 @@ CONFIGURE_ARGS+=	--disable-python
 #SUBST_STAGE.paths=	post-patch
 #SUBST_FILES.paths=	configure
 #SUBST_SED.paths=	-e "s|$tcl /lib|${PREFIX}/lib|g"
-#SUBST_MESSAGE.paths=	"Fixing paths."
+#SUBST_MESSAGE.paths=	Fixing paths.
 
 .include "../../lang/tcl/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

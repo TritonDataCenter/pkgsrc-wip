@@ -26,7 +26,7 @@ CONF_FILES=		${EGDIR}/extensions.conf		\
 			${PKG_SYSCONFDIR}/scriptre.conf
 
 SUBST_CLASSES+=		etc
-SUBST_MESSAGE.etc=	"Fixing hardcoded paths."
+SUBST_MESSAGE.etc=	Fixing hardcoded paths.
 SUBST_STAGE.etc=	post-patch
 SUBST_FILES.etc=	highlight/datadir.cpp
 SUBST_SED.etc=		-e 's,/etc/highlight,${PKG_SYSCONFDIR},g'

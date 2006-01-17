@@ -39,7 +39,7 @@ do-install:
 	${INSTALL_DATA} ${WRKSRC}/ppp.conf ${EGDIR}
 
 SUBST_CLASSES+=		path
-SUBST_MESSAGE.path=	"Setting up hardcoded path"
+SUBST_MESSAGE.path=	Setting up hardcoded path
 # this archive is really dirty, config.h is not created by configure...
 SUBST_FILES.path=	Makefile.dep config.h				\
 			check-hdlc-bug.c check-hdlc.c eci-load1.c	\

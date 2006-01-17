@@ -16,7 +16,7 @@ NO_BUILD=		YES
 USE_PKGINSTALL=		yes
 
 SUBST_CLASSES+=		cfgpath
-SUBST_MESSAGE.cfgpath = "Fixing hardcoded configuration file path."
+SUBST_MESSAGE.cfgpath = Fixing hardcoded configuration file path.
 SUBST_STAGE.cfgpath = 	post-patch
 SUBST_FILES.cfgpath = 	flexbackup flexbackup.1 flexbackup.conf.5
 SUBST_SED.cfgpath = 	-e s,/etc/flexbackup.conf,${PKG_SYSCONFDIR}/flexbackup.conf,

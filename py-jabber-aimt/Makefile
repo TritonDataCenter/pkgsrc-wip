@@ -63,7 +63,7 @@ do-install:
 	${INSTALL_DATA} ${WRKSRC}/config_example.xml ${EGDIR}/pyaimt.xml
 
 SUBST_CLASSES+=		paths
-SUBST_MESSAGE.paths=	"Localizing Paths"
+SUBST_MESSAGE.paths=	Localizing Paths
 SUBST_STAGE.paths=	post-patch
 SUBST_FILES.paths=	config_example.xml src/langs/__init__.py
 SUBST_SED.paths+=	-e 's,@PKG_SYSCONFDIR@,${PKG_SYSCONFDIR},g' \

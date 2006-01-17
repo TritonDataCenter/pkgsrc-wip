@@ -15,7 +15,7 @@ MAKEFILE=		makefile
 BUILD_TARGET=		tde
 
 SUBST_CLASSES+=		base
-SUBST_MESSAGE.base=	"Configuring to use LOCALBASE."
+SUBST_MESSAGE.base=	Configuring to use LOCALBASE.
 SUBST_STAGE.base=	post-patch
 SUBST_FILES.base=	makefile
 SUBST_SED.base=		-e 's,/usr/local,${PREFIX},g'

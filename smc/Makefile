@@ -60,11 +60,11 @@ SUBST_CLASSES+=		libpath sharepath
 SUBST_STAGE.libpath=	pre-install
 SUBST_FILES.libpath=	${WRKDIR}/.smc
 SUBST_SED.libpath=	-e 's|LIBPATH|${PREFIX}/lib/smc|g'
-SUBST_MESSAGE.libpath=	"Setting smc lib path in execution script"
+SUBST_MESSAGE.libpath=	Setting smc lib path in execution script
 SUBST_STAGE.sharepath=	pre-install
 SUBST_FILES.sharepath=	${WRKDIR}/.smc
 SUBST_SED.sharepath=	-e 's|SHAREPATH|${SMCSHARE}|g'
-SUBST_MESSAGE.sharepath="Setting smc share path in execution script"
+SUBST_MESSAGE.sharepath=Setting smc share path in execution script
 
 .include "../../audio/SDL_mixer/buildlink3.mk"
 .include "../../devel/SDL_gfx/buildlink3.mk"

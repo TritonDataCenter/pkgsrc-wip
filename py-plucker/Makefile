@@ -20,7 +20,7 @@ EGDIR=		${PREFIX}/share/doc/py-plucker
 CONF_FILES=	${EGDIR}/pluckerrc.sample ${PKG_SYSCONFDIR}/pluckerrc
 
 SUBST_CLASSES+=		paths
-SUBST_MESSAGE.paths=	"Fixing hardcoded paths."
+SUBST_MESSAGE.paths=	Fixing hardcoded paths.
 SUBST_STAGE.paths=	post-patch
 SUBST_FILES.paths=	plucker-build.1	\
 			PyPlucker/__init__.py PyPlucker/helper/gettext.py

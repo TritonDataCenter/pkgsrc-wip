@@ -13,7 +13,7 @@ PYDISTUTILSPKG=		yes
 PY_PATCHPLIST=  	yes
 
 SUBST_CLASSES+=		setup
-SUBST_MESSAGE.setup=	"Fixing LOCALBASE and X11BASE paths."
+SUBST_MESSAGE.setup=	Fixing LOCALBASE and X11BASE paths.
 SUBST_STAGE.setup=	pre-patch
 SUBST_FILES.setup=	setup.py
 SUBST_SED.setup+=	-e 's|/usr/bin|${LOCALBASE}/bin|g'
