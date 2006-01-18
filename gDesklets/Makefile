@@ -37,9 +37,5 @@ post-install:
 .include "../../x11/gtk2/buildlink3.mk"
 .include "../../x11/py-gnome2/buildlink3.mk"
 .include "../../x11/py-gtk2/buildlink3.mk"
-
-# libXau.so is required to build dynamically-linked Python modules.
-.include "../../wip/libXau/buildlink3.mk"
-
 .include "../../mk/x11.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
