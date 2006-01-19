@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		git-0.99.9l
+DISTNAME=		git-1.1.3
 PKGNAME=			scm${DISTNAME}
 CATEGORIES=		wip devel
 MASTER_SITES=		http://www.kernel.org/pub/software/scm/git/
