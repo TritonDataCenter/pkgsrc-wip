@@ -67,7 +67,7 @@ post-install:
 		select.sql auth_template.html err_template.html \
 		redir_template.html; \
 		do ${INSTALL_DATA} ${WRKSRC}/src/$$m ${EGDIR}; done
-	for m in koi-alt.tab koi-iso.tab koi-win.tab;
+	for m in koi-alt.tab koi-iso.tab koi-win.tab; \
 		do ${INSTALL_DATA} ${WRKSRC}/src/tables/$$m ${EGDIR}/tables; done
 	${INSTALL_MAN} ${WRKSRC}/doc/oops.8 ${PREFIX}/man/man8
 	${INSTALL_MAN} ${WRKSRC}/doc/oopsctl.8 ${PREFIX}/man/man8
