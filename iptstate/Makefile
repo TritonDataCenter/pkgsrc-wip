@@ -9,11 +9,10 @@ MAINTAINER=		roland.illig@gmx.de
 HOMEPAGE=		http://iptstate.phildev.net/
 COMMENT=		Display Netfilter state tables in a "top"-like interface
 
-ONLY_FOR_PLATFORM=	Linux-2.4*
-
+ONLY_FOR_PLATFORM=	Linux-2.4.*-*
 
 do-install:
-	cd ${WRKSRC} && ${INSTALL_PROGRAM} iptstate ${PREFIX}/bin/
-	cd ${WRKSRC} && ${INSTALL_MAN} man/man1/iptstate.1 ${PREFIX}/man/man1/
+	cd ${WRKSRC:Q} && ${INSTALL_PROGRAM} iptstate ${PREFIX:Q}/bin/
+	cd ${WRKSRC:Q} && ${INSTALL_MAN} man/man1/iptstate.1 ${PREFIX:Q}/man/man1/
 
 .include "../../mk/bsd.pkg.mk"
