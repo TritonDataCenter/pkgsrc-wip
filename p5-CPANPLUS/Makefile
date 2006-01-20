@@ -17,11 +17,11 @@ OPTIONS+=	TEST_REPORTER "Send reports to cpan-testers" off
 OPTIONS+=	YAML "Check reports from cpan-testers" off
 
 .if defined(WITH_TEST_REPORTER)
-BUILD_DEPENDS+=	${SITE_PERL}/Test/Reporter.pm:../../devel/p5-Test-Reporter
+DEPENDS+=	p5-Test-Reporter:../../devel/p5-Test-Reporter
 .endif
 
 .if defined(WITH_YAML)
-BUILD_DEPENDS+=	${SITE_PERL}/YAML.pm:../../textproc/p5-YAML
+DEPENDS+=	p5-YAML.pm:../../textproc/p5-YAML
 .endif
 
 PERL5_PACKLIST= auto/CPANPLUS/.packlist
