@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	syslog-ng-1.6.6
+DISTNAME=	syslog-ng-1.6.9
 CATEGORIES=	sysutils
 MASTER_SITES=	http://www.balabit.com/downloads/syslog-ng/1.6/src/
 
