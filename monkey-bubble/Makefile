@@ -15,5 +15,5 @@ GNU_CONFIGURE=		yes
 USE_TOOLS+=		gmake
 
 .include "../../graphics/librsvg2/buildlink3.mk"
-.include "../../multimedia/gstreamer/buildlink3.mk"
+.include "../../multimedia/gstreamer0.8/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
