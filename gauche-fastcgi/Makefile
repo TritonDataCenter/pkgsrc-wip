@@ -12,7 +12,10 @@ COMMENT=		Fastcgi bindings for gauche
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 
+.if exists(${PREFIX}/bin/gauche-config)
 GAUCHE_VERSION!=	gauche-config -V
+.endif
+
 PLIST_SUBST+=		GAUCHE_VERSION=${GAUCHE_VERSION:Q}
 
 .include "../../lang/gauche/buildlink3.mk"
