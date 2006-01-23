@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	HTTP-Server-Simple-0.12
+DISTNAME=	HTTP-Server-Simple-0.16
 PKGNAME=	p5-${DISTNAME}
 SVR4_PKGNAME=	p5hss
 CATEGORIES=	www perl5
