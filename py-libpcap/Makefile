@@ -19,6 +19,6 @@ do-install:
 	(cd ${WRKSRC} && ${PYTHONBIN} setup.py install)
 
 .include "../../lang/python/extension.mk"
-.include "../../devel/swig-python/buildlink3.mk"
+.include "../../devel/swig/buildlink3.mk"
 .include "../../net/libpcap/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
