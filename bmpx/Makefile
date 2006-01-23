@@ -18,6 +18,6 @@ CONFIGURE_ARGS+=	--disable-xine
 
 BROKEN=		This needs GStreamer >= 0.9.1
 
-.include "../../multimedia/gst-plugins/buildlink3.mk"
-.include "../../multimedia/gstreamer/buildlink3.mk"
+.include "../../multimedia/gst-plugins0.8/buildlink3.mk"
+.include "../../multimedia/gstreamer0.8/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
