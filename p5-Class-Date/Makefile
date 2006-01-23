@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	Class-Date-1.1.7
+DISTNAME=	Class-Date-1.1.8
 PKGNAME=	p5-${DISTNAME}
 SVR4_PKGNAME=	p5cld
 CATEGORIES=	devel perl5
