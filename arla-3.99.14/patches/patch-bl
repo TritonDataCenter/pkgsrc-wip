@@ -22,7 +22,7 @@ $NetBSD: patch-bl,v 1.5 2005/12/15 21:28:48 wennmach Exp $
      NULL,			/* mountroot */
 -#ifdef HAVE_STRUCT_VFSOPS_VFS_CHECKEXP
 +#if defined(HAVE_STRUCT_VFSOPS_VFS_CHECKEXP) &&\
-+!(defined(__NetBSD__) || __NetBSD_Version__ >= 399001400) /* 3.99.14 */
++!(defined(__NetBSD__) && __NetBSD_Version__ >= 399001400) /* 3.99.14 */
 +/* XXX Autoconf should detect this instead! */
      nnpfs_checkexp,		/* checkexp */
  #endif
