@@ -1,0 +1,2 @@
+@comment $NetBSD: PLIST,v 1.2 2005/04/22 19:50:48 wiz Exp $
+lkm/lzs.o
