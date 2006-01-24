@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		nzbget-0.2.3
-PKGREVISION=		1
+PKGREVISION=		2
 CATEGORIES=		news
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=nzbget/}
 
@@ -26,6 +26,7 @@ post-install:
 	${INSTALL_DATA} ${WRKSRC}/nzbget.cfg.example \
 		${EGDIR}/nzbget.cfg.example
 
+.include "../../mk/pthread.buildlink3.mk"
 .include "../../mk/curses.buildlink3.mk"
 .include "../../converters/uulib/buildlink3.mk"
 .include "../../textproc/libxml2/buildlink3.mk"
