@@ -12,6 +12,7 @@ COMMENT=		Free AFS implementation from KTH
 CONFLICTS+=		openafs-[0-9]*
 CONFLICTS+=		lwp-[0-9]*
 CONFLICTS+=		rx-[0-9]*
+CONFLICTS+=		heimdal-[0-9]*
 
 OSVERSION_SPECIFIC=	yes
 INFO_FILES=		arla.info send-pr.info
