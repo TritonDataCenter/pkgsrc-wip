@@ -10,7 +10,7 @@ HOMEPAGE=	http://search.cpan.org/dist/UNIVERSAL-isa/
 COMMENT=	Hack around people calling UNIVERSAL::isa() as a function
 PERL5_REQD+=	5.8.0
 
-BUILD_DEPENDS=	p5-Scalar-List-Utils>=0:../../lang/p5-Scalar-List-Utils
+BUILD_DEPENDS=	p5-Scalar-List-Utils>=0:../../devel/p5-Scalar-List-Utils
 
 PERL5_MODULE_TYPE=      Module::Build
 PERL5_PACKLIST= auto/UNIVERSAL/isa/.packlist
