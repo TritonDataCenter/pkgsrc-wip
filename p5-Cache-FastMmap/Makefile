@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=		Cache-FastMmap-1.08
+DISTNAME=		Cache-FastMmap-1.09
 PKGNAME=		p5-${DISTNAME}
 SVR4_PKGNAME=		p5cfm
 CATEGORIES=		devel perl5
