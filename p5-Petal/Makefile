@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=		Petal-2.17
+DISTNAME=		Petal-2.18
 PKGNAME=		p5-${DISTNAME}
 SVR4_PKGNAME=		p5ptl
 CATEGORIES=		textproc perl5
