@@ -16,7 +16,7 @@ PKG_INSTALLATION_TYPES=	overwrite pkgviews
 DEPENDS+=               p5-Digest-MD5>=2.33:../../security/p5-Digest-MD5
 
 CRYPTO=			YES
-PERL5_PACKLIST=		${PERL5_SITEARCH}/auto/Crypt/PasswdMD5/.packlist
+PERL5_PACKLIST=		auto/Crypt/PasswdMD5/.packlist
 
 .include "../../lang/perl5/module.mk"
 .include "../../mk/bsd.pkg.mk"

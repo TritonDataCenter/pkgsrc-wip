@@ -33,7 +33,7 @@ DEPENDS+=	${BUILDLINK_DEPENDS.libxml2}
 .include "../../www/ap-perl/buildlink3.mk"
 DEPENDS+=	${BUILDLINK_DEPENDS.ap-perl}
 
-PERL5_PACKLIST=		${PERL5_SITEARCH}/auto/AxKit/.packlist
+PERL5_PACKLIST=		auto/AxKit/.packlist
 
 .include "../../converters/libiconv/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

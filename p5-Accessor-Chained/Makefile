@@ -13,7 +13,7 @@ BUILD_DEPENDS=	p5-Class-Accessor>=0:../../devel/p5-Class-Accessor
 
 PERL_MODBUILD=	yes
 
-PERL5_PACKLIST= ${PERL5_SITEARCH}/auto/Class/Accessor/Chained/.packlist
+PERL5_PACKLIST= auto/Class/Accessor/Chained/.packlist
 
 .include "../../lang/perl5/module.mk"
 .include "../../mk/bsd.pkg.mk"
