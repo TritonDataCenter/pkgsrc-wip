@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	Test-MockObject-1.01
+DISTNAME=	Test-MockObject-1.02
 PKGNAME=	p5-${DISTNAME}
 CATEGORIES=	devel perl5
 MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=Test/}
