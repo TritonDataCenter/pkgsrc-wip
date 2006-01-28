@@ -3,6 +3,7 @@ man/man8/pop-before-smtp.8
 sbin/pop-before-smtp
 share/doc/pop-before-smtp/COPYING
 share/doc/pop-before-smtp/ChangeLog
+share/doc/pop-before-smtp/README
 share/doc/pop-before-smtp/README.QUICKSTART
 share/doc/pop-before-smtp/README.rootless-install
 share/doc/pop-before-smtp/TODO
