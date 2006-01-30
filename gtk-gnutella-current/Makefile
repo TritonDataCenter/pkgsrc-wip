@@ -21,8 +21,9 @@ CONFIGURE_ARGS+=	-d -e -r -s -D prefix=${PREFIX:Q} -D cc=${CC:Q} \
 
 CONFLICTS=		gtk-gnutella-*
 
-CVS_REPOSITORY=		${CVS_REPOSITORY_SOURCEFORGE}/gtk-gnutella
-CVS_MODULE=		gtk-gnutella-current
+CVS_REPOSITORIES=		gtk-gnutella
+CVS_ROOT.gtk-gnutella=		${CVS_ROOT_SOURCEFORGE}/gtk-gnutella
+CVS_MODULE.gtk-gnutella=	gtk-gnutella-current
 
 # Dynamic plist is a pkgviews feature.
 #PLIST_TYPE=		dynamic
