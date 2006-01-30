@@ -1,2 +1,5 @@
 @comment $NetBSD$
-lib/libdbus_bindings.la
+${PYSITELIB}/dbus.py
+${PYSITELIB}/dbus.pyc
+${PYSITELIB}/dbus.pyo
+${PYSITELIB}/dbus_bindings.la

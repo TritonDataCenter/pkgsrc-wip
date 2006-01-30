@@ -5,6 +5,7 @@ DBUS_INTERFACE=	python
 DBUS_DIRS=	dbus glib python tools
 
 .include "../../sysutils/dbus/Makefile.common"
+PKGREVISION=	1
 
 DEPENDS+=	${PYPKGPREFIX}-pyrex>=0.9.3:../../lang/py-pyrex
 
@@ -13,6 +14,8 @@ DEPENDS+=	${PYPKGPREFIX}-pyrex>=0.9.3:../../lang/py-pyrex
 # dbus package).
 INSTALL_DIRS=	python
 
-.include "../../lang/python/pyversion.mk"
+PY_PATCHPLIST=	YES
+
+.include "../../lang/python/extension.mk"
 .include "../../sysutils/dbus-glib/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
