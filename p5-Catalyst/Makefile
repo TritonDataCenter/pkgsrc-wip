@@ -10,7 +10,7 @@ HOMEPAGE=	http://search.cpan.org/dist/Catalyst/
 COMMENT=	The Elegant MVC Web Application Framework
 PERL5_REQD+=    5.8.1
 
-DEPENDS+=       p5-UNIVERSAL-require>=0.10:../../wip/p5-UNIVERSAL-require
+DEPENDS+=       p5-UNIVERSAL-require>=0.10:../../devel/p5-UNIVERSAL-require
 DEPENDS+=	p5-Class-Accessor>=0:../../devel/p5-Class-Accessor
 DEPENDS+=      	p5-Class-Data-Inheritable>=0:../../devel/p5-Class-Data-Inheritable
 DEPENDS+=	p5-Class-Inspector>=0:../../devel/p5-Class-Inspector
