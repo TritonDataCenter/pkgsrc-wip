@@ -25,7 +25,7 @@ SMCSHARE=${PREFIX}/share/smc
 
 post-extract:
 	# Extracting music files
-	${UNZIP} -u -q ${DISTDIR}/music_2.0_RC_1.zip -d ${WRKSRC}
+	${UNZIP_CMD} -u -q ${DISTDIR}/music_2.0_RC_1.zip -d ${WRKSRC}
 
 post-patch:
 	@cd ${WRKSRC} && \
