@@ -18,6 +18,6 @@ BUILDLINK_PKGSRCDIR.damageproto?=	../../wip/damageproto
 .endif	# DAMAGEPROTO_BUILDLINK3_MK
 
 .include "../../wip/xproto/buildlink3.mk"
-.include "../../wip/fixesproto/buildlink3.mk" 
+.include "../../wip/fixesproto/buildlink3.mk"
 
-BUILDLINK_DEPTH:=     ${BUILDLINK_DEPTH:S/+$//}
+BUILDLINK_DEPTH:=		${BUILDLINK_DEPTH:S/+$//}
