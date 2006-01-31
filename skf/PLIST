@@ -1,6 +1,6 @@
 @comment $NetBSD$
 bin/skf
-man/ja/man1/skf.1
+man/ja_JP.EUC/man1/skf.1
 man/man1/skf.1
 share/doc/skf/CHANGES_ja.txt
 share/doc/skf/README.txt
