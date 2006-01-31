@@ -13,7 +13,7 @@ PKG_OPTIONS_GROUP.odbc=		iodbc #unixodbc
 ODBC_DRIVER=		yes
 .  include "../../databases/iodbc/buildlink3.mk"
 CONFIGURE_ARGS+=	--enable-odbc
-CONFIGURE_ARGS+=	--with-iodbc=${BUILDLINK_PREFIX.iodbc}
+CONFIGURE_ARGS+=	--with-iodbc=${BUILDLINK_PREFIX.iodbc:Q}
 PLIST_SUBST+=		ODBC=
 .endif
 
@@ -23,7 +23,7 @@ PLIST_SUBST+=		ODBC=
 .if !empty(PKG_OPTIONS:Munixodbc)
 .  include "../../databases/unixodbc/buildlink3.mk"
 CONFIGURE_ARGS+=	--enable-odbc
-CONFIGURE_ARGS+=	--with-unixodbc=${BUILDLINK_PREFIX.unixodbc}
+CONFIGURE_ARGS+=	--with-unixodbc=${BUILDLINK_PREFIX.unixodbc:Q}
 PLIST_SUBST+=		ODBC=
 .endif
 

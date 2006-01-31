@@ -18,4 +18,4 @@ BUILDLINK_PKGSRCDIR.freetds?=	../../databases/freetds
 .include "../../converters/libiconv/buildlink3.mk"
 .include "../../security/openssl/buildlink3.mk"
 
-BUILDLINK_DEPTH:=     ${BUILDLINK_DEPTH:S/+$//}
+BUILDLINK_DEPTH:=	${BUILDLINK_DEPTH:S/+$//}
