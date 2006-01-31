@@ -41,5 +41,9 @@ BUILD_DEPENDS+=	p5-Test-NoWarnings>=0.082:../../devel/p5-Test-NoWarnings
 #PERL5_MODULE_TYPE=      Module::Install
 PERL5_PACKLIST= auto/Catalyst/.packlist
 
+post-extract:
+	${CP} ${WRKSRC}/Makefile.PL ${WRKSRC}/Makefile.PL.orig
+	${SED} -e '/^feature/,/;$$/d' ${WRKSRC}/Makefile.PL.orig > ${WRKSRC}/Makefile.PL
+
 .include "../../lang/perl5/module.mk"
 .include "../../mk/bsd.pkg.mk"
