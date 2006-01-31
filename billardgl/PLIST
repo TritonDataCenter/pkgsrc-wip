@@ -99,7 +99,7 @@ share/BillardGL/lang/900.lang
 share/BillardGL/lang/901.lang
 share/BillardGL/lang/904.lang
 share/BillardGL/lang/999.lang
-share/doc/BillardGL.README
+share/doc/BillardGL/README
 @dirrm share/BillardGL/Texturen/8
 @dirrm share/BillardGL/Texturen/4
 @dirrm share/BillardGL/Texturen/2
