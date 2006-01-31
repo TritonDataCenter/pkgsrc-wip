@@ -1,8 +1,5 @@
 # $NetBSD$
 
-# install static libraries and headers
-BUILDLINK_DEPMETHOD.c-news-CR?=	build
-
 BUILDLINK_DEPTH:=		${BUILDLINK_DEPTH}+
 C_NEWS_CR_BUILDLINK3_MK:=	${C_NEWS_CR_BUILDLINK3_MK}+
 
@@ -15,7 +12,8 @@ BUILDLINK_PACKAGES+=	c-news-CR
 
 .if !empty(C_NEWS_CR_BUILDLINK3_MK:M+)
 BUILDLINK_DEPENDS.c-news-CR+=	c-news-CR>=7
+BUILDLINK_DEPMETHOD.c-news-CR?=	build
 BUILDLINK_PKGSRCDIR.c-news-CR?=	../../wip/c-news
 .endif	# C_NEWS_CR_BUILDLINK3_MK
 
-BUILDLINK_DEPTH:=     ${BUILDLINK_DEPTH:S/+$//}
+BUILDLINK_DEPTH:=		${BUILDLINK_DEPTH:S/+$//}

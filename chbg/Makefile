@@ -18,7 +18,7 @@ GNU_CONFIGURE=		yes
 CONFIGURE_ARGS+=	--with-image-library=imlib2
 
 pre-configure:
-		${CP} ${FILESDIR}/es.* ${WRKSRC}/po
+		${CP} ${FILESDIR:Q}/es.* ${WRKSRC:Q}/po
 
 .include "../../devel/glib/buildlink3.mk"
 .include "../../graphics/imlib2/buildlink3.mk"
