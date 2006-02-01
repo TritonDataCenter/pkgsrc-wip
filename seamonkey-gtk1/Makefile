@@ -8,7 +8,7 @@ EXTRACT_SUFX=		.tar.bz2
 DISTFILES=		${DISTNAME}${EXTRACT_SUFX}
 DISTINFO_FILE=		${.CURDIR}/../../wip/seamonkey/distinfo
 PATCHDIR=		${.CURDIR}/../../wip/seamonkey/patches
-FILESDIR=		${.CURDIR}/../../wip/seamonkey/files
+FILESDIR=		${.CURDIR}/../../www/mozilla/files
 
 COMMENT=		Full featured gecko-based browser built with GTK1
 
