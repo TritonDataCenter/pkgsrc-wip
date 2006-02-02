@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	Module-Install-0.50
+DISTNAME=	Module-Install-0.55
 PKGNAME=	p5-${DISTNAME}
 CATEGORIES=	devel perl5
 MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=Module/}
