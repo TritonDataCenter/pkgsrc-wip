@@ -139,6 +139,11 @@ SUBST_SED.paths=	-e 's,%%LOCALBASE%%,${LOCALBASE},g'
 SUBST_SED.paths+=	-e 's,%%X11BASE%%,${X11BASE},g'
 SUBST_SED.paths+=	-e 's,%%JVM_HOME%%,${JVM_HOME},g'
 
+SUBST_CLASSES+=		cr
+SUBST_STAGE.cr=		post-extract
+SUBST_FILES.cr=		jdk14.patches
+SUBST_SED.cr=		-e 's,,,'
+
 BUILDLINK_PASSTHRU_DIRS+=	${JAVA_HOME}
 
 # Needed to get dynamically linked programs to work
