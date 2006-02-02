@@ -1,15 +1,16 @@
 # $NetBSD$
 #
 
-DISTNAME=		ejourn-0.2.5
+DISTNAME=		ejourn-0.4.1
 CATEGORIES=		misc
-MASTER_SITES=		http://www.public.iastate.edu/~chris129/code/elog/
+MASTER_SITES=		http://www.public.iastate.edu/~chris129/code/ejourn/
+EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=		dhowland@users.sourceforge.net
 HOMEPAGE=		http://www.public.iastate.edu/~chris129/code/elog/
 COMMENT=		Application to help track a journal or diary
 
-WRKSRC=			${WRKDIR}/ejourn
+WRKSRC=			${WRKDIR}/eJourn
 
 USE_TOOLS+=		gmake
 
