@@ -6,7 +6,7 @@ CATEGORIES=		inputmethod
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE_JP:=scim-imengine/16250/}
 
 MAINTAINER=		rxg@NetBSD.org
-HOMEPAGE=		http://www.scim-im.org/
+HOMEPAGE=		http://scim-imengine.sourceforge.jp/
 COMMENT=		SCIM IMEngine module for Canna
 
 BUILD_USES_MSGFMT=	yes
