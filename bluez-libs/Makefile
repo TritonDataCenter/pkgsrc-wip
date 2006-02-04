@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		bluez-libs-2.21
+DISTNAME=		bluez-libs-2.25
 CATEGORIES=		net
 MASTER_SITES=		http://bluez.sf.net/download/
 
