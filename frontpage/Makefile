@@ -2,8 +2,7 @@
 
 DISTNAME=	frontpage-5.0.2.2623
 CATEGORIES=	www
-MASTER_SITES=	ftp://ftp.microsoft.com/products/frontpage/ \
-		ftp://www.westbend.net/Mirrors/ftp.microsoft.com/Products/frontpage/
+MASTER_SITES=	http://download.microsoft.com/download/FrontPage2002/Install/2002/UNIX/EN-US/
 DISTFILES=	${FRONTPAGE}
 
 MAINTAINER=	eric@cirr.com
