@@ -23,6 +23,6 @@ MESSAGE_SRC+=	${.CURDIR}/MESSAGE.pf
 .elif !empty(PKG_OPTIONS:Mipfilter)
 CFLAGS+=	-DUSE_IPFILTER
 .else
-PKG_FAIL_REASON+=	"${PKG_OPTIONS_VAR} must contaion one of" \
+PKG_FAIL_REASON+=	${PKG_OPTIONS_VAR:Q}" must contaion one of" \
 			"\"iptables\" or \"pf\" or \"ipfilter\"!"
 .endif
