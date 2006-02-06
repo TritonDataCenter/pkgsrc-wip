@@ -13,7 +13,7 @@ USE_PKGINSTALL=	yes
 USE_TOOLS+= gmake
 
 CVS_REPOSITORIES=	linux-igd
-CVS_ROOT.linux-igd=	${CVS_REPOSITORY_SOURCEFORGE}/linux-igd
+CVS_ROOT.linux-igd=	${CVS_ROOT_SOURCEFORGE}/linux-igd
 CVS_MODULE.linux-igd=	linux-igd
 
 .include "options.mk"
