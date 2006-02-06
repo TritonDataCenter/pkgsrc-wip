@@ -16,6 +16,8 @@ CVS_REPOSITORIES=	linux-igd
 CVS_ROOT.linux-igd=	${CVS_ROOT_SOURCEFORGE}/linux-igd
 CVS_MODULE.linux-igd=	linux-igd
 
+WRKSRC=		${WRKDIR}/linux-igd
+
 .include "options.mk"
 
 INSTALLATION_DIRS=	${PKG_SYSCONFDIR:S|^${PREFIX}/||}/linuxigd
@@ -31,7 +33,7 @@ RCD_SCRIPTS=	linuxigd
 
 SUBST_CLASSES+=		cfgdir
 SUBST_STAGE.cfgdir=	pre-configure
-SUBST_FILES.cfgdir=	config.c etc/upnpd.conf
+SUBST_FILES.cfgdir=	globals.h etc/upnpd.conf
 SUBST_SED.cfgdir=	-e 's|@CONFDIR@|${PKG_SYSCONFDIR}|'
 
 .include "../../wip/libupnp12/buildlink3.mk"
