@@ -58,7 +58,7 @@ BUILD_DEPENDS+=		sun-jdk14>=1:../../lang/sun-jdk14
 MAKE_ENV+=		ALT_BOOTDIR=${LOCALBASE}/java/sun-1.4
 #.endif
 
-.if ${OPSYS} == "NetBSD" && !exists(/emul/linux/proc/curproc/cmdline)
+.if ${OPSYS} == "NetBSD" && !exists(/emul/linux/proc/cpuinfo) && !exists(/proc/cpuinfo)
 PKG_FAIL_REASON=	"Please mount /emul/linux/proc (fstype procfs, options linux)."
 .elif ${OPSYS} == "DragonFly" && !exists(/compat/linux/proc/cpuinfo)
 PKG_FAIL_REASON=	"Please mount /compat/linux/proc (fstype linprocfs)."
