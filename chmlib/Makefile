@@ -16,5 +16,5 @@ USE_LIBTOOL=		yes
 
 PTHREAD_OPTS=		require
 
-.include "../../mk/pthread.buildlink2.mk"
+.include "../../mk/pthread.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
