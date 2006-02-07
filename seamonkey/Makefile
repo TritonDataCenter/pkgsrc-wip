@@ -13,7 +13,7 @@ BUILD_SVG=		# yes
 BUILD_MATHML=		# yes
 BUILD_CALENDAR=		# yes
 
-_MOZILLA_USE_GTK2=	# yes
+MOZILLA_USE_GTK2=	# yes
 MOZILLA_USE_XFT=	YES
 
 .include "../../wip/seamonkey/Makefile.common"
