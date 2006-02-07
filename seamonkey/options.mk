@@ -8,5 +8,5 @@ PKG_SUPPORTED_OPTIONS	= debug
 # this .if test looks backward, but the missing options disables debug,
 # so it is correct
 .if empty(PKG_OPTIONS:Mdebug)
-CONFIGURE_ARGS+= --disable-debug
+CONFIGURE_ARGS+=	--disable-debug
 .endif
