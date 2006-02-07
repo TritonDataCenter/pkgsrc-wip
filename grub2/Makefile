@@ -14,7 +14,7 @@ CVS_ROOT.grub2=		:pserver:anonymous:@cvs.savannah.gnu.org:/sources/grub
 CVS_MODULE.grub2=	grub2
 
 GNU_CONFIGURE=		yes
-USE_TOOLS=		gmake bison
+USE_TOOLS+=		gmake bison
 
 CONFLICTS=		grub-*
 ONLY_FOR_PLATFORM=	*-*-i386

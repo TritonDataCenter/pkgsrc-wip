@@ -1,6 +1,6 @@
 $NetBSD$
 
---- util/i386/pc/grub-install.in.orig	2005-08-07 19:12:52.000000000 +0200
+--- util/i386/pc/grub-install.in.orig	2006-01-25 01:11:36.000000000 +0100
 +++ util/i386/pc/grub-install.in
 @@ -21,6 +21,7 @@
  prefix=@prefix@
