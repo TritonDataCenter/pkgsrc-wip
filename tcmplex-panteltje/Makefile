@@ -11,7 +11,7 @@ COMMENT=	Re-write of the A/V multiplexer from the transcode distribution
 
 BUILD_TARGET=	a.out
 
-DOCSDIR=	${PREFIX}/share/doc/tcmplex-paneltje
+DOCSDIR=	${PREFIX}/share/doc/tcmplex-panteltje
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/${PKGBASE} ${PREFIX}/bin/${PKGBASE}
