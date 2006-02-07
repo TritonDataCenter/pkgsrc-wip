@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=		opera-${OPERA_PKG_VERSION_DIR:S/u/pl/}
+DISTNAME=		opera-9.0alpha2
 CATEGORIES=		www
 MASTER_SITES=		http://snapshot.opera.com/${OPERA_DIR}/
 DISTFILES=		opera-${OPERA_DIST_VERSION}${OPERA_ARCH}-${OPERA_LANG}${EXTRACT_SUFX}
