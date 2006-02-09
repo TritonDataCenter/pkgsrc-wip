@@ -2,10 +2,10 @@
 
 DISTNAME=	foremost-1.0
 CATEGORIES=	sysutils
-MASTER_SITES=	http://localhost/~lkundrak/
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=foremost/}
 
 MAINTAINER=	lkundrak@skosi.org
-HOMEPAGE=	http://localhost/~lkundrak/
+HOMEPAGE=	http://foremost.sourceforge.net/
 COMMENT=	Recover various formats of files using typical data structures
 
 .include "../../mk/bsd.prefs.mk"
