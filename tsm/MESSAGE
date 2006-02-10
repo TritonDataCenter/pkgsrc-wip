@@ -1,7 +1,7 @@
 ===========================================================================
 $NetBSD$
 
-Tivoli Storage Manager has been installed in
+Tivoli Storage Manager Client has been installed in
 		${EMULDIR}/opt/tivoli
 with binaries in
 		${EMULDIR}/opt/tivoli/tsm/client/ba/bin
