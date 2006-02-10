@@ -1,0 +1,4 @@
+$NetBSD$
+To-do list for pycrypto:
+- Check for unknown dependencies (how SSL works on this?)
+- Test, Test, Test :)
