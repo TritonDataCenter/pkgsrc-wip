@@ -1,7 +1,7 @@
 # $NetBSD$
 
 PKG_OPTIONS_VAR=	PKG_OPTIONS.gnucash
-PKG_SUPPORTED_OPTIONS=	ofx
+PKG_SUPPORTED_OPTIONS=	libofx
 
 .include "../../mk/bsd.options.mk"
 
