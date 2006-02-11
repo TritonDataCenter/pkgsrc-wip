@@ -4,7 +4,7 @@ DISTNAME=	avifile-0.7-0.7.43
 PKGNAME=	avifile-devel-0.7.43
 CATEGORIES=	multimedia
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=avifile/}
-EXTRACT_SUFX=   .tar.bz2
+EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	obata@lins.jp
 HOMEPAGE=	http://avifile.sourceforge.net/
@@ -92,7 +92,7 @@ SUBST_FILES.dsp=	ffmpeg/libavformat/audio.c \
 			samples/qtvidcap/vidconf_p.cpp
 SUBST_SED.dsp=		-e 's|/dev/dsp|${DEVOSSSOUND}|'
 .include "../../converters/libiconv/buildlink3.mk"
-CONFIGURE_ARGS+=	--with-iconv=${BUILDLINK_PREFIX.iconv}
+CONFIGURE_ARGS+=	--with-iconv=${BUILDLINK_PREFIX.iconv:Q}
 .include "../../devel/zlib/buildlink3.mk"
 .include "../../fonts/Xft2/buildlink3.mk"
 .include "../../graphics/freetype2/buildlink3.mk"

@@ -16,4 +16,4 @@ BUILDLINK_RECOMMENDED.avifile-devel+=	avifile-devel>=0.7.41
 BUILDLINK_PKGSRCDIR.avifile-devel?=	../../wip/avifile-devel
 .endif	# AVIFILE_DEVEL_BUILDLINK3_MK
 
-BUILDLINK_DEPTH:=     ${BUILDLINK_DEPTH:S/+$//}
+BUILDLINK_DEPTH:=	${BUILDLINK_DEPTH:S/+$//}
