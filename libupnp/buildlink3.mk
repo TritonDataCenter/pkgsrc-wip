@@ -9,13 +9,15 @@ BUILDLINK_DEPENDS+=	libupnp
 
 BUILDLINK_PACKAGES:=	${BUILDLINK_PACKAGES:Nlibupnp}
 BUILDLINK_PACKAGES+=	libupnp
-BUILDLINK_DEPENDS.libupnp?=		libupnp>=1.0.4
-BUILDLINK_PKGSRCDIR.libupnp?=		../../wip/libupnp
 
+.if !empty(LIBUPNP_BUILDLINK3_MK:M+)
+BUILDLINK_DEPENDS.libupnp+=		libupnp>=1.0.4
+BUILDLINK_PKGSRCDIR.libupnp?=		../../wip/libupnp
 BUILDLINK_FILES.libupnp+=	include/upnp/*.h
 BUILDLINK_FILES.libupnp+=	include/upnp/tools/*.h
 BUILDLINK_FILES.libupnp+=	include/upnp/upnpdom/*.h
 BUILDLINK_FILES.libupnp+=	lib/libupnp.*
+.endif	# LIBUPNP_BUILDLINK3_MK
 
 PTHREAD_OPTS+=	require
 LDFLAGS+=	${PTHREAD_LDFLAGS}
