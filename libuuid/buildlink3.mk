@@ -17,4 +17,4 @@ BUILDLINK_PKGSRCDIR.libuuid?=	../../wip/libuuid
 
 .include "../../devel/gettext-lib/buildlink3.mk"
 
-BUILDLINK_DEPTH:=     ${BUILDLINK_DEPTH:S/+$//}
+BUILDLINK_DEPTH:=	${BUILDLINK_DEPTH:S/+$//}
