@@ -20,10 +20,10 @@ PKG_SUPPORTED_OPTIONS=	lame
 .include "../../mk/bsd.options.mk"
 
 .if !empty(PKG_OPTIONS:Mlame)
-CONFIGURE_ARGS+= --enable-lame
+CONFIGURE_ARGS+=	--enable-lame
 .include "../../audio/lame/buildlink3.mk"
 .else
-CONFIGURE_ARGS+= --disable-lame
+CONFIGURE_ARGS+=	--disable-lame
 .endif
 
 .include "../../wip/avifile-devel/buildlink3.mk"

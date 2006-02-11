@@ -8,6 +8,6 @@ MAINTAINER=	obata@lins.jp
 HOMEPAGE=	http://www.mysticwall.com/software/wkf/index.html
 COMMENT=	WALL's Kanji Filter
 
-GNU_CONFIGURE=  yes
+GNU_CONFIGURE=	yes
 
 .include "../../mk/bsd.pkg.mk"
