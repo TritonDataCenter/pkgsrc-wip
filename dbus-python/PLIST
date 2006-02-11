@@ -1,5 +1,0 @@
-@comment $NetBSD$
-${PYSITELIB}/dbus.py
-${PYSITELIB}/dbus.pyc
-${PYSITELIB}/dbus.pyo
-${PYSITELIB}/dbus_bindings.la
