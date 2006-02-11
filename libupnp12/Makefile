@@ -3,17 +3,17 @@
 
 DISTNAME=	libupnp-1.2.1a
 CATEGORIES=	devel net
-MASTER_SITES=   ${MASTER_SITE_SOURCEFORGE:=upnp/}
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=upnp/}
 
 MAINTAINER=	obata@lins.jp
 HOMEPAGE=	http://upnp.sourceforge.net/
 COMMENT=	Linux SDK for UPnP Devices
 
 USE_PKGINSTALL=	yes
-USE_TOOLS+= gmake
+USE_TOOLS+=	gmake
 
-BUILD_DIRS=	${WRKDIR}/${DISTNAME}/upnp
-MAKEFILE=       makefile
+BUILD_DIRS=	upnp
+MAKEFILE=	makefile
 
 .include "../../mk/bsd.prefs.mk"
 
@@ -25,7 +25,7 @@ MAKE_ENV+=	EXTRA_LIBS=""
 
 do-install:
 .for d in upnp ixml threadutil
-	cd ${WRKDIR}/${DISTNAME}/${d} && ${SETENV} ${MAKE_ENV} ${GMAKE} install
+	cd ${WRKDIR:Q}/${DISTNAME:Q}/${d} && ${SETENV} ${MAKE_ENV} ${GMAKE} install
 .endfor
 
 .include "../../wip/libuuid/buildlink3.mk"
