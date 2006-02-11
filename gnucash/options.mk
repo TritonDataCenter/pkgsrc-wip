@@ -9,7 +9,7 @@ PKG_SUPPORTED_OPTIONS=	libofx
 ### Whether to build with the OFX importation module.
 ###
 
-.if !empty(PKG_OPTIONS:Mofx)
+.if !empty(PKG_OPTIONS:Mlibofx)
 .  include "../../finance/libofx/buildlink3.mk"
 CONFIGURE_ARGS+=	--enable-ofx
 .endif
