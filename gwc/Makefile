@@ -6,7 +6,7 @@ CATEGORIES=	audio
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=gwc/}
 EXTRACT_SUFX=	.tgz
 
-MAINTAINER=	Benjamin.Wong@cc.gatech.edu
+MAINTAINER=	tech-pkg@NetBSD.org
 HOMEPAGE=	http://gwc.sourceforge.net/
 COMMENT=	Gnome Wave Cleaner: dehiss and declick .wav files
 
