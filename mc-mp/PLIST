@@ -4,8 +4,8 @@ bin/mcedit
 bin/mcmfmt
 bin/mcserv
 lib/mc/FAQ
-lib/mc/bin/cons.saver
-lib/mc/bin/create_vcs
+${IF_LINUX}lib/mc/bin/cons.saver
+${IF_LINUX}lib/mc/bin/create_vcs
 lib/mc/bin/mcfn_install
 lib/mc/codepages/7bit.cp
 lib/mc/codepages/8859_1.cp
