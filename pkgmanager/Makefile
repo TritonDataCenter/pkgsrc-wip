@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-PKGMGR_VERSION= 0.7.1
+PKGMGR_VERSION= 0.7.2
 DISTNAME=	pkgmanager-${PKGMGR_VERSION}
 CATEGORIES=	pkgtools
 MASTER_SITES=	http://starfury.scode.org/pkgmanager/
