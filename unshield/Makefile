@@ -10,12 +10,12 @@ HOMEPAGE=		http://synce.sourceforge.net/
 COMMENT=		Extractor for InstallShield cabinet files
 
 GNU_CONFIGURE=		yes
-CONFIGURE_ARGS+=	CPPFLAGS=-I${WRKSRC}/lib
+CONFIGURE_ARGS+=	CPPFLAGS=-I${WRKSRC:Q}/lib
 USE_LIBTOOL=		yes
 
 pre-configure:
 .if !exists(/usr/include/stdbool.h)
-	${CP} ${FILESDIR}/stdbool.h ${WRKSRC}/lib
+	${CP} ${FILESDIR:Q}/stdbool.h ${WRKSRC:Q}/lib
 .endif
 
 .include "../../mk/bsd.pkg.mk"
