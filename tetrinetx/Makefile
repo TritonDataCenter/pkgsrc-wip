@@ -12,6 +12,7 @@ COMMENT=	Server for an addictive 6 player tetris game
 WRKSRC=		${WRKDIR}/${DISTNAME}
 SHAREDIR=	${PREFIX}/share/tetrinetx
 BINARY=		tetrix.netbsd
+RCD_SCRIPTS=	tetrinetx
 
 LIBS.SunOS+=	-lsocket -lnsl -lresolv
 
@@ -26,13 +27,14 @@ do-build:
 		main.c
 
 do-install:
-	@${INSTALL_DATA_DIR} ${SHAREDIR}
+	${INSTALL_DATA_DIR} ${SHAREDIR}
+	${INSTALL_DATA_DIR} ${PREFIX:Q}/share/examples/rc.d
 	${INSTALL_PROGRAM} ${WRKSRC:Q}/bin/${BINARY:Q} ${PREFIX:Q}/bin/tetrix
 	${INSTALL_DATA} ${WRKSRC:Q}/bin/game.conf ${SHAREDIR:Q}
 	${INSTALL_DATA} ${WRKSRC:Q}/bin/game.secure ${SHAREDIR:Q}
 	${INSTALL_DATA} ${WRKSRC:Q}/bin/game.motd ${SHAREDIR:Q}
 	${INSTALL_DATA} ${WRKSRC:Q}/bin/game.pmotd ${SHAREDIR:Q}
-	${INSTALL_SCRIPT} -m 751 ${FILESDIR:Q}/tetrinetx ${PREFIX:Q}/etc/rc.d
+	${INSTALL_SCRIPT} ${FILESDIR:Q}/tetrinetx ${PREFIX:Q}/share/examples/rc.d/
 
 .include "../../net/adns/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
