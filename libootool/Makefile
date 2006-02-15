@@ -4,7 +4,7 @@
 DISTNAME=	libootool
 CATEGORIES=	devel
 
-MAINTAINER=	tnn@nygren.pp.se
+MAINTAINER=	tnn+nbsd@nygren.pp.se
 HOMEPAGE=	http://dcgui.berlios.de/
 COMMENT=	Free to use c++ utility classes (used by wip/valknut)
 

@@ -4,7 +4,7 @@
 DISTNAME=	dclib
 CATEGORIES=	net
 
-MAINTAINER=	tnn@nygren.pp.se
+MAINTAINER=	tnn+nbsd@nygren.pp.se
 HOMEPAGE=	http://dcgui.berlios.de/
 COMMENT=	Direct Connect P2P library (cvs version)
 
