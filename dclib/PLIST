@@ -51,3 +51,7 @@ include/dclib/xfer/cxferusrban.h
 include/dclib/xfer/cxferusrslot.h
 lib/libdc.la
 lib/pkgconfig/dclib.pc
+@dirrm include/dclib/core
+@dirrm include/dclib/hash
+@dirrm include/dclib/xfer
+@dirrm include/dclib
