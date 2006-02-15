@@ -1,6 +1,5 @@
 $NetBSD$
 
-SHA1 (dclib-0.3.7.tar.bz2) = b82226c2ec60c655158ddfd63b6480d9f4b952cf
-RMD160 (dclib-0.3.7.tar.bz2) = 00e20acd20e626466a68a8ee32ca781b274a2cf4
-Size (dclib-0.3.7.tar.bz2) = 543586 bytes
 SHA1 (patch-aa) = 75f945cbe1a64b938c7970b5dfb3ecdbb78cb774
+SHA1 (patch-ab) = b825bb401e892cdeffcd9b154c6f4a70114eed74
+SHA1 (patch-ac) = 353eed0662889031d6c5fb9ad611a4037471c423
