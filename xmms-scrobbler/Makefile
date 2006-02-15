@@ -7,7 +7,7 @@ MASTER_SITES=	http://static.audioscrobbler.com/plugins/ \
 		http://www.pipian.com/stuffforchat/
 EXTRACT_SUFX=	.tar.bz2
 
-MAINTAINER=	tnn@netilium.org
+MAINTAINER=	tnn+nbsd@nygren.pp.se
 HOMEPAGE=	http://www.audioscrobbler.com/
 COMMENT=	XMMS plugin for the Audioscrobbler music community
 

@@ -6,7 +6,7 @@ PKGNAME=		qemu-qvm86-0.8.0
 CATEGORIES=		emulators
 MASTER_SITES=		http://fabrice.bellard.free.fr/qemu/
 
-MAINTAINER=		tnn@netilium.org
+MAINTAINER=		tnn+nbsd@nygren.pp.se
 HOMEPAGE=		http://www.qemu.org/
 COMMENT=		CPU emulator using dynamic translation (qvm86 version)
 

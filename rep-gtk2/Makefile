@@ -5,7 +5,7 @@ PKGNAME=		rep-gtk2-0.18
 CATEGORIES=		x11 lang
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=rep-gtk/}
 
-MAINTAINER=		tnn@netilium.org
+MAINTAINER=		tnn+nbsd@nygren.pp.se
 HOMEPAGE=		http://rep-gtk.sourceforge.net/
 COMMENT=		librep bindings for gtk2 (used by sawfish)
 

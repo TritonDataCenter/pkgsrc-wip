@@ -7,7 +7,7 @@ SF_VERS=		1.3
 CATEGORIES=		x11 gnome wm
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=sawmill/}
 
-MAINTAINER=		tnn@netilium.org
+MAINTAINER=		tnn+nbsd@nygren.pp.se
 HOMEPAGE=		http://sawmill.sourceforge.net/
 COMMENT=		Extensible window manager that is fully configurable in Lisp
 
