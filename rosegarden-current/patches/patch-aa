@@ -1,0 +1,13 @@
+$NetBSD$
+
+--- base/Studio.C.orig	2003-05-31 06:13:07.000000000 -0500
++++ base/Studio.C
+@@ -568,7 +568,7 @@ Studio::getAudioPreviewInstrument()
+ bool
+ Studio::haveMidiDevices() const
+ {
+-    Rosegarden::DeviceListIterator it = m_devices.begin();
++    Rosegarden::DeviceListConstIterator it = m_devices.begin();
+     for (; it != m_devices.end(); it++)
+     {
+         if ((*it)->getType() == Device::Midi) return true;
