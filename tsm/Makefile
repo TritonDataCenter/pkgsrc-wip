@@ -70,6 +70,6 @@ post-install:
 	@${INSTALL_DATA_DIR} ${EG_DIR}
 	@${INSTALL_DATA} ${EMULDIR}/${TSMCLIENTSUBDIR}/ba/bin/dsm.*.smp ${EG_DIR}
 	@${INSTALL_DATA} ${FILESDIR}/tsm_daily.sh ${EG_DIR}
-	@${RM} -f ${PKG_SYSCONFDIR}/en_US && ${LN} -s ${EMULDIR}/${TSMCLIENTSUBDIR}/api/bin/en_US/ ${PKG_SYSCONFDIR}/en_US
+	@${RM} -f ${PKG_SYSCONFDIR}/en_US && ${LN} -s ${EMULDIR}/${TSMCLIENTSUBDIR}/ba/bin/en_US/ ${PKG_SYSCONFDIR}/en_US
 
 .include "../../mk/bsd.pkg.mk"
