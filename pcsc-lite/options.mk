@@ -12,5 +12,8 @@ CONFIGURE_ARGS+=       --enable-extendedapdu=no
 .endif
 
 .if !empty(PKG_OPTIONS:Musb)
+CONFIGURE_ARGS+=	--enable-libusb
 .include "../../devel/libusb/buildlink3.mk"
+.else
+CONFIGURE_ARGS+=	--disable-libusb
 .endif
