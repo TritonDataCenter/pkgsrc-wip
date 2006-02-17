@@ -19,7 +19,7 @@ VERSION=		2.0.7
 ONLY_FOR_PLATFORM=	NetBSD-*-i386
 
 pre-build:
-	${MKDIR} ${WRKSRC}/libxc/xen/NetBSD
-	${CP} ${FILESDIR}/xenio.h ${WRKSRC}/libxc/xen/NetBSD
+	${MKDIR} ${WRKSRC:Q}/libxc/xen/NetBSD
+	${CP} ${FILESDIR:Q}/xenio.h ${WRKSRC:Q}/libxc/xen/NetBSD
 
 .include "../../mk/bsd.pkg.mk"
