@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	mednafen-0.4.8
+DISTNAME=	mednafen-0.4.9
 CATEGORIES=	emulators
 MASTER_SITES=	http://mednafen.com/releases/
 EXTRACT_SUFX=	.tar.bz2
