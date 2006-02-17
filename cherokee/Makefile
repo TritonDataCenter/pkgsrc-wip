@@ -21,7 +21,7 @@ EGDIR=		${PREFIX}/share/examples/cherokee
 
 CONF_FILES=	${EGDIR:Q}/cherokee.conf.default ${PKG_SYSCONFDIR:Q}/cherokee.conf
 
-MAKE_INSTALL_FLAGS+=	sysconfdir=${EGDIR:Q}
+INSTALL_MAKE_FLAGS+=	sysconfdir=${EGDIR:Q}
 
 post-install:
 	${INSTALL_DATA_DIR} ${EGDIR:Q}
