@@ -1,5 +1,6 @@
 $NetBSD$
 
-SHA1 (awflwm-0.0.tar.bz2) = ff5863fda669e6c8a19d9264d5a378c5be94350f
-Size (awflwm-0.0.tar.bz2) = 80578 bytes
+SHA1 (awflwm-0.0.tar.bz2) = 82ac9a74d1cc99b1d623ff13251ad43acf565af5
+RMD160 (awflwm-0.0.tar.bz2) = 88d4a34b2958d2679f7b36ced94216c537c3e74e
+Size (awflwm-0.0.tar.bz2) = 80486 bytes
 SHA1 (patch-aa) = f71ebceef3d4f39963113fbf32d3efddcf489c8f
