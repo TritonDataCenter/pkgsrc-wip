@@ -8,6 +8,9 @@ MAINTAINER=	tnn+nbsd@nygren.pp.se
 HOMEPAGE=	http://dcgui.berlios.de/
 COMMENT=	Free to use c++ utility classes (used by wip/valknut)
 
+BROKEN=		xxx: re-enable this package when wip/valknut tracks HEAD
+BROKEN+=	and actually requires it.
+
 .include "../../wip/valknut/Makefile.common"
 
 .include "../../devel/zlib/buildlink3.mk"

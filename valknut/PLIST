@@ -113,6 +113,7 @@ share/valknut/translation/valknut.sv.qm
 @dirrm share/valknut/icons/user/default
 @dirrm share/valknut/icons/user
 @dirrm share/valknut/icons
+@dirrm share/valknut/sounds/default
 @dirrm share/valknut/sounds
 @dirrm share/valknut/translation
 @dirrm share/valknut
