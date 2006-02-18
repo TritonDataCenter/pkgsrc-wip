@@ -29,7 +29,7 @@ LICENSE=		scsl-2.3-license
 USE_PKGINSTALL=		yes
 USE_TOOLS+=		gmake m4
 USE_LANGUAGES=		c c++
-EXTRACT_CMD_OPTS.zip=	-q
+EXTRACT_CMD_OPTS.zip=	-a -q
 WRKSRC=			${WRKDIR}
 PLIST_SRC=      	PLIST.common
 
