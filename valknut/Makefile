@@ -4,7 +4,7 @@
 DISTNAME=	valknut
 CATEGORIES=	net x11
 
-MAINTAINER=	tnn@nygren.pp.se
+MAINTAINER=	tnn+nbsd@nygren.pp.se
 HOMEPAGE=	http://dcgui.berlios.de/
 COMMENT=	Direct Connect client using the QT toolkit (cvs version)
 
