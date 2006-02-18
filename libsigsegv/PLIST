@@ -1,3 +1,4 @@
 @comment $NetBSD$
 include/sigsegv.h
 lib/libsigsegv.la
+lib/libsigsegv.a
