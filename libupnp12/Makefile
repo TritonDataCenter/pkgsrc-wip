@@ -28,6 +28,5 @@ do-install:
 	cd ${WRKDIR:Q}/${DISTNAME:Q}/${d} && ${SETENV} ${MAKE_ENV} ${GMAKE} install
 .endfor
 
-.include "../../wip/libuuid/buildlink3.mk"
 .include "../../mk/pthread.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
