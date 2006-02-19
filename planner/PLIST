@@ -24,10 +24,10 @@ lib/planner/libgantt-task.la
 lib/planner/plugins/libhtml-plugin.la
 lib/planner/plugins/libmsp-plugin.la
 lib/planner/plugins/libpython-plugin.la
-lib/planner/plugins/libsql-plugin.la
+@comment lib/planner/plugins/libsql-plugin.la
 lib/planner/plugins/libxmlplanner-plugin.la
 lib/planner/storage-modules/libstorage-mrproject-1.la
-lib/planner/storage-modules/libstorage-sql.la
+@comment lib/planner/storage-modules/libstorage-sql.la
 lib/planner/views/libgantt-view.la
 lib/planner/views/libresource-view.la
 lib/planner/views/libtask-view.la
