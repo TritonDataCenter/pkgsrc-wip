@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		ipmitool-1.8.6
-CATEGORIES=		wip
+CATEGORIES=		sysutils
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=ipmitool/}
 
 MAINTAINER=		ola@mrEriksson.net
