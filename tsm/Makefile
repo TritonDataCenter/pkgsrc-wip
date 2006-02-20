@@ -6,7 +6,7 @@ MASTER_SITES=	ftp://ftp.software.ibm.com/storage/tivoli-storage-management/maint
 DISTFILES=	${RPMFILES}
 RPMFILES=	TIVsm-BA.i386.rpm TIVsm-API.i386.rpm
 
-MAINTAINER=	strawberry@toth.org.uk
+MAINTAINER=	hf@spg.tu-darmstadt.de
 HOMEPAGE=	http://www-3.ibm.com/software/tivoli/products/storage-mgr/
 COMMENT=        IBM Tivoli Storage Manager Client
 
