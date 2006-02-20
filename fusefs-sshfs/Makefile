@@ -2,7 +2,8 @@
 #
 
 DISTNAME=		sshfs-fuse-1.4
-CATEGORIES=		wip
+PKGNAME=		fuse-sshfs-1.4
+CATEGORIES=		wip sysutils
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=fuse/}
 
 MAINTAINER=		pancake@phreaker.net
