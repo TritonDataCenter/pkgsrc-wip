@@ -31,5 +31,5 @@ CONF_FILES=		${EGDIR}/config ${PKG_SYSCONFDIR}/config
 CONF_FILES+=		${EGDIR}/global ${PKG_SYSCONFDIR}/global
 
 .include "../../devel/gettext-lib/buildlink3.mk"
-.include "../../x11/gtk2/buildlink3.mk"
+.include "../../x11/gtk2/modules.mk"
 .include "../../mk/bsd.pkg.mk"
