@@ -1,0 +1,13 @@
+$NetBSD$
+
+--- PyMSNt.py.orig	2006-02-17 08:44:28.000000000 -0600
++++ PyMSNt.py
+@@ -2,7 +2,7 @@
+ 
+ # Make 'cwd'/src in the PYTHONPATH
+ import sys, os, os.path
+-PATH = os.path.abspath(os.path.dirname(sys.argv[0]))
++PATH = @TRANSPORTDIR@
+ os.chdir(PATH)
+ PATH = os.path.join(PATH, "src")
+ sys.path[0] = PATH
