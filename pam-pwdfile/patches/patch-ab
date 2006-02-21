@@ -1,0 +1,16 @@
+$NetBSD$
+
+--- bigcrypt.c.orig	2002-05-11 16:42:35.000000000 +0200
++++ bigcrypt.c
+@@ -25,7 +25,11 @@
+  */
+ 
+ #include <string.h>
++#ifdef __Linux__
+ #include <security/_pam_macros.h>
++#else
++#include "_pam_macros.h"
++#endif
+ 
+ char *crypt(const char *key, const char *salt);
+ char *bigcrypt(const char *key, const char *salt);
