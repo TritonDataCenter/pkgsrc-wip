@@ -7,7 +7,7 @@ $NetBSD$
  import config
  import xmlconfig
 -configFile = "config.xml"
-+configFile = os.path.join(@PKG_SYSCONFDIR@, "pymsnt.xml")
++configFile = os.path.join("@PKG_SYSCONFDIR@", "pymsnt.xml")
  configOptions = {}
  opts, args = getopt.getopt(sys.argv[1:], "bc:o:dDgtlp:h", ["background", "config=", "option=", "debug", "Debug", "garbage", "traceback", "log=", "pid=", "help"])
  for o, v in opts:

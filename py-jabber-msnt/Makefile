@@ -66,7 +66,7 @@ do-install:
 
 SUBST_CLASSES+=		paths
 SUBST_MESSAGE.paths=	Localizing Paths
-SUBST_STAGE.paths=	post-patch
+SUBST_STAGE.paths=	pre-configure
 SUBST_FILES.paths=	config-example.xml PyMSNt.py src/main.py
 SUBST_SED.paths+=	-e 's,@PKG_SYSCONFDIR@,${PKG_SYSCONFDIR},g' \
 			-e 's,@TRANSPORTDIR@,${TRANSPORTDIR},g' \

@@ -12,6 +12,7 @@ name="pymsnt"
 rcvar=$name
 command=@PREFIX@/bin/PyMSNt
 command_interpreter="@PYTHONBIN@"
+command_args="-b"	# background/daemonize
 pymsnt_user="@JABBERD_USER@"
 pidfile="@JABBERD_PIDDIR@/${name}.pid"
 logfile="@JABBERD_LOGDIR@/${name}.log"
