@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		libdrm-1.0.5
+DISTNAME=		libdrm-2.0
 CATEGORIES=		x11 ## fix this
 MASTER_SITES=		http://dri.freedesktop.org/libdrm/
 
