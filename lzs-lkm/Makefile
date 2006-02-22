@@ -22,7 +22,7 @@ WRKSRC=			${WRKDIR:Q}/ppp-lzs-1.2
 
 .include "../../mk/bsd.prefs.mk"
 
-PKG_OPTIONS_VAR=	PKG_OPTIONS.lkm
+PKG_OPTIONS_VAR=	PKG_OPTIONS.lzs-lkm
 PKG_SUPPORTED_OPTIONS=	lkm-diagnostic lkm-debug lkm-lockdebug lkm-malloclog lkm-multiprocessor
 
 .include "../../mk/bsd.options.mk"
