@@ -25,7 +25,7 @@ REPLACE_PERL+=	caff/caff caff/pgp-fixkey caff/pgp-clean \
 SUBST_CLASSES+=		paths
 SUBST_MESSAGE.paths=	Fixing hardcoded paths.
 SUBST_STAGE.paths=	pre-configure
-SUBST_FILES.paths=	caff/caff keylookup/keylookup
+SUBST_FILES.paths=	caff/caff keylookup/keylookup keylookup/keylookup.1
 SUBST_SED.paths=	-e 's,/usr/,${PREFIX}/,g'
 
 do-install:
