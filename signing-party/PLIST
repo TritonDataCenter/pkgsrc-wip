@@ -15,3 +15,9 @@ man/man1/gpgsigs.1
 man/man1/keylookup.1
 man/man1/pgp-clean.1
 man/man1/pgp-fixkey.1
+share/doc/signing-party/README.many-keys
+share/doc/signing-party/examples/caffrc.sample
+share/doc/signing-party/examples/gpgsigs-lt2k5.txt
+share/doc/signing-party/examples/gpgsigs-lt2k5-annotated.txt
+@dirrm share/doc/signing-party/examples
+@dirrm share/doc/signing-party
