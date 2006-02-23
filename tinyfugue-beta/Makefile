@@ -1,8 +1,8 @@
 # $NetBSD$
 #
-
 DISTNAME=		tf-50b6
 CATEGORIES=		net
+PKGREVISION=		1
 MASTER_SITES=		http://ftp.tcp.com/pub/mud/Clients/tinyfugue/
 
 MAINTAINER=		martijn.van.buul@gmail.com
