@@ -10,12 +10,11 @@ MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://git.or.cz/
 COMMENT=		Tree History Storage Tool
 
+CONFLICTS+=		git-* # misc/git
+
 MAKE_ENV=	"DESTDIR="
 MAKE_ENV+=	"HOME=${PREFIX}/"
 USE_TOOLS+=	gmake
-
-# TODO: add python as dependency? or just show a message?
-# I prefer no python dependency.
 
 .include "../../textproc/expat/buildlink3.mk"
 .include "../../devel/zlib/buildlink3.mk"
