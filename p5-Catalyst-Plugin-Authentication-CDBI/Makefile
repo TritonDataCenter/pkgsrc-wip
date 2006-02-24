@@ -9,9 +9,9 @@ MAINTAINER=	kuli0020@umn.edu
 HOMEPAGE=	http://search.cpan.org/dist/Catalyst-Plugin-Authentication-CDBI/
 COMMENT=	Catalyst::Plugin::Authentication::CDBI - CDBI Authentication for Catalyst
 
-DEPENDS+=	p5-Catalyst-Plugin-Session-FastMmap>=0:../../www/p5-Catalyst-Plugin-Session-FastMmap
-DEPENDS+=	p5-Catalyst>=2.99:../../www/p5-Catalyst
-DEPENDS+=	p5-Catalyst-Model-CDBI>=0:../../www/p5-Catalyst-Model-CDBI
+DEPENDS+=	p5-Catalyst-Plugin-Session-FastMmap>=0:../../wip/p5-Catalyst-Plugin-Session-FastMmap
+DEPENDS+=	p5-Catalyst>=2.99:../../wip/p5-Catalyst
+DEPENDS+=	p5-Catalyst-Model-CDBI>=0:../../wip/p5-Catalyst-Model-CDBI
 
 PERL5_PACKLIST= auto/Catalyst/Plugin/Authentication/CDBI/.packlist
 
