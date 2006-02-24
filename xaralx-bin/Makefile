@@ -1,7 +1,7 @@
 # $NetBSD$
 
-DISTNAME=		XaraLX0.1d_rev222
-PKGNAME=		${DISTNAME:S,LX,LX-,}
+DISTNAME=		RecXaraLX0.2a_rev514
+PKGNAME=		XaraLX-0.2.514
 CATEGORIES=		graphics
 MASTER_SITES=		http://downloads.xara.com/opensource/
 EXTRACT_SUFX=		.tbz2
