@@ -10,9 +10,9 @@ HOMEPAGE=	http://search.cpan.org/dist/Email-Send/
 COMMENT=	Email::Send - Simply Sending Email
 
 DEPENDS+=       {perl>=5.7.3,p5-Test-Simple>=0.47}:../../devel/p5-Test-Simple
-DEPENDS+=	p5-Email-Address>=1.80:../../mail/p5-Email-Address
+DEPENDS+=	p5-Email-Address>=1.80:../../wip/p5-Email-Address
 DEPENDS+=	p5-Email-Simple>=1.92:../../mail/p5-Email-Simple
-DEPENDS+=	p5-Return-Value>=1.28:../../devel/p5-Return-Value
+DEPENDS+=	p5-Return-Value>=1.28:../../wip/p5-Return-Value
 
 PERL5_PACKLIST= auto/Email/Send/.packlist
 
