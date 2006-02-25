@@ -9,7 +9,7 @@ MAINTAINER=	kuli0020@umn.edu
 HOMEPAGE=	http://search.cpan.org/dist/PluceneSimple/
 COMMENT=	Perl interface to Plucene
 
-DEPENDS+=	p5-PathTools>=1.2:../../wip/p5-PathTools
+DEPENDS+=	p5-PathTools>=1.2:../../devel/p5-PathTools
 DEPENDS+=	p5-Plucene>=1.09:../../wip/p5-Plucene
 DEPENDS+=	p5-Time-Piece>=1.08:../../time/p5-Time-Piece
 DEPENDS+=	p5-Time-Piece-Range>=1.0:../../wip/p5-Time-Piece-Range
