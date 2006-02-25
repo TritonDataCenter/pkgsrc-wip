@@ -11,5 +11,10 @@ COMMENT=		Universal typing tutor
 
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
+USE_NCURSES=		yes	# uses typeahead()
+BUILDLINK_TRANSFORM+=	l:curses:ncurses
+REPLACE_PERL+=		typefortune
+USE_TOOLS+=		perl:run
 
+.include "../../devel/ncurses/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
