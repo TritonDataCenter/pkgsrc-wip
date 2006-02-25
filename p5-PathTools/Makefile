@@ -13,7 +13,7 @@ DEPENDS+=	p5-Scalar-List-Utils>=1.14:../../devel/p5-Scalar-List-Utils
 
 CONFIGURE_ARGS+=	DEFINE="-DHAS_GETCWD"
 
-PERL5_PACKLIST= auto/Cwd/.packlist
+PERL5_PACKLIST=	auto/Cwd/.packlist
 
 .include "../../lang/perl5/module.mk"
 .include "../../mk/bsd.pkg.mk"
