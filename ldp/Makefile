@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	ldp-0.0.1
+DISTNAME=	ldp-0.0.2
 CATEGORIES=	net
 MASTER_SITES=	http://kefren.NetBSD.ro/mpls/
 
