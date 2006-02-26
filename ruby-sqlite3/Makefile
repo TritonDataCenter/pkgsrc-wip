@@ -22,7 +22,7 @@ DOCS=	ChangeLog LICENSE README
 post-install:
 	${INSTALL_DATA_DIR} ${RUBY_DOCDIR:Q}/sqlite3/api
 .for f in ${DOCS}
-	${INSTALL_DATA} ${WRKSRC:Q}/${f} ${RUBY_DOCDIR:Q}/sqlite3/
+	${INSTALL_DATA} ${WRKSRC:Q}/${f:Q} ${RUBY_DOCDIR:Q}/sqlite3/
 .endfor
 	cd ${WRKSRC:Q}/doc && ${PAX} -rw -pp * ${RUBY_DOCDIR:Q}/sqlite3
 	cd ${WRKSRC:Q}/api && ${PAX} -rw -pp * ${RUBY_DOCDIR:Q}/sqlite3/api

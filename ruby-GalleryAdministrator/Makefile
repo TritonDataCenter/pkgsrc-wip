@@ -25,7 +25,7 @@ DOCS=		COPYING_for_RubyPhoto README.en README.ja README_for_RubyPhoto.html
 post-install:
 	${INSTALL_DATA_DIR} ${RUBY_DOCDIR:Q}/gallery
 .for f in ${DOCS}
-	${INSTALL_DATA} ${WRKSRC:Q}/${f} ${RUBY_DOCDIR:Q}/gallery
+	${INSTALL_DATA} ${WRKSRC:Q}/${f:Q} ${RUBY_DOCDIR:Q}/gallery
 .endfor
 	${INSTALL_DATA_DIR} ${RUBY_EXAMPLESDIR:Q}/gallery
 	cd ${WRKSRC:Q}/sample && ${PAX} -rw -pp * ${RUBY_EXAMPLESDIR:Q}/gallery

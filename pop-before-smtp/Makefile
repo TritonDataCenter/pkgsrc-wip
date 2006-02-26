@@ -34,10 +34,10 @@ do-install:
 	${INSTALL_MAN} ${WRKSRC:Q}/pop-before-smtp.8 \
 		${PREFIX:Q}/man/man8/pop-before-smtp.8
 .for f in COPYING ChangeLog README TODO
-	${INSTALL_DATA} ${WRKSRC:Q}/${f} ${DOCS_DIR:Q}/${f}
+	${INSTALL_DATA} ${WRKSRC:Q}/${f:Q} ${DOCS_DIR:Q}/${f:Q}
 .endfor
 .for f in README.QUICKSTART README.rootless-install popauth.m4
-	${INSTALL_DATA} ${WRKSRC:Q}/contrib/${f} ${DOCS_DIR}
+	${INSTALL_DATA} ${WRKSRC:Q}/contrib/${f:Q} ${DOCS_DIR}
 .endfor
 
 .include "../../mk/bsd.pkg.mk"
