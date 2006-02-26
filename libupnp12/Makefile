@@ -25,7 +25,7 @@ MAKE_ENV+=	EXTRA_LIBS=""
 
 do-install:
 .for d in upnp ixml threadutil
-	cd ${WRKDIR:Q}/${DISTNAME:Q}/${d} && ${SETENV} ${MAKE_ENV} ${GMAKE} install
+	cd ${WRKDIR:Q}/${DISTNAME:Q}/${d:Q} && ${SETENV} ${MAKE_ENV} ${GMAKE} install
 .endfor
 
 .include "../../mk/pthread.buildlink3.mk"
