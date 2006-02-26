@@ -26,7 +26,7 @@ CONFIGURE_ARGS+=	--disable-xvid
 CONFIGURE_ARGS+=	--disable-divx4
 .if ${MACHINE_ARCH} == "i386"
 CONFIGURE_ARGS+=	--enable-win32
-CONFIGURE_ARGS+=	--with-win32-path="${LOCALBASE}/lib/win32"
+CONFIGURE_ARGS+=	--with-win32-path=${LOCALBASE:Q}/lib/win32
 PLIST_SUBST+=	WIN32_COMMENT=
 .else
 CONFIGURE_ARGS+=	--disable-win32
