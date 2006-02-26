@@ -2,7 +2,7 @@
 
 DISTNAME=	ldp-0.0.2
 CATEGORIES=	net
-MASTER_SITES=	http://kefren.NetBSD.ro/mpls/
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=ldp/}
 
 MAINTAINER=	kefren@NetBSD.ro
 HOMEPAGE=	http://www.ietf.org/rfc/rfc3036.txt
