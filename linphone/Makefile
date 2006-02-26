@@ -1,8 +1,8 @@
 # $NetBSD$
 
-DISTNAME=	linphone-1.0.1
+DISTNAME=	linphone-1.2.0
 CATEGORIES=	net
-MASTER_SITES=	http://simon.morlat.free.fr/download/1.0.x/source/
+MASTER_SITES=	http://simon.morlat.free.fr/download/1.2.x/source/
 
 MAINTAINER=     schwarz@NetBSD.org
 HOMEPAGE=	http://www.linphone.org/
