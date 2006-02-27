@@ -18,8 +18,8 @@ $NetBSD$
 +hbf2gf_install:
 +	$(BSD_INSTALL_PROGRAM) hbf2gf/hbf2gf $(PREFIX)/bin
 +	$(BSD_INSTALL_MAN) hbf2gf/hbf2gf.1 $(PREFIX)/man/man1
-+	$(BSD_INSTALL_DATA_DIR) $(TEXMFMAIN)/hbf2gf
-+	$(BSD_INSTALL_DATA) hbf2gf/cfg/* $(TEXMFMAIN)/hbf2gf
++	$(BSD_INSTALL_DATA_DIR) $(TEXMFDIRS)/hbf2gf
++	$(BSD_INSTALL_DATA) hbf2gf/cfg/* $(TEXMFDIRS)/hbf2gf
 +
 +install: hbf2gf_install
 +	@for i in $(SUBDIRS); \

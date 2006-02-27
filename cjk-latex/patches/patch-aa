@@ -7,7 +7,7 @@ $NetBSD$
 +# Makefile for CJK to apply on Unix systems more smoothly.
 +#
 +
-+LATEX_DIR = $(TEXMFMAIN)/tex/latex
++LATEX_DIR = $(TEXMFDIRS)/tex/latex
 +CJK_DIR = $(LATEX_DIR)/CJK
 +
 +all:
