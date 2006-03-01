@@ -1,9 +1,9 @@
 # $NetBSD$
 #
 
-DISTNAME=		xproto-7.0.2
+DISTNAME=		xproto-7.0.4
 CATEGORIES=		x11 devel
-MASTER_SITES=		http://xorg.freedesktop.org/releases/X11R7.0-RC2/proto/
+MASTER_SITES=		http://xorg.freedesktop.org/releases/individual/proto/
 EXTRACT_SUFX=		.tar.bz2
 
 MAINTAINER=		reed@reedmedia.net
