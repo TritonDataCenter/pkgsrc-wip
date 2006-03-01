@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	tex-arphic-ttf-20060227
+DISTNAME=	tex-arphic-ttf-2.11
 CATEGORIES=	fonts
 MASTER_SITES=	# empty
 DISTFILES=	# empty
@@ -10,7 +10,7 @@ HOMEPAGE=	# empty
 COMMENT=	TeX fonts based on Arphic TrueType fonts
 
 DEPENDS+=	ttf2pk>=1.3.1:../../fonts/ttf2pk
-DEPENDS+=	arphic-ttf-[0-9]*:../../fonts/arphic-ttf
+DEPENDS+=	arphic-ttf-2.11*:../../fonts/arphic-ttf
 
 FONT_FILES=	bkai00mp bsmi00lp gbsn00lp gkai00mp
 

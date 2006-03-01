@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	tex-kochi-ttf-20060227
+DISTNAME=	tex-kochi-ttf-20030809
 CATEGORIES=	fonts
 MASTER_SITES=	# empty
 DISTFILES=	# empty
@@ -10,7 +10,7 @@ HOMEPAGE=	# empty
 COMMENT=	TeX fonts based on Kochi TrueType fonts
 
 DEPENDS+=	ttf2pk>=1.3.1:../../fonts/ttf2pk
-DEPENDS+=	kochi-ttf-[0-9]*:../../fonts/kochi-ttf
+DEPENDS+=	kochi-ttf-20030809*:../../fonts/kochi-ttf
 
 FONT_FILES=	gothic mincho
 

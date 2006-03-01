@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	tex-baekmuk-ttf-20060227
+DISTNAME=	tex-baekmuk-ttf-2.2
 CATEGORIES=	fonts
 MASTER_SITES=	# empty
 DISTFILES=	# empty
@@ -10,7 +10,7 @@ HOMEPAGE=	# empty
 COMMENT=	TeX fonts based on Baekmuk TrueType fonts
 
 DEPENDS+=	ttf2pk>=1.3.1:../../fonts/ttf2pk
-DEPENDS+=	baekmuk-ttf-[0-9]*:../../fonts/baekmuk-ttf
+DEPENDS+=	baekmuk-ttf-2.2*:../../fonts/baekmuk-ttf
 
 FONT_FILES=	batang dotum gulim hline
 
