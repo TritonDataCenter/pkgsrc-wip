@@ -1,9 +1,9 @@
 # $NetBSD$
 #
 
-DISTNAME=		fixesproto-3.0.1
+DISTNAME=		fixesproto-3.0.2
 CATEGORIES=		x11
-MASTER_SITES=		http://xorg.freedesktop.org/releases/X11R7.0-RC1/proto/
+MASTER_SITES=		http://xorg.freedesktop.org/releases/individual/proto/
 EXTRACT_SUFX=		.tar.bz2
 
 MAINTAINER=		reed@reedmedia.net
