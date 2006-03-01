@@ -1,13 +1,13 @@
 # $NetBSD$
 #
 
-DISTNAME=		libXmu-6.2.3
+DISTNAME=		libXmu-1.0.0
 CATEGORIES=		x11 devel
-MASTER_SITES=		http://xlibs.freedesktop.org/release/
+MASTER_SITES=		http://xorg.freedesktop.org/releases/individual/lib/
 EXTRACT_SUFX=		.tar.bz2
 
 MAINTAINER=		reed@reedmedia.net
-HOMEPAGE=		http://xlibs.freedesktop.org/
+HOMEPAGE=		http://xorg.freedesktop.org/
 COMMENT=		X Miscellaneous Utilities library
 
 PKG_INSTALLATION_TYPES=	overwrite pkgviews
@@ -16,10 +16,15 @@ USE_LIBTOOL=		yes
 PKGCONFIG_OVERRIDE+=	xmu.pc.in
 PKGCONFIG_OVERRIDE+=	xmuu.pc.in
 GNU_CONFIGURE=		yes
-USE_TOOLS+=		gmake pkg-config
+USE_TOOLS+=		pkg-config
 
+#.include "../../wip/libICE/buildlink3.mk"
+#.include "../../wip/libSM/buildlink3.mk"
+.include "../../wip/libX11/buildlink3.mk"
 .include "../../wip/libXext/buildlink3.mk"
 .include "../../wip/libXt/buildlink3.mk"
+.include "../../wip/xextproto/buildlink3.mk"
+
 .include "../../mk/pthread.buildlink3.mk"
 
 .include "../../mk/bsd.pkg.mk"
