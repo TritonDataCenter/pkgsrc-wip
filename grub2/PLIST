@@ -32,6 +32,7 @@ share/grub/i386-pc/halt.mod
 share/grub/i386-pc/hello.mod
 share/grub/i386-pc/help.mod
 share/grub/i386-pc/hfs.mod
+share/grub/i386-pc/hfsplus.mod
 share/grub/i386-pc/iso9660.mod
 share/grub/i386-pc/jfs.mod
 share/grub/i386-pc/kernel.img
