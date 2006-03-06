@@ -6,7 +6,7 @@ CATEGORIES=		wip audio
 MASTER_SITES=		http://www.wh-hms.uni-ulm.de/~mfcn/gnomeradio/packages/
 
 MAINTAINER=		pancake@phreaker.net
-HOMEPAGE=		http://www.wh-hms.uni-ulm.de/~mfcn/gnomeradio/packages/
+HOMEPAGE=		http://www.wh-hms.uni-ulm.de/~mfcn/gnomeradio/
 COMMENT=		FM-radio tuner for the GNOME desktop
 
 USE_PKGLOCALEDIR=	yes
