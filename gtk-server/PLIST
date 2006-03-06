@@ -1,0 +1,6 @@
+@comment $NetBSD$
+bin/gtk-server
+bin/kill-gtk-server.sh
+etc/gtk-server.cfg
+man/man1/gtk-server.1
+man/man1/gtk-server.cfg.1
