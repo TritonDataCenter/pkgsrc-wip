@@ -10,6 +10,7 @@ MAINTAINER=	tonio@NetBSD.org
 HOMEPAGE=	http://pgp-tools.alioth.debian.org/
 COMMENT=	Various OpenPGP related tools
 
+PKG_FAIL_REASON="This package is deprecated, please use security/caff instead."
 DEPENDS+=	gnupg>=1.4.2:../../security/gnupg
 DEPENDS+=	p5-Text-Template-[0-9]*:../../textproc/p5-Text-Template
 DEPENDS+=	p5-GnuPG-Interface>=0.34:../../security/p5-GnuPG-Interface
