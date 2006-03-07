@@ -1,8 +1,8 @@
 # $NetBSD$
 
-DISTNAME=	bsfilter-1.0.9
+DISTNAME=	bsfilter-1.0.12
 CATEGORIES=	mail
-MASTER_SITES=	http://keihanna.dl.sourceforge.jp/bsfilter/15724/
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE_JP:=bsfilter/18693/}
 EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	ura@jp.netbsd.org
