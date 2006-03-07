@@ -7,7 +7,7 @@ MASTER_SITES=	http://www.mu.org/~mux/
 EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	imil@gcu.info
-HOMEPAGE=	http://www.mu.org/~mux/
+HOMEPAGE=	http://www.mu.org/~mux/csup.html
 COMMENT=	Rewrite of the CVSup file updating client in C
 
 WRKSRC=		${WRKDIR}/csup
