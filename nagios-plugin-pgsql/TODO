@@ -1,5 +1,0 @@
-# $NetBSD$
-#
-
-TODO file for nagios-plugin-pgsql:
-	check_pgsql compiles but is untested.
