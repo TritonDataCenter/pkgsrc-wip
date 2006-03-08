@@ -5,7 +5,7 @@ CATEGORIES=		devel
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=xxdiff/}
 
 MAINTAINER=		ghen@NetBSD.org
-HOMEPAGE=		http://xxdiff.sourceforge.net/
+HOMEPAGE=		http://furius.ca/xxdiff/
 COMMENT=		Graphical file comparator and merge tool
 
 USE_TOOLS+=		gmake
