@@ -6,7 +6,7 @@ MASTER_SITES=   ${MASTER_SITE_SOURCEFORGE:=djvu/}
 
 MAINTAINER=     oht@users.sourceforge.net
 HOMEPAGE=       http://djvulibre.djvuzone.org/
-COMMENT=        DjVu is a format & software platform for distributing doc's & images
+COMMENT=        Format and software platform for distributing documents and images
 
 CONFIGURE_ARGS+=         --enable-djview
 
