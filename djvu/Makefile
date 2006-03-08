@@ -10,11 +10,7 @@ COMMENT=        DjVu is a format & software platform for distributing doc's & im
 
 CONFIGURE_ARGS+=         --enable-djview
 
-CFLAG+=         -I${PREFIX}/include
-
 GNU_CONFIGURE=  YES
-USE_BUILDLINK3= YES
-plugindir=     ${PREFIX}/lib/firefox/plugins
 
 .include "../../x11/qt3-tools/buildlink3.mk"
 .include "../../graphics/tiff/buildlink3.mk"
