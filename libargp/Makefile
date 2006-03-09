@@ -6,7 +6,6 @@ CATEGORIES=		devel
 MASTER_SITES=		http://www.lysator.liu.se/~nisse/misc/
 
 MAINTAINER=		lkundrak@skosi.org
-HOMEPAGE=		http://saqar/distfiles/
 COMMENT=		Standalone version of GNU libc's argument parsing interface
 
 USE_PKGLOCALEDIR=	yes
