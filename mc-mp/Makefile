@@ -20,10 +20,10 @@ INSTALL_MAKE_FLAGS+=	INSTALL_PROGRAM=${INSTALL_SCRIPT:Q}
 
 REPLACE_PERL+=		vfs/extfs/a vfs/extfs/deb vfs/extfs/mailfs
 
-SUBST_CLASSES+=		bash
-SUBST_STAGE.bash=	pre-configure
-SUBST_FILES.bash=	vfs/extfs/iso
-SUBST_SED.bash=		-e '1s,^\#!.*/bin/bash,\#! '${SH:Q}',g'
+REPLACE_INTERPRETER+=	bash
+_REPLACE.bash.old=	/bin/bash
+_REPLACE.bash.new=	${SH:Q}
+_REPLACE_FILES.bash=	vfs/extfs/iso
 
 .include "../../mk/bsd.prefs.mk"
 
