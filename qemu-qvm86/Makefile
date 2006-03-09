@@ -67,6 +67,6 @@ post-install:
 		${PREFIX}/lib/qemu
 
 .include "../../devel/SDL/buildlink3.mk"
-.include "../../mk/ossaudio.buildlink3.mk"
+.include "../../mk/oss.buildlink3.mk"
 .include "../../mk/pthread.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

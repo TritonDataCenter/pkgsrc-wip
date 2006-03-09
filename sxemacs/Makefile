@@ -75,7 +75,7 @@ PLIST_SUBST+=	ELSUFX=''
 .endif
 PLIST_SUBST+=	X11ONLY=""
 
-.include "../../mk/ossaudio.buildlink3.mk"
+.include "../../mk/oss.buildlink3.mk"
 
 .include "../../databases/gdbm/buildlink3.mk"
 .include "../../graphics/jpeg/buildlink3.mk"

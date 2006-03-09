@@ -19,5 +19,5 @@ USE_LIBTOOL=            yes
 
 .include "../../wip/directfb/buildlink3.mk"
 
-.include "../../mk/ossaudio.buildlink3.mk"
+.include "../../mk/oss.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

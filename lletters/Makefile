@@ -23,6 +23,6 @@ pre-configure:
 
 #.include "../../x11/gtk/buildlink3.mk"
 .include "../../graphics/imlib/buildlink3.mk"
-.include "../../mk/ossaudio.buildlink3.mk"
+.include "../../mk/oss.buildlink3.mk"
 
 .include "../../mk/bsd.pkg.mk"

@@ -88,5 +88,5 @@ do-install:
 		${INSTALL_PROGRAM} OBJ/*/readcd ${PREFIX}/bin;		\
 		${INSTALL_MAN} readcd.1 ${PREFIX}/${PKGMANDIR}/man1
 
-.include "../../mk/ossaudio.buildlink3.mk"
+.include "../../mk/oss.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

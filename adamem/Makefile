@@ -51,6 +51,6 @@ do-install:
 
 .include "../../devel/allegro/buildlink3.mk"
 .include "../../devel/zlib/buildlink3.mk"
-.include "../../mk/ossaudio.buildlink3.mk"
+.include "../../mk/oss.buildlink3.mk"
 .include "../../mk/x11.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

@@ -27,7 +27,7 @@ PKGCONFIG_OVERRIDE_STAGE=	post-build
 .include "../../audio/libmad/buildlink3.mk"
 .include "../../databases/sqlite3/buildlink3.mk"
 .include "../../devel/glib2/buildlink3.mk"
-.include "../../mk/ossaudio.buildlink3.mk"
+.include "../../mk/oss.buildlink3.mk"
 .include "../../mk/pthread.buildlink3.mk"
 
 do-build:

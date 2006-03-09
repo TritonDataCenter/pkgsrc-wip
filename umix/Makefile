@@ -23,5 +23,5 @@ pre-configure:
 	cd ${WRKSRC} && autoconf
 
 .include "../../devel/ncurses/buildlink3.mk"
-.include "../../mk/ossaudio.buildlink3.mk"
+.include "../../mk/oss.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

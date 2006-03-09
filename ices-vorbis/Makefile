@@ -40,7 +40,7 @@ do-install:
 		${INSTALL_DATA} ${WRKSRC}/conf/$$i ${EGDIR}/$$i ; \
 	done
 
-.include "../../mk/ossaudio.buildlink3.mk"
+.include "../../mk/oss.buildlink3.mk"
 .if defined(HAVE_OSS) && (${HAVE_OSS} == "YES")
 CONFIGURE_ENV+=         ac_cv_libossaudio__oss_ioctl=no
 .endif

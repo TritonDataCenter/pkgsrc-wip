@@ -38,6 +38,6 @@ post-install:
 .include "../../multimedia/libogg/buildlink3.mk"
 .include "../../net/SDL_net/buildlink3.mk"
 .include "../../textproc/intltool/buildlink3.mk"
-.include "../../mk/ossaudio.buildlink3.mk"
+.include "../../mk/oss.buildlink3.mk"
 .include "../../mk/x11.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

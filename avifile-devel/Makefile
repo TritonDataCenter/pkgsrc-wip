@@ -78,7 +78,7 @@ SUBST_FILES.docpath=	Makefile.in doc/Makefile.in doc/avicap/Makefile.in \
 			plugins/libac3pass/Makefile.in
 SUBST_SED.docpath=	-E -e 's|[(]datadir[)]/[$$][(]PACKAGE[)]/doc|(datadir)/doc/$$(PACKAGE)|'
 
-. include "../../mk/ossaudio.buildlink3.mk"
+. include "../../mk/oss.buildlink3.mk"
 SUBST_CLASSES+=		dsp
 SUBST_STAGE.dsp=	pre-configure
 SUBST_MESSAGE.dsp=	/dev/dsp to ${DEVOSSSOUND}

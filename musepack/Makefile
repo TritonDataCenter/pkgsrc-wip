@@ -37,5 +37,5 @@ BUILD_DEPENDS=		nasm>=0.98:../../devel/nasm
 pre-patch:
 	cd ${WRKSRC} && ${MV} install install.txt
 
-.include "../../mk/ossaudio.buildlink3.mk"
+.include "../../mk/oss.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

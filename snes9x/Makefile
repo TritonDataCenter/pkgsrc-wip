@@ -78,7 +78,7 @@ MAKE_ENV+=	USBHID_H=1
 
 .include "../../devel/zlib/buildlink3.mk"
 #.include "../../graphics/png/buildlink3.mk"
-.include "../../mk/ossaudio.buildlink3.mk"
+.include "../../mk/oss.buildlink3.mk"
 .include "../../mk/pthread.buildlink3.mk"
 .include "../../mk/x11.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

@@ -14,7 +14,7 @@ DEPENDS+=		sox-[0-9]*:../../audio/sox
 USE_PERL5=		yes
 USE_TOOLS+=		gmake
 
-.include "../../mk/ossaudio.buildlink3.mk"
+.include "../../mk/oss.buildlink3.mk"
 
 SUBST_CLASSES+=		sox_dev
 SUBST_STAGE.sox_dev=	post-patch

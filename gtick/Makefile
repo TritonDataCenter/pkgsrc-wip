@@ -15,5 +15,5 @@ GNU_CONFIGURE=		YES
 
 .include "../../x11/gtk2/buildlink3.mk"
 .include "../../devel/libgetopt/buildlink3.mk"
-.include "../../mk/ossaudio.buildlink3.mk"
+.include "../../mk/oss.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

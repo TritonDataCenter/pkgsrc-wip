@@ -17,7 +17,7 @@ SUBST_SED.dsp=		-e "s|/dev/dsp|${DEVOSSAUDIO}|"
 SRC_SUBDIR=		linux
 
 .include "../../x11/gtk/buildlink3.mk"
-.include "../../mk/ossaudio.buildlink3.mk"
+.include "../../mk/oss.buildlink3.mk"
 .endif
 
 .if !empty(PKG_OPTIONS:Mgtk)

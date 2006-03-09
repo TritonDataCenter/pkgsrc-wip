@@ -29,6 +29,6 @@ CONFIGURE_ARGS+=	--x-libraries=${X11BASE}/include
 
 .include "../../graphics/imlib/buildlink3.mk"
 .include "../../graphics/Mesa/buildlink3.mk"
-.include "../../mk/ossaudio.buildlink3.mk"
+.include "../../mk/oss.buildlink3.mk"
 .include "../../mk/x11.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

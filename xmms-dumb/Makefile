@@ -15,6 +15,6 @@ USE_TOOLS+=		gmake
 
 .include "../../wip/dumb/buildlink3.mk"
 .include "../../audio/xmms/buildlink3.mk"
-.include "../../mk/ossaudio.buildlink3.mk"
+.include "../../mk/oss.buildlink3.mk"
 .include "../../mk/x11.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

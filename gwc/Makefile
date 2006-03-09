@@ -20,5 +20,5 @@ post-patch:
 .include "../../math/fftw/buildlink3.mk"
 .include "../../audio/libsndfile/buildlink3.mk"
 # .include "../../x11/gnome-core/buildlink3.mk"
-.include "../../mk/ossaudio.buildlink3.mk"
+.include "../../mk/oss.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

@@ -206,7 +206,7 @@ CONFIGURE_ARGS+=	--disable-nas
 
 .if !empty(PKG_OPTIONS:Moss)
 CONFIGURE_ARGS+=	--enable-ossaudio
-.  include "../../mk/ossaudio.buildlink3.mk"
+.  include "../../mk/oss.buildlink3.mk"
 .else
 CONFIGURE_ARGS+=	--disable-ossaudio
 .endif

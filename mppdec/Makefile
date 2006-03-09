@@ -35,5 +35,5 @@ do-install:
 	${INSTALL_DATA_DIR} ${PREFIX}/share/doc/mppdec
 	${INSTALL_DATA} ${WRKSRC}/MANUAL.TXT ${PREFIX}/share/doc/mppdec
 
-.include "../../mk/ossaudio.buildlink3.mk"
+.include "../../mk/oss.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

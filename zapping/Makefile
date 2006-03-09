@@ -37,6 +37,6 @@ GCONF2_SCHEMAS+=	zapping.schemas
 # not used with bktr(4)
 #.include "../../wip/rte/buildlink3.mk"
 .include "../../wip/zvbi/buildlink3.mk"
-.include "../../mk/ossaudio.buildlink3.mk"
+.include "../../mk/oss.buildlink3.mk"
 .include "../../mk/pthread.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
