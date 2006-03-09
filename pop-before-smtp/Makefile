@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	pop-before-smtp-1.37
+DISTNAME=	pop-before-smtp-1.41
 CATEGORIES=	mail perl5
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=popbsmtp/}
 
