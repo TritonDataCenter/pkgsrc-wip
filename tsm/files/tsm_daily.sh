@@ -36,6 +36,7 @@ then
     echo "TSM config directory ${TSMCONFDIR} does not exist, aborting." | logger
     exit 1
 elif [ ! -f ${DSM_CONFIG} ]
+then
     echo "TSM config file ${DSM_CONFIG} not found, aborting." | logger
     exit 1
 fi
