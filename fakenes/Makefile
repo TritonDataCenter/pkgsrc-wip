@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		fakenes-0.3.1
+DISTNAME=		fakenes-0.5.1
 CATEGORIES=		emulators
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=fakenes/}
 EXTRACT_SUFX=		.tar.bz2
@@ -17,9 +17,11 @@ GNU_CONFIGURE=		yes
 
 # disable netplay support: needs nl.h
 CONFIGURE_ARGS+=	--without-hawknl
+# no openal support
+CONFIGURE_ARGS+=	--without-openal
 
 do-install:
-	${INSTALL_PROGRAM} ${WRKSRC}/src/fakenes ${PREFIX}/bin
+	${INSTALL_PROGRAM} ${WRKSRC}/fakenes ${PREFIX}/bin
 	${INSTALL_DATA_DIR} ${PREFIX}/share/doc/fakenes
 	${INSTALL_DATA} ${WRKSRC}/LICENSE ${PREFIX}/share/doc/fakenes
 	${INSTALL_DATA} ${WRKSRC}/README ${PREFIX}/share/doc/fakenes
