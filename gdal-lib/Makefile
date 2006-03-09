@@ -12,14 +12,25 @@ COMMENT=		Translator library for raster geospatial data formats
 
 USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=		yes
-LIBTOOL_OVERRIDE=	${WRKSRC}/libtool
+LIBTOOL_OVERRIDE+=	${WRKSRC}/libtool
 
 GNU_CONFIGURE=		yes
 USE_TOOLS+=		gmake
 
 MAKEFILE=		GNUmakefile
 
+PKG_OPTIONS_VAR=	PKG_OPTIONS.gdal-lib
+PKG_SUPPORTED_OPTIONS=	pgsql
+PKG_GROUP.database=	pgsql
+
+.include "../../mk/bsd.prefs.mk"
+.include "../../mk/bsd.options.mk"
+
+.if !empty(PKG_OPTIONS:Mpgsql)
+. include "../../mk/pgsql.buildlink3.mk"
 CONFIGURE_ARGS+=	--with-pg
+.endif
+
 CONFIGURE_ARGS+=	--with-mysql=no
 CONFIGURE_ARGS+=	--with-xerces
 CONFIGURE_ARGS+=	--with-xerces-inc=${PREFIX:Q}/include
@@ -28,7 +39,6 @@ CONFIGURE_ARGS+=	--with-geos
 CONFIGURE_ARGS+=	--without-python
 
 .include "../../misc/proj/buildlink3.mk"
-.include "../../mk/pgsql.buildlink3.mk"
 .include "../../geography/geos/buildlink3.mk"
 .include "../../textproc/xerces-c/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
