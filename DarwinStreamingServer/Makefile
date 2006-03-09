@@ -4,6 +4,7 @@ DISTNAME=	DarwinStreamingSrvr${DSS_VERSION}
 PKGNAME=	DarwinStreamingServer-${DSS_VERSION}
 CATEGORIES=	net
 MASTER_SITES=	http://www.opensource.apple.com/projects/streaming/release/
+EXTRACT_SUFX=	.tar
 DISTFILES=	DarwinStreamingSrvr${DSS_VERSION}-Source.tar
 
 MAINTAINER=	eggert@macvaerk.dtu.dk
