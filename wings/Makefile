@@ -19,6 +19,11 @@ SUBST_SED.paths=	-e 's,%%LOCALBASE%%,${LOCALBASE},'
 ESDL_VERSION=		0.95.0630
 ESDL_PATH=		${LOCALBASE}/lib/erlang/lib/esdl-${ESDL_VERSION}
 
+REPLACE_INTERPRETER+=	bash
+_REPLACE.bash.old=	/bin/bash
+_REPLACE.bash.new=	${SH:Q}
+_REPLACE_FILES.bash=	tools/wings_reduce_otp
+
 post-build:
 	cd ${WRKSRC} && ${SETENV} ESDL_PATH=${ESDL_PATH} unix/make_installer
 

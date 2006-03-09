@@ -17,8 +17,8 @@ DSS_VERSION=	5.5
 PKG_INSTALLATION_TYPES=	overwrite pkgviews
 
 REPLACE_INTERPRETER+=	bash
-_REPLACE.bash.old=	*/bin/bash
-_REPLACE.bash.new=	${SH}
+_REPLACE.bash.old=	/bin/bash
+_REPLACE.bash.new=	${SH:Q}
 _REPLACE_FILES.bash=	Install
 
 RESTRICTED=		Under APSL (see http://www.opensource.apple.com/apsl/).

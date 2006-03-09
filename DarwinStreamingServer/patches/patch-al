@@ -2,12 +2,6 @@ $NetBSD$
 
 --- Install.orig	2005-05-27 09:55:01.000000000 +0000
 +++ Install	2005-12-19 13:06:08.000000000 +0000
-@@ -1,4 +1,4 @@
--#!/bin/bash
-+#!/bin/sh
- 
- # Install script for the Darwin Streaming Server
- # source release
 @@ -16,6 +16,7 @@
  
  if [ $USERID = 0 ]; then
