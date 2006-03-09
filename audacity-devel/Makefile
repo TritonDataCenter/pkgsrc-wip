@@ -15,7 +15,7 @@ WRKSRC=			${WRKDIR}/${DISTNAME}-beta
 
 USE_LIBTOOL=		yes
 USE_PKGLOCALEDIR=	yes
-USE_TOOLS+=		autoconf gmake
+USE_TOOLS+=		autoconf gmake pkg-config
 GNU_CONFIGURE=		yes
 CONFIGURE_ARGS+=	--without-xaudio
 CONFIGURE_ARGS+=	--with-id3=system
