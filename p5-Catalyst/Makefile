@@ -39,6 +39,7 @@ BUILD_DEPENDS+=	p5-Test-MockObject>=0:../../wip/p5-Test-MockObject
 BUILD_DEPENDS+=	p5-Test-NoWarnings>=0.082:../../devel/p5-Test-NoWarnings
 
 PERL5_PACKLIST= auto/Catalyst/.packlist
+MAKE_ENV+=      PERL_EXTUTILS_AUTOINSTALL=--skipdeps
 
 .include "../../lang/perl5/module.mk"
 .include "../../mk/bsd.pkg.mk"
