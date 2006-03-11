@@ -22,9 +22,9 @@ CONFIGURE_ARGS+=	--disable-jack
 USE_TOOLS+=		bash
 
 REPLACE_INTERPRETER+=	bash
-_REPLACE.bash.old=	/bin/bash
-_REPLACE.bash.new=	${TOOLS_PATH.bash}
-_REPLACE_FILES.bash=	configure
+REPLACE.bash.old=	/bin/bash
+REPLACE.bash.new=	${TOOLS_PATH.bash}
+REPLACE_FILES.bash=	configure
 
 .include "../../x11/qt3-libs/buildlink3.mk"
 .include "../../x11/qt3-tools/buildlink3.mk"

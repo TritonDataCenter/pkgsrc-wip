@@ -29,9 +29,9 @@ CONFIGURE_ARGS+=	--prefix=${PREFIX:Q} \
 
 REPLACE_PERL+=		scripts/ptal-init.in
 REPLACE_INTERPRETER+=	bash
-_REPLACE.bash.old=	.*/bin/bash
-_REPLACE.bash.new=	${PREFIX}/bin/bash
-_REPLACE_FILES.bash=	scripts/ptal-cups.in
+REPLACE.bash.old=	.*/bin/bash
+REPLACE.bash.new=	${PREFIX}/bin/bash
+REPLACE_FILES.bash=	scripts/ptal-cups.in
 
 .include "../../print/cups/buildlink3.mk"
 .include "../../graphics/sane-backends/buildlink3.mk"
