@@ -12,6 +12,6 @@ COMMENT=		Library for handling page faults in user mode
 USE_PKGLOCALEDIR=	yes
 USE_TOOLS+=		pkg-config
 GNU_CONFIGURE=		yes
-
+TEST_TARGET=		check
 
 .include "../../mk/bsd.pkg.mk"
