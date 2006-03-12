@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=      tuareg-mode-1.45.3
+DISTNAME=      tuareg-mode-1.45.4
 PKGNAME=       ${EMACS_PKGNAME_PREFIX}${DISTNAME}
 CATEGORIES=    devel editors
 MASTER_SITES=  http://www-rocq.inria.fr/~acohen/tuareg/mode/
