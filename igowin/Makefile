@@ -3,7 +3,7 @@
 
 DISTNAME=		igowin
 PKGNAME=		igowin-1.0
-PKGREVISION=		1
+PKGREVISION=		2
 CATEGORIES=		games
 MASTER_SITES=		http://www.smart-games.com/
 EXTRACT_SUFX=		.exe
@@ -13,7 +13,7 @@ HOMEPAGE=		http://www.smart-games.com/
 COMMENT=		Go playing program
 
 WRKSRC=			${WRKDIR}
-EXTRACT_CMD=		${EXTRACT_CMD.zip}
+EXTRACT_OPTS=		-f zip
 NO_BUILD=		yes
 USE_TOOLS+=		unzip
 
