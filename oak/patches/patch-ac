@@ -7,7 +7,7 @@ $NetBSD$
  void oak_global_set_logfile(oak_global *g, char *filename)
  {
 -  strcpy(g->logfile, filename);
-+  strncpy(g->logfile, filename, 1023);
++  strncpy(g->logfile, filename, sizeof(g->logfile)-1);
  }
  
  oak_queuelist *oak_global_get_queuelist(oak_global *g)
@@ -16,7 +16,7 @@ $NetBSD$
  void oak_global_set_replacestr(oak_global *g, char *in)
  {
 -  strcpy(g->replacestr, in);
-+  strncpy(g->replacestr, in, 99);
++  strncpy(g->replacestr, in, sizeof(g->replacestr)-1);
  }
  
  int oak_global_host_is_ok(oak_global *g, char *host)

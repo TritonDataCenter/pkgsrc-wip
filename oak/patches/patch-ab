@@ -16,7 +16,7 @@ $NetBSD$
        }
      } else {
 -      strcpy(subject, act->argv[3]);
-+      strncpy(subject, act->argv[3], 1023);
++      strncpy(subject, act->argv[3], sizeof(subject)-1);
      }
      
      file=popen(command, "w");

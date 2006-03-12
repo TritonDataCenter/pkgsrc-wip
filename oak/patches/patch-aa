@@ -8,13 +8,12 @@ $NetBSD$
  CC=@CC@
  CFLAGS=-g -Wall
  OBJS=action.o matchline.o oak.o queuelist.o fire.o queue.o util.o list.o global.o readconfig.o text.o queue_entry.o string.o
-@@ -6,7 +8,8 @@
+@@ -8,8 +8,8 @@
  	$(CC) -o oak $(OBJS) $(LIBS)
  
  install:        
 -	./install-sh -c oak /usr/local/bin/
 +	./install-sh -c oak @bindir@/
-+	./install-sh -m 0644 -c oak.1 @mandir@/man1/
  
  clean:
  	$(RM) *~ *.o oak
