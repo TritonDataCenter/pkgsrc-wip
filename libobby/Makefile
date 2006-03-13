@@ -1,8 +1,8 @@
 # $NetBSD$
 #
 
-DISTNAME=		obby-0.2.0
-PKGNAME=		libobby-0.2.0
+DISTNAME=		obby-0.3.0
+PKGNAME=		libobby-0.3.0
 CATEGORIES=		devel net
 MASTER_SITES=		http://releases.0x539.de/obby/
 
@@ -12,11 +12,14 @@ COMMENT=		Synced document buffers library
 
 USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=		yes
-PKGCONFIG_OVERRIDE+=	${WRKSRC}/obby-0.2.pc.in
+PKGCONFIG_OVERRIDE+=	${WRKSRC}/obby-0.3.pc.in
 GNU_CONFIGURE=		yes
 USE_TOOLS+=		pkg-config
 
 .include "options.mk"
+
+pre-install:
+	${MKDIR} ${PREFIX}/include/obby/serialise
 
 PLIST_SRC+=             ${PKGDIR}/PLIST.common
 

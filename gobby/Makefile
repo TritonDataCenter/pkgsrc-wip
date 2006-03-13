@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		gobby-0.2.2
+DISTNAME=		gobby-0.3.0
 CATEGORIES=		editors net
 MASTER_SITES=		http://releases.0x539.de/gobby/
 
