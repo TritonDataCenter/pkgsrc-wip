@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		makedepf90-2.8.3
+DISTNAME=		makedepf90-2.8.4
 CATEGORIES=		devel
 MASTER_SITES=		http://www.helsinki.fi/~eedelman/makedepf90/
 
@@ -13,9 +13,6 @@ USE_TOOLS+=		lex yacc autoconf
 
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
-
-pre-configure:
-	cd ${WRKSRC} && autoconf
 
 do-build:
 	cd ${WRKSRC} && make
