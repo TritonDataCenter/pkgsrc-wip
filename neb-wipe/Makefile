@@ -1,15 +1,15 @@
 # $NetBSD$
 #
 
-DISTNAME=		neb-wipe-src-0.9.1
-PKGNAME=		neb-wipe-0.9.1
+DISTNAME=		neb-wipe-src-1.0
+PKGNAME=		neb-wipe-1.0
 CATEGORIES=		sysutils
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=neb-stoehr/}
 EXTRACT_SUFX=		.tgz
 
 MAINTAINER=	 	netbsd@wolfnode.de
 HOMEPAGE=		http://neb-stoehr.sourceforge.net/
-COMMENT=	 	Secure disk partition eraser
+COMMENT=	 	Secure disk partition eraser (NetBSD only)
 
 NO_CONFIGURE=		yes
 
