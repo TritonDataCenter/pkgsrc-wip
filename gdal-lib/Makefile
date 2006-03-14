@@ -12,7 +12,6 @@ COMMENT=		Translator library for raster geospatial data formats
 
 USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=		yes
-LIBTOOL_OVERRIDE+=	${WRKSRC}/libtool
 
 GNU_CONFIGURE=		yes
 USE_TOOLS+=		gmake
@@ -21,9 +20,8 @@ MAKEFILE=		GNUmakefile
 
 PKG_OPTIONS_VAR=	PKG_OPTIONS.gdal-lib
 PKG_SUPPORTED_OPTIONS=	pgsql
-PKG_GROUP.database=	pgsql
+PKG_SUGGESTED_OPTIONS=	pgsql
 
-.include "../../mk/bsd.prefs.mk"
 .include "../../mk/bsd.options.mk"
 
 .if !empty(PKG_OPTIONS:Mpgsql)
