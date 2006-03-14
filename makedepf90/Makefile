@@ -9,13 +9,13 @@ MAINTAINER=		emil@math.su.se
 HOMEPAGE=		http://www.helsinki.fi/~eedelman/makedepf90/
 COMMENT=		Creates Makefile dependencies for Fortran code
 
-USE_TOOLS+=		lex yacc autoconf 
+USE_TOOLS+=		lex yacc
 
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 
 do-build:
-	cd ${WRKSRC} && make
+	cd ${WRKSRC:Q} && make
 
 
 .include "../../mk/bsd.pkg.mk"
