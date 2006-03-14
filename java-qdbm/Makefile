@@ -18,10 +18,6 @@ CONFIGURE_DIRS=	${MY_SUBDIR:Q}
 GNU_CONFIGURE=	yes
 TEST_TARGET=	check
 
-PERL5_PACKLIST=	auto/Curia/.packlist auto/Depot/.packlist auto/Villa/.packlist
-REPLACE_PERL+=	${MY_SUBDIR:Q}/curia/plcrtest ${MY_SUBDIR:Q}/depot/pldptest \
-		${MY_SUBDIR:Q}/villa/plvltest
-
 .include "../../databases/qdbm/buildlink3.mk"
 .include "../../mk/java-vm.mk"
 .if defined(PTHREAD_TYPE) && ${PTHREAD_TYPE} != "none"
