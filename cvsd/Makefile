@@ -11,7 +11,6 @@ COMMENT=		Run CVS pserver in a chroot-ed environment
 .include "../../mk/bsd.prefs.mk"
 
 USE_TOOLS+=		gmake perl
-USE_PKGINSTALL=		YES
 GNU_CONFIGURE=		YES
 
 CONFIGURE_ARGS+=	--sysconfdir=${PKG_SYSCONFDIR:Q}

@@ -10,5 +10,4 @@ EXTRACT_SUFX=	.tgz
 MAINTAINER=	adrianp@stindustries.net
 HOMEPAGE= 	http://irc.warg.co.uk/smtprc-website/index.html
 
-USE_PKGINSTALL=		YES
 PKG_SYSCONFSUBDIR=	smtprc

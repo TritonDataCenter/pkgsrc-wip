@@ -18,7 +18,6 @@ WRKSRC=		${WRKDIR}/lsh-0.70
 CFLAGS+=	-DLSH_SYSCONFDIR="\"${PKG_SYSCONFDIR}\""
 CONFLICTS+=	lsh-[0-9]*:../../security/lsh
 
-USE_PKGINSTALL=	yes
 EGDIR=		${PREFIX}/share/examples/mg-lsh
 CONF_FILES=	${EGDIR}/autoexec ${PKG_SYSCONFDIR}/autoexec
 

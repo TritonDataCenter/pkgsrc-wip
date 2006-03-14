@@ -16,7 +16,6 @@ DEPENDS+=		portmap>=4:../../wip/portmap
 #DEPENDS+=		yp-tools-[0-9]*:../../wip/yp-tools
 
 GNU_CONFIGURE=		yes
-USE_PKGINSTALL=		yes
 
 RCD_SCRIPTS=		yppasswdd ypserv
 

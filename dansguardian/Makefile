@@ -13,7 +13,6 @@ WRKSRC=		${WRKDIR}/DansGuardian-2.6.1
 HAS_CONFIGURE=	yes
 MANCOMPRESSED=	yes
 RCD_SCRIPTS=	dansguardian
-USE_PKGINSTALL= YES
 
 CONFIGURE_ARGS=		--prefix=${PREFIX:Q} \
 			--cgidir=/libexec/cgi-bin/ \

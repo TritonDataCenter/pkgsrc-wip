@@ -11,7 +11,6 @@ COMMENT=		Secure replacement for inetd
 
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
-USE_PKGINSTALL=		yes
 USE_TOOLS+=		gmake
 BUILD_TARGET=		build
 CONFIGURE_ARGS+=	--with-loadavg

@@ -8,8 +8,6 @@ MAINTAINER=	ishit@users.sourceforge.jp
 HOMEPAGE=	http://www.mathopd.org/
 COMMENT=	Very small, yet very fast HTTP server
 
-USE_PKGINSTALL=	yes
-
 MATHOPD_GROUP=	www
 MATHOPD_USER=	www
 

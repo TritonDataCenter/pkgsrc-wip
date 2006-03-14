@@ -20,8 +20,6 @@ USE_LANGUAGES=	c++
 
 CONF_FILES=		${PREFIX}/share/examples/moe/moerc \
 			${PKG_SYSCONFDIR}/moerc
-USE_PKGINSTALL=		YES
-
 INSTALL_TARGET=		install install-man
 INSTALLATION_DIRS=	bin ${PKGMANDIR}/man1 info share/examples/moe
 

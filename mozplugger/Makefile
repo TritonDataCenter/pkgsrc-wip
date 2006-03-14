@@ -10,7 +10,6 @@ HOMEPAGE=		http://mozplugger.mozdev.org/
 COMMENT=		Mozilla plugin for launching external viewers
 
 MAKE_ARGS+=		-DPKG_SYSCONFDIR=${PKG_SYSCONFDIR}
-USE_PKGINSTALL=		yes
 CONF_FILES+=		${PREFIX}/share/examples/mozplugger/mozpluggerrc ${PKG_SYSCONFDIR}/mozpluggerrc
 
 do-install:

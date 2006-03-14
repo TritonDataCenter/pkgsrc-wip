@@ -17,7 +17,6 @@ NO_EXTRACT=		yes
 NO_CONFIGURE=		yes
 NO_BUILD=		yes
 NO_MTREE=		yes
-USE_PKGINSTALL=		YES
 
 EGDIR=			${PREFIX}/share/examples/${PKGBASE}
 

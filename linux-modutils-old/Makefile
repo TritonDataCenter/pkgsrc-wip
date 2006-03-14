@@ -14,8 +14,6 @@ COMMENT=		Linux kernel module utilities, .old versions
 
 CONFLICTS+=		linux-modutils-[0-9]*
 
-USE_PKGINSTALL=		YES
-
 ONLY_FOR_PLATFORM=      Linux-*-* # This is for the Linux kernel
 
 GNU_CONFIGURE=		YES

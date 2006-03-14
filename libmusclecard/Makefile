@@ -10,7 +10,6 @@ HOMEPAGE=		http://www.musclecard.com/
 COMMENT=		MUSCLE SmartCard framework support library
 
 GNU_CONFIGURE=          YES
-USE_PKGINSTALL=         YES
 USE_LIBTOOL=            YES
 USE_TOOLS+=             automake gmake pkg-config
 

@@ -11,7 +11,6 @@ HOMEPAGE=		http://joewing.net/programs/jwm
 COMMENT=		Lightweight window manager with virtual desktops
 
 GNU_CONFIGURE=		yes
-USE_PKGINSTALL=		yes
 
 .include "../../mk/bsd.prefs.mk"
 

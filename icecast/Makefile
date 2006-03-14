@@ -11,7 +11,6 @@ HOMEPAGE=	http://www.icecast.org/
 COMMENT=	Internet broadcasting system using Mpeg Layer III streaming
 
 GNU_CONFIGURE=		yes
-USE_PKGINSTALL=		yes
 
 RCD_SCRIPTS=		icecast
 PKG_SYSCONFSUBDIR=	icecast

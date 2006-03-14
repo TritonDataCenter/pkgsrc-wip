@@ -13,7 +13,6 @@ COMMENT=		Flexible backup tool
 USE_TOOLS+=		perl5:run
 REPLACE_PERL=		${WRKSRC}/flexbackup
 NO_BUILD=		YES
-USE_PKGINSTALL=		yes
 
 SUBST_CLASSES+=		cfgpath
 SUBST_MESSAGE.cfgpath = Fixing hardcoded configuration file path.

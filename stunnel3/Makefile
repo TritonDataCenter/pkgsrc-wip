@@ -10,7 +10,6 @@ COMMENT=		Universal SSL tunnel
 
 CONFLICTS=		stunnel-[4-9]*
 
-USE_PKGINSTALL=		yes
 GNU_CONFIGURE=		yes
 CONFIGURE_ARGS+=	--with-ssl=${SSLBASE:Q} \
 			--with-cert-dir=${SSLCERTS:Q} \

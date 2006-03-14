@@ -11,7 +11,6 @@ COMMENT=		CryptoFlex plugin for the MUSCLE framework
 
 WRKSRC=			${WRKDIR}/${DISTNAME}/CFlexPlugin
 GNU_CONFIGURE=		YES
-USE_PKGINSTALL=		YES
 USE_LIBTOOL=		YES
 USE_TOOLS+=		automake gmake
 

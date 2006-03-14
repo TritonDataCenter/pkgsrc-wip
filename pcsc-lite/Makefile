@@ -10,7 +10,6 @@ HOMEPAGE=		http://www.linuxnet.com/
 COMMENT=		PC/SC Architecture support for Smart Cards
 
 GNU_CONFIGURE=          YES
-USE_PKGINSTALL=		YES
 USE_LIBTOOL=            YES
 USE_TOOLS+=             automake gmake
 

@@ -10,7 +10,6 @@ HOMEPAGE=       	http://www.linuxnet.com/
 COMMENT=		PAM plugin for MUSCLE SmartCard framework
 
 WRKSRC=			${WRKDIR}/${DISTNAME}/MusclePAM
-USE_PKGINSTALL=		YES
 USE_TOOLS+=		gmake
 
 PKG_SYSCONFSUBDIR=	musclepam

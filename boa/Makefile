@@ -31,7 +31,6 @@ CPPFLAGS+=	-DINET6
 .endif
 
 CONF_FILES=		${EGDIR}/boa.conf ${PKG_SYSCONFDIR}/boa.conf
-USE_PKGINSTALL=YES
 INSTALLATION_DIRS=	sbin ${PKGMANDIR}/man8
 
 do-install:

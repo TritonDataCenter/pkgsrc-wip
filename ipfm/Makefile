@@ -9,8 +9,6 @@ MAINTAINER=		tech-pkg@NetBSD.org
 HOMEPAGE=		http://robert.cheramy.net/ipfm/
 COMMENT=		Bandwidth analysis tool
 
-USE_PKGINSTALL=		yes
-
 GNU_CONFIGURE=		yes
 CONFIGURE_ARGS+=	--sysconfdir=${PKG_SYSCONFDIR:Q}
 CONFIGURE_ARGS+=	--localstatedir=${VARBASE:Q}

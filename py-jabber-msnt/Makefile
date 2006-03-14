@@ -28,7 +28,6 @@ DEPENDS+=	${PYPKGPREFIX}-imaging>=1.1.5:../../graphics/py-imaging
 # USE_PERL5, INFO_FILES, DIST_SUBDIR, etc.
 # EXTRACT_ONLY=		# yes
 NO_BUILD=		yes
-USE_PKGINSTALL=		yes
 
 # always include bsd.prefs.mk before any .if or .ifdef statements
 .include "../../mk/bsd.prefs.mk"

@@ -13,7 +13,6 @@ COMMENT=		a small program/library designed to pull out attachments from OLE2 dat
 PKG_INSTALLATION_TYPES=	overwrite pkgviews
 
 USE_LIBTOOL=		yes
-USE_PKGINSTALL=		yes
 BUILD_TARGET=		default
 
 do-configure: # empty

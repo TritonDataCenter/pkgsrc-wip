@@ -11,7 +11,6 @@ COMMENT=		Access software for a blind person using a soft braille terminal
 
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
-USE_PKGINSTALL=		yes
 
 .include "../../mk/bsd.prefs.mk"
 

@@ -15,19 +15,12 @@ TEX_ACCEPTED=	teTeX3
 
 MAKE_ENV+=	TEXMFDIRS=${TEXMFDIRS:Q}
 
-INSTALL_EXTRA_TMPL+=	${.CURDIR}/INSTALL
-DEINSTALL_EXTRA_TMPL+=	${.CURDIR}/DEINSTALL
-
 post-extract:
 	${MV} ${WRKSRC}/Makefile ${WRKSRC}/Makefile.cjk
 	${CHMOD} +x ${WRKSRC}/utils/hbf2gf/configure
 
 pre-install:
 	${FIND} ${WRKSRC}/texinput -type f -name '*.orig' | ${XARGS} ${RM} -f
-
-post-install:
-	# Edit texmf.cnf
-	@${SH} ${INSTALL_FILE} ${PKGNAME} POST-INSTALL
 
 .include "../../print/teTeX/module.mk"
 .include "../../mk/bsd.pkg.mk"

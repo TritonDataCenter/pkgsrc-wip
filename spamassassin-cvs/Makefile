@@ -37,7 +37,6 @@ WRKSRC=		${WRKDIR}/${DISTNAME:S/-cvs//}
 
 PERL5_REQD+=    5.6.1	# MakeMaker >= 5.45 needed, >= 6.16 recommended
 
-USE_PKGINSTALL=		YES
 PKG_SYSCONFSUBDIR=	spamassassin
 
 # Set contact address (e-mail, URL, ...) for use in spam report messages
@@ -134,8 +133,6 @@ SUPPORT_FILES_PERMS+=	${EGDIR}/netbsd_lists.cf			\
 			${SHAREGRP} ${SHAREMODE}
 
 OWN_DIRS+=		${EGDIR} ${DOCDIR} ${DOCDIR}/spamd ${HTMLDIR}
-
-DEINSTALL_EXTRA_TMPL=	${PKGDIR}/DEINSTALL
 
 SUBST_CLASSES+=		sa1 sa2 sa3
 

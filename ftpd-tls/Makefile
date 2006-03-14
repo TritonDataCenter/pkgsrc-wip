@@ -14,7 +14,6 @@ PKG_INSTALLATION_TYPES=	overwrite pkgviews
 
 GNU_CONFIGURE=	yes
 
-USE_PKGINSTALL=	yes
 RCD_SCRIPTS=	ftpdtls
 
 SUBST_CLASSES+=	path

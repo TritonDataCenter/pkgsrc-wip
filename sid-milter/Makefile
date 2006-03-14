@@ -18,7 +18,6 @@ LICENSE=		no-profit
 USE_TOOLS+=		gm4
 MAKE_ENV+=		M4=${M4:Q}
 PTHREAD_OPTS+=		require
-USE_PKGINSTALL=		YES
 RCD_SCRIPTS=		sidmilter
 
 SIDDOC=		${PREFIX}/share/doc/sid-milter

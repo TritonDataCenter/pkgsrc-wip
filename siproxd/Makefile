@@ -19,8 +19,6 @@ CONF_FILES=	${EGDIR}/siproxd.conf.example ${PKG_SYSCONFDIR}/siproxd.conf \
 		${EGDIR}/siproxd_passwd.cfg \
 		${PKG_SYSCONFDIR}/siproxd_passwd.cfg
 
-USE_PKGINSTALL=	YES
-
 INSTALLATION_DIRS=	sbin share/examples/siproxd
 
 .include "../../devel/libosip/buildlink3.mk"

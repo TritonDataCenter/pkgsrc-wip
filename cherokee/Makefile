@@ -11,7 +11,6 @@ COMMENT=	Extremely fast and tiny web server
 
 USE_LIBTOOL=		yes
 GNU_CONFIGURE=		yes
-USE_PKGINSTALL=		yes
 
 CONFIGURE_ARGS+=	--bindir=${PREFIX:Q}/sbin
 

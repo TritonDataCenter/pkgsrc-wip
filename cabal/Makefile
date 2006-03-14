@@ -11,10 +11,6 @@ COMMENT=		Haskell common architecture for building applications and libraries
 
 WRKSRC=			${WRKDIR}/cabal
 
-USE_PKGINSTALL=		yes
-INSTALL_EXTRA_TMPL+=	${PKGDIR}/INSTALL
-DEINSTALL_EXTRA_TMPL+=	${PKGDIR}/DEINSTALL
-
 USE_TOOLS+=		gmake
 MAKEFILE=		GNUmakefile
 

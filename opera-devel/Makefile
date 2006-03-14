@@ -79,7 +79,6 @@ PLIST_SUBST+=		OPERA_PKG_VERSION=${OPERA_PKG_VERSION:C/u.*//}
 
 .if (((${_OPERA_OPSYS} == SunOS) && (${_OPERA_MACHINE_ARCH} == sparc)) || (${_OPERA_OPSYS} == FreeBSD))
 NO_BUILD=               YES
-USE_PKGINSTALL=		YES
 
 SUBST_CLASSES+=		opera
 SUBST_STAGE.opera=	post-build

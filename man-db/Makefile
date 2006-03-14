@@ -31,7 +31,6 @@ MAN_DB_CAT_DIR?=	/var/cache/man
 # for modifying cat and database files
 MAN_DB_USER?=		man-db
 PKG_USERS=		${MAN_DB_USER}:${ROOT_GROUP}::man-db\ user:${MAN_DB_CAT_DIR}
-USE_PKGINSTALL=		YES
 
 USE_PKGLOCALEDIR=	YES
 GNU_CONFIGURE=		YES

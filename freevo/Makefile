@@ -16,7 +16,6 @@ DEPENDS+=		${PYPKGPREFIX}-twisted>=2.0.0:../../wip/py-twisted
 DEPENDS+=		${PYPKGPREFIX}-twisted-web>=0.5.0:../../wip/py-twisted-web
 
 PYDISTUTILSPKG=		yes
-USE_PKGINSTALL=		yes
 USE_PKGLOCALEDIR=	yes
 
 PYTHON_VERSIONS_ACCEPTED=	23

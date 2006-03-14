@@ -18,8 +18,6 @@ CONFIGURE_ARGS+=	--enable-bindir=${PREFIX}/sbin			\
 			--enable-sysconfdir=${DATADIR:Q}			\
 			--enable-htmldir=${SARG_REPORTSDIR:Q}
 
-USE_PKGINSTALL=		yes
-
 PKG_SYSCONFSUBDIR=	sarg
 EGDIR=			${PREFIX}/share/examples/sarg
 DATADIR=		${PREFIX}/share/sarg

@@ -10,7 +10,6 @@ HOMEPAGE=		http://www.musclecard.com/
 COMMENT=		Personalization tool for MuscleCard enabled smartcards
 
 USE_TOOLS+=		gmake
-USE_PKGINSTALL=		YES
 
 .include "../../wip/libmusclecard/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

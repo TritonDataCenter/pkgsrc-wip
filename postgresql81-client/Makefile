@@ -44,7 +44,6 @@ BUILD_DIRS+=	${WRKSRC}/src/backend
 PKG_OPTIONS_VAR=	PKG_OPTIONS.postgresql81-client
 .include "../../wip/postgresql81/options.mk"
 
-USE_PKGINSTALL=	yes
 .for _file_ in pg_service.conf psqlrc
 CONF_FILES+=	${PG_DATA_DIR}/${_file_}.sample ${PG_ETC_DIR}/${_file_}
 .endfor

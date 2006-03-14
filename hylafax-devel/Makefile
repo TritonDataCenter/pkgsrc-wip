@@ -24,7 +24,6 @@ DIST_SUBDIR=	hylafax
 
 CONFLICTS=	hylafax-[0-9]* mgetty-[0-9]*
 
-USE_PKGINSTALL=		yes
 USE_LANGUAGES=		c c++
 USE_TOOLS+=		gs:run
 HAS_CONFIGURE=		yes

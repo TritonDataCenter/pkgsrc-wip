@@ -19,7 +19,6 @@ MAKE_ENV+=		DESTDIR=${PREFIX:Q} ROOT_GROUP=${ROOT_GROUP:Q} \
 PKGMANDIR?=		man
 MAKE_ENV+=		PKGMANDIR=${PKGMANDIR:Q}
 
-USE_PKGINSTALL=		YES
 RCD_SCRIPTS=		syslogd klogd
 CONF_FILES+=		${PREFIX}/share/examples/sysklogd/syslog.conf ${PKG_SYSCONFDIR}/syslog.conf
 

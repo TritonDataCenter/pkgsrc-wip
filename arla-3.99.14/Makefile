@@ -20,9 +20,6 @@ INFO_FILES=		arla.info send-pr.info
 USE_LIBTOOL=		yes
 GNU_CONFIGURE=		yes
 
-DEINSTALL_EXTRA_TMPL+=	${.CURDIR}/DEINSTALL
-INSTALL_EXTRA_TMPL+=	${.CURDIR}/INSTALL
-
 .include "../../mk/bsd.prefs.mk"
 
 .if !exists(/usr/src/sys/lib/libkern/libkern.h)
@@ -60,9 +57,6 @@ CONF_FILES+=    ${EGDIR}/${f} ${PKG_SYSCONFDIR}/${f}
 
 RCD_SCRIPTS=	arlad
 OWN_DIRS_PERMS=	${ARLA_CACHE} ${ROOT_USER} ${ROOT_GROUP} 0700
-
-INSTALL_EXTRA_TMPL=	${.CURDIR}/INSTALL
-DEINSTALL_EXTRA_TMPL=	${.CURDIR}/DEINSTALL
 
 .include "../../mk/x11.buildlink3.mk"
 

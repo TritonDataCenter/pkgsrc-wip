@@ -13,7 +13,6 @@ COMMENT=	Microsoft Frontpage 2002 Server Extensions
 
 WRKSRC=		${WRKDIR}/frontpage
 EXTRACT_SFX=	.Z
-USE_PKGINSTALL=	YES
 
 ONLY_FOR_PLATFORM=	NetBSD-*-i386 NetBSD-*-alpha
 #			Linux-*-i386 \

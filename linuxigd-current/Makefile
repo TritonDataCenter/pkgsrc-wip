@@ -9,7 +9,6 @@ MAINTAINER=	obata@lins.jp
 HOMEPAGE=	http://linux-igd.sourceforge.net/
 COMMENT=	Linux UPnP Internet Gateway Device
 
-USE_PKGINSTALL=	yes
 USE_TOOLS+=	gmake
 
 CVS_REPOSITORIES=	linux-igd

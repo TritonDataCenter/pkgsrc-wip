@@ -18,7 +18,6 @@ SUBWRKSRC=		${WRKSRC}/${DISTNAME}
 XMLCONFIG=		${WRKDIR}/${DISTNAME}/yahoo-jcr.xml
 
 USE_TOOLS+=		gmake pkg-config
-USE_PKGINSTALL=		yes
 
 PKG_SYSCONFSUBDIR=      jabberd
 RCD_SCRIPTS=            yahoo

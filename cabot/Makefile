@@ -13,7 +13,6 @@ DEPENDS+=	p5-Class-MethodMaker>=2.07:../../devel/p5-Class-MethodMaker
 DEPENDS+=	gnupg>=1.4.2:../../security/gnupg
 
 USE_TOOLS+=		gmake
-USE_PKGINSTALL=         yes
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 PERL5_CONFIGURE=	no

@@ -16,7 +16,6 @@ DEPENDS+=	php-mysql>=4.3.3:../../databases/php-mysql
 VERSION=	3.0.1a
 
 USE_LANGUAGES=	# empty
-USE_PKGINSTALL=	yes
 NO_BUILD=	yes
 
 APACHE_USER?=	www

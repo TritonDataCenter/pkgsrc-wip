@@ -20,7 +20,6 @@ DEPENDS+=		portmap>=4:../../wip/portmap
 
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
-USE_PKGINSTALL=		yes
 RCD_SCRIPTS=		ypbind
 
 CONFIGURE_ARGS+=	--sysconfdir=${PKG_SYSCONFDIR:Q}

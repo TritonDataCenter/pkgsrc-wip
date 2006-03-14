@@ -9,7 +9,6 @@ HOMEPAGE= 		http://www.opensc.org/openct/
 COMMENT=		Smart Card Reader drivers and middleware
 
 GNU_CONFIGURE= 		YES
-USE_PKGINSTALL=         YES
 USE_LIBTOOL=            YES
 USE_OLD_DES_API=	YES
 USE_TOOLS+= 		gmake pkg-config

@@ -10,7 +10,6 @@ HOMEPAGE=	http://popbsmtp.sourceforge.net/
 COMMENT=	Simple daemon for pop-before-smtp
 
 USE_LANGUAGES=	# empty
-USE_PKGINSTALL=	yes
 USE_TOOLS+=	perl:run pod2man
 REPLACE_PERL+=	pop-before-smtp
 

@@ -17,7 +17,6 @@ GNU_CONFIGURE_PREFIX=	${JAVA_HOME}
 JAVA_HOME=		${PREFIX}/java/kaffe
 JAVA_NAME=		kaffe
 NO_MTREE=		yes
-USE_PKGINSTALL=		yes
 USE_LIBTOOL=		yes
 USE_TOOLS+=		gmake
 TEST_TARGET=		check

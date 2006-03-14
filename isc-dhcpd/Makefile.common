@@ -22,7 +22,6 @@ HAS_CONFIGURE=		yes
 FILESDIR=		${.CURDIR}/../isc-dhcpd/files
 PKGMANDIR?=		man
 
-USE_PKGINSTALL=			YES
 RCD_SCRIPTS=			isc_${ISC_DHCP_TYPE}
 
 pre-configure:

@@ -12,7 +12,6 @@ COMMENT=		802.11 wireless network detector, sniffer and IDS
 GNU_CONFIGURE=		yes
 USE_LANGUAGES=		c c++
 USE_NCURSES=		# needs libpanel
-USE_PKGINSTALL=		yes
 USE_TOOLS+=		gmake
 
 KISMET_USER?=		kismet

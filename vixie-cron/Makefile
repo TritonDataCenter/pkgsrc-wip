@@ -9,8 +9,6 @@ EXTRACT_SUFX=		.shar
 MAINTAINER=		reed@reedmedia.net
 COMMENT=		Execute and maintain scheduled commands
 
-USE_PKGINSTALL=		YES
-
 #WRKSRC=			${WRKDIR}
 EXTRACT_CMD=	${MKDIR} ${WRKSRC} && cd ${WRKSRC} && ${CAT} ${DOWNLOADED_DISTFILE} | ${SH}
 MAKE_ENV+=		DESTDIR=${PREFIX:Q}

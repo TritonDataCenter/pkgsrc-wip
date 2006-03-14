@@ -12,8 +12,6 @@ COMMENT=		System performance tools for Linux
 USE_TOOLS+=		gmake
 # uses msgfmt
 
-USE_PKGINSTALL=		YES
-
 MAKE_ENV+=		SA_DIR=${VARBASE}/log/sa
 MAKE_ENV+=		SA_LIB_DIR=${PREFIX}/libexec/sa
 MAKE_ENV+=		DOC_DIR=${PREFIX}/share/doc/sysstat

@@ -11,7 +11,6 @@ HOMEPAGE=		http://www.gnu.org/software/gnump3d/
 COMMENT=		The GNU Streaming MP3 / Media Server
 
 CFGFILE=		${PKG_SYSCONFDIR}/gnump3d/gnump3d.conf
-USE_PKGINSTALL=		YES
 RCD_SCRIPTS=		gnump3d
 CONF_FILES=		none ${CFGFILE}
 

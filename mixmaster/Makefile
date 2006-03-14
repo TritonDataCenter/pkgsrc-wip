@@ -14,8 +14,6 @@ MAINTAINER=		tv@duh.org
 HOMEPAGE=		http://mixmaster.sourceforge.net/
 COMMENT=		The Mixmaster anonymous remailer client
 
-USE_PKGINSTALL=		yes
-
 BUILD_DIRS=		${WRKSRC}/Src
 MAKE_FLAGS+=		CC=${CC:Q} CFLAGS=${CFLAGS:M*:Q} LDFLAGS=${LDFLAGS:M*:Q} LIBS=
 MAKEFILE=		Makefile.in

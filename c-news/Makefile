@@ -33,7 +33,6 @@ COMMENT=	The 3rd generation USENET news server
 CONFLICTS+=	nntpclnt-[0-9]* inn*
 
 WRKSRC=		${WRKDIR}
-USE_PKGINSTALL=	YES
 PKG_USERS=	news:news::Internet\ News:${CNEWSDATA:Q}:${SH:Q}
 PKG_GROUPS=	news
 

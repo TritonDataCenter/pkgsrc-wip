@@ -13,7 +13,6 @@ COMMENT=		Track runtime library calls in dynamically linked programs
 ONLY_FOR_PLATFORM=	Linux-*-*
 
 WRKSRC=			${WRKDIR}/ltrace-0.3.36
-USE_PKGINSTALL=		yes
 USE_TOOLS+=		gmake
 GNU_CONFIGURE=		yes
 CONFIGURE_ARGS+=	--sysconfdir=${PKG_SYSCONFDIR:Q}

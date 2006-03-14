@@ -10,7 +10,6 @@ HOMEPAGE=		http://www.andre-simon.de/
 COMMENT=		Converts source code to formatted text with syntax highlighting
 
 USE_TOOLS+=		gmake
-USE_PKGINSTALL=		yes
 USE_LANGUAGES=		c++
 MANCOMPRESSED=		yes
 

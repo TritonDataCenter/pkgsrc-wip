@@ -15,8 +15,6 @@ CONFLICTS+=		linux-modutils-[0-9]*
 
 ONLY_FOR_PLATFORM=	Linux-*-* # configure: error: Linux only, dude!
 
-USE_PKGINSTALL= 	YES
-
 GNU_CONFIGURE=		YES
 
 RCD_SCRIPTS=		modutils

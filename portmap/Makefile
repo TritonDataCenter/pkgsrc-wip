@@ -17,7 +17,6 @@ INSTALLATION_DIRS+=	sbin share/doc/portmap
 MAKE_FLAGS+=	WRAP_DIR=${BUILDLINK_PREFIX.tcp_wrappers}/lib
 NO_CONFIGURE=	yes
 RCD_SCRIPTS=	portmap
-USE_PKGINSTALL=	yes
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/portmap ${PREFIX}/sbin/

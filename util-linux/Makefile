@@ -16,7 +16,6 @@ COMMENT=	Miscellaneous essential utilities for Linux systems
 
 ONLY_FOR_PLATFORM=	Linux-*-* # Uses Linux kernel headers
 
-USE_PKGINSTALL=		YES
 USE_TOOLS+=		gmake
 GNU_CONFIGURE=		YES
 MAKE_ENV+=		DESTDIR=${PREFIX:Q}

@@ -15,7 +15,6 @@ USE_X11BASE=	yes
 
 BUILD_TARGET=	chinput
 
-USE_PKGINSTALL=	yes
 EGDIR=		${PREFIX}/share/examples/${PKGBASE}
 CONF_FILES=	${EGDIR}/Chinput.ad ${PKG_SYSCONFDIR}/Chinput.ad
 

@@ -11,7 +11,6 @@ HOMEPAGE=		http://acpid.sourceforge.net/
 COMMENT=		Linux ACPI event handler
 
 EGDIR=			${PKG_SYSCONFDIR}/acpid ${PREFIX}/share/examples/acpid
-USE_PKGINSTALL=		yes
 RCD_SCRIPTS=		acpid
 
 USE_TOOLS+=		gmake

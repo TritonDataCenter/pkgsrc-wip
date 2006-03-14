@@ -11,7 +11,6 @@ COMMENT=		MUSCLE SmartCard framework PKCS \#11 library
 
 WRKSRC=			${WRKDIR}/${DISTNAME}/libmusclepkcs11
 GNU_CONFIGURE=		YES
-USE_PKGINSTALL=		YES
 USE_LIBTOOL=		YES
 USE_TOOLS+=		automake gmake
 

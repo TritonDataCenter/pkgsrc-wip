@@ -22,7 +22,6 @@ NO_FETCH=#
 NO_CONFIGURE=#
 NO_MTREE=yes
 
-USE_PKGINSTALL=YES
 RESTRICTED="Redistribution of repackaged binaries not permitted"
 NO_SRC_ON_CDROM=${RESTRICTED}
 NO_SRC_ON_FTP= ${RESTRICTED}

@@ -10,7 +10,6 @@ COMMENT=	Implementation of the Sender Policy Framework (SPF) as a milter
 
 GNU_CONFIGURE=	YES
 PTHREAD_OPTS+=	require
-USE_PKGINSTALL=	YES
 RCD_SCRIPTS=	spfmilter
 
 BUILDLINK_DEPENDS.libmilter?=	libmilter>=8.13.0

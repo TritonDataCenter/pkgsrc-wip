@@ -10,7 +10,6 @@ MAINTAINER=	pancake@phreaker.net
 HOMEPAGE=	http://ldapdns.sourceforge.net
 COMMENT=	Tiny, fast authoritative nameserver that queries LDAP
 
-USE_PKGINSTALL=	YES
 USE_TOOLS+=	gmake
 BUILD_TARGET=	it
 GNU_CONFIGURE=	YES

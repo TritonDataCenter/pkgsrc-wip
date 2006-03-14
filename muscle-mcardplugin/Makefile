@@ -11,7 +11,6 @@ COMMENT=		MuscleCard applet plugin for the MUSCLE framework
 
 WRKSRC=			${WRKDIR}/${DISTNAME}/MCardPlugin
 GNU_CONFIGURE=		YES
-USE_PKGINSTALL=		YES
 USE_LIBTOOL=		YES
 USE_TOOLS+=		gmake
 

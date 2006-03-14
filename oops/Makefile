@@ -15,7 +15,6 @@ COMMENT=	Multithreaded caching HTTP proxy server
 # with PTHREAD_DIAGASSERT=AEL.
 NOT_FOR_PLATFORM=	NetBSD-1.6*-*
 
-USE_PKGINSTALL=		YES
 USE_LANGUAGES=		c c++
 GNU_CONFIGURE=		YES
 CONFIGURE_ARGS+=	--enable-oops-user=${OOPSUSER:Q}

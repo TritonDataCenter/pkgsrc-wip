@@ -8,7 +8,6 @@ MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://www.powerdns.com/
 COMMENT=		Modern, advanced and high performance nameserver
 
-USE_PKGINSTALL=	YES
 USE_TOOLS+=	gmake
 GNU_CONFIGURE=	YES
 CONFIGURE_ARGS=	--with-modules=""

@@ -8,7 +8,6 @@ MAINTAINER=	adrianp@NetBSD.org
 HOMEPAGE= 	http://www.snort.org/
 COMMENT=	Fast output system for snort
 
-USE_PKGINSTALL=		YES
 GNU_CONFIGURE=		YES
 
 PKG_SYSCONFSUBDIR=	snort

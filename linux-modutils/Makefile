@@ -15,8 +15,6 @@ COMMENT=		Linux kernel module utilities
 
 CONFLICTS+=		linux-module-init-tools-[0-9]*
 
-USE_PKGINSTALL=		YES
-
 ONLY_FOR_PLATFORM=      Linux-*-* # This is for the Linux kernel
 
 GNU_CONFIGURE=		YES

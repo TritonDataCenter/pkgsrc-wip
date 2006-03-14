@@ -13,7 +13,6 @@ COMMENT=		PKCS #11 authentication method for PAM
 USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=		yes
 GNU_CONFIGURE=		yes
-USE_PKGINSTALL=		YES
 
 .include "options.mk"
 PLIST_SRC+=		PLIST.common

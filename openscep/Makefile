@@ -13,7 +13,6 @@ BUILD_DEPENDS+=		w3m>=0.5.1:../../www/w3m
 .include "../../mk/bsd.prefs.mk"
 
 USE_TOOLS+=		automake autoconf grep perl:run
-USE_PKGINSTALL=		YES
 OPENSCEP_USER?=		openscep
 OPENSCEP_GROUP?=	openscep
 PKG_GROUPS=     	${OPENSCEP_USER}

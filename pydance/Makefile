@@ -12,8 +12,6 @@ COMMENT=		Dance Dance Revolution, Pump It Up and similar dance machines emulator
 
 DEPENDS+=		${PYPKGPREFIX}-game>=1.6:../../devel/py-game
 
-USE_PKGINSTALL=		yes
-
 EXAMPLESDIR=	${PREFIX}/share/examples/pydance
 CONF_FILES+=	${EXAMPLESDIR}/pydance.cfg ${PKG_SYSCONFDIR}/pydance.cfg
 PYTHON_PATCH_SCRIPTS=	pydance.py

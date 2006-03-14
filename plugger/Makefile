@@ -9,8 +9,6 @@ MAINTAINER=	airhead@users.sourceforge.net
 HOMEPAGE=	http://fredrik.hubbe.net/plugger.html
 COMMENT=	Plugin for multimedia types in Mozilla, Netscape and Opera
 
-USE_PKGINSTALL=		YES
-
 REL_EGDIR=		share/examples/plugger
 EGDIR=			${PREFIX}/${REL_EGDIR}
 CONF_FILES=		${EGDIR}/pluggerrc ${PKG_SYSCONFDIR}/pluggerrc
