@@ -120,8 +120,13 @@ PLIST_SUBST+=		LAME_COMMENT="@comment "
 .endif
 
 .if !empty(PKG_OPTIONS:Mac3_passthrough)
+.include "../../mk/oss.buildlink3.mk"
+.if ${OSS_TYPE} == "none"
+PKG_FAIL_REASON+=	"Need oss to use ac3passthrough"
+.else
 CONFIGURE_ARGS+=	--enable-ac3passthrough
 PLIST_SUBST+=		AC3PASS_COMMENT=
+.endif
 .else
 CONFIGURE_ARGS+=	--disable-ac3passthrough
 PLIST_SUBST+=		AC3PASS_COMMENT="@comment "
