@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		cpphs-1.0
+DISTNAME=		cpphs-1.1
 CATEGORIES=		devel
 MASTER_SITES=		http://www.cs.york.ac.uk/fp/cpphs/
 
