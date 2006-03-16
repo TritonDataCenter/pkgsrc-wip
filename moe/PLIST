@@ -1,5 +1,5 @@
 @comment $NetBSD$
 bin/moe
+man/man1/moe.1
 share/examples/moe/moerc
-${PKGMANDIR}/man1/moe.1
 @dirrm share/examples/moe
