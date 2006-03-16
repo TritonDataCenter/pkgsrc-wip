@@ -1,0 +1,13 @@
+$NetBSD$
+
+--- assa/Logger_Impl.h.orig	2005-08-19 05:18:24.000000000 +0200
++++ assa/Logger_Impl.h
+@@ -21,7 +21,7 @@
+ #include <sys/varargs.h>		// va_list
+ #endif
+ 
+-#if defined (__CYGWIN32__)
++#if defined (__CYGWIN32__) || defined (__NetBSD__)
+ # include <stdarg.h>
+ #endif
+ 
