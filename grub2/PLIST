@@ -58,8 +58,6 @@ share/grub/i386-pc/ufs.mod
 share/grub/i386-pc/vbe.mod
 share/grub/i386-pc/vbeinfo.mod
 share/grub/i386-pc/vbetest.mod
-share/grub/i386-pc/vesafb.mod
-share/grub/i386-pc/vga.mod
 share/grub/i386-pc/xfs.mod
 @dirrm share/grub/i386-pc
 @dirrm share/grub
