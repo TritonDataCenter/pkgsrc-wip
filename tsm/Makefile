@@ -66,7 +66,6 @@ do-install:
 .include "../../emulators/suse_linux/Makefile.application"
 
 post-install:
-	@${TEST} -f ${EMULDIR}/etc/mtab || ${LN} -fs /etc/fstab ${EMULDIR}/etc/mtab
 	@${INSTALL_DATA_DIR} ${EG_DIR}
 	@${INSTALL_DATA} ${EMULDIR}/${TSMCLIENTSUBDIR}/ba/bin/dsm.*.smp ${EG_DIR}
 	@${INSTALL_DATA} ${FILESDIR}/tsm_daily.sh ${EG_DIR}
