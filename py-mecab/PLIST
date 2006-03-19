@@ -1,0 +1,5 @@
+@comment $NetBSD$
+${PYSITELIB}/MeCab.py
+${PYSITELIB}/MeCab.pyc
+${PYSITELIB}/_MeCab.so
+${PYSITELIB}/MeCab.pyo
