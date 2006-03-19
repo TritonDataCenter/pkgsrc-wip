@@ -14,8 +14,7 @@ GNU_CONFIGURE=		yes
 .include "options.mk"
 
 EGDIR=			${PREFIX}/share/examples/siege
-CONF_FILES=		${EGDIR}/urls.txt \
-			${EGDIR}/siegerc
+CONF_FILES=		${EGDIR}/urls.txt ${PKG_SYSCONFDIR}/urls.txt
 
 SUBST_CLASSES+=		siege
 SUBST_STAGE.siege=	post-patch
