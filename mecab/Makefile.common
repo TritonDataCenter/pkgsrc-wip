@@ -1,0 +1,4 @@
+# $NetBSD$
+#
+
+MECAB_VERSION=		0.90rc11
