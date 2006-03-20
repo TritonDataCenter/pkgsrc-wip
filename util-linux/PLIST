@@ -38,6 +38,7 @@ bin/ul
 bin/umount
 bin/whereis
 bin/write
+info/ipc.info
 man/man1/arch.1
 man/man1/cal.1
 man/man1/chkdupexe.1
