@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	csup-snap-20060302
+DISTNAME=	csup-snap-20060318
 CATEGORIES=	net devel
 MASTER_SITES=	http://www.mu.org/~mux/
 EXTRACT_SUFX=	.tgz
