@@ -1,4 +1,5 @@
 @comment $NetBSD$
+${EMACS_INFOPREFIX}/jabber.info
 ${EMACS_LISPPREFIX}/emacs-jabber/hex-util.el
 ${EMACS_LISPPREFIX}/emacs-jabber/jabber-activity.el
 ${EMACS_LISPPREFIX}/emacs-jabber/jabber-ahc-presence.el
