@@ -10,13 +10,11 @@ HOMEPAGE=		http://benedict.isomedia.com/homes/stevencooper/projects/fluxter.html
 COMMENT=		Workspace pager dockapp, particularly useful with Fluxbox
 
 GNU_CONFIGURE=		yes
-USE_LANGUAGE=		c++
+USE_LANGUAGES=		c++
 
 FLUXBOX_DATA=		${PREFIX}/share/fluxbox
 DOCDIR=			${PREFIX}/share/doc/${PKGBASE}
 EXDIR=			${PREFIX}/share/examples/${PKGBASE}
-
-.include "../../mk/bsd.prefs.mk"
 
 post-install:
 	${RM} ${FLUXBOX_DATA}/README.fluxter
