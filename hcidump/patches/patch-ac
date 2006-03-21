@@ -1,5 +1,7 @@
 $NetBSD$
 
+NetBSD compatibility
+
 --- hcidump/hcidump.h.orig	2003-09-13 00:38:06.000000000 +0100
 +++ hcidump/hcidump.h
 @@ -41,5 +41,5 @@ struct dump_hdr {

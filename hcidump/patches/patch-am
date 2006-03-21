@@ -1,5 +1,7 @@
 $NetBSD$
 
+add needed header file for NetBSD, plus fix compiler warning
+
 --- parser/sdp.c.orig	2004-12-14 18:45:45.000000000 +0000
 +++ parser/sdp.c
 @@ -30,6 +30,7 @@

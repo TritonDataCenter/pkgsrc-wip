@@ -1,5 +1,7 @@
 $NetBSD$
 
+NetBSD compatibility changes
+
 --- parser/hci.c.orig	2003-09-13 00:38:11.000000000 +0100
 +++ parser/hci.c
 @@ -25,9 +25,13 @@
@@ -12,8 +14,8 @@ $NetBSD$
  #include <stdio.h>
 +#include <string.h>
 +
-+#include <bluetooth/bluetooth.h>
-+#include <bluetooth/hci.h>
++#include <netbt/bluetooth.h>
++#include <netbt/hci.h>
  
  #include "parser.h"
  

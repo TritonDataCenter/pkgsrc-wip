@@ -1,5 +1,7 @@
 $NetBSD$
 
+add necessary header file
+
 --- parser/bnep.c.orig	2003-09-13 00:38:11.000000000 +0100
 +++ parser/bnep.c
 @@ -30,6 +30,7 @@
