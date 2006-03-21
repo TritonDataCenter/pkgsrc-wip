@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		libassa-3.4.0
+DISTNAME=		libassa-3.4.1
 CATEGORIES=		devel net
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=libassa/}
 
