@@ -19,17 +19,18 @@ USE_TOOLS+=		gmake
 MAKEFILE=		GNUmakefile
 
 PKG_OPTIONS_VAR=	PKG_OPTIONS.gdal-lib
-PKG_SUPPORTED_OPTIONS=	pgsql
-PKG_SUGGESTED_OPTIONS=	pgsql
+PKG_SUPPORTED_OPTIONS=	pgsql mysql
+PKG_SUGGESTED_OPTIONS=	pgsql mysql
 
 .include "../../mk/bsd.options.mk"
 
 .if !empty(PKG_OPTIONS:Mpgsql)
 . include "../../mk/pgsql.buildlink3.mk"
 CONFIGURE_ARGS+=	--with-pg
+.else
+CONFIGURE_ARGS+=        --without-pg
 .endif
 
-CONFIGURE_ARGS+=	--with-mysql=no
 CONFIGURE_ARGS+=	--with-xerces
 CONFIGURE_ARGS+=	--with-xerces-inc=${PREFIX:Q}/include
 CONFIGURE_ARGS+=	--with-xerces-lib=-L${PREFIX:Q}/lib\ -lxerces-c
