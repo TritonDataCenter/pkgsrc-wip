@@ -5,7 +5,7 @@ PKGNAME=		${DISTNAME:S/-/-nightly-/}
 CATEGORIES=		mail
 MASTER_SITES=		http://www.dovecot.org/nightly/
 
-MAINTAINER=		tv@duh.org
+MAINTAINER=		tv@NetBSD.org
 HOMEPAGE=		http://www.dovecot.org/
 COMMENT=		Secure IMAP and POP3 server
 

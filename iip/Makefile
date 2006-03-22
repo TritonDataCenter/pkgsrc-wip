@@ -6,7 +6,7 @@ CATEGORIES=		chat security
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=invisibleip/}
 EXTRACT_SUFX=		.tgz
 
-MAINTAINER=		tv@duh.org
+MAINTAINER=		tv@NetBSD.org
 HOMEPAGE=		http://www.invisiblenet.net/iip/
 COMMENT=		The Invisible IRC Project
 

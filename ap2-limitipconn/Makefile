@@ -6,7 +6,7 @@ PKGNAME=		${DISTNAME:S/mod_/ap2-/}
 CATEGORIES=		www
 MASTER_SITES=		http://dominia.org/djao/limit/
 
-MAINTAINER=		tv@duh.org
+MAINTAINER=		tv@NetBSD.org
 HOMEPAGE=		http://dominia.org/djao/limitipconn2.html
 COMMENT=		Limits per-IP connections to an Apache 2 server
 
