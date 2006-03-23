@@ -6,8 +6,8 @@ CATEGORIES=	mail
 MASTER_SITES=	ftp://ftp.sendmail.org/pub/sendmail/
 
 MAINTAINER=	adrianp@NetBSD.org
-HOMEPAGE=	http://www.sendmail.org/
-COMMENT=	Something to do with mail
+HOMEPAGE=	http://www.sendmail.org/sm-X/
+COMMENT=	Modular Mail Transfer Agent
 
 CONFLICTS+=	postfix-[0-9]* fastforward>=0.51nb2 sendmail-[0-9]*
 GNU_CONFIGURE=	YES
