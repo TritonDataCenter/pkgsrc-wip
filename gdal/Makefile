@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=		gdal-1.2.6
+DISTNAME=		gdal-1.3.1
 CATEGORIES=		geography
 MASTER_SITES=		#empty
 DISTFILES=		#empty
@@ -9,8 +9,8 @@ MAINTAINER=		mchittur@cs.nmsu.edu
 HOMEPAGE=		http://gdal.org/
 COMMENT=		Translator library for raster geospatial data formats
 
-DEPENDS+=       	gdal-lib-1.2.6:../../wip/gdal-lib
-DEPENDS+=       	gdal-doc-1.2.6:../../wip/gdal-docs
+DEPENDS+=       	gdal-lib-1.3.1:../../wip/gdal-lib
+DEPENDS+=       	gdal-doc-1.3.1:../../wip/gdal-docs
 
 NO_BUILD=		yes
 
