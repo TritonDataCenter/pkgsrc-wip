@@ -67,8 +67,8 @@ java/kaffe/lib/logging.properties
 java/kaffe/lib/security/classpath.security
 java/kaffe/lib/tools.jar
 java/kaffe/license.terms
-man/man1/fastjar.1
-man/man1/kaffe.1
+java/kaffe/man/man1/fastjar.1
+java/kaffe/man/man1/kaffe.1
 @dirrm java/kaffe/lib/security
 @dirrm java/kaffe/lib
 @dirrm java/kaffe/jre/lib/security
