@@ -1,9 +1,9 @@
 # $NetBSD$
 #
 
-DISTNAME=		gdal-1.2.6
-PKGNAME=		gdal-docs-1.2.6
-CATEGORIES=		geography
+DISTNAME=		gdal-1.3.1
+PKGNAME=		gdal-docs-1.3.1
+CATEGORIES=		wip
 MASTER_SITES=		http://gdal.org/dl/
 
 MAINTAINER=		mchittur@cs.nmsu.edu
@@ -23,7 +23,7 @@ INSTALL_TARGET=		install-docs
 SUBST_CLASSES+=		pyversion
 SUBST_STAGE.pyversion=	do-configure
 SUBST_FILES.pyversion=	GNUmakefile
-SUBST_SED.pyversion=	"s:python:${PYTHONBIN}:g"
+SUBST_SED.pyversion=	-e 's:python:${PYTHONBIN}:g'
 SUBST_MESSAGE.pyversion=Fixing Python Version
 
 .include "../../lang/python/application.mk"
