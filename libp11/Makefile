@@ -3,10 +3,10 @@
 
 DISTNAME=		libp11-0.2.1
 CATEGORIES=		security
-MASTER_SITES=		http://www.opensc.org/files/
+MASTER_SITES=		http://www.opensc-project.org/files/libp11/
 
 MAINTAINER=		evaldo@gardenali.biz
-HOMEPAGE=		http://www.opensc.org/libp11/
+HOMEPAGE=		http://www.opensc-project.org/libp11/
 COMMENT=		Convenience library for easy PKCS #11 implementation
 
 USE_PKGLOCALEDIR=	yes
