@@ -22,6 +22,5 @@ PRINT_PLIST_AWK+=	/^java\/kaffe\/jre\/lib\/security\/java.security$$/ \
 post-install:
 	${INSTALL_DATA} ${WRKSRC}/license.terms ${JAVA_HOME}
 
-.include "../../devel/libltdl/buildlink3.mk"
 .include "../../mk/java-env.mk"
 .include "../../mk/bsd.pkg.mk"

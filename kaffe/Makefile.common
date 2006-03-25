@@ -55,6 +55,7 @@ CONFIGURE_ENV+=		VM_LIBS="-lc"
 CONFIGURE_ARGS+=	--with-engine=intrp
 .endif
 
+.include "../../devel/libltdl/convenience.mk"
 .include "../../mk/pthread.buildlink3.mk"
 .include "../../converters/libiconv/buildlink3.mk"
 .include "../../devel/gmp/buildlink3.mk"
