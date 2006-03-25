@@ -13,10 +13,14 @@ BUILD_DIRS=     ${WRKSRC}/config
 BUILD_DIRS+=    ${WRKSRC}/libraries/javalib
 BUILD_DIRS+=    ${WRKSRC}/include
 BUILD_DIRS+=    ${WRKSRC}/replace
+BUILD_DIRS+=    ${WRKSRC}/libltdl
 BUILD_DIRS+=    ${WRKSRC}/kaffe/kaffevm
 BUILD_DIRS+=    ${WRKSRC}/libraries/clib/classpath
 BUILD_DIRS+=    ${WRKSRC}/libraries/clib/awt
 INSTALL_DIRS=   ${WRKSRC}/libraries/clib/awt
+
+pre-build:
+	cd ${WRKSRC}; ${SETENV} ${MAKE_ENV} ${MAKE_PROGRAM} ${BUILD_MAKE_FLAGS} BUILD_ENVIRONMENT
 
 PRINT_PLIST_AWK+= /^@dirrm/ { print "@comment in kaffe: " $$0; next; }
 
