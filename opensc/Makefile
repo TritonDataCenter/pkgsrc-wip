@@ -1,11 +1,11 @@
 # $NetBSD$
 
-DISTNAME=      		opensc-0.10.0
+DISTNAME=      		opensc-0.10.1
 CATEGORIES=     	security
-MASTER_SITES= 		http://www.opensc.org/files/
+MASTER_SITES= 		http://www.opensc-project.org/files/opensc/
 
 MAINTAINER=		evaldo@gardenali.biz
-HOMEPAGE= 		http://www.opensc.org/openct/
+HOMEPAGE= 		http://www.opensc-project.org/openct/
 COMMENT=		Smart Card Reader drivers and middleware
 
 GNU_CONFIGURE= 		YES
