@@ -14,6 +14,7 @@ USE_LIBTOOL=		yes
 PKGCONFIG_OVERRIDE+=	${WRKSRC}/src/libp11.pc.in
 GNU_CONFIGURE=		yes
 USE_TOOLS+=		gmake pkg-config
+USE_BUILTIN.openssl=	NO
 
 .include "../../security/openssl/buildlink3.mk"
 .include "../../devel/libltdl/buildlink3.mk"
