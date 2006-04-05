@@ -1,6 +1,6 @@
 # $NetBSD: $
 
-.include "../../wip/nagios-base/Makefile.common"
+.include "../../net/nagios-base/Makefile.common"
 
 NRPE_USER?=		${NAGIOS_USER}
 NRPE_GROUP?=		${NAGIOS_GROUP}
