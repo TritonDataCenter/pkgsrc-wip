@@ -8,7 +8,7 @@ MAINTAINER=		ura@jp.NetBSD.org
 HOMEPAGE=		http://www.nagios.org/
 COMMENT=		Nagios Remote Plugin Executor
 
-DEPENDS+=		nagios-plugins>=1.3.1:../../wip/nagios-plugins
+DEPENDS+=		nagios-plugins>=1.3.1:../../net/nagios-plugins
 
 GNU_CONFIGURE=		yes
 USE_PERL5_BUILD=	yes
