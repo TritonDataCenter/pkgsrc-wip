@@ -21,7 +21,7 @@ BUILDLINK_PACKAGES:=	${BUILDLINK_PACKAGES:Nlibticalcs}
 BUILDLINK_PACKAGES+=	libticalcs
 
 .if !empty(LIBTICALCS_BUILDLINK3_MK:M+)
-BUILDLINK_DEPENDS.libticalcs+=	libticalcs>=4.4.9
+BUILDLINK_API_DEPENDS.libticalcs+=	libticalcs>=4.4.9
 BUILDLINK_PKGSRCDIR.libticalcs?=	../../wip/libticalcs
 .endif	# LIBTICALCS_BUILDLINK3_MK
 

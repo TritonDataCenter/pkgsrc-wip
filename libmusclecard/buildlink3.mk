@@ -11,7 +11,7 @@ BUILDLINK_PACKAGES:=	${BUILDLINK_PACKAGES:Nlibmusclecard}
 BUILDLINK_PACKAGES+=	libmusclecard
 
 .if !empty(LIBMUSCLECARD_BUILDLINK3_MK:M+)
-BUILDLINK_DEPENDS.libmusclecard+=	libmusclecard>=1.2.9
+BUILDLINK_API_DEPENDS.libmusclecard+=	libmusclecard>=1.2.9
 BUILDLINK_PKGSRCDIR.libmusclecard?=	../../wip/libmusclecard
 .endif	# LIBMUSCLECARD_BUILDLINK3_MK
 

@@ -11,7 +11,7 @@ BUILDLINK_PACKAGES:=	${BUILDLINK_PACKAGES:Nfreetds}
 BUILDLINK_PACKAGES+=	freetds
 
 .if !empty(FREETDS_BUILDLINK3_MK:M+)
-BUILDLINK_DEPENDS.freetds+=	freetds>=0.63nb2
+BUILDLINK_API_DEPENDS.freetds+=	freetds>=0.63nb2
 BUILDLINK_PKGSRCDIR.freetds?=	../../databases/freetds
 .endif	# FREETDS_BUILDLINK3_MK
 

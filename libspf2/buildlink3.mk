@@ -11,7 +11,7 @@ BUILDLINK_PACKAGES:=	${BUILDLINK_PACKAGES:Nlibspf2}
 BUILDLINK_PACKAGES+=	libspf2
 
 .if !empty(LIBSPF2_BUILDLINK3_MK:M+)
-BUILDLINK_DEPENDS.libspf2+=	libspf2>=1.0.4
+BUILDLINK_API_DEPENDS.libspf2+=	libspf2>=1.0.4
 BUILDLINK_PKGSRCDIR.libspf2?=	../../wip/libspf2
 BUILDLINK_FILES.libspf2+=	include/spf2/*
 BUILDLINK_FILES.libspf2+=	lib/libspf2.*

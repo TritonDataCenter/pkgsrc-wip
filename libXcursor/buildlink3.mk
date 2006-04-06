@@ -14,7 +14,7 @@ BUILDLINK_DEPENDS+=	libXcursor
 
 .if !empty(LIBXCURSOR_BUILDLINK3_MK:M+)
 BUILDLINK_PACKAGES+=			libXcursor
-BUILDLINK_DEPENDS.libXcursor+=		libXcursor>=1.1.1
+BUILDLINK_API_DEPENDS.libXcursor+=		libXcursor>=1.1.1
 BUILDLINK_PKGSRCDIR.libXcursor?=		../../wip/libXcursor
 
 .include "../../wip/xproto/buildlink3.mk"

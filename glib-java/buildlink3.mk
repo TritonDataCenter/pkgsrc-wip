@@ -21,7 +21,7 @@ BUILDLINK_PACKAGES:=	${BUILDLINK_PACKAGES:Nglib-java}
 BUILDLINK_PACKAGES+=	glib-java
 
 .if !empty(GLIB_JAVA_BUILDLINK3_MK:M+)
-BUILDLINK_DEPENDS.glib-java+=	glib-java>=0.2.1
+BUILDLINK_API_DEPENDS.glib-java+=	glib-java>=0.2.1
 BUILDLINK_PKGSRCDIR.glib-java?=	../../wip/glib-java
 .endif	# GLIB_JAVA_BUILDLINK3_MK
 

@@ -29,9 +29,9 @@ CONFIGURE_ARGS+=	--disable-dbus
 
 .include "options.mk"
 
-BUILDLINK_DEPENDS.glib2+=	glib2>=2.8.0
-BUILDLINK_DEPENDS.startup-notification+=	startup-notification>=0.8
-BUILDLINK_DEPENDS.taglib+=	taglib>=1.4
+BUILDLINK_API_DEPENDS.glib2+=	glib2>=2.8.0
+BUILDLINK_API_DEPENDS.startup-notification+=	startup-notification>=0.8
+BUILDLINK_API_DEPENDS.taglib+=	taglib>=1.4
 
 .include "../../audio/taglib/buildlink3.mk"
 .include "../../devel/glib2/buildlink3.mk"

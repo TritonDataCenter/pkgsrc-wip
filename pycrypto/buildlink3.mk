@@ -11,7 +11,7 @@ BUILDLINK_PACKAGES:=	${BUILDLINK_PACKAGES:Npycrypto}
 BUILDLINK_PACKAGES+=	pycrypto
 
 .if !empty(PYCRYPTO_BUILDLINK3_MK:M+)
-BUILDLINK_DEPENDS.pycrypto+=	pycrypto>=2.0.1
+BUILDLINK_API_DEPENDS.pycrypto+=	pycrypto>=2.0.1
 BUILDLINK_PKGSRCDIR.pycrypto?=	../../wip/pycrypto
 .endif	# PYCRYPTO_BUILDLINK3_MK
 

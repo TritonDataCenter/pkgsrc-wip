@@ -11,7 +11,7 @@ BUILDLINK_PACKAGES:=	${BUILDLINK_PACKAGES:Nlibtlen2}
 BUILDLINK_PACKAGES+=	libtlen2
 
 .if !empty(LIBTLEN2_BUILDLINK3_MK:M+)
-BUILDLINK_DEPENDS.libtlen2+=	libtlen2>=20040301
+BUILDLINK_API_DEPENDS.libtlen2+=	libtlen2>=20040301
 BUILDLINK_PKGSRCDIR.libtlen2?=	../../wip/libtlen2
 
 .include "../../devel/glib2/buildlink3.mk"

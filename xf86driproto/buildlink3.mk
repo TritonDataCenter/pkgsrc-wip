@@ -13,7 +13,7 @@ BUILDLINK_PACKAGES:=	${BUILDLINK_PACKAGES:Nxf86driproto}
 BUILDLINK_PACKAGES+=	xf86driproto
 
 .if !empty(XF86DRIPROTO_BUILDLINK3_MK:M+)
-BUILDLINK_DEPENDS.xf86driproto+=	xf86driproto>=2.0.1
+BUILDLINK_API_DEPENDS.xf86driproto+=	xf86driproto>=2.0.1
 BUILDLINK_PKGSRCDIR.xf86driproto?=	../../wip/xf86driproto
 .endif	# XF86DRIPROTO_BUILDLINK3_MK
 

@@ -11,7 +11,7 @@ BUILDLINK_PACKAGES:=	${BUILDLINK_PACKAGES:Nmapserver}
 BUILDLINK_PACKAGES+=	mapserver
 
 .if !empty(MAPSERVER_BUILDLINK3_MK:M+)
-BUILDLINK_DEPENDS.mapserver+=	mapserver>=4.4.2
+BUILDLINK_API_DEPENDS.mapserver+=	mapserver>=4.4.2
 BUILDLINK_PKGSRCDIR.mapserver?=	../../wip/mapserver
 .endif	# MAPSERVER_BUILDLINK3_MK
 

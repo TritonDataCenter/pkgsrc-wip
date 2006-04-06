@@ -11,7 +11,7 @@ BUILDLINK_PACKAGES:=	${BUILDLINK_PACKAGES:NlibXinerama}
 BUILDLINK_PACKAGES+=	libXinerama
 
 .if !empty(LIBXINERAMA_BUILDLINK3_MK:M+)
-BUILDLINK_DEPENDS.libXinerama+=	libXinerama>=1.0.2
+BUILDLINK_API_DEPENDS.libXinerama+=	libXinerama>=1.0.2
 BUILDLINK_PKGSRCDIR.libXinerama?=	../../wip/libXinerama
 .endif	# LIBXINERAMA_BUILDLINK3_MK
 

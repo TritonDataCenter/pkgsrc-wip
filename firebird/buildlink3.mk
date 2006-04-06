@@ -11,7 +11,7 @@ BUILDLINK_PACKAGES:=	${BUILDLINK_PACKAGES:Nfirebird}
 BUILDLINK_PACKAGES+=	firebird
 
 .if !empty(FIREBIRD_BUILDLINK3_MK:M+)
-BUILDLINK_DEPENDS.firebird+=	firebird>=1.5.0
+BUILDLINK_API_DEPENDS.firebird+=	firebird>=1.5.0
 BUILDLINK_PKGSRCDIR.firebird?=	../../wip/firebird
 .endif	# FIREBIRD_BUILDLINK3_MK
 

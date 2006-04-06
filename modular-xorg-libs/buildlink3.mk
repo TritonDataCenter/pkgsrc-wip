@@ -18,7 +18,7 @@ BUILDLINK_PACKAGES:=	modular-xorg-libs ${BUILDLINK_PACKAGES}
 
 .if !empty(MODULAR_XORG_LIBS_BUILDLINK3_MK:M+)
 
-BUILDLINK_DEPENDS.modular-xorg-libs+=		modular-xorg-libs>=7.0
+BUILDLINK_API_DEPENDS.modular-xorg-libs+=		modular-xorg-libs>=7.0
 BUILDLINK_PKGSRCDIR.modular-xorg-libs?=		../../wip/modular-xorg-libs
 #BUILDLINK_TRANSFORM.modular-xorg-libs+=	-e "s|/${X11ROOT_PREFIX}/|/|"
 

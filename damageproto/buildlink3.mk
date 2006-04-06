@@ -13,7 +13,7 @@ BUILDLINK_PACKAGES:=	${BUILDLINK_PACKAGES:Ndamageproto}
 BUILDLINK_PACKAGES+=	damageproto
 
 .if !empty(DAMAGEPROTO_BUILDLINK3_MK:M+)
-BUILDLINK_DEPENDS.damageproto+=	damageproto>=1.0.1
+BUILDLINK_API_DEPENDS.damageproto+=	damageproto>=1.0.1
 BUILDLINK_PKGSRCDIR.damageproto?=	../../wip/damageproto
 .endif	# DAMAGEPROTO_BUILDLINK3_MK
 

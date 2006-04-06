@@ -11,8 +11,8 @@ BUILDLINK_PACKAGES:=	${BUILDLINK_PACKAGES:Ngettext}
 BUILDLINK_PACKAGES+=	gettext
 
 .if !empty(GETTEXT_BUILDLINK3_MK:M+)
-BUILDLINK_DEPENDS.gettext+=	gettext-lib>=0.10.35nb1
-BUILDLINK_RECOMMENDED.gettext+=	gettext-lib>=0.14.1
+BUILDLINK_API_DEPENDS.gettext+=	gettext-lib>=0.10.35nb1
+BUILDLINK_ABI_DEPENDS.gettext+=	gettext-lib>=0.14.1
 BUILDLINK_PKGSRCDIR.gettext?=	../../wip/gettext-lib
 .endif	# GETTEXT_BUILDLINK3_MK
 

@@ -14,7 +14,7 @@ BUILDLINK_DEPENDS+=	libXi
 
 .if !empty(LIBXI_BUILDLINK3_MK:M+)
 BUILDLINK_PACKAGES+=			libXi
-BUILDLINK_DEPENDS.libXi+=		libXi>=1.0.0
+BUILDLINK_API_DEPENDS.libXi+=		libXi>=1.0.0
 BUILDLINK_PKGSRCDIR.libXi?=		../../wip/libXi
 
 .include "../../wip/libX11/buildlink3.mk"

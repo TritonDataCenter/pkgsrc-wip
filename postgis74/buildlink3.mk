@@ -21,7 +21,7 @@ BUILDLINK_PACKAGES:=	${BUILDLINK_PACKAGES:Npostgis}
 BUILDLINK_PACKAGES+=	postgis
 
 .if !empty(POSTGIS_BUILDLINK3_MK:M+)
-BUILDLINK_DEPENDS.postgis+=	postgis>=0.8.2
+BUILDLINK_API_DEPENDS.postgis+=	postgis>=0.8.2
 BUILDLINK_PKGSRCDIR.postgis?=	../../wip/postgis74
 .endif	# POSTGIS_BUILDLINK3_MK
 

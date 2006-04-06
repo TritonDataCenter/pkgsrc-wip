@@ -11,7 +11,7 @@ BUILDLINK_PACKAGES:=	${BUILDLINK_PACKAGES:Nlibinstaller}
 BUILDLINK_PACKAGES+=	libinstaller
 
 .if !empty(LIBINSTALLER_BUILDLINK3_MK:M+)
-BUILDLINK_DEPENDS.libinstaller+=	libinstaller>=5.1
+BUILDLINK_API_DEPENDS.libinstaller+=	libinstaller>=5.1
 BUILDLINK_PKGSRCDIR.libinstaller?=	../../wip/libinstaller
 .endif	# LIBINSTALLER_BUILDLINK3_MK
 

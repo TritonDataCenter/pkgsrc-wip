@@ -11,7 +11,7 @@ BUILDLINK_PACKAGES:=	${BUILDLINK_PACKAGES:Nlibgnome-java}
 BUILDLINK_PACKAGES+=	libgnome-java
 
 .if !empty(LIBGNOME_JAVA_BUILDLINK3_MK:M+)
-BUILDLINK_DEPENDS.libgnome-java+=	libgnome-java>=2.10.1
+BUILDLINK_API_DEPENDS.libgnome-java+=	libgnome-java>=2.10.1
 BUILDLINK_PKGSRCDIR.libgnome-java?=	../../wip/libgnome-java
 .endif	# LIBGNOME_JAVA_BUILDLINK3_MK
 

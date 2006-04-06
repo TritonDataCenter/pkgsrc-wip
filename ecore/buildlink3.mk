@@ -10,7 +10,7 @@ BUILDLINK_DEPENDS+=	ecore
 BUILDLINK_PACKAGES+=	ecore
 
 .if !empty(ECORE_BUILDLINK3_MK:M+)
-BUILDLINK_DEPENDS.ecore+=	ecore>=1.0.0nb1
+BUILDLINK_API_DEPENDS.ecore+=	ecore>=1.0.0nb1
 BUILDLINK_PKGSRCDIR.ecore?=	../../wip/ecore
 .endif	# ECORE_BUILDLINK3_MK
 

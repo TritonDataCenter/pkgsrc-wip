@@ -13,7 +13,7 @@ BUILDLINK_PACKAGES:=	${BUILDLINK_PACKAGES:Ninputproto}
 BUILDLINK_PACKAGES+=	inputproto
 
 .if !empty(INPUTPROTO_BUILDLINK3_MK:M+)
-BUILDLINK_DEPENDS.inputproto+=	inputproto>=1.3
+BUILDLINK_API_DEPENDS.inputproto+=	inputproto>=1.3
 BUILDLINK_PKGSRCDIR.inputproto?=	../../wip/inputproto
 .endif	# INPUTPROTO_BUILDLINK3_MK
 

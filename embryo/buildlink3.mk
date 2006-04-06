@@ -10,7 +10,7 @@ BUILDLINK_DEPENDS+=	embryo
 BUILDLINK_PACKAGES+=	embryo
 
 .if !empty(EMBRYO_BUILDLINK3_MK:M+)
-BUILDLINK_DEPENDS.embryo+=	embryo>=0.9.0
+BUILDLINK_API_DEPENDS.embryo+=	embryo>=0.9.0
 BUILDLINK_PKGSRCDIR.embryo?=	../../wip/embryo
 .endif	# EMBRYO_BUILDLINK3_MK
 

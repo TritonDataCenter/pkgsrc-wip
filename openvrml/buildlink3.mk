@@ -11,7 +11,7 @@ BUILDLINK_PACKAGES:=	${BUILDLINK_PACKAGES:Nopenvrml}
 BUILDLINK_PACKAGES+=	openvrml
 
 .if !empty(OPENVRML_BUILDLINK3_MK:M+)
-BUILDLINK_DEPENDS.openvrml+=	openvrml>=0.14.3
+BUILDLINK_API_DEPENDS.openvrml+=	openvrml>=0.14.3
 BUILDLINK_PKGSRCDIR.openvrml?=	../../wip/openvrml
 .endif	# OPENVRML_BUILDLINK3_MK
 

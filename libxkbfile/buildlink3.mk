@@ -11,7 +11,7 @@ BUILDLINK_PACKAGES:=	${BUILDLINK_PACKAGES:Nlibxkbfile}
 BUILDLINK_PACKAGES+=	libxkbfile
 
 .if !empty(LIBXKBFILE_BUILDLINK3_MK:M+)
-BUILDLINK_DEPENDS.libxkbfile+=	libxkbfile>=0.99.1
+BUILDLINK_API_DEPENDS.libxkbfile+=	libxkbfile>=0.99.1
 BUILDLINK_PKGSRCDIR.libxkbfile?=	../../wip/libxkbfile
 .endif	# LIBXKBFILE_BUILDLINK3_MK
 

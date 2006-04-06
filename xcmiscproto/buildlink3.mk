@@ -13,7 +13,7 @@ BUILDLINK_PACKAGES:=	${BUILDLINK_PACKAGES:Nxcmiscproto}
 BUILDLINK_PACKAGES+=	xcmiscproto
 
 .if !empty(XCMISCPROTO_BUILDLINK3_MK:M+)
-BUILDLINK_DEPENDS.xcmiscproto+=	xcmiscproto>=1.1
+BUILDLINK_API_DEPENDS.xcmiscproto+=	xcmiscproto>=1.1
 BUILDLINK_PKGSRCDIR.xcmiscproto?=	../../wip/xcmiscproto
 .endif	# XCMISCPROTO_BUILDLINK3_MK
 

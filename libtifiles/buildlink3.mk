@@ -21,7 +21,7 @@ BUILDLINK_PACKAGES:=	${BUILDLINK_PACKAGES:Nlibtifiles}
 BUILDLINK_PACKAGES+=	libtifiles
 
 .if !empty(LIBTIFILES_BUILDLINK3_MK:M+)
-BUILDLINK_DEPENDS.libtifiles+=	libtifiles>=0.5.6
+BUILDLINK_API_DEPENDS.libtifiles+=	libtifiles>=0.5.6
 BUILDLINK_PKGSRCDIR.libtifiles?=	../../wip/libtifiles
 .endif	# LIBTIFILES_BUILDLINK3_MK
 

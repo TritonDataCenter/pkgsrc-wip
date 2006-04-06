@@ -13,7 +13,7 @@ BUILDLINK_PACKAGES:=	${BUILDLINK_PACKAGES:Nvideoproto}
 BUILDLINK_PACKAGES+=	videoproto
 
 .if !empty(VIDEOPROTO_BUILDLINK3_MK:M+)
-BUILDLINK_DEPENDS.videoproto+=	videoproto>=2.2.1
+BUILDLINK_API_DEPENDS.videoproto+=	videoproto>=2.2.1
 BUILDLINK_PKGSRCDIR.videoproto?=	../../wip/videoproto
 .endif	# VIDEOPROTO_BUILDLINK3_MK
 

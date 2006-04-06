@@ -28,10 +28,10 @@ DEPENDS+=	p5-Perl-Tidy>=20031021:../../devel/p5-Perl-Tidy
 .include "../../lang/perl5/module.mk"
 
 .include "../../textproc/libxml2/buildlink3.mk"
-DEPENDS+=	${BUILDLINK_DEPENDS.libxml2}
+DEPENDS+=	${BUILDLINK_API_DEPENDS.libxml2}
 
 .include "../../www/ap-perl/buildlink3.mk"
-DEPENDS+=	${BUILDLINK_DEPENDS.ap-perl}
+DEPENDS+=	${BUILDLINK_API_DEPENDS.ap-perl}
 
 PERL5_PACKLIST=		auto/AxKit/.packlist
 

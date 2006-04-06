@@ -11,7 +11,7 @@ BUILDLINK_PACKAGES:=	${BUILDLINK_PACKAGES:Ngtkglk}
 BUILDLINK_PACKAGES+=	gtkglk
 
 .if !empty(GTKGLK_BUILDLINK3_MK:M+)
-BUILDLINK_DEPENDS.gtkglk+=	gtkglk>=0.2
+BUILDLINK_API_DEPENDS.gtkglk+=	gtkglk>=0.2
 BUILDLINK_PKGSRCDIR.gtkglk?=	../../wip/gtkglk
 
 BUILDLINK_TRANSFORM+=   l:glk:gtkglk

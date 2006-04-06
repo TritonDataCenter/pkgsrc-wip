@@ -21,7 +21,7 @@ BUILDLINK_PACKAGES:=	${BUILDLINK_PACKAGES:Nlibticables}
 BUILDLINK_PACKAGES+=	libticables
 
 .if !empty(LIBTICABLES_BUILDLINK3_MK:M+)
-BUILDLINK_DEPENDS.libticables+=	libticables>=3.7.6
+BUILDLINK_API_DEPENDS.libticables+=	libticables>=3.7.6
 BUILDLINK_PKGSRCDIR.libticables?=	../../wip/libticables
 .endif	# LIBTICABLES_BUILDLINK3_MK
 

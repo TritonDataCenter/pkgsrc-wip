@@ -11,7 +11,7 @@ BUILDLINK_PACKAGES:=	${BUILDLINK_PACKAGES:Ngtk-sharp}
 BUILDLINK_PACKAGES+=	gtk-sharp
 
 .if !empty(GTK_SHARP_BUILDLINK3_MK:M+)
-BUILDLINK_DEPENDS.gtk-sharp+=	gtk-sharp>=0.99
+BUILDLINK_API_DEPENDS.gtk-sharp+=	gtk-sharp>=0.99
 BUILDLINK_PKGSRCDIR.gtk-sharp?=	../../wip/gtk-sharp
 .endif	# GTK_SHARP_BUILDLINK3_MK
 

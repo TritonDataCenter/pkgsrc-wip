@@ -44,7 +44,7 @@ USE_BUILTIN.libpcap?=	${IS_BUILTIN.libpcap}
 
 .  if defined(BUILTIN_PKG.libpcap)
 USE_BUILTIN.libpcap=	yes
-.    for _depend_ in ${BUILDLINK_DEPENDS.libpcap}
+.    for _depend_ in ${BUILDLINK_API_DEPENDS.libpcap}
 .      if !empty(USE_BUILTIN.libpcap:M[yY][eE][sS])
 USE_BUILTIN.libpcap!=	\
 	if ${PKG_ADMIN} pmatch '${_depend_}' ${BUILTIN_PKG.libpcap}; then \

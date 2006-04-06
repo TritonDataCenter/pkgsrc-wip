@@ -14,7 +14,7 @@ BUILDLINK_PACKAGES:=	${BUILDLINK_PACKAGES:NlibXt}
 BUILDLINK_PACKAGES+=	libXt
 
 .if !empty(LIBXT_BUILDLINK3_MK:M+)
-BUILDLINK_DEPENDS.libXt+=		libXt>=0.99.2
+BUILDLINK_API_DEPENDS.libXt+=		libXt>=0.99.2
 BUILDLINK_PKGSRCDIR.libXt?=		../../wip/libXt
 
 .include "../../wip/libSM/buildlink3.mk"

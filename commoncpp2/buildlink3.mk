@@ -11,7 +11,7 @@ BUILDLINK_PACKAGES:=	${BUILDLINK_PACKAGES:Ncommoncpp2}
 BUILDLINK_PACKAGES+=	commoncpp2
 
 .if !empty(COMMONCPP2_BUILDLINK3_MK:M+)
-BUILDLINK_DEPENDS.commoncpp2+=	commoncpp2>=1.3.16
+BUILDLINK_API_DEPENDS.commoncpp2+=	commoncpp2>=1.3.16
 BUILDLINK_PKGSRCDIR.commoncpp2?=	../../wip/commoncpp2
 .endif	# COMMONCPP2_BUILDLINK3_MK
 

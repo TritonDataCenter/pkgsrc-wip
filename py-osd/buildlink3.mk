@@ -13,7 +13,7 @@ BUILDLINK_PACKAGES:=	${BUILDLINK_PACKAGES:Npyosd}
 BUILDLINK_PACKAGES+=	pyosd
 
 .if !empty(PY_OSD_BUILDLINK3_MK:M+)
-BUILDLINK_DEPENDS.pyosd+=	${PYPKGPREFIX}-osd>=0.2.14
+BUILDLINK_API_DEPENDS.pyosd+=	${PYPKGPREFIX}-osd>=0.2.14
 BUILDLINK_PKGSRCDIR.pyosd?=	../../wip/py-osd
 
 .include "../../x11/xosd/buildlink3.mk"

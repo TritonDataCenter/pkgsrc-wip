@@ -11,7 +11,7 @@ BUILDLINK_PACKAGES:=	${BUILDLINK_PACKAGES:Nmecab-base}
 BUILDLINK_PACKAGES+=	mecab-base
 
 .if !empty(MECAB_BUILDLINK3_MK:M+)
-BUILDLINK_DEPENDS.mecab-base+=		mecab-base>=0.90
+BUILDLINK_API_DEPENDS.mecab-base+=		mecab-base>=0.90
 BUILDLINK_PKGSRCDIR.mecab-base?=	../../wip/mecab-base
 BUILDLINK_FILES.mecab-base+=		include/mecab.h
 BUILDLINK_FILES.mecab-base+=		lib/libmecab.*

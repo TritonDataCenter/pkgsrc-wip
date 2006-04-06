@@ -11,7 +11,7 @@ BUILDLINK_PACKAGES:=	${BUILDLINK_PACKAGES:Nxfce4-genmon-plugin}
 BUILDLINK_PACKAGES+=	xfce4-genmon-plugin
 
 .if !empty(XFCE4_GENMON_PLUGIN_BUILDLINK3_MK:M+)
-BUILDLINK_DEPENDS.xfce4-genmon-plugin+=	xfce4-genmon-plugin>=1.1
+BUILDLINK_API_DEPENDS.xfce4-genmon-plugin+=	xfce4-genmon-plugin>=1.1
 BUILDLINK_PKGSRCDIR.xfce4-genmon-plugin?=	../../wip/xfce4-genmon-plugin
 .endif	# XFCE4_GENMON_PLUGIN_BUILDLINK3_MK
 

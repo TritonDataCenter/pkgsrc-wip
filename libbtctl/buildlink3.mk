@@ -11,7 +11,7 @@ BUILDLINK_PACKAGES:=	${BUILDLINK_PACKAGES:Nlibbtctl}
 BUILDLINK_PACKAGES+=	libbtctl
 
 .if !empty(LIBBTCTL_BUILDLINK3_MK:M+)
-BUILDLINK_DEPENDS.libbtctl+=	libbtctl>=0.4.1
+BUILDLINK_API_DEPENDS.libbtctl+=	libbtctl>=0.4.1
 BUILDLINK_PKGSRCDIR.libbtctl?=	../../wip/libbtctl
 .endif	# LIBBTCTL_BUILDLINK3_MK
 

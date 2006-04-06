@@ -26,7 +26,7 @@ CONFIGURE_ARGS+=	--disable-zip
 
 .if !empty(PKG_OPTIONS:Mavifile)
 .include "../../wip/avifile-devel/buildlink3.mk"
-BUILDLINK_DEPENDS.avifile-devel+=	avifile-devel>=0.7.34
+BUILDLINK_API_DEPENDS.avifile-devel+=	avifile-devel>=0.7.34
 .else
 CONFIGURE_ARGS+=	--disable-avifile
 .endif

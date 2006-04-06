@@ -11,7 +11,7 @@ BUILDLINK_PACKAGES:=	${BUILDLINK_PACKAGES:Nlibglade-java}
 BUILDLINK_PACKAGES+=	libglade-java
 
 .if !empty(LIBGLADE_JAVA_BUILDLINK3_MK:M+)
-BUILDLINK_DEPENDS.libglade-java+=	libglade-java>=2.10.1
+BUILDLINK_API_DEPENDS.libglade-java+=	libglade-java>=2.10.1
 BUILDLINK_PKGSRCDIR.libglade-java?=	../../wip/libglade-java
 .endif	# LIBGLADE_JAVA_BUILDLINK3_MK
 

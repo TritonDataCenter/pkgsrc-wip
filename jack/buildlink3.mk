@@ -11,7 +11,7 @@ BUILDLINK_PACKAGES:=	${BUILDLINK_PACKAGES:Njack-audio-connection-kit}
 BUILDLINK_PACKAGES+=	jack-audio-connection-kit
 
 .if !empty(JACK_AUDIO_CONNECTION_KIT_BUILDLINK3_MK:M+)
-BUILDLINK_DEPENDS.jack-audio-connection-kit+=	jack-audio-connection-kit>=0.100.0
+BUILDLINK_API_DEPENDS.jack-audio-connection-kit+=	jack-audio-connection-kit>=0.100.0
 BUILDLINK_PKGSRCDIR.jack-audio-connection-kit?=	../../wip/jack
 .endif	# JACK_AUDIO_CONNECTION_KIT_BUILDLINK3_MK
 

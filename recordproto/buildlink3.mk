@@ -13,7 +13,7 @@ BUILDLINK_PACKAGES:=	${BUILDLINK_PACKAGES:Nrecordproto}
 BUILDLINK_PACKAGES+=	recordproto
 
 .if !empty(RECORDPROTO_BUILDLINK3_MK:M+)
-BUILDLINK_DEPENDS.recordproto+=	recordproto>=1.13.1
+BUILDLINK_API_DEPENDS.recordproto+=	recordproto>=1.13.1
 BUILDLINK_PKGSRCDIR.recordproto?=	../../wip/recordproto
 .endif	# RECORDPROTO_BUILDLINK3_MK
 

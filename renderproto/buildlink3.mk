@@ -13,7 +13,7 @@ BUILDLINK_PACKAGES:=	${BUILDLINK_PACKAGES:Nrenderproto}
 BUILDLINK_PACKAGES+=	renderproto
 
 .if !empty(RENDERPROTO_BUILDLINK3_MK:M+)
-BUILDLINK_DEPENDS.renderproto+=	renderproto>=0.9.1
+BUILDLINK_API_DEPENDS.renderproto+=	renderproto>=0.9.1
 BUILDLINK_PKGSRCDIR.renderproto?=	../../wip/renderproto
 .endif	# RENDERPROTO_BUILDLINK3_MK
 

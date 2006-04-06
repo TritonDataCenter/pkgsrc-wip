@@ -11,7 +11,7 @@ BUILDLINK_PACKAGES:=	${BUILDLINK_PACKAGES:NlibSoundTouch}
 BUILDLINK_PACKAGES+=	libSoundTouch
 
 .if !empty(LIBSOUNDTOUCH_BUILDLINK3_MK:M+)
-BUILDLINK_DEPENDS.libSoundTouch+=	libSoundTouch>=1.3.0
+BUILDLINK_API_DEPENDS.libSoundTouch+=	libSoundTouch>=1.3.0
 BUILDLINK_PKGSRCDIR.libSoundTouch?=	../../wip/libSoundTouch
 .endif	# LIBSOUNDTOUCH_BUILDLINK3_MK
 

@@ -61,7 +61,7 @@ post-install:
 	${INSTALL_DATA_DIR} ${PREFIX}/${RCD_SCRIPTS_EXAMPLEDIR}
 	${INSTALL_SCRIPT} ${WRKSRC}/tor.pkgsrc.rc ${PREFIX}/${RCD_SCRIPTS_EXAMPLEDIR}/tor
 
-BUILDLINK_DEPENDS.libevent+= libevent>=1.1a
+BUILDLINK_API_DEPENDS.libevent+= libevent>=1.1a
 # XXX the pkgsrc libevent builtin.mk does not detect the version of a builtin
 # libevent, so we need to force use of the pkgsrc one
 USE_BUILTIN.libevent=	no

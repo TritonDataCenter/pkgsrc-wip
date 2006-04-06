@@ -13,7 +13,7 @@ BUILDLINK_PACKAGES:=	${BUILDLINK_PACKAGES:Nfixesproto}
 BUILDLINK_PACKAGES+=	fixesproto
 
 .if !empty(FIXESPROTO_BUILDLINK3_MK:M+)
-BUILDLINK_DEPENDS.fixesproto+=	fixesproto>=3.0.0
+BUILDLINK_API_DEPENDS.fixesproto+=	fixesproto>=3.0.0
 BUILDLINK_PKGSRCDIR.fixesproto?=	../../wip/fixesproto
 .endif	# FIXESPROTO_BUILDLINK3_MK
 

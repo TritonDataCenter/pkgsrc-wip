@@ -12,7 +12,7 @@ GNU_CONFIGURE=	YES
 PTHREAD_OPTS+=	require
 RCD_SCRIPTS=	spfmilter
 
-BUILDLINK_DEPENDS.libmilter?=	libmilter>=8.13.0
+BUILDLINK_API_DEPENDS.libmilter?=	libmilter>=8.13.0
 
 .include "../../mail/libmilter/buildlink3.mk"
 .include "../../wip/libspf2/buildlink3.mk"

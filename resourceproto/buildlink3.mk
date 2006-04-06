@@ -13,7 +13,7 @@ BUILDLINK_PACKAGES:=	${BUILDLINK_PACKAGES:Nresourceproto}
 BUILDLINK_PACKAGES+=	resourceproto
 
 .if !empty(RESOURCEPROTO_BUILDLINK3_MK:M+)
-BUILDLINK_DEPENDS.resourceproto+=	resourceproto>=1.0.1
+BUILDLINK_API_DEPENDS.resourceproto+=	resourceproto>=1.0.1
 BUILDLINK_PKGSRCDIR.resourceproto?=	../../wip/resourceproto
 .endif	# RESOURCEPROTO_BUILDLINK3_MK
 

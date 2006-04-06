@@ -11,7 +11,7 @@ BUILDLINK_PACKAGES:=	${BUILDLINK_PACKAGES:Nlibupnp}
 BUILDLINK_PACKAGES+=	libupnp
 
 .if !empty(LIBUPNP_BUILDLINK3_MK:M+)
-BUILDLINK_DEPENDS.libupnp+=		libupnp>=1.0.4
+BUILDLINK_API_DEPENDS.libupnp+=		libupnp>=1.0.4
 BUILDLINK_PKGSRCDIR.libupnp?=		../../wip/libupnp
 BUILDLINK_FILES.libupnp+=	include/upnp/*.h
 BUILDLINK_FILES.libupnp+=	include/upnp/tools/*.h

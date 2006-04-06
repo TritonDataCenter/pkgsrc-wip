@@ -16,7 +16,7 @@ CONFIGURE_ARGS+=	--localstatedir=${VARBASE:Q}
 EGDIR=			${PREFIX}/share/examples/ipfm
 CONF_FILES=		${EGDIR}/ipfm.conf ${PKG_SYSCONFDIR}/ipfm.conf
 
-BUILDLINK_DEPENDS.libpcap+=	libpcap>=0.8.3
+BUILDLINK_API_DEPENDS.libpcap+=	libpcap>=0.8.3
 
 post-install:
 	@${INSTALL_DATA_DIR} ${EGDIR}

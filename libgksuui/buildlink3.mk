@@ -21,7 +21,7 @@ BUILDLINK_PACKAGES:=	${BUILDLINK_PACKAGES:Nlibgksuui1.0}
 BUILDLINK_PACKAGES+=	libgksuui1.0
 
 .if !empty(LIBGKSUUI1.0_BUILDLINK3_MK:M+)
-BUILDLINK_DEPENDS.libgksuui1.0+=	libgksuui1.0>=1.0.7
+BUILDLINK_API_DEPENDS.libgksuui1.0+=	libgksuui1.0>=1.0.7
 BUILDLINK_PKGSRCDIR.libgksuui1.0?=	../../wip/libgksuui
 .endif	# LIBGKSUUI1.0_BUILDLINK3_MK
 

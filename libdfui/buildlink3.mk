@@ -11,7 +11,7 @@ BUILDLINK_PACKAGES:=	${BUILDLINK_PACKAGES:Nlibdfui}
 BUILDLINK_PACKAGES+=	libdfui
 
 .if !empty(LIBDFUI_BUILDLINK3_MK:M+)
-BUILDLINK_DEPENDS.libdfui+=	libdfui>=4.1
+BUILDLINK_API_DEPENDS.libdfui+=	libdfui>=4.1
 BUILDLINK_PKGSRCDIR.libdfui?=	../../wip/libdfui
 .endif	# LIBDFUI_BUILDLINK3_MK
 

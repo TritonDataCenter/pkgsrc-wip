@@ -13,7 +13,7 @@ BUILDLINK_PACKAGES:=	${BUILDLINK_PACKAGES:Npymmpython}
 BUILDLINK_PACKAGES+=	pymmpython
 
 .if !empty(PY_MMPYTHON_BUILDLINK3_MK:M+)
-BUILDLINK_DEPENDS.pymmpython+=		${PYPKGPREFIX}-mmpython>=0.3
+BUILDLINK_API_DEPENDS.pymmpython+=		${PYPKGPREFIX}-mmpython>=0.3
 BUILDLINK_PKGSRCDIR.pymmpython?=	../../wip/py-mmpython
 .endif	# PY_MMPYTHON_BUILDLINK3_MK
 

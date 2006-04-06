@@ -11,7 +11,7 @@ BUILDLINK_PACKAGES:=	${BUILDLINK_PACKAGES:Nlibobby}
 BUILDLINK_PACKAGES+=	libobby
 
 .if !empty(LIBOBBY_BUILDLINK3_MK:M+)
-BUILDLINK_DEPENDS.libobby+=	libobby>=0.2.0
+BUILDLINK_API_DEPENDS.libobby+=	libobby>=0.2.0
 BUILDLINK_PKGSRCDIR.libobby?=	../../wip/libobby
 .endif	# LIBOBBY_BUILDLINK3_MK
 

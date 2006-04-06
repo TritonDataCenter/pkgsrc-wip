@@ -13,7 +13,7 @@ BUILDLINK_PACKAGES:=	${BUILDLINK_PACKAGES:Nscrnsaverproto}
 BUILDLINK_PACKAGES+=	scrnsaverproto
 
 .if !empty(SCRNSAVERPROTO_BUILDLINK3_MK:M+)
-BUILDLINK_DEPENDS.scrnsaverproto+=	scrnsaverproto>=1.0.1
+BUILDLINK_API_DEPENDS.scrnsaverproto+=	scrnsaverproto>=1.0.1
 BUILDLINK_PKGSRCDIR.scrnsaverproto?=	../../wip/scrnsaverproto
 .endif	# SCRNSAVERPROTO_BUILDLINK3_MK
 

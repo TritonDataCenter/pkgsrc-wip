@@ -11,7 +11,7 @@ BUILDLINK_PACKAGES:=	${BUILDLINK_PACKAGES:Nsvgalib}
 BUILDLINK_PACKAGES+=	svgalib
 
 .if !empty(SVGALIB_BUILDLINK3_MK:M+)
-BUILDLINK_DEPENDS.svgalib+=	svgalib>=1.4.2
+BUILDLINK_API_DEPENDS.svgalib+=	svgalib>=1.4.2
 BUILDLINK_PKGSRCDIR.svgalib?=	../../wip/svgalib
 .endif	# SVGALIB_BUILDLINK3_MK
 

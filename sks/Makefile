@@ -10,8 +10,8 @@ MAINTAINER=	cube@NetBSD.org
 HOMEPAGE=	http://www.nongnu.org/sks/
 COMMENT=	Self Replicating PGP Key Server
 
-BUILDLINK_DEPENDS.ocaml+=	ocaml>=3.08.2
-BUILDLINK_DEPENDS.db4+=		db4>=4.3.0
+BUILDLINK_API_DEPENDS.ocaml+=	ocaml>=3.08.2
+BUILDLINK_API_DEPENDS.db4+=		db4>=4.3.0
 
 USE_TOOLS+=	gmake
 BDB_ACCEPTED=	db4

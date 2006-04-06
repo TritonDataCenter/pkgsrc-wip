@@ -13,7 +13,7 @@ BUILDLINK_PACKAGES:=	${BUILDLINK_PACKAGES:Nkbproto}
 BUILDLINK_PACKAGES+=	kbproto
 
 .if !empty(KBPROTO_BUILDLINK3_MK:M+)
-BUILDLINK_DEPENDS.kbproto+=	kbproto>=1.0
+BUILDLINK_API_DEPENDS.kbproto+=	kbproto>=1.0
 BUILDLINK_PKGSRCDIR.kbproto?=	../../wip/kbproto
 .endif	# KBPROTO_BUILDLINK3_MK
 

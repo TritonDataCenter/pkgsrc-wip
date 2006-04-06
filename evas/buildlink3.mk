@@ -10,7 +10,7 @@ BUILDLINK_DEPENDS+=	evas
 BUILDLINK_PACKAGES+=	evas
 
 .if !empty(EVAS_BUILDLINK3_MK:M+)
-BUILDLINK_DEPENDS.evas+=	evas>=1.0.0nb1
+BUILDLINK_API_DEPENDS.evas+=	evas>=1.0.0nb1
 BUILDLINK_PKGSRCDIR.evas?=	../../wip/evas
 .endif	# EVAS_BUILDLINK3_MK
 

@@ -11,7 +11,7 @@ BUILDLINK_PACKAGES:=	${BUILDLINK_PACKAGES:Nsimgear}
 BUILDLINK_PACKAGES+=	simgear
 
 .if !empty(SIMGEAR_BUILDLINK3_MK:M+)
-BUILDLINK_DEPENDS.simgear+=	simgear>=0.3.4
+BUILDLINK_API_DEPENDS.simgear+=	simgear>=0.3.4
 BUILDLINK_PKGSRCDIR.simgear?=	../../wip/simgear
 BUILDLINK_DEPMETHOD.simgear?=	build
 .endif	# SIMGEAR_BUILDLINK3_MK

@@ -11,7 +11,7 @@ BUILDLINK_PACKAGES:=	${BUILDLINK_PACKAGES:Nmuscle-pam}
 BUILDLINK_PACKAGES+=	muscle-pam
 
 .if !empty(MUSCLE_PAM_BUILDLINK3_MK:M+)
-BUILDLINK_DEPENDS.muscle-pam+=	muscle-pam>=1.1.5
+BUILDLINK_API_DEPENDS.muscle-pam+=	muscle-pam>=1.1.5
 BUILDLINK_PKGSRCDIR.muscle-pam?=	../../wip/muscle-pam
 .endif	# MUSCLE_PAM_BUILDLINK3_MK
 

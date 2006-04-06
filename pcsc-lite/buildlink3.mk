@@ -11,7 +11,7 @@ BUILDLINK_PACKAGES:=	${BUILDLINK_PACKAGES:Npcsc-lite}
 BUILDLINK_PACKAGES+=	pcsc-lite
 
 .if !empty(PCSC_LITE_BUILDLINK3_MK:M+)
-BUILDLINK_DEPENDS.pcsc-lite+=	pcsc-lite>=1.2.9
+BUILDLINK_API_DEPENDS.pcsc-lite+=	pcsc-lite>=1.2.9
 BUILDLINK_PKGSRCDIR.pcsc-lite?=	../../wip/pcsc-lite
 .endif	# PCSC_LITE_BUILDLINK3_MK
 

@@ -11,7 +11,7 @@ BUILDLINK_PACKAGES:=	${BUILDLINK_PACKAGES:Ncommon-mml}
 BUILDLINK_PACKAGES+=	common-mml
 
 .if !empty(COMMON_MML_BUILDLINK3_MK:M+)
-BUILDLINK_DEPENDS.common-mml+=	common-mml>=1.2.14
+BUILDLINK_API_DEPENDS.common-mml+=	common-mml>=1.2.14
 BUILDLINK_PKGSRCDIR.common-mml?=	../../wip/common-mml
 .endif	# COMMON_MML_BUILDLINK3_MK
 

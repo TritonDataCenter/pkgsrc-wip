@@ -21,7 +21,7 @@ BUILDLINK_PACKAGES:=	${BUILDLINK_PACKAGES:Nncbi_cxx-lib}
 BUILDLINK_PACKAGES+=	ncbi_cxx-lib
 
 .if !empty(NCBI_CXX_LIB_BUILDLINK3_MK:M+)
-BUILDLINK_DEPENDS.ncbi_cxx-lib+=	ncbi_cxx-lib>=20041130
+BUILDLINK_API_DEPENDS.ncbi_cxx-lib+=	ncbi_cxx-lib>=20041130
 BUILDLINK_PKGSRCDIR.ncbi_cxx-lib?=	../../wip/ncbi-c++-lib
 .endif	# NCBI_CXX_LIB_BUILDLINK3_MK
 

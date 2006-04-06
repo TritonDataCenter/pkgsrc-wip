@@ -11,7 +11,7 @@ BUILDLINK_PACKAGES:=	${BUILDLINK_PACKAGES:Nmingw-binutils}
 BUILDLINK_PACKAGES+=	mingw-binutils
 
 .if !empty(MINGW_BINUTILS_BUILDLINK3_MK:M+)
-BUILDLINK_DEPENDS.mingw-binutils+=	mingw-binutils>=2.14.90
+BUILDLINK_API_DEPENDS.mingw-binutils+=	mingw-binutils>=2.14.90
 BUILDLINK_PKGSRCDIR.mingw-binutils?=	../../wip/mingw-binutils
 .endif	# MINGW_BINUTILS_BUILDLINK3_MK
 

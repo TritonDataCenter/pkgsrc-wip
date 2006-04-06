@@ -11,8 +11,8 @@ BUILDLINK_PACKAGES:=	${BUILDLINK_PACKAGES:Navifile-devel}
 BUILDLINK_PACKAGES+=	avifile-devel
 
 .if !empty(AVIFILE_DEVEL_BUILDLINK3_MK:M+)
-BUILDLINK_DEPENDS.avifile-devel+=	avifile-devel>=0.7.41
-BUILDLINK_RECOMMENDED.avifile-devel+=	avifile-devel>=0.7.41
+BUILDLINK_API_DEPENDS.avifile-devel+=	avifile-devel>=0.7.41
+BUILDLINK_ABI_DEPENDS.avifile-devel+=	avifile-devel>=0.7.41
 BUILDLINK_PKGSRCDIR.avifile-devel?=	../../wip/avifile-devel
 .endif	# AVIFILE_DEVEL_BUILDLINK3_MK
 

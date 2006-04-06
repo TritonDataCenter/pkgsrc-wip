@@ -17,7 +17,7 @@ DEPENDS+=		p5-libapreq2>=2.4:../../www/p5-libapreq2
 DEPENDS+=		p5-HTML-Mason>=1.26:../../www/p5-HTML-Mason
 DEPENDS+=		ap2-perl>=1.99.17:../../www/ap2-perl
 
-BUILDLINK_DEPENDS.perl=	perl>=5.8.4
+BUILDLINK_API_DEPENDS.perl=	perl>=5.8.4
 
 PERL5_PACKLIST=		${PERL5_SITEARCH}/auto/MasonX/Apache2Handler/.packlist
 

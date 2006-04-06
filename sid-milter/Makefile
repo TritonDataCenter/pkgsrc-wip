@@ -10,7 +10,7 @@ COMMENT=	Open source implementation of the Sender ID specification
 
 DEPENDS+=	sendmail>=8.13.0:../../mail/sendmail
 
-BUILDLINK_DEPENDS.libmilter+=	libmilter>=8.13.0
+BUILDLINK_API_DEPENDS.libmilter+=	libmilter>=8.13.0
 
 
 USE_BUILTIN.libmilter=	NO

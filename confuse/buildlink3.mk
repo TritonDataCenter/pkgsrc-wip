@@ -21,7 +21,7 @@ BUILDLINK_PACKAGES:=	${BUILDLINK_PACKAGES:Nconfuse}
 BUILDLINK_PACKAGES+=	confuse
 
 .if !empty(CONFUSE_BUILDLINK3_MK:M+)
-BUILDLINK_DEPENDS.confuse+=	confuse>=2.5
+BUILDLINK_API_DEPENDS.confuse+=	confuse>=2.5
 BUILDLINK_PKGSRCDIR.confuse?=	../../wip/confuse
 .endif	# CONFUSE_BUILDLINK3_MK
 

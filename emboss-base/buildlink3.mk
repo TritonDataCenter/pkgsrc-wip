@@ -11,7 +11,7 @@ BUILDLINK_PACKAGES:=	${BUILDLINK_PACKAGES:Nemboss-base}
 BUILDLINK_PACKAGES+=	emboss-base
 
 .if !empty(EMBOSS_BASE_BUILDLINK3_MK:M+)
-BUILDLINK_DEPENDS.emboss-base+=	emboss-base>=2.7.1
+BUILDLINK_API_DEPENDS.emboss-base+=	emboss-base>=2.7.1
 BUILDLINK_PKGSRCDIR.emboss-base?=	../../wip/emboss-base
 .endif	# EMBOSS_BASE_BUILDLINK3_MK
 

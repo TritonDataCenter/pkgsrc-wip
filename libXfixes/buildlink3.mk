@@ -12,7 +12,7 @@ BUILDLINK_DEPENDS+=	libXfixes
 
 .if !empty(LIBXFIXES_BUILDLINK3_MK:M+)
 BUILDLINK_PACKAGES+=			libXfixes
-BUILDLINK_DEPENDS.libXfixes?=		libXfixes>=3.0.0
+BUILDLINK_API_DEPENDS.libXfixes?=		libXfixes>=3.0.0
 BUILDLINK_PKGSRCDIR.libXfixes?=		../../wip/libXfixes
 
 .include "../../wip/libX11/buildlink3.mk"

@@ -11,7 +11,7 @@ BUILDLINK_PACKAGES:=	${BUILDLINK_PACKAGES:Nlibxmlxx}
 BUILDLINK_PACKAGES+=	libxmlxx
 
 .if !empty(LIBXMLXX_BUILDLINK3_MK:M+)
-BUILDLINK_DEPENDS.libxmlxx+=	libxml++>=0.27.0nb1
+BUILDLINK_API_DEPENDS.libxmlxx+=	libxml++>=0.27.0nb1
 BUILDLINK_PKGSRCDIR.libxmlxx?=	../../wip/libxml++
 .endif	# LIBXMLXX_BUILDLINK3_MK
 

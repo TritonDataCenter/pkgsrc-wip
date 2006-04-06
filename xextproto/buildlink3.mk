@@ -13,7 +13,7 @@ BUILDLINK_PACKAGES:=	${BUILDLINK_PACKAGES:Nxextproto}
 BUILDLINK_PACKAGES+=	xextproto
 
 .if !empty(XEXTPROTO_BUILDLINK3_MK:M+)
-BUILDLINK_DEPENDS.xextproto+=	xextproto>=7.0
+BUILDLINK_API_DEPENDS.xextproto+=	xextproto>=7.0
 BUILDLINK_PKGSRCDIR.xextproto?=	../../wip/xextproto
 .endif	# XEXTPROTO_BUILDLINK3_MK
 

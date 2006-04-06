@@ -11,7 +11,7 @@ BUILDLINK_PACKAGES:=	${BUILDLINK_PACKAGES:Nliblingoteach}
 BUILDLINK_PACKAGES+=	liblingoteach
 
 .if !empty(LIBLINGOTEACH_BUILDLINK3_MK:M+)
-BUILDLINK_DEPENDS.liblingoteach+=	liblingoteach>=0.2.1
+BUILDLINK_API_DEPENDS.liblingoteach+=	liblingoteach>=0.2.1
 BUILDLINK_PKGSRCDIR.liblingoteach?=	../../wip/liblingoteach
 .endif	# LIBLINGOTEACH_BUILDLINK3_MK
 

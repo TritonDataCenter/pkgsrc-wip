@@ -13,7 +13,7 @@ BUILDLINK_PACKAGES:=	${BUILDLINK_PACKAGES:Nxineramaproto}
 BUILDLINK_PACKAGES+=	xineramaproto
 
 .if !empty(XINERAMAPROTO_BUILDLINK3_MK:M+)
-BUILDLINK_DEPENDS.xineramaproto+=	xineramaproto>=1.1.1
+BUILDLINK_API_DEPENDS.xineramaproto+=	xineramaproto>=1.1.1
 BUILDLINK_PKGSRCDIR.xineramaproto?=	../../wip/xineramaproto
 .endif	# XINERAMAPROTO_BUILDLINK3_MK
 

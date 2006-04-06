@@ -21,7 +21,7 @@ BUILDLINK_PACKAGES:=	${BUILDLINK_PACKAGES:Npostgresql80-postgis-1.0.0}
 BUILDLINK_PACKAGES+=	postgresql80-postgis-1.0.0
 
 .if !empty(POSTGRESQL80_POSTGIS_1.0.0_BUILDLINK3_MK:M+)
-BUILDLINK_DEPENDS.postgresql80-postgis-1.0.0+=	postgresql80-postgis-1.0.0>=rc2
+BUILDLINK_API_DEPENDS.postgresql80-postgis-1.0.0+=	postgresql80-postgis-1.0.0>=rc2
 BUILDLINK_PKGSRCDIR.postgresql80-postgis-1.0.0?=	../../wip/postgresql80-postgis
 .endif	# POSTGRESQL80_POSTGIS_1.0.0_BUILDLINK3_MK
 

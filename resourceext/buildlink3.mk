@@ -14,7 +14,7 @@ BUILDLINK_DEPENDS+=	resourceext
 
 .if !empty(RESOURCEEXT_BUILDLINK3_MK:M+)
 BUILDLINK_PACKAGES+=			resourceext
-BUILDLINK_DEPENDS.resourceext+=		resourceext>=1.0
+BUILDLINK_API_DEPENDS.resourceext+=		resourceext>=1.0
 BUILDLINK_PKGSRCDIR.resourceext?=		../../wip/resourceext
 
 .endif # RESOURCEEXT_BUILDLINK3_MK

@@ -11,7 +11,7 @@ BUILDLINK_PACKAGES:=	${BUILDLINK_PACKAGES:Nlibopenmodeller}
 BUILDLINK_PACKAGES+=	libopenmodeller
 
 .if !empty(LIBOPENMODELLER_BUILDLINK3_MK:M+)
-BUILDLINK_DEPENDS.libopenmodeller+=	libopenmodeller>=0.3.3
+BUILDLINK_API_DEPENDS.libopenmodeller+=	libopenmodeller>=0.3.3
 BUILDLINK_PKGSRCDIR.libopenmodeller?=	../../wip/openmodeller
 .endif	# LIBOPENMODELLER_BUILDLINK3_MK
 

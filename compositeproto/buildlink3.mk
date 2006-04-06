@@ -13,7 +13,7 @@ BUILDLINK_PACKAGES:=	${BUILDLINK_PACKAGES:Ncompositeproto}
 BUILDLINK_PACKAGES+=	compositeproto
 
 .if !empty(COMPOSITEPROTO_BUILDLINK3_MK:M+)
-BUILDLINK_DEPENDS.compositeproto+=	compositeproto>=0.2.1
+BUILDLINK_API_DEPENDS.compositeproto+=	compositeproto>=0.2.1
 BUILDLINK_PKGSRCDIR.compositeproto?=	../../wip/compositeproto
 .endif	# COMPOSITEPROTO_BUILDLINK3_MK
 

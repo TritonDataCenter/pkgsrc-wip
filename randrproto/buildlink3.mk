@@ -13,7 +13,7 @@ BUILDLINK_PACKAGES:=	${BUILDLINK_PACKAGES:Nrandrproto}
 BUILDLINK_PACKAGES+=	randrproto
 
 .if !empty(RANDRPROTO_BUILDLINK3_MK:M+)
-BUILDLINK_DEPENDS.randrproto+=	randrproto>=1.1.1
+BUILDLINK_API_DEPENDS.randrproto+=	randrproto>=1.1.1
 BUILDLINK_PKGSRCDIR.randrproto?=	../../wip/randrproto
 .endif	# RANDRPROTO_BUILDLINK3_MK
 

@@ -11,7 +11,7 @@ BUILDLINK_PACKAGES:=	${BUILDLINK_PACKAGES:Nlibpusb}
 BUILDLINK_PACKAGES+=	libpusb
 
 .if !empty(LIBPUSB_BUILDLINK3_MK:M+)
-BUILDLINK_DEPENDS.libpusb+=	libpusb>=0.1
+BUILDLINK_API_DEPENDS.libpusb+=	libpusb>=0.1
 BUILDLINK_PKGSRCDIR.libpusb?=	../../wip/libpusb
 .endif	# LIBPUSB_BUILDLINK3_MK
 
