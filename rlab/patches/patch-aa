@@ -71,7 +71,7 @@ $NetBSD$
  		rm -f ./misc/rlab.tmp.0 ./misc/rlab.tmp.1 ./misc/rlab.tmp.2
 -		$(INSTALL_PROGRAM) ./misc/rlab2 $(bindir)/rlab2
 -		if test "$(LN)" = "ln" ; then\
--		  @echo "ABI_DEPENDS YOU MV $(TOPDIR) to $(libdir)/rlab2";\
+-		  @echo "RECOMMENDED YOU MV $(TOPDIR) to $(libdir)/rlab2";\
 -		fi
 -		if test "$(LN)" = "ln -s" ; then\
 -		  if test -r "$(libdir)/rlab2" ; then\
