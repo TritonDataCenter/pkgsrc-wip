@@ -12,7 +12,6 @@ BUILDLINK_PACKAGES+=	gaim
 
 .if !empty(GAIM_BUILDLINK3_MK:M+)
 BUILDLINK_API_DEPENDS.gaim+=	gaim>=1.9
-BUILDLINK_ABI_DEPENDS.gaim+=	gaim>=1.9
 BUILDLINK_PKGSRCDIR.gaim?=	../../wip/gaim
 
 PRINT_PLIST_AWK+=	/^@dirrm lib\/gaim$$/ \

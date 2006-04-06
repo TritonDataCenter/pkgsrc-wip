@@ -11,7 +11,6 @@ BUILDLINK_DEPENDS+=	libupnp
 BUILDLINK_PACKAGES:=	${BUILDLINK_PACKAGES:Nlibupnp}
 BUILDLINK_PACKAGES+=	libupnp
 BUILDLINK_API_DEPENDS.libupnp+=		libupnp>=1.2.1
-BUILDLINK_ABI_DEPENDS.libupnp?=		libupnp>=1.2.1
 BUILDLINK_PKGSRCDIR.libupnp?=		../../wip/libupnp12
 BUILDLINK_FILES.libupnp+=	include/libupnp/*.h
 BUILDLINK_FILES.libupnp+=	lib/libupnp.* lib/libthreadutil.* lib/libixml.*

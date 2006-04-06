@@ -12,7 +12,6 @@ BUILDLINK_PACKAGES+=	scim
 
 .if !empty(SCIM_BUILDLINK3_MK:M+)
 BUILDLINK_API_DEPENDS.scim+=	scim>=1.4.4
-BUILDLINK_ABI_DEPENDS.scim+=	scim>=1.4.4
 BUILDLINK_PKGSRCDIR.scim?=	../../wip/scim
 .endif	# SCIM_BUILDLINK3_MK
 
