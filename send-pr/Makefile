@@ -16,8 +16,8 @@ CONFLICTS+=	gnats-[0-9]*
 
 GNU_CONFIGURE=	YES
 
-USE_MAKEINFO=	YES
-INFO_FILES=	send-pr.info
+USE_TOOLS+=	makeinfo
+INFO_FILES=	# PLIST
 
 CONFIGURE_ARGS=	--with-lispdir=${PREFIX}/share/emacs/site-lisp
 

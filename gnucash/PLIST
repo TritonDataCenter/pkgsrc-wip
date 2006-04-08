@@ -120,6 +120,7 @@ include/gnucash/table-layout.h
 include/gnucash/table-model.h
 include/gnucash/window-help.h
 include/gnucash/window-report.h
+info/gnucash-design.info
 lib/gnucash/libgnc-business-ledger.la
 lib/gnucash/libgncmod-app-file.la
 lib/gnucash/libgncmod-app-utils.la

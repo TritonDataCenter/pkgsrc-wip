@@ -4,6 +4,7 @@ bin/gettext
 bin/gettext.sh
 bin/ngettext
 include/autosprintf.h
+info/autosprintf.info
 lib/libasprintf.la
 man/man1/envsubst.1
 man/man1/gettext.1

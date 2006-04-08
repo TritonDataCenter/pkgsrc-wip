@@ -11,8 +11,8 @@ COMMENT=		Native java compiler using gcc
 
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
-USE_MAKEINFO=	yes
-INFO_FILES=jc.info jc.info-1 jc.info-2 jc.info-3
+USE_TOOLS+=	makeinfo
+INFO_FILES=	# PLIST
 
 CONFIGURE_ARGS+=--disable-assertions
 

@@ -10,7 +10,7 @@ HOMEPAGE=		http://www.gnu.org/software/parted/parted.html
 COMMENT=		Create, destroy, resize, check, and copy partitions and file systems
 
 GNU_CONFIGURE=		yes
-INFO_FILES=		parted.info
+INFO_FILES=		# PLIST
 USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=		yes
 

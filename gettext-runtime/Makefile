@@ -21,7 +21,7 @@ USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 USE_LIBTOOL=		yes
 
-INFO_FILES=		autosprintf.info
+INFO_FILES=		# PLIST.common
 
 # not tested yet
 TEST_TARGET=		check

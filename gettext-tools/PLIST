@@ -17,6 +17,7 @@ bin/msgunfmt
 bin/msguniq
 bin/xgettext
 include/gettext-po.h
+info/gettext.info
 lib/gettext/hostname
 lib/gettext/project-id
 lib/gettext/urlget

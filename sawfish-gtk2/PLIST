@@ -2,6 +2,7 @@
 bin/sawfish
 bin/sawfish-client
 bin/sawfish-ui
+info/sawfish.info
 libexec/rep/${MACHINE_GNU_PLATFORM}/sawfish/client.la
 libexec/sawfish/${SF_VERS}/${MACHINE_GNU_PLATFORM}/DOC
 libexec/sawfish/${SF_VERS}/${MACHINE_GNU_PLATFORM}/gradient.la

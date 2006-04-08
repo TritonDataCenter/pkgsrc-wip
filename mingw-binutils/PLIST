@@ -29,6 +29,12 @@ ${MINGW_TARGET}/lib/ldscripts/i386pe.xbn
 ${MINGW_TARGET}/lib/ldscripts/i386pe.xn
 ${MINGW_TARGET}/lib/ldscripts/i386pe.xr
 ${MINGW_TARGET}/lib/ldscripts/i386pe.xu
+info/as.info
+info/bfd.info
+info/binutils.info
+info/configure.info
+info/ld.info
+info/standards.info
 lib/libiberty.a
 man/man1/${MINGW_TARGET}-addr2line.1
 man/man1/${MINGW_TARGET}-ar.1

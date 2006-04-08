@@ -18,7 +18,7 @@ USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 USE_LIBTOOL=		yes
 
-INFO_FILES=		gettext.info
+INFO_FILES=		# PLIST
 
 # not tested yet
 TEST_TARGET=		check

@@ -16,6 +16,6 @@ WRKSRC=			${WRKDIR}/${PKGNAME_NOREV}
 GNU_CONFIGURE=		yes
 USE_PKGLOCALEDIR=	yes
 
-INFO_FILES=		help2man.info
+INFO_FILES=		# PLIST
 
 .include "../../mk/bsd.pkg.mk"

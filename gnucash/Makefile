@@ -33,7 +33,7 @@ BUILDLINK_TRANSFORM+=  rm:-Werror
 AM_MAKEFLAGS=		LIBTOOL='${LIBTOOL} ${LIBTOOL_FLAGS}'
 MAKE_ENV+=		AM_MAKEFLAGS=${AM_MAKEFLAGS:Q}
 
-INFO_FILES=		gnucash-design.info
+INFO_FILES=		# PLIST
 
 .include "../../mk/bsd.prefs.mk"
 .include "options.mk"

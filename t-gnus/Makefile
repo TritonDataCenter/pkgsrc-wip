@@ -19,8 +19,8 @@ CONFIGURE_ARGS+=	--with-etcdir=${PREFIX}/share/gnus
 BUILD_TARGET=		all-ja
 INSTALL_TARGET=		install-ja
 
-USE_MAKEINFO=		YES
-INFO_FILES=		t-gnus t-message t-emacs-mime t-sieve t-gnus-ja t-message-ja
+USE_TOOLS+=		makeinfo
+INFO_FILES=		# PLIST
 
 # last template is ${_FOOTER_TMPL} which is just 'exit 0'.  but conveniently
 # the pkgsrc graybeards have said INSTALL_SRC?=${INSTALL_TEMPLATES}.  insert

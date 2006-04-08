@@ -23,7 +23,7 @@ USE_TOOLS+=	gmake
 BUILD_TARGET=	scmlit
 
 SCM_DATA=	scm.info hobbit.info
-INFO_FILES=	${SCM_INFO}
+INFO_FILES=	# PLIST
 
 .if defined(USE_X) && defined(USE_NCURSES)
 .include "../../mk/x11.buildlink3.mk"
@@ -61,8 +61,7 @@ post-build:
 post-install:
 	${INSTALL_DATA} ${WRKSRC}/slibcat ${PREFIX}/share/scm
 .for file in ${SCM_INFO}
-	${INSTALL_DATA} ${WRKSRC}/${file} ${PREFIX}/info
-	${INSTALL_INFO} ${PREFIX}/info/${file} ${PREFIX}/info/dir
+	${INSTALL_DATA} ${WRKSRC}/${file} ${PREFIX}/${PKGINFODIR}
 .endfor
 
 .include "../../mk/bsd.pkg.mk"
