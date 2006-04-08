@@ -65,6 +65,8 @@ include/sl.h
 include/ss/ss.h
 include/timer.h
 include/xdbm.h
+info/arla.info
+info/send-pr.info
 lib/emacs/site-lisp/send-pr.el
 lib/libarlalib.la
 lib/libarlautil.la
