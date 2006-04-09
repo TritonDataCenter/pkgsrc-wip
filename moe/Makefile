@@ -21,7 +21,7 @@ USE_LANGUAGES=	c++
 CONF_FILES=		${PREFIX}/share/examples/moe/moerc \
 			${PKG_SYSCONFDIR}/moerc
 INSTALL_TARGET=		install install-man
-INSTALLATION_DIRS=	bin ${PKGMANDIR}/man1 info share/examples/moe
+INSTALLATION_DIRS=	bin ${PKGMANDIR}/man1 ${PKGINFODIR} share/examples/moe
 
 .include "../../devel/ncurses/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
