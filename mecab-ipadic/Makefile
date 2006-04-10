@@ -3,10 +3,10 @@
 
 .include "../../wip/mecab/Makefile.common"
 
-DISTNAME=	mecab-ipadic-2.7.0-20051110
-PKGNAME=	mecab-ipadic-2.7.0.20051110
+DISTNAME=	mecab-ipadic-2.7.0-20060408
+PKGNAME=	mecab-ipadic-2.7.0.20060408
 CATEGORIES=	japanese textproc
-MASTER_SITES=	${MASTER_SITE_SOURCEFORGE_JP:=mecab/18371/}
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE_JP:=mecab/19691/}
 
 MAINTAINER=	obata@lins.jp
 HOMEPAGE=	http://mecab.sourceforge.jp/
