@@ -16,7 +16,7 @@ GNU_CONFIGURE=		yes
 USE_LIBTOOL=		yes
 
 INCDIR=			${PREFIX}/include/common-mml
-DOCDIR=			${PREFIX}/share/doc/html/common-mml
+DOCDIR=			${PREFIX}/share/doc/common-mml
 
 do-install:
 	${INSTALL_DATA_DIR} ${INCDIR} ${DOCDIR}
