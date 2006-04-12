@@ -8,6 +8,7 @@
 # depend on those, if not just depend on this meta package
 
 DISTNAME=	modular-xorg-libs-7.0
+PKGREVISION=	2
 CATEGORIES=	meta-pkgs x11
 MASTER_SITES=	# empty
 DISTFILES=	# empty
@@ -17,6 +18,11 @@ COMMENT=	Meta package for modular X.org X libraries
 
 # todo: depend on specific versions or "nb" revisions
 DEPENDS+=	libX11>=0.99.0:../../wip/libX11
+DEPENDS+=	libXau>=0.99.0:../../wip/libXau
+DEPENDS+=	libXaw>=0.99.0:../../wip/libXaw
+DEPENDS+=	libXext>=0.99.0:../../wip/libXext
+DEPENDS+=	libXi>=1.0.0:../../wip/libXi
+DEPENDS+=	libXmu>=1.0.0:../../wip/libXmu
 DEPENDS+=	libXt>=0.99.2:../../wip/libXt
 
 EXTRACT_ONLY=	# empty
