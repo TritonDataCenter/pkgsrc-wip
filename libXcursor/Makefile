@@ -1,9 +1,9 @@
 # $NetBSD$
 #
 
-DISTNAME=		libXcursor-1.1.5
+DISTNAME=		libXcursor-1.1.5.2
 CATEGORIES=		x11 devel
-MASTER_SITES=		http://xorg.freedesktop.org/releases/X11R7.0-RC2/lib/
+MASTER_SITES=		http://xorg.freedesktop.org/releases/individual/lib/
 EXTRACT_SUFX=		.tar.bz2
 
 MAINTAINER=		tech-pkg@NetBSD.org
