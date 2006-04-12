@@ -1,7 +1,0 @@
-@comment $NetBSD$
-include/aura/buffer.h
-include/aura/dict.h
-include/aura/fspred.h
-include/aura/mem.h
-include/aura/popen.h
-lib/libaura.la
