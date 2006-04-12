@@ -1,5 +1,0 @@
-@comment $NetBSD$
-include/X11/extensions/XResproto.h
-lib/pkgconfig/resourceext.pc
-@exec ${MKDIR} %D/share/doc/XResource
-@dirrm share/doc/XResource
