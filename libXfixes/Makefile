@@ -2,9 +2,9 @@
 #
  ## this needs to be updated to modular Xorg
 
-DISTNAME=		libXfixes-3.0.0
+DISTNAME=		libXfixes-3.0.1.2
 CATEGORIES=		x11 devel
-MASTER_SITES=		http://xorg.freedesktop.org/releases/X11R7.0-RC1/lib/
+MASTER_SITES=		http://xorg.freedesktop.org/releases/individual/lib/
 EXTRACT_SUFX=		.tar.bz2
 
 MAINTAINER=		tech-pkg@NetBSD.org
