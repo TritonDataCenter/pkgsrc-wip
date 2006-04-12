@@ -7,7 +7,7 @@ MASTER_SITES=		http://xorg.freedesktop.org/releases/X11R7.0-RC2/lib/
 EXTRACT_SUFX=		.tar.bz2
 
 MAINTAINER=		tech-pkg@NetBSD.org
-HOMEPAGE=		http://xlibs.freedesktop.org/
+HOMEPAGE=		http://xorg.freedesktop.org/
 COMMENT=		X Session Management Library
 
 PKG_INSTALLATION_TYPES=	overwrite pkgviews
