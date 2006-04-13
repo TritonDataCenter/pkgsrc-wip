@@ -11,7 +11,7 @@ COMMENT=	Unicode aware Catalyst
 PERL5_REQD+=    5.8.1
 
 DEPENDS+=	p5-Catalyst>=5.2:../../wip/p5-Catalyst
-DEPENDS+=	{perl>=5.8.6,p5-Encode>=2.1}:../../wip/p5-Encode
+DEPENDS+=	{perl>=5.8.6,p5-Encode>=2.1}:../../textproc/p5-Encode
 
 PERL5_MODULE_TYPE=      Module::Build
 PERL5_PACKLIST= 	auto/Catalyst/Plugin/Unicode/Encoding/.packlist
