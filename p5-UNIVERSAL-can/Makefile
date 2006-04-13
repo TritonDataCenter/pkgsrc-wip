@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	UNIVERSAL-can-1.03
+DISTNAME=	UNIVERSAL-can-1.12
 PKGNAME=	p5-${DISTNAME}
 CATEGORIES=	devel perl5
 MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=../../authors/id/C/CH/CHROMATIC/}
@@ -10,9 +10,8 @@ HOMEPAGE=	http://search.cpan.org/dist/UNIVERSAL-can/
 COMMENT=	Hack around people calling UNIVERSAL::can() as a function
 PERL5_REQD+=	5.6.0
 
-BUILD_DEPENDS+=	p5-Scalar-List-Utils>=0:../../devel/p5-Scalar-List-Utils
-BUILD_DEPENDS+=	p5-Test-Simple>=0.60:../../devel/p5-Test-Simple
-BUILD_DEPENDS+=	p5-Test-Warn>=0.08:../../devel/p5-Test-Warn
+DEPENDS+=	p5-Scalar-List-Utils>=0:../../devel/p5-Scalar-List-Utils
+BUILD_DEPENDS+=	{perl>=5.7.3,p5-Test-Simple>=0.60}:../../devel/p5-Test-Simple
 
 PERL5_PACKLIST= auto/UNIVERSAL/can/.packlist
 
