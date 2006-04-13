@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	Time-Piece-Range-1.1
+DISTNAME=	Time-Piece-Range-1.2
 PKGNAME=	p5-${DISTNAME}
 CATEGORIES=	time perl5
 MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=Time/}
