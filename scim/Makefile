@@ -9,13 +9,11 @@ MAINTAINER=		rxg@NetBSD.org
 HOMEPAGE=		http://www.scim-im.org/
 COMMENT=		Smart Common Input Method
 
-BUILD_USES_MSGFMT=	yes
-
 PKG_SYSCONFSUBDIR=	scim
 
 USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=		yes
-USE_TOOLS+=		pkg-config
+USE_TOOLS+=		msgfmt pkg-config
 USE_TOOLS+=		gmake	# make scim-setup.desktop
 PKGCONFIG_OVERRIDE=	scim-gtkutils.pc.in
 PKGCONFIG_OVERRIDE+=	scim-x11utils.pc.in

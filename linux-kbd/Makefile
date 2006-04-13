@@ -14,9 +14,8 @@ COMMENT=		Keyboard and console utilities for Linux
 
 ONLY_FOR_PLATFORM=	Linux-*-* # Uses Linux kernel headers
 
-BUILD_USES_MSGFMT=	YES	# and xgettext
 HAS_CONFIGURE=		YES
-USE_TOOLS+=		gmake
+USE_TOOLS+=		gmake msgfmt # and xgettext
 USE_PKGLOCALEDIR=	YES
 
 CONFIGURE_ARGS+=	--prefix=${PREFIX:Q}

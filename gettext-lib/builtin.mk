@@ -171,22 +171,4 @@ CONFIGURE_ARGS+=	--without-libintl-prefix
 .  endif
 .endif
 
-.if defined(USE_MSGFMT_PLURALS) && !empty(USE_MSGFMT_PLURALS:M[Yy][Ee][Ss])
-USE_TOOLS+=		perl
-CONFIGURE_ENV+=		MSGFMT=${BUILDLINK_DIR}/bin/msgfmt
-
-SUBST_CLASSES+=			fix-msgfmt
-SUBST_STAGE.fix-msgfmt=		post-buildlink
-SUBST_MESSAGE.fix-msgfmt=	"Fixing paths in msgfmt wrapper."
-SUBST_FILES.fix-msgfmt=		${BUILDLINK_DIR}/bin/msgfmt
-SUBST_SED.fix-msgfmt=		-e 's|@PERL@|${PERL5}|g'
-SUBST_SED.fix-msgfmt+=		-e 's|@MSGFMT@|${BUILDLINK_PREFIX.gettext}/bin/msgfmt|g'
-
-BUILDLINK_TARGETS+=	buildlink-msgfmt
-
-buildlink-msgfmt:
-	@${CP} ../../wip/gettext/files/msgfmt.pl ${BUILDLINK_DIR}/bin/msgfmt
-	@${CHMOD} +x ${BUILDLINK_DIR}/bin/msgfmt
-.endif
-
 .endif	# CHECK_BUILTIN.gettext

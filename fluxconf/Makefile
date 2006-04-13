@@ -9,11 +9,11 @@ MAINTAINER=	tech-pkg@NetBSD.org
 HOMEPAGE=	http://devaux.fabien.free.fr/flux/
 COMMENT=	GTK based configuration tool for the fluxbox window manager
 
-BUILD_USES_MSGFMT=	yes
 DEPENDS+=		fluxbox-[0-9]*:../../wm/fluxbox
 
 GNU_CONFIGURE=		yes
 USE_PKGLOCALEDIR=	yes
+USE_TOOLS+=		msgfmt
 
 .include "../../x11/gtk2/buildlink3.mk"
 .include "../../mk/x11.buildlink3.mk"

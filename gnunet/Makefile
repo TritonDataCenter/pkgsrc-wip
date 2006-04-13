@@ -11,9 +11,7 @@ MAINTAINER=	pancake@phreaker.net
 HOMEPAGE=	http://www.ovmj.org/GNUnet/
 COMMENT=	Framework for secure p2p networking
 
-BUILD_USES_MSGFMT=	yes
-
-USE_TOOLS+=		gmake
+USE_TOOLS+=		gmake msgfmt
 GNU_CONFIGURE=		yes
 PLIST_SRC=		${WRKDIR}/PLIST.src
 USE_LIBTOOL=		yes

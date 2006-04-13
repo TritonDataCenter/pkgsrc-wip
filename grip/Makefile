@@ -9,10 +9,8 @@ MAINTAINER=		tech-pkg@NetBSD.org
 HOMEPAGE=		http://grip.sourceforge.net/
 COMMENT=		CD-player and CD-ripper for the Gnome desktop
 
-BUILD_USES_MSGFMT=	yes
-
 USE_DIRS+=		gnome2-1.5
-USE_TOOLS+=		gmake
+USE_TOOLS+=		gmake msgfmt
 USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=		yes
 GNU_CONFIGURE=		yes

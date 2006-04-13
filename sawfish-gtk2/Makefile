@@ -18,11 +18,10 @@ CONFLICTS+=		sawfish-replibs-*
 
 CONFIGURE_ENV+=		PKGLOCALEDIR=${PKGLOCALEDIR:Q}
 MAKE_ENV+=		PKGLOCALEDIR=${PKGLOCALEDIR:Q}
-BUILD_USES_MSGFMT=	YES
 GNU_CONFIGURE=		yes
 CONFIGURE_ARGS+=	--without-audiofile --without-esd
 
-USE_TOOLS+=		gmake makeinfo
+USE_TOOLS+=		gmake makeinfo msgfmt
 USE_PKGLOCALEDIR=	yes
 
 INFO_FILES=		# PLIST

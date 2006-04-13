@@ -11,9 +11,7 @@ MAINTAINER=		siflfran@hawo.stw.uni-erlangen.de
 HOMEPAGE=		http://www.kvirc.net/
 COMMENT=		QT based irc client
 
-BUILD_USES_MSGFMT=	yes
-
-USE_TOOLS+=		gmake automake
+USE_TOOLS+=		automake gmake msgfmt
 USE_LIBTOOL=		yes
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes

@@ -9,11 +9,10 @@ MAINTAINER=	david@dyn-ns.net
 HOMEPAGE=	http://gtkpod.sourceforge.net/
 COMMENT=	GUI for iPod using GTK2
 
-BUILD_USES_MSGFMT=	yes
-
 GNU_CONFIGURE=		yes
 USE_PKGLOCALEDIR=	yes
 USE_GNU_GETTEXT=	yes
+USE_TOOLS+=		msgfmt
 
 .include "../../audio/id3lib/buildlink3.mk"
 .include "../../devel/gettext-lib/buildlink3.mk"

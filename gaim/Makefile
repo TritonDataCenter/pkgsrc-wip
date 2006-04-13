@@ -9,12 +9,10 @@ MAINTAINER=	mjl@luckie.org.nz
 HOMEPAGE=	http://gaim.sourceforge.net/
 COMMENT=	GTK+ 2.x based multi-protocol instant messaging client
 
-BUILD_USES_MSGFMT=	yes
-
 CONFLICTS+=		gaim-gnome-[0-9]*
 
 USE_DIRS+=		xdg-1.1
-USE_TOOLS+=		gmake pkg-config
+USE_TOOLS+=		gmake msgfmt pkg-config
 USE_LIBTOOL=		yes
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
