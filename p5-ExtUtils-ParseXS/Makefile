@@ -7,12 +7,12 @@ MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=ExtUtils/}
 
 MAINTAINER=	kuli0020@umn.edu
 COMMENT=	Converts Perl XS code into C code
-PERL5_REQD+=    5.6.0
+PERL5_REQD+=	5.6.0
 
 DEPENDS+=	p5-ExtUtils-CBuilder>=0:../../wip/p5-ExtUtils-CBuilder
 
-PERL5_MODULE_TYPE=      Module::Build
-PERL5_PACKLIST= auto/ExtUtils/ParseXS/.packlist
+PERL5_MODULE_TYPE=	Module::Build
+PERL5_PACKLIST=	auto/ExtUtils/ParseXS/.packlist
 
 .include "../../lang/perl5/module.mk"
 .include "../../mk/bsd.pkg.mk"
