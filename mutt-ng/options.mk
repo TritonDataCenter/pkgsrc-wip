@@ -38,7 +38,7 @@ CONFIGURE_ARGS+=	--enable-gpgme
 
 .if !empty(PKG_OPTIONS:Msasl2)
 CONFIGURE_ARGS+=	--with-sasl2
-.include "../../security/cyrus-sasl2/buildlink3.mk"
+.include "../../security/cyrus-sasl/buildlink3.mk"
 .endif
 
 .if !empty(PKG_OPTIONS:Midn)

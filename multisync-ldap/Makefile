@@ -32,5 +32,5 @@ do-install:
 
 .include "../../devel/libgnomeui/buildlink3.mk"
 .include "../../databases/openldap/buildlink3.mk"
-.include "../../security/cyrus-sasl2/buildlink3.mk"
+.include "../../security/cyrus-sasl/buildlink3.mk"
 .include "../../wip/multisync/Makefile.common"

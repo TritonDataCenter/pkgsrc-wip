@@ -21,7 +21,7 @@ CONFIGURE_ENV+=		ac_cv_header_openssl_ssl_h=no
 ### Use SASLv2 for SMTP AUTH
 ###
 .if !empty(PKG_OPTIONS:Msasl)
-.	include "../../security/cyrus-sasl2/buildlink3.mk"
+.	include "../../security/cyrus-sasl/buildlink3.mk"
 CONFIGURE_ARGS+=	-enable-SASL
 CFLAGS+=		-DSM_USE_SASL
 .else
