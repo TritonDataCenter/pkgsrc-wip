@@ -9,7 +9,7 @@ MAINTAINER=	kuli0020@umn.edu
 HOMEPAGE=	http://search.cpan.org/dist/Email-MIME-Encodings
 COMMENT=	A unified interface to MIME encoding and decoding
 
-DEPENDS+=	p5-MIME-Base64>=0.00:../../converters/p5-MIME-Base64
+DEPENDS+=	p5-MIME-Base64>=3.05:../../converters/p5-MIME-Base64
 
 PERL5_PACKLIST= auto/Email/MIME/Encodings/.packlist
 
