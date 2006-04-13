@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	DBIx-Class-Loader-0.20
+DISTNAME=	DBIx-Class-Loader-0.21
 PKGNAME=	p5-${DISTNAME}
 CATEGORIES=	databases perl5
 MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=DBIx/}
