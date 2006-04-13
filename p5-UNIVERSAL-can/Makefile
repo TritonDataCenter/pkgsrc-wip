@@ -11,7 +11,7 @@ COMMENT=	Hack around people calling UNIVERSAL::can() as a function
 PERL5_REQD+=	5.6.0
 
 DEPENDS+=	p5-Scalar-List-Utils>=0:../../devel/p5-Scalar-List-Utils
-BUILD_DEPENDS+=	{perl>=5.7.3,p5-Test-Simple>=0.60}:../../devel/p5-Test-Simple
+BUILD_DEPENDS+=	p5-Test-Simple>=0.60:../../devel/p5-Test-Simple
 
 PERL5_PACKLIST= auto/UNIVERSAL/can/.packlist
 
