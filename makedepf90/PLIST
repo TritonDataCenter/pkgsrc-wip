@@ -1,3 +1,0 @@
-@comment $NetBSD$
-bin/makedepf90
-man/man1/makedepf90.1
