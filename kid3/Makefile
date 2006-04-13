@@ -18,6 +18,6 @@ CONFIGURE_ARGS+= --datadir=${PREFIX}/share/kde
 .include "../../meta-pkgs/kde3/kde3.mk"
 .include "../../audio/flac/buildlink3.mk"
 .include "../../audio/id3lib/buildlink3.mk"
-.include "../../audio/tunepimp/buildlink3.mk"
+.include "../../audio/libtunepimp/buildlink3.mk"
 .include "../../x11/kdelibs3/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
