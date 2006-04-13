@@ -12,7 +12,7 @@ COMMENT=	SQL Portability layer for LIMIT emulation
 DEPENDS+=	p5-DBI>=0:../../databases/p5-DBI
 DEPENDS+=	p5-SQL-Abstract>=1.2:../../databases/p5-SQL-Abstract
 DEPENDS+=	p5-Test-Exception>=0:../../devel/p5-Test-Exception
-BUILD_DEPENDS+=       {perl>=5.7.3,p5-Test-Simple>=0}:../../devel/p5-Test-Simple
+BUILD_DEPENDS+=	{perl>=5.7.3,p5-Test-Simple>=0}:../../devel/p5-Test-Simple
 
 PERL5_MODULE_TYPE=	Module::Build
 
