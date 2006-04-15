@@ -11,13 +11,13 @@
 
 name="pyaimt"
 rcvar=$name
+command=@PREFIX@/bin/PyAIMt
 command_interpreter="@PYTHONBIN@"
 required_files="@PKG_SYSCONFDIR@/pyaimt.xml"
-command="@PREFIX@/@TRANSPORTDIR@/PyAIMt.py"
 pyaimt_user="@JABBERD_USER@"
 pidfile="@JABBERD_PIDDIR@/${name}.pid"
 logfile="@JABBERD_LOGDIR@/${name}.log"
-command_args="-b -l ${logfile} -c ${required_files}"
+command_args="-b -l ${logfile}"
 stop_postcmd="remove_pidfile"
 start_precmd="ensure_piddir"
 
