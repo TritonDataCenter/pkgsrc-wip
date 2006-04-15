@@ -16,6 +16,7 @@ GNU_CONFIGURE=		yes
 USE_LIBTOOL=		yes
 USE_TOOLS+=		pkg-config
 
+CONFIGURE_ENV+=		APP_MAN_SUFFIX=1 LIB_MAN_SUFFIX=3
 PKGCONFIG_OVERRIDE+=	xt.pc.in
 
 .include "../../wip/libSM/buildlink3.mk"
