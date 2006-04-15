@@ -17,6 +17,7 @@ USE_LIBTOOL=		yes
 GNU_CONFIGURE=		yes
 USE_TOOLS+=		gmake pkg-config
 
+CONFIGURE_ARGS+=	--enable-man-pages=3
 PKGCONFIG_OVERRIDE+=	x11.pc.in
 
 .include "../../mk/pthread.buildlink3.mk"
