@@ -16,6 +16,7 @@ PKGCONFIG_OVERRIDE+=	${WRKSRC}/xaw6.pc.in
 PKGCONFIG_OVERRIDE+=	${WRKSRC}/xaw7.pc.in
 #TODO# PKGCONFIG_OVERRIDE+=	${WRKSRC}/xaw8.pc.in
 GNU_CONFIGURE=		yes
+CONFIGURE_ENV+=		LIB_MAN_SUFFIX=3
 
 # TODO: should this install all three versions? document in DESCR
 # TODO:            Xprint is required to build libXaw.so.8.
