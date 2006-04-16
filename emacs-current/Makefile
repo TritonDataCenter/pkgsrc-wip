@@ -6,8 +6,8 @@ CATEGORIES=	editors
 MASTER_SITES=	#
 
 MAINTAINER=	obata@lins.jp
-HOMEPAGE=	http://linux-igd.sourceforge.net/
-COMMENT=	Linux UPnP Internet Gateway Device
+HOMEPAGE=	http://www.gnu.org/software/emacs/emacs.html
+COMMENT=	GNU editing macros (editor)
 
 USE_TOOLS+=	gmake makeinfo
 
