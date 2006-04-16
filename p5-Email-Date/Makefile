@@ -12,7 +12,7 @@ COMMENT=	Find and Format Date Headers
 DEPENDS+=	{perl>=5.7.3,p5-Test-Simple>=0.47}:../../devel/p5-Test-Simple
 DEPENDS+=	p5-Email-Simple>=1.9:../../mail/p5-Email-Simple
 DEPENDS+=	p5-Time-Piece>=1.08:../../time/p5-Time-Piece
-DEPENDS+=	p5-Time-Local>=1.07:../../wip/p5-Time-Local
+DEPENDS+=	p5-Time-Local>=1.07:../../time/p5-Time-Local
 DEPENDS+=	p5-TimeDate>=1.16:../../time/p5-TimeDate
 
 PERL5_PACKLIST=	auto/Email/Date/.packlist
