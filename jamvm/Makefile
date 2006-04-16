@@ -12,10 +12,16 @@ COMMENT=		Compact Java Virtual Machine
 
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
+GNU_CONFIGURE_PREFIX=	${JAVA_HOME}
+GNU_CONFIGURE_MANDIR=	${PREFIX}/${PKGMANDIR}
+JAVA_HOME=		${PREFIX}/java/jamvm
+JAVA_NAME=		jamvm
+JAVA_WRAPPERS+=		java
+JAVA_WRAPPER_BIN.java=	${JAVA_HOME}/bin/jamvm
 CONFIGURE_ARGS+=	--with-classpath-install-dir=${PREFIX}/
 USE_TOOLS+=	gmake
 
-DEPENDS+=	classpath-0.19:../../lang/classpath
+DEPENDS+=	classpath>=0.19:../../lang/classpath
 
 .include "../../mk/bsd.prefs.mk"
 
@@ -30,4 +36,5 @@ MACHINE_GNU_PLATFORM=${MACHINE_ARCH}-foo-openbsd
 
 .include "../../devel/libffi/buildlink3.mk"
 .include "../../devel/zlib/buildlink3.mk"
+.include "../../mk/java-env.mk"
 .include "../../mk/bsd.pkg.mk"
