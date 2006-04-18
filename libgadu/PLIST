@@ -1,0 +1,8 @@
+@comment $NetBSD$
+include/libgadu-config.h
+include/libgadu.h
+lib/libgadu.a
+lib/libgadu.so
+lib/libgadu.so.3
+lib/libgadu.so.3.3
+lib/pkgconfig/libgadu.pc
