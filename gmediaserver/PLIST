@@ -1,4 +1,4 @@
 @comment $NetBSD$
 bin/gmediaserver
 man/man1/gmediaserver.1
-${PKGLOCALEDIR}/locale/sv/LC_MESSAGES/gmediaserver.mo
+share/locale/sv/LC_MESSAGES/gmediaserver.mo

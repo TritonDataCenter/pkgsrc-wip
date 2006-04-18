@@ -30,11 +30,11 @@ share/gtypist/t.typ
 share/gtypist/ttde.typ
 share/gtypist/u.typ
 share/gtypist/v.typ
-${PKGLOCALEDIR}/locale/cs/LC_MESSAGES/gtypist.mo
-${PKGLOCALEDIR}/locale/de/LC_MESSAGES/gtypist.mo
-${PKGLOCALEDIR}/locale/es/LC_MESSAGES/gtypist.mo
-${PKGLOCALEDIR}/locale/fi/LC_MESSAGES/gtypist.mo
-${PKGLOCALEDIR}/locale/fr/LC_MESSAGES/gtypist.mo
-${PKGLOCALEDIR}/locale/ru/LC_MESSAGES/gtypist.mo
-${PKGLOCALEDIR}/locale/zh_TW/LC_MESSAGES/gtypist.mo
+share/locale/cs/LC_MESSAGES/gtypist.mo
+share/locale/de/LC_MESSAGES/gtypist.mo
+share/locale/es/LC_MESSAGES/gtypist.mo
+share/locale/fi/LC_MESSAGES/gtypist.mo
+share/locale/fr/LC_MESSAGES/gtypist.mo
+share/locale/ru/LC_MESSAGES/gtypist.mo
+share/locale/zh_TW/LC_MESSAGES/gtypist.mo
 @dirrm share/gtypist

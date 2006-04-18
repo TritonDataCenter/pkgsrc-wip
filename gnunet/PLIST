@@ -67,4 +67,4 @@ man/man1/gnunet-transport-check.1
 man/man1/gnunet-update.1
 man/man1/gnunetd.1
 man/man5/gnunet.conf.5
-${PKGLOCALEDIR}/locale/de/LC_MESSAGES/GNUnet.mo
+share/locale/de/LC_MESSAGES/GNUnet.mo

@@ -214,11 +214,11 @@ share/heroes/tilesets/level09.pie
 share/heroes/tilesets/level10.glz
 share/heroes/tilesets/level10.pcx
 share/heroes/tilesets/level10.pie
-${PKGLOCALEDIR}/locale/de/LC_MESSAGES/heroes.mo
-${PKGLOCALEDIR}/locale/fr/LC_MESSAGES/heroes.mo
-${PKGLOCALEDIR}/locale/it/LC_MESSAGES/heroes.mo
-${PKGLOCALEDIR}/locale/nl/LC_MESSAGES/heroes.mo
-${PKGLOCALEDIR}/locale/pt_BR/LC_MESSAGES/heroes.mo
+share/locale/de/LC_MESSAGES/heroes.mo
+share/locale/fr/LC_MESSAGES/heroes.mo
+share/locale/it/LC_MESSAGES/heroes.mo
+share/locale/nl/LC_MESSAGES/heroes.mo
+share/locale/pt_BR/LC_MESSAGES/heroes.mo
 @dirrm share/heroes/tilesets
 @dirrm share/heroes/sfx
 @dirrm share/heroes/pics

@@ -11,6 +11,6 @@ include/tilp/timeout.h
 lib/libticables.la
 libdata/pkgconfig/ticables.pc
 man/man1/ticables-config.1
-${PKGLOCALEDIR}/locale/fr/LC_MESSAGES/libticables.mo
+share/locale/fr/LC_MESSAGES/libticables.mo
 @unexec ${RMDIR} libdata/pkgconfig || ${TRUE}
 @dirrm include/tilp

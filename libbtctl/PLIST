@@ -18,8 +18,8 @@ share/gtk-doc/html/libbtctl/index.sgml
 share/gtk-doc/html/libbtctl/libbtctl-btctl-discovery-source.html
 share/gtk-doc/html/libbtctl/libbtctl-obex-server-source.html
 share/gtk-doc/html/libbtctl/style.css
-${PKGLOCALEDIR}/locale/be/LC_MESSAGES/libbtctl.mo
-${PKGLOCALEDIR}/locale/en_GB/LC_MESSAGES/libbtctl.mo
+share/locale/be/LC_MESSAGES/libbtctl.mo
+share/locale/en_GB/LC_MESSAGES/libbtctl.mo
 @dirrm share/gtk-doc/html/libbtctl
 @dirrm share/gtk-doc/html
 @dirrm share/gtk-doc

@@ -2,7 +2,7 @@
 lib/scim-1.0/1.4.0/Helper/anthy-imengine-helper.la
 lib/scim-1.0/IMEngine/anthy.la
 lib/scim-1.0/SetupUI/anthy-imengine-setup.la
-${PKGLOCALEDIR}/locale/ja/LC_MESSAGES/scim-anthy.mo
+share/locale/ja/LC_MESSAGES/scim-anthy.mo
 share/scim/Anthy/style/101kana.sty
 share/scim/Anthy/style/atok.sty
 share/scim/Anthy/style/azik.sty

@@ -22,9 +22,9 @@ share/doc/grisbi/help/fr/previous_motif.gif
 share/doc/grisbi/help/fr/quickstart.html
 share/doc/grisbi/help/fr/topic.dat
 share/doc/grisbi/help/fr/translation.html
-${PKGLOCALEDIR}/locale/de/LC_MESSAGES/grisbi.mo
-${PKGLOCALEDIR}/locale/fr/LC_MESSAGES/grisbi.mo
-${PKGLOCALEDIR}/locale/pt_BR/LC_MESSAGES/grisbi.mo
+share/locale/de/LC_MESSAGES/grisbi.mo
+share/locale/fr/LC_MESSAGES/grisbi.mo
+share/locale/pt_BR/LC_MESSAGES/grisbi.mo
 share/mime-info/grisbi.keys
 share/mime-info/grisbi.mime
 share/pixmaps/grisbi/addresses.png

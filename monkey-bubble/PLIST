@@ -9,8 +9,8 @@ lib/libmonkey.la
 lib/libmonkeyutil.la
 lib/libnetcltmonkey.la
 share/applications/monkey-bubble.desktop
-${PKGLOCALEDIR}/locale/de/LC_MESSAGES/monkey-bubble.mo
-${PKGLOCALEDIR}/locale/fr/LC_MESSAGES/monkey-bubble.mo
+share/locale/de/LC_MESSAGES/monkey-bubble.mo
+share/locale/fr/LC_MESSAGES/monkey-bubble.mo
 share/monkey-bubble/gfx/banana.svg
 share/monkey-bubble/gfx/bubbles/bubble_01.svg
 share/monkey-bubble/gfx/bubbles/bubble_02.svg

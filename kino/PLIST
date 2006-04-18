@@ -74,11 +74,11 @@ share/kino/timeline.png
 share/kino/trim.png
 share/kino/trim_in.xpm
 share/kino/trim_out.xpm
-${PKGLOCALEDIR}/locale/cs/LC_MESSAGES/kino.mo
-${PKGLOCALEDIR}/locale/da/LC_MESSAGES/kino.mo
-${PKGLOCALEDIR}/locale/es/LC_MESSAGES/kino.mo
-${PKGLOCALEDIR}/locale/fr/LC_MESSAGES/kino.mo
-${PKGLOCALEDIR}/locale/sv/LC_MESSAGES/kino.mo
+share/locale/cs/LC_MESSAGES/kino.mo
+share/locale/da/LC_MESSAGES/kino.mo
+share/locale/es/LC_MESSAGES/kino.mo
+share/locale/fr/LC_MESSAGES/kino.mo
+share/locale/sv/LC_MESSAGES/kino.mo
 share/pixmaps/kino.png
 @comment in xdg-dirs: @dirrm share/pixmaps
 @dirrm share/kino/scripts/publish

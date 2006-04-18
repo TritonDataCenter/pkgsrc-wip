@@ -1,7 +1,7 @@
 @comment $NetBSD$
 lib/scim-1.0/IMEngine/chewing.la
 lib/scim-1.0/SetupUI/chewing-imengine-setup.la
-${PKGLOCALEDIR}/locale/zh_TW/LC_MESSAGES/scim-chewing.mo
+share/locale/zh_TW/LC_MESSAGES/scim-chewing.mo
 share/scim/icons/scim-chewing.png
 @dirrm lib/scim-1.0/SetupUI
 @dirrm lib/scim-1.0/IMEngine

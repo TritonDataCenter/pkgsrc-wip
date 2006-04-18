@@ -5,11 +5,11 @@ man/man5/mailfilterex.5
 man/man5/mailfilterrc.5
 share/doc/mailfilter/FAQ
 share/doc/mailfilter/INSTALL
-${PKGLOCALEDIR}/locale/de/LC_MESSAGES/mailfilter.mo
-${PKGLOCALEDIR}/locale/el/LC_MESSAGES/mailfilter.mo
-${PKGLOCALEDIR}/locale/es/LC_MESSAGES/mailfilter.mo
-${PKGLOCALEDIR}/locale/fr/LC_MESSAGES/mailfilter.mo
-${PKGLOCALEDIR}/locale/it/LC_MESSAGES/mailfilter.mo
-${PKGLOCALEDIR}/locale/pt_BR/LC_MESSAGES/mailfilter.mo
-${PKGLOCALEDIR}/locale/ru/LC_MESSAGES/mailfilter.mo
+share/locale/de/LC_MESSAGES/mailfilter.mo
+share/locale/el/LC_MESSAGES/mailfilter.mo
+share/locale/es/LC_MESSAGES/mailfilter.mo
+share/locale/fr/LC_MESSAGES/mailfilter.mo
+share/locale/it/LC_MESSAGES/mailfilter.mo
+share/locale/pt_BR/LC_MESSAGES/mailfilter.mo
+share/locale/ru/LC_MESSAGES/mailfilter.mo
 @dirrm share/doc/mailfilter

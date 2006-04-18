@@ -244,14 +244,14 @@ sbin/usermod
 sbin/vipw
 ${PAM}share/examples/shadow/shadow.pam
 ${PAM}share/examples/shadow/useradd.pam
-${PKGLOCALEDIR}/locale/cs/LC_MESSAGES/shadow.mo
-${PKGLOCALEDIR}/locale/de/LC_MESSAGES/shadow.mo
-${PKGLOCALEDIR}/locale/el/LC_MESSAGES/shadow.mo
-${PKGLOCALEDIR}/locale/fr/LC_MESSAGES/shadow.mo
-${PKGLOCALEDIR}/locale/ja/LC_MESSAGES/shadow.mo
-${PKGLOCALEDIR}/locale/ko/LC_MESSAGES/shadow.mo
-${PKGLOCALEDIR}/locale/pl/LC_MESSAGES/shadow.mo
-${PKGLOCALEDIR}/locale/ru/LC_MESSAGES/shadow.mo
-${PKGLOCALEDIR}/locale/sv/LC_MESSAGES/shadow.mo
-${PKGLOCALEDIR}/locale/uk/LC_MESSAGES/shadow.mo
+share/locale/cs/LC_MESSAGES/shadow.mo
+share/locale/de/LC_MESSAGES/shadow.mo
+share/locale/el/LC_MESSAGES/shadow.mo
+share/locale/fr/LC_MESSAGES/shadow.mo
+share/locale/ja/LC_MESSAGES/shadow.mo
+share/locale/ko/LC_MESSAGES/shadow.mo
+share/locale/pl/LC_MESSAGES/shadow.mo
+share/locale/ru/LC_MESSAGES/shadow.mo
+share/locale/sv/LC_MESSAGES/shadow.mo
+share/locale/uk/LC_MESSAGES/shadow.mo
 ${PAM}@dirrm share/examples/shadow

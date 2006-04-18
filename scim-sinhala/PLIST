@@ -1,5 +1,5 @@
 @comment $NetBSD$
 lib/scim-1.0/IMEngine/sinhala.la
-${PKGLOCALEDIR}/locale/ja/LC_MESSAGES/scim-sinhala.mo
+share/locale/ja/LC_MESSAGES/scim-sinhala.mo
 share/scim/icons/scim-sinhala.png
 @dirrm lib/scim-1.0/IMEngine

@@ -1,6 +1,6 @@
 @comment $NetBSD$
 bin/urlgfe
 share/applications/urlgfe.desktop
-${PKGLOCALEDIR}/locale/zh_CN/LC_MESSAGES/urlgfe.mo
-${PKGLOCALEDIR}/locale/zh_TW/LC_MESSAGES/urlgfe.mo
+share/locale/zh_CN/LC_MESSAGES/urlgfe.mo
+share/locale/zh_TW/LC_MESSAGES/urlgfe.mo
 share/pixmaps/urlgfe-icon.png

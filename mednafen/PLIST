@@ -2,6 +2,6 @@
 bin/mednafen
 @comment belongs to libiconv: lib/charset.alias
 share/doc/mednafen/mednafen.html
-${PKGLOCALEDIR}/locale/es/LC_MESSAGES/mednafen.mo
-${PKGLOCALEDIR}/locale/ru/LC_MESSAGES/mednafen.mo
+share/locale/es/LC_MESSAGES/mednafen.mo
+share/locale/ru/LC_MESSAGES/mednafen.mo
 @dirrm share/doc/mednafen
