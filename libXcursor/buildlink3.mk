@@ -17,7 +17,7 @@ BUILDLINK_PACKAGES+=			libXcursor
 BUILDLINK_API_DEPENDS.libXcursor+=		libXcursor>=1.1.1
 BUILDLINK_PKGSRCDIR.libXcursor?=		../../wip/libXcursor
 
-.include "../../wip/xproto/buildlink3.mk"
+.include "../../x11/xproto/buildlink3.mk"
 .include "../../wip/libX11/buildlink3.mk"
 .include "../../wip/libXrender/buildlink3.mk"
 .include "../../wip/libXfixes/buildlink3.mk"

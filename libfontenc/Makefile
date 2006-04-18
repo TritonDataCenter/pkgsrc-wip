@@ -15,6 +15,6 @@ USE_TOOLS+=		pkg-config
 PKGCONFIG_OVERRIDE+=	${WRKSRC}/fontenc.pc.in
 GNU_CONFIGURE=		yes
 
-.include "../../wip/xproto/buildlink3.mk"
+.include "../../x11/xproto/buildlink3.mk"
 
 .include "../../mk/bsd.pkg.mk"

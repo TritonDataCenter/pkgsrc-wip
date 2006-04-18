@@ -21,7 +21,7 @@ BUILDLINK_PKGSRCDIR.libX11?=		../../wip/libX11
 LIBS+=		${BUILDLINK_LDADD.pthread}
 
 # as listed in x11.pc pkgconfig file
-.include "../../wip/xproto/buildlink3.mk"
+.include "../../x11/xproto/buildlink3.mk"
 .include "../../wip/kbproto/buildlink3.mk"
 .include "../../wip/inputproto/buildlink3.mk"
 .include "../../wip/libXau/buildlink3.mk"

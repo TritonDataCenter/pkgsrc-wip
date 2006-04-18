@@ -17,6 +17,6 @@ BUILDLINK_API_DEPENDS.scrnsaverproto+=	scrnsaverproto>=1.0.1
 BUILDLINK_PKGSRCDIR.scrnsaverproto?=	../../wip/scrnsaverproto
 .endif	# SCRNSAVERPROTO_BUILDLINK3_MK
 
-.include "../../wip/xproto/buildlink3.mk"
+.include "../../x11/xproto/buildlink3.mk"
 
 BUILDLINK_DEPTH:=     ${BUILDLINK_DEPTH:S/+$//}

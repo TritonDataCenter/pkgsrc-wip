@@ -18,7 +18,7 @@ BUILDLINK_API_DEPENDS.libXrender+=		libXrender>=0.9.0
 BUILDLINK_PKGSRCDIR.libXrender?=		../../wip/libXrender
 
 .include "../../wip/libX11/buildlink3.mk"
-.include "../../wip/renderproto/buildlink3.mk"
+.include "../../x11/renderproto/buildlink3.mk"
 
 .endif # LIBXRENDER_BUILDLINK3_MK
 

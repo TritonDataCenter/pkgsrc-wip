@@ -15,7 +15,7 @@ BUILDLINK_API_DEPENDS.libXpm+=	libXpm>=3.5.4.2
 BUILDLINK_PKGSRCDIR.libXpm?=	../../wip/libXpm
 .endif	# LIBXPM_BUILDLINK3_MK
 
-#.include "../../wip/xproto/buildlink3.mk"
+#.include "../../x11/xproto/buildlink3.mk"
 .include "../../wip/libX11/buildlink3.mk"
 
 BUILDLINK_DEPTH:=     ${BUILDLINK_DEPTH:S/+$//}

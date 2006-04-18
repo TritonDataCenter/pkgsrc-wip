@@ -21,6 +21,6 @@ BUILDLINK_PKGSRCDIR.libXv?=		../../wip/libXv
 .include "../../wip/libX11/buildlink3.mk"
 .include "../../wip/libXext/buildlink3.mk"
 .include "../../wip/videoproto/buildlink3.mk"
-.include "../../wip/xproto/buildlink3.mk"
+.include "../../x11/xproto/buildlink3.mk"
 
 BUILDLINK_DEPTH:=     ${BUILDLINK_DEPTH:S/+$//}

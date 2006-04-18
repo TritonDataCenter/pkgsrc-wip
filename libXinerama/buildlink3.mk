@@ -17,7 +17,7 @@ BUILDLINK_PKGSRCDIR.libXinerama?=	../../wip/libXinerama
 
 .include "../../wip/libX11/buildlink3.mk"
 .include "../../wip/libXext/buildlink3.mk"
-.include "../../wip/xextproto/buildlink3.mk"
+.include "../../x11/xextproto/buildlink3.mk"
 .include "../../wip/xineramaproto/buildlink3.mk"
 
 BUILDLINK_DEPTH:=     ${BUILDLINK_DEPTH:S/+$//}

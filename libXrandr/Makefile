@@ -17,10 +17,10 @@ USE_TOOLS+=		pkg-config
 PKGCONFIG_OVERRIDE+=	xrandr.pc.in
 
 .include "../../wip/libX11/buildlink3.mk"
-.include "../../wip/randrproto/buildlink3.mk"
-.include "../../wip/renderproto/buildlink3.mk"
+.include "../../x11/randrproto/buildlink3.mk"
+.include "../../x11/renderproto/buildlink3.mk"
 .include "../../wip/libXext/buildlink3.mk"
-.include "../../wip/xextproto/buildlink3.mk"
+.include "../../x11/xextproto/buildlink3.mk"
 .include "../../wip/libXrender/buildlink3.mk"
 
 .include "../../mk/bsd.pkg.mk"

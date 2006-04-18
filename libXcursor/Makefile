@@ -16,8 +16,8 @@ USE_TOOLS+=		pkg-config
 
 PKGCONFIG_OVERRIDE+=	xcursor.pc.in
 
-.include "../../wip/fixesproto/buildlink3.mk"
-.include "../../wip/xproto/buildlink3.mk"
+.include "../../x11/fixesproto/buildlink3.mk"
+.include "../../x11/xproto/buildlink3.mk"
 .include "../../wip/libX11/buildlink3.mk"
 .include "../../wip/libXfixes/buildlink3.mk"
 .include "../../wip/libXrender/buildlink3.mk"

@@ -14,6 +14,6 @@ GNU_CONFIGURE=		yes
 PKGCONFIG_OVERRIDE+=	${WRKSRC}/scrnsaverproto.pc.in
 USE_LANGUAGES=		# empty
 
-.include "../../wip/xproto/buildlink3.mk"
+.include "../../x11/xproto/buildlink3.mk"
 
 .include "../../mk/bsd.pkg.mk"

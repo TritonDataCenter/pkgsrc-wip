@@ -15,7 +15,7 @@ BUILDLINK_API_DEPENDS.libXaw+=	libXaw>=1.0.1
 BUILDLINK_PKGSRCDIR.libXaw?=	../../wip/libXaw
 .endif	# LIBXAW_BUILDLINK3_MK
 
-.include "../../wip/xextproto/buildlink3.mk"
+.include "../../x11/xextproto/buildlink3.mk"
 .include "../../wip/libICE/buildlink3.mk"
 .include "../../wip/libSM/buildlink3.mk"
 .include "../../wip/libX11/buildlink3.mk"

@@ -18,7 +18,7 @@ USE_TOOLS+=		pkg-config
 
 PKGCONFIG_OVERRIDE+=	ice.pc.in
 
-.include "../../wip/xproto/buildlink3.mk"
+.include "../../x11/xproto/buildlink3.mk"
 .include "../../wip/xtrans/buildlink3.mk"
 #.include "../../mk/pthread.buildlink3.mk"
 

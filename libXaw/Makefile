@@ -21,8 +21,8 @@ CONFIGURE_ENV+=		LIB_MAN_SUFFIX=3
 # TODO: should this install all three versions? document in DESCR
 # TODO:            Xprint is required to build libXaw.so.8.
 
-.include "../../wip/xproto/buildlink3.mk"
-.include "../../wip/xextproto/buildlink3.mk"
+.include "../../x11/xproto/buildlink3.mk"
+.include "../../x11/xextproto/buildlink3.mk"
 .include "../../wip/libICE/buildlink3.mk"
 .include "../../wip/libSM/buildlink3.mk"
 .include "../../wip/libX11/buildlink3.mk"

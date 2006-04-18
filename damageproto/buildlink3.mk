@@ -17,7 +17,7 @@ BUILDLINK_API_DEPENDS.damageproto+=	damageproto>=1.0.1
 BUILDLINK_PKGSRCDIR.damageproto?=	../../wip/damageproto
 .endif	# DAMAGEPROTO_BUILDLINK3_MK
 
-.include "../../wip/xproto/buildlink3.mk"
-.include "../../wip/fixesproto/buildlink3.mk"
+.include "../../x11/xproto/buildlink3.mk"
+.include "../../x11/fixesproto/buildlink3.mk"
 
 BUILDLINK_DEPTH:=		${BUILDLINK_DEPTH:S/+$//}

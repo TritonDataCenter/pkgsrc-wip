@@ -17,7 +17,7 @@ BUILDLINK_PKGSRCDIR.libXrandr?=		../../wip/libXrandr
 
 .include "../../wip/libX11/buildlink3.mk"
 .include "../../wip/libXext/buildlink3.mk"
-.include "../../wip/randrproto/buildlink3.mk"
+.include "../../x11/randrproto/buildlink3.mk"
 
 .endif # LIBXRANDR_BUILDLINK3_MK
 

@@ -17,6 +17,6 @@ BUILDLINK_API_DEPENDS.xf86vidmodeproto+=	xf86vidmodeproto>=2.2.1
 BUILDLINK_PKGSRCDIR.xf86vidmodeproto?=	../../wip/xf86vidmodeproto
 .endif	# XF86VIDMODEPROTO_BUILDLINK3_MK
 
-.include "../../wip/xproto/buildlink3.mk"
+.include "../../x11/xproto/buildlink3.mk"
 
 BUILDLINK_DEPTH:=     ${BUILDLINK_DEPTH:S/+$//}

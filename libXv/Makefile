@@ -20,6 +20,6 @@ USE_TOOLS+=		pkg-config
 .include "../../wip/libX11/buildlink3.mk"
 .include "../../wip/libXext/buildlink3.mk"
 .include "../../wip/videoproto/buildlink3.mk"
-.include "../../wip/xextproto/buildlink3.mk"
+.include "../../x11/xextproto/buildlink3.mk"
 
 .include "../../mk/bsd.pkg.mk"

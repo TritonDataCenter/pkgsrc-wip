@@ -17,6 +17,6 @@ BUILDLINK_API_DEPENDS.xf86miscproto+=	xf86miscproto>=0.9.1
 BUILDLINK_PKGSRCDIR.xf86miscproto?=	../../wip/xf86miscproto
 .endif	# XF86MISCPROTO_BUILDLINK3_MK
 
-.include "../../wip/xproto/buildlink3.mk"
+.include "../../x11/xproto/buildlink3.mk"
 
 BUILDLINK_DEPTH:=     ${BUILDLINK_DEPTH:S/+$//}

@@ -16,7 +16,7 @@ BUILDLINK_PKGSRCDIR.libXres?=		../../wip/libXres
 
 .include "../../wip/libX11/buildlink3.mk"
 .include "../../wip/libXext/buildlink3.mk"
-.include "../../wip/xproto/buildlink3.mk"
+.include "../../x11/xproto/buildlink3.mk"
 
 .endif # LIBXRES_BUILDLINK3_MK
 

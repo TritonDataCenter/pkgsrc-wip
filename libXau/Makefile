@@ -20,5 +20,5 @@ USE_TOOLS+=		pkg-config
 
 PKGCONFIG_OVERRIDE+=	xau.pc.in
 
-.include "../../wip/xproto/buildlink3.mk"
+.include "../../x11/xproto/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

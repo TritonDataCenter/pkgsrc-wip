@@ -18,7 +18,7 @@ BUILDLINK_API_DEPENDS.libXfont+=		libXfont>=0.99.0
 BUILDLINK_PKGSRCDIR.libXfont?=		../../wip/libXfont
 
 .include "../../wip/libX11/buildlink3.mk"
-.include "../../wip/xproto/buildlink3.mk"
+.include "../../x11/xproto/buildlink3.mk"
 
 .endif # LIBXFONT_BUILDLINK3_MK
 

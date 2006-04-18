@@ -22,7 +22,7 @@ PKGCONFIG_OVERRIDE+=	xfont.pc.in
 .include "../../wip/fontcacheproto/buildlink3.mk"
 .include "../../wip/libfontenc/buildlink3.mk"
 .include "../../wip/fontsproto/buildlink3.mk"
-.include "../../wip/xproto/buildlink3.mk"
+.include "../../x11/xproto/buildlink3.mk"
 .include "../../wip/xtrans/buildlink3.mk"
 
 .include "../../mk/bsd.pkg.mk"

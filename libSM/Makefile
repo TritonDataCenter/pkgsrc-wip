@@ -22,7 +22,7 @@ PKGCONFIG_OVERRIDE+=	sm.pc.in
 #.include "../../mk/pthread.buildlink3.mk"
 
 .include "../../wip/libICE/buildlink3.mk"
-.include "../../wip/xproto/buildlink3.mk"
+.include "../../x11/xproto/buildlink3.mk"
 .include "../../wip/xtrans/buildlink3.mk"
 
 .include "../../mk/bsd.pkg.mk"

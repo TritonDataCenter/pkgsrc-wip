@@ -32,7 +32,7 @@ BUILDLINK_PKGSRCDIR.modular-xorg-libs?=		../../wip/modular-xorg-libs
 .include "../../wip/libXinerama/buildlink3.mk"
 .include "../../wip/libXmu/buildlink3.mk"
 .include "../../wip/libXt/buildlink3.mk"
-.include "../../wip/xextproto/buildlink3.mk"
+.include "../../x11/xextproto/buildlink3.mk"
 
 #.include "../../devel/zlib/buildlink3.mk"
 #.include "../../fonts/fontconfig/buildlink3.mk"

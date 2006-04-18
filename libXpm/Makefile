@@ -20,6 +20,6 @@ PKGCONFIG_OVERRIDE+=	${WRKSRC}/xpm.pc.in
 GNU_CONFIGURE=		yes
 CONFIGURE_ENV+=		APP_MAN_SUFFIX=1
 
-.include "../../wip/xproto/buildlink3.mk"
+.include "../../x11/xproto/buildlink3.mk"
 .include "../../wip/libX11/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
