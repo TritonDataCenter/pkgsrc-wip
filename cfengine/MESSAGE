@@ -6,10 +6,10 @@ ${PREFIX}/share/doc/html/cfengine/cfengine-Tutorial.html
 
 At a minimum, you will need:
 
-1. /var/cfengine/inputs/update.conf
+1. ${VARBASE}/cfengine/inputs/update.conf
 
 2. Manually add the "cfengine" service to /etc/services or
-   automate it in /var/cfengine/inputs/cfagent.conf:
+   automate it in ${VARBASE}/cfengine/inputs/cfagent.conf:
 
 editfiles:
 
