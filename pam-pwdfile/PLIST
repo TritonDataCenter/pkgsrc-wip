@@ -1,5 +1,5 @@
 @comment $NetBSD$
-lib/security/pam_pwdfile.so
+lib/security/pam_pwdfile.la
 share/doc/pam-pwdfile/README
 share/doc/pam-pwdfile/changelog
 @dirrm share/doc/pam-pwdfile
