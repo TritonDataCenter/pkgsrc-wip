@@ -17,7 +17,6 @@ BUILD_DEFS+=		USE_INET6
 CONFIGURE_ARGS+=	--with-berkeleydb=${BUILDLINK_PREFIX.db4}
 CONFIGURE_ARGS+=	--with-openssl=${BUILDLINK_PREFIX.openssl}
 
-USE_PKGINSTALL=		YES
 RCD_SCRIPTS=		cfexecd cfservd cfenvd
 
 .if (!empty(PKG_OPTIONS:Mnopthread))
