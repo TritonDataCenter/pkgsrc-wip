@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		postoffice-1.3.pre3
-PKGNAME=		postoffice-1.3.3
+PKGNAME=		postoffice-1.3
 CATEGORIES=		mail
 MASTER_SITES=		http://www.tsfr.org/~orc/Code/postoffice/
 
