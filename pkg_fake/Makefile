@@ -26,6 +26,6 @@ do-extract:
 
 do-install:
 	${INSTALL_SCRIPT} ${WRKSRC:Q}/pkg_fake ${PREFIX:Q}/sbin/
-	${INSTALL_MAN} ${WRKSRC:Q}/pkg_fake.1 ${PREFIX:Q}/man/man1/
+	${INSTALL_MAN} ${WRKSRC:Q}/pkg_fake.1 ${PREFIX:Q}/${PKGMANDIR}/man1/
 
 .include "../../mk/bsd.pkg.mk"

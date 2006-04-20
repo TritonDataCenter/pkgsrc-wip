@@ -64,7 +64,7 @@ pre-configure:
 
 do-install:
 		${INSTALL_PROGRAM} ${WRKSRC}/sarg ${PREFIX}/sbin
-		${INSTALL_MAN} ${WRKSRC}/sarg.1 ${PREFIX}/man/man1
+		${INSTALL_MAN} ${WRKSRC}/sarg.1 ${PREFIX}/${PKGMANDIR}/man1
 		${INSTALL_DATA_DIR} ${EGDIR}
 		${INSTALL_DATA_DIR} ${DATADIR}/fonts
 		${INSTALL_DATA_DIR} ${DATADIR}/images

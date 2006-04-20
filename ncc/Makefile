@@ -21,7 +21,7 @@ do-install:
 	${LN} -s nccnav ${PREFIX}/bin/nccnavi
 	${INSTALL_DATA_DIR} ${PREFIX}/share/ncc
 	${INSTALL_DATA} ${WRKSRC}/doc/nognu ${PREFIX}/share/ncc
-	${INSTALL_MAN} ${WRKSRC}/ncc.1 ${PREFIX}/man/man1
+	${INSTALL_MAN} ${WRKSRC}/ncc.1 ${PREFIX}/${PKGMANDIR}/man1
 	${INSTALL_DATA_DIR} ${PREFIX}/share/doc/ncc
 	${INSTALL_DATA} ${WRKSRC}/doc/KEYS.txt ${PREFIX}/share/doc/ncc
 	${INSTALL_DATA} ${WRKSRC}/doc/TROUBLES ${PREFIX}/share/doc/ncc

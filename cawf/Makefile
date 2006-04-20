@@ -32,8 +32,8 @@ do-install:
 	${INSTALL_DATA}	${WRKSRC}/ms.mac ${CAWFLIB}
 	${INSTALL_PROGRAM} ${WRKSRC}/cawf ${PREFIX}/bin/
 	${INSTALL_PROGRAM} ${WRKSRC}/bsfilt ${PREFIX}/bin/
-	${INSTALL_MAN} ${WRKSRC}/cawf.1 ${PREFIX}/man/man1/cawf.1
-	${INSTALL_MAN} ${WRKSRC}/bsfilt.1 ${PREFIX}/man/man1/bsfilt.1
+	${INSTALL_MAN} ${WRKSRC}/cawf.1 ${PREFIX}/${PKGMANDIR}/man1/cawf.1
+	${INSTALL_MAN} ${WRKSRC}/bsfilt.1 ${PREFIX}/${PKGMANDIR}/man1/bsfilt.1
 	${INSTALL_DATA_DIR} ${PREFIX}/share/doc/cawf
 	${INSTALL_DATA} ${WRKSRC}/00readme ${PREFIX}/share/doc/cawf/README
 	${INSTALL_DATA} ${WRKSRC}/00diffs ${PREFIX}/share/doc/cawf/roff-differences.txt

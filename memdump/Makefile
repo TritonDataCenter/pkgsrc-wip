@@ -14,6 +14,6 @@ BUILD_TARGET=		what
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/memdump ${PREFIX}/sbin
-	${INSTALL_MAN} ${WRKSRC}/memdump.1 ${PREFIX}/man/man1/
+	${INSTALL_MAN} ${WRKSRC}/memdump.1 ${PREFIX}/${PKGMANDIR}/man1/
 
 .include "../../mk/bsd.pkg.mk"

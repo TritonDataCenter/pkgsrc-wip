@@ -23,7 +23,7 @@ pre-configure:
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/src/ices ${PREFIX}/bin/${PKGBASE}
-	${INSTALL_MAN} ${WRKSRC}/debian/ices2.1 ${PREFIX}/man/man1/${PKGBASE}.1
+	${INSTALL_MAN} ${WRKSRC}/debian/ices2.1 ${PREFIX}/${PKGMANDIR}/man1/${PKGBASE}.1
 	${INSTALL_DATA_DIR} ${DOCDIR}
 	for i in basic.html config.html faq.html index.html inputs.html \
 		intro.html style.css ; \

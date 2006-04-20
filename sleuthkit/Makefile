@@ -17,7 +17,7 @@ do-install:
 	${INSTALL_SCRIPT} ${WRKSRC}/bin/mactime ${PREFIX}/bin/
 	${RM} ${WRKSRC}/bin/mactime
 	${INSTALL_PROGRAM} ${WRKSRC}/bin/* ${PREFIX}/bin/
-	${INSTALL_MAN} ${WRKSRC}/man/man1/* ${PREFIX}/man/man1/
+	${INSTALL_MAN} ${WRKSRC}/man/man1/* ${PREFIX}/${PKGMANDIR}/man1/
 	${INSTALL_DATA_DIR} ${PREFIX}/share/sorter/
 	${INSTALL_DATA} ${WRKSRC}/share/sorter/* ${PREFIX}/share/sorter
 	${INSTALL_DATA_DIR} ${PREFIX}/share/doc/sleuthkit/

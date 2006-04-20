@@ -50,9 +50,9 @@ do-install:
 	${INSTALL_PROGRAM} ${WRKSRC:Q}/l2tpd ${PREFIX:Q}/bin
 	${INSTALL_DATA_DIR} ${DOCDIR:Q}
 	${INSTALL_DATA} ${WRKSRC:Q}/README ${DOCDIR:Q}
-	${INSTALL_MAN} ${WRKSRC:Q}/doc/l2tpd.8 ${PREFIX:Q}/man/man8
-	${INSTALL_MAN} ${WRKSRC:Q}/doc/l2tp-secrets.5 ${PREFIX:Q}/man/man5
-	${INSTALL_MAN} ${WRKSRC:Q}/doc/l2tpd.conf.5 ${PREFIX:Q}/man/man5
+	${INSTALL_MAN} ${WRKSRC:Q}/doc/l2tpd.8 ${PREFIX:Q}/${PKGMANDIR}/man8
+	${INSTALL_MAN} ${WRKSRC:Q}/doc/l2tp-secrets.5 ${PREFIX:Q}/${PKGMANDIR}/man5
+	${INSTALL_MAN} ${WRKSRC:Q}/doc/l2tpd.conf.5 ${PREFIX:Q}/${PKGMANDIR}/man5
 	${INSTALL_DATA_DIR} ${EGDIR:Q}
 	${INSTALL_DATA} ${WRKSRC:Q}/doc/l2tpd.conf.sample ${EGDIR:Q}
 	${INSTALL_DATA} ${WRKSRC:Q}/doc/l2tp-secrets.sample ${EGDIR:Q}

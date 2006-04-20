@@ -47,7 +47,7 @@ SUBST_SED.defpath+= -e 's,config,${PREFIX}/etc/sara/,g'
 
 do-install:
 	${INSTALL_SCRIPT} ${WRKSRC}/sara ${PREFIX}/bin/
-	${INSTALL_MAN} ${WRKSRC}/sara.8  ${PREFIX}/man/man8/
+	${INSTALL_MAN} ${WRKSRC}/sara.8  ${PREFIX}/${PKGMANDIR}/man8/
 	${INSTALL_DATA_DIR} ${PREFIX}/etc/sara/
 	${INSTALL_DATA} ${WRKSRC}/config/* ${PREFIX}/etc/sara/
 	${INSTALL_DATA_DIR} ${PREFIX}/share/sara/

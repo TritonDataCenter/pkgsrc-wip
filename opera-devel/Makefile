@@ -122,7 +122,7 @@ do-install:
 	@${ECHO}
 
 post-install:
-	@${INSTALL_MAN} ${WRKSRC}/man/opera.1 ${PREFIX}/man/man1
+	@${INSTALL_MAN} ${WRKSRC}/man/opera.1 ${PREFIX}/${PKGMANDIR}/man1
 .endif
 
 # regenerate distinfo for all ports supported by this package

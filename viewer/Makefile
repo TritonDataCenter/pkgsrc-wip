@@ -13,7 +13,7 @@ CONFIG_STATUS_OVERRIDE= # defined
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/viewer ${PREFIX}/bin
-	${INSTALL_MAN} ${WRKSRC}/viewer.1 ${PREFIX}/man/man1
+	${INSTALL_MAN} ${WRKSRC}/viewer.1 ${PREFIX}/${PKGMANDIR}/man1
 
 .include "../../graphics/glut/buildlink3.mk"
 .include "../../mk/x11.buildlink3.mk"

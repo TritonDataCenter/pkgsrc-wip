@@ -22,7 +22,7 @@ post-extract:
 	${FIND} ${WRKDIR} -type d -name CVS | ${XARGS} ${RM} -rf
 
 do-install:
-	${INSTALL_MAN} ${WRKSRC}/DOCS/man/en/mplayer.1 ${PREFIX}/man/man1
+	${INSTALL_MAN} ${WRKSRC}/DOCS/man/en/mplayer.1 ${PREFIX}/${PKGMANDIR}/man1
 	${INSTALL_DATA_DIR} ${PREFIX}/share/mplayer
 	${INSTALL_DATA_DIR} ${PREFIX}/share/mplayer/DOCS
 	${INSTALL_DATA} ${WRKSRC}/etc/codecs.conf ${PREFIX}/share/mplayer

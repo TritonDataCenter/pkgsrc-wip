@@ -32,7 +32,7 @@ post-extract:
 
 do-install:
 		${INSTALL_PROGRAM} ${WRKSRC}/vMac ${PREFIX}/bin
-		${INSTALL_MAN} ${WRKSRC}/vmac.0 ${PREFIX}/man/man1
+		${INSTALL_MAN} ${WRKSRC}/vmac.0 ${PREFIX}/${PKGMANDIR}/man1
 		${INSTALL_DATA_DIR} ${PREFIX}/share/doc/vMac
 		${INSTALL_DATA} ${WRKSRC}/README ${PREFIX}/share/doc/vMac
 		${INSTALL_DATA} ${WRKSRC}/README.rom ${PREFIX}/share/doc/vMac

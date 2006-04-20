@@ -19,6 +19,6 @@ do-install:
 	${INSTALL_SCRIPT} ${WRKSRC}/dnswalk     ${PREFIX}/bin/
 	${INSTALL_SCRIPT} ${WRKSRC}/makereports ${PREFIX}/bin/
 	${INSTALL_SCRIPT} ${WRKSRC}/sendreports ${PREFIX}/bin/
-	${INSTALL_MAN}    ${WRKSRC}/dnswalk.1   ${PREFIX}/man/man1/
+	${INSTALL_MAN}    ${WRKSRC}/dnswalk.1   ${PREFIX}/${PKGMANDIR}/man1/
 
 .include "../../mk/bsd.pkg.mk"

@@ -30,7 +30,7 @@ pre-build:
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/dia2code/dia2code ${PREFIX}/bin
-	${INSTALL_MAN} ${WRKSRC}/dia2code.1 ${PREFIX}/man/man1/dia2code.1
+	${INSTALL_MAN} ${WRKSRC}/dia2code.1 ${PREFIX}/${PKGMANDIR}/man1/dia2code.1
 	${INSTALL_DATA_DIR} ${PREFIX}/share/doc/dia2code
 	${INSTALL_DATA} ${WRKSRC}/README ${PREFIX}/share/doc/dia2code/README
 

@@ -14,7 +14,7 @@ WRKSRC=			${WRKDIR}/png2ico
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/png2ico ${PREFIX}/bin
-	${INSTALL_MAN} ${WRKSRC}/doc/png2ico.1 ${PREFIX}/man/man1
+	${INSTALL_MAN} ${WRKSRC}/doc/png2ico.1 ${PREFIX}/${PKGMANDIR}/man1
 
 .include "../../devel/zlib/buildlink3.mk"
 .include "../../graphics/png/buildlink3.mk"

@@ -14,7 +14,7 @@ HAS_CONFIGURE=		yes
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/hping3 ${PREFIX}/sbin/
-	${INSTALL_MAN} ${WRKSRC}/docs/hping3.8 ${PREFIX}/man/man8/
+	${INSTALL_MAN} ${WRKSRC}/docs/hping3.8 ${PREFIX}/${PKGMANDIR}/man8/
 
 .include "../../lang/tcl/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

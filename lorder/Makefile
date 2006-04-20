@@ -37,6 +37,6 @@ post-patch:
 
 do-install:
 	${INSTALL_SCRIPT} ${WRKDIR}/lorder ${PREFIX}/bin
-	${INSTALL_MAN} ${FILESDIR}/lorder.1 ${PREFIX}/man/man1/
+	${INSTALL_MAN} ${FILESDIR}/lorder.1 ${PREFIX}/${PKGMANDIR}/man1/
 
 .include "../../mk/bsd.pkg.mk"

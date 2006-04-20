@@ -14,6 +14,6 @@ BUILD_TARGET=	# empty
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/ldp ${PREFIX}/bin
-	${INSTALL_MAN} ${WRKSRC}/ldp.8 ${PREFIX}/man/man8
+	${INSTALL_MAN} ${WRKSRC}/ldp.8 ${PREFIX}/${PKGMANDIR}/man8
 
 .include "../../mk/bsd.pkg.mk"

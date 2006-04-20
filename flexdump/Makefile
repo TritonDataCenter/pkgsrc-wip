@@ -27,7 +27,7 @@ do-install:
 	${INSTALL_DATA_DIR} ${EGDIR}
 	${INSTALL_DATA} ${WRKSRC}/flexbackup.conf ${EGDIR}/flexbackup.conf
 	${INSTALL_SCRIPT} ${WRKSRC}/flexbackup ${PREFIX}/bin
-	${INSTALL_MAN} ${WRKSRC}/flexbackup.1 ${PREFIX}/man/man1/
-	${INSTALL_MAN} ${WRKSRC}/flexbackup.conf.5 ${PREFIX}/man/man5/
+	${INSTALL_MAN} ${WRKSRC}/flexbackup.1 ${PREFIX}/${PKGMANDIR}/man1/
+	${INSTALL_MAN} ${WRKSRC}/flexbackup.conf.5 ${PREFIX}/${PKGMANDIR}/man5/
 
 .include "../../mk/bsd.pkg.mk"

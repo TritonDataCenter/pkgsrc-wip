@@ -32,7 +32,7 @@ post-patch:
 		&& ${MV} ${WRKSRC}/MAKEDEV.tmp ${WRKSRC}/MAKEDEV
 
 do-install:
-	${INSTALL_MAN} ${WRKSRC}/MAKEDEV.man ${PREFIX}/man/man8/MAKEDEV.8
+	${INSTALL_MAN} ${WRKSRC}/MAKEDEV.man ${PREFIX}/${PKGMANDIR}/man8/MAKEDEV.8
 	${INSTALL_SCRIPT} ${WRKSRC}/MAKEDEV ${PREFIX}/sbin/
 
 .include "../../mk/bsd.pkg.mk"

@@ -15,7 +15,7 @@ CONFIGURE_ENV+=		ac_cv_path_PKG_CONFIG=""
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/links ${PREFIX}/bin/links1
-	${INSTALL_MAN} ${WRKSRC}/links.1 ${PREFIX}/man/man1/links1.1
+	${INSTALL_MAN} ${WRKSRC}/links.1 ${PREFIX}/${PKGMANDIR}/man1/links1.1
 
 .include "../../security/openssl/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

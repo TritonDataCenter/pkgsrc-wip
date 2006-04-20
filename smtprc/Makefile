@@ -29,7 +29,7 @@ do-install:
 	${INSTALL_DATA} ${WRKSRC}/rcheck.conf ${PREFIX}/share/examples/smtprc
 	${INSTALL_DATA} ${WRKSRC}/README ${PREFIX}/share/doc/smtprc
 	${INSTALL_DATA} ${WRKSRC}/FAQ ${PREFIX}/share/doc/smtprc
-	${INSTALL_MAN} ${WRKSRC}/smtprc.1 ${PREFIX}/man/man1
+	${INSTALL_MAN} ${WRKSRC}/smtprc.1 ${PREFIX}/${PKGMANDIR}/man1
 
 .include "../../mk/pthread.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

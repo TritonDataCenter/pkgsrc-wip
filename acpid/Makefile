@@ -18,7 +18,7 @@ USE_TOOLS+=		gmake
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/acpid ${PREFIX}/sbin
 	${INSTALL_PROGRAM} ${WRKSRC}/acpi_listen ${PREFIX}/sbin
-	${INSTALL_MAN} ${WRKSRC}/acpid.8 ${PREFIX}/man/man8/
+	${INSTALL_MAN} ${WRKSRC}/acpid.8 ${PREFIX}/${PKGMANDIR}/man8/
 	${INSTALL_DATA_DIR} ${PKG_SYSCONFDIR}/acpid
 	${INSTALL_DATA_DIR} ${PREFIX}/share/examples/acpid/
 	${CP} -rf ${WRKSRC}/samples/* ${PREFIX}/share/examples/acpid/

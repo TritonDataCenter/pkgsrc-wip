@@ -22,7 +22,7 @@ do-install:
 	${INSTALL_DATA} ${WRKSRC}/CONTRIB ${PREFIX}/share/pmars/
 	${INSTALL_DATA_DIR} ${PREFIX}/share/pmars/warriors
 	${INSTALL_DATA} ${WRKSRC}/*.red ${PREFIX}/share/pmars/warriors/
-	${INSTALL_MAN} ${WRKSRC}/pmars.6 ${PREFIX}/man/man6
+	${INSTALL_MAN} ${WRKSRC}/pmars.6 ${PREFIX}/${PKGMANDIR}/man6
 
 .include "../../mk/x11.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

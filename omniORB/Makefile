@@ -36,7 +36,7 @@ post-install:
 	${INSTALL_DATA} ${WRKSRC}/doc/*.pdf ${PREFIX}/share/doc/omniORB/
 	${INSTALL_DATA} ${WRKSRC}/doc/*.ps ${PREFIX}/share/doc/omniORB/
 	${INSTALL_DATA} ${WRKSRC}/doc/omniORB/* ${PREFIX}/share/doc/omniORB/omniORB/
-	${INSTALL_MAN} ${WRKSRC}/man/man1/* ${PREFIX}/man/man1/
+	${INSTALL_MAN} ${WRKSRC}/man/man1/* ${PREFIX}/${PKGMANDIR}/man1/
 
 .include "../../lang/python/pyversion.mk"
 .include "../../lang/python/extension.mk"

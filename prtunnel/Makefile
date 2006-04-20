@@ -12,6 +12,6 @@ BUILD_TARGET=	# defined
 
 do-install:
 	${INSTALL_SCRIPT} ${WRKSRC}/prtunnel ${PREFIX}/bin
-	${INSTALL_MAN} ${WRKSRC}/prtunnel.1 ${PREFIX}/man/man1
+	${INSTALL_MAN} ${WRKSRC}/prtunnel.1 ${PREFIX}/${PKGMANDIR}/man1
 
 .include "../../mk/bsd.pkg.mk"

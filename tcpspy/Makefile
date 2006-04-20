@@ -14,6 +14,6 @@ ONLY_FOR_PLATFORM=	Linux-*-* # It uses /proc and some linux-defines
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/tcpspy ${PREFIX}/sbin/tcpspy
-	${INSTALL_MAN} ${WRKSRC}/tcpspy.8 ${PREFIX}/man/man8/tcpspy.8
+	${INSTALL_MAN} ${WRKSRC}/tcpspy.8 ${PREFIX}/${PKGMANDIR}/man8/tcpspy.8
 
 .include "../../mk/bsd.pkg.mk"

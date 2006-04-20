@@ -19,7 +19,7 @@ INSTALLATION_DIRS=	bin man/man8
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/wimon ${PREFIX}/bin
-	${INSTALL_MAN} ${WRKSRC}/wimon.8 ${PREFIX}/man/man8/wimon.8
+	${INSTALL_MAN} ${WRKSRC}/wimon.8 ${PREFIX}/${PKGMANDIR}/man8/wimon.8
 
 .include "../../devel/ncurses/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

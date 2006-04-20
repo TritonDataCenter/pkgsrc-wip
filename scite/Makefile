@@ -22,7 +22,7 @@ do-build:
 
 do-install:
 	cd ${WRKSRC}/scite/gtk && ${GMAKE} GTK2=1 install
-	${INSTALL_MAN} ${WRKSRC}/scite/doc/scite.1 ${PREFIX}/man/man1
+	${INSTALL_MAN} ${WRKSRC}/scite/doc/scite.1 ${PREFIX}/${PKGMANDIR}/man1
 
 .include "../../converters/libiconv/buildlink3.mk"
 .include "../../lang/lua/buildlink3.mk"

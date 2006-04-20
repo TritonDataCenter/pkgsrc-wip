@@ -22,8 +22,8 @@ do-install:
 	${INSTALL_DATA_DIR} ${PREFIX}/lib/typespeed
 	${INSTALL_PROGRAM} ${WRKSRC}/typespeed ${PREFIX}/lib/typespeed
 	${INSTALL_SCRIPT} ${WRKDIR}/.typespeed ${PREFIX}/bin/typespeed
-	${INSTALL_MAN} ${WRKSRC}/typespeed.cat6 ${PREFIX}/man/cat6/typespeed.0
-	${INSTALL_MAN} ${WRKSRC}/typespeed.6 ${PREFIX}/man/man6
+	${INSTALL_MAN} ${WRKSRC}/typespeed.cat6 ${PREFIX}/${PKGMANDIR}/cat6/typespeed.0
+	${INSTALL_MAN} ${WRKSRC}/typespeed.6 ${PREFIX}/${PKGMANDIR}/man6
 	${INSTALL_DATA_DIR} ${PREFIX}/share/typespeed
 	${INSTALL_DATA} ${WRKSRC}/words.* ${PREFIX}/share/typespeed
 

@@ -52,7 +52,7 @@ do-install:
 		${PREFIX}/${PYSITELIB}/PyPlucker/helper
 	${PYTHONBIN} ${PYCOMPILEALL} ${PREFIX}/${PYSITELIB}/PyPlucker
 	${PYTHONBIN} -O ${PYCOMPILEALL} ${PREFIX}/${PYSITELIB}/PyPlucker
-	${INSTALL_MAN} ${WRKSRC}/*.1 ${PREFIX}/man/man1
+	${INSTALL_MAN} ${WRKSRC}/*.1 ${PREFIX}/${PKGMANDIR}/man1
 	${INSTALL_DATA_DIR} ${EGDIR}
 .for f in exclusionlist.txt home.html pluckerrc.sample
 	${INSTALL_DATA} ${WRKSRC}/${f} ${EGDIR}

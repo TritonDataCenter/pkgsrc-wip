@@ -20,6 +20,6 @@ INSTALLATION_DIRS=	sbin man/man8
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/nos-tun ${PREFIX}/sbin
-	${INSTALL_MAN} ${WRKSRC}/nos-tun.8 ${PREFIX}/man/man8/nos-tun.8
+	${INSTALL_MAN} ${WRKSRC}/nos-tun.8 ${PREFIX}/${PKGMANDIR}/man8/nos-tun.8
 
 .include "../../mk/bsd.pkg.mk"

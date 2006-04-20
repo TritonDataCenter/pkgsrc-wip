@@ -32,6 +32,6 @@ do-install:
 	${INSTALL_DATA} ${WRKSRC}/src/fingerprints ${SSSHARE}
 	${INSTALL_DATA} ${WRKSRC}/src/tests ${SSSHARE}
 	${INSTALL_SCRIPT} ${WRKSRC}/smtpscan ${PREFIX}/bin
-	${INSTALL_MAN} ${WRKSRC}/docs/smtpscan.1 ${PREFIX}/man/man1
+	${INSTALL_MAN} ${WRKSRC}/docs/smtpscan.1 ${PREFIX}/${PKGMANDIR}/man1
 
 .include "../../mk/bsd.pkg.mk"

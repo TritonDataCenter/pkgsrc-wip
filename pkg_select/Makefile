@@ -34,7 +34,7 @@ do-install:
 	${INSTALL_DATA} ${WRKSRC:Q}/${PKGBASE:Q}.conf.example ${EXAMPLEDIR:Q}
 	${INSTALL_DATA} ${WRKSRC:Q}/mirrors.cvs ${PREFIX:Q}/share/pkg_select
 	${INSTALL_DATA} ${WRKSRC:Q}/mirrors.ftp ${PREFIX:Q}/share/pkg_select
-	${INSTALL_MAN} ${WRKSRC:Q}/pkg_select.1 ${PREFIX:Q}/man/man1
+	${INSTALL_MAN} ${WRKSRC:Q}/pkg_select.1 ${PREFIX:Q}/${PKGMANDIR}/man1
 
 SUBST_CLASSES+=		path
 SUBST_STAGE.path=	post-patch

@@ -25,7 +25,7 @@ post-patch:
 
 do-install:
 	${INSTALL_SCRIPT} ${WRKSRC}/igal ${PREFIX}/bin
-	${INSTALL_MAN} ${WRKSRC}/igal.1 ${PREFIX}/man/man1
+	${INSTALL_MAN} ${WRKSRC}/igal.1 ${PREFIX}/${PKGMANDIR}/man1
 	${INSTALL_DATA_DIR} ${PREFIX}/share/igal
 	${INSTALL_DATA_DIR} ${PREFIX}/share/doc/igal
 	cd ${WRKSRC} && \

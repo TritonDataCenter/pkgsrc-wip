@@ -20,6 +20,6 @@ INSTALLATION_DIRS=	bin man/man1
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/neb-cd512 ${PREFIX}/bin
-	${INSTALL_MAN} ${WRKSRC}/neb-cd512.1 ${PREFIX}/man/man1
+	${INSTALL_MAN} ${WRKSRC}/neb-cd512.1 ${PREFIX}/${PKGMANDIR}/man1
 
 .include "../../mk/bsd.pkg.mk"

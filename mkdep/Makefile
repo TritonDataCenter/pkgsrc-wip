@@ -17,7 +17,7 @@ do-extract:
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/mkdep ${PREFIX}/bin
-	${INSTALL_MAN} ${WRKSRC}/mkdep.1 ${PREFIX}/man/man1/
+	${INSTALL_MAN} ${WRKSRC}/mkdep.1 ${PREFIX}/${PKGMANDIR}/man1/
 
 .include "../../pkgtools/libnbcompat/buildlink3.mk"
 

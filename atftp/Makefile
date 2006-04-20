@@ -15,9 +15,9 @@ GNU_CONFIGURE=		yes
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/atftp ${PREFIX}/bin
-	${INSTALL_MAN} ${WRKSRC}/atftp.1 ${PREFIX}/man/man1
+	${INSTALL_MAN} ${WRKSRC}/atftp.1 ${PREFIX}/${PKGMANDIR}/man1
 	${INSTALL_PROGRAM} ${WRKSRC}/atftpd ${PREFIX}/sbin
-	${INSTALL_MAN} ${WRKSRC}/atftpd.8 ${PREFIX}/man/man8
+	${INSTALL_MAN} ${WRKSRC}/atftpd.8 ${PREFIX}/${PKGMANDIR}/man8
 
 .include "../../devel/readline/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

@@ -14,8 +14,8 @@ HAS_CONFIGURE=		yes
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/tftp/tftp ${PREFIX}/bin
-	${INSTALL_MAN} ${WRKSRC}/tftp/tftp.1 ${PREFIX}/man/man1/
+	${INSTALL_MAN} ${WRKSRC}/tftp/tftp.1 ${PREFIX}/${PKGMANDIR}/man1/
 	${INSTALL_PROGRAM} ${WRKSRC}/tftpd/tftpd ${PREFIX}/sbin/in.tftpd
-	${INSTALL_MAN} ${WRKSRC}/tftpd/tftpd.8 ${PREFIX}/man/man8/
+	${INSTALL_MAN} ${WRKSRC}/tftpd/tftpd.8 ${PREFIX}/${PKGMANDIR}/man8/
 
 .include "../../mk/bsd.pkg.mk"

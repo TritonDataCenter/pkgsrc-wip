@@ -25,7 +25,7 @@ do-build:
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/support/ab ${PREFIX}/sbin/apachebench2
-	${INSTALL_MAN} ${WRKSRC}/docs/man/ab.8 ${PREFIX}/man/man8/apachebench2.8
+	${INSTALL_MAN} ${WRKSRC}/docs/man/ab.8 ${PREFIX}/${PKGMANDIR}/man8/apachebench2.8
 
 .include "../../www/apache2/Makefile.common"
 .include "../../security/openssl/buildlink3.mk"

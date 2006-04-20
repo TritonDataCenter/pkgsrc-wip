@@ -29,9 +29,9 @@ do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/../bin/${SYSPRE}/* \
 		${PREFIX}/sbin/
 	#TODO# make this in a foreach loop
-	${INSTALL_MAN} ${WRKSRC}/../man/man4/*.4 ${PREFIX}/man/man4/
-	${INSTALL_MAN} ${WRKSRC}/../man/man5/*.5 ${PREFIX}/man/man5/
-	${INSTALL_MAN} ${WRKSRC}/../man/man8/*.8 ${PREFIX}/man/man8/
+	${INSTALL_MAN} ${WRKSRC}/../man/man4/*.4 ${PREFIX}/${PKGMANDIR}/man4/
+	${INSTALL_MAN} ${WRKSRC}/../man/man5/*.5 ${PREFIX}/${PKGMANDIR}/man5/
+	${INSTALL_MAN} ${WRKSRC}/../man/man8/*.8 ${PREFIX}/${PKGMANDIR}/man8/
 	${INSTALL_DATA_DIR} ${PREFIX}/share/tripwire/
 	${INSTALL_DATA} ${WRKSRC}/../policy/*.txt ${PREFIX}/share/tripwire/
 

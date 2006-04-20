@@ -72,8 +72,8 @@ post-install:
 	for m in koi-alt.tab koi-iso.tab koi-win.tab;			\
 	do ${INSTALL_DATA} ${WRKSRC:Q}/src/tables/"$$m" ${EGDIR:Q}/tables; \
 	done
-	${INSTALL_MAN} ${WRKSRC:Q}/doc/oops.8 ${PREFIX:Q}/man/man8
-	${INSTALL_MAN} ${WRKSRC:Q}/doc/oopsctl.8 ${PREFIX:Q}/man/man8
+	${INSTALL_MAN} ${WRKSRC:Q}/doc/oops.8 ${PREFIX:Q}/${PKGMANDIR}/man8
+	${INSTALL_MAN} ${WRKSRC:Q}/doc/oopsctl.8 ${PREFIX:Q}/${PKGMANDIR}/man8
 
 .include "../../mk/compiler.mk"
 .include "../../mk/pthread.buildlink3.mk"

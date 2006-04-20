@@ -20,7 +20,7 @@ do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/plugger-${PKGVERSION} ${PREFIX}/bin/
 	${INSTALL_PROGRAM} ${WRKSRC}/plugger-controller ${PREFIX}/bin/
 	${INSTALL_DATA} ${WRKSRC}/plugger.so ${PREFIX}/lib/
-	${INSTALL_MAN} ${WRKSRC}/plugger.7 ${PREFIX}/man/man7/
+	${INSTALL_MAN} ${WRKSRC}/plugger.7 ${PREFIX}/${PKGMANDIR}/man7/
 	${INSTALL_DATA} ${WRKSRC}/pluggerrc ${EGDIR}/
 
 .include "../../mk/x11.buildlink3.mk"
