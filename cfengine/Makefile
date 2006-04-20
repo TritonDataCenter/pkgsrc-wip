@@ -1,5 +1,5 @@
 # $NetBSD: Makefile,v 1.15 2005/09/22 02:08:14 minskim Exp $
-#
+# $Id: Makefile,v 1.7 2006/04/20 07:08:27 ahallmann Exp $
 
 .include "Makefile.common"
 
