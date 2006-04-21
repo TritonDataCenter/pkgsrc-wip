@@ -1,8 +1,8 @@
 @comment $NetBSD$
-share/doc/dictem/README
-share/doc/dictem/NEWS
 share/doc/dictem/COPYING
 share/doc/dictem/ChangeLog
+share/doc/dictem/NEWS
+share/doc/dictem/README
 ${EMACS_LISPPREFIX}/dictem.el
 ${EMACS_LISPPREFIX}/dictem.elc
 @dirrm share/doc/dictem
