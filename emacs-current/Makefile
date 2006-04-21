@@ -47,6 +47,10 @@ CONFIGURE_ARGS+=	--with-x-toolkit=athena
 CONFIGURE_ARGS+=	--with-x-toolkit=athena
 .endif
 
+# build PATH in the dumped emacs is not a problem
+CHECK_WRKREF_SKIP+=	${PREFIX}/bin/emacs
+CHECK_WRKREF_SKIP+=	${PREFIX}/bin/emacs-${PKGVERSION}
+
 .include "../../graphics/xpm/buildlink3.mk"
 .include "../../graphics/jpeg/buildlink3.mk"
 .include "../../graphics/tiff/buildlink3.mk"
