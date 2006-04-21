@@ -37,7 +37,7 @@ CONFIGURE_ENV+=		XTHREADS_LIBS=${BUILDLINK_LDADD.pthread}
 .include "../../wip/libXau/buildlink3.mk"
 .include "../../wip/libXdmcp/buildlink3.mk"
 .include "../../wip/xcmiscproto/buildlink3.mk"
-.include "../../wip/xextproto/buildlink3.mk"
+.include "../../x11/xextproto/buildlink3.mk"
 .include "../../wip/xf86bigfontproto/buildlink3.mk"
 .include "../../x11/xproto/buildlink3.mk"
 .include "../../wip/xtrans/buildlink3.mk"
