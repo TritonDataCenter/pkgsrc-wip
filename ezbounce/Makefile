@@ -37,7 +37,7 @@ do-install:
 		${PREFIX}/sbin
 	${INSTALL_SCRIPT} ${WRKSRC}/ezbchk ${PREFIX}/sbin
 	${INSTALL_DATA} ${WRKSRC}/ezb.conf ${EGDIR}/ezbounce.conf.default
-	${INSTALL_DATA} ${WRKSRC}/misc/ezbounce.1 ${PREFIX}/man/man1
+	${INSTALL_DATA} ${WRKSRC}/misc/ezbounce.1 ${PREFIX}/${PKGMANDIR}/man1
 	( cd ${WRKSRC} && for f in README* TODO CHANGES sample.conf sample.MOTD; do \
 		${INSTALL_DATA} $$f ${DOCDIR}; \
 	done )

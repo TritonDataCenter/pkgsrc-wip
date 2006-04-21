@@ -12,6 +12,6 @@ COMMENT=		Secure /tmp cleaner
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/stmpclean ${PREFIX}/sbin/stmpclean
-	${INSTALL_DATA} ${WRKSRC}/stmpclean.8 ${PREFIX}/man/man8/
+	${INSTALL_DATA} ${WRKSRC}/stmpclean.8 ${PREFIX}/${PKGMANDIR}/man8/
 
 .include "../../mk/bsd.pkg.mk"

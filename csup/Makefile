@@ -12,7 +12,7 @@ COMMENT=	Rewrite of the CVSup file updating client in C
 
 WRKSRC=		${WRKDIR}/csup
 
-INSTALLATION_DIRS=	bin man/man1
+INSTALLATION_DIRS=	bin ${PKGMANDIR}/man1
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/csup ${PREFIX}/bin

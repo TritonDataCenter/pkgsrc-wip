@@ -16,7 +16,7 @@ ONLY_FOR_PLATFORM=	NetBSD-*-*
 
 WRKSRC=			${WRKDIR}
 
-INSTALLATION_DIRS=	bin man/man1
+INSTALLATION_DIRS=	bin ${PKGMANDIR}/man1
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/neb-hdtoolbox ${PREFIX}/bin

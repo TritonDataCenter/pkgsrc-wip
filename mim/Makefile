@@ -15,7 +15,7 @@ DEPENDS+=		mtv>=1.2.5:../../graphics/mtv
 GNU_CONFIGURE=		yes
 
 post-install:
-	${INSTALL_DATA} ${WRKSRC}/docs/mim.1 ${PREFIX}/man/man1/mim.1
+	${INSTALL_DATA} ${WRKSRC}/docs/mim.1 ${PREFIX}/${PKGMANDIR}/man1/mim.1
 
 .include "../../mk/pthread.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

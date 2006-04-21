@@ -28,7 +28,7 @@ pre-install:
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/chrsh ${PREFIX}/bin
-	${INSTALL_DATA} ${WRKSRC}/chrsh.1 ${PREFIX}/man/man1
+	${INSTALL_DATA} ${WRKSRC}/chrsh.1 ${PREFIX}/${PKGMANDIR}/man1
 
 post-install:
 	${SED} -e 's:@RCS@:@PREFIX@:' \

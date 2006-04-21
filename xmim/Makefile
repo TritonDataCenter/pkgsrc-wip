@@ -19,7 +19,7 @@ post-extract:
 	${RM} -f ${WRKSRC}/config.cache
 
 post-install:
-	${INSTALL_DATA} ${WRKSRC}/docs/xmim.1 ${PREFIX}/man/man1/xmim.1
+	${INSTALL_DATA} ${WRKSRC}/docs/xmim.1 ${PREFIX}/${PKGMANDIR}/man1/xmim.1
 
 .include "../../x11/gtk/buildlink3.mk"
 .include "../../mk/pthread.buildlink3.mk"

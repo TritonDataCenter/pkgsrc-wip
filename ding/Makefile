@@ -26,6 +26,6 @@ NO_BUILD=	yes
 do-install:
 	 ${CP} ${WRKSRC}/ding ${PREFIX}/bin/;
 	 ${CP} ${WRKSRC}/ger-eng.txt ${PREFIX}/share/dict/;
-	 ${CP} ${WRKSRC}/ding.1 ${PREFIX}/man/man1/;
+	 ${CP} ${WRKSRC}/ding.1 ${PREFIX}/${PKGMANDIR}/man1/;
 
 .include "../../mk/bsd.pkg.mk"

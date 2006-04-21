@@ -26,7 +26,7 @@ do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/src/${PROGRAM} ${PREFIX}/bin
 .endfor
 .for MAN in xgobi.1 xgvis.1
-	${INSTALL_DATA} ${WRKSRC}/manpages/${MAN} ${PREFIX}/man/man1
+	${INSTALL_DATA} ${WRKSRC}/manpages/${MAN} ${PREFIX}/${PKGMANDIR}/man1
 .endfor
 	${INSTALL_DATA_DIR} ${PREFIX}/share/doc/${PKGNAME}
 .for DOC in Changes Readme.install Readme.S Copyright

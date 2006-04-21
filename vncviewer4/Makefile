@@ -19,7 +19,7 @@ CONFIGURE_ARGS+=	--with-installed-zlib
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/vncviewer/vncviewer ${PREFIX}/bin/vncviewer
 	${INSTALL_MAN} ${WRKSRC}/vncviewer/vncviewer.man \
-		${PREFIX}/man/man1/vncviewer.1
+		${PREFIX}/${PKGMANDIR}/man1/vncviewer.1
 
 .include "../../devel/zlib/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

@@ -11,6 +11,6 @@ ONLY_FOR_PLATFORM=	NetBSD-*-*
 
 WRKSRC=			${WRKDIR}/hcidump
 
-INSTALLATION_DIRS=	man/man1
+INSTALLATION_DIRS=	${PKGMANDIR}/man1
 
 .include "../../mk/bsd.pkg.mk"

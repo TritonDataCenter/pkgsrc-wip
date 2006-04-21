@@ -16,7 +16,7 @@ CVS_MODULE.mplayer=	main
 
 .include "../../wip/mk/cvs-package.mk"
 
-INSTALLATION_DIRS=	man/man1
+INSTALLATION_DIRS=	${PKGMANDIR}/man1
 
 post-extract:
 	${FIND} ${WRKDIR} -type d -name CVS | ${XARGS} ${RM} -rf

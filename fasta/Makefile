@@ -35,9 +35,9 @@ do-install:
 	    COPYRIGHT FASTA_LIST
 	${INSTALL_DATA} ${WRKSRC:Q}/${f:Q} ${PREFIX:Q}/share/doc/fasta
 .endfor
-	${INSTALL_DATA} ${WRKSRC:Q}/fasta3x.me ${PREFIX:Q}/man/man1
+	${INSTALL_DATA} ${WRKSRC:Q}/fasta3x.me ${PREFIX:Q}/${PKGMANDIR}/man1
 .for f in fasta3.1 fastf3.1 fasts3.1 map_db.1 prss3.1 pvcomp.1
-	${INSTALL_DATA} ${WRKSRC:Q}/${f:Q} ${PREFIX:Q}/man/man1
+	${INSTALL_DATA} ${WRKSRC:Q}/${f:Q} ${PREFIX:Q}/${PKGMANDIR}/man1
 .endfor
 .for f in fasta34 fasta34_t fastm34 fastm34_t fasts34 fasts34_t		\
 	     fastx34 fastx34_t fasty34 fasty34_t prfx34 prss34		\

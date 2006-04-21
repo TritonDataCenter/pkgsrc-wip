@@ -23,6 +23,6 @@ do-install:
 		cd ${WRKSRC} && ${GMAKE} INSTALL_DIR=${PREFIX}/bin;	\
 		${INSTALL_DATA_DIR} ${PREFIX}/EiC; cd ${WRKSRC}; ${CP} -r doc include lib main \
 		module test BugList.html Change.html Distribution.html LICENCE Maintenance \
-		${PREFIX}/EiC; ${CP} ${WRKSRC}/eic.man ${PREFIX}/man/man1/eic.man.1
+		${PREFIX}/EiC; ${CP} ${WRKSRC}/eic.man ${PREFIX}/${PKGMANDIR}/man1/eic.man.1
 
 .include "../../mk/bsd.pkg.mk"

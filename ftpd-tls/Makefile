@@ -32,7 +32,7 @@ do-install:
 		${INSTALL_DATA_DIR} ${DOCDIR}
 		${INSTALL_PROGRAM} ${WRKSRC}/ftpd ${PREFIX}/libexec/ftpd-tls
 		${INSTALL_MAN} ${WRKSRC}/ftpd.8.TLS \
-					${PREFIX}/man/man8/ftpd-tls.8
+					${PREFIX}/${PKGMANDIR}/man8/ftpd-tls.8
 		${INSTALL_DATA} ${WRKSRC}/README.TLS ${DOCDIR}/README.TLS
 
 .include "../../security/openssl/buildlink3.mk"

@@ -61,7 +61,7 @@ post-patch:
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/Src/mix ${PREFIX}/bin/mix
-	${INSTALL_DATA} ${WRKSRC}/mix.1 ${PREFIX}/man/man1/mix.1
+	${INSTALL_DATA} ${WRKSRC}/mix.1 ${PREFIX}/${PKGMANDIR}/man1/mix.1
 	${INSTALL_DATA_DIR} ${egdir}
 	${INSTALL_DATA} ${WRKSRC}/conf.eg/* ${egdir}/
 

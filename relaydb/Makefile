@@ -10,7 +10,7 @@ HOMEPAGE=		http://www.benzedrine.cx/relaydb.html
 COMMENT=		Spam relay database
 
 NO_CONFIGURE=		yes
-INSTALLATION_DIRS=	bin man/man8 man/cat8
+INSTALLATION_DIRS=	bin ${PKGMANDIR}/man8 ${PKGMANDIR}/cat8
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/relaydb ${PREFIX}/bin/relaydb

@@ -18,7 +18,7 @@ DOCDIR=		${PREFIX}/share/doc/${PKGBASE}
 DOCS=		package/CHANGES package/COPYING package/README \
 		package/THANKS doc/*.html
 
-INSTALLATION_DIRS= man man/man8 sbin share/examples/runit
+INSTALLATION_DIRS= ${PKGMANDIR} ${PKGMANDIR}/man8 sbin share/examples/runit
 
 post-patch:
 	@${ECHO} ${CC} ${CFLAGS} > ${WRKSRC}/src/conf-cc

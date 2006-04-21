@@ -17,7 +17,7 @@ ONLY_FOR_PLATFORM=	NetBSD-*-* FreeBSD-*-* Darwin-*-* DragonFly-*-*
 WRKSRC=			${WRKDIR}/pkg_select
 NO_CONFIGURE=		yes
 
-INSTALLATION_DIRS=	bin man/man1
+INSTALLATION_DIRS=	bin ${PKGMANDIR}/man1
 
 .include "../../mk/bsd.prefs.mk"
 

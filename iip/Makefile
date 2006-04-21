@@ -19,6 +19,6 @@ do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/src/isproxy ${PREFIX}/bin/
 	${INSTALL_DATA_DIR} ${PREFIX}/share/examples/iip
 	${INSTALL_DATA} ${WRKSRC}/src/node.ref ${PREFIX}/share/examples/iip/
-	${INSTALL_DATA} ${WRKSRC}/doc/isproxy.1 ${PREFIX}/man/man1/
+	${INSTALL_DATA} ${WRKSRC}/doc/isproxy.1 ${PREFIX}/${PKGMANDIR}/man1/
 
 .include "../../mk/bsd.pkg.mk"
