@@ -1,0 +1,5 @@
+@comment $NetBSD$
+include/X11/extensions/XKBui.h
+lib/libxkbui.la
+lib/pkgconfig/xkbui.pc
+@comment @dirrm include/X11/extensions
