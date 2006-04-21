@@ -19,5 +19,5 @@ GNU_CONFIGURE=		yes
 .include "../../x11/xextproto/buildlink3.mk"
 .include "../../x11/xproto/buildlink3.mk"
 
-.include "../../devel/zlib/buildlink3.mk
+.include "../../devel/zlib/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
