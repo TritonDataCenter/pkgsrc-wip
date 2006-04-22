@@ -11,7 +11,7 @@ COMMENT=	Personal finance manager
 DOWNLOAD_PAGE=	http://www.thekompany.com/products/
 
 LICENSE=		no-redistribution
-RESTRICTED=		"Redistribution not permitted"
+RESTRICTED=		Redistribution not permitted
 NO_SRC_ON_CDROM=	${RESTRICTED}
 NO_SRC_ON_FTP=		${RESTRICTED}
 NO_BIN_ON_CDROM=	${RESTRICTED}

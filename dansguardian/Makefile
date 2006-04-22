@@ -24,7 +24,7 @@ CONFIGURE_ARGS=		--prefix=${PREFIX:Q} \
 
 DEPENDS+=	squid>=2.5:../../www/squid
 
-RESTRICTED=	"Redistribution is restricted."
+RESTRICTED=	Redistribution is restricted.
 NO_SRC_ON_CDROM=${RESTRICTED}
 NO_SRC_ON_FTP=	${RESTRICTED}
 NO_BIN_ON_CDROM=${RESTRICTED}

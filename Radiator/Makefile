@@ -12,7 +12,7 @@ COMMENT=		RADIUS server implemented in Perl
 
 DEPENDS+=		p5-Digest-MD5>=2.12:../../security/p5-Digest-MD5
 
-RESTRICTED=		"Commercial software"
+RESTRICTED=		Commercial software
 NO_BIN_ON_CDROM=	${RESTRICTED}
 NO_SRC_ON_CDROM=	${RESTRICTED}
 NO_BIN_ON_FTP=		${RESTRICTED}

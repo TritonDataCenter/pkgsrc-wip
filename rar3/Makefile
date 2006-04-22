@@ -16,8 +16,9 @@ ONLY_FOR_PLATFORM=	FreeBSD-*-i386 NetBSD-*-i386
 NO_BUILD=		yes
 NO_CONFIGURE=		yes
 
-NO_BIN_ON_CDROM=	"Only unmodified original package can be distributed"
-NO_BIN_ON_FTP=		${NO_BIN_ON_CDROM}
+RESTRICTED=		Only unmodified original package can be distributed
+NO_BIN_ON_CDROM=	${RESTRICTED}
+NO_BIN_ON_FTP=		${RESTRICTED}
 
 DATA_FILES=		file_id.diz license.txt order.htm rar.txt \
 			rar_faq.txt readme.txt technote.txt whatsnew.txt

@@ -45,7 +45,7 @@ PREPEND_PATH+=		${QTDIR}/bin
 
 SUBST_CLASSES+= 	paths
 SUBST_STAGE.paths=	post-wrapper
-SUBST_MESSAGE.paths=	"Attending to hard-coded paths."
+SUBST_MESSAGE.paths=	Attending to hard-coded paths.
 SUBST_FILES.paths+=	qcadlib/src/engine/rs_system.cpp
 SUBST_FILES.paths+=	qcad/src/qc_applicationwindow.cpp
 SUBST_SED.paths=	s=@PREFIX@=${PREFIX:S/=/\=/g:Q}=g"\

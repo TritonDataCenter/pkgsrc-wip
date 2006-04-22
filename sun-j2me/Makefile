@@ -22,7 +22,7 @@ NO_FETCH=#
 NO_CONFIGURE=#
 NO_MTREE=yes
 
-RESTRICTED="Redistribution of repackaged binaries not permitted"
+RESTRICTED=Redistribution of repackaged binaries not permitted
 NO_SRC_ON_CDROM=${RESTRICTED}
 NO_SRC_ON_FTP= ${RESTRICTED}
 NO_BIN_ON_CDROM=${RESTRICTED}

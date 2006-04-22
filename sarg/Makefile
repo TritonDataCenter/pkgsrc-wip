@@ -40,8 +40,8 @@ FILES_SUBST+=		SARG_REPORTSDIR=${SARG_REPORTSDIR:Q}		\
 			SG_LOG=${SG_LOG:Q}				\
 			SQUID_ACCESSLOG=${SQUID_ACCESSLOG:Q}
 SUBST_CLASSES+=		sargconf sargsrc
-SUBST_MESSAGE.sargconf=	"[Adjust values in SARG configuration files]"
-SUBST_MESSAGE.sargsrc=	"[Adjust values in SARG sources]"
+SUBST_MESSAGE.sargconf=	[Adjust values in SARG configuration files]
+SUBST_MESSAGE.sargsrc=	[Adjust values in SARG sources]
 SUBST_STAGE.sargconf=	pre-configure
 SUBST_STAGE.sargsrc=	pre-configure
 SUBST_FILES.sargconf=	htaccess sarg.1 sarg.conf

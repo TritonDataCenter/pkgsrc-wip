@@ -19,7 +19,7 @@ COMMENT=		Java Development Kit ${JDK_VERSION}
 BUILD_DEPENDS+=		unzip-[0-9]*:../../archivers/unzip
 BUILD_DEPENDS+=		zip-[0-9]*:../../archivers/zip
 
-RESTRICTED=		"Redistribution of source or binaries permitted only by license terms"
+RESTRICTED=		Redistribution of source or binaries permitted only by license terms
 NO_SRC_ON_CDROM=	${RESTRICTED}
 NO_SRC_ON_FTP=		${RESTRICTED}
 NO_BIN_ON_CDROM=	${RESTRICTED}
@@ -164,7 +164,7 @@ do-install:
 #	 ${INSTALL_DATA} ${FILESDIR}/cacerts \
 #		${JAVA_HOME}/jre/javaws/cacerts
 
-BROKEN=			"This doesn't build yet. No bug-reports please."
+BROKEN=		This doesn't build yet. No bug-reports please.
 
 .include "../../mk/java-env.mk"
 .include "../../mk/motif.buildlink3.mk"

@@ -19,7 +19,7 @@ COMMENT=		Java Development Kit 1.4.2
 BUILD_DEPENDS+=		unzip-[0-9]*:../../archivers/unzip
 BUILD_DEPENDS+=		zip-[0-9]*:../../archivers/zip
 
-RESTRICTED=		"Redistribution of source or binaries permitted only by license terms"
+RESTRICTED=		Redistribution of source or binaries permitted only by license terms
 NO_SRC_ON_CDROM=	${RESTRICTED}
 NO_SRC_ON_FTP=		${RESTRICTED}
 NO_BIN_ON_CDROM=	${RESTRICTED}

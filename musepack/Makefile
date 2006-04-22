@@ -18,7 +18,7 @@ MAKE_ENV+=		PREFIX=${PREFIX:Q}
 
 
 SUBST_CLASSES+=		osconf
-SUBST_MESSAGE.osconf=	"Configuring os-specific build-time definitions."
+SUBST_MESSAGE.osconf=	Configuring os-specific build-time definitions.
 SUBST_STAGE.osconf=	post-patch
 SUBST_FILES.osconf=	mpp.h
 SUBST_SED.osconf=	-e 's,\#define USE_ESD_AUDIO,// &,g' \
