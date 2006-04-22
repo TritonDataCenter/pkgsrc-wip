@@ -2,7 +2,8 @@
 DISTNAME=	xxkb-1.10
 #PKGREVISION=	1
 CATEGORIES=	x11
-MASTER_SITES=	http://pascal.tsu.ru/other/xxkb/
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=xxkb/} \
+		http://pascal.tsu.ru/other/xxkb/
 
 MAINTAINER=	cheusov@tut.by
 
