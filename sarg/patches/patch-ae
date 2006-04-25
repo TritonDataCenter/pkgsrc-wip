@@ -7,13 +7,13 @@ $NetBSD$
  Split the log file by date in \fB-d\fP parameter.
  .SH FILES
 -.BR /usr/local/sarg/sarg.conf
-+.BR /usr/pkg/etc/sarg/sarg.conf
++.BR @PKG_SYSCONFDIR@/sarg.conf
  .br
 -.B /usr/local/squid/logs/access.log
-+.B /var/squid/logs/access.log
++.B @SQUID_ACCESSLOG@
  .br
 -.B /usr/local/squidGuard/logs/squidGuard.log
-+.B /var/squidguard/log/squidGuard.log
++.B @SG_LOG@
  .SH SEE ALSO
  squid(8)
  .SH AUTHOR

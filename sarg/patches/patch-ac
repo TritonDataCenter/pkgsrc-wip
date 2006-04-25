@@ -4,7 +4,7 @@ $NetBSD$
 +++ htaccess
 @@ -1,4 +1,4 @@
 -AuthUserFile /usr/local/sarg/passwd
-+AuthUserFile /usr/pkg/etc/sarg/passwd
++AuthUserFile @PKG_SYSCONFDIR@/passwd
  AuthName "SARG, Squid Analysis Report Generator"
  AuthType Basic
  <Limit GET POST>

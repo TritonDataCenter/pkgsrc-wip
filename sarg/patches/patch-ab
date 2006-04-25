@@ -7,7 +7,7 @@ $NetBSD$
  
     if(arq[0] == '\0')
 -      strcpy(arq,"/usr/local/squid/logs/access.log");
-+      strcpy(arq,"/var/squid/logs/access.log");
++      strcpy(arq,"@SQUID_ACCESSLOG@");
  
     if((fp_in=fopen(arq,"r"))==NULL) {
        fprintf(stderr, "SARG: (convlog) %s: %s\n",text[8],arq);
