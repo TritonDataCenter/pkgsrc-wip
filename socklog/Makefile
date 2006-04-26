@@ -4,7 +4,7 @@ DISTNAME=	socklog-2.0.2
 CATEGORIES=	sysutils
 MASTER_SITES=	http://smarden.org/socklog/
 
-MAINTAINER=	tech-pkg@NetBSD.org
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://smarden.org/socklog/index.html
 COMMENT=	Small and secure replacement for syslogd
 

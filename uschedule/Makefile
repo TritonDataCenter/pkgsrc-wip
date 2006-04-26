@@ -4,9 +4,9 @@ DISTNAME=	uschedule-0.7.1
 CATEGORIES=	time
 MASTER_SITES=	http://www.ohse.de/uwe/uschedule/
 
-MAINTAINER=	tech-pkg@NetBSD.org
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.ohse.de/uwe/uschedule.html
-COMMENT=	Secure management of job scheduling.
+COMMENT=	Secure management of job scheduling
 
 WRKSRC=		${WRKDIR}/admin/${DISTNAME}
 CMDDIR=		${WRKSRC}/command
