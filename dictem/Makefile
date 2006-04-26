@@ -2,7 +2,7 @@
 
 DISTNAME=		dictem-0.7
 PKGNAME=		${EMACS_PKGNAME_PREFIX}${DISTNAME}
-PKGREVISION=		1
+#PKGREVISION=		1
 CATEGORIES=		textproc editors
 MASTER_SITES=		http://www.mova.org/~cheusov/pub/dictem/
 
@@ -26,9 +26,9 @@ do-install:
 	${INSTALL_DATA_DIR} ${EMACS_LISPPREFIX:Q};			\
 	cd ${WRKSRC} && ${INSTALL_DATA} ${SRCS} ${SRCS:.el=.elc} 	\
 			${EMACS_LISPPREFIX:Q};				\
-	${INSTALL_DATA_DIR} ${PREFIX}/share/doc/dictem;			\
+	${INSTALL_DATA_DIR} ${PREFIX}/share/doc/${PKGBASE};		\
 	cd ${WRKSRC} && ${INSTALL_DATA} ${DOCS}				\
-			${PREFIX}/share/doc/dictem
+			${PREFIX}/share/doc/${PKGBASE}
 
 .include "../../mk/emacs.mk"
 .include "../../mk/bsd.pkg.mk"
