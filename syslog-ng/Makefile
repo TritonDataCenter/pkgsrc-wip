@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	syslog-ng-1.6.9
+DISTNAME=	syslog-ng-1.6.10
 CATEGORIES=	sysutils
 MASTER_SITES=	http://www.balabit.com/downloads/syslog-ng/1.6/src/
 
@@ -20,8 +20,8 @@ DOCDIR=			${PREFIX}/share/doc/syslog-ng
 SUBST_CLASSES+=		conf
 SUBST_STAGE.conf=	post-patch
 SUBST_FILES.conf=	doc/syslog-ng.8 doc/syslog-ng.conf.5 contrib/syslog2ng
-SUBST_SED.conf=		-e "s|/etc/syslog-ng|${PKG_SYSCONFDIR}|g" \
-			-e "s|/usr/bin/awk|${AWK}|g"
+SUBST_SED.conf=		-e "s|/etc/syslog-ng|${PKG_SYSCONFDIR}|g"
+SUBST_SED.conf+=	-e "s|/usr/bin/awk|${AWK}|g"
 SUBST_MESSAGE.conf=	Fixing configuration file paths.
 
 .include "../../security/tcp_wrappers/buildlink3.mk"
