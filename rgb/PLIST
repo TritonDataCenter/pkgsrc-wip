@@ -1,0 +1,5 @@
+@comment $NetBSD$
+bin/showrgb
+share/X11/rgb.txt
+man/man1/showrgb.1
+@comment @dirrm share/X11
