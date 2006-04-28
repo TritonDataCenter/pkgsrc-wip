@@ -12,8 +12,9 @@ include/X11/fonts/fontmod.h
 include/X11/fonts/fontshow.h
 include/X11/fonts/fontutil.h
 include/X11/fonts/fontxlfd.h
+include/X11/fonts/ft.h
+include/X11/fonts/ftfuncs.h
 include/X11/fonts/pcf.h
 lib/libXfont.la
-lib/libfontcache.la
 lib/pkgconfig/xfont.pc
 @comment @dirrm include/X11/fonts
