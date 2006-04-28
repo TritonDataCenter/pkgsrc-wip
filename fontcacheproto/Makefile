@@ -1,9 +1,9 @@
 # $NetBSD$
 #
 
-DISTNAME=		fontcacheproto-0.1
+DISTNAME=		fontcacheproto-0.1.2
 CATEGORIES=		x11
-MASTER_SITES=		http://xorg.freedesktop.org/X11R7.0-RC0/proto/
+MASTER_SITES=		http://xorg.freedesktop.org/releases/individual/proto/
 EXTRACT_SUFX=		.tar.bz2
 
 MAINTAINER=		reed@reedmedia.net

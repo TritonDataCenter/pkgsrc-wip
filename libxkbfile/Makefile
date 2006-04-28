@@ -1,13 +1,13 @@
 # $NetBSD$
 #
 
-DISTNAME=		libxkbfile-0.99.1
+DISTNAME=		libxkbfile-1.0.3
 CATEGORIES=		x11
-MASTER_SITES=		http://xorg.freedesktop.org/releases/X11R7.0-RC1/lib/
+MASTER_SITES=		http://xorg.freedesktop.org/releases/individual/lib/
 EXTRACT_SUFX=		.tar.bz2
 
 MAINTAINER=		reed@reedmedia.net
-HOMEPAGE=		http://xorg.freedesktop.org/releases/X11R7.0-RC1/lib/
+HOMEPAGE=		http://xorg.freedesktop.org/
 COMMENT=		The xkbfile Library from modular X.org
 
 USE_LIBTOOL=		yes
