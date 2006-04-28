@@ -8,7 +8,7 @@
 # depend on those, if not just depend on this meta package
 
 DISTNAME=	modular-xorg-libs-7.0
-PKGREVISION=	3
+PKGREVISION=	4
 CATEGORIES=	meta-pkgs x11
 MASTER_SITES=	# empty
 DISTFILES=	# empty
@@ -21,6 +21,7 @@ DEPENDS+=	libX11>=0.99.0:../../wip/libX11
 DEPENDS+=	libXau>=0.99.0:../../wip/libXau
 DEPENDS+=	libXaw>=0.99.0:../../wip/libXaw
 DEPENDS+=	libXext>=0.99.0:../../wip/libXext
+DEPENDS+=	libXfont>=0.99.0:../../wip/libXfont
 DEPENDS+=	libXi>=1.0.0:../../wip/libXi
 DEPENDS+=	libXmu>=1.0.0:../../wip/libXmu
 DEPENDS+=	libXt>=0.99.2:../../wip/libXt
