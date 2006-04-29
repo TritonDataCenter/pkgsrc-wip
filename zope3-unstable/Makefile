@@ -47,6 +47,7 @@ post-install:
 	${INSTALL_DATA} ${WRKSRC}/Zope/LICENSES.txt ${ZOPE3_DOCDIR}
 	${INSTALL_DATA} ${WRKSRC}/Zope/ZopePublicLicense.txt ${ZOPE3_DOCDIR}
 	${INSTALL_DATA} ${WRKSRC}/Zope/doc/*.txt ${ZOPE3_DOCDIR}
+	${ECHO} "3.2.1" > ${ZOPE3_DIR}/lib/python/zope/app/version.txt
 
 .include "../../devel/zlib/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

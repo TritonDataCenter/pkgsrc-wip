@@ -8767,6 +8767,7 @@ share/zope3/lib/python/zope/app/utility/utility.pyo
 share/zope3/lib/python/zope/app/utility/vocabulary.py
 share/zope3/lib/python/zope/app/utility/vocabulary.pyc
 share/zope3/lib/python/zope/app/utility/vocabulary.pyo
+share/zope3/lib/python/zope/app/version.txt
 share/zope3/lib/python/zope/app/wsgi/README.txt
 share/zope3/lib/python/zope/app/wsgi/__init__.py
 share/zope3/lib/python/zope/app/wsgi/__init__.pyc
