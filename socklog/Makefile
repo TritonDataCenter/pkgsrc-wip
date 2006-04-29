@@ -4,7 +4,7 @@ DISTNAME=	socklog-2.1.0
 CATEGORIES=	sysutils
 MASTER_SITES=	${HOMEPAGE}
 
-MAINTAINER=	pkgsrc-users@NetBSD.org
+MAINTAINER=	neil@daikokuay.co.uk
 HOMEPAGE=	http://smarden.org/socklog/
 COMMENT=	System and kernel logging services
 
