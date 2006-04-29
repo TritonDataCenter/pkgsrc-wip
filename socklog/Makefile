@@ -4,13 +4,12 @@ DISTNAME=	socklog-2.1.0
 CATEGORIES=	sysutils
 MASTER_SITES=	${HOMEPAGE}
 
-MAINTAINER=	neil@daikokuay.co.uk
+MAINTAINER=	neil@daikokuya.co.uk
 HOMEPAGE=	http://smarden.org/socklog/
 COMMENT=	System and kernel logging services
 
 WRKSRC=		${WRKDIR}/admin/${DISTNAME}
 CMDDIR=         ${WRKSRC}/command
-DOCDIR=         ${WRKSRC}/doc
 PKGDOCDIR=	${PREFIX}/share/doc/${PKGBASE}
 
 DJB_ERRNO_HACK=		NO
