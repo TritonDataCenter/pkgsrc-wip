@@ -28,7 +28,7 @@ PKG_SUGGESTED_OPTIONS=	pgsql mysql
 . include "../../mk/pgsql.buildlink3.mk"
 CONFIGURE_ARGS+=	--with-pg
 .else
-CONFIGURE_ARGS+=        --without-pg
+CONFIGURE_ARGS+=	--without-pg
 .endif
 
 CONFIGURE_ARGS+=	--with-xerces
