@@ -4,10 +4,10 @@
 DISTNAME=		EditObj-0.5.3
 PKGNAME=		${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=		devel
-MASTER_SITES=		http://oomadness.tuxfamily.org/downloads/
+MASTER_SITES=		http://download.gna.org/songwrite/
 
 MAINTAINER=		tech-pkg@NetBSD.org
-HOMEPAGE=		http://oomadness.tuxfamily.org/en/editobj/
+HOMEPAGE=		http://home.gna.org/oomadness/en/editobj/index.html
 COMMENT=		useful tool for writing (text or non-text) editors of all kinds in Python
 
 PY_PATCHPLIST=		yes

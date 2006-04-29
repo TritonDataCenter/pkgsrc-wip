@@ -6,7 +6,7 @@ CATEGORIES=		net
 MASTER_SITES=		http://wiki.hping.org/uploadedfiles/101/
 
 MAINTAINER=		pancake@phreaker.net
-HOMEPAGE=		http://wiki.hping.org/uploadedfiles/101/
+HOMEPAGE=		http://wiki.hping.org/
 COMMENT=		Command-line oriented TCP/IP packet assembler/analyzer
 
 USE_PKGLOCALEDIR=	yes

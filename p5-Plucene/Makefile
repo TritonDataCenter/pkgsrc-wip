@@ -7,7 +7,6 @@ MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=Plucene/}
 
 MAINTAINER=	kuli0020@umn.edu
 HOMEPAGE=	http://search.cpan.org/dist/Plucene/
-HOMEPAGE=	http://jakarta.apache.org/lucene
 COMMENT=	Perl port of the Java Lucene search engine
 PERL5_REQD+=    5.6.0
 

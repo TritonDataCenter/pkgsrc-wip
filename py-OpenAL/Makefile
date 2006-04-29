@@ -4,10 +4,10 @@
 DISTNAME=		PyOpenAL-0.1.3
 PKGNAME=		${PYPKGPREFIX}-${DISTNAME:S/Py//}
 CATEGORIES=		audio
-MASTER_SITES=		http://oomadness.tuxfamily.org/downloads/
+MASTER_SITES=		http://download.gna.org/pyopenal/
 
 MAINTAINER=		tech-pkg@NetBSD.org
-HOMEPAGE=		http://oomadness.tuxfamily.org/en/pyopenal/index.html
+HOMEPAGE=		http://home.gna.org/oomadness/en/pyopenal/index.html
 COMMENT=		Python bindings for audio/openal; see openal package for details
 
 PY_PATCHPLIST=		yes

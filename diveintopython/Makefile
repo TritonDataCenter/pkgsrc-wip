@@ -9,7 +9,7 @@ MASTER_SITES=		http://diveintopython.org/download/
 EXTRACT_SUFX=		.zip
 
 MAINTAINER=		tech-pkg@NetBSD.org
-HOMEPAGE=		http://diveintopython.org/download/
+HOMEPAGE=		http://diveintopython.org/
 COMMENT=		Free book for experienced Python programmers
 
 HTMLDIR=		share/doc/diveintopython

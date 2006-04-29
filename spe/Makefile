@@ -8,7 +8,7 @@ MASTER_SITES=		http://projects.blender.org/download.php/47/
 EXTRACT_SUFX=		.zip
 
 MAINTAINER=		tech-pkg@NetBSD.org
-HOMEPAGE=		http://spe.pycs.net/
+HOMEPAGE=		http://stani.be/python/spe/blog/
 COMMENT=		Python IDE with wxGlade GUI designer, auto-indentation and more
 
 PY_PATCHPLIST=		yes

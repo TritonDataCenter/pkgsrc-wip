@@ -8,7 +8,7 @@ MASTER_SITES=	http://static.audioscrobbler.com/plugins/ \
 EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	tnn+nbsd@nygren.pp.se
-HOMEPAGE=	http://www.audioscrobbler.com/
+HOMEPAGE=	http://www.last.fm/
 COMMENT=	XMMS plugin for the Audioscrobbler music community
 
 GNU_CONFIGURE=		YES

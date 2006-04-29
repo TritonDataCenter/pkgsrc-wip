@@ -4,11 +4,11 @@
 DISTNAME=		Slune-0.6.1
 PKGNAME=		${PYPKGPREFIX}-Slune-0.6.1
 CATEGORIES=		games
-MASTER_SITES=		http://oomadness.tuxfamily.org/downloads/
+MASTER_SITES=		http://download.gna.org/slune/
 EXTRACT_SUFX=		.tar.bz2
 
 MAINTAINER=		tech-pkg@NetBSD.org
-HOMEPAGE=		http://oomadness.tuxfamily.org/en/slune/index.html
+HOMEPAGE=		http://home.gna.org/oomadness/en/slune/index.html
 COMMENT=		Action game, featuring cars, races and Tux the Penguin
 
 PY_PATCHPLIST=		yes

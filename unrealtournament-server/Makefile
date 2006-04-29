@@ -8,7 +8,6 @@ CATEGORIES=	games
 MASTER_SITES=	http://public.planetmirror.com/pub/lokigames/installers/ut/
 
 MAINTAINER=	grant@NetBSD.org
-HOMEPAGE=	http://files.sobservers.com/UnrealTournament/UTServerOnly/
 COMMENT=	Server for Unreal Tournament first person shooter
 
 NO_BUILD=		yes

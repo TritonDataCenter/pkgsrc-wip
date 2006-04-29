@@ -2,10 +2,10 @@
 
 DISTNAME=	jakarta-log4j-1.2.8
 CATEGORIES=	www
-MASTER_SITES?=	http://jakarta.apache.org/log4j/
+MASTER_SITES?=	http://logging.apache.org/log4j/
 
 MAINTAINER=	drue@users.sourceforge.net
-HOMEPAGE=	http://jakarta.apache.org/log4j/docs/index.html
+HOMEPAGE=	http://logging.apache.org/log4j/docs/
 COMMENT=	Logging facility for Java
 
 NO_CONFIGURE=	yes

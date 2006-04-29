@@ -7,7 +7,7 @@ CATEGORIES=		net
 MASTER_SITES=		http://www.digitallumber.com/software/oak/code/
 
 MAINTAINER=		tech-pkg@NetBSD.org
-HOMEPAGE=		http://www.digitallumber.com/TAR/
+HOMEPAGE=		http://www.digitallumber.com/software/oak/
 COMMENT=		Authoritative/recursive DNS server
 
 PY_PATCHPLIST=		yes

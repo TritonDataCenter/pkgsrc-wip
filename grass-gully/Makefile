@@ -8,7 +8,7 @@ MASTER_SITES=		http://mpa.itc.it/grasstutor/data7/
 EXTRACT_SUFX=		.gz
 
 MAINTAINER=		mchittur@cs.nmsu.edu
-HOMEPAGE=		http://mpa.itc.it/grasstutor/data7/
+HOMEPAGE=		http://mpa.itc.it/grasstutor/
 COMMENT=		Example dataset for grass 5.0
 
 WRKSRC=			${WRKDIR}

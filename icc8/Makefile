@@ -11,7 +11,7 @@ MASTER_SITES=	http://www.intel.com/software/products/compilers/downloads/ \
 		ftp://download.intel.co.jp/software/products/compilers/downloads/
 
 MAINTAINER=	tech-pkg@NetBSD.org
-HOMEPAGE=	http://developer.intel.com/software/products/compilers/
+HOMEPAGE=	http://www.intel.com/cd/software/products/asmo-na/eng/compilers/
 COMMENT=	Intel C++ Compiler for Linux
 
 .include "../../mk/bsd.prefs.mk"

@@ -6,7 +6,7 @@ CATEGORIES=	www
 MASTER_SITES=	http://www.0x50.org/download/0.4/0.4.30/
 
 MAINTAINER=	tech-pkg@NetBSD.org
-HOMEPAGE=	http://www.alobbs.com/cherokee/
+HOMEPAGE=	http://www.0x50.org/
 COMMENT=	Extremely fast and tiny web server
 
 USE_LIBTOOL=		yes

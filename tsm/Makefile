@@ -7,7 +7,7 @@ DISTFILES=	${RPMFILES}
 RPMFILES=	TIVsm-BA.i386.rpm TIVsm-API.i386.rpm
 
 MAINTAINER=	hf@spg.tu-darmstadt.de
-HOMEPAGE=	http://www-3.ibm.com/software/tivoli/products/storage-mgr/
+HOMEPAGE=	http://www-306.ibm.com/software/tivoli/products/storage-mgr/
 COMMENT=        IBM Tivoli Storage Manager Client
 
 PKG_SYSCONFSUBDIR= tsm

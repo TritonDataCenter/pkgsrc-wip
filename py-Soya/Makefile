@@ -4,11 +4,11 @@
 DISTNAME=		Soya-0.6.1
 PKGNAME=		${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=		devel
-MASTER_SITES=		http://oomadness.tuxfamily.org/downloads/
+MASTER_SITES=		http://download.gna.org/soya/
 EXTRACT_SUFX=		.tar.bz2
 
 MAINTAINER=		tech-pkg@NetBSD.org
-HOMEPAGE=		http://oomadness.tuxfamily.org/en/soya/index.html
+HOMEPAGE=		http://home.gna.org/oomadness/en/soya/index.html
 COMMENT=		High level 3D engine for Python
 
 PY_PATCHPLIST=		yes

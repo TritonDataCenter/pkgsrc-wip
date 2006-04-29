@@ -7,7 +7,7 @@ MASTER_SITES=		# empty
 DISTFILES=		# empty
 
 MAINTAINER=		reed@NetBSD.org
-HOMEPAGE=		http://www.NetBSD.org/Documentation/rc/
+HOMEPAGE=		http://www.netbsd.org/guide/en/chap-rc.html
 COMMENT=		Portable NetBSD rc.subr implementation for pkgsrc
 
 NOT_FOR_PLATFORM=	NetBSD-1.[5-9]*-* NetBSD-[2-9]*-* FreeBSD-[5-9]*-*

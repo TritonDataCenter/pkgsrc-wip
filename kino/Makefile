@@ -8,7 +8,7 @@ CATEGORIES=		multimedia
 MASTER_SITES=		http://kino.schirmacher.de/filemanager/download/42/
 
 MAINTAINER=		reed@reedmedia.net
-HOMEPAGE=		http://kino.schirmacher.de/
+HOMEPAGE=		http://www.kinodv.org/
 COMMENT=		Non-linear editor for Digital Video data
 
 USE_DIRS+=		xdg-1.1

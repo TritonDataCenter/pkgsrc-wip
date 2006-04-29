@@ -8,7 +8,7 @@ MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=emirror/} \
 		ftp://eclipt.uni-klu.ac.at/pub/projects/emirror/
 
 MAINTAINER=	holger@zedat.fu-berlin.de
-HOMEPAGE=	http://eclipt.uni-klu.ac.at/emirror.php
+HOMEPAGE=	http://sourceforge.net/projects/emirror/
 COMMENT=	FTP mirroring tool with nice HTML logfiles
 
 GNU_CONFIGURE=	yes
