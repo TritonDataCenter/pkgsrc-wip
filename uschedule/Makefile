@@ -4,21 +4,23 @@ DISTNAME=	uschedule-0.7.1
 CATEGORIES=	time
 MASTER_SITES=	http://www.ohse.de/uwe/uschedule/
 
-MAINTAINER=	pkgsrc-users@NetBSD.org
+MAINTAINER=	neil@daikokuya.co.uk
 HOMEPAGE=	http://www.ohse.de/uwe/uschedule.html
 COMMENT=	Secure management of job scheduling
 
 WRKSRC=		${WRKDIR}/admin/${DISTNAME}
 CMDDIR=		${WRKSRC}/command
 DOCDIR=		${WRKSRC}/doc
+PKGDOCDIR=	${PREFIX}/share/doc/${PKGBASE}
 
+DJB_ERRNO_HACK=		NO
 DJB_RESTRICTED=		NO
 DJB_SLASHPACKAGE=	YES
 NO_CONFIGURE=		YES
 
 SERVICEDIR?=	${VARBASE}/spool/service
 OWN_DIRS_PERMS=	${SERVICEDIR} ${ROOT_USER} ${ROOT_GROUP} 0755
-PKGDOCDIR=	${PREFIX}/share/doc/${PKGBASE}
+
 DOCS=		${DOCDIR}/ChangeLog ${DOCDIR}/NEWS ${DOCDIR}/SECURITY-BUG
 USER_CMDS=	${CMDDIR}/uschedule ${CMDDIR}/uschedulecmd \
 		${CMDDIR}/uscheduleconf ${CMDDIR}/uschedulecp \
