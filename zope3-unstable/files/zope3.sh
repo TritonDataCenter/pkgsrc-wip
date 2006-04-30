@@ -37,17 +37,17 @@ zope3_precmd() {
 }
 
 zope3_start() {
-    echo -n "Starting Zope 3:"
+    echo -n "Starting Zope Application Server: "
     ${command} ${rc_flags} ${command_args} start
 }
 
 zope3_stop() {
-    echo -n "Stopping Zope 3:"
+    echo -n "Stopping Zope Application Server: "
     ${command} ${rc_flags} ${command_args} stop
 }
 
 zope3_restart() {
-    echo -n "Restarting Zope 3:"
+    echo -n "Restarting Zope Application Server: "
     ${command} ${rc_flags} ${command_args} restart
 }
 

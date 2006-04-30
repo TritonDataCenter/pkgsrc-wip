@@ -38,17 +38,17 @@ zss3_precmd() {
 }
 
 zss3_start() {
-    echo -n "Starting Zope Storage Server:"
+    echo -n "Starting Zope Storage Server: "
     ${command} ${rc_flags} ${command_args} start
 }
 
 zss3_stop() {
-    echo -n "Stopping Zope Storage Server:"
+    echo -n "Stopping Zope Storage Server: "
     ${command} ${rc_flags} ${command_args} stop
 }
 
 zss3_restart() {
-    echo -n "Restarting Zope Storage Server:"
+    echo -n "Restarting Zope Storage Server: "
     ${command} ${rc_flags} ${command_args} restart
 }
 
