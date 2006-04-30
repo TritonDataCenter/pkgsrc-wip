@@ -13,7 +13,7 @@ $NetBSD$
  #include	"statvfs.c"
 +#elif defined (__NetBSD__)
 +#include <sys/param.h>
-+#if !defined(__NetBSD_Version__) || (__NetBSD_Version__) < 300000000
++#if __NetBSD_Version__ < 300000000
 +#include        "statvfs.c"
 +#else
 +#include        <sys/statvfs.h>

@@ -1,6 +1,6 @@
 $NetBSD$
 
---- ls/ls.c.orig	2005-05-29 15:55:42.000000000 +0300
+--- ls/ls.c.orig	Sun May 29 15:55:42 2005
 +++ ls/ls.c
 @@ -81,12 +81,6 @@ static char ifmt_c[] = "-pc-d-b--nl-SD--
  
