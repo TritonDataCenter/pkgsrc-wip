@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	siproxd-0.5.11
+DISTNAME=	siproxd-0.5.12
 CATEGORIES=	net
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=siproxd/}
 
