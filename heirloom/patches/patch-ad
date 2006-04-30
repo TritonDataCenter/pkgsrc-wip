@@ -148,3 +148,12 @@ $NetBSD$
  
  #
  # Binaries are stripped with this command after installation.
+@@ -218,7 +218,7 @@ STRIP = strip -s -R .comment -R .note
+ #
+ # On FreeBSD, NetBSD, and OpenBSD, no such define is necessary.
+ #
+-LARGEF = -D_FILE_OFFSET_BITS=64L
++#LARGEF = -D_FILE_OFFSET_BITS=64L
+ 
+ #
+ # Use this if you prefer symbolic links between installed files.
