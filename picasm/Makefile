@@ -4,10 +4,10 @@
 DISTNAME=	picasm105
 PKGNAME=	picasm-1.05
 CATEGORIES=	devel
-MASTER_SITES=	http://www.iki.fi/hyvatti/pic/
+MASTER_SITES=	http://hyvatti.iki.fi/~jaakko/pic/
 
 MAINTAINER=	pancake@phreaker.net
-HOMEPAGE=	http://www.iki.fi/hyvatti/pic/picasm105/
+HOMEPAGE=	http://hyvatti.iki.fi/~jaakko/pic/
 COMMENT=	Assembler for Microchip PIC16Cxx microcontrollers
 
 MAKEFILE=	makefile.uni

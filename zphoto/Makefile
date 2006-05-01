@@ -3,10 +3,10 @@
 
 DISTNAME=	zphoto-1.2
 CATEGORIES=	graphics
-MASTER_SITES=	http://namazu.org/~satoru/zphoto/
+MASTER_SITES=	http://0xcc.net/zphoto/
 
 MAINTAINER=	obata@lins.jp
-HOMEPAGE=	http://namazu.org/~satoru/zphoto/
+HOMEPAGE=	http://0xcc.net/zphoto/
 COMMENT=	Flash-based photo album generator
 
 .include "options.mk"

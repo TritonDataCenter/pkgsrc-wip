@@ -3,11 +3,11 @@
 DISTNAME=	pyRXP-0-9
 PKGNAME=	${PYPKGPREFIX}-rxp-0.9
 CATEGORIES=	textproc
-MASTER_SITES=	http://www.reportlab.com/ftp/
+MASTER_SITES=	http://www.reportlab.org/ftp/
 EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	david@netbsd-fr.org
-HOMEPAGE=	http://www.reportlab.com/xml/pyrxp.html
+HOMEPAGE=	http://www.reportlab.org/pyrxp.html
 COMMENT=	Validating XML parser for Python
 
 WRKSRC=		${WRKDIR}

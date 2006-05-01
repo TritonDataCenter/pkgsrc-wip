@@ -7,7 +7,7 @@ CATEGORIES=		biology
 MASTER_SITES=		ftp://ftp-igbmc.u-strasbg.fr/pub/ClustalX/
 
 MAINTAINER=		hdp@cs.nmsu.edu
-HOMEPAGE=		http://bips.u-strasbg.fr/fr/Documentation/ClustalX/Top.html
+HOMEPAGE=		http://bips.u-strasbg.fr/fr/Documentation/ClustalX/
 COMMENT=		X-Windows interface for ClustalW
 
 WRKSRC=                 ${WRKDIR}/clustalx1.83.sun

@@ -6,7 +6,7 @@ CATEGORIES=	games
 MASTER_SITES=	${MASTER_SITE_IFARCHIVE:=programming/glk/implementations/}
 
 MAINTAINER=	dillo@NetBSD.org
-HOMEPAGE=	http://mirror.ifarchive.org/if-archiveXprogrammingXglkXimplementations.html
+HOMEPAGE=	http://www.ifarchive.org/indexes/if-archiveXprogrammingXglkXimplementations.html
 COMMENT=	Gtk+ 2 port of Glk interface for text adventures
 
 USE_TOOLS+=	gmake

@@ -8,7 +8,7 @@ CATEGORIES=		x11 devel
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=enlightenment/}
 
 MAINTAINER=		Peter.Bex@student.kun.nl
-HOMEPAGE=		http://www.enlightenment.org/pages/ecore.html
+HOMEPAGE=		http://www.enlightenment.org/Libraries/Ecore/
 COMMENT=		Core events/X abstraction layer for Enlightenment
 
 GNU_CONFIGURE=		YES

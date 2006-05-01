@@ -6,7 +6,7 @@ CATEGORIES=		sysutils
 MASTER_SITES=		http://www.koeniglich.de/packages/
 
 MAINTAINER=		pancake@phreaker.net
-HOMEPAGE=		http://www.koeniglich.de/packages/
+HOMEPAGE=		http://www.koeniglich.de/p3nfs.html
 COMMENT=		Symbian to UNIX NFS daemon
 
 USE_PKGLOCALEDIR=	yes

@@ -8,7 +8,7 @@ CATEGORIES=		devel
 MASTER_SITES=		http://www.tecgraf.puc-rio.br/~lhf/ftp/lua/
 
 MAINTAINER=		pancake@phreaker.net
-HOMEPAGE=		http://www.tecgraf.puc-rio.br/~diego/luasocket/new/
+HOMEPAGE=		http://www.tecgraf.puc-rio.br/~lhf/ftp/lua/
 COMMENT=		POSIX library for Lua
 
 USE_TOOLS+=		gmake

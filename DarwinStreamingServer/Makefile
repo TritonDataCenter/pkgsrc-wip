@@ -7,7 +7,7 @@ MASTER_SITES=	http://www.opensource.apple.com/projects/streaming/release/
 DISTFILES=	DarwinStreamingSrvr${DSS_VERSION}-Source.tar
 
 MAINTAINER=	eggert@macvaerk.dtu.dk
-HOMEPAGE=	http://developer.apple.com/darwin/projects/streaming/
+HOMEPAGE=	http://developer.apple.com/opensource/server/streaming/
 COMMENT=	Open source version of Apple's QuickTime Streaming Server technology
 
 WRKSRC=		${WRKDIR}/DarwinStreamingSrvr${DSS_VERSION}-Source

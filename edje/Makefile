@@ -6,7 +6,7 @@ CATEGORIES=		graphics x11
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=enlightenment/}
 
 MAINTAINER=		Peter.Bex@student.kun.nl
-HOMEPAGE=		http://www.enlightenment.org/pages/edje.html
+HOMEPAGE=		http://www.enlightenment.org/Libraries/Edje/
 COMMENT=		Complex Graphical Design/Layout Engine
 
 GNU_CONFIGURE=		YES

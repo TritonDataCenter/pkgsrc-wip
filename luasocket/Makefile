@@ -7,7 +7,7 @@ CATEGORIES=		net
 MASTER_SITES=		http://www.tecgraf.puc-rio.br/luasocket/
 
 MAINTAINER=		pancake@phreaker.net
-HOMEPAGE=		http://www.tecgraf.puc-rio.br/luasocket/
+HOMEPAGE=		http://www.cs.princeton.edu/~diego/professional/luasocket/
 COMMENT=		Gives socket capabilities to lua50
 
 MAKEFILE=		${WRKSRC}/makefile.Linux

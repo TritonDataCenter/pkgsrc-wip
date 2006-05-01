@@ -6,7 +6,7 @@ CATEGORIES=	devel
 MASTER_SITES=	http://www.go-mono.org/archive/
 
 MAINTAINER=	recht@NetBSD.org
-HOMEPAGE=	http://www.go-mono.org/
+HOMEPAGE=	http://www.mono-project.com/
 COMMENT=	Documentation for the Mono class libraries
 
 USE_PKGLOCALEDIR=	yes

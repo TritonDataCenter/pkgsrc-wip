@@ -8,7 +8,7 @@ CATEGORIES=		x11 devel
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=enlightenment/}
 
 MAINTAINER=		Peter.Bex@student.kun.nl
-HOMEPAGE=		http://www.enlightenment.org/pages/evas.html
+HOMEPAGE=		http://www.enlightenment.org/Libraries/Evas/
 COMMENT=		High level display-independent canvas API
 
 GNU_CONFIGURE=		YES

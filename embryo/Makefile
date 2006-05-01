@@ -6,7 +6,7 @@ CATEGORIES=		lang
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=enlightenment/}
 
 MAINTAINER=		Peter.Bex@student.kun.nl
-HOMEPAGE=		http://www.enlightenment.org/pages/embryo.html
+HOMEPAGE=		http://www.enlightenment.org/Libraries/Embryo/
 COMMENT=		Tiny scripting language for Enlightenment
 
 GNU_CONFIGURE=		YES

@@ -7,8 +7,8 @@ CATEGORIES=		devel
 MASTER_SITES=		http://www.snurgle.org/~pybrenda/
 
 MAINTAINER=		tech-pkg@NetBSD.org
-HOMEPAGE=		http://www.snurgle.org/~pybrenda/
-COMMENT=		Paralell computation system
+HOMEPAGE=		http://wiki.python.org/moin/PyBrenda
+COMMENT=		Parallel computation system
 
 PY_PATCHPLIST=		yes
 NO_BUILD=		yes

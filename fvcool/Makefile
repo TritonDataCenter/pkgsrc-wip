@@ -4,10 +4,10 @@
 DISTNAME=		FVCool103
 PKGNAME=		fvcool-1.0.3
 CATEGORIES=		misc
-MASTER_SITES=		http://www.nt.phys.kyushu-u.ac.jp/shimizu/download/
+MASTER_SITES=		http://www.nt.phys.kyushu-u.ac.jp/shimizu/download/fvcool/
 
 MAINTAINER=		tech-pkg@NetBSD.org
-HOMEPAGE=		http://www.nt.phys.kyushu-u.ac.jp/shimizu/download/README-FVCool100.html
+HOMEPAGE=		http://www.nt.phys.kyushu-u.ac.jp/shimizu/download/fvcool/README-FVCool103.html
 COMMENT=		Utility to make your AMD CPU cooler
 
 HAS_CONFIGURE=		yes

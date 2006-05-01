@@ -3,10 +3,10 @@
 
 DISTNAME=		slocate-2.7
 CATEGORIES=		sysutils
-MASTER_SITES=		ftp://ftp.geekreview.org/slocate/src/
+MASTER_SITES=		http://slocate.trakker.ca/files/
 
 MAINTAINER=		pancake@phreaker.net
-HOMEPAGE=		http://www.geekreview.org/slocate/
+HOMEPAGE=		http://slocate.trakker.ca/
 COMMENT=		Secure Locate
 
 PKG_INSTALLATION_TYPES=	overwrite pkgviews

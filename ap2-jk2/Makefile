@@ -7,7 +7,7 @@ CATEGORIES=	www
 MASTER_SITES=	${MASTER_SITE_APACHE:=jakarta/tomcat-connectors/jk2/source/}
 
 MAINTAINER=	tech-pkg@NetBSD.org
-HOMEPAGE=	http://jakarta.apache.org/tomcat/
+HOMEPAGE=	http://tomcat.apache.org/
 COMMENT=	Apache2 JK2 module for connecting to Tomcat using AJP1X
 
 WRKSRC=		${WRKDIR}/${DISTNAME}/jk/native2

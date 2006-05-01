@@ -3,10 +3,10 @@
 
 DISTNAME=		redland-0.9.14
 CATEGORIES=		textproc
-MASTER_SITES=		http://www.redland.opensource.ac.uk/dist/source/old/
+MASTER_SITES=		http://download.librdf.org/source/old/
 
 MAINTAINER=		adam@monkeybyte.org
-HOMEPAGE=		http://www.redland.opensource.ac.uk/dist/source/
+HOMEPAGE=		http://download.librdf.org/source/
 COMMENT=		Library for RDF in C, Java, Perl, PHP, Python, Ruby and Tcl
 
 GNU_CONFIGURE=		YES

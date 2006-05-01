@@ -8,7 +8,7 @@ MASTER_SITES=		ftp://ftp.isc.org/isc/inn/OLD/1.7/ \
 			ftp://ftp.fu-berlin.de/unix/news/inn/OLD/1.7/
 
 MAINTAINER=		hauke@Espresso.Rhein-Neckar.DE
-HOMEPAGE=		http://www.isc.org/inn.html
+HOMEPAGE=		http://www.isc.org/sw/inn/
 COMMENT=		NNTP reader daemon from release 1.7 of InterNet News (INN)
 
 USE_PERL5=      	YES

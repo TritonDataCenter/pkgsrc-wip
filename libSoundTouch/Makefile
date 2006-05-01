@@ -8,7 +8,7 @@ MASTER_SITES=		http://sky.prohosting.com/oparviai/soundtouch/
 EXTRACT_SUFX=		.zip
 
 MAINTAINER=		tech-pkg@NetBSD.org
-HOMEPAGE=		http://www.iki.fi/oparviai/soundtouch/
+HOMEPAGE=		http://www.surina.net/soundtouch/
 COMMENT=		Audio Processing Library
 
 WRKSRC=			${WRKDIR}/SoundTouch-1.3.0
