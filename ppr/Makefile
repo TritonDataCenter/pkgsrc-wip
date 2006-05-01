@@ -6,7 +6,7 @@ MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=ppr/}\
 			ftp://ppr-dist.trincoll.edu/pub/ppr/
 
 MAINTAINER=		hauke@Espresso.Rhein-Neckar.DE
-HOMEPAGE=		http://ppr.tricoll.edu/
+HOMEPAGE=		http://ppr.trincoll.edu/
 COMMENT=		PPR is a print spooler for PostScript printers
 
 CONFLICTS+=		LPRng-[0-9]* LPRng-core-[0-9]* cups-[0-9]*

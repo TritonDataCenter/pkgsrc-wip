@@ -4,11 +4,11 @@
 DISTNAME=		CoreGuideJS15
 PKGNAME=		javascript-guide-1.5
 CATEGORIES=		misc
-MASTER_SITES=		http://devedge.netscape.com/library/manuals/2000/javascript/1.5/guide/
+MASTER_SITES=		http://devedge-temp.mozilla.org/library/manuals/2000/javascript/1.5/reference/
 EXTRACT_SUFX=		.zip
 
 MAINTAINER=		tech-pkg@NetBSD.org
-HOMEPAGE=		http://devedge.netscape.com/
+HOMEPAGE=		http://devedge-temp.mozilla.org/
 COMMENT=		JavaScript Guide from Netscape Devedge
 
 HTMLDIR=		share/doc/${PKGNAME}

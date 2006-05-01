@@ -6,7 +6,7 @@ CATEGORIES=		sysutils
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=ipmitool/}
 
 MAINTAINER=		ola@mrEriksson.net
-HOMEPAGE=		http://voxel.dl.sourceforge.net/sourceforge/ipmitool/
+HOMEPAGE=		http://ipmitool.sourceforge.net/
 COMMENT=		Provides command-line interface to IPMI-enabled devices
 
 CONFIGURE_ARGS+=	--enable-intf-imb=no

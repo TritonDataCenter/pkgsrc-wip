@@ -7,7 +7,7 @@ CATEGORIES=             www
 MASTER_SITES=           ${MASTER_SITE_SOURCEFORGE:=aolserver/}
 
 MAINTAINER=		iharding@destinydata.com
-HOMEPAGE=		http://www.scottg.net/
+HOMEPAGE=		http://aolserver.sourceforge.net/
 COMMENT=		OpenSSL module for aolserver
 
 WRKSRC=                 ${WRKDIR}/${DISTNAME:S/-src//}

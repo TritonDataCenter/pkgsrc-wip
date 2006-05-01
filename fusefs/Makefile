@@ -7,7 +7,7 @@ CATEGORIES=		wip sysutils
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=fuse/}
 
 MAINTAINER=		pancake@phreaker.net
-HOMEPAGE=		http://internap.dl.sourceforge.net/sourceforge/fuse/
+HOMEPAGE=		http://fuse.sourceforge.net/
 COMMENT=		Filesystem in Userspace
 
 GNU_CONFIGURE=		YES

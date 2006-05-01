@@ -4,11 +4,11 @@
 DISTNAME=		scapy-0.9.15
 PKGNAME=		${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=		net
-MASTER_SITES=		http://www.cartel-securite.fr/pbiondi/python/
+MASTER_SITES=		http://www.secdev.org/projects/scapy/files/
 EXTRACT_SUFX=		.tgz
 
 MAINTAINER=		tech-pkg@NetBSD.org
-HOMEPAGE=		http://www.cartel-securite.fr/pbiondi/projects/scapy.html
+HOMEPAGE=		http://www.secdev.org/projects/scapy/
 COMMENT=		Interactive packet manipulation tool
 
 PYTHON_VERSIONS_ACCEPTED=	23 22

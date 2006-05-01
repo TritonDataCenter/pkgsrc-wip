@@ -5,10 +5,10 @@ DISTNAME=		rarbsd-3.3.0
 PKGNAME=		rar-3.3.0
 WRKSRC=			${WRKDIR}/rar
 CATEGORIES=		archivers
-MASTER_SITES=		http://files10.rarlab.com/rar/
+MASTER_SITES=		http://files.rarlab.com/rar/
 
 MAINTAINER=		tech-pkg@NetBSD.org
-HOMEPAGE=		http://files10.rarlab.com/rar/
+HOMEPAGE=		http://www.rarlab.com/shoprarlab.php
 COMMENT=		File archiver (binary only)
 
 ONLY_FOR_PLATFORM=	FreeBSD-*-i386 NetBSD-*-i386

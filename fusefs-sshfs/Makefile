@@ -7,7 +7,7 @@ CATEGORIES=		wip sysutils
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=fuse/}
 
 MAINTAINER=		pancake@phreaker.net
-HOMEPAGE=		http://nchc.dl.sourceforge.net/sourceforge/fuse/
+HOMEPAGE=		http://fuse.sourceforge.net/
 COMMENT=		Mount remote directories using ssh and FUSE
 GNU_CONFIGURE=		YES
 USE_TOOLS+=		gmake

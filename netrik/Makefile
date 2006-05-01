@@ -5,7 +5,7 @@ CATEGORIES=		www net
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=netrik/}
 
 MAINTAINER=		lkundrak@skosi.org
-HOMEPAGE=		http://10.86.12.1/~lkundrak/src/
+HOMEPAGE=		http://netrik.sourceforge.net/
 COMMENT=		Will be a really fancy text mode WWW browser
 
 USE_PKGLOCALEDIR=	yes

@@ -3,10 +3,10 @@
 
 DISTNAME=		iptstate-1.3
 CATEGORIES=		net
-MASTER_SITES=		http://iptstate.phildev.net/
+MASTER_SITES=		http://www.phildev.net/iptstate/
 
 MAINTAINER=		roland.illig@gmx.de
-HOMEPAGE=		http://iptstate.phildev.net/
+HOMEPAGE=		http://www.phildev.net/iptstate/
 COMMENT=		Display Netfilter state tables in a "top"-like interface
 
 ONLY_FOR_PLATFORM=	Linux-2.4.*-*

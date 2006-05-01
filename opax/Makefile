@@ -7,7 +7,7 @@ MASTER_SITES=	ftp://ftp.suse.com/pub/people/kukuk/pax/
 EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	reed@reedmedia.net
-HOMEPAGE=	http://www.suse.de/us/private/products/suse_linux/i386/packages_personal/pax.html
+HOMEPAGE=	http://www.suse.com/us/private/products/suse_linux/i386/packages_personal/pax.html
 COMMENT=	POSIX standard archive tool (port of OpenBSD's pax)
 
 # Uses DEFTAPE from Linux /usr/include/sys/mtio.h

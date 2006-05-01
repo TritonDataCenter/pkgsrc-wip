@@ -4,10 +4,10 @@
 DISTNAME=		pydirector-0.0.7
 PKGNAME=		${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=		net
-MASTER_SITES=		http://cesnet.dl.sourceforge.net/sourceforge/pythondirector/
+MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=pythondirector/}
 
 MAINTAINER=		tech-pkg@NetBSD.org
-HOMEPAGE=		http://cesnet.dl.sourceforge.net/sourceforge/pythondirector/
+HOMEPAGE=		http://pythondirector.sourceforge.net/
 COMMENT=		Pure-python TCP load balancer
 
 PY_PATCHPLIST=		yes

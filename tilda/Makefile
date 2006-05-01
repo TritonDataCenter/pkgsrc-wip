@@ -6,7 +6,7 @@ CATEGORIES=		wip sysutils
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=tilda/}
 
 MAINTAINER=		pancake@phreaker.net
-HOMEPAGE=		http://kent.dl.sourceforge.net/sourceforge/tilda/
+HOMEPAGE=		http://tilda.sourceforge.net/
 COMMENT=		Terminal like the classic first-person-shooter games.
 
 USE_PKGLOCALEDIR=	yes

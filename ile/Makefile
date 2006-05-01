@@ -6,7 +6,7 @@ CATEGORIES=		misc
 MASTER_SITES=		http://www.jabberstudio.org/files/ile/
 
 MAINTAINER=		pancake@phreaker.net
-HOMEPAGE=		http://www.jabberstudio.org/files/ile/
+HOMEPAGE=		http://jabberstudio.org/projects/ile/
 COMMENT=		Email notifier component for jabber
 
 DEPENDS=		p5-Net-Jabber>=1.26:../../chat/p5-Net-Jabber

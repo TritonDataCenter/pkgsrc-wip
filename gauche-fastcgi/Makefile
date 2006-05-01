@@ -3,10 +3,10 @@
 
 DISTNAME=		Gauche-fastcgi-0.1
 CATEGORIES=		lang
-MASTER_SITES=		http://kyushu-u.dl.sourceforge.jp/gauche/8004/
+MASTER_SITES=		http://prdownloads.sourceforge.jp/gauche/8004/
 
 MAINTAINER=		nel@soraneko.com
-HOMEPAGE=		http://kyushu-u.dl.sourceforge.jp/gauche/8004/
+HOMEPAGE=		http://sourceforge.jp/projects/gauche/
 COMMENT=		Fastcgi bindings for gauche
 
 USE_PKGLOCALEDIR=	yes
