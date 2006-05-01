@@ -2,7 +2,6 @@
 $NetBSD$
 
 pkgmanager behaves differently than what you may be used to. Make sure you
-read the documentation at http://www.scode.org/pkgmanager/ before
-proceeding.
+read the man page before proceeding.
 
 ===========================================================================

@@ -8,4 +8,5 @@ lib/pkgmanager/pkgmgr-util.fas
 lib/pkgmanager/pkgmgr-pkgdb.fas
 lib/pkgmanager/pkgmanager.fas
 bin/pkgmanager
+man/man8/pkgmanager.1
 @dirrm lib/pkgmanager
