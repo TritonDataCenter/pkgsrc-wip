@@ -17,14 +17,14 @@ BUILD_TARGET=		default
 
 CONFIGURE_ARGS+=        --with-fftw=no
 
-.include "../../x11/tk/buildlink3.mk"
-.include "../../lang/tcl/buildlink3.mk"
+.include "../../geography/gdal-lib/buildlink3.mk"
 .include "../../graphics/gd/buildlink3.mk"
-.include "../../graphics/png/buildlink3.mk"
 .include "../../graphics/jpeg/buildlink3.mk"
+.include "../../graphics/png/buildlink3.mk"
 .include "../../graphics/tiff/buildlink3.mk"
+.include "../../lang/tcl/buildlink3.mk"
 .include "../../misc/proj/buildlink3.mk"
-.include "../../wip/gdal-lib/buildlink3.mk"
+.include "../../x11/tk/buildlink3.mk"
 .include "../../mk/pthread.buildlink3.mk"
 .include "../../mk/pgsql.buildlink3.mk"
 .include "../../mk/x11.buildlink3.mk"
