@@ -62,6 +62,8 @@ post-extract:
 post-install:
 	${INSTALL_DATA} ${FILESDIR}/Makefile.multinode-NetBSD \
 		${PREFIX}/share/doc/qemu
+	${INSTALL_DATA} ${FILESDIR}/qvm86.sh \
+		${PREFIX}/share/qemu
 	${INSTALL_LIB_DIR} ${PREFIX}/lib/qemu
 	${INSTALL_DATA} ${WRKDIR}/${DISTNAME}/kqemu/qvm86.o \
 		${PREFIX}/lib/qemu

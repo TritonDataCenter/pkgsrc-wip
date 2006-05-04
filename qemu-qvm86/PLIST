@@ -53,6 +53,7 @@ share/qemu/proll.elf
 share/qemu/vgabios-cirrus.bin
 share/qemu/vgabios.bin
 share/qemu/video.x
+share/qemu/qvm86.sh
 lib/qemu/qvm86.o
 @dirrm lib/qemu
 @dirrm share/qemu/keymaps
