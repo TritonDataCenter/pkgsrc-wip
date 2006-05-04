@@ -3,3 +3,4 @@ $NetBSD$
 SHA1 (xmpppy-0.3.1.tar.gz) = ff1ab7c3109213bcf2e9422158c3d2d0adc45642
 RMD160 (xmpppy-0.3.1.tar.gz) = 5eb7b09d3b9c1004ab892c983c59258e207a6363
 Size (xmpppy-0.3.1.tar.gz) = 252764 bytes
+SHA1 (patch-ab) = 1483aa7ba385e5b0786dcb9fb5541066f544381b
