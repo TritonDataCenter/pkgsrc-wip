@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	File-Copy-Recursive-0.19
+DISTNAME=	File-Copy-Recursive-0.21
 PKGNAME=	p5-${DISTNAME}
 CATEGORIES=	devel perl5
 MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=../by-authors/id/D/DM/DMUEY/}
