@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-PKGREVISION=		1
+PKGREVISION=		2
 COMMENT=		Flexible printing subsystem
 
 CONFIGURE_ENV+=		GLIB_CONFIG=NO # make sure xpdq is not built

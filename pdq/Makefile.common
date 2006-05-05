@@ -19,3 +19,4 @@ PKG_SYSCONFSUBDIR=	pdq
 
 CONFIGURE_ARGS+=	--enable-printrc=${PKG_SYSCONFDIR}/printrc
 CONFIGURE_ARGS+=	--enable-pdqlibdir=${PREFIX}/share/pdq
+CONFIGURE_ARGS+=	--sysconfdir=${PKG_SYSCONFDIR}
