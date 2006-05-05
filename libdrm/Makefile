@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		libdrm-2.0
-CATEGORIES=		x11 ## fix this
+CATEGORIES=		devel
 MASTER_SITES=		http://dri.freedesktop.org/libdrm/
 
 MAINTAINER=		reed@reedmedia.net
