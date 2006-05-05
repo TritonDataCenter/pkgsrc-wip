@@ -14,6 +14,8 @@ REPLACE_PERL+=		html2latex
 
 NO_BUILD=		YES
 
+INSTALLATION_DIRS+=	bin ${PKGMANDIR}/man1
+
 do-install:
 	${INSTALL_SCRIPT} ${WRKSRC:Q}/html2latex ${PREFIX:Q}/bin/html2latex
 	${INSTALL_MAN} ${WRKSRC:Q}/html2latex.1 ${PREFIX:Q}/${PKGMANDIR}/man1
