@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	Data-Visitor-0.04
+DISTNAME=	Data-Visitor-0.05
 PKGNAME=	p5-${DISTNAME}
 CATEGORIES=	devel perl5
 MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=Data/}
