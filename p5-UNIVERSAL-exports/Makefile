@@ -11,6 +11,11 @@ HOMEPAGE=		http://search.cpan.org/dist/UNIVERSAL-exports/
 COMMENT=		Lightweight, universal exporting of variables
 
 DEPENDS+=		p5-Exporter-Lite>=0.01:../../wip/p5-Exporter-Lite
+DEPENDS+=		p5-UNIVERSAL-require>=0.01:../../devel/p5-UNIVERSAL-require
+
+# p5-UNIVERSAL-require provides a conflicting (and more recent) require.pm
+post-extract:
+	${RM} ${WRKSRC}/lib/UNIVERSAL/require.pm
 
 PKG_INSTALLATION_TYPES=	overwrite pkgviews
 
