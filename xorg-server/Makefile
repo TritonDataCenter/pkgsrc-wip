@@ -7,6 +7,7 @@ EXTRACT_SUFX=	.tar.bz2
 
 COMMENT=	Xorg X11 Server from modular X.org X11
 
+USE_LIBTOOL=	YES
 GNU_CONFIGURE=	YES
 PKGCONFIG_OVERRIDE+=	${WRKSRC}/xorg-server.pc.in
 USE_TOOLS+=	pkg-config
