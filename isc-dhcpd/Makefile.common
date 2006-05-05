@@ -20,7 +20,6 @@ HOMEPAGE=		http://www.isc.org/sw/dhcp/
 HAS_CONFIGURE=		yes
 
 FILESDIR=		${.CURDIR}/../isc-dhcpd/files
-PKGMANDIR?=		man
 
 RCD_SCRIPTS=			isc_${ISC_DHCP_TYPE}
 
