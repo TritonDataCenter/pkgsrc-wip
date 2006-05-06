@@ -69,7 +69,6 @@ ${TRANSPORTDIR}/tools/managessi.py
 ${TRANSPORTDIR}/tools/migrate.py
 share/examples/jabberd/pyicqt.xml
 share/examples/rc.d/pyicqt
-@dirrm share/examples/jabberd
 @dirrm ${TRANSPORTDIR}/tools
 @dirrm ${TRANSPORTDIR}/src/xdb
 @dirrm ${TRANSPORTDIR}/src/web
