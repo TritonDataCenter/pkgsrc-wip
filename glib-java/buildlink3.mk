@@ -11,7 +11,7 @@
 # XXX	BUILDLINK_DEPMETHOD.glib-java?=	build
 
 BUILDLINK_DEPTH:=		${BUILDLINK_DEPTH}+
-GLIB_JAVA_BUILDLINK3_MK:=	${GLIB_JAVA_BUILDLINK3_MK}+
+guib_java_BUILDLINK3_MK:=	${guib_java_BUILDLINK3_MK}+
 
 .if !empty(BUILDLINK_DEPTH:M+)
 BUILDLINK_DEPENDS+=	glib-java
@@ -20,10 +20,10 @@ BUILDLINK_DEPENDS+=	glib-java
 BUILDLINK_PACKAGES:=	${BUILDLINK_PACKAGES:Nglib-java}
 BUILDLINK_PACKAGES+=	glib-java
 
-.if !empty(GLIB_JAVA_BUILDLINK3_MK:M+)
-BUILDLINK_API_DEPENDS.glib-java+=	glib-java>=0.2.1
+.if !empty(guib_java_BUILDLINK3_MK:M+)
+BUILDLINK_DEPENDS.glib-java+=	glib-java>=0.2.4
 BUILDLINK_PKGSRCDIR.glib-java?=	../../wip/glib-java
-.endif	# GLIB_JAVA_BUILDLINK3_MK
+.endif	# guib_java_BUILDLINK3_MK
 
 # XXX
 # XXX Uncomment and keep only the buildlink3 lines below which are directly

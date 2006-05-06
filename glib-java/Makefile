@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		glib-java-0.2.1
+DISTNAME=		glib-java-0.2.4
 CATEGORIES=		devel
 MASTER_SITES=		${MASTER_SITE_GNOME:=sources/glib-java/0.2/}
 
@@ -12,7 +12,6 @@ COMMENT=		Glib bindings for Java
 GNU_CONFIGURE=		yes
 USE_TOOLS+=		gmake pkg-config
 CONFIGURE_ARGS+=	--without-gcj-compile JAVAC="javac"
-
 
 .include "../../devel/glib2/buildlink3.mk"
 .include "../../wip/mk/java-app.mk"
