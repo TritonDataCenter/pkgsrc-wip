@@ -1,6 +1,6 @@
 $NetBSD$
 
---- PyMSNt.py.orig	2006-02-17 08:44:28.000000000 -0600
+--- PyMSNt.py.orig	2006-02-17 16:07:30.000000000 -0600
 +++ PyMSNt.py
 @@ -1,8 +1,8 @@
  #!/usr/bin/python

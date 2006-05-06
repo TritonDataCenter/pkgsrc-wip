@@ -1,6 +1,6 @@
 # $NetBSD: Makefile-example,v 1.9 2005/04/11 21:45:39 tv Exp $
 
-DISTNAME=		pymsnt-0.11
+DISTNAME=		pymsnt-0.11a
 PKGNAME=		${PYPKGPREFIX}-jabber-${DISTNAME:S/py//}
 CATEGORIES=		chat python
 MASTER_SITES=		http://msn-transport.jabberstudio.org/tarballs/
@@ -9,6 +9,7 @@ MAINTAINER=		eric@cirr.com
 HOMEPAGE=		http://msn-transport.jabberstudio.org/
 COMMENT=		Transport connecting Jabber to the MSN network
 
+WRKSRC=			${WRKDIR}/pymsnt-0.11
 #
 # jabberd isn't really a dependency since the transport can run on a
 # different server than the main jabber server (not that many sites will

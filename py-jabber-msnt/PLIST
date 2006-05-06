@@ -14,10 +14,7 @@ ${TRANSPORTDIR}/src/housekeep.py
 ${TRANSPORTDIR}/src/jabw.py
 ${TRANSPORTDIR}/src/lang.py
 ${TRANSPORTDIR}/src/legacy/__init__.py
-${TRANSPORTDIR}/src/legacy/defaultAvatar.png
-${TRANSPORTDIR}/src/legacy/defaultJabberAvatar.png
 ${TRANSPORTDIR}/src/legacy/glue.py
-${TRANSPORTDIR}/src/legacy/legacylist.py
 ${TRANSPORTDIR}/src/main.py
 ${TRANSPORTDIR}/src/misciq.py
 ${TRANSPORTDIR}/src/register.py

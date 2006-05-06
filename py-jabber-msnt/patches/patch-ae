@@ -1,6 +1,6 @@
 $NetBSD$
 
---- src/main.py.orig	2006-02-17 08:44:28.000000000 -0600
+--- src/main.py.orig	2006-02-17 16:07:30.000000000 -0600
 +++ src/main.py
 @@ -34,7 +34,7 @@ bestreactor.install()
  # Must load config before everything else
