@@ -20,7 +20,8 @@ sig_stop="-INT"
 
 upimapproxy_stop()
 {
-	pids="`check_process in.imapproxyd`"
+	echo "Stopping upimapproxy."
+	pids="$(check_process in.imapproxyd)"
 	if [ -n "$pids" ]; then
 		for pid in $pids; do
 			kill $sig_stop $pid
