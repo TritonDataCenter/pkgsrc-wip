@@ -1,0 +1,5 @@
+# $NetBSD$
+
+VIM_VERSION=		7.0f
+VIM_PATCHLEVEL=		0
+VIM_SUBDIR=		vim70f
