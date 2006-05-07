@@ -3,4 +3,8 @@ include/rxspencer/regex.h
 lib/librxspencer.la
 man/man3/rxspencer.3
 man/man7/rxspencer.7
+share/doc/${PKGBASE}/COPYRIGHT
+share/doc/${PKGBASE}/INSTALL
+share/doc/${PKGBASE}/README
+share/doc/${PKGBASE}/WHATSNEW
 @dirrm include/rxspencer

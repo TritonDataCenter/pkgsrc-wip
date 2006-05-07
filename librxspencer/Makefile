@@ -16,4 +16,12 @@ CONFIGURE_ARGS+=	--enable-shared
 
 TEST_TARGET=		check
 
+DOCDIR=			${PREFIX}/share/doc/${PKGBASE}
+
+post-install:
+	${INSTALL_DATA_DIR} ${DOCDIR} && \
+	for i in COPYRIGHT INSTALL README WHATSNEW; do \
+		${INSTALL_DATA} ${WRKSRC}/$${i} ${DOCDIR} || exit 1; \
+	done
+
 .include "../../mk/bsd.pkg.mk"
