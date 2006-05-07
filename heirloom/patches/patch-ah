@@ -1,6 +1,6 @@
 $NetBSD$
 
---- mail/mkdead.c.orig	Wed Jun 22 06:12:19 2005
+--- mail/mkdead.c.orig	2005-06-22 06:12:19.000000000 +0300
 +++ mail/mkdead.c
 @@ -65,8 +65,11 @@ mkdead(void)
  			try to create in $HOME
