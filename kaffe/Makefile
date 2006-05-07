@@ -5,6 +5,10 @@
 
 CONFLICTS+=		kaffe-nox11-[0-9]*
 
+CONFIGURE_ARGS+=	--disable-native-awt
+CONFIGURE_ARGS+=	--disable-gtk-peer
+CONFIGURE_ARGS+=	--without-x
+
 JAVA_WRAPPERS=		appletviewer jar java javac javadoc javah javakey \
 			javap jdb rmic rmiregistry serialver
 
