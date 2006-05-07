@@ -1,6 +1,6 @@
 $NetBSD$
 
---- ps/ps.c.orig	2006-01-22 20:54:07.000000000 +0200
+--- ps/ps.c.orig	Sun Jan 22 20:54:07 2006
 +++ ps/ps.c
 @@ -156,6 +156,11 @@ static const char cacheid[] = "@(#)/tmp/
  #include	<sys/ioctl.h>
