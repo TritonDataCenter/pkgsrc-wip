@@ -19,9 +19,11 @@ BUILD_DIRS+=    ${WRKSRC}/libltdl
 BUILD_DIRS+=    ${WRKSRC}/kaffe/kaffevm
 BUILD_DIRS+=    ${WRKSRC}/libraries/clib/classpath
 BUILD_DIRS+=    ${WRKSRC}/libraries/clib/awt
+BUILD_DIRS+=	${WRKSRC}/libraries/javalib/external/classpath/native/jni/gtk-peer
+BUILD_DIRS+=	${WRKSRC}/libraries/javalib/external/classpath/native/jawt
 INSTALL_DIRS=   ${WRKSRC}/libraries/clib/awt
-INSTALL_DIRS+=  ${WRKSRC}/libraries/javalib/awt-implementations
-INSTALL_DIRS+=  ${WRKSRC}/libraries/javalib/external/classpath/gnu/java/awt
+INSTALL_DIRS+=	${WRKSRC}/libraries/javalib/external/classpath/native/jni/gtk-peer
+INSTALL_DIRS+=	${WRKSRC}/libraries/javalib/external/classpath/native/jawt
 
 pre-build:
 	cd ${WRKSRC}; ${SETENV} ${MAKE_ENV} ${MAKE_PROGRAM} ${BUILD_MAKE_FLAGS} BUILD_ENVIRONMENT
