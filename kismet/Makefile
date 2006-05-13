@@ -14,6 +14,9 @@ USE_LANGUAGES=		c c++
 USE_NCURSES=		# needs libpanel
 USE_TOOLS+=		gmake
 
+# might be appended to in options.mk
+PLIST_SRC=		PLIST
+
 KISMET_USER?=		kismet
 KISMET_GROUP?=		kismet
 PKG_GROUPS=		${KISMET_GROUP}
