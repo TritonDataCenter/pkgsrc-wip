@@ -1,0 +1,4 @@
+@comment $NetBSD$
+share/dictd/mueller7.dict.dz
+share/dictd/mueller7.index
+@dirrm share/dictd
