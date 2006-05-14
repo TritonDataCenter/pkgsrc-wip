@@ -4,7 +4,7 @@ DISTNAME=	siproxd-0.5.12
 CATEGORIES=	net
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=siproxd/}
 
-MAINTAINER=     schwarz@NetBSD.org
+MAINTAINER=	schwarz@NetBSD.org
 HOMEPAGE=	http://siproxd.sourceforge.net/
 COMMENT=	Session Initiation Protocol Application-Level Gateway (SIP ALG)
 
