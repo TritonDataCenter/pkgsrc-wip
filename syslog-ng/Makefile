@@ -26,10 +26,10 @@ SUBST_MESSAGE.conf=	Fixing configuration file paths.
 
 .include "../../mk/bsd.prefs.mk"
 
-BUILDLINK_API_DEPENDS.libol?=	libol>=0.3.0
-
 .include "../../security/tcp_wrappers/buildlink3.mk"
 .include "../../sysutils/libol/buildlink3.mk"
+
+BUILDLINK_API_DEPENDS.libol+=	libol>=0.3.0
 
 PKG_OPTIONS_VAR=	PKG_OPTIONS.syslog-ng
 PKG_SUPPORTED_OPTIONS=	spoof
@@ -41,7 +41,7 @@ PKG_SUPPORTED_OPTIONS=	spoof
 #
 .if !empty(PKG_OPTIONS:Mspoof)
 CONFIGURE_ARGS+=	--enable-spoof-source
-BUILDLINK_API_DEPENDS.libnet?=libnet>=1.1.2.1
+BUILDLINK_API_DEPENDS.libnet+=	libnet>=1.1.2.1
 .include "../../devel/libnet11/buildlink3.mk"
 .endif
 
