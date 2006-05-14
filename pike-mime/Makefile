@@ -1,8 +1,8 @@
 # $NetBSD$
 
 PKGNAME=	pike-mime-${PIKE_VERSION}
-CATEGORIES=	wip
-COMMENT=	dynamic programming language with a syntax similar to C++
+CATEGORIES=	lang
+COMMENT=	MIME module for Pike programming language
 
 MODULE_NAMES=	MIME
 MODULE_DIRS=	modules/MIME

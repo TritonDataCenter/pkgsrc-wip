@@ -1,8 +1,8 @@
 # $NetBSD$
 
 PKGNAME=	pike-gdbm-${PIKE_VERSION}
-CATEGORIES=	wip
-COMMENT=	dynamic programming language with a syntax similar to C++
+CATEGORIES=	lang
+COMMENT=	GDBM module for Pike programming language
 
 MODULE_NAMES=	Gdbm
 MODULE_DIRS=	modules/Gdbm
