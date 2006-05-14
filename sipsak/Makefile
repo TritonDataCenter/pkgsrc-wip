@@ -5,7 +5,7 @@ PKGNAME=	${DISTNAME:S/-1//}
 CATEGORIES=	net
 MASTER_SITES=	http://download.berlios.de/sipsak/
 
-MAINTAINER=     schwarz@NetBSD.org
+MAINTAINER=	schwarz@NetBSD.org
 HOMEPAGE=	http://sipsak.org/
 COMMENT=	Sipsak is a command-line SIP testing utility
 
