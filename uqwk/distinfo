@@ -3,4 +3,5 @@ $NetBSD$
 SHA1 (uqwk-2.21.tar.gz) = dfe239bc1dad9bc11f60a118d9c2d7455fafec6c
 RMD160 (uqwk-2.21.tar.gz) = 739c38186a268e953d1d8841afd92b807d61773c
 Size (uqwk-2.21.tar.gz) = 86206 bytes
-SHA1 (patch-aa) = 3aafd0046edba35994b77b0590a01e70413810c9
+SHA1 (patch-aa) = 78fdc298bad0b298c0e1cc0c1f4a6de5d0e00a8c
+SHA1 (patch-ab) = 219bc5520545cbeba4cfec0f4458981bddf45d5f
