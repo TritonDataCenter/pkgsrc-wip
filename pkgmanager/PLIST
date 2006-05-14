@@ -1,12 +1,12 @@
 @comment $NetBSD$
+bin/pkgmanager
 lib/pkgmanager/init.mem
-lib/pkgmanager/run.lisp
 lib/pkgmanager/packages.fas
+lib/pkgmanager/pkgmanager.fas
 lib/pkgmanager/pkgmgr-except.fas
+lib/pkgmanager/pkgmgr-pkgdb.fas
 lib/pkgmanager/pkgmgr-print.fas
 lib/pkgmanager/pkgmgr-util.fas
-lib/pkgmanager/pkgmgr-pkgdb.fas
-lib/pkgmanager/pkgmanager.fas
-bin/pkgmanager
+lib/pkgmanager/run.lisp
 man/man8/pkgmanager.1
 @dirrm lib/pkgmanager
