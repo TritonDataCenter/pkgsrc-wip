@@ -25,7 +25,7 @@ PLIST_SUBST+=		PIKE_VERSION=${PIKE_VERSION:Q}
 #ALL_TARGET=		module_objects
 #.endif
 
-#PIKE_MODULE_DIR=	${PREFIX}/pike/${PIKE_VERSION}/lib/modules
+PIKE_MODULE_DIR=	${PREFIX}/pike/${PIKE_VERSION}/lib/modules
 
 .include "../../mk/bsd.prefs.mk"
 
