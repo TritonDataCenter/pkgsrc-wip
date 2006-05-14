@@ -1,5 +1,7 @@
 $NetBSD$
 
+# add NetBSD support and fix some paths
+
 --- contrib/syslog2ng.orig	Thu Jun 19 14:24:03 2003
 +++ contrib/syslog2ng	Thu Jun 19 14:24:13 2003
 @@ -5,18 +5,24 @@
