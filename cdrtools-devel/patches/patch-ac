@@ -2,7 +2,7 @@ $NetBSD$
 
 --- include/btorder.h.orig	2003-06-15 21:41:22.000000000 +0000
 +++ include/btorder.h
-@@ -27,6 +27,9 @@
+@@ -24,6 +24,9 @@
  #include <sys/types.h>			/* try to load isa_defs.h on Solaris */
  #define	_INCL_SYS_TYPES_H
  #endif
@@ -12,7 +12,7 @@ $NetBSD$
  
  #ifndef _MCONFIG_H
  #include <mconfig.h>			/* load bit/byte-oder from xmconfig.h*/
-@@ -107,7 +110,7 @@ error  Only one of _BIT_FIELDS_LTOH or _
+@@ -104,7 +107,7 @@ error  Only one of _BIT_FIELDS_LTOH or _
  #	if defined(__ppc__) || defined(ppc) || defined(__ppc) || \
  	    defined(__PPC) || defined(powerpc) || defined(__powerpc__)
  

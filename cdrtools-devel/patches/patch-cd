@@ -2,7 +2,7 @@ $NetBSD$
 
 --- include/schily.h.orig	2006-01-11 23:26:07.000000000 +0000
 +++ include/schily.h
-@@ -115,7 +115,7 @@ extern	int	fspawnl __PR((FILE *, FILE *,
+@@ -112,7 +112,7 @@ extern	int	fspawnl __PR((FILE *, FILE *,
  extern	int	fspawnv_nowait __PR((FILE *, FILE *, FILE *,
  					const char *, int, char *const*));
  extern	int	fgetline __PR((FILE *, char *, int));
