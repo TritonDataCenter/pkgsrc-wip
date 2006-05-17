@@ -1,6 +1,7 @@
 @comment $NetBSD$
 bin/mednafen
 @comment belongs to libiconv: lib/charset.alias
+share/doc/mednafen/debugger.html
 share/doc/mednafen/mednafen.html
 share/locale/es/LC_MESSAGES/mednafen.mo
 share/locale/ru/LC_MESSAGES/mednafen.mo
