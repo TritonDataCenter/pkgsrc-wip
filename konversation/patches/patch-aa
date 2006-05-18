@@ -11,3 +11,12 @@ $NetBSD$
    fi
    if test -z "$kde_cgidir"; then
      kde_cgidir='\${exec_prefix}/cgi-bin'
+@@ -30994,7 +30994,7 @@ if test "$ac_use_path_checking" = "defau
+     kde_widgetdir='\${libdir}/kde3/plugins/designer'
+   fi
+   if test -z "$xdg_appsdir"; then
+-    xdg_appsdir='\${datadir}/applications/kde'
++    xdg_appsdir='\${datadir}/applnk/Internet'
+   fi
+   if test -z "$xdg_menudir"; then
+     xdg_menudir='\${sysconfdir}/xdg/menus'
