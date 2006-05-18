@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=		cvsd-1.0.8
+DISTNAME=		cvsd-1.0.10
 CATEGORIES=		devel
 MASTER_SITES=		http://ch.tudelft.nl/~arthur/cvsd/
 
