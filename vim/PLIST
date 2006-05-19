@@ -1,4 +1,0 @@
-@comment $NetBSD$
-bin/rview
-bin/rvim
-bin/vim
