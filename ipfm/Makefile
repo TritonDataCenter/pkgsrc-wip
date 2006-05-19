@@ -5,7 +5,7 @@ CATEGORIES=		net
 MASTER_SITES=		http://robert.cheramy.net/ipfm/archive/
 EXTRACT_SUFX=		.tgz
 
-MAINTAINER=		tech-pkg@NetBSD.org
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://robert.cheramy.net/ipfm/
 COMMENT=		Bandwidth analysis tool
 

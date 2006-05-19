@@ -6,7 +6,7 @@ PKGNAME=		${PYPKGPREFIX}-stem-1.0.4
 CATEGORIES=		devel
 MASTER_SITES=		http://www.alobbs.com//pystem/
 
-MAINTAINER=		tech-pkg@NetBSD.org
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://www.alobbs.com//pystem/
 COMMENT=		Binding of the Porter stemming algorithm to Python
 

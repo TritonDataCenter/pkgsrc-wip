@@ -7,7 +7,7 @@ CATEGORIES=	archivers
 MASTER_SITES=	http://garbo.uwasa.fi/pub/unix/vmsbackup/
 EXTRACT_SUFX=	.tar.Z
 
-MAINTAINER=	tech-pkg@NetBSD.org
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://garbo.uwasa.fi/pub/unix/vmsbackup/
 COMMENT=	Utility to read VMS backup tapes
 

@@ -6,7 +6,7 @@ CATEGORIES=		audio
 MASTER_SITES=		http://www.personal.uni-jena.de/~pfk/mpp/src/
 EXTRACT_SUFX=		.tar.bz2
 
-MAINTAINER=		tech-pkg@NetBSD.org
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://www.personal.uni-jena.de/~pfk/mpp/
 COMMENT=		Musepack (MPC) audio file decoder
 

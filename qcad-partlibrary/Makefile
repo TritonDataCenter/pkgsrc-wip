@@ -8,7 +8,7 @@ CATEGORIES=		cad
 MASTER_SITES=		http://www.ribbonsoft.com/archives/partlibrary/
 EXTRACT_SUFX=		.zip
 
-MAINTAINER=		tech-pkg@NetBSD.org
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://www.ribbonsoft.com/qcad/
 COMMENT=	About 4500 mech, elec, etc. parts for the QCad 2D CAD system
 

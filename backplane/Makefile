@@ -5,7 +5,7 @@ DISTNAME=		backplane-1.05
 CATEGORIES=		databases
 MASTER_SITES=		http://apollo.backplane.com/FreeBSDPorts/
 
-MAINTAINER=		tech-pkg@NetBSD.org
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://www.backplane.com/
 COMMENT=		Innovative RDBMS database by Matthew Dillon
 

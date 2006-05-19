@@ -7,7 +7,7 @@ WRKSRC=			${WRKDIR}/rar
 CATEGORIES=		archivers
 MASTER_SITES=		http://files.rarlab.com/rar/
 
-MAINTAINER=		tech-pkg@NetBSD.org
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://www.rarlab.com/shoprarlab.php
 COMMENT=		File archiver (binary only)
 

@@ -7,7 +7,7 @@ CATEGORIES=		net
 MASTER_SITES=		http://www.secdev.org/projects/scapy/files/
 EXTRACT_SUFX=		.tgz
 
-MAINTAINER=		tech-pkg@NetBSD.org
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://www.secdev.org/projects/scapy/
 COMMENT=		Interactive packet manipulation tool
 

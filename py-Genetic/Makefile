@@ -6,7 +6,7 @@ PKGNAME=		${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=		devel
 MASTER_SITES=		http://ftp.debian.org/debian/pool/main/g/genetic/
 
-MAINTAINER=		tech-pkg@NetBSD.org
+MAINTAINER=		pkgsrc-users@NetBSD.org
 # HOMEPAGE=		http://oomadness.tuxfamily.org/en/genetic/index.html
 COMMENT=		A package for genetic algorithms in Python
 

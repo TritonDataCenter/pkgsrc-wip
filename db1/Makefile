@@ -7,7 +7,7 @@ CATEGORIES=		databases
 MASTER_SITES=		http://downloads.sleepycat.com/ \
 			ftp://ftp.sleepycat.com/release/
 
-MAINTAINER=		tech-pkg@NetBSD.org
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://www.sleepycat.com/
 COMMENT=		Berkeley DB 1.86
 

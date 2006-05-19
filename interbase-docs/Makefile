@@ -8,7 +8,7 @@ CATEGORIES=		databases
 MASTER_SITES=		http://www.ibphoenix.com/downloads/
 EXTRACT_SUFX=		.zip
 
-MAINTAINER=		tech-pkg@NetBSD.org
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://www.firebirdsql.org/index.php?op=doc&id=userdoc
 COMMENT=		Documentation for InterBase 6.0 in PDF format
 

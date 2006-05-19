@@ -5,7 +5,7 @@ DISTNAME=	progsreiserfs-0.3.0.4
 CATEGORIES=	sysutils
 MASTER_SITES=	http://reiserfs.osdn.org.ua/
 
-MAINTAINER=	tech-pkg@NetBSD.org
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://reiserfs.osdn.org.ua/
 COMMENT=	Library to manipulate reiserfs filesystems
 

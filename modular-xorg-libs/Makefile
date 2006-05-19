@@ -13,7 +13,7 @@ CATEGORIES=	meta-pkgs x11
 MASTER_SITES=	# empty
 DISTFILES=	# empty
 
-MAINTAINER=	tech-pkg@NetBSD.org
+MAINTAINER=	pkgsrc-users@NetBSD.org
 COMMENT=	Meta package for modular X.org X libraries
 
 # todo: depend on specific versions or "nb" revisions

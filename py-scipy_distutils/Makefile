@@ -7,7 +7,7 @@ WRKSRC=			${WRKDIR}/${DISTNAME:S/_src//}
 CATEGORIES=		devel
 MASTER_SITES=		http://www.scipy.org/site_content/downloads/
 
-MAINTAINER=		tech-pkg@NetBSD.org
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://www.scipy.org/
 COMMENT=		SciPy distutils: standalone package
 

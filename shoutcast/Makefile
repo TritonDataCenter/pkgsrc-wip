@@ -5,7 +5,7 @@ PKGNAME=	shoutcast-1.9.2
 CATEGORIES=	audio
 MASTER_SITES=	http://www.shoutcast.com/downloads/sc1-9-2/
 
-MAINTAINER=	tech-pkg@NetBSD.org
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.shoutcast.com/
 COMMENT=	Internet Streaming server for MP3 audio
 

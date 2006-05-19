@@ -5,7 +5,7 @@ PKGNAME=	xscribble-fs-20001213
 CATEGORIES=	x11
 MASTER_SITES=	http://linuxslate.com/files/
 
-MAINTAINER=	tech-pkg@NetBSD.org
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://linuxslate.com/software.html
 COMMENT=	Handwriting recognition (like graffiti)
 

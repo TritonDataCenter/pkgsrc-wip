@@ -5,7 +5,7 @@ DISTNAME=	pdb2ldif-1.1
 CATEGORIES=	converters
 MASTER_SITES=	http://www.uslinux.net/software/packages/
 
-MAINTAINER=	tech-pkg@NetBSD.org
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.uslinux.net/software/pkginfo.php?pkg=pdb2ldif
 COMMENT=	Converts Palm Address Book PDB files into an LDAP-usable LDIF file
 

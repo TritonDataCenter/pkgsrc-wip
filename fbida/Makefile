@@ -5,7 +5,7 @@ DISTNAME=		fbida-2.03
 CATEGORIES=		graphics
 MASTER_SITES=		http://dl.bytesex.org/releases/fbida/
 
-MAINTAINER=		tech-pkg@NetBSD.org
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://linux.bytesex.org/fbida/
 COMMENT=		Image viewer and editor
 

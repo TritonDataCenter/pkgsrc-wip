@@ -6,7 +6,7 @@ PKGNAME=		${DISTNAME:S/T/t/:S/X/x/}
 CATEGORIES=	        chat
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=tleenx/}
 
-MAINTAINER=		tech-pkg@NetBSD.org
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://tleenx.sourceforge.net/
 COMMENT=		Polish IM communication client
 

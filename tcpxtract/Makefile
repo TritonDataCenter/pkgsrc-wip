@@ -5,7 +5,7 @@ DISTNAME=		tcpxtract-1.0.1
 CATEGORIES=		net
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=tcpxtract/}
 
-MAINTAINER=		tech-pkg@NetBSD.org
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://tcpxtract.sourceforge.net/
 COMMENT=		Extract files from network traffic based on file signatures
 

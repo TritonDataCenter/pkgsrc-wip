@@ -11,7 +11,7 @@ MASTER_SITES=		ftp://ftp.flightgear.org/pub/fgfs/Source/ \
 			ftp://ftp.de.flightgear.org/pub/fgfs/Source/ \
 			ftp://obgyn.edu.pl/fgfs/Source/
 
-MAINTAINER=		tech-pkg@NetBSD.org
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://www.flightgear.org/
 COMMENT=		The FlightGear Simulator
 

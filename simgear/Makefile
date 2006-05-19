@@ -6,7 +6,7 @@ PKGNAME=		${DISTNAME:S/SimGear/simgear/}
 CATEGORIES=		devel
 MASTER_SITES=		ftp://ftp.simgear.org/pub/simgear/Source/
 
-MAINTAINER=		tech-pkg@NetBSD.org
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		ftp://ftp.simgear.org/pub/simgear/Source/
 COMMENT=		Simulator Construction Tools
 

@@ -5,7 +5,7 @@ DISTNAME=	emelfm2-0.1.3
 CATEGORIES=	sysutils
 MASTER_SITES=	http://emelfm2.net/rel/
 
-MAINTAINER=	tech-pkg@NetBSD.org
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://emelfm2.net/
 COMMENT=	Fast two-pane file manager using GTK2
 

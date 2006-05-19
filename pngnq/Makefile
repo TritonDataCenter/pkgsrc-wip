@@ -6,7 +6,7 @@ PKGNAME=		pngnq-0.3
 CATEGORIES=		graphics
 MASTER_SITES=		http://www.cybertherial.com/pngnq/
 
-MAINTAINER=		tech-pkg@NetBSD.org
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://www.cybertherial.com/pngnq/pngnq.html
 COMMENT=		Tool for quantizing PNG images in RGBA format
 

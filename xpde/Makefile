@@ -7,7 +7,7 @@ WRKSRC=			${WRKDIR}/xpde-0.4.0
 CATEGORIES=		misc
 MASTER_SITES=		http://www.xpde.com/releases/
 
-MAINTAINER=		tech-pkg@NetBSD.org
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://www.xpde.com/
 COMMENT=		"Desktop environment for X11 (Windows XP interface clone)"
 

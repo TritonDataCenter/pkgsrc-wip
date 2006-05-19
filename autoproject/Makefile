@@ -4,7 +4,7 @@ DISTNAME=		autoproject-0.17
 CATEGORIES=		devel
 MASTER_SITES=		http://jrv.oddones.org
 
-MAINTAINER=		tech-pkg@NetBSD.org
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://jrv.oddones.org
 COMMENT=		Creates a skeleton source package for a new program
 

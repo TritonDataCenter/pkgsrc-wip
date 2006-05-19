@@ -5,7 +5,7 @@ DISTNAME=		rezound-0.12.0beta
 CATEGORIES=		audio
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=rezound/}
 
-MAINTAINER=		tech-pkg@NetBSD.org
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://rezound.sourceforge.net/
 COMMENT=		Audio editor with graphical interface
 

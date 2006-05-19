@@ -6,7 +6,7 @@ PKGNAME=		${PYPKGPREFIX}-SciPy-0.2.0
 CATEGORIES=		math
 MASTER_SITES=		http://www.scipy.org/site_content/downloads/
 
-MAINTAINER=		tech-pkg@NetBSD.org
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://www.scipy.org/
 COMMENT=		Open source library of scientific tools for Python
 

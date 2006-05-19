@@ -5,7 +5,7 @@ DISTNAME=		grip-3.2.0
 CATEGORIES=		audio
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=grip/}
 
-MAINTAINER=		tech-pkg@NetBSD.org
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://grip.sourceforge.net/
 COMMENT=		CD-player and CD-ripper for the Gnome desktop
 

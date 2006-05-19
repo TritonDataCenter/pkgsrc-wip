@@ -6,7 +6,7 @@ PKGNAME=		${DISTNAME:S/S/s/}
 CATEGORIES=		misc
 MASTER_SITES=		http://download.gna.org/songwrite/
 
-MAINTAINER=		tech-pkg@NetBSD.org
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://home.gna.org/oomadness/en/songwrite/index.html
 COMMENT=		Tablature (guitar partition) editor
 

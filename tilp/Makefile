@@ -6,7 +6,7 @@ PKGNAME=		tilp-6.67-beta3
 CATEGORIES=		math
 MASTER_SITES=		http://www.ticalc.org/pub/unix/
 
-MAINTAINER=		tech-pkg@NetBSD.org
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://tilp.info/
 COMMENT=		Database of TI calculator model information
 

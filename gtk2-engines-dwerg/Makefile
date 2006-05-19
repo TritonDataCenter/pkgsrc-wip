@@ -8,7 +8,7 @@ MASTER_SITES=		http://download.freshmeat.net/themes/dwerg/
 EXTRACT_SUFX=		.tar.gz
 WRKSRC= 		${WRKDIR}/gtk-engines-dwerg-${DWERG_VERSION}/
 
-MAINTAINER=		tech-pkg@NetBSD.org
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://themes.freshmeat.net/projects/dwerg/
 COMMENT=		Theme engine for GTK+ 2.x
 

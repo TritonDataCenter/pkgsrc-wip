@@ -5,7 +5,7 @@ DISTNAME=		nestra-0.66
 CATEGORIES=		emulators
 MASTER_SITES=		http://nestra.linuxgames.com/
 
-MAINTAINER=		tech-pkg@NetBSD.org
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://nestra.linuxgames.com/
 COMMENT=		NES emulator (without sound)
 

@@ -9,7 +9,7 @@ SVR4_PKGNAME=		p5ma2
 CATEGORIES=		www perl5
 MASTER_SITES=		${MASTER_SITE_PERL_CPAN:=MasonX/}
 
-MAINTAINER=		tech-pkg@NetBSD.org
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://search.cpan.org/~beau/MasonX-Apache2Handler-0.05/
 COMMENT=		Perl-based Apache handler for Apache2 with Mason
 

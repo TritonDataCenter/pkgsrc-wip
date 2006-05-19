@@ -5,7 +5,7 @@ CATEGORIES=	archivers
 MASTER_SITES=	${MASTER_SITE_SUNSITE:=system/backup/}
 EXTRACT_SUFX=	.tgz
 
-MAINTAINER=	tech-pkg@NetBSD.org
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.laytongraphics.com/mtf/
 COMMENT=	Unix reader for the Microsoft Tape Format used by NT Backup
 

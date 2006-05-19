@@ -6,7 +6,7 @@ PKGNAME=		libtifiles-0.5.6
 CATEGORIES=		db
 MASTER_SITES=		http://www.ticalc.org/pub/unix/
 
-MAINTAINER=		tech-pkg@NetBSD.org
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://tilp.info/
 COMMENT=		Library for reading files from TI calculators
 

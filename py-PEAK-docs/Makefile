@@ -6,7 +6,7 @@ PKGNAME=		py-PEAK-docs-0.5a3
 CATEGORIES=		devel
 MASTER_SITES=		http://peak.telecommunity.com/dist/
 
-MAINTAINER=		tech-pkg@NetBSD.org
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://peak.telecommunity.com/
 COMMENT=		Python Enterprise Application Kit
 

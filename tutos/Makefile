@@ -7,7 +7,7 @@ WRKSRC=		${WRKDIR}/tutos
 CATEGORIES=	devel
 MASTER_SITES=	http://www.tutos.org/download/
 
-MAINTAINER=	tech-pkg@NetBSD.org
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.tutos.org/homepage/about.html
 COMMENT=	Time and team management software
 

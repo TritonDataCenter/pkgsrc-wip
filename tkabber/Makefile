@@ -5,7 +5,7 @@ DISTNAME=	tkabber-0.9.8
 CATEGORIES=	chat
 MASTER_SITES=	http://jabberstudio.rediris.es/tkabber/
 
-MAINTAINER=	tech-pkg@NetBSD.org
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://tkabber.jabber.ru/en/
 COMMENT=	Free and Open Source TCL/TK jabber client
 

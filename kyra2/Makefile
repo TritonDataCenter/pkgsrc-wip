@@ -7,7 +7,7 @@ WRKSRC=			${WRKDIR}/kyra
 CATEGORIES=		graphics
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=kyra/}
 
-MAINTAINER=		tech-pkg@NetBSD.org
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://kyra.sourceforge.net/
 COMMENT=		Sprite engine
 

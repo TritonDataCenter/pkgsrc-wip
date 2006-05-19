@@ -6,7 +6,7 @@ CATEGORIES=	devel
 MASTER_SITES=	http://66.93.236.84/%7Ejedwin/projects/chmlib/
 EXTRACT_SUFX=	.tbz
 
-MAINTAINER=	tech-pkg@NetBSD.org
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://66.93.236.84/%7Ejedwin/projects/chmlib/
 COMMENT=	Library for dealing with Microsoft ITSS/CHM format files
 

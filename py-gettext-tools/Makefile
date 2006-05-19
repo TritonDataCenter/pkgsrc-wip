@@ -4,7 +4,7 @@
 PKGNAME=	${PYPKGPREFIX}-gettext-tools-0
 CATEGORIES=	databases
 
-MAINTAINER=	tech-pkg@NetBSD.org
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.python.org/topics/database/
 COMMENT=	Python tools for development of I18N Python apps
 

@@ -6,7 +6,7 @@ PKGNAME=	${DISTNAME:C/_/-/}
 CATEGORIES=	sysutils
 MASTER_SITES=	http://diradmin.open-it.org/
 
-MAINTAINER=	tech-pkg@NetBSD.org
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://diradmin.open-it.org/
 COMMENT=	Smart LDAP directory management tool
 

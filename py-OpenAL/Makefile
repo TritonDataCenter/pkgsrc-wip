@@ -6,7 +6,7 @@ PKGNAME=		${PYPKGPREFIX}-${DISTNAME:S/Py//}
 CATEGORIES=		audio
 MASTER_SITES=		http://download.gna.org/pyopenal/
 
-MAINTAINER=		tech-pkg@NetBSD.org
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://home.gna.org/oomadness/en/pyopenal/index.html
 COMMENT=		Python bindings for audio/openal; see openal package for details
 

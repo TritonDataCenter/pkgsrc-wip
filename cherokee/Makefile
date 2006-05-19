@@ -5,7 +5,7 @@ DISTNAME=	cherokee-0.4.30
 CATEGORIES=	www
 MASTER_SITES=	http://www.0x50.org/download/0.4/0.4.30/
 
-MAINTAINER=	tech-pkg@NetBSD.org
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.0x50.org/
 COMMENT=	Extremely fast and tiny web server
 

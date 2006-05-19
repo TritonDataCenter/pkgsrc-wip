@@ -6,7 +6,7 @@ CATEGORIES=		emulators
 MASTER_SITES=		# none
 DISTFILES=		# none
 
-MAINTAINER=		tech-pkg@NetBSD.org
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://slackware.com/
 COMMENT=		Meta package for slackware_compat development
 

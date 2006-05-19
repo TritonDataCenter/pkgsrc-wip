@@ -6,7 +6,7 @@ MASTER_SITES=	${MASTER_SITE_GNU:=glibc/}
 DISTFILES=	glibc-${VERSION}${EXTRACT_SUFX} \
 		glibc-linuxthreads-${VERSION}${EXTRACT_SUFX}
 
-MAINTAINER=	tech-pkg@NetBSD.org
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.gnu.org/software/libc/libc.html
 COMMENT=	GNU C library
 

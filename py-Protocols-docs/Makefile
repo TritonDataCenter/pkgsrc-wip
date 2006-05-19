@@ -6,7 +6,7 @@ PKGNAME=		py-Protocols-docs-0.9.2
 CATEGORIES=		devel
 MASTER_SITES=		http://peak.telecommunity.com/dist/
 
-MAINTAINER=		tech-pkg@NetBSD.org
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://peak.telecommunity.com/PyProtocols.html
 COMMENT=		HTML docs for devel/py-Protocols
 

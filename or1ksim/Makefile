@@ -5,7 +5,7 @@ DISTNAME=	or1ksim-0.2.0rc3
 CATEGORIES=	emulators
 MASTER_SITES=	http://www.opencores.org/projects.cgi/web/or1k/
 
-MAINTAINER=	tech-pkg@NetBSD.org
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.opencores.org/projects.cgi/web/or1k/architectural_simulator
 COMMENT=	OpenRISC 1000 (OR1K) architecture simulator
 

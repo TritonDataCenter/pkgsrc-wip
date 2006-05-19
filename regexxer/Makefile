@@ -5,7 +5,7 @@ DISTNAME=	regexxer-0.4
 CATEGORIES=	devel gnome2
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=regexxer/}
 
-MAINTAINER=	tech-pkg@NetBSD.org
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://regexxer.sourceforge.net/
 COMMENT=	Interactive tool for performing search and replace operations
 

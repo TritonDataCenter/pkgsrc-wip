@@ -6,7 +6,7 @@ PKGNAME=		libticalcs-4.4.9
 CATEGORIES=		math
 MASTER_SITES=		http://www.ticalc.org/pub/unix/
 
-MAINTAINER=		tech-pkg@NetBSD.org
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://tilp.info/
 COMMENT=		Database of TI calculator model information
 

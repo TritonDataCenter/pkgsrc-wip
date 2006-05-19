@@ -5,7 +5,7 @@
 PKGNAME=		apachebench2-${APACHE_VERSION}
 CATEGORIES=		benchmarks www
 
-MAINTAINER=		tech-pkg@NetBSD.org
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://httpd.apache.org/
 COMMENT=		Apache HTTP (Web) server benchmarking tool
 

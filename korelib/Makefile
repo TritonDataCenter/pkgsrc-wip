@@ -4,7 +4,7 @@ DISTNAME=	korelib-1.0
 CATEGORIES=	devel kde
 MASTER_SITES=	http://host33.ipowerweb.com/~smga3000/thekompany/Korelib/
 
-MAINTAINER=	tech-pkg@NetBSD.org
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.thekompany.com/projects/korelib/
 COMMENT=	Cross-platform C++ library for developing modular applications
 

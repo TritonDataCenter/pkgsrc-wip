@@ -7,7 +7,7 @@ WRKSRC=			${WRKDIR}/${DISTNAME:S/-0.2//}
 CATEGORIES=		audio
 MASTER_SITES=		http://www.freenet.org.nz/python/pySpeex/
 
-MAINTAINER=		tech-pkg@NetBSD.org
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://www.freenet.org.nz/python/pySpeex/
 COMMENT=		Speex bindings for Python; see speex package for details
 

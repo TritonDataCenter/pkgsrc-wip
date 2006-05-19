@@ -12,7 +12,7 @@ MASTER_SITES=	ftp://ftp.flightgear.org/pub/fgfs/Shared/ \
 		ftp://obgyn.edu.pl/fgfs/Shared/
 EXTRACT_SUFX=   .tar.bz2
 
-MAINTAINER=	tech-pkg@NetBSD.org
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	ftp://ftp.flightgear.org/pub/fgfs/Shared/
 COMMENT=	FlightGear Simulator (data files)
 

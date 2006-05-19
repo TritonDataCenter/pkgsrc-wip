@@ -5,7 +5,7 @@ DISTNAME=		gps-0.9.2
 CATEGORIES=		security net
 MASTER_SITES=		http://gps.sourceforge.net/release/
 
-MAINTAINER=		tech-pkg@NetBSD.org
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://gps.sourceforge.net/
 COMMENT=		Ghost Port Scan
 
