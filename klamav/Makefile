@@ -1,6 +1,4 @@
 # $NetBSD$
-#
-# STATUS: ok
 
 DISTNAME=	klamav-0.37-source
 PKGNAME=	${DISTNAME:S/-source//}
