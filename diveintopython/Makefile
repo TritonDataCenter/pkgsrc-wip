@@ -1,14 +1,14 @@
 # $NetBSD$
 #
 
-DISTNAME=		diveintopython-html-4.4-2
+DISTNAME=		diveintopython-html-5.4
 PKGNAME=		${DISTNAME:S/-html//}
 WRKSRC=			${WRKDIR}/
 CATEGORIES=		misc
 MASTER_SITES=		http://diveintopython.org/download/
 EXTRACT_SUFX=		.zip
 
-MAINTAINER=		tech-pkg@NetBSD.org
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://diveintopython.org/
 COMMENT=		Free book for experienced Python programmers
 
