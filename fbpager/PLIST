@@ -1,0 +1,4 @@
+@comment $NetBSD$
+bin/fbpager
+share/doc/fbpager/README
+@dirrm share/doc/fbpager
