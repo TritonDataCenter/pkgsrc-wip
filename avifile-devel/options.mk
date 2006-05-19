@@ -55,7 +55,8 @@ SUBST_CLASSES+=		qtman
 SUBST_STAGE.qtman=	pre-configure
 SUBST_MESSAGE.qtman=	do not install man page for qt
 SUBST_FILES.qtman=	doc/Makefile.in
-SUBST_SED.qtman=	-e 's|aviplay.1||' -e 's|avirecompress.1||'
+SUBST_SED.qtman=	-e 's|aviplay.1||'
+SUBST_SED.qtman+=	-e 's|avirecompress.1||'
 .endif
 
 .if !empty(PKG_OPTIONS:Mvorbis)
