@@ -12,8 +12,7 @@ COMMENT=	Gets country name by IP or hostname
 
 PKG_INSTALLATION_TYPES=	overwrite pkgviews
 
-
-PERL5_PACKLIST=		${PERL5_SITEARCH}/auto/Geo/IPfree/.packlist
+PERL5_PACKLIST=	auto/Geo/IPfree/.packlist
 
 .include "../../lang/perl5/module.mk"
 .include "../../mk/bsd.pkg.mk"
