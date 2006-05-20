@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		bluez-hcidump-1.24
+DISTNAME=		bluez-hcidump-1.30
 CATEGORIES=		net
 MASTER_SITES=		http://bluez.sf.net/download/
 
