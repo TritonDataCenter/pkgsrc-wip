@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		dvbsnoop-1.3.77
+DISTNAME=		dvbsnoop-1.4.00
 CATEGORIES=		net
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=dvbsnoop/}
 
