@@ -1,0 +1,10 @@
+# $NetBSD$
+#
+
+SRCDIR=	.
+TCC=	${CC} ${CFLAGS} ${LDFLAGS}
+BCC=	${CC} ${CFLAGS} ${LDFLAGS}
+E=
+LIBSQLITE = -L${PREFIX}/lib -lsqlite -lcrypt -lm
+
+.include "main.mk"
