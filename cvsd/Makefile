@@ -8,8 +8,6 @@ MAINTAINER=		eric@cirr.com
 HOMEPAGE=		http://ch.tudelft.nl/~arthur/cvsd/
 COMMENT=		Run CVS pserver in a chroot-ed environment
 
-.include "../../mk/bsd.prefs.mk"
-
 USE_TOOLS+=		gmake perl
 GNU_CONFIGURE=		YES
 
@@ -23,7 +21,8 @@ CONF_FILES=		${EGDIR}/cvsd.conf.example ${PKG_SYSCONFDIR}/cvsd.conf
 
 CVSD_USER?=		cvsd
 CVSD_GROUP?=		cvsd
-PKG_USERS=		${CVSD_USER}:${CVSD_GROUP}::CVS\ wrapper:
+PKG_USERS=		${CVSD_USER}:${CVSD_GROUP}
+PKG_GECOS.${CVSD_USER}=	CVS wrapper
 PKG_GROUPS=		${CVSD_GROUP}
 
 pre-install:
