@@ -1,0 +1,4 @@
+@comment $NetBSD$
+${PYSITELIB}/aspell.so
+share/doc/html/aspell-python/index.html
+@dirrm share/doc/html/aspell-python
