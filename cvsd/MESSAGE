@@ -1,8 +1,0 @@
-===========================================================================
-$NetBSD$
-
-    You should set up create a chrooted filesystem and create
-    repositories.  Read the README file in ${PREFIX}/share/doc/cvsd
-    for more details on setting up the environment.
-
-===========================================================================
