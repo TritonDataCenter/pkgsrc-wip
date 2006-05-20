@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	RPSL-OL-3.1.1
-PKGREVISION=	1
+PKGREVISION=	2
 CATEGORIES=	net
 MASTER_SITES=	ftp://ftp.ripe.net/ripe/dbase/software/
 

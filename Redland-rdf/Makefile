@@ -2,6 +2,7 @@
 #
 
 DISTNAME=		redland-0.9.14
+PKGREVISION=		1
 CATEGORIES=		textproc
 MASTER_SITES=		http://download.librdf.org/source/old/
 

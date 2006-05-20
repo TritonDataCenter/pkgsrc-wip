@@ -3,7 +3,7 @@
 
 DISTNAME=		HTML-CalendarMonthSimple-1.25
 PKGNAME=		p5-${DISTNAME}
-PKGREVISION=            1
+PKGREVISION=            2
 CATEGORIES=		www perl5
 MASTER_SITES=		${MASTER_SITE_PERL_CPAN:=HTML/}
 

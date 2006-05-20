@@ -1,7 +1,6 @@
 @comment $NetBSD$
 include/syntax_api.h
 lib/librpsl.a
-lib/perl5/5.8.6/${MACHINE_ARCH}-${LOWER_OPSYS}-thread-multi/perllocal.pod
 lib/perl5/site_perl/5.8.6/${MACHINE_ARCH}-${LOWER_OPSYS}-thread-multi/auto/Net/Whois/RIPE/RPSL/.packlist
 lib/perl5/site_perl/5.8.6/${MACHINE_ARCH}-${LOWER_OPSYS}-thread-multi/auto/Net/Whois/RIPE/RPSL/RPSL.so
 lib/perl5/site_perl/5.8.6/${MACHINE_ARCH}-${LOWER_OPSYS}-thread-multi/auto/Net/Whois/RIPE/RPSL/RPSL.bs
