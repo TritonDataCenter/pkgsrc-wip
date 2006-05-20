@@ -1,8 +1,8 @@
 # $NetBSD$
 #
 
-PKGNAME=		rhapsody-0.26b
-DISTNAME=		rhapsody_0.26b
+PKGNAME=		rhapsody-0.28b
+DISTNAME=		rhapsody_0.28b
 CATEGORIES=		chat
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=rhapsody/}
 EXTRACT_SUFX=		.tgz
