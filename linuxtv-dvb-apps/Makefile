@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		linuxtv-dvb-apps-1.1.0
+DISTNAME=		linuxtv-dvb-apps-1.1.1
 CATEGORIES=		linux
 MASTER_SITES=		http://www.linuxtv.org/downloads/
 EXTRACT_SUFX=		.tar.bz2
