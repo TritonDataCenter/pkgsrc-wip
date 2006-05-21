@@ -12,10 +12,9 @@ MAINTAINER=	cheusov@tut.by
 HOMEPAGE=	http://pascal.tsu.ru/other/xxkb/
 COMMENT=	XXKB - switches and indicates a current keyboard layout
 
-
 USE_IMAKE=	yes
 DOC_FILES=	LICENSE README.koi8
-DOC_DIR=	${PREFIX}/share/doc/xxkb
+DOC_DIR=	${PREFIX}/share/doc/${PKGBASE}
 
 post-install:
 	${INSTALL_DATA_DIR} ${DOC_DIR}; \
@@ -26,3 +25,4 @@ post-install:
 	${INSTALL_MAN} ${WRKSRC}/xxkb.man ${PREFIX}/${PKGMANDIR}/man1/xxkb.1
 
 .include "../../mk/bsd.pkg.mk"
+.include "../../mk/x11.buildlink3.mk"
