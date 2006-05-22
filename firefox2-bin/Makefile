@@ -1,7 +1,8 @@
 # $NetBSD$
 
-MOZILLA=		firefox2
-MOZ_VER=		2.0alpha1
+MOZILLA=		firefox
+MOZ_EXTRA=		2
+MOZ_VER=		2.0alpha2
 MOZ_DISTVER=		${MOZ_VER}
 
 HOMEPAGE=		http://www.mozilla.org/projects/bonecho/
