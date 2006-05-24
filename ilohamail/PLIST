@@ -853,7 +853,6 @@ share/ilohamail/source/view.php
 @dirrm share/ilohamail/data/gpg
 @dirrm share/ilohamail/data/cache
 @dirrm share/ilohamail/data
-@dirrm share/ilohamail/conf
 @dirrm share/ilohamail
 @dirrm share/examples/ilohamail/conf
 @dirrm share/examples/ilohamail
