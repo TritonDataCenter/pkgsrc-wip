@@ -1,8 +1,7 @@
 # $NetBSD: Makefile,v 1.26 2006/03/14 01:14:31 jlam Exp $
 #
 
-DISTNAME=		tor-0.1.1.16-rc
-PKGNAME=		${DISTNAME:-rc=}
+DISTNAME=		tor-0.1.1.20
 CATEGORIES=		net security
 MASTER_SITES=		http://tor.eff.org/dist/
 
