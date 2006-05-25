@@ -1,8 +1,8 @@
 # $NetBSD: options.mk,v 1.5 2005/10/07 10:28:06 rillig Exp $
 
 PKG_OPTIONS_VAR=		PKG_OPTIONS.gaim
-PKG_SUPPORTED_OPTIONS+=		gnutls gtkspell silc audio perl tcl nas
-PKG_SUGGESTED_OPTIONS+=		gtkspell silc audio
+PKG_SUPPORTED_OPTIONS+=		gnutls gtkspell silc audio perl tcl nas sametime
+PKG_SUGGESTED_OPTIONS+=		gtkspell silc audio sametime
 
 .include "../../mk/bsd.options.mk"
 
@@ -64,4 +64,11 @@ CONFIGURE_ARGS+=	--enable-nas
 .  include "../../audio/nas/buildlink3.mk"
 .else
 CONFIGURE_ARGS+=	--disable-nas
+.endif
+
+.if !empty(PKG_OPTIONS:Msametime)
+PLIST_SUBST+=		SAMETIME=
+.  include "../../wip/meanwhile/buildlink3.mk"
+.else
+PLIST_SUBST+=		SAMETIME="@comment "
 .endif
