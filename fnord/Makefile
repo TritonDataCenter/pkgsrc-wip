@@ -12,6 +12,8 @@ COMMENT=	Small HTTP server
 USE_TOOLS+=	gmake
 DEPENDS+=	ucspi-tcp-*:../../net/ucspi-tcp
 
+MAKE_ENV+=	RANLIB=${RANLIB:Q}
+
 .if exists(/usr/include/alloca.h)
 CFLAGS+=	-DNEED_ALLOCA_H
 .endif
