@@ -104,6 +104,7 @@ lib/gaim/libjabber.la
 lib/gaim/libmsn.la
 lib/gaim/libnovell.la
 lib/gaim/liboscar.la
+${SAMETIME}lib/gaim/libsametime.la
 ${SILC}lib/gaim/libsilcgaim.la
 lib/gaim/libsimple.la
 lib/gaim/libyahoo.la
