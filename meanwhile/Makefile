@@ -22,12 +22,11 @@ USE_LANGUAGES+=		c++
 USE_LANGUAGES+=		fortran
 
 # path hackery
-SUBST_CLASSES+=			pkg_config
-SUBST_STAGE.pkg_config=		post-build
-SUBST_FILES.pkg_config=		samples/build
-SUBST_SED.pkg_config=							\
-		-e "s|PKG_CONFIG=${WRKDIR}/.tools|PKG_CONFIG=${LOCALBASE}|g"
-SUBST_MESSAGE.pkg_config=	Fixing hardcoded PKG_CONFIG path
+SUBST_CLASSES+=			pkg-config
+SUBST_STAGE.pkg-config=		post-build
+SUBST_FILES.pkg-config=		samples/build
+SUBST_SED.pkg-config=		-e "s|PKG_CONFIG=${TOOLS_CMD.pkg-config}|PKG_CONFIG=${TOOLS_PATH.pkg-config}|g"
+SUBST_MESSAGE.pkg-config=	Fixing hardcoded PKG_CONFIG path
 
 .include "../../devel/glib2/buildlink3.mk"
 
