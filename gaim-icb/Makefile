@@ -1,6 +1,6 @@
 # $NetBSD: Makefile,v 1.2 2006/01/24 07:31:57 wiz Exp $
 
-DISTNAME=	gaim-icb-20051217
+DISTNAME=	gaim-icb-20060416
 CATEGORIES=	chat
 MASTER_SITES=	http://nic.com.pl/~alek/gaim-icb/
 
