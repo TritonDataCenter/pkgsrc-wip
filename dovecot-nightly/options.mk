@@ -52,7 +52,7 @@ CONFIGURE_ARGS+=	--disable-ipv6
 ###
 .if !empty(PKG_OPTIONS:Mldap)
 CONFIGURE_ARGS+=	--with-ldap
-.  include "../../databases/openldap/buildlink3.mk"
+.  include "../../databases/openldap-client/buildlink3.mk"
 .endif
 
 ###

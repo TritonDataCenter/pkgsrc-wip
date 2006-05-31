@@ -19,7 +19,7 @@ USE_GNU_GETTEXT=	yes
 .include "../../x11/gtk/buildlink3.mk"
 .include "../../x11/gnome-libs/buildlink3.mk"
 .include "../../security/openssl/buildlink3.mk"
-.include "../../databases/openldap/buildlink3.mk"
+.include "../../databases/openldap-client/buildlink3.mk"
 .include "../../converters/libiconv/buildlink3.mk"
 
 .include "../../mk/bsd.pkg.mk"

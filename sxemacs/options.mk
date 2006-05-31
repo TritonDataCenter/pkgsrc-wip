@@ -7,7 +7,7 @@ PKG_SUPPORTED_OPTIONS=	ldap xface canna pgsql ffi
 
 .if !empty(PKG_OPTIONS:Mldap)
 CONFIGURE_ARGS+=	--with-ldap
-.  include "../../databases/openldap/buildlink3.mk"
+.  include "../../databases/openldap-client/buildlink3.mk"
 .else
 CONFIGURE_ARGS+=	--without-ldap
 .endif
