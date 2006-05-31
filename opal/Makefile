@@ -28,5 +28,5 @@ USE_TOOLS+=		gmake
 
 
 .include "../../wip/pwlib/buildlink3.mk"
-.include "../../databases/openldap/buildlink3.mk"
+.include "../../databases/openldap-client/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

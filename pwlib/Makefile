@@ -49,7 +49,7 @@ do-install:
 		${INSTALL_DATA} $$f ${PREFIX}/$$f;	\
 	done
 
-.include "../../databases/openldap/buildlink3.mk"
+.include "../../databases/openldap-client/buildlink3.mk"
 .include "../../security/openssl/buildlink3.mk"
 .include "../../mk/oss.buildlink3.mk"
 .include "../../mk/pthread.buildlink3.mk"
