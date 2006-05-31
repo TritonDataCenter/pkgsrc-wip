@@ -3,7 +3,8 @@
 
 DISTNAME=		gdal-1.3.1
 PKGNAME=		gdal-docs-1.3.1
-CATEGORIES=		wip
+PKGREVISION=		1
+CATEGORIES=		geography
 MASTER_SITES=		http://gdal.org/dl/
 
 MAINTAINER=		mchittur@cs.nmsu.edu
@@ -25,6 +26,12 @@ SUBST_STAGE.pyversion=	do-configure
 SUBST_FILES.pyversion=	GNUmakefile
 SUBST_SED.pyversion=	-e 's:python:${PYTHONBIN}:g'
 SUBST_MESSAGE.pyversion=Fixing Python Version
+
+SUBST_CLASSES+=		conf
+SUBST_STAGE.conf=	pre-configure
+SUBST_MESSAGE.conf=	Fixing typo in the configure script.
+SUBST_FILES.conf=	configure
+SUBST_SED.conf=		-e 's,6LIBZ$$,6,'
 
 .include "../../lang/python/application.mk"
 .include "../../mk/bsd.pkg.mk"
