@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		glib-java-0.2.4
+DISTNAME=		glib-java-0.2.5
 CATEGORIES=		devel
 MASTER_SITES=		${MASTER_SITE_GNOME:=sources/glib-java/0.2/}
 

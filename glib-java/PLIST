@@ -41,7 +41,6 @@ share/glib-java/macros/jg_common.m4
 share/glib-java/macros/jg_lib.m4
 share/java/glib0.2-${PKGVERSION}.jar
 share/java/glib0.2.jar
-@dirrm share/java
 @dirrm share/glib-java/macros
 @dirrm share/doc/${PKGNAME}/api/resources
 @dirrm share/doc/${PKGNAME}/api/org/gnu/glib
