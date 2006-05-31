@@ -3,3 +3,4 @@ $NetBSD$
 SHA1 (JSON-1.05.tar.gz) = 8a3b8115888abc10cb2d4941558c82174677291f
 RMD160 (JSON-1.05.tar.gz) = faf55e0c2710e6192f7d14d6cc1eeb8ff2f837f6
 Size (JSON-1.05.tar.gz) = 25499 bytes
+SHA1 (patch-aa) = 004744f0e6a44462ba085183ab22f2910e28b673
