@@ -1,0 +1,3 @@
+@comment $NetBSD$
+bin/dbvi
+man/man1/dbvi.1
