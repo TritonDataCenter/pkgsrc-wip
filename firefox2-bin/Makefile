@@ -2,7 +2,8 @@
 
 MOZILLA=		firefox
 MOZ_EXTRA=		2
-MOZ_VER=		2.0alpha2
+ALPHA=			alpha3
+MOZ_VER=		2.0${ALPHA}
 MOZ_DISTVER=		${MOZ_VER}
 
 HOMEPAGE=		http://www.mozilla.org/projects/bonecho/

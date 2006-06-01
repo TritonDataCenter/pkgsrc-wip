@@ -2,7 +2,7 @@
 
 MOZILLA_BIN=		firefox-bin
 MOZ_VER=		2.0${SUB_VER}
-SUB_VER=		alpha2
+SUB_VER=		alpha3
 EXTRACT_SUFX=		.tar.bz2
 
 DISTNAME=		bonecho-${SUB_VER}-source
