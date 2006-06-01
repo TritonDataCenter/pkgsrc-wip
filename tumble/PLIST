@@ -1,0 +1,4 @@
+@comment $NetBSD$
+bin/tumble
+share/doc/tumble/README
+@dirrm share/doc/tumble
