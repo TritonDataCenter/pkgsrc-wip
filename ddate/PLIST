@@ -1,0 +1,5 @@
+@comment $NetBSD$
+bin/ddate
+man/man1/ddate.1
+share/doc/ddate/README
+@dirrm share/doc/ddate
