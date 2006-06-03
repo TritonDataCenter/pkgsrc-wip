@@ -5,7 +5,7 @@ PKGNAME=	sipp-1.0
 CATEGORIES=	net
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=sipp/}
 
-MAINTAINER=     schwarz@NetBSD.org
+MAINTAINER=	schwarz@NetBSD.org
 HOMEPAGE=	http://sipp.sourceforge.net/
 COMMENT=	SIPp is a free Open Source SIP test tool/traffic generator
 
