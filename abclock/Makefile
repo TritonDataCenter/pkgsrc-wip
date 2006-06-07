@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	abclock-1.0c
+DISTNAME=	abclock-1.0d
 CATEGORIES=	time
 MASTER_SITES=	${HOMEPAGE}
 
