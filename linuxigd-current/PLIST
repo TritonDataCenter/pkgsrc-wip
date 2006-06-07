@@ -1,4 +1,5 @@
 @comment $NetBSD$
+man/man8/upnpd.8
 sbin/upnpd
 share/examples/linuxigd/dummy.xml
 share/examples/linuxigd/gateconnSCPD.xml
