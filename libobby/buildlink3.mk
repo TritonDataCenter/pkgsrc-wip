@@ -19,4 +19,4 @@ BUILDLINK_PKGSRCDIR.libobby?=	../../wip/libobby
 .include "../../devel/libsigc++2/buildlink3.mk"
 .include "../../devel/gmp/buildlink3.mk"
 
-BUILDLINK_DEPTH:=     ${BUILDLINK_DEPTH:S/+$//}
+BUILDLINK_DEPTH:=	${BUILDLINK_DEPTH:S/+$//}

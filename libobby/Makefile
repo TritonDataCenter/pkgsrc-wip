@@ -7,7 +7,7 @@ CATEGORIES=		devel net
 MASTER_SITES=		http://releases.0x539.de/obby/
 
 MAINTAINER=	 	evaldo@gardenali.biz
-HOMEPAGE=		http://0x539.de/
+HOMEPAGE=		http://releases.0x539.de/obby/
 COMMENT=		Synced document buffers library
 
 USE_PKGLOCALEDIR=	yes
@@ -15,11 +15,12 @@ USE_LIBTOOL=		yes
 PKGCONFIG_OVERRIDE+=	${WRKSRC}/obby-0.3.pc.in
 GNU_CONFIGURE=		yes
 USE_TOOLS+=		pkg-config
+USE_LANGUAGES=		c++
 
 .include "options.mk"
 
 pre-install:
-	${MKDIR} ${PREFIX}/include/obby/serialise
+	${INSTALL_LIB_DIR} ${PREFIX}/include/obby/serialise
 
 PLIST_SRC+=             ${PKGDIR}/PLIST.common
 

@@ -17,4 +17,4 @@ BUILDLINK_PKGSRCDIR.net6?=	../../wip/net6
 
 .include "../../devel/libsigc++2/buildlink3.mk"
 
-BUILDLINK_DEPTH:=     ${BUILDLINK_DEPTH:S/+$//}
+BUILDLINK_DEPTH:=	${BUILDLINK_DEPTH:S/+$//}
