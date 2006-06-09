@@ -29,7 +29,7 @@ share/doc/qdbm/java/japidoc/serialized-form.html
 share/doc/qdbm/java/japidoc/stylesheet.css
 share/doc/qdbm/java/jspex-ja.html
 share/doc/qdbm/java/jspex.html
-@dirrm share/doc/qdbm/java/javadoc/qdbm
-@dirrm share/doc/qdbm/java/javadoc/resources
+@dirrm share/doc/qdbm/java/japidoc/qdbm
+@dirrm share/doc/qdbm/java/japidoc/resources
 @dirrm share/doc/qdbm/java/japidoc
 @dirrm share/doc/qdbm/java
