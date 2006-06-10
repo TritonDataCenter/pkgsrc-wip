@@ -6,8 +6,8 @@ If you have built the Mozilla browser plugin, you must create a symlink to
   ${JAVA_HOME}/jre/plugin/i386/ns610/libjavaplugin_oji.so
 
 in the ${LOCALBASE}/lib/${MOZILLA}/plugins/ dir, for any ${MOZILLA} package
-(firefox, firefox-gtk1, mozilla, mozilla-gtk2) you want to use the plugin
-with.
+(firefox, firefox-gtk1, mozilla, mozilla-gtk2, seamonkey, seamonkey-gtk1)
+you want to use the plugin with, or in your own ~/.mozilla/plugins/ dir.
 
 For the plugin to work, you may have to increase your datasize limit.
 
