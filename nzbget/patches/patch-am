@@ -11,3 +11,12 @@ $NetBSD$
  		}
  		else
  		{
+@@ -607,7 +607,7 @@ void FileDownloader::LogBrokenFile( cons
+ {
+ 	FILE* file = fopen( szBrokenLogName, "a+" );
+ 	float fBrokenPrc = 1.0f - (float)(iBroken) / (float)iParts;
+-	fprintf( file, "%s (%.0f\%)\n", szFileName, 100.0f * fBrokenPrc );
++	fprintf( file, "%s (%.0f%%)\n", szFileName, 100.0f * fBrokenPrc );
+ 	fclose( file );
+ }                                            
+ 

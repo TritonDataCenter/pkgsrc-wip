@@ -227,3 +227,12 @@ $NetBSD$
    debug("%s",(char*)node);
  }
  
+@@ -235,7 +231,7 @@ void NZBQueue::PrintProgressInfo()
+ 	char szBuffer[1024];
+ 	strcpy( szBuffer, basename( m_szFileName ) );
+ 	int iLength = strlen( szBuffer );
+-	sprintf( szBuffer+iLength, " (%i/%i files)", m_Jobs.size(), m_iOriginalNumberOfJobs );
++	sprintf( szBuffer+iLength, " (%i/%i files)", (int)m_Jobs.size(), m_iOriginalNumberOfJobs );
+ 	g_pFrontend->FrontendInfo( szBuffer );
+ }
+ 
