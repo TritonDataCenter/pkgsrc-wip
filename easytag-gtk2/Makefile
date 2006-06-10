@@ -12,6 +12,7 @@ COMMENT=	GTK2 Tag editor for MP3, Ogg Vorbis files, and others
 
 GNU_CONFIGURE=          yes
 USE_DIRS+=              xdg-1.1
+USE_LANGUAGES=		c c++
 USE_TOOLS+=		pkg-config xgettext
 USE_PKGLOCALEDIR=       yes
 USE_LIBTOOL=            yes
