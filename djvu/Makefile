@@ -9,8 +9,8 @@ HOMEPAGE=       http://djvulibre.djvuzone.org/
 COMMENT=        Format and software platform for distributing documents and images
 
 CONFIGURE_ARGS+=         --enable-djview
-
 GNU_CONFIGURE=  YES
+USE_LANGUAGES=	c c++
 
 .include "../../x11/qt3-tools/buildlink3.mk"
 .include "../../graphics/tiff/buildlink3.mk"
