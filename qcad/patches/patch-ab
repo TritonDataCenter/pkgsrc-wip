@@ -1,8 +1,8 @@
 $NetBSD$
 
---- qcadlib/src/engine/rs_system.cpp.orig	2004-09-14 15:13:02.000000000 -0500
+--- qcadlib/src/engine/rs_system.cpp.orig	2005-11-22 06:52:36.000000000 -0500
 +++ qcadlib/src/engine/rs_system.cpp
-@@ -292,13 +292,7 @@ RS_StringList RS_System::getDirectoryLis
+@@ -333,13 +333,7 @@ RS_StringList RS_System::getDirectoryLis
              dirList.append(appDir + "/" + subDirectory);
          }
  
