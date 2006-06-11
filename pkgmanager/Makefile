@@ -13,7 +13,7 @@ HOMEPAGE=	http://www.scode.org/pkgmanager/
 COMMENT=	Package manager for pkgsrc
 
 WRKSRC=		${WRKDIR}
-PKGMGR_VERSION=	0.8.0
+PKGMGR_VERSION=	0.8.1
 PPCRE_VERSION=	1.2.10
 
 USE_TOOLS+=	gmake
@@ -73,6 +73,6 @@ do-install:
 	${INSTALL_DATA} ${PKGMGR_SRC:Q}/pkgmanager.fas ${PKGMGR_LIBDIR}/pkgmanager.fas
 	${INSTALL_SCRIPT} ${PKGMGR_SRC:Q}/pkgmanager-wrapper.sh \
 		${PKGMGR_BINDIR}/pkgmanager
-	${INSTALL_MAN} ${PKGMGR_SRC:Q}/pkgmanager.1 ${PREFIX}/man/man8
+	${INSTALL_MAN} ${PKGMGR_SRC:Q}/pkgmanager.8 ${PREFIX}/man/man8
 
 .include "../../mk/bsd.pkg.mk"
