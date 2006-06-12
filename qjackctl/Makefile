@@ -13,7 +13,7 @@ USE_PKGLOCALEDIR=	yes
 USE_TOOLS+=		autoconf pkg-config
 GNU_CONFIGURE=		yes
 
-.include "../../wip/jack/buildlink3.mk"
+.include "../../audio/jack/buildlink3.mk"
 .include "../../x11/qt3-libs/buildlink3.mk"
 .include "../../x11/qt3-tools/buildlink3.mk"
 # XXX Please verify whether qt3-tools is really needed at run-time.
