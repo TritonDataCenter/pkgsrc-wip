@@ -8,10 +8,7 @@ MAINTAINER=	hauke@Espresso.Rhein-Neckar.DE
 HOMEPAGE=	http://ppr.trincoll.edu/
 COMMENT=	AT&T/Apple AppleTalk Library Interface for Netatalk
 
-
 CONFLICTS=	netatalk-asun-[0-9]* netatalk-umich-[0-9]*
-
-.include "../../mk/bsd.prefs.mk"
 
 MAKE_ENV+=	ATALKINCDIR=-I${LOCALBASE}/include
 MAKE_ENV+=	ATALKLIBDIR=-L${LOCALBASE}/lib
@@ -26,6 +23,4 @@ do-install:
 	${INSTALL_DATA} ${WRKSRC}/libnatali.a ${PREFIX}/lib
 
 .include "../../net/netatalk/buildlink3.mk"
-
-.include "../../mk/install/bsd.pkginstall.mk"
 .include "../../mk/bsd.pkg.mk"
