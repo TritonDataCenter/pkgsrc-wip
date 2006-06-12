@@ -1,7 +1,7 @@
 # $NetBSD: Makefile,v 1.48 2005/12/05 23:55:03 rillig Exp $
 
 VERS=		4.3.0
-PKGNAME=	hylafax-devel-${VERS}
+PKGNAME=	hylafax-${VERS}
 DISTNAME=	hylafax-${VERS}
 CATEGORIES=	comms
 MASTER_SITES_BETA=	ftp://ftp.hylafax.org/source/BETA/
@@ -22,7 +22,7 @@ DEPENDS+=	mawk>=1.2.2:../../lang/mawk
 
 DIST_SUBDIR=	hylafax
 
-CONFLICTS=	hylafax-[0-9]* mgetty-[0-9]*
+CONFLICTS=	hylafax-devel-[0-9]* mgetty-[0-9]*
 
 USE_LANGUAGES=		c c++
 USE_TOOLS+=		gs:run
