@@ -48,5 +48,4 @@ pre-install:
 	${INSTALL_DATA} ${WRKSRC}/qico.conf.sample \
 		${PREFIX}/share/examples/qico/qico.conf
 
-.include "../../mk/install/bsd.pkginstall.mk"
 .include "../../mk/bsd.pkg.mk"
