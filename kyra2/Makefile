@@ -4,6 +4,7 @@
 DISTNAME=		kyra_src_2_0_7
 PKGNAME=		kyra2-2.0.7
 WRKSRC=			${WRKDIR}/kyra
+PKGREVISION=		1
 CATEGORIES=		graphics
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=kyra/}
 

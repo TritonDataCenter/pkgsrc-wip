@@ -2,6 +2,7 @@
 #
 
 DISTNAME=		bub-n-bros-1.1
+PKGREVISION=		1
 CATEGORIES=		games
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=bub-n-bros/}
 

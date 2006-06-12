@@ -1,6 +1,7 @@
 # $NetBSD$
 
 DISTNAME=		electricsheep-2.5
+PKGREVISION=		1
 CATEGORIES=		x11
 MASTER_SITES=		http://electricsheep.org/
 

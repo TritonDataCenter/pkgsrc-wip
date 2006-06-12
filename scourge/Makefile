@@ -2,6 +2,7 @@
 #
 
 DISTNAME=		scourge-0.4
+PKGREVISION=		1
 CATEGORIES=		games
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=scourge/}
 

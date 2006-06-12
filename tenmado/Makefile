@@ -2,6 +2,7 @@
 #
 
 DISTNAME=		tenmado-0.6
+PKGREVISION=		1
 CATEGORIES=		games
 MASTER_SITES=		http://www.interq.or.jp/libra/oohara/tenmado/
 

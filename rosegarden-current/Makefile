@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	rosegarden-4-0.9.1
+PKGREVISION=	1
 CATEGORIES=	audio
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=rosegarden/}
 

@@ -2,6 +2,7 @@
 #
 
 DISTNAME=		jumpnbump-1.50
+PKGREVISION=		1
 CATEGORIES=		games
 MASTER_SITES=		http://jumpbump.mine.nu/port/
 

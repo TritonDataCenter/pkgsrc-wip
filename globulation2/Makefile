@@ -3,7 +3,7 @@
 
 PKGNAME=		globulation2-0.8.17
 DISTNAME=		glob2-0.8.17
-PKGREVISION=		1
+PKGREVISION=		2
 CATEGORIES=		games
 MASTER_SITES=		http://lissrv3.epfl.ch/~glob2/data/
 

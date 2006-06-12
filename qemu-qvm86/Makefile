@@ -3,6 +3,7 @@
 
 DISTNAME=		qemu-0.8.0
 PKGNAME=		qemu-qvm86-0.8.0
+PKGREVISION=		1
 CATEGORIES=		emulators
 MASTER_SITES=		http://fabrice.bellard.free.fr/qemu/
 

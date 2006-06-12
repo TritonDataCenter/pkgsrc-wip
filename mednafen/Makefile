@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	mednafen-0.6.1
+PKGREVISION=	1
 CATEGORIES=	emulators
 MASTER_SITES=	http://mednafen.com/releases/
 EXTRACT_SUFX=	.tar.bz2

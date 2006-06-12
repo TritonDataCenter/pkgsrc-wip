@@ -1,6 +1,7 @@
 # $NetBSD$
 
 DISTNAME=		abuse_sdl-0.7.0
+PKGREVISION=		1
 CATEGORIES=		games
 MASTER_SITES=		http://www.labyrinth.net.au/~trandor/abuse/files/
 EXTRACT_SUFX=		.tar.bz2

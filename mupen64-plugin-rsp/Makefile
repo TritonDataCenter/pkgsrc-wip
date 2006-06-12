@@ -3,6 +3,7 @@
 
 DISTNAME=	hack_azi_rsp_hle
 PKGNAME=	${DISTNAME:S/hack_azi_rsp_hle/mupen64-plugin-rsp-1.2/}
+PKGREVISION=	1
 CATEGORIES=	emulators
 MASTER_SITES=	http://mupen64.emulation64.com/files/0.4/
 EXTRACT_SUFX=	.tar.bz2

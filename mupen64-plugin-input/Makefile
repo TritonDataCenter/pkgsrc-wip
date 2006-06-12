@@ -3,6 +3,7 @@
 
 DISTNAME=	mupen64_input
 PKGNAME=	${DISTNAME:S/_input/-plugin-input-1.1/}
+PKGREVISION=	1
 CATEGORIES=	emulators
 MASTER_SITES=	http://mupen64.emulation64.com/files/src/
 EXTRACT_SUFX=	.tar.bz2

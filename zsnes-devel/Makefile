@@ -3,6 +3,7 @@
 
 DISTNAME=		ZSNESS_0909
 PKGNAME=		zsnes-2005909
+PKGREVISION=		1
 CATEGORIES=		emulators
 MASTER_SITES=		http://www.ipherswipsite.com/files/zsnes/
 EXTRACT_SUFX=		.tar.bz2

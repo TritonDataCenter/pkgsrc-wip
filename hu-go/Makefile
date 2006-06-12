@@ -3,6 +3,7 @@
 
 DISTNAME=		hugo-2.11-preview
 PKGNAME=		hu-go-2.11beta1
+PKGREVISION=		1
 CATEGORIES=		emulators
 MASTER_SITES=		http://www.zeograd.com/download/
 

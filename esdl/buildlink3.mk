@@ -12,6 +12,7 @@ BUILDLINK_PACKAGES+=		esdl
 
 .if !empty(ESDL_BUILDLINK3_MK:M+)
 BUILDLINK_API_DEPENDS.esdl+=	esdl>=0.95
+BUILDLINK_ABI_DEPENDS.esdl?=	esdl>=0.95.0630nb1
 BUILDLINK_PKGSRCDIR.esdl?=	../../wip/esdl
 .endif	# ESDL_BUILDLINK3_MK
 

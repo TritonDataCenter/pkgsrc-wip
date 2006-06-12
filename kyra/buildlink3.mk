@@ -17,6 +17,7 @@ BUILDLINK_PACKAGES+=	kyra
 
 .if !empty(KYRA_BUILDLINK3_MK:M+)
 BUILDLINK_API_DEPENDS.kyra+=	kyra>=1.6.5
+BUILDLINK_ABI_DEPENDS.kyra?=	kyra>=1.6.5nb1
 BUILDLINK_PKGSRCDIR.kyra?=	../../wip/kyra
 
 .include "../../devel/SDL/buildlink3.mk"

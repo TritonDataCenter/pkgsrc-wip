@@ -3,6 +3,7 @@
 
 DISTNAME=	mupen64_src-0.4
 PKGNAME=	${DISTNAME:S/_src/-base/}
+PKGREVISION=	1
 CATEGORIES=	emulators
 MASTER_SITES=	http://mupen64.emulation64.com/files/0.4/
 EXTRACT_SUFX=	.tar.bz2

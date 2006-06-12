@@ -2,6 +2,7 @@
 #
 
 DISTNAME=		yabause-0.0.6
+PKGREVISION=		1
 CATEGORIES=		emulators
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=yabause/}
 

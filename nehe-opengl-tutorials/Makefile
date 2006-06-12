@@ -3,6 +3,7 @@
 
 DISTNAME=	nehe-opengl-tutorials-${NEHE_OPENGL_TUT_FLAVOUR}-0
 WRKSRC=		${WRKDIR}
+PKGREVISION=	1
 CATEGORIES=	graphics
 MASTER_SITES=	http://nehe.gamedev.net/data/lessons/linux${NEHE_OPENGL_TUT_FLAVOUR}/ \
 		http://nehe.gamedev.net/files/resources/

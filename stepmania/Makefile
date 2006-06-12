@@ -3,6 +3,7 @@
 
 DISTNAME=		StepMania-3.9-src
 PKGNAME=		stepmania-3.9
+PKGREVISION=		1
 CATEGORIES=		games
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=stepmania/}
 

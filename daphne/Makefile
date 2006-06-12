@@ -3,6 +3,7 @@
 
 DISTNAME=		${PKGNAME_NOREV}-src
 PKGNAME=		daphne-0.99.6c
+PKGREVISION=		1
 CATEGORIES=		emulators
 MASTER_SITES=		http://daphne.rulecity.com/download/
 

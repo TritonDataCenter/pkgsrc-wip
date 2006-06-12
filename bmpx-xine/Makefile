@@ -4,6 +4,7 @@
 .include "../../wip/bmpx/Makefile.common"
 
 PKGNAME=	${DISTNAME:S/-/-xine-/}
+PKGREVISION=	1
 
 COMMENT+=	(using xine)
 

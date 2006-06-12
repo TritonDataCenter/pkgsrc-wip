@@ -14,6 +14,7 @@ BUILDLINK_PACKAGES+=	pyvisionegg
 
 .if !empty(PY_VISIONEGG_BUILDLINK3_MK:M+)
 BUILDLINK_API_DEPENDS.pyvisionegg+=	${PYPKGPREFIX}-visionegg>=0.9.9
+BUILDLINK_ABI_DEPENDS.pyvisionegg?=	${PYPKGPREFIX}-visionegg>=0.9.9nb1
 BUILDLINK_PKGSRCDIR.pyvisionegg?=	../../wip/py-visionegg
 .endif	# PY_VISIONEGG_BUILDLINK3_MK
 

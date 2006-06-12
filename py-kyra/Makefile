@@ -3,6 +3,7 @@
 
 DISTNAME=		PyKyra-0.4.0
 PKGNAME=		${PYPKGPREFIX}-${DISTNAME:S/PyK/k/}
+PKGREVISION=		1
 CATEGORIES=		devel
 MASTER_SITES=		http://www.alobbs.com/pykyra/
 

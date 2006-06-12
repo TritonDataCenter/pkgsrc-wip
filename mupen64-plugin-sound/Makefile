@@ -3,6 +3,7 @@
 
 DISTNAME=	mupen64_sound
 PKGNAME=	${DISTNAME:S/_sound/-plugin-sound-1.1/}
+PKGREVISION=	1
 CATEGORIES=	emulators
 MASTER_SITES=	http://mupen64.emulation64.com/files/src/
 EXTRACT_SUFX=	.tar.bz2

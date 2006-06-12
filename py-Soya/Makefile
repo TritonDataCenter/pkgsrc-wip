@@ -3,6 +3,7 @@
 
 DISTNAME=		Soya-0.6.1
 PKGNAME=		${PYPKGPREFIX}-${DISTNAME}
+PKGREVISION=		1
 CATEGORIES=		devel
 MASTER_SITES=		http://download.gna.org/soya/
 EXTRACT_SUFX=		.tar.bz2

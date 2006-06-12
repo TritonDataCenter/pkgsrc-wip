@@ -3,6 +3,7 @@
 
 DISTNAME=	tr64_oglv078_src
 PKGNAME=	mupen64-plugin-video-0.78
+PKGREVISION=	1
 CATEGORIES=	emulators
 MASTER_SITES=	http://mupen64.emulation64.com/files/src/
 EXTRACT_SUFX=	.tar.bz2
