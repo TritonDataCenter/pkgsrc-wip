@@ -1,0 +1,6 @@
+@comment $NetBSD: PLIST$
+bin/vre
+bin/vreng
+man/man1/vreng.1
+man/man8/vacs.8
+man/man8/vaps.8
