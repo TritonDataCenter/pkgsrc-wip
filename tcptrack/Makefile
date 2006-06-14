@@ -9,6 +9,7 @@ MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://www.rhythm.cx/~steve/devel/tcptrack/
 COMMENT=		Watch TCP connections
 
+USE_LANGUAGES=		c++
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 
