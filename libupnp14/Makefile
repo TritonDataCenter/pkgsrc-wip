@@ -16,13 +16,5 @@ GNU_CONFIGURE=		yes
 
 PKGCONFIG_OVERRIDE+=	libupnp.pc.in
 
-.include "../../mk/bsd.prefs.mk"
-
-.if ${OPSYS} == "NetBSD" || ${OPSYS} == "FreeBSD" || ${OPSYS} == "OpenBSD" || ${OPSYS} == "DragonFly" || ${OPSYS} == "Darwin" || ${OPSYS} == "BSDOS"
-LIBS+=		-lcompat     # XXX need this for ftime(3)
-CONFIGURE_ENV+=	LIBS=${LIBS:M*:Q}
-.endif
-
-
 .include "../../mk/pthread.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
