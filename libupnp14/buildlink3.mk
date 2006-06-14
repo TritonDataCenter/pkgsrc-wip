@@ -19,7 +19,6 @@ BUILDLINK_PKGSRCDIR.libupnp?=	../../wip/libupnp14
 
 .if ${OPSYS} == "NetBSD" || ${OPSYS} == "FreeBSD" || ${OPSYS} == "OpenBSD" || ${OPSYS} == "DragonFly" || ${OPSYS} == "Darwin" || ${OPSYS} == "BSDOS"
 BUILDLINK_LIBS.libupnp+=	-lcompat     # XXX need this for ftime(3)
-CONFIGURE_ENV+= LIBS=${LIBS:M*:Q}
 .endif
 
 BUILDLINK_DEPTH:=	${BUILDLINK_DEPTH:S/+$//}
