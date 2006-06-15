@@ -8,7 +8,7 @@ WRKSRC=			${WRKDIR}/${DISTNAME}/mpgedit
 CATEGORIES=		audio
 MASTER_SITES=		http://www.mpgedit.org/mpgedit/download/
 
-MAINTAINER=		wiz@NetBSD.org
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://www.mpgedit.org/mpgedit/
 COMMENT=		MPEG audio file editor
 

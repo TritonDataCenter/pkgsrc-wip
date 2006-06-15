@@ -5,7 +5,7 @@ DISTNAME=		viewglob-0.9
 CATEGORIES=		misc
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=viewglob/}
 
-MAINTAINER=		wiz@NetBSD.org
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://viewglob.sourceforge.net/
 COMMENT=		Utility designed to complement the shell in graphical environments
 
