@@ -1,0 +1,13 @@
+$NetBSD$
+
+--- normal/parser.y.orig	2006-06-16 01:08:22.000000000 +0000
++++ normal/parser.y
+@@ -56,7 +56,7 @@
+ 
+ %%
+ /* It should be possible to do this in a clean way...  */
+-script:		{ state->err = 0} newlines commands
++script:		{ state->err = 0;} newlines commands
+ 		  {
+ 		    state->parsed = $3;
+ 		  }
