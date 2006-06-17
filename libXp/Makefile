@@ -14,6 +14,7 @@ USE_LIBTOOL=		yes
 USE_TOOLS+=		pkg-config
 GNU_CONFIGURE=		yes
 
+CONFIGURE_ENV+=		LIB_MAN_SUFFIX=3
 PKGCONFIG_OVERRIDE+=	xp.pc.in
 
 .include "../../mk/bsd.prefs.mk"
