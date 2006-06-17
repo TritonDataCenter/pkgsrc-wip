@@ -9,6 +9,8 @@ MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://fontconfig.org/
 COMMENT=	Library for configuring and customizing font access
 
+CONFLICTS+=	Xft2-[0-9]*
+
 PKG_INSTALLATION_TYPES=	overwrite pkgviews
 
 GNU_CONFIGURE=		YES
