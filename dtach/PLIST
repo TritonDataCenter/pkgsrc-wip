@@ -1,2 +1,7 @@
 @comment $NetBSD$
 bin/dtach
+man/man1/dtach.1
+share/doc/dtach/COPYING
+share/doc/dtach/README
+share/doc/dtach/dtach.spec
+@dirrm share/doc/dtach
