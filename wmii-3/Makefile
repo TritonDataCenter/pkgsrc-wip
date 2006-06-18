@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		wmii-3
+DISTNAME=		wmii-3.1
 CATEGORIES=		wip wm
 MASTER_SITES=		http://wmii.de/download/
 
