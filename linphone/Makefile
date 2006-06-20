@@ -1,8 +1,8 @@
 # $NetBSD$
 
-DISTNAME=	linphone-1.2.0
+DISTNAME=	linphone-1.3.5
 CATEGORIES=	net
-MASTER_SITES=	http://simon.morlat.free.fr/download/1.2.x/source/
+MASTER_SITES=	http://simon.morlat.free.fr/download/1.3.x/source/
 
 MAINTAINER=     schwarz@NetBSD.org
 HOMEPAGE=	http://www.linphone.org/
@@ -49,5 +49,6 @@ CPPFLAGS+=	-DDSP_NAME="\"${DEVOSSAUDIO}\""
 .include "../../mk/oss.buildlink3.mk"
 .include "../../devel/glib2/buildlink3.mk"
 .include "../../devel/libosip/buildlink3.mk"
-.include "../../audio/speex/buildlink3.mk"
+.include "../../wip/speex-devel/buildlink3.mk"
+.include "../../devel/readline/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
