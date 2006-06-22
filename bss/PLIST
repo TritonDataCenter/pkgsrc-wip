@@ -1,10 +1,10 @@
 @comment $NetBSD$
 bin/bss
+bin/replay_l2cap_packet
 share/doc/bss/ArticleFR_bluetooth_pbetouin.pdf
 share/doc/bss/README
 share/doc/bss/bluetooth.jpg
 share/doc/bss/hcidump-crash.c
 share/doc/bss/index.html
-share/doc/bss/replay_l2cap_packet.c
 share/doc/bss/reset_display_KV600i.c
 @dirrm share/doc/bss
