@@ -21,5 +21,5 @@ CONFIGURE_ARGS+=	--with-libupnp=${BUILDLINK_PREFIX.libupnp:Q}
 .include "../../audio/taglib/buildlink3.mk"
 .include "../../converters/libiconv/buildlink3.mk"
 .include "../../devel/gettext-lib/buildlink3.mk"
-.include "../../wip/libupnp12/buildlink3.mk"
+.include "../../wip/libupnp/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

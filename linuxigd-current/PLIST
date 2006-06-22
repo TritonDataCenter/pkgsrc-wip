@@ -1,11 +1,10 @@
 @comment $NetBSD$
 man/man8/upnpd.8
 sbin/upnpd
-share/examples/linuxigd/dummy.xml
-share/examples/linuxigd/gateconnSCPD.xml
-share/examples/linuxigd/gatedesc.xml
-share/examples/linuxigd/gateicfgSCPD.xml
-share/examples/linuxigd/ligd.gif
-share/examples/linuxigd/upnpd.conf
+etc/linuxigd/dummy.xml
+etc/linuxigd/gateconnSCPD.xml
+etc/linuxigd/gatedesc.xml
+etc/linuxigd/gateicfgSCPD.xml
+etc/linuxigd/ligd.gif
+share/examples/upnpd.conf
 share/examples/rc.d/linuxigd
-@dirrm share/examples/linuxigd
