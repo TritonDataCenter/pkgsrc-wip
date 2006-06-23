@@ -10,7 +10,7 @@ COMMENT=		UPnP compatible media server for the GNU system
 
 USE_TOOLS+=		perl pkg-config gmake makeinfo msgfmt
 GNU_CONFIGURE=		yes
-INFO_FILES=		gmediaserver.info
+INFO_FILES=		yes
 USE_PKGLOCALEDIR=	yes
 
 CONFIGURE_ARGS+=	--with-id3lib=${BUILDLINK_PREFIX.id3lib:Q}
