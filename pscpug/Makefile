@@ -13,4 +13,5 @@ COMMENT=		Graph a given process's CPU usage
 
 GNU_CONFIGURE=		yes
 
+.include "../../devel/ncurses/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
