@@ -10,6 +10,7 @@ MAINTAINER=		wiz@NetBSD.org
 HOMEPAGE=		http://yabause.sourceforge.net/
 COMMENT=		Sega Saturn emulator
 
+USE_LANGUAGES=		c c++
 GNU_CONFIGURE=		yes
 
 post-install:
