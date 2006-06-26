@@ -37,7 +37,7 @@ do-install:
 	${INSTALL_DATA_DIR} ${PREFIX}/share/ldcpp/glade
 	${INSTALL_DATA_DIR} ${PREFIX}/share/ldcpp/pixmaps
 	cd ${WRKSRC}/glade && ${PAX} -rw *.glade ${PREFIX}/share/ldcpp/glade
-	cd ${WRKSRC}/pixmaps && ${PAX} -rw *.png ${PREFIX}/share/ldcpp/pixmaps
+	cd ${WRKSRC}/pixmaps && ${PAX} -rw *.png *.svg ${PREFIX}/share/ldcpp/pixmaps
 
 .include "../../wip/mk/cvs-package.mk"
 .include "../../mk/compiler.mk"
@@ -46,6 +46,7 @@ do-install:
 .include "../../devel/zlib/buildlink3.mk"
 .include "../../x11/gtk2/buildlink3.mk"
 .include "../../devel/libglade2/buildlink3.mk"
+.include "../../security/openssl/buildlink3.mk"
 .include "../../mk/pthread.buildlink3.mk"
 .include "../../mk/x11.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
