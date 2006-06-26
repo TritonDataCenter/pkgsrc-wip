@@ -6,7 +6,7 @@ $NetBSD$
  static int
  SetPolicyType( PolicyType in )
  {
-+#ifdef _POSIX_PRIORITY_SCHEDULING
++#if defined(_POSIX_PRIORITY_SCHEDULING) && (_POSIX_PRIORITY_SCHEDULING >= 200112L)
      struct sched_param current;
  
      sched_getparam( 0, &current );
@@ -22,7 +22,7 @@ $NetBSD$
  SetPriority( ThreadPriority priority )
  {
  
-+#ifdef _POSIX_PRIORITY_SCHEDULING
++#if defined(_POSIX_PRIORITY_SCHEDULING) && (_POSIX_PRIORITY_SCHEDULING >= 200112L)
      int currentPolicy;
      int minPriority = 0;
      int maxPriority = 0;
