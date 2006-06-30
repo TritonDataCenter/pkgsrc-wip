@@ -23,6 +23,7 @@ include/libdjvu/ddjvuapi.h
 include/libdjvu/miniexp.h
 lib/libdjvulibre.la
 lib/netscape/plugins/nsdejavu.so
+lib/pkgconfig/ddjvuapi.pc
 man/ja/man1/bzz.1
 man/ja/man1/c44.1
 man/ja/man1/cjb2.1

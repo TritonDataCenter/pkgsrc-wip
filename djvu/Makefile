@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=       djvulibre-3.5.16
+DISTNAME=       djvulibre-3.5.17
 CATEGORIES=     graphics
 MASTER_SITES=   ${MASTER_SITE_SOURCEFORGE:=djvu/}
 
