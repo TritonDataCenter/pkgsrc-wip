@@ -10,6 +10,8 @@ MAINTAINER=		reed@reedmedia.net
 HOMEPAGE=		http://www.linux1394.org/
 COMMENT=		Functions for converting raw1394 protocol packets
 
+ONLY_FOR_PLATFORM=	Linux-*-*
+
 USE_LIBTOOL=		yes
 LIBTOOL_OVERRIDE=	${WRKSRC}/libtool
 PKGCONFIG_OVERRIDE+=	${WRKSRC}/libraw1394.pc.in
