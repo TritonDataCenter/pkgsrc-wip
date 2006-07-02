@@ -5,11 +5,10 @@ DISTNAME=		EiCsrc_4.3.0
 PKGNAME=		EiC-4.3.0
 WRKSRC=			${WRKDIR}/EiC/
 CATEGORIES=		lang
-MASTER_SITES=		http://eic.sourceforge.net/download/eicdist/4_3_0/
+MASTER_SITES=		http://rpm.rutgers.edu/repository/solaris/SOURCES/
 EXTRACT_SUFX=		.tgz
 
 MAINTAINER=		adam@monkeybyte.org
-HOMEPAGE=		http://eic.sourceforge.net/download/eicdist/4_3_0/
 COMMENT=		C style scripting lang
 
 USE_TOOLS+=		gmake

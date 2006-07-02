@@ -4,10 +4,10 @@
 DISTNAME=	festival-gaim-0.64
 PKGREVISION=	1
 CATEGORIES=	audio chat
-MASTER_SITES=	http://primates.ximian.com/~sandino/festival/SOURCES/
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=festival-gaim/}
 
 MAINTAINER=	jmmv@NetBSD.org
-HOMEPAGE=	http://www.gnome.org/softwaremap/projects/festival-gaim/
+HOMEPAGE=	http://festival-gaim.sourceforge.net/
 COMMENT=	Synthesizes incoming messages using voice
 
 DEPENDS+=	festival>=1.4.1nb1:../../audio/festival

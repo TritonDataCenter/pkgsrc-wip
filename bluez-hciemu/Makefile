@@ -3,10 +3,10 @@
 
 DISTNAME=		bluez-hciemu-1.2
 CATEGORIES=		net
-MASTER_SITES=		http://bluez.sf.net/download/
+MASTER_SITES=		http://bluez.sourceforge.net/download/
 
 MAINTAINER=		pancake@phreaker.net
-HOMEPAGE=		http://bluez.sf.net/download/
+HOMEPAGE=		http://www.bluez.org/
 COMMENT=		HCI device emulator
 
 USE_PKGLOCALEDIR=	yes

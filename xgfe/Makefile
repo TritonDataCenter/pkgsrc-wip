@@ -6,7 +6,6 @@ CATEGORIES=		x11
 MASTER_SITES=		${MASTER_SITE_TEX_CTAN=graphics/gnuplot/contrib}
 
 MAINTAINER=		dprice@cs.nmsu.edu
-HOMEPAGE=		http://www.bl.physik.uni-muenchen.de/rechner/grafik/xgfe/xgfe.html
 COMMENT=		GUI front end for Gnuplot plotting package
 
 WRKSRC=			${WRKDIR}/xgfe-2.1/source

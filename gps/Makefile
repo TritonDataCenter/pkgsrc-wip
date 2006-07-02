@@ -3,10 +3,9 @@
 
 DISTNAME=		gps-0.9.2
 CATEGORIES=		security net
-MASTER_SITES=		http://gps.sourceforge.net/release/
+MASTER_SITES=		http://www.mirrors.wiretapped.net/security/network-mapping/gps/
 
 MAINTAINER=		pkgsrc-users@NetBSD.org
-HOMEPAGE=		http://gps.sourceforge.net/
 COMMENT=		Ghost Port Scan
 
 USE_TOOLS+=		gmake
