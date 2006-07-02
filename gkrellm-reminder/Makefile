@@ -6,7 +6,7 @@ CATEGORIES=	misc
 MASTER_SITES=	http://www.comimpex.cz/support/LINUX/sort/gkrellm/
 
 MAINTAINER=	david@netbsd-fr.org
-HOMEPAGE=	http://www.engr.orst.edu/~simonsen/reminder
+HOMEPAGE=	http://web.engr.oregonstate.edu/~simonsen/reminder
 COMMENT=	GKrellM plugin that reminds you of important events
 
 

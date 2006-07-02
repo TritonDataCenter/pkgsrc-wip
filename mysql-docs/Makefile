@@ -8,7 +8,7 @@ CATEGORIES=		misc
 MASTER_SITES=		http://mysql.belnet.be/Downloads/Manual/
 
 MAINTAINER=		pkgsrc-users@NetBSD.org
-HOMEPAGE=		http://mysql.com/
+HOMEPAGE=		http://www.mysql.com/
 COMMENT=		Latest documentation for MySQL database server
 
 HTMLDIR=	share/doc/${PKGNAME}

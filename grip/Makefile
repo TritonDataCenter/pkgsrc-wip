@@ -6,7 +6,7 @@ CATEGORIES=		audio
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=grip/}
 
 MAINTAINER=		pkgsrc-users@NetBSD.org
-HOMEPAGE=		http://grip.sourceforge.net/
+HOMEPAGE=		http://nostatic.org/grip/
 COMMENT=		CD-player and CD-ripper for the Gnome desktop
 
 USE_DIRS+=		gnome2-1.5

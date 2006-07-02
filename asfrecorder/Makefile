@@ -9,9 +9,8 @@ MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=asfrecorder/}
 EXTRACT_SUFX=		.zip
 
 MAINTAINER=		tv@NetBSD.org
-HOMEPAGE=		http://asfrecorder.sourceforge.net/
+HOMEPAGE=		http://sourceforge.net/projects/asfrecorder/
 COMMENT=		Static-file downloader for ASF streaming media
-
 
 do-build:
 	cd ${WRKSRC} && ${LINK.c} -o asfrecorder asfrecorder.c

@@ -6,7 +6,7 @@ MASTER_SITES=	http://download.microsoft.com/download/FrontPage2002/Install/2002/
 DISTFILES=	${FRONTPAGE}
 
 MAINTAINER=	eric@cirr.com
-HOMEPAGE=	http://www.microsoft.com/frontpage
+HOMEPAGE=	http://www.microsoft.com/frontpage/
 COMMENT=	Microsoft Frontpage 2002 Server Extensions
 
 .include "../../mk/bsd.prefs.mk"

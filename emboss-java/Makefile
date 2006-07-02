@@ -7,7 +7,7 @@ CATEGORIES=		biology
 MASTER_SITES		ftp://ftp.uk.embnet.org/pub/EMBOSS/
 
 MAINTAINER=		dprice@cs.nmsu.edu
-HOMEPAGE=		http://www.emboss.org
+HOMEPAGE=		http://emboss.sourceforge.net/
 COMMENT=		interface between emboss and jemboss
 
 DEPENDS+=		emboss-base-2.9.0:../../wip/emboss-base

@@ -3,11 +3,11 @@
 
 DISTNAME=		mpq-tools-0.3.0
 CATEGORIES=		archivers
-MASTER_SITES=		http://babelize.org/download/
+MASTER_SITES=		https://babelize.org/download/
 EXTRACT_SUFX=		.tar.bz2
 
 MAINTAINER=		ben@NetBSD.org
-HOMEPAGE=		http://babelize.org/
+HOMEPAGE=		https://babelize.org/
 COMMENT=		Tools for manipulating MPQ (MoPaQ) archives
 
 PKG_INSTALLATION_TYPES=	overwrite pkgviews

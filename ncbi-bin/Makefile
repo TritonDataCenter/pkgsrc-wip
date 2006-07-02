@@ -7,7 +7,7 @@ CATEGORIES=		biology
 MASTER_SITES=		ftp://ftp.ncbi.nih.gov/toolbox/ncbi_tools/old/20060301/
 
 MAINTAINER=		mchittur@cs.nmsu.edu
-HOMEPAGE=		http://www.ncbi.nlm.nih.gov/IEB/ToolBox
+HOMEPAGE=		http://www.ncbi.nlm.nih.gov/IEB/ToolBox/
 COMMENT=		Portable modular software for molecular biology
 
 PKG_VER=		20060301

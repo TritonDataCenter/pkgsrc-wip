@@ -5,7 +5,7 @@ CATEGORIES=	devel
 MASTER_SITES=	http://ftp.gnu.org/gnu/guile-gnome/guile-gnome-platform/
 
 MAINTAINER=	gdt@ir.bbn.com
-HOMEPAGE=	http://www.gnu.org/software/guile-gnome
+HOMEPAGE=	http://www.gnu.org/software/guile-gnome/
 COMMENT=	Library to access gobject/glib/gtk and gnome from guile
 
 DEPENDS+=	guile-slib>=2.4.2:../../devel/guile-slib

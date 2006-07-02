@@ -7,7 +7,7 @@ MASTER_SITES=		#empty
 DISTFILES=		#empty
 
 MAINTAINER=		mchittur@nmsu.edu
-HOMEPAGE=		http://www.ncbi.nlm.nih.gov/IEB/ToolBox
+HOMEPAGE=		http://www.ncbi.nlm.nih.gov/IEB/ToolBox/
 COMMENT=		Portable, modular software for molecular biology
 
 DEPENDS+=       	ncbi-bin-20060301:../../wip/ncbi-bin

@@ -7,7 +7,7 @@ MASTER_SITES=		http://www.cgsecurity.org/
 EXTRACT_SUFX=		.tar.bz2
 
 MAINTAINER=		pancake@phreaker.net
-HOMEPAGE=		http://www.cgsecurity.org/testdisk.html
+HOMEPAGE=		http://www.cgsecurity.org/wiki/TestDisk
 COMMENT=		Tool to check and undelete partitions
 
 GNU_CONFIGURE=		yes

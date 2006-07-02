@@ -8,7 +8,7 @@ MASTER_SITES=		http://itext.sourceforge.net/downloads/
 EXTRACT_SUFX=		.jar
 
 MAINTAINER=		pancake@phreaker.net
-HOMEPAGE=		http://itext.sourceforge.net/
+HOMEPAGE=		http://www.lowagie.com/iText/
 COMMENT=		Java classes to generate and parse XML files
 
 WRKSRC=			${WRKDIR}

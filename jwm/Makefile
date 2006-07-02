@@ -7,7 +7,7 @@ MASTER_SITES=		http://www.joewing.net/programs/jwm/
 EXTRACT_SUFX=		.tar.bz2
 
 MAINTAINER=		pip88nl@gmail.com
-HOMEPAGE=		http://joewing.net/programs/jwm
+HOMEPAGE=		http://www.joewing.net/programs/jwm/
 COMMENT=		Lightweight window manager with virtual desktops
 
 GNU_CONFIGURE=		yes

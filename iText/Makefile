@@ -8,7 +8,7 @@ MASTER_SITES=		http://${MASTER_SITE_SOURCEFORGE:=itext/}
 EXTRACT_SUFX=		.jar
 
 MAINTAINER=		pancake@phreaker.net
-HOMEPAGE=		http://itext.sourceforge.net/
+HOMEPAGE=		http://www.lowagie.com/iText/
 COMMENT=		Java classes to generate PDF files on the fly
 
 WRKSRC=			${WRKDIR}

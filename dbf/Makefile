@@ -7,7 +7,7 @@ CATEGORIES=	converters
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=dbf/}
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
-HOMEPAGE=	http://dbf.sourceforge.net/
+HOMEPAGE=	http://www.anubisnet.de/
 COMMENT=	Converts dBASE files to comma separated values text files
 
 USE_TOOLS+=	gmake

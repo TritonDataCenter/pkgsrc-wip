@@ -5,7 +5,7 @@ CATEGORIES=		graphics
 MASTER_SITES=		http://www-users.cs.umn.edu/~wburdick/ftp/geowall/
 
 MAINTAINER=		pkgsrc-users@NetBSD.org
-HOMEPAGE=		http://www-users.cs.umn.edu/~wburdick
+HOMEPAGE=		http://www-users.cs.umn.edu/~wburdick/
 COMMENT=		OpenGL based multipurpose image viewer
 
 GNU_CONFIGURE=		yes

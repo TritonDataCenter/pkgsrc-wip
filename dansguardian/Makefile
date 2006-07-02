@@ -6,7 +6,7 @@ CATEGORIES=	www
 MASTER_SITES=	#
 
 MAINTAINER=	david@netbsd-fr.org
-HOMEPAGE=	http://www.dansguardian.org/
+HOMEPAGE=	http://dansguardian.org/
 COMMENT=	Fast, featureful web content filter for Squid proxy servers
 
 WRKSRC=		${WRKDIR}/DansGuardian-2.6.1

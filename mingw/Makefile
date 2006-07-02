@@ -7,7 +7,7 @@ MASTER_SITES=		# empty
 DISTFILES=		# empty
 
 MAINTAINER=		pkgsrc-users@NetBSD.org
-HOMEPAGE=		http://mingw.sf.net/
+HOMEPAGE=		http://mingw.sourceforge.net/
 COMMENT=		GNU C Compiler for win32 cross development
 
 .include "../../wip/mingw-binutils/buildlink3.mk"

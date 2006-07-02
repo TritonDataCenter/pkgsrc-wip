@@ -3,10 +3,10 @@
 
 DISTNAME=	gxmms2-0.6.0
 CATEGORIES=	audio
-MASTER_SITES=	http://wejp.homelinux.org/wejp/xmms2/
+MASTER_SITES=	http://wejp.k.vu/projects/xmms2/
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
-HOMEPAGE=	http://wejp.homelinux.org/wejp/xmms2/
+HOMEPAGE=	http://wejp.k.vu/projects/xmms2/
 COMMENT=	Graphical GTK+2-based XMMS2 client
 
 NO_CONFIGURE=		yes
