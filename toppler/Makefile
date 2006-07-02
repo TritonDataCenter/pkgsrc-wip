@@ -10,7 +10,9 @@ HOMEPAGE=		http://toppler.sourceforge.net/
 COMMENT=		Tower climbing game
 
 GNU_CONFIGURE=		YES
+USE_LANGUAGES=		c c++
 
+.include "../../devel/gettext-lib/buildlink3.mk"
 .include "../../devel/zlib/buildlink3.mk"
 .include "../../audio/SDL_mixer/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
