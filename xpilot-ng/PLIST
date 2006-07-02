@@ -1,7 +1,9 @@
 @comment $NetBSD$
-bin/xpilot-ng-x11
-bin/xpilot-ng-server
 bin/xpilot-ng-replay
+bin/xpilot-ng-sdl
+bin/xpilot-ng-server
+bin/xpilot-ng-x11
+bin/xpilot-ng-xp-mapedit
 share/xpilot-ng/defaults.txt
 share/xpilot-ng/fonts/ConsoleFont.bmp
 share/xpilot-ng/fonts/FreeSansBoldOblique.ttf
