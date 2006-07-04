@@ -13,8 +13,10 @@ man/man8/rorrim.sh.8
 sbin/crypt.sh
 sbin/dump-here.sh
 sbin/dump.sh
+sbin/gzip.pl
 sbin/gzip.sh
 sbin/hist.sh
+sbin/mirror.pl
 sbin/mirror.sh
 sbin/monthday.sh
 sbin/rdup
