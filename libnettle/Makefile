@@ -5,7 +5,7 @@ PKGNAME=	lib${DISTNAME}
 #PKGREVISION=	1
 CATEGORIES=	devel security
 MASTER_SITES=	http://www.lysator.liu.se/~nisse/archive/ \
-		ftp://ftp.lysator.liu.se/pub/security/lsh
+		ftp://ftp.lysator.liu.se/pub/security/lsh/
 
 # created by cheusov@tut.by
 MAINTAINER=	pkgsrc-users@NetBSD.org
