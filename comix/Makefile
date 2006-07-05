@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		comix-3.2.1
+DISTNAME=		comix-3.3
 CATEGORIES=		graphics python
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=comix/}
 
