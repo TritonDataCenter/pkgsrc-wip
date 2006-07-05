@@ -107,7 +107,7 @@ CONFIGURE_ARGS+=	--with-${m:Q}
 
 pre-configure:
 	${MKDIR} -p ${WRKSRC} &&           \
-	cd ${PIKEDIR}/src; &&              \
+	cd ${PIKEDIR}/src &&              \
 	if ! test -f autoconfig.done; then \
 		./run_autoconfig . ./src ${MODULE_DIRS} && \
 		${TOUCH} autoconfig.done;  \
