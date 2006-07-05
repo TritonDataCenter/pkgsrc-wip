@@ -12,8 +12,8 @@ COMMENT=		Library to handle WBXML (Patched for MultiSync)
 
 WRKSRC=		${WRKDIR}/wbxml2-0.9.0
 USE_PKGLOCALEDIR=	yes
+USE_LANGUAGES=		c c++
 USE_LIBTOOL=		yes
-LIBTOOL_OVERRIDE=	${WRKSRC}/libtool
 GNU_CONFIGURE=		yes
 USE_TOOLS+=		automake
 
