@@ -12,9 +12,8 @@ COMMENT=		Tool to visualize disk space
 GNU_CONFIGURE=		yes
 USE_DIRS+=              xdg-1.2
 USE_PKGLOCALEDIR=       yes
-USE_TOOLS+=		gmake msgfmt pkg-config
+USE_TOOLS+=		gmake intltool msgfmt pkg-config
 
-.include "../../textproc/intltool/buildlink3.mk"
 .include "../../x11/gtk2/buildlink3.mk"
 .include "../../mk/x11.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

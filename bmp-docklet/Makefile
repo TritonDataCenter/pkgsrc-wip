@@ -12,10 +12,9 @@ COMMENT=		BMP Dock applet
 
 GNU_CONFIGURE=		YES
 USE_LIBTOOL=		YES
-USE_TOOLS+=			pkg-config
+USE_TOOLS+=		intltool pkg-config
 USE_PKGLOCALEDIR=	YES
 
 .include "../../audio/bmp/buildlink3.mk"
 # XXX Should we use BUILD_DEPENDS instead?
-.include "../../textproc/intltool/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
