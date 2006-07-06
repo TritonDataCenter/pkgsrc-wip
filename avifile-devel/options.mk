@@ -122,12 +122,12 @@ PLIST_SUBST+=		LAME_COMMENT="@comment "
 
 .if !empty(PKG_OPTIONS:Mac3_passthrough)
 .include "../../mk/oss.buildlink3.mk"
-.if ${OSS_TYPE} == "none"
+.  if ${OSS_TYPE} == "none"
 PKG_FAIL_REASON+=	"Need oss to use ac3passthrough"
-.else
+.  else
 CONFIGURE_ARGS+=	--enable-ac3passthrough
 PLIST_SUBST+=		AC3PASS_COMMENT=
-.endif
+.  endif
 .else
 CONFIGURE_ARGS+=	--disable-ac3passthrough
 PLIST_SUBST+=		AC3PASS_COMMENT="@comment "
@@ -142,6 +142,6 @@ PLIST_SUBST+=		JPEG_COMMENT="@comment "
 
 .if !empty(PKG_OPTIONS:Mmmx)
 CONFIGURE_ARGS+=	--enable-x86opt
-. else
+.else
 CONFIGURE_ARGS+=	--disable-x86opt
-. endif
+.endif
