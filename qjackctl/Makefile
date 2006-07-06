@@ -11,6 +11,7 @@ COMMENT=		Qt GUI interface to control the JACK sound server daemon
 
 USE_PKGLOCALEDIR=	yes
 USE_TOOLS+=		autoconf pkg-config
+USE_LANGUAGES=		c c++
 GNU_CONFIGURE=		yes
 
 .include "../../audio/jack/buildlink3.mk"
