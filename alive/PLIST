@@ -1,2 +1,6 @@
 @comment $NetBSD: PLIST,v 1.1 2002/01/07 10:13:18 skrll Exp $
-@comment This PLIST is intentionally left empty.
+etc/alive.conf
+info/alive.info
+man/man5/alive.conf.5
+man/man8/alive.8
+sbin/alive
