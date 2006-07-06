@@ -9,9 +9,10 @@ MAINTAINER=	oht@users.sourceforge.net
 HOMEPAGE=	http://www.gnu.org/software/alive/
 COMMENT=	Login software for Swedish Telia ADSL/Comhem cable Internet users
 
-AUTOMAKE_REQD=  1.7.1
+AUTOMAKE_REQD=	1.7.1
 MANCOMPRESSED=	yes
-GNU_CONFIGURE=  yes
+GNU_CONFIGURE=	yes
+INFO_FILES=	yes
 USE_TOOLS+=	automake
 
 LIBS.SunOS+=	-lnsl -lsocket
