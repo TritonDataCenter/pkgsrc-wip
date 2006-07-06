@@ -3,7 +3,7 @@
 DISTNAME=	gforge-3.1
 PKGREVISION=	1
 CATEGORIES=	www
-MASTER_SITES=	http://gforge.org/download.php/44/
+MASTER_SITES=	http://gforge.org/frs/download.php/44/
 
 MAINTAINER=	david@netbsd-fr.org
 HOMEPAGE=	http://www.gforge.org/
