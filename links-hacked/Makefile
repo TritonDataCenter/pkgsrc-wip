@@ -53,7 +53,7 @@ CONFIGURE_ARGS+=        --without-x
 .endif
 
 post-extract:
-	@${MV} ${WRKDIR}/font ${WRKSRC}
+	${MV} ${WRKDIR}/font ${WRKSRC}
 
 pre-configure:
 	cd ${WRKSRC} && aclocal
