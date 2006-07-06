@@ -1,6 +1,8 @@
+# $NetBSD$
+
 DISTNAME=		boinc
 PKGNAME=		boinc-lib-1
-CATEGORIES=		net wip
+CATEGORIES=		net
 
 COMMENT=		Libraries for the BOINC distributed computing application
 
