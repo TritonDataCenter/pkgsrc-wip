@@ -1,0 +1,12 @@
+$NetBSD$
+
+--- view_gr.c.orig	2003-05-06 22:04:32.000000000 +0000
++++ view_gr.c
+@@ -1402,6 +1402,7 @@ void draw_title(struct f_data_c *f)
+                                           bfu_bg_color);
+ 
+         tabs_end:
++		;
+         }
+ 
+ }
