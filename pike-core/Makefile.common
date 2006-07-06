@@ -1,6 +1,6 @@
 # $NetBSD$
 
-PIKE_VERSION=	7.6.75
+PIKE_VERSION=	7.6.86
 DISTNAME=	Pike-v${PIKE_VERSION}
 CATEGORIES=	lang
 MASTER_SITES=	ftp://pike.ida.liu.se/pub/pike/all/${PIKE_VERSION:Q}/
