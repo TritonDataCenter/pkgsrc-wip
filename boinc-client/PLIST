@@ -1,5 +1,5 @@
 @comment $NetBSD$
-bin/boinc_${PKGVERSION}
+bin/boinc_client
 bin/boinc_gui
 lib/libbenchmark.a
 share/examples/rc.d/boinc
