@@ -2,6 +2,7 @@
 
 DISTNAME=		muscleframework-1.1.5
 PKGNAME=		muscle-cflexplugin-1.1.5
+PKGREVISION=		1
 CATEGORIES=		security
 MASTER_SITES=		http://alioth.debian.org/download.php/463/
 
@@ -12,7 +13,9 @@ COMMENT=		CryptoFlex plugin for the MUSCLE framework
 WRKSRC=			${WRKDIR}/${DISTNAME}/CFlexPlugin
 GNU_CONFIGURE=		YES
 USE_LIBTOOL=		YES
-USE_TOOLS+=		automake gmake
+USE_TOOLS+=		gmake
+
+CPPFLAGS+=		-I${LOCALBASE}/include/PCSC
 
 CONTSRCDIR=	${WRKSRC}/src/slbCryptoflex.bundle/Contents/
 CONTDIR=	${PREFIX}/lib/pcsc-lite/drivers/slbCryptoflex.bundle/Contents
@@ -28,7 +31,7 @@ do-install:
 		${CONTSRCDIR}/Resources/English.lproj/InfoPlist.strings \
 		${CONTDIR}/Resources/English.lproj/InfoPlist.strings
 	${INSTALL_LIB_DIR} ${CONTLIBDIR}
-	${INSTALL_LIB} ${WRKSRC}/src/.libs/libcryptoflex.so ${CONTLIBDIR}
+	${LIBTOOL} --mode=install ${INSTALL_LIB} ${WRKSRC}/src/libcryptoflex.la ${CONTLIBDIR}
 
 .include "../../wip/libmusclecard/buildlink3.mk"
 .include "../../wip/pcsc-lite/buildlink3.mk"
