@@ -1,7 +1,7 @@
 $NetBSD$
 
---- Makefile.vars.orig	2004-06-19 04:53:38.000000000 +0200
-+++ Makefile.vars
+--- src/Makefile.vars.orig	2004-06-19 04:53:38.000000000 +0200
++++ src/Makefile.vars
 @@ -5,15 +5,14 @@
  #DFLAGS = -g -DCPU_DEBUG
  

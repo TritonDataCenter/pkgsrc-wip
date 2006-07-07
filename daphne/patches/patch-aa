@@ -1,7 +1,7 @@
 $NetBSD$
 
---- Makefile.orig	2002-12-17 07:28:37.000000000 +0100
-+++ Makefile
+--- src/Makefile.orig	2002-12-17 07:28:37.000000000 +0100
++++ src/Makefile
 @@ -8,10 +8,10 @@ include Makefile.vars
  
  # send these to all the sub-Makefiles

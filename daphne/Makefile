@@ -6,6 +6,7 @@ PKGNAME=		daphne-0.99.6c
 PKGREVISION=		1
 CATEGORIES=		emulators
 MASTER_SITES=		http://daphne.rulecity.com/download/
+MASTER_SITES+=		http://daphne.rulecity.com/download/old/
 
 MAINTAINER=		dillo@NetBSD.org
 HOMEPAGE=		http://daphne.rulecity.com/
@@ -13,8 +14,10 @@ COMMENT=		Emulator for Laserdisc arcade games
 
 WRKSRC=			${WRKDIR}/daphne
 USE_TOOLS+=		gmake
+USE_LANGUAGES+=		c++
 GNU_CONFIGURE=		YES
 CONFIGURE_DIRS=		src/vldp2
+BUILD_DIRS=		src
 
 MAKE_ENV+=		DATA_DIR=${LOCALBASE:Q}/share/daphne
 MAKE_ENV+=		LIB_DIR=${LOCALBASE:Q}/lib/daphne
