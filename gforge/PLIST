@@ -174,7 +174,6 @@ share/gforge/common/tracker/ArtifactsForUser.class
 share/gforge/contrib/autoconf/README.configure
 share/gforge/contrib/autoconf/configure
 share/gforge/contrib/autoconf/configure.ac
-share/gforge/contrib/autoconf/configure.ac.orig
 share/gforge/contrib/autoconf/local.inc.in
 share/gforge/contrib/autoconf/sample-apache.vhost.in
 share/gforge/contrib/beta1_install_from_scratch.txt
@@ -813,5 +812,6 @@ share/gforge/www/users
 @dirrm share/doc/gforge/xdocs
 @dirrm share/doc/gforge/images
 @dirrm share/doc/gforge/architecture/stats
+@dirrm share/doc/gforge/architecture
 @dirrm share/doc/gforge
 @dirrm etc/gforge
