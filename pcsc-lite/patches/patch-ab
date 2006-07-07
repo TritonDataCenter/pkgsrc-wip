@@ -1,8 +1,8 @@
 $NetBSD$
 
---- src/Makefile.am.orig	2006-02-15 16:45:57.000000000 +0100
+--- src/Makefile.am.orig	2006-03-28 16:45:22.000000000 +0000
 +++ src/Makefile.am
-@@ -92,3 +92,6 @@ tokenparser.c: tokenparser.l
+@@ -110,3 +110,6 @@ tokenparser.c: tokenparser.l
  
  EXTRA_DIST = README_INTERNALS.txt dyn_win32.c thread_win32.c winscard_scf.c
  
