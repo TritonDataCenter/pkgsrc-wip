@@ -11,6 +11,7 @@ COMMENT=		Tool to visualize disk space
 
 GNU_CONFIGURE=		yes
 USE_DIRS+=              xdg-1.2
+USE_LANGUAGES=		c c++
 USE_PKGLOCALEDIR=       yes
 USE_TOOLS+=		gmake intltool msgfmt pkg-config
 
