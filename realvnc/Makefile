@@ -27,6 +27,7 @@ GNU_CONFIGURE=		yes
 CONFIGURE_ARGS+=        --with-installed-zlib
 NO_INSTALL_MANPAGES=    yes
 
+USE_LANGUAGES=		c c++
 USE_TOOLS+=		perl:run
 REPLACE_PERL=		vncserver
 
