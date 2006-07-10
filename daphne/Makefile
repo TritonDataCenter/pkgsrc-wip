@@ -2,8 +2,7 @@
 #
 
 DISTNAME=		${PKGNAME_NOREV}-src
-PKGNAME=		daphne-0.99.6c
-PKGREVISION=		1
+PKGNAME=		daphne-0.99.7c
 CATEGORIES=		emulators
 MASTER_SITES=		http://daphne.rulecity.com/download/
 MASTER_SITES+=		http://daphne.rulecity.com/download/old/
@@ -29,6 +28,7 @@ MAKE_ENV+=		PFLAGS="-DNATIVE_CPU_X86 -DMMX_RGB2YUV"
 .include "../../audio/SDL_mixer/buildlink3.mk"
 .include "../../audio/libvorbis/buildlink3.mk"
 .include "../../devel/SDL/buildlink3.mk"
+.include "../../mk/dlopen.buildlink3.mk"
 
 post-extract:
 	${CP} ${WRKSRC:Q}/src/Makefile.vars.linux_x86 ${WRKSRC:Q}/src/Makefile.vars
