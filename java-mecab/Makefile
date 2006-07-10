@@ -6,7 +6,7 @@
 DISTNAME=	mecab-java-${MECAB_VERSION}
 PKGNAME=	java-mecab-${MECAB_VERSION}
 CATEGORIES=	japanese textproc java
-MASTER_SITES=	${MASTER_SITE_SOURCEFORGE_JP:=mecab/20901/}
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE_JP:=mecab/20922/}
 
 MAINTAINER=	obata@lins.jp
 HOMEPAGE=	http://mecab.sourceforge.jp/
