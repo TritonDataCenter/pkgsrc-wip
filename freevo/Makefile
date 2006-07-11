@@ -19,7 +19,7 @@ DEPENDS+=		${PYPKGPREFIX}-twisted-web>=0.5.0:../../wip/py-twisted-web
 PYDISTUTILSPKG=		yes
 USE_PKGLOCALEDIR=	yes
 
-PYTHON_VERSIONS_ACCEPTED=	23
+PYTHON_VERSIONS_ACCEPTED=	24 23
 
 .include "options.mk"
 
