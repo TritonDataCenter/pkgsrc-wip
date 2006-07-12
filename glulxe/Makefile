@@ -14,7 +14,10 @@ COMMENT=	Interpreter for Glulx text adventures
 WRKSRC=		${WRKDIR}/glulxe
 MAKE_ENV+=	BUILDLINK_DIR=${BUILDLINK_DIR:Q}
 
-.include "../../wip/glkloader/buildlink3.mk"
+PKG_OPTIONS_VAR=PKG_OPTIONS.glulxe
+.include "../../wip/glkloader/glk-options.mk"
+.include "../../mk/bsd.options.mk"
+.include "../../wip/glkloader/glk-depends.mk"
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/glulxe ${LOCALBASE}/bin

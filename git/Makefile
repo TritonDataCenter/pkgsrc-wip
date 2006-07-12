@@ -14,5 +14,9 @@ COMMENT=		Interpreter for Glulx interactive fiction
 WRKSRC=			${WRKDIR}/${PKGNAME_NOREV}
 MAKE_ENV+=		BUILDLINK_DIR=${BUILDLINK_DIR:Q}
 
-.include "../../wip/glkloader/buildlink3.mk"
+PKG_OPTIONS_VAR=	PKG_OPTIONS.git
+.include "../../wip/glkloader/glk-options.mk"
+.include "../../mk/bsd.options.mk"
+.include "../../wip/glkloader/glk-depends.mk"
+
 .include "../../mk/bsd.pkg.mk"

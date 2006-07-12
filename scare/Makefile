@@ -15,7 +15,11 @@ MAKE_ENV+=		BUILDLINK_DIR=${BUILDLINK_DIR:Q}
 
 DOCDIR=			${LOCALBASE}/share/doc/scare
 
-.include "../../wip/glkloader/buildlink3.mk"
+PKG_OPTIONS_VAR=PKG_OPTIONS.scare
+.include "../../wip/glkloader/glk-options.mk"
+.include "../../mk/bsd.options.mk"
+.include "../../wip/glkloader/glk-depends.mk"
+
 .include "../../devel/zlib/buildlink3.mk"
 
 do-install:
