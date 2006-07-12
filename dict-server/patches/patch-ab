@@ -1,6 +1,6 @@
 $NetBSD$
 
---- libmaa/configure.orig	Tue Jul  4 01:37:28 2006
+--- libmaa/configure.orig	2006-07-04 01:37:28.000000000 +0300
 +++ libmaa/configure
 @@ -1320,6 +1320,8 @@ echo Configuring for libmaa $MAA_MAJOR.$
  echo .

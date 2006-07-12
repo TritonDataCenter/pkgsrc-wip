@@ -23,7 +23,7 @@ PKG_USERS=	${DICTD_USER}:${DICTD_GROUP}::Dictionary\ protocol\ server\ user:/non
 RCD_SCRIPTS=	dictd
 
 # for -L /var/log/dictd/<filename_or_pattern>
-OWN_DIRS_PERMS=         ${VARBASE}/log/dictd ${DICTD_USER} ${DICTD_GROUP} 0750
+OWN_DIRS_PERMS=	${VARBASE}/log/dictd ${DICTD_USER} ${DICTD_GROUP} 0750
 
 
 BUILD_TARGET=	dictd dictzip
@@ -36,8 +36,7 @@ CONF_FILES=	${EGDIR}/dictd.conf \
 
 post-install:
 	${INSTALL_DATA_DIR} ${EGDIR}
-	${SED} "s#/usr/lib/dict#${PREFIX}/share/dictd#" \
-		${WRKSRC}/examples/dictd1.conf >${EGDIR}/dictd.conf
+	${INSTALL_DATA_DIR} ${WRKSRC}/examples/dictd1.conf ${EGDIR}/dictd.conf
 	${INSTALL_DATA_DIR} ${PREFIX}/share/dictd
 
 .include "../../devel/zlib/buildlink3.mk"
