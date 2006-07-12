@@ -10,11 +10,11 @@ $NetBSD: MESSAGE,v 1.6 2005/11/01 12:22:24 abs Exp $
       ${PREFIX}/${RCD_SCRIPTS_EXAMPLEDIR}/dictd
    fi
 
-2) By default dictd uses syslog for logging and use /usr/bin/m4 for
-   preprocessing configuration file. If you want to replace this default
+2) By default dictd uses '/usr/bin/m4 -P' for
+   preprocessing configuration file. If you dislike this default
    add dictd_flags='<your options>' to /etc/rc.conf.
 
 3) ${VARBASE}/log/dictd is a preferred directory for logging unless
-   syslog is used (the default).
+   syslog is used.
 
 ===========================================================================
