@@ -16,6 +16,7 @@ CONFIGURE_ARGS+=	--with-cflags=${CFLAGS:M*:Q}
 CONFIGURE_ARGS+=	--disable-plugin
 
 MESSAGE_SUBST+=		VARBASE="${VARBASE}"
+INSTALLATION_DIRS+=	share/dictd
 
 PKG_GROUPS=			${DICTD_GROUP}
 PKG_USERS=			${DICTD_USER}:${DICTD_GROUP}
@@ -38,7 +39,6 @@ CONF_FILES=	${EGDIR}/dictd.conf \
 post-install:
 	${INSTALL_DATA_DIR} ${EGDIR}
 	${INSTALL_DATA} ${.CURDIR}/files/dictd.conf ${EGDIR}/
-	${INSTALL_DATA_DIR} ${PREFIX}/share/dictd
 
 .include "../../devel/zlib/buildlink3.mk"
 
