@@ -13,6 +13,7 @@ COMMENT=	Dictionary Service Protocol server
 USE_TOOLS+=		gmake yacc
 GNU_CONFIGURE=		yes
 CONFIGURE_ARGS+=	--with-cflags=${CFLAGS:M*:Q}
+CONFIGURE_ARGS+=	--disable-plugin
 
 MESSAGE_SUBST+=		VARBASE="${VARBASE}"
 
