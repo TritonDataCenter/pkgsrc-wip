@@ -36,7 +36,7 @@ CONF_FILES=	${EGDIR}/dictd.conf \
 
 post-install:
 	${INSTALL_DATA_DIR} ${EGDIR}
-	${INSTALL_DATA_DIR} ${WRKSRC}/examples/dictd1.conf ${EGDIR}/dictd.conf
+	${INSTALL_DATA} ${WRKSRC}/examples/dictd1.conf ${EGDIR}/dictd.conf
 	${INSTALL_DATA_DIR} ${PREFIX}/share/dictd
 
 .include "../../devel/zlib/buildlink3.mk"
