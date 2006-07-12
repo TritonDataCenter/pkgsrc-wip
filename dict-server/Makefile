@@ -1,13 +1,12 @@
-# $NetBSD: Makefile,v 1.22 2006/06/20 22:38:32 minskim Exp $
+# $NetBSD$
 
 DISTNAME=	dictd-1.10.6
 PKGNAME=	dict-server-1.10.6
-PKGREVISION=	1
 CATEGORIES=	textproc
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=dict/} \
 		ftp://ftp.dict.org/pub/dict/
 
-MAINTAINER=	mike@ethmoid.org
+MAINTAINER=	cheusov@tut.by
 HOMEPAGE=	http://www.dict.org/
 COMMENT=	Dictionary Service Protocol server
 
@@ -17,8 +16,9 @@ CONFIGURE_ARGS+=	--with-cflags=${CFLAGS:M*:Q}
 
 MESSAGE_SUBST+=		VARBASE="${VARBASE}"
 
-PKG_GROUPS=	${DICTD_GROUP}
-PKG_USERS=	${DICTD_USER}:${DICTD_GROUP}::Dictionary\ protocol\ server\ user:/nonexistent:${NOLOGIN}
+PKG_GROUPS=			${DICTD_GROUP}
+PKG_USERS=			${DICTD_USER}:${DICTD_GROUP}
+PKG_GECOS.${DICTD_USER}=	Dictionary\ protocol\ server\ user
 
 RCD_SCRIPTS=	dictd
 
