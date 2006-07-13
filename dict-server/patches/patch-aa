@@ -21,10 +21,12 @@ $NetBSD$
  
  fi;
  
-@@ -8115,6 +8115,8 @@ do
+@@ -8115,6 +8115,10 @@ do
  _ACEOF
  cat >>$CONFIG_STATUS <<\_ACEOF
    -recheck | --recheck | --rechec | --reche | --rech | --rec | --re | --r)
++    # Avoid regenerating for rechecks on pkgsrc
++    exit 0
 +    # Avoid regenerating for rechecks on pkgsrc
 +    exit 0
      ac_cs_recheck=: ;;
