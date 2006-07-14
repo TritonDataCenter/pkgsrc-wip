@@ -18,9 +18,9 @@ CONFIGURE_ARGS+=	--disable-plugin
 MESSAGE_SUBST+=		VARBASE="${VARBASE}"
 INSTALLATION_DIRS+=	share/dictd
 
-PKG_GROUPS=			${DICTD_GROUP}
-PKG_USERS=			${DICTD_USER}:${DICTD_GROUP}
-PKG_GECOS.${DICTD_USER}=	Dictionary\ protocol\ server\ user
+PKG_GROUPS=		dictd
+PKG_USERS=		dictd:dictd
+PKG_GECOS.dictd=	Dictionary\ protocol\ server\ user
 
 RCD_SCRIPTS=	dictd
 
