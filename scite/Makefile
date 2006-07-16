@@ -1,8 +1,8 @@
 # $NetBSD$
 #
 
-DISTNAME=		scite166
-PKGNAME=		scite-1.66
+DISTNAME=		scite170
+PKGNAME=		scite-1.70
 CATEGORIES=		editors
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=scintilla/}
 EXTRACT_SUFX=		.tgz
