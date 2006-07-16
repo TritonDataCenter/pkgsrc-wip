@@ -5,7 +5,7 @@ CATEGORIES=		sysutils
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=shed/}
 
 MAINTAINER=		lkundrak@skosi.org
-HOMEPAGE=		http://shed.sf.net/
+HOMEPAGE=		http://shed.sourceforge.net/
 COMMENT=		Simple curses-based hexadecimal editor
 
 GNU_CONFIGURE=		yes

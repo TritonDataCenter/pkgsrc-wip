@@ -11,7 +11,7 @@ DISTFILES=		${DISTNAME}_source.zip ${DISTNAME}_game.zip \
 EXTRACT_ONLY=		${DISTNAME}_source.zip ${DISTNAME}_game.zip
 
 MAINTAINER=		hernani@vecirex.net
-HOMEPAGE=		http://smclone.sf.net/
+HOMEPAGE=		http://smclone.sourceforge.net/
 COMMENT=		Super Mario (World) Clone using pretty 2D graphics
 
 GCC_REQD=		3.2

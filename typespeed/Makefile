@@ -4,10 +4,10 @@
 DISTNAME=		typespeed-0.4.4
 PKGREVISION=		2
 CATEGORIES=		games
-MASTER_SITES=		http://ls.purkki.org/typespeed/
+MASTER_SITES=		http://tobias.eyedacor.org/typespeed/
 
 MAINTAINER=		hernani@vecirex.net
-HOMEPAGE=		http://ls.purkki.org/typespeed/
+HOMEPAGE=		http://tobias.eyedacor.org/typespeed/
 COMMENT=		Game to measure your typing speed, with network mode
 
 MAKEFILE=		${FILESDIR}/Makefile

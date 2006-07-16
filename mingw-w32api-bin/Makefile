@@ -6,7 +6,7 @@ CATEGORIES=		cross
 MASTER_SITES=		${MASTER_SITE_MINGW}
 
 MAINTAINER=		pkgsrc-users@NetBSD.org
-HOMEPAGE=		http://mingw.sf.net/
+HOMEPAGE=		http://mingw.sourceforge.net/
 COMMENT=		GNU C Compiler for win32 cross development
 
 NO_BUILD=		yes

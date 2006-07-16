@@ -6,7 +6,7 @@ CATEGORIES=		wip sysutils
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=pbbuttons/}
 
 MAINTAINER=		pancake@phreaker.net
-HOMEPAGE=		http://pbbuttons.sf.net/
+HOMEPAGE=		http://pbbuttons.berlios.de/
 COMMENT=		Daemon to handle laptop specific features
 
 GNU_CONFIGURE=		YES

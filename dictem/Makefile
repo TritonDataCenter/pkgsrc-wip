@@ -8,7 +8,7 @@ MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=dictem/} \
                         http://www.mova.org/~cheusov/pub/dictem/
 
 MAINTAINER=		cheusov@tut.by
-HOMEPAGE=		http://www.freshmeat.net/projects/dictem/
+HOMEPAGE=		http://freshmeat.net/projects/dictem/
 COMMENT=		Dictionary client (RFC-2229) for [X]Emacs
 
 DEPENDS+=		dict-client>=1.9.14:../../textproc/dict-client

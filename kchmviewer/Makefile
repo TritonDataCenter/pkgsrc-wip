@@ -3,10 +3,10 @@
 
 DISTNAME=		kchmviewer-1.3
 CATEGORIES=		x11 misc
-MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=kchmviewer/}
+MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=kchmviewer/}
 
 MAINTAINER=		ianzag@mail.ru
-HOMEPAGE=		http://kchmviewer.sourceforge.net/
+HOMEPAGE=		http://www.kchmviewer.net/
 COMMENT=		KchmViewer is a chm (MS HTML help file format) viewer
 
 USE_TOOLS+=		gmake

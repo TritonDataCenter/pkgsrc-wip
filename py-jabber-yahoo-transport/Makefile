@@ -6,7 +6,7 @@ CATEGORIES=		chat python
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=xmpppy/}
 
 MAINTAINER=		eric@cirr.com
-HOMEPAGE=		http://xmpppy.sf.net/
+HOMEPAGE=		http://xmpppy.sourceforge.net/
 COMMENT=		Transport connecting Jabber to the AOL IM network
 
 #

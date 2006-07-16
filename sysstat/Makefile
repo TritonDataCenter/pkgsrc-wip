@@ -6,7 +6,7 @@ CATEGORIES=		sysutils
 MASTER_SITES=		${MASTER_SITE_SUNSITE:=system/status/}
 
 MAINTAINER=		reed@reedmedia.net
-HOMEPAGE=		http://perso.wanadoo.fr/sebastien.godard/
+HOMEPAGE=		http://perso.orange.fr/sebastien.godard/
 COMMENT=		System performance tools for Linux
 
 USE_TOOLS+=		gmake

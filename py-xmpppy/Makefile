@@ -6,7 +6,7 @@ CATEGORIES=		chat python
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=xmpppy/}
 
 MAINTAINER=		eric@cirr.com
-HOMEPAGE=		http://xmpppy.sf.net/
+HOMEPAGE=		http://xmpppy.sourceforge.net/
 COMMENT=		XMPP (Jabber) library for Python
 
 # DEPENDS+=               ${PYPKGPREFIX}-ZopeInterface>=3.0.1:../../devel/py-ZopeInterface

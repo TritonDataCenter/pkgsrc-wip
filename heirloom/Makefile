@@ -6,7 +6,7 @@ MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=heirloom/}
 EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	cheusov@tut.by
-HOMEPAGE=	http://heirloom.sf.net/
+HOMEPAGE=	http://heirloom.sourceforge.net/
 COMMENT=	Collection of standard Unix utilities
 
 USE_TOOLS+=	yacc lex

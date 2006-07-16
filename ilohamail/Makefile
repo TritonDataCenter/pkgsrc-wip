@@ -7,7 +7,7 @@ CATEGORIES=	mail www
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=ilohamail/}
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
-HOMEPAGE=	http://ilohamail.org/
+HOMEPAGE=	http://blog.ilohamail.org/
 COMMENT=	Light weight yet full featured multilingual webmail
 
 DEPENDS+=	${APACHE_PKG_PREFIX}-${PHP_PKG_PREFIX}>=4.3.0:../../www/ap-php

@@ -6,7 +6,7 @@ CATEGORIES=		wip x11 devel
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=gtk-server/}
 
 MAINTAINER=		pancake@phreaker.net
-HOMEPAGE=		http://gtk-server.sourceforge.net/
+HOMEPAGE=		http://www.gtk-server.org/
 COMMENT=		Small tool to enable GUI access for shell scripts
 
 USE_PKGLOCALEDIR=	yes

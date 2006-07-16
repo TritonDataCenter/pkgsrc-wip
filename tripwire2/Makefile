@@ -6,7 +6,7 @@ CATEGORIES=	security
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=tripwire/}
 
 MAINTAINER=	pancake@phreaker.net
-HOMEPAGE=	http://tripwire.sourceforge.net/
+HOMEPAGE=	http://sourceforge.net/projects/tripwire/
 COMMENT=	File and directory integrity checker
 
 WRKSRC=		${WRKDIR}/${DISTNAME}/src/

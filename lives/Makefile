@@ -8,7 +8,7 @@ MASTER_SITES=		http://www.xs4all.nl/%7Esalsaman/lives/current/
 EXTRACT_SUFX=		.tar.bz2
 
 MAINTAINER=		pancake@phreaker.net
-HOMEPAGE=		http://lives.sf.net/
+HOMEPAGE=		http://lives.sourceforge.net/
 COMMENT=		Linux Video Editing System
 
 DEPENDS+=	mplayer>=1.0rc1:../../multimedia/mplayer

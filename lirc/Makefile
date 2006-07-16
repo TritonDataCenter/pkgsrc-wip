@@ -7,7 +7,7 @@ MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=lirc/}
 EXTRACT_SUFX=		.tar.bz2
 
 MAINTAINER=		pancake@phreaker.net
-HOMEPAGE=		http://lirc.sourceforge.net/
+HOMEPAGE=		http://www.lirc.org/
 COMMENT=		Linux Infrared Remote Control
 
 USE_PKGLOCALEDIR=	yes
