@@ -16,11 +16,7 @@ include/gnokii/rlp-common.h
 include/gnokii/sms.h
 include/gnokii/statemachine.h
 include/gnokii/virtmodem.h
-lib/libgnokii.a
 lib/libgnokii.la
-lib/libgnokii.so
-lib/libgnokii.so.2
-lib/libgnokii.so.2.0.5
 lib/pkgconfig/gnokii.pc
 sbin/gnokiid
 sbin/mgnokiidev
