@@ -1,7 +1,7 @@
 # $NetBSD$
 
-DISTNAME=	dictd-1.10.6
-PKGNAME=	dict-server-1.10.6
+DISTNAME=	dictd-1.10.7
+PKGNAME=	dict-server-1.10.7
 CATEGORIES=	textproc
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=dict/} \
 		ftp://ftp.dict.org/pub/dict/
