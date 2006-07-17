@@ -50,3 +50,5 @@ share/locale/vi/LC_MESSAGES/xfce4-mixer.mo
 share/locale/zh_CN/LC_MESSAGES/xfce4-mixer.mo
 share/locale/zh_TW/LC_MESSAGES/xfce4-mixer.mo
 share/xfce4/panel-plugins/xfce4-mixer.desktop
+@unexec ${RMDIR} %D/libexec/xfce4/panel-plugins 2>/dev/null || ${TRUE}
+@unexec ${RMDIR} %D/lib/xfce4/modules 2>/dev/null || ${TRUE}

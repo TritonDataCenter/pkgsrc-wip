@@ -2,7 +2,6 @@
 bin/xfce4-appfinder
 share/applications/xfce4-appfinder.desktop
 share/icons/hicolor/48x48/apps/xfce4-appfinder.png
-share/icons/hicolor/icon-theme.cache
 share/locale/be/LC_MESSAGES/xfce4-appfinder.mo
 share/locale/bn_IN/LC_MESSAGES/xfce4-appfinder.mo
 share/locale/ca/LC_MESSAGES/xfce4-appfinder.mo

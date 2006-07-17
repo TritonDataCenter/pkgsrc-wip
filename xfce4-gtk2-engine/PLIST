@@ -84,4 +84,4 @@ share/themes/Xfce/gtk-2.0/gtkrc
 @dirrm share/themes/Xfce-4.2
 @dirrm share/themes/Xfce-4.0/gtk-2.0
 @dirrm share/themes/Xfce-4.0
-@dirrm share/themes/Xfce
+@unexec ${RMDIR} %D/share/themes/Xfce 2>/dev/null || ${TRUE}
