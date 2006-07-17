@@ -1,7 +1,7 @@
 # $NetBSD$
 
 DISTNAME=		jetty-5.1.10
-CATEGORIES=		www
+CATEGORIES=		www java
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=jetty/}
 EXTRACT_SUFX=		.zip
 
