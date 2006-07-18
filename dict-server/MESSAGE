@@ -8,4 +8,8 @@ $NetBSD: MESSAGE,v 1.6 2005/11/01 12:22:24 abs Exp $
 2) ${VARBASE}/log/dictd is a preferred directory for logging unless
    syslog is used.
 
+3) See ${PREFIX}/share/doc/${PKGBASE}/NEWS file for upstream news.
+4) See ${PREFIX}/share/examples/${PKGBASE}/ directory
+   for samples of configuration files.
+
 ===========================================================================
