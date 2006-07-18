@@ -1,6 +1,6 @@
 # $NetBSD$
 
-BROKEN=		Hangs during installation
+#BROKEN=		Hangs during installation
 
 .include "../../wip/xfce4/Makefile.common"
 

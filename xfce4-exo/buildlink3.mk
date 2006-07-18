@@ -16,8 +16,7 @@ BUILDLINK_API_DEPENDS.xfce4-exo+=	xfce4-exo>=0.3.1.8beta2
 BUILDLINK_PKGSRCDIR.xfce4-exo?=	../../wip/xfce4-exo
 .endif	# XFCE4_EXO_BUILDLINK3_MK
 
-.include "../../wip/libxfce4gui/buildlink3.mk"
-.include "../../wip/libxfce4mcs/buildlink3.mk"
+.include "../../wip/xfce4-mcs-plugins/buildlink3.mk"
 .include "../../wip/xfce4-dev-tools/buildlink3.mk"
 .include "../../devel/glib2/buildlink3.mk"
 

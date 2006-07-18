@@ -30,7 +30,7 @@ do-install:
 ## .include "../../wip/xfce4-mousepad/buildlink3.mk"
 .include "../../wip/xfce4-panel/buildlink3.mk"
 .include "../../wip/xfce4-session/buildlink3.mk"
-## .include "../../wip/xfce4-terminal/buildlink3.mk"
+.include "../../wip/xfce4-terminal/buildlink3.mk"
 .include "../../wip/xfce4-utils/buildlink3.mk"
 
 .include "../../mk/bsd.pkg.mk"

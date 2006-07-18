@@ -1,7 +1,5 @@
 # $NetBSD$
 
-BROKEN=		Must fix xfce4-exo first
-
 .include "../../wip/xfce4/Makefile.common"
 
 XFCE4_VERSION=	0.2.5.4beta2
@@ -12,5 +10,6 @@ CATEGORIES=	x11
 COMMENT=	Xfce terminal emulator
 
 .include "../../wip/xfce4-exo/buildlink3.mk"
+.include "../../x11/vte/buildlink3.mk"
 .include "../../mk/pthread.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
