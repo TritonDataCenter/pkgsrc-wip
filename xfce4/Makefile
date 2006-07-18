@@ -27,7 +27,7 @@ do-install:
 .include "../../wip/xfce4-wm-themes/buildlink3.mk"
 .include "../../wip/xfce4-desktop/buildlink3.mk"
 .include "../../wip/xfce4-gtk2-engine/buildlink3.mk"
-## .include "../../wip/xfce4-mousepad/buildlink3.mk"
+.include "../../wip/xfce4-mousepad/buildlink3.mk"
 .include "../../wip/xfce4-panel/buildlink3.mk"
 .include "../../wip/xfce4-session/buildlink3.mk"
 .include "../../wip/xfce4-terminal/buildlink3.mk"

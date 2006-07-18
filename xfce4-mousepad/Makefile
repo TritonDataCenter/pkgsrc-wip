@@ -1,7 +1,5 @@
 # $NetBSD$
 
-BROKEN=		Hangs during installation
-
 .include "../../wip/xfce4/Makefile.common"
 
 XFCE4_VERSION=	0.2.6
