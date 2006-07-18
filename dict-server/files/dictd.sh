@@ -8,7 +8,7 @@
 . /etc/rc.subr
 
 name="dictd"
-dictd_flags=${dictd_flags-"--pp '/usr/bin/m4 -P'"}
+dictd_flags=${dictd_flags-"--pp '@PATH_TO_M4@ -P'"}
 rcvar=$name
 command="@PREFIX@/sbin/${name}"
 pidfile="/var/run/${name}.pid"

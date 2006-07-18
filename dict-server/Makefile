@@ -10,19 +10,22 @@ MAINTAINER=	cheusov@tut.by
 HOMEPAGE=	http://www.dict.org/
 COMMENT=	Dictionary Service Protocol server
 
-USE_TOOLS+=		gmake yacc
+USE_TOOLS+=		gmake yacc m4:run
 GNU_CONFIGURE=		yes
 CONFIGURE_ARGS+=	--with-cflags=${CFLAGS:M*:Q}
 CONFIGURE_ARGS+=	--disable-plugin
 
 MESSAGE_SUBST+=		VARBASE="${VARBASE}"
+MESSAGE_SUBST+=		PATH_TO_M4="${TOOLS_PATH.m4}"
+FILES_SUBST+=		PATH_TO_M4="${TOOLS_PATH.m4}"
+
 INSTALLATION_DIRS+=	share/dictd
 
 PKG_GROUPS=		dictd
 PKG_USERS=		dictd:dictd
 PKG_GECOS.dictd=	Dictionary\ protocol\ server\ user
 
-RCD_SCRIPTS=	dictd
+RCD_SCRIPTS=		dictd
 
 # for -L /var/log/dictd/<filename_or_pattern>
 OWN_DIRS_PERMS=	${VARBASE}/log/dictd ${DICTD_USER} ${DICTD_GROUP} 0750
