@@ -1,7 +1,5 @@
 # $NetBSD$
 
-BROKEN=		Must fix xfce4-exo first
-
 .include "../../wip/xfce4/Makefile.common"
 
 XFCE4_VERSION=	0.3.2beta2
@@ -13,6 +11,7 @@ COMMENT=	Xfce file manager
 
 DEPENDS+=	p5-XML-Parser-[0-9]*:../../textproc/p5-XML-Parser
 
+.include "../../graphics/hicolor-icon-theme/buildlink3.mk"
 .include "../../wip/xfce4-exo/buildlink3.mk"
 .include "../../mk/pthread.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
