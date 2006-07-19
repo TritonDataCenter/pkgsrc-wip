@@ -11,6 +11,7 @@ COMMENT=	Xfce extension library
 
 DEPENDS+=	p5-URI>=0:../../www/p5-URI
 
+.include "../../graphics/hicolor-icon-theme/buildlink3.mk"
 .include "../../wip/xfce4-mcs-plugins/buildlink3.mk"
 .include "../../lang/python/application.mk"
 .include "../../mk/pthread.buildlink3.mk"

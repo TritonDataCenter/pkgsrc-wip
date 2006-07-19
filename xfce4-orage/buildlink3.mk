@@ -16,6 +16,7 @@ BUILDLINK_API_DEPENDS.xfce4-orage+=	xfce4-orage>=4.3.90.2
 BUILDLINK_PKGSRCDIR.xfce4-orage?=	../../wip/xfce4-orage
 .endif	# XFCE4_ORAGE_BUILDLINK3_MK
 
+.include "../../graphics/hicolor-icon-theme/buildlink3.mk"
 .include "../../wip/xfce4-panel/buildlink3.mk"
 .include "../../wip/xfce4-dev-tools/buildlink3.mk"
 .include "../../devel/glib2/buildlink3.mk"

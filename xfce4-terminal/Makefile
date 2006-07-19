@@ -9,6 +9,7 @@ PKGNAME=	xfce4-terminal-${XFCE4_VERSION}
 CATEGORIES=	x11
 COMMENT=	Xfce terminal emulator
 
+.include "../../graphics/hicolor-icon-theme/buildlink3.mk"
 .include "../../wip/xfce4-exo/buildlink3.mk"
 .include "../../x11/vte/buildlink3.mk"
 .include "../../mk/pthread.buildlink3.mk"

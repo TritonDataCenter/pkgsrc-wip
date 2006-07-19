@@ -16,6 +16,7 @@ BUILDLINK_API_DEPENDS.xfce4-terminal+=	xfce4-terminal>=0.2.5.4beta2
 BUILDLINK_PKGSRCDIR.xfce4-terminal?=	../../wip/xfce4-terminal
 .endif	# XFCE4_TERMINAL_BUILDLINK3_MK
 
+.include "../../graphics/hicolor-icon-theme/buildlink3.mk"
 .include "../../wip/xfce4-exo/buildlink3.mk"
 .include "../../x11/vte/buildlink3.mk"
 .include "../../wip/xfce4-dev-tools/buildlink3.mk"

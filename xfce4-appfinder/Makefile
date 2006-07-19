@@ -6,5 +6,6 @@ DISTNAME=	xfce4-appfinder-${XFCE4_VERSION}
 CATEGORIES=	sysutils
 COMMENT=	Xfce application finder
 
+.include "../../graphics/hicolor-icon-theme/buildlink3.mk"
 .include "../../wip/libxfce4gui/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

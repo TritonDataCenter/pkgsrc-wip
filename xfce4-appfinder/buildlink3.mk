@@ -16,6 +16,7 @@ BUILDLINK_API_DEPENDS.xfce4-appfinder+=	xfce4-appfinder>=4.3.90.2
 BUILDLINK_PKGSRCDIR.xfce4-appfinder?=	../../wip/xfce4-appfinder
 .endif	# XFCE4_APPFINDER_BUILDLINK3_MK
 
+.include "../../graphics/hicolor-icon-theme/buildlink3.mk"
 .include "../../wip/libxfce4gui/buildlink3.mk"
 .include "../../wip/xfce4-dev-tools/buildlink3.mk"
 .include "../../devel/glib2/buildlink3.mk"
