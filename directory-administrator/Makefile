@@ -14,7 +14,6 @@ USE_DIRS+=		gnome1-1.5
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 USE_TOOLS+=		gmake
-USE_GNU_GETTEXT=	yes
 
 .include "../../x11/gtk/buildlink3.mk"
 .include "../../x11/gnome-libs/buildlink3.mk"
