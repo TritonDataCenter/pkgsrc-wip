@@ -1,5 +1,0 @@
-@comment $NetBSD$
-include/libintl.h
-lib/charset.alias
-lib/libintl.la
-share/locale/locale.alias

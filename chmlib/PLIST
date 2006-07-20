@@ -1,4 +1,0 @@
-@comment $NetBSD$
-include/chm_lib.h
-include/lzx.h
-lib/libchm.la
