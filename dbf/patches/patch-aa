@@ -1,6 +1,6 @@
 $NetBSD$
 
---- Makefile.orig	Wed Nov 12 13:36:13 2003
+--- Makefile.orig	2004-04-17 07:08:50.000000000 +0900
 +++ Makefile
 @@ -18,8 +18,10 @@ all: 
  install:
@@ -8,7 +8,7 @@ $NetBSD$
  	@(echo -en "Copying dbf to $(PREFIX)... ");
 -	@(install -d $(PREFIX)/bin)
 -	cp $(DIRS)/$(BIN) $(PREFIX)/bin
-+	${BSD_INSTALL_DATA_DIR} $(PREFIX)/bin
++	${BSD_INSTALL_PROGRAM_DIR} $(PREFIX)/bin
 +	${BSD_INSTALL_PROGRAM} $(DIRS)/$(BIN) $(PREFIX)/bin
 +	${BSD_INSTALL_DATA_DIR} $(PREFIX)/share/doc/dbf
 +	${BSD_INSTALL_DATA} $(DOC) $(PREFIX)/share/doc/dbf/
