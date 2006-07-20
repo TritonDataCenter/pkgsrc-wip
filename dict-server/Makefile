@@ -26,7 +26,7 @@ PKG_GECOS.dictd=	Dictionary\ protocol\ server\ user
 RCD_SCRIPTS=		dictd
 
 # for -L /var/log/dictd/<filename_or_pattern>
-OWN_DIRS_PERMS=	${VARBASE}/log/dictd ${DICTD_USER} ${DICTD_GROUP} 0750
+OWN_DIRS_PERMS=	${VARBASE}/log/dictd dictd dictd 0750
 
 
 BUILD_TARGET=	dictd dictzip dictfmt
