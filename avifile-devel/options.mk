@@ -75,11 +75,13 @@ PLIST_SUBST+=		VORBIS_COMMENT="@comment "
 CONFIGURE_ARGS+=	--enable-xvid4 \
 			--with-xvid4-prefix=${BUILDLINK_PREFIX.xvidcore:Q}
 PLIST_SUBST+=		XVID_COMMENT=
+
 SUBST_CLASSES+=		xvidlib
 SUBST_STAGE.xvidlib=	pre-configure
 SUBST_MESSAGE.xvidlib=	add -lm to XVID4LIBS
 SUBST_FILES.xvidlib=	configure
 SUBST_SED.xvidlib=	-e 's|XVID4_LIBS -lxvidcore|XVID4_LIBS -Wl,-lxvidcore -lm|'
+
 .else
 CONFIGURE_ARGS+=	--disable-xvid4 \
 			--without-xvid4-prefix
