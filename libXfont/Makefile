@@ -16,7 +16,6 @@ USE_TOOLS+=		pkg-config
 
 PKGCONFIG_OVERRIDE+=	xfont.pc.in
 
-.include "../../wip/libX11/buildlink3.mk"
 .include "../../devel/zlib/buildlink3.mk"
 .include "../../graphics/freetype2/buildlink3.mk" ## configure doesn't check for this
 .include "../../wip/fontcacheproto/buildlink3.mk"
