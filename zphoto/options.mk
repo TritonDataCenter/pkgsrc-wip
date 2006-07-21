@@ -14,8 +14,6 @@ CONFIGURE_ARGS+=	--disable-magick
 .elif !empty(PKG_OPTIONS:Mmagick)
 .  include "../../graphics/ImageMagick/buildlink3.mk"
 CONFIGURE_ARGS+=	--disable-imlib2
-.else
-PKG_FAIL_REASON+=	"${PKG_OPTIONS_VAR} must contain one of \"imlib2\" or \"magick\"!"
 .endif
 
 .if !empty(PKG_OPTIONS:Mzip)
