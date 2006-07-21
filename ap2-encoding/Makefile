@@ -13,7 +13,7 @@ DISTFILE.main=	mod_encoding-20021209.tar.gz
 DISTFILE.ap2=	mod_encoding.c.apache2.20040616
 DISTFILES=	${DISTFILE.main} ${DISTFILE.ap2}
 EXTRACT_ONLY=	${DISTFILE.main}
-SITES_${DISTFILE.ap2}=	http://webdav.todo.gr.jp/download/experimental/
+SITES.${DISTFILE.ap2}=	http://webdav.todo.gr.jp/download/experimental/
 
 USE_TOOLS+=	gmake
 USE_LIBTOOL=	yes
