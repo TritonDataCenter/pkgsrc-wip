@@ -10,7 +10,7 @@ MAINTAINER=	reed@reedmedia.net
 HOMEPAGE=	http://medernac.home.cern.ch/medernac/SpeedX/index_en.html
 COMMENT=	Car racing game for X
 
-SITES_mercrain.s3m.zip=	http://www.modarchive.com/cgi-bin/download.cgi/M/
+SITES.mercrain.s3m.zip=	http://www.modarchive.com/cgi-bin/download.cgi/M/
 
 GNU_CONFIGURE=	YES
 USE_TOOLS+=	gmake

@@ -7,8 +7,8 @@ MASTER_SITES=		http://www.haskell.org/happy/dist/
 DISTFILES=		${DISTNAME}-src.tar.gz
 DISTFILES+=		${DISTNAME}-html.tar.gz
 DISTFILES+=		happy.ps.gz
-SITES_${DISTNAME}-html.tar.gz=	http://www.haskell.org/happy/doc/
-SITES_happy.ps.gz=		http://www.haskell.org/happy/doc/ps/
+SITES.${DISTNAME}-html.tar.gz=	http://www.haskell.org/happy/doc/
+SITES.happy.ps.gz=		http://www.haskell.org/happy/doc/ps/
 
 MAINTAINER=		emil@math.su.se
 HOMEPAGE=		http://www.haskell.org/happy/dist/

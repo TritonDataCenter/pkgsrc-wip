@@ -15,7 +15,7 @@ USE_TOOLS+=		gmake
 USE_LIBTOOL=		YES
 GNU_CONFIGURE=		YES
 
-SITES_frabs210_unix.src.tar.bz2=	http://www.cs.uidaho.edu/~cass0664/fRaBs/
+SITES.frabs210_unix.src.tar.bz2=	http://www.cs.uidaho.edu/~cass0664/fRaBs/
 
 CPPFLAGS+=		-DPREFIX=\"${PREFIX:Q}\"
 

@@ -7,8 +7,8 @@ MASTER_SITES=	http://www.haskell.org/alex/dist/
 DISTFILES=	${DISTNAME}-src.tar.gz
 DISTFILES+=	alex-html.tar.gz
 DISTFILES+=	alex.ps
-SITES_alex-html.tar.gz=http://www.haskell.org/alex/doc/
-SITES_alex.ps=http://www.haskell.org/alex/doc/
+SITES.alex-html.tar.gz=http://www.haskell.org/alex/doc/
+SITES.alex.ps=http://www.haskell.org/alex/doc/
 
 MAINTAINER=	emil@math.su.se
 HOMEPAGE=	http://www.haskell.org/alex/
