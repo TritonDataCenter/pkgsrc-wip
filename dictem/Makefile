@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=		dictem-0.8
+DISTNAME=		dictem-0.81
 PKGNAME=		${EMACS_PKGNAME_PREFIX}${DISTNAME}
 #PKGREVISION=		1
 CATEGORIES=		textproc editors
