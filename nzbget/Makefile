@@ -12,7 +12,7 @@ COMMENT=		Binary newsreader with NZB support
 
 USE_TOOLS+=	        gmake
 USE_TOOLS+=		autoconf
-USE_LANGUAGES+=		c++
+USE_LANGUAGES+=		c++ c
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 
@@ -31,4 +31,5 @@ post-install:
 .include "../../mk/curses.buildlink3.mk"
 .include "../../converters/uulib/buildlink3.mk"
 .include "../../textproc/libxml2/buildlink3.mk"
+.include "../../devel/zlib/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
