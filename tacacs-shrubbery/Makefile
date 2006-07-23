@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	tacacs+-F4.0.4.10
+DISTNAME=	tacacs+-F4.0.4.11
 PKGNAME=	${DISTNAME:S,tacacs+,tacacs,}
 CATEGORIES=	net security
 MASTER_SITES=	ftp://ftp.shrubbery.net/pub/tac_plus/
