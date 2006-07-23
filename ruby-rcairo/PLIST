@@ -1,0 +1,4 @@
+@comment $NetBSD$
+${RUBY_SITELIBDIR}/cairo.rb
+${RUBY_SITEARCHLIBDIR}/cairo.${RUBY_DLEXT}
+${RUBY_SITEARCHLIBDIR}/rb_cairo.h
