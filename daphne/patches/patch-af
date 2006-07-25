@@ -10,6 +10,15 @@ $NetBSD$
  
  using namespace std;
  
+@@ -138,7 +139,7 @@ bool init_display()
+ 			SDL_WM_SetCaption("DAPHNE: First Ever Multiple Arcade Laserdisc Emulator =]", "daphne");
+ 			
+ 			// initialize SDL console in the background
+-			if (ConsoleInit("pics/ConsoleFont.bmp", g_screen, 100)==0)
++			if (ConsoleInit(find_data_file("pics/ConsoleFont.bmp"), g_screen, 100)==0)
+ 			{
+ 				AddCommand(g_cpu_break, "break");
+ 				g_console_initialized = true;
 @@ -243,7 +244,7 @@ bool load_bmps()
  
  SDL_Surface *load_one_bmp(char *filename)

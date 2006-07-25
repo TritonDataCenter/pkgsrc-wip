@@ -45,8 +45,19 @@ do-install:
 	done
 	${INSTALL_DATA_DIR} ${PREFIX:Q}/share/daphne/sound
 	set -e;								\
-	for f in ${WRKSRC:Q}/sound/*.wav; do				\
+	for f in ${WRKSRC:Q}/sound/*.wav ${WRKSRC:Q}/sound/*.ogg; do	\
 		${INSTALL_DATA} "$$f" ${PREFIX:Q}/share/daphne/sound/;	\
+	done
+	${INSTALL_DATA_DIR} ${PREFIX:Q}/share/doc/daphne
+	${INSTALL_DATA} ${WRKSRC:Q}/doc/docs.html \
+		${PREFIX:Q}/share/doc/daphne/index.html
+	${INSTALL_DATA_DIR} ${PREFIX:Q}/share/doc/daphne/graphics
+	set -e;								\
+	for f in ${WRKSRC:Q}/doc/docs_files/*.[Jj][Pp][Gg]; do		\
+		n=`basename "$$f"`;					\
+		n=`echo "$$n" | tr A-Z a-z`;				\
+		${INSTALL_DATA} "$$f"					\
+			${PREFIX:Q}/share/doc/daphne/graphics/"$$n";	\
 	done
 
 .include "../../mk/bsd.pkg.mk"
