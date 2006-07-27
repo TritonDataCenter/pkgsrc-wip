@@ -1,19 +1,19 @@
 # $NetBSD$
 
-DISTNAME=	ldp-0.0.2
+DISTNAME=	ldp-0.1
 CATEGORIES=	net
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=ldp/}
 
 MAINTAINER=	kefren@NetBSD.ro
-HOMEPAGE=	http://www.ietf.org/rfc/rfc3036.txt
-COMMENT=	Label Distribution Protocol
+HOMEPAGE=	http://ldp.sf.net/
+COMMENT=	Label Distribution Protocol Daemon
 
 WRKSRC=		${WRKDIR}/ldp
 
 BUILD_TARGET=	# empty
 
 do-install:
-	${INSTALL_PROGRAM} ${WRKSRC}/ldp ${PREFIX}/bin
-	${INSTALL_MAN} ${WRKSRC}/ldp.8 ${PREFIX}/${PKGMANDIR}/man8
+	${INSTALL_PROGRAM} ${WRKSRC}/ldpd ${PREFIX}/bin
+	${INSTALL_MAN} ${WRKSRC}/ldpd.8 ${PREFIX}/${PKGMANDIR}/man8
 
 .include "../../mk/bsd.pkg.mk"
