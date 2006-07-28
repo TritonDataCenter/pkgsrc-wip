@@ -11,7 +11,7 @@ MAINTAINER=	obata@lins.jp
 HOMEPAGE=	http://mecab.sourceforge.jp/
 COMMENT=	MeCab ruby module
 
-USE_LANGUAGES+=	c++
+USE_LANGUAGES+=	c c++
 REPLACE_RUBY+=		test.rb
 RUBY_HAS_ARCHLIB=	yes
 USE_RUBY_EXTCONF=	yes
