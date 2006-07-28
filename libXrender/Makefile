@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		libXrender-0.9.0.2
+DISTNAME=		libXrender-0.9.1
 CATEGORIES=		x11 devel
 MASTER_SITES=		http://xorg.freedesktop.org/releases/individual/lib/
 EXTRACT_SUFX=		.tar.bz2
