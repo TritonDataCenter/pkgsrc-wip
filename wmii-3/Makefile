@@ -13,6 +13,8 @@ CONFLICTS+=		wmii-2.*
 
 NO_CONFIGURE=		yes
 
+LDFLAGS+=-L${X11BASE}/lib -Wl,-R${X11BASE}/lib
+
 SUBST_CLASSES     += vars pfx
 
 SUBST_STAGE.vars   = post-patch
@@ -33,7 +35,6 @@ SUBST_SED.pfx     += -e 's|/9||g'
 SUBST_SED.pfx     += -e 's|cc|${CC}|g'
 
 # TODO:
-#
 # This must probably be fixed. so no files were created in share/examples.
 # They-r strictly necessary? or is just ok to get them from the $SYSCONFDIR?
 #
