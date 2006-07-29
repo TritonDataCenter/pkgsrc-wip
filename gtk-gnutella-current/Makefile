@@ -1,7 +1,7 @@
 # $NetBSD$
 
 DISTNAME=		gtk-gnutella-${GTK_GNUTELLA_VER}
-PKGREVISION=		4
+PKGREVISION=		5
 CATEGORIES=		net
 MASTER_SITES=		# not defined
 
@@ -9,7 +9,7 @@ MAINTAINER=		lars.nordlund@hem.utfors.se
 HOMEPAGE=		http://gtk-gnutella.sourceforge.net/
 COMMENT=		GTK-based gnutella client, SVN snapshot
 
-USE_TOOLS+=		gmake
+USE_TOOLS+=		gmake msgfmt
 USE_PKGLOCALEDIR=	yes
 HAS_CONFIGURE=		yes
 CONFIGURE_SCRIPT=	./Configure
@@ -30,11 +30,13 @@ WRKSRC=			${WRKDIR}/gtk-gnutella
 
 NO_CHECKSUM=		yes
 
+USE_BUILTIN.gettext=	no
+
 .include "../../wip/gtk-gnutella-current/Makefile.version"
 
 .include "../../security/gnutls/buildlink3.mk"
 .include "../../textproc/libxml2/buildlink3.mk"
-.include "../../wip/gettext-tools/buildlink3.mk"
+.include "../../devel/gettext-lib/buildlink3.mk"
 .include "../../x11/gtk2/buildlink3.mk"
 
 .include "../../wip/mk/svn-package.mk"
