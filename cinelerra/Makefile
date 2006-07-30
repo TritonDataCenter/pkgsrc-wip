@@ -2,8 +2,8 @@
 #
 
 #DISTNAME=		cinelerra-1.2.0-src
-DISTNAME=		hvirtual_1.2.0-2cvs20040608
-PKGNAME=		cinelerra-1.2.0-2cvs20040608
+DISTNAME=		hvirtual_1.2.0-2cvs20040814
+PKGNAME=		cinelerra-1.2.0-2cvs20040814
 CATEGORIES=		multimedia
 # unofficial source is here
 MASTER_SITES=		http://www.kiberpipa.org/~minmax/cinelerra/builds/sid/
