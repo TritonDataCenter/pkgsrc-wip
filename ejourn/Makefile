@@ -1,10 +1,10 @@
 # $NetBSD$
 #
 
-DISTNAME=		ejourn-0.4.1
+DISTNAME=		ejourn-0.4.2
 CATEGORIES=		misc
-MASTER_SITES=		http://www.public.iastate.edu/~chris129/code/ejourn/
-EXTRACT_SUFX=	.tar.bz2
+MASTER_SITES=		http://www.public.iastate.edu/~chris129/code/ejourn/Downloads/
+EXTRACT_SUFX=		.tar.bz2
 
 MAINTAINER=		dhowland@users.sourceforge.net
 HOMEPAGE=		http://www.public.iastate.edu/~chris129/code/elog/
