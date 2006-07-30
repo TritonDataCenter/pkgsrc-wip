@@ -3,10 +3,11 @@
 
 DISTNAME=		NuppelVideo-0.52a
 CATEGORIES=		graphics audio
-MASTER_SITES=		http://frost.htu.tuwien.ac.at/~roman/nuppelvideo/
+MASTER_SITES=		${MASTER_SITE_FREEBSD_LOCAL:=arved/} \
+			http://frost.htu.tuwien.ac.at/~roman/nuppelvideo/
 
 MAINTAINER=		grant@NetBSD.org
-HOMEPAGE=		http://frost.htu.tuwien.ac.at/~roman/nuppelvideo/
+HOMEPAGE=		http://web.archive.org/web/20050305195413/http://frost.htu.tuwien.ac.at/~roman/nuppelvideo/
 COMMENT=		Fast and simple RTjpeg-based video capture program
 
 CFLAGS+=		${CPPFLAGS}
