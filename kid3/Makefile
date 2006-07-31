@@ -11,7 +11,7 @@ COMMENT=		KDE ID3 tagger
 
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
-USE_LANGUAGES+=		c++
+USE_LANGUAGES+=		c c++
 
 # Note: put app specific data files into kde dir
 CONFIGURE_ARGS+=	--datadir=${PREFIX}/share/kde
@@ -19,6 +19,6 @@ CONFIGURE_ARGS+=	--datadir=${PREFIX}/share/kde
 .include "../../meta-pkgs/kde3/kde3.mk"
 .include "../../audio/flac/buildlink3.mk"
 .include "../../audio/id3lib/buildlink3.mk"
-.include "../../audio/libtunepimp/buildlink3.mk"
+.include "../../audio/libtunepimp0.4/buildlink3.mk"
 .include "../../x11/kdelibs3/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
