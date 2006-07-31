@@ -6,7 +6,7 @@
 DISTNAME=	mecab-python-${MECAB_VERSION}
 PKGNAME=	${PYPKGPREFIX}-mecab-${MECAB_VERSION}
 CATEGORIES=	japanese textproc python
-MASTER_SITES=	${MASTER_SITE_SOURCEFORGE_JP:=mecab/20921/}
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE_JP:=mecab/21191/}
 
 MAINTAINER=	obata@lins.jp
 HOMEPAGE=	http://mecab.sourceforge.jp/
