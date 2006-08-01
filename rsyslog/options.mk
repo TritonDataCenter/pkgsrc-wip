@@ -12,8 +12,8 @@ FEATURE_LARGEFILE=		# empty
 .endif
 
 .if !empty(PKG_OPTIONS:Mmysql)
-CFLAGS+=			-DWITH_DB
-LDFLAGS+=			-lmysqlclient -L/usr/pkg/lib/mysql
-FEATURE_DB=			# empty
 .include "../../mk/mysql.buildlink3.mk"
+CFLAGS+=			-DWITH_DB
+LDFLAGS+=			-lmysqlclient
+FEATURE_DB=			# empty
 .endif
