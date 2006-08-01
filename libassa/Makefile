@@ -9,6 +9,8 @@ MAINTAINER=		bartosz@atom.eu.org
 HOMEPAGE=		http://libassa.sourceforge.net/
 COMMENT=		Networking library based on ACP
 
+USE_LANGUAGES+=		c++
+USE_LANGUAGES+=		fortran
 USE_LIBTOOL=		yes
 
 PKGCONFIG_OVERRIDE+=	${WRKSRC}/assa-3.4.pc.in
