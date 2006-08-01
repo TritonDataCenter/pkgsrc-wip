@@ -11,7 +11,7 @@ BUILDLINK_PACKAGES:=	${BUILDLINK_PACKAGES:Nlibassa}
 BUILDLINK_PACKAGES+=	libassa
 
 .if !empty(LIBASSA_BUILDLINK3_MK:M+)
-BUILDLINK_DEPENDS.libassa+=	libassa>=3.4.1
+BUILDLINK_API_DEPENDS.libassa+=	libassa>=3.4.1
 BUILDLINK_PKGSRCDIR.libassa?=	../../wip/libassa
 .endif	# LIBASSA_BUILDLINK3_MK
 
