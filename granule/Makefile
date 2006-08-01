@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		granule-1.2.0
+DISTNAME=		granule-1.2.1
 CATEGORIES=		misc
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=granule/}
 
@@ -12,6 +12,8 @@ COMMENT=		Program for Leitner methodology for learning new words
 BUILD_DEPENDS+=		p5-XML-Parser-[0-9]*:../../textproc/p5-XML-Parser
 
 USE_DIRS+=		xdg-1.1
+USE_LANGUAGES+=		c++
+USE_LANGUAGES+=		fortran
 USE_LIBTOOL=		yes
 USE_PKGLOCALEDIR=	yes
 
