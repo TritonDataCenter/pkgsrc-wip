@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		kbproto-1.0.2
+DISTNAME=		kbproto-1.0.3
 CATEGORIES=		x11
 MASTER_SITES=		http://xorg.freedesktop.org/releases/individual/proto/
 EXTRACT_SUFX=		.tar.bz2
