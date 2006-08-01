@@ -1,4 +1,4 @@
-#!/bin/sh
+#!@RCD_SCRIPTS_SHELL@
 #
 # $NetBSD$
 # NetBSD: syslogd,v 1.15 2004/10/11 13:29:52 lukem Exp
