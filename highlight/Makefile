@@ -14,7 +14,6 @@ USE_LANGUAGES=		c++
 MANCOMPRESSED=		yes
 
 MAKEFILE=		makefile
-MAKE_ARGS+=		all-localgetopt
 
 PKG_SYSCONFSUBDIR=	highlight
 
