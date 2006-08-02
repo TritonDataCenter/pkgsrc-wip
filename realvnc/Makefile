@@ -48,14 +48,14 @@ pre-fetch:
 
 # This is also lifted from FreeBSD Ports.
 post-extract:
-	@cd ${WRKSRC} && ${TAR} -cf - -C ${WRKDIR} xc | ${TAR} -xf - && \
+	cd ${WRKSRC} && ${TAR} -cf - -C ${WRKDIR} xc | ${TAR} -xf - && \
 	${RM} -rf ${WRKDIR}/xc
 
 post-patch:
-	@cd ${WRKSRC} && ${TOOLS_PLATFORM.patch} -Np0 <xc.patch
+	cd ${WRKSRC} && ${TOOLS_PLATFORM.patch} -Np0 <xc.patch
 
 post-build:
-	@cd ${WRKSRC}/xc && ${MAKE} World
+	cd ${WRKSRC}/xc && ${MAKE} World
 
 do-install:
 	${INSTALL_SCRIPT} ${WRKSRC}/vncserver ${PREFIX}/bin/vncserver
@@ -73,7 +73,7 @@ do-install:
 	${INSTALL_MAN} ${WRKSRC}/vncconfig/vncconfig.man ${PREFIX}/${PKGMANDIR}/man1/vncconfig.1
 	${INSTALL_MAN} ${WRKSRC}/vncserver.man ${PREFIX}/${PKGMANDIR}/man1/vncserver.1
 	${INSTALL_DATA_DIR} ${PREFIX}/share/vnc/classes
-	${INSTALL_DATA} ${WRKSRC}/../common/javabin/* ${PREFIX}/share/vnc/classes
+	${INSTALL_DATA} ${WRKDIR}/${DISTNAME}/common/javabin/* ${PREFIX}/share/vnc/classes
 
 .include "../../devel/zlib/buildlink3.mk"
 .include "../../mk/x11.buildlink3.mk"
