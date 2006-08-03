@@ -1,4 +1,0 @@
-@comment $NetBSD$
-bin/gpsmap
-bin/gpsmap-helper-earthamaps
-man/man1/gpsmap.1
