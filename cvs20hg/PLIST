@@ -1,4 +1,5 @@
 @comment $NetBSD$
+bin/cvs20hg
 ${PYSITELIB}/cvstohg/CVStools.py
 ${PYSITELIB}/cvstohg/CVStools.pyc
 ${PYSITELIB}/cvstohg/CVStools.pyo
