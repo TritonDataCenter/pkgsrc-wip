@@ -2,9 +2,9 @@
 
 MOZILLA=		firefox
 MOZ_EXTRA=		2
-ALPHA=			alpha3
-MOZ_VER=		2.0${ALPHA}
-MOZ_DISTVER=		${MOZ_VER}
+MOZ_VER=		2.0${SUB_VER}
+SUB_VER=		beta1
+MOZ_DISTVER=		${MOZ_VER:S/beta/b/}
 
 HOMEPAGE=		http://www.mozilla.org/projects/bonecho/
 COMMENT=		Lightweight gecko-based web browser (binary package)
