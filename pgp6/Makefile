@@ -8,7 +8,7 @@ CATEGORIES=		security
 MASTER_SITES+=		ftp://ftp.${C}.pgpi.org/pub/pgp/6.5/6.5.8/
 .endfor
 
-MAINTAINER=		tv@NetBSD.org
+MAINTAINER=		pkgsrc-wip-discuss@lists.sourceforge.net
 HOMEPAGE=		http://www.pgpi.org/products/pgp/versions/freeware/unix/6.5.8/
 COMMENT=		Public-key encryption and digital signature utilities (v6)
 
