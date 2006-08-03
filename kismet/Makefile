@@ -1,7 +1,7 @@
 # $NetBSD$
 
-DISTNAME=		kismet-2005-08-R1
-PKGNAME=		kismet-2005.08.01
+DISTNAME=		kismet-2006-04-R1
+PKGNAME=		kismet-2006.04.01
 CATEGORIES=		net
 MASTER_SITES=		http://www.kismetwireless.net/code/
 
