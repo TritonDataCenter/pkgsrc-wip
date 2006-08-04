@@ -14,6 +14,7 @@ COMMENT=	Flash-based photo album generator
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 USE_TOOLS+=		gmake perl
+USE_LANGUAGES+=		c c++
 
 CONFIGURE_ARGS+=	--with-x
 CONFIGURE_ARGS+=	--with-libiconv-prefix=${BUILDLINK_PREFIX.libiconv:Q}
