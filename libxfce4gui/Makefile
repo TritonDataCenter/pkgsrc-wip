@@ -2,8 +2,10 @@
 
 .include "../../wip/xfce4/Makefile.common"
 
+XFCE4_VERSION=	4.3.90.2svn-22628
+
 DISTNAME=	libxfcegui4-${XFCE4_VERSION}
-PKGNAME=	libxfce4gui-${XFCE4_VERSION}
+PKGNAME=	libxfce4gui-${XFCE4_VERSION:S/svn-/./}
 CATEGORIES=	x11
 COMMENT=	Xfce widget library
 

@@ -2,7 +2,10 @@
 
 .include "../../wip/xfce4/Makefile.common"
 
+XFCE4_VERSION=		4.3.90.2svn-22628
+
 DISTNAME=		xfce4-panel-${XFCE4_VERSION}
+PKGNAME=		xfce4-panel-${XFCE4_VERSION:S/svn-/./}
 CATEGORIES=		x11
 COMMENT=		Xfce panel
 
