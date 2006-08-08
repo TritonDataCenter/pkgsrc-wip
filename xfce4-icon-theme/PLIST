@@ -1624,5 +1624,6 @@ share/xfce4/mime/Rodent.mime.xml
 @dirrm share/icons/Rodent/48x48/devices
 @dirrm share/icons/Rodent/48x48/apps
 @dirrm share/icons/Rodent/48x48
+@dirrm share/icons/Rodent
 @unexec ${RMDIR} %D/share/xfce4/mime 2>/dev/null || ${TRUE}
 @unexec ${RMDIR} %D/share/xfce4 2>/dev/null || ${TRUE}
