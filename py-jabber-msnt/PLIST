@@ -53,4 +53,5 @@ share/examples/rc.d/pymsnt
 @dirrm ${TRANSPORTDIR}/src/tlib
 @dirrm ${TRANSPORTDIR}/src
 @dirrm ${TRANSPORTDIR}/data
+@dirrm ${TRANSPORTDIR}/.svn
 @dirrm ${TRANSPORTDIR}
