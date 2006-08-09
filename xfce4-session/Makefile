@@ -17,6 +17,7 @@ CONFIGURE_ARGS+=	--sysconfdir=${PKG_SYSCONFBASE:Q} \
 REQD_DIRS+=		${XFCE4_EGBASE} ${EGDIR}
 
 USE_TOOLS+=		iceauth:run
+USE_TOOLS+=		intltool
 
 .include "../../graphics/hicolor-icon-theme/buildlink3.mk"
 .include "../../wip/xfce4-mcs-plugins/buildlink3.mk"

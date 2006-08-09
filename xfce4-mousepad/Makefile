@@ -9,6 +9,8 @@ PKGNAME=	xfce4-mousepad-${XFCE4_VERSION}
 CATEGORIES=	editors
 COMMENT=	Xfce text editor
 
+USE_TOOLS+=	intltool
+
 .include "../../wip/libxfce4gui/buildlink3.mk"
 .include "../../mk/pthread.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
