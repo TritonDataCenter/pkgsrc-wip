@@ -18,6 +18,7 @@ ${TRANSPORTDIR}/src/main.py
 ${TRANSPORTDIR}/src/misciq.py
 ${TRANSPORTDIR}/src/register.py
 ${TRANSPORTDIR}/src/session.py
+${TRANSPORTDIR}/src/svninfo.py
 ${TRANSPORTDIR}/src/tlib/__init__.py
 ${TRANSPORTDIR}/src/tlib/domish.py
 ${TRANSPORTDIR}/src/tlib/jabber/__init__.py
