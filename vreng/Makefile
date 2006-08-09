@@ -23,9 +23,13 @@ USE_LIBTOOL=	yes
 #CONFIGURE_ARGS+= --enable-ocaml
 CONFIGURE_ARGS+=	--with-GL-prefix=${LOCALBASE}
 
+
 #mpeg
 #java
 .include "../../databases/mysql5-client/buildlink3.mk"
+#BUILDLINK_LDFLAGS.mysql-client?=        -Wl,-R${LOCALBASE}/lib/mysql
+LDFLAGS.SunOS+=		-R${LOCALBASE}/lib/mysql
+LIBS.SunOS+=		-R${LOCALBASE}/lib/mysql
 .include "../../wip/ubit/buildlink3.mk"
 .include "../../textproc/libxml2/buildlink3.mk"
 .include "../../lang/ocaml/buildlink3.mk"
