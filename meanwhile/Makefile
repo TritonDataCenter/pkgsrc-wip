@@ -18,6 +18,7 @@ CONFIGURE_ARGS+=	--enable-doxygen=no
 
 PKGCONFIG_OVERRIDE+=	meanwhile.pc.in
 
+USE_LANGUAGES+=		c
 USE_LANGUAGES+=		c++
 USE_LANGUAGES+=		fortran
 

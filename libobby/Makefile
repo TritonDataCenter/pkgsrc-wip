@@ -15,7 +15,7 @@ USE_LIBTOOL=		yes
 PKGCONFIG_OVERRIDE+=	${WRKSRC}/obby-0.3.pc.in
 GNU_CONFIGURE=		yes
 USE_TOOLS+=		pkg-config
-USE_LANGUAGES=		c++
+USE_LANGUAGES=		c c++
 
 .include "options.mk"
 

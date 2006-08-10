@@ -12,7 +12,7 @@ COMMENT=		Collaborative text editor
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 USE_TOOLS+=		pkg-config
-USE_LANGUAGES=		c++
+USE_LANGUAGES=		c c++
 
 .include "options.mk"
 
