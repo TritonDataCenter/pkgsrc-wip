@@ -1,6 +1,6 @@
 $NetBSD$
---- lib/common/String.cpp.orig	2003-05-24 21:53:24.000000000 +0900
-+++ lib/common/String.cpp	2005-02-16 22:21:31.000000000 +0900
+--- lib/common/String.cpp.orig	2003-05-24 12:53:24.000000000 +0000
++++ lib/common/String.cpp
 @@ -3,6 +3,7 @@
  #include <ctype.h>
  #include <stdio.h>
@@ -9,7 +9,7 @@ $NetBSD$
  
  AVM_BEGIN_NAMESPACE;
  
-@@ -170,7 +171,7 @@
+@@ -170,7 +171,7 @@ int string::sprintf(const char* fmt, ...
  #else
      // a bit poor hack but should be sufficient
      // eventually write full implementation

@@ -1,8 +1,7 @@
 # $NetBSD$
 
-DISTNAME=	avifile-0.7-0.7.43
-PKGNAME=	avifile-devel-0.7.43
-PKGREVISION=	1
+DISTNAME=	avifile-0.7-0.7.45
+PKGNAME=	avifile-devel-0.7.45
 CATEGORIES=	multimedia
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=avifile/}
 EXTRACT_SUFX=	.tar.bz2
@@ -18,6 +17,8 @@ DEPENDS+=	win32-codecs>=010122:../../multimedia/win32-codecs
 USE_TOOLS+=		gmake pkg-config
 USE_LIBTOOL=		YES
 USE_LANGUAGES=		c c++ fortran
+
+PKGCONFIG_OVERRIDE+=	avifile.pc.in
 
 .include "options.mk"
 

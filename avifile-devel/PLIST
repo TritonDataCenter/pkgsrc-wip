@@ -61,7 +61,8 @@ ${XVID_COMMENT}lib/avifile/xvid4.la
 lib/libaviplay.la
 lib/libaviplayavcodec.la
 lib/libaviplayavformat.la
-${VIDIX_COMMENT}lib/libaviplaydha.la
+lib/libaviplayavutil.la
+lib/libaviplaydha.la
 ${VIDIX_COMMENT}lib/libaviplayvidix.la
 ${QT_COMMENT}lib/libqavm.la
 lib/pkgconfig/avifile.pc
