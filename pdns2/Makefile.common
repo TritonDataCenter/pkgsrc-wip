@@ -9,7 +9,7 @@ HOMEPAGE=		http://www.powerdns.com/
 COMMENT=		Modern, advanced and high performance nameserver
 
 USE_TOOLS+=		gmake
-USE_LANGUAGES+=		c++
+USE_LANGUAGES=		c c++
 GNU_CONFIGURE=		YES
 
 .include "../../devel/boost-headers/buildlink3.mk"
