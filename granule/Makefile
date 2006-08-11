@@ -16,6 +16,7 @@ USE_LANGUAGES+=		c++
 USE_LANGUAGES+=		fortran
 USE_LIBTOOL=		yes
 USE_PKGLOCALEDIR=	yes
+USE_TOOLS+=		perl
 
 GNU_CONFIGURE=		yes
 
