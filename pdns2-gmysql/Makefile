@@ -12,7 +12,7 @@ CONFIGURE_ARGS+=	--with-modules=""
 CONFIGURE_ARGS+=	--disable-pdns_server
 CONFIGURE_ARGS+=	--disable-recursor
 CONFIGURE_ARGS+=	--with-mysql-lib=${BUILDLINK_PREFIX.mysql-client}/lib/mysql
-CONFIGURE_ARGS+=	--with-mysql-include=${BUILDLINK_PREFIX.mysql-client}/include/mysql
+CONFIGURE_ARGS+=	--with-mysql-includes=${BUILDLINK_PREFIX.mysql-client}/include/mysql
 
 # dirty hack to avoid build man pages
 post-patch:
