@@ -8,5 +8,5 @@ lib/pkgmanager/pkgmgr-pkgdb.fas
 lib/pkgmanager/pkgmgr-print.fas
 lib/pkgmanager/pkgmgr-util.fas
 lib/pkgmanager/run.lisp
-man/man8/pkgmanager.1
+man/man8/pkgmanager.8
 @dirrm lib/pkgmanager
