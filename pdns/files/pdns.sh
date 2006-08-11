@@ -11,6 +11,7 @@
 name="pdns"
 rcvar=$name
 command="@PREFIX@/sbin/pdns_server"
+command_args="--daemon=yes"
 pidfile=/var/run/${name}.pid
 required_files="@PKG_SYSCONFDIR@/pdns.conf"
 
