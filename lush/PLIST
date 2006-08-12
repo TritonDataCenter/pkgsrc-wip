@@ -779,7 +779,6 @@ share/lush/sys/psdriver.pro
 share/lush/sys/stdenv.dump
 share/lush/sys/stdenv.lsh
 share/lush/sys/sysenv.lsh
-
 @dirrm share/lush/sys
 @dirrm share/lush/src
 @dirrm share/lush/packages/video4linux/demos
