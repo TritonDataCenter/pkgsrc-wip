@@ -16,7 +16,7 @@ SUBST_STAGE.man_path=	post-patch
 SUBST_FILES.man_path=	man/Makefile
 SUBST_SED.man_path=	-e 's,share/,,'
 
-USE_TOOLS+=		gmake
+USE_TOOLS+=		gmake perl
 GNU_CONFIGURE=		yes
 
 CONFIGURE_ARGS+=	--sysconfdir=${PKG_SYSCONFDIR}/yaws
