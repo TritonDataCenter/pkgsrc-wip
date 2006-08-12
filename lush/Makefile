@@ -20,6 +20,9 @@ CONFIGURE_ARGS+=	--without-bfd
 
 #./configure --without-bfd
 
+post-install:
+	${RM} ${PREFIX}/share/lush/src/*c.orig
+
 .include "../../math/gsl/buildlink3.mk"
 .include "../../math/lapack/buildlink3.mk"
 .include "../../math/blas/buildlink3.mk"
