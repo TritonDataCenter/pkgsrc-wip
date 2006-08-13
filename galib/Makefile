@@ -6,7 +6,7 @@ PKGNAME=	galib-2.4.5
 CATEGORIES=     devel
 MASTER_SITES=   http://lancet.mit.edu/ga/dist/
 
-MAINTAINER=     adam@monkeybyte.org
+MAINTAINER=     pkgsrc-users@NetBSD.org
 HOMEPAGE=       http://lancet.mit.edu/ga/
 COMMENT=        GAlib contains a set of C++ genetic algorithm objects
 

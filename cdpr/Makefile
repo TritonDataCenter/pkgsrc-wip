@@ -6,7 +6,7 @@ CATEGORIES=	net security
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=cdpr/}
 EXTRACT_SUFX=	.tgz
 
-MAINTAINER=	adam@monkeybyte.org
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.monkeymental.com/
 COMMENT=	Cisco Discovery Protocol Reporter
 

@@ -8,7 +8,7 @@ CATEGORIES=		lang
 MASTER_SITES=		http://rpm.rutgers.edu/repository/solaris/SOURCES/
 EXTRACT_SUFX=		.tgz
 
-MAINTAINER=		adam@monkeybyte.org
+MAINTAINER=		pkgsrc-users@NetBSD.org
 COMMENT=		C style scripting lang
 
 USE_TOOLS+=		gmake

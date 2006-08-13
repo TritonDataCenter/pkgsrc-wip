@@ -5,7 +5,7 @@ DISTNAME=	lam-7.0.2
 CATEGORIES=	net
 MASTER_SITES=	http://www.lam-mpi.org/download/files/
 
-MAINTAINER=	adam@monkeybyte.org
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.lam-mpi.org/download/files/
 COMMENT=	Implementation of the Message Passing Interface (MPI) Standard
 

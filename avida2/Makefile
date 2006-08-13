@@ -5,7 +5,7 @@ DISTNAME=       avida-2.0b1
 CATEGORIES=     misc
 MASTER_SITES=   ${MASTER_SITE_SOURCEFORGE:=avida/}
 
-MAINTAINER=     adam@monkeybyte.org
+MAINTAINER=     pkgsrc-users@NetBSD.org
 HOMEPAGE=       http://nemus.dllab.caltech.edu/avida/
 COMMENT=        Avida is an auto-adaptive genetic system
 

@@ -6,7 +6,7 @@ PKGREVISION=		1
 CATEGORIES=		textproc
 MASTER_SITES=		http://download.librdf.org/source/old/
 
-MAINTAINER=		adam@monkeybyte.org
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://download.librdf.org/source/
 COMMENT=		Library for RDF in C, Java, Perl, PHP, Python, Ruby and Tcl
 

@@ -5,7 +5,7 @@ DISTNAME=		gateway-1.2.1
 CATEGORIES=		net
 MASTER_SITES=		http://www.kannel.org/download/1.2.1/
 
-MAINTAINER=		adam@monkeybyte.org
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://www.kannel.org/download/1.2.1/
 COMMENT=		Kannel WAP gateway
 

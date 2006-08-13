@@ -6,7 +6,7 @@ PKGNAME=		${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=		textproc
 MASTER_SITES=	http://pages.cpsc.ucalgary.ca/~aycock/spark/
 
-MAINTAINER=		adam@monkeybyte.org
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://pages.cpsc.ucalgary.ca/~aycock/spark/
 COMMENT=		Scanning, Parsing, and Rewriting Kit for Python
 

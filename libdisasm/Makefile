@@ -6,7 +6,7 @@ CATEGORIES=	devel
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=bastard/}
 EXTRACT_SUFX=	.tgz
 
-MAINTAINER=	adam@monkeybyte.org
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://bastard.sourceforge.net/
 COMMENT=	Dissassembly library for ELF x86 binarys
 
