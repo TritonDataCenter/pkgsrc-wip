@@ -1,7 +1,0 @@
-@comment $NetBSD$
-lib/pdns/libgmysqlbackend.a
-lib/pdns/libgmysqlbackend.la
-lib/pdns/libgmysqlbackend.so
-lib/pdns/libgmysqlbackend.so.0
-lib/pdns/libgmysqlbackend.so.0.0
-@dirrm lib/pdns
