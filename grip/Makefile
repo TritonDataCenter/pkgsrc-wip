@@ -14,6 +14,7 @@ USE_TOOLS+=		gmake msgfmt
 USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=		yes
 GNU_CONFIGURE=		yes
+USE_LANGUAGES=		c c++
 
 BUILDLINK_TRANSFORM.cdparanoia+=    -e s,/cdparanoia/,/,g
 
