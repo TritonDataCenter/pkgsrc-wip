@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		highlight-2.4.3
+DISTNAME=		highlight-2.4.7
 CATEGORIES=		textproc
 MASTER_SITES=		http://www.andre-simon.de/zip/
 
