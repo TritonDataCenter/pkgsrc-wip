@@ -1,21 +1,21 @@
 # $NetBSD$
 #
 
-DISTNAME=		premake-src-1.2
-PKGNAME=		premake-1.2
+DISTNAME=		premake-src-3.1
+PKGNAME=		premake-3.1
 CATEGORIES=		devel
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=premake/}
 EXTRACT_SUFX=		.zip
 
 MAINTAINER=		pancake@phreaker.net
-HOMEPAGE=		http://www.scons.org/
+HOMEPAGE=		http://premake.sourceforge.net/
 COMMENT=		Build script generator
 
 USE_TOOLS+=		gmake
-WRKSRC=			${WRKDIR}/Premake-1.2
+WRKSRC=			${WRKDIR}/Premake-3.1
 
 do-install:
-	${INSTALL_PROGRAM} ${WRKSRC}/premake ${PREFIX}/bin/
+	${INSTALL_PROGRAM} ${WRKSRC}/bin/premake ${PREFIX}/bin/
 
 .include "../../lang/lua/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
