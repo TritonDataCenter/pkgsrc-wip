@@ -3,7 +3,7 @@
 
 DISTNAME=		biopython-1.40b
 CATEGORIES=		biology
-MASTER_SITES=		http://biopython.org/files/
+MASTER_SITES=		http://biopython.org/DIST/
 
 MAINTAINER=		dprice@cs.nmsu.edu
 HOMEPAGE=		http://biopython.org/
