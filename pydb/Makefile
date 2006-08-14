@@ -14,5 +14,10 @@ USE_TOOLS+=		gmake
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 
+CONFIGURE_ARGS+=    --with-python=${PYTHONBIN}
 
+PY_PATCHPLIST=      yes
+
+.include "../../lang/python/extension.mk"
+.include "../../lang/python/application.mk"
 .include "../../mk/bsd.pkg.mk"
