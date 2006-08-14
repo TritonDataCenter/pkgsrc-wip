@@ -15,7 +15,7 @@ WRKSRC=			${WRKDIR}/StepMania-3.9-src
 GNU_CONFIGURE=		yes
 CONFIGURE_ARGS+=	--disable-tests
 USE_LANGUAGES=		c c++
-USE_TOOLS+=		gmake autoconf
+USE_TOOLS+=		gmake autoconf pkg-config
 
 post-extract:
 	${CP} ${FILESDIR}/arch_bsd.h ${WRKSRC}/src/arch
