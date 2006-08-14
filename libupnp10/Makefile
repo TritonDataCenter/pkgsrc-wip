@@ -11,6 +11,7 @@ HOMEPAGE=	http://upnp.sourceforge.net/
 COMMENT=	Linux SDK for UPnP Devices
 
 USE_TOOLS+=	gmake
+USE_LANGUAGES+=	c c++
 
 MAKEFILE=	makefile
 
