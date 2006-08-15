@@ -17,7 +17,7 @@ For MySQL:
 	mysql -f EPSG_v6_11.mdb_Data_MySQL.sql ${EPSGDB}
 	mysql -f EPSG_v6_11.mdb_FKeys_MySQL.sql ${EPSGDB}
 
-See the following two documents, which are located in ${EPSGDIR},
+See the following two documents, which are located in ${DOCDIR},
 for a complete description.
 
 	Using the EPSG Geodetic Parameter Dataset (Surveying and
