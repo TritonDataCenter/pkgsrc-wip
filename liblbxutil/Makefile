@@ -6,7 +6,7 @@ CATEGORIES=		x11
 MASTER_SITES=		http://xorg.freedesktop.org/releases/individual/lib/
 EXTRACT_SUFX=		.tar.bz2
 
-MAINTAINER=		INSERT_YOUR_MAIL_ADDRESS_HERE
+MAINTAINER=		reed@reedmedia.net
 HOMEPAGE=		http://xorg.freedesktop.org/
 COMMENT=		Low-Bandwidth X (LBX) utilities library
 
