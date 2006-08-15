@@ -17,8 +17,13 @@ For MySQL:
 	mysql -f EPSG_v6_11.mdb_Data_MySQL.sql ${EPSGDB}
 	mysql -f EPSG_v6_11.mdb_FKeys_MySQL.sql ${EPSGDB}
 
-See the document "Using the EPSG Geodetic Parameter Dataset (Surveying
-and Positioning Guidance Note Number 7, part 1)", which is located in
-${EPSGDIR}/G7-1.pdf, for a complete description.
+See the following two documents, which are located in ${EPSGDIR},
+for a complete description.
+
+	Using the EPSG Geodetic Parameter Dataset (Surveying and
+	Positioning Guidance Note Number 7, part 1)
+
+	Coordinate Conversions and Transformations including Formulas
+	(Surveying and Positioning Guidance Note Number 7, part 2)
 
 ===========================================================================
