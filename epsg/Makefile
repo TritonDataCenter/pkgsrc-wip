@@ -3,7 +3,7 @@
 
 DISTNAME=		epsg-v6_11sql-PostgreSQL
 PKGNAME=		epsg-6.11
-CATEGORIES=		databases geography
+CATEGORIES=		geography databases
 MASTER_SITES+=		http://www.epsg.org/databases/ \
 			http://www.epsg.org/guides/docs/
 DISTFILES+=		epsg-v6_11sql-PostgreSQL.zip \
