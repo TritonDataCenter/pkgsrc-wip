@@ -17,6 +17,11 @@ MAINTAINER=		brook@nmsu.edu
 HOMEPAGE=		http://www.epsg.org/
 COMMENT=		EPSG Geodetic Parameters database
 
+LICENSE=		epsg-license
+RESTRICTED=		"No commercial redistribution"
+NO_SRC_ON_CDROM=	${RESTRICTED}
+NO_BIN_ON_CDROM=	${RESTRICTED}
+
 WRKSRC=			${WRKDIR}/epsg-v6_11sql-postgresql
 WRKSRC.pgsql=		${WRKDIR}/epsg-v6_11sql-PostgreSQL
 WRKSRC.mysql=		${WRKDIR}/epsg-v6_11sql-mySQL
