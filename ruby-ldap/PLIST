@@ -1,0 +1,6 @@
+@comment $NetBSD$
+${RUBY_SITEARCHLIBDIR}/ldap.${RUBY_DLEXT}
+${RUBY_SITELIBDIR}/ldap/control.rb
+${RUBY_SITELIBDIR}/ldap/ldif.rb
+${RUBY_SITELIBDIR}/ldap/schema.rb
+@dirrm ${RUBY_SITELIBDIR}/ldap
