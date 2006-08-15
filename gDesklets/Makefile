@@ -10,7 +10,7 @@ HOMEPAGE=	http://gdesklets.gnomedesktop.org/
 COMMENT=	Advanced architecture for desktop applets
 
 GNU_CONFIGURE=	YES
-USE_TOOLS+=	gmake pkg-config
+USE_TOOLS+=	gmake pkg-config intltool
 USE_LIBTOOL=	YES
 
 PKGCONFIG_OVERRIDE=	gdesklets-core.pc.in
