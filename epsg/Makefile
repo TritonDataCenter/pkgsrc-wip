@@ -18,7 +18,7 @@ HOMEPAGE=		http://www.epsg.org/
 COMMENT=		EPSG Geodetic Parameters database
 
 LICENSE=		epsg-license
-RESTRICTED=		"No commercial redistribution"
+RESTRICTED=		No commercial redistribution
 NO_SRC_ON_CDROM=	${RESTRICTED}
 NO_BIN_ON_CDROM=	${RESTRICTED}
 
