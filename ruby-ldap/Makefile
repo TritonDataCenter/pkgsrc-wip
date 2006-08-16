@@ -11,12 +11,21 @@ COMMENT=	LDAP extension module for Ruby
 
 VER=		0.9.7
 
-REPLACE_RUBY_DIRS=	${WRKSRC}/example ${WRKSRC}/example/cgi
+REPLACE_RUBY_DIRS=	example/pr_ctl example/cgi/search.cgi
 RUBY_HAS_ARCHLIB=	yes
 USE_RUBY_EXTCONF=	yes
 
-.include "../../databases/openldap-client/buildlink3.mk"
-CONFIGURE_ARGS+=	--with-openldap2
-CONFIGURE_ARGS+=	--with-ldap-dir=${BUILDLINK_PREFIX.openldap-client}
+.include "options.mk"
+
+DOCS=		ChangeLog FAQ README TODO
+
+post-install:
+	${INSTALL_DATA_DIR} ${RUBY_DOCDIR}/ldap
+.for f in ${DOCS}
+	${INSTALL_DATA} ${WRKSRC}/${f} ${RUBY_DOCDIR}/ldap
+.endfor
+	${INSTALL_DATA_DIR} ${RUBY_EXAMPLESDIR}/ldap
+	cd ${WRKSRC}/example && ${PAX} -rw -pp * ${RUBY_EXAMPLESDIR}/ldap
+
 .include "../../lang/ruby/modules.mk"
 .include "../../mk/bsd.pkg.mk"

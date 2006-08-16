@@ -4,3 +4,13 @@ ${RUBY_SITELIBDIR}/ldap/control.rb
 ${RUBY_SITELIBDIR}/ldap/ldif.rb
 ${RUBY_SITELIBDIR}/ldap/schema.rb
 @dirrm ${RUBY_SITELIBDIR}/ldap
+${RUBY_DOCDIR}/ldap/ChangeLog
+${RUBY_DOCDIR}/ldap/FAQ
+${RUBY_DOCDIR}/ldap/README
+${RUBY_DOCDIR}/ldap/TODO
+@dirrm ${RUBY_DOCDIR}/ldap
+${RUBY_EXAMPLESDIR}/ldap/cgi/search.cgi
+${RUBY_EXAMPLESDIR}/ldap/cgi/search.html
+${RUBY_EXAMPLESDIR}/ldap/pr_ctl
+@dirrm ${RUBY_EXAMPLESDIR}/ldap/cgi
+@dirrm ${RUBY_EXAMPLESDIR}/ldap
