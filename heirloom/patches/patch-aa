@@ -1,6 +1,6 @@
 $NetBSD$
 
---- df/df.c.orig	Sun Jan 22 20:42:39 2006
+--- df/df.c.orig	2006-01-22 20:42:39.000000000 +0200
 +++ df/df.c
 @@ -50,10 +50,18 @@ typedef		unsigned long long	ull;
  #include	<pwd.h>
