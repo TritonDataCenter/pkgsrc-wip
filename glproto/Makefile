@@ -6,7 +6,7 @@ CATEGORIES=		x11
 MASTER_SITES=		http://xorg.freedesktop.org/releases/individual/proto/
 EXTRACT_SUFX=		.tar.bz2
 
-MAINTAINER=		INSERT_YOUR_MAIL_ADDRESS_HERE
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://xorg.freedesktop.org/
 COMMENT=		GL extension headers
 
