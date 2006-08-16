@@ -18,19 +18,22 @@ PKG_SUGGESTED_OPTIONS=	gnuplot
 
 .include "../../mk/bsd.options.mk"
 
+PLIST_SRC=		# empty
+
 .if !empty(PKG_OPTIONS:Mgnuplot)
 DEPENDS+=		gnuplot-[0-9]*:../../graphics/gnuplot
 CONFIGURE_ARGS+=	--with-gnuplot
-PLIST_SRC+=		PLIST.gnuplot
+PLIST_SRC+=		${PKGDIR}/PLIST.gnuplot
 .endif
 
 .if !empty(PKG_OPTIONS:Mplplot)
 .  include "../../graphics/plplot/buildlink3.mk"
 CONFIGURE_ARGS+=	--with-plplot=${BUILDLINK_PREFIX.plplot}/lib
-PLIST_SRC+=		PLIST.plplot
+PLIST_SRC+=		${PKGDIR}/PLIST.plplot
 .endif
 
 CONFIGURE_ARGS+=	--with-LIBS=${PREFIX}/lib
+PLIST_SRC+=		${PKGDIR}/PLIST
 
 .include "../../devel/readline/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

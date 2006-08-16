@@ -1,7 +1,6 @@
 @comment $NetBSD$
 bin/${PKGNAME}
 bin/rlab2
-share/${PKGNAME}/rlib/plot.r
 man/man1/rlab2.1
 @dirrm share/${PKGNAME}/doc/help
 @dirrm share/${PKGNAME}/doc
