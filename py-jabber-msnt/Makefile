@@ -1,9 +1,10 @@
 # $NetBSD: Makefile-example,v 1.9 2005/04/11 21:45:39 tv Exp $
 
-DISTNAME=		pymsnt-0.11.1
+DISTNAME=		pymsnt-0.11.2-dev2
 PKGNAME=		${PYPKGPREFIX}-jabber-${DISTNAME:S/py//}
 CATEGORIES=		chat python
-MASTER_SITES=		http://msn-transport.jabberstudio.org/tarballs/
+# MASTER_SITES=		http://msn-transport.jabberstudio.org/tarballs/
+MASTER_SITES=		http://delx.cjb.net/pymsnt/tarballs/
 
 MAINTAINER=		eric@cirr.com
 HOMEPAGE=		http://msn-transport.jabberstudio.org/
