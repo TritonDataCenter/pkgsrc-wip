@@ -6,3 +6,4 @@ libdata/bcmfw/BCM2033-MD.hex
 man/cat8/bcmfw.0
 man/man8/bcmfw.8
 share/examples/rc.d/bcmfw
+@dirrm libdata/bcmfw

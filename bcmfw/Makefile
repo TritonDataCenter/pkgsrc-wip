@@ -12,7 +12,8 @@ COMMENT=		Broadcom 2033 Bluetooth Firmware Loader
 
 ONLY_FOR_PLATFORM=	NetBSD-[4-9].*-*
 
-RCD_SCRIPTS=		bcmfw
+RCD_SCRIPTS+=		bcmfw
+BUILD_DEFS+=		PKGMANDIR
 
 FIRMWARE_DIR=		${PREFIX}/libdata/bcmfw
 
