@@ -12,8 +12,7 @@ COMMENT=		NetBSD Editline library (libedit) for generic line editing
 
 USE_LIBTOOL=		yes
 GNU_CONFIGURE=		yes
-USE_LANGUAGES+=		c++
-USE_LANGUAGES+=		fortran
+USE_LANGUAGES+=		c c++ fortran
 
 INSTALLATION_DIRS+=	include/editline
 
