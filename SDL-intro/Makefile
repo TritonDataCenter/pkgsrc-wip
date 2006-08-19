@@ -18,7 +18,7 @@ DEPENDS+=		SDL-intro-es-1.0:../../wip/SDL-intro-es
 DEPENDS+=		SDL-intro-fr-1.0:../../wip/SDL-intro-fr
 DEPENDS+=		SDL-intro-it-1.0:../../wip/SDL-intro-it
 DEPENDS+=		SDL-intro-jp-1.0:../../wip/SDL-intro-jp
-DEPENDS+=		SDL-intro-ko-1.0:../../wip/SDL-intro-ko
+DEPENDS+=		SDL-intro-ko-1.0:../../devel/SDL-intro-ko
 DEPENDS+=		SDL-intro-pt-1.0:../../wip/SDL-intro-pt
 DEPENDS+=		SDL-intro-ru-1.0:../../wip/SDL-intro-ru
 
