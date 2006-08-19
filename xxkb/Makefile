@@ -18,7 +18,6 @@ DOC_DIR=		${PREFIX}/share/doc/${PKGBASE}
 INSTALLATION_DIRS=	${DOC_DIR}
 
 post-install:
-	${INSTALL_MAN} ${WRKSRC}/xxkb.man ${PREFIX}/${PKGMANDIR}/man1/xxkb.1
 .for i in ${DOC_FILES}
 	${INSTALL_DATA} ${WRKSRC}/${i} ${DOC_DIR}
 .endfor
