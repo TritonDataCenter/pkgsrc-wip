@@ -26,6 +26,6 @@ GCONF2_SCHEMAS=		muine.schemas
 .include "../../lang/mono/buildlink3.mk"
 .include "../../multimedia/libogg/buildlink3.mk"
 .include "../../multimedia/xine-lib/buildlink3.mk"
-.include "../../wip/gtk-sharp/buildlink3.mk"
+.include "../../x11/gtk2-sharp/buildlink3.mk"
 
 .include "../../mk/bsd.pkg.mk"
