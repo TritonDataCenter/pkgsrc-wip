@@ -1,3 +1,5 @@
+# $NetBSD$
+
 NO_CONFIGURE=           yes
 NO_BUILD=               yes
 
@@ -5,5 +7,5 @@ do-install:
 	${INSTALL_DATA_DIR} ${PREFIX}/share/dataset
 	${INSTALL_DATA_DIR} ${PREFIX}/share/dataset/geography
 	${INSTALL_DATA_DIR} ${PREFIX}/share/dataset/geography/${PKGNAME}
-	cd ${WRKSRC} &&							\
+	cd ${WRKSRC} &&							      \
 		${PAX} -rw . ${PREFIX}/share/dataset/geography/${PKGNAME}/
