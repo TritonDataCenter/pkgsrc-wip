@@ -1,7 +1,7 @@
 # $NetBSD$
 
 DISTNAME=	chprofessional-4.0.0.linux2.2.5.intel
-PKGNAME=	linux-chproffessional-4.0.0
+PKGNAME=	linux-chprofessional-4.0.0
 CATEGORIES=	devel
 MASTER_SITES=	http://www.softintegration.com/download/software/release/Linux/
 
