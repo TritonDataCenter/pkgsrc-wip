@@ -10,6 +10,7 @@ MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://www.boomerangsworld.de/worker/
 COMMENT=		X-Window filemanager for UNIX
 
+USE_LANGUAGES=		c c++
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 
