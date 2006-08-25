@@ -12,5 +12,6 @@ COMMENT=		Text-based contact manager
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 
+.include "../../devel/ncurses/buildlink3.mk"
 .include "../../wip/libvc/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
