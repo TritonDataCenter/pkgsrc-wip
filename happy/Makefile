@@ -17,7 +17,7 @@ COMMENT=		LALR(1) parser generator for the functional language Haskell
 WRKSRC=			${WRKDIR}/happy-1.15
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
-USE_TOOLS+=		gmake
+USE_TOOLS+=		gmake perl
 
 
 DOCDIR=		${PREFIX}/share/doc/happy
