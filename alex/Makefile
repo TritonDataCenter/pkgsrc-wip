@@ -15,7 +15,7 @@ HOMEPAGE=	http://www.haskell.org/alex/
 COMMENT=	Tool for generating lexical analysers in Haskell
 
 
-USE_TOOLS+=	gmake
+USE_TOOLS+=	gmake perl
 GNU_CONFIGURE=	yes
 
 EXTRACT_ONLY=	${DISTNAME}-src.tar.gz alex-html.tar.gz
