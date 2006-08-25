@@ -9,6 +9,7 @@ MAINTAINER=	collver1@comcast.net
 HOMEPAGE=	http://beast.gtk.org/
 COMMENT=	Bedevilled Audio System
 
+USE_LANGUAGES=	c c++
 USE_LIBTOOL=	yes
 USE_TOOLS+=	gmake autoconf213
 GNU_CONFIGURE=	yes
