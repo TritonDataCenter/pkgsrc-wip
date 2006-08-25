@@ -11,6 +11,8 @@ MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://www.musepack.net/
 COMMENT=		Mpeg-Plus encoder/decoder
 
+BUILD_DEPENDS+=		nasm>=0.98:../../devel/nasm
+
 WRKSRC=		${WRKDIR}/sv7
 USE_TOOLS+=	gmake
 
