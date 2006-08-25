@@ -9,8 +9,6 @@ MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://ninvaders.sourceforge.net/
 COMMENT=		ncurses based invaders game
 
-WRKSRC=		${WRKDIR}/*
-
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/nInvaders ${PREFIX}/bin/
 
