@@ -9,6 +9,7 @@ MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://hyvatti.iki.fi/~jaakko/pic/picprog.html
 COMMENT=		pic16xxx microcontroller programmer for JDM (TE-20)
 
+USE_LANGUAGES=	c c++
 USE_TOOLS+=	gmake
 
 .include "../../mk/bsd.pkg.mk"
