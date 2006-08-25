@@ -10,7 +10,7 @@ HOMEPAGE=	http://tkabber.jabber.ru/en/
 COMMENT=	Free and Open Source TCL/TK jabber client
 
 DEPENDS+=	tcllib-[0-9]*:../../devel/tcllib
-DEPENDS+=	bwidget-[0-9]*:../../wip/bwidget
+DEPENDS+=	bwidget-[0-9]*:../../x11/bwidget
 
 NO_BUILD=	yes
 
