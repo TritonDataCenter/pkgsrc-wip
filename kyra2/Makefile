@@ -13,6 +13,7 @@ HOMEPAGE=		http://kyra.sourceforge.net/
 COMMENT=		Sprite engine
 
 USE_PKGLOCALEDIR=	yes
+USE_LANGUAGES=		c c++
 USE_LIBTOOL=		yes
 GNU_CONFIGURE=		yes
 CONFLICTS+=		kyra-*

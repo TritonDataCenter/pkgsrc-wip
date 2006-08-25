@@ -15,6 +15,7 @@ CONFLICTS+=		kyra2-*
 
 WRKSRC=			${WRKDIR}/kyra
 USE_PKGLOCALEDIR=	yes
+USE_LANGUAGES=		c c++
 USE_LIBTOOL=		yes
 GNU_CONFIGURE=		yes
 
