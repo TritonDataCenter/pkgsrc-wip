@@ -3,7 +3,7 @@
 DISTNAME=		bcmfw-1.0
 CATEGORIES=		sysutils
 MASTER_SITES=		http://homepages.rya-online.net/plunky/	\
-			${MASTER_SITE_SOURCEFORGE:=bluez/}
+			http://bluez.sourceforge.net/download/
 DISTFILES=		bcmfw-1.0.tar.gz			\
 			bluez-firmware-1.2.tar.gz
 
