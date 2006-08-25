@@ -2,4 +2,4 @@
 #
 # $NetBSD$
 
-exec @PREFIX@/bin/wish @DATADIR@/tkabber.tcl -name tkabber "$$@"
+exec @WISH@ @DATADIR@/tkabber.tcl -name tkabber "$$@"
