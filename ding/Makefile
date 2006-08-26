@@ -7,7 +7,7 @@ MASTER_SITES=	ftp://ftp.tu-chemnitz.de/pub/Local/urz/ding/	\
 DISTFILES=	ding-1.2.tar.gz		\
 		ger-eng.txt.gz
 
-MAINTAINER=	eukaryote@sympatico.ca
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www-user.tu-chemnitz.de/~fri/ding/
 COMMENT=	Ding is a Dictionary lookup program for the X window system
 
