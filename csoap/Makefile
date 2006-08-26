@@ -5,8 +5,6 @@ PKGNAME=	csoap-1.1.0
 CATEGORIES=	devel
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=csoap/}
 
-EXTRACT_SUFX=	rc1.tar.gz
-
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://csoap.sourceforge.net/
 COMMENT=	SOAP C Framework C API functions
