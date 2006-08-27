@@ -1,10 +1,10 @@
 $NetBSD$
 
---- ipcon.cpp.orig	2003-01-14 05:59:00.000000000 +0900
-+++ ipcon.cpp
-@@ -25,7 +25,12 @@
- #include <stdio.h>
- #include <unistd.h>
+--- util.c.orig	2006-02-02 08:53:39.000000000 +0900
++++ util.c
+@@ -3,7 +3,12 @@
+ #include <stdarg.h>
+ #include <syslog.h>
  #include <arpa/inet.h>
 +#ifdef __linux__
  #include <linux/sockios.h>
