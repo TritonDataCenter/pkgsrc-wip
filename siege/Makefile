@@ -1,12 +1,12 @@
 # $NetBSD$
 #
 
-DISTNAME=		siege-2.64
+DISTNAME=		siege-2.65
 CATEGORIES=		www
 MASTER_SITES=		ftp://sid.joedog.org/pub/siege/
 
 MAINTAINER=		airhead@users.sf.net
-HOMEPAGE=		http://www.joedog.org/siege
+HOMEPAGE=		http://www.joedog.org/JoeDog/Siege
 COMMENT=		Website/webserver regression testing utility
 
 GNU_CONFIGURE=		yes
