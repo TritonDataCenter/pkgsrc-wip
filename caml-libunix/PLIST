@@ -1,5 +1,0 @@
-@comment $NetBSD$
-lib/caml-light/camlunix
-lib/caml-light/libunix.a
-lib/caml-light/unix.zi
-lib/caml-light/unix.zo
