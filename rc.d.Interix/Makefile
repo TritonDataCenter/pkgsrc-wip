@@ -10,9 +10,9 @@ MAINTAINER=		cheusov@tut.by
 HOMEPAGE=		#none
 COMMENT=		NetBSD rc.d system for MS Interix
 
-#ONLY_FOR_PLATFORM=	Interix-*-*
-#DEPENDS+=		rcorder-[0-9]*:../../pkgtools/rcorder
-#DEPENDS+=		rc.subr-[0-9]*:../../pkgtools/rc.subr
+ONLY_FOR_PLATFORM=	Interix-*-*
+DEPENDS+=		rcorder-[0-9]*:../../pkgtools/rcorder
+DEPENDS+=		rc.subr-[0-9]*:../../pkgtools/rc.subr
 
 NO_BUILD=		yes
 NO_CHECKSUM=		yes
