@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		libupnp-1.4.0
+DISTNAME=		libupnp-1.4.1
 CATEGORIES=		net
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=pupnp/}
 
