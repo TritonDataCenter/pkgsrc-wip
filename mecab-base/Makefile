@@ -17,6 +17,12 @@ USE_LANGUAGES+=		c c++
 USE_LIBTOOL=		yes
 OWN_DIRS=		${PREFIX:Q}/lib/mecab/dic
 
+.include "../../mk/bsd.prefs.mk"
+
+.if ${OPSYS} == "SunOS"
+USE_TOOLS+=		gmake
+.endif
+
 CONFIGURE_ARGS+=	--sysconfdir=${PKG_SYSCONFDIR:Q}
 
 EGDIR=			${PREFIX}/share/examples/mecab
