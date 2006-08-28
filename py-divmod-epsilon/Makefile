@@ -2,7 +2,7 @@
 
 EPSILON_VERSION=	0.5.0
 DISTNAME=	Epsilon-${EPSILON_VERSION}
-PKGNAME=	${PYPKGPREFIX}-divmod-espilon-${EPSILON_VERSION}
+PKGNAME=	${PYPKGPREFIX}-divmod-epsilon-${EPSILON_VERSION}
 CATEGORIES=	python
 MASTER_SITES=	ftp://ftp.osuosl.org/pub/nslu2/sources/
 EXTRACT_SUFX=	.tar.gz
