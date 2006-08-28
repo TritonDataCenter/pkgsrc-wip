@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		LiDIA-2.1.3
+DISTNAME=		lidia-2.2.0
 CATEGORIES=		math
 MASTER_SITES=		ftp://ftp.informatik.tu-darmstadt.de/pub/TI/systems/LiDIA/current/
 
