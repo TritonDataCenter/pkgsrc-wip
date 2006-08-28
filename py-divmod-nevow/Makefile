@@ -15,6 +15,7 @@ DEPENDS+=	${PYPKGPREFIX}-twisted-core>=2.4.0:../../wip/py-twisted-core
 DEPENDS+=	${PYPKGPREFIX}-twisted-web>=0.6.0:../../wip/py-twisted-web
 
 PYDISTUTILSPKG=		yes
+PYTHON_VERSIONS_ACCEPTED=       24
 
 .include "../../lang/python/extension.mk"
 .include "../../mk/bsd.pkg.mk"
