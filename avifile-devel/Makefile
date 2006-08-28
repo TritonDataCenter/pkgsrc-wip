@@ -39,7 +39,7 @@ CONFIGURE_ARGS+=	--enable-ffmpeg
 PLIST_SUBST+=	FFMPEG_COMMENT=
 .else
 CONFIGURE_ARGS+=	--disable-x86opt
-CONFIGURE_ARGS+=	--disalbe-ffmpeg
+CONFIGURE_ARGS+=	--disable-ffmpeg
 PLIST_SUBST+=	FFMPEG_COMMENT="@comment "
 .endif
 .if ${OPSYS} == "Linux"
