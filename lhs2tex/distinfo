@@ -1,6 +1,5 @@
 $NetBSD$
 
-SHA1 (lhs2tex-1.10pre.tar.bz2) = 1add6d4d9fb637f446ab7aa67df311ba4f777b4e
-RMD160 (lhs2tex-1.10pre.tar.bz2) = 10f14fe9aa6415ca6e8641ef3817473562e56d31
-Size (lhs2tex-1.10pre.tar.bz2) = 525904 bytes
-SHA1 (patch-aa) = 7427db7906e23a794d23010ac0e392160c873402
+SHA1 (lhs2tex-1.11.tar.bz2) = 02a4c59b710f082d0c77d3d1be81fb0276a6f072
+RMD160 (lhs2tex-1.11.tar.bz2) = dffb908302373cfb8c4b965b488e01fc2e5a04d7
+Size (lhs2tex-1.11.tar.bz2) = 578563 bytes
