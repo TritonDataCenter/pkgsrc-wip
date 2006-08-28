@@ -11,7 +11,7 @@ $_rc_subr_loaded . /etc/rc.subr
 
 name="bcmfw"
 rcvar=${name}
-command="@PREFIX@/bin/${name}"
+command="@PREFIX@/sbin/${name}"
 command_args="${bcmfw_args:-ugen0}"
 
 load_rc_config ${name}

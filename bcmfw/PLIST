@@ -1,8 +1,8 @@
 @comment $NetBSD$
-bin/bcmfw
+man/man8/bcmfw.8
+sbin/bcmfw
+share/examples/rc.d/bcmfw
 ${FIRMWARE_DIR}/BCM-LEGAL.txt
 ${FIRMWARE_DIR}/BCM2033-FW.bin
 ${FIRMWARE_DIR}/BCM2033-MD.hex
-man/man8/bcmfw.8
-share/examples/rc.d/bcmfw
 @dirrm ${FIRMWARE_DIR}

@@ -30,7 +30,7 @@ SUBST_STAGE.dir=	post-patch
 SUBST_MESSAGE.dir=	Fixing path to firmware directory.
 
 do-install:
-	${INSTALL_PROGRAM} ${WRKSRC}/bcmfw ${PREFIX}/bin
+	${INSTALL_PROGRAM} ${WRKSRC}/bcmfw ${PREFIX}/sbin
 	${INSTALL_MAN} ${WRKSRC}/bcmfw.8 ${PREFIX}/${PKGMANDIR}/man8
 	${INSTALL_DATA} ${WRKDIR}/bluez-firmware-1.2/broadcom/BCM-LEGAL.txt ${PREFIX}/${FIRMWARE_DIR}
 	${INSTALL_DATA} ${WRKDIR}/bluez-firmware-1.2/broadcom/BCM2033-FW.bin ${PREFIX}/${FIRMWARE_DIR}
