@@ -9,7 +9,7 @@ EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	leuzi@trash.net
 HOMEPAGE=	http://www.scribus.net/
-COMMENT=	Publishing layout with graphical interface
+COMMENT=	Open Source Page Layout
 
 CONFLICTS+=	scribus-[0-9]*
 
@@ -24,7 +24,7 @@ CONFIGURE_ARGS+=        --with-qt-dir=${QTDIR:Q} \
 			--with-extra-libs=${LOCALBASE}/lib \
 			--with-extra-includes=${LOCALBASE}/include
 
-PYTHON_VERSIONS_ACCEPTED=	23 24
+PYTHON_VERSIONS_ACCEPTED=	24
 CONFIGURE_ARGS+=	--with-pythondir=${LOCALBASE:Q}
 
 DEPENDS+=	ghostscript-esp>=8.0:../../print/ghostscript-esp
