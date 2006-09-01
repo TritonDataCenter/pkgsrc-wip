@@ -10,8 +10,8 @@ MAINTAINER=	cheusov@tut.by
 HOMEPAGE=	http://sf.net/projects/er-dict
 COMMENT=	DICTD data for Estonian-Russian dictionary
 
-DEPENDS+=	dict-server>=1.9.14:../../textproc/dict-server
-BUILD_DEPENDS+=	dict-server>=1.10.2:../../textproc/dict-server
+DEPENDS+=	dict-server>=1.9.14:../../wip/dict-server
+BUILD_DEPENDS+=	dict-server>=1.10.2:../../wip/dict-server
 
 DICTD_DB_DIR=		${PREFIX}/share/dictd
 INSTALLATION_DIRS=	${DICTD_DB_DIR}
