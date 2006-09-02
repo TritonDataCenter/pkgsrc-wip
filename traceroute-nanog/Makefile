@@ -44,6 +44,9 @@ CPPFLAGS+=	-DBIND_8_COMPAT -DRA_SERVICE=\"nicname\"
 
 .if !empty(LOWER_OPSYS:Mirix5*)
 CPPFLAGS+=	-Dsocklen_t=int
+# needs snprintf()
+.include "../../pkgtools/libnbcompat/buildlink3.mk"
+TRN_EXTRALIBS+=	${BUILDLINK_LDADD.libnbcompat}
 .endif
 
 INSTALLATION_DIRS=	sbin ${PKGMANDIR}/man8
