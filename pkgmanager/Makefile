@@ -3,7 +3,7 @@
 
 DISTNAME=	pkgmanager-${PKGMGR_VERSION}
 CATEGORIES=	pkgtools
-MASTER_SITES=	http://starfury.scode.org/pkgmanager/
+MASTER_SITES=	http://distfiles.scode.org/pkgmanager/
 DISTFILES+=	pkgmanager-${PKGMGR_VERSION:Q}.tar.gz
 DISTFILES+=	clocc-06-24-05.tgz
 DISTFILES+=	cl-ppcre-${PPCRE_VERSION:Q}.tar.gz
