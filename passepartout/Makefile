@@ -18,5 +18,5 @@ BUILDLINK_TRANSFORM+=	S:-Wold-style-casts:
 
 .include "../../x11/gtkmm/buildlink3.mk"
 .include "../../textproc/libxslt/buildlink3.mk"
-.include "../../wip/libxml++/buildlink3.mk"
+.include "../../textproc/libxml++/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
