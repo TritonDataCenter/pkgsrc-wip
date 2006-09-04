@@ -1,8 +1,8 @@
 # $NetBSD$
 
-DISTNAME=	xfce4-dev-tools-4.3.90.2
+DISTNAME=	xfce4-dev-tools-4.3.99.1
 CATEGORIES=	devel
-MASTER_SITES=	http://www.xfce.org/archive/xfce-4.3.90.2/src/
+MASTER_SITES=	http://www.xfce.org/archive/xfce-4.3.99.1/src/
 EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	martti@NetBSD.org

@@ -2,7 +2,7 @@
 
 .include "../../wip/xfce4/Makefile.common"
 
-XFCE4_VERSION=	0.3.9.2beta2
+XFCE4_VERSION=	0.4.0
 
 DISTNAME=	xarchiver-${XFCE4_VERSION}
 PKGNAME=	xfce4-xarchiver-${XFCE4_VERSION}

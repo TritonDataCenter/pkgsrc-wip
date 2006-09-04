@@ -33,6 +33,9 @@ share/themes/Xfce-kolors/gtk-2.0/gtkrc
 share/themes/Xfce-light/ICON.png
 share/themes/Xfce-light/README.html
 share/themes/Xfce-light/gtk-2.0/gtkrc
+share/themes/Xfce-orange/ICON.png
+share/themes/Xfce-orange/README.html
+share/themes/Xfce-orange/gtk-2.0/gtkrc
 share/themes/Xfce-redmondxp/ICON.png
 share/themes/Xfce-redmondxp/README.html
 share/themes/Xfce-redmondxp/gtk-2.0/gtkrc
@@ -62,6 +65,8 @@ share/themes/Xfce/gtk-2.0/gtkrc
 @dirrm share/themes/Xfce-saltlake
 @dirrm share/themes/Xfce-redmondxp/gtk-2.0
 @dirrm share/themes/Xfce-redmondxp
+@dirrm share/themes/Xfce-orange/gtk-2.0
+@dirrm share/themes/Xfce-orange
 @dirrm share/themes/Xfce-light/gtk-2.0
 @dirrm share/themes/Xfce-light
 @dirrm share/themes/Xfce-kolors/gtk-2.0

@@ -12,7 +12,7 @@ BUILDLINK_PACKAGES+=	xfce4-thunar
 BUILDLINK_ORDER:=	${BUILDLINK_ORDER} ${BUILDLINK_DEPTH}xfce4-thunar
 
 .if ${XFCE4_THUNAR_BUILDLINK3_MK} == "+"
-BUILDLINK_API_DEPENDS.xfce4-thunar+=	xfce4-thunar>=0.3.2beta2
+BUILDLINK_API_DEPENDS.xfce4-thunar+=	xfce4-thunar>=0.4.0rc1
 BUILDLINK_PKGSRCDIR.xfce4-thunar?=	../../wip/xfce4-thunar
 .endif	# XFCE4_THUNAR_BUILDLINK3_MK
 

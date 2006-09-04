@@ -12,7 +12,7 @@ BUILDLINK_PACKAGES+=	xfce4-exo
 BUILDLINK_ORDER:=	${BUILDLINK_ORDER} ${BUILDLINK_DEPTH}xfce4-exo
 
 .if ${XFCE4_EXO_BUILDLINK3_MK} == "+"
-BUILDLINK_API_DEPENDS.xfce4-exo+=	xfce4-exo>=0.3.1.8beta2
+BUILDLINK_API_DEPENDS.xfce4-exo+=	xfce4-exo>=0.3.1.10rc1
 BUILDLINK_PKGSRCDIR.xfce4-exo?=	../../wip/xfce4-exo
 .endif	# XFCE4_EXO_BUILDLINK3_MK
 
