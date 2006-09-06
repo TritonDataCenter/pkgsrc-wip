@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		terminus-font-4.16
+DISTNAME=		terminus-font-4.20
 CATEGORIES=		fonts
 MASTER_SITES=		http://www.is-vn.bg/hamster/
 
