@@ -20,7 +20,6 @@ do-install:
 .include "../../wip/xfce4-icon-theme/buildlink3.mk"
 .include "../../wip/xfce4-print/buildlink3.mk"
 .include "../../wip/xfce4-appfinder/buildlink3.mk"
-.include "../../wip/xfce4-thunar/buildlink3.mk"
 .include "../../wip/xfce4-xarchiver/buildlink3.mk"
 .include "../../wip/xfce4-orage/buildlink3.mk"
 .include "../../wip/xfce4-wm/buildlink3.mk"
