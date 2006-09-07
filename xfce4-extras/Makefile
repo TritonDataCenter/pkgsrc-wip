@@ -17,6 +17,9 @@ WRKSRC=		${WRKDIR}
 do-install:
 	@${DO_NADA}
 
+# Xfce
+.include "../../wip/xfce4/buildlink3.mk"
+
 # Additional plugins etc.
 .include "../../graphics/xfce4-artwork/buildlink3.mk"
 .include "../../wip/xfce4-fsguard-plugin/buildlink3.mk"
@@ -39,5 +42,4 @@ do-install:
 # .include "../../x11/xfce4-taskbar-plugin/buildlink3.mk"
 # .include "../../x11/xfce4-windowlist-plugin/buildlink3.mk"
 
-.include "../../wip/xfce4/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
