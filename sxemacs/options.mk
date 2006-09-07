@@ -1,7 +1,7 @@
 # $NetBSD: options.mk,v 1.5 2005/10/23 14:16:46 rillig Exp $
 
 PKG_OPTIONS_VAR=	PKG_OPTIONS.sxemacs
-PKG_SUPPORTED_OPTIONS=	ldap xface canna pgsql ffi
+PKG_SUPPORTED_OPTIONS=	ldap xface canna pgsql ffi arts
 
 .include "../../mk/bsd.options.mk"
 
@@ -40,4 +40,11 @@ CONFIGURE_ARGS+=	--with-ffi
 # XXX What external dependencies does FFI have?
 .else
 CONFIGURE_ARGS+=	--without-ffi
+.endif
+
+.if !empty(PKG_OPTIONS:Marts)
+CONFIGURE_ARGS+=	--with-sound=arts
+.include "../../audio/arts/buildlink3.mk"
+.else
+CONFIGURE_ARGS+=	--with-sound=noarts
 .endif
