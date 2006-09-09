@@ -12,6 +12,7 @@ sbin/socklog-conf
 share/doc/socklog/CHANGES
 share/doc/socklog/COPYING
 share/doc/socklog/README
+share/doc/socklog/benefits.html
 share/doc/socklog/configuration.html
 share/doc/socklog/examples.html
 share/doc/socklog/index.html
