@@ -15,7 +15,7 @@ DEPENDS+=               clustalw>=1.8:../../biology/clustalw
 WRKSRC=		 	${WRKDIR}/T-COFFEE_distribution_Version_1.37/t_coffee_source
 
 MESSAGE_SUBST+=         PREFIX=${PREFIX}
-MAKEFILE=               makefile
+MAKE_FILE=              makefile
 
 do-install:
 	${INSTALL_DATA_DIR} ${PREFIX}/share/doc/html/tcoffee

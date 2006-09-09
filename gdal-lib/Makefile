@@ -17,7 +17,7 @@ USE_LIBTOOL=		yes
 GNU_CONFIGURE=		yes
 USE_TOOLS+=		gmake
 
-MAKEFILE=		GNUmakefile
+MAKE_FILE=		GNUmakefile
 
 PKG_OPTIONS_VAR=	PKG_OPTIONS.gdal-lib
 PKG_SUPPORTED_OPTIONS=	pgsql mysql

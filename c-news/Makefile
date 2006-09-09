@@ -55,7 +55,7 @@ NROFF?=		nroff -Tascii
 
 EXTRACT_ONLY=	${DISTNAME}${EXTRACT_SUFX}
 CONFLICTS=	inn-[1-9]*
-MAKEFILE=	makefile
+MAKE_FILE=	makefile
 DIST_SUBDIR=	${DISTNAME}
 
 .include "Makefile.common"
@@ -111,9 +111,9 @@ do-install:
 	${MKDIR} ${CNEWSARTS} ${CNEWSOV} ${CNEWSBIN} ${CNEWSCTL}
 	${CHOWN} ${BINOWN}:${BINGRP} ${CNEWSBIN}
 	${INSTALL_SCRIPT} ${WRKSRC:Q}/${PGPVERIFY:Q} ${CNEWSBIN:Q}/pgpverify
-	cd ${WRKSRC:Q} && ${MAKE} ${MAKE_FLAGS} ${MAKEFILE} install
-	cd ${WRKSRC:Q} && ${MAKE} ${MAKE_FLAGS} ${MAKEFILE} setup
-	cd ${WRKSRC:Q} && ${MAKE} ${MAKE_FLAGS} ${MAKEFILE} ui readpostcheck
+	cd ${WRKSRC:Q} && ${MAKE} ${MAKE_FLAGS} ${MAKE_FILE} install
+	cd ${WRKSRC:Q} && ${MAKE} ${MAKE_FLAGS} ${MAKE_FILE} setup
+	cd ${WRKSRC:Q} && ${MAKE} ${MAKE_FLAGS} ${MAKE_FILE} ui readpostcheck
 .for f in checknews cnewsdo inews injnews postnews readnews
 	${CHOWN} ${BINOWN}:${BINGRP} ${PREFIX:Q}/bin/${f:Q}
 .endfor

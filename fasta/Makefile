@@ -11,7 +11,7 @@ MAINTAINER=		hdp@cs.nmsu.edu
 HOMEPAGE=		http://fasta.bioch.virginia.edu/
 COMMENT=		FASTA sequence comparison programs
 
-MAKEFILE=		Makefile.NetBSD
+MAKE_FILE=		Makefile.NetBSD
 
 WRKSRC=			${WRKDIR}
 
@@ -20,10 +20,10 @@ LICENSE=		no-commercial-use
 post-extract:
 	${SED} -e 's:/seqprg/slib/bin:@PREFIX@:' \
 	       -e 's:your.host.here:@HOSTNAME@:' \
-	        ${WRKSRC:Q}/${MAKEFILE:Q} > ${WRKSRC:Q}/${MAKEFILE:Q}.in
+	        ${WRKSRC:Q}/${MAKE_FILE:Q} > ${WRKSRC:Q}/${MAKE_FILE:Q}.in
 
 do-configure:
-	${SED} < ${WRKSRC:Q}/${MAKEFILE:Q}.in > ${WRKSRC:Q}/${MAKEFILE:Q} \
+	${SED} < ${WRKSRC:Q}/${MAKE_FILE:Q}.in > ${WRKSRC:Q}/${MAKE_FILE:Q} \
  		-e 's:@PREFIX@:${PREFIX}:' \
 	        -e 's:@HOSTNAME@:fasta.bioch.virginia.edu:'
 do-install:

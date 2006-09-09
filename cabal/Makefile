@@ -10,7 +10,7 @@ HOMEPAGE=		http://www.haskell.org/cabal/release/${DISTNAME}/
 COMMENT=		Haskell common architecture for building applications and libraries
 
 USE_TOOLS+=		gmake
-MAKEFILE=		GNUmakefile
+MAKE_FILE=		GNUmakefile
 
 GHCVERSION_cmd=		${PREFIX}/bin/ghc -V | ${CUT} -d ' ' -f 8
 GHCVERSION=		${GHCVERSION_cmd:sh}

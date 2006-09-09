@@ -9,7 +9,7 @@ MAINTAINER=		hdp@cs.nmsu.edu
 HOMEPAGE=		http://www.tigr.org/software/glimmerm/
 COMMENT=		Gene finder developed specifically for eukaryotes
 
-MAKEFILE=		makefile
+MAKE_FILE=		makefile
 USE_TOOLS+=		gmake
 
 WRKSRC=			${WRKDIR}/GlimmerM

@@ -14,7 +14,7 @@ USE_X11=		yes
 USE_LIBTOOL?=		yes
 LIBTOOL_OVERRIDE?=	${WRKSRC}/libtool
 GNU_CONFIGURE?=		yes
-MAKEFILE=		makefile
+MAKE_FILE=		makefile
 
 DISTINFO_FILE?=		${.CURDIR}/../gcl/distinfo
 COMMON_FILESDIR?=	${.CURDIR}/../gcl/files

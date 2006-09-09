@@ -11,7 +11,7 @@ HOMEPAGE=		${MASTER_SITES}
 COMMENT=		Thomson-Davis Editor
 
 USE_TOOLS+=		gmake
-MAKEFILE=		makefile
+MAKE_FILE=		makefile
 BUILD_TARGET=		tde
 
 SUBST_CLASSES+=		base

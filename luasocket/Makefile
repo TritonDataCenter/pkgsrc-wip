@@ -10,7 +10,7 @@ MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://www.cs.princeton.edu/~diego/professional/luasocket/
 COMMENT=		Gives socket capabilities to lua
 
-MAKEFILE=		${WRKSRC}/makefile
+MAKE_FILE=		${WRKSRC}/makefile
 BUILD_TARGET=		all
 USE_TOOLS+=		gmake
 

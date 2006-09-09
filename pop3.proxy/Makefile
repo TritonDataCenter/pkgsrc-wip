@@ -10,7 +10,7 @@ MAINTAINER=	oht@users.sourceforge.net
 HOMEPAGE=   	http://quietsche-entchen.de/cgi-bin/wiki.cgi/proxies/00-WikiIndex
 COMMENT=	The pop3.proxy is an application level proxy for POP3
 
-MAKEFILE= 	makefile
+MAKE_FILE= 	makefile
 WRKSRC=		${WRKDIR}/${DISTNAME}${BETA_TAG}
 
 .include "../../mail/clamav/buildlink3.mk"

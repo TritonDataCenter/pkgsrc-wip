@@ -16,7 +16,7 @@ COMMENT=		The Mixmaster anonymous remailer client
 
 BUILD_DIRS=		${WRKSRC}/Src
 MAKE_FLAGS+=		CC=${CC:Q} CFLAGS=${CFLAGS:M*:Q} LDFLAGS=${LDFLAGS:M*:Q} LIBS=
-MAKEFILE=		Makefile.in
+MAKE_FILE=		Makefile.in
 PKG_SYSCONFSUBDIR=	mixmaster
 
 # Configuration files modifiable at runtime.

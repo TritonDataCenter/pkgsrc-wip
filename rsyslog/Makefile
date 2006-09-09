@@ -9,7 +9,7 @@ MAINTAINER=		bartosz@atom.eu.org
 HOMEPAGE=		http://www.rsyslog.com/
 COMMENT=		Rsyslog, the enhanced syslogd for Unix
 
-MAKEFILE=		master.make
+MAKE_FILE=		master.make
 VPATH=			./ # Required for master.make.
 
 SUBST_CLASSES+=		paths

@@ -8,7 +8,7 @@ MAINTAINER=	oht@users.sourceforge.net
 HOMEPAGE=   	http://quietsche-entchen.de/cgi-bin/wiki.cgi/proxies/00-WikiIndex
 COMMENT=	The smtp.proxy is an application level gateway for SMTP
 
-MAKEFILE= 	makefile
+MAKE_FILE= 	makefile
 #WRKSRC=		${WRKDIR}/${DISTNAME}${BETA_TAG}
 
 #USE_BUILDLINK3= YES

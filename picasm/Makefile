@@ -10,7 +10,7 @@ MAINTAINER=	pancake@phreaker.net
 HOMEPAGE=	http://hyvatti.iki.fi/~jaakko/pic/
 COMMENT=	Assembler for Microchip PIC16Cxx microcontrollers
 
-MAKEFILE=	makefile.uni
+MAKE_FILE=	makefile.uni
 BUILD_TARGET=	picasm
 WRKSRC=		${WRKDIR}
 

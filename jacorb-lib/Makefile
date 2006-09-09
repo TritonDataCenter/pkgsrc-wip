@@ -19,7 +19,7 @@ PKG_JVMS_ACCEPTED+=	sun-jdk14
 DIST_VERSION=           1_4_1
 PKG_VERSION=            1.4.1
 
-MAKEFILE=	        build.xml
+MAKE_FILE=	        build.xml
 
 do-install:
 	@${ECHO} "Installing lib"

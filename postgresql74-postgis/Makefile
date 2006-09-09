@@ -40,7 +40,7 @@ SCRIPTDIR=		${PREFIX}/share/postgis
 MAKE_ENV+=		PROJ_DIR=${PREFIX:Q}
 MAKE_ENV+=		GEOS_DIR=${PREFIX:Q}
 
-MAKEFILE=		GNUmakefile
+MAKE_FILE=		GNUmakefile
 
 # configures postgis source within contrib directory
 post-configure:

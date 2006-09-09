@@ -17,12 +17,12 @@ MAKE_ENV+=		LIBOSSAUDIO=${LIBOSSAUDIO:Q}
 .include "../../mk/bsd.prefs.mk"
 
 .if ${OPSYS} == "Linux"
-# do nothing, MAKEFILE is already set to "Makefile"
+# do nothing, MAKE_FILE is already set to "Makefile"
 # not compiling? see TODO!
 .elif ${OPSYS} == "Solaris"
-MAKEFILE=		Makefile.sun
+MAKE_FILE=		Makefile.sun
 .else
-MAKEFILE=		Makefile.nol
+MAKE_FILE=		Makefile.nol
 .endif
 
 # see TODO

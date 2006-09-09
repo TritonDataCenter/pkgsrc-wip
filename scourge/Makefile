@@ -12,7 +12,7 @@ COMMENT=		Graphical 3D roguelike, vermin extermination
 
 PKG_INSTALLATION_TYPES=	overwrite pkgviews
 
-MAKEFILE=		Makefile.Fedora
+MAKE_FILE=		Makefile.Fedora
 
 post-extract:
 	${CP} ${FILESDIR}/scourge.sh ${WRKSRC}

@@ -16,7 +16,7 @@ DEPENDS+=		doxygen>=1.4.1:../../devel/doxygen
 USE_TOOLS+=		gmake
 GNU_CONFIGURE=		YES
 
-MAKEFILE=		GNUmakefile
+MAKE_FILE=		GNUmakefile
 
 BUILD_TARGET=		docs
 INSTALL_TARGET=		install-docs

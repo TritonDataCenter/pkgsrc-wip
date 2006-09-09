@@ -12,7 +12,7 @@ HOMEPAGE=		http://www.musepack.net/
 COMMENT=		MPEG-Plus and MusePack decoder
 
 WRKSRC=			${WRKDIR}/sv7
-MAKEFILE=		Makefile.bsd
+MAKE_FILE=		Makefile.bsd
 MAKE_ENV+=		LIBOSSAUDIO=${LIBOSSAUDIO:Q}
 MAKE_ENV+=		PREFIX=${PREFIX:Q}
 

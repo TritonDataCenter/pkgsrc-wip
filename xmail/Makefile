@@ -32,7 +32,7 @@ EXT=bsd # Default one :)
 .	endif
 .endif
 
-MAKEFILE=Makefile.${EXT}
+MAKE_FILE=Makefile.${EXT}
 
 do-install:
 	${INSTALL_PROGRAM_DIR} ${PREFIX}/libexec/xmail

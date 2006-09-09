@@ -24,7 +24,7 @@ DIST_SUBDIR=	${PKGNAME_NOREV}
 # also tar ball has windows executable?
 
 # todo: maybe patch Makefile.unix for CC and CFLAGS not overwritten
-MAKEFILE=	Makefile.unix
+MAKE_FILE=	Makefile.unix
 BUILD_TARGET=	tr2latex
 PKGMANDIR?=	man  # until in pkgsrc
 INSTALLATION_DIRS=	bin ${PKGMANDIR}/man1 share/texmf/tex/latex/misc

@@ -10,7 +10,7 @@ MAINTAINER=		hernani@vecirex.net
 HOMEPAGE=		http://tobias.eyedacor.org/typespeed/
 COMMENT=		Game to measure your typing speed, with network mode
 
-MAKEFILE=		${FILESDIR}/Makefile
+MAKE_FILE=		${FILESDIR}/Makefile
 
 pre-patch:
 	${MV} ${WRKSRC}/typespeed.1 ${WRKSRC}/typespeed.6

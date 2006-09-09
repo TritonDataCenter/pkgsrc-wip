@@ -13,7 +13,7 @@ USE_TOOLS+=		gmake
 USE_LANGUAGES=		c++
 MANCOMPRESSED=		yes
 
-MAKEFILE=		makefile
+MAKE_FILE=		makefile
 
 PKG_SYSCONFSUBDIR=	highlight
 

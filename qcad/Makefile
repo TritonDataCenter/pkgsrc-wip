@@ -61,7 +61,7 @@ pre-build:
 	${_PKG_SILENT}${_PKG_DEBUG}${_ULIMIT_CMD}for DIR in ${BUILD_DIRS} ; do \
 		( cd $${DIR} &&  \
 		${SETENV} ${MAKE_ENV} ${MAKE_PROGRAM} ${BUILD_MAKE_FLAGS} \
-		-f ${MAKEFILE} prepare ) || exit 1 ; done
+		-f ${MAKE_FILE} prepare ) || exit 1 ; done
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/qcad/qcad ${PREFIX}/bin

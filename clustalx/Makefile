@@ -12,7 +12,7 @@ COMMENT=		X-Windows interface for ClustalW
 
 WRKSRC=                 ${WRKDIR}/clustalx1.83.sun
 MESSAGE_SUBST+=         PREFIX=${PREFIX}
-MAKEFILE=		makefile
+MAKE_FILE=		makefile
 
 do-install:
 .for PROGRAM in clustalx

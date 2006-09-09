@@ -17,7 +17,7 @@ USE_LANGUAGES=		c c++
 USE_TOOLS+=		gmake pkg-config
 BUILD_DIRS=		scintilla/gtk scite/gtk
 MAKE_FLAGS+=		GTK2=1 CPPFLAGS=-Dunix
-MAKEFILE=		makefile
+MAKE_FILE=		makefile
 
 do-install:
 	cd ${WRKSRC}/scite/gtk && ${GMAKE} GTK2=1 install

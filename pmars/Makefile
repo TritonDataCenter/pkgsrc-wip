@@ -13,7 +13,7 @@ COMMENT=		The official Core Wars simulator
 
 WRKSRC=		${WRKDIR}/${PKGNAME}
 USE_TOOLS+=		pkg-config gmake
-MAKEFILE=	makefile
+MAKE_FILE=	makefile
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/pmars ${PREFIX}/bin

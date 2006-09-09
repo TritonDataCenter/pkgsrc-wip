@@ -11,7 +11,7 @@ HOMEPAGE=		http://www.ebi.ac.uk/Wise2/
 COMMENT=		Tool for Comparing bio polymers like DNA and Protein sequences
 
 WRKSRC=			${WRKDIR}/wise2.2.0/src
-MAKEFILE=		makefile
+MAKE_FILE=		makefile
 MESSAGE_SUBST+=		PREFIX=${PREFIX}
 
 do-install:

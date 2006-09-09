@@ -12,7 +12,7 @@ MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://www.fish2.com/cops/
 COMMENT=		Computer Oracle and Password System
 
-MAKEFILE=		makefile
+MAKE_FILE=		makefile
 
 USE_TOOLS+=	gmake
 

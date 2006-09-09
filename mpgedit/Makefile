@@ -12,7 +12,7 @@ MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://www.mpgedit.org/mpgedit/
 COMMENT=		MPEG audio file editor
 
-MAKEFILE=		makefile.linux
+MAKE_FILE=		makefile.linux
 
 do-install:
 	${INSTALL_DATA_DIR} ${PREFIX}/share/xmpgedit
