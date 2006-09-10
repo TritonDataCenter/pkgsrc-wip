@@ -42,11 +42,7 @@ share/examples/avahi/avahi-dnsconfd.action
 share/examples/avahi/hosts
 share/examples/avahi/ssh.service
 share/examples/rc.d/avahidaemon
-@dirrm share/examples/avahi
 @dirrm share/doc/avahi
-@exec ${MKDIR} %D/share/avahi/introspection
-@dirrm share/avahi/introspection
-@dirrm share/avahi
 @dirrm include/avahi-core
 @dirrm include/avahi-common
 @unexec ${RMDIR} %D/etc/avahi/services 2>/dev/null || ${TRUE}

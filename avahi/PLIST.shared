@@ -1,0 +1,5 @@
+@comment $NetBSD$
+@unexec ${RMDIR} %D/share/examples/avahi 2>/dev/null || ${TRUE}
+@unexec ${RMDIR} %D/share/avahi/introspection 2>/dev/null || ${TRUE}
+@unexec ${RMDIR} %D/share/avahi/interfaces 2>/dev/null || ${TRUE}
+@unexec ${RMDIR} %D/share/avahi 2>/dev/null || ${TRUE}

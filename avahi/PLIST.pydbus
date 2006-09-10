@@ -1,0 +1,4 @@
+@comment $NetBSD$
+man/man1/avahi-bookmarks.1
+man/man1/avahi-discover.1
+share/avahi/interfaces/avahi-discover.glade
