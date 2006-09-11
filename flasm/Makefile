@@ -1,7 +1,7 @@
 # $NetBSD$
 
 DISTNAME=		flasm16src
-PKGNAME=		flasm-16
+PKGNAME=		flasm-1.6.1
 CATEGORIES=		devel
 MASTER_SITES=		http://www.nowrap.de/download/
 EXTRACT_SUFX=		.zip
