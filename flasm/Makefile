@@ -13,12 +13,12 @@ COMMENT=		Flasm is a assembler/disassembler of Flash ActionScript bytecode
 WRKSRC=			${WRKDIR}
 NO_CONFIGURE=		yes
 USE_TOOLS+=		gmake
+USE_GNU_TOOLS+=         yacc
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/flasm ${PREFIX}/bin
 
 .include "../../devel/flex/buildlink3.mk"
-.include "../../devel/bison/buildlink3.mk"
 .include "../../devel/gperf/buildlink3.mk"
 .include "../../devel/zlib/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
