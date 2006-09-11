@@ -1,2 +1,5 @@
 @comment $NetBSD$
 bin/flasm
+share/examples/flasm.ini
+share/doc/flasm.html
+share/doc/classic.css
