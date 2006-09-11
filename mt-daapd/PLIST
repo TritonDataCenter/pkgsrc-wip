@@ -2,7 +2,7 @@
 sbin/mt-daapd
 share/examples/mt-daapd/mt-daapd.conf
 share/examples/mt-daapd/mt-daapd.playlist
-share/examples/rc.d/mt_daapd
+share/examples/rc.d/mtdaapd
 share/mt-daapd/admin-root/aspl-license.html
 share/mt-daapd/admin-root/aspl-license.txt
 share/mt-daapd/admin-root/config-update.html

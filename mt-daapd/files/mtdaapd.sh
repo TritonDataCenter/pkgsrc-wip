@@ -1,14 +1,14 @@
 #!@RCD_SCRIPTS_SHELL@
 #
-# $NetBSD: daapd.sh,v 1.5 2006/01/01 18:34:13 tron Exp $
+# $NetBSD$
 #
 
-# PROVIDE: mt_daapd
+# PROVIDE: mtdaapd
 # REQUIRE: DAEMON LOGIN
 
 . /etc/rc.subr
 
-name="mt_daapd"
+name="mtdaapd"
 rcvar=$name
 command="@PREFIX@/sbin/mt-daapd"
 required_files="@PKG_SYSCONFDIR@/mt-daapd.conf"
