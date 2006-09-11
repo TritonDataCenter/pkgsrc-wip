@@ -1,6 +1,7 @@
 # $NetBSD:$
 
 DISTNAME=	guile-gnome-platform-2.7.99
+PKGREVISION=	1
 CATEGORIES=	devel
 MASTER_SITES=	http://ftp.gnu.org/gnu/guile-gnome/guile-gnome-platform/
 
