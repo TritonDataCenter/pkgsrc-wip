@@ -1,0 +1,8 @@
+@comment $NetBSD$
+${PYSITELIB}/ming.py
+${PYSITELIB}/ming.pyc
+${PYSITELIB}/ming.pyo
+${PYSITELIB}/mingc.py
+${PYSITELIB}/mingc.pyc
+${PYSITELIB}/mingc.pyo
+${PYSITELIB}/_mingc.so
