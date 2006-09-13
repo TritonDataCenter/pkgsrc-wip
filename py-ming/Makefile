@@ -6,7 +6,7 @@ PKGNAME=		${PYPKGPREFIX}-ming-0.3.0
 CATEGORIES=		multimedia
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=ming/}
 
-MAINTAINER=		pkgsrc-users@NetBSD.org
+MAINTAINER=		obache@NetBSD.org
 HOMEPAGE=		http://ming.sourceforge.net/
 COMMENT=		Python bindings for Ming library
 
