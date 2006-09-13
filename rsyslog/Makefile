@@ -7,7 +7,7 @@ MASTER_SITES=		http://download.adiscon.com/rsyslog/
 
 MAINTAINER=		bartosz@atom.eu.org
 HOMEPAGE=		http://www.rsyslog.com/
-COMMENT=		Rsyslog, the enhanced syslogd for Unix
+COMMENT=		The enhanced syslogd for Unix
 
 MAKE_FILE=		master.make
 VPATH=			./ # Required for master.make.
