@@ -1,0 +1,5 @@
+@comment $NetBSD$
+bin/sxid
+man/man1/sxid.1
+man/man5/sxid.conf.5
+share/examples/sxid/sxid.conf
