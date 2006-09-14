@@ -10,6 +10,8 @@ COMMENT=		GUI front end for Gnuplot plotting package
 
 WRKSRC=			${WRKDIR}/xgfe-2.1/source
 
+USE_LANGUAGES=		c c++
+
 .include "../../x11/qt3-libs/buildlink3.mk"
 .include "../../mk/x11.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

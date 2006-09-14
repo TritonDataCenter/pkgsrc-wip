@@ -10,6 +10,7 @@ COMMENT=		Graphical file comparator and merge tool
 
 BUILD_DEPENDS+=		tmake>=1.7:../../devel/tmake
 
+USE_LANGUAGES=		c c++
 USE_TOOLS+=		bison flex gmake
 
 BUILD_DIRS=		src

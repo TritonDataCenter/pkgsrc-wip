@@ -14,6 +14,7 @@ VERSION=	1.5.0
 
 WRKSRC=		${WRKDIR}/${PKGNAME_NOREV}
 GNU_CONFIGURE=	YES
+USE_LANGUAGES=	c c++
 
 .include "../../graphics/SDL_image/buildlink3.mk"
 .include "../../audio/SDL_mixer/buildlink3.mk"
