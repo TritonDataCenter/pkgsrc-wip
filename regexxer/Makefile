@@ -9,6 +9,8 @@ MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://regexxer.sourceforge.net/
 COMMENT=	Interactive tool for performing search and replace operations
 
+DEPENDS+=       p5-XML-Parser-[0-9]*:../../textproc/p5-XML-Parser
+
 GNU_CONFIGURE=		yes
 USE_DIRS+=		gnome2-1.5
 USE_LANGUAGES=		c c++
