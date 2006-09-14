@@ -14,6 +14,7 @@ COMMENT=	Simple but powerful audio player
 PTHREAD_OPTS+=	require
 
 GNU_CONFIGURE=	yes
+USE_LANGUAGES=	c c++
 USE_TOOLS+=	gmake
 #USE_PERL5=	yes
 

@@ -12,6 +12,7 @@ COMMENT=		Open Source Geographic Information System
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 USE_TOOLS+=		gmake
+USE_LANGUAGES=		c c++
 USE_LIBTOOL=		YES
 
 CONFIGURE_ARGS+=	--without-grass
