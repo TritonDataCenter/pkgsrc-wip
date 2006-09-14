@@ -11,6 +11,7 @@ USE_TOOLS+=		gmake yacc m4:run
 GNU_CONFIGURE=		yes
 CONFIGURE_ARGS+=	--with-cflags=${CFLAGS:M*:Q}
 CONFIGURE_ARGS+=	--disable-plugin
+CONFIGURE_ARGS+=	--disable-shared
 CONFIGURE_ARGS+=	--datadir=${PREFIX}/share/dictd
 
 MESSAGE_SUBST+=		VARBASE="${VARBASE}"
