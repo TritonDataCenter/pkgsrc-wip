@@ -12,6 +12,7 @@ COMMENT=		SerLooK is a tool aimed to inspect and debug serial line data traffic
 
 WRKSRC=			${WRKDIR}/${DISTNAME:C/-KDE3//}/
 
+USE_LANGUAGES=	c c++
 USE_TOOLS+=	gmake
 GNU_CONFIGURE=	YES
 

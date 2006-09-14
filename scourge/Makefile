@@ -14,6 +14,8 @@ PKG_INSTALLATION_TYPES=	overwrite pkgviews
 
 MAKE_FILE=		Makefile.Fedora
 
+USE_LANGUAGES=		c c++
+
 post-extract:
 	${CP} ${FILESDIR}/scourge.sh ${WRKSRC}
 
