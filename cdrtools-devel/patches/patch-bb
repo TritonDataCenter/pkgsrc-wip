@@ -1,8 +1,8 @@
 $NetBSD$
 
---- mkisofs/mkisofs.c.orig	2006-01-12 00:29:46.000000000 +0000
+--- mkisofs/mkisofs.c.orig	2006-09-12 09:44:33.000000000 +0000
 +++ mkisofs/mkisofs.c
-@@ -2412,12 +2412,12 @@ parse_input_files:
+@@ -2163,12 +2163,12 @@ args_ok:
  		}
  	}
  	/* We don't need root privilleges anymore. */
