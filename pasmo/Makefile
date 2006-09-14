@@ -10,6 +10,7 @@ MAINTAINER=		ivaniclixx@gmail.com
 HOMEPAGE=		http://www.arrakis.es/~ninsesabe/pasmo/
 COMMENT=		Z80 cross assembler written in C++
 
+USE_LANGUAGES=		c c++
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/pasmo ${PREFIX}/bin/
 	${INSTALL_DATA_DIR} ${PREFIX}/share/doc/pasmo/
