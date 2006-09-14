@@ -10,6 +10,7 @@ HOMEPAGE=		http://openmodeller.sourceforge.net/
 COMMENT=		Spatial distribution modelling library
 
 USE_PKGLOCALEDIR=	YES
+USE_LANGUAGES=		c c++
 USE_LIBTOOL=		YES
 LIBTOOL_OVERRIDE=	${WRKSRC}/libtool
 GNU_CONFIGURE=		YES

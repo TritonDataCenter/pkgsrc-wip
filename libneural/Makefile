@@ -11,6 +11,7 @@ COMMENT=	C++ library for creating 3-layer backpropagation neural networks
 CONFIGURE_PREFIX+= ${PREFIX}
 MAKE_FLAGS+= prefix=${PREFIX:Q}
 
+USE_LANGUAGES=	c c++
 post-patch:
 	${CHMOD} +x ${WRKSRC}/configure
 

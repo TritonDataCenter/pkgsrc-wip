@@ -12,6 +12,7 @@ HOMEPAGE=		http://www.surina.net/soundtouch/
 COMMENT=		Audio Processing Library
 
 WRKSRC=			${WRKDIR}/SoundTouch-1.3.0
+USE_LANGUAGES=		c c++
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 

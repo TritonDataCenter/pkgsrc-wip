@@ -12,6 +12,7 @@ COMMENT=		A development library for bioinformatic software
 
 WRKSRC=			${WRKDIR}/libgenome-0.5.2
 USE_PKGLOCALEDIR=	yes
+USE_LANGUAGES=		c c++
 USE_LIBTOOL=		yes
 LIBTOOL_OVERRIDE=	${WRKSRC}/libtool
 GNU_CONFIGURE=		yes

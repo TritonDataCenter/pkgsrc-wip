@@ -12,6 +12,7 @@ GNU_CONFIGURE=	YES
 USE_LIBTOOL=	YES
 LTCONFIG_OVERRIDE=	${WRKSRC}/ltconfig
 USE_TOOLS+=	automake
+USE_LANGUAGES=	c c++
 
 pre-configure:
 	cd ${WRKSRC} && aclocal
