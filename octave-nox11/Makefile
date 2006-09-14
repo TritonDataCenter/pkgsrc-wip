@@ -25,6 +25,7 @@ BROKEN=		Internal compiler error occurs on arm32 (even with gcc-2.95.3)
 .endif
 
 USE_GNU_READLINE=	yes
+USE_LANGUAGES=		c c++ fortran
 USE_LIBTOOL=		yes
 USE_TOOLS+=		gmake makeinfo
 GNU_CONFIGURE=		yes
