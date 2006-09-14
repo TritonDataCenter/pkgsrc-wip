@@ -14,6 +14,7 @@ HOMEPAGE=		http://blassic.org/
 COMMENT=		Blassic is a classic Basic interpreter
 
 GNU_CONFIGURE=		yes
+USE_LANGUAGES=		c c++
 
 .include "../../mk/bsd.options.mk"
 

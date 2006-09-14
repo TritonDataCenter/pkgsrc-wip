@@ -13,6 +13,7 @@ DEPENDS+=		sox-[0-9]*:../../audio/sox
 
 USE_PERL5=		yes
 USE_TOOLS+=		gmake
+USE_LANGUAGES=		c c++
 
 .include "../../mk/oss.buildlink3.mk"
 

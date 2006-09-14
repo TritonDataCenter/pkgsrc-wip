@@ -10,6 +10,7 @@ MAINTAINER=     pkgsrc-users@NetBSD.org
 HOMEPAGE=       http://lancet.mit.edu/ga/
 COMMENT=        GAlib contains a set of C++ genetic algorithm objects
 
+USE_LANGUAGES=		c c++
 USE_TOOLS+=		gmake
 
 pre-configure:

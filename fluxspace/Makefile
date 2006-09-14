@@ -11,6 +11,7 @@ COMMENT=		Fluxbox workspace manager, environment
 
 GNU_CONFIGURE=		YES
 USE_LIBTOOL=		YES
+USE_LANGUAGES=		c c++
 USE_TOOLS+=		gmake
 PY_PATCHPLIST=		YES
 
