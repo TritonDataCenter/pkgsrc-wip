@@ -13,7 +13,7 @@ MAINTAINER=	pih@xbase.dk
 HOMEPAGE=	http://mgw.k-fish.de/
 COMMENT=	Web based GroupWare system
 
-DEPENDS+=	php-curl>=4.3.4:../../www/php-curl
+DEPENDS+=	php4-curl>=4.3.4:../../www/php-curl
 DEPENDS+=	mysql4-server>=4.0.0:../../databases/mysql4-server
 DEPENDS+=	php-ldap>=4.3.4:../../databases/php-ldap
 DEPENDS+=	php-mysql>=4.3.4:../../databases/php-mysql
