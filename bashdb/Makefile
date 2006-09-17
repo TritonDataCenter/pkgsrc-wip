@@ -10,6 +10,8 @@ MAINTAINER=		splitscreen@users.sourceforg.net
 HOMEPAGE=		http://easynews.dl.sourceforge.net/sourceforge/bashdb/
 COMMENT=		The Bash debugger project
 
+DEPENDS+=		bash-[0-9]*:../../shells/bash
+
 USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=		yes
 GNU_CONFIGURE=          yes
