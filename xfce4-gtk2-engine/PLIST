@@ -1,5 +1,5 @@
 @comment $NetBSD$
-lib/gtk-2.0/2.4.0/engines/libxfce.la
+lib/gtk-2.0/2.10.0/engines/libxfce.la
 share/themes/Xfce-4.0/ICON.png
 share/themes/Xfce-4.0/README.html
 share/themes/Xfce-4.0/gtk-2.0/gtkrc
