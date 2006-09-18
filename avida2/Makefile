@@ -12,6 +12,7 @@ COMMENT=        Avida is an auto-adaptive genetic system
 HAS_CONFIGURE=		YES
 GNU_CONFIGURE=		YES
 CONFIGURE_ARGS+=	--enable-viewer
+USE_LANGUAGES=		c c++
 USE_TOOLS+=		gmake
 
 pre-configure:
