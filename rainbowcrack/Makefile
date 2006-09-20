@@ -19,13 +19,15 @@ USE_LANGUAGES=		c c++
 USE_TOOLS+=		patch
 MAKE_FILE=		${FILESDIR}/Makefile
 USE_OLD_DES_API=	yes
-INSTALLATION_DIRS=	bin share/doc/rainbowcrack
+INSTALLATION_DIRS=	bin share/doc/rainbowcrack share/rainbowcrack
 
 post-patch:
 	cd ${WRKSRC}/src && ${PATCH} < ${WRKDIR}/Public.cpp.diff
 
 post-install:
-	cd ${WRKSRC}/doc && ${INSTALL_DATA} *.htm ${PREFIX}/share/doc/rainbowcrack/
+	cd ${WRKSRC}/doc && ${INSTALL_DATA} *.htm \
+		${PREFIX}/share/doc/rainbowcrack/
+	${INSTALL_DATA} ${WRKSRC}/src/charset.txt ${PREFIX}/share/rainbowcrack
 
 .include "../../security/openssl/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
