@@ -3,6 +3,7 @@
 
 DISTNAME=		Twisted-${TWISTED_VERSION}
 PKGNAME=		${PYPKGPREFIX}-twisted-core-${TWISTED_VERSION}
+PKGREVISION=		1
 CATEGORIES=		net python
 MASTER_SITES=		http://tmrc.mit.edu/mirror/twisted/Twisted/2.4/
 EXTRACT_SUFX=		.tar.bz2
@@ -16,7 +17,7 @@ DEPENDS+=	${PYPKGPREFIX}-twisted-zopeinterface>=3.1.0c1:../../wip/py-twisted-zop
 
 PYDISTUTILSPKG=		yes
 
-CONFLICTS+=            ${PYPKGPREFIX}-twisted-[0-9]*
+CONFLICTS+=            ${PYPKGPREFIX}-twisted<2.4
 
 .include "../../lang/python/extension.mk"
 .include "../../mk/bsd.pkg.mk"
