@@ -13,16 +13,19 @@ MAINTAINER=		dhowland@users.sourceforge.net
 HOMEPAGE=		http://www.antsight.com/zsl/rainbowcrack
 COMMENT=		Hash cracker
 
-WRKSRC=			${WRKDIR}/rainbowcrack-1.2-src/src
-
+BUILD_DIRS=		src
 EXTRACT_OPTS_ZIP=	-aqo
 USE_LANGUAGES=		c c++
-USE_TOOLS+=		gmake patch
+USE_TOOLS+=		patch
+MAKE_FILE=		${FILESDIR}/Makefile
+USE_OLD_DES_API=	yes
+INSTALLATION_DIRS=	bin share/doc/rainbowcrack
 
-pre-build:
-	${CP} ${WRKDIR}/makefile.openbsd ${WRKSRC}/Makefile
-	## ${CP} ${WRKSRC}/makefile.linux ${WRKSRC}/Makefile
-	cd ${WRKSRC} && ${PATCH} <${WRKDIR}/Public.cpp.diff
+post-patch:
+	cd ${WRKSRC}/src && ${PATCH} < ${WRKDIR}/Public.cpp.diff
+
+post-install:
+	cd ${WRKSRC}/doc && ${INSTALL_DATA} *.htm ${PREFIX}/share/doc/rainbowcrack/
 
 .include "../../security/openssl/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

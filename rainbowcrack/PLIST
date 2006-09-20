@@ -1,1 +1,9 @@
 @comment $NetBSD$
+bin/rcrack
+bin/rtdump
+bin/rtgen
+bin/rtsort
+share/doc/rainbowcrack/configurations.htm
+share/doc/rainbowcrack/customcharset.htm
+share/doc/rainbowcrack/rcrackdemo.htm
+share/doc/rainbowcrack/rcracktutorial.htm
