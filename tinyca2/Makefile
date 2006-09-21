@@ -1,7 +1,8 @@
-# $NetBSD$ 
+# $NetBSD$
+#
 
-DISTNAME=	tinyca2-0.7.2
-PKGREVISION=	1
+DISTNAME=	tinyca2-0.7.5
+#PKGREVISION=	1
 CATEGORIES=	security
 MASTER_SITES=	http://tinyca.sm-zone.net/
 
