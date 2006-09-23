@@ -12,4 +12,14 @@ GNU_CONFIGURE=	YES
 
 INSTALLATION_DIRS=	bin ${PKGMANDIR}/man1
 
+.include "../../mk/bsd.prefs.mk"
+.if !empty(LOWER_OPSYS:Mirix5*)
+# needs regex.h
+. include "../../pkgtools/libnbcompat/buildlink3.mk"
+SUBST_CLASSES+=		 regex_h
+SUBST_STAGE.regex_h=	post-patch
+SUBST_FILES.regex_h=	score.c
+SUBST_SED.regex_h=	-e "s,<regex\.h>,<nbcompat/regex.h>,"
+.endif
+
 .include "../../mk/bsd.pkg.mk"

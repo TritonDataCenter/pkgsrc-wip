@@ -20,6 +20,8 @@ USE_TOOLS+=	gmake lex
 
 .if !empty(LOWER_OPSYS:Mirix5*)
 CPPFLAGS+=	-Dsocklen_t=int
+# needs snprintf()
+. include "../../pkgtools/libnbcompat/buildlink3.mk"
 .endif
 
 PKG_SUPPORTED_OPTIONS=	inet6

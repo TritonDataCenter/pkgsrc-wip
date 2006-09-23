@@ -12,4 +12,9 @@ COMMENT=		Converting ESRI-E00 coverages into PostgreSQL/PostGIS sql instructions
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 
+.include "../../mk/bsd.prefs.mk"
+.if !empty(LOWER_OPSYS:Mirix5*)
+# needs snprintf()
+. include "../../pkgtools/libnbcompat/buildlink3.mk"
+.endif
 .include "../../mk/bsd.pkg.mk"
