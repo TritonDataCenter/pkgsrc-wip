@@ -18,6 +18,9 @@ GNU_CONFIGURE=	YES
 USE_TOOLS+=	gmake
 
 CONFIGURE_ARGS+=	--sysconfdir=${PKG_SYSCONFDIR:Q}
+.if ${OPSYS} == "IRIX" || ${OPSYS} == "Solaris" || ${OPSYS} == "Dragonfly"
+CONFIGURE_ARGS+=	--with-target=BSD # just give it a try
+.endif
 
 INSTALLATION_DIRS=	sbin ${PKGMANDIR}/man5 ${PKGMANDIR}/man8 \
 			share/examples/pdnsd
