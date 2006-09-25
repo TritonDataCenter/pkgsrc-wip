@@ -17,9 +17,9 @@ MAINTAINER=		dhowland@users.sourceforge.net
 HOMEPAGE=		http://www.realvnc.com/
 COMMENT=		Display X and Win32 desktops on remote X/Win32/Java displays
 
-CONFLICTS+=		vnc-*
-CONFLICTS+=		vncviewer-*
-CONFLICTS+=		vncviewer4-*
+CONFLICTS+=		vnc-[0-9]*
+CONFLICTS+=		vncviewer-[0-9]*
+CONFLICTS+=		vncviewer4-[0-9]*
 
 WRKSRC=			${WRKDIR}/${DISTNAME}/unix
 
@@ -28,7 +28,7 @@ CONFIGURE_ARGS+=        --with-installed-zlib
 NO_INSTALL_MANPAGES=    yes
 
 USE_LANGUAGES=		c c++
-USE_TOOLS+=		perl:run
+USE_TOOLS+=		perl:run tar
 REPLACE_PERL=		vncserver
 
 SUBST_CLASSES+=		pl
