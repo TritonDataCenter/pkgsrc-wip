@@ -1,8 +1,8 @@
 $NetBSD$
 
---- mkisofs/mkisofs.c.orig	2006-09-15 15:04:56.000000000 +0000
+--- mkisofs/mkisofs.c.orig	2006-09-24 13:22:59.000000000 +0000
 +++ mkisofs/mkisofs.c
-@@ -2162,12 +2162,12 @@ args_ok:
+@@ -2166,12 +2166,12 @@ args_ok:
  		}
  	}
  	/* We don't need root privilleges anymore. */
