@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		nginx-0.4.2
+DISTNAME=		nginx-0.4.3
 CATEGORIES=		www
 MASTER_SITES=		http://sysoev.ru/nginx/
 
@@ -14,13 +14,8 @@ HAS_CONFIGURE=		yes
 
 PKG_SYSCONFBASE=	${PREFIX}/etc
 PKG_SYSCONFSUBDIR=	nginx
-#CDIR=			${PKG_SYSCONFDIR}
 
-#CONF_FILES=		${CDIR}/nginx.conf ${CDIR}/nginx.conf.default
-#CONF_FILES+=		${CDIR}/koi-win ${CDIR}/koi-utf ${CDIR}/win-utf
-#CONF_FILES+=		${CDIR}/mime.types ${CDIR}/mime.types.default
-
-BUILD_DEFS+=		PKG_SYSCONFBASE
+BUILD_DEFS+=		PKG_SYSCONFBASE VARBASE
 
 CONFIGURE_ARGS+=	--sbin-path=${PREFIX}/sbin
 CONFIGURE_ARGS+=	--conf-path=${PKG_SYSCONFDIR}/nginx.conf
