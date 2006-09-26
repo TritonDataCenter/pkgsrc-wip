@@ -12,6 +12,7 @@ PKGNAME=		qcad-2.0.5.0
 COMMENT=		2D CAD system
 
 GNU_CONFIGURE=		yes
+USE_LANGUAGES=		c c++
 USE_TOOLS+= 		gmake
 
 CONFIGURE_DIRS= 	${WRKSRC}/fparser ${WRKSRC}/dxflib
