@@ -14,6 +14,7 @@ GNU_CONFIGURE=		YES
 USE_LANGUAGES=		c c++
 
 WRKSRC=			${WRKDIR}/toppler-1.1.2
+LIBS+=			${BUILDLINK_LDADD.gettext}
 
 .include "../../devel/gettext-lib/buildlink3.mk"
 .include "../../devel/zlib/buildlink3.mk"
