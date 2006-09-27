@@ -33,4 +33,4 @@ post-install:
 	${SETENV} LD_LIBRARY_PATH=. MOZILLA_FIVE_HOME=. HOME=${WRKSRC:Q} \
 		./${MOZILLA_BIN} -register
 
-.include "../../www/mozilla/Makefile.common"
+.include "../../www/seamonkey/Makefile.common"
