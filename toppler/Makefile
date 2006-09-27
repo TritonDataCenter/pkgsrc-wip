@@ -1,7 +1,8 @@
 # $NetBSD$
 
-DISTNAME=		toppler-1.0.6
-PKGREVISION=		1
+DISTNAME=		toppler-1.1.2a
+PKGNAME=		toppler-1.1.2
+#PKGREVISION=		1
 CATEGORIES=		games
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=toppler/}
 
@@ -11,6 +12,8 @@ COMMENT=		Tower climbing game
 
 GNU_CONFIGURE=		YES
 USE_LANGUAGES=		c c++
+
+WRKSRC=			${WRKDIR}/toppler-1.1.2
 
 .include "../../devel/gettext-lib/buildlink3.mk"
 .include "../../devel/zlib/buildlink3.mk"
