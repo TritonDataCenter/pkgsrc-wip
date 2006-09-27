@@ -292,8 +292,10 @@ lib/${MOZILLA}/components/xultmpl.xpt
 lib/${MOZILLA}/defaults/autoconfig/platform.js
 lib/${MOZILLA}/defaults/autoconfig/prefcalls.js
 lib/${MOZILLA}/defaults/pref/channel-prefs.js
+lib/${MOZILLA}/defaults/pref/firefox-branding.js
 lib/${MOZILLA}/defaults/pref/firefox-l10n.js
 lib/${MOZILLA}/defaults/pref/firefox.js
+lib/${MOZILLA}/defaults/pref/reporter.js
 lib/${MOZILLA}/defaults/profile/bookmarks.html
 lib/${MOZILLA}/defaults/profile/chrome/userChrome-example.css
 lib/${MOZILLA}/defaults/profile/chrome/userContent-example.css

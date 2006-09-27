@@ -3,10 +3,10 @@
 MOZILLA=		firefox
 MOZ_EXTRA=		2
 MOZ_VER=		2.0${SUB_VER}
-SUB_VER=		beta2
-MOZ_DISTVER=		${MOZ_VER:S/beta/b/}
+SUB_VER=		rc1
+MOZ_DISTVER=		${MOZ_VER}
 
-HOMEPAGE=		http://www.mozilla.org/projects/bonecho/
+HOMEPAGE=		http://www.mozilla.com/en-US/firefox/2.0/releasenotes/
 COMMENT=		Lightweight gecko-based web browser (binary package)
 
 DIST_SUBDIR=		${MOZILLA}/${MOZ_DISTDIR}
