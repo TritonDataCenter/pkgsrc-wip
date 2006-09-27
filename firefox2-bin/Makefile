@@ -17,4 +17,4 @@ ONLY_FOR_PLATFORM+=	Linux-*-i386
 
 WRKSRC=			${WRKDIR}/firefox
 
-.include "../../www/mozilla-bin/Makefile.common"
+.include "../../www/seamonkey-bin/Makefile.common"
