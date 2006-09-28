@@ -5,11 +5,12 @@ CATEGORIES=		sysutils
 MASTER_SITES=		http://homepages.rya-online.net/plunky/
 DISTFILES=		bcmfw-1.0.tar.gz		\
 			bluez-firmware-1.2.tar.gz
-SITES.bluez-firmware-1.2.tar.gz= \
-			http://bluez.sourceforge.net/download/
 
 MAINTAINER=		plunky@rya-online.net
 COMMENT=		Broadcom 2033 Bluetooth Firmware Loader
+
+SITES.bluez-firmware-1.2.tar.gz= \
+			http://bluez.sourceforge.net/download/
 
 ONLY_FOR_PLATFORM=	NetBSD-[4-9].*-*
 
