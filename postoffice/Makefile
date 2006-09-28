@@ -43,5 +43,6 @@ CONFIGURE_ARGS+=--with-vhost=/etc/virtual \
 
 post-install:
 	${INSTALL_DATA} ${FILESDIR}/postoffice.cf ${PREFIX}/share/examples/postoffice
+	${INSTALL_SCRIPT} ${FILESDIR}/pop_passwd.pl ${PREFIX}/share/examples/postoffice
 
 .include "../../mk/bsd.pkg.mk"

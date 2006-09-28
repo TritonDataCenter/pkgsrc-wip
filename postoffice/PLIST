@@ -18,6 +18,7 @@ man/man8/postoffice.8
 man/man8/sendmail.8
 man/man8/smtpd.8
 share/examples/postoffice/mailer.conf
+share/examples/postoffice/pop_passwd.pl
 share/examples/postoffice/postoffice.cf
 share/examples/rc.d/postoffice
 @dirrm share/examples/postoffice
