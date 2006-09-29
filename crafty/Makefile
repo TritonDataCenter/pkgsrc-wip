@@ -2,9 +2,8 @@
 
 DISTNAME=		crafty-20.14
 CATEGORIES=		games
-MASTER_SITES=		ftp://ftp.cis.uab.edu/pub/hyatt/src/ \
-			ftp://ftp.cis.uab.edu/pub/hyatt/ \
-			ftp://ftp.cis.uab.edu/pub/hyatt/common/
+MASTER_SITES=		ftp://ftp.cis.uab.edu/pub/hyatt/source/ \
+			ftp://ftp.cis.uab.edu/pub/hyatt/pgn/
 DISTFILES=		${CRAFTY_DISTFILES}
 DISTFILES+=		${CRAFTY_STARTPGN} 
 
@@ -26,6 +25,8 @@ MAKE_ENV+=		opt=${CRAFTY_OPTS:Q}
 
 CRAFTYRC=		${WRKSRC}/.craftyrc
 INSTALLATION_DIRS=	bin
+
+.include "../../mk/bsd.prefs.mk"
 
 # build according to OS.  This list is not very thorough yet
 .if !empty(MACHINE_PLATFORM:MNetBSD-*-i386)
@@ -61,5 +62,4 @@ do-install:
 	${INSTALL_DATA_DIR} ${DOCDIR}
 	${INSTALL_DATA} ${WRKSRC}/books.bin ${DOCDIR}
 
-.include "../../mk/bsd.prefs.mk"
 .include "../../mk/bsd.pkg.mk"
