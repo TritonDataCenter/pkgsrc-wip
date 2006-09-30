@@ -10,6 +10,9 @@ MAINTAINER=	schwarz@NetBSD.org
 HOMEPAGE=	http://www.shrubbery.net/tac_plus/
 COMMENT=	Cisco AAA protocol (tacacs+) daemon (Shrubbery Networks version)
 
+USE_TOOLS+=	id # used in options.mk
+
+.include "../../mk/bsd.prefs.mk"
 .include "options.mk"
 
 GNU_CONFIGURE=	yes
@@ -19,8 +22,6 @@ CONFIGURE_ARGS+=	--with-acctfile=${VARBASE:Q}/log/tac_plus.acct
 CONFIGURE_ARGS+=	--with-logfile=${VARBASE:Q}/log/tac_plus.log
 CONFIGURE_ARGS+=	--with-pidfile=${VARBASE:Q}/run/tac_plus.pid
 CONFIGURE_ENV+=		PERLV_PATH=${PERL5:Q}
-
-.include "../../mk/bsd.prefs.mk"
 
 .if !empty(LOWER_OPSYS:Mirix5*)
 CPPFLAGS+=		-Duint16_t=u_int16_t -Duint32_t=u_int32_t \
