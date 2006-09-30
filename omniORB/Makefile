@@ -1,13 +1,14 @@
 # $NetBSD$
 #
 
-DISTNAME=		omniORB-4.0.4
-CATEGORIES=		devel corba
+PKGNAME=		omniORB-4.1.0.2
+DISTNAME=		omniORB-4.1.0-beta2
+CATEGORIES=		devel
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=omniorb/}
 
 MAINTAINER=		ianzag@mail.ru
 HOMEPAGE=		http://omniorb.sourceforge.net/
-COMMENT=		omniORB is an ORB that implements the 2.6 specification of the CORBA
+COMMENT=		OmniORB is an ORB that implements the 2.6 specification of the CORBA
 
 MAKE_FILE=		GNUmakefile
 GNU_CONFIGURE=	YES
@@ -23,9 +24,12 @@ PTHREAD_OPTS=	require native
 OMNIORB_ETCDIR?= ${PKG_SYSCONFDIR}
 OMNIORB_CONFIG=	${OMNIORB_ETCDIR}/omniORB.cfg
 
+CONFIGURE_ENV+=  PYTHON=${PYTHONBIN}
 CONFIGURE_ARGS+= --with-omniORB-config=${OMNIORB_CONFIG:Q}
 #CONFIGURE_ARGS+= --with-omniNames-logdir=
 #CONFIGURE_ARGS+= --with-openssl
+
+PY_PATCHPLIST=  yes
 
 post-install:
 	${INSTALL_DATA_DIR} ${PREFIX}/share/examples/omniORB/
