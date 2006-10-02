@@ -5,6 +5,7 @@ DISTNAME=		fvwm-crystal-${CRYSTAL_VERSION}
 CATEGORIES=		wm
 MASTER_SITES=		http://download.gna.org/fvwm-crystal/${CRYSTAL_VERSION}/
 EXTRACT_SUFX=		.tar.gz
+PKGREVISION=		1
 
 MAINTAINER=		milos.negovanovic@googlemail.com
 HOMEPAGE=		http://fvwm-crystal.org/
@@ -29,7 +30,7 @@ SUBST_SED.bash=		-e "s,/usr/bin/env bash,${PREFIX}/bin/bash,g"
 SUBST_MESSAGE.bash=	"Fixing harcoded bash path"
 
 
-DEPENDS+=	fvwm-devel>=2.5.14:../../wm/fvwm-devel
+DEPENDS+=	fvwm>=2.5.14:../../wm/fvwm-devel
 DEPENDS+=	trayer>=1.0:../../wip/trayer
 DEPENDS+=	ImageMagick>=6.2.9.1:../../graphics/ImageMagick
 DEPENDS+=	hsetroot>=1.0.2:../../x11/hsetroot
