@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	tacacs+-F4.0.4.13
-PKGNAME=	${DISTNAME:S,tacacs+,tacacs,}
+PKGNAME=	${DISTNAME:S,-F,-,}
 CATEGORIES=	net security
 MASTER_SITES=	ftp://ftp.shrubbery.net/pub/tac_plus/
 
