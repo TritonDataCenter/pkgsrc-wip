@@ -15,7 +15,6 @@ CONFIGURE_ARGS+=	--prefix=${PREFIX}
 CONFIGURE_ARGS+=	--use-mailwrappers
 INSTALLATION_DIRS+=	${PREFIX}/share/examples/postoffice
 CONF_FILES=		${PREFIX}/share/examples/postoffice/postoffice.cf ${PKG_SYSCONFDIR}/postoffice.cf
-PKG_CONFIG=		no
 RCD_SCRIPTS+=		postoffice
 
 BUILD_DEFS+=		POSTOFFICE_AUTH
