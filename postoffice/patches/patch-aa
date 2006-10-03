@@ -1,8 +1,8 @@
 $NetBSD$
 
---- configure.sh	2006-04-21 00:02:02.000000000 +0200
-+++ configure.sh	2006-09-22 02:21:54.000000000 +0200
-@@ -351,21 +351,7 @@
+--- configure.sh.orig	2006-04-21 00:02:02.000000000 +0200
++++ configure.sh
+@@ -351,21 +351,6 @@ if [ "$USE_MAILWRAPPERS" ]; then
  fi
  
  if [ "$USE_MAILWRAPPERS" ]; then
@@ -21,7 +21,6 @@ $NetBSD$
 -    else
 -	AC_SUB MAILERCONF /etc/mailer.conf
 -    fi
-+    AC_SUB MAILERCONF ${PREFIX}/share/examples/postoffice/mailer.conf
      AC_SUB WHICH mailfilter
      AC_SUB MAILWRAPPER /usr/sbin/mailwrapper
  else

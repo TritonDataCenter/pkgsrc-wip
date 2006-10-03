@@ -9,8 +9,8 @@ $_rc_subr_loaded . /etc/rc.subr
 
 name="postoffice"
 rcvar=$name
-command="/usr/pkg/libexec/${name}"
-pidfile="/var/run/${name}.pid"
+command="@PREFIX@/libexec/${name}"
+pidfile="@VARBASE@/run/${name}.pid"
 required_files="@PREFIX@/etc/${name}.cf"
 start_precmd="postoffice_precmd"
 
