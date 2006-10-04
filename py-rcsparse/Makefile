@@ -1,8 +1,7 @@
 # $NetBSD$
 
-DISTNAME=	rcsparse-0.0.0_20060723
-PKGNAME=	${PYPKGPREFIX}-rcsparse-0.0.0_20060723
-PKGREVISION=	1
+DISTNAME=	rcsparse-0.0.0_20061004
+PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	devel python
 MASTER_SITES=	http://distfiles.scode.org/pkgsrc/
 
