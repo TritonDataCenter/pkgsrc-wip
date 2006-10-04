@@ -16,4 +16,6 @@ DEPENDS+=	mecab-base>=${MECAB_VERSION}:../../wip/mecab-base
 
 GNU_CONFIGURE=	yes
 
+UNLIMIT_RESOURCES=	datasize
+
 .include "../../mk/bsd.pkg.mk"
