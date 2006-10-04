@@ -1,8 +1,7 @@
 # $NetBSD$
 #
- ## this needs to be updated to modular Xorg
 
-DISTNAME=		libXfixes-3.0.1.2
+DISTNAME=		libXfixes-4.0.1
 CATEGORIES=		x11 devel
 MASTER_SITES=		http://xorg.freedesktop.org/releases/individual/lib/
 EXTRACT_SUFX=		.tar.bz2
