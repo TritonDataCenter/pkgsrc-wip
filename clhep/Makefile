@@ -19,9 +19,6 @@ GNU_CONFIGURE=	yes
 CONFIGURE_SCRIPT= ${EXTRACT_DIR}/configure
 USE_LANGUAGES+=	c c++
 
-GNU_CONFIGURE=		yes
-CONFIGURE_SCRIPT=	${EXTRACT_DIR}/configure
-
 pre-configure:
 	${MKDIR} ${WRKSRC};	\
 	cd ${EXTRACT_DIR};	\
