@@ -21,9 +21,6 @@ BUILDLINK_PKGSRCDIR.libXmu?=		../../wip/libXmu
 .include "../../wip/libXext/buildlink3.mk"
 .include "../../wip/libXt/buildlink3.mk"
 
-# libXmu uses libXext's XShapeCombineMask()
-LDFLAGS+=	-lXext
-
 .include "../../mk/pthread.buildlink3.mk"
 LIBS+=		${BUILDLINK_LDADD.pthread}
 LDFLAGS+=	${BUILDLINK_LDADD.pthread}
