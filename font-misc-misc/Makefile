@@ -18,6 +18,5 @@ GNU_CONFIGURE=		yes
 # build depends on bdftopcf which is part of x11-clients USE_TOOLS,
 # but I will use the modular Xorg instead
 
-.include "../../new/font-util/buildlink3.mk" # for pkg-config file
-
+.include "../../wip/font-util/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
