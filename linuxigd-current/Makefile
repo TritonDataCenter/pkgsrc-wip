@@ -12,8 +12,7 @@ COMMENT=	Linux UPnP Internet Gateway Device
 USE_TOOLS+=	gmake pkg-config
 
 CVS_REPOSITORIES=	linux-igd
-#CVS_ROOT.linux-igd=	${CVS_ROOT_SOURCEFORGE}/linux-igd
-CVS_ROOT.linux-igd=	:pserver:anonymous:@linux-igd.cvs.sourceforge.net:/cvsroot/linux-igd
+CVS_ROOT.linux-igd=	${CVS_ROOT_SOURCEFORGE:S/%PROJECT%/linux-igd/g}
 CVS_MODULE.linux-igd=	linux-igd
 
 WRKSRC=		${WRKDIR}/linux-igd
