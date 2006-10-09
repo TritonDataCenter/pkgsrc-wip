@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		libassa-3.4.1
+DISTNAME=		libassa-3.4.2
 CATEGORIES=		devel net
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=libassa/}
 
@@ -9,6 +9,7 @@ MAINTAINER=		bartosz@atom.eu.org
 HOMEPAGE=		http://libassa.sourceforge.net/
 COMMENT=		Networking library based on ACP
 
+USE_LANGUAGES+=		c
 USE_LANGUAGES+=		c++
 USE_LANGUAGES+=		fortran
 USE_LIBTOOL=		yes
