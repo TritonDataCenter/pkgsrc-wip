@@ -6,7 +6,7 @@ MASTER_SITES=	http://www.pycage.de/download/gdesklets/
 EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	minskim@NetBSD.org
-HOMEPAGE=	http://gdesklets.gnomedesktop.org/
+HOMEPAGE=	http://www.gdesklets.org/
 COMMENT=	Advanced architecture for desktop applets
 
 GNU_CONFIGURE=	YES

@@ -6,7 +6,7 @@ CATEGORIES=		security python
 MASTER_SITES=		http://www.amk.ca/files/python/crypto/
 
 MAINTAINER=		evaldo@gardenali.biz
-HOMEPAGE=		http://www.amk.ca/python/code/crypto/
+HOMEPAGE=		http://www.amk.ca/python/code/crypto
 COMMENT=		Collection of cryptographic algorithms and protocols for Python
 
 PYDISTUTILSPKG=		yes

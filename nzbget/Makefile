@@ -7,7 +7,7 @@ CATEGORIES=		news
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=nzbget/}
 
 MAINTAINER=		martijn.van.buul@gmail.com
-HOMEPAGE=		http://www.sourceforge.net/projects/nzbget/
+HOMEPAGE=		http://sourceforge.net/projects/nzbget/
 COMMENT=		Binary newsreader with NZB support
 
 USE_TOOLS+=	        gmake

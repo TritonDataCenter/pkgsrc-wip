@@ -5,7 +5,7 @@ CATEGORIES=	net
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=ldp/}
 
 MAINTAINER=	kefren@NetBSD.ro
-HOMEPAGE=	http://ldp.sf.net/
+HOMEPAGE=	http://ldp.sourceforge.net/
 COMMENT=	Label Distribution Protocol Daemon
 
 WRKSRC=		${WRKDIR}/ldp

@@ -3,10 +3,10 @@
 
 DISTNAME=		bluez-gnome-0.4
 CATEGORIES=		wip
-MASTER_SITES=		http://bluez.sf.net/download/
+MASTER_SITES=		http://bluez.sourceforge.net/download/
 
 MAINTAINER=		pancake@phreaker.net
-HOMEPAGE=		http://bluez.sf.net/download/
+HOMEPAGE=		http://bluez.sourceforge.net/download/
 COMMENT=		BlueZ helpers for Gnome
 USE_LANGUAGES=	c
 USE_PERL=	YES

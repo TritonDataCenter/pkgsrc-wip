@@ -6,7 +6,7 @@ CATEGORIES=	www
 MASTER_SITES=	http://gforge.org/frs/download.php/44/
 
 MAINTAINER=	david@netbsd-fr.org
-HOMEPAGE=	http://www.gforge.org/
+HOMEPAGE=	http://gforge.org/
 COMMENT=	Open Source collaborative software development tool
 
 .include "../../lang/php/phpversion.mk"

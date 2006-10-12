@@ -5,7 +5,7 @@ CATEGORIES=     security
 MASTER_SITES=   http://la-samhna.de/archive/
 
 MAINTAINER=     lavalamp@digitalfreaks.org
-HOMEPAGE=       http://www.la-samhna.de/samhain
+HOMEPAGE=       http://www.la-samhna.de/samhain/
 COMMENT=        Open-source IDS/file integrity checking
 
 GNU_CONFIGURE=	yes

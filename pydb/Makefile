@@ -6,7 +6,7 @@ CATEGORIES=		python
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=bashdb/}
 
 MAINTAINER=		splitscreen@users.sourceforge.net
-HOMEPAGE=		http://easynews.dl.sourceforge.net/sourceforge/bashdb/
+HOMEPAGE=		http://sourceforge.net/projects/bashdb/
 COMMENT=		The Extended Python Debugger
 
 USE_TOOLS+=		gmake

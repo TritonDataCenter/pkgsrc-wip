@@ -7,7 +7,7 @@ CATEGORIES=		lang
 MASTER_SITES=		http://pike.ida.liu.se/pub/pike/latest-stable/
 
 MAINTAINER=		rillig@NetBSD.org
-HOMEPAGE=		http://pike.ida.liu.se/pub/pike/latest-stable/
+HOMEPAGE=		http://pike.ida.liu.se/
 COMMENT=		Dynamic programming language similar to Java and C
 
 GNU_CONFIGURE=		yes

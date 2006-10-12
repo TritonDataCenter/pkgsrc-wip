@@ -3,10 +3,10 @@
 
 DISTNAME=	swfmill-0.2.11
 CATEGORIES=	graphics converters
-MASTER_SITES=	http://iterative.org/swfmill/releases/
+MASTER_SITES=	http://swfmill.org/releases/
 
 MAINTAINER=	hiramatu@boreas.dti.ne.jp
-HOMEPAGE=	http://iterative.org/swfmill/
+HOMEPAGE=	http://swfmill.org/
 COMMENT=	Collection of SWF manipulation and creation utilities
 
 GNU_CONFIGURE=		yes
