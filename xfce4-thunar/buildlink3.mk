@@ -22,6 +22,7 @@ BUILDLINK_PKGSRCDIR.xfce4-thunar?=	../../wip/xfce4-thunar
 .include "../../graphics/hicolor-icon-theme/buildlink3.mk"
 .include "../../graphics/libexif/buildlink3.mk"
 .include "../../sysutils/dbus-glib/buildlink3.mk"
+.include "../../sysutils/fam/buildlink3.mk"
 .include "../../wip/xfce4-exo/buildlink3.mk"
 .include "../../wip/xfce4-panel/buildlink3.mk"
 .include "../../x11/startup-notification/buildlink3.mk"
