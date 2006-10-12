@@ -16,6 +16,7 @@ BUILDLINK_API_DEPENDS.libxfce4util+=	libxfce4util>=4.3.99.1
 BUILDLINK_PKGSRCDIR.libxfce4util?=	../../wip/libxfce4util
 .endif	# LIBXFCE4UTIL_BUILDLINK3_MK
 
+.include "../../wip/xfce4-dev-tools/buildlink3.mk"
 .include "../../devel/glib2/buildlink3.mk"
 
 BUILDLINK_DEPTH:=		${BUILDLINK_DEPTH:S/+$//}
