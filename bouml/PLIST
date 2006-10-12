@@ -18,4 +18,3 @@ lib/bouml/java_reverse
 lib/bouml/plug_out_upgrade
 lib/bouml/stmgen
 lib/bouml/usecasewizard
-@dirrm lib/bouml
