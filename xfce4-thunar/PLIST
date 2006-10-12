@@ -122,6 +122,7 @@ share/locale/zh_TW/LC_MESSAGES/Thunar.mo
 share/pixmaps/Thunar/Thunar-about-logo.png
 share/pixmaps/Thunar/Thunar-fallback-icon.png
 share/xfce4/panel-plugins/thunar-tpa.desktop
+xdg/xfce4/Thunar/uca.xml
 @dirrm share/pixmaps/Thunar
 @comment in xdg-dirs: @dirrm share/pixmaps
 @comment in hicolor-icon-theme: @dirrm share/icons/hicolor/scalable/apps
