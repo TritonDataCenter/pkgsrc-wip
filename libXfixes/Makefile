@@ -20,6 +20,9 @@ USE_TOOLS+=		pkg-config
 CONFIGURE_ENV+=		LIB_MAN_SUFFIX=3
 PKGCONFIG_OVERRIDE+=	xfixes.pc.in
 
+# needs version 4 which defines xXFixesHideCursorReq
+BUILDLINK_API_DEPENDS.fixesproto+=	fixesproto>=4
+
 .include "../../mk/bsd.prefs.mk"
 .if defined(X11_TYPE) && ${X11_TYPE} == "native"
 CONFIGURE_ENV+=         X_CFLAGS="-I${X11BASE}/include"
