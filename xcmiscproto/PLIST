@@ -1,4 +1,4 @@
 @comment $NetBSD$
 include/X11/extensions/xcmiscstr.h
 lib/pkgconfig/xcmiscproto.pc
-@dirrm include/X11/extensions
+@comment @dirrm include/X11/extensions
