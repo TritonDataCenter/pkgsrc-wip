@@ -17,7 +17,10 @@ BUILDLINK_PACKAGES+=			libXrender
 BUILDLINK_API_DEPENDS.libXrender+=		libXrender>=0.9.0
 BUILDLINK_PKGSRCDIR.libXrender?=		../../wip/libXrender
 
-.include "../../wip/libX11/buildlink3.mk"
+.if defined(X11_TYPE) && ${X11_TYPE} == "modular-xorg"
+.  include "../../wip/libX11/buildlink3.mk"
+.endif
+
 .include "../../x11/renderproto/buildlink3.mk"
 
 .endif # LIBXRENDER_BUILDLINK3_MK
