@@ -19,6 +19,14 @@ USE_TOOLS+=		gmake pkg-config
 CONFIGURE_ARGS+=	--enable-man-pages=3
 PKGCONFIG_OVERRIDE+=	x11.pc.in
 
+CHECK_X11_TYPE?=	yes
+
+.if defined(CHECK_X11_TYPE) && !empty(CHECK_X11_TYPE:M[Yy][Ee][Ss])
+.    if !defined(X11_TYPE) || empty(X11_TYPE:Mmodular-xorg)
+PKG_FAIL_REASON+=	"X11_TYPE=modular-xorg is mandatory."
+.    endif
+.endif
+
 .include "../../mk/pthread.buildlink3.mk"
 
 .if defined(PTHREAD_TYPE) && ${PTHREAD_TYPE} == "none"
