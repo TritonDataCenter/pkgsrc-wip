@@ -18,9 +18,20 @@ USE_TOOLS+=		pkg-config
 
 PKGCONFIG_OVERRIDE+=	xcursor.pc.in
 
-.include "../../x11/fixesproto/buildlink3.mk"
-.include "../../x11/xproto/buildlink3.mk"
-.include "../../wip/libX11/buildlink3.mk"
+.include "../../mk/bsd.prefs.mk"
+.if defined(X11_TYPE) && ${X11_TYPE} == "native"
+CONFIGURE_ENV+=         XCURSOR_CFLAGS="-I${X11BASE}/include"
+CONFIGURE_ENV+=         XCURSOR_LIBS="-L${X11BASE}/lib -lX11"
+.  include "../../mk/x11.buildlink3.mk"
+.endif
+
+.if defined(X11_TYPE) && ${X11_TYPE} == "modular-xorg"
+.  include "../../wip/libX11/buildlink3.mk"
+.endif
+
 .include "../../wip/libXfixes/buildlink3.mk"
 .include "../../wip/libXrender/buildlink3.mk"
+.include "../../x11/fixesproto/buildlink3.mk"
+.include "../../x11/xproto/buildlink3.mk"
+
 .include "../../mk/bsd.pkg.mk"
