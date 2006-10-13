@@ -6,7 +6,7 @@ CATEGORIES=		net
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=pupnp/}
 
 MAINTAINER=		obata@lins.jp
-HOMEPAGE=		http://www.virtualworlds.de/upnp/
+HOMEPAGE=		http://pupnp.sourceforge.net/
 COMMENT=		Portable SDK for Universal Plug and Play (UPnP) Devices
 
 USE_LANGUAGES=		c
