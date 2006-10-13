@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		libXfont-1.1.0
+DISTNAME=		libXfont-1.2.2
 CATEGORIES=		x11 devel
 MASTER_SITES=		http://xorg.freedesktop.org/releases/individual/lib/
 EXTRACT_SUFX=		.tar.bz2
