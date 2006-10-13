@@ -29,4 +29,12 @@ LIBS+=		${BUILDLINK_LDADD.pthread}
 
 #.include "../../wip/xtrans/buildlink3.mk"
 
+CHECK_X11_TYPE?=	yes
+ 
+.if defined(CHECK_X11_TYPE) && !empty(CHECK_X11_TYPE:M[Yy][Ee][Ss])
+.    if !defined(X11_TYPE) || empty(X11_TYPE:Mmodular-xorg)
+PKG_FAIL_REASON+=	"X11_TYPE=modular-xorg is mandatory."
+.    endif
+.endif
+
 BUILDLINK_DEPTH:=     ${BUILDLINK_DEPTH:S/+$//}
