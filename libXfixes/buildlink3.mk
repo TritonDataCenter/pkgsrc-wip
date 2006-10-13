@@ -15,6 +15,7 @@ BUILDLINK_PACKAGES+=			libXfixes
 BUILDLINK_API_DEPENDS.libXfixes?=		libXfixes>=3.0.0
 BUILDLINK_PKGSRCDIR.libXfixes?=		../../wip/libXfixes
 
+.include "../../mk/bsd.prefs.mk"
 .if defined(X11_TYPE) && ${X11_TYPE} == "modular-xorg"
 .  include "../../wip/libX11/buildlink3.mk"
 .endif

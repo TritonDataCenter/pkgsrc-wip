@@ -29,6 +29,7 @@ LIBS+=		${BUILDLINK_LDADD.pthread}
 
 #.include "../../wip/xtrans/buildlink3.mk"
 
+.include "../../mk/bsd.prefs.mk"
 CHECK_X11_TYPE?=	yes
  
 .if defined(CHECK_X11_TYPE) && !empty(CHECK_X11_TYPE:M[Yy][Ee][Ss])

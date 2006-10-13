@@ -17,12 +17,14 @@ BUILDLINK_PACKAGES+=			libXcursor
 BUILDLINK_API_DEPENDS.libXcursor+=		libXcursor>=1.1.1
 BUILDLINK_PKGSRCDIR.libXcursor?=		../../wip/libXcursor
 
-.include "../../x11/xproto/buildlink3.mk"
+.include "../../mk/bsd.prefs.mk"
 .if defined(X11_TYPE) && ${X11_TYPE} == "modular-xorg"
 .  include "../../wip/libX11/buildlink3.mk"
 .endif
+
 .include "../../wip/libXrender/buildlink3.mk"
 .include "../../wip/libXfixes/buildlink3.mk"
+.include "../../x11/xproto/buildlink3.mk"
 
 .endif # LIBXCURSOR_BUILDLINK3_MK
 

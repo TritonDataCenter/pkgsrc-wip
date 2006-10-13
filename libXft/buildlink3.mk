@@ -19,6 +19,7 @@ BUILDLINK_PKGSRCDIR.libXft?=	../../wip/libXft
 .include "../../fonts/fontconfig/buildlink3.mk"
 .include "../../wip/libXrender/buildlink3.mk"
 
+.include "../../mk/bsd.prefs.mk"
 .if defined(X11_TYPE) && ${X11_TYPE} == "native"
 CONFIGURE_ENV+=	XFT_CFLAGS="-I${PREFIX}/include -I/${PREFIX}/include/freetype2"
 CONFIGURE_ENV+=	XFT_LIBS="-L${PREFIX}/lib -lXft"
