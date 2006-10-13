@@ -15,8 +15,11 @@ BUILDLINK_PACKAGES+=			libXrandr
 BUILDLINK_API_DEPENDS.libXrandr+=		libXrandr>=0.9.0
 BUILDLINK_PKGSRCDIR.libXrandr?=		../../wip/libXrandr
 
-.include "../../wip/libX11/buildlink3.mk"
-.include "../../wip/libXext/buildlink3.mk"
+.if defined(X11_TYPE) && ${X11_TYPE} == "modular-xorg"
+.  include "../../wip/libX11/buildlink3.mk"
+.  include "../../wip/libXext/buildlink3.mk"
+.endif
+
 .include "../../x11/randrproto/buildlink3.mk"
 
 .endif # LIBXRANDR_BUILDLINK3_MK
