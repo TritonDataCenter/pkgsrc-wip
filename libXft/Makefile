@@ -24,6 +24,7 @@ BUILDLINK_API_DEPENDS.fontconfig+=	fontconfig>=2.2
 .include "../../graphics/freetype2/buildlink3.mk"
 .include "../../wip/libXrender/buildlink3.mk"
 
+.include "../../mk/bsd.prefs.mk"
 .if defined(X11_TYPE) && ${X11_TYPE} == "native"
 .  include "../../mk/x11.buildlink3.mk"
 .endif
