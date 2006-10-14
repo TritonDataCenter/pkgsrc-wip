@@ -11,7 +11,7 @@
 
 name="linuxigd"
 rcvar=${name}
-command="@PREFIX@/bin/upnpd"
+command="@PREFIX@/sbin/upnpd"
 required_vars="ipnat"
 
 load_rc_config ${name}
