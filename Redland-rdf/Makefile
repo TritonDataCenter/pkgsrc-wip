@@ -22,4 +22,5 @@ CONFIGURE_ARGS+=	--with-python=yes
 #CONFIGURE_ARGS+=
 #CONFIGURE_ARGS+=
 
+.include "../../textproc/expat/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
