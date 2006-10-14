@@ -1,8 +1,10 @@
 # $NetBSD$
 #
 
-DISTNAME=		dicom3tools_1.00.snapshot.20030501.helgray
-PKGNAME=		dicom3tools-20030501
+DISTNAME=		dicom3tools_1.00.snapshot.20061010
+PKGNAME=		dicom3tools-20061010
+EXTRACT_SUFX=		.tar.bz2
+
 CATEGORIES=		graphics
 MASTER_SITES=		http://www.dclunie.com/dicom3tools/workinprogress/
 

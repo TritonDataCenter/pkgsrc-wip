@@ -74,9 +74,9 @@ $NetBSD$
 +	fi
 +	
 +	
- 	if [ -d /usr/X11R6/lib ]		# NOT /usr/lib/X11 which contains configuration files
- 	then
- 		echo >>generic.cf "#ifndef X11LibraryPath"
+ 	# X11LibraryPath may already have been overridden, but ...
+ 
+ 	if [ -f /usr/lib64/libX11.a ]		# They changed it in FC5
 @@ -728,6 +789,111 @@
  	echo >>generic.cf "#endif"
  fi
