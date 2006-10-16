@@ -4,7 +4,7 @@ CATEGORIES=	meta-pkgs
 MASTER_SITES=	# empty
 DISTFILES=	# empty
 
-MAINTAINER=	pkgsrc@blackmouse.org
+MAINTAINER=	pkgsrc@blackmouse.biz
 COMMENT=	Common package for openoffice lang packages
 
 NO_CHECKSUM=	yes
