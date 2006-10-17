@@ -2,7 +2,7 @@
 
 MOZILLA_BIN=		firefox-bin
 MOZ_VER=		2.0${SUB_VER}
-SUB_VER=		rc2
+SUB_VER=		rc3
 DIST_VER=		${MOZ_VER}
 EXTRACT_SUFX=		.tar.bz2
 
