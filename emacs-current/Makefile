@@ -64,6 +64,15 @@ CONFIGURE_ARGS+=	--with-x-toolkit=athena
 CHECK_WRKREF_SKIP+=	${PREFIX}/bin/emacs
 CHECK_WRKREF_SKIP+=	${PREFIX}/bin/emacs-${PKGVERSION}
 
+FILESDIR=	${.CURDIR}/../../editors/emacs/files
+
+post-extract:
+	${CP} ${FILESDIR}/site-init.el ${WRKSRC}/lisp
+	${CP} ${FILESDIR}/amd64.h ${WRKSRC}/src/m
+	${CP} ${FILESDIR}/darwin.h ${WRKSRC}/src/s
+	${CP} ${FILESDIR}/unexmacosx.c ${WRKSRC}/src
+	${CP} ${FILESDIR}/sh3el.h ${WRKSRC}/src/m
+
 .include "../../graphics/xpm/buildlink3.mk"
 .include "../../graphics/jpeg/buildlink3.mk"
 .include "../../graphics/tiff/buildlink3.mk"
