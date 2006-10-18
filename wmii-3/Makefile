@@ -3,10 +3,10 @@
 
 DISTNAME=		wmii-3.1
 CATEGORIES=		wip wm
-MASTER_SITES=		http://wmii.de/download/
+MASTER_SITES=		http://suckless.org/download/
 
 MAINTAINER=		pancake@phreaker.net
-HOMEPAGE=		http://wmii.de/download/
+HOMEPAGE=		http://wmii.suckless.org/
 COMMENT=		Third version of the window manager improved 2
 
 CONFLICTS+=		wmii-2.*
