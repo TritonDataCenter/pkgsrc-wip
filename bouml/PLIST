@@ -18,3 +18,14 @@ lib/bouml/java_reverse
 lib/bouml/plug_out_upgrade
 lib/bouml/stmgen
 lib/bouml/usecasewizard
+share/applications/bouml.desktop
+share/icons/hicolor/16x16/apps/bouml.png
+share/icons/hicolor/32x32/apps/bouml.png
+share/icons/hicolor/48x48/apps/bouml.png
+share/icons/hicolor/64x64/apps/bouml.png
+@dirrm share/icons/hicolor/64x64/apps
+@dirrm share/icons/hicolor/48x48/apps
+@dirrm share/icons/hicolor/32x32/apps
+@dirrm share/icons/hicolor/16x16/apps
+@dirrm share/applications
+@dirrm lib/bouml
