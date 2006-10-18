@@ -18,4 +18,3 @@ MAKE_ENV+=		QMAKE="${QTDIR}/bin/qmake"
 .include "../../x11/qt3-tools/buildlink3.mk"
 .include "../../x11/qt3-libs/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
-
