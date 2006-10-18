@@ -1,6 +1,6 @@
 # $NetBSD$
-PKGNAME=	samhain-2.2.1c
-DISTNAME=	samhain_signed-2.2.1c
+PKGNAME=	samhain-2.2.5
+DISTNAME=	samhain_signed-2.2.5
 CATEGORIES=     security
 MASTER_SITES=   http://la-samhna.de/archive/
 
@@ -13,12 +13,12 @@ WRKSRC=${WRKDIR}/${PKGNAME_NOREV}
 
 
 RCD_SCRIPTS=	samhain
-EGDIR=                  ${PREFIX}/share/examples/samhain
+EGDIR=		${PREFIX}/share/examples/samhain
 
 CONFIGURE_ARGS+="--with-pid-file=/var/run/samhain.pid"
 CONFIGURE_ARGS+="--with-log-file=/var/log/samhain.log"
 CONFIGURE_ARGS+="--with-state-dir=/var/run"
-CONFIGURE_ARGS+="--with-data-file=${PREFIX}/var/samhain/samhain.db"
+CONFIGURE_ARGS+="--with-data-file=${PREFIX}/etc/samhain.db"
 CONFIGURE_ARGS+="--with-config-file=${PREFIX}/etc/samhainrc"
 
 pre-extract:
