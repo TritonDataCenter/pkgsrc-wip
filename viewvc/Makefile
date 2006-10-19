@@ -22,6 +22,17 @@ CONF_FILES=	${PREFIX}/${VIEWVCDIR:Q}/viewvc.conf.dist \
 CONF_FILES+=	${PREFIX}/${VIEWVCDIR:Q}/cvsgraph.conf.dist \
 		${PREFIX}/${VIEWVCDIR:Q}/cvsgraph.conf
 
+.include "options.mk"
+
+SUBST_CLASSES+=		conf
+SUBST_STAGE.conf=	post-patch
+SUBST_MESSAGE.conf=	Fixing configuration files.
+SUBST_FILES.conf=	viewvc.conf.dist
+SUBST_SED.conf=		-e "s|@VIEWVCDIR@|${VIEWVCDIR}|g"
+SUBST_SED.conf+=	-e "s|@PREFIX@|${PREFIX}|g"
+SUBST_SED.conf+=	-e "s|@PHP_OPT@|${PHP_OPT}|g"
+SUBST_SED.conf+=	-e "s|@CVSGRAPH_OPT@|${CVSGRAPH_OPT}|g"
+
 do-install:
 	(cd ${WRKSRC} && \
 		${PYTHONBIN} \
