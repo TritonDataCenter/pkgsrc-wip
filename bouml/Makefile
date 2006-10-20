@@ -14,7 +14,6 @@ USE_LIBTOOL=		YES
 USE_TOOLS=		gmake
 USE_LANGUAGES=		c++
 BUILD_TARGET=		compile
-MAKE_ENV+=		QMAKE="${QTDIR}/bin/qmake"
 
 .include "../../x11/qt3-tools/buildlink3.mk"
 .include "../../x11/qt3-libs/buildlink3.mk"
