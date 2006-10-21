@@ -5,6 +5,7 @@ PKG_OPTIONS_VAR=	PKG_OPTIONS.viewvc
 PKG_SUPPORTED_OPTIONS=	cvsgraph php
 
 .include "../../mk/bsd.options.mk"
+.include "../../lang/php/phpversion.mk"
 
 ###
 ### Use cvsgraph for printing pretty little pictures
@@ -20,7 +21,7 @@ CVSGRAPH_OPT=		0
 ### Use php to colorize .php and .inc files
 ###
 .if !empty(PKG_OPTIONS:Mphp)
-.include "../../lang/php/phpversion.mk"
+.include "${PHPPKGSRCDIR}/buildlink3.mk"
 PHP_OPT=		1
 .else
 PHP_OPT=		0
