@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	cvstrac-1.2.1
+DISTNAME=	cvstrac-2.0.0
 CATEGORIES=	devel www
 MASTER_SITES=	http://www.cvstrac.org/
 
@@ -15,5 +15,5 @@ pre-build:
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/cvstrac ${PREFIX}/bin
 
-.include "../../databases/sqlite/buildlink3.mk"
+.include "../../databases/sqlite3/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

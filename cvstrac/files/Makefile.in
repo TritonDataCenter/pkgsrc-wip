@@ -5,6 +5,6 @@ SRCDIR=	.
 TCC=	${CC} ${CFLAGS} ${LDFLAGS}
 BCC=	${CC} ${CFLAGS} ${LDFLAGS}
 E=
-LIBSQLITE = -L${PREFIX}/lib -lsqlite -lcrypt -lm
+LIBSQLITE = -L${PREFIX}/lib -lsqlite3 -lcrypt -lm
 
 .include "main.mk"
