@@ -29,7 +29,9 @@ CONFIGURE_ARGS+= --with-omniORB-config=${OMNIORB_CONFIG:Q}
 #CONFIGURE_ARGS+= --with-omniNames-logdir=
 #CONFIGURE_ARGS+= --with-openssl
 
-PY_PATCHPLIST=  yes
+.include "options.mk"
+
+PY_PATCHPLIST=	yes
 
 post-install:
 	${INSTALL_DATA_DIR} ${PREFIX}/share/examples/omniORB/
