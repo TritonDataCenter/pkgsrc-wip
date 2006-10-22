@@ -210,11 +210,11 @@ lib/libomnithread.a
 lib/libomnithread.so
 lib/libomnithread.so.3
 lib/libomnithread.so.3.2
-lib/pkgconfig/omniCOS4.${LOWER_VENDOR}
-lib/pkgconfig/omniCOSDynamic4.${LOWER_VENDOR}
-lib/pkgconfig/omniDynamic4.${LOWER_VENDOR}
-lib/pkgconfig/omniORB4.${LOWER_VENDOR}
-lib/pkgconfig/omnithread3.${LOWER_VENDOR}
+lib/pkgconfig/omniCOS4.pc
+lib/pkgconfig/omniCOSDynamic4.pc
+lib/pkgconfig/omniDynamic4.pc
+lib/pkgconfig/omniORB4.pc
+lib/pkgconfig/omnithread3.pc
 ${PYSITELIB}/_omniidlmodule.so
 ${PYSITELIB}/_omniidlmodule.so.4
 ${PYSITELIB}/_omniidlmodule.so.4.1
