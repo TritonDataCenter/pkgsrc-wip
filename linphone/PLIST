@@ -21,6 +21,7 @@ include/ortp/sessionset.h
 include/ortp/str_utils.h
 include/ortp/telephonyevents.h
 ${GUI}libexec/linphone_applet
+libexec/mediastream
 lib/bonobo/servers/GNOME_LinphoneApplet.server
 lib/liblinphone.la
 lib/libortp.la
