@@ -5,8 +5,8 @@ PKG_SUPPORTED_OPTIONS=		jdk15-jce jdk15-plugin
 PKG_SUGGESTED_OPTIONS=		jdk15-plugin
 PKG_OPTIONS_LEGACY_VARS+=	JDK15_USE_JCE:jdk15-jce
 PKG_OPTIONS_REQUIRED_GROUPS+=	mozilla
-PKG_OPTIONS_GROUP.mozilla=	firefox mozilla mozilla-gtk2 firefox-gtk1
-PKG_SUGGESTED_OPTIONS=		mozilla-gtk2
+PKG_OPTIONS_GROUP.mozilla=	firefox firefox-gtk1
+PKG_SUGGESTED_OPTIONS=		firefox
 
 .include "../../mk/bsd.options.mk"
 
