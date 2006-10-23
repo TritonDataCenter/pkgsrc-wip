@@ -11,9 +11,10 @@ HOMEPAGE=		http://bouml.free.fr/
 COMMENT=		UML modeling tool, generates C++, JAVA, and IDL
 
 USE_LIBTOOL=		YES
-USE_TOOLS=		gmake
+USE_TOOLS+=		gmake
 USE_LANGUAGES=		c++
 BUILD_TARGET=		compile
+USE_DIRS+=		xdg-1.3
 
 .include "../../x11/qt3-tools/buildlink3.mk"
 .include "../../x11/qt3-libs/buildlink3.mk"
