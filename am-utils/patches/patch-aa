@@ -1,6 +1,6 @@
 $NetBSD$
 
---- scripts/Makefile.in.orig	2006-09-11 20:50:53.000000000 +0300
+--- scripts/Makefile.in.orig	2006-05-11 20:28:53.000000000 +0300
 +++ scripts/Makefile.in
 @@ -218,7 +218,7 @@ noinst_SCRIPTS = \
  	test-attrcache
