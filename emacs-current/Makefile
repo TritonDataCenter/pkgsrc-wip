@@ -61,8 +61,8 @@ CONFIGURE_ARGS+=	--with-x-toolkit=athena
 .endif
 
 # build PATH in the dumped emacs is not a problem
-CHECK_WRKREF_SKIP+=	${PREFIX}/bin/emacs
-CHECK_WRKREF_SKIP+=	${PREFIX}/bin/emacs-${PKGVERSION}
+CHECK_WRKREF_SKIP+=	bin/emacs
+CHECK_WRKREF_SKIP+=	bin/emacs-${PKGVERSION}
 
 FILESDIR=	${.CURDIR}/../../editors/emacs/files
 
