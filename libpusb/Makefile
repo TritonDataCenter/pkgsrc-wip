@@ -11,14 +11,15 @@ COMMENT=		Simple and portable USB development interface
 
 PKG_INSTALLATION_TYPES=	overwrite pkgviews
 
-ONLY_FOR_PLATFORM=      FreeBSD-*-* NetBSD-*-* OpenBSD-*-* Linux-*-*
+ONLY_FOR_PLATFORM=	FreeBSD-*-* NetBSD-*-* OpenBSD-*-* Linux-*-*
 
 WRKSRC=			${WRKDIR}/libpusb/src
+MAKE_ENV+=		${BSD_MAKE_ENV}
 
 INSTALL_TARGET=		install includes
 
 pre-build:
-			@cd ${WRKSRC} && ${MAKE} clean # archive's dirty
+	cd ${WRKSRC} && ${MAKE} clean # archive's dirty
 
 SUBST_CLASSES+=		path
 SUBST_MESSAGE.path=	Setting up hardcoded path.
