@@ -36,6 +36,8 @@ CONF_FILES+=		${PREFIX}/share/examples/tor/torrc.sample 	\
 FILES_SUBST+=		PKG_HOME=${PKG_HOME:Q}
 FILES_SUBST+=		TOR_USER=${TOR_USER:Q} TOR_GROUP=${TOR_GROUP:Q}
 
+CHECK_PORTABILITY_SKIP+=contrib/*
+
 .if !empty(PKGSRC_COMPILER:Mmipspro)
 CFLAGS+=		-c99
 .endif
