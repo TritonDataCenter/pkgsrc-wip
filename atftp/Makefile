@@ -2,9 +2,10 @@
 #
 
 DISTNAME=		atftp-0.7
-PKGREVISION=		1
+PKGREVISION=		2
 CATEGORIES=		net
-MASTER_SITES=		ftp://ftp.mamalinux.com/pub/atftp/
+MASTER_SITES=		ftp://ftp.mamalinux.com/pub/atftp/ \
+			http://osmirrors.cerias.purdue.edu/pub/gentoo/distfiles/
 
 MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://freshmeat.net/projects/atftp/
