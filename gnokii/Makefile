@@ -19,10 +19,11 @@ USE_LIBTOOL=		yes
 LIBTOOL_OVERRIDE=	${WRKSRC}/libtool
 GNU_CONFIGURE=		yes
 USE_X11=		yes
-USE_TOOLS+=		gmake
+USE_TOOLS+=		gmake msgfmt xgettext
+USE_BUILTIN.gettext=	no
 
 .include "../../mk/pthread.buildlink3.mk"
-.include "../../devel/gettext-lib/buildlink3.mk"
+.include "../../devel/libusb/buildlink3.mk"
 .include "../../graphics/xpm/buildlink3.mk"
 .include "../../x11/gtk/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
