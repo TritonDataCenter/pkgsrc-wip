@@ -1,0 +1,14 @@
+$NetBSD$
+
+--- parse.h.orig	2006-10-21 22:35:31.000000000 +0200
++++ parse.h	2006-10-21 22:35:58.000000000 +0200
+@@ -18,7 +18,9 @@
+ */
+ 
+ /* Dummy password, if nopasswd is specified */
++#ifndef __APPLE__
+ extern char *nopasswd_str;
++#endif
+ 
+ /* Keywords & values */
+ 
