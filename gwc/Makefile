@@ -12,6 +12,7 @@ COMMENT=	Gnome Wave Cleaner: dehiss and declick .wav files
 
 GNU_CONFIGURE=	YES
 USE_X11BASE=	YES
+USE_LANGUAGES=	c
 
 post-patch:
 	${SED} -e s,@DEVOSSAUDIO@,${DEVOSSAUDIO}, ${WRKSRC}/gwc.c > ${WRKSRC}/gwc.c.sed
@@ -19,6 +20,6 @@ post-patch:
 
 .include "../../math/fftw/buildlink3.mk"
 .include "../../audio/libsndfile/buildlink3.mk"
-# .include "../../x11/gnome-core/buildlink3.mk"
+.include "../../x11/gnome-libs/buildlink3.mk"
 .include "../../mk/oss.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
