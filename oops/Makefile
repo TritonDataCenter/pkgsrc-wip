@@ -54,7 +54,7 @@ CONF_FILES+=	${EGDIR:Q}/tables/koi-win.tab ${PKG_SYSCONFDIR:Q}/tables/koi-win.ta
 
 RCD_SCRIPTS=	oops
 
-BDB_ACCEPTED=	db2
+BDB_ACCEPTED=	db2 db4
 
 .if ${OPSYS} == NetBSD
 PTHREAD_OPTS+=	require native
