@@ -10,7 +10,7 @@ MASTER_SITES=	http://www.spamassassin.org/devel/		\
 
 #MAINTAINER=	heinz@NetBSD.org # maintainer of pkgsrc in base
 MAINTAINER=	tom@replic8.net
-HOMEPAGE=	http://www.spamassassin.org/
+HOMEPAGE=	http://spamassassin.apache.org/
 COMMENT=	Mail filter to identify spam (CVS snapshot)
 
 DEPENDS+=	p5-Net-DNS>=0.29:../../net/p5-Net-DNS

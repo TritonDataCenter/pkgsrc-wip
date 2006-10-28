@@ -6,7 +6,7 @@ MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=gnomebaker/}
 EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	leuzi@trash.net
-HOMEPAGE=	http://gnomebaker.sourceforge.net/
+HOMEPAGE=	http://gnomebaker.sourceforge.net/v2/
 COMMENT=	GTK2/GNOME CD/DVD burning application
 
 USE_TOOLS+=             pkg-config msgfmt intltool

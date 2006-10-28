@@ -6,7 +6,7 @@ CATEGORIES=		wip sysutils
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=mac-robber/}
 
 MAINTAINER=		pancake@phreaker.net
-HOMEPAGE=		http://www.sleuthkit.org/mac-robber
+HOMEPAGE=		http://www.sleuthkit.org/mac-robber/
 COMMENT=		Collect mac-times from a computer
 
 do-build:

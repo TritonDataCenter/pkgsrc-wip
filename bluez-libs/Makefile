@@ -3,7 +3,7 @@
 
 DISTNAME=		bluez-libs-3.5
 CATEGORIES=		net
-MASTER_SITES=		http://bluez.sf.net/download/
+MASTER_SITES=		http://bluez.sourceforge.net/download/
 
 MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://www.bluez.org/

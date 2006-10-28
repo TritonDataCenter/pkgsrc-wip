@@ -7,7 +7,7 @@ MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=er-dict/}
 EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	cheusov@tut.by
-HOMEPAGE=	http://sf.net/projects/er-dict
+HOMEPAGE=	http://sourceforge.net/projects/er-dict
 COMMENT=	DICTD data for Estonian-Russian dictionary
 
 DEPENDS+=	dict-server>=1.9.14:../../wip/dict-server
