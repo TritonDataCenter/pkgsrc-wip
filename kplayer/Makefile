@@ -14,7 +14,7 @@ USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 USE_LIBTOOL=		yes
 USE_TOOLS+=		gmake
-USE_LANGUAGES+=		c++
+USE_LANGUAGES=		c c++
 
 .include "../../x11/kdelibs3/buildlink3.mk"
 .include "../../meta-pkgs/kde3/kde3.mk"

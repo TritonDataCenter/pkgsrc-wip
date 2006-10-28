@@ -19,11 +19,9 @@ CONF_FILES+=		${EXAMPLESDIR}/pydance.cfg ${PKG_SYSCONFDIR}/pydance.cfg
 PYTHON_PATCH_SCRIPTS=	pydance.py
 
 do-build:
-	cd ${WRKSRC} && ${SETENV} ${MAKE_ENV} ${PYTHONBIN} setup.py
-
-pre-install:
-	${MKDIR} ${EXAMPLESDIR:Q}
-	${SED} s,@PREFIX@,${PREFIX}, < ${WRKSRC}/pydance.posix.cfg > ${EXAMPLESDIR}/pydance.cfg
+	cd ${WRKSRC} && env ${MAKE_ENV} ${PYTHONBIN} setup.py
+	mkdir ${EXAMPLESDIR:Q}
+	sed s,@PREFIX@,${PREFIX}, < ${WRKSRC}/pydance.posix.cfg > ${EXAMPLESDIR}/pydance.cfg
 
 .include "../../lang/python/application.mk"
 .include "../../mk/bsd.pkg.mk"

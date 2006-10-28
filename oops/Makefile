@@ -61,7 +61,7 @@ PTHREAD_OPTS+=	require native
 .endif
 
 post-install:
-	${MKDIR} ${EGDIR:Q} ${EGDIR:Q}/tables
+	mkdir ${EGDIR:Q} ${EGDIR:Q}/tables
 	set -eu;							\
 	for m in oops.cfg accel_maps acl_local_networks passwd		\
 		redir_rules select.sql auth_template.html		\

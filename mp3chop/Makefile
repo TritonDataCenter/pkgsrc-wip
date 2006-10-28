@@ -11,6 +11,6 @@ COMMENT=		Program for chopping up mp3 files
 
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
-USE_LANGUAGES+=		c++
+USE_LANGUAGES=		c++
 
 .include "../../mk/bsd.pkg.mk"
