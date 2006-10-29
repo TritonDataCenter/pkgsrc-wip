@@ -1,4 +1,3 @@
-#
 # $NetBSD$
 
 .include "Makefile.common"

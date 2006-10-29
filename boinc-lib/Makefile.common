@@ -1,4 +1,6 @@
-MAINTAINER=		Rumko <rumcic@gmail.com>
+# $NetBSD$
+
+MAINTAINER=		rumcic@gmail.com
 HOMEPAGE=		http://boinc.berkeley.edu/
 
 BOINC_USER?=		boinc

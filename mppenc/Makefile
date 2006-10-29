@@ -1,8 +1,8 @@
 # $NetBSD$
 #
 
-PKGNAME=		mppenc-1.15
 DISTNAME=		mpcsv7-src-1.15v
+PKGNAME=		mppenc-1.15
 CATEGORIES=		audio
 MASTER_SITES=		http://files.musepack.net/source/
 EXTRACT_SUFX=		.tar.bz2

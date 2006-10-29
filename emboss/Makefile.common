@@ -1,3 +1,5 @@
+# $NetBSD$
+
 post-extract:
 	${CP} ${PREFIX}/share/EMBOSS/scripts/* ${WRKSRC}
 

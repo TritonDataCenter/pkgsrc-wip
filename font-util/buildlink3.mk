@@ -13,7 +13,7 @@ BUILDLINK_ORDER:=	${BUILDLINK_ORDER} ${BUILDLINK_DEPTH}font-util
 
 .if ${FONT_UTIL_BUILDLINK3_MK} == "+"
 BUILDLINK_API_DEPENDS.font-util+=	font-util>=1.0.1
-BUILDLINK_PKGSRCDIR.font-util?=	../../new/font-util
+BUILDLINK_PKGSRCDIR.font-util?=	../../wip/font-util
 BUILDLINK_DEPMETHOD.font-util?=	build
 .endif	# FONT_UTIL_BUILDLINK3_MK
 

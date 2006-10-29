@@ -7,7 +7,7 @@ MASTER_SITES=	${HOMEPAGE}
 
 MAINTAINER=	charlie@rubberduck.com
 HOMEPAGE=	http://gael.roualland.free.fr/ifstat/
-COMMENT=	ifstat is a tool to report network interfaces bandwidth
+COMMENT=	Tool to report network interfaces bandwidth
 
 GNU_CONFIGURE=	YES
 

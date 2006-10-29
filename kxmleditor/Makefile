@@ -1,8 +1,7 @@
-# $NetBSD $
+# $NetBSD$
 #
 
 DISTNAME=	kxmleditor-1.0.0
-PKGNAME=	${DISTNAME}
 CATEGORIES=	textproc kde
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=kxmleditor/}
 

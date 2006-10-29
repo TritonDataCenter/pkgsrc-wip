@@ -3,12 +3,12 @@
 
 DISTNAME=		freej-0.8.1
 PKGREVISION=		1
-CATEGORIES=		wip multimedia
+CATEGORIES=		multimedia
 MASTER_SITES=		http://www.ljudmila.org/~jaromil/freej/releases/
 
 MAINTAINER=		pancake@phreaker.net
-HOMEPAGE=		http://freej.dyne.org
-COMMENT=		An instrument for realtime video manipulation
+HOMEPAGE=		http://freej.dyne.org/
+COMMENT=		Instrument for realtime video manipulation
 
 USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=		yes

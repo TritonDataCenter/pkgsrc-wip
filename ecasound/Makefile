@@ -7,7 +7,7 @@ MASTER_SITES=		http://ecasound.seul.org/download/
 
 MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://ecasound.seul.org/
-COMMENT=		multitrack audio processor.
+COMMENT=		Multitrack audio processor
 
 USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=		yes

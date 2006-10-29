@@ -27,4 +27,3 @@ do-install:
 	#empty
 
 .include "../../mk/bsd.pkg.mk"
-

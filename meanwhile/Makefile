@@ -18,9 +18,7 @@ CONFIGURE_ARGS+=	--enable-doxygen=no
 
 PKGCONFIG_OVERRIDE+=	meanwhile.pc.in
 
-USE_LANGUAGES+=		c
-USE_LANGUAGES+=		c++
-USE_LANGUAGES+=		fortran
+USE_LANGUAGES=		c c++ fortran
 
 # path hackery
 SUBST_CLASSES+=			pkg-config

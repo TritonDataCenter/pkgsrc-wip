@@ -1,8 +1,8 @@
 # $NetBSD$
 #
 
-.include "../emboss-base/Makefile.common"
-.include "../emboss/Makefile.common"
+.include "../../wip/emboss-base/Makefile.common"
+.include "../../wip/emboss/Makefile.common"
 
 DISTNAME=	MSE-1.0.0
 PKGNAME=	emboss-mse-1.0.0

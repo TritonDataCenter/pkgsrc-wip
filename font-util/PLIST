@@ -19,8 +19,8 @@ lib/X11/fonts/util/map-ISO8859-9
 lib/X11/fonts/util/map-JISX0201.1976-0
 lib/X11/fonts/util/map-KOI8-R
 lib/pkgconfig/fontutil.pc
-share/aclocal/fontutil.m4
 man/man1/bdftruncate.1
 man/man1/ucs2any.1
+share/aclocal/fontutil.m4
 @dirrm lib/X11/fonts/util
 @dirrm lib/X11/fonts

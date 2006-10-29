@@ -7,7 +7,7 @@ MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=eboard/}
 
 MAINTAINER=		zul@netbsd-fr.org
 HOMEPAGE=		http://eboard.sourceforge.net/
-COMMENT=		Extras sets pieces and sound or eboard
+COMMENT=		Extras sets, pieces and sound or eboard
 
 NO_BUILD=YES
 

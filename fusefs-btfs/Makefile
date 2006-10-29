@@ -3,15 +3,16 @@
 
 DISTNAME=		btfs-0.0.3
 PKGNAME=		fusefs-btfs-0.0.3
-CATEGORIES=		wip sysutils
+CATEGORIES=		sysutils
 MASTER_SITES=		http://www.mulliner.org/bluetooth/
 
 MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://www.mulliner.org/bluetooth/btfs.php
 COMMENT=		Bluetooth Filesystem for FUSE
+
 MAKE_FILE=		makefile
 WRKSRC=			${WRKDIR}/btfs/src/
-USE_TOOLS=		gmake
+USE_TOOLS+=		gmake
 USE_LANGUAGES=		c
 
 do-install:

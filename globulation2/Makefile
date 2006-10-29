@@ -8,12 +8,12 @@ CATEGORIES=		games
 MASTER_SITES=		http://lissrv3.epfl.ch/~glob2/data/
 
 MAINTAINER=		hernani@vecirex.net
-HOMEPAGE=		http://www.globulation2.org/
+HOMEPAGE=		http://globulation2.org/wiki/
 COMMENT=		Real-Time Strategy (RTS) game providing AI and net mode
 
 GNU_CONFIGURE=		YES
 USE_LANGUAGES=		c++
-USE_TOOLS+=             gmake
+USE_TOOLS+=		gmake
 
 .include "../../audio/libvorbis/buildlink3.mk"
 .include "../../audio/speex/buildlink3.mk"

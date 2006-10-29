@@ -1,14 +1,16 @@
 # $NetBSD$
 #
 
-BOUMLVERSION=		2.17.2
 DISTNAME=		bouml_${BOUMLVERSION}
 PKGNAME=		bouml-${BOUMLVERSION}
 CATEGORIES=		devel
 MASTER_SITES=		http://bouml.free.fr/
+
 MAINTAINER=		kcf@users.sourceforge.net
 HOMEPAGE=		http://bouml.free.fr/
 COMMENT=		UML modeling tool, generates C++, JAVA, and IDL
+
+BOUMLVERSION=		2.17.2
 
 USE_LIBTOOL=		YES
 USE_TOOLS+=		gmake

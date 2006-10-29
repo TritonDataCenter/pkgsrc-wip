@@ -2,7 +2,6 @@
 
 MODNAME=		recode
 CATEGORIES+=		converters
-PKGREVISION=		# empty
 MAINTAINER=		evaldo@gardenali.biz
 COMMENT=		PHP extension for recode support
 

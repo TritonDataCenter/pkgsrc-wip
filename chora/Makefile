@@ -12,7 +12,7 @@ COMMENT=	Another CVS-via-web system
 #DEPENDS+=	cvs>=1.11.20:../../devel/cvs
 DEPENDS+=	horde>=2.2.4:../../www/horde
 
-USE_LANGUAGES=  # empty
+USE_LANGUAGES=	# empty
 NO_BUILD=	YES
 
 CHORADIR=	${PREFIX}/share/chora

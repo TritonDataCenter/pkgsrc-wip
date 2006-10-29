@@ -1,6 +1,8 @@
+# $NetBSD$
+
 DISTNAME=		boinc
 PKGNAME=		boinc-client-1
-CATEGORIES=		net wip
+CATEGORIES=		net
 
 COMMENT=		The BOINC distributed computing application
 

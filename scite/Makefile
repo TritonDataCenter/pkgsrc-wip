@@ -20,7 +20,7 @@ MAKE_FLAGS+=		GTK2=1 CPPFLAGS=-Dunix
 MAKE_FILE=		makefile
 
 do-install:
-	cd ${WRKSRC}/scite/gtk && ${GMAKE} GTK2=1 install
+	cd ${WRKSRC}/scite/gtk && gmake GTK2=1 install
 	${INSTALL_MAN} ${WRKSRC}/scite/doc/scite.1 ${PREFIX}/${PKGMANDIR}/man1
 
 .include "../../converters/libiconv/buildlink3.mk"

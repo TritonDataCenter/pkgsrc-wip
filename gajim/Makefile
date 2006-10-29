@@ -6,13 +6,13 @@ CATEGORIES=	chat python
 MASTER_SITES=	http://www.gajim.org/downloads/
 
 MAINTAINER=	vsevolod@highsecure.ru
-HOMEPAGE=	http://www.gajim.org
+HOMEPAGE=	http://www.gajim.org/
 COMMENT=	Jabber client written in PyGTK
 
 DEPENDS=	${PYPKGPREFIX}-expat-[0-9]*:../../textproc/py-expat
 
 PY_PATCHPLIST=	yes
-USE_TOOLS=	gmake
+USE_TOOLS+=	gmake
 MAKE_ENV=	"MAKE=gmake"
 
 PATCH_MAKEFILE=	src src/common

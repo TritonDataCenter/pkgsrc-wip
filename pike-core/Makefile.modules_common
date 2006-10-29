@@ -1,3 +1,5 @@
+# $NetBSD$
+
 DEPENDS+=	pike-core-${PIKE_VERSION}:../../wip/pike-core
 
 do-build:
