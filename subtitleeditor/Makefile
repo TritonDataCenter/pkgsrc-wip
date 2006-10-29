@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		subtitleeditor-0.11.1
-CATEGORIES=		editors
+CATEGORIES=		multimedia
 MASTER_SITES=		http://kitone.free.fr/subtitleeditor/files/
 
 MAINTAINER=		ccatrian@eml.cc
