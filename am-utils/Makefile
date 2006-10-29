@@ -19,7 +19,7 @@ MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://www.am-utils.org/
 COMMENT=		Berkeley automounter suite of utilities
 
-USE_TOOLS+=		yacc lex
+USE_TOOLS+=		yacc lex perl:run
 GNU_CONFIGURE=		yes
 
 INFO_FILES=		yes
