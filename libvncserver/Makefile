@@ -12,7 +12,7 @@ COMMENT=		Library for creating quick and easy VNC applications
 
 GNU_CONFIGURE=		yes
 
-CONFIGURE_ARGS+=        --prefix=${PREFIX:Q}
+CONFIGURE_ARGS+=	--prefix=${PREFIX:Q}
 
 .include "../../mk/bsd.prefs.mk"
 .include "../../mk/bsd.pkg.mk"

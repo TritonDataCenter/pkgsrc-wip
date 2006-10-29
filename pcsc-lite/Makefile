@@ -8,14 +8,14 @@ MAINTAINER=		evaldo@gardenali.biz
 HOMEPAGE=		http://www.linuxnet.com/
 COMMENT=		PC/SC Architecture support for Smart Cards
 
-GNU_CONFIGURE=          YES
-USE_LIBTOOL=            YES
-USE_TOOLS+=             gmake
+GNU_CONFIGURE=		YES
+USE_LIBTOOL=		YES
+USE_TOOLS+=		gmake
 
 .include "options.mk"
 
 RCD_SCRIPTS=		pcscd
-CONFIGURE_ARGS+=        --sysconfdir=${PKG_SYSCONFDIR:Q}
+CONFIGURE_ARGS+=	--sysconfdir=${PKG_SYSCONFDIR:Q}
 CONFIGURE_ARGS+=	--enable-confdir=${PKG_SYSCONFDIR:Q}
 CONFIGURE_ARGS+=	--enable-ipcdir=${VARBASE}/pcsc-lite
 CONFIGURE_ARGS+=	--enable-usbdropdir=${PREFIX}/lib/pcsc-lite/drivers

@@ -16,9 +16,9 @@ USE_PKGLOCALEDIR=	yes
 USE_TOOLS+=		gmake perl:run pkg-config
 GNU_CONFIGURE=		yes
 
-REPLACE_INTERPRETER+=   bash
-REPLACE.bash.old=       .*/bin/bash
-REPLACE.bash.new=       ${LOCALBASE}/bin/bash
+REPLACE_INTERPRETER+=	bash
+REPLACE.bash.old=	.*/bin/bash
+REPLACE.bash.new=	${LOCALBASE}/bin/bash
 REPLACE_FILES.bash=     \
 	sh-restore/monthday.sh.in \
 	sh-restore/rorrim.sh.in \

@@ -2,12 +2,12 @@
 #
 
 DISTNAME=		eboard-extras-2
-CATEGORIES=             games
-MASTER_SITES=           ${MASTER_SITE_SOURCEFORGE:=eboard/}
+CATEGORIES=		games
+MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=eboard/}
 
-MAINTAINER=             zul@netbsd-fr.org
-HOMEPAGE=               http://eboard.sourceforge.net/
-COMMENT=               	Extras sets pieces and sound or eboard
+MAINTAINER=		zul@netbsd-fr.org
+HOMEPAGE=		http://eboard.sourceforge.net/
+COMMENT=		Extras sets pieces and sound or eboard
 
 NO_BUILD=YES
 

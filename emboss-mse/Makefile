@@ -15,7 +15,7 @@ COMMENT=	Multiple Sequence Editor for EMBOSS
 #mse.c:149: dereferencing pointer to incomplete type
 #mse.c 148  __Cols=Display->_maxx;
 #mse.c 149  __Rows=Display->_maxy;
-USE_NCURSES=    	yes
+USE_NCURSES=	yes
 DIST_SUBDIR=		emboss/mse-1.0.0-20041107
 BUILD_TARGET=		#empty
 

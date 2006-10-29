@@ -1,6 +1,6 @@
 # $NetBSD$
 
-PKG_OPTIONS_VAR=        PKG_OPTIONS.pam-pkcs11
+PKG_OPTIONS_VAR=	PKG_OPTIONS.pam-pkcs11
 PKG_SUPPORTED_OPTIONS=	pcsc-lite ldap
 
 .include "../../mk/bsd.options.mk"

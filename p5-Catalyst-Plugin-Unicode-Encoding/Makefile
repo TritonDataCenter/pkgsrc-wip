@@ -8,13 +8,13 @@ MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=Catalyst/}
 MAINTAINER=	kuli0020@umn.edu
 HOMEPAGE=	http://search.cpan.org/dist/Catalyst-Unicode-Encoding/
 COMMENT=	Unicode aware Catalyst
-PERL5_REQD+=    5.8.1
+PERL5_REQD+=	5.8.1
 
 DEPENDS+=	p5-Catalyst>=5.2:../../wip/p5-Catalyst
 DEPENDS+=	{perl>=5.8.6,p5-Encode>=2.1}:../../textproc/p5-Encode
 
-PERL5_MODULE_TYPE=      Module::Build
-PERL5_PACKLIST= 	auto/Catalyst/Plugin/Unicode/Encoding/.packlist
+PERL5_MODULE_TYPE=	Module::Build
+PERL5_PACKLIST=	auto/Catalyst/Plugin/Unicode/Encoding/.packlist
 
 .include "../../lang/perl5/module.mk"
 .include "../../mk/bsd.pkg.mk"

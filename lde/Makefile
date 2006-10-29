@@ -4,7 +4,7 @@
 DISTNAME=	lde-2.6.0
 WRKSRC=		${WRKDIR}/lde
 CATEGORIES=	editors
-MASTER_SITES=   ${MASTER_SITE_SOURCEFORGE:=lde/}
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=lde/}
 
 MAINTAINER=	pancake@phreaker.net
 HOMEPAGE=	http://lde.sourceforge.net

@@ -10,17 +10,17 @@ HOMEPAGE=		http://pointless.sourceforge.net/
 COMMENT=		Markup-language presentation tool
 
 GNU_CONFIGURE=		yes
-USE_LANGUAGES+=		c c++
+USE_LANGUAGES=		c c++
 
-DEPENDS+=               a2ps>=4.1:../../print/a2ps
-DEPENDS+=               pdflib>=4.0.3:../../print/pdflib
-DEPENDS+=               plotutils>=2.4.1:../../graphics/plotutils
-DEPENDS+=               gnuplot>=3.7:../../graphics/gnuplot
-DEPENDS+=               freetype2>=2.1:../../graphics/freetype2
-DEPENDS+=               Mesa>=6.0:../../graphics/Mesa
-DEPENDS+=               ghostscript-gnu>=7.0:../../print/ghostscript-gnu
+DEPENDS+=		a2ps>=4.1:../../print/a2ps
+DEPENDS+=		pdflib>=4.0.3:../../print/pdflib
+DEPENDS+=		plotutils>=2.4.1:../../graphics/plotutils
+DEPENDS+=		gnuplot>=3.7:../../graphics/gnuplot
+DEPENDS+=		freetype2>=2.1:../../graphics/freetype2
+DEPENDS+=		Mesa>=6.0:../../graphics/Mesa
+DEPENDS+=		ghostscript-gnu>=7.0:../../print/ghostscript-gnu
 
-USE_PKGLOCALEDIR=       yes
+USE_PKGLOCALEDIR=	yes
 
 INSTALL_TARGET=		${INSTALL} install-modules
 

@@ -12,7 +12,7 @@ COMMENT=		Python libraries for computational molecular biology
 LICENSE=		no-commercial-use
 
 PY_PATCHPLIST=		YES
-PYDISTUTILSPKG=         YES
+PYDISTUTILSPKG=		YES
 NO_CONFIGURE=		YES
 
 post-install:

@@ -9,7 +9,7 @@ MAINTAINER=	kuli0020@umn.edu
 HOMEPAGE=	http://search.cpan.org/dist/Text-SimpleTable/
 COMMENT=	Simple Eyecandy ASCII Tables
 
-PERL5_MODULE_TYPE=      Module::Build
+PERL5_MODULE_TYPE=	Module::Build
 PERL5_PACKLIST= auto/Text/SimpleTable/.packlist
 
 .include "../../lang/perl5/module.mk"

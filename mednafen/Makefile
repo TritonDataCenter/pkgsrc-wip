@@ -13,7 +13,7 @@ COMMENT=	Portable multi-system emulator
 WRKSRC=			${WRKDIR}/mednafen
 GNU_CONFIGURE=		yes
 USE_TOOLS+=		intltool pkg-config
-USE_LANGUAGES+=		c c++
+USE_LANGUAGES=		c c++
 USE_LIBTOOL=		yes
 USE_PKGLOCALEDIR=	yes
 

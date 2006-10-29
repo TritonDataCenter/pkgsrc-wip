@@ -23,7 +23,7 @@ post-wrapper:
 
 CONFIGURE_ENV+=		PWLIBDIR=${BUILDLINK_DIR}/include/ptlib
 
-USE_LANGUAGES+=		c c++
+USE_LANGUAGES=		c c++
 USE_TOOLS+=		gmake
 
 

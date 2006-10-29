@@ -13,7 +13,7 @@ COMMENT=		Protein Topology Cartoons Tools
 
 USE_JAVA=		yes
 
-CHECK_SHLIBS=   	no
+CHECK_SHLIBS=	no
 
 NO_BUILD=		yes
 

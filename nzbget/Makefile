@@ -10,13 +10,13 @@ MAINTAINER=		martijn.van.buul@gmail.com
 HOMEPAGE=		http://sourceforge.net/projects/nzbget/
 COMMENT=		Binary newsreader with NZB support
 
-USE_TOOLS+=	        gmake
+USE_TOOLS+=		gmake
 USE_TOOLS+=		autoconf
-USE_LANGUAGES+=		c++
+USE_LANGUAGES=		c++
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 
-EGDIR=          	${PREFIX}/share/examples/nzbget
+EGDIR=		${PREFIX}/share/examples/nzbget
 MESSAGE_SUBST+=		EGDIR=${EGDIR}
 
 pre-configure:

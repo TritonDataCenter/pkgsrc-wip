@@ -10,7 +10,7 @@ MAINTAINER=		pkgsrc@blackmouse.biz
 HOMEPAGE=		http://www.nongnu.org/gcmd/
 COMMENT=		GNOME Commander is a fast and powerful graphical filemanager
 
-USE_LANGUAGES+=		c c++
+USE_LANGUAGES=		c c++
 USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=		yes
 USE_DIRS=		gnome2-1.6

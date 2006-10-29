@@ -12,7 +12,7 @@ MAINTAINER=	obata@lins.jp
 HOMEPAGE=	http://mecab.sourceforge.jp/
 COMMENT=	MeCab python module
 
-USE_LANGUAGES+=	c c++
+USE_LANGUAGES=	c c++
 
 PYDISTUTILSPKG=	yes
 PYBINMODULE=	yes

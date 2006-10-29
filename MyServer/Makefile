@@ -12,8 +12,7 @@ HOMEPAGE=		http://www.myserverproject.net/
 COMMENT=		Powerful and easy to configure web server
 
 USE_PKGLOCALEDIR=	yes
-USE_LANGUAGES+=		c++
-USE_LANGUAGES+=		fortran
+USE_LANGUAGES=		c++ fortran
 USE_LIBTOOL=		yes
 GNU_CONFIGURE=		yes
 

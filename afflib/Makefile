@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		afflib-1.6.31
-CATEGORIES=		wip devel
+CATEGORIES=		devel
 MASTER_SITES=		http://www.afflib.org/downloads/
 
 MAINTAINER=		pancake@phreaker.net

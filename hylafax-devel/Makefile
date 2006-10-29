@@ -5,7 +5,7 @@ PKGNAME=	hylafax-devel-${VERS}
 DISTNAME=	hylafax-${VERS}
 CATEGORIES=	comms
 MASTER_SITES_BETA=	ftp://ftp.hylafax.org/source/BETA/
-MASTER_SITES_RELEASE=   ftp://ftp.hylafax.org/source/ \
+MASTER_SITES_RELEASE=	ftp://ftp.hylafax.org/source/ \
                 ftp://ftp.leo.org/pub/comp/os/unix/networking/fax/hylafax/source/
 
 .if empty(VERS:M[0-9].[0-9].[0-9]rc[0-9])

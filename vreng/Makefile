@@ -14,7 +14,7 @@ COMMENT=	Virtual Reality Engine interactive distributed 3D application
 
 #PKG_INSTALLATION_TYPES= overwrite pkgviews
 
-USE_LANGUAGES+=	c c++
+USE_LANGUAGES=	c c++
 GNU_CONFIGURE=	yes
 USE_TOOLS+=	gmake
 USE_LIBTOOL=	yes

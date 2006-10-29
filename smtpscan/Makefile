@@ -1,12 +1,12 @@
 # $NetBSD$
 
 DISTNAME=	smtpscan-${SSVERSION}
-WRKSRC=         ${WRKDIR}/smtpscan
+WRKSRC=		${WRKDIR}/smtpscan
 CATEGORIES=	net mail
 MASTER_SITES=	http://www.greyhats.org/outils/smtpscan/
 
 MAINTAINER=	adrianp@stindustries.net
-HOMEPAGE= 	http://www.greyhats.org/outils/smtpscan/
+HOMEPAGE=	http://www.greyhats.org/outils/smtpscan/
 COMMENT=	Remote SMTP version checker
 
 DEPENDS+=	p5-Net-DNS-[0-9]*:../../net/p5-Net-DNS

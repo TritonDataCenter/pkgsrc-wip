@@ -36,8 +36,8 @@ _FETCH_MESSAGE= \
 	${ECHO} "======================================================================"
 
 USE_TOOLS+=	gmake
-GNU_CONFIGURE=  YES
-USE_LIBTOOL=    YES
+GNU_CONFIGURE=	YES
+USE_LIBTOOL=	YES
 LTCONFIG_OVERRIDE=  ${WRKSRC}/ltconfig
 SHLIBTOOL_OVERRIDE=	libtool
 

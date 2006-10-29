@@ -16,7 +16,7 @@ BUILD_DEPENDS=		p5-XML-Parser>=2.31nb1:../../textproc/p5-XML-Parser
 
 USE_DIRS+=		gnome2-1.5
 USE_TOOLS+=		gmake intltool msgfmt pkg-config
-USE_LANGUAGES+=		c c++
+USE_LANGUAGES=		c c++
 
 USE_LIBTOOL=		yes
 USE_PKGLOCALEDIR=	yes

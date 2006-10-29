@@ -16,7 +16,7 @@ WRKSRC=			${WRKDIR}/GlimmerM
 
 BUILD_DIRS=		sources train
 
-USE_LANGUAGES+=		c++
+USE_LANGUAGES=		c++
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/sources/glimmerm ${PREFIX}/bin

@@ -8,9 +8,9 @@ MAINTAINER=		evaldo@gardenali.biz
 HOMEPAGE=		http://www.musclecard.com/
 COMMENT=		MUSCLE SmartCard framework support library
 
-GNU_CONFIGURE=          YES
-USE_LIBTOOL=            YES
-USE_TOOLS+=             gmake pkg-config
+GNU_CONFIGURE=		YES
+USE_LIBTOOL=		YES
+USE_TOOLS+=		gmake pkg-config
 
 CONFIGURE_ARGS+=	--enable-muscledropdir=${PREFIX}/lib/pcsc-lite/drivers
 CONFIGURE_ARGS+=	--sysconfdir=${PKG_SYSCONFDIR:Q}

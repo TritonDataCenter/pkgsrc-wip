@@ -6,8 +6,8 @@ PKGREVISION=		1
 CATEGORIES=		security
 MASTER_SITES=		http://alioth.debian.org/download.php/463/
 
-MAINTAINER=     	evaldo@gardenali.biz
-HOMEPAGE=       	http://www.linuxnet.com/
+MAINTAINER=	evaldo@gardenali.biz
+HOMEPAGE=	http://www.linuxnet.com/
 COMMENT=		MUSCLE SmartCard framework PKCS \#11 library
 
 WRKSRC=			${WRKDIR}/${DISTNAME}/libmusclepkcs11

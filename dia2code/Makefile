@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		dia2code-0.8.1
-CATEGORIES=	 	devel
+CATEGORIES=		devel
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=dia2code/}
 
 MAINTAINER=		dprice@cs.nmsu.edu

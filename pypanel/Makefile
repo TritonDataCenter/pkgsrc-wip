@@ -10,7 +10,7 @@ HOMEPAGE=		http://pypanel.sourceforge.net/
 COMMENT=		Lightweight panel written in Python and C for X11
 
 PYDISTUTILSPKG=		yes
-PY_PATCHPLIST=  	yes
+PY_PATCHPLIST=	yes
 
 SUBST_CLASSES+=		setup
 SUBST_MESSAGE.setup=	Fixing LOCALBASE and X11BASE paths.

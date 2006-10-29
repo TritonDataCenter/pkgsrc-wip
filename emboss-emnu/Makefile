@@ -12,7 +12,7 @@ BUILD_TARGET=		#empty
 DIST_SUBDIR=		emboss/emnu-1.05-20041107
 GNU_CONFIGURE=		yes
 #ncurses required for the redrawwin function
-USE_NCURSES=            yes
+USE_NCURSES=		yes
 
 pre-configure:
 	${SED} -e 's|../../../plplot/libplplot.la|${PREFIX}/lib/libplplot.la|' \

@@ -3,7 +3,7 @@
 
 DISTNAME=		TleenX3-0.1
 PKGNAME=		${DISTNAME:S/T/t/:S/X/x/}
-CATEGORIES=	        chat
+CATEGORIES=		chat
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=tleenx/}
 
 MAINTAINER=		pkgsrc-users@NetBSD.org

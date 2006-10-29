@@ -7,7 +7,7 @@ MASTER_SITES=	http://ktorrent.pwsp.net/downloads/${KTORRENT_VER}/
 KTORRENT_VER=	2.0rc1
 
 MAINTAINER=	pkg-maintainer@NetBSD.org
-HOMEPAGE=       http://ktorrent.org/
+HOMEPAGE=	http://ktorrent.org/
 COMMENT=	Graphical BitTorrent client for KDE
 
 USE_LANGUAGES=		c c++

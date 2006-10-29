@@ -28,7 +28,7 @@ MAKE_ENV+=		LEX=${LEX:Q}
 .endif
 
 .if !exists(/usr/bin/yacc)
-BUILD_DEPENDS+= 	bison-[0-9]*:../../devel/bison
+BUILD_DEPENDS+=	bison-[0-9]*:../../devel/bison
 YACC=			${LOCALBASE}/bin/bison -y
 MAKE_ENV+=		YACC=${YACC:Q}
 .endif

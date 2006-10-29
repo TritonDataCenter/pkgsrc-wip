@@ -16,7 +16,7 @@ USE_TOOLS+=		gmake
 PY_PATCHPLIST=		YES
 
 # Ensure we export symbols in the linked shared object.
-LDFLAGS+=       ${EXPORT_SYMBOLS_LDFLAGS}
+LDFLAGS+=	${EXPORT_SYMBOLS_LDFLAGS}
 
 CONFIGURE_ENV+= PYTHON=${PYTHONBIN:Q}
 

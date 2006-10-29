@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	 	EMBOSS-2.9.0
+DISTNAME=		EMBOSS-2.9.0
 PKGNAME=		emboss-java-0.0.3
 CATEGORIES=		biology
 MASTER_SITES		ftp://ftp.uk.embnet.org/pub/EMBOSS/

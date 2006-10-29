@@ -19,7 +19,7 @@ DOCDIR=			${PREFIX}/share/doc/yafray
 PTHREAD_OPTS=		require
 
 SUBST_CLASSES+=     patch
-SUBST_MESSAGE.patch=    Make yafray search the grammar at the right place.
+SUBST_MESSAGE.patch=	Make yafray search the grammar at the right place.
 SUBST_STAGE.patch=  post-patch
 SUBST_FILES.patch=  src/loader/loader.cc
 SUBST_SED.patch=    -e "s|/usr/local/etc|${YAFRAYDIR}|"

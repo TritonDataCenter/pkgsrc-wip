@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME= 	portmap_4
+DISTNAME=	portmap_4
 PKGNAME=	portmap-4
 PKGREVISION=	2
 CATEGORIES=	net

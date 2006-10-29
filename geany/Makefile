@@ -10,7 +10,7 @@ COMMENT=	Geany integrated development environment (IDE)
 
 GNU_CONFIGURE=	YES
 USE_TOOLS+=		pkg-config
-USE_LANGUAGES+=	c c++
+USE_LANGUAGES=	c c++
 
 .include "../../x11/gtk2/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

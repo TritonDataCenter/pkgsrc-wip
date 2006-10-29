@@ -12,7 +12,7 @@ COMMENT=	Dynamic definition of DBIx::Class sub classes
 DEPENDS+=	p5-DBI>=1.3:../../databases/p5-DBI
 DEPENDS+=	p5-DBIx-Class>=0.04001:../../wip/p5-DBIx-Class
 DEPENDS+=	p5-Lingua-EN-Inflect>=0:../../textproc/p5-Lingua-EN-Inflect
-DEPENDS+=       {perl>=5.7.3,p5-Test-Simple>=0.45}:../../devel/p5-Test-Simple
+DEPENDS+=	{perl>=5.7.3,p5-Test-Simple>=0.45}:../../devel/p5-Test-Simple
 DEPENDS+=	p5-Text-Balanced>=0:../../textproc/p5-Text-Balanced
 DEPENDS+=	p5-UNIVERSAL-require>=0.10:../../devel/p5-UNIVERSAL-require
 

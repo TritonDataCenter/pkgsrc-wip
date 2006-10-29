@@ -13,7 +13,7 @@ HOMEPAGE=		http://mecab.sourceforge.jp/
 COMMENT=		Yet Another Part-of-Speech and Morphological Analyzer
 
 GNU_CONFIGURE=		yes
-USE_LANGUAGES+=		c c++
+USE_LANGUAGES=		c c++
 USE_LIBTOOL=		yes
 OWN_DIRS=		${PREFIX:Q}/lib/mecab/dic
 

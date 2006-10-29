@@ -13,7 +13,7 @@ HOMEPAGE=		http://mecab.sourceforge.jp/
 COMMENT=		MeCab perl module
 
 PERL5_CONFIGURE=	yes
-USE_LANGUAGES+=		c++
+USE_LANGUAGES=		c++
 
 PERL5_PACKLIST=		auto/MeCab/.packlist
 REPLACE_PERL+=		test.pl

@@ -5,7 +5,7 @@
 DISTNAME=		EMBOSS-2.9.0
 PKGNAME=		emboss-base-2.9.0
 
-COMMENT=	 	European Molecular Biology Open Software Suite
+COMMENT=	European Molecular Biology Open Software Suite
 
 DIST_SUBDIR=		emboss/emboss-2.9.0
 

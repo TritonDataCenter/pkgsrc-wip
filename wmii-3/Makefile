@@ -18,7 +18,7 @@ LDFLAGS+=-L${X11BASE}/lib ${COMPILER_RPATH_FLAG}${X11BASE}/lib
 
 SUBST_CLASSES+=		path
 SUBST_STAGE.path=	post-patch
-SUBST_FILES.path= 	cmd/wm/wmii rc/* cmd/wm/wmii.1
+SUBST_FILES.path=	cmd/wm/wmii rc/* cmd/wm/wmii.1
 SUBST_SED.path=		-e 's|CONFPREFIX|${PREFIX}/etc/|g'
 SUBST_SED.path+=	-e 's|9PREFIX|${PREFIX}|g'
 

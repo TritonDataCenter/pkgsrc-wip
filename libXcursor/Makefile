@@ -20,8 +20,8 @@ PKGCONFIG_OVERRIDE+=	xcursor.pc.in
 
 .include "../../mk/bsd.prefs.mk"
 .if defined(X11_TYPE) && ${X11_TYPE} == "native"
-CONFIGURE_ENV+=         XCURSOR_CFLAGS="-I${X11BASE}/include"
-CONFIGURE_ENV+=         XCURSOR_LIBS="-L${X11BASE}/lib -lX11"
+CONFIGURE_ENV+=		XCURSOR_CFLAGS="-I${X11BASE}/include"
+CONFIGURE_ENV+=		XCURSOR_LIBS="-L${X11BASE}/lib -lX11"
 .  include "../../mk/x11.buildlink3.mk"
 .endif
 

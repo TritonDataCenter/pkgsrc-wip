@@ -9,7 +9,7 @@ MAINTAINER=		bartosz@atom.eu.org
 HOMEPAGE=		http://vegan.net/tony/supersmack/
 COMMENT=		Database benchmarking tool
 
-USE_LANGUAGES+=		c++
+USE_LANGUAGES=		c++
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 

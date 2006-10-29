@@ -20,8 +20,8 @@ OWN_DIRS=		?
 GNU_CONFIGURE=		yes
 USE_TOOLS+=		gmake
 
-EGDIR=                  ${PREFIX}/share/examples/nsd
-PKG_SYSCONFSUBDIR=      nsd
+EGDIR=			${PREFIX}/share/examples/nsd
+PKG_SYSCONFSUBDIR=	nsd
 NSD_LOGDIR=		/var/log/nsd
 NSD_ROOT=		${PREFIX}/share/nsd
 NSD_USER?=		nsadmin

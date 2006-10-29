@@ -7,9 +7,9 @@ CATEGORIES=		sysutils
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=neb-stoehr/}
 EXTRACT_SUFX=		.tgz
 
-MAINTAINER=	 	netbsd@wolfnode.de
+MAINTAINER=		netbsd@wolfnode.de
 HOMEPAGE=		http://neb-stoehr.sourceforge.net/
-COMMENT=	 	Secure disk partition eraser (NetBSD only)
+COMMENT=	Secure disk partition eraser (NetBSD only)
 
 NO_CONFIGURE=		yes
 

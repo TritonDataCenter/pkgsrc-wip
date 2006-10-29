@@ -3,7 +3,7 @@
 
 DISTNAME=	mod_bunzip2
 PKGNAME=	${DISTNAME:S/mod_/ap-/}-0.1
-WRKSRC=         ${WRKDIR}/mod_bunzip2-2
+WRKSRC=		${WRKDIR}/mod_bunzip2-2
 CATEGORIES=	www
 MASTER_SITES=	http://oldach.net/
 EXTRACT_SUFX=	.tar.bz2
@@ -13,8 +13,8 @@ HOMEPAGE=	http://oldach.net/
 COMMENT=	Apache module for server-side decompression of bzip2 files
 
 
-APACHE_MODULE_NAME=     ${DISTNAME:C|-.*||}.so
-APACHE_MODULE_SRC=      ${DISTNAME:C|-.*||}.c
+APACHE_MODULE_NAME=	${DISTNAME:C|-.*||}.so
+APACHE_MODULE_SRC=	${DISTNAME:C|-.*||}.c
 
 DOCDIR=		${PREFIX}/share/doc/${PKGNAME}
 

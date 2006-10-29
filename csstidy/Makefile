@@ -10,10 +10,10 @@ MAINTAINER=		kh.p@no-log.org
 HOMEPAGE=		http://csstidy.sourceforge.net/
 COMMENT=		Opensource CSS parser
 
-WRKSRC=                 ${WRKDIR}
+WRKSRC=			${WRKDIR}
 NO_CONFIGURE=		yes
 USE_TOOLS+=		sh gmake
-USE_LANGUAGES+=		c++
+USE_LANGUAGES=		c++
 
 do-build:
 	cd ${WRKSRC} && ${SH} ./compile.sh

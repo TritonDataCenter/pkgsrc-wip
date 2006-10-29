@@ -42,7 +42,7 @@ do-install:
 
 .include "../../mk/oss.buildlink3.mk"
 .if defined(HAVE_OSS) && (${HAVE_OSS} == "YES")
-CONFIGURE_ENV+=         ac_cv_libossaudio__oss_ioctl=no
+CONFIGURE_ENV+=		ac_cv_libossaudio__oss_ioctl=no
 .endif
 
 .include "../../audio/flac/buildlink3.mk"

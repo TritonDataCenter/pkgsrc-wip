@@ -25,8 +25,8 @@ BUILDLINK_API_DEPENDS.fixesproto+=	fixesproto>=4
 
 .include "../../mk/bsd.prefs.mk"
 .if defined(X11_TYPE) && ${X11_TYPE} == "native"
-CONFIGURE_ENV+=         X_CFLAGS="-I${X11BASE}/include"
-CONFIGURE_ENV+=         X_LIBS="-L${X11BASE}/lib -lX11"
+CONFIGURE_ENV+=		X_CFLAGS="-I${X11BASE}/include"
+CONFIGURE_ENV+=		X_LIBS="-L${X11BASE}/lib -lX11"
 .  include "../../mk/x11.buildlink3.mk"
 .endif
 

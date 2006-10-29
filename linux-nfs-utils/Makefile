@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME= 	nfs-utils-1.0.6
+DISTNAME=	nfs-utils-1.0.6
 PKGNAME=	linux-${DISTNAME}
 CATEGORIES=	net
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=nfs/}

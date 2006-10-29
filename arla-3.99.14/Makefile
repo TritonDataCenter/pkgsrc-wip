@@ -56,7 +56,7 @@ EGDIR=		${PREFIX}/share/examples/arla
 EGFILES=	CellServDB DynRootDB SuidCells ThisCell arla.conf
 
 .for f in ${EGFILES}
-CONF_FILES+=    ${EGDIR}/${f} ${PKG_SYSCONFDIR}/${f}
+CONF_FILES+=	${EGDIR}/${f} ${PKG_SYSCONFDIR}/${f}
 .endfor
 
 RCD_SCRIPTS=	arlad

@@ -5,7 +5,7 @@ CATEGORIES=	net www
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=iisemul8/}
 
 MAINTAINER=	adrianp@stindustries.net
-HOMEPAGE= 	http://sourceforge.net/projects/iisemul8/
+HOMEPAGE=	http://sourceforge.net/projects/iisemul8/
 COMMENT=	IIS emulator
 
 IISEMUL8=	${PREFIX}/share/iisemulator

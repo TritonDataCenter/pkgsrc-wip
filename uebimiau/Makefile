@@ -9,7 +9,7 @@ MAINTAINER=		rpereyra@users.sourceforge.net
 HOMEPAGE=		http://www.uebimiau.org/
 COMMENT=		Web based email client
 
-DEPENDS+=      		ap{,2}-php>=4.3.0:../../www/ap-php
+DEPENDS+=	ap{,2}-php>=4.3.0:../../www/ap-php
 
 NO_BUILD=		yes
 

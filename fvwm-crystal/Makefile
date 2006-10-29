@@ -9,7 +9,7 @@ PKGREVISION=		1
 
 MAINTAINER=		milos.negovanovic@googlemail.com
 HOMEPAGE=		http://fvwm-crystal.org/
-COMMENT=                Easy to use, powerful desktop environment
+COMMENT=		Easy to use, powerful desktop environment
 
 
 EGDIR=		${PREFIX}/share/examples/fvwm-crystal

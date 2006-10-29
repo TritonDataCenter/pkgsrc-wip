@@ -6,7 +6,7 @@ CATEGORIES=	textproc perl5
 MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=Lingua/}
 
 MAINTAINER=	kuli0020@umn.edu
-HOMEPAGE=	http://search.cpan.org/dist/Lingua-PT-Stemmer
+HOMEPAGE=	http://search.cpan.org/dist/Lingua-PT-Stemmer/
 COMMENT=	Stemmers for Portuguese and Galician
 
 PERL5_PACKLIST= auto/Lingua/PT/Stemmer/.packlist

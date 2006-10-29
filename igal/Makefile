@@ -14,7 +14,7 @@ DEPENDS+=	ImageMagick>=5.0:../../graphics/ImageMagick
 NO_CONFIGURE=		YES
 NO_BUILD=		YES
 REPLACE_PERL=		igal
-USE_TOOLS+=		perl5:run
+USE_TOOLS+=		perl:run
 USE_PKGLOCALEDIR=	YES
 
 post-patch:

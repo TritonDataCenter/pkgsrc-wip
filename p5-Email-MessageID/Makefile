@@ -6,11 +6,11 @@ CATEGORIES=	mail perl5
 MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=Email/}
 
 MAINTAINER=	kuli0020@umn.edu
-HOMEPAGE=	http://search.cpan.org/dist/Email-MessageID
+HOMEPAGE=	http://search.cpan.org/dist/Email-MessageID/
 COMMENT=	Generate world unique message-ids
 
 DEPENDS+=	p5-Email-Address>=1.80:../../wip/p5-Email-Address
-DEPENDS+=       {perl>=5.7.3,p5-Test-Simple>=0.47}:../../devel/p5-Test-Simple
+DEPENDS+=	{perl>=5.7.3,p5-Test-Simple>=0.47}:../../devel/p5-Test-Simple
 
 PERL5_PACKLIST= auto/Email/MessageID/.packlist
 

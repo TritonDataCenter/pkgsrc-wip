@@ -15,7 +15,7 @@ TUTOS_USER?=	tutos
 TUTOS_GROUP?=	${TUTOS_USER}
 
 PKG_GROUPS+=	${TUTOS_GROUP}
-PKG_USERS+=     ${TUTOS_USER}:${TUTOS_GROUP}::Tutos\ Runtime\ User
+PKG_USERS+=	${TUTOS_USER}:${TUTOS_GROUP}::Tutos\ Runtime\ User
 
 NO_CONFIGURE=	yes
 NO_BUILD=	yes

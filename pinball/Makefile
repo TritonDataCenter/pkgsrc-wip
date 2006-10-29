@@ -11,7 +11,7 @@ COMMENT=	Pinball using the Allegro game library
 
 USE_LANGUAGES=	c c++
 USE_TOOLS+=	gmake
-GNU_CONFIGURE=  YES
+GNU_CONFIGURE=	YES
 WRKSRC=		${WRKDIR}/pinball-0.2.0
 
 .include "../../devel/allegro/buildlink3.mk"

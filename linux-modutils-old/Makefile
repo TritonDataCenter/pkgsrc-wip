@@ -14,7 +14,7 @@ COMMENT=		Linux kernel module utilities, .old versions
 
 CONFLICTS+=		linux-modutils-[0-9]*
 
-ONLY_FOR_PLATFORM=      Linux-*-* # This is for the Linux kernel
+ONLY_FOR_PLATFORM=	Linux-*-* # This is for the Linux kernel
 
 GNU_CONFIGURE=		YES
 CONFIGURE_ARGS+=	--exec-prefix=${PREFIX:Q} --sysconfdir=${PKG_SYSCONFDIR:Q}

@@ -20,13 +20,13 @@ PATCHDIR=		${.CURDIR}/../../databases/postgresql74/patches
 
 .include "../../databases/postgresql74/Makefile.common"
 
-MASTER_SITES+=  	${PGSQL_SITES:=source/v${DIST_VERS}/}
-MASTER_SITES+=  	http://postgis.refractions.net/download/
+MASTER_SITES+=	${PGSQL_SITES:=source/v${DIST_VERS}/}
+MASTER_SITES+=	http://postgis.refractions.net/download/
 
 PGSQL_VERSION_REQD=	74
 
 # Add postgis to the postgresql distfile
-DISTFILES+=      	postgis-${VERSION}.tar.gz ${DISTNAME}${EXTRACT_SUFX}
+DISTFILES+=		postgis-${VERSION}.tar.gz ${DISTNAME}${EXTRACT_SUFX}
 
 USE_TOOLS+=		perl
 USE_TOOLS+=		gmake

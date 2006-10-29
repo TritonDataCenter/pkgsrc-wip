@@ -17,7 +17,7 @@ USE_TOOLS+=	aclocal autoconf automake gmake perl
 
 GNU_CONFIGURE=	yes
 CONFIGURE_SCRIPT= ${TMPEXT_DIR}/configure
-USE_LANGUAGES+=	c c++
+USE_LANGUAGES=	c c++
 
 pre-configure:
 	${MKDIR} ${WRKSRC};	\

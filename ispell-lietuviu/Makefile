@@ -8,7 +8,7 @@ MASTER_SITES=		ftp://ftp.akl.lt/ispell-lt/
 
 MAINTAINER=		tomas.furmonavicius@takas.lt
 HOMEPAGE=		http://www.lietuvybe.org/?menuid=Zodynai&submenu=ispell-lt
-COMMENT=	 	Lithuanian dictionary for ispell
+COMMENT=	Lithuanian dictionary for ispell
 
 BUILD_DEPENDS+=		python23-[0-9]*:../../lang/python23
 DEPENDS+=		ispell-base-[0-9]*:../../textproc/ispell-base

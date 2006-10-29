@@ -12,7 +12,7 @@ COMMENT=	HTML Widget And Validation Framework
 DEPENDS+=	p5-Catalyst>=5.5:../../wip/p5-Catalyst
 DEPENDS+=	p5-HTML-Widget>=0:../../wip/p5-HTML-Widget
 
-PERL5_REQD+=    5.8.1
+PERL5_REQD+=	5.8.1
 
 PERL5_PACKLIST=	auto/Catalyst/Plugin/HTML/Widget/.packlist
 

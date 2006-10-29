@@ -9,8 +9,8 @@ MAINTAINER=		mchittur@cs.nmsu.edu
 HOMEPAGE=		http://gdal.org/
 COMMENT=		Translator library for raster geospatial data formats
 
-DEPENDS+=       	gdal-lib-1.3.1:../../geography/gdal-lib
-DEPENDS+=       	gdal-docs-1.3.1:../../wip/gdal-docs
+DEPENDS+=	gdal-lib-1.3.1:../../geography/gdal-lib
+DEPENDS+=	gdal-docs-1.3.1:../../wip/gdal-docs
 
 NO_BUILD=		yes
 

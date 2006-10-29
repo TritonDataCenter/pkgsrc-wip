@@ -2,13 +2,13 @@
 #
 
 DISTNAME=		engine_pkcs11-0.1.3
-PKGNAME=	 	${DISTNAME:S/_/-/}
+PKGNAME=	${DISTNAME:S/_/-/}
 CATEGORIES=		security
 MASTER_SITES=		http://www.opensc-project.org/files/engine_pkcs11/
 
 MAINTAINER=		evaldo@gardenali.biz
 HOMEPAGE=		http://www.opensc-project.org/engine_pkcs11/
-COMMENT=	 	OpenSSL PKCS #11 engine for OpenSC
+COMMENT=	OpenSSL PKCS #11 engine for OpenSC
 
 USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=		yes

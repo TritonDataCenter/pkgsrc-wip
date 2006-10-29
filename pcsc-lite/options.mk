@@ -1,6 +1,6 @@
 # $NetBSD$
 
-PKG_OPTIONS_VAR=        PKG_OPTIONS.pcsc-lite
+PKG_OPTIONS_VAR=	PKG_OPTIONS.pcsc-lite
 PKG_SUPPORTED_OPTIONS=	extendedapdu usb
 
 .include "../../mk/bsd.options.mk"

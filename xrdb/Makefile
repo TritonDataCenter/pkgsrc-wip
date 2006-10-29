@@ -11,7 +11,7 @@ HOMEPAGE=		http://xorg.freedesktop.org/
 COMMENT=		X server resource database utility
 
 GNU_CONFIGURE=		yes
-USE_TOOLS+=             pkg-config
+USE_TOOLS+=		pkg-config
 
 .include "../../wip/libX11/buildlink3.mk"
 .include "../../wip/libXmu/buildlink3.mk"

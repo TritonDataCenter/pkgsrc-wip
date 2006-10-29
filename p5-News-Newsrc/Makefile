@@ -7,7 +7,7 @@ CATEGORIES=	news perl5
 MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=News/}
 
 MAINTAINER=	imil@gcu.info
-HOMEPAGE=	http://search.cpan.org/dist/News-Newsrc
+HOMEPAGE=	http://search.cpan.org/dist/News-Newsrc/
 COMMENT=	Perl module to manage newsrc files
 
 DEPENDS+=	p5-Set-IntSpan>=1.07:../../devel/p5-Set-IntSpan

@@ -13,7 +13,7 @@ USE_PKGLOCALEDIR=	yes
 USE_TOOLS+=		gmake autoconf automake pkg-config
 USE_LANGUAGES=		c c++
 USE_LIBTOOL=		yes
-AUTOMAKE_REQD=  	1.9
+AUTOMAKE_REQD=	1.9
 
 GNU_CONFIGURE=		yes
 PKGCONFIG_OVERRIDE+=	opencv.pc.in

@@ -10,7 +10,7 @@ MASTER_SITES=	ftp://ftp.flightgear.org/pub/fgfs/Shared/ \
 		http://mirrors.ibiblio.org/pub/mirrors/flightgear/ftp/Shared/ \
 		ftp://ftp.de.flightgear.org/pub/fgfs/Shared/ \
 		ftp://obgyn.edu.pl/fgfs/Shared/
-EXTRACT_SUFX=   .tar.bz2
+EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	ftp://ftp.flightgear.org/pub/fgfs/Shared/

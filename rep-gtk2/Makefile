@@ -10,7 +10,7 @@ HOMEPAGE=		http://rep-gtk.sourceforge.net/
 COMMENT=		librep bindings for gtk2 (used by sawfish)
 
 DEPENDS+=		librep>=0.17:../../lang/librep
-DEPENDS+=               gtk2+>=2.4.0:../../x11/gtk2
+DEPENDS+=		gtk2+>=2.4.0:../../x11/gtk2
 
 CONFLICTS=		rep-gtk-*
 

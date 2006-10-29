@@ -5,14 +5,14 @@ CATEGORIES=	net www
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=sgmltools-lite/}
 
 MAINTAINER=	adrianp@stindustries.net
-HOMEPAGE= 	http://sgmltools-lite.sourceforge.net/
+HOMEPAGE=	http://sgmltools-lite.sourceforge.net/
 COMMENT=	Friendly Python interface to SGML software
 
 DEPENDS+=	jade-[0-9]*:../../textproc/jade
 DEPENDS+=	lynx-[0-9]*:../../www/lynx
 DEPENDS+=	docbook-[0-9]*:../../textproc/docbook
 DEPENDS+=	w3m-[0-9]*:../../www/w3m
-DEPENDS+= 	dsssl-docbook-modular-[0-9]*:../../textproc/dsssl-docbook-modular
+DEPENDS+=	dsssl-docbook-modular-[0-9]*:../../textproc/dsssl-docbook-modular
 DEPENDS+=	iso12083-[0-9]*:../../textproc/iso12083
 DEPENDS+=	iso8879-[0-9]*:../../textproc/iso8879
 

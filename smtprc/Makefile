@@ -8,9 +8,9 @@ BUILD_TARGET=	freebsd
 
 PTHREAD_OPTS=	require
 
-CONF_FILES=     ${PREFIX}/share/examples/smtprc/auto.conf \
+CONF_FILES=	${PREFIX}/share/examples/smtprc/auto.conf \
 			${PKG_SYSCONFDIR}/auto.conf
-CONF_FILES+=    ${PREFIX}/share/examples/smtprc/email.tmpl \
+CONF_FILES+=	${PREFIX}/share/examples/smtprc/email.tmpl \
 			${PKG_SYSCONFDIR}/email.tmpl
 CONF_FILES+=	${PREFIX}/share/examples/smtprc/rcheck.conf \
 			${PKG_SYSCONFDIR}/rcheck.conf

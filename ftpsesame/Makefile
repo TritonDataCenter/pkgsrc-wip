@@ -6,7 +6,7 @@ MASTER_SITES=		http://www.sentia.org/downloads/
 
 MAINTAINER=		peter@pointless.nl
 HOMEPAGE=		http://www.sentia.org/projects/ftpsesame/
-COMMENT=                Automatic packet filter configurator for FTP
+COMMENT=		Automatic packet filter configurator for FTP
 
 NO_CONFIGURE=		yes
 

@@ -32,8 +32,8 @@ PKG_SYSCONFSUBDIR=	smx
 SMXCNFDIR=		${PKG_SYSCONFDIR}
 SMXCNF=			${SMXCNFDIR}/smx.conf
 
-PKG_GROUPS=     smxs smxq smxc smxm smx
-PKG_USERS=      smxs:smxs::Sendmail\ X\ SMTP\ Server
+PKG_GROUPS=	smxs smxq smxc smxm smx
+PKG_USERS=	smxs:smxs::Sendmail\ X\ SMTP\ Server
 PKG_USERS+=	smxq:smxq::Sendmail\ X\ Queue\ Manager
 PKG_USERS+=	smxc:smxc::Sendmail\ X\ SMTP\ Client
 PKG_USERS+=	smxm:smxm::Sendmail\ X\ Address\ Resolver

@@ -12,7 +12,7 @@ COMMENT=		Tool for managing VNC sessions
 
 GNU_CONFIGURE=		yes
 USE_LANGUAGES=		c c++ fortran
-USE_LIBTOOL=            yes
+USE_LIBTOOL=		yes
 USE_TOOLS+=		gmake
 
 .include "../../graphics/jpeg/buildlink3.mk"

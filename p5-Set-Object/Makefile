@@ -9,7 +9,7 @@ MAINTAINER=	kuli0020@umn.edu
 HOMEPAGE=	http://search.cpan.org/dist/Set-Object/
 COMMENT=	Perl module to manage sets of objects
 
-PERL5_REQD+=    5.6.0
+PERL5_REQD+=	5.6.0
 
 PERL5_PACKLIST=	auto/Set/Object/.packlist
 

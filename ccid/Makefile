@@ -7,7 +7,7 @@ MASTER_SITES=		http://alioth.debian.org/download.php/992/
 
 MAINTAINER=		evaldo@gardenali.biz
 HOMEPAGE=		http://alioth.debian.org/download.php/992/
-COMMENT=	 	USB CCID-compliant smartcard/token driver for pcsc-lite
+COMMENT=	USB CCID-compliant smartcard/token driver for pcsc-lite
 
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes

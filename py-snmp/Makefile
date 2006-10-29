@@ -4,13 +4,13 @@
 DISTNAME=		pysnmp-3.4.2
 PKGNAME=		${PYPKGPREFIX}-${DISTNAME:S/py//}
 CATEGORIES=		net
-MASTER_SITES=   	${MASTER_SITE_SOURCEFORGE:=pysnmp/}
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=pysnmp/}
 
 MAINTAINER=		goteki@users.sourceforge.net
 HOMEPAGE=		http://pysnmp.sourceforge.net/
 COMMENT=		Python SNMP framework
 
-PY_PATCHPLIST=  	yes
+PY_PATCHPLIST=	yes
 
 do-build:
 	(cd ${WRKSRC} && ${PYTHONBIN} setup.py build)

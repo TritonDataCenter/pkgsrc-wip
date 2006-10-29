@@ -21,15 +21,15 @@ PATCHDIR=		${.CURDIR}/../../databases/postgresql80/patches
 
 .include "../../databases/postgresql80/Makefile.common"
 
-MASTER_SITES+=  	${PGSQL_SITES:=source/v${DIST_VERS}/}
-MASTER_SITES+=  	http://postgis.refractions.net/download/
+MASTER_SITES+=	${PGSQL_SITES:=source/v${DIST_VERS}/}
+MASTER_SITES+=	http://postgis.refractions.net/download/
 
 USE_PERL5=		YES
 
 PGSQL_VERSION_REQD=	80
 
 # Add postgis to the postgresql distfile
-DISTFILES+=      	postgis-${VERSION}.tar.gz ${DISTNAME}${EXTRACT_SUFX}
+DISTFILES+=		postgis-${VERSION}.tar.gz ${DISTNAME}${EXTRACT_SUFX}
 
 # Only build the postgis contribted source
 BUILD_DIRS=		${WRKSRC}/contrib/postgis-${VERSION}

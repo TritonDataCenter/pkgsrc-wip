@@ -10,7 +10,7 @@ MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://www.scipy.org/Weave
 COMMENT=		Allows the inclusion of C/C++ within Python code
 
-DEPENDS+=               ${PYPKGPREFIX}-scipy_distutils-[0-9]*:../../wip/py-scipy_distutils
+DEPENDS+=		${PYPKGPREFIX}-scipy_distutils-[0-9]*:../../wip/py-scipy_distutils
 
 PY_PATCHPLIST=		yes
 PYDISTUTILSPKG=		yes

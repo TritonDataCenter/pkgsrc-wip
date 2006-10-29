@@ -6,7 +6,7 @@ PKGREVISION=		0
 COMMENT=		GTK-based unicode implementation of the wxWidgets GUI library
 
 # conflicts with non unicode version
-CONFLICTS+=     	wxGTK-[0-9]*
+CONFLICTS+=	wxGTK-[0-9]*
 
 post-build:
 	set -e; cd ${WRKSRC}/locale; \

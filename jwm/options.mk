@@ -10,7 +10,7 @@ CONFIGURE_ARGS+=	--enable-debug
 .endif
 
 .if !empty(PKG_OPTIONS:Mnopng)
-CONFIGURE_ARGS+=        --disable-png
+CONFIGURE_ARGS+=	--disable-png
 .else
-CC+=                    -lpng -lz
+CC+=			-lpng -lz
 .endif

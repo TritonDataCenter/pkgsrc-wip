@@ -9,7 +9,7 @@ HOMEPAGE=	http://smarden.org/ipsvd/
 COMMENT=	Internet protocol service daemons
 
 WRKSRC=		${WRKDIR}/net/${DISTNAME}
-CMDDIR=         ${WRKSRC}/command
+CMDDIR=		${WRKSRC}/command
 PKGDOCDIR=	${PREFIX}/share/doc/${PKGBASE}
 
 DJB_ERRNO_HACK=		NO

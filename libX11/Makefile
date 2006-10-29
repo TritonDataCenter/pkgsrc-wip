@@ -52,7 +52,7 @@ CFLAGS+=		-D_POSIX_THREAD_SAFE_FUNCTIONS
 .include "../../wip/xcmiscproto/buildlink3.mk"
 .include "../../x11/xextproto/buildlink3.mk"
 .include "../../wip/xf86bigfontproto/buildlink3.mk"
-BUILDLINK_API_DEPENDS.xproto+=  xproto>=7.0.6
+BUILDLINK_API_DEPENDS.xproto+=	xproto>=7.0.6
 .include "../../x11/xproto/buildlink3.mk"
 .include "../../wip/xtrans/buildlink3.mk"
 

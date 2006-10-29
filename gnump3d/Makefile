@@ -16,7 +16,7 @@ CONF_FILES=		none ${CFGFILE}
 
 USE_PERL5=		YES
 USE_TOOLS+=		gmake
-REPLACE_PERL=   	${WRKSRC}/bin/*
+REPLACE_PERL=	${WRKSRC}/bin/*
 NO_BUILD=		yes
 
 SUBST_CLASSES+=		gnump3d

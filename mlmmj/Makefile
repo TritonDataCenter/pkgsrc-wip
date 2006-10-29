@@ -3,7 +3,7 @@
 DISTNAME=	mlmmj-1.2.11
 CATEGORIES=	mail
 MASTER_SITES=	${HOMEPAGE:=files/}
-EXTRACT_SUFX=  	.tar.bz2
+EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	uebayasi@NetBSD.org
 HOMEPAGE=	http://mlmmj.mmj.dk/

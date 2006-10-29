@@ -5,10 +5,10 @@ CATEGORIES=	net
 MASTER_SITES=	http://www.sra.co.jp/people/m-kasahr/cvsproxy/src/
 
 MAINTAINER=	oht@users.sourceforge.net
-HOMEPAGE=   	http://www.sra.co.jp/people/m-kasahr/cvsproxy/
+HOMEPAGE=	http://www.sra.co.jp/people/m-kasahr/cvsproxy/
 COMMENT=	The cvsproxy is a relay server for the cvs pserver protocol
 
-GNU_CONFIGURE=  YES
-USE_TOOLS+=             autoconf automake
+GNU_CONFIGURE=	YES
+USE_TOOLS+=		autoconf automake
 
 .include "../../mk/bsd.pkg.mk"

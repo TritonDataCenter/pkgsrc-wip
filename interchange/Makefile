@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=       interchange-5.2.1
+DISTNAME=	interchange-5.2.1
 CATEGORIES=	www perl5
 MASTER_SITES=	http://ftp.icdevgroup.org/interchange/5.2/tar/
 
@@ -33,7 +33,7 @@ DEPENDS+=	p5-Business-UPS>=1.0.6:../../misc/p5-Business-UPS
 #	outside the control of pkg_*
 
 # MESSAGE=		${WRKDIR}/MESSAGE
-MESSAGE_SUBST+= 	ICUSER=${INTERCHANGE_USER}	\
+MESSAGE_SUBST+=	ICUSER=${INTERCHANGE_USER}	\
 			ICGROUP=${INTERCHANGE_GROUP}	\
 			ICDIR=${INTERCHANGE_DIR}
 
@@ -58,8 +58,8 @@ RCD_SCRIPTS=	interchange
 PERL5_PACKLIST=		${INTERCHANGE_DIR}/auto/Interchange/.packlist
 PLIST_SRC=	PLIST_SRC
 
-EGDIR=          ${INTERCHANGE_DIR}
-CONF_FILES=     ${EGDIR}/interchange.cfg.dist ${PKG_SYSCONFDIR}/interchange.cfg
+EGDIR=		${INTERCHANGE_DIR}
+CONF_FILES=	${EGDIR}/interchange.cfg.dist ${PKG_SYSCONFDIR}/interchange.cfg
 
 do-configure:
 	cd ${WRKSRC}; \

@@ -12,7 +12,7 @@ MAINTAINER=	obata@lins.jp
 HOMEPAGE=	http://mecab.sourceforge.jp/
 COMMENT=	MeCab java module
 
-USE_LANGUAGES+=	c++
+USE_LANGUAGES=	c++
 
 TEST_TARGET=	test
 

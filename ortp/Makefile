@@ -6,8 +6,8 @@ CATEGORIES=		net
 MASTER_SITES=		http://www.linphone.org/ortp/sources/
 
 MAINTAINER=		zul@netbsd-fr.org
-HOMEPAGE=	 	http://www.linphone.org/ortp/
-COMMENT=	 	"A Real-time Transport Protocol stack"
+HOMEPAGE=		http://www.linphone.org/ortp/
+COMMENT=	"A Real-time Transport Protocol stack"
 
 GNU_CONFIGURE=		yes
 

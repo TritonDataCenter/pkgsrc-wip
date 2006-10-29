@@ -13,7 +13,7 @@ HOMEPAGE=	ftp://vic.cc.purdue.edu/pub/cawf.README
 COMMENT=	nroff-like text formatter
 
 CAWFLIB=	${PREFIX}/share/cawf
-PLIST_SUBST+=   CAWFLIB=share/cawf
+PLIST_SUBST+=	CAWFLIB=share/cawf
 BUILD_DEFS+=	CAWFLIB
 MAKE_FLAGS+=	CAWFLIB=${CAWFLIB:Q}
 

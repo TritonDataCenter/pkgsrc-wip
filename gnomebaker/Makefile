@@ -9,7 +9,7 @@ MAINTAINER=	leuzi@trash.net
 HOMEPAGE=	http://gnomebaker.sourceforge.net/v2/
 COMMENT=	GTK2/GNOME CD/DVD burning application
 
-USE_TOOLS+=             pkg-config msgfmt intltool
+USE_TOOLS+=		pkg-config msgfmt intltool
 GNU_CONFIGURE=		YES
 
 DEPENDS+=	cdrtools-ossdvd>=2.0:../../sysutils/cdrtools-ossdvd

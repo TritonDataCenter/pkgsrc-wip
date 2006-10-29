@@ -10,7 +10,7 @@ MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://www.winterdrache.de/freeware/png2ico/
 COMMENT=		PNG to icon converter
 
-USE_LANGUAGES+=		c++
+USE_LANGUAGES=		c++
 
 WRKSRC=			${WRKDIR}/png2ico
 

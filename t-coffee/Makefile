@@ -10,12 +10,12 @@ MAINTAINER=		dprice@cs.nmsu.edu
 HOMEPAGE=		http://igs-server.cnrs-mrs.fr/~cnotred/Packages/
 COMMENT=		Multiple Sequence Alignment Package
 
-DEPENDS+=               clustalw>=1.8:../../biology/clustalw
+DEPENDS+=		clustalw>=1.8:../../biology/clustalw
 
-WRKSRC=		 	${WRKDIR}/T-COFFEE_distribution_Version_1.37/t_coffee_source
+WRKSRC=		${WRKDIR}/T-COFFEE_distribution_Version_1.37/t_coffee_source
 
-MESSAGE_SUBST+=         PREFIX=${PREFIX}
-MAKE_FILE=              makefile
+MESSAGE_SUBST+=		PREFIX=${PREFIX}
+MAKE_FILE=		makefile
 
 do-install:
 	${INSTALL_DATA_DIR} ${PREFIX}/share/doc/html/tcoffee

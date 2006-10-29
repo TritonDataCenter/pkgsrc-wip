@@ -2,7 +2,7 @@
 
 .include "../../wip/smtprc/Makefile.common"
 
-PKGNAME=        ${DISTNAME:S/-/-gui-/}
+PKGNAME=	${DISTNAME:S/-/-gui-/}
 
 COMMENT=	Open relay scanner Tk GUI
 
@@ -13,7 +13,7 @@ NO_CONFIGURE=	YES
 NO_BUILD=	YES
 USE_PERL5=	YES
 
-PKGDIR=         ${.CURDIR}/../../wip/smtprc
+PKGDIR=		${.CURDIR}/../../wip/smtprc
 PLIST_SRC=	${.CURDIR}/PLIST
 
 REPLACE_PERL=	gsmtprc

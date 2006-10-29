@@ -16,7 +16,7 @@ CONFIGURE_ARGS+=	PKG_CONFIG=${PREFIX}/bin/pkg-config
 
 USE_TOOLS+=perl
 
-DEPENDS+=       p5-XML-Parser>=2.34:../../textproc/p5-XML-Parser
+DEPENDS+=	p5-XML-Parser>=2.34:../../textproc/p5-XML-Parser
 
 .include "../../wip/libmtp/buildlink3.mk"
 .include "../../wip/libnjb/buildlink3.mk"

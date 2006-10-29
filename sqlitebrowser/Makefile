@@ -17,7 +17,7 @@ WRKSRC=		${WRKDIR}/sqlitebrowser
 QMAKE=			${QTDIR}/bin/qmake
 CONFIGURE_ARGS+=	QMAKE=${QMAKE:Q}
 
-BUILDLINK_DEPMETHOD.qt3-tools=  build
+BUILDLINK_DEPMETHOD.qt3-tools=	build
 
 .include "../../x11/qt3-libs/buildlink3.mk"
 .include "../../x11/qt3-tools/buildlink3.mk"

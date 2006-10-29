@@ -11,7 +11,7 @@ COMMENT=		GTK-based unicode implementation of the wxWidgets GUI library (contrib
 USE_TOOLS+=		gmake
 
 # conflicts with non unicode version
-CONFLICTS+=             wxGTK-contrib-[0-9]*
+CONFLICTS+=		wxGTK-contrib-[0-9]*
 
 do-build:
 	cd ${WRKSRC}/contrib/src && ${SETENV} ${MAKE_ENV} ${MAKE} ${MAKE_FLAGS}

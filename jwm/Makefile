@@ -27,7 +27,7 @@ SUBST_SED.egdir=	-e 's,@@EGDIR@@,${EGDIR},g'
 
 PKG_SYSCONFSUBDIR=	jwm
 EGDIR=			${PREFIX}/share/examples/jwm
-CONF_FILES= 		${EGDIR}/system.jwmrc ${PKG_SYSCONFDIR}/system.jwmrc
+CONF_FILES=	${EGDIR}/system.jwmrc ${PKG_SYSCONFDIR}/system.jwmrc
 
 .include "options.mk"
 

@@ -9,7 +9,7 @@ MAINTAINER=	kuli0020@umn.edu
 HOMEPAGE=	http://search.cpan.org/dist/Test-use-ok/
 COMMENT=	Alternative to Test::More::use_ok
 
-DEPENDS+=       {perl>=5.7.3,p5-Test-Simple-[0-9]*}:../../devel/p5-Test-Simple
+DEPENDS+=	{perl>=5.7.3,p5-Test-Simple-[0-9]*}:../../devel/p5-Test-Simple
 
 PERL5_REQD+=	5.8.0
 

@@ -2,7 +2,7 @@
 .include "../../wip/py-twisted-core/version.mk"
 
 DISTNAME=	Twisted-${TWISTED_VERSION}
-PKGNAME=        ${PYPKGPREFIX}-twisted-${TWISTED_VERSION}
+PKGNAME=	${PYPKGPREFIX}-twisted-${TWISTED_VERSION}
 CATEGORIES =	meta-pkgs net python
 MASTER_SITES=	# empty
 DISTFILES=	# empty

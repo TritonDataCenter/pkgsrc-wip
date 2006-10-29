@@ -9,8 +9,8 @@ MAINTAINER=	ura@jp.netbsd.org
 HOMEPAGE=	http://bsfilter.org/index-e.html
 COMMENT=	Bayesian spam filter written in Ruby
 
-DEPENDS+=       ${RUBY_PKGPREFIX}-gdbm>=${RUBY_VERSION}:../../databases/ruby-gdbm
-DEPENDS+=       ${RUBY_PKGPREFIX}-iconv>=${RUBY_VERSION}:../../converters/ruby-iconv
+DEPENDS+=	${RUBY_PKGPREFIX}-gdbm>=${RUBY_VERSION}:../../databases/ruby-gdbm
+DEPENDS+=	${RUBY_PKGPREFIX}-iconv>=${RUBY_VERSION}:../../converters/ruby-iconv
 
 NO_BUILD=	yes
 REPLACE_RUBY=	bsfilter/bsfilter

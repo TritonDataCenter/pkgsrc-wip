@@ -10,7 +10,7 @@ MAINTAINER=		sifu@0xx0.net
 HOMEPAGE=		http://ipython.scipy.org/
 COMMENT=		Interactive, enhanced Python shell
 
-CONFLICTS=              py*-IPython-*
+CONFLICTS=		py*-IPython-*
 
 DEPENDS+=		${PYPKGPREFIX}-readline>=0:../../devel/py-readline
 

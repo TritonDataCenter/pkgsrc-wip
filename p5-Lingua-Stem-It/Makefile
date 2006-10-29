@@ -6,7 +6,7 @@ CATEGORIES=		textproc perl5
 MASTER_SITES=		${MASTER_SITE_PERL_CPAN:=Lingua/}
 
 MAINTAINER=		kuli0020@umn.edu
-HOMEPAGE=		http://search.cpan.org/dist/Lingua-Stem-It
+HOMEPAGE=		http://search.cpan.org/dist/Lingua-Stem-It/
 COMMENT=		Stemmer for Italian
 
 PERL5_PACKLIST= auto/Lingua/Stem/It/.packlist

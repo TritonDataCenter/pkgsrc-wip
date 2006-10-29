@@ -20,7 +20,7 @@ DEPENDS+=		p5-Text-German>=0:../../wip/p5-Text-German
 
 MAN3PREFIX=		${PREFIX}/lib/perl5/${PERL_VERSION}
 
-PERL5_PACKLIST= 	auto/Lingua/Stem/.packlist
+PERL5_PACKLIST=	auto/Lingua/Stem/.packlist
 
 .include		"../../lang/perl5/module.mk"
 .include		"../../mk/bsd.pkg.mk"

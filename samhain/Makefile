@@ -1,12 +1,12 @@
 # $NetBSD$
 PKGNAME=	samhain-2.2.5
 DISTNAME=	samhain_signed-2.2.5
-CATEGORIES=     security
-MASTER_SITES=   http://la-samhna.de/archive/
+CATEGORIES=	security
+MASTER_SITES=	http://la-samhna.de/archive/
 
-MAINTAINER=     lavalamp@digitalfreaks.org
-HOMEPAGE=       http://www.la-samhna.de/samhain/
-COMMENT=        Open-source IDS/file integrity checking
+MAINTAINER=	lavalamp@digitalfreaks.org
+HOMEPAGE=	http://www.la-samhna.de/samhain/
+COMMENT=	Open-source IDS/file integrity checking
 
 GNU_CONFIGURE=	yes
 WRKSRC=${WRKDIR}/${PKGNAME_NOREV}

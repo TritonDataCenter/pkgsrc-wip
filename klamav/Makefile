@@ -12,8 +12,8 @@ COMMENT=	Clam Anti-Virus Manager For The KDE Desktop
 WRKSRC=		${WRKDIR}/${DISTNAME}/${PKGNAME_NOREV}
 
 USE_TOOLS+=		gmake pkg-config
-USE_LANGUAGES+=	c c++
-GNU_CONFIGURE=  yes
+USE_LANGUAGES=	c c++
+GNU_CONFIGURE=	yes
 
 # doesn't use embedded sqlite
 CONFIGURE_ARGS+=	--without-included-sqlite

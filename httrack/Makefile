@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	httrack-3.40-2
-WRKSRC=         ${WRKDIR}/httrack-3.40.3
+WRKSRC=		${WRKDIR}/httrack-3.40.3
 CATEGORIES=	www
 MASTER_SITES=	http://www.httrack.com/ \
 		http://httrack.free.fr/mirror/

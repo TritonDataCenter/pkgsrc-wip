@@ -5,7 +5,7 @@ CATEGORIES=	net
 MASTER_SITES=	http://www.snort.org/dl/barnyard/
 
 MAINTAINER=	adrianp@NetBSD.org
-HOMEPAGE= 	http://www.snort.org/
+HOMEPAGE=	http://www.snort.org/
 COMMENT=	Fast output system for snort
 
 GNU_CONFIGURE=		YES

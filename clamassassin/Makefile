@@ -18,8 +18,8 @@ CONFIGURE_ENV+=	CONF_SED=${SED:Q}
 CONFIGURE_ENV+=	CONF_ECHO=${ECHO:Q}
 
 PKG_OPTIONS_VAR=	PKG_OPTIONS.clamassassin
-PKG_SUPPORTED_OPTIONS=  clamdscan subject_rewrite
-PKG_SUGGESTED_OPTIONS=  clamdscan
+PKG_SUPPORTED_OPTIONS=	clamdscan subject_rewrite
+PKG_SUGGESTED_OPTIONS=	clamdscan
 
 .include "../../mk/bsd.options.mk"
 

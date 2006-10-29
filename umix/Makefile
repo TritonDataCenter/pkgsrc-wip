@@ -8,7 +8,7 @@ MAINTAINER=	cez@compsoc.man.ac.uk
 HOMEPAGE=	http://umix.sourceforge.net/
 COMMENT=	Adjust mix levels
 
-GNU_CONFIGURE=          yes
+GNU_CONFIGURE=		yes
 USE_TOOLS+=		gmake automake pkg-config
 USE_LIBTOOL=		yes
 

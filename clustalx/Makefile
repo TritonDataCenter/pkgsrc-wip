@@ -10,8 +10,8 @@ MAINTAINER=		hdp@cs.nmsu.edu
 HOMEPAGE=		http://bips.u-strasbg.fr/fr/Documentation/ClustalX/
 COMMENT=		X-Windows interface for ClustalW
 
-WRKSRC=                 ${WRKDIR}/clustalx1.83.sun
-MESSAGE_SUBST+=         PREFIX=${PREFIX}
+WRKSRC=			${WRKDIR}/clustalx1.83.sun
+MESSAGE_SUBST+=		PREFIX=${PREFIX}
 MAKE_FILE=		makefile
 
 do-install:

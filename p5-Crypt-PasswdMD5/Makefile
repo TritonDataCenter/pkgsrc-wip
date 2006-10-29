@@ -13,7 +13,7 @@ COMMENT=		Perl5 MD5 Password implementation
 
 PKG_INSTALLATION_TYPES=	overwrite pkgviews
 
-DEPENDS+=               p5-Digest-MD5>=2.33:../../security/p5-Digest-MD5
+DEPENDS+=		p5-Digest-MD5>=2.33:../../security/p5-Digest-MD5
 
 CRYPTO=			YES
 PERL5_PACKLIST=		auto/Crypt/PasswdMD5/.packlist

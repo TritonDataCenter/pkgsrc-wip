@@ -3,12 +3,12 @@
 
 CATEGORIES=	databases math
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=rdbi/}
-MAINTAINER=     mchittur@cs.nmsu.edu
+MAINTAINER=	mchittur@cs.nmsu.edu
 HOMEPAGE=	http://rdbi.sourceforge.net/
-COMMENT=        Provides interface between R and PostgreSQL
+COMMENT=	Provides interface between R and PostgreSQL
 
-R_PKGNAME=      Rdbi.PgSQL
-R_PKGVER=       0.1-2
+R_PKGNAME=	Rdbi.PgSQL
+R_PKGVER=	0.1-2
 
 DEPENDS+=	R-Rdbi>=0.1.2:../../wip/R-Rdbi
 

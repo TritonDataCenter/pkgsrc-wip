@@ -16,7 +16,7 @@ BUILD_DEPENDS+=		nasm-[0-9]*:../../devel/nasm
 WRKSRC=			${WRKDIR}
 GNU_CONFIGURE=		yes
 USE_TOOLS+=		gmake autoconf automake
-USE_LANGUAGES+=		c c++
+USE_LANGUAGES=		c c++
 ONLY_FOR_PLATFORM=	*-*-i386 *-*-x86_64
 
 .include "../../mk/bsd.prefs.mk"

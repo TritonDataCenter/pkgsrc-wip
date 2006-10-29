@@ -9,7 +9,7 @@ MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=Catalyst/}
 MAINTAINER=	kuli0020@umn.edu
 HOMEPAGE=	http://search.cpan.org/dist/Catalyst-Plugin-FillInForm/
 COMMENT=	Automatically fill in forms in Catalyst using HTML::FillInForms
-PERL5_REQD+=    5.8
+PERL5_REQD+=	5.8
 
 DEPENDS+=	p5-Catalyst>=2.99:../../wip/p5-Catalyst
 DEPENDS+=	p5-HTML-FillInForm>=0:../../www/p5-HTML-FillInForm

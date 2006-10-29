@@ -21,7 +21,7 @@ NO_BUILD=	YES
 
 # XXX This would be a good place to use PREFER_PKGSRC
 .if empty(OPSYS:M*BSD)
-DEPENDS+=       mktemp>=1.4:../../sysutils/mktemp
+DEPENDS+=	mktemp>=1.4:../../sysutils/mktemp
 MKTEMP=		${LOCALBASE}/bin/mktemp
 .else
 MKTEMP=		mktemp

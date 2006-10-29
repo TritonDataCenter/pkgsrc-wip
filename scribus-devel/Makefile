@@ -14,13 +14,13 @@ COMMENT=	Open Source Page Layout
 CONFLICTS+=	scribus-[0-9]*
 
 USE_TOOLS+=		gmake perl
-USE_LANGUAGES+=		c++
+USE_LANGUAGES=		c++
 
 USE_LIBTOOL=		YES
 SHLIBTOOL_OVERRIDE+=	libtool
 
 GNU_CONFIGURE=		yes
-CONFIGURE_ARGS+=        --with-qt-dir=${QTDIR:Q} \
+CONFIGURE_ARGS+=	--with-qt-dir=${QTDIR:Q} \
 			--with-extra-libs=${LOCALBASE}/lib \
 			--with-extra-includes=${LOCALBASE}/include
 

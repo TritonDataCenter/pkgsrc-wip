@@ -1,14 +1,14 @@
 # $NetBSD$
 #
 
-DISTNAME=       galib245
+DISTNAME=	galib245
 PKGNAME=	galib-2.4.5
-CATEGORIES=     devel
-MASTER_SITES=   http://lancet.mit.edu/ga/dist/
+CATEGORIES=	devel
+MASTER_SITES=	http://lancet.mit.edu/ga/dist/
 
-MAINTAINER=     pkgsrc-users@NetBSD.org
-HOMEPAGE=       http://lancet.mit.edu/ga/
-COMMENT=        GAlib contains a set of C++ genetic algorithm objects
+MAINTAINER=	pkgsrc-users@NetBSD.org
+HOMEPAGE=	http://lancet.mit.edu/ga/
+COMMENT=	GAlib contains a set of C++ genetic algorithm objects
 
 USE_LANGUAGES=		c c++
 USE_TOOLS+=		gmake

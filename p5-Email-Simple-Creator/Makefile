@@ -11,7 +11,7 @@ COMMENT=	Constructor to Email::Simple for creating messages from scratch
 
 DEPENDS+=	p5-Email-Simple>=0:../../mail/p5-Email-Simple
 DEPENDS+=	p5-Email-Date>=0:../../wip/p5-Email-Date
-DEPENDS+=       {perl>=5.7.3,p5-Test-Simple>=0.47}:../../devel/p5-Test-Simple
+DEPENDS+=	{perl>=5.7.3,p5-Test-Simple>=0.47}:../../devel/p5-Test-Simple
 
 PERL5_PACKLIST= auto/Email/Simple/Creator/.packlist
 

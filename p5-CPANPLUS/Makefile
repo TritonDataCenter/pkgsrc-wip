@@ -8,7 +8,7 @@ MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=../../authors/id/K/KA/KANE/}
 MAINTAINER=	kuli0020@umn.edu
 HOMEPAGE=	http://cpanplus.sourceforge.net/
 COMMENT=	Ameliorated interface to the CPAN
-PERL5_REQD+=    5.6.0
+PERL5_REQD+=	5.6.0
 
 MAKE_PARAMS=	AUTOINSTALL=1 JFDI=1
 INSTALL_TARGET=	pure_install

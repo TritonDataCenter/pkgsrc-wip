@@ -5,7 +5,7 @@ CATEGORIES=	www databases
 MASTER_SITES=	http://www.mnogosearch.org/Download/
 
 MAINTAINER=	adrianp@stindustries.net
-HOMEPAGE= 	http://www.mnogosearch.org/
+HOMEPAGE=	http://www.mnogosearch.org/
 COMMENT=	Web search engine software for intranet and internet servers
 
 GNU_CONFIGURE=		YES
@@ -25,7 +25,7 @@ CONF_FILES+=		${EGDIR}/search.htm-dist \
 CONF_FILES+=		${EGDIR}/spelld.conf-dist \
 			${PKG_SYSCONFDIR}/spelld.conf
 
-CONFIGURE_ARGS+=        --with-openssl=${BUILDLINK_PREFIX.openssl}
+CONFIGURE_ARGS+=	--with-openssl=${BUILDLINK_PREFIX.openssl}
 CONFIGURE_ARGS+=	--localstatedir=${MNOGOSEARCH_DATADIR:Q}
 CONFIGURE_ARGS+=	--sysconfdir=${PKG_SYSCONFDIR:Q}
 

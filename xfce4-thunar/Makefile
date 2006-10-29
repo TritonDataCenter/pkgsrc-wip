@@ -14,7 +14,7 @@ COMMENT=	Xfce file manager
 USE_DIRS+=	xdg-1.2
 USE_TOOLS+=	intltool pkg-config
 
-PKGCONFIG_OVERRIDE+=	thunar-vfs/thunar-vfs-1.pc.in	
+PKGCONFIG_OVERRIDE+=	thunar-vfs/thunar-vfs-1.pc.in
 PKGCONFIG_OVERRIDE+=	thunarx/thunarx-1.pc.in
 
 .include "../../devel/GConf2/buildlink3.mk"

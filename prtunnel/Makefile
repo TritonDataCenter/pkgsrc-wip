@@ -5,7 +5,7 @@ CATEGORIES=	net
 MASTER_SITES=	http://joshbeam.com/files/
 
 MAINTAINER=	adrianp@stindustries.net
-HOMEPAGE= 	http://joshbeam.com/software/prtunnel.php
+HOMEPAGE=	http://joshbeam.com/software/prtunnel.php
 COMMENT=	Tunnels TCP connections through an HTTP or SOCKS5 proxy
 
 BUILD_TARGET=	# defined

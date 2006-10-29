@@ -10,7 +10,7 @@ MAINTAINER=		hernani@vecirex.net
 HOMEPAGE=		http://tobias.eyedacor.org/typespeed/
 COMMENT=		Game to measure your typing speed, with network mode
 
-USE_LANGUAGES+=         c
+USE_LANGUAGES=		c
 
 SUBST_CLASSES+=		man-paths
 SUBST_STAGE.man-paths=	pre-patch

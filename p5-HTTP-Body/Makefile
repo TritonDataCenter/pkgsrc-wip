@@ -8,7 +8,7 @@ MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=../by-authors/id/C/CH/CHANSEN/}
 MAINTAINER=	kuli0020@umn.edu
 HOMEPAGE=	http://search.cpan.org/dist/HTTP-Body/
 COMMENT=	HTTP Body Parser
-PERL5_REQD+=    5.6.1
+PERL5_REQD+=	5.6.1
 
 BUILD_DEPENDS+=	p5-File-Temp>=0.14:../../devel/p5-File-Temp
 BUILD_DEPENDS+=	p5-YAML>=0.39:../../textproc/p5-YAML

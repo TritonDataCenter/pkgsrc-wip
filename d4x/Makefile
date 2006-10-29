@@ -12,7 +12,7 @@ COMMENT=		Download files using a nice GUI
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 CONFIGURE_ARGS+=	--disable-openssl
-USE_LANGUAGES+=		c c++
+USE_LANGUAGES=		c c++
 USE_TOOLS+=		bash
 CONFIG_SHELL=		${BASH}
 

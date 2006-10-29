@@ -12,9 +12,9 @@ COMMENT=	RPSL Object Library
 
 PKG_INSTALLATION_TYPES=	overwrite pkgviews
 PERL5_CONFIGURE_DIRS=	${WRKSRC}/perl
-BUILD_DIRS=             ${WRKSRC} ${WRKSRC}/perl
+BUILD_DIRS=		${WRKSRC} ${WRKSRC}/perl
 
-USE_LIBTOOL=            YES
+USE_LIBTOOL=		YES
 
 BUILD_DEPENDS+=       p5-Net-Whois-RIPE-[0-9]*:../../wip/p5-Net-Whois-RIPE
 

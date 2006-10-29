@@ -13,7 +13,7 @@ COMMENT=		Modular IMAP server for Maildir
 
 DEPENDS+=		checkpassword-[0-9]*:../../sysutils/checkpassword
 
-USE_LANGUAGES+=		c++
+USE_LANGUAGES=		c++
 GNU_CONFIGURE=		yes
 
 EGDIR=			${PREFIX}/share/examples/bincimap

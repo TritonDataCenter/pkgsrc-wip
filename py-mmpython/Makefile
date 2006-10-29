@@ -10,7 +10,7 @@ MAINTAINER=		dhowland@users.sourceforge.net
 HOMEPAGE=		http://mmpython.sourceforge.net/
 COMMENT=		Extract text information from mp3, ogg, avi, jpg and more
 
-DEPENDS+=               lsdvd>=0.10:../../multimedia/lsdvd
+DEPENDS+=		lsdvd>=0.10:../../multimedia/lsdvd
 
 PYDISTUTILSPKG=		yes
 

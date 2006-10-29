@@ -24,8 +24,8 @@ CONFLICTS+=		vncviewer4-[0-9]*
 WRKSRC=			${WRKDIR}/${DISTNAME}/unix
 
 GNU_CONFIGURE=		yes
-CONFIGURE_ARGS+=        --with-installed-zlib
-NO_INSTALL_MANPAGES=    yes
+CONFIGURE_ARGS+=	--with-installed-zlib
+NO_INSTALL_MANPAGES=	yes
 
 USE_LANGUAGES=		c c++
 USE_TOOLS+=		perl:run tar

@@ -14,7 +14,7 @@ COMMENT=		Lightweight, but powerful editor for Python
 
 DEPENDS=	${PYPKGPREFIX}-wxWidgets>=2.4.2.4:../../x11/py-wxWidgets
 
-PYTHON_PATCH_SCRIPTS=   pype.py
+PYTHON_PATCH_SCRIPTS=	pype.py
 NO_BUILD=		yes
 PLIST_SUBST+=		PYVERSSUFFIX=${PYVERSSUFFIX:Q}
 PY_PATCHPLIST=		yes

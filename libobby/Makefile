@@ -6,7 +6,7 @@ PKGNAME=		libobby-0.3.0
 CATEGORIES=		devel net
 MASTER_SITES=		http://releases.0x539.de/obby/
 
-MAINTAINER=	 	evaldo@gardenali.biz
+MAINTAINER=		evaldo@gardenali.biz
 HOMEPAGE=		http://releases.0x539.de/obby/
 COMMENT=		Synced document buffers library
 
@@ -22,7 +22,7 @@ USE_LANGUAGES=		c c++
 pre-install:
 	${INSTALL_LIB_DIR} ${PREFIX}/include/obby/serialise
 
-PLIST_SRC+=             ${PKGDIR}/PLIST.common
+PLIST_SRC+=		${PKGDIR}/PLIST.common
 
 .include "../../wip/net6/buildlink3.mk"
 .include "../../devel/libsigc++2/buildlink3.mk"

@@ -15,7 +15,7 @@ COMMENT=		Twisted reactor and other core stuff.
 WRKSRC=		${WRKDIR}/Twisted-${TWISTED_VERSION}/TwistedCore-${TWISTED_VERSION}
 
 DEPENDS+=	${PYPKGPREFIX}-twisted-zopeinterface>=3.1.0c1:../../wip/py-twisted-zopeinterface
-DEPENDS+=       ${PYPKGPREFIX}-OpenSSL>=0.6:../../security/py-OpenSSL
+DEPENDS+=	${PYPKGPREFIX}-OpenSSL>=0.6:../../security/py-OpenSSL
 
 PYDISTUTILSPKG=		yes
 

@@ -19,8 +19,8 @@ XMLCONFIG=		${WRKDIR}/${DISTNAME}/yahoo-jcr.xml
 
 USE_TOOLS+=		gmake pkg-config
 
-PKG_SYSCONFSUBDIR=      jabberd
-RCD_SCRIPTS=            yahoo
+PKG_SYSCONFSUBDIR=	jabberd
+RCD_SCRIPTS=		yahoo
 
 BUILD_DEFS+=		JABBERD_USER JABBERD_LOGDIR JABBERD_PIDDIR
 JABBERD_USER?=		jabberd

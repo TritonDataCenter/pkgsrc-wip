@@ -25,5 +25,5 @@ LIBS+=			${COMPILER_RPATH_FLAG}${PREFIX}/lib/postgresql
 CONFIGURE_ARGS+=	--enable-mysql
 CONFIGURE_ARGS+=	--with-mysql-includes=${PREFIX}/include/mysql
 CONFIGURE_ARGS+=	--with-mysql-libraries=${PREFIX}/lib/mysql
-LIBS+=   		${COMPILER_RPATH_FLAG}${PREFIX}/lib/mysql
+LIBS+=		${COMPILER_RPATH_FLAG}${PREFIX}/lib/mysql
 .endif

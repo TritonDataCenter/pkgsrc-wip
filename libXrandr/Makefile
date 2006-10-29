@@ -21,10 +21,10 @@ PKGCONFIG_OVERRIDE+=	xrandr.pc.in
 
 .include "../../mk/bsd.prefs.mk"
 .if defined(X11_TYPE) && ${X11_TYPE} == "native"
-CONFIGURE_ENV+=         X_CFLAGS="-I${X11BASE}/include"
-CONFIGURE_ENV+=         X_LIBS="-L${X11BASE}/lib -lX11"
-CONFIGURE_ENV+=         RANDR_CFLAGS="-I${BUILDLINK_PREFIX.Xrender}/include"
-CONFIGURE_ENV+=         RANDR_LIBS="-L${BUILDLINK_PREFIX.Xrender}/lib -lX11"
+CONFIGURE_ENV+=		X_CFLAGS="-I${X11BASE}/include"
+CONFIGURE_ENV+=		X_LIBS="-L${X11BASE}/lib -lX11"
+CONFIGURE_ENV+=		RANDR_CFLAGS="-I${BUILDLINK_PREFIX.Xrender}/include"
+CONFIGURE_ENV+=		RANDR_LIBS="-L${BUILDLINK_PREFIX.Xrender}/lib -lX11"
 .  include "../../mk/x11.buildlink3.mk"
 .endif
 

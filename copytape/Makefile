@@ -19,7 +19,7 @@ BUILD_DEPENDS+=	gsharutils>=4.2.1nb2:../../archivers/gsharutils
 WRKSRC=			${WRKDIR}
 BUILD_TARGET=		copytape
 
-EXTRACT_CMD=            ${GZCAT} ${DOWNLOADED_DISTFILE} | ${PREFIX}/bin/${GNU_PROGRAM_PREFIX}unshar
+EXTRACT_CMD=		${GZCAT} ${DOWNLOADED_DISTFILE} | ${PREFIX}/bin/${GNU_PROGRAM_PREFIX}unshar
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/copytape ${PREFIX}/bin/copytape

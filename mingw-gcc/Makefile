@@ -15,7 +15,7 @@ HOMEPAGE=		http://mingw.sourceforge.net/
 COMMENT=		GNU C Compiler ported to win32 platforms
 
 USE_TOOLS+=		gmake
-USE_PKGLOCALEDIR=      	yes
+USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 USE_CROSSBASE=		yes
 

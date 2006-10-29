@@ -10,7 +10,7 @@ HOMEPAGE=	http://search.cpan.org/dist/Class-Throwable/
 COMMENT=	Minimal lightweight exception class
 
 DEPENDS+=	p5-Scalar-List-Utils>=1.1:../../devel/p5-Scalar-List-Utils
-DEPENDS+=       {perl>=5.7.3,p5-Test-Simple>=0.47}:../../devel/p5-Test-Simple
+DEPENDS+=	{perl>=5.7.3,p5-Test-Simple>=0.47}:../../devel/p5-Test-Simple
 
 PERL5_REQD+=	5.6.0
 

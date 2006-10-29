@@ -7,9 +7,9 @@ CATEGORIES=		sysutils
 MASTER_SITES=		http://binary.florian-stoehr.de/
 EXTRACT_SUFX=		.tgz
 
-MAINTAINER=	 	netbsd@wolfnode.de
+MAINTAINER=		netbsd@wolfnode.de
 HOMEPAGE=		http://binary.florian-stoehr.de/
-COMMENT=	 	Tool for cross-partitioning a disk for NetBSD/amiga
+COMMENT=	Tool for cross-partitioning a disk for NetBSD/amiga
 
 NO_CONFIGURE=		yes
 ONLY_FOR_PLATFORM=	NetBSD-*-*

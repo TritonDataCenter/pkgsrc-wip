@@ -1,7 +1,7 @@
 # $NetBSD$
 
-DISTNAME=       Text-Context-3.6
-PKGNAME=        p5-${DISTNAME}
+DISTNAME=	Text-Context-3.6
+PKGNAME=	p5-${DISTNAME}
 CATEGORIES=	textproc perl5
 MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=Text/}
 

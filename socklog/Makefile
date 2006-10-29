@@ -9,7 +9,7 @@ HOMEPAGE=	http://smarden.org/socklog/
 COMMENT=	System and kernel logging services
 
 WRKSRC=		${WRKDIR}/admin/${DISTNAME}
-CMDDIR=         ${WRKSRC}/command
+CMDDIR=		${WRKSRC}/command
 PKGDOCDIR=	${PREFIX}/share/doc/${PKGBASE}
 
 DJB_ERRNO_HACK=		NO
@@ -17,8 +17,8 @@ DJB_RESTRICTED=		NO
 DJB_SLASHPACKAGE=	YES
 
 DOCS=		package/CHANGES package/COPYING package/README doc/*.html
-USER_CMDS=      ${CMDDIR}/tryto ${CMDDIR}/uncat
-SYS_CMDS=       ${CMDDIR}/socklog ${CMDDIR}/socklog-check ${CMDDIR}/socklog-conf
+USER_CMDS=	${CMDDIR}/tryto ${CMDDIR}/uncat
+SYS_CMDS=	${CMDDIR}/socklog ${CMDDIR}/socklog-check ${CMDDIR}/socklog-conf
 
 do-install:
 	${INSTALL_PROGRAM} ${USER_CMDS} ${PREFIX}/bin

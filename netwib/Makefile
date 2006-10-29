@@ -11,10 +11,10 @@ MAINTAINER=	adrianp@stindustries.net
 HOMEPAGE=	http://www.laurentconstantin.com/en/netw/
 COMMENT=	Network library providing network functionality for developers
 
-WRKSRC=         	${WRKDIR}/${DISTNAME}/src
+WRKSRC=		${WRKDIR}/${DISTNAME}/src
 HAS_CONFIGURE=		YES
 CONFIGURE_SCRIPT=	./genemake
-ONLY_FOR_PLATFORM=      NetBSD-*-i386
+ONLY_FOR_PLATFORM=	NetBSD-*-i386
 
 post-patch:
 	@${CP} ${WRKSRC}/config.dat ${WRKSRC}/config.dat.new

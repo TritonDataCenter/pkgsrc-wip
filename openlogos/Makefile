@@ -4,7 +4,7 @@ DISTNAME=	openlogos-1.0.2
 CATEGORIES=	misc
 MASTER_SITES=	http://logos-os.dfki.de/release/
 
-MAINTAINER=     schwarz@NetBSD.org
+MAINTAINER=	schwarz@NetBSD.org
 HOMEPAGE=	http://logos-os.dfki.de
 COMMENT=	Openlogos is a language translation system
 

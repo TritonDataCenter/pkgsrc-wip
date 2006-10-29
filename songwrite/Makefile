@@ -19,7 +19,7 @@ PYTHON_PATCH_SCRIPTS=	songwrite
 
 PLIST_SUBST+=		PYVERSSUFFIX=${PYVERSSUFFIX:Q}
 
-SW_FILES= 	__init__.py asciitab.py drum.py fourml.py globdef.py \
+SW_FILES=	__init__.py asciitab.py drum.py fourml.py globdef.py \
 		gp3_loader.py init_editobj.py latex.py lilypond.py lyric.py \
 		lyric2.py main.py midi_import.py player.py song.py \
 		songbook.py staff.py stemml.py tablature.py ui.py view.py

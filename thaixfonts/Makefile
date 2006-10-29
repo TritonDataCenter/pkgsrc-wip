@@ -7,7 +7,7 @@ CATEGORIES=	fonts x11
 MASTER_SITES=	http://www.fedu.uec.ac.jp/ZzzThai/linux/redhat/RPMS/noarch/
 EXTRACT_SUFX=	.rpm
 
-MAINTAINER= 	scole_mail@softhome.net
+MAINTAINER=	scole_mail@softhome.net
 HOMEPAGE=	http://www.fedu.uec.ac.jp/ZzzThai/fonts.html
 COMMENT=	various X11 Thai fonts in tis-620 encoding
 

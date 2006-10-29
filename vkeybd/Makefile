@@ -5,13 +5,13 @@ CATEGORIES=	audio
 MASTER_SITES=	http://www.alsa-project.org/~iwai/
 
 MAINTAINER=	oht@users.sourceforge.net
-HOMEPAGE=   	http://www.alsa-project.org/~iwai/
+HOMEPAGE=	http://www.alsa-project.org/~iwai/
 COMMENT=	Virtual midi keyboard
 
 RAWMIDI=	/dev/rmidi0
-WRKSRC=         ${WRKDIR}/vkeybd
+WRKSRC=		${WRKDIR}/vkeybd
 VKB_TCLFILE =	${PREFIX}/share/vkeybd/vkeybd.tcl
-NO_CONFIGURE=   yes
+NO_CONFIGURE=	yes
 CFLAGS+=	-Wall -O2
 CFLAGS+=	-DVKB_TCLFILE=\"${VKB_TCLFILE:Q}\"
 CFLAGS+=	-DVKB_USE_MIDI

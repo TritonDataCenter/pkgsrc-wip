@@ -10,7 +10,7 @@ HOMEPAGE=		http://kissme.sourceforge.net/
 COMMENT=		Java Virtual Machine (JVM) freely available
 
 DEPENDS+=		classpath>=0.7:../../lang/classpath/
-DEPENDS+=        	zip>=2.3:../../archivers/zip/
+DEPENDS+=		zip>=2.3:../../archivers/zip/
 
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes

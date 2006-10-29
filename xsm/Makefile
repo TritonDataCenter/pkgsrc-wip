@@ -11,7 +11,7 @@ HOMEPAGE=		http://xorg.freedesktop.org/releases/individual/app/
 COMMENT=		X Session Manager
 
 GNU_CONFIGURE=		yes
-USE_TOOLS+=             pkg-config
+USE_TOOLS+=		pkg-config
 
 #.include "../../wip/libX11/buildlink3.mk"
 #.include "../../wip/libXt/buildlink3.mk"

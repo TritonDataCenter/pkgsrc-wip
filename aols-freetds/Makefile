@@ -2,15 +2,15 @@
 #
 
 DISTNAME=		nsfreetds-0.4-src
-PKGNAME=                aols-freetds-0.4
-CATEGORIES=             www
-MASTER_SITES=           ${MASTER_SITE_SOURCEFORGE:=aolserver/}
+PKGNAME=		aols-freetds-0.4
+CATEGORIES=		www
+MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=aolserver/}
 
 MAINTAINER=		iharding@destinydata.com
 HOMEPAGE=		http://www.aolserver.com/
 COMMENT=		FreeTDS database access module for aolserver
 
-WRKSRC=                 ${WRKDIR}/${DISTNAME:S/-src//}
+WRKSRC=			${WRKDIR}/${DISTNAME:S/-src//}
 
 MAKE_FLAGS+=		NSHOME=/${PREFIX}/include/nsd \
 			TCL_CC=gcc

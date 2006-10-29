@@ -11,12 +11,12 @@ HOMEPAGE=		http://acl.bestbits.at/
 COMMENT=		The acl package contains the setfacl and getfacl utils
 
 # uses linux/version.h and only tested under Linux
-ONLY_FOR_PLATFORM=      Linux-*-*
+ONLY_FOR_PLATFORM=	Linux-*-*
 
-AUTOCONF_REQD=  	2.50
+AUTOCONF_REQD=	2.50
 
-USE_TOOLS+=             autoconf gmake
-GNU_CONFIGURE=          yes
+USE_TOOLS+=		autoconf gmake
+GNU_CONFIGURE=		yes
 USE_LIBTOOL=		yes
 
 WRKSRC=		${WRKDIR}/acl-2.2.39

@@ -1,20 +1,20 @@
 # $NetBSD$
 
 DISTNAME=	mod_macro-1.1.5
-PKGNAME=        ${DISTNAME:S/mod_/ap2-/}
+PKGNAME=	${DISTNAME:S/mod_/ap2-/}
 CATEGORIES=	www
 MASTER_SITES=	http://www.cri.ensmp.fr/~coelho/mod_macro/
 
 MAINTAINER=	jdunn@opentrend.net
 HOMEPAGE=	http://www.cri.ensmp.fr/~coelho/mod_macro/
-COMMENT=        Apache module for using macros in config files
+COMMENT=	Apache module for using macros in config files
 
 CONFLICTS=	ap-macro-[0-9]*
 
 NO_CONFIGURE=		yes
 
-APACHE_MODULE_NAME=     ${DISTNAME:C|-.*||}.so
-APACHE_MODULE_SRC=      ${DISTNAME:C|-.*||}.c
+APACHE_MODULE_NAME=	${DISTNAME:C|-.*||}.so
+APACHE_MODULE_SRC=	${DISTNAME:C|-.*||}.c
 APACHE_MODULE_LA=	${DISTNAME:C|-.*||}.la
 APACHE_MODULE=		yes
 

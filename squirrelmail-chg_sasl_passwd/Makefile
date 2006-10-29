@@ -22,7 +22,7 @@ PIDIR=			${SMDIR}/plugins/${DISTNAME:C/-.*$//}
 MESSAGE_SUBST+=		SMDIR=${SMDIR}
 MESSAGE_SUBST+=		PIDIR=${PIDIR}
 
-CONF_FILES=     ${PIDIR}/config_default.php ${PIDIR}/config.php
+CONF_FILES=	${PIDIR}/config_default.php ${PIDIR}/config.php
 
 do-build:
 	cd ${WRKDIR}/${DISTNAME:C/-.*$//} ;\

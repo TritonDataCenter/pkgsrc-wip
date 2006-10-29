@@ -35,15 +35,15 @@ CONFIGURE_ARGS+=--disable-inews \
 .include "../../mk/bsd.prefs.mk"
 
 .if defined(SLRN_PL_FACES)
-CONFIGURE_ARGS+= 	--with-txtface --with-slrnface
-PLIST_SRC+=             ${PKGDIR}/PLIST.faces
+CONFIGURE_ARGS+=	--with-txtface --with-slrnface
+PLIST_SRC+=		${PKGDIR}/PLIST.faces
 .include "../../mail/faces/buildlink3.mk"
 .include "../../mk/x11.buildlink3.mk"
 .else
-CONFIGURE_ARGS+= 	--without-txtface --without-slrnface
+CONFIGURE_ARGS+=	--without-txtface --without-slrnface
 .endif
 
-PLIST_SRC+=             ${PKGDIR}/PLIST
+PLIST_SRC+=		${PKGDIR}/PLIST
 
 .include "../../devel/libslang/buildlink3.mk"
 .include "../../devel/gettext-lib/buildlink3.mk"

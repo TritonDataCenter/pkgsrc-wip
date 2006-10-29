@@ -8,6 +8,6 @@ MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=smtprc/}
 EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	adrianp@stindustries.net
-HOMEPAGE= 	http://irc.warg.co.uk/smtprc-website/index.html
+HOMEPAGE=	http://irc.warg.co.uk/smtprc-website/index.html
 
 PKG_SYSCONFSUBDIR=	smtprc

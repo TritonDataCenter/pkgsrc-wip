@@ -10,8 +10,8 @@ MAINTAINER=		reed@reedmedia.net
 #HOMEPAGE=
 COMMENT=		English word list
 
-NO_CONFIGURE=   yes
-NO_BUILD=       yes
+NO_CONFIGURE=	yes
+NO_BUILD=	yes
 
 do-install:
 	${INSTALL_DATA_DIR} ${PREFIX}/share/dict

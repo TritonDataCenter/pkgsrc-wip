@@ -12,7 +12,7 @@ COMMENT=	Development release of rosegarden
 
 GNU_CONFIGURE=	YES
 USE_TOOLS+=	gmake
-USE_LANGUAGES+= c c++
+USE_LANGUAGES= c c++
 USE_LIBTOOL=	yes
 
 post-install:

@@ -16,7 +16,7 @@ ONLY_FOR_PLATFORM=     Linux-*-* NetBSD-*-*
 GNU_CONFIGURE=		yes
 USE_TOOLS+=		gmake
 
-USE_LIBTOOL=            yes
+USE_LIBTOOL=		yes
 
 .include "../../wip/directfb/buildlink3.mk"
 
