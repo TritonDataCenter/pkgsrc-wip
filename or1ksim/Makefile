@@ -18,7 +18,7 @@ INSTALLATION_DIRS=	bin share/examples/or1ksim share/doc/or1ksim
 USE_GNU_READLINE=	yes # uses rl_event_hook
 
 post-build:
-	${MV} ${WRKSRC}/sim.cfg ${WRKSRC}/or1ksim.cfg
+	mv ${WRKSRC}/sim.cfg ${WRKSRC}/or1ksim.cfg
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/or1ksim ${PREFIX}/bin

@@ -132,6 +132,6 @@ do-configure:
 	${FIND} ${WRKDIR} -name \*.orig -type f -print0 | ${XARGS} -t -0 ${RM}
 
 do-install:
-	cd ${WRKDIR} && ${PAX} -rw -pe [A-Za-z]* ${PREFIX}/share/themes
+	cd ${WRKDIR} && pax -rw -pp [A-Za-z]* ${PREFIX}/share/themes
 
 .include "../../mk/bsd.pkg.mk"

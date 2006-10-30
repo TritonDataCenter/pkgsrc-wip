@@ -7,7 +7,7 @@ MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=Email/}
 
 MAINTAINER=	kuli0020@umn.edu
 HOMEPAGE=	http://search.cpan.org/dist/Email-MIME-Creator/
-COMMENT=	Email::MIME constructor for starting anew.
+COMMENT=	Email::MIME constructor for starting anew
 
 DEPENDS+=	p5-Email-Simple>=1.92:../../mail/p5-Email-Simple
 DEPENDS+=	p5-Email-Simple-Creator>=1.4:../../wip/p5-Email-Simple-Creator

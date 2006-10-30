@@ -20,7 +20,7 @@ PYTHON_PATCH_SCRIPTS=	drpython.py
 do-install:
 	${INSTALL_DATA_DIR} ${PREFIX}/${DRPYTHON_DIR}
 	${CAT} ${PKGDIR}/PLIST.pre >${PLIST_SRC}
-	cd ${WRKSRC} && ${PAX} -rw -pe [a-z]* ${PREFIX}/${DRPYTHON_DIR}
+	cd ${WRKSRC} && pax -rw -pp [a-z]* ${PREFIX}/${DRPYTHON_DIR}
 	cd ${PREFIX} && ${FIND} ${DRPYTHON_DIR} -type f -print >>${PLIST_SRC}
 	cd ${PREFIX} && ${FIND} -d ${DRPYTHON_DIR} -type d -print | \
 	${SED} -e "s/^/@dirrm /" >>${PLIST_SRC}

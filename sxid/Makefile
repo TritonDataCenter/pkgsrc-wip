@@ -10,7 +10,7 @@ MAINTAINER=		bartosz@atom.eu.org
 HOMEPAGE=		http://www.phunnypharm.org/pub/sxid/
 COMMENT=		Suid, sgid file and directory checking
 
-WRKSRC=			${WRKDIR}/${PKGNAME}
+WRKSRC=			${WRKDIR}/${PKGNAME_NOREV}
 GNU_CONFIGURE=		yes
 
 EGDIR=			${PREFIX}/share/examples/sxid

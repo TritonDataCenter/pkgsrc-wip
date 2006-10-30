@@ -7,7 +7,7 @@ MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=Catalyst/}
 
 MAINTAINER=	kuli0020@umn.edu
 HOMEPAGE=	http://search.cpan.org/dist/Catalyst-Plugin-Cache-FileCache/
-COMMENT=	Extends base class with a file cache.
+COMMENT=	Extends base class with a file cache
 
 DEPENDS+=	p5-Cache-Cache>=0:../../devel/p5-Cache-Cache
 

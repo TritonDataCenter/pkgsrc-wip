@@ -19,7 +19,7 @@ PY_VE_DEMO_DIR=		${PREFIX}/share/VisionEgg-${PYVERSSUFFIX}/demo
 
 do-install:
 	${INSTALL_DATA_DIR} ${PY_VE_DEMO_DIR}
-	cd ${WRKSRC}/demo && ${PAX} -rw -pe * ${PY_VE_DEMO_DIR}
+	cd ${WRKSRC}/demo && pax -rw -pp * ${PY_VE_DEMO_DIR}
 
 .include "../../wip/py-visionegg/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

@@ -9,7 +9,7 @@ MAINTAINER=	kuli0020@umn.edu
 HOMEPAGE=	http://search.cpan.org/dist/Test-Differences/
 COMMENT=	Test::Differences - Test strings and data structures for differences
 
-BUILD_DEPENDS=	p5-Text-Diff>=0.34:../../textproc/p5-Text-Diff
+BUILD_DEPENDS+=	p5-Text-Diff>=0.34:../../textproc/p5-Text-Diff
 DEPENDS+=	p5-Test-Simple>=0:../../devel/p5-Test-Simple
 
 PERL5_PACKLIST= auto/Test/Differences/.packlist

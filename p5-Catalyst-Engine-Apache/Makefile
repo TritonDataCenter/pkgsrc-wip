@@ -10,7 +10,7 @@ MAINTAINER=	kuli0020@umn.edu
 HOMEPAGE=	http://search.cpan.org/dist/Catalyst-Engine-Apache/
 COMMENT=	Catalyst Apache Engines
 
-BUILD_DEPENDS=	p5-Catalyst>=5.50:../../wip/p5-Catalyst
+BUILD_DEPENDS+=	p5-Catalyst>=5.50:../../wip/p5-Catalyst
 
 PERL5_MODULE_TYPE=	Module::Build
 

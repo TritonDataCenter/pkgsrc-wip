@@ -7,7 +7,7 @@ MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=../by-authors/id/C/CW/CWEST/}
 
 MAINTAINER=	kuli0020@umn.edu
 HOMEPAGE=	http://search.cpan.org/dist/Email-MIME-Encodings/
-COMMENT=	A unified interface to MIME encoding and decoding
+COMMENT=	Unified interface to MIME encoding and decoding
 
 DEPENDS+=	p5-MIME-Base64>=3.05:../../converters/p5-MIME-Base64
 
