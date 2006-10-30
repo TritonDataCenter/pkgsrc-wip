@@ -1,8 +1,8 @@
 $NetBSD$
 
---- mkisofs/write.c.orig	2006-09-24 13:25:44.000000000 +0000
+--- mkisofs/write.c.orig	2006-10-08 13:49:17.000000000 +0000
 +++ mkisofs/write.c
-@@ -476,7 +476,7 @@ write_one_file(filename, size, outfile)
+@@ -362,7 +362,7 @@ write_one_file(filename, size, outfile)
  static	char		buffer[SECTOR_SIZE * NSECT];
  	FILE		*infile;
  	off_t		remain;
@@ -11,7 +11,7 @@ $NetBSD$
  
  
  	if ((infile = fopen(filename, "rb")) == NULL) {
-@@ -567,7 +567,10 @@ static	char		buffer[SECTOR_SIZE * NSECT]
+@@ -428,7 +428,10 @@ static	char		buffer[SECTOR_SIZE * NSECT]
  			fflush(stderr);
  		}
  #endif
