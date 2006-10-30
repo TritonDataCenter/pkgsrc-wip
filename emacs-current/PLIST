@@ -811,6 +811,8 @@ share/emacs/${PKGVERSION}/lisp/calendar/cal-french.el.gz
 share/emacs/${PKGVERSION}/lisp/calendar/cal-french.elc
 share/emacs/${PKGVERSION}/lisp/calendar/cal-hebrew.el.gz
 share/emacs/${PKGVERSION}/lisp/calendar/cal-hebrew.elc
+share/emacs/${PKGVERSION}/lisp/calendar/cal-html.el.gz
+share/emacs/${PKGVERSION}/lisp/calendar/cal-html.elc
 share/emacs/${PKGVERSION}/lisp/calendar/cal-islam.el.gz
 share/emacs/${PKGVERSION}/lisp/calendar/cal-islam.elc
 share/emacs/${PKGVERSION}/lisp/calendar/cal-iso.el.gz
