@@ -4351,7 +4351,6 @@ geant/lib/Linux-g++/libG4optical.a
 geant/lib/Linux-g++/libG4parameterisation.a
 geant/lib/Linux-g++/libG4partman.a
 geant/lib/Linux-g++/libG4partutils.a
-geant/lib/Linux-g++/libG4persistency.a
 geant/lib/Linux-g++/libG4procman.a
 geant/lib/Linux-g++/libG4readout.a
 geant/lib/Linux-g++/libG4run.a
