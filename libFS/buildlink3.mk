@@ -1,24 +1,22 @@
 # $NetBSD$
-#
-# This Makefile fragment is included by packages that use libSM.
-#
-# This file was created automatically using createbuildlink-3.0.
-#
 
 BUILDLINK_DEPTH:=	${BUILDLINK_DEPTH}+
-LIBSM_BUILDLINK3_MK:=	${LIBSM_BUILDLINK3_MK}+
+LIBFS_BUILDLINK3_MK:=	${LIBFS_BUILDLINK3_MK}+
 
-.if !empty(BUILDLINK_DEPTH:M+)
-BUILDLINK_DEPENDS+=	libSM
+.if ${BUILDLINK_DEPTH} == "+"
+BUILDLINK_DEPENDS+=	libFS
 .endif
 
-.if !empty(LIBSM_BUILDLINK3_MK:M+)
-BUILDLINK_PACKAGES+=			libSM
-BUILDLINK_API_DEPENDS.libSM+=		libSM>=0.99.2
-BUILDLINK_PKGSRCDIR.libSM?=		../../wip/libSM
+BUILDLINK_PACKAGES:=	${BUILDLINK_PACKAGES:NlibFS}
+BUILDLINK_PACKAGES+=	libFS
+BUILDLINK_ORDER:=	${BUILDLINK_ORDER} ${BUILDLINK_DEPTH}libFS
 
-.endif # LIBSM_BUILDLINK3_MK
+.if ${LIBFS_BUILDLINK3_MK} == "+"
+BUILDLINK_API_DEPENDS.libFS+=	libFS>=1.0.0
+BUILDLINK_PKGSRCDIR.libFS?=	../../wip/libFS
+.endif	# LIBFS_BUILDLINK3_MK
 
-.include "../../wip/libICE/buildlink3.mk"
+.include "../../x11/xproto/buildlink3.mk"
+.include "../../wip/fontsproto/buildlink3.mk"
 
-BUILDLINK_DEPTH:=     ${BUILDLINK_DEPTH:S/+$//}
+BUILDLINK_DEPTH:=	${BUILDLINK_DEPTH:S/+$//}
