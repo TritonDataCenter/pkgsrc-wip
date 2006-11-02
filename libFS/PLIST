@@ -1,0 +1,6 @@
+@comment $NetBSD$
+include/X11/fonts/FSlib.h
+lib/libFS.la
+lib/pkgconfig/libfs.pc
+@dirrm include/X11/fonts
+@dirrm include/X11
