@@ -1,7 +1,0 @@
-@comment $NetBSD$
-bin/cxpm
-include/X11/xpm.h
-lib/libXpm.la
-lib/pkgconfig/xpm.pc
-man/man1/cxpm.1
-@comment @dirrm include/X11

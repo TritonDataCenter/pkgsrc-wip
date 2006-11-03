@@ -1,4 +1,0 @@
-@comment $NetBSD$
-lib/libXinerama.la
-lib/pkgconfig/xinerama.pc
-@comment in panoramixext: @dirrm include/X11/extensions

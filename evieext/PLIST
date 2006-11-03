@@ -1,4 +1,0 @@
-@comment $NetBSD$
-include/X11/extensions/Xeviestr.h
-lib/pkgconfig/evieproto.pc
-@dirrm include/X11/extensions
