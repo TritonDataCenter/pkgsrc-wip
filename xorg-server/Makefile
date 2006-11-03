@@ -43,7 +43,7 @@ BUILDLINK_API_DEPENDS.xkbui+=		xkbui>=1.0.2
 .include "../../wip/libXxf86misc/buildlink3.mk"
 .include "../../wip/libXxf86vm/buildlink3.mk"
 .include "../../wip/libdrm/buildlink3.mk"
-.include "../../wip/libfontenc/buildlink3.mk"
+.include "../../fonts/libfontenc/buildlink3.mk"
 .include "../../wip/liblbxutil/buildlink3.mk"
 .include "../../wip/libxkbfile/buildlink3.mk"
 .include "../../wip/libxkbui/buildlink3.mk"
