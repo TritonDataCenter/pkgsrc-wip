@@ -1,3 +1,0 @@
-@comment $NetBSD$
-bin/mkfontdir
-man/man1/mkfontdir.1

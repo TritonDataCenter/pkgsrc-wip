@@ -1,4 +1,0 @@
-@comment $NetBSD$
-include/X11/Xdmcp.h
-lib/libXdmcp.la
-lib/pkgconfig/xdmcp.pc
