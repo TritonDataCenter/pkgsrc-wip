@@ -16,7 +16,7 @@ COMMENT=	Virtual Reality Engine interactive distributed 3D application
 
 USE_LANGUAGES=	c c++
 GNU_CONFIGURE=	yes
-USE_TOOLS+=	gmake
+USE_TOOLS+=	gmake perl:run
 USE_LIBTOOL=	yes
 
 #CONFIGURE_ENV+=
