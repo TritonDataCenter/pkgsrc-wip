@@ -1,7 +1,0 @@
-@comment $NetBSD$
-include/X11/Xcursor/Xcursor.h
-lib/libXcursor.la
-lib/pkgconfig/xcursor.pc
-man/man3/Xcursor.3
-@dirrm include/X11/Xcursor
-@comment @dirrm include/X11
