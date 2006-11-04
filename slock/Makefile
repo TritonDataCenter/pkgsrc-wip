@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=		slock-0.2
+DISTNAME=		slock-0.3
 CATEGORIES=		x11
 MASTER_SITES=		http://suckless.org/download/
 
