@@ -1,0 +1,5 @@
+@comment $NetBSD$
+bin/ixpc
+include/ixp.h
+lib/libixp.a
+man/man1/ixpc.1
