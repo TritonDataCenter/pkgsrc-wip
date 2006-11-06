@@ -145,5 +145,7 @@ share/xfce4/panel-plugins/windowlist.desktop
 @unexec ${RMDIR} %D/share/gtk-doc/html 2>/dev/null || ${TRUE}
 @unexec ${RMDIR} %D/share/gtk-doc 2>/dev/null || ${TRUE}
 @unexec ${RMDIR} %D/share 2>/dev/null || ${TRUE}
+@unexec ${RMDIR} %D/libexec/xfce4/panel-plugins 2>/dev/null || ${TRUE}
+@unexec ${RMDIR} %D/libexec/xfce4 2>/dev/null || ${TRUE}
 @unexec ${RMDIR} %D/etc/xdg/xfce4 2>/dev/null || ${TRUE}
 @unexec ${RMDIR} %D/etc/xdg 2>/dev/null || ${TRUE}
