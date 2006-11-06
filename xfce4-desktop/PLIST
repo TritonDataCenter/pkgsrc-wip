@@ -153,5 +153,6 @@ share/xfce4/panel-plugins/xfce4-menu.desktop
 @dirrm share/pixmaps/xfce4/xfdesktop
 @dirrm share/examples/xfce4/desktop
 @unexec ${RMDIR} %D/share/xfce4/backdrops 2>/dev/null || ${TRUE}
+@unexec ${RMDIR} %D/share/pixmaps/xfce4 2>/dev/null || ${TRUE}
 @unexec ${RMDIR} %D/libexec/xfce4/panel-plugins 2>/dev/null || ${TRUE}
 @unexec ${RMDIR} %D/lib/xfce4/modules 2>/dev/null || ${TRUE}

@@ -452,7 +452,6 @@ share/orage/zoneinfo/Pacific/Wallis.ics
 share/orage/zoneinfo/Pacific/Yap.ics
 share/orage/zoneinfo/zones.tab
 share/xfce4/panel-plugins/orageclock.desktop
-@unexec ${RMDIR} %D/libexec/xfce4/panel-plugins 2>/dev/null || ${TRUE}
 @dirrm share/orage/zoneinfo/Pacific
 @dirrm share/orage/zoneinfo/Indian
 @dirrm share/orage/zoneinfo/Europe
@@ -471,3 +470,4 @@ share/xfce4/panel-plugins/orageclock.desktop
 @dirrm share/orage/doc/C
 @dirrm share/orage/doc
 @dirrm share/orage
+@unexec ${RMDIR} %D/libexec/xfce4/panel-plugins 2>/dev/null || ${TRUE}
