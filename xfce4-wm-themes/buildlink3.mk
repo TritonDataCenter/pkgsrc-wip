@@ -12,7 +12,7 @@ BUILDLINK_PACKAGES+=	xfce4-wm-themes
 BUILDLINK_ORDER:=	${BUILDLINK_ORDER} ${BUILDLINK_DEPTH}xfce4-wm-themes
 
 .if ${XFCE4_WM_THEMES_BUILDLINK3_MK} == "+"
-BUILDLINK_API_DEPENDS.xfce4-wm-themes+=	xfce4-wm-themes>=4.3.99.1
+BUILDLINK_API_DEPENDS.xfce4-wm-themes+=	xfce4-wm-themes>=4.3.99.2
 BUILDLINK_PKGSRCDIR.xfce4-wm-themes?=	../../wip/xfce4-wm-themes
 .endif	# XFCE4_WM_THEMES_BUILDLINK3_MK
 

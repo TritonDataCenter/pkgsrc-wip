@@ -12,7 +12,7 @@ BUILDLINK_PACKAGES+=	xfce4-desktop
 BUILDLINK_ORDER:=	${BUILDLINK_ORDER} ${BUILDLINK_DEPTH}xfce4-desktop
 
 .if ${XFCE4_DESKTOP_BUILDLINK3_MK} == "+"
-BUILDLINK_API_DEPENDS.xfce4-desktop+=	xfce4-desktop>=4.3.99.1
+BUILDLINK_API_DEPENDS.xfce4-desktop+=	xfce4-desktop>=4.3.99.2
 BUILDLINK_PKGSRCDIR.xfce4-desktop?=	../../wip/xfce4-desktop
 .endif	# XFCE4_DESKTOP_BUILDLINK3_MK
 

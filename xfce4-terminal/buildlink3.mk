@@ -12,7 +12,7 @@ BUILDLINK_PACKAGES+=	xfce4-terminal
 BUILDLINK_ORDER:=	${BUILDLINK_ORDER} ${BUILDLINK_DEPTH}xfce4-terminal
 
 .if ${XFCE4_TERMINAL_BUILDLINK3_MK} == "+"
-BUILDLINK_API_DEPENDS.xfce4-terminal+=	xfce4-terminal>=0.2.5.6rc1
+BUILDLINK_API_DEPENDS.xfce4-terminal+=	xfce4-terminal>=0.2.5.8rc2
 BUILDLINK_PKGSRCDIR.xfce4-terminal?=	../../wip/xfce4-terminal
 .endif	# XFCE4_TERMINAL_BUILDLINK3_MK
 

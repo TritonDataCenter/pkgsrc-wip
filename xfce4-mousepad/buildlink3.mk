@@ -12,7 +12,7 @@ BUILDLINK_PACKAGES+=	xfce4-mousepad
 BUILDLINK_ORDER:=	${BUILDLINK_ORDER} ${BUILDLINK_DEPTH}xfce4-mousepad
 
 .if ${XFCE4_MOUSEPAD_BUILDLINK3_MK} == "+"
-BUILDLINK_API_DEPENDS.xfce4-mousepad+=	xfce4-mousepad>=0.2.8
+BUILDLINK_API_DEPENDS.xfce4-mousepad+=	xfce4-mousepad>=0.2.10
 BUILDLINK_PKGSRCDIR.xfce4-mousepad?=	../../wip/xfce4-mousepad
 .endif	# XFCE4_MOUSEPAD_BUILDLINK3_MK
 

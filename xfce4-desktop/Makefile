@@ -17,7 +17,7 @@ CONF_FILES+=		${EGDIR:Q}/menu.xml.${l:Q} \
 .endfor
 CONF_FILES+=		${EGDIR:Q}/xfce-registered-categories.xml \
 			${PKG_SYSCONFDIR:Q}/xfce-registered-categories.xml
-.for l in cs de el es eu fi he hu ja nl pl pt_BR ro ru sk sv zh_CN zh_TW
+.for l in ca cs de el es eu fi he hu ja nl pl pt_BR ro ru sk sv zh_CN zh_TW
 CONF_FILES+=		${EGDIR:Q}/xfce-registered-categories.xml.${l:Q} \
 			${PKG_SYSCONFDIR:Q}/xfce-registered-categories.xml.${l:Q}
 .endfor

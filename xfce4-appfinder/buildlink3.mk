@@ -12,7 +12,7 @@ BUILDLINK_PACKAGES+=	xfce4-appfinder
 BUILDLINK_ORDER:=	${BUILDLINK_ORDER} ${BUILDLINK_DEPTH}xfce4-appfinder
 
 .if ${XFCE4_APPFINDER_BUILDLINK3_MK} == "+"
-BUILDLINK_API_DEPENDS.xfce4-appfinder+=	xfce4-appfinder>=4.3.99.1
+BUILDLINK_API_DEPENDS.xfce4-appfinder+=	xfce4-appfinder>=4.3.99.2
 BUILDLINK_PKGSRCDIR.xfce4-appfinder?=	../../wip/xfce4-appfinder
 .endif	# XFCE4_APPFINDER_BUILDLINK3_MK
 

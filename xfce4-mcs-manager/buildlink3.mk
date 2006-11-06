@@ -12,7 +12,7 @@ BUILDLINK_PACKAGES+=	xfce4-mcs-manager
 BUILDLINK_ORDER:=	${BUILDLINK_ORDER} ${BUILDLINK_DEPTH}xfce4-mcs-manager
 
 .if ${XFCE4_MCS_MANAGER_BUILDLINK3_MK} == "+"
-BUILDLINK_API_DEPENDS.xfce4-mcs-manager+=	xfce4-mcs-manager>=4.3.99.1
+BUILDLINK_API_DEPENDS.xfce4-mcs-manager+=	xfce4-mcs-manager>=4.3.99.2
 BUILDLINK_PKGSRCDIR.xfce4-mcs-manager?=	../../wip/xfce4-mcs-manager
 .endif	# XFCE4_MCS_MANAGER_BUILDLINK3_MK
 
