@@ -111,5 +111,6 @@ share/xfce4/helpers/thunderbird.desktop
 share/xfce4/helpers/urxvt.desktop
 share/xfce4/helpers/w3m.desktop
 share/xfce4/helpers/xterm.desktop
+@dirrm share/xfce4/helpers
 @dirrm include/exo-0.3/exo
 @dirrm include/exo-0.3
