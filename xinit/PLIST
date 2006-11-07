@@ -1,8 +1,0 @@
-@comment $NetBSD$
-bin/startx
-bin/xinit
-lib/X11/xinit/xinitrc
-man/man1/startx.1
-man/man1/xinit.1
-@dirrm lib/X11/xinit
-@comment @dirrm lib/X11
