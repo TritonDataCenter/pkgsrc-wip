@@ -12,7 +12,7 @@ NO_CONFIGURE=		yes
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/dwm ${PREFIX}/bin
-	${INSTALL_DATA} ${WRKSRC}/dwm.1 ${PREFIX}/share/man
+	${INSTALL_MAN} ${WRKSRC}/dwm.1 ${PREFIX}/man/man1
 
 .include "../../mk/x11.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
