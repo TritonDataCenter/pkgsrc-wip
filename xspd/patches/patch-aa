@@ -209,10 +209,10 @@ $NetBSD$
  	$(EXEDIR)/xspd \
 -	$(XSPDIR)/xspanalyze
 +	$(EXEDIR)/xspanalyze
++	$(EXEDIR)/xspappscript
  	@test $(NOREADYMSG) -eq 1 || echo "$(BELL)	--- make `basename \`pwd\`` ready ---"
 +	helpdoc \
 +	$(BUILDCONFIGFILE)
-+	$(EXEDIR)/xspappscript
 +
  
  ################################################################################
