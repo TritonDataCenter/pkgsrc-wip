@@ -15,3 +15,8 @@ XSPAPP=			xspapp
 CATEGORIES=		www
 MAINTAINER=		kcf@users.sourceforge.net
 HOMEPAGE=		http://home.arcor.de/joachimschulze/xsp/
+
+DISTNAME=		xspsrc_${XSPDISTID}_tar
+MASTER_SITES=		http://home.arcor.de/joachimschulze/xsp/download/
+EXTRACT_SUFX=		.tgz
+WRKSRC=			${WRKDIR}
