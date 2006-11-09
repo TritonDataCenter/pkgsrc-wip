@@ -12,7 +12,7 @@ BUILDLINK_PACKAGES+=	xfce4-panel
 BUILDLINK_ORDER:=	${BUILDLINK_ORDER} ${BUILDLINK_DEPTH}xfce4-panel
 
 .if ${XFCE4_PANEL_BUILDLINK3_MK} == "+"
-BUILDLINK_API_DEPENDS.xfce4-panel+=	xfce4-panel>=4.3.99.2
+BUILDLINK_API_DEPENDS.xfce4-panel+=	xfce4-panel>=4.3.99.2nb1
 BUILDLINK_PKGSRCDIR.xfce4-panel?=	../../wip/xfce4-panel
 .endif	# XFCE4_PANEL_BUILDLINK3_MK
 
