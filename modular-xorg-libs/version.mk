@@ -5,12 +5,12 @@
 #
 # The following variables are provided by this file:
 #
-#    BUILTIN_X11_TYPE.modular-xorg is the X11_TYPE of the modular X.org
-#	distribution and is "modular-xorg".
+#    BUILTIN_X11_TYPE.modular is the X11_TYPE of the modular X.org
+#	distribution and is "modular".
 #
-#    BUILTIN_X11_VERSION.modular-xorg is the version number of the
+#    BUILTIN_X11_VERSION.modular is the version number of the
 #	modular X.org distribution detected on the system.
 #
 
-BUILTIN_X11_TYPE.modular-xorg=	modular-xorg
-BUILTIN_X11_VERSION.modular-xorg=	7.0  ## need to do this
+BUILTIN_X11_TYPE.modular=	modular
+BUILTIN_X11_VERSION.modular=	7.0  ## need to do this
