@@ -20,13 +20,10 @@ NO_SRC_ON_FTP=		${RESTRICTED}
 
 INTERACTIVE_STAGE=	fetch
 
-_FETCH_MESSAGE= \
-	${ECHO} '==============================================';	\
-	${ECHO} 'You need to purchase the source code for this '; 	\
-	${ECHO} 'software from Open System Consultants Pty Ltd.';	\
-	${ECHO} '=============================================='
+FETCH_MESSAGE+=		'You need to purchase the source code for this '
+FETCH_MESSAGE+=		'software from Open System Consultants Pty Ltd.'
 
-PERL5_PACKLIST=		${PERL5_SITEARCH}/auto/Radius/.packlist
+PERL5_PACKLIST=		auto/Radius/.packlist
 
 .include "../../lang/perl5/module.mk"
 .include "../../mk/bsd.pkg.mk"
