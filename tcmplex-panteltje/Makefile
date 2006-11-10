@@ -10,6 +10,8 @@ HOMEPAGE=	http://ip51cf87c4.direct-adsl.nl/panteltje/dvd/
 COMMENT=	Re-write of the A/V multiplexer from the transcode distribution
 
 BUILD_TARGET=	a.out
+# requires authorization
+INTERACTIVE_STAGE=	fetch
 
 DOCSDIR=	${PREFIX}/share/doc/tcmplex-panteltje
 
