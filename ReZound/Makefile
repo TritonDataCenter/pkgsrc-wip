@@ -22,8 +22,8 @@ USE_TOOLS+=		flex gmake bison pkg-config
 USE_LANGUAGES=		c c++
 USE_PKGLOCALEDIR=	yes
 
-PKG_SUPPORTED_OPTIONS= alsa
-PKG_OPTIONS_VAR=       PKG_OPTIONS.rezound
+PKG_SUPPORTED_OPTIONS=	alsa
+PKG_OPTIONS_VAR=	PKG_OPTIONS.rezound
 
 .include "../../mk/bsd.options.mk"
 

@@ -3,7 +3,7 @@
 
 DISTNAME=		charva-1.1.0
 PKGNAME=		java-charva-1.1.0
-PKGREVISION=	1
+PKGREVISION=		1
 CATEGORIES=		devel
 MASTER_SITES=		http://www.pitman.co.za/projects/download/
 
@@ -11,7 +11,7 @@ MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://www.pitman.co.za/projects/charva/
 COMMENT=		Java Windowing Toolkit for Text Terminals
 
-USE_JAVA=		YES
+USE_JAVA=		yes
 USE_TOOLS+=		gmake
 
 do-build:

@@ -17,7 +17,7 @@ MAKE_FLAGS+=		INST=/${PREFIX:Q}/include/nsd \
 			TCL_CC=gcc
 CFLAGS+=		-I/usr/pkg/include/nsd/include
 
-USE_TOOLS+=         gmake
+USE_TOOLS+=		gmake
 
 .include "../../wip/aolserver4/buildlink3.mk"
 .include "../../security/openssl/buildlink3.mk"

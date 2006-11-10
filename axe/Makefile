@@ -9,7 +9,6 @@ MAINTAINER=	virtus@wanadoo.nl
 HOMEPAGE=	http://www.hardcoders.org/axe/
 COMMENT=	Manipulate contents of Atari 8bit disk image files (.ATR, .XFD)
 
-NO_CONFIGURE=  YES
-
+NO_CONFIGURE=	YES
 
 .include "../../mk/bsd.pkg.mk"
