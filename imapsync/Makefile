@@ -7,7 +7,7 @@ MASTER_SITES=		http://www.linux-france.org/prj/imapsync/dist/
 EXTRACT_SUFX=		.tgz
 
 MAINTAINER=		hallmann@ahatec.de
-HOMEPAGE=		http://www.linux-france.org/prj/imapsync
+HOMEPAGE=		http://www.linux-france.org/prj/imapsync/
 COMMENT=		Slow, memory intensive but great tool to sync and migrate imap servers
 
 NAME=			imapsync

@@ -4,11 +4,11 @@
 DISTNAME=		xbelmark.py
 PKGNAME=		xbelmark-20040924
 CATEGORIES=		textproc www
-MASTER_SITES=		http://www.stud.uni-hamburg.de/users/lennart/projects/xbelmark/
+MASTER_SITES=		http://0pointer.de/lennart/projects/xbelmark/
 EXTRACT_SUFX=		# nothing to extract
 
 MAINTAINER=		pkgsrc-users@NetBSD.org
-HOMEPAGE=		http://www.stud.uni-hamburg.de/users/lennart/projects/xbelmark/
+HOMEPAGE=		http://0pointer.de/lennart/projects/xbelmark/
 COMMENT=		XBEL XML bookmarks to readable HTML converter
 
 DEPENDS=		${PYPKGPREFIX}-expat-[0-9]*:../../textproc/py-expat

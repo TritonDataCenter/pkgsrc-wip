@@ -6,7 +6,7 @@ CATEGORIES=	graphics
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=tesseract-ocr/}
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
-HOMEPAGE=	http://tesseract-ocr.sourceforge.net/
+HOMEPAGE=	http://sourceforge.net/projects/tesseract-ocr
 COMMENT=	Commercial quality open source OCR engine
 
 GNU_CONFIGURE=	yes

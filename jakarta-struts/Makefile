@@ -3,10 +3,10 @@
 
 DISTNAME=		jakarta-struts-1.1
 CATEGORIES=		www
-MASTER_SITES=		http://apache.rediris.es/jakarta/struts/binaries/
+MASTER_SITES=		http://archive.apache.org/dist/struts/struts-1.1/
 
 MAINTAINER=		pancake@phreaker.net
-HOMEPAGE=		http://apache.rediris.es/jakarta/struts/binaries/
+HOMEPAGE=		http://archive.apache.org/dist/struts/struts-1.1/
 COMMENT=		struts is struts xD
 
 

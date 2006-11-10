@@ -3,11 +3,11 @@
 
 DISTNAME=		ccid-0.9.3
 CATEGORIES=		security
-MASTER_SITES=		http://alioth.debian.org/download.php/992/
+MASTER_SITES=		http://alioth.debian.org/frs/download.php/992/
 
 MAINTAINER=		evaldo@gardenali.biz
-HOMEPAGE=		http://alioth.debian.org/download.php/992/
-COMMENT=	USB CCID-compliant smartcard/token driver for pcsc-lite
+HOMEPAGE=		http://alioth.debian.org/frs/download.php/992/
+COMMENT=		USB CCID-compliant smartcard/token driver for pcsc-lite
 
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
