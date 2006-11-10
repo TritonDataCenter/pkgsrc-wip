@@ -11,6 +11,7 @@ COMMENT=	Handwriting recognition (like graffiti)
 
 USE_IMAKE=		YES
 NO_INSTALL_MANPAGES=	YES
+BROKEN=		distfile is not available from master site
 
 post-configure:
 	cd ${WRKSRC} && ${MAKE_PROGRAM} clean
