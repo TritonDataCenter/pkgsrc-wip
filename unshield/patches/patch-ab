@@ -1,6 +1,6 @@
 $NetBSD$
 
---- lib/libunshield.c.orig	2005-11-14 23:45:57.000000000 +0000
+--- lib/libunshield.c.orig	2004-08-24 07:10:27.000000000 +0100
 +++ lib/libunshield.c
 @@ -27,7 +27,7 @@ static bool unshield_create_filename_pat
  
