@@ -4,7 +4,7 @@
 DISTNAME=		itext-1.3
 PKGNAME=		java-itext-1.3
 CATEGORIES=		textproc
-MASTER_SITES=		http://${MASTER_SITE_SOURCEFORGE:=itext/}
+MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=itext/
 EXTRACT_SUFX=		.jar
 
 MAINTAINER=		pancake@phreaker.net

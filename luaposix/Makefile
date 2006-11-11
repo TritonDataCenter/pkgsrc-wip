@@ -3,7 +3,6 @@
 
 DISTNAME=		lposix
 PKGNAME=		luaposix-1.0
-WRKSRC=			${WRKDIR}/posix/
 CATEGORIES=		devel
 MASTER_SITES=		http://www.tecgraf.puc-rio.br/~lhf/ftp/lua/
 
@@ -12,6 +11,7 @@ HOMEPAGE=		http://www.tecgraf.puc-rio.br/~lhf/ftp/lua/
 COMMENT=		POSIX library for Lua
 
 USE_TOOLS+=		gmake
+WRKSRC=			${WRKDIR}/posix/
 
 do-install:
 	${INSTALL_DATA} ${WRKSRC}/lposix.so ${PREFIX}/lib/libluaposix.so

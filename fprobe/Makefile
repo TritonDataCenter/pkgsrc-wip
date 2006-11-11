@@ -8,7 +8,7 @@ EXTRACT_SUFX=		.tar.bz2
 
 MAINTAINER=		cg@cgall.de
 HOMEPAGE=		http://fprobe.sourceforge.net/
-COMMENT=		collect network traffic data and emit it as NetFlow flows
+COMMENT=		Collect network traffic data and emit it as NetFlow flows
 
 GNU_CONFIGURE=		yes
 

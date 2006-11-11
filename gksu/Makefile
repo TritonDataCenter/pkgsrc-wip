@@ -7,7 +7,7 @@ MASTER_SITES=		http://people.debian.org/~kov/gksu/gksu/
 
 MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://www.nongnu.org/gksu/
-COMMENT=		An authorization dialog library
+COMMENT=		Authorization dialog library
 
 USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=		yes

@@ -7,10 +7,10 @@ CATEGORIES=		wip security
 MASTER_SITES=		http://www.blackops.cn/tools/
 
 MAINTAINER=		pancake@phreaker.net
-HOMEPAGE=		http://www.blackops.cn/tools/
+HOMEPAGE=		http://www.blackops.cn/tools/\#tools
 COMMENT=		Scan for hidden bluetooth devices
 
-WRKSRC=		${WRKDIR}/redfang-2.5
+WRKSRC=			${WRKDIR}/${PKGNAME_NOREV}
 USE_TOOLS+=		pkg-config
 
 do-install:

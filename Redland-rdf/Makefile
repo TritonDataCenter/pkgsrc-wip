@@ -11,6 +11,7 @@ HOMEPAGE=		http://download.librdf.org/source/
 COMMENT=		Library for RDF in C, Java, Perl, PHP, Python, Ruby and Tcl
 
 GNU_CONFIGURE=		YES
+USE_LIBTOOL=		yes
 
 CONFIGURE_ARGS+=	--with-perl=yes
 CONFIGURE_ARGS+=	--with-python=yes

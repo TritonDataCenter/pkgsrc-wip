@@ -22,7 +22,7 @@ do-install:
 .include "../../devel/ncurses/buildlink3.mk"
 .include "../../mk/dlopen.buildlink3.mk"
 LIBS+=		${BUILDLINK_LDADD.dl}
-MAKE_ENV+=	LIBS=${LIBS:M*:Q}
+MAKE_ENV+=	LIBS=${LIBS:Q}
 # not automatically added by ../../mk/dlopen.builtin.mk
 .include "../../mk/pthread.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

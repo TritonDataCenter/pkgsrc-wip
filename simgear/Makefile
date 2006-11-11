@@ -12,6 +12,7 @@ COMMENT=		Simulator Construction Tools
 
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
+USE_LANGUAGES=		c c++
 
 .include "../../devel/zlib/buildlink3.mk"
 .include "../../games/plib/buildlink3.mk"

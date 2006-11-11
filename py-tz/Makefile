@@ -9,7 +9,7 @@ EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	milos.negovanovic@googlemail.com
 HOMEPAGE=	http://pytz.sourceforge.net/
-COMMENT=	pytz brings the Olson tz database into Python
+COMMENT=	Python interface to Olson tz database
 
 PYDISTUTILSPKG=			yes
 PYTHON_VERSIONS_ACCEPTED=	24 23

@@ -6,7 +6,7 @@ CATEGORIES=	security
 # XXX: MASTER_SITES=	http://www.anzen.com/research/nidsbench/
 MASTER_SITES=	ftp://ftp.freebsd.org/pub/FreeBSD/ports/distfiles/
 
-MAINTAINER=	packages@NetBSD.org
+MAINTAINER=	pkgsrc-users@NetBSD.org
 # XXX: HOMEPAGE=	http://www.anzen.com/research/nidsbench/
 COMMENT=	Tool for testing network IDS implementations
 

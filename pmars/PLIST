@@ -1,6 +1,5 @@
 @comment $NetBSD$
 bin/pmars
-man/man6
 share/pmars/CONTRIB
 share/pmars/README
 share/pmars/warriors/aeka.red
@@ -10,4 +9,3 @@ share/pmars/warriors/rave.red
 share/pmars/warriors/validate.red
 @dirrm share/pmars/warriors
 @dirrm share/pmars
-@dirrm man/man6

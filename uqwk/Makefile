@@ -19,7 +19,7 @@ INSTALLATION_DIRS=	bin ${PKGMANDIR}/man1
 SUBST_CLASSES+=		 regex_h
 SUBST_STAGE.regex_h=	post-patch
 SUBST_FILES.regex_h=	score.c
-SUBST_SED.regex_h=	-e "s,<regex\.h>,<nbcompat/regex.h>,"
+SUBST_SED.regex_h=	-e "s,<regex\\.h>,<nbcompat/regex.h>,"
 .endif
 
 .include "../../mk/bsd.pkg.mk"

@@ -15,7 +15,7 @@ NOT_FOR_PLATFORM=	NetBSD-*-*
 
 do-build:
 	cd ${WRKSRC}/src &&\
-	${GMAKE} -f Rules.make VCHE_NC=1
+	gmake -f Rules.make VCHE_NC=1
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/src/vche-nc ${PREFIX}/bin/vche

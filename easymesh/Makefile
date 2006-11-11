@@ -15,7 +15,7 @@ NO_CONFIGURE=	YES
 INSTALLATION_DIRS=	bin
 
 do-extract:
-		${CP} ${DISTDIR}/easymesh_1_4.c ${WRKSRC}
+		cp ${DISTDIR}/easymesh_1_4.c ${WRKSRC}
 do-build:
 		cd ${WRKSRC} && ${CC} ${CPPFLAGS} ${CFLAGS} easymesh_1_4.c -o easymesh ${LDFLAGS} -lm
 

@@ -19,7 +19,7 @@ BUILD_TARGET=		cdogs
 USE_TOOLS+=		gmake
 
 post-extract:
-	${MV} ${WRKDIR}/cdogs-data-2006-08-16 ${WRKDIR}/${DISTNAME}/data
+	mv ${WRKDIR}/cdogs-data-2006-08-16 ${WRKDIR}/${DISTNAME}/data
 
 .include "../../audio/SDL_mixer/buildlink3.mk"
 .include "../../devel/SDL/buildlink3.mk"

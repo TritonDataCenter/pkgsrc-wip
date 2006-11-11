@@ -7,7 +7,7 @@ MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=jpgtn/}
 
 MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://jpgtn.sourceforge.net/
-COMMENT=		A thumbnail generator for JPEG images
+COMMENT=		Thumbnail generator for JPEG images
 
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes

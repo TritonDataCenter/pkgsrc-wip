@@ -13,7 +13,7 @@ COMMENT=		Port of SmallC/i386 compiler
 ONLY_FOR_PLATFORM=	*-*-i386
 
 do-build:
-	cd ${WRKSRC}/ && ${SH} ./build
+	cd ${WRKSRC}/ && sh ./build
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/src/scc ${PREFIX}/bin/scc
