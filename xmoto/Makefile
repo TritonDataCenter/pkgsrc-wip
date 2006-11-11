@@ -31,11 +31,6 @@ BROKEN_GETTEXT_DETECTION=     yes
 CONFIGURE_ENV+=         INTLLIBS="-lintl"
 .endif
 
-# man(6) aren't installed.
-#do-install:
-#	${INSTALL_MAN} ${WRKSRC}/xmoto.6.gz ${PREFIX}/man/man6
-#	${INSTALL_MAN} ${WRKSRC}/xmoto-edit.6.gz ${PREFIX}/man/man6
-
 .include "../../devel/gettext-lib/buildlink3.mk"
 .include "../../graphics/aalib/buildlink3.mk"
 .include "../../www/curl/buildlink3.mk"
@@ -54,5 +49,6 @@ CONFIGURE_ENV+=         INTLLIBS="-lintl"
 .include "../../graphics/png/buildlink3.mk"
 .include "../../graphics/jpeg/buildlink3.mk"
 .include "../../lang/gcc34/buildlink3.mk"
+.include "../../devel/zlib/buildlink3.mk"
 
 .include "../../mk/bsd.pkg.mk"
