@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=		sic-0.5
+DISTNAME=		sic-0.6
 CATEGORIES=		chat
 MASTER_SITES=		http://suckless.org/download/
 
