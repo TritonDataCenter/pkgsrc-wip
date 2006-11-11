@@ -12,11 +12,10 @@ MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://www.openquicktime.org/
 COMMENT=		Small OpenQuickTime (TM) player, using SDL
 
-
 WRKSRC=			${WRKDIR}/OQTPlayer-0.5
+INSTALLATION_DIRS+=	share/oqtplayer
 
 do-install:
-	${INSTALL_DATA_DIR} ${PREFIX}/share/oqtplayer
 	${INSTALL_PROGRAM} ${WRKSRC}/oqtplayer ${PREFIX}/bin/
 	${INSTALL_DATA} ${WRKSRC}/readme ${PREFIX}/share/oqtplayer/
 

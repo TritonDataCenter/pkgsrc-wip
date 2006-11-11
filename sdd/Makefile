@@ -10,7 +10,6 @@ HOMEPAGE=		http://directory.fsf.org/All_Packages_in_Directory/sdd.html
 COMMENT=		Replacement for 'dd'
 
 USE_PKGLOCALEDIR=	yes
-USE_CONFIGURE=		no
 USE_TOOLS+=		gmake
 MAKEFLAGS+=		INS_BASE=${PREFIX}/
 

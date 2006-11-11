@@ -15,6 +15,7 @@ COMMENT=	Dynamically loadable codecs for XAnim
 DIST_SUBDIR=	xanim
 NO_BUILD=	YES
 WRKSRC=		${WRKDIR}
+INSTALLATION_DIRS+=	lib/xanim share/doc/xanim
 ONLY_FOR_PLATFORM=	*-*-i386 # *-*-alpha *-*-powerpc *-*-sparc *-*-sgimips
 
 .include "Makefile.codecs"
@@ -25,9 +26,7 @@ PLIST_SRC+=	PLIST.${MACHINE_ARCH}
 BUILD_DEFS+=	XANIM_DLL_CODECS
 
 do-install:
-	${INSTALL_DATA_DIR} ${PREFIX}/share/doc/xanim
 	${INSTALL_DATA} ${WRKSRC}/*.readme ${PREFIX}/share/doc/xanim
 	${INSTALL_DATA_DIR} ${PREFIX}/lib/xanim
-	${INSTALL_DATA} ${WRKSRC}/*.xa ${PREFIX}/lib/xanim
 
 .include "../../mk/bsd.pkg.mk"
