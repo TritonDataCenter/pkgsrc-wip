@@ -20,6 +20,12 @@ INSTALLATION_DIRS=	include/ode lib
 
 CONFIGURE_ARGS+=	--enable-double-precision
 
+.include "../../mk/bsd.prefs.mk"
+
+.if ${MACHINEÃ_ARCH} == "x86_64"
+CFLAGS+= -fPIC
+.endif
+
 ## TODO: Install needs to be corrected.
 #do-install:
 #	${INSTALL_DATA} ${WRKSRC}/include/ode/*.h ${PREFIX}/include/ode
