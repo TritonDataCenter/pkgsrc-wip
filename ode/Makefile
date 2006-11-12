@@ -22,7 +22,7 @@ CONFIGURE_ARGS+=	--enable-double-precision
 
 .include "../../mk/bsd.prefs.mk"
 
-.if ${MACHINEÃ_ARCH} == "x86_64"
+.if ${MACHINE_ARCH} == "x86_64"
 CFLAGS+= -fPIC
 .endif
 
