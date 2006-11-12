@@ -55,7 +55,7 @@ main(int argc, char *argv[])
 	struct stat sb;
 	size_t len;
 	int ch, mib[2];
-	char *p, *std, path[MAXPATHLEN];
+	char *p, *std=NULL, path[MAXPATHLEN];
 	const char *t;
 	int which;
 	int useenvpath, found = 0;
