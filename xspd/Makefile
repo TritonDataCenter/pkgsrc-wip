@@ -9,6 +9,8 @@ USE_TOOLS+=		gmake awk ar echo mkdir cp sed
 USE_LANGUAGES+=		c
 MAKE_ENV+=		CFLAGSX="-march=i386 -m$(BITMODE) -g -O -DFD_SETSIZE=1024"
 MAKE_ENV+=		CLDFLAGS="-lcrypt -mpcu=i386 -m${BITMODE}"
+MAKE_ENV+=		AWK="awk"
+MAKE_ENV+=		AR="ar"
 WRKSRC=			${WRKDIR}/${XSPSYS}
 
 # The build dir.
