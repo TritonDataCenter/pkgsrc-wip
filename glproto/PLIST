@@ -1,9 +1,0 @@
-@comment $NetBSD$
-include/GL/glxint.h
-include/GL/glxmd.h
-include/GL/glxproto.h
-include/GL/glxtokens.h
-include/GL/internal/glcore.h
-lib/pkgconfig/glproto.pc
-@dirrm include/GL/internal
-@dirrm include/GL
