@@ -10,7 +10,7 @@ DISTFILES=	moregroupware-core-0.7.2${EXTRACT_SUFX} \
 		moregroupware-scripts-0.7.2${EXTRACT_SUFX} \
 
 MAINTAINER=	pih@xbase.dk
-HOMEPAGE=	http://mgw.k-fish.de/
+HOMEPAGE=	http://www.moregroupware.de/
 COMMENT=	Web based GroupWare system
 
 DEPENDS+=	php4-curl>=4.3.4:../../www/php-curl

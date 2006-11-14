@@ -3,10 +3,10 @@
 
 DISTNAME=		libgksuui1.0-1.0.7
 CATEGORIES=		sysutils
-MASTER_SITES=		http://people.debian.org/~kov/gksu/libgksuui1.0/
+MASTER_SITES=		http://people.debian.org/~kov/gksu/old_stuff/libgksuui1.0/
 
 MAINTAINER=		pancake@phreaker.net
-HOMEPAGE=		http://people.debian.org/~kov/gksu/libgksuui1.0/
+HOMEPAGE=		http://people.debian.org/~kov/gksu/
 COMMENT=		UI Support library for Gksu
 
 USE_PKGLOCALEDIR=	yes

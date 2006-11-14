@@ -7,7 +7,7 @@ CATEGORIES=		databases
 MASTER_SITES=		http://tux4web.de/computer/software/orm/download/
 
 MAINTAINER=		pkgsrc-users@NetBSD.org
-HOMEPAGE=		http://tux4web.de/computer/software/orm
+HOMEPAGE=		http://www.tux4web.de/category/computer-programming/orm/
 COMMENT=		Object-relational membrane for Python
 
 PY_PATCHPLIST=		yes

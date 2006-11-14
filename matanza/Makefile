@@ -6,7 +6,7 @@ CATEGORIES=		games
 MASTER_SITES=		http://bachue.com/matanza/
 
 MAINTAINER=		pancake@phreaker.net
-HOMEPAGE=		http://freshmeat.net/redir/matanza/6227/url_tgz/
+HOMEPAGE=		http://bachue.com/matanza/
 COMMENT=		Multiplayer space shooter ascii-art game
 
 USE_PKGLOCALEDIR=	yes

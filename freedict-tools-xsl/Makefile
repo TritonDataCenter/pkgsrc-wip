@@ -8,7 +8,7 @@ MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=freedict/}
 EXTRACT_SUFX=	.rpm
 
 MAINTAINER=	cheusov@tut.by
-HOMEPAGE=	http://www.freedict.de/
+HOMEPAGE=	http://www.freedict.org/
 COMMENT=	XSL files from FreeDict tools
 
 USE_TOOLS+=	install pax #rpm2cpio cpio

@@ -7,7 +7,7 @@ CATEGORIES=		textproc
 MASTER_SITES=		http://multisync.sourceforge.net/files/
 
 MAINTAINER=		ola@mrEriksson.net
-HOMEPAGE=		http://libwbxml.aymerick.com/
+HOMEPAGE=		http://libwbxml.aymerick.com:8080/
 COMMENT=		Library to handle WBXML (Patched for MultiSync)
 
 WRKSRC=		${WRKDIR}/wbxml2-0.9.0

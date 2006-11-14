@@ -6,7 +6,7 @@ CATEGORIES=		sysutils
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=sleuthkit/}
 
 MAINTAINER=		pancake@phreaker.net
-HOMEPAGE=		http://sleuthkit.sourceforge.net/
+HOMEPAGE=		http://www.sleuthkit.org/
 COMMENT=		OpenSource Forensic Toolkit
 
 USE_LANGUAGES=		c c++

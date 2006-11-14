@@ -6,7 +6,7 @@ CATEGORIES=		wip
 MASTER_SITES=		http://bluez.sourceforge.net/download/
 
 MAINTAINER=		pancake@phreaker.net
-HOMEPAGE=		http://bluez.sourceforge.net/download/
+HOMEPAGE=		http://bluez.sourceforge.net/
 COMMENT=		BlueZ helpers for Gnome
 USE_LANGUAGES=	c
 USE_PERL=	YES
