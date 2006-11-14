@@ -1,5 +1,0 @@
-@comment $NetBSD$
-bin/unshield
-include/libunshield.h
-lib/libunshield.la
-share/aclocal/unshield.m4
