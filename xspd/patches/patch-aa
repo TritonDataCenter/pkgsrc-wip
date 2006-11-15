@@ -171,18 +171,15 @@ $NetBSD$
  	$(XHTMLPP) \
  		-d1 '<%' -d2 '%>' \
  		-c $(BIT7) -O -zz $$OUTP \
-@@ -513,17 +468,17 @@ CDOC_CORE_FILES=\
- 
+@@ -514,16 +469,15 @@ CDOC_CORE_FILES=\
  ### targets ###
  
--install: \
+ install: \
 -	mkdirs \
 -	$(CVSMAKEFILE) mkcvs \
 -	all \
 -	helpdoc \
-+install:
-+	echo crap
-+	mkinstalldirs \
++	installdirs \
  	$(CONFIGFILE) \
  	installadmin \
  	installapputil \
@@ -197,7 +194,7 @@ $NetBSD$
  	@cp $(EXEDIR)/xspd $(INSTALLDIR)/xspd
  	@test $(NOREADYMSG) -eq 1 || echo "$(BELL)	--- install `basename \`pwd\`` ready ---"
  
-@@ -554,15 +509,17 @@ installapputil: \
+@@ -554,15 +508,17 @@ installapputil: \
  
  ################################################################################
  
@@ -218,7 +215,7 @@ $NetBSD$
  ################################################################################
  
  helpdoc: \
-@@ -758,9 +715,15 @@ mkdirs:
+@@ -758,10 +714,16 @@ mkdirs:
  	    $(DISTRDIR) \
  	    $(INTERNETDIR) \
  	    $(DOCDIR) \
@@ -226,16 +223,17 @@ $NetBSD$
 +	
 +################################################################################
 +
-+mkinstalldirs:
-+	-mkdir -p \
++installdirs:
++	-@mkdir -p \
  	    $(INSTALLDIR) \
  	    $(XSPDIR) \
 -	    $(APPUTILDIR) \
-+	    #$(APPUTILDIR) \
  	    2>/dev/null
++	    #$(APPUTILDIR) \
  	
  ################################################################################
-@@ -1389,7 +1352,7 @@ $(EXEDIR)/xspappscript: $(LIBCMN) \
+ 
+@@ -1389,7 +1351,7 @@ $(EXEDIR)/xspappscript: $(LIBCMN) \
  		-o $@  $(OBJDIR)/`basename $@ | sed -e 's/\..*//'`.o \
  		$(CLIBS) \
  		$(LIBCMN)
@@ -244,7 +242,7 @@ $NetBSD$
  	
  ################################################################################
  
-@@ -1656,8 +1619,8 @@ $(CONFIGFILE): $(ETCDIR)/xspd.conf_distr
+@@ -1656,8 +1618,8 @@ $(CONFIGFILE): $(ETCDIR)/xspd.conf_distr
  
  ### for backup only ###
  

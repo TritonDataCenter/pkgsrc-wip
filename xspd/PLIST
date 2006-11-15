@@ -1,1 +1,6 @@
 @comment $NetBSD$
+bin/xspd
+share/xspd/xspanalyze
+share/xspd/xspdAdmin.xsp
+share/xspd/xspfwd
+@dirrm share/xspd

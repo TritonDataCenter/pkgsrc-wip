@@ -20,9 +20,6 @@ MAKE_ENV+=		INSTALLDIR="${PREFIX}/bin/xspsys"
 
 .include "options.mk"
 
-do-install:
-	@${DO_NADA}
-
 post-extract:
 	${RM} ${WRKDIR}/xspdinstall ${WRKDIR}/xspapp_* ${WRKDIR}/xspjava_* ${WRKDIR}/xspjsys_* ${WRKDIR}/xspjsysdoc_* ${WRKDIR}/xspsysdoc_*
 	${MKDIR} ${WRKSRC}
