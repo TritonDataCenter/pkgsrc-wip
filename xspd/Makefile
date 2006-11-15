@@ -17,6 +17,12 @@ WRKSRC=			${WRKDIR}/${XSPSYS}
 MAKE_ENV+=		TARGETDIR="${WRKSRC}"
 # The install dir.
 MAKE_ENV+=		INSTALLDIR="${PREFIX}/bin/xspsys"
+# Directory for xspd program
+MAKE_ENV+=		PGMROOT="${PREFIX}/bin"
+# Directory for xsp program files for xspd
+MAKE_ENV+=		XSPROOT="${PREFIX}/share/xspd"
+
+
 
 .include "options.mk"
 
