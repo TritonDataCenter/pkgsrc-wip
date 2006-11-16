@@ -5,7 +5,7 @@ PKGNAME=		xmoto-0.2.2
 CATEGORIES=		games
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=xmoto/}
 
-MAINTAINER=		kh.p@no-log.org
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://xmoto.sourceforge.net/
 COMMENT=		2D motocross plateform game
 
