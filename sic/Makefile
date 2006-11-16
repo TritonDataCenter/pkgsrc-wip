@@ -5,7 +5,7 @@ CATEGORIES=		chat
 MASTER_SITES=		http://suckless.org/download/
 
 
-MAINTAINER=		kh.p@no-log.org
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://irc.suckless.org/
 COMMENT=		Simple IRC client
 

@@ -4,7 +4,7 @@ DISTNAME=		slock-0.3
 CATEGORIES=		x11
 MASTER_SITES=		http://suckless.org/download/
 
-MAINTAINER=		kh.p@no-log.org
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://tools.suckless.org/
 COMMENT=		Simple screen locker
 

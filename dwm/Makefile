@@ -4,7 +4,7 @@ DISTNAME=		dwm-2.1
 CATEGORIES=		wm
 MASTER_SITES=		http://suckless.org/download/
 
-MAINTAINER=		kh.p@no-log.org
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://dwm.suckless.org/
 COMMENT=		Dynamic window manager
 
