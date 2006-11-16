@@ -1,0 +1,2 @@
+@comment $NetBSD$
+pike/${PIKE_VERSION}/lib/modules/Pipe.so
