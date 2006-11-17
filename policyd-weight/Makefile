@@ -11,8 +11,6 @@ COMMENT=		Weighted policy daemon for postfix
 
 DEPENDS+=		p5-Net-DNS>=0.58:../../net/p5-Net-DNS
 
-.include "../../mk/bsd.prefs.mk"
-
 USE_TOOLS+=             perl:run
 USE_LANGUAGES=		# none
 REPLACE_PERL+=		policyd-weight
