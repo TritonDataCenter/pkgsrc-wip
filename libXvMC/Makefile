@@ -16,10 +16,10 @@ GNU_CONFIGURE=		yes
 
 PKGCONFIG_OVERRIDE+=	xvmc.pc.in
 
-.include "../../wip/libX11/buildlink3.mk"
-.include "../../wip/libXext/buildlink3.mk"
-.include "../../wip/libXv/buildlink3.mk"
-.include "../../wip/videoproto/buildlink3.mk"
+.include "../../x11/libX11/buildlink3.mk"
+.include "../../x11/libXext/buildlink3.mk"
+.include "../../x11/libXv/buildlink3.mk"
+.include "../../x11/videoproto/buildlink3.mk"
 .include "../../x11/xextproto/buildlink3.mk"
 
 .include "../../mk/bsd.pkg.mk"

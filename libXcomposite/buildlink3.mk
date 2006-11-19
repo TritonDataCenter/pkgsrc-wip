@@ -18,8 +18,8 @@ BUILDLINK_PKGSRCDIR.libXcomposite?=	../../wip/libXcomposite
 
 .include "../../x11/compositeproto/buildlink3.mk"
 .include "../../x11/fixesproto/buildlink3.mk"
-.include "../../wip/libX11/buildlink3.mk"
-.include "../../wip/libXext/buildlink3.mk"
-.include "../../wip/libXfixes/buildlink3.mk"
+.include "../../x11/libX11/buildlink3.mk"
+.include "../../x11/libXext/buildlink3.mk"
+.include "../../x11/libXfixes/buildlink3.mk"
 
 BUILDLINK_DEPTH:=		${BUILDLINK_DEPTH:S/+$//}
