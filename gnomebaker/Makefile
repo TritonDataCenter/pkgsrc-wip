@@ -22,7 +22,6 @@ DEPENDS+=	libgnomeui>=2.8.1:../../devel/libgnomeui
 .include "../../devel/glib2/buildlink3.mk"
 .include "../../devel/libglade2/buildlink3.mk"
 .include "../../multimedia/gstreamer0.8/buildlink3.mk"
-.include "../../textproc/intltool/buildlink3.mk"
 .include "../../mk/x11.buildlink3.mk"
 
 .include "../../mk/bsd.pkg.mk"
