@@ -1,6 +1,6 @@
 @comment $NetBSD$
 bin/xspd
-etc/xspd.conf
+etc/xspd/xspd.conf
 include/xspd/clktck.h
 include/xspd/const.h
 include/xspd/dbg.h
@@ -24,9 +24,12 @@ include/xspd/xsperrno.h
 include/xspd/xspmacros.h
 lib/xspd/libcommon.a
 lib/xspd/libxspd.a
+share/examples/xspd/xspd.conf
 share/xspd/xspanalyze
 share/xspd/xspdAdmin.xsp
 share/xspd/xspfwd
 @dirrm share/xspd
+@dirrm share/examples/xspd
 @dirrm lib/xspd
 @dirrm include/xspd
+@dirrm etc/xspd
