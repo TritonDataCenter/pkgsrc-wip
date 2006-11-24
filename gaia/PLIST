@@ -1,0 +1,5 @@
+@comment $NetBSD$
+bin/gaia
+share/gaia/data/font.png
+@dirrm share/gaia/data
+@dirrm share/gaia
