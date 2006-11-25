@@ -3,10 +3,10 @@
 
 DISTNAME=	igal-1.4
 CATEGORIES=	www graphics
-MASTER_SITES=	http://www.stanford.edu/~epop/igal/
+MASTER_SITES=	http://nanoheat.stanford.edu/epop/igal/
 
 MAINTAINER=	drue@users.sf.net
-HOMEPAGE=	http://www.stanford.edu/~epop/igal/
+HOMEPAGE=	http://nanoheat.stanford.edu/epop/igal/
 COMMENT=	Online image gallery generator
 
 DEPENDS+=	ImageMagick>=5.0:../../graphics/ImageMagick

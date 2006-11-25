@@ -15,7 +15,7 @@ WRKSRC=			${WRKDIR}/gdal-grass-1.3.1
 GNU_CONFIGURE=		yes
 CONFIGURE_ARGS+=	--with-gdal=${LOCALBASE}/bin/gdal-config
 CONFIGURE_ARGS+=	--with-grass=${GRASS_HOME}
-USE_LANGUAGES+=		c++
+USE_LANGUAGES=		c++
 BUILD_TARGET=		default
 
 BUILDLINK_PASSTHRU_RPATHDIRS+=    ${GRASS_HOME}/lib

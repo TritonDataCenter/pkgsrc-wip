@@ -13,6 +13,7 @@ HOMEPAGE=		http://www.geocities.com/anil_rvce/kpanta.html
 COMMENT=		AntiChess - like ordinary chess, but the objective is to loose pieces
 
 GNU_CONFIGURE=		yes
+USE_LANGUAGES=		c c++
 
 # propably ${TAR} options include extraction to a specified dir
 # look it up in man :)

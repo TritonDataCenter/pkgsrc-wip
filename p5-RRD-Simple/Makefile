@@ -5,12 +5,12 @@ PKGNAME=	p5-${DISTNAME}
 CATEGORIES=	perl5 databases
 MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=../by-authors/id/N/NI/NICOLAW/}
 MAINTAINER=	uli@habel.name
-HOMEPAGE=	http://search.cpan.org/dist/RRD-Simple
+HOMEPAGE=	http://search.cpan.org/dist/RRD-Simple/
 COMMENT=	RRD::Simple implementation for Perl
 
 PKG_INSTALLATION_TYPES=	overwrite pkgviews
 
-PERL5_MODULE_TYPE=      Module::Build
+PERL5_MODULE_TYPE=	Module::Build
 PERL5_PACKLIST=		auto/RRD/Simple/.packlist
 MAKE_PARAMS+=		< /dev/null
 

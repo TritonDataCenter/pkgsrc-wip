@@ -1,5 +1,6 @@
 # $NetBSD$
 #
+
 DISTNAME=	geant4.8.1.p01
 PKGNAME=	geant-4.8.1p01
 CATEGORIES=	math
@@ -13,7 +14,7 @@ COMMENT=	Toolkit for the simulation of the passage of particles through matter
 WRKSRC=		${WRKDIR}/${DISTNAME}/source
 MAKE_FILE=	GNUmakefile
 USE_TOOLS+=	gmake
-USE_LANGUAGES+=	c c++
+USE_LANGUAGES=	c c++
 
 BUILD_TARGET=	# empty
 

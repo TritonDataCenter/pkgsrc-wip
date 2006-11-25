@@ -14,7 +14,7 @@ DEPENDS+=		suse_base-${SUSE_VERSION}{,nb*}:../../emulators/suse100_base
 EXTRACT_ONLY=		# empty
 NO_BUILD=		YES
 PLIST_SRC=		${WRKDIR}/PLIST_DYNAMIC
-PLIST_SUBST+=           EMULSUBDIR=${EMULSUBDIR:Q}
+PLIST_SUBST+=		EMULSUBDIR=${EMULSUBDIR:Q}
 
 .if exists(Makefile.${MACHINE_ARCH})
 .include "Makefile.${MACHINE_ARCH}"

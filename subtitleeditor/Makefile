@@ -13,7 +13,7 @@ USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=		yes
 USE_TOOLS+=		pkg-config
 GNU_CONFIGURE=		yes
-USE_LANGUAGES+=		c c++
+USE_LANGUAGES=		c c++
 
 .include "../../devel/libglademm/buildlink3.mk"
 .include "../../devel/pcre/buildlink3.mk"
