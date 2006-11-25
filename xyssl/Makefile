@@ -11,6 +11,6 @@ COMMENT=		SSL minimalist library
 
 NO_CONFIGURE=		yes
 USE_TOOLS+=		gmake
-USE_LANGUAGES+=		c c++
+USE_LANGUAGES=		c c++
 
 .include "../../mk/bsd.pkg.mk"

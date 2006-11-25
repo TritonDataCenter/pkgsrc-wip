@@ -14,7 +14,7 @@ WRKSRC=                 ${WRKDIR}/${PKGNAME_NOREV}
 USE_X11BASE=		yes
 USE_LIBTOOL=		yes
 USE_TOOLS+=		msgfmt autoconf automake gmake pkg-config
-USE_LANGUAGES+=		c c++
+USE_LANGUAGES=		c c++
 
 GNU_CONFIGURE=          yes
 

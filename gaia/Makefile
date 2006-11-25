@@ -11,7 +11,7 @@ HOMEPAGE=		http://gaia.serezhkin.com/
 COMMENT=		Opensource 3D interface to the planet
 
 NO_CONFIGURE=		yes
-USE_LANGUAGES+=		c++
+USE_LANGUAGES=		c++
 
 BUILD_DEPENDS+=		scons>=0.96:../../devel/scons
 

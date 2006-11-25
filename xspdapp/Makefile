@@ -7,7 +7,7 @@
 PKGNAME=		xspdapp-${XSPDVERSION}
 COMMENT=		Sample C programs for xspd
 USE_TOOLS+=		gmake awk echo mkdir cp sed
-USE_LANGUAGES+=		c
+USE_LANGUAGES=		c
 MAKE_ENV+=		CFLAGSX="-march=i386 -m${BITMODE} -g -O -DFD_SETSIZE=1024"
 MAKE_ENV+=		CLDFLAGS="-lcrypt -mpcu=i386 -m${BITMODE}"
 MAKE_ENV+=		AWK="awk"
