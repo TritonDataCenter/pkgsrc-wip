@@ -1,7 +1,7 @@
 # $NetBSD:$
 
 DISTNAME=	rawphoto.c
-PKGNAME=	rawphoto-1.1.5
+PKGNAME=	rawphoto-1.1.15
 CATEGORIES=	graphics
 MASTER_SITES=	http://www.cybercom.net/~dcoffin/dcraw/
 EXTRACT_SUFX=
