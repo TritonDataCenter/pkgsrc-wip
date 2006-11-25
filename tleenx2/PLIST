@@ -1,7 +1,6 @@
 @comment $NetBSD$
 bin/tleenx2
 man/man1/tleenx2.1
-share/tleenx2/pixmaps
 share/tleenx2/pixmaps/archiwum.png
 share/tleenx2/pixmaps/away.png
 share/tleenx2/pixmaps/beback.png
