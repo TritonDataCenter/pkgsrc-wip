@@ -28,5 +28,6 @@ BUILD_DEFS+=	XANIM_DLL_CODECS
 do-install:
 	${INSTALL_DATA} ${WRKSRC}/*.readme ${PREFIX}/share/doc/xanim
 	${INSTALL_DATA_DIR} ${PREFIX}/lib/xanim
+	${INSTALL_DATA} ${WRKSRC}/*.xa ${PREFIX}/lib/xanim
 
 .include "../../mk/bsd.pkg.mk"
