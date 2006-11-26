@@ -1,6 +1,6 @@
 # $NetBSD: Makefile,v 1.103 2006/01/24 07:31:57 wiz Exp $
 
-DISTNAME=	gaim-2.0.0beta3.1
+DISTNAME=	gaim-2.0.0beta5
 CATEGORIES=	chat x11
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=gaim/}
 EXTRACT_SUFX=	.tar.bz2
@@ -41,6 +41,7 @@ CONFIGURE_ARGS+=	--disable-screensaver
 .include "../../converters/libiconv/buildlink3.mk"
 .include "../../devel/gettext-lib/buildlink3.mk"
 .include "../../devel/glib2/buildlink3.mk"
+.include "../../textproc/libxml2/buildlink3.mk"
 .include "../../x11/gtk2/buildlink3.mk"
 .include "../../x11/startup-notification/buildlink3.mk"
 
