@@ -14,6 +14,7 @@ NOT_FOR_PLATFORM=	NetBSD-1.6.2-*
 
 USE_TOOLS+=	gmake
 HAS_CONFIGURE=	yes
+CHECK_PORTABILITY_SKIP=	gcctestsuite.sh
 
 .include "../../mk/bsd.prefs.mk"
 
