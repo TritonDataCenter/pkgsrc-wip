@@ -1606,6 +1606,3 @@ emul/linux/opt/intel_idb_73/man/man1/idb.1
 @dirrm emul/linux/opt/intel_cc_80/doc
 @dirrm emul/linux/opt/intel_cc_80/bin
 @dirrm emul/linux/opt/intel_cc_80
-@dirrm emul/linux/opt
-@dirrm emul/linux/etc
-@dirrm emul/linux
