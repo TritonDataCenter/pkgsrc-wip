@@ -1,9 +1,9 @@
 # $NetBSD$
 #
 
-DISTNAME=		tcptrack-1.1.4
+DISTNAME=		tcptrack-1.1.5
 CATEGORIES=		net
-MASTER_SITES=		http://www.rhythm.cx/~steve/devel/tcptrack/release/1.1.4/source/
+MASTER_SITES=		http://www.rhythm.cx/~steve/devel/tcptrack/release/1.1.5/source/
 
 MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://www.rhythm.cx/~steve/devel/tcptrack/
