@@ -112,7 +112,7 @@ $NetBSD$
 -XSPDIR=$(TARGETDIR)/$(SUBDIR)html/test
 -#						# XSP installation directory
 -APPUTILDIR=$(TARGETDIR)/$(SUBDIR)html/test
-+APPUTILDIR=$(TARGETDIR)
++#APPUTILDIR=$(XSPROOT)/utils
  #						# application utility directory
  
  INCLCOMMON=$(HOMEDIR)/include
