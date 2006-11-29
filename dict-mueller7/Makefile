@@ -12,11 +12,11 @@ MAINTAINER=	cheusov@tut.by
 HOMEPAGE=	http://mueller-dic.chat.ru/
 COMMENT=	DICTD data for English-Russian dictionary by Mueller
 
-DEPENDS+=	dict-server-[0-9]*:../../wip/dict-server
+DEPENDS+=	dict-server>=1.9.14*:../../wip/dict-server
 
-BUILD_DEPENDS+=	dict-server>=1.9.14:../../wip/dict-server
+BUILD_DEPENDS+=	dict-server>=1.10.2:../../wip/dict-server
 BUILD_DEPENDS+=	p5-Unicode-Map8-[0-9]*:../../converters/p5-Unicode-Map8
-BUILD_DEPENDS+=	metamail>=1.10.2:../../mail/metamail
+BUILD_DEPENDS+=	metamail-[0-9]*:../../mail/metamail
 
 # we need GNU fmt
 BUILD_DEPENDS+= coreutils-[0-9]*:../../sysutils/coreutils
