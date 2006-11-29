@@ -14,8 +14,7 @@ MASTER_SITES=	ftp://ftp.am-utils.org/pub/am-utils/ \
                 ftp://core.ring.gr.jp/pub/net/am-utils/ \
                 ftp://ftp.ring.gr.jp/pub/net/am-utils/
 
-# originally packaged by cheusov@tut.by
-MAINTAINER=		pkgsrc-users@NetBSD.org
+MAINTAINER=		cheusov@tut.by
 HOMEPAGE=		http://www.am-utils.org/
 COMMENT=		Berkeley automounter suite of utilities
 
