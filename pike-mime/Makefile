@@ -1,6 +1,6 @@
 # $NetBSD$
 
-PKGNAME=	pike-mime-${PIKE_VERSION}
+PKGNAME=	pike-MIME-${PIKE_VERSION}
 CATEGORIES=	lang
 COMMENT=	MIME module for Pike programming language
 
