@@ -10,9 +10,13 @@ HOMEPAGE=		http://txt2html.sourceforge.net/
 COMMENT=		Plain text to HTML convertor
 
 USE_TOOLS+=		perl:run
+PKG_INSTALLATION_TYPES= overwrite pkgviews
 REPLACE_PERL=		scripts/txt2html
+NO_BUILD=		yes
+
 PERL5_CONFIGURE=	yes
 PERL5_MODULE_TYPE=	Module::Build
+PERL5_PACKLIST=		auto/HTML/TextToHTML/.packlist
 
 DEPENDS+=		p5-Getopt-Long-[0-9]*:../../devel/p5-Getopt-Long
 
