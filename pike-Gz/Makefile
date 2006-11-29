@@ -1,6 +1,6 @@
 # $NetBSD$
 
-PKGNAME=	pike-gz-${PIKE_VERSION}
+PKGNAME=	pike-Gz-${PIKE_VERSION}
 CATEGORIES=	lang
 COMMENT=	Gz module for Pike programming language
 
