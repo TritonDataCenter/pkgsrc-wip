@@ -19,6 +19,7 @@ PERL5_MODULE_TYPE=	Module::Build
 PERL5_PACKLIST=		auto/HTML/TextToHTML/.packlist
 
 DEPENDS+=		p5-Getopt-Long-[0-9]*:../../devel/p5-Getopt-Long
+DEPENDS+=		p5-AppConfig-Std-[0-9]*:../../wip/p5-AppConfig-Std
 
 .include "../../lang/perl5/module.mk"
 .include "../../mk/bsd.pkg.mk"
