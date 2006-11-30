@@ -1,7 +1,7 @@
 # $NetBSD$
 
 DISTNAME=		gtk-gnutella-${GTK_GNUTELLA_VER}
-PKGREVISION=		6
+PKGREVISION=		7
 CATEGORIES=		net
 MASTER_SITES=		# not defined
 
@@ -32,11 +32,6 @@ WRKSRC=			${WRKDIR}/gtk-gnutella
 NO_CHECKSUM=		yes
 
 USE_BUILTIN.gettext=	no
-
-SUBST_CLASSES+=		common_h
-SUBST_STAGE.common_h=	pre-build
-SUBST_FILES.common_h=	src/common.h
-SUBST_SED.common_h=	-e "s|\#include <sys/sysctl\.h>|/\* \#include <sys/sysctl\.h> \*/|g"
 
 distclean:
 	@${DO_NADA}
