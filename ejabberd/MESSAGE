@@ -1,0 +1,13 @@
+===========================================================================
+$NetBSD$
+
+You will need to customize the following files to configure ejabberd for
+local use:
+
+    ${PKG_SYSCONFDIR}/ejabberd.defaults
+    ${PKG_SYSCONFDIR}/ejabberd.inetrc
+    ${PKG_SYSCONFDIR}/ejabberd.cfg
+
+Quick start for ejabberd:
+
+===========================================================================
