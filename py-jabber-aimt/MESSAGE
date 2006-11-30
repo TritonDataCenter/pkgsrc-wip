@@ -24,11 +24,4 @@ Quick start for jabberd2:
 				    (look for <secret>...</secret> in
 				    router.xml)
 
-Additionally, you can use the SASL authentication mechanisms and jabberd2's
-component protocol extensions by updating the following two fields:
-
-	Uncomment <useJ2Compoent/>
-	set <saslUsername>...</saslUsername> to a user defined in
-	jabber2's router-users.xml
-
 ===========================================================================
