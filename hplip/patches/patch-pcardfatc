@@ -1,0 +1,18 @@
+$NetBSD$
+
+$NetBSD$
+
+--- pcard/fat.c.orig	2005-09-09 18:35:11.000000000 -0400
++++ pcard/fat.c
+@@ -27,7 +27,11 @@
+ \*****************************************************************************/
+ 
+ #include <stdlib.h>
++#if (defined( __FreeBSD__) || defined(__NetBSD__))
++#include <inttypes.h>
++#else
+ #include <stdint.h>
++#endif
+ #include <stdio.h>
+ #include <string.h>
+ #include <unistd.h>
