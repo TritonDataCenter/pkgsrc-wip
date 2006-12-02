@@ -1,11 +1,11 @@
 # $NetBSD$
 
-DISTNAME=		autoproject-0.17
+DISTNAME=		autoproject-0.20
 CATEGORIES=		devel
-MASTER_SITES=		http://jrv.oddones.org
+MASTER_SITES=		http://jrv.oddones.org/
 
 MAINTAINER=		pkgsrc-users@NetBSD.org
-HOMEPAGE=		http://jrv.oddones.org
+HOMEPAGE=		http://jrv.oddones.org/
 COMMENT=		Creates a skeleton source package for a new program
 
 DEPENDS+=		autoconf>=2.57:../../devel/autoconf
