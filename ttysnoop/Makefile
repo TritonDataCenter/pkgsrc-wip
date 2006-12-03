@@ -24,4 +24,5 @@ do-install:
 	${INSTALL_DATA_DIR} ${VARBASE}/spool/ttysnoop
 
 ONLY_FOR_PLATFORM=	Linux-*-*
+
 .include "../../mk/bsd.pkg.mk"
