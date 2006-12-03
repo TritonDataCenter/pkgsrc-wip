@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		gdhcpd-0.2.9
+DISTNAME=		gdhcpd-0.3.1
 CATEGORIES=		sysutils
 MASTER_SITES=		http://mange.dynalias.org/linux/gdhcpd/
 
