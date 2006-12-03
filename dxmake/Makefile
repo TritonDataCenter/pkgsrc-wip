@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		dxmake-2.11
+DISTNAME=		dxmake-2.12
 CATEGORIES=		devel
 MASTER_SITES=		http://apollo.backplane.com/FreeBSDPorts/
 
