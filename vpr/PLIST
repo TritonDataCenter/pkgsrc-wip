@@ -1,0 +1,7 @@
+@comment $NetBSD$
+bin/t-vpack
+bin/vpr
+share/doc/vpr/README_430.txt
+share/doc/vpr/manual_430.pdf
+share/doc/vpr/manual_430.ps
+@dirrm share/doc/vpr

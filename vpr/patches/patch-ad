@@ -1,0 +1,7 @@
+$NetBSD$
+
+--- t-vpack/heapsort.h.orig	2000-03-26 14:35:28.000000000 -0500
++++ t-vpack/heapsort.h
+@@ -1 +1 @@
+-void heapsort (int *sort_index, float *sort_values, int nelem); 
++void heapsortv (int *sort_index, float *sort_values, int nelem); 
