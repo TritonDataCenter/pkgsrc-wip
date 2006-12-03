@@ -1,8 +1,8 @@
 # $NetBSD$
 #
 
-DISTNAME=		leo-4-4-final
-PKGNAME=		leo-4.4
+DISTNAME=		leo-4-4-2-1-final
+PKGNAME=		leo-4.4.2.1
 CATEGORIES=		editors
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=leo/}
 EXTRACT_SUFX=		.zip
