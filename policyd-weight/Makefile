@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		policyd-weight-0.1.14
-CATEGORIES=		bwip mail
+CATEGORIES=		mail
 MASTER_SITES=		http://www.policyd-weight.org/releases/
 
 MAINTAINER=		bartosz@atom.eu.org
@@ -11,7 +11,7 @@ COMMENT=		Weighted policy daemon for postfix
 
 DEPENDS+=		p5-Net-DNS>=0.58:../../net/p5-Net-DNS
 
-USE_TOOLS+=             perl:run
+USE_TOOLS+=		perl:run
 USE_LANGUAGES=		# none
 REPLACE_PERL+=		policyd-weight
 
