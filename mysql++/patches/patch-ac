@@ -6,7 +6,7 @@ $NetBSD$
   USA
  ***********************************************************************/
  
-+#define ulong unsigned long
++typedef unsigned long ulong;
  #ifndef MYSQLPP_CONNECTION_H
  #define MYSQLPP_CONNECTION_H
  
