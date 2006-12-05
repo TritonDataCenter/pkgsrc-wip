@@ -22,5 +22,6 @@ do-install:
 		${PREFIX}/${PKGLOCALEDIR}/locale/en_US/LC_MESSAGES/di.po
 	${INSTALL_MAN} ${WRKSRC}/di.1 ${PREFIX}/${PKGMANDIR}/man1
 	${INSTALL_PROGRAM} ${WRKSRC}/di ${PREFIX}/bin
+	${LN} -sf ${PREFIX}/bin/di ${PREFIX}/bin/mi
 
 .include "../../mk/bsd.pkg.mk"

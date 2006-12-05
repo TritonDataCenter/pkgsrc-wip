@@ -1,5 +1,6 @@
 @comment $NetBSD$
 bin/di
+bin/mi
 man/man1/di.1
 share/locale/de_DE/LC_MESSAGES/di.po
 share/locale/en_US/LC_MESSAGES/di.po
