@@ -1,0 +1,16 @@
+$NetBSD$
+
+--- Build.orig	2005-10-29 12:00:42.000000000 -0400
++++ Build
+@@ -4,10 +4,5 @@
+ #
+ 
+-case $SHELL in
+-    *csh)
+-        SHELL=/bin/sh
+-        ;;
+-esac
+-SHELL=${SHELL:-/bin/sh}
++SHELL=/bin/sh
+ export SHELL
+ 
