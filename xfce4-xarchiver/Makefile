@@ -2,7 +2,8 @@
 
 .include "../../wip/xfce4/Makefile.common"
 
-XFCE4_VERSION=	0.4.2rc2
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=xarchiver/}
+XFCE4_VERSION=	0.4.6
 
 DISTNAME=	xarchiver-${XFCE4_VERSION}
 PKGNAME=	xfce4-xarchiver-${XFCE4_VERSION}
