@@ -13,6 +13,7 @@ CONFIGURE_ARGS+=	--with-pam
 
 .if !empty(PKG_OPTIONS:Mldap)
 CONFIGURE_ARGS+=	--with-ldap
+.include "../../databases/openldap-client/buildlink3.mk"
 .endif
 
 .if !empty(PKG_OPTIONS:Mmysql)
