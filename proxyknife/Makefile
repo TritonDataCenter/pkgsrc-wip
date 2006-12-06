@@ -20,4 +20,10 @@ SUBST_STAGE.install=	post-configure
 SUBST_FILES.install=	Makefile doc/Makefile gl/Makefile intl/Makefile po/Makefile scripts/Makefile scripts/Makefile
 SUBST_SED.install=	-e 's,^mkinstalldirs\ =\ \$$(SHELL)\ ,mkinstalldirs\ =\ ,'
 
+.include "../../mk/bsd.prefs.mk"
+.if !empty(LOWER_OPSYS:Mirix5*)
+# needs snprintf
+. include "../../pkgtools/libnbcompat/buildlink3.mk"
+.endif
+.include "../../mk/pthread.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
