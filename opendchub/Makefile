@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		opendchub-0.7.14
+DISTNAME=		opendchub-0.7.15
 CATEGORIES=		net
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=opendchub/}
 
