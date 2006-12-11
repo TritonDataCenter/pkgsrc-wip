@@ -81,6 +81,7 @@ SUBST_FILES.fix-misc-paths+=	prnt/hpijs/hplip_api.h
 SUBST_FILES.fix-misc-paths+=	io/hpiod/hpiod.h
 SUBST_FILES.fix-misc-paths+=	prnt/hpijs/foomatic-rip
 SUBST_SED.fix-misc-paths=	-e 's,/usr/share/cups,${LOCALBASE}/share/cups,g'
+SUBST_SED.fix-misc-paths=	-e 's,/usr/share/application,${LOCALBASE}/share/application,g'
 SUBST_SED.fix-misc-paths+=	-e 's,/usr/lib/cups,${LOCALBASE}/libexec/cups,g'
 SUBST_SED.fix-misc-paths+=	-e 's,/usr/local,${LOCALBASE},g'
 SUBST_SED.fix-misc-paths+=	-e 's,"/etc/hp,"${PKG_SYSCONFDIR},g'
