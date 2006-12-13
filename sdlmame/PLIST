@@ -1,0 +1,6 @@
+@comment $NetBSD$
+@comment bin/chdman
+@comment bin/file2str
+@comment bin/jedutil
+bin/mame
+@comment bin/romcmp
