@@ -2,6 +2,7 @@
 
 DISTNAME=	mod_fcgid.2.0
 PKGNAME=	ap2-fcgid-2.0
+PKGREVISION=	1
 CATEGORIES=	www
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=mod-fcgid/}
 
