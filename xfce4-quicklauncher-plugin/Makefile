@@ -1,6 +1,7 @@
 # $NetBSD$
 
-.include "../../meta-pkgs/xfce4/Makefile.common"
+#.include "../../meta-pkgs/xfce4/Makefile.common"
+.include "../../wip/xfce4/Makefile.common"
 
 XFCE4_VERSION=	1.9.1
 
@@ -13,5 +14,6 @@ COMMENT=	Xfce quicklaunch plugin
 
 USE_TOOLS+=	intltool
 
-.include "../../x11/xfce4-panel/buildlink3.mk"
+#.include "../../x11/xfce4-panel/buildlink3.mk"
+.include "../../wip/xfce4-panel/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
