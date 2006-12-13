@@ -1,5 +1,5 @@
 ===========================================================================
-$NetBSD: MESSAGE,v 1.6 2005/11/01 12:22:24 abs Exp $
+$NetBSD$
 
 1) By default dictd uses '${PATH_TO_M4} -P' for
    preprocessing configuration file. If you dislike this default
