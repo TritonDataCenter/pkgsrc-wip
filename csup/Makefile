@@ -14,8 +14,12 @@ WRKSRC=		${WRKDIR}/csup
 
 INSTALLATION_DIRS=	bin ${PKGMANDIR}/man1
 
+CFLAGS+=    ${PTHREAD_CFLAGS}
+LDFLAGS+=   ${PTHREAD_LDFLAGS} ${PTHREAD_LIBS}
+
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/csup ${PREFIX}/bin
 	${INSTALL_MAN} ${WRKSRC}/csup.1 ${PREFIX}/${PKGMANDIR}/man1/csup.1
 
+.include "../../mk/pthread.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
