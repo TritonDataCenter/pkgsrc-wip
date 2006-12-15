@@ -6,7 +6,7 @@ PKGNAME=		gplbasic-0
 CATEGORIES=		lang
 MASTER_SITES=		http://www.xs4all.nl/~lennartb/
 
-MAINTAINER=		ben@NetBSD.org
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://www.xs4all.nl/~lennartb/basic.html
 COMMENT=		Basic interpreter for Unix
 

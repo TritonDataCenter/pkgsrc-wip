@@ -6,7 +6,7 @@ PKGREVISION=		1
 CATEGORIES=		games
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=scourge/}
 
-MAINTAINER=		ben@NetBSD.org
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://scourge.sourceforge.net/
 COMMENT=		Graphical 3D roguelike, vermin extermination
 

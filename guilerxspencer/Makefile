@@ -5,7 +5,7 @@ DISTNAME=		guilerxspencer-1.2
 CATEGORIES=		devel
 MASTER_SITES=		http://arglist.com/guile/${DISTNAME}/
 
-MAINTAINER=		ben@NetBSD.org
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://arglist.com/guile/
 COMMENT=		Guile bindings for Henry Spencer's regex
 

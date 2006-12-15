@@ -7,7 +7,7 @@ CATEGORIES=		audio
 MASTER_SITES=		http://www.geocities.com/SiliconValley/Software/8918/linux/
 EXTRACT_SUFX=		.tgz
 
-MAINTAINER=		ben@NetBSD.org
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		${MASTER_SITES}
 COMMENT=		Guenthers Midi Compiler, a tool to convert text to midi
 

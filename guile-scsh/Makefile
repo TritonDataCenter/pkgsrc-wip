@@ -5,7 +5,7 @@ DISTNAME=		guile-scsh-2.0.1
 CATEGORIES=		shells
 MASTER_SITES=		http://arglist.com/guile/${DISTNAME}/
 
-MAINTAINER=		ben@NetBSD.org
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://arglist.com/guile/
 COMMENT=		Scheme Shell that runs in Guile
 

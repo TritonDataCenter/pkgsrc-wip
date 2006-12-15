@@ -7,7 +7,7 @@ PKGNAME=	mg-lsh-0.70
 CATEGORIES=	shells
 MASTER_SITES=	${MASTER_SITE_DEBIAN:=pool/main/l/lsh/}
 
-MAINTAINER=	ben@NetBSD.org
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://web.archive.org/web/20020811140533/http://people.cs.uct.ac.za/~mwelz/lsh.html
 COMMENT=	DOS compatible command line interpreter
 

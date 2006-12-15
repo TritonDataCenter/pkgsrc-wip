@@ -7,7 +7,7 @@ CATEGORIES=		audio
 MASTER_SITES=		http://www.saunalahti.fi/grimmel/musepack.net-files/source/
 EXTRACT_SUFX=		.tar.bz2
 
-MAINTAINER=		ben@NetBSD.org
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://www.musepack.net/
 COMMENT=		MPEG-Plus and MusePack decoder
 

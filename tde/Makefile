@@ -6,7 +6,7 @@ MASTER_SITES=		http://www.geocities.com/jadoxa/tde/
 
 PATCH_SITES=		${MASTER_SITES}
 PATCHFILES=		51s1.txt
-MAINTAINER=		ben@NetBSD.org
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		${MASTER_SITES}
 COMMENT=		Thomson-Davis Editor
 

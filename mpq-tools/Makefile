@@ -6,7 +6,7 @@ CATEGORIES=		archivers
 MASTER_SITES=		https://babelize.org/download/
 EXTRACT_SUFX=		.tar.bz2
 
-MAINTAINER=		ben@NetBSD.org
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		https://babelize.org/
 COMMENT=		Tools for manipulating MPQ (MoPaQ) archives
 

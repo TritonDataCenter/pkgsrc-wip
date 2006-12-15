@@ -5,7 +5,7 @@ DISTNAME=		xace-0.4
 CATEGORIES=		emulators
 MASTER_SITES=		http://hem.passagen.se/tiletech/
 
-MAINTAINER=		ben@NetBSD.org
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		${MASTER_SITES}ace.html
 COMMENT=		Jupiter Ace emulator
 

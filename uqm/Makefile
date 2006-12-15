@@ -10,7 +10,7 @@ EXTRACT_SUFX=		.tgz
 DISTFILES=		${DISTNAME}${EXTRACT_SUFX}
 DISTFILES+=		uqm-0.3-content.zip
 
-MAINTAINER=		ben@NetBSD.org
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://sc2.sourceforge.net/
 COMMENT=		Star Control 2
 

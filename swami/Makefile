@@ -5,7 +5,7 @@ DISTNAME=		swami-0.9.2
 CATEGORIES=		audio
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=swami/}
 
-MAINTAINER=		ben@NetBSD.org
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://swami.sourceforge.net/
 COMMENT=		SoundFont2 instrument editor
 
