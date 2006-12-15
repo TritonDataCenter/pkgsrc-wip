@@ -21,8 +21,8 @@ INSTALLATION_DIRS=	${DICTD_DB_DIR}
 
 WRKSRC=		${WRKDIR}/bin
 
-FILES=		freedict_eng-fra.index freedict_eng-fra.dict.dz
 DICTNAME=	freedict_${DICTSRCNAME}
+FILES=		${DICTNAME}.index ${DICTNAME}.dict.dz
 
 do-build:
 	cd ${WRKSRC} && \
