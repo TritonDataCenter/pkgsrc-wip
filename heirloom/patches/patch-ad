@@ -168,7 +168,13 @@ $NetBSD$
  
  #
  # Run ranlib if it is in the current path. This should take care
-@@ -282,7 +284,7 @@ UCBINST = $(ROOT)$(UCBBIN)/install
+@@ -277,12 +279,12 @@ RANLIB=(hash ranlib) >/dev/null 2>&1 || 
+ ########################################################################
+ ########################################################################
+ 
+-UCBINST = $(ROOT)$(UCBBIN)/install
++#UCBINST = $(ROOT)$(UCBBIN)/install
+ 
  ICOMMON = -I../libcommon
  LCOMMON = -L../libcommon -lcommon
  
