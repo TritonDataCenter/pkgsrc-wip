@@ -168,3 +168,13 @@ $NetBSD$
  
  #
  # Run ranlib if it is in the current path. This should take care
+@@ -282,7 +284,7 @@ UCBINST = $(ROOT)$(UCBBIN)/install
+ ICOMMON = -I../libcommon
+ LCOMMON = -L../libcommon -lcommon
+ 
+-IUXRE = -I../libuxre -DUXRE
+-LUXRE = -L../libuxre -luxre
++#IUXRE = -I../libuxre -DUXRE
++#LUXRE = -L../libuxre -luxre
+ 
+ MANINST = $(SHELL) ../build/maninst
