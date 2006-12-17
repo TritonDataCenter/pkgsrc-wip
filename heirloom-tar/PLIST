@@ -1,0 +1,4 @@
+@comment $NetBSD$
+${HLROOT}/etc/default/tar
+${HLROOT}/bin/tar
+${HLROOT}/man/man1/tar.1
