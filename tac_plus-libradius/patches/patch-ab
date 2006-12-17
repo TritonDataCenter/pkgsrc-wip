@@ -27,7 +27,7 @@ $NetBSD$
  #ifdef CONST_SYSERRLIST
  extern const char *const sys_errlist[];
  #else
-+#if !defined(__APPLE__) && !defined(__NetBSD__)
++#if !defined(__APPLE__) && !defined(__NetBSD__) && !defined(__FreeBSD__)
  extern char *sys_errlist[];
  #endif
 -extern int errno;

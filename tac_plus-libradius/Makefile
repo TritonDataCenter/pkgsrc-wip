@@ -20,7 +20,7 @@ GNU_CONFIGURE=	yes
 #USE_TOOLS+=	perl
 BUILD_TARGET=	tac_plus
 
-.if ${OPSYS} == "Darwin" || ${OPSYS} == "NetBSD"
+.if ${OPSYS} == "Darwin" || ${OPSYS} == "NetBSD" || ${OPSYS} == "FreeBSD"
 CPPFLAGS+=	-DNO_PWAGE
 .endif
 
