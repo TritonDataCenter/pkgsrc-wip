@@ -1,0 +1,4 @@
+@comment $NetBSD$
+${HLROOT}/bin/pgrep
+${HLROOT}/bin/pkill
+${HLROOT}/man/man1/pgrep.1

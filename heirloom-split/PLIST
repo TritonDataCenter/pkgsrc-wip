@@ -1,0 +1,3 @@
+@comment $NetBSD$
+${HLROOT}/bin/split
+${HLROOT}/man/man1/split.1

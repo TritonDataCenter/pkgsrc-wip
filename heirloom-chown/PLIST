@@ -1,0 +1,5 @@
+@comment $NetBSD$
+${HLROOT}/bin/chown
+${HLROOT}/man/man1/chown.1
+${HLROOT}/man/man1b/chown.1b
+${HLROOT}/ucb/chown

@@ -1,0 +1,4 @@
+@comment $NetBSD$
+${HLROOT}/bin/hostname
+${HLROOT}/man/man1/hostname.1
+${HLROOT}/ucb/hostname

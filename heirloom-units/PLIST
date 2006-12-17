@@ -1,0 +1,3 @@
+@comment $NetBSD$
+${HLROOT}/bin/units
+${HLROOT}/man/man1/units.1

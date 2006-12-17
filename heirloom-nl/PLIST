@@ -1,0 +1,6 @@
+@comment $NetBSD$
+${HLROOT}/bin/nl
+${HLROOT}/bin/posix/nl
+${HLROOT}/bin/posix2001/nl
+${HLROOT}/bin/s42/nl
+${HLROOT}/man/man1/nl.1

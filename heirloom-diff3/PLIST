@@ -1,0 +1,3 @@
+@comment $NetBSD$
+${HLROOT}/bin/diff3
+${HLROOT}/man/man1/diff3.1

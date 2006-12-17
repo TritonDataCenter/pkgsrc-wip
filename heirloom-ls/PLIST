@@ -1,0 +1,8 @@
+@comment $NetBSD$
+${HLROOT}/bin/ls
+${HLROOT}/bin/posix/ls
+${HLROOT}/bin/posix2001/ls
+${HLROOT}/bin/s42/ls
+${HLROOT}/man/man1/ls.1
+${HLROOT}/man/man1b/ls.1b
+${HLROOT}/ucb/ls

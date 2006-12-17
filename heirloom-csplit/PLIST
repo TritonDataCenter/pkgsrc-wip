@@ -1,0 +1,3 @@
+@comment $NetBSD$
+${HLROOT}/bin/csplit
+${HLROOT}/man/man1/csplit.1

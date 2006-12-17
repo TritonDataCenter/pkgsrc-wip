@@ -1,0 +1,4 @@
+@comment $NetBSD$
+${HLROOT}/bin/printenv
+${HLROOT}/man/man1/printenv.1
+${HLROOT}/ucb/printenv

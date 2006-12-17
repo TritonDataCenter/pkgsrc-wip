@@ -1,0 +1,5 @@
+@comment $NetBSD$
+${HLROOT}/bin/stty
+${HLROOT}/man/man1/stty.1
+${HLROOT}/man/man1b/stty.1b
+${HLROOT}/ucb/stty

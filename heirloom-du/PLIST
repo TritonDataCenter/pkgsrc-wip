@@ -1,0 +1,7 @@
+@comment $NetBSD$
+${HLROOT}/bin/posix/du
+${HLROOT}/bin/posix2001/du
+${HLROOT}/bin/s42/du
+${HLROOT}/man/man1/du.1
+${HLROOT}/man/man1b/du.1b
+${HLROOT}/ucb/du

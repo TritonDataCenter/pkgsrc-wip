@@ -1,0 +1,3 @@
+@comment $NetBSD$
+${HLROOT}/bin/ln
+${HLROOT}/man/man1/ln.1

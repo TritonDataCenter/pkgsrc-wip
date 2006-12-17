@@ -1,0 +1,5 @@
+@comment $NetBSD$
+${HLROOT}/bin/more
+${HLROOT}/bin/s42/more
+${HLROOT}/man/man1/more.1
+${HLROOT}/ucb/more

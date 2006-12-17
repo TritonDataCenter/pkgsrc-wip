@@ -1,0 +1,6 @@
+@comment $NetBSD$
+${HLROOT}/bin/mkdir
+${HLROOT}/bin/posix/mkdir
+${HLROOT}/bin/posix2001/mkdir
+${HLROOT}/bin/s42/mkdir
+${HLROOT}/man/man1/mkdir.1
