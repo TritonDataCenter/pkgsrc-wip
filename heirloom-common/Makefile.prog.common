@@ -10,7 +10,7 @@ COMMENT?=	Collection of standard Unix utilities
 USE_TOOLS+=	yacc lex
 
 MAKE_FILE=		makefile
-HLROOT?=		heirloom-test
+HLROOT?=		heirloom
 PLIST_SUBST+=		HLROOT=${HLROOT}
 
 .include "../../mk/bsd.prefs.mk"

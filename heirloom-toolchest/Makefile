@@ -1,5 +1,11 @@
 # $NetBSD$
 
+NEED_LIBUXRE=		1
+NEED_LIBCRYPT=		1
+NEED_ZLIB=		1
+NEED_BZLIB=		1
+NEED_LIBCURSES=		1
+
 .include "../../wip/heirloom-common/Makefile.prog.common"
 
 PKGNAME=	heirloom-toolchest-${HEIRLOOM_VER}
