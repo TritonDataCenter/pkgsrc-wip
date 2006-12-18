@@ -333,7 +333,6 @@ ${HLROOT}/man/man1/hd.1
 ${HLROOT}/man/man1/head.1
 ${HLROOT}/man/man1/hostname.1
 ${HLROOT}/man/man1/id.1
-${HLROOT}/man/man1/intro.1
 ${HLROOT}/man/man1/join.1
 ${HLROOT}/man/man1/kill.1
 ${HLROOT}/man/man1/lc.1
