@@ -9,8 +9,8 @@ $NetBSD$
 +
 +#ifdef __INTERIX
 +#include	<dirent.h>
-#define d_reclen      d_namlen
-#else
++#define d_reclen      d_namlen
++#else
  #include	<sys/dirent.h>
 +#endif
 +
