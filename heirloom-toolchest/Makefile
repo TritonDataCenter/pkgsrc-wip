@@ -1,6 +1,6 @@
 # $NetBSD$
 
-.include "../../wip/heirloom-dirs/Makefile.prog.common"
+.include "../../wip/heirloom-common/Makefile.prog.common"
 
 PKGNAME=	heirloom-toolchest-${HEIRLOOM_VER}
 

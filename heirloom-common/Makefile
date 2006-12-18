@@ -1,8 +1,8 @@
 # $NetBSD$
 
-.include "../../wip/heirloom-dirs/Makefile.prog.common"
+.include "../../wip/heirloom-common/Makefile.prog.common"
 
-PKGNAME=heirloom-dirs-${HEIRLOOM_VER}
+PKGNAME=heirloom-common-${HEIRLOOM_VER}
 
 NO_BUILD=	yes
 

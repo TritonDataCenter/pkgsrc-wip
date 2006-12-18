@@ -7,5 +7,5 @@ EXTRACT_SUFX=	.tar.bz2
 
 HOMEPAGE=	http://heirloom.sourceforge.net/
 
-PATCHDIR=	${.CURDIR}/../../wip/heirloom-dirs/patches
-DISTINFO_FILE=	${.CURDIR}/../../wip/heirloom-dirs/distinfo
+PATCHDIR=	${.CURDIR}/../../wip/heirloom-common/patches
+DISTINFO_FILE=	${.CURDIR}/../../wip/heirloom-common/distinfo

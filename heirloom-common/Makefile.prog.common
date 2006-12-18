@@ -1,6 +1,6 @@
 # $NetBSD$
 
-.include "../../wip/heirloom-dirs/Makefile.common"
+.include "../../wip/heirloom-common/Makefile.common"
 
 CATEGORIES?=	sysutils
 

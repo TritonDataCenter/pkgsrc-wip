@@ -1,6 +1,6 @@
 # $NetBSD$
 
-.include "../../wip/heirloom-dirs/Makefile.prog2.common"
+.include "../../wip/heirloom-common/Makefile.prog2.common"
 
 PKGNAME=	heirloom-xargs-${HEIRLOOM_VER}
 CATEGORIES=	sysutils

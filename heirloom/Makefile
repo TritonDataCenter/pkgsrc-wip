@@ -63,6 +63,10 @@ pre-build:
 	cd ${WRKSRC} && \
 	${SETENV} ${MAKE_ENV} ${MAKE} ${MAKE_FLAGS} -f makefile makefiles
 
+#pre-install:
+#	cd ${WRKSRC}/build && \
+#	${SETENV} ${MAKE_ENV} ${MAKE} ${MAKE_FLAGS} maninst crossln
+
 post-install:
 	${INSTALL_DATA} ${WRKSRC}/README ${DOC_DIR} && \
 	for i in ${DOC_FILES}; do \

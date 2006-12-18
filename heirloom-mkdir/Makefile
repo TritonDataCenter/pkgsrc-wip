@@ -1,6 +1,6 @@
 # $NetBSD$
 
-.include "../../wip/heirloom-dirs/Makefile.prog2.common"
+.include "../../wip/heirloom-common/Makefile.prog2.common"
 
 PKGNAME=	heirloom-mkdir-${HEIRLOOM_VER}
 CATEGORIES=	textproc
