@@ -1,5 +1,7 @@
 # $NetBSD$
 
+NEED_LIBUXRE=	1
+
 .include "../../wip/heirloom-common/Makefile.prog2.common"
 
 PKGNAME=	heirloom-nl-${HEIRLOOM_VER}
