@@ -1,6 +1,6 @@
 # $NetBSD$
 
-.include "../../wip/heirloom/Makefile.common"
+.include "../../wip/heirloom-dirs/Makefile.common"
 
 PKGNAME=	libuxre-${HEIRLOOM_VER}
 CATEGORIES=	devel
@@ -19,8 +19,8 @@ pre-build:
 DOC_FILES=	NOTES COPYING.LGPL
 DOC_DIR=	${PREFIX}/share/doc/${PKGBASE}
 
-SRCFILES=	onefile    regfree    regerror
-LOFILES=	onefile.lo regfree.lo regerror.lo
+SRCFILES=	onefile    regfree    regerror    btowc
+LOFILES=	onefile.lo regfree.lo regerror.lo btowc.lo
 
 do-build:
 	cd ${WRKSRC}/libuxre || exit 1; \
