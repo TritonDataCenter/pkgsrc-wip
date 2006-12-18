@@ -2,8 +2,8 @@
 
 MOZILLA_BIN=		thunderbird-bin
 MOZ_VER=		2.0${SUB_VER}
-SUB_VER=		alpha1
-DIST_VER=		${MOZ_VER:S/alpha/a/}
+SUB_VER=		beta1
+DIST_VER=		${MOZ_VER:S/beta/b/}
 EXTRACT_SUFX=		.tar.bz2
 DISTNAME=		thunderbird-${DIST_VER}-source
 CATEGORIES=		mail
