@@ -8,6 +8,7 @@ CATEGORIES=	sysutils
 MAINTAINER=	cheusov@tut.by
 COMMENT=	Collection of standard Unix utilities
 
+BUILD_DEPENDS+=	heirloom-common-${HEIRLOOM_VER}:../../wip/heirloom-common
 DEPENDS+=	heirloom-common-${HEIRLOOM_VER}:../../wip/heirloom-common
 
 DOC_FILES=	COPYING COPYING.LGPL \
