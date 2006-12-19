@@ -1,3 +1,4 @@
 @comment $NetBSD$
 ${HLROOT}/bin/whoami
 ${HLROOT}/man/man1/whoami.1
+${HLROOT}/ucb/whoami

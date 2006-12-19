@@ -1,4 +1,5 @@
 @comment $NetBSD$
+${HLROOT}/bin/du
 ${HLROOT}/bin/posix/du
 ${HLROOT}/bin/posix2001/du
 ${HLROOT}/bin/s42/du
