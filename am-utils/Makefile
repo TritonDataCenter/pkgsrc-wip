@@ -23,7 +23,6 @@ GNU_CONFIGURE=		yes
 
 INFO_FILES=		yes
 
-# the following can optionally be enabled
 CONFIGURE_ARGS+=	--without-ldap
 CONFIGURE_ARGS+=	--without-hesiod
 CONFIGURE_ARGS+=	--without-ndbm
