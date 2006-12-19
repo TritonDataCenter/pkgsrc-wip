@@ -10,6 +10,7 @@ MAINTAINER=	jfranz@bsdprojects.net
 HOMEPAGE=	http://www.nicotine-plus.org/
 COMMENT=        Client for the SoulSeek, a peer-to-peer network for music
 
+CONFLICTS=	nicotine-[0-9]*
 WRKSRC=		${WRKDIR}/${DISTNAME}
 USE_LANGUAGES=	# none
 
