@@ -51,7 +51,7 @@ ${TRANSPORTDIR}/src/utils.py
 ${TRANSPORTDIR}/src/xdb.py
 ${TRANSPORTDIR}/src/xmlconfig.py
 bin/PyMSNt
-share/examples/jabberd/pymsnt.xml
+${JABBER_EXDIR}/pymsnt.xml
 share/examples/rc.d/pymsnt
 @dirrm ${TRANSPORTDIR}/src/baseproto
 @dirrm ${TRANSPORTDIR}/src/legacy/msn

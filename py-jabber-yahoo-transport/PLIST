@@ -14,7 +14,7 @@ ${TRANSPORTDIR}/transport.ini
 ${TRANSPORTDIR}/yahoo.py
 ${TRANSPORTDIR}/yahoo_helpers.py
 ${TRANSPORTDIR}/ylib.py
-share/examples/jabberd/yahoo-transport.ini
+${JABBER_EXDIR}/yahoo-transport.ini
 share/examples/rc.d/yahoo-transport
 @dirrm ${TRANSPORTDIR}/curphoo
 @dirrm ${TRANSPORTDIR}

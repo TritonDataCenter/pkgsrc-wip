@@ -94,7 +94,7 @@ ${TRANSPORTDIR}/tools/Makefile
 ${TRANSPORTDIR}/tools/infodump.py
 ${TRANSPORTDIR}/tools/managessi.py
 ${TRANSPORTDIR}/tools/migrate.py
-share/examples/jabberd/pyicqt.xml
+${JABBER_EXDIR}/pyicqt.xml
 share/examples/rc.d/pyicqt
 @dirrm ${TRANSPORTDIR}/tools
 @dirrm ${TRANSPORTDIR}/src/xdb

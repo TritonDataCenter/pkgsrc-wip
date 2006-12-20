@@ -94,7 +94,7 @@ ${TRANSPORTDIR}/tools/Makefile
 ${TRANSPORTDIR}/tools/infodump.py
 ${TRANSPORTDIR}/tools/managessi.py
 ${TRANSPORTDIR}/tools/migrate.py
-share/examples/jabberd/pyaimt.xml
+${JABBER_EXDIR}/pyaimt.xml
 share/examples/rc.d/pyaimt
 @dirrm ${TRANSPORTDIR}/tools
 @dirrm ${TRANSPORTDIR}/src/xdb
