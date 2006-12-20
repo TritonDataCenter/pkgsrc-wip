@@ -12,6 +12,7 @@ COMMENT=        Client for the SoulSeek, a peer-to-peer network for music
 
 CONFLICTS=	nicotine-[0-9]*
 WRKSRC=		${WRKDIR}/${DISTNAME}
+USE_DIRS+=	xdg-1.4
 USE_LANGUAGES=	# none
 
 PYTHON_VERSIONS_ACCEPTED=       24
