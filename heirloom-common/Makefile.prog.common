@@ -22,6 +22,8 @@ LDFLAGS.FreeBSD+=	-lkvm
 LDFLAGS.OpenBSD+=	-lkvm
 LDFLAGS.DragonFly+=	-lkvm
 
+LDFLAGS.SunOS+=		-lsocket
+
 .if "${NEED_LIBCRYPT}" == 1
 LCRYPT=		-lcrypt
 .if ${OPSYS} == "OpenBSD"
