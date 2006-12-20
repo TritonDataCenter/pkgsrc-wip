@@ -1,0 +1,13 @@
+$NetBSD$
+
+--- contrib/grml-muttng.orig	2005-04-29 14:26:53.000000000 +0200
++++ contrib/grml-muttng
+@@ -388,7 +388,7 @@ case $retval in
+ esac
+ 
+ writecolors() {
+-  if [ "$COLOR" == 'light' ] ; then
++  if "$COLOR" == 'light' ; then
+     lightcolors
+   fi
+ }
