@@ -1,2 +1,4 @@
 @comment $NetBSD$
 lib/xmms/General/libxmms_scrobbler.la
+lib/xmms/General/libxmms_scrobbler.so
+lib/xmms/General/libxmms_scrobbler.a
