@@ -63,15 +63,17 @@ post-install:
 #	${FIND} ${PREFIX}/lib/erlang/lib/${DISTNAME} -type f -print0 | ${XARGS} -0 ${CHMOD} ${SHAREMODE}
 #	${FIND} ${PREFIX}/lib/erlang/lib/${DISTNAME} -type f -print0 | ${XARGS} -0 ${CHOWN} ${SHAREOWN}:${SHAREGRP}
 
-	${MKDIR} ${PREFIX}/${DISTNAME}
-	${INSTALL_DATA} ${WRKSRC}/doc/* ${PREFIX}/${DISTNAME}
+	${INSTALL_DATA_DIR} ${PREFIX}/shre/doc/${DISTNAME}
+	${INSTALL_DATA} ${WRKSRC}/doc/* ${PREFIX}/share/doc/${DISTNAME}
+	# don't really need the make file, do we?
+	${RM} ${PREFIX}/share/doc/${DISTNAME}/Makefile
 
 SUBST_CLASSES+=		paths
 SUBST_MESSAGE.paths=	Localizing paths
 SUBST_STAGE.paths=	pre-configure
 SUBST_FILES.paths=	src/Makefile.in
 SUBST_SED.paths+=	-e 's,@PKG_SYSCONFDIR@,${PKG_SYSCONFDIR},g'
-SUBST_SED.paths+=	-e 's,@JABBERD_LOGDIR@,${JABBERD_LOGDIR},g'
+SUBST_SED.paths+=	-e 's,@JABBER_LOGDIR@,${JABBER_LOGDIR},g'
 SUBST_SED.paths+=	-e 's,@DISTNAME@,${DISTNAME},g'
 
 .include "../../converters/libiconv/buildlink3.mk"
