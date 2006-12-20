@@ -1,7 +1,7 @@
 # $NetBSD$
 
-#will became 5.0.0 when ready
-DISTNAME=	ubit-5.0.4
+#DISTNAME=	ubit-5.0.4
+DISTNAME=	ubit-5.4.1
 PKGREVISION=	1
 CATEGORIES=	x11
 
