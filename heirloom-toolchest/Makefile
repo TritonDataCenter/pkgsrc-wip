@@ -1,5 +1,7 @@
 # $NetBSD$
 
+NOT_FOR_PLATFORM+=	Interix-*-*
+
 NEED_LIBUXRE=		1
 NEED_LIBCRYPT=		1
 NEED_ZLIB=		1

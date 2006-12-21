@@ -1,5 +1,7 @@
 # $NetBSD$
 
+NOT_FOR_PLATFORM+=	Interix-*-*
+
 .include "../../wip/heirloom-common/Makefile.prog2.common"
 
 PKGNAME=	heirloom-dd-${HEIRLOOM_VER}
