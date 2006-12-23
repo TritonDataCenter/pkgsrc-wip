@@ -38,8 +38,13 @@ TODAY!=         ${DATE} -u +%Y-%m-%d
 
 .if exists(${DISTDIR}/${DISTNAME}${EXTRACT_SUFX})
 # Fetch the date of the snapshot from file
-DISTDATE!=      tar ztf ${DISTDIR}/${DISTNAME}${EXTRACT_SUFX} \
+.  if ${OPSYS} != "DragonFly"
+DISTDATE!=      tar jtf ${DISTDIR}/${DISTNAME}${EXTRACT_SUFX} \
                 2>/dev/null | head -1 | cut -f 3-5 -d "-";
+.  else
+DISTDATE!=	gtar ytf ${DISTDIR}/${DISTNAME}${EXTRACT_SUFX} \
+		2>/dev/null | head -1 | cut -f 3-5 -d "-";
+.  endif
 .else
 DISTDATE=       ${TODAY}
 .endif
