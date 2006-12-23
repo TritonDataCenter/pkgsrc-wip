@@ -1,5 +1,6 @@
 @comment $NetBSD$
 bin/xspd
+sbin/xhtmlpp
 @comment etc/xspd/xspd.conf
 include/xspd/clktck.h
 include/xspd/const.h
