@@ -68,7 +68,6 @@ FILESDIR=	${.CURDIR}/../../editors/emacs/files
 
 post-extract:
 	${CP} ${FILESDIR}/site-init.el ${WRKSRC}/lisp
-	${CP} ${FILESDIR}/sh3el.h ${WRKSRC}/src/m
 
 .include "../../graphics/xpm/buildlink3.mk"
 .include "../../graphics/jpeg/buildlink3.mk"
