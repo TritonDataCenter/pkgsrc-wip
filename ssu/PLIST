@@ -1,0 +1,5 @@
+@comment $NetBSD$
+bin/ss
+bin/ssserv
+share/doc/ssu/README
+@dirrm share/doc/ssu
