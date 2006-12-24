@@ -1,0 +1,7 @@
+@comment $NetBSD$
+bin/nxclient
+bin/nxesd
+bin/nxkill
+bin/nxprint
+bin/nxservice
+bin/nxssh
