@@ -5,3 +5,6 @@ RMD160 (fnord-1.10.tar.bz2) = 100432729d24c49adb869dea6dcdf916e8c780d3
 Size (fnord-1.10.tar.bz2) = 33408 bytes
 SHA1 (patch-aa) = 4f03e85dec692d412bf382c220cb4f32145f0470
 SHA1 (patch-ab) = b8d0f1a0aed532ca73c97fe1d45fc3be23907247
+SHA1 (patch-ac) = 785909c54bae847e55e344dc255429d3182ebc06
+SHA1 (patch-ad) = b0dd03fd5ce1c29a6f4519961e96b87c6f44bb25
+SHA1 (patch-ae) = 1ad2834a737f277cf15a209e148549e33f21d3dc
