@@ -1,0 +1,4 @@
+$NetBSD$
+ - test on platforms other than NetBSD/i386
+ - maybe add examples for how to configure it to
+   call mixerctl(8) on NetBSD
