@@ -1,5 +1,5 @@
 @comment $NetBSD$
+bin/gen68k
 bin/yabause
-man/man1/yabause.1
-share/doc/yabause/README
-@dirrm share/doc/yabause
+share/yabause/c68k_ini.inc
+@dirrm share/yabause
