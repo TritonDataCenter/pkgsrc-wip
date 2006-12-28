@@ -1,0 +1,4 @@
+$NetBSD$
+to do list for wide-dhcpv6
+ - test on more than NetBSD
+ - honor ${VARBASE}
