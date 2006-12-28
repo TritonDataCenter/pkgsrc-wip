@@ -27,7 +27,8 @@ CONFLICTS+=	ffmpeg-[0-9]*
 REPLACE_PERL+=	doc/texi2pod.pl
 
 USE_LANGUAGES=	c c++
-USE_TOOLS+=	gmake
+USE_TOOLS+=	gmake pkg-config
+USE_LIBTOOL=	YES
 
 CONF_FILES=	${PREFIX}/share/examples/ffmpeg/ffserver.conf \
 		${PKG_SYSCONFDIR}/ffserver.conf
