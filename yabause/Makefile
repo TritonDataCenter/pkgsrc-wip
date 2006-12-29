@@ -1,7 +1,6 @@
 # $NetBSD$
 
 DISTNAME=	yabause-0.8.0
-PKGREVISION=	2
 CATEGORIES=	emulators
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=yabause/}
 
@@ -12,6 +11,7 @@ COMMENT=	Sega Saturn system emulator
 GNU_CONFIGURE=	yes
 USE_TOOLS+=	gmake
 USE_TOOLS+=	pkg-config
+USE_DIRS+=	xdg-1.4
 WRKSRC=	${WRKDIR}/${PKGBASE}
 
 .include "../../graphics/gtkglext/buildlink3.mk"
