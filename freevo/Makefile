@@ -1,8 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		freevo-1.5.4
-PKGREVISION=		2
+DISTNAME=		freevo-1.6.2
 CATEGORIES=		multimedia
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=freevo/}
 
@@ -15,6 +14,7 @@ DEPENDS+=		mplayer>=1.0rc7:../../multimedia/mplayer
 DEPENDS+=		${PYPKGPREFIX}-sqlite>=1.0.1:../../databases/py-sqlite
 DEPENDS+=		${PYPKGPREFIX}-twisted>=2.0.0:../../wip/py-twisted
 DEPENDS+=		${PYPKGPREFIX}-twisted-web>=0.5.0:../../wip/py-twisted-web
+DEPENDS+=		${PYPKGPREFIX}-elementtree>=0:../../textproc/py-elementtree
 
 PYDISTUTILSPKG=		yes
 USE_PKGLOCALEDIR=	yes

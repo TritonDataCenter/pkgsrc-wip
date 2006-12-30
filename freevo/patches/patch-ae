@@ -1,6 +1,6 @@
 $NetBSD$
 
---- src/audio/audiodiskitem.py.orig	2005-10-16 05:18:50.000000000 -0400
+--- src/audio/audiodiskitem.py.orig	2006-11-24 19:50:21.000000000 +0000
 +++ src/audio/audiodiskitem.py
 @@ -100,7 +100,15 @@ class AudioDiskItem(Playlist):
                  item.mplayer_options += (' ' + config.MPLAYER_ARGS['cd'])
