@@ -1,0 +1,4 @@
+@comment $NetBSD$
+${EMACS_LISPPREFIX}/javascript.el
+${EMACS_LISPPREFIX}/javascript.elc
+
