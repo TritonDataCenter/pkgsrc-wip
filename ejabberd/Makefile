@@ -63,7 +63,7 @@ post-install:
 #	${FIND} ${PREFIX}/lib/erlang/lib/${DISTNAME} -type f -print0 | ${XARGS} -0 ${CHMOD} ${SHAREMODE}
 #	${FIND} ${PREFIX}/lib/erlang/lib/${DISTNAME} -type f -print0 | ${XARGS} -0 ${CHOWN} ${SHAREOWN}:${SHAREGRP}
 
-	${INSTALL_DATA_DIR} ${PREFIX}/shre/doc/${DISTNAME}
+	${INSTALL_DATA_DIR} ${PREFIX}/share/doc/${DISTNAME}
 	${INSTALL_DATA} ${WRKSRC}/doc/* ${PREFIX}/share/doc/${DISTNAME}
 	# don't really need the make file, do we?
 	${RM} ${PREFIX}/share/doc/${DISTNAME}/Makefile
