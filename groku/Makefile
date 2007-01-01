@@ -3,15 +3,14 @@
 
 DISTNAME=		groku-0.1
 CATEGORIES=		audio
-MASTER_SITES=		http://www.groku.org/
+MASTER_SITES=		http://digitalssg.net/debian/
 
 MAINTAINER=		mwicks@kettering.edu
-HOMEPAGE=		http://www.groku.org/
+HOMEPAGE=		http://groku.digitalssg.net/
 COMMENT=		Groku is a GTK for controlling your Roku Soundbridge (tm)
 
 GNU_CONFIGURE=		yes
 USE_TOOLS+=		pkg-config
-# USE_TOOLS+=		gmake
 USE_LANGUAGES+=		c c++
 CFLAGS+=		-g
 
