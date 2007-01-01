@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		planner-0.14
+DISTNAME=		planner-0.14.2
 
 
 CATEGORIES=		devel
