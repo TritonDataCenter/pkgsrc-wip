@@ -1,20 +1,22 @@
 # $NetBSD$
 #
 
-DISTNAME=	slime-2.0
-CATEGORIES=	editors
-MASTER_SITES=	http://common-lisp.net/project/slime/
-EXTRACT_SUFX=	.tgz
+DISTNAME=     slime-2.0
+PKGNAME=      ${EMACS_PKGNAME_PREFIX}${DISTNAME}
+CATEGORIES=	  editors
+MASTER_SITES= http://common-lisp.net/project/slime/
+EXTRACT_SUFX= .tgz
 
-MAINTAINER=	jfranz@bsdprojects.net
-HOMEPAGE=	http://common-lisp.net/project/slime/
-COMMENT=	Superior Lisp Interaction Mode for Emacs
+MAINTAINER=	  jfranz@bsdprojects.net
+HOMEPAGE=	  http://common-lisp.net/project/slime/
+COMMENT=	  Superior Lisp Interaction Mode for Emacs
 
-USE_TOOLS+=	gmake makeinfo
-NO_CONFIGURE=	yes
+USE_TOOLS+=	  gmake makeinfo
+NO_CONFIGURE= yes
+INFO_FILES=   yes
 
-INSTALLATION_DIRS=      ${EMACS_INFOPREFIX} ${EMACS_LISPPREFIX}/slime
-SLIME_LISPDIR=  ${EMACS_LISPPREFIX}/slime
+INSTALLATION_DIRS=  ${EMACS_INFOPREFIX} ${EMACS_LISPPREFIX}/slime
+SLIME_LISPDIR=      ${EMACS_LISPPREFIX}/slime
 
 do-build:
 	cd ${WRKSRC}/doc && ${GMAKE} slime.info
