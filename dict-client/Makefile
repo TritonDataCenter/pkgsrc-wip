@@ -5,7 +5,7 @@
 PKGNAME=	${DISTNAME:S/dictd/dict-client/}
 COMMENT=	Dictionary Service Protocol client
 
-USE_TOOLS+=		gmake yacc
+USE_TOOLS+=		gmake yacc lex libtool
 GNU_CONFIGURE=		yes
 CONFIGURE_ARGS+=	--with-cflags=${CFLAGS:M*:Q}
 CONFIGURE_ARGS+=	--disable-plugin
