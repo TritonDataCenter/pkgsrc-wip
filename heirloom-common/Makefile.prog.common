@@ -7,7 +7,7 @@ CATEGORIES?=	sysutils
 MAINTAINER=	cheusov@tut.by
 COMMENT?=	Collection of standard Unix utilities
 
-USE_TOOLS+=	yacc lex
+USE_TOOLS+=	yacc lex make
 
 MAKE_FILE=		makefile
 HLROOT?=		heirloom
@@ -62,12 +62,3 @@ MAKE_FLAGS+=	LUXRE="-luxre"
 pre-build:
 	cd ${WRKSRC} && \
 	${SETENV} ${MAKE_ENV} ${MAKE} ${MAKE_FLAGS} -f makefile makefiles
-
-#pre-install:
-#	cd ${WRKSRC}/build && \
-#	${SETENV} ${MAKE_ENV} ${MAKE} ${MAKE_FLAGS} maninst crossln
-
-#.include "../../devel/zlib/buildlink3.mk"
-#.include "../../archivers/bzip2/buildlink3.mk"
-#.include "../../mk/curses.buildlink3.mk"
-#.include "../../mk/bsd.pkg.mk"
