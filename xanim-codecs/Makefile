@@ -4,13 +4,14 @@ DISTNAME=
 PKGNAME=	xanim-codecs-19990322
 CATEGORIES=	multimedia
 MASTER_SITES=	ftp://ftp.informatik.uni-hamburg.de/pub/soft/graphics/xanim/dlls/ \
-		ftp://ftp.mayn.de/pub/unix/graphic/xanim/dll-glibc2.0/ \
+		ftp://ftp.mayn.de/pub/really_old_stuff/unix/graphic/xanim/dll-glibc2.0/ \
 		ftp://ftp.sai.msu.su/pub/unix/mpeg/xanim/dlls/ \
 		ftp://ftp.nstu.ru/pub/mirrors/xanim.va.pubnix.com/dlls/
 DISTFILES=	${CODEC_DLL_FILES}
 
 MAINTAINER=	shattered@users.sourceforge.net
 COMMENT=	Dynamically loadable codecs for XAnim
+HOMEPAGE=	http://xanim.polter.net/
 
 DIST_SUBDIR=	xanim
 NO_BUILD=	YES
