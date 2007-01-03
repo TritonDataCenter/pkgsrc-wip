@@ -11,6 +11,7 @@ COMMENT=		Tool to modify applications on-the-fly
 
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
+ONLY_FOR_PLATFORM=	Linux-*-*
 
 do-install:
 	${INSTALL_DATA} ${WRKSRC}/include/memgrep.h ${PREFIX}/include/

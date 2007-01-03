@@ -10,6 +10,8 @@ MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://acpid.sourceforge.net/
 COMMENT=		Linux ACPI event handler
 
+ONLY_FOR_PLATFORM=	Linux-*-*
+
 EGDIR=			${PKG_SYSCONFDIR}/acpid ${PREFIX}/share/examples/acpid
 RCD_SCRIPTS=		acpid
 

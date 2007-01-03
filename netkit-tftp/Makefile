@@ -11,6 +11,7 @@ COMMENT=		TFPD client and server from the Linux NetKIT
 
 USE_PKGLOCALEDIR=	yes
 HAS_CONFIGURE=		yes
+ONLY_FOR_PLATFORM=	Linux-*-*
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/tftp/tftp ${PREFIX}/bin

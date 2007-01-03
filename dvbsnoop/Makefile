@@ -11,6 +11,7 @@ COMMENT=		DVB / MPEG stream analyzer program
 
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
+ONLY_FOR_PLATFORM=	Linux-*-*
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/src/dvbsnoop ${PREFIX}/bin
