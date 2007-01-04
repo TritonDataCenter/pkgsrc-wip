@@ -18,5 +18,6 @@ PERMIT_DISTFILES_FTP=	Yes
 
 NO_BUILD=		Yes
 USE_TOOLS+=		gmake
+USE_TOOLS+=		perl
 
 .include "../../mk/bsd.pkg.mk"
