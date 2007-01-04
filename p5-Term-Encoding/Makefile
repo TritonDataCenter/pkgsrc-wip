@@ -11,7 +11,7 @@ COMMENT=		Detect encoding of the current terminal
 
 PKG_INSTALLATION_TYPES=	overwrite pkgviews
 
-PERL5_PACKLIST=		${PERL5_SITEARCH}/auto/Term/Encoding/.packlist
+PERL5_PACKLIST=		auto/Term/Encoding/.packlist
 
 .include "../../lang/perl5/module.mk"
 .include "../../mk/bsd.pkg.mk"

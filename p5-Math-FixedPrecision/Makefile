@@ -11,7 +11,7 @@ COMMENT=	Perl module that provides decimal math without floating point errors
 
 DEPENDS+=	p5-Math-BigInteger-*:../../math/p5-Math-BigInteger
 
-PERL5_PACKLIST= ${PERL5_SITEARCH}/auto/Math/FixedPrecision/.packlist
+PERL5_PACKLIST= auto/Math/FixedPrecision/.packlist
 
 .include "../../lang/perl5/module.mk"
 .include "../../mk/bsd.pkg.mk"

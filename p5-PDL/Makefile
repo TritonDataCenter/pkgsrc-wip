@@ -13,7 +13,7 @@ DEPENDS+=	p5-Term-ReadLine-[0-9]*:../../devel/p5-Term-ReadLine
 DEPENDS+=	p5-Filter-[0-9]*:../../textproc/p5-Filter
 DEPENDS+=	p5-Text-Balanced-[0-9]*:../../textproc/p5-Text-Balanced
 
-PERL5_PACKLIST=		${PERL5_SITEARCH}/auto/PDL/.packlist
+PERL5_PACKLIST=		auto/PDL/.packlist
 
 #
 # These should work eventually, but are disabled for now.  It looks like

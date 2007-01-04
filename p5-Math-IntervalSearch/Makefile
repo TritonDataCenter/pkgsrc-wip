@@ -10,7 +10,7 @@ COMMENT=	This module contains several useful routines for interpolating data set
 
 PKG_INSTALLATION_TYPES=	overwrite pkgviews
 
-PERL5_PACKLIST=	${PERL5_SITEARCH}/auto/Math/Interpolate/.packlist
+PERL5_PACKLIST=	auto/Math/Interpolate/.packlist
 
 .include "../../lang/perl5/module.mk"
 .include "../../mk/bsd.pkg.mk"

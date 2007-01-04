@@ -12,7 +12,7 @@ COMMENT=	Perl interface to Google webmail service
 DEPENDS+=	p5-libwww>=5.76:../../www/p5-libwww
 DEPENDS+=	p5-Crypt-SSLeay>=0.51:../../security/p5-Crypt-SSLeay
 
-PERL5_PACKLIST=	${PERL5_SITEARCH}/auto/Mail/Webmail/Gmail/.packlist
+PERL5_PACKLIST=	auto/Mail/Webmail/Gmail/.packlist
 
 .include "../../lang/perl5/module.mk"
 .include "../../mk/bsd.pkg.mk"

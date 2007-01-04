@@ -14,7 +14,7 @@ COMMENT=	Table/Matrix widget extension to Perl/Tk
 DEPENDS+=	p5-Tk-[0-9]*:../../x11/p5-Tk
 
 CPPFLAGS+=		-I${PERL5_SITEARCH}/Tk/pTk
-PERL5_PACKLIST=		${PERL5_SITEARCH}/auto/Tk/TableMatrix/.packlist
+PERL5_PACKLIST=		auto/Tk/TableMatrix/.packlist
 
 .include "../../lang/perl5/module.mk"
 .include "../../mk/x11.buildlink3.mk"
