@@ -7,7 +7,7 @@ MASTER_SITES=	http://downloads.sourceforge.net/xmlsysinfo/
 
 MAINTAINER=	haaaad@gmail.com
 HOMEPAGE=	http://xsi.kolabore.ath.cx/
-COMMENT=	"system monitor that provides XML encoded stats"
+COMMENT=	System monitor that provides XML encoded stats
 
 MASTER_SITES=   ${MASTER_SITE_SOURCEFORGE:=xmlsysinfo/}
 
