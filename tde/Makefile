@@ -1,11 +1,10 @@
 # $NetBSD: Makefile,v 1.24 2003/07/13 13:51:33 wiz Exp $
 
-DISTNAME=		tde-5.1s
+DISTNAME=		tde-5.1u
+PKGNAME=		tde-5.1.20
 CATEGORIES=		editors
 MASTER_SITES=		http://www.geocities.com/jadoxa/tde/
 
-PATCH_SITES=		${MASTER_SITES}
-PATCHFILES=		51s1.txt
 MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		${MASTER_SITES}
 COMMENT=		Thomson-Davis Editor
