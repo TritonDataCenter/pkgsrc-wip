@@ -11,9 +11,10 @@ MAINTAINER=		dprice@cs.nmsu.edu
 HOMEPAGE=		http://www.sander.embl-ebi.ac.uk/tops/TOPSSoftware.html
 COMMENT=		Protein Topology Cartoons Tools
 
-USE_JAVA=		yes
+USE_JAVA=		run
+PLIST_SUBST+=		TOPS_JAVA_HOME=${PKG_JAVA_HOME:S=${PREFIX}/==}
 
-CHECK_SHLIBS=	no
+CHECK_SHLIBS=		no
 
 NO_BUILD=		yes
 

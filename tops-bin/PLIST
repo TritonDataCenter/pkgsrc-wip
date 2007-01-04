@@ -1,7 +1,7 @@
 @comment $NetBSD$
 bin/EditTops
 bin/Tops
-java/sun-1.5/lib/TOPS.jar
+${TOPS_JAVA_HOME}/lib/TOPS.jar
 share/doc/tops-bin/Guide.ps
 share/examples/tops-bin/6fab.dssp
 share/examples/tops-bin/6fab.tops
