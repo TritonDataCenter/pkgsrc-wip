@@ -1,10 +1,10 @@
 # $NetBSD$
 #
 
-DISTNAME=	directory_administrator-1.5
+DISTNAME=	directory_administrator-1.7.1
 PKGNAME=	${DISTNAME:C/_/-/}
 CATEGORIES=	sysutils
-MASTER_SITES=	http://diradmin.open-it.org/
+MASTER_SITES=	http://diradmin.open-it.org/releases/
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://diradmin.open-it.org/
