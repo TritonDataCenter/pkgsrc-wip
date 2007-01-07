@@ -1,15 +1,13 @@
 # $NetBSD$
 
-PKGNAME=	libmaa-0.990
 DISTNAME=	dictd-1.10.7
+PKGNAME=	libmaa-0.990
 CATEGORIES=	textproc
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=dict/} \
 		ftp://ftp.dict.org/pub/dict/
 
 MAINTAINER=	cheusov@tut.by
 HOMEPAGE=	http://www.dict.org/
-# $NetBSD$
-
 COMMENT=	Library that provides many low-level data structures
 
 WRKSRC=		${WRKDIR}/${DISTNAME}/libmaa
