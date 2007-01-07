@@ -9,6 +9,7 @@ MAINTAINER=	david@netbsd-fr.org
 HOMEPAGE=	http://web.engr.oregonstate.edu/~simonsen/reminder
 COMMENT=	GKrellM plugin that reminds you of important events
 
+PKG_FAIL_REASON="This version is obsolete, 2.0.0 was out in 2003"
 
 .include "../../sysutils/gkrellm1/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
