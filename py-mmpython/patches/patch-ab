@@ -1,6 +1,6 @@
 $NetBSD$
 
---- factory.py.orig	2005-05-07 07:37:08.000000000 -0400
+--- factory.py.orig	2005-05-07 12:37:08.000000000 +0100
 +++ factory.py
 @@ -247,7 +247,7 @@ class Factory:
              if not os.path.exists(name):
