@@ -17,17 +17,18 @@ DEPENDS+=		dict-client>=1.9.14:../../textproc/dict-client
 SRCS=			dictem.el
 DOCS=			README NEWS COPYING ChangeLog
 
+INSTALLATION_DIRS+=	share/doc/${PKGBASE} ${EMACS_LISPPREFIX:Q}
+
 do-build:
-	for f in ${SRCS}; do						\
-		${EMACS_BIN:Q} --no-init-file --no-site-file -batch	\
-			-f batch-byte-compile ${WRKSRC}/$$f;		\
-	done
+.for f in ${SRCS}
+	${EMACS_BIN:Q} --no-init-file --no-site-file -batch	\
+		-f batch-byte-compile ${WRKSRC}/${f}
+.endfor
 
 do-install:
-	${INSTALL_DATA_DIR} ${EMACS_LISPPREFIX:Q};			\
+	set -e; \
 	cd ${WRKSRC} && ${INSTALL_DATA} ${SRCS} ${SRCS:.el=.elc} 	\
 			${EMACS_LISPPREFIX:Q};				\
-	${INSTALL_DATA_DIR} ${PREFIX}/share/doc/${PKGBASE};		\
 	cd ${WRKSRC} && ${INSTALL_DATA} ${DOCS}				\
 			${PREFIX}/share/doc/${PKGBASE}
 
