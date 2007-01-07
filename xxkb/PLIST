@@ -14,3 +14,5 @@ share/xxkb/su48.xpm
 share/xxkb/ua15.xpm
 share/xxkb/ua48.xpm
 ${IMAKE_MAN_DIR}/xxkb.${IMAKE_MANNEWSUFFIX}
+@dirrm share/xxkb
+@dirrm share/doc/xxkb
