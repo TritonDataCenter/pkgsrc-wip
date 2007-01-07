@@ -20,6 +20,7 @@ COMMENT=		Berkeley automounter suite of utilities
 
 USE_TOOLS+=		yacc lex perl:run
 GNU_CONFIGURE=		yes
+USE_LIBTOOL=		yes
 
 INFO_FILES=		yes
 
