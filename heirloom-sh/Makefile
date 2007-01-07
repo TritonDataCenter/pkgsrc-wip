@@ -21,12 +21,12 @@ DOC_FILES=	CHANGES CALDERA.LICENSE OPENSOLARIS.LICENSE README
 
 do-build:
 	cd ${WRKSRC} && \
-	${SETENV} ${MAKE_ENV} ${MAKE} ${MAKE_FLAGS} \
+	env ${MAKE_ENV} ${MAKE} ${MAKE_FLAGS} \
 		DESTDIR=${PREFIX:Q} -f makefile
 
 do-install:
 	cd ${WRKSRC} && \
-	${SETENV} ${MAKE_ENV} ${MAKE} ${MAKE_FLAGS} \
+	env ${MAKE_ENV} ${MAKE} ${MAKE_FLAGS} \
 		DESTDIR=${PREFIX:Q} -f makefile install
 .for i in ${DOC_FILES}
 	${INSTALL_DATA} ${WRKSRC}/${i} ${PKGDOCDIR}

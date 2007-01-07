@@ -18,10 +18,12 @@ TEST_TARGET=		check
 
 DOCDIR=			${PREFIX}/share/doc/${PKGBASE}
 
+INSTALLATION_DIRS+=	${DOCDIR}
+
 post-install:
-	${INSTALL_DATA_DIR} ${DOCDIR} && \
+	set -e; \
 	for i in COPYRIGHT INSTALL README WHATSNEW; do \
-		${INSTALL_DATA} ${WRKSRC}/$${i} ${DOCDIR} || exit 1; \
+		${INSTALL_DATA} ${WRKSRC}/"$${i}" ${DOCDIR}; \
 	done
 
 .include "../../mk/bsd.pkg.mk"
