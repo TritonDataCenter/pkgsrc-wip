@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		gnokii-0.6.13
+DISTNAME=		gnokii-0.6.14
 CATEGORIES=		comms
 MASTER_SITES=		http://www.gnokii.org/download/gnokii/ \
 			http://www.gnokii.org/download/gnokii/0.6.x/ \
