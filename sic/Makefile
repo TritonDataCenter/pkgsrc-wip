@@ -13,6 +13,6 @@ NO_CONFIGURE=		yes
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/sic ${PREFIX}/bin
-	${INSTALL_MAN} ${WRKSRC}/sic.1 ${PREFIX}/man/man1
+	${INSTALL_MAN} ${WRKSRC}/sic.1 ${PREFIX}/${PKGMANDIR}/man1
 
 .include "../../mk/bsd.pkg.mk"

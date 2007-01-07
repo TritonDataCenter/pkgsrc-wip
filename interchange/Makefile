@@ -67,8 +67,8 @@ do-configure:
 		rpmbuilddir=${WRKSRC} \
 		INTERCHANGE_USER=${INTERCHANGE_USER} \
 		PREFIX=${INTERCHANGE_DIR} \
-		INSTALLMAN1DIR=${PREFIX}/man/man1 \
-		INSTALLMAN3DIR=${PREFIX}/man/man8 \
+		INSTALLMAN1DIR=${PREFIX}/${PKGMANDIR}/man1 \
+		INSTALLMAN3DIR=${PREFIX}/${PKGMANDIR}/man8 \
 		INSTALLBIN=${PREFIX}/bin \
 		link_file=/var/run/interchange/socket \
 		force=1

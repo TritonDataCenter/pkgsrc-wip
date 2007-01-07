@@ -48,7 +48,7 @@ SUBST_FILES.inst=	endeavour2/download.front/Makefile \
 SUBST_SED.inst=		-e "s|/usr|${PREFIX}|g"
 
 # ${PREFIX}/${PKGMANDIR} is preferred, but endeavour doesnt use it
-END_MAN_DIR=	${PREFIX}/man/man1
+END_MAN_DIR=	${PREFIX}/${PKGMANDIR}/man1
 
 do-configure:
 	cd ${WRKSRC} && ./configure UNIX --prefix=${PREFIX}

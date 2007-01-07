@@ -73,6 +73,6 @@ do-install:
 	${INSTALL_DATA} ${PKGMGR_SRC:Q}/pkgmanager.fas ${PKGMGR_LIBDIR}/pkgmanager.fas
 	${INSTALL_SCRIPT} ${PKGMGR_SRC:Q}/pkgmanager-wrapper.sh \
 		${PKGMGR_BINDIR}/pkgmanager
-	${INSTALL_MAN} ${PKGMGR_SRC:Q}/pkgmanager.8 ${PREFIX}/man/man8
+	${INSTALL_MAN} ${PKGMGR_SRC:Q}/pkgmanager.8 ${PREFIX}/${PKGMANDIR}/man8
 
 .include "../../mk/bsd.pkg.mk"

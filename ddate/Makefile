@@ -15,6 +15,6 @@ do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/ddate ${PREFIX}/bin
 	${INSTALL_DATA_DIR} ${DOCDIR}
 	${INSTALL_DATA} ${WRKSRC}/README ${DOCDIR}
-	${INSTALL_MAN} ${WRKSRC}/ddate.1 ${PREFIX}/man/man1
+	${INSTALL_MAN} ${WRKSRC}/ddate.1 ${PREFIX}/${PKGMANDIR}/man1
 
 .include "../../mk/bsd.pkg.mk"

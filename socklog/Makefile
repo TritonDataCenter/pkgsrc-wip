@@ -23,8 +23,8 @@ SYS_CMDS=	${CMDDIR}/socklog ${CMDDIR}/socklog-check ${CMDDIR}/socklog-conf
 do-install:
 	${INSTALL_PROGRAM} ${USER_CMDS} ${PREFIX}/bin
 	${INSTALL_PROGRAM} ${SYS_CMDS} ${PREFIX}/sbin
-	${INSTALL_MAN} ${WRKSRC}/man/*.1 ${PREFIX}/man/man1
-	${INSTALL_MAN} ${WRKSRC}/man/*.8 ${PREFIX}/man/man8
+	${INSTALL_MAN} ${WRKSRC}/man/*.1 ${PREFIX}/${PKGMANDIR}/man1
+	${INSTALL_MAN} ${WRKSRC}/man/*.8 ${PREFIX}/${PKGMANDIR}/man8
 	${INSTALL_DATA_DIR} ${PKGDOCDIR}
 	cd ${WRKSRC} && ${INSTALL_DATA} ${DOCS} ${PKGDOCDIR}
 

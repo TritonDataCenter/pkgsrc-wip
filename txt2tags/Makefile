@@ -23,7 +23,7 @@ do-install:
 	${INSTALL_DATA} ${WRKSRC}/doc/*.* ${DOC_DIR}
 	${INSTALL_DATA} ${WRKSRC}/samples/*.* ${SAMPLES_DIR}
 	${INSTALL_DATA} ${WRKSRC}/samples/img/*.* ${SAMPLES_DIR}/img
-	${INSTALL_MAN} ${WRKSRC}/doc/manpage.man ${PREFIX}/man/man1/txt2tags.1
+	${INSTALL_MAN} ${WRKSRC}/doc/manpage.man ${PREFIX}/${PKGMANDIR}/man1/txt2tags.1
 
 .include "../../lang/python/application.mk"
 .include "../../mk/bsd.pkg.mk"
