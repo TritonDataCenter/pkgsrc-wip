@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		nginx-0.4.9
+DISTNAME=		nginx-0.5.5
 CATEGORIES=		www
 MASTER_SITES=		http://sysoev.ru/nginx/
 
