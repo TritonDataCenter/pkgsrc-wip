@@ -11,6 +11,7 @@ COMMENT=		System performance tools for Linux
 
 USE_TOOLS+=		gmake
 # uses msgfmt
+ONLY_FOR_PLATFORM=	Linux-*-*
 
 MAKE_ENV+=		SA_DIR=${VARBASE}/log/sa
 MAKE_ENV+=		SA_LIB_DIR=${PREFIX}/libexec/sa
