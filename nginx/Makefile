@@ -17,6 +17,7 @@ PKG_SYSCONFSUBDIR=	nginx
 
 BUILD_DEFS+=		PKG_SYSCONFBASE VARBASE
 
+CONFIGURE_ARGS+=	--prefix=${PREFIX}
 CONFIGURE_ARGS+=	--sbin-path=${PREFIX}/sbin
 CONFIGURE_ARGS+=	--conf-path=${PKG_SYSCONFDIR}/nginx.conf
 CONFIGURE_ARGS+=	--pid-path=${VARBASE}/run/nginx.pid
