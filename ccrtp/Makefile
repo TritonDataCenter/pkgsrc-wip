@@ -6,7 +6,7 @@ CATEGORIES=		net
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=gnutelephony/}
 
 MAINTAINER=		pancake@phreaker.net
-HOMEPAGE=		http://gnutelephony.sourceforge.net/
+HOMEPAGE=		http://wiki.gnutelephony.org/
 COMMENT=		RTP and RTSP protocol implementation using GNU CommonCpp
 
 USE_PKGLOCALEDIR=	yes

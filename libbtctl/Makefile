@@ -6,7 +6,7 @@ CATEGORIES=		net
 MASTER_SITES=		http://ftp.gnome.org/pub/gnome/sources/libbtctl/0.6/
 
 MAINTAINER=		pancake@phreaker.net
-HOMEPAGE=		http://usefulinc.com/software/gnome-bluetooth
+HOMEPAGE=		http://live.gnome.org/GnomeBluetooth
 COMMENT=		GObject Bluetooth controller
 
 USE_TOOLS=gmake
