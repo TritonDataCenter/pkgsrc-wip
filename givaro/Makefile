@@ -11,7 +11,7 @@ HOMEPAGE=		http://www-lmc.imag.fr/Logiciels/givaro/
 COMMENT=		C++ library for arithmetic and algebraic computations
 
 
-VERSION=		3.2.1
+VERSION=		3.2.4
 
 WRKSRC=			${WRKDIR}/givaro-${VERSION}
 USE_PKGLOCALEDIR=	yes
