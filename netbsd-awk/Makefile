@@ -15,7 +15,9 @@ USE_TOOLS+=	bison lex
 MAKE_FILE=	makefile
 BUILD_TARGET=	a.out
 
-CFLAGS+=	-I. -DHAS_ISBLANK
+.include "../../mk/bsd.prefs.mk"
+
+CFLAGS+=	-I.
 LDFLAGS+=	-lm
 MAKE_FLAGS+=	YHEADER=yes
 
@@ -25,5 +27,12 @@ post-patch:
 do-install:
 	${INSTALL_MAN} ${WRKSRC}/nbawk.1 ${PREFIX}/${PKGMANDIR}/man1
 	${INSTALL_PROGRAM} ${WRKSRC}/a.out ${PREFIX}/bin/nbawk
+
+.if ${OPSYS} == "Linux"
+# Linux has no strlcat function
+.include "../../pkgtools/libnbcompat/buildlink3.mk"
+CPPFLAGS+=	-I${LOCALBASE}/include/libnbcompat
+LDFLAGS+=	-lnbcompat
+.endif
 
 .include "../../mk/bsd.pkg.mk"
