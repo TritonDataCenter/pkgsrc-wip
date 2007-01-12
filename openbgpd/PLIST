@@ -1,0 +1,6 @@
+@comment $NetBSD$
+man/man5/bgpd.conf.5
+man/man8/bgpctl.8
+man/man8/bgpd.8
+sbin/bgpctl
+sbin/bgpd
