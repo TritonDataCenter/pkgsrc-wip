@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	xmms-scrobbler_0.3.8.1.orig
-PKGNAME=	xmms-scrobbler-0.3.8.1	
+PKGNAME=        ${DISTNAME:S/_/-/:S/.orig//}
 CATEGORIES=	audio
 MASTER_SITES= 	${MASTER_SITE_DEBIAN:=pool/main/x/xmms-scrobbler/}
 
