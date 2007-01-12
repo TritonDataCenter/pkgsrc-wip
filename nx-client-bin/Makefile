@@ -2,7 +2,7 @@
 
 DISTNAME=	nxclient-${NX_VER}.i386
 PKGNAME=	nx-client-bin-${NX_VER}
-#PKGREVISION=
+PKGREVISION=	1
 CATEGORIES=	net
 MASTER_SITES=	http://web04.nomachine.com/download/2.1.0/Linux-NoXft/
 
@@ -50,8 +50,9 @@ do-install:
 .for file in keyboards rgb
 	${INSTALL_DATA} ${WRKSRC}/share/${file} ${NX_LIB}/share
 .endfor
-.for dir in
-	${INSTALL_DATA_DIR} ${WRKSRC}/share/${dir} ${NX_LIB}/share
+.for dir in cups documents/client icons images keys
+	${INSTALL_DATA_DIR} ${NX_LIB}/share/${dir}
+	${INSTALL_DATA} ${WRKSRC}/share/${dir}/* ${NX_LIB}/share/${dir}
 .endfor
 
 .include "../../mk/bsd.pkg.mk"
