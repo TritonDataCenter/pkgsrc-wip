@@ -20,11 +20,9 @@ CONFLICTS=	zebra-0* quagga-0* openbgpd-as4byte-3*
 
 WRKSRC=		${WRKDIR}
 MANCOMPRESSED=	yes
-
-#USE_RC_SUBR=	openbgpd.sh
+USE_RC_SUBR=	openbgpd.sh
 #MAKE_ENV=	BINDIR="${PREFIX}/sbin" \
 #		MANDIR="${PREFIX}/man"
-
 COPTS+=		-DRTA_LABEL=0
 
 #PLIST_FILES=	sbin/bgpctl	\
