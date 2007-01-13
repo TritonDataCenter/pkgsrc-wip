@@ -1,4 +1,4 @@
 @comment $NetBSD$
 bin/ding
 man/man1/ding.1
-share/dict/ger-eng.txt
+share/dict/de-en.txt
