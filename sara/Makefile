@@ -12,10 +12,11 @@ COMMENT=		Security Auditor's Research Assistant
 
 DEPENDS+=		nmap>=3.50:../../net/nmap
 DEPENDS+=		fping>=2.4:../../net/fping
+DEPENDS+=		samba>=3.0:../../net/samba
 
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
-USE_TOOLS+=		perl
+USE_TOOLS+=		perl:run
 
 SUBST_CLASSES+=	grp
 SUBST_STAGE.grp= post-patch
@@ -43,6 +44,8 @@ SUBST_STAGE.defpath=post-build
 SUBST_FILES.defpath=config/paths.pl
 SUBST_SED.defpath = -e 's,\"bin/,\"${PREFIX}/bin/,g'
 SUBST_SED.defpath+= -e 's,config,${PREFIX}/etc/sara/,g'
+
+REPLACE_PERL=	bin/get_targets bin/faux_fping sara add_user bin/*.sara* bin/*.sara.ext perl/html.pl perl/contrib/* plugins/*.pi bin/fwping
 
 do-install:
 	${INSTALL_SCRIPT} ${WRKSRC}/sara ${PREFIX}/bin/

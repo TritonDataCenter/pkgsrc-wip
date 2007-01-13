@@ -3,3 +3,5 @@ $NetBSD$
 SHA1 (sara-5.0.5b.tgz) = 168775617b277446b077691fb3927b4fab2c5422
 RMD160 (sara-5.0.5b.tgz) = 46d3a27238eacf385d37ec6a1573a0f6a5045c53
 Size (sara-5.0.5b.tgz) = 4067220 bytes
+SHA1 (patch-aa) = fd14a678c8204ab05763743170f394c5796d345d
+SHA1 (patch-ab) = 9079dbb6a2fafe5a309c48ae170a82b1b69b5c0e
