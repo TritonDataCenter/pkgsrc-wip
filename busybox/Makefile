@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	busybox-0.60.5
+DISTNAME=	busybox-1.3.1
 CATEGORIES=	sysutils
 MASTER_SITES=	http://www.busybox.net/downloads/
 
@@ -9,8 +9,16 @@ MAINTAINER=	pancake@phreaker.net
 HOMEPAGE=	http://www.busybox.net/
 COMMENT=	The Swiss Army Knife of Embedded Linux
 
-USE_TOOLS+=	gmake
+OPSYSVARS+=	HOSTLDFLAGS
+HOSTLDFLAGS.NetBSD=	-lintl
 
-ONLY_FOR_PLATFORM=	Linux-*-*
+USE_TOOLS+=	gmake
+MAKE_ENV+=	HOSTLDFLAGS=${HOSTLDFLAGS:Q}
+
+CHECK_PORTABILITY_SKIP+=	scripts/individual
+CHECK_PORTABILITY_SKIP+=	scripts/kconfig/lxdialog/check-lxdialog.sh
+
+do-configure:
+	cd ${WRKSRC} && env ${CONFIGURE_ENV} ${MAKE_ENV} make defconfig
 
 .include "../../mk/bsd.pkg.mk"
