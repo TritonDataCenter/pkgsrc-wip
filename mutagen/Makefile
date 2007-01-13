@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		mutagen-1.5.1
+DISTNAME=		mutagen-1.9
 PKGNAME=		${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=		audio
 MASTER_SITES=		http://www.sacredchao.net/~piman/software/
