@@ -18,11 +18,12 @@ USE_TOOLS+=		pkg-config
 USE_LANGUAGES=		c c++
 MANCOMPRESSED=		yes
 
-PKGCONFIG_OVERRIDE=	xmms2-client-ecore.pc
+PKGCONFIG_OVERRIDE=	xmms2-client-cpp-glib.pc
+PKGCONFIG_OVERRIDE+=	xmms2-client-cpp.pc
+PKGCONFIG_OVERRIDE+=	xmms2-client-ecore.pc
 PKGCONFIG_OVERRIDE+=	xmms2-client-glib.pc
 PKGCONFIG_OVERRIDE+=	xmms2-client.pc
 PKGCONFIG_OVERRIDE+=	xmms2-plugin.pc
-PKGCONFIG_OVERRIDE_STAGE=	pre-build
 
 .include "options.mk"
 .include "../../audio/libmad/buildlink3.mk"
