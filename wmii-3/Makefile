@@ -10,8 +10,6 @@ MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://wmii.suckless.org/
 COMMENT=		Third version of the window manager improved 2
 
-CONFLICTS+=		wmii-2.*
-
 NO_CONFIGURE=		yes
 
 LDFLAGS+=-L${X11BASE}/lib ${COMPILER_RPATH_FLAG}${X11BASE}/lib
