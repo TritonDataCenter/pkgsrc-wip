@@ -4,8 +4,8 @@ DISTNAME=	sex-1.0
 CATEGORIES=	games
 MASTER_SITES=	http://spatula.net/software/sex/
 
-MAINTAINER=	jfranz@thundrix.ch
-COMMENT=	Spout silly, random porn-like text
+MAINTAINER=	jfranz@bsdprojects.net
+COMMENT=	Yet another program for spouting silly random phrases.
 
 post-patch:
 	${MV} ${WRKSRC}/Makefile ${WRKSRC}/Makefile.dist
