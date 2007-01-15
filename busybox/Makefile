@@ -9,11 +9,10 @@ MAINTAINER=	pancake@phreaker.net
 HOMEPAGE=	http://www.busybox.net/
 COMMENT=	The Swiss Army Knife of Embedded Linux
 
-OPSYSVARS+=	HOSTLDFLAGS
-HOSTLDFLAGS.NetBSD=	-lintl
+ONLY_FOR_PLATFORM=	Linux-*-*
+# See crunchgen(1) on BSD-systems for similar functionality.
 
 USE_TOOLS+=	gmake
-MAKE_ENV+=	HOSTLDFLAGS=${HOSTLDFLAGS:Q}
 
 CHECK_PORTABILITY_SKIP+=	scripts/individual
 CHECK_PORTABILITY_SKIP+=	scripts/kconfig/lxdialog/check-lxdialog.sh
