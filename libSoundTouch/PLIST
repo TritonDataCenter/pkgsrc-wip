@@ -5,8 +5,10 @@ include/soundtouch/FIFOSampleBuffer.h
 include/soundtouch/FIFOSamplePipe.h
 include/soundtouch/STTypes.h
 include/soundtouch/SoundTouch.h
+include/soundtouch/soundtouch_config.h
 lib/libBPM.la
 lib/libSoundTouch.la
+lib/pkgconfig/soundtouch-1.0.pc
 share/aclocal/soundtouch.m4
 share/doc/soundtouch/COPYING.TXT
 share/doc/soundtouch/README.html
