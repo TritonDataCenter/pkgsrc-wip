@@ -26,10 +26,8 @@ GNU_CONFIGURE=		yes
 #       but it would be a lot better if it was fixed upstream. 
 pre-patch:
 	${RM} -rf ${WRKSRC}/config/*
-	${FIND} ${WRKSRC} -name "Makefile.in*" -type f | ${XARGS} ${SED} -e \
-		's|[(]libdir[)]/pkgconfig|(prefix)/libdata/pkgconfig|g'
 
-post-patch: .SILENT
+post-patch:
 	${SED} -e 's|-O3|${CFLAGS:M*:Q}|; s|$$(prefix)/doc|$$(datadir)/doc|' \
 		${WRKSRC}/source/example/bpm/Makefile.in \
 		${WRKSRC}/source/example/SoundStretch/Makefile.in \
