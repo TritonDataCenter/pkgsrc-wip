@@ -21,7 +21,7 @@ BUILDLINK_ORDER:=       ${BUILDLINK_ORDER} ${BUILDLINK_DEPTH}modular-xorg-libs
 
 BUILDLINK_API_DEPENDS.modular-xorg-libs+=	modular-xorg-libs>=7.0nb6
 BUILDLINK_PKGSRCDIR.modular-xorg-libs?=		../../wip/modular-xorg-libs
-#BUILDLINK_TRANSFORM.modular-xorg-libs+=	-e "s|/${X11ROOT_PREFIX}/|/|"
+#BUILDLINK_FNAME_TRANSFORM.modular-xorg-libs+=	-e "s|/${X11ROOT_PREFIX}/|/|"
 
 .endif  # MODULAR_XORG_LIBS_BUILDLINK3_MK
 

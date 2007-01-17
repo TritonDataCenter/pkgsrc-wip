@@ -15,7 +15,7 @@ BUILDLINK_PACKAGES+=	mingw-runtime-bin
 .if !empty(MINGW_RUNTIME_BIN_BUILDLINK3_MK:M+)
 BUILDLINK_API_DEPENDS.mingw-runtime-bin+=	mingw-runtime-bin>=3.5
 BUILDLINK_PKGSRCDIR.mingw-runtime-bin?=	../../wip/mingw-runtime-bin
-BUILDLINK_TRANSFORM.mingw-runtime-bin+=	-e "s,${MINGW_TARGET}/lib,lib/,g"
+BUILDLINK_FNAME_TRANSFORM.mingw-runtime-bin+=	-e "s,${MINGW_TARGET}/lib,lib/,g"
 .endif	# MINGW_RUNTIME_BIN_BUILDLINK3_MK
 
 BUILDLINK_DEPTH:=     ${BUILDLINK_DEPTH:S/+$//}
