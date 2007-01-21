@@ -18,7 +18,7 @@ GNU_CONFIGURE=	YES
 USE_TOOLS+=	gmake
 
 CONFIGURE_ARGS+=	--sysconfdir=${PKG_SYSCONFDIR:Q}
-.if ${OPSYS} == "IRIX" || ${OPSYS} == "Solaris" || ${OPSYS} == "Dragonfly"
+.if ${OPSYS} == "IRIX" || ${OPSYS} == "Dragonfly"
 CONFIGURE_ARGS+=	--with-target=BSD # just give it a try
 .endif
 
