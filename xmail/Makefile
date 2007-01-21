@@ -25,7 +25,7 @@ EXT=bsd # Default one :)
 .	elif ${MACHINE_ARCH} == "ppc"
 		EXT="plx"
 .	endif
-.elif ${OPSYS} == "Solaris"
+.elif ${OPSYS} == "SunOS"
 .	if   ${MACHINE_ARCH} == "sparc"
 		EXT="sso"
 .	elif ${MACHINE_ARCH} == "i86pc"

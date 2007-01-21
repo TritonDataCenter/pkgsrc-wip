@@ -19,7 +19,7 @@ MAKE_ENV+=		LIBOSSAUDIO=${LIBOSSAUDIO:Q}
 .if ${OPSYS} == "Linux"
 # do nothing, MAKE_FILE is already set to "Makefile"
 # not compiling? see TODO!
-.elif ${OPSYS} == "Solaris"
+.elif ${OPSYS} == "SunOS"
 MAKE_FILE=		Makefile.sun
 .else
 MAKE_FILE=		Makefile.nol
