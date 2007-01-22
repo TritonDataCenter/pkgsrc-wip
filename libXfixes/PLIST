@@ -1,0 +1,6 @@
+@comment $NetBSD$
+include/X11/extensions/Xfixes.h
+lib/libXfixes.la
+lib/pkgconfig/xfixes.pc
+man/man3/Xfixes.3
+@comment @dirrm include/X11/extensions
