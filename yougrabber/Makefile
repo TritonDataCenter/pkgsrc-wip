@@ -12,6 +12,8 @@ COMMENT=		YouTube downloader
 BUILD_TARGET=		yg
 USE_NCURSES=		yes # color
 
+INSTALLATION_DIRS=	bin
+
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/yg ${PREFIX}/bin
 
