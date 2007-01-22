@@ -10,7 +10,7 @@ HOMEPAGE=		http://yougrabber.sourceforge.net/
 COMMENT=		YouTube downloader
 
 BUILD_TARGET=		yg
-USE_NCURSES=		color
+USE_NCURSES=		yes # color
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/yg ${PREFIX}/bin
