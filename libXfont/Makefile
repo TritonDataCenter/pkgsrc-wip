@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	libXfont-1.2.7
-PKGREVISION=	1
+PKGREVISION=	2
 CATEGORIES=	x11
 MASTER_SITES=	http://xorg.freedesktop.org/releases/individual/lib/
 EXTRACT_SUFX=	.tar.bz2
@@ -23,7 +23,6 @@ USE_TOOLS+=	pkg-config
 
 CPPFLAGS+=	-D_NETBSD_SOURCE
 
-PKGCONFIG_OVERRIDE+=	xfont.pc.in
 
 .include "options.mk"
 
