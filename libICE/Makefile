@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	libICE-1.0.3
+PKGREVISION=	1
 CATEGORIES=	x11
 MASTER_SITES=	http://xorg.freedesktop.org/releases/individual/
 EXTRACT_SUFX=	.tar.bz2
