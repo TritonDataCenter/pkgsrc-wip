@@ -12,7 +12,7 @@ BUILDLINK_PACKAGES+=	xfce4-mixer
 BUILDLINK_ORDER:=	${BUILDLINK_ORDER} ${BUILDLINK_DEPTH}xfce4-mixer
 
 .if ${XFCE4_MIXER_BUILDLINK3_MK} == "+"
-BUILDLINK_API_DEPENDS.xfce4-mixer+=	xfce4-mixer>=4.3.99.2
+BUILDLINK_API_DEPENDS.xfce4-mixer+=	xfce4-mixer>=4.4.0
 BUILDLINK_PKGSRCDIR.xfce4-mixer?=	../../wip/xfce4-mixer
 .endif	# XFCE4_MIXER_BUILDLINK3_MK
 

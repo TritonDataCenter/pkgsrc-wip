@@ -3,7 +3,7 @@
 .include "../../wip/xfce4/Makefile.common"
 
 DISTNAME=		xfce4-panel-${XFCE4_VERSION}
-PKGREVISION=1
+#PKGREVISION=		1
 CATEGORIES=		x11
 COMMENT=		Xfce panel
 

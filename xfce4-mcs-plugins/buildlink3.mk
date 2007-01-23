@@ -12,7 +12,7 @@ BUILDLINK_PACKAGES+=	xfce4-mcs-plugins
 BUILDLINK_ORDER:=	${BUILDLINK_ORDER} ${BUILDLINK_DEPTH}xfce4-mcs-plugins
 
 .if ${XFCE4_MCS_PLUGINS_BUILDLINK3_MK} == "+"
-BUILDLINK_API_DEPENDS.xfce4-mcs-plugins+=	xfce4-mcs-plugins>=4.3.99.2
+BUILDLINK_API_DEPENDS.xfce4-mcs-plugins+=	xfce4-mcs-plugins>=4.4.0
 BUILDLINK_PKGSRCDIR.xfce4-mcs-plugins?=	../../wip/xfce4-mcs-plugins
 .endif	# XFCE4_MCS_PLUGINS_BUILDLINK3_MK
 

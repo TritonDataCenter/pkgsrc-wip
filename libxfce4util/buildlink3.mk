@@ -12,7 +12,7 @@ BUILDLINK_PACKAGES+=	libxfce4util
 BUILDLINK_ORDER:=	${BUILDLINK_ORDER} ${BUILDLINK_DEPTH}libxfce4util
 
 .if ${LIBXFCE4UTIL_BUILDLINK3_MK} == "+"
-BUILDLINK_API_DEPENDS.libxfce4util+=	libxfce4util>=4.3.99.2
+BUILDLINK_API_DEPENDS.libxfce4util+=	libxfce4util>=4.4.0
 BUILDLINK_PKGSRCDIR.libxfce4util?=	../../wip/libxfce4util
 .endif	# LIBXFCE4UTIL_BUILDLINK3_MK
 

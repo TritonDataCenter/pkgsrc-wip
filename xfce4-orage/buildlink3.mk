@@ -12,7 +12,7 @@ BUILDLINK_PACKAGES+=	xfce4-orage
 BUILDLINK_ORDER:=	${BUILDLINK_ORDER} ${BUILDLINK_DEPTH}xfce4-orage
 
 .if ${XFCE4_ORAGE_BUILDLINK3_MK} == "+"
-BUILDLINK_API_DEPENDS.xfce4-orage+=	xfce4-orage>=4.3.99.2
+BUILDLINK_API_DEPENDS.xfce4-orage+=	xfce4-orage>=4.4.0
 BUILDLINK_PKGSRCDIR.xfce4-orage?=	../../wip/xfce4-orage
 .endif	# XFCE4_ORAGE_BUILDLINK3_MK
 
