@@ -3,7 +3,7 @@
 PKG_OPTIONS_VAR=		PKG_OPTIONS.libX11
 
 PKG_OPTIONS_OPTIONAL_GROUPS=	threads
-PKG_OPTIONS_GROUP.threads= 	xcb 
+PKG_OPTIONS_GROUP.threads=	xcb
 PKG_SUPPORTED_OPTIONS+=		loadable-i18n secure-rpc
 
 CHECK_BUILTIN.pthread:=		yes
