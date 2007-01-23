@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	appres-1.0.1
+PKGREVISION=	1
 CATEGORIES=	wip
 MASTER_SITES=	http://xorg.freedesktop.org/releases/individual/app/
 EXTRACT_SUFX=	.tar.bz2
@@ -18,6 +19,6 @@ USE_TOOLS+=	pkg-config
 
 
 .include "../../wip/libX11/buildlink3.mk"
-.include "../../wip/libXt/buildlink3.mk"
+.include "../../x11/libXt/buildlink3.mk"
 
 .include "../../mk/bsd.pkg.mk"
