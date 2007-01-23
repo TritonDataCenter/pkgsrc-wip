@@ -1,7 +1,7 @@
 # $NetBSD$
 
 PKG_OPTIONS_VAR=	PKG_OPTIONS.libXfont
-PKG_SUPPORTED_OPTIONS=	ipv6 libxfont-unix-transport libxfont-tcp-transport
+PKG_SUPPORTED_OPTIONS=	inet6 libxfont-unix-transport libxfont-tcp-transport
 PKG_SUGGESTED_OPTIONS=	libxfont-unix-transport libxfont-tcp-transport
 
 .include "../../mk/bsd.options.mk"
