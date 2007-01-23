@@ -1,0 +1,6 @@
+@comment $NetBSD$
+bin/editres
+lib/X11/app-defaults/Editres
+lib/X11/app-defaults/Editres-color
+man/man1/editres.1
+@comment @dirrm lib/X11/app-defaults
