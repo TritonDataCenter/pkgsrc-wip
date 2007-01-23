@@ -17,15 +17,16 @@ GNU_CONFIGURE=		yes
 BUILD_TARGET=		lib
 CONFIGURE_ARGS+=	--with-cflags=${CFLAGS:M*:Q}
 CONFIGURE_ARGS+=	--enable-shared
-
+ 
 PKGDOCDIR=	${PREFIX}/share/doc/${PKGBASE}
 INSTALLATION_DIRS+=	${PKGDOCDIR}
 
 EXTRA_DOC_FILES=	COPYING.LIB README doc/libmaa.600dpi.ps
 
 post-install:
-.for i in ${EXTRA_DOC_FILES}
-	${INSTALL_DATA} ${WRKSRC}/${i} ${PKGDOCDIR}
-.endfor
+	set -e; \
+	for i in $${EXTRA_DOC_FILES}; do \
+		${INSTALL_DATA} ${WRKSRC}/"$${i}" ${PKGDOCDIR}; \
+	done
 
 .include "../../mk/bsd.pkg.mk"
