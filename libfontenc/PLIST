@@ -1,0 +1,5 @@
+@comment $NetBSD$
+include/X11/fonts/fontenc.h
+lib/libfontenc.la
+lib/pkgconfig/fontenc.pc
+@comment @dirrm include/X11/fonts
