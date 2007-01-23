@@ -17,8 +17,6 @@ MAKE_ENV+=	BINDIR=${PREFIX}/bin
 MAKE_ENV+=	MANDIR=${PREFIX}/${PKGMANDIR}
 MAKE_ENV+=	MKCATPAGES=no
 
-CFLAGS+=	-O0 -g
-
 post-patch:
 	sed -e 's|grep|nbgrep|g' ${WRKSRC}/grep.1 > ${WRKSRC}/nbgrep.1
 
