@@ -1,0 +1,5 @@
+@comment $NetBSD$
+include/GL/glut.h
+include/GL/glutf90.h
+lib/libglut.la
+@unexec ${RMDIR} %D/include/GL >/dev/null 2>&1 || ${TRUE}
