@@ -28,6 +28,7 @@ lib/planner/plugins/libxmlplanner-plugin.la
 lib/planner/storage-modules/libstorage-mrproject-1.la
 ${PYSITELIB}/planner.la
 ${PYSITELIB}/plannerui.la
+man/man1/planner.1
 share/applications/planner.desktop
 share/doc/planner/README.sql
 share/doc/planner/kitchen.planner
