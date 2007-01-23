@@ -11,8 +11,6 @@ MAINTAINER=	blair.sadewitz@gmail.com
 HOMEPAGE=	http://xorg.freedesktop.org/releases/individual/
 COMMENT=	X11 protocol library (C bindings) from modular X.org
 
-MAKE_JOBS_SAFE=	no
-
 PKG_INSTALLATION_TYPES= overwrite pkgviews
 PKG_DESTDIR_SUPPORT=	user-destdir
 
@@ -21,6 +19,8 @@ CONFIGURE_ARGS+=	--enable-man-pages=3
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_TOOLS+=	gmake pkg-config
+
+PLIST_SRC=	PLIST
 
 PKGCONFIG_OVERRIDE+=	x11.pc.in
 

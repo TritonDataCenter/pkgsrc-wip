@@ -21,7 +21,8 @@ CHECK_BUILTIN.pthread:=		no
 .if !empty(PKG_OPTIONS:Mxcb)
 . include "../../wip/libxcb/buildlink3.mk"
   CONFIGURE_ARGS+=			--with-xcb
-  PKGCONFIG_OVERRIDE+=    		x11-xcb.pc.in
+  PLIST_SRC+=				PLIST.xcb
+  PKGCONFIG_OVERRIDE+=			x11-xcb.pc
 . else
   CONFIGURE_ARGS+=			--without-xcb
 .endif
@@ -33,6 +34,7 @@ CHECK_BUILTIN.pthread:=		no
 
 .if !empty(PKG_OPTIONS:Mloadable-i18n)
   CONFIGURE_ARGS+=			--enable-loadable-i18n
+  PLIST_SRC+=				PLIST.i18n
 . include "../../mk/dlopen.buildlink3.mk"
 .endif
 
