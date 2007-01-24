@@ -20,6 +20,11 @@ do-install:
 # Xfce
 .include "../../wip/xfce4/buildlink3.mk"
 
+#
+# Do you want to have more plugins? See http://goodies.xfce.org/releases/
+# for all available plugins...
+#
+
 # Additional plugins etc.
 .include "../../wip/xfce4-xmms-plugin/buildlink3.mk"
 .include "../../wip/xfce4-weather-plugin/buildlink3.mk"
