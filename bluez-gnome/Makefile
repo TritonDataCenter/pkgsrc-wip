@@ -11,6 +11,7 @@ COMMENT=		BlueZ helpers for Gnome
 USE_LANGUAGES=	c
 USE_PERL=	YES
 USE_TOOLS+=	intltool pkg-config gmake
+OWN_DIRS+=		${PKG_SYSCONFDIR}/xdg
 
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
