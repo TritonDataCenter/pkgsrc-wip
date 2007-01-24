@@ -8,7 +8,6 @@ DISTNAME=	xfce4-quicklauncher-plugin-${XFCE4_VERSION}
 #PKGREVISION=	1
 CATEGORIES=	sysutils
 MASTER_SITES=	http://goodies.xfce.org/releases/xfce4-quicklauncher-plugin/
-EXTRACT_SUFX=	.tar.bz2
 COMMENT=	Xfce quicklaunch plugin
 
 USE_TOOLS+=	intltool
