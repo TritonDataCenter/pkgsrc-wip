@@ -1,6 +1,6 @@
 $NetBSD$
 
---- INSTALL.orig	2006-01-03 17:58:02.000000000 +0000
+--- INSTALL.orig	2006-01-03 18:58:02.000000000 +0100
 +++ INSTALL
 @@ -15,6 +15,7 @@ configuring the GRUB.
  * GNU Make

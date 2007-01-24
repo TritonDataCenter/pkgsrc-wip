@@ -1,6 +1,6 @@
 $NetBSD$
 
---- util/grub-emu.c.orig	2006-06-13 22:50:01.000000000 +0000
+--- util/grub-emu.c.orig	2006-10-14 20:59:34.000000000 +0200
 +++ util/grub-emu.c
 @@ -182,6 +182,9 @@ main (int argc, char *argv[])
        sleep (1);

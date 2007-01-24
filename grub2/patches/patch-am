@@ -1,6 +1,6 @@
 $NetBSD$
 
---- kern/rescue.c.orig	2006-04-23 13:37:36.000000000 +0000
+--- kern/rescue.c.orig	2006-04-23 15:37:36.000000000 +0200
 +++ kern/rescue.c
 @@ -32,6 +32,15 @@
  #include <grub/env.h>

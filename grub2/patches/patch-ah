@@ -1,6 +1,6 @@
 $NetBSD$
 
---- kern/mm.c.orig	2006-04-25 20:08:31.000000000 +0000
+--- kern/mm.c.orig	2006-04-25 22:08:31.000000000 +0200
 +++ kern/mm.c
 @@ -429,6 +429,16 @@ grub_mm_dump (unsigned lineno)
    grub_printf ("\n");

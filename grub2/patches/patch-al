@@ -1,6 +1,6 @@
 $NetBSD$
 
---- normal/parser.y.orig	2006-06-16 01:08:22.000000000 +0000
+--- normal/parser.y.orig	2006-06-04 17:56:55.000000000 +0200
 +++ normal/parser.y
 @@ -56,7 +56,7 @@
  
