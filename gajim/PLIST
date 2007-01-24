@@ -333,7 +333,6 @@ share/gajim/src/tooltips.py
 share/gajim/src/vcard.py
 share/pixmaps/gajim.png
 share/pixmaps/gajim_about.png
-@dirrm share/pixmaps
 @dirrm share/gajim/src/common/xmpp
 @dirrm share/gajim/src/common
 @dirrm share/gajim/src
@@ -379,5 +378,4 @@ share/pixmaps/gajim_about.png
 @dirrm share/gajim/data/emoticons
 @dirrm share/gajim/data
 @dirrm share/gajim
-@dirrm share/applications
 @dirrm lib/gajim
