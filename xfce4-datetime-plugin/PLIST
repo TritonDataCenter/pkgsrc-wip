@@ -1,0 +1,4 @@
+@comment $NetBSD$
+lib/xfce4/panel-plugins/libdatetime.la
+share/locale/nl/LC_MESSAGES/xfce4-datetime-plugin.mo
+share/xfce4/panel-plugins/datetime.desktop

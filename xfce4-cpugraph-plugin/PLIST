@@ -1,0 +1,3 @@
+@comment $NetBSD$
+libexec/xfce4/panel-plugins/xfce4-cpugraph-plugin
+share/xfce4/panel-plugins/cpugraph.desktop
