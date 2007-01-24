@@ -11,6 +11,7 @@ COMMENT=	Xfce utilities
 PKG_SYSCONFSUBDIR=	xdg/xfce4
 EGDIR=			${XFCE4_EGBASE}
 CONF_FILES=		${EGDIR:Q}/xinitrc ${PKG_SYSCONFDIR:Q}/xinitrc
+USE_TOOLS+=		xinit:run
 
 REQD_DIRS+=		${EGDIR}
 
