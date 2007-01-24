@@ -10,7 +10,5 @@ CATEGORIES=	sysutils
 MASTER_SITES=	http://goodies.xfce.org/releases/xfce4-netload-plugin/
 COMMENT=	Xfce network load plugin
 
-EXTRACT_SUFX=	.tar.bz2
-
 .include "../../wip/xfce4-panel/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
