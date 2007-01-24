@@ -15,6 +15,7 @@ CONFIGURE_ARGS+=	--sysconfdir=${PKG_SYSCONFBASE:Q} \
 			ICEAUTH=${TOOLS_PATH.iceauth:Q}
 
 REQD_DIRS+=		${XFCE4_EGBASE} ${EGDIR}
+BUILD_DEFS+=		PKG_SYSCONFBASE
 
 USE_TOOLS+=		iceauth:run
 USE_TOOLS+=		intltool
