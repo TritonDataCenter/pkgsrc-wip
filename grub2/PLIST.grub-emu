@@ -1,2 +1,2 @@
 @comment $NetBSD$
-sbin/grub-emu
+sbin/grub2-emu

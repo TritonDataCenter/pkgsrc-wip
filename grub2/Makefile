@@ -16,9 +16,10 @@ CVS_MODULE.grub2=	grub2
 GNU_CONFIGURE=		yes
 USE_TOOLS+=		gmake bison
 
-CONFLICTS=		grub-[0-9]*
 ONLY_FOR_PLATFORM=	*-*-i386 *-*-x86_64
 # XXX: Linux-*-powerpc and others
+
+CONFIGURE_ARGS+=	--program-transform-name=s,grub,grub2,
 
 .if ${MACHINE_ARCH} == "x86_64"
 GRUB_MACHINE_ARCH=	"i386"
