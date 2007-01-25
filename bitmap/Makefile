@@ -13,9 +13,8 @@ COMMENT=	Rudimentary bitmap editor from modular X.org
 GNU_CONFIGURE=	yes
 USE_TOOLS+=	pkg-config
 
-# url2pkg-marker (please do not remove this line.)
-.include "../../wip/libX11/buildlink3.mk"
-.include "../../wip/xbitmaps/buildlink3.mk"
+.include "../../x11/libX11/buildlink3.mk"
 .include "../../x11/libXaw/buildlink3.mk"
 .include "../../x11/xbitmaps/buildlink3.mk"
+
 .include "../../mk/bsd.pkg.mk"

@@ -17,10 +17,8 @@ USE_TOOLS+=	pkg-config
 GNU_CONFIGURE=	yes
 USE_LANGUAGES=	c
 
-# url2pkg-marker (please do not remove this line.)
 .include "../../x11/libXScrnSaver/buildlink3.mk"
-.include "../../x11/xextproto/buildlink3.mk"
-.include "../../wip/libXt/buildlink3.mk"
+.include "../../x11/libXt/buildlink3.mk"
 .include "../../x11/libXaw/buildlink3.mk"
 
 .include "../../mk/bsd.pkg.mk"
