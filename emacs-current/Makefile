@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	emacs-22.0.92
+DISTNAME=	emacs-22.0.93
 CATEGORIES=	editors
 MASTER_SITES=	#
 
