@@ -17,7 +17,7 @@ EGDIR=		${PREFIX}/share/examples/mod_auth_pam
 HTMLDIR=	${PREFIX}/share/doc/html/mod_auth_pam
 
 post-extract:
-	${MV} ${WRKDIR}/mod_auth_pam ${WRKSRC}
+	${MV} ${WRKDIR}/${APACHE_MODULE_NAME} ${WRKSRC}
 
 post-install:
 	${INSTALL_DATA_DIR} ${EGDIR}
