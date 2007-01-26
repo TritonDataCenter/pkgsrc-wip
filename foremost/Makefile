@@ -8,8 +8,6 @@ MAINTAINER=	lkundrak@skosi.org
 HOMEPAGE=	http://foremost.sourceforge.net/
 COMMENT=	Recover various formats of files using typical data structures
 
-.include "../../mk/bsd.prefs.mk"
-
 EGDIR=		${PREFIX}/share/examples/foremost
 CONF_FILES=	${EGDIR}/foremost.conf ${PKG_SYSCONFDIR}/foremost.conf
 
