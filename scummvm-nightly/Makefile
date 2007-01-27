@@ -1,6 +1,6 @@
 # $NetBSD$
 
-PKGNAME=	scummvm-${SCM_VER}
+DISTNAME=	scummvm-${SCM_VER}
 CATEGORIES=	games
 
 MAINTAINER=	dillo@NetBSD.org
