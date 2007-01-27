@@ -3,7 +3,7 @@
 
 DISTNAME=		pscpug032
 PKGNAME=		pscpug-0.3.2
-CATEGORIES=		sysutils wip
+CATEGORIES=		sysutils
 MASTER_SITES=		http://www.diablonet.net/~mercadal/projects/pscpug/
 EXTRACT_SUFX=		.tgz
 
