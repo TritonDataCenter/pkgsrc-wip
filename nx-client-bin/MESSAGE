@@ -1,7 +1,7 @@
 ===========================================================================
 $NetBSD$
 
-If you plan to use vmware on the machine you are connection to,
+If you plan to use vmware on the machine you are connecting to,
 edit the ~/.vmware/preferences file and add the following line:
 xkeymap.usekeycodeMap = "TRUE"
 
