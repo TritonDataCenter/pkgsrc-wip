@@ -23,6 +23,7 @@ PKGCONFIG_OVERRIDE+=	thunarx/thunarx-1.pc.in
 .include "../../graphics/hicolor-icon-theme/buildlink3.mk"
 .include "../../graphics/libexif/buildlink3.mk"
 .include "../../sysutils/dbus-glib/buildlink3.mk"
+.include "../../sysutils/desktop-file-utils/buildlink3.mk"
 .include "../../sysutils/fam/buildlink3.mk"
 .include "../../wip/xfce4-exo/buildlink3.mk"
 .include "../../wip/xfce4-panel/buildlink3.mk"
