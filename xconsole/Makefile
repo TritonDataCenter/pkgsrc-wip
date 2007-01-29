@@ -3,7 +3,7 @@
 
 DISTNAME=	xconsole-1.0.2
 CATEGORIES=	x11
-MASTER_SITES=	http://xorg.freedesktop.org/release/individual/app/
+MASTER_SITES=	http://xorg.freedesktop.org/releases/individual/app/
 EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	blair.sadewitz@gmail.com
