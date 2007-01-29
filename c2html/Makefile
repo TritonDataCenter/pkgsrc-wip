@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=		c2html-20050617
+DISTNAME=		c2html-20070126
 CATEGORIES=		textproc devel
 MASTER_SITES=		http://gavare.se/c2html/src/
 
