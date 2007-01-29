@@ -5,7 +5,7 @@ CATEGORIES=		textproc devel
 MASTER_SITES=		http://gavare.se/c2html/src/
 
 MAINTAINER=		lkundrak@skosi.org
-HOMEPAGE=		http://gavare.se/c2html/src/
+HOMEPAGE=		http://gavare.se/c2html/
 COMMENT=		Converts a C source tree to hyperlinked and colored HTML
 
 do-install:
