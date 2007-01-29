@@ -1,0 +1,3 @@
+@comment $NetBSD$
+bin/fonttosfnt
+man/man1/fonttosfnt.1
