@@ -7,7 +7,7 @@ MASTER_SITES=	http://xorg.freedesktop.org/releases/individual/app/
 EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	blair.sadewitz@gmail.com
-HOMEPAGE=	http://xorg.freedesktop.org/releases/individual/app/
+HOMEPAGE=	http://xorg.freedesktop.org/
 COMMENT=	Xv info utility from modular X.org
 
 GNU_CONFIGURE=	yes
