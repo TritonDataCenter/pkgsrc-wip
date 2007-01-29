@@ -1,4 +1,0 @@
-@comment $NetBSD$
-bin/c2html
-share/doc/c2html/README
-@dirrm share/doc/c2html
