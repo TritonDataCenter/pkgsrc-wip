@@ -1,0 +1,3 @@
+@comment $NetBSD$
+bin/xlsfonts
+man/man1/xlsfonts.1
