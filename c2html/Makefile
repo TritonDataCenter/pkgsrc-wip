@@ -8,9 +8,10 @@ MAINTAINER=		lkundrak@skosi.org
 HOMEPAGE=		http://gavare.se/c2html/
 COMMENT=		Converts a C source tree to hyperlinked and colored HTML
 
+INSTALLATION_DIRS=	bin ${PREFIX}/share/doc/${PKGBASE}
+
 do-install:
 	${INSTALL_PROGRAM}	${WRKSRC}/c2html ${PREFIX}/bin
-	${INSTALL_DATA_DIR}	${PREFIX}/share/doc/${PKGBASE}
 	${INSTALL_DATA}		${WRKSRC}/README ${PREFIX}/share/doc/${PKGBASE}
 
 .include "../../mk/bsd.pkg.mk"
