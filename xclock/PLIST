@@ -1,0 +1,6 @@
+@comment $NetBSD$
+bin/xclock
+lib/X11/app-defaults/XClock
+lib/X11/app-defaults/XClock-color
+man/man1/xclock.1
+@comment @dirrm lib/X11/app-defaults
