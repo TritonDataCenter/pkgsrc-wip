@@ -1,0 +1,5 @@
+@comment $NetBSD$
+bin/xload
+lib/X11/app-defaults/XLoad
+man/man1/xload.1
+@comment @dirrm lib/X11/app-defaults
