@@ -1,0 +1,3 @@
+@comment $NetBSD$
+bin/ico
+man/man1/ico.1
