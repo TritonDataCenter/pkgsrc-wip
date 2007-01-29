@@ -1,0 +1,5 @@
+@comment $NetBSD$
+bin/xconsole
+lib/X11/app-defaults/XConsole
+man/man1/xconsole.1
+@comment @dirrm lib/X11/app-defaults
