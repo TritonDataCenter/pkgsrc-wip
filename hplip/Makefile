@@ -5,7 +5,7 @@ PKGREVISION=	1
 CATEGORIES=	print
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=hplip/}
 
-MAINTAINER=	pkgsrc-users@NetBSD.org
+MAINTAINER=	mwicks@kettering.edu
 HOMEPAGE=	http://hplip.sourceforge.net/
 COMMENT=	Drivers and utilities for HP Printers and All-in-One devices
 
