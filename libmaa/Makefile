@@ -17,7 +17,7 @@ GNU_CONFIGURE=		yes
 BUILD_TARGET=		lib
 CONFIGURE_ARGS+=	--with-cflags=${CFLAGS:M*:Q}
 CONFIGURE_ARGS+=	--enable-shared
- 
+
 PKGDOCDIR=	${PREFIX}/share/doc/${PKGBASE}
 INSTALLATION_DIRS+=	${PKGDOCDIR}
 
