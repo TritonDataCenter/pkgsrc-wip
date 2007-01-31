@@ -1,10 +1,10 @@
 $NetBSD$
 
---- Makefile.orig	2005-05-31 18:49:26.000000000 +1000
+--- Makefile.orig	2006-01-03 21:57:41.000000000 +1100
 +++ Makefile
 @@ -10,13 +10,13 @@ GPG_PATH=/home/jtournier/.gnupg
- #BUILD_CMD=rpmbuild -ba
- BUILD_CMD=rpmbuild -ba --sign
+ BUILD_CMD=rpmbuild -ba
+ #BUILD_CMD=rpmbuild -ba --sign
  
 -prefix=/opt/IDEALX
 +prefix=${PREFIX}
@@ -14,7 +14,7 @@ $NetBSD$
 -install=/usr/bin/install
 -rm=/bin/rm
 -sed=/bin/sed
-+sysconfdir=${PREFIX}/share/examples
++sysconfdir=$(prefix)/share/examples
 +make=${MAKE}
 +install=${INSTALL}
 +rm=${RM}
