@@ -1,0 +1,2 @@
+@comment $NetBSD: $
+${PERL5_SUB_INSTALLVENDORLIB}/Jcode.pm
