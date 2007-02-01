@@ -490,8 +490,6 @@ share/emacs/${PKGVERSION}/etc/letter.pbm
 share/emacs/${PKGVERSION}/etc/letter.xpm
 share/emacs/${PKGVERSION}/etc/ms-7bkermit
 share/emacs/${PKGVERSION}/etc/ms-kermit
-share/emacs/${PKGVERSION}/etc/orgcard.ps
-share/emacs/${PKGVERSION}/etc/orgcard.tex
 share/emacs/${PKGVERSION}/etc/pl-refcard.ps
 share/emacs/${PKGVERSION}/etc/pl-refcard.tex
 share/emacs/${PKGVERSION}/etc/ps-prin0.ps
