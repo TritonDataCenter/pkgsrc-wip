@@ -19,8 +19,11 @@ CONFIGURE_ARGS+=        --enable-chardet --enable-nls
 
 PKGCONFIG_OVERRIDE+=	audacious.pc.in
 
-# make this linux-only
-#.include "../../wip/alsa-lib/buildlink3.mk"
+.include "../../mk/bsd.prefs.mk"
+
+.if ${OPSYS} == "Linux"
+.  include "../../wip/alsa-lib/buildlink3.mk"
+.endif
 
 .include "../../devel/pango/buildlink3.mk"
 .include "../../devel/glib2/buildlink3.mk"
