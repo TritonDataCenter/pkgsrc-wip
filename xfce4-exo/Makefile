@@ -13,7 +13,7 @@ DEPENDS+=	p5-URI>=0:../../www/p5-URI
 
 .if !empty(OPSYS:MNetBSD)
 .  if exists(/usr/include/mmintrin.h)
-CPPFLAGS+=	-D__MMX__
+CFLAGS+=	-msse
 .  endif
 .endif
 
