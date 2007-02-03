@@ -18,6 +18,7 @@ USE_LANGUAGES=		c++
 BUILD_TARGET=		compile
 USE_DIRS+=		xdg-1.3
 
+.include "../../graphics/hicolor-icon-theme/buildlink3.mk"
 .include "../../x11/qt3-tools/buildlink3.mk"
 .include "../../x11/qt3-libs/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
