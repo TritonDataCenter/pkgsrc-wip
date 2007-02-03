@@ -123,6 +123,8 @@ DEPENDS+=	gtk2-engines-magichicken>=1.0.2:../../wip/gtk2-engines-magichicken
 WRKSRC=		${WRKDIR}
 NO_BUILD=	yes
 
+USE_DIRS+=		xdg-1.4
+
 # clean up a bit. remove .xvpics (GIMP and xv thumbnail directories) and
 # backup files
 

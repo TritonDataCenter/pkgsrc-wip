@@ -11,6 +11,7 @@ COMMENT=	Simple, clean theme engine for gtk+ 1.2.x
 
 USE_LIBTOOL=		YES
 GNU_CONFIGURE=		YES
+USE_DIRS+=		xdg-1.4
 USE_TOOLS+=		gmake
 USE_X11BASE=		YES
 

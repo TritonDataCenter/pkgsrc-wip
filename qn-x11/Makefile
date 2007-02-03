@@ -11,6 +11,7 @@ HOMEPAGE=	http://themes.freshmeat.net/projects/qnx11__/?topic_id=923%2C954
 COMMENT=	GTK theme-engine to yield a QNX look and feel
 
 GNU_CONFIGURE=		YES
+USE_DIRS+=		xdg-1.4
 USE_LIBTOOL=		YES
 USE_X11BASE=		YES
 

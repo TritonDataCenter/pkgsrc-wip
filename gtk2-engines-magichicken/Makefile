@@ -11,6 +11,7 @@ HOMEPAGE=		http://art.gnome.org/
 COMMENT=		MagicChicken theme engine for GTK+ 2.x
 
 USE_LIBTOOL=		YES
+USE_DIRS+=		xdg-1.4
 USE_TOOLS+=		gmake
 GNU_CONFIGURE=		YES
 
