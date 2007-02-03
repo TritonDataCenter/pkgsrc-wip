@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=		libixp-0.1
+DISTNAME=		libixp-0.2
 PKGREVISION=		1
 CATEGORIES=		devel
 MASTER_SITES=		http://libs.suckless.org/download/
