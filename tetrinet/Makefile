@@ -11,10 +11,11 @@ COMMENT=	Console tetrinet client
 
 BUILDLINK_TRANSFORM+=	l:ncurses:curses
 
+INSTALLATION_DIRS=	bin share/tetrinet/doc
+
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/tetrinet ${PREFIX}/bin
 	${INSTALL_PROGRAM} ${WRKSRC}/tetrinet-server ${PREFIX}/bin
-	@${INSTALL_DATA_DIR} ${PREFIX}/share/tetrinet/doc
 	${INSTALL_DATA} ${WRKSRC}/README ${PREFIX}/share/tetrinet/doc
 	${INSTALL_DATA} ${WRKSRC}/tetrinet.txt ${PREFIX}/share/tetrinet/doc
 
