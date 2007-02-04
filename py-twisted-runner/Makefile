@@ -5,7 +5,7 @@ RUNNER_VERSION=	0.2.0
 DISTNAME=	Twisted-${TWISTED_VERSION}
 PKGNAME=	${PYPKGPREFIX}-twisted-runner-${RUNNER_VERSION}
 CATEGORIES=	net python
-MASTER_SITES=	http://tmrc.mit.edu/mirror/twisted/Twisted/2.4/
+MASTER_SITES=	http://tmrc.mit.edu/mirror/twisted/Twisted/2.5/
 EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	milos.negovanovic@googlemail.com
@@ -14,7 +14,7 @@ COMMENT=	Inetd replacement for Twisted
 
 WRKSRC=		${WRKDIR}/Twisted-${TWISTED_VERSION}/TwistedRunner-${RUNNER_VERSION}
 
-DEPENDS+=	${PYPKGPREFIX}-twisted-core>=2.4.0:../../wip/py-twisted-core
+DEPENDS+=	${PYPKGPREFIX}-twisted-core>=2.5.0:../../wip/py-twisted-core
 
 PYDISTUTILSPKG=		yes
 
