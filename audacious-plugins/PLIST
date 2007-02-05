@@ -21,7 +21,6 @@ lib/audacious/Input/libmpc.so
 lib/audacious/Input/libmpg123.so
 lib/audacious/Input/libsexypsf.so
 lib/audacious/Input/libsid.so
-lib/audacious/Input/libtimidity.so
 lib/audacious/Input/libtonegen.so
 lib/audacious/Input/libvorbis.so
 lib/audacious/Input/libwav.so
