@@ -22,8 +22,12 @@ USE_LIBTOOL=    	yes
 USE_LANGUAGES=		c c++
 LDFLAGS.NetBSD+=        -lstdc++ -lm
 
+# cdaudio plugin complains about missing OSS at runtime
+LDFLAGS+=               ${LIBOSSAUDIO}
+
 CONFIGURE_ARGS+= 	--disable-jack --disable-adplug --disable-lirc \
-		 	--disable-amidiplug --disable-arts --disable-wma
+		 	--disable-amidiplug --disable-arts --disable-wma \
+			--disable-timidity
 
 .include "../../mk/bsd.prefs.mk"
 
@@ -35,7 +39,6 @@ CONFIGURE_ARGS+=        --with-dev-dsp=${DEVOSSSOUND:Q}                 \
 .endif
 
 .if ${OPSYS} == "Linux"
-CONFIGURE_ARGS+= 	--enable-alsa
 .	include	"../../wip/alsa-lib/buildlink3.mk"
 .endif
 
