@@ -1,9 +1,9 @@
 # $NetBSD$
 #
 
-DISTNAME=		pasmo-0.5.2
+DISTNAME=		pasmo-0.5.3
 CATEGORIES=		devel
-MASTER_SITES=		http://www.arrakis.es/~ninsesabe/pasmo/
+MASTER_SITES=		http://pasmo.euler.es/bin/
 EXTRACT_SUFX=		.tgz
 
 MAINTAINER=		ivaniclixx@gmail.com
