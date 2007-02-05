@@ -59,7 +59,7 @@ BUILD_DEPENDS+=		audacious-[0-9]*:../../wip/audacious
 .include "../../audio/libsndfile/buildlink3.mk"
 .include "../../audio/esound/buildlink3.mk"
 #.include "../../wip/pulseaudio/buildlink3.mk"
-.include "../../wip/wavpack/buildlink3.mk"
+.include "../../audio/wavpack/buildlink3.mk"
 .include "../../multimedia/libogg/buildlink3.mk"
 .include "../../www/curl/buildlink3.mk"
 .include "../../devel/SDL/buildlink3.mk"
