@@ -194,7 +194,9 @@ share/emacs/${PKGVERSION}/etc/fr-survival.tex
 share/emacs/${PKGVERSION}/etc/future-bug
 share/emacs/${PKGVERSION}/etc/gfdl.1
 share/emacs/${PKGVERSION}/etc/gnu.xpm
+share/emacs/${PKGVERSION}/etc/gnus-booklet.ps
 share/emacs/${PKGVERSION}/etc/gnus-logo.eps
+share/emacs/${PKGVERSION}/etc/gnus-refcard.ps
 share/emacs/${PKGVERSION}/etc/gnus-refcard.tex
 share/emacs/${PKGVERSION}/etc/gnus-tut.txt
 share/emacs/${PKGVERSION}/etc/gnus.pbm
