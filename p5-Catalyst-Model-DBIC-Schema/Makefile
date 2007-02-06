@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	Catalyst-Model-DBIC-Schema-0.11
+DISTNAME=	Catalyst-Model-DBIC-Schema-0.18
 PKGNAME=	p5-${DISTNAME}
 CATEGORIES=	www perl5
 MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=Catalyst/}
