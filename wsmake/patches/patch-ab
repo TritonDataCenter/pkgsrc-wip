@@ -1,0 +1,13 @@
+$NetBSD$
+
+--- libwsmake/wsUtil.h.orig	2002-02-19 07:14:05.000000000 +0100
++++ libwsmake/wsUtil.h
+@@ -77,7 +77,7 @@ namespace std
+   void __wsmake_print_error(const char *, ...);
+   void __wsmake_print(const char *, ...);
+   void __wsmake_print(int, const char *, ...);
+-  void __wsmake_print_it(FILE *, const char *, const va_list *);
++  void __wsmake_print_it(FILE *, const char *, va_list *);
+ }
+ 
+ #endif /* __WSUTIL_H__ */
