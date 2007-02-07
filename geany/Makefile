@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	geany-0.9
+DISTNAME=	geany-0.10
 CATEGORIES=	devel
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=geany/}
 
