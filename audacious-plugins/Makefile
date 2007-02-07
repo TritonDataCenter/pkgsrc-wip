@@ -26,8 +26,13 @@ LDFLAGS.NetBSD+=        -lstdc++ -lm
 LDFLAGS+=               ${LIBOSSAUDIO}
 
 CONFIGURE_ARGS+= 	--disable-jack --disable-adplug --disable-lirc \
-		 	--disable-amidiplug --disable-arts --disable-wma \
-			--disable-timidity
+		 	--disable-amidiplug --disable-arts --disable-timidity
+			
+PKG_OPTIONS_VAR=        PKG_OPTIONS.audacious-plugins
+PKG_SUPPORTED_OPTIONS=  inet6 arts esound
+
+.include "../../mk/bsd.options.mk"
+.include "../../mk/bsd.prefs.mk"
 
 .include "../../mk/bsd.prefs.mk"
 
