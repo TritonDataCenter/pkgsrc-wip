@@ -1,0 +1,9 @@
+===========================================================================
+$NetBSD$
+ripit can use a number of different programs to do the actual track
+extraction and audio encoding. By default ripit uses cdparanoia and
+oggenc respectively, so this port depends on those two having been
+installed. If you want ripit to use other helper utils, such as lame, just
+install them and tell ripit which ones to use.
+
+===========================================================================
