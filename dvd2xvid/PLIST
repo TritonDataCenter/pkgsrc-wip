@@ -1,0 +1,10 @@
+@comment $NetBSD$
+bin/dvd2xvid
+share/dvd2xvid/icons/configure.png
+share/dvd2xvid/icons/dvd2xvid32.png
+share/dvd2xvid/icons/exit.png
+share/dvd2xvid/icons/filesave.png
+share/dvd2xvid/icons/reload.png
+share/dvd2xvid/icons/sprachen.png
+@dirrm share/dvd2xvid/icons
+@dirrm share/dvd2xvid
