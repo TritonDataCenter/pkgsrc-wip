@@ -1,8 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	editres-1.0.2
-PKGREVISION=	1
+DISTNAME=	editres-1.0.3
 CATEGORIES=	x11
 MASTER_SITES=	http://xorg.freedesktop.org/releases/individual/app/
 EXTRACT_SUFX=	.tar.bz2
