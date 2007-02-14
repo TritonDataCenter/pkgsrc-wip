@@ -25,11 +25,11 @@ lib/audacious/Input/libtonegen.so
 lib/audacious/Input/libvorbis.so
 lib/audacious/Input/libwav.so
 lib/audacious/Input/libwavpack.so
+lib/audacious/Input/libwma.so
 lib/audacious/Output/libOSS.so
 lib/audacious/Output/libdisk_writer.so
 lib/audacious/Output/libnull.so
 lib/audacious/Output/libsun.so
-lib/audacious/Output/libESD.so
 lib/audacious/Visualization/libbscope.so
 lib/audacious/Visualization/libparanormal.so
 lib/audacious/Visualization/libspectrum.so
