@@ -84,6 +84,11 @@ CONFIGURE_ARGS+=        --with-dev-dsp=${DEVOSSSOUND:Q}                 \
 
 .if ${OPSYS} == "Linux"
 .	include	"../../wip/alsa-lib/buildlink3.mk"
+PKG_SUPPORTED_OPTIONS+= lirc
+.	if !empty(PKG_OPTIONS:Mlirc)
+CONFIGURE_ARGS+=	--enable-lirc
+	.	include "../../wip/lirc/buildlink3.mk"
+.	endif
 .endif
 
 CONFIGURE_ENV+=  	LDFLAGS="-L${LOCALBASE}/lib" \
