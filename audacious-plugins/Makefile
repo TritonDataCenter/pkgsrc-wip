@@ -25,7 +25,7 @@ LDFLAGS.NetBSD+=        -lstdc++ -lm
 # cdaudio plugin complains about missing OSS at runtime
 LDFLAGS+=               ${LIBOSSAUDIO}
 
-CONFIGURE_ARGS+= 	--disable-adplug --disable-lirc --disable-amidiplug
+CONFIGURE_ARGS+= 	--disable-adplug --disable-amidiplug
 
 PKG_OPTIONS_VAR=        PKG_OPTIONS.audacious-plugins
 PKG_SUPPORTED_OPTIONS=  arts esound gnome inet6 jack midi pulse
