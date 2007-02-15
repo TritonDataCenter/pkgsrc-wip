@@ -17,4 +17,5 @@ post-extract:
 	${CHMOD} -R a+r ${WRKSRC}
 
 .include "../../x11/qt3/application.mk"
+.include "../../devel/boost-libs/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
