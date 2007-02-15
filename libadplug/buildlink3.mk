@@ -17,4 +17,6 @@ BUILDLINK_PKGSRCDIR.adplug?=	../../wip/libadplug
 BUILDLINK_DEPMETHOD.adplug?=	build
 .endif	# ADPLUG_BUILDLINK3_MK
 
+.include "../../wip/libbinio/buildlink3.mk"
+
 BUILDLINK_DEPTH:=	${BUILDLINK_DEPTH:S/+$//}
