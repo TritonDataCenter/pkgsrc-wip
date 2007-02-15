@@ -15,7 +15,7 @@ INFO_FILES=	yes
 USE_LIBTOOL=	yes
 USE_TOOLS+=	pkg-config
 USE_LANGUAGES=	c c++
-GCC_REQD=	3.4
+#GCC_REQD=	3.4
 
 PKGCONFIG_OVERRIDE+=	libbinio.pc.in
 
