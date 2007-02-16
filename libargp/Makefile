@@ -11,8 +11,10 @@ COMMENT=		Standalone version of argument parsing interface from GNU libc
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 
+INSTALLATION_DIRS+=	lib include
+
 do-install:
-	${INSTALL_LIB}	${WRKSRC}/libargp.a ${PREFIX}/lib
-	${INSTALL}	${WRKSRC}/argp.h ${PREFIX}/include
+	${INSTALL_DATA}	${WRKSRC}/libargp.a ${PREFIX}/lib
+	${INSTALL_DATA}	${WRKSRC}/argp.h ${PREFIX}/include
 
 .include "../../mk/bsd.pkg.mk"
