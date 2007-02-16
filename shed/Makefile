@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=		shed-1.12
+DISTNAME=		shed-1.13
 CATEGORIES=		sysutils
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=shed/}
 
