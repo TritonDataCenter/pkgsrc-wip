@@ -21,16 +21,14 @@ USE_TOOLS+=		pkg-config
 
 PTHREAD_OPTS+=		native
 NO_CONFIGURE=		yes
+BUILD_DEPENDS+=         scons>=0.96:../../devel/scons
 
 .include "../../mk/bsd.prefs.mk"
 LDCPP_VERSION!=		${DATE} +%Y%m%d
 LDFLAGS+=		${X11_LDFLAGS}
 
-post-extract:
-	${CP} ${FILESDIR}/make.sh ${WRKSRC}
-
 do-build:
-	cd ${WRKSRC} && ${SETENV} ${MAKE_ENV} ${SH} ./make.sh
+	cd ${WRKSRC} && ${SETENV} ${MAKE_ENV} ${PREFIX}/bin/scons debug=true relase=true PREFIX=${PREFIX}
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/linuxdcpp ${PREFIX}/bin/linuxdcpp
