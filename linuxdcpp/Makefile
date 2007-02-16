@@ -21,7 +21,7 @@ USE_TOOLS+=		pkg-config
 
 PTHREAD_OPTS+=		native
 NO_CONFIGURE=		yes
-BUILD_DEPENDS+=         scons>=0.96:../../devel/scons
+BUILD_DEPENDS+=		scons>=0.96:../../devel/scons
 
 .include "../../mk/bsd.prefs.mk"
 LDCPP_VERSION!=		${DATE} +%Y%m%d
