@@ -10,7 +10,7 @@ MAINTAINER=	blair.sadewitz@gmail.com
 HOMEPAGE=	http://www.pulseaudio.org/
 COMMENT=	The esound replacement everyone's been waiting for
 
-#CONFLICTS=	esound-[0-9]*
+CONFLICTS=	esound-[0-9]* libaudiofile-[0-9]* madplay-[0-9]*
 
 USE_TOOLS+=	pkg-config gmake
 
