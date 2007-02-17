@@ -14,5 +14,9 @@ BUILD_TARGET=		dpic
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/dpic ${PREFIX}/bin
+	${INSTALL_DATA_DIR} ${PREFIX}/share/doc/dpic
+	${INSTALL_DATA} ${WRKSRC}/doc/dpic_man.txt ${PREFIX}/share/doc/dpic
+	${INSTALL_DATA} ${WRKSRC}/doc/examples/Examples.txt ${PREFIX}/share/doc/dpic
 
 .include "../../mk/bsd.pkg.mk"
+
