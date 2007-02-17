@@ -19,4 +19,3 @@ do-install:
 	${INSTALL_DATA} ${WRKSRC}/doc/examples/Examples.txt ${PREFIX}/share/doc/dpic
 
 .include "../../mk/bsd.pkg.mk"
-
