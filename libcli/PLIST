@@ -1,0 +1,5 @@
+@comment $NetBSD$
+include/libcli.h
+lib/libcli.so
+lib/libcli.so.1.8
+lib/libcli.so.1.8.8
