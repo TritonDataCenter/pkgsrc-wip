@@ -10,11 +10,11 @@ HOMEPAGE=	http://libcli.sourceforge.net/
 
 COMMENT="Provides a shared library for including a Cisco-like CLI."
 
-USE_LANGUAGES+= c
+USE_LANGUAGES+=	c
 
-WRKSRC=         ${WRKDIR}/${DISTNAME}
+WRKSRC=			${WRKDIR}/${DISTNAME}
 
-INSTALLATION_DIRS=      lib share/examples
+INSTALLATION_DIRS=	lib share/examples
 
 post-extract:
 	        ${CHMOD} -R a+r ${WRKSRC}/Doc
