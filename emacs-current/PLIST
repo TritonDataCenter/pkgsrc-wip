@@ -2683,7 +2683,6 @@ share/emacs/${PKGVERSION}/lisp/xt-mouse.el.gz
 share/emacs/${PKGVERSION}/lisp/xt-mouse.elc
 share/emacs/${PKGVERSION}/site-lisp/subdirs.el
 share/emacs/site-lisp/subdirs.el
-@dirrm share/emacs/site-lisp
 @dirrm share/emacs/${PKGVERSION}/site-lisp
 @dirrm share/emacs/${PKGVERSION}/lisp/url
 @dirrm share/emacs/${PKGVERSION}/lisp/textmodes
