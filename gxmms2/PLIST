@@ -1,4 +1,8 @@
 @comment $NetBSD$
 bin/gxmms2
 share/doc/gxmms2/README
+share/gxmms2/COPYING
+share/gxmms2/README
+share/gxmms2/gxmms2_mini.xpm
+@dirrm share/gxmms2
 @dirrm share/doc/gxmms2

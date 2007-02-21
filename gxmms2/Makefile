@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	gxmms2-0.6.0
+DISTNAME=	gxmms2-0.6.5
 CATEGORIES=	audio
 MASTER_SITES=	http://wejp.k.vu/projects/xmms2/
 
@@ -10,7 +10,7 @@ HOMEPAGE=	http://wejp.k.vu/projects/xmms2/
 COMMENT=	Graphical GTK+2-based XMMS2 client
 
 NO_CONFIGURE=		yes
-USE_TOOLS+=		pkg-config
+USE_TOOLS+=		gmake pkg-config
 
 BUILD_TARGET=		gxmms2
 
