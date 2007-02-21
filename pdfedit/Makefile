@@ -10,6 +10,7 @@ HOMEPAGE=	http://pdfedit.petricek.net/
 COMMENT=	Editor for manipulating PDF documents
 
 GNU_CONFIGURE=	yes
+USE_TOOLS+=	gmake
 USE_LANGUAGES=	c c++
 
 # this could rather go into qt3-tools
