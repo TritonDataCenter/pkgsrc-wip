@@ -14,7 +14,6 @@ BUILDLINK_ORDER:=	${BUILDLINK_ORDER} ${BUILDLINK_DEPTH}guichan
 .if ${GUICHAN_BUILDLINK3_MK} == "+"
 BUILDLINK_API_DEPENDS.guichan+=	guichan>=0.6.0
 BUILDLINK_PKGSRCDIR.guichan?=	../../wip/guichan
-BUILDLINK_DEPMETHOD.guichan?=	build
 .endif	# GUICHAN_BUILDLINK3_MK
 
 .include "../../devel/SDL/buildlink3.mk"
