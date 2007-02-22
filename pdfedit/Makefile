@@ -13,9 +13,6 @@ GNU_CONFIGURE=	yes
 USE_TOOLS+=	gmake
 USE_LANGUAGES=	c c++
 
-# this could rather go into qt3-tools
-PREPEND_PATH=	${QTDIR}/bin
-
 # pdfedit bug #129
 post-extract:
 	${CHMOD} -R a+r ${WRKSRC}
