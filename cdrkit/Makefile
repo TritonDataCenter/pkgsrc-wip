@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	cdrkit-1.1.1
+DISTNAME=	cdrkit-1.1.2
 CATEGORIES=	sysutils
 MASTER_SITES=	http://cdrkit.org/releases/
 
