@@ -20,6 +20,7 @@ include/ubit/ucall.hpp
 include/ubit/uchild.hpp
 include/ubit/uchoice.hpp
 include/ubit/uclass.hpp
+include/ubit/uclassImpl.hpp
 include/ubit/ucolor.hpp
 include/ubit/ucolorImpl.hpp
 include/ubit/ucond.hpp
@@ -53,6 +54,7 @@ include/ubit/uglpane.hpp
 include/ubit/uplugpane.hpp
 include/ubit/ugraph.hpp
 include/ubit/ugroup.hpp
+include/ubit/uhtml.hpp
 include/ubit/uicon.hpp
 include/ubit/uima.hpp
 include/ubit/uinput.hpp
