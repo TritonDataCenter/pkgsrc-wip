@@ -1,7 +1,7 @@
 # $NetBSD$
 
 #DISTNAME=	ubit-5.0.4
-DISTNAME=	ubit-5.4.1
+DISTNAME=	ubit-5.5.0
 PKGREVISION=	1
 CATEGORIES=	x11
 
