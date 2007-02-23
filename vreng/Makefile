@@ -1,7 +1,7 @@
 # $NetBSD$
 
-#DISTNAME=	vreng-6.7.4
-DISTNAME=	vreng-6.8.3
+#DISTNAME=	vreng-6.8.3
+DISTNAME=	vreng-6.8.8
 PKGREVISION=	1
 CATEGORIES=	x11
 
