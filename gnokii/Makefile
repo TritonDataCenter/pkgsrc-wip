@@ -19,8 +19,11 @@ USE_LIBTOOL=		yes
 LIBTOOL_OVERRIDE=	${WRKSRC}/libtool
 GNU_CONFIGURE=		yes
 USE_X11=		yes
-USE_TOOLS+=		gmake msgfmt xgettext
+USE_TOOLS+=		autoconf gmake msgfmt xgettext
 USE_BUILTIN.gettext=	no
+
+pre-configure:
+	cd ${WRKSRC}; autoheader; autoconf
 
 .include "../../mk/pthread.buildlink3.mk"
 .include "../../devel/libusb/buildlink3.mk"
