@@ -71,11 +71,11 @@ $NetBSD$
 +#endif	/* HAVE_BLUETOOTH_XXXX */
  
 -#endif	/* HAVE_BT_ATON */
-+#ifdef HAVE_SOCKADDR_LEN
++#ifdef SOCKADDR_HAS_LEN
 +#define SOCKLEN(sa)	((sa).rc_len = sizeof(sa))
 +#else
 +#define SOCKLEN(sa)
-+#endif	/* HAVE_SOCKADDR_LEN */
++#endif	/* SOCKADDR_HAS_LEN */
 +
 +#ifndef HAVE_BACPY
 +#define bacpy(dst, src)		memcpy((dst), (src), sizeof(bdaddr_t))
