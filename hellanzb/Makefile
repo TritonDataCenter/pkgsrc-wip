@@ -3,8 +3,7 @@
 
 DISTNAME=		hellanzb-0.12
 CATEGORIES=		news
-MASTER_SITES=		http://www.hellanzb.com/distfiles/ \
-			http://unix.freshmeat.net/redir/hellanzb/58351/url_tgz/
+MASTER_SITES=		http://www.hellanzb.com/distfiles/ 
 DISTFILES=		${DISTNAME}.tar.gz
 
 MAINTAINER=		silicon@kalifornia.com
