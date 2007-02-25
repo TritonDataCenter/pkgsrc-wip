@@ -1,16 +1,17 @@
 # $NetBSD: Makefile,v 1.6 2005/05/22 20:08:26 jlam Exp $
 #
 
-DISTNAME=		hellanzb-0.9
+DISTNAME=		hellanzb-0.12
 CATEGORIES=		news
-MASTER_SITES=		http://www.hellanzb.com/distfiles/
+MASTER_SITES=		http://www.hellanzb.com/distfiles/ \
+			http://unix.freshmeat.net/redir/hellanzb/58351/url_tgz/
 DISTFILES=		${DISTNAME}.tar.gz
 
 MAINTAINER=		silicon@kalifornia.com
 HOMEPAGE=		http://www.hellanzb.com:8080/trac
 COMMENT=		Command line nntp file grabber
 
-DEPENDS+=	${PYPKGPREFIX}-twisted-1.3.*:../../net/py-twisted
+DEPENDS+=	${PYPKGPREFIX}-twisted>=1.3.*:../../net/py-twisted
 DEPENDS+=	par2>=0.4:../../archivers/par2
 DEPENDS+=	unrar>=3.5.4:../../archivers/unrar
 
