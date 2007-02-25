@@ -342,6 +342,8 @@ share/emacs/${PKGVERSION}/etc/images/gud/step.xpm
 share/emacs/${PKGVERSION}/etc/images/gud/stepi.pbm
 share/emacs/${PKGVERSION}/etc/images/gud/stepi.xpm
 share/emacs/${PKGVERSION}/etc/images/gud/stop.pbm
+share/emacs/${PKGVERSION}/etc/orgcard.ps
+share/emacs/${PKGVERSION}/etc/orgcard.tex
 share/emacs/${PKGVERSION}/etc/images/gud/stop.xpm
 share/emacs/${PKGVERSION}/etc/images/gud/until.pbm
 share/emacs/${PKGVERSION}/etc/images/gud/until.xpm
@@ -2720,7 +2722,6 @@ share/emacs/site-lisp/subdirs.el
 @dirrm share/emacs/${PKGVERSION}/etc/e
 @dirrm share/emacs/${PKGVERSION}/etc
 @dirrm share/emacs/${PKGVERSION}
-@dirrm share/emacs
 @dirrm libexec/emacs/${PKGVERSION}/${MACHINE_GNU_PLATFORM}
 @dirrm libexec/emacs/${PKGVERSION}
 @dirrm libexec/emacs
