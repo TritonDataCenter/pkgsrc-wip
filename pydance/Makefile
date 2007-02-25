@@ -3,6 +3,7 @@
 
 DISTNAME=		pydance-1.0.3
 PKGNAME=		${PYPKGPREFIX}-${DISTNAME}
+PKGREVISION=		2
 CATEGORIES=		games
 MASTER_SITES=		http://offload1.icculus.org/pyddr/
 
