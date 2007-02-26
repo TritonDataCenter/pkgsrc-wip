@@ -1,6 +1,6 @@
 $NetBSD$
 
---- instfiles/xrdp_control.sh.orig	2006-02-12 20:29:16.000000000 +0100
+--- instfiles/xrdp_control.sh.orig	2006-06-07 18:27:43.000000000 +0200
 +++ instfiles/xrdp_control.sh
 @@ -35,12 +35,12 @@ check_up () {
    sesup=`ps u --noheading -C $SESMAN`

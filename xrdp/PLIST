@@ -3,10 +3,17 @@ bin/sesman
 bin/sesrun
 bin/startwm.sh
 bin/xrdp
+bin/xrdp_control.sh
+bin/xrdpstart.sh
 lib/librdp.so
 lib/libvnc.so
 lib/libxrdp.so
 lib/libxup.so
+man/man5/sesman.ini.5
+man/man5/xrdp.ini.5
+man/man8/sesman.8
+man/man8/sesrun.8
+man/man8/xrdp.8
 share/examples/pam.d/sesman
 share/examples/xrdp/rsakeys.ini
 share/examples/xrdp/sesman.ini
@@ -18,7 +25,5 @@ share/xrdp/cursor1.cur
 share/xrdp/xrdp256.bmp
 @dirrm share/xrdp
 @dirrm share/examples/xrdp
-@dirrm share/examples/pam.d
-@exec ${MKDIR} %D/share/doc/xrdp
 @dirrm share/doc/xrdp
 @dirrm etc/xrdp
