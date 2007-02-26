@@ -18,7 +18,7 @@ DEPENDS+=	p5-Catalyst-Plugin-Static-Simple>=0.14:../../wip/p5-Catalyst-Plugin-St
 DEPENDS+=	p5-Catalyst-Plugin-ConfigLoader>=0:../../wip/p5-Catalyst-Plugin-ConfigLoader
 DEPENDS+=	p5-YAML>=0.55:../../textproc/p5-YAML
 DEPENDS+=	p5-Module-Install>=0.64:../../devel/p5-Module-Install
-DEPENDS+=	p5-File-Copy-Recursive>=0:../../wip/p5-File-Copy-Recursive
+DEPENDS+=	p5-File-Copy-Recursive>=0:../../sysutils/p5-File-Copy-Recursive
 
 PERL5_REQD+=	5.8.0
 
