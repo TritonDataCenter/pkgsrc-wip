@@ -1,6 +1,5 @@
 @comment $NetBSD$
 bin/nx
-emul/linux/dev/null
 lib/nx/bin/nxclient
 lib/nx/bin/nxesd
 lib/nx/bin/nxkill
