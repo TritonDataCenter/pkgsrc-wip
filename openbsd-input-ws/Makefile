@@ -9,6 +9,8 @@ MAINTAINER=	blair.sadewitz@gmail.com
 HOMEPAGE=	http://xenocara.org/
 COMMENT=	OpenBSD's wscons input driver for modular X.org
 
+PKG_DESTDIR_SUPPORT=	user-destdir
+
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_TOOLS+=	pkg-config
