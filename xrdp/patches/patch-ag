@@ -20,9 +20,10 @@ $NetBSD$
  #CFLAGS += -DXRDP_DEBUG
  C_OS_FLAGS = $(CFLAGS) -c
 -LDFLAGS = -L/usr/gnu/lib -L../libxrdp -Wl,-rpath,.
-+LDFLAGS += -L/usr/gnu/lib -L../libxrdp -Wl,-rpath,.
- LIBS = -ldl -lpthread -lxrdp
+-LIBS = -ldl -lpthread -lxrdp
 -CC = gcc
++LDFLAGS += -L/usr/gnu/lib -L../libxrdp -Wl,-rpath,.
++LIBS = $(DLLIB) -lpthread -lxrdp
 +CPPFLAGS += -DSHAREDIR=\"$(DESTDIR)/share/xrdp\"
  
  all: xrdp

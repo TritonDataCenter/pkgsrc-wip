@@ -18,9 +18,10 @@ $NetBSD$
 +CFLAGS += -Wall -I../common -fPIC $(DEFINES)
  C_OS_FLAGS = $(CFLAGS) -c
 -LDFLAGS = -shared
-+LDFLAGS += -shared
- LIBS = -ldl
+-LIBS = -ldl
 -CC = gcc
++LDFLAGS += -shared
++LIBS = $(DLLIB)
  
  all: vnc
  

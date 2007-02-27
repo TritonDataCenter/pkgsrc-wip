@@ -20,7 +20,8 @@ $NetBSD$
  #CFLAGS += -DXRDP_DEBUG
  C_OS_FLAGS = $(CFLAGS) -c
  LDFLAGS = -shared
- LIBS = -ldl
+-LIBS = -ldl
++LIBS = $(DLLIB)
  LIBS += -lcrypto
 -CC = gcc
  
