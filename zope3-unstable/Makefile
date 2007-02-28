@@ -7,7 +7,7 @@ CATEGORIES=		www
 MASTER_SITES=		http://www.zope.org/Products/Zope3/3.3.0c1/
 EXTRACT_SUFX=		.tgz
 
-MAINTAINER=		ykomatsu@akaumigame.org
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://www.zope.org/DevHome/Zope3/
 COMMENT=		Zope 3 Application Server
 
