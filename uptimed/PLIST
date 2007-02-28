@@ -5,3 +5,5 @@ man/man1/uprecords.1
 man/man8/uptimed.8
 sbin/uptimed
 share/examples/rc.d/uptimed
+share/examples/uptimed/uptimed.conf-dist
+@dirrm share/examples/uptimed
