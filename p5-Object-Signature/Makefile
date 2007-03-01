@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	Object-Signature-1.03
+DISTNAME=	Object-Signature-1.05
 PKGNAME=	p5-${DISTNAME}
 CATEGORIES=	devel perl5
 MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=Object/}
