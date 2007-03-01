@@ -1,4 +1,4 @@
 @comment $NetBSD$
+lib/httpd/mod_frontpage.so
 sbin/fpexec
 sbin/fpstatic
-lib/httpd/mod_frontpage.so

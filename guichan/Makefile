@@ -8,11 +8,11 @@ MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=guichan/}
 
 MAINTAINER=		Pseudo.Statistic@gmail.com
 HOMEPAGE=		http://guichan.sourceforge.net/
-COMMENT= 		Portable C++ GUI library for games
+COMMENT=	Portable C++ GUI library for games
 
-USE_TOOLS+=             gmake
-USE_LIBTOOL=            yes
-GNU_CONFIGURE=          yes
+USE_TOOLS+=		gmake
+USE_LIBTOOL=		yes
+GNU_CONFIGURE=		yes
 SHLIBTOOL_OVERRIDE+=	libtool
 
 GNU_CONFIGURE=		yes

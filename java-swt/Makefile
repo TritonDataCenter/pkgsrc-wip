@@ -15,7 +15,7 @@ DEPENDS+=	unzip-[0-9]*:../../archivers/unzip
 
 WRKSRC=			${WRKDIR}
 USE_JAVA2=		yes
-PKG_JVMS_ACCEPTED=	sun-jdk13 sun-jdk14 jdk13 kaffe
+PKG_JVMS_ACCEPTED=	sun-jdk13 sun-jdk14 blackdown-jdk13 kaffe
 PKG_JVM_DEFAULT=	kaffe
 
 UNZIP_BIN=	${LOCALBASE}/bin/unzip

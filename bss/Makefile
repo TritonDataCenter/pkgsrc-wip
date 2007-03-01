@@ -3,7 +3,7 @@
 
 DISTNAME=		bss-0.6
 PKGREVISION=   1
-CATEGORIES=		wip security
+CATEGORIES=		security
 MASTER_SITES=		http://www.secuobs.com/
 
 MAINTAINER=		pancake@phreaker.net

@@ -8,12 +8,12 @@ EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	blair.sadewitz@gmail.com
 HOMEPAGE=	http://xorg.freedesktop.org/
-COMMENT=        X Input extension library
+COMMENT=	X Input extension library
 
 PKG_INSTALLATION_TYPES= overwrite pkgviews
-PKG_DESTDIR_SUPPORT=    user-destdir
+PKG_DESTDIR_SUPPORT=	user-destdir
 
-CONFIGURE_ENV+=         LIB_MAN_SUFFIX=3
+CONFIGURE_ENV+=		LIB_MAN_SUFFIX=3
 
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes

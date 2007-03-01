@@ -1,6 +1,6 @@
 # $NetBSD$
 
-NEED_LIBUXRE=   1
+NEED_LIBUXRE=	1
 
 .include "../../wip/heirloom-common/Makefile.prog2.common"
 

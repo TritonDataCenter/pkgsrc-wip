@@ -3,7 +3,7 @@
 
 DISTNAME=	appres-1.0.1
 PKGREVISION=	1
-CATEGORIES=	wip
+CATEGORIES=	x11
 MASTER_SITES=	http://xorg.freedesktop.org/releases/individual/app/
 EXTRACT_SUFX=	.tar.bz2
 

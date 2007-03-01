@@ -6,7 +6,7 @@ CATEGORIES=	chat
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=erc/}
 
 MAINTAINER=	hsaliak@gmail.com
-HOMEPAGE=	http://www.emacswiki.org/cgi-bin/wiki?EmacsIRCClient
+HOMEPAGE=	http://www.emacswiki.org/cgi-bin/wiki?ERC
 COMMENT=	IRC client for Emacs
 
 USE_TOOLS+=	gmake

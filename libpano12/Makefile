@@ -11,7 +11,7 @@ HOMEPAGE=		http://panotools.sourceforge.net/
 COMMENT=		Panorama-tools is for making panoramic images from multiple pictures
 
 MAKE_FILE=		makefile.netbsd
-USE_JAVA=		YES
+USE_JAVA=		yes
 USE_PKGLOCALEDIR=	yes
 
 post-extract:

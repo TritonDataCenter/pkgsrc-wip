@@ -24,7 +24,7 @@ CONFIGURE_ARGS+=	--with-root-prefix=${PREFIX}
 .include "../../mk/bsd.prefs.mk"
 
 .if !empty(USE_INET6:M[yY][eE][sS])
-CONFIGURE_ARGS+=        --enable-ipv6
+CONFIGURE_ARGS+=	--enable-ipv6
 .endif
 
 .include "options.mk"

@@ -10,7 +10,7 @@ MAINTAINER=		tv@NetBSD.org
 HOMEPAGE=		http://dominia.org/djao/limitipconn2.html
 COMMENT=		Limits per-IP connections to an Apache 2 server
 
-APACHE_MODULE=		# defined
+APACHE_MODULE=		yes
 MAKE_FLAGS+=		APXS=${APXS:Q}
 
 post-install:

@@ -27,7 +27,7 @@ LINUX_BINPKG_FILES=	intel-icc7-7.1-6.${LINUX_ARCH_REQD}.rpm \
 			intel-iidb7-7.1-11.${LINUX_ARCH_REQD}.rpm \
 			intel-isubh7-7.1-6.${LINUX_ARCH_REQD}.rpm
 .else
-.error "This is unavailable for your machine!"
+PKG_FAIL_REASON=	"This is unavailable for your machine!"
 .endif
 .endif
 

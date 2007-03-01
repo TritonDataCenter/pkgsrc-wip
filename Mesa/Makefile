@@ -1,7 +1,7 @@
 # $NetBSD$
 
 PKGNAME=	Mesa-${MESA_VERSION}
-MASTER_SITES= 	# empty
+MASTER_SITES=	# empty
 DISTFILES=	# empty
 
 MAINTAINER=	pkgsrc-users@NetBSD.org

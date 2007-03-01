@@ -13,7 +13,7 @@ COMMENT=		TV viewer for the Gnome desktop
 USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=		yes
 GNU_CONFIGURE=		yes
-USE_DIRS+=		xdg-dirs-1.2 gnome-dirs-1.5
+USE_DIRS+=		xdg-1.2 gnome1-1.5
 USE_TOOLS+=		gmake intltool perl
 
 CONFIGURE_ARGS+=	--disable-rebuild-man

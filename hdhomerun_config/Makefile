@@ -15,7 +15,7 @@ WRKSRC=		${WRKDIR}/libhdhomerun
 BUILD_TARGET=	hdhomerun_config
 USE_LANGUAGES+=	c
 
-INSTALLATION_DIRS=      bin
+INSTALLATION_DIRS=	bin
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/hdhomerun_config ${PREFIX}/bin/hdhomerun_config

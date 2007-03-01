@@ -5,7 +5,7 @@ DISTNAME=		qcomicbook-0.3.4
 CATEGORIES=		graphics
 MASTER_SITES=		http://linux.bydg.org/~yogin/
 
-MAINTAINER=		pkgsrc-users@NetBSD.org	
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://linux.bydg.org/~yogin/
 COMMENT=		Viewer for comic book archives
 

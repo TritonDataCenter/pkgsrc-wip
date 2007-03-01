@@ -19,12 +19,12 @@ NX=		nx
 NX_SCRIPT=	${NX}.sh
 NX_LIB=		${PREFIX}/lib/${NX}
 
-SUBST_CLASSES+=         paths
-SUBST_FILES.paths=      ${WRKDIR}/${NX_SCRIPT}
-SUBST_SED.paths+=       -e 's,@PREFIX@,${PREFIX},g'
-SUBST_SED.paths+=       -e 's,@SH@,${SH},g'
-SUBST_SED.paths+=       -e 's,@NX@,${NX},g'
-SUBST_STAGE.paths=      post-patch
+SUBST_CLASSES+=		paths
+SUBST_FILES.paths=	${WRKDIR}/${NX_SCRIPT}
+SUBST_SED.paths+=	-e 's,@PREFIX@,${PREFIX},g'
+SUBST_SED.paths+=	-e 's,@SH@,${SH},g'
+SUBST_SED.paths+=	-e 's,@NX@,${NX},g'
+SUBST_STAGE.paths=	post-patch
 
 .include "../../emulators/suse_linux/Makefile.application"
 

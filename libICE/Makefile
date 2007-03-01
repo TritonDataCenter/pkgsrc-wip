@@ -12,7 +12,7 @@ HOMEPAGE=	http://xorg.freedesktop.org/releases/individual/
 COMMENT=	Inter-client exchange (ICE) library for modular X.org
 
 PKG_INSTALLATION_TYPES= overwrite pkgviews
-PKG_DESTDIR_SUPPORT=    user-destdir
+PKG_DESTDIR_SUPPORT=	user-destdir
 
 CPPFLAGS+=	-D_NETBSD_SOURCE
 

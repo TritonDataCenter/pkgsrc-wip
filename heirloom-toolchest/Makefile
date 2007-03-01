@@ -12,7 +12,7 @@ NEED_LIBCURSES=		1
 
 PKGNAME=	heirloom-toolchest-${HEIRLOOM_VER}
 
-DEPENDS+=       heirloom-doc-${HEIRLOOM_VER}:../../wip/heirloom-doc
+DEPENDS+=	heirloom-doc-${HEIRLOOM_VER}:../../wip/heirloom-doc
 
 MAKE_FLAGS+=	NO_INSTALL_INTRO=1
 

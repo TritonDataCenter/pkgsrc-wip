@@ -9,7 +9,7 @@ MAINTAINER=	mwicks@kettering.edu
 HOMEPAGE=	http://hplip.sourceforge.net/
 COMMENT=	Drivers and utilities for HP Printers and All-in-One devices
 
-USE_TOOLS+= 	gmake
+USE_TOOLS+=	gmake
 USE_LIBTOOL=	yes
 USE_LANGUAGES+=	c c++
 

@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		bluez-gnome-0.4
-CATEGORIES=		wip
+CATEGORIES=		comms
 MASTER_SITES=		http://bluez.sourceforge.net/download/
 
 MAINTAINER=		pancake@phreaker.net

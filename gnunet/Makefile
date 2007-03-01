@@ -23,7 +23,7 @@ LDFLAGS+=		-lpthread -lintl
 .include "options.mk"
 
 CONFIGURE_ARGS+=	--with-extractor=${BUILDLINK_PREFIX.libextractor}
-CONFIGURE_ARGS+=        --without-gtk
+CONFIGURE_ARGS+=	--without-gtk
 CONFIGURE_ARGS+=	--sysconfdir=${PKG_SYSCONFDIR:Q}
 
 post-patch:

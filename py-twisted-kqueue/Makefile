@@ -19,7 +19,7 @@ PYTHON_VERSIONS_ACCEPTED= 24 23 22
 PKG_SKIP_REASON+= "${PKGNAME} is not available for ${MACHINE_PLATFORM}, needs OS support for kqueue(2)"
 .endif
 
-CONFLICTS+=     ${PYPKGPREFIX}-kqueue-[0-9]*
+CONFLICTS+=	${PYPKGPREFIX}-kqueue-[0-9]*
 
 .include "../../lang/python/extension.mk"
 .include "../../mk/bsd.pkg.mk"

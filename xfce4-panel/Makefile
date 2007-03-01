@@ -11,7 +11,7 @@ COMMENT=		Xfce panel
 PKGCONFIG_OVERRIDE=	panel/xfce4-panel-1.0.pc.in
 PTHREAD_AUTO_VARS=	yes
 
-# If using gcc-4, compile the panel launcher without 
+# If using gcc-4, compile the panel launcher without
 # GCC optimization. See
 # http://bugzilla.xfce.org/show_bug.cgi?id=2262
 

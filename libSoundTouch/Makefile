@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		soundtouch-1.3.1
-PKGNAME=                libSoundTouch-1.3.1
+PKGNAME=		libSoundTouch-1.3.1
 CATEGORIES=		audio
 MASTER_SITES=		http://www.surina.net/soundtouch/
 
@@ -12,7 +12,7 @@ COMMENT=		Audio Processing Library
 
 WRKSRC=			${WRKDIR}/${DISTNAME}/
 USE_TOOLS+=		gmake automake pkg-config
-USE_LIBTOOL=            yes
+USE_LIBTOOL=		yes
 USE_LANGUAGES=		c c++
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
@@ -23,7 +23,7 @@ GNU_CONFIGURE=		yes
 # distributed with it's own version of SoundTouch. The patch was
 # taken from FreeBSD Ports.
 # Note: Probably we should split patch-ac or create it from scratch,
-#       but it would be a lot better if it was fixed upstream. 
+#       but it would be a lot better if it was fixed upstream.
 pre-patch:
 	${RM} -rf ${WRKSRC}/config/*
 

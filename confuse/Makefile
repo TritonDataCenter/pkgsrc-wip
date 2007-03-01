@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		confuse-2.5
-CATEGORIES=		wip devel
+CATEGORIES=		devel
 MASTER_SITES=		http://download.savannah.gnu.org/releases/confuse/
 
 MAINTAINER=		pancake@phreaker.net

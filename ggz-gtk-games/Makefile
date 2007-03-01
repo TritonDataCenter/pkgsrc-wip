@@ -5,9 +5,9 @@ DISTNAME=	ggz-gtk-games-0.0.14
 CATEGORIES=	wip
 MASTER_SITES=	http://mirrors.ibiblio.org/pub/mirrors/ggzgamingzone/ggz/0.0.14/
 
-MAINTAINER=     mrohrer@users.sourceforge.net
-HOMEPAGE=       http://www.ggzgamingzone.org
-COMMENT=        GGZ Gaming Zone libraries
+MAINTAINER=	mrohrer@users.sourceforge.net
+HOMEPAGE=	http://www.ggzgamingzone.org
+COMMENT=	GGZ Gaming Zone libraries
 
 CONFIGURE_ARGS+= --enable-debug-gdb
 

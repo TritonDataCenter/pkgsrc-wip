@@ -15,7 +15,7 @@ DEPENDS+=	p5-Unicode-Map8-[0-9]*:../../converters/p5-Unicode-Map8
 DEPENDS+=	p5-Unicode-Map-[0-9]*:../../wip/p5-Unicode-Map
 DEPENDS+=	p5-Jcode-[0-9]*:../../wip/p5-Jcode
 
-PERL5_PACKLIST=         auto/Unicode/MapUTF8/.packlist
+PERL5_PACKLIST=		auto/Unicode/MapUTF8/.packlist
 
 .include "../../lang/perl5/module.mk"
 .include "../../mk/bsd.pkg.mk"

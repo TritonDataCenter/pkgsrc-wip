@@ -12,7 +12,7 @@ COMMENT=	GTK-based Ogg Vorbis and MP3 file tagger
 GNU_CONFIGURE=		yes
 USE_PKGLOCALEDIR=	yes
 USE_DIRS+=		xdg-1.4
-USE_TOOLS+=             gmake intltool pkg-config
+USE_TOOLS+=		gmake intltool pkg-config
 
 .include "../../x11/gtk2/buildlink3.mk"
 .include "../../devel/libglade2/buildlink3.mk"
