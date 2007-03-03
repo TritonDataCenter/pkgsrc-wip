@@ -1,6 +1,10 @@
 @comment $NetBSD$
-bin/qico
 ${QCC}bin/qcc
+bin/qctl
+man/man8/qcc.8
+man/man8/qctl.8
+man/man8/qico.8
+sbin/qico
 share/examples/qico/qico.conf
 share/examples/rc.d/qico
 @dirrm share/examples/qico
