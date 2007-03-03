@@ -10,6 +10,8 @@ MAINTAINER=	hiramatu@boreas.dti.ne.jp
 HOMEPAGE=	http://log4perl.sourceforge.net/
 COMMENT=	Log4j implementation for Perl
 
+DEPENDS+=	p5-PathTools>=0.82:../../devel/p5-PathTools
+DEPENDS+=	p5-Test-Simple>=0.45:../../devel/p5-Test-Simple
 
 PKG_INSTALLATION_TYPES=	overwrite pkgviews
 
