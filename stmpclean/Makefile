@@ -3,10 +3,10 @@
 
 DISTNAME=		stmpclean-0.3
 CATEGORIES=		sysutils
-MASTER_SITES=		http://www.internet2.edu/~shalunov/stmpclean/
+MASTER_SITES=		http://shlang.com/stmpclean/
 
 MAINTAINER=		pancake@phreaker.net
-HOMEPAGE=		http://www.internet2.edu/~shalunov/stmpclean/
+HOMEPAGE=		http://shlang.com/stmpclean/
 COMMENT=		Secure /tmp cleaner
 
 

@@ -18,7 +18,7 @@ PYTHON_PATCH_SCRIPTS=	src/leo.py scripts/LinixInstall.py
 
 EXTRACT_OPTS_ZIP=	-aqo
 
-PYCOMPILEALL=   ${BUILDLINK_PREFIX.${PYPACKAGE}}/${PYLIB}/compileall.py
+PYCOMPILEALL=	${BUILDLINK_PREFIX.${PYPACKAGE}}/${PYLIB}/compileall.py
 
 post-extract:
 	${RM} -rf ${WRKSRC:Q}/scripts/CVS

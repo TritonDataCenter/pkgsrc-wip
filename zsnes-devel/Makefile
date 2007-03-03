@@ -19,7 +19,7 @@ USE_TOOLS+=		gmake autoconf automake
 USE_LANGUAGES=		c c++
 ONLY_FOR_PLATFORM=	*-*-i386 *-*-x86_64
 
-BUILDLINK_API_DEPENDS.zlib+=    zlib>=1.2.1
+BUILDLINK_API_DEPENDS.zlib+=	zlib>=1.2.1
 
 .include "../../mk/bsd.prefs.mk"
 

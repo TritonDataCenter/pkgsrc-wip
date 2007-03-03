@@ -14,7 +14,7 @@ GNU_CONFIGURE=		yes
 
 SUBST_CLASSES+=			fix-paths
 SUBST_STAGE.fix-paths=		pre-configure
-SUBST_MESSAGE.fix-paths=        Fixing absolute paths.
+SUBST_MESSAGE.fix-paths=	Fixing absolute paths.
 SUBST_FILES.fix-paths=		dhcp6*8 dhcp6*5
 SUBST_SED.fix-paths=		-e 's,/usr/local,${PREFIX},g'
 

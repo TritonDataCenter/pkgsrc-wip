@@ -18,7 +18,7 @@ RCS_HEAD=	$$NetBSD$$
 
 do-build:
 	cd ${WRKSRC} && \
-	cc -o chrsh chrsh.c
+	${CC} -o chrsh chrsh.c
 
 pre-install:
 	${SED} -e 's:@PREFIX@:@RCS@:' \
