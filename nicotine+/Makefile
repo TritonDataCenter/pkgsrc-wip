@@ -8,15 +8,15 @@ EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	jfranz@bsdprojects.net
 HOMEPAGE=	http://www.nicotine-plus.org/
-COMMENT=        Client for the SoulSeek, a peer-to-peer network for music
+COMMENT=	Client for the SoulSeek, a peer-to-peer network for music
 
 CONFLICTS=	nicotine-[0-9]*
 WRKSRC=		${WRKDIR}/${DISTNAME}/
 USE_DIRS+=	xdg-1.4
 USE_LANGUAGES=	# none
 
-PYTHON_VERSIONS_ACCEPTED=       24 23 22
-PY_PATCHPLIST=  yes
+PYTHON_VERSIONS_ACCEPTED=	24 23 22
+PY_PATCHPLIST=	yes
 PYDISTUTILSPKG= yes
 
 .include "../../lang/python/extension.mk"
