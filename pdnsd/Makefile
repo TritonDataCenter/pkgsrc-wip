@@ -22,6 +22,10 @@ CONFIGURE_ARGS+=	--sysconfdir=${PKG_SYSCONFDIR:Q}
 CONFIGURE_ARGS+=	--with-target=BSD # just give it a try
 .endif
 
+.if ${OPSYS} == "NetBSD"
+CONFIGURE_ARGS+=	--disable-src-addr-disc
+.endif
+
 INSTALLATION_DIRS=	sbin ${PKGMANDIR}/man5 ${PKGMANDIR}/man8 \
 			share/examples/pdnsd
 
