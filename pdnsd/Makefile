@@ -37,6 +37,8 @@ PKG_GROUPS=		${PDNSD_GROUP}
 PKG_USERS=		${PDNSD_USER}:${PDNSD_GROUP}
 PKG_GECOS.${PDNSD_USER}=	proxy\ DNS\ server\ user
 
+RCD_SCRIPTS=		pdnsd
+
 INSTALLATION_DIRS=	sbin ${PKGMANDIR}/man5 ${PKGMANDIR}/man8 \
 			share/examples/pdnsd
 

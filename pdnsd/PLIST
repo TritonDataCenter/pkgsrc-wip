@@ -5,4 +5,5 @@ man/man8/pdnsd.8
 sbin/pdnsd
 sbin/pdnsd-ctl
 share/examples/pdnsd/pdnsd.conf.sample
+share/examples/rc.d/pdnsd
 @dirrm share/examples/pdnsd
