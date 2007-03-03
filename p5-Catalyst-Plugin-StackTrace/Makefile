@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	Catalyst-Plugin-StackTrace-0.02
+DISTNAME=	Catalyst-Plugin-StackTrace-0.06
 PKGNAME=	p5-${DISTNAME}
 CATEGORIES=	www perl5
 MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=Catalyst/}
