@@ -26,6 +26,17 @@ CONFIGURE_ARGS+=	--with-target=BSD # just give it a try
 CONFIGURE_ARGS+=	--disable-src-addr-disc
 .endif
 
+PDNSD_USER?=		pdnsd
+.if ${OPSYS} == "Interix"
+PDNSD_GROUP?=		nogroup
+.else
+PDNSD_GROUP?=		pdnsd
+.endif
+
+PKG_GROUPS=		${PDNSD_GROUP}
+PKG_USERS=		${PDNSD_USER}:${PDNSD_GROUP}
+PKG_GECOS.${PDNSD_USER}=	proxy\ DNS\ server\ user
+
 INSTALLATION_DIRS=	sbin ${PKGMANDIR}/man5 ${PKGMANDIR}/man8 \
 			share/examples/pdnsd
 
