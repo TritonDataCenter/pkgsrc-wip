@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	Test-WWW-Mechanize-Catalyst-0.35
+DISTNAME=	Test-WWW-Mechanize-Catalyst-0.37
 PKGNAME=	p5-${DISTNAME}
 CATEGORIES=	devel perl5
 MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=../by-authors/id/L/LB/LBROCARD/}
