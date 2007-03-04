@@ -64,7 +64,7 @@ post-fetch:
 		${PHASE_MSG} "Distfile is from today." ; \
 	  else \
 		${ECHO} "Distfile is dated from ${DISTDATE}." ; \
-		${ECHO} "Please cleandir and fetch distfile again," ; \
+		${ECHO} "Please distclean and fetch distfile again," ; \
 		${ECHO} "or set PKG_OPTIONS.ffmpeg-snapshot=old-dist\
 		option to build anyway." ; \
 		exit 1; \
