@@ -15,6 +15,8 @@ USE_TOOLS+=		perl:run
 USE_LANGUAGES=		# none
 REPLACE_PERL+=		policyd-weight
 
+BUILD_DEFS+=		VARBASE
+
 POLICYD_WEIGHT_USER?=	polw
 POLICYD_WEIGHT_GROUP?=	polw
 
