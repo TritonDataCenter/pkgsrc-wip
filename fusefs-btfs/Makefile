@@ -20,5 +20,5 @@ do-install:
 
 .include "../../comms/openobex/buildlink3.mk"
 .include "../../wip/bluez-libs/buildlink3.mk"
-.include "../../wip/fusefs/buildlink3.mk"
+.include "../../mk/fuse/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
