@@ -32,7 +32,5 @@ lib/vhook/fish.so
 lib/vhook/null.so
 lib/vhook/ppm.so
 lib/vhook/watermark.so
-man/man1/ffmpeg.1
-man/man1/ffserver.1
 @dirrm lib/vhook
 @dirrm include/ffmpeg
