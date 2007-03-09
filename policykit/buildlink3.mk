@@ -13,7 +13,7 @@ BUILDLINK_ORDER:=	${BUILDLINK_ORDER} ${BUILDLINK_DEPTH}PolicyKit
 
 .if ${POLICYKIT_BUILDLINK3_MK} == "+"
 BUILDLINK_API_DEPENDS.PolicyKit+=	PolicyKit>=20060821
-BUILDLINK_PKGSRCDIR.PolicyKit?=	../../wip/policykit.import
+BUILDLINK_PKGSRCDIR.PolicyKit?=	../../wip/policykit
 .endif	# POLICYKIT_BUILDLINK3_MK
 
 .include "../../devel/glib2/buildlink3.mk"
