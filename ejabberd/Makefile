@@ -53,7 +53,7 @@ CONF_FILES+=	${EGDIR}/ejabberd.cfg ${PKG_SYSCONFDIR}/ejabberd.cfg
 CONF_FILES+=	${EGDIR}/ejabberd.defaults ${PKG_SYSCONFDIR}/ejabberd.defaults
 
 post-install:
-#	${INSTALL_SCRIPT} ${WRKDIR}/ejabberd ${PREFIX}/bin
+#	${INSTALL_SCRIPT} ${WRKDIR}/ejabberd ${PREFIX}/sbin
 	${INSTALL_SCRIPT} ${WRKSRC}/tools/ejabberdctl ${PREFIX}/bin
 	${INSTALL_DATA_DIR} ${EGDIR}
 	${INSTALL_DATA} ${FILESDIR}/ejabberd.defaults ${EGDIR}
