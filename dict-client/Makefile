@@ -19,4 +19,5 @@ FILESDIR=	${.CURDIR}/../../wip/dict-server/files
 PATCHDIR=	${.CURDIR}/../../wip/dict-server/patches
 DISTINFO_FILE=	${.CURDIR}/../../wip/dict-server/distinfo
 
+.include "../../devel/zlib/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
