@@ -25,7 +25,7 @@ EXTRA_DOC_FILES=	COPYING.LIB README doc/libmaa.600dpi.ps
 
 post-install:
 	set -e; \
-	for i in $${EXTRA_DOC_FILES}; do \
+	for i in ${EXTRA_DOC_FILES}; do \
 		${INSTALL_DATA} ${WRKSRC}/"$${i}" ${PKGDOCDIR}; \
 	done
 
