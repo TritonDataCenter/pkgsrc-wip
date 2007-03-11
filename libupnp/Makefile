@@ -1,9 +1,10 @@
 # $NetBSD$
 #
 
-DISTNAME=		libupnp-1.4.1
+DISTNAME=		libupnp-1.4.3
 CATEGORIES=		net
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=pupnp/}
+EXTRACT_SUFX=		.tar.bz2
 
 MAINTAINER=		obata@lins.jp
 HOMEPAGE=		http://pupnp.sourceforge.net/
