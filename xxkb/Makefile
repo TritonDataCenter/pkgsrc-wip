@@ -12,6 +12,7 @@ MAINTAINER=	cheusov@tut.by
 HOMEPAGE=	http://pascal.tsu.ru/other/xxkb/
 COMMENT=	XXKB - switches and indicates a current keyboard layout
 
+USE_TOOLS+=		xmkmf
 USE_IMAKE=		yes
 DOC_FILES=		LICENSE README.koi8
 DOC_DIR=		${PREFIX}/share/doc/${PKGBASE}
