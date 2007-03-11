@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	linuxigd-0.95
+DISTNAME=	linuxigd-1.0
 CATEGORIES=	net
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=linux-igd/}
 

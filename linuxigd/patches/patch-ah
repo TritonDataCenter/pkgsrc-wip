@@ -1,8 +1,8 @@
 $NetBSD$
 
---- etc/upnpd.conf.orig	2006-02-02 08:53:39.000000000 +0900
+--- etc/upnpd.conf.orig	2006-08-17 03:19:30.000000000 +0900
 +++ etc/upnpd.conf
-@@ -64,9 +64,9 @@ description_document_name = gatedesc.xml
+@@ -67,9 +67,9 @@ description_document_name = gatedesc.xml
  
  # The path to the xml documents
  # Do not include the trailing "/"
