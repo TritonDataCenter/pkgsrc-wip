@@ -65,5 +65,7 @@ do-install:
 	cd ${WRKSRC} &&							\
 	    ${INSTALL_SCRIPT} crm114-mode.el ${EMACSDIR}
 
+BROKEN=	Regression tests are not quite right yet.
+
 .include "../../devel/tre/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
