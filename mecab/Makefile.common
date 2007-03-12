@@ -1,4 +1,4 @@
 # $NetBSD$
 #
 
-MECAB_VERSION=		0.93
+MECAB_VERSION=		0.95

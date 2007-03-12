@@ -3,6 +3,7 @@ lib/mecab/dic/jumandic/char.bin
 lib/mecab/dic/jumandic/dicrc
 lib/mecab/dic/jumandic/left-id.def
 lib/mecab/dic/jumandic/matrix.bin
+lib/mecab/dic/jumandic/pos-id.def
 lib/mecab/dic/jumandic/rewrite.def
 lib/mecab/dic/jumandic/right-id.def
 lib/mecab/dic/jumandic/sys.dic

@@ -5,10 +5,10 @@
 DISTNAME=	mecab-ruby-${MECAB_VERSION}
 PKGNAME=	${RUBY_PKGPREFIX}-mecab-${MECAB_VERSION}
 CATEGORIES=	japanese textproc ruby
-MASTER_SITES=	${MASTER_SITE_SOURCEFORGE_JP:=mecab/21190/}
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=mecab/}
 
 MAINTAINER=	obata@lins.jp
-HOMEPAGE=	http://mecab.sourceforge.jp/
+HOMEPAGE=	http://mecab.sourceforge.net/
 COMMENT=	MeCab ruby module
 
 USE_LANGUAGES=	c c++

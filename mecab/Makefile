@@ -8,7 +8,7 @@ MASTER_SITES=	#empty
 DISTFILES=	#empty
 
 MAINTAINER=	obata@lins.jp
-HOMEPAGE=	http://mecab.sourceforge.jp/
+HOMEPAGE=	http://mecab.sourceforge.net/
 COMMENT=	Yet Another Part-of-Speech and Morphological Analyzer
 
 DEPENDS+=	mecab-base>=${MECAB_VERSION}:../../wip/mecab-base
