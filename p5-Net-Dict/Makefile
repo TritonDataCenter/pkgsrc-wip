@@ -7,7 +7,7 @@ CATEGORIES=		net textproc
 MASTER_SITES=		${MASTER_SITE_PERL_CPAN:=Net/}
 
 MAINTAINER=		cheusov@tut.by
-HOMEPAGE=		http://www.cpan.org/modules/by-module/Net/
+HOMEPAGE=		http://search.cpan.org/~neilb/Net-Dict/
 COMMENT=		Client API for the DICT protocol defined in RFC2229
 
 PKG_INSTALLATION_TYPES= overwrite pkgviews
