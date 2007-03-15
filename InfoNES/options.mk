@@ -20,7 +20,7 @@ SRC_SUBDIR=		linux
 .include "../../mk/oss.buildlink3.mk"
 .endif
 
-.if !empty(PKG_OPTIONS:Mgtk)
+.if !empty(PKG_OPTIONS:Msdl)
 SRC_SUBDIR=		sdl
 .include "../../devel/SDL/buildlink3.mk"
 .endif
