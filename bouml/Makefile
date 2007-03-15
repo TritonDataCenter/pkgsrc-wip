@@ -10,7 +10,7 @@ MAINTAINER=		kcf@users.sourceforge.net
 HOMEPAGE=		http://bouml.free.fr/
 COMMENT=		UML modeling tool, generates C++, JAVA, and IDL
 
-BOUMLVERSION=		2.21.4
+BOUMLVERSION=		2.22
 
 USE_LIBTOOL=		YES
 USE_TOOLS+=		gmake
