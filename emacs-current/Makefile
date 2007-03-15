@@ -44,7 +44,7 @@ CONF_FILES_PERMS+=	/dev/null ${VARBASE}/games/emacs/tetris-scores ${GAMEOWN:Q} $
 
 PKG_OPTIONS_VAR=	PKG_OPTIONS.emacs_current
 PKG_OPTIONS_OPTIONAL_GROUPS+= toolkit
-PKG_OPTIONS_GROUP.toolkit= emacs-xaw3d motif gtk
+PKG_OPTIONS_GROUP.toolkit= motif gtk
 .include "../../mk/bsd.options.mk"
 
 .if !empty(PKG_OPTIONS:Mmotif)
@@ -53,10 +53,8 @@ CONFIGURE_ARGS+=	--with-x-toolkit=motif
 .elif !empty(PKG_OPTIONS:Mgtk)
 .include "../../x11/gtk2/buildlink3.mk"
 CONFIGURE_ARGS+=	--with-x-toolkit=gtk
-.elif !empty(PKG_OPTIONS:Memacs-xaw3d)
-.include "../../x11/Xaw3d/buildlink3.mk"
-CONFIGURE_ARGS+=	--with-x-toolkit=athena
 .else
+.include "../../mk/xaw.buildlink3.mk"
 CONFIGURE_ARGS+=	--with-x-toolkit=athena
 .endif
 
