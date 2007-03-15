@@ -32,6 +32,9 @@ CONFIGURE_ARGS+=	--with-png
 CONFIGURE_ARGS+=	--localstatedir=${VARBASE:Q}
 CONFIGURE_ENV+=		GAMEOWN=${GAMEOWN:Q}
 
+BUILD_DEFS+=		VARBASE
+BUILD_DEFS+=		GAMEDATAMODE
+
 SUBST_CLASSES+=			test_equal
 SUBST_STAGE.test_equal=		pre-configure
 SUBST_MESSAGE.test_equal=	Fixing bashisms in test(1) usage.
