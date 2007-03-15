@@ -98,9 +98,6 @@ CONFIGURE_ARGS+=	--enable-lirc
 .	endif
 .endif
 
-DEPENDS+=	audacious-1.3.1:../../wip/audacious
-DEPENDS+=	taglib>=1.4:../../audio/taglib
-
 .include "../../wip/audacious/buildlink3.mk"
 .include "../../wip/libadplug/buildlink3.mk"
 .include "../../wip/libbinio/buildlink3.mk"
