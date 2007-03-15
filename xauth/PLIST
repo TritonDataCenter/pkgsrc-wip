@@ -1,3 +1,0 @@
-@comment $NetBSD$
-bin/xauth
-man/man1/xauth.1
