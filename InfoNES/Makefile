@@ -19,5 +19,4 @@ do-install:
 	${INSTALL_DATA_DIR} ${PREFIX}/share/doc/InfoNES
 	${INSTALL_DATA} ${FILESDIR}/keys.txt ${PREFIX}/share/doc/InfoNES
 
-.include "../../mk/x11.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
