@@ -43,5 +43,4 @@ SCM_TAG!=	${DATE} +%Y%m%d
 .include "../../audio/libvorbis/buildlink3.mk"
 .include "../../devel/SDL/buildlink3.mk"
 .include "../../multimedia/libmpeg2/buildlink3.mk"
-.include "../../mk/x11.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
