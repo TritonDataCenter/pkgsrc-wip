@@ -54,4 +54,5 @@ do-install:
 .include "../../devel/SDL/buildlink3.mk"
 .include "../../devel/zlib/buildlink3.mk"
 .include "../../textproc/expat/buildlink3.mk"
+.include "../../x11/libXinerama/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
