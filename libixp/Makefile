@@ -5,7 +5,7 @@ PKGREVISION=		1
 CATEGORIES=		devel
 MASTER_SITES=		http://libs.suckless.org/download/
 
-MAINTAINER=		pkgsrc-users@NetBSD.org
+MAINTAINER=		cosmedbr@users.sourceforge.net
 HOMEPAGE=		http://libs.suckless.org/
 COMMENT=		Standalone client/server 9P library
 
