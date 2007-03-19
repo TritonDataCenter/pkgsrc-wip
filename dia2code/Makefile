@@ -11,27 +11,16 @@ COMMENT=		Small utility used to generate code from a Dia diagram
 
 GNU_CONFIGURE=		yes
 
-pre-build:
-	${SED}	-e 's:INCLUDES =:INCLUDES = -I${PREFIX}/include/libxml2/libxml :' \
-	${WRKSRC}/Makefile > ${WRKSRC}/Makefile.temp
-	${MV} ${WRKSRC}/Makefile.temp ${WRKSRC}/Makefile
+SUBST_CLASSES+=		inc
+SUBST_STAGE.inc=	post-configure
+SUBST_FILES.inc=	Makefile */Makefile */*/Makefile */*/*/Makefile
+SUBST_SED.inc=		-e 's:INCLUDES =:INCLUDES = -I${PREFIX}/include/libxml2/libxml :'
 
-	${SED}	-e 's:INCLUDES =:INCLUDES = -I${PREFIX}/include/libxml2/libxml :' \
-	${WRKSRC}/dia2code/Makefile > ${WRKSRC}/dia2code/Makefile.temp
-	${MV} ${WRKSRC}/dia2code/Makefile.temp ${WRKSRC}/dia2code/Makefile
-
-	${SED}	-e 's:INCLUDES =:XML_INCLUDES = -I${PREFIX}/include/libxml2/libxml :' \
-	${WRKSRC}/dia2code/docs/Makefile > ${WRKSRC}/dia2code/docs/Makefile.temp
-	${MV} ${WRKSRC}/dia2code/docs/Makefile.temp ${WRKSRC}/dia2code/docs/Makefile
-
-	${SED}	-e 's:INCLUDES =:XML_INCLUDES = -I${PREFIX}/include/libxml2/libxml :' \
-	${WRKSRC}/dia2code/docs/en/Makefile > ${WRKSRC}/dia2code/docs/en/Makefile.temp
-	${MV} ${WRKSRC}/dia2code/docs/en/Makefile.temp ${WRKSRC}/dia2code/docs/en/Makefile
+INSTALLATION_DIRS_FROM_PLIST=	yes
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/dia2code/dia2code ${PREFIX}/bin
 	${INSTALL_MAN} ${WRKSRC}/dia2code.1 ${PREFIX}/${PKGMANDIR}/man1/dia2code.1
-	${INSTALL_DATA_DIR} ${PREFIX}/share/doc/dia2code
 	${INSTALL_DATA} ${WRKSRC}/README ${PREFIX}/share/doc/dia2code/README
 
 .include "../../textproc/libxml2/buildlink3.mk"
