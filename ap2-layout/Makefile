@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	mod_layout-4.0.2a
+DISTNAME=	mod_layout-4.1
 PKGNAME=	${DISTNAME:S/mod_/ap2-/}
 CATEGORIES=	www
 MASTER_SITES=	http://download.tangent.org/
@@ -13,6 +13,7 @@ USE_LIBTOOL=	yes
 APACHE_MODULE=	yes
 
 MAKE_FLAGS+=	builddir=${WRKSRC:Q}
+MAKE_ENV+=	APXS=${APXS:Q}
 
 .include "../../www/apache2/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
