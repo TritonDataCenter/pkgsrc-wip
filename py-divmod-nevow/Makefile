@@ -1,10 +1,10 @@
 # $NetBSD$
 
-NEVOW_VERSION=	0.9.0
+NEVOW_VERSION=	0.9.18
 DISTNAME=	Nevow-${NEVOW_VERSION}
 PKGNAME=	${PYPKGPREFIX}-divmod-nevow-${NEVOW_VERSION}
 CATEGORIES=	www python
-MASTER_SITES=	http://www.mirrorservice.org/sites/www.ibiblio.org/gentoo/distfiles/
+MASTER_SITES=	ftp://ftp.osuosl.org/pub/nslu2/sources/
 EXTRACT_SUFX=	.tar.gz
 
 MAINTAINER=	milos.negovanovic@googlemail.com
