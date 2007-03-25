@@ -4,3 +4,8 @@
 @comment bin/jedutil
 bin/mame
 @comment bin/romcmp
+share/doc/sdlmame/SDLMAME.txt
+share/doc/sdlmame/license.txt
+share/doc/sdlmame/mame.txt
+share/doc/sdlmame/windows.txt
+@dirrm share/doc/sdlmame
