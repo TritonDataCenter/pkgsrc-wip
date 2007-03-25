@@ -32,7 +32,7 @@ PKG_DEFS+=	-DPPC_ASM
 .endif
 
 .  include "../../mk/endian.mk"
-.if ${MACHINE_ENDIAN:Mlittle-endian}
+.if ${MACHINE_ENDIAN:Mlittle}
 PKG_DEFS+=	-DLSB_FIRST
 .endif
 
