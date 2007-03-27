@@ -3,7 +3,7 @@
 
 MODNAME=	suhosin
 DISTNAME=	suhosin-${PECL_VERSION}
-PECL_VERSION=	0.9.17
+PECL_VERSION=	0.9.18
 CATEGORIES=	www
 MASTER_SITES=	http://www.hardened-php.net/suhosin/_media/
 EXTRACT_SUFX=	.tgz
