@@ -7,7 +7,7 @@ COMMENT=	Dictionary Service Protocol server
 
 .include "../../mk/bsd.prefs.mk"
 
-USE_TOOLS+=		gmake yacc m4:run
+USE_TOOLS+=		gmake yacc lex m4:run
 USE_LIBTOOL=		yes
 
 GNU_CONFIGURE=		yes
