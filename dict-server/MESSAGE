@@ -2,7 +2,9 @@
 $NetBSD$
 
 1) By default dictd uses '${PATH_TO_M4} -P' for
-   preprocessing configuration file. If you dislike this default
+   preprocessing configuration file.
+
+   If you dislike this default
    add dictd_flags='<your options>' to /etc/rc.conf.
 
 2) ${VARBASE}/log/dictd is a preferred directory for logging unless
@@ -10,6 +12,6 @@ $NetBSD$
 
 3) See ${PREFIX}/share/doc/${PKGBASE}/NEWS file for upstream news.
 4) See ${PREFIX}/share/examples/${PKGBASE}/ directory
-   for samples of configuration files.
+   for samples of configuration file.
 
 ===========================================================================
