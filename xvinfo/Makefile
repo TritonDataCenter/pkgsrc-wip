@@ -10,6 +10,8 @@ MAINTAINER=	blair.sadewitz@gmail.com
 HOMEPAGE=	http://xorg.freedesktop.org/
 COMMENT=	Xv info utility from modular X.org
 
+PKG_DESTDIR_SUPPORT=	user-destdir
+
 GNU_CONFIGURE=	yes
 USE_TOOLS+=	pkg-config
 
