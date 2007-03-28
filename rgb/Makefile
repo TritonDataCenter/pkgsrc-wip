@@ -1,10 +1,12 @@
 # $NetBSD$
 #
 
-DISTNAME=		rgb-1.0.0
+DISTNAME=		rgb-1.0.1
 CATEGORIES=		x11
 MASTER_SITES=		http://xorg.freedesktop.org/releases/individual/app/
 EXTRACT_SUFX=		.tar.bz2
+
+PKG_DESTDIR_SUPPORT=	user-destdir
 
 MAINTAINER=		reed@reedmedia.net
 HOMEPAGE=		http://xorg.freedesktop.org/releases/individual/app/
