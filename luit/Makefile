@@ -8,12 +8,11 @@ EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	blair.sadewitz@gmail.com
 HOMEPAGE=	http://xorg.freedesktop.org/
-COMMENT=
+COMMENT=	UTF-8 filter for terminal emulators
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
 USE_TOOLS+=	pkg-config
-USE_LANGUAGES=	c
 GNU_CONFIGURE=	yes
 
 .include "../../fonts/libfontenc/buildlink3.mk"
