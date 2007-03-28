@@ -14,7 +14,6 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 
 USE_TOOLS+=	pkg-config
 GNU_CONFIGURE=	yes
-USE_LANGUAGES=	c c++
 
 .include "../../x11/libXaw/buildlink3.mk"
 .include "../../x11/libXxf86vm/buildlink3.mk"
