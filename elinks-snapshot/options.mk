@@ -4,6 +4,7 @@ PKG_OPTIONS_VAR=	PKG_OPTIONS.elinks
 PKG_SUPPORTED_OPTIONS+=	bittorrent nntp spidermonkey finger gopher
 PKG_SUPPORTED_OPTIONS+=	inet6 x11 elinks-fastmem elinks-exmode expat
 PKG_SUPPORTED_OPTIONS+= elinks-html-highlight elinks-root-exec ssl
+PKG_SUPPORTED_OPTIONS+= elinks-use-alloca boehm-gc
 PKG_OPTIONS_GROUP.tls=	gnutls ssl
 PKG_OPTIONS_REQUIRED_GROUPS=	tls
 PKG_SUGGESTED_OPTIONS=	ssl
@@ -116,4 +117,14 @@ CONFIGURE_ARGS+=	--disable-exmode
 CONFIGURE_ARGS+=	--disable-no-root
 .else
 CONFIGURE_ARGS+=	--enable-no-root
+.endif
+
+.if empty(PKG_OPTIONS:Melinks-use-alloca)
+CONFIGURE_ENV+= ac_cv_func_alloca_works=no
+.endif
+
+.if !empty(PKG_OPTIONS:Mboehm-gc)
+.include "../../devel/boehm-gc/buildlink3.mk"
+
+CONFIGURE_ARGS+=	--with-gc
 .endif
