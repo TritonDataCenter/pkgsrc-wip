@@ -16,6 +16,7 @@ USE_PKGLOCALEDIR=	yes
 USE_LANGUAGES=		c c++
 USE_LIBTOOL=		yes
 HAS_CONFIGURE=		yes
+RCD_SCRIPTS=            000.firebird.sh
 CONFIGURE_ENV+=		AUTOCONF=${LOCALBASE}/bin/autoconf
 CONFIGURE_SCRIPT=	./autogen.sh
 CONFIGURE_ARGS+=	--prefix=${PREFIX}/firebird
