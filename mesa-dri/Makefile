@@ -21,9 +21,6 @@ NO_CONFIGURE=	yes
 
 post-extract:
 	${CP} ${FILESDIR}/netbsd-dri* ${WRKSRC}/configs
-	${CP} ${FILESDIR}/Makefile ${WRKSRC}/
-	${CP} ${FILESDIR}/mklib ${WRKSRC}/bin
-	chmod +x ${WRKSRC}/bin/mklib
 
 .include "../../mk/bsd.prefs.mk"
 
