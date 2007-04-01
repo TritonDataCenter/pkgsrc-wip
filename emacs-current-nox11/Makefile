@@ -7,7 +7,7 @@ CATEGORIES=	editors
 MASTER_SITES=	#
 CONFLICTS=	emacs-[0-9]*
 
-MAINTAINER=	obata@lins.jp
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.gnu.org/software/emacs/emacs.html
 COMMENT=	GNU editing macros (editor)
 
