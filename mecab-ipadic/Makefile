@@ -8,7 +8,7 @@ PKGNAME=	mecab-ipadic-2.7.0.20060707
 CATEGORIES=	japanese textproc
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=mecab/}
 
-MAINTAINER=	obata@lins.jp
+MAINTAINER=	obache@NetBSD.org
 HOMEPAGE=	http://mecab.sourceforge.net/
 COMMENT=	Japanese Morphological Dictionary for MeCab
 

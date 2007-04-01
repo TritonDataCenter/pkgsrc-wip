@@ -5,7 +5,7 @@ DISTNAME=	swftools-0.7.0
 CATEGORIES=	graphics converters
 MASTER_SITES=	http://www.swftools.org/
 
-MAINTAINER=	obata@lins.jp
+MAINTAINER=	obache@NetBSD.org
 HOMEPAGE=	http://www.swftools.org/
 COMMENT=	Collection of SWF manipulation and creation utilities
 

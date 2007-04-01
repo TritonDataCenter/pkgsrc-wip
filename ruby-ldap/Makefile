@@ -5,7 +5,7 @@ PKGNAME=	${RUBY_PKGPREFIX}-ldap-${VER}
 CATEGORIES=	databases ruby
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=ruby-ldap/}
 
-MAINTAINER=	obata@lins.jp
+MAINTAINER=	obache@NetBSD.org
 HOMEPAGE=	http://ruby-ldap.sourceforge.net/
 COMMENT=	LDAP extension module for Ruby
 

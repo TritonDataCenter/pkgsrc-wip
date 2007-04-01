@@ -6,7 +6,7 @@ CATEGORIES=		net
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=pupnp/}
 EXTRACT_SUFX=		.tar.bz2
 
-MAINTAINER=		obata@lins.jp
+MAINTAINER=		obache@NetBSD.org
 HOMEPAGE=		http://pupnp.sourceforge.net/
 COMMENT=		Portable SDK for Universal Plug and Play (UPnP) Devices
 

@@ -7,7 +7,7 @@ CATEGORIES=	japanese textproc
 MASTER_SITES=	#empty
 DISTFILES=	#empty
 
-MAINTAINER=	obata@lins.jp
+MAINTAINER=	obache@NetBSD.org
 HOMEPAGE=	http://mecab.sourceforge.net/
 COMMENT=	Yet Another Part-of-Speech and Morphological Analyzer
 

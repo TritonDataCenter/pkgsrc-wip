@@ -5,7 +5,7 @@ DISTNAME=	pop-before-smtp-1.41
 CATEGORIES=	mail perl5
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=popbsmtp/}
 
-MAINTAINER=	obata@lins.jp
+MAINTAINER=	obache@NetBSD.org
 HOMEPAGE=	http://popbsmtp.sourceforge.net/
 COMMENT=	Simple daemon for pop-before-smtp
 

@@ -5,7 +5,7 @@ DISTNAME=	linuxigd-0.99
 CATEGORIES=	net
 MASTER_SITES=	#
 
-MAINTAINER=	obata@lins.jp
+MAINTAINER=	obache@NetBSD.org
 HOMEPAGE=	http://linux-igd.sourceforge.net/
 COMMENT=	Linux UPnP Internet Gateway Device
 

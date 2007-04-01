@@ -7,7 +7,7 @@ PKGNAME=	java-qdbm-1.0.0.${QDBM_VERSION}
 CATEGORIES=	databases java
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=qdbm/}
 
-MAINTAINER=	obata@lins.jp
+MAINTAINER=	obache@NetBSD.org
 HOMEPAGE=	http://qdbm.sourceforge.net/
 COMMENT=	Java API of QDBM
 

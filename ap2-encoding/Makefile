@@ -5,7 +5,7 @@ PKGNAME=	ap2-encoding-20040616
 CATEGORIES=	www
 MASTER_SITES=	http://webdav.todo.gr.jp/download/
 
-MAINTAINER=	obata@lins.jp
+MAINTAINER=	obache@NetBSD.org
 HOMEPAGE=	http://webdav.todo.gr.jp/
 COMMENT=	Apache module for non-ascii filename interoperability
 

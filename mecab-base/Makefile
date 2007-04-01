@@ -8,7 +8,7 @@ PKGNAME=		mecab-base-${MECAB_VERSION}
 CATEGORIES=		japanese textproc
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=mecab/}
 
-MAINTAINER=		obata@lins.jp
+MAINTAINER=		obache@NetBSD.org
 HOMEPAGE=		http://mecab.sourceforge.net/
 COMMENT=		Yet Another Part-of-Speech and Morphological Analyzer
 

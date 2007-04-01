@@ -8,7 +8,7 @@ PKGNAME=		p5-mecab-${MECAB_VERSION}
 CATEGORIES=		japanese textproc perl5
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=mecab/}
 
-MAINTAINER=		obata@lins.jp
+MAINTAINER=		obache@NetBSD.org
 HOMEPAGE=		http://mecab.sourceforge.net/
 COMMENT=		MeCab perl module
 

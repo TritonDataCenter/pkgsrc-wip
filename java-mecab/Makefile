@@ -8,7 +8,7 @@ PKGNAME=	java-mecab-${MECAB_VERSION}
 CATEGORIES=	japanese textproc java
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=mecab/}
 
-MAINTAINER=	obata@lins.jp
+MAINTAINER=	obache@NetBSD.org
 HOMEPAGE=	http://mecab.sourceforge.net/
 COMMENT=	MeCab java module
 
