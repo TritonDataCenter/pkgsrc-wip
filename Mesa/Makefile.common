@@ -28,7 +28,7 @@ BUILDING_MESA=	yes
 NO_CONFIGURE=	yes
 DIST_SUBDIR=	Mesa-${MESA_VERSION}
 
-.include "../../wip/libX11/buildlink3.mk"
+.include "../../x11/libX11/buildlink3.mk"
 .include "../../x11/libXext/buildlink3.mk"
-.include "../../wip/libXt/buildlink3.mk"
+.include "../../x11/libXt/buildlink3.mk"
 .include "../../x11/xextproto/buildlink3.mk"
