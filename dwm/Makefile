@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=		dwm-2.1
+DISTNAME=		dwm-3.9
 CATEGORIES=		wm
 MASTER_SITES=		http://suckless.org/download/
 
