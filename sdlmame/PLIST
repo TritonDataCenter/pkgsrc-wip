@@ -1,9 +1,8 @@
 @comment $NetBSD$
-@comment bin/chdman
-@comment bin/file2str
-@comment bin/jedutil
+bin/chdman
+bin/jedutil
 bin/mame
-@comment bin/romcmp
+bin/romcmp
 share/doc/sdlmame/SDLMAME.txt
 share/doc/sdlmame/license.txt
 share/doc/sdlmame/mame.txt
