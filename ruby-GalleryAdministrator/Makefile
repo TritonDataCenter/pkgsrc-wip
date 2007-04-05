@@ -6,7 +6,7 @@ PKGNAME=	${RUBY_PKGPREFIX}-GalleryAdministrator-0.0.8
 CATEGORIES=	graphics ruby www
 MASTER_SITES=	http://www.cozmixng.org/~kou/download/
 
-MAINTAINER=	obata@lins.jp
+MAINTAINER=	obache@NetBSD.org
 HOMEPAGE=	http://www.cozmixng.org/~rwiki/?cmd=view;name=GalleryAdministrator
 COMMENT=	CGI and mail interface for [RAA:RubyPhoto] and zphoto
 
