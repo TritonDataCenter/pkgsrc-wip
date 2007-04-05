@@ -1,0 +1,4 @@
+@comment $NetBSD$
+bin/axel
+man/man1/axel.1
+@dirrm man/man1
