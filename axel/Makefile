@@ -5,7 +5,7 @@ DISTNAME=		axel-1.0b
 CATEGORIES=		net
 MASTER_SITES=		http://wilmer.gaast.net/downloads/
 
-MAINTAINER=		pkgsrc-users@NetBSD.org
+MAINTAINER=		alchow@users.sourceforge.net
 HOMEPAGE=		http://wilmer.gaast.net/downloads/
 COMMENT=		HTTP/FTP download accelerator
 

@@ -5,7 +5,7 @@ DISTNAME=	htop-0.6.5
 CATEGORIES=	wip
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=htop/}
 
-MAINTAINER=	pkgsrc-users@NetBSD.org
+MAINTAINER=	alchow@users.sourceforge.net
 HOMEPAGE=	http://htop.sourceforge.net/
 COMMENT=	Interactive process viewer for Linux
 
