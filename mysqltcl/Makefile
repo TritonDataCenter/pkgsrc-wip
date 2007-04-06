@@ -4,7 +4,7 @@ DISTNAME=		mysqltcl-3.02
 CATEGORIES=		wip
 MASTER_SITES=		http://www.xdobry.de/mysqltcl/
 
-MAINTAINER=		pkgsrc-users@NetBSD.org
+MAINTAINER=		alchow@users.sourceforge.net
 
 HOMEPAGE=               http://www.xdobry.de/mysqltcl/
 COMMENT=		Tcl Mysql Interface
