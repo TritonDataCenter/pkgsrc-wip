@@ -11,6 +11,8 @@ COMMENT=	GNU editing macros (editor)
 
 USE_TOOLS+=	gmake makeinfo gzip
 
+CONFLICTS+=	emacs-nox11-[0-9]*
+
 BUILD_TARGET=	bootstrap
 
 CVS_REPOSITORIES=	emacs
