@@ -13,6 +13,9 @@ COMMENT=		Desktop panel with menu, pager, and other plugins
 USE_TOOLS+=		gmake
 HAS_CONFIGURE=		yes
 
+# Fixing broken compile because of changed gcc defaults
+LDFLAGS+= -Wl,-export-dynamic
+
 .include "../../mk/bsd.prefs.mk"
 
 .if ${OPSYS} == "Linux"
@@ -26,5 +29,6 @@ CONFIGURE_ARGS+=	--prefix=${PREFIX:Q}
 MAKE_ENV+=		PKGMANDIR=${PKGMANDIR:Q}
 MANCOMPRESSED=		yes
 
+.include "../../x11/libXmu/buildlink3.mk"
 .include "../../x11/gtk2/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
