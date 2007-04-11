@@ -26,7 +26,7 @@ do-install:
 #
 
 # Additional plugins etc.
-.include "../../wip/xfce4-xmms-plugin/buildlink3.mk"
+#.include "../../wip/xfce4-xmms-plugin/buildlink3.mk"
 .include "../../wip/xfce4-weather-plugin/buildlink3.mk"
 .include "../../wip/xfce4-wavelan-plugin/buildlink3.mk"
 .include "../../wip/xfce4-datetime-plugin/buildlink3.mk"

@@ -17,7 +17,7 @@ BUILDLINK_PKGSRCDIR.xfce4-wm?=	../../wip/xfce4-wm
 .endif	# XFCE4_WM_BUILDLINK3_MK
 
 .include "../../graphics/hicolor-icon-theme/buildlink3.mk"
-.include "../../graphics/xpm/buildlink3.mk"
+#.include "../../graphics/xpm/buildlink3.mk"
 .include "../../wip/xfce4-mcs-plugins/buildlink3.mk"
 .include "../../x11/startup-notification/buildlink3.mk"
 .include "../../wip/xfce4-dev-tools/buildlink3.mk"
