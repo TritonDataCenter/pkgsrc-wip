@@ -2,7 +2,7 @@
 
 .include "../../wip/xfce4/Makefile.common"
 
-XFCE4_VERSION=	0.4.1
+XFCE4_VERSION=	0.5.0
 
 DISTNAME=	xfce4-datetime-plugin-${XFCE4_VERSION}
 #PKGREVISION=	1
