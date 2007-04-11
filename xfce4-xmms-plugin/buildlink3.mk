@@ -16,7 +16,8 @@ BUILDLINK_API_DEPENDS.xfce4-xmms-plugin+=	xfce4-xmms-plugin>=0.5.1
 BUILDLINK_PKGSRCDIR.xfce4-xmms-plugin?=	../../wip/xfce4-xmms-plugin
 .endif	# XFCE4_XMMS_PLUGIN_BUILDLINK3_MK
 
-.include "../../audio/xmms/buildlink3.mk"
+.include "options.mk"
+
 .include "../../wip/xfce4-panel/buildlink3.mk"
 .include "../../wip/xfce4-dev-tools/buildlink3.mk"
 .include "../../devel/glib2/buildlink3.mk"

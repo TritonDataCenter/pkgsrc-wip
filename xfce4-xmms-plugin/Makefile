@@ -12,6 +12,7 @@ COMMENT=	Xfce XMMS plugin
 
 USE_TOOLS+=	intltool
 
-.include "../../audio/xmms/buildlink3.mk"
+.include "options.mk"
+
 .include "../../wip/xfce4-panel/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
