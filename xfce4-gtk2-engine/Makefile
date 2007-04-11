@@ -2,7 +2,7 @@
 
 .include "../../wip/xfce4/Makefile.common"
 
-XFCE4_VERSION=	2.4.0
+XFCE4_VERSION=	2.4.1
 
 DISTNAME=	gtk-xfce-engine-${XFCE4_VERSION}
 PKGNAME=	xfce4-gtk2-engine-${XFCE4_VERSION}

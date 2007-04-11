@@ -8,6 +8,7 @@ DISTNAME=	xfprint-${XFCE4_VERSION}
 CATEGORIES=	print
 COMMENT=	Xfce print dialog
 
+CONFIGURE_ARGS+=	--with-html-dir=${PREFIX:Q}/share/doc
 CONFIGURE_ARGS+=	--with-printcap=/etc/printcap
 
 .include "options.mk"

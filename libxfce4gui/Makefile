@@ -8,7 +8,7 @@ CATEGORIES=	x11
 COMMENT=	Xfce widget library
 
 USE_TOOLS+=		msgfmt
-CONFIGURE_ARGS+=	--with-html-dir=${PREFIX:Q}/share/doc/html
+CONFIGURE_ARGS+=	--with-html-dir=${PREFIX:Q}/share/doc
 
 PKGCONFIG_OVERRIDE=	libxfcegui4/libxfcegui4-1.0.pc.in
 

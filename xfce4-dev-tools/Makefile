@@ -2,7 +2,7 @@
 
 DISTNAME=	xfce4-dev-tools-4.4.0
 CATEGORIES=	devel
-MASTER_SITES=	http://www.xfce.org/archive/xfce-4.4.0/src/
+MASTER_SITES=	http://www.xfce.org/archive/xfce-4.4.1/src/
 EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	martti@NetBSD.org

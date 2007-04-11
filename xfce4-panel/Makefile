@@ -8,11 +8,12 @@ DISTNAME=		xfce4-panel-${XFCE4_VERSION}
 CATEGORIES=		x11
 COMMENT=		Xfce panel
 
+CONFIGURE_ARGS+=	--with-html-dir=${PREFIX:Q}/share/doc
+
 PKGCONFIG_OVERRIDE=	panel/xfce4-panel-1.0.pc.in
 PTHREAD_AUTO_VARS=	yes
 
-# If using gcc-4, compile the panel launcher without
-# GCC optimization. See
+# If using gcc-4, compile the panel launcher without GCC optimization. See
 # http://bugzilla.xfce.org/show_bug.cgi?id=2262
 
 .if (!empty(CC_VERSION:Mgcc-4.*))
