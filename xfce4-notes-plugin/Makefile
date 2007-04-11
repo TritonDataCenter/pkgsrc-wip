@@ -2,7 +2,7 @@
 
 .include "../../wip/xfce4/Makefile.common"
 
-XFCE4_VERSION=	1.4
+XFCE4_VERSION=	1.4.1
 
 DISTNAME=	xfce4-notes-plugin-${XFCE4_VERSION}
 #PKGREVISION=	1
