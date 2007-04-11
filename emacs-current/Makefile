@@ -17,7 +17,6 @@ BUILD_TARGET=	bootstrap
 
 CVS_REPOSITORIES=	emacs
 CVS_ROOT.emacs=		${CVS_ROOT_GNU}/emacs
-CVS_MODULE.emacs=	emacs
 
 GNU_CONFIGURE=		yes
 INFO_FILES=		yes
