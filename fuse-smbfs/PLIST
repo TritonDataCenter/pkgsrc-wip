@@ -1,0 +1,5 @@
+@comment $NetBSD$
+bin/fusesmb
+bin/fusesmb.cache
+man/man1/fusesmb.1
+man/man5/fusesmb.conf.5
