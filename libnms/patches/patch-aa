@@ -1,0 +1,12 @@
+$NetBSD$
+
+--- include/nemesi/wsocket.h.orig	Mon Oct 23 16:13:55 2006
++++ include/nemesi/wsocket.h
+@@ -40,6 +40,7 @@
+ #include <sys/socket.h>
+ #include <arpa/inet.h>
+ #include <netdb.h>
++#include <netinet/in.h>
+ 
+ #include <nemesi/comm.h>
+ #include <nemesi/types.h>
