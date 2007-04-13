@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		audacious-1.3.1
+DISTNAME=		audacious-1.3.2
 CATEGORIES=		audio
 MASTER_SITES=		http://static.audacious-media-player.org/release/
 EXTRACT_SUFX=		.tgz

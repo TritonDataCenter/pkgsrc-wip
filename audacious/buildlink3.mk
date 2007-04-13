@@ -12,7 +12,7 @@ BUILDLINK_PACKAGES+=	audacious
 BUILDLINK_ORDER:=	${BUILDLINK_ORDER} ${BUILDLINK_DEPTH}audacious
 
 .if ${AUDACIOUS_BUILDLINK3_MK} == "+"
-BUILDLINK_API_DEPENDS.audacious+=	audacious>=1.3.1
+BUILDLINK_API_DEPENDS.audacious+=	audacious>=1.3.2
 BUILDLINK_PKGSRCDIR.audacious?=	../../wip/audacious
 BUILDLINK_DEPMETHOD.audacious?=	build
 .endif	# AUDACIOUS_BUILDLINK3_MK
