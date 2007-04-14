@@ -1,5 +1,5 @@
 @comment $NetBSD$
 bin/boinc_client
 bin/boinc_gui
-lib/libbenchmark.a
+bin/switcher
 share/examples/rc.d/boinc
