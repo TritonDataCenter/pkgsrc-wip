@@ -1,4 +1,4 @@
-# $NetBSD: DEINSTALL,v 1.1 2006/09/17 18:20:20 joerg Exp $
+# $NetBSD$
 
 VARBASE="@VARBASE@"
 

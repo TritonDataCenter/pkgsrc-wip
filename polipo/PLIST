@@ -3,6 +3,7 @@ bin/polipo
 man/man1/polipo.1
 share/polipo/README
 share/polipo/config.sample
+share/polipo/forbidden.sample
 share/polipo/www/Access-control.html
 share/polipo/www/Allowed-ports.html
 share/polipo/www/Apache.html

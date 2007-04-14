@@ -15,7 +15,7 @@ BUILD_DEFS+=	VARBASE
 SUBST_CLASSES+=			fix-paths
 SUBST_STAGE.fix-paths=		pre-configure
 SUBST_MESSAGE.fix-paths=	Fixing absolute paths.
-SUBST_FILES.fix-paths=		Makefile config.sample polipo.man polipo.texi *.c
+SUBST_FILES.fix-paths=		Makefile *.sample polipo.man polipo.texi *.c
 SUBST_SED.fix-paths=		-e 's,/usr/local,${PREFIX},g'
 SUBST_SED.fix-paths+=		-e 's,/var/cache,${VARBASE}/cache,g'
 SUBST_SED.fix-paths+=		-e 's,/etc/polipo,${PKG_SYSCONFDIR}/polipo,g'
@@ -30,7 +30,7 @@ do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/polipo ${PREFIX}/bin
 	${INSTALL_MAN} ${WRKSRC}/polipo.1 ${PREFIX}/${PKGMANDIR}/man1
 	install-info --info-dir=${PREFIX}/${PKGINFODIR} ${WRKSRC}/polipo.info
-	${INSTALL_DATA} ${WRKSRC}/config.sample ${PREFIX}/share/polipo
+	${INSTALL_DATA} ${WRKSRC}/*.sample ${PREFIX}/share/polipo
 	${INSTALL_DATA} ${WRKSRC}/README ${PREFIX}/share/polipo
 	${INSTALL_DATA} ${WRKSRC}/html/* ${PREFIX}/share/polipo/www
 
