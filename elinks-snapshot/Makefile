@@ -3,7 +3,7 @@
 
 DISTNAME=	elinks-current-unstable
 PKGNAME=	elinks-${ELINKS_VERSION}
-PKGREVISION=	1
+PKGREVISION=	2
 CATEGORIES=	www
 MASTER_SITES=	http://elinks.or.cz/download/
 EXTRACT_SUFX=	.tar.bz2
@@ -11,6 +11,8 @@ EXTRACT_SUFX=	.tar.bz2
 MAINTAINER=	blair.sadewitz@gmail.com
 HOMEPAGE=	http://elinks.or.cz/
 COMMENT=	Extended/Enhanced links text-mode web browser (snapshot)
+
+NO_CHECKSUM=	yes
 
 CONFLICTS+=	elinks-[0-9]*
 
