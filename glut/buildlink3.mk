@@ -18,9 +18,9 @@ BUILDLINK_PKGSRCDIR.glut?=	../../wip/glut
 .endif	# GLUT_BUILDLINK3_MK
 
 .include "../../wip/MesaLib/buildlink3.mk"
-.include "../../wip/libX11/buildlink3.mk"
-.include "../../wip/libXt/buildlink3.mk"
+.include "../../x11/libX11/buildlink3.mk"
+.include "../../x11/libXt/buildlink3.mk"
 .include "../../x11/libXmu/buildlink3.mk"
-.include "../../wip/libXi/buildlink3.mk"
+.include "../../x11/libXi/buildlink3.mk"
 
 BUILDLINK_DEPTH:=	${BUILDLINK_DEPTH:S/+$//}
