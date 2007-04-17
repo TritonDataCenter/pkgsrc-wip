@@ -13,7 +13,7 @@ XFCE4_VERSION=		4.4.1
 USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=		yes
 GNU_CONFIGURE=		yes
-USE_TOOLS+=		gmake pkg-config msgfmt perl
+USE_TOOLS+=		gmake pkg-config msgfmt perl intltool
 
 .if ${MACHINE_ARCH} == "alpha"
 GCC_REQD+=		3.0
