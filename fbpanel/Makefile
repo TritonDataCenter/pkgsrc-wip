@@ -6,7 +6,7 @@ CATEGORIES=		x11
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=fbpanel/}
 EXTRACT_SUFX=		.tgz
 
-MAINTAINER=		reed@reedmedia.net
+MAINTAINER=		bsd@cs.ubc.ca
 HOMEPAGE=		http://fbpanel.sourceforge.net/
 COMMENT=		Desktop panel with menu, pager, and other plugins
 
