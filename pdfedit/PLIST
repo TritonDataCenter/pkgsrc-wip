@@ -262,6 +262,7 @@ share/pdfedit/init.qs
 share/pdfedit/init_console.qs
 share/pdfedit/lang/pdfedit_cs.qm
 share/pdfedit/lang/pdfedit_es.qm
+share/pdfedit/lang/pdfedit_ru.qm
 share/pdfedit/lang/pdfedit_sk.qm
 share/pdfedit/menu.qs
 share/pdfedit/mode.conf
