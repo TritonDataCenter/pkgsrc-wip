@@ -18,7 +18,6 @@ REQD_DIRS+=		${XFCE4_EGBASE} ${EGDIR}
 BUILD_DEFS+=		PKG_SYSCONFBASE
 
 USE_TOOLS+=		iceauth:run
-USE_TOOLS+=		intltool
 USE_DIRS+=		xdg-1.4
 
 .include "../../graphics/hicolor-icon-theme/buildlink3.mk"

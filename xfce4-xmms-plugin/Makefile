@@ -10,8 +10,6 @@ CATEGORIES=	audio
 MASTER_SITES=	http://goodies.xfce.org/releases/xfce4-xmms-plugin/
 COMMENT=	Xfce XMMS plugin
 
-USE_TOOLS+=	intltool
-
 .include "options.mk"
 
 .include "../../wip/xfce4-panel/buildlink3.mk"

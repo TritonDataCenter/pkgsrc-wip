@@ -10,7 +10,5 @@ CATEGORIES=	sysutils
 MASTER_SITES=	http://goodies.xfce.org/releases/xfce4-taskmanager/
 COMMENT=	Xfce task manager
 
-USE_TOOLS+=	intltool
-
 .include "../../x11/libxfce4gui/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
