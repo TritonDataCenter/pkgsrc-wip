@@ -2,12 +2,12 @@
 
 .include "../../meta-pkgs/xfce4/Makefile.common"
 
-XFCE4_VERSION=	0.3.1
+XFCE4_VERSION=	0.3.2
 
 DISTNAME=	xfce4-taskmanager-${XFCE4_VERSION}
-PKGREVISION=	1
+#PKGREVISION=	1
 CATEGORIES=	sysutils
-MASTER_SITES=	http://download.berlios.de/xfce-goodies/
+MASTER_SITES=	http://goodies.xfce.org/releases/xfce4-taskmanager/
 COMMENT=	Xfce task manager
 
 USE_TOOLS+=	intltool
