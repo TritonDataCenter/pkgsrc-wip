@@ -23,6 +23,7 @@ CONFIGURE_ARGS+=	--cpu=off
 
 CONFIGURE_ARGS+=	--prefix=${PREFIX:Q}
 MAKE_ENV+=		PKGMANDIR=${PKGMANDIR:Q}
+MANCOMPRESSED=		yes
 
 .include "../../x11/libXmu/buildlink3.mk"
 .include "../../x11/gtk2/buildlink3.mk"
