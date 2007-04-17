@@ -1,0 +1,4 @@
+# $NetBSD$
+
+I recommend building boehm-gc with --enable-redirect-malloc when
+using this option.  See the patches in ${FILESDIR}.
