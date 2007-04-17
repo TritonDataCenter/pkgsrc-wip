@@ -1,0 +1,5 @@
+@comment $NetBSD$
+libexec/xfce4/panel-plugins/xfce4-places-plugin
+share/locale/de/LC_MESSAGES/xfce4-places-plugin.mo
+share/locale/nl/LC_MESSAGES/xfce4-places-plugin.mo
+share/xfce4/panel-plugins/places.desktop
