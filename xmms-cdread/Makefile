@@ -9,6 +9,8 @@ MAINTAINER=		cheusov@tut.by
 HOMEPAGE=		ftp://mud.stack.nl/pub/OuterSpace/willem/
 COMMENT=		XMMS input plugin that reads audio data from CDs
 
+NOT_FOR_PLATFORM=	Interix-*-* NetBSD-*-*
+
 GNU_CONFIGURE=		yes
 
 DOC_FILES=		AUTHORS ChangeLog COPYING NEWS README
