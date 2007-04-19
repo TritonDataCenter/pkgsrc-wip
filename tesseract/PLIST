@@ -1,5 +1,7 @@
 @comment $NetBSD$
 bin/tesseract
+bin/cntraining
+bin/mftraining
 libexec/tessdata/DangAmbigs
 libexec/tessdata/blackText.params
 libexec/tessdata/configs/api_config
@@ -31,7 +33,9 @@ libexec/tessdata/user-words
 libexec/tessdata/word-dawg
 libexec/tesseract
 share/doc/tesseract/README
+share/tesseract/phototest.tif
 @dirrm share/doc/tesseract
+@dirrm share/tesseract
 @dirrm libexec/tessdata/tessconfigs
 @dirrm libexec/tessdata/configs
 @dirrm libexec/tessdata
