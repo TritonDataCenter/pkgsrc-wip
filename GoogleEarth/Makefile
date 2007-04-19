@@ -31,10 +31,7 @@ EXTRACT_CMD=		${SH} "$$extract_file" --noexec --keep
 
 .include "../../mk/bsd.prefs.mk"
 
-# xxx COMPAT_LINUX32 hack
-.if defined(SUSE_ARCH) && ${SUSE_ARCH} == "i586"
-ONLY_FOR_PLATFORM+=	NetBSD-[3-9]*-x86_64
-.endif
+SUSE_COMPAT32=		yes
 
 do-build:
 	cd ${WRKSRC} && ${MKDIR} GoogleEarth && cd GoogleEarth \
@@ -49,4 +46,5 @@ do-install:
 	${INSTALL_SCRIPT} ${WRKDIR}/googleearth ${PREFIX}/bin/googleearth \
 	&& cd ${WRKSRC} && ${PAX} -rw GoogleEarth ${PREFIX}
 
+.include "../../emulators/suse_linux/Makefile.application"
 .include "../../mk/bsd.pkg.mk"
