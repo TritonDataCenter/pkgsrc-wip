@@ -60,7 +60,6 @@ DEPENDS+=		xrefresh-[0-9]*:../../x11/xrefresh
 DEPENDS+=		xsm-[0-9]*:../../x11/xsm
 DEPENDS+=		xvinfo-[0-9]*:../../x11/xvinfo
 DEPENDS+=		xwininfo-[0-9]*:../../x11/xwininfo
-DEPENDS+=		twm-[0-9]*:../../wip/twm
 
 NO_BUILD=		yes
 NO_CHECKSUM=		yes
