@@ -1,8 +1,9 @@
-# $NetBSD: Makefile,v 1.2 2007/03/28 13:28:38 joerg Exp $
+# $NetBSD$
 #
 
 DISTNAME=	compiz-0.5.0
 CATEGORIES=	wm x11
+PKGREVISION=	1
 MASTER_SITES=	http://xorg.freedesktop.org/releases/individual/app/
 EXTRACT_SUFX=	.tar.bz2
 
@@ -44,6 +45,7 @@ PKGCONFIG_OVERRIDE+=	libdecoration/libdecoration.pc.in
 # machine to its knees!  Imagine with KDE ... Muauahahaaha. ;)
 
 
+.include "../../devel/GConf2/schemas.mk"
 .include "../../sysutils/desktop-file-utils/desktopdb.mk"
 
 .include "../../x11/libXdamage/buildlink3.mk"
