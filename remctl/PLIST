@@ -1,0 +1,7 @@
+@comment $NetBSD$
+bin/remctl
+include/remctl.h
+lib/libremctl.la
+man/man1/remctl.1
+man/man8/remctld.8
+sbin/remctld
