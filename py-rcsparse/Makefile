@@ -8,9 +8,8 @@ MASTER_SITES=	http://distfiles.scode.org/pkgsrc/
 MAINTAINER=	peter.schuller@infidyne.com
 HOMEPAGE=	http://ww2.fs.ei.tum.de/~corecode/hg/rcsparse/
 COMMENT=	RCS parsing library for Python
-LICENSE=	rcsparse-license
-LICENSE_FILE=	files/COPYRIGHT
 
+LICENSE=	corecode-license
 
 PYTHON_VERSIONS_ACCEPTED=24
 PYDISTUTILSPKG=	# yes
