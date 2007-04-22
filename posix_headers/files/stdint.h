@@ -7,6 +7,8 @@
 #define _PKGSRC_STDINT_H_
 #ifdef __hpux
 #include <inttypes.h>
-/* more to be added ... */
+#ifndef UINT_FAST32_MAX
+#define UINT_FAST32_MAX 0xffffffffU
+#endif
 #endif /* __hpux */
 #endif /* _PKGSRC_STDINT_H_ */

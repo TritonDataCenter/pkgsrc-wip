@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=		posix_headers-0.1
+DISTNAME=		posix_headers-0.2
 CATEGORIES=		pkgtools
 MASTER_SITES=		# empty
 DISTFILES=		# empty
