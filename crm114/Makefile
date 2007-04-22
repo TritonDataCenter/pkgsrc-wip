@@ -31,8 +31,8 @@ EXAMPLES=		procmailrc.recipe mailfilter.cf blacklist.mfp.example \
 			rewrites.mfp
 
 REPLACE_INTERPRETER+=	crm
-# TODO: special-case ending .* to remove the -(...) flags?  These
-#   flags reported to cause problems on SunOS and FreeBSD.
+# NOTE: special case ending .* so as to remove the -(...) flags.
+#   These flags reported to cause problems on SunOS and FreeBSD
   REPLACE.crm.old=	.*/bin/crm.*
   REPLACE.crm.new=	${PREFIX}/bin/crm
   REPLACE_FILES.crm=	${SCRIPTS}
@@ -59,13 +59,15 @@ do-install:
 		${PREFIX}/bin/
 	${INSTALL_DATA_DIR} ${DOCDIR}
 	${INSTALL_DATA_DIR} ${EXAMPLESDIR}
-	${INSTALL_DATA_DIR} ${SCRIPTSDIR}
+	${INSTALL_SCRIPT_DIR} ${SCRIPTSDIR}
 	cd ${WRKSRC} && ${INSTALL_DATA} ${DOCS} ${DOCDIR}
 	cd ${WRKSRC} && ${INSTALL_DATA} ${EXAMPLES} ${EXAMPLESDIR}
 	cd ${WRKSRC} &&							\
+	    ${INSTALL_SCRIPT} ${SCRIPTS} ${SCRIPTSDIR}
+	cd ${WRKSRC} &&							\
 	    ${INSTALL_SCRIPT} crm114-mode.el ${EMACSDIR}
 
-BROKEN=	Regression tests are not quite right yet.
+BROKEN=        Regression tests are not quite right yet.
 
 .include "../../devel/tre/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

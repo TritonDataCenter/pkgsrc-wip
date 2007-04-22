@@ -5,7 +5,6 @@ bin/cssmerge
 bin/cssutil
 bin/osbf-util
 share/crm114/classifymail.crm
-share/crm114/crmlearn
 share/crm114/mailfilter.crm
 share/crm114/maillib.crm
 share/crm114/mailreaver.crm
