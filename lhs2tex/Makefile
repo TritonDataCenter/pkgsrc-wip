@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		lhs2tex-1.11
+DISTNAME=		lhs2tex-1.12
 CATEGORIES=		print devel
 MASTER_SITES=		http://www.iai.uni-bonn.de/~loeh/lhs2tex/
 EXTRACT_SUFX=		.tar.bz2
