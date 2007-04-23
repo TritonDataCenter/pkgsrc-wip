@@ -31,4 +31,7 @@ In order to activate a2ps-sharatype, do the following manually:
 2) Add content of PREFIX/share/a2ps/afm/sharatype1-fonts.map to
    PREFIX/share/a2ps/afm/fonts.map
 
+P.S.
+Russian README is available in share/doc/a2ps-sharatype/
+
 ===========================================================================
