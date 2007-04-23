@@ -14,8 +14,8 @@ do-build:
 	cd ${WRKSRC} && ghc -o cpphs --make cpphs
 
 do-install:
-	@${INSTALL_PROGRAM} ${WRKSRC}/cpphs ${PREFIX}/bin/cpphs
-	@${INSTALL_MAN} ${WRKSRC}/docs/cpphs.1 ${PREFIX}/${PKGMANDIR}/man1
+	${INSTALL_PROGRAM} ${WRKSRC}/cpphs ${PREFIX}/bin/cpphs
+	${INSTALL_MAN} ${WRKSRC}/docs/cpphs.1 ${PREFIX}/${PKGMANDIR}/man1
 
 
 .include "../../lang/ghc/buildlink3.mk"
