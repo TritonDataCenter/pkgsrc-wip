@@ -43,3 +43,4 @@ share/a2ps/fonts/t8c.pfa
 share/a2ps/fonts/t8cb.pfa
 share/a2ps/fonts/t8cbi.pfa
 share/a2ps/fonts/t8ci.pfa
+share/doc/${PKGBASE}/README
