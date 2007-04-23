@@ -17,7 +17,7 @@ NO_CONFIGURE=		yes
 NO_BUILD=		yes
 NO_EXTRACT=		yes
 USE_LANGUAGES=
-ONLY_FOR_PLATFORM=	HPUX-*-* # add more as needed
+ONLY_FOR_PLATFORM=	HPUX-11.11-* # add more as needed
 
 PLIST_SRC=		${WRKDIR}/PLIST_SRC
 
