@@ -6,11 +6,11 @@ PKGNAME=	${DISTNAME:S/_/-/:S/.orig//}
 CATEGORIES=	audio
 MASTER_SITES=	${MASTER_SITE_DEBIAN:=pool/main/x/xmms-scrobbler/}
 
-MAINTAINER=	tnn+nbsd@nygren.pp.se
+MAINTAINER=	tnn@NetBSD.org
 HOMEPAGE=	http://www.last.fm/
-COMMENT=	XMMS plugin for the Audioscrobbler music community
+COMMENT=	XMMS plugin for the last.fm music community
 
-WRKSRC=		${WRKDIR}/${PKGNAME}/
+WRKSRC=		${WRKDIR}/${PKGNAME_NOREV}/
 GNU_CONFIGURE=	YES
 USE_LIBTOOL=	YES
 
