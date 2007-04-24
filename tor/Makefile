@@ -1,14 +1,14 @@
-# $NetBSD: Makefile,v 1.26 2006/03/14 01:14:31 jlam Exp $
+# $NetBSD: Makefile,v 1.27 2007/04/24 18:28:23 netcap Exp $
 #
 
-DISTNAME=		tor-0.1.2.7-alpha
-PKGNAME=		${DISTNAME:S/-alpha//}
+DISTNAME=		tor-0.1.2.12-rc
+PKGNAME=		${DISTNAME:S/-rc//}
 CATEGORIES=		net security
 MASTER_SITES=		http://tor.eff.org/dist/
 
 MAINTAINER=		tv@NetBSD.org
 HOMEPAGE=		http://tor.eff.org/
-COMMENT=		Anonymizing overlay network for TCP (alpha pre-release)
+COMMENT=		Anonymizing overlay network for TCP (release candidate)
 
 .include "../../mk/bsd.prefs.mk"
 
@@ -17,7 +17,7 @@ GNU_CONFIGURE=		yes
 
 TOR_USER?=		tor
 TOR_GROUP?=		tor
-PKG_HOME?=		/var/chroot/tor
+PKG_HOME?=		${VARBASE}/chroot/tor
 
 RCD_SCRIPTS=		tor
 PKG_GROUPS=		${TOR_GROUP}
@@ -27,6 +27,7 @@ USER_GROUP=		${TOR_USER} ${TOR_GROUP}
 OWN_DIRS_PERMS+=	${PKG_HOME} ${USER_GROUP} 0755
 
 CONFIGURE_ARGS+=	--localstatedir=${VARBASE:Q}
+BUILD_DEFS+=		VARBASE
 
 CONF_FILES+=		${PREFIX}/share/examples/tor/tor-tsocks.conf 	\
 				${PKG_SYSCONFDIR}/tor/tor-tsocks.conf
