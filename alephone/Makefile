@@ -3,7 +3,9 @@
 
 DISTNAME=	AlephOne-20070401
 CATEGORIES=	games
-MASTER_SITES=	http://umn.dl.sourceforge.net/sourceforge/marathon/
+MASTER_SITES+=	http://umn.dl.sourceforge.net/sourceforge/marathon/
+MASTER_SITES+=	http://easynews.dl.sourceforge.net/sourceforge/marathon/
+MASTER_SITES+=	http://internap.dl.sourceforge.net/sourceforge/marathon/
 EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	christtrekker@sourceforge.net
