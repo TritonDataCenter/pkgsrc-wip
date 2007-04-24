@@ -12,8 +12,8 @@ BUILDLINK_PACKAGES+=	posix_headers
 BUILDLINK_ORDER:=	${BUILDLINK_ORDER} ${BUILDLINK_DEPTH}posix_headers
 
 .if !empty(POSIX_HEADERS_BUILDLINK3_MK:M+)
-BUILDLINK_API_DEPENDS.posix_headers+=	posix_headers>=0.2
-BUILDLINK_ABI_DEPENDS.posix_headers+=	posix_headers>=0.2
+BUILDLINK_API_DEPENDS.posix_headers+=	posix_headers>=0.3
+BUILDLINK_ABI_DEPENDS.posix_headers+=	posix_headers>=0.3
 BUILDLINK_PKGSRCDIR.posix_headers?=	../../wip/posix_headers
 .endif	# POSIX_HEADERS_BUILDLINK3_MK
 
