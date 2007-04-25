@@ -2,6 +2,7 @@
 #
 
 DISTNAME=		tor-0.1.2.13
+PKGREVISION=		1
 PKGNAME=		${DISTNAME:S/-rc//}
 CATEGORIES=		net security
 MASTER_SITES=		http://tor.eff.org/dist/
