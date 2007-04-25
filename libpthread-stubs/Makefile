@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	pthread-stubs-1.0
+DISTNAME=	libpthread-stubs-1.0
 CATEGORIES=	devel
 DISTFILES=	# empty
 
