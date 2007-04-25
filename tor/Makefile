@@ -1,14 +1,14 @@
 # $NetBSD: Makefile,v 1.27 2007/04/24 18:28:23 netcap Exp $
 #
 
-DISTNAME=		tor-0.1.2.12-rc
+DISTNAME=		tor-0.1.2.13
 PKGNAME=		${DISTNAME:S/-rc//}
 CATEGORIES=		net security
 MASTER_SITES=		http://tor.eff.org/dist/
 
 MAINTAINER=		tv@NetBSD.org
 HOMEPAGE=		http://tor.eff.org/
-COMMENT=		Anonymizing overlay network for TCP (release candidate)
+COMMENT=		Anonymizing overlay network for TCP (pre-release)
 
 .include "../../mk/bsd.prefs.mk"
 
