@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	adplug-2.0.1
+DISTNAME=	adplug-2.1
 CATEGORIES=	audio devel
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=adplug/}
 EXTRACT_SUFX=	.tar.bz2

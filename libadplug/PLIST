@@ -1,6 +1,7 @@
 @comment $NetBSD$
 bin/adplugdb
 include/adplug/a2m.h
+include/adplug/adl.h
 include/adplug/adlibemu.h
 include/adplug/adplug.h
 include/adplug/adtrack.h
