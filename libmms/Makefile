@@ -6,7 +6,7 @@ CATEGORIES=	net
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=libmms/}
 
 MAINTAINER=	jfranz@bsdprojects.net
-HOMEPAGE=	http://libmms.sourceforge.net/
+HOMEPAGE=	http://sourceforge.net/projects/libmms
 COMMENT=	Library for parsing mms:// and mmsh:// type network streams
 
 GNU_CONFIGURE=	yes
