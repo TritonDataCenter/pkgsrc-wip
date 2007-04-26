@@ -7,7 +7,7 @@ MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=libbinio/}
 EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	jfranz@bsdprojects.net
-HOMEPAGE=	http://belnet.dl.sourceforge.net/sourceforge/libbinio/
+HOMEPAGE=	http://libbinio.sourceforge.net/
 COMMENT=	Binary I/O stream class library
 
 GNU_CONFIGURE=	yes
