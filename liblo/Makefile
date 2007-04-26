@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	liblo-0.23
+DISTNAME=	liblo-0.24
 CATEGORIES=	audio
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=liblo/}
 
