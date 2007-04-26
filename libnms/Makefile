@@ -7,7 +7,7 @@ MASTER_SITES=	http://streaming.polito.it/files/
 EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	jfranz@bsdprojects.net
-HOMEPAGE=	http://streaming.polito.it/files/
+HOMEPAGE=	http://streaming.polito.it/client/library/
 COMMENT=	Open Media Streaming Client Library
 
 GNU_CONFIGURE=	yes
