@@ -9,7 +9,6 @@ MAINTAINER=	emil@math.su.se
 HOMEPAGE=	http://www.cse.unsw.edu.au/~chak/haskell/c2hs/
 COMMENT=	C->Haskell, an Interface Generator for Haskell
 
-BUILD_DEPENDS+=	cabal>=1.0.1:../../wip/cabal
 
 EGDIR=		${PREFIX}/share/examples/${PKGBASE}
 
@@ -32,5 +31,4 @@ post-install:
 	cd ${WRKSRC:Q}/c2hs/tests && ${INSTALL_DATA} * ${EGDIR:Q}
 
 .include "../../lang/ghc/buildlink3.mk"
-.include "../../wip/cabal/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
