@@ -14,6 +14,7 @@ USE_TOOLS+=	gmake
 USE_LANGUAGES=	c c++
 HAS_CONFIGURE=	yes
 CONFIGURE_ARGS+=--prefix=${LOCALBASE}
+CONFIGURE_ARGS+=--enable-cruise
 CONFIGURE_ARGS+=--enable-lure
 CONFIGURE_ARGS+=--enable-parallaction
 USE_DIRS+=	xdg-1.1
