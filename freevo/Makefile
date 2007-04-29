@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		freevo-1.6.2
+DISTNAME=		freevo-1.7.0
 CATEGORIES=		multimedia
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=freevo/}
 
@@ -51,7 +51,9 @@ post-install:
 .include "../../multimedia/libdvdcss/buildlink3.mk"  # not default by libdvdread
 .include "../../textproc/py-xml/buildlink3.mk"
 .include "../../time/py-mxDateTime/buildlink3.mk"
-.include "../../wip/py-mmpython/buildlink3.mk"
+.include "../../wip/py-BeautifulSoup/buildlink3.mk"
+.include "../../wip/py-kaa-imlib2/buildlink3.mk"
+.include "../../wip/py-kaa-metadata/buildlink3.mk"
 .include "../../wip/py-osd/buildlink3.mk"
 .include "../../lang/python/extension.mk"
 .include "../../mk/bsd.pkg.mk"
