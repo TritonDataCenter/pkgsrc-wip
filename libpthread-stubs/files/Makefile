@@ -11,4 +11,5 @@ pthread-stubs.lo: pthread-stubs.c
 install:
 	${LIBTOOL} --mode=install ${BSD_INSTALL_LIB} libpthread-stubs.la \
 		${PREFIX}/lib
+	${BSD_INSTALL_DATA_DIR} ${PREFIX}/lib/pkgconfig
 	${BSD_INSTALL_DATA} pthread-stubs.pc ${PREFIX}/lib/pkgconfig
