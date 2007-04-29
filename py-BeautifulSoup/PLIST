@@ -1,0 +1,7 @@
+@comment $NetBSD$
+${PYSITELIB}/BeautifulSoup.py
+${PYSITELIB}/BeautifulSoup.pyc
+${PYSITELIB}/BeautifulSoup.pyo
+${PYSITELIB}/BeautifulSoupTests.py
+${PYSITELIB}/BeautifulSoupTests.pyc
+${PYSITELIB}/BeautifulSoupTests.pyo
