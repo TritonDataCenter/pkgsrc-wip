@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		libupnp-1.4.4
+DISTNAME=		libupnp-1.4.5
 CATEGORIES=		net
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=pupnp/}
 EXTRACT_SUFX=		.tar.bz2

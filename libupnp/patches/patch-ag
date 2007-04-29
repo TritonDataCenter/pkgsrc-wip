@@ -1,6 +1,6 @@
 $NetBSD$
 
---- docs/dist/Makefile.in.orig	2007-04-17 13:01:02.000000000 +0900
+--- docs/dist/Makefile.in.orig	2007-04-29 02:35:37.000000000 +0900
 +++ docs/dist/Makefile.in
 @@ -737,23 +737,25 @@ distclean-libtool:
  uninstall-info-am:
