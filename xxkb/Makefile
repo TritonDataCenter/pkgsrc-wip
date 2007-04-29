@@ -25,5 +25,7 @@ post-install:
 	${INSTALL_DATA} ${WRKSRC}/${i} ${DOC_DIR}
 .endfor
 
+.include "../../x11/libXext/buildlink3.mk"
+.include "../../x11/libXpm/buildlink3.mk"
+.include "../../x11/libXt/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
-.include "../../mk/x11.buildlink3.mk"
