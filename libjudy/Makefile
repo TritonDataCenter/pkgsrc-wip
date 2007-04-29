@@ -13,6 +13,8 @@ USE_TOOLS+=		gmake
 USE_LIBTOOL=		yes
 GNU_CONFIGURE=		yes
 
+TEST_TARGET=		check
+
 DOCDIR=			${PREFIX}/share/doc/${PKGBASE}
 INSTALLATION_DIRS=	share/doc/${PKGBASE}
 
