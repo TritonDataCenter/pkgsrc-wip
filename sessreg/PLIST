@@ -1,0 +1,3 @@
+@comment $NetBSD$
+bin/sessreg
+man/man1/sessreg.1
