@@ -69,4 +69,6 @@ lib/pkgconfig/xcb-xtest.pc
 lib/pkgconfig/xcb-xv.pc
 lib/pkgconfig/xcb-xvmc.pc
 lib/pkgconfig/xcb.pc
+share/doc/libxcb/tutorial/index.html
+share/doc/libxcb/tutorial/xcb.css
 @dirrm include/xcb
