@@ -18,7 +18,7 @@ PKGCONFIG_OVERRIDE+=	pthread-stubs.pc
 PKGCONFIG_BASE=		${PKGBASE:S/lib//1}
 
 SUBST_CLASSES+=		pc
-SUBST_STAGE.pc=	post-extract
+SUBST_STAGE.pc=		post-extract
 SUBST_MESSAGE.pc=	Creating pkg-config file
 SUBST_FILES.pc+=	pthread-stubs.pc
 SUBST_VARS.pc+=		PKGVERSION PKGCONFIG_BASE PREFIX
