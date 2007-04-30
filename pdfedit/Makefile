@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	pdfedit-0.3.0
+DISTNAME=	pdfedit-0.3.1
 CATEGORIES=	print
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=pdfedit/}
 EXTRACT_SUFX=	.tar.bz2
