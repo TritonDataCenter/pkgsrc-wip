@@ -18,7 +18,7 @@ CONFLICTS+=	elinks-[0-9]*
 
 CONFIGURE_ARGS+=	--enable-256-colors --enable-utf-8
 CONFIGURE_ENV+=		PKGLOCALEDIR=${PKGLOCALEDIR:Q}
-CONFIGURE_ARGS+=	--with-libiconv=${BUILDLINK_PREFIX.libiconv::+=/lib:Q}
+CONFIGURE_ARGS+=	--with-libiconv=${BUILDLINK_PREFIX.libiconv:Q}/lib
 
 GNU_CONFIGURE=		yes
 USE_PKGLOCALEDIR=	yes
