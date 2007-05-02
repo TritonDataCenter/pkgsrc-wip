@@ -2,8 +2,6 @@
 
 #include <sys/cdefs.h>
 
-#include <pthread.h>
-
 int __pthstub_mutex_noop(void);
 
 __weak_alias(pthread_mutex_init,__pthstub_noop)
@@ -15,9 +13,15 @@ __weak_alias(pthread_key_create,__pthstub_noop)
 __weak_alias(pthread_self,__pthstub_noop)
 __weak_alias(pthread_equal,__pthstub_equal)
 
+__weak_alias(pthread_cond_init,__pthstub_noop)
+__weak_alias(pthread_cond_wait,__pthstub_noop)
+__weak_alias(pthread_cond_signal,__pthstub_noop)
+__weak_alias(pthread_cond_broadcast,__pthstub_noop)
+__weak_alias(pthread_cond_destroy,__pthstub_noop)
+
 
 int
-__pthstub_equal(pthread_t t1, pthread_t t2)
+__pthstub_equal(void *t1, void *t2)
 {
 
 	return (t1 == t2);

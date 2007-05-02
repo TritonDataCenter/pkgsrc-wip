@@ -1,7 +1,7 @@
 # $NetBSD$
 
 DISTNAME=	libpthread-stubs-1.0
-PKGREVISION=	4
+PKGREVISION=	5
 CATEGORIES=	devel
 DISTFILES=	# empty
 
