@@ -3,7 +3,9 @@
 DISTNAME=	cyrus-imapd-2.3.8
 CATEGORIES=	mail
 MASTER_SITES=	ftp://ftp.andrew.cmu.edu/pub/cyrus-mail/ \
-		ftp://ftp.andrew.cmu.edu/pub/cyrus-mail/OLD-VERSIONS/imap/
+		ftp://ftp.andrew.cmu.edu/pub/cyrus-mail/OLD-VERSIONS/imap/ \
+		http://www.t.ring.gr.jp/archives/net/mail/cyrus-mail/ \
+		ftp://ftp.t.ring.gr.jp/pub/net/mail/cyrus-mail/
 
 MAINTAINER=	obache@NetBSD.org
 HOMEPAGE=	http://cyrusimap.web.cmu.edu/imapd/
