@@ -4,7 +4,7 @@
 DISTNAME=		sawfish-${SF_VERS}
 PKGNAME=		sawfish-gtk2-${SF_VERS}
 SF_VERS=		1.3
-PKGREVISION=		1
+PKGREVISION=		2
 CATEGORIES=		x11 wm
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=sawmill/}
 
@@ -36,7 +36,7 @@ SUBST_CLASSES+=		env
 SUBST_STAGE.env=	pre-configure
 SUBST_FILES.env=	lisp/sawfish/ui/main.jl.in po/sawfish-xgettext
 SUBST_FILES.env+=	scripts/sawfish-*.jl* themer/themer.in
-SUBST_SED.env=		-e 's,exec rep,env ${REP_ENV_PKGSRC} rep,g'
+SUBST_SED.env=		-e 's,exec rep,exec env ${REP_ENV_PKGSRC} rep,g'
 
 .include "../../mk/bsd.prefs.mk"
 
