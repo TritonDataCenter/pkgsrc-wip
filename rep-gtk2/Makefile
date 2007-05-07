@@ -9,7 +9,7 @@ MAINTAINER=		tnn+nbsd@nygren.pp.se
 HOMEPAGE=		http://rep-gtk.sourceforge.net/
 COMMENT=		librep bindings for gtk2 (used by sawfish)
 
-DEPENDS+=		librep>=0.17:../../lang/librep
+DEPENDS+=		librep>=0.17nb3:../../lang/librep
 DEPENDS+=		gtk2+>=2.4.0:../../x11/gtk2
 
 CONFLICTS=		rep-gtk-[0-9]*
