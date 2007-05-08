@@ -101,7 +101,6 @@ CONFIGURE_ARGS+=	--enable-long-long
 CONFIGURE_ARGS+=	--with-local-prefix=${GCC_PREFIX:Q}
 CONFIGURE_ARGS+=	--disable-libssp
 MAKE_ENV+=		ICONVPREFIX=${BUILDLINK_PREFIX.iconv}
-USE_GNU_ICONV=		yes
 MAKE_ENV+=		SHELL=${CONFIG_SHELL}
 
 UNLIMIT_RESOURCES+=	datasize
