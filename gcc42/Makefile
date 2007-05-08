@@ -3,6 +3,7 @@
 
 DISTNAME=	gcc-${GCC_VERSION}-${SNAP_DATE}
 PKGNAME=	gcc42-${GCC_VERSION}
+PKGREVISION=	1
 CATEGORIES=	lang
 MASTER_SITES=	ftp://gcc.gnu.org/pub/gcc/prerelease-4.2.0-20070501/
 
@@ -120,10 +121,12 @@ MAKE_ENV+=		ac_cv_path_ac_cv_prog_chmod=${TOOLS_CHMOD:Q}
 #.else
 #PTHREAD_OPTS+=		native
 #.endif
-.include "../../mk/pthread.buildlink3.mk"
-.if defined(PTHREAD_TYPE) && ${PTHREAD_TYPE} != "native"
-CONFIGURE_ARGS+=	--disable-threads
-.endif
+#.include "../../mk/pthread.buildlink3.mk"
+#.if defined(PTHREAD_TYPE) && ${PTHREAD_TYPE} != "native"
+#CONFIGURE_ARGS+=	--disable-threads
+#.else
+CONFIGURE_ARGS+=	--enable-threads=posix # XXX seems to be needed
+#.endif
 
 USE_TOOLS+=		gmake makeinfo msgfmt
 HAS_CONFIGURE=		YES # no GNU_CONFIGURE!
