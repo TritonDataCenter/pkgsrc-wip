@@ -1,8 +1,8 @@
 # $NetBSD$
 #
 
-DISTNAME=		sdlmame0114
-PKGNAME=		sdlmame-0.114
+DISTNAME=		sdlmame0115
+PKGNAME=		sdlmame-0.115
 CATEGORIES=		emulators
 MASTER_SITES=		http://rbelmont.mameworld.info/
 EXTRACT_SUFX=		.zip

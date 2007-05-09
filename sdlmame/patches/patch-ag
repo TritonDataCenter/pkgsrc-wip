@@ -1,8 +1,8 @@
 $NetBSD$
 
---- src/osd/sdl/sdl.mak.orig	2007-03-17 02:14:13.000000000 +0100
+--- src/osd/sdl/sdl.mak.orig	2007-04-27 17:16:56.000000000 +0200
 +++ src/osd/sdl/sdl.mak
-@@ -134,5 +134,5 @@ TESTKEYSOBJS = \
+@@ -128,5 +128,5 @@ TESTKEYSOBJS = \
  
  testkeys$(EXE): $(TESTKEYSOBJS) 
  	@echo Linking $@...
