@@ -1,4 +1,10 @@
 # $NetBSD$
 #
 
-MECAB_VERSION=		0.95
+MECAB_VERSION=	0.95
+
+CATEGORIES=	japanese textproc
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=mecab/}
+
+MAINTAINER=	obache@NetBSD.org
+HOMEPAGE=	http://mecab.sourceforge.net/

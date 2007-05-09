@@ -5,11 +5,7 @@
 
 DISTNAME=		mecab-${MECAB_VERSION}
 PKGNAME=		mecab-base-${MECAB_VERSION}
-CATEGORIES=		japanese textproc
-MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=mecab/}
 
-MAINTAINER=		obache@NetBSD.org
-HOMEPAGE=		http://mecab.sourceforge.net/
 COMMENT=		Yet Another Part-of-Speech and Morphological Analyzer
 
 GNU_CONFIGURE=		yes

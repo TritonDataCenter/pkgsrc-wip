@@ -5,11 +5,8 @@
 
 DISTNAME=	mecab-java-${MECAB_VERSION}
 PKGNAME=	java-mecab-${MECAB_VERSION}
-CATEGORIES=	japanese textproc java
-MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=mecab/}
+CATEGORIES+=	java
 
-MAINTAINER=	obache@NetBSD.org
-HOMEPAGE=	http://mecab.sourceforge.net/
 COMMENT=	MeCab java module
 
 USE_LANGUAGES=	c++

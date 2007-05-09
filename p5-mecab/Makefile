@@ -5,11 +5,8 @@
 
 DISTNAME=		mecab-perl-${MECAB_VERSION}
 PKGNAME=		p5-mecab-${MECAB_VERSION}
-CATEGORIES=		japanese textproc perl5
-MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=mecab/}
+CATEGORIES+=		perl5
 
-MAINTAINER=		obache@NetBSD.org
-HOMEPAGE=		http://mecab.sourceforge.net/
 COMMENT=		MeCab perl module
 
 PERL5_CONFIGURE=	yes
