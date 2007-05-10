@@ -1,19 +1,14 @@
 # $NetBSD$
 #
 
-DISTNAME=		givaro-3.2
-PKGNAME=		givaro-${VERSION}
+DISTNAME=		givaro-3.2.6
 CATEGORIES=		math
-MASTER_SITES=		http://www-lmc.imag.fr/Logiciels/givaro/
+MASTER_SITES=		http://ljk.imag.fr/CASYS/LOGICIELS/givaro/
 
 MAINTAINER=		emil@math.su.se
-HOMEPAGE=		http://www-lmc.imag.fr/Logiciels/givaro/
+HOMEPAGE=		http://ljk.imag.fr/CASYS/LOGICIELS/givaro/
 COMMENT=		C++ library for arithmetic and algebraic computations
 
-
-VERSION=		3.2.4
-
-WRKSRC=			${WRKDIR}/givaro-${VERSION}
 USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=		yes
 GNU_CONFIGURE=		yes
