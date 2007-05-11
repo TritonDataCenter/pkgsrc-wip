@@ -1,6 +1,6 @@
 $NetBSD$
 
---- src/avformat_writer.h.orig	2007-02-20 15:02:26.000000000 +0100
+--- src/avformat_writer.h.orig	2007-05-11 15:15:39.000000000 +0200
 +++ src/avformat_writer.h
 @@ -28,7 +28,7 @@
  #include <memory.h>
