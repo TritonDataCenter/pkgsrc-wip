@@ -22,7 +22,7 @@ $NetBSD$
 +	$(CXX) $(LDFLAGS) -shared  $(TARGET)_wrap.o -o lib$(TARGET).so $(LIBS)
  	$(JAVAC) $(PACKAGE)/*.java
 -	$(JAVAC) test.java
-+	$(JAVAC) -encoding utf-8 test.java
++	$(JAVAC) -encoding EUC_JP test.java
  	$(JAR) cfv $(TARGET).jar $(PACKAGE)/*.class
  
  test:
