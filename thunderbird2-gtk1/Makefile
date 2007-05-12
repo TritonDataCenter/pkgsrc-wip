@@ -1,4 +1,4 @@
-# $NetBSD: Makefile,v 1.9 2006/04/23 14:14:07 ghen Exp $
+# $NetBSD: Makefile,v 1.13 2007/03/07 21:32:53 dmcmahill Exp $
 
 MOZILLA=	thunderbird-gtk1
 
