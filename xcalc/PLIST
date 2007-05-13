@@ -1,6 +1,0 @@
-@comment $NetBSD$
-bin/xcalc
-lib/X11/app-defaults/XCalc
-lib/X11/app-defaults/XCalc-color
-man/man1/xcalc.1
-@comment @dirrm lib/X11/app-defaults
