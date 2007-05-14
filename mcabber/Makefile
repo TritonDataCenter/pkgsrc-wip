@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=		mcabber-0.8.3
+DISTNAME=		mcabber-0.9.1
 CATEGORIES=		chat
 MASTER_SITES=		http://www.lilotux.net/~mikael/mcabber/files/
 EXTRACT_SUFX=		.tar.bz2
@@ -22,5 +22,6 @@ USE_NCURSES=		yes
 
 .include "../../devel/glib2/buildlink3.mk"
 .include "../../devel/ncursesw/buildlink3.mk"
+.include "../../security/gpgme/buildlink3.mk"
 .include "../../security/openssl/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
