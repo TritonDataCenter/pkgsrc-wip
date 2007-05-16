@@ -22,7 +22,8 @@ $NetBSD$
  
  # flags
 -CFLAGS = -Os ${INCS} -DVERSION=\"${VERSION}\"
+-LDFLAGS = ${LIBS}
 +CFLAGS = -DVERSION=\"${VERSION}\"
- LDFLAGS = ${LIBS}
++LDFLAGS += ${LIBS}
  #CFLAGS = -g -Wall -O2 ${INCS} -DVERSION=\"${VERSION}\"
  #LDFLAGS = -g ${LIBS}
