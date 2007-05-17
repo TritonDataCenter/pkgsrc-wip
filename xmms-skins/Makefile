@@ -9,8 +9,9 @@ MAINTAINER=	cheusov@tut.by
 HOMEPAGE=	http://www.xmms.org/skins.php
 COMMENT=	Skins for XMMS
 
-SKINS=		AdamAmp Cracked Eclipse Fire HelixSawfish LinuxDotCom \
-		Plume UltrafinaSEM VegetalBlues nixamp
+SKINS=		AdamAmp Chaos CherryBest Cobalt CoolBlue Cracked Eclipse \
+		Fire HelixSawfish LinuxDotCom m2n MarbleX maXMMS nixamp \
+		NoerdAmp-SE Plume Sword UltrafinaSEM VegetalBlues WinampX
 
 .for skin in ${SKINS}
 DEPENDS+=	xmms-skin-${skin}-[0-9]*:../../wip/xmms-skin-${skin}
