@@ -5,6 +5,7 @@
 PKGNAME=	heirloom-id-${HEIRLOOM_VER}
 CATEGORIES=	textproc
 
-MAKE_FLAGS+=	SUBDIRS="libcommon build id"
+MAKE_FLAGS+=	SUBDIRS="build id"
 
+.include "../../wip/heirloom-libcommon/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

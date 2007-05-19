@@ -5,6 +5,7 @@
 PKGNAME=	heirloom-news-${HEIRLOOM_VER}
 CATEGORIES=	textproc
 
-MAKE_FLAGS+=	SUBDIRS="libcommon build news"
+MAKE_FLAGS+=	SUBDIRS="build news"
 
+.include "../../wip/heirloom-libcommon/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

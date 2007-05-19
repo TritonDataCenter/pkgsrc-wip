@@ -5,6 +5,7 @@
 PKGNAME=	heirloom-xargs-${HEIRLOOM_VER}
 CATEGORIES=	sysutils
 
-MAKE_FLAGS+=	SUBDIRS="libcommon build xargs"
+MAKE_FLAGS+=	SUBDIRS="build xargs"
 
+.include "../../wip/heirloom-libcommon/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

@@ -191,8 +191,10 @@ $NetBSD$
 -UCBINST = $(ROOT)$(UCBBIN)/install
 +#UCBINST = $(ROOT)$(UCBBIN)/install
  
- ICOMMON = -I../libcommon
- LCOMMON = -L../libcommon -lcommon
+-ICOMMON = -I../libcommon
+-LCOMMON = -L../libcommon -lcommon
++#ICOMMON = -I../libcommon
++#LCOMMON = -L../libcommon -lcommon
  
 -IUXRE = -I../libuxre -DUXRE
 -LUXRE = -L../libuxre -luxre

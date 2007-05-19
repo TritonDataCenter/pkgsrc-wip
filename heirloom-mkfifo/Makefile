@@ -5,6 +5,7 @@
 PKGNAME=	heirloom-mkfifo-${HEIRLOOM_VER}
 CATEGORIES=	textproc
 
-MAKE_FLAGS+=	SUBDIRS="libcommon build mkfifo"
+MAKE_FLAGS+=	SUBDIRS="build mkfifo"
 
+.include "../../wip/heirloom-libcommon/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

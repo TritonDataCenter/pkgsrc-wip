@@ -7,7 +7,8 @@ NEED_LIBCURSES=	1
 PKGNAME=	heirloom-ul-${HEIRLOOM_VER}
 CATEGORIES=	textproc
 
-MAKE_FLAGS+=	SUBDIRS="libcommon build ul"
+MAKE_FLAGS+=	SUBDIRS="build ul"
 
+.include "../../wip/heirloom-libcommon/buildlink3.mk"
 .include "../../mk/curses.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

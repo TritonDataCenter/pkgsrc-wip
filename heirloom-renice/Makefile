@@ -5,6 +5,7 @@
 PKGNAME=	heirloom-renice-${HEIRLOOM_VER}
 CATEGORIES=	textproc
 
-MAKE_FLAGS+=	SUBDIRS="libcommon build renice"
+MAKE_FLAGS+=	SUBDIRS="build renice"
 
+.include "../../wip/heirloom-libcommon/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

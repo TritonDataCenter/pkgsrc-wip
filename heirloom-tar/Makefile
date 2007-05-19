@@ -9,6 +9,7 @@ CATEGORIES=	sysutils
 
 DOC_FILES=	NOTES
 
-MAKE_FLAGS+=	SUBDIRS="libcommon build tar"
+MAKE_FLAGS+=	SUBDIRS="build tar"
 
+.include "../../wip/heirloom-libcommon/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

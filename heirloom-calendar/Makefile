@@ -5,6 +5,7 @@
 PKGNAME=	heirloom-calendar-${HEIRLOOM_VER}
 CATEGORIES=	textproc
 
-MAKE_FLAGS+=	SUBDIRS="libcommon build calendar"
+MAKE_FLAGS+=	SUBDIRS="build calendar"
 
+.include "../../wip/heirloom-libcommon/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

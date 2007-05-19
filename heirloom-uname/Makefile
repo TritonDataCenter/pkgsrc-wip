@@ -7,6 +7,7 @@ NOT_FOR_PLATFORM+=	Interix-*-*
 PKGNAME=	heirloom-uname-${HEIRLOOM_VER}
 CATEGORIES=	textproc
 
-MAKE_FLAGS+=	SUBDIRS="libcommon build uname"
+MAKE_FLAGS+=	SUBDIRS="build uname"
 
+.include "../../wip/heirloom-libcommon/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

@@ -2,6 +2,7 @@
 @dirrm ${HLROOT}/bin/posix
 @dirrm ${HLROOT}/bin/posix2001
 @dirrm ${HLROOT}/bin/s42
+@dirrm ${HLROOT}/bin/ccs
 @dirrm ${HLROOT}/bin
 @dirrm ${HLROOT}/etc/default
 @dirrm ${HLROOT}/etc

@@ -5,6 +5,7 @@
 PKGNAME=	heirloom-whodo-${HEIRLOOM_VER}
 CATEGORIES=	textproc
 
-MAKE_FLAGS+=	SUBDIRS="libcommon build whodo"
+MAKE_FLAGS+=	SUBDIRS="build whodo"
 
+.include "../../wip/heirloom-libcommon/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

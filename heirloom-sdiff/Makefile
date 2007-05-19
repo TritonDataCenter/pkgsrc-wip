@@ -5,6 +5,7 @@
 PKGNAME=	heirloom-sdiff-${HEIRLOOM_VER}
 CATEGORIES=	textproc
 
-MAKE_FLAGS+=	SUBDIRS="libcommon build sdiff"
+MAKE_FLAGS+=	SUBDIRS="build sdiff"
 
+.include "../../wip/heirloom-libcommon/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

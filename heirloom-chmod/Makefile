@@ -5,6 +5,7 @@
 PKGNAME=	heirloom-chmod-${HEIRLOOM_VER}
 CATEGORIES=	textproc
 
-MAKE_FLAGS+=	SUBDIRS="libcommon build chmod"
+MAKE_FLAGS+=	SUBDIRS="build chmod"
 
+.include "../../wip/heirloom-libcommon/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

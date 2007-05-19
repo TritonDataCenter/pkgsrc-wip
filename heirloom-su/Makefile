@@ -7,6 +7,7 @@ NEED_LIBCRYPT=	1
 PKGNAME=	heirloom-su-${HEIRLOOM_VER}
 CATEGORIES=	textproc
 
-MAKE_FLAGS+=	SUBDIRS="libcommon build su"
+MAKE_FLAGS+=	SUBDIRS="build su"
 
+.include "../../wip/heirloom-libcommon/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
