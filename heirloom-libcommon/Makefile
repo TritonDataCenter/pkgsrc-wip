@@ -8,7 +8,7 @@ DEPENDS+=	heirloom-doc-${HEIRLOOM_VER}:../../wip/heirloom-doc
 
 MAKE_FLAGS+=	SUBDIRS="libcommon"
 
-INSTALLATION_DIRS+=	include/heirloom
+INSTALLATION_DIRS+=	include/heirloom lib
 
 HEADERS_DIR=	${PREFIX}/include/heirloom
 
@@ -19,9 +19,9 @@ HEADERS=	_alloca.h _malloc.h _utmpx.h alloca.h asciitype.h atoll.h \
 
 do-install:
 .for i in ${HEADERS}
-	${INSTALL_DATA} ${WRKSRC}/libcommon/${i} ${HEADERS_DIR}
+	${INSTALL_DATA} ${WRKSRC}/libcommon/${i} ${DESTDIR}${HEADERS_DIR}
 .endfor
 	${INSTALL_DATA} ${WRKSRC}/libcommon/libcommon.a \
-		${PREFIX}/lib/libheirloomcommon.a
+		${DESTDIR}${PREFIX}/lib/libheirloomcommon.a
 
 .include "../../mk/bsd.pkg.mk"

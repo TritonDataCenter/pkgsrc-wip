@@ -10,7 +10,7 @@ COMMENT=	POSIX compatible regular expression library
 
 USE_LIBTOOL=		yes
 
-INSTALLATION_DIRS=	include/uxre share/doc/${PKGBASE}
+INSTALLATION_DIRS=	include/uxre share/doc/${PKGBASE} lib
 
 pre-build:
 	cd ${WRKSRC} && \
@@ -33,10 +33,11 @@ do-build:
 	   -rpath ${PREFIX}/lib -version-info 0:0 ${LOFILES}
 
 do-install:
-	${LIBTOOL} ${INSTALL_DATA} ${WRKSRC}/libuxre/libuxre.la ${PREFIX}/lib
-	${INSTALL_DATA} ${WRKSRC}/libuxre/regex.h ${PREFIX}/include/uxre
+	${LIBTOOL} ${INSTALL_DATA} ${WRKSRC}/libuxre/libuxre.la ${DESTDIR}${PREFIX}/lib
+	${INSTALL_DATA} ${WRKSRC}/libuxre/regex.h ${DESTDIR}${PREFIX}/include/uxre
 .for i in ${DOC_FILES}
-	${INSTALL_DATA} ${WRKSRC}/libuxre/"${i}" ${DOC_DIR}
+	${INSTALL_DATA} ${WRKSRC}/libuxre/"${i}" ${DESTDIR}${DOC_DIR}
 .endfor
 
+.include "../../wip/heirloom-libcommon/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

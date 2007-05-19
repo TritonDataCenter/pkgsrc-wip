@@ -16,7 +16,9 @@ DOC_FILES=	COPYING COPYING.LGPL \
 		OPENSOLARIS.LICENSE README
 
 DOC_DIR=		${PREFIX}/share/doc/${PKGBASE}
-INSTALLATION_DIRS+=	${DOC_DIR} ${DOC_DIR}/LICENSE
+MAN1_DIR=		${PREFIX}/${HLROOT}/man/man1
+
+INSTALLATION_DIRS+=	${DOC_DIR} ${DOC_DIR}/LICENSE ${MAN1_DIR}
 
 MAKE_FLAGS+=		SUBDIRS=build
 
@@ -25,11 +27,11 @@ do-build:
 
 do-install:
 	set -e; \
-	${INSTALL_DATA} ${WRKSRC}/README ${DOC_DIR}; \
+	${INSTALL_DATA} ${WRKSRC}/README ${DESTDIR}${DOC_DIR}; \
 	for i in ${DOC_FILES}; do \
 		${INSTALL_DATA} ${WRKSRC}/LICENSE/"$${i}" \
-		                ${DOC_DIR}/LICENSE; \
+		                ${DESTDIR}${DOC_DIR}/LICENSE; \
 	done; \
-	${INSTALL_MAN} ${WRKSRC}/intro.1 ${PREFIX}/${HLROOT}/man/man1
+	${INSTALL_MAN} ${WRKSRC}/intro.1 ${DESTDIR}${MAN1_DIR}
 
 .include "../../mk/bsd.pkg.mk"
