@@ -3,7 +3,7 @@
 .include "../../wip/heirloom-common/Makefile.prog2.common"
 
 PKGNAME=	heirloom-tsort-${HEIRLOOM_VER}
-CATEGORIES=	textsproc
+CATEGORIES=	textproc
 
 MAKE_FLAGS+=	SUBDIRS="libcommon build tsort"
 
