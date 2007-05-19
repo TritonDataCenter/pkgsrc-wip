@@ -22,7 +22,7 @@ SUBST_STAGE.dsp=	pre-configure
 SUBST_MESSAGE.dsp=	Fixing path to audio device.
 SUBST_FILES.dsp=	src/sexyal/drivers/esd.c src/sexyal/drivers/oss.c \
 			src/sexyal/drivers/oss.c src/sexyal/sexyal.c
-SUBST_SED.dsp=		s,/dev/dsp,${DEVOSSAUDIO},
+SUBST_SED.dsp=		-e s,/dev/dsp,${DEVOSSAUDIO},
 
 post-install:
 	${INSTALL_DATA_DIR} ${PREFIX}/share/doc/mednafen
