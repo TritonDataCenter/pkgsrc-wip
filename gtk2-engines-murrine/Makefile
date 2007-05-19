@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	murrine-0.52
+DISTNAME=	murrine-0.53.1
 CATEGORIES=	x11
 MASTER_SITES=	http://cimi.netsons.org/media/download_gallery/murrine/
 EXTRACT_SUFX=	.tar.bz2
