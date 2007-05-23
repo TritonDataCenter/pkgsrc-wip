@@ -28,7 +28,7 @@ do-install:
 	cd ${WRKSRC:Q} && runhaskell -cpp Setup.lhs install
 
 
-.include "../../wip/hs-mtl/buildlink3.mk"
+#.include "../../wip/hs-mtl/buildlink3.mk"
 .include "../../wip/hs-x11-extras/buildlink3.mk"
 .include "../../wip/hs-x11/buildlink3.mk"
 .include "../../lang/ghc/buildlink3.mk"
