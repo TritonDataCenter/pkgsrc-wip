@@ -1,0 +1,8 @@
+@comment $NetBSD$
+bin/aria2c
+@comment lib/charset.alias
+man/man1/aria2c.1
+share/locale/de/LC_MESSAGES/aria2c.mo
+share/locale/ja/LC_MESSAGES/aria2c.mo
+@comment share/locale/locale.alias
+share/locale/ru/LC_MESSAGES/aria2c.mo
