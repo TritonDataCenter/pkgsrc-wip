@@ -9,6 +9,8 @@ MAINTAINER=	pkgsrc@blackmouse.biz
 HOMEPAGE=	http://slim.berlios.de/
 COMMENT=	SLiM is a Desktop-independent graphical login manager for X11
 
+DEPENDS+=	xauth>=1.0.0:../../x11/xauth
+
 USE_LANGUAGES=	c c++
 
 EGDIR=		${PREFIX}/share/examples
