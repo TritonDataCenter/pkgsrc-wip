@@ -3,3 +3,4 @@ $NetBSD$
 SHA1 (slim-1.2.6.tar.gz) = df6d4c0a58709d7f8080ee378c1d86991112b93e
 RMD160 (slim-1.2.6.tar.gz) = 81b2d230857dd1b3b2fb6e41b2a81a3ed7207bfd
 Size (slim-1.2.6.tar.gz) = 219003 bytes
+SHA1 (patch-aa) = 9e32d8ada4baeb3269a4cd16342eafae1ca19d15
