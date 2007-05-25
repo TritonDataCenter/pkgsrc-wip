@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	emacs-22.1.50
+PKGNAME=	emacs-22.1.50 # needed because of cvs-package.mk
 CATEGORIES=	editors
 MASTER_SITES=	#
 
