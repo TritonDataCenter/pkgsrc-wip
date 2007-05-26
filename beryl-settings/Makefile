@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	beryl-settings-${BERYL_VERSION}
+PKGREVISION=	1
 CATEGORIES=	wm
 
 COMMENT=	Beryl settings bindings
@@ -19,6 +20,13 @@ PKG_CONFIG_PATH=${BUILDLINK_PREFIX.beryl-settings-bindings}/lib/pkgconfig
 
 
 CONFIGURE_ENV+=	PKG_CONFIG_PATH=${PKG_CONFIG_PATH:Q}
+
+.include "../../mk/compiler.mk"
+
+.if !empty(CC_VERSION:Mgcc[3-4]*)
+CFLAGS+= -fno-strict-aliasing
+.endif
+
 
 
 .include "../../x11/py-gtk2/buildlink3.mk"
