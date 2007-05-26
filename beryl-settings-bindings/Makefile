@@ -16,6 +16,12 @@ PYTHON_VERSION_REQD=	24
 PYBINMODULE=	YES
 PY_PATCHPLIST=	YES
 
+.include "../../mk/compiler.mk"
+
+.if !empty(CC_VERSION:Mgcc-[3-4]*)
+CFLAGS+= -fno-strict-aliasing
+.endif
+
 .include "../../lang/python/extension.mk"
 
 .include "../../wip/beryl-core/buildlink3.mk"
