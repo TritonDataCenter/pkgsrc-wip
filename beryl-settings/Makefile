@@ -23,7 +23,7 @@ CONFIGURE_ENV+=	PKG_CONFIG_PATH=${PKG_CONFIG_PATH:Q}
 
 .include "../../mk/compiler.mk"
 
-.if !empty(CC_VERSION:Mgcc[3-4]*)
+.if !empty(CC_VERSION:Mgcc-[3-4]*)
 CFLAGS+= -fno-strict-aliasing
 .endif
 
