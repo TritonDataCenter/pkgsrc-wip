@@ -21,6 +21,10 @@ USE_LIBTOOL+=	yes
 .include "../../wip/beryl-settings/buildlink3.mk"
 .include "../../graphics/MesaLib/buildlink3.mk"
 .include "../../graphics/librsvg2/buildlink3.mk"
+.include "../../graphics/cairo/buildlink3.mk"
+.include "../../sysutils/dbus/buildlink3.mk"
+.include "../../devel/glib2/buildlink3.mk"
+.include "../../devel/pango/buildlink3.mk"
 .include "../../x11/glproto/buildlink3.mk"
 
 .include "../../mk/bsd.pkg.mk"

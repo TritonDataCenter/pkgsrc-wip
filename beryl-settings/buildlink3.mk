@@ -26,14 +26,4 @@ BUILDLINK_API_DEPENDS.beryl-settings+=	beryl-settings>=0.2.1
 BUILDLINK_PKGSRCDIR.beryl-settings?=	../../wip/beryl-settings
 .endif	# BERYL_SETTINGS_BUILDLINK3_MK
 
-# XXX
-# XXX Uncomment and keep only the buildlink3 lines below which are directly
-# XXX needed for dependencies to compile, link, and run.  If this package
-# XXX provides a wrappered API or otherwise does not expose the APIs of the
-# XXX buildlink3 lines below to dependencies, remove them.
-# XXX
-#.include "../../x11/py-gtk2/buildlink3.mk"
-#.include "../../wip/beryl-settings-bindings/buildlink3.mk"
-#.include "../../graphics/hicolor-icon-theme/buildlink3.mk"
-
 BUILDLINK_DEPTH:=		${BUILDLINK_DEPTH:S/+$//}
