@@ -18,5 +18,4 @@ BUILD_DEFS+=		PKG_SYSCONFBASE
 .include "../../wip/libixp/buildlink3.mk"
 .include "../../x11/libX11/buildlink3.mk"
 .include "../../wip/dmenu/buildlink3.mk"
-.include "../../mk/x11.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
