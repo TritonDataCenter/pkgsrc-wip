@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=		dmenu-3.0
+DISTNAME=		dmenu-3.1
 CATEGORIES=		misc
 MASTER_SITES=		http://www.suckless.org/download/
 
@@ -12,6 +12,5 @@ NO_CONFIGURE=		yes
 
 BUILD_DEFS+=            PKG_SYSCONFBASE
 
-#.include "../../x11/libX11/buildlink3.mk"
-.include "../../mk/x11.buildlink3.mk"
+.include "../../x11/libX11/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
