@@ -125,6 +125,7 @@ share/emacs/${PKGVERSION}/etc/NEWS.18
 share/emacs/${PKGVERSION}/etc/NEWS.19
 share/emacs/${PKGVERSION}/etc/NEWS.20
 share/emacs/${PKGVERSION}/etc/NEWS.21
+share/emacs/${PKGVERSION}/etc/NEWS.22
 share/emacs/${PKGVERSION}/etc/ORDERS
 share/emacs/${PKGVERSION}/etc/PROBLEMS
 share/emacs/${PKGVERSION}/etc/README
