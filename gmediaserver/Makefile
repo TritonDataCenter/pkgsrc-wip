@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=		gmediaserver-0.11.0
+DISTNAME=		gmediaserver-0.12.0
 CATEGORIES=		multimedia net
 MASTER_SITES=		http://download.savannah.gnu.org/releases/gmediaserver/
 
