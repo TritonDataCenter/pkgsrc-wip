@@ -9,7 +9,7 @@ MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.horde.org/chora/
 COMMENT=	Another CVS-via-web system
 
-#DEPENDS+=	cvs>=1.11.20:../../devel/cvs
+#DEPENDS+=	cvs>=1.11.20:../../devel/scmcvs
 DEPENDS+=	horde>=2.2.4:../../www/horde
 
 USE_LANGUAGES=	# empty
