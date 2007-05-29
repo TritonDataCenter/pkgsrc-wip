@@ -1,12 +1,14 @@
 @comment $NetBSD$
 bin/wmii
+bin/wmii9menu
+bin/wmii9rc
+bin/wmiiloop
 bin/wmiir
-bin/wmiiwm
+bin/wmiistartrc
 man/man1/wmii.1
+man/man1/wmiiloop.1
 man/man1/wmiir.1
 man/man1/wmiiwm.1
-share/examples/wmii-3.5/quit
-share/examples/wmii-3.5/status
+share/examples/wmii-3.5/rc.wmii
 share/examples/wmii-3.5/welcome
 share/examples/wmii-3.5/wmiirc
-@dirrm share/examples/wmii-3.5
