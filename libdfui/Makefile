@@ -1,7 +1,7 @@
 # $NetBSD$
 
 DISTNAME=	bsdinstaller-20070528
-PKGNAME=	libdfui-4.1
+PKGNAME=	libdfui-4.99.1
 CATEGORIES=	devel
 
 MASTER_SITES=	http://rnrdoctor.sytes.net/~replaced/bsdinstaller/
@@ -10,6 +10,8 @@ WRKSRC=		${WRKDIR}/${DISTNAME}/installer/src/lib/libdfui
 MAINTAINER=	adam.hoka@gmail.com
 HOMEPAGE=	http://www.bsdinstaller.com/
 COMMENT=	Abstract user interface protocol library
+
+CONFLICTS=	libdfui<4.99
 
 FILESDIR=	${.CURDIR}/../../wip/bsdinstaller/files
 
