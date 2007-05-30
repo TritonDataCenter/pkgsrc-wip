@@ -11,3 +11,12 @@ $NetBSD$
  
  OBJS = xxkb.o resource.o wlist.o
  PIXMAPS = pixmaps/by15.xpm pixmaps/by48.xpm \
+@@ -16,7 +16,7 @@ PIXMAPS = pixmaps/by15.xpm pixmaps/by48.
+ 	  pixmaps/bg15.xpm pixmaps/bg48.xpm
+ 
+ DEFINES = -DAPPDEFDIR=\"$(DESTDIR)$(XAPPLOADDIR)\" -DAPPDEFFILE=\"XXkb\" \
+-	-DXT_RESOURCE_SEARCH -DSHAPE_EXT
++	-DSHAPE_EXT
+ 
+ #if WITH_SVG_SUPPORT
+ DEFINES += -DSVG_GRAPHICS
