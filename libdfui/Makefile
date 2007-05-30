@@ -11,8 +11,6 @@ MAINTAINER=	adam.hoka@gmail.com
 HOMEPAGE=	http://www.bsdinstaller.com/
 COMMENT=	Abstract user interface protocol library
 
-CONFLICTS=	libdfui<4.99
-
 FILESDIR=	${.CURDIR}/../../wip/bsdinstaller/files
 
 post-extract:
