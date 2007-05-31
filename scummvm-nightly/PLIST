@@ -6,5 +6,9 @@ share/doc/scummvm/COPYING
 share/doc/scummvm/NEWS
 share/doc/scummvm/README
 share/pixmaps/scummvm.xpm
+share/scummvm/classic080.ini
+share/scummvm/modern.ini
+share/scummvm/modern.zip
+@dirrm share/scummvm
 @comment in xdg-dirs: @dirrm share/pixmaps
 @dirrm share/doc/scummvm
