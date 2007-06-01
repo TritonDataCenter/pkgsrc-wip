@@ -1,0 +1,10 @@
+===========================================================================
+$NetBSD$
+Remember that bouml does not work with QT4.
+
+Remember that QT3 must have been built with the -no-xft option.
+i.e. build and install "pkgsrc/x11/qt3-libs" with the following line
+	CONFIGURE_ARGS+= -no-xft
+added to file
+	pkgsrc/x11/qt3-libs/Makefile.common
+===========================================================================
