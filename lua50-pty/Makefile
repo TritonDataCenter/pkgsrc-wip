@@ -1,7 +1,6 @@
 # $NetBSD$
 
 DISTNAME=	bsdinstaller-20070528
-PKGNAME=	luapty-0.1
 PKGNAME=	lua50-pty-0.1
 CATEGORIES=	devel
 
