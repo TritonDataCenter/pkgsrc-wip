@@ -1,0 +1,4 @@
+@comment $NetBSD$
+sbin/dfuibe_installer
+share/dfuibe_installer/cmdnames.conf
+@dirrm share/dfuibe_installer
