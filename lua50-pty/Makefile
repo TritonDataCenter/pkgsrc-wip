@@ -19,6 +19,6 @@ do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/lpty.so ${PREFIX}/lib/lua/5.0
 	${INSTALL_DATA} ${WRKSRC}/pty.lua ${PREFIX}/share/lua/5.0
 
-.include "../../wip/lua50-compat51/buildlink3.mk"
 .include "../../wip/lua50/buildlink3.mk"
+.include "../../wip/lua50-compat51/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

@@ -21,9 +21,7 @@ do-build:
 	@${ECHO} "Nothing to build."
 
 do-install:
-	${INSTALL_DATA_DIR} -p ${PREFIX}/lib/lua/5.0
 	${INSTALL_DATA_DIR} -p ${PREFIX}/lib/lua/${DISTNAME}
-	${INSTALL_DATA_DIR} -p ${PREFIX}/share/lua/5.0
 	${INSTALL_DATA} ${WRKSRC}/compat-5.1.lua ${PREFIX}/share/lua/5.0
 	${INSTALL_DATA} ${WRKSRC}/compat-5.1.c ${PREFIX}/lib/lua/${DISTNAME}
 	${INSTALL_DATA} ${WRKSRC}/compat-5.1.h ${PREFIX}/lib/lua/${DISTNAME}

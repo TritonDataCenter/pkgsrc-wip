@@ -54,3 +54,5 @@ share/examples/lua/xd.lua
 @dirrm share/examples/lua/etc
 @dirrm share/examples/lua
 @dirrm share/doc/lua
+@dirrm share/lua/5.0
+@dirrm lib/lua/5.0

@@ -1,5 +1,3 @@
 @comment $NetBSD$
 lib/lua/5.0/lposix.so
 share/lua/5.0/posix.lua
-@dirrm share/lua/5.0
-@dirrm lib/lua/5.0
