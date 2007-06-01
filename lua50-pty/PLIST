@@ -1,0 +1,5 @@
+@comment $NetBSD$
+lib/lua/5.0/lpty.so
+share/lua/5.0/pty.lua
+@dirrm share/lua/5.0
+@dirrm lib/lua/5.0
