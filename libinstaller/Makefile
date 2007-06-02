@@ -1,7 +1,8 @@
 # $NetBSD$
 
-PKGNAME=	libinstaller-5.99.1
 DISTNAME=	bsdinstaller-20070528
+PKGNAME=	libinstaller-5.99.1
+PKGREVISION=	1
 CATEGORIES=	devel
 
 MASTER_SITES=	http://rnrdoctor.sytes.net/~replaced/bsdinstaller/
