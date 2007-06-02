@@ -1,10 +1,10 @@
 # $NetBSD$
 
-DISTNAME=	bsdinstaller-20070528
 PKGNAME=	lua50-filename-0.1
 CATEGORIES=	devel
 
-MASTER_SITES=	http://rnrdoctor.sytes.net/~replaced/bsdinstaller/
+.include "../../wip/bsdinstaller/bsdinstaller.mk"
+
 WRKSRC=		${WRKDIR}/${DISTNAME}/installer/src/lib/lua/filename
 
 MAINTAINER=	adam.hoka@gmail.com

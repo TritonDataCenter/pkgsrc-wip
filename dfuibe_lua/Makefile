@@ -1,21 +1,17 @@
 # $NetBSD$
 
-DISTNAME=	bsdinstaller-20070528
 PKGNAME=	dfuibe_lua-1.0
 CATEGORIES=	sysutils
 
-MASTER_SITES=   http://rnrdoctor.sytes.net/~replaced/bsdinstaller/
+.include "../../wip/bsdinstaller/bsdinstaller.mk"
+
 WRKSRC=         ${WRKDIR}/${DISTNAME}/installer/src/backend/lua
 
 MAINTAINER=	adam.hoka@gmail.com
+HOMEPAGE=	http://www.bsdinstaller.com/
 COMMENT=	DFUI Lua backend
 
-FILESDIR=	${.CURDIR}/../../wip/bsdinstaller/files
-
 DFUIBE_LUA_DIR=	${PREFIX}/share/dfuibe_lua
-
-pre-configure:
-	${CP} ${FILESDIR}/Config ${WRKDIR}/${DISTNAME}/installer/src/Config
 
 do-install:
 	${INSTALL_DATA_DIR} ${DFUIBE_LUA_DIR}

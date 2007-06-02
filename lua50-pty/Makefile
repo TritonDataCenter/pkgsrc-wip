@@ -4,13 +4,9 @@ DISTNAME=	bsdinstaller-20070528
 PKGNAME=	lua50-pty-0.1
 CATEGORIES=	devel
 
-MASTER_SITES=	http://rnrdoctor.sytes.net/~replaced/bsdinstaller/
+.include "../../wip/bsdinstaller/bsdinstaller.mk"
+
 WRKSRC=		${WRKDIR}/${DISTNAME}/installer/src/lib/lua/pty
-
-FILESDIR=	${.CURDIR}/../../wip/bsdinstaller/files
-
-post-extract:
-	${CP} ${FILESDIR}/Config ${WRKDIR}/${DISTNAME}/installer/src/Config
 
 MAINTAINER=	adam.hoka@gmail.com
 COMMENT=	Pty (pseudo-terminal) bindings for Lua 5.0.x

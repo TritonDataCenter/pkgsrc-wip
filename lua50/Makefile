@@ -1,7 +1,7 @@
 # $NetBSD$
-#
 
 DISTNAME=	lua-5.0.3
+PKGNAME=	lua50-5.0.3
 CATEGORIES=	lang
 MASTER_SITES=   ftp://ftp.tecgraf.puc-rio.br/pub/lua/ \
                 ftp://ftp.ntua.gr/pub/lang/lua/ \

@@ -1,10 +1,10 @@
 # $NetBSD$
 
-DISTNAME=	bsdinstaller-20070528
 PKGNAME=	dfuife_curses-1.5.1
 CATEGORIES=	sysutils
 
-MASTER_SITES=	http://rnrdoctor.sytes.net/~replaced/bsdinstaller/
+.include "../../wip/bsdinstaller/bsdinstaller.mk"
+
 WRKSRC=		${WRKDIR}/${DISTNAME}/installer/src/frontends/ncurses
 
 MAINTAINER=	adam.hoka@gmail.com
@@ -12,11 +12,6 @@ HOMEPAGE=	http://www.bsdinstaller.com/
 COMMENT=	DFUI curses frontend
 
 USE_NCURSES=	yes
-
-FILESDIR=	${.CURDIR}/../../wip/bsdinstaller/files
-
-pre-configure:
-	${CP} ${FILESDIR}/Config ${WRKDIR}/${DISTNAME}/installer/src/Config
 
 do-install:
 	${INSTALL_DATA_DIR} -p ${PREFIX}/share/dfuife_curses
