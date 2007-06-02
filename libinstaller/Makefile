@@ -13,6 +13,12 @@ COMMENT=	BSD Installer library
 
 FILESDIR=	${.CURDIR}/../../wip/bsdinstaller/files
 
+SUBST_CLASSES+=		conf
+SUBST_STAGE.conf=	post-patch
+SUBST_FILES.conf=	functions.c
+SUBST_SED.conf=		-e "s|@@prefix@@|${PREFIX}|g"
+SUBST_MESSAGE.conf=	Fixing hardcoded paths.
+
 pre-configure:
 	${CP} ${FILESDIR}/Config ${WRKDIR}/${DISTNAME}/installer/src/Config
 
