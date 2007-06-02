@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		siege-2.65
+DISTNAME=		siege-2.66
 CATEGORIES=		www
 MASTER_SITES=		ftp://sid.joedog.org/pub/siege/
 
