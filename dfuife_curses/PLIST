@@ -1,0 +1,4 @@
+@comment $NetBSD$
+sbin/dfuife_curses
+share/dfuife_curses/fred.txt
+@dirrm share/dfuife_curses
