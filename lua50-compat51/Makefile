@@ -14,6 +14,12 @@ SUBST_MESSAGE.fix-paths-in-sh=	Fixing absolute paths.
 SUBST_FILES.fix-paths-in-sh=	lua50c51.sh
 SUBST_SED.fix-paths-in-sh=	-e "s:/usr/local:${PREFIX}:g"
 
+SUBST_CLASSES+=                 fix-paths-in-lua
+SUBST_STAGE.fix-paths-in-lua=    pre-configure
+SUBST_MESSAGE.fix-paths-in-lua=  Fixing absolute paths..
+SUBST_FILES.fix-paths-in-lua=    compat-5.1.lua
+SUBST_SED.fix-paths-in-lua=      -e "s:/usr/local:${PREFIX}:g"
+
 post-extract:
 	${CP} ${FILESDIR}/lua50c51.sh ${WRKSRC}
 
