@@ -17,9 +17,16 @@ HEADERS=	_alloca.h _malloc.h _utmpx.h alloca.h asciitype.h atoll.h \
 		msgselect.h oblok.h pathconf.h pfmt.h regexp.h regexpr.h \
 		sfile.h sigset.h utmpx.h
 
+PLIST_SUBST+=	NO_ALLOCA=
+.if ${OPSYS} == "Linux"
+PLIST_SUBST+=	"NO_ALLOCA=@comment "
+.endif
+
 do-install:
 .for i in ${HEADERS}
-	${INSTALL_DATA} ${WRKSRC}/libcommon/${i} ${DESTDIR}${HEADERS_DIR}
+	if test -r ${WRKSRC}/libcommon/${i}; then \
+	   ${INSTALL_DATA} ${WRKSRC}/libcommon/${i} ${DESTDIR}${HEADERS_DIR}; \
+	fi
 .endfor
 	${INSTALL_DATA} ${WRKSRC}/libcommon/libcommon.a \
 		${DESTDIR}${PREFIX}/lib/libheirloomcommon.a
