@@ -5,7 +5,7 @@ PKGNAME=		linuxdcpp-${LDCPP_VERSION}
 CATEGORIES=		net x11
 MASTER_SITES=		http://linuxdcpp.berlios.de/
 
-MAINTAINER=		tnn+nbsd@nygren.pp.se
+MAINTAINER=		tnn@NetBSD.org
 HOMEPAGE=		http://linuxdcpp.berlios.de/
 COMMENT=		DC++-based p2p filesharing application
 
