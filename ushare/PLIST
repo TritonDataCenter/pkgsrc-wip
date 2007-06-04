@@ -1,0 +1,6 @@
+@comment $NetBSD$
+bin/ushare
+man/man1/ushare.1
+share/examples/ushare.conf
+share/locale/de/LC_MESSAGES/ushare.mo
+share/locale/fr/LC_MESSAGES/ushare.mo
