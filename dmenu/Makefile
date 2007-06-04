@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=		dmenu-3.1
+DISTNAME=		dmenu-3.2
 CATEGORIES=		misc
 MASTER_SITES=		http://www.suckless.org/download/
 
