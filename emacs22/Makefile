@@ -1,4 +1,4 @@
-# $NetBSD: Makefile,v 1.103 2007/02/22 19:26:25 wiz Exp $
+# $NetBSD$
 
 DISTNAME=	emacs-${EMACSVERSION}a
 PKGREVISION=	10

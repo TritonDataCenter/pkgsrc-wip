@@ -1,4 +1,4 @@
-@comment $NetBSD: PLIST,v 1.14 2007/02/20 19:04:11 wiz Exp $
+@comment $NetBSD$
 bin/emacs
 bin/emacs-${EMACSVERSION}
 bin/emacs-b2m
