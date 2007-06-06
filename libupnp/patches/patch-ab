@@ -1,6 +1,6 @@
 $NetBSD$
 
---- upnp/inc/upnp.h.orig	2007-03-03 23:58:24.000000000 +0900
+--- upnp/inc/upnp.h.orig	2007-03-03 14:58:24.000000000 +0000
 +++ upnp/inc/upnp.h
 @@ -45,9 +45,7 @@
  #endif 

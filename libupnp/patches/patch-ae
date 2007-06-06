@@ -1,6 +1,6 @@
 $NetBSD$
 
---- libupnp.pc.in.orig	2006-10-05 15:19:38.000000000 +0900
+--- libupnp.pc.in.orig	2006-10-05 06:19:38.000000000 +0000
 +++ libupnp.pc.in
 @@ -6,7 +6,7 @@ includedir=@includedir@
  Name: libupnp

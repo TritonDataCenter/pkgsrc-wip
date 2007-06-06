@@ -1,6 +1,6 @@
 $NetBSD$
 
---- threadutil/src/ThreadPool.c.orig	2007-03-13 12:19:24.000000000 +0900
+--- threadutil/src/ThreadPool.c.orig	2007-03-13 03:19:24.000000000 +0000
 +++ threadutil/src/ThreadPool.c
 @@ -97,11 +97,15 @@ SetPolicyType( PolicyType in )
      #ifdef WIN32
