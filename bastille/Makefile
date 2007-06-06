@@ -51,7 +51,6 @@ OSMAP_SUBSTVARS=	PKG_SYSCONFDIR PREFIX VARBASE
 
 post-extract:
 	cd ${WRKSRC} && find . -print | checkperms -ffc
-	cd ${WRKSRC} && chmod -x *.pm
 	cd ${FILESDIR} && cp ${OSMAP_FILES} ${WRKSRC}/OSMap/.
 
 post-configure:
