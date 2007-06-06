@@ -8,7 +8,7 @@ $NetBSD$
  from distutils.core import setup, Extension
 +import os
 +
-+LOCALBASE = os.environ.get('LOCALBASE', '/usr/pkg')
++LOCALBASE = os.environ.get('LOCALBASE')
  
  setup (name = "pyosd",
         version = "0.2.14",
