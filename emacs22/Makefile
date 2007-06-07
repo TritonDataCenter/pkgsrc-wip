@@ -1,7 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	emacs-${EMACSVERSION}a
-PKGREVISION=	10
+DISTNAME=	emacs-22.1
 CATEGORIES=	editors
 COMMENT=	GNU editing macros (editor)
 
