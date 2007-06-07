@@ -10,7 +10,7 @@ USE_TOOLS+=		gmake perl:run
 GNU_CONFIGURE=		yes
 
 PATCHDIR=	${.CURDIR}/../../editors/emacs22/patches
-FILESDIR=	${.CURDIR}/../../editors/emacs22/files
+FILESDIR=	${.CURDIR}/../../editors/emacs/files
 DISTINFO_FILE=	${.CURDIR}/../../editors/emacs22/distinfo
 PLIST_SRC=	${.CURDIR}/../../editors/emacs22/PLIST
 
