@@ -9,8 +9,6 @@ COMMENT=	GNU editing macros (editor)
 
 CONFLICTS+=	emacs-nox11-[0-9]*
 
-CONFIGURE_ARGS+=	--srcdir=${WRKSRC:Q}
-
 .include "options.mk"
 
 .include "../../mk/bsd.pkg.mk"

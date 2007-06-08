@@ -23,6 +23,8 @@ PLIST_SUBST+=	EMACSVERSION=${EMACSVERSION:Q}
 
 MAKEFLAGS+=	EMACSLOADPATH=${WRKSRC}/lisp
 
+CONFIGURE_ARGS+=	--srcdir=${WRKSRC:Q}
+
 # build PATH in the dumped emacs is not a problem
 CHECK_WRKREF_SKIP+=	bin/emacs
 CHECK_WRKREF_SKIP+=	bin/emacs-${EMACSVERSION}
