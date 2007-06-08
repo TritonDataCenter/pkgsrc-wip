@@ -19,7 +19,7 @@ post-install:
 	${INSTALL_DATA} ${WRKSRC}/AUTHORS ${WRKSRC}/COPYING ${WRKSRC}/ChangeLog ${MISCDIR}
 	${INSTALL_DATA} ${WRKSRC}/docs/* ${DOCSDIR}
 
-.include "../../devel/libnet/buildlink3.mk"
+.include "../../devel/libnet10/buildlink3.mk"
 .include "../../net/libpcap/buildlink3.mk"
 
 .include "../../mk/bsd.pkg.mk"
