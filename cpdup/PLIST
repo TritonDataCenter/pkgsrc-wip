@@ -1,0 +1,3 @@
+@comment $NetBSD$
+bin/cpdup
+man/man1/cpdup.1
