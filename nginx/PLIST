@@ -1,2 +1,10 @@
 @comment $NetBSD$
+etc/nginx/koi-utf
+etc/nginx/koi-win
+etc/nginx/win-utf
 sbin/nginx
+share/doc/html/nginx/50x.html
+share/doc/html/nginx/index.html
+share/examples/nginx/mime.types
+share/examples/nginx/nginx.conf
+@dirrm share/examples/nginx
