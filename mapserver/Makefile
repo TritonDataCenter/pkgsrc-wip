@@ -11,6 +11,7 @@ COMMENT=		Environment for building spatially enabled Internet apps
 
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
+PGSQL_VERSIONS_ACCEPTED?=	80
 
 CONFIGURE_ARGS+=	--with-curl-config		\
 			--with-tiff			\
