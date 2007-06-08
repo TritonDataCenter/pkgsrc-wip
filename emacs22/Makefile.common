@@ -30,7 +30,5 @@ CHECK_WRKREF_SKIP+=	bin/emacs-${EMACSVERSION}
 INFO_FILES=	# PLIST
 REPLACE_PERL=	lib-src/grep-changelog
 
-.include "../../mk/bsd.prefs.mk"
-
 post-extract:
 	cp ${FILESDIR}/site-init.el ${WRKSRC}/lisp
