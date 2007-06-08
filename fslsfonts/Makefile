@@ -18,6 +18,6 @@ GNU_CONFIGURE=	yes
 USE_LANGUAGES=	c
 
 .include "../../x11/libFS/buildlink3.mk"
-.include "../../wip/libX11/buildlink3.mk"
+.include "../../x11/libX11/buildlink3.mk"
 
 .include "../../mk/bsd.pkg.mk"
