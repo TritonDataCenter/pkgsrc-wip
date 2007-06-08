@@ -26,19 +26,19 @@ do-install:
 #
 
 # Additional plugins etc.
-.include "../../wip/xfce4-xmms-plugin/buildlink3.mk"
-.include "../../wip/xfce4-weather-plugin/buildlink3.mk"
-.include "../../wip/xfce4-wavelan-plugin/buildlink3.mk"
-.include "../../wip/xfce4-datetime-plugin/buildlink3.mk"
-.include "../../wip/xfce4-cpugraph-plugin/buildlink3.mk"
-.include "../../wip/xfce4-diskperf-plugin/buildlink3.mk"
-.include "../../wip/xfce4-fsguard-plugin/buildlink3.mk"
-.include "../../wip/xfce4-netload-plugin/buildlink3.mk"
-.include "../../wip/xfce4-quicklauncher-plugin/buildlink3.mk"
-.include "../../wip/xfce4-systemload-plugin/buildlink3.mk"
-.include "../../wip/xfce4-xkb-plugin/buildlink3.mk"
-.include "../../wip/xfce4-clipman-plugin/buildlink3.mk"
-.include "../../wip/xfce4-notes-plugin/buildlink3.mk"
+.include "../../audio/xfce4-xmms-plugin/buildlink3.mk"
+.include "../../misc/xfce4-weather-plugin/buildlink3.mk"
+.include "../../net/xfce4-wavelan-plugin/buildlink3.mk"
+.include "../../time/xfce4-datetime-plugin/buildlink3.mk"
+.include "../../sysutils/xfce4-cpugraph-plugin/buildlink3.mk"
+.include "../../sysutils/xfce4-diskperf-plugin/buildlink3.mk"
+.include "../../sysutils/xfce4-fsguard-plugin/buildlink3.mk"
+.include "../../sysutils/xfce4-netload-plugin/buildlink3.mk"
+.include "../../sysutils/xfce4-quicklauncher-plugin/buildlink3.mk"
+.include "../../sysutils/xfce4-systemload-plugin/buildlink3.mk"
+.include "../../sysutils/xfce4-xkb-plugin/buildlink3.mk"
+.include "../../x11/xfce4-clipman-plugin/buildlink3.mk"
+.include "../../x11/xfce4-notes-plugin/buildlink3.mk"
 
 ## WHAT TO DO WITH THESE?
 # .include "../../graphics/xfce4-artwork/buildlink3.mk"
