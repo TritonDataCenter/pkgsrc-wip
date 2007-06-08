@@ -21,7 +21,7 @@ post-patch:
 	@${SED} -e 's#@PREFIX@#${PREFIX}#g' \
 		< ${WRKSRC}/config.dat.new > ${WRKSRC}/config.dat
 
-.include "../../devel/libnet/buildlink3.mk"
+.include "../../devel/libnet10/buildlink3.mk"
 .include "../../mk/pthread.buildlink3.mk"
 .include "../../wip/netwib/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
