@@ -15,7 +15,13 @@ USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 BUILD_TARGET=		noiptun
 
-.include "../../devel/libnet/buildlink3.mk"
+SUBST_CLASSES+=		net
+SUBST_STAGE.net=	pre-configure
+SUBST_FILES.net=	configure Makefile.in
+SUBST_SED.net=		-e 's/libnet-config/libnet11-config/'
+SUBST_MESSAGE.net=	Fix libnet-config name.
+
+.include "../../devel/libnet11/buildlink3.mk"
 .include "../../net/libpcap/buildlink3.mk"
 .include "../../security/openssl/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
