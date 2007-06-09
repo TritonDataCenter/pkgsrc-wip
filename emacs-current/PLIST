@@ -2481,6 +2481,8 @@ share/emacs/${PKGVERSION}/lisp/textmodes/makeinfo.el.gz
 share/emacs/${PKGVERSION}/lisp/textmodes/makeinfo.elc
 share/emacs/${PKGVERSION}/lisp/textmodes/nroff-mode.el.gz
 share/emacs/${PKGVERSION}/lisp/textmodes/nroff-mode.elc
+share/emacs/${PKGVERSION}/lisp/textmodes/org-publish.el.gz
+share/emacs/${PKGVERSION}/lisp/textmodes/org-publish.elc
 share/emacs/${PKGVERSION}/lisp/textmodes/org.el.gz
 share/emacs/${PKGVERSION}/lisp/textmodes/org.elc
 share/emacs/${PKGVERSION}/lisp/textmodes/page-ext.el.gz
