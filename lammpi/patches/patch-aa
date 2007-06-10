@@ -7,7 +7,7 @@ $NetBSD$
  #include "adio.h"
  
 -#if (defined(HPUX) || defined(SPPUX) || defined(IRIX) || defined(SOLARIS) || defined(AIX) || defined(DEC) || defined(CRAY))
-+#if (defined(HPUX) || defined(SPPUX) || defined(IRIX) || defined(SOLARIS) || defined(AIX) || defined(DEC) || defined(CRAY) || __NetBSD_Version >= 300000000)
++#if (defined(HPUX) || defined(SPPUX) || defined(IRIX) || defined(SOLARIS) || defined(AIX) || defined(DEC) || defined(CRAY) || __NetBSD_Version__ >= 300000000)
  #include <sys/statvfs.h>
  #endif
  #ifdef LINUX
