@@ -2,10 +2,10 @@
 
 DISTNAME=	clamassassin-1.2.2
 CATEGORIES=	mail
-MASTER_SITES=	http://drivel.com/clamassassin/
+MASTER_SITES=	http://jameslick.com/clamassassin/
 
 MAINTAINER=	ura@jp.NetBSD.org
-HOMEPAGE=	http://drivel.com/clamassassin/
+HOMEPAGE=	http://jameslick.com/clamassassin/
 COMMENT=	Simple virus filter wrapper for ClamAV
 
 DEPENDS+=	clamav>=0.84:../../mail/clamav

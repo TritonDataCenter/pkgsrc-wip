@@ -6,7 +6,7 @@ CATEGORIES=		wm
 MASTER_SITES=		ftp://ftp.scsh.net/pub/scsh/packages/orion-wm/
 
 MAINTAINER=		airhead@users.sf.net
-HOMEPAGE=		http://orion.elektrubadur.se/
+HOMEPAGE=		http://orion.antidesktop.org/
 COMMENT=		Orion - a window manager for X written in Scheme
 
 #

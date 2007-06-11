@@ -7,7 +7,7 @@ MASTER_SITES=		http://libre.act-europe.fr/GtkAda/
 EXTRACT_SUFX=		.tgz
 
 MAINTAINER=		john@johnrshannon.com
-HOMEPAGE=		https://libre2.adacore.com/GtkAda/
+HOMEPAGE=		https://libre.adacore.com/GtkAda/
 COMMENT=		Ada95 graphical toolkit
 
 USE_PKGLOCALEDIR=	yes

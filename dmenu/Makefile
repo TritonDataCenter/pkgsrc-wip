@@ -5,7 +5,7 @@ CATEGORIES=		misc
 MASTER_SITES=		http://www.suckless.org/download/
 
 MAINTAINER=		cosmedbr@users.sourceforge.net
-HOMEPAGE=		http://suckless.org/
+HOMEPAGE=		http://www.suckless.org/
 COMMENT=		Dynamic menu
 
 NO_CONFIGURE=		yes

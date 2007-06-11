@@ -3,10 +3,10 @@
 DISTNAME=		libixp-0.2
 PKGREVISION=		1
 CATEGORIES=		devel
-MASTER_SITES=		http://libs.suckless.org/download/
+MASTER_SITES=		http://www.suckless.org/download/
 
 MAINTAINER=		cosmedbr@users.sourceforge.net
-HOMEPAGE=		http://libs.suckless.org/
+HOMEPAGE=		http://www.suckless.org/
 COMMENT=		Standalone client/server 9P library
 
 NO_CONFIGURE=		yes
