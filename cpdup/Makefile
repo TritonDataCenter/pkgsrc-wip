@@ -13,6 +13,8 @@ COMMENT=	Designed to make exact mirrors of directory trees
 
 WRKSRC=	${WRKDIR}/cpdup
 
+INSTALLATION_DIRS=	bin ${PKGMANDIR}/man1
+
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/cpdup ${PREFIX}/bin
 	${INSTALL_MAN} ${WRKSRC}/cpdup.1 ${PREFIX}/${PKGMANDIR}/man1
