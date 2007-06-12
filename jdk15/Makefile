@@ -164,7 +164,6 @@ do-install:
 #		${JAVA_HOME}/jre/javaws/cacerts
 
 .include "../../mk/java-env.mk"
-.include "../../www/seamonkey/gecko-depends.mk"
 .include "../../mk/motif.buildlink3.mk"
 .include "../../x11/libXi/buildlink3.mk"
 .include "../../x11/libXtst/buildlink3.mk"
