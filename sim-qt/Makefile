@@ -33,4 +33,6 @@ post-configure:
 .include "../../textproc/libxslt/buildlink3.mk"
 .include "../../textproc/aspell/buildlink3.mk"
 .include "../../x11/qt3-libs/buildlink3.mk"
+BUILDLINK_API_DEPENDS.qt3-tools+=       qt3-tools>=3.3.5nb6
+.include "../../x11/qt3-tools/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
