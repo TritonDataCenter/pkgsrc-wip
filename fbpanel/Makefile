@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		fbpanel-4.8
+DISTNAME=		fbpanel-4.9
 CATEGORIES=		x11
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=fbpanel/}
 EXTRACT_SUFX=		.tgz
@@ -27,4 +27,5 @@ MANCOMPRESSED=		yes
 
 .include "../../x11/libXmu/buildlink3.mk"
 .include "../../x11/gtk2/buildlink3.mk"
+.include "../../devel/glib2/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
