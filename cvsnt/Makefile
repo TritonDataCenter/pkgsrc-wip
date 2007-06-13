@@ -17,7 +17,6 @@ USE_TOOLS+=	pkg-config gmake
 USE_LANGUAGES=	c c++
 
 CONFIGURE_ARGS+=		--without-gssapi
-CONFIGURE_ARGS+=		--disable-mysql
 
 RCD_SCRIPTS+=		cvslockd
 
@@ -27,6 +26,8 @@ CONF_FILES=		${EGDIR}/Plugins.example ${PKG_SYSCONFDIR}/cvsnt/Plugins
 CONF_FILES=		${EGDIR}/PServer.example ${PKG_SYSCONFDIR}/cvsnt/PServer
 
 CHECK_PORTABILITY_SKIP+=	pcre/configure
+
+.include "options.mk"
 
 .include "../../devel/libltdl/convenience.mk"
 .include "../../devel/libntlm/buildlink3.mk"
