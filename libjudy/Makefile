@@ -1,7 +1,7 @@
 # $NetBSD$
 
-DISTNAME=	Judy-1.0.3
-PKGNAME=	libjudy-1.0.3
+DISTNAME=	Judy-1.0.4
+PKGNAME=	libjudy-1.0.4
 CATEGORIES=	devel
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=judy/}
 
