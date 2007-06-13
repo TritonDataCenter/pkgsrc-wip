@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		gnome-commander-1.2.3
+DISTNAME=		gnome-commander-1.2.4
 CATEGORIES=		sysutils
 MASTER_SITES=		${MASTER_SITE_GNOME:=sources/gnome-commander/1.2/}
 EXTRACT_SUFX=		.tar.bz2
@@ -22,6 +22,12 @@ USE_TOOLS+=		gmake intltool pkg-config perl
 #after make configure like this:
 pre-build:
 	${RM} -f ${WRKDIR}/.buildlink/include/krb5/fnmatch.h
+
+PLIST_SRC+=		${PKGDIR}/PLIST
+
+.include "options.mk"
+
+PLIST_SRC+=		${PKGDIR}/PLIST.end
 
 .include "../../x11/gtk2/buildlink3.mk"
 .include "../../sysutils/gnome-vfs2/buildlink3.mk"
