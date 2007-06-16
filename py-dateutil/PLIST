@@ -17,4 +17,12 @@ ${PYSITELIB}/dateutil/rrule.pyo
 ${PYSITELIB}/dateutil/tz.py
 ${PYSITELIB}/dateutil/tz.pyc
 ${PYSITELIB}/dateutil/tz.pyo
+${PYSITELIB}/dateutil/tzwin.py
+${PYSITELIB}/dateutil/tzwin.pyc
+${PYSITELIB}/dateutil/tzwin.pyo
+${PYSITELIB}/dateutil/zoneinfo/__init__.py
+${PYSITELIB}/dateutil/zoneinfo/__init__.pyc
+${PYSITELIB}/dateutil/zoneinfo/__init__.pyo
+${PYSITELIB}/dateutil/zoneinfo/zoneinfo-2005q.tar.gz
+@dirrm ${PYSITELIB}/dateutil/zoneinfo
 @dirrm ${PYSITELIB}/dateutil
