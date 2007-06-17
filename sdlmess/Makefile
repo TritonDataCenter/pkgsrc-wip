@@ -48,6 +48,9 @@ MAKE_FLAGS+=	X86_PPC_DRC=${X86_PPC_DRC:Q}
 INSTALLATION_DIRS=	bin share/doc/mess/sysinfo share/mess/artwork \
 			share/mess/hash
 
+post-build:
+	cd ${WRKSRC} && ./dat2html
+
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/imgtool ${PREFIX}/bin
 	${INSTALL_PROGRAM} ${WRKSRC}/mess ${PREFIX}/bin
