@@ -18,6 +18,7 @@ JBMGEN_FILES=		BinaryStuff.rb Dictionary.rb FileEntry.rb JBMFile.rb \
 			mp3info.rb
 
 post-extract:
+	set -e; \
 	for m in ${JBMGEN_FILES}; do \
 		sed -e 's,require *[^ ]\([^\.]*\)\.rb.,require "jbmgen/\1",' \
 			"${WRKSRC}/$$m" > "${WRKSRC}/$$m.new"; \
@@ -25,6 +26,7 @@ post-extract:
 
 do-install:
 	mkdir ${RUBY_SITELIBDIR}/jbmgen
+	set -e; \
 	for m in ${JBMGEN_FILES}; do \
 		${INSTALL_DATA} "${WRKSRC}/$$m.new" "${RUBY_SITELIBDIR}/jbmgen/$$m"; \
 	done
