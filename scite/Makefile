@@ -1,7 +1,7 @@
 # $NetBSD$
 
-DISTNAME=		scite173
-PKGNAME=		scite-1.73
+DISTNAME=		scite174
+PKGNAME=		scite-1.74
 #PKGREVISION=		1
 CATEGORIES=		editors
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=scintilla/}

@@ -44,6 +44,7 @@ share/scite/flagship.properties
 share/scite/forth.properties
 share/scite/fortran.properties
 share/scite/freebasic.properties
+share/scite/gap.properties
 share/scite/html.properties
 share/scite/inno.properties
 share/scite/kix.properties

@@ -24,8 +24,8 @@ $NetBSD$
  $(PROG): SciTEGTK.o FilePath.o SciTEBase.o SciTEBuffers.o SciTEIO.o Exporters.o \
  MultiplexExtension.o DirectorExtension.o SciTEProps.o Utf8_16.o \
  	$(COMPLIB) $(LUA_OBJS)
--	$(CC) `$(CONFIGTHREADS)` -DGTK $^ -o $@ `$(CONFIGLIB)`
-+	$(CC) `$(CONFIGTHREADS)` -DGTK $^ -o $@ -L/usr/lib `$(CONFIGLIB)`
+-	$(CC) `$(CONFIGTHREADS)` -DGTK $^ -o $@ $(CONFIGLIB)
++	$(CC) `$(CONFIGTHREADS)` -DGTK $^ -o $@ -L/usr/lib $(CONFIGLIB)
  
  # Automatically generate header dependencies with "make deps"
  include deps.mak
