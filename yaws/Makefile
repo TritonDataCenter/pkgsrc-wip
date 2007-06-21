@@ -9,7 +9,7 @@ MASTER_SITES=		http://yaws.hyber.org/download/
 
 MAINTAINER=		bartosz.kuzma@gmail.com
 HOMEPAGE=		http://yaws.hyber.org/
-COMMENT=		HTTP high perfomance 1.1 webserver written in Erlang
+COMMENT=		High perfomance HTTP 1.1 webserver written in Erlang
 
 BUILD_DEFS+=		VARBASE
 
