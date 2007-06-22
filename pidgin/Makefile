@@ -1,9 +1,9 @@
 # $NetBSD$
 #
 
-PKGNAME=	pidgin-2.0.1
-
-COMMENT=	Multi-protocol Instant Messaging client GTK frontend
+PKGNAME=		pidgin-2.0.1
+COMMENT=		Multi-protocol Instant Messaging client GTK frontend
+PKGREVISION=		1
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
