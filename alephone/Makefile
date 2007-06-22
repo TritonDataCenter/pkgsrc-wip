@@ -17,6 +17,7 @@ COMMENT=	Classic 2.5D FPS game engine, updated to use SDL
 
 GNU_CONFIGURE=	yes
 USE_LANGUAGES+=	c++
+USE_LANGUAGES+=	c
 
 .include "../../devel/boost-headers/buildlink3.mk"
 .include "../../devel/SDL/buildlink3.mk"
