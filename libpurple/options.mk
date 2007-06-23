@@ -1,7 +1,7 @@
 # $NetBSD$
 
-PKG_OPTIONS_VAR=		PKG_OPTIONS.pidgin
-PKG_SUPPORTED_OPTIONS+=		gnutls silc perl tcl debug
+PKG_OPTIONS_VAR=		PKG_OPTIONS.libpurple
+PKG_SUPPORTED_OPTIONS+=		gnutls silc perl tcl debug dbus
 PKG_SUGGESTED_OPTIONS+=		gnutls silc
 
 .include "../../mk/bsd.options.mk"
@@ -44,6 +44,20 @@ CONFIGURE_ARGS+=	--with-tclconfig=${BUILDLINK_PREFIX.tcl}/lib
 .  include "../../lang/tcl/buildlink3.mk"
 .else
 CONFIGURE_ARGS+=	--disable-tcl
+.endif
+
+.if !empty(PKG_OPTIONS:Mdbus)
+CONFIGURE_ARGS+=	--enable-dbus
+CONFIGURE_ARGS+=	--with-python=${PYTHONBIN}
+PLIST_SUBST+=		DBUS=
+REPLACE_PYTHON+=	libpurple/purple-remote
+REPLACE_PYTHON+=	libpurple/purple-url-handler
+.  include "../../sysutils/dbus/buildlink3.mk"
+.  include "../../sysutils/dbus-glib/buildlink3.mk"
+.  include "../../lang/python/application.mk"
+.else
+CONFIGURE_ARGS+=	--disable-dbus
+PLIST_SUBST+=		DBUS="@comment "
 .endif
 
 .if !empty(PKG_OPTIONS:Mdebug)
