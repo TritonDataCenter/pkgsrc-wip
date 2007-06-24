@@ -19,7 +19,5 @@ PYDISTUTILSPKG= yes
 BUILD_DEPENDS+= ${PYPKGPREFIX}-ctypes-[0-9]*:../../devel/py-ctypes
 BUILD_DEPENDS+= libtunepimp-[0-9]*:../../audio/libtunepimp
 
-PYDISTUTILSPKG= yes
-
 .include "../../lang/python/extension.mk"
 .include "../../mk/bsd.pkg.mk"
