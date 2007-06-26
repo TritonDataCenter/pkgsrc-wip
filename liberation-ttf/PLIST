@@ -11,5 +11,6 @@ lib/X11/fonts/TTF/LiberationSerif-Bold.ttf
 lib/X11/fonts/TTF/LiberationSerif-BoldItalic.ttf
 lib/X11/fonts/TTF/LiberationSerif-Italic.ttf
 lib/X11/fonts/TTF/LiberationSerif-Regular.ttf
+share/doc/liberation-ttf/COPYING
 share/doc/liberation-ttf/License.txt
 @dirrm share/doc/liberation-ttf
