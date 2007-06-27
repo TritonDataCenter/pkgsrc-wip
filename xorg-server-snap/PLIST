@@ -220,12 +220,10 @@ ${PKGMANDIR}/man1/Xvfb.1
 ${PKGMANDIR}/man1/cvt.1
 ${PKGMANDIR}/man1/gtf.1
 ${PKGMANDIR}/man1/pcitweak.1
-${PKGMANDIR}/man1/scanpci.1
 ${PKGMANDIR}/man1/xorgconfig.1
 ${PKGMANDIR}/man4/exa.4
 ${PKGMANDIR}/man4/fbdevhw.4
 ${PKGMANDIR}/man5/xorg.conf.5
-share/X11/Cards
 share/X11/xkb/compiled/README.compiled
 share/aclocal/xorg-server.m4
 @dirrm share/X11/xkb/compiled
