@@ -1,0 +1,13 @@
+$NetBSD$
+
+--- exa/exa_offscreen.c.orig	2007-02-16 11:03:12.000000000 -0500
++++ exa/exa_offscreen.c
+@@ -427,7 +427,7 @@ ExaOffscreenMarkUsed (PixmapPtr pPixmap)
+     ExaScreenPriv (pPixmap->drawable.pScreen);
+     static int iter = 0;
+ 
+-    if (!pExaPixmap->area)
++    if (!pExaPixmap || !pExaPixmap->area)
+ 	return;
+ 
+     /* The numbers here are arbitrary.  We may want to tune these. */
