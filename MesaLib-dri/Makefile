@@ -28,7 +28,7 @@ GL_HEADERS+=	osmesa.h xmesa.h xmesa_x.h xmesa_xf86.h
 
 WRKSRC=		${WRKDIR}/Mesa-${MESA_VERSION}
 
-DRI_CFLAGS+=	-DPTHREADS -DUSE_XSHM -ffast-math -fno-strict-aliasing
+DRI_CFLAGS+=	-DPTHREADS -DUSE_XSHM -fno-strict-aliasing
 CFLAGS+=	${DRI_CFLAGS:M*:Q}
 
 .include "subst.mk"
