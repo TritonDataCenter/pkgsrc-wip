@@ -1,6 +1,2 @@
 @comment $NetBSD$
-lib/libluaposix.so
-lib/lua/posix.lua
-lib/lua/test.lua
-lib/lua/tree.lua
-@dirrm lib/lua
+lib/lua/5.1/posix.so
