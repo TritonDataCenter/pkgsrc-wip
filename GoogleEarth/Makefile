@@ -27,6 +27,7 @@ ONLY_FOR_PLATFORM+=	NetBSD-[3-9]*-i386
 GE_VERSION=		4.1.7076.4458
 NO_CONFIGURE=		yes
 WRKSRC=			${WRKDIR}/GoogleEarthLinuxPlus-${GE_VERSION}-installer
+DIST_SUBDIR=		${PKGNAME_NOREV}
 EXTRACT_CMD=		${SH} "$$extract_file" --noexec --keep
 
 .include "../../mk/bsd.prefs.mk"
