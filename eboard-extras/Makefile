@@ -14,7 +14,7 @@ NO_BUILD=YES
 DISTFILES+=		${EXTRA2}${EXTRACT_SUFX}
 DISTFILES+=		${EXTRA1}${EXTRACT_SUFX}
 
-DEPENDS+=		eboard-[0-9\.]*:../../wip/eboard
+DEPENDS+=		eboard-[0-9\.]*:../../games/eboard
 
 EXTRA2=			eboard-extras-2
 EXTRA1=			eboard-extras-1pl2
