@@ -23,6 +23,6 @@ ${PYSITELIB}/dateutil/tzwin.pyo
 ${PYSITELIB}/dateutil/zoneinfo/__init__.py
 ${PYSITELIB}/dateutil/zoneinfo/__init__.pyc
 ${PYSITELIB}/dateutil/zoneinfo/__init__.pyo
-${PYSITELIB}/dateutil/zoneinfo/zoneinfo-2005q.tar.gz
+${PYSITELIB}/dateutil/zoneinfo/zoneinfo-2007f.tar.gz
 @dirrm ${PYSITELIB}/dateutil/zoneinfo
 @dirrm ${PYSITELIB}/dateutil

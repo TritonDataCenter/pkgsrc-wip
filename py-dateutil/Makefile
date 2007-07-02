@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	python-dateutil-1.1
+DISTNAME=	python-dateutil-1.2
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME:S/python-//}
 CATEGORIES=	time python
 MASTER_SITES=	http://labix.org/download/python-dateutil/
