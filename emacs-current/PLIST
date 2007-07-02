@@ -987,6 +987,7 @@ share/emacs/${PKGVERSION}/lisp/emacs-lisp/cl-extra.el.gz
 share/emacs/${PKGVERSION}/lisp/emacs-lisp/cl-extra.elc
 share/emacs/${PKGVERSION}/lisp/emacs-lisp/cl-indent.el.gz
 share/emacs/${PKGVERSION}/lisp/emacs-lisp/cl-indent.elc
+share/emacs/${PKGVERSION}/lisp/emacs-lisp/cl-loaddefs.el
 share/emacs/${PKGVERSION}/lisp/emacs-lisp/cl-macs.el.gz
 share/emacs/${PKGVERSION}/lisp/emacs-lisp/cl-macs.elc
 share/emacs/${PKGVERSION}/lisp/emacs-lisp/cl-seq.el.gz
