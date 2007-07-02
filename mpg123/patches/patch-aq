@@ -12,3 +12,21 @@ $NetBSD$
  
  #ifdef HAVE_LINUX_SOUNDCARD_H
  #include <linux/soundcard.h>
+@@ -173,7 +171,7 @@ int audio_open(struct audio_info_struct 
+     return -1;
+ 
+   if(!ai->device) {
+-    ai->device = "/dev/dsp";
++    ai->device = "@DEVOSSAUDIO@";
+     usingdefdev = 1;
+   }
+ 
+@@ -182,7 +180,7 @@ int audio_open(struct audio_info_struct 
+   if(ai->fn < 0)
+   {
+     if(usingdefdev) {
+-      ai->device = "/dev/sound/dsp";
++      ai->device = "@DEVOSSSOUND@";
+       ai->fn = open(ai->device,O_WRONLY);
+       if(ai->fn < 0) {
+       error("Can't open default sound device!");
