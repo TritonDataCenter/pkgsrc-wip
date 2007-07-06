@@ -3,5 +3,5 @@ bin/wkf
 include/wkf.h
 lib/libwkf.a
 lib/libwkf.so
-lib/libwkf.so.1.3
+lib/libwkf13.so.1
 man/ja/man1/wkf.1
