@@ -1,9 +1,9 @@
 # $NetBSD$
 #
 
-DISTNAME=		commoncpp2-1.3.16
+DISTNAME=		commoncpp2-1.5.3
 CATEGORIES=		devel
-MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=gnutelephony/}
+MASTER_SITES=		ftp://ftp.gnu.org/gnu/commonc++/
 
 MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://cplusplus.sourceforge.net/
