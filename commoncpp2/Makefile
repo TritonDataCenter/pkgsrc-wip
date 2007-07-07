@@ -10,6 +10,7 @@ HOMEPAGE=		http://cplusplus.sourceforge.net/
 COMMENT=		Portable and highly optimized class framework for C++
 
 USE_PKGLOCALEDIR=	yes
+USE_LANGUAGES+=         c c++
 PKGCONFIG_OVERRIDE+=	${WRKSRC}/src/libccgnu2.pc.in
 PKGCONFIG_OVERRIDE+=	${WRKSRC}/src/libccext2.pc.in
 GNU_CONFIGURE=		yes
