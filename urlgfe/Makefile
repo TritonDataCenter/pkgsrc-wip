@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		urlgfe-0.98
+DISTNAME=		urlgfe-1.0.1
 CATEGORIES=		net
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=urlget/}
 
