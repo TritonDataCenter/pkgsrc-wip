@@ -10,6 +10,7 @@ HOMEPAGE=		http://wiki.gnutelephony.org/
 COMMENT=		RTP and RTSP protocol implementation using GNU CommonCpp
 
 USE_PKGLOCALEDIR=	yes
+USE_LANGUAGES+=		c c++
 PKGCONFIG_OVERRIDE+=	${WRKSRC}/libccrtp1.pc.in
 GNU_CONFIGURE=		yes
 
