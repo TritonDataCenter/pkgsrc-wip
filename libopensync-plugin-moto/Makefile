@@ -11,7 +11,7 @@ HOMEPAGE=	http://www.opensync.org/attachment/wiki/download/
 COMMENT=	Moto plugin for opensync (for Motorola phones)
 
 DEPENDS+=	${PYPKGPREFIX}-libopensync-plugin>=0.22:../../wip/py-libopensync-plugin
-DEPENDS+=	${PYPKGPREFIX}-dateutil>=1.0:../../wip/py-dateutil
+DEPENDS+=	${PYPKGPREFIX}-dateutil>=1.0:../../time/py-dateutil
 
 PYTHON_VERSIONS_ACCEPTED=	24
 USE_TOOLS+=			pkg-config:run
