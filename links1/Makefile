@@ -6,7 +6,7 @@ PKGNAME=		${DISTNAME:S/links/links1/}
 CATEGORIES=		www
 MASTER_SITES=		http://artax.karlin.mff.cuni.cz/~mikulas/links/download/
 
-MAINTAINER=		wiz@NetBSD.org
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://artax.karlin.mff.cuni.cz/~mikulas/links/
 COMMENT=		Text browser with tables (original version)
 

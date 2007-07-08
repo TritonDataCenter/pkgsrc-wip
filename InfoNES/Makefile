@@ -6,7 +6,7 @@ PKGNAME=		InfoNES-0.97rc1
 CATEGORIES=		emulators
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE_JP:=infones/19061/}
 
-MAINTAINER=		wiz@NetBSD.org
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://www.geocities.co.jp/SiliconValley/5604/infones.html
 COMMENT=		Portable NES emulator
 
