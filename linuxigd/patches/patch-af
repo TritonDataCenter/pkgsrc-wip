@@ -30,7 +30,7 @@ $NetBSD$
 +#elif defined(USE_IPFILTER)
 +	FILE *ipnat = popen("/usr/sbin/ipnat -f -", "w");
 +	if (ipnat == NULL) return 0;
-+	snprintf(rules, sizeof(rules), "rdr %s %s/32 port %s -> %s port %s %s", g_vars.extInterfaceName, ExternalIPAddress, externalPort, internalClient, internalPort, protocol);
++	snprintf(rules, sizeof(rules), "rdr %s %s/32 port %s -> %s port %s %s\n", g_vars.extInterfaceName, ExternalIPAddress, externalPort, internalClient, internalPort, protocol);
 +	trace(3, "%s", rules);
 +	fprintf(ipnat, rules);
 +	pclose(ipnat);
@@ -69,7 +69,7 @@ $NetBSD$
 +	char rules[COMMAND_LEN];
 +	FILE *ipnat = popen("/usr/sbin/ipnat -rf -", "w");
 +	if (ipnat == NULL) return 0;
-+	snprintf(rules, sizeof(rules), "rdr %s %s/32 port %s -> %s port %s %s", g_vars.extInterfaceName, ExternalIPAddress, externalPort, internalClient, internalPort, protocol);
++	snprintf(rules, sizeof(rules), "rdr %s %s/32 port %s -> %s port %s %s\n", g_vars.extInterfaceName, ExternalIPAddress, externalPort, internalClient, internalPort, protocol);
 +	trace(3, "remove %s", rules);
 +	fprintf(ipnat, rules);
 +	pclose(ipnat);
