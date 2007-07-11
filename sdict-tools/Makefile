@@ -6,7 +6,7 @@ PKGNAME=	${DISTNAME:S/ptksdict/sdict-tools/}
 CATEGORIES=	textproc
 MASTER_SITES=	http://sdict.com/rsc/files/
 
-MAINTAINER=	Aleksey Cheusov <cheusov@tut.by>
+MAINTAINER=	cheusov@tut.by
 HOMEPAGE=	http://sdict.com/
 COMMENT=	SDict conversion tools
 
