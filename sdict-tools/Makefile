@@ -43,7 +43,8 @@ do-extract:
 	set -e; \
 	mkdir ${WRKSRC}; \
 	cd ${WRKSRC}; \
-	gzip -dc ${DISTDIR}/${DISTNAME}${EXTRACT_SUFX} | tar -xf-
+	gzip -d ${DISTDIR}/${DISTNAME}${EXTRACT_SUFX}; \
+	tar -xf ${DISTDIR}/${DISTNAME}.tar
 
 do-install:
 	set -e; \
