@@ -27,6 +27,8 @@ share/gtk-gnutella/pixmaps/firewall_udp.xpm
 share/gtk-gnutella/pixmaps/firewall_udp_punchable.xpm
 share/gtk-gnutella/pixmaps/freeze.xpm
 share/gtk-gnutella/pixmaps/icon.xpm
+share/gtk-gnutella/pixmaps/icon.16x16.xpm
+share/gtk-gnutella/pixmaps/icon.32x32.xpm
 share/gtk-gnutella/pixmaps/leaf.xpm
 share/gtk-gnutella/pixmaps/legacy.xpm
 share/gtk-gnutella/pixmaps/magnet.16x16.png
@@ -44,6 +46,7 @@ share/gtk-gnutella/pixmaps/upload.xpm
 share/gtk-gnutella/pixmaps/warning.xpm
 share/gtk-gnutella/robots.txt
 share/gtk-gnutella/spam.txt
+share/gtk-gnutella/spam_sha1.txt
 ${PKGLOCALEDIR}/locale/de/LC_MESSAGES/gtk-gnutella.mo
 ${PKGLOCALEDIR}/locale/el/LC_MESSAGES/gtk-gnutella.mo
 ${PKGLOCALEDIR}/locale/es/LC_MESSAGES/gtk-gnutella.mo
