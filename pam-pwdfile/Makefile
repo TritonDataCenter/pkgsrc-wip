@@ -7,7 +7,7 @@ PKGREVISION=		2
 CATEGORIES=		security
 MASTER_SITES=		http://cpbotha.net/files/pam_pwdfile/
 
-MAINTAINER=		bartosz@atom.eu.org
+MAINTAINER=		bartosz.kuzma@gmail.com
 HOMEPAGE=		http://cpbotha.net/pam_pwdfile.html
 COMMENT=		PAM module for authenticating with text password files
 
