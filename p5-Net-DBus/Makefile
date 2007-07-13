@@ -4,9 +4,9 @@
 DISTNAME=	Net-DBus-0.33.4
 PKGNAME=	p5-${DISTNAME}
 CATEGORIES=	wip sysutils
-MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=../../authors/id/D/DA/DANBERR/}
+MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=Net/}
 
-MAINTAINER=	bartosz@atom.eu.org
+MAINTAINER=	bartosz.kuzma@gmail.com
 HOMEPAGE=	http://www.freedesktop.org/Software/dbus
 COMMENT=	Perl bindings for the D-BUS message bus system
 
