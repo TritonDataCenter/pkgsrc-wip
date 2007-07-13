@@ -10,7 +10,7 @@ MAINTAINER=		hiramatu@boreas.dti.ne.jp
 HOMEPAGE=		http://search.cpan.org/dist/Text-VimColor/
 COMMENT=		Syntax color text in HTML or XML using Vim
 
-DEPENDS+=		p5-Path-Class>=0.02:../../wip/p5-Path-Class
+DEPENDS+=		p5-Path-Class>=0.02:../../devel/p5-Path-Class
 DEPENDS+=		vim{,-gtk,gtk2,-kde,-motif,-xaw}-[0-9]*:../../editors/vim
 
 PKG_INSTALLATION_TYPES=	overwrite pkgviews
