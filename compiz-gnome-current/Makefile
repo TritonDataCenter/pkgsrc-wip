@@ -8,7 +8,7 @@ MASTER_SITES=	http://xorg.freedesktop.org/releases/individual/app/
 EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
-HOMEPAGE=	http://www.go-compiz.org/
+HOMEPAGE=	http://compiz.org/
 COMMENT=	Compositing window manager
 
 GNU_CONFIGURE=		yes

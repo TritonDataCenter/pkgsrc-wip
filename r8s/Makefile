@@ -4,11 +4,11 @@
 DISTNAME=		r8s1.7.dist
 PKGNAME=		r8s-1.70
 CATEGORIES=		biology
-MASTER_SITES=		http://ginger.ucdavis.edu/r8s/
+MASTER_SITES=		http://loco.biosci.arizona.edu/r8s/
 EXTRACT_SUFX=		.tar.Z
 
 MAINTAINER=		brook@nmsu.edu
-HOMEPAGE=		http://ginger.ucdavis.edu/r8s/
+HOMEPAGE=		http://loco.biosci.arizona.edu/r8s/
 COMMENT=		Estimate rates of molecular evolution
 
 WRKSRC=			${WRKDIR}/dist/src

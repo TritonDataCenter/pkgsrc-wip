@@ -2,10 +2,10 @@
 #
 DISTNAME=		tf-50b7
 CATEGORIES=		net
-MASTER_SITES=		http://ftp.tcp.com/pub/mud/Clients/tinyfugue/
+MASTER_SITES=		http://tcp.com/pub/mud/Clients/tinyfugue/
 
 MAINTAINER=		martijn.van.buul@gmail.com
-HOMEPAGE=		http://ftp.tcp.com/pub/mud/Clients/tinyfugue/
+HOMEPAGE=		http://tcp.com/pub/mud/Clients/tinyfugue/
 COMMENT=		Beta-version of tinyfugue
 
 WRKSRC=			${WRKDIR}/tf-50b7

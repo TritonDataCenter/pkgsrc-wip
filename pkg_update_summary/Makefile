@@ -6,7 +6,7 @@ MASTER_SITES=	# empty
 DISTFILES=	# empty
 
 MAINTAINER=	cheusov@tut.by
-HOMEPAGE=	http://mova.org/~cheusov
+HOMEPAGE=	http://www.mova.org/~cheusov/
 COMMENT=	Efficiently updates pkg_summary.gz file
 
 PKG_INSTALLATION_TYPES=	overwrite pkgviews

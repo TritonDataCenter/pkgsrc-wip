@@ -8,7 +8,7 @@ MASTER_SITES=		http://download.berlios.de/supertux/
 EXTRACT_SUFX=		.tar.bz2
 
 MAINTAINER=		hernani@vecirex.net
-HOMEPAGE=		http://supertux.berlios.de/
+HOMEPAGE=		http://supertux.lethargik.org/
 COMMENT=		2D jump'n run game in the style of the Super Mario ones
 
 HAS_CONFIGURE=		YES
