@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	moe-0.8
+DISTNAME=	moe-0.9
 CATEGORIES=	editors
 MASTER_SITES=	${MASTER_SITE_GNU:=moe/}
 EXTRACT_SUFX=	.tar.bz2
