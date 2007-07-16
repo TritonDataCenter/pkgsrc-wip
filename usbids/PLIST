@@ -1,0 +1,3 @@
+@comment $NetBSD$
+share/usbids/usb.ids
+@dirrm share/usbids
