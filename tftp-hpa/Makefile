@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	tftp-hpa-0.45
+DISTNAME=	tftp-hpa-0.48
 CATEGORIES=	net
 MASTER_SITES=	http://www.kernel.org/pub/software/network/tftp/
 EXTRACT_SUFX=	.tar.bz2
