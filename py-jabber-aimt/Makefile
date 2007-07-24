@@ -15,6 +15,7 @@ COMMENT=		Transport connecting Jabber to the AOL IM network
 # do that..)
 #
 # DEPENDS+=	jabberd-[0-9]*:../../chat/jabberd2
+DEPENDS+=	${PYPKGPREFIX}-OpenSSL>=0.6nb1:../../security/py-OpenSSL
 DEPENDS+=	${PYPKGPREFIX}-twisted-core>=2.5.0:../../wip/py-twisted-core
 DEPENDS+=	${PYPKGPREFIX}-twisted-words>=0.5.0:../../wip/py-twisted-words
 DEPENDS+=	${PYPKGPREFIX}-twisted-web>=0.7.0:../../wip/py-twisted-web
