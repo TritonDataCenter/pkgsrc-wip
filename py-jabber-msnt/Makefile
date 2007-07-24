@@ -77,5 +77,6 @@ SUBST_SED.paths+=	-e 's,@JABBER_LOGDIR@,${JABBER_LOGDIR},g'
 SUBST_SED.paths+=	-e 's,@PREFIX@,${PREFIX},g'
 SUBST_SED.paths+=	-e 's,@JABBER_PIDDIR@,${JABBER_PIDDIR},g'
 
+.include "../../security/py-amkCrypto/buildlink3.mk"
 .include "../../lang/python/application.mk"
 .include "../../mk/bsd.pkg.mk"
