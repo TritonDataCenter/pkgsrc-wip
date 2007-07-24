@@ -1,0 +1,5 @@
+@comment $NetBSD$
+sbin/pound
+sbin/poundctl
+man/man8/pound.8
+man/man8/poundctl.8
