@@ -7,15 +7,15 @@ $NetBSD$
  
  .c.o:
 -	$(CC) -c $(INCLUDE_DIRS) $(CFLAGS) $< -o $@
-+	${LIBTOOL} --mode=compile $(CC) -c $(INCLUDE_DIRS) $(CFLAGS) $< -o $@ -static
++	${LIBTOOL} --mode=compile $(CC) -c $(INCLUDE_DIRS) $(CFLAGS) $< -o $@ -static -prefer-pic
  
  .cpp.o:
 -	$(CXX) -c $(INCLUDE_DIRS) $(CXXFLAGS) $< -o $@
-+	${LIBTOOL} --mode=compile $(CXX) -c $(INCLUDE_DIRS) $(CXXFLAGS) $< -o $@ -static
++	${LIBTOOL} --mode=compile $(CXX) -c $(INCLUDE_DIRS) $(CXXFLAGS) $< -o $@ -static -prefer-pic
  
  .S.o:
 -	$(CC) -c $(INCLUDE_DIRS) $(CFLAGS) $< -o $@
-+	${LIBTOOL} --mode=compile $(CC) -c $(INCLUDE_DIRS) $(CFLAGS) $< -o $@ -static
++	${LIBTOOL} --mode=compile $(CC) -c $(INCLUDE_DIRS) $(CFLAGS) $< -o $@ -static -prefer-pic
  
  
  # Figure out what to make here

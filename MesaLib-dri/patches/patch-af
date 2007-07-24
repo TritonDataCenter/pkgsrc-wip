@@ -7,11 +7,11 @@ $NetBSD$
  
  .c.o:
 -	$(CC) -c $(INCLUDES) $(CFLAGS) $(EXTRA_DEFINES) $< -o $@
-+	${LIBTOOL} --mode=compile $(CC) -c $(INCLUDES) $(CFLAGS) $(EXTRA_DEFINES) $< -o $@
++	${LIBTOOL} --mode=compile $(CC) -c $(INCLUDES) $(CFLAGS) $(EXTRA_DEFINES) $< -o $@ -prefer-pic
  
  .S.o:
 -	$(CC) -c $(INCLUDES) $(CFLAGS) $(EXTRA_DEFINES)  $< -o $@
-+	${LIBTOOL} --mode=compile $(CC) -c $(INCLUDES) $(CFLAGS) $(EXTRA_DEFINES)  $< -o $@
++	${LIBTOOL} --mode=compile $(CC) -c $(INCLUDES) $(CFLAGS) $(EXTRA_DEFINES)  $< -o $@ -prefer-pic
  
  ##### TARGETS #####
  

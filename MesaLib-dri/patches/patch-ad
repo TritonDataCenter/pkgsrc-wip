@@ -7,7 +7,7 @@ $NetBSD$
  
  .c.o:
 -	$(CC) -c $(INCDIRS) $(CFLAGS) $<
-+	${LIBTOOL} --mode=compile $(CC) -c $(INCDIRS) $(CFLAGS) $<
++	${LIBTOOL} --mode=compile $(CC) -c $(INCDIRS) $(CFLAGS) $< -prefer-pic
  
  
  
