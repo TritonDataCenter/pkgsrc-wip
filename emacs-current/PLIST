@@ -2646,6 +2646,8 @@ share/emacs/${PKGVERSION}/lisp/vc-bzr.el.gz
 share/emacs/${PKGVERSION}/lisp/vc-bzr.elc
 share/emacs/${PKGVERSION}/lisp/vc-cvs.el.gz
 share/emacs/${PKGVERSION}/lisp/vc-cvs.elc
+share/emacs/${PKGVERSION}/lisp/vc-git.el.gz
+share/emacs/${PKGVERSION}/lisp/vc-git.elc
 share/emacs/${PKGVERSION}/lisp/vc-hg.el.gz
 share/emacs/${PKGVERSION}/lisp/vc-hg.elc
 share/emacs/${PKGVERSION}/lisp/vc-hooks.el.gz
