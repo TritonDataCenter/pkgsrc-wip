@@ -75,3 +75,16 @@ $NetBSD$
  	    } else {
  	       /* Use the frontbuffer cliprects for back buffers.  */
  	       *numBackClipRects = 0;
+@@ -1603,8 +1610,12 @@ DRIWindowExposures(WindowPtr pWin, Regio
+ 	/* unwrap */
+ 	pScreen->WindowExposures = pDRIPriv->wrap.WindowExposures;
+ 
++	DRILock(pScreen, 0);
++
+ 	/* call lower layers */
+ 	(*pScreen->WindowExposures)(pWin, prgn, bsreg);
++	
++	DRIUnlock(pScreen);
+ 
+ 	/* rewrap */
+ 	pDRIPriv->wrap.WindowExposures = pScreen->WindowExposures;
