@@ -1,0 +1,25 @@
+@comment $NetBSD$
+include/vdraction.h
+include/vdraboutwindow.h
+include/vdrattribute.h
+include/vdrbase.h
+include/vdrborder.h
+include/vdrbitmap.h
+include/vdrcolor.h
+include/vdrdisplay.h
+include/vdrdrawable.h
+include/vdrdrawabletypes.h
+include/vdrevent.h
+include/vdrfont.h
+include/vdrhandler.h
+include/vdrinputbox.h
+include/vdrlabel.h
+include/vdrmenu.h
+include/vdroptions.h
+include/vdrparser.h
+include/vdrsimplebutton.h
+include/vdrsimpletextbutton.h
+include/vdrversion.h
+include/vdrwindow.h
+include/vdrwindowparams.h
+lib/libvidrio.la
