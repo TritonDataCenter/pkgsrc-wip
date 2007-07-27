@@ -10,7 +10,7 @@ HOMEPAGE=	http://www.freedesktop.org/Software/xorg
 COMMENT=	OpenGL library that renders using GLX or DRI
 
 MESA_VERSION=	7.0
-PKGREVISION=	3
+PKGREVISION=	4
 
 NO_CONFIGURE=	yes
 USE_TOOLS+=	makedepend gmake
