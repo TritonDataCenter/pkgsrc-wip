@@ -13,7 +13,7 @@ BUILDLINK_ORDER:=	${BUILDLINK_ORDER} ${BUILDLINK_DEPTH}modular-xorg-server
 
 .if ${MODULAR_XORG_SERVER_BUILDLINK3_MK} == "+"
 BUILDLINK_API_DEPENDS.modular-xorg-server+=	modular-xorg-server>=1.3.0
-BUILDLINK_PKGSRCDIR.modular-xorg-server?=  ../../wip/modular-xorg-server-mesa653
+BUILDLINK_PKGSRCDIR.modular-xorg-server?=  ../../wip/xorg-server-snap
 .endif	# MODULAR_XORG_SERVER_BUILDLINK3_MK
 
 .include "../../x11/compositeproto/buildlink3.mk"
