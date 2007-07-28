@@ -32,6 +32,9 @@ CONFIGURE_ARGS+=	--disable-consoleui
 ## #post-build:
 ## #	cp ${WRKSRC}/libpurple/gconf/purple.schemas ${WRKSRC}/purple.schemas
 
+# XXX Use textproc/intltool instead of included intltool.
+# XXX On NetBSD 3.0: iconv: iconv_open(UTF-8, tis-620): Invalid argument
+
 .include "../../converters/libiconv/buildlink3.mk"
 .include "../../devel/glib2/buildlink3.mk"
 .include "../../devel/GConf2/schemas.mk"
