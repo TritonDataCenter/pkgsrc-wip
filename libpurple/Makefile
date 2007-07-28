@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-PKGNAME=	libpurple-0.0.1
+PKGNAME=	libpurple-${VERSION}
 
 COMMENT=	Multi-protocol Instant Messaging client backend
 

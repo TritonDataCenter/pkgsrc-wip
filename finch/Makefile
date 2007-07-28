@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-PKGNAME=	finch-2.0.1
+PKGNAME=	finch-${VERSION}
 
 COMMENT=	Multi-protocol Instant Messaging client console frontend
 

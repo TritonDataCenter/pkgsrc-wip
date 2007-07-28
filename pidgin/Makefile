@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-PKGNAME=		pidgin-2.0.1
+PKGNAME=		pidgin-${VERSION}
 COMMENT=		Multi-protocol Instant Messaging client GTK frontend
 PKGREVISION=		1
 
