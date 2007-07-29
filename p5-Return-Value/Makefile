@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=		Return-Value-1.30
+DISTNAME=		Return-Value-1.302
 PKGNAME=		p5-${DISTNAME}
 CATEGORIES=		devel perl5
 MASTER_SITES=		${MASTER_SITE_PERL_CPAN:=../by-authors/id/R/RJ/RJBS/}
