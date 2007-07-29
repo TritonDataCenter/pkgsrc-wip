@@ -9,7 +9,7 @@ MAINTAINER=   tonio@NetBSD.org
 HOMEPAGE=     http://emacs-jabber.sourceforge.net/
 COMMENT=      Minimal jabber client for emacs
 
-DEPENDS+=     ${EMACS_PKGNAME_PREFIX}gnus>=5.10:../../mail/gnus
+#DEPENDS+=     ${EMACS_PKGNAME_PREFIX}gnus>=5.10:../../mail/gnus
 USE_TOOLS+=   makeinfo
 INFO_FILES=   yes
 
