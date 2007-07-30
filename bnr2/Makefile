@@ -13,7 +13,7 @@ MAINTAINER=		dhowland@users.sourceforge.net
 HOMEPAGE=		http://www.bnr2.org/
 COMMENT=		USENET bulk binary downloader (X11)
 
-EMUL_PLATFORMS=		linix-i386
+EMUL_PLATFORMS=		linux-i386
 EMUL_MODULES.linux=	jpeg x11
 
 WRKSRC=			${WRKDIR}/BNR2
