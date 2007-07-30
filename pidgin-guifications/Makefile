@@ -15,5 +15,5 @@ USE_TOOLS+=		gmake pkg-config intltool
 USE_LIBTOOL=		yes
 USE_X11=                YES
 
-.include "../../wip/pidgin/buildlink3.mk"
+.include "../../chat/pidgin/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
