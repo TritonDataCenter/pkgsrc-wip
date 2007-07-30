@@ -1,9 +1,8 @@
 # $NetBSD: Makefile,v 1.27 2007/04/24 18:28:23 netcap Exp $
 #
 
-DISTNAME=		tor-0.1.2.13
-PKGREVISION=		1
-PKGNAME=		${DISTNAME:S/-rc//}
+DISTNAME=		tor-0.2.0.3-alpha
+PKGNAME=		${DISTNAME:S/-alpha//}
 CATEGORIES=		net security
 MASTER_SITES=		http://tor.eff.org/dist/
 
@@ -63,7 +62,7 @@ post-install:
 	${INSTALL_DATA_DIR} ${PREFIX}/${RCD_SCRIPTS_EXAMPLEDIR}
 	${INSTALL_SCRIPT} ${WRKSRC}/tor.pkgsrc.rc ${PREFIX}/${RCD_SCRIPTS_EXAMPLEDIR}/tor
 
-BUILDLINK_API_DEPENDS.libevent+= libevent>=1.1b
+BUILDLINK_API_DEPENDS.libevent+= libevent>=1.2
 # XXX the pkgsrc libevent builtin.mk does not detect the version of a builtin
 # libevent, so we need to force use of the pkgsrc one
 USE_BUILTIN.libevent=	no

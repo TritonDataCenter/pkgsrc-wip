@@ -1,5 +1,6 @@
 @comment $NetBSD$
 bin/tor
+bin/tor-gencert
 bin/tor-resolve
 bin/torify
 man/man1/tor-resolve.1
@@ -9,3 +10,4 @@ share/examples/rc.d/tor
 share/examples/tor/tor-tsocks.conf
 share/examples/tor/torrc.sample
 @dirrm share/examples/tor
+@dirrm etc/tor
