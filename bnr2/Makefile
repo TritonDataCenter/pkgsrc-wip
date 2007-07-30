@@ -13,24 +13,17 @@ MAINTAINER=		dhowland@users.sourceforge.net
 HOMEPAGE=		http://www.bnr2.org/
 COMMENT=		USENET bulk binary downloader (X11)
 
-NO_BUILD=		yes
-
-ONLY_FOR_PLATFORM=	Linux-*-i386 NetBSD-*-i386
+EMUL_PLATFORMS=		linix-i386
+EMUL_MODULES.linux=	jpeg x11
 
 WRKSRC=			${WRKDIR}/BNR2
+BUILD_DIRS=		# empty
 
 SUBST_CLASSES+=		prefix
 SUBST_STAGE.prefix=	pre-install
 SUBST_MESSAGE.prefix=	Fixing prefixes.
 SUBST_FILES.prefix=	bnr2
 SUBST_SED.prefix=	-e "s|@PREFIX@|${PREFIX}|g"
-
-.include "../../emulators/suse_linux/Makefile.application"
-
-.if ${OPSYS} != "Linux"
-DEPENDS+=		suse_x11-[0-9]*:../../emulators/${SUSE_DIR_PREFIX}_x11
-DEPENDS+=		suse_libjpeg-[0-9]*:../../emulators/${SUSE_DIR_PREFIX}_libjpeg
-.endif
 
 post-extract:
 	${CP} ${FILESDIR}/bnr2 ${WRKSRC}/bnr2

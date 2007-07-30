@@ -11,6 +11,6 @@ DIST_SUBDIR=	${MOZILLA}/${MOZ_DISTDIR}
 # binary package is built against GTK2
 MOZ_GTK2=	YES
 
-ONLY_FOR_PLATFORM+=	Linux-*-i386
+EMUL_PLATFORMS=		linux-i386
 
 .include "../../www/seamonkey-bin/Makefile.common"

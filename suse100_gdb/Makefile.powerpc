@@ -1,3 +1,0 @@
-# $NetBSD$
-
-RPMFILES=		gdb-6.3-20.${SUSE_ARCH}.rpm

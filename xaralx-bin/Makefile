@@ -10,11 +10,11 @@ MAINTAINER=		ghen@NetBSD.org
 HOMEPAGE=		http://www.xaraxtreme.org/
 COMMENT=		Vector graphics program
 
-DEPENDS+=		suse_gtk2>=7.3:../../emulators/${SUSE_DIR_PREFIX}_gtk2
+EMUL_PLATFORMS=		linux-i386
+EMUL_MODULES.linux=	gtk2
+SUSE_VERSION_REQD=	7.3
 
-NO_CONFIGURE=		yes
-NO_BUILD=		yes
-
+BUILD_DIRS=		# empty
 WRKSRC=			${WRKDIR}/XaraLX
 XARALXDIR=		${PREFIX}/share/XaraLX
 
@@ -26,5 +26,4 @@ do-install:
 	${SED} -e 's,%%XARALXDIR%%,${XARALXDIR},' < ${FILESDIR}/XaraLX > ${PREFIX}/bin/XaraLX
 	${CHMOD} 555 ${PREFIX}/bin/XaraLX
 
-.include "../../emulators/suse_linux/Makefile.application"
 .include "../../mk/bsd.pkg.mk"
