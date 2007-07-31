@@ -6,7 +6,6 @@ CATEGORIES=		emulators
 DISTFILES=		gdb-6.3-20.${SUSE_ARCH}.rpm
 
 MAINTAINER=		bsd@cs.ubc.ca
-HOMEPAGE=		http://www.suse.com/
 COMMENT=		Linux compatibility package for GDB
 
 EMUL_MODULES.linux=	base
