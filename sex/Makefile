@@ -5,7 +5,7 @@ CATEGORIES=	games
 MASTER_SITES=	http://spatula.net/software/sex/
 
 MAINTAINER=	jfranz@bsdprojects.net
-COMMENT=	Yet another program for spouting silly random phrases.
+COMMENT=	Yet another program for spouting silly random phrases
 
 post-patch:
 	${MV} ${WRKSRC}/Makefile ${WRKSRC}/Makefile.dist
