@@ -40,6 +40,7 @@ CONF_FILES+=		${EGDIR}/hplip.conf ${PKG_SYSCONFDIR}/hplip.conf
 #RCD_SCRIPTS=		hpiod hpssd
 RCD_SCRIPTS=		hplip
 PKG_USERS=		hplip:operator
+PKG_GROUPS=		operator
 
 CONFLICTS=	hpijs-[0-9]* foomatic-filters-[0-9]*
 
