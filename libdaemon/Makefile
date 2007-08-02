@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		libdaemon-0.10
+DISTNAME=		libdaemon-0.12
 CATEGORIES=		devel
 MASTER_SITES=		http://0pointer.de/lennart/projects/libdaemon/
 
