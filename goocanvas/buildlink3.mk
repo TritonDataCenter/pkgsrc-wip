@@ -17,3 +17,5 @@ BUILDLINK_PKGSRCDIR.goocanvas?=	../../wip/goocanvas
 .endif	# GOOCANVAS_BUILDLINK3_MK
 
 BUILDLINK_DEPTH:=		${BUILDLINK_DEPTH:S/+$//}
+
+.include "../../x11/gtk2/buildlink3.mk"
