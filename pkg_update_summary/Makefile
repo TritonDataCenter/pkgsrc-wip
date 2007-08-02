@@ -18,9 +18,13 @@ USE_TOOLS+=	gzip:run
 NO_CHECKSUM=	YES
 NO_BUILD=	YES
 
-INSTALLATION_DIRS=	sbin
+MAN1DIR=		${PREFIX}/${PKGMANDIR}/man1
+
+INSTALLATION_DIRS=	bin ${MAN1DIR}
 
 do-install:
-	${INSTALL_SCRIPT} ${FILESDIR}/pkg_update_summary.sh ${PREFIX}/sbin/pkg_update_summary
+	${INSTALL_SCRIPT} ${FILESDIR}/pkg_update_summary.sh \
+		${PREFIX}/bin/pkg_update_summary
+	${INSTALL_MAN} ${FILESDIR}/pkg_update_summary.1 ${MAN1DIR}
 
 .include "../../mk/bsd.pkg.mk"
