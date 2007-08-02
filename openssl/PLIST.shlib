@@ -1,0 +1,5 @@
+@comment $NetBSD$
+lib/libcrypto.so
+lib/libcrypto.so.${SHLIB_VERSION}
+lib/libssl.so
+lib/libssl.so.${SHLIB_VERSION}
