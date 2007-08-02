@@ -12,7 +12,7 @@ BUILDLINK_PACKAGES+=	goocanvas
 BUILDLINK_ORDER:=	${BUILDLINK_ORDER} ${BUILDLINK_DEPTH}goocanvas
 
 .if ${GOOCANVAS_BUILDLINK3_MK} == "+"
-BUILDLINK_API_DEPENDS.goocanvas+=	goocanvas>=0.4
+BUILDLINK_API_DEPENDS.goocanvas+=	goocanvas>=0.8
 BUILDLINK_PKGSRCDIR.goocanvas?=	../../wip/goocanvas
 .endif	# GOOCANVAS_BUILDLINK3_MK
 
