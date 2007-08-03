@@ -1183,8 +1183,6 @@ share/emacs/${PKGVERSION}/lisp/erc/erc-netsplit.el.gz
 share/emacs/${PKGVERSION}/lisp/erc/erc-netsplit.elc
 share/emacs/${PKGVERSION}/lisp/erc/erc-networks.el.gz
 share/emacs/${PKGVERSION}/lisp/erc/erc-networks.elc
-share/emacs/${PKGVERSION}/lisp/erc/erc-nicklist.el.gz
-share/emacs/${PKGVERSION}/lisp/erc/erc-nicklist.elc
 share/emacs/${PKGVERSION}/lisp/erc/erc-notify.el.gz
 share/emacs/${PKGVERSION}/lisp/erc/erc-notify.elc
 share/emacs/${PKGVERSION}/lisp/erc/erc-page.el.gz
