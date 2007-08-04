@@ -7,7 +7,7 @@ $NetBSD$
  		$(DO_GNU_SO); \
  	else \
 +		# hack alert, we could do better at detecting gcc \
-+		if ${CC} = "gcc"; then \
++		if [ "$CC" = "gcc" ]; then \
 +			WL="-Wl,"; DELIM=","; \
 +		else \ 
 +			WL=""; DELIM=" "; \
