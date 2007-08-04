@@ -6,7 +6,7 @@ MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=dk-milter/}
 
 MAINTAINER=	j+pkgsrc@salmi.ch
 HOMEPAGE=	http://sourceforge.net/projects/dk-milter/
-COMMENT=	Open source implementation of DomainKeys for sendmail
+COMMENT=	Open source DomainKeys filter software from Sendmail, Inc.
 
 BUILDLINK_API_DEPENDS.libmilter+=	libmilter>=8.13.0
 
