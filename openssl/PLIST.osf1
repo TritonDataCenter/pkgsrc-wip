@@ -1,0 +1,3 @@
+@comment $NetBSD$
+lib/libcrypto.so
+lib/libssl.so

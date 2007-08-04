@@ -76,6 +76,14 @@ CONFIGURE_ARGS+=	irix64-mips4-gcc
 CONFIGURE_ARGS+=	irix64-mips4-cc
 .    endif
 .  endif
+.elif ${OPSYS} == "OSF1"
+PLIST_OPSYS=		PLIST.osf1
+CONFIGURE_SCRIPT=	./Configure
+.  if !empty(CC_VERSION:Mgcc*)
+CONFIGURE_ARGS+=	osf1-alpha-gcc
+.  else
+CONFIGURE_ARGS+=	osf1-alpha-cc
+.  endif
 .elif ${OPSYS} == "Darwin"
 .include "../../mk/dlopen.buildlink3.mk"
 
@@ -93,7 +101,7 @@ SUBST_SED.dl=		-e 's,^EX_LIBS=,EX_LIBS=${DL_LDFLAGS:Q} ,g'
 CONFIGURE_ARGS+=	${CFLAGS} ${LDFLAGS}
 CONFIGURE_ENV+=		PERL=${PERL5:Q}
 
-PLIST_OPSYS=		${PKGDIR}/PLIST.${LOWER_OPSYS:C/([.0-9]*)$//}
+PLIST_OPSYS?=		${PKGDIR}/PLIST.${LOWER_OPSYS:C/([.0-9]*)$//}
 .if exists(${PLIST_OPSYS})
 PLIST_SHLIB=		${PLIST_OPSYS}
 .else
