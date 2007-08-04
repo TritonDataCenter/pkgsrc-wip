@@ -80,9 +80,9 @@ CONFIGURE_ARGS+=	irix64-mips4-cc
 PLIST_OPSYS=		PLIST.osf1
 CONFIGURE_SCRIPT=	./Configure
 .  if !empty(CC_VERSION:Mgcc*)
-CONFIGURE_ARGS+=	osf1-alpha-gcc
+CONFIGURE_ARGS+=	tru64-alpha-gcc
 .  else
-CONFIGURE_ARGS+=	osf1-alpha-cc
+CONFIGURE_ARGS+=	tru64-alpha-cc
 .  endif
 .elif ${OPSYS} == "Darwin"
 .include "../../mk/dlopen.buildlink3.mk"
