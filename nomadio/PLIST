@@ -1,0 +1,4 @@
+@comment $NetBSD$
+bin/nomadio
+man/man1/nomadio.1
+man/cat1/nomadio.0
