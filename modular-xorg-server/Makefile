@@ -9,7 +9,7 @@ EXTRACT_SUFX=	.tar.bz2
 SPECIAL_PERMS+=	bin/Xorg ${SETUID_ROOT_PERMS}
 PKG_DESTDIR_SUPPORT=	user-destdir
 
-MAINTAINER=	joerg@NetBSD.org
+MAINTAINER=	blair.sadewitz@gmail.com
 COMMENT=	Xorg X11 Server from modular X.org X11
 
 DRI_MODULE_PATH?=	lib/xorg/modules/dri
