@@ -14,14 +14,19 @@ COMMENT=	Modular X.org pixman library
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
+USE_LANGUAGES=		c c++
+
 RPM2PKG_STRIP=		0
 RPM2PKG_PLIST=		# empty
+
+BUILD_DEPENDS+=		xorg-util-macros-[0-9]*:../../devel/xorg-util-macros
 
 USE_TOOLS+=		gmake automake pkg-config
 USE_LIBTOOL=		yes
 GNU_CONFIGURE=		yes
 PKGCONFIG_OVERRIDE+=	pixman.pc.in
 PKGCONFIG_OVERRIDE+=	libcomp.pc
+
 
 WRKSRC=			${WRKDIR}/pixman
 
