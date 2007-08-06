@@ -73,7 +73,7 @@ BUILD_DEFS+=		VARBASE DRI_MODULE_PATH
 # -wip
 #DEPENDS+=		xkeyboard-config-[0-9]*:../../x11/xkeyboard-config
 DEPENDS+=		xkbdata-[0-9]*:../../x11/xkbdata
-DEPENDS+=		xorg-util-macros-[0-9]*:../../devel/xorg-util-macros
+BUILD_DEPENDS+=		xorg-util-macros-[0-9]*:../../devel/xorg-util-macros
 
 BUILDLINK_API_DEPENDS.fixesproto+=	fixesproto>=4.0
 BUILDLINK_API_DEPENDS.kbproto+=		kbproto>=1.0.3
