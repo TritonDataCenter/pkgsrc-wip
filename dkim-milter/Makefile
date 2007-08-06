@@ -35,7 +35,8 @@ SUBST_CLASSES+=		rename
 SUBST_STAGE.rename=	post-build
 SUBST_FILES.rename=	dkim-filter/dkim-filter.conf.5 \
 			dkim-filter/dkim-filter.conf.sample \
-			dkim-filter/dkim-filter.8
+			dkim-filter/dkim-filter.8 \
+			dkim-filter/dkim-stats.8
 SUBST_SED.rename=	-e 's|dkim-filter|dkim-milter|g'
 SUBST_MESSAGE.rename=	Renaming dkim-filter to dkim-milter
 
