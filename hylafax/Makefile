@@ -44,6 +44,8 @@ RCD_SCRIPTS=	hylafax
 SUID_EXES=	${PREFIX}/libexec/faxgetty ${PREFIX}/sbin/faxq \
 		${PREFIX}/bin/faxrm ${PREFIX}/bin/faxalter
 
+INSTALLATION_DIRS = libdata
+
 PKG_OPTIONS_VAR=	PKG_OPTIONS.hylafax
 PKG_SUPPORTED_OPTIONS=	pam
 ######################################################
