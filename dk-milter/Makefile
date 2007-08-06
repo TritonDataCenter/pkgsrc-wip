@@ -18,7 +18,8 @@ USE_TOOLS+=		gm4
 
 SUBST_CLASSES+=		libs
 SUBST_STAGE.libs=	post-patch
-SUBST_FILES.libs=	site.config.m4.dist dk-filter/Makefile.m4
+SUBST_FILES.libs=	site.config.m4.dist dk-filter/Makefile.m4 \
+			devtools/M4/header.m4
 SUBST_SED.libs=		-e 's|@SSLBASE@|${BUILDLINK_PREFIX.openssl}|g'
 SUBST_SED.libs+=	-e 's|@LMBASE@|${BUILDLINK_PREFIX.libmilter}|g'
 SUBST_SED.libs+=	-e 's|@PTHREAD@|${BUILDLINK_PREFIX.pthread}|g'
