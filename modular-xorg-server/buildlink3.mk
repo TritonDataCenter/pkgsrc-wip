@@ -13,7 +13,7 @@ BUILDLINK_ORDER:=	${BUILDLINK_ORDER} ${BUILDLINK_DEPTH}modular-xorg-server
 
 .if ${MODULAR_XORG_SERVER_BUILDLINK3_MK} == "+"
 BUILDLINK_API_DEPENDS.modular-xorg-server+=	modular-xorg-server>=1.3.99.0
-BUILDLINK_PKGSRCDIR.modular-xorg-server?=	../../wip/modular-xorg-server1399
+BUILDLINK_PKGSRCDIR.modular-xorg-server?=	../../wip/modular-xorg-server
 .endif	# MODULAR_XORG_SERVER_BUILDLINK3_MK
 
 .include "../../wip/pixman/buildlink3.mk"
