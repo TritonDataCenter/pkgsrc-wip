@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	openbsd-input-ws-1.0
+DISTNAME=	openbsd-input-ws-1.1
 CATEGORIES=	x11
 MASTER_SITES=	http://xenocara.org/src/
 
