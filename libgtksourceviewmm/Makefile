@@ -17,5 +17,7 @@ USE_DESTDIR=	yes
 
 .include "../../x11/gtksourceview/buildlink3.mk"
 .include "../../x11/gtkmm/buildlink3.mk"
+#include "../../devel/doxygen/buildlink3.mk"
+DEPENDS+= doxygen>=1.4:../../devel/doxygen
 
 .include "../../mk/bsd.pkg.mk"
