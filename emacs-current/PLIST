@@ -764,6 +764,8 @@ share/emacs/${PKGVERSION}/lisp/calc/calc-mode.el.gz
 share/emacs/${PKGVERSION}/lisp/calc/calc-mode.elc
 share/emacs/${PKGVERSION}/lisp/calc/calc-mtx.el.gz
 share/emacs/${PKGVERSION}/lisp/calc/calc-mtx.elc
+share/emacs/${PKGVERSION}/lisp/calc/calc-nlfit.el.gz
+share/emacs/${PKGVERSION}/lisp/calc/calc-nlfit.elc
 share/emacs/${PKGVERSION}/lisp/calc/calc-poly.el.gz
 share/emacs/${PKGVERSION}/lisp/calc/calc-poly.elc
 share/emacs/${PKGVERSION}/lisp/calc/calc-prog.el.gz
