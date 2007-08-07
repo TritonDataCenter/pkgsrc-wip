@@ -1,5 +1,5 @@
 @comment $NetBSD$
-include/pixman/pixman.h
-lib/libpixman.la
-lib/pkgconfig/pixman.pc
-@dirrm include/pixman
+include/pixman-1/pixman.h
+lib/libpixman-1.la
+lib/pkgconfig/pixman-1.pc
+@dirrm include/pixman-1
