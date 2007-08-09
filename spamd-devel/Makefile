@@ -1,6 +1,7 @@
 # $NetBSD: Makefile,v 1.10 2007/02/22 19:26:44 wiz Exp $
 
 DISTNAME=		spamd-20070531
+PKGREVISION=		1
 CATEGORIES=		mail
 MASTER_SITES=		# empty
 DISTFILES=		# empty
