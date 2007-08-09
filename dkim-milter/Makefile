@@ -41,7 +41,8 @@ SUBST_SED.rename=	-e 's|dkim-filter|dkim-milter|g'
 SUBST_MESSAGE.rename=	Renaming dkim-filter to dkim-milter
 
 INSTALLATION_DIRS=	${PKGMANDIR}/man5 ${PKGMANDIR}/man8 \
-			sbin share/doc/dkim-milter share/examples/dkim-milter
+			sbin share/doc/dkim-milter/libdkim \
+			share/examples/dkim-milter
 
 EGDIR=			${PREFIX}/share/examples/dkim-milter
 CONF_FILES=		${EGDIR}/dkim-milter.conf.sample \
@@ -72,6 +73,8 @@ do-install: arlib-install stats-install
 	${INSTALL_DATA} ${WRKSRC}/rfc4686.txt ${PREFIX}/share/doc/dkim-milter
 	${INSTALL_DATA} ${WRKSRC}/rfc4871.txt ${PREFIX}/share/doc/dkim-milter
 	${INSTALL_DATA} ${WRKSRC}/dkim-filter/dkim-filter.conf.sample ${PREFIX}/share/examples/dkim-milter/dkim-milter.conf.sample
+	cd ${WRKSRC}/libdkim/docs; for file in *.html; do \
+	${INSTALL_DATA} $$file ${PREFIX}/share/doc/dkim-milter/libdkim; done
 
 .include "options.mk"
 # XXX this should be switched once OpenSSL >=0.9.8 is in pkgsrc
