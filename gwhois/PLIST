@@ -1,0 +1,5 @@
+@comment $NetBSD$
+bin/gwhois
+man/man1/gwhois.1
+share/gwhois/pattern
+@dirrm etc/${PKGBASE}
