@@ -12,7 +12,7 @@ COMMENT=	Open source DKIM filter software from Sendmail, Inc.
 BUILDLINK_API_DEPENDS.libmilter+=	libmilter>=8.13.0
 BUILDLINK_API_DEPENDS.openssl+=		openssl>=0.9.8
 
-LICENSE=		no-profit
+LICENSE=		sendmail-open-source-license
 MAKE_ENV+=		M4=${M4:Q}
 RCD_SCRIPTS=		dkim-milter
 USE_BUILTIN.libmilter=	no

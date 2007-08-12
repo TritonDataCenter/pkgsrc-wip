@@ -1,9 +1,5 @@
 $NetBSD$
 
-- Licence `no-profit' seems to be deprecated (according to pkglint(1)),
-  what should LICENCE be set to? The Sendmail licence shipping with
-  the distfile and pkgsrc/licenses/sendmail-licence differ...
-
 - Are the pkglint(1) warnings for options.mk safe to ignore?
 
 - Run unprivileged by default?
