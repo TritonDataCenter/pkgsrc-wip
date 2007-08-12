@@ -10,7 +10,7 @@ COMMENT=	Open source DomainKeys filter software from Sendmail, Inc.
 
 BUILDLINK_API_DEPENDS.libmilter+=	libmilter>=8.13.0
 
-LICENSE=		no-profit
+LICENSE=		sendmail-open-source-license
 MAKE_ENV+=		M4=${M4:Q}
 RCD_SCRIPTS=		dk-milter
 USE_BUILTIN.libmilter=	no
