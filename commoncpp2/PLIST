@@ -17,6 +17,7 @@ include/cc++2/cc++/missing.h
 include/cc++2/cc++/network.h
 include/cc++2/cc++/numbers.h
 include/cc++2/cc++/objcount.h
+include/cc++2/cc++/object.h
 include/cc++2/cc++/objlink.h
 include/cc++2/cc++/objmap.h
 include/cc++2/cc++/objsync.h
@@ -28,6 +29,7 @@ include/cc++2/cc++/serial.h
 include/cc++2/cc++/slog.h
 include/cc++2/cc++/socket.h
 include/cc++2/cc++/socketport.h
+include/cc++2/cc++/ssl.h
 include/cc++2/cc++/strchar.h
 include/cc++2/cc++/string.h
 include/cc++2/cc++/template.h
