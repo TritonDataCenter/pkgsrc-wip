@@ -1,15 +1,16 @@
 # $NetBSD$
 
-DISTNAME=	libgadu-20051229
+DISTNAME=	libgadu-1.7.1
 CATEGORIES=	chat
-MASTER_SITES=	http://bsdguru.org/distfiles/
+MASTER_SITES=	http://toxygen.net/libgadu/files/
 
 MAINTAINER=	mjl@luckie.org.nz
 HOMEPAGE=	http://dev.null.pl/ekg/
 COMMENT=	Used by Instant Messengers with Gadu-Gadu support
 
-USE_TOOLS+=		autoconf automake gmake
+USE_TOOLS+=		autoconf automake gmake aclocal autoheader
 GNU_CONFIGURE=		yes
+USE_LIBTOOL=		yes
 CONFIGURE_ARGS+=	--without-openssl --enable-shared
 
 pre-configure:
