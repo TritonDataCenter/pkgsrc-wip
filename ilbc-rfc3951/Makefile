@@ -2,6 +2,7 @@
 
 DISTNAME=		ilbc-rfc3951
 PKGNAME=		ilbc-rfc3951-200412
+PKGREVISION=		1
 CATEGORIES=		net
 MASTER_SITES=		http://download.savannah.gnu.org/releases/linphone/1.3.x/source/
 
