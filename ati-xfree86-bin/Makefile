@@ -15,6 +15,7 @@ NO_BUILD=	yes
 USE_DIRS+=	xdg-1.1
 
 LICENSE=	amd-software-license
+LICENSE_FILE=	LICENSE
 ONLY_FOR_PLATFORM=	NetBSD-[2-9]*-i386 NetBSD-[2-9]*-x86_64
 
 EMUL_PLATFORMS=         linux-i386
