@@ -31,6 +31,10 @@ CFLAGS+=		-Du_int64_t=uint64_t
 LDCPP_VERSION!=		${DATE} +%Y%m%d
 LDFLAGS+=		${X11_LDFLAGS}
 
+.if ${OPSYS} == "HPUX"
+CFLAGS+=		"-Dmadvise(addr,len,behav)="
+.endif
+
 do-build:
 	cd ${WRKSRC} && ${SETENV} ${MAKE_ENV} ${PREFIX}/bin/scons debug=true relase=true PREFIX=${PREFIX}
 
