@@ -1,6 +1,5 @@
 @comment $NetBSD$
 bin/dsh
-etc/dsh.conf
 man/ja/man1/dsh.1
 man/ja/man5/dsh.conf.5
 man/man1/dsh.1
