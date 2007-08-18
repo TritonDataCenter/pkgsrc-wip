@@ -2,7 +2,7 @@
 
 DISTNAME=	xorg-server-1.3.99.0
 PKGNAME=	modular-${DISTNAME}
-PKGREVISION=	3
+PKGREVISION=	4
 CATEGORIES=	x11
 MASTER_SITES=	http://xorg.freedesktop.org/releases/individual/xserver/
 EXTRACT_SUFX=	.tar.bz2
@@ -52,8 +52,7 @@ CONFIGURE_ARGS+=	--with-dri-drivers=${DRI_MODULE_PATH}
 
 .if ${MACHINE_ARCH} == "x86_64" || ${MACHINE_ARCH} == "sparc64" || \
     ${MACHINE_ARCH} == "alpha"
-GLX_DEFINES=		-D__GLX_ALIGN64 -DPTHREADS ${PTHREAD_CFLAGS}
-GLX_LIBS=		${PTHREAD_LDFLAGS} ${PTHREAD_LIBS}
+GLX_DEFINES=		-D__GLX_ALIGN64
 .endif
 
 .else
@@ -107,8 +106,6 @@ PLIST_SUBST+=		DBUS=""
 PLIST_SUBST+=		DBUS="@comment "
 CONFIGURE_ARGS+=	--disable-config-dbus
 .endif
-
-.include "../../mk/pthread.buildlink3.mk"
 
 .include "../../wip/pixman/buildlink3.mk"
 .include "../../x11/bigreqsproto/buildlink3.mk"
