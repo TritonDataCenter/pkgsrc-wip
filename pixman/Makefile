@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	pixman-0.9.4
+PKGREVISION=	1
 CATEGORIES=	x11
 MASTER_SITES=	http://xorg.freedesktop.org/releases/individual/lib/
 EXTRACT_SUFX=	.tar.bz2
