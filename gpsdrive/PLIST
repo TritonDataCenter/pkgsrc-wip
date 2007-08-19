@@ -1,10 +1,10 @@
 @comment $NetBSD$
 bin/friendsd2
-bin/garble
+${GARMIN}bin/garble
 bin/geo-code
 bin/geo-nearest
 bin/geocache2way
-bin/gpsd
+${GARMIN}bin/gpsd
 bin/gpsdrive
 bin/gpsfetchmap.pl
 bin/gpspoint2gpsdrive.pl
