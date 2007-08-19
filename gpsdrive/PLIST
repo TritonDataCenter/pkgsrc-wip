@@ -14,13 +14,8 @@ bin/gpssql_backup.sh
 bin/gpssql_restore.sh
 bin/wpcvt
 bin/wpget
-lib/libfly.a
-lib/libfly.so.2
-lib/libfly.so.2.0.0
-lib/libnautic.a
-lib/libnautic.so
-lib/libnautic.so.2
-lib/libnautic.so.2.0.0
+lib/libfly.la
+lib/libnautic.la
 man/de/man1/gpsdrive.1
 man/es/man1/gpsdrive.1
 man/man1/gpsdrive.1

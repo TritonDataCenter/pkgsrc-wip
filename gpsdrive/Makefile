@@ -15,6 +15,7 @@ DEPENDS+=		pcre>=6.6:../../devel/pcre
 
 GNU_CONFIGURE=		YES
 USE_LANGUAGES=		c c++
+PKG_DESTDIR_SUPPORT=	user-destdir
 
 WRKSRC=			${WRKDIR}/gpsdrive-2.09
 USE_PKGLOCALEDIR=	yes
