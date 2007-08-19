@@ -26,5 +26,5 @@ SUBST_STAGE.cfgdir=	pre-configure
 SUBST_FILES.cfgdir=	globals.h etc/upnpd.conf
 SUBST_SED.cfgdir=	-e 's|@CONFDIR@|${PKG_SYSCONFDIR}|'
 
-.include "../../wip/libupnp/buildlink3.mk"
+.include "../../net/libupnp/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
