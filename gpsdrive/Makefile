@@ -3,10 +3,10 @@
 
 DISTNAME=		gpsdrive-2.09
 CATEGORIES=		geography
-MASTER_SITES=		http://www.gpsdrive.cc/
+MASTER_SITES=		http://www.gpsdrive.de/gpsdrive.tar/
 
 MAINTAINER=		alnix@phear.org
-HOMEPAGE=		http://www.gpsdrive.cc/
+HOMEPAGE=		http://www.gpsdrive.de/
 COMMENT=		GpsDrive is a car (bike, ship, plane) navigation system
 
 #DEPENDS+=		gpsd>=1.07:../../geography/gpsd
