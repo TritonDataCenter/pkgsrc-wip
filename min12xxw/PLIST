@@ -1,0 +1,4 @@
+@comment $NetBSD$
+bin/esc-m
+bin/min12xxw
+man/man1/min12xxw.1
