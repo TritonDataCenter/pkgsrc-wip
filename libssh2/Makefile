@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	libssh2-0.17
-CATEGORIES=	security
+CATEGORIES=	wip security
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=libssh2/}
 
 MAINTAINER=	blair.sadewitz@gmail.com
