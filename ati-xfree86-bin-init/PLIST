@@ -1,0 +1,4 @@
+@comment $NetBSD$
+sbin/initati
+share/${PKGBASE}/fglrx_drv.o
+share/${PKGBASE}/XF86Config.initati
