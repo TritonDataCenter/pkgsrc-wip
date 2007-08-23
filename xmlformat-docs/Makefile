@@ -17,6 +17,7 @@ DESCR_SRC=		${.CURDIR}/DESCR.common ${.CURDIR}/DESCR
 
 do-install:
 	${INSTALL_DATA_DIR} ${PREFIX}/share/doc/xmlformat
+	${INSTALL_DATA_DIR} ${PREFIX}/share/doc/xmlformat/examples
 .	for _dtype in xml html pdf
 	${INSTALL_DATA} ${WRKSRC}/docs/tutorial.${_dtype} \
 		${PREFIX}/share/doc/xmlformat
@@ -26,6 +27,8 @@ do-install:
 	${INSTALL_DATA} ${WRKSRC}/docs/API ${PREFIX}/share/doc/xmlformat
 	${INSTALL_DATA} ${WRKSRC}/docs/xmlformat.conf \
 		${PREFIX}/share/doc/xmlformat
+	${INSTALL_DATA} ${WRKSRC}/docs/examples/* \
+		${PREFIX}/share/doc/xmlformat/examples
 
 .include "../../wip/xmlformat-docs/version.mk"
 .include "../../mk/bsd.pkg.mk"

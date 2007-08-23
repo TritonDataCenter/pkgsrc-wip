@@ -3,7 +3,6 @@
 
 DISTNAME=		xmlformat-${XMLFORMAT_VERSION}
 PKGNAME=		xmlformat-ruby-${XMLFORMAT_VERSION}
-PKGREVISION=		1
 CATEGORIES=		textproc
 MASTER_SITES=		http://www.kitebird.com/software/xmlformat/
 
