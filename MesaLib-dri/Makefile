@@ -1,7 +1,7 @@
 # $NetBSD$
 
 DISTNAME=	MesaLib-${MESA_VERSION}
-PKGREVISION=	3
+PKGREVISION=	4
 CATEGORIES=	graphics
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=mesa3d/}
 EXTRACT_SUFX=	.tar.bz2
@@ -29,7 +29,7 @@ GL_HEADERS+=	osmesa.h xmesa.h xmesa_x.h xmesa_xf86.h
 
 WRKSRC=		${WRKDIR}/Mesa-${MESA_VERSION}
 
-DRI_CFLAGS+=	-DPTHREADS -DUSE_XSHM  -fno-strict-aliasing -ffast-math -fomit-frame-pointer
+DRI_CFLAGS+=	-DPTHREADS -DUSE_XSHM  -fno-strict-aliasing -ffast-math
 CFLAGS.NetBSD+=-D_REENTRANT
 PKGSRC_PICFLAGS=-fPIC -DPIC
 
