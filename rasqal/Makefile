@@ -21,4 +21,5 @@ PKGCONFIG_OVERRIDE+=	rasqal.pc.in
 .include "../../devel/pcre/buildlink3.mk"
 .include "../../textproc/libxml2/buildlink3.mk"
 .include "../../textproc/libxslt/buildlink3.mk"
+.include "../../textproc/expat/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
