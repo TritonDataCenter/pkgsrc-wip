@@ -1,0 +1,4 @@
+@comment $NetBSD$
+bin/exactly
+bin/flyisofs
+bin/shunt
