@@ -43,15 +43,15 @@ post-install:
 	${INSTALL_SCRIPT} ${WRKSRC}/src/gajim.py ${PREFIX}/bin/gajim
 	cd ${WRKSRC} && \
 	for i in `find data/emoticons data/iconsets -iname\
-	'*.jpg' -o -iname '*.png'` ;\
+	'*.jpg' -o -iname '*.png' -o -iname '*.py'` ;\
 	do\
 	    ${INSTALL_SCRIPT_DIR} `${DIRNAME} ${PREFIX}/share/gajim/$$i` ;\
             ${INSTALL_SCRIPT} $$i ${PREFIX}/share/gajim/$$i ;\
 	done
-	
 
 .include "../../lang/python/application.mk"
 .include "../../lang/python/extension.mk"
 .include "../../x11/py-gtk2/buildlink3.mk"
+.include "../../x11/scrnsaverproto/buildlink3.mk"
 .include "../../textproc/gtkspell/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
