@@ -1,4 +1,4 @@
-@comment $NetBSD: PLIST.FreeBSD,v 1.1 2005/04/30 22:25:15 tron Exp $
+@comment $NetBSD: PLIST.freebsd-i386,v 1.1 2007/07/29 05:20:01 jlam Exp $
 bin/opera
 man/man1/opera.1
 share/doc/opera/LICENSE
