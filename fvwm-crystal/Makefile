@@ -16,7 +16,7 @@ SUBST_CLASSES+=		python
 SUBST_STAGE.python=	post-patch
 SUBST_FILES.python=	bin/fvwm-crystal.apps bin/fvwm-crystal.wallpaper \
 			fvwm/scripts/FvwmMPD/getprevdir.py fvwm/scripts/FvwmMPD/stripnames.py
-SUBST_SED.python=	-e "s,/usr/bin/env python,${PREFIX}/bin/python${PYVERSSUFFIX},g"
+SUBST_SED.python=	-e "s,/usr/bin/env python,${PYTHONBIN},g"
 SUBST_MESSAGE.python=	Fixing harcoded python path
 
 SUBST_CLASSES+=		bash
