@@ -9,8 +9,12 @@ MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://ecasound.seul.org/
 COMMENT=		Multitrack audio processor
 
-USE_PKGLOCALEDIR=	yes
+USE_LANGUAGES=		c c++
 USE_LIBTOOL=		yes
+USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
+USE_NCURSES=		yes # term.h, setupterm(), ...
 
+.include "../../devel/ncurses/buildlink3.mk"
+.include "../../mk/oss.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
