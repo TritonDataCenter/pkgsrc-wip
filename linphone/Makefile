@@ -47,7 +47,7 @@ LIBS+=		${LIBOSSAUDIO}
 CPPFLAGS+=	-DDSP_NAME="\"${DEVOSSAUDIO}\""
 
 .include "../../devel/glib2/buildlink3.mk"
-.include "../../devel/libosip/buildlink3.mk"
+.include "../../wip/libosip222/buildlink3.mk"
 .include "../../devel/ncurses/buildlink3.mk"
 .include "../../devel/readline/buildlink3.mk"
 .include "../../wip/speex-devel/buildlink3.mk"
