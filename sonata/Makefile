@@ -10,13 +10,15 @@ MAINTAINER=	jfranz@bsdprojects.net
 HOMEPAGE=	http://download.berlios.de/sonata/
 COMMENT=	Elegant GTK2 client for the Music Player Daemon
 
-PYTHON_VERSIONS_ACCEPTED=       24
-PY_PATCHPLIST=  yes
-PYDISTUTILSPKG= yes
-USE_DIRS+=      xdg-1.4
-
 DEPENDS+=	musicpd>0:../../audio/musicpd
 
+PYTHON_VERSIONS_ACCEPTED=	24
+PY_PATCHPLIST=	yes
+PYDISTUTILSPKG=	yes
+USE_DIRS+=	xdg-1.4
+USE_TOOLS+=	pkg-config
+
+.include "../../devel/py-gobject/buildlink3.mk"
 .include "../../lang/python/extension.mk"
 .include "../../x11/gtk2/buildlink3.mk"
 .include "../../x11/py-gtk2/buildlink3.mk"
