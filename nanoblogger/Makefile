@@ -6,7 +6,7 @@ CATEGORIES=	www
 MASTER_SITES=	http://nanoblogger.sourceforge.net/downloads/
 
 MAINTAINER=	pkgsrc-users@pkgsrc.org
-HOMEPAGE=	http://nanoblogger.sourceforge.net/downloads/
+HOMEPAGE=	http://nanoblogger.sourceforge.net/
 COMMENT=	Small weblog engine for the UNIX command line
 
 DEPENDS+=       bash-[0-9]*:../../shells/bash
