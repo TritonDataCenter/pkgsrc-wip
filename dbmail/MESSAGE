@@ -1,0 +1,12 @@
+===========================================================================
+$NetBSD$
+
+Anyone upgrading from an earlier version of the dbmail should read:
+
+	${DOCSDIR}/UPGRADING
+
+Here are migration scripts:
+
+	${DATADIR}/sql
+
+===========================================================================
