@@ -7,7 +7,7 @@ CATEGORIES=		net
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=shtoom/}
 
 MAINTAINER=		pkgsrc-users@NetBSD.org
-HOMEPAGE=		http://shtoom.sourceforge.net/
+HOMEPAGE=		http://divmod.org/trac/wiki/ShtoomProject
 COMMENT=		Software VoIP telephony in Python
 
 DEPENDS+=		${PYPKGPREFIX}-twisted>=1.3.0:../../net/py-twisted
