@@ -10,6 +10,13 @@ MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://www.ietf.org/rfc/rfc3951.txt
 COMMENT=		Internet Low Bit Rate Codec
 
+LICENSE=		GIPS-iLBC-license
+RESTRICTED=		Personal distribution only.
+NO_SRC_ON_FTP=		${RESTRICTED}
+NO_BIN_ON_FTP=		${RESTRICTED}
+NO_SRC_ON_CDROM=	${RESTRICTED}
+NO_BIN_ON_CDROM=	${RESTRICTED}
+
 USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=		yes
 USE_LANGUAGES+=		c c++ fortran
