@@ -12,12 +12,11 @@ COMMENT=		RTP and RTSP protocol implementation using GNU CommonCpp
 USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=		yes
 USE_TOOLS+=		pkg-config
-USE_LANGUAGES+=		c c++ fortran
+USE_LANGUAGES+=		c c++
 PKGCONFIG_OVERRIDE+=	${WRKSRC}/libccrtp1.pc.in
 GNU_CONFIGURE=		yes
-CPPFLAGS+=		-I${BUILDLINK_PREFIX.commoncpp2}/include/cc++2
-
 INFO_FILES=		yes
 
 .include "../../wip/commoncpp2/buildlink3.mk"
+.include "../../security/openssl/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
