@@ -7,12 +7,12 @@ MASTER_SITES=		http://www.sflphone.org/releases/
 
 MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://www.sflphone.org/
-COMMENT=		Your desktop VoIP software.
+COMMENT=		Multiplatform softphone for IP telephony using SIP (VOIP)
 
 USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=		yes
 GNU_CONFIGURE=		yes
-CONFIGURE_ARGS+=--disable-asound
+CONFIGURE_ARGS+=	--disable-asound
 
 # TODO make speex dependency optional?
 .include "../../audio/speex/buildlink3.mk"
