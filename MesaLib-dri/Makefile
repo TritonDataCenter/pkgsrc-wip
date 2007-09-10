@@ -33,7 +33,7 @@ GL_HEADERS+=	osmesa.h xmesa.h xmesa_x.h xmesa_xf86.h
 
 WRKSRC=		${WRKDIR}/Mesa-${MESA_VERSION}
 
-DRI_CFLAGS+=	-DPTHREADS -DUSE_XSHM  -fno-strict-aliasing -ffast-math
+DRI_CFLAGS+=	-DPTHREADS -DUSE_XSHM  -fno-strict-aliasing
 CFLAGS.NetBSD+=-D_REENTRANT
 PKGSRC_PICFLAGS=-fPIC -DPIC
 
