@@ -1,8 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	openbsd-input-ws-1.1
-PKGREVISION=	1
+DISTNAME=	openbsd-input-ws-1.2
 CATEGORIES=	x11
 MASTER_SITES=	http://xenocara.org/src/
 
@@ -16,8 +15,6 @@ GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_TOOLS+=	pkg-config
 USE_LANGUAGES=	c
-
-CPPFLAGS+=	-DMOTION_EVENT_HACK # XXX testing
 
 .include "../../wip/modular-xorg-server/buildlink3.mk"
 .include "../../x11/xproto/buildlink3.mk"
