@@ -1,8 +1,8 @@
 # $NetBSD$
 
-DISTNAME=		libvolume_id-0.77.0
+DISTNAME=		libvolume-0.77
 CATEGORIES=		sysutils
-MASTER_SITES=           http://www.coris.org.uk/mrk/pkgsrc
+MASTER_SITES=           http://www.coris.org.uk/mrk/pkgsrc/
 EXTRACT_SUFX=		.tgz
 
 MAINTAINER=		mkirby@NetBSD.org
