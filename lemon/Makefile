@@ -6,6 +6,7 @@ EXTRACT_SUFX=
 WRKSRC=		${WRKDIR}
 CATEGORIES=	wip devel
 MASTER_SITES=	http://www.sqlite.org/cvstrac/getfile/sqlite/tool/
+DISTFILES=	lemon.c lempar.c
 
 MAINTAINER=	airhead@users.sf.net
 HOMEPAGE=	http://www.hwaci.com/sw/lemon/
@@ -15,6 +16,9 @@ do-build: lemon
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/lemon ${PREFIX}/bin
+	# This probably should be fixed by patching the searchpath
+	# and putting it in ${PREFIX}/share/lemon or sth
+	${INSTALL_DATA} ${WRKSRC}/lempar.c ${PREFIX}/bin
 
 .include "../../mk/bsd.pkg.mk"
 
