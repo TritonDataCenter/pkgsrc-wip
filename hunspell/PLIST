@@ -14,6 +14,7 @@ include/hunspell/htypes.hxx
 include/hunspell/hunspell.h
 include/hunspell/hunspell.hxx
 include/hunspell/langnum.hxx
+include/hunspell/phonet.hxx
 include/hunspell/suggestmgr.hxx
 include/munch.h
 include/unmunch.h
