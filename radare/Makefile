@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	radare-0.8
+DISTNAME=	radare-0.8.6
 CATEGORIES=	wip sysutils
 MASTER_SITES=	http://radare.nopcode.org/get/
 
