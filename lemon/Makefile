@@ -4,7 +4,7 @@ PKGNAME=	lemon-1.0
 DISTNAME=	lemon.c
 EXTRACT_SUFX=
 WRKSRC=		${WRKDIR}
-CATEGORIES=	wip devel
+CATEGORIES=	devel
 MASTER_SITES=	http://www.sqlite.org/cvstrac/getfile/sqlite/tool/
 DISTFILES=	lemon.c lempar.c
 
