@@ -7,7 +7,7 @@ MASTER_SITES=	http://download.berlios.de/sonata/
 EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	jfranz@bsdprojects.net
-HOMEPAGE=	http://download.berlios.de/sonata/
+HOMEPAGE=	http://sonata.berlios.de/
 COMMENT=	Elegant GTK2 client for the Music Player Daemon
 
 DEPENDS+=	musicpd>0:../../audio/musicpd
