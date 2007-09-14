@@ -14,6 +14,7 @@ GNU_CONFIGURE=		yes
 CONFIGURE_ARGS+=	--with-cflags=${CFLAGS:M*:Q}
 CONFIGURE_ARGS+=	--disable-plugin
 CONFIGURE_ARGS+=	--disable-shared
+CONFIGURE_ARGS+=	--with-local-libmaa
 CONFIGURE_ARGS+=	--datadir=${PREFIX}/share/dictd
 
 MESSAGE_SUBST+=		VARBASE="${VARBASE}"
