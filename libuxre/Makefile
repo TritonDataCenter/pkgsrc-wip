@@ -10,7 +10,7 @@ COMMENT=	POSIX compatible regular expression library
 
 USE_LIBTOOL=		yes
 
-INSTALLATION_DIRS=	include/uxre share/doc/${PKGBASE} lib
+INSTALLATION_DIRS+=	include/uxre share/doc/${PKGBASE} lib
 
 pre-build:
 	cd ${WRKSRC} && \
