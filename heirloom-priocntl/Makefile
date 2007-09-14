@@ -5,7 +5,10 @@
 PKGNAME=	heirloom-priocntl-${HEIRLOOM_VER}
 CATEGORIES=	textproc
 
-MAKE_FLAGS+=	SUBDIRS="build priocntl"
+NOT_FOR_PLATFORM+=	Linux-*-*
+NOT_FOR_PLATFORM+=	Interix-*-*
+
+MAKE_FLAGS+=		SUBDIRS="build priocntl"
 
 .include "../../wip/heirloom-libcommon/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
