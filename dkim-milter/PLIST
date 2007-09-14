@@ -33,6 +33,7 @@ share/doc/dkim-milter/libdkim/dkim_free.html
 share/doc/dkim-milter/libdkim/dkim_get_user_context.html
 share/doc/dkim-milter/libdkim/dkim_getpresult.html
 share/doc/dkim-milter/libdkim/dkim_getpresultstr.html
+share/doc/dkim-milter/libdkim/dkim_getresultstr.html
 share/doc/dkim-milter/libdkim/dkim_getsighdr.html
 share/doc/dkim-milter/libdkim/dkim_getsiglist.html
 share/doc/dkim-milter/libdkim/dkim_getsignature.html

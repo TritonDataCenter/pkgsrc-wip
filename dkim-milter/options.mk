@@ -2,7 +2,6 @@
 
 PKG_OPTIONS_VAR=	PKG_OPTIONS.dkim-milter
 PKG_SUPPORTED_OPTIONS=	inet6 dkim-stats arlib
-PKG_SUGGESTED_OPTIONS=	arlib
 
 .include "../../mk/bsd.options.mk"
 
