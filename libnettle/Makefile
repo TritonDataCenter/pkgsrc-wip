@@ -15,7 +15,7 @@ GNU_CONFIGURE=		yes
 CONFIGURE_ARGS+=	--without-openssl --enable-shared
 
 INFO_FILES=	yes
-USE_TOOLS+=	gmake
+USE_TOOLS+=	gmake m4
 TEST_TARGET=	check
 
 .include "../../mk/bsd.pkg.mk"
