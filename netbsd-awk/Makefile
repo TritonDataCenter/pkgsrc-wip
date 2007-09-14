@@ -30,9 +30,7 @@ do-install:
 
 .if ${OPSYS} == "Linux"
 # Linux has no strlcat function
-.include "../../pkgtools/libnbcompat/buildlink3.mk"
-CPPFLAGS+=	-I${LOCALBASE}/include/libnbcompat
-LDFLAGS+=	-lnbcompat
+.include "../../pkgtools/libnbcompat/inplace.mk"
 .endif
 
 .include "../../mk/bsd.pkg.mk"
