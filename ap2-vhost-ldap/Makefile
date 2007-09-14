@@ -11,7 +11,7 @@ MAINTAINER=	imil@gcu.info
 HOMEPAGE=	http://packages.qa.debian.org/m/mod-vhost-ldap.html
 COMMENT=	Apache 2.2 module LDAP Virtual Hosts support
 
-WRKSRC=		${WRKDIR}/${DISTNAME:S/_1.2.0.orig/-1.2.0/}
+WRKSRC=		${WRKDIR}/${DISTNAME:S/_/-/:S/.orig//}
 NO_CONFIGURE=	yes
 
 APACHE_MODULE_NAME=	mod_vhost_ldap
