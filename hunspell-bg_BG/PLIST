@@ -1,0 +1,6 @@
+@comment $NetBSD: PLIST,v 1.1.1.1 2007/09/11 18:38:15 wiz Exp $
+share/doc/hunspell-bg_BG/README_bg_BG.txt
+share/hunspell/bg_BG.aff
+share/hunspell/bg_BG.dic
+@unexec ${RMDIR} %D/share/hunspell 2>/dev/null || ${TRUE}
+@dirrm share/doc/hunspell-bg_BG
