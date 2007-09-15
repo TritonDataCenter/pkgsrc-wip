@@ -29,7 +29,7 @@ PKG_SUPPORTED_OPTIONS=	inet6
 CONFIGURE_ARGS+=	--enable-ipv6
 .endif
 
-.include "../../wip/libmcs/buildlink3.mk"
+.include "../../devel/libmcs/buildlink3.mk"
 .include "../../devel/pango/buildlink3.mk"
 .include "../../devel/glib2/buildlink3.mk"
 .include "../../devel/libglade2/buildlink3.mk"

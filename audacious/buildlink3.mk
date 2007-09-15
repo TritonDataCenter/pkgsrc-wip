@@ -17,7 +17,7 @@ BUILDLINK_PKGSRCDIR.audacious?=	../../wip/audacious
 BUILDLINK_DEPMETHOD.audacious?=	build
 .endif	# AUDACIOUS_BUILDLINK3_MK
 
-.include "../../wip/libmcs/buildlink3.mk"
+.include "../../devel/libmcs/buildlink3.mk"
 .include "../../devel/pango/buildlink3.mk"
 .include "../../devel/glib2/buildlink3.mk"
 .include "../../devel/libglade2/buildlink3.mk"
