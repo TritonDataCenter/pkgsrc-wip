@@ -1,0 +1,6 @@
+@comment $NetBSD$
+lib/libpython_taglib.la
+${PYSITELIB}/TagLib.py
+${PYSITELIB}/TagLib.pyc
+${PYSITELIB}/TagLib.pyo
+${PYSITELIB}/_TagLib.so
