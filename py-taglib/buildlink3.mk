@@ -12,7 +12,7 @@ BUILDLINK_PACKAGES+=	python-taglib
 BUILDLINK_ORDER:=	${BUILDLINK_ORDER} ${BUILDLINK_DEPTH}python-taglib
 
 .if ${PYTHON_TAGLIB_BUILDLINK3_MK} == "+"
-BUILDLINK_API_DEPENDS.python-taglib+=	python-taglib>=1.3.3
+BUILDLINK_API_DEPENDS.python-taglib+=	${PYPKGPREFIX}-taglib>=1.3.3
 BUILDLINK_PKGSRCDIR.python-taglib?=	../../wip/py-taglib
 .endif	# PYTHON_TAGLIB_BUILDLINK3_MK
 
