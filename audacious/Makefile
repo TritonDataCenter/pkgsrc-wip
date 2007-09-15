@@ -1,10 +1,11 @@
 # $NetBSD$
 #
 
-DISTNAME=		audacious-1.3.2
+DISTNAME=		audacious-1.4.0-dr4
+PKGNAME=		${DISTNAME:S/-dr4//}
 CATEGORIES=		audio
-MASTER_SITES=		http://static.audacious-media-player.org/release/
-EXTRACT_SUFX=		.tgz
+MASTER_SITES=		http://distfiles.atheme.org/
+EXTRACT_SUFX=		.tbz2
 
 MAINTAINER=		jfranz@bsdprojects.net
 HOMEPAGE=		http://audacious-media-player.org/
@@ -29,6 +30,8 @@ PKG_SUPPORTED_OPTIONS=	inet6
 CONFIGURE_ARGS+=	--enable-ipv6
 .endif
 
+.include "../../wip/mowgli/buildlink3.mk"
+.include "../../sysutils/dbus/buildlink3.mk"
 .include "../../devel/libmcs/buildlink3.mk"
 .include "../../devel/pango/buildlink3.mk"
 .include "../../devel/glib2/buildlink3.mk"

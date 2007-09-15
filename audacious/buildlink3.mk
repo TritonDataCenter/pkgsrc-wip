@@ -12,11 +12,12 @@ BUILDLINK_PACKAGES+=	audacious
 BUILDLINK_ORDER:=	${BUILDLINK_ORDER} ${BUILDLINK_DEPTH}audacious
 
 .if ${AUDACIOUS_BUILDLINK3_MK} == "+"
-BUILDLINK_API_DEPENDS.audacious+=	audacious>=1.3.2
+BUILDLINK_API_DEPENDS.audacious+=	audacious>=1.4.0
 BUILDLINK_PKGSRCDIR.audacious?=	../../wip/audacious
 BUILDLINK_DEPMETHOD.audacious?=	build
 .endif	# AUDACIOUS_BUILDLINK3_MK
 
+.include "../../wip/mowgli/buildlink3.mk"
 .include "../../devel/libmcs/buildlink3.mk"
 .include "../../devel/pango/buildlink3.mk"
 .include "../../devel/glib2/buildlink3.mk"
