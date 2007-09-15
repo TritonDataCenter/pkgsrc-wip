@@ -7,7 +7,7 @@ MASTER_SITES=	http://distfiles.atheme.org/
 EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	jfranz@bsdprojects.net
-HOMEPAGE=	http://distfiles.atheme.org/
+HOMEPAGE=	http://sacredspiral.co.uk/~nenolod/mowgli/
 COMMENT=	Development framework for C (like GLib)
 
 GNU_CONFIGURE=	yes
