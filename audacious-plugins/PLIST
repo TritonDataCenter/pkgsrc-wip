@@ -12,12 +12,14 @@ lib/audacious/Effect/libvoice_removal.so
 lib/audacious/General/libalarm.so
 lib/audacious/General/libaosd.so
 lib/audacious/General/libhotkey.so
+lib/audacious/General/libmtp_up.so
 lib/audacious/General/libscrobbler.so
 lib/audacious/General/libsong_change.so
 lib/audacious/General/libstatusicon.so
 lib/audacious/Input/libaac.so
 lib/audacious/Input/libadplug.so
 lib/audacious/Input/libalac.so
+lib/audacious/Input/libcdaudio-ng.so
 lib/audacious/Input/libconsole.so
 lib/audacious/Input/libcuesheet.so
 lib/audacious/Input/libflacng.so
@@ -48,6 +50,7 @@ lib/audacious/Transport/libstdio.so
 lib/audacious/Visualization/libbscope.so
 lib/audacious/Visualization/libparanormal.so
 lib/audacious/Visualization/librocklight.so
+lib/audacious/Visualization/librootvis.so
 lib/audacious/Visualization/librovascope.so
 lib/audacious/Visualization/libspectrum.so
 share/audacious-plugins/paranormal/Presets/aerdan_-_bloody_vortex.pnv
