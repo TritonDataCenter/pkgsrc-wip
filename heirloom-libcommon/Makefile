@@ -17,9 +17,14 @@ HEADERS=	_alloca.h _malloc.h _utmpx.h alloca.h asciitype.h atoll.h \
 		msgselect.h oblok.h pathconf.h pfmt.h regexp.h regexpr.h \
 		sfile.h sigset.h utmpx.h
 
-PLIST_SUBST+=	NO_ALLOCA=
+PLIST_SUBST+=	NO_ALLOCA_H=
+PLIST_SUBST+=	NOMALLOC_H=
+PLIST_SUBST+=	NOUTMPX_H=
+
 .if ${OPSYS} == "Linux"
-PLIST_SUBST+=	"NO_ALLOCA=@comment "
+PLIST_SUBST+=	"NO_ALLOCA_H=@comment "
+PLIST_SUBST+=	"NOMALLOC_H=@comment "
+PLIST_SUBST+=	"NOUTMPX_H=@comment "
 .endif
 
 do-install:
