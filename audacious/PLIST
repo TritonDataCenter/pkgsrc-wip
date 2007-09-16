@@ -1,5 +1,8 @@
 @comment $NetBSD$
 bin/audacious
+bin/audtool
+
+include/audacious/audctrl.h
 include/audacious/auddrct.h
 include/audacious/configdb.h
 include/audacious/custom_uri.h
@@ -34,6 +37,9 @@ include/audacious/vfs_buffer.h
 include/audacious/vfs_buffered_file.h
 include/audacious/xconvert.h
 lib/audacious/libaudid3tag.so
+lib/libaudclient.so
+lib/libaudclient.so.1
+lib/libaudclient.so.1.0.0
 lib/pkgconfig/audacious.pc
 lib/pkgconfig/audclient.pc
 man/man1/audacious.1
