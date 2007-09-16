@@ -12,7 +12,7 @@ BUILDLINK_PACKAGES+=	libvolume_id
 BUILDLINK_ORDER:=	${BUILDLINK_ORDER} ${BUILDLINK_DEPTH}libvolume_id
 
 .if ${LIBVOLUME_ID_BUILDLINK3_MK} == "+"
-BUILDLINK_API_DEPENDS.libvolume_id+=	libvolume_id>=0.71.0
+BUILDLINK_API_DEPENDS.libvolume_id+=	libvolume>=0.71.0
 BUILDLINK_PKGSRCDIR.libvolume_id?=	../../wip/libvolumeid
 .endif	# LIBVOLUME_ID_BUILDLINK3_MK
 
