@@ -1,7 +1,6 @@
 @comment $NetBSD$
 bin/audacious
 bin/audtool
-
 include/audacious/audctrl.h
 include/audacious/auddrct.h
 include/audacious/configdb.h
