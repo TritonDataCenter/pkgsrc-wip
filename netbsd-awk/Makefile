@@ -19,6 +19,7 @@ BUILD_TARGET=	a.out
 
 CFLAGS+=	-I.
 LDFLAGS+=	-lm
+
 MAKE_FLAGS+=	YHEADER=yes
 
 post-patch:
@@ -31,6 +32,7 @@ do-install:
 .if ${OPSYS} == "Linux"
 # Linux has no strlcat function
 .include "../../pkgtools/libnbcompat/inplace.mk"
+MAKE_ENV+=	LIBS="${LDFLAGS.nbcompat} ${LDADD.nbcompat}"
 .endif
 
 .include "../../mk/bsd.pkg.mk"

@@ -43,7 +43,7 @@ $NetBSD$
 -a.out:	ytab.o $(OFILES)
 -	$(CC) $(CFLAGS) ytab.o $(OFILES) $(ALLOC)  -lm
 +a.out:	awkgram.o $(OFILES)
-+	$(CC) $(CFLAGS) awkgram.o $(OFILES) $(ALLOC) $(LDFLAGS) -lm
++	$(CC) $(CFLAGS) awkgram.o $(OFILES) $(ALLOC) $(LDFLAGS) $(LIBS) -lm
  
 -$(OFILES):	awk.h ytab.h proto.h
 +$(OFILES):	awk.h awkgram.h proto.h
