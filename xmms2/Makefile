@@ -23,7 +23,7 @@ PKGCONFIG_OVERRIDE+=	_build_/default/xmms2-client-glib.pc
 
 do-configure:
 	cd ${WRKSRC:Q} && ${PYTHONBIN} ./waf configure \
-	--prefix=${PREFIX} --with-mandir=${PREFIX}/man
+	--prefix=${PREFIX} --with-mandir=${PREFIX}/${PKGMANDIR}
 
 do-build:
 	cd ${WRKSRC:Q} && ${PYTHONBIN} ./waf build
