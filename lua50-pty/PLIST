@@ -1,3 +1,0 @@
-@comment $NetBSD$
-lib/lua/5.0/lpty.so
-share/lua/5.0/pty.lua
