@@ -22,6 +22,6 @@ GNU_CONFIGURE=		yes
 .include "../../devel/libglade2/buildlink3.mk"
 .include "../../devel/libgnomeui/buildlink3.mk"
 .include "../../graphics/libgnomecanvas/buildlink3.mk"
-.include "../../x11/gnome2-control-center/buildlink3.mk"
+.include "../../x11/control-center/buildlink3.mk"
 .include "../../x11/gtk2/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

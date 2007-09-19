@@ -53,6 +53,6 @@ PKGCONFIG_OVERRIDE+=	libdecoration/libdecoration.pc.in
 .include "../../graphics/MesaLib/buildlink3.mk"
 .include "../../graphics/glu/buildlink3.mk"
 .include "../../devel/libwnck/buildlink3.mk"
-.include "../../x11/gnome2-control-center/buildlink3.mk"
+.include "../../x11/control-center/buildlink3.mk"
 
 .include "../../mk/bsd.pkg.mk"
