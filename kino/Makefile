@@ -45,7 +45,7 @@ CONFIGURE_ARGS+=	--with-hotplug-script-dir=${PREFIX}/share/examples/kino/hotplug
 .include "../../graphics/libart2/buildlink3.mk"
 .include "../../graphics/libgnomecanvas/buildlink3.mk"
 .include "../../multimedia/libdv/buildlink3.mk"
-.include "../../sysutils/gnome-vfs2/buildlink3.mk"
+.include "../../sysutils/gnome-vfs/buildlink3.mk"
 .include "../../textproc/libxml2/buildlink3.mk"
 
 .include "../../wip/libavc1394/buildlink3.mk"

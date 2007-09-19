@@ -30,7 +30,7 @@ PLIST_SRC+=		${PKGDIR}/PLIST
 PLIST_SRC+=		${PKGDIR}/PLIST.end
 
 .include "../../x11/gtk2/buildlink3.mk"
-.include "../../sysutils/gnome-vfs2/buildlink3.mk"
+.include "../../sysutils/gnome-vfs/buildlink3.mk"
 .include "../../devel/libgnome/buildlink3.mk"
 .include "../../devel/libgnomeui/buildlink3.mk"
 .include "../../textproc/gnome-doc-utils/buildlink3.mk"

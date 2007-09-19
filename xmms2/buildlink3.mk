@@ -33,7 +33,7 @@ MAKEVARS+=	PKG_BUILD_OPTIONS.xmms2
 .endif
 
 .if !empty(PKG_BUILD_OPTIONS.xmms2:Mgnomevfs)
-.  include "../../sysutils/gnome-vfs2/buildlink3.mk"
+.  include "../../sysutils/gnome-vfs/buildlink3.mk"
 .endif
 
 .if !empty(PKG_BUILD_OPTIONS.xmms2:Mmodplug)

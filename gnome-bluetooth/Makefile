@@ -26,7 +26,7 @@ GNU_CONFIGURE=		yes
 .include "../../net/ORBit2/buildlink3.mk"
 .include "../../security/gnutls/buildlink3.mk"
 .include "../../security/gnome-keyring/buildlink3.mk"
-.include "../../sysutils/gnome-vfs2/buildlink3.mk"
+.include "../../sysutils/gnome-vfs/buildlink3.mk"
 .include "../../wip/libbtctl/buildlink3.mk"
 .include "../../x11/py-gnome2/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
