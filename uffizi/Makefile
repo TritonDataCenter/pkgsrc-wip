@@ -20,8 +20,6 @@ USE_TOOLS+=             perl:run
 REPLACE_PERL=           ${DISTNAME}
 NO_BUILD=               yes
 
-PKGNAME=                ${DISTNAME:S/.txt$//}
-
 INSTALLATION_DIRS=      bin
 
 do-install:
