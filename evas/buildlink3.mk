@@ -17,7 +17,7 @@ BUILDLINK_PKGSRCDIR.evas?=	../../wip/evas
 .endif	# EVAS_BUILDLINK3_MK
 
 .include	"../../wip/eet/buildlink3.mk"
-.include	"../../graphics/librsvg2/buildlink3.mk"
+.include	"../../graphics/librsvg/buildlink3.mk"
 .include	"../../graphics/libungif/buildlink3.mk"
 .include	"../../graphics/freetype2/buildlink3.mk"
 

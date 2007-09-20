@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	edje-0.5.0.037
+PKGREVISION=	1
 CATEGORIES=	graphics
 MASTER_SITES=	http://enlightenment.freedesktop.org/files/
 EXTRACT_SUFX=	.tar.gz

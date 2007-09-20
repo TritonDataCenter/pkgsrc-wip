@@ -2,6 +2,7 @@
 #
 
 DISTNAME=		monkey-bubble-0.1.6
+PKGREVISION=		1
 CATEGORIES=		games
 MASTER_SITES=		http://monkey-bubble.tuxfamily.org/
 
@@ -14,6 +15,6 @@ USE_LIBTOOL=		yes
 GNU_CONFIGURE=		yes
 USE_TOOLS+=		gmake
 
-.include "../../graphics/librsvg2/buildlink3.mk"
+.include "../../graphics/librsvg/buildlink3.mk"
 .include "../../multimedia/gstreamer0.8/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

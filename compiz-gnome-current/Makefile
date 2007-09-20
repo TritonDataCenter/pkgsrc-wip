@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	compiz-0.5.0
-PKGREVISION=	2
+PKGREVISION=	3
 CATEGORIES=	wm x11
 MASTER_SITES=	http://xorg.freedesktop.org/releases/individual/app/
 EXTRACT_SUFX=	.tar.bz2

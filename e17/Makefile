@@ -3,6 +3,7 @@
 
 DISTNAME=	enlightenment-0.16.999.037
 PKGNAME=	e17-0.16.999.037
+PKGREVISION=	1
 CATEGORIES=	x11
 MASTER_SITES=	http://enlightenment.freedesktop.org/files/
 EXTRACT_SUFX=	.tar.gz

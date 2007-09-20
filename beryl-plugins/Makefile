@@ -8,6 +8,7 @@ COMMENT=	Supported plugins for the Beryl compositor
 
 .include "../../wip/beryl/Makefile.inc"
 
+PKGREVISION=	1
 PKG_DESTDIR_SUPPORT=	user-destdir
 
 USE_PKGLOCALEDIR=	yes
@@ -20,7 +21,7 @@ USE_LIBTOOL+=	yes
 .include "../../wip/beryl-core/buildlink3.mk"
 .include "../../wip/beryl-settings/buildlink3.mk"
 .include "../../graphics/MesaLib/buildlink3.mk"
-.include "../../graphics/librsvg2/buildlink3.mk"
+.include "../../graphics/librsvg/buildlink3.mk"
 .include "../../graphics/cairo/buildlink3.mk"
 .include "../../sysutils/dbus/buildlink3.mk"
 .include "../../devel/glib2/buildlink3.mk"
