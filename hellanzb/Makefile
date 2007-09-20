@@ -10,7 +10,7 @@ MAINTAINER=		silicon@kalifornia.com
 HOMEPAGE=		http://www.hellanzb.com:8080/trac
 COMMENT=		Command line nntp file grabber
 
-DEPENDS+=	${PYPKGPREFIX}-twisted>=1.3.*:../../net/py-twisted
+DEPENDS+=	${PYPKGPREFIX}-twisted>=1.3:../../net/py-twisted
 DEPENDS+=	par2>=0.4:../../archivers/par2
 DEPENDS+=	unrar>=3.5.4:../../archivers/unrar
 
