@@ -3,6 +3,7 @@
 
 DISTNAME=		audacious-plugins-1.4.0-dr4
 PKGNAME=		${DISTNAME:S/-dr4//}
+PKGREVISION=		1
 CATEGORIES=		audio
 MASTER_SITES=		http://distfiles.atheme.org/
 EXTRACT_SUFX=		.tbz2

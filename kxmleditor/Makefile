@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	kxmleditor-1.0.0
+PKGREVISION=	1
 CATEGORIES=	textproc kde
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=kxmleditor/}
 

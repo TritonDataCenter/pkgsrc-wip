@@ -1,7 +1,7 @@
 # $NetBSD$
 
 DISTNAME=	bakery-2.4.1
-PKGREVISION=	1
+PKGREVISION=	2
 CATEGORIES=	devel gnome
 MASTER_SITES=	${MASTER_SITE_GNOME:=sources/bakery/2.4/}
 

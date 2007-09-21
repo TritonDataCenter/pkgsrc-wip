@@ -1,6 +1,7 @@
 # $NetBSD$
 
 DISTNAME=		avahi-0.6.16
+PKGREVISION=		1
 CATEGORIES=		net
 MASTER_SITES=		http://avahi.org/download/
 

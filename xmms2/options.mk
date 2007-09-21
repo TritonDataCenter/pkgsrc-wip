@@ -21,7 +21,7 @@ PLIST_SUBST+=		FLAC="@comment "
 .endif
 
 .if !empty(PKG_OPTIONS:Mgnomevfs)
-.  include "../../sysutils/gnome-vfs2/buildlink3.mk"
+.  include "../../sysutils/gnome-vfs/buildlink3.mk"
 PLIST_SUBST+=		GNOMEVFS=""
 .else
 PLIST_SUBST+=		GNOMEVFS="@comment "

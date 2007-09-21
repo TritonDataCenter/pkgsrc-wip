@@ -4,6 +4,7 @@
 
 DISTNAME=	xfce4-${XFCE4_VERSION}
 DISTFILES=	# empty
+PKGREVISION=	1
 CATEGORIES=	meta-pkgs
 COMMENT=	Xfce
 

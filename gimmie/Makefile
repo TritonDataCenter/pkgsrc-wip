@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	gimmie-0.2.1
+PKGREVISION=	1
 CATEGORIES=	sysutils
 MASTER_SITES=	http://www.beatniksoftware.com/gimmie/releases/
 

@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	heliodor-0.2.1
+PKGREVISION=	1
 
 .include "../../wip/beryl/Makefile.inc"
 
@@ -12,7 +13,7 @@ USE_LIBTOOL=	yes
 
 .include "../../sysutils/desktop-file-utils/desktopdb.mk"
 
-.include "../../devel/GConf2/buildlink3.mk"
+.include "../../devel/GConf/buildlink3.mk"
 .include "../../devel/libwnck/buildlink3.mk"
 .include "../../wip/beryl-core/buildlink3.mk"
 .include "../../wm/metacity/buildlink3.mk"

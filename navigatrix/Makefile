@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	navigatrix-0.5
+PKGREVISION=	1
 CATEGORIES=	misc
 MASTER_SITES=	http://www1.maraudingpirates.org:8080/navigatrix/src/
 

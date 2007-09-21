@@ -2,6 +2,7 @@
 #
 
 DISTNAME=		groku-0.1
+PKGREVISION=		1
 CATEGORIES=		audio
 MASTER_SITES=		http://digitalssg.net/debian/
 
@@ -22,8 +23,8 @@ pre-configure:
 	${CP} files/INSTALL ${WRKSRC}/INSTALL
 
 .include "../../devel/libgnomeui/buildlink3.mk"
-.include "../../devel/GConf2/buildlink3.mk"
-.include "../../devel/libglade2/buildlink3.mk"
+.include "../../devel/GConf/buildlink3.mk"
+.include "../../devel/libglade/buildlink3.mk"
 .include "../../x11/Xfixes/buildlink3.mk"
 
 .include "../../mk/bsd.pkg.mk"

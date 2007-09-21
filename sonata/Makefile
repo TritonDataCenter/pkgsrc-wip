@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	sonata-1.2.3
+PKGREVISION=	1
 CATEGORIES=	audio
 MASTER_SITES=	http://download.berlios.de/sonata/
 EXTRACT_SUFX=	.tar.bz2

@@ -2,6 +2,7 @@
 #
 
 DISTNAME=		libgnome-java-2.10.1
+PKGREVISION=		1
 CATEGORIES=		devel
 MASTER_SITES=		${MASTER_SITE_GNOME:=sources/libgnome-java/2.10/}
 EXTRACT_SUFX=		.tar.bz2

@@ -4,6 +4,7 @@
 
 DISTNAME=	xfdesktop-${XFCE4_VERSION}
 PKGNAME=	xfce4-desktop-${XFCE4_VERSION}
+PKGREVISION=	1
 CATEGORIES=	x11
 COMMENT=	Xfce desktop background manager
 

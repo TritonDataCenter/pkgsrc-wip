@@ -2,6 +2,7 @@
 #
 
 PKGNAME=		multisync-palm-0.82
+PKGREVISION=		1
 
 COMMENT=		Module for synchronization with Palm devices
 

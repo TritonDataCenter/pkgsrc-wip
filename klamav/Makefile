@@ -2,6 +2,7 @@
 
 DISTNAME=	klamav-0.37-source
 PKGNAME=	${DISTNAME:S/-source//}
+PKGREVISION=	1
 CATEGORIES=	security kde
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=klamav/}
 

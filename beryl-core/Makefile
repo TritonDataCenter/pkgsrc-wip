@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	beryl-core-0.2.1
+PKGREVISION=	1
 CATEGORIES=	wm
 MASTER_SITES=	http://releases.beryl-project.org/0.2.1/
 EXTRACT_SUFX=	.tar.bz2
@@ -32,7 +33,7 @@ PKG_SUPPORTED_OPTIONS=	gnome
 .if !empty(PKG_OPTIONS:Mgnome)
 PLIST_SUBST+=	GNOME=""
 
-.include "../../devel/GConf2/buildlink3.mk"
+.include "../../devel/GConf/buildlink3.mk"
 .else
 PLIST_SUBST+=	GNOME="@comment "
 

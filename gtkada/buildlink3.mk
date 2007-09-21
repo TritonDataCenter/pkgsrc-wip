@@ -16,7 +16,7 @@ BUILDLINK_PKGSRCDIR.GtkAda?=	../../wip/gtkada
 .endif	# GTKADA_BUILDLINK3_MK
 
 .include "../../x11/gtk2/buildlink3.mk"
-.include "../../devel/libglade2/buildlink3.mk"
+.include "../../devel/libglade/buildlink3.mk"
 .include "../../devel/libgnomeui/buildlink3.mk"
 .include "../../mk/x11.buildlink3.mk"
 

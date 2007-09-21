@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	ecore-0.9.9.037
-PKGREVISION=	1
+PKGREVISION=	2
 CATEGORIES=	x11
 MASTER_SITES=	http://enlightenment.freedesktop.org/files/
 EXTRACT_SUFX=	.tar.gz

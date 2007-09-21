@@ -2,6 +2,7 @@
 
 DISTNAME=		linuxdcpp
 PKGNAME=		linuxdcpp-${LDCPP_VERSION}
+PKGREVISION=		1
 CATEGORIES=		net x11
 MASTER_SITES=		http://linuxdcpp.berlios.de/
 
@@ -52,7 +53,7 @@ do-install:
 .include "../../archivers/bzip2/buildlink3.mk"
 .include "../../devel/zlib/buildlink3.mk"
 .include "../../x11/gtk2/buildlink3.mk"
-.include "../../devel/libglade2/buildlink3.mk"
+.include "../../devel/libglade/buildlink3.mk"
 .include "../../security/openssl/buildlink3.mk"
 .include "../../mk/pthread.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

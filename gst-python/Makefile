@@ -3,6 +3,7 @@
 
 DISTNAME=		gst-python-0.10.4
 PKGNAME=		${PYPKGPREFIX}-${DISTNAME}
+PKGREVISION=		1
 CATEGORIES=		audio devel
 MASTER_SITES=		http://gstreamer.freedesktop.org/src/gst-python/
 EXTRACT_SUFX=		.tar.bz2

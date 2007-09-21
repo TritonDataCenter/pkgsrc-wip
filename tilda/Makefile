@@ -2,6 +2,7 @@
 #
 
 DISTNAME=		tilda-0.09.2
+PKGREVISION=		1
 CATEGORIES=		wip sysutils
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=tilda/}
 

@@ -3,6 +3,7 @@
 
 DISTNAME=		rekall-2.2.0-beta0
 PKGNAME=		${DISTNAME:S/-beta0//}
+PKGREVISION=		1
 CATEGORIES=		databases
 MASTER_SITES=		http://www.rekallrevealed.org/packages/
 EXTRACT_SUFX=		.tgz

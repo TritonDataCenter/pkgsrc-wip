@@ -3,6 +3,7 @@
 
 PKGNAME=		workrave-1.8.4
 DISTNAME=		${PKGNAME}-2
+PKGREVISION=		1
 CATEGORIES=		x11
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=workrave/}
 
@@ -52,10 +53,10 @@ CONF_FILES+=	${EGDIR}/sound/events/workrave.soundlist \
 .include "../../x11/gtk2/buildlink3.mk"
 .include "../../x11/gtkmm/buildlink3.mk"
 .include "../../devel/glibmm/buildlink3.mk"
-.include "../../devel/libsigc++2/buildlink3.mk"
+.include "../../devel/libsigc++/buildlink3.mk"
 
 # GConf support
-.include "../../devel/GConf2/buildlink3.mk"
+.include "../../devel/GConf/buildlink3.mk"
 
 # GNOME support
 #.include "../../devel/libgnomeui/buildlink3.mk"

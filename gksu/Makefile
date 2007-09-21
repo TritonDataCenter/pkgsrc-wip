@@ -19,10 +19,10 @@ USE_X11=YES
 CONFIGURE_ENV+=		GCONF_SCHEMA_FILE_DIR="${PREFIX}/share/gconf/schemas/"
 MAKE_ENV+=		GCONF_SCHEMA_FILE_DIR="${PREFIX}/share/gconf/schemas/"
 
-GCONF2_SCHEMAS+=	gksu.schemas
+GCONF_SCHEMAS+=	gksu.schemas
 
 .include "../../mk/x11.buildlink3.mk"
-.include "../../devel/GConf2/schemas.mk"
+.include "../../devel/GConf/schemas.mk"
 .include "../../x11/gtk2/buildlink3.mk"
 .include "../../wip/libgksu/buildlink3.mk"
 .include "../../security/gnome-keyring/buildlink3.mk"

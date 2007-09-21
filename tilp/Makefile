@@ -3,6 +3,7 @@
 
 DISTNAME=		tilp
 PKGNAME=		tilp-6.67-beta3
+PKGREVISION=		1
 CATEGORIES=		math
 MASTER_SITES=		http://www.ticalc.org/pub/unix/
 
@@ -24,5 +25,5 @@ USE_TOOLS+=		gmake
 .include "../../x11/gtk2/buildlink3.mk"
 .include "../../textproc/libxml2/buildlink3.mk"
 .include "../../devel/pango/buildlink3.mk"
-.include "../../devel/libglade2/buildlink3.mk"
+.include "../../devel/libglade/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

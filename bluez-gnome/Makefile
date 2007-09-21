@@ -2,6 +2,7 @@
 #
 
 DISTNAME=		bluez-gnome-0.4
+PKGREVISION=		1
 CATEGORIES=		comms
 MASTER_SITES=		http://bluez.sourceforge.net/download/
 
@@ -16,7 +17,7 @@ OWN_DIRS+=		${PKG_SYSCONFDIR}/xdg
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 
-.include "../../devel/GConf2/buildlink3.mk"
+.include "../../devel/GConf/buildlink3.mk"
 .include "../../sysutils/dbus-glib/buildlink3.mk"
 .include "../../wip/bluez-libs/buildlink3.mk"
 .include "../../sysutils/libnotify/buildlink3.mk"

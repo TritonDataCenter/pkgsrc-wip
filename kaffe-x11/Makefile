@@ -4,6 +4,7 @@
 .include "../../wip/kaffe/Makefile.common"
 
 PKGNAME=    ${DISTNAME:S/kaffe/kaffe-x11/}
+PKGREVISION=	1
 
 COMMENT+=   (AWT support through X11)
 
@@ -32,7 +33,7 @@ PRINT_PLIST_AWK+= /^@dirrm/ { print "@comment in kaffe: " $$0; next; }
 
 .include "../../devel/glib2/buildlink3.mk"
 .include "../../x11/gtk2/buildlink3.mk"
-.include "../../graphics/libart2/buildlink3.mk"
+.include "../../graphics/libart/buildlink3.mk"
 .include "../../graphics/jpeg/buildlink3.mk"
 .include "../../graphics/libungif/buildlink3.mk"
 .include "../../graphics/png/buildlink3.mk"

@@ -1,6 +1,7 @@
 # $NetBSD$
 
 DISTNAME=	linphone-1.3.5
+PKGREVISION=	1
 CATEGORIES=	net
 MASTER_SITES=	http://simon.morlat.free.fr/download/1.3.x/source/
 

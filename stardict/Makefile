@@ -2,6 +2,7 @@
 #
 
 DISTNAME=		stardict-2.4.4
+PKGREVISION=		1
 CATEGORIES=		textproc
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=stardict/}
 EXTRACT_SUFX=		.tar.bz2
@@ -21,9 +22,9 @@ USE_LANGUAGES=		c c++
 CONFIGURE_ENV+=		GCONF_SCHEMA_FILE_DIR="${PREFIX}/share/gconf/schemas/"
 MAKE_ENV+=		GCONF_SCHEMA_FILE_DIR="${PREFIX}/share/gconf/schemas/"
 
-GCONF2_SCHEMAS+=	stardict.schemas
+GCONF_SCHEMAS+=	stardict.schemas
 
-.include "../../devel/GConf2/schemas.mk"
+.include "../../devel/GConf/schemas.mk"
 .include "../../devel/libgnomeui/buildlink3.mk"
 .include "../../textproc/scrollkeeper/omf.mk"
 .include "../../mk/x11.buildlink3.mk"

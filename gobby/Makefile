@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		gobby-0.3.0
-PKGREVISION=		1
+PKGREVISION=		2
 CATEGORIES=		editors net
 MASTER_SITES=		http://releases.0x539.de/gobby/
 

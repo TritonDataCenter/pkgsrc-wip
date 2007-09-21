@@ -15,13 +15,13 @@ USE_LIBTOOL=		YES
 USE_PKGLOCALEDIR=	YES
 USE_TOOLS+=		intltool
 
-GCONF2_SCHEMAS=		muine.schemas
+GCONF_SCHEMAS=		muine.schemas
 
 .include "../../audio/flac/buildlink3.mk"
 .include "../../audio/libid3tag/buildlink3.mk"
 .include "../../audio/libvorbis/buildlink3.mk"
 .include "../../databases/gdbm/buildlink3.mk"
-.include "../../devel/GConf2/schemas.mk"
+.include "../../devel/GConf/schemas.mk"
 .include "../../devel/gettext-lib/buildlink3.mk"
 .include "../../lang/mono/buildlink3.mk"
 .include "../../multimedia/libogg/buildlink3.mk"

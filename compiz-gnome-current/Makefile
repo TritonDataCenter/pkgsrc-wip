@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	compiz-0.5.0
-PKGREVISION=	3
+PKGREVISION=	4
 CATEGORIES=	wm x11
 MASTER_SITES=	http://xorg.freedesktop.org/releases/individual/app/
 EXTRACT_SUFX=	.tar.bz2
@@ -36,8 +36,8 @@ CONFIGURE_ARGS+= --enable-gnome
 CONFIGURE_ARGS+= --disable-inotify
 CONFIGURE_ARGS+= --enable-librsvg
 
-GCONF2_SCHEMAS+=	gwd.schemas
-GCONF2_SCHEMAS+=	compiz.schemas
+GCONF_SCHEMAS+=	gwd.schemas
+GCONF_SCHEMAS+=	compiz.schemas
 PKGCONFIG_OVERRIDE+=	compiz.pc.in
 PKGCONFIG_OVERRIDE+=	libdecoration/libdecoration.pc.in
 
@@ -45,7 +45,7 @@ PKGCONFIG_OVERRIDE+=	libdecoration/libdecoration.pc.in
 # machine to its knees!  Imagine with KDE ... Muauahahaaha. ;)
 
 
-.include "../../devel/GConf2/schemas.mk"
+.include "../../devel/GConf/schemas.mk"
 .include "../../sysutils/desktop-file-utils/desktopdb.mk"
 
 .include "../../x11/libXdamage/buildlink3.mk"

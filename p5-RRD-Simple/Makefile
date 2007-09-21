@@ -2,6 +2,7 @@
 
 DISTNAME=	RRD-Simple-1.40
 PKGNAME=	p5-${DISTNAME}
+PKGREVISION=	1
 CATEGORIES=	perl5 databases
 MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=../by-authors/id/N/NI/NICOLAW/}
 MAINTAINER=	uli@habel.name

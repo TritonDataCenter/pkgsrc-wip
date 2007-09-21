@@ -16,7 +16,7 @@ BUILDLINK_PKGSRCDIR.libobby?=	../../wip/libobby
 .endif	# LIBOBBY_BUILDLINK3_MK
 
 .include "../../wip/net6/buildlink3.mk"
-.include "../../devel/libsigc++2/buildlink3.mk"
+.include "../../devel/libsigc++/buildlink3.mk"
 .include "../../devel/gmp/buildlink3.mk"
 
 BUILDLINK_DEPTH:=	${BUILDLINK_DEPTH:S/+$//}

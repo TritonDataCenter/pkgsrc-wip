@@ -2,13 +2,13 @@
 #
 
 DISTNAME=	beryl-plugins-${BERYL_VERSION}
+PKGREVISION=	2
 CATEGORIES=	wm
 
 COMMENT=	Supported plugins for the Beryl compositor
 
 .include "../../wip/beryl/Makefile.inc"
 
-PKGREVISION=	1
 PKG_DESTDIR_SUPPORT=	user-destdir
 
 USE_PKGLOCALEDIR=	yes

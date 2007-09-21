@@ -59,5 +59,5 @@ post-configure:
 do-install:
 	cd ${WRKSRC} && sh ./Install.sh
 
-.include "../../devel/GConf2/schemas.mk"
+.include "../../devel/GConf/schemas.mk"
 .include "../../mk/bsd.pkg.mk"

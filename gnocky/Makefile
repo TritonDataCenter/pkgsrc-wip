@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		gnocky-0.0.3
-PKGREVISION=		1
+PKGREVISION=		2
 CATEGORIES=		comms
 MASTER_SITES=		http://www.gnokii.org/download/gnocky/
 
@@ -20,6 +20,6 @@ USE_TOOLS+=		gmake
 .include "../../devel/glib2/buildlink3.mk"
 .include "../../devel/libgnome/buildlink3.mk"
 .include "../../x11/gtk2/buildlink3.mk"
-.include "../../devel/libglade2/buildlink3.mk"
+.include "../../devel/libglade/buildlink3.mk"
 .include "../../wip/gnokii/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

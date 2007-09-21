@@ -6,6 +6,7 @@ XFCE4_VERSION=	0.2.6
 
 DISTNAME=	Terminal-${XFCE4_VERSION}
 PKGNAME=	xfce4-terminal-${XFCE4_VERSION}
+PKGREVISION=	1
 CATEGORIES=	x11
 COMMENT=	Xfce terminal emulator
 

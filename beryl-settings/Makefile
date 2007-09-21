@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	beryl-settings-${BERYL_VERSION}
-PKGREVISION=	2
+PKGREVISION=	3
 CATEGORIES=	wm
 
 COMMENT=	Beryl settings bindings

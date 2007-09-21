@@ -2,6 +2,7 @@
 #
 
 DISTNAME=		LabPlot-1.3.0
+PKGREVISION=		1
 CATEGORIES=		kde graphics math
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=labplot/}
 
