@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	gpsbabel-1.3.3
+DISTNAME=	gpsbabel-1.3.4
 CATEGORIES=	geography
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=gpsbabel/}
 
