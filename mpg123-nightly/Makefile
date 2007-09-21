@@ -1,7 +1,6 @@
 # $NetBSD$
 
 DISTNAME=	mpg123-${MPG123_VERSION}
-PKGREVISION=	1
 CATEGORIES=	audio
 
 MAINTAINER=	blair.sadewitz@gmail.com

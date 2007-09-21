@@ -1,7 +1,6 @@
 # $NetBSD$
 
 DISTNAME=		gtk-gnutella-${GTK_GNUTELLA_VER}
-PKGREVISION=		9
 CATEGORIES=		net
 MASTER_SITES=		# not defined
 

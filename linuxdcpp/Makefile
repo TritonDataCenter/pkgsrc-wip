@@ -2,7 +2,6 @@
 
 DISTNAME=		linuxdcpp
 PKGNAME=		linuxdcpp-${LDCPP_VERSION}
-PKGREVISION=		1
 CATEGORIES=		net x11
 MASTER_SITES=		http://linuxdcpp.berlios.de/
 
