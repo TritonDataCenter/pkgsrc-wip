@@ -17,7 +17,7 @@ BUILDLINK_PKGSRCDIR.mapnik?=	../../wip/mapnik
 .endif	# MAPNIK_BUILDLINK3_MK
 
 .include "../../devel/boost-headers/buildlink3.mk"
-#.include "../../devel/libltdl/buildlink3.mk"
+.include "../../devel/libltdl/buildlink3.mk"
 #.include "../../devel/zlib/buildlink3.mk"
 #.include "../../graphics/freetype2/buildlink3.mk"
 #.include "../../graphics/jpeg/buildlink3.mk"
