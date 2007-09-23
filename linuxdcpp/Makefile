@@ -23,10 +23,6 @@ PTHREAD_OPTS+=		native
 NO_CONFIGURE=		yes
 BUILD_DEPENDS+=		scons>=0.96:../../devel/scons
 
-# Don't mix use of C99 uint* types with old u_int* types.
-CFLAGS+=		-Du_int8_t=uint8_t -Du_int32_t=uint32_t
-CFLAGS+=		-Du_int64_t=uint64_t 
-
 .include "../../mk/bsd.prefs.mk"
 LDCPP_VERSION!=		${DATE} +%Y%m%d
 LDFLAGS+=		${X11_LDFLAGS}
