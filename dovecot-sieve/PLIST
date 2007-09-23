@@ -1,0 +1,4 @@
+@comment $NetBSD$
+lib/dovecot/lda/lib90_cmusieve_plugin.la
+libexec/dovecot/sievec
+libexec/dovecot/sieved
