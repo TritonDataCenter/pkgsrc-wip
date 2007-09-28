@@ -1,6 +1,6 @@
 $NetBSD$
 
---- pixman/Makefile.in.orig	2007-09-21 16:15:50.000000000 -0400
+--- pixman/Makefile.in.orig	2007-08-17 17:23:20.000000000 -0400
 +++ pixman/Makefile.in
 @@ -33,10 +33,7 @@ PRE_UNINSTALL = :
  POST_UNINSTALL = :

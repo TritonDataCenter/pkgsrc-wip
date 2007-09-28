@@ -2,7 +2,7 @@ $NetBSD$
 
 See patch-ab.
 
---- pixman/pixman-edge-accessors.c.orig	2007-09-21 16:12:23.000000000 -0400
+--- pixman/pixman-edge-accessors.c.orig	2007-09-28 01:11:01.000000000 -0400
 +++ pixman/pixman-edge-accessors.c
 @@ -0,0 +1,4 @@
 +
