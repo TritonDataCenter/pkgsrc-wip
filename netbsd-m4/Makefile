@@ -20,4 +20,5 @@ do-install:
 	${INSTALL_MAN} ${WRKSRC}/nbm4.1 ${PREFIX}/${PKGMANDIR}/man1
 	${INSTALL_PROGRAM} ${WRKSRC}/m4 ${PREFIX}/bin/nbm4
 
+#.include "../../pkgtools/libnbcompat/inplace.mk"
 .include "../../mk/bsd.pkg.mk"
