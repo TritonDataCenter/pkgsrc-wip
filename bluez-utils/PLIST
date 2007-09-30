@@ -9,7 +9,7 @@ bin/rfcomm
 bin/sdptool
 etc/bluetooth/hcid.conf
 etc/bluetooth/rfcomm.conf
-etc/dbus-1/system.d/bluez-hcid.conf
+etc/dbus-1/system.d/bluetooth.conf
 man/man1/ciptool.1
 man/man1/dund.1
 man/man1/hcitool.1

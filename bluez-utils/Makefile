@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		bluez-utils-3.5
+DISTNAME=		bluez-utils-3.19
 CATEGORIES=		net
 MASTER_SITES=		http://bluez.sourceforge.net/download/
 
