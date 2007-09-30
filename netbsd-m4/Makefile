@@ -18,7 +18,7 @@ MAKE_ENV+=	MKCATPAGES=no
 post-patch:
 	sed -e 's|m4|nbm4|g' ${WRKSRC}/m4.1 > ${WRKSRC}/nbm4.1
 
-do-build: pre-build
+do-build:
 	cd ${WRKSRC} && env ${MAKE_ENV} \
 	    ${MAKE_PROGRAM} ${BUILD_MAKE_FLAGS} \
 	    -f ${MAKE_FILE} ${BUILD_TARGET} LDADD=${LIBS:Q}
