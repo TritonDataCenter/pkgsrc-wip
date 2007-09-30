@@ -1,9 +1,0 @@
-===========================================================================
-$NetBSD$
-
-Be sure to modify the XF86Config to specify the PCI bus for your
-video card.
-
-    ${INITATIDIR}/XF86Config.initati
-
-===========================================================================
