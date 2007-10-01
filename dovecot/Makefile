@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=		dovecot-1.1.beta1
+DISTNAME=		dovecot-1.1.beta2
 PKGNAME=		${DISTNAME:S/.beta/beta/}
 CATEGORIES=		mail
 MASTER_SITES=		http://www.dovecot.org/releases/1.1/beta/
@@ -15,7 +15,6 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 USE_LIBTOOL=		yes
 GNU_CONFIGURE=		yes
 USE_TOOLS+=		pkg-config
-USE_TOOLS+=		gmake
 USE_TOOLS+=		rpcgen
 
 CONFIGURE_ARGS+=	--sysconfdir=${PKG_SYSCONFDIR:Q}

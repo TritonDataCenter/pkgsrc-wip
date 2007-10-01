@@ -14,7 +14,7 @@ BUILDLINK_PACKAGES+=			dovecot
 BUILDLINK_ORDER:=			${BUILDLINK_ORDER} ${BUILDLINK_DEPTH}dovecot
 
 .if !empty(OPENLDAP_BUILDLINK3_MK:M+)
-BUILDLINK_API_DEPENDS.dovecot+=		dovecot>1.0.99
+BUILDLINK_API_DEPENDS.dovecot+=		dovecot>=1.1beta2
 BUILDLINK_PKGSRCDIR.dovecot?=		../../wip/dovecot
 .endif
 
