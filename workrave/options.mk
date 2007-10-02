@@ -62,7 +62,7 @@ CONFIGURE_ARGS+=	--disable-gconf
 ###
 .if !empty(PKG_OPTIONS:Mkde)
 CONFIGURE_ARGS+=	--enable-kde
-.  include "../../devel/kdevelop/buildlink3.mk"
+.  include "../../devel/kdesdk3/buildlink3.mk"
 .else
 CONFIGURE_ARGS+=	--disable-kde
 #  must explicitly include glib if no KDE for backends/src/Configurator.cc
