@@ -15,7 +15,7 @@ CONFLICTS+=	mpg123{,nas,esound}-[0-9]*
 PKG_DESTDIR_SUPPORT=	user-destdir
 
 GNU_CONFIGURE=	yes
-USE_LIBTOOL=	yes 		# XXX just barely!
+USE_LIBTOOL=	yes 		# XXX just barely! ;)
 USE_TOOLS+=	pkg-config
 USE_TOOLS+=	automake
 

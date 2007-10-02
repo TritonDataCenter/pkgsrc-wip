@@ -14,8 +14,8 @@ PKG_OPTIONS_SET.default=	${PKG_OPTIONS_SET.audio:@.o.@mpg123-default-${.o.}@}
 #
 # !!! REDUCTIO AD ABSURDUM WARNING !!!
 #
-# XXX This can result in a duplicate option; this build system should be fixed
-# to make sense!  As of now, we must provide defaults for every scenario.
+# XXX This can result in a duplicate option; this build system should be fixed.
+# As of now, we must provide defaults for every scenario.
 #
 PKG_OPTIONS_NONEMPTY_SETS=	audio default
 
