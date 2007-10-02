@@ -1,10 +1,10 @@
 # $NetBSD$
 #
 
-DISTNAME=	libhdhomerun_20070620
+DISTNAME=	libhdhomerun_20070914
 PKGNAME=	${DISTNAME:S/libhdhomerun_/hdhomerun_config-/}
 CATEGORIES=	multimedia
-MASTER_SITES=	http://www.silicondust.com/hdhomerun/
+MASTER_SITES=	http://download.silicondust.com/hdhomerun/
 EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	jakllsch@kollasch.net
@@ -18,7 +18,7 @@ USE_TOOLS+=	gmake
 
 CFLAGS.SunOS+= -lsocket
 
-INSTALLATION_DIRS=	bin
+INSTALLATION_DIRS=      bin
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/hdhomerun_config ${PREFIX}/bin/hdhomerun_config
