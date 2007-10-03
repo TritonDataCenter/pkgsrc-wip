@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	aria2-0.11.3
+PKGREVISION=	1
 CATEGORIES=	net
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=aria2/}
 EXTRACT_SUFX=	.tar.bz2
@@ -25,10 +26,6 @@ TEST_TARGET=		check
 .include "options.mk"
 
 .include "../../mk/compiler.mk"
-
-.if !empty(CC_VERSION:Mgcc-[4-9]*)
-CFLAGS+=	-fvisibility-inlines-hidden
-.endif
 
 .if !empty(PKGSRC_RUN_TEST:M[Yy][Ee][Ss])
 BUILDLINK_DEPMETHOD.cppunit?=	build
