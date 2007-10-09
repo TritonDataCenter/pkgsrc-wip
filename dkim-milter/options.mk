@@ -43,6 +43,7 @@ arlib-install:
 	cd ${WRKSRC}/obj.`uname -s`.`uname -r`.`uname -m`; \
 	${INSTALL_LIB} libar/libar.a ${PREFIX}/lib;
 	${INSTALL_MAN} ${WRKSRC}/libar/ar.3 ${PREFIX}/${PKGMANDIR}/man3
+INSTALLATION_DIRS+=	${PKGMANDIR}/man3
 .else
 PLIST_SUBST+=		WITH_ARLIB='@comment '
 SUBST_SED.libs+=	-e 's|@RESOLVLIB@|resolv bind|g'
