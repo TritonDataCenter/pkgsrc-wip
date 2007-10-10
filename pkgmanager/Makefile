@@ -24,6 +24,9 @@ CLISP=		${PREFIX}/bin/clisp
 PKGMGR_SRC=	${WRKDIR}/pkgmanager-${PKGMGR_VERSION}/src
 PKGMGR_LIBDIR=	${PREFIX}/lib/pkgmanager
 PKGMGR_BINDIR=	${PREFIX}/bin
+
+INSTALLATION_DIRS+=	${PKGMGR_BINDIR} ${PKGMGR_LIBDIR} ${PKGMANDIR}/man8
+
 SUBST_CLASSES+=		clocc
 SUBST_STAGE.clocc=	post-patch
 SUBST_FILES.clocc=	clocc/clocc.lisp
