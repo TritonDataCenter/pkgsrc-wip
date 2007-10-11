@@ -16,7 +16,7 @@ $NetBSD$
  #define LABEL_VALUES
  #define OUTPUT_EXT ".nccout"
 -#define NOGNU "/usr/include/nognu"
-+#define NOGNU "@PREFIX@/include"
++#define NOGNU "@PREFIX@/share/ncc/nognu"
  #define NCC_INFILE_KEY "ncc-key"
  #define FAKE_VARIABLE_ARRAYS
  #define NCC_ISOC99

@@ -5,7 +5,6 @@ bin/nccc++
 bin/nccld
 bin/nccnav
 bin/nccnavi
-include/nognu
 man/man1/ncc.1
 share/doc/ncc/KEYS.txt
 share/doc/ncc/README

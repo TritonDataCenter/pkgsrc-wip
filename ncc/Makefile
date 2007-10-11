@@ -36,7 +36,6 @@ do-install:
 	${INSTALL_DATA} ${WRKSRC}/doc/TROUBLES ${PREFIX}/share/doc/ncc
 	${INSTALL_DATA} ${WRKSRC}/doc/hacking.* ${PREFIX}/share/doc/ncc
 	${INSTALL_DATA} ${WRKSRC}/README ${PREFIX}/share/doc/ncc
-	${INSTALL_DATA} ${WRKSRC}/doc/nognu ${PREFIX}/include
 
 .include "../../devel/ncurses/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
