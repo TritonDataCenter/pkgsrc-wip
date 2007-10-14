@@ -1,0 +1,4 @@
+@comment $NetBSD$
+bin/awesome
+man/man1/awesome.1
+@dirrm share/examples/awesome
