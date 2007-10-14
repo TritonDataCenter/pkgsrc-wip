@@ -3,15 +3,12 @@
 
 DISTNAME=	awesome-1.3
 CATEGORIES=	x11
+PKGREVISION=	1
 MASTER_SITES=	http://awesome.naquadah.org/download/
 
 MAINTAINER=	adam.hoka@gmail.com
 HOMEPAGE=	http://awesome.naquadah.org/
 COMMENT=	awesome is a tiling window manager
-
-do-install:
-	${INSTALL_PROGRAM} ${WRKSRC}/awesome ${PREFIX}/bin
-	${INSTALL_MAN} ${WRKSRC}/awesome.1 ${PREFIX}/${PKGMANDIR}/man1
 
 EGDIR=          ${PREFIX}/share/examples/awesome/
 
