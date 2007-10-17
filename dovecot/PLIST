@@ -160,6 +160,7 @@ include/dovecot/src/lib/ioloop-iolist.h
 include/dovecot/src/lib/ioloop-notify-fd.h
 include/dovecot/src/lib/ioloop.h
 include/dovecot/src/lib/iostream-internal.h
+include/dovecot/src/lib/istream-crlf.h
 include/dovecot/src/lib/istream-internal.h
 include/dovecot/src/lib/istream-seekable.h
 include/dovecot/src/lib/istream-tee.h
@@ -177,7 +178,6 @@ include/dovecot/src/lib/module-dir.h
 include/dovecot/src/lib/mountpoint.h
 include/dovecot/src/lib/network.h
 include/dovecot/src/lib/nfs-workarounds.h
-include/dovecot/src/lib/ostream-crlf.h
 include/dovecot/src/lib/ostream-internal.h
 include/dovecot/src/lib/ostream.h
 include/dovecot/src/lib/primes.h
