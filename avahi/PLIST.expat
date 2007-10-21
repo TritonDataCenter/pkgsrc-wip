@@ -1,0 +1,4 @@
+@comment $NetBSD$
+sbin/avahi-daemon
+sbin/avahi-dnsconfd
+share/avahi/avahi-service.dtd
