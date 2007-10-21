@@ -9,8 +9,10 @@ MAINTAINER=	cheusov@tut.by
 HOMEPAGE=	http://sourceforge.net/projects/runawk
 COMMENT=	Wrapper that impelements modules for AWK
 
-WRKSRC=		${WRKDIR}/${DISTNAME}
-USE_LANGUAGES=	c
+PKG_DESTDIR_SUPPORT=	user-destdir
+
+WRKSRC=			${WRKDIR}/${DISTNAME}
+USE_LANGUAGES=		c
 
 PKGDOCDIR=		${PREFIX}/share/doc/${PKGBASE}
 INSTALLATION_DIRS+=	${PKGDOCDIR} bin
