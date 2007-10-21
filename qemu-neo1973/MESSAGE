@@ -2,9 +2,9 @@
 $NetBSD$
 fetch u-boot, kernel and filesystem by
 
-cd ${PREFIX}/emul/neo1973; openmoko/download.sh
+cd ${NEO1973_PREFIX}/libexec; openmoko/download.sh
 
 flash these by
 
-cd ${PREFIX}/emul/neo1973; openmoko/flash.sh
+cd ${NEO1973_PREFIX}/libexec; openmoko/flash.sh
 ===========================================================================

@@ -16,7 +16,7 @@ $NetBSD$
  
  $(FLASHOVERLAY): $(FLASHIMG)
 -	../qemu-img create -b $^ -f qcow2 $@
-+	qemu-img create -b $^ -f qcow2 $@
++	../../bin/qemu-neo1973-img create -b $^ -f qcow2 $@
  
  clean:
  	rm -rf $(SPLASH) $(SPLASHIMG) $(FLASHIMG) $(FLASHOVERLAY) \
