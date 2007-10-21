@@ -11,7 +11,6 @@ COMMENT=	Wrapper that impelements modules for AWK
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
-WRKSRC=			${WRKDIR}/${DISTNAME}
 USE_LANGUAGES=		c
 
 PKGDOCDIR=		${PREFIX}/share/doc/${PKGBASE}
