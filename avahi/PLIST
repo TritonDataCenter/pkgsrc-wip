@@ -28,9 +28,6 @@ man/man5/avahi.service.5
 man/man8/avahi-daemon.8
 man/man8/avahi-dnsconfd.8
 man/man8/avahi-dnsconfd.action.8
-sbin/avahi-daemon
-sbin/avahi-dnsconfd
-share/avahi/avahi-service.dtd
 share/avahi/service-types
 share/doc/avahi/HACKING
 share/doc/avahi/INSTALL
