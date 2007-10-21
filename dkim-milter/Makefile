@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	dkim-milter-2.3.1
+DISTNAME=	dkim-milter-2.3.2
 #PKGREVISION=	1
 CATEGORIES=	mail
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=dkim-milter/}
@@ -70,7 +70,7 @@ do-install: arlib-install stats-install
 	${INSTALL_DATA} ${WRKSRC}/draft-ietf-dkim-overview-05.txt ${PREFIX}/share/doc/dkim-milter
 	${INSTALL_DATA} ${WRKSRC}/draft-ietf-dkim-ssp-01.txt ${PREFIX}/share/doc/dkim-milter
 	${INSTALL_DATA} ${WRKSRC}/draft-ietf-dkim-ssp-requirements-05.txt ${PREFIX}/share/doc/dkim-milter
-	${INSTALL_DATA} ${WRKSRC}/draft-kucherawy-sender-auth-header-07.txt ${PREFIX}/share/doc/dkim-milter
+	${INSTALL_DATA} ${WRKSRC}/draft-kucherawy-sender-auth-header-08.txt ${PREFIX}/share/doc/dkim-milter
 	${INSTALL_DATA} ${WRKSRC}/rfc4686.txt ${PREFIX}/share/doc/dkim-milter
 	${INSTALL_DATA} ${WRKSRC}/rfc4871.txt ${PREFIX}/share/doc/dkim-milter
 	${INSTALL_DATA} ${WRKSRC}/dkim-filter/dkim-filter.conf.sample ${PREFIX}/share/examples/dkim-milter/dkim-milter.conf.sample
