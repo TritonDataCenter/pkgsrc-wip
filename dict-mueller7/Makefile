@@ -23,7 +23,7 @@ BUILD_DEPENDS+= coreutils-[0-9]*:../../sysutils/coreutils
 
 WRKSRC=		${WRKDIR}/mueller7/usr/local/share/dict
 
-USE_TOOLS+=	gsed perl tar
+USE_TOOLS+=	gsed perl tar bzip2
 
 INSTALLATION_DIRS+=	share/dictd
 
