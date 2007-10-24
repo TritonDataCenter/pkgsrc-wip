@@ -1,6 +1,6 @@
 $NetBSD$
 
---- Makefile.in.orig	2007-10-02 14:10:30.000000000 +0200
+--- Makefile.in.orig	2007-10-22 03:14:01.000000000 +0200
 +++ Makefile.in
 @@ -211,7 +211,7 @@ sbindir = @sbindir@
  sharedstatedir = @sharedstatedir@
