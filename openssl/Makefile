@@ -2,7 +2,7 @@
 
 OPENSSL_SNAPSHOT?=	# empty
 OPENSSL_STABLE?=	# empty
-OPENSSL_VERS?=		0.9.8e
+OPENSSL_VERS?=		0.9.8g
 
 .if empty(OPENSSL_SNAPSHOT)
 DISTNAME=	openssl-${OPENSSL_VERS}
@@ -24,7 +24,7 @@ MASTER_SITES=	ftp://ftp.openssl.org/snapshot/
 .  endif
 .endif
 
-PKGREVISION=	1
+#PKGREVISION=	1
 SVR4_PKGNAME=	ossl
 CATEGORIES=	security
 MAINTAINER=	j+pkgsrc@salmi.ch

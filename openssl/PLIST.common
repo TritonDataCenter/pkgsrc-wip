@@ -1092,7 +1092,6 @@ man/man3/openssl_ui_compat.3
 man/man3/openssl_x509.3
 man/man5/openssl_config.5
 man/man5/openssl_x509v3_config.5
-man/man7/Modes_of_DES.7
 man/man7/des_modes.7
 share/examples/openssl/CA.pl
 share/examples/openssl/CA.sh
