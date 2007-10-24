@@ -29,7 +29,7 @@ SVN_MODULE.mpg123=      mpg123
 #
 # XXX need to convert various CPU-specific configurations from audio/mpg123
 #
-CONFIGURE_ARGS+=	--with-cpu=generic_fpu
+CONFIGURE_ARGS+=	--with-cpu=x86_dither
 CFLAGS+=		-DDONT_CATCH_SIGNALS	# XXX very-alpha code AFAIK
 
 PKGSRC_LIBLTDL=		${BUILDLINK_PREFIX.libltdl}/lib/libltdl.la
@@ -59,7 +59,7 @@ SUBST_SED.ltdl=		-e 's,\-lltdl,${PKGSRC_LIBLTDL},'
 SUBST_MESSAGE.ltdl=	Fixing libltdl brokenness.
 
 pre-configure:
-	cd ${WRKSRC} && ${SH} autogen.sh
+	cd ${WRKSRC} && autoreconf -v --install
 
 .include "options.mk"
 
