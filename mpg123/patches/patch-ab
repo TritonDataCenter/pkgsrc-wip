@@ -1,6 +1,6 @@
 $NetBSD$
 
---- src/output/oss.c.orig	2007-10-01 23:45:34.000000000 -0400
+--- src/output/oss.c.orig	2007-10-24 03:30:57.000000000 -0400
 +++ src/output/oss.c
 @@ -160,7 +160,7 @@ static int open_oss(audio_output_t *ao)
  	if(!ao) return -1;

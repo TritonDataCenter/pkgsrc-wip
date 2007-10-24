@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	mpg123-snapshot-${MPG123_VERSION}
+PKGREVISION=	1
 CATEGORIES=	local
 MASTER_SITES=	http://mpg123.orgis.org/download/
 EXTRACT_SUFX=	.tar.bz2
