@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	cyrus-imapd-2.3.9
+DISTNAME=	cyrus-imapd-2.3.10
 CATEGORIES=	mail
 MASTER_SITES=	ftp://ftp.andrew.cmu.edu/pub/cyrus-mail/ \
 		ftp://ftp.andrew.cmu.edu/pub/cyrus-mail/OLD-VERSIONS/imap/ \
@@ -120,6 +120,12 @@ PERL5_PACKLIST= \
 .include "../../lang/perl5/module.mk"
 .include "../../security/cyrus-sasl/buildlink3.mk"
 .include "../../security/openssl/buildlink3.mk"
+
+# NetBSD's libssl is built without bn/bn_const.c
+.if ${OPSYS} == "NetBSD"
+CFLAGS+=	-DOPENSSL_LACK_BN_CONST
+.endif
+
 .include "../../security/tcp_wrappers/buildlink3.mk"
 .include "../../mk/bdb.buildlink3.mk"
 
