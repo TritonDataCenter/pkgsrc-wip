@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	netbsd-awk-20070105
+DISTNAME=	netbsd-awk-20071026
 CATEGORIES=	sysutils textproc
 MASTER_SITES=	http://mova.org/~cheusov/pub/netbsd-tools/
 #${MASTER_SITE_SOURCEFORGE:=netbsd-tools/}
@@ -21,7 +21,6 @@ BUILD_TARGET=	a.out
 MAKE_ENV+=	LIBS="${LIBS}"
 
 CFLAGS+=	-I.
-CFLAGS+=	-DAWK_FOPEN_MAX=3072
 LDFLAGS+=	-lm
 
 MAKE_FLAGS+=	YHEADER=yes
