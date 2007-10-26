@@ -3,10 +3,10 @@
 
 DISTNAME=		gtypist-2.7
 CATEGORIES=		textproc
-MASTER_SITES=		ftp://ftp.gnu.org/gnu/gtypist/
+MASTER_SITES=		${MASTER_SITE_GNU:=gtypist/}
 
 MAINTAINER=		pancake@phreaker.net
-HOMEPAGE=		ftp://ftp.gnu.org/gnu/gtypist/
+HOMEPAGE=		http://www.gnu.org/software/gtypist/
 COMMENT=		Universal typing tutor
 
 USE_PKGLOCALEDIR=	yes
