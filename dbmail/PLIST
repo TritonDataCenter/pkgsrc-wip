@@ -1,4 +1,4 @@
-@comment $NetBSD: PLIST,v 1.4 2005/05/03 15:36:38 wiz Exp $
+@comment $NetBSD$
 ${MYSQL}lib/dbmail/libmysql.la
 ${PGSQL}lib/dbmail/libpgsql.la
 ${SQLITE}lib/dbmail/libsqlite.la

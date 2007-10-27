@@ -1,6 +1,6 @@
 #!@RCD_SCRIPTS_SHELL@
 #
-# $NetBSD: dbmaillmtpd.sh,v 1.1 2005/01/09 04:17:39 schmonz Exp $
+# $NetBSD$
 #
 
 # PROVIDE: dbmaillmtp mail

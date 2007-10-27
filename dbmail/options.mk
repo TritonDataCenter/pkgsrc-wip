@@ -1,4 +1,4 @@
-# $NetBSD: options.mk,v 1.4 2006/01/13 21:43:54 schmonz Exp $
+# $NetBSD$
 
 PKG_OPTIONS_VAR=	PKG_OPTIONS.dbmail
 PKG_SUPPORTED_OPTIONS=	sieve ldap

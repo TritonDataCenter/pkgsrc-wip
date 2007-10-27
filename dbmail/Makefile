@@ -1,4 +1,4 @@
-# $NetBSD: Makefile,v 1.13 2007/03/19 12:51:56 ghen Exp $
+# $NetBSD$
 #
 
 DISTNAME=		dbmail-2.2.5
