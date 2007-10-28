@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		dbmail-2.2.5
+DISTNAME=		dbmail-2.2.7
 CATEGORIES=		mail
 MASTER_SITES=		http://www.dbmail.org/download/2.2/
 
