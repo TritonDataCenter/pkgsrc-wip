@@ -34,6 +34,8 @@ share/AlephOne/Themes/Default/thumb_bc.bmp
 share/AlephOne/Themes/Default/thumb_c.bmp
 share/AlephOne/Themes/Default/thumb_t.bmp
 share/AlephOne/Themes/Default/thumb_tc.bmp
+share/doc/AlephOne/README
+@dirrm share/doc/AlephOne
 @dirrm share/AlephOne/Themes/Default
 @dirrm share/AlephOne/Themes
 @dirrm share/AlephOne/MML
