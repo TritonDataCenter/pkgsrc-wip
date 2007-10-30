@@ -1,8 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	pixman-0.9.5
-PKGREVISION=	3
+DISTNAME=	pixman-0.9.6
 CATEGORIES=	x11
 MASTER_SITES=	http://xorg.freedesktop.org/releases/individual/lib/
 EXTRACT_SUFX=	.tar.bz2
