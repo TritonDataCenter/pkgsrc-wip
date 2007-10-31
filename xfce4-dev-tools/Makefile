@@ -8,6 +8,7 @@ EXTRACT_SUFX=	.tar.bz2
 MAINTAINER=	martti@NetBSD.org
 HOMEPAGE=	http://www.xfce.org/
 COMMENT=	Xfce development tools
+LICENSE=	gnu-gpl-v2
 
 GNU_CONFIGURE=	yes
 
