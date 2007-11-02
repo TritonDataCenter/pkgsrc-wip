@@ -1,4 +1,4 @@
-$NetBSD: patch-aa,v 1.1.1.1 2003/08/31 09:37:51 cjep Exp $
+$NetBSD$
 
 --- Makefile.orig	2006-05-16 00:12:21.000000000 +0300
 +++ Makefile
