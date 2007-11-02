@@ -1,11 +1,8 @@
 @comment $NetBSD$
 bin/mpg123
+include/mpg123.h
+lib/libmpg123.la
 lib/mpg123/output_dummy.la
-${OSS}lib/mpg123/output_oss.la
-${JACK}lib/mpg123/output_jack.la
-${PORTAUDIO}lib/mpg123/output_portaudio.la
-${NAS}lib/mpg123/output_nas.la
-${SUN}lib/mpg123/output_sun.la
-${ESD}lib/mpg123/output_esd.la
+lib/mpg123/output_oss.la
 man/man1/mpg123.1
 @dirrm lib/mpg123

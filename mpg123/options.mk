@@ -56,7 +56,8 @@ SUBST_CLASSES+=		oss
 SUBST_FILES.oss=	configure.ac src/output/oss.c src/output/Makefile.am
 SUBST_STAGE.oss=	pre-configure
 SUBST_MESSAGE.oss=	Setting OSS device.
-SUBST_VARS.oss=		DEVOSSAUDIO DEVOSSSOUND LIBOSSAUDIO
+SUBST_VARS.oss=		DEVOSSAUDIO DEVOSSSOUND
+CONFIGURE_ENV+=		OSS_LIBS=${LIBOSSAUDIO:Q}
 .else
 PLIST_SUBST+=		OSS="@comment "
 .endif
