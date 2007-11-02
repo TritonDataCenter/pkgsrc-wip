@@ -18,7 +18,7 @@ BUILD_TARGET=	a.out
 
 .include "../../mk/bsd.prefs.mk"
 
-MAKE_ENV+=	LIBS="${LIBS}"
+MAKE_ENV+=	LIBS=${LIBS:Q}
 
 CFLAGS+=	-I.
 LDFLAGS+=	-lm
