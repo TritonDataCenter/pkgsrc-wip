@@ -16,6 +16,8 @@ COMMENT=		Compile time C++ exception analysis/documentation tool
 USE_TOOLS+=		gmake
 USE_TOOLS+=		perl
 
+USE_LIBTOOL=		yes
+
 #@@@Brendon Fortran should not be used but requested that i add it as the
 # configure script seems to check for f77
 USE_LANGUAGES=		c c++ fortran
