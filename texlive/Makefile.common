@@ -1,0 +1,5 @@
+# $NetBSD$
+
+TEXLIVE_VERSION=	2007
+
+EXTRACT_SUFX=		.tar.bz2
