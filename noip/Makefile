@@ -1,7 +1,7 @@
 # $NetBSD$
 
 DISTNAME=	noip-duc-linux
-PKGNAME=	noip-2.1.4
+PKGNAME=	noip-2.1.7
 CATEGORIES=	net
 MASTER_SITES=	http://www.no-ip.com/client/linux/
 
