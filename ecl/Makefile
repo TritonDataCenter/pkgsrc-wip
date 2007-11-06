@@ -19,7 +19,6 @@ CONFIGURE_SCRIPT=	../${DISTNAME}/src/configure
 USE_TOOLS+=		gmake makeinfo
 INFO_FILES=		yes
 
-USE_DESTDIR=		full
 PKG_DESTDIR_SUPPORT=	user-destdir
 
 MAKE_JOBS_SAFE=		no
