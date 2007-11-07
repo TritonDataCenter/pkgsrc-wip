@@ -15,7 +15,7 @@ CONFLICTS+=	teTeX-bin-[0-9]*
 CONFLICTS+=	teTeX2-bin-[0-9]*
 CONFLICTS+=	teTeX3-bin-[0-9]*
 
-HAS_CONFIGURE=	yes
+GNU_CONFIGURE=	yes
 USE_TOOLS+=	gmake
 USE_TOOLS+=	perl
 USE_LANGUAGES=	c c++
