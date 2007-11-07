@@ -46,8 +46,6 @@ CONFIGURE_ARGS+=--without-texi2html
 .include "../../wip/texlive/Makefile.common"
 .include "options.mk"
 
-# XXX TODO: Xm header not found
-
 .include "../../mk/tex.buildlink3.mk"  # XXX
 .include "../../graphics/freetype2/buildlink3.mk"
 .include "../../devel/ncurses/buildlink3.mk"
