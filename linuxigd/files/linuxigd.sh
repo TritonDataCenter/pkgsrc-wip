@@ -4,6 +4,7 @@
 #
 # PROVIDE: linuxidg
 # REQUIRE: ipnat
+# KEYWORD: shutdown
 #
 # set linuxigd_flags="ext_if int_if" in rc.conf
 
