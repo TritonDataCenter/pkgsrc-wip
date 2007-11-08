@@ -58,7 +58,7 @@ $NetBSD$
    setlocale (LC_ALL, "");
  #endif
 -#if (!defined(BSD) && !defined(__FreeBSD__))
-+#if (!defined(BSD) && !defined(__FreeBSD__) || defined(__NetBSD__))
++#if (!defined(BSD) && !defined(__FreeBSD__) && !defined(__NetBSD__))
    bindtextdomain (PACKAGE, LOCALEDIR);
  #endif
    textdomain (PACKAGE);
