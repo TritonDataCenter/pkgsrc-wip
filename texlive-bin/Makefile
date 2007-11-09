@@ -42,6 +42,7 @@ CONFIGURE_ARGS+=--with-fontconfig=${BUILDLINK_PREFIX.fontconfig}
 
 CONFIGURE_ARGS+=--without-texinfo
 CONFIGURE_ARGS+=--without-texi2html
+CONFIGURE_ARGS+=--disable-multiplatform
 
 .include "../../wip/texlive/Makefile.common"
 .include "options.mk"
