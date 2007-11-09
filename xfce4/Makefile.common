@@ -8,6 +8,7 @@ HOMEPAGE=		http://www.xfce.org/
 LICENSE=		gnu-gpl-v2
 
 XFCE4_VERSION=		4.4.1
+BROKEN=			Please use pkgsrc instead of pkgsrc-wip for now
 
 # Do NOT put a PKGREVISION statement in this file!
 
