@@ -6,6 +6,7 @@ DISTNAME=	texlive_base-${TEXLIVE_VERSION}-src
 WRKSRC=		${WRKDIR}/texlive_base-${TEXLIVE_VERSION}
 CATEGORIES=	print
 MASTER_SITES=	http://students.dec.bournemouth.ac.uk/ebarrett/texlive/distfiles/
+EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.tug.org/texlive/
