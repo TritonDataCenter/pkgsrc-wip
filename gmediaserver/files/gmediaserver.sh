@@ -10,7 +10,7 @@
 name="gmediaserver"
 rcvar=${name}
 command="@PREFIX@/bin/${name}"
-pidfile="/var/run/${name}.pid"
+pidfile="@VARBASE@/run/${name}.pid"
 command_args="-b --pid-file=${pidfile}"
 exra_commands="reload"
 sig_reload=-USER1
