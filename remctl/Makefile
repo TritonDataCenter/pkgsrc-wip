@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	remctl-2.7
+DISTNAME=	remctl-2.11
 CATEGORIES=	sysutils security
 MASTER_SITES=	http://archives.eyrie.org/software/kerberos/
 
