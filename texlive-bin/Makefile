@@ -56,5 +56,8 @@ CONFIGURE_ARGS+=--disable-multiplatform
 .include "../../fonts/t1lib/buildlink3.mk"
 .include "../../graphics/gd/buildlink3.mk"
 .include "../../x11/libX11/buildlink3.mk"
+.include "../../x11/libXaw/buildlink3.mk"
+.include "../../x11/libXmu/buildlink3.mk"
+.include "../../x11/libXp/buildlink3.mk"
 .include "../../fonts/fontconfig/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
