@@ -32,6 +32,9 @@ PKG_OPTIONS_GROUP.backends=	xml gconf gnome kde
 CONFIGURE_ARGS+=	--enable-app-gtk
 .  include "../../x11/gtk2/buildlink3.mk"
 .  include "../../x11/gtkmm/buildlink3.mk"
+.  include "../../x11/libX11/buildlink3.mk"
+.  include "../../x11/libXt/buildlink3.mk"
+.  include "../../x11/libXmu/buildlink3.mk"
 #XXX .  include "../../devel/glibmm/buildlink3.mk"
 #XXX .  include "../../devel/libsigc++/buildlink3.mk"
 .else
