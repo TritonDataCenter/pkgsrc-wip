@@ -16,4 +16,5 @@ USE_LIBTOOL=		yes
 USE_X11=                YES
 
 .include "../../chat/pidgin/buildlink3.mk"
+.include "../../x11/gtk2/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
