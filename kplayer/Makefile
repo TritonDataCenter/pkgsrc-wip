@@ -1,8 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		kplayer-0.6.0
-PKGREVISION=		1
+DISTNAME=		kplayer-0.6.3
 CATEGORIES=		multimedia
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=kplayer/}
 EXTRACT_SUFX=		.tar.bz2
