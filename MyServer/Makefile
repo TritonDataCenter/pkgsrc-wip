@@ -11,7 +11,7 @@ MAINTAINER=		bartosz@atom.eu.org
 HOMEPAGE=		http://www.myserverproject.net/
 COMMENT=		Powerful and easy to configure web server
 
-BUILD_DEFS+=		USE_INET6
+BUILD_DEFS+=		IPV6_READY
 BUILD_DEFS+=		VARBASE
 
 USE_PKGLOCALEDIR=	yes

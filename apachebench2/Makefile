@@ -9,7 +9,7 @@ MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://httpd.apache.org/
 COMMENT=		Apache HTTP (Web) server benchmarking tool
 
-BUILD_DEFS+=		USE_INET6
+BUILD_DEFS+=		IPV6_READY
 #USE_LIBTOOL=		YES
 GNU_CONFIGURE=		YES
 BUILD_TARGET=		ab
