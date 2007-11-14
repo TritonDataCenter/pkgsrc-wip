@@ -17,6 +17,7 @@ USE_TOOLS+=		gmake
 USE_LANGUAGES=		c c++
 USE_TOOLS+=		autoconf automake perl
 AUTOMAKE_OVERRIDE=	no
+#LICENSE=		gnu-gpl-v3
 
 pre-configure:
 	cd ${WRKSRC} && gmake -f Makefile.dist
