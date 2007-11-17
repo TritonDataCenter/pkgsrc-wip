@@ -10,4 +10,3 @@ share/examples/rc.d/tor
 share/examples/tor/tor-tsocks.conf
 share/examples/tor/torrc.sample
 @dirrm share/examples/tor
-@dirrm etc/tor
