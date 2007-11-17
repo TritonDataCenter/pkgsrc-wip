@@ -1,8 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	nicotine+-1.2.8
-PKGREVISION=	1
+DISTNAME=	nicotine+-1.2.9
 CATEGORIES=	net audio x11
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=nicotine-plus/}
 EXTRACT_SUFX=	.tar.bz2
