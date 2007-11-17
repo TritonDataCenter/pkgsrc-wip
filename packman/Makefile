@@ -1,11 +1,11 @@
 # $NetBSD$
 
-DISTNAME=	packman-0.0.3
+DISTNAME=	packman-0.0.4
 PKGREVISION=	1
 CATEGORIES=	pkgtools
 MASTER_SITES=	http://kefren.netbsd.ro/
 
-MAINTAINER=	kefren@netbsd.ro
+MAINTAINER=	kefren@ngnetworks.ro
 HOMEPAGE=	http://www.pkgsrc.org/
 COMMENT=	Perl wip/pkgmanager clone
 
