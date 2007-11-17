@@ -52,7 +52,7 @@ CONFIGURE_ARGS+=	--without-spidermonkey
 CONFIGURE_ARGS+=	--disable-sm-scripting
 .endif
 
-.if !empty (PKG_OPTIONS:Mssl)
+.if !empty(PKG_OPTIONS:Mssl)
 
 .include "../../security/openssl/buildlink3.mk"
 
