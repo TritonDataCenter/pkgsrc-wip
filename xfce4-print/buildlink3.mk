@@ -22,4 +22,11 @@ BUILDLINK_PKGSRCDIR.xfce4-print?=	../../wip/xfce4-print
 .include "../../wip/xfce4-dev-tools/buildlink3.mk"
 .include "../../devel/glib2/buildlink3.mk"
 
+pkgbase := xfce4-print
+.include "../../mk/pkg-build-options.mk"
+
+.if !empty(PKG_BUILD_OPTIONS.xfce4-print:Mcups)
+.  include "../../print/cups/buildlink3.mk"
+.endif
+
 BUILDLINK_DEPTH:=		${BUILDLINK_DEPTH:S/+$//}

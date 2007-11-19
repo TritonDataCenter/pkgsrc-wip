@@ -7,6 +7,8 @@ PKG_SUPPORTED_OPTIONS=	cups
 
 .if !empty(PKG_OPTIONS:Mcups)
 .include "../../print/cups/buildlink3.mk"
+PLIST_SUBST+=		CUPS=
 .else
 CONFIGURE_ARGS+=	--disable-cups
+PLIST_SUBST+=		CUPS="@comment "
 .endif

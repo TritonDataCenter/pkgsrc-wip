@@ -12,6 +12,7 @@ include/xfce4/libxfprint/printing-system.h
 lib/libxfprint.la
 lib/pkgconfig/xfprint-1.0.pc
 lib/xfce4/mcs-plugins/xfprint_plugin.la
+${CUPS}lib/xfce4/xfprint-plugins/cups_plugin.la
 share/applications/xfce-xfprint-settings.desktop
 share/applications/xfprint-manager.desktop
 share/applications/xfprint.desktop

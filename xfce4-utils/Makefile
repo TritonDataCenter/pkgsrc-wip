@@ -18,6 +18,8 @@ BUILD_DEFS+=		PKG_SYSCONFBASE
 
 CONFIGURE_ARGS+=	--sysconfdir=${PKG_SYSCONFBASE:Q}
 
+.include "options.mk"
+
 .include "../../graphics/hicolor-icon-theme/buildlink3.mk"
 .include "../../wip/xfce4-mcs-plugins/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

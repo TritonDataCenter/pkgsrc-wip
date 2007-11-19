@@ -11,7 +11,7 @@ COMMENT=	Xfce
 NO_CHECKSUM=	yes
 NO_CONFIGURE=	yes
 NO_BUILD=	yes
-NO_MTREE=	yes
+PLIST_SRC=	# empty (meta-package)
 WRKSRC=		${WRKDIR}
 
 do-install:
