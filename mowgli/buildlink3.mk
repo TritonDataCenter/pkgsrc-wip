@@ -12,7 +12,7 @@ BUILDLINK_PACKAGES+=	libmowgli
 BUILDLINK_ORDER:=	${BUILDLINK_ORDER} ${BUILDLINK_DEPTH}libmowgli
 
 .if ${LIBMOWGLI_BUILDLINK3_MK} == "+"
-BUILDLINK_API_DEPENDS.libmowgli+=	libmowgli>=0.4.0
+BUILDLINK_API_DEPENDS.libmowgli+=	libmowgli>=0.5.0
 BUILDLINK_PKGSRCDIR.libmowgli?=	../../wip/mowgli
 .endif	# LIBMOWGLI_BUILDLINK3_MK
 

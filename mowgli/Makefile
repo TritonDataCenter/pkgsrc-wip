@@ -1,13 +1,13 @@
 # $NetBSD$
 #
 
-DISTNAME=	libmowgli-0.4.0
+DISTNAME=	libmowgli-0.5.0
 CATEGORIES=	devel
 MASTER_SITES=	http://distfiles.atheme.org/
 EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	jfranz@bsdprojects.net
-HOMEPAGE=	http://sacredspiral.co.uk/~nenolod/mowgli/
+HOMEPAGE=	http://atheme.org/projects/mowgli.shtml
 COMMENT=	Development framework for C (like GLib)
 
 GNU_CONFIGURE=	yes
