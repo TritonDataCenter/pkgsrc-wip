@@ -11,6 +11,7 @@ MAINTAINER=	obache@NetBSD.org
 HOMEPAGE=	http://cyrusimap.web.cmu.edu/imapd/
 COMMENT=	Cyrus IMAP server
 
+USE_TOOLS+=		perl
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 PERL5_CONFIGURE=	no
