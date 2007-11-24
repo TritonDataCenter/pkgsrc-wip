@@ -3,7 +3,7 @@ bin/embryo-config
 bin/embryo_cc
 include/Embryo.h
 lib/libembryo.la
-lib/pkgconfig/embryo.${LOWER_VENDOR}
+lib/pkgconfig/embryo.pc
 share/embryo/include/default.inc
 @dirrm share/embryo/include
 @dirrm share/embryo

@@ -1,4 +1,4 @@
 @comment $NetBSD$
 include/Eet.h
 lib/libeet.la
-lib/pkgconfig/eet.${LOWER_VENDOR}
+lib/pkgconfig/eet.pc
