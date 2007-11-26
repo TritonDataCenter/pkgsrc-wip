@@ -25,5 +25,5 @@ $NetBSD$
 -
 -# compiler and linker
 -CC = cc
-+CFLAGS = ${INCS} -DVERSION=\"${VERSION}\" -DRELEASE=\"${RELEASE}\"
-+LDFLAGS = ${LIBS}
++CFLAGS+= ${INCS} -DVERSION=\"${VERSION}\" -DRELEASE=\"${RELEASE}\"
++LDFLAGS+= ${LIBS}
