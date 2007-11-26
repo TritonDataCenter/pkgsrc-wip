@@ -2,6 +2,7 @@
 #
 
 DISTNAME=		confuse-2.5
+PKGREVISION=	1
 CATEGORIES=		devel
 MASTER_SITES=	http://download.savannah.gnu.org/releases/confuse/
 
