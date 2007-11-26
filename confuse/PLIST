@@ -1,7 +1,4 @@
 @comment $NetBSD$
-etc/cups/certs/0
 include/confuse.h
 lib/libconfuse.la
 lib/pkgconfig/libconfuse.pc
-share/locale/sv/LC_MESSAGES/confuse.mo
-@dirrm etc/cups/certs
