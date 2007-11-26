@@ -20,6 +20,7 @@ DEPENDS+=	librsvg>=2.16.1:../../graphics/librsvg
 DEPENDS+=	libungif>=4.1.4:../../graphics/libungif
 DEPENDS+=	freetype2>=2.3.4:../../graphics/freetype2
 .include	"../../wip/eet/buildlink3.mk"
+.include	"../../databases/edb/buildlink3.mk"
 .include	"../../graphics/librsvg/buildlink3.mk"
 .include	"../../graphics/libungif/buildlink3.mk"
 .include	"../../graphics/freetype2/buildlink3.mk"
