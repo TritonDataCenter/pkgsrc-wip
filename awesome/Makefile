@@ -11,7 +11,7 @@ HOMEPAGE=	http://awesome.naquadah.org/
 COMMENT=	Tiling window manager based on dwm
 
 USE_LANGUAGES=	c99
-USE_TOOLS+=		pkg-config strip
+USE_TOOLS+=		pkg-config
 
 SUBST_CLASSES+=		man
 SUBST_FILES.man=	awesome.1
