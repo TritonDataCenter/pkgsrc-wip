@@ -165,6 +165,7 @@ share/psi/iconsets/system/default/whiteboarding/translate.png
 share/psi/iconsets/system/default/whiteboarding/ungroup.png
 share/psi/iconsets/system/default/whiteboarding/whiteboard.png
 share/psi/iconsets/system/default/xml.png
+share/psi/psi_ru.qm
 share/psi/sound/chat1.wav
 share/psi/sound/chat2.wav
 share/psi/sound/ft_complete.wav
