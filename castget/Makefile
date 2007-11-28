@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	castget-1.0.0
+DISTNAME=	castget-1.0.1
 CATEGORIES=	audio www
 MASTER_SITES=	http://savannah.nongnu.org/download/castget/
 
