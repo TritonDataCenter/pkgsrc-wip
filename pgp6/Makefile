@@ -14,6 +14,7 @@ COMMENT=		Public-key encryption and digital signature utilities (v6)
 
 WRKSRC=			${WRKDIR}/pgpsrc
 GNU_CONFIGURE=		yes
+USE_LANGUAGES=		c c++
 USE_TOOLS+=		gmake
 
 BUILD_TARGET=		headers all
@@ -27,7 +28,7 @@ CPPFLAGS+=		-D__unix__
 
 # The DISTFILE is doubly packed.
 post-extract:
-	cd ${WRKDIR} && extract_file=pgpsrc658unix.tar.gz && ${EXTRACT_CMD.tar.gz}
+	cd ${WRKDIR} && extract_file=pgpsrc658unix.tar.gz && ${EXTRACT_CMD}
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/clients/pgp/cmdline/pgp ${PREFIX}/bin/pgp6
