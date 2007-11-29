@@ -37,7 +37,7 @@ post-patch:
 	${RM} ${WRKDIR}/yaws
 	${RM} -Rf ${WRKSRC}/www/.xvpics
 	${RM} -Rf ${WRKSRC}/www/testdir
-	${FIND} ${WRKSRC} -name \*.orig -or -name .empty | ${XARGS} ${RM}
+	${FIND} ${WRKSRC} -name \*.orig -o -name .empty | ${XARGS} ${RM}
 
 post-configure:
 	${SED} -e "s|@PKG_SYSCONFDIR@|${PKG_SYSCONFDIR}|g" \
