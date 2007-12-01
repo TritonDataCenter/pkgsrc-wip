@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	xcb-proto-1.0
+DISTNAME=	xcb-proto-1.1
 CATEGORIES=	x11
 MASTER_SITES=	http://xcb.freedesktop.org/dist/
 EXTRACT_SUFX=	.tar.bz2
