@@ -1,8 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		graveman-0.3.12-4
-PKGREVISION=		1
+DISTNAME=		graveman-0.3.12-5
 CATEGORIES=		sysutils
 MASTER_SITES=		http://graveman.tuxfamily.org/sources/
 EXTRACT_SUFX=		.tar.bz2
