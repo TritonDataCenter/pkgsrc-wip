@@ -15,7 +15,7 @@ name="dhcpd"
 rcvar="isc_dhcpd"
 command="@PREFIX@/sbin/${name}"
 pidfile="@VARBASE@/run/isc-dhcp/${name}.pid"
-required_files="@PKG_SYSCONFDIR@/dhcp/${name}.conf @DHCP_HOME@/${name}.leases"
+required_files="@PKG_SYSCONFDIR@/${name}.conf @DHCP_HOME@/${name}.leases"
 start_precmd="isc_dhcpd_precmd"
 
 isc_dhcpd_precmd()
