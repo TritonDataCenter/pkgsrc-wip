@@ -7,8 +7,6 @@ SUBDIR=		client
 
 CONF_FILES+=	${EGDIR}/dhclient.conf ${PKG_SYSCONFDIR}/dhclient.conf
 
-DEPENDS+=	isc-dhcp-base-3.0.6:../../wip/isc-dhcp
-
 RCD_SCRIPTS=	isc_dhclient
 MAN_FILES=	man5/dhclient.conf.5 man5/dhclient.leases.5 \
 		man8/dhclient-script.8 man8/dhclient.8
@@ -19,4 +17,5 @@ post-install:
 	${INSTALL_DATA} ${WRKSRC}/client/dhclient.conf ${EGDIR}
 
 .include "../../wip/isc-dhcp/Makefile.common"
+.include "../../wip/isc-dhcp/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

@@ -14,6 +14,10 @@ post-install:
 
 	${INSTALL_DATA} ${WRKSRC}/README \
 		${PREFIX}/share/doc/isc-dhcp-${COMPONENT}
+	${INSTALL_DATA} ${WRKSRC}/RELNOTES \
+		${PREFIX}/share/doc/isc-dhcp-${COMPONENT}
+	${INSTALL_DATA} ${WRKSRC}/doc/References.txt \
+		${PREFIX}/share/doc/isc-dhcp-${COMPONENT}
 	${INSTALL_DATA} ${WRKSRC}/includes/isc-dhcp/*.h \
 		${PREFIX}/include/isc-dhcp
 	${INSTALL_DATA} ${WRKSRC}/includes/omapip/*.h \

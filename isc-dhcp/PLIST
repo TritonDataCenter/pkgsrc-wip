@@ -18,6 +18,8 @@ lib/libdst.a
 man/man5/dhcp-eval.5
 man/man5/dhcp-options.5
 share/doc/isc-dhcp-base/README
+share/doc/isc-dhcp-base/RELNOTES
+share/doc/isc-dhcp-base/References.txt
 @dirrm share/doc/isc-dhcp-base
 @dirrm include/isc-dhcp
 @dirrm include/omapip
