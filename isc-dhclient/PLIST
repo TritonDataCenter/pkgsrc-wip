@@ -5,6 +5,6 @@ man/man8/dhclient-script.8
 man/man8/dhclient.8
 sbin/dhclient
 sbin/dhclient-script
-share/doc/isc-dhclient/README
 share/examples/rc.d/isc_dhclient
-@dirrm share/doc/isc-dhclient
+share/examples/isc-dhcp-client/dhclient.conf
+@dirrm share/examples/isc-dhcp-client

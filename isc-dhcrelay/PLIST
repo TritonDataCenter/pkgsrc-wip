@@ -1,0 +1,4 @@
+@comment $NetBSD$
+man/man8/dhcrelay.8
+sbin/dhcrelay
+share/examples/rc.d/isc_dhcrelay
