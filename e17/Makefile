@@ -1,20 +1,24 @@
 # $NetBSD$
 #
 
-DISTNAME=	enlightenment-0.16.999.037
-PKGNAME=	e17-0.16.999.037
-PKGREVISION=	2
+DISTNAME=	enlightenment-0.16.999.041
+PKGNAME=	e17-0.16.999.041
+PKGREVISION=	1
 CATEGORIES=	x11
-MASTER_SITES=	http://enlightenment.freedesktop.org/files/
+MASTER_SITES=	http://download.enlightenment.org/snapshots/2007-08-26/
 EXTRACT_SUFX=	.tar.gz
 
-MAINTAINER=	grzela@seculture.com
+MAINTAINER=	yazzy@yazzy.org
 HOMEPAGE=	http://enlightenment.org/
-COMMENT=	Enlightenment Window Manager, Development Release 17
+COMMENT=	Enlightenment Window Manager, Development Release
 
 GNU_CONFIGURE=	YES
 USE_LIBTOOL=	YES
-DEPENDS+=	edje>=0.5.0.037:../../wip/edje
+USE_TOOLS+=	gmake pkg-config
+DEPENDS+=	edje>=0.5.0.041:../../wip/edje
+DEPENDS+=	efreet>=0.0.3.006:../../wip/efreet
 .include	"../../wip/edje/buildlink3.mk"
+.include	"../../wip/efreet/buildlink3.mk"
+.include	"../../wip/ecore/buildlink3.mk"
 
 .include "../../mk/bsd.pkg.mk"

@@ -1,5 +1,4 @@
 @comment $NetBSD$
-bin/edje-config
 bin/edje_cc
 bin/edje_decc
 bin/edje_recc

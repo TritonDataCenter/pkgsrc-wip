@@ -1,12 +1,13 @@
 # $NetBSD$
 #
 
-DISTNAME=	eet-0.9.10.037
+DISTNAME=	eet-0.9.10.041
+PKGREVISION=	1
 CATEGORIES=	misc
-MASTER_SITES=	http://enlightenment.freedesktop.org/files/
+MASTER_SITES=	http://download.enlightenment.org/snapshots/2007-08-26/
 EXTRACT_SUFX=	.tar.gz
 
-MAINTAINER=	grzela@seculture.com
+MAINTAINER=	yazzy@yazzy.org
 HOMEPAGE=	http://enlightenment.org/
 COMMENT=	Distribution Container Library and Tools
 
