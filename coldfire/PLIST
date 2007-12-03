@@ -1,0 +1,7 @@
+@comment $NetBSD$
+bin/coldfire
+share/coldfire/arnewsh-5206.board
+share/coldfire/cjdesign-5307.board
+share/coldfire/elia-5307.board
+share/coldfire/lite-5206e.board
+@dirrm share/coldfire
