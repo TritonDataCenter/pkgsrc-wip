@@ -1,6 +1,5 @@
 @comment $NetBSD$
 bin/awesome
 bin/awesome-client
-man/man1/awesome.1
 share/examples/awesome/awesomerc
 @dirrm share/examples/awesome
