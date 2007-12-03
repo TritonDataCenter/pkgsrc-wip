@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=		dovecot-1.1.beta8
+DISTNAME=		dovecot-1.1.beta10
 PKGNAME=		${DISTNAME:S/.beta/beta/}
 CATEGORIES=		mail
 MASTER_SITES=		http://www.dovecot.org/releases/1.1/beta/
@@ -37,7 +37,7 @@ PKG_USERS_VARS+=	DOVECOT_USER
 PKG_GECOS.${DOVECOT_USER}=	Dovecot IMAP/POP3 user
 
 EGDIR=			${PREFIX}/share/examples/dovecot
-CONF_FILES=		${EGDIR}/dovecot.conf.default ${PKG_SYSCONFDIR}/dovecot.conf
+CONF_FILES=		${EGDIR}/dovecot-example.conf ${PKG_SYSCONFDIR}/dovecot.conf
 
 INSTALLATION_DIRS=	libexec/dovecot sbin share/doc/dovecot		\
 			share/examples/dovecot
