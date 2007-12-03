@@ -1,0 +1,13 @@
+$NetBSD$
+
+--- src/lib/xml/tinyxml.h.orig	2005-10-18 00:32:04.000000000 +0200
++++ src/lib/xml/tinyxml.h
+@@ -823,7 +823,7 @@ public:
+ #endif
+ 
+ 	/// Construct.
+-	TiXmlDeclaration::TiXmlDeclaration( const char * _version,
++	TiXmlDeclaration( const char * _version,
+ 										const char * _encoding,
+ 										const char * _standalone );
+ 
