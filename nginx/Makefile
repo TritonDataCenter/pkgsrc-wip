@@ -31,6 +31,8 @@ CONF_FILES+=		${EGDIR:Q}/mime.types ${PKG_SYSCONFDIR:Q}/mime.types
 
 BUILD_DEFS+=		PKG_SYSCONFBASE VARBASE
 
+BUILD_TARGET=		build
+
 .include "../../security/openssl/buildlink3.mk"
 .include "../../devel/pcre/buildlink3.mk"
 .include "../../devel/zlib/buildlink3.mk"
