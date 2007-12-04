@@ -1,10 +1,13 @@
 @comment $NetBSD$
-etc/nginx/koi-utf
-etc/nginx/koi-win
-etc/nginx/win-utf
 sbin/nginx
-share/doc/html/nginx/50x.html
-share/doc/html/nginx/index.html
-share/examples/nginx/mime.types
-share/examples/nginx/nginx.conf
+share/examples/nginx/conf/fastcgi_params
+share/examples/nginx/conf/koi-utf
+share/examples/nginx/conf/koi-win
+share/examples/nginx/conf/mime.types
+share/examples/nginx/conf/nginx.conf
+share/examples/nginx/conf/win-utf
+share/examples/nginx/html/50x.html
+share/examples/nginx/html/index.html
+@dirrm share/examples/nginx/html
+@dirrm share/examples/nginx/conf
 @dirrm share/examples/nginx
