@@ -2,10 +2,6 @@
 bin/embryo_cc
 include/Embryo.h
 lib/libembryo.la
-lib/libembryo.a
-lib/libembryo.so.0.9.1
-lib/libembryo.so.0
-lib/libembryo.so
 lib/pkgconfig/embryo.pc
 share/embryo/include/default.inc
 @dirrm share/embryo/include

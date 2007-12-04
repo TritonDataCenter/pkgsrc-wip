@@ -5,4 +5,4 @@ lib/libeet.a
 lib/pkgconfig/eet.pc
 lib/libeet.so.0.9.10
 lib/libeet.so.0
-lib/libeet.so	
+lib/libeet.so

@@ -22,7 +22,7 @@ share/efreet/test/test_menu_slash_bad.menu
 share/efreet/test/entry.png
 share/efreet/test/entry
 share/efreet/test/preferences.menu
-share/efreet/test/sub/test.desktop 
+share/efreet/test/sub/test.desktop
 bin/efreet_alloc
 bin/efreet_menu_alloc
 bin/efreet_test
