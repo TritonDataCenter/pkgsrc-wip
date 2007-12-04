@@ -7,7 +7,7 @@ MASTER_SITES=	http://xlibs.freedesktop.org/xkbdesc/
 EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	bjs@NetBSD.org
-HOMEPAGE=	http://www.freedesktop.org/wiki/Software_2fXKeyboardConfig
+HOMEPAGE=	http://www.freedesktop.org/wiki/Software/XKeyboardConfig
 COMMENT=	X Keyboard Configuration Database
 
 PKG_DESTDIR_SUPPORT=	user-destdir
