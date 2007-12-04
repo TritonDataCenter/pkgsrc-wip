@@ -15,5 +15,4 @@ USE_LIBTOOL=    yes
 USE_TOOLS=	gmake pkg-config
 
 .include "../../graphics/jpeg/buildlink3.mk"
-
 .include "../../mk/bsd.pkg.mk"
