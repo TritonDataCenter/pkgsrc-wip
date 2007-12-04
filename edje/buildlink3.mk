@@ -16,7 +16,9 @@ BUILDLINK_API_DEPENDS.edje+=	edje>=0.5.0.041
 BUILDLINK_PKGSRCDIR.edje?=	../../wip/edje
 .endif	# EDJE_BUILDLINK3_MK
 
+.include	"../../wip/eet/buildlink3.mk"
 .include	"../../wip/ecore/buildlink3.mk"
+.include	"../../wip/evas/buildlink3.mk"
 .include	"../../wip/embryo/buildlink3.mk"
 
 BUILDLINK_DEPTH:=	${BUILDLINK_DEPTH:S/+$//}
