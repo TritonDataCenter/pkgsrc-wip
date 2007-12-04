@@ -14,7 +14,5 @@ GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_TOOLS=	gmake pkg-config
 
-DEPENDS+=       ecore>=0.9.9.041:../../wip/ecore
 .include        "../../wip/ecore/buildlink3.mk"
-
 .include "../../mk/bsd.pkg.mk"
