@@ -16,10 +16,13 @@ BUILDLINK_API_DEPENDS.ecore+=	ecore>=0.9.9.041
 BUILDLINK_PKGSRCDIR.ecore?=	../../wip/ecore
 .endif	# ECORE_BUILDLINK3_MK
 
-.include	"../../wip/evas/buildlink3.mk"
-.include	"../../x11/libXdamage/buildlink3.mk"
-.include	"../../x11/libXp/buildlink3.mk"
-.include	"../../x11/libXScrnSaver/buildlink3.mk"
-.include	"../../www/curl/buildlink3.mk"
+.include "../../wip/eet/buildlink3.mk"
+.include "../../wip/evas/buildlink3.mk"
+.include "../../converters/libiconv/buildlink3.mk"
+.include "../../devel/SDL/buildlink3.mk"
+.include "../../www/curl/buildlink3.mk"
+.include "../../x11/libXdamage/buildlink3.mk"
+.include "../../x11/libXp/buildlink3.mk"
+.include "../../x11/libXScrnSaver/buildlink3.mk"
 
 BUILDLINK_DEPTH:=	${BUILDLINK_DEPTH:S/+$//}

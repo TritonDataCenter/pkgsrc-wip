@@ -2,9 +2,10 @@
 #
 
 DISTNAME=	eet-0.9.10.041
-PKGREVISION=	2
+PKGREVISION=	3
 CATEGORIES=	misc
-MASTER_SITES=	http://download.enlightenment.org/snapshots/2007-08-26/
+MASTER_SITES=	http://www.yazzy.org/pkgsrc/e17/ \
+		http://jfranz.users.bsdprojects.net/pkgsrc/e17/
 
 MAINTAINER=	yazzy@yazzy.org
 HOMEPAGE=	http://enlightenment.org/
