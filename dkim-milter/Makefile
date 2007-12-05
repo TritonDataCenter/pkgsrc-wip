@@ -1,7 +1,7 @@
 # $NetBSD$
 
 DISTNAME=	dkim-milter-2.4.0
-#PKGREVISION=	1
+PKGREVISION=	1
 CATEGORIES=	mail
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=dkim-milter/}
 
@@ -56,6 +56,8 @@ do-build:
 
 do-install: arlib-install stats-install
 	cd ${WRKSRC}/obj.`uname -s`.`uname -r`.`uname -m`; \
+	${INSTALL_PROGRAM} dkim-filter/dkim-testkey ${PREFIX}/bin; \
+	${INSTALL_PROGRAM} dkim-filter/dkim-testssp ${PREFIX}/bin; \
 	${INSTALL_PROGRAM} dkim-filter/dkim-filter ${PREFIX}/sbin/dkim-milter; \
 	${INSTALL_LIB} libdkim/libdkim.a ${PREFIX}/lib
 	${INSTALL_SCRIPT} ${WRKSRC}/dkim-filter/dkim-genkey.sh ${PREFIX}/bin/dkim-genkey

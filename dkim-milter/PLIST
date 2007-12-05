@@ -9,6 +9,8 @@ man/man8/dkim-testkey.8
 man/man8/dkim-testssp.8
 ${WITH_STATS}man/man8/dkim-stats.8
 bin/dkim-genkey
+bin/dkim-testkey
+bin/dkim-testssp
 sbin/dkim-milter
 ${WITH_STATS}sbin/dkim-stats
 share/doc/dkim-milter/FEATURES
