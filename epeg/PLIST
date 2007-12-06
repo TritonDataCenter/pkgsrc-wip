@@ -1,0 +1,5 @@
+@comment $NetBSD$
+bin/epeg
+include/Epeg.h
+lib/libepeg.la
+lib/pkgconfig/epeg.pc
