@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	gajim-0.11.3
+DISTNAME=	gajim-0.11.4
 CATEGORIES=	chat python
 MASTER_SITES=	http://www.gajim.org/downloads/
 
