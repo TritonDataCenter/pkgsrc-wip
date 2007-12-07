@@ -7,7 +7,7 @@ $NetBSD$
  #include "config.h"
  
 +#ifndef _POSIX_HOST_NAME_MAX
-+#ifdef _SYS_PARAM_H_
++#ifdef MAXHOSTNAMELEN
 +#define _POSIX_HOST_NAME_MAX MAXHOSTNAMELEN
 +#else
 +#define _POSIX_HOST_NAME_MAX 256
