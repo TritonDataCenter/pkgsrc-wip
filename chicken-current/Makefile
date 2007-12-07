@@ -39,6 +39,7 @@ PLATFORM=	solaris
 PKG_FAIL_REASON=	"${OPSYS} is not supported"
 .endif
 
+MAKE_ENV+=	HOST=	# fix ${HOST} prepending ${CC}
 MAKE_FLAGS+=	PLATFORM=${PLATFORM:Q} PREFIX=${PREFIX:Q} DESTDIR=${DESTDIR:Q}${PREFIX:Q}
 MAKE_FLAGS+=	MANDIR=${DESTDIR:Q}${PREFIX:Q}/man/man1
 
