@@ -38,7 +38,7 @@ lib/audacious/Input/wavpack.so
 lib/audacious/Input/wma.so
 lib/audacious/Output/OSS.so
 lib/audacious/Output/filewriter.so
-${ESD}lib/audacious/Output/libESD.so
+${ESD}lib/audacious/Output/ESD.so
 ${JACK}lib/audacious/Output/libjackout.so
 lib/audacious/Output/null.so
 ${PULSE}lib/audacious/Output/libpulse_audio.so
