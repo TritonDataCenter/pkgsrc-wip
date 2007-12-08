@@ -10,7 +10,7 @@ $NetBSD$
 +#if defined(HAVE_BLUETOOTH_BLUEZ) || defined(HAVE_BLUETOOTH_NETGRAPH) || defined(HAVE_BLUETOOTH_NETBT)
  
  #include <stdlib.h>
- #include <unistd.h>
+ #include <stdio.h>
 @@ -45,7 +45,7 @@
  #include <sys/time.h>
  #include <sys/socket.h>
@@ -114,16 +114,8 @@ $NetBSD$
 -#endif
 +#endif /* HAVE_STR2BA */
  
- int bluetooth_open(const char *addr, uint8_t channel, struct gn_statemachine *state)
- {
-@@ -112,6 +130,7 @@ int bluetooth_open(const char *addr, uin
- 	}
- 
- 	memset(&laddr, 0, sizeof(laddr));
-+	SOCKLEN(laddr);
- 	laddr.rc_family = AF_BLUETOOTH;
- 	bacpy(&laddr.rc_bdaddr, BDADDR_ANY);
- 	if (bind(fd, (struct sockaddr *)&laddr, sizeof(laddr)) < 0) {
+ /* From: http://www.kegel.com/dkftpbench/nonblocking.html */
+ static int setNonblocking(int fd)
 @@ -121,6 +140,7 @@ int bluetooth_open(const char *addr, uin
  	}
  

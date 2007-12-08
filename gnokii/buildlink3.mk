@@ -17,7 +17,6 @@ BUILDLINK_PKGSRCDIR.gnokii?=	../../wip/gnokii
 .endif	# GNOKII_BUILDLINK3_MK
 
 .include "../../devel/libusb/buildlink3.mk"
-.include "../../graphics/xpm/buildlink3.mk"
 .include "../../x11/gtk/buildlink3.mk"
 
 BUILDLINK_DEPTH:=	${BUILDLINK_DEPTH:S/+$//}
