@@ -1,7 +1,7 @@
 # $NetBSD$
 
 DISTNAME=	hydrogen-0.9.3
-PKGNAME=	${DISTNAME:S/-/-current/}
+PKGNAME=	${DISTNAME:S/-/-current-/}
 CATEGORIES=	audio
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=hydrogen/}
 
