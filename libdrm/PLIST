@@ -12,6 +12,7 @@ include/drm/savage_drm.h
 include/drm/sis_drm.h
 include/drm/via_3d_reg.h
 include/drm/via_drm.h
+include/drm/xgi_drm.h
 include/xf86drm.h
 include/xf86mm.h
 lib/libdrm.la

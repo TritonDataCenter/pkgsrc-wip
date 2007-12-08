@@ -2,8 +2,9 @@
 #
 
 DISTNAME=		libdrm-2.3.1
+PKGREVISION=		1
 CATEGORIES=		x11 graphics
-MASTER_SITES=		http://bahar.aydogan.net/~blair/
+MASTER_SITES=		http://www.netbsd.org/~bjs/
 EXTRACT_SUFX=		.tar.bz2
 
 MAINTAINER=		bjs@NetBSD.org
