@@ -31,6 +31,8 @@ EGFILES=		fastcgi_params koi-utf koi-win mime.types nginx.conf win-utf
 CONF_FILES+=		${EGDIR:Q}/conf/${file} ${PKG_SYSCONFDIR}/${file}
 .endfor
 
+RCD_SCRIPTS=		nginx
+
 INSTALLATION_DIRS=	sbin share/examples/nginx/conf share/examples/nginx/html
 OWN_DIRS=		${NGINX_LOGDIR}
 
