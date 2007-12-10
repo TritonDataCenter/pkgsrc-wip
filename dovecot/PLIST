@@ -206,7 +206,7 @@ include/dovecot/src/lib/strfuncs.h
 include/dovecot/src/lib/unichar.h
 include/dovecot/src/lib/unix-socket-create.h
 include/dovecot/src/lib/unlink-directory.h
-include/dovecot/src/lib/unlink-lockfiles.h
+include/dovecot/src/lib/unlink-old-files.h
 include/dovecot/src/lib/utc-mktime.h
 include/dovecot/src/lib/utc-offset.h
 include/dovecot/src/lib/var-expand.h
