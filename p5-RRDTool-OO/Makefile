@@ -1,19 +1,18 @@
 # $NetBSD$
 
-DISTNAME=	RRDTool-OO-0.17
+DISTNAME=	RRDTool-OO-0.19
 PKGNAME=	p5-${DISTNAME}
 PKGREVISION=	1
 CATEGORIES=	perl5 databases
 MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=../by-authors/id/M/MS/MSCHILLI/}
-MAINTAINER=	uli@habel.name
+MAINTAINER=	rhaen@NetBSD.org
 HOMEPAGE=	http://search.cpan.org/dist/RRDTool-OO/
 COMMENT=	RRDTool::OO implementation for Perl
 
 PKG_INSTALLATION_TYPES=	overwrite pkgviews
+PKG_DESTDIR_SUPPORT=	user-destdir
 
-#PERL5_MODULE_TYPE=      Module::Build
 PERL5_PACKLIST=		auto/RRDTool/OO/.packlist
-#MAKE_PARAMS+=		< /dev/null
 
 DEPENDS+= p5-Log-Log4perl>=1.01:../../wip/p5-Log-Log4perl
 
