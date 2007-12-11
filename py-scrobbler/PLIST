@@ -1,0 +1,4 @@
+@comment $NetBSD$
+${PYSITELIB}/scrobbler.py
+${PYSITELIB}/scrobbler.pyc
+${PYSITELIB}/scrobbler.pyo
