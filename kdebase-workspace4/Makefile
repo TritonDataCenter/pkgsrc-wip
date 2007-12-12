@@ -14,6 +14,7 @@ BUILD_MAKE_FLAGS+= VERBOSE=1
 
 .include "../../wip/kde4/kde4.mk"
 
+.include "../../graphics/hicolor-icon-theme/buildlink3.mk"
 .include "../../wip/qimageblitz/buildlink3.mk"
 .include "../../wip/kdelibs4/buildlink3.mk"
 .include "../../x11/libxklavier/buildlink3.mk"
