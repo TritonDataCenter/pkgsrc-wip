@@ -8,7 +8,11 @@ CONFLICTS=	kopete-[0-9]*
 
 .include "../../wip/kde4/Makefile.kde4"
 
-BUILD_MAKE_FLAGS+= VERBOSE=1
+# BUILD_MAKE_FLAGS+= VERBOSE=1
+
+REPLACE_PERL+= \
+	kopete/kopete/kconf_update/kopete-account-0.10.pl \
+	kopete/kopete/kconf_update/kopete-pluginloader.pl
 
 .include "../../wip/kde4/kde4.mk"
 
@@ -20,7 +24,7 @@ BUILD_MAKE_FLAGS+= VERBOSE=1
 .include "../../wip/kdepimlibs4/buildlink3.mk"
 .include "../../wip/kdebase-runtime4/buildlink3.mk"
 .include "../../wip/qimageblitz/buildlink3.mk"
-#.include "../../wip/kdebase-workspace4/buildlink3.mk"
+.include "../../wip/kdebase-workspace4/buildlink3.mk"
 .include "../../x11/libXScrnSaver/buildlink3.mk"
 
 .include "../../mk/bsd.pkg.mk"
