@@ -7,7 +7,7 @@ MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=cryptcat/}
 EXTRACT_SUFX=		.tar
 
 MAINTAINER=		pancake@phreaker.net
-HOMEPAGE=		http://farm9.org/Cryptcat/
+HOMEPAGE=		http://sourceforge.net/projects/cryptcat/
 COMMENT=		Standard netcat enhanced with twofish encryption.
 
 USE_TOOLS+=		gmake
