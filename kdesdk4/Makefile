@@ -9,7 +9,28 @@ CONFLICTS+=	umbrello-[0-9]*
 
 .include "../../wip/kde4/Makefile.kde4"
 
-BUILD_MAKE_FLAGS+= VERBOSE=1
+# BUILD_MAKE_FLAGS+= VERBOSE=1
+
+CMAKE_ARGS+=	-DBUILD_kmtrace:BOOL=OFF
+
+# disable for the moment till sort out -ldl
+CMAKE_ARGS+=	-DBUILD_kstartperf:BOOL=OFF
+
+REPLACE_PERL+= \
+	scripts/cxxmetric \
+	scripts/fixkdeincludes \
+	scripts/fixuifiles \
+	scripts/kdesvn-build \
+	scripts/png2mng.pl \
+	scripts/svnintegrate \
+	kcachegrind/converters/dprof2calltree \
+	kcachegrind/converters/memprof2calltree \
+	kcachegrind/converters/op2calltree \
+	cervisia/cervisia-change_repos_list.pl \
+	cervisia/cervisia-normalize_cvsroot.pl \
+	cervisia/change_colors.pl
+
+INSTALLATION_DIRS+=	${PKGMANDIR}/man1
 
 .include "../../wip/kde4/kde4.mk"
 
