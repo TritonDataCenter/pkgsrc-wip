@@ -1,0 +1,13 @@
+$NetBSD$
+
+--- ksysguard/ksysguardd/NetBSD/netdev.h.orig	2006-10-26 15:12:41.000000000 +1300
++++ ksysguard/ksysguardd/NetBSD/netdev.h
+@@ -24,7 +24,7 @@
+ void initNetDev(struct SensorModul* sm);
+ void exitNetDev(void);
+ 
+-void updateNetDev(void);
++int updateNetDev(void);
+ void checkNetDev(void);
+ 
+ void printNetDevRecBytes(const char* cmd);
