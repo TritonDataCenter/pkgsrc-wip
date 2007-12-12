@@ -28,7 +28,8 @@ PKG_OPTIONS+=	sqlite
 
 .if !empty(PKG_OPTIONS:Mpgsql)
 CONFIGURE_ARGS+=	--with-pgsql
-.include "../../databases/postgresql82-client/buildlink3.mk"
+.include "../../mk/pgsql.buildlink3.mk"
+#DEPENDS+=		php-pgsql
 .endif
 .if !empty(PKG_OPTIONS:Msqlite)
 CONFIGURE_ARGS+=	--with-sqlite3
@@ -36,7 +37,7 @@ CONFIGURE_ARGS+=	--with-sqlite3
 .endif
 .if !empty(PKG_OPTIONS:Mmysql)
 CONFIGURE_ARGS+=	--with-mysql
-.include "../../databases/mysql5-client/buildlink3.mk"
+.include "../../mk/mysql.buildlink3.mk"
 .endif
 
 .if !empty(PKG_OPTIONS:Mcurl)
