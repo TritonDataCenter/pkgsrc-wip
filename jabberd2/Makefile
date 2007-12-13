@@ -62,8 +62,8 @@ EGDIR=			${PREFIX}/share/examples/jabberd
 FILES=			jabberd.cfg c2s.xml resolver.xml router.xml	\
 			router-users.xml router-filter.xml s2s.xml	\
 			sm.xml
-DBFILES=		db-setup.mysql db-setup.pgsql db-update.mysql	\
-			db-setup-status.mysql db-setup.sqlite
+DBFILES=		db-jd14-2-jd2.sql db-setup.mysql db-setup.pgsql \
+			db-update.mysql	db-setup.sqlite
 
 .for f in ${FILES}
 CONF_FILES+=		${EGDIR}/${f} ${PKG_SYSCONFDIR}/${f}
