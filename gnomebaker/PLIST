@@ -134,4 +134,3 @@ share/omf/gnomebaker/gnomebaker-C.omf
 @dirrm share/gnomebaker
 @dirrm share/gnome/help/gnomebaker/C/figures
 @dirrm share/gnome/help/gnomebaker/C
-@dirrm share/applications

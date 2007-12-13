@@ -10,6 +10,7 @@ MAINTAINER=	leuzi@trash.net
 HOMEPAGE=	http://gnomebaker.sourceforge.net/v2/
 COMMENT=	GTK2/GNOME CD/DVD burning application
 
+USE_DIRS+=		xdg-1.4
 USE_TOOLS+=		pkg-config msgfmt intltool
 GNU_CONFIGURE=		YES
 
@@ -17,7 +18,7 @@ DEPENDS+=	cdrtools-ossdvd>=2.0:../../sysutils/cdrtools-ossdvd
 DEPENDS+=	libgnomeui>=2.8.1:../../devel/libgnomeui
 
 
-.include "../../textproc/scrollkeeper/buildlink3.mk"
+.include "../../textproc/scrollkeeper/omf.mk"
 .include "../../devel/libgnomeui/buildlink3.mk"
 .include "../../x11/gtk2/buildlink3.mk"
 .include "../../devel/glib2/buildlink3.mk"
