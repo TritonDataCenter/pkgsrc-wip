@@ -16,6 +16,6 @@ post-install:
 	${INSTALL_DATA_DIR} ${EGDIR}
 	${INSTALL_DATA} ${WRKSRC}/client/dhclient.conf ${EGDIR}
 
-.include "../../wip/isc-dhcp/Makefile.common"
-.include "../../wip/isc-dhcp/buildlink3.mk"
+.include "../../net/isc-dhcp/Makefile.common"
+.include "../../net/isc-dhcp/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
