@@ -1,0 +1,5 @@
+@comment $NetBSD$
+include/dbi/dbd.h
+include/dbi/dbi.h
+include/dbi/dbi-dev.h
+lib/libdbi.la
