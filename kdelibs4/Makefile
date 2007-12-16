@@ -25,6 +25,19 @@ REPLACE_PERL+= \
 
 CHECK_PORTABILITY_SKIP+=kate/tests/highlight.sh
 
+SUBST_CLASSES+=			kdelibsfix
+SUBST_STAGE.kdelibsfix=		pre-configure
+SUBST_MESSAGE.kdelibsfix=	Fixing hardcoded paths.
+SUBST_FILES.kdelibsfix= \
+	kde3support/kdeui/k3sconfig.cpp \
+	kio/kssl/kopenssl.cpp
+SUBST_SED.kdelibsfix=		-e 's:@LOCALBASE@:${LOCALBASE}:g'
+
+#.if ${OPSYS} == "NetBSD"
+## make sure zone.tab is installed
+#DEPENDS+=		zonetab-[0-9]*:../../time/zonetab
+#.endif
+
 .include "../../wip/kde4/kde4.mk"
 
 # Soprano
