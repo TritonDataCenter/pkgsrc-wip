@@ -5,7 +5,7 @@ CATEGORIES=	security
 MASTER_SITES=	http://www.unix-labs.org/pub/source/dwepcrack/
 
 MAINTAINER=	schwarz@NetBSD.org
-HOMEPAGE=	http://www.dachb0den.com/projects/dwepcrack.html
+HOMEPAGE=	http://web.archive.org/web/20070322102507/http://www.dachb0den.com/projects/dwepcrack.html
 COMMENT=	dwepcrack uses varioius methods to extract WEP keys
 
 NO_CONFIGURE=	YES
