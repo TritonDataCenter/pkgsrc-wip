@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=		xmpppy-0.3.1
+DISTNAME=		xmpppy-0.4.1
 PKGNAME=		${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=		chat python
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=xmpppy/}
