@@ -1,6 +1,0 @@
-$NetBSD$
-
---- src/replacements/dummy.c.orig	Sun May 23 14:00:52 2004
-+++ src/replacements/dummy.c
-@@ -0,0 +1 @@
-+int libreplacements_dummy;
