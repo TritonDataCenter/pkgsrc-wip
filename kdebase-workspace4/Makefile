@@ -6,13 +6,18 @@ COMMENT=	XXX for the KDE 4 integrated X11 desktop
 
 .include "../../wip/kde4/Makefile.kde4"
 
-BUILD_MAKE_FLAGS+= VERBOSE=1
+# BUILD_MAKE_FLAGS+= VERBOSE=1
 
 #REPLACE_BASH+= pics/oxygen/scalable/export_pngs.sh
 
 #REPLACE_PERL+= \
 
 .include "options.mk"
+
+SUBST_CLASSES+=		paths
+SUBST_FILES.paths=	kcontrol/kdm/main.cpp
+SUBST_SED.paths=	-e 's,@PKG_SYSCONFDIR@,${PKG_SYSCONFDIR},g'
+SUBST_STAGE.paths=	post-patch
 
 .include "../../wip/kde4/kde4.mk"
 
