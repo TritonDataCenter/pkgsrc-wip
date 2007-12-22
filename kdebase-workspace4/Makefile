@@ -12,6 +12,8 @@ BUILD_MAKE_FLAGS+= VERBOSE=1
 
 #REPLACE_PERL+= \
 
+.include "options.mk"
+
 .include "../../wip/kde4/kde4.mk"
 
 .include "../../graphics/hicolor-icon-theme/buildlink3.mk"
