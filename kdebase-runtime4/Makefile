@@ -8,6 +8,18 @@ COMMENT=	Runtime requirements for the KDE integrated X11 desktop
 
 # BUILD_MAKE_FLAGS+= VERBOSE=1
 
+DEPENDS+=	htdig>=3.2.0:../../www/htdig-devel
+
+SUBST_CLASSES+=		htdig paths
+SUBST_STAGE.htdig=	post-patch
+SUBST_MESSAGE.htdig=	Fix htdig paths.
+SUBST_FILES.htdig=	khelpcenter/searchhandlers/khc_htsearch.pl
+SUBST_SED.htdig=	-e s:/srv/www/cgi-bin:${PREFIX}/libexec/cgi-bin:
+
+SUBST_FILES.paths=	kioslave/info/kde-info2html.conf
+SUBST_SED.paths=	-e 's,@LOCALBASE@,${LOCALBASE},g'
+SUBST_STAGE.paths=	post-patch
+
 REPLACE_BASH+= pics/oxygen/scalable/export_pngs.sh
 
 REPLACE_PERL+= \
