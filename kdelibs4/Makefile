@@ -33,10 +33,12 @@ SUBST_FILES.kdelibsfix= \
 	kio/kssl/kopenssl.cpp
 SUBST_SED.kdelibsfix=		-e 's:@LOCALBASE@:${LOCALBASE}:g'
 
-#.if ${OPSYS} == "NetBSD"
-## make sure zone.tab is installed
-#DEPENDS+=		zonetab-[0-9]*:../../time/zonetab
-#.endif
+.include "../../mk/bsd.prefs.mk"
+
+.if ${OPSYS} == "NetBSD"
+# make sure zone.tab is installed
+DEPENDS+=		zonetab-[0-9]*:../../time/zonetab
+.endif
 
 .include "../../wip/kde4/kde4.mk"
 
