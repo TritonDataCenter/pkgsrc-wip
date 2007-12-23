@@ -1,5 +1,4 @@
 @comment $NetBSD$
-bin/gen68k
 bin/yabause
 man/man1/yabause.1
 share/applications/yabause.desktop

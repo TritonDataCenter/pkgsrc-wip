@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	yabause-0.8.5
+DISTNAME=	yabause-0.9.2
 CATEGORIES=	emulators
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=yabause/}
 
