@@ -11,6 +11,8 @@ COMMENT=	Support libraries for the KDE integrated X11 desktop
 CMAKE_DEPENDENCIES_REWRITE= _KDE_build/KDELibsDependencies.cmake
 CMAKE_MODULE_PATH_OVERRIDE+=	kjsembed/qtonly/CMakeLists.txt
 
+CMAKE_ARGS+=	-DKDE_DISTRIBUTION_TEXT:STRING="NetBSD pkgsrc"
+
 MAKE_DIRS+=	${PKG_SYSCONFDIR}/xdg/menus
 CONF_FILES+=	${PREFIX}/share/examples/kdelibs4/applications.menu \
 		${PKG_SYSCONFDIR}/xdg/menus/applications.menu
