@@ -12,6 +12,15 @@ COMMENT=	XXX for the KDE 4 integrated X11 desktop
 
 #REPLACE_PERL+= \
 
+RCD_SCRIPTS=		kdm
+
+CONF_FILES=		${PREFIX}/share/kde/config/kdm/kdmrc \
+			${PKG_SYSCONFDIR}/kdm/kdmrc
+OWN_DIRS=		${PKG_SYSCONFDIR}/kdm
+
+CONF_FILES+=		${PREFIX}/share/examples/kdebase-workspace4/ksysguarddrc \
+			${PKG_SYSCONFDIR}/ksysguarddrc
+
 .include "options.mk"
 
 SUBST_CLASSES+=		paths
