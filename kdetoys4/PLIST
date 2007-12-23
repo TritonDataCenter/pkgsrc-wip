@@ -468,8 +468,8 @@ share/kde/apps/kworldclock/zone.tab
 @dirrm share/kde/apps/kworldclock/pics
 @dirrm share/kde/apps/kworldclock/maps/flatworld
 @dirrm share/kde/apps/kworldclock/maps/depths
-@dirrm share/kde/apps/kworldclock/maps
-@dirrm share/kde/apps/kworldclock
+@comment in kde: @dirrm share/kde/apps/kworldclock/maps
+@comment in kde: @dirrm share/kde/apps/kworldclock
 @dirrm share/kde/apps/kteatime/hicolor/48x48/apps
 @dirrm share/kde/apps/kteatime/hicolor/48x48
 @dirrm share/kde/apps/kteatime/hicolor/32x32/apps

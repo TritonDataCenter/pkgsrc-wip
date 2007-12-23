@@ -1292,7 +1292,7 @@ share/sounds/Kopete_User_is_Online.ogg
 @comment in kde: @dirrm share/kde4/servicetypes
 @comment in kde: @dirrm share/kde4/services/kded
 @dirrm share/kde4/services/kconfiguredialog
-@dirrm share/kde4/services/ServiceMenus
+@comment in kde: @dirrm share/kde4/services/ServiceMenus
 @comment in kde: @dirrm share/kde4/services
 @comment in kde: @dirrm share/kde/config.kcfg
 @comment in kde: @dirrm share/kde/config
@@ -1470,7 +1470,7 @@ share/sounds/Kopete_User_is_Online.ogg
 @dirrm share/kde/apps/kopete
 @dirrm share/kde/apps/konqueror/dirtree/remote
 @dirrm share/kde/apps/konqueror/dirtree
-@dirrm share/kde/apps/konqueror
+@comment in kde: @dirrm share/kde/apps/konqueror
 @comment in kde: @dirrm share/kde/apps/konqsidebartng/virtual_folders/services
 @comment in kde: @dirrm share/kde/apps/khtml/kpartplugins
 @dirrm share/kde/apps/kget/pics

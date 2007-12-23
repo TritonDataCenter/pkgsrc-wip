@@ -117,7 +117,7 @@ share/kde4/services/ServiceMenus/audiocd_play.desktop
 share/kde4/services/ServiceMenus/jukservicemenu.desktop
 share/kde4/services/kmixctrl_restore.desktop
 share/kde4/services/libkcddb.desktop
-@dirrm share/kde4/services/ServiceMenus
+@comment in kde: @dirrm share/kde4/services/ServiceMenus
 @comment in kde: @dirrm share/kde4/services
 @comment in kde: @dirrm share/kde/config.kcfg
 @comment in kde: @dirrm share/kde/autostart

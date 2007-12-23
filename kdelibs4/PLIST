@@ -3759,7 +3759,7 @@ share/mime/packages/kde.xml
 @dirrm lib/kde4/plugins/imageformats
 @dirrm include/threadweaver
 @dirrm include/sonnet
-@dirrm include/solid
+@comment in kde: @dirrm include/solid
 @dirrm include/phonon/experimental
 @dirrm include/phonon
 @dirrm include/kunittest

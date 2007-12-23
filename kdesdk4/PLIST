@@ -671,7 +671,7 @@ share/kde4/servicetypes/kateplugin.desktop
 @comment in kde: @dirrm share/kde4/servicetypes
 @dirrm share/kde4/services/kresources/kcal
 @comment in kde: @dirrm share/kde4/services/kded
-@dirrm share/kde4/services/ServiceMenus
+@comment in kde: @dirrm share/kde4/services/ServiceMenus
 @comment in kde: @dirrm share/kde4/services
 @comment in kde: @dirrm share/kde/config.kcfg
 @comment in kde: @dirrm share/kde/config

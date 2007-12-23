@@ -1642,7 +1642,7 @@ share/kde4/servicetypes/kpilotconduit.desktop
 @dirrm share/kde/apps/kaddressbook/icons
 @dirrm share/kde/apps/kaddressbook/csv-templates
 @dirrm share/kde/apps/kaddressbook
-@dirrm share/kde/apps/desktoptheme/default/widgets
+@comment in kde: @dirrm share/kde/apps/desktoptheme/default/widgets
 @comment in kde: @dirrm share/kde/apps/cmake/modules
 @dirrm share/kde/apps/akregator/pics
 @dirrm share/kde/apps/akregator/about
