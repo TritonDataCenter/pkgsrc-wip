@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	xf86-video-ati-6.7.191
+DISTNAME=	xf86-video-ati-6.7.197
 CATEGORIES=	x11
 MASTER_SITES=	http://xorg.freedesktop.org/releases/individual/driver/
 EXTRACT_SUFX=	.tar.bz2
