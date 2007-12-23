@@ -14,11 +14,13 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 USE_LANGUAGES=		c
 
 PKGDOCDIR=		${PREFIX}/share/doc/${PKGBASE}
-INSTALLATION_DIRS+=	${PKGDOCDIR} bin share/runawk
+
+AUTO_MKDIRS=		yes
 
 DOC_FILES=		README NEWS ChangeLog
 
-MAKE_FLAGS+=		PREFIX=${PREFIX}
+MAKE_ENV+=		PREFIX=${PREFIX}
+MAKE_ENV+=		MKCATPAGES=no
 
 post-install:
 .for i in ${DOC_FILES}
