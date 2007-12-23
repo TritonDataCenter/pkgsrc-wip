@@ -18,7 +18,7 @@ INSTALLATION_DIRS+=	${PKGDOCDIR} bin share/runawk
 
 DOC_FILES=		README NEWS ChangeLog
 
-MAKE_FLAGS+=		PREFIX=${PREFIX:Q}
+MAKE_FLAGS+=		PREFIX=${PREFIX}
 
 post-install:
 .for i in ${DOC_FILES}
