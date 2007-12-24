@@ -63,7 +63,7 @@ DEPENDS+=		zonetab-[0-9]*:../../time/zonetab
 # Avahi ? rather than mDNSResponder
 .include "../../net/mDNSResponder/buildlink3.mk"
 .include "../../security/openssl/buildlink3.mk"
-.include "../../sysutils/fam/buildlink3.mk"
+.include "../../mk/fam.buildlink3.mk"
 .include "../../textproc/aspell/buildlink3.mk"
 .include "../../textproc/enchant/buildlink3.mk"
 .include "../../textproc/libxml2/buildlink3.mk"
