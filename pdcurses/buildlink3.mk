@@ -14,10 +14,17 @@ BUILDLINK_ORDER:=	${BUILDLINK_ORDER} ${BUILDLINK_DEPTH}pdcurses
 .if ${PDCURSES_BUILDLINK3_MK} == "+"
 BUILDLINK_API_DEPENDS.pdcurses+=	pdcurses>=3.1
 BUILDLINK_PKGSRCDIR.pdcurses?=	../../wip/pdcurses
-BUILDLINK_TRANSFORM+=		l:panel:xpanel
 .endif	# PDCURSES_BUILDLINK3_MK
 
-.include "../../x11/libXaw/buildlink3.mk"
+.include "../../mk/xaw.buildlink3.mk"
+
+.include "../../x11/libICE/buildlink3.mk"
+.include "../../x11/libSM/buildlink3.mk"
+.include "../../x11/libX11/buildlink3.mk"
+.include "../../x11/libXext/buildlink3.mk"
+.include "../../x11/libXmu/buildlink3.mk"
+.include "../../x11/libXpm/buildlink3.mk"
 .include "../../x11/libXp/buildlink3.mk"
+.include "../../x11/libXt/buildlink3.mk"
 
 BUILDLINK_DEPTH:=		${BUILDLINK_DEPTH:S/+$//}

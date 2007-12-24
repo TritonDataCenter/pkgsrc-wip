@@ -7,7 +7,7 @@ $NetBSD$
  		MH_X11_LIBS="neXtaw Xmu Xt X11"
  	else
 -		MH_X11_LIBS="Xaw Xmu Xt X11"
-+		MH_X11_LIBS="Xaw${LIBXAW_SUFX} Xmu Xt X11"
++		MH_X11_LIBS="${PDCURSES_LIBXAW} Xmu Xt X11"
  	fi
  fi
  MH_X11R6_LIBS="SM ICE Xext"
