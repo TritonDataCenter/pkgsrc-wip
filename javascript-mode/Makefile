@@ -17,13 +17,13 @@ SRCS=		javascript.el
 
 do-build:
 .for f in ${SRCS}
-	${EMACS_BIN:Q} --no-init-file --no-site-file -batch	\
+	${EMACS_BIN} --no-init-file --no-site-file -batch	\
 	      -f batch-byte-compile ${WRKSRC}/${f}
 .endfor
 
 do-install:
 	cd ${WRKSRC} && ${INSTALL_DATA} ${SRCS} ${SRCS:.el=.elc} 	\
-	   ${EMACS_LISPPREFIX:Q}
+	   ${EMACS_LISPPREFIX}
 
 .include "../../mk/emacs.mk"
 .include "../../mk/bsd.pkg.mk"
