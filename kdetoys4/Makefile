@@ -13,5 +13,6 @@ COMMENT=	Toys for the KDE integrated X11 desktop
 .include "../../graphics/hicolor-icon-theme/buildlink3.mk"
 .include "../../wip/kdelibs4/buildlink3.mk"
 .include "../../wip/kdebase-runtime4/buildlink3.mk"
+.include "../../wip/kdebase-workspace4/buildlink3.mk"
 
 .include "../../mk/bsd.pkg.mk"
