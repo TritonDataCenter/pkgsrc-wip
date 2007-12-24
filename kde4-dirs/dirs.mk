@@ -95,6 +95,8 @@ KDE4_DIRS+=	share/kde4/services/ScreenSavers
 KDE4_DIRS+=	share/kde4/services/ServiceMenus
 KDE4_DIRS+=	share/kde4/services/kded
 KDE4_DIRS+=	share/kde4/services/kresources
+KDE4_DIRS+=	share/kde4/services/kresources/kabc
+KDE4_DIRS+=	share/kde4/services/kresources/kcal
 KDE4_DIRS+=	share/kde4/servicetypes
 
 .if defined(_USE_KDE4_DIRS) && !empty(_USE_KDE4_DIRS)
