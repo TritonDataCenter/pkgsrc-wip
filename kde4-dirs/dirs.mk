@@ -91,6 +91,7 @@ KDE4_DIRS+=	share/kde/templates/.source
 KDE4_DIRS+=	share/kde/wallpapers
 KDE4_DIRS+=	share/kde4
 KDE4_DIRS+=	share/kde4/services
+KDE4_DIRS+=	share/kde4/services/ScreenSavers
 KDE4_DIRS+=	share/kde4/services/ServiceMenus
 KDE4_DIRS+=	share/kde4/services/kded
 KDE4_DIRS+=	share/kde4/services/kresources

@@ -981,7 +981,7 @@ share/sounds/pop.wav
 @dirrm share/kde4/services/solidbackends
 @dirrm share/kde4/services/kwin
 @comment in kde: @dirrm share/kde4/services/kded
-@dirrm share/kde4/services/ScreenSavers
+@comment in kde: @dirrm share/kde4/services/ScreenSavers
 @comment in kde: @dirrm share/kde4/services
 @comment in kde: @dirrm share/kde/wallpapers
 @exec ${MKDIR} %D/share/kde/config/kdm/sessions
