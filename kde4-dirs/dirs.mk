@@ -60,6 +60,7 @@ KDE4_DIRS+=	share/kde/apps/desktoptheme/default/widgets
 KDE4_DIRS+=	share/kde/apps/katepart
 KDE4_DIRS+=	share/kde/apps/katepart/syntax
 KDE4_DIRS+=	share/kde/apps/kcm_componentchooser
+KDE4_DIRS+=	share/kde/apps/kcharselect
 KDE4_DIRS+=	share/kde/apps/kconf_update
 KDE4_DIRS+=	share/kde/apps/kcontrol
 KDE4_DIRS+=	share/kde/apps/kcontrol/pics
