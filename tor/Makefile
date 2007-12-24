@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		tor-0.2.0.13-alpha
+DISTNAME=		tor-0.2.0.14-alpha
 PKGNAME=		${DISTNAME:S/-alpha//}
 CATEGORIES=		net security
 MASTER_SITES=		http://tor.eff.org/dist/
