@@ -5,7 +5,7 @@ DISTNAME=	uffizi.txt
 PKGNAME=	uffizi-0.5
 CATEGORIES=	www graphics perl5
 MASTER_SITES=	http://jmason.org/software/uffizi/
-EXTRACT_SUFX=   #	
+EXTRACT_SUFX=   #
 
 MAINTAINER=	cherrymathew@users.sourceforge.net
 HOMEPAGE=	http://jmason.org/software/uffizi/
