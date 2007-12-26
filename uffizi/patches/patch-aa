@@ -18,7 +18,7 @@ $NetBSD$
    my $out = $tmpl;
  
    1 while $out =~ s!__TEMPLATE:([_a-zA-Z0-9]+)__! $template{$1} !xgs;
-+  1 while $out =~ s!__INCLUDEFILE:[\"\']([_a-zA-Z0-9\./]+)[\"\']! include_file ($1); !xgse;
++  1 while $out =~ s!__INCLUDEFILE:[\"\']([_a-zA-Z0-9\./\-]+)[\"\']! include_file ($1); !xgse;
  
    # conditionals
    if ($out =~ /<__COND_IF_/) {
