@@ -33,10 +33,24 @@ REPLACE_FILES.csh=	platform/unix/rexx.csh
 REPLACE_INTERPRETER+=	rexx
 REPLACE.rexx.old=	.*/bin/rexx
 REPLACE.rexx.new=	${PREFIX}/bin/rexx
-REPLACE_FILES.rexx=
-.for f in `ls ${WRKSRC}/samples/`
-REPLACE_FILES.rexx+=	samples/${f}
-.endfor
+REPLACE_FILES.rexx=	samples/ccreply.rex \
+			samples/complex.rex \
+			samples/factor.rex \
+			samples/greply.rex \
+			samples/guess.rex \
+			samples/ktguard.rex \
+			samples/makestring.rex \
+			samples/month.rex \
+			samples/pipe.rex \
+			samples/properties.rex \
+			samples/qdate.rex \
+			samples/qtime.rex \
+			samples/rexxcps.rex \
+			samples/rexxtry.rex \
+			samples/semcls.rex \
+			samples/stack.rex \
+			samples/usecomp.rex \
+			samples/usepipe.rex
 
 .include "../../mk/pthread.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
