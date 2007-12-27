@@ -5,8 +5,8 @@
 PKGNAME=	heirloom-priocntl-${HEIRLOOM_VER}
 CATEGORIES=	textproc
 
-NOT_FOR_PLATFORM+=	Linux-*-*
-NOT_FOR_PLATFORM+=	Interix-*-*
+ONLY_FOR_PLATFORM+=	Linux-*-*
+ONLY_FOR_PLATFORM+=	FreeBSD-*-*
 
 MAKE_FLAGS+=		SUBDIRS="build priocntl"
 
