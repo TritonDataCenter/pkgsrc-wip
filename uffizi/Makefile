@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	uffizi.txt
-PKGNAME=	uffizi-0.5
+PKGNAME=	uffizi-0.7
 CATEGORIES=	www graphics perl5
 MASTER_SITES=	http://jmason.org/software/uffizi/
 EXTRACT_SUFX=   #
