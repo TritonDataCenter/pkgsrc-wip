@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		ecl-0.9i
+DISTNAME=		ecl-0.9j
 CATEGORIES=		lang
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=ecls/}
 EXTRACT_SUFX=		.tgz
@@ -25,5 +25,8 @@ MAKE_JOBS_SAFE=		no
 
 post-extract:
 	${MKDIR} ${WRKSRC}
+post-install:
+	${INSTALL_DATA_DIR} share/doc/${PKGNAME}/html
+	${INSTALL_DATA} ${WRKDIR}/${DISTNAME}/doc/*
 
 .include "../../mk/bsd.pkg.mk"
