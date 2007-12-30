@@ -1,0 +1,12 @@
+$NetBSD$
+
+--- src/LastFMHelper/controlinterface.h.orig	2007-09-20 12:16:10.000000000 +0200
++++ src/LastFMHelper/controlinterface.h
+@@ -24,6 +24,7 @@
+ 
+ #include <QObject>
+ #include <QMutex>
++#include <QCoreApplication>
+ 
+ class ControlInterface : public QObject
+ {
