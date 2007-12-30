@@ -31,6 +31,11 @@ OWN_DIRS=		${PKG_SYSCONFDIR}/kdm
 CONF_FILES+=		${PREFIX}/share/examples/kdebase-workspace4/ksysguarddrc \
 			${PKG_SYSCONFDIR}/ksysguarddrc
 
+REPLACE_PERL+= \
+	kcontrol/keys/convertShortcuts.pl \
+	kwin/data/kwin3_plugin.pl \
+	kwin/data/pluginlibFix.pl
+
 .include "../../mk/bsd.prefs.mk"
 .include "options.mk"
 

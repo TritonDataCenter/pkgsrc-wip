@@ -774,6 +774,7 @@ share/kde/config.kcfg/kwin.kcfg
 share/kde/config/background.knsrc
 share/kde/config/kdm.knsrc
 share/kde/config/kdm/README
+share/kde/config/kdm/Xaccess
 share/kde/config/kdm/Xreset
 share/kde/config/kdm/Xsession
 share/kde/config/kdm/Xsetup
