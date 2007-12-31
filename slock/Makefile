@@ -2,6 +2,7 @@
 
 DISTNAME=		slock-0.6
 CATEGORIES=		x11
+PKGREVISION=		1
 MASTER_SITES=		http://suckless.org/download/
 
 MAINTAINER=		cosmedbr@users.sourceforge.net
@@ -16,5 +17,5 @@ NO_CONFIGURE=		yes
 CFLAGS+=-DHAVE_SHADOW_H
 .endif
 
-.include "../../mk/x11.buildlink3.mk"
+.include "../../x11/libX11/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
