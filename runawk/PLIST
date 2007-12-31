@@ -9,4 +9,4 @@ share/runawk/alt_assert.awk
 share/runawk/max.awk
 share/runawk/min.awk
 @dirrm share/runawk
-@dirrm share/doc/${PKGBASE}
+@dirrm share/doc/runawk
