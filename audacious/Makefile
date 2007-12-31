@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		audacious-1.4.4
+DISTNAME=		audacious-1.4.5
 #PKGREVISION=		1
 CATEGORIES=		audio
 MASTER_SITES=		http://distfiles.atheme.org/
