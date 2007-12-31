@@ -15,7 +15,7 @@ USE_LANGUAGES=		c
 
 PKGDOCDIR=		${PREFIX}/share/doc/${PKGBASE}
 
-AUTO_MKDIRS=		yes
+INSTALLATION_DIRS=	share/runawk share/doc/runawk
 
 DOC_FILES=		README NEWS ChangeLog
 
