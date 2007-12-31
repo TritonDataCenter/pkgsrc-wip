@@ -1,24 +1,22 @@
 # $NetBSD$
 
-DISTNAME=	dictd-1.10.7
-PKGNAME=	libmaa-0.990
+DISTNAME=	dictd-1.10.10
+PKGNAME=	libmaa-1.0.0
 CATEGORIES=	textproc
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=dict/} \
 		ftp://ftp.dict.org/pub/dict/
 
 MAINTAINER=	cheusov@tut.by
 HOMEPAGE=	http://www.dict.org/
-COMMENT=	Library that provides many low-level data structures
+COMMENT=	Provides a few data structures and helpful functions
 
-WRKSRC=		${WRKDIR}/${DISTNAME}/libmaa
+WRKSRC=			${WRKDIR}/${DISTNAME}/libmaa
+BUILD_TARGET=		lib
 
 USE_TOOLS+=		gmake
 GNU_CONFIGURE=		yes
-BUILD_TARGET=		lib
-CONFIGURE_ARGS+=	--with-cflags=${CFLAGS:M*:Q}
-CONFIGURE_ARGS+=	--enable-shared
 
-PKGDOCDIR=	${PREFIX}/share/doc/${PKGBASE}
+PKGDOCDIR=		${PREFIX}/share/doc/${PKGBASE}
 INSTALLATION_DIRS+=	${PKGDOCDIR} lib include
 
 EXTRA_DOC_FILES=	COPYING.LIB README doc/libmaa.600dpi.ps
