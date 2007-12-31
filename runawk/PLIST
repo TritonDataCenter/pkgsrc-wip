@@ -1,10 +1,12 @@
 @comment $NetBSD$
 bin/runawk
 man/man1/runawk.1
-share/doc/${PKGBASE}/ChangeLog
-share/doc/${PKGBASE}/NEWS
-share/doc/${PKGBASE}/README
+share/doc/runawk/ChangeLog
+share/doc/runawk/NEWS
+share/doc/runawk/README
 share/runawk/abs.awk
 share/runawk/alt_assert.awk
 share/runawk/max.awk
 share/runawk/min.awk
+@dirrm share/runawk
+@dirrm share/doc/${PKGBASE}
