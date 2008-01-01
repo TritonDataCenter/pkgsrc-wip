@@ -6,7 +6,7 @@ $NetBSD$
      //determine the free space available on the device
      const char *path=mountPoint.toAscii().constData();
  
-+#ifdef ST_RDONLY
++#ifdef HAVE_STATVFS
 +    struct statvfs fs_obj;
 +    if (statvfs(path,&fs_obj) < 0){
 +        return -1;
