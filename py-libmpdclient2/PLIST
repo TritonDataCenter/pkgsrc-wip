@@ -1,0 +1,4 @@
+@comment $NetBSD$
+${PYSITELIB}/mpdclient2.py
+${PYSITELIB}/mpdclient2.pyc
+${PYSITELIB}/mpdclient2.pyo
