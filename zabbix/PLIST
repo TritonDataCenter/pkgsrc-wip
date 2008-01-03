@@ -4,6 +4,10 @@ sbin/zabbix_agentd
 sbin/zabbix_get
 sbin/zabbix_sender
 sbin/zabbix_server
+share/examples/zabbix/zabbix_agent.conf
+share/examples/zabbix/zabbix_agentd.conf
+share/examples/zabbix/zabbix_server.conf
+share/examples/zabbix/zabbix_trapper.conf
 share/doc/zabbix/AUTHORS
 share/doc/zabbix/COPYING
 share/doc/zabbix/FAQ

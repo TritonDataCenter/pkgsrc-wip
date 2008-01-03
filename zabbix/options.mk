@@ -40,7 +40,7 @@ CONFIGURE_ARGS+=	--with-mysql
 .include "../../mk/mysql.buildlink3.mk"
 .endif
 
-.if !empty(PKG_OPTIONS:Mcurl)
+.if !empty(PKG_OPTIONS:Mcurl) || !empty(PKG_OPTIONS:Mzabbix-server)
 CONFIGURE_ARGS+=	--with-libcurl
 .include "../../www/curl/buildlink3.mk"
 .endif
