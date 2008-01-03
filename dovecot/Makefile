@@ -47,6 +47,8 @@ SUBST_FILES.paths=	dovecot-example.conf
 SUBST_SED.paths+=	-e 's,@PREFIX@,${PREFIX},g'
 SUBST_STAGE.paths=	pre-configure
 
+BUILD_DEFS+=		VARBASE
+
 post-build:
 	${SED} "s|/etc/ssl/|${SSLDIR}/|" ${WRKSRC}/dovecot-example.conf \
 						> ${WRKDIR}/dovecot-example.conf
