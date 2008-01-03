@@ -2,6 +2,7 @@
 #
 
 DISTNAME=		pizza-1.1
+PKGREVISION=		1
 CATEGORIES=		lang
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=pizzacompiler/}
 EXTRACT_SUFX=		.jar
@@ -11,21 +12,15 @@ HOMEPAGE=		http://pizzacompiler.sourceforge.net/
 COMMENT=		Pizza language is an extension to Java
 
 WRKSRC=			${WRKDIR}
-
-do-extract:
+AUTO_MKDIRS=		yes
+USE_TOOLS+=		printf
 
 do-build:
+	printf "#! ${SH}\\nexec ${JAVA_BINPREFIX}-java -jar ${PREFIX}/lib/java/${DISTNAME}.jar \"\$$@\"\\n" > ${WRKSRC}/pizza.sh
 
 do-install:
-	${INSTALL_DATA} ${DISTDIR}/${DISTNAME}.jar \
-		${PREFIX}/bin/pizza.jar
-	${ECHO} "#!/bin/sh" > ${PREFIX}/bin/pizza
-	${ECHO} "if [ \"\" = \"\`echo \$$CLASSPATH|grep pizza.jar\`\" ];then" >> ${PREFIX}/bin/pizza
-	${ECHO} "echo \"WARNING: You must add ${PREFIX}/bin/pizza.jar to CLASSPATH\"" >> ${PREFIX}/bin/pizza
-	${ECHO} "fi" >> ${PREFIX}/bin/pizza
-	${ECHO} "CLASSPATH=${PREFIX}/bin/pizza.jar:${CLASSPATH}" >> ${PREFIX}/bin/pizza
-	${ECHO} "java -jar ${PREFIX}/bin/pizza.jar \$$*" >> ${PREFIX}/bin/pizza
-	${CHMOD} +x ${PREFIX}/bin/pizza
+	${INSTALL_SCRIPT} ${WRKSRC}/pizza.sh ${PREFIX}/bin/pizza
+	${INSTALL_DATA} ${WRKSRC}/${DISTNAME}.jar ${PREFIX}/lib/java/
 
 .include "../../mk/java-vm.mk"
 .include "../../mk/bsd.pkg.mk"
