@@ -27,6 +27,7 @@ lib/audacious/Input/metronom.so
 lib/audacious/Input/modplug.so
 lib/audacious/Input/musepack.so
 lib/audacious/Input/sexypsf.so
+${SID}lib/audacious/Input/sid.so
 ${MIDI}lib/audacious/Input/libtimidity.so
 lib/audacious/Input/tonegen.so
 lib/audacious/Input/tta.so
