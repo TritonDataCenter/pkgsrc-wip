@@ -13,6 +13,7 @@ COMMENT=	Provides a few data structures and helpful functions
 WRKSRC=			${WRKDIR}/${DISTNAME}/libmaa
 BUILD_TARGET=		lib
 
+USE_LIBTOOL=		yes
 USE_TOOLS+=		gmake
 GNU_CONFIGURE=		yes
 
