@@ -3,3 +3,4 @@ $NetBSD$
 SHA1 (kdegames-3.97.0.tar.bz2) = 1410f67e4d6cd340e9b8b3dbb5c2b3a82133e810
 RMD160 (kdegames-3.97.0.tar.bz2) = cbf254420ab9402a2e4174321fefa78eb3d498f2
 Size (kdegames-3.97.0.tar.bz2) = 27926437 bytes
+SHA1 (patch-aa) = 248ac75a6e76dae6f5648a10e7f73dfa5eb0944b
