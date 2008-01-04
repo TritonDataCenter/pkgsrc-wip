@@ -41,15 +41,13 @@ GNU_CONFIGURE=		YES
 UNLIMIT_RESOURCES=	stacksize
 USE_LIBTOOL=		YES
 USE_GNU_READLINE=	YES
-#MODULES+=		--with-module=pcre --with-module=rawsock
-#MODULES+=		--with-module=wildcard --with-module=zlib
 CONFIGURE_ARGS+=	--without-included-regex
-CONFIGURE_ARGS+=	${MODULES}
 TEST_TARGET=		check
 MAKE_ENV+=		TOOLS_PLATFORM.install=${TOOLS_PLATFORM.install:Q}
 MAKE_FLAGS+=		mandir=${PREFIX}/${PKGMANDIR}
 MAKE_JOBS_SAFE=		no
 
+.include "options.mk"
 
 .include "../../converters/libiconv/buildlink3.mk"
 .include "../../devel/gettext-lib/buildlink3.mk"
