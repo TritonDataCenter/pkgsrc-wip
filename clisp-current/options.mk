@@ -26,6 +26,3 @@ CONFIGURE_ARGS+=	--with-module=postgresql
 CONFIGURE_ARGS+=	--with-module=gdbm
 .include "../../databases/gdbm/buildlink3.mk"
 .endif
-
-
-CONFIGURE_ARGS+=	${MODULES}
