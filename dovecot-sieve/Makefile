@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=		dovecot-sieve-1.1.2
+DISTNAME=		dovecot-sieve-1.1.3
 CATEGORIES=		mail
 MASTER_SITES=		http://www.dovecot.org/releases/sieve/
 
