@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	foo2zjs-20071007
+DISTNAME=	foo2zjs-20080105
 CATEGORIES=	wip
 MASTER_SITES=	http://www.stack.nl/~martijnb/foo2zjs/
 EXTRACT_SUFX=	.tgz
