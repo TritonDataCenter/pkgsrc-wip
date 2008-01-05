@@ -58,7 +58,6 @@ CONFIGURE_ARGS+=	--disable-mmap
 BUILDLINK_API_DEPENDS.libsigsegv+=	libsigsegv>=2.4
 .include "../../devel/libsigsegv/buildlink3.mk"
 .include "../../devel/readline/buildlink3.mk"
-#.include "../../devel/pcre/buildlink3.mk"
 .include "../../devel/glib2/buildlink3.mk"
 BUILDLINK_API_DEPENDS.zlib+=	zlib>=1.2
 .include "../../devel/zlib/buildlink3.mk"
