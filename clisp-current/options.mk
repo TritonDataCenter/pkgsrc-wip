@@ -2,6 +2,7 @@
 
 PKG_OPTIONS_VAR=		PKG_OPTIONS.clisp-current
 
+PKG_SUPPORTED_OPTIONS+=		ffcall	# this option is essential for others to work
 PKG_SUPPORTED_OPTIONS+=		pgsql gdbm bdb pcre rawsock pari fastcgi wildcard gtk2 zlib
 
 PKG_OPTIONS_OPTIONAL_GROUPS=	x11-bindings
@@ -19,6 +20,11 @@ PLIST_SUBST+=	${module}=""
 PLIST_SUBST+=	${module}="@comment "
 .endif
 .endfor
+
+# ffcall is require for other options
+.if !empty(PKG_OPTIONS:Mpgsql)
+PKG_OPTIONS+=	ffcall
+.endif
 
 .if !empty(PKG_OPTIONS:Mffcall)
 CONFIGURE_ARGS+=	--with-module=ffcall

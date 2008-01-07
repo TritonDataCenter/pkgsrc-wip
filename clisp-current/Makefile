@@ -65,7 +65,6 @@ BUILDLINK_API_DEPENDS.libsigsegv+=	libsigsegv>=2.4
 .include "../../devel/libsigsegv/buildlink3.mk"
 .include "../../devel/readline/buildlink3.mk"
 .include "../../devel/glib2/buildlink3.mk"
-.include "../../devel/ffcall/buildlink3.mk"
 
 .include "../../wip/mk/cvs-package.mk"
 .include "../../mk/bsd.pkg.mk"
