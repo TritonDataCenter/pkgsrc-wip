@@ -778,8 +778,8 @@ share/kde4/servicetypes/kresources_plugin.desktop
 @dirrm share/kde/apps/libical/zoneinfo/Africa
 @dirrm share/kde/apps/libical/zoneinfo
 @dirrm share/kde/apps/libical
-@dirrm share/kde/apps/kabc/formats
-@dirrm share/kde/apps/kabc
+@comment in kde: @dirrm share/kde/apps/kabc/formats
+@comment in kde: @dirrm share/kde/apps/kabc
 @dirrm lib/gpgmepp
 @dirrm include/syndication/rss2
 @dirrm include/syndication/rdf
