@@ -24,7 +24,7 @@ MASTER_SITES=	ftp://ftp.openssl.org/snapshot/
 .  endif
 .endif
 
-#PKGREVISION=	1
+PKGREVISION=	1
 SVR4_PKGNAME=	ossl
 CATEGORIES=	security
 MAINTAINER=	j+pkgsrc@salmi.ch
@@ -112,10 +112,6 @@ PLIST_SRC=		${PLIST_SHLIB}
 PLIST_SRC+=		${PKGDIR}/PLIST.common
 PLIST_SUBST+=		SHLIB_VERSION=${OPENSSL_VERS:C/[^0-9]*$//}
 PLIST_SUBST+=		SHLIB_MAJOR=${OPENSSL_VERS:C/\..*$//}
-
-.if ${OPSYS} == "NetBSD"
-PKG_SYSCONFDIR.openssl?=	/etc/openssl
-.endif
 
 PKG_SYSCONFSUBDIR=	openssl
 CONF_FILES=		${PREFIX}/share/examples/openssl/openssl.cnf	\
