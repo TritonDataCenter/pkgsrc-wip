@@ -1,6 +1,6 @@
 $NetBSD$
 
---- etc/Makefile.orig	2007-09-27 13:23:19.000000000 -0300
+--- etc/Makefile.orig	2008-01-03 16:24:17.000000000 -0200
 +++ etc/Makefile
 @@ -24,5 +24,4 @@ include $(TOPDIR)/build/rules.mk
  ######################################
