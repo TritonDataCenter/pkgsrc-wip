@@ -10,16 +10,16 @@ PKG_SUPPORTED_OPTIONS+=		pgsql gdbm bdb pcre rawsock pari fastcgi wildcard gtk2 
 PKG_OPTIONS_OPTIONAL_GROUPS=	x11-bindings
 PKG_OPTIONS_GROUP.x11-bindings=	mit-clx new-clx
 
-PKG_SUGGESTED_OPTIONS+=		pcre rawsock
+PKG_SUGGESTED_OPTIONS+=		ffcall pcre rawsock
 
 .include "../../mk/bsd.prefs.mk"
 .include "../../mk/bsd.options.mk"
 
-.for module in ${PKG_SUPPORTED_OPTIONS}
-.if !empty(PKG_OPTIONS:M${module})
-PLIST_SUBST+=	${module}=""
+.for option in ${PKG_SUPPORTED_OPTIONS}
+.if !empty(PKG_OPTIONS:M${option})
+PLIST_SUBST+=	${option}=""
 .else
-PLIST_SUBST+=	${module}="@comment "
+PLIST_SUBST+=	${option}="@comment "
 .endif
 .endfor
 
@@ -29,7 +29,7 @@ PKG_OPTIONS+=	ffcall
 .endif
 
 .if !empty(PKG_OPTIONS:Mffcall)
-CONFIGURE_ARGS+=	--with-module=ffcall
+CONFIGURE_ARGS+=        --with-dynamic-ffi
 .  include "../../devel/ffcall/buildlink3.mk"
 .endif
 
