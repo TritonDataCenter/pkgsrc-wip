@@ -1,4 +1,0 @@
-@comment $NetBSD$
-bin/dmenu
-bin/dmenu_path
-man/man1/dmenu.1
