@@ -1,0 +1,3 @@
+@comment $NetBSD$
+bin/stumpwm
+info/stumpwm.info
