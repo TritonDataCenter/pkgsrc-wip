@@ -12,7 +12,7 @@ BUILDLINK_PACKAGES+=	ffmpeg
 
 .if !empty(FFMPEG_BUILDLINK3_MK:M+)
 BUILDLINK_API_DEPENDS.ffmpeg+=	ffmpeg>=20071004
-BUILDLINK_PKGSRCDIR.ffmpeg?=	../../multimedia/ffmpeg
+BUILDLINK_PKGSRCDIR.ffmpeg?=	../../wip/ffmpeg-devel
 .endif	# FFMPEG_BUILDLINK3_MK
 
 BUILDLINK_DEPTH:=     ${BUILDLINK_DEPTH:S/+$//}
