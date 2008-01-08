@@ -343,7 +343,6 @@ share/games/pydance/themes/gfx/64x64/vividesque.zip
 share/games/pydance/ui.py
 share/games/pydance/util.py
 @dirrm share/examples/pydance
-@dirrm share/games/pydance/songs
 @dirrm share/games/pydance/sound
 @dirrm share/games/pydance/images
 @dirrm share/games/pydance/themes/gfx/48x48/default

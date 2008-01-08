@@ -21,7 +21,7 @@ PYTHON_PATCH_SCRIPTS=	pydance.py
 
 do-build:
 	cd ${WRKSRC} && env ${MAKE_ENV} ${PYTHONBIN} setup.py
-	mkdir ${EXAMPLESDIR:Q}
+	mkdir ${EXAMPLESDIR}
 	sed s,@PREFIX@,${PREFIX}, < ${WRKSRC}/pydance.posix.cfg > ${EXAMPLESDIR}/pydance.cfg
 
 .include "../../lang/python/application.mk"

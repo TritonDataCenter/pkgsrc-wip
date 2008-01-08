@@ -38,7 +38,4 @@ share/examples/oops/tables/koi-win.tab
 share/examples/rc.d/oops
 @dirrm share/examples/oops/tables
 @dirrm share/examples/oops
-@dirrm etc/oops/tables
-@dirrm etc/oops
 @dirrm libexec/oops
-@dirrm oops
