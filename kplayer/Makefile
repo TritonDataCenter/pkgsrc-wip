@@ -2,6 +2,7 @@
 #
 
 DISTNAME=		kplayer-0.6.3
+PKGREVISION=		1
 CATEGORIES=		multimedia
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=kplayer/}
 EXTRACT_SUFX=		.tar.bz2
