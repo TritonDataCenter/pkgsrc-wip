@@ -30,6 +30,8 @@ OWN_DIRS=		${PKG_SYSCONFDIR}/kdm
 
 CONF_FILES+=		${PREFIX}/share/examples/kdebase-workspace4/ksysguarddrc \
 			${PKG_SYSCONFDIR}/ksysguarddrc
+CONF_FILES+=		${PREFIX}/share/examples/kdebase-workspace4/systemsettingsrc \
+			${PKG_SYSCONFDIR}/systemsettingsrc
 
 REPLACE_PERL+= \
 	kcontrol/keys/convertShortcuts.pl \
