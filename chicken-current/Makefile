@@ -13,6 +13,7 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 
 USE_TOOLS+=	gmake makeinfo
 USE_LIBTOOL=	yes
+INFO_FILES=	yes
 UNLIMIT_RESOURCES=	datasize
 
 # FIXME: is it needed still? (asau)
