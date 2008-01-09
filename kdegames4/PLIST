@@ -18,6 +18,7 @@ bin/kreversi
 bin/ksame
 bin/kshisen
 bin/kspaceduel
+bin/ksquares
 bin/ksudoku
 bin/ktuberling
 bin/kwin4
