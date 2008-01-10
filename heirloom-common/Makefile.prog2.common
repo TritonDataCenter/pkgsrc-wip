@@ -1,3 +1,4 @@
+# $NetBSD$
 .include "../../wip/heirloom-common/Makefile.prog.common"
 
 CONFLICTS+=	heirloom-toolchest-[0-9]*
