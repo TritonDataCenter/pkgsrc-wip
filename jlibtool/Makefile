@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	jlibtool-1.4
+PKGREVISION=	1
 CATEGORIES=	devel
 MASTER_SITES=	# empty
 DISTFILES=	# empty
@@ -15,6 +16,8 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 NO_CONFIGURE=		yes
 USE_BSD_MAKEFILE=	yes
 USE_FEATURES+=		snprintf
+
+AUTO_MKDIRS=		yes
 
 do-extract:
 .   if !exists(${WRKSRC})
