@@ -22,6 +22,7 @@ USE_TOOLS+=		gmake gawk makeinfo
 
 USE_GNU_CONFIGURE_HOST=	no
 CONFIGURE_ARGS+=	--with-lisp=clisp --with-x=no
+BUILD_DEPENDS+=		clisp:../../lang/clisp
 #CONFIGURE_ARGS+=	--with-lisp=sbcl --with-x=no
 
 USE_DESTDIR=		full
