@@ -6,7 +6,7 @@ PKGNAME=	clisp-2.43 # needed because of cvs-package.mk
 CATEGORIES=	lang
 MASTER_SITES=	#
 
-MAINTAINER=	asau@users.sourceforge.net
+MAINTAINER=	jfranz@bsdprojects.net
 HOMEPAGE=	http://clisp.cons.org/
 COMMENT=	CLISP, a Common Lisp implementation
 

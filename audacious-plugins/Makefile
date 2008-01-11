@@ -7,7 +7,7 @@ CATEGORIES=		audio
 MASTER_SITES=		http://distfiles.atheme.org/
 EXTRACT_SUFX=		.tgz
 
-MAINTAINER=		pkgsrc-users@NetBSD.org
+MAINTAINER=		jfranz@bsdprojects.net
 HOMEPAGE=		http://audacious-media-player.org/
 COMMENT=		Plugins for Audacious media player
 
