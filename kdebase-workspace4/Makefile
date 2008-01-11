@@ -68,6 +68,7 @@ post-install:
 
 .include "../../wip/kde4/kde4.mk"
 
+.include "../../devel/libusb/buildlink3.mk"
 .include "../../graphics/hicolor-icon-theme/buildlink3.mk"
 .include "../../wip/qimageblitz/buildlink3.mk"
 .include "../../wip/kdelibs4/buildlink3.mk"
@@ -75,6 +76,7 @@ post-install:
 .include "../../x11/libXcomposite/buildlink3.mk"
 .include "../../x11/libXdamage/buildlink3.mk"
 .include "../../x11/libXres/buildlink3.mk"
+.include "../../x11/libXxf86misc/buildlink3.mk"
 .include "../../x11/libXScrnSaver/buildlink3.mk"
 
 .include "../../mk/pam.buildlink3.mk"
