@@ -12,7 +12,7 @@ BUILDLINK_PACKAGES+=	kdebase-runtime
 BUILDLINK_ORDER:=	${BUILDLINK_ORDER} ${BUILDLINK_DEPTH}kdebase-runtime
 
 .if ${KDEBASE_RUNTIME_BUILDLINK3_MK} == "+"
-BUILDLINK_API_DEPENDS.kdebase-runtime+=	kdebase-runtime>=3.97.0
+BUILDLINK_API_DEPENDS.kdebase-runtime+=	kdebase-runtime4>=4.0.0
 BUILDLINK_PKGSRCDIR.kdebase-runtime?=	../../wip/kdebase-runtime4
 .endif	# KDEBASE_RUNTIME_BUILDLINK3_MK
 
