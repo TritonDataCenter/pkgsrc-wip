@@ -8,7 +8,7 @@ MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=libdbi-drivers/}
 
 MAINTAINER=	cheusov@tut.by
 HOMEPAGE=	http://libdbi-drivers.sourceforge.net/
-COMMENT=	sqlite driver for libdbi, a database abstraction
+COMMENT=	SQLite driver for libdbi, a database abstraction
 
 USE_LIBTOOL=		yes
 GNU_CONFIGURE=		yes
