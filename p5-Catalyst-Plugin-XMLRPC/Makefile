@@ -10,7 +10,7 @@ HOMEPAGE=	http://search.cpan.org/dist/Catalyst-Plugin-XMLRPC/
 COMMENT=	Dispatch XMLRPC with Catalyst
 
 DEPENDS+=	p5-Catalyst>=5.01:../../wip/p5-Catalyst
-DEPENDS+=	p5-RPC-XML>=0.45:../../wip/p5-RPC-XML
+DEPENDS+=	p5-RPC-XML>=0.45:../../net/p5-RPC-XML
 
 PERL5_REQD+=	5.8.0
 

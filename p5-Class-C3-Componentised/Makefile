@@ -9,7 +9,7 @@ MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=../../authors/id/A/AS/ASH/}
 MAINTAINER=	ggm@apnic.net
 COMMENT=	Class::C3::Componentised
 
-DEPENDS+=	p5-Class-C3>=0:../../devel/p5-Class-C3
+DEPENDS+=	p5-Class-C3>=0:../../wip/p5-Class-C3
 DEPENDS+=	p5-Class-Inspector>=0:../../devel/p5-Class-Inspector
 
 PERL5_PACKLIST=	auto/Class/C3/Componentised/.packlist
