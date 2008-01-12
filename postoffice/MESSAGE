@@ -1,5 +1,5 @@
 ===========================================================================
-$NetBSD:$
+$NetBSD$
 
 - Run	mv ${SYSCONFBASE}/mailer.conf ${SYSCONFBASE}/mailer.conf.sendmail
 	cp ${PREFIX}/share/examples/postoffice/mailer.conf ${SYSCONFBASE}/mailer.conf
