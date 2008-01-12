@@ -67,7 +67,7 @@ BUILDLINK_API_DEPENDS.inputproto+=	inputproto>=1.4
 BUILDLINK_API_DEPENDS.libxf86dga+=	libXxf86dga>=1.0.2
 BUILDLINK_API_DEPENDS.renderproto+=	renderproto>=0.9.3
 BUILDLINK_API_DEPENDS.randrproto+=	randrproto>=1.2.1
-BUILDLINK_API_DEPENDS.xf86dgaproto+=	xf86dgaproto>=2.0.3
+BUILDLINK_API_DEPENDS.xf86dgaproto+=	xf86dgaproto>=2.0.2
 
 post-extract:
 	${CP} ${FILESDIR}/modeline2c.awk ${WRKSRC}/hw/xfree86/common
