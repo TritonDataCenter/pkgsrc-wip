@@ -1,0 +1,5 @@
+@comment $NetBSD$
+man/man8/softflowctl.8
+man/man8/softflowd.8
+sbin/softflowctl
+sbin/softflowd
