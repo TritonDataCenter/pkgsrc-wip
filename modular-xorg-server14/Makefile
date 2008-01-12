@@ -87,7 +87,7 @@ pre-patch:
 # for GLX we already have the Mesa source
 .include "../../graphics/MesaLib/buildlink3.mk"
 .endif
-.include "../../wip/pixman/buildlink3.mk"
+.include "../../x11/pixman/buildlink3.mk"
 .include "../../x11/bigreqsproto/buildlink3.mk"
 .include "../../x11/compositeproto/buildlink3.mk"
 .include "../../x11/damageproto/buildlink3.mk"
