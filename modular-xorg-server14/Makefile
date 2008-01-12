@@ -1,6 +1,6 @@
 # $NetBSD: Makefile,v 1.19 2007/09/24 22:31:16 joerg Exp $
 
-DISTNAME=	xorg-server-1.4
+DISTNAME=	xorg-server-1.4.0.90
 PKGNAME=	modular-${DISTNAME}
 CATEGORIES=	x11
 MASTER_SITES=	http://xorg.freedesktop.org/releases/individual/xserver/
