@@ -1,0 +1,9 @@
+$NetBSD$
+
+--- Makefile.orig	2008-01-11 22:27:54.000000000 +0000
++++ Makefile
+@@ -0,0 +1,4 @@
++
++SUBDIR+=	src
++
++.include <bsd.subdir.mk>
