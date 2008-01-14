@@ -36,6 +36,7 @@ CONFLICTS=	SSLeay-[0-9]* ssleay-[0-9]*
 CRYPTO=		yes
 
 PKG_INSTALLATION_TYPES=	overwrite pkgviews
+PKG_DESTDIR_SUPPORT=	user-destdir
 
 .include "../../mk/bsd.prefs.mk"
 .include "../../mk/compiler.mk"
@@ -46,6 +47,7 @@ TEST_TARGET=		tests
 HAS_CONFIGURE=		yes
 CONFIGURE_SCRIPT=	./config
 CONFIGURE_ARGS+=	--prefix=${PREFIX:Q}
+CONFIGURE_ARGS+=	--install_prefix=${DESTDIR}
 CONFIGURE_ARGS+=	--openssldir=${PKG_SYSCONFDIR:Q}
 CONFIGURE_ARGS+=	shared threads
 
