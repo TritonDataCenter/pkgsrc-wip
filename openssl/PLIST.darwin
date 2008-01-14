@@ -1,7 +1,5 @@
 @comment $NetBSD$
 lib/libcrypto.${SHLIB_VERSION}.dylib
-lib/libcrypto.${SHLIB_MAJOR}.dylib
 lib/libcrypto.dylib
 lib/libssl.${SHLIB_VERSION}.dylib
-lib/libssl.${SHLIB_MAJOR}.dylib
 lib/libssl.dylib
