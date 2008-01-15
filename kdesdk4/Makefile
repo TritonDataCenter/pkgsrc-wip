@@ -32,6 +32,7 @@ REPLACE_PERL+= \
 
 INSTALLATION_DIRS+=	${PKGMANDIR}/man1
 
+BUILDLINK_DEPMETHOD.qt4-tools=	full
 .include "../../wip/kde4/kde4.mk"
 
 .include "../../devel/libiberty/buildlink3.mk"

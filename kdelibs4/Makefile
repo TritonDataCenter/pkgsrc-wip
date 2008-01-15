@@ -42,6 +42,7 @@ SUBST_SED.kdelibsfix=		-e 's:@LOCALBASE@:${LOCALBASE}:g'
 DEPENDS+=		zonetab-[0-9]*:../../time/zonetab
 .endif
 
+BUILDLINK_DEPMETHOD.qt4-tools=		full
 .include "../../wip/kde4/kde4.mk"
 
 # Soprano

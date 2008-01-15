@@ -6,8 +6,9 @@ COMMENT=	Utilities for the KDE integrated X11 desktop
 
 .include "../../wip/kde4/Makefile.kde4"
 
-BUILD_MAKE_FLAGS+= VERBOSE=1
+# BUILD_MAKE_FLAGS+= VERBOSE=1
 
+BUILDLINK_DEPMETHOD.qt4-tools=	full
 .include "../../wip/kde4/kde4.mk"
 
 .include "../../archivers/libzip/buildlink3.mk"
