@@ -52,11 +52,10 @@ CONFIGURE_ARGS+=	--enable-listext
 CONFIGURE_ARGS+=	--enable-murder
 CONFIGURE_ARGS+=	--enable-nntp
 CONFIGURE_ARGS+=	--enable-replication
-CONFIGURE_ARGS+=	--without-zephyr
 CONFIGURE_ARGS+=	--without-ucdsnmp
 
 PKG_OPTIONS_VAR=	PKG_OPTIONS.cyrus-imapd
-PKG_SUPPORTED_OPTIONS=	gssapi kerberos kerberos4
+PKG_SUPPORTED_OPTIONS=	gssapi kerberos kerberos4 ldap zephyr
 .include "../../mk/bsd.options.mk"
 
 .if !empty(PKG_OPTIONS:Mkerberos)
@@ -81,6 +80,24 @@ COMERRBASE=		${KRB5BASE}
 .else
 CONFIGURE_ARGS+=	--without-krb
 CONFIGURE_ARGS+=	--disable-gssapi
+.endif
+
+.if !empty(PKG_OPTIONS:Mldap)
+.  include "../../databases/openldap-client/buildlink3.mk"
+CONFIGURE_ARGS+=	--with-ldap=${BUILDLINK_PREFIX.openldap-client}
+PLIST_SUBST+=		LDAP=
+.else
+CONFIGURE_ARGS+=	--without-ldap
+PLIST_SUBST+=		LDAP="@comment "
+.endif
+
+.if !empty(PKG_OPTIONS:Mzephyr)
+.  include "../../chat/zephyr/buildlink3.mk"
+CONFIGURE_ARGS+=	--with-zephyr=${BUILDLINK_PREFIX.zephyr}
+PLIST_SUBST+=		LDAP=
+.else
+CONFIGURE_ARGS+=	--without-zephyr
+PLIST_SUBST+=		LDAP="@comment "
 .endif
 
 .if exists(/usr/bin/compile_et)
