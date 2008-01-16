@@ -10,6 +10,8 @@ CONFLICTS=	kopete-[0-9]*
 
 # BUILD_MAKE_FLAGS+= VERBOSE=1
 
+CMAKE_ARGS+=	-DWITH_Xmms:BOOL=OFF
+
 REPLACE_PERL+= \
 	kopete/kopete/kconf_update/kopete-account-0.10.pl \
 	kopete/kopete/kconf_update/kopete-pluginloader.pl
