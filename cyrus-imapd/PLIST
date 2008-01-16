@@ -22,7 +22,7 @@ cyrus/bin/cyrdump
 cyrus/bin/deliver
 cyrus/bin/fetchnews
 cyrus/bin/fud
-${IDLED}cyrus/bin/idled
+cyrus/bin/idled
 cyrus/bin/imapd
 cyrus/bin/ipurge
 cyrus/bin/lmtpd
