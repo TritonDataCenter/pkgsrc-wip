@@ -21,6 +21,7 @@ share/scite/SciTEImage.html
 share/scite/SciTELexer.html
 share/scite/SciTELua.html
 share/scite/SciTERegEx.html
+share/scite/abaqus.properties
 share/scite/abbrev.properties
 share/scite/ada.properties
 share/scite/asm.properties
@@ -66,6 +67,7 @@ share/scite/pov.properties
 share/scite/ps.properties
 share/scite/purebasic.properties
 share/scite/python.properties
+share/scite/r.properties
 share/scite/rebol.properties
 share/scite/ruby.properties
 share/scite/scriptol.properties
