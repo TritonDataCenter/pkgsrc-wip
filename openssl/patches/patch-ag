@@ -8,7 +8,7 @@ $NetBSD$
  	else \
 +		if ($(CC) -v 2>&1 | grep gcc) > /dev/null; then \
 +			WL="-Wl,"; DELIM=","; \
-+		else \ 
++		else \
 +			WL=""; DELIM=" "; \
 +		fi; \
  		SHLIB=lib$(LIBNAME).so; \
