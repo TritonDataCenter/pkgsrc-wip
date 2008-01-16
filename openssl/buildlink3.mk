@@ -16,11 +16,7 @@ BUILDLINK_ORDER:=	${BUILDLINK_ORDER} ${BUILDLINK_DEPTH}openssl
 .  include "../../mk/bsd.fast.prefs.mk"
 
 BUILDLINK_API_DEPENDS.openssl+=	openssl>=0.9.6m
-.  if defined(USE_FEATURES.openssl) && !empty(USE_FEATURES.openssl:Mthreads)
-BUILDLINK_ABI_DEPENDS.openssl+=	openssl>=0.9.7inb4
-.  else
-BUILDLINK_ABI_DEPENDS.openssl+=	openssl>=0.9.7inb1
-.  endif
+BUILDLINK_ABI_DEPENDS.openssl+=	openssl>=0.9.8g
 #XXX FIXME when in pkgsrc...
 BUILDLINK_PKGSRCDIR.openssl?=	../../wip/openssl
 
