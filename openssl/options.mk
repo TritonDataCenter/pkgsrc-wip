@@ -27,6 +27,7 @@ PLIST_SUBST+=		IDEA="@comment "
 .if !empty(PKG_OPTIONS:Mmdc2)
 # A license file is needed.
 OPENSSL_LICENSE+=	mdc2-nonlicense
+CONFIGURE_ARGS+=	enable-mdc2
 PLIST_SUBST+=		MDC2=
 .else
 CONFIGURE_ARGS+=	no-mdc2
@@ -40,6 +41,7 @@ PLIST_SUBST+=		MDC2="@comment "
 .if !empty(PKG_OPTIONS:Mrc5)
 # A license file is needed.
 OPENSSL_LICENSE+=	rc5-nonlicense
+CONFIGURE_ARGS+=	enable-rc5
 PLIST_SUBST+=		RC5=
 .else
 CONFIGURE_ARGS+=	no-rc5
