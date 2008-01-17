@@ -79,11 +79,11 @@ OWN_DIRS_PERMS+=	${f} ${JABBERD_USER} ${JABBERD_GROUP} 770
 
 post-extract:
 .for f in ${FILES}
-	@mv ${WRKSRC}/etc/${f}.dist.in ${WRKSRC}/etc/${f}.in
+	mv ${WRKSRC}/etc/${f}.dist.in ${WRKSRC}/etc/${f}.in
 .endfor
 
 pre-configure:
-.for f in ${FILES} # jabberd.cfg
+.for f in ${FILES}
 	sed								\
 		-e "s|@PKG_SYSCONFDIR@|${PKG_SYSCONFDIR}|g"		\
 		-e "s|@PIDDIR@|${JABBERD_PIDDIR}|g"			\
