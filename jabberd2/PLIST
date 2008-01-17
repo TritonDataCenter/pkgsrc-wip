@@ -33,6 +33,7 @@ lib/jabberd/mod_offline.la
 lib/jabberd/mod_presence.la
 lib/jabberd/mod_privacy.la
 lib/jabberd/mod_roster.la
+lib/jabberd/mod_roster-publish.la
 lib/jabberd/mod_session.la
 lib/jabberd/mod_status.la
 lib/jabberd/mod_template-roster.la
