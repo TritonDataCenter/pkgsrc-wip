@@ -1,0 +1,4 @@
+@comment $NetBSD$
+bin/p2ktest
+include/p2kmoto.h
+lib/libp2kmoto.la
