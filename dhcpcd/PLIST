@@ -1,0 +1,4 @@
+@comment $NetBSD$
+sbin/dhcpcd
+man/man8/dhcpcd.8
+share/examples/rc.d/dhcpcd
