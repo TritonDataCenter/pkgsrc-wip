@@ -2,6 +2,7 @@
 #
 
 DISTNAME=		siege-2.66
+PKGREVISION=		1
 CATEGORIES=		www
 MASTER_SITES=		ftp://sid.joedog.org/pub/siege/
 

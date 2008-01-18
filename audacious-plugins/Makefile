@@ -3,6 +3,7 @@
 
 DISTNAME=		audacious-plugins-1.4.4
 #PKGREVISION=		1
+PKGREVISION=		1
 CATEGORIES=		audio
 MASTER_SITES=		http://distfiles.atheme.org/
 EXTRACT_SUFX=		.tgz

@@ -1,6 +1,7 @@
 # $NetBSD$
 
 DISTNAME=	opensc-0.10.1
+PKGREVISION=	1
 CATEGORIES=	security
 MASTER_SITES=	http://www.opensc-project.org/files/opensc/
 

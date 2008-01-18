@@ -2,6 +2,7 @@
 # FreeBSD Id: Makefile,v 1.9 2005/11/09 07:48:10 pav Exp
 
 DISTNAME=	ejabberd-1.1.3
+PKGREVISION=	1
 CATEGORIES=	chat
 MASTER_SITES=	http://www.jabber.ru/files/ejabberd/ \
 		http://www.process-one.net/en/projects/ejabberd/download/${PKGVERSION}/

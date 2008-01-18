@@ -3,6 +3,7 @@
 
 DISTNAME=	libdbi-drivers-0.8.2-1
 PKGNAME=	${DISTNAME:S/libdbi-drivers/libdbi-pgsql/}
+PKGREVISION=	1
 CATEGORIES=	databases devel
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=libdbi-drivers/}
 

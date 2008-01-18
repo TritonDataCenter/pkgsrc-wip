@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	StepTalk-0.10.0
+PKGREVISION=	1
 CATEGORIES=	gnustep devel
 MASTER_SITES=	${MASTER_SITE_GNUSTEP:=libs/}
 

@@ -13,6 +13,7 @@ BUILDLINK_ORDER:=	${BUILDLINK_ORDER} ${BUILDLINK_DEPTH}kdebase-workspace
 
 .if ${KDEBASE_WORKSPACE_BUILDLINK3_MK} == "+"
 BUILDLINK_API_DEPENDS.kdebase-workspace+=	kdebase-workspace4>=4.0.0
+BUILDLINK_ABI_DEPENDS.kdebase-workspace?=	kdebase-workspace4>=4.0.0nb1
 BUILDLINK_PKGSRCDIR.kdebase-workspace?=	../../wip/kdebase-workspace4
 .endif	# KDEBASE_WORKSPACE_BUILDLINK3_MK
 

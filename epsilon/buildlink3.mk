@@ -13,6 +13,7 @@ BUILDLINK_ORDER:=	${BUILDLINK_ORDER} ${BUILDLINK_DEPTH}epsilon
 
 .if ${EPSILON_BUILDLINK3_MK} == "+"
 BUILDLINK_API_DEPENDS.epsilon+=	epsilon>=0.3.0.011
+BUILDLINK_ABI_DEPENDS.epsilon?=	epsilon>=0.3.0.011nb1
 BUILDLINK_PKGSRCDIR.epsilon?=	../../wip/epsilon
 .endif	# EPSILON_BUILDLINK3_MK
 

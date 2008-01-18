@@ -13,6 +13,7 @@ BUILDLINK_ORDER:=	${BUILDLINK_ORDER} ${BUILDLINK_DEPTH}kdelibs
 
 .if ${KDELIBS_BUILDLINK3_MK} == "+"
 BUILDLINK_API_DEPENDS.kdelibs+=	kdelibs4>=4.0.0
+BUILDLINK_ABI_DEPENDS.kdelibs?=	kdelibs4>=4.0.0nb1
 BUILDLINK_PKGSRCDIR.kdelibs?=	../../wip/kdelibs4
 .endif	# KDELIBS_BUILDLINK3_MK
 

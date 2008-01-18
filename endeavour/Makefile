@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	endeavour-2.7.3
+PKGREVISION=	1
 CATEGORIES=	sysutils
 MASTER_SITES=	http://wolfpack.twu.net/users/wolfpack/
 EXTRACT_SUFX=	.tgz

@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	ftpd-tls-20031008
+PKGREVISION=	1
 CATEGORIES=	net
 MASTER_SITES=	ftp://ftp.zeist.de/pub/distfiles/			\
 		ftp://ftp.runestig.com/pub/ftpd-tls/

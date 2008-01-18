@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	GSCommander-0.1
+PKGREVISION=	1
 CATEGORIES=	x11 gnustep
 MASTER_SITES=	http://www.nice.ch/~phip/
 

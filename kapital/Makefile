@@ -1,7 +1,7 @@
 # $NetBSD$
 
 DISTNAME=	kapital-1.1.030606
-PKGREVISION=	1
+PKGREVISION=	2
 CATEGORIES=	devel kde
 
 MAINTAINER=	greyskyy@users.sourceforge.net

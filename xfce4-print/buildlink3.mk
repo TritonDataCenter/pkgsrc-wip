@@ -13,6 +13,7 @@ BUILDLINK_ORDER:=	${BUILDLINK_ORDER} ${BUILDLINK_DEPTH}xfce4-print
 
 .if ${XFCE4_PRINT_BUILDLINK3_MK} == "+"
 BUILDLINK_API_DEPENDS.xfce4-print+=	xfce4-print>=4.4.1
+BUILDLINK_ABI_DEPENDS.xfce4-print?=	xfce4-print>=4.4.1
 BUILDLINK_PKGSRCDIR.xfce4-print?=	../../wip/xfce4-print
 .endif	# XFCE4_PRINT_BUILDLINK3_MK
 

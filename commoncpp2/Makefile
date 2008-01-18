@@ -2,6 +2,7 @@
 #
 
 DISTNAME=		commoncpp2-1.5.7
+PKGREVISION=		1
 CATEGORIES=		devel
 MASTER_SITES=		ftp://ftp.gnu.org/gnu/commonc++/
 

@@ -2,6 +2,7 @@
 #
 
 DISTNAME=		afflib-1.6.31
+PKGREVISION=		1
 CATEGORIES=		devel
 MASTER_SITES=		http://www.afflib.org/downloads/
 

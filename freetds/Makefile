@@ -12,6 +12,7 @@
 PKGNAME=	freetds-0.64alpha1
 
 DISTNAME=	freetds-current
+PKGREVISION=	1
 CATEGORIES=	databases
 MASTER_SITES=	ftp://ftp.ibiblio.org/pub/Linux/ALPHA/freetds/current/
 EXTRACT_SUFX=	.tgz

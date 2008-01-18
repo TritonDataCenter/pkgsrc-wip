@@ -2,6 +2,7 @@
 #
 
 DISTNAME=		noiptun-1.0
+PKGREVISION=		1
 CATEGORIES=		security
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=noiptun/}
 

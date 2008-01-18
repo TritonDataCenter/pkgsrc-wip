@@ -3,6 +3,7 @@
 
 DISTNAME=		nsopenssl-3.0b23-src
 PKGNAME=		aols-openssl-3.0b23
+PKGREVISION=		1
 CATEGORIES=		www
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=aolserver/}
 

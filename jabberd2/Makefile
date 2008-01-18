@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		jabberd-2.1.21
-# PKGREVISION=		1
+PKGREVISION=		2
 CATEGORIES=		chat
 MASTER_SITES=		http://ftp.xiaoka.com/jabberd2/releases/
 EXTRACT_SUFX=		.tar.bz2

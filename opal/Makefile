@@ -3,6 +3,7 @@
 
 DISTNAME=		opal-v2_2_4-src
 PKGNAME=		opal-2.2.4
+PKGREVISION=		1
 CATEGORIES=		net comms
 MASTER_SITES+=		http://www.voxgratia.org/releases/
 EXTRACT_SUFX=		-tar.gz

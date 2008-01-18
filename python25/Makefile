@@ -2,6 +2,7 @@
 
 DISTNAME=	Python-2.5.1
 PKGNAME=	python25-2.5.1
+PKGREVISION=	1
 CATEGORIES=	lang python
 MASTER_SITES=	ftp://ftp.python.org/pub/python/2.5.1/ \
 		http://www.python.org/ftp/python/2.5.1/

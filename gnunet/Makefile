@@ -3,6 +3,7 @@
 
 DISTNAME=	GNUnet-0.6.4a
 PKGNAME=	${DISTNAME:S/GNU/gnu/}
+PKGREVISION=	1
 CATEGORIES=	x11
 MASTER_SITES=	http://www.ovmj.org/GNUnet/download/
 EXTRACT_SUFX=	.tar.bz2

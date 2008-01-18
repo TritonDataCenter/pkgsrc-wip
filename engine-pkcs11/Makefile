@@ -3,6 +3,7 @@
 
 DISTNAME=		engine_pkcs11-0.1.3
 PKGNAME=	${DISTNAME:S/_/-/}
+PKGREVISION=		1
 CATEGORIES=		security
 MASTER_SITES=		http://www.opensc-project.org/files/engine_pkcs11/
 

@@ -2,6 +2,7 @@
 #
 
 DISTNAME=		xar-1.4
+PKGREVISION=		1
 CATEGORIES=		archivers
 MASTER_SITES=		http://www.opendarwin.org/projects/xar/
 

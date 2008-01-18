@@ -12,6 +12,7 @@ BUILDLINK_PACKAGES+=	engine-pkcs11
 
 .if !empty(ENGINE_PKCS11_BUILDLINK3_MK:M+)
 BUILDLINK_API_DEPENDS.engine-pkcs11+=	engine-pkcs11>=0.1.3
+BUILDLINK_ABI_DEPENDS.engine-pkcs11?=	engine-pkcs11>=0.1.3nb1
 BUILDLINK_PKGSRCDIR.engine-pkcs11?=	../../wip/engine-pkcs11
 .endif	# ENGINE_PKCS11_BUILDLINK3_MK
 

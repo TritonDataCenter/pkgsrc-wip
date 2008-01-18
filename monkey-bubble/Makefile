@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		monkey-bubble-0.1.6
-PKGREVISION=		2
+PKGREVISION=		3
 CATEGORIES=		games
 MASTER_SITES=		http://monkey-bubble.tuxfamily.org/
 

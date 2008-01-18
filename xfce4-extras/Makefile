@@ -5,6 +5,7 @@
 DISTNAME=	xfce4-extras-${XFCE4_VERSION}
 DISTFILES=	# empty
 #PKGREVISION=	1
+PKGREVISION=	1
 CATEGORIES=	meta-pkgs
 COMMENT=	Xfce extras
 

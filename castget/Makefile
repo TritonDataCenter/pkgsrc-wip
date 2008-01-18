@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	castget-1.0.1
+PKGREVISION=	1
 CATEGORIES=	audio www
 MASTER_SITES=	http://savannah.nongnu.org/download/castget/
 

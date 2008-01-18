@@ -15,6 +15,7 @@ BUILDLINK_ORDER:=	${BUILDLINK_ORDER} ${BUILDLINK_DEPTH}libssh2
 
 .if ${LIBSSH2_BUILDLINK3_MK} == "+"
 BUILDLINK_API_DEPENDS.libssh2+=	libssh2>=0.17
+BUILDLINK_ABI_DEPENDS.libssh2?=	libssh2>=0.17nb1
 BUILDLINK_PKGSRCDIR.libssh2?=	../../wip/libssh2
 
 pkgbase:=	libssh2

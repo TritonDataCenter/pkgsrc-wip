@@ -1,6 +1,7 @@
 # $NetBSD$
 
 DISTNAME=	dwepcrack-0.4
+PKGREVISION=	1
 CATEGORIES=	security
 MASTER_SITES=	http://www.unix-labs.org/pub/source/dwepcrack/
 

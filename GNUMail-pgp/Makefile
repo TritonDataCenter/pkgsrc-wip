@@ -3,6 +3,7 @@
 
 PKGNAME=	GNUMail-pgp-1.1.2
 DISTNAME=	GNUMail-1.1.2
+PKGREVISION=	1
 CATEGORIES=	mail security gnustep
 MASTER_SITES=	http://debian.uni-essen.de/misc/GNUstep/Apps/GNUMail/
 

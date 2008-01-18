@@ -1,6 +1,7 @@
 # $NetBSD: $
 
 DISTNAME=		nrpe-2.0
+PKGREVISION=		1
 CATEGORIES=		net sysutils
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=nagios/}
 

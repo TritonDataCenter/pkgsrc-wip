@@ -13,6 +13,7 @@ BUILDLINK_ORDER:=	${BUILDLINK_ORDER} ${BUILDLINK_DEPTH}libgtksourceviewmm
 
 .if ${LIBGTKSOURCEVIEWMM_BUILDLINK3_MK} == "+"
 BUILDLINK_API_DEPENDS.libgtksourceviewmm+=	libgtksourceviewmm>=0.3.1
+BUILDLINK_ABI_DEPENDS.libgtksourceviewmm?=	libgtksourceviewmm>=0.3.1nb2
 BUILDLINK_PKGSRCDIR.libgtksourceviewmm?=	../../wip/libgtksourceviewmm
 .endif	# LIBGTKSOURCEVIEWMM_BUILDLINK3_MK
 

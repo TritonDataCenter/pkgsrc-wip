@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	beryl-plugins-${BERYL_VERSION}
-PKGREVISION=	2
+PKGREVISION=	3
 CATEGORIES=	wm
 
 COMMENT=	Supported plugins for the Beryl compositor

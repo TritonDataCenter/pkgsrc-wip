@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	ezbounce-1.04c
+PKGREVISION=	1
 CATEGORIES=	chat
 MASTER_SITES=	http://druglord.freelsd.org/ezbounce/		\
 		http://www.shellcentral.com/downloads/files/	\

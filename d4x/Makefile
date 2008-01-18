@@ -2,6 +2,7 @@
 #
 
 DISTNAME=		d4x-2.5.6
+PKGREVISION=		1
 CATEGORIES=		net
 MASTER_SITES=		http://www.krasu.ru/soft/chuchelo/files/
 

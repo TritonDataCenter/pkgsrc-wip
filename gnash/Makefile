@@ -2,6 +2,7 @@
 #
 
 DISTNAME=		gnash-0.8.1
+PKGREVISION=		1
 CATEGORIES=		multimedia
 MASTER_SITES=		${MASTER_SITE_GNU:=gnash/0.8.1/}
 EXTRACT_SUFX=		.tar.bz2

@@ -2,6 +2,7 @@
 #
 
 DISTNAME=		libp11-0.2.1
+PKGREVISION=		1
 CATEGORIES=		security
 MASTER_SITES=		http://www.opensc-project.org/files/libp11/
 
