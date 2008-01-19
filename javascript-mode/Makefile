@@ -8,6 +8,7 @@ EXTRACT_SUFX=	.zip
 
 MAINTAINER=	cheusov@tut.by
 HOMEPAGE=	http://web.comhem.se/~u34308910/emacs.html
+#HOMEPAGE=	http://www.brgeight.se/
 COMMENT=	Javascript major mode for Emacs
 
 NO_CONFIGURE=	yes
