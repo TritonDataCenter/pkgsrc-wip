@@ -24,6 +24,8 @@ ONLY_FOR_PLATFORM=	NetBSD-[2-9]*-i386 DragonFly-*-i386
 
 .include "../../mk/bsd.prefs.mk"
 
+MOTIF_TYPE=		openmotif
+
 JVM_HOME=		${LOCALBASE}/java/jdk-1.4.2
 JAVA_HOME=		${JVM_HOME}
 JAVA_NAME=		jdk14
