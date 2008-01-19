@@ -23,10 +23,6 @@ PLIST_SRC=		PLIST.common
 
 ONLY_FOR_PLATFORM=	NetBSD-[2-9]*-i386
 
-.include "../../mk/bsd.prefs.mk"
-
-MOTIF_TYPE=openmotif
-
 JVM_HOME=		${LOCALBASE}/java/jdk-${JDK_VERSION}
 JAVA_HOME=		${JVM_HOME}
 JAVA_NAME=		jdk15
@@ -160,7 +156,6 @@ do-install:
 #		${JAVA_HOME}/jre/javaws/cacerts
 
 .include "../../mk/java-env.mk"
-.include "../../mk/motif.buildlink3.mk"
 .include "../../x11/libXi/buildlink3.mk"
 .include "../../x11/libXtst/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

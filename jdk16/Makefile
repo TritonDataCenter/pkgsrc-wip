@@ -23,10 +23,6 @@ PLIST_SRC=		PLIST.common
 
 ONLY_FOR_PLATFORM=	NetBSD-[2-9]*-i386
 
-.include "../../mk/bsd.prefs.mk"
-
-MOTIF_TYPE=openmotif
-
 JVM_HOME=		${LOCALBASE}/java/jdk-${JDK_VERSION}
 JAVA_HOME=		${JVM_HOME}
 JAVA_NAME=		jdk16
@@ -43,6 +39,9 @@ JAVA_WRAPPERS=		appletviewer jar java javac javadoc javah javap
 BUILD_DEPENDS+=		sun-jdk15>=1:../../lang/sun-jdk15
 MAKE_ENV+=		ALT_BOOTDIR=${LOCALBASE}/java/sun-1.5
 #.endif
+
+#For bootstrapping with wip/jdk15
+#MAKE_ENV+=		ALT_BOOTDIR=${PREFIX}/java/jdk-1.5.0
 
 # used to find "zip" and "unzipsfx"
 MAKE_FLAGS+=		M4=${M4:Q}
@@ -170,7 +169,6 @@ BUILDLINK_DEPMETHOD.cups?=	build
 .include "../../print/cups/buildlink3.mk"
 
 .include "../../mk/java-env.mk"
-.include "../../mk/motif.buildlink3.mk"
 .include "../../x11/libXi/buildlink3.mk"
 .include "../../x11/libXtst/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

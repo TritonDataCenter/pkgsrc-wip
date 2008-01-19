@@ -2,7 +2,7 @@
 
 post-extract:
 	@${CHMOD} -R u+w ${WRKSRC}
-	@cp ${PKGSRCDIR}/wip/jdk15/files/x_x2zip.c ${WRKSRC}
+	@cp ${PKGSRCDIR}/wip/jdk16/files/x_x2zip.c ${WRKSRC}
 	@cd ${WRKSRC} && ${CC} -o x_x2zip x_x2zip.c
 	@echo ""
 	@echo "=> You will now be shown two licenses. If you accept the terms"
