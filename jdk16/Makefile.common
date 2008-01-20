@@ -32,8 +32,8 @@ INTERACTIVE_STAGE+=	fetch
 MOTIF_TYPE=		openmotif
 .include "../../mk/motif.buildlink3.mk"
 
-GCC_REQD+=		3.0
-.if !empty(MACHINE_PLATFORM:MNetBSD-4*)
-USE_PKGSRC_GCC=		yes
-.endif
-.include "../../mk/compiler.mk"
+#GCC_REQD+=		3.0
+#.if !empty(MACHINE_PLATFORM:MNetBSD-4*)
+#USE_PKGSRC_GCC=		yes
+#.endif
+#.include "../../mk/compiler.mk"
