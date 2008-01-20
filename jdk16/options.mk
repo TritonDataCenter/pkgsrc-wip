@@ -2,12 +2,28 @@
 
 PKG_OPTIONS_VAR=		PKG_OPTIONS.jdk16
 PKG_SUPPORTED_OPTIONS=		jdk16-jce inet6 debug fastdebug # jdk16-plugin
-PKG_SUGGESTED_OPTIONS=		# jdk16-plugin 
+PKG_SUGGESTED_OPTIONS=		# jdk16-plugin
 PKG_OPTIONS_LEGACY_VARS+=	JDK16_USE_JCE:jdk16-jce
 
 # fixme
 #.include "../../www/seamonkey/gecko-options.mk"
 .include "../../mk/bsd.options.mk"
+
+.if empty(PKG_OPTIONS:Minet6)
+MAKE_ENV+=		DONT_ENABLE_IPV6=YES
+.endif
+
+.if empty(PKG_OPTIONS:Mdebug)
+MAKE_ENV+=		SKIP_DEBUG_BUILD=true
+.else
+MAKE_ENV+=		SKIP_DEBUG_BUILD=false
+.endif
+
+.if empty(PKG_OPTIONS:Mfastdebug)
+MAKE_ENV+=		SKIP_FASTDEBUG_BUILD=true
+.else
+MAKE_ENV+=		SKIP_FASTDEBUG_BUILD=false
+.endif
 
 ###
 ### Java(TM) Cryptography Extension (JCE)

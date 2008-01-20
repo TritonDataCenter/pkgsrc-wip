@@ -8,6 +8,10 @@ PKG_OPTIONS_LEGACY_VARS+=	JDK15_USE_JCE:jdk15-jce
 .include "../../www/seamonkey/gecko-options.mk"
 .include "../../mk/bsd.options.mk"
 
+.if empty(PKG_OPTIONS:Minet6)
+MAKE_ENV+=		DONT_ENABLE_IPV6=YES
+.endif
+
 ###
 ### Java(TM) Cryptography Extension (JCE)
 ###

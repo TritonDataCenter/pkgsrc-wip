@@ -14,6 +14,6 @@ post-extract:
 	@sh -c 'echo -n "=> Do you accept the terms of the license agreement? "; read ANS; if [ "$$ANS" != "yes" ]; then exit 1; fi'
 	cd ${WRKSRC} && unzip -p ${JRL_BINFILE} LICENSE | more
 	@sh -c 'echo -n "=> Do you accept the terms of the license agreement? "; read ANS; if [ "$$ANS" != "yes" ]; then exit 1; fi'
-	cd ${WRKSRC} && unzip ${JRL_BINFILE} X_X && ./x_x2zip 'YES I ACCEPT THE CLICK THROUGH LICENSE.  '  X_X && unzip X_X.zip
+	cd ${WRKSRC} && unzip -q ${JRL_BINFILE} X_X && ./x_x2zip 'YES I ACCEPT THE CLICK THROUGH LICENSE.  '  X_X && unzip -q X_X.zip
 	rm -f ${WRKSRC}/X_X
-	cd ${WRKSRC} && unzip ${JRL_SRCFILE} X_X && ./x_x2zip 'YES I ACCEPT THE CLICK THROUGH LICENSE.  '  X_X && unzip X_X.zip
+	cd ${WRKSRC} && unzip -q ${JRL_SRCFILE} X_X && ./x_x2zip 'YES I ACCEPT THE CLICK THROUGH LICENSE.  '  X_X && unzip -q X_X.zip
