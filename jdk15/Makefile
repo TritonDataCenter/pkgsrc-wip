@@ -143,17 +143,17 @@ post-patch:
 	${MKDIR} ${WRKSRC}/control/build/bsd-i586/lib/i386/server
 
 do-install:
-	${INSTALL_PROGRAM_DIR} ${JAVA_HOME}
-	cd ${JDKIMAGEDIR} && ${PAX} -rwp ma . ${JAVA_HOME}
-	${INSTALL_DATA_DIR} ${JAVA_HOME}/jre/.systemPrefs
-	${TOUCH} ${JAVA_HOME}/jre/.systemPrefs/.system.lock
-	${CHMOD} 644 ${JAVA_HOME}/jre/.systemPrefs/.system.lock
-	${TOUCH} ${JAVA_HOME}/jre/.systemPrefs/.systemRootModFile
-	${CHMOD} 644 ${JAVA_HOME}/jre/.systemPrefs/.systemRootModFile
+	${INSTALL_PROGRAM_DIR} ${DESTDIR}${JAVA_HOME}
+	cd ${JDKIMAGEDIR} && ${PAX} -rwp ma . ${DESTDIR}${JAVA_HOME}
+	${INSTALL_DATA_DIR} ${DESTDIR}${JAVA_HOME}/jre/.systemPrefs
+	${TOUCH} ${DESTDIR}${JAVA_HOME}/jre/.systemPrefs/.system.lock
+	${CHMOD} 644 ${DESTDIR}${JAVA_HOME}/jre/.systemPrefs/.system.lock
+	${TOUCH} ${DESTDIR}${JAVA_HOME}/jre/.systemPrefs/.systemRootModFile
+	${CHMOD} 644 ${DESTDIR}${JAVA_HOME}/jre/.systemPrefs/.systemRootModFile
 	${INSTALL_DATA} ${FILESDIR}/cacerts \
-		${JAVA_HOME}/jre/lib/security/cacerts
+		${DESTDIR}${JAVA_HOME}/jre/lib/security/cacerts
 #	 ${INSTALL_DATA} ${FILESDIR}/cacerts \
-#		${JAVA_HOME}/jre/javaws/cacerts
+#		${DESTDIR}${JAVA_HOME}/jre/javaws/cacerts
 
 .include "../../mk/java-env.mk"
 .include "../../x11/libXi/buildlink3.mk"
