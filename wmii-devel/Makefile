@@ -11,6 +11,7 @@ HOMEPAGE=		http://wmii.suckless.org/
 COMMENT=		Window manager improved 2
 
 CONFLICTS+=		wmii-[0-9]*
+DEPENDS+=		dmenu-[0-9]*:../../x11/dmenu
 
 NO_CONFIGURE=		yes
 
@@ -20,7 +21,6 @@ BUILD_DEFS+=		PKG_SYSCONFBASE
 #
 MAKE_JOBS_SAFE=no
 
-.include "../../x11/dmenu/buildlink3.mk"
 .include "../../devel/libixp/buildlink3.mk"
 .include "../../x11/xextproto/buildlink3.mk"
 .include "../../x11/libXext/buildlink3.mk"
