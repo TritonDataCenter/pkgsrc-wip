@@ -20,8 +20,8 @@ BUILD_DEFS+=		PKG_SYSCONFBASE
 #
 MAKE_JOBS_SAFE=no
 
-.include "../../wip/dmenu/buildlink3.mk"
-.include "../../wip/libixp/buildlink3.mk"
+.include "../../x11/dmenu/buildlink3.mk"
+.include "../../devel/libixp/buildlink3.mk"
 .include "../../x11/xextproto/buildlink3.mk"
 .include "../../x11/libXext/buildlink3.mk"
 .include "../../x11/libXt/buildlink3.mk"
