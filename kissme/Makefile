@@ -9,8 +9,8 @@ MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://kissme.sourceforge.net/
 COMMENT=		Java Virtual Machine (JVM) freely available
 
-DEPENDS+=		classpath>=0.7:../../lang/classpath/
-DEPENDS+=		zip>=2.3:../../archivers/zip/
+DEPENDS+=		classpath>=0.7:../../lang/classpath
+DEPENDS+=		zip>=2.3:../../archivers/zip
 
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
