@@ -1,8 +1,7 @@
 # $NetBSD: Makefile,v 1.42 2007/11/15 12:57:21 sborrill Exp $
 #
 
-DISTNAME=		jabberd-2.1.21
-PKGREVISION=		2
+DISTNAME=		jabberd-2.1.22
 CATEGORIES=		chat
 MASTER_SITES=		http://ftp.xiaoka.com/jabberd2/releases/
 EXTRACT_SUFX=		.tar.bz2
@@ -32,7 +31,8 @@ CONFIGURE_ARGS+=	--enable-pipe
 CONFIGURE_ARGS+=	--enable-anon
 CONFIGURE_ARGS+=	--enable-ssl
 CONFIGURE_ARGS+=	--enable-fs
-CONFIGURE_ARGS+=	--enable-sasl=gsasl	# gsasl is no longer optional
+CONFIGURE_ARGS+=	--with-sasl=gsasl	# only GNU sasl is
+						# really supported
 
 USE_TOOLS+=		perl:run
 REPLACE_PERL+=		tools/*.pl
