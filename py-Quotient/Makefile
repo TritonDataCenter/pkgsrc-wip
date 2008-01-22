@@ -14,7 +14,7 @@ DEPENDS+=		${PYPKGPREFIX}-Lupy>=0.2.1:../../textproc/py-Lupy
 DEPENDS+=		${PYPKGPREFIX}-twisted>=1.3.0:../../net/py-twisted
 DEPENDS+=		${PYPKGPREFIX}-spambayes>=1.0a7:../../wip/py-spambayes
 DEPENDS+=		${PYPKGPREFIX}-bsddb>=0:../../wip/py-bsddb
-DEPENDS+=		${PYPKGPREFIX}-nevow>=0.2.0:../../wip/py-nevow
+DEPENDS+=		${PYPKGPREFIX}-nevow>=0.2.0:../../www/py-nevow
 
 PY_PATCHPLIST=		yes
 PYDISTUTILSPKG=		yes
