@@ -47,11 +47,6 @@ MAKE_JOBS_SAFE=		no
 
 .include "../../mk/bsd.prefs.mk"
 
-.if ${OPSYS} == "NetBSD"
-# CLISP doesn't work with jemalloc, which is default in current
-CONFIGURE_ARGS+=	--with-gmalloc
-.endif
-
 .if ${MACHINE_ARCH:Malpha} || ${MACHINE_ARCH:Mamd64} || ${MACHINE_ARCH:Mx86_64} || ${OPSYS} == "DragonFly"
 CONFIGURE_ARGS+=	--disable-mmap
 .endif
