@@ -1,0 +1,5 @@
+@comment $NetBSD$
+bin/crf_learn
+bin/crf_test
+include/crfpp.h
+lib/libcrfpp.la
