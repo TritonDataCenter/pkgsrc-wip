@@ -4,7 +4,7 @@
 DISTNAME=	pytz-2007k
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 EGG_NAME=	${DISTNAME}
-CATEGORIES=	devel
+CATEGORIES=	devel python
 MASTER_SITES=	http://pypi.python.org/packages/source/p/pytz/
 
 MAINTAINER=	obache@NetBSD.org
