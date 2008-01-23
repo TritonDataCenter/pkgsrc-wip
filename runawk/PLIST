@@ -8,5 +8,6 @@ share/runawk/abs.awk
 share/runawk/alt_assert.awk
 share/runawk/max.awk
 share/runawk/min.awk
+share/runawk/pow.awk
 @dirrm share/runawk
 @dirrm share/doc/runawk
