@@ -3,7 +3,7 @@
 
 PKGNAME=	Terminal-0.9.4
 DISTNAME=	terminal.app_0.9.4+cvs20051125.orig
-PKGREVISION=	1
+PKGREVISION=	2
 CATEGORIES=	x11 gnustep
 MASTER_SITES=	ftp://ftp.it.debian.org/debian/pool/main/t/terminal.app/
 
