@@ -2,26 +2,21 @@
 #
 
 DISTNAME=	dir2ogg-0.11
+PKGREVISION=	1
 CATEGORIES=	audio
 MASTER_SITES=	http://jak-linux.org/projects/dir2ogg/0.11/
 
 MAINTAINER=	netbsd@guigui2.net
-HOMEPAGE=	http://jak-linux.org/projects/dir2ogg/0.11/
+HOMEPAGE=	http://jak-linux.org/projects/dir2ogg
 COMMENT=	Command-line {wav,mp3,m4a} to ogg converter
 
 USE_LANGUAGES=	# none
 PYTHON_VERSIONS_ACCEPTED=	24
 
-INSTALLATION_DIRS=	bin
+INSTALLATION_DIRS=	bin ${PKGMANDIR}/man1
 
-SUBST_CLASSES+=		path
-SUBST_MESSAGE.path=	Fixing paths.
-SUBST_STAGE.path=	pre-build
-SUBST_FILES.path=	${WRKSRC}/dir2ogg
-SUBST_SED.path=         -e 's,/usr/bin/python,${PYTHONBIN},g'
-
-
-do-build:
+REPLACE_PYTHON+=	${WRKSRC}/dir2ogg
+NO_BUILD=yes
 
 do-install:
 	${INSTALL_SCRIPT} ${WRKSRC}/dir2ogg ${PREFIX}/bin
