@@ -50,6 +50,10 @@ man/man8/resolver.8
 man/man8/router.8
 man/man8/s2s.8
 man/man8/sm.8
+share/doc/jabberd/README
+share/doc/jabberd/PROTOCOL
+share/doc/jabberd/UPGRADE
+share/doc/jabberd/ChangeLog
 share/examples/jabberd/c2s.xml
 share/examples/jabberd/db-jd14-2-jd2.sql
 share/examples/jabberd/db-setup.mysql
