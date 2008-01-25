@@ -24,6 +24,8 @@ PKG_INSTALLATION_TYPES=	overwrite pkgviews
 #USE_CONFIGURE=yes
 WRKSRC=			${WRKDIR}/${PKGNAME_NOREV}/
 
+.include "../../mk/bsd.prefs.mk"
+
 #
 # Bootstrap section.
 #
