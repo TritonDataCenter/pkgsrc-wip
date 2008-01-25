@@ -120,6 +120,8 @@ main(int argc, char **argv)
 			ret = 1;
 	}
 
+	ret = 0; /* Resolving failure is not critical anymore :-P */
+
 	if (ret == 0)
 		write_entries();
 
