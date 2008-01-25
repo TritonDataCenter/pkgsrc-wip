@@ -68,7 +68,7 @@ if [ -z "${build_start_iso}" ] || [ -z "${build_start_dir}" ]; then
 fi
 
 echo "Sending report mail..."
-cat ${loc}/report.txt | ${mail} -s "${report_subject_prefix} ${platform} ${build_start_iso}" ${report_recipients}
+cat ${loc}/report.txt | ${mail} -s "${report_subject_prefix} ${platform} ${build_start_iso}" "${report_recipient}"
 
 cd ${bulklog}
 echo "Uploading report..."
