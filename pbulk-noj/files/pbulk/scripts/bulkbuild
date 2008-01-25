@@ -8,5 +8,7 @@ set -e
 ${script_phase_pre_build}
 ${script_phase_scan}
 ${script_phase_build}
+${script_phase_summary}
+${script_phase_cksum}
 ${script_phase_report}
 ${script_phase_upload}

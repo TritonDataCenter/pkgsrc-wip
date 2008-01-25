@@ -42,6 +42,7 @@ cd ${packages}
 	    echo "+ SHA512.bz2"
 	echo "+ All/pkg_summary.bz2"
 	echo "+ All/pkg_summary.gz"
+	export pkg_suffix
 	${packages_script} ${loc}
 	echo "- *"
 } | sort | ${rsync} --exclude-from=- ${pkg_rsync_args} . ${pkg_rsync_target}

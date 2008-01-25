@@ -2,7 +2,7 @@
 
 SCRIPTS=	build build-client-start bulkbuild client-clean \
 		pkg-build pkg-up-to-date pre-build report scan \
-		scan-client-start upload \
+		scan-client-start cksum summary upload \
 		compute-packages.awk create-broken-graph.awk \
 		create-report-html.awk create-report-txt.awk \
 		create-report.awk

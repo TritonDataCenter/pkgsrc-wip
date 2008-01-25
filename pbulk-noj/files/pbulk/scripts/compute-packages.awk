@@ -67,7 +67,7 @@ BEGIN {
 				print "+ " cat "/"
 				printed_cats[cat] = cat
 			}
-			print "+ " cat "/" pkg ".tgz"
+			print "+ " cat "/" pkg ENVIRON ["pkg_suffix"]
 		}
 	}
 }
