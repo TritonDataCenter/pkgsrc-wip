@@ -33,12 +33,6 @@
 . @PBULK_CONFIG@
 
 cleanup() {
-	if [ "$keep_wrkdir" = yes ]; then
-		${make} pbulk-save-wrkdir INTO=${bulklog}/${pkgname}/wrkdir.tar.gz
-	fi
-	if [ "$keep_prefix" = yes ] && [ -f ${bulklog}/${pkgname}/install.log ]; then
-		tar cfz ${bulklog}/${pkgname}/prefix.tar.gz ${prefix}
-	fi
 	${make} clean > /dev/null 2>&1 || true
 	exit 1
 }
