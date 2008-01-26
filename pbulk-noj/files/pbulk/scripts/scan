@@ -82,8 +82,7 @@ else
 	done
 
 	if [ -s ${loc}/missing ]; then
-		echo "Unresolvable dependencies found, exiting:"
+		echo "Unresolvable dependencies found:"
 		cat ${loc}/missing
-		exit 1
 	fi
 fi
