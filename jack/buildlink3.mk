@@ -12,8 +12,10 @@ BUILDLINK_PACKAGES+=	jack
 BUILDLINK_ORDER:=	${BUILDLINK_ORDER} ${BUILDLINK_DEPTH}jack
 
 .if ${JACK_BUILDLINK3_MK} == "+"
-BUILDLINK_API_DEPENDS.jack+=	jack>=0.103.0
-BUILDLINK_PKGSRCDIR.jack?=	../../wip/jack
+BUILDLINK_API_DEPENDS.jack+=	jack>=0.109.0
+BUILDLINK_PKGSRCDIR.jack?=	../../local/jack
 .endif	# JACK_BUILDLINK3_MK
+
+.include "../../mk/dlopen.buildlink3.mk"
 
 BUILDLINK_DEPTH:=	${BUILDLINK_DEPTH:S/+$//}
