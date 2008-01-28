@@ -3,7 +3,7 @@
 
 PKGNAME=	TextEdit-4.0
 DISTNAME=	textedit.app_4.0.orig
-PKGREVISION=	1
+PKGREVISION=	2
 CATEGORIES=	editors gnustep
 MASTER_SITES=	http://www.gtlib.cc.gatech.edu/pub/debian/pool/main/t/textedit.app/
 
