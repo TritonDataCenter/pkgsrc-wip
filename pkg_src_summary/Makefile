@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	pkg_src_summary-0.4
+DISTNAME=	pkg_src_summary-0.4.1
 CATEGORIES=	pkgtools
 MASTER_SITES=	# empty
 DISTFILES=	# empty
