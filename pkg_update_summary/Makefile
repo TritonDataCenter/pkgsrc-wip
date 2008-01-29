@@ -10,6 +10,7 @@ HOMEPAGE=	http://www.mova.org/~cheusov/
 COMMENT=	Efficiently updates pkg_summary.gz file
 
 PKG_INSTALLATION_TYPES=	overwrite pkgviews
+PKG_DESTDIR_SUPPORT=	user-destdir
 
 WRKSRC=		${WRKDIR}
 EXTRACT_ONLY=	# empty
@@ -24,7 +25,7 @@ INSTALLATION_DIRS=	bin ${MAN1DIR}
 
 do-install:
 	${INSTALL_SCRIPT} ${FILESDIR}/pkg_update_summary.sh \
-		${PREFIX}/bin/pkg_update_summary
-	${INSTALL_MAN} ${FILESDIR}/pkg_update_summary.1 ${MAN1DIR}
+		${DESTDIR}${PREFIX}/bin/pkg_update_summary
+	${INSTALL_MAN} ${FILESDIR}/pkg_update_summary.1 ${DESTDIR}${MAN1DIR}
 
 .include "../../mk/bsd.pkg.mk"
