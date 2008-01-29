@@ -17,6 +17,8 @@ CONFLICTS+=	teTeX2-texmf-[0-9]*
 CONFLICTS+=	teTeX3-texmf-[0-9]*
 CONFLICTS+=	texlive-texmf-full-[0-9]*
 
+USE_TOOLS+=	chown
+
 # Is this necessary?
 SUBST_CLASSES+=		fmtutil
 SUBST_MESSAGE.fmtutil=	Tweaking fmtutil.cnf
@@ -33,9 +35,9 @@ pre-install:
 
 do-install:
 	cp -R ${WRKSRC}/texmf ${PREFIX}/share
-	chown -R ${SHAREOWN}:${SHAREGRP} ${PREFIX}/share/texmf
+	${CHOWN} -R ${SHAREOWN}:${SHAREGRP} ${PREFIX}/share/texmf
 	cp -R ${WRKSRC}/texmf-dist ${PREFIX}/share
-	chown -R ${SHAREOWN}:${SHAREGRP} ${PREFIX}/share/texmf-dist
+	${CHOWN} -R ${SHAREOWN}:${SHAREGRP} ${PREFIX}/share/texmf-dist
 
 .include "../../wip/texlive/Makefile.common"
 
