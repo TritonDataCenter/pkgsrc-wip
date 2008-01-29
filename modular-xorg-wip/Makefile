@@ -2,7 +2,7 @@
 
 DISTNAME=	# empty
 PKGNAME=	modular-xorg-wip-1.0
-PKGREVISION=	3
+PKGREVISION=	4
 CATEGORIES=	meta-pkgs x11
 MASTER_SITES=	http://xorg.freedesktop.org/releases/individual/fonts/
 DISTFILES=	# empty
@@ -13,8 +13,6 @@ COMMENT=	Modular Xorg wip package
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
-DEPENDS+=	sessreg-[0-9]*:../../wip/sessreg
-DEPENDS+=	xdm-[0-9]*:../../wip/xdm
 DEPENDS+=	xlsfonts-[0-9]*:../../wip/xlsfonts
 DEPENDS+=	xvidtune-[0-9]*:../../wip/xvidtune
 
