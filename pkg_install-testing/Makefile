@@ -8,6 +8,8 @@
 # PKGTOOLS_REQD in bsd.pkg.mk. Do so if and only if there is a critical
 # change in the pkg_* tools that pkgsrc relies on for proper operation.
 
+BROKEN=			pen.c:211: error: storage size of 'buf' isn't known
+
 DISTNAME=		pkg_install-${VERSION}
 PKGREVISION=		2
 CATEGORIES=		pkgtools
