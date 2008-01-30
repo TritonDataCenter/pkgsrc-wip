@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	clisp-2.43
-PKGNAME=	clisp-2.43 # needed because of cvs-package.mk
+PKGNAME=	clisp-2.43.99 # needed because of cvs-package.mk
 CATEGORIES=	lang
 MASTER_SITES=	#
 
