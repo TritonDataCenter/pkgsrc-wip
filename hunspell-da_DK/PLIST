@@ -1,6 +1,6 @@
 @comment $NetBSD: PLIST,v 1.1.1.1 2007/09/11 18:38:15 wiz Exp $
-share/doc/hunspell-da_DK/README_da_DK.txt
-share/hunspell/da_DK.aff
-share/hunspell/da_DK.dic
+share/doc/hunspell-${DISTNAME}/README_${DISTNAME}.txt
+share/hunspell/${DISTNAME}.aff
+share/hunspell/${DISTNAME}.dic
 @unexec ${RMDIR} %D/share/hunspell 2>/dev/null || ${TRUE}
-@dirrm share/doc/hunspell-da_DK
+@dirrm share/doc/hunspell-${DISTNAME}
