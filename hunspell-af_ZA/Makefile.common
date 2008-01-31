@@ -29,3 +29,5 @@ do-install:
 	${INSTALL_DATA} ${WRKSRC}/${DISTNAME}.* ${DESTDIR}${PREFIX}/share/hunspell
 	${INSTALL_DATA} ${WRKSRC}/README_${DISTNAME}.txt \
 		${DESTDIR}${PREFIX}/share/doc/hunspell-${DISTNAME}
+
+.include "../../textproc/hunspell/buildlink3.mk"
