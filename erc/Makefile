@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	erc-5.2
+DISTNAME=	erc-5.3
 CATEGORIES=	chat
 MASTER_SITES=	${MASTER_SITE_GNU:=erc/}
 
