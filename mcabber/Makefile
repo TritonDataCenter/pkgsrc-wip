@@ -1,13 +1,12 @@
 # $NetBSD$
 
-DISTNAME=		mcabber-0.9.5
-PKGREVISION=		1
+DISTNAME=		mcabber-0.9.6
 CATEGORIES=		chat
 MASTER_SITES=		http://www.lilotux.net/~mikael/mcabber/files/
 EXTRACT_SUFX=		.tar.bz2
 
 
-MAINTAINER=		kh.p@no-log.org
+MAINTAINER=		degroote@netbsd.org
 HOMEPAGE=		http://www.lilotux.net/~mikael/mcabber/
 COMMENT=		Jabber console client
 
@@ -15,13 +14,6 @@ GNU_CONFIGURE=		yes
 USE_TOOLS+=		gmake xgettext pkg-config
 USE_NCURSES=		yes
 USE_DIRS+=		xdg-1.4
-
-# Does this still make sense with ncursesw?
-#Work in Progress for UTF-8 issue.
-#CONFIGURE_ENV+= CFLAGS=${CFLAGS:M*:Q} CPPFLAGS=${CPPFLAGS:M*:Q}
-#CFLAGS+=        -I${LOCALBASE}/include
-#CPPFLAGS=       ${CFLAGS}
-#LDFLAGS+=       -lcrypto -L${LOCALBASE}/lib
 
 post-install:
 	${INSTALL_DATA} ${WRKSRC}/mcabber.desktop ${PREFIX}/share/applications/
