@@ -2,11 +2,11 @@
 #
 
 DISTNAME=	pkg_online-0.2.0
-CATEGORIES=	wip
+CATEGORIES=	pkgtools
 MASTER_SITES=	http://mova.org/~cheusov/pub/pkg_online/
 
 MAINTAINER=	cheusov@tut.by
-HOMEPAGE=	http://mova.org:~/public_html/pub/pkg_online/
+HOMEPAGE=	http://mova.org/~/public_html/pub/pkg_online/
 COMMENT=	Client/Server search in pkgsrc packages
 
 DEPENDS+=	dict-server>=1.10.10nb2:../../wip/dict-server
