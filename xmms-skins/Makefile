@@ -18,10 +18,8 @@ DEPENDS+=	xmms-skin-${skin}-[0-9]*:../../wip/xmms-skin-${skin}
 .endfor
 
 EXTRACT_ONLY=	# empty
-NO_CHECKSUM=	yes
-NO_CONFIGURE=	yes
-NO_BUILD=	yes
-NO_MTREE=	yes
+
+META_PACKAGE=	yes
 
 do-install:	# empty
 
