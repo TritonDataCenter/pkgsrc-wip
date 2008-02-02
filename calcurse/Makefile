@@ -1,13 +1,13 @@
 # $NetBSD$
 
-DISTNAME=		calcurse-1.5
+DISTNAME=		calcurse-1.9
 CATEGORIES=		devel
 MASTER_SITES=		ftp://ftp2.culot.org/culot/
 
 
-MAINTAINER=		zul@netbsd-fr.org
+MAINTAINER=		jdw-pkgsrc@menelos.com
 HOMEPAGE=		http://culot.org/calcurse/
-COMMENT=		Text-based personnal organizer
+COMMENT=		Text-based personal organizer
 
 GNU_CONFIGURE=		yes
 USE_TOOLS+=		gmake
