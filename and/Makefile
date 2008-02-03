@@ -13,6 +13,7 @@ COMMENT=		Auto nice daemon
 USE_TOOLS+=		gmake
 USE_LANGUAGES=		c
 BUILD_TARGET=		default
+PKG_DESTDIR_SUPPORT=	user-destdir
 
 .include "../../mk/bsd.prefs.mk"
 
