@@ -1,3 +1,2 @@
 @comment $NetBSD$
 bin/bison-${PKGVERSION}
-info/bison.info
