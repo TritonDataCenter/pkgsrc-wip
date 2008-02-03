@@ -9,8 +9,9 @@ MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://www.red-bean.com/cvsutils/releases/
 COMMENT=		CVS utilities to facilitate working
 
-USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
+USE_PKGLOCALEDIR=	yes
+USE_TOOLS+=		perl:run
 
 REPLACE_PERL=		cvsu.pl cvsdo.pl cvschroot.pl
 REPLACE_SH=		cvsco.sh cvsdiscard.sh cvspurge.sh cvstrim.sh
