@@ -17,5 +17,13 @@ CFLAGS+=	-DVKB_TCLFILE=\"${VKB_TCLFILE:Q}\"
 CFLAGS+=	-DVKB_USE_MIDI
 CFLAGS+=	-DMIDI_DEV=\"${RAWMIDI:Q}\"
 
+INSTALLATION_DIRS=	${PKGMANDIR}/man1
+
+SUBST_CLASSES+=		wish
+SUBST_FILES.wish=	vkeybd.tcl
+SUBST_STAGE.wish=	pre-build
+SUBST_SED.wish=		-e 's,/usr/bin/wish,${PREFIX}/bin/wish,'
+
+.include "../../x11/libX11/buildlink3.mk"
 .include "../../x11/tk/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
