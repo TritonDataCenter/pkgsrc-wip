@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	clisp-2.43
+DISTNAME=	clisp-2.44
 CATEGORIES=	lang
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=clisp/}
 EXTRACT_SUFX=	.tar.bz2
