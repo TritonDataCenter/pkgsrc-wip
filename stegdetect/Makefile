@@ -12,9 +12,9 @@ COMMENT=		Steganography detection and break tool
 USE_LANGUAGES+=	c c++
 GNU_CONFIGURE=	yes
 
-.include "../../mk/bsd.prefs.mk"
+CONFIGURE_ARGS+=	--mandir=${PREFIX}/${PKGMANDIR}/man
 
-GCC_REQD+=      3.0
+.include "../../mk/bsd.prefs.mk"
 
 # Segfaults when compiled with GCC4
 #
@@ -26,5 +26,7 @@ post-install:
 	${INSTALL_DATA_DIR} ${PREFIX}/share/stegbreak
 	${INSTALL_DATA} ${FILESDIR}/rules.ini ${PREFIX}/share/stegbreak
 
-.include "../../x11/gtk/buildlink3.mk"
+# X11 support is pretty useless and needs gtk1.
+#
+#.include "../../x11/gtk/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
