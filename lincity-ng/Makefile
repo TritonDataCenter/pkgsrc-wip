@@ -17,7 +17,7 @@ BUILD_DEPENDS+=	jam-[0-9]*:../../devel/jam
 GNU_CONFIGURE=	yes
 USE_LANGUAGES=	c c++
 
-#MAKE_PROGRAM=	jam
+USE_TOOLS+=	pkg-config
 
 do-build:
 	cd ${WRKSRC} && jam
