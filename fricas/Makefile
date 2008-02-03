@@ -30,7 +30,6 @@ CONFIGURE_ARGS+=	--with-lisp=clisp --with-x=no
 BUILD_DEPENDS+=		clisp>=2.41:../../lang/clisp
 #CONFIGURE_ARGS+=	--with-lisp=sbcl --with-x=no
 
-USE_DESTDIR=		full
 PKG_DESTDIR_SUPPORT=	user-destdir
 
 MAKE_JOBS_SAFE=		no
