@@ -1,7 +1,7 @@
 @comment $NetBSD$
 lib/httpd/mod_macro.so
-share/doc/${PKGNAME}/CHANGES
-share/doc/${PKGNAME}/INSTALL
-share/doc/${PKGNAME}/LICENSE
-share/doc/${PKGNAME}/README
-share/doc/${PKGNAME}/mod_macro.html
+share/doc/${PKGNAME_NOREV}/CHANGES
+share/doc/${PKGNAME_NOREV}/INSTALL
+share/doc/${PKGNAME_NOREV}/LICENSE
+share/doc/${PKGNAME_NOREV}/README
+share/doc/${PKGNAME_NOREV}/mod_macro.html
