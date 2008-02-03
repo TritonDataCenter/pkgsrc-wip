@@ -5,7 +5,8 @@ DISTNAME=	gcc-${GCC_VERSION}-${SNAP_DATE}
 PKGNAME=	gcc42-${GCC_VERSION}
 PKGREVISION=	1
 CATEGORIES=	lang
-MASTER_SITES=	ftp://gcc.gnu.org/pub/gcc/prerelease-4.2.0-20070501/
+MASTER_SITES=	http://gcc.site2nd.org/gcc/prerelease-4.2.0-20070501/ \
+		http://gcc.cybermirror.org/prerelease-4.2.0-20070501/
 
 MAINTAINER=	blair.sadewitz@gmail.com
 HOMEPAGE=	http://gcc.gnu.org/
