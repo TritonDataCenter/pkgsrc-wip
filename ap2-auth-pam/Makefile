@@ -12,6 +12,7 @@ HOMEPAGE=	http://pam.sourceforge.net/mod_auth_pam/
 COMMENT=	Apache2 module for PAM authentification
 
 APACHE_MODULE_NAME=	mod_auth_pam
+USE_LIBTOOL=		yes
 USE_TOOLS+=		gmake
 
 EGDIR=		${PREFIX}/share/examples/mod_auth_pam
