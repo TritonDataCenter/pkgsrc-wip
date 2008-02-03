@@ -7,12 +7,13 @@ CATEGORIES=	local
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=katapult/}
 
 MAINTAINER=	shinden@linux.pl
-HOMEPAGE=	http://katapult.sourceforge.net/
+HOMEPAGE=	http://katapult.kde.org/
 COMMENT=	Allow faster access to applications, bookmarks, and other items
 
 GNU_CONFIGURE=		yes
 USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=		yes
+USE_TOOLS+=		gmake
 USE_LANGUAGES=		c c++
 
 .include "../../meta-pkgs/kde3/kde3.mk"
