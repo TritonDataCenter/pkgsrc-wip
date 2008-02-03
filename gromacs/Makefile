@@ -18,6 +18,7 @@ GNU_CONFIGURE=		yes
 CONFIGURE_ARGS+=	--without-fftw
 
 .include "../../math/fftw2/buildlink3.mk"
-.include "../../x11/lesstif/buildlink3.mk"
 .include "../../textproc/libxml2/buildlink3.mk"
+.include "../../x11/lesstif/buildlink3.mk"
+.include "../../x11/libXp/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
