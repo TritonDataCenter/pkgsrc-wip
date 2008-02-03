@@ -3,3 +3,4 @@ $NetBSD$
 SHA1 (dsh-0.25.9.tar.gz) = d5d7828a06d079182315492d6f7a5a3dce47a5de
 RMD160 (dsh-0.25.9.tar.gz) = e0ce92e68e71a788e722381932c5389ff982998a
 Size (dsh-0.25.9.tar.gz) = 394375 bytes
+SHA1 (patch-aa) = 7259f78a053354f873a06e18722a89d59aba840c
