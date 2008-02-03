@@ -20,7 +20,7 @@ CONFLICTS+=	${PYPKGPREFIX}-wxWindows-[0-9]*
 # non unicode version
 CONFLICTS+=	${PYPKGPREFIX}-wxWidgets-[0-9]*
 
-PYTHON_VERSIONS_ACCEPTED=	24 23
+PYTHON_VERSIONS_ACCEPTED=	25 24 23
 
 WXARG=	WXPORT=gtk2 \
 	WX_CONFIG=${BUILDLINK_PREFIX.wxGTK-unicode}/bin/wx-config \
@@ -37,6 +37,7 @@ PYBINMODULE=	yes
 PLIST_SUBST+=            GTKVER=2
 
 .include "../../graphics/MesaLib/buildlink3.mk"
+.include "../../graphics/glu/buildlink3.mk"
 .include "../../lang/python/extension.mk"
 .include "../../wip/wxGTK-unicode/buildlink3.mk"
 .include "../../wip/wxGTK-contrib-unicode/buildlink3.mk"
