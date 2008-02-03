@@ -11,6 +11,8 @@ COMMENT=		Fast binary comparision between two files
 
 USE_TOOLS+=	gmake
 
+INSTALLATION_DIRS+=	bin ${PKGMANDIR}/man1 ${PKGMANDIR}/man4
+
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/compare/OBJ/*/compare ${PREFIX}/bin/
 	${INSTALL_MAN} ${WRKSRC}/compare/compare.1 ${PREFIX}/${PKGMANDIR}/man1/
