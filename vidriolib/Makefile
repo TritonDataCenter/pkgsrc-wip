@@ -13,7 +13,10 @@ COMMENT=	Viriolib is a windows, menus and so on development library
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_LANGUAGES=	c c++ fortran
+USE_TOOLS+=	pkg-config
 
 .include "../../x11/libX11/buildlink3.mk"
+.include "../../x11/libXt/buildlink3.mk"
+.include "../../x11/libXpm/buildlink3.mk"
 .include "../../x11/libXft/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
