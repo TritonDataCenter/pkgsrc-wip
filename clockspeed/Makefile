@@ -26,7 +26,7 @@ SYS_CMDS=	${CMDDIR}/clockspeed ${CMDDIR}/clockadd
 CONF_FILES=	${EGDIR}/leapsecs.dat ${PKG_SYSCONFDIR}/leapsecs.dat
 
 INSTALLATION_DIRS= ${PKGMANDIR} ${PKGMANDIR}/man1 ${PKGMANDIR}/man3 \
-		${PKGMANDIR}/man8 ${EGDIR} bin
+		${PKGMANDIR}/man8 ${EGDIR} bin sbin
 
 post-extract:
 	${CP} ${.CURDIR}/files/leapsecs.dat ${WRKSRC}
