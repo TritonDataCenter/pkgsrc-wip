@@ -19,6 +19,8 @@ NO_BUILD=	yes
 
 CONF_FILES=	apstget.conf ${PKG_SYSCONFDIR}/apstget.conf
 
+INSTALLATION_DIRS+=	bin libexec
+
 do-extract:
 	cp -R ${FILESDIR} ${WRKSRC}
 
