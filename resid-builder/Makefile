@@ -12,7 +12,7 @@ COMMENT=	reSID-builder snapshot from ccr/TNSP
 
 GNU_CONFIGURE=	yes
 USE_LANGUAGES=	c c++
-USE_TOOLS+=	make
+USE_TOOLS+=	make pkg-config
 USE_LIBTOOL=	yes
 
 # I know it's dirty...
