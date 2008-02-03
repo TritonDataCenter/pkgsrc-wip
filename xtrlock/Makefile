@@ -21,5 +21,6 @@ do-install:
 	${INSTALL} -m 4775 ${WRKSRC}/xtrlock ${PREFIX}/bin/xtrlock
 	${INSTALL_MAN} ${MAN_PAGE} ${PREFIX}/${PKGMANDIR}/man1/xtrlock.1
 
+.include "../../x11/libX11/buildlink3.mk"
 .include "../../security/libgcrypt/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
