@@ -13,6 +13,7 @@ COMMENT=		Limits per-IP connections to an Apache 2 server
 
 APACHE_MODULE=		yes
 MAKE_FLAGS+=		APXS=${APXS:Q}
+USE_LIBTOOL=		yes
 
 post-install:
 	${INSTALL_DATA_DIR} ${PREFIX}/share/doc/mod_limitipconn
