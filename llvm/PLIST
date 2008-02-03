@@ -18,6 +18,8 @@ bin/llvm-stub
 bin/llvm-upgrade
 bin/llvm2cpp
 bin/llvmc
+bin/gccas
+bin/gccld
 bin/opt
 docs/llvm/html.tar.gz
 docs/llvm/html/AliasAnalysis.html
