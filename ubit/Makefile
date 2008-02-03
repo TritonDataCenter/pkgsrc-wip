@@ -29,6 +29,7 @@ CONFIGURE_ARGS+=	--with-gl-prefix=${LOCALBASE}
 .include "../../graphics/glu/buildlink3.mk"
 .include "../../graphics/freetype2/buildlink3.mk"
 .include "../../x11/libXpm/buildlink3.mk"
+.include "../../x11/libXmu/buildlink3.mk"
 .include "../../x11/libX11/buildlink3.mk"
 
 .include "../../mk/bsd.pkg.mk"
