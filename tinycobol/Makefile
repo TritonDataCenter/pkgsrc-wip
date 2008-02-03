@@ -19,9 +19,6 @@ USE_TOOLS+=		gmake bison
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 
-.include "../../mk/bsd.prefs.mk"
-
 .include "../../devel/ncurses/buildlink3.mk"
 .include "../../databases/db/buildlink3.mk"
-
 .include "../../mk/bsd.pkg.mk"
