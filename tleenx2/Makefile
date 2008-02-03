@@ -12,8 +12,10 @@ COMMENT=	Client to tlen.pl - polish IM / chat system
 
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
+USE_TOOLS+=		pkg-config
 LIBS+=			-lm
 
 .include "../../x11/gtk2/buildlink3.mk"
+.include "../../x11/scrnsaverproto/buildlink3.mk"
 .include "../../chat/libtlen/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
