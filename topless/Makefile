@@ -11,4 +11,11 @@ COMMENT=	Display command output on the whole screen like ``top''
 
 USE_TOOLS+=	perl
 
+PKG_DESTDIR_SUPPORT=	user-destdir
+INSTALLATION_DIRS=	bin ${PKGMANDIR}/man1
+
+do-install:
+	${INSTALL_SCRIPT} ${WRKSRC}/topless ${DESTDIR}${PREFIX}/bin
+	${INSTALL_MAN} ${WRKSRC}/topless.1 ${DESTDIR}${PREFIX}/${PKGMANDIR}/man1
+		
 .include "../../mk/bsd.pkg.mk"
