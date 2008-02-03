@@ -12,10 +12,12 @@ CONFLICTS=		bcc-*
 
 USE_TOOLS+=		gmake
 
+INSTALLATION_DIRS+=	bin ${PKGMANDIR}/man1
+
 do-build:
 	cd ${WRKSRC} && ${GMAKE} PREFIX=${PREFIX:Q}
 
 do-install:
-	cd ${WRKSRC} && ${GMAKE} PREFIX=${PREFIX:Q} install
+	cd ${WRKSRC} && ${GMAKE} PREFIX=${PREFIX:Q} PKGMANDIR=${PKGMANDIR:Q} install
 
 .include "../../mk/bsd.pkg.mk"
