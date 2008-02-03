@@ -12,8 +12,7 @@ HOMEPAGE=	http://pekwm.org/trac
 COMMENT=	Window manager based on aewm++ (CVS version)
 
 GNU_CONFIGURE=	    yes
-USE_TOOLS+=	    gmake
-USE_PERL5=	    run
+USE_TOOLS+=	    gmake perl:run
 USE_LANGUAGES=	    c c++
 NO_CHECKSUM=	    yes
 

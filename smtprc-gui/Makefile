@@ -11,7 +11,7 @@ DEPENDS+=	p5-Tk>=800.024:../../x11/p5-Tk
 
 NO_CONFIGURE=	YES
 NO_BUILD=	YES
-USE_PERL5=	YES
+USE_TOOLS+=	perl
 
 PKGDIR=		${.CURDIR}/../../wip/smtprc
 PLIST_SRC=	${.CURDIR}/PLIST

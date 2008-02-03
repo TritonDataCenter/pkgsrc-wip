@@ -12,7 +12,7 @@ COMMENT=		Configurable XML formatter, Perl version
 
 CONFLICTS+=		xmlformat-ruby-[0-9]*
 
-USE_PERL5=		run
+USE_TOOLS+=		perl:run
 REPLACE_PERL=		xmlformat.pl
 
 NO_BUILD=		yes

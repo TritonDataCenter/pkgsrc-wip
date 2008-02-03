@@ -11,7 +11,7 @@ COMMENT=		Email notifier component for jabber
 
 DEPENDS=		p5-Net-Jabber>=1.26:../../chat/p5-Net-Jabber
 
-USE_PERL5=		YES
+USE_TOOLS+=		perl
 REPLACE_PERL=	${WRKSRC}/ile.pl
 
 do-build:

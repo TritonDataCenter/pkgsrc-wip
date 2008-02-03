@@ -39,7 +39,7 @@ MESSAGE_SUBST+=	ICUSER=${INTERCHANGE_USER}	\
 
 .include "../../mk/bsd.prefs.mk"
 
-USE_PERL5=	# defined
+USE_TOOLS+=		perl
 
 # Interchange User name (user id owning/running the daemon)
 INTERCHANGE_USER?=interchg

@@ -14,8 +14,7 @@ CFGFILE=		${PKG_SYSCONFDIR}/gnump3d/gnump3d.conf
 RCD_SCRIPTS=		gnump3d
 CONF_FILES=		none ${CFGFILE}
 
-USE_PERL5=		YES
-USE_TOOLS+=		gmake
+USE_TOOLS+=		gmake perl
 REPLACE_PERL=	${WRKSRC}/bin/*
 NO_BUILD=		yes
 

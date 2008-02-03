@@ -16,8 +16,7 @@ DEPENDS+=		psmisc-[0-9]*:../../sysutils/psmisc
 # The ptal-cups script require bash
 DEPENDS+=		bash-[0-9]*:../../shells/bash
 
-USE_TOOLS+=		gmake
-USE_PERL5=		YES
+USE_TOOLS+=		gmake perl
 GNU_CONFIGURE=		YES
 
 CONFIGURE_ARGS+=	--prefix=${PREFIX:Q} \

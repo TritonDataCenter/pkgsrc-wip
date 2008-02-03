@@ -15,7 +15,7 @@ CONFIGURE_ARGS+=	--enable-tcl=no
 CONFIGURE_ARGS+=	--enable-perl
 CONFIGURE_ARGS+=	--disable-python
 
-USE_PERL5=	YES
+USE_TOOLS+=	perl
 REPLACE_PERL=	plugins/perl/sample_script.pl plugins/perl/ignore.pl
 
 .include "../../lang/perl5/buildlink3.mk"

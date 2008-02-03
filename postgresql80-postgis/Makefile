@@ -24,7 +24,7 @@ PATCHDIR=		${.CURDIR}/../../databases/postgresql80/patches
 MASTER_SITES+=	${PGSQL_SITES:=source/v${DIST_VERS}/}
 MASTER_SITES+=	http://postgis.refractions.net/download/
 
-USE_PERL5=		YES
+USE_TOOLS+=		perl
 
 PGSQL_VERSION_REQD=	80
 
