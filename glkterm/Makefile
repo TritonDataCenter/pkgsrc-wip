@@ -19,5 +19,7 @@ WRKSRC=		${WRKDIR}/glkterm
 USE_LIBTOOL=	yes
 UNWRAP_FILES+=	Make.glkterm
 
+INSTALLATION_DIRS=	lib
+
 .include "../../devel/ncurses/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
