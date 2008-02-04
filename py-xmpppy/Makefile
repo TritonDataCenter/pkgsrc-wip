@@ -9,8 +9,7 @@ MAINTAINER=		eric@cirr.com
 HOMEPAGE=		http://xmpppy.sourceforge.net/
 COMMENT=		XMPP (Jabber) library for Python
 
-# DEPENDS+=               ${PYPKGPREFIX}-ZopeInterface>=3.0.1:../../devel/py-ZopeInterface
-
+PYTHON_VERSIONS_INCOMPATIBLE=	15 20 
 PYDISTUTILSPKG=		yes
 
 .include "../../lang/python/extension.mk"
