@@ -21,9 +21,7 @@ share/doc/${PKGNAME}/api/org/gnu/glib/package-tree.html
 share/doc/${PKGNAME}/api/org/gnu/glib/Struct.html
 share/doc/${PKGNAME}/api/overview-tree.html
 share/doc/${PKGNAME}/api/package-list
-share/doc/${PKGNAME}/api/packages.html
 share/doc/${PKGNAME}/api/resources/inherit.gif
-share/doc/${PKGNAME}/api/serialized-form.html
 share/doc/${PKGNAME}/api/stylesheet.css
 share/doc/${PKGNAME}/AUTHORS
 share/doc/${PKGNAME}/COPYING
