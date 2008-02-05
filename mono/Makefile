@@ -61,15 +61,16 @@ REPLACE_BASH+=	mcs/class/Managed.Windows.Forms/build-csproj
 REPLACE_BASH+=	mcs/class/Managed.Windows.Forms/build-csproj2k5
 
 EGDIR=		${PREFIX}/share/examples/mono
-PKG_SYSCONFSUBDIR=	mono
-CONF_FILES=	${EGDIR}/config ${PKG_SYSCONFDIR}/config
-CONF_FILES+=	${EGDIR}/browscap.ini ${PKG_SYSCONFDIR}/browscap.ini
+CONF_FILES=	${EGDIR}/config ${PKG_SYSCONFDIR}/mono/config
+CONF_FILES+=	${EGDIR}/browscap.ini ${PKG_SYSCONFDIR}/mono/browscap.ini
 CONF_FILES+=	${EGDIR}/1.0/DefaultWsdlHelpGenerator.aspx \
-		${PKG_SYSCONFDIR}/1.0/DefaultWsdlHelpGenerator.aspx
-CONF_FILES+=	${EGDIR}/1.0/machine.config ${PKG_SYSCONFDIR}/1.0/machine.config
+		${PKG_SYSCONFDIR}/mono/1.0/DefaultWsdlHelpGenerator.aspx
+CONF_FILES+=	${EGDIR}/1.0/machine.config \
+		${PKG_SYSCONFDIR}/mono/1.0/machine.config
 CONF_FILES+=	${EGDIR}/2.0/DefaultWsdlHelpGenerator.aspx \
-		${PKG_SYSCONFDIR}/2.0/DefaultWsdlHelpGenerator.aspx
-CONF_FILES+=	${EGDIR}/2.0/machine.config ${PKG_SYSCONFDIR}/2.0/machine.confi
+		${PKG_SYSCONFDIR}/mono/2.0/DefaultWsdlHelpGenerator.aspx
+CONF_FILES+=	${EGDIR}/2.0/machine.config \
+		${PKG_SYSCONFDIR}/mono/2.0/machine.confi
 
 TEST_TARGET=	check
 
