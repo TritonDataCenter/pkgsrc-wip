@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	Net-Amazon-0.47
+DISTNAME=	Net-Amazon-0.48
 PKGNAME=	p5-${DISTNAME}
 CATEGORIES=	net perl5
 MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=Net/}
@@ -8,6 +8,8 @@ MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=Net/}
 MAINTAINER=	kuli0020@umn.edu
 HOMEPAGE=	http://search.cpan.org/dist/Net-Amazon/
 COMMENT=	Framework for accessing amazon.com via SOAP and XML/HTTP
+
+PKG_DESTDIR_SUPPORT=	user-destdir
 
 DEPENDS+=	p5-libwww>=2:../../www/p5-libwww
 DEPENDS+=	p5-URI>=0:../../www/p5-URI
