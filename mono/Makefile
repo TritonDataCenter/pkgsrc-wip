@@ -18,10 +18,6 @@ NOT_FOR_PLATFORM=	NetBSD-1.[0-5]*-*
 NOT_FOR_PLATFORM+=	NetBSD-1.6-* NetBSD-1.6.*-*
 NOT_FOR_PLATFORM+=	NetBSD-1.6[A-Z]-* NetBSD-1.6Z[AB]-*
 
-# LP64 problems
-# XXX do we still need this ?
-NOT_FOR_PLATFORM+=	*-*-alpha *-*-sparc64 *-*-x86_64
-
 USE_TOOLS+=		bison gmake gtar perl:run pkg-config bash:run
 USE_LIBTOOL=		yes
 USE_LANGUAGES+=		c c++
