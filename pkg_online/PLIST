@@ -7,6 +7,6 @@ bin/pkg_online_server.env
 bin/pkg_summary2all
 bin/pkg_summary2field-index
 bin/pkg_summary2info
-bin/pkg_summary2shortinfo
 bin/pkg_summary2onelineinfo
+bin/pkg_summary2shortinfo
 share/doc/pkg_online/README
