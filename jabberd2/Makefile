@@ -33,7 +33,7 @@ CONFIGURE_ARGS+=	--enable-anon
 CONFIGURE_ARGS+=	--enable-ssl
 CONFIGURE_ARGS+=	--enable-fs
 CONFIGURE_ARGS+=	--with-sasl=gsasl	# only GNU sasl is
-						# really supported
+#						  really supported
 
 USE_TOOLS+=		perl:run
 REPLACE_PERL+=		tools/*.pl
