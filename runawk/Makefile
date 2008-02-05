@@ -12,6 +12,7 @@ COMMENT=	Wrapper that impelements modules for AWK
 PKG_DESTDIR_SUPPORT=	user-destdir
 
 USE_LANGUAGES=		c
+USE_BSD_MAKEFILE=	yes
 
 PKGDOCDIR=		${PREFIX}/share/doc/${PKGBASE}
 

@@ -12,6 +12,7 @@ COMMENT=	Parallel executor, distributes tasks over network
 PKG_DESTDIR_SUPPORT=	user-destdir
 
 USE_LANGUAGES=		c
+USE_BSD_MAKEFILE=	yes
 
 PKGDOCDIR=		${PREFIX}/share/doc/${PKGBASE}
 PKGEGDIR=		${PREFIX}/share/examples/${PKGBASE}
