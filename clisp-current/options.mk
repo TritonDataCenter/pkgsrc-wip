@@ -112,8 +112,8 @@ BUILDLINK_API_DEPENDS.zlib+=    zlib>=1.2
 .include "../../devel/zlib/buildlink3.mk"
 .endif
 
-#.if !empty(PKG_OPTIONS:Mreadline)
+.if !empty(PKG_OPTIONS:Mreadline)
 USE_GNU_READLINE=	YES
 CONFIGURE_ARGS+=	--with-readline
 .include "../../devel/readline/buildlink3.mk"
-#.endif
+.endif
