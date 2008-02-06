@@ -2,5 +2,6 @@
 share/doc/hunspell-${DISTNAME}/README_${DISTNAME}.txt
 share/hunspell/${DISTNAME}.aff
 share/hunspell/${DISTNAME}.dic
+share/hunspell/${DISTNAME}.excluded
 @unexec ${RMDIR} %D/share/hunspell 2>/dev/null || ${TRUE}
 @dirrm share/doc/hunspell-${DISTNAME}
