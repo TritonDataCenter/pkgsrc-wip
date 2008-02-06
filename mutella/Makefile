@@ -11,6 +11,7 @@ COMMENT=	Console mode Gnutella client with optional HTTP interface
 
 GNU_CONFIGURE=		yes
 USE_LIBTOOL=		yes
+USE_LANGUAGES=		c++
 
 PTHREAD_OPTS+=		require
 
