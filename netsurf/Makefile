@@ -16,7 +16,7 @@ WRKSRC=		${WRKDIR}/netsurf-1.1
 MAKE_FILE=	makefile
 BUILD_TARGET=	gtk
 
-USE_TOOLS+=	gmake perl:build pax
+USE_TOOLS+=	gmake perl:build pax pkg-config
 
 BUILD_DEPENDS+=	re2c>=0.12.*:../../devel/re2c
 BUILD_DEPENDS+=	lemon>=1.0:../../wip/lemon
