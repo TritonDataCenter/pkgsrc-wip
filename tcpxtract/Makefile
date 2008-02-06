@@ -13,7 +13,7 @@ GNU_CONFIGURE=		yes
 CPPFLAGS+=		-DDEFAULT_CONFIG_FILE="\"${PKG_SYSCONFDIR}/tcpxtract.conf\""
 CONFIGURE_ARGS+=	--sysconfdir=${PREFIX:Q}/share/examples/tcpxtract
 
-CONF_FILES+=		${PREFIX}/share/examples/tcpxtract.conf ${PKG_SYSCONFDIR}/tcpxtract.conf
+CONF_FILES+=		${PREFIX}/share/examples/tcpxtract/tcpxtract.conf ${PKG_SYSCONFDIR}/tcpxtract.conf
 
 .include "../../net/libpcap/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
