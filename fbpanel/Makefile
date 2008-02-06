@@ -17,8 +17,10 @@ HAS_CONFIGURE=		yes
 
 .if ${OPSYS} == "Linux"
 CONFIGURE_ARGS+=	--cpu=on
+PLIST_SUBST+=   	CPUPLUGIN=""
 .else
 CONFIGURE_ARGS+=	--cpu=off
+PLIST_SUBST+=   	CPUPLUGIN="@comment "
 .endif
 
 CONFIGURE_ARGS+=	--prefix=${PREFIX:Q}
