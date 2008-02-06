@@ -13,5 +13,7 @@ USE_PKGLOCALEDIR=	yes
 PKGCONFIG_OVERRIDE+=	monodoc.pc.in
 GNU_CONFIGURE=		yes
 
+MAKE_JOBS_SAFE=		no
+
 .include "../../x11/gtk2-sharp/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
