@@ -19,6 +19,8 @@ DEPENDS+=	netcat-[0-9]*:../../net/netcat
 INSTALLATION_DIRS+=	share/doc/pkg_online
 
 USE_LANGUAGES=		# none
+USE_BSD_MAKEFILE=	yes
+
 NO_BUILD=		yes
 
 .include "../../mk/bsd.pkg.mk"
