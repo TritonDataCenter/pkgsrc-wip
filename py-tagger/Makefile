@@ -14,7 +14,8 @@ COMMENT=		ID3v1 and ID3v2 tag library in Python
 PY_PATCHPLIST=		yes
 PYDISTUTILSPKG=		yes
 
-PYTHON_VERSIONS_ACCEPTED= 24 23 22
+PYTHON_VERSIONS_INCOMPATIBLE=\
+			15 20 21 22
 
 .include "../../lang/python/extension.mk"
 
