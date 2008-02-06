@@ -1,7 +1,6 @@
 # $NetBSD$
 
 DISTNAME=	kdebase-workspace-${_KDE_VERSION}
-PKGREVISION=	1
 CATEGORIES=	x11
 COMMENT=	XXX for the KDE 4 integrated X11 desktop
 

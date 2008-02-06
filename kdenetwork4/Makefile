@@ -1,7 +1,6 @@
 # $NetBSD$
 
 DISTNAME=	kdenetwork-${_KDE_VERSION}
-PKGREVISION=	1
 CATEGORIES=	net
 COMMENT=	Network modules for the KDE integrated X11 desktop
 

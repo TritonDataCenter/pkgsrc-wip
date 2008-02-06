@@ -1,7 +1,6 @@
 # $NetBSD$
 
 DISTNAME=	kdegraphics-${_KDE_VERSION}
-PKGREVISION=	1
 CATEGORIES=	graphics
 COMMENT=	Personal Information Management tools for the KDE desktop
 

@@ -1,7 +1,6 @@
 # $NetBSD$
 
 DISTNAME=	kdeedu-${_KDE_VERSION}
-PKGREVISION=	1
 CATEGORIES=	misc
 COMMENT=	Edu{tainment,cation} tools for the KDE integrated X11 desktop
 

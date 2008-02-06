@@ -1,7 +1,6 @@
 # $NetBSD$
 
 DISTNAME=	kdelibs-${_KDE_VERSION}
-PKGREVISION=	1
 CATEGORIES=	x11
 COMMENT=	Support libraries for the KDE integrated X11 desktop
 
