@@ -14,6 +14,7 @@ COMMENT=	Network monitoring tool
 GNU_CONFIGURE=	YES
 PKG_DESTDIR_SUPPORT=	user-destdir
 MAKE_JOBS_SAFE=		no
+USE_TOOLS+=		makeinfo
 
 #CONFIGURE_ARGS+=	--sysconfdir=${PKG_SYSCONFDIR:Q}
 
