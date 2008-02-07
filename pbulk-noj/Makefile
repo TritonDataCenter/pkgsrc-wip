@@ -19,7 +19,7 @@ NO_CHECKSUM=	YES
 
 USE_FEATURES=	nbcompat
 USE_TOOLS+=	awk:run bzip2:run digest:run gzip:run ident:run make:run \
-		mail:run tar:run
+		mail:run tar:run groff nroff
 DEPENDS+=	rsync-[0-9]*:../../net/rsync
 
 .include "../../mk/bsd.prefs.mk"

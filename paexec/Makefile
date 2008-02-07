@@ -13,6 +13,7 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 
 USE_LANGUAGES=		c
 USE_BSD_MAKEFILE=	yes
+USE_TOOLS+=		groff nroff
 
 PKGDOCDIR=		${PREFIX}/share/doc/${PKGBASE}
 PKGEGDIR=		${PREFIX}/share/examples/${PKGBASE}
