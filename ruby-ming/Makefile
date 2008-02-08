@@ -14,8 +14,6 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 USE_RUBY_SETUP=	yes
 VER=		0.1.9
 
-INSTALL_TARGET=	install --prefix=${DESTDIR}
-
 REPLACE_RUBY_DIRS=	${WRKSRC}/examples
 
 post-install:
