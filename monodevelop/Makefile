@@ -7,7 +7,7 @@ EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.monodevelop.com/
-COMMENT=	IDE for C# and other .NET languages
+COMMENT=	IDE for C\# and other .NET languages
 
 GNU_CONFIGURE=	yes
 USE_TOOLS+=	gmake perl:run bash
