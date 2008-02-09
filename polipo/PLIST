@@ -1,6 +1,7 @@
 @comment $NetBSD$
 bin/polipo
 man/man1/polipo.1
+share/examples/rc.d/polipo
 share/polipo/README
 share/polipo/config.sample
 share/polipo/forbidden.sample
