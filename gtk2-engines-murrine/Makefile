@@ -6,7 +6,7 @@ CATEGORIES=	x11
 MASTER_SITES=	http://cimi.netsons.org/media/download_gallery/murrine/
 EXTRACT_SUFX=	.tar.bz2
 
-MAINTAINER=	ekamperi@auth.gr
+MAINTAINER=	ekamperi@gmail.com
 HOMEPAGE=	http://cimi.netsons.org/media/download_gallery/murrine/
 COMMENT=	Cairo-based, very fast, gtk engine
 
