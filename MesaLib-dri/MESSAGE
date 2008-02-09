@@ -1,5 +1,5 @@
 ==========================================================================
-$NetBSD:$
+$NetBSD$
 
 To use this package as a replacement for graphics/MesaLib, simply copy
 the replacement buildlink3.mk file in this directory to

@@ -1,3 +1,5 @@
+# $NetBSD$
+
 PKG_OPTIONS_VAR=	PKG_OPTIONS.MesaLib
 PKG_OPTIONS_SET.driver=	dri-i810 dri-i915 dri-i965 dri-mach64 dri-mga dri-nouveau
 PKG_OPTIONS_SET.driver+=dri-r128 dri-r200 dri-r300 dri-radeon dri-tdfx dri-unichrome 

@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		axel-1.0b
-CATEGORIES=		wip
+CATEGORIES=		net
 MASTER_SITES=		http://wilmer.gaast.net/downloads/
 
 MAINTAINER=		alchow@users.sourceforge.net
