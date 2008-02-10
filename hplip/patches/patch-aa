@@ -69,12 +69,3 @@ $NetBSD$
  for i in $CUPSSEARCHPATH; do
     if test -d "$i/cups/filter"; then
        CUPS_FILTER_PATH="$i/cups/filter"
-@@ -22399,6 +22396,8 @@ do
- _ACEOF
- cat >>$CONFIG_STATUS <<\_ACEOF
-   -recheck | --recheck | --rechec | --reche | --rech | --rec | --re | --r)
-+	: Avoid regenerating within pkgsrc
-+	exit 0
-     ac_cs_recheck=: ;;
-   --version | --vers* | -V )
-     echo "$ac_cs_version"; exit 0 ;;

@@ -17,4 +17,4 @@ BUILDLINK_PKGSRCDIR.zvbi?=	../../wip/zvbi
 
 .include "../../textproc/libunicode/buildlink3.mk"
 
-BUILDLINK_DEPTH:=     ${BUILDLINK_DEPTH:S/+$//}
+BUILDLINK_DEPTH:=	${BUILDLINK_DEPTH:S/+$//}

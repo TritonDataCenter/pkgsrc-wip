@@ -20,7 +20,7 @@ SUBST_CLASSES+=		putwchar
 SUBST_STAGE.putwchar=	post-extract
 SUBST_MESSAGE.putwchar=	Renaming conflicting function putwchar.
 SUBST_FILES.putwchar=	test/glyph.c test/unicode.c
-SUBST_SED.putwchar=	s/putwchar/my_putwchar/
+SUBST_SED.putwchar=	-e s/putwchar/my_putwchar/
 
 .include "../../textproc/libunicode/buildlink3.mk"
 .include "../../mk/x11.buildlink3.mk"

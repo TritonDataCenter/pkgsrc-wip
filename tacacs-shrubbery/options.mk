@@ -34,7 +34,6 @@ CONFIGURE_ARGS+=	--without-libwrap
 .if !empty(PKG_OPTIONS:Mskey)
 CONFIGURE_ARGS+=	--with-skey=${BUILDLINK_PREFIX.skey}
 . include "../../security/skey/buildlink3.mk"
-. include "../../security/skey/builtin.mk"
 . if ${IS_BUILTIN.skey} == no
 # pkgsrc's version uses three arguments only
 CPPFLAGS+=		-DOLDSKEY
