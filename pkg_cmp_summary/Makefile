@@ -1,6 +1,8 @@
 # $NetBSD$
 
-DISTNAME=	pkg_cmp_summary-0.2.0
+.include "../../wip/pkg_cmp_summary/files/Makefile.version"
+
+DISTNAME=	pkg_cmp_summary-${VERSION}
 CATEGORIES=	pkgtools
 MASTER_SITES=	# empty
 DISTFILES=	# empty
@@ -16,12 +18,13 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 
 WRKSRC=		${.CURDIR}/files
 USE_LANGUAGES=	# empty
-NO_CHECKSUM=	YES
-NO_BUILD=	YES
+NO_CHECKSUM=	yes
+NO_BUILD=	yes
 
+MAN1DIR=	${PKGMANDIR}/man1
 MAKE_ENV+=	MAKEOBJDIR=${WRKDIR}
 MAKE_ENV+=	MKCATPAGES=no
 
-INSTALLATION_DIRS+=	bin ${PKGMANDIR}/man1
+INSTALLATION_DIRS+=	bin ${MAN1DIR}
 
 .include "../../mk/bsd.pkg.mk"
