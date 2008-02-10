@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		polipo-1.0.3
+DISTNAME=		polipo-1.0.4
 CATEGORIES=		www wip
 MASTER_SITES=		http://www.pps.jussieu.fr/~jch/software/files/polipo/
 MAINTAINER=		pkgsrc-users@NetBSD.org
