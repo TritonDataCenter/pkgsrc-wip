@@ -18,7 +18,6 @@ SUBST_CLASSES+=		man-paths
 SUBST_STAGE.man-paths=	pre-patch
 SUBST_FILES.man-paths=	man/typespeed.6
 SUBST_SED.man-paths=	-e 's|/etc/|${PREFIX}/etc/|g'
-SUBST_SED.man-paths+=	-e 's|/usr/local|${PREFIX}|g'
 SUBST_MESSAGE.man-paths=	Adjusting path in the game's man page
 
 .include "../../devel/ncurses/buildlink3.mk"
