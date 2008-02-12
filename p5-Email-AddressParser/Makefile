@@ -5,7 +5,7 @@ PKGNAME=	p5-${DISTNAME}
 CATEGORIES=	mail perl5
 MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=Email/}
 
-MAINTAINER=	pkgsrc-users@NetBSD.org
+MAINTAINER=	shattered@users.sourceforge.net
 HOMEPAGE=	http://search.cpan.org/dist/Email-AddressParser/
 COMMENT=	RFC 2822 Address Parsing and Creation
 
