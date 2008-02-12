@@ -8,7 +8,7 @@ MASTER_SITES=		http://intellinuxwireless.org/iwlwifi/downloads/
 EXTRACT_SUFX=		.tgz
 
 MAINTAINER=		pkgsrc-users@NetBSD.org
-HOMEPAGE=		http://intelliwireless.org/
+HOMEPAGE=		http://intellinuxwireless.org/
 COMMENT=		Firmware binary image for the iwn(4) driver
 
 NO_CONFIGURE=		yes
