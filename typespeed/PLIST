@@ -1,6 +1,5 @@
 @comment $NetBSD$
 bin/typespeed
-etc/typespeedrc
 man/man6/typespeed.6
 share/doc/typespeed/README
 share/typespeed/rules/rule.classic
@@ -20,8 +19,6 @@ share/typespeed/words/words.por
 share/typespeed/words/words.prog
 share/typespeed/words/words.tha
 share/typespeed/words/words.unix
-var/games/typespeed.score
-@dirrm var/games
 @dirrm share/typespeed/words
 @dirrm share/typespeed/rules
 @dirrm share/doc/typespeed
