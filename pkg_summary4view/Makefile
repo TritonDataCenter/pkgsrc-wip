@@ -1,7 +1,5 @@
 # $NetBSD$
 
-.include "../../wip/pkg_summary4view/files/Makefile.version"
-
 DISTNAME=	pkg_summary4view-${VERSION}
 CATEGORIES=	pkgtools
 MASTER_SITES=	# empty
@@ -10,6 +8,8 @@ DISTFILES=	# empty
 MAINTAINER=	cheusov@tut.by
 HOMEPAGE=	http://www.mova.org/~cheusov/
 COMMENT=	Convert summary information to human readable format
+
+.include "../../wip/pkg_summary4view/files/Makefile.version"
 
 USE_BSD_MAKEFILE=	yes
 
