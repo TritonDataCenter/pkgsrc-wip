@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		audacious-plugins-1.4.4
+DISTNAME=		audacious-plugins-1.4.5
 #PKGREVISION=		1
 PKGREVISION=		1
 CATEGORIES=		audio
