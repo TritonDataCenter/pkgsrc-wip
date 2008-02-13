@@ -1,7 +1,0 @@
-===========================================================================
-$NetBSD$
-
-If you intent to use the System.Drawing or Windows.Forms then you have to
-install wip/libgdiplus as well.
-
-===========================================================================
