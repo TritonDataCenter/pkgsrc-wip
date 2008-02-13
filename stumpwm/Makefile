@@ -2,6 +2,7 @@
 #
 
 DISTNAME=		stumpwm-0.9.1
+PKGREVISION=		1
 CATEGORIES=		wm
 DISTFILES=		${DISTNAME}.tgz cl-ppcre.tar.gz
 SITES.${DISTNAME}.tgz=	http://download.savannah.nongnu.org/releases/stumpwm/
@@ -28,6 +29,6 @@ pre-configure:
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/stumpwm ${PREFIX}/bin
-	${INSTALL_INFO} ${WRKSRC}/stumpwm.info ${PREFIX}/${PKGINFODIR}/stumpwm.info
+	${INSTALL_MAN} ${WRKSRC}/stumpwm.info ${PREFIX}/${PKGINFODIR}/stumpwm.info
 
 .include "../../mk/bsd.pkg.mk"
