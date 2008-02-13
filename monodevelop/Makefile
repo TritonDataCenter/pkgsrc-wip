@@ -5,7 +5,7 @@ CATEGORIES=	devel
 MASTER_SITES=	http://go-mono.com/sources/monodevelop/
 EXTRACT_SUFX=	.tar.bz2
 
-MAINTAINER=	pkgsrc-users@NetBSD.org
+MAINTAINER=	kefren@NetBSD.org
 HOMEPAGE=	http://www.monodevelop.com/
 COMMENT=	IDE for C\# and other .NET languages
 
