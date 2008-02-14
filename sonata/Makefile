@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	sonata-1.4.1
+DISTNAME=	sonata-1.4.2
 CATEGORIES=	audio
 MASTER_SITES=	http://download.berlios.de/sonata/
 EXTRACT_SUFX=	.tar.bz2
