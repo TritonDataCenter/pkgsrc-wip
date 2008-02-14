@@ -5,4 +5,5 @@ RMD160 (ejabberd-2.0.0-rc1.tar.gz) = ada84c41bd9d997cb55106690065fd235c3155c3
 Size (ejabberd-2.0.0-rc1.tar.gz) = 1371857 bytes
 SHA1 (patch-aa) = 3590ce19a2436c10cf372ec12f2b984d2dfd43db
 SHA1 (patch-ab) = 541194b5162d8f11bdd094dbf67915f3d2c71ef0
-SHA1 (patch-ac) = 3d3a5d55215fe0ff18510d30ce2c48ce63496b99
+SHA1 (patch-ac) = 23a7528ac5f3c9f1e7e89062e43482b8bf103e0e
+SHA1 (patch-ad) = ece5a64b4beacd967bdb24d42cf105cd3bb1b7b6
