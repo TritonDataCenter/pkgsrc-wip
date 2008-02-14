@@ -10,6 +10,8 @@ HOMEPAGE=	http://www.mova.org/~cheusov/
 COMMENT=	Builds summary information for source packages
 
 DEPENDS+=	pipestatus-[0-9]*:../../wip/pipestatus
+DEPENDS+=	pkg_src_summary-[0-9]*:../../wip/pkg_src_summary
+DEPENDS+=	pkg_cmp_summary-[0-9]*:../../wip/pkg_cmp_summary
 
 .include "../../wip/pkg_src_update_summary/files/Makefile.version"
 
