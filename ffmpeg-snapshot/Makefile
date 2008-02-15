@@ -28,10 +28,7 @@ REPLACE_PERL+=	doc/texi2pod.pl
 
 USE_LANGUAGES=	c c++
 USE_TOOLS+=	gmake pkg-config
-USE_LIBTOOL=	YES
-
-CONF_FILES=	${PREFIX}/share/examples/ffmpeg/ffserver.conf \
-		${PKG_SYSCONFDIR}/ffserver.conf
+#USE_LIBTOOL=	YES
 
 .include "../../mk/bsd.prefs.mk"
 
