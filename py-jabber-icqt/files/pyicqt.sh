@@ -14,17 +14,17 @@ rcvar=$name
 command_interpreter="@PYTHONBIN@"
 required_files="@PKG_SYSCONFDIR@/pyicqt.xml"
 command="@PREFIX@/bin/PyICQt"
-pyicqt_user="@JABBERD_USER@"
-pidfile="@JABBERD_PIDDIR@/${name}.pid"
-logfile="@JABBERD_LOGDIR@/${name}.log"
+pyicqt_user="@JABBER_USER@"
+pidfile="@JABBER_PIDDIR@/${name}.pid"
+logfile="@JABBER_LOGDIR@/${name}.log"
 command_args="-b -l ${logfile}"
 stop_postcmd="remove_pidfile"
 start_precmd="ensure_piddir"
 
 ensure_piddir()
 {
-	mkdir -p @JABBERD_PIDDIR@
-	chown @JABBERD_USER@ @JABBERD_PIDDIR@
+	mkdir -p @JABBER_PIDDIR@
+	chown @JABBER_USER@ @JABBER_PIDDIR@
 }
 
 remove_pidfile()

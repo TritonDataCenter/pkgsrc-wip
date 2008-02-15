@@ -7,12 +7,12 @@ $NetBSD$
  	<!-- The location of the spool directory.. if relative, relative to -->
  	<!-- this directory.  Do not include the jid of the transport. -->
 -	<spooldir>.</spooldir>
-+	<spooldir>@JABBERD_SPOOLDIR@</spooldir>
++	<spooldir>@JABBER_SPOOLDIR@</spooldir>
  
  	<!-- The location of the PID file.. if relative, relative to this dir. -->
  	<!-- Comment out if you do not want a PID file -->
 -	<pid>PyAIMt.pid</pid>
-+	<pid>@JABBERD_PIDDIR@/pyaimt.pid</pid>
++	<pid>@JABBER_PIDDIR@/pyaimt.pid</pid>
  
  	<!-- The IP address of the main Jabber server -->
  	<mainServer>127.0.0.1</mainServer>
