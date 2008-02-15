@@ -3,10 +3,10 @@
 DISTNAME=		pyicq-t-0.8a
 PKGNAME=		${PYPKGPREFIX}-jabber-${DISTNAME:S/py//}
 CATEGORIES=		chat python
-MASTER_SITES=		http://www.blathersource.org/download.php/pyicq-t/
+MASTER_SITES=		http://pyicqt.googlecode.com/files/
 
 MAINTAINER=		eric@cirr.com
-HOMEPAGE=		http://pyicq-t.blathersource.org/
+HOMEPAGE=		http://code.google.com/p/pyicqt/
 COMMENT=		Transport connecting Jabber to the ICQ IM network
 
 #

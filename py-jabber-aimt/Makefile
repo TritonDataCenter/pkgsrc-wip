@@ -3,10 +3,10 @@
 DISTNAME=		pyaim-t-0.8a
 PKGNAME=		${PYPKGPREFIX}-jabber-${DISTNAME:S/py//}
 CATEGORIES=		chat python
-MASTER_SITES=		http://www.blathersource.org/download.php/pyaim-t/
+MASTER_SITES=		http://pyaimt.googlecode.com/files/
 
 MAINTAINER=		eric@cirr.com
-HOMEPAGE=		http://pyaim-t.blathersource.org/
+HOMEPAGE=		http://code.google.com/p/pyaimt/
 COMMENT=		Transport connecting Jabber to the AOL IM network
 
 #
