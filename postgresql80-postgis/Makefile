@@ -3,6 +3,7 @@
 
 VERSION=		1.0.3
 PKGNAME=		postgresql80-postgis-${VERSION}
+PKGREVISION=		1
 CATEGORIES=		databases geography
 
 MAINTAINER=		mchittur@cs.nmsu.edu

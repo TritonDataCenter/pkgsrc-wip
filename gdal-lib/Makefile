@@ -3,6 +3,7 @@
 
 DISTNAME=		gdal-1.3.1
 PKGNAME=		gdal-lib-1.3.1
+PKGREVISION=		1
 CATEGORIES=		geography
 MASTER_SITES=		http://www.gdal.org/dl/
 

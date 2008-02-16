@@ -13,6 +13,7 @@ BUILDLINK_ORDER:=	${BUILDLINK_ORDER} ${BUILDLINK_DEPTH}gdal-lib
 
 .if !empty(GDAL_LIB_BUILDLINK3_MK:M+)
 BUILDLINK_API_DEPENDS.gdal-lib+=	gdal-lib>=1.3.1
+BUILDLINK_ABI_DEPENDS.gdal-lib?=	gdal-lib>=1.3.1nb1
 BUILDLINK_PKGSRCDIR.gdal-lib?=	../../geography/gdal-lib
 .endif	# GDAL_LIB_BUILDLINK3_MK
 

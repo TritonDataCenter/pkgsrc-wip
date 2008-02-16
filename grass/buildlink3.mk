@@ -12,7 +12,7 @@ BUILDLINK_PACKAGES+=	grass
 
 .if !empty(GRASS_BUILDLINK3_MK:M+)
 BUILDLINK_API_DEPENDS.grass+=	grass>=6.0.0
-BUILDLINK_ABI_DEPENDS.grass?=	grass>=6.0.2nb1
+BUILDLINK_ABI_DEPENDS.grass?=	grass>=6.0.2nb2
 BUILDLINK_PKGSRCDIR.grass?=	../../wip/grass
 .endif	# GRASS_BUILDLINK3_MK
 
