@@ -26,13 +26,11 @@ USE_GNU_CONFIGURE_HOST=	no
 TARGET_SYSTEM!=		../../mk/gnu-config/config.guess
 PLIST_SUBST+=		TARGET_SYSTEM=${TARGET_SYSTEM}
 
-CONFIGURE_ARGS+=	--with-lisp=clisp --with-x=no
-BUILD_DEPENDS+=		clisp>=2.41:../../lang/clisp
-#CONFIGURE_ARGS+=	--with-lisp=sbcl --with-x=no
-
 PKG_DESTDIR_SUPPORT=	user-destdir
 
 MAKE_JOBS_SAFE=		no
+
+.include "options.mk"
 
 # I need to figure out, why it fails with pkgsrc's version:
 do-configure:
