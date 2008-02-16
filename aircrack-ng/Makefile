@@ -1,11 +1,11 @@
 # $NetBSD$
 #
 
-DISTNAME=		aircrack-ng-0.9.1
+DISTNAME=		aircrack-ng-0.9.2
 CATEGORIES=		security
 MASTER_SITES=		http://download.aircrack-ng.org/
 
-MAINTAINER=		pancake@phreaker.net
+MAINTAINER=		tnn@NetBSD.org
 HOMEPAGE=		http://www.aircrack-ng.org/
 COMMENT=		Tools for auditing wireless networks
 
