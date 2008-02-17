@@ -31,9 +31,9 @@ SUBST_SED.paths=	-e "s,/etc,${PKG_SYSCONFDIR},"
 ##
 # Options
 ##
-PKG_OPTIONS_VAR=                PKG_OPTIONS.fdm
-PKG_SUPPORTED_OPTIONS=          pcre
-PKG_SUGGESTED_OPTIONS=		pcre
+PKG_OPTIONS_VAR=	PKG_OPTIONS.fdm
+PKG_SUPPORTED_OPTIONS=	pcre
+PKG_SUGGESTED_OPTIONS=	pcre
 
 # Options handling framework
 .include "../../mk/bsd.options.mk"
