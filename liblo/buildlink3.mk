@@ -14,7 +14,8 @@ BUILDLINK_ORDER:=	${BUILDLINK_ORDER} ${BUILDLINK_DEPTH}liblo
 .if ${LIBLO_BUILDLINK3_MK} == "+"
 BUILDLINK_API_DEPENDS.liblo+=	liblo>=0.23
 BUILDLINK_PKGSRCDIR.liblo?=	../../wip/liblo
-BUILDLINK_DEPMETHOD.liblo?=	build
 .endif	# LIBLO_BUILDLINK3_MK
+
+.include "../../mk/pthread.buildlink3.mk"
 
 BUILDLINK_DEPTH:=	${BUILDLINK_DEPTH:S/+$//}
