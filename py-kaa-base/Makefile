@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		kaa-base-0.1.3
+DISTNAME=		kaa-base-0.3.0
 PKGNAME=                ${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=		multimedia
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=freevo/}
