@@ -66,8 +66,8 @@ BUILDLINK_API_DEPENDS.inputproto+=	inputproto>=1.4.2
 
 post-extract: dri-post-extract
 	${CP} ${FILESDIR}/modeline2c.awk ${WRKSRC}/hw/xfree86/common
-	${RM} ${WRKDIR}/Mesa-7.0.2/src/mesa/Makefile.orig
-	${RM} ${WRKDIR}/Mesa-7.0.2/docs/README.MINGW32.orig
+	${RM} -f ${WRKDIR}/Mesa-7.0.2/src/mesa/Makefile.orig
+	${RM} -f ${WRKDIR}/Mesa-7.0.2/docs/README.MINGW32.orig
 
 .include "options.mk"
 
