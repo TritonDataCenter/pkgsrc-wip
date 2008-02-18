@@ -17,7 +17,7 @@ command="@PREFIX@/bin/PyICQt"
 pyicqt_user="@JABBER_USER@"
 pidfile="@JABBER_PIDDIR@/${name}.pid"
 logfile="@JABBER_LOGDIR@/${name}.log"
-command_args="-b -l ${logfile}"
+command_args="-l ${logfile} -c @PKG_SYSCONFDIR@/pyicqt.xml &"
 stop_postcmd="remove_pidfile"
 start_precmd="ensure_piddir"
 
@@ -40,5 +40,5 @@ if [ -f /etc/rc.subr ]; then
 	run_rc_command "$1"
 else
 	@ECHO@ -n " ${name}"
-	@SU@ ${pyicqt_user} -c "${command} ${pyicqt_flags} ${command_args}"
+	@SU@ -m ${pyicqt_user} -c "${command} ${pyicqt_flags} ${command_args}"
 fi

@@ -1,5 +1,7 @@
 $NetBSD$
 
+start from the installation directory
+
 --- PyICQt.py.orig	2006-03-06 13:12:26.000000000 -0600
 +++ PyICQt.py
 @@ -1,8 +1,8 @@
