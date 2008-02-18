@@ -13,7 +13,7 @@ BUILDLINK_ORDER:=	${BUILDLINK_ORDER} ${BUILDLINK_DEPTH}py-kaa-imlib2
 
 .if ${PY_KAA_IMLIB2_BUILDLINK3_MK} == "+"
 .include "../../lang/python/pyversion.mk"
-BUILDLINK_API_DEPENDS.py-kaa-imlib2+=	${PYPKGPREFIX}-kaa-imlib2>=0.2.1
+BUILDLINK_API_DEPENDS.py-kaa-imlib2+=	${PYPKGPREFIX}-kaa-imlib2>=0.2.3
 BUILDLINK_PKGSRCDIR.py-kaa-imlib2?=	../../wip/py-kaa-imlib2
 .endif	# PY_KAA_IMLIB2_BUILDLINK3_MK
 

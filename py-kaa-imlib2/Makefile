@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		kaa-imlib2-0.2.1
+DISTNAME=		kaa-imlib2-0.2.3
 PKGNAME=                ${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=		multimedia
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=freevo/}
