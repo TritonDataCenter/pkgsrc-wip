@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		freevo-1.7.0
+DISTNAME=		freevo-1.7.6
 CATEGORIES=		multimedia
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=freevo/}
 
