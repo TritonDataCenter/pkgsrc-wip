@@ -8,7 +8,7 @@ CATEGORIES=	devel python
 MASTER_SITES=	http://pypi.python.org/packages/source/p/pytz/
 
 MAINTAINER=	obache@NetBSD.org
-HOMEPAGE=	http://pypi.python.org/packages/source/p/pytz/
+HOMEPAGE=	http://pytz.sourceforge.net/
 COMMENT=	World Timezone Definitions for Python
 
 PKG_DESTDIR_SUPPORT=	user-destdir
