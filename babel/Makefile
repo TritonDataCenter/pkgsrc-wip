@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	Babel-0.9.1
+DISTNAME=	Babel-0.9.2
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME:tl}
 EGG_NAME=	${DISTNAME}
 CATEGORIES=	devel python
