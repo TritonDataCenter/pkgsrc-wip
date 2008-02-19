@@ -38,7 +38,7 @@ LIBS+=			${LDFLAGS}
 .include "options.mk"
 
 post-install:
-.for tool in bin2res fnt2bdf
+.for tool in fnt2bdf
 	${LIBTOOL} --mode=install ${INSTALL_PROGRAM} ${WRKSRC}/tools/${tool} \
 		${PREFIX}/bin
 .endfor
