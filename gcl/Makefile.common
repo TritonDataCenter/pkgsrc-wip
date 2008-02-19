@@ -16,11 +16,17 @@ LIBTOOL_OVERRIDE?=	${WRKSRC}/libtool
 GNU_CONFIGURE?=		yes
 MAKE_FILE=		makefile
 USE_TOOLS+=		gmake
+USE_TOOLS+=		makeinfo
 #GCC_REQD=		3
 
 DISTINFO_FILE?=		${.CURDIR}/../gcl/distinfo
 COMMON_FILESDIR?=	${.CURDIR}/../gcl/files
 PATCHDIR?=		${.CURDIR}/../gcl/patches
+
+#CONFIGURE_ARGS+=	--enable-locbfd --disable-statsysbfd
+CONFIGURE_ARGS+=	--disable-locbfd --disable-statsysbfd --enable-custreloc
+CONFIGURE_ARGS+=	--enable-emacsdir=${PREFIX}/share/emacs/site-lisp/gcl
+CONFIGURE_ARGS+=	--infodir=${PREFIX}/info
 
 .include "../../mk/bsd.prefs.mk"
 
