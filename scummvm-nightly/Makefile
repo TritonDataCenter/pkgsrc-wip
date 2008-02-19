@@ -7,7 +7,6 @@ MAINTAINER=	dillo@NetBSD.org
 HOMEPAGE=	http://scummvm.sourceforge.net/
 COMMENT=	LucasArts Script Creation Utility for Maniac Mansion
 
-NO_CHECKSUM=	yes
 NO_SRC_ON_FTP=	# changes daily
 NO_SRC_ON_CDROM=# changes daily
 USE_TOOLS+=	gmake
