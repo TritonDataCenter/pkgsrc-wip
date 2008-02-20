@@ -1,8 +1,8 @@
 # $NetBSD$
 #
 
-DISTNAME=		stumpwm-0.9.1
-PKGREVISION=		1
+DISTNAME=		stumpwm-0.9.2
+#PKGREVISION=		1
 CATEGORIES=		wm
 DISTFILES=		${DISTNAME}.tgz cl-ppcre.tar.gz
 SITES.${DISTNAME}.tgz=	http://download.savannah.nongnu.org/releases/stumpwm/
