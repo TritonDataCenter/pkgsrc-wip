@@ -13,6 +13,19 @@ USE_LANGUAGES=	c c++
 USE_TOOLS+=	gmake pkg-config perl
 USE_CMAKE=	yes
 
+.include "../../mk/bsd.prefs.mk"
+.if ${OPSYS} == "NetBSD" && exists(/usr/include/sys/pset.h)
+RT_LIB_SCHED=           -lrt
+.else
+RT_LIB_SCHED=           # empty
+.endif
+
+.if !empty(RT_LIB_SCHED)
+# these use sched_setscheduler
+CMAKE_ARGS+=	-Dstrigidaemon_LIBS=${RT_LIB_SCHED}
+CMAKE_ARGS+=	-Dtest_LIBS=${RT_LIB_SCHED}
+.endif
+
 pre-configure:
 	${LN} -sf ${QTDIR}/bin/qmake ${BUILDLINK_DIR}/bin/
 
