@@ -1,6 +1,6 @@
 @comment $NetBSD$
 lib/xorg/modules/drivers/ati_drv.la
-lib/xorg/modules/drivers/atimisc_drv.la
+lib/xorg/modules/drivers/mach64_drv.la
 lib/xorg/modules/drivers/r128_drv.la
 lib/xorg/modules/drivers/radeon_drv.la
 lib/xorg/modules/multimedia/theatre200_drv.la
