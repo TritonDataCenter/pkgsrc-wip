@@ -31,6 +31,12 @@ CONFIGURE_ARGS+=	--infodir=${PREFIX}/info
 CONFIGURE_ARGS+=--enable-machine=NetBSD
 .endif
 
+# Require GCC 3
+.if !empty(MACHINE_PLATFORM:MNetBSD-4*)
+GCC_REQD+=		3.0
+USE_PKGSRC_GCC=		yes
+.endif
+
 .include "../../devel/readline/buildlink3.mk"
 .include "../../lang/tcl/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
