@@ -52,6 +52,14 @@ SUBST_STAGE.qtpath=	post-patch
 
 ICONDIR=		share/icons
 
+.include "../../mk/bsd.prefs.mk"
+.if ${OPSYS} == "NetBSD" && exists(/usr/include/sys/pset.h)
+RT_LIB_SCHED=	rt
+.else
+RT_LIB_SCHED=	# empty
+.endif
+CMAKE_ARGS+=	-DRT_LIB_SCHED=${RT_LIB_SCHED}
+
 post-install:
 	${INSTALL_DATA} ${DISTDIR}/NetBSD-flag-1.0.png \
 		${DESTDIR}${PREFIX}/${ICONDIR}/NetBSD-flag.png
