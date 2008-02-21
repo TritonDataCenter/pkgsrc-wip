@@ -19,7 +19,7 @@ SUBST_CLASSES=		makefile
 SUBST_STAGE.makefile=	pre-build
 SUBST_MESSAGE.makefile=	Fixing distribution Makefile..
 SUBST_FILES.makefile=	Makefile
-SUBST_SED.makefile=	-e 's/-I-/-iquote/'
+SUBST_SED.makefile=	-e 's/-I-//'
 SUBST_SED.makefile+=	-e "s,/man/,/${PKGMANDIR}/,"
 
 # Paths
