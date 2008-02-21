@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		WebService-CIA-1.0
+DISTNAME=		WebService-CIA-1.4
 PKGNAME=		p5-${DISTNAME}
 CATEGORIES=		www perl5
 MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=../by-authors/id/I/IM/IMALPASS/}
