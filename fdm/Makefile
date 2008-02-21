@@ -22,6 +22,12 @@ SUBST_FILES.makefile=	Makefile
 SUBST_SED.makefile=	-e 's/-I-//'
 SUBST_SED.makefile+=	-e "s,/man/,/${PKGMANDIR}/,"
 
+# Unprivileged owner/group
+.include "../../mk/bsd.prefs.mk"
+.if defined(UNPRIVILEGED) && !empty(UNPRIVILEGED:M[Yy][Ee][Ss])
+SUBST_SED.makefile+=	-e 's/-g bin -o root/-o ${UNPRIVILEGED_USER} -g ${UNPRIVILEGED_GROUP}/g'
+.endif
+
 # Paths
 SUBST_CLASSES+=		paths
 SUBST_STAGE.paths=	pre-build
