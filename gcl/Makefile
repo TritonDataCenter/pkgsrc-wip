@@ -8,6 +8,8 @@ MAINTAINER=		asau@inbox.ru
 HOMEPAGE=		http://www.gnu.org/software/gcl/gcl.html
 COMMENT=		GNU Common Lisp
 
+PKG_DESTDIR_SUPPORT=	user-destdir
+
 USE_PKGLOCALEDIR=	yes
 USE_X11=		yes
 USE_LIBTOOL=		yes
