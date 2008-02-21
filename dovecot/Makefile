@@ -1,9 +1,9 @@
 # $NetBSD$
 
-DISTNAME=		dovecot-1.1.beta16
-PKGNAME=		${DISTNAME:S/.beta/beta/}
+DISTNAME=		dovecot-1.1.rc1
+PKGNAME=		${DISTNAME:S/.rc/rc/}
 CATEGORIES=		mail
-MASTER_SITES=		http://www.dovecot.org/releases/1.1/beta/
+MASTER_SITES=		http://www.dovecot.org/releases/1.1/rc/
 
 MAINTAINER=		ghen@NetBSD.org
 HOMEPAGE=		http://www.dovecot.org/
