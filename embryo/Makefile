@@ -1,10 +1,10 @@
 # $NetBSD$
 #
 
-DISTNAME=	embryo-0.9.1.041
-PKGREVISION=	3
+DISTNAME=	embryo-0.9.1.042
 CATEGORIES=	lang
-MASTER_SITES=	http://www.yazzy.org/pkgsrc/e17/ \
+MASTER_SITES=	http://download.enlightenment.org/snapshots/2008-01-25/ \
+		http://www.yazzy.org/pkgsrc/e17/ \
 		http://jfranz.users.bsdprojects.net/pkgsrc/e17/
 
 MAINTAINER=	grzela@seculture.com

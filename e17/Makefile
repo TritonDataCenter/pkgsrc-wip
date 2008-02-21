@@ -1,11 +1,12 @@
 # $NetBSD$
 #
 
-DISTNAME=	e17-0.16.999.041
-PKGREVISION=	4
+DISTNAME=	enlightenment-0.16.999.042
+PKGNAME=	e17-0.16.999.042
 CATEGORIES=	x11
-MASTER_SITES=   http://www.yazzy.org/pkgsrc/e17/ \
-                http://jfranz.users.bsdprojects.net/pkgsrc/e17/
+MASTER_SITES=   http://download.enlightenment.org/snapshots/2008-01-25/ \
+		http://www.yazzy.org/pkgsrc/e17/ \
+                http://jfranz.users.bsdprojects.net/pkgsrc/e17/ 
 
 MAINTAINER=	yazzy@yazzy.org
 HOMEPAGE=	http://enlightenment.org/

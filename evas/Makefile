@@ -1,10 +1,10 @@
 # $NetBSD$
 #
 
-DISTNAME=	evas-0.9.9.041
-PKGREVISION=	4
+DISTNAME=	evas-0.9.9.042
 CATEGORIES=	graphics
-MASTER_SITES=   http://www.yazzy.org/pkgsrc/e17/ \
+MASTER_SITES=   http://download.enlightenment.org/snapshots/2008-01-25/ \
+		http://www.yazzy.org/pkgsrc/e17/ \
                 http://jfranz.users.bsdprojects.net/pkgsrc/e17/
 
 MAINTAINER=	yazzy@yazzy.org
