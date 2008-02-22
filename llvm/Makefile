@@ -14,16 +14,17 @@ PKG_DESTDIR_SUPPORT+=	destdir
 GNU_CONFIGURE=	yes
 USE_TOOLS+=	gmake perl:build chown
 USE_LANGUAGES+=	c c++
+MAKE_DIRS+=	etc/llvm
 
 # This should be changed!
 CONFIGURE_ARGS+= --enable-targets=host-only
 
-# Prevent those .dir files to be installed accidentaly.
-# I dont know how much platform independent is this. :)
-# Maybe it should be handled in some other way.
-#
-pre-install:
-	find ${WRKSRC} -name .dir | xargs rm
+CONF_FILES=	share/examples/llvm/c etc/llvm/c
+CONF_FILES+=	share/examples/llvm/c++ etc/llvm/c++
+CONF_FILES+=	share/examples/llvm/cpp etc/llvm/cpp
+CONF_FILES+=	share/examples/llvm/cxx etc/llvm/cxx
+CONF_FILES+=	share/examples/llvm/ll etc/llvm/ll
+CONF_FILES+=	share/examples/llvm/st etc/llvm/st
 
 .include "../../converters/libiconv/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
