@@ -17,5 +17,6 @@ do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/dvtm ${PREFIX}/bin
 	${INSTALL_MAN} ${WRKSRC}/dvtm.1 ${PREFIX}/${PKGMANDIR}/man1
 
-.include "../../devel/ncursesw/buildlink3.mk"
+.include "options.mk"
+
 .include "../../mk/bsd.pkg.mk"
