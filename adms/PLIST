@@ -1,0 +1,6 @@
+@comment $NetBSD$
+bin/admsCheck
+bin/admsXml
+lib/libadmsElement.la
+lib/libadmsPreprocessor.la
+lib/libadmsVeriloga.la
