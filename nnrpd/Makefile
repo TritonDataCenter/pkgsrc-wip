@@ -16,6 +16,7 @@ INN_DATA_DIR?=		/var/news
 CONFLICTS+=		nntpclnt-[0-9]* \
 			inn-[1-9].*
 RCD_SCRIPTS=		actived
+USE_TOOLS+=		perl
 
 .include "../../mk/bsd.prefs.mk"
 .include "../../wip/c-news/Makefile.common"
@@ -48,7 +49,6 @@ FILES_SUBST_SED=	${FILES_SUBST:S/=/@!/:S/$/!g/:S/^/-e s!@/}
 
 DEINSTALL_SRC=		${WRKDIR}/DEINSTALL
 INSTALL_SRC=		${WRKDIR}/INSTALL
-RCD_SCRIPTS=		actived.sh
 
 BUILD_DEFS+=		INN_DATA_DIR
 
