@@ -14,6 +14,7 @@ COMMENT=		Photo collection manager and viewer
 USE_LANGUAGES=		c c++
 PYDISTUTILSPKG=		yes
 PYTHON_PATCH_SCRIPTS=	*.py
+PYTHON_VERSIONS_ACCEPTED=	24 23
 
 .include "../../lang/python/extension.mk"
 .include "../../x11/py-qt3-modules/buildlink3.mk"
