@@ -4,6 +4,7 @@
 DISTNAME=	qucs-0.0.13
 CATEGORIES=	cad
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=qucs/}
+SUBDIR+=	qucs
 
 MAINTAINER=	10.50@free.fr
 HOMEPAGE=	http://qucs.sourceforge.net/

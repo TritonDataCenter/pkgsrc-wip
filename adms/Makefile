@@ -4,6 +4,7 @@
 DISTNAME=	  adms-2.2.8
 CATEGORIES=	  cad
 MASTER_SITES=	  ${MASTER_SITE_SOURCEFORGE:=mot-adms/}
+SUBDIR+=	  adms
 
 MAINTAINER=	  10.50@free.fr
 HOMEPAGE=	  http://mot-adms.sourceforge.net/
