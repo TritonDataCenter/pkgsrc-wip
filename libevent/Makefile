@@ -14,7 +14,7 @@ CATEGORIES=	devel
 MASTER_SITES=	http://monkey.org/~provos/
 
 MAINTAINER=	athaba@inode.at
-HOMEPAGE=	http://monkey.org/~provos/
+HOMEPAGE=	http://monkey.org/~provos/libevent/
 COMMENT=	Asynchronous event notification library (beta)
 
 GNU_CONFIGURE=	yes
