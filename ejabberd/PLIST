@@ -1,5 +1,4 @@
 @comment $NetBSD$
-etc/ejabberd/inetrc
 ${EJABBERD_EXDIR}/ejabberd.cfg
 lib/erlang/lib/${DISTNAME}/ebin/ELDAPv3.beam
 lib/erlang/lib/${DISTNAME}/ebin/XmppAddr.beam
