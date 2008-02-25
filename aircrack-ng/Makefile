@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		aircrack-ng-0.9.2
+DISTNAME=		aircrack-ng-0.9.3
 CATEGORIES=		security
 MASTER_SITES=		http://download.aircrack-ng.org/
 
