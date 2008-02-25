@@ -1,6 +1,7 @@
 # $NetBSD$
 
 DISTNAME=		ocp-0.1.15
+PKGREVISION=		2
 CATEGORIES=		audio
 MASTER_SITES=		http://stian.lunafish.org/ocp/
 EXTRACT_SUFX=		.tar.bz2
