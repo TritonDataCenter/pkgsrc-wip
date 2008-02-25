@@ -14,7 +14,7 @@ COMMENT=		Theme engine for GTK+ 2.x
 
 USE_LIBTOOL=		YES
 USE_DIRS+=		xdg-1.4
-USE_TOOLS+=		gmake
+USE_TOOLS+=		gmake pkg-config
 GNU_CONFIGURE=		YES
 
 .include "../../x11/gtk2/buildlink3.mk"

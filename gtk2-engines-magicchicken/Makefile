@@ -11,7 +11,7 @@ COMMENT=		MagicChicken theme engine for GTK+ 2.x
 
 USE_LIBTOOL=		YES
 USE_DIRS+=		xdg-1.4
-USE_TOOLS+=		gmake
+USE_TOOLS+=		gmake pkg-config
 GNU_CONFIGURE=		YES
 WRKSRC=                 ${WRKDIR}/gtk2-engines-magicchicken-1.1.1.orig
 
