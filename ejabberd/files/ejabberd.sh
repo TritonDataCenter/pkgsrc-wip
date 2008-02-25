@@ -25,7 +25,6 @@ status_cmd="ejabberd_status"
 stop_cmd="ejabberd_stop"
 
 PATH=/sbin:/bin:/usr/sbin:/usr/bin:@PREFIX@/bin:@PREFIX@/sbin
-EJABBERD=@PREFIX@/sbin/ejabberd
 EJABBERDCTL=@PREFIX@/sbin/ejabberdctl
 
 ejabberd_status()

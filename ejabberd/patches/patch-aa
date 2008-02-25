@@ -8,7 +8,8 @@ $NetBSD$
  
  DESTDIR =
  
- EJABBERDDIR = $(DESTDIR)@prefix@/var/lib/ejabberd
+-EJABBERDDIR = $(DESTDIR)@prefix@/var/lib/ejabberd
++EJABBERDDIR = $(DESTDIR)@prefix@/lib/erlang/lib/@DISTNAME@
  BEAMDIR = $(EJABBERDDIR)/ebin
  PRIVDIR = $(EJABBERDDIR)/priv
  SODIR = $(PRIVDIR)/lib
