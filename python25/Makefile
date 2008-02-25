@@ -1,11 +1,10 @@
 # $NetBSD: Makefile,v 1.35 2007/07/02 20:25:28 adrianp Exp $
 
-DISTNAME=	Python-2.5.1
-PKGNAME=	python25-2.5.1
-PKGREVISION=	2
+DISTNAME=	Python-2.5.2
+PKGNAME=	python25-2.5.2
 CATEGORIES=	lang python
-MASTER_SITES=	ftp://ftp.python.org/pub/python/2.5.1/ \
-		http://www.python.org/ftp/python/2.5.1/
+MASTER_SITES=	ftp://ftp.python.org/pub/python/2.5.2/ \
+		http://www.python.org/ftp/python/2.5.2/
 EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	recht@NetBSD.org
@@ -151,10 +150,10 @@ post-extract:
 .if ${OPSYS} == "Darwin"
 post-build:
 	cd ${WRKSRC} && \
-	${SETENV} ${MAKE_ENV} ${MAKE_PROGRAM} libpython2.5.1.dylib
+	${SETENV} ${MAKE_ENV} ${MAKE_PROGRAM} libpython2.5.2.dylib
 
 post-install:
-	${LN} -fs ${DESTDIR}${PREFIX}/lib/libpython2.5.1.dylib	\
+	${LN} -fs ${DESTDIR}${PREFIX}/lib/libpython2.5.2.dylib	\
 		${DESTDIR}${PREFIX}/lib/libpython2.5.dylib
 .endif
 
