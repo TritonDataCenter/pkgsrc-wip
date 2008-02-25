@@ -7,7 +7,7 @@ $NetBSD$
  HFILES= defs.h dmake_str.h lists.h tokens.h dmake-protos.h
  BINDIR= $(PREFIX)/bin/
 -MANDIR= $(PREFIX)/man/man
-+MANDIR= $(PREFIX)/man/
++MANDIR= $(PREFIX)/$(PKGMANDIR)/
  TARFILES= $(SRCS) Makefile Makefile.portable dxmake.1 $(HFILES)
  CFLAGS= -Wall -Wstrict-prototypes
  REV= 2.12
