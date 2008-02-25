@@ -7,8 +7,9 @@ local use:
     ${PKG_SYSCONFDIR}/ejabberd.cfg
 
 Note: this package includes an unofficial patch to support multiples listeners
-on the same port number, which enables IPv4 and IPv6 concurrently. 
+on the same port number, which enables IPv4 and IPv6 concurrently.
 
 Quick start for ejabberd:
+	ejabberdctl start
 
 ===========================================================================
