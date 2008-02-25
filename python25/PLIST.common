@@ -1543,7 +1543,7 @@ lib/python${PY_VER_SUFFIX}/lib-dynload/_weakref.so
 lib/python${PY_VER_SUFFIX}/lib-dynload/array.so
 lib/python${PY_VER_SUFFIX}/lib-dynload/audioop.so
 lib/python${PY_VER_SUFFIX}/lib-dynload/binascii.so
-lib/python${PY_VER_SUFFIX}/lib-dynload/bsddb185.so
+${BSDDBMODULE}lib/python${PY_VER_SUFFIX}/lib-dynload/bsddb185.so
 lib/python${PY_VER_SUFFIX}/lib-dynload/bz2.so
 lib/python${PY_VER_SUFFIX}/lib-dynload/cPickle.so
 lib/python${PY_VER_SUFFIX}/lib-dynload/cStringIO.so
