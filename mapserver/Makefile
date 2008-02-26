@@ -4,7 +4,8 @@
 DISTNAME=		mapserver-4.4.2
 PKGREVISION=		2
 CATEGORIES=		geography
-MASTER_SITES=		http://cvs.gis.umn.edu/dist/
+MASTER_SITES=		http://download.osgeo.org/mapserver/ \
+			http://cvs.gis.umn.edu/dist/
 
 MAINTAINER=		mchittur@cs.nmsu.edu
 HOMEPAGE=		http://mapserver.gis.umn.edu/
