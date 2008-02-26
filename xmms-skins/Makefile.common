@@ -13,13 +13,14 @@ DEPENDS+=		xmms>=1.2.0:../../audio/xmms
 
 NO_CONFIGURE=		yes
 NO_BUILD=		yes
-NO_EXTRACT=		yes
 
 WRKSRC=			${WRKDIR}
 
 SKIN_DIR=		${PREFIX}/share/xmms/Skins
 
 INSTALLATION_DIRS+=	${SKIN_DIR}
+
+do-extract:
 
 do-install:
 	${INSTALL_DATA} ${DISTDIR}/${DISTNAME}${EXTRACT_SUFX} ${DESTDIR}${SKIN_DIR}
