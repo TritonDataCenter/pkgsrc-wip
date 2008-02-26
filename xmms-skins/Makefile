@@ -9,6 +9,8 @@ MAINTAINER=	cheusov@tut.by
 HOMEPAGE=	http://www.xmms.org/skins.php
 COMMENT=	Skins for XMMS
 
+PKG_DESTDIR_SUPPORT=	user-destdir
+
 SKINS=		AdamAmp Chaos CherryBest Cobalt CoolBlue Cracked Eclipse \
 		Fire HelixSawfish LinuxDotCom m2n MarbleX maXMMS nixamp \
 		NoerdAmp-SE Plume Sword UltrafinaSEM VegetalBlues WinampX
