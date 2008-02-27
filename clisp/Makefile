@@ -1,10 +1,10 @@
 # $NetBSD$
 #
 
-DISTNAME=	clisp-2.44
+DISTNAME=	clisp-2.44.1
 CATEGORIES=	lang
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=clisp/}
-EXTRACT_SUFX=	.tar.bz2
+#EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	asau@inbox.ru
 HOMEPAGE=	http://clisp.cons.org/
