@@ -9,7 +9,7 @@ HOMEPAGE=	http://tmux.sourceforge.net/
 COMMENT=	BSD-licensed terminal multiplexer (GNU Screen alternative)
 
 NO_CONFIGURE=	yes
-USE_NCURSES=	# uses ncurses internals
+USE_NCURSES=	yes
 
 # compat/strtonum.c: replace "tmux.h" with "../tmux.h"
 SUBST_CLASSES+=		header
