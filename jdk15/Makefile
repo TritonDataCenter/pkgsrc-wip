@@ -129,8 +129,6 @@ DEINSTALL_TEMPLATES+=	${PKGDIR}/DEINSTALL.tmpl
 
 PLIST_SRC+=		PLIST.common_end
 
-INTERACTIVE_STAGE+=	extract
-
 .include "../../wip/jdk16/license-extract.mk"
 
 pre-patch:

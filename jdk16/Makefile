@@ -117,8 +117,6 @@ DEINSTALL_TEMPLATES+=	${PKGDIR}/DEINSTALL.tmpl
 
 PLIST_SRC+=		PLIST.common_end
 
-INTERACTIVE_STAGE+=	extract
-
 .include "../../wip/jdk16/license-extract.mk"
 
 # Don't attempt to patch mozilla headers if we don't have them
