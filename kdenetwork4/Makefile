@@ -10,6 +10,9 @@ CONFLICTS=	kopete-[0-9]*
 
 # BUILD_MAKE_FLAGS+= VERBOSE=1
 
+# for kded_dnssdwatcher
+UNLIMIT_RESOURCES+=	datasize memorysize stacksize
+
 CMAKE_ARGS+=	-DWITH_Xmms:BOOL=OFF
 
 REPLACE_PERL+= \
