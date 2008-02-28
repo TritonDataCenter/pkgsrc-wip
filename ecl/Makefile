@@ -6,7 +6,7 @@ CATEGORIES=		lang
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=ecls/}
 EXTRACT_SUFX=		.tgz
 
-MAINTAINER=		pkgsrc-users@NetBSD.org
+MAINTAINER=		asau@inbox.ru
 HOMEPAGE=		http://ecls.sourceforge.net/index.html
 COMMENT=		Embeddable Common Lisp
 
