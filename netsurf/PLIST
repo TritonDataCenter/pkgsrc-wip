@@ -1,7 +1,6 @@
 @comment $NetBSD$
 bin/netsurf
 share/netsurf/nsgtk
-share/netsurf/!NetSurf/Docs/en/images
 share/netsurf/!NetSurf/Docs/libcurl,b60
 share/netsurf/!NetSurf/Docs/about,faf
 share/netsurf/!NetSurf/Docs/openssl,695
