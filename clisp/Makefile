@@ -10,8 +10,6 @@ MAINTAINER=	asau@inbox.ru
 HOMEPAGE=	http://clisp.cons.org/
 COMMENT=	CLISP, a Common Lisp implementation
 
-CONFLICTS+=	clisp-[0-9]*
-
 # Sparc64 has assembler code problems, see
 # http://sourceforge.net/tracker/index.php?func=detail&aid=952681&group_id=1355&atid=101355
 NOT_FOR_PLATFORM=	*-*-sparc64
