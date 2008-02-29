@@ -7,7 +7,7 @@ CATEGORIES=	perl5 misc
 MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=AI/}
 
 MAINTAINER=	athaba@inode.at
-HOMEPAGE=	http://search.cpan.org/author/OVID/AI-NeuralNet-Simple-0.11/lib/AI/NeuralNet/Simple
+HOMEPAGE=	http://search.cpan.org/~ovid/AI-NeuralNet-Simple-0.11/
 COMMENT=	Easy to use backprop neural net
 
 DEPENDS+=	p5-Log-Agent>=0.208:../../devel/p5-Log-Agent
