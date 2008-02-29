@@ -15,7 +15,7 @@ GNU_CONFIGURE=		yes
 # only works for systems with cap_set_proc() support
 CONFIGURE_ARGS+=	--enable-switch_user
 
-USE_TOOLS+=		gmake
+USE_TOOLS+=		gmake perl
 
 EGDIR=			${PREFIX}/share/examples/${PKGBASE}
 DOCDIR=			${PREFIX}/share/doc/${PKGBASE}
