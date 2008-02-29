@@ -11,6 +11,8 @@ CATEGORIES=	textproc
 MASTER_SITES=	http://ftp.services.openoffice.org/pub/OpenOffice.org/contrib/dictionaries/
 HOMEPAGE=	http://wiki.services.openoffice.org/wiki/Dictionaries
 
+DEPENDS+=       hunspell>=1.1.12.2:../../textproc/hunspell
+
 EXTRACT_SUFX=	.zip
 USE_LANGUAGES=	# none
 NO_BUILD=	yes
@@ -29,5 +31,3 @@ do-install:
 	${INSTALL_DATA} ${WRKSRC}/${DISTNAME}.* ${DESTDIR}${PREFIX}/share/hunspell
 	${INSTALL_DATA} ${WRKSRC}/README_${DISTNAME}.txt \
 		${DESTDIR}${PREFIX}/share/doc/hunspell-${DISTNAME}
-
-.include "../../textproc/hunspell/buildlink3.mk"
