@@ -2,20 +2,20 @@
 #
 #
 
-DISTNAME=	mopac7
-PKGNAME=	mopac-7.0
-CATEGORIES=	biology
-MASTER_SITES=	ftp://ftp.ccl.net/pub/chemistry/software/SOURCES/FORTRAN/mopac7_sources/
-EXTRACT_SUFX=	.tar.Z
-DISTFILES=	${DISTNAME}${EXTRACT_SUFX} mopac7-man.tar.Z
+DISTNAME=		mopac7
+PKGNAME=		mopac-7.0
+CATEGORIES=		biology
+MASTER_SITES=		http://server.ccl.net/cca/software/LINUX/mopac7/
+EXTRACT_SUFX=		.tar.Z
+DISTFILES=		${DISTNAME}${EXTRACT_SUFX} mopac7-man.tar.gz
 
-PATCH_SITES=	ftp://infomeister.osc.edu/pub/chemistry/software/LINUX/mopac7/old-version-95.06.21/
-PATCHFILES=	mopac7-linux.diff.Z
+PATCH_SITES=		http://server.ccl.net/cca/software/LINUX/mopac7/old-version-95.06.21/
+PATCHFILES=		mopac7-linux.diff.gz
 PATCH_DIST_STRIP=	-p1
 
-MAINTAINER=	oishi@ims.ac.jp
-HOMEPAGE=	http://server.ccl.net/cca/software/LINUX/mopac7/index.shtml
-COMMENT=	Molecular energy calculation program
+MAINTAINER=		oishi@ims.ac.jp
+HOMEPAGE=		http://server.ccl.net/cca/software/LINUX/mopac7/index.shtml
+COMMENT=		Molecular energy calculation program
 
 WRKSRC=			${WRKDIR}/mopac7
 BUILD_TARGET=		MOPAC7
