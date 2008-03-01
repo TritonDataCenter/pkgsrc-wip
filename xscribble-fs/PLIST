@@ -1,6 +1,0 @@
-@comment $NetBSD$
-bin/xscribble
-share/examples/xscribble/digits.cl
-share/examples/xscribble/letters.cl
-share/examples/xscribble/punc.cl
-@dirrm share/examples/xscribble
