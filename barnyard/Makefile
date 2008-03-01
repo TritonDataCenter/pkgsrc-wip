@@ -8,6 +8,8 @@ MAINTAINER=	adrianp@NetBSD.org
 HOMEPAGE=	http://www.snort.org/
 COMMENT=	Fast output system for snort
 
+PKG_DESTDIR_SUPPORT=	user-destdir
+
 GNU_CONFIGURE=		YES
 
 PKG_SYSCONFSUBDIR=	snort
@@ -19,12 +21,12 @@ EGDIR=		${PREFIX}/share/examples/barnyard
 .include "options.mk"
 
 do-install:
-	${INSTALL_DATA_DIR} ${PREFIX}/share/doc/barnyard
-	${INSTALL_DATA_DIR} ${EGDIR}
+	${INSTALL_DATA_DIR} ${DESTDIR}${PREFIX}/share/doc/barnyard
+	${INSTALL_DATA_DIR} ${DESTDIR}${EGDIR}
 
-	${INSTALL_SCRIPT} ${WRKSRC}/src/barnyard ${PREFIX}/bin
-	${INSTALL_DATA} ${WRKSRC}/docs/FAQ ${PREFIX}/share/doc/barnyard/FAQ
-	${INSTALL_DATA} ${WRKSRC}/docs/USAGE ${PREFIX}/share/doc/barnyard/USAGE
-	${INSTALL_DATA} ${WRKSRC}/etc/barnyard.conf ${EGDIR}/barnyard.conf
+	${INSTALL_SCRIPT} ${WRKSRC}/src/barnyard ${DESTDIR}${PREFIX}/bin
+	${INSTALL_DATA} ${WRKSRC}/docs/FAQ ${DESTDIR}${PREFIX}/share/doc/barnyard/FAQ
+	${INSTALL_DATA} ${WRKSRC}/docs/USAGE ${DESTDIR}${PREFIX}/share/doc/barnyard/USAGE
+	${INSTALL_DATA} ${WRKSRC}/etc/barnyard.conf ${DESTDIR}${EGDIR}/barnyard.conf
 
 .include "../../mk/bsd.pkg.mk"
