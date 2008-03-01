@@ -16,11 +16,12 @@ USE_LANGUAGES=		c c++
 USE_TOOLS+=		gmake
 
 pre-configure:
-	${ECHO} DESTDIR=${LOCALBASE}/share/avida >> ${WRKSRC}/doc/Makefile.in; \
-	${ECHO} DESTDIR=${LOCALBASE}/share/avida >> ${WRKSRC}/doc/glossary/Makefile.in;
+	${ECHO} DESTDIR=${PREFIX}/share/avida >> ${WRKSRC}/doc/Makefile.in; \
+	${ECHO} DESTDIR=${PREFIX}/share/avida >> ${WRKSRC}/doc/glossary/Makefile.in;
 
 post-install:
-	${MV} ${LOCALBASE}/work ${LOCALBASE}/avida-2.0b1
-	${LN} -s ${LOCALBASE}/avida-2.0b1/primitive ${LOCALBASE}/bin/primitive
+	${MV} ${PREFIX}/work ${PREFIX}/avida-2.0b1
+	${LN} -s ${PREFIX}/avida-2.0b1/primitive ${PREFIX}/bin/primitive
+
 .include "../../devel/ncurses/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
