@@ -1,4 +1,4 @@
-# $NetBSD: $
+# $NetBSD$
 
 DISTNAME=		wxGTK-2.6.3
 PKGNAME=		wxGTK-unicode-2.6.3
