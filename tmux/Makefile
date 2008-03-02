@@ -18,6 +18,8 @@ SUBST_MESSAGE.header=	Fixing distribution headers..
 SUBST_FILES.header=	compat/strtonum.c
 SUBST_SED.header=	-e "s,tmux.h,../tmux.h,"
 
+INSTALLATION_DIRS=	${DESTDIR}${PREFIX}/${PKGMANDIR}/man1 ${DESTDIR}${PREFIX}/bin
+
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/tmux ${DESTDIR}${PREFIX}/bin
 	${INSTALL_MAN} ${WRKSRC}/tmux.1 ${DESTDIR}${PREFIX}/${PKGMANDIR}/man1
