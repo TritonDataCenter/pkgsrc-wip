@@ -54,7 +54,8 @@ CONFIGURE_ARGS+=	--with-net-snmp
 #.endif
 
 .if !empty(PKG_OPTIONS:Mldap)
-CONFIGURE_ARGS+=	--with-ldap
+.include "../../databases/openldap-client/buildlink3.mk"
+CONFIGURE_ARGS+=	--with-ldap=${BUILDLINK_PREFIX.openldap-client:Q}
 .endif
 
 .if !empty(PKG_OPTIONS:Mzabbix-static)
