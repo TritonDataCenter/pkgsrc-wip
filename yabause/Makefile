@@ -1,12 +1,14 @@
 # $NetBSD$
 
-DISTNAME=	yabause-0.9.2
+DISTNAME=	yabause-0.9.3
 CATEGORIES=	emulators
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=yabause/}
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://yabause.sourceforge.net/
 COMMENT=	Sega Saturn system emulator
+
+PKG_DESTDIR_SUPPORT=	user-destdir
 
 GNU_CONFIGURE=	yes
 USE_TOOLS+=	gmake
