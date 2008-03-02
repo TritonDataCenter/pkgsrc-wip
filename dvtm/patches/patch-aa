@@ -8,13 +8,13 @@ $NetBSD$
  
 -PREFIX = /usr/local
 -MANPREFIX = ${PREFIX}/share/man
-+MANPREFIX = ${PREFIX}/${PKGMANDIR}
++MANPREFIX = ${DESTDIR}${PREFIX}/${PKGMANDIR}
  
  INCS = -I. -I/usr/include -I/usr/local/include 
 -LIBS = -lc -lutil -lncurses
 -LIBS_UTF8 = -lc -lutil -lncursesw
-+LIBS = -lc -lutil -lncurses -L/usr/lib -L${PREFIX}/lib
-+LIBS_UTF8 = -lc -lutil -lncursesw -L/usr/lib -L${PREFIX}/lib
++LIBS = -lc -lutil -lncurses -L/usr/lib -L${DESTDIR}${PREFIX}/lib
++LIBS_UTF8 = -lc -lutil -lncursesw -L/usr/lib -L${DESTDIR}${PREFIX}/lib
  
 -CFLAGS = -std=c99 -Os ${INCS} -DVERSION=\"${VERSION}\" -DNDEBUG
 -LDFLAGS = -L/usr/lib -L/usr/local/lib ${LIBS}
