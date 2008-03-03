@@ -68,10 +68,10 @@ post-install: install-headers
 
 .PHONY: install-headers
 install-headers:
-${RUN} ${BSD_INSTALL_DATA_DIR} ${DESTDIR}${PREFIX}/include/GL && \
+	${RUN} ${INSTALL_DATA_DIR} ${DESTDIR}${PREFIX}/include/GL && \
 	for hdr in "${MESA_HEADERS}"; do \
 	    if [ -f "$$hdr" ]; then \
- 	 	${BSD_INSTALL_DATA} ${WRKSRC}/include/GL/$$hdr \
+		${INSTALL_DATA} ${WRKSRC}/include/GL/$$hdr \
 		    ${DESTDIR}${PREFIX}/include/GL; \
 	    fi; \
 	done
