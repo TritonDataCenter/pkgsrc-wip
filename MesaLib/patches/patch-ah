@@ -17,12 +17,12 @@ $NetBSD$
  .c.o:
 -	$(CC) -c $(INCLUDE_DIRS) $(CFLAGS) $(DEFINES) $< -o $@
 +	$(LIBTOOL) --mode=compile --tag=CC \
-+		$(CC) -c $(INCLUDE_DIRS) $(CFLAGS) $(DEFINES) $< -o $(@:.o=.lo)
++		$(CC) -c -prefer-pic $(INCLUDE_DIRS) $(CFLAGS) $(DEFINES) $< -o $(@:.o=.lo)
  
  .S.o:
 -	$(CC) -c $(INCLUDE_DIRS) $(CFLAGS) $(DEFINES)  $< -o $@
 +	$(LIBTOOL) --mode=compile --tag=CC \
-+		$(CC) -c $(INCLUDE_DIRS) $(CFLAGS) $(DEFINES) $< -o $(@:.o=.lo)
++		$(CC) -c -prefer-pic $(INCLUDE_DIRS) $(CFLAGS) $(DEFINES) $< -o $(@:.o=.lo)
  
  
  ##### TARGETS #####

@@ -15,13 +15,13 @@ $NetBSD$
  
  .c.o:
 -	$(CC) -c $(INCLUDES) $(CFLAGS) $(DRIVER_DEFINES) $< -o $@
-+	$(LIBTOOL) --mode=compile --tag=CC $(CC) -c \
++	$(LIBTOOL) --mode=compile --tag=CC $(CC) -c -prefer-pic \
 +		$(INCLUDES) $(CFLAGS) $(DRIVER_DEFINES) $< -o $(@:.o=.lo)
  
  .S.o:
 -	$(CC) -c $(INCLUDES) $(CFLAGS) $(DRIVER_DEFINES)  $< -o $@
 -
-+	$(LIBTOOL) --mode=compile --tag=CC $(CC) -c \
++	$(LIBTOOL) --mode=compile --tag=CC $(CC) -c -prefer-pic \
 +		$(INCLUDES) $(CFLAGS) $(DRIVER_DEFINES) $< -o $(@:.o=.lo)
  
  ##### TARGETS #####
