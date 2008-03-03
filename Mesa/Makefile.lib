@@ -62,4 +62,4 @@ pre-patch:
 	 done
 
 post-patch:
-	${CP} ${.CURDIR}/../MesaLib/files/configs/* ${WRKSRC}/configs
+	${CP} -R ${.CURDIR}/../MesaLib/files/configs/* ${WRKSRC}/configs
