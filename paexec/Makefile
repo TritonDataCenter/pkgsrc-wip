@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	paexec-0.7.0
+DISTNAME=	paexec-0.8.0
 CATEGORIES=	parallel
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=paexec/}
 
