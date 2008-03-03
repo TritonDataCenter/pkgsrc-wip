@@ -4,10 +4,22 @@ man/man1/runawk.1
 share/doc/runawk/ChangeLog
 share/doc/runawk/NEWS
 share/doc/runawk/README
+share/runawk/abort.awk
 share/runawk/abs.awk
 share/runawk/alt_assert.awk
+share/runawk/basename.awk
+share/runawk/braceexpand.awk
+share/runawk/dirname.awk
+share/runawk/exitnow.awk
+share/runawk/match_br.awk
 share/runawk/max.awk
 share/runawk/min.awk
+share/runawk/multisub.awk
 share/runawk/pow.awk
+share/runawk/str2regexp.awk
+share/runawk/tokenre.awk
+share/runawk/xclose.awk
+share/runawk/xgetline.awk
+share/runawk/xsystem.awk
 @dirrm share/runawk
 @dirrm share/doc/runawk
