@@ -14,6 +14,7 @@
     
 PKG_OPTIONS_VAR=	PKG_OPTIONS.MesaLib
 PKG_SUPPORTED_OPTIONS= 	dri
+PKG_SUGGESTED_OPTIONS=	dri # doesn't build without this option
 
 .include "../../mk/bsd.options.mk"
 
