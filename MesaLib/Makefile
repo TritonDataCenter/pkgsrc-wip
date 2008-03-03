@@ -3,10 +3,11 @@
 PKGNAME=	MesaLib-${MESA_PKGVERSION}
 COMMENT=	Graphics library similar to SGI's OpenGL
 
-.include "../../wip/Mesa/Makefile.lib"
 
 MESA_HEADERS=	gl.h gl_mangle.h glext.h glx.h glxext.h glx_mangle.h	\
 		osmesa.h xmesa.h xmesa_x.h xmesa_xf86.h
+
+.include "../../wip/Mesa/Makefile.lib"
 
 .include "options.mk"
 
