@@ -13,7 +13,7 @@ $NetBSD$
  .S.o:
 -	$(CC) -c $(INCLUDES) $(CFLAGS) $(EXTRA_DEFINES)  $< -o $@
 +	$(LIBTOOL) --mode=compile --tag=CC $(CC) -c $(INCLUDES) \
-+		$(CFLAGS) $(EXTRA_DEFINES)  $< -o $(@.o=.lo)
++		$(CFLAGS) $(EXTRA_DEFINES)  $< -o $(@:.o=.lo)
  
  ##### TARGETS #####
  
