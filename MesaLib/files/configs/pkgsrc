@@ -12,6 +12,8 @@ CFLAGS+= 	$(WARN_FLAGS) $(OPT_FLAGS) $(PIC_FLAGS) \
 CXXFLAGS+= 	$(WARN_FLAGS) $(OPT_FLAGS) $(PIC_FLAGS) \
  	 	$(DEFINES) $(X11_INCLUDES)
 
+LDFLAGS+= 	-L${TOP}/${LIB_DIR}/
+
 GLUT_CFLAGS= 	-fexceptions
 APP_LIB_DEPS= 	-l$(GLUT_LIB) -l$(GLU_LIB) -l$(GL_LIB) \
  	 	-lXext -lXmu -lXi -lX11 -lm
