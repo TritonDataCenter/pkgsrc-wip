@@ -1,0 +1,5 @@
+$NetBSD: distinfo,v 1.3 2007/08/13 11:18:49 seb Exp $
+
+SHA1 (Mesa-7.0.3-rc2/MesaDemos-7.0.3-rc2.tar.gz) = 4b37c831a602724c22e65e3d830ecb36cb8ebb6a
+RMD160 (Mesa-7.0.3-rc2/MesaDemos-7.0.3-rc2.tar.gz) = b97c8f56914176ae2f777ebcefde1149265c60c4
+Size (Mesa-7.0.3-rc2/MesaDemos-7.0.3-rc2.tar.gz) = 1656468 bytes
