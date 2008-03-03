@@ -1,6 +1,7 @@
 # $NetBSD$
 
 DISTNAME=	xorg-server-1.4.0.90
+PKGREVISION= 	1
 PKGNAME=	modular-${DISTNAME}
 CATEGORIES=	x11
 MASTER_SITES=	http://www.NetBSD.org/~bjs/distfiles/
@@ -50,7 +51,7 @@ DEPENDS+=		xkeyboard-config-[0-9]*:../../x11/xkeyboard-config
 
 BUILDLINK_API_DEPENDS.compositeproto+=	compositeproto>=0.4
 BUILDLINK_API_DEPENDS.fixesproto+=	fixesproto>=4.0
-BUILDLINK_API_DEPENDS.glproto+=	glproto>=1.4.8
+BUILDLINK_API_DEPENDS.glproto+=		glproto>=1.4.8
 BUILDLINK_API_DEPENDS.kbproto+=		kbproto>=1.0.3
 BUILDLINK_API_DEPENDS.randrproto+=	randrproto>=1.2.1
 ###

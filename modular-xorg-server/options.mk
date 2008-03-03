@@ -20,9 +20,10 @@ CONFIGURE_ARGS+=	--disable-dbus
 
 .if !empty(PKG_OPTIONS:Mdri)
 DISTFILES=		${DISTNAME}${EXTRACT_SUFX}
-DISTFILES+=		MesaLib-7.0.2.tar.bz2
-SITES.MesaLib-7.0.2.tar.bz2= ${MASTER_SITE_SOURCEFORGE:=mesa3d/}
-MESA_SRC=		${WRKDIR}/Mesa-7.0.2
+DISTFILES+=		MesaLib-7.0.3-rc2.tar.gz
+#SITES.MesaLib-7.0.3.tar.bz2= ${MASTER_SITE_SOURCEFORGE:=mesa3d/}
+SITES.MesaLib-7.0.3-rc2.tar.gz= http://www.mesa3d.org/beta/
+MESA_SRC=		${WRKDIR}/Mesa-7.0.3-rc2
 CONFIGURE_ARGS+=	--enable-glx
 CONFIGURE_ARGS+=	--enable-aiglx
 CONFIGURE_ARGS+=	--with-mesa-source=${MESA_SRC}
