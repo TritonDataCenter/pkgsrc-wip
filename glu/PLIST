@@ -1,3 +1,6 @@
 @comment $NetBSD$
+include/GL/glu.h
+include/GL/glu_mangle.h
 lib/libGLU.la
 lib/pkgconfig/glu.pc
+@comment in graphics/MesaLib: @dirrm include/GL

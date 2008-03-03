@@ -14,6 +14,6 @@ BUILDLINK_API_DEPENDS.MesaLib+=	MesaLib>=${MESA_VERSION}
 .include "../../wip/MesaLib/buildlink3.mk"
 
 pre-build:
-	cd ${WRKSRC} && ${RM} -fr src/mesa src/glut src/glw progs
+	cd ${WRKSRC} && ${RM} -fr src/glx src/mesa src/glut src/glw progs
 
 .include "../../mk/bsd.pkg.mk"
