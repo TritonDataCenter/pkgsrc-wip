@@ -68,10 +68,10 @@ post-install: install-headers
 
 .PHONY: install-headers
 install-headers:
-	${RUN} ${INSTALL_DATA_DIR} ${DESTDIR}${PREFIX}/include/GL && \
-	for hdr in "${MESA_HEADERS}"; do \
-	    if [ -f "$$hdr" ]; then \
-		${INSTALL_DATA} ${WRKSRC}/include/GL/$$hdr \
-		    ${DESTDIR}${PREFIX}/include/GL; \
-	    fi; \
-	done
+	${INSTALL_DATA_DIR} ${DESTDIR}${PREFIX}/include/GL
+.for hdr in ${MESA_HEADERS}
+	if [ -f ${WRKSRC}/include/GL/${hdr:Q} ]; then \
+	    ${INSTALL_DATA} ${WRKSRC}/include/GL/${hdr:Q} \
+	    ${DESTDIR}${PREFIX}/include/GL; \
+	fi; 
+.endfor
