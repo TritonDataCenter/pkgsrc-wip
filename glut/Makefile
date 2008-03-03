@@ -6,6 +6,8 @@ COMMENT=	GLUT Graphics library similar to SGI's OpenGL
 CONFLICTS+=	Mesa-glx-[0-9]*
 CONFLICTS+=	Mesa<3.2.1
 
+MESA_HEADERS= 	glut.h glutf90.h
+
 .include "../../wip/Mesa/Makefile.lib"
 
 BUILDLINK_API_DEPENDS.MesaLib+=	MesaLib>=${MESA_PKGVERSION}

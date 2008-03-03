@@ -5,14 +5,10 @@ COMMENT=	Graphics library similar to SGI's OpenGL
 
 .include "../../wip/Mesa/Makefile.lib"
 
-INSTLIBS=	${WRKSRC}/src/mesa/libGL.la \
-		${WRKSRC}/src/glw/libGLw.la
+MESA_HEADERS=	gl.h gl_mangle.h glext.h glx.h glxext.h glx_mangle.h	\
+		osmesa.h xmesa.h xmesa_x.h xmesa_xf86.h
 
 .include "options.mk"
-
-.if empty(PKG_OPTIONS:Mdri)
-INSTLIBS+=	${WRKSRC}/src/mesa/libOSMesa.la
-.endif
 
 .include "../../mk/pthread.buildlink3.mk"
 
@@ -42,13 +38,9 @@ post-extract:
 pre-build:
 	cd ${WRKSRC} && ${RM} -fr src/glu src/glut progs
 
-.if 0
-
-do-install:
+post-install:
 	${INSTALL_DATA_DIR} ${DESTDIR}${PREFIX}/include/GL
 	cd ${WRKSRC}/include/GL; for hdr in				\
-		gl.h gl_mangle.h glext.h glx.h glxext.h glx_mangle.h	\
-		osmesa.h xmesa.h xmesa_x.h xmesa_xf86.h;		\
 	do								\
 		${INSTALL_DATA} $${hdr} ${DESTDIR}${PREFIX}/include/GL;	\
 	done
