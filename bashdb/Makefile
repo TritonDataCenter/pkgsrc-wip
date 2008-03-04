@@ -6,7 +6,7 @@ PKGNAME=		bashdb-3.1
 CATEGORIES=		devel
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=bashdb/}
 
-MAINTAINER=		splitscreen@users.sourceforg.net
+MAINTAINER=		splitscreen@users.sourceforge.net
 HOMEPAGE=		http://sourceforge.net/projects/bashdb/
 COMMENT=		The Bash debugger project
 
