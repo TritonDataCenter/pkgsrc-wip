@@ -28,8 +28,10 @@ PLIST_SUBST+=	FASL=${FASL:Q}
 # X11
 .if !empty(PKG_OPTIONS:Mx11)
 CONFIGURE_ARGS+=	--with-x=yes
+CONFIGURE_ENV+=		X_LIBS=${LDFLAGS:Q}
 .include "../../x11/libX11/buildlink3.mk"
 .include "../../x11/libXpm/buildlink3.mk"
+.include "../../x11/libXt/buildlink3.mk"
 .else
 CONFIGURE_ARGS+=	--with-x=no
 .endif
