@@ -7,7 +7,7 @@ MASTER_SITES=	http://download.logreport.org/pub/cvs-snapshots/
 #LICENSE=	gnu-gpl-v2
 
 MAINTAINER=	airhead@users.sf.net
-HOMEPAGE=	http://download.logreport.org/pub/cvs-snapshots/
+HOMEPAGE=	http://www.logreport.org/lire.html
 COMMENT=	Log analyzing tool
 
 DEPENDS+=	p5-DBI-[0-9]*:../../databases/p5-DBI
