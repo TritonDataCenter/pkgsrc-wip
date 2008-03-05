@@ -36,7 +36,7 @@ CONFIGURE_ENV+=		X_LIBS=${LDFLAGS:Q}
 CONFIGURE_ARGS+=	--with-x=no
 .endif
 
-.for opt in clisp sbcl
+.for opt in clisp sbcl x11
 .if !empty(PKG_OPTIONS:M${opt})
 PLIST_SUBST+=	${opt}=""
 .else
