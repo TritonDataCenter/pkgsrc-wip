@@ -15,6 +15,8 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 WRKSRC=			${WRKDIR}/${DISTNAME}
 USE_IMAKE=		yes
 
+INSTALLATION_DIRS=	man man/man1 bin
+
 do-configure:
 	cd ${WRKSRC}/src; \
 	${XMKMF}
