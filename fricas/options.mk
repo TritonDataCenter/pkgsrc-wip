@@ -6,7 +6,7 @@ PKG_OPTIONS_GROUP.lisp=		clisp sbcl
 
 PKG_SUPPORTED_OPTIONS+=		x11
 
-PKG_SUGGESTED_OPTIONS+=		clisp # x11
+PKG_SUGGESTED_OPTIONS+=		clisp x11
 
 .include "../../mk/bsd.options.mk"
 
