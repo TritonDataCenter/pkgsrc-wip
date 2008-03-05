@@ -22,6 +22,7 @@ USE_PKGLOCALEDIR=	yes
 USE_TOOLS+=		gmake perl:run
 
 SUBST_CLASSES+=		3pm
+SUBST_MESSAGE.3pm=	Fixing manpage section 3 extensions
 SUBST_STAGE.3pm=	pre-configure
 SUBST_SED.3pm=		-e "s,\\.3pm,\\.3,g"
 SUBST_SED.3pm+=		-e "s,--section=3pm,--section=3,g"
