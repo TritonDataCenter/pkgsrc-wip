@@ -13,17 +13,10 @@ COMMENT=		Data Visualization Systems for viewing high-dimensional data
 PKG_DESTDIR_SUPPORT=	user-destdir
 
 WRKSRC=			${WRKDIR}/${DISTNAME}
+CONFIGURE_DIRS=		src
 USE_IMAKE=		yes
 
 INSTALLATION_DIRS=	man man/man1 bin
-
-do-configure:
-	cd ${WRKSRC}/src; \
-	${XMKMF}
-
-do-build:
-	cd ${WRKSRC}/src; \
-	make
 
 do-install:
 .for PROGRAM in xgobi xgvis
