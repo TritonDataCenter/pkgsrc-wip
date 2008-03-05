@@ -1,8 +1,8 @@
 # $NetBSD$
 #
 
-DISTNAME=		${PKGNAME}-full
-PKGNAME=		fricas-1.0.2
+DISTNAME=		fricas-1.0.2-full
+PKGNAME=		${DISTNAME:C/-full$//}
 CATEGORIES=		lang
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=fricas/}
 EXTRACT_SUFX=		.tar.bz2
@@ -15,8 +15,8 @@ WRKSRC=			${WRKDIR}/${PKGNAME_NOREV}
 
 BUILD_DEPENDS+=		noweb-[0-9]*:../../devel/noweb
 
-GNU_CONFIGURE=	yes
-USE_TOOLS+=	gmake # gawk makeinfo
+GNU_CONFIGURE=		yes
+USE_TOOLS+=		gmake
 
 SUBST_CLASSES+=		fix-awk
 SUBST_STAGE.fix-awk=	pre-configure
