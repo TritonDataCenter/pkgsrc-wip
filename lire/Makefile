@@ -19,7 +19,7 @@ DEPENDS+=	p5-XML-Parser-[0-9]*:../../textproc/p5-XML-Parser
 
 GNU_CONFIGURE=		yes
 USE_PKGLOCALEDIR=	yes
-USE_TOOLS+=		gmake perl
+USE_TOOLS+=		gmake perl:run
 
 SUBST_CLASSES+=		3pm
 SUBST_STAGE.3pm=	pre-configure
