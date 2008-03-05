@@ -13,12 +13,12 @@ COMMENT=		Embeddable Common Lisp
 PKG_DESTDIR_SUPPORT=	user-destdir
 MAKE_JOBS_SAFE=		no
 
-WRKSRC=			${WRKDIR}/${DISTNAME}-build/
+#WRKSRC=			${WRKDIR}/${DISTNAME}-build/
 
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 USE_LIBTOOL=		yes
-CONFIGURE_SCRIPT=	../${DISTNAME}/src/configure
+#CONFIGURE_SCRIPT=	../${DISTNAME}/src/configure
 USE_TOOLS+=		gmake makeinfo
 INFO_FILES=		yes
 
