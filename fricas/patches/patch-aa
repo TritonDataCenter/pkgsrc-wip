@@ -1,3 +1,5 @@
+$NetBSD$
+
 Revealed on FreeBSD 6.2: <malloc.h> must be <stdlib.h>.
 
 --- src/lib/cfuns-c.c.orig	Thu Jan 24 11:16:40 2008

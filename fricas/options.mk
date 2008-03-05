@@ -28,7 +28,7 @@ PLIST_SUBST+=	FASL=${FASL:Q}
 # X11
 .if !empty(PKG_OPTIONS:Mx11)
 CONFIGURE_ARGS+=	--with-x=yes
-CONFIGURE_ENV+=		X_LIBS=${LDFLAGS:Q}
+CONFIGURE_ENV+=		X_LIBS=${LDFLAGS:M*:Q}
 .include "../../x11/libX11/buildlink3.mk"
 .include "../../x11/libXpm/buildlink3.mk"
 .include "../../x11/libXt/buildlink3.mk"
@@ -37,9 +37,9 @@ CONFIGURE_ARGS+=	--with-x=no
 .endif
 
 .for opt in clisp sbcl x11
-.if !empty(PKG_OPTIONS:M${opt})
+.  if !empty(PKG_OPTIONS:M${opt})
 PLIST_SUBST+=	${opt}=""
-.else
+.  else
 PLIST_SUBST+=	${opt}="@comment "
-.endif
+.  endif
 .endfor
