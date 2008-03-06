@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	ecore-0.9.9.042
+PKGREVISION=	1
 CATEGORIES=	x11
 MASTER_SITES=   http://download.enlightenment.org/snapshots/2008-01-25/ \
 		http://www.yazzy.org/pkgsrc/e17/ \

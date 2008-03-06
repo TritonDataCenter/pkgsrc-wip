@@ -2,9 +2,7 @@
 #
 
 DISTNAME=		planner-0.14.2
-
-
-PKGREVISION=		2
+PKGREVISION=		3
 CATEGORIES=		devel
 MASTER_SITES=		${MASTER_SITE_GNOME:=sources/planner/0.14/}
 EXTRACT_SUFX=		.tar.bz2

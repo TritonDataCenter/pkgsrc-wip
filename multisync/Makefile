@@ -2,7 +2,7 @@
 #
 
 PKGNAME=		multisync-0.82
-PKGREVISION=		1
+PKGREVISION=		2
 COMMENT=		Modular program to synchronize PIM data
 
 WRKSRC=			${WRKDIR}/multisync-0.82

@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	esmart-0.9.0.011
-PKGREVISION=	1
+PKGREVISION=	2
 CATEGORIES=	graphics
 MASTER_SITES=   http://www.yazzy.org/pkgsrc/e17/ \
                 http://jfranz.users.bsdprojects.net/pkgsrc/e17/

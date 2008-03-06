@@ -5,6 +5,7 @@
 XFCE4_VERSION=  1.0.1
 
 DISTNAME=	xfce4-mailwatch-plugin-${XFCE4_VERSION}
+PKGREVISION=	1
 CATEGORIES=	mail
 MASTER_SITES=	http://spuriousinterrupt.org/files/mailwatch/
 EXTRACT_SUFX=	.tar.bz2

@@ -2,7 +2,7 @@
 #
 
 PKGNAME=		multisync-opie-0.82
-PKGREVISION=		1
+PKGREVISION=		2
 
 COMMENT=		Module to sync Opie-devices with MultiSync
 

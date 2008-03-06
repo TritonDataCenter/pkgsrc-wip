@@ -2,7 +2,7 @@
 #
 
 PKGNAME=		multisync-backup-0.82
-PKGREVISION=		1
+PKGREVISION=		2
 
 COMMENT=		Module for Multisync to backup your PIM data
 

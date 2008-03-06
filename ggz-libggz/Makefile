@@ -3,6 +3,7 @@
 
 DISTNAME=	libggz-0.0.14
 PKGNAME=	ggz-libggz-0.0.14
+PKGREVISION=	1
 CATEGORIES=	wip
 MASTER_SITES=	http://mirrors.ibiblio.org/pub/mirrors/ggzgamingzone/ggz/0.0.14/
 

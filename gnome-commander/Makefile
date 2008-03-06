@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		gnome-commander-1.2.4
-PKGREVISION=		1
+PKGREVISION=		2
 CATEGORIES=		sysutils
 MASTER_SITES=		${MASTER_SITE_GNOME:=sources/gnome-commander/1.2/}
 EXTRACT_SUFX=		.tar.bz2

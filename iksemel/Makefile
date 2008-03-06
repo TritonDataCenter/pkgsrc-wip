@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	iksemel-1.3
+PKGREVISION=	1
 CATEGORIES=	textproc
 MASTER_SITES=	http://iksemel.googlecode.com/files/
 

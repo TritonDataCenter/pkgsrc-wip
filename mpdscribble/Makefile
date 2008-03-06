@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	mpdscribble-0.2.12
+PKGREVISION=	1
 CATEGORIES=	audio
 MASTER_SITES=	http://www.frob.nl/projects/scribble/
 

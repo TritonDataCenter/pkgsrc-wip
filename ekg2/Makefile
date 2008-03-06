@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	ekg2-0.1.1
+PKGREVISION=	1
 CATEGORIES=	chat
 MASTER_SITES=	http://pl.ekg2.org/ \
 		http://pl.ekg2.org/archive/

@@ -2,7 +2,7 @@
 #
 
 PKGNAME=		multisync-ldap-0.82
-PKGREVISION=		1
+PKGREVISION=		2
 
 COMMENT=		LDAP module for Multisync
 

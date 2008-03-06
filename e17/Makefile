@@ -3,6 +3,7 @@
 
 DISTNAME=	enlightenment-0.16.999.042
 PKGNAME=	e17-0.16.999.042
+PKGREVISION=	1
 CATEGORIES=	x11
 MASTER_SITES=   http://download.enlightenment.org/snapshots/2008-01-25/ \
 		http://www.yazzy.org/pkgsrc/e17/ \

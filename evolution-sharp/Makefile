@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	evolution-sharp-0.2
-PKGREVISION=	1
+PKGREVISION=	2
 CATEGORIES=	mail
 MASTER_SITES=	${MASTER_SITE_GNOME:=sources/evolution-sharp/0.2/}
 EXTRACT_SUFX=	.tar.bz2

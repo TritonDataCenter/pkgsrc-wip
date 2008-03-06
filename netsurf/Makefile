@@ -3,6 +3,7 @@
 
 DISTNAME=	netsurf-1.1-src
 PKGNAME=	${DISTNAME:S/-src$//}
+PKGREVISION=	1
 CATEGORIES=	www
 MASTER_SITES=	http://www.netsurf-browser.org/downloads/releases/
 
