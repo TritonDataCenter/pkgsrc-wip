@@ -1,4 +1,7 @@
 @comment $NetBSD$
 bin/es40
+share/es40/vgabios-0.6a.debug.bin
+share/examples/es40/es40-netbsd.cfg
 share/examples/es40/es40.cfg
 @dirrm share/examples/es40
+@dirrm share/es40
