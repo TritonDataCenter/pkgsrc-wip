@@ -1,0 +1,12 @@
+===========================================================================
+$NetBSD$
+
+  Sample config files can be found in:
+
+         /usr/pkg/share/examples/qpsmtpd
+
+  Now you can startup qpsmtpd:
+
+        # /usr/pkg/bin/qpsmtpd-forkserver -p 2025
+
+===========================================================================
