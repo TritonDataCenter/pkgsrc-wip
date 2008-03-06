@@ -913,6 +913,7 @@ share/kde/apps/kjumpingcube/pics/default.desktop
 share/kde/apps/kjumpingcube/pics/default.svg
 share/kde/apps/klines/klinesui.rc
 share/kde/apps/klines/themes/crystal.desktop
+share/kde/apps/klines/themes/crystal.png
 share/kde/apps/klines/themes/default.desktop
 share/kde/apps/klines/themes/default_preview.png
 share/kde/apps/klines/themes/klines.svgz
