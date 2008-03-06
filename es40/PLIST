@@ -1,0 +1,4 @@
+@comment $NetBSD$
+bin/es40
+share/examples/es40/es40.cfg
+@dirrm share/examples/es40
