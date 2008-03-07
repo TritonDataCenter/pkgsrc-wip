@@ -4,7 +4,7 @@ DISTNAME=	SpeedX-0.1.4d
 PKGNAME=	speedx-0.1.4d
 CATEGORIES=	games
 MASTER_SITES=	${MASTER_SITE_GNU:=speedx/}
-DISTFILES=	${DISTNAME}${EXTRACT_SUFX} mercrain.s3m.zip
+DISTFILES=	${DEFAULT_DISTFILES} mercrain.s3m.zip
 
 MAINTAINER=	reed@reedmedia.net
 HOMEPAGE=	http://medernac.home.cern.ch/medernac/SpeedX/index_en.html
