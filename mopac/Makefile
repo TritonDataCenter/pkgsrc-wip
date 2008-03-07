@@ -1,10 +1,9 @@
 # $NetBSD$
 #
-#
 
 DISTNAME=		mopac7
 PKGNAME=		mopac-7.0
-CATEGORIES=		biology
+CATEGORIES=		biology math
 MASTER_SITES=		http://server.ccl.net/cca/software/LINUX/mopac7/
 EXTRACT_SUFX=		.tar.Z
 DISTFILES=		${DEFAULT_DISTFILES} mopac7-man.tar.gz
