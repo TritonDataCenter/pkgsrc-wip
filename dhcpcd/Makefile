@@ -1,20 +1,19 @@
 # $NetBSD$
 #
 
-DISTNAME=	dhcpcd-3.2.2
+DISTNAME=	dhcpcd-3.2.3
 CATEGORIES=	net
 MASTER_SITES=	http://roy.marples.name/dhcpcd/
 EXTRACT_SUFX=	.tar.bz2
 
-MAINTAINER=	adam.hoka@gmail.com
+MAINTAINER=	roy@marples.name
 HOMEPAGE=	http://roy.marples.name/dhcpcd/
 COMMENT=	RFC2131 compliant DHCP client
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
-#USE_LANGUAGES=	c99
+USE_LANGUAGES=	c99
 
-MAKE_ENV+=	INFODIR=${PREFIX}/var/db
 MAKE_ENV+=	MANDIR=${PREFIX}/${PKGMANDIR}/man
 
 RCD_SCRIPTS+=	dhcpcd
