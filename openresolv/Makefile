@@ -12,6 +12,7 @@ COMMENT=		Framework for managing /etc/resolv.conf
 
 USE_LANGUAGES=		# none
 
+PKG_DESTDIR_SUPPORT=	user-destdir
 PKG_SYSCONFSUBDIR=	resolvconf
 EGDIR=			${PREFIX}/share/examples/resolvconf
 
