@@ -6,7 +6,7 @@ PKGREVISION=	2
 CATEGORIES=	www
 MASTER_SITES=	http://xray.sai.msu.ru/~karpov/links-hacked/downloads/
 EXTRACT_SUFX=	.tgz
-DISTFILES+=	${DISTNAME}${EXTRACT_SUFX} links-fonts-new${EXTRACT_SUFX}
+DISTFILES=	{DEFAULT_DISTFILES} links-fonts-new${EXTRACT_SUFX}
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://xray.sai.msu.ru/~karpov/links-hacked/

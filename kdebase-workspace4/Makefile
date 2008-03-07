@@ -6,7 +6,7 @@ COMMENT=	XXX for the KDE 4 integrated X11 desktop
 
 .include "../../wip/kde4/Makefile.kde4"
 
-DISTFILES=	${DISTNAME}${EXTRACT_SUFX} Daemon.png Daemon.README
+DISTFILES=	${DEFAULT_DISTFILES} Daemon.png Daemon.README
 DISTFILES+=	NetBSD-flag-1.0.png
 SITES.Daemon.png=	${MASTER_SITE_LOCAL}
 SITES.Daemon.README=	${MASTER_SITE_LOCAL}

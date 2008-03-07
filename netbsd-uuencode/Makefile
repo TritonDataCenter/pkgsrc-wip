@@ -5,8 +5,7 @@ DISTNAME=	netbsd-uuencode-4.0
 CATEGORIES=	sysutils textproc
 MASTER_SITES=	http://mova.org/~cheusov/pub/netbsd-tools/
 EXTRACT_SUFX=	.tar.bz2
-DISTFILES=	${DISTNAME}${EXTRACT_SUFX}
-DISTFILES+=	${DISTNAME:S/encode/decode/}${EXTRACT_SUFX}
+DISTFILES=	${DEFAULT_DISTFILES} ${DISTNAME:S/encode/decode/}${EXTRACT_SUFX}
 
 MAINTAINER=	cheusov@tut.by
 COMMENT=	NetBSD version of uuencode and uudecode utils

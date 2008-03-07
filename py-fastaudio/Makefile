@@ -7,8 +7,7 @@ WRKSRC=			${WRKDIR}/portaudio_v18_1
 CATEGORIES=		audio
 MASTER_SITES=		http://www.freenet.org.nz/python/pyPortAudio/ \
 			http://www.portaudio.com/archives/
-DISTFILES=		${DISTNAME}${EXTRACT_SUFX} \
-			portaudio_v18_1.zip
+DISTFILES=		${DEFAULT_DISTFILES} portaudio_v18_1.zip
 
 MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://www.freenet.org.nz/python/pyPortAudio/

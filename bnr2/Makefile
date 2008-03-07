@@ -6,8 +6,7 @@ PKGNAME=		${DISTNAME:S/BNR2beta/bnr2/}
 CATEGORIES=		news
 MASTER_SITES=		http://www.bnr2.org/
 EXTRACT_SUFX=		.tgz
-DISTFILES=		${DISTNAME}${EXTRACT_SUFX} \
-			libborqt-6.9.0-qt2.3.so.tgz
+DISTFILES=		${DEFAULT_DISTFILES} libborqt-6.9.0-qt2.3.so.tgz
 
 MAINTAINER=		dhowland@users.sourceforge.net
 HOMEPAGE=		http://www.bnr2.org/

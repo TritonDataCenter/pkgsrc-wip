@@ -30,7 +30,7 @@ USE_TOOLS+=		perl
 PGSQL_VERSION_REQD=	80
 
 # Add postgis to the postgresql distfile
-DISTFILES+=		postgis-${VERSION}.tar.gz ${DISTNAME}${EXTRACT_SUFX}
+DISTFILES=		${DEFAULT_DISTFILES} postgis-${VERSION}.tar.gz
 
 # Only build the postgis contribted source
 BUILD_DIRS=		${WRKSRC}/contrib/postgis-${VERSION}

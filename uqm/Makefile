@@ -7,8 +7,7 @@ PKGREVISION=		1
 CATEGORIES=		games
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=sc2/}
 EXTRACT_SUFX=		.tgz
-DISTFILES=		${DISTNAME}${EXTRACT_SUFX}
-DISTFILES+=		uqm-0.3-content.zip
+DISTFILES=		${DEFAULT_DISTFILES} uqm-0.3-content.zip
 
 MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://sc2.sourceforge.net/

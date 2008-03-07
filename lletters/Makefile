@@ -3,8 +3,7 @@
 DISTNAME=	lletters-0.1.9
 CATEGORIES=	games
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=lln/}
-DISTFILES=	${DISTNAME}${EXTRACT_SUFX}
-DISTFILES+=	lletters-media-0.1.9a.tar.gz
+DISTFILES=	${DEFAULT_DISTFILES} lletters-media-0.1.9a.tar.gz
 
 MAINTAINER=	reed@reedmedia.net
 HOMEPAGE=	http://lln.sourceforge.net/

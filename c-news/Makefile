@@ -9,8 +9,7 @@ MASTER_SITES=	ftp://ftp.cs.toronto.edu/pub/c-news/ \
 		ftp://ftp.redcom.ru/pub/unix/usenet/c-news/ \
 		ftp://ftp.dinoex.org/pub/c-news/
 EXTRACT_SUFX=	.tar.Z
-DISTFILES=	${DISTNAME}${EXTRACT_SUFX} \
-		pgpverify-1.12
+DISTFILES=	${DEFAULT_DISTFILES} pgpverify-1.12
 
 PATCH_SITES=	ftp://ftp.lan-ks.de/pub/c-news/ \
 		ftp://ftp.dinoex.org/pub/c-news/
