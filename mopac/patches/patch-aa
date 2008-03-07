@@ -1,4 +1,5 @@
 $NetBSD$
+
 --- SIZES.orig	Wed Oct 21 22:57:58 1998
 +++ SIZES	Wed Oct 21 22:58:49 1998
 @@ -10,8 +10,8 @@
