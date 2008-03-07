@@ -1,6 +1,6 @@
 $NetBSD$
 
-# pkgsrc 
+Modified for pkgsrc
 
 --- src/Makefile.in.orig	2008-01-16 12:33:27.000000000 +0200
 +++ src/Makefile.in	2008-02-11 13:38:21.000000000 +0200

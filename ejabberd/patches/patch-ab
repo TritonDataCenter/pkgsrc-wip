@@ -1,6 +1,6 @@
 $NetBSD$
 
-# taken from v1.1.3 NetBSD pkg
+What is this for?
 
 --- src/mod_last.erl.orig	2008-01-16 12:33:27.000000000 +0200
 +++ src/mod_last.erl	2008-02-11 13:46:13.000000000 +0200
