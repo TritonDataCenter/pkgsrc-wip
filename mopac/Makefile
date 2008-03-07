@@ -29,8 +29,8 @@ post-patch:
 
 post-install:
 	${INSTALL_DATA_DIR} ${DESTDIR}${PREFIX}/share/mopac7/sample
-	${CP} ${WRKSRC}/test_* ${DESTDIR}${PREFIX}/share/mopac7/sample
-	${CP} -pR ${WRKDIR}/mopac7-man ${DESTDIR}${PREFIX}/share/mopac7
+	cd ${WRKSRC} && ${PAX} -wr test_* ${DESTDIR}${PREFIX}/share/mopac7/sample
+	cd ${WRKSRC} && ${PAX} -wr mopac7-man ${DESTDIR}${PREFIX}/share/mopac7
 
 # "g77" can not be used for external function
 
