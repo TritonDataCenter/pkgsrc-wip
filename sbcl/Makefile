@@ -56,9 +56,6 @@ PKG_FAIL_REASON+=	"Please set SBCL_BOOT_SYSTEM=sbcl in mk.conf"
 # Get bootstrap version:
 BUILD_DEPENDS+=		sbcl-[0-9]*:../sbcl-boot
 .endif
-.if defined(SBCL_BOOT_SYSTEM) && ${SBCL_BOOT_SYSTEM} == clisp
-PKG_FAIL_REASON+=	"Sorry, it doesn't work with CLISP."
-.endif
 
 
 SUBST_CLASSES+=			fix-paths
