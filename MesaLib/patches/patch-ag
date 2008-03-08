@@ -21,10 +21,10 @@ $NetBSD: patch-ag,v 1.10 2007/08/13 11:18:46 seb Exp $
 -	$(TOP)/bin/mklib -o $(GLUT_LIB) -linker '$(CC)' -ldflags '$(LDFLAGS)' \
 -		-major $(GLUT_MAJOR) -minor $(GLUT_MINOR) -patch $(GLUT_TINY) \
 -		$(MKLIB_OPTIONS) -install $(TOP)/$(LIB_DIR) \
-+ 	$(LIBTOOL) --mode=link $(CC) \
-+ 		-o $(TOP)/$(LIB_DIR)/$(GLUT_LIB_NAME:.so=.la) $(LDFLAGS) \
-+ 		-rpath $(PREFIX)/lib $(GLUT_LIB_DEPS) $(OBJECTS:.o=.lo) \
-+ 		-version-info $(GLUT_MAJOR):$(GLUT_MINOR):$(GLUT_TINY) \
++	$(LIBTOOL) --mode=link $(CC) \
++	  -o $(TOP)/$(LIB_DIR)/$(GLUT_LIB_NAME:.so=.la) $(LDFLAGS) \
++	  -rpath $(PREFIX)/lib $(GLUT_LIB_DEPS) $(OBJECTS:.o=.lo) \
++	  -version-info $(GLUT_MAJOR):$(GLUT_MINOR):$(GLUT_TINY) \
  		$(GLUT_LIB_DEPS) $(OBJECTS)
  
  
