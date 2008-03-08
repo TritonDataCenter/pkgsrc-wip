@@ -13,7 +13,8 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 HOMEPAGE=		http://freshmeat.net/projects/util-linux/
 COMMENT=		The enhanced Discordian date program
 GNU_CONFIGURE=		yes
-USE_TOOLS+=	gmake
+USE_TOOLS+=		gmake
+CONFLICTS+=		util-linux-[0-9]*
 
 DOCDIR=		${PREFIX}/share/doc/ddate
 
