@@ -3,12 +3,11 @@
 .include "../../chat/xchat/Makefile.common"
 
 PKGNAME=	${DISTNAME:S/-/-python-/}
-
 COMMENT=	Python scripting plugin for xchat
 
 DEPENDS+=	xchat>=2.0.0:../../chat/xchat
 
-BUILD_DIRS?=	${WRKSRC}/plugins/python
+BUILD_DIRS=	plugins/python
 
 CONFIGURE_ARGS+=	--disable-gtkfe
 CONFIGURE_ARGS+=	--enable-tcl=no

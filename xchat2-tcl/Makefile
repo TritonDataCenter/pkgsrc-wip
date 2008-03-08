@@ -3,12 +3,11 @@
 .include "../../chat/xchat/Makefile.common"
 
 PKGNAME=	${DISTNAME:S/-/-tcl-/}
-
 COMMENT=	TCL scripting plugin for xchat
 
 DEPENDS+=	xchat>=2.0.0:../../chat/xchat
 
-BUILD_DIRS?=	${WRKSRC}/plugins/tcl
+BUILD_DIRS=	plugins/tcl
 
 CONFIGURE_ARGS+=	--disable-gtkfe
 CONFIGURE_ARGS+=	--enable-tcl=${BUILDLINK_PREFIX.tcl}/lib
