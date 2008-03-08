@@ -7,11 +7,11 @@ $NetBSD$
  #################################### begin configurable stuff
  #<<DESTROOT is assumed to have ./etc, ./bin, and ./man subdirectories>>
 -DESTROOT	=	$(DESTDIR)/usr
-+DESTROOT	=	$(DESTDIR)
++DESTROOT	=	$(DESTDIR)/$(PREFIX)
  DESTSBIN	=	$(DESTROOT)/sbin
  DESTBIN		=	$(DESTROOT)/bin
 -DESTMAN		=	$(DESTROOT)/share/man
-+DESTMAN		=	$(DESTROOT)/man
++DESTMAN		=	$(DESTROOT)/$(PKGMANDIR)
  #<<need bitstring.h>>
  INCLUDE		=	-I.
  #INCLUDE	=
