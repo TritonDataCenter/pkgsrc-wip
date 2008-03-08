@@ -1,5 +1,5 @@
 @comment $NetBSD$
 bin/ddate
 man/man1/ddate.1
-share/doc/ddate/README
+share/doc/ddate/ddate.doc
 @dirrm share/doc/ddate
