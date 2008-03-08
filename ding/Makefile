@@ -20,12 +20,14 @@ DEPENDS+=	dict-client>=1.8:../../textproc/dict-client
 NO_CONFIGURE=	yes
 NO_BUILD=	yes
 
+PKG_DESTDIR_SUPPORT=	user-destdir
+
 .include "../../mk/bsd.prefs.mk"
 .include "../../textproc/aspell/buildlink3.mk"
 
 do-install:
-	 ${INSTALL_SCRIPT} ${WRKSRC}/ding ${PREFIX}/bin/
-	 ${INSTALL_DATA} ${WRKSRC}/de-en.txt ${PREFIX}/share/dict/
-	 ${INSTALL_MAN} ${WRKSRC}/ding.1 ${PREFIX}/${PKGMANDIR}/man1/
+	 ${INSTALL_SCRIPT} ${WRKSRC}/ding ${DESTDIR}${PREFIX}/bin/
+	 ${INSTALL_DATA} ${WRKSRC}/de-en.txt ${DESTDIR}${PREFIX}/share/dict/
+	 ${INSTALL_MAN} ${WRKSRC}/ding.1 ${DESTDIR}${PREFIX}/${PKGMANDIR}/man1/
 
 .include "../../mk/bsd.pkg.mk"
