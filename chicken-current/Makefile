@@ -3,7 +3,7 @@
 
 DISTNAME=	chicken-3.0.0
 CATEGORIES=	lang
-MASTER_SITES=	http://chicken.wiki.br/dev-snapshots/2008/02/27/
+MASTER_SITES=	http://chicken.wiki.br/dev-snapshots/2008/03/03/
 
 MAINTAINER=	asau@users.sourceforge.net, airhead@users.sourceforge.net
 HOMEPAGE=	http://www.call-with-current-continuation.org/chicken.html
