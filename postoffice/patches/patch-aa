@@ -3,7 +3,7 @@ $NetBSD$
 --- configure.sh.orig	2006-04-21 00:02:02.000000000 +0200
 +++ configure.sh
 @@ -351,21 +351,6 @@ if [ "$USE_MAILWRAPPERS" ]; then
- fi
+ [ "$OS_FREEBSD" -o "$OS_DRAGONFLY" ] || AC_CHECK_HEADERS malloc.h
  
  if [ "$USE_MAILWRAPPERS" ]; then
 -    # FreeBSD puts mailer.conf into /etc/mail, NetBSD and OpenBSD put
