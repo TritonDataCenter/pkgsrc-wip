@@ -11,8 +11,7 @@ MASTER_SITES=	ftp://ftp.cs.toronto.edu/pub/c-news/ \
 EXTRACT_SUFX=	.tar.Z
 DISTFILES=	${DEFAULT_DISTFILES} pgpverify-1.12
 
-PATCH_SITES=	ftp://ftp.lan-ks.de/pub/c-news/ \
-		ftp://ftp.dinoex.org/pub/c-news/
+PATCH_SITES=	ftp://ftp.dinoex.org/pub/c-news/
 PATCHFILES=	c-news-patch-fileart.c c-news-patch-namecheck.awk \
 		c-news-patch-newsrun c-news-patch-sendbatches \
 		c-news-patch-ctl-pgp3 c-news-patch-ctl-more \
