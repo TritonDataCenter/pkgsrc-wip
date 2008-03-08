@@ -1,8 +1,0 @@
-@comment $NetBSD$
-bin/as86
-bin/ld86
-bin/nm86
-bin/objdump86
-bin/size86
-man/man1/as86.1
-man/man1/ld86.1
