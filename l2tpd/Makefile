@@ -17,7 +17,7 @@ PKG_SYSCONFSUBDIR?=	l2tpd
 DOCDIR=		${PREFIX}/share/doc/l2tpd
 EGDIR=		${PREFIX}/share/examples/l2tpd
 CONF_FILES=	${EGDIR:Q}/l2tpd.conf.sample ${PKG_SYSCONFDIR:Q}/l2tpd.conf
-CONF_FILES+=	${EGDIR:Q}/l2tpd-secrets.sample ${PKG_SYSCONFDIR:Q}/l2tpd-secrets
+CONF_FILES+=	${EGDIR:Q}/l2tp-secrets.sample ${PKG_SYSCONFDIR:Q}/l2tpd-secrets
 
 CFLAGS+=	-DPREFIX=\"${PREFIX:Q}\" -DSANITY
 
