@@ -2,7 +2,7 @@ $NetBSD$
 
 --- Makefile.orig	2007-10-20 00:00:00.000000000 +0200
 +++ Makefile
-@@ -1,26 +1,22 @@
+@@ -1,26 +1,24 @@
  
 -DESTDIR=/usr/local
 -PREFIX=xyssl_
@@ -33,7 +33,9 @@ $NetBSD$
  	    then                                \
 -	        f=$(PREFIX)`basename $$p` ;     \
 -	        cp $$p $(DESTDIR)/bin/$$f ;     \
-+		${BSD_INSTALL_PROGRAM} $$p ${DESTDIR}${PREFIX}/bin;	\
++		q=$$(echo $$p | sed 's,/\([^/]*\)$$,/xyssl_\1,');	\
++		cp $$p $$q;			\
++		${BSD_INSTALL_PROGRAM} $$q ${DESTDIR}${PREFIX}/bin;\
  	    fi                                  \
  	done
  
