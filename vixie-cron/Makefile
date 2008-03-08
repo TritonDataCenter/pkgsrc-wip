@@ -19,5 +19,8 @@ RCD_SCRIPTS=		cron
 
 INSTALLATION_DIRS=	bin ${PKGMANDIR}/man1 ${PKGMANDIR}/man5
 INSTALLATION_DIRS+=	${PKGMANDIR}/man8 sbin
+OWN_DIRS+=		${VARBASE}/cron
+BUILD_DEFS+=		VARBASE
+CPPFLAGS+=		-DCRONDIR=\"${VARBASE:Q}/cron\"
 
 .include "../../mk/bsd.pkg.mk"
