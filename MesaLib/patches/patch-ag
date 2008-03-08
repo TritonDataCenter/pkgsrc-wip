@@ -39,15 +39,15 @@ $NetBSD: patch-ag,v 1.10 2007/08/13 11:18:46 seb Exp $
 -	$(INSTALL) $(TOP)/$(LIB_DIR)/libglut* $(DESTDIR)$(INSTALL_DIR)/$(LIB_DIR)
 -	$(INSTALL) -m 644 glut.pc $(DESTDIR)$(INSTALL_DIR)/$(LIB_DIR)/pkgconfig
 -
-+ 	$(BSD_INSTALL_DATA_DIR) $(DESTDIR)$(INSTALL_DIR)/include/GL
-+ 	$(BSD_INSTALL_LIB_DIR) $(DESTDIR)$(INSTALL_DIR)/$(LIB_DIR)
-+ 	$(BSD_INSTALL_DATA_DIR) $(DESTDIR)$(INSTALL_DIR)/$(LIB_DIR)/pkgconfig
-+ 	$(BSD_INSTALL_DATA) $(TOP)/include/GL/glut.h $(DESTDIR)$(INSTALL_DIR)/include/GL
-+ 	$(LIBTOOL) --mode=install \
-+ 		$(BSD_INSTALL_LIB) $(TOP)/$(LIB_DIR)/libglut.la \
-+ 		$(DESTDIR)$(INSTALL_DIR)/$(LIB_DIR)
-+ 	$(BSD_INSTALL_DATA) glut.pc \
-+ 		$(DESTDIR)$(INSTALL_DIR)/$(LIB_DIR)/pkgconfig
++	$(BSD_INSTALL_DATA_DIR) $(DESTDIR)$(INSTALL_DIR)/include/GL
++	$(BSD_INSTALL_LIB_DIR) $(DESTDIR)$(INSTALL_DIR)/$(LIB_DIR)
++	$(BSD_INSTALL_DATA_DIR) $(DESTDIR)$(INSTALL_DIR)/$(LIB_DIR)/pkgconfig
++	$(BSD_INSTALL_DATA) $(TOP)/include/GL/glut.h $(DESTDIR)$(INSTALL_DIR)/include/GL
++	$(LIBTOOL) --mode=install \
++	  $(BSD_INSTALL_LIB) $(TOP)/$(LIB_DIR)/libglut.la \
++	  $(DESTDIR)$(INSTALL_DIR)/$(LIB_DIR)
++	$(BSD_INSTALL_DATA) glut.pc \
++	  $(DESTDIR)$(INSTALL_DIR)/$(LIB_DIR)/pkgconfig
  
  clean:
  	-rm -f *.o *~
