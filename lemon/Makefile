@@ -14,13 +14,15 @@ COMMENT=	Simple LALR(1) parser generator
 CONFIGURE=			no
 CHECK_PORTABILITY_SKIP+=	configure
 
+PKG_DESTDIR_SUPPORT=	user-destdir
+
 do-build: lemon
 
 do-install:
-	${INSTALL_PROGRAM} ${WRKSRC}/tool/lemon ${PREFIX}/bin
+	${INSTALL_PROGRAM} ${WRKSRC}/tool/lemon ${DESTDIR}${PREFIX}/bin
 	# This probably should be fixed by patching the searchpath
 	# and putting it in ${PREFIX}/share/lemon or sth
-	${INSTALL_DATA} ${WRKSRC}/tool/lempar.c ${PREFIX}/bin
+	${INSTALL_DATA} ${WRKSRC}/tool/lempar.c ${DESTDIR}${PREFIX}/bin
 
 .include "../../mk/bsd.pkg.mk"
 
