@@ -1,10 +1,10 @@
 @comment $NetBSD$
-bin/event_r${LOWER_VENDOR}gen.py
+bin/event_rpcgen.py
 include/evdns.h
 include/event-config.h
 include/event.h
 include/evhttp.h
-include/evr${LOWER_VENDOR}.h
+include/evrpc.h
 include/evutil.h
 lib/libevent.la
 lib/libevent_core.la

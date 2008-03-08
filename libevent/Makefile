@@ -9,6 +9,7 @@
 
 DISTNAME=	libevent-1.4.2-rc
 PKGNAME=	${DISTNAME:S/-rc//}
+PKGREVISION=	1
 CATEGORIES=	devel
 MASTER_SITES=	http://monkey.org/~provos/
 
