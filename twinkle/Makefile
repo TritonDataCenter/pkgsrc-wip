@@ -10,6 +10,8 @@ MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://www.twinklephone.com/
 COMMENT=		Software Phone using the SIP protocol
 
+PKG_DESTDIR_SUPPORT=	user-destdir
+
 USE_LANGUAGES=		c c++
 USE_TOOLS+=		pkg-config
 USE_PKGLOCALEDIR=	yes
@@ -27,6 +29,9 @@ SUBST_SED.boost+=	-e 's,boost_regex-gcc,boost_regex-mt,'
 
 .include "options.mk"
 
+LDFLAGS+=		${BUILDLINK_LDADD.oss}
+
+.include "../../mk/oss.buildlink3.mk"
 .include "../../audio/libsndfile/buildlink3.mk"
 .include "../../devel/boost-libs/buildlink3.mk"
 .include "../../x11/qt3-tools/buildlink3.mk"
