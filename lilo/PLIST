@@ -1,7 +1,7 @@
 @comment $NetBSD$
-man5/lilo.conf.5
-man8/lilo.8
-man8/mkrescue.8
+man/man5/lilo.conf.5
+man/man8/lilo.8
+man/man8/mkrescue.8
 sbin/keytab-lilo
 sbin/lilo
 sbin/mkrescue
