@@ -1,13 +1,15 @@
 # $NetBSD$
 #
 
-DISTNAME=	Siesta-0.65
+DISTNAME=	Siesta-0.66
 CATEGORIES=	mail
-MASTER_SITES=	http://siesta.unixbeard.net/releases/
+MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=../by-authors/id/R/RC/RCLAMP/}
 
 MAINTAINER=	pancake@phreaker.net
 HOMEPAGE=	http://siesta.unixbeard.net/
 COMMENT=	Siesta Mailing List Manager
+
+BROKEN=		"Configure script needs special handling."
 
 DEPENDS+=	p5-Module-Build-[0-9]*:../../devel/p5-Module-Build
 
