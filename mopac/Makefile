@@ -16,18 +16,23 @@ MAINTAINER=		oishi@ims.ac.jp
 HOMEPAGE=		http://server.ccl.net/cca/software/LINUX/mopac7/index.shtml
 COMMENT=		Molecular energy calculation program
 
+PKG_DESTDIR_SUPPORT=	user-destdir
+
 WRKSRC=			${WRKDIR}/mopac7
 BUILD_TARGET=		MOPAC7
 USE_TOOLS+=		gmake
 USE_LANGUAGES=		fortran
-PKG_FC?=		f2c-f77
+PKG_FC=			f2c-f77
 
-post-patch:
-	${CP} ${WRKSRC}/esp.rof ${WRKSRC}/esp.f
-	${CP} -f ${FILESDIR}/Makefile ${WRKSRC}
+INSTALLATION_DIRS=	bin share/mopac7/sample 
+pre-build:
+	cp ${WRKSRC}/esp.rof ${WRKSRC}/esp.f
+	rm -f ${WRKSRC}/Makefile
+	cp ${FILESDIR}/Makefile ${WRKSRC}
 
-post-install:
-	${INSTALL_DATA_DIR} ${DESTDIR}${PREFIX}/share/mopac7/sample
+do-install:
+	${INSTALL_SCRIPT} ${WRKSRC}/mopac ${DESTDIR}${PREFIX}/bin
+	${INSTALL_PROGRAM} ${WRKSRC}/MOPAC7 ${DESTDIR}${PREFIX}/bin
 	cd ${WRKSRC} && ${PAX} -wr test_* \
 	  ${DESTDIR}${PREFIX}/share/mopac7/sample
 	cd ${WRKDIR} && ${PAX} -wr mopac7-man ${DESTDIR}${PREFIX}/share/mopac7
