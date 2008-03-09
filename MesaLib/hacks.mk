@@ -28,8 +28,11 @@ CFLAGS+= 	 	-ffast-math
 .endif
 
 .if !empty(CC_VERSION:Mgcc-[4-9]*)
+# Don't hide symbols for glut by default, it doesn't know how to unhide them.
+.  if empty(PKGNAME:M*glut*)
 PKG_HACKS+= 	 	gcc-hidden-visibility
 CFLAGS+=	 	-fvisibility=hidden
+.  endif
 .endif
 
 .endif
