@@ -11,6 +11,7 @@ COMMENT=		Memory dumper for UNIX-like systems
 
 USE_TOOLS+=		gmake
 BUILD_TARGET=		what
+INSTALLATION_DIRS=	sbin
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/memdump ${PREFIX}/sbin
