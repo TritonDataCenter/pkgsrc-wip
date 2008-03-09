@@ -12,7 +12,7 @@ CONFLICTS=	Mesa-glx-[0-9]*
 USE_LANGUAGES=		# empty
 NO_CHECKSUM=		yes
 NO_BUILD=		yes
-NO_CONFIGURE= 	 	yes
+NO_CONFIGURE=		yes
 EXTRACT_ONLY=		# empty
 PLIST_SRC=		# empty (meta-package)
 
