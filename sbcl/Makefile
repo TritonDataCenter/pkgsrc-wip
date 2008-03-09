@@ -72,8 +72,8 @@ SUBST_SED.fix-gtar=		-e 's,@GTAR@,${GTAR},'
 
 do-build:
 	cd ${WRKSRC} && ${SH} make.sh "${SBCL_BOOT_SYSTEM}"
-post-build:
-	cd ${WRKSRC} && ${RM} -rf contrib/sb-cover/test-output contrib/sb-cover/tests.fasl contrib/sb-cover/test-data-*.fasl
+#post-build:
+#	cd ${WRKSRC} && ${RM} -rf contrib/sb-cover/test-output contrib/sb-cover/tests.fasl contrib/sb-cover/test-data-*.fasl
 
 do-install:
 	cd ${WRKSRC} && BUILD_ROOT=${DESTDIR:Q} INSTALL_ROOT=${PREFIX:Q} MAN_DIR=${PREFIX}/${PKGMANDIR} ${SH} install.sh
