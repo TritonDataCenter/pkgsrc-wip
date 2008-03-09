@@ -14,7 +14,7 @@ MAINTAINER=		reed@reedmedia.net
 HOMEPAGE=		http://www.linux-nis.org/nis/ypbind-mt/
 COMMENT=		Multithreaded NIS (YP) client daemon
 
-DEPENDS+=		portmap>=4:../../wip/portmap
+DEPENDS+=		portmap>=4:../../net/portmap
 # rc.d script uses domainname from yp-tools or net-tools
 #DEPENDS+=		yp-tools-[0-9]*:../../wip/yp-tools
 

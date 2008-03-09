@@ -11,7 +11,7 @@ MAINTAINER=		reed@reedmedia.net
 HOMEPAGE=		http://www.linux-nis.org/nis/ypserv/
 COMMENT=		NIS (YP) Server
 
-DEPENDS+=		portmap>=4:../../wip/portmap
+DEPENDS+=		portmap>=4:../../net/portmap
 # rc.d scripts use domainname from yp-tools or net-tools
 #DEPENDS+=		yp-tools-[0-9]*:../../wip/yp-tools
 
