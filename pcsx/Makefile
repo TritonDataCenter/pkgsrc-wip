@@ -15,11 +15,15 @@ GNU_CONFIGURE=	yes
 USE_TOOLS+=	gmake
 WRKSRC=		${WRKDIR}/${DISTNAME}/Linux
 
+# Build fails with GCC4
+#
+USE_PKGSRC_GCC=	yes
+
+PKG_DESTDIR_SUPPORT=	user-destdir
 INSTALLATION_DIRS=	bin
 
 do-install:
-	${INSTALL_PROGRAM} ${WRKSRC}/pcsx ${PREFIX}/bin
+	${INSTALL_PROGRAM} ${WRKSRC}/pcsx ${DESTDIR}${PREFIX}/bin
 
 .include "../../x11/gtk2/buildlink3.mk"
-.include "../../mk/x11.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
