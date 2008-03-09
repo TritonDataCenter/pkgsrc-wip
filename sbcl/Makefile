@@ -50,8 +50,11 @@ WRKSRC=			${WRKDIR}/${PKGNAME_NOREV}
 #SBCL_BOOT_SYSTEM=	sbcl			# SBCL
 
 .if !defined(SBCL_BOOT_SYSTEM)
-PKG_FAIL_REASON+=	"Please set SBCL_BOOT_SYSTEM=sbcl in mk.conf"
-.elif defined(SBCL_BOOT_SYSTEM) && ${SBCL_BOOT_SYSTEM} == sbcl
+SBCL_BOOT_SYSTEM=	clisp
+BUILD_DEPENDS+=		clisp-[0-9]*:../../lang/clisp
+.elif ${SBCL_BOOT_SYSTEM} == clisp
+BUILD_DEPENDS+=		clisp-[0-9]*:../../lang/clisp
+.elif ${SBCL_BOOT_SYSTEM} == sbcl
 # Get bootstrap version:
 BUILD_DEPENDS+=		sbcl-[0-9]*:../sbcl-boot
 .endif
