@@ -12,7 +12,6 @@ COMMENT=	Dynamic virtual terminal manager
 PKG_DESTDIR_SUPPORT=	user-destdir
 
 USE_LANGUAGES=	c99
-
 NO_CONFIGURE=	yes
 
 INSTALLATION_DIRS=	bin ${PKGMANDIR}/man1
