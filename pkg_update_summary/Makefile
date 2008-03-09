@@ -9,6 +9,9 @@ MAINTAINER=	cheusov@tut.by
 HOMEPAGE=	http://www.mova.org/~cheusov/
 COMMENT=	Efficiently updates pkg_summary.gz file
 
+DEPENDS+=	runawk>=0.12.1*:../../wip/runawk
+DEPENDS+=	awk-pkgsrc-dewey-[0-9]*:../../wip/awk-pkgsrc-dewey
+
 .include "../../wip/pkg_update_summary/files/Makefile.version"
 
 USE_BSD_MAKEFILE=	yes
