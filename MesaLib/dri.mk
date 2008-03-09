@@ -3,7 +3,7 @@
 # Currently, this is for convenience only.
 #
 .if !defined(DRI_MK)
-DRI_MK= 	# defined
+DRI_MK=		# defined
 
 .  include "../../textproc/expat/buildlink3.mk"
 .  include "../../x11/glproto/buildlink3.mk"

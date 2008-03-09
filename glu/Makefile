@@ -6,7 +6,7 @@ COMMENT=	GLU polygon tessellation facility for Mesa
 CONFLICTS+=	Mesa-glx-[0-9]*
 CONFLICTS+=	Mesa<3.2.1
 
-MESA_HEADERS= 	glu.h glu_mangle.h
+MESA_HEADERS=	glu.h glu_mangle.h
 
 .include "../../wip/Mesa/Makefile.lib"
 

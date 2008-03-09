@@ -14,7 +14,7 @@ $NetBSD$
 +	$(BSD_INSTALL_DATA_DIR) $(DESTDIR)$(INSTALL_DIR)/$(LIB_DIR)/pkgconfig
 +	$(LIBTOOL) --mode=install \
 +		$(BSD_INSTALL_LIB) $(TOP)/$(LIB_DIR)/libGLU.la \
-+		 	$(DESTDIR)$(INSTALL_DIR)/$(LIB_DIR)
++			$(DESTDIR)$(INSTALL_DIR)/$(LIB_DIR)
 +	$(BSD_INSTALL_DATA) glu.pc \
 +		$(DESTDIR)$(INSTALL_DIR)/$(LIB_DIR)/pkgconfig
  
