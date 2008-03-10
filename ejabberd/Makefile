@@ -14,9 +14,8 @@ CONFLICTS+=	jabberd-[0-9]*
 GNU_CONFIGURE=	yes
 USE_TOOLS+=	gmake
 
-# much prefer to be explicit about the configure settings
-# rather than depending on the defaults to continue to be sane or same
-# between versions
+# much prefer to be explicit about the configure settings rather than
+# depending on the defaults to continue to be sane or same between versions
 CONFIGURE_ARGS+=	--enable-odbc
 CONFIGURE_ARGS+=	--enable-mod_irc
 CONFIGURE_ARGS+=	--enable-mod_muc
