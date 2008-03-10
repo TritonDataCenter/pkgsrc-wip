@@ -47,6 +47,11 @@ MAKE_FLAGS+=	INFODIR=${PREFIX:Q}/${PKGINFODIR:Q}
 MAKE_FLAGS+=	DOCDIR=${PREFIX:Q}/share/doc/${PKGNAME_NOREV}
 MAKE_FLAGS+=	USE_HOST_PCRE=yes
 
+SUBST_CLASSES+=		add-rpath
+SUBST_STAGE.add-rpath=	pre-configure
+SUBST_FILES.add-rpath=	defaults.make
+SUBST_SED.add-rpath=	-e 's|-lpcre|${COMPILER_RPATH_FLAG}${PREFIX}/lib -lpcre|'
+
 TEST_TARGET=	check
 
 .include "../../devel/pcre/buildlink3.mk"
