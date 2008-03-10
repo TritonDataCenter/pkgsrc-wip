@@ -9,7 +9,6 @@ MAINTAINER=	martti@NetBSD.org
 HOMEPAGE=	http://www.ejabberd.im/
 COMMENT=	Free and Open Source distributed fault-tolerant Jabber server
 
-CONFLICTS+=	jabberd2-[0-9]*
 CONFLICTS+=	jabberd-[0-9]*
 
 GNU_CONFIGURE=	yes
