@@ -8,9 +8,11 @@ MAINTAINER=	ghen@NetBSD.org
 COMMENT=	Analogue Bitmap Clock
 HOMEPAGE=	http://odur.let.rug.nl/~kleiweg/abclock/
 
+PKG_DESTDIR_SUPPORT=	user-destdir
+
 do-install:
-	${INSTALL_PROGRAM} ${WRKSRC}/abclock ${PREFIX}/bin
-	${INSTALL_PROGRAM} ${WRKSRC}/abc_img ${PREFIX}/bin
+	${INSTALL_PROGRAM} ${WRKSRC}/abclock ${DESTDIR}${PREFIX}/bin
+	${INSTALL_PROGRAM} ${WRKSRC}/abc_img ${DESTDIR}${PREFIX}/bin
 
 .include "../../mk/x11.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
