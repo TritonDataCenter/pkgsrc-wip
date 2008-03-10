@@ -2,8 +2,8 @@
 bin/fdm
 man/man1/fdm.1
 man/man5/fdm.conf.5
-share/examples/fdm/fdm.conf.sample
 share/examples/fdm/f-terbeck.conf
+share/examples/fdm/fdm.conf.sample
 share/examples/fdm/g-lando.conf
 share/examples/fdm/n-marriott.conf
 share/examples/fdm/t-ulmer.conf
