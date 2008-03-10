@@ -16,6 +16,8 @@ EGDIR=		${PREFIX}/share/examples/boa
 GNU_CONFIGURE=	YES
 USE_TOOLS+=	gmake lex
 
+PKG_DESTDIR_SUPPORT=	user-destdir
+
 .include "../../mk/bsd.prefs.mk"
 
 .if !empty(LOWER_OPSYS:Mirix5*)
@@ -37,15 +39,15 @@ CONF_FILES=		${EGDIR}/boa.conf ${PKG_SYSCONFDIR}/boa.conf
 INSTALLATION_DIRS=	sbin ${PKGMANDIR}/man8
 
 do-install:
-	${INSTALL_PROGRAM} ${WRKSRC}/src/boa ${PREFIX}/sbin/
-	${INSTALL_PROGRAM} ${WRKSRC}/src/boa_indexer ${PREFIX}/sbin/
-	${INSTALL_DATA_DIR} ${EGDIR}
+	${INSTALL_PROGRAM} ${WRKSRC}/src/boa ${DESDIR}${PREFIX}/sbin/
+	${INSTALL_PROGRAM} ${WRKSRC}/src/boa_indexer ${DESDIR}${PREFIX}/sbin/
+	${INSTALL_DATA_DIR} ${DESTDIR}${EGDIR}
 .for f in boa.conf cgi-test.cgi nph-test.cgi resolver.pl
-	${INSTALL_DATA} ${WRKSRC}/examples/${f} ${EGDIR}
+	${INSTALL_DATA} ${WRKSRC}/examples/${f} ${DESTDIR}${EGDIR}
 .endfor
-	${INSTALL_DATA_DIR} ${PREFIX}/share/doc/boa
-	${INSTALL_DATA} ${WRKSRC}/CREDITS ${PREFIX}/share/doc/boa
-	${INSTALL_DATA} ${WRKSRC}/README ${PREFIX}/share/doc/boa
-	${INSTALL_MAN} ${WRKSRC}/docs/boa.8 ${PREFIX}/${PKGMANDIR}/man8
+	${INSTALL_DATA_DIR} ${DESDIR}${PREFIX}/share/doc/boa
+	${INSTALL_DATA} ${WRKSRC}/CREDITS ${DESDIR}${PREFIX}/share/doc/boa
+	${INSTALL_DATA} ${WRKSRC}/README ${DESDIR}${PREFIX}/share/doc/boa
+	${INSTALL_MAN} ${WRKSRC}/docs/boa.8 ${DESDIR}${PREFIX}/${PKGMANDIR}/man8
 
 .include "../../mk/bsd.pkg.mk"

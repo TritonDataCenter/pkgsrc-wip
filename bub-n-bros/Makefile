@@ -9,6 +9,8 @@ MAINTAINER=		recht@NetBSD.org
 HOMEPAGE=		http://bub-n-bros.sourceforge.net/
 COMMENT=		Multiplayer crazy clone of Bubble Bobble
 
+PKG_DESTDIR_SUPPORT=	user-destdir
+
 PY_PATCHPLIST=		yes
 
 MAKE_ENV+=		CFLAGS=${CFLAGS:M*:Q}
@@ -36,9 +38,9 @@ do-build:
 	${PYTHONBIN} -O ${PREFIX}/${PYLIB}/compileall.py ${WRKSRC}
 
 do-install:
-	${INSTALL_DATA_DIR} ${PREFIX}/games/${PKGBASE}
+	${INSTALL_DATA_DIR} ${DESDIR}${PREFIX}/games/${PKGBASE}
 	cd ${WRKSRC} && ${PAX} ${PAX_SUBST} \
-		-rwpe . ${PREFIX}/games/${PKGBASE}
+		-rwpe . ${DESDIR}${PREFIX}/games/${PKGBASE}
 
 .include "../../lang/python/application.mk"
 .include "../../devel/py-game/buildlink3.mk"
