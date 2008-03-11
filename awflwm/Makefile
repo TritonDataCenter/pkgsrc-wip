@@ -18,5 +18,6 @@ CXXFLAGS+=	-DFLTK_1_0_COMPAT
 USE_LANGUAGES=	c c++
 
 .include "../../x11/fltk/buildlink3.mk"
-.include "../../mk/x11.buildlink3.mk"
+.include "../../x11/libX11/buildlink3.mk"
+.include "../../x11/libXext/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
