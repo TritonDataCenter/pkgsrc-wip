@@ -50,7 +50,7 @@ MAKE_FLAGS+=	USE_HOST_PCRE=yes
 SUBST_CLASSES+=		add-rpath
 SUBST_STAGE.add-rpath=	pre-configure
 SUBST_FILES.add-rpath=	defaults.make
-SUBST_SED.add-rpath=	-e 's|-lpcre|${COMPILER_RPATH_FLAG}${PREFIX}/lib -lpcre|'
+SUBST_SED.add-rpath=	-e 's|-lpcre|${COMPILER_RPATH_FLAG}${PREFIX}/lib -L${PREFIX}/lib -lpcre|'
 
 TEST_TARGET=	check
 
