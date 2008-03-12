@@ -14,7 +14,7 @@ BUILDLINK_ORDER:=	${BUILDLINK_ORDER} ${BUILDLINK_DEPTH}cairo
 .if ${CAIRO_BUILDLINK3_MK} == "+"
 BUILDLINK_API_DEPENDS.cairo+=	cairo>=1.0.0nb2
 BUILDLINK_ABI_DEPENDS.cairo?=	cairo>=1.0.4nb1
-BUILDLINK_PKGSRCDIR.cairo?=	../../graphics/cairo
+BUILDLINK_PKGSRCDIR.cairo?=	../../wip/cairo
 
 BUILDLINK_API_DEPENDS.Xrender+=	Xrender>=0.8
 .endif	# CAIRO_BUILDLINK3_MK
