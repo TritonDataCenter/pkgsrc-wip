@@ -1,8 +1,8 @@
 # $NetBSD$
 #
 
-DISTNAME=	clisp-2.44
-PKGNAME=	clisp-2.44.99 # needed because of cvs-package.mk
+DISTNAME=	clisp-2.45
+PKGNAME=	clisp-2.45.99 # needed because of cvs-package.mk
 CATEGORIES=	lang
 MASTER_SITES=	#
 
