@@ -1,0 +1,21 @@
+# $NetBSD$
+
+BUILDLINK_DEPTH:=		${BUILDLINK_DEPTH}+
+AUDIO_MML_BUILDLINK3_MK:=	${AUDIO_MML_BUILDLINK3_MK}+
+
+.if ${BUILDLINK_DEPTH} == "+"
+BUILDLINK_DEPENDS+=	audio-mml
+.endif
+
+BUILDLINK_PACKAGES:=	${BUILDLINK_PACKAGES:Naudio-mml}
+BUILDLINK_PACKAGES+=	audio-mml
+BUILDLINK_ORDER:=	${BUILDLINK_ORDER} ${BUILDLINK_DEPTH}audio-mml
+
+.if ${AUDIO_MML_BUILDLINK3_MK} == "+"
+BUILDLINK_API_DEPENDS.audio-mml+=	audio-mml>=4.4.01
+BUILDLINK_PKGSRCDIR.audio-mml?=	../../wip/audio-mml
+.endif	# AUDIO_MML_BUILDLINK3_MK
+
+.include "../../wip/common-mml/buildlink3.mk"
+
+BUILDLINK_DEPTH:=		${BUILDLINK_DEPTH:S/+$//}
