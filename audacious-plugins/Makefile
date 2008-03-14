@@ -1,9 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		audacious-plugins-1.4.5
-#PKGREVISION=		1
-PKGREVISION=		1
+DISTNAME=		audacious-plugins-1.5.0
 CATEGORIES=		audio
 MASTER_SITES=		http://distfiles.atheme.org/
 EXTRACT_SUFX=		.tgz
