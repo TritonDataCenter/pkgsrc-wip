@@ -11,6 +11,7 @@ MAINTAINER=	shinden@linux.pl
 HOMEPAGE=	http://pl.ekg2.org/
 COMMENT=	Multi-protocol communicator - gg, jabber, irc
 
+PKG_DESTDIR_SUPPORT=	user-destdir
 GNU_CONFIGURE=		yes
 USE_LIBTOOL=		yes
 USE_PKGLOCALEDIR=	yes
