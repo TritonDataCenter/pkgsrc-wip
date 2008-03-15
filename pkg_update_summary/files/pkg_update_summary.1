@@ -31,12 +31,21 @@ removes from
 the information about packages removed from 
 .Ar bin_pkg_dir
 directory.
+.Sh ENVIRONMENT
+.Bd -literal
+.Bl -tag -width Cm
+.It Cm PKG_SUFX
+Binary package extension, either .tgz or .tbz, defaults to '.tgz'
+.It Cm TEST_CMD
+Solaris's test command does not like option -nt, defaults to 'test'
+.It Cm PKG_INFO_CMD
+Path to pkg_info command, defaults to 'pkg_info'
+.El
+.Ed
 .Sh EXAMPLES
 .Bd -literal
-
 pkg_update_summary /srv/packages/All/pkg_summary.txt /srv/packages/All
 pkg_update_summary /dir/pkg_summary.gz /dir 'gzip -dc' 'gzip -c'
-
 .Ed
 .Sh AUTHOR
 .An Aleksey Cheusov
