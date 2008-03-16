@@ -8,7 +8,7 @@ CATEGORIES=		textproc
 MASTER_SITES=		http://dico.savant.free.fr/_download/
 EXTRACT_SUFX=		.zip
 
-MAINTAINER=		adam.hoka@gmail.com
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://dico.savant.free.fr/index.php
 COMMENT=		French (1990 Reform) dictionary for hunspell
 

@@ -2,7 +2,7 @@
 
 VERSION=	20050112
 DISTNAME=	he_IL
-MAINTAINER=	adam.hoka@gmail.com
+MAINTAINER=	pkgsrc-users@NetBSD.org
 COMMENT=	Hebrew dictionary for hunspell
 
 .include "../../wip/hunspell-af_ZA/Makefile.common"

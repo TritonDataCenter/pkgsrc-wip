@@ -2,7 +2,7 @@
 
 VERSION=	20050108
 DISTNAME=	mg_MG
-MAINTAINER=	adam.hoka@gmail.com
+MAINTAINER=	pkgsrc-users@NetBSD.org
 COMMENT=	Malagasy dictionary for hunspell
 
 .include "../../wip/hunspell-af_ZA/Makefile.common"

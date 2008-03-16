@@ -2,7 +2,7 @@
 
 VERSION=	20021015
 DISTNAME=	ca_ES
-MAINTAINER=	adam.hoka@gmail.com
+MAINTAINER=	pkgsrc-users@NetBSD.org
 COMMENT=	Catalan dictionary for hunspell
 
 .include "../../wip/hunspell-af_ZA/Makefile.common"

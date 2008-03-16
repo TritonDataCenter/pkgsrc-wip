@@ -2,7 +2,7 @@
 
 VERSION=	20050108
 DISTNAME=	ny_MW
-MAINTAINER=	adam.hoka@gmail.com
+MAINTAINER=	pkgsrc-users@NetBSD.org
 COMMENT=	Chichewa dictionary for hunspell
 
 .include "../../wip/hunspell-af_ZA/Makefile.common"

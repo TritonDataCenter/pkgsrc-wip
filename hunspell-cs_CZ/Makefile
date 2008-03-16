@@ -2,7 +2,7 @@
 
 VERSION=	20030101
 DISTNAME=	cs_CZ
-MAINTAINER=	adam.hoka@gmail.com
+MAINTAINER=	pkgsrc-users@NetBSD.org
 COMMENT=	Czech dictionary for hunspell
 
 .include "../../wip/hunspell-af_ZA/Makefile.common"

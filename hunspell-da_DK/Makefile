@@ -2,7 +2,7 @@
 
 VERSION=	20070106
 DISTNAME=	da_DK
-MAINTAINER=	adam.hoka@gmail.com
+MAINTAINER=	pkgsrc-users@NetBSD.org
 COMMENT=	Danish dictionary for hunspell
 
 .include "../../wip/hunspell-af_ZA/Makefile.common"
