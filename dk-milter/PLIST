@@ -14,6 +14,7 @@ share/doc/dk-milter/libdk/dk.html
 share/doc/dk-milter/libdk/dk_alg_t.html
 share/doc/dk-milter/libdk/dk_body.html
 share/doc/dk-milter/libdk/dk_canon_t.html
+share/doc/dk-milter/libdk/dk_close.html
 share/doc/dk-milter/libdk/dk_eoh.html
 share/doc/dk-milter/libdk/dk_eom.html
 share/doc/dk-milter/libdk/dk_flags.html
@@ -26,6 +27,7 @@ share/doc/dk-milter/libdk/dk_header.html
 share/doc/dk-milter/libdk/dk_init.html
 share/doc/dk-milter/libdk/dk_lib.html
 share/doc/dk-milter/libdk/dk_options.html
+share/doc/dk-milter/libdk/dk_query_t.html
 share/doc/dk-milter/libdk/dk_sigkey_t.html
 share/doc/dk-milter/libdk/dk_sign.html
 share/doc/dk-milter/libdk/dk_stat.html
