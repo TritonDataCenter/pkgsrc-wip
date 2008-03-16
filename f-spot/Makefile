@@ -12,7 +12,7 @@ COMMENT=	Full-featured personal photo management application
 
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
-USE_TOOLS+=	intltool pkg-config
+USE_TOOLS+=	gmake intltool pkg-config
 
 PKGCONFIG_OVERRIDE+=	f-spot.pc.in
 
