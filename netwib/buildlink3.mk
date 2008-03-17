@@ -3,16 +3,20 @@
 BUILDLINK_DEPTH:=	${BUILDLINK_DEPTH}+
 NETWIB_BUILDLINK3_MK:=	${NETWIB_BUILDLINK3_MK}+
 
-.if !empty(BUILDLINK_DEPTH:M+)
+.if ${BUILDLINK_DEPTH} == "+"
 BUILDLINK_DEPENDS+=	netwib
 .endif
 
 BUILDLINK_PACKAGES:=	${BUILDLINK_PACKAGES:Nnetwib}
 BUILDLINK_PACKAGES+=	netwib
+BUILDLINK_ORDER:=	${BUILDLINK_ORDER} ${BUILDLINK_DEPTH}netwib
 
-.if !empty(NETWIB_BUILDLINK3_MK:M+)
-BUILDLINK_API_DEPENDS.netwib+=	netwib>=5.16.0
+.if ${NETWIB_BUILDLINK3_MK} == "+"
+BUILDLINK_API_DEPENDS.netwib+=	netwib>=5.35.0
 BUILDLINK_PKGSRCDIR.netwib?=	../../wip/netwib
 .endif	# NETWIB_BUILDLINK3_MK
 
-BUILDLINK_DEPTH:=     ${BUILDLINK_DEPTH:S/+$//}
+.include "../../devel/libnet10/buildlink3.mk"
+.include "../../net/libpcap/buildlink3.mk"
+
+BUILDLINK_DEPTH:=	${BUILDLINK_DEPTH:S/+$//}
