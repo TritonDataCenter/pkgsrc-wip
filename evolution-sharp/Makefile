@@ -17,5 +17,5 @@ USE_TOOLS+=		gmake pkg-config
 GNU_CONFIGURE=		yes
 
 .include "../../mail/evolution-data-server/buildlink3.mk"
-.include "../../x11/gtk2-sharp/buildlink3.mk"
+.include "../../x11/gtk-sharp/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
