@@ -306,7 +306,6 @@ share/omf/f-spot/f-spot-sv.omf
 @dirrm share/gnome/help/f-spot/C/figures
 @dirrm share/gnome/help/f-spot/C
 @dirrm share/gnome/help/f-spot
-@dirrm share/gnome/help
 @dirrm share/f-spot/icons/hicolor/scalable/status
 @dirrm share/f-spot/icons/hicolor/scalable/emblems
 @dirrm share/f-spot/icons/hicolor/scalable/apps

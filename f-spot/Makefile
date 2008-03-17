@@ -13,6 +13,7 @@ COMMENT=	Full-featured personal photo management application
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_TOOLS+=	gmake intltool pkg-config bash:run
+USE_DIRS+=	gnome2-1.6
 
 MAKE_JOBS_SAFE=	no
 
