@@ -21,7 +21,7 @@ GNU_CONFIGURE=		yes
 CONFIGURE_ARGS+=	--with-editline
 CONFIGURE_ARGS+=	--sysconfdir=${PKG_SYSCONFDIR} \
 			--libexecdir=${PREFIX}/libexec \
-			--datarootdir=${PREFIX}/${FBHOME}
+			--datadir=${PREFIX}/${FBHOME}
 
 #USE_TOOLS+=		gm4:run gmake autoheader autoconf chgrp chown aclocal
 USE_TOOLS+=		autoconf automake gmake aclocal autoheader gm4 chown chgrp
@@ -65,10 +65,10 @@ SUBST_MESSAGE.prefix=	Fixing paths in configuration files: PREFIX
 SUBST_FILES.prefix=	builds/install/misc/firebird.conf
 SUBST_SED.prefix=	-e "s|%%PREFIX%%|${PREFIX}|"
 
-SUBST_STAGE.prefix=	post-patch
-SUBST_MESSAGE.prefix=	Fixing paths in configuration files: FBHOME
-SUBST_FILES.prefix=	builds/install/misc/firebird.conf
-SUBST_SED.prefix=	-e "s|%%FBHOME%%|${PREFIX}/${FBHOME}|"
+SUBST_STAGE.fbdir=	post-patch
+SUBST_MESSAGE.fbdir=	Fixing paths in configuration files: FBHOME
+SUBST_FILES.fbdir=	builds/install/misc/firebird.conf
+SUBST_SED.fbdir=	-e "s|%%FBHOME%%|${PREFIX}/${FBHOME}|"
 
 CONF_FILES+=		${EGDIR}/firebird.conf ${PKG_SYSCONFDIR}/firebird.conf
 
