@@ -20,7 +20,7 @@ USE_DIRS+=		xdg-1.4 \
 
 PKGCONFIG_OVERRIDE+=	desktop/lat-plugins.pc.in
 
-.include "../../x11/gtk2-sharp/buildlink3.mk"
+.include "../../x11/gtk-sharp/buildlink3.mk"
 .include "../../lang/mono/buildlink3.mk"
 .include "../../security/gnome-keyring/buildlink3.mk"
 .include "../../converters/libiconv/buildlink3.mk"

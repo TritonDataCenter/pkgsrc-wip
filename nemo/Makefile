@@ -19,5 +19,5 @@ USE_TOOLS+=	gmake msgfmt pkg-config
 
 .include "../../lang/mono/buildlink3.mk"
 .include "../../x11/gnome-sharp/buildlink3.mk"
-.include "../../x11/gtk2-sharp/buildlink3.mk"
+.include "../../x11/gtk-sharp/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
