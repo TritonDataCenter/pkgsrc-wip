@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	tenshi-0.9.1
+DISTNAME=	tenshi-0.10
 CATEGORIES=	sysutils
 MASTER_SITES=	http://dev.inversepath.com/tenshi/
 
