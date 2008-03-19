@@ -13,7 +13,7 @@ BUILDLINK_ORDER:=	${BUILDLINK_ORDER} ${BUILDLINK_DEPTH}mono
 
 .if ${MONO_BUILDLINK3_MK} == "+"
 BUILDLINK_API_DEPENDS.mono+=	mono>=1.2.6
-BUILDLINK_PKGSRCDIR.mono?=	../../lang/mono
+BUILDLINK_PKGSRCDIR.mono?=	../../wip/mono
 .endif	# MONO_BUILDLINK3_MK
 
 .include "../../devel/glib2/buildlink3.mk"
