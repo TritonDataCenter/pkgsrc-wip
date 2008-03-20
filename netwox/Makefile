@@ -21,6 +21,7 @@ SUBST_STAGE.fix-paths=		pre-configure
 SUBST_MESSAGE.fix-paths=	Fixing absolute paths.
 SUBST_FILES.fix-paths=		config.dat
 SUBST_SED.fix-paths=		-e 's,/usr/local,${PREFIX},g'
+SUBST_SED.fix-paths=		-e 's,/man$$,/${PKGMANDIR},g'
 
 .include "../../devel/libnet10/buildlink3.mk"
 .include "../../mk/pthread.buildlink3.mk"
