@@ -15,7 +15,7 @@ $NetBSD: patch-ad,v 1.10 2007/08/13 11:18:44 seb Exp $
  .c.o:
 -	$(CC) -c $(INCLUDE_DIRS) $(CFLAGS) $< -o $@
 +	$(LIBTOOL) --mode=compile --tag=CC \
-+	$(CC) -c $(INCLUDE_DIRS) $(CFLAGS) $< -o $(@:.o=.lo)
++	$(CC) -c $(INCLUDE_DIRS) $(CFLAGS) $(COPTS) $< -o $(@:.o=.lo)
  
  .cpp.o:
 -	$(CXX) -c $(INCLUDE_DIRS) $(CXXFLAGS) $< -o $@
@@ -24,7 +24,7 @@ $NetBSD: patch-ad,v 1.10 2007/08/13 11:18:44 seb Exp $
  
  .S.o:
 +	$(LIBTOOL) --mode=compile --tag=CC \
- 	$(CC) -c $(INCLUDE_DIRS) $(CFLAGS) $< -o $@
+ 	$(CC) -c $(INCLUDE_DIRS) $(CFLAGS) $(COPTS) $< -o $@
  
  
 @@ -51,13 +54,14 @@ beos: depend subdirs libmesa.a

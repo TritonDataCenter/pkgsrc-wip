@@ -6,6 +6,13 @@ COMMENT=	Graphics library similar to SGI's OpenGL
 MESA_HEADERS=	gl.h gl_mangle.h glext.h glx.h glxext.h glx_mangle.h \
 		osmesa.h xmesa.h xmesa_x.h xmesa_xf86.h
 
+PKG_DESTDIR_SUPPORT=	user-destdir
+
+.if ${MACHINE_ARCH} == "x86_64" || ${MACHINE_ARCH} == "sparc64" || \
+    ${MACHINE_ARGH} == "alpha" 
+CFLAGS+= 	-D__GLX_ALIGN64
+.endif
+
 .include "../../wip/Mesa/Makefile.lib"
 
 .include "options.mk"

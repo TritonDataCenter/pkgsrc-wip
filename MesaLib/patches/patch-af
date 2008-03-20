@@ -18,7 +18,7 @@ $NetBSD: patch-af,v 1.8 2007/08/13 11:18:45 seb Exp $
  .c.o:
 -	$(CC) -c $(INCDIRS) $(CFLAGS) -DNDEBUG -DLIBRARYBUILD $< -o $@
 +	$(LIBTOOL) --mode=compile --tag=CC $(CC) -c $(INCDIRS) \
-+		$(CFLAGS) -DNDEBUG -DLIBRARYBUILD $< -o $(@:.o=.lo)
++		$(CFLAGS) $(COPTS) -DNDEBUG -DLIBRARYBUILD $< -o $(@:.o=.lo)
  
  .cc.o:
 -	$(CXX) -c $(INCDIRS) $(CXXFLAGS) -DNDEBUG -DLIBRARYBUILD $< -o $@

@@ -9,6 +9,8 @@ COMMENT=	Graphics library meta package, similar to SGI's OpenGL
 
 CONFLICTS=	Mesa-glx-[0-9]*
 
+PKG_DESTDIR_SUPPORT=	user-destdir
+
 USE_LANGUAGES=		# empty
 NO_CHECKSUM=		yes
 NO_BUILD=		yes

@@ -2,8 +2,6 @@
 PKG_OPTIONS_VAR=	PKG_OPTIONS.MesaLib
 PKG_SUPPORTED_OPTIONS=	# Added to below
 
-.include "../../mk/bsd.fast.prefs.mk"
-
 # Assembler code build configurations
 .if ${MACHINE_ARCH} == "i386" || ${MACHINE_ARCH} == "x86_64"
 PKG_SUPPORTED_OPTIONS+=		${MACHINE_ARCH}
