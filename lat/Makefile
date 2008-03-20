@@ -11,7 +11,7 @@ COMMENT=		LDAP Administration Tool written in Mono
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
-USE_TOOLS+=		pkg-config perl gmake msgfmt
+USE_TOOLS+=		pkg-config gmake msgfmt intltool
 USE_LANGUAGES=		# empty -> its csharp
 GNU_CONFIGURE=		yes
 USE_LIBTOOL=		yes
