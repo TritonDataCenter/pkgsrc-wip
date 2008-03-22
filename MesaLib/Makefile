@@ -8,8 +8,10 @@ MESA_HEADERS=	gl.h gl_mangle.h glext.h glx.h glxext.h glx_mangle.h \
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
+.include "../../mk/bsd.prefs.mk"
+
 .if ${MACHINE_ARCH} == "x86_64" || ${MACHINE_ARCH} == "sparc64" || \
-    ${MACHINE_ARGH} == "alpha" 
+    ${MACHINE_ARCH} == "alpha" 
 CFLAGS+= 	-D__GLX_ALIGN64
 .endif
 
