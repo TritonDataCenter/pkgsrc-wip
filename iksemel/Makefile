@@ -7,7 +7,7 @@ CATEGORIES=	textproc
 MASTER_SITES=	http://iksemel.googlecode.com/files/
 
 MAINTAINER=	jfranz@bsdprojects.net
-HOMEPAGE=	http://iksemel.googlecode.com/files/
+HOMEPAGE=	http://code.google.com/p/iksemel/
 COMMENT=	XML parser library mainly designed for Jabber applications
 
 GNU_CONFIGURE=	yes
