@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	Trac-0.11b1
+DISTNAME=	Trac-0.11b2
 PKGNAME=	${DISTNAME:tl}
 EGG_NAME=	${DISTNAME}
 CATEGORIES=	devel www
@@ -15,7 +15,7 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 
 USE_LANGUAGES=	# none
 
-DEPENDS+=	${PYPKGPREFIX}-genshi>=0.3.6:../../wip/genshi
+DEPENDS+=	${PYPKGPREFIX}-genshi>=0.4.1:../../wip/genshi
 
 PYTHON_VERSIONS_ACCEPTED=	24 23
 
