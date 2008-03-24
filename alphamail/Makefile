@@ -33,7 +33,7 @@ DEPENDS+=	p5-Encode-IMAPUTF7>=1.00:../../wip/p5-Encode-IMAPUTF7
 GNU_CONFIGURE=	yes
 USE_LANGUAGES=	c c++
 USE_TOOLS+=	perl
-# NetBSD 4.0 make segfaults at install time
+# NetBSD 4.0 make segfaults at install time -- PR 37684?
 USE_TOOLS+=	gmake
 PTHREAD_AUTO_VARS=	yes
 
