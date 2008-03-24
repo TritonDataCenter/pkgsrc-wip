@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	libxcb-1.1
+PKGREVISION=	1
 CATEGORIES=	x11
 MASTER_SITES=	http://xcb.freedesktop.org/dist/
 EXTRACT_SUFX=	.tar.bz2
@@ -10,14 +11,16 @@ MAINTAINER=	reed@reedmedia.net
 HOMEPAGE=	http://xcb.freedesktop.org/
 COMMENT=	X protocol C-language Binding
 
-BUILD_DEPENDS+=	libxslt>=1.1.0:../../textproc/libxslt
+PKG_DESTDIR_SUPPORT=	user-destdir
+
+BUILD_DEPENDS+=		libxslt>=1.1.0:../../textproc/libxslt
 
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_TOOLS+=	pkg-config
-CONFIGURE_ARGS+=	--disable-build-docs	# or needs doxygen
 
-LIBS+=		-lpthread-stubs
+CONFIGURE_ARGS+=	--disable-build-docs	# or needs doxygen
+CONFIGURE_ARGS+=	--disable-doxygen
 
 PKGCONFIG_OVERRIDE+=	xcb-composite.pc.in
 PKGCONFIG_OVERRIDE+=	xcb-damage.pc.in
@@ -46,8 +49,24 @@ PKGCONFIG_OVERRIDE+=	xcb.pc.in
 # addition to MIT-MAGIC-COOKIE-1.
 
 BUILDLINK_API_DEPENDS.xcb-proto+=	xcb-proto>=1.1
+
+.include "../../mk/pthread.buildlink3.mk"
+
+XTHREADLIB=${${PTHREAD_LDFLAGS} ${PTHREAD_LIBS}:L:M*}
+
+.if empty(PTHREAD_CPPFLAGS)
+XTHREAD_CFLAGS=	-D_REENTRANT
+.else
+XTHREAD_CFLAGS=	${PTHREAD_CFLAGS}
+.endif
+
+SUBST_CLASSES+=		pc
+SUBST_FILES.pc=		xcb.pc.in
+SUBST_MESSAGE.pc=	Configuring threading in xcb.pc.in.
+SUBST_STAGE.pc=		pre-configure
+SUBST_VARS.pc=		XTHREADLIB XTHREAD_CFLAGS
+
 .include "../../wip/xcb-proto/buildlink3.mk"
-.include "../../wip/libpthread-stubs/buildlink3.mk"
 .include "../../x11/libXdmcp/buildlink3.mk"
 .include "../../x11/libXau/buildlink3.mk"
 
