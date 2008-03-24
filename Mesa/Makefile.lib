@@ -26,9 +26,6 @@ MAKE_ENV+=		MAKE=${GMAKE:Q}
 MAKE_ENV+=		COPTS=${COPTS:M*:Q}
 
 .if ${X11_TYPE} == "modular"
-# XXX libX11-xcb.diff
-pkgbase:=	libX11
-.  include "../../mk/pkg-build-options.mk"
 .  if defined(PKG_BUILD_OPTIONS.libX11) && !empty(PKG_BUILD_OPTIONS.libX11:Mxcb)
 MAKE_ENV+=		USE_XCB=yes
 .  endif
