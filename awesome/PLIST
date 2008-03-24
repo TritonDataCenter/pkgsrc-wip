@@ -1,9 +1,9 @@
 @comment $NetBSD$
 bin/awesome
 bin/awesome-client
-bin/awesome-menu
 bin/awesome-message
 man/man1/awesome-client.1
+man/man1/awesome-message.1
 man/man1/awesome.1
 man/man5/awesomerc.5
 share/awesome/icons/layouts/dwindle.png
@@ -22,11 +22,12 @@ share/awesome/icons/layouts/tileleftw.png
 share/awesome/icons/layouts/tiletop.png
 share/awesome/icons/layouts/tiletopw.png
 share/awesome/icons/layouts/tilew.png
-share/examples/awesome/awesomerc
 share/doc/awesome/README
 share/doc/awesome/STYLE
 share/doc/awesome/UPGRADE
 share/doc/awesome/awesomerc
+share/examples/awesome/awesomerc
+@dirrm share/examples/awesome
 @dirrm share/doc/awesome
 @dirrm share/awesome/icons/layouts
 @dirrm share/awesome/icons

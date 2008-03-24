@@ -1,8 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		awesome-2.2-rc4
-PKGNAME=		${DISTNAME:S/-rc/rc/}
+DISTNAME=		awesome-2.2
 CATEGORIES=		wm
 MASTER_SITES=		http://awesome.naquadah.org/download/
 
@@ -25,8 +24,8 @@ BUILD_DEPENDS+= 	xmlto>=0.0.18:../../textproc/xmlto
 BUILD_DEPENDS+= 	docbook-xsl>=1.73.2:../../textproc/docbook-xsl
 
 post-install:
-	${INSTALL_DATA_DIR} ${EGDIR}
-	${INSTALL_DATA} ${WRKSRC}/awesomerc ${EGDIR}
+	${INSTALL_DATA_DIR} ${DESTDIR}${EGDIR}
+	${INSTALL_DATA} ${WRKSRC}/awesomerc ${DESTDIR}${EGDIR}
 
 .include "../../x11/libX11/buildlink3.mk"
 .include "../../x11/libXrender/buildlink3.mk"
