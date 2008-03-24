@@ -22,6 +22,12 @@ DISTINFO_FILE=		${.CURDIR}/../MesaLib/distinfo
 COPTS?= 	 	# empty
 COPTS+= 	 	-prefer-pic 	# Make sure to build PIC libraries.
 
+.if ${PKG_BUILD_OPTIONS.libX11:Mxcb} != ""
+MAKE_ENV+=		USE_XCB=yes
+.else
+MAKE_ENV+=		USE_XCB=no
+.endif
+
 MAKE_ENV+=		MAKE=${GMAKE:Q}
 MAKE_ENV+=		COPTS=${COPTS:M*:Q}
 

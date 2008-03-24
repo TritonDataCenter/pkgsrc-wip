@@ -1,6 +1,6 @@
 # $NetBSD$
 
-include $(TOP)/configs/pkgsrc-dri
+include $(TOP)/configs/pkgsrc-dri$(MESA_CONFIG_SUFX)
 
 CONFIG_NAME=	pkgsrc-dri-x86_64
 
