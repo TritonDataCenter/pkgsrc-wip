@@ -26,7 +26,7 @@ pkgbase := cairo
 pkgbase := libX11
 .include "../../mk/pkg-build-options.mk"
 
-.if !empty(PKG_BUILD_OPTIONS.libX11:Mxcb)
+.if !empty(PKG_BUILD_OPTIONS.libX11:U:Mxcb)
 .include "../../wip/xcb-util/buildlink3.mk"
 .endif
 
