@@ -20,7 +20,10 @@ CONFIGURE_ENV+=		PYTHON=${PYTHONBIN:Q}
 # Pull in standard firefox build framework, and override some things below
 .include "../../www/firefox/Makefile-firefox.common"
 
-MOZ_VER=		3.0b4
+MASTER_SITES=		http://ftp.mozilla.org/pub/mozilla.org/firefox/nightly/3.0b5-candidates/rc1/
+MOZ_VER=		3.0b5
+PKGNAME=		firefox-${MOZ_VER}rc1
+DIST_SUBDIR=		${PKGNAME_NOREV}
 
 DESCR_SRC=		${.CURDIR}/../../www/firefox/DESCR
 
