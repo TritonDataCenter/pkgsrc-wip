@@ -16,6 +16,8 @@ CHECK_PORTABILITY_SKIP+=	configure
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
+INSTALLATION_DIRS=	bin
+
 do-build: lemon
 
 do-install:
