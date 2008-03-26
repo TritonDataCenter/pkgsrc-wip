@@ -23,16 +23,14 @@ BUILDLINK_API_DEPENDS.Xrender+=	Xrender>=0.8
 
 pkgbase := cairo
 .include "../../mk/pkg-build-options.mk"
-pkgbase := libX11
-.include "../../mk/pkg-build-options.mk"
-
-.if !empty(PKG_BUILD_OPTIONS.libX11:U:Mxcb)
-.include "../../wip/xcb-util/buildlink3.mk"
-.endif
 
 .if !empty(PKG_BUILD_OPTIONS.cairo:Mx11)
 .include "../../x11/libXrender/buildlink3.mk"
 .include "../../x11/pixman/buildlink3.mk"
+pkgbase:= libX11
+.  if !empty(PKG_BUILD_OPTIONS.libX11:Mxcb)
+.    include "../../wip/xcb-util/buildlink3.mk"
+.  endif
 .endif
 
 .include "../../fonts/fontconfig/buildlink3.mk"
