@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	netbsd-uuencode-4.0
+PKGREVISION=	1
 CATEGORIES=	sysutils textproc
 MASTER_SITES=	http://mova.org/~cheusov/pub/netbsd-tools/
 EXTRACT_SUFX=	.tar.bz2
