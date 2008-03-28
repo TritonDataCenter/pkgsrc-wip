@@ -19,7 +19,6 @@ WRKSRC=			${WRKDIR}
 BUILD_DIRS=		${DISTNAME} ${DISTNAME:S/encode/decode/}
 
 INSTALLATION_DIRS=	bin ${PKGMANDIR}/man1 ${PKGMANDIR}/man5
-USE_FEATURES=		getprogname setprogname
 USE_BSD_MAKEFILE=	yes
 
 MAKE_ENV+=		MKCATPAGES=no
