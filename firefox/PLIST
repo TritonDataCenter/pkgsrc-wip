@@ -236,6 +236,7 @@ lib/${MOZILLA}/updater.ini
 @dirrm lib/${MOZILLA}/res/dtd
 @dirrm lib/${MOZILLA}/res
 @dirrm lib/${MOZILLA}/plugins
+@dirrm lib/${MOZILLA}/modules
 @dirrm lib/${MOZILLA}/init.d
 @dirrm lib/${MOZILLA}/icons
 @dirrm lib/${MOZILLA}/greprefs
