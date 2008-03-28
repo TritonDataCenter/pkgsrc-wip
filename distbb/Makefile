@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	distbb-0.1.3
+DISTNAME=	distbb-0.1.4
 CATEGORIES=	pkgtools
 MASTER_SITES=	http://mova.org/~cheusov/pub/distbb/
 
