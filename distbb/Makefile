@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	distbb-0.1.6
+DISTNAME=	distbb-0.1.11
 CATEGORIES=	pkgtools
 MASTER_SITES=	http://mova.org/~cheusov/pub/distbb/
 
@@ -18,6 +18,7 @@ DEPENDS+=	paexec>=0.8.0:../../wip/paexec
 DEPENDS+=	rsync-[0-9]*:../../net/rsync
 DEPENDS+=	nail-[0-9]*:../../mail/nail
 DEPENDS+=	shlock-[0-9]*:../../pkgtools/shlock
+DEPENDS+=	netbsd-uuencode>=4.0nb1:../../wip/netbsd-uuencode
 
 USE_LANGUAGES=		# none
 USE_BSD_MAKEFILE=	yes
