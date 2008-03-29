@@ -13,6 +13,8 @@ USE_LANGUAGES=		c
 USE_LIBTOOL=		yes
 GNU_CONFIGURE=		yes
 
+PKG_DESTDIR_SUPPORT=	user-destdir
+
 CONFIGURE_ARGS+=	--disable-dependency-tracking
 CONFIGURE_ARGS+=	--disable-docs
 
