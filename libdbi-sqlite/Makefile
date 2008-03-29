@@ -10,6 +10,8 @@ MAINTAINER=	cheusov@tut.by
 HOMEPAGE=	http://libdbi-drivers.sourceforge.net/
 COMMENT=	SQLite driver for libdbi, a database abstraction
 
+PKG_DESTDIR_SUPPORT=	user-destdir
+
 USE_LIBTOOL=		yes
 GNU_CONFIGURE=		yes
 
