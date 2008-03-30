@@ -17,6 +17,7 @@ USE_BSD_MAKEFILE=	yes
 
 PKG_INSTALLATION_TYPES=	overwrite pkgviews
 PKG_DESTDIR_SUPPORT=	user-destdir
+INSTALLATION_DIRS+=	share/runawk
 
 WRKSRC=		${.CURDIR}/files
 USE_LANGUAGES=	# empty
