@@ -1,5 +1,7 @@
 # $NetBSD$
 
+NOT_FOR_PLATFORM+=	NetBSD-*-*
+
 .include "../../wip/heirloom-common/Makefile.prog2.common"
 
 PKGNAME=	heirloom-time-${HEIRLOOM_VER}

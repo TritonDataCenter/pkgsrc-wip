@@ -1,6 +1,6 @@
 # $NetBSD$
 
-NOT_FOR_PLATFORM+=	Interix-*-*
+NOT_FOR_PLATFORM+=	Interix-*-* NetBSD-*-*
 
 .include "../../wip/heirloom-common/Makefile.prog2.common"
 
