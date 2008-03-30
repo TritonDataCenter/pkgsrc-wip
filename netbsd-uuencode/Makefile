@@ -6,7 +6,7 @@ PKGREVISION=	1
 CATEGORIES=	sysutils textproc
 MASTER_SITES=	http://mova.org/~cheusov/pub/netbsd-tools/
 EXTRACT_SUFX=	.tar.bz2
-DISTFILES=	${DEFAULT_DISTFILES} ${DISTNAME:S/encode/decode/}${EXTRACT_SUFX}
+DISTFILES=	${DISTNAME}${EXTRACT_SUFX} ${DISTNAME:S/encode/decode/}${EXTRACT_SUFX}
 
 MAINTAINER=	cheusov@tut.by
 HOMEPAGE=	# none
