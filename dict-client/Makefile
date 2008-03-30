@@ -9,6 +9,8 @@ USE_TOOLS+=		gmake yacc lex
 USE_LIBTOOL=		yes
 GNU_CONFIGURE=		yes
 
+INSTALLATION_DIRS+=	bin ${PKGMANDIR}/man1
+
 CONFIGURE_ARGS+=	--with-cflags=${CFLAGS:M*:Q}
 CONFIGURE_ARGS+=	--disable-plugin
 
