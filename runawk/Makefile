@@ -18,7 +18,7 @@ TEST_TARGET=		test
 PKGDOCDIR=		${PREFIX}/share/doc/${PKGBASE}
 
 INSTALLATION_DIRS+=	share/runawk share/doc/runawk
-INSTALLATION_DIRS+=	bin man/man1
+INSTALLATION_DIRS+=	bin ${PKGMANDIR}/man1
 
 DOC_FILES=		README NEWS ChangeLog
 

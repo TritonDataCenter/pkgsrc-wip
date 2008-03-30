@@ -7,7 +7,7 @@ CATEGORIES=	lang
 MASTER_SITES=	ftp://ftp.fu-berlin.de/unix/languages/mawk/
 
 MAINTAINER=	cheusov@tut.by
-COMMENT=	awk clone by Mike Brennan
+COMMENT=	AWK clone by Mike Brennan
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
