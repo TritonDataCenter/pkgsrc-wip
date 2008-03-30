@@ -9,8 +9,10 @@ MAINTAINER=	cheusov@tut.by
 HOMEPAGE=	http://sourceforge.net/projects/pipestatus/
 COMMENT=	UNIX/POSIX shell helper for running pipes safely
 
-NO_CONFIGURE=	yes
-NO_BUILD=	yes
+PKG_DESTDIR_SUPPORT=	user-destdir
+
+NO_CONFIGURE=		yes
+NO_BUILD=		yes
 
 INSTALLATION_DIRS+=	bin share/doc/pipestatus
 DOCS=			README NEWS
