@@ -11,9 +11,11 @@ MAINTAINER=	cheusov@tut.by
 HOMEPAGE=	# none
 COMMENT=	NetBSD version of M4
 
-USE_FEATURES=	nbcompat
+PKG_DESTDIR_SUPPORT=    user-destdir
+USE_FEATURES=		nbcompat
+INSTALLATION_DIRS+=	bin ${PKGMANDIR}/man1
 
-MAKE_ENV+=	MKCATPAGES=no
+MAKE_ENV+=		MKCATPAGES=no
 
 post-patch:
 	sed -e 's|m4|nbm4|g' ${WRKSRC}/m4.1 > ${WRKSRC}/nbm4.1
@@ -24,7 +26,7 @@ do-build:
 	    -f ${MAKE_FILE} ${BUILD_TARGET} LDADD=${LIBS:Q}
 
 do-install:
-	${INSTALL_MAN} ${WRKSRC}/nbm4.1 ${PREFIX}/${PKGMANDIR}/man1
-	${INSTALL_PROGRAM} ${WRKSRC}/m4 ${PREFIX}/bin/nbm4
+	${INSTALL_MAN} ${WRKSRC}/nbm4.1 ${DESTDIR}${PREFIX}/${PKGMANDIR}/man1
+	${INSTALL_PROGRAM} ${WRKSRC}/m4 ${DESTDIR}${PREFIX}/bin/nbm4
 
 .include "../../mk/bsd.pkg.mk"
