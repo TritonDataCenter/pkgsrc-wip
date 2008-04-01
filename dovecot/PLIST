@@ -63,7 +63,6 @@ include/dovecot/src/lib-imap/imap-quote.h
 include/dovecot/src/lib-imap/imap-util.h
 include/dovecot/src/lib-index/mail-cache-private.h
 include/dovecot/src/lib-index/mail-cache.h
-include/dovecot/src/lib-index/mail-hash.h
 include/dovecot/src/lib-index/mail-index-private.h
 include/dovecot/src/lib-index/mail-index-sync-private.h
 include/dovecot/src/lib-index/mail-index-transaction-private.h
