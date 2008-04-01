@@ -21,6 +21,6 @@ MAKE_JOBS_SAFE=		no
 
 .include "../../sysutils/desktop-file-utils/desktopdb.mk"
 .include "../../wip/mono/buildlink3.mk"
-.include "../../wip/monodoc/buildlink3.mk"
+.include "../../lang/monodoc/buildlink3.mk"
 .include "../../x11/gnome-sharp/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
