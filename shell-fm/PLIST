@@ -1,0 +1,4 @@
+@comment $NetBSD$
+bin/shell-fm
+share/examples/shell-fm/shell-fm.rc
+@dirrm share/examples/shell-fm
