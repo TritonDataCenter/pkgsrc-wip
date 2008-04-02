@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=		darcs-2.0.0pre3
+DISTNAME=		darcs-2.0.0rc1
 CATEGORIES=		devel scm
 MASTER_SITES=		http://www.darcs.net/
 
