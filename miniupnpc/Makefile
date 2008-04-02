@@ -1,8 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	miniupnpc-1.0-RC11
-PKGNAME=	miniupnpc-1.0nb11
+DISTNAME=	miniupnpc-1.0
 CATEGORIES=	net
 MASTER_SITES=	http://miniupnp.tuxfamily.org/files/
 
