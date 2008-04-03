@@ -1,9 +1,5 @@
 $NetBSD$
 
-SHA1 (kdelibs-4.0.2.tar.bz2) = ec213d6a7d41083acc322a0f781ffb030a29155a
-RMD160 (kdelibs-4.0.2.tar.bz2) = ed4cdfc9bead4241e43aefe5cffb9568cb44857e
-Size (kdelibs-4.0.2.tar.bz2) = 9066281 bytes
-SHA1 (patch-aa) = 21d84c488efcba05056b8fe0c0ae851bef1be989
-SHA1 (patch-ab) = aec1140bef01199f067b079c30d95fea1814839d
-SHA1 (patch-ac) = 9012bfedaa791fa12a098da4a7d9cc2103167206
-SHA1 (patch-ad) = 2a0dfd3dda071654c89b8dda3db8885e2a55ba2b
+SHA1 (kdepimlibs-4.0.3.tar.bz2) = efcf4867a280ec1a42154327e5f3adfa4dc2c883
+RMD160 (kdepimlibs-4.0.3.tar.bz2) = cf1f6b1af2f669adafa3c2b426acd5a6048c0611
+Size (kdepimlibs-4.0.3.tar.bz2) = 1771774 bytes
