@@ -20,7 +20,7 @@ USE_LIBTOOL=		YES
 PERL5_CONFIGURE_DIRS+=	. PerlQt
 
 # There is more than just in the perl module's packlist
-#PERL5_PACKLIST= auto/Qt/.packlist
+PERL5_PACKLIST=		auto/Qt/.packlist
 
 # Build-time only:
 BUILDLINK_DEPMETHOD.kdelibs=    build
