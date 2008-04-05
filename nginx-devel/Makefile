@@ -5,7 +5,7 @@ PKGREVISION=		1
 CATEGORIES=		www
 MASTER_SITES=		http://sysoev.ru/nginx/
 
-MAINTAINER=		ghen@NetBSD.org
+MAINTAINER=		nkalev@securelabs.org
 HOMEPAGE=		http://nginx.net/
 COMMENT=		Lightweight HTTP server and mail proxy server
 
