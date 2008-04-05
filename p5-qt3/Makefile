@@ -8,8 +8,7 @@ MASTER_SITES=           ${MASTER_SITE_SOURCEFORGE:=perlqt/}
 COMMENT=		Perl-5 bindings for the Qt3 library
 
 CATEGORIES=		x11
-COMMENT=		Perl binding for Qt3
-WRKSRC=			${WRKDIR}/PerlQt-3.009
+MAINTAINER=		rhialto@falu.nl
 HOMEPAGE=		http://perlqt.sourceforge.net/
 
 USE_LANGUAGES+=		c++
@@ -18,6 +17,7 @@ USE_TOOLS+=		gmake
 USE_LIBTOOL=		YES
 
 PERL5_CONFIGURE_DIRS+=	. PerlQt
+WRKSRC=			${WRKDIR}/PerlQt-3.009
 
 # There is more than just in the perl module's packlist
 PERL5_PACKLIST=		auto/Qt/.packlist
@@ -27,5 +27,6 @@ BUILDLINK_DEPMETHOD.kdelibs=    build
 
 .include "../../lang/perl5/module.mk"
 .include "../../x11/qt3-libs/buildlink3.mk"
+.include "../../x11/qt3-tools/buildlink3.mk"
 .include "../../x11/kdelibs3/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
