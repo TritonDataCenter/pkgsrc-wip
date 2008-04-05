@@ -13,11 +13,11 @@ DEPENDS+=	runawk-[0-9]*:../../wip/runawk
 DEPENDS+=	awk-pkgsrc-dewey-[0-9]*:../../wip/awk-pkgsrc-dewey
 DEPENDS+=	pipestatus-[0-9]*:../../wip/pipestatus
 
-CONFLICTS+=	pkg_src_summary
-CONFLICTS+=	pkg_cmp_summary
-CONFLICTS+=	pkg_src_update_summary
-CONFLICTS+=	pkg_update_summary
-CONFLICTS+=	pkg_summary4view
+CONFLICTS+=	pkg_src_summary-[0-9]*
+CONFLICTS+=	pkg_cmp_summary-[0-9]*
+CONFLICTS+=	pkg_src_update_summary-[0-9]*
+CONFLICTS+=	pkg_update_summary-[0-9]*
+CONFLICTS+=	pkg_summary4view-[0-9]*
 
 .include "../../wip/pkg_summary-utils/files/Makefile.version"
 
