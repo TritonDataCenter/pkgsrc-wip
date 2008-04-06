@@ -1,3 +1,0 @@
-@comment $NetBSD$
-bin/pkg_cmp_summary
-man/man1/pkg_cmp_summary.1
