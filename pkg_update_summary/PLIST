@@ -1,4 +1,0 @@
-@comment $NetBSD$
-bin/pkg_refresh_summary
-bin/pkg_update_summary
-man/man1/pkg_update_summary.1
