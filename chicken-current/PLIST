@@ -26,7 +26,6 @@ share/chicken/extras.exports
 share/chicken/library.exports
 share/chicken/lolevel.exports
 share/chicken/posix.exports
-share/chicken/regex-extras.exports
 share/chicken/regex.exports
 share/chicken/scheduler.exports
 share/chicken/srfi-1.exports
