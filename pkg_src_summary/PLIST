@@ -1,6 +1,0 @@
-@comment $NetBSD$
-bin/pkg_src_fetch_var
-bin/pkg_src_micro_summary
-bin/pkg_src_summary
-man/man1/pkg_src_micro_summary.1
-man/man1/pkg_src_summary.1
