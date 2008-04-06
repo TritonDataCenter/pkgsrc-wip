@@ -6,7 +6,7 @@
 
 DISTNAME?=	MesaLib-${MESA_VERSION}
 CATEGORIES=	graphics
-MASTER_SITES=	http://www.mesa3d.org/beta/
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=mesa3d/}
 
 # When changing this version, please run "make distinfo" in the following
 # package directories:
@@ -15,7 +15,7 @@ MASTER_SITES=	http://www.mesa3d.org/beta/
 #	graphics/MesaDemos
 #	graphics/glx-utils
 #
-MESA_VERSION=		7.0.3-rc2
+MESA_VERSION=		7.0.3
 MESA_PKGVERSION=	${MESA_VERSION:S/-rc/rc/}
 
 MAINTAINER=		pkgsrc-users@NetBSD.org
