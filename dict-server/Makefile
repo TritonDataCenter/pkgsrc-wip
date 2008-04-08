@@ -3,7 +3,6 @@
 .include "../../wip/dict-server/Makefile.common"
 
 PKGNAME=	${DISTNAME:S/dictd/dict-server/}
-PKGREVISION=	2
 COMMENT=	Dictionary Service Protocol server
 
 .include "../../mk/bsd.prefs.mk"

@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	dictd-1.10.10
+DISTNAME=	dictd-1.10.11
 
 CATEGORIES=	textproc
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=dict/} \
