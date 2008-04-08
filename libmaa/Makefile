@@ -1,7 +1,7 @@
 # $NetBSD$
 
-DISTNAME=	dictd-1.10.10
-PKGNAME=	libmaa-1.0.0
+DISTNAME=	dictd-1.10.11
+PKGNAME=	libmaa-1.0.1
 CATEGORIES=	devel
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=dict/} \
 		ftp://ftp.dict.org/pub/dict/
