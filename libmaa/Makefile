@@ -10,6 +10,8 @@ MAINTAINER=	cheusov@tut.by
 HOMEPAGE=	http://www.dict.org/
 COMMENT=	Provides a few data structures and helpful functions
 
+PKG_DESTDIR_SUPPORT=	user-destdir
+
 WRKSRC=			${WRKDIR}/${DISTNAME}/libmaa
 BUILD_TARGET=		lib
 
@@ -25,7 +27,7 @@ EXTRA_DOC_FILES=	COPYING.LIB README doc/libmaa.600dpi.ps
 post-install:
 	set -e; \
 	for i in ${EXTRA_DOC_FILES}; do \
-		${INSTALL_DATA} ${WRKSRC}/"$${i}" ${PKGDOCDIR}; \
+		${INSTALL_DATA} ${WRKSRC}/"$${i}" ${DESTDIR}${PKGDOCDIR}; \
 	done
 
 .include "../../mk/bsd.pkg.mk"
