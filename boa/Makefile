@@ -15,6 +15,7 @@ CONFIGURE_ARGS+=	--disable-debug
 EGDIR=		${PREFIX}/share/examples/boa
 GNU_CONFIGURE=	YES
 USE_TOOLS+=	gmake lex
+USE_FEATURES+=	snprintf
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
@@ -22,8 +23,6 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 
 .if !empty(LOWER_OPSYS:Mirix5*)
 CPPFLAGS+=	-Dsocklen_t=int
-# needs snprintf()
-. include "../../pkgtools/libnbcompat/buildlink3.mk"
 .endif
 
 PKG_SUPPORTED_OPTIONS=	inet6
