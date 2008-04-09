@@ -33,6 +33,8 @@ RCD_SCRIPTS=		amd-pkgsrc
 EGDIR=			${PREFIX}/share/examples/${PKGBASE}
 PKGDOCDIR=		${PREFIX}/share/doc/${PKGBASE}
 
+PKG_DESTDIR_SUPPORT=	user-destdir
+
 INSTALLATION_DIRS+=	${EGDIR} ${PKGDOCDIR} etc/amd
 
 EXTRA_DOC_FILES=	COPYING FAQ ChangeLog BUGS AUTHORS \
@@ -42,10 +44,10 @@ EXAMPLE_CONF_FILES=	amd.conf lostaltmail.conf
 
 post-install:
 .for i in ${EXTRA_DOC_FILES}
-	${INSTALL_DATA} ${WRKSRC}/${i} ${PKGDOCDIR}
+	${INSTALL_DATA} ${WRKSRC}/${i} ${DESTDIR}${PKGDOCDIR}
 .endfor
 .for i in ${EXAMPLE_CONF_FILES}
-	${INSTALL_DATA} ${WRKSRC}/scripts/${i}-sample ${EGDIR}/${i}
+	${INSTALL_DATA} ${WRKSRC}/scripts/${i}-sample ${DESTDIR}${EGDIR}/${i}
 .endfor
 
 .include "../../mk/bsd.pkg.mk"
