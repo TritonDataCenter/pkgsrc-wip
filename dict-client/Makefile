@@ -3,6 +3,8 @@
 .include "../../wip/dict-server/Makefile.common"
 
 PKGNAME=	${DISTNAME:S/dictd/dict-client/}
+PKGREVISION=	1
+CATEGORIES=	textproc
 COMMENT=	Dictionary Service Protocol client
 
 USE_TOOLS+=		gmake yacc lex
