@@ -1055,6 +1055,7 @@ share/emacs/${PKGVERSION}/lisp/calc/calc-keypd.el.gz
 share/emacs/${PKGVERSION}/lisp/calc/calc-keypd.elc
 share/emacs/${PKGVERSION}/lisp/calc/calc-lang.el.gz
 share/emacs/${PKGVERSION}/lisp/calc/calc-lang.elc
+share/emacs/${PKGVERSION}/lisp/calc/calc-loaddefs.el
 share/emacs/${PKGVERSION}/lisp/calc/calc-macs.el.gz
 share/emacs/${PKGVERSION}/lisp/calc/calc-macs.elc
 share/emacs/${PKGVERSION}/lisp/calc/calc-map.el.gz
@@ -2370,6 +2371,8 @@ share/emacs/${PKGVERSION}/lisp/net/trampver.el.gz
 share/emacs/${PKGVERSION}/lisp/net/trampver.elc
 share/emacs/${PKGVERSION}/lisp/net/webjump.el.gz
 share/emacs/${PKGVERSION}/lisp/net/webjump.elc
+share/emacs/${PKGVERSION}/lisp/net/zeroconf.el.gz
+share/emacs/${PKGVERSION}/lisp/net/zeroconf.elc
 share/emacs/${PKGVERSION}/lisp/newcomment.el.gz
 share/emacs/${PKGVERSION}/lisp/newcomment.elc
 share/emacs/${PKGVERSION}/lisp/novice.el.gz
