@@ -1,18 +1,15 @@
 # $NetBSD$
 
-DISTNAME=	dictd-1.10.11
-PKGNAME=	libmaa-1.0.1
-CATEGORIES=	devel
-MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=dict/} \
-		ftp://ftp.dict.org/pub/dict/
+.include "../../wip/dict-server/Makefile.common"
 
-MAINTAINER=	cheusov@tut.by
-HOMEPAGE=	http://www.dict.org/
+PKGNAME=	libmaa-1.0.1
+PKGREVISION=	1
+CATEGORIES=	devel
 COMMENT=	Provides a few data structures and helpful functions
 
-PKG_DESTDIR_SUPPORT=	user-destdir
+CONFIGURE_DIRS=		libmaa
+BUILD_DIRS=		libmaa
 
-WRKSRC=			${WRKDIR}/${DISTNAME}/libmaa
 BUILD_TARGET=		lib
 
 USE_LIBTOOL=		yes
@@ -27,7 +24,10 @@ EXTRA_DOC_FILES=	COPYING.LIB README doc/libmaa.600dpi.ps
 post-install:
 	set -e; \
 	for i in ${EXTRA_DOC_FILES}; do \
-		${INSTALL_DATA} ${WRKSRC}/"$${i}" ${DESTDIR}${PKGDOCDIR}; \
+		${INSTALL_DATA} ${WRKSRC}/libmaa/"$${i}" ${DESTDIR}${PKGDOCDIR}; \
 	done
+
+PATCHDIR=	${.CURDIR}/../../wip/dict-server/patches
+DISTINFO_FILE=	${.CURDIR}/../../wip/dict-server/distinfo
 
 .include "../../mk/bsd.pkg.mk"
