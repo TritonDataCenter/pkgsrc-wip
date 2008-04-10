@@ -10,7 +10,7 @@ MAINTAINER=	obache@NetBSD.org
 HOMEPAGE=	http://www.cozmixng.org/~rwiki/?cmd=view;name=GalleryAdministrator
 COMMENT=	CGI and mail interface for [RAA:RubyPhoto] and zphoto
 
-DEPENDS+=	{${RUBY_PKGPREFIX}-imlib2>=0.4.3,${RUBY_PKGPREFIX}-RMagick>=1.8.1}:../../graphics/ruby-imlib2
+DEPENDS+=	{${RUBY_PKGPREFIX}-imlib2>=0.4.3,${RUBY_PKGPREFIX}-RMagick>=1.8.1}:../../wip/ruby-imlib2
 DEPENDS+=	{${RUBY_PKGPREFIX}-uconv-[0-9]*,${RUBY_PKGPREFIX}-iconv-[0-9]*}:../../converters/ruby-uconv
 
 USE_RUBY=	yes
