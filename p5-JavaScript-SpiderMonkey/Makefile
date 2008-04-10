@@ -6,7 +6,7 @@ PKGNAME=	p5-${DISTNAME}
 CATEGORIES=	lang perl5
 MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=JavaScript/}
 
-MAINTAINER=	hitscan@hotmail.com
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://search.cpan.org/dist/JavaScript/SpiderMonkey/
 COMMENT=	Perl interface to the JavaScript Engine
 
