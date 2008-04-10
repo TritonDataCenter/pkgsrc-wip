@@ -93,6 +93,7 @@ share/locale/ru/LC_MESSAGES/clisplow.mo
 @dirrm share/doc/${PKGNAME}
 @dirrm share/${PKGNAME}/vim
 @dirrm share/${PKGNAME}/emacs
+@dirrm share/${PKGNAME}
 @dirrm lib/clisp/linkkit
 @dirrm lib/clisp/full
 @dirrm lib/clisp/data
