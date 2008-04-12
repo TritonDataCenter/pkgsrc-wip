@@ -1,0 +1,4 @@
+@comment $NetBSD$
+bin/OdfConverter
+share/doc/OdfConverter/README.TXT
+@dirrm share/doc/OdfConverter
