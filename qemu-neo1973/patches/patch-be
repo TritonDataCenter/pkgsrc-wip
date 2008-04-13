@@ -2,8 +2,8 @@ $NetBSD$
 
 --- configure.orig	2007-10-14 19:59:17.000000000 +0200
 +++ configure	2007-10-14 20:03:14.000000000 +0200
-@@ -319,6 +319,10 @@
-     AIOLIBS="-lrt"
+@@ -348,6 +350,10 @@
+     AIOLIBS="-lrt -lpthread"
  fi
  
 +if [ "$FORCE_AIO" = "yes" ]; then 

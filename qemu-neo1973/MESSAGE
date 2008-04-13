@@ -3,6 +3,7 @@ $NetBSD$
 fetch u-boot, kernel and filesystem by
 
 cd ${NEO1973_PREFIX}/libexec; openmoko/download.sh
+(or use wip/qemu-neo1973-images)
 
 flash these by
 
