@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		dfu-util-3230
+DISTNAME=		dfu-util-4351
 CATEGORIES=		wip
 MASTER_SITES=		http://wiki.openmoko.org/
 SVN_REPOSITORY=		https://svn.openmoko.org/trunk/src/host/dfu-util/
@@ -10,6 +10,8 @@ NO_CHECKSUM=		yes
 MAINTAINER=		noud4@home.nl
 HOMEPAGE=		http://wiki.openmoko.org/wiki/Dfu-util
 COMMENT=		Host side of the USB DFU protocol
+
+BUILD_DEPENDS+=		subversion-base>=1.4.2:../../devel/subversion-base
 
 SUBDIR=			${PKGNAME}
 WRKSRC= 		${WRKDIR}/${SUBDIR}

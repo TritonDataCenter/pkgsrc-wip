@@ -16,16 +16,3 @@ $NetBSD$
  
  #include "dfu.h"
  #include "usb_dfu.h"
-@@ -660,8 +665,12 @@
- 			transfer_size = page_size;
- 		} else {
- #if __BYTE_ORDER == __BIG_ENDIAN
-+#if __NetBSD__
-+			func_dfu.wTransferSize = bswap16(func_dfu.wTransferSize);
-+#else
- 			func_dfu.wTransferSize = bswap_16(func_dfu.wTransferSize);
- #endif
-+#endif
- 			transfer_size = func_dfu.wTransferSize;
- 		}
- 	}

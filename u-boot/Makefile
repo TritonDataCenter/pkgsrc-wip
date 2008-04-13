@@ -1,10 +1,10 @@
 # $NetBSD$
 #
 
-DISTNAME=	u-boot-1.2.0
-PKGNAME=	u-boot-mkimage-1.2.0
+DISTNAME=	u-boot-1.3.2
+PKGNAME=	u-boot-mkimage-1.3.2
 CATEGORIES=	wip
-MASTER_SITES=	ftp://ftp.denx.de/pub/u-boot/ 
+MASTER_SITES=	ftp://ftp.denx.de/pub/u-boot/
 EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	noud4@home.nl
