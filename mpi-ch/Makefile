@@ -15,4 +15,5 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 GNU_CONFIGURE=		yes
 USE_LANGUAGES=		c c++ fortran
 
+.include "../../lang/python/application.mk"
 .include "../../mk/bsd.pkg.mk"
