@@ -7,15 +7,14 @@
 # from being ABI compatible across releases until this is fixed.
 # [tvierling 20070210]
 
-DISTNAME=	libevent-1.4.2-rc
-PKGNAME=	${DISTNAME:S/-rc//}
-PKGREVISION=	1
+DISTNAME=	libevent-1.4.3-stable
+PKGNAME=	${DISTNAME:S/-stable//}
 CATEGORIES=	devel
 MASTER_SITES=	http://monkey.org/~provos/
 
 MAINTAINER=	athaba@inode.at
 HOMEPAGE=	http://monkey.org/~provos/libevent/
-COMMENT=	Asynchronous event notification library (rc)
+COMMENT=	Asynchronous event notification library (stable)
 
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes

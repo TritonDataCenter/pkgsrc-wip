@@ -1,6 +1,6 @@
 $NetBSD$
 
---- select.c.orig	2007-12-18 18:18:40.000000000 +0100
+--- select.c.orig	2008-03-29 02:46:15.000000000 +0100
 +++ select.c
 @@ -49,6 +49,9 @@
  #ifdef CHECK_INVARIANTS
