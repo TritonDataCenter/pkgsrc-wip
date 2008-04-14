@@ -11,18 +11,20 @@ COMMENT=	DICTD data for FreeDict English-French dictionary
 
 DICTSRCNAME=	${DISTNAME}
 
-USE_TOOLS+=	gzip
+USE_TOOLS+=		gzip
 
-DEPENDS+=	dict-server>=1.9.14:../../wip/dict-server
-BUILD_DEPENDS+=	dict-server>=1.10.2:../../wip/dict-server
+PKG_DESTDIR_SUPPORT=	user-destdir
+
+DEPENDS+=		dict-server>=1.9.14:../../wip/dict-server
+BUILD_DEPENDS+=		dict-server>=1.10.2:../../wip/dict-server
 
 DICTD_DB_DIR=		${PREFIX}/share/dictd
-INSTALLATION_DIRS=	${DICTD_DB_DIR}
+INSTALLATION_DIRS+=	${DICTD_DB_DIR}
 
-WRKSRC=		${WRKDIR}/bin
+WRKSRC=			${WRKDIR}/bin
 
-DICTNAME=	freedict_${DICTSRCNAME}
-FILES=		${DICTNAME}.index ${DICTNAME}.dict.dz
+DICTNAME=		freedict_${DICTSRCNAME}
+FILES=			${DICTNAME}.index ${DICTNAME}.dict.dz
 
 do-build:
 	cd ${WRKSRC} && \
@@ -33,6 +35,6 @@ do-build:
 	${LOCALBASE}/bin/dictzip ${DICTNAME}.dict
 
 do-install:
-	cd ${WRKSRC} && ${INSTALL_DATA} ${FILES} ${DICTD_DB_DIR}
+	cd ${WRKSRC} && ${INSTALL_DATA} ${FILES} ${DESTDIR}${DICTD_DB_DIR}
 
 .include "../../mk/bsd.pkg.mk"
