@@ -1,0 +1,11 @@
+@comment $NetBSD$
+bin/flyback
+share/flyback/GPL.txt
+share/flyback/backup_backend.py
+share/flyback/config_backend.py
+share/flyback/desktop.py
+share/flyback/flyback.py
+share/flyback/help_data.py
+share/flyback/opengl_viewer.py
+share/flyback/viewer.glade
+@dirrm share/flyback
