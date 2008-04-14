@@ -29,10 +29,10 @@ FILES=			${DICTNAME}.index ${DICTNAME}.dict.dz
 do-build:
 	cd ${WRKSRC} && \
 	gzip -dc ${DICTSRCNAME}.dict.dz > ${DICTSRCNAME}.dict && \
-	${LOCALBASE}/bin/dictunformat ${DICTSRCNAME}.index \
+	${PREFIX}/bin/dictunformat ${DICTSRCNAME}.index \
 		< ${DICTSRCNAME}.dict > dict.c5 && \
-	${LOCALBASE}/bin/dictfmt -t --utf8 ${DICTNAME} < dict.c5 && \
-	${LOCALBASE}/bin/dictzip ${DICTNAME}.dict
+	${PREFIX}/bin/dictfmt -t --utf8 ${DICTNAME} < dict.c5 && \
+	${PREFIX}/bin/dictzip ${DICTNAME}.dict
 
 do-install:
 	cd ${WRKSRC} && ${INSTALL_DATA} ${FILES} ${DESTDIR}${DICTD_DB_DIR}

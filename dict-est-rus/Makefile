@@ -22,7 +22,7 @@ do-configure:
 
 do-build:
 	cd ${WRKSRC} && sh build_estonian_et_ru && \
-	${LOCALBASE}/bin/dictzip *.dict
+	${PREFIX}/bin/dictzip *.dict
 
 do-install:
 	${INSTALL_DATA} ${WRKSRC}/*.dict.dz ${WRKSRC}/*.index \
