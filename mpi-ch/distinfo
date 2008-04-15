@@ -5,3 +5,4 @@ RMD160 (mpich2-1.0.7.tar.gz) = d818cd2b3daf173a3e754d9805fdf20d74335122
 Size (mpich2-1.0.7.tar.gz) = 16565875 bytes
 SHA1 (patch-aa) = dc0756c27c01715669c066007ff964733213f14c
 SHA1 (patch-ab) = 904c244fb3273dd1c38e0083c443f9a9c9d7e27e
+SHA1 (patch-ac) = 813ab9b66055ce009d7ff254a6a81a8422ccffcf
