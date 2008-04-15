@@ -1,7 +1,7 @@
 # $NetBSD$
 
-DISTNAME=	dkim-milter-2.5.2
-PKGREVISION=	1
+DISTNAME=	dkim-milter-2.5.3
+#PKGREVISION=	1
 CATEGORIES=	mail
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=dkim-milter/}
 
