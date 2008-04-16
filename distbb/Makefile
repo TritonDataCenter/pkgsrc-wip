@@ -21,7 +21,7 @@ USE_BSD_MAKEFILE=	yes
 PKG_DESTDIR_SUPPORT=	user-destdir
 
 EGDIR=			${PREFIX}/share/examples/distbb
-DOCDIR=			${PREFIX}/share/distbb
+DOCDIR=			${PREFIX}/share/doc/distbb
 
 DOCFILES=		README NEWS #TODO
 
