@@ -1,6 +1,6 @@
 # $NetBSD$
 
-.include "Makefile.common"
+#.include "Makefile.common"
 
 COMMENT=	CRT screen handling and optimization package
 
