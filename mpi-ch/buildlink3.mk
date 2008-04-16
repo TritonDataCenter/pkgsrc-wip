@@ -18,6 +18,4 @@ BUILDLINK_PKGSRCDIR.mpich?=	../../wip/mpi-ch
 BUILDLINK_DEPMETHOD.mpich?=	build
 .endif	# MPICH_BUILDLINK3_MK
 
-.include "../../x11/libX11/buildlink3.mk"
-
 BUILDLINK_DEPTH:=	${BUILDLINK_DEPTH:S/+$//}
