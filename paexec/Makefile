@@ -19,10 +19,7 @@ PKGDOCDIR=		${PREFIX}/share/doc/${PKGBASE}
 PKGEGDIR=		${PREFIX}/share/examples/${PKGBASE}
 EGLIST=			cc_wrapper all_substr toupper
 
-INSTALLATION_DIRS+=	${PKGDOCDIR} ${PKGEGDIR}
-.for d in ${EGLIST}
-INSTALLATION_DIRS+=	${PKGEGDIR}/${d}
-.endfor
+AUTO_MKDIRS=		yes
 
 DOC_FILES=		README NEWS ChangeLog
 
