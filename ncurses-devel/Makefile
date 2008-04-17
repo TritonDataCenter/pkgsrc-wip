@@ -6,7 +6,7 @@ COMMENT=	CRT screen handling and optimization package
 
 INSTALLATION_DIRS+=	share/examples
 
-.if ${OPSYS} == "SunOS"
+.if defined(OPSYS) && ${OPSYS} == "SunOS"
 # misc/screen  installs screen, screen-bce and screen-s
 # so we need to remove these  here to avoid a conflict.
 # this means we also remove the entries which have a
