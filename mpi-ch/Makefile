@@ -8,7 +8,9 @@ MAINTAINER=	asau@inbox.ru
 HOMEPAGE=	http://www.mcs.anl.gov/research/projects/mpich2/
 COMMENT=	Open source MPI and MPI-2 implementation from Univ. of Chicago
 
-CONFLICTS=	musicpd-[0-9]* mpich-[0-9]*
+CONFLICTS+=	musicpd-[0-9]*	# installs bin/mpd
+CONFLICTS+=	mpich-[0-9]*	# installs bin/mpicc & other wrappers
+CONFLICTS+=	openmpi-[0-9]*	# installs bin/mpicc & other wrappers
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
