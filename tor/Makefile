@@ -61,6 +61,7 @@ post-install:
 		${PREFIX}/share/examples/tor/torrc.sample
 	${INSTALL_DATA} ${WRKSRC}/contrib/tor-tsocks.conf		\
 		${PREFIX}/share/examples/tor/tor-tsocks.conf
+	-${RMDIR} ${PREFIX}/etc/tor/tor
 
 BUILDLINK_API_DEPENDS.libevent+= libevent>=1.2
 # XXX the pkgsrc libevent builtin.mk does not detect the version of a builtin
