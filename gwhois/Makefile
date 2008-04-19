@@ -1,12 +1,11 @@
 # $NetBSD$
 
-DISTNAME=			gwhois_20070926
+DISTNAME=			gwhois_20080219.1
 PKGNAME=			${DISTNAME:S/_/-/g}
-PKGREVISION=			1
 CATEGORIES=			net
 MASTER_SITES=			http://gwhois.de/gwhois/
 
-MAINTAINER=			mj@turner.org.za
+MAINTAINER=			mj@mjturner.net
 HOMEPAGE=			http://gwhois.de/gwhois/
 COMMENT=			Flexible whois client and proxy
 
