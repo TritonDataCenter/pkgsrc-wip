@@ -1,11 +1,11 @@
 # $NetBSD$
 
-DISTNAME=	httplib2-0.3.0
+DISTNAME=	httplib2-0.4.0
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	www python
 MASTER_SITES=	http://httplib2.googlecode.com/files/
 
-MAINTAINER=	mj@turner.org.za
+MAINTAINER=	mj@mjturner.net
 HOMEPAGE=	http://code.google.com/p/httplib2/
 COMMENT=	Comprehensive http client library for Python
 
