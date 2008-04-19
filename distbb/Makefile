@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	distbb-0.6.2
+DISTNAME=	distbb-0.7.0
 CATEGORIES=	pkgtools
 MASTER_SITES=	http://mova.org/~cheusov/pub/distbb/
 
@@ -24,6 +24,8 @@ EGDIR=			${PREFIX}/share/examples/distbb
 DOCDIR=			${PREFIX}/share/doc/distbb
 
 DOCFILES=		README NEWS #TODO
+
+DOCFILES=		README NEWS TODO
 
 MAKE_FLAGS+=		EGDIR=${EGDIR}
 

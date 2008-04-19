@@ -12,4 +12,5 @@ libexec/distbb/stage_upload_logs
 libexec/distbb/stage_upload_pkgs
 share/doc/distbb/NEWS
 share/doc/distbb/README
+share/doc/distbb/TODO
 share/examples/distbb/distbb.conf
