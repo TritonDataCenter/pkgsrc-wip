@@ -1,0 +1,7 @@
+@comment $NetBSD$
+bin/iodine
+man/man8/iodine.8
+sbin/iodined
+share/iodine/CHANGELOG
+share/iodine/README
+@dirrm share/iodine
