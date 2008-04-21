@@ -6,7 +6,7 @@ $NetBSD$
          '#include <event-config.h>\n'
          '#ifdef _EVENT_HAVE_STDINT_H\n'
          '#include <stdint.h>\n'
-+	'#elif defined(HAVE_INTTYPES_H)\n'
++	'#elif defined(_EVENT_HAVE_INTTYPES_H)\n'
 +	'#  include <inttypes.h>\n'
 +	'#else\n'
 +	'#  error No inttypes.h or stdint.h to give integer types\n'

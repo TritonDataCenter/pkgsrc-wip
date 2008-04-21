@@ -26,21 +26,4 @@ LIBS.SunOS+=	-lnsl -lresolv
 # XXX helps build, but needs more testing
 #CFLAGS.Interix+=	-Dsockaddr_storage=sockaddr_in -DNI_MAXSERV=32
 
-.include "../../mk/bsd.prefs.mk"
-
-# Solaris and HPUX don't have u_intX_t types in <inttypes.h>.
-.if ${OPSYS} == "SunOS" || ${OPSYS} == "HPUX"
-CFLAGS+=	-Du_int8_t=uint8_t
-CFLAGS+=	-Du_int16_t=uint16_t
-CFLAGS+=	-Du_int32_t=uint32_t
-
-SUBST_CLASSES+=		inttypes
-SUBST_STAGE.inttypes=	post-patch
-SUBST_FILES.inttypes=	event.h
-SUBST_SED.inttypes=	-e "s,<stdint\\.h>,<inttypes.h>,g"
-SUBST_SED.inttypes+=	-e "s,u_int8_t,uint8_t,g"
-SUBST_SED.inttypes+=	-e "s,u_int16_t,uint16_t,g"
-SUBST_SED.inttypes+=	-e "s,u_int32_t,uint32_t,g"
-.endif
-
 .include "../../mk/bsd.pkg.mk"

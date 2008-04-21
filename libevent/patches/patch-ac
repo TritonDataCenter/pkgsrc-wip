@@ -7,7 +7,7 @@ $NetBSD$
  #ifdef _EVENT_HAVE_STDINT_H
  #include <stdint.h>
 +
-+#elif defined(HAVE_INTTYPES_H)
++#elif defined(_EVENT_HAVE_INTTYPES_H)
 +#  include <inttypes.h>
 +#else
 +#  error No inttypes.h or stdint.h to give integer types
