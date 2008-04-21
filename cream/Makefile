@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		cream-0.39beta2
+DISTNAME=		cream-0.41
 CATEGORIES=		editors
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=cream/}
 
