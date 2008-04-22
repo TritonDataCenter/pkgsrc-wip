@@ -1,6 +1,6 @@
 $NetBSD$
 
---- src/mesa/main/glheader.h.orig	2007-09-20 17:11:58.000000000 -0400
+--- src/mesa/main/glheader.h.orig	2008-03-09 12:53:33.000000000 -0400
 +++ src/mesa/main/glheader.h
 @@ -77,6 +77,12 @@
  #  if _MSC_VER == 1200

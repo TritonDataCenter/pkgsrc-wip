@@ -14,6 +14,7 @@ BUILDLINK_ORDER:=	${BUILDLINK_ORDER} ${BUILDLINK_DEPTH}MesaLib
 .if !empty(MESALIB_BUILDLINK3_MK:M+)
 BUILDLINK_API_DEPENDS.MesaLib+=	MesaLib>=3.4.2
 BUILDLINK_ABI_DEPENDS.MesaLib+=	MesaLib>=6.4.1nb1
+BUILDLINK_ABI_DEPENDS.MesaLib+= MesaLib>=7.0.3
 BUILDLINK_PKGSRCDIR.MesaLib?=	../../wip/MesaLib
 
 .include "../../mk/bsd.fast.prefs.mk"
