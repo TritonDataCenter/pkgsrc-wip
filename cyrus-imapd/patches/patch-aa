@@ -1,6 +1,6 @@
 $NetBSD$
 
---- configure.in.orig	2007-10-18 18:14:47.000000000 +0000
+--- configure.in.orig	2008-04-04 12:46:33.000000000 +0000
 +++ configure.in
 @@ -244,11 +244,11 @@ if test "$sievedir" != "no"; then
  	AC_CHECK_LIB(fl,main)

@@ -1,8 +1,8 @@
 $NetBSD$
 
---- sieve/sieved.c.orig	2006-11-30 17:11:25.000000000 +0000
+--- sieve/sieved.c.orig	2008-03-24 20:08:46.000000000 +0000
 +++ sieve/sieved.c
-@@ -45,6 +45,10 @@ OF OR IN CONNECTION WITH THE USE OR PERF
+@@ -63,6 +63,10 @@
  
  #include "map.h"
  
