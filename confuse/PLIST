@@ -1,4 +1,0 @@
-@comment $NetBSD$
-include/confuse.h
-lib/libconfuse.la
-lib/pkgconfig/libconfuse.pc
