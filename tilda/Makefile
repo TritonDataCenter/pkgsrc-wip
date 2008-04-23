@@ -14,7 +14,7 @@ USE_PKGLOCALEDIR=	yes
 USE_TOOLS+=		pkg-config gmake
 GNU_CONFIGURE=		yes
 
+.include "../../devel/confuse/buildlink3.mk"
 .include "../../x11/gtk2/buildlink3.mk"
 .include "../../x11/vte/buildlink3.mk"
-.include "../../wip/confuse/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
