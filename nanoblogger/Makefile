@@ -14,10 +14,18 @@ DEPENDS+=	tidy-[0-9]*:../../www/tidy
 
 USE_LANGUAGES=	# none
 
+SUBST_CLASSES+=                 fix-paths
+SUBST_STAGE.fix-paths=          pre-configure
+SUBST_MESSAGE.fix-paths=        Fixing absolute paths.
+SUBST_FILES.fix-paths+=         nb
+SUBST_SED.fix-paths+=           -e 's,\/bin\/bash,${PREFIX}/bin/bash,'
+SUBST_SED.fix-paths+=            -e 's,NB_BASE_DIR=`dirname $$0`,NB_BASE_DIR=${PREFIX}/share/nanoblogger,'
+
 do-build:
 
 do-install:
 	${INSTALL_SCRIPT} ${WRKSRC}/nb ${PREFIX}/bin
-	cd ${WRKSRC}/ && ${RM} -f *.orig && ${PAX} -rw -pp [a-z]* ${PREFIX}/nanoblogger
+	cd ${WRKSRC}/ && ${PAX} -rw -pp [a-z]* ${PREFIX}/share/nanoblogger
 
+#.include "../../mk/subst.mk"
 .include "../../mk/bsd.pkg.mk"
