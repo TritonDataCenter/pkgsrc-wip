@@ -11,6 +11,8 @@ COMMENT=	C\# implementation of dbus
 GNU_CONFIGURE=	yes
 USE_TOOLS+=	pkg-config gmake
 
+CONFLICTS+=	dbus-sharp-[0-9]*
+
 PKGCONFIG_OVERRIDE+=	ndesk-dbus-1.0.pc.in
 
 .include "../../lang/mono/buildlink3.mk"
