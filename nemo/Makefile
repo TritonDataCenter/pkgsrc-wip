@@ -20,6 +20,6 @@ USE_TOOLS+=	gmake msgfmt pkg-config
 .include "../../lang/mono/buildlink3.mk"
 .include "../../x11/gnome-sharp/buildlink3.mk"
 .include "../../x11/gtk-sharp/buildlink3.mk"
-.include "../../wip/ndesk-dbus/buildlink3.mk"
-.include "../../wip/ndesk-dbus-glib/buildlink3.mk"
+.include "../../sysutils/ndesk-dbus/buildlink3.mk"
+.include "../../sysutils/ndesk-dbus-glib/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
