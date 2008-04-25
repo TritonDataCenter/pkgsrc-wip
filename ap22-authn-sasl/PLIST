@@ -1,0 +1,2 @@
+@comment $NetBSD$
+lib/httpd/mod_authn_sasl.so
