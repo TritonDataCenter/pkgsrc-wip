@@ -1,12 +1,12 @@
 # $NetBSD$
 
-DISTNAME=		mcabber-0.9.6
+DISTNAME=		mcabber-0.9.7
 CATEGORIES=		chat
 MASTER_SITES=		http://www.lilotux.net/~mikael/mcabber/files/
 EXTRACT_SUFX=		.tar.bz2
 
 
-MAINTAINER=		degroote@netbsd.org
+MAINTAINER=		degroote@NetBSD.org
 HOMEPAGE=		http://www.lilotux.net/~mikael/mcabber/
 COMMENT=		Jabber console client
 
