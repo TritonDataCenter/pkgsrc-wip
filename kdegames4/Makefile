@@ -24,6 +24,7 @@ BUILD_MAKE_FLAGS+= VERBOSE=1
 
 .include "../../wip/kde4/kde4.mk"
 
+.include "../../games/ggz-client-libs/buildlink3.mk"
 .include "../../graphics/hicolor-icon-theme/buildlink3.mk"
 .include "../../wip/kdelibs4/buildlink3.mk"
 .include "../../wip/kdebase-runtime4/buildlink3.mk"
