@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	ggz-gtk-client-0.0.14
-CATEGORIES=	wip
+CATEGORIES=	games
 MASTER_SITES=	http://mirrors.ibiblio.org/pub/mirrors/ggzgamingzone/ggz/0.0.14/
 
 MAINTAINER=	mrohrer@users.sourceforge.net
@@ -15,5 +15,5 @@ GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 
 .include "../../x11/gtk2/buildlink3.mk"
-.include "../../wip/ggz-client-libs/buildlink3.mk"
+.include "../../games/ggz-client-libs/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
