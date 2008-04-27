@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	muine-0.5.2
-PKGREVISION=	1
+PKGREVISION=	2
 CATEGORIES=	audio gnome
 MASTER_SITES=	http://muine.gooeylinux.org/
 
