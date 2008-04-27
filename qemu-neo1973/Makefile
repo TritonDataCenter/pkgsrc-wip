@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		qemu-neo1973-4351
+DISTNAME=		qemu-neo1973-4400
 CATEGORIES=		emulators
 MASTER_SITES=		http://wiki.openmoko.org/
 SVN_REPOSITORY=		https://svn.openmoko.org/trunk/src/host/qemu-neo1973
