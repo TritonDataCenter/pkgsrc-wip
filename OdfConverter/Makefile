@@ -22,6 +22,8 @@ BUILD_DIRS+=	source/Spreadsheet/Converter
 BUILD_DIRS+=	source/AdditionalTools/zlib123/contrib/minizip
 BUILD_DIRS+=	source/Shell/OdfConverterTest
 
+MAKE_JOBS_SAFE=	no
+
 INSTALLATION_DIRS=	share/doc/OdfConverter
 
 post-extract:
