@@ -18,6 +18,17 @@ arguments or read from stdin (one package per line).  Format of this
 summary information is the same as used in pkg_summary(5) built from
 binary packages. List of fields (PKGNAME, PKGPATH, DEPENDS etc.) is
 very similar but not fully the same.
+.Pp
+The options are as follows:
+.Bl -tag -width indent
+.It Fl h
+display help message
+.It Fl f Ar fields
+A list of fields (separated by space character) to be generated. By
+default the following fields are generated: PKGNAME, PKGPATH, DEPENDS,
+BUILD_DEPENDS, CONFLICTS, HOMEPAGE, COMMENT, LICENSE, ONLYFOR, NOTFOR,
+MAINTAINER, CATEGORIES, DESCRIPTION (multiline), PLIST(multiline).
+.El
 .Sh ENVIRONMENT
 .Bd -literal
 .Bl -tag -width Cm
