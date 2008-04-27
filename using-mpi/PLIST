@@ -1,0 +1,13 @@
+@comment $NetBSD$
+bin/cpi
+bin/ibcast-test
+bin/matmat
+bin/matmatlog
+bin/matvec
+bin/monte
+bin/nbodypipe
+bin/oned
+bin/pi
+bin/pi3
+bin/pit
+bin/twod
