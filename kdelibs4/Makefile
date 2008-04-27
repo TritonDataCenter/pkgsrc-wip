@@ -4,6 +4,10 @@ DISTNAME=	kdelibs-${_KDE_VERSION}
 CATEGORIES=	x11
 COMMENT=	Support libraries for the KDE integrated X11 desktop
 
+PATCH_SITES=	ftp://ftp.kde.org/pub/kde/security_patches/ \
+		http://mirrors.isc.org/pub/kde/security_patches/
+PATCHFILES=	post-kde-4.0.3-khtml.diff
+
 .include "../../wip/kde4/Makefile.kde4"
 
 # BUILD_MAKE_FLAGS+= VERBOSE=1
