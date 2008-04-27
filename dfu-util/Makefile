@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		dfu-util-4351
+DISTNAME=		dfu-util-4400
 CATEGORIES=		wip
 MASTER_SITES=		http://wiki.openmoko.org/
 SVN_REPOSITORY=		https://svn.openmoko.org/trunk/src/host/dfu-util/
