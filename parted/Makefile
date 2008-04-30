@@ -9,6 +9,8 @@ MAINTAINER=		reed@reedmedia.net
 HOMEPAGE=		http://www.gnu.org/software/parted/parted.html
 COMMENT=		Create, destroy, resize, check, and copy partitions and file systems
 
+ONLY_FOR_PLATFORM=	Linux-*-*
+
 GNU_CONFIGURE=		yes
 INFO_FILES=		# PLIST
 USE_PKGLOCALEDIR=	yes
