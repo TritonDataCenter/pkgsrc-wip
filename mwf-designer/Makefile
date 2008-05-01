@@ -20,8 +20,16 @@ NO_CHECKSUM=	yes
 
 WRKSRC=		${WRKDIR}/${DISTNAME}
 
+SUBST_CLASSES+=			fix-prefix
+SUBST_STAGE.fix-prefix=		pre-install
+SUBST_MESSAGE.fix-prefix=	Fixing prefix directory.
+SUBST_FILES.fix-prefix=		mwf-designer
+SUBST_SED.fix-prefix=		-e "s,%PREFIX%,${PREFIX},g"
+
 do-install:
 	${INSTALL} ${WRKSRC}/build/mwf-designer.exe ${PREFIX}/bin
+	${INSTALL} ${WRKSRC}/build/ICSharpCode.NRefactory.dll ${PREFIX}/lib/mono/2.0
+	${INSTALL} ${WRKSRC}/mwf-designer ${PREFIX}/bin
 
 .include "../../wip/mk/svn-package.mk"
 .include "../../lang/mono/buildlink3.mk"

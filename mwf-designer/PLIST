@@ -1,2 +1,4 @@
 @comment $NetBSD$
+bin/mwf-designer
 bin/mwf-designer.exe
+lib/mono/2.0/ICSharpCode.NRefactory.dll
