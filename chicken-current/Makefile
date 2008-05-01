@@ -1,12 +1,12 @@
 # $NetBSD$
 #
 
-DISTNAME=	chicken-3.1.8
+DISTNAME=	chicken-3.2.0
 CATEGORIES=	lang
-MASTER_SITES=	http://chicken.wiki.br/dev-snapshots/2008/04/21/
+MASTER_SITES=	http://chicken.wiki.br/releases/3.2.0/
 
 MAINTAINER=	asau@inbox.ru #, airhead@users.sourceforge.net
-HOMEPAGE=	http://www.call-with-current-continuation.org/chicken.html
+HOMEPAGE=	http://www.call-with-current-continuation.org/
 COMMENT=	Scheme to C compiler, handling R5RS
 
 PKG_DESTDIR_SUPPORT=	user-destdir
