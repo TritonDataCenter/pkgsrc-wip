@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	uImage-2.6.24+git20080424-r0-om-gta01
+DISTNAME=	uImage-2.6.24+git20080430-r0-om-gta01
 PKGNAME=	qemu-neo1973-images-4351
 CATEGORIES=	wip
 MASTER_SITES=	http://buildhost.openmoko.org/daily/neo1973/deploy/glibc/images/neo1973/ \
@@ -9,7 +9,7 @@ MASTER_SITES=	http://buildhost.openmoko.org/daily/neo1973/deploy/glibc/images/ne
 EXTRACT_SUFX=	.bin
 DISTFILES=	${DISTNAME}${EXTRACT_SUFX} \
 		u-boot-gta01bv4-1.3.1+svnr4297+gitb29661fc1151077776454288051bc9a488351ce8-r3${EXTRACT_SUFX} \
-		Openmoko-openmoko-devel-image-glibc-ipk-P1-Snapshot-20080424-om-gta01.rootfs.jffs2
+		Openmoko-openmoko-devel-image-glibc-ipk-P1-Snapshot-20080430-om-gta01.rootfs.jffs2
 
 MAINTAINER=	noud4@home.nl
 HOMEPAGE=	http://openmoko.org/

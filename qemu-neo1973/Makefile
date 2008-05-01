@@ -1,11 +1,11 @@
 # $NetBSD$
 #
 
-DISTNAME=		qemu-neo1973-4400
+DISTNAME=		qemu-neo1973-4412
 CATEGORIES=		emulators
 MASTER_SITES=		http://wiki.openmoko.org/
 SVN_REPOSITORY=		https://svn.openmoko.org/trunk/src/host/qemu-neo1973
-NO_CHECKSUM=		yes
+#NO_CHECKSUM=		yes
 
 MAINTAINER=		noud4@home.nl
 HOMEPAGE=		http://wiki.openmoko.org/wiki/OpenMoko_under_QEMU
