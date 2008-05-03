@@ -1,10 +1,10 @@
 # $NetBSD$
 
 DISTNAME=	xorg-server-1.4.0.90
-PKGREVISION= 	2
+PKGREVISION= 	3
 PKGNAME=	modular-${DISTNAME}
 CATEGORIES=	x11
-MASTER_SITES=	http://www.NetBSD.org/~bjs/distfiles/
+MASTER_SITES=	ftp://ftp.NetBSD.org/pub/NetBSD/misc/bjs/distfiles/
 EXTRACT_SUFX=	.tar.bz2
 
 SPECIAL_PERMS+=	bin/Xorg ${SETUID_ROOT_PERMS}

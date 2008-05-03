@@ -19,10 +19,13 @@ CONFIGURE_ARGS+=	--disable-dbus
 .endif
 
 .if !empty(PKG_OPTIONS:Mdri)
+.include "mesaconfig.mk"
 DISTFILES=		${DEFAULT_DISTFILES}
 DISTFILES+=		MesaLib-7.0.3.tar.bz2
 SITES.MesaLib-7.0.3.tar.bz2= ${MASTER_SITE_SOURCEFORGE:=mesa3d/}
-#SITES.MesaLib-7.0.3-rc2.tar.gz= http://www.mesa3d.org/beta/
+PATCHFILES=		Mesa-7.0.3-001 Mesa-7.0.3-002
+PATCH_SITES=		ftp://ftp.NetBSD.org/pub/NetBSD/misc/bjs/patchfiles/
+PATCH_DIST_ARGS+=	-d ${WRKDIR}/Mesa-7.0.3 -f -V nil -b .orig_dist -p1 || ${TRUE}
 MESA_SRC=		${WRKDIR}/Mesa-7.0.3
 CONFIGURE_ARGS+=	--enable-glx
 CONFIGURE_ARGS+=	--enable-aiglx
