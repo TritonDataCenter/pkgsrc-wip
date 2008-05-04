@@ -1,4 +1,5 @@
 @comment $NetBSD$
+bin/regular_run
 bin/sendsms
 bin/sms2html
 bin/sms2unicode
