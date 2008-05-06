@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	gretl-1.7.3
+DISTNAME=	gretl-1.7.4
 CATEGORIES=	math
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=gretl/}
 EXTRACT_SUFX=	.tar.bz2
