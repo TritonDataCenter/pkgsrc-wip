@@ -10,6 +10,7 @@ include/openct/error.h
 include/openct/ifd.h
 include/openct/logging.h
 include/openct/openct.h
+include/openct/path.h
 include/openct/protocol.h
 include/openct/server.h
 include/openct/socket.h
