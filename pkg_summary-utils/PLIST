@@ -1,5 +1,6 @@
 @comment $NetBSD$
 bin/pkg_cmp_summary
+bin/pkg_grep_summary
 bin/pkg_list_all_pkgs
 bin/pkg_micro_src_summary
 bin/pkg_refresh_summary
