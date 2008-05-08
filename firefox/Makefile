@@ -13,6 +13,7 @@ CHECK_PORTABILITY_SKIP=	security/nss/tests/libpkix/libpkix.sh
 BUILDLINK_API_DEPENDS.cairo+=	cairo>=1.6.4
 .include "../../databases/sqlite3/buildlink3.mk"
 
+PYTHON_FOR_BUILD_ONLY=	yes
 .include "../../lang/python/application.mk"
 CONFIGURE_ENV+=		PYTHON=${PYTHONBIN:Q}
 
