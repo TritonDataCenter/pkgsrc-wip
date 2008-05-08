@@ -6,8 +6,8 @@ CATEGORIES=		devel
 MASTER_SITES=		http://ftp.imendio.com/pub/imendio/giggle/src/
 
 MAINTAINER=		netbsd@guigui2.net
-HOMEPAGE=		http://ftp.imendio.com/pub/imendio/giggle/src/
-COMMENT=		GTK2 graphical frontend to git source code management
+HOMEPAGE=		http://developer.imendio.com/projects/giggle/
+COMMENT=		GTK2 graphical frontend to git SCM tool
 
 GNU_CONFIGURE=		yes
 USE_LIBTOOL=		yes
