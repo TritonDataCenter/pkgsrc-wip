@@ -1,5 +1,6 @@
 @comment $NetBSD$
+man/man5/samhainrc.5
+man/man8/samhain.8
 sbin/samhain
 share/examples/rc.d/samhain
-etc/samhainrc.sample
-@dirrm var/samhain
+share/examples/samhain/samhainrc
