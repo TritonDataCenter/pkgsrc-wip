@@ -38,6 +38,6 @@ MAKE_ENV+=	MAKEOBJDIR=${WRKDIR}
 MAKE_ENV+=	MKCATPAGES=no
 MAKE_ENV+=	AWKMODDIR=${PREFIX}/share/runawk
 
-INSTALLATION_DIRS+=	bin ${MAN1DIR} share/doc/pkg_summary-utils
+INSTALLATION_DIRS+=	bin ${MAN1DIR} share/doc/pkg_summary-utils share/runawk
 
 .include "../../mk/bsd.pkg.mk"
