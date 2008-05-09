@@ -1,5 +1,6 @@
 # $NetBSD$
 
+BUILDLINK_DEPTH:=	${BUILDLINK_DEPTH}+
 RASQAL_BUILDLINK3_MK:=	${RASQAL_BUILDLINK3_MK}+
 
 .if ${BUILDLINK_DEPTH} == "+"
@@ -19,6 +20,5 @@ BUILDLINK_PKGSRCDIR.rasqal?=	../../wip/rasqal
 .include "../../textproc/raptor/buildlink3.mk"
 .include "../../devel/pcre/buildlink3.mk"
 .include "../../textproc/libxml2/buildlink3.mk"
-.include "../../textproc/libxslt/buildlink3.mk"
 
 BUILDLINK_DEPTH:=	${BUILDLINK_DEPTH:S/+$//}
