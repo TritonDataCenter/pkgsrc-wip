@@ -9,6 +9,7 @@ COMMENT=	Edu{tainment,cation} tools for the KDE integrated X11 desktop
 # BUILD_MAKE_FLAGS+= VERBOSE=1
 
 CMAKE_ARGS+=	-DBUILD_kmplot:BOOL=OFF
+CMAKE_ARGS+=	-DWITH_SBIG:BOOL=OFF
 
 USE_GNU_READLINE=	yes
 BROKEN_READLINE_DETECTION=	yes
