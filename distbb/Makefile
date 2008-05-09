@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	distbb-0.8.0
+DISTNAME=	distbb-0.9.0
 CATEGORIES=	pkgtools
 MASTER_SITES=	http://mova.org/~cheusov/pub/distbb/
 
@@ -22,8 +22,6 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 
 EGDIR=			${PREFIX}/share/examples/distbb
 DOCDIR=			${PREFIX}/share/doc/distbb
-
-DOCFILES=		README NEWS #TODO
 
 DOCFILES=		README NEWS TODO
 
