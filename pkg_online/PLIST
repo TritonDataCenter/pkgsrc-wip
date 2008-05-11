@@ -9,4 +9,6 @@ bin/pkg_summary2field-index
 bin/pkg_summary2info
 bin/pkg_summary2onelineinfo
 bin/pkg_summary2shortinfo
+share/doc/pkg_online/NEWS
 share/doc/pkg_online/README
+share/doc/pkg_online/TODO
