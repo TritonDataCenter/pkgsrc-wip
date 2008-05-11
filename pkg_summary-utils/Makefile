@@ -1,7 +1,7 @@
 # $NetBSD$
 
 DISTNAME=	pkg_summary-utils-${VERSION}
-PKGREVISION=	2
+PKGREVISION=	3
 CATEGORIES=	pkgtools
 MASTER_SITES=	# empty
 DISTFILES=	# empty
