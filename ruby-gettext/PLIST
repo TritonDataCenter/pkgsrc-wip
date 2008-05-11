@@ -67,6 +67,8 @@ share/locale/pt_BR/LC_MESSAGES/rails.mo
 share/locale/pt_BR/LC_MESSAGES/rgettext.mo
 share/locale/ru/LC_MESSAGES/rails.mo
 share/locale/ru/LC_MESSAGES/rgettext.mo
+share/locale/sr/LC_MESSAGES/rails.mo
+share/locale/sr/LC_MESSAGES/rgettext.mo
 share/locale/sv/LC_MESSAGES/rgettext.mo
 share/locale/ua/LC_MESSAGES/rails.mo
 share/locale/ua/LC_MESSAGES/rgettext.mo
