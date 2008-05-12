@@ -27,6 +27,6 @@ NO_BUILD=	yes
 
 MAKE_ENV+=	AWKMODDIR=${PREFIX}/share/runawk
 
-INSTALLATION_DIRS+=	share/runawk
+INSTALLATION_DIRS+=	share/runawk share/doc/awk-pkgsrc-dewey
 
 .include "../../mk/bsd.pkg.mk"
