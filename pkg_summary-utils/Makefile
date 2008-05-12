@@ -1,6 +1,7 @@
 # $NetBSD$
 
 DISTNAME=	pkg_summary-utils-${VERSION}
+PKGREVISION=	1
 CATEGORIES=	pkgtools
 MASTER_SITES=	# empty
 DISTFILES=	# empty
@@ -11,7 +12,7 @@ COMMENT=	Utilities for manipulating pkg_summary(5) files
 
 DEPENDS+=	runawk-[0-9]*:../../wip/runawk
 DEPENDS+=	paexec>=0.8.0:../../wip/paexec
-DEPENDS+=	awk-pkgsrc-dewey>=0.5.3:../../wip/awk-pkgsrc-dewey
+DEPENDS+=	awk-pkgsrc-dewey>=0.5.4:../../wip/awk-pkgsrc-dewey
 DEPENDS+=	pipestatus-[0-9]*:../../wip/pipestatus
 
 CONFLICTS+=	pkg_src_summary-[0-9]*
