@@ -13,7 +13,7 @@ PKG_OPTIONS_GROUP.storage+=	storage-sqlite storage-db
 PKG_OPTIONS_GROUP.sasl=		sasl-cyrus sasl-gnu sasl-scod
 # debugging
 PKG_SUPPORTED_OPTIONS+=		debug
-PKG_SUGGESTED_OPTIONS=		auth-sqlite storage-sqlite sasl-cyrus
+PKG_SUGGESTED_OPTIONS=		auth-sqlite storage-sqlite sasl-gnu
 
 .include "../../mk/bsd.options.mk"
 
@@ -22,7 +22,7 @@ CONFIGURE_ARGS+=	--with-sasl=cyrus
 .include "../../security/cyrus-sasl/buildlink3.mk"
 .endif
 
-.if !empty(PKG_OPTIONS:Msasl-gnu)
+.if !empty(PKG_OPTIONS:Msasl-gnu) 
 CONFIGURE_ARGS+=	--with-sasl=gsasl
 .include "../../security/gsasl/buildlink3.mk"
 .endif
