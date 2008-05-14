@@ -2,7 +2,7 @@
 
 PKG_OPTIONS_VAR=		PKG_OPTIONS.vlc
 PKG_SUPPORTED_OPTIONS=		qt debug faad arts dbus # skins <- seems broken
-PKG_SUGGESTED_OPTIONS=		qt debug dbus # skins
+PKG_SUGGESTED_OPTIONS=		qt
 
 .include "../../mk/bsd.options.mk"
 
