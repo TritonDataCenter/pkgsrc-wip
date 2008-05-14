@@ -42,7 +42,7 @@ LIBS+=			${LDFLAGS}
 post-install:
 .for tool in fnt2bdf
 	${LIBTOOL} --mode=install ${INSTALL_PROGRAM} ${WRKSRC}/tools/${tool} \
-		${PREFIX}/bin
+		${DESTDIR}${PREFIX}/bin
 .endfor
 
 .include "../../audio/esound/buildlink3.mk"
