@@ -70,5 +70,6 @@ share/gtk-doc/html/redland/right.png
 share/gtk-doc/html/redland/style.css
 share/gtk-doc/html/redland/tutorial.html
 share/gtk-doc/html/redland/up.png
+share/redland/Redland.i
 @dirrm share/redland
 @dirrm share/gtk-doc/html/redland
