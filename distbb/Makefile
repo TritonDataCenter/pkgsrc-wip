@@ -27,7 +27,7 @@ DOCFILES=		README NEWS TODO
 
 MAKE_FLAGS+=		EGDIR=${EGDIR}
 
-INSTALLATION_DIRS+=	bin ${EGDIR} ${DOCDIR} libexec/distbb
+INSTALLATION_DIRS+=	bin ${EGDIR} ${DOCDIR} libexec/distbb share/distbb
 
 post-install:
 .for f in ${DOCFILES}
