@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	dir2ogg-0.11.4
+DISTNAME=	dir2ogg-0.11.5
 CATEGORIES=	audio
 MASTER_SITES=	http://jak-linux.org/projects/dir2ogg/0.11/
 
