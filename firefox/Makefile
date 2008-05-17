@@ -20,7 +20,7 @@ CONFIGURE_ENV+=		PYTHON=${PYTHONBIN:Q}
 # Pull in standard firefox build framework, and override some things below
 .include "../../www/firefox/Makefile-firefox.common"
 
-MOZ_VER=		3.0b5
+MOZ_VER=		3.0rc1
 
 DESCR_SRC=		${.CURDIR}/../../www/firefox/DESCR
 
