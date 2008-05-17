@@ -146,8 +146,8 @@ $NetBSD$
        K_ASN1_i2d_fp = (int (*)(int (*)(), FILE*, unsigned char *)) d->cryptoLib->resolveFunction("ASN1_i2d_fp");
        K_i2d_ASN1_HEADER = (int (*)(ASN1_HEADER *, unsigned char **)) d->cryptoLib->resolveFunction("i2d_ASN1_HEADER");
 +#else
-+      K_ASN1_item_i2d_fp = (int (*)(ASN1_ITEM *, FILE*, unsigned char *)) _cryptoLib->symbol("ASN1_item_i2d_fp");
-+      K_NETSCAPE_X509_it = (ASN1_ITEM *) _cryptoLib->symbol("NETSCAPE_X509_it");
++      K_ASN1_item_i2d_fp = (int (*)(ASN1_ITEM *, FILE*, unsigned char *)) d->cryptoLib->resolveFunction("ASN1_item_i2d_fp");
++      K_NETSCAPE_X509_it = (ASN1_ITEM *) d->cryptoLib->resolveFunction("NETSCAPE_X509_it");
 +#endif
        K_X509_print_fp = (int (*)(FILE*, X509*)) d->cryptoLib->resolveFunction("X509_print_fp");
        K_i2d_PKCS12 = (int (*)(PKCS12*, unsigned char**)) d->cryptoLib->resolveFunction("i2d_PKCS12");
