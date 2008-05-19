@@ -2,10 +2,9 @@
 #
 
 PKGNAME=	gmp-${DISTNAME}
-DISTNAME=	ecm-6.1.3
-PKGREVISION=	1
+DISTNAME=	ecm-6.2
 CATEGORIES=	math
-MASTER_SITES=	http://gforge.inria.fr/frs/download.php/2752/
+MASTER_SITES=	http://gforge.inria.fr/frs/download.php/4663/
 
 MAINTAINER=	athaba@inode.at
 HOMEPAGE=	http://ecm.gforge.inria.fr/
