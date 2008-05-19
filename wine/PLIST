@@ -9,6 +9,7 @@ bin/regsvr32
 bin/uninstaller
 bin/widl
 bin/wine
+bin/wine-pthread
 bin/wineboot
 bin/winebrowser
 bin/winebuild
