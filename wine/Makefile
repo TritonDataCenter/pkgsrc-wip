@@ -7,7 +7,7 @@ MASTER_SITES=	http://ibiblio.org/pub/linux/system/emulators/wine/ \
 		${MASTER_SITE_SOURCEFORGE:=wine/}
 EXTRACT_SUFX=	.tar.bz2
 
-MAINTAINER=	adam@NetBSD.org
+MAINTAINER=	asau@inbox.ru
 HOMEPAGE=	http://www.winehq.com/
 COMMENT=	Free implementation of Windows on Unix (still alpha)
 
