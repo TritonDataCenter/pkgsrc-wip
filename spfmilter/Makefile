@@ -15,6 +15,6 @@ RCD_SCRIPTS=	spfmilter
 BUILDLINK_API_DEPENDS.libmilter?=	libmilter>=8.13.0
 
 .include "../../mail/libmilter/buildlink3.mk"
-.include "../../wip/libspf2/buildlink3.mk"
+.include "../../mail/libspf2/buildlink3.mk"
 .include "../../mk/pthread.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
