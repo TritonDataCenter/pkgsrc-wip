@@ -11,7 +11,7 @@ COMMENT=	RCS parsing library for Python
 
 LICENSE=	corecode-license
 
-PYTHON_VERSIONS_ACCEPTED=24
+PYTHON_VERSIONS_ACCEPTED=	25 24
 PYDISTUTILSPKG=	# yes
 
 .include "../../lang/python/extension.mk"

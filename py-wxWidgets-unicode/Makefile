@@ -20,8 +20,6 @@ CONFLICTS+=	${PYPKGPREFIX}-wxWindows-[0-9]*
 # non unicode version
 CONFLICTS+=	${PYPKGPREFIX}-wxWidgets-[0-9]*
 
-PYTHON_VERSIONS_ACCEPTED=	25 24 23
-
 WXARG=	WXPORT=gtk2 \
 	WX_CONFIG=${BUILDLINK_PREFIX.wxGTK-unicode}/bin/wx-config \
 	CONTRIBS_INC="../contrib/include" \

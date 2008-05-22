@@ -12,7 +12,6 @@ HOMEPAGE=	http://developer.kde.org/~wheeler/taglib.html
 COMMENT=	Python bindings for the taglib audio file tagging library
 
 USE_TOOLS=	gmake
-PYTHON_VERSIONS_ACCEPTED=       24 23 22
 PY_PATCHPLIST=	yes
 
 GNU_CONFIGURE=	yes

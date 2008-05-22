@@ -20,7 +20,6 @@ DEPENDS+=	${PYPKGPREFIX}-psyco>=0:../../lang/py-psyco
 .endif
 DEPENDS+=	${PYPKGPREFIX}-GeoIP>=0:../../net/py-GeoIP
 
-PYTHON_VERSIONS_ACCEPTED=	25 24 23 22
 PY_PATCHPLIST=	yes
 PYDISTUTILSPKG= yes
 REPLACE_PYTHON=	pynicotine/gtkgui/glade2py.py

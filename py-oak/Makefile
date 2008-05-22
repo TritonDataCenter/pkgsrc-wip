@@ -16,7 +16,7 @@ PYDISTUTILSPKG=		yes
 #
 # TODO: I am not sure about non- versions
 #
-PYTHON_VERSIONS_ACCEPTED=	23 22
+PYTHON_VERSIONS_ACCEPTED=	23
 
 post-patch:
 	${CP} ${WRKSRC}/setup.cfg ${WRKSRC}/setup.cfg.pkgsrc

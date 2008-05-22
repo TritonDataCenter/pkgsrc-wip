@@ -10,7 +10,7 @@ HOMEPAGE=			http://txt2tags.sourceforge.net/
 COMMENT=			Text formatting and conversion tool
 
 PYTHON_PATCH_SCRIPTS=		txt2tags
-PYTHON_VERSIONS_ACCEPTED=	24
+PYTHON_VERSIONS_ACCEPTED=	25 24
 
 NO_BUILD=			yes
 

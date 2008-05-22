@@ -14,7 +14,6 @@ COMMENT=		Python library to extract data from Microsoft Excel spread sheet files
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
-PYTHON_VERSIONS_ACCEPTED=	24 23 22 21
 PYDISTUTILSPKG=		yes
 
 post-install:

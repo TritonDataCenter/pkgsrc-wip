@@ -15,7 +15,5 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 
 USE_LANGUAGES=	# none
 
-PYTHON_VERSIONS_ACCEPTED=	24 23
-
 .include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"

@@ -14,8 +14,6 @@ COMMENT=	Python parser/generator for iCalendar files, as per RFC2445
 PYDISTUTILSPKG=	yes
 PY_PATCHPLIST=	yes
 
-PYTHON_VERSIONS_ACCEPTED=	24 23
-
 # Install documentation manually
 post-install:
 	${INSTALL_DATA_DIR} ${PREFIX}/share/doc/${PKGBASE}

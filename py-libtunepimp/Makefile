@@ -12,7 +12,6 @@ COMMENT=	Python bindings for TunePimp library.
 
 WRKSRC=		${WRKDIR}/${DISTNAME}/python
 
-PYTHON_VERSIONS_ACCEPTED=	24 23
 PY_PATCHPLIST=	yes
 PYDISTUTILSPKG= yes
 

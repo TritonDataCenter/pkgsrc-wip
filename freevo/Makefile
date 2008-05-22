@@ -19,8 +19,6 @@ DEPENDS+=		${PYPKGPREFIX}-elementtree>=0:../../textproc/py-elementtree
 PYDISTUTILSPKG=		yes
 USE_PKGLOCALEDIR=	yes
 
-PYTHON_VERSIONS_ACCEPTED=	24 23
-
 CHECK_PORTABILITY_SKIP+=	boot/freevo
 CHECK_PORTABILITY_SKIP+=	contrib/suse/freevo.daily
 CHECK_PORTABILITY_SKIP+=	contrib/suse/freevo.init

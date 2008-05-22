@@ -20,8 +20,6 @@ SUBST_SED.setup+=	-e 's|/usr/bin|${LOCALBASE}/bin|g'
 SUBST_SED.setup+=	-e 's|/usr/X11R6|${X11BASE}|g'
 SUBST_SED.setup+=	-e 's|/usr/lib|${LOCALBASE}/lib|g'
 
-PYTHON_VERSIONS_ACCEPTED=	24 23 22
-
 .include "../../lang/python/application.mk"
 .include "../../lang/python/extension.mk"
 .include "../../graphics/imlib2/buildlink3.mk"

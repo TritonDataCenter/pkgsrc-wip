@@ -10,7 +10,6 @@ MAINTAINER=	milos.negovanovic@googlemail.com
 COMMENT=	Python interface to kqueue, suitable for Twisted
 
 PYDISTUTILSPKG= # defined
-PYTHON_VERSIONS_ACCEPTED= 24 23 22
 
 # need to get definition of PKG_HAVE_KQUEUE
 .include "../../mk/bsd.prefs.mk"

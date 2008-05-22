@@ -12,7 +12,6 @@ HOMEPAGE=	http://pytz.sourceforge.net/
 COMMENT=	Python interface to Olson tz database
 
 PYDISTUTILSPKG=			yes
-PYTHON_VERSIONS_ACCEPTED=	24 23
 
 .include "../../lang/python/extension.mk"
 .include "../../mk/bsd.pkg.mk"

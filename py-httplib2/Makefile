@@ -12,8 +12,6 @@ COMMENT=	Comprehensive http client library for Python
 PYDISTUTILSPKG=	yes
 PY_PATCHPLIST=	yes
 
-PYTHON_VERSIONS_ACCEPTED=	24 23
-
 # Install README manually
 post-install:
 	${INSTALL_DATA_DIR} ${PREFIX}/share/doc/${PKGBASE}

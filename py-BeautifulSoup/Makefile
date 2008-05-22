@@ -13,7 +13,6 @@ HOMEPAGE=		http://www.crummy.com/software/BeautifulSoup/
 COMMENT=		HTML and XML parser for Python
 
 PYDISTUTILSPKG=			yes
-PYTHON_VERSIONS_ACCEPTED=       25 24 23
 
 .include "../../lang/python/extension.mk"
 .include "../../mk/bsd.pkg.mk"

@@ -86,7 +86,7 @@ CONFIGURE_ARGS+=	--disable-glib
 ###
 .if !empty(PKG_OPTIONS:Mpython)
 .  include "../../lang/python/application.mk"
-PYTHON_VERSIONS_ACCEPTED=	24
+PYTHON_VERSIONS_ACCEPTED=	25 24
 PLIST_SRC+=		${PKGDIR}/PLIST.python
 PLIST_SUBST+=		PYSITELIB=${PYSITELIB}
 .else

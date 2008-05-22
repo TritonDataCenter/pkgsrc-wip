@@ -18,7 +18,7 @@ DEPENDS+=	${PYPKGPREFIX}-divmod-axiom>=0.5.0:../../wip/py-divmod-axiom
 DEPENDS+=	${PYPKGPREFIX}-divmod-vertex>=0.2.0:../../wip/py-divmod-vertex
 
 PYDISTUTILSPKG=			yes
-PYTHON_VERSIONS_ACCEPTED=	24
+PYTHON_VERSIONS_ACCEPTED=	25 24
 
 .include "../../lang/python/extension.mk"
 .include "../../mk/bsd.pkg.mk"

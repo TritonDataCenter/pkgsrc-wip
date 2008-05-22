@@ -15,7 +15,6 @@ DEPENDS+=	${PYPKGPREFIX}-elementtree-[0-9]*:../../textproc/py-elementtree
 
 PYDISTUTILSPKG=	yes
 PY_PATCHPLIST=	yes
-PYTHON_VERSIONS_ACCEPTED=	24 23 22
 
 # Install docs and samples manually
 post-install:

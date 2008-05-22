@@ -25,7 +25,7 @@ CONFIGURE_ARGS+=	--with-qt-dir=${QTDIR:Q} \
 			--with-extra-libs=${LOCALBASE}/lib \
 			--with-extra-includes=${LOCALBASE}/include
 
-PYTHON_VERSIONS_ACCEPTED=	24
+PYTHON_VERSIONS_ACCEPTED=	25 24
 CONFIGURE_ARGS+=	--with-pythondir=${LOCALBASE:Q}
 
 DEPENDS+=	ghostscript-esp>=8.0:../../print/ghostscript-esp

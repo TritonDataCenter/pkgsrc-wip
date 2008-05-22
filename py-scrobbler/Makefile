@@ -10,7 +10,6 @@ MAINTAINER=	jfranz@bsdprojects.net
 HOMEPAGE=	http://exhuma.wicked.lu/projects/python/scrobbler/
 COMMENT=	Python implementation of the Audioscrobbler API
 
-PYTHON_VERSIONS_ACCEPTED=	25 24 23 22
 PY_PATCHPLIST=			yes
 PYDISTUTILSPKG=			yes
 

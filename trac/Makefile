@@ -17,8 +17,6 @@ USE_LANGUAGES=	# none
 
 DEPENDS+=	${PYPKGPREFIX}-genshi>=0.4.1:../../wip/genshi
 
-PYTHON_VERSIONS_ACCEPTED=	24 23
-
 REPLACE_PYTHON=	cgi-bin/trac.cgi cgi-bin/trac.fcgi
 REPLACE_PYTHON+=contrib/*.py contrib/*-hook contrib/workflow/*.py
 

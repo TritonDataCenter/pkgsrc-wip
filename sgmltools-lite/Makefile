@@ -25,7 +25,7 @@ EGDIR=			${LOCALBASE}/share/examples/sgmltools-lite
 CONFIGURE_ARGS+=	--with-etcsgml=${EGDIR}
 CONFIGURE_ARGS+=	--datadir=${LOCALBASE}/share
 
-PYTHON_VERSIONS_ACCEPTED=	23 22 21 20
+PYTHON_VERSIONS_ACCEPTED=	23
 
 # Avoid using -s on /usr/pkg/bin/sgmltools
 _STRIPFLAG_INSTALL=

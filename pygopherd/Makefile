@@ -40,11 +40,6 @@ PYTHON_PATCH_SCRIPTS+=	pygopherd/gopherentryTest.py
 PYTHON_PATCH_SCRIPTS+=	pygopherd/initializationTest.py
 PYTHON_PATCH_SCRIPTS+=	pygopherd/testutil.py
 
-# Added 24 to the list when compared to the pkgsrc version
-# Needs more testing, though
-
-PYTHON_VERSIONS_ACCEPTED=	24 23 22
-
 SUBST_CLASSES+=		man
 SUBST_STAGE.man=	post-patch
 SUBST_FILES.man=	setup.py

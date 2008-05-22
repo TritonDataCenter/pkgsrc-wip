@@ -17,7 +17,5 @@ USE_LANGUAGES=	# none
 
 DEPENDS+=	${PYPKGPREFIX}-pytz-[0-9]*:../../wip/pytz
 
-PYTHON_VERSIONS_ACCEPTED=	24 23
-
 .include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"

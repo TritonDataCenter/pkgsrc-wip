@@ -18,7 +18,6 @@ WRKSRC=		${WRKDIR}/Twisted-${TWISTED_VERSION}/zope.interface-${ZI_VERSION}
 DEPENDS+=	${PYPKGPREFIX}-xml>=0.8.4:../../textproc/py-xml
 
 PYDISTUTILSPKG=		yes
-PYTHON_VERSIONS_ACCEPTED= 24 23 22
 
 CONFLICTS+=	${PYPKGPREFIX}-ZopeInterface-[0-9]*
 

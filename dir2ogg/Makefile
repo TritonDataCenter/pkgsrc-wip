@@ -10,7 +10,7 @@ HOMEPAGE=	http://jak-linux.org/projects/dir2ogg
 COMMENT=	Command-line {wav,mp3,m4a} to ogg converter
 
 USE_LANGUAGES=	# none
-PYTHON_VERSIONS_ACCEPTED=	24
+PYTHON_VERSIONS_ACCEPTED=	25 24
 
 INSTALLATION_DIRS=	bin ${PKGMANDIR}/man1
 
