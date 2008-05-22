@@ -5,7 +5,7 @@ CATEGORIES=	devel
 MASTER_SITES=	http://www.xfce.org/archive/xfce-4.4.1/src/
 EXTRACT_SUFX=	.tar.bz2
 
-MAINTAINER=	martti@NetBSD.org
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.xfce.org/
 COMMENT=	Xfce development tools
 LICENSE=	gnu-gpl-v2
