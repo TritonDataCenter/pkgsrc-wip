@@ -21,13 +21,13 @@ NO_SRC_ON_FTP=		${RESTRICTED}
 DEPENDS+=		vera-ttf>=1.10:../../fonts/vera-ttf
 
 EMUL_PLATFORMS=		linux-i386
-EMUL_MODULES.linux=	fontconfig glx
+EMUL_MODULES.linux=	fontconfig glx gtk2
 
 NOT_FOR_PLATFORM=	NetBSD-[0-2]*-*
 
-GE_VERSION=		4.2.205.5730
+GE_VERSION=		4.3.7204.836
 NO_CONFIGURE=		yes
-WRKSRC=			${WRKDIR}/GoogleEarthLinuxPlus-${GE_VERSION}-installer
+WRKSRC=			${WRKDIR}/GoogleEarthLinuxPlus-installer
 DIST_SUBDIR=		${PKGNAME_NOREV}
 EXTRACT_CMD=		${SH} "$$extract_file" --noexec --keep
 
