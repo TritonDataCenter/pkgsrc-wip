@@ -26,7 +26,6 @@ do-install:
 	@${INSTALL_DATA} ${WRKSRC}/lib/jacorb.jar  ${PREFIX}/lib/java/JacORB.jar
 	@${INSTALL_DATA} ${WRKSRC}/lib/idl.jar  ${PREFIX}/lib/java/IDL.jar
 
-.include "../../lang/sun-jdk13/buildlink3.mk"
 .include "../../mk/java-vm.mk"
 .include "../../mk/bsd.pkg.mk"
 
