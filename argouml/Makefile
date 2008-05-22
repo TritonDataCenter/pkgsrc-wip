@@ -10,7 +10,8 @@ MAINTAINER=	hdp@cs.nmsu.edu
 HOMEPAGE=	http://argouml.tigris.org/
 COMMENT=	UML design tool environment with cognitive support
 
-DEPENDS+=	xerces-j>=1.4.4:../../textproc/xerces-j
+#DEPENDS+=	xerces-j>=1.4.4:../../textproc/xerces-j
+DEPENDS+=	xerces-j>=1.2.0:../../textproc/xerces-j
 DEPENDS+=	jakarta-log4j>=1.2.8:../../wip/jakarta-log4j
 
 PKG_DESTDIR_SUPPORT=	user-destdir
