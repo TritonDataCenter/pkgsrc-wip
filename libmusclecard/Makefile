@@ -15,5 +15,5 @@ USE_TOOLS+=		gmake pkg-config
 CONFIGURE_ARGS+=	--enable-muscledropdir=${PREFIX}/lib/pcsc-lite/drivers
 CONFIGURE_ARGS+=	--sysconfdir=${PKG_SYSCONFDIR:Q}
 
-.include "../../wip/pcsc-lite/buildlink3.mk"
+.include "../../security/pcsc-lite/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

@@ -15,6 +15,6 @@ BUILDLINK_API_DEPENDS.libmusclecard+=	libmusclecard>=1.2.9
 BUILDLINK_PKGSRCDIR.libmusclecard?=	../../wip/libmusclecard
 .endif	# LIBMUSCLECARD_BUILDLINK3_MK
 
-.include "../../wip/pcsc-lite/buildlink3.mk"
+.include "../../security/pcsc-lite/buildlink3.mk"
 
 BUILDLINK_DEPTH:=     ${BUILDLINK_DEPTH:S/+$//}
