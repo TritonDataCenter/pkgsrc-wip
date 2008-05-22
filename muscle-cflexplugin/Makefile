@@ -34,5 +34,4 @@ do-install:
 	${LIBTOOL} --mode=install ${INSTALL_LIB} ${WRKSRC}/src/libcryptoflex.la ${CONTLIBDIR}
 
 .include "../../wip/libmusclecard/buildlink3.mk"
-.include "../../wip/pcsc-lite/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
