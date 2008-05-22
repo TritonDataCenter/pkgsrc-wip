@@ -21,7 +21,7 @@ BUILD_TARGET=		default
 
 BUILDLINK_PASSTHRU_RPATHDIRS+=    ${GRASS_HOME}/lib
 
-.include "../../wip/gdal-lib/buildlink3.mk"
+.include "../../geography/gdal-lib/buildlink3.mk"
 .include "../../wip/grass/buildlink3.mk"
 .include "../../misc/proj/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

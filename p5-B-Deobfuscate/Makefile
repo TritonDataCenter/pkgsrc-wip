@@ -10,7 +10,7 @@ HOMEPAGE=	http://search.cpan.org/dist/B-Deobfuscate/
 COMMENT=	Extension to B::Deparse for use in de-obfuscating source code
 
 DEPENDS+=	p5-YAML>=0:../../textproc/p5-YAML
-DEPENDS+=	p5-B-Keywords>=0.03:../../wip/p5-B-Keywords
+DEPENDS+=	p5-B-Keywords>=0.03:../../devel/p5-B-Keywords
 
 PERL5_PACKLIST=	auto/B/Deobfuscate/.packlist
 

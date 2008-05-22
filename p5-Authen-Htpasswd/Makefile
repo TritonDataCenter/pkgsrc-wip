@@ -11,7 +11,7 @@ COMMENT=	Authen::Htpasswd - interface to read and modify Apache .htpasswd files
 
 DEPENDS+=	p5-IO-LockedFile>=0:../../devel/p5-IO-LockedFile
 DEPENDS+=	p5-Digest-SHA1>=0:../../security/p5-Digest-SHA1
-DEPENDS+=	p5-Crypt-PasswdMD5>=0:../../wip/p5-Crypt-PasswdMD5
+DEPENDS+=	p5-Crypt-PasswdMD5>=0:../../security/p5-Crypt-PasswdMD5
 DEPENDS+=	p5-Class-Accessor>=0:../../devel/p5-Class-Accessor
 
 PERL5_REQD+=	5.6.0

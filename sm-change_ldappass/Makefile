@@ -10,7 +10,7 @@ HOMEPAGE=	http://www.squirrelmail.org/plugin_view.php?id=26
 COMMENT=	Allows users to change their LDAP password from SquirrelMail
 
 DEPENDS+=	sm-compatibility>=1.3:../../wip/sm-compatibility
-DEPENDS+=	php-ldap>=4.1.1:../../databases/php-ldap
+DEPENDS+=	${PHP_PKG_PREFIX}-ldap>=4.1.1:../../databases/php-ldap
 
 CONF_FILES=	${FULL_PLUGIN_DIR}/config.php.sample \
 		${FULL_PLUGIN_DIR}/config.php
