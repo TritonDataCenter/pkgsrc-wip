@@ -7,7 +7,7 @@ DISTFILES=	# empty
 MAINTAINER=	pkgsrc@blackmouse.biz
 COMMENT=		Common package for openoffice lang packages
 
-OO_RELEASE=		2.1.0
+OO_RELEASE=		2.4.0
 
 DEPENDS+=	openoffice2-bin-be-BY-${OO_RELEASE}:../../wip/openoffice2-bin-be-BY
 DEPENDS+=	openoffice2-bin-bg-${OO_RELEASE}:../../wip/openoffice2-bin-bg

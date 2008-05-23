@@ -11,7 +11,7 @@ MAINTAINER=	ma@arconsulting.com.au
 HOMEPAGE=	http://www.sugarforge.org/frs/download.php/235/
 COMMENT=	SugarCRM is a php based CRM system
 
-DEPENDS+=	php-mysql>=4.3.3:../../databases/php-mysql
+DEPENDS+=	${PHP_PKG_PREFIX}-mysql>=4.3.3:../../databases/php-mysql
 
 VERSION=	3.0.1a
 
@@ -27,4 +27,5 @@ do-install:
 	${CP} -R ${WRKSRC}/* ${PREFIX}/share/sugarCRM
 	${CHOWN} -R ${APACHE_USER}:${APACHE_GROUP} ${PREFIX}/share/sugarCRM
 
+.include "../../lang/php/phpversion.mk"
 .include "../../mk/bsd.pkg.mk"

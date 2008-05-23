@@ -16,4 +16,5 @@ DEPENDS+=	${PHP_PKG_PREFIX}-ldap>=4.1.1:../../databases/php-ldap
 CONF_FILES=	${FULL_PLUGIN_DIR}/config.php.sample \
 		${FULL_PLUGIN_DIR}/config.php
 
+.include "../../lang/php/phpversion.mk"
 .include "../../mk/bsd.pkg.mk"
