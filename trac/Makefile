@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	Trac-0.11b2
+DISTNAME=	Trac-0.11rc1
 PKGNAME=	${DISTNAME:tl}
 EGG_NAME=	${DISTNAME}
 CATEGORIES=	devel www
@@ -19,6 +19,7 @@ DEPENDS+=	${PYPKGPREFIX}-genshi>=0.4.1:../../wip/genshi
 
 REPLACE_PYTHON=	cgi-bin/trac.cgi cgi-bin/trac.fcgi
 REPLACE_PYTHON+=contrib/*.py contrib/*-hook contrib/workflow/*.py
+REPLACE_PYTHON+=trac/admin/templates/deploy_trac.* trac/tests/functional/*.py
 
 .include "options.mk"
 
