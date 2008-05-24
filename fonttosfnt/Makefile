@@ -3,7 +3,7 @@
 
 DISTNAME=	fonttosfnt-1.0.3
 CATEGORIES=	fonts x11
-MASTER_SITES=	http://xorg.freedesktop.org/releases/individual/app/
+MASTER_SITES=	${MASTER_SITE_XORG:=app/}
 EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	blair.sadewitz@gmail.com

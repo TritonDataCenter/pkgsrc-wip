@@ -3,7 +3,7 @@
 
 DISTNAME=	libdmx-1.0.2
 CATEGORIES=	wip
-MASTER_SITES=	http://xorg.freedesktop.org/releases/individual/lib/
+MASTER_SITES=	${MASTER_SITE_XORG:=lib/}
 EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	blair.sadewitz@gmail.com

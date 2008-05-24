@@ -4,7 +4,7 @@
 DISTNAME=	compiz-0.5.0
 PKGREVISION=	5
 CATEGORIES=	wm x11
-MASTER_SITES=	http://xorg.freedesktop.org/releases/individual/app/
+MASTER_SITES=	${MASTER_SITE_XORG:=app/}
 EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	pkgsrc-users@NetBSD.org

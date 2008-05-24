@@ -3,7 +3,7 @@
 
 DISTNAME=	dmxproto-2.2.2
 CATEGORIES=	x11
-MASTER_SITES=	http://xorg.freedesktop.org/releases/individual/proto/
+MASTER_SITES=	${MASTER_SITE_XORG:=proto/}
 EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	blair.sadewitz@gmail.com

@@ -3,7 +3,7 @@
 
 DISTNAME=	xcursor-themes-1.0.1
 CATEGORIES=	x11 graphics
-MASTER_SITES=	http://xorg.freedesktop.org/releases/individual/data/
+MASTER_SITES=	${MASTER_SITE_XORG:=data/}
 EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	blair.sadewitz@gmail.com
