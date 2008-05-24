@@ -2,7 +2,7 @@
 
 PKG_OPTIONS_VAR=	PKG_OPTIONS.mcabber
 PKG_SUPPORTED_OPTIONS=	ssl gpgme otr aspell
-PKG_SUGGESTED_OPTIONS=  gpgme ssl
+PKG_SUGGESTED_OPTIONS=	gpgme ssl
 
 .include "../../mk/bsd.options.mk"
 
@@ -25,5 +25,5 @@ CONFIGURE_ARGS+=	--enable-aspell
 .if !empty(PKG_OPTIONS:Mssl)
 .include "../../security/openssl/buildlink3.mk"
 .else
-CONFIGURE_ARGS+=        --disable-ssl
+CONFIGURE_ARGS+=	--disable-ssl
 .endif

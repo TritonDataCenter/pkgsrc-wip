@@ -11,10 +11,10 @@ NC_PATCH_REVS=\
 	20071222 20080105 20080112 20080119 20080203 20080209 20080223	\
 	20080301 20080308
 
-NC_DIST_PATCHES= 	${NC_PATCH_REVS:@.rev.@${DISTNAME}-${.rev.}.patch.gz@}
+NC_DIST_PATCHES=	${NC_PATCH_REVS:@.rev.@${DISTNAME}-${.rev.}.patch.gz@}
 NC_DIST_PATCH_SITES=	${MASTER_SITE_FREEBSD_LOCAL:=rafan/ncurses/}
 ###
 ### XXX Patches come out weekly, so if there's an overlap, this package
 ###	is too stale!  That is, 5.7 should be out before that ever occurs.
 ###
-NC_REVISION= 		${NC_PATCH_REVS:[-1]:C/^[0-9]{4}[0]?/pl/}
+NC_REVISION=	${NC_PATCH_REVS:[-1]:C/^[0-9]{4}[0]?/pl/}

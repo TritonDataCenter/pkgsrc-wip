@@ -1,7 +1,7 @@
 # $NetBSD$
 
 DISTNAME=		map-browse-1.1
-WRKSRC=                 ${WRKDIR}/map-browse
+WRKSRC=			${WRKDIR}/map-browse
 CATEGORIES=		graphics
 MASTER_SITES=		http://www.olib.org/~rkr/mud/software/map-browse/
 

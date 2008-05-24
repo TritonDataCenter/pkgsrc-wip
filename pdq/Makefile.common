@@ -1,5 +1,6 @@
 # $NetBSD$
 #
+# used by wip/xpdq/Makefile
 
 DISTNAME=		pdq-2.2.1
 CATEGORIES=		print

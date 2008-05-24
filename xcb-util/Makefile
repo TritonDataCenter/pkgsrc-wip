@@ -7,7 +7,7 @@ MASTER_SITES=	${MASTER_SITE_LOCAL}
 EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	bjs@NetBSD.org
-HOMEPAGE= 	http://xcb.freedesktop.org/
+HOMEPAGE=	http://xcb.freedesktop.org/
 COMMENT=	XCB Utilities
 
 PKG_DESTDIR_SUPPORT=	user-destdir

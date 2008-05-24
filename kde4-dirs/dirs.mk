@@ -34,7 +34,7 @@ KDE4_DIRS+=	share/doc/kde/HTML/en/kcontrol
 
 _ICONCOLORS=	crystalsvg locolor oxygen
 _ICONSIZES=	16x16 22x22 32x32 48x48 64x64 128x128 scalable
-_ICONDIRS=	animations actions apps categories devices emblems 
+_ICONDIRS=	animations actions apps categories devices emblems
 _ICONDIRS+=	emotes filesystems intl mimetypes places status
 
 .for color in ${_ICONCOLORS}
@@ -107,7 +107,7 @@ DEPENDS+=	kde4-dirs>=${_USE_KDE4_DIRS}:../../wip/kde4-dirs
 
 .  for dir in ${KDE4_DIRS}
 PRINT_PLIST_AWK+=	/^@exec \$${MKDIR} %D\/${dir:S|/|\\/|g}$$/ { next; }
-PRINT_PLIST_AWK+=       /^@dirrm ${dir:S|/|\\/|g}$$/ \
+PRINT_PLIST_AWK+=	/^@dirrm ${dir:S|/|\\/|g}$$/ \
 				{ print "@comment in kde: " $$0; next; }
 .  endfor
 .endif

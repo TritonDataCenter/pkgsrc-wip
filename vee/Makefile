@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-PKGNAME= 	vee-0.9.9
+PKGNAME=	vee-0.9.9
 DISTNAME=	vee-0.9.9-zeta
 CATEGORIES=	www
 MASTER_SITES=	http://vee.googlecode.com/files/

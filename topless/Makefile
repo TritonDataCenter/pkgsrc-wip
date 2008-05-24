@@ -17,5 +17,5 @@ INSTALLATION_DIRS=	bin ${PKGMANDIR}/man1
 do-install:
 	${INSTALL_SCRIPT} ${WRKSRC}/topless ${DESTDIR}${PREFIX}/bin
 	${INSTALL_MAN} ${WRKSRC}/topless.1 ${DESTDIR}${PREFIX}/${PKGMANDIR}/man1
-		
+
 .include "../../mk/bsd.pkg.mk"

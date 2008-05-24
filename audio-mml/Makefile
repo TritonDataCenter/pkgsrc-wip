@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	rat-4.4.01r4121
-PKGNAME= 	audio-mml-4.4.01
+PKGNAME=	audio-mml-4.4.01
 CATEGORIES=	mbone audio multimedia
 MASTER_SITES=	http://ftp.NetBSD.org/pub/NetBSD/packages/distfiles/LOCAL_PORTS/
 EXTRACT_SUFX=	.tar.bz2
@@ -17,14 +17,14 @@ GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_TOOLS+=	tclsh wish # XXX verify
 
-EGDIR= 	 	${PREFIX}/share/examples/${PKGBASE}
+EGDIR=		${PREFIX}/share/examples/${PKGBASE}
 MAKE_ENV+=	EGDIR=${EGDIR:Q}
 
-CONFIGURE_ARGS+= 	--with-x
+CONFIGURE_ARGS+=	--with-x
 CONFIGURE_ARGS+=	--with-tcltk=${WISH}
 CONFIGURE_ARGS+=	--with-tcl=${BUILDLINK_PREFIX.tcl}
 CONFIGURE_ARGS+=	--with-tk=${BUILDLINK_PREFIX.tk}
-CONFIGURE_ARGS+= 	--with-common=${BUILDLINK_PREFIX.common-mml}
+CONFIGURE_ARGS+=	--with-common=${BUILDLINK_PREFIX.common-mml}
 BUILDLINK_TRANSFORM+=	l:tcl80:tcl
 BUILDLINK_TRANSFORM+=	l:tk80:tk
 

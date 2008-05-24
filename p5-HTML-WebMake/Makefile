@@ -10,7 +10,7 @@ MAINTAINER=	pkgsrc-users@pkgsrc.org
 HOMEPAGE=	http://webmake.sourceforge.net/devel/
 COMMENT=	WebMake is a simple web site management system
 
-PERL5_PACKLIST=         auto/HTML/WebMake/.packlist
+PERL5_PACKLIST=		auto/HTML/WebMake/.packlist
 
 DEPENDS+=	p5-IO-String-[0-9]*:../../devel/p5-IO-String
 DEPENDS+=	p5-Text-EtText-[0-9]*:../../wip/p5-Text-EtText

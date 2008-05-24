@@ -12,9 +12,9 @@ MAINTAINER=	pkgsrc@blackmouse.biz
 HOMEPAGE=	http://www.balabit.com/products/syslog-ng/
 COMMENT=	Syslog-ng embodies the next generation of logging systems
 
-CONFLICTS=      syslog-ng-[0-9]*
+CONFLICTS=	syslog-ng-[0-9]*
 
-USE_TOOLS+=  	pkg-config
+USE_TOOLS+=	pkg-config
 
 GNU_CONFIGURE=	yes
 

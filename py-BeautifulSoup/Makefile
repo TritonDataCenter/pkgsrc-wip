@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		BeautifulSoup-3.0.5
-PKGNAME=                ${PYPKGPREFIX}-${DISTNAME}
+PKGNAME=		${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=		textproc
 MASTER_SITES=		http://www.crummy.com/software/BeautifulSoup/download/ \
 			http://gentoo.osuosl.org/distfiles/ \

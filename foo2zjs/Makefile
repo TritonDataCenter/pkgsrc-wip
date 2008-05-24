@@ -16,6 +16,6 @@ USE_TOOLS+=	gmake
 
 INSTALL_TARGET= install-prog install-icc2ps install-man install-doc install-ppd
 
-DEPENDS+= 	foomatic-filters>=3.0:../../print/foomatic-filters
-DEPENDS+=       foomatic-ppds-[0-9]*:../../print/foomatic-ppds
+DEPENDS+=	foomatic-filters>=3.0:../../print/foomatic-filters
+DEPENDS+=	foomatic-ppds-[0-9]*:../../print/foomatic-ppds
 .include "../../mk/bsd.pkg.mk"

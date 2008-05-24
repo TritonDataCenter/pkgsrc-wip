@@ -13,6 +13,6 @@ COMMENT=		Text search engine written in C++
 USE_TOOLS+=	 gmake
 USE_LANGUAGES=		c c++
 GNU_CONFIGURE=		yes
-USE_LIBTOOL=    yes
+USE_LIBTOOL=	yes
 
 .include "../../mk/bsd.pkg.mk"

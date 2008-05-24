@@ -1,12 +1,12 @@
 # $NetBSD: $
 
-DISTNAME=       kstart-3.10
-CATEGORIES=     sysutils
-MASTER_SITES=   http://archives.eyrie.org/software/kerberos/
+DISTNAME=	kstart-3.10
+CATEGORIES=	sysutils
+MASTER_SITES=	http://archives.eyrie.org/software/kerberos/
 
-MAINTAINER=     jakllsch@kollasch.net
-HOMEPAGE=       http://www.eyrie.org/~eagle/software/kstart/
-COMMENT=        Run a process with Kerberos credentials
+MAINTAINER=	jakllsch@kollasch.net
+HOMEPAGE=	http://www.eyrie.org/~eagle/software/kstart/
+COMMENT=	Run a process with Kerberos credentials
 
 USE_TOOLS+=	gmake
 GNU_CONFIGURE=	yes

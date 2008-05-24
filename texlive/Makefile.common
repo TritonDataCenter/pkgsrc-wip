@@ -1,4 +1,6 @@
 # $NetBSD$
+# used by wip/texlive-bin/Makefile
+# used by wip/texlive-texmf-minimal/Makefile
 
 TEXLIVE_VERSION=	2007
 # Update PKG_REVISION when this is updated

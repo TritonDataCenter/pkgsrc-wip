@@ -20,7 +20,7 @@ CONF_FILES=	${PREFIX}/${EGDIR}/tenshi.conf ${PKG_SYSCONFDIR}/tenshi.conf
 BUILD_DEFS+=	VARBASE
 INSTALLATION_DIRS=	bin ${PKGMANDIR}/man8 ${EGDIR}
 
-SUBST_CLASSES+= 	tenshi
+SUBST_CLASSES+=	tenshi
 SUBST_STAGE.tenshi=	do-configure
 SUBST_FILES.tenshi=	tenshi
 SUBST_SED.tenshi=	-e 's,/usr/bin/perl,${PERL5},g'

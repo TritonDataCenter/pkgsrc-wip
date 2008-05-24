@@ -4,7 +4,7 @@ PKGNAME=		p5-qt3-3.009b2
 DISTNAME=		PerlQt-3.009-b2
 #DISTNAME=		PerlQt-3.009-b1
 #DISTNAME=		PerlQt-3.008
-MASTER_SITES=           ${MASTER_SITE_SOURCEFORGE:=perlqt/}
+MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=perlqt/}
 COMMENT=		Perl-5 bindings for the Qt3 library
 
 CATEGORIES=		x11
@@ -23,7 +23,7 @@ WRKSRC=			${WRKDIR}/PerlQt-3.009
 PERL5_PACKLIST=		auto/Qt/.packlist
 
 # Build-time only:
-BUILDLINK_DEPMETHOD.kdelibs=    build
+BUILDLINK_DEPMETHOD.kdelibs=	build
 
 .include "../../lang/perl5/module.mk"
 .include "../../x11/qt3-libs/buildlink3.mk"

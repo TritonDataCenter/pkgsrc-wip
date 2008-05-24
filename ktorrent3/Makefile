@@ -13,7 +13,7 @@ COMMENT=	Graphical BitTorrent client for KDE4
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
-USE_CMAKE=      	yes
+USE_CMAKE=	yes
 USE_LANGUAGES=		c c++
 USE_TOOLS+=		awk msgfmt pkg-config perl
 

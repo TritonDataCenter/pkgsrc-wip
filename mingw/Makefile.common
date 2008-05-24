@@ -1,5 +1,10 @@
 # $NetBSD$
 #
+# used by wip/mingw-gcc/buildlink3.mk
+# used by wip/mingw-binutils/Makefile
+# used by wip/mingw-gcc/Makefile
+# used by wip/mingw-runtime-bin/Makefile
+# used by wip/mingw-w32api-bin/Makefile
 
 .if !defined(MINGW_MAKEFILECOMMON)
 MINGW_MAKEFILECOMMON=	# defined

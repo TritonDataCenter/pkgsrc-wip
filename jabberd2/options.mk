@@ -24,7 +24,7 @@ CONFIGURE_ARGS+=	--with-sasl=cyrus
 .include "../../security/cyrus-sasl/buildlink3.mk"
 .endif
 
-.if !empty(PKG_OPTIONS:Msasl-gnu) 
+.if !empty(PKG_OPTIONS:Msasl-gnu)
 CONFIGURE_ARGS+=	--with-sasl=gsasl
 .include "../../security/gsasl/buildlink3.mk"
 .endif

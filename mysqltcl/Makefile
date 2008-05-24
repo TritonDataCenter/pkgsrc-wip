@@ -6,7 +6,7 @@ MASTER_SITES=		http://www.xdobry.de/mysqltcl/
 
 MAINTAINER=		alchow@users.sourceforge.net
 
-HOMEPAGE=               http://www.xdobry.de/mysqltcl/
+HOMEPAGE=		http://www.xdobry.de/mysqltcl/
 COMMENT=		Tcl Mysql Interface
 
 GNU_CONFIGURE=		yes

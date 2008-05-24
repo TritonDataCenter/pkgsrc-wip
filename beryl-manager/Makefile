@@ -12,9 +12,9 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 
 USE_PKGLOCALEDIR=	yes
 
-USE_TOOLS+=     perl
-USE_TOOLS+=     gettext-tools
-USE_TOOLS+=     intltool
+USE_TOOLS+=	perl
+USE_TOOLS+=	gettext-tools
+USE_TOOLS+=	intltool
 USE_LIBTOOL+=	yes
 
 .include "../../graphics/hicolor-icon-theme/buildlink3.mk"

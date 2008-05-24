@@ -26,7 +26,7 @@ do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/intermediate/oned ${DESTDIR}${PREFIX}/bin/oned
 	${INSTALL_PROGRAM} ${WRKSRC}/intermediate/twod ${DESTDIR}${PREFIX}/bin/twod
 	${INSTALL_PROGRAM} ${WRKSRC}/libraries/ibcast-test ${DESTDIR}${PREFIX}/bin/ibcast-test
-.for _prog_ in pi3 cpi pi pit matvec matmat matmatlog monte 
+.for _prog_ in pi3 cpi pi pit matvec matmat matmatlog monte
 	${INSTALL_PROGRAM} ${WRKSRC}/simplempi/${_prog_} ${DESTDIR}${PREFIX}/bin/${_prog_}
 .endfor
 

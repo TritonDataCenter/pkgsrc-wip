@@ -14,8 +14,8 @@ BUILD_DEFS=	VARBASE EXTRA_OBJS MATHOPD_USER MATHOPD_GROUP
 
 MATHOPD_USER?=		mathopd
 MATHOPD_GROUP?=		mathopd
-PKG_USERS_VARS+=        MATHOPD_USER
-PKG_GROUPS_VARS+=       MATHOPD_GROUP
+PKG_USERS_VARS+=	MATHOPD_USER
+PKG_GROUPS_VARS+=	MATHOPD_GROUP
 
 WRKSRC=		${WRKDIR}/${DISTNAME}/src
 EGDIR=		${PREFIX}/share/examples/mathopd
@@ -34,15 +34,15 @@ DOCS=	CHANGES cgi.txt config.txt running.txt sample.cfg syntax.txt
 SUBST_CLASSES+=			fix-paths
 SUBST_STAGE.fix-paths=		pre-configure
 SUBST_MESSAGE.fix-paths=	Fixing absolute paths.
-SUBST_FILES.fix-paths=          Makefile
-SUBST_FILES.fix-paths+=         ../doc/sample.cfg
-SUBST_SED.fix-paths=            -e 's,/usr/local,${PREFIX},g'
-SUBST_SED.fix-paths+=           -e 's,/var/mathopd/pid,${VARBASE}/run/mathopd.pid,g'
-SUBST_SED.fix-paths+=           -e 's,/var/mathopd/log,${VARBASE}/log/mathopd/access_log,g'
-SUBST_SED.fix-paths+=           -e 's,/var/mathopd/errorlog,${VARBASE}/log/mathopd/error_log,g'
-SUBST_SED.fix-paths+=           -e 's,/var/mathopd/childlog,${VARBASE}/log/mathopd/child_log,g'
-SUBST_SED.fix-paths+=           -e 's,/home/boland/\*,${PREFIX}/share/httpd/htdocs/\*,g'
-SUBST_SED.fix-paths+=           -e 's,/home/boland/cgi-bin,${PREFIX}/libexec/cgi-bin,g'
+SUBST_FILES.fix-paths=		Makefile
+SUBST_FILES.fix-paths+=		../doc/sample.cfg
+SUBST_SED.fix-paths=		-e 's,/usr/local,${PREFIX},g'
+SUBST_SED.fix-paths+=		-e 's,/var/mathopd/pid,${VARBASE}/run/mathopd.pid,g'
+SUBST_SED.fix-paths+=		-e 's,/var/mathopd/log,${VARBASE}/log/mathopd/access_log,g'
+SUBST_SED.fix-paths+=		-e 's,/var/mathopd/errorlog,${VARBASE}/log/mathopd/error_log,g'
+SUBST_SED.fix-paths+=		-e 's,/var/mathopd/childlog,${VARBASE}/log/mathopd/child_log,g'
+SUBST_SED.fix-paths+=		-e 's,/home/boland/\*,${PREFIX}/share/httpd/htdocs/\*,g'
+SUBST_SED.fix-paths+=		-e 's,/home/boland/cgi-bin,${PREFIX}/libexec/cgi-bin,g'
 
 .if ${OPSYS} == "NetBSD"
 CPPFLAGS+=	-DHAVE_VFORK

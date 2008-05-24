@@ -13,7 +13,7 @@ USE_LIBTOOL=		YES
 USE_DIRS+=		xdg-1.4
 USE_TOOLS+=		gmake pkg-config
 GNU_CONFIGURE=		YES
-WRKSRC=                 ${WRKDIR}/gtk2-engines-magicchicken-1.1.1.orig
+WRKSRC=			${WRKDIR}/gtk2-engines-magicchicken-1.1.1.orig
 
 .include "../../x11/gtk2/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

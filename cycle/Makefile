@@ -5,8 +5,8 @@ DISTNAME=	cycle-0.3.1
 CATEGORIES=	misc
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=cycle/}
 EXTRACT_SUFX=	.tar.bz2
-NO_BUILD=       yes
-PYTHON_PATCH_SCRIPTS=   cycle.py
+NO_BUILD=	yes
+PYTHON_PATCH_SCRIPTS=	cycle.py
 
 MAINTAINER=	ckoeni@gmail.com
 HOMEPAGE=	http://cycle.sourceforge.net/

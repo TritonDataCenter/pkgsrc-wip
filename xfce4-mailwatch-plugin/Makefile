@@ -2,7 +2,7 @@
 
 .include "../../meta-pkgs/xfce4/Makefile.common"
 
-XFCE4_VERSION=  1.0.1
+XFCE4_VERSION=	1.0.1
 
 DISTNAME=	xfce4-mailwatch-plugin-${XFCE4_VERSION}
 PKGREVISION=	1

@@ -1,6 +1,7 @@
 # $NetBSD$
 #
 # common file because html2latex tool comes from same source download
+# used by wip/html2latex/Makefile
 
 HTML2LATEX_VERSION=	1.1
 DISTNAME=		html2latex-${HTML2LATEX_VERSION}

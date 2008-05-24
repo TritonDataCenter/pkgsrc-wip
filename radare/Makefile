@@ -12,7 +12,7 @@ COMMENT=	advanced commandline hexadecimal editor
 USE_LANGUAGES=	c perl
 
 USE_TOOLS=	gmake
-USE_GNU_READLINE=       YES
+USE_GNU_READLINE=	YES
 GNU_CONFIGURE=	yes
 
 .include "options.mk"

@@ -5,7 +5,7 @@ DISTNAME=	common-1.2.18r4122
 PKGNAME=	common-mml-1.2.18
 CATEGORIES=	mbone audio multimedia
 MASTER_SITES=	${MASTER_SITE_LOCAL}
-EXTRACT_SUFX= 	.tar.bz2
+EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	bjs@NetBSD.org
 HOMEPAGE=	http://www-mice.cs.ucl.ac.uk/multimedia/software/common/

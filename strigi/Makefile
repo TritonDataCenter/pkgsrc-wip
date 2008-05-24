@@ -15,9 +15,9 @@ USE_CMAKE=	yes
 
 .include "../../mk/bsd.prefs.mk"
 .if ${OPSYS} == "NetBSD" && exists(/usr/include/sys/pset.h)
-RT_LIB_SCHED=           -lrt
+RT_LIB_SCHED=		-lrt
 .else
-RT_LIB_SCHED=           # empty
+RT_LIB_SCHED=		# empty
 .endif
 
 .if !empty(RT_LIB_SCHED)

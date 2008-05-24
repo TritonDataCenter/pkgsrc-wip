@@ -21,7 +21,7 @@ USE_LANGUAGES=		c c++ fortran
 #LDFLAGS+= ${COMPILER_RPATH_FLAG}${PREFIX}/lib
 
 pre-configure:
-	cd ${WRKSRC} && autoconf	
+	cd ${WRKSRC} && autoconf
 
 .include "../../mk/bsd.prefs.mk"
 .include "../../mk/bsd.pkg.mk"

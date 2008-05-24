@@ -14,7 +14,7 @@ COMMENT=		Host side of the USB DFU protocol
 BUILD_DEPENDS+=		subversion-base>=1.4.2:../../devel/subversion-base
 
 SUBDIR=			${PKGNAME}
-WRKSRC= 		${WRKDIR}/${SUBDIR}
+WRKSRC=	${WRKDIR}/${SUBDIR}
 USE_TOOLS+=		autoconf automake tar
 HAS_CONFIGURE=		YES
 CONFIGURE_ARGS+=	-prefix=${PREFIX}

@@ -37,7 +37,7 @@ YESTERDAY!=	expr `date +%s` - 86399
 SCM_VER!=	${DATE} -r ${YESTERDAY} +%Y%m%d
 SCM_TAG!=	${DATE} +%Y%m%d
 
-BUILDLINK_API_DEPENDS.zlib+=    zlib>=1.2.0.4
+BUILDLINK_API_DEPENDS.zlib+=	zlib>=1.2.0.4
 
 .include "../../audio/flac/buildlink3.mk"
 .include "../../audio/fluidsynth/buildlink3.mk"

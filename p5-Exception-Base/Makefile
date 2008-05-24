@@ -1,10 +1,10 @@
 # $NetBSD$
 
-PKGVERSION=     0.13
+PKGVERSION=	0.13
 DISTNAME=	Exception-Base-${PKGVERSION}
 PKGNAME=	p5-Exception-Base-${PKGVERSION}
 CATEGORIES=	devel perl5
-MASTER_SITES=   ${MASTER_SITE_PERL_CPAN:=../../authors/id/D/DE/DEXTER/}
+MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=../../authors/id/D/DE/DEXTER/}
 
 MAINTAINER=	ggm@apnic.net
 HOMEPAGE=	http://search.cpan.org/src/DEXTER/Exception-Base-0.13

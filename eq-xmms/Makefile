@@ -12,8 +12,8 @@ COMMENT=	Equalizer plugin for XMMS not just for MP3
 
 GNU_CONFIGURE=		yes
 CONFIGURE_ARGS+=	--enable-mmx
-CONFIGURE_ARGS+=        --enable-sse
-CONFIGURE_ARGS+=        --enable-sse2
+CONFIGURE_ARGS+=	--enable-sse
+CONFIGURE_ARGS+=	--enable-sse2
 CONFIGURE_ARGS+=	--enable-sse-filters
 USE_LIBTOOL=		yes
 #USE_TOOLS+=		gmake

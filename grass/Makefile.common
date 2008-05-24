@@ -1,5 +1,6 @@
 # $NetBSD$
 #
+# used by wip/gdal-grass/Makefile
 
 # Required for dependent packages (e.g., geography/qgis) to find grass
 

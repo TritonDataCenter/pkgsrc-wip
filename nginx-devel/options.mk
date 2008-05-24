@@ -9,7 +9,7 @@ PKG_SUGGESTED_OPTIONS=	ssl pcre
 .if !empty(PKG_OPTIONS:Mssl)
 .include "../../security/openssl/buildlink3.mk"
 CONFIGURE_ARGS+=	--with-mail_ssl_module
-CONFIGURE_ARGS+=        --with-http_ssl_module
+CONFIGURE_ARGS+=	--with-http_ssl_module
 .endif
 
 .if !empty(PKG_OPTIONS:Mpcre)

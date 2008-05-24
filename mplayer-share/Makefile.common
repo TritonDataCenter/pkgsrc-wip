@@ -1,4 +1,5 @@
 # $NetBSD$
+# used by wip/mplayer/Makefile
 
 .include "../../mk/bsd.prefs.mk"
 

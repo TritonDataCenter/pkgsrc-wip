@@ -1,4 +1,11 @@
 # $NetBSD$
+# used by wip/emboss-domainatrix/Makefile
+# used by wip/emboss-emnu/Makefile
+# used by wip/emboss-hmmer/Makefile
+# used by wip/emboss-meme/Makefile
+# used by wip/emboss-mse/Makefile
+# used by wip/emboss-phylip/Makefile
+# used by wip/emboss-topo/Makefile
 
 post-extract:
 	${CP} ${PREFIX}/share/EMBOSS/scripts/* ${WRKSRC}

@@ -62,7 +62,7 @@ PLIST_SUBST+=	SS=
 UDEV_RULES_DIR?=	/etc/udev/rules.d
 CONF_FILES+=		${EGDIR}/90-hal.rules ${UDEV_RULES_DIR}/90-hal.rules
 .else
-PLIST_SUBST+=	SS=@comment 
+PLIST_SUBST+=	SS=@comment
 .endif
 
 CHECK_PORTABILITY_SKIP+= configure tools/hal-system-power-reboot

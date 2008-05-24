@@ -10,7 +10,7 @@ MAINTAINER=	haaaad@gmail.com,elad@NetBSD.org
 HOMEPAGE=	http://www.NetBSD.org/~elad/
 COMMENT=	Offer a system to generate binary updates for NetBSD
 
-WRKSRC= 	${WRKDIR}/haze
+WRKSRC=	${WRKDIR}/haze
 
 INSTALLATION_DIRS= sbin
 

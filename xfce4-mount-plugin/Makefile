@@ -2,7 +2,7 @@
 
 .include "../../wip/xfce4/Makefile.common"
 
-XFCE4_VERSION=  0.5.1
+XFCE4_VERSION=	0.5.1
 
 DISTNAME=	xfce4-mount-plugin-${XFCE4_VERSION}
 CATEGORIES=	sysutils

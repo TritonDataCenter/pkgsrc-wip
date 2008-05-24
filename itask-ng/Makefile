@@ -10,7 +10,7 @@ MAINTAINER=	shinden@linux.pl
 HOMEPAGE=	http://itask-module.googlecode.com/files/
 COMMENT=	Application launcher and taskbar for e17
 
-PKG_DESTDIR_SUPPORT=    	user-destdir
+PKG_DESTDIR_SUPPORT=	user-destdir
 
 BUILD_DEPENDS+=			gettext-m4-[0-9]*:../../devel/gettext-m4
 WRKSRC=				${WRKDIR}/itask-ng

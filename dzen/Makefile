@@ -9,7 +9,7 @@ MAINTAINER=	pikapika@8-0.net
 HOMEPAGE=	http://gotmor.googlepages.com/
 COMMENT=	General purpose messaging and notification program
 
-NO_CONFIGURE=           yes
+NO_CONFIGURE=		yes
 
 .include "../../x11/libX11/buildlink3.mk"
 .include "../../x11/libXinerama/buildlink3.mk"

@@ -18,7 +18,7 @@ USE_TOOLS+=	gmake
 
 CFLAGS.SunOS+= -lsocket
 
-INSTALLATION_DIRS=      bin
+INSTALLATION_DIRS=	bin
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/hdhomerun_config ${PREFIX}/bin/hdhomerun_config

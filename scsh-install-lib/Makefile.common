@@ -3,6 +3,7 @@
 #
 # Common Makefile for packages that are installed using scsh-install-lib
 #
+# used by wip/sunterlib/Makefile
 
 #
 # XXX: This should actually be moved to shells/scsh/Makefile.common or

@@ -13,7 +13,7 @@ USE_LIBTOOL=		YES
 USE_OLD_DES_API=	YES
 USE_TOOLS+=		gmake pkg-config
 USE_BUILTIN.openssl=	NO
-PLIST_SRC+=             ${PKGDIR}/PLIST.common
+PLIST_SRC+=		${PKGDIR}/PLIST.common
 
 .include "options.mk"
 

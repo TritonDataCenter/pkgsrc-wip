@@ -1,4 +1,7 @@
 # $NetBSD$
+# used by wip/bluez-hcidump/Makefile
+# used by wip/bluez-utils/Makefile
+# used by wip/java-jbluez/Makefile
 
 ONLY_FOR_PLATFORM=	Linux-*-*
 

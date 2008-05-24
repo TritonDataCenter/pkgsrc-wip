@@ -89,7 +89,7 @@ SUBST_FILES.oss+=	test/libvlc/media_list.c
 SUBST_FILES.oss+=	po/*.po
 SUBST_MESSAGE.oss=	Fixing hardcoded audio device.
 
-SUBST_CLASSES+=         fnt
+SUBST_CLASSES+=		fnt
 SUBST_STAGE.fnt=	post-patch
 SUBST_SED.fnt=		-e "s,${ORIGFNT},${DEFAULT_FONT},"
 SUBST_FILES.fnt=	modules/misc/freetype.c

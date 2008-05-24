@@ -12,7 +12,7 @@ HOMEPAGE=	http://enlightenment.org/
 COMMENT=	Distribution Container Library and Tools
 
 GNU_CONFIGURE=	yes
-USE_LIBTOOL=    yes
+USE_LIBTOOL=	yes
 USE_TOOLS=	gmake pkg-config
 
 .include "../../graphics/jpeg/buildlink3.mk"

@@ -12,7 +12,7 @@ PKG_DESTDIR_SUPPORT=	destdir
 
 GNU_CONFIGURE=		yes
 CONFIGURE_ARGS+=	 --sysconfdir=${PKG_SYSCONFDIR}
-CONFIGURE_ARGS+= 	--without-xsel
+CONFIGURE_ARGS+=	--without-xsel
 USE_NCURSES=		yes
 USE_TOOLS+=		gmake
 

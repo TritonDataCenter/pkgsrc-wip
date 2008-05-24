@@ -12,8 +12,8 @@ PKG_SUPPORTED_OPTIONS=	pam mysql
 
 .if !empty(PKG_OPTIONS:Mmysql)
 .include "../../mk/mysql.buildlink3.mk"
-PLIST_SUBST+=   AUDIT_MYSQL=lib/cvsnt/database/mysql.la
+PLIST_SUBST+=	AUDIT_MYSQL=lib/cvsnt/database/mysql.la
 .else
 CONFIGURE_ARGS+=		--disable-mysql
-PLIST_SUBST+=   AUDIT_MYSQL="@comment no MYSQL module"
+PLIST_SUBST+=	AUDIT_MYSQL="@comment no MYSQL module"
 .endif

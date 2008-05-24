@@ -2,10 +2,10 @@
 
 PKG_OPTIONS_VAR=		PKG_OPTIONS.aria2
 
-PKG_OPTIONS_GROUP.tls= 		gnutls ssl
-PKG_OPTIONS_GROUP.asyncns= 	libares libcares
+PKG_OPTIONS_GROUP.tls=	gnutls ssl
+PKG_OPTIONS_GROUP.asyncns=	libares libcares
 
-PKG_OPTIONS_REQUIRED_GROUPS= 	tls asyncns
+PKG_OPTIONS_REQUIRED_GROUPS=	tls asyncns
 
 PKG_SUPPORTED_OPTIONS+=		aria2-metalink
 PKG_SUGGESTED_OPTIONS+=		ssl libcares aria2-metalink

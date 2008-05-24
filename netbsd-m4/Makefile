@@ -11,7 +11,7 @@ MAINTAINER=	cheusov@tut.by
 HOMEPAGE=	# none
 COMMENT=	NetBSD version of M4
 
-PKG_DESTDIR_SUPPORT=    user-destdir
+PKG_DESTDIR_SUPPORT=	user-destdir
 USE_FEATURES=		nbcompat
 INSTALLATION_DIRS+=	bin ${PKGMANDIR}/man1
 

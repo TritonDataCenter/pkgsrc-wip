@@ -15,15 +15,15 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 
 USE_PKGLOCALEDIR=	yes
 
-USE_TOOLS+=     perl
-USE_TOOLS+=     gettext-tools
-USE_TOOLS+=     intltool
+USE_TOOLS+=	perl
+USE_TOOLS+=	gettext-tools
+USE_TOOLS+=	intltool
 USE_LIBTOOL+=	yes
 
 
-PKGCONFIG_OVERRIDE+=    beryl.pc.in
-PKGCONFIG_OVERRIDE+=    berylsettings.pc.in
-PKGCONFIG_OVERRIDE+=    libberyldecoration/libberyldecoration.pc.in
+PKGCONFIG_OVERRIDE+=	beryl.pc.in
+PKGCONFIG_OVERRIDE+=	berylsettings.pc.in
+PKGCONFIG_OVERRIDE+=	libberyldecoration/libberyldecoration.pc.in
 
 PKG_OPTIONS_VAR=	PKG_OPTIONS.beryl
 PKG_SUPPORTED_OPTIONS=	gnome

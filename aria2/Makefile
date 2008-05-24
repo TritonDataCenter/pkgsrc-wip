@@ -32,7 +32,7 @@ BUILDLINK_DEPMETHOD.cppunit?=	build
 .  include "../../devel/cppunit/buildlink3.mk"
 .else
 CONFIGURE_ARGS+=	--disable-xmltest
-.endif	
+.endif
 
 .include "../../converters/libiconv/buildlink3.mk"
 .include "../../devel/gettext-lib/buildlink3.mk"

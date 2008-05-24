@@ -9,7 +9,7 @@ MAINTAINER=		eric@cirr.com
 HOMEPAGE=		http://xmpppy.sourceforge.net/
 COMMENT=		XMPP (Jabber) library for Python
 
-PYTHON_VERSIONS_INCOMPATIBLE=	15 20 
+PYTHON_VERSIONS_INCOMPATIBLE=	15 20
 PYDISTUTILSPKG=		yes
 
 .include "../../lang/python/extension.mk"

@@ -1,6 +1,7 @@
 # $NetBSD$
 #
 # Do NOT put a PKGREVISION statement in this file!
+# used by wip/xspdapp/Makefile
 
 XSPDVERSION=		6.3.1
 XSPDISTID=		051219

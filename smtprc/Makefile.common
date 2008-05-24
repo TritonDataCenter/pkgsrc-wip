@@ -1,4 +1,5 @@
 # $NetBSD$
+# used by wip/smtprc-gui/Makefile
 
 DISTNAME=	smtprc-0.9.7
 PKGNAME=	smtprc-0.9.7b

@@ -5,7 +5,7 @@ DISTNAME=	Lingua-EN-Inflect-Number-1.1
 PKGNAME=	p5-${DISTNAME}
 PKGNAME=	p5-${DISTNAME}
 CATEGORIES=	textproc perl5
-MASTER_SITES=   ${MASTER_SITE_PERL_CPAN:=../../authors/id/S/SI/SIMON/}
+MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=../../authors/id/S/SI/SIMON/}
 #MASTER_SITES=	http://search.cpan.org/CPAN/authors/id/S/SI/SIMON/
 
 MAINTAINER=	jfranz@bsdprojects.net

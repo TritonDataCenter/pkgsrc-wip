@@ -10,7 +10,7 @@ MAINTAINER=	pkgsrc@blackmouse.biz
 HOMEPAGE=	http://www.cvsnt.org/
 COMMENT=	CVSNT is advanced multiplatform version control system
 
-CONFLICTS=      cvs-[0-9]*
+CONFLICTS=	cvs-[0-9]*
 
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes

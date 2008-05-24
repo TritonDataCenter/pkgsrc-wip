@@ -19,8 +19,8 @@ MAKE_ENV+=	MAN_DIR=${PREFIX:Q}/${PKGMANDIR}
 DEPENDS+= coreutils>=6.9:../../sysutils/coreutils
 
 SUBST_CLASSES+=			fix-paths
-SUBST_STAGE.fix-paths+= 	pre-configure
-SUBST_MESSAGE.fix-paths+= 	Fixing absolute paths.
+SUBST_STAGE.fix-paths+=	pre-configure
+SUBST_MESSAGE.fix-paths+=	Fixing absolute paths.
 SUBST_FILES.fix-paths=		freedup.h
 SUBST_SED.fix-paths=		-e 's,/usr/bin/,${PREFIX}/bin/${GNU_PROGRAM_PREFIX:Q},g'
 

@@ -1,4 +1,6 @@
 # $NetBSD$
+# used by wip/boinc-client/Makefile
+# used by wip/boinc-lib/Makefile
 
 MAINTAINER=		rumcic@gmail.com
 HOMEPAGE=		http://boinc.berkeley.edu/

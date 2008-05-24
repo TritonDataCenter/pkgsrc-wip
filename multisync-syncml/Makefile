@@ -10,7 +10,7 @@ WRKSRC=			${WRKDIR}/multisync-0.82/plugins/syncml_plugin/
 
 DEPENDS+=		multisync>=0.82:../../wip/multisync
 BUILD_DEPENDS+=		libtool-base>=1.5.10:../../devel/libtool-base
-USE_TOOLS+=             aclocal autoconf autoheader automake
+USE_TOOLS+=		aclocal autoconf autoheader automake
 
 pre-configure:
 	cd ${WRKSRC}/../.. && \

@@ -32,7 +32,7 @@ DEPENDS+=	p5-MARC-Charset>=0.98:../../wip/p5-MARC-Charset
 DEPENDS+=	p5-Net-Z3950-ZOOM>=1.20:../../wip/p5-Net-Z3950-ZOOM
 DEPENDS+=	p5-PDF-Reuse-Barcode>=0.05:../../wip/p5-PDF-Reuse-Barcode
 
-USE_TOOLS+= 	perl:run
+USE_TOOLS+=	perl:run
 
 REPLACE_PERL+=	modules/C4/Date.pm
 REPLACE_PERL+=	modules/C4/test.pl

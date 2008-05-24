@@ -37,11 +37,11 @@ FBGROUP?=		firebird
 FBHOME?=		firebird
 BUILD_DEFS+=		FBHOME
 
-PKG_GROUPS=             ${FBGROUP}
-PKG_USERS=              ${FBUSER}:${FBGROUP}
-PKG_GECOS.${FBUSER}=    Firebird Database Administrator
-PKG_HOME.${FBUSER}=     ${PREFIX}/${FBHOME}
-PKG_SHELL.${FBUSER}=    ${SH}
+PKG_GROUPS=		${FBGROUP}
+PKG_USERS=		${FBUSER}:${FBGROUP}
+PKG_GECOS.${FBUSER}=	Firebird Database Administrator
+PKG_HOME.${FBUSER}=	${PREFIX}/${FBHOME}
+PKG_SHELL.${FBUSER}=	${SH}
 
 PLIST_SUBST+=		FBHOME=${FBHOME}
 MESSAGE_SUBST+=		PREFIX=${PREFIX}

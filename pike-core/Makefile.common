@@ -1,4 +1,11 @@
 # $NetBSD$
+# used by wip/pike-Gettext/Makefile
+# used by wip/pike-Gz/Makefile
+# used by wip/pike-Pipe/Makefile
+# used by wip/pike-Regexp-PCRE/Makefile
+# used by wip/pike-core/Makefile
+# used by wip/pike-gdbm/Makefile
+# used by wip/pike-mime/Makefile
 
 PIKE_VERSION=	7.6.86
 DISTNAME=	Pike-v${PIKE_VERSION}

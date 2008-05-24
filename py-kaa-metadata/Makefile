@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		kaa-metadata-0.7.2
-PKGNAME=                ${PYPKGPREFIX}-${DISTNAME}
+PKGNAME=		${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=		multimedia
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=freevo/}
 

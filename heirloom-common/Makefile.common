@@ -1,4 +1,5 @@
 # $NetBSD$
+# used by wip/libuxre/Makefile
 
 HEIRLOOM_VER=	070715
 # used by wip/heirloom-common/Makefile.prog.common

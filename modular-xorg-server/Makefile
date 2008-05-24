@@ -1,7 +1,7 @@
 # $NetBSD$
 
 DISTNAME=	xorg-server-1.4.0.90
-PKGREVISION= 	3
+PKGREVISION=	3
 PKGNAME=	modular-${DISTNAME}
 CATEGORIES=	x11
 MASTER_SITES=	ftp://ftp.NetBSD.org/pub/NetBSD/misc/bjs/distfiles/
