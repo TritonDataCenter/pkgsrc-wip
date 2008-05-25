@@ -3,7 +3,7 @@
 DISTNAME=	scummvm-${SCM_VER}
 CATEGORIES=	games
 
-MAINTAINER=	dillo@NetBSD.org
+OWNER=		dillo@NetBSD.org
 HOMEPAGE=	http://scummvm.sourceforge.net/
 COMMENT=	LucasArts Script Creation Utility for Maniac Mansion
 
