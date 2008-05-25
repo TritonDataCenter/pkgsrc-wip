@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	runit-1.7.2
+DISTNAME=	runit-1.9.0
 CATEGORIES=	sysutils
 MASTER_SITES=	${HOMEPAGE}
 
