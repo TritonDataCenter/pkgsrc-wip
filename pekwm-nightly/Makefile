@@ -7,7 +7,7 @@ CATEGORIES=	wm
 MASTER_SITES=	http://pekwm.org/files/source/
 EXTRACT_SUFX=	.tar.bz2
 
-MAINTAINER=	xtraeme@NetBSD.org
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://pekwm.org/trac
 COMMENT=	Window manager based on aewm++ (CVS version)
 
