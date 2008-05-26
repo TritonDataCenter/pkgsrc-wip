@@ -12,6 +12,7 @@ COMMENT=	Imlib2 bindings for Ruby
 
 VER=		0.5.2
 
+USE_TOOLS+=		pax
 REPLACE_RUBY_DIRS=	${WRKSRC}/examples
 RUBY_HAS_ARCHLIB=	yes
 RUBY_REQD=		1.8.0
@@ -24,7 +25,7 @@ DOCS=		AUTHORS COPYING ChangeLog README TODO
 
 post-install:
 	${INSTALL_DATA_DIR} ${RUBY_EXAMPLESDIR}/imlib2
-	cd ${WRKSRC}/examples && ${PAX} -rw -pp -pm . ${RUBY_EXAMPLESDIR}/imlib2
+	cd ${WRKSRC}/examples && pax -rw -pp -pm . ${RUBY_EXAMPLESDIR}/imlib2
 	${INSTALL_DATA_DIR} ${RUBY_DOCDIR}/imlib2
 .for f in ${DOCS}
 	${INSTALL_DATA} ${WRKSRC}/${f} ${RUBY_DOCDIR}/imlib2

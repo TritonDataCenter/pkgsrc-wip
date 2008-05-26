@@ -10,6 +10,7 @@ HOMEPAGE=	http://www.mnogosearch.org/
 COMMENT=	Web search engine software for intranet and internet servers
 
 GNU_CONFIGURE=		YES
+USE_TOOLS+=		pax
 
 PKG_SYSCONFSUBDIR=	mnogosearch
 MNOGOSEARCH_DATADIR?=	/var/mnogosearch
@@ -50,7 +51,7 @@ post-install:
 	${INSTALL_DATA}	${WRKSRC}/INSTALL ${DOCDIR}
 	${INSTALL_DATA}	${WRKSRC}/README ${DOCDIR}
 	@${FIND} ${WRKSRC}/create -name CVS -type d | ${XARGS} ${RM} -rf
-	cd ${WRKSRC}/create && ${PAX} -rw . ${DOCDIR}/create
+	cd ${WRKSRC}/create && pax -rw . ${DOCDIR}/create
 
 .include "../../security/openssl/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

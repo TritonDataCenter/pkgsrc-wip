@@ -19,7 +19,7 @@ MAKE_ENV+=		DONT_ENABLE_IPV6=YES
 DISTFILES+=	jce_policy-1_5_0.zip
 PLIST_SRC+=	PLIST.jce
 post-build:
-	cd ${WRKDIR}/jce ; ${PAX} -rw -pp . ${JDKIMAGEDIR}/jre/lib/security
+	cd ${WRKDIR}/jce ; pax -rw -pp . ${JDKIMAGEDIR}/jre/lib/security
 .endif
 
 

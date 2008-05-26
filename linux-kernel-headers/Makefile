@@ -14,13 +14,13 @@ do-build:
 	cd ${WRKSRC:Q} && ${SETENV} ${MAKE_ENV} ${GMAKE} include/linux/version.h
 
 do-install:
-	cd ${WRKSRC:Q}/include && ${PAX} -rw -pe linux ${PREFIX:Q}/include
+	cd ${WRKSRC:Q}/include && pax -rw -pe linux ${PREFIX:Q}/include
 	${INSTALL_DATA_DIR} ${PREFIX:Q}/include/asm
 	${RM} ${PREFIX:Q}/include/asm-generic
 	${LN} -s ${PREFIX:Q}/include/asm ${PREFIX:Q}/include/asm-generic
 	cd ${WRKSRC:Q}/include/asm-${LOWER_ARCH:Q} && \
-		${PAX} -rw -pe . ${PREFIX:Q}/include/asm
+		pax -rw -pe . ${PREFIX:Q}/include/asm
 	cd ${WRKSRC:Q}/include/asm-generic && \
-		${PAX} -rw -pe . ${PREFIX:Q}/include/asm
+		pax -rw -pe . ${PREFIX:Q}/include/asm
 
 .include "../../mk/bsd.pkg.mk"

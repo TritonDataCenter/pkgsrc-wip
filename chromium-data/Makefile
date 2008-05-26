@@ -13,9 +13,11 @@ COMMENT=		Data files for chromium scrollshooter
 WRKSRC=		${WRKDIR}/Chromium-0.9
 NO_BUILD=	yes
 
+USE_TOOLS+=	pax
+
 do-install:
 	${INSTALL_DATA_DIR} ${PREFIX}/share/chromium
-	cd ${WRKSRC}/data && ${PAX} -rw -s ',.*/CVS$$,,' -s ',.*/CVS/.*,,' . ${PREFIX}/share/chromium/
+	cd ${WRKSRC}/data && pax -rw -s ',.*/CVS$$,,' -s ',.*/CVS/.*,,' . ${PREFIX}/share/chromium/
 	${CHOWN} -R ${GAMEOWN}:${GAMEGRP} ${PREFIX}/share/chromium/
 
 .include "../../mk/bsd.pkg.mk"

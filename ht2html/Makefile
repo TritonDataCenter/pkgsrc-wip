@@ -9,6 +9,7 @@ MAINTAINER=		recht@NetBSD.org
 HOMEPAGE=		http://ht2html.sourceforge.net/
 COMMENT=		Simple web page templating system
 
+USE_TOOLS+=		pax
 PY_PATCHPLIST=		yes
 
 PYTHON_PATCH_SCRIPTS=	ht2html.py
@@ -29,7 +30,7 @@ do-build:
 
 do-install:
 	${INSTALL_DATA_DIR} ${EGDIR}
-	cd ${WRKSRC}/doc && ${PAX} -rw -pp -pm . ${EGDIR}
+	cd ${WRKSRC}/doc && pax -rw -pp -pm . ${EGDIR}
 	for egfile in ${EGFILES}; do \
 		${INSTALL_DATA} ${WRKSRC}/$${egfile} ${EGDIR}; \
 	done

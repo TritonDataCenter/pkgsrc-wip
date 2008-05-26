@@ -15,6 +15,7 @@ VER=		0.9.7
 REPLACE_RUBY_DIRS=	example/pr_ctl example/cgi/search.cgi
 RUBY_HAS_ARCHLIB=	yes
 USE_RUBY_EXTCONF=	yes
+USE_TOOLS+=		pax
 
 .include "options.mk"
 
@@ -26,7 +27,7 @@ post-install:
 	${INSTALL_DATA} ${WRKSRC}/${f} ${RUBY_DOCDIR}/ldap
 .endfor
 	${INSTALL_DATA_DIR} ${RUBY_EXAMPLESDIR}/ldap
-	cd ${WRKSRC}/example && ${PAX} -rw -pp * ${RUBY_EXAMPLESDIR}/ldap
+	cd ${WRKSRC}/example && pax -rw -pp * ${RUBY_EXAMPLESDIR}/ldap
 
 .include "../../lang/ruby/modules.mk"
 .include "../../mk/bsd.pkg.mk"

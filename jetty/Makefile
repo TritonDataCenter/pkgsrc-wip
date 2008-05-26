@@ -11,6 +11,7 @@ COMMENT=		Jetty is a Java HTTP Server and Servlet Container
 
 NO_BUILD=		yes
 
+USE_TOOLS+=		pax
 USE_JAVA2=		yes
 PKG_JVMS_ACCEPTED=	sun-jdk14 sun-jdk15 jdk14
 

@@ -18,11 +18,11 @@ USE_JAVA2=		yes
 NO_BUILD=		yes
 INSTALL_DIR=		${PREFIX}/share/Artemis
 
-USE_TOOLS+=		gtar
+USE_TOOLS+=		gtar pax
 
 do-install:
 	${INSTALL_DATA_DIR} ${INSTALL_DIR}
-	cd ${WRKSRC} && ${PAX} -rw . -s ',.*/CVS$$,,' -s ',.*/CVS/.*,,' ${INSTALL_DIR:Q}
+	cd ${WRKSRC} && pax -rw . -s ',.*/CVS$$,,' -s ',.*/CVS/.*,,' ${INSTALL_DIR:Q}
 	${MKDIR} ${WRKSRC}/qwerty
 	${SED} < ${FILESDIR}/act > ${WRKSRC}/qwerty/act \
 		-e 's:@INSTALL_DIR@:${INSTALL_DIR}:'

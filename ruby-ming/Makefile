@@ -11,8 +11,9 @@ COMMENT=	Ruby extension to drive the Ming SWF library
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
-USE_RUBY_SETUP=	yes
-VER=		0.1.9
+USE_TOOLS+=		pax
+USE_RUBY_SETUP=		yes
+VER=			0.1.9
 
 REPLACE_RUBY_DIRS=	${WRKSRC}/examples
 

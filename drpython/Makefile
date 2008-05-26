@@ -12,6 +12,7 @@ COMMENT=		Source code editor, written in Python, for Python
 
 NO_CONFIGURE=
 NO_BUILD=
+USE_TOOLS+=		pax
 
 DRPYTHON_DIR=		share/drpython
 PLIST_SRC=		${WRKDIR}/.PLIST_SRC

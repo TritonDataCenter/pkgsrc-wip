@@ -9,7 +9,7 @@ HOMEPAGE=	http://sourceforge.net/projects/iisemul8/
 COMMENT=	IIS emulator
 
 IISEMUL8=	${PREFIX}/share/iisemulator
-USE_TOOLS+=	perl
+USE_TOOLS+=	perl pax
 REPLACE_PERL=	iisemul8.pl
 
 DOC_FILES=	AUTHORS COPYING README BUGS TODO CHANGES
@@ -45,7 +45,7 @@ do-install:
 			${PREFIX}/share/examples/iisemulator; \
 	done
 
-	cd ${WRKSRC}/iis_data && ${PAX} -rw . ${IISEMUL8}/iis_data
-	cd ${WRKSRC}/wwwroot && ${PAX} -rw . ${IISEMUL8}/wwwroot
+	cd ${WRKSRC}/iis_data && pax -rw . ${IISEMUL8}/iis_data
+	cd ${WRKSRC}/wwwroot && pax -rw . ${IISEMUL8}/wwwroot
 
 .include "../../mk/bsd.pkg.mk"

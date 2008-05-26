@@ -11,12 +11,13 @@ COMMENT=	XHTML website generation tool
 
 PYDISTUTILSPKG=	yes
 PY_PATCHPLIST=	yes
+USE_TOOLS+=	pax
 
 EGDIR=		${PREFIX}/share/examples/${PKGBASE}
 
 post-install:
 	${INSTALL_DATA_DIR} ${EGDIR}
-	cd ${WRKSRC}/www && ${PAX} -rw -pp -pm . ${EGDIR}
+	cd ${WRKSRC}/www && pax -rw -pp -pm . ${EGDIR}
 
 .include "../../lang/python/extension.mk"
 .include "../../mk/bsd.pkg.mk"

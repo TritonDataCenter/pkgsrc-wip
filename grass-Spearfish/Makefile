@@ -14,12 +14,13 @@ COMMENT=		Example data set for Grass 5.0
 WRKSRC=			${WRKDIR}/
 NO_CONFIGURE=		yes
 NO_BUILD=		yes
+USE_TOOLS+=		pax
 
 do-install:
 	${INSTALL_DATA_DIR} ${PREFIX}/share/dataset
 	${INSTALL_DATA_DIR} ${PREFIX}/share/dataset/geography
 	${INSTALL_DATA_DIR} ${PREFIX}/share/dataset/geography/spearfish
 	cd ${WRKSRC}/spearfish/ && 					  \
-		${PAX} -rw . ${PREFIX}/share/dataset/geography/spearfish/
+		pax -rw . ${PREFIX}/share/dataset/geography/spearfish/
 
 .include "../../mk/bsd.pkg.mk"

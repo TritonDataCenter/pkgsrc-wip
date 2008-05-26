@@ -34,10 +34,12 @@ EXTRACT_CMD=		${SH} "$$extract_file" --noexec --keep
 PKG_DESTDIR_SUPPORT=	user-destdir
 INSTALLATION_DIRS=	bin
 
+USE_TOOLS+=		pax
+
 do-build:
 	cd ${WRKSRC} && ${MKDIR} GoogleEarth && cd GoogleEarth && \
-	${PAX} -r -f ../googleearth-linux-x86.tar && \
-	${PAX} -r -f ../googleearth-data.tar && \
+	pax -r -f ../googleearth-linux-x86.tar && \
+	pax -r -f ../googleearth-data.tar && \
 	${CP} ../*.xpm ../*.png ../bin/googleearth . && \
 	${FIND} . -type f | ${XARGS} ${CHMOD} -x && \
 	${CHMOD} +x googleearth googleearth-bin *.so*
@@ -46,6 +48,6 @@ do-build:
 
 do-install:
 	${INSTALL_SCRIPT} ${WRKDIR}/googleearth ${DESTDIR}${PREFIX}/bin/googleearth
-	cd ${WRKSRC} && ${PAX} -rw GoogleEarth ${DESTDIR}${PREFIX}
+	cd ${WRKSRC} && pax -rw GoogleEarth ${DESTDIR}${PREFIX}
 
 .include "../../mk/bsd.pkg.mk"

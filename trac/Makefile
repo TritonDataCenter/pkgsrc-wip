@@ -14,6 +14,7 @@ COMMENT=	Integrated SCM, wiki, issue tracker and project environment
 PKG_DESTDIR_SUPPORT=	user-destdir
 
 USE_LANGUAGES=	# none
+USE_TOOLS+=	pax
 
 DEPENDS+=	${PYPKGPREFIX}-genshi>=0.4.1:../../wip/genshi
 

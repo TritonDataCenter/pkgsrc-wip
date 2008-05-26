@@ -12,7 +12,7 @@ COMMENT=	reSID-builder snapshot from ccr/TNSP
 
 GNU_CONFIGURE=	yes
 USE_LANGUAGES=	c c++
-USE_TOOLS+=	make pkg-config
+USE_TOOLS+=	make pkg-config pax
 USE_LIBTOOL=	yes
 
 # I know it's dirty...
@@ -22,7 +22,7 @@ CONFIGURE_ARGS+= --with-resid=${WRKDIR}/${RESID}
 
 pre-extract:
 	cd ${WRKDIR} && ${FETCH_CMD} ${MASTER_SITES}/${RESID}.tar.gz
-	cd ${WRKDIR} && ${PAX} -rzf ${RESID}.tar.gz
+	cd ${WRKDIR} && pax -rzf ${RESID}.tar.gz
 
 pre-configure:
 	cd ${WRKDIR}/${RESID} && ./configure && make

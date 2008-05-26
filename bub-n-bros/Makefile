@@ -17,6 +17,8 @@ PYTHON_VERSIONS_INCOMPATIBLE+=	25
 MAKE_ENV+=		CFLAGS=${CFLAGS:M*:Q}
 MAKE_ENV+=		LDFLAGS=${LDFLAGS:M*:Q}
 
+USE_TOOLS+=		pax
+
 PYTHON_PATCH_SCRIPTS+=	bubbob/bb.py
 PYTHON_PATCH_SCRIPTS+=	bubbob/doc/bonus-doc.py
 PYTHON_PATCH_SCRIPTS+=	display/pclient.py
@@ -40,7 +42,7 @@ do-build:
 
 do-install:
 	${INSTALL_DATA_DIR} ${DESDIR}${PREFIX}/games/${PKGBASE}
-	cd ${WRKSRC} && ${PAX} ${PAX_SUBST} \
+	cd ${WRKSRC} && pax ${PAX_SUBST} \
 		-rwpe . ${DESDIR}${PREFIX}/games/${PKGBASE}
 
 .include "../../lang/python/application.mk"

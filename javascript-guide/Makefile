@@ -16,6 +16,7 @@ RESTRICTED=		I am not sure if we can redistribute it
 NO_BIN_ON_CDROM=	${RESTRICTED}
 NO_SRC_ON_CDROM=	${RESTRICTED}
 NO_BUILD=		yes
+USE_TOOLS+=		pax
 
 do-install:
 	${INSTALL_DATA_DIR} ${PREFIX}/${HTMLDIR}

@@ -16,6 +16,8 @@ DEPENDS+=		${PYPKGPREFIX}-xml>=0.8.4:../../textproc/py-xml
 .include "Makefile.common"
 .include "../../mk/bsd.prefs.mk"
 
+USE_TOOLS+=		pax
+
 HAS_CONFIGURE=		yes
 CONFIGURE_ARGS+=	--with-python ${PYTHONBIN} \
 			--prefix ${ZOPE3_DIR} \
@@ -45,9 +47,9 @@ post-install:
 	${LN} -s ${ZOPE3_DIR}/bin/mkzopeinstance ${PREFIX}/bin
 	${LN} -s ${ZOPE3_DIR}/bin/zopetest ${PREFIX}/bin
 	${INSTALL_DATA_DIR} ${ZOPE3_DOCDIR}
-	cd ${WRKSRC}/Zope && ${PAX} -r -w LICENSES.txt ZopePublicLicense.txt \
+	cd ${WRKSRC}/Zope && pax -r -w LICENSES.txt ZopePublicLicense.txt \
 		${ZOPE3_DOCDIR}
-	cd ${WRKSRC}/Zope/doc && ${PAX} -r -w *.txt ${ZOPE3_DOCDIR}
+	cd ${WRKSRC}/Zope/doc && pax -r -w *.txt ${ZOPE3_DOCDIR}
 
 .include "../../devel/zlib/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

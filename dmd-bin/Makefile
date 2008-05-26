@@ -14,6 +14,8 @@ COMMENT=		The D Programming Language from Digital Mars
 LINUX_BINPKG_FMT=	plain
 HTMLDIR=		share/doc/${PKGNAME}
 
+USE_TOOLS+=		pax
+
 do-install:
 	#
 	# binaries

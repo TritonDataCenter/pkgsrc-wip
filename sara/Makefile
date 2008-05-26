@@ -16,7 +16,7 @@ DEPENDS+=		samba>=3.0:../../net/samba
 
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
-USE_TOOLS+=		perl:run
+USE_TOOLS+=		perl:run pax
 
 EGDIR=		${PREFIX}/share/examples/sara
 EGFILES=	htm.cf paths.pl paths.sh ports programs sara.cf \
@@ -76,7 +76,7 @@ do-install:
 .endfor
 	${INSTALL_DATA_DIR} ${PREFIX}/share/sara/rules/
 	${INSTALL_DATA_DIR} ${PREFIX}/share/sara/html/
-	cd ${WRKSRC}/rules && ${PAX} -rwppm . ${PREFIX}/share/sara/rules/
-	cd ${WRKSRC}/html && ${PAX} -rwppm . ${PREFIX}/share/sara/html/
+	cd ${WRKSRC}/rules && pax -rwppm . ${PREFIX}/share/sara/rules/
+	cd ${WRKSRC}/html && pax -rwppm . ${PREFIX}/share/sara/html/
 
 .include "../../mk/bsd.pkg.mk"

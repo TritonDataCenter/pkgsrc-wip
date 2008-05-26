@@ -24,6 +24,7 @@ EMUL_MODULES.linux=	base compat fontconfig freetype2 glx \
 			libsigc++2 resmgr x11
 
 USE_DIRS+=		xdg-1.1
+USE_TOOLS+=		pax
 WRKSRC=			${WRKDIR}/${DISTNAME}
 
 DATADIR=		${PREFIX}/share/skype
@@ -42,7 +43,7 @@ do-install:
 	${INSTALL_DATA} ${WRKSRC}/skype.desktop ${PREFIX}/share/applications
 	${INSTALL_DATA_DIR} ${DATADIR}
 	${INSTALL_PROGRAM} ${WRKSRC}/skype ${DATADIR}
-	cd ${WRKSRC} && ${PAX} -rwppm icons sounds ${DATADIR}
+	cd ${WRKSRC} && pax -rwppm icons sounds ${DATADIR}
 	${INSTALL_DATA_DIR} ${DOCDIR}
 	${INSTALL_DATA} ${WRKSRC}/LICENSE ${DOCDIR}
 	${INSTALL_DATA} ${WRKSRC}/README ${DOCDIR}

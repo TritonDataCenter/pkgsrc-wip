@@ -18,7 +18,7 @@ GCC_REQD+=		3.0
 GNU_CONFIGURE=		yes
 INFO_FILES=		yes
 UNLIMIT_RESOURCES+=	datasize
-USE_TOOLS+=		gmake makeinfo msgfmt xgettext msgmerge
+USE_TOOLS+=		gmake makeinfo msgfmt xgettext msgmerge pax
 USE_LANGUAGES=		c c++
 USE_PKGLOCALEDIR=	yes
 

@@ -14,7 +14,7 @@ COMMENT=	Syslog-ng embodies the next generation of logging systems
 
 CONFLICTS=	syslog-ng-[0-9]*
 
-USE_TOOLS+=	pkg-config
+USE_TOOLS+=	pkg-config pax
 
 GNU_CONFIGURE=	yes
 
@@ -33,7 +33,7 @@ SUBST_MESSAGE.conf=	Fixing configuration file paths.
 
 pre-build:
 	cd ${WRKSRC}/doc/reference && \
-		${PAX} -O -zrf ${WRKSRC}/doc/reference/syslog-ng.html.tar.gz
+		pax -O -zrf ${WRKSRC}/doc/reference/syslog-ng.html.tar.gz
 
 post-install:
 	${INSTALL_DATA_DIR} ${DOCDIR}

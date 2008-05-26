@@ -15,9 +15,11 @@ PKG_INSTALLATION_TYPES=	overwrite pkgviews
 
 WRKSRC=			${WRKDIR}/gmc
 
+USE_TOOLS+=		pax
+
 do-install:
 	${INSTALL_DATA_DIR} ${PREFIX}/share/examples/gmc2mid/
-	cd ${WRKSRC} && ${PAX} -rw lections samples \
+	cd ${WRKSRC} && pax -rw lections samples \
 		${PREFIX}/share/examples/gmc2mid
 	${INSTALL_DATA_DIR} ${PREFIX}/share/doc/gmc2mid
 	${INSTALL_DATA} ${WRKSRC}/README ${PREFIX}/share/doc/gmc2mid/README

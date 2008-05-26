@@ -13,6 +13,7 @@ DEPENDS+=	bash-[0-9]*:../../shells/bash
 DEPENDS+=	tidy-[0-9]*:../../www/tidy
 
 USE_LANGUAGES=	# none
+USE_TOOLS+=	pax
 
 SUBST_CLASSES+=			fix-paths
 SUBST_STAGE.fix-paths=		pre-configure
@@ -25,7 +26,7 @@ do-build:
 
 do-install:
 	${INSTALL_SCRIPT} ${WRKSRC}/nb ${PREFIX}/bin
-	cd ${WRKSRC}/ && ${PAX} -rw -pp [a-z]* ${PREFIX}/share/nanoblogger
+	cd ${WRKSRC}/ && pax -rw -pp [a-z]* ${PREFIX}/share/nanoblogger
 
 #.include "../../mk/subst.mk"
 .include "../../mk/bsd.pkg.mk"

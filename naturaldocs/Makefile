@@ -16,6 +16,7 @@ PERL5_REQD+=	5.5
 
 WRKSRC=		${WRKDIR}
 NO_BUILD=	yes
+USE_TOOLS+=	pax
 
 NDDIR=		${PREFIX}/NaturalDocs
 

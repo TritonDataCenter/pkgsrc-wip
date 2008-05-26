@@ -12,7 +12,7 @@ COMMENT=	Alternative BitTorrent tracker written in C++
 WRKSRC=		${WRKDIR}/xbnbt/bnbt/src
 
 USE_LANGUAGES=	c++
-USE_TOOLS+=	gmake
+USE_TOOLS+=	gmake pax
 
 MAKE_FILE=	makefile
 BUILD_TARGET+=	bnbt

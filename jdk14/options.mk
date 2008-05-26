@@ -14,7 +14,7 @@ PKG_OPTIONS_LEGACY_VARS+=	JDK14_USE_JCE:jdk14-jce
 DISTFILES+=			jce_policy-1_4_2.zip
 PLIST_SRC+=			PLIST.jce
 post-build:
-	cd ${WRKDIR}/jce ; ${PAX} -rw -pe . ${JDKIMAGEDIR}/jre/lib/security
+	cd ${WRKDIR}/jce ; pax -rw -pe . ${JDKIMAGEDIR}/jre/lib/security
 .endif
 
 ###

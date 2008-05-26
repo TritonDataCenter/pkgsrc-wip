@@ -21,6 +21,8 @@ RESTRICTED=		I am not sure if we can redistribute it
 NO_BIN_ON_CDROM=	${RESTRICTED}
 NO_SRC_ON_CDROM=	${RESTRICTED}
 
+USE_TOOLS+=		pax
+
 REPLACE_INTERPRETER+=	bash
 REPLACE.bash.old=	/bin/bash
 REPLACE.bash.new=	${SH}
@@ -36,7 +38,7 @@ TARGET_DIR=	${EMULOPTDIR}/kylix
 
 do-install:
 	${INSTALL_DATA_DIR} ${TARGET_DIR}
-	cd ${WRKDIR}/kylix3_open/runimage/kylix && ${PAX} -rw -pe * ${TARGET_DIR}
+	cd ${WRKDIR}/kylix3_open/runimage/kylix && pax -rw -pe * ${TARGET_DIR}
 	${LN} -s ${EMULOPTDIR}/bin/libwine.borland.so.1.0 ${EMULDIR}/usr/lib/libwine.borland.so
 	${LN} -s ${EMULOPTDIR}/bin/libwine_unicode.borland.so.1.0 ${EMULDIR}/usr/lib/libwine_unicode.borland.so
 	${CAT} ${PKGDIR}/PLIST.pre >${PLIST_SRC}

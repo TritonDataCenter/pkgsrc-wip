@@ -12,6 +12,8 @@ HOMEPAGE=		http://visionegg.sourceforge.net/
 COMMENT=		Demonstration programs for py-visionegg
 
 NO_BUILD=		yes
+USE_TOOLS+=		pax
+
 PLIST_SUBST+=		PYVERSSUFFIX=${PYVERSSUFFIX:Q}
 MESSAGE_SUBST+=		PY_VE_DIR=${PY_VE_DEMO_DIR}
 

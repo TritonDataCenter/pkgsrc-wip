@@ -15,6 +15,7 @@ PKG_INSTALLATION_TYPES=	overwrite pkgviews
 MAKE_FILE=		Makefile.Fedora
 
 USE_LANGUAGES=		c c++
+USE_TOOLS+=		pax
 
 post-extract:
 	${CP} ${FILESDIR}/scourge.sh ${WRKSRC}
@@ -31,7 +32,7 @@ do-install:
 	${INSTALL_DATA_DIR} ${PREFIX}/share/scourgedir/saved
 	${INSTALL_PROGRAM} ${WRKSRC}/scourge ${PREFIX}/share/scourgedir
 	${INSTALL_SCRIPT} ${WRKSRC}/scourge.sh ${PREFIX}/bin/scourge
-	cd ${WRKSRC}/data && ${PAX} -rw . ${PREFIX}/share/scourgedir/data
+	cd ${WRKSRC}/data && pax -rw . ${PREFIX}/share/scourgedir/data
 	${INSTALL_DATA} ${WRKSRC}/saved/scourge.cfg \
 		${PREFIX}/share/scourgedir/saved
 

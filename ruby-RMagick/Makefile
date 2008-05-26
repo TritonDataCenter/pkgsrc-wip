@@ -15,12 +15,12 @@ RUBY_HAS_ARCHLIB=	yes
 USE_RUBY_SETUP=		yes
 
 CONFIGURE_ARGS+=	--doc-dir=${DESTDIR}${RUBY_DOCDIR}/RMagick
-USE_TOOLS+=	gs
+USE_TOOLS+=		gs pax
 
 post-install:
 	${INSTALL_DATA_DIR} ${DESTDIR}${RUBY_EXAMPLESDIR}/RMagick
 	cd ${WRKSRC}/examples && \
-		${PAX} -rw -pp -pm . ${DESTDIR}${RUBY_EXAMPLESDIR}/RMagick
+		pax -rw -pp -pm . ${DESTDIR}${RUBY_EXAMPLESDIR}/RMagick
 
 .include "../../graphics/ImageMagick/buildlink3.mk"
 .include "../../lang/ruby/modules.mk"

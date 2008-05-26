@@ -32,7 +32,7 @@ MAKE_ENV+=		SKIP_FASTDEBUG_BUILD=false
 DISTFILES+=	jce_policy-6.zip
 PLIST_SRC+=	PLIST.jce
 post-build:
-	cd ${WRKDIR}/jce ; ${PAX} -rw -pp . ${JDKIMAGEDIR}/jre/lib/security
+	cd ${WRKDIR}/jce ; pax -rw -pp . ${JDKIMAGEDIR}/jre/lib/security
 .endif
 
 

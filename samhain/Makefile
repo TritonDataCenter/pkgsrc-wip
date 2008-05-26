@@ -14,6 +14,7 @@ WRKSRC=		${WRKDIR}/${PKGNAME_NOREV}
 RCD_SCRIPTS=	samhain
 EGDIR=		${PREFIX}/share/examples/samhain
 CONF_FILES=	${EGDIR}/samhainrc ${PKG_SYSCONFDIR}/samhainrc
+USE_TOOLS+=	pax
 
 CONFIGURE_ARGS+=	--with-config-file=${PREFIX}/etc/samhainrc
 CONFIGURE_ARGS+=	--with-data-file=${PREFIX}/etc/samhain.db

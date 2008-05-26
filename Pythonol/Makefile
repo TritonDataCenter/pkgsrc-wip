@@ -20,7 +20,7 @@ PY_PATCHPLIST=		yes
 
 TARGET_DIR=		${PREFIX}/${PYSITELIB}/Pythonol
 SCRIPTNAME=		${PREFIX}/bin/pythonol
-USE_TOOLS+=		printf
+USE_TOOLS+=		printf pax
 
 do-build:
 	${RM} -r ${WRKSRC:Q}/sqlite

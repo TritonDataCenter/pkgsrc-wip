@@ -12,11 +12,12 @@ COMMENT=		GNU C Compiler for win32 cross development
 NO_BUILD=		yes
 NO_CONFIGURE=		yes
 USE_CROSSBASE=		yes
+USE_TOOLS+=		pax
 WRKSRC=			${WRKDIR}
 
 do-install:
 	${INSTALL_DATA_DIR} ${PREFIX}/${MINGW_TARGET}
-	cd ${WRKSRC} && ${PAX} -rw -pe include lib ${PREFIX}/${MINGW_TARGET}
+	cd ${WRKSRC} && pax -rw -pe include lib ${PREFIX}/${MINGW_TARGET}
 
 .include "../../wip/mingw/Makefile.common"
 .include "../../mk/bsd.pkg.mk"

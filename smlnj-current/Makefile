@@ -30,7 +30,7 @@ SML_VERSION=	110.59
 
 WRKSRC=		${WRKDIR}
 DIST_SUBDIR=	smlnj-${SML_VERSION}
-USE_TOOLS+=	gmake
+USE_TOOLS+=	gmake pax
 
 SML_BASE=	${PREFIX}/lib/smlnj
 SML_LIBDIR=	${SML_BASE}/lib
@@ -91,7 +91,7 @@ do-build:
 # 3. install links to executables in $PREFIX/bin
 do-install:
 	${INSTALL_DATA_DIR} ${SML_BASE}
-	cd ${WRKDIR} && ${PAX} -rw -pam bin lib ${SML_BASE}
+	cd ${WRKDIR} && pax -rw -pam bin lib ${SML_BASE}
 	cd ${PREFIX}/bin && ${LN} -sf ../lib/smlnj/bin/* .
 
 .include "../../mk/bsd.pkg.mk"

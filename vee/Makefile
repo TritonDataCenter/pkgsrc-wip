@@ -11,10 +11,11 @@ MAINTAINER=	cherry@zyx.in
 HOMEPAGE=	http://www.0x743.com/vee/
 COMMENT=	Command line blog tool that is very portable across Unix systems
 
-do-build:
+NO_BUILD=	yes	# no? yes!
+USE_TOOLS+=	pax
 
 do-install:
 	${INSTALL_SCRIPT} ${WRKSRC}/bin/vee ${PREFIX}/bin
-	cd ${WRKSRC}/ && ${RM} -rf ${WRKSRC}/bin && ${PAX} -rw -pp [a,c-z,A-Z]* ${PREFIX}/share/vee
+	cd ${WRKSRC}/ && ${RM} -rf ${WRKSRC}/bin && pax -rw -pp [a,c-z,A-Z]* ${PREFIX}/share/vee
 
 .include "../../mk/bsd.pkg.mk"

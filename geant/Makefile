@@ -13,7 +13,7 @@ COMMENT=	Toolkit for the simulation of the passage of particles through matter
 
 WRKSRC=		${WRKDIR}/${DISTNAME}/source
 MAKE_FILE=	GNUmakefile
-USE_TOOLS+=	gmake
+USE_TOOLS+=	gmake pax
 USE_LANGUAGES=	c c++
 
 BUILD_TARGET=	# empty

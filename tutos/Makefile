@@ -19,12 +19,13 @@ PKG_USERS+=	${TUTOS_USER}:${TUTOS_GROUP}::Tutos\ Runtime\ User
 
 NO_CONFIGURE=	yes
 NO_BUILD=	yes
+USE_TOOLS+=	pax
 
 do-install:
 	${SED} -e 's|@PREFIX@|${PREFIX}|g' -e 's|@X11BASE@|${X11BASE}|g' \
 		${FILESDIR}/config.pinc > ${WRKSRC}/config.pinc
 	${INSTALL_DATA_DIR} ${PREFIX}/share/httpd/htdocs/tutos
-	cd ${WRKSRC}; ${PAX} -rwpe . ${PREFIX}/share/httpd/htdocs/tutos
+	cd ${WRKSRC}; pax -rwpe . ${PREFIX}/share/httpd/htdocs/tutos
 
 .include "../../lang/php/phpversion.mk"
 .include "${PHPPKGSRCDIR}/buildlink3.mk"

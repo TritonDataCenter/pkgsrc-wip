@@ -16,13 +16,13 @@ EGDIR=			${PREFIX}/share/examples/acpid
 CONF_FILES+=		${EGDIR}/sample.conf ${PKG_SYSCONFDIR}/acpid/acpid.conf
 RCD_SCRIPTS=		acpid
 
-USE_TOOLS+=		gmake
+USE_TOOLS+=		gmake pax
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/acpid ${PREFIX}/sbin
 	${INSTALL_PROGRAM} ${WRKSRC}/acpi_listen ${PREFIX}/sbin
 	${INSTALL_MAN} ${WRKSRC}/acpid.8 ${PREFIX}/${PKGMANDIR}/man8/
 	${INSTALL_DATA_DIR} ${PREFIX}/share/examples/acpid
-	cd ${WRKSRC}/samples/ && ${PAX} -wr * ${PREFIX}/share/examples/acpid/
+	cd ${WRKSRC}/samples/ && pax -wr * ${PREFIX}/share/examples/acpid/
 
 .include "../../mk/bsd.pkg.mk"
