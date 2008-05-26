@@ -13,7 +13,7 @@ PLIST_VARS+=	x11 opengl
 .endif
 
 .if !empty(PKG_OPTIONS:Mldap)
-.include "../../databases/openldap-client/buildlink3.mk"    
+.include "../../databases/openldap-client/buildlink3.mk"
 .else
 CONFIGURE_ARGS+=	--without-ldap
 .endif
