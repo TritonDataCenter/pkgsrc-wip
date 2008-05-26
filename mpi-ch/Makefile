@@ -14,6 +14,8 @@ CONFLICTS+=	openmpi-[0-9]*	# installs bin/mpicc & other wrappers
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
+MAKE_JOBS_SAFE=		no
+
 GNU_CONFIGURE=		yes
 USE_LANGUAGES=		c c++ fortran
 
