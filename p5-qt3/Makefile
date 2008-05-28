@@ -11,6 +11,7 @@ CATEGORIES=		x11
 MAINTAINER=		rhialto@falu.nl
 HOMEPAGE=		http://perlqt.sourceforge.net/
 
+USE_LANGUAGES+=		c
 USE_LANGUAGES+=		c++
 USE_TOOLS+=		perl
 USE_TOOLS+=		gmake
