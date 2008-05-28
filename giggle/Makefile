@@ -14,6 +14,9 @@ USE_LIBTOOL=		yes
 USE_TOOLS+=		pkg-config perl gmake
 USE_DIRS+=		xdg-1.4
 
+DEPENDS+=		scmgit-base-[0-9]*:../../devel/scmgit-base
+DEPENDS+=		p5-XML-Parser-[0-9]*:../../textproc/p5-XML-Parser
+
 .include "../../x11/gtk2/buildlink3.mk"
 .include "../../devel/glib2/buildlink3.mk"
 .include "../../devel/libglade/buildlink3.mk"
