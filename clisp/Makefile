@@ -22,20 +22,21 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 MAKE_JOBS_SAFE=		no
 
 CONFIGURE_DIRS=		.
+USE_GNU_CONFIGURE_HOST=	NO	# work around broken reasoning: "configure--host=..." => cross-building
 BUILD_DIRS=		src
 GNU_CONFIGURE=		YES
 USE_LIBTOOL=		YES
 USE_PKGLOCALEDIR=	YES
-USE_TOOLS+=		dvipdf #gmake
+USE_TOOLS+=		dvipdf
 UNLIMIT_RESOURCES=	stacksize
 
 CONFIGURE_ARGS+=	--fsstnd=netbsd
 CONFIGURE_ARGS+=	--without-included-regex
 CONFIGURE_ARGS+=	--with-gettext
-CONFIGURE_ARGS+=	--docdir=${PREFIX}/share/doc/${PKGNAME}
-CONFIGURE_ARGS+=	--mandir=${PREFIX}/${PKGMANDIR}
-#CONFIGURE_ARGS+=	--elispdir="${PREFIX}/share/${PKGNAME}/emacs"
-#CONFIGURE_ARGS+=	--vimdir="${PREFIX}/share/${PKGNAME}/vim"
+MAKE_FLAGS+=		docdir=${PREFIX}/share/doc/${PKGNAME}
+MAKE_FLAGS+=		mandir=${PREFIX}/${PKGMANDIR}
+MAKE_FLAGS+=		elispdir="${PREFIX}/share/${PKGNAME}/emacs"
+MAKE_FLAGS+=		vimdir="${PREFIX}/share/${PKGNAME}/vim"
 
 TEST_TARGET=		check
 
