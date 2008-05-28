@@ -40,6 +40,7 @@ share/chicken/tcp.exports
 share/chicken/utils.exports
 share/doc/${PKGNAME}/LICENSE
 share/doc/${PKGNAME}/README
+share/doc/${PKGNAME}/chicken.pdf
 share/doc/${PKGNAME}/html/accessing-external-objects.html
 share/doc/${PKGNAME}/html/acknowledgements.html
 share/doc/${PKGNAME}/html/basic-mode-of-operation.html
