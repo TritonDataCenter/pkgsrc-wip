@@ -1,9 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		dumb-0.9.2-fixed
-PKGNAME=		dumb-0.9.2
-WRKSRC=			${WRKDIR}/dumb
+DISTNAME=		dumb-0.9.3
 CATEGORIES=		audio devel
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=dumb/}
 
@@ -24,5 +22,4 @@ post-install:
 
 .include "../../devel/allegro/buildlink3.mk"
 .include "../../mk/oss.buildlink3.mk"
-.include "../../mk/x11.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

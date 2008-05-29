@@ -1,4 +1,5 @@
 @comment $NetBSD$
+bin/dumb2wav
 bin/dumbout
 bin/dumbplay
 include/aldumb.h
