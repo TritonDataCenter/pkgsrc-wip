@@ -12,6 +12,7 @@ HOMEPAGE=	http://OpenGLUT.sourceforge.net/
 COMMENT=	OpenGLUT is an open source evolution of the GLUT API
 
 PKG_INSTALLATION_TYPES=	overwrite pkgviews
+PKG_DESTDIR_SUPPORT=	user-destdir
 
 USE_LIBTOOL=	yes
 GNU_CONFIGURE=	yes
@@ -21,5 +22,4 @@ CONFIGURE_ARGS+=	--enable-fast
 
 .include "../../graphics/MesaLib/buildlink3.mk"
 .include "../../graphics/glu/buildlink3.mk"
-.include "../../mk/x11.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
