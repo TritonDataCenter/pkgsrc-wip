@@ -1,4 +1,0 @@
-@comment $NetBSD$
-bin/ecm
-include/ecm.h
-lib/libecm.a
