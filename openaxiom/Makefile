@@ -22,6 +22,8 @@ USE_LANGUAGES+=		fortran
 BUILD_DEPENDS+=		noweb-[0-9]*:../../devel/noweb
 #INFO_FILES=		yes
 
+BUILD_MAKE_FLAGS+=	TOOLS_PLATFORM.install=${TOOLS_PLATFORM.install:Q}
+
 #USE_GNU_CONFIGURE_HOST=	no
 
 #TARGET_SYSTEM!=		../../mk/gnu-config/config.guess
@@ -33,7 +35,7 @@ pre-configure:
 	cd ${WRKSRC} && ${RUN} ./build-setup.sh
 
 # I need to figure out, why it fails with pkgsrc's version:
-do-configure:
-	cd ${WRKSRC} && ./configure ${CONFIGURE_ARGS} # --prefix=/usr/pkg
+# do-configure:
+# 	cd ${WRKSRC} && ./configure ${CONFIGURE_ARGS} # --prefix=/usr/pkg
 
 .include "../../mk/bsd.pkg.mk"
