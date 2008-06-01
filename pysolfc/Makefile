@@ -12,6 +12,9 @@ MAINTAINER=	gary@duzan.org
 HOMEPAGE=	http://pysolfc.sourceforge.net/
 COMMENT=	Python solitaire game collection
 
+DEPENDS+=	${PYPKGPREFIX}-imagingtk>=1.1:../../graphics/py-imagingtk
+DEPENDS+=	${PYPKGPREFIX}-gtk2>=1.1:../../x11/py-gtk2
+
 CONFLICTS=	pysol-[0-9]*
 
 #PKG_DESTDIR_SUPPORT=	user-destdir
@@ -25,8 +28,7 @@ CARDSETS=	PySolFC-Cardsets-1.1
 
 PYDISTUTILSPKG=	yes
 
-DEPENDS+=	${PYPKGPREFIX}-imagingtk>=1.1:../../graphics/py-imagingtk
-DEPENDS+=	${PYPKGPREFIX}-gtk2>=1.1:../../x11/py-gtk2
+INSTALLATION_DIRS=	${PKGMANDIR}/man6
 
 SUBST_CLASSES+=			fix-paths
 SUBST_STAGE.fix-paths=		pre-configure
@@ -48,8 +50,6 @@ PLIST_SUBST+=	PKGMANDIR="${PKGMANDIR}"
 post-install:
 	${INSTALL_MAN} ${WRKSRC}/docs/pysol.6 ${PREFIX}/${PKGMANDIR}/man6
 
-#INSTALLATION_DIRS=	bin ${PKGMANDIR}/man6
-#
 #do-install:
 #	${SED} -e "s|@pkgdatadir@|${PREFIX}/share/pysol|" \
 #		-e "s|python|${PYTHONBIN}|" \
