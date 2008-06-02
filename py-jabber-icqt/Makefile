@@ -7,6 +7,7 @@ MASTER_SITES=		http://pyicqt.googlecode.com/files/
 
 PATCH_SITES=		http://maxim.modum.by/
 PATCHFILES=		pyicqt-allow-md5-v2.patch
+PATCH_DIST_STRIP.pyicqt-allow-md5-v2.patch=	-p1
 
 MAINTAINER=		eric@cirr.com
 HOMEPAGE=		http://code.google.com/p/pyicqt/
