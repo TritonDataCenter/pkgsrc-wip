@@ -1,6 +1,6 @@
 # $NetBSD: $
 
-DISTNAME=	wine-1.0-rc2
+DISTNAME=	wine-1.0-rc3
 # Remove this after release!
 PKGNAME=	${DISTNAME:S/0-/0/}
 #PKGREVISION=	1
@@ -9,7 +9,7 @@ MASTER_SITES=	http://ibiblio.org/pub/linux/system/emulators/wine/ \
 		${MASTER_SITE_SOURCEFORGE:=wine/}
 EXTRACT_SUFX=	.tar.bz2
 
-MAINTAINER=	asau@inbox.ru adam.hoka@gmail.com
+MAINTAINER=	asau@inbox.ru, adam.hoka@gmail.com
 HOMEPAGE=	http://www.winehq.com/
 COMMENT=	Free implementation of the Windows(tm) runtime on POSIX
 
