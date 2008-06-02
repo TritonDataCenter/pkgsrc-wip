@@ -2,6 +2,7 @@
 
 DISTNAME=		pyicq-t-0.8b
 PKGNAME=		${PYPKGPREFIX}-jabber-${DISTNAME:S/py//}
+PKGREVISION=		1
 CATEGORIES=		chat python
 MASTER_SITES=		http://pyicqt.googlecode.com/files/
 
