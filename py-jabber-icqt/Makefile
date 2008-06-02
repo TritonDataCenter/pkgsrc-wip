@@ -6,7 +6,7 @@ CATEGORIES=		chat python
 MASTER_SITES=		http://pyicqt.googlecode.com/files/
 
 PATCH_SITES=		http://maxim.modum.by/
-PATCH_FILES=		pyicqt-allow-md5-v2.patch
+PATCHFILES=		pyicqt-allow-md5-v2.patch
 
 MAINTAINER=		eric@cirr.com
 HOMEPAGE=		http://code.google.com/p/pyicqt/
