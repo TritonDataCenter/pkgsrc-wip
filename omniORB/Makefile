@@ -1,8 +1,8 @@
 # $NetBSD$
 #
 
-PKGNAME=		omniORB-4.1.0.2
-DISTNAME=		omniORB-4.1.0-beta2
+PKGNAME=		omniORB-4.1.2
+DISTNAME=		omniORB-4.1.2
 CATEGORIES=		devel
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=omniorb/}
 
