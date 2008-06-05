@@ -1,13 +1,13 @@
 $NetBSD$
 
---- Makefile.in.orig	2008-04-27 04:58:17.000000000 -0500
+--- Makefile.in.orig
 +++ Makefile.in
-@@ -194,7 +194,7 @@ target_alias = @target_alias@
+@@ -197,7 +197,7 @@
  top_builddir = @top_builddir@
  top_srcdir = @top_srcdir@
  EXTRA_DIST = Doxyfile.in README.win32 README.protocol contrib UPGRADE
--SUBDIRS = etc tools man mio subst sx util c2s resolver router s2s sm storage
-+SUBDIRS = tools man mio subst sx util c2s resolver router s2s sm storage
+-SUBDIRS = etc tools man mio subst sx util c2s router s2s sm storage
++SUBDIRS = tools man mio subst sx util c2s router s2s sm storage
  all: config.h
  	$(MAKE) $(AM_MAKEFLAGS) all-recursive
  
