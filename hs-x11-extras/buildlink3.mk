@@ -17,7 +17,6 @@ BUILDLINK_API_DEPENDS.hs-x11-extras+=	hs-x11-extras>=0.4
 BUILDLINK_PKGSRCDIR.hs-x11-extras?=	../../wip/hs-x11-extras
 .endif	# HS_X11_EXTRAS_BUILDLINK3_MK
 
-.include "../../wip/cabal/buildlink3.mk"
 .include "../../wip/hs-x11/buildlink3.mk"
 .include "../../lang/ghc/buildlink3.mk"
 

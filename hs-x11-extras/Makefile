@@ -56,7 +56,6 @@ do-install:
 	cd ${WRKSRC} && runhaskell -cpp Setup.lhs copy
 
 
-.include "../../wip/cabal/buildlink3.mk"
 .include "../../wip/hs-x11/buildlink3.mk"
 .include "../../lang/ghc/buildlink3.mk"
 .include "../../x11/xineramaproto/buildlink3.mk"
