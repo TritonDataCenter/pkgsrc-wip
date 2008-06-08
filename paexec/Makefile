@@ -18,7 +18,6 @@ TEST_TARGET=		test
 
 PKGDOCDIR=		${PREFIX}/share/doc/${PKGBASE}
 PKGEGDIR=		${PREFIX}/share/examples/${PKGBASE}
-EGLIST=			cc_wrapper all_substr toupper
 
 AUTO_MKDIRS=		yes
 
@@ -38,7 +37,7 @@ SUPPORTED_SYSTEM=	1
 .if ${SUPPORTED_SYSTEM} == "0"
 CPPFLAGS+=		-DNO_PORTABHACKS_H=1 -DHAVE_CONFIG_H=1
 pre-build:
-	echo '#include <getopt.h>' > ${WRKSRC}/config.h
+	${ECHO} '#include <getopt.h>' > ${WRKSRC}/config.h
 .endif
 
 post-install:
