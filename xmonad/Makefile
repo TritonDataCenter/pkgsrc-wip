@@ -23,7 +23,7 @@ CONFIGURE_ARGS+=	--with-compiler=${PREFIX}/bin/ghc
 CONFIGURE_ARGS+=	--with-hc-pkg=${PREFIX}/bin/ghc-pkg
 CONFIGURE_ARGS+=	--prefix=${PREFIX}
 
-VERSION=		0.6
+VERSION=		0.7
 
 
 do-configure:
