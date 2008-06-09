@@ -8,6 +8,7 @@ share/doc/scummvm/NEWS
 share/doc/scummvm/README
 share/pixmaps/scummvm.xpm
 share/scummvm/classic080.ini
+share/scummvm/drascula.dat
 share/scummvm/igor.tbl
 share/scummvm/kyra.dat
 share/scummvm/lure.dat
