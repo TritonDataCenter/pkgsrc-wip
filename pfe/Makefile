@@ -14,6 +14,6 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 CONFIGURE_ARGS+=	--with-regs
-USE_TOOLS+=	perl
+USE_TOOLS+=	perl pkg-config
 
 .include "../../mk/bsd.pkg.mk"
