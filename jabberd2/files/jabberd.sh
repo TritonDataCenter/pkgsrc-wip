@@ -36,7 +36,7 @@ reverse_commands()
 	done
 }
 
-COMMAND_LIST="resolver router c2s s2s sm"
+COMMAND_LIST="router c2s s2s sm"
 
 name="jabberd"
 start_cmd="forward_commands"
