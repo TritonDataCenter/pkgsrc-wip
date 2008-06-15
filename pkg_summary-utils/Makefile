@@ -33,12 +33,10 @@ WRKSRC=		${.CURDIR}/files
 NO_CHECKSUM=	yes
 NO_BUILD=	yes
 
-MAN1DIR=	${PKGMANDIR}/man1
-
 MAKE_ENV+=	MAKEOBJDIR=${WRKDIR}
 MAKE_ENV+=	MKCATPAGES=no
 MAKE_ENV+=	AWKMODDIR=${PREFIX}/share/runawk
 
-INSTALLATION_DIRS+=	bin ${MAN1DIR} share/doc/pkg_summary-utils share/runawk
+AUTO_MKDIRS=	yes
 
 .include "../../mk/bsd.pkg.mk"
