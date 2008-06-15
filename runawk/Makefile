@@ -1,8 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	runawk-0.12.1
-PKGREVISION=	1
+DISTNAME=	runawk-0.13.0
 CATEGORIES=	lang devel
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=runawk/}
 
