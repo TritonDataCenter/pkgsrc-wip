@@ -1,6 +1,6 @@
 # $NetBSD: $
 
-DISTNAME=	wine-1.0-rc4
+DISTNAME=	wine-1.0-rc5
 # Remove this after release!
 PKGNAME=	${DISTNAME:S/0-/0/}
 #PKGREVISION=	1
