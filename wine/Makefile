@@ -1,9 +1,7 @@
 # $NetBSD: $
 
-DISTNAME=	wine-1.0-rc5
-# Remove this after release!
+DISTNAME=	wine-1.0
 PKGNAME=	${DISTNAME:S/0-/0/}
-#PKGREVISION=	1
 CATEGORIES=	emulators
 MASTER_SITES=	http://ibiblio.org/pub/linux/system/emulators/wine/ \
 		${MASTER_SITE_SOURCEFORGE:=wine/}
