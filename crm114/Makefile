@@ -1,7 +1,7 @@
 # $NetBSD$
 
-PKGNAME=		crm114-20070320
-DISTNAME=		${PKGNAME}-BlameBaltar.src
+PKGNAME=		crm114-20070810
+DISTNAME=		${PKGNAME}-BlameTheSegfault.src
 CATEGORIES=		mail
 
 MAINTAINER=		bsd@cs.ubc.ca
