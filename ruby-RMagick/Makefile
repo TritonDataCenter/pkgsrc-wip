@@ -2,6 +2,7 @@
 
 DISTNAME=	RMagick-2.5.0
 PKGNAME=	${RUBY_PKGPREFIX}-${DISTNAME}
+PKGREVISION=	1
 CATEGORIES=	graphics ruby
 MASTER_SITES=	http://rubyforge.org/frs/download.php/38050/
 
@@ -15,6 +16,9 @@ RUBY_HAS_ARCHLIB=	yes
 USE_RUBY_SETUP=		yes
 
 CONFIGURE_ARGS+=	--doc-dir=${DESTDIR}${RUBY_DOCDIR}/RMagick
+CONFIGURE_ARGS+=	--siteruby=${PREFIX}/${RUBY_VENDORLIB_BASE}
+CONFIGURE_ARGS+=	--siterubyver=${PREFIX}/${RUBY_VENDORLIB}
+CONFIGURE_ARGS+=	--siterubyverarch=${PREFIX}/${RUBY_VENDORARCHLIB}
 USE_TOOLS+=		gs pax
 
 post-install:
