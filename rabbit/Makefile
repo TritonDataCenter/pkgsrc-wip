@@ -3,7 +3,7 @@
 
 DISTNAME=	rabbit-0.5.6
 PKGNAME=	${RUBY_PKGPREFIX}-${DISTNAME}
-PKGREVISION=	1
+PKGREVISION=	2
 CATEGORIES=	graphics ruby
 MASTER_SITES=	http://www.cozmixng.org/~kou/download/
 
@@ -20,8 +20,9 @@ DEPENDS+=	${RUBY_PKGPREFIX}-rttool>=1.0.2:../../wip/ruby-rttool
 USE_RUBY_SETUP=	yes
 REPLACE_RUBY=	bin/rabbit bin/rabbit-theme-manager bin/rabrick
 
-pre-configure:
-	rm -rf ${WRKSRC}/lib/rt
+CONFIGURE_ARGS+=	--siteruby=${PREFIX}/${RUBY_VENDORLIB_BASE} \
+			--siterubyver=${PREFIX}/${RUBY_VENDORLIB} \
+			--siterubyverarch=${PREFIX}/${RUBY_VENDORARCHLIB}
 
 post-install:
 	rm ${DESTDIR}${PREFIX}/bin/rabbit.bat
