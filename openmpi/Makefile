@@ -13,6 +13,7 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 
 GNU_CONFIGURE=		yes
 USE_LANGUAGES=		c c++ fortran
+USE_LIBTOOL=		yes
 
 CONFIGURE_ENV+=	NM=/usr/bin/nm
 
