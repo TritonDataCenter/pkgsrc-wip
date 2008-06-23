@@ -8,5 +8,10 @@ ${PYSITELIB}/proxy65/proxy65.pyo
 ${PYSITELIB}/proxy65/socks5.py
 ${PYSITELIB}/proxy65/socks5.pyc
 ${PYSITELIB}/proxy65/socks5.pyo
-${PYSITELIB}/proxy65/plugins.tml
+${PYSITELIB}/proxy65/tap.py
+${PYSITELIB}/proxy65/tap.pyc
+${PYSITELIB}/proxy65/tap.pyo
+${PYSITELIB}/twisted/plugins/proxy65.py
+${PYSITELIB}/twisted/plugins/proxy65.pyc
+${PYSITELIB}/twisted/plugins/proxy65.pyo
 @dirrm ${PYSITELIB}/proxy65
