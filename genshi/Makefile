@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	Genshi-0.4.4
+DISTNAME=	Genshi-0.5
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME:tl}
 EGG_NAME=	${DISTNAME}
 CATEGORIES=	www python
@@ -13,7 +13,7 @@ COMMENT=	Python toolkit for generation of output for the web
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
-USE_LANGUAGES=	# none
+USE_LANGUAGES=	c
 
 DEPENDS+=	${PYPKGPREFIX}-babel>=0.8:../../wip/babel
 
