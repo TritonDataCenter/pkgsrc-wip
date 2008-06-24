@@ -1,5 +1,4 @@
 # $NetBSD: Makefile,v 1.42 2007/11/15 12:57:21 sborrill Exp $
-#
 
 DISTNAME=		jabberd-2.2.0
 CATEGORIES=		chat
@@ -31,8 +30,6 @@ CONFIGURE_ARGS+=	--enable-pipe
 CONFIGURE_ARGS+=	--enable-anon
 CONFIGURE_ARGS+=	--enable-ssl
 CONFIGURE_ARGS+=	--enable-fs
-# only GNU sasl is really supported
-# CONFIGURE_ARGS+=	--with-sasl=gsasl
 
 .if (${MACHINE_ARCH} == alpha)
 CONFIGURE_ARGS+=	CXXFLAGS=${CXXFLAGS:M*:C/-O./-O1/:Q}
@@ -124,11 +121,9 @@ post-install:
 	${INSTALL_DATA} ${WRKSRC}/${f} ${DOCDIR}
 .endfor
 
-# .include "../../security/gsasl/buildlink3.mk"
 .include "../../wip/udns/buildlink3.mk"
 .include "../../converters/libiconv/buildlink3.mk"
 .include "../../devel/libidn/buildlink3.mk"
-.include "../../security/gsasl/buildlink3.mk"
 .include "../../security/openssl/buildlink3.mk"
 .include "../../textproc/expat/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
