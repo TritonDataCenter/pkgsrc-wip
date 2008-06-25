@@ -10,6 +10,8 @@ COMMENT=	Support libraries for the KDE integrated X11 desktop
 
 .include "../../wip/kde4/Makefile.kde4"
 
+CONFLICTS=	kdelibs-[0-9]*
+
 # BUILD_MAKE_FLAGS+= VERBOSE=1
 
 CMAKE_DEPENDENCIES_REWRITE= _KDE_build/KDELibsDependencies.cmake
