@@ -13,7 +13,7 @@ PERL5_REQD+=	5.8.1
 DEPENDS+=	p5-Catalyst>=5.50:../../wip/p5-Catalyst
 DEPENDS+=	p5-Path-Class>=0:../../devel/p5-Path-Class
 DEPENDS+=	p5-Template-Toolkit>=0:../../www/p5-Template-Toolkit
-DEPENDS+=	p5-Template-Timer>=0:../../wip/p5-Template-Timer
+DEPENDS+=	p5-Template-Timer>=0:../../www/p5-Template-Timer
 DEPENDS+=	p5-Class-Accessor>=0:../../devel/p5-Class-Accessor
 
 PERL5_PACKLIST= auto/Catalyst/View/TT/.packlist

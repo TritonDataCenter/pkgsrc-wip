@@ -11,10 +11,10 @@ COMMENT=	Role based authorization for Catalyst
 
 DEPENDS+=	p5-Catalyst>=5.49:../../wip/p5-Catalyst
 DEPENDS+=	p5-Catalyst-Plugin-Authentication>=0.03:../../wip/p5-Catalyst-Plugin-Authentication
-DEPENDS+=	p5-Set-Object>=1.14:../../wip/p5-Set-Object
-DEPENDS+=	p5-Test-MockObject>=1.01:../../wip/p5-Test-MockObject
+DEPENDS+=	p5-Set-Object>=1.14:../../devel/p5-Set-Object
+DEPENDS+=	p5-Test-MockObject>=1.01:../../devel/p5-Test-MockObject
 DEPENDS+=	p5-Test-Exception>=0:../../devel/p5-Test-Exception
-DEPENDS+=	p5-UNIVERSAL-isa>=0.05:../../wip/p5-UNIVERSAL-isa
+DEPENDS+=	p5-UNIVERSAL-isa>=0.05:../../devel/p5-UNIVERSAL-isa
 
 # PERL5_MODULE_TYPE=	Module::Build
 

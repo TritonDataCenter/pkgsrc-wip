@@ -11,7 +11,7 @@ COMMENT=	DBIx::Class::Schema Model Class
 
 DEPENDS+=	p5-Catalyst>=5.64:../../wip/p5-Catalyst
 DEPENDS+=	p5-Class-Accessor>=0.22:../../devel/p5-Class-Accessor
-DEPENDS+=	p5-Class-Data-Accessor>=0.02:../../wip/p5-Class-Data-Accessor
+DEPENDS+=	p5-Class-Data-Accessor>=0.02:../../devel/p5-Class-Data-Accessor
 DEPENDS+=	p5-DBIx-Class>=0.07:../../wip/p5-DBIx-Class
 DEPENDS+=	p5-UNIVERSAL-require>=0.10:../../devel/p5-UNIVERSAL-require
 DEPENDS+=	p5-Catalyst-Devel>=1:../../wip/p5-Catalyst-Devel

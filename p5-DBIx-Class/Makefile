@@ -12,10 +12,10 @@ COMMENT=	Extensible and flexible object <-> relational mapper
 DEPENDS+=	p5-Data-Page>=2.00:../../wip/p5-Data-Page
 DEPENDS+=	p5-Scalar-List-Utils>=0:../../devel/p5-Scalar-List-Utils
 DEPENDS+=	p5-SQL-Abstract>=1.20:../../databases/p5-SQL-Abstract
-DEPENDS+=	p5-SQL-Abstract-Limit>=0.11:../../wip/p5-SQL-Abstract-Limit
-DEPENDS+=	p5-Class-C3>=0.13:../../wip/p5-Class-C3
+DEPENDS+=	p5-SQL-Abstract-Limit>=0.11:../../databases/p5-SQL-Abstract-Limit
+DEPENDS+=	p5-Class-C3>=0.13:../../devel/p5-Class-C3
 DEPENDS+=	p5-Storable>=0:../../devel/p5-Storable
-DEPENDS+=	p5-Class-Data-Accessor>=0.01:../../wip/p5-Class-Data-Accessor
+DEPENDS+=	p5-Class-Data-Accessor>=0.01:../../devel/p5-Class-Data-Accessor
 DEPENDS+=	p5-Carp-Clan>=0:../../devel/p5-Carp-Clan
 DEPENDS+=	p5-DBI>=1.40:../../databases/p5-DBI
 BUILD_DEPENDS+=	p5-DBD-SQLite>=1.11:../../databases/p5-DBD-SQLite

@@ -13,7 +13,7 @@ DEPENDS+=	p5-Catalyst>=5.49:../../wip/p5-Catalyst
 DEPENDS+=	p5-Catalyst-Plugin-Authentication>=0.06:../../wip/p5-Catalyst-Plugin-Authentication
 DEPENDS+=	p5-Catalyst-Plugin-Authorization-Roles>=0.03:../../wip/p5-Catalyst-Plugin-Authorization-Roles
 DEPENDS+=	p5-Catalyst-Plugin-Session-State-Cookie>=0.02:../../wip/p5-Catalyst-Plugin-Session-State-Cookie
-DEPENDS+=	p5-Set-Object>=1.14:../../wip/p5-Set-Object
+DEPENDS+=	p5-Set-Object>=1.14:../../devel/p5-Set-Object
 DEPENDS+=	p5-DBI>=0:../../databases/p5-DBI
 DEPENDS+=	p5-Class-DBI>=0:../../databases/p5-Class-DBI
 DEPENDS+=	p5-DBIx-Class>=0:../../wip/p5-DBIx-Class

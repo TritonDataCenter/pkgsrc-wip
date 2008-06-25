@@ -13,7 +13,7 @@ DEPENDS+=	samba>=3.0.22:../../net/samba
 DEPENDS+=	p5-perl-ldap>=0.33:../../databases/p5-perl-ldap
 DEPENDS+=	p5-Crypt-SmbHash>=0.12:../../security/p5-Crypt-SmbHash
 DEPENDS+=	p5-Digest-SHA1>=2.11:../../security/p5-Digest-SHA1
-DEPENDS+=	p5-Unicode-MapUTF8-[0-9]*:../../wip/p5-Unicode-MapUTF8
+DEPENDS+=	p5-Unicode-MapUTF8-[0-9]*:../../converters/p5-Unicode-MapUTF8
 
 WRKSRC=		${WRKDIR}/smbldap-tools-0.9.2
 
