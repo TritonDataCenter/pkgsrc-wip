@@ -9,7 +9,7 @@ MAINTAINER=	pkgsr-users@NetBSD.org
 HOMEPAGE=	http://www.tendra.org/wiki/SID
 COMMENT=	SID (Syntax Improving Device) is an LL(1) parser generator
 
+BUILD_DEPENDS+=         libxslt>=1.1.0:../../textproc/libxslt
 USE_TOOLS+=	perl
 
-.include "../../textproc/libxslt/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
