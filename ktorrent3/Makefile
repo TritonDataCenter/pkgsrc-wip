@@ -5,7 +5,8 @@ CATEGORIES=	net kde
 MASTER_SITES=	http://ktorrent.org/downloads/${KTORRENT_VER}/
 EXTRACT_SUFX=	.tar.bz2
 
-KTORRENT_VER=	3.0.0
+# KTORRENT_VER=	3.1rc1
+KTORRENT_VER=	3.1beta2
 
 MAINTAINER=	abs@NetBSD.org
 HOMEPAGE=	http://ktorrent.org/
@@ -13,7 +14,7 @@ COMMENT=	Graphical BitTorrent client for KDE4
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
-USE_CMAKE=	yes
+USE_CMAKE=		yes
 USE_LANGUAGES=		c c++
 USE_TOOLS+=		awk msgfmt pkg-config perl
 
@@ -30,6 +31,7 @@ post-patch:
 .endif
 
 BUILDLINK_DEPMETHOD.libXt?=	build
+
 
 .include "../../wip/kde4/kde4.mk"
 .include "../../devel/gmp/buildlink3.mk"
