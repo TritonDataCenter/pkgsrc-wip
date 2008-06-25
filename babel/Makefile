@@ -15,7 +15,7 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 
 USE_LANGUAGES=	# none
 
-DEPENDS+=	${PYPKGPREFIX}-pytz-[0-9]*:../../wip/pytz
+DEPENDS+=	${PYPKGPREFIX}-pytz-[0-9]*:../../time/py-pytz
 
 .include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"
