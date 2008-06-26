@@ -58,6 +58,7 @@ do-install:
 	${INSTALL_SCRIPT_DIR} ${PREFIX}/${TRANSPORTDIR}
 	cd ${WRKSRC} && \
 	for i in `find src data tools \\( \\( -type f -name '*.orig' -o \
+			-type f -name '*.orig_dist' -o \
 			-type d -name .svn \\) -prune \\) -o -type f -print` ;\
 	do \
 	    ${ECHO} "Installing $$i -> ${PREFIX}/${TRANSPORTDIR}/$$i";\
