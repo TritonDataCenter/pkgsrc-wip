@@ -62,6 +62,15 @@ stage-package:
 	cp ${WRKSRC}/dist/firefox/components/browser.xpt \
 	   ${WRKSRC}/dist/bin/components/browser.xpt
 
+# Install libjemalloc.so which is needed on Linux.
+.if ${OPSYS} == "Linux"
+post-install: install-libjemalloc
+.PHONY: install-libjemalloc
+install-libjemalloc:
+	${INSTALL_LIB} ${WRKSRC}/dist/lib/libjemalloc.so \
+	  ${DESTDIR}${PREFIX}/lib/${MOZILLA}/libjemalloc.${SO_SUFFIX}
+.endif
+
 INSTALLATION_DIRS+=	lib/${MOZILLA}/modules
 
 # Can't use system PNG because it doesn't have APNG support?
