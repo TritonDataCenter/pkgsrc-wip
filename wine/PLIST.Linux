@@ -1,4 +1,0 @@
-@comment $NetBSD$
-bin/wine-pthread
-bin/wine-kthread
-bin/wine-preloader
