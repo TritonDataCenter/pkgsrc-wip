@@ -3,7 +3,7 @@
 
 DISTNAME=		libdrm-${LIBDRM_DISTVERSION}.${LIBDRM_PATCHLEVEL}
 CATEGORIES=		x11 graphics
-MASTER_SITES=		ftp://ftp.NetBSD.org/pub/NetBSD/bjs/distfiles/
+MASTER_SITES=		ftp://ftp.NetBSD.org/pub/NetBSD/misc/bjs/distfiles/
 EXTRACT_SUFX=		.tar.bz2
 
 LIBDRM_PATCHLEVEL=	0
