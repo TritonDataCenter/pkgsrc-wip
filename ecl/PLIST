@@ -23,6 +23,7 @@ lib/ecl/defsystem.fas
 lib/ecl/dpp
 lib/ecl/ecl_min
 lib/ecl/help.doc
+lib/ecl/profile.fas
 lib/ecl/rt.fas
 lib/ecl/serve-event.fas
 lib/ecl/sockets.fas
