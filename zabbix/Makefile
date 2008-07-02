@@ -5,7 +5,7 @@ PKGREVISION=	#
 CATEGORIES=	net
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=zabbix/}
 
-MAINTAINER=	asau@users.sourceforge.net
+MAINTAINER=	pkgsrc-wip-discuss@lists.sourceforge.net
 HOMEPAGE=	http://www.zabbix.com/
 COMMENT=	Network monitoring tool
 
