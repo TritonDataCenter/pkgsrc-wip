@@ -1,0 +1,5 @@
+@comment $NetBSD$
+bin/audit-get-ident
+bin/audit-get-mtime
+bin/audit-get-objdump
+bin/audit-system
