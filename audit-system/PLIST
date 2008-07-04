@@ -1,5 +1,7 @@
 @comment $NetBSD$
-bin/audit-get-ident
-bin/audit-get-mtime
-bin/audit-get-objdump
-bin/audit-system
+sbin/audit-get-ident
+sbin/audit-get-mtime
+sbin/audit-get-objdump
+sbin/audit-system
+share/examples/audit-system/audit-system.conf
+@dirrm share/examples/audit-system
