@@ -1,5 +1,4 @@
 @comment $NetBSD$
-.lockfile
 bin/eet
 include/Eet.h
 lib/libeet.la

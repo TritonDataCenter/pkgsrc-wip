@@ -1,5 +1,4 @@
 @comment $NetBSD$
-.lockfile
 include/Evas.h
 include/Evas_Engine_Buffer.h
 include/Evas_Engine_SDL.h
