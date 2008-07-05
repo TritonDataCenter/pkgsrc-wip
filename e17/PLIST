@@ -1,5 +1,4 @@
 @comment $NetBSD$
-.lockfile
 bin/enlightenment
 bin/enlightenment-config
 bin/enlightenment_fm
