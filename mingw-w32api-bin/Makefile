@@ -1,7 +1,7 @@
 # $NetBSD$
 
-DISTNAME=		w32api-3.1
-PKGNAME=		mingw-w32api-bin-3.1
+DISTNAME=		w32api-3.11
+PKGNAME=		mingw-w32api-bin-3.11
 CATEGORIES=		cross
 MASTER_SITES=		${MASTER_SITE_MINGW}
 
