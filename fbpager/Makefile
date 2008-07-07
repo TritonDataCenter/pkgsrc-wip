@@ -9,11 +9,13 @@ HOMEPAGE=	http://fluxbox.org/fbpager/
 COMMENT=	Fluxbox pager with transparency and mouse gestures
 
 GNU_CONFIGURE=	yes
-USE_LANGUAGES=	c++
+USE_LANGUAGES=	c c++
 
 post-install:
 	${INSTALL_DATA_DIR} ${PREFIX}/share/doc/fbpager
 	${INSTALL_DATA} ${WRKSRC}/README ${PREFIX}/share/doc/fbpager/
 
-.include "../../mk/x11.buildlink3.mk"
+.include "../../x11/libX11/buildlink3.mk"
+.include "../../x11/libXt/buildlink3.mk"
+.include "../../x11/libXrender/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
