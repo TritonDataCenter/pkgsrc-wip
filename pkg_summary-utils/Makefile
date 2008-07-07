@@ -10,9 +10,10 @@ HOMEPAGE=	http://www.mova.org/~cheusov/pub/pkg_summary-utils/
 COMMENT=	Utilities for manipulating pkg_summary(5) files
 
 DEPENDS+=	runawk>=0.12.1:../../wip/runawk
-DEPENDS+=	paexec>=0.9.0:../../wip/paexec
 DEPENDS+=	awk-pkgsrc-dewey>=0.5.6:../../wip/awk-pkgsrc-dewey
 DEPENDS+=	pipestatus-[0-9]*:../../wip/pipestatus
+
+CONFLICTS+=	paexec<0.9.0
 
 CONFLICTS+=	pkg_src_summary-[0-9]*
 CONFLICTS+=	pkg_cmp_summary-[0-9]*
