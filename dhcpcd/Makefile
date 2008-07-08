@@ -1,8 +1,8 @@
 # $NetBSD$
 #
 
-DISTNAME=		dhcpcd-4.0.0-beta8
-PKGNAME=		dhcpcd-4.0.0beta8
+DISTNAME=		dhcpcd-4.0.0-beta9
+PKGNAME=		dhcpcd-4.0.0beta9
 CATEGORIES=		net
 MASTER_SITES=		http://roy.marples.name/dhcpcd/
 EXTRACT_SUFX=		.tar.bz2
