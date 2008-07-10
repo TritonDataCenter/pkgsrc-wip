@@ -2,6 +2,7 @@
 
 DISTNAME=	xorg-server-1.4.2.0
 PKGNAME=	modular-${DISTNAME}
+PKGREVISION=	1
 CATEGORIES=	x11
 MASTER_SITES=	ftp://ftp.NetBSD.org/pub/NetBSD/misc/bjs/distfiles/
 #MASTER_SITES=	${MASTER_SITE_XORG:=xserver/}
@@ -49,6 +50,7 @@ CONFIGURE_ARGS+=	--disable-xprint
 CONFIGURE_ARGS+=	--disable-dmx 
 CONFIGURE_ARGS+=	--disable-xephyr 
 CONFIGURE_ARGS+=	--disable-kdrive 
+CONFIGURE_ARGS+=	--enable-builtin-fonts
 CONFIGURE_ARGS+=	--enable-dri
 CONFIGURE_ARGS+=	--enable-xorg
 CONFIGURE_ARGS+=	--with-xorgcfg
