@@ -1,7 +1,8 @@
 # $NetBSD$
 #
 
-DISTNAME=	QLandkarte-0.7.1
+DISTNAME=	QLandkarte_0.7.3
+PKGNAME=	QLandkarte-0.7.3
 
 CATEGORIES=	geography
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=qlandkarte/}
