@@ -1,11 +1,11 @@
 @comment $NetBSD$
 ${PYSITELIB}/twisted/plugins/twisted_news.py
 ${PYSITELIB}/twisted/news/__init__.py
-${PYSITELIB}/twisted/news/_version.py
-${PYSITELIB}/twisted/news/database.py
 ${PYSITELIB}/twisted/news/news.py
+${PYSITELIB}/twisted/news/database.py
 ${PYSITELIB}/twisted/news/nntp.py
 ${PYSITELIB}/twisted/news/tap.py
+${PYSITELIB}/twisted/news/_version.py
 ${PYSITELIB}/twisted/news/test/test_news.py
 ${PYSITELIB}/twisted/news/test/test_nntp.py
 ${PYSITELIB}/twisted/news/test/__init__.py

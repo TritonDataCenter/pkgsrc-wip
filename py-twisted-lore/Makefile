@@ -2,21 +2,18 @@
 
 .include "../../wip/py-twisted-core/version.mk"
 
-LORE_VERSION=	0.3.0
-DISTNAME=	Twisted-${TWISTED_VERSION}
-PKGNAME=	${PYPKGPREFIX}-twisted-lore-${LORE_VERSION}
+DISTNAME=	TwistedLore-${TWISTED_VERSION}
+PKGNAME=	${PYPKGPREFIX}-twisted-lore-${TWISTED_VERSION}
 CATEGORIES=	textproc python
-MASTER_SITES=	http://tmrc.mit.edu/mirror/twisted/Twisted/2.5/
+MASTER_SITES=	http://tmrc.mit.edu/mirror/twisted/Lore/8.1/
 EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	milos.negovanovic@googlemail.com
 HOMEPAGE=	http://www.twistedmatrix.com/
 COMMENT=	The Twisted documentation generation system
 
-WRKSRC=		${WRKDIR}/Twisted-${TWISTED_VERSION}/TwistedLore-${LORE_VERSION}
-
-DEPENDS+=	${PYPKGPREFIX}-twisted-core>=2.5.0:../../wip/py-twisted-core
-DEPENDS+=	${PYPKGPREFIX}-twisted-web>=0.7.0:../../wip/py-twisted-web
+DEPENDS+=	${PYPKGPREFIX}-twisted-core>=8.1.0:../../wip/py-twisted-core
+DEPENDS+=	${PYPKGPREFIX}-twisted-web>=8.1.0:../../wip/py-twisted-web
 
 PYDISTUTILSPKG=		yes
 
