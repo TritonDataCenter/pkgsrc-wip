@@ -1,13 +1,13 @@
 # $NetBSD$
 
 DISTNAME=	dwepcrack-0.4
-PKGREVISION=	1
+PKGREVISION=	2
 CATEGORIES=	security
-MASTER_SITES=	http://www.unix-labs.org/pub/source/dwepcrack/
+MASTER_SITES=	http://www.e.kth.se/~pvz/wifi/
 
 MAINTAINER=	schwarz@NetBSD.org
 HOMEPAGE=	http://web.archive.org/web/20070322102507/http://www.dachb0den.com/projects/dwepcrack.html
-COMMENT=	dwepcrack uses varioius methods to extract WEP keys
+COMMENT=	Dwepcrack uses varioius methods to extract WEP keys
 
 NO_CONFIGURE=	YES
 
