@@ -27,6 +27,7 @@ lib/ecl/profile.fas
 lib/ecl/rt.fas
 lib/ecl/serve-event.fas
 lib/ecl/sockets.fas
+lib/ecl/sysfun.lsp
 lib/libecl.so
 @dirrm lib/ecl
 @dirrm include/ecl
