@@ -9,10 +9,11 @@ BUILDLINK_DEPENDS+=	mingw-binutils
 
 BUILDLINK_PACKAGES:=	${BUILDLINK_PACKAGES:Nmingw-binutils}
 BUILDLINK_PACKAGES+=	mingw-binutils
+BUILDLINK_ORDER:=	${BUILDLINK_ORDER} ${BUILDLINK_DEPTH}mingw-binutils
 
-.if !empty(MINGW_BINUTILS_BUILDLINK3_MK:M+)
-BUILDLINK_API_DEPENDS.mingw-binutils+=	mingw-binutils>=2.14.90
+.if ${MINGW_BINUTILS_BUILDLINK3_MK} == "+"
+BUILDLINK_API_DEPENDS.mingw-binutils+=	mingw-binutils>=2.18
 BUILDLINK_PKGSRCDIR.mingw-binutils?=	../../wip/mingw-binutils
 .endif	# MINGW_BINUTILS_BUILDLINK3_MK
 
-BUILDLINK_DEPTH:=     ${BUILDLINK_DEPTH:S/+$//}
+BUILDLINK_DEPTH:=	${BUILDLINK_DEPTH:S/+$//}
