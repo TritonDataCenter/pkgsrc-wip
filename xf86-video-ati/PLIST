@@ -5,7 +5,6 @@ lib/xorg/modules/multimedia/theatre200_drv.la
 lib/xorg/modules/multimedia/theatre_detect_drv.la
 lib/xorg/modules/multimedia/theatre_drv.la
 man/man4/ati.4
-man/man4/r128.4
 man/man4/radeon.4
 @comment @dirrm lib/xorg/modules/multimedia
 @comment @dirrm lib/xorg/modules/drivers
