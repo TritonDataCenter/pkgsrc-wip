@@ -82,4 +82,7 @@ post-build:
 do-install:
 	cd ${WRKSRC} && BUILD_ROOT=${DESTDIR:Q} INSTALL_ROOT=${PREFIX:Q} MAN_DIR=${PREFIX}/${PKGMANDIR} ${SH} install.sh
 
+do-test:
+	cd ${WRKSRC}/tests && ${SH} ./run-tests.sh
+
 .include "../../mk/bsd.pkg.mk"
