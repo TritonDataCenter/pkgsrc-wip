@@ -11,6 +11,8 @@ MAINTAINER=		shattered@users.sourceforge.net
 HOMEPAGE=		http://www.imgseek.net/
 COMMENT=		Photo collection manager and viewer
 
+PYTHON_VERSIONS_ACCEPTED=	24
+
 USE_LANGUAGES=		c c++
 PYDISTUTILSPKG=		yes
 PYTHON_PATCH_SCRIPTS=	*.py
