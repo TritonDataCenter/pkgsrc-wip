@@ -6,7 +6,7 @@ PKGNAME=		xmlformat-ruby-${XMLFORMAT_VERSION}
 CATEGORIES=		textproc
 MASTER_SITES=		http://www.kitebird.com/software/xmlformat/
 
-MAINTAINER=		mishka@apk.od.ua
+MAINTAINER=		mishka@NetBSD.org
 HOMEPAGE=		http://www.kitebird.com/software/xmlformat/
 COMMENT=		Configurable XML formatter, Ruby version
 
