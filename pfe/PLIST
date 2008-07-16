@@ -143,6 +143,10 @@ lib/pfe-forth/zchar.la
 lib/pfe/testmodule1.la
 lib/pkgconfig/pfe.pc
 man/man1/pfe-config.1
+share/doc/pfe/${PKGVERSION}/COPYING.LIB
+share/doc/pfe/${PKGVERSION}/ChangeLog
+share/doc/pfe/COPYING.LIB
+share/doc/pfe/ChangeLog
 share/pfe/lib/arrays.4th
 share/pfe/lib/defer-is.4th
 share/pfe/lib/doermake.4th
@@ -218,6 +222,10 @@ share/pfe/testmodule2.fs
 @dirrm share/pfe/test
 @dirrm share/pfe/lib
 @dirrm share/pfe
+@exec ${MKDIR} %D/share/info
+@dirrm share/info
+@dirrm share/doc/pfe/${PKGVERSION}
+@dirrm share/doc/pfe
 @dirrm lib/pfe-forth/renamed
 @dirrm lib/pfe-forth
 @dirrm lib/pfe

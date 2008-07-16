@@ -16,4 +16,10 @@ USE_LIBTOOL=	yes
 CONFIGURE_ARGS+=	--with-regs
 USE_TOOLS+=	perl pkg-config
 
+BUILD_TARGET=	all doc
+INSTALL_TARGET=	install install-doc
+
+BUILD_DEPENDS=	xmlto-[0-9]*:../../textproc/xmlto	# documentation
+
+.include "../../lang/python/pyversion.mk"
 .include "../../mk/bsd.pkg.mk"
