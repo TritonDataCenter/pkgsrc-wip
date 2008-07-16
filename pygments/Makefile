@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	Pygments-0.9
+DISTNAME=	Pygments-0.10
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME:tl}
 EGG_NAME=	${DISTNAME}
 CATEGORIES=	textproc python
