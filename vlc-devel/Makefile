@@ -3,6 +3,7 @@
 
 DISTNAME=	vlc-snapshot-${D}
 PKGNAME=	${DISTNAME:S/snapshot/devel/}
+PKGREVISION=	1
 CATEGORIES=	multimedia
 MASTER_SITES=	http://nightlies.videolan.org/build/source/trunk-${D}-${T}/
 EXTRACT_SUFX=	.tar.bz2

@@ -1,16 +1,8 @@
 @comment $NetBSD$
-${PLIST.faad}lib/vlc/codec/libfaad_plugin.a
 ${PLIST.faad}lib/vlc/codec/libfaad_plugin.la
-${PLIST.faad}lib/vlc/codec/libfaad_plugin.so
-${PLIST.dbus}lib/vlc/control/libdbus_plugin.a
 ${PLIST.dbus}lib/vlc/control/libdbus_plugin.la
-${PLIST.dbus}lib/vlc/control/libdbus_plugin.so
-${PLIST.dbus}lib/vlc/misc/libinhibit_plugin.a
 ${PLIST.dbus}lib/vlc/misc/libinhibit_plugin.la
-${PLIST.dbus}lib/vlc/misc/libinhibit_plugin.so
-${PLIST.dbus}lib/vlc/misc/libtelepathy_plugin.a
 ${PLIST.dbus}lib/vlc/misc/libtelepathy_plugin.la
-${PLIST.dbus}lib/vlc/misc/libtelepathy_plugin.so
 ${PLIST.qt}bin/qvlc
 ${PLIST.qt}lib/vlc/gui/libqt4_plugin.la
 bin/cvlc
