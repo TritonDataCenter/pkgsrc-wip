@@ -1,7 +1,7 @@
 # $NetBSD: Makefile,v 1.42 2008/07/07 14:58:00 kristerw Exp $
 
 DISTNAME=	ghc-6.8.3
-PKGREVISION=	2
+PKGREVISION=	3
 CATEGORIES=	lang
 MASTER_SITES=	http://www.haskell.org/ghc/dist/6.8.3/
 DISTFILES=	${DISTNAME}-src.tar.bz2 \
@@ -98,6 +98,7 @@ pre-build:
 .include "../../devel/readline/buildlink3.mk"
 .include "../../devel/gmp/buildlink3.mk"
 .include "../../graphics/MesaLib/buildlink3.mk"
+.include "../../graphics/glu/buildlink3.mk"
 .include "../../graphics/glut/buildlink3.mk"
 .include "../../mk/pthread.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
