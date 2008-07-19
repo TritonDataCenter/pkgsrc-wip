@@ -1,0 +1,10 @@
+# -*- sh -*-
+# $NetBSD$
+#
+DISTNAME="@DISTNAME@"
+
+case ${STAGE} in 
+    POST-DEINSTALL)
+        ghc-pkg unregister ${DISTNAME};
+        ;;
+esac
