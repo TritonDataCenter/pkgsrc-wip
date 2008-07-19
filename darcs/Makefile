@@ -19,3 +19,6 @@ GNU_CONFIGURE=		yes
 .include "../../lang/ghc/buildlink3.mk"
 .include "../../mk/tex.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
+
+# To avoid Darwin problem
+CPP_PRECOMP_FLAGS=
