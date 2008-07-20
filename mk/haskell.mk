@@ -129,7 +129,8 @@ _CABAL_SETUP_SCRIPT=	Setup.*hs
 # Define configure target.
 do-configure:
 	cd ${WRKSRC} && \
-		${_RUNHASKELL_BIN} ${_CABAL_SETUP_SCRIPT} configure ${CONFIGURE_ARGS}
+		${SETENV} ${CONFIGURE_ENV} \
+			${_RUNHASKELL_BIN} ${_CABAL_SETUP_SCRIPT} configure ${CONFIGURE_ARGS}
 
 # Define build target.
 do-build:
