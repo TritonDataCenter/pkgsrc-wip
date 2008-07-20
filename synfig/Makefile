@@ -13,12 +13,12 @@ GNU_CONFIGURE=		yes
 USE_TOOLS+=			pkg-config
 USE_PKGLOCALEDIR=	yes
 USE_LANGUAGES=		c c++
+USE_LIBTOOL=		yes
 
 PKGCONFIG_OVERRIDE+=	synfig.pc.in
 
 .include "options.mk"
 
-.include "../../devel/libltdl/convenience.mk"
 .include "../../devel/gettext-lib/buildlink3.mk"
 .include "../../devel/libsigc++/buildlink3.mk"
 .include "../../textproc/libxml++/buildlink3.mk"
