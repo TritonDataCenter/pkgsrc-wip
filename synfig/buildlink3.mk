@@ -16,6 +16,9 @@ BUILDLINK_API_DEPENDS.synfig+=	synfig>=0.61.08
 BUILDLINK_PKGSRCDIR.synfig?=	../../wip/synfig
 .endif	# SYNFIG_BUILDLINK3_MK
 
+.include "../../devel/gettext-lib/buildlink3.mk"
+.include "../../devel/libsigc++/buildlink3.mk"
+.include "../../textproc/libxml++/buildlink3.mk"
 .include "../../wip/ETL/buildlink3.mk"
 
 BUILDLINK_DEPTH:=	${BUILDLINK_DEPTH:S/+$//}
