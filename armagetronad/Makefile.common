@@ -19,6 +19,7 @@ GNU_CONFIGURE=	yes
 USE_LANGUAGES=	c c++
 USE_TOOLS+=	bash gmake
 REPLACE_BASH+=	batch/*.in
+REPLACE_PYTHON+=	language/update.py
 
 CONFIGURE_ARGS+=	--disable-uninstall
 
