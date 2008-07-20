@@ -1,0 +1,5 @@
+@comment $NetBSD$
+bin/ecm
+include/ecm.h
+lib/libecm.la
+man/man1/ecm.1
