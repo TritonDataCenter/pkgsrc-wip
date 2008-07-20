@@ -13,7 +13,7 @@ PERL5_REQD+=	5.8.1
 DEPENDS+=	p5-Catalyst>=5.49:../../wip/p5-Catalyst
 DEPENDS+=	p5-Test-MockObject>=1.01:../../devel/p5-Test-MockObject
 DEPENDS+=	p5-Digest>=0:../../security/p5-Digest
-DEPENDS+=	p5-Object-Signature>=0:../../wip/p5-Object-Signature
+DEPENDS+=	p5-Object-Signature>=0:../../devel/p5-Object-Signature
 DEPENDS+=	p5-File-Temp>=0:../../devel/p5-File-Temp
 DEPENDS+=	p5-PathTools>=0:../../devel/p5-PathTools
 DEPENDS+=	p5-Test-Deep>=0:../../devel/p5-Test-Deep

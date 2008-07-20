@@ -10,7 +10,7 @@ HOMEPAGE=	http://search.cpan.org/dist/Catalyst-Model-DBIC/
 COMMENT=	DBIx::Class model class for Catalyst, without loader
 
 DEPENDS+=	p5-Catalyst>=5.00:../../wip/p5-Catalyst
-DEPENDS+=	p5-DBIx-Class>=0.01:../../wip/p5-DBIx-Class
+DEPENDS+=	p5-DBIx-Class>=0.01:../../databases/p5-DBIx-Class
 
 PERL5_REQD+=	5.8.0
 

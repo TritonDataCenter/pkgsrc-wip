@@ -16,7 +16,7 @@ DEPENDS+=	p5-Catalyst-Plugin-Session-State-Cookie>=0.02:../../wip/p5-Catalyst-Pl
 DEPENDS+=	p5-Set-Object>=1.14:../../devel/p5-Set-Object
 DEPENDS+=	p5-DBI>=0:../../databases/p5-DBI
 DEPENDS+=	p5-Class-DBI>=0:../../databases/p5-Class-DBI
-DEPENDS+=	p5-DBIx-Class>=0:../../wip/p5-DBIx-Class
+DEPENDS+=	p5-DBIx-Class>=0:../../databases/p5-DBIx-Class
 DEPENDS+=	p5-Test-WWW-Mechanize-Catalyst>=0:../../wip/p5-Test-WWW-Mechanize-Catalyst
 DEPENDS+=	p5-Catalyst-Model-DBIC-Schema>=0:../../wip/p5-Catalyst-Model-DBIC-Schema
 
