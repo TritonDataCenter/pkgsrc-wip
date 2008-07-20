@@ -36,8 +36,10 @@ CPPFLAGS+=	-DBYTESWAP_IP_LEN
 .endif
 .endif
 .endif
+
 .if ${OPSYS} == "Linux"
 TRN_EXTRALIBS+=	-lresolv
+CPPFLAGS+=	-DSTRING
 .endif
 
 .if ${OPSYS} == "Darwin"
