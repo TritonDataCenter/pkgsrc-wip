@@ -14,6 +14,38 @@ BUILDLINK_ORDER:=	${BUILDLINK_ORDER} ${BUILDLINK_DEPTH}synfig
 .if ${SYNFIG_BUILDLINK3_MK} == "+"
 BUILDLINK_API_DEPENDS.synfig+=	synfig>=0.61.08
 BUILDLINK_PKGSRCDIR.synfig?=	../../wip/synfig
+
+pkgbase:= synfig
+.  include "../../mk/pkg-build-options.mk"
+
+.  if !empty(PKG_BUILD_OPTIONS.synfig:Mpng)
+.    include "../../graphics/png/buildlink3.mk"
+.  endif
+
+.  if !empty(PKG_BUILD_OPTIONS.synfig:Mmng)
+.    include "../../graphics/mng/buildlink3.mk"
+.  endif
+
+.  if !empty(PKG_BUILD_OPTIONS.synfig:Mjpeg)
+.    include "../../graphics/jpeg/buildlink3.mk"
+.  endif
+
+.  if !empty(PKG_BUILD_OPTIONS.synfig:Mfreetype)
+.    include "../../graphics/freetype2/buildlink3.mk"
+.  endif
+
+.  if !empty(PKG_BUILD_OPTIONS.synfig:Mfontconfig)
+.    include "../../fonts/fontconfig/buildlink3.mk"
+.  endif
+
+.  if !empty(PKG_BUILD_OPTIONS.synfig:Mopenexr)
+.    include "../../graphics/openexr/buildlink3.mk"
+.  endif
+
+.  if !empty(PKG_BUILD_OPTIONS.synfig:Mlavcodec)
+.    include "../../multimedia/ffmpeg/buildlink3.mk"
+.  endif
+
 .endif	# SYNFIG_BUILDLINK3_MK
 
 .include "../../devel/gettext-lib/buildlink3.mk"
