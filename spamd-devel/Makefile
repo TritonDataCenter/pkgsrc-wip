@@ -71,5 +71,5 @@ do-install:
 #	${INSTALL_PROGRAM} ${WRKSRC}/libexec/spamlogd/spamlogd ${PREFIX}/libexec
 	${INSTALL_DATA} ${WRKSRC}/etc/mail/spamd.conf ${PREFIX}/share/examples/spamd
 
-.include "../../security/pflkm/buildlink3.mk"
+.include "../../mk/pf.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
