@@ -20,6 +20,10 @@ USE_DIRS+=			xdg-1.4
 
 GCONF2_SCHEMAS+=	synfigstudio-thumbnailer.schemas
 
+USE_TOOLS+=	automake
+pre-configure:
+	cd ${WRKSRC} && autoreconf
+
 .include "../../devel/GConf/schemas.mk"
 .include "../../devel/libsigc++/buildlink3.mk"
 .include "../../devel/gettext-lib/buildlink3.mk"
