@@ -1,0 +1,7 @@
+@comment $NetBSD$
+bin/midori
+share/applications/midori.desktop
+share/locale/de/LC_MESSAGES/midori.mo
+share/locale/fr/LC_MESSAGES/midori.mo
+share/locale/pl/LC_MESSAGES/midori.mo
+share/locale/sv/LC_MESSAGES/midori.mo
