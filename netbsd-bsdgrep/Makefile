@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	netbsd-bsdgrep-20070105
+PKGREVISION=	1
 CATEGORIES=	sysutils textproc
 MASTER_SITES=	http://mova.org/~cheusov/pub/netbsd-tools/
 #${MASTER_SITE_SOURCEFORGE:=netbsd-tools/}
@@ -19,6 +20,7 @@ INSTALLATION_DIRS=	bin ${PKGMANDIR}/man1
 USE_FEATURES=		nbcompat
 
 MAKE_ENV+=	MKCATPAGES=no
+MAKE_ENV+=	LIBS2=${LIBS:Q}
 
 CPPFLAGS+=	-Dlint
 

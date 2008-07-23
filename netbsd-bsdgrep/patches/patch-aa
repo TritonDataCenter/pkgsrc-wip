@@ -32,5 +32,5 @@ $NetBSD$
 +	nbgrep.1 zfnbgrep.1
  
 -LDADD=  -lz
-+LDADD+=  -lz
++LDADD+=  -lz $(LIBS2)
  
