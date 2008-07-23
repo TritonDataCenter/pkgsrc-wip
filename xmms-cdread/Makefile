@@ -2,6 +2,7 @@
 #
 
 DISTNAME=		xmms-cdread-0.14a
+PKGREVISION=		1
 CATEGORIES=		audio
 MASTER_SITES=		ftp://mud.stack.nl/pub/OuterSpace/willem/
 
@@ -10,6 +11,7 @@ HOMEPAGE=		ftp://mud.stack.nl/pub/OuterSpace/willem/
 COMMENT=		XMMS input plugin that reads audio data from CDs
 
 NOT_FOR_PLATFORM=	Interix-*-* NetBSD-*-*
+ONLY_FOR_COMPILER=	gcc
 
 GNU_CONFIGURE=		yes
 USE_LIBTOOL=		yes
