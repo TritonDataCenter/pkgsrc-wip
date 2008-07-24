@@ -13,7 +13,7 @@ PKG_DESTDIR_SUPPORT=user-destdir
 
 WRKSRC=		${WRKDIR}/fasm
 USE_LANGUAGES=	c
-ONLY_FOR_PLATFORM=*-*-i386 *-*-amd64
+ONLY_FOR_PLATFORM=*-*-i386 *-*-x86_64
 NO_CONFIGURE=	yes
 
 do-build:
