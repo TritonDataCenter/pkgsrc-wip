@@ -12,7 +12,7 @@ BUILDLINK_PACKAGES+=	webkit-gtk
 BUILDLINK_ORDER:=	${BUILDLINK_ORDER} ${BUILDLINK_DEPTH}webkit-gtk
 
 .if ${WEBKIT_BUILDLINK3_MK} == "+"
-BUILDLINK_API_DEPENDS.webkit-gtk+=	webkit-gtk>=r35249
+BUILDLINK_API_DEPENDS.webkit-gtk+=	webkit-gtk>=1.0.2.35289
 BUILDLINK_PKGSRCDIR.webkit-gtk?=	../../wip/webkit-gtk
 .endif	# WEBKIT_BUILDLINK3_MK
 
