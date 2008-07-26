@@ -23,9 +23,9 @@ CMAKE_ARGS+=	-DSYSCONF_INSTALL_DIR=${PKG_SYSCONFDIR:Q}
 CMAKE_ARGS+=	-DINFO_INSTALL_DIR=${PREFIX}/${PKGINFODIR}
 CMAKE_ARGS+=	-DMAN_INSTALL_DIR=${PREFIX}/${PKGMANDIR}
 
-BUILDLINK_API_DEPENDS.qt4-libs+=	qt4-libs>=4.3.3nb1
+BUILDLINK_API_DEPENDS.qt4-libs+=	qt4-libs>=4.4.0
 .include "../../x11/qt4-libs/buildlink3.mk"
-BUILDLINK_API_DEPENDS.qt4-tools+=	qt4-tools>=4.3.3nb1
+BUILDLINK_API_DEPENDS.qt4-tools+=	qt4-tools>=4.4.0
 .include "../../x11/qt4-tools/buildlink3.mk"
 .include "../../x11/qt4-qdbus/buildlink3.mk"
 
