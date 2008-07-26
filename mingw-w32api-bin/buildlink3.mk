@@ -13,7 +13,7 @@ BUILDLINK_ORDER:=	${BUILDLINK_ORDER} ${BUILDLINK_DEPTH}mingw-w32api-bin
 
 .include "../../wip/mingw/Makefile.common"
 
-.if (MINGW_W32API_BIN_BUILDLINK3_MK} == "+"
+.if ${MINGW_W32API_BIN_BUILDLINK3_MK} == "+"
 BUILDLINK_API_DEPENDS.mingw-w32api-bin+=	mingw-w32api-bin>=3.1
 BUILDLINK_PKGSRCDIR.mingw-w32api-bin?=	../../wip/mingw-w32api-bin
 BUILDLINK_FNAME_TRANSFORM.mingw-w32api-bin+=	-e "s,${MINGW_TARGET}/include,include/,g"
