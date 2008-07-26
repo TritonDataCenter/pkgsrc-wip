@@ -23,6 +23,7 @@ REPLACE_PERL+= \
 
 .include "../../databases/sqlite3/buildlink3.mk"
 .include "../../devel/libidn/buildlink3.mk"
+.include "../../devel/gmp/buildlink3.mk"
 .include "../../graphics/hicolor-icon-theme/buildlink3.mk"
 .include "../../net/openslp/buildlink3.mk"
 .include "../../security/qca2/buildlink3.mk"

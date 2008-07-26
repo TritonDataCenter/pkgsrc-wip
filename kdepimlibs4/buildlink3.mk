@@ -17,6 +17,7 @@ BUILDLINK_ABI_DEPENDS.kdepimlibs?=	kdepimlibs4>=4.0.0nb1
 BUILDLINK_PKGSRCDIR.kdepimlibs?=	../../wip/kdepimlibs4
 .endif	# KDEPIMLIBS_BUILDLINK3_MK
 
+.include "../../wip/akonadi/buildlink3.mk"
 .include "../../databases/openldap-client/buildlink3.mk"
 .include "../../devel/boost-libs/buildlink3.mk"
 .include "../../security/cyrus-sasl/buildlink3.mk"

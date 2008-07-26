@@ -41,6 +41,6 @@ INSTALLATION_DIRS+=	${PKGMANDIR}/man1
 .include "../../multimedia/xine-lib/buildlink3.mk"
 .include "../../wip/libxcb/buildlink3.mk"
 .include "../../wip/kdelibs4/buildlink3.mk"
-.include "../../wip/kdepimlibs4/buildlink3.mk"
+#.include "../../wip/kdepimlibs4/buildlink3.mk"
 
 .include "../../mk/bsd.pkg.mk"
