@@ -9,15 +9,19 @@ MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://mingw.sourceforge.net/
 COMMENT=		GNU C Compiler for win32 cross development
 
+PKG_DESTDIR_SUPPORT=	user-destdir
+
 NO_BUILD=		yes
 NO_CONFIGURE=		yes
 USE_CROSSBASE=		yes
 USE_TOOLS+=		pax
 WRKSRC=			${WRKDIR}
 
+INSTALLATION_DIRS+=	${MINGW_TARGET}
+
 do-install:
-	${INSTALL_DATA_DIR} ${PREFIX}/${MINGW_TARGET}
-	cd ${WRKSRC} && pax -rw -pe include lib ${PREFIX}/${MINGW_TARGET}
+	cd ${WRKSRC} && pax -rw -pe include lib \
+		${DESTDIR}${PREFIX}/${MINGW_TARGET}
 
 .include "../../wip/mingw/Makefile.common"
 .include "../../mk/bsd.pkg.mk"
