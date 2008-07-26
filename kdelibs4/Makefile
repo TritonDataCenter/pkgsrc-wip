@@ -41,6 +41,8 @@ SUBST_FILES.kdelibsfix= \
 	kio/kssl/kopenssl.cpp
 SUBST_SED.kdelibsfix=		-e 's:@LOCALBASE@:${LOCALBASE}:g'
 
+USE_TOOLS+=	flex
+
 .include "../../mk/bsd.prefs.mk"
 
 .if ${OPSYS} == "NetBSD"
@@ -52,6 +54,7 @@ BUILDLINK_DEPMETHOD.qt4-tools=		full
 .include "../../wip/kde4/kde4.mk"
 
 .include "../../archivers/bzip2/buildlink3.mk"
+.include "../../wip/phonon/buildlink3.mk"
 .include "../../wip/strigi/buildlink3.mk"
 .include "../../wip/soprano/buildlink3.mk"
 .include "../../databases/shared-mime-info/buildlink3.mk"

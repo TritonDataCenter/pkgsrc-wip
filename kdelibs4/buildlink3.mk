@@ -18,6 +18,7 @@ BUILDLINK_PKGSRCDIR.kdelibs?=	../../wip/kdelibs4
 .endif	# KDELIBS_BUILDLINK3_MK
 
 .include "../../archivers/bzip2/buildlink3.mk"
+.include "../../wip/phonon/buildlink3.mk"
 .include "../../wip/strigi/buildlink3.mk"
 .include "../../wip/soprano/buildlink3.mk"
 .include "../../databases/shared-mime-info/buildlink3.mk"
