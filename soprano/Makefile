@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	soprano-2.0.3
+DISTNAME=	soprano-2.0.99
 CATEGORIES=	sysutils
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=soprano/}
 EXTRACT_SUFX=	.tar.bz2
