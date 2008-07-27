@@ -2,9 +2,11 @@
 #
 
 PKG_OPTIONS_VAR=	PKG_OPTIONS.emacs_current
-PKG_SUPPORTED_OPTIONS=	x11 gnome font-backend
+PKG_SUPPORTED_OPTIONS=	gnome font-backend
+PKG_OPTIONS_OPTIONAL_GROUPS+= window-system
+PKG_OPTIONS_GROUP.window-system= x11 carbon nextstep
 PKG_OPTIONS_OPTIONAL_GROUPS+= toolkit
-PKG_OPTIONS_GROUP.toolkit= gtk motif xaw carbon nextstep
+PKG_OPTIONS_GROUP.toolkit= gtk motif xaw
 PKG_SUGGESTED_OPTIONS=	x11
 
 .include "../../mk/bsd.options.mk"
