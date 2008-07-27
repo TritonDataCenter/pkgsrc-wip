@@ -13,9 +13,9 @@ $NetBSD$
 -  <spool>./spool/chat.localhost</spool> <!-- directory containing the rooms data -->
 -  <logdir>./syslogs</logdir> <!-- directory containing the debug log (the file is called mu-conference.log) -->
 -  <pidfile>./mu-conference.pid</pidfile> <!-- file that will contain the PID of the process -->
-+  <spool>/var/spool/jabberd/muc</spool> <!-- directory containing the rooms data -->
-+  <logdir>/var/log/jabberd</logdir> <!-- directory containing the debug log (the file is called mu-conference.log) -->
-+  <pidfile>/var/run/jabberd/mu-conference.pid</pidfile> <!-- file that will contain the PID of the process -->
++  <spool>@JABBER_SPOOLDIR@/muc</spool> <!-- directory containing the rooms data -->
++  <logdir>@JABBER_LOGDIR@</logdir> <!-- directory containing the debug log (the file is called mu-conference.log) -->
++  <pidfile>@JABBER_PIDDIR@/mu-conference.pid</pidfile> <!-- file that will contain the PID of the process -->
    
    <!--   <logstderr/> --> <!-- uncomment to also send log to stderr -->
    
