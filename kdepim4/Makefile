@@ -1,7 +1,6 @@
 # $NetBSD$
 
 DISTNAME=	kdepim-${_KDE_VERSION}
-PKGREVISION=	1
 CATEGORIES=	misc
 COMMENT=	Personal Information Management tools for the KDE desktop
 
@@ -40,6 +39,7 @@ REPLACE_PERL+= \
 	kmail/kconf_update/kmail-upd-identities.pl \
 	kmail/kconf_update/upgrade-signature.pl \
 	kmail/kconf_update/upgrade-transport.pl \
+	kresources/kolab/upgrade-resourcetype.pl \
 	libkpgp/kpgp-3.1-upgrade-address-data.pl
 
 .include "../../wip/kde4/kde4.mk"
