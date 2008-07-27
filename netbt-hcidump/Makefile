@@ -31,6 +31,8 @@ CPPFLAGS+=		-DINET6
 
 CPPFLAGS+=	-DVERSION=\""1.42-netbt"\"
 
+USE_BSD_MAKEFILE=	yes
+
 post-extract:
 	mkdir ${WRKSRC}/bluetooth
 	cp ${LIBSRC}/include/bluetooth.h ${WRKSRC}/bluetooth
