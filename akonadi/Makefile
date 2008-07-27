@@ -1,13 +1,13 @@
 # $NetBSD$
 
-DISTNAME=	akonadi-0.82.0
-CATEGORIES=	multimedia
-MASTER_SITES=	${MASTER_SITE_KDE:=../unstable/4.0.83/support/}
+DISTNAME=	akonadi-1.0.0
+CATEGORIES=	mail
+MASTER_SITES=	http://akonadi.omat.nl/
 EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	markd@NetBSD.org
-HOMEPAGE=	http://xxx.kde.org
-COMMENT=	???
+HOMEPAGE=	http://pim.kde.org/akonadi/
+COMMENT=	The KDE PIM Storage Service
 
 #BUILD_MAKE_FLAGS+= VERBOSE=1
 
