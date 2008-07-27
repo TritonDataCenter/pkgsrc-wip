@@ -2,9 +2,8 @@
 
 DISTNAME=	ming-ruby-${VER}
 PKGNAME=	${RUBY_PKGPREFIX}-ming-${VER}
-PKGREVISION=	1
 CATEGORIES=	multimedia
-MASTER_SITES=	http://rubyforge.org/frs/download.php/30011/
+MASTER_SITES=	http://rubyforge.org/frs/download.php/39583/
 
 MAINTAINER=	obache@NetBSD.org
 HOMEPAGE=	http://mingruby.rubyforge.org/
@@ -14,7 +13,9 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 
 USE_TOOLS+=		pax
 USE_RUBY_SETUP=		yes
-VER=			0.1.9
+VER=			0.2.0
+
+WRKSRC=			${WRKDIR}/ming-ruby
 
 REPLACE_RUBY_DIRS=	${WRKSRC}/examples
 
