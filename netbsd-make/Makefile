@@ -45,7 +45,7 @@ do-build:
 		env ${MAKE_ENV} ${SH} ./bmake/boot-strap ${BOOTSTRAP_ARGS}
 
 do-install:
-	${INSTALL_PROGRAM} ${WRKDIR}/${OPSYS}/bmake ${PREFIX}/bin/nbmake
-	${INSTALL_MAN} ${WRKDIR}/${OPSYS}/bmake.1 ${PREFIX}/${PKGMANDIR}/man1/nbmake.1
+	${INSTALL_PROGRAM} ${WRKDIR}/${OPSYS}/bmake ${DESTDIR}${PREFIX}/bin/nbmake
+	${INSTALL_MAN} ${WRKDIR}/${OPSYS}/bmake.1 ${DESTDIR}${PREFIX}/${PKGMANDIR}/man1/nbmake.1
 
 .include "../../mk/bsd.pkg.mk"
