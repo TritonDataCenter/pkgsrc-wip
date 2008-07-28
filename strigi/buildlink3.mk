@@ -12,7 +12,7 @@ BUILDLINK_PACKAGES+=	strigi
 BUILDLINK_ORDER:=	${BUILDLINK_ORDER} ${BUILDLINK_DEPTH}strigi
 
 .if ${STRIGI_BUILDLINK3_MK} == "+"
-BUILDLINK_API_DEPENDS.strigi+=	strigi>=0.5.7
+BUILDLINK_API_DEPENDS.strigi+=	strigi>=0.5.10
 BUILDLINK_PKGSRCDIR.strigi?=	../../wip/strigi
 
 PRINT_PLIST_AWK+=	/^@dirrm lib\/strigi$$/ \

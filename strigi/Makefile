@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	strigi-0.5.7
+DISTNAME=	strigi-0.5.10
 CATEGORIES=	sysutils
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=strigi/}
 EXTRACT_SUFX=	.tar.bz2
@@ -15,9 +15,9 @@ USE_CMAKE=	yes
 
 .include "../../mk/bsd.prefs.mk"
 .if ${OPSYS} == "NetBSD" && exists(/usr/include/sys/pset.h)
-RT_LIB_SCHED=		-lrt
+RT_LIB_SCHED=	-lrt
 .else
-RT_LIB_SCHED=		# empty
+RT_LIB_SCHED=	# empty
 .endif
 
 .if !empty(RT_LIB_SCHED)
