@@ -32,6 +32,8 @@ REPLACE_PERL+= \
 
 INSTALLATION_DIRS+=	${PKGMANDIR}/man1
 
+USE_TOOLS+=	gmake
+
 BUILDLINK_DEPMETHOD.qt4-tools=	full
 .include "../../wip/kde4/kde4.mk"
 
