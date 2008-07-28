@@ -9,6 +9,9 @@ MAINTAINER=	christtrekker@users.sourceforge.net
 HOMEPAGE=	http://gondor.apana.org.au/~herbert/dash/files/
 COMMENT=	Debian Almquist shell, POSIX-compliant shell faster than bash
 
-GNU_CONFIGURE=	yes
+PKG_USER_DESTDIR=	user-destdir
+
+GNU_CONFIGURE=		yes
+USE_TOOLS=		gmake
 
 .include "../../mk/bsd.pkg.mk"
