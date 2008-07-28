@@ -13,9 +13,11 @@ MAINTAINER=	cheusov@tut.by
 HOMEPAGE=	http://www.crufty.net/help/sjg/bmake.html
 COMMENT=	Portable (autoconf) version of NetBSD 'make' utility
 
-WRKSRC=		${WRKDIR}/bmake
+PKG_DESTDIR_SUPPORT=	user-destdir
 
-USE_FEATURES=	nbcompat
+WRKSRC=			${WRKDIR}/bmake
+
+USE_FEATURES=		nbcompat
 
 INSTALLATION_DIRS=	bin ${PKGMANDIR}/man1
 
