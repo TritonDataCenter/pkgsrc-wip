@@ -7,7 +7,7 @@ EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	markd@NetBSD.org
 HOMEPAGE=	http://www.kde.org
-COMMENT=	???
+COMMENT=	Automatic moc for Qt 4 packages
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
@@ -21,4 +21,5 @@ pre-configure:
 	${MKDIR} ${WRKSRC}/_build
 
 .include "../../x11/qt4-libs/buildlink3.mk"
+.include "../../x11/qt4-tools/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
