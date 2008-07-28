@@ -10,6 +10,8 @@ MAINTAINER=		cheusov@tut.by
 HOMEPAGE=		ftp://mud.stack.nl/pub/OuterSpace/willem/
 COMMENT=		XMMS input plugin that reads audio data from CDs
 
+PKG_DESTDIR_SUPPORT=	user-destdir
+
 NOT_FOR_PLATFORM=	Interix-*-* NetBSD-*-*
 ONLY_FOR_COMPILER=	gcc
 
@@ -23,7 +25,7 @@ INSTALLATION_DIRS=	${PKGDOCDIR}
 
 post-install:
 .for i in ${DOC_FILES}
-	${INSTALL_DATA} ${WRKSRC}/${i} ${PKGDOCDIR}
+	${INSTALL_DATA} ${WRKSRC}/${i} ${DESTDIR}${PKGDOCDIR}
 .endfor
 
 .include "../../audio/xmms/buildlink3.mk"

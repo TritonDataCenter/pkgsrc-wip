@@ -11,24 +11,26 @@ MAINTAINER=	cheusov@tut.by
 HOMEPAGE=	http://www.freedict.org/
 COMMENT=	XSL files from FreeDict tools
 
-USE_TOOLS+=	install pax
-NO_BUILD=	yes
+PKG_DESTDIR_SUPPORT=	user-destdir
 
-WRKSRC=		${WRKDIR}/tools
+USE_TOOLS+=		install pax
+NO_BUILD=		yes
+
+WRKSRC=			${WRKDIR}/tools
 
 .include "../../mk/bsd.prefs.mk"
 
-DOCDIR=		${PREFIX}/share/doc/freedict-tools-xsl
-XSLDIR=		${PREFIX}/share/freedict-tools-xsl
+DOCDIR=			${PREFIX}/share/doc/freedict-tools-xsl
+XSLDIR=			${PREFIX}/share/freedict-tools-xsl
 
 INSTALLATION_DIRS+=	${DOCDIR} ${XSLDIR} ${XSLDIR}/inc
 
-DOCFILES=	COPYING README
+DOCFILES=		COPYING README
 
 do-install:
 	cd ${WRKSRC} && \
-	${INSTALL_DATA} ${DOCFILES} ${DOCDIR} && \
+	${INSTALL_DATA} ${DOCFILES} ${DESTDIR}${DOCDIR} && \
 	cd ${WRKSRC}/xsl && \
-	pax -rw -pm . ${XSLDIR}
+	pax -rw -pm . ${DESTDIR}${XSLDIR}
 
 .include "../../mk/bsd.pkg.mk"
