@@ -1,8 +1,8 @@
 # $NetBSD$
 
-DISTNAME=	automoc4-0.9.83
+DISTNAME=	automoc4-0.9.84
 CATEGORIES=	devel
-MASTER_SITES=	${MASTER_SITE_KDE:=../unstable/4.0.83/support/}
+MASTER_SITES=	${MASTER_SITE_KDE:=../unstable/automoc4/0.9.84/}
 EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	markd@NetBSD.org
