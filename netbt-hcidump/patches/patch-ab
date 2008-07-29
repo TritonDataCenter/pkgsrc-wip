@@ -1,6 +1,6 @@
 $NetBSD$
 
---- bluetooth/bluetooth.h.orig	2008-01-11 22:27:54.000000000 +0000
+--- bluetooth/bluetooth.h.orig	2008-07-29 11:23:28.000000000 +0100
 +++ bluetooth/bluetooth.h
 @@ -30,6 +30,7 @@
  extern "C" {
