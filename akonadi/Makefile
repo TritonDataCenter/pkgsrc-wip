@@ -2,7 +2,7 @@
 
 DISTNAME=	akonadi-1.0.0
 CATEGORIES=	mail
-MASTER_SITES=	http://akonadi.omat.nl/
+MASTER_SITES=	http://download.akonadi-project.org/
 EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	markd@NetBSD.org
