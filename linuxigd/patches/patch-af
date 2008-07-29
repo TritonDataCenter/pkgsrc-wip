@@ -57,9 +57,9 @@ $NetBSD$
 +	trace(3, "flush anchor %s", anchor);
 +	{
 +		int status;
-+		char *args[] =  {"ipctl", "-a", anchor, "-F", "all"};
++		char *args[] =  {"pfctl", "-a", anchor, "-F", "all"};
 +		if(!fork()) {
-+			int rc = execv("/sbin/ipctl", args);
++			int rc = execv("/sbin/pfctl", args);
 +			exit(rc);
 +		} else {
 +			wait(&status);
