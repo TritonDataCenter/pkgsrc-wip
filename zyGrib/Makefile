@@ -16,6 +16,8 @@ WRKSRC=		${WRKDIR}/zyGrib/src
 USE_LANGUAGES=	c c++
 USE_TOOLS+=	make
 
+PKG_DESTDIR_SUPPORT=	user-destdir
+
 SUBST_CLASSES+=		paths
 SUBST_STAGE.paths=	post-patch
 SUBST_MESSAGE.paths=	Fixing shared data paths.
