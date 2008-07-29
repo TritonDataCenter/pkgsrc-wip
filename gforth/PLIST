@@ -9,6 +9,7 @@ bin/gforthmi
 bin/gforthmi-${PKGVERSION}
 include/gforth/${PKGVERSION}/config.h
 include/gforth/${PKGVERSION}/libcc.h
+info/gforth.info
 lib/gforth/${PKGVERSION}/gforth-ditc
 lib/gforth/${PKGVERSION}/gforth.fi
 lib/gforth/${PKGVERSION}/libcc-named/fflib.la
