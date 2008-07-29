@@ -209,8 +209,6 @@ share/kde/apps/kgpg/icons/oxygen/scalable/status/key-single.svgz
 share/kde/apps/kgpg/keysmanager.rc
 share/kde/apps/kgpg/kgpg.rc
 share/kde/apps/kgpg/pics/kgpg_anim.gif
-share/kde/apps/kgpg/pics/kgpg_blank.png
-share/kde/apps/kgpg/pics/kgpg_fill.png
 share/kde/apps/kgpg/tips
 share/kde/apps/kwalletmanager/icons/oxygen/22x22/actions/folder_closed.png
 share/kde/apps/kwalletmanager/icons/oxygen/22x22/actions/folder_open.png

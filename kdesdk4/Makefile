@@ -21,6 +21,7 @@ REPLACE_PERL+= \
 	scripts/fixkdeincludes \
 	scripts/fixuifiles \
 	scripts/kdesvn-build \
+	scripts/krazy-licensecheck \
 	scripts/png2mng.pl \
 	scripts/svnintegrate \
 	kcachegrind/converters/dprof2calltree \

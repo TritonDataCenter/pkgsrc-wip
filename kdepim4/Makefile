@@ -42,6 +42,12 @@ REPLACE_PERL+= \
 	kresources/kolab/upgrade-resourcetype.pl \
 	libkpgp/kpgp-3.1-upgrade-address-data.pl
 
+SUBST_CLASSES+=		perlfix
+SUBST_STAGE.perlfix=	pre-configure
+SUBST_MESSAGE.perlfix=	Fix perl path in cmake script
+SUBST_FILES.perlfix=	korganizer/ical2vcal.cmake
+SUBST_SED.perlfix=	-e 's:@PERL@:${PERL5}:g'
+
 .include "../../wip/kde4/kde4.mk"
 
 .include "../../comms/libmal/buildlink3.mk"
