@@ -35,6 +35,8 @@ MAKE_JOBS_SAFE=	no # fresh Gforth is required to build doc
 BUILD_TARGET=	all doc
 TEST_TARGET=	check
 
+INSTALLATION_DIRS=	share/emacs/site-lisp
+
 pre-configure:
 	cd ${WRKSRC} && ${CONFIG_SHELL} autogen.sh
 

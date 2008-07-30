@@ -16,6 +16,8 @@ lib/gforth/${PKGVERSION}/libcc-named/fflib.la
 lib/gforth/${PKGVERSION}/libcc-named/libffi.la
 lib/gforth/${PKGVERSION}/libcc-named/socket.la
 man/man1/gforth.1
+share/emacs/site-lisp/gforth.el
+share/emacs/site-lisp/gforth.elc
 share/gforth/${PKGVERSION}/TAGS
 share/gforth/${PKGVERSION}/add.fs
 share/gforth/${PKGVERSION}/ans-report.fs
