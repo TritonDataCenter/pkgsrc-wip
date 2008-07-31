@@ -29,6 +29,7 @@ share/dbus-1/interfaces/org.freedesktop.Akonadi.Server.xml
 share/dbus-1/interfaces/org.freedesktop.Akonadi.Tracer.xml
 share/dbus-1/interfaces/org.freedesktop.Akonadi.TracerNotification.xml
 share/dbus-1/services/org.freedesktop.Akonadi.Control.service
+share/mime/packages/akonadi-mime.xml
 @comment in dbus: @dirrm share/dbus-1/services
 @comment in kde: @dirrm share/dbus-1/interfaces
 @dirrm share/config/akonadi
