@@ -77,6 +77,7 @@ post-install:
 BUILDLINK_DEPMETHOD.qt4-tools=	full
 .include "../../wip/kde4/kde4.mk"
 
+.include "../../audio/xmms/buildlink3.mk"
 .include "../../devel/libusb/buildlink3.mk"
 .include "../../graphics/hicolor-icon-theme/buildlink3.mk"
 .include "../../wip/qimageblitz/buildlink3.mk"
