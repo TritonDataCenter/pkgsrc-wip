@@ -19,12 +19,14 @@ CHECK_PORTABILITY_SKIP+=ktimetracker/test/booktime-baddate.sh \
 
 .include "../../wip/kde4/kde4.mk"
 
+.include "../../devel/chmlib/buildlink3.mk"
 .include "../../devel/libgphoto2/buildlink3.mk"
 .include "../../graphics/exiv2/buildlink3.mk"
 .include "../../graphics/hicolor-icon-theme/buildlink3.mk"
 .include "../../graphics/sane-backends/buildlink3.mk"
 .include "../../graphics/tiff/buildlink3.mk"
 .include "../../print/poppler-qt4/buildlink3.mk"
+.include "../../security/qca2/buildlink3.mk"
 .include "../../wip/kdelibs4/buildlink3.mk"
 .include "../../wip/kdebase-runtime4/buildlink3.mk"
 .include "../../wip/qimageblitz/buildlink3.mk"
