@@ -107,6 +107,7 @@ NS_APPBINDIR=		nextstep/Emacs.app/Contents/MacOS
 PLIST_SRC+=		PLIST.cocoa
 .  else
 .include "../../devel/gnustep-base/buildlink3.mk"
+MAKE_FILE=		Makefile
 APPLICATIONS_DIR=	share/GNUstep/Local/Applications
 NS_APPBINDIR=		nextstep/Emacs.app
 PLIST_SRC+=		PLIST.gnustep
