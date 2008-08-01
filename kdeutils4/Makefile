@@ -6,6 +6,9 @@ COMMENT=	Utilities for the KDE integrated X11 desktop
 
 .include "../../wip/kde4/Makefile.kde4"
 
+#make sure cmake picks up the same Python version as pkgsrc
+CMAKE_ARGS+=	-DPYTHON_EXECUTABLE:FILEPATH=${PYTHONBIN}
+
 # BUILD_MAKE_FLAGS+= VERBOSE=1
 
 BUILDLINK_DEPMETHOD.qt4-tools=	full
