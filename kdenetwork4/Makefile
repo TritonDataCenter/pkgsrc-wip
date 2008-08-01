@@ -21,6 +21,7 @@ REPLACE_PERL+= \
 
 .include "../../wip/kde4/kde4.mk"
 
+.include "../../chat/libotr/buildlink3.mk"
 .include "../../databases/sqlite3/buildlink3.mk"
 .include "../../devel/libidn/buildlink3.mk"
 .include "../../devel/gmp/buildlink3.mk"
