@@ -14,7 +14,7 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 
 DEPENDS+=	{ja-,}trac>=0.10:../../www/trac
 
-CONFLICTS+=	trac>=0.11
+CONFLICTS+=	{ja-,}trac>=0.11
 
 SVN_REPOSITORIES=	webadmin
 SVN_ROOT.webadmin=	http://svn.edgewall.com/repos/trac/sandbox/webadmin
