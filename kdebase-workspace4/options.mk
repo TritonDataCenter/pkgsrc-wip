@@ -7,8 +7,6 @@ PKG_SUPPORTED_OPTIONS=	inet6 xmms
 
 .include "../../mk/bsd.options.mk"
 
-WITH_Xmms:BOOL=OFF
-
 .if !empty(PKG_OPTIONS:Mxmms)
 .include "../../audio/xmms/buildlink3.mk"
 .else
