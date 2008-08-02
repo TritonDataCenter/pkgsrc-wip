@@ -1,1 +1,10 @@
 @comment $NetBSD$
+bin/openal-info
+include/AL/al.h
+include/AL/alc.h
+include/AL/alext.h
+lib/libopenal.so
+lib/libopenal.so.1
+lib/libopenal.so.${PKGVERSION}
+lib/pkgconfig/openal.pc
+@dirrm include/AL

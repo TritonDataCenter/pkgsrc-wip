@@ -1,9 +1,10 @@
 # $NetBSD$
 #
 
-DISTNAME=	openal-soft-1.2.218
+DISTNAME=	openal-soft-1.5.304
 CATEGORIES=	audio
-MASTER_SITES=	http://kcat.strangesoft.net/openal-releases/
+MASTER_SITES=	http://connect.creativelabs.com/openal/Downloads/ \
+		http://kcat.strangesoft.net/openal-releases/
 EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	bjs@NetBSD.org
