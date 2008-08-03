@@ -25,6 +25,18 @@ CONFIGURE_ARGS+=	--with-lisp=sbcl
 # Fix suffix for "fast load" files:
 PLIST_SUBST+=	FASL=${FASL:Q}
 
+# Generalize "fast load" files
+PRINT_PLIST_AWK+=	{gsub(/\.${FASL}$$/, ".$${FASL}");}
+.if !empty(PKG_OPTIONS:Mclisp)
+# Handle CLISP-specific files
+PRINT_PLIST_AWK+=	{if ($$0 ~ /\.lib$$/) {$$0 = "$${clisp}" $$0;}}
+.endif
+
+# X11-only files:
+.if !empty(PKG_OPTIONS:Mx11)
+PRINT_PLIST_AWK+=	{if ($$0 ~ /\.(bitmap|xbm|xbm.tiny|bm|bakmap|xpm|ht|pht|ps)$$/) {$$0 = "$${x11}" $$0;}}
+.endif
+
 # X11
 .if !empty(PKG_OPTIONS:Mx11)
 CONFIGURE_ARGS+=	--with-x=yes
