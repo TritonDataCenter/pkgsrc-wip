@@ -1,7 +1,7 @@
 $NetBSD$
 
---- ../Mesa-7.0.3/src/mesa/main/imports.h.orig	2008-06-24 14:27:44.000000000 -0400
-+++ ../Mesa-7.0.3/src/mesa/main/imports.h
+--- ../Mesa-7.0.4/src/mesa/main/imports.h.orig	2008-06-24 14:27:44.000000000 -0400
++++ ../Mesa-7.0.4/src/mesa/main/imports.h
 @@ -292,7 +292,7 @@ static INLINE int GET_FLOAT_BITS( float 
   *** LDEXPF: multiply value by an integral power of two
   *** FREXPF: extract mantissa and exponent from value

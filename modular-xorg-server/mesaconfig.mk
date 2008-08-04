@@ -5,11 +5,8 @@
 ### change it?  It seems large, so we should investigate further.
 ###
 .include "../../mk/bsd.fast.prefs.mk"
-MESA_EXECMEM_HEAPSIZE?=	10485760
 
 .if !empty(OPSYS:M*BSD) || ${OPSYS} == "Linux" || ${OPSYS} == "DragonFly"
-CFLAGS+=	-DMESA_EXECMEM_MMAP
-CFLAGS+=	-DEXEC_HEAP_SIZE=${MESA_EXECMEM_HEAPSIZE:M[0-9]*:Q}
 CFLAGS+=	-DUSE_NATIVE_LIBM_FUNCS
 .endif
 
