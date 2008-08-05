@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	libhdhomerun_20080430
+DISTNAME=	libhdhomerun_20080727
 PKGNAME=	${DISTNAME:S/libhdhomerun_/hdhomerun_config-/}
 CATEGORIES=	multimedia
 MASTER_SITES=	http://download.silicondust.com/hdhomerun/
