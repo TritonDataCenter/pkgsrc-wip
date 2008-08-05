@@ -36,7 +36,8 @@ WRKSRC=			${WRKDIR}/${PKGBASE}
 
 SUBST_CLASSES+=	pciutils
 SUBST_FILES.pciutils=	Makefile flashrom.c
-SUBST_FILES.pciutils+=	board_enable.c chipset_enable.c spi.c
+SUBST_FILES.pciutils+=	board_enable.c chipset_enable.c
+SUBST_FILES.pciutils+=	spi.c it87spi.c ichspi.c
 SUBST_MESSAGE.pciutils=	fixing pciutils headers
 SUBST_STAGE.pciutils=	pre-configure
 SUBST_SED.pciutils+= -e 's,<pci/pci.h>,<pciutils/pci.h>,'
