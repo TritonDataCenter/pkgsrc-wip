@@ -4,8 +4,9 @@
 DISTNAME=	epeg-0.9.0.011
 PKGREVISION=	2
 CATEGORIES=	graphics
-MASTER_SITES=	http://www.yazzy.org/pkgsrc/e17/ \
-                http://jfranz.users.bsdprojects.net/pkgsrc/e17/
+MASTER_SITES=	http://download.enlightenment.org/snapshots/2007-08-26/ \
+		http://www.ezunix.org/pkgsrc/e17/snapshots/2007-08-26/ \
+		http://jfranz.users.bsdprojects.net/pkgsrc/e17/
 
 MAINTAINER=	yazzy@yazzy.org
 HOMEPAGE=	http://enlightenment.org/
