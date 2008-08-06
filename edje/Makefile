@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	edje-0.9.9.043
+PKGREVISION=	1
 CATEGORIES=	graphics
 MASTER_SITES=	http://download.enlightenment.org/snapshots/2008-05-19/ \
 		http://www.yazzy.org/pkgsrc/e17/ \
