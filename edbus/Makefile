@@ -4,9 +4,9 @@
 DISTNAME=	e_dbus-0.5.0.043
 PKGNAME=	${DISTNAME:S/_//}
 CATEGORIES=	sysutils
-MASTER_SITES=	http://www.yazzy.org/pkgsrc/e17/ \
+MASTER_SITES=	http://download.enlightenment.org/snapshots/2008-05-19/
+		http://www.ezunix.org/pkgsrc/e17/snapshots/2008-05-19/
                 http://jfranz.users.bsdprojects.net/pkgsrc/e17/ \
-		http://download.enlightenment.org/snapshots/2008-05-19/
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://download.enlightenment.org/snapshots/2008-05-19/
