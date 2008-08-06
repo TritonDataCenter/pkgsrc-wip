@@ -5,11 +5,8 @@ bin/epsilon_thumbd
 include/Epsilon.h
 include/Epsilon_Plugin.h
 include/Epsilon_Request.h
-lib/epsilon/plugins/xine_thumbnailer.a
 lib/epsilon/plugins/xine_thumbnailer.la
-lib/epsilon/plugins/xine_thumbnailer.so
 lib/libepsilon.la
 lib/pkgconfig/epsilon.pc
-@exec ${MKDIR} %D/lib/epsilon/plugins
 @dirrm lib/epsilon/plugins
 @dirrm lib/epsilon
