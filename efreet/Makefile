@@ -5,7 +5,7 @@ DISTNAME=	efreet-0.5.0.043
 PKGREVISION=	1
 CATEGORIES=	graphics
 MASTER_SITES=	http://download.enlightenment.org/snapshots/2008-05-19/ \
-		http://www.yazzy.org/pkgsrc/e17/ \
+		http://www.ezunix.org/pkgsrc/e17/snapshots/2008-05-19/ \
                 http://jfranz.users.bsdprojects.net/pkgsrc/e17/
 
 MAINTAINER=	yazzy@yazzy.org
