@@ -1,2 +1,7 @@
+===========================================================================
+$NetBSD$
+
 Please copy the enlightement file to your /etc/pam.d
 in order to make user authentication work in e17.
+
+===========================================================================
