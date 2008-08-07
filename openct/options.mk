@@ -2,15 +2,17 @@
 
 PKG_OPTIONS_VAR=	PKG_OPTIONS.openct
 PKG_SUPPORTED_OPTIONS=	pcsc-lite usb
+PKG_SUGGESTED_OPTIONS=	pcsc-lite
+PLIST_VARS+=		pcsc-lite
 
 .include "../../mk/bsd.options.mk"
 
 .if !empty(PKG_OPTIONS:Mpcsc-lite)
 .include "../../security/pcsc-lite/buildlink3.mk"
-CONFIGURE_ARGS+=	--with-pcsclite
-PLIST_SRC+=		${PKGDIR}/PLIST.pcsc-lite
+CONFIGURE_ARGS+=	--enable-pcsc
+PLIST.pcsc-lite=	yes
 .else
-CONFIGURE_ARGS+=	--with-pcsclite=no
+CONFIGURE_ARGS+=	--disable-pcsc
 .endif
 
 .if !empty(PKG_OPTIONS:Musb)
