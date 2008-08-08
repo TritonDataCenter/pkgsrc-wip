@@ -22,6 +22,7 @@ CONFIGURE_ARGS+=	--disable-nsplugin
 .if !empty(PKG_OPTIONS:Mpcsc-lite)
 .include "../../security/pcsc-lite/buildlink3.mk"
 CONFIGURE_ARGS+=	--enable-pcsc
+CONFIGURE_ARGS+=	--with-pcsc-provider=/usr/pkg/lib/libpcsclite.so
 .else
 CONFIGURE_ARGS+=	--disable-pcsc
 .endif
