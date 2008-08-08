@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		libmtp-0.2.5
+DISTNAME=		libmtp-0.3.0
 CATEGORIES=		devel
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=libmtp/}
 
