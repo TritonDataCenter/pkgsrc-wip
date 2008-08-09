@@ -17,7 +17,6 @@ USE_TOOLS+=	gmake pkg-config
 
 CONFIGURE_ARGS+=	--disable-openssl \
 		 	--disable-ecore-directfb \
-			--enable-ecore-evas-x11-16 \
 			--enable-ecore-desktop \
 			--disable-ecore-evas-sdl
 
