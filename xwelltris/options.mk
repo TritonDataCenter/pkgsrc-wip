@@ -10,5 +10,5 @@ CONFIGURE_ARGS+=	--with-sdl
 .  include "../../devel/SDL/buildlink3.mk"
 .  include "../../graphics/SDL_image/buildlink3.mk"
 .else
-.  include "../../x11/libX11/buildlink3.mk"
+.  include "../../x11/libXext/buildlink3.mk"
 .endif
