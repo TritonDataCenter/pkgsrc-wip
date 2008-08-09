@@ -1,0 +1,10 @@
+@comment $NetBSD$
+bin/xwelltris
+share/xwelltris/board2.gif
+share/xwelltris/font2.gif
+share/xwelltris/polyomino.dat
+share/xwelltris/topnine.gif
+share/xwelltris/wellcuts.gif
+share/xwelltris/wellintro.gif
+share/xwelltris/welltris.scores
+@dirrm share/xwelltris
