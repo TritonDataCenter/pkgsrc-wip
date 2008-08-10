@@ -11,7 +11,6 @@ COMMENT=		The enhanced syslogd for Unix
 
 DEPENDS=gnutls:../../security/gnutls
 GNU_CONFIGURE=		yes
-VPATH=			./ # Required for master.make.
 
 #SUBST_CLASSES+=		paths
 #SUBST_STAGE.paths=	pre-configure
@@ -26,10 +25,7 @@ RCD_SCRIPTS=		rsyslogd
 
 .include "options.mk"
 
-do-install:
-	${INSTALL_PROGRAM} ${WRKSRC}/tools/rsyslogd ${PREFIX}/sbin/rsyslogd
-	${INSTALL_MAN} ${WRKSRC}/tools/rsyslogd.8 ${PREFIX}/${PKGMANDIR}/man8
-	${INSTALL_MAN} ${WRKSRC}/tools/rsyslog.conf.5 ${PREFIX}/${PKGMANDIR}/man5
+post-install:
 	${INSTALL_DATA_DIR} ${EGDIR} ${PREFIX}/share/doc/rsyslog
 	${INSTALL_DATA} ${WRKSRC}/plugins/ommysql/createDB.sql ${EGDIR}
 	${INSTALL_DATA} ${WRKSRC}/rsyslog.conf ${EGDIR}/rsyslog.conf
