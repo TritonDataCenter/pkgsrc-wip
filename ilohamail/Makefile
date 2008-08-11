@@ -10,13 +10,16 @@ MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://blog.ilohamail.org/
 COMMENT=	Light weight yet full featured multilingual webmail
 
-DEPENDS+=	${APACHE_PKG_PREFIX}-${PHP_PKG_PREFIX}>=4.3.0:../../www/ap-php
+DEPENDS+=	${PHP_PKG_PREFIX}-imap>=4.3.3:../../mail/php-imap
 
 NO_BUILD=	yes
 USE_TOOLS+=	pax
 
 APACHE_USER?=	www
 APACHE_GROUP?=	www
+PKG_GROUPS=	${APACHE_GROUP}
+PKG_USERS=	${APACHE_USER}:${APACHE_GROUP}
+BUILD_DEFS+=	APACHE_USER APACHE_GROUP
 
 ILOHAMAIL_DIR=		${PREFIX}/share/ilohamail
 ILOHAMAIL_CONF_DIR=	${ILOHAMAIL_DIR}/conf
@@ -57,6 +60,5 @@ do-install:
 		RELEASE_NOTES THEMES TODO UPGRADING ${ILOHAMAIL_DOC_DIR}
 	${CHOWN} -R ${APACHE_USER}:${APACHE_GROUP} ${ILOHAMAIL_DIR}
 
-.include "../../mk/apachever.mk"
 .include "../../lang/php/phpversion.mk"
 .include "../../mk/bsd.pkg.mk"
