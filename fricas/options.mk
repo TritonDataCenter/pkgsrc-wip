@@ -2,7 +2,7 @@
 
 PKG_OPTIONS_VAR=		PKG_OPTIONS.fricas
 PKG_OPTIONS_REQUIRED_GROUPS=	lisp
-PKG_OPTIONS_GROUP.lisp=		clisp sbcl
+PKG_OPTIONS_GROUP.lisp=		clisp sbcl ecl
 
 PKG_SUPPORTED_OPTIONS+=		x11
 
@@ -20,6 +20,12 @@ CONFIGURE_ARGS+=	--with-lisp=clisp
 FASL=			fasl
 BUILD_DEPENDS+=		sbcl-[0-9]*:../../lang/sbcl
 CONFIGURE_ARGS+=	--with-lisp=sbcl
+.endif
+.if !empty(PKG_OPTIONS:Mecl)
+FASL=			fas
+DEPENDS+=		ecl-[0-9]*:../../wip/ecl
+CONFIGURE_ARGS+=	--with-lisp=ecl
+.include "../../lang/ecl/buildlink3.mk"
 .endif
 
 # Fix suffix for "fast load" files:
@@ -48,7 +54,7 @@ CONFIGURE_ENV+=		X_LIBS=${LDFLAGS:M*:Q}
 CONFIGURE_ARGS+=	--with-x=no
 .endif
 
-.for opt in clisp sbcl x11
+.for opt in clisp sbcl ecl x11   clisp-sbcl
 .  if !empty(PKG_OPTIONS:M${opt})
 PLIST_SUBST+=	${opt}=""
 .  else
