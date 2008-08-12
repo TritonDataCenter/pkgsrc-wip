@@ -1,0 +1,4 @@
+@comment $NetBSD$
+bin/gipfel
+share/gipfel/alpinkoordinaten.dat
+@dirrm share/gipfel
