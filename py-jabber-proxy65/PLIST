@@ -14,4 +14,7 @@ ${PYSITELIB}/proxy65/tap.pyo
 ${PYSITELIB}/twisted/plugins/proxy65.py
 ${PYSITELIB}/twisted/plugins/proxy65.pyc
 ${PYSITELIB}/twisted/plugins/proxy65.pyo
+share/doc/proxy65/README
+share/examples/rc.d/proxy65
+@dirrm share/doc/proxy65
 @dirrm ${PYSITELIB}/proxy65
