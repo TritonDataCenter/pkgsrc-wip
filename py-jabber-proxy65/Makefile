@@ -25,6 +25,15 @@ PYDISTUTILSPKG=	yes
 # always include bsd.prefs.mk before any .if or .ifdef statements
 .include "../../mk/bsd.prefs.mk"
 
+
+JABBER_USER?=		jabberd
+JABBER_GROUP?=		jabberd
+FILES_SUBST+=		PYTHONBIN=${PYTHONBIN:Q}
+PKG_USERS_VARS+=	JABBER_USER
+PKG_GROUPS_VARS+=	JABBER_GROUP
+
+.include "../../wip/jabberd/transports.mk"
+
 DOCDIR=                 ${PREFIX}/share/doc/proxy65
 DOCFILES=               README
 
