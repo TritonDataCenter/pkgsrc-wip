@@ -1,7 +1,7 @@
 # $NetBSD: $
 
 DISTNAME=	Proxy65-1.1.1
-PKGNAME=	${PYPKGPREFIX}-jabber-${DISTNAME}
+PKGNAME=	${PYPKGPREFIX}-jabber-${DISTNAME:S/P/p/}
 CATEGORIES=	chat python
 MASTER_SITES=	http://proxy65.googlecode.com/files/
 
