@@ -4,7 +4,7 @@
 DISTNAME=	WWW-YouTube-VideoURI-0.1
 PKGNAME=	p5-${DISTNAME}
 CATEGORIES= www perl5
-MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=../../authors/id/G/GB/GBROWN/}
+MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=WWW/}
 
 MAINTAINER=	leot1990@users.sourceforge.net
 HOMEPAGE=	http://search.cpan.org/dist/WWW-YouTube-VideoURI/
