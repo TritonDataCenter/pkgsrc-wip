@@ -3,7 +3,8 @@
 
 DISTNAME=	fortune-it-1.99
 CATEGORIES=	games
-MASTER_SITES=	http://www.fortune-it.net/download/
+MASTER_SITES=	http://www.fortune-it.net/download/ \
+		ftp://sunsite.unc.edu/pub/Linux/games/amusements/fortune/
 
 MAINTAINER=	leot1990@users.sourceforge.net
 HOMEPAGE=	http://www.fortune-it.net/
