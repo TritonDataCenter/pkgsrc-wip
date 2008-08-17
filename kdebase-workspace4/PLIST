@@ -2155,7 +2155,7 @@ share/sounds/pop.wav
 @comment in kde: @dirrm lib/kde4/plugins/designer
 @comment in kde: @dirrm lib/kde4/libexec
 @comment in kde: @dirrm lib/kde4
-@dirrm lib/kconf_update_bin
+@comment in kde: @dirrm lib/kconf_update_bin
 @dirrm include/taskmanager
 @dirrm include/solid/control/ifaces
 @dirrm include/solid/control
