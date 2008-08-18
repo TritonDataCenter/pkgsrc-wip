@@ -1,12 +1,12 @@
 # $NetBSD: Makefile,v 1.18 2003/04/12 14:45:08 martti Exp $
 #
-
-DISTNAME=	igal-1.4
+V=		wt
+DISTNAME=	igal-1.4.7-$V
 CATEGORIES=	www graphics
-MASTER_SITES=	http://nanoheat.stanford.edu/epop/igal/
+MASTER_SITES=	http://trexler.at/igal/
 
 MAINTAINER=	drue@users.sf.net
-HOMEPAGE=	http://nanoheat.stanford.edu/epop/igal/
+HOMEPAGE=	http://trexler.at/igal/
 COMMENT=	Online image gallery generator
 
 DEPENDS+=	ImageMagick>=5.0:../../graphics/ImageMagick
