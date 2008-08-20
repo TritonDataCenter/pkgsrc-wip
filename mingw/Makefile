@@ -10,6 +10,8 @@ MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://mingw.sourceforge.net/
 COMMENT=		GNU C Compiler for win32 cross development
 
+META_PACKAGE=		yes
+
 .include "../../wip/mingw-binutils/buildlink3.mk"
 .include "../../wip/mingw-gcc/buildlink3.mk"
 #.include "../../wip/mingw-libtool/buildlink3.mk"
