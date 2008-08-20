@@ -12,6 +12,7 @@ ${MINGW_TARGET}/bin/cc
 ${MINGW_TARGET}/bin/cpp
 ${MINGW_TARGET}/bin/g++
 ${MINGW_TARGET}/bin/gcc
+${MINGW_TARGET}/lib/libiberty.a
 ${MINGW_TARGET}/lib/libobjc.la
 ${MINGW_TARGET}/lib/libstdc++.la
 ${MINGW_TARGET}/lib/libsupc++.la
