@@ -12,7 +12,7 @@ COMMENT=		Command-line calendar program
 
 WRKSRC=			${WRKDIR}/${DISTNAME}/src
 
-USE_TOOLS+=		gmake
+USE_TOOLS+=		gmake pkg-config
 USE_PKGLOCALEDIR=	yes
 USE_GNU_READLINE=	yes
 MANCOMPRESSED=		yes
