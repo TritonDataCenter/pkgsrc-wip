@@ -1,12 +1,12 @@
 # $NetBSD$
 #
 
-DISTNAME=		ipython-0.6.12
+DISTNAME=		ipython-0.8.4
 PKGNAME=		${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=		devel python
 MASTER_SITES=		http://ipython.scipy.org/dist/
 
-MAINTAINER=		sifu@0xx0.net
+MAINTAINER=		tonnerre@NetBSD.org
 HOMEPAGE=		http://ipython.scipy.org/
 COMMENT=		Interactive, enhanced Python shell
 
