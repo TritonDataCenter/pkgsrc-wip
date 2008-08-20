@@ -13,6 +13,7 @@ COMMENT=		Concurrent functional programming language
 DIST_SUBDIR=		erlang
 
 PKG_DESTDIR_SUPPORT=	user-destdir
+MAKE_JOBS_SAFE=		no
 
 GNU_CONFIGURE=		yes
 USE_GNU_CONFIGURE_HOST=	${USE_CROSS_COMPILE}
@@ -68,6 +69,9 @@ post-install:
 	chmod -R go-w ${DESTDIR}${PREFIX}/lib/erlang/lib/ssl-${VERSION.ssl}/examples
 	rm ${DESTDIR}${PREFIX}/lib/erlang/lib/observer-${VERSION.observer}/priv/bin/*.bat
 	rm ${DESTDIR}${PREFIX}/lib/erlang/lib/webtool-${VERSION.webtool}/priv/bin/*.bat
+
+TEST_MAKE_FLAGS+=	TESTROOT=${WRKSRC} ERL_TOP=${WRKSRC}
+TEST_TARGET=		tests
 
 .include "../../security/openssl/buildlink3.mk"
 .include "../../devel/ncurses/buildlink3.mk"
