@@ -12,6 +12,7 @@ PLIST.dri=		yes
 .include "mesaconfig.mk"
 DISTFILES=		${DEFAULT_DISTFILES}
 DISTFILES+=		MesaLib-7.0.4.tar.bz2
+_PKGSRC_PATCHES+=	${FILESDIR}/patch-mesa # XXX is there a better way?
 SITES.MesaLib-7.0.4.tar.bz2=\
 			${MASTER_SITE_SOURCEFORGE:=mesa3d/}
 MESA_SRC=		${WRKDIR}/Mesa-7.0.4
