@@ -1,0 +1,10 @@
+# -*- sh -*-
+# $NetBSD$
+#
+case ${STAGE} in
+    POST-INSTALL)
+	for i in `ls @GTK2HS_LIBDIR@/*.package.conf`; do
+	    @HASKELL_PKG_BIN@ register $i --force
+	done
+	;;
+esac

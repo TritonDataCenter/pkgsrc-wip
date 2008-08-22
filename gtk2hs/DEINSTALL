@@ -1,0 +1,10 @@
+# -*- sh -*-
+# $NetBSD$
+#
+case ${STAGE} in
+    DEINSTALL)
+	for i in `ls @GTK2HS_LIBDIR@/*.package.conf`; do
+	    @HASKELL_PKG_BIN@ unregister `basename $i .package.conf`
+	done
+	;;
+esac
