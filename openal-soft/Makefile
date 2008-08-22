@@ -33,6 +33,12 @@ CMAKE_ARGS+=	-DEXTRA_LIBS=${LIBOSSAUDIO:Q}
 
 CFLAGS.NetBSD+=	-D_NETBSD_SOURCE
 
+SUBST_CLASSES+=			fix-oss
+SUBST_STAGE.fix-oss=		pre-configure
+SUBST_MESSAGE.fix-oss=		Fixing OSS device references.
+SUBST_FILES.fix-oss=		Alc/oss.c
+SUBST_SED.fix-oss=		-e 's,/dev/dsp,${DEVOSSSOUND},'
+
 .include "../../mk/dlopen.buildlink3.mk"
 .include "../../mk/pthread.buildlink3.mk"
 
