@@ -1,0 +1,4 @@
+@comment $NetBSD$
+bin/guitone
+share/pixmaps/guitone.png
+@comment in xdg-dirs: @dirrm share/pixmaps
