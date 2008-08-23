@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		open-axiom-1.2.0
-PKGNAME=		open-axiom-1.2.99	# VCS-based
+#PKGNAME=		open-axiom-1.2.99	# VCS-based
 CATEGORIES=		lang
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=open-axiom/}
 EXTRACT_SUFX=		.tar.bz2
@@ -17,7 +17,7 @@ SVN_REPOSITORIES=	open-axiom
 SVN_ROOT.open-axiom=	https://open-axiom.svn.sf.net/svnroot/open-axiom/trunk
 SVN_MODULE.open-axiom=	open-axiom
 
-WRKSRC=			${WRKDIR}/open-axiom
+#WRKSRC=			${WRKDIR}/open-axiom
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 MAKE_JOBS_SAFE=		no
@@ -39,5 +39,5 @@ BUILD_MAKE_FLAGS+=	TOOLS_PLATFORM.install=${TOOLS_PLATFORM.install:Q}
 pre-configure:
 	${RUN} cd ${WRKSRC} && ./build-setup.sh
 
-.include "../mk/svn-package.mk"
+#.include "../mk/svn-package.mk"
 .include "../../mk/bsd.pkg.mk"
