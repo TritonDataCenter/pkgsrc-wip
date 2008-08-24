@@ -35,6 +35,10 @@ INSTALLATION_DIRS+=	${LIBDIR}/priv ${WWWDIR}
 
 OWN_DIRS=		${VARBASE}/log/yaws
 
+REPLACE_PYTHON=		www/cgi-bin/foo.py
+#CHECK_INTERPRETER_SKIP=	${WWWDIR}/cgi-bin/foo.py
+CHECK_INTERPRETER_SKIP=	share/yaws/www/cgi-bin/foo.py
+
 post-patch:
 	${RM} ${WRKDIR}/yaws
 	${RM} -Rf ${WRKSRC}/www/.xvpics
