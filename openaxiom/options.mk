@@ -36,6 +36,10 @@ PRINT_PLIST_AWK+=	{gsub(/\.${FASL}$$/, ".$${FASL}");}
 # Handle CLISP-specific files
 PRINT_PLIST_AWK+=	{if ($$0 ~ /\.lib$$/) {$$0 = "$${clisp}" $$0;}}
 .endif
+.if !empty(PKG_OPTIONS:Mecl)
+# Handle ECL-specific files
+PRINT_PLIST_AWK+=	{if ($$0 ~ /\.o$$/) {$$0 = "$${ecl}" $$0;}}
+.endif
 
 # X11
 .if !empty(PKG_OPTIONS:Mx11)
