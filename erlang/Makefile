@@ -70,9 +70,6 @@ post-install:
 	rm ${DESTDIR}${PREFIX}/lib/erlang/lib/observer-${VERSION.observer}/priv/bin/*.bat
 	rm ${DESTDIR}${PREFIX}/lib/erlang/lib/webtool-${VERSION.webtool}/priv/bin/*.bat
 
-TEST_MAKE_FLAGS+=	TESTROOT=${WRKSRC} ERL_TOP=${WRKSRC}
-TEST_TARGET=		tests
-
 .include "../../security/openssl/buildlink3.mk"
 .include "../../devel/ncurses/buildlink3.mk"
 .include "../../mk/pthread.buildlink3.mk"
