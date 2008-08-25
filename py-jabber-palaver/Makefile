@@ -41,7 +41,7 @@ INSTALLATION_DIRS=	share/doc/palaver
 
 CONF_FILES=	${EGDIR}/palaver.xml ${PKG_SYSCONFDIR}/palaver.xml
 
-# RCD_SCRIPTS=	palaver
+RCD_SCRIPTS=	palaver
 
 post-install:
 .for f in ${DOCFILES}
