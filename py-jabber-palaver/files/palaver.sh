@@ -9,7 +9,7 @@
 # REQUIRE: DAEMON s2s
 #
 
-name="proxy65"
+name="palaver"
 rcvar=$name
 command=@PREFIX@/bin/twistd
 command_interpreter="@PYTHONBIN@"
