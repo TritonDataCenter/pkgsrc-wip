@@ -20,6 +20,7 @@ USE_LIBTOOL=	YES
 
 # omniORB requires native threads support
 PTHREAD_OPTS=	require native
+RCD_SCRIPTS= 	omninames
 
 OMNIORB_ETCDIR?= ${PKG_SYSCONFDIR}
 OMNIORB_CONFIG=	${OMNIORB_ETCDIR}/omniORB.cfg

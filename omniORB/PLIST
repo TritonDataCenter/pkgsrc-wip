@@ -366,6 +366,7 @@ share/doc/omniORB/utilities.html
 share/doc/omniORB/utilities.pdf
 share/doc/omniORB/utilities.ps
 share/examples/omniORB/sample.cfg
+share/examples/rc.d/omninames
 share/idl/omniORB/COS/CosCollection.idl
 share/idl/omniORB/COS/CosCompoundLifeCycle.idl
 share/idl/omniORB/COS/CosConcurrencyControl.idl
