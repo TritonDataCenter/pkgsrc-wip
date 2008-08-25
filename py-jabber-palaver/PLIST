@@ -75,6 +75,8 @@ share/doc/palaver/README.txt
 share/doc/palaver/XEP.txt
 share/doc/palaver/muc-pgsql.sql
 share/examples/jabber/palaver.xml
+@dirrm ${PYSITELIB}/palaver/xmpp
+@dirrm ${PYSITELIB}/palaver/test
 @dirrm ${PYSITELIB}/palaver
 @dirrm share/doc/palaver
 @dirrm share/examples/jabber
