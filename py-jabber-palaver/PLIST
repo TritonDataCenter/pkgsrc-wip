@@ -1,4 +1,9 @@
 @comment $NetBSD$
+${PYSITELIB}/palaver/__init__.py
+${PYSITELIB}/palaver/__init__.pyc
+${PYSITELIB}/palaver/__init__.pyo
+${PYSITELIB}/palaver/admin.py
+${PYSITELIB}/palaver/admin.pyc
 ${PYSITELIB}/palaver/admin.pyo
 ${PYSITELIB}/palaver/cred.py
 ${PYSITELIB}/palaver/cred.pyc
