@@ -1,8 +1,9 @@
 # $NetBSD: Makefile,v 1.2 2008/03/19 20:36:41 asau Exp $
 
-DISTNAME=	mpich2-1.0.7
+DISTNAME=	mpich2-1.1.0a1
 CATEGORIES=	parallel
-MASTER_SITES=	http://www.mcs.anl.gov/research/projects/mpich2/downloads/tarballs/
+#MASTER_SITES=	http://www.mcs.anl.gov/research/projects/mpich2/downloads/tarballs/
+MASTER_SITES=	http://www.mcs.anl.gov/research/projects/mpich2/downloads/tarballs/1.1a1/src/
 
 MAINTAINER=	asau@inbox.ru
 HOMEPAGE=	http://www.mcs.anl.gov/research/projects/mpich2/
