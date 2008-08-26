@@ -2,7 +2,16 @@ $NetBSD$
 
 --- example-config.xml.orig	2006-08-06 10:45:21.000000000 -0500
 +++ example-config.xml
-@@ -33,7 +33,7 @@
+@@ -26,14 +26,13 @@
+     <type>pgsql</type>
+     <dbuser>muc</dbuser>
+     <dbname>muc</dbname>
+-    <!-- <dbpass>secret</dbpass> -->
+-    <!-- <dbhostname>localhost</dbhostname> -->
+-   
++    <dbpass>secret</dbpass>
++    <dbhostname>localhost</dbhostname>
+   </backend>
    -->
  
    <!-- spool is the directory where filesystem based backends store data -->
