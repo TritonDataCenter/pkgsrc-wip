@@ -16,8 +16,10 @@ USE_LIBTOOL=	yes
 CONFIGURE_ARGS+=	--with-regs
 USE_TOOLS+=	perl pkg-config
 
-BUILD_TARGET=	all doc
-INSTALL_TARGET=	install install-doc
+MAKE_JOBS_SAFE=	no
+BUILD_TARGET=	all mans docs
+INSTALL_TARGET=	install install-mans install-docs
+TEST_TARGET=	tests
 
 BUILD_DEPENDS=	xmlto-[0-9]*:../../textproc/xmlto	# documentation
 
