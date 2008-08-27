@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=		opensc-0.11.5
+DISTNAME=		opensc-0.11.6
 CATEGORIES=		security
 MASTER_SITES=		http://www.opensc-project.org/files/opensc/
 

@@ -115,6 +115,7 @@ share/examples/opensc/opensc.conf
 share/opensc/asepcos.profile
 share/opensc/cardos.profile
 share/opensc/cyberflex.profile
+share/opensc/entersafe.profile
 share/opensc/flex.profile
 share/opensc/gpk.profile
 share/opensc/incrypto34.profile
