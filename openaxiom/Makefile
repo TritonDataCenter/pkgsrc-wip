@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		open-axiom-1.2.0
-CATEGORIES=		lang
+CATEGORIES=		math
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=open-axiom/}
 EXTRACT_SUFX=		.tar.bz2
 
