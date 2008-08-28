@@ -1,0 +1,11 @@
+===========================================================================
+$NetBSD$
+
+To complete installing this package, add to your .emacs the following
+line:
+
+   (load "${LISPDIR}/mpc/mpc-autoloads")
+
+That's all there is to it.  After restarting your Emacs, you should be able
+to use MPC.el by simply invoking M-x mpc RET.
+===========================================================================
