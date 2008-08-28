@@ -185,6 +185,7 @@ share/psi/psi_ru.qm
 share/psi/psi_uk.qm
 share/psi/psi_vi.qm
 share/psi/psi_zh.qm
+share/psi/psi_zh_TW.qm
 @dirrm share/psi/sound
 @dirrm share/psi/iconsets/system/default/whiteboarding
 @dirrm share/psi/iconsets/system/default
