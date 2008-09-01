@@ -10,6 +10,8 @@ MAINTAINER=	athaba@inode.at
 HOMEPAGE=	http://search.cpan.org/~ovid/AI-NeuralNet-Simple-0.11/
 COMMENT=	Easy to use backprop neural net
 
+PKG_DESTDIR_SUPPORT=user-destdir
+
 DEPENDS+=	p5-Log-Agent>=0.208:../../devel/p5-Log-Agent
 DEPENDS+=	p5-Sub-Uplevel>=0:../../devel/p5-Sub-Uplevel
 DEPENDS+=	p5-Test-Exception>=0.15:../../devel/p5-Test-Exception
