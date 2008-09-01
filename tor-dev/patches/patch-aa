@@ -7,7 +7,7 @@ $NetBSD$
  libdir = @libdir@
  libexecdir = @libexecdir@
 -localedir = @localedir@
-+localedir = /usr/pkg/share/locale
++localedir = ${PREFIX}/share/locale
  localstatedir = @localstatedir@
  mandir = @mandir@
  mkdir_p = @mkdir_p@
