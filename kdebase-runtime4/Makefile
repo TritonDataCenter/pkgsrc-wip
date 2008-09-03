@@ -11,6 +11,8 @@ COMMENT=	Runtime requirements for the KDE integrated X11 desktop
 DEPENDS+=	htdig>=3.2.0:../../www/htdig-devel
 DEPENDS+=	xine-xcb>=1.1.9:../../wip/xine-xcb
 
+.include "options.mk"
+
 SUBST_CLASSES+=		htdig paths
 SUBST_STAGE.htdig=	post-patch
 SUBST_MESSAGE.htdig=	Fix htdig paths.
