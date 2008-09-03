@@ -1699,6 +1699,7 @@ share/kde/apps/cmake/modules/FindCarbon.cmake
 share/kde/apps/cmake/modules/FindDNSSD.cmake
 share/kde/apps/cmake/modules/FindENCHANT.cmake
 share/kde/apps/cmake/modules/FindEigen.cmake
+share/kde/apps/cmake/modules/FindEigen2.cmake
 share/kde/apps/cmake/modules/FindExiv2.cmake
 share/kde/apps/cmake/modules/FindFAM.cmake
 share/kde/apps/cmake/modules/FindFFmpeg.cmake
