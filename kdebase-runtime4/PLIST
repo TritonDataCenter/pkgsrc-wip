@@ -7708,7 +7708,6 @@ share/sounds/KDE-Window-Shade-Up.ogg
 @comment in kde: @dirrm share/kde/config.kcfg
 @comment in kde: @dirrm share/kde/config
 @comment in kde: @dirrm share/kde/autostart
-${PLIST.smb}@dirrm share/kde/apps/remoteview
 @dirrm share/kde/apps/phonon
 @dirrm share/kde/apps/libphonon
 @comment in kde: @dirrm share/kde/apps/kstyle/themes
