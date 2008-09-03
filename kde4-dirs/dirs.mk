@@ -30,7 +30,6 @@ KDE4_DIRS+=	share/doc/kde/HTML/${lang}/common
 .endfor
 
 KDE4_DIRS+=	share/doc/kde/HTML/en/kcontrol
-#KDE4_DIRS+=	share/doc/kde/HTML/en/kinfocenter
 
 _ICONCOLORS=	crystalsvg locolor oxygen
 _ICONSIZES=	16x16 22x22 32x32 48x48 64x64 128x128 scalable
@@ -85,9 +84,9 @@ KDE4_DIRS+=	share/kde/apps/kstyle/themes
 KDE4_DIRS+=	share/kde/apps/kwin
 KDE4_DIRS+=	share/kde/apps/kworldclock
 KDE4_DIRS+=	share/kde/apps/kworldclock/maps
+KDE4_DIRS+=	share/kde/apps/remoteview
 KDE4_DIRS+=	share/kde/autostart
 KDE4_DIRS+=	share/kde/config
-#KDE4_DIRS+=	share/kde/config/magic
 KDE4_DIRS+=	share/kde/config.kcfg
 KDE4_DIRS+=	share/kde/templates
 KDE4_DIRS+=	share/kde/templates/.source
