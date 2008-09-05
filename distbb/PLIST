@@ -1,9 +1,7 @@
 @comment $NetBSD$
 bin/distbb
 libexec/distbb/common
-libexec/distbb/lock
 libexec/distbb/slave
-libexec/distbb/slave_test
 libexec/distbb/stage_build
 libexec/distbb/stage_gen_report
 libexec/distbb/stage_init
