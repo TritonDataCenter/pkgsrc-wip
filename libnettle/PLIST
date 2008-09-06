@@ -41,5 +41,5 @@ info/nettle.info
 lib/libnettle.a
 lib/libnettle.so
 lib/libnettle.so.2
-lib/libnettle.so.2.5
+lib/libnettle.so.2.6
 @dirrm include/nettle
