@@ -66,7 +66,6 @@ CONFIGURE_ARGS+=	--enable-lirc
 .endif
 
 .include "../../wip/audacious/buildlink3.mk"
-.include "../../wip/libmtp/buildlink3.mk"
 .include "../../audio/libcddb/buildlink3.mk"
 .include "../../audio/libmad/buildlink3.mk"
 .include "../../audio/libmpcdec/buildlink3.mk"
@@ -76,6 +75,7 @@ CONFIGURE_ARGS+=	--enable-lirc
 .include "../../audio/wavpack/buildlink3.mk"
 .include "../../audio/lame/buildlink3.mk"
 .include "../../devel/libbinio/buildlink3.mk"
+.include "../../devel/libmtp/buildlink3.mk"
 .include "../../devel/SDL/buildlink3.mk"
 .include "../../graphics/imlib2/buildlink3.mk"
 .include "../../misc/libcdio/buildlink3.mk"
