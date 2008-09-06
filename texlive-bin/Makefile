@@ -25,8 +25,8 @@ INFO_FILES=	yes
 
 CONFIGURE_ENV+=	GNUMAKE=gmake
 
-DEPENDS+=	t1utils>=[0-9]*:../../fonts/t1utils
-DEPENDS+=	psutils>=[0-9]*:../../print/psutils
+DEPENDS+=	t1utils-[0-9]*:../../fonts/t1utils
+DEPENDS+=	psutils-[0-9]*:../../print/psutils
 
 # Use pkgsrc versions instead of the ones shipped with livetex
 CONFIGURE_ARGS+=--with-system-freetype2

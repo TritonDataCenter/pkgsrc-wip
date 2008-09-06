@@ -22,7 +22,7 @@ PLIST_SRC=	# empty
 
 do-install:	# do nothing
 
-DEPENDS+=	texlive-bin>=[0-9]*:../../wip/texlive-bin
+DEPENDS+=	texlive-bin-[0-9]*:../../wip/texlive-bin
 
 .include "Makefile.common"
 .include "options.mk"
