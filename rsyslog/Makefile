@@ -9,7 +9,6 @@ MAINTAINER=		bartosz@atom.eu.org
 HOMEPAGE=		http://www.rsyslog.com/
 COMMENT=		The enhanced syslogd for Unix
 
-DEPENDS=gnutls:../../security/gnutls
 GNU_CONFIGURE=		yes
 
 #SUBST_CLASSES+=		paths
@@ -38,5 +37,5 @@ post-install:
 				version_naming.html \
 			${PREFIX}/share/doc/rsyslog
 
-.include "../../mk/bsd.prefs.mk"
+.include "../../security/gnutls/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
