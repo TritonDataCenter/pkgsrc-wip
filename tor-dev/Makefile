@@ -3,6 +3,7 @@
 
 DISTNAME=		tor-0.2.1.5-alpha
 PKGNAME=		${DISTNAME:S/-alpha//}
+PKGREVISION=		1
 CATEGORIES=		net security
 MASTER_SITES=		http://www.torproject.org/dist/
 
