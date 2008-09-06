@@ -2,7 +2,7 @@
 
 DISTNAME=	mod_encoding-20021209
 PKGNAME=	ap2-encoding-20040616
-PKGREVISION=	1
+PKGREVISION=	2
 CATEGORIES=	www
 MASTER_SITES=	http://webdav.todo.gr.jp/download/
 

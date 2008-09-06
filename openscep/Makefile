@@ -1,7 +1,7 @@
 # $NetBSD: Makefile,v 1.122 2004/10/03 00:12:53 tv Exp $
 
 DISTNAME=		openscep-0.4.2
-PKGREVISION=		1
+PKGREVISION=		2
 CATEGORIES=		security
 MASTER_SITES=		http://openscep.othello.ch/download/
 

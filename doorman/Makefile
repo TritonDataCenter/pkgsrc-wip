@@ -2,6 +2,7 @@
 #
 
 DISTNAME=		doorman-0.8
+PKGREVISION=		1
 CATEGORIES=		sysutils
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=doorman/}
 EXTRACT_SUFX=		.tgz

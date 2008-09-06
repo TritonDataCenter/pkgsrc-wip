@@ -2,7 +2,7 @@
 
 DISTNAME=	smX-${VERSION}
 PKGNAME=	sendmailX-${VERSION}
-PKGREVISION=	2
+PKGREVISION=	3
 CATEGORIES=	mail
 MASTER_SITES=	ftp://ftp.sendmail.org/pub/sendmail/
 

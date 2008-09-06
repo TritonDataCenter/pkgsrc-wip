@@ -4,7 +4,7 @@
 .include "../../wip/ap-evasive/Makefile.common"
 
 PKGNAME=		ap2-evasive-1.10.1
-PKGREVISION=		1
+PKGREVISION=		2
 PKG_APACHE_ACCEPTED=	apache2
 
 APACHE_MODULE=		yes

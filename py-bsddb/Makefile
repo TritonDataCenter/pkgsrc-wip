@@ -2,6 +2,7 @@
 #
 
 PKGNAME=	${PYPKGPREFIX}-bsddb-0
+PKGREVISION=	1
 CATEGORIES=	databases
 
 MAINTAINER=	recht@NetBSD.org

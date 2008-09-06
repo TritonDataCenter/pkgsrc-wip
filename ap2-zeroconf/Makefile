@@ -2,7 +2,7 @@
 
 DISTNAME=	mod_zeroconf-0.3
 PKGNAME=	ap2-zeroconf-0.3
-PKGREVISION=	1
+PKGREVISION=	2
 CATEGORIES=	www net
 MASTER_SITES=	http://people.apache.org/~sctemme/Apcon2003/TU10/
 

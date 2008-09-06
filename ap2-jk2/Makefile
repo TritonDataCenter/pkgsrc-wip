@@ -3,7 +3,7 @@
 
 DISTNAME=	jakarta-tomcat-connectors-jk2-${AP_JK_VER}-src
 PKGNAME=	ap2-jk2-${AP_JK_VER}
-PKGREVISION=	1
+PKGREVISION=	2
 CATEGORIES=	www
 MASTER_SITES=	${MASTER_SITE_APACHE:=jakarta/tomcat-connectors/jk2/source/}
 

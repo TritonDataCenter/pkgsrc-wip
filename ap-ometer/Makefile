@@ -3,6 +3,7 @@
 
 DISTNAME=	mod_ometer-1.3.0
 PKGNAME=	${DISTNAME:S/mod_/ap-/}
+PKGREVISION=	1
 CATEGORIES=	www
 MASTER_SITES=	http://www.umich.edu/~umweb/downloads/
 
