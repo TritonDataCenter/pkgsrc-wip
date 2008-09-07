@@ -3,10 +3,10 @@
 
 DISTNAME=		rancid-2.3.1
 CATEGORIES=		net
-MASTER_SITES=		http://www.shrubbery.net/rancid/
+MASTER_SITES=		ftp://ftp.shrubbery.net/pub/rancid/
 
 MAINTAINER=		pettai@nordu.net
-HOMEPAGE=		ftp://ftp.shrubbery.net/pub/rancid/
+HOMEPAGE=		http://www.shrubbery.net/rancid/
 COMMENT=		Really Awesome New Cisco confIg Differ
 #LICENSE=		gnu-gpl-v2
 LICENSE=		rancid-license
