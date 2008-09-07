@@ -1,8 +1,8 @@
 # $NetBSD$
 #
 
-DISTNAME=	sid-milter-0.2.14
-PKGREVISION=	1
+DISTNAME=	sid-milter-1.0.0
+#PKGREVISION=	1
 CATEGORIES=	mail
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=sid-milter/}
 
