@@ -11,6 +11,10 @@ COMMENT=		Small and fast network monitoring tool
 
 GNU_CONFIGURE=		yes
 
+BUILD_DEFS+=		IPV6_READY
+
+CONFIGURE_ARGS+=	--sysconfdir=${PKG_SYSCONFDIR}
+
 EGDIR=			${PREFIX}/share/examples/sysmon
 SMDOC=			${PREFIX}/share/doc/sysmon
 
@@ -33,4 +37,5 @@ post-install:
 	${INSTALL_DATA} ${WRKSRC}/docs/sysmon.man \
 			${PREFIX}/${PKGMANDIR}/man8/sysmon.8
 
+.include "../../security/openssl/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
