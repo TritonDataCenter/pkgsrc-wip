@@ -1,0 +1,9 @@
+@comment $NetBSD$
+lib/io/addons/EditLine/_build/dll/libIoEditLine.so
+lib/io/addons/EditLine/_build/lib/libIoEditLine.a
+lib/io/addons/EditLine/build.io
+lib/io/addons/EditLine/depends
+@dirrm lib/io/addons/EditLine/_build/lib
+@dirrm lib/io/addons/EditLine/_build/dll
+@dirrm lib/io/addons/EditLine/_build
+@dirrm lib/io/addons/EditLine

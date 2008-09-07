@@ -1,0 +1,9 @@
+@comment $NetBSD$
+lib/io/addons/Fnmatch/_build/dll/libIoFnmatch.so
+lib/io/addons/Fnmatch/_build/lib/libIoFnmatch.a
+lib/io/addons/Fnmatch/build.io
+lib/io/addons/Fnmatch/depends
+@dirrm lib/io/addons/Fnmatch/_build/lib
+@dirrm lib/io/addons/Fnmatch/_build/dll
+@dirrm lib/io/addons/Fnmatch/_build
+@dirrm lib/io/addons/Fnmatch
