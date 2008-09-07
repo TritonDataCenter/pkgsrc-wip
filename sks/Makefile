@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	sks-1.0.9
+PKGREVISION=	1
 CATEGORIES=	security
 MASTER_SITES=	http://savannah.nongnu.org/download/sks/
 EXTRACT_SUFX=	.tgz

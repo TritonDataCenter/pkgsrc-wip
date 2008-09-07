@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	oops-1.5.24
+PKGREVISION=	1
 CATEGORIES=	net
 MASTER_SITES=	http://zipper.paco.net/~igor/oops/
 
