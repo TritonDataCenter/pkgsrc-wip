@@ -1,5 +1,6 @@
 @comment $NetBSD$
 share/examples/gallery2/gallery2.conf
+share/examples/gallery2/config.php
 share/gallery2/LICENSE
 share/gallery2/MANIFEST
 share/gallery2/README.html
