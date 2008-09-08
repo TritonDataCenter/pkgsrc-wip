@@ -1,0 +1,9 @@
+@comment $NetBSD$
+lib/io/addons/Random/_build/dll/libIoRandom.so
+lib/io/addons/Random/_build/lib/libIoRandom.a
+lib/io/addons/Random/build.io
+lib/io/addons/Random/depends
+@dirrm lib/io/addons/Random/_build/lib
+@dirrm lib/io/addons/Random/_build/dll
+@dirrm lib/io/addons/Random/_build
+@dirrm lib/io/addons/Random

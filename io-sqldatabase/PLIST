@@ -1,0 +1,11 @@
+@comment $NetBSD$
+lib/io/addons/SqlDatabase/_build/dll/libIoSqlDatabase.so
+lib/io/addons/SqlDatabase/_build/lib/libIoSqlDatabase.a
+lib/io/addons/SqlDatabase/build.io
+lib/io/addons/SqlDatabase/depends
+lib/io/addons/SqlDatabase/io/SqlDatabase.io
+@dirrm lib/io/addons/SqlDatabase/io
+@dirrm lib/io/addons/SqlDatabase/_build/lib
+@dirrm lib/io/addons/SqlDatabase/_build/dll
+@dirrm lib/io/addons/SqlDatabase/_build
+@dirrm lib/io/addons/SqlDatabase

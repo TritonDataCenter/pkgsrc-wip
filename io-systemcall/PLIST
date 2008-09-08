@@ -1,0 +1,11 @@
+@comment $NetBSD$
+lib/io/addons/SystemCall/_build/dll/libIoSystemCall.so
+lib/io/addons/SystemCall/_build/lib/libIoSystemCall.a
+lib/io/addons/SystemCall/build.io
+lib/io/addons/SystemCall/depends
+lib/io/addons/SystemCall/io/SystemCall.io
+@dirrm lib/io/addons/SystemCall/io
+@dirrm lib/io/addons/SystemCall/_build/lib
+@dirrm lib/io/addons/SystemCall/_build/dll
+@dirrm lib/io/addons/SystemCall/_build
+@dirrm lib/io/addons/SystemCall
