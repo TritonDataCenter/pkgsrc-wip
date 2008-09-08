@@ -18,9 +18,8 @@ BUILD_DEPENDS+=	automoc4>=0.9.83:../../wip/automoc4
 
 REPLACE_PERL=	utilities/scripts/digitaglinktree
 USE_CMAKE=	yes
-USE_PERL=	yes
 USE_DIRS+=	xdg-1.4
-USE_TOOLS+=	msgfmt pkg-config
+USE_TOOLS+=	gawk msgfmt perl:run pkg-config
 
 .include "../../mk/bsd.prefs.mk"
 
