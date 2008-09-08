@@ -19,6 +19,10 @@ CHECK_PORTABILITY_SKIP+=ktimetracker/test/booktime-baddate.sh \
 
 .include "../../wip/kde4/kde4.mk"
 
+#Additional optional dependencies:
+#+ libepub: A library for reading EPub documents <http://sourceforge.net/projects/ebook-tools>
+#Support for EPub documents in Okular.
+
 .include "../../devel/chmlib/buildlink3.mk"
 .include "../../devel/libgphoto2/buildlink3.mk"
 .include "../../graphics/djvulibre-lib/buildlink3.mk"
