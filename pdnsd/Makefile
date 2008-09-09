@@ -11,6 +11,8 @@ MAINTAINER=	schwarz@NetBSD.org
 HOMEPAGE=	http://www.phys.uu.nl/~rombouts/pdnsd/
 COMMENT=	Pdnsd is a DNS resolver
 
+PKG_DESTDIR_SUPPORT=	user-destdir
+
 WRKSRC=		${WRKDIR}/${PKGNAME_NOREV}
 
 .include "options.mk"
