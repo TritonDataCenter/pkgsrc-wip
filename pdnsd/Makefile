@@ -55,7 +55,7 @@ PDNSDCACHE=		"${VARBASE}/run/pdnsd"
 PDNSDCACHE=		"${VARBASE}/pdnsd"
 .endif
 
-OWN_DIRS_PERMS+=	"${PDNSDCACHE}" ${PDNSD_USER} ${PDNSD_GROUP} 755
+OWN_DIRS_PERMS+=	"${PDNSDCACHE}" ${PDNSD_USER} ${PDNSD_GROUP} 750
 CONFIGURE_ARGS+=	--with-cachedir="${PDNSDCACHE}"
 
 .include "../../mk/pthread.buildlink3.mk"
