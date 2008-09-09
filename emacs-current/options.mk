@@ -104,6 +104,7 @@ CONFIGURE_ARGS+=	--with-x-toolkit=athena
 APPLICATIONS_DIR=	Applications
 NS_APPBINDIR=		nextstep/Emacs.app/Contents/MacOS
 PLIST_SRC+=		PLIST.cocoa
+CHECK_WRKREF_SKIP+=	Applications/Emacs.app/Contents/MacOS/Emacs
 .  else
 .include "../../devel/gnustep-base/buildlink3.mk"
 MAKE_FILE=		Makefile
