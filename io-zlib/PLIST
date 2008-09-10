@@ -4,6 +4,7 @@ lib/io/addons/Zlib/_build/lib/libIoZlib.a
 lib/io/addons/Zlib/build.io
 lib/io/addons/Zlib/depends
 lib/io/addons/Zlib/io/Zlib.io
+lib/io/addons/Zlib/protos
 @dirrm lib/io/addons/Zlib/io
 @dirrm lib/io/addons/Zlib/_build/lib
 @dirrm lib/io/addons/Zlib/_build/dll
