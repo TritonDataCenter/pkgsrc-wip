@@ -3,7 +3,7 @@
 .include "../../wip/io/version.mk"
 
 PKGNAME=		io-lzo-${IO_VERSION}
-PKGREVISION=		0
+PKGREVISION=		1
 CATEGORIES=		archivers
 
 MAINTAINER=		milos.negovanovic@googlemail.com

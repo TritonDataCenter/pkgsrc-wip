@@ -3,7 +3,7 @@
 .include "../../wip/io/version.mk"
 
 PKGNAME=		io-socket-${IO_VERSION}
-PKGREVISION=		1
+PKGREVISION=		2
 CATEGORIES=		net
 
 MAINTAINER=		milos.negovanovic@googlemail.com

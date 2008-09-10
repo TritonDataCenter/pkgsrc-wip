@@ -4,6 +4,7 @@ lib/io/addons/LZO/_build/lib/libIoLZO.a
 lib/io/addons/LZO/build.io
 lib/io/addons/LZO/depends
 lib/io/addons/LZO/io/LZO.io
+lib/io/addons/LZO/protos
 @dirrm lib/io/addons/LZO/io
 @dirrm lib/io/addons/LZO/_build/lib
 @dirrm lib/io/addons/LZO/_build/dll

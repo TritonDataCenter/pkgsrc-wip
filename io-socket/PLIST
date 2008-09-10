@@ -19,9 +19,11 @@ lib/io/addons/Socket/io/A4_Object.io
 lib/io/addons/Socket/io/DNSResolver.io
 lib/io/addons/Socket/io/IPAddress.io
 lib/io/addons/Socket/io/URL.io
+lib/io/addons/Socket/protos
 @dirrm lib/io/addons/Socket/io
 @dirrm lib/io/addons/Socket/_build/lib
 @dirrm lib/io/addons/Socket/_build/dll
 @dirrm lib/io/addons/Socket/_build
 @dirrm lib/io/addons/Socket
+@dirrm lib/io/addons
 @dirrm include/io/Socket
