@@ -3,7 +3,7 @@
 .include "../../wip/io/version.mk"
 
 PKGNAME=		io-cgi-${IO_VERSION}
-PKGREVISION=		0
+PKGREVISION=		1
 CATEGORIES=		www
 
 MAINTAINER=		milos.negovanovic@googlemail.com

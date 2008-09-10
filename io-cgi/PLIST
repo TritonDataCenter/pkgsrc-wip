@@ -4,6 +4,7 @@ lib/io/addons/CGI/_build/lib/libIoCGI.a
 lib/io/addons/CGI/build.io
 lib/io/addons/CGI/depends
 lib/io/addons/CGI/io/CGI.io
+lib/io/addons/CGI/protos
 @dirrm lib/io/addons/CGI/io
 @dirrm lib/io/addons/CGI/_build/lib
 @dirrm lib/io/addons/CGI/_build/dll
