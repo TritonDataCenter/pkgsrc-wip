@@ -7,6 +7,7 @@ lib/io/addons/SecureSocket/io/Certificate.io
 lib/io/addons/SecureSocket/io/SecureClient.io
 lib/io/addons/SecureSocket/io/SecureServer.io
 lib/io/addons/SecureSocket/io/SecureSocket.io
+lib/io/addons/SecureSocket/protos
 @dirrm lib/io/addons/SecureSocket/io
 @dirrm lib/io/addons/SecureSocket/_build/lib
 @dirrm lib/io/addons/SecureSocket/_build/dll
