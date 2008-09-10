@@ -49,6 +49,9 @@ do-install:
 	if [ -e ${SRC_DIR}/depends ]; then \
 		${CP} -f ${SRC_DIR}/depends ${TARGET_DIR}/; \
 	fi
+	if [ -e ${SRC_DIR}/protos ]; then \
+		${CP} -f ${SRC_DIR}/protos ${TARGET_DIR}/; \
+	fi
 	if [ -e ${SRC_DIR}/build.io ]; then \
 		${CP} -f ${SRC_DIR}/build.io ${TARGET_DIR}/; \
 	fi
