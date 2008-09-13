@@ -1598,6 +1598,7 @@ lib/libthreadweaver.so.4
 lib/libthreadweaver.so.4.1.0
 man/man1/checkXML.1
 man/man1/kde4-config.1
+man/man1/kdecmake.1
 man/man1/makekdewidgets.1
 man/man7/kdeoptions.7
 man/man7/qtoptions.7
