@@ -1,9 +1,9 @@
 # $NetBSD$
 #
 
-DISTNAME=	chicken-3.3.8
+DISTNAME=	chicken-3.3.15
 CATEGORIES=	lang
-MASTER_SITES=	http://chicken.wiki.br/dev-snapshots/2008/08/07/
+MASTER_SITES=	http://chicken.wiki.br/dev-snapshots/2008/09/10/
 
 MAINTAINER=	asau@inbox.ru #, airhead@users.sourceforge.net
 HOMEPAGE=	http://www.call-with-current-continuation.org/
