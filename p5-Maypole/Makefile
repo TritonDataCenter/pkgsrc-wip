@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	Maypole-2.121
+DISTNAME=	Maypole-2.13
 PKGNAME=	p5-${DISTNAME}
 CATEGORIES=	www perl5
 MASTER_SITES=	http://search.cpan.org/CPAN/authors/id/T/TE/TEEJAY/
@@ -12,8 +12,8 @@ COMMENT=	Maypole - MVC web application framework
 
 DEPENDS+=	p5-CGI-Simple>=0:../../www/p5-CGI-Simple
 DEPENDS+=	p5-CGI-Untaint>=1.26:../../wip/p5-CGI-Untaint
-DEPENDS+=	p5-CGI-Untaint-Email>=0:../../wip/p5-CGI-Untaint-Email
-DEPENDS+=	p5-CGI-Untaint-Date>=0:../../wip/p5-CGI-Untaint-Date
+DEPENDS+=	p5-CGI-Untaint-email>=0:../../wip/p5-CGI-Untaint-email
+DEPENDS+=	p5-CGI-Untaint-date>=0:../../wip/p5-CGI-Untaint-date
 DEPENDS+=	p5-Class-DBI>=0.96:../../databases/p5-Class-DBI
 DEPENDS+=	p5-Class-DBI-AbstractSearch>=0:../../databases/p5-Class-DBI-AbstractSearch
 DEPENDS+=	p5-Class-DBI-Loader>=0.02:../../wip/p5-Class-DBI-Loader
