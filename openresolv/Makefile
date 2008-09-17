@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		openresolv-1.8
+DISTNAME=		openresolv-1.9
 CATEGORIES=		net
 MASTER_SITES=		http://roy.marples.name/openresolv/
 EXTRACT_SUFX=		.tar.bz2
