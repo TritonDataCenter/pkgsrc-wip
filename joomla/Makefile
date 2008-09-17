@@ -36,7 +36,6 @@ SPECIAL_PERMS=		${JOOMLA_CONFDIR}/joomla.conf ${APACHE_USER} \
 NO_CONFIGURE=		yes
 NO_BUILD=		yes
 
-# distfile has .gz extension but bzip2 compression
 # distfile does not extract to a subdirectory
 # extract using bzip2 decompression to the WRKSRC subdirectory
 EXTRACT_OPTS+=		-c bzip -d ${WRKSRC}
