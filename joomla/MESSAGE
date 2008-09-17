@@ -5,7 +5,7 @@ You will need to make joomla accessible through your HTTP server.
 If you are running Apache and ap-php, then you can add the following line
 to httpd.conf:
 
-        Include ${JOOMLA_CONFFILE}
+        Include ${PKG_SYSCONFDIR}/joomla.conf
 
 to make joomla accessible through:
 
