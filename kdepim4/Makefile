@@ -56,6 +56,7 @@ SUBST_SED.perlfix=	-e 's:@PERL@:${PERL5}:g'
 .include "../../comms/pilot-link-libs/buildlink3.mk"
 .include "../../graphics/hicolor-icon-theme/buildlink3.mk"
 .include "../../security/gpgme/buildlink3.mk"
+.include "../../security/libassuan/buildlink3.mk"
 .include "../../security/qca2/buildlink3.mk"
 .include "../../wip/kdelibs4/buildlink3.mk"
 .include "../../wip/kdepimlibs4/buildlink3.mk"
