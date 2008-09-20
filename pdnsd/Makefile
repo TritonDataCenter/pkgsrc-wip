@@ -1,8 +1,7 @@
 # $NetBSD$
 
-DISTNAME=	pdnsd-1.2.6-par
+DISTNAME=	pdnsd-1.2.7-par
 PKGNAME=	${DISTNAME:S/-par//}
-PKGREVISION=	1
 CATEGORIES=	net
 MASTER_SITES=	http://www.phys.uu.nl/~rombouts/pdnsd/releases/ \
 		http://members.home.nl/p.a.rombouts/pdnsd/releases/
