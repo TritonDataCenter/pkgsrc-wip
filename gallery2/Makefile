@@ -1,8 +1,8 @@
 # $NetBSD$
 #
 
-DISTNAME=		gallery-2.2.5-full
-PKGNAME=		gallery2-2.2.5
+DISTNAME=		gallery-2.2.6-full
+PKGNAME=		gallery2-2.2.6
 #PKGREVISION=		1
 CATEGORIES=		www graphics
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=gallery/}
