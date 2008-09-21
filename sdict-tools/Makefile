@@ -2,8 +2,8 @@
 #
 
 DISTNAME=	ptksdict-1.2.1
-PKGREVISION=	1
 PKGNAME=	${DISTNAME:S/ptksdict/sdict-tools/}
+PKGREVISION=	1
 CATEGORIES=	textproc
 MASTER_SITES=	http://sdict.com/rsc/files/
 
