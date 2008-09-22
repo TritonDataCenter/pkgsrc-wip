@@ -36,7 +36,7 @@ SUBST_CLASSES+=			fix-paths
 SUBST_STAGE.fix-paths=		pre-configure
 SUBST_MESSAGE.fix-paths=	Setting prefix paths.
 SUBST_FILES.fix-paths=		system.mk
-SUBST_SED.fix-paths=		-e 's,@PREFIX@,${PREFIX},g'
+SUBST_SED.fix-paths=		-e 's,/usr/local,${PREFIX},g'
 
 .include "../../mk/bsd.prefs.mk"
 
