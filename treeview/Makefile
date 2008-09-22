@@ -14,5 +14,5 @@ USE_LANGUAGES=	c c++
 USE_TOOLS+=	gmake
 GNU_CONFIGURE=	YES
 
-.include "../../x11/wxGTK-contrib/buildlink3.mk"
+.include "../../x11/wxGTK26-contrib/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

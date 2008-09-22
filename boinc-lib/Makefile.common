@@ -33,6 +33,6 @@ PKG_SUGGESTED_OPTIONS=	gui
 .	include "../../graphics/MesaLib/buildlink3.mk"
 .	include "../../graphics/glu/buildlink3.mk"
 .	include "../../graphics/glut/buildlink3.mk"
-.	include "../../x11/wxGTK/buildlink3.mk"
+.	include "../../x11/wxGTK26/buildlink3.mk"
 .	include "../../mk/x11.buildlink3.mk"
 .endif
