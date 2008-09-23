@@ -2,8 +2,8 @@
 # used by wip/libuxre/Makefile
 # used by wip/heirloom-common/Makefile.prog.common
 
-HEIRLOOM_VER=	070715
-DISTNAME=	heirloom-${HEIRLOOM_VER}
+HEIRLOOM_VER=	070715nb1
+DISTNAME=	heirloom-${HEIRLOOM_VER:C/nb.*//}
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=heirloom/}
 EXTRACT_SUFX=	.tar.bz2
 
