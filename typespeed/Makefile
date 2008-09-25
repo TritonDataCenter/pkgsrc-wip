@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		typespeed-0.6.4
-PKGREVISION=		2
+PKGREVISION=		3
 CATEGORIES=		games
 MASTER_SITES=		http://tobias.eyedacor.org/typespeed/
 
