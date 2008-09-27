@@ -26,7 +26,6 @@ share/cacti/lib/plugins.php
 share/cacti/lib/poller.php
 share/cacti/lib/rrd.php
 share/cacti/lib/variables.php
-share/cacti/log/poller.log
 share/cacti/pa.sql
 share/cacti/plugins.php
 share/cacti/plugins/index.php
