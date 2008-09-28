@@ -14,7 +14,7 @@ USE_LANGUAGES=		# none
 NO_BUILD=		yes
 WRKSRC=			${WRKDIR}/hostinfo
 
-DEPENDS+=		gtar-[0-9]*:../../archivers/gtar
+BUILD_DEPENDS+=		gtar-[0-9]*:../../archivers/gtar
 DEPENDS+=		cacti-plugin-arch-[0-9]*:../../wip/cacti-plugin-arch
 
 USE_TOOLS+=		gtar
