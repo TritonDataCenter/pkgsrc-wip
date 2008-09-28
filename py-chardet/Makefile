@@ -1,14 +1,14 @@
 # $NetBSD$
 #
 
-DISTNAME=	chardet-1.0
+DISTNAME=	chardet-1.0.1
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
-CATEGORIES=	wip converters python
-MASTER_SITES=	http://chardet.feedparser.org/
+CATEGORIES=	converters python
+MASTER_SITES=	http://chardet.feedparser.org/download/
 EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	bartosz@atom.eu.org
-HOMEPAGE=	http://chardet.feedparser.org/download/
+HOMEPAGE=	http://chardet.feedparser.org/
 COMMENT=	Character encoding auto-detection in Python
 
 PYDISTUTILSPKG=	yes
