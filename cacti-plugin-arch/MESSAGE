@@ -10,6 +10,10 @@ these steps:
 
 	shell> mysql [-p] cacti < pa.sql
 
+- Correct $config['url_path'] in global.php for your cacti installation, 
+  depending how you install cacti in your webserver eg. 
+  http://example.com/cacti/ or http://cacti.example.com
+
 Please read the included Readme (${CACTIDIR}/docs/Readme) file,
 for more information about installing cacti-plugin-arch.
 
