@@ -1,0 +1,15 @@
+===========================================================================
+$NetBSD$
+
+cacti-plugin-thold is now installed.
+
+Add the included database patch (${PLUGINDIR}/thold.sql)
+to your cacti database:
+
+	shell> mysql [-p] cacti < thold.sql
+
+To activate the plugin, add this to ${CACTIDIR}/include/global.php:
+
+	$plugins[] = 'thold';
+
+===========================================================================
