@@ -1,0 +1,7 @@
+@comment $NetBSD$
+share/cacti/plugins/hostinfo/LICENSE
+share/cacti/plugins/hostinfo/hostinfo.php
+share/cacti/plugins/hostinfo/index.php
+share/cacti/plugins/hostinfo/setup.php
+@dirrm share/cacti/plugins/hostinfo
+@dirrm share/cacti/plugins
