@@ -14,7 +14,7 @@ USE_LANGUAGES=		# none
 NO_BUILD=		yes
 WRKSRC=			${WRKDIR}/${DISTNAME}
 
-DEPENDS+=		cacti:../../wip/cacti
+DEPENDS+=		cacti-0.8.7b:../../wip/cacti
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
