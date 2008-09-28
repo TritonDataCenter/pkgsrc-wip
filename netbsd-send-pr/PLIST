@@ -1,0 +1,4 @@
+@comment $NetBSD$
+bin/nbsend-pr
+lib/gnats/netbsd
+man/man1/nbsend-pr.1
