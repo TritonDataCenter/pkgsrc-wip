@@ -1,0 +1,7 @@
+@comment $NetBSD$
+share/cacti/plugins/tools/LICENSE
+share/cacti/plugins/tools/README
+share/cacti/plugins/tools/index.php
+share/cacti/plugins/tools/setup.php
+share/cacti/plugins/tools/tools.php
+@dirrm share/cacti/plugins/tools
