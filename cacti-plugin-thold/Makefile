@@ -16,6 +16,7 @@ WRKSRC=			${WRKDIR}/thold
 
 BUILD_DEPENDS+=		gtar-[0-9]*:../../archivers/gtar
 DEPENDS+=		cacti-plugin-arch-[0-9]*:../../wip/cacti-plugin-arch
+DEPENDS+=		cacti-plugin-settings-[0-9]*:../../wip/cacti-plugin-settings
 
 USE_TOOLS+=		gtar
 
