@@ -1,5 +1,6 @@
 @comment $NetBSD$
 bin/distbb
+bin/distbb_diff
 libexec/distbb/common
 libexec/distbb/slave
 libexec/distbb/stage_build
