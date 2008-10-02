@@ -19,6 +19,8 @@ WRKSRC=		${WRKDIR}/${PKGNAME_NOREV}
 GNU_CONFIGURE=	YES
 USE_TOOLS+=	gmake
 
+BUILD_DEFS+=	VARBASE
+
 PDNSD_USER?=		pdnsd
 .if ${OPSYS} == "Interix"
 PDNSD_GROUP?=		nogroup
