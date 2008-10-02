@@ -26,7 +26,7 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 MAKE_JOBS_SAFE=		no
 
 CONFIGURE_DIRS=		.
-USE_GNU_CONFIGURE_HOST=	NO	# work around broken reasoning: "configure--host=..." => cross-building
+USE_GNU_CONFIGURE_HOST=	NO	# work around broken reasoning: "configure --host=..." => cross-building
 BUILD_DIRS=		src
 GNU_CONFIGURE=		YES
 USE_LIBTOOL=		YES
@@ -56,7 +56,7 @@ CONFIGURE_ARGS+=	--disable-mmap
 .include "../../converters/libiconv/buildlink3.mk"
 .include "../../devel/gettext-lib/buildlink3.mk"
 BUILDLINK_API_DEPENDS.libsigsegv+=	libsigsegv>=2.4
-.include "../../devel/libsigsegv/buildlink3.mk"
+.include "../../devel/libsigsegv25/buildlink3.mk"
 .include "../../devel/glib2/buildlink3.mk"
 
 .include "../../wip/mk/cvs-package.mk"
