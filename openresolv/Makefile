@@ -1,13 +1,13 @@
 # $NetBSD$
 #
 
-DISTNAME=		openresolv-1.9
+DISTNAME=		openresolv-2.0
 CATEGORIES=		net
-MASTER_SITES=		http://roy.marples.name/openresolv/
+MASTER_SITES=		ftp://roy.marples.name/pub/openresolv/
 EXTRACT_SUFX=		.tar.bz2
 
 MAINTAINER=		roy@marples.name
-HOMEPAGE=		http://roy.marples.name/openresolv/
+HOMEPAGE=		http://roy.marples.name/projects/openresolv/
 COMMENT=		Framework for managing /etc/resolv.conf
 
 USE_LANGUAGES=		# none
