@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	speex-1.1.12
+DISTNAME=	speex-1.2rc1
 PKGNAME=	${DISTNAME:S,speex,speex-devel,}
 CATEGORIES=	audio
 MASTER_SITES=	http://downloads.us.xiph.org/releases/speex/
