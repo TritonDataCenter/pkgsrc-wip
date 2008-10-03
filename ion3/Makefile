@@ -1,8 +1,8 @@
 # $NetBSD$
 #
 
-DISTNAME=	ion-3-20080825
-PKGNAME=	ion3-20080825
+DISTNAME=	ion-3-20081002
+PKGNAME=	ion3-20081002
 CATEGORIES=	wm x11
 MASTER_SITES=	http://iki.fi/tuomov/dl/
 
