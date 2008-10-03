@@ -14,7 +14,9 @@ USE_PKGLOCALEDIR=	YES
 USE_TOOLS+=	perl gmake
 USE_FEATURES+=	snprintf
 
-CONF_FILES=	${PREFIX}/share/proxyknife/doc/example/proxyknife.conf.example ${PKG_SYSCONFDIR}/proxyknife.conf
+CONFIGURE_ARGS+=	--docdir=${PREFIX}/share/doc/proxyknife
+
+CONF_FILES=	${PREFIX}/share/doc/proxyknife/example/proxyknife.conf.example ${PKG_SYSCONFDIR}/proxyknife.conf
 
 .include "../../mk/pthread.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
