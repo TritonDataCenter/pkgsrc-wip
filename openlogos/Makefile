@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	openlogos-1.0.2
+DISTNAME=	openlogos-1.0.3
 CATEGORIES=	misc
 MASTER_SITES=	http://logos-os.dfki.de/release/
 
