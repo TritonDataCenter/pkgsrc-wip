@@ -1,13 +1,13 @@
 # $NetBSD$
 #
 
-DISTNAME=		dhcpcd-4.0.1
+DISTNAME=		dhcpcd-4.0.2
 CATEGORIES=		net
-MASTER_SITES=		http://roy.marples.name/dhcpcd/
+MASTER_SITES=		ftp://roy.marples.name/pub/dhcpcd/
 EXTRACT_SUFX=		.tar.bz2
 
 MAINTAINER=		roy@marples.name
-HOMEPAGE=		http://roy.marples.name/dhcpcd/
+HOMEPAGE=		http://roy.marples.name/projects/dhcpcd/
 COMMENT=		RFC2131 compliant DHCP client
 
 PKG_DESTDIR_SUPPORT=	user-destdir
