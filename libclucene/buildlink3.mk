@@ -12,7 +12,7 @@ BUILDLINK_PACKAGES+=	libclucene
 BUILDLINK_ORDER:=	${BUILDLINK_ORDER} ${BUILDLINK_DEPTH}libclucene
 
 .if ${LIBCLUCENE_BUILDLINK3_MK} == "+"
-BUILDLINK_API_DEPENDS.libclucene+=	libclucene>=0.9.20
+BUILDLINK_API_DEPENDS.libclucene+=	libclucene>=0.9.21
 BUILDLINK_PKGSRCDIR.libclucene?=	../../wip/libclucene
 .endif	# LIBCLUCENE_BUILDLINK3_MK
 
