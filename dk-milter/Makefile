@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	dk-milter-1.0.0
+DISTNAME=	dk-milter-1.0.1
 #PKGREVISION=	1
 CATEGORIES=	mail
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=dk-milter/}
