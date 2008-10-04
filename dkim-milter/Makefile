@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	dkim-milter-2.6.0
+DISTNAME=	dkim-milter-2.7.2
 #PKGREVISION=	1
 CATEGORIES=	mail
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=dkim-milter/}
@@ -74,12 +74,12 @@ do-install: arlib-install stats-install
 	${INSTALL_DATA} ${WRKSRC}/README ${DESTDIR}${PREFIX}/share/doc/dkim-milter
 	${INSTALL_DATA} ${WRKSRC}/RELEASE_NOTES ${DESTDIR}${PREFIX}/share/doc/dkim-milter
 	${INSTALL_DATA} ${WRKSRC}/draft-hoffman-dac-vbr-03.txt ${DESTDIR}${PREFIX}/share/doc/dkim-milter
-	${INSTALL_DATA} ${WRKSRC}/draft-kucherawy-dkim-reporting-02.txt ${DESTDIR}${PREFIX}/share/doc/dkim-milter
-	${INSTALL_DATA} ${WRKSRC}/draft-shafranovich-feedback-report-04.txt ${DESTDIR}${PREFIX}/share/doc/dkim-milter
+	${INSTALL_DATA} ${WRKSRC}/draft-kucherawy-dkim-reporting-04.txt ${DESTDIR}${PREFIX}/share/doc/dkim-milter
+	${INSTALL_DATA} ${WRKSRC}/draft-shafranovich-feedback-report-05.txt ${DESTDIR}${PREFIX}/share/doc/dkim-milter
 	${INSTALL_DATA} ${WRKSRC}/draft-ietf-dkim-deployment-01.txt ${DESTDIR}${PREFIX}/share/doc/dkim-milter
-	${INSTALL_DATA} ${WRKSRC}/draft-ietf-dkim-overview-09.txt ${DESTDIR}${PREFIX}/share/doc/dkim-milter
-	${INSTALL_DATA} ${WRKSRC}/draft-ietf-dkim-ssp-03.txt ${DESTDIR}${PREFIX}/share/doc/dkim-milter
-	${INSTALL_DATA} ${WRKSRC}/draft-kucherawy-sender-auth-header-14.txt ${DESTDIR}${PREFIX}/share/doc/dkim-milter
+	${INSTALL_DATA} ${WRKSRC}/draft-ietf-dkim-overview-10.txt ${DESTDIR}${PREFIX}/share/doc/dkim-milter
+	${INSTALL_DATA} ${WRKSRC}/draft-ietf-dkim-ssp-04.txt ${DESTDIR}${PREFIX}/share/doc/dkim-milter
+	${INSTALL_DATA} ${WRKSRC}/draft-kucherawy-sender-auth-header-15.txt ${DESTDIR}${PREFIX}/share/doc/dkim-milter
 	${INSTALL_DATA} ${WRKSRC}/rfc4686.txt ${DESTDIR}${PREFIX}/share/doc/dkim-milter
 	${INSTALL_DATA} ${WRKSRC}/rfc4871.txt ${DESTDIR}${PREFIX}/share/doc/dkim-milter
 	${INSTALL_DATA} ${WRKSRC}/rfc5016.txt ${DESTDIR}${PREFIX}/share/doc/dkim-milter
