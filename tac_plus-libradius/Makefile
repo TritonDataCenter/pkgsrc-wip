@@ -17,12 +17,13 @@ INSTALLATION_DIRS=	bin sbin ${PKGMANDIR}/man8 share/doc/tac_plus \
 .include "options.mk"
 
 GNU_CONFIGURE=	yes
-#USE_TOOLS+=	perl
 BUILD_TARGET=	tac_plus
 
 .if ${OPSYS} == "Darwin" || ${OPSYS} == "NetBSD" || ${OPSYS} == "FreeBSD"
 CPPFLAGS+=	-DNO_PWAGE
 .endif
+
+CPPFLAGS+=	-DSTDLIB_MALLOC
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/tac_plus ${PREFIX}/sbin
