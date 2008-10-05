@@ -2,7 +2,7 @@
 
 DISTNAME=	kdegraphics-${_KDE_VERSION}
 CATEGORIES=	graphics
-COMMENT=	Personal Information Management tools for the KDE desktop
+COMMENT=	Graphical tools for the KDE desktop
 
 .include "../../wip/kde4/Makefile.kde4"
 
