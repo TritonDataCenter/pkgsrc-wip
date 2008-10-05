@@ -3,6 +3,6 @@ $NetBSD$
 
 To activate the plugin, add this to ${CACTIDIR}/include/global.php:
 
-        $plugins[] = 'hostinfo';
+        $plugins[] = 'settings';
 
 ===========================================================================
