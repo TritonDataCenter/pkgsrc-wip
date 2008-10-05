@@ -2,7 +2,7 @@
 
 DISTNAME=	kdebase-workspace-${_KDE_VERSION}
 CATEGORIES=	x11
-COMMENT=	XXX for the KDE 4 integrated X11 desktop
+COMMENT=	base workspace for the KDE 4 integrated X11 desktop
 
 .include "../../wip/kde4/Makefile.kde4"
 
