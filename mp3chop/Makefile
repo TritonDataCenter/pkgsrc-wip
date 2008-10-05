@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		mp3chop-1.07
+DISTNAME=		mp3chop-1.08
 CATEGORIES=		audio
 MASTER_SITES=		http://www.fysh.org/~mac/mp3chop/
 
