@@ -2,6 +2,7 @@
 bin/dbl2png
 bin/gif2dbl
 bin/gif2mask
+bin/img2swf
 bin/listaction
 bin/listaction_d
 bin/listfdb
@@ -13,7 +14,6 @@ bin/makefdb
 bin/makeswf
 bin/ming-config
 bin/png2dbl
-bin/png2swf
 bin/raw2adpcm
 bin/swftocxx
 bin/swftoperl
