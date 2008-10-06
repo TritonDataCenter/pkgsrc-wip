@@ -29,7 +29,7 @@ CONFIGURE_ENV+=		EMACS=${PREFIX}/bin/emacs
 
 USE_LIBTOOL=	yes
 USE_TOOLS+=	autoconf automake aclocal
-USE_TOOLS+=	gmake makeinfo gzip
+USE_TOOLS+=	makeinfo gzip
 USE_TOOLS+=	perl:build
 
 MAKE_JOBS_SAFE=	no # fresh Gforth is required to build doc
