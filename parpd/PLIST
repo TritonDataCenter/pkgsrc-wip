@@ -1,0 +1,5 @@
+@comment $NetBSD$
+man/man5/parpd.conf.5
+man/man8/parpd.8
+sbin/parpd
+share/examples/rc.d/parpd
