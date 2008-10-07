@@ -1,17 +1,19 @@
 # $NetBSD$
 #
 
-DISTNAME=	midori-0.0.18
+DISTNAME=	midori-0.0.21
 CATEGORIES=	www
-MASTER_SITES=	http://www.twotoasts.de/media/midori/
+MASTER_SITES=	http://goodies.xfce.org/releases/midori/
 
 MAINTAINER=	ahoka@NetBSD.org
 HOMEPAGE=	http://www.twotoasts.de/media/midori/
 COMMENT=	Lightweight web browser using WebKit
+EXTRACT_SUFX=	.tar.bz2
 
-GNU_CONFIGURE=	yes
+HAS_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_DIRS+=	xdg-1.4
+CONFIGURE_FLAGS+=	--prefix=${PREFIX:Q}
 
 USE_TOOLS+=	intltool pkg-config msgfmt gmake
 
