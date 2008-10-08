@@ -13,8 +13,7 @@ COMMENT=	C cross compiler for 6502 target systems
 
 WRKSRC=		${WRKDIR}/${PKGNAME_NOREV}
 MAKE_FILE=	make/gcc.mak
-USE_TOOLS+=	gmake
-
-NOT_FOR_PLATFORM+=	NetBSD-*-*
+USE_TOOLS+=	gmake perl
+REPLACE_PERL=	src/ca65html/ca65html
 
 .include "../../mk/bsd.pkg.mk"
