@@ -261,3 +261,4 @@ share/doc/cc65/vic20.cfg
 @dirrm lib/cc65/include
 @dirrm lib/cc65/emd
 @dirrm lib/cc65/asminc
+@dirrm lib/cc65
