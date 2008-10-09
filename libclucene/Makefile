@@ -1,8 +1,9 @@
 # $NetBSD$
 
 DISTNAME=		clucene-core-0.9.21
+PKGREVISION=		1
 PKGNAME=		lib${DISTNAME:S/-core-/-/}
-CATEGORIES=	textproc
+CATEGORIES=		textproc
 
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=clucene/}
 
