@@ -1,0 +1,11 @@
+@comment $NetBSD$
+bin/xcowdream
+bin/xcowfortune
+bin/xcowsay
+bin/xcowthink
+man/man6/xcowsay.6
+share/locale/pt_BR/LC_MESSAGES/xcowsay.mo
+share/xcowsay/cow_large.png
+share/xcowsay/cow_med.png
+share/xcowsay/cow_small.png
+@dirrm share/xcowsay
