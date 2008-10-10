@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	pkg_online-0.4.0
+DISTNAME=	pkg_online-0.5.0
 CATEGORIES=	pkgtools
 MASTER_SITES=	http://mova.org/~cheusov/pub/pkg_online/
 
