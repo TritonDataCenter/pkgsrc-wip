@@ -11,5 +11,6 @@ COMMENT=	The Extended Open SIP library
 USE_LIBTOOL=		YES
 GNU_CONFIGURE=		YES
 
+DEPENDS+=	libosip2>=3.1.0:../../devel/libosip
 .include "../../devel/libosip/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
