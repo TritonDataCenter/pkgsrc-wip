@@ -1,8 +1,8 @@
 $NetBSD$
 
---- configure.orig	2006-04-03 21:07:34.000000000 +0000
-+++ configure
-@@ -20692,7 +20692,7 @@ fi
+--- configure.orig	2008-02-13 10:16:50.000000000 +0100
++++ configure	2008-09-30 19:11:03.000000000 +0200
+@@ -21711,7 +21711,7 @@
  LIBTOOL_DEPS="$ac_aux_dir/ltmain.sh"
  
  # Always use our own libtool.
