@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	pkg_online-0.5.0
+PKGREVISION=	1
 CATEGORIES=	pkgtools
 MASTER_SITES=	http://mova.org/~cheusov/pub/pkg_online/
 
@@ -13,7 +14,7 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 
 DEPENDS+=	dict-server>=1.10.10nb2:../../wip/dict-server
 DEPENDS+=	dict-client>=1.10.9:../../wip/dict-client
-DEPENDS+=	pkg_summary-utils-[0-9]*:../../wip/pkg_summary-utils
+DEPENDS+=	pkg_summary-utils>=0.18.1:../../wip/pkg_summary-utils
 DEPENDS+=	pipestatus-[0-9]*:../../wip/pipestatus
 DEPENDS+=	netcat-[0-9]*:../../net/netcat
 
