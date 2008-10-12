@@ -28,7 +28,7 @@ SUBST_SED.fix-prefix=		-e "s,%PREFIX%,${PREFIX},g"
 
 do-install:
 	${INSTALL} ${WRKSRC}/build/mwf-designer.exe ${PREFIX}/bin
-	${INSTALL} ${WRKSRC}/build/ICSharpCode.NRefactory.dll ${PREFIX}/lib/mono/2.0
+	${INSTALL} ${WRKSRC}/deps/ICSharpCode.NRefactory.dll ${PREFIX}/lib/mono/2.0
 	${INSTALL} ${WRKSRC}/mwf-designer ${PREFIX}/bin
 
 .include "../../wip/mk/svn-package.mk"
