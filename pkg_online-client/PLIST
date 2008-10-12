@@ -1,0 +1,7 @@
+@comment $NetBSD$
+bin/pkg_online_client
+bin/pkg_online_client.env
+bin/pkg_online_find
+share/doc/pkg_online-client/NEWS
+share/doc/pkg_online-client/README
+share/doc/pkg_online-client/TODO
