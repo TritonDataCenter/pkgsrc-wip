@@ -11,7 +11,7 @@ COMMENT=		MARC-Record extension to work with MARC21slim XML
 
 PKG_INSTALLATION_TYPES=	overwrite pkgviews
 
-DEPENDS+=	p5-MARC-Record>=2.0.0:../../wip/p5-MARC-Record
+DEPENDS+=	p5-MARC-Record>=2.0.0:../../databases/p5-MARC-Record
 DEPENDS+=	p5-XML-SAX>=0.16:../../textproc/p5-XML-SAX
 DEPENDS+=	p5-MARC-Charset>=0.98:../../wip/p5-MARC-Charset
 
