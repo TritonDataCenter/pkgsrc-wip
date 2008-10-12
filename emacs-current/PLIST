@@ -2928,6 +2928,8 @@ share/emacs/${PKGVERSION}/lisp/term/bobcat.el
 share/emacs/${PKGVERSION}/lisp/term/common-win.el.gz
 share/emacs/${PKGVERSION}/lisp/term/common-win.elc
 share/emacs/${PKGVERSION}/lisp/term/cygwin.el
+share/emacs/${PKGVERSION}/lisp/term/internal.el.gz
+share/emacs/${PKGVERSION}/lisp/term/internal.elc
 share/emacs/${PKGVERSION}/lisp/term/iris-ansi.el
 share/emacs/${PKGVERSION}/lisp/term/linux.el
 share/emacs/${PKGVERSION}/lisp/term/lk201.el
