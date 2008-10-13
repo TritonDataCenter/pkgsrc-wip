@@ -1,8 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	distbb-0.20.1
-PKGREVISION=	1
+DISTNAME=	distbb-0.21.0
 CATEGORIES=	pkgtools
 MASTER_SITES=	http://mova.org/~cheusov/pub/distbb/
 
@@ -10,7 +9,7 @@ MAINTAINER=	cheusov@tut.by
 HOMEPAGE=	http://mova.org/~cheusov/pub/distbb/
 COMMENT=	DISTributed Bulk Build tool for pkgsrc
 
-DEPENDS+=	pkg_summary-utils>=0.17.2:../../wip/pkg_summary-utils
+DEPENDS+=	pkg_summary-utils>=0.18.1:../../wip/pkg_summary-utils
 DEPENDS+=	paexec>=0.10.0:../../wip/paexec
 DEPENDS+=	rsync-[0-9]*:../../net/rsync
 DEPENDS+=	runawk>=0.13.0:../../wip/runawk
