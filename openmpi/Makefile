@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	openmpi-1.2.7
+DISTNAME=	openmpi-1.2.8
 CATEGORIES=	parallel
 MASTER_SITES=	http://www.open-mpi.org/software/ompi/v1.2/downloads/
 EXTRACT_SUFX=	.tar.bz2
