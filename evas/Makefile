@@ -16,6 +16,25 @@ GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_TOOLS=	gmake pkg-config
 
+PKGCONFIG_OVERRIDE=	evas-direct3d.pc.in
+PKGCONFIG_OVERRIDE+=	evas-xrender-x11.pc.in
+PKGCONFIG_OVERRIDE+=	evas-software-buffer.pc.in
+PKGCONFIG_OVERRIDE+=	evas-software-16-wince.pc.in
+PKGCONFIG_OVERRIDE+=	evas-software-qtopia.pc.in
+PKGCONFIG_OVERRIDE+=	evas-software-16-ddraw.pc.in
+PKGCONFIG_OVERRIDE+=	evas-software-ddraw.pc.in
+PKGCONFIG_OVERRIDE+=	evas-xrender-xcb.pc.in
+PKGCONFIG_OVERRIDE+=	evas-glitz-x11.pc.in
+PKGCONFIG_OVERRIDE+=	evas-software-xcb.pc.in
+PKGCONFIG_OVERRIDE+=	evas-software-16-x11.pc.in
+PKGCONFIG_OVERRIDE+=	evas-opengl-glew.pc.in
+PKGCONFIG_OVERRIDE+=	evas-software-sdl.pc.in
+PKGCONFIG_OVERRIDE+=	evas.pc.in
+PKGCONFIG_OVERRIDE+=	evas-cairo-x11.pc.in
+PKGCONFIG_OVERRIDE+=	evas-fb.pc.in
+PKGCONFIG_OVERRIDE+=	evas-opengl-x11.pc.in
+PKGCONFIG_OVERRIDE+=	evas-software-x11.pc.in
+
 CONFIGURE_ARGS+=	--disable-pthreads --disable-directfb \
 			--disable-valgrind --enable-glitz \
 			--enable-sdl --enable-image-loader-edb \
