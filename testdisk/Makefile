@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		testdisk-6.3
+DISTNAME=		testdisk-6.10
 CATEGORIES=		sysutils
 MASTER_SITES=		http://www.cgsecurity.org/
 EXTRACT_SUFX=		.tar.bz2
