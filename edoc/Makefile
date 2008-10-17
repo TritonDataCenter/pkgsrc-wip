@@ -37,7 +37,7 @@ GNU_CONFIGURE=		yes
 # Some of the linux dependencies I may need to add.
 # python2.4-dev, binutils-dev, texinfo, libltdl3-dev, libc6-dev, g++
 #.include "../../lang/python24/buildlink3.mk"
-PYTHON_VERSIONS_INCOMPATIBLE=	 15 20 21 22 23 24
+PYTHON_VERSIONS_INCOMPATIBLE=15 20 21 22 23 24
 .include "../../lang/python/pyversion.mk"
 
 # Bring libbfd.
