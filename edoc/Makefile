@@ -4,7 +4,7 @@
 # Created using instructions from:
 # http://www.netbsd.org/docs/pkgsrc/creating.html
 
-DISTNAME=		edoc-0.1.0
+DISTNAME=		edoc-0.2.0
 CATEGORIES=		devel
 MASTER_SITES=		http://downloads.sourceforge.net/edoc/
 EXTRACT_SUFX=		.tar.bz2
@@ -37,7 +37,7 @@ GNU_CONFIGURE=		yes
 # Some of the linux dependencies I may need to add.
 # python2.4-dev, binutils-dev, texinfo, libltdl3-dev, libc6-dev, g++
 #.include "../../lang/python24/buildlink3.mk"
-PYTHON_VERSIONS_INCOMPATIBLE=	 15 20 21 22 23
+PYTHON_VERSIONS_INCOMPATIBLE=	 15 20 21 22 23 24
 .include "../../lang/python/pyversion.mk"
 
 # Bring libbfd.
