@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		ncc-2.7
+DISTNAME=		ncc-2.8
 CATEGORIES=		devel
 MASTER_SITES=		http://students.ceid.upatras.gr/~sxanth/ncc/
 
