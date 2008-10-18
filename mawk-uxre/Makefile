@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	mawk-1.3.3
+PKGREVISION=	1
 PKGNAME=	${DISTNAME:S/mawk/mawk-uxre/}
 CATEGORIES=	lang
 MASTER_SITES=	ftp://ftp.fu-berlin.de/unix/languages/mawk/
