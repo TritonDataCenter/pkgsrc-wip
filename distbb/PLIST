@@ -6,7 +6,9 @@ libexec/distbb/slave
 libexec/distbb/stage_build
 libexec/distbb/stage_gen_report
 libexec/distbb/stage_init
+libexec/distbb/stage_post_build
 libexec/distbb/stage_report
+libexec/distbb/stage_update_best
 libexec/distbb/stage_upload_logs
 libexec/distbb/stage_upload_pkgs
 share/distbb/distbb.mk
