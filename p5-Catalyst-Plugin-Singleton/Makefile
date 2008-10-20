@@ -2,6 +2,7 @@
 
 DISTNAME=	Catalyst-Plugin-Singleton-0.02
 PKGNAME=	p5-${DISTNAME}
+PKGREVISION=	1
 CATEGORIES=	www perl5
 MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=Catalyst/}
 
@@ -11,7 +12,7 @@ COMMENT=	Singleton to context
 
 PERL5_REQD+=	5.7.3
 
-DEPENDS+=	p5-Catalyst>=0:../../wip/p5-Catalyst
+DEPENDS+=	p5-Catalyst-Runtime>=0:../../www/p5-Catalyst-Runtime
 DEPENDS+=	p5-Scalar-List-Utils>=0:../../devel/p5-Scalar-List-Utils
 
 PERL5_MODULE_TYPE=	Module::Build

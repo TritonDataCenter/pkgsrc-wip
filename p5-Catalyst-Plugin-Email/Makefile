@@ -2,6 +2,7 @@
 
 DISTNAME=	Catalyst-Plugin-Email-0.04
 PKGNAME=	p5-${DISTNAME}
+PKGREVISION=	1
 CATEGORIES=	www perl5
 MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=../by-authors/id/M/MR/MRAMBERG/}
 
@@ -12,7 +13,7 @@ COMMENT=	Send emails with Catalyst and Email::Send and Email::MIME::Creator
 DEPENDS+=	p5-Email-MIME>=0:../../mail/p5-Email-MIME
 DEPENDS+=	p5-Email-MIME-Creator>=0:../../mail/p5-Email-MIME-Creator
 DEPENDS+=	p5-Email-Send>=0:../../mail/p5-Email-Send
-DEPENDS+=	p5-Catalyst>=2.99:../../wip/p5-Catalyst
+DEPENDS+=	p5-Catalyst-Runtime>=2.99:../../www/p5-Catalyst-Runtime
 
 PERL5_PACKLIST= auto/Catalyst/Plugin/Email/.packlist
 

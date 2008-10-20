@@ -2,6 +2,7 @@
 
 DISTNAME=	Catalyst-Model-DBIC-0.13
 PKGNAME=	p5-${DISTNAME}
+PKGREVISION=	1
 CATEGORIES=	www perl5
 MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=Catalyst/}
 
@@ -9,7 +10,7 @@ MAINTAINER=	kuli0020@umn.edu
 HOMEPAGE=	http://search.cpan.org/dist/Catalyst-Model-DBIC/
 COMMENT=	DBIx::Class model class for Catalyst
 
-DEPENDS+=	p5-Catalyst>=5.00:../../wip/p5-Catalyst
+DEPENDS+=	p5-Catalyst-Runtime>=5.00:../../www/p5-Catalyst-Runtime
 DEPENDS+=	p5-DBIx-Class>=0:../../databases/p5-DBIx-Class
 DEPENDS+=	p5-DBIx-Class-Loader>=0:../../databases/p5-DBIx-Class-Loader
 

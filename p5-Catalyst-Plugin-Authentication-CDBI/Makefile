@@ -2,6 +2,7 @@
 
 DISTNAME=	Catalyst-Plugin-Authentication-CDBI-0.09
 PKGNAME=	p5-${DISTNAME}
+PKGREVISION=	1
 CATEGORIES=	www perl5
 MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=Catalyst/}
 
@@ -10,7 +11,7 @@ HOMEPAGE=	http://search.cpan.org/dist/Catalyst-Plugin-Authentication-CDBI/
 COMMENT=	CDBI Authentication for Catalyst
 
 DEPENDS+=	p5-Catalyst-Plugin-Session-FastMmap>=0:../../wip/p5-Catalyst-Plugin-Session-FastMmap
-DEPENDS+=	p5-Catalyst>=2.99:../../wip/p5-Catalyst
+DEPENDS+=	p5-Catalyst-Runtime>=2.99:../../www/p5-Catalyst-Runtime
 DEPENDS+=	p5-Catalyst-Model-CDBI>=0:../../wip/p5-Catalyst-Model-CDBI
 
 PERL5_PACKLIST= auto/Catalyst/Plugin/Authentication/CDBI/.packlist

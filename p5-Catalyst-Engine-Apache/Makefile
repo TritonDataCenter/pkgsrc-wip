@@ -2,6 +2,7 @@
 
 DISTNAME=	Catalyst-Engine-Apache-1.06
 PKGNAME=	p5-${DISTNAME}
+PKGREVISION=	1
 CATEGORIES=	www perl5
 MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=../by-authors/id/A/AG/AGRUNDMA/}
 PERL5_REQD+=	5.8.1
@@ -10,7 +11,7 @@ MAINTAINER=	kuli0020@umn.edu
 HOMEPAGE=	http://search.cpan.org/dist/Catalyst-Engine-Apache/
 COMMENT=	Catalyst Apache Engines
 
-BUILD_DEPENDS+=	p5-Catalyst>=5.50:../../wip/p5-Catalyst
+BUILD_DEPENDS+=	p5-Catalyst-Runtime>=5.50:../../www/p5-Catalyst-Runtime
 
 PERL5_MODULE_TYPE=	Module::Build
 
