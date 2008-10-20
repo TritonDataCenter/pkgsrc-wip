@@ -17,7 +17,7 @@ BUILDLINK_ABI_DEPENDS.edje?=	edje>=0.9.9.043nb1
 BUILDLINK_PKGSRCDIR.edje?=	../../wip/edje
 .endif	# EDJE_BUILDLINK3_MK
 
-.include	"../../wip/eet/buildlink3.mk"
+.include	"../../devel/eet/buildlink3.mk"
 .include	"../../wip/ecore/buildlink3.mk"
 .include	"../../wip/evas/buildlink3.mk"
 .include	"../../wip/embryo/buildlink3.mk"

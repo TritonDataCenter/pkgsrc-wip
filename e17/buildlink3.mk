@@ -19,7 +19,7 @@ BUILDLINK_PKGSRCDIR.e17?=	../../wip/e17
 
 .include "../../wip/ecore/buildlink3.mk"
 .include "../../wip/edje/buildlink3.mk"
-.include "../../wip/eet/buildlink3.mk"
+.include "../../devel/eet/buildlink3.mk"
 .include "../../wip/efreet/buildlink3.mk"
 .include "../../wip/evas/buildlink3.mk"
 .include "../../graphics/imlib2/buildlink3.mk"

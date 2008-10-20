@@ -17,7 +17,7 @@ BUILDLINK_ABI_DEPENDS.evas?=	evas>=0.9.9.042nb1
 BUILDLINK_PKGSRCDIR.evas?=	../../wip/evas
 .endif	# EVAS_BUILDLINK3_MK
 
-.include "../../wip/eet/buildlink3.mk"
+.include "../../devel/eet/buildlink3.mk"
 .include "../../wip/libxcb/buildlink3.mk"
 .include "../../wip/xcb-proto/buildlink3.mk"
 .include "../../fonts/fontconfig/buildlink3.mk"

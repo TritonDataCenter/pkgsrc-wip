@@ -17,7 +17,7 @@ BUILDLINK_ABI_DEPENDS.ecore?=	ecore>=0.9.9.042nb1
 BUILDLINK_PKGSRCDIR.ecore?=	../../wip/ecore
 .endif	# ECORE_BUILDLINK3_MK
 
-.include "../../wip/eet/buildlink3.mk"
+.include "../../devel/eet/buildlink3.mk"
 .include "../../wip/evas/buildlink3.mk"
 .include "../../converters/libiconv/buildlink3.mk"
 .include "../../devel/SDL/buildlink3.mk"

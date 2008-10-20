@@ -20,7 +20,7 @@ CONFIGURE_ARGS+=	--disable-openssl \
 			--enable-ecore-desktop \
 			--disable-ecore-evas-sdl
 
-.include "../../wip/eet/buildlink3.mk"
+.include "../../devel/eet/buildlink3.mk"
 .include "../../wip/evas/buildlink3.mk"
 .include "../../converters/libiconv/buildlink3.mk"
 #.include "../../devel/SDL/buildlink3.mk"

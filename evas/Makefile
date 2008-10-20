@@ -40,7 +40,7 @@ CONFIGURE_ARGS+=	--disable-pthreads --disable-directfb \
 			--enable-sdl --enable-image-loader-edb \
 			--enable-software-16-x11
 
-.include "../../wip/eet/buildlink3.mk"
+.include "../../devel/eet/buildlink3.mk"
 .include "../../wip/libxcb/buildlink3.mk"
 .include "../../wip/xcb-proto/buildlink3.mk"
 .include "../../fonts/fontconfig/buildlink3.mk"
