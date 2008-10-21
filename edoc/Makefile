@@ -24,7 +24,7 @@ USE_LANGUAGES=		c c++ fortran
 
 
 
-USE_PKGLOCALEDIR=	yes
+USE_PKGLOCALEDIR=	no
 PKGCONFIG_OVERRIDE+=	${WRKSRC}/src/libs/EDoc/EDoc.pc.in
 PKGCONFIG_OVERRIDE+=	${WRKSRC}/src/libs/EDoc/EDoc-ver.pc.in
 PKGCONFIG_OVERRIDE+=	${WRKSRC}/src/libs/EDocPy/EDocPy.pc.in
