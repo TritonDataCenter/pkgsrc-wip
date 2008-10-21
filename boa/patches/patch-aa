@@ -18,10 +18,10 @@ $NetBSD$
  
  #include "escape.h"
  
-+#ifdef __linux__
-+#define SCANDIR_ARG3_CONST	const
-+#else
++#ifdef __APPLE__
 +#define SCANDIR_ARG3_CONST
++#else
++#define SCANDIR_ARG3_CONST	const
 +#endif
 +
  char *html_escape_string(const char *inp, char *dest,
