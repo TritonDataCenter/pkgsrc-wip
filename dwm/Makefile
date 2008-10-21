@@ -4,7 +4,7 @@ DISTNAME=	dwm-5.2
 CATEGORIES=	wm
 MASTER_SITES=	http://code.suckless.org/dl/dwm/
 
-MAINTAINER=	pkgsrc-users@NetBSD.org
+MAINTAINER=	leot1990@users.sourceforge.net
 HOMEPAGE=	http://dwm.suckless.org/
 COMMENT=	Dynamic window manager
 
