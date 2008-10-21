@@ -50,6 +50,7 @@ cyrus/bin/reconstruct
 cyrus/bin/rehash
 cyrus/bin/sievec
 cyrus/bin/smmapd
+cyrus/bin/sieved
 cyrus/bin/squatter
 cyrus/bin/sync_client
 cyrus/bin/sync_reset
