@@ -409,15 +409,7 @@ include/${PKGNAME}/EDocBFD/bfd_utils.h
 include/${PKGNAME}/EDocBFD/exceptions.h
 lib/libEDoc-${PKGVERSION}.eds
 lib/libEDoc-${PKGVERSION}.la
-lib/libEDoc-${PKGVERSION}.a
-lib/libEDoc-${PKGVERSION}.so
-lib/libEDoc-${PKGVERSION}.so.0
-lib/libEDoc-${PKGVERSION}.so.0.0.0
 lib/libEDocBFD-${PKGVERSION}.la
-lib/libEDocBFD-${PKGVERSION}.a
-lib/libEDocBFD-${PKGVERSION}.so
-lib/libEDocBFD-${PKGVERSION}.so.0
-lib/libEDocBFD-${PKGVERSION}.so.0.0.0
 lib/pkgconfig/EDoc-${PKGVERSION}.pc
 lib/pkgconfig/EDocBFD-${PKGVERSION}.pc
 man/man1/edoc.1
