@@ -16,6 +16,12 @@ USE_LANGUAGES=		c
 USE_BSD_MAKEFILE=	yes
 TEST_TARGET=		test
 
+.include "../../mk/bsd.prefs.mk"
+
+.if ${OPSYS} == "SunOS" #&& exists("/usr/bin/nawk")
+MAKE_ENV+=		AWK_PROG=${AWK}
+.endif
+
 PKGDOCDIR=		${PREFIX}/share/doc/${PKGBASE}
 
 INSTALLATION_DIRS+=	share/runawk share/doc/runawk
