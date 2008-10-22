@@ -1,3 +1,6 @@
+===========================================================================
+$NetBSD$
 Additional software necessary to run bulk builds
 (rsync, sodo, mailx or whatever you want)
 should be installed separately.
+===========================================================================
