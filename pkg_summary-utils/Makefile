@@ -23,6 +23,8 @@ CONFLICTS+=	pkg_summary4view-[0-9]*
 
 .include "../../wip/pkg_summary-utils/files/Makefile.version"
 
+TEST_TARGET=		test
+
 USE_BSD_MAKEFILE=	yes
 USE_LANGUAGES=		#empty
 USE_TOOLS+=		gzip:run
