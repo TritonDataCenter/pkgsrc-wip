@@ -18,8 +18,10 @@ TEST_TARGET=		test
 
 .include "../../mk/bsd.prefs.mk"
 
-.if ${OPSYS} == "SunOS" #&& exists("/usr/bin/nawk")
+.if ${OPSYS} == "SunOS"
 MAKE_ENV+=		AWK_PROG=${AWK}
+.elif ${OPSYS} == "Interix"
+MAKE_ENV+=		STDIN_FILENAME=-
 .endif
 
 PKGDOCDIR=		${PREFIX}/share/doc/${PKGBASE}
