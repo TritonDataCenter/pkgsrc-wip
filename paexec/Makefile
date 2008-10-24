@@ -32,6 +32,14 @@ MAKE_ENV+=		LDADD=${LIBS:Q}
 
 CPPFLAGS+=		-DNO_PORTABHACKS_H=1 -DHAVE_CONFIG_H=1
 
+REPLACE_AWK+=		examples/1_div_X/1_div_X_cmd \
+			examples/all_substr/all_substr_cmd \
+			examples/make_package/make_package_cmd \
+			examples/toupper/toupper_cmd \
+			tests/big_result_cmd \
+			examples/make_package/make_package_cmd__*
+REPLACE_SH+=		examples/cc_wrapper/cc_wrapper_cmd
+
 pre-build:
 	cp ${.CURDIR}/files/config.h ${WRKSRC}/
 
