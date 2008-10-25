@@ -1,0 +1,5 @@
+@comment $NetBSD$
+bin/dmenu
+bin/dmenu_path
+bin/dmenu_run
+man/man1/dmenu.1
