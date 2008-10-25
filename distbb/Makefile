@@ -16,6 +16,10 @@ DEPENDS+=	runawk>=0.13.0:../../wip/runawk
 USE_LANGUAGES=		# none
 USE_BSD_MAKEFILE=	yes
 
+.include "../../mk/bsd.prefs.mk"
+
+REPLACE_SH+=		distbb.in distbb_diff.in slave.in stage_*.in
+
 PKG_DESTDIR_SUPPORT=	user-destdir
 
 EGDIR=			${PREFIX}/share/examples/distbb
