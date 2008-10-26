@@ -30,6 +30,7 @@ USE_PKGLOCALEDIR=	YES
 USE_TOOLS+=		dvipdf
 UNLIMIT_RESOURCES=	stacksize
 
+CONFIGURE_ARGS+=	--disable-maintainer-mode
 CONFIGURE_ARGS+=	--fsstnd=netbsd
 CONFIGURE_ARGS+=	--without-included-regex
 CONFIGURE_ARGS+=	--with-gettext
