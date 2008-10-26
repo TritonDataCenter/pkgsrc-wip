@@ -38,10 +38,10 @@ CONFIGURE_ARGS+=	--disable-maintainer-mode
 CONFIGURE_ARGS+=	--fsstnd=netbsd
 CONFIGURE_ARGS+=	--without-included-regex
 CONFIGURE_ARGS+=	--with-gettext
-MAKE_FLAGS+=		docdir=${PREFIX}/share/doc/${PKGNAME}
+MAKE_FLAGS+=		docdir=${PREFIX}/share/doc/${PKGBASE}
 MAKE_FLAGS+=		mandir=${PREFIX}/${PKGMANDIR}
-MAKE_FLAGS+=		elispdir="${PREFIX}/share/${PKGNAME}/emacs"
-MAKE_FLAGS+=		vimdir="${PREFIX}/share/${PKGNAME}/vim"
+MAKE_FLAGS+=		elispdir="${PREFIX}/share/${PKGBASE}/emacs"
+MAKE_FLAGS+=		vimdir="${PREFIX}/share/${PKGBASE}/vim"
 
 TEST_TARGET=		check mod-check
 
