@@ -57,7 +57,7 @@ CONFIGURE_ARGS+=	--disable-mmap
 .include "../../devel/gettext-lib/buildlink3.mk"
 .include "../../devel/glib2/buildlink3.mk"
 BUILDLINK_API_DEPENDS.libsigsegv+=	libsigsegv>=2.4
-.include "../../devel/libsigsegv25/buildlink3.mk"
+.include "../../devel/libsigsegv/buildlink3.mk"
 
 .include "../../wip/mk/cvs-package.mk"
 .include "../../mk/bsd.pkg.mk"
