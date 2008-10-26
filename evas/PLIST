@@ -1,5 +1,6 @@
 @comment $NetBSD$
 include/Evas.h
+include/Evas_Data.h
 include/Evas_Engine_Buffer.h
 include/Evas_Engine_SDL.h
 include/Evas_Engine_SDL_16.h
