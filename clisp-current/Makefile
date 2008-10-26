@@ -4,7 +4,7 @@
 DISTNAME=		clisp-2.47
 PKGNAME=		clisp-2.47.99 # needed because of cvs-package.mk
 CATEGORIES=		lang
-MASTER_SITES=		#
+MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=clisp/}
 
 MAINTAINER=		jfranz@bsdprojects.net
 HOMEPAGE=		http://clisp.cons.org/
