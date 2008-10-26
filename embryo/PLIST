@@ -1,8 +1,0 @@
-@comment $NetBSD$
-bin/embryo_cc
-include/Embryo.h
-lib/libembryo.la
-lib/pkgconfig/embryo.pc
-share/embryo/include/default.inc
-@dirrm share/embryo/include
-@dirrm share/embryo

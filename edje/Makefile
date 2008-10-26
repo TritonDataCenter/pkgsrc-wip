@@ -19,6 +19,6 @@ USE_TOOLS=	gmake pkg-config
 .include	"../../devel/eet/buildlink3.mk"
 .include	"../../wip/ecore/buildlink3.mk"
 .include	"../../wip/evas/buildlink3.mk"
-.include	"../../wip/embryo/buildlink3.mk"
+.include	"../../lang/embryo/buildlink3.mk"
 
 .include "../../mk/bsd.pkg.mk"
