@@ -1,11 +1,9 @@
 # $NetBSD$
 #
 
-DISTNAME=	ecore-0.9.9.043
+DISTNAME=	ecore-0.9.9.050
 CATEGORIES=	x11
-MASTER_SITES=	http://download.enlightenment.org/snapshots/2008-05-19/ \
-		http://www.ezunix.org/pkgsrc/e17/snapshots/2008-05-19/ \
-                http://jfranz.users.bsdprojects.net/pkgsrc/e17/
+MASTER_SITES=	http://download.enlightenment.org/snapshots/2008-09-25/
 
 MAINTAINER=	yazzy@yazzy.org
 HOMEPAGE=	http://enlightenment.org/
