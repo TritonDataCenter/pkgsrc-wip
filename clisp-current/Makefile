@@ -43,7 +43,7 @@ MAKE_FLAGS+=		mandir=${PREFIX}/${PKGMANDIR}
 MAKE_FLAGS+=		elispdir="${PREFIX}/share/${PKGNAME}/emacs"
 MAKE_FLAGS+=		vimdir="${PREFIX}/share/${PKGNAME}/vim"
 
-TEST_TARGET=		check
+TEST_TARGET=		check mod-check
 
 .include "../../mk/bsd.prefs.mk"
 
