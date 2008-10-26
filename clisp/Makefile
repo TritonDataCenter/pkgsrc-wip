@@ -22,7 +22,7 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 MAKE_JOBS_SAFE=		no
 
 CONFIGURE_DIRS=		.
-USE_GNU_CONFIGURE_HOST=	NO	# work around broken reasoning: "configure--host=..." => cross-building
+USE_GNU_CONFIGURE_HOST=	NO	# work around broken reasoning: "configure --host=..." => cross-building
 BUILD_DIRS=		src
 GNU_CONFIGURE=		YES
 USE_LIBTOOL=		YES
