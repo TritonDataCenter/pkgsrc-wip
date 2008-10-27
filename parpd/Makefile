@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		parpd-1.1
+DISTNAME=		parpd-1.2
 CATEGORIES=		net
 MASTER_SITES=		ftp://roy.marples.name/pub/parpd/
 EXTRACT_SUFX=		.tar.bz2
