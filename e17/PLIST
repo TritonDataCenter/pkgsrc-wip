@@ -530,5 +530,3 @@ share/xsessions/enlightenment.desktop
 @dirrm lib/enlightenment/modules
 @dirrm lib/enlightenment
 @dirrm include/enlightenment
-@exec ${MKDIR} %D/etc/enlightenment
-@dirrm etc/enlightenment
