@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		dhcpcd-4.0.2
+DISTNAME=		dhcpcd-4.0.3
 CATEGORIES=		net
 MASTER_SITES=		ftp://roy.marples.name/pub/dhcpcd/
 EXTRACT_SUFX=		.tar.bz2
