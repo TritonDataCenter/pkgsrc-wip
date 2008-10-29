@@ -30,7 +30,7 @@ lib/${PKGNAME}/sockets.fas
 lib/${PKGNAME}/sysfun.lsp
 lib/libecl.so
 lib/libecl.so.8
-lib/libecl.so.8.9
+lib/libecl.so.8.10
 lib/libecl.so.${PKGVERSION}
 @dirrm lib/${PKGNAME}
 @dirrm include/ecl
