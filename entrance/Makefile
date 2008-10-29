@@ -1,10 +1,11 @@
 # $NetBSD$
 #
 
-DISTNAME=	entrance-0.9.9.042
+DISTNAME=	entrance-0.9.9.050
 PKGREVISION=	1
 CATEGORIES=	x11
-MASTER_SITES=	http://www.ezunix.org/pkgsrc/e17/snapshots/2008-01-25/
+MASTER_SITES=	http://www.ezunix.org/pkgsrc/e17/snapshots/2008-09-25/
+EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	yazzy@yazzy.org
 HOMEPAGE=	http://enlightenment.org/
