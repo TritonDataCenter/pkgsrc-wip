@@ -16,7 +16,7 @@ USE_LIBTOOL=    yes
 USE_TOOLS=      gmake pkg-config automake autoconf autoheader aclocal
 
 pre-configure:
-        cd ${WRKSRC} && ${SH} autogen.sh
+	cd ${WRKSRC} && ${SH} autogen.sh
 
 .include "../../wip/eina/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
