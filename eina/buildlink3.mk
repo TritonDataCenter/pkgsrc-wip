@@ -16,6 +16,6 @@ BUILDLINK_API_DEPENDS.eina+=	eina>=0.9.0.050nb1
 BUILDLINK_PKGSRCDIR.eina?=	../../wip/eina
 .endif	# EINA_BUILDLINK3_MK
 
-.include "../../wip/eina/buildlink3.mk"
+.include "../../wip/ecore/buildlink3.mk"
 
 BUILDLINK_DEPTH:=	${BUILDLINK_DEPTH:S/+$//}
