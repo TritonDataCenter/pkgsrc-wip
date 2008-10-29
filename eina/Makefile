@@ -2,7 +2,6 @@
 #
 
 DISTNAME=       eina-0.9.9.050
-PKGREVISION=    1
 CATEGORIES=     devel
 MASTER_SITES=   http://www.ezunix.org/pkgsrc/e17/snapshots/2008-09-25/
 
