@@ -32,4 +32,5 @@ LIBS+=			-lz
 .include "../../converters/libiconv/buildlink3.mk"
 .include "../../devel/gettext-lib/buildlink3.mk"
 .include "../../net/libupnp/buildlink3.mk"
+.include "../../sysutils/file/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
