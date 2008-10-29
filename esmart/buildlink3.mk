@@ -17,6 +17,7 @@ BUILDLINK_PKGSRCDIR.esmart?=	../../wip/esmart
 .endif	# ESMART_BUILDLINK3_MK
 
 .include "../../wip/ecore/buildlink3.mk"
+.include "../../wip/eina/buildlink3.mk"
 .include "../../wip/edje/buildlink3.mk"
 .include "../../wip/epsilon/buildlink3.mk"
 .include "../../devel/libltdl/buildlink3.mk"
