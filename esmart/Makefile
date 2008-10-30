@@ -11,6 +11,8 @@ MAINTAINER=	yazzy@yazzy.org
 HOMEPAGE=	http://enlightenment.org/
 COMMENT=	Collection of evas smart objects
 
+BROKEN=		"Does not compile after introduction of eina."
+
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_TOOLS=	gmake pkg-config automake autoconf autoheader aclocal
