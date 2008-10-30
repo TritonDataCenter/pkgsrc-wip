@@ -13,6 +13,8 @@ MAINTAINER=		brendon@christian.net
 HOMEPAGE=		http://edoc.sourceforge.net/index.html
 COMMENT=		Compile time C++ exception analysis/documentation tool
 
+PKG_DESTDIR_SUPPORT=	user-destdir
+
 USE_TOOLS+=		gmake
 USE_TOOLS+=		perl
 
