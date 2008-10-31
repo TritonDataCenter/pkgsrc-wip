@@ -2,6 +2,7 @@
 
 DISTNAME=		audacity-src-1.3.0b
 PKGNAME=		${DISTNAME:S/-src-/-/}
+PKGREVISION=		1
 CATEGORIES=		audio
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=audacity/}
 
@@ -39,6 +40,7 @@ CONFIG_SUB_OVERRIDE=		\
 .include "../../audio/libsndfile/buildlink3.mk"
 .include "../../audio/libvorbis/buildlink3.mk"
 .include "../../audio/portaudio/buildlink3.mk"
+.include "../../databases/shared-mime-info/buildlink3.mk"
 .include "../../devel/zlib/buildlink3.mk"
 .include "../../x11/wxGTK/buildlink3.mk"
 

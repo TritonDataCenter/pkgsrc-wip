@@ -60,8 +60,7 @@ share/locale/uk/LC_MESSAGES/audacity.mo
 share/locale/zh/LC_MESSAGES/audacity.mo
 share/locale/zh_TW/LC_MESSAGES/audacity.mo
 share/mime/packages/audacity.xml
-@dirrm share/mime/packages
-@dirrm share/mime
+@comment in shared-mime-info: @dirrm share/mime/packages
 @dirrm share/doc/audacity
 @dirrm share/audacity/plug-ins
 @dirrm share/audacity/nyquist
