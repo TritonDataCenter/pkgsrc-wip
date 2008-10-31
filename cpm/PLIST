@@ -1,0 +1,4 @@
+@comment $NetBSD$
+bin/cpm
+man/man1/cpm.1
+share/locale/de/LC_MESSAGES/cpm.mo

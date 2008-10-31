@@ -1,0 +1,8 @@
+@comment $NetBSD$
+bin/dotconf-config
+include/dotconf.h
+include/libpool.h
+lib/libdotconf.la
+lib/libpool.a
+lib/pkgconfig/dotconf.pc
+share/aclocal/dotconf.m4
