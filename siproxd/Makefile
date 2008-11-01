@@ -22,6 +22,9 @@ CONF_FILES=	${EGDIR}/siproxd.conf.example ${PKG_SYSCONFDIR}/siproxd.conf \
 
 INSTALLATION_DIRS=	sbin share/examples/siproxd
 
-.include "../../devel/libosip/buildlink3.mk"
 .include "../../mk/pthread.buildlink3.mk"
+PTHREAD_LIBS+=	${PTHREAD_LDFLAGS}
+# needed since siproxd's configure does not check for PTHREAD_LDFLAGS
+
+.include "../../devel/libosip/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
