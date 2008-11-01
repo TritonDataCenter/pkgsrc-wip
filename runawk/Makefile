@@ -19,7 +19,7 @@ TEST_TARGET=		test
 .include "../../mk/bsd.prefs.mk"
 
 .if ${OPSYS} == "SunOS"
-MAKE_ENV+=		AWK_PROG=${AWK}
+MAKE_ENV+=		AWK_PROG=${AWK:Q}
 .elif ${OPSYS} == "Interix"
 MAKE_ENV+=		STDIN_FILENAME=-
 .endif

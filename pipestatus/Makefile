@@ -18,7 +18,7 @@ INSTALLATION_DIRS+=	bin share/doc/pipestatus
 DOCS=			README NEWS
 
 TEST_TARGET=		test
-MAKE_FLAGS+=		SH=${SH}
+MAKE_FLAGS+=		SH=${SH:Q}
 
 do-install:
 	${INSTALL_DATA} ${WRKSRC}/pipestatus ${DESTDIR}${PREFIX}/bin/
