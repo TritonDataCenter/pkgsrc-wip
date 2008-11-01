@@ -1,0 +1,3 @@
+@comment $NetBSD$
+bin/pkg_all_conflicts
+bin/pkg_conflicts
