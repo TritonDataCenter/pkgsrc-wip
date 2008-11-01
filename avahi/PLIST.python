@@ -1,2 +1,0 @@
-@comment $NetBSD$
-@unexec ${RMDIR} %D/${PYSITELIB}/avahi 2>/dev/null || ${TRUE}

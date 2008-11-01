@@ -1,3 +1,4 @@
 @comment $NetBSD$
 ${PYSITELIB}/avahi/ServiceTypeDatabase.py
 share/avahi/service-types.db
+@unexec ${RMDIR} %D/${PYSITELIB}/avahi 2>/dev/null || ${TRUE}
