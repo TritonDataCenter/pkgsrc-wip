@@ -19,10 +19,6 @@ SKINS=		AdamAmp Chaos CherryBest Cobalt CoolBlue Cracked Eclipse \
 DEPENDS+=	xmms-skin-${skin}-[0-9]*:../../wip/xmms-skin-${skin}
 .endfor
 
-EXTRACT_ONLY=	# empty
-
 META_PACKAGE=	yes
-
-do-install:	# empty
 
 .include "../../mk/bsd.pkg.mk"
