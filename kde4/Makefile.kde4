@@ -14,7 +14,7 @@ PKGNAME?=	${DISTNAME:S/-4/4-4/}
 MAINTAINER?=	markd@NetBSD.org
 HOMEPAGE?=	http://www.kde.org/
 
-BUILD_DEPENDS+= automoc4>=0.9.83:../../wip/automoc4
+BUILD_DEPENDS+= automoc4>=0.9.83:../../devel/automoc4
 
 USE_TOOLS+=	pkg-config perl
 USE_LANGUAGES=	c c++
