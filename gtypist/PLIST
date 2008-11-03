@@ -2,7 +2,6 @@
 bin/gtypist
 bin/typefortune
 info/gtypist.info
-lib/charset.alias
 man/man1/gtypist.1
 man/man1/typefortune.1
 share/gtypist/cs.typ
@@ -34,7 +33,6 @@ share/locale/de/LC_MESSAGES/gtypist.mo
 share/locale/es/LC_MESSAGES/gtypist.mo
 share/locale/fi/LC_MESSAGES/gtypist.mo
 share/locale/fr/LC_MESSAGES/gtypist.mo
-share/locale/locale.alias
 share/locale/nl/LC_MESSAGES/gtypist.mo
 share/locale/ru/LC_MESSAGES/gtypist.mo
 share/locale/zh_CN/LC_MESSAGES/gtypist.mo
