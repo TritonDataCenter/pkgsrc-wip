@@ -13,8 +13,9 @@ include/drm/sis_drm.h
 include/drm/via_3d_reg.h
 include/drm/via_drm.h
 include/drm/xgi_drm.h
+include/intel_bufmgr.h
 include/xf86drm.h
-include/xf86mm.h
 lib/libdrm.la
+lib/libdrm_intel.la
 lib/pkgconfig/libdrm.pc
 @dirrm include/drm
