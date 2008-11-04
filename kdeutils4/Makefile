@@ -18,11 +18,11 @@ BUILDLINK_DEPMETHOD.qt4-tools=	full
 .include "../../archivers/libzip/buildlink3.mk"
 .include "../../devel/gmp/buildlink3.mk"
 .include "../../graphics/hicolor-icon-theme/buildlink3.mk"
+.include "../../graphics/qimageblitz/buildlink3.mk"
 .include "../../lang/python/application.mk"
 .include "../../wip/kdelibs4/buildlink3.mk"
 .include "../../wip/kdepimlibs4/buildlink3.mk"
 .include "../../wip/kdebase-runtime4/buildlink3.mk"
-.include "../../wip/qimageblitz/buildlink3.mk"
 .include "../../wip/kdebase-workspace4/buildlink3.mk"
 
 .include "../../mk/bsd.pkg.mk"
