@@ -17,12 +17,7 @@ BUILDLINK_ABI_DEPENDS.kdebase-workspace?=	kdebase-workspace4>=4.0.0nb1
 BUILDLINK_PKGSRCDIR.kdebase-workspace?=	../../wip/kdebase-workspace4
 .endif	# KDEBASE_WORKSPACE_BUILDLINK3_MK
 
-.include "../../wip/qimageblitz/buildlink3.mk"
+.include "../../graphics/qimageblitz/buildlink3.mk"
 .include "../../wip/kdelibs4/buildlink3.mk"
-#.include "../../x11/libxklavier/buildlink3.mk"
-#.include "../../x11/libXcomposite/buildlink3.mk"
-#.include "../../x11/libXdamage/buildlink3.mk"
-#.include "../../x11/libXres/buildlink3.mk"
-#.include "../../x11/libXScrnSaver/buildlink3.mk"
 
 BUILDLINK_DEPTH:=			${BUILDLINK_DEPTH:S/+$//}
