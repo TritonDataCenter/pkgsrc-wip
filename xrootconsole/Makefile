@@ -1,4 +1,4 @@
-# $NetBSD: Makefile,v 1.4 2007/01/30 20:49:12 joerg Exp $
+# $NetBSD$
 
 DISTNAME=	xrootconsole-0.6
 PKGREVISION=	1
