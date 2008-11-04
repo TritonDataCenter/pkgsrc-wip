@@ -1,6 +1,7 @@
 # $NetBSD$
 
 DISTNAME=	kdegraphics-${_KDE_VERSION}
+PKGREVISION=	1
 CATEGORIES=	graphics
 COMMENT=	Graphical tools for the KDE desktop
 
@@ -19,10 +20,6 @@ CHECK_PORTABILITY_SKIP+=ktimetracker/test/booktime-baddate.sh \
 
 .include "../../wip/kde4/kde4.mk"
 
-#Additional optional dependencies:
-#+ libepub: A library for reading EPub documents <http://sourceforge.net/projects/ebook-tools>
-#Support for EPub documents in Okular.
-
 .include "../../devel/chmlib/buildlink3.mk"
 .include "../../devel/libgphoto2/buildlink3.mk"
 .include "../../graphics/djvulibre-lib/buildlink3.mk"
@@ -34,6 +31,7 @@ CHECK_PORTABILITY_SKIP+=ktimetracker/test/booktime-baddate.sh \
 .include "../../print/libspectre/buildlink3.mk"
 .include "../../print/poppler-qt4/buildlink3.mk"
 .include "../../security/qca2/buildlink3.mk"
+.include "../../wip/ebook-tools/buildlink3.mk"
 .include "../../wip/kdelibs4/buildlink3.mk"
 .include "../../wip/kdebase-runtime4/buildlink3.mk"
 .include "../../x11/libXxf86vm/buildlink3.mk"
