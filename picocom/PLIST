@@ -1,0 +1,3 @@
+@comment $NetBSD$
+bin/picocom
+man/man8/picocom.8
