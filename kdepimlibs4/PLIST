@@ -353,10 +353,10 @@ lib/libakonadi-kmime.so.4
 lib/libakonadi-kmime.so.4.1.0
 lib/libgpgme++-pthread.so
 lib/libgpgme++-pthread.so.2
-lib/libgpgme++-pthread.so.2.0.0
+lib/libgpgme++-pthread.so.2.0.1
 lib/libgpgme++.so
 lib/libgpgme++.so.2
-lib/libgpgme++.so.2.0.0
+lib/libgpgme++.so.2.0.1
 lib/libkabc.so
 lib/libkabc.so.4
 lib/libkabc.so.4.1.0
