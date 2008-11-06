@@ -12,6 +12,8 @@ COMMENT=	XMMS output plugin for Network Audio System (NAS)
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 
+PKG_DESTDIR_SUPPORT=	user-destdir
+
 .include "../../audio/nas/buildlink3.mk"
 .include "../../audio/xmms/buildlink3.mk"
 .include "../../x11/gtk/buildlink3.mk"
