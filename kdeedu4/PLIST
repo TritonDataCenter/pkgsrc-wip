@@ -4122,7 +4122,7 @@ share/kde4/services/plasma_parley.desktop
 @dirrm share/kde/apps/kwordquiz/examples
 @dirrm share/kde/apps/kwordquiz
 @dirrm share/kde/apps/kvtml/en
-@dirrm share/kde/apps/kvtml
+@comment in kde: @dirrm share/kde/apps/kvtml
 @dirrm share/kde/apps/kturtle
 @dirrm share/kde/apps/ktouch
 @dirrm share/kde/apps/kstars/icons/hicolor/scalable/actions
@@ -4168,7 +4168,7 @@ share/kde4/services/plasma_parley.desktop
 @dirrm share/kde/apps/klettres/en/alpha
 @dirrm share/kde/apps/klettres/en
 @dirrm share/kde/apps/klettres/data
-@dirrm share/kde/apps/klettres
+@comment in kde: @dirrm share/kde/apps/klettres
 @dirrm share/kde/apps/kitenradselect
 @dirrm share/kde/apps/kiten
 @dirrm share/kde/apps/kig/icons/hicolor/scalable/actions
@@ -4188,7 +4188,7 @@ share/kde4/services/plasma_parley.desktop
 @dirrm share/kde/apps/khangman/pics/desert
 @dirrm share/kde/apps/khangman/pics
 @dirrm share/kde/apps/khangman/fonts
-@dirrm share/kde/apps/khangman
+@comment in kde: @dirrm share/kde/apps/khangman
 @dirrm share/kde/apps/kgeography/flags/ukraine
 @dirrm share/kde/apps/kgeography/flags/spain
 @dirrm share/kde/apps/kgeography/flags/slovakia
