@@ -2,13 +2,13 @@
 
 DISTNAME=	picocom-1.4
 PKGREVISION=	1
-CATEGORIES=	misc
+CATEGORIES=	comms
 
 MAINTAINER=	inittab@unixdev.net
 MASTER_SITES=   http://efault.net/npat/hacks/picocom/dist/
 
 HOMEPAGE=       http://efault.net/npat/hacks/picocom/
-COMMENT=        Serial Console
+COMMENT=        Dumb Terminal Emulator
 
 USE_TOOLS+=             gmake
 BUILD_TARGET=		picocom
