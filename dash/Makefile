@@ -9,7 +9,7 @@ MAINTAINER=	christtrekker@users.sourceforge.net
 HOMEPAGE=	http://gondor.apana.org.au/~herbert/dash/files/
 COMMENT=	Debian Almquist shell, POSIX-compliant shell faster than bash
 
-PKG_USER_DESTDIR=	user-destdir
+PKG_DESTDIR_SUPPORT=	user-destdir
 
 GNU_CONFIGURE=		yes
 USE_TOOLS=		gmake
