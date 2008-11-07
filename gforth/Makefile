@@ -1,7 +1,7 @@
 # $NetBSD$
 
-DISTNAME=	gforth-0.6.99
-PKGNAME=	gforth-0.6.99 # needed because of cvs-package.mk
+DISTNAME=	gforth-0.7.99
+PKGNAME=	gforth-0.7.99 # needed because of cvs-package.mk
 CATEGORIES=	lang
 MASTER_SITES=	#${MASTER_SITE_GNU:=gforth/}
 #MASTER_SITES+=	http://www.complang.tuwien.ac.at/forth/gforth/
