@@ -34,11 +34,16 @@ BUILD_DEFS=		VARBASE PKG_SYSCONFBASE
 PLIST_SRC=		${WRKDIR}/.PLIST_SRC
 PKG_SYSCONFSUBDIR=	avahi
 USE_LANGUAGES=		c c++
+LIBS+=			-lintl
 
 PKG_USERS=		${AVAHI_USER}:${AVAHI_GROUP}::Avahi\ user:/nonexistent
 PKG_GROUPS=		${AVAHI_GROUP}
 
 .include "options.mk"
+
+.if ${OPSYS} == "NetBSD"
+CFLAGS+=		-D_NETBSD_SOURCE
+.endif
 
 PLIST_SRC+=		${PKGDIR}/PLIST.shared
 
@@ -51,7 +56,6 @@ CONF_FILES+=		${PREFIX}/share/examples/avahi/avahi-dnsconfd.action \
 CONF_FILES+=		${PREFIX}/share/examples/avahi/ssh.service \
 			${PKG_SYSCONFDIR}/services/ssh.service
 
-# CONFIGURE_ARGS+=	--with-distro=netbsd
 CONFIGURE_ARGS+=	--with-avahi-user=${AVAHI_USER:Q}
 CONFIGURE_ARGS+=	--with-avahi-group=${AVAHI_GROUP:Q}
 CONFIGURE_ARGS+=	--localstatedir=${VARBASE:Q}
