@@ -26,8 +26,10 @@ SUBST_SED.paths+=	-e "s|maps/|${PREFIX}/share/zyGrib/maps/|"
 SUBST_SED.paths+=	-e "s|img/|${PREFIX}/share/zyGrib/img/|"
 SUBST_SED.paths+=	-e "s|tr/|${PREFIX}/share/zyGrib/tr/|"
 
-INSTALLATION_DIRS+=	share/zyGrib/maps/gis share/zyGrib/maps/gshhs
-INSTALLATION_DIRS+=	share/zyGrib/img share/zyGrib/tr
+INSTALLATION_DIRS+=	share/zyGrib/img
+INSTALLATION_DIRS+=	share/zyGrib/maps/gis
+INSTALLATION_DIRS+=	share/zyGrib/maps/gshhs
+INSTALLATION_DIRS+=	share/zyGrib/tr
 
 INSTALL_FILES=	img/1leftarrow.png
 INSTALL_FILES+=	img/1rightarrow.png
