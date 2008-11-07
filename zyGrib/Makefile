@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	zyGrib-2.1.0
+DISTNAME=	zyGrib-2.2.2
 CATEGORIES=	geography
 MASTER_SITES=	http://zygrib.free.fr/files/
 EXTRACT_SUFX=	.tgz
@@ -95,6 +95,7 @@ do-install:
 
 .include "../../archivers/bzip2/buildlink3.mk"
 .include "../../devel/zlib/buildlink3.mk"
+.include "../../misc/proj/buildlink3.mk"
 .include "../../x11/qt4-libs/buildlink3.mk"
 .include "../../x11/qt4-tools/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
