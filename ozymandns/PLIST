@@ -1,0 +1,6 @@
+@comment $NetBSD$
+sbin/aska.pl
+sbin/droute.pl
+sbin/geta.pl
+sbin/glance
+sbin/nomde.pl
