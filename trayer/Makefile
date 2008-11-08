@@ -4,7 +4,7 @@ TR_VERSION=	1.0
 DISTNAME=	trayer-${TR_VERSION}
 CATEGORIES=	x11
 MASTER_SITES=	http://download.berlios.de/fvwm-crystal/
-PKGREVISION=    1
+PKGREVISION=    2
 
 MAINTAINER=	milos.negovanovic@googlemail.com
 HOMEPAGE=	http://fvwm-crystal.org/
@@ -12,10 +12,14 @@ COMMENT=	Standalone tray app
 
 USE_TOOLS+=	gmake pkg-config
 
-.include "../../x11/gtk2/buildlink3.mk"
 
 do-install:
 	cp ${WRKSRC}/trayer ${PREFIX}/bin/
 
+
+.include "../../x11/gtk2/buildlink3.mk"
 .include "../../devel/glib/buildlink3.mk"
+.if ${X11_TYPE} == "modular"
+.include "../../x11/libXmu/buildlink3.mk"
+.endif
 .include "../../mk/bsd.pkg.mk"
