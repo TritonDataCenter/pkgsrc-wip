@@ -13,7 +13,9 @@ GNU_CONFIGURE=		YES
 USE_DIRS=		xdg-1.4
 USE_LIBTOOL=		YES
 USE_PKGLOCALEDIR=	YES
-USE_TOOLS+=		gmake intltool pkg-config
+USE_TOOLS+=		bash:run gmake intltool pkg-config
+
+REPLACE_BASH=		src/muine.in
 
 GCONF_SCHEMAS=		muine.schemas
 
