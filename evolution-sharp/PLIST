@@ -1,7 +1,5 @@
 @comment $NetBSD$
-lib/libevolutionglue.a
 lib/libevolutionglue.la
-lib/libevolutionglue.so
 lib/mono/evolution-sharp/evolution-sharp.dll
 lib/mono/gac/evolution-sharp/5.0.0.0__c46a23b774189844/evolution-sharp.dll
 lib/mono/gac/evolution-sharp/5.0.0.0__c46a23b774189844/evolution-sharp.dll.config
