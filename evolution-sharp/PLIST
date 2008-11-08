@@ -1,6 +1,14 @@
 @comment $NetBSD$
-lib/evolution-sharp.dll
+lib/libevolutionglue.a
+lib/libevolutionglue.la
+lib/libevolutionglue.so
+lib/mono/evolution-sharp/evolution-sharp.dll
+lib/mono/gac/evolution-sharp/5.0.0.0__c46a23b774189844/evolution-sharp.dll
+lib/mono/gac/evolution-sharp/5.0.0.0__c46a23b774189844/evolution-sharp.dll.config
+lib/mono/gac/evolution-sharp/5.0.0.0__c46a23b774189844/evolution-sharp.dll.mdb
 lib/pkgconfig/evolution-sharp.pc
-share/gapi/ebook-api.xml
-share/gapi/edataserver-api.xml
+share/gapi-2.0/evolution-api.xml
 @comment in gtk-sharp: @dirrm share/gapi
+@dirrm lib/mono/gac/evolution-sharp/5.0.0.0__c46a23b774189844
+@dirrm lib/mono/gac/evolution-sharp
+@dirrm lib/mono/evolution-sharp
