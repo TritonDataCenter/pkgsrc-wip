@@ -1,0 +1,5 @@
+@comment $NetBSD$
+bin/dns2tcpc
+bin/dns2tcpd
+man1/dns2tcpc.1
+man1/dns2tcpd.1
