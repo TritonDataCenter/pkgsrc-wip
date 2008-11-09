@@ -4642,4 +4642,5 @@ share/joomla/xmlrpc/index.php
 @unexec ${RMDIR} %D/share/joomla/language 2>/dev/null || ${TRUE}
 @unexec ${RMDIR} %D/share/joomla/images 2>/dev/null || ${TRUE}
 @unexec ${RMDIR} %D/share/joomla/administrator/language 2>/dev/null || ${TRUE}
+@unexec ${RMDIR} %D/share/joomla/administrator 2>/dev/null || ${TRUE}
 @unexec ${RMDIR} %D/share/joomla 2>/dev/null || ${TRUE}
