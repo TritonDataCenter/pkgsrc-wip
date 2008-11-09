@@ -46,6 +46,7 @@ SUBST_SED.paths=	-e "s,@JOOMLADIR@,${JOOMLADIR},g"
 
 post-extract:
 	${CP} ${FILESDIR}/joomla.conf ${WRKDIR}/joomla.conf
+	${MV} ${WRKSRC}/installation ${WRKSRC}/installation.disabled
 
 do-install:
 	${INSTALL_DATA_DIR} ${JOOMLADIR}

@@ -18,4 +18,13 @@ lines in php.ini:
 extension=zlib.so
 extension=mysql.so
 
+Create symlink to the installation directory before trying to perform
+the initial configuration with:
+
+cd ${PREFIX}/share/joomla && ln -s installation.disabled installation
+
+After configuration remove that link with:
+
+rm -f ${PREFIX}/share/joomla/installation
+
 ===========================================================================
