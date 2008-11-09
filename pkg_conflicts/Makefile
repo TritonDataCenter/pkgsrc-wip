@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	pkg_conflicts-0.2.0
+DISTNAME=	pkg_conflicts-0.3.0
 CATEGORIES=	pkgtools
 MASTER_SITES=	# empty
 DISTFILES=	# empty
