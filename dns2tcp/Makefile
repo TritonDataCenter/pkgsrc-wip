@@ -10,6 +10,6 @@ COMMENT=	Dns2tcp is a tool for relaying TCP connections over DNS
 
 GNU_CONFIGURE=	YES
 
-INSTALLATION_DIRS=	bin
+INSTALLATION_DIRS=	bin ${PKGMANDIR}/man1
 
 .include "../../mk/bsd.pkg.mk"
