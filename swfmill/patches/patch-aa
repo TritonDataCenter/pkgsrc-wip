@@ -43,14 +43,3 @@ $NetBSD$
  	# Put the nasty error message in config.log where it belongs
  	echo "$PNG_PKG_ERRORS" 1>&5
  
-@@ -20978,6 +20978,10 @@
- _ACEOF
- cat >>$CONFIG_STATUS <<\_ACEOF
-   -recheck | --recheck | --rechec | --reche | --rech | --rec | --re | --r)
-+    # Avoid regenerating for rechecks on pkgsrc
-+    exit 0
-+    # Avoid regenerating for rechecks on pkgsrc
-+    exit 0
-     ac_cs_recheck=: ;;
-   --version | --vers* | -V )
-     echo "$ac_cs_version"; exit 0 ;;
