@@ -4637,7 +4637,6 @@ share/joomla/xmlrpc/index.php
 @dirrm share/joomla/administrator/components
 @dirrm share/joomla/administrator/cache
 @dirrm share/joomla/administrator/backups
-@dirrm share/joomla/administrator
 @dirrm share/examples/joomla
 @unexec ${RMDIR} %D/share/joomla/language 2>/dev/null || ${TRUE}
 @unexec ${RMDIR} %D/share/joomla/images 2>/dev/null || ${TRUE}
