@@ -7,15 +7,14 @@ share/doc/scummvm/COPYRIGHT
 share/doc/scummvm/NEWS
 share/doc/scummvm/README
 share/pixmaps/scummvm.xpm
-share/scummvm/classic080.ini
 share/scummvm/drascula.dat
 share/scummvm/igor.tbl
 share/scummvm/kyra.dat
 share/scummvm/lure.dat
 share/scummvm/m4.dat
-share/scummvm/modern.ini
-share/scummvm/modern.zip
 share/scummvm/queen.tbl
+share/scummvm/scummclassic.zip
+share/scummvm/scummmodern.zip
 share/scummvm/sky.cpt
 @dirrm share/scummvm
 @comment in xdg-dirs: @dirrm share/pixmaps

@@ -6,6 +6,7 @@ PKG_SUPPORTED_OPTIONS+=	scummvm-nightly-igor
 PKG_SUPPORTED_OPTIONS+=	scummvm-nightly-m4
 PKG_SUPPORTED_OPTIONS+=	scummvm-nightly-made
 PKG_SUPPORTED_OPTIONS+=	scummvm-nightly-tinsel
+PKG_SUPPORTED_OPTIONS+=	scummvm-nightly-tucker
 PKG_SUGGESTED_OPTIONS=	${PKG_SUPPORTED_OPTIONS}
 
 .include "../../mk/bsd.options.mk"
@@ -23,5 +24,8 @@ CONFIGURE_ARGS+=--enable-m4
 CONFIGURE_ARGS+=--enable-made
 .endif
 .if !empty(PKG_OPTIONS:Mscummvm-nightly-tinsel)
+CONFIGURE_ARGS+=--enable-tucker
+.endif
+.if !empty(PKG_OPTIONS:Mscummvm-nightly-tucker)
 CONFIGURE_ARGS+=--enable-tinsel
 .endif
