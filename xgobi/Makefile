@@ -3,6 +3,7 @@
 
 DISTNAME=		xgobi
 PKGNAME=		xgobi-20030626
+PKGREVISION=		1
 CATEGORIES=		graphics
 MASTER_SITES=		http://www.research.att.com/areas/stat/xgobi/
 

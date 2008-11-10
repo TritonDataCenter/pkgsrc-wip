@@ -4,6 +4,7 @@
 PKGNAME=	texlive-bin-${TEXLIVE_VERSION}
 DISTNAME=	texlive_base-${TEXLIVE_VERSION}-src
 WRKSRC=		${WRKDIR}/texlive_base-${TEXLIVE_VERSION}
+PKGREVISION=	1
 CATEGORIES=	print
 MASTER_SITES=	http://students.dec.bournemouth.ac.uk/ebarrett/texlive/distfiles/
 EXTRACT_SUFX=	.tar.bz2

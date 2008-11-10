@@ -2,6 +2,7 @@
 #
 
 DISTNAME=		autocutsel-0.9.0
+PKGREVISION=		1
 CATEGORIES=		x11
 MASTER_SITES=		http://savannah.nongnu.org/download/autocutsel/ \
 			http://www.lepton.fr/tools/autocutsel/
