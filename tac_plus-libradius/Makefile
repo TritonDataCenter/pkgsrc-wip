@@ -19,7 +19,7 @@ INSTALLATION_DIRS=	bin sbin ${PKGMANDIR}/man8 share/doc/tac_plus \
 GNU_CONFIGURE=	yes
 BUILD_TARGET=	tac_plus
 
-.if ${OPSYS} == "Darwin" || ${OPSYS} == "NetBSD" || ${OPSYS} == "FreeBSD"
+.if ${OPSYS} == "Darwin" || ${OPSYS} == "NetBSD" || ${OPSYS} == "FreeBSD" || ${OPSYS} == "OpenBSD"
 CPPFLAGS+=	-DNO_PWAGE
 .endif
 
