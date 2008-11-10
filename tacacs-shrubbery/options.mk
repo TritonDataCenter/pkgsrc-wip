@@ -35,8 +35,8 @@ CONFIGURE_ARGS+=	--without-libwrap
 CONFIGURE_ARGS+=	--with-skey=${BUILDLINK_PREFIX.skey}
 . include "../../security/skey/builtin.mk"
 . include "../../security/skey/buildlink3.mk"
-. if defined(IS_BUILTIN.skey) && ${IS_BUILTIN.skey} == no
-# pkgsrc's version uses three arguments only
+. if (defined(IS_BUILTIN.skey) && ${IS_BUILTIN.skey} == no ) || ${OPSYS} == "OpenBSD"
+# pkgsrc's version uses three arguments only, as does OpenBSD's
 CPPFLAGS+=		-DOLDSKEY
 . endif
 .else
