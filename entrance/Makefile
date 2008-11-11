@@ -2,7 +2,6 @@
 #
 
 DISTNAME=	entrance-0.9.9.050
-PKGREVISION=	1
 CATEGORIES=	x11
 MASTER_SITES=	http://www.ezunix.org/pkgsrc/e17/snapshots/2008-09-25/
 EXTRACT_SUFX=	.tar.bz2
@@ -22,6 +21,9 @@ CONFIGURE_ARGS+=	--disable-pthreads --disable-directfb \
 			--enable-sdl --with-vt=5 \
 			--with-xsession=${LOCALBASE}/share/entrace/ \
 			--enable-software-16-x11 --disable-debug
+
+CONF_FILES=	${PREFIX}/share/examples/entrance/entrance_config.cfg \
+		${PKG_SYSCONFDIR}/entrance_config.cfg
 
 .include	"../../wip/ecore/buildlink3.mk"
 .include	"../../wip/evas/buildlink3.mk"
