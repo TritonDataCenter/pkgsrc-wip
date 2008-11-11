@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=			iodine-0.4.1
+DISTNAME=			iodine-0.4.2
 CATEGORIES=			net
 MASTER_SITES=			http://code.kryo.se/iodine/
 
