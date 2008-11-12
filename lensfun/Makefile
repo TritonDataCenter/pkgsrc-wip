@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	lensfun-0.2.2b
+PKGREVISION=	1
 CATEGORIES=	graphics
 MASTER_SITES=	http://download.berlios.de/lensfun/ \
 		http://download2.berlios.de/lensfun/
