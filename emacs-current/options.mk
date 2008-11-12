@@ -66,7 +66,7 @@ CONFIGURE_ARGS+=	--with-png
 .  if !empty(PKG_OPTIONS:Mfont-backend)
 .include "../../graphics/libotf/buildlink3.mk"
 .include "../../graphics/freetype2/buildlink3.mk"
-.include "../../fonts/Xft2/buildlink3.mk"
+.include "../../x11/libXft/buildlink3.mk"
 .include "../../devel/m17n-lib/buildlink3.mk"
 CONFIGURE_ARGS+=	--enable-font-backend
 .  else
