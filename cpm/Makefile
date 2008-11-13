@@ -3,6 +3,7 @@
 
 DISTNAME=	cpm
 PKGNAME=	cpm-0.22rc1
+PKGREVISION=	1
 CATEGORIES=	security
 MASTER_SITES=	http://www.harry-b.de/downloads/
 
@@ -14,7 +15,15 @@ WRKSRC=			${WRKDIR}/cpm-0.22beta
 GNU_CONFIGURE=		yes
 CONFIGURE_ARGS+=	--with-crack-dict=${PREFIX}/libdata/pw_dict
 USE_PKGLOCALEDIR=	yes
-USE_TOOLS+=	perl gmake
+USE_TOOLS+=		perl gmake
+CPPFLAGS+=		-DPKG_SYSCONFDIR="\"${PKG_SYSCONFDIR}\""
+
+EGDIR=			${PREFIX}/share/examples/cpm
+CONF_FILES=		${EGDIR}/cpmrc ${PKG_SYSCONFDIR}/cpmrc
+INSTALLATION_DIRS+=	${EGDIR}
+
+post-install:
+	${INSTALL_DATA} ${WRKSRC}/conf/cpmrc-default ${EGDIR}/cpmrc
 
 .include "../../devel/cdk/buildlink3.mk"
 .include "../../security/gpgme/buildlink3.mk"
