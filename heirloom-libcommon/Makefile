@@ -21,7 +21,7 @@ PLIST_SUBST+=	NO_ALLOCA_H=
 PLIST_SUBST+=	NOMALLOC_H=
 PLIST_SUBST+=	NOUTMPX_H=
 
-.if ${OPSYS} == "Linux"
+.if ${OPSYS} == "Linux" || ${OPSYS} == "SunOS"
 PLIST_SUBST+=	"NO_ALLOCA_H=@comment "
 PLIST_SUBST+=	"NOMALLOC_H=@comment "
 PLIST_SUBST+=	"NOUTMPX_H=@comment "
