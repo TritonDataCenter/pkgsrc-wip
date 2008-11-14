@@ -1,7 +1,7 @@
 $NetBSD$
 
 --- mediastreamer2/src/oss.c.orig	2008-09-30 19:13:24.000000000 +0200
-+++ mediastreamer2/src/oss.c	2008-09-30 19:18:31.000000000 +0200
++++ mediastreamer2/src/oss.c
 @@ -30,7 +30,7 @@
  #include <sys/time.h>
  #include <sys/ioctl.h>

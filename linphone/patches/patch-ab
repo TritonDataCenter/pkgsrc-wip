@@ -1,7 +1,7 @@
 $NetBSD$
 
 --- console/linphonec.c.orig	2007-11-14 14:40:27.000000000 +0100
-+++ console/linphonec.c	2008-09-30 19:10:05.000000000 +0200
++++ console/linphonec.c
 @@ -994,12 +994,12 @@
  	char *iptr;
  
