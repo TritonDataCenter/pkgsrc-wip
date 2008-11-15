@@ -21,4 +21,5 @@ do-install:
 	${INSTALL_DATA} ${WRKSRC}/CHANGELOG ${DESTDIR}${PREFIX}/share/${PKGBASE}
 	${INSTALL_DATA} ${WRKSRC}/README ${DESTDIR}${PREFIX}/share/${PKGBASE}
 
+.include "../../devel/zlib/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
