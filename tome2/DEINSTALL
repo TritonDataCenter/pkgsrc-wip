@@ -1,0 +1,10 @@
+# $NetBSD$
+#
+
+TOME2_SHAREDIR="@TOME2_SHAREDIR@"
+
+case ${STAGE} in
+DEINSTALL)
+	${RM} -f ${TOME2_SHAREDIR}/data/*.raw;
+	;;
+esac

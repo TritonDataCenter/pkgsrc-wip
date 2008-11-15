@@ -15,6 +15,21 @@ BUILD_DIRS=	src
 MAKE_FILE=	makefile.std
 BUILD_TARGET=	default
 
+TOME2_SHAREDIR=	${PREFIX}/share/tome2
+FILES_SUBST+=	TOME2_SHAREDIR=${TOME2_SHAREDIR:Q}
+
+CONF_FILES_PERMS+= \
+	/dev/null ${TOME2_SHAREDIR}/apex/scores.raw ${GAMEOWN} ${GAMEGRP} 0644
+
+MAKE_FLAGS+= \
+	LIBDIR=${TOME2_SHAREDIR:Q} \
+	GAMEOWN=${GAMEOWN:Q} \
+	GAMEGRP=${GAMEGRP:Q}
+
+# Prevent the default score file to be installed.
+pre-install:
+	${RM} -f ${WRKSRC}/lib/apex/scores.raw
+
 .include "../../devel/ncurses/buildlink3.mk"
 .include "../../x11/libX11/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
