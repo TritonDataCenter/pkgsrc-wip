@@ -52,6 +52,17 @@ CONFIGURE_ENV+=		X_LIBS=${LDFLAGS:M*:Q}
 CONFIGURE_ARGS+=	--with-x=no
 .endif
 
+# Help PLIST generation
+.if !empty(PKG_OPTIONS:Mecl)
+# Handle X11-specific files
+.for _file_ in viewAlone
+PRINT_PLIST_AWK+=	{if ($$0 ~ /\/bin\/${_file_}$$/) {$$0 = "$${x11}" $$0;}}
+.endfor
+.for _file_ in hypertex spadbuf view2D view3D viewman
+PRINT_PLIST_AWK+=	{if ($$0 ~ /\/lib\${_file_}$$/) {$$0 = "$${x11}" $$0;}}
+.endfor
+.endif
+
 .for opt in clisp sbcl ecl x11
 .  if !empty(PKG_OPTIONS:M${opt})
 PLIST_SUBST+=	${opt}=""
