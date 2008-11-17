@@ -3,6 +3,7 @@
 
 DISTNAME=		mu-conference_0.7
 PKGNAME=		${DISTNAME:S/_/-/}
+PKGREVISION=		1
 CATEGORIES=		chat
 MASTER_SITES=		http://download.gna.org/mu-conference/
 
