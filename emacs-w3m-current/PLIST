@@ -2,6 +2,7 @@
 info/emacs-w3m-ja.info
 info/emacs-w3m.info
 share/emacs/site-lisp/w3m/ChangeLog
+share/emacs/site-lisp/w3m/ChangeLog.1
 share/emacs/site-lisp/w3m/mew-shimbun.el
 share/emacs/site-lisp/w3m/mew-w3m.el
 share/emacs/site-lisp/w3m/mime-w3m.el
@@ -67,6 +68,8 @@ share/emacs/site-lisp/w3m/sb-excite.el
 share/emacs/site-lisp/w3m/sb-excite.elc
 share/emacs/site-lisp/w3m/sb-exconn.el
 share/emacs/site-lisp/w3m/sb-exconn.elc
+share/emacs/site-lisp/w3m/sb-f1fan.el
+share/emacs/site-lisp/w3m/sb-f1fan.elc
 share/emacs/site-lisp/w3m/sb-fau.el
 share/emacs/site-lisp/w3m/sb-fau.elc
 share/emacs/site-lisp/w3m/sb-ffii.el
