@@ -1,0 +1,6 @@
+@comment $NetBSD$
+include/linebreak.h
+include/linebreakdef.h
+lib/liblinebreak.la
+share/doc/liblinebreak/README
+@dirrm share/doc/liblinebreak
