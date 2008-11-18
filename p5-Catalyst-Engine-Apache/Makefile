@@ -1,8 +1,7 @@
 # $NetBSD$
 
-DISTNAME=	Catalyst-Engine-Apache-1.06
+DISTNAME=	Catalyst-Engine-Apache-1.12
 PKGNAME=	p5-${DISTNAME}
-PKGREVISION=	1
 CATEGORIES=	www perl5
 MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=../by-authors/id/A/AG/AGRUNDMA/}
 PERL5_REQD+=	5.8.1
