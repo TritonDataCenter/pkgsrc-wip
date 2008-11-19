@@ -8,6 +8,8 @@ MASTER_SITES=	http://download.enlightenment.org/snapshots/2008-01-25/ \
 		http://www.ezunix.org/pkgsrc/e17/snapshots/2008-01-25/ \
 		http://jfranz.users.bsdprojects.net/pkgsrc/e17/
 
+PKG_DESTDIR_SUPPORT=	user-destdir
+
 MAINTAINER=	yazzy@yazzy.org
 HOMEPAGE=	http://enlightenment.org/
 COMMENT=	Small, display independent, and quick thumbnailing library

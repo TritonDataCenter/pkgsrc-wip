@@ -2,6 +2,7 @@
 bin/edje_cc
 bin/edje_decc
 bin/edje_recc
+bin/inkscape2edc
 include/Edje.h
 include/Edje_Edit.h
 lib/libedje.la
