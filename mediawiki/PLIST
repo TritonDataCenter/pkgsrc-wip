@@ -1399,7 +1399,7 @@ share/mediawiki/wiki.phtml
 @dirrm share/mediawiki/docs/php-memcached
 @dirrm share/mediawiki/docs/html
 @dirrm share/mediawiki/docs
-@dirrm share/mediawiki/config
 @dirrm share/mediawiki/bin
-@dirrm share/mediawiki
 @dirrm share/examples/mediawiki
+@unexec ${RMDIR} %D/share/mediawiki/config 2>/dev/null || ${TRUE}
+@unexec ${RMDIR} %D/share/mediawiki 2>/dev/null || ${TRUE}
