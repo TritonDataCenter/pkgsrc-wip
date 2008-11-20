@@ -1,12 +1,12 @@
 ===========================================================================
 $NetBSD$
 
-Add the following line to httpd.conf to make TWiki accessible
+Add the following line to httpd.conf to make MediaWiki accessible
 through your HTTP server:
 
 	Include ${PKG_SYSCONFDIR}/mediawiki.conf
 
-Your MediaWiki is the accessible through:
+Your MediaWiki is then accessible through:
 
 	http://www.example.com/mediawiki/
 
