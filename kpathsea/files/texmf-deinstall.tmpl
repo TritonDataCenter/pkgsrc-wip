@@ -1,0 +1,12 @@
+# $NetBSD$
+#
+# Rebuild ls-R databases.
+#
+
+case ${STAGE} in
+POST-DEINSTALL)
+	@MKTEXLSR@ @TEXMFDIRS@
+        ;;
+*)
+	;;
+esac
