@@ -14,12 +14,16 @@ COMMENT=		Embeddable Common Lisp
 PKG_DESTDIR_SUPPORT=	user-destdir
 MAKE_JOBS_SAFE=		no
 
-CVS_REPOSITORIES=	ecls
+CVS_REPOSITORIES=	ecl
 CVS_PROJECT=		ecls
-CVS_ROOT.ecls=		${CVS_ROOT_SOURCEFORGE}
-CVS_MODULE.ecls=	ecl
+CVS_ROOT.ecl=		${CVS_ROOT_SOURCEFORGE}
+CVS_MODULE.ecl=		ecl
 
-WRKSRC=			${WRKDIR}/ecls
+# CVS_REPOSITORIES+=	ecl-test
+# CVS_ROOT.ecl-test=	${CVS_ROOT_SOURCEFORGE}
+# CVS_MODULE.ecl-test=	ecl-test
+
+WRKSRC=			${WRKDIR}/ecl
 
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
