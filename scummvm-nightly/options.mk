@@ -2,7 +2,7 @@
 
 PKG_OPTIONS_VAR=	PKG_OPTIONS.scummvm-nightly
 PKG_SUPPORTED_OPTIONS=	scummvm-nightly-cruise
-PKG_SUPPORTED_OPTIONS=	scummvm-nightly-groovie
+PKG_SUPPORTED_OPTIONS+=	scummvm-nightly-groovie
 PKG_SUPPORTED_OPTIONS+=	scummvm-nightly-igor
 PKG_SUPPORTED_OPTIONS+=	scummvm-nightly-m4
 PKG_SUPPORTED_OPTIONS+=	scummvm-nightly-made
