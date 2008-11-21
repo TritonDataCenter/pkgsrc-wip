@@ -1,10 +1,10 @@
 # $NetBSD$
 #
-# pkg-config says 1.0.2, let's combine it with the revision
+# pkg-config says 1.0.3, let's combine it with the revision
 # to give a sane version number.
 #
-DISTNAME=	WebKit-r35656
-PKGNAME=	${DISTNAME:S/WebKit/webkit-gtk/:S/r/1.0.2./}
+DISTNAME=	WebKit-r38591
+PKGNAME=	${DISTNAME:S/WebKit/webkit-gtk/:S/r/1.0.3./}
 CATEGORIES=	www gtk2
 MASTER_SITES=	http://nightly.webkit.org/files/trunk/src/
 EXTRACT_SUFX=	.tar.bz2
