@@ -13,7 +13,7 @@ BUILDLINK_ORDER:=	${BUILDLINK_ORDER} ${BUILDLINK_DEPTH}texlive-tetex
 
 .if ${TEXLIVE_TETEX_BUILDLINK3_MK} == "+"
 BUILDLINK_API_DEPENDS.texlive-tetex+=	texlive-tetex>=2008
-BUILDLINK_PKGSRCDIR.texlive-tetex?=	../../texlive/texlive-tetex
+BUILDLINK_PKGSRCDIR.texlive-tetex?=	../../wip/texlive-tetex
 .endif	# TEXLIVE_TETEX_BUILDLINK3_MK
 
 BUILDLINK_DEPTH:=		${BUILDLINK_DEPTH:S/+$//}
