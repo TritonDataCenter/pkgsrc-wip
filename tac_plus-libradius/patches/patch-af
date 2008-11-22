@@ -6,7 +6,7 @@ $NetBSD$
  */
  
  /* Dummy password, if nopasswd is specified */
-+#if !defined(__APPLE__) && !defined(__NetBSD__)
++#if !defined(__APPLE__) && !defined(__NetBSD__) && !defined(__linux__)
  extern char *nopasswd_str;
 +#endif
  
