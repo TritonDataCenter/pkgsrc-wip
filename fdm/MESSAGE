@@ -17,7 +17,7 @@ few lines (no filtering):
 Also you may want to run it every half hour or so. To
 do it just add the following line to the crontab(5):
 
-*/30    *       *       *       *       /usr/local/bin/fdm -l fetch
+*/30    *       *       *       *       ${PREFIX}/bin/fdm -l fetch
 
 Read more to the fdm(1) and fdm.conf(5) manual pages.
 ===========================================================================
