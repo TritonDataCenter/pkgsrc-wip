@@ -2,6 +2,12 @@
 
 case "${STAGE}" in
 DEINSTALL)
-	${RM} -f @PREFIX@/share/texmf/ls-R
+	${RM} -f \
+		@PKG_SYSCONFDIR@/ls-R \
+		@VARBASE@/lib/texmf/ls-R \
+		@TEXMFLOCAL@/ls-R \
+		@PREFIX@/share/doc/texmf/ls-R \
+		@PREFIX@/share/texmf-dist/ls-R \
+		@PREFIX@/share/texmf/ls-R
 	;;
 esac

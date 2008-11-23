@@ -21,4 +21,21 @@ WRKSRC=		${WRKDIR}/${DISTNAME}/texk/kpathsea
 
 MAKE_FLAGS+=	LIBTOOL=${LIBTOOL:Q}
 
+SUBST_CLASSES+=		texmfdir
+SUBST_MESSAGE.texmfdir=	Setting texmf directories.
+SUBST_STAGE.texmfdir=	pre-configure
+SUBST_FILES.texmfdir=	texmf.cnf
+SUBST_SED.texmfdir=	-e 's,@TEXMFLOCAL@,${TEXMFLOCAL},' \
+			-e 's,@VARBASE@,${VARBASE},' \
+			-e 's,@PKG_SYSCONFDIR@,${PKG_SYSCONFDIR},'
+
+PKG_SYSCONFSUBDIR=	texmf
+
+BUILD_DEFS+=		TEXMFLOCAL
+TEXMFLOCAL?=		${PREFIX}/share/texmf-local
+FILES_SUBST+=		TEXMFLOCAL=${TEXMFLOCAL}
+
+OWN_DIRS+=		${TEXMFLOCAL} ${VARBASE}/lib/texmf
+INSTALLATION_DIRS+=	share/doc/texmf share/texmf-dist
+
 .include "../../mk/bsd.pkg.mk"

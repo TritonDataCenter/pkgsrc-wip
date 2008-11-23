@@ -76,5 +76,9 @@ share/texmf/web2c/mktexnam.opt
 share/texmf/web2c/mktexupd
 share/texmf/web2c/texmf.cnf
 @dirrm share/texmf/web2c
+@exec ${MKDIR} %D/share/texmf-dist
+@dirrm share/texmf-dist
 @dirrm share/texmf
+@exec ${MKDIR} %D/share/doc/texmf
+@dirrm share/doc/texmf
 @dirrm include/kpathsea

@@ -2,6 +2,12 @@
 
 case "${STAGE}" in
 POST-INSTALL)
-	@PREFIX@/bin/mktexlsr @PREFIX@/share/texmf
+	@PREFIX@/bin/mktexlsr \
+		@PREFIX@/share/texmf \
+		@PREFIX@/share/texmf-dist \
+		@PREFIX@/share/doc/texmf \
+		@TEXMFLOCAL@ \
+		@VARBASE@/lib/texmf \
+		@PKG_SYSCONFDIR@
 	;;
 esac
