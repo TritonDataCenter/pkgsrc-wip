@@ -15,7 +15,7 @@ $NetBSD$
  
  % Our documentation-only tree, arranged by language:
 -TEXMFDOC = $SELFAUTOPARENT/texmf-doc
-+TEXMFDOC = @PREFIX@/share/doc/texmf
++TEXMFDOC = $SELFAUTODIR/share/doc/texmf
  
  % A place for local additions to a "standard" texmf tree.
  % This tree is not used for local configuration maintained by
