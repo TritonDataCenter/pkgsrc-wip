@@ -35,7 +35,14 @@ BUILD_DEFS+=		TEXMFLOCAL
 TEXMFLOCAL?=		${PREFIX}/share/texmf-local
 FILES_SUBST+=		TEXMFLOCAL=${TEXMFLOCAL}
 
+CONF_FILES=	${PREFIX}/share/examples/${PKGBASE}/texmf.cnf \
+		${PKG_SYSCONFDIR}/texmf.cnf
+
 OWN_DIRS+=		${TEXMFLOCAL} ${VARBASE}/lib/texmf
 INSTALLATION_DIRS+=	share/doc/texmf share/texmf-dist
+
+post-install:
+	${LN} -sf ${PKG_SYSCONFDIR}/texmf.cnf \
+		${PREFIX}/share/texmf/web2c/texmf.cnf
 
 .include "../../mk/bsd.pkg.mk"
