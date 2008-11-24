@@ -37,6 +37,7 @@ CONFIGURE_ARGS+=	--with-mf-nowin
 CONFIGURE_ARGS+=	--with-system-freetype2 \
 			--with-freetype2-include=${BUILDLINK_PREFIX.freetype2}/include \
 			--with-freetype2-libdir=${BUILDLINK_PREFIX.freetype2}/lib
+CONFIGURE_ARGS+=	--with-fontconfig=${BUILDLINK_PREFIX.fontconfig}
 CONFIGURE_ARGS+=	--with-system-pnglib \
 			--with-pnglib-include=${BUILDLINK_PREFIX.png}/include \
 			--with-pnglib-libdir=${BUILDLINK_PREFIX.png}/lib
@@ -69,6 +70,7 @@ FILES_SUBST+=	KPSEWHICH=${BUILDLINK_PREFIX.kpathsea}/bin/kpsewhich \
 .include "../../archivers/zziplib/buildlink3.mk"
 .include "../../converters/TECkit/buildlink3.mk"
 .include "../../devel/zlib/buildlink3.mk"
+.include "../../fonts/fontconfig/buildlink3.mk"
 .include "../../graphics/freetype2/buildlink3.mk"
 .include "../../graphics/png/buildlink3.mk"
 .include "../../wip/silgraphite/buildlink3.mk"
