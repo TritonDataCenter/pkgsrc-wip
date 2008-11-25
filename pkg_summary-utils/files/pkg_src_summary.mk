@@ -11,8 +11,8 @@ ALLSRCFILES=     ${_ALLSRCFILES:O:u}
 #####################################################################
 # for multi-variant packages and bulk build software
 .for i in ${_PBULK_MULTI}
-_MULTI_SPEC_VAR1.${_PBULK_MULTI_VAR.${i}}=${${_PBULK_MULTI_DEFAULT.${i}}}
-_MULTI_SPEC_ACCEPTED.${_PBULK_MULTI_VAR.${i}}=${_PBULK_MULTI_LIST.${i}}
+_VAR2DEFAULT.${_PBULK_MULTI_VAR.${i}}=${${_PBULK_MULTI_DEFAULT.${i}}}
+_VAR2ACCEPTEDVARNAME.${_PBULK_MULTI_VAR.${i}}=${_PBULK_MULTI_LIST.${i}}
 .if !empty(${_PBULK_MULTI_LIST.${i}})
 VARIANTS7+=	${_PBULK_MULTI_VAR.${i}}=${${_PBULK_MULTI_LIST.${i}}:ts,}
 .endif
@@ -21,11 +21,11 @@ VARIANTS7+=	${_PBULK_MULTI_VAR.${i}}=${${_PBULK_MULTI_LIST.${i}}:ts,}
 .for _SINGLE_ASSIGN in ${_ASSIGNMENTS:S/,/ /g}
 _varname=	${_SINGLE_ASSIGN:C/=.*$//1}
 _value=		${_SINGLE_ASSIGN:C/^[^=]*=//1}
-.if !defined(_MULTI_SPEC_VAR1.${_varname}) || \
-    "${_MULTI_SPEC_VAR1.${_varname}}" != "${_value}"
+.if !defined(_VAR2DEFAULT.${_varname})
 _ASSIGN2+=	${_SINGLE_ASSIGN}
-.endif
-.if defined(_MULTI_SPEC_VAR1.${_varname})
+.elif !defined(${_VAR2ACCEPTEDVARNAME.${_varname}})
+.elif "${_VAR2DEFAULT.${_varname}}" != "${_value}"
+_ASSIGN2+=	${_SINGLE_ASSIGN}
 _INHER_ASSIGNS+=	${_SINGLE_ASSIGN}
 .endif
 .endfor
