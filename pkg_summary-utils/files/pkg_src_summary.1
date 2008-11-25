@@ -105,6 +105,16 @@ pkg_src_summary -a CVS_CHECKSUM x11/xxkb wip/distbb
 pkg_src_summary -r LICENSE,PLIST,DESCR x11/xxkb wip/distbb
 pkg_src_summary -m lang/lua www/php-apc www/ap2-python
 .VE
+.SH BUGS
+pkg_src_summary currently does not pass variable assignments to the
+dependencies, e.g. when you run
+.VB
+    pkg_src_summary graphics/py-cairo:PYTHON_VERSIONS_REQD=25
+.VE
+.VB
+PYTHON_VERSIONS_REQD=25
+.VE
+is not passed to math/py-Numeric
 .SH SEE ALSO
 .BR pkg_summary-utils(7) ,
 .B pkg_summary(5)
