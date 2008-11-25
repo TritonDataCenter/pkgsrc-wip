@@ -202,37 +202,6 @@ enrich_summary (){
     }' "$@"
 }
 
-enrich_Makefile (){
-    cat <<EOF
-#####################################################################
-.if defined(DIST_SUBDIR) && !empty(DIST_SUBDIR)
-_ALLSRCFILES=    \${DISTFILES:@f@\${DIST_SUBDIR}/\${f}@} \
-                 \${PATCHFILES:@f@\${DIST_SUBDIR}/\${f}@}
-.else
-_ALLSRCFILES=     \${_DISTFILES} \${_PATCHFILES}
-.endif
-ALLSRCFILES=     \${_ALLSRCFILES:O:u}
-
-#####################################################################
-# for multi-variant packages and bulk build software
-.for i in \${_PBULK_MULTI}
-.if !empty(\${_PBULK_MULTI_LIST.\${i}})
-VARIANTS7+=	\${_PBULK_MULTI_VAR.\${i}}=\${\${_PBULK_MULTI_LIST.\${i}}:ts,}
-.endif
-.endfor
-
-#####################################################################
-.PHONY: my-show-vars
-my-show-vars:
-.for VARNAME in \${VARNAMES}
-.if !empty(\${VARNAME})
-	@\${ECHO} \${VARNAME}=\${\${VARNAME}:Q}
-.endif
-.endfor
-
-EOF
-}
-
 prepand_PLIST () {
     awk '/^[^@]/ {print "PLIST=" $0}' "$@"
 }
@@ -250,7 +219,8 @@ cd_and_print_summary (){
     if test "$real_pkgpath" = "$1"; then
 	var_assigns=''
     else
-	var_assigns="`echo $1 | pkgpath2multivar_opts`"
+	var_assigns="$(echo $1 | pkgpath2multivar_opts)"
+	var_assignments="_ASSIGNMENTS='$(echo $1 | sed 's,^[^:]*:,,')'"
     fi
 
     extra_mk=''
@@ -258,19 +228,13 @@ cd_and_print_summary (){
 	extra_mk='-f ../../mk/pbulk/pbulk-index.mk'
     fi
 
-    ( cd "$real_pkgpath" && enrich_Makefile |
-	eval ${BMAKE} -f ./Makefile $extra_mk -f - my-show-vars \
-	    VARNAMES="'$varnames'" $var_assigns ) > "$tmpfn" || return 1
+    # INHER_ASSIGNS must be before DEPENDS and BUILD_DEPENDS, see below
+    ( cd "$real_pkgpath" && eval ${BMAKE} -f ./Makefile $extra_mk \
+	-f @@mkscriptsdir@@/pkg_src_summary.mk my-show-vars \
+	VARNAMES="'INHER_ASSIGNS $varnames ASSIGNMENTS'" \
+	$var_assignments $var_assigns ) > "$tmpfn" || return 1
 
     enrich_summary "$tmpfn" >"$summaryfn" || return 1
-
-    # VAR_ASSIGNMENTS
-    if test "$var_assigns"; then
-	printf 'ASSIGNMENTS=' >>"$summaryfn" || return 1
-	printf "%s\n" "$var_assigns" | \
-	    sed -e 's| |~|g' -e "s|'~'| |g" -e "s|'||g" >>"$summaryfn" \
-	    || return 1
-    fi
 
     # CVS_CHECKSUM
     if test "$field_cvs_checksum"; then
@@ -508,19 +472,28 @@ while test -n "${with_dep}${with_bdep}"; do
 	pkgpaths [substr($0, 9)] = 1
 	next
     }
+    NF == 0 {
+	inher_assigns = ""
+    }
+    /^INHER_ASSIGNS=/ {
+	inher_assigns = ":" substr($0, 15)
+	next
+    }
     /^DEPENDS=/ && with_dep {
 	$0 = substr($0, 9)
 	gsub(/[^ ]*:[.][.]\/[.][.]\//, "")
 	for (i=1; i <= NF; ++i){
 	    sub(/\/+$/, "", $i)
-	    depends [$i] = 1
+	    depends [$i inher_assigns] = 1
 	}
 	next
     }
     /^BUILD_DEPENDS=/ && with_bdep {
 	$0 = substr($0, 15)
 	gsub(/[^ ]*:[.][.]\/[.][.]\//, "")
-	for (i=1; i <= NF; ++i) depends [$i] = 1
+	for (i=1; i <= NF; ++i){
+	    depends [$i inher_assigns] = 1
+	}
 	next
     }
     END {
