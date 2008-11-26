@@ -215,7 +215,7 @@ PKGPATH=devel/pkg-config
 PKGNAME=jpeg-X
 PKGPATH=graphics/jpeg
 
-PKGNAME=dictem-X.X
+PKGNAME=dictem-X.X.X
 PKGPATH=textproc/dictem
 
 PKGNAME=pkg_online-server-X.X.X
@@ -259,6 +259,9 @@ x11-links-0.38
 PKGNAME=distbb-X.X.X
 PKGPATH=wip/distbb
 
+PKGNAME=dictem-X.X.X
+PKGPATH=textproc/dictem
+
 PKGNAME=pkg_online-X.X.X
 PKGPATH=wip/pkg_online
 
@@ -268,8 +271,14 @@ PKGPATH=wip/dict-server
 PKGNAME=checkperms-X.X
 PKGPATH=sysutils/checkperms
 
+PKGNAME=pkg_online-server-X.X.X
+PKGPATH=wip/pkg_online-server
+
 PKGNAME=dict-client-X.X.X
 PKGPATH=textproc/dict-client
+
+PKGNAME=pkg_online-client-X.X.X
+PKGPATH=wip/pkg_online-client
 
 PKGNAME=libmaa-X.X.X
 PKGPATH=wip/libmaa
@@ -327,15 +336,6 @@ PKGPATH=devel/pkg-config
 
 PKGNAME=jpeg-X
 PKGPATH=graphics/jpeg
-
-PKGNAME=dictem-X.X
-PKGPATH=textproc/dictem
-
-PKGNAME=pkg_online-server-X.X.X
-PKGPATH=wip/pkg_online-server
-
-PKGNAME=pkg_online-client-X.X.X
-PKGPATH=wip/pkg_online-client
 
 --------------------------------------------------
 ------- pkg_src_summary #7

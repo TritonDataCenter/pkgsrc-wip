@@ -89,12 +89,14 @@ sed -n 's/^PKGNAME=//p' | sort
 echo '--------------------------------------------------'
 echo '------- pkg_src_summary #6'
 pkgs="`sed -n 's/^PKGPATH=//p' src_summary.txt`"
-pkg_src_summary $pkgs | tee "$objdir"/summary_full.txt |
+pkg_src_summary -f PKGNAME,PKGPATH $pkgs |
+tee "$objdir"/summary_full.txt |
 normalize_version
 
 echo '--------------------------------------------------'
 echo '------- pkg_src_summary #7'
-diff "$objdir"/summary_micro.txt "$objdir"/summary_full.txt
+pkg_cmp_summary -p "$objdir"/summary_micro.txt "$objdir"/summary_full.txt |
+grep -v '^='
 
 # pkg_summary4view
 echo '--------------------------------------------------'
