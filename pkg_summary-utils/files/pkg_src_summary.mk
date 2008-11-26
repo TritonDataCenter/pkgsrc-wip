@@ -13,14 +13,12 @@ ALLSRCFILES=     ${_ALLSRCFILES:O:u}
 .for i in ${_PBULK_MULTI}
 _VAR2DEFAULT.${_PBULK_MULTI_VAR.${i}}=${${_PBULK_MULTI_DEFAULT.${i}}}
 _VAR2ACCEPTEDVARNAME.${_PBULK_MULTI_VAR.${i}}=${_PBULK_MULTI_LIST.${i}}
-.if !empty(${_PBULK_MULTI_LIST.${i}})
-_VARIANTS+=	${_PBULK_MULTI_VAR.${i}}=${${_PBULK_MULTI_LIST.${i}}:ts,}
-.endif
 .endfor
 
 .for _SINGLE_ASSIGN in ${_ASSIGNMENTS:S/,/ /g}
-_varname=	${_SINGLE_ASSIGN:C/=.*$//1}
-_value=		${_SINGLE_ASSIGN:C/^[^=]*=//1}
+_varname=			${_SINGLE_ASSIGN:C/=.*$//1}
+_value=				${_SINGLE_ASSIGN:C/^[^=]*=//1}
+_VAR_ASSIGNED.${_varname}=	1
 .if !defined(_VAR2DEFAULT.${_varname})
 _ASSIGN2+=	${_SINGLE_ASSIGN}
 .elif !defined(${_VAR2ACCEPTEDVARNAME.${_varname}})
@@ -32,6 +30,12 @@ __INHER_ASSIGNS+=	${_SINGLE_ASSIGN}
 
 ASSIGNMENTS=	${_ASSIGN2:ts,}
 _INHER_ASSIGNS=	${__INHER_ASSIGNS:ts,}
+
+.for i in ${_PBULK_MULTI}
+.if defined(${_PBULK_MULTI_LIST.${i}}) && !defined(_VAR_ASSIGNED.${_PBULK_MULTI_VAR.${i}})
+_VARIANTS+=	${_PBULK_MULTI_VAR.${i}}=${${_PBULK_MULTI_LIST.${i}}:ts,}
+.endif
+.endfor
 
 #####################################################################
 .PHONY: my-show-vars
