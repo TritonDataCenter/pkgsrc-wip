@@ -81,7 +81,7 @@ normalize_version
 
 # pkg_refresh_summary
 echo '--------------------------------------------------'
-echo '------- pkg_micro_src_summary #5'
+echo '------- pkg_refresh_summary #5'
 pkg_refresh_summary src_summary.txt src_summary2.txt |
 sed -n 's/^PKGNAME=//p' | sort
 
@@ -89,7 +89,7 @@ sed -n 's/^PKGNAME=//p' | sort
 echo '--------------------------------------------------'
 echo '------- pkg_src_summary #6'
 pkgs="`sed -n 's/^PKGPATH=//p' src_summary.txt`"
-pkg_micro_src_summary $pkgs | tee "$objdir"/summary_full.txt |
+pkg_src_summary $pkgs | tee "$objdir"/summary_full.txt |
 normalize_version
 
 echo '--------------------------------------------------'
@@ -101,3 +101,10 @@ echo '--------------------------------------------------'
 echo '------- pkg_summary4view #8'
 pkg_grep_summary PKGPATH 'fvalue == "wip/pkg_summary-utils"' \
     < src_summary.txt | pkg_summary4view
+
+# pkg_uniq_summary
+echo '--------------------------------------------------'
+echo '------- pkg_uniq_summary #9'
+pkg_uniq_summary src_summary.txt src_summary3.txt |
+sed -n 's/^PKGNAME=//p' | sort
+
