@@ -27,7 +27,7 @@
 function usage (){
 	printf "\
 pkg_uniq_summary - filter out repeated summaries\n\
-   Summaries are compared by (PKGPATH, PKGBASE, ASSIGNMENTS) triple,\n\
+   Summaries are compared by (PKGPATH, PKGBASE, ASSIGNMENTS) triple.\n\
 usage: pkg_uniq_summary -h\n\
        pkg_uniq_summary [OPTIONS] [files...]\n\
 OPTIONS:\n\

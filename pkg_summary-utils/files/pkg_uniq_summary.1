@@ -22,9 +22,7 @@ pkg_uniq_summary \- filter out repeated package summaries
 .SH DESCRIPTION
 .B pkg_uniq_summary
 filters out repeated package summaries.
-Summaries are compared by (PKGPATH, PKGBASE) pair,
-building options (:var1=val1[,...]) are removed from PKGPATH
-before comparison.
+Summaries are compared by (PKGPATH, PKGBASE, ASSIGNMENTS) triple.
 .SH OPTIONS
 .TP
 .B "-h|--help"
