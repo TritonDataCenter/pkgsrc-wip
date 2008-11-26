@@ -359,8 +359,8 @@ COMMENT:        Utilities for manipulating pkg_summary(5) files
 MAINTAINER:     cheusov@tut.by
 CATEGORIES:     pkgtools
 
+--------------------------------------------------
 ------- pkg_uniq_summary #9
------------------------------------------------------------
 ASSIGNMENTS=OPT1=1,OPT2=2
 PKGNAME=distbb-0.22.0
 PKGPATH=wip/distbb

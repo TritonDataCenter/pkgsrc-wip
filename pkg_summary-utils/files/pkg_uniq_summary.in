@@ -70,9 +70,11 @@ $0 ~ /^PKGNAME=/ {
 }
 
 $0 ~ /^PKGPATH=/ {
-	assigns = pkgpath = substr($0, 9)
-	sub(/:.*$/, "", pkgpath)
-	sub(/^[^:]*:/, "", assigns)
+	pkgpath = substr($0, 9)
+	if (sub(/:.*$/, "", pkgpath)){
+		assigns = substr($0, 9)
+		sub(/^[^:]*:/, "", assigns)
+	}
 	next
 }
 
