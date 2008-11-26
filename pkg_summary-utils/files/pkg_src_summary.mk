@@ -14,7 +14,7 @@ ALLSRCFILES=     ${_ALLSRCFILES:O:u}
 _VAR2DEFAULT.${_PBULK_MULTI_VAR.${i}}=${${_PBULK_MULTI_DEFAULT.${i}}}
 _VAR2ACCEPTEDVARNAME.${_PBULK_MULTI_VAR.${i}}=${_PBULK_MULTI_LIST.${i}}
 .if !empty(${_PBULK_MULTI_LIST.${i}})
-VARIANTS7+=	${_PBULK_MULTI_VAR.${i}}=${${_PBULK_MULTI_LIST.${i}}:ts,}
+_VARIANTS+=	${_PBULK_MULTI_VAR.${i}}=${${_PBULK_MULTI_LIST.${i}}:ts,}
 .endif
 .endfor
 
@@ -26,12 +26,12 @@ _ASSIGN2+=	${_SINGLE_ASSIGN}
 .elif !defined(${_VAR2ACCEPTEDVARNAME.${_varname}})
 .elif "${_VAR2DEFAULT.${_varname}}" != "${_value}"
 _ASSIGN2+=	${_SINGLE_ASSIGN}
-_INHER_ASSIGNS+=	${_SINGLE_ASSIGN}
+__INHER_ASSIGNS+=	${_SINGLE_ASSIGN}
 .endif
 .endfor
 
 ASSIGNMENTS=	${_ASSIGN2:ts,}
-INHER_ASSIGNS=	${_INHER_ASSIGNS:ts,}
+_INHER_ASSIGNS=	${__INHER_ASSIGNS:ts,}
 
 #####################################################################
 .PHONY: my-show-vars

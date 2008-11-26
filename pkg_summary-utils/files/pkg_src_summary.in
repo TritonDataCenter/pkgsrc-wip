@@ -141,9 +141,9 @@ process_options (){
 process_options $PSS_OPTIONS "$@"
 
 if test "$multi_var"; then
-    # VARIANTS7 - artificial field keeping all variable assignments
+    # VARIANTS - artificial field keeping all variable assignments
     # for multi-variant packages.
-    add_fields 'VARIANTS7'
+    add_fields '_VARIANTS'
 fi
 
 if echo "$PSS_FIELDS" | grep DESCRIPTION > /dev/null; then
@@ -231,7 +231,7 @@ cd_and_print_summary (){
     # INHER_ASSIGNS must be before DEPENDS and BUILD_DEPENDS, see below
     ( cd "$real_pkgpath" && eval ${BMAKE} -f ./Makefile $extra_mk \
 	-f @@mkscriptsdir@@/pkg_src_summary.mk my-show-vars \
-	VARNAMES="'INHER_ASSIGNS $varnames ASSIGNMENTS'" \
+	VARNAMES="'_INHER_ASSIGNS $varnames ASSIGNMENTS'" \
 	$var_assignments $var_assigns ) > "$tmpfn" || return 1
 
     enrich_summary "$tmpfn" >"$summaryfn" || return 1
@@ -372,7 +372,7 @@ $1 ~ /PKGPATH=/ {
    next
 }
 
-$1 ~ /VARIANTS7=/ {
+$1 ~ /_VARIANTS=/ {
    variants = substr($0, 11)
    next
 }
@@ -429,20 +429,19 @@ else
 fi
 
 if test "$multi_var"; then
-    pkg_grep_summary VARIANTS7 'fvalue != ""' \
+    pkg_grep_summary _VARIANTS 'fvalue != ""' \
 	< $partial_summary_fn >$multi_pkgs_fn
 
     if test -s $multi_pkgs_fn; then
-	pkg_grep_summary -e VARIANTS7 \
+	pkg_grep_summary -e _VARIANTS \
 	    < $partial_summary_fn >$normal_pkgs_fn
-	grep -v VARIANTS7 $normal_pkgs_fn > $partial_summary_fn || true
+	cp $normal_pkgs_fn $partial_summary_fn
 
 	rm $normal_pkgs_fn
 
-	runpipe_re '0 0 [01] 0' \
+	runpipe0 \
 	    summary2all_variants < $multi_pkgs_fn '|' \
 	    pkg_src_summary $make_plist '|' \
-	    grep -v VARIANTS7 '|' \
 	    move_ASSIGNMENTS_to_PKGPATH >> "$partial_summary_fn"
     fi
 fi
@@ -475,8 +474,8 @@ while test -n "${with_dep}${with_bdep}"; do
     NF == 0 {
 	inher_assigns = ""
     }
-    /^INHER_ASSIGNS=/ {
-	inher_assigns = ":" substr($0, 15)
+    /^_INHER_ASSIGNS=/ {
+	inher_assigns = ":" substr($0, 16)
 	next
     }
     /^DEPENDS=/ && with_dep {
@@ -515,4 +514,4 @@ while test -n "${with_dep}${with_bdep}"; do
     fi
 done
 
-cat "$partial_summary_fn"
+grep -v '^_.*=' "$partial_summary_fn"
