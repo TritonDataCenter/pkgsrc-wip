@@ -18,8 +18,9 @@ fi
 PKGSRCDIR="`pwd`/../../../.."
 
 AWKPATH="$srcdir"
+PATH=$OBJDIR:$PATH
 
-export PKGSRCDIR BMAKE AWKPATH
+export PKGSRCDIR BMAKE AWKPATH PATH
 
 #
 print_args (){
@@ -107,6 +108,5 @@ pkg_grep_summary PKGPATH 'fvalue == "wip/pkg_summary-utils"' \
 # pkg_uniq_summary
 echo '--------------------------------------------------'
 echo '------- pkg_uniq_summary #9'
-pkg_uniq_summary src_summary.txt src_summary3.txt |
-sed -n 's/^PKGNAME=//p' | sort
+pkg_uniq_summary src_summary3.txt
 
