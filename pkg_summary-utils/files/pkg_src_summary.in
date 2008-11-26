@@ -113,10 +113,13 @@ process_options (){
 	    -p|--make-plist)
 		make_plist='-p';;
 	    -d|--with-deps)
+		add_fields DEPENDS
 		with_dep=1;;
 	    -D|--with-bdeps)
+	        add_fields BUILD_DEPENDS
 		with_bdep=1;;
 	    -A|--with-alldeps)
+		add_fields DEPENDS BUILD_DEPENDS
 		with_dep=1
 		with_bdep=1;;
 	    -m)
@@ -435,9 +438,7 @@ if test "$multi_var"; then
     if test -s $multi_pkgs_fn; then
 	pkg_grep_summary -e _VARIANTS \
 	    < $partial_summary_fn >$normal_pkgs_fn
-	cp $normal_pkgs_fn $partial_summary_fn
-
-	rm $normal_pkgs_fn
+	mv $normal_pkgs_fn $partial_summary_fn
 
 	runpipe0 \
 	    summary2all_variants < $multi_pkgs_fn '|' \
@@ -473,6 +474,7 @@ while test -n "${with_dep}${with_bdep}"; do
     }
     NF == 0 {
 	inher_assigns = ""
+	next
     }
     /^_INHER_ASSIGNS=/ {
 	inher_assigns = ":" substr($0, 16)
@@ -514,4 +516,4 @@ while test -n "${with_dep}${with_bdep}"; do
     fi
 done
 
-grep -v '^_.*=' "$partial_summary_fn"
+grep -v '^_.*=' "$partial_summary_fn" || true
