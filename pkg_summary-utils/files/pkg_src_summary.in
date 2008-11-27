@@ -76,6 +76,7 @@ if test -z "$PSS_PPERS"; then
 fi
 
 add_fields (){
+    rem_fields "$@"
     for f in "$@"; do
 	PSS_FIELDS="$PSS_FIELDS $f"
     done
@@ -148,11 +149,9 @@ if test "$multi_var"; then
 fi
 
 if test -n "$with_dep"; then
-    rem_fields DEPENDS
     add_fields DEPENDS
 fi
 if test -n "$with_bdep"; then
-    rem_fields BUILD_DEPENDS
     add_fields BUILD_DEPENDS
 fi
 
