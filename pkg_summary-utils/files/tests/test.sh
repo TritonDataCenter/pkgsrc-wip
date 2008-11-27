@@ -67,7 +67,7 @@ awk 'END {gsub(/[0-9]/, "X", NR); print NR}'
 normalize_version (){
   awk '{
    gsub(/(nb|alpha|beta|pre|rc|pl)[0-9]+/, "")
-   gsub(/[0-9]+/, "X")
+   gsub(/[0-9]+([.][0-9]+)*/, "X")
    gsub(/jpeg-X.*$/, "jpeg-X")
    print $0
   }' "$@"

@@ -143,85 +143,85 @@ PKGNAME=jpeg-6bnb4
 XXXX
 --------------------------------------------------
 ------- pkg_micro_src_summary #4
-PKGNAME=distbb-X.X.X
+PKGNAME=distbb-X
 PKGPATH=wip/distbb
 
-PKGNAME=pkg_online-X.X.X
+PKGNAME=pkg_online-X
 PKGPATH=wip/pkg_online
 
-PKGNAME=dict-server-X.X.X
+PKGNAME=dict-server-X
 PKGPATH=wip/dict-server
 
-PKGNAME=checkperms-X.X
+PKGNAME=checkperms-X
 PKGPATH=sysutils/checkperms
 
-PKGNAME=dict-client-X.X.X
+PKGNAME=dict-client-X
 PKGPATH=textproc/dict-client
 
-PKGNAME=libmaa-X.X.X
+PKGNAME=libmaa-X
 PKGPATH=wip/libmaa
 
-PKGNAME=gmake-X.X
+PKGNAME=gmake-X
 PKGPATH=devel/gmake
 
-PKGNAME=paexec-X.X.X
+PKGNAME=paexec-X
 PKGPATH=wip/paexec
 
-PKGNAME=libtool-base-X.X.X
+PKGNAME=libtool-base-X
 PKGPATH=devel/libtool-base
 
-PKGNAME=runawk-X.X.X
+PKGNAME=runawk-X
 PKGPATH=wip/runawk
 
-PKGNAME=emacs-X.X
+PKGNAME=emacs-X
 PKGPATH=editors/emacs
 
-PKGNAME=pkg_summary-utils-X.X.X
+PKGNAME=pkg_summary-utils-X
 PKGPATH=wip/pkg_summary-utils
 
-PKGNAME=libungif-X.X.X
+PKGNAME=libungif-X
 PKGPATH=graphics/libungif
 
-PKGNAME=tiff-X.X.X
+PKGNAME=tiff-X
 PKGPATH=graphics/tiff
 
-PKGNAME=xX-links-X.X
+PKGNAME=xX-links-X
 PKGPATH=pkgtools/xX-links
 
-PKGNAME=perl-X.X.X
+PKGNAME=perl-X
 PKGPATH=lang/perlX
 
-PKGNAME=libltdl-X.X.X
+PKGNAME=libltdl-X
 PKGPATH=devel/libltdl
 
-PKGNAME=dict-client-X.X.X
+PKGNAME=dict-client-X
 PKGPATH=wip/dict-client
 
-PKGNAME=pipestatus-X.X.X
+PKGNAME=pipestatus-X
 PKGPATH=wip/pipestatus
 
-PKGNAME=awk-pkgsrc-dewey-X.X.X
+PKGNAME=awk-pkgsrc-dewey-X
 PKGPATH=wip/awk-pkgsrc-dewey
 
-PKGNAME=png-X.X.X
+PKGNAME=png-X
 PKGPATH=graphics/png
 
-PKGNAME=netcat-X.X
+PKGNAME=netcat-X
 PKGPATH=net/netcat
 
-PKGNAME=pkg-config-X.X
+PKGNAME=pkg-config-X
 PKGPATH=devel/pkg-config
 
 PKGNAME=jpeg-X
 PKGPATH=graphics/jpeg
 
-PKGNAME=dictem-X.X.X
+PKGNAME=dictem-X
 PKGPATH=textproc/dictem
 
-PKGNAME=pkg_online-server-X.X.X
+PKGNAME=pkg_online-server-X
 PKGPATH=wip/pkg_online-server
 
-PKGNAME=pkg_online-client-X.X.X
+PKGNAME=pkg_online-client-X
 PKGPATH=wip/pkg_online-client
 
 --------------------------------------------------
@@ -256,82 +256,82 @@ tiff-3.8.2nb4
 x11-links-0.38
 --------------------------------------------------
 ------- pkg_src_summary #6
-PKGNAME=distbb-X.X.X
+PKGNAME=distbb-X
 PKGPATH=wip/distbb
 
-PKGNAME=dictem-X.X.X
+PKGNAME=dictem-X
 PKGPATH=textproc/dictem
 
-PKGNAME=pkg_online-X.X.X
+PKGNAME=pkg_online-X
 PKGPATH=wip/pkg_online
 
-PKGNAME=dict-server-X.X.X
+PKGNAME=dict-server-X
 PKGPATH=wip/dict-server
 
-PKGNAME=checkperms-X.X
+PKGNAME=checkperms-X
 PKGPATH=sysutils/checkperms
 
-PKGNAME=pkg_online-server-X.X.X
+PKGNAME=pkg_online-server-X
 PKGPATH=wip/pkg_online-server
 
-PKGNAME=dict-client-X.X.X
+PKGNAME=dict-client-X
 PKGPATH=textproc/dict-client
 
-PKGNAME=pkg_online-client-X.X.X
+PKGNAME=pkg_online-client-X
 PKGPATH=wip/pkg_online-client
 
-PKGNAME=libmaa-X.X.X
+PKGNAME=libmaa-X
 PKGPATH=wip/libmaa
 
-PKGNAME=gmake-X.X
+PKGNAME=gmake-X
 PKGPATH=devel/gmake
 
-PKGNAME=paexec-X.X.X
+PKGNAME=paexec-X
 PKGPATH=wip/paexec
 
-PKGNAME=libtool-base-X.X.X
+PKGNAME=libtool-base-X
 PKGPATH=devel/libtool-base
 
-PKGNAME=runawk-X.X.X
+PKGNAME=runawk-X
 PKGPATH=wip/runawk
 
-PKGNAME=emacs-X.X
+PKGNAME=emacs-X
 PKGPATH=editors/emacs
 
-PKGNAME=pkg_summary-utils-X.X.X
+PKGNAME=pkg_summary-utils-X
 PKGPATH=wip/pkg_summary-utils
 
-PKGNAME=libungif-X.X.X
+PKGNAME=libungif-X
 PKGPATH=graphics/libungif
 
-PKGNAME=tiff-X.X.X
+PKGNAME=tiff-X
 PKGPATH=graphics/tiff
 
-PKGNAME=xX-links-X.X
+PKGNAME=xX-links-X
 PKGPATH=pkgtools/xX-links
 
-PKGNAME=perl-X.X.X
+PKGNAME=perl-X
 PKGPATH=lang/perlX
 
-PKGNAME=libltdl-X.X.X
+PKGNAME=libltdl-X
 PKGPATH=devel/libltdl
 
-PKGNAME=dict-client-X.X.X
+PKGNAME=dict-client-X
 PKGPATH=wip/dict-client
 
-PKGNAME=pipestatus-X.X.X
+PKGNAME=pipestatus-X
 PKGPATH=wip/pipestatus
 
-PKGNAME=awk-pkgsrc-dewey-X.X.X
+PKGNAME=awk-pkgsrc-dewey-X
 PKGPATH=wip/awk-pkgsrc-dewey
 
-PKGNAME=png-X.X.X
+PKGNAME=png-X
 PKGPATH=graphics/png
 
-PKGNAME=netcat-X.X
+PKGNAME=netcat-X
 PKGPATH=net/netcat
 
-PKGNAME=pkg-config-X.X
+PKGNAME=pkg-config-X
 PKGPATH=devel/pkg-config
 
 PKGNAME=jpeg-X
