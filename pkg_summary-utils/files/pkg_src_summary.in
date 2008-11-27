@@ -148,9 +148,11 @@ if test "$multi_var"; then
 fi
 
 if test -n "$with_dep"; then
+    rem_fields DEPENDS
     add_fields DEPENDS
 fi
 if test -n "$with_bdep"; then
+    rem_fields BUILD_DEPENDS
     add_fields BUILD_DEPENDS
 fi
 
@@ -239,7 +241,7 @@ cd_and_print_summary (){
     # INHER_ASSIGNS must be before DEPENDS and BUILD_DEPENDS, see below
     ( cd "$real_pkgpath" && eval ${BMAKE} -f ./Makefile $extra_mk \
 	-f @@mkscriptsdir@@/pkg_src_summary.mk my-show-vars \
-	VARNAMES="'_INHER_ASSIGNS $varnames ASSIGNMENTS'" \
+	VARNAMES="'_INHER_ASSIGNS ASSIGNMENTS $varnames'" \
 	$var_assignments $var_assigns ) > "$tmpfn" || return 1
 
     enrich_summary "$tmpfn" >"$summaryfn" || return 1
@@ -512,7 +514,7 @@ while test -n "${with_dep}${with_bdep}"; do
     ' "$partial_summary_fn" > "$extra_deps_fn"
 
     if test -s "$extra_deps_fn"; then
-	$0 $make_plist \
+	env _PSS_RECURS=1 $0 $make_plist \
 	    < "$extra_deps_fn" >> "$partial_summary_fn"
 
 	pkg_uniq_summary "$partial_summary_fn" > "$partial_summary_fn".tmp
@@ -524,4 +526,58 @@ while test -n "${with_dep}${with_bdep}"; do
     fi
 done
 
-grep -v '^_.*=' "$partial_summary_fn" || true
+remove_intrernal_fields (){
+    grep -v '^_.*=' "$@" || true
+}
+
+enrich_XDEPENDS (){
+    awk '
+FILENAME == "-" {
+   if (/^PKGPATH=/){
+      pkgpath = substr($0, 9)
+   }else if (/^ASSIGNMENTS=/){
+      assigns = substr($0, 13)
+   }else if (NF == 0){
+      if (assigns != ""){
+         p2a [pkgpath, assigns] = 1
+      }
+      assigns = pkgpath = ""
+   }
+   next
+}
+assigns != "" && match($0, /^(BUILD_)?DEPENDS=/) {
+   field = substr($0, 1, RLENGTH)
+   $0 = substr($0, RLENGTH+1)
+   for (i=1; i <= NF; ++i){
+      idx = index($i, ":")
+      pkgpath = substr($i, idx+1)
+      sub(/^[.][.]\/[.][.]\//, "", pkgpath)
+      if ((pkgpath SUBSEP assigns ) in p2a){
+         $i = $i ":" assigns
+      }
+   }
+   print field $0
+   next
+}
+{
+   if (/^ASSIGNMENTS=/){
+      assigns = substr($0, 13)
+   }else if (/^PKGPATH=/){
+      pkgpath = substr($0, 9)
+   }
+}
+{
+   print $0
+}
+NF == 0 {
+   assigns = pkgpath = ""
+}
+' - "$1" < "$1"
+}
+
+if test -z "$_PSS_RECURS"; then
+    enrich_XDEPENDS "$partial_summary_fn" |
+    remove_intrernal_fields
+else
+    remove_intrernal_fields "$partial_summary_fn"
+fi
