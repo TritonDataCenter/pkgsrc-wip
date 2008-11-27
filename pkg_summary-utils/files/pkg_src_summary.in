@@ -507,15 +507,16 @@ while test -n "${with_dep}${with_bdep}"; do
     ' "$partial_summary_fn" > "$extra_deps_fn"
 
     if test -s "$extra_deps_fn"; then
-#	echo "inside! pkg_src_summary $make_plist < \"$extra_deps_fn\" >> \"$partial_summary_fn\"" 1>&2
 	$0 $make_plist \
 	    < "$extra_deps_fn" >> "$partial_summary_fn"
+
+	pkg_uniq_summary "$partial_summary_fn" > "$partial_summary_fn".tmp
+	mv "$partial_summary_fn".tmp "$partial_summary_fn"
+
 	cat "$extra_deps_fn" >> "$processed_pkgs_fn"
     else
 	break
     fi
 done
 
-runpipe_re '[01] 0' \
-    grep -v '^_.*=' "$partial_summary_fn" '|' \
-    pkg_uniq_summary
+grep -v '^_.*=' "$partial_summary_fn"
