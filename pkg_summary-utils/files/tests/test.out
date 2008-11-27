@@ -185,11 +185,11 @@ PKGPATH=graphics/libungif
 PKGNAME=tiff-X
 PKGPATH=graphics/tiff
 
-PKGNAME=xX-links-X
-PKGPATH=pkgtools/xX-links
+PKGNAME=x11-links-X
+PKGPATH=pkgtools/x11-links
 
 PKGNAME=perl-X
-PKGPATH=lang/perlX
+PKGPATH=lang/perl5
 
 PKGNAME=libltdl-X
 PKGPATH=devel/libltdl
@@ -307,11 +307,11 @@ PKGPATH=graphics/libungif
 PKGNAME=tiff-X
 PKGPATH=graphics/tiff
 
-PKGNAME=xX-links-X
-PKGPATH=pkgtools/xX-links
+PKGNAME=x11-links-X
+PKGPATH=pkgtools/x11-links
 
 PKGNAME=perl-X
-PKGPATH=lang/perlX
+PKGPATH=lang/perl5
 
 PKGNAME=libltdl-X
 PKGPATH=devel/libltdl
@@ -420,4 +420,17 @@ PKGPATH=www/ap2-python
 PKGNAME=ap22-py25-python-3.3.1
 PKGPATH=www/ap2-python
 ASSIGNMENTS=PYTHON_VERSION_REQD=25
+
+--------------------------------------------------
+------- pkg_src_summary #11
+PKGNAME=py25-cairo-X
+PKGPATH=graphics/py-cairo
+ASSIGNMENTS=PYTHON_VERSION_REQD=25
+
+PKGNAME=py25-Numeric-X
+PKGPATH=math/py-Numeric
+ASSIGNMENTS=PYTHON_VERSION_REQD=25
+
+PKGNAME=gmake-X
+PKGPATH=devel/gmake
 

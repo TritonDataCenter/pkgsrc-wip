@@ -113,10 +113,8 @@ process_options (){
 	    -p|--make-plist)
 		make_plist='-p';;
 	    -d|--with-deps)
-		add_fields DEPENDS
 		with_dep=1;;
 	    -D|--with-bdeps)
-	        add_fields BUILD_DEPENDS
 		with_bdep=1;;
 	    -A|--with-alldeps)
 		add_fields DEPENDS BUILD_DEPENDS
@@ -147,6 +145,13 @@ if test "$multi_var"; then
     # VARIANTS - artificial field keeping all variable assignments
     # for multi-variant packages.
     add_fields '_VARIANTS'
+fi
+
+if test -n "$with_dep"; then
+    add_fields DEPENDS
+fi
+if test -n "$with_bdep"; then
+    add_fields BUILD_DEPENDS
 fi
 
 if echo "$PSS_FIELDS" | grep DESCRIPTION > /dev/null; then

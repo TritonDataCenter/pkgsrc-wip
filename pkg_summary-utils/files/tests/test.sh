@@ -67,7 +67,7 @@ awk 'END {gsub(/[0-9]/, "X", NR); print NR}'
 normalize_version (){
   awk '{
    gsub(/(nb|alpha|beta|pre|rc|pl)[0-9]+/, "")
-   gsub(/[0-9]+([.][0-9]+)*/, "X")
+   gsub(/-[0-9]+([.][0-9]+)*/, "-X")
    gsub(/jpeg-X.*$/, "jpeg-X")
    print $0
   }' "$@"
@@ -131,3 +131,11 @@ echo '------- pkg_src_summary #10.4'
 pkg_src_summary -m -f PKGNAME,PKGPATH \
    www/ap2-python:PYTHON_VERSION_REQD=25,PKG_APACHE=apache22 |
 grep -v DEPENDS
+
+echo '--------------------------------------------------'
+echo '------- pkg_src_summary #11'
+pkg_src_summary -A -f PKGNAME,PKGPATH \
+   graphics/py-cairo:PYTHON_VERSION_REQD=25 |
+grep -v DEPENDS |
+pkg_grep_summary PKGPATH 'fvalue ~ /gmake|py-Numeric|py-cairo/' |
+normalize_version
