@@ -519,4 +519,4 @@ while test -n "${with_dep}${with_bdep}"; do
     fi
 done
 
-grep -v '^_.*=' "$partial_summary_fn"
+grep -v '^_.*=' "$partial_summary_fn" || true
