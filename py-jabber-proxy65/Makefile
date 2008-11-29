@@ -2,6 +2,7 @@
 
 DISTNAME=	Proxy65-1.1.1
 PKGNAME=	${PYPKGPREFIX}-jabber-${DISTNAME:S/P/p/}
+PKGREVISION=	1
 CATEGORIES=	chat python
 MASTER_SITES=	http://proxy65.googlecode.com/files/
 
@@ -15,8 +16,7 @@ COMMENT=	XEP-0065 proxy transport for XMPP
 # do that..)
 #
 # DEPENDS+=	jabberd-[0-9]*:../../chat/jabberd2
-DEPENDS+=	${PYPKGPREFIX}-twisted-core>=8.1.0:../../wip/py-twisted-core
-DEPENDS+=	${PYPKGPREFIX}-twisted-words>=8.1.0:../../wip/py-twisted-words
+DEPENDS+=	${PYPKGPREFIX}-twisted>=8.1.0:../../net/py-twisted
 DEPENDS+=	${PYPKGPREFIX}-OpenSSL>=0.6:../../security/py-OpenSSL
 
 # it's a python package using the standard Python packager
