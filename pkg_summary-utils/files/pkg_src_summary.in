@@ -463,15 +463,12 @@ awk -F= '$1 == "PKGPATH" {print $2}' \
     < "$partial_summary_fn" > "$processed_pkgs_fn"
 
 while test -n "${with_dep}${with_bdep}"; do
-    awk -v with_dep=$with_dep -v with_bdep=$with_bdep \
-	-v processed_pkgs_fn=$processed_pkgs_fn '
+    runawk -v with_dep=$with_dep -v with_bdep=$with_bdep \
+	   -v processed_pkgs_fn=$processed_pkgs_fn -e '
+#use "xgetline.awk"
     BEGIN {
-	while (0 < (ret = (getline < processed_pkgs_fn))){
+	while (xgetline0(processed_pkgs_fn)){
 	    processed_pkgs [$0] = 1
-	}
-	if (ret){
-	    print "reading error" > "/dev/stderr"
-	    exit (1)
 	}
     }
     /^PKGPATH=/ {
@@ -486,19 +483,11 @@ while test -n "${with_dep}${with_bdep}"; do
 	inher_assigns = ":" substr($0, 16)
 	next
     }
-    /^DEPENDS=/ && with_dep {
-	$0 = substr($0, 9)
+    (with_dep && /^DEPENDS=/) || (with_bdep && /^BUILD_DEPENDS=/)  {
+	sub(/^[^=]*=/, "")
 	gsub(/[^ ]*:[.][.]\/[.][.]\//, "")
 	for (i=1; i <= NF; ++i){
 	    sub(/\/+$/, "", $i)
-	    depends [$i inher_assigns] = 1
-	}
-	next
-    }
-    /^BUILD_DEPENDS=/ && with_bdep {
-	$0 = substr($0, 15)
-	gsub(/[^ ]*:[.][.]\/[.][.]\//, "")
-	for (i=1; i <= NF; ++i){
 	    depends [$i inher_assigns] = 1
 	}
 	next
