@@ -26,6 +26,8 @@ set -e
 
 . pipestatus
 
+export LC_ALL=C
+
 ############################################################
 # user settable variables
 if test -z "$PKGSRCDIR"; then
@@ -63,6 +65,7 @@ OPTIONS:
   -m|--multi          generate ASSIGNMENTS field
                       for multi-variant packages
   -M|--MULTI          implies -m and move/add ASSIGNMENTS to PKGPATH field
+  -G|--debug          for debugging
 EOF
 }
 
@@ -125,6 +128,8 @@ process_options (){
 	        multi_var=1;;
 	    -M)
 	        multi_var=2;;
+	    -G)
+	        debug=1;;
 	    --)
 		shift
 		break;;
@@ -530,6 +535,10 @@ while test -n "${with_dep}${with_bdep}"; do
     ' "$partial_summary_fn" > "$extra_deps_fn"
 
     if test -s "$extra_deps_fn"; then
+	if test -n "$debug"; then
+	    echo ===== extra_deps: ========= 1>&2
+	    sort "$extra_deps_fn" 1>&2
+	fi
 	runpipe0 \
 	    env _PSS_RECURS=1 $0 $make_plist < "$extra_deps_fn" '|' \
 	    tee -a "$partial_summary_fn" '|' \
