@@ -19,7 +19,6 @@ GCONF_SCHEMAS=		gdesklets-display-thumbnail.schemas
 
 CONFIGURE_ENV+=		PYTHON=${PYTHONBIN:Q}
 
-PYTHON_VERSIONS_INCOMPATIBLE+=	20 15
 PYTHON_PATCH_SCRIPTS=		gdesklets
 
 SUBST_CLASSES+=		python
