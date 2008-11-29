@@ -47,6 +47,5 @@ new tools?
 
     - pkg_get_deps
     - pkg_summary2binary
-    - pkg_uniq_summary
 
 ANY IDEAS? LET ME KNOW
