@@ -1,5 +1,6 @@
 @comment $NetBSD$
 ${WITH_ARLIB}lib/libar.a
+include/dkim.h
 lib/libdkim.a
 ${WITH_ARLIB}man/man3/ar.3
 man/man5/dkim-milter.conf.5

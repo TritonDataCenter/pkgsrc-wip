@@ -60,6 +60,7 @@ do-install: arlib-install stats-install
 	${INSTALL_PROGRAM} dkim-filter/dkim-testkey ${DESTDIR}${PREFIX}/bin; \
 	${INSTALL_PROGRAM} dkim-filter/dkim-testssp ${DESTDIR}${PREFIX}/bin; \
 	${INSTALL_PROGRAM} dkim-filter/dkim-filter ${DESTDIR}${PREFIX}/sbin/dkim-milter; \
+	${INSTALL_LIB} libdkim/dkim.h ${DESTDIR}${PREFIX}/include; \
 	${INSTALL_LIB} libdkim/libdkim.a ${DESTDIR}${PREFIX}/lib
 	${INSTALL_SCRIPT} ${WRKSRC}/dkim-filter/dkim-genkey.sh ${DESTDIR}${PREFIX}/bin/dkim-genkey
 	${INSTALL_MAN} ${WRKSRC}/dkim-filter/dkim-filter.conf.5 ${DESTDIR}${PREFIX}/${PKGMANDIR}/man5/dkim-milter.conf.5
