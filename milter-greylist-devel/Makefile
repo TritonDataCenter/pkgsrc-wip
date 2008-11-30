@@ -1,7 +1,7 @@
 # $NetBSD$
 
-DISTNAME=	milter-greylist-4.1.6
-PKGNAME=	milter-greylist-devel-4.1.6
+DISTNAME=	milter-greylist-4.1.7
+PKGNAME=	milter-greylist-devel-4.1.7
 CATEGORIES=	mail
 MASTER_SITES=	ftp://ftp.espci.fr/pub/milter-greylist/
 EXTRACT_SUFX=	.tgz
