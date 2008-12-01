@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	libdbi-0.8.2
+DISTNAME=	libdbi-0.8.3
 CATEGORIES=	databases devel
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=libdbi/}
 
