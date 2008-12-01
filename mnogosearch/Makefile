@@ -11,6 +11,7 @@ COMMENT=	Web search engine software for intranet and internet servers
 
 GNU_CONFIGURE=		YES
 USE_TOOLS+=		pax
+PKG_DESTDIR_SUPPORT=	user-destdir
 
 PKG_SYSCONFSUBDIR=	mnogosearch
 MNOGOSEARCH_DATADIR?=	/var/mnogosearch
@@ -45,13 +46,13 @@ DB_TYPE=		--with-pgsql=${PGSQL_PREFIX}
 
 CONFIGURE_ARGS+=	${DB_TYPE}
 
-post-install:
+INSTALLATION_DIRS+=	${DOCDIR}/create
 
-	${INSTALL_DATA_DIR} ${DOCDIR}/create
-	${INSTALL_DATA}	${WRKSRC}/INSTALL ${DOCDIR}
-	${INSTALL_DATA}	${WRKSRC}/README ${DOCDIR}
+post-install:
+	${INSTALL_DATA}	${WRKSRC}/INSTALL ${DESTDIR}${DOCDIR}
+	${INSTALL_DATA}	${WRKSRC}/README ${DESTDIR}${DOCDIR}
 	@${FIND} ${WRKSRC}/create -name CVS -type d | ${XARGS} ${RM} -rf
-	cd ${WRKSRC}/create && pax -rw . ${DOCDIR}/create
+	cd ${WRKSRC}/create && pax -rw . ${DESTDIR}${DOCDIR}/create
 
 .include "../../security/openssl/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
