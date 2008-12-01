@@ -1,0 +1,2 @@
+@comment $NetBSD$
+lib/dbd/libdbdsqlite3.la
