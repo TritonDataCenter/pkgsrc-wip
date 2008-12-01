@@ -27,4 +27,5 @@ man/man7/pkg_summary-utils.7
 share/doc/pkg_summary-utils/NEWS
 share/doc/pkg_summary-utils/README
 share/doc/pkg_summary-utils/TODO
+share/psu_mk/pkg_src_summary.mk
 share/runawk/pkg_grep_summary.awk
