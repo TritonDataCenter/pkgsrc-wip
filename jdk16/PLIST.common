@@ -1634,7 +1634,6 @@ java/jdk-1.6.0/jre/lib/fonts/LucidaTypewriterBold.ttf
 java/jdk-1.6.0/jre/lib/fonts/LucidaTypewriterRegular.ttf
 java/jdk-1.6.0/jre/lib/fonts/fonts.dir
 java/jdk-1.6.0/jre/lib/${MACHINE_ARCH}/client/Xusage.txt
-java/jdk-1.6.0/jre/lib/${MACHINE_ARCH}/client/classes.jsa
 java/jdk-1.6.0/jre/lib/${MACHINE_ARCH}/client/libjsig.so
 java/jdk-1.6.0/jre/lib/${MACHINE_ARCH}/client/libjvm.so
 java/jdk-1.6.0/jre/lib/${MACHINE_ARCH}/headless/libmawt.so
