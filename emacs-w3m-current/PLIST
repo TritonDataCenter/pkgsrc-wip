@@ -184,6 +184,8 @@ share/emacs/site-lisp/w3m/sb-redhat.el
 share/emacs/site-lisp/w3m/sb-redhat.elc
 share/emacs/site-lisp/w3m/sb-rediff.el
 share/emacs/site-lisp/w3m/sb-rediff.elc
+share/emacs/site-lisp/w3m/sb-rss-blogs.el
+share/emacs/site-lisp/w3m/sb-rss-blogs.elc
 share/emacs/site-lisp/w3m/sb-rss-hash.el
 share/emacs/site-lisp/w3m/sb-rss-hash.elc
 share/emacs/site-lisp/w3m/sb-rss.el
