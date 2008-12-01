@@ -1195,6 +1195,9 @@ share/maxima/${PKGVERSION}/share/vector/vect_transform.mac
 share/maxima/${PKGVERSION}/share/vector/vector.dem
 share/maxima/${PKGVERSION}/share/vector/vector.mac
 share/maxima/${PKGVERSION}/share/vector/vector.usg
+share/maxima/${PKGVERSION}/share/vector/vector_rebuild.lisp
+share/maxima/${PKGVERSION}/share/vector/vector_rebuild.mac
+share/maxima/${PKGVERSION}/share/vector/vector_rebuild.usg
 share/maxima/${PKGVERSION}/src/acall.lisp
 share/maxima/${PKGVERSION}/src/airy.lisp
 share/maxima/${PKGVERSION}/src/algfac.lisp
