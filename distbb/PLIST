@@ -11,6 +11,11 @@ libexec/distbb/stage_report
 libexec/distbb/stage_update_best
 libexec/distbb/stage_upload_logs
 libexec/distbb/stage_upload_pkgs
+libexec/distbb/upload_pkgs_all_files
+libexec/distbb/upload_pkgs_built_total
+libexec/distbb/upload_pkgs_no_bin_on_cdrom
+libexec/distbb/upload_pkgs_no_bin_on_ftp
+share/distbb/distbb.default.conf
 share/distbb/distbb.mk
 share/doc/distbb/NEWS
 share/doc/distbb/README
