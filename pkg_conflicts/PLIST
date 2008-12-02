@@ -1,3 +1,4 @@
 @comment $NetBSD$
 bin/pkg_all_conflicts
+bin/pkg_common_files
 bin/pkg_conflicts
