@@ -12,7 +12,7 @@ BUILDLINK_PACKAGES+=	xcb-proto
 BUILDLINK_ORDER:=	${BUILDLINK_ORDER} ${BUILDLINK_DEPTH}xcb-proto
 
 .if ${XCB_PROTO_BUILDLINK3_MK} == "+"
-BUILDLINK_API_DEPENDS.xcb-proto+=	xcb-proto>=1.1nb2
+BUILDLINK_API_DEPENDS.xcb-proto+=	xcb-proto>=1.2
 BUILDLINK_PKGSRCDIR.xcb-proto?=	../../wip/xcb-proto
 BUILDLINK_DEPMETHOD.xcb-proto?=	build
 .endif	# XCB_PROTO_BUILDLINK3_MK
