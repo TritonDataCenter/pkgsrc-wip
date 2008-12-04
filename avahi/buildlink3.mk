@@ -16,8 +16,7 @@ BUILDLINK_API_DEPENDS.avahi+=	avahi>=0.6.23
 BUILDLINK_PKGSRCDIR.avahi?=	../../wip/avahi
 .endif	# AVAHI_BUILDLINK3_MK
 
-#.include "../../textproc/expat/buildlink3.mk"
-#.include "../../wip/libdaemon/buildlink3.mk"
-#.include "../../devel/glib2/buildlink3.mk"
+.include "../../devel/glib2/buildlink3.mk"
+.include "../../x11/gtk2/buildlink3.mk"
 
 BUILDLINK_DEPTH:=	${BUILDLINK_DEPTH:S/+$//}
