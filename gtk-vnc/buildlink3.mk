@@ -13,7 +13,7 @@ BUILDLINK_ORDER:=	${BUILDLINK_ORDER} ${BUILDLINK_DEPTH}gtk-vnc
 
 .if ${GTK_VNC_BUILDLINK3_MK} == "+"
 BUILDLINK_API_DEPENDS.gtk-vnc+=	gtk-vnc>=0.3.7
-BUILDLINK_PKGSRCDIR.gtk-vnc?=	../../zzz/gtk-vnc
+BUILDLINK_PKGSRCDIR.gtk-vnc?=	../../wip/gtk-vnc
 .endif	# GTK_VNC_BUILDLINK3_MK
 
 .include "../../devel/glib2/buildlink3.mk"
