@@ -2,7 +2,6 @@
 bin/tagtool
 share/applications/tagtool.desktop
 share/icons/hicolor/48x48/apps/TagTool.png
-share/icons/hicolor/icon-theme.cache
 share/icons/hicolor/scalable/apps/TagTool.svg
 share/locale/bg/LC_MESSAGES/tagtool.mo
 share/locale/cs/LC_MESSAGES/tagtool.mo
@@ -37,3 +36,7 @@ share/tagtool/tab_tag.png
 share/tagtool/tagtool.glade
 share/tagtool/warn.png
 @dirrm share/tagtool
+@comment in hicolor-icon-theme: @dirrm share/icons/hicolor/scalable/apps
+@comment in hicolor-icon-theme: @dirrm share/icons/hicolor/48x48/apps
+@comment in hicolor-icon-theme: @dirrm share/icons/hicolor
+@comment in xdg-dirs: @dirrm share/applications
