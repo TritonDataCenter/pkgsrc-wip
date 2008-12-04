@@ -3,4 +3,7 @@
 @unexec ${RMDIR} %D/share/avahi/introspection 2>/dev/null || ${TRUE}
 @unexec ${RMDIR} %D/share/avahi/interfaces 2>/dev/null || ${TRUE}
 @unexec ${RMDIR} %D/share/avahi 2>/dev/null || ${TRUE}
+@unexec ${RMDIR} %D/lib/avahi 2>/dev/null || ${TRUE}
+@unexec ${RMDIR} %D/etc/avahi/services 2>/dev/null || ${TRUE}
+@unexec ${RMDIR} %D/etc/avahi 2>/dev/null || ${TRUE}
 @comment in xdg-dirs: @dirrm share/applications

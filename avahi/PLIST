@@ -55,16 +55,6 @@ share/locale/ru/LC_MESSAGES/avahi.mo
 share/locale/sr/LC_MESSAGES/avahi.mo
 share/locale/sr@latin/LC_MESSAGES/avahi.mo
 share/locale/zh_CN/LC_MESSAGES/avahi.mo
-@dirrm share/locale/en_NZ/LC_MESSAGES
-@dirrm share/locale/en_NZ
-@dirrm share/examples/avahi
 @dirrm share/doc/avahi
-@exec ${MKDIR} %D/share/avahi/introspection
-@dirrm share/avahi/introspection
-@dirrm share/avahi
-@exec ${MKDIR} %D/lib/avahi
-@dirrm lib/avahi
 @dirrm include/avahi-core
 @dirrm include/avahi-common
-@unexec ${RMDIR} %D/etc/avahi/services 2>/dev/null || ${TRUE}
-@unexec ${RMDIR} %D/etc/avahi 2>/dev/null || ${TRUE}

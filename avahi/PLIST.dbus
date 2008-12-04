@@ -51,6 +51,7 @@ share/avahi/introspection/ServiceBrowser.introspect
 share/avahi/introspection/ServiceResolver.introspect
 share/avahi/introspection/ServiceTypeBrowser.introspect
 share/examples/avahi/avahi-dbus.conf
+@dirrm share/avahi/introspection
 @dirrm include/avahi-client
 @dirrm include/avahi-compat-howl/salt
 @dirrm include/avahi-compat-howl/rendezvous

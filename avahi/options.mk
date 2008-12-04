@@ -4,7 +4,7 @@ PKG_OPTIONS_VAR=	PKG_OPTIONS.avahi
 
 PKG_SUPPORTED_OPTIONS=	dbus glib gdbm python gtk python-gtk python-dbus
 PKG_SUPPORTED_OPTIONS+=	avahi-howl expat
-PKG_SUGGESTED_OPTIONS=	expat
+PKG_SUGGESTED_OPTIONS=	expat gtk
 
 .include "../../mk/bsd.options.mk"
 
@@ -65,6 +65,7 @@ CONFIGURE_ARGS+=	--disable-expat
 ###
 .if !empty(PKG_OPTIONS:Mgtk)
 PKG_OPTIONS+=		glib
+.  include "../../devel/libglade/buildlink3.mk"
 .  include "../../x11/gtk2/buildlink3.mk"
 PLIST_SRC+=		${PKGDIR}/PLIST.gtk
 .if !empty(PKG_OPTIONS:Mdbus)
