@@ -22,6 +22,8 @@ CONFIGURE_ENV+=		XMLLLINT=${BUILDLINK_PREFIX.libxml}/bin/xmllint
 PYTHON_FOR_BUILD_ONLY=	yes
 PY_PATCHPLIST=		yes
 
+PYTHON_VERSIONS_INCOMPATIBLE=	21 23 24
+
 .include "../../lang/python/extension.mk"
 BUILDLINK_DEPMETHOD.libxml2?=	build
 .include "../../textproc/libxml2/buildlink3.mk"
