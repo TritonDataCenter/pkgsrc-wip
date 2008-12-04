@@ -394,6 +394,7 @@ share/maxima/${PKGVERSION}/share/contrib/diffequations/tests/rtestode_murphy_2_3
 share/maxima/${PKGVERSION}/share/contrib/diffequations/tests/rtestode_murphy_2_4.mac
 share/maxima/${PKGVERSION}/share/contrib/diffequations/tests/rtestode_murphy_2_5.mac
 share/maxima/${PKGVERSION}/share/contrib/diffequations/tests/rtestode_odelin.mac
+share/maxima/${PKGVERSION}/share/contrib/diffequations/tests/rtestode_utils.mac
 share/maxima/${PKGVERSION}/share/contrib/diffequations/tests/testsuite.lisp
 share/maxima/${PKGVERSION}/share/contrib/distrib/distrib.mac
 share/maxima/${PKGVERSION}/share/contrib/distrib/numdistrib.lisp
