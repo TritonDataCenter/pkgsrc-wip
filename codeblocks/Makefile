@@ -2,6 +2,7 @@
 #
 
 PKGVERSION=	8.02
+PKGREVISION=	1
 DISTNAME=	codeblocks-${PKGVERSION}-src
 PKGNAME=	codeblocks-${PKGVERSION}
 
@@ -12,6 +13,8 @@ EXTRACT_SUFX=	.tar.bz2
 MAINTAINER=	pkgsrc@blackmouse.biz
 HOMEPAGE=	http://www.codeblocks.org/
 COMMENT=	The open source, cross platform, free C++ IDE
+
+PKG_DESTDIR_SUPPORT=	user-destdir
 
 WRKSRC=		${WRKDIR}/codeblocks-8.02
 GNU_CONFIGURE=	yes
