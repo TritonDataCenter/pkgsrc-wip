@@ -26,7 +26,7 @@ include/opensc/pkcs15.h
 include/opensc/scconf.h
 include/opensc/types.h
 include/opensc/ui.h
-${PLIST.nsplugin}lib/firefox/plugins/opensc-signer.so
+${PLIST.nsplugin}lib/mozilla/plugins/opensc-signer.so
 lib/libopensc.la
 lib/libpkcs15init.la
 lib/libscconf.la

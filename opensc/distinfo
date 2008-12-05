@@ -3,4 +3,4 @@ $NetBSD$
 SHA1 (opensc-0.11.6.tar.gz) = 0aa3b6a57a730f8e06f138537220c30ee709037f
 RMD160 (opensc-0.11.6.tar.gz) = de838d827030f187ffa57028dbaf5013f6c82e68
 Size (opensc-0.11.6.tar.gz) = 1452763 bytes
-SHA1 (patch-aa) = 352f5fd3a929d520ad1c501c36a2de14ca748974
+SHA1 (patch-aa) = 50d7f7a8320541d1d7286e4fd482d63eeb166e86

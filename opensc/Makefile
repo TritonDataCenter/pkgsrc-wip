@@ -1,6 +1,7 @@
 # $NetBSD$
 
 DISTNAME=		opensc-0.11.6
+PKGREVISION=		1
 CATEGORIES=		security
 MASTER_SITES=		http://www.opensc-project.org/files/opensc/
 
@@ -14,7 +15,6 @@ GNU_CONFIGURE=		YES
 USE_LIBTOOL=		YES
 USE_OLD_DES_API=	YES
 USE_TOOLS+=		gmake pkg-config
-USE_BUILTIN.openssl=	NO
 
 .include "options.mk"
 

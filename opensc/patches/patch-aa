@@ -1,3 +1,5 @@
+$NetBSD$
+
 --- etc/Makefile.in.orig	2008-08-06 01:38:42 +0300
 +++ etc/Makefile.in	2008-08-06 01:39:11 +0300
 @@ -422,12 +422,8 @@ opensc.conf: opensc.conf.in force
