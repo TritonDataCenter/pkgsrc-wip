@@ -18,8 +18,6 @@ BUILDLINK_PKGSRCDIR.evas?=	../../wip/evas
 .endif	# EVAS_BUILDLINK3_MK
 
 .include "../../devel/eet/buildlink3.mk"
-.include "../../wip/libxcb/buildlink3.mk"
-.include "../../wip/xcb-proto/buildlink3.mk"
 .include "../../fonts/fontconfig/buildlink3.mk"
 .include "../../databases/edb/buildlink3.mk"
 .include "../../devel/SDL/buildlink3.mk"
