@@ -1,3 +1,5 @@
+$NetBSD$
+
 --- etc/Makefile.in.orig	2008-08-06 00:53:45 +0300
 +++ etc/Makefile.in	2008-08-06 00:54:01 +0300
 @@ -458,12 +458,7 @@ uninstall-am: uninstall-hotplugDATA unin

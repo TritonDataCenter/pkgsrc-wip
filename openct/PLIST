@@ -29,7 +29,6 @@ share/doc/openct/README
 share/examples/openct/openct.conf
 share/examples/openct/reader.conf
 share/examples/rc.d/openct
-@dirrm share/doc/openct/api
 @dirrm share/doc/openct
 @dirrm share/examples/openct
 @dirrm include/openct
