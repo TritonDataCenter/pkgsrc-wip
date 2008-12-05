@@ -1,5 +1,0 @@
-@comment $NetBSD$
-bin/xvidtune
-lib/X11/app-defaults/Xvidtune
-man/man1/xvidtune.1
-@comment @dirrm lib/X11/app-defaults
