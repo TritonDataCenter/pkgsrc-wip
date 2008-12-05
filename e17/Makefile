@@ -16,9 +16,12 @@ USE_LIBTOOL=	yes
 USE_TOOLS=	gmake pkg-config automake autoconf
 USE_DIRS+=	xdg-1.4
 
+PKG_SYSCONFSUBDIR=	enlightenment
+CONFIGURE_ARGS+=	--sysconfdir=${PKG_SYSCONFDIR:Q}
+
 EGDIR=		${PREFIX}/share/examples/enlightenment
 CONF_FILES=	${EGDIR}/sysactions.conf \
-		${PKG_SYSCONFDIR}/enlightenment/sysactions.conf
+		${PKG_SYSCONFDIR}/sysactions.conf
 
 CONFIGURE_ARGS+=	--enable-zoom --enable-fsstd
 CONFIGURE_ARGS+=	--with-imlib2
