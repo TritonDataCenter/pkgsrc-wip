@@ -13,7 +13,7 @@ COMMENT=		Simple audio decoding framework
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
-WRKSRC=			${WRKDIR}/${PKGNAME}
+WRKSRC=			${WRKDIR}/${PKGNAME_NOREV}
 
 GNU_CONFIGURE=		yes
 USE_TOOLS+=		gmake pkg-config
