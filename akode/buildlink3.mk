@@ -13,8 +13,7 @@ BUILDLINK_ORDER:=	${BUILDLINK_ORDER} ${BUILDLINK_DEPTH}akode
 
 .if !empty(AKODE_BUILDLINK3_MK:M+)
 BUILDLINK_API_DEPENDS.akode+=	akode>=2.0.2
-BUILDLINK_API_DEPENDS.akode+=	akode>=2.0.2
-BUILDLINK_PKGSRCDIR.akode?=	../../audio/akode
+BUILDLINK_PKGSRCDIR.akode?=	../../wip/akode
 .endif	# AKODE_BUILDLINK3_MK
 
 .include "../../audio/flac/buildlink3.mk"
