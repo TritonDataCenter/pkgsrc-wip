@@ -14,7 +14,7 @@ USE_DIRS+=		xdg-1.4
 USE_TOOLS+=		pkg-config msgfmt intltool
 GNU_CONFIGURE=		YES
 
-DEPENDS+=	cdrtools-ossdvd>=2.0:../../sysutils/cdrtools-ossdvd
+DEPENDS+=	cdrtools>=2.01.01.53:../../sysutils/cdrtools
 DEPENDS+=	libgnomeui>=2.8.1:../../devel/libgnomeui
 
 
