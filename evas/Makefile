@@ -34,7 +34,8 @@ CONFIGURE_ARGS+=	--disable-pthreads --disable-directfb \
 			--disable-valgrind --enable-glitz \
 			--enable-sdl --enable-image-loader-edb \
 			--enable-software-16-x11
-CONFIGURE_ENV+=		MODULE_ARCH="${LOWER_OPSYS}-${MACHINE_ARCH}"
+
+PLIST_SUBST=	MODULE_ARCH=${LOWER_OPSYS}${APPEND_ELF}${LOWER_OPSYS_VERSUFFIX}-${NATIVE_LOWER_ARCH}
 
 .include "../../devel/eet/buildlink3.mk"
 .include "../../fonts/fontconfig/buildlink3.mk"
