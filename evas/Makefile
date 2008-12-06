@@ -11,7 +11,7 @@ COMMENT=	Enlightened Canvas Library
 
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
-USE_TOOLS=	gmake pkg-config
+USE_TOOLS+=	gmake pkg-config
 
 PKGCONFIG_OVERRIDE+=	evas-software-16-x11.pc.in
 PKGCONFIG_OVERRIDE+=	evas-software-buffer.pc.in
