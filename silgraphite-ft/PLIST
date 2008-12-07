@@ -1,0 +1,4 @@
+@comment $NetBSD$
+include/graphite/FreetypeFont.h
+lib/libgraphite-ft.la
+lib/pkgconfig/silgraphite-ft.pc
