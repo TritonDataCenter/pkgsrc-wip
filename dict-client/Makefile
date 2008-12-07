@@ -3,7 +3,6 @@
 .include "../../wip/dict-server/Makefile.common"
 
 PKGNAME=	${DISTNAME:S/dictd/dict-client/}
-PKGREVISION=	2
 CATEGORIES=	textproc
 COMMENT=	Dictionary Service Protocol client
 
