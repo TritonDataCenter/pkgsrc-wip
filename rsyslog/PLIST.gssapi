@@ -1,0 +1,4 @@
+@comment $NetBSD$
+lib/rsyslog/imgssapi.la
+lib/rsyslog/lmgssutil.la
+lib/rsyslog/omgssapi.la

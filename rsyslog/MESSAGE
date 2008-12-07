@@ -6,6 +6,6 @@ lines in your /etc/rc.conf:
 
     syslogd=NO
     rsyslogd=YES
-    rsyslogd_flags="-s /etc/syslog.conf"
+    rsyslogd_flags="-f /etc/syslog.conf"
 
 ===========================================================================
