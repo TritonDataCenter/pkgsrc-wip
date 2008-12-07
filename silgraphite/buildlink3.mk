@@ -16,6 +16,4 @@ BUILDLINK_API_DEPENDS.silgraphite+=	silgraphite>=2.3
 BUILDLINK_PKGSRCDIR.silgraphite?=	../../wip/silgraphite
 .endif	# SILGRAPHITE_BUILDLINK3_MK
 
-.include "../../graphics/freetype2/buildlink3.mk"
-
 BUILDLINK_DEPTH:=		${BUILDLINK_DEPTH:S/+$//}
