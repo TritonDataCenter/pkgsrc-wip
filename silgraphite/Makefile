@@ -8,6 +8,8 @@ MAINTAINER=	minskim@NetBSD.org
 HOMEPAGE=	http://silgraphite.sourceforge.net/
 COMMENT=	Font engine for complex non-Roman writing systems
 
+PKG_DESTDIR_SUPPORT=	user-destdir
+
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_TOOLS+=	pkg-config
