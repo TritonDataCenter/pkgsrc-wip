@@ -1,7 +1,0 @@
-@comment $NetBSD$
-bin/barnyard
-share/doc/barnyard/FAQ
-share/doc/barnyard/USAGE
-share/examples/barnyard/barnyard.conf
-@dirrm share/doc/barnyard
-@dirrm share/examples/barnyard
