@@ -1,6 +1,7 @@
 # $NetBSD$
 
 DISTNAME=	emacs-w3m-1.4.50
+PKGNAME=	emacs-w3m-1.4.50
 PKGREVISION=	${_CVS_PKGVERSION:S/.//g}
 CATEGORIES=	www
 MASTER_SITES=	#
