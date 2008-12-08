@@ -13,7 +13,7 @@ COMMENT=		Verilog to C code compiler
 #PKG_DESTDIR_SUPPORT=	user-destdir
 
 GNU_CONFIGURE=		yes
-USE_TOOLS+=		gmake bison flex autoconf
+USE_TOOLS+=		gmake bison flex autoconf automake
 USE_LIBTOOL=		yes
 USE_PKGLOCALEDIR=	yes
 USE_LANGUAGES=		c c++ fortran
@@ -21,7 +21,7 @@ USE_LANGUAGES=		c c++ fortran
 #LDFLAGS+= ${COMPILER_RPATH_FLAG}${PREFIX}/lib
 
 pre-configure:
-	cd ${WRKSRC} && autoconf
+	cd ${WRKSRC} && autoreconf -f
 
 .include "../../mk/bsd.prefs.mk"
 .include "../../mk/bsd.pkg.mk"
