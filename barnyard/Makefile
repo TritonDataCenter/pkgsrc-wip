@@ -14,6 +14,8 @@ GNU_CONFIGURE=		YES
 
 PKG_SYSCONFSUBDIR=	snort
 
+LIBS.SunOS+=	-lresolv
+
 CONF_FILES=	${EGDIR}/barnyard.conf ${PKG_SYSCONFDIR}/barnyard.conf
 
 EGDIR=		${PREFIX}/share/examples/barnyard
