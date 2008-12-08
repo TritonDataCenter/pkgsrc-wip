@@ -152,8 +152,8 @@ share/emacs/site-lisp/w3m/sb-n24-de.el
 share/emacs/site-lisp/w3m/sb-n24-de.elc
 share/emacs/site-lisp/w3m/sb-namazu.el
 share/emacs/site-lisp/w3m/sb-namazu.elc
-share/emacs/site-lisp/w3m/sb-${LOWER_OPSYS}.el
-share/emacs/site-lisp/w3m/sb-${LOWER_OPSYS}.elc
+share/emacs/site-lisp/w3m/sb-netbsd.el
+share/emacs/site-lisp/w3m/sb-netbsd.elc
 share/emacs/site-lisp/w3m/sb-nikkansports.el
 share/emacs/site-lisp/w3m/sb-nikkansports.elc
 share/emacs/site-lisp/w3m/sb-nikkei.el
