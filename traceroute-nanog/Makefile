@@ -35,18 +35,14 @@ TRN_EXTRALIBS+=	-lresolv -lsocket -lnsl
 CPPFLAGS+=	-DBYTESWAP_IP_LEN
 .endif
 .endif
-.endif
-
-.if ${OPSYS} == "Linux"
+.elif ${OPSYS} == "Linux"
 TRN_EXTRALIBS+=	-lresolv
 CPPFLAGS+=	-DSTRING
-.endif
-
-.if ${OPSYS} == "Darwin"
+.elif ${OPSYS} == "FreeBSD"
+CPPFLAGS+=	-DSTRING
+.elif ${OPSYS} == "Darwin"
 CPPFLAGS+=	-DBIND_8_COMPAT -DRA_SERVICE=\"nicname\"
-.endif
-
-.if !empty(LOWER_OPSYS:Mirix5*)
+.elif !empty(LOWER_OPSYS:Mirix5*)
 CPPFLAGS+=	-Dsocklen_t=int
 .endif
 
