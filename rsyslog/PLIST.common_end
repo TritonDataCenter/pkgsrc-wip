@@ -1,3 +1,4 @@
 @comment $NetBSD$
+@dirrm share/doc/rsyslog
 @dirrm share/examples/rsyslog
 @dirrm lib/rsyslog
