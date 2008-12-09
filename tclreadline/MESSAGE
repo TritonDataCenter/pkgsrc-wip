@@ -1,0 +1,12 @@
+===========================================================================
+$NetBSD$
+
+tclreadline is now installed.
+
+A skel file for tclsh & wish is bundled:
+${EGDIR}/tclshrc
+
+Rename it to .tclshrc (and/or .wishrc) and copy it to your skel directory:
+/etc/skel (and/or your home directory ~)
+
+===========================================================================
