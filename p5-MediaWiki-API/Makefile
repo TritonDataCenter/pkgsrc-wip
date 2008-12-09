@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	MediaWiki-API-0.22
+DISTNAME=	MediaWiki-API-0.23
 PKGNAME=	p5-${DISTNAME}
 CATEGORIES=	www perl5
 MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=../../authors/id/E/EX/EXOBUZZ/}
