@@ -18,7 +18,7 @@ WRKSRC=		${WRKDIR}/${DISTNAME}/wrappers/freetype
 PKGCONFIG_OVERRIDE+=	silgraphite-ft.pc
 
 .include "../../graphics/freetype2/buildlink3.mk"
-.include "../../wip/silgraphite/buildlink3.mk"
+.include "../../graphics/silgraphite/buildlink3.mk"
 
 post-install:
 	${INSTALL_DATA} ${WRKSRC}/silgraphite-ft.pc ${PREFIX}/lib/pkgconfig

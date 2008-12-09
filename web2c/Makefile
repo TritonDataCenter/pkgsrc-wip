@@ -72,7 +72,7 @@ FILES_SUBST+=	KPSEWHICH=${BUILDLINK_PREFIX.kpathsea}/bin/kpsewhich \
 .include "../../fonts/fontconfig/buildlink3.mk"
 .include "../../graphics/freetype2/buildlink3.mk"
 .include "../../graphics/png/buildlink3.mk"
-.include "../../wip/silgraphite/buildlink3.mk"
+.include "../../graphics/silgraphite/buildlink3.mk"
 .include "../../wip/kpathsea/buildlink3.mk"
 
 post-install:
