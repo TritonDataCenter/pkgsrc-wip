@@ -49,7 +49,7 @@ post-install:
 .include "../../multimedia/libdvdcss/buildlink3.mk"  # not default by libdvdread
 .include "../../textproc/py-xml/buildlink3.mk"
 .include "../../time/py-mxDateTime/buildlink3.mk"
-.include "../../wip/py-BeautifulSoup/buildlink3.mk"
+.include "../../www/py-beautifulsoup/buildlink3.mk"
 .include "../../wip/py-kaa-imlib2/buildlink3.mk"
 .include "../../wip/py-kaa-metadata/buildlink3.mk"
 .include "../../wip/py-osd/buildlink3.mk"
