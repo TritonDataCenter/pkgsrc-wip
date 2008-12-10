@@ -29,5 +29,6 @@ do-install:
 	${INSTALL_DATA} lua-mode.el lua-mode.elc \
 		${DESTDIR}${EMACS_LISPPREFIX}/
 
-.include "../../editors/emacs/modules.mk"
+#.include "../../editors/emacs/modules.mk"
+.include "../../mk/emacs.mk"
 .include "../../mk/bsd.pkg.mk"
