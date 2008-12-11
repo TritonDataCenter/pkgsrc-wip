@@ -68,7 +68,6 @@ man/man1/mktexlsr.1
 man/man1/mktexmf.1
 man/man1/mktexpk.1
 man/man1/mktextfm.1
-share/examples/kpathsea/texmf.cnf
 share/texmf/web2c/mktex.opt
 share/texmf/web2c/mktexdir
 share/texmf/web2c/mktexdir.opt
@@ -80,7 +79,6 @@ share/texmf/web2c/texmf.cnf
 @exec ${MKDIR} %D/share/texmf-dist
 @dirrm share/texmf-dist
 @dirrm share/texmf
-@dirrm share/examples/kpathsea
 @exec ${MKDIR} %D/share/doc/texmf
 @dirrm share/doc/texmf
 @dirrm include/kpathsea
