@@ -11,6 +11,7 @@ HOMEPAGE=	http://www.tug.org/kpathsea/
 COMMENT=	Library to do path searching
 
 CONFLICTS+=	teTeX-bin-[0-9]*
+CONFLICTS+=	teTeX-texmf-[0-9]*
 
 EXTRACT_ELEMENTS=	${DISTNAME}/texk/kpathsea \
 			${DISTNAME}/texk/make \
