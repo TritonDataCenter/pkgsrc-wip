@@ -26,7 +26,7 @@ EXTRACT_ELEMENTS=	${DISTNAME}/texmf-dist/bibtex \
 NO_BUILD=		yes
 USE_TOOLS+=		pax
 
-TEXMFDIRS=	share/texmf share/texmf-dist
+TEXMFDIRS=	${TEXMFMAIN} ${TEXMFDIST}
 
 .include "../../wip/kpathsea/buildlink3.mk"
 

@@ -18,7 +18,7 @@ EXTRACT_ELEMENTS=	${DISTNAME}/texk
 GNU_CONFIGURE=	yes
 WRKSRC=		${WRKDIR}/${DISTNAME}/texk/tetex
 
-TEXMFDIRS=	share/texmf
+TEXMFDIRS=	${TEXMFMAIN}
 
 .include "../../wip/kpathsea/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
