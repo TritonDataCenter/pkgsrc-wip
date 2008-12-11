@@ -19,6 +19,8 @@ EXTRACT_ELEMENTS=	${DISTNAME}/texk/kpathsea \
 			${DISTNAME}/texk/install.sh \
 			${DISTNAME}/texk/mkinstalldirs
 
+PKG_DESTDIR_SUPPORT=	user-destdir
+
 GNU_CONFIGURE=	yes
 INFO_FILES=	yes
 USE_LIBTOOL=	yes
@@ -45,5 +47,9 @@ CONF_FILES=	${PREFIX}/share/texmf/web2c/texmf.cnf \
 
 OWN_DIRS+=		${TEXMFLOCAL} ${VARBASE}/lib/texmf
 INSTALLATION_DIRS+=	share/doc/texmf share/texmf-dist
+
+INSTALL_MAKE_FLAGS+=	prefix=${DESTDIR}${PREFIX} \
+			infodir=${DESTDIR}${PREFIX}/${PKGINFODIR} \
+			mandir=${DESTDIR}${PREFIX}/${PKGMANDIR}
 
 .include "../../mk/bsd.pkg.mk"
