@@ -12,7 +12,12 @@ COMMENT=	Library to do path searching
 
 CONFLICTS+=	teTeX-bin-[0-9]*
 
-EXTRACT_ELEMENTS=	${DISTNAME}/texk
+EXTRACT_ELEMENTS=	${DISTNAME}/texk/kpathsea \
+			${DISTNAME}/texk/make \
+			${DISTNAME}/texk/config.guess \
+			${DISTNAME}/texk/config.sub \
+			${DISTNAME}/texk/install.sh \
+			${DISTNAME}/texk/mkinstalldirs
 
 GNU_CONFIGURE=	yes
 INFO_FILES=	yes
