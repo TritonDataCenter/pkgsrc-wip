@@ -15,6 +15,8 @@ BUILDLINK_ORDER:=	${BUILDLINK_ORDER} ${BUILDLINK_DEPTH}kpathsea
 BUILDLINK_API_DEPENDS.kpathsea+=	kpathsea>=3.5.7
 BUILDLINK_PKGSRCDIR.kpathsea?=	../../wip/kpathsea
 
+BUILDLINK_FILES.kpathsea+=	bin/kpsewhich
+
 TEXMFMAIN=	${BUILDLINK_PREFIX.kpathsea}/share/texmf
 TEXMFDIST=	${BUILDLINK_PREFIX.kpathsea}/share/texmf-dist
 TEXMFDOC=	${BUILDLINK_PREFIX.kpathsea}/share/doc/texmf
