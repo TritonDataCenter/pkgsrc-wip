@@ -5,6 +5,7 @@
 
 case ${STAGE} in
 POST-DEINSTALL)
+	@FIND@ -d @TEXMFDIRS@ -type d -empty -exec @RMDIR@ {} \;
 	@MKTEXLSR@ @TEXMFDIRS@
         ;;
 *)
