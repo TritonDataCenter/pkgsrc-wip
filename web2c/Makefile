@@ -10,6 +10,7 @@ MAINTAINER=	minskim@NetBSD.org
 HOMEPAGE=	http://www.tug.org/kpathsea/
 COMMENT=	TeX implementation translating WEB to C
 
+DEPENDS+=	tex-plain-[0-9]*:../../wip/tex-plain
 DEPENDS+=	texlive-texmf-base-[0-9]*:../../wip/texlive-texmf-base
 
 EXTRACT_ELEMENTS=	${DISTNAME}/config \

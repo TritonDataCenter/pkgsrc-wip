@@ -11,6 +11,7 @@ HOMEPAGE=	http://www.tug.org/texlive/
 COMMENT=	Essential texmf files of TeX Live
 
 CONFLICTS+=	tetex-texmf-[0-9]*
+DEPENDS+=	tex-plain-[0-9]*:../../wip/tex-plain
 
 EXTRACT_ELEMENTS=	${DISTNAME}/texmf-dist/bibtex \
 			${DISTNAME}/texmf-dist/fonts \
@@ -34,6 +35,9 @@ post-extract:
 .for texmf in texmf texmf-dist
 	rm -f ${WRKSRC}/${texmf}/ls-R
 .endfor
+	rm -rf ${WRKSRC}/texmf-dist/makeindex/plain
+	rm -rf ${WRKSRC}/texmf-dist/tex/plain/base
+	rm -rf ${WRKSRC}/texmf-dist/tex/plain/config
 	rm -f ${WRKSRC}/texmf/web2c/fmtutil.cnf
 	rm -f ${WRKSRC}/texmf/web2c/mktex.opt
 	rm -f ${WRKSRC}/texmf/web2c/mktexdir
