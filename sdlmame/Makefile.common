@@ -3,7 +3,8 @@
 # used by wip/sdlmess/Makefile
 
 CATEGORIES=		emulators
-MASTER_SITES=		http://rbelmont.mameworld.info/
+MASTER_SITES=		http://rbelmont.mameworld.info/ \
+			http://dev.gentoo.org/~joker/sdlmame/distfiles/
 EXTRACT_SUFX=		.zip
 
 MAINTAINER=		dillo@NetBSD.org
