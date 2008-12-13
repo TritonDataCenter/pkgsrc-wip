@@ -16,7 +16,7 @@ BUILDLINK_API_DEPENDS.silgraphite-xft+=	silgraphite-xft>=2.3
 BUILDLINK_PKGSRCDIR.silgraphite-xft?=	../../wip/silgraphite-xft
 .endif	# SILGRAPHITE_XFT_BUILDLINK3_MK
 
-.include "../../wip/silgraphite-ft/buildlink3.mk"
+.include "../../graphics/silgraphite-ft/buildlink3.mk"
 .include "../../x11/libXft/buildlink3.mk"
 
 BUILDLINK_DEPTH:=		${BUILDLINK_DEPTH:S/+$//}

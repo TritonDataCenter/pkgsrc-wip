@@ -16,7 +16,7 @@ USE_LANGUAGES=	c c++
 WRKSRC=		${WRKDIR}/${DISTNAME}/wrappers/xft
 
 .include "../../graphics/silgraphite/buildlink3.mk"
-.include "../../wip/silgraphite-ft/buildlink3.mk"
+.include "../../graphics/silgraphite-ft/buildlink3.mk"
 .include "../../x11/libXft/buildlink3.mk"
 
 post-install:
