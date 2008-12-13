@@ -22,16 +22,15 @@ NO_CONFIGURE=	yes
 NO_BUILD=	yes
 WRKSRC=		${WRKDIR}
 
-TEXMFDIRS=	${TEXMFDIST}
 
-.include "../../wip/kpathsea/buildlink3.mk"
+.include "../../wip/kpathsea/texmf.mk"
 
 post-extract:
 	${FIND} ${WRKSRC}/texmf* -type d -exec ${CHMOD} ${PKGDIRMODE} {} \;
 	${FIND} ${WRKSRC}/texmf* -type f -exec ${CHMOD} ${SHAREMODE} {} \;
 
 do-install:
-	cd ${WRKSRC}/texmf-dist && \
-		pax -rwpm * ${DESTDIR}${TEXMFDIST}
+	cd ${WRKSRC} && \
+		pax -rwpm -s ',.*\.orig$$,,' texmf* ${DESTDIR}${PREFIX}/share
 
 .include "../../mk/bsd.pkg.mk"
