@@ -23,7 +23,7 @@ CFLAGS+=	-Wall
 DL_AUTO_VARS=		yes
 PTHREAD_AUTO_VARS=	yes
 
-PULSE_CONFDIR=		${PREFOX}/share/examples
+PULSE_CONFDIR=		${PREFIX}/share/examples
 
 CONFIGURE_ARGS+=	--localstatedir=${VARBASE}
 CONFIGURE_ARGS+=	--disable-hal
