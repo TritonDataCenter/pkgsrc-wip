@@ -3,7 +3,7 @@
 BUILDLINK_DEPTH:=	${BUILDLINK_DEPTH}+
 WXGTK_UNICODE_BUILDLINK3_MK:=	${WXGTK_UNICODE_BUILDLINK3_MK}+
 
-.include "../../mk/bsd.prefs.mk"
+.include "../../mk/bsd.fast.prefs.mk"
 
 .if !empty(BUILDLINK_DEPTH:M+)
 BUILDLINK_DEPENDS+=	wxGTK-unicode
@@ -21,6 +21,7 @@ BUILDLINK_PKGSRCDIR.wxGTK-unicode?=	../../wip/wxGTK-unicode
 
 .include "../../devel/zlib/buildlink3.mk"
 .include "../../graphics/MesaLib/buildlink3.mk"
+.include "../../graphics/glu/buildlink3.mk"
 .include "../../graphics/jpeg/buildlink3.mk"
 .include "../../graphics/png/buildlink3.mk"
 .include "../../graphics/tiff/buildlink3.mk"
