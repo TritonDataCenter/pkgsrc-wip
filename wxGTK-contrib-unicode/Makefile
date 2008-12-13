@@ -4,7 +4,7 @@
 .include "../../wip/wxGTK-unicode/Makefile.common"
 
 PKGNAME=		${DISTNAME:S/wxGTK/wxGTK-contrib-unicode/}
-PKGREVISION=		0
+PKGREVISION=		#
 MAINTAINER=		milos.negovanovic@googlemail.com
 COMMENT=		GTK-based unicode implementation of the wxWidgets GUI library (contrib libraries)
 
