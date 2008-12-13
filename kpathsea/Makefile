@@ -8,7 +8,7 @@ EXTRACT_SUFX=	.tar.lzma
 
 MAINTAINER=	minskim@NetBSD.org
 HOMEPAGE=	http://www.tug.org/kpathsea/
-COMMENT=	Library to do path searching
+COMMENT=	Path searching library for TeX-related files
 
 CONFLICTS+=	teTeX-bin-[0-9]*
 CONFLICTS+=	teTeX-texmf-[0-9]*
