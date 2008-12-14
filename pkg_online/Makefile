@@ -5,8 +5,8 @@
 
 CATEGORIES=	pkgtools meta-pkgs
 
-DEPENDS+=	pkg_online-client-[0-9]*:../../wip/pkg_online-client
-DEPENDS+=	pkg_online-server-[0-9]*:../../wip/pkg_online-server
+DEPENDS+=	pkg_online-client-${VERSION}:../../wip/pkg_online-client
+DEPENDS+=	pkg_online-server-${VERSION}:../../wip/pkg_online-server
 
 META_PACKAGE=	yes
 

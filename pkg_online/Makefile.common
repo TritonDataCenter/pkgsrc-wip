@@ -2,9 +2,12 @@
 #
 # used by wip/pkg_online-client/Makefile
 # used by wip/pkg_online-server/Makefile
+# used by wip/pkg_online/Makefile
 
-DISTNAME=	pkg_online-0.7.0
+DISTNAME=	pkg_online-${VERSION}
 MASTER_SITES=	http://mova.org/~cheusov/pub/pkg_online/
+
+VERSION=	0.7.0
 
 MAINTAINER=	cheusov@tut.by
 HOMEPAGE=	http://mova.org/~cheusov/pub/pkg_online/
