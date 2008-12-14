@@ -23,4 +23,4 @@ FILES_SUBST+=		MIXEDMAP_FILES=${TEX_MIXEDMAP_FILES:Q}
 INSTALL_TEMPLATES+=	../../wip/texlive-tetex/files/map-install.tmpl
 DEINSTALL_TEMPLATES+=	../../wip/texlive-tetex/files/map-deinstall.tmpl
 
-.endif	# TEX_TEXMF_MK
+.endif	# TEX_MAP_MK
