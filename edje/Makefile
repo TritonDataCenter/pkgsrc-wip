@@ -15,6 +15,9 @@ GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_TOOLS=	gmake pkg-config
 
+REPLACE_PYTHON+=	utils/inkscape2edc
+.include	"../../lang/python/application.mk"
+
 .include	"../../devel/eet/buildlink3.mk"
 .include	"../../wip/ecore/buildlink3.mk"
 .include	"../../wip/evas/buildlink3.mk"
