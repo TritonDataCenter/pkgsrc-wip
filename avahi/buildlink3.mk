@@ -23,6 +23,7 @@ pkgbase := avahi
 .  include "../../databases/gdbm/buildlink3.mk"
 .endif
 .include "../../devel/glib2/buildlink3.mk"
+.include "../../sysutils/dbus/buildlink3.mk"
 .include "../../x11/gtk2/buildlink3.mk"
 
 BUILDLINK_DEPTH:=	${BUILDLINK_DEPTH:S/+$//}
