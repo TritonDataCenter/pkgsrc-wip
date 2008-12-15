@@ -1,8 +1,8 @@
 # $NetBSD$
 #
 
-PKGNAME=		maxima-5.17.0
-DISTNAME=		maxima-5.17.0
+PKGNAME=		maxima-5.17.1
+DISTNAME=		maxima-5.17.1
 # On updates, please make sure editors/TeXmacs knows about the new
 # version number.
 # (if needed, patch plugins/maxima/bin/{maxima_detect,tm_maxima})
