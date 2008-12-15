@@ -94,7 +94,7 @@ pre-configure:
 # One of the regression tests does not work correctly if we are in
 # a union-mounted directory. In that case, build with something like
 # "env WRKOBJDIR=/var/tmp make".
-post-build:     build-doc  # regression
+post-build:     build-doc regression
 
 .PHONY: regression
 regression:
