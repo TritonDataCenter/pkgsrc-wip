@@ -2,6 +2,7 @@
 
 DISTNAME=		inn-1.7.2.insync-1.1d
 PKGNAME=		nnrpd-1.7.2
+PKGREVISION=		1
 CATEGORIES=		news
 MASTER_SITES=		ftp://ftp.isc.org/isc/inn/OLD/1.7/ \
 			ftp://ftp.sunet.se/pub/news/nntp/inn/OLD/1.7/ \
