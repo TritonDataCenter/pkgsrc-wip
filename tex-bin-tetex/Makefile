@@ -1,5 +1,5 @@
 # $NetBSD$
-# TeX Live Revision 11386
+# TeX Live Revision 11589
 
 DISTNAME=	bin-tetex
 PKGNAME=	tex-bin-tetex-3.0
@@ -10,7 +10,7 @@ EXTRACT_SUFX=	.tar.lzma
 
 MAINTAINER=	minskim@NetBSD.org
 HOMEPAGE=	http://www.tug.org/texlive/
-COMMENT=	The TeX distribution for Unix/Linux
+COMMENT=	scripts and files originally written for or included in teTeX
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
