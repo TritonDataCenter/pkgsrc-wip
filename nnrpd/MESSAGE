@@ -1,8 +1,8 @@
 ===========================================================================
 $NetBSD$
 
-Please add nnrpd to /etc/inetd.conf like
+To use nnrpd, add the following line to /etc/inetd.conf:
 
-nntp  stream  tcp     nowait  news:news /usr/pkg/sbin/nnrpd   nnrpd
+nntp  stream  tcp     nowait  ${NEWSUID}:${NEWSGID} ${PREFIX}/sbin/nnrpd   nnrpd
 
 ===========================================================================
