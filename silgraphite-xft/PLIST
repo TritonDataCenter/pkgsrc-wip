@@ -1,4 +1,0 @@
-@comment $NetBSD$
-include/graphite/XftGrFont.h
-lib/libgraphite-xft.la
-lib/pkgconfig/silgraphite-xft.pc
