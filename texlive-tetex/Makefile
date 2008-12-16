@@ -33,7 +33,7 @@ MAKE_DIRS+=	${PKG_SYSCONFDIR}/web2c
 CONF_FILES=	${PREFIX}/share/texmf/web2c/fmtutil.cnf \
 		${PKG_SYSCONFDIR}/web2c/fmtutil.cnf
 
-TEX_TEXMF_DIRS=	${PREFIX}/share/texmf
+TEX_TEXMF_DIRS=	${PREFIX}/share/texmf ${PKG_SYSCONFDIR}
 
 .include "../../wip/kpathsea/buildlink3.mk"
 .include "../../wip/kpathsea/texmf.mk"

@@ -1,0 +1,16 @@
+# $NetBSD$
+#
+# Create format files.
+#
+
+case ${STAGE} in
+POST-INSTALL)
+	format_names="@FORMAT_NAMES@"
+	for f in $format_names ; do
+		@FMTUTIL_SYS@ --cnffile \
+			@PREFIX@/share/texmf/fmtutil/format.$f.cnf --all
+	done
+        ;;
+*)
+	;;
+esac
