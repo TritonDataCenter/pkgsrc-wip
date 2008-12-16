@@ -1,0 +1,12 @@
+$NetBSD$
+
+--- play.c.orig	1995-04-10 21:11:28.000000000 +0300
++++ play.c
+@@ -3,6 +3,7 @@
+ #include <string.h>
+ #include <stdlib.h>
+ #include <ctype.h>
++#include <unistd.h>
+ 
+ #include "externs.h"
+ #include "globals.h"
