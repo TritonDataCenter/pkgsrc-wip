@@ -183,3 +183,9 @@ share/xsokoban/screens/screen.88
 share/xsokoban/screens/screen.89
 share/xsokoban/screens/screen.9
 share/xsokoban/screens/screen.90
+@dirrm share/xsokoban/bitmaps/20
+@dirrm share/xsokoban/bitmaps/36
+@dirrm share/xsokoban/bitmaps/defaults
+@dirrm share/xsokoban/bitmaps
+@dirrm share/xsokoban/screens
+@dirrm share/xsokoban
