@@ -20,8 +20,6 @@ CHANGABLEPATH=		${VARBASE}/xsokoban
 SAVEPATH=		${CHANGABLEPATH}/saves
 SCOREPATH=		${CHANGABLEPATH}/scores
 
-CONFIGURE_ARGS+=	--x-includes=${BUILDLINK_PREFIX.libX11:Q}/include/X11
-CONFIGURE_ARGS+=	--x-libraries=${BUILDLINK_PREFIX.libX11:Q}/lib
 CONFIGURE_ARGS+=	--datadir=${PREFIX}/share/xsokoban
 
 SPECIAL_PERMS=		bin/xsokoban ${SETGID_GAMES_PERMS}
