@@ -2,7 +2,6 @@
 
 PKG_OPTIONS_VAR=	PKG_OPTIONS.scummvm-nightly
 PKG_SUPPORTED_OPTIONS=	scummvm-nightly-cruise
-PKG_SUPPORTED_OPTIONS+=	scummvm-nightly-groovie
 PKG_SUPPORTED_OPTIONS+=	scummvm-nightly-igor
 PKG_SUPPORTED_OPTIONS+=	scummvm-nightly-m4
 PKG_SUPPORTED_OPTIONS+=	scummvm-nightly-made
@@ -13,9 +12,6 @@ PKG_SUGGESTED_OPTIONS=	${PKG_SUPPORTED_OPTIONS}
 
 .if !empty(PKG_OPTIONS:Mscummvm-nightly-cruise)
 CONFIGURE_ARGS+=--enable-cruise
-.endif
-.if !empty(PKG_OPTIONS:Mscummvm-nightly-groovie)
-CONFIGURE_ARGS+=--enable-groovie
 .endif
 .if !empty(PKG_OPTIONS:Mscummvm-nightly-igor)
 CONFIGURE_ARGS+=--enable-igor
