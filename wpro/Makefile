@@ -11,7 +11,10 @@ COMMENT=	Wget with "PRO" features
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 GNU_CONFIGURE=		yes
+USE_PKGLOCALEDIR=	yes
 
 INSTALLATION_DIRS=	bin ${PKGMANDIR}/man1
 
+.include "../../devel/gettext-lib/buildlink3.mk"
+.include "../../security/openssl/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
