@@ -10,11 +10,13 @@ MAINTAINER=	pancake@phreaker.net
 HOMEPAGE=	http://www.rocklinux.net/people/ripclaw/projects/software/virus/
 COMMENT=	VI resembling utility skeleton
 
+PKG_DESTDIR_SUPPORT=	user-destdir
+INSTALLATION_DIRS=	bin
 
 do-build:
 	cd ${WRKSRC} && ${SH} mkvirus
 
 do-install:
-	${INSTALL_PROGRAM} ${WRKSRC}/virus ${PREFIX}/bin/virus
+	${INSTALL_PROGRAM} ${WRKSRC}/virus ${DESTDIR}${PREFIX}/bin/virus
 
 .include "../../mk/bsd.pkg.mk"
