@@ -1,7 +1,7 @@
 # $NetBSD$
 
 DISTNAME=	vale-0.0.2
-CATEGORIES=	comms
+CATEGORIES=	devel
 MASTER_SITES=	http://www.soft-switch.org/downloads/vale/
 EXTRACT_SUFX=	.tgz
 
