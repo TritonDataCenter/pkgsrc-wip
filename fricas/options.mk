@@ -41,7 +41,7 @@ PRINT_PLIST_AWK+=	{if ($$0 ~ /\.lib$$/) {$$0 = "$${clisp}" $$0;}}
 
 # X11-only files:
 .if !empty(PKG_OPTIONS:Mx11)
-PRINT_PLIST_AWK+=	{if ($$0 ~ /\.(bitmap|xbm|xbm.tiny|bm|bakmap|xpm|ht|pht|ps)$$/) {$$0 = "$${x11}" $$0;}}
+PRINT_PLIST_AWK+=	{if ($$0 ~ /\/share\/viewports\// || $$0 ~ /\.(bitmap|xbm|xbm.tiny|bm|bakmap|xpm|ht|pht|ps)$$/) {$$0 = "$${x11}" $$0;}}
 .endif
 
 # X11
