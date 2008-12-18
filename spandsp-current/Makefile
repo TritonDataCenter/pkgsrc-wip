@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	spandsp-0.0.6pre2
+DISTNAME=	spandsp-0.0.6pre3
 CATEGORIES=	devel
 MASTER_SITES=	http://www.soft-switch.org/downloads/spandsp/
 EXTRACT_SUFX=	.tgz
