@@ -1,9 +1,9 @@
 # $NetBSD$
 
-DISTNAME=	callweaver-RC-1.1.99.20081210
-CATEGORIES=	comms
-MASTER_SITES=	http://devs.callweaver.org/1.2_snapshots/
-EXTRACT_SUFX=	.tar.gz
+DISTNAME=       callweaver-RC-1.1.99.20081217
+CATEGORIES=     comms
+MASTER_SITES=   http://devs.callweaver.org/1.2_snapshots/
+EXTRACT_SUFX=   .tar.gz
 
 MAINTAINER=	x400@msfu.ru
 HOMEPAGE=	http://www.callweaver.org/
