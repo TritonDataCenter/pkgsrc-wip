@@ -1,0 +1,13 @@
+$NetBSD$
+
+--- configure.orig	2007-09-28 16:10:44.000000000 +0400
++++ configure
+@@ -25589,7 +25589,7 @@
+ done
+ 
+ 
+-if test "${build}" == "${host}"
++if test "${build}" = "${host}"
+ then
+     case "${host}" in
+     x86_64-*)
