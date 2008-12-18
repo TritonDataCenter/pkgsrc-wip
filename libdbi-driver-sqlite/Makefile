@@ -1,20 +1,13 @@
 # $NetBSD$
 #
 
-DISTNAME=	libdbi-drivers-0.8.3-1
-PKGNAME=	${DISTNAME:S/libdbi-drivers/libdbi-driver-sqlite/:S/-1/.1/:S/-2/.2/}
-CATEGORIES=	databases devel
-MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=libdbi-drivers/}
+.include "../../wip/libdbi/Makefile_drivers"
 
-MAINTAINER=	cheusov@tut.by
-HOMEPAGE=	http://libdbi-drivers.sourceforge.net/
+PKGNAME=	${DISTNAME:S/libdbi-drivers/libdbi-driver-sqlite/:S/-1/.1/:S/-2/.2/}
+
 COMMENT=	SQLite driver for libdbi, a database abstraction
 
-PKG_DESTDIR_SUPPORT=	user-destdir
 CONFLICTS=		libdbi-sqlite-[0-9]*
-
-USE_LIBTOOL=		yes
-GNU_CONFIGURE=		yes
 
 INSTALLATION_DIRS+=	lib/dbd
 
