@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	libdbi-drivers-0.8.3-1
-PKGNAME=	${DISTNAME:S/libdbi-drivers/libdbi-mysql/:S/-1/.1/:S/-2/.2/}
+PKGNAME=	${DISTNAME:S/libdbi-drivers/libdbi-driver-mysql/:S/-1/.1/:S/-2/.2/}
 CATEGORIES=	databases devel
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=libdbi-drivers/}
 
@@ -11,6 +11,7 @@ HOMEPAGE=	http://libdbi-drivers.sourceforge.net/
 COMMENT=	MySQL driver for libdbi, a database abstraction
 
 PKG_DESTDIR_SUPPORT=	user-destdir
+CONFLICTS=		libdbi-mysql-[0-9]*
 
 USE_LIBTOOL=		yes
 GNU_CONFIGURE=		yes
