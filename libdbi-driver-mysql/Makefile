@@ -3,9 +3,9 @@
 
 .include "../../wip/libdbi/Makefile_drivers"
 
-PKGNAME=	${DISTNAME:S/libdbi-drivers/libdbi-driver-mysql/:S/-1/.1/:S/-2/.2/}
+DRIVER=			mysql
 
-COMMENT=	MySQL driver for libdbi, a database abstraction
+COMMENT=		MySQL driver for libdbi, a database abstraction
 
 CONFLICTS=		libdbi-mysql-[0-9]*
 

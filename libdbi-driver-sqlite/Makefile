@@ -3,9 +3,9 @@
 
 .include "../../wip/libdbi/Makefile_drivers"
 
-PKGNAME=	${DISTNAME:S/libdbi-drivers/libdbi-driver-sqlite/:S/-1/.1/:S/-2/.2/}
+DRIVER=			sqlite
 
-COMMENT=	SQLite driver for libdbi, a database abstraction
+COMMENT=		SQLite driver for libdbi, a database abstraction
 
 CONFLICTS=		libdbi-sqlite-[0-9]*
 

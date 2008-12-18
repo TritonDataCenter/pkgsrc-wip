@@ -3,9 +3,9 @@
 
 .include "../../wip/libdbi/Makefile_drivers"
 
-PKGNAME=	${DISTNAME:S/libdbi-drivers/libdbi-driver-pgsql/:S/-1/.1/:S/-2/.2/}
+DRIVER=			pgsql
 
-COMMENT=	PostgreSQL driver for libdbi, a database abstraction
+COMMENT=		PostgreSQL driver for libdbi, a database abstraction
 
 CONFLICTS=		libdbi-pgsql-[0-9]*
 
