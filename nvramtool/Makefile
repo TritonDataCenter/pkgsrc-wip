@@ -42,7 +42,7 @@ SUBST_MESSAGE.iopl=	fixing iopl
 SUBST_STAGE.iopl=	pre-configure
 SUBST_SED.iopl+= -e 's,i386_iopl,${MACHINE_ARCH}_iopl,g'
 
-MAKE_ENV+=	LDLIBS=-l${MACHINE_ARCH}
+MAKE_FLAGS+=	LDFLAGS=-l${MACHINE_ARCH}
 
 .endif
 
