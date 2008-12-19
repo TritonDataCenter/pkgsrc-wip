@@ -18,9 +18,9 @@ DEPENDS+=		sbcl-[0-9]*:../../lang/sbcl
 CONFIGURE_ARGS+=	--enable-sbcl
 .endif
 .if !empty(PKG_OPTIONS:Mecl)
-DEPENDS+=		ecl-[0-9]*:../../wip/ecl
+DEPENDS+=		ecl-[0-9]*:../../lang/ecl
 CONFIGURE_ARGS+=	--enable-ecl
-.include "../../wip/ecl/buildlink3.mk"
+.include "../../lang/ecl/buildlink3.mk"
 .endif
 
 # Modify PLIST
