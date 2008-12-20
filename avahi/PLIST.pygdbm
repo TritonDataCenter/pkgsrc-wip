@@ -1,3 +1,0 @@
-@comment $NetBSD$
-lib/avahi/service-types.db
-${PYSITELIB}/avahi/ServiceTypeDatabase.py
