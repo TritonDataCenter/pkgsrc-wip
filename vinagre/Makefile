@@ -26,11 +26,11 @@ BUILDLINK_API_DEPENDS.glib2+=	glib2>=2.17.0
 BUILDLINK_API_DEPENDS.libglade+=	libglade>=2.6.0
 .include "../../devel/libglade/buildlink3.mk"
 .include "../../graphics/hicolor-icon-theme/buildlink3.mk"
+.include "../../net/avahi/buildlink3.mk"
 .include "../../wip/gtk-vnc/buildlink3.mk"
 .include "../../security/gnome-keyring/buildlink3.mk"
 .include "../../textproc/gnome-doc-utils/buildlink3.mk"
 .include "../../textproc/scrollkeeper/omf.mk"
-.include "../../wip/avahi/buildlink3.mk"
 BUILDLINK_API_DEPENDS.gtk2+=	gtk2+>=2.13.1
 .include "../../x11/gtk2/buildlink3.mk"
 .include "../../x11/gnome-panel/buildlink3.mk"
