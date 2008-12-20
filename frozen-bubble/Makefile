@@ -31,6 +31,6 @@ INSTALLATION_DIRS=	${PKGMANDIR}/man6
 PERL5_PACKLIST=	auto/fb_c_stuff/.packlist
 
 .include "../../audio/SDL_mixer/buildlink3.mk"
-.include "../../devel/SDL_Pango/buildlink3.mk"
+.include "../../wip/SDL_Pango/buildlink3.mk"
 .include "../../lang/perl5/module.mk"
 .include "../../mk/bsd.pkg.mk"
