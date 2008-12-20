@@ -18,8 +18,7 @@ DEPENDS+=		tk-[0-9]*:../../x11/tk
 PKG_DESTDIR_SUPPORT=	user-destdir
 
 GNU_CONFIGURE=		yes
-USE_TOOLS+=		makeinfo
-USE_TOOLS+=		perl
+USE_TOOLS+=		makeinfo perl
 REPLACE_SH=		doc/misc/grepforvariables.sh
 
 INFO_FILES=		yes
