@@ -6,7 +6,7 @@ $NetBSD$
   * SUCH DAMAGE.
   */
  
-+#if defined(__linux__)
++#if HAVE_ALLOCA_H
  #include <alloca.h>
 +#endif
 +
