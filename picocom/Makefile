@@ -1,7 +1,7 @@
 # $NetBSD$
 
 DISTNAME=	picocom-1.4
-PKGREVISION=	1
+PKGREVISION=	2
 CATEGORIES=	comms
 
 MAINTAINER=	inittab@unixdev.net
@@ -14,5 +14,9 @@ USE_TOOLS+=             gmake
 BUILD_TARGET=		picocom
 
 INSTALLATION_DIRS=      bin ${PKGMANDIR}/man8
+
+do-install:
+        ${INSTALL_PROGRAM} ${WRKSRC}/picocom ${DESTDIR}${PREFIX}/bin
+        ${INSTALL_MAN} ${WRKSRC}/picocom.8 ${DESTDIR}${PREFIX}/${PKGMANDIR}/man8
 
 .include "../../mk/bsd.pkg.mk"
