@@ -1,7 +1,7 @@
 # $NetBSD$
 
 DISTNAME=	xrootconsole-0.6
-PKGREVISION=	1
+PKGREVISION=	2
 CATEGORIES=	x11
 
 MAINTAINER=	inittab@unixdev.net
