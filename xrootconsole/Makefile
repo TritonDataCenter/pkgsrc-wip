@@ -12,8 +12,7 @@ COMMENT=        Windowless XConsole
 
 USE_TOOLS+=             gmake
 
-LIBS.SunOS+=            -lX11
 INSTALLATION_DIRS=      bin ${PKGMANDIR}/man1
 
-.include "../../mk/x11.buildlink3.mk"
+.include "../../x11/libX11/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
