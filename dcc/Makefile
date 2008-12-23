@@ -45,6 +45,7 @@ SUBST_SED.dae=		-Ee 's!^(DCC(D|IFD|M)_ENABLE=)off$$!\1on!'
 SUBST_MESSAGE.dae=	Enabling all daemons in dcc_conf
 
 HAS_CONFIGURE=		yes
+MAKE_JOBS_SAFE=		no
 
 CONFIGURE_ENV+=		PERL=${PERL5} \
 			DCC_XARGS=${XARGS}
