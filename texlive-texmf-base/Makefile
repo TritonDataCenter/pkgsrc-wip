@@ -21,7 +21,6 @@ EXTRACT_ELEMENTS=	${DISTNAME}/texmf-dist/bibtex \
 			${DISTNAME}/texmf-dist/omega \
 			${DISTNAME}/texmf-dist/metapost \
 			${DISTNAME}/texmf-dist/tex \
-			${DISTNAME}/texmf/fmtutil \
 			${DISTNAME}/texmf/fonts \
 			${DISTNAME}/texmf/tex \
 			${DISTNAME}/texmf/web2c
