@@ -1,9 +1,9 @@
 ===========================================================================
 $NetBSD$
 
-gallery is now installed in the ${G1DIR} directory
+Gallery is now installed in the ${G1DIR} directory
 
-To get the final installation & setup instructions, go to the gallery
+To get the final installation & setup instructions, go to the Gallery
 documentation homepage:
 
 	http://codex.gallery2.org/Gallery1:Configuration_Wizard

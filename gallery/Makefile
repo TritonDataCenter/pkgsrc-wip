@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	gallery-1.5.9
+DISTNAME=	gallery-1.5.10
 CATEGORIES=	www graphics
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=gallery/}
 
