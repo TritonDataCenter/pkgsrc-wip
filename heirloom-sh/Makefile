@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		heirloom-sh-050706
-PKGREVISION=		1
+PKGREVISION=		2
 CATEGORIES=		sysutils
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=heirloom/}
 EXTRACT_SUFX=		.tar.bz2
@@ -16,6 +16,8 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 .include "../../mk/bsd.prefs.mk"
 
 CPPFLAGS.Linux+=	-D_GNU_SOURCE -D_FILE_OFFSET_BITS=64L
+
+PKG_SHELL=		${PREFIX}/heirloom/bin/jsh
 
 PKGDOCDIR=		${PREFIX}/share/doc/${PKGBASE}
 INSTALLATION_DIRS+=	${PKGDOCDIR}
