@@ -30,7 +30,7 @@ BUILD_DEFS+=		VARBASE
 
 EGDIR=			${PREFIX}/share/examples/gallery2
 G2DIR=			${PREFIX}/share/gallery2
-DATADIR=		${VARBASE}/db/gallery2
+DATADIR=		${VARBASE}/gallery2
 G2DATA=			${DATADIR}/g2data
 
 CONF_FILES_PERMS=	${DESTDIR}${EGDIR}/config.php ${DESTDIR}${G2DIR}/config.php \
@@ -62,7 +62,7 @@ post-extract:
 do-install:
 	${INSTALL_DATA} ${WRKDIR}/gallery2.conf ${DESTDIR}${EGDIR}/gallery2.conf
 	${INSTALL_DATA} ${WRKDIR}/config.php ${DESTDIR}${EGDIR}/config.php
-	${CP} -R ${WRKSRC}/* ${DESTDIR}${G2DIR}
+	${CP} -R ${WRKSRC}/* ${DESTDIR}${G2DIR}/
 	${INSTALL_DATA} ${FILESDIR}/*.png ${DESTDIR}${G2DIR}/images/
 	${INSTALL_DATA} ${FILESDIR}/.htaccess ${DESTDIR}${G2DIR}/.htaccess
 
