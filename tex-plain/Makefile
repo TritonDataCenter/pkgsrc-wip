@@ -22,7 +22,6 @@ NO_CONFIGURE=	yes
 NO_BUILD=	yes
 WRKSRC=		${WRKDIR}
 
-
 .include "../../wip/kpathsea/texmf.mk"
 
 post-extract:
