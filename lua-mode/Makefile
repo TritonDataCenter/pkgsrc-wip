@@ -8,7 +8,7 @@ MASTER_SITES=	http://luaforge.net/frs/download.php/2724/
 
 MAINTAINER=	cheusov@tut.by
 HOMEPAGE=	http://luaforge.net/projects/lua-mode/
-COMMENT=	Emacs major mode for editing Lua code.
+COMMENT=	Emacs major mode for editing Lua code
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 WRKSRC=			${WRKDIR}
