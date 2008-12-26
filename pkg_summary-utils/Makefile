@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	pkg_summary-utils-${VERSION}
+DISTNAME=	pkg_summary-utils-${VERSION}beta1
 CATEGORIES=	pkgtools
 MASTER_SITES=	# empty
 DISTFILES=	# empty
