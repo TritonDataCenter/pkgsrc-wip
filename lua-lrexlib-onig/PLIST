@@ -1,0 +1,2 @@
+@comment $NetBSD$
+lib/lua/${LUA_VER}/rex_onig.la
