@@ -11,6 +11,7 @@ HOMEPAGE=	http://luaforge.net/projects/stdlib/
 COMMENT=	Standard library for Lua programming language
 
 DEPENDS+=		lua>=5.0:../../lang/lua
+DEPENDS+=		lua-lrexlib-pcre:../../wip/lua-lrexlib-pcre
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
