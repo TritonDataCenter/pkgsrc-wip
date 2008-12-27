@@ -1,11 +1,11 @@
 # $NetBSD$
 #
 
+ENGINE=		pcre
+
 .include "../../wip/lua-lrexlib/Makefile.common"
 
 COMMENT=	PCRE regexp library for Lua (lrexlib project)
-
-ENGINE=		pcre
 
 DESCR_SRC+=	DESCR
 

@@ -1,11 +1,11 @@
 # $NetBSD$
 #
 
+ENGINE=		posix
+
 .include "../../wip/lua-lrexlib/Makefile.common"
 
 COMMENT=	POSIX regexp library for Lua (lrexlib project)
-
-ENGINE=		posix
 
 DESCR_SRC+=	DESCR
 
