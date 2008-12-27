@@ -1,6 +1,7 @@
 # $NetBSD$
 # used by wip/lua-lrexlib-posix/Makefile
 # used by wip/lua-lrexlib-pcre/Makefile
+# used by wip/lua-lrexlib-oniguruma/Makefile
 #
 
 DISTNAME=	lrexlib-2.4.0
