@@ -12,6 +12,8 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 
 #DIST_SUBDIR=		lua
 
+DISTINFO_FILE=		${.CURDIR}/../../wip/lua-stdlib/distinfo
+
 WRKSRC=			${WRKDIR}/stdlib
 
 NO_BUILD=		yes
