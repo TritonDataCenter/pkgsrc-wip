@@ -21,6 +21,9 @@ SCOREFILE=		${SAVEPATH}/scores
 
 CONFIGURE_ARGS+=	--datadir=${PREFIX}/share/xsokoban
 
+# For removing setting SETGIDGAME from here pkgsrc should be fixed
+SETGIDGAME=		yes
+
 SPECIAL_PERMS=		bin/xsokoban ${SETGID_GAMES_PERMS}
 MAKE_DIRS_PERMS+=	${SAVEPATH} ${GAMEOWN} ${GAMEGRP} ${GAMEDIRMODE}
 CONF_FILES_PERMS+=	/dev/null ${SCOREFILE} ${GAMEOWN} ${GAMEGRP} ${GAMEDATAMODE}
