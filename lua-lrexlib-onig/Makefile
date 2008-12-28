@@ -8,7 +8,7 @@ ENGINE_DIR=	oniguruma
 
 COMMENT=	Oniguruma regexp library for Lua (lrexlib project)
 
-DESCR_SRC+=	DESCR
+DESCR_SRC+=	${.CURDIR}/DESCR
 
 LDFLAGS+=	-lonig
 
