@@ -1,26 +1,13 @@
 # $NetBSD$
-#
 
-DISTNAME=	stdlib-8
-PKGNAME=	${DISTNAME:S/stdlib/lua-stdlib/}
-CATEGORIES=	devel
-MASTER_SITES=	http://luaforge.net/frs/download.php/3740/
+.include "../../wip/lua-stdlib/Makefile.common"
 
-MAINTAINER=	cheusov@tut.by
-HOMEPAGE=	http://luaforge.net/projects/stdlib/
-COMMENT=	Standard library for Lua programming language
+PKGNAME=		${DISTNAME:S/stdlib/lua-stdlib/}
 
-DEPENDS+=		lua>=5.0:../../lang/lua
+COMMENT=		Standard library for Lua programming language
+
+DEPENDS+=		lua>=5.1:../../lang/lua
 DEPENDS+=		lua-lrexlib-pcre:../../wip/lua-lrexlib-pcre
-
-PKG_DESTDIR_SUPPORT=	user-destdir
-
-#DIST_SUBDIR=		lua
-
-WRKSRC=			${WRKDIR}/stdlib
-
-NO_BUILD=		yes
-NO_CONFIGURE=		yes
 
 # hack! I don't how to get Lua's directory for modules properly
 LUA_VER=		5.1
