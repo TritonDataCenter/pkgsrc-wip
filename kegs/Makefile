@@ -10,6 +10,8 @@ MAINTAINER=	christtrekker@users.sourceforge.net
 HOMEPAGE=	http://kegs.sourceforge.net/
 COMMENT=	Apple IIgs emulator for Mac OS X, Win32, Linux, and Unix/X11
 
+PKG_DESTDIR_SUPPORT=	user-destdir
+
 WRKSRC=		${WRKDIR}/${DISTNAME}/src
 USE_TOOLS+=     gmake perl
 INSTALLATION_DIRS+=	share/doc/${PKGBASE} share/${PKGBASE}
