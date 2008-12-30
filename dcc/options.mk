@@ -2,7 +2,7 @@
 
 PKG_OPTIONS_VAR=	PKG_OPTIONS.dcc
 PKG_SUPPORTED_OPTIONS=	dccd dccifd dccm
-PKG_SUGGESTED_OPTIONS=	dccifd
+PKG_SUGGESTED_OPTIONS=	dccd dccifd
 
 .include "../../mk/bsd.options.mk"
 
