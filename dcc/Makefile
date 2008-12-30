@@ -80,7 +80,10 @@ INSTALL_DCC_EGDIR=	${INSTALL} -m 644 -o ${DCC_USER} -g ${ROOT_GROUP}
 
 post-install:
 	${INSTALL_DCC_EGDIR} ${WRKSRC}/homedir/ids ${DESTDIR}${DCC_EGDIR}; \
-	${INSTALL_DCC_EGDIR} ${WRKSRC}/homedir/map.txt ${DESTDIR}${DCC_EGDIR};
+	${INSTALL_DCC_EGDIR} ${WRKSRC}/homedir/map.txt ${DESTDIR}${DCC_EGDIR}; \
+	${SED} -e "s!@DCC_HOME@!${DCC_HOME}!g" ${FILESDIR}/dcc-spamassassin.cf \
+		>${WRKDIR}/dcc-spamassassin.cf; \
+	${INSTALL_DCC_EGDIR} ${WRKDIR}/dcc-spamassassin.cf ${DESTDIR}${DCC_EGDIR};
 
 .include "../../lang/perl5/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

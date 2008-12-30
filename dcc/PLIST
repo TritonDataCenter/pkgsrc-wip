@@ -48,6 +48,7 @@ share/examples/dcc/cgi-bin/http2https
 share/examples/dcc/cgi-bin/list-log
 share/examples/dcc/cgi-bin/list-msg
 share/examples/dcc/cgi-bin/webuser-notify
+share/examples/dcc/dcc-spamassassin.cf
 share/examples/dcc/dcc_conf
 share/examples/dcc/flod
 share/examples/dcc/grey_flod
