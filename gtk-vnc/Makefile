@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	gtk-vnc-0.3.7
+DISTNAME=	gtk-vnc-0.3.8
 CATEGORIES=	net
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=gtk-vnc/}
 
