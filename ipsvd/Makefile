@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	ipsvd-0.14.0
+DISTNAME=	ipsvd-1.0.0
 CATEGORIES=	net
 MASTER_SITES=	${HOMEPAGE}
 
