@@ -36,7 +36,7 @@ UNLIMIT_RESOURCES=	stacksize
 
 CONFIGURE_ARGS+=	--disable-maintainer-mode
 CONFIGURE_ARGS+=	--fsstnd=netbsd
-CONFIGURE_ARGS+=	--without-included-regex
+#CONFIGURE_ARGS+=	--without-included-regex	# see options
 CONFIGURE_ARGS+=	--with-gettext
 MAKE_FLAGS+=		docdir=${PREFIX}/share/doc/${PKGBASE}
 MAKE_FLAGS+=		mandir=${PREFIX}/${PKGMANDIR}
