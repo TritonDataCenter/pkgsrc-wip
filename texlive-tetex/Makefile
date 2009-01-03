@@ -35,6 +35,6 @@ CONF_FILES=	${PREFIX}/share/texmf/web2c/fmtutil.cnf \
 
 TEX_TEXMF_DIRS=	${PREFIX}/share/texmf ${PKG_SYSCONFDIR}
 
-.include "../../wip/kpathsea/buildlink3.mk"
-.include "../../wip/kpathsea/texmf.mk"
+.include "../../print/kpathsea/buildlink3.mk"
+.include "../../print/kpathsea/texmf.mk"
 .include "../../mk/bsd.pkg.mk"

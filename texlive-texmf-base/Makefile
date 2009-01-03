@@ -29,7 +29,7 @@ USE_TOOLS+=		pax
 
 TEX_TEXMF_DIRS=	${PREFIX}/share/texmf ${PREFIX}/share/texmf-dist
 
-.include "../../wip/kpathsea/texmf.mk"
+.include "../../print/kpathsea/texmf.mk"
 
 post-extract:
 .for texmf in texmf texmf-dist

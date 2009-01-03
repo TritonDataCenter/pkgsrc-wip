@@ -28,7 +28,7 @@ CONF_FILES+=	${PREFIX}/share/texmf/web2c/updmap.cfg \
 
 TEX_TEXMF_DIRS=	${PREFIX}/share/texmf ${PKG_SYSCONFDIR}
 
-.include "../../wip/kpathsea/texmf.mk"
+.include "../../print/kpathsea/texmf.mk"
 
 post-extract:
 	${FIND} ${WRKSRC}/texmf* -type d -exec ${CHMOD} ${PKGDIRMODE} {} \;

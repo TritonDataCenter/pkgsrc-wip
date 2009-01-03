@@ -20,7 +20,7 @@ NO_CONFIGURE=	yes
 NO_BUILD=	yes
 WRKSRC=		${WRKDIR}
 
-.include "../../wip/kpathsea/texmf.mk"
+.include "../../print/kpathsea/texmf.mk"
 
 post-extract:
 	${FIND} ${WRKSRC}/texmf* -type d -exec ${CHMOD} ${PKGDIRMODE} {} \;
