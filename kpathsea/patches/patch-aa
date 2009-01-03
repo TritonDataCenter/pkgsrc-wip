@@ -1,5 +1,7 @@
 $NetBSD$
 
+Set paths to texmf trees for pkgsrc.
+
 --- texmf.cnf.orig	2008-07-26 14:39:36.000000000 -0700
 +++ texmf.cnf
 @@ -44,18 +44,18 @@
