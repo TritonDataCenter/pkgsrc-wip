@@ -2,7 +2,7 @@
 # TeX Live Revision 11589
 
 DISTNAME=	bin-tetex
-PKGNAME=	tex-bin-tetex-3.0
+PKGNAME=	tex-${DISTNAME}-3.0
 CATEGORIES=	print
 MASTER_SITES=	${MASTER_SITE_TEX_CTAN:=systems/texlive/tlnet/2008/archive/}
 DIST_SUBDIR=	${PKGNAME_NOREV}
