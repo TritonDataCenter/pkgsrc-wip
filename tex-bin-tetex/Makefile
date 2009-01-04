@@ -26,7 +26,8 @@ MAKE_DIRS+=	${PKG_SYSCONFDIR}/web2c
 CONF_FILES+=	${PREFIX}/share/texmf/web2c/updmap.cfg \
 		${PKG_SYSCONFDIR}/web2c/updmap.cfg
 
-TEX_TEXMF_DIRS=	${PREFIX}/share/texmf ${PKG_SYSCONFDIR}
+TEX_TEXMF_DIRS+=	${PKG_SYSCONFDIR}
+TEX_TEXMF_DIRS+=	${PREFIX}/share/texmf
 
 .include "../../print/kpathsea/texmf.mk"
 
