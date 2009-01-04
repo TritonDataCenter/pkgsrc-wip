@@ -37,5 +37,5 @@ do-install:
 	cd ${WRKSRC} && ${SH} install.sh
 
 .include "../../lang/python/application.mk"
-.include "../../textproc/scrollkeeper/omf.mk"
+.include "../../textproc/rarian/omf.mk"
 .include "../../mk/bsd.pkg.mk"

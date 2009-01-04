@@ -32,7 +32,7 @@ GCONF_SCHEMAS+=	zapping.schemas
 .include "../../graphics/jpeg/buildlink3.mk"
 .include "../../graphics/png/buildlink3.mk"
 .include "../../lang/python/extension.mk"
-.include "../../textproc/scrollkeeper/omf.mk"
+.include "../../textproc/rarian/omf.mk"
 .include "../../x11/gtk2/buildlink3.mk"
 # not used with bktr(4)
 #.include "../../wip/rte/buildlink3.mk"
