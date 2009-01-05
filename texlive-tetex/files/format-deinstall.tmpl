@@ -3,6 +3,8 @@
 # Delete format files.
 #
 
+FMTUTIL_CNF=${PKG_SYSCONFBASE}/texmf/web2c/fmtutil.cnf
+
 case ${STAGE} in
 DEINSTALL)
 	format_names="@FORMAT_NAMES@"
@@ -10,6 +12,9 @@ DEINSTALL)
 		@CAT@ @PREFIX@/share/texmf/fmtutil/format.$f.cnf |
 		@GREP@ "^[^#]" |
 		while read format engine junk; do
+		  ${GREP} -v "^${format}[[:space:]][[:space:]]*${engine}[[:space:]]" ${FMTUTIL_CNF} > \
+			${FMTUTIL_CNF}.tmp &&
+		  ${MV} ${FMTUTIL_CNF}.tmp ${FMTUTIL_CNF}
 		  case "$engine" in
 		    mpost)
 		      fmtfile="$format.mem"
