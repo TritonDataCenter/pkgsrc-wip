@@ -6,8 +6,8 @@ $NetBSD$
  .fi
  ..
  
--.TH mxallowd 1 "JULY 2008" Linux "User Manuals"
-+.TH mxallowd 1 "JULY 2008" NetBSD "User Manuals"
+-.TH mxallowd 1 "JANUARY 2009" Linux "User Manuals"
++.TH mxallowd 1 "JANUARY 2009" NetBSD "User Manuals"
  
  .SH NAME
  mxallowd \- dynamically whitelist your Mail eXchanger
