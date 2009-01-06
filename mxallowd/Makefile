@@ -12,6 +12,7 @@ CONFIGURE_ARGS+=--sysconfdir=${PREFIX}/etc
 CONFIGURE_ARGS+=--mandir=${PREFIX}/${PKGMANDIR:Q}
 CONF_FILES=${PREFIX}/share/doc/mxallowd/samples/mxallowd.conf ${PKG_SYSCONFDIR}/mxallowd.conf
 RCD_SCRIPTS+=mxallowd
+PKG_DESTDIR_SUPPORT=user-destdir
 
 MASTER_SITES=http://michael.stapelberg.de/mxallowd/
 DISTFILES=mxallowd.1.7.tar.bz2
