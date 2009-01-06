@@ -2,6 +2,7 @@
 include/editline/readline.h
 include/histedit.h
 lib/libedit.la
+lib/pkgconfig/libedit.pc
 man/man3/editline.3
 man/man3/el_deletestr.3
 man/man3/el_end.3
