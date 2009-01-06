@@ -10,7 +10,11 @@ POST-INSTALL)
 	format_names="@FORMAT_NAMES@"
 	for f in $format_names ; do
 		${GREP} -v "^#" @PREFIX@/share/texmf/fmtutil/format.$f.cnf >> ${FMTUTIL_CNF}
-		@FMTUTIL_SYS@ --byfmt $f
+		@CAT@ @PREFIX@/share/texmf/fmtutil/format.$f.cnf |
+		@GREP@ "^[^#]" |
+		while read format engine junk; do
+			@FMTUTIL_SYS@ --byfmt $format
+		done
 	done
         ;;
 *)
