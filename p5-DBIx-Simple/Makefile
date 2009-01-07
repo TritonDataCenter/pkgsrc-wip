@@ -4,7 +4,7 @@
 DISTNAME=	DBIx-Simple-1.32
 PKGNAME=	p5-${DISTNAME}
 CATEGORIES=	databases perl5
-MASTER_SITES=	http://search.cpan.org/CPAN/authors/id/J/JU/JUERD/
+MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=DBIx/}
 
 MAINTAINER=	ficovh@yahoo.com
 HOMEPAGE=	http://search.cpan.org/CPAN/authors/id/J/JU/JUERD/
