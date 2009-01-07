@@ -3,6 +3,7 @@
 
 DISTNAME=	digikam-0.10.0-beta5
 PKGNAME=	digikam-0.10.0beta5
+PKGREVISION=	1
 CATEGORIES=	graphics
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=digikam/}
 EXTRACT_SUFX=	.tar.bz2

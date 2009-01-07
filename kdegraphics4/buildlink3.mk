@@ -13,6 +13,7 @@ BUILDLINK_ORDER:=	${BUILDLINK_ORDER} ${BUILDLINK_DEPTH}kdegraphics4
 
 .if ${KDEGRAPHICS4_BUILDLINK3_MK} == "+"
 BUILDLINK_API_DEPENDS.kdegraphics4+=	kdegraphics4>=4.1.1
+BUILDLINK_ABI_DEPENDS.kdegraphics4?=	kdegraphics4>=4.1.3nb1
 BUILDLINK_PKGSRCDIR.kdegraphics4?=	../../wip/kdegraphics4
 .endif	# KDEGRAPHICS4_BUILDLINK3_MK
 
