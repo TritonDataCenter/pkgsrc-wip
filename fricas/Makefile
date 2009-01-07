@@ -2,7 +2,7 @@
 
 PKGNAME=		fricas-1.0.99
 DISTNAME=		${PKGNAME}-full
-CATEGORIES=		lang
+CATEGORIES=		math
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=fricas/}
 EXTRACT_SUFX=		.tar.bz2
 
