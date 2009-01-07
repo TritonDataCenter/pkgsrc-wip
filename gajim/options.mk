@@ -43,5 +43,5 @@ PLIST_SUBST+=	TRAYICON="@comment "
 
 # avahi
 .if !empty(PKG_OPTIONS:Mavahi)
-.include "../../wip/avahi/buildlink3.mk"
+.include "../../net/avahi/buildlink3.mk"
 .endif
