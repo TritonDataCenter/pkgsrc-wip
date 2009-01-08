@@ -342,6 +342,7 @@ share/maxima/${PKGVERSION}/share/contrib/bode.mac
 share/maxima/${PKGVERSION}/share/contrib/boolsimp/boolsimp.lisp
 share/maxima/${PKGVERSION}/share/contrib/boolsimp/rtest_boolsimp.mac
 share/maxima/${PKGVERSION}/share/contrib/clebsch_gordan.mac
+share/maxima/${PKGVERSION}/share/contrib/colorterm.lisp
 share/maxima/${PKGVERSION}/share/contrib/descriptive/biomed.data
 share/maxima/${PKGVERSION}/share/contrib/descriptive/descriptive.mac
 share/maxima/${PKGVERSION}/share/contrib/descriptive/pidigits.data
