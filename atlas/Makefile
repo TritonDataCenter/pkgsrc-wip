@@ -1,7 +1,7 @@
 # $NetBSD$
 
-DISTNAME=	atlas3.8.1
-PKGNAME=	atlas-3.8.1
+DISTNAME=	atlas3.8.2
+PKGNAME=	atlas-3.8.2
 CATEGORIES=	math
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=math-atlas/}
 EXTRACT_SUFX=	.tar.bz2
