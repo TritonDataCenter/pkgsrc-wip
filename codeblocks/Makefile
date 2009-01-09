@@ -22,9 +22,9 @@ GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_TOOLS+=	pkg-config gmake
 USE_LANGUAGES=	c c++
-USE_DIRS+= 	xdg-1.4
+USE_DIRS+=	xdg-1.4
 
-CONFIGURE_ARGS+=        --with-contrib-plugins=AutoVersioning,BrowseTracker,byogames,cbkoders,codesnippets,codestat,dragscroll,envvars,help,keybinder,libfinder,profiler,regex,exporter,symtab
+CONFIGURE_ARGS+=	--with-contrib-plugins=AutoVersioning,BrowseTracker,byogames,cbkoders,codesnippets,codestat,dragscroll,envvars,help,keybinder,libfinder,profiler,regex,exporter,symtab
 # wxsmith makes error in build process
 
 PKGCONFIG_OVERRIDE+=	codeblocks.pc.in
