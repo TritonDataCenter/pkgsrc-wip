@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=		dcc-1.3.99
+DISTNAME=		dcc-1.3.101
 #PKGREVISION=		1
 CATEGORIES=		mail
 MASTER_SITES=		http://www.rhyolite.com/dcc/source/old/
