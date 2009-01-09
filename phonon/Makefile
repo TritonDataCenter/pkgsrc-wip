@@ -11,7 +11,7 @@ COMMENT=	Multimedia API for KDE and QT
 
 #BUILD_MAKE_FLAGS+= VERBOSE=1
 
-BUILD_DEPENDS+=	automoc4>=0.9.83:../../wip/automoc4
+BUILD_DEPENDS+=	automoc4>=0.9.83:../../devel/automoc4
 
 USE_DIRS+=	kde4-1.0
 USE_TOOLS+=	pkg-config

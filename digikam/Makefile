@@ -15,7 +15,7 @@ COMMENT=	Advanced digital photo management application (KDE4)
 USE_PKGLOCALEDIR=	yes
 USE_LANGUAGES=		c c++
 
-BUILD_DEPENDS+=	automoc4>=0.9.83:../../wip/automoc4
+BUILD_DEPENDS+=	automoc4>=0.9.83:../../devel/automoc4
 
 REPLACE_PERL=	utilities/scripts/digitaglinktree
 USE_CMAKE=	yes

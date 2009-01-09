@@ -11,7 +11,7 @@ COMMENT=	The KDE PIM Storage Service
 
 #BUILD_MAKE_FLAGS+= VERBOSE=1
 
-BUILD_DEPENDS+=	automoc4>=0.9.83:../../wip/automoc4
+BUILD_DEPENDS+=	automoc4>=0.9.83:../../devel/automoc4
 BUILD_DEPENDS+=	libxslt>=1.0:../../textproc/libxslt
 
 USE_DIRS+=	kde4-1.0
