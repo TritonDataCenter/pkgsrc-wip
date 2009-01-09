@@ -7,7 +7,6 @@ PKGNAME=		${DISTNAME:S/stdlib/lua-stdlib/}
 COMMENT=		Standard library for Lua programming language
 
 DEPENDS+=		lua>=5.1:../../lang/lua
-DEPENDS+=		lua-lrexlib-pcre:../../wip/lua-lrexlib-pcre
 
 # hack! I don't how to get Lua's directory for modules properly
 LUA_VER=		5.1
