@@ -10,8 +10,6 @@ COMMENT=	Multimedia tools for the KDE integrated X11 desktop
 
 DEPENDS+=	xine-xcb>=1.1.9:../../wip/xine-xcb
 
-REPLACE_PERL+=	kscd/workman2cddb.pl
-
 .include "../../wip/kde4/kde4.mk"
 
 .include "../../audio/cdparanoia/buildlink3.mk"
