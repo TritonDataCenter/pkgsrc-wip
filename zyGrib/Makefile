@@ -1,13 +1,13 @@
 # $NetBSD$
 #
 
-DISTNAME=	zyGrib-2.2.2
+DISTNAME=	zyGrib-3.1.0
 CATEGORIES=	geography
-MASTER_SITES=	http://zygrib.free.fr/files/
+MASTER_SITES=	http://www.zygrib.org/files/
 EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	plunky@rya-online.net
-HOMEPAGE=	http://zygrib.free.fr/
+HOMEPAGE=	http://www.zygrib.org/
 COMMENT=	GRIB file viewer for weather data
 
 #LICENSE=	gnu-gpl-v3
