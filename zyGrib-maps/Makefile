@@ -3,11 +3,11 @@
 
 DISTNAME=	zyGrib-maps-2
 CATEGORIES=	geography
-MASTER_SITES=	http://zygrib.free.fr/files/
+MASTER_SITES=	http://www.zygrib.org/files/
 DISTFILES=	zyGrib_maps2.tgz
 
 MAINTAINER=	plunky@rya-online.net
-HOMEPAGE=	http://zygrib.free.fr/
+HOMEPAGE=	http://www.zygrib.org/
 COMMENT=	High resolution map files for zyGrib
 
 #LICENSE=	gnu-gpl
