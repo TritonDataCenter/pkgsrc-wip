@@ -15,6 +15,7 @@ BUILDLINK_API_DEPENDS.xscreensaver+=  xscreensaver>=5.00
 
 .include "../../wip/kde4/kde4.mk"
 
+.include "../../math/eigen2/buildlink3.mk"
 .include "../../wip/kdelibs4/buildlink3.mk"
 .include "../../wip/kdebase-runtime4/buildlink3.mk"
 .include "../../wip/kdebase-workspace4/buildlink3.mk"
