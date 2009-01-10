@@ -1,0 +1,13 @@
+$NetBSD$
+
+--- Foundation/src/NamedMutex_UNIX.cpp.orig	2008-10-09 18:14:00.000000000 +0200
++++ Foundation/src/NamedMutex_UNIX.cpp
+@@ -60,7 +60,7 @@ namespace Poco {
+ 		unsigned short int* array;
+ 		struct seminfo*     __buf;
+ 	};
+-#elif defined(hpux)
++#elif defined(hpux) || defined(__NetBSD__)
+ 	union semun
+ 	{
+ 		int              val;
