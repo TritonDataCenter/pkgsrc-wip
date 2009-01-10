@@ -1,6 +1,6 @@
 $NetBSD$
 
---- khelpcenter/docmetainfo.cpp.orig	2008-01-15 14:50:04.000000000 +1300
+--- khelpcenter/docmetainfo.cpp.orig	2008-11-13 05:37:12.000000000 +1300
 +++ khelpcenter/docmetainfo.cpp
 @@ -140,7 +140,7 @@ void DocMetaInfo::scanMetaInfo( bool for
  
@@ -10,4 +10,4 @@ $NetBSD$
 +    //kstd->addResourceType( "data", 0, QLatin1String("share/kde/apps/khelpcenter") );
      metaInfos = kstd->findDirs( "appdata", "plugins" );
    }
-   for( it = metaInfos.begin(); it != metaInfos.end(); ++it) {
+   for( it = metaInfos.constBegin(); it != metaInfos.constEnd(); ++it) {

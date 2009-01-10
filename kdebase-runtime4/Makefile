@@ -9,7 +9,7 @@ COMMENT=	Runtime requirements for the KDE integrated X11 desktop
 # BUILD_MAKE_FLAGS+= VERBOSE=1
 
 DEPENDS+=	htdig>=3.2.0:../../www/htdig-devel
-DEPENDS+=	xine-xcb>=1.1.9:../../wip/xine-xcb
+# DEPENDS+=	xine-xcb>=1.1.9:../../wip/xine-xcb
 
 .include "options.mk"
 
@@ -40,9 +40,8 @@ INSTALLATION_DIRS+=	${PKGMANDIR}/man1
 .include "../../wip/kde4/kde4.mk"
 
 .include "../../graphics/hicolor-icon-theme/buildlink3.mk"
-.include "../../multimedia/xine-lib/buildlink3.mk"
-.include "../../wip/libxcb/buildlink3.mk"
+# .include "../../multimedia/xine-lib/buildlink3.mk"
+# .include "../../wip/libxcb/buildlink3.mk"
 .include "../../wip/kdelibs4/buildlink3.mk"
-#.include "../../wip/kdepimlibs4/buildlink3.mk"
 
 .include "../../mk/bsd.pkg.mk"
