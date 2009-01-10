@@ -1,15 +1,21 @@
 # $NetBSD$
 #
 
-DISTNAME=		ortp-0.7.1
-CATEGORIES=		net
-MASTER_SITES=		http://download.savannah.nongnu.org/releases/linphone/ortp/sources/
+DISTNAME=	ortp-0.13.1
+CATEGORIES=	net
+MASTER_SITES=	http://download.savannah.nongnu.org/releases/linphone/ortp/sources/
 
-MAINTAINER=		zul@netbsd-fr.org
-HOMEPAGE=		http://www.linphone.org/index.php/v2/code_review/ortp
-COMMENT=		Real-time Transport Protocol stack
+MAINTAINER=	zul@netbsd-fr.org
+HOMEPAGE=	http://www.linphone.org/index.php/eng/code_review/ortp
+COMMENT=	Real-time Transport Protocol stack
 
-GNU_CONFIGURE=		yes
+PKG_DESTDIR_SUPPORT=	user-destdir
+
+GNU_CONFIGURE=	yes
+USE_LIBTOOL=	yes
+
+CONFIGURE_ENV+=	ac_cv_path_DOXYGEN=false
+PKGCONFIG_OVERRIDE+=	ortp.pc.in
 
 .include "options.mk"
 
