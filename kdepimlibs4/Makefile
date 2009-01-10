@@ -17,6 +17,7 @@ REPLACE_PERL+= mailtransport/kconf_update/migrate-transports.pl
 .include "../../mail/akonadi/buildlink3.mk"
 .include "../../security/cyrus-sasl/buildlink3.mk"
 .include "../../security/gpgme/buildlink3.mk"
+.include "../../time/libical/buildlink3.mk"
 .include "../../wip/kdelibs4/buildlink3.mk"
 
 .include "../../mk/bsd.pkg.mk"

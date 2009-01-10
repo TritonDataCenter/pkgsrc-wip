@@ -24,6 +24,7 @@ REPLACE_PERL+= \
 	scripts/krazy-licensecheck \
 	scripts/png2mng.pl \
 	scripts/svnintegrate \
+	kioslave/perldoc/pod2html.pl \
 	kcachegrind/converters/dprof2calltree \
 	kcachegrind/converters/memprof2calltree \
 	kcachegrind/converters/op2calltree \
