@@ -1,7 +1,6 @@
 # $NetBSD$
 
 DISTNAME=	kdegraphics-${_KDE_VERSION}
-PKGREVISION=	2
 CATEGORIES=	graphics
 COMMENT=	Graphical tools for the KDE desktop
 
