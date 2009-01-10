@@ -24,13 +24,14 @@ USE_LANGUAGES=		c c++
 CONFIGURE_SCRIPT=	./configure_2.sh
 USE_TOOLS=		gmake
 
-CFLAGS+=	-I ${BUILDLINK_PREFIX.SDL}/include/SDL
+# XXX why does the SDL test fail?
+CFLAGS+=	-DHAVE_SDL -I${BUILDLINK_PREFIX.SDL}/include/SDL
+LIBS+=		-lSDL
 CONFIGURE_ENV+=	ac_cv_func__strdup=no
 BUILD_ENV+=	es40_cfg_LDADD=Exception.o
 
 # off_t is always 64 bits on NetBSD
 CFLAGS.NetBSD+=		-Doff64_t=off_t -Dftello64=ftello -Dfseeko64=fseeko 
-
 
 INSTALLATION_DIRS=	share/es40 share/examples/es40
 
