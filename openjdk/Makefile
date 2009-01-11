@@ -2,6 +2,7 @@
 
 DISTNAME=	openjdk-7-ea-src-b42-19_dec_2008
 PKGNAME=	openjdk-1.7.0.42.20081230
+PKGREVISION=	1
 CATEGORIES=	lang
 MASTER_SITES=	http://www.java.net/download/openjdk/jdk7/promoted/b42/
 EXTRACT_SUFX=	.zip
