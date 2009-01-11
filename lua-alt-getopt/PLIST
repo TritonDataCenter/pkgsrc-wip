@@ -1,0 +1,2 @@
+@comment $NetBSD$
+share/lua/5.1/alt_getopt.lua
