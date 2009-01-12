@@ -17,13 +17,8 @@
 #   * This file must be included *before* "../../mk/bsd.pkg.mk", or
 #     you'll get target-redefinition errors.
 # 
-#   * If your package is on the HackageDB, MASTER_SITES should be
-#     expressed like this:
-#
-#       MASTER_SITES= ${MASTER_SITE_HASKELL_HACKAGE:=FooBar/0.1.2/}
-#
-#     where "FooBar" is the name of package and "0.1.2" is the version
-#     number. Don't forget the trailing slash.
+#   * If your package is on the HackageDB, MASTER_SITES and HOMEPAGE
+#     can be omitted.
 #
 #   * Package configuration, building, installation, registration and
 #     unregistration are fully automated. You usually don't need to do
@@ -81,6 +76,13 @@ _DEF_VARS.haskell= \
 	_HASKELL_VERSION \
 	_RUNHASKELL_BIN \
 	_RUNGHC_BIN
+
+
+# Default value of MASTER_SITES.
+MASTER_SITES?=	${MASTER_SITE_HASKELL_HACKAGE:=${PKGBASE}/${PKGVERSION}/}
+
+# Default value of HOMEPAGE.
+HOMEPAGE=		http://hackage.haskell.org/cgi-bin/hackage-scripts/package/${PKGBASE}
 
 
 # Compiler specific variables and targets.
