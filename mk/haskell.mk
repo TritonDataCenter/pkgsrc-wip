@@ -66,6 +66,8 @@ _VARGROUPS+=		haskell
 _USER_VARS.haskell=	HASKELL_TYPE
 _DEF_VARS.haskell= \
 	_CABAL_SETUP_SCRIPT \
+	_DISTBASE \
+	_DISTVERSION \
 	_GHC_BIN \
 	_GHC_PKG_BIN \
 	_GHC_VERSION \
@@ -79,10 +81,12 @@ _DEF_VARS.haskell= \
 
 
 # Default value of MASTER_SITES.
-MASTER_SITES?=	${MASTER_SITE_HASKELL_HACKAGE:=${PKGBASE}/${PKGVERSION}/}
+_DISTBASE?=		${DISTNAME:C/-[^-]*$//}
+_DISTVERSION?=	${DISTNAME:C/^.*-//}
+MASTER_SITES?=	${MASTER_SITE_HASKELL_HACKAGE:=${_DISTBASE}/${_DISTVERSION}/}
 
 # Default value of HOMEPAGE.
-HOMEPAGE=		http://hackage.haskell.org/cgi-bin/hackage-scripts/package/${PKGBASE}
+HOMEPAGE=		http://hackage.haskell.org/cgi-bin/hackage-scripts/package/${_DISTBASE}
 
 
 # Compiler specific variables and targets.
