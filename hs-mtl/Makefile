@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	mtl-1.1.0.2
+PKGNAME=	hs-${DISTNAME}
 CATEGORIES=	devel
 
 MAINTAINER=	pho@cielonegro.org
