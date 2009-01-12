@@ -9,5 +9,5 @@ COMMENT=	POSIX regexp library for Lua (lrexlib project)
 
 DESCR_SRC+=	${.CURDIR}/DESCR
 
-.include "../../lang/lua/buildlink3.mk"
+.include "../../lang/lua/module.mk"
 .include "../../mk/bsd.pkg.mk"

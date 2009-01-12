@@ -1,2 +1,2 @@
 @comment $NetBSD$
-lib/lua/${LUA_VER}/rex_onig.la
+${LUA_CDIR}/rex_onig.la

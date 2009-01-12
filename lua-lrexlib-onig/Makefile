@@ -12,6 +12,6 @@ DESCR_SRC+=	${.CURDIR}/DESCR
 
 LDFLAGS+=	-lonig
 
+.include "../../lang/lua/module.mk"
 .include "../../textproc/oniguruma/buildlink3.mk"
-.include "../../lang/lua/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

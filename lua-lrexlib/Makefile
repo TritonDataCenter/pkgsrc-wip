@@ -14,7 +14,7 @@ COMMENT=	Regexp libraries for Lua programming language
 APIs=		pcre posix onig
 
 .for i in ${APIs}
-DEPENDS+=	lua-lrexlib-${i}-${VERSION}:../../wip/lua-lrexlib-${i}
+DEPENDS+=	lua-lrexlib-${i}-${VERSION}nb1:../../wip/lua-lrexlib-${i}
 .endfor
 
 META_PACKAGE=		yes
