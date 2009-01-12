@@ -13,7 +13,7 @@ BUILDLINK_ORDER:=	${BUILDLINK_ORDER} ${BUILDLINK_DEPTH}hs-utf8-string
 
 .if ${HS_UTF8_STRING_BUILDLINK3_MK} == "+"
 BUILDLINK_DEPMETHOD.hs-utf8-string?=	build
-BUILDLINK_API_DEPENDS.hs-utf8-string+=	hs-utf8-string>=0.3.1.1
+BUILDLINK_API_DEPENDS.hs-utf8-string+=	hs-utf8-string>=0.3.3
 BUILDLINK_PKGSRCDIR.hs-utf8-string?=	../../wip/hs-utf8-string
 .endif	# HS_UTF8_STRING_BUILDLINK3_MK
 
