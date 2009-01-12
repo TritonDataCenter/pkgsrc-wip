@@ -2,21 +2,16 @@
 
 .include "../../wip/lua-stdlib/Makefile.common"
 
-PKGNAME=		${DISTNAME:S/stdlib/lua-stdlib/}
+PKGNAME=		${DISTNAME:S/stdlib/${LUA_PKGPREFIX}-stdlib/}
 
 COMMENT=		Standard library for Lua programming language
 
-DEPENDS+=		lua>=5.1:../../lang/lua
-
-# hack! I don't how to get Lua's directory for modules properly
-LUA_VER=		5.1
-MODULES_DIR=		lib/lua/${LUA_VER}
-
-INSTALLATION_DIRS+=	${MODULES_DIR}
-PLIST_SUBST+=		MODULES_DIR=${MODULES_DIR}
+INSTALLATION_DIRS+=	${LUA_LDIR}
+PLIST_SUBST+=		MODULES_DIR=${LUA_LDIR}
 
 do-install:
 	${INSTALL_DATA} ${WRKSRC}/modules/*.lua \
-	                ${DESTDIR}${PREFIX}/${MODULES_DIR}
+	                ${DESTDIR}${PREFIX}/${LUA_LDIR}
 
+.include "../../lang/lua/module.mk"
 .include "../../mk/bsd.pkg.mk"
