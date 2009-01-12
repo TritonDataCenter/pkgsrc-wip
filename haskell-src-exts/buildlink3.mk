@@ -17,4 +17,6 @@ BUILDLINK_API_DEPENDS.haskell-src-exts+=	haskell-src-exts>=0.4.8
 BUILDLINK_PKGSRCDIR.haskell-src-exts?=	../../wip/haskell-src-exts
 .endif	# HASKELL_SRC_EXTS_BUILDLINK3_MK
 
+.include "../../wip/cpphs/buildlink3.mk"
+
 BUILDLINK_DEPTH:=			${BUILDLINK_DEPTH:S/+$//}
