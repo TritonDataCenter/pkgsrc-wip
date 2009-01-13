@@ -18,5 +18,5 @@ USE_TOOLS+=			automake
 pre-configure:
 	cd ${WRKSRC} && autoreconf
 
-.include "../../mk/bsd.pkg.mk"
 .include "../../mk/curses.buildlink3.mk"
+.include "../../mk/bsd.pkg.mk"
