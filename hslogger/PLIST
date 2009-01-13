@@ -3,6 +3,7 @@ lib/${PKGNAME}/${HASKELL_VERSION}/HS${PKGNAME}.o
 lib/${PKGNAME}/${HASKELL_VERSION}/System/Log.hi
 lib/${PKGNAME}/${HASKELL_VERSION}/System/Log/Handler.hi
 lib/${PKGNAME}/${HASKELL_VERSION}/System/Log/Handler/Growl.hi
+lib/${PKGNAME}/${HASKELL_VERSION}/System/Log/Handler/Log4jXML.hi
 lib/${PKGNAME}/${HASKELL_VERSION}/System/Log/Handler/Simple.hi
 lib/${PKGNAME}/${HASKELL_VERSION}/System/Log/Handler/Syslog.hi
 lib/${PKGNAME}/${HASKELL_VERSION}/System/Log/Logger.hi
