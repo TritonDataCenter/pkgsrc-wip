@@ -13,11 +13,14 @@ BUILDLINK_ORDER:=	${BUILDLINK_ORDER} ${BUILDLINK_DEPTH}hxt
 
 .if ${HXT_BUILDLINK3_MK} == "+"
 BUILDLINK_DEPMETHOD.hxt?=	build
-BUILDLINK_API_DEPENDS.hxt+=	hxt>=8.1.0
+BUILDLINK_API_DEPENDS.hxt+=	hxt>=8.2.0
 BUILDLINK_PKGSRCDIR.hxt?=	../../wip/hxt
 .endif	# HXT_BUILDLINK3_MK
 
 .include "../../wip/hs-curl/buildlink3.mk"
+.include "../../wip/hs-network/buildlink3.mk"
+.include "../../wip/hs-parallel/buildlink3.mk"
+.include "../../wip/parsec/buildlink3.mk"
 .include "../../wip/tagsoup/buildlink3.mk"
 
 BUILDLINK_DEPTH:=	${BUILDLINK_DEPTH:S/+$//}
