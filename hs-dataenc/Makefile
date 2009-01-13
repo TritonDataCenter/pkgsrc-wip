@@ -1,16 +1,13 @@
 # $NetBSD$
 #
 
-DISTNAME=	dataenc-0.11
+DISTNAME=	dataenc-0.11.1
 PKGNAME=	hs-${DISTNAME}
-CATEGORIES=	converters
-MASTER_SITES=	${MASTER_SITE_HASKELL_HACKAGE:=dataenc/0.11/}
+CATEGORIES=	devel
 
 MAINTAINER=	pho@cielonegro.org
-HOMEPAGE=	http://hackage.haskell.org/cgi-bin/hackage-scripts/package/dataenc
+HOMEPAGE=	http://www.haskell.org/haskellwiki/Library/Data_encoding
 COMMENT=	Data encoding library for Haskell
 
-USE_LANGUAGES=	# none
-
-.include "../../wip/mk/haskell.mk" # This should be "../../mk/haskell.mk"
+.include "../../wip/mk/haskell.mk"
 .include "../../mk/bsd.pkg.mk"
