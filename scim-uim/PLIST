@@ -1,0 +1,5 @@
+@comment $NetBSD$
+lib/scim-1.0/1.4.0/IMEngine/uim.la
+share/scim/icons/scim-uim.png
+@comment in scim: @dirrm share/scim/icons
+@comment in scim: @dirrm lib/scim-1.0/1.4.0/IMEngine
