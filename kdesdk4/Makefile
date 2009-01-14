@@ -11,6 +11,8 @@ CONFLICTS+=	umbrello-[0-9]*
 
 # BUILD_MAKE_FLAGS+= VERBOSE=1
 
+PKG_DESTDIR_SUPPORT=	user-destdir
+
 CMAKE_ARGS+=	-DBUILD_kmtrace:BOOL=OFF
 
 # disable for the moment till sort out -ldl

@@ -6,6 +6,8 @@ COMMENT=	Support libraries for PIM for the KDE integrated X11 desktop
 
 .include "../../wip/kde4/Makefile.kde4"
 
+PKG_DESTDIR_SUPPORT=	user-destdir
+
 CMAKE_DEPENDENCIES_REWRITE= _KDE_build/KDEPimLibsDependencies.cmake
 
 REPLACE_PERL+= mailtransport/kconf_update/migrate-transports.pl

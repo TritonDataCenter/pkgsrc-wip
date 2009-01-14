@@ -14,6 +14,8 @@ SITES.NetBSD-flag-1.0.png=	${MASTER_SITE_LOCAL}
 
 EXTRACT_ONLY=	${DISTNAME}${EXTRACT_SUFX}
 
+PKG_DESTDIR_SUPPORT=	user-destdir
+
 # BUILD_MAKE_FLAGS+= VERBOSE=1
 
 USE_TOOLS+=		mkfontdir bdftopcf
@@ -92,6 +94,7 @@ BUILDLINK_DEPMETHOD.qt4-tools=	full
 .include "../../x11/libxklavier/buildlink3.mk"
 .include "../../x11/libXcomposite/buildlink3.mk"
 .include "../../x11/libXdamage/buildlink3.mk"
+.include "../../x11/libXi/buildlink3.mk"
 .include "../../x11/libXres/buildlink3.mk"
 .include "../../x11/libXxf86misc/buildlink3.mk"
 .include "../../x11/libXScrnSaver/buildlink3.mk"

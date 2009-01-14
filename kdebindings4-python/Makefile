@@ -7,6 +7,8 @@ COMMENT=	Python bindings for the KDE integrated X11 desktop
 
 .include "../../wip/kde4/Makefile.kde4"
 
+PKG_DESTDIR_SUPPORT=	user-destdir
+
 # BUILD_MAKE_FLAGS+= VERBOSE=1
 
 CMAKE_ARGS+=	-DENABLE_SMOKE=off

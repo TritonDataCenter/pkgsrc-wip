@@ -8,6 +8,8 @@ COMMENT=	Accessibility support for the KDE integrated X11 desktop
 
 # BUILD_MAKE_FLAGS+= VERBOSE=1
 
+PKG_DESTDIR_SUPPORT=	user-destdir
+
 CMAKE_ARGS+=	-DKDE4_KTTSD_ALSA:BOOL=OFF
 
 .include "../../wip/kde4/kde4.mk"

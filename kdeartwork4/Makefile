@@ -11,6 +11,8 @@ CMAKE_ARGS+=	-DXSCREENSAVER_DIR:PATH=${BUILDLINK_PREFIX.xscreensaver}/libexec/xs
 
 #BUILD_MAKE_FLAGS+= VERBOSE=1
 
+PKG_DESTDIR_SUPPORT=	user-destdir
+
 BUILDLINK_API_DEPENDS.xscreensaver+=  xscreensaver>=5.00
 
 .include "../../wip/kde4/kde4.mk"

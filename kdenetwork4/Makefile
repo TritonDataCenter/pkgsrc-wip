@@ -10,6 +10,8 @@ CONFLICTS=	kopete-[0-9]*
 
 # BUILD_MAKE_FLAGS+= VERBOSE=1
 
+PKG_DESTDIR_SUPPORT=	user-destdir
+
 # for kded_dnssdwatcher
 UNLIMIT_RESOURCES+=	datasize memorysize stacksize
 

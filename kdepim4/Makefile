@@ -8,6 +8,8 @@ COMMENT=	Personal Information Management tools for the KDE desktop
 
 # BUILD_MAKE_FLAGS+= VERBOSE=1
 
+PKG_DESTDIR_SUPPORT=	user-destdir
+
 CMAKE_ARGS+=-DMAL_BASE:STRING=${BUILDLINK_PREFIX.libmal}
 
 CHECK_PORTABILITY_SKIP+=ktimetracker/test/booktime-baddate.sh \

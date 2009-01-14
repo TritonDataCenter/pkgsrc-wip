@@ -8,6 +8,8 @@ COMMENT=	Plasmoids
 
 # BUILD_MAKE_FLAGS+= VERBOSE=1
 
+PKG_DESTDIR_SUPPORT=	user-destdir
+
 .include "../../wip/kde4/kde4.mk"
 
 .include "../../graphics/hicolor-icon-theme/buildlink3.mk"

@@ -8,6 +8,8 @@ COMMENT=	Multimedia tools for the KDE integrated X11 desktop
 
 # BUILD_MAKE_FLAGS+= VERBOSE=1
 
+PKG_DESTDIR_SUPPORT=	user-destdir
+
 DEPENDS+=	xine-xcb>=1.1.9:../../wip/xine-xcb
 
 .include "../../wip/kde4/kde4.mk"

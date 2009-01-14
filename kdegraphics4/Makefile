@@ -8,6 +8,8 @@ COMMENT=	Graphical tools for the KDE desktop
 
 # BUILD_MAKE_FLAGS+= VERBOSE=1
 
+PKG_DESTDIR_SUPPORT=	user-destdir
+
 CHECK_PORTABILITY_SKIP+=ktimetracker/test/booktime-baddate.sh \
 		ktimetracker/test/booktime-badduration.sh \
 		ktimetracker/test/booktime-badtime.sh \
@@ -30,7 +32,7 @@ CHECK_PORTABILITY_SKIP+=ktimetracker/test/booktime-baddate.sh \
 .include "../../print/libspectre/buildlink3.mk"
 .include "../../print/poppler-qt4/buildlink3.mk"
 .include "../../security/qca2/buildlink3.mk"
-.include "../../wip/ebook-tools/buildlink3.mk"
+.include "../../textproc/ebook-tools/buildlink3.mk"
 .include "../../wip/kdelibs4/buildlink3.mk"
 .include "../../wip/kdebase-runtime4/buildlink3.mk"
 .include "../../x11/libXxf86vm/buildlink3.mk"

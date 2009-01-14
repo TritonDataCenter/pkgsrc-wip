@@ -6,6 +6,8 @@ COMMENT=	Runtime requirements for the KDE integrated X11 desktop
 
 .include "../../wip/kde4/Makefile.kde4"
 
+PKG_DESTDIR_SUPPORT=	user-destdir
+
 # BUILD_MAKE_FLAGS+= VERBOSE=1
 
 DEPENDS+=	htdig>=3.2.0:../../www/htdig-devel

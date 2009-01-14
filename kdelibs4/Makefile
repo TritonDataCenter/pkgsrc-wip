@@ -11,6 +11,7 @@ COMMENT=	Support libraries for the KDE integrated X11 desktop
 .include "../../wip/kde4/Makefile.kde4"
 
 CONFLICTS=	kdelibs-[0-9]*
+PKG_DESTDIR_SUPPORT=	user-destdir
 
 # BUILD_MAKE_FLAGS+= VERBOSE=1
 
@@ -55,7 +56,7 @@ BUILDLINK_DEPMETHOD.qt4-tools=		full
 .include "../../wip/kde4/kde4.mk"
 
 BUILDLINK_API_DEPENDS.strigi+=	strigi>=0.5.11
-BUILDLINK_API_DEPENDS.soprano+=	soprano>=2.1.1
+BUILDLINK_API_DEPENDS.soprano+=	soprano>=2.1.64
 
 .include "../../archivers/bzip2/buildlink3.mk"
 .include "../../sysutils/strigi/buildlink3.mk"
