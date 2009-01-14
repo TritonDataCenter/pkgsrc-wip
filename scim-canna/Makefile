@@ -1,14 +1,17 @@
 # $NetBSD$
 #
 
-DISTNAME=		scim-canna-0.1.3
+DISTNAME=		scim-canna-1.0.1
 CATEGORIES=		inputmethod
-MASTER_SITES=		${MASTER_SITE_SOURCEFORGE_JP:=scim-imengine/16250/}
+MASTER_SITES=		${MASTER_SITE_SOURCEFORGE_JP:=scim-imengine/29155/}
 
-MAINTAINER=		rxg@NetBSD.org
+MAINTAINER=		obache@NetBSD.org
 HOMEPAGE=		http://scim-imengine.sourceforge.jp/
 COMMENT=		SCIM IMEngine module for Canna
 
+PKG_DESTDIR_SUPPORT=	user-destdir
+
+USE_LANGUAGES+=		c c++
 USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=		yes
 USE_TOOLS+=		msgfmt pkg-config
