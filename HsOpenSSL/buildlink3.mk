@@ -13,10 +13,12 @@ BUILDLINK_ORDER:=	${BUILDLINK_ORDER} ${BUILDLINK_DEPTH}HsOpenSSL
 
 .if ${HSOPENSSL_BUILDLINK3_MK} == "+"
 BUILDLINK_DEPMETHOD.HsOpenSSL?=	build
-BUILDLINK_API_DEPENDS.HsOpenSSL+=	HsOpenSSL>=0.4.2
+BUILDLINK_API_DEPENDS.HsOpenSSL+=	HsOpenSSL>=0.5
 BUILDLINK_PKGSRCDIR.HsOpenSSL?=	../../wip/HsOpenSSL
 .endif	# HSOPENSSL_BUILDLINK3_MK
 
 .include "../../security/openssl/buildlink3.mk"
+.include "../../wip/hs-network/buildlink3.mk"
+.include "../../wip/hs-time/buildlink3.mk"
 
 BUILDLINK_DEPTH:=		${BUILDLINK_DEPTH:S/+$//}
