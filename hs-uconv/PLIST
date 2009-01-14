@@ -1,0 +1,9 @@
+@comment $NetBSD$
+lib/uconv-${PKGVERSION}/${HASKELL_VERSION}/Codec/Text/UConv.hi
+lib/uconv-${PKGVERSION}/${HASKELL_VERSION}/HSuconv-${PKGVERSION}.o
+lib/uconv-${PKGVERSION}/${HASKELL_VERSION}/libHSuconv-${PKGVERSION}.a
+lib/uconv-${PKGVERSION}/${HASKELL_VERSION}/package-description
+share/doc/uconv-${PKGVERSION}/LICENSE
+@dirrm share/doc/uconv-${PKGVERSION}
+@dirrm lib/uconv-${PKGVERSION}/${HASKELL_VERSION}/Codec/Text
+@dirrm lib/uconv-${PKGVERSION}/${HASKELL_VERSION}
