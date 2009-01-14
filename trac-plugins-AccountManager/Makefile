@@ -1,7 +1,8 @@
 # $NetBSD$
 
 DISTNAME=	TracAccountManager-0.2.1dev
-PKGNAME=	trac-plugins-AccountManager-0.2.1pre3857
+PKGNAME=	trac-plugins-AccountManager-0.2.1pre4638
+PKGREVISION=	# empty
 EGG_NAME=	${DISTNAME}
 CATEGORIES=	www
 MASTER_SITES=	# not defined
@@ -17,7 +18,7 @@ DEPENDS+=	{ja-,}trac>=0.11:../../www/trac
 SVN_REPOSITORIES=	acct_mgr
 SVN_ROOT.acct_mgr=	http://trac-hacks.org/svn/accountmanagerplugin/trunk
 SVN_MODULE.acct_mgr=	#
-SVN_TAG.acct_mgr=	3857
+SVN_TAG.acct_mgr=	4638
 
 NO_CHECKSUM=	yes
 

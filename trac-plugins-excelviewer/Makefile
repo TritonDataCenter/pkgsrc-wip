@@ -2,6 +2,7 @@
 
 DISTNAME=	excelviewerplugin-0.1dev_r687
 PKGNAME=	trac-plugins-excelviewer-0.1.687
+PKGREVISION=	# empty
 EGG_NAME=	TracExcelViewer-0.1
 CATEGORIES=	www
 MASTER_SITES=	# not defined
