@@ -1,14 +1,17 @@
 # $NetBSD$
 #
 
-DISTNAME=		scim-tables-0.5.6
+DISTNAME=		scim-tables-0.5.8
 CATEGORIES=		inputmethod
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=scim/}
 
-MAINTAINER=		rxg@NetBSD.org
+MAINTAINER=		obache@NetBSD.org
 HOMEPAGE=		http://www.scim-im.org/
 COMMENT=		Data files for SCIM Generic Table Input Method module
 
+PKG_DESTDIR_SUPPORT=	user-destdir
+
+USE_LANGUAGES+=		c c++
 USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=		yes
 USE_TOOLS+=		msgfmt pkg-config
