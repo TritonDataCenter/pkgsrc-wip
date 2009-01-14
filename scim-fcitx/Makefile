@@ -7,17 +7,22 @@ CATEGORIES=		inputmethod
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=scim/}
 EXTRACT_SUFX=		.tar.bz2
 
-MAINTAINER=		rxg@NetBSD.org
+MAINTAINER=		obache@NetBSD.org
 HOMEPAGE=		http://www.scim-im.org/
 COMMENT=		Fcitx ported to SCIM
+
+PKG_DESTDIR_SUPPORT=	user-destdir
 
 CONFLICTS=		fcitx-[0-9]*
 
 WRKSRC=			${WRKDIR}/fcitx
 
+USE_LANGUAGES=		c c++
 USE_LIBTOOL=		yes
 USE_TOOLS+=		pkg-config
 GNU_CONFIGURE=		yes
+
+MAKE_JOBS_SAFE=		no
 
 .include "../../devel/gettext-lib/buildlink3.mk"
 .include "../../wip/scim/buildlink3.mk"
