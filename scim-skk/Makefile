@@ -5,10 +5,13 @@ DISTNAME=		scim-skk-0.5.2
 CATEGORIES=		inputmethod
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE_JP:=scim-imengine/18121/}
 
-MAINTAINER=		rxg@NetBSD.org
+MAINTAINER=		obache@NetBSD.org
 HOMEPAGE=		http://scim-imengine.sourceforge.jp/
 COMMENT=		SCIM IMEngine module for skk
 
+PKG_DESTDIR_SUPPORT=	user-destdir
+
+USE_LANGUAGES+=		c++ c
 USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=		yes
 USE_TOOLS+=		msgfmt pkg-config
