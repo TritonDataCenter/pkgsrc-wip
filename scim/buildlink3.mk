@@ -12,7 +12,7 @@ BUILDLINK_PACKAGES+=	scim
 BUILDLINK_ORDER:=	${BUILDLINK_ORDER} ${BUILDLINK_DEPTH}scim
 
 .if ${SCIM_BUILDLINK3_MK} == "+"
-BUILDLINK_API_DEPENDS.scim+=	scim>=1.4.4
+BUILDLINK_API_DEPENDS.scim+=	scim>=1.4.7
 BUILDLINK_PKGSRCDIR.scim?=	../../wip/scim
 
 PRINT_PLIST_AWK+=	/^@dirrm lib\/scim-1.0\/1.4.0$$/ { next; }
