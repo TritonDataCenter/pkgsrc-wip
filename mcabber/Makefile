@@ -2,7 +2,7 @@
 
 DISTNAME=		mcabber-0.9.7
 CATEGORIES=		chat
-MASTER_SITES=		http://www.lilotux.net/~mikael/mcabber/files/
+MASTER_SITES=		http://mirror.mcabber.com/files/
 EXTRACT_SUFX=		.tar.bz2
 
 
