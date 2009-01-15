@@ -7,7 +7,6 @@ PKGNAME=		${DISTNAME:S/stdlib/${LUA_PKGPREFIX}-stdlib/}
 COMMENT=		Standard library for Lua programming language
 
 INSTALLATION_DIRS+=	${LUA_LDIR}
-PLIST_SUBST+=		MODULES_DIR=${LUA_LDIR}
 
 do-install:
 	${INSTALL_DATA} ${WRKSRC}/modules/*.lua \
