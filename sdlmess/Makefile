@@ -1,8 +1,8 @@
 # $NetBSD$
 #
 
-DISTNAME=		sdlmess0126
-PKGNAME=		sdlmess-0.126
+DISTNAME=		sdlmess0129
+PKGNAME=		sdlmess-0.129
 
 COMMENT=		Multi Emulator Super System, SDL port
 

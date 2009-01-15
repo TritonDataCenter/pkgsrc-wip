@@ -2,8 +2,8 @@
 #
 
 # Don't update to 0.XXXuN, those are development snapshots.
-DISTNAME=		sdlmame0126
-PKGNAME=		sdlmame-0.126
+DISTNAME=		sdlmame0129
+PKGNAME=		sdlmame-0.129
 
 COMMENT=		Multiple Arcade Machine Emulator, SDL port
 

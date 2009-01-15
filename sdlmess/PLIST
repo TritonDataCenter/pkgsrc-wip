@@ -353,6 +353,7 @@ share/mess/hash/p2000t.hsi
 share/mess/hash/pce.hsi
 share/mess/hash/pdp1.hsi
 share/mess/hash/pet.hsi
+share/mess/hash/pico.hsi
 share/mess/hash/pokemini.hsi
 share/mess/hash/psx.hsi
 share/mess/hash/samcoupe.hsi
