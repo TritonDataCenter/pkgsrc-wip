@@ -12,14 +12,18 @@ BUILDLINK_PACKAGES+=	Lucu
 BUILDLINK_ORDER:=	${BUILDLINK_ORDER} ${BUILDLINK_DEPTH}Lucu
 
 .if ${LUCU_BUILDLINK3_MK} == "+"
-BUILDLINK_DEPMETHOD.Lucu?=	build
-BUILDLINK_API_DEPENDS.Lucu+=	Lucu>=0.1
+BUILDLINK_API_DEPENDS.Lucu+=	Lucu>=0.2
 BUILDLINK_PKGSRCDIR.Lucu?=	../../wip/Lucu
 .endif	# LUCU_BUILDLINK3_MK
 
 .include "../../wip/HsOpenSSL/buildlink3.mk"
+.include "../../wip/haskell-src/buildlink3.mk"
 .include "../../wip/hs-dataenc/buildlink3.mk"
+.include "../../wip/hs-mtl/buildlink3.mk"
+.include "../../wip/hs-network/buildlink3.mk"
+.include "../../wip/hs-time/buildlink3.mk"
 .include "../../wip/hs-zlib/buildlink3.mk"
 .include "../../wip/hxt/buildlink3.mk"
+.include "../../wip/stm/buildlink3.mk"
 
 BUILDLINK_DEPTH:=	${BUILDLINK_DEPTH:S/+$//}
