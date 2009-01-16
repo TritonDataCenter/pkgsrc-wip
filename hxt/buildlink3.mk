@@ -17,6 +17,7 @@ BUILDLINK_API_DEPENDS.hxt+=	hxt>=8.2.0
 BUILDLINK_PKGSRCDIR.hxt?=	../../wip/hxt
 .endif	# HXT_BUILDLINK3_MK
 
+.include "../../wip/HUnit/buildlink3.mk"
 .include "../../wip/hs-curl/buildlink3.mk"
 .include "../../wip/hs-network/buildlink3.mk"
 .include "../../wip/hs-parallel/buildlink3.mk"
