@@ -29,10 +29,6 @@ MAKE_JOBS_SAFE=		no
 # Problems:
 # 1. Building X11 interfaces requires X server running.
 # We should run Xvfb for that stage.
-# 2. ECL 0.9l (0.9.12 in pkgsrc) doesn't work, later version required.
-# 3. DESTDIR support is broken:
-# Starting interpsys
-# spad = "/var/tmp/pkgobj/wip/fricas/work/fricas-1.0.4/target/i386--netbsdelf"
 # 4. Emacs files should go into "site-lisp".
 
 #INSTALLATION_DIRS=	lib/fricas/emacs
