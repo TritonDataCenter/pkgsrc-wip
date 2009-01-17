@@ -52,6 +52,7 @@ lib/clisp/linkkit/clisp.h
 lib/clisp/linkkit/modprep.lisp
 lib/clisp/linkkit/modules.c
 man/man1/clisp.1
+share/aclocal/clisp.m4
 share/clisp/emacs/clhs.el
 share/clisp/emacs/clisp-coding.el
 share/clisp/emacs/clisp-ffi.el
