@@ -1,4 +1,4 @@
-$NetBSD: patch-aa,v 1.16 2008/02/29 19:34:44 tnn Exp $
+$NetBSD$
 
 Don't use cache file to avoid trailing space problem.
 
