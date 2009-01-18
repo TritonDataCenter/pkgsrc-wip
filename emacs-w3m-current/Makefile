@@ -41,5 +41,7 @@ pre-configure:
 	(cd ${WRKSRC} ; autoconf)
 
 #.include "../../mk/oss.buildlink3.mk"
+.include "../../devel/apel/buildlink3.mk"
+.include "../../devel/flim/buildlink3.mk"
 .include "../../wip/mk/cvs-package.mk"
 .include "../../mk/bsd.pkg.mk"
