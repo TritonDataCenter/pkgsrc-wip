@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	bsnes_v038
+DISTNAME=	bsnes_v039
 PKGNAME=	${DISTNAME:S/_v0/-0./}
 CATEGORIES=	emulators
 MASTER_SITES=	http://byuu.cinnamonpirate.com/files/
@@ -14,7 +14,7 @@ COMMENT=	SNES emulator
 WRKSRC=		${WRKDIR}/src
 USE_DIRS=	xdg-1.4
 USE_LANGUAGES=	c c++
-USE_TOOLS+=	gmake
+USE_TOOLS+=	gmake pkg-config
 MAKE_FLAGS+=	platform=x compiler=gcc enable_gzip=true
 
 do-install:
