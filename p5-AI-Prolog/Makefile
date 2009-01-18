@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	AI-Prolog-0.739
+DISTNAME=	AI-Prolog-0.740
 PKGNAME=	p5-${DISTNAME}
 CATEGORIES=	perl5 lang
 MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=AI/}
@@ -19,6 +19,8 @@ DEPENDS+=	p5-Term-ReadLine>=1.01:../../devel/p5-Term-ReadLine
 DEPENDS+=	p5-Text-Balanced>=1.95:../../textproc/p5-Text-Balanced
 DEPENDS+=	p5-Text-Quote>=0.03:../../wip/p5-Text-Quote
 DEPENDS+=	p5-aliased>=0.11:../../devel/p5-aliased
+
+PKG_DESTDIR_SUPPORT=    user-destdir
 
 PERL5_PACKLIST=	auto/AI/Prolog/.packlist
 USE_LANGUAGES=	# none
