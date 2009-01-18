@@ -13,8 +13,10 @@ BUILDLINK_ORDER:=	${BUILDLINK_ORDER} ${BUILDLINK_DEPTH}FileManip
 
 .if ${FILEMANIP_BUILDLINK3_MK} == "+"
 BUILDLINK_DEPMETHOD.FileManip?=	build
-BUILDLINK_API_DEPENDS.FileManip+=	FileManip>=0.3.2
+BUILDLINK_API_DEPENDS.FileManip+=	FileManip>=0.3.2nb1
 BUILDLINK_PKGSRCDIR.FileManip?=	../../wip/FileManip
 .endif	# FILEMANIP_BUILDLINK3_MK
+
+.include "../../wip/hs-mtl/buildlink3.mk"
 
 BUILDLINK_DEPTH:=		${BUILDLINK_DEPTH:S/+$//}
