@@ -12,7 +12,7 @@ BUILDLINK_PACKAGES+=	xulrunner
 BUILDLINK_ORDER:=	${BUILDLINK_ORDER} ${BUILDLINK_DEPTH}xulrunner
 
 .if ${XULRUNNER_BUILDLINK3_MK} == "+"
-BUILDLINK_API_DEPENDS.xulrunner+=	xulrunner>=1.9rc1
+BUILDLINK_API_DEPENDS.xulrunner+=	xulrunner>=1.9.0.5
 BUILDLINK_PKGSRCDIR.xulrunner?=	../../wip/xulrunner
 .endif	# XULRUNNER_BUILDLINK3_MK
 
