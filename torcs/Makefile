@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	torcs-1.3.0
+DISTNAME=	torcs-1.3.1
 CATEGORIES=	games
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=torcs/}
 EXTRACT_SUFX=	.tar.bz2
