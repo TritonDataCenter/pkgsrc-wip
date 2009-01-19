@@ -12,7 +12,11 @@ COMMENT=	Advanced Linux Sound Architecture plugins
 
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
-USE_TOOLS+=	pkg-config
+USE_TOOLS+=	aclocal autoconf autoheader automake pkg-config
+
+pre-configure:
+	set -e; cd ${WRKSRC}; \
+	aclocal; autoheader; automake -a --foreign -i; autoconf
 
 .include "../../wip/alsa-lib/buildlink3.mk"
 .include "../../mk/dlopen.buildlink3.mk"
