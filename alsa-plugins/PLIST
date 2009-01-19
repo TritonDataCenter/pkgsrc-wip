@@ -7,4 +7,3 @@ lib/alsa-lib/libasound_module_pcm_vdownmix.la
 lib/alsa-lib/libasound_module_rate_speexrate.la
 lib/alsa-lib/libasound_module_rate_speexrate_best.so
 lib/alsa-lib/libasound_module_rate_speexrate_medium.so
-@dirrm lib/alsa-lib
