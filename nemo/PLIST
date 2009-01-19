@@ -2,10 +2,14 @@
 bin/nemo
 bin/nemo.exe
 share/applications/nemo.desktop
+share/locale/ar/LC_MESSAGES/nemo.mo
 share/locale/cs/LC_MESSAGES/nemo.mo
 share/locale/da/LC_MESSAGES/nemo.mo
 share/locale/de/LC_MESSAGES/nemo.mo
 share/locale/el/LC_MESSAGES/nemo.mo
+share/locale/fi/LC_MESSAGES/nemo.mo
+share/locale/fr/LC_MESSAGES/nemo.mo
+share/locale/pt_BR/LC_MESSAGES/nemo.mo
 share/locale/sv/LC_MESSAGES/nemo.mo
 share/nemo/nemo.png
 share/nemo/no-preview.png

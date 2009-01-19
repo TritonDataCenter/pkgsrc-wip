@@ -1,8 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	nemo-0.2.2
-PKGREVISION=	3
+DISTNAME=	nemo-0.2.3
 CATEGORIES=	sysutils
 MASTER_SITES=	http://www.iola.dk/nemo/downloads/
 EXTRACT_SUFX=	.tar.bz2
