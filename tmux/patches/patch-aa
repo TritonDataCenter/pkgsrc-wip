@@ -11,13 +11,14 @@ $NetBSD$
  CFLAGS+= -DMETA="'${META}'"
  .ifdef PROFILE
  # Don't use ccache
-@@ -82,6 +82,11 @@ LIBS+= -lutil -lncurses
+@@ -82,6 +82,12 @@ LIBS+= -lutil -lncurses
  CFLAGS+= -DUSE_LIBUTIL_H
  .endif
  
 +.if ${OS} == "NetBSD"
 +SRCS+= compat/strtonum.c compat/vis.c
 +LIBS+= -lcrypt
++CFLAGS+=-DNO_STRTONUM
 +.endif
 +
  OBJS= ${SRCS:S/.c/.o/:S/.y/.o/}

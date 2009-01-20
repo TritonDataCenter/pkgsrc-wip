@@ -10,6 +10,10 @@ COMMENT=	BSD-licensed terminal multiplexer (GNU Screen alternative)
 
 NO_CONFIGURE=	yes
 USE_NCURSES=	yes
+DEBUG_FLAGS?=no
+.if ${DEBUG_FLAGS} == "yes"
+CFLAGS+= -g
+.endif
 
 INSTALLATION_DIRS=	${DESTDIR}${PREFIX}/${PKGMANDIR}/man1 ${DESTDIR}${PREFIX}/bin
 
