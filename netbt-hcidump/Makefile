@@ -5,7 +5,7 @@ CATEGORIES=		sysutils
 MASTER_SITES=		http://bluez.sourceforge.net/download/	\
 			http://www.kernel.org/pub/linux/bluetooth/
 DISTFILES=		bluez-hcidump-1.42.tar.gz	\
-			bluez-4.17.tar.gz
+			bluez-4.27.tar.gz
 
 MAINTAINER=		plunky@rya-online.net
 HOMEPAGE=		http://www.bluez.org/
@@ -17,7 +17,7 @@ CONFLICTS+=		hcidump-[0-9]* bluez-hcidump-[0-9]*
 INSTALLATION_DIRS=	sbin ${PKGMANDIR}/cat8 ${PKGMANDIR}/man8
 
 WRKSRC=			${WRKDIR}/bluez-hcidump-1.42
-LIBSRC=			${WRKDIR}/bluez-4.17
+LIBSRC=			${WRKDIR}/bluez-4.27
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 PKG_OPTIONS_VAR=	PKG_OPTIONS.hcidump
