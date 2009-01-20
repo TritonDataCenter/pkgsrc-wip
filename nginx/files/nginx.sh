@@ -12,6 +12,7 @@ rcvar=${name}
 command="@PREFIX@/sbin/${name}"
 required_files="@PKG_SYSCONFDIR@/${name}.conf"
 pidfile="@VARBASE@/run/${name}.pid"
+start_precmd="ulimit -n 2048"
 
 load_rc_config $name
 run_rc_command "$1"
