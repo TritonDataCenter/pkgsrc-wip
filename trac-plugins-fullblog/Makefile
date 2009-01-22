@@ -2,6 +2,7 @@
 
 DISTNAME=	TracFullBlog-0.1dev
 PKGNAME=	trac-plugins-fullblog-0.1pre5070
+PKGREVISION=	# blank on purpose even though pkglint moans
 EGG_NAME=	${DISTNAME}
 CATEGORIES=	www
 

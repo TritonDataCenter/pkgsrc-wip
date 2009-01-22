@@ -2,6 +2,7 @@
 
 DISTNAME=	TracSpamFilter-0.1dev
 PKGNAME=	trac-plugins-spamfilter-0.1pre7539
+PKGREVISION=	# blank on purpose even though pkglint moans
 EGG_NAME=	${DISTNAME}
 CATEGORIES=	www
 
