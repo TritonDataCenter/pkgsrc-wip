@@ -1,0 +1,4 @@
+@comment $NetBSD$
+bin/dhcpcd-gtk
+share/examples/dhcpcd-gtk/dhcpcd-gtk.desktop
+@dirrm share/examples/dhcpcd-gtk

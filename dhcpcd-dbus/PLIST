@@ -1,0 +1,5 @@
+@comment $NetBSD$
+libexec/dhcpcd-dbus
+share/dbus-1/system-services/name.marples.roy.dhcpcd.service
+share/examples/dhcpcd-dbus/dhcpcd-dbus.conf
+@dirrm share/examples/dhcpcd-dbus
