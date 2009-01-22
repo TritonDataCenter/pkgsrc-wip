@@ -1,0 +1,13 @@
+$NetBSD$
+
+--- mkcabal.hs.orig	2008-06-18 05:17:21.000000000 +0900
++++ mkcabal.hs
+@@ -30,7 +30,7 @@ import System.Environment
+ import System.Time
+ import System.Locale
+ import Control.Monad.Reader
+-import Control.Exception
++import Control.OldException
+ import Data.Char
+ import Data.Maybe
+ import Text.PrettyPrint.HughesPJ

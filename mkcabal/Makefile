@@ -3,24 +3,13 @@
 
 DISTNAME=	mkcabal-0.4.1.1
 CATEGORIES=	devel
-MASTER_SITES=	${MASTER_SITE_HASKELL_HACKAGE:=mkcabal/0.4.1.1/}
 
 MAINTAINER=	pho@cielonegro.org
-HOMEPAGE=	http://hackage.haskell.org/cgi-bin/hackage-scripts/package/mkcabal
+HOMEPAGE=	http://code.haskell.org/~dons/code/mkcabal
 COMMENT=	Generate cabal files for a Haskell project
 
-do-configure:
-	cd ${WRKSRC} && \
-		runghc Setup.*hs configure --prefix=${PREFIX}
-
-do-build:
-	cd ${WRKSRC} && \
-		runghc Setup.*hs build
-
-do-install:
-	cd ${WRKSRC} && \
-		runghc Setup.*hs copy
-
-.include "../../lang/ghc/buildlink3.mk"
+.include "../../wip/mk/haskell.mk"
+.include "../../wip/hs-mtl/buildlink3.mk"
 .include "../../wip/hs-pcre-light/buildlink3.mk"
+.include "../../wip/hs-readline/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
