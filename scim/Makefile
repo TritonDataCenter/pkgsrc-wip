@@ -36,9 +36,13 @@ CONF_FILES+=		${EGDIR}/global ${PKG_SYSCONFDIR}/global
 
 INSTALL_MAKE_FLAGS+=	sysconfdir=${PREFIX}/share/examples
 
+# for DLOPEN_REQUIRE_PTHREADS
+PTHREAD_AUTO_VARS=	yes
+
 .include "../../devel/gettext-lib/buildlink3.mk"
 .include "../../x11/gtk2/modules.mk"
 .include "../../x11/libICE/buildlink3.mk"
 BUILDLINK_DEPMETHOD.libXt=	build
 .include "../../x11/libXt/buildlink3.mk"
+.include "../../mk/dlopen.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
