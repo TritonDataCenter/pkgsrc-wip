@@ -12,8 +12,8 @@ HOMEPAGE=		http://www.mozilla.org/projects/calendar/sunbird/
 CONFIGURE_ENV+=		MOZ_SUNBIRD=1
 MAKE_ENV+=		MOZ_SUNBIRD=1
 
-DISTINFO_FILE=		${.CURDIR}/../../time/sunbird/distinfo
-PATCHDIR=		${.CURDIR}/../../time/sunbird/patches
+DISTINFO_FILE=		${.CURDIR}/../../wip/sunbird/distinfo
+PATCHDIR=		${.CURDIR}/../../wip/sunbird/patches
 
 CONFIGURE_ARGS+=	--enable-application=calendar
 CONFIGURE_ARGS+=	--enable-system-cairo

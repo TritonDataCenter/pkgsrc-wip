@@ -7,5 +7,5 @@ COMMENT=		Mozilla stand-alone calendar application
 MOZILLA_USE_GTK2=	# yes
 MOZILLA_USE_XFT=	YES
 
-.include "../../time/sunbird/Makefile-sunbird.common"
+.include "../../wip/sunbird/Makefile-sunbird.common"
 .include "../../mk/bsd.pkg.mk"
