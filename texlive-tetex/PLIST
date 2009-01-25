@@ -82,6 +82,7 @@ share/texmf/texconfig/tcfmgr.map
 share/texmf/texconfig/v/vt100
 share/texmf/texconfig/x/xterm
 share/texmf/web2c/fmtutil.cnf
+share/texmf/web2c/updmap.cfg
 @dirrm share/texmf/texconfig/x
 @dirrm share/texmf/texconfig/v
 @dirrm share/texmf/texconfig/g

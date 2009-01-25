@@ -23,11 +23,27 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 GNU_CONFIGURE=	yes
 WRKSRC=		${WRKDIR}/${DISTNAME}/texk/tetex
 
+PKG_SYSCONFSUBDIR=	texmf
+
+MAKE_DIRS+=	${PKG_SYSCONFDIR}/web2c
+CONF_FILES+=	${PREFIX}/share/texmf/web2c/fmtutil.cnf \
+		${PKG_SYSCONFDIR}/web2c/fmtutil.cnf
+CONF_FILES+=	${PREFIX}/share/texmf/web2c/updmap.cfg \
+		${PKG_SYSCONFDIR}/web2c/updmap.cfg
+
 INSTALL_MAKE_FLAGS+=	prefix=${DESTDIR}${PREFIX} \
 			mandir=${DESTDIR}${PREFIX}/${PKGMANDIR}
 
+TEX_TEXMF_DIRS+=	${PKG_SYSCONFDIR}
 TEX_TEXMF_DIRS+=	${PREFIX}/share/texmf
 
 .include "../../print/kpathsea/buildlink3.mk"
 .include "../../print/kpathsea/texmf.mk"
+
+post-install:
+.for f in fmtutil.cnf updmap.cfg
+	${INSTALL_DATA} ${FILESDIR}/${f} \
+		${DESTDIR}${PREFIX}/share/texmf/web2c
+.endfor
+
 .include "../../mk/bsd.pkg.mk"

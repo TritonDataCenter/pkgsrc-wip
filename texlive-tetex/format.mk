@@ -13,7 +13,6 @@
 TEX_FORMAT_MK=		# defined
 
 DEPENDS+=		texlive-tetex>=2008:../../wip/texlive-tetex
-DEPENDS+=		tex-bin-texlive-[0-9]*:../../wip/tex-bin-texlive
 
 EVAL_PREFIX+=		TETEX_PREFIX=texlive-tetex
 FILES_SUBST+=		FMTUTIL_SYS=${TETEX_PREFIX:Q}/bin/fmtutil-sys
