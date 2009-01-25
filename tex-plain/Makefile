@@ -22,6 +22,8 @@ NO_CONFIGURE=	yes
 NO_BUILD=	yes
 WRKSRC=		${WRKDIR}
 
+TEX_TEXMF_DIRS+=	${PREFIX}/share/texmf-dist
+
 .include "../../print/kpathsea/texmf.mk"
 
 post-extract:
