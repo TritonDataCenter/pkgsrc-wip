@@ -23,4 +23,3 @@ share/texmf/scripts/texlive/tlmgrgui/lang/vi
 share/texmf/scripts/texlive/tlmgrgui/tlmgrgui-real.pl
 share/texmf/scripts/texlive/tlmgrgui/tlmgrgui.pl
 share/texmf/scripts/texlive/uninstall-win32.pl
-share/texmf/web2c/updmap-hdr.cfg
