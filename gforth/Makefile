@@ -39,7 +39,7 @@ SUBST_CLASSES+=			fix-version
 SUBST_STAGE.fix-version=	post-patch
 SUBST_MESSAGE.fix-version=	Fixing package version.
 SUBST_FILES.fix-version=	configure.in
-SUBST_SED.fix-version=		-e '/^AC_INIT(/s/\[[-.0-9]*\]/[${PKGVERSION}]/'
+SUBST_SED.fix-version=		-e '/^AC_INIT(/s/\[[-.0-9]*\]/[${PKGVERSION_NOREV}]/'
 # AC_INIT([gforth],[0.7.0-20081226],[https://savannah.gnu.org/bugs/?func=addbug&group=gforth])
 
 pre-configure:
