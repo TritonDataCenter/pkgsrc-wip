@@ -37,7 +37,6 @@ BUILDLINK_TRANSFORM+=	rm:-Werror
 .include "../../sysutils/gnome-vfs/buildlink3.mk"
 .include "../../x11/gtk2/buildlink3.mk"
 .include "../../lang/mono/buildlink3.mk"
-.include "../../lang/monodoc/buildlink3.mk"
 .include "../../multimedia/libogg/buildlink3.mk"
 .include "../../sysutils/ndesk-dbus/buildlink3.mk"
 .include "../../sysutils/ndesk-dbus-glib/buildlink3.mk"
