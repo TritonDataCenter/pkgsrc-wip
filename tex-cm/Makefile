@@ -21,6 +21,7 @@ NO_BUILD=	yes
 WRKSRC=		${WRKDIR}
 
 TEX_TEXMF_DIRS+=	${PREFIX}/share/texmf-dist
+
 TEX_MIXEDMAP_FILES+=	cmother-bsr.map
 TEX_MIXEDMAP_FILES+=	cmtext-bsr-interpolated.map
 TEX_MIXEDMAP_FILES+=	cmtext-bsr.map
