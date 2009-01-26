@@ -35,6 +35,10 @@ MAKE_JOBS_SAFE=		no
 
 .include "options.mk"
 
+.if !empty(PKG_OPTIONS:Mclisp)
+INSTALL_UNSTRIPPED=	yes	# don't strip AXIOMsys, it breaks FFI
+.endif
+
 .if !empty(PKG_OPTIONS:Mx11)
 post-build:
 # This should start Xvfb temporarily:
