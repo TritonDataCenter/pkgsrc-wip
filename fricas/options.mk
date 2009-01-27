@@ -6,9 +6,7 @@ PKG_OPTIONS_GROUP.lisp=		clisp sbcl ecl
 
 PKG_SUPPORTED_OPTIONS+=		x11
 
-# We should use CLISP instead of ECL, but it became problematic
-# in FriCAS 1.0.3:
-PKG_SUGGESTED_OPTIONS+=		ecl x11
+PKG_SUGGESTED_OPTIONS+=		clisp x11
 
 .include "../../mk/bsd.options.mk"
 
