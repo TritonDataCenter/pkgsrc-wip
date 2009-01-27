@@ -5,7 +5,7 @@ PKGREVISION=	1
 CATEGORIES=	misc
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=tmux/}
 
-MAINTAINER=	clamiax@gmail.com
+MAINTAINER=	oivulf@gmail.com
 HOMEPAGE=	http://tmux.sourceforge.net/
 COMMENT=	BSD-licensed terminal multiplexer (GNU Screen alternative)
 
