@@ -2,7 +2,7 @@
 
 DISTNAME=		latest
 PKGNAME=		wordpress-${VERSION}
-VERSION=		2.6.5
+VERSION=		2.7
 CATEGORIES=		www
 MASTER_SITES=		http://wordpress.org/
 EXTRACT_SUFX=		.zip
