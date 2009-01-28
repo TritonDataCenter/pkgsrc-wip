@@ -9,6 +9,7 @@ COMMENT=	Runtime requirements for the KDE integrated X11 desktop
 PKG_DESTDIR_SUPPORT=	user-destdir
 
 # BUILD_MAKE_FLAGS+= VERBOSE=1
+CMAKE_ARGS+=	-DWITH_PulseAudio:BOOL=off
 
 DEPENDS+=	htdig>=3.2.0:../../www/htdig-devel
 # DEPENDS+=	xine-xcb>=1.1.9:../../wip/xine-xcb
