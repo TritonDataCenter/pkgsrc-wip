@@ -1,6 +1,4 @@
 @comment $NetBSD$
-.lockfile
-etc/openvpn/openvpn-status.log
 share/doc/wordpress/license.txt
 share/doc/wordpress/readme.html
 share/examples/wordpress/wp-config-sample.php
