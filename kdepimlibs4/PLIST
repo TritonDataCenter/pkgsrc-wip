@@ -100,8 +100,6 @@ include/kabc/addressee.h
 include/kabc/addresseedialog.h
 include/kabc/addresseelist.h
 include/kabc/addresslineedit.h
-include/kabc/contactgroup.h
-include/kabc/contactgrouptool.h
 include/kabc/distributionlist.h
 include/kabc/distributionlistdialog.h
 include/kabc/emailselectdialog.h

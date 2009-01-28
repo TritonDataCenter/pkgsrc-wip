@@ -259,8 +259,8 @@ share/mime/packages/lancelotpart-mime.xml
 @comment in kde: @dirrm share/kde4
 @comment in kde: @dirrm share/kde/config
 @dirrm share/kde/apps/rssnow
-@dirrm share/kde/apps/plasma/services
-@dirrm share/kde/apps/plasma
+@comment in kdebase-workspace: @dirrm share/kde/apps/plasma/services
+@comment in kdebase-workspace: @dirrm share/kde/apps/plasma
 @dirrm share/kde/apps/desktoptheme/slim-glow/lancelot
 @dirrm share/kde/apps/desktoptheme/heron/lancelot
 @comment in kde: @dirrm share/kde/apps/desktoptheme/default/widgets

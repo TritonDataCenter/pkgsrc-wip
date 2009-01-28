@@ -65,6 +65,7 @@ bin/svn-clean
 bin/svn2dist
 bin/svnbackport
 bin/svnchangesince
+bin/svnforwardport
 bin/svngettags
 bin/svnintegrate
 bin/svnlastchange

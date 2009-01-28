@@ -219,7 +219,6 @@ share/kde4/services/libkcddb.desktop
 @dirrm share/doc/kde/HTML/en/kscd
 @dirrm share/doc/kde/HTML/en/kmix
 @dirrm share/doc/kde/HTML/en/kioslave/audiocd
-@dirrm share/doc/kde/HTML/en/kioslave
 @dirrm share/doc/kde/HTML/en/juk
 @dirrm share/doc/kde/HTML/en/dragonplayer
 @comment in kde: @dirrm share/doc/kde/HTML/en
