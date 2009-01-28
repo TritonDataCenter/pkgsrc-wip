@@ -1,8 +1,8 @@
 # $NetBSD: Makefile,v 1.1.1.1 2008/11/03 10:59:46 markd Exp $
 
-DISTNAME=	phonon-4.2.96
+DISTNAME=	phonon-4.3.0
 CATEGORIES=	multimedia
-MASTER_SITES=	${MASTER_SITE_KDE:=../unstable/4.1.96/src/}
+MASTER_SITES=	${MASTER_SITE_KDE:=4.2.0/src/}
 EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	markd@NetBSD.org
