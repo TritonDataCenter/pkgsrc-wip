@@ -2511,6 +2511,8 @@ share/emacs/${PKGVERSION}/lisp/org/org-export-latex.el.gz
 share/emacs/${PKGVERSION}/lisp/org/org-export-latex.elc
 share/emacs/${PKGVERSION}/lisp/org/org-faces.el.gz
 share/emacs/${PKGVERSION}/lisp/org/org-faces.elc
+share/emacs/${PKGVERSION}/lisp/org/org-footnote.el.gz
+share/emacs/${PKGVERSION}/lisp/org/org-footnote.elc
 share/emacs/${PKGVERSION}/lisp/org/org-gnus.el.gz
 share/emacs/${PKGVERSION}/lisp/org/org-gnus.elc
 share/emacs/${PKGVERSION}/lisp/org/org-id.el.gz
