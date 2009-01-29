@@ -61,6 +61,10 @@ HASKELL_TYPE?=	ghc
 # -----------------------------------------------------------------------------
 
 
+# Cabal packages usually supoprt DESTDIR with no root access.
+PKG_DESTDIR_SUPPORT?=	user-destdir
+
+
 # Declarations for ../../mk/misc/show.mk
 _VARGROUPS+=		haskell
 _USER_VARS.haskell=	HASKELL_TYPE
@@ -148,9 +152,9 @@ do-build:
 _HASKELL_PKG_DESCR_FILE=	${PREFIX}/lib/${DISTNAME}/${_HASKELL_VERSION}/package-description
 do-install:
 	cd ${WRKSRC} && \
-		${_RUNHASKELL_BIN} ${_CABAL_SETUP_SCRIPT} copy && \
+		${_RUNHASKELL_BIN} ${_CABAL_SETUP_SCRIPT} copy --destdir=${DESTDIR} && \
 		if [ -f dist/installed-pkg-config ]; then \
-			${INSTALL_DATA} dist/installed-pkg-config ${_HASKELL_PKG_DESCR_FILE}; \
+			${INSTALL_DATA} dist/installed-pkg-config ${DESTDIR}${_HASKELL_PKG_DESCR_FILE}; \
 		fi
 
 # Substitutions for INSTALL and DEINSTALL.
