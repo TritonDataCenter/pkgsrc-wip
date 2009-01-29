@@ -1,0 +1,12 @@
+$NetBSD$
+
+--- Test/QuickCheck/Exception.hs.orig	2008-09-28 05:42:49.000000000 +0900
++++ Test/QuickCheck/Exception.hs
+@@ -1,6 +1,6 @@
+ module Test.QuickCheck.Exception where
+ 
+-import Control.Exception
++import Control.OldException
+   ( evaluate
+   , try
+   , Exception
