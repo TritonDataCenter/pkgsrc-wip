@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	regex-base-0.93.1
+PKGNAME=	hs-${DISTNAME}
 CATEGORIES=	devel
 
 MAINTAINER=	pho@cielonegro.org
