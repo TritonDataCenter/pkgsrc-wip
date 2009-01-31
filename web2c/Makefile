@@ -31,6 +31,8 @@ EXTRACT_ELEMENTS=	${DISTNAME}/config \
 			${DISTNAME}/texk/mkinstalldirs \
 			${DISTNAME}/texk/web2c
 
+PKG_DESTDIR_SUPPORT=	user-destdir
+
 GNU_CONFIGURE=	yes
 INFO_FILES=	yes
 USE_LANGUAGES=	c c++
@@ -81,10 +83,10 @@ FILES_SUBST+=	KPSEWHICH=${BUILDLINK_PREFIX.kpathsea}/bin/kpsewhich \
 .include "../../print/kpathsea/buildlink3.mk"
 
 post-install:
-	${LN} -sf cweb.1 ${PREFIX}/${PKGMANDIR}/man1/ctangle.1
-	${LN} -sf cweb.1 ${PREFIX}/${PKGMANDIR}/man1/cweave.1
-	${LN} -sf mf.1 ${PREFIX}/${PKGMANDIR}/man1/mf-nowin.1
-	${LN} -sf dvicopy.1 ${PREFIX}/${PKGMANDIR}/man1/odvicopy.1
-	${LN} -sf dvitype.1 ${PREFIX}/${PKGMANDIR}/man1/odvitype.1
+	${LN} -sf cweb.1 ${DESTDIR}${PREFIX}/${PKGMANDIR}/man1/ctangle.1
+	${LN} -sf cweb.1 ${DESTDIR}${PREFIX}/${PKGMANDIR}/man1/cweave.1
+	${LN} -sf mf.1 ${DESTDIR}${PREFIX}/${PKGMANDIR}/man1/mf-nowin.1
+	${LN} -sf dvicopy.1 ${DESTDIR}${PREFIX}/${PKGMANDIR}/man1/odvicopy.1
+	${LN} -sf dvitype.1 ${DESTDIR}${PREFIX}/${PKGMANDIR}/man1/odvitype.1
 
 .include "../../mk/bsd.pkg.mk"
