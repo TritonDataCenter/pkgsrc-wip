@@ -22,6 +22,7 @@ USE_TOOLS+=	gmake
 
 BUILD_DEPENDS+=	jbigkit>=1.6:../../wip/jbigkit
 DEPENDS+=	cups>=1.1.14:../../print/cups
+DEPENDS+=	ghostscript>=8.0:../../print/ghostscript
 
 post-extract:
 	cd ${WRKDIR}/5440dl_64_v1.2.1/; \
