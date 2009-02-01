@@ -17,7 +17,7 @@ DEPENDS+=	tex-cm-[0-9]*:../../wip/tex-cm
 DEPENDS+=	tex-hyphen-base-[0-9]*:../../wip/tex-hyphen-base
 DEPENDS+=	tex-misc-[0-9]*:../../wip/tex-misc
 DEPENDS+=	tex-plain-[0-9]*:../../wip/tex-plain
-DEPENDS+=	web2c-[0-9]*:../../wip/web2c
+DEPENDS+=	web2c-[0-9]*:../../print/web2c
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
