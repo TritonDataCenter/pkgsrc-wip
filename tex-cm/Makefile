@@ -27,7 +27,7 @@ TEX_MIXEDMAP_FILES+=	cmtext-bsr-interpolated.map
 TEX_MIXEDMAP_FILES+=	cmtext-bsr.map
 
 .include "../../print/kpathsea/texmf.mk"
-.include "../../wip/texlive-tetex/map.mk"
+.include "../../print/texlive-tetex/map.mk"
 
 post-extract:
 	${FIND} ${WRKSRC}/texmf* -type d -exec ${CHMOD} ${PKGDIRMODE} {} \;
