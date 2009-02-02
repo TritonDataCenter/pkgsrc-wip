@@ -1,0 +1,4 @@
+@comment $NetBSD$
+bin/cabal-upload
+share/doc/${PKGNAME}/LICENSE
+@dirrm share/doc/${PKGNAME}
