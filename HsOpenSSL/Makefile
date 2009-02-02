@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	HsOpenSSL-0.5
+DISTNAME=	HsOpenSSL-0.5.1
 CATEGORIES=	security
 
 MAINTAINER=	pho@cielonegro.org
