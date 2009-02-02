@@ -22,7 +22,7 @@ BUILD_DIRS=		strings regex mysys dbug myisam myisammrg heap innobase vio libmysq
 CFLAGS+=		-fPIC -DPIC -I../libmysql
 CXXFLAGS+=		-fPIC -DPIC -I../libmysql
 
-INSTALLATION_DIRS=	lib/mysql
+INSTALLATION_DIRS=	bin lib/mysql
 
 .include "../../mk/bsd.prefs.mk"
 
