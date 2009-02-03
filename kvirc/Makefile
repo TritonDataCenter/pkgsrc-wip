@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		kvirc-3.2.3
-PKGREVISION=		1
+PKGREVISION=		2
 CATEGORIES=		chat
 MASTER_SITES=		ftp://ftp.kvirc.net/pub/kvirc/snapshots/source/
 EXTRACT_SUFX=		.tar.bz2
