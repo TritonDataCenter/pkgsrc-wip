@@ -18,8 +18,8 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 
 .include "options.mk"
 
-INSTALLATION_DIRS+=	${DESTDIR}${PREFIX}/share/doc/milkytracker
-INSTALLATION_DIRS+=	${DESTDIR]${PREFIX}/share/examples/milkytracker
+INSTALLATION_DIRS+=	share/doc/milkytracker
+INSTALLATION_DIRS+=	share/examples/milkytracker
 
 DOCDIR=			${DESTDIR}${PREFIX}/share/doc/milkytracker
 
