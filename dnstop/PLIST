@@ -1,0 +1,5 @@
+@comment $NetBSD$
+bin/dnstop
+man/man8/dnstop.8
+share/doc/dnstop/LICENSE
+@dirrm share/doc/dnstop
