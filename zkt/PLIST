@@ -1,0 +1,6 @@
+@comment $NetBSD$
+man/man8/dnssec-signer.8
+man/man8/dnssec-zkt.8
+sbin/dnssec-signer
+sbin/dnssec-zkt
+sbin/zkt-soaserial
