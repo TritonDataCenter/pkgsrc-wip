@@ -99,5 +99,3 @@ include/io/utf_convert.h
 lib/libiovmall.a
 lib/libiovmall.so
 @dirrm include/io
-@dirrm lib/io/addons
-@dirrm lib/io

@@ -4,7 +4,7 @@
 
 DISTNAME=		io-${IO_VERSION}
 PKGNAME=		io-vm-${IO_VERSION}
-PKGREVISION=		1
+#PKGREVISION=		1
 CATEGORIES=		lang
 MASTER_SITES=		${IO_MASTER_SITES}
 EXTRACT_SUFX=		.tar.bz2
@@ -36,7 +36,8 @@ INSTALLATION_DIRS=		bin include/io lib lib/io lib/io/addons
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/_build/binaries/io ${PREFIX}/bin
-	pax -rw -pp ${WRKSRC}/_build/headers/*.h ${PREFIX}/include/io/
+	${INSTALL_DATA_DIR} ${PREFIX}/include/io
+	cp ${WRKSRC}/_build/headers/*.h ${PREFIX}/include/io/
 	${INSTALL_LIB} ${WRKSRC}/_build/dll/libiovmall.so  ${PREFIX}/lib
 	${INSTALL_LIB} ${WRKSRC}/_build/lib/libiovmall.a  ${PREFIX}/lib
 
