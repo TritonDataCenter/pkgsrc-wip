@@ -1,9 +1,10 @@
 # $NetBSD$
 #
 
-DISTNAME=		dhcpcd-4.99.12
+DISTNAME=		dhcpcd-4.99.13
 CATEGORIES=		net
 MASTER_SITES=		ftp://roy.marples.name/pub/dhcpcd/
+MASTER_SITES+=		http://roy.aydogan.net/dhcpcd/
 EXTRACT_SUFX=		.tar.bz2
 
 MAINTAINER=		roy@marples.name
