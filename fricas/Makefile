@@ -1,6 +1,6 @@
 # $NetBSD$
 
-PKGNAME=		fricas-1.0.5
+PKGNAME=		fricas-1.0.99
 DISTNAME=		${PKGNAME}-full
 CATEGORIES=		math
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=fricas/}
@@ -15,8 +15,8 @@ SVN_REPOSITORIES=	fricas
 SVN_ROOT.fricas=	https://fricas.svn.sourceforge.net/svnroot/fricas/trunk
 SVN_MODULE.fricas=	fricas
 
-WRKSRC=			${WRKDIR}/${PKGNAME_NOREV}
-#WRKSRC=			${WRKDIR}/fricas
+#WRKSRC=			${WRKDIR}/${PKGNAME_NOREV}
+WRKSRC=			${WRKDIR}/fricas
 
 BUILD_DEPENDS+=		noweb-[0-9]*:../../devel/noweb
 
@@ -46,5 +46,5 @@ post-build:
 	cd ${WRKSRC}/src/paste && ${MAKE_PROGRAM} gphts
 .endif
 
-#.include "../mk/svn-package.mk"
+.include "../mk/svn-package.mk"
 .include "../../mk/bsd.pkg.mk"
