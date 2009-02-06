@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	zyGrib-3.1.0
+DISTNAME=	zyGrib-3.2.0
 CATEGORIES=	geography
 MASTER_SITES=	http://www.zygrib.org/files/
 EXTRACT_SUFX=	.tgz
