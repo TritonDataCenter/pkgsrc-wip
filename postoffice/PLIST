@@ -1,8 +1,8 @@
 @comment $NetBSD$
 bin/ndbm
 bin/runq
-libexec/authexpire
-libexec/postoffice
+lib/authexpire
+lib/postoffice
 man/man1/mailq.1
 man/man1/ndbm.1
 man/man1/newaliases.1
