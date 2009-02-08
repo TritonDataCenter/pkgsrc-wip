@@ -1,8 +1,8 @@
 # $NetBSD$
-# TeX Live Revision 11845
+# TeX Live Revision 12107
 
 DISTNAME=	bin-kpathsea
-PKGNAME=	tex-${DISTNAME}-2008.11845
+PKGNAME=	tex-${DISTNAME}-2008.12107
 CATEGORIES=	print
 MASTER_SITES=	${MASTER_SITE_TEX_CTAN:=systems/texlive/tlnet/2008/archive/}
 DIST_SUBDIR=	${PKGNAME_NOREV}
