@@ -13,7 +13,7 @@ SUBST_STAGE.options=	pre-build
 SUBST_MESSAGE.options=	Toggle the Xinerama support
 SUBST_FILES.options=	config.mk
 SUBST_SED.options+=	-e '/XINERAMA/ s/^\#//'
-.  include "../../x11/libXinerama/buildlink3.mk"
+.include "../../x11/libXinerama/buildlink3.mk"
 .else
-.  include "../../x11/libX11/buildlink3.mk"
+.include "../../x11/libX11/buildlink3.mk"
 .endif
