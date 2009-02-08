@@ -13,7 +13,7 @@ COMMENT=		Simple SMTP mail server and client
 HAS_CONFIGURE=		yes
 CONFIGURE_SCRIPT=	./configure.sh
 CONFIGURE_ARGS=		--prefix=${PREFIX} \
-			--confdir=${PREFIX} \
+			--confdir=${PKG_SYSCONFDIR} \
 			--use-mailwrappers \
 			--with-queuedir=${VARBASE}/spool/mqueue \
 			--with-auth \
