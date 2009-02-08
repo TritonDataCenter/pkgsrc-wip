@@ -16,6 +16,7 @@ USE_LANGUAGES=		c99
 
 EGDIR=			${PREFIX}/share/examples
 MAKE_ENV+=		MANDIR=${PREFIX}/${PKGMANDIR}/man
+MAKE_ENV+=		SYSCONFDIR=${PKG_SYSCONFDIR}
 INSTALL_MAKE_FLAGS+=	SYSCONFDIR=${EGDIR}
 
 # Install the configuration file
