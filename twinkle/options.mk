@@ -1,7 +1,7 @@
 # $NetBSD$
 
 PKG_OPTIONS_VAR=	PKG_OPTIONS.twinkle
-PKG_SUPPORTED_OPTIONS=	ilbc kde speex # zrtp
+PKG_SUPPORTED_OPTIONS=	ilbc kde speex zrtp
 PKG_SUGGESTED_OPTIONS=	kde speex
 
 .include "../../mk/bsd.options.mk"
@@ -24,8 +24,8 @@ CONFIGURE_ARGS+=	--without-kde
 CONFIGURE_ARGS+=	--without-speex
 .endif
 
-#.if !empty(PKG_OPTIONS:Mzrtp)
-#BROKEN=		libzrtpcpp not packaged yet.
-#.else
-#CONFIGURE_ARGS+=	--without-zrtp
-#.endif
+.if !empty(PKG_OPTIONS:Mzrtp)
+.include "../../wip/libzrtpcpp/buildlink3.mk"
+.else
+CONFIGURE_ARGS+=	--without-zrtp
+.endif
