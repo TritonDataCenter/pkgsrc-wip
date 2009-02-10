@@ -138,6 +138,9 @@ CONFIGURE_ARGS+=	--prefix=${PREFIX}
 CONFIGURE_ARGS+=	-p
 .endif
 
+# Optimization
+CONFIGURE_ARGS+=	-O2
+
 # package.conf and package.conf.old should be ignored at all.
 PRINT_PLIST_AWK+= \
 	/\/package\.conf(\.old)?$$/ { next; } \
