@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	utf8-string-0.3.3
+DISTNAME=	utf8-string-0.3.4
 PKGNAME=	hs-${DISTNAME}
 CATEGORIES=	converters
 
