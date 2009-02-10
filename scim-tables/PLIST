@@ -47,6 +47,7 @@ share/scim/icons/Punjabi-inscript.png
 share/scim/icons/Punjabi-jhelum.png
 share/scim/icons/Punjabi-phonetic.png
 share/scim/icons/Quick.png
+share/scim/icons/RussianTraditional.png
 share/scim/icons/Simplex.png
 share/scim/icons/Stroke5.png
 share/scim/icons/Tamil-inscript.png
@@ -99,6 +100,7 @@ share/scim/tables/Punjabi-inscript.bin
 share/scim/tables/Punjabi-jhelum.bin
 share/scim/tables/Punjabi-phonetic.bin
 share/scim/tables/Quick.bin
+share/scim/tables/RussianTraditional.bin
 share/scim/tables/Simplex.bin
 share/scim/tables/Stroke5.bin
 share/scim/tables/Tamil-inscript.bin

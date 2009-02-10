@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		scim-tables-0.5.8
+DISTNAME=		scim-tables-0.5.9
 CATEGORIES=		inputmethod
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=scim/}
 
