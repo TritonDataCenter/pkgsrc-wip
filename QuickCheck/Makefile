@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	QuickCheck-2.1.0.1
+PKGREVISION=	1
 CATEGORIES=	devel
 
 MAINTAINER=	pho@cielonegro.org
