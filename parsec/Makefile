@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	parsec-3.0.0
+PKGREVISION=	1
 CATEGORIES=	devel
 
 MAINTAINER=	pho@cielonegro.org
