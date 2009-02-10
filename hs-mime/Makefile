@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	mime-0.3.0
+PKGREVISION=	1
 PKGNAME=	hs-${DISTNAME}
 CATEGORIES=	devel
 
