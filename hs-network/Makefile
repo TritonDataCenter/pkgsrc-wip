@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	network-2.2.0.1
+PKGREVISION=	1
 PKGNAME=	hs-${DISTNAME}
 CATEGORIES=	devel
 
