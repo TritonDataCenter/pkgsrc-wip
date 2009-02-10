@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	tagsoup-0.6
+PKGREVISION=	1
 CATEGORIES=	textproc
 
 MAINTAINER=	pho@cielonegro.org
