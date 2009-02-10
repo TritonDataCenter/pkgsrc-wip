@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	curl-1.3.3
+DISTNAME=	curl-1.3.4
 PKGNAME=	hs-${DISTNAME}
 CATEGORIES=	devel
 

@@ -13,7 +13,7 @@ BUILDLINK_ORDER:=	${BUILDLINK_ORDER} ${BUILDLINK_DEPTH}hs-curl
 
 .if ${HS_CURL_BUILDLINK3_MK} == "+"
 BUILDLINK_DEPMETHOD.hs-curl?=	build
-BUILDLINK_API_DEPENDS.hs-curl+=	hs-curl>=1.3.2.1
+BUILDLINK_API_DEPENDS.hs-curl+=	hs-curl>=1.3.4
 BUILDLINK_PKGSRCDIR.hs-curl?=	../../wip/hs-curl
 .endif	# HS_CURL_BUILDLINK3_MK
 
