@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	iconv-0.4.0.2
+PKGREVISION=	1
 PKGNAME=	hs-${DISTNAME}
 CATEGORIES=	converters
 
