@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	HUnit-1.2.0.3
+PKGREVISION=	1
 CATEGORIES=	devel
 
 MAINTAINER=	pho@cielonegro.org
