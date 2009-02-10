@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	curl-1.3.4
+PKGREVISION=	1
 PKGNAME=	hs-${DISTNAME}
 CATEGORIES=	devel
 
