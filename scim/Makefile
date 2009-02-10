@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		scim-1.4.7
+DISTNAME=		scim-1.4.8
 CATEGORIES=		inputmethod
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=scim/}
 
