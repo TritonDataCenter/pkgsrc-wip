@@ -2,6 +2,8 @@
 #
 
 DISTNAME=	binary-0.4.4
+PKGREVISION=	1
+PKGNAME=	hs-${DISTNAME}
 CATEGORIES=	devel
 
 MAINTAINER=	pho@cielonegro.org
