@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	hxt-8.2.0
+PKGREVISION=	1
 CATEGORIES=	textproc
 
 MAINTAINER=	pho@cielonegro.org
