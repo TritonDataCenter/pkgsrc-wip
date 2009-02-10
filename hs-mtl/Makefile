@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	mtl-1.1.0.2
+PKGREVISION=	1
 PKGNAME=	hs-${DISTNAME}
 CATEGORIES=	devel
 
