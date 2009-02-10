@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	parallel-1.1.0.0
+PKGREVISION=	1
 PKGNAME=	hs-${DISTNAME}
 CATEGORIES=	devel
 
