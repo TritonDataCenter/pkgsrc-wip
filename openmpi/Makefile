@@ -19,6 +19,12 @@ CONFIGURE_ARGS+=	--disable-mpi-f90
 CONFIGURE_ARGS+=	--with-wrapper-ldflags="-L${PREFIX}/lib ${LINKER_RPATH_FLAG}${PREFIX}/lib"
 CONFIGURE_ENV+=		ompi_cv_f77_have_INTEGERp8=no	# no "INTEGER*8"??
 
+.include "../../mk/bsd.prefs.mk"
+
+.if ${OPSYS} == "FreeBSD"
+CONFIGURE_ENV+=		NM=/usr/bin/nm	# configure doesn't detect it
+.endif
+
 TEST_TARGET=	check
 
 .include "../../mk/bsd.pkg.mk"
