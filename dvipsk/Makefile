@@ -57,6 +57,7 @@ TEX_TEXMF_DIRS+=	${PREFIX}/share/texmf
 TEX_TEXMF_DIRS+=	${PREFIX}/share/texmf-dist
 
 .include "../../print/kpathsea/buildlink3.mk"
+.include "../../print/kpathsea/texmf.mk"
 
 post-build:
 	${MKDIR} ${WRKSRC}/texmf
