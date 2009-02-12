@@ -25,6 +25,7 @@ TEX_TEXMF_DIRS+=	${PREFIX}/share/texmf
 .include "../../print/kpathsea/texmf.mk"
 
 post-extract:
+	${RM} -rf ${WRKSRC}/texmf/dvips/base
 	${FIND} ${WRKSRC}/texmf* -type d -exec ${CHMOD} ${PKGDIRMODE} {} \;
 	${FIND} ${WRKSRC}/texmf* -type f -exec ${CHMOD} ${SHAREMODE} {} \;
 
