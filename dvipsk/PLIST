@@ -14,4 +14,4 @@ share/texmf/dvips/base/special.pro
 share/texmf/dvips/base/tex.pro
 share/texmf/dvips/base/texc.pro
 share/texmf/dvips/base/texps.pro
-share/texmf/dvips/config/config.ps
+share/texmf-dist/dvips/config/config.ps
