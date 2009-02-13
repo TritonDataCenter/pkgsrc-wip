@@ -1,10 +1,10 @@
 # $NetBSD$
 #
 
-DISTNAME=	xulrunner-1.9.0.5-source
+DISTNAME=	xulrunner-1.9.0.6-source
 PKGNAME=	${DISTNAME:S/-source//}
 CATEGORIES=	www devel
-MASTER_SITES=	${MASTER_SITE_MOZILLA:=xulrunner/releases/1.9.0.5/source/}
+MASTER_SITES=	${MASTER_SITE_MOZILLA:=xulrunner/releases/1.9.0.6/source/}
 EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
