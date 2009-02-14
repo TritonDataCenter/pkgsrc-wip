@@ -10,7 +10,8 @@ MAINTAINER=		eric@cirr.com
 HOMEPAGE=		http://code.google.com/p/pyaimt/
 COMMENT=		Transport connecting Jabber to the AOL IM network
 
-#
+PKG_DESTDIR_SUPPORT=	user-destdir
+
 # jabberd isn't really a dependency since the transport can run on a
 # different server than the main jabber server (not that many sites will
 # do that..)
@@ -46,19 +47,23 @@ MESSAGE_SUBST+=		HOMEPAGE=${HOMEPAGE:Q}
 CONF_FILES=	${EGDIR}/pyaimt.xml ${PKG_SYSCONFDIR}/pyaimt.xml
 
 do-install:
-	${INSTALL_SCRIPT_DIR} ${PREFIX}/${TRANSPORTDIR}
+	${INSTALL_SCRIPT_DIR} ${DESTDIR}${PREFIX}/${TRANSPORTDIR}
 	cd ${WRKSRC} && \
 	for i in `find src data tools \\( \\( -type f -name '*.orig' -o \
 		    -type d -name .svn \\) -prune \\) -o -type f -print` ;\
 	do \
-	    ${ECHO} "Installing $$i -> ${PREFIX}/${TRANSPORTDIR}/$$i";\
-	    ${INSTALL_SCRIPT_DIR} `${DIRNAME} ${PREFIX}/${TRANSPORTDIR}/$$i` ;\
-	    ${INSTALL_SCRIPT} $$i ${PREFIX}/${TRANSPORTDIR}/$$i ;\
+	    ${ECHO} "Installing $$i -> " \
+				"${DESTDIR}${PREFIX}/${TRANSPORTDIR}/$$i";\
+	    ${INSTALL_SCRIPT_DIR} \
+		` ${DIRNAME} ${DESTDIR}${PREFIX}/${TRANSPORTDIR}/$$i ` ;\
+	    ${INSTALL_SCRIPT} $$i ${DESTDIR}${PREFIX}/${TRANSPORTDIR}/$$i ;\
 	done
+	${INSTALL_DATA_DIR} ${DESTDIR}${PREFIX}/bin
 	cd ${WRKSRC} && \
-	    ${INSTALL_SCRIPT} PyAIMt.py ${PREFIX}/bin/PyAIMt
-	${INSTALL_DATA_DIR} ${EGDIR}
-	${INSTALL_DATA} ${WRKSRC}/config_example.xml ${EGDIR}/pyaimt.xml
+	    ${INSTALL_SCRIPT} PyAIMt.py ${DESTDIR}${PREFIX}/bin/PyAIMt
+	${INSTALL_DATA_DIR} ${DESTDIR}${EGDIR}
+	${INSTALL_DATA} ${WRKSRC}/config_example.xml \
+						${DESTDIR}${EGDIR}/pyaimt.xml
 
 SUBST_CLASSES+=		paths
 SUBST_MESSAGE.paths=	Localizing Paths

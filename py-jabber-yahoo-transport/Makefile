@@ -13,6 +13,8 @@ MAINTAINER=		eric@cirr.com
 HOMEPAGE=		http://xmpppy.sourceforge.net/
 COMMENT=		Transport connecting Jabber to the Yahoo! IM network
 
+PKG_DESTDIR_SUPPORT=	user-destdir
+
 #
 # jabberd isn't really a dependency since the transport can run on a
 # different server than the main jabber server (not that many sites will
@@ -49,20 +51,22 @@ CONF_FILES=	${EGDIR}/yahoo-transport.xml ${PKG_SYSCONFDIR}/yahoo-transport.xml
 do-build:
 
 do-install:
-	${INSTALL_SCRIPT_DIR} ${PREFIX}/${TRANSPORTDIR}
+	${INSTALL_SCRIPT_DIR} ${DESTDIR}${PREFIX}/${TRANSPORTDIR}
 	cd ${WRKSRC} && \
 	for i in `find . -type f -name '*.py' -print` ; do \
-	    ${ECHO} "Installing $$i -> ${PREFIX}/${TRANSPORTDIR}/$$i";\
-	    ${INSTALL_SCRIPT_DIR} `${DIRNAME} ${PREFIX}/${TRANSPORTDIR}/$$i` ;\
-	    ${INSTALL_DATA} $$i ${PREFIX}/${TRANSPORTDIR}/$$i ;\
-	    ${ECHO} "Compiling ${PREFIX}/${TRANSPORTDIR}/$$i." ;\
-	    ${PYTHONBIN} -m py_compile ${PREFIX}/${TRANSPORTDIR}/$$i ;\
+	    ${ECHO} "Installing $$i -> " \
+				"${DESTDIR}${PREFIX}/${TRANSPORTDIR}/$$i";\
+	    ${INSTALL_SCRIPT_DIR} \
+			`${DIRNAME} ${DESTDIR}${PREFIX}/${TRANSPORTDIR}/$$i`;\
+	    ${INSTALL_DATA} $$i ${DESTDIR}${PREFIX}/${TRANSPORTDIR}/$$i;\
+	    ${ECHO} "Compiling ${PREFIX}/${TRANSPORTDIR}/$$i.";\
+	    ${PYTHONBIN} -m py_compile ${DESTDIR}${PREFIX}/${TRANSPORTDIR}/$$i;\
 	done ;\
-	${INSTALL_DATA} ChangeLog ${PREFIX}/${TRANSPORTDIR}/ ;\
-	${INSTALL_SCRIPT} yahoo.py ${PREFIX}/${TRANSPORTDIR}
-	${INSTALL_DATA_DIR} ${EGDIR}
+	${INSTALL_DATA} ChangeLog ${DESTDIR}${PREFIX}/${TRANSPORTDIR}/ ;\
+	${INSTALL_SCRIPT} yahoo.py ${DESTDIR}${PREFIX}/${TRANSPORTDIR}
+	${INSTALL_DATA_DIR} ${DESTDIR}${EGDIR}
 	${INSTALL_DATA} ${WRKSRC}/config_example.xml \
-						${EGDIR}/yahoo-transport.xml
+					${DESTDIR}${EGDIR}/yahoo-transport.xml
 
 SUBST_CLASSES+=		paths
 SUBST_MESSAGE.paths=	Localizing Paths

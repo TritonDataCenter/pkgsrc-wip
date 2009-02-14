@@ -9,6 +9,8 @@ MAINTAINER=		eric@cirr.com
 HOMEPAGE=		http://xmpppy.sourceforge.net/
 COMMENT=		XMPP (Jabber) library for Python
 
+PKG_DESTDIR_SUPPORT=	user-destdir
+
 PYDISTUTILSPKG=		yes
 
 .include "../../lang/python/extension.mk"

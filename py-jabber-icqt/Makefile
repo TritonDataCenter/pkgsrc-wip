@@ -9,6 +9,8 @@ MAINTAINER=		eric@cirr.com
 HOMEPAGE=		http://code.google.com/p/pyicqt/
 COMMENT=		Transport connecting Jabber to the ICQ IM network
 
+PKG_DESTDIR_SUPPORT=	user-destdir
+
 CONFLICTS=		${PYPKGPREFIX}-jabber-pyicq-t-*
 
 #
@@ -50,19 +52,23 @@ MESSAGE_SUBST+=		HOMEPAGE=${HOMEPAGE}
 CONF_FILES=	${EGDIR}/pyicqt.xml ${PKG_SYSCONFDIR}/pyicqt.xml
 
 do-install:
-	${INSTALL_SCRIPT_DIR} ${PREFIX}/${TRANSPORTDIR}
+	${INSTALL_SCRIPT_DIR} ${DESTDIR}${PREFIX}/${TRANSPORTDIR}
 	cd ${WRKSRC} && \
 	for i in `find src data tools \\( \\( -type f -name '*.orig' -o \
 			-type f -name '*.orig_dist' -o \
 			-type d -name .svn \\) -prune \\) -o -type f -print` ;\
 	do \
-	    ${ECHO} "Installing $$i -> ${PREFIX}/${TRANSPORTDIR}/$$i";\
-	    ${INSTALL_SCRIPT_DIR} `${DIRNAME} ${PREFIX}/${TRANSPORTDIR}/$$i` ;\
-	    ${INSTALL_SCRIPT} $$i ${PREFIX}/${TRANSPORTDIR}/$$i ;\
+	    ${ECHO} "Installing $$i -> " \
+				    "${DESTDIR}${PREFIX}/${TRANSPORTDIR}/$$i";\
+	    ${INSTALL_SCRIPT_DIR} \
+			`${DIRNAME} ${DESTDIR}${PREFIX}/${TRANSPORTDIR}/$$i` ;\
+	    ${INSTALL_SCRIPT} $$i ${DESTDIR}${PREFIX}/${TRANSPORTDIR}/$$i ;\
 	done
-	${INSTALL_SCRIPT} ${WRKSRC}/PyICQt.py ${PREFIX}/bin/PyICQt
-	${INSTALL_DATA_DIR} ${EGDIR}
-	${INSTALL_DATA} ${WRKSRC}/config_example.xml ${EGDIR}/pyicqt.xml
+	${INSTALL_DATA_DIR} ${DESTDIR}${PREFIX}/bin
+	${INSTALL_SCRIPT} ${WRKSRC}/PyICQt.py ${DESTDIR}${PREFIX}/bin/PyICQt
+	${INSTALL_DATA_DIR} ${DESTDIR}${EGDIR}
+	${INSTALL_DATA} ${WRKSRC}/config_example.xml \
+						${DESTDIR}${EGDIR}/pyicqt.xml
 
 SUBST_CLASSES+=		paths
 SUBST_MESSAGE.paths=	Localizing Paths
