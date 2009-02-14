@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	zyGrib-maps-2
-CATEGORIES=	geography
+CATEGORIES=	misc
 MASTER_SITES=	http://www.zygrib.org/files/
 DISTFILES=	zyGrib_maps2.tgz
 
