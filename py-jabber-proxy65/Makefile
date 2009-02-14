@@ -42,6 +42,7 @@ INSTALLATION_DIRS=	share/doc/proxy65
 RCD_SCRIPTS=	proxy65
 
 post-install:
+	${INSTALL_DATA_DIR} ${DOCDIR}
 .for f in ${DOCFILES}
 	${INSTALL_DATA} ${WRKSRC}/${f} ${DOCDIR}
 .endfor
