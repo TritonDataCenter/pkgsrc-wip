@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		gromacs-3.3.3
+DISTNAME=		gromacs-4.0.3
 CATEGORIES=		biology
 MASTER_SITES=		ftp://ftp.gromacs.org/pub/gromacs/
 
@@ -19,6 +19,8 @@ GNU_CONFIGURE=		yes
 CONFIGURE_ARGS+=	--enable-double --program-suffix=
 
 #TEST_TARGET=		tests	# something extra needed?
+
+CHECK_PORTABILITY_SKIP=	configure
 
 .include "../../math/fftw/buildlink3.mk"
 #.include "../../textproc/libxml2/buildlink3.mk"
