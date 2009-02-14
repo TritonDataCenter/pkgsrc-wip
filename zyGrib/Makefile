@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	zyGrib-3.3.0
-CATEGORIES=	geography
+CATEGORIES=	misc
 MASTER_SITES=	http://www.zygrib.org/files/
 EXTRACT_SUFX=	.tgz
 
