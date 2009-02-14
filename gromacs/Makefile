@@ -13,14 +13,17 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 
 # Official recommendation is not to use the gcc 4.1.x set of compilers.
 
-USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
+USE_LIBTOOL=		yes
+USE_PKGLOCALEDIR=	yes
 
 CONFIGURE_ARGS+=	--enable-double --program-suffix=
 
 #TEST_TARGET=		tests	# something extra needed?
 
 CHECK_PORTABILITY_SKIP=	configure
+
+REPLACE_PERL=		scripts/demux.pl scripts/xplor2gmx.pl
 
 .include "../../math/fftw/buildlink3.mk"
 #.include "../../textproc/libxml2/buildlink3.mk"
