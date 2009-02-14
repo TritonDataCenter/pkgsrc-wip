@@ -6,9 +6,8 @@ $NetBSD$
                  if pay[each].has_key(7):
                      self.roster[pay[each][7]]=('available', typ, status)
                      if pay[each].has_key(198):
--                        if pay[each][198] == '1' and pay[each].has_key(197):
+                         if pay[each][198] == '1' and pay[each].has_key(197):
 -                            b = avatar.getavatar(pay[each][197], self.dumpProtocol)
-+                        if pay[each][198] == '1':
 +                            b = avatar.getavatar(pay[each][7], self.dumpProtocol)
                              if b != None and self.handlers.has_key('avatar'):
                                  self.handlers['avatar'](self,pay[each][7],b)
@@ -17,9 +16,8 @@ $NetBSD$
              for each in pay:
                  if pay[each].has_key(4):
                      if pay[each].has_key(198):
--                        if pay[each][198] == '1' and pay[each].has_key(197):
+                         if pay[each][198] == '1' and pay[each].has_key(197):
 -                            b = avatar.getavatar(pay[each][197], self.dumpProtocol)
-+                        if pay[each][198] == '1':
 +                            b = avatar.getavatar(pay[each][7], self.dumpProtocol)
                              if b != None and self.handlers.has_key('avatar'):
                                  self.handlers['avatar'](self,pay[each][4],b)
