@@ -4,7 +4,7 @@
 DISTNAME=	aspell-python1.11
 PKGNAME=	${PYPKGPREFIX}-aspell-1.11
 CATEGORIES=	textproc python
-MASTER_SITES=	http://www.wmula.republika.pl/proj/aspell-python/
+MASTER_SITES=	http://www.wmula.republika.pl/proj/aspell-python/download/
 
 COMMENT=	Python wrapper for GNU Aspell
 HOMEPAGE=	http://www.wmula.republika.pl/proj/aspell-python/
