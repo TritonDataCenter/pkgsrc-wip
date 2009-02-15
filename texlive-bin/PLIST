@@ -446,7 +446,6 @@ man/man5/updmap.cfg.5
 share/lcdf-typetools/7t.enc
 share/lcdf-typetools/glyphlist.txt
 share/lcdf-typetools/texglyphlist.txt
-share/texmf-dist/ls-R
 share/texmf/bibtex/csf/88591lat.csf
 share/texmf/bibtex/csf/88591sca.csf
 share/texmf/bibtex/csf/ascii.csf
