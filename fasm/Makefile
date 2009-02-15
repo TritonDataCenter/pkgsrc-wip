@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		fasm-1.67.29
+DISTNAME=		fasm-1.67.32
 CATEGORIES=		devel
 MASTER_SITES=		http://flatassembler.net/
 
@@ -16,14 +16,13 @@ WRKSRC=			${WRKDIR}/fasm
 USE_LANGUAGES=		c
 NO_CONFIGURE=		yes
 
-INSTALLATION_DIRS=	bin share/example/fasm share/doc/fasm
+INSTALLATION_DIRS=	bin share/doc/fasm
 
 do-build:
 	cd ${WRKSRC} && ${CC} ${CFLAGS} fasm.o -o fasm
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/fasm ${DESTDIR}${PREFIX}/bin
-	cp -R ${WRKSRC}/examples/* ${DESTDIR}${PREFIX}/share/example/fasm
 	${INSTALL_DATA} ${WRKSRC}/fasm.txt ${DESTDIR}${PREFIX}/share/doc/fasm
 
 .include "../../mk/bsd.pkg.mk"
