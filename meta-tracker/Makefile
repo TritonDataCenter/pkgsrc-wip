@@ -2,7 +2,7 @@
 
 DISTNAME=	tracker-0.6.6
 PKGNAME=	meta-tracker-0.6.6
-PKGREVISION=	1
+PKGREVISION=	2
 CATEGORIES=	sysutils
 MASTER_SITES=	http://www.gnome.org/~jamiemcc/tracker/
 
