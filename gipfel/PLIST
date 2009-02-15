@@ -1,7 +1,7 @@
 @comment $NetBSD$
 bin/gipfel
+share/doc/gipfel/NEWS
+share/doc/gipfel/README
 share/gipfel/alpinkoordinaten.dat
 @dirrm share/gipfel
-share/doc/gipfel/README
-share/doc/gipfel/NEWS
 @dirrm share/doc/gipfel
