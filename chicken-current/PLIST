@@ -20,7 +20,8 @@ man/man1/csc.1
 man/man1/csi.1
 share/chicken/chicken-ffi-macros.scm
 share/chicken/chicken-more-macros.scm
-share/chicken/chicken-sys-macros.scm
+share/chicken/chicken-primitive-object-inlines.scm
+share/chicken/chicken-thread-object-inlines.scm
 share/chicken/data-structures.exports
 share/chicken/eval.exports
 share/chicken/extras.exports
