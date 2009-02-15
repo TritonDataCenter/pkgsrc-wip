@@ -9,7 +9,7 @@ MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.ecademix.com/JohannesHofmann/
 COMMENT=	Georeferencing software for arbitrary images
 
-PKG_DESTDIR_SUPPORT=    user-destdir
+PKG_DESTDIR_SUPPORT=	user-destdir
 
 GNU_CONFIGURE=	yes
 USE_LANGUAGES=	c c++
