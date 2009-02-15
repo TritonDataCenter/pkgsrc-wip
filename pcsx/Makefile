@@ -12,7 +12,7 @@ HOMEPAGE=	http://www.pcsx.net/
 COMMENT=	Free Playstation(TM) emulator
 
 GNU_CONFIGURE=	yes
-USE_TOOLS+=	gmake
+USE_TOOLS+=	gmake pkg-config
 WRKSRC=		${WRKDIR}/${DISTNAME}/Linux
 
 # Build fails with GCC4
