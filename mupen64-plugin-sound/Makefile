@@ -13,6 +13,7 @@ HOMEPAGE=	http://mupen64.emulation64.com/
 COMMENT=	Sound plugin for mupen64 emulator
 
 LDFLAGS+=	${LIBOSSAUDIO}
+CPPFLAGS+=	-fPIC
 
 SUBST_CLASSES+=	    dsp
 SUBST_STAGE.dsp=    post-patch
