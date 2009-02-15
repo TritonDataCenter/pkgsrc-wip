@@ -11,6 +11,8 @@ MAINTAINER=	yazzy@yazzy.org
 HOMEPAGE=	http://enlightenment.org/
 COMMENT=	Enlightenment Window Manager, Development Release
 
+PKG_DESTDIR_SUPPORT=	user-destdir
+
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_TOOLS=	gmake pkg-config automake autoconf
@@ -26,6 +28,11 @@ CONF_FILES=	${EGDIR}/sysactions.conf \
 CONFIGURE_ARGS+=	--enable-zoom --enable-fsstd
 CONFIGURE_ARGS+=	--with-imlib2
 CONFIGURE_ENV+=		MODULE_ARCH="${LOWER_OPSYS}-${MACHINE_ARCH}"
+
+INSTALLATION_DIRS=	${EGDIR}
+
+pre-install:
+	${INSTALL_DATA} ${WRKSRC}/data/etc/sysactions.conf ${DESTDIR}${EGDIR}
 
 PKGCONFIG_OVERRIDE=	enlightenment.pc.in
 
