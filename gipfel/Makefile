@@ -6,7 +6,7 @@ CATEGORIES=	geography graphics
 MASTER_SITES=	http://www.ecademix.com/JohannesHofmann/
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
-HOMEPAGE=	http://www.ecademix.com/JohannesHofmann/
+HOMEPAGE=	http://www.ecademix.com/JohannesHofmann/gipfel.html
 COMMENT=	Georeferencing software for arbitrary images
 
 PKG_DESTDIR_SUPPORT=	user-destdir
