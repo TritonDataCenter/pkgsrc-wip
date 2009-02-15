@@ -35,7 +35,7 @@ FILES_SUBST+=		CNEWSGID=${NEWSGID:Q}
 # We want awk to be nawk, and we want uucp
 FILES_SUBST+=		CNEWSPATH="/usr/xpg4/bin:/usr/bin:${PREFIX}/bin"
 .else
-FILES_SUBST+=		CNEWSPATH="/bin:/usr/bin"
+FILES_SUBST+=		CNEWSPATH="/bin:/usr/bin:${PREFIX}/bin"
 .endif
 # statfs(2) or statvfs(2)? NetBSD switched to the latter in 2.0D
 .if (${OPSYS} == "NetBSD" && !(empty(OS_VERSION:M[01].*) && \
