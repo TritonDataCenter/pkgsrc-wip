@@ -12,6 +12,7 @@ MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://mupen64.emulation64.com/
 COMMENT=	OpenGL Video plugin for mupen64 emulator
 
+CPPFLAGS+=	-fPIC
 LIBS+=		${PTHREAD_LDFLAGS}
 
 pre-install:
