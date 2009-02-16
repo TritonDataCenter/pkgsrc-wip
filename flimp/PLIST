@@ -1,5 +1,5 @@
 @comment $NetBSD$
 bin/flimp
 bin/flimpgui
-share/flimp/flimprc.sample
 share/doc/flimp/README
+share/flimp/flimprc.sample
