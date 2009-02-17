@@ -27,7 +27,7 @@ INFO_FILES=	yes
 USE_LIBTOOL=	yes
 WRKSRC=		${WRKDIR}/${DISTNAME}/texk/dvipsk
 
-FIND_PREFIX:=	TETEX_PREFIX=texlive-tetex
+FIND_PREFIX:=	TETEX_PREFIX=texlive-tetex BIN_DVIPSK_PREFIX=tex-bin-dvipsk
 .include "../../mk/find-prefix.mk"
 
 MAKE_ENV+=	KPATHSEA_PREFIX=${BUILDLINK_PREFIX.kpathsea}
@@ -60,7 +60,9 @@ TEX_TEXMF_DIRS+=	${PREFIX}/share/texmf-dist
 .include "../../print/kpathsea/texmf.mk"
 
 post-build:
-	${MKDIR} ${WRKSRC}/texmf
+	${MKDIR} -p ${WRKSRC}/texmf/dvips/config
+	${CP} ${BIN_DVIPSK_PREFIX}/share/texmf/dvips/config/config.ps \
+		${WRKSRC}/texmf/dvips/config
 	env TFC_TEXMFCONFIG=${WRKSRC}/texmf \
 		configPsFile=${WRKSRC}/config.ps \
 		${TETEX_PREFIX}/bin/texconfig dvips paper ${LOWER_PAPERSIZE}
