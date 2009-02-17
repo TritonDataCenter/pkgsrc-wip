@@ -5,7 +5,7 @@ DISTNAME=		libhttpd-1.4
 CATEGORIES=		www
 MASTER_SITES=		http://www.hughes.com.au/products/libhttpd/
 
-MAINTAINER=		packages@NetBSD.org
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://www.hughes.com.au/products/libhttpd/
 COMMENT=		Library that provides basic web server capabilities
 
