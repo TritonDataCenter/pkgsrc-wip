@@ -3,7 +3,7 @@
 
 MODNAME=		suhosin
 DISTNAME=		suhosin-${PECL_VERSION}
-PECL_VERSION=		0.9.23
+PECL_VERSION=		0.9.27
 CATEGORIES=		www
 MASTER_SITES=		http://download.suhosin.org/
 EXTRACT_SUFX=		.tgz
