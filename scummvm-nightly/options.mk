@@ -6,6 +6,7 @@ PKG_SUPPORTED_OPTIONS+=	scummvm-nightly-igor
 PKG_SUPPORTED_OPTIONS+=	scummvm-nightly-m4
 PKG_SUPPORTED_OPTIONS+=	scummvm-nightly-made
 PKG_SUPPORTED_OPTIONS+=	scummvm-nightly-saga2
+PKG_SUPPORTED_OPTIONS+=	scummvm-nightly-sci
 PKG_SUPPORTED_OPTIONS+=	scummvm-nightly-tinsel
 PKG_SUGGESTED_OPTIONS=	${PKG_SUPPORTED_OPTIONS}
 
@@ -25,6 +26,9 @@ CONFIGURE_ARGS+=--enable-made
 .endif
 .if !empty(PKG_OPTIONS:Mscummvm-nightly-saga2)
 CONFIGURE_ARGS+=--enable-saga2
+.endif
+.if !empty(PKG_OPTIONS:Mscummvm-nightly-sci)
+CONFIGURE_ARGS+=--enable-sci
 .endif
 .if !empty(PKG_OPTIONS:Mscummvm-nightly-tinsel)
 CONFIGURE_ARGS+=--enable-tinsel
