@@ -12,7 +12,7 @@ COMMENT=	DVI-to-PostScript translator
 
 CONFLICTS+=	teTeX-bin-[0-9]*
 CONFLICTS+=	teTeX-texmf-[0-9]*
-DEPENDS+=	tex-bin-dvipsk-[0-9]*:../../wip/tex-bin-dvipsk
+DEPENDS+=	tex-bin-dvipsk-[0-9]*:../../print/tex-bin-dvipsk
 DEPENDS+=	texlive-tetex-[0-9]*:../../print/texlive-tetex
 
 EXTRACT_ELEMENTS=	${DISTNAME}/texk/dvipsk \
