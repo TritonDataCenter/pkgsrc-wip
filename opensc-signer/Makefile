@@ -15,7 +15,9 @@ CONFIGURE_ARGS+=	--with-plugindir=${PREFIX}/lib/mozilla/plugins
 CONFIGURE_ARGS+=	--with-pinentry=${PREFIX}/bin/pinentry
 
 do-install:
-	cd ${WRKSRC}/src/signer && ${MAKE_ENV} ${MAKE} install
+	cd ${WRKSRC}/src/signer && ${SETENV} ${MAKE_ENV} ${MAKE} \
+		prefix=${DESTDIR}${PREFIX} \
+		plugindir=${DESTDIR}${PREFIX}/lib/mozilla/plugins install
 
 .include "../../devel/libltdl/buildlink3.mk"
 .include "../../security/libassuan/buildlink3.mk"
