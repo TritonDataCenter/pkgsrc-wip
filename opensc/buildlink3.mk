@@ -18,6 +18,7 @@ pkgbase := opensc
 .include "../../mk/pkg-build-options.mk"
 .endif	# OPENSC_BUILDLINK3_MK
 
+.include "../../devel/libltdl/buildlink3.mk"
 .if !empty(PKG_BUILD_OPTIONS.opensc:Mopenct)
 .include "../../wip/openct/buildlink3.mk"
 .endif
