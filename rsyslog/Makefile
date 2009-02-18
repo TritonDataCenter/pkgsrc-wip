@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		rsyslog-3.21.9
+DISTNAME=		rsyslog-3.21.10
 CATEGORIES=		sysutils
 MASTER_SITES=		http://download.rsyslog.com/rsyslog/
 
