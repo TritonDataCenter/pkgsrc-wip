@@ -1,0 +1,3 @@
+@comment $NetBSD$
+lib/mozilla/plugins/opensc-signer.so
+lib/opensc-signer.la
