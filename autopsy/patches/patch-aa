@@ -4,7 +4,7 @@ $NetBSD$
 +++ build
 @@ -0,0 +1,39 @@
 +(cat<<EOF
-+#!${1}/bin/perl"
++#!${1}/bin/perl
 +
 +use lib '${1}/share/autopsy/';
 +use lib '${1}/share/autopsy/lib/';
