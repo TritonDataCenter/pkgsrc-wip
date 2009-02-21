@@ -13,12 +13,13 @@ COMMENT=	Command-line RSS enclosures dowloader
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_LANGUAGES+=	c c++
-USE_TOOLS+=		gmake intltool pkg-config
+USE_TOOLS+=	gmake intltool pkg-config
 
 AUTO_MKDIRS=	yes
 
 post-install:
-	${INSTALL_DATA} ${WRKSRC}/castgetrc.example ${PREFIX}/share/examples/castgetrc.example
+	${INSTALL_DATA} ${WRKSRC}/castgetrc.example \
+		${PREFIX}/share/examples/castgetrc.example
 
 .include "../../www/curl/buildlink3.mk"
 .include "../../audio/id3lib/buildlink3.mk"
