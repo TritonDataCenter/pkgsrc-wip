@@ -1,0 +1,6 @@
+@comment $NetBSD$
+lib/liblmdbg.la
+bin/lmdbg-run
+bin/lmdbg-sym
+bin/lmdbg-check
+bin/lmdbg-leak-check
