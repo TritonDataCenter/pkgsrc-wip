@@ -4,5 +4,6 @@ include/libcastget.h
 lib/libcastget.la
 man/man1/castget.1
 man/man5/castgetrc.5
-share/examples/castget/castgetrc.example
+share/examples/castgetrc.example
+@exec ${MKDIR} %D/share/examples/castget
 @dirrm share/examples/castget
