@@ -1,0 +1,4 @@
+@comment $NetBSD$
+libexec/cgi-bin/cgit.cgi
+share/httpd/htdocs/cgit/cgit.png
+share/httpd/htdocs/cgit/cgit.css
