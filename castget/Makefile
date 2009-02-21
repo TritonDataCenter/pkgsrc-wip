@@ -7,7 +7,7 @@ CATEGORIES=	audio www
 MASTER_SITES=	http://savannah.nongnu.org/download/castget/
 
 MAINTAINER=	netbsd@guigui2.net
-HOMEPAGE=	http://savannah.nongnu.org/download/castget/
+HOMEPAGE=	http://castget.nongnu.org/
 COMMENT=	Command-line RSS enclosures dowloader
 
 GNU_CONFIGURE=	yes
@@ -15,11 +15,10 @@ USE_LIBTOOL=	yes
 USE_LANGUAGES+=	c c++
 USE_TOOLS+=		gmake intltool pkg-config
 
-EGDIR+=		${PREFIX}/share/examples/castget
+AUTO_MKDIRS=	yes
 
 post-install:
-	${INSTALL_DATA_DIR} ${EGDIR}
-	${INSTALL_DATA} ${WRKSRC}/castgetrc.example ${EGDIR}/castgetrc.example
+	${INSTALL_DATA} ${WRKSRC}/castgetrc.example ${PREFIX}/share/examples/castgetrc.example
 
 .include "../../www/curl/buildlink3.mk"
 .include "../../audio/id3lib/buildlink3.mk"
