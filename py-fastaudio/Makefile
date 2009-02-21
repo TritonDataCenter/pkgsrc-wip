@@ -4,6 +4,7 @@
 DISTNAME=		fastaudio
 PKGNAME=		${PYPKGPREFIX}-${DISTNAME}-0.3
 WRKSRC=			${WRKDIR}/portaudio_v18_1
+PKGREVISION=		1
 CATEGORIES=		audio
 MASTER_SITES=		http://www.freenet.org.nz/python/pyPortAudio/ \
 			http://www.portaudio.com/archives/
