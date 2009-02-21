@@ -1,7 +1,7 @@
 # $NetBSD$
 
-DISTNAME=	atlas3.8.2
-PKGNAME=	atlas-3.8.2
+DISTNAME=	atlas3.8.3
+PKGNAME=	atlas-3.8.3
 CATEGORIES=	math
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=math-atlas/}
 EXTRACT_SUFX=	.tar.bz2
@@ -23,7 +23,7 @@ CONFIGURE_DIRS=		obj
 CONFIGURE_SCRIPT=	../configure
 CONFIGURE_ARGS+=	--incdir=${DESTDIR}${PREFIX}/include
 CONFIGURE_ARGS+=	--libdir=${DESTDIR}${PREFIX}/lib
-CONFIGURE_ARGS+=	-v 9 -b 32
+CONFIGURE_ARGS+=	-b 32
 
 TEST_TARGET=	check
 
