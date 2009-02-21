@@ -1,8 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		gtypist-2.8.1
-PKGREVISION=		1
+DISTNAME=		gtypist-2.8.3
 CATEGORIES=		textproc
 MASTER_SITES=		${MASTER_SITE_GNU:=gtypist/}
 
