@@ -1,6 +1,8 @@
 $NetBSD$
 
---- /dev/null	2009-02-17 19:24:39.000000000 +0100
+get_argv0() and get_proc_argv0() functions for NetBSD.
+
+--- osdep-netbsd.c.orig	2009-02-22 16:30:11.000000000 +0100
 +++ osdep-netbsd.c
 @@ -0,0 +1,161 @@
 +/*
