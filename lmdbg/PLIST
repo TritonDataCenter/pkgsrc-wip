@@ -1,6 +1,10 @@
 @comment $NetBSD$
-lib/liblmdbg.la
+bin/lmdbg-leak-check
+bin/lmdbg-leaks
 bin/lmdbg-run
 bin/lmdbg-sym
-bin/lmdbg-check
-bin/lmdbg-leak-check
+bin/lmdbg-sysleaks
+lib/liblmdbg.la
+share/doc/lmdbg/ChangeLog
+share/doc/lmdbg/NEWS
+share/doc/lmdbg/README
