@@ -9,7 +9,7 @@ PKG_SUGGESTED_OPTIONS=	pcsc-lite
 .if !empty(PKG_OPTIONS:Mpcsc-lite)
 .include "../../security/pcsc-lite/buildlink3.mk"
 CONFIGURE_ARGS+=	--enable-pcsc
-CONFIGURE_ARGS+=	--with-pcsc-provider=${PREFIX}/lib/libpcsclite.so
+CONFIGURE_ARGS+=	--with-pcsc-provider=${BUILDLINK_PREFIX.pcsc-lite}/lib/libpcsclite.la
 .else
 CONFIGURE_ARGS+=	--disable-pcsc
 .endif
