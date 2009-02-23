@@ -1,0 +1,2 @@
+@comment $NetBSD$
+lib/libakode_alsa_sink.la
