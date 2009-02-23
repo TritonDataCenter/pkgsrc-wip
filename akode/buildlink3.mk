@@ -16,9 +16,6 @@ BUILDLINK_API_DEPENDS.akode+=	akode>=2.0.2
 BUILDLINK_PKGSRCDIR.akode?=	../../wip/akode
 .endif	# AKODE_BUILDLINK3_MK
 
-.include "../../audio/flac/buildlink3.mk"
-.include "../../audio/libmad/buildlink3.mk"
-.include "../../audio/libvorbis/buildlink3.mk"
 .include "../../devel/libltdl/buildlink3.mk"
 
 BUILDLINK_DEPTH:=	${BUILDLINK_DEPTH:S/+$//}
