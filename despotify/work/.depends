@@ -1,0 +1,5 @@
+bootstrap	digest>=20010302	../../pkgtools/digest
+build	gmake>=3.81	../../devel/gmake
+full	pulseaudio>=0.9.13	../../audio/pulseaudio
+full	libvorbis>=1.1.0nb1	../../audio/libvorbis
+full	expat>=2.0.0nb1	../../textproc/expat
