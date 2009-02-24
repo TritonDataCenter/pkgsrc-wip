@@ -23,11 +23,13 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 MAKE_JOBS_SAFE=		no
 
 GNU_CONFIGURE=		yes
-USE_TOOLS+=		gmake gawk makeinfo
+USE_TOOLS+=		gmake makeinfo awk:run
 USE_LANGUAGES+=		fortran
 BUILD_DEPENDS+=		noweb-[0-9]*:../../devel/noweb
 
 BUILD_MAKE_FLAGS+=	TOOLS_PLATFORM.install=${TOOLS_PLATFORM.install:Q}
+
+CONFIGURE_ENV+=		HOST_AWK=$(TOOLS_PATH.awk)	# force it
 
 .include "options.mk"
 
