@@ -49,7 +49,7 @@ pre-configure:
 	cd ${WRKDIR}/ghc-6.6.1 && \
 		${CHMOD} +x ./distrib/hc-build && \
 		${ENV} ${CONFIGURE_ENV} ./distrib/hc-build -C --disable-readline --enable-hc-boot-unregisterised && \
-		${FIND} . -type f -and -perm +o+x -and -name '*-inplace' | \
+		${FIND} . -type f -and -perm -o+x -and -name '*-inplace' | \
 			while read i; do \
 				${CP} $$i ${BUILDLINK_DIR}/bin/`basename $$i | sed -e 's/-inplace//'`; \
 			done
