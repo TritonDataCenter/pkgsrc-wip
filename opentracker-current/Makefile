@@ -3,7 +3,7 @@
 DISTNAME=		opentracker-0.0.${OPENTRACKER_PKG_VERSION}
 CATEGORIES=		net
 
-MAINTAINER=		wiz@NetBSD.org
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://erdgeist.org/arts/software/opentracker/
 COMMENT=		High performance bittorrent tracker
 
