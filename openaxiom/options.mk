@@ -53,7 +53,7 @@ CONFIGURE_ARGS+=	--with-x=no
 .endif
 
 # Help PLIST generation
-.if !empty(PKG_OPTIONS:Mecl)
+.if !empty(PKG_OPTIONS:Mx11)
 # Handle X11-specific files
 .for _file_ in viewAlone
 PRINT_PLIST_AWK+=	{if ($$0 ~ /\/bin\/${_file_}$$/) {$$0 = "$${x11}" $$0;}}
