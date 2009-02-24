@@ -18,7 +18,8 @@ COMMENT=		Java Development Kit ${JDK_VERSION}
 
 LICENSE=		sun-jrl-16-license
 
-USE_TOOLS+=		patch
+MAKE_JOBS_SAFE=		no
+USE_TOOLS+=		patch pax
 WRKSRC=			${WRKDIR}
 PLIST_SRC=		PLIST.common
 
