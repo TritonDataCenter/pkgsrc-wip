@@ -1,0 +1,6 @@
+@comment $NetBSD$
+bin/tint
+share/doc/tint/tint-0.6.odt
+share/doc/tint/tint-0.6.pdf
+share/examples/xdg/tint/tintrc
+@dirrm share/doc/tint
