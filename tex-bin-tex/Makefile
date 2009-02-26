@@ -32,7 +32,7 @@ TEX_TEXMF_DIRS+=	${PREFIX}/share/texmf
 TEX_FORMAT_NAMES+=	tex
 
 .include "../../print/kpathsea/texmf.mk"
-.include "../../wip/texlive-tetex/format.mk"
+.include "../../print/texlive-tetex/format.mk"
 
 post-extract:
 	${FIND} ${WRKSRC}/texmf* -type d -exec ${CHMOD} ${PKGDIRMODE} {} \;
