@@ -6,7 +6,7 @@ CATEGORIES=		x11
 MASTER_SITES=		http://tint2.googlecode.com/files/
 
 MAINTAINER=		netbsd@guigui2.net
-HOMEPAGE=		http://tint2.googlecode.com/files/
+HOMEPAGE=		http://tint2.googlecode.co
 COMMENT=		Tint2 is a simple panel/taskbar
 
 USE_TOOLS+=		gmake pkg-config
