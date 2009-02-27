@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	Hash-AsObject-0.10
+DISTNAME=	Hash-AsObject-0.11
 PKGNAME=	p5-${DISTNAME}
 CATEGORIES=	perl5 devel
 MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=Hash/}
