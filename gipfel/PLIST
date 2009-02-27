@@ -2,6 +2,6 @@
 bin/gipfel
 share/doc/gipfel/NEWS
 share/doc/gipfel/README
-share/gipfel/alpinkoordinaten.dat
+share/gipfel/gipfel.dat
 @dirrm share/gipfel
 @dirrm share/doc/gipfel
