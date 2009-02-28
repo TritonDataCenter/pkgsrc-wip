@@ -1,5 +1,4 @@
 @comment $NetBSD: PLIST,v 1.1.1.1 2008/09/14 12:25:30 ahoka Exp $
-bin/axiom
 bin/efricas
 bin/fricas
 lib/fricas/emacs/fricas-cpl.el
