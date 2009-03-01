@@ -45,5 +45,4 @@ BUILDLINK_API_DEPENDS.zlib+=	zlib>=1.2.0.4
 .include "../../audio/libvorbis/buildlink3.mk"
 .include "../../devel/SDL/buildlink3.mk"
 .include "../../devel/zlib/buildlink3.mk"
-.include "../../multimedia/libmpeg2/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
