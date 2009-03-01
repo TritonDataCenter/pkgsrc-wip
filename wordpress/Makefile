@@ -1,8 +1,7 @@
 # $NetBSD$
 
-DISTNAME=		latest
-PKGNAME=		wordpress-${VERSION}
-VERSION=		2.7
+DISTNAME=		wordpress-${VERSION}
+VERSION=		2.7.1
 CATEGORIES=		www
 MASTER_SITES=		http://wordpress.org/
 EXTRACT_SUFX=		.zip
