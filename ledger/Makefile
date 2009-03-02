@@ -6,7 +6,7 @@ CATEGORIES=	finance
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=ledger/}
 
 MAINTAINER=	jkj@kapsi.fi
-HOMEPAGE=	http://ledger.sourceforge.net/
+HOMEPAGE=	http://wiki.github.com/jwiegley/ledger
 COMMENT=	Double-entry accounting system for command-line
 
 GNU_CONFIGURE=	yes
