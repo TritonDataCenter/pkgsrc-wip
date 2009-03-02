@@ -1,0 +1,8 @@
+@comment $NetBSD$
+lib/aspell/fi.multi
+lib/aspell/fi.rws
+lib/aspell/finnish.alias
+share/aspell/fi.dat
+share/aspell/fi_affix.dat
+@dirrm share/aspell
+@dirrm lib/aspell
