@@ -1,7 +1,11 @@
 # $NetBSD$
 
-DISTNAME=	TracGraphViz-2.1.3.5305
-PKGNAME=	trac-plugins-GraphViz-2.1.3.5305
+SVNVERSION=	4543
+VERSION=	0.7.5.${SVNVERSION}
+DISTNAME=	TracGraphViz-${VERSION}
+PKGNAME=	trac-plugins-GraphViz-${VERSION}
+# Empty to avoid default setting.
+PKGREVISION=
 EGG_NAME=	${DISTNAME}
 CATEGORIES=	www
 MASTER_SITES=	# not defined
