@@ -23,4 +23,4 @@ URL: http://pkgsrc-wip.cvs.sourceforge.net/viewvc/pkgsrc-wip/wip/boost-test-suit
 # line) contains the URL for importing a single patch file.  Each URL
 # should be interpretable by ftp(1).  By convention, patch filenames
 # should begin with the string 'patch-'.
-http://pkgsrc-wip.cvs.sourceforge.net/viewvc/pkgsrc-wip/wip/boost-test-suite/patches/patch-aa
+http://pkgsrc-wip.cvs.sourceforge.net/viewvc/pkgsrc-wip/wip/boost-test-suite/patches/patch-aa?revision=1.1
