@@ -13,6 +13,8 @@ MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.tug.org/texlive/
 COMMENT=	TeXLive programs, using Edd Barret's OpenBSD repository
 
+MAKE_JOBS_SAFE=	no
+
 CONFLICTS+=	teTeX-bin-[0-9]*
 CONFLICTS+=	teTeX2-bin-[0-9]*
 CONFLICTS+=	teTeX3-bin-[0-9]*
