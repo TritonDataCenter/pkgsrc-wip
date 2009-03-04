@@ -4,6 +4,8 @@ share/twinkle/lang/twinkle_cs.qm
 share/twinkle/lang/twinkle_de.qm
 share/twinkle/lang/twinkle_fr.qm
 share/twinkle/lang/twinkle_nl.qm
+share/twinkle/lang/twinkle_ru.qm
+share/twinkle/lang/twinkle_sv.qm
 share/twinkle/providers.csv
 share/twinkle/ringback.wav
 share/twinkle/ringtone.wav
