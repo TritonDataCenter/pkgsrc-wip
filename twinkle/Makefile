@@ -33,6 +33,7 @@ LDFLAGS+=		${BUILDLINK_LDADD.oss}
 
 .include "../../mk/oss.buildlink3.mk"
 .include "../../audio/libsndfile/buildlink3.mk"
+.include "../../devel/readline/buildlink3.mk"
 .include "../../devel/boost-libs/buildlink3.mk"
 .include "../../x11/qt3-tools/buildlink3.mk"
 .include "../../x11/qt3-libs/buildlink3.mk"
