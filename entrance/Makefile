@@ -26,7 +26,7 @@ CONF_FILES=	${PREFIX}/share/examples/entrance/entrance_config.cfg \
 		${PKG_SYSCONFDIR}/entrance_config.cfg
 
 .include	"../../wip/ecore/buildlink3.mk"
-.include	"../../wip/evas/buildlink3.mk"
+.include	"../../graphics/evas/buildlink3.mk"
 .include	"../../wip/edje/buildlink3.mk"
 .include	"../../wip/esmart/buildlink3.mk"
 .include	"../../wip/efreet/buildlink3.mk"

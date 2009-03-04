@@ -20,7 +20,7 @@ BUILDLINK_PKGSRCDIR.epsilon?=	../../wip/epsilon
 .include "../../wip/ecore/buildlink3.mk"
 .include "../../wip/edje/buildlink3.mk"
 .include "../../wip/epeg/buildlink3.mk"
-.include "../../wip/evas/buildlink3.mk"
+.include "../../graphics/evas/buildlink3.mk"
 .include "../../graphics/imlib2/buildlink3.mk"
 .include "../../graphics/png/buildlink3.mk"
 .include "../../multimedia/xine-lib/buildlink3.mk"

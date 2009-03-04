@@ -11,6 +11,10 @@ MAINTAINER=	yazzy@yazzy.org
 HOMEPAGE=	http://enlightenment.org/
 COMMENT=	Enlightenment Window Manager, Development Release
 
+DEPENDS+=	evas-eet>=0.9.9:../../graphics/evas-eet
+DEPENDS+=	evas-jpeg>=0.9.9:../../graphics/evas-jpeg
+DEPENDS+=	evas-png>=0.9.9:../../graphics/evas-png
+
 PKG_DESTDIR_SUPPORT=	user-destdir
 
 GNU_CONFIGURE=	yes
@@ -49,6 +53,7 @@ PKG_SUPPORTED_OPTIONS=	dbus
 .include "../../wip/edje/buildlink3.mk"
 .include "../../devel/eet/buildlink3.mk"
 .include "../../wip/efreet/buildlink3.mk"
-.include "../../wip/evas/buildlink3.mk"
+.include "../../graphics/evas/buildlink3.mk"
+.include "../../graphics/evas-buffer/buildlink3.mk"
 .include "../../graphics/imlib2/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

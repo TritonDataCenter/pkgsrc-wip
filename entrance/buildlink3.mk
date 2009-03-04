@@ -17,7 +17,7 @@ BUILDLINK_PKGSRCDIR.entrance?=	../../wip/entrance
 .endif	# ENTRANCE_BUILDLINK3_MK
 
 .include	"../../wip/ecore/buildlink3.mk"
-.include	"../../wip/evas/buildlink3.mk"
+.include	"../../graphics/evas/buildlink3.mk"
 .include	"../../wip/edje/buildlink3.mk"
 .include	"../../wip/esmart/buildlink3.mk"
 .include	"../../wip/efreet/buildlink3.mk"
