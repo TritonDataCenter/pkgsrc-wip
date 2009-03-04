@@ -13,6 +13,9 @@ MAINTAINER=	pancake@phreaker.net
 HOMEPAGE=	http://www.gnunet.org/
 COMMENT=	Framework for secure P2P networking
 
+PKG_DESTDIR_SUPPORT=	user-destdir
+MAKE_JOBS_SAFE=		no
+
 USE_TOOLS+=		gmake msgfmt
 GNU_CONFIGURE=		yes
 PLIST_SRC=		${WRKDIR}/PLIST.src
