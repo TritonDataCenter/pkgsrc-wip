@@ -13,6 +13,8 @@ HOMEPAGE=	http://modeemi.fi/~tuomov/ion/
 # we just always mark it as obsolete.
 COMMENT=	Tiling tabbed window manager (obsolete version)
 
+MAKE_JOBS_SAFE=		no
+
 USE_TOOLS+=	gmake msgfmt
 
 EGDIR=		${PREFIX}/share/examples/ion3
