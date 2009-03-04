@@ -24,7 +24,7 @@ CONFIGURE_ENV+=		PYTHON=${PYTHONBIN:Q}
 .include "../../www/firefox/Makefile-firefox.common"
 
 MAINTAINER=		pkgsrc-users@NetBSD.org
-MOZ_VER=		3.0.5
+MOZ_VER=		3.0.6
 MOZILLA_BIN=		icecat-bin
 
 DISTNAME=		icecat-${MOZ_VER}-g1
