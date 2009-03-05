@@ -1,0 +1,4 @@
+@comment $NetBSD$
+lib/libAppleWM.la
+lib/pkgconfig/applewm.pc
+man/man3/AppleWM.3
