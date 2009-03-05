@@ -17,6 +17,8 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 
 USE_TOOLS+=		gmake
 USE_TOOLS+=		perl
+USE_TOOLS+=		flex
+USE_TOOLS+=		bison
 
 
 # I dont think the build requires pkg-config. It just creates pkg-config data files.
