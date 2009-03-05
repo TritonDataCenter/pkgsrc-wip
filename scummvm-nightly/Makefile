@@ -9,7 +9,7 @@ COMMENT=	LucasArts Script Creation Utility for Maniac Mansion
 
 NO_SRC_ON_FTP=	# changes daily
 NO_SRC_ON_CDROM=# changes daily
-USE_TOOLS+=	gmake
+USE_TOOLS+=	gmake perl
 USE_LANGUAGES=	c c++
 HAS_CONFIGURE=	yes
 CONFIGURE_ARGS+=--prefix=${LOCALBASE}
