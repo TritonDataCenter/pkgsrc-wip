@@ -1,13 +1,15 @@
 # $NetBSD$
 
 DISTNAME=		stunnel-3.26
-PKGREVISION=		1
+PKGREVISION=		2
 CATEGORIES=		security
 MASTER_SITES=		http://www.stunnel.org/download/stunnel/src/
 
 MAINTAINER=		hauke@Espresso.Rhein-Neckar.DE
 HOMEPAGE=		http://www.stunnel.org/
 COMMENT=		Universal SSL tunnel
+
+PKG_DESTDIR_SUPPORT=	user-destdir
 
 CONFLICTS=		stunnel-[4-9]*
 
