@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		applewmproto-1.1.1
+DISTNAME=		applewmproto-1.2.0
 CATEGORIES=		x11
 MASTER_SITES=		${MASTER_SITE_XORG:=proto/}
 EXTRACT_SUFX=		.tar.bz2

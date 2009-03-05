@@ -13,7 +13,7 @@ BUILDLINK_ORDER:=	${BUILDLINK_ORDER} ${BUILDLINK_DEPTH}applewmproto
 
 .if ${APPLEWMPROTO_BUILDLINK3_MK} == "+"
 BUILDLINK_DEPMETHOD.applewmproto?=	build
-BUILDLINK_API_DEPENDS.applewmproto+=	applewmproto>=1.1.1
+BUILDLINK_API_DEPENDS.applewmproto+=	applewmproto>=1.2.0
 BUILDLINK_PKGSRCDIR.applewmproto?=	../../wip/applewmproto
 .endif	# APPLEWMPROTO_BUILDLINK3_MK
 
