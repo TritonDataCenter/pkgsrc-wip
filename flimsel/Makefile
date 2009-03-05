@@ -9,8 +9,9 @@ MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.ecademix.com/JohannesHofmann/
 COMMENT=	Minimalistic image browser
 
-GNU_CONFIGURE=	yes
-USE_LANGUAGES=	c c++
+GNU_CONFIGURE=		yes
+USE_LANGUAGES=		c c++
+PKG_DESTDIR_SUPPORT=	destdir
 
 .include "../../graphics/epeg/buildlink3.mk"
 .include "../../graphics/png/buildlink3.mk"
