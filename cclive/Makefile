@@ -14,6 +14,8 @@ PKG_DESTDIR_SUPPORT=    user-destdir
 
 USE_TOOLS+=	gmake
 
+INSTALLATION_DIRS=	bin ${PKGMANDIR}/man1
+
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/cclive ${DESTDIR}${PREFIX}/bin
 	${INSTALL_MAN} ${WRKSRC}/cclive.1 ${DESTDIR}${PREFIX}/${PKGMANDIR}/man1
