@@ -1,0 +1,12 @@
+$NetBSD$
+
+--- src/xpdf/goo/gfile.cc.orig	2008-09-09 10:21:12.000000000 -0400
++++ src/xpdf/goo/gfile.cc
+@@ -20,6 +20,7 @@
+ #    include <sys/stat.h>
+ #    include <fcntl.h>
+ #  endif
++#  include <stdlib.h>
+ #  include <limits.h>
+ #  include <string.h>
+ #  if !defined(VMS) && !defined(ACORN) && !defined(MACOS)
