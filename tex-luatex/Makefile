@@ -14,7 +14,7 @@ COMMENT=	LuaTeX basic definition package
 
 DEPENDS+=	tex-cm-[0-9]*:../../wip/tex-cm
 DEPENDS+=	tex-etex-[0-9]*:../../wip/tex-etex
-DEPENDS+=	tex-hyphen-base-[0-9]*:../../wip/tex-hyphen-base
+DEPENDS+=	tex-hyphen-base-[0-9]*:../../print/tex-hyphen-base
 DEPENDS+=	tex-misc-[0-9]*:../../wip/tex-misc
 DEPENDS+=	tex-pdftex-[0-9]*:../../wip/tex-pdftex
 DEPENDS+=	tex-plain-[0-9]*:../../wip/tex-plain
