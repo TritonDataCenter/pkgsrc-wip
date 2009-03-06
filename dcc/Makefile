@@ -43,7 +43,9 @@ FILES_SUBST+=		DCC_RUN=${DCC_RUN}
 SUBST_CLASSES+=		dae
 SUBST_STAGE.dae=	post-patch
 SUBST_FILES.dae=	homedir/dcc_conf.in
-SUBST_SED.dae=		-Ee 's!^(DCC(D|IFD|M)_ENABLE=)off$$!\1on!'
+SUBST_SED.dae=		-e 's/^\(DCCD_ENABLE=\)off$$/\1on/' \
+			-e 's/^\(DCCM_ENABLE=\)off$$/\1on/' \
+			-e 's/^\(DCCIFD_ENABLE=\)off$$/\1on/'
 SUBST_MESSAGE.dae=	Enabling all daemons in dcc_conf
 
 HAS_CONFIGURE=		yes
