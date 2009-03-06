@@ -1,4 +1,0 @@
-@comment $NetBSD$
-bin/dhcpcd-gtk
-share/gnome/autostart/dhcpcd-gtk.desktop
-@unexec ${RMDIR} %D/share/gnome/autostart 2>/dev/null || ${TRUE}
