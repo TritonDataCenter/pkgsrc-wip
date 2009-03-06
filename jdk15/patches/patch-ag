@@ -7,10 +7,10 @@ $NetBSD$
  # zip, etc.)
  ifeq ($(TRUE_PLATFORM), NetBSD)
 -DEVTOOLS_PATH = /usr/pkg/bin/
-+DEVTOOLS_PATH = %%LOCALBASE%%/bin/
++DEVTOOLS_PATH = %%PREFIX%%/bin/
  else
 -DEVTOOLS_PATH = /usr/local/bin/
-+DEVTOOLS_PATH = %%LOCALBASE%%/bin/
++DEVTOOLS_PATH = %%PREFIX%%/bin/
  endif
  # Allow the user to override the default value...
  ifdef ALT_DEVTOOLS_PATH

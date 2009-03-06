@@ -9,7 +9,7 @@ $NetBSD$
 -X11DIR         = /usr/X11R6
 -LOCALDIR       = /usr/local
 +X11DIR         = %%X11BASE%%
-+LOCALDIR       = %%LOCALBASE%%
++LOCALDIR       = %%PREFIX%%
  ifneq ($(TRUE_PLATFORM), NetBSD)
  LIBS           = -L$(X11DIR)/lib -lX11 -L$(LOCALDIR)/lib -liconv
  else

@@ -25,7 +25,7 @@ $NetBSD$
  
  #ifndef DEFAULT_LD_LIBRARY_PATH
 -#define DEFAULT_LD_LIBRARY_PATH "/usr/lib" /* See ld.so.1(1) */
-+#define DEFAULT_LD_LIBRARY_PATH "/usr/lib:%%LOCALBASE%%/lib:%%X11BASE%%/lib" /* See ld.so.1(1) */
++#define DEFAULT_LD_LIBRARY_PATH "/usr/lib:%%PREFIX%%/lib:%%X11BASE%%/lib" /* See ld.so.1(1) */
  #endif
  #define EXTENSIONS_DIR "/lib/ext"
  #define ENDORSED_DIR "/lib/endorsed"

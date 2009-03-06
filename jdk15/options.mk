@@ -17,7 +17,7 @@ MAKE_ENV+=		DONT_ENABLE_IPV6=YES
 ###
 .if !empty(PKG_OPTIONS:Mjdk15-jce)
 DISTFILES+=	jce_policy-1_5_0.zip
-PLIST_SRC+=	PLIST.jce
+PLIST.jce=	yes
 post-build:
 	cd ${WRKDIR}/jce ; pax -rw -pp . ${JDKIMAGEDIR}/jre/lib/security
 .endif
@@ -30,13 +30,13 @@ post-build:
 
 MOZILLA=	${PKG_OPTIONS:@opt@${PKG_OPTIONS_GROUP.gecko:M${opt}}@}
 MAKE_ENV+=	BROWSER=${MOZILLA:Q}
-MAKE_ENV+=	ALT_MOZILLA_HEADERS_PATH=${LOCALBASE:Q}/include/${MOZILLA}
+MAKE_ENV+=	ALT_MOZILLA_HEADERS_PATH=${PREFIX:Q}/include/${MOZILLA}
 
 .include "../../www/seamonkey/gecko-depends.mk"
 # Check: is nspr necessary?
 #.include "../../devel/nspr/buildlink3.mk"
 BUILDLINK_DEPMETHOD.nspr=	build
-PLIST_SRC+=			PLIST.plugin
+PLIST.plugin=	yes
 MESSAGE_SRC+=			MESSAGE.plugin
 
 .else

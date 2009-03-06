@@ -7,7 +7,7 @@ $NetBSD$
  
  CPPINCPATH = $(SRCDIR) $(SRCDIR)/../adapter-common $(SRCDIR)/../jcomponent/public-include $(subst $(LIBRARY),,$(TMPDIR)) $(subst $(LIBRARY)/,,$(CLASSHDRDIR))
 -EXTRA_CPPFLAGS = -I$(MOZILLA_HEADERS_PATH)/mozilla_headers_ns610 -I$(MOZILLA_HEADERS_PATH)/mozilla_headers_ns610/nspr -I$(MOZILLA_LIBS_PATH)/../jpi/X11/include -I$(MOZILLA_LIBS_PATH)/../jpi/X11/lib/glib/include -DRAPTOR_API -DNEW_STREAMING_API
-+EXTRA_CPPFLAGS = -I%%LOCALBASE%%/include/nspr
++EXTRA_CPPFLAGS = -I%%PREFIX%%/include/nspr
  
  vpath %.c $(SRCDIR):$(SRCDIR)/../adapter-common:$(PLUGIN_TOP)/src/plugin/oji-plugin/src/motif/common
  vpath %.cpp $(SRCDIR):$(SRCDIR)/../adapter-common:$(PLUGIN_TOP)/src/plugin/oji-plugin/src/motif/common
