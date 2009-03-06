@@ -39,6 +39,7 @@
 .Op Fl T Ar title
 .Op Fl U Ar username
 .Op Fl b Ar directory
+.Op Fl l Ar logfile
 .Op Fl t Ar toolset
 .Op -- Ar args
 .Sh DESCRIPTION
@@ -176,6 +177,11 @@ Print a brief help page.
 .It Fl i
 Do not import patches.  Instead, use the fixed set distributed with
 the package.
+.It Fl l Ar logfile
+Log the output of the test runs to
+.Ar logfile .
+Note that a relative path will be resolved relative to the test
+directory.
 .It Fl p
 Do not patch the source prior to running the tests.
 .It Fl t Ar toolset
