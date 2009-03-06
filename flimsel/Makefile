@@ -6,7 +6,7 @@ CATEGORIES=	graphics
 MASTER_SITES=	http://www.ecademix.com/JohannesHofmann/
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
-HOMEPAGE=	http://www.ecademix.com/JohannesHofmann/
+HOMEPAGE=	http://www.ecademix.com/JohannesHofmann/flimsel.html
 COMMENT=	Minimalistic image browser
 
 GNU_CONFIGURE=		yes

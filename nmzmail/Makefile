@@ -6,7 +6,7 @@ CATEGORIES=	mail
 MASTER_SITES=	http://www.ecademix.com/JohannesHofmann/
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
-HOMEPAGE=	http://www.ecademix.com/JohannesHofmann/
+HOMEPAGE=	http://www.ecademix.com/JohannesHofmann/nmzmail.html
 COMMENT=	Fast mail searching for mutt
 
 GNU_CONFIGURE=		yes
