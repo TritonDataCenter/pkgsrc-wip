@@ -12,10 +12,6 @@ MAINTAINER=	minskim@NetBSD.org
 HOMEPAGE=	http://www.tug.org/texlive/
 COMMENT=	Plain TeX format
 
-DEPENDS+=	tex-bin-kpathsea-[0-9]*:../../print/tex-bin-kpathsea
-DEPENDS+=	tex-cm-[0-9]*:../../wip/tex-cm
-DEPENDS+=	tex-hyphen-base-[0-9]*:../../print/tex-hyphen-base
-DEPENDS+=	tex-misc-[0-9]*:../../wip/tex-misc
 DEPENDS+=	tex-plain-[0-9]*:../../wip/tex-plain
 DEPENDS+=	web2c-[0-9]*:../../print/web2c
 
