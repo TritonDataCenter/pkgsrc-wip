@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	paexec-0.12.1
+DISTNAME=	paexec-0.13.0
 CATEGORIES=	parallel sysutils
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=paexec/} \
 		http://mova.org/~cheusov/pub/paexec/
