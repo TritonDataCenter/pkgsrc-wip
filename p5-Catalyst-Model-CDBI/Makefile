@@ -11,7 +11,7 @@ MAINTAINER=	kuli0020@umn.edu
 HOMEPAGE=	http://search.cpan.org/dist/Catalyst-Model-CDBI/
 COMMENT=	CDBI model class for Catalyst
 
-DEPENDS+=	p5-Class-DBI-Loader>=0.2:../../devel/p5-Class-DBI-Loader
+DEPENDS+=	p5-Class-DBI-Loader>=0.2:../../wip/p5-Class-DBI-Loader
 DEPENDS+=	p5-Catalyst-Runtime>=4:../../www/p5-Catalyst-Runtime
 DEPENDS+=	p5-Class-DBI>=0:../../databases/p5-Class-DBI
 
