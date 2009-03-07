@@ -16,7 +16,7 @@ USE_TOOLS+=	gmake
 CONFIGURE_ARGS+=	--with-qt-dir=${QTDIR}
 
 # should work with net/tor aswell
-DEPENDS+=	tor-[0-9]*:../../wip/tor
+DEPENDS+=	tor-[0-9]*:../../net/tor
 
 .include "../../x11/qt4-libs/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
