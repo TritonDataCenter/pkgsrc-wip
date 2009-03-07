@@ -2,7 +2,7 @@
 sbin/boost-test-suite
 libdata/boost-test-suite/comment.html.in
 libdata/boost-test-suite/patch_boost
-libdata/boost-test-suite/patches.dist/index
-libdata/boost-test-suite/patches.dist/patch-aa
-@dirrm libdata/boost-test-suite/patches.dist
+libdata/boost-test-suite/patches/index
+libdata/boost-test-suite/patches/patch-aa
+@dirrm libdata/boost-test-suite/patches
 @dirrm libdata/boost-test-suite
