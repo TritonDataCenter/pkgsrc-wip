@@ -13,6 +13,9 @@ HOMEPAGE=	http://www.tug.org/texlive/
 COMMENT=	The Plain TeX format
 
 CONFLICTS+=	teTeX-texmf-[0-9]*
+DEPENDS+=	tex-cm-[0-9]*:../../wip/tex-cm
+DEPENDS+=	tex-hyphen-base-[0-9]*:../../print/tex-hyphen-base
+DEPENDS+=	tex-misc-[0-9]*:../../wip/tex-misc
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
