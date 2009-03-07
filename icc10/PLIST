@@ -1,5 +1,4 @@
 @comment $NetBSD$
-
 ${ICC_SUBPREFIX}/bin/codecov
 ${ICC_SUBPREFIX}/bin/icc
 ${ICC_SUBPREFIX}/bin/icc.cfg
