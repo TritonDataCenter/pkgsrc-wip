@@ -3,8 +3,8 @@
 PKG_OPTIONS_VAR=	PKG_OPTIONS.scummvm-nightly
 PKG_SUPPORTED_OPTIONS=	scummvm-nightly-cruise
 PKG_SUPPORTED_OPTIONS+=	scummvm-nightly-igor
+PKG_SUPPORTED_OPTIONS+=	scummvm-nightly-lol
 PKG_SUPPORTED_OPTIONS+=	scummvm-nightly-m4
-PKG_SUPPORTED_OPTIONS+=	scummvm-nightly-made
 PKG_SUPPORTED_OPTIONS+=	scummvm-nightly-saga2
 PKG_SUPPORTED_OPTIONS+=	scummvm-nightly-sci
 PKG_SUPPORTED_OPTIONS+=	scummvm-nightly-tinsel
@@ -18,11 +18,11 @@ CONFIGURE_ARGS+=--enable-cruise
 .if !empty(PKG_OPTIONS:Mscummvm-nightly-igor)
 CONFIGURE_ARGS+=--enable-igor
 .endif
+.if !empty(PKG_OPTIONS:Mscummvm-nightly-lol)
+CONFIGURE_ARGS+=--enable-lol
+.endif
 .if !empty(PKG_OPTIONS:Mscummvm-nightly-m4)
 CONFIGURE_ARGS+=--enable-m4
-.endif
-.if !empty(PKG_OPTIONS:Mscummvm-nightly-made)
-CONFIGURE_ARGS+=--enable-made
 .endif
 .if !empty(PKG_OPTIONS:Mscummvm-nightly-saga2)
 CONFIGURE_ARGS+=--enable-saga2
