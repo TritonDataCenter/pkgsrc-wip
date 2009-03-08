@@ -1,8 +1,8 @@
 # $NetBSD$
 #
 
-PKGNAME=		p5-${DISTNAME}
 DISTNAME=		List-Compare-0.37
+PKGNAME=		p5-${DISTNAME}
 CATEGORIES=		perl5 textproc
 MASTER_SITES=		${MASTER_SITE_PERL_CPAN:=List/}
 
@@ -10,8 +10,9 @@ MAINTAINER=		pettai@nordu.net
 HOMEPAGE=		http://search.cpan.org/CPAN/authors/id/J/JK/JKEENAN/
 COMMENT=		Compare elements of two or more lists
 
+PKG_DESTDIR_SUPPORT=	user-destdir
+
 PERL5_PACKLIST=		auto/List/Compare/.packlist
-# url2pkg-marker (please do not remove this line.)
 
 .include "../../lang/perl5/module.mk"
 .include "../../mk/bsd.pkg.mk"

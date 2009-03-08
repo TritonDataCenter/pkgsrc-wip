@@ -10,8 +10,9 @@ MAINTAINER=	pettai@nordu.net
 HOMEPAGE=	http://search.cpan.org/~mshoyher/TacacsPlus-0.16/TacacsPlus.pm
 COMMENT=	Perl extension for authentication using tacacs+ server
 
+PKG_DESTDIR_SUPPORT=	user-destdir
+
 PERL5_PACKLIST=	auto/Authen/TacacsPlus/.packlist
-# url2pkg-marker (please do not remove this line.)
 
 .include "../../lang/perl5/module.mk"
 .include "../../mk/bsd.pkg.mk"
