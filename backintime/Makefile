@@ -41,5 +41,5 @@ do-install:
 	cd ${WRKSRC} && ${SH} install-gnome.sh
 
 .include "../../lang/python/application.mk"
-.include "../../textproc/rarian/omf.mk"
+.include "../../mk/omf-scrollkeeper.mk"
 .include "../../mk/bsd.pkg.mk"

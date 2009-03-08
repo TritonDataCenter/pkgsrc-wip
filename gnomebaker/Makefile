@@ -18,7 +18,7 @@ DEPENDS+=	cdrtools>=2.01.01.53:../../sysutils/cdrtools
 DEPENDS+=	libgnomeui>=2.8.1:../../devel/libgnomeui
 
 
-.include "../../textproc/rarian/omf.mk"
+.include "../../mk/omf-scrollkeeper.mk"
 .include "../../devel/libgnomeui/buildlink3.mk"
 .include "../../x11/gtk2/buildlink3.mk"
 .include "../../devel/glib2/buildlink3.mk"

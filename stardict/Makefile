@@ -26,6 +26,6 @@ GCONF_SCHEMAS+=	stardict.schemas
 
 .include "../../devel/GConf/schemas.mk"
 .include "../../devel/libgnomeui/buildlink3.mk"
-.include "../../textproc/rarian/omf.mk"
+.include "../../mk/omf-scrollkeeper.mk"
 .include "../../mk/x11.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
