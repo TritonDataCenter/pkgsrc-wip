@@ -10,6 +10,8 @@ OWNER=		pettai@nordu.net
 HOMEPAGE=	http://hcpnet.free.fr/milter-greylist/
 COMMENT=	Easy-to-use greylist milter for sendmail devel snapshot
 
+PKG_DESTDIR_SUPPORT=	user-destdir
+
 # yacc rule moving to y.tab.c and renaming
 MAKE_JOBS_SAFE=		no
 
@@ -29,11 +31,11 @@ RCD_SCRIPTS=	milter-greylist
 .include "options.mk"
 
 post-install:
-	${INSTALL_DATA_DIR} ${PREFIX}/share/doc/milter-greylist
-	${INSTALL_DATA} ${WRKSRC}/README ${PREFIX}/share/doc/milter-greylist
-	${INSTALL_DATA_DIR} ${PREFIX}/share/examples/milter-greylist
+	${INSTALL_DATA_DIR} ${DESTDIR}${PREFIX}/share/doc/milter-greylist
+	${INSTALL_DATA} ${WRKSRC}/README ${DESTDIR}${PREFIX}/share/doc/milter-greylist
+	${INSTALL_DATA_DIR} ${DESTDIR}${PREFIX}/share/examples/milter-greylist
 	${INSTALL_DATA} ${WRKSRC}/greylist.conf \
-	  ${PREFIX}/share/examples/milter-greylist
+	  ${DESTDIR}${PREFIX}/share/examples/milter-greylist
 
 .include "../../mail/libmilter/buildlink3.mk"
 .include "../../mk/pthread.buildlink3.mk"
