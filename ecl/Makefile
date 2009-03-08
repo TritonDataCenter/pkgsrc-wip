@@ -48,6 +48,12 @@ USE_TOOLS+=		autoconf
 pre-configure:
 	cd ${WRKSRC}/src && autoconf
 
+# Work around problem with libraries on "Darwin 8.11.0 Power Macintosh":
+.include "../../mk/bsd.prefs.mk"
+.if ${OPSYS} == "Darwin"
+INSTALL_UNSTRIPPED=    yes
+.endif
+
 .include "../../wip/mk/cvs-package.mk"
 .include "../../devel/boehm-gc/buildlink3.mk"
 .include "../../devel/gmp/buildlink3.mk"
