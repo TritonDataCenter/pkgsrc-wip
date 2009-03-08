@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	lmdbg-0.8.1
+DISTNAME=	lmdbg-0.9.0
 CATEGORIES=	devel
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=lmdbg/} \
 		http://mova.org/~cheusov/pub/lmdbg/
