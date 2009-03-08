@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	gipfel-0.2.7
+DISTNAME=	gipfel-0.2.8
 CATEGORIES=	geography graphics
 MASTER_SITES=	http://www.ecademix.com/JohannesHofmann/
 
