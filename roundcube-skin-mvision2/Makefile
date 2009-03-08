@@ -10,6 +10,8 @@ MAINTAINER=	pettai@nordu.net
 HOMEPAGE=	http://roundcubethemes.net/
 COMMENT=	Hotmail/MSN-stylish skin for roundcube webmail
 
+PKG_DESTDIR_SUPPORT=	user-destdir
+
 DEPENDS+=	roundcube>=0.2-stable:../../mail/roundcube
 WRKSRC=		${WRKDIR}/mvision2_en
 USE_LANGUAGES=	# none
