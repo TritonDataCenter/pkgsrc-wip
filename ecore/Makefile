@@ -25,7 +25,6 @@ CONFIGURE_ARGS+=	--disable-openssl \
 .include "../../graphics/evas-buffer/buildlink3.mk"
 .include "../../graphics/evas-software-x11/buildlink3.mk"
 .include "../../converters/libiconv/buildlink3.mk"
-#.include "../../devel/SDL/buildlink3.mk"
 .include "../../www/curl/buildlink3.mk"
 .include "../../x11/libXdamage/buildlink3.mk"
 .include "../../x11/libXp/buildlink3.mk"

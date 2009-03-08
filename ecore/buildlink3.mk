@@ -19,7 +19,6 @@ BUILDLINK_PKGSRCDIR.ecore?=	../../wip/ecore
 
 .include "../../devel/eet/buildlink3.mk"
 .include "../../converters/libiconv/buildlink3.mk"
-.include "../../devel/SDL/buildlink3.mk"
 .include "../../graphics/evas/buildlink3.mk"
 .include "../../graphics/evas-buffer/buildlink3.mk"
 .include "../../graphics/evas-software-x11/buildlink3.mk"
