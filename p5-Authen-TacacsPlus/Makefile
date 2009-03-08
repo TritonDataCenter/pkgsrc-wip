@@ -1,8 +1,8 @@
 # $NetBSD$
 #
 
-PKGNAME=	p5-Authen-${DISTNAME}
 DISTNAME=	TacacsPlus-0.16
+PKGNAME=	p5-Authen-${DISTNAME}
 CATEGORIES=	perl5 security
 MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=Authen/}
 
