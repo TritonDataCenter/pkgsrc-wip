@@ -8,6 +8,8 @@ MAINTAINER=	mihai.chelaru@ngnetworks.ro
 HOMEPAGE=	http://kefren.ngnetworks.ro/
 COMMENT=	Small package manager
 
+PKG_DESTDIR_SUPPORT=	user-destdir
+
 USE_TOOLS+=	perl:run
 
 DEPENDS+=	p5-pkgsrc-Dewey>=1.0:../../pkgtools/p5-pkgsrc-Dewey
@@ -17,6 +19,6 @@ REPLACE_PERL+=	packman.pl
 
 do-build:
 do-install:
-	install ${WRKSRC}/packman.pl ${PREFIX}/bin
+	${INSTALL_SCRIPT} ${WRKSRC}/packman.pl ${DESTDIR}${PREFIX}/bin
 
 .include "../../mk/bsd.pkg.mk"
