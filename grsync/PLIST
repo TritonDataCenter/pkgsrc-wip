@@ -1,11 +1,10 @@
 @comment $NetBSD$
 bin/grsync
+bin/grsync-batch
+man/man1/grsync-batch.1
 man/man1/grsync.1
 share/applications/grsync.desktop
-share/locale/fr_FR/LC_MESSAGES/grsync.mo
-share/locale/it_IT/LC_MESSAGES/grsync.mo
-share/locale/nb_NO/LC_MESSAGES/grsync.mo
-share/locale/nl_NL/LC_MESSAGES/grsync.mo
-share/locale/sv_SE/LC_MESSAGES/grsync.mo
-share/locale/zh_CN/LC_MESSAGES/grsync.mo
 share/pixmaps/grsync.png
+@comment in xdg-dirs: @dirrm share/pixmaps
+@comment in hicolor-icon-theme: @dirrm share/icons/hicolor
+@comment in xdg-dirs: @dirrm share/applications

@@ -1,18 +1,24 @@
 # $NetBSD$
 #
 
-DISTNAME=		grsync-0.5
-CATEGORIES=		net
-MASTER_SITES=		http://www.opbyte.it/release/
+DISTNAME=	grsync-0.6.2
+CATEGORIES=	sysutils
+MASTER_SITES=	http://www.opbyte.it/release/
 
-MAINTAINER=		pkgsrc@blackmouse.biz
-HOMEPAGE=		http://www.opbyte.it/grsync/
-COMMENT=		Grsync is a GUI (Graphical User Interface) for rsync
+MAINTAINER=	pkgsrc@blackmouse.biz
+HOMEPAGE=	http://www.opbyte.it/grsync/
+COMMENT=	Grsync is a GUI for rsync
 
-USE_TOOLS+=		msgfmt pkg-config
+PKG_DESTDIR_SUPPORT=	user-destdir
 
-USE_PKGLOCALEDIR=	yes
-GNU_CONFIGURE=		yes
+GNU_CONFIGURE=	yes
+USE_TOOLS+=	intltool msgfmt pkg-config bash:run
+USE_DIRS+=	xdg-1.4
 
+REPLACE_BASH+=	src/grsync-batch
+
+.include "../../devel/libglade/buildlink3.mk"
+.include "../../graphics/hicolor-icon-theme/buildlink3.mk"
+.include "../../sysutils/desktop-file-utils/desktopdb.mk"
 .include "../../x11/gtk2/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
