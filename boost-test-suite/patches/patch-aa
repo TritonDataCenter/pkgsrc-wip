@@ -13,11 +13,3 @@ $NetBSD$
  
     local wrong = [ set.difference $(with-parameter) : $(existing-libraries) ] ;
     if $(wrong)
-@@ -419,6 +423,7 @@
-     : <location>$(stage-locate)/lib
-       <install-dependencies>on <install-type>LIB
-       <install-no-version-symlinks>on
-+      <dll-path>/usr/pkg/lib
-     ;
- explicit stage-proper ;
- 
