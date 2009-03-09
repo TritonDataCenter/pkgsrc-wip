@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	packman-0.0.9
+DISTNAME=	packman-0.0.10
 CATEGORIES=	pkgtools
 MASTER_SITES=	http://kefren.ngnetworks.ro/
 
