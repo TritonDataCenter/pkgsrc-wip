@@ -3,6 +3,7 @@
 
 DISTNAME=	TAP-Harness-Archive-0.12
 PKGNAME=	p5-${DISTNAME}
+PKGREVISION=	1
 CATEGORIES=	perl5 devel
 MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=TAP/}
 
@@ -13,6 +14,7 @@ COMMENT=	Create an archive of TAP test results
 DEPENDS+=	p5-YAML-Tiny>=1.32:../../textproc/p5-YAML-Tiny
 DEPENDS+=	p5-Test-Harness>=3.13:../../devel/p5-Test-Harness
 
+PKG_DESTDIR_SUPPORT=	user-destdir
 PERL5_MODULE_TYPE=	Module::Build
 PERL5_PACKLIST=		auto/TAP/Harness/Archive/.packlist
 USE_LANGUAGES=		# none
