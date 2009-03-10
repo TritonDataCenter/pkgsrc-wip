@@ -6,7 +6,7 @@ COMMENT=	Artwork for the KDE integrated X11 desktop
 
 .include "../../wip/kde4/Makefile.kde4"
 
-CMAKE_ARGS+=	-DXSCREENSAVER_CONFIG_DIR:PATH=${BUILDLINK_PREFIX.xscreensaver}/libexec/xscreensaver
+CMAKE_ARGS+=	-DXSCREENSAVER_CONFIG_DIR:PATH=${BUILDLINK_PREFIX.xscreensaver}/libexec/xscreensaver/config
 CMAKE_ARGS+=	-DXSCREENSAVER_DIR:PATH=${BUILDLINK_PREFIX.xscreensaver}/libexec/xscreensaver
 
 #BUILD_MAKE_FLAGS+= VERBOSE=1

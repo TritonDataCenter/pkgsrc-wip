@@ -25,6 +25,7 @@ REPLACE_PERL+= \
 	kalarm/kalarm-1.2.1-general.pl \
 	kalarm/kalarm-1.9.5-defaults.pl \
 	kalarm/kalarm-2.0.2-general.pl \
+	kalarm/kalarm-2.1.5-general.pl \
 	kalarm/kalarm-version.pl \
 	kmail/kconf_update/kmail-3.1-update-new-mail-notification-settings.pl \
 	kmail/kconf_update/kmail-3.1-use-UOID-for-identities.pl \
