@@ -36,9 +36,9 @@ MAKE_ENV+=	ALT_MOZILLA_HEADERS_PATH=${PREFIX:Q}/include/${MOZILLA}
 # Check: is nspr necessary?
 #.include "../../devel/nspr/buildlink3.mk"
 BUILDLINK_DEPMETHOD.nspr=	build
-PLIST.plugin=	yes
-MESSAGE_SRC+=			MESSAGE.plugin
+PLIST.plugin=		yes
+MESSAGE_SRC+=		MESSAGE.plugin
 
 .else
-MAKE_ENV+=			BUILD_PLUGIN=false
+MAKE_ENV+=		BUILD_PLUGIN=false
 .endif
