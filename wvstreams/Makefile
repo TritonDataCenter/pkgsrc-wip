@@ -6,7 +6,7 @@ CATEGORIES=	net
 MASTER_SITES=	http://wvstreams.googlecode.com/files/
 
 MAINTAINER=	evaldo@gardenali.biz
-HOMEPAGE=	http://wvstreams.googlecode.com/files/
+HOMEPAGE=	http://alumnit.ca/wiki/index.php?page=WvDial
 COMMENT=	WvStreams is a network programming library in C++
 
 GNU_CONFIGURE=	yes
