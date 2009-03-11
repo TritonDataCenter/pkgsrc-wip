@@ -1,6 +1,7 @@
 @comment $NetBSD$
 bin/grisbi
 man/man1/grisbi.1
+share/applications/grisbi.desktop
 share/doc/grisbi/help/C/contents_motif.gif
 share/doc/grisbi/help/C/grisbi-manuel.html
 share/doc/grisbi/help/C/next_motif.gif
