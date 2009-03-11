@@ -21,7 +21,7 @@ DEPENDS+=	p5-Unicode-String>=2.0:../../converters/p5-Unicode-String
 DEPENDS+=	p5-Unicode-Collate>=0.52:../../wip/p5-Unicode-Collate
 DEPENDS+=	p5-Crypt-CBC>=2.14:../../security/p5-Crypt-CBC
 DEPENDS+=	p5-Crypt-CAST5>=0.04:../../wip/p5-Crypt-CAST5
-DEPENDS+=	p5-Text-Aspell>=0.04:../../wip/p5-Text-Aspell
+DEPENDS+=	p5-Text-Aspell>=0.04:../../textproc/p5-Text-Aspell
 DEPENDS+=	p5-Time-HiRes>=1.59:../../time/p5-Time-HiRes
 DEPENDS+=	p5-Digest-MD5>=2.0:../../security/p5-Digest-MD5
 DEPENDS+=	p5-Date-Calc>=5.4:../../devel/p5-Date-Calc
