@@ -66,5 +66,5 @@ post-install:
 	${INSTALL_DATA} ${WRKSRC}/examples/make_package/make_package_tasks \
 		${DESTDIR}${PKGEGDIR}/make_package/
 
-.include "../../wip/libmaa/buildlink3.mk"
+.include "../../devel/libmaa/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

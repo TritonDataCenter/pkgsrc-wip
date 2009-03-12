@@ -64,5 +64,5 @@ post-install:
 .endfor
 
 .include "../../devel/zlib/buildlink3.mk"
-.include "../../wip/libmaa/buildlink3.mk"
+.include "../../devel/libmaa/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
