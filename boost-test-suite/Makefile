@@ -59,7 +59,7 @@ SUBST_VARS.fix-files+=		PREFIX
 
 LIBDATA_DIR=			${PREFIX}/libdata/boost-test-suite
 
-INSTALLATION_DIRS+=		libdata sbin
+INSTALLATION_DIRS+=		libdata ${PKGMANDIR}/man1 sbin
 
 FILES+=				boost-test-suite boost-test-suite.1
 FILES+=				comment.html.in patch_boost
