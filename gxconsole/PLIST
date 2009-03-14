@@ -1,0 +1,4 @@
+@comment $NetBSD$
+bin/gxconsole
+share/applications/gxconsole.desktop
+@comment in xdg-dirs: @dirrm share/applications
