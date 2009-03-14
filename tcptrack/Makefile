@@ -1,15 +1,17 @@
 # $NetBSD$
 #
 
-DISTNAME=		tcptrack-1.2.0
-CATEGORIES=		net
-MASTER_SITES=		http://www.rhythm.cx/~steve/devel/tcptrack/release/1.2.0/source/
+DISTNAME=	tcptrack-1.3.0
+CATEGORIES=	net
+MASTER_SITES=	http://www.rhythm.cx/~steve/devel/tcptrack/release/1.3.0/source/
 
-MAINTAINER=		pancake@phreaker.net
-HOMEPAGE=		http://www.rhythm.cx/~steve/devel/tcptrack/
-COMMENT=		Watch TCP connections
+MAINTAINER=	pancake@phreaker.net
+HOMEPAGE=	http://www.rhythm.cx/~steve/devel/tcptrack/
+COMMENT=	Watch TCP connections
 
-USE_LANGUAGES=		c++
+PKG_DESTDIR_SUPPORT=	user-destdir
+
+USE_LANGUAGES=		c c++
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 
