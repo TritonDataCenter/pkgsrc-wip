@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	mk-configure-0.6.0
+DISTNAME=	mk-configure-0.7.0
 CATEGORIES=	devel
 MASTER_SITES=	http://mova.org/~cheusov/pub/mk-configure/
 

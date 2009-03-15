@@ -1,12 +1,15 @@
 @comment $NetBSD$
-libexec/mkc/mkc_check_decl
-libexec/mkc/mkc_check_funclib
-libexec/mkc/mkc_check_header
-libexec/mkc/mkc_check_sizeof
+bin/mkc_check_decl
+bin/mkc_check_funclib
+bin/mkc_check_header
+bin/mkc_check_sizeof
+man/man1/mkc_check_decl.1
+man/man1/mkc_check_funclib.1
+man/man1/mkc_check_header.1
+man/man1/mkc_check_sizeof.1
 share/doc/mk-configure/ChangeLog
 share/doc/mk-configure/NEWS
 share/doc/mk-configure/README
 share/doc/mk-configure/TODO
 share/mk/configure.mk
 @dirrm share/doc/mk-configure
-@dirrm libexec/mkc
