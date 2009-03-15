@@ -1,0 +1,7 @@
+@comment $NetBSD$
+lib/pidgin/pidgin-rhythmbox.la
+share/pidgin-rhythmbox/AUTHORS
+share/pidgin-rhythmbox/NEWS
+share/pidgin-rhythmbox/README
+@dirrm share/pidgin-rhythmbox
+@dirrm lib/pidgin
