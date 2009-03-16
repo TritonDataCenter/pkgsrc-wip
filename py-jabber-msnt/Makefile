@@ -6,6 +6,9 @@ PKGNAME=		${PYPKGPREFIX}-jabber-${DISTNAME:S/py//}
 CATEGORIES=		chat python
 MASTER_SITES=		http://delx.net.au/projects/pymsnt/tarballs/
 
+PATCH_SITES=		http://www.darkskies.za.net/~norman/msn/
+PATCHFILES=		hg-214.patch
+
 MAINTAINER=		eric@cirr.com
 HOMEPAGE=		http://delx.net.au/projects/pymsnt
 COMMENT=		Transport connecting Jabber to the MSN network
