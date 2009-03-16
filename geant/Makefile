@@ -11,6 +11,8 @@ MAINTAINER=	hugor@users.sourceforge.net
 HOMEPAGE=	http://geant4.web.cern.ch/geant4/
 COMMENT=	Toolkit for the simulation of the passage of particles through matter
 
+PKG_DESTDIR_SUPPORT=	user-destdir
+
 WRKSRC=		${WRKDIR}/${DISTNAME}/source
 MAKE_FILE=	GNUmakefile
 USE_TOOLS+=	gmake pax
@@ -43,27 +45,28 @@ MAKE_ENV+=	G4VIS_BUILD_RAYTRACERX_DRIVER=1
 MAKE_ENV+=	G4UI_USE_TERMINAL=1
 
 do-install:
-	${INSTALL_DATA_DIR} ${LOCALBASE}/geant
-	${INSTALL_DATA_DIR} ${LOCALBASE}/geant/config
-	${INSTALL_DATA_DIR} ${LOCALBASE}/geant/examples
-	${INSTALL_DATA_DIR} ${LOCALBASE}/geant/lib
-	${INSTALL_LIB_DIR} ${LOCALBASE}/geant/lib/${G4SYSTEM}
-	${INSTALL_DATA_DIR} ${LOCALBASE}/geant/physics_lists
-	${INSTALL_DATA_DIR} ${LOCALBASE}/geant/source
+	${INSTALL_DATA_DIR} ${DESTDIR}${LOCALBASE}/geant
+	${INSTALL_DATA_DIR} ${DESTDIR}${LOCALBASE}/geant/config
+	${INSTALL_DATA_DIR} ${DESTDIR}${LOCALBASE}/geant/examples
+	${INSTALL_DATA_DIR} ${DESTDIR}${LOCALBASE}/geant/lib
+	${INSTALL_LIB_DIR} ${DESTDIR}${LOCALBASE}/geant/lib/${G4SYSTEM}
+	${INSTALL_DATA_DIR} ${DESTDIR}${LOCALBASE}/geant/physics_lists
+	${INSTALL_DATA_DIR} ${DESTDIR}${LOCALBASE}/geant/source
 	cd ${WRKDIR}/${DISTNAME}/config && pax -pp -rw . \
-		${LOCALBASE}/geant/config
+		${DESTDIR}${LOCALBASE}/geant/config
 	cd ${WRKDIR}/${DISTNAME}/examples && pax -pp -rw . \
-		${LOCALBASE}/geant/examples
+		${DESTDIR}${LOCALBASE}/geant/examples
 	${INSTALL_LIB} ${WRKDIR}/${DISTNAME}/lib/${G4SYSTEM}/* \
-		${LOCALBASE}/geant/lib/${G4SYSTEM}
+		${DESTDIR}${LOCALBASE}/geant/lib/${G4SYSTEM}
 	cd ${WRKDIR}/${DISTNAME}/physics_lists && pax -pp -rw . \
-		${LOCALBASE}/geant/physics_lists
+		${DESTDIR}${LOCALBASE}/geant/physics_lists
 	cd ${WRKDIR}/${DISTNAME}/source && pax -pp -rw . \
-		${LOCALBASE}/geant/source
-
+		${DESTDIR}${LOCALBASE}/geant/source
 
 .include	"../../wip/clhep/buildlink3.mk"
 .include	"../../graphics/MesaLib/buildlink3.mk"
 .include	"../../graphics/glu/buildlink3.mk"
-.include	"../../mk/x11.buildlink3.mk"
+.include	"../../x11/libXt/buildlink3.mk"
+.include	"../../x11/libXmu/buildlink3.mk"
+.include	"../../x11/libX11/buildlink3.mk"
 .include	"../../mk/bsd.pkg.mk"
