@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	cclive-0.2.3
+DISTNAME=	cclive-0.2.4
 CATEGORIES=	net multimedia www
 MASTER_SITES=	http://cclive.googlecode.com/files/
 EXTRACT_SUFX=	.tar.bz2
