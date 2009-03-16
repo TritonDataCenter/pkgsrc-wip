@@ -13,7 +13,7 @@ BUILDLINK_ORDER:=	${BUILDLINK_ORDER} ${BUILDLINK_DEPTH}tango-icon-theme
 
 .if ${TANGO_ICON_THEME_BUILDLINK3_MK} == "+"
 BUILDLINK_API_DEPENDS.tango-icon-theme+=	tango-icon-theme>=0.8.90
-BUILDLINK_PKGSRCDIR.tango-icon-theme?=	../../graphics/tango-icon-theme
+BUILDLINK_PKGSRCDIR.tango-icon-theme?=	../../wip/tango-icon-theme
 .endif	# TANGO_ICON_THEME_BUILDLINK3_MK
 
 BUILDLINK_DEPTH:=			${BUILDLINK_DEPTH:S/+$//}
