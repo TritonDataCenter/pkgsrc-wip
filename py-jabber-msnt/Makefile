@@ -8,6 +8,7 @@ MASTER_SITES=		http://delx.net.au/projects/pymsnt/tarballs/
 
 PATCH_SITES=		http://www.darkskies.za.net/~norman/msn/
 PATCHFILES=		hg-214.patch
+PATCH_DIST_STRIP.hg-214.patch=	-p1
 
 MAINTAINER=		eric@cirr.com
 HOMEPAGE=		http://delx.net.au/projects/pymsnt
