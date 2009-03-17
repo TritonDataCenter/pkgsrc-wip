@@ -1,0 +1,18 @@
+$NetBSD$
+
+--- Makefile.in.orig	2008-12-10 15:49:36.000000000 +0000
++++ Makefile.in	2008-12-10 15:54:44.000000000 +0000
+@@ -263,12 +263,11 @@
+ SUBDIRS = src po test doc
+ pkgconfigdir = $(libdir)/pkgconfig
+ pkgconfig_DATA = gtkhotkey-1.0.pc
+-gtkhotkeydocdir = ${prefix}/doc/gtkhotkey
++gtkhotkeydocdir = ${prefix}/share/doc/gtkhotkey
+ gtkhotkeydoc_DATA = \
+ 	README			\
+ 	COPYING			\
+ 	AUTHORS			\
+-	INSTALL			\
+ 	doc/gpl-3.0.txt	\
+ 	NEWS
+ 
