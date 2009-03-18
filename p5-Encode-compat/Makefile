@@ -10,6 +10,7 @@ MAINTAINER=		dieter.NetBSD@pandora.be
 COMMENT=		Encode.pm emulation layer
 
 PKG_INSTALLATION_TYPES=	overwrite pkgviews
+PKG_DESTDIR_SUPPORT=	user-destdir
 
 USE_LANGUAGES=		# empty
 PERL5_PACKLIST=		auto/Encode/compat/.packlist

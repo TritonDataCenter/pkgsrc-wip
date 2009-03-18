@@ -14,7 +14,8 @@ DEPENDS+=	p5-Class-ISA>=0.31:../../devel/p5-Class-ISA
 DEPENDS+=	p5-Carp-Assert>=0.10:../../devel/p5-Carp-Assert
 BUILD_DEPENDS+=	p5-Test-Simple>=0.50:../../devel/p5-Test-Simple
 
-PERL5_PACKLIST= auto/Class/Virtual/.packlist
+PERL5_PACKLIST=		auto/Class/Virtual/.packlist
+PKG_DESTDIR_SUPPORT=	user-destdir
 
 .include "../../lang/perl5/module.mk"
 .include "../../mk/bsd.pkg.mk"

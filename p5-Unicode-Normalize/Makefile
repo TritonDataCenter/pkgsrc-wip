@@ -10,8 +10,9 @@ HOMEPAGE=		http://search.cpan.org/~sadahiro/Unicode-Normalize-1.02
 COMMENT=		Unicode Normalization Froms
 
 PKG_INSTALLATION_TYPES=	overwrite pkgviews
+PKG_DESTDIR_SUPPORT=	user-destdir
 
-PERL5_PACKLIST= auto/Unicode/Normalize/.packlist
+PERL5_PACKLIST=		auto/Unicode/Normalize/.packlist
 
 .include "../../lang/perl5/module.mk"
 .include "../../mk/bsd.pkg.mk"
