@@ -16,9 +16,11 @@ CONFIGURE_ARGS+=	--disable-gtktest
 do-build:
 	cd ${WRKSRC}/src && ${SETENV} ${MAKE_ENV} ${MAKE} xpdq
 
+INSTALLATION_DIRS=	bin ${PKGMANDIR}/man1
+
 do-install:
-	${INSTALL_PROGRAM} ${WRKSRC}/src/xpdq ${PREFIX}/bin/xpdq
-	${INSTALL_MAN} ${WRKSRC}/doc/xpdq.1 ${PREFIX}/${PKGMANDIR}/man1/xpdq.1
+	${INSTALL_PROGRAM} ${WRKSRC}/src/xpdq ${DESTDIR}${PREFIX}/bin/xpdq
+	${INSTALL_MAN} ${WRKSRC}/doc/xpdq.1 ${DESTDIR}${PREFIX}/${PKGMANDIR}/man1/xpdq.1
 
 .include "../../wip/pdq/Makefile.common"
 .include "../../x11/gtk/buildlink3.mk"
