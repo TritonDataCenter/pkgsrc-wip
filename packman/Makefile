@@ -17,6 +17,8 @@ DEPENDS+=	p5-pkgsrc-Dewey>=1.0:../../pkgtools/p5-pkgsrc-Dewey
 USE_LANGUAGES=	# empty
 REPLACE_PERL+=	packman.pl
 
+INSTALLATION_DIRS+=	bin
+
 do-build:
 do-install:
 	${INSTALL_SCRIPT} ${WRKSRC}/packman.pl ${DESTDIR}${PREFIX}/bin
