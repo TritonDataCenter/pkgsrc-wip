@@ -12,7 +12,7 @@ MASTER_SITES=	# not defined
 
 MAINTAINER=	gdt@NetBSD.org
 HOMEPAGE=	http://trac-hacks.org/wiki/TimingAndEstimationPlugin
-COMMENT=	Graphviz plugin for Trac
+COMMENT=	TimingAndEstimation plugin for Trac
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
