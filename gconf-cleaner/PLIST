@@ -1,0 +1,8 @@
+@comment $NetBSD$
+bin/gconf-cleaner
+share/applications/gconf-cleaner.desktop
+share/locale/de/LC_MESSAGES/gconf-cleaner.mo
+share/locale/fr/LC_MESSAGES/gconf-cleaner.mo
+share/locale/ja/LC_MESSAGES/gconf-cleaner.mo
+share/locale/sv/LC_MESSAGES/gconf-cleaner.mo
+@comment in xdg-dirs: @dirrm share/applications
