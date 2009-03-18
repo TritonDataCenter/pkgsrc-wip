@@ -14,6 +14,7 @@ DEPENDS+=		p5-Exporter-Lite>=0.01:../../devel/p5-Exporter-Lite
 DEPENDS+=		p5-UNIVERSAL-require>=0.01:../../devel/p5-UNIVERSAL-require
 
 PKG_INSTALLATION_TYPES=	overwrite pkgviews
+PKG_DESTDIR_SUPPORT=	user-destdir
 
 PERL5_PACKLIST=		auto/UNIVERSAL/exports/.packlist
 
