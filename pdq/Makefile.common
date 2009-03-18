@@ -4,7 +4,7 @@
 
 DISTNAME=		pdq-2.2.1
 CATEGORIES=		print
-MASTER_SITES=		http://pdq.sourceforge.net/ \
+MASTER_SITES=		http://pdq.sourceforge.net/ftp/ \
 			ftp://feynman.tam.uiuc.edu/pub/pdq/
 EXTRACT_SUFX=		.tgz
 
