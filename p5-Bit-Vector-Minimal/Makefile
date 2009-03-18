@@ -9,7 +9,9 @@ MAINTAINER=	kuli0020@umn.edu
 HOMEPAGE=	http://search.cpan.org/dist/Bit-Vector-Minimal/
 COMMENT=	"Object-oriented wrapper around Perl's vec()"
 
-PERL5_PACKLIST= auto/Bit/Vector/Minimal/.packlist
+PKG_DESTDIR_SUPPORT=	user-destdir
+
+PERL5_PACKLIST=		auto/Bit/Vector/Minimal/.packlist
 
 .include "../../lang/perl5/module.mk"
 .include "../../mk/bsd.pkg.mk"
