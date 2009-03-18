@@ -14,6 +14,8 @@ USE_PERL=	YES
 USE_TOOLS+=	intltool pkg-config gmake
 OWN_DIRS+=		${PKG_SYSCONFDIR}/xdg
 
+PKG_DESTDIR_SUPPORT=	user-destdir
+
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 

@@ -9,6 +9,8 @@ MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://www.bluez.org/
 COMMENT=		Linux Bluetooth Stack libraries
 
+PKG_DESTDIR_SUPPORT=	user-destdir
+
 USE_PKGLOCALEDIR=	yes
 USE_LANGUAGES=	c
 USE_LIBTOOL=		yes
