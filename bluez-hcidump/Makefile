@@ -9,7 +9,9 @@ MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://www.bluez.org/
 COMMENT=		Bluetooth packet analyzer
 
-USE_LANGUAGES=	c
+USE_LANGUAGES=		c
+
+PKG_DESTDIR_SUPPORT=	user-destdir
 
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
