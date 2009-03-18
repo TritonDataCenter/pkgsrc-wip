@@ -11,6 +11,8 @@ MAINTAINER=	hiramatu@boreas.dti.ne.jp
 HOMEPAGE=	http://search.cpan.org/dist/Class-DBI-Loader/
 COMMENT=	Dynamic definition of Class::DBI sub classes
 
+PKG_DESTDIR_SUPPORT=	user-destdir
+
 DEPENDS+=	p5-DBI>=1.30:../../databases/p5-DBI
 DEPENDS+=	p5-Class-DBI>=0.89:../../databases/p5-Class-DBI
 DEPENDS+=	p5-Lingua-EN-Inflect>=1.88:../../textproc/p5-Lingua-EN-Inflect

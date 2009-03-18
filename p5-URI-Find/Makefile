@@ -13,6 +13,7 @@ COMMENT=		Find URIs in arbitrary text
 DEPENDS+=		p5-URI>=1.35:../../www/p5-URI
 
 PKG_INSTALLATION_TYPES=	overwrite pkgviews
+PKG_DESTDIR_SUPPORT=	user-destdir
 
 PERL5_PACKLIST=		auto/URI/Find/.packlist
 
