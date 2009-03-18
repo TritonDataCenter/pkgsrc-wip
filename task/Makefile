@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	task-1.4.3
+DISTNAME=	task-1.5.0
 CATEGORIES=	time
 MASTER_SITES=	http://www.beckingham.net/
 
