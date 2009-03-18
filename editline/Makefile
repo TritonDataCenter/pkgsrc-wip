@@ -10,6 +10,8 @@ MAINTAINER=		reed@reedmedia.net
 HOMEPAGE=		http://www.thrysoee.dk/editline/
 COMMENT=		NetBSD Editline library (libedit) for generic line editing
 
+PKG_DESTDIR_SUPPORT=	user-destdir
+
 USE_LIBTOOL=		yes
 GNU_CONFIGURE=		yes
 USE_LANGUAGES=		c c++
