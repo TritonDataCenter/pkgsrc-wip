@@ -46,12 +46,12 @@ pre-extract:
 
 # make it easier to patch the runtime system
 do-extract:
-	${_PKG_SILENT}${_PKG_DEBUG}					\
-	extract_file="${_DISTDIR}/config.tgz"; export extract_file;	\
+	${RUN} extract_file="${_DISTDIR}/config.tgz"; export extract_file;	\
 		cd ${WRKDIR}; ${EXTRACT_CMD}
-	${_PKG_SILENT}${_PKG_DEBUG}					\
-	extract_file="${_DISTDIR}/runtime.tgz"; export extract_file;	\
+	${RUN} extract_file="${_DISTDIR}/runtime.tgz"; export extract_file;	\
 		cd ${WRKDIR}/src; ${EXTRACT_CMD}
+	${RUN} extract_file="${_DISTDIR}/runtime.tgz"; export extract_file;	\
+		mkdir ${WRKDIR}/base; cd ${WRKDIR}/base; ${EXTRACT_CMD}
 
 # make symlinks to the dist files
 post-extract:
