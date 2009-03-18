@@ -31,4 +31,5 @@ PKGCONFIG_OVERRIDE+=	pkgconfig/libwvutils.pc.in
 PKGCONFIG_OVERRIDE+=	pkgconfig/libuniconf.pc.in
 PKGCONFIG_OVERRIDE+=	pkgconfig/libwvqt.pc.in
 
+.include "../../security/openssl/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
