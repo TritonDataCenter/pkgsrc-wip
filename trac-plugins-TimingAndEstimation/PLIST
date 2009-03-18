@@ -28,5 +28,6 @@ ${PYSITELIB}/timingandestimationplugin/usermanual.pyc
 ${PYSITELIB}/timingandestimationplugin/usermanual.pyo
 ${PYSITELIB}/timingandestimationplugin/webui.pyc
 ${PYSITELIB}/timingandestimationplugin/webui.pyo
+share/examples/trac/TimingAndEstimation-post-commit.py
 @dirrm ${PYSITELIB}/timingandestimationplugin-0.7.6-py2.5.egg-info
 @dirrm ${PYSITELIB}/timingandestimationplugin
