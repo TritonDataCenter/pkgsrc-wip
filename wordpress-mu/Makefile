@@ -43,6 +43,7 @@ do-install:
 		${DESTDIR}${PREFIX}/share/doc/wordpress-mu
 	${INSTALL_DATA} ${WRKSRC}/wp-config-sample.php \
 		${DESTDIR}${PREFIX}/share/examples/wordpress-mu
+	rm ${DESTDIR}${PREFIX}/share/wordpress-mu/README.txt
 
 .include "options.mk"
 .include "../../wip/mk/svn-package.mk"

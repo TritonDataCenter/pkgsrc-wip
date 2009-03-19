@@ -2,7 +2,6 @@
 share/doc/wordpress-mu/README.txt
 share/doc/wordpress-mu/license.txt
 share/examples/wordpress-mu/wp-config-sample.php
-share/wordpress-mu/README.txt
 share/wordpress-mu/htaccess.dist
 share/wordpress-mu/index-install.php
 share/wordpress-mu/index.php
