@@ -29,7 +29,7 @@ USE_TOOLS+=	makeinfo gzip
 USE_TOOLS+=	perl:build
 
 MAKE_JOBS_SAFE=	no # fresh Gforth is required to build doc
-BUILD_TARGET=	all doc
+BUILD_TARGET=	all info # doc
 TEST_TARGET=	check
 
 INSTALLATION_DIRS=	share/emacs/site-lisp
