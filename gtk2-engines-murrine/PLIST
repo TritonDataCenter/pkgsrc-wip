@@ -1,3 +1,0 @@
-@comment $NetBSD$
-lib/gtk-2.0/2.10.0/engines/libmurrine.la
-@comment in gtk2: @dirrm lib/gtk-2.0/2.10.0/engines
