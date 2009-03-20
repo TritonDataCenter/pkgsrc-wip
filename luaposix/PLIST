@@ -1,2 +1,2 @@
 @comment $NetBSD$
-lib/lua/5.1/posix.so
+${LUA_CDIR}/posix.so

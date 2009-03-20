@@ -10,11 +10,16 @@ MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://www.tecgraf.puc-rio.br/~lhf/ftp/lua/
 COMMENT=		POSIX library for Lua
 
+PKG_DESTDIR_SUPPORT=	user-destdir
+
 WRKSRC=			${WRKDIR}/posix/
 BUILD_TARGET=		lposix.so
+#TEST_TARGET=		test
+
+INSTALLATION_DIRS+=	${LUA_CDIR}
 
 do-install:
-	${INSTALL_DATA} ${WRKSRC}/lposix.so ${PREFIX}/lib/lua/5.1/posix.so
+	${INSTALL_DATA} ${WRKSRC}/lposix.so ${DESTDIR}${PREFIX}/${LUA_CDIR}/posix.so
 
-.include "../../lang/lua/buildlink3.mk"
+.include "../../lang/lua/module.mk"
 .include "../../mk/bsd.pkg.mk"
