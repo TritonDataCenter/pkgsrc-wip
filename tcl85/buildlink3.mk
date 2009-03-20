@@ -1,17 +1,10 @@
 # $NetBSD: buildlink3.mk,v 1.19 2006/07/08 23:10:56 jlam Exp $
 
-BUILDLINK_DEPTH:=	${BUILDLINK_DEPTH}+
-TCL_BUILDLINK3_MK:=	${TCL_BUILDLINK3_MK}+
+BUILDLINK_TREE+=	tcl
 
-.if !empty(BUILDLINK_DEPTH:M+)
-BUILDLINK_DEPENDS+=	tcl
-.endif
+.if !defined(TCL_BUILDLINK3_MK)
+TCL_BUILDLINK3_MK:=
 
-BUILDLINK_PACKAGES:=	${BUILDLINK_PACKAGES:Ntcl}
-BUILDLINK_PACKAGES+=	tcl
-BUILDLINK_ORDER:=	${BUILDLINK_ORDER} ${BUILDLINK_DEPTH}tcl
-
-.if !empty(TCL_BUILDLINK3_MK:M+)
 BUILDLINK_API_DEPENDS.tcl+=	tcl>=8.5.3
 BUILDLINK_ABI_DEPENDS.tcl+=	tcl>=8.5.3
 BUILDLINK_PKGSRCDIR.tcl?=	../../wip/tcl85
@@ -28,8 +21,8 @@ TCLCONFIG_SH?=		${BUILDLINK_PREFIX.tcl}/lib/tcl8.5/tclConfig.sh
 
 PRINT_PLIST_AWK+=	/^@dirrm lib\/tcl$$/ \
 				{ print "@comment in tcl: " $$0; next; }
-.endif	# TCL_BUILDLINK3_MK
 
 .include "../../mk/dlopen.buildlink3.mk"
+.endif # TCL_BUILDLINK3_MK
 
-BUILDLINK_DEPTH:=	${BUILDLINK_DEPTH:S/+$//}
+BUILDLINK_TREE+=	-tcl

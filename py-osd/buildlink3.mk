@@ -1,22 +1,15 @@
 # $NetBSD$
 
-BUILDLINK_DEPTH:=	${BUILDLINK_DEPTH}+
-PY_OSD_BUILDLINK3_MK:=	${PY_OSD_BUILDLINK3_MK}+
+BUILDLINK_TREE+=	py-osd
 
-.if ${BUILDLINK_DEPTH} == "+"
-BUILDLINK_DEPENDS+=	py-osd
-.endif
+.if !defined(PY_OSD_BUILDLINK3_MK)
+PY_OSD_BUILDLINK3_MK:=
 
-BUILDLINK_PACKAGES:=	${BUILDLINK_PACKAGES:Npy-osd}
-BUILDLINK_PACKAGES+=	py-osd
-BUILDLINK_ORDER:=	${BUILDLINK_ORDER} ${BUILDLINK_DEPTH}py-osd
-
-.if ${PY_OSD_BUILDLINK3_MK} == "+"
 .include "../../lang/python/pyversion.mk"
 BUILDLINK_API_DEPENDS.py-osd+=	${PYPKGPREFIX}-osd>=0.2.14
 BUILDLINK_PKGSRCDIR.py-osd?=	../../wip/py-osd
-.endif	# PY_OSD_BUILDLINK3_MK
 
 .include "../../x11/xosd/buildlink3.mk"
+.endif # PY_OSD_BUILDLINK3_MK
 
-BUILDLINK_DEPTH:=		${BUILDLINK_DEPTH:S/+$//}
+BUILDLINK_TREE+=	-py-osd

@@ -10,20 +10,10 @@
 # XXX
 # XXX	BUILDLINK_DEPMETHOD.libgksuui1.0?=	build
 
-BUILDLINK_DEPTH:=		${BUILDLINK_DEPTH}+
-LIBGKSUUI1.0_BUILDLINK3_MK:=	${LIBGKSUUI1.0_BUILDLINK3_MK}+
+BUILDLINK_TREE+=	libgksuui1.0
 
-.if !empty(BUILDLINK_DEPTH:M+)
-BUILDLINK_DEPENDS+=	libgksuui1.0
-.endif
-
-BUILDLINK_PACKAGES:=	${BUILDLINK_PACKAGES:Nlibgksuui1.0}
-BUILDLINK_PACKAGES+=	libgksuui1.0
-
-.if !empty(LIBGKSUUI1.0_BUILDLINK3_MK:M+)
 BUILDLINK_API_DEPENDS.libgksuui1.0+=	libgksuui1.0>=1.0.7
 BUILDLINK_PKGSRCDIR.libgksuui1.0?=	../../wip/libgksuui
-.endif	# LIBGKSUUI1.0_BUILDLINK3_MK
 
 # XXX
 # XXX Uncomment and keep only the buildlink3 lines below which are directly
@@ -32,5 +22,6 @@ BUILDLINK_PKGSRCDIR.libgksuui1.0?=	../../wip/libgksuui
 # XXX buildlink3 lines below to dependencies, remove them.
 # XXX
 #.include "../../x11/gtk2/buildlink3.mk"
+.endif # LIBGKSUUI1.0_BUILDLINK3_MK
 
-BUILDLINK_DEPTH:=     ${BUILDLINK_DEPTH:S/+$//}
+BUILDLINK_TREE+=	-libgksuui1.0

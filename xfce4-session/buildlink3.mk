@@ -1,24 +1,17 @@
 # $NetBSD$
 
-BUILDLINK_DEPTH:=		${BUILDLINK_DEPTH}+
-XFCE4_SESSION_BUILDLINK3_MK:=	${XFCE4_SESSION_BUILDLINK3_MK}+
+BUILDLINK_TREE+=	xfce4-session
 
-.if ${BUILDLINK_DEPTH} == "+"
-BUILDLINK_DEPENDS+=	xfce4-session
-.endif
+.if !defined(XFCE4_SESSION_BUILDLINK3_MK)
+XFCE4_SESSION_BUILDLINK3_MK:=
 
-BUILDLINK_PACKAGES:=	${BUILDLINK_PACKAGES:Nxfce4-session}
-BUILDLINK_PACKAGES+=	xfce4-session
-BUILDLINK_ORDER:=	${BUILDLINK_ORDER} ${BUILDLINK_DEPTH}xfce4-session
-
-.if ${XFCE4_SESSION_BUILDLINK3_MK} == "+"
 BUILDLINK_API_DEPENDS.xfce4-session+=	xfce4-session>=4.4.1
 BUILDLINK_PKGSRCDIR.xfce4-session?=	../../wip/xfce4-session
-.endif	# XFCE4_SESSION_BUILDLINK3_MK
 
 .include "../../graphics/hicolor-icon-theme/buildlink3.mk"
 .include "../../wip/xfce4-mcs-plugins/buildlink3.mk"
 .include "../../wip/xfce4-dev-tools/buildlink3.mk"
 .include "../../devel/glib2/buildlink3.mk"
+.endif # XFCE4_SESSION_BUILDLINK3_MK
 
-BUILDLINK_DEPTH:=		${BUILDLINK_DEPTH:S/+$//}
+BUILDLINK_TREE+=	-xfce4-session

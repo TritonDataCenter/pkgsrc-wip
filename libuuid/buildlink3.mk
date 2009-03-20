@@ -1,20 +1,11 @@
 # $NetBSD$
 
-BUILDLINK_DEPTH:=	${BUILDLINK_DEPTH}+
-LIBUUID_BUILDLINK3_MK:=	${LIBUUID_BUILDLINK3_MK}+
+BUILDLINK_TREE+=	libuuid
 
-.if !empty(BUILDLINK_DEPTH:M+)
-BUILDLINK_DEPENDS+=	libuuid
-.endif
-
-BUILDLINK_PACKAGES:=	${BUILDLINK_PACKAGES:Nlibuuid}
-BUILDLINK_PACKAGES+=	libuuid
-
-.if !empty(LIBUUID_BUILDLINK3_MK:M+)
 BUILDLINK_API_DEPENDS.libuuid+=	libuuid>=1.36
 BUILDLINK_PKGSRCDIR.libuuid?=	../../wip/libuuid
-.endif	# LIBUUID_BUILDLINK3_MK
 
 .include "../../devel/gettext-lib/buildlink3.mk"
+.endif # LIBUUID_BUILDLINK3_MK
 
-BUILDLINK_DEPTH:=	${BUILDLINK_DEPTH:S/+$//}
+BUILDLINK_TREE+=	-libuuid

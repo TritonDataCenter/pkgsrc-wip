@@ -10,21 +10,13 @@
 # XXX
 # XXX	BUILDLINK_DEPMETHOD.beryl-core?=	build
 
-BUILDLINK_DEPTH:=		${BUILDLINK_DEPTH}+
-BERYL_CORE_BUILDLINK3_MK:=	${BERYL_CORE_BUILDLINK3_MK}+
+BUILDLINK_TREE+=	beryl-core
 
-.if ${BUILDLINK_DEPTH} == "+"
-BUILDLINK_DEPENDS+=	beryl-core
-.endif
+.if !defined(BERYL_CORE_BUILDLINK3_MK)
+BERYL_CORE_BUILDLINK3_MK:=
 
-BUILDLINK_PACKAGES:=	${BUILDLINK_PACKAGES:Nberyl-core}
-BUILDLINK_PACKAGES+=	beryl-core
-BUILDLINK_ORDER:=	${BUILDLINK_ORDER} ${BUILDLINK_DEPTH}beryl-core
-
-.if ${BERYL_CORE_BUILDLINK3_MK} == "+"
 BUILDLINK_API_DEPENDS.beryl-core+=	beryl-core>=0.2.1
 BUILDLINK_PKGSRCDIR.beryl-core?=	../../wip/beryl-core
-.endif	# BERYL_CORE_BUILDLINK3_MK
 
 .include "../../devel/glib2/buildlink3.mk"
 .include "../../graphics/png/buildlink3.mk"
@@ -37,5 +29,6 @@ BUILDLINK_PKGSRCDIR.beryl-core?=	../../wip/beryl-core
 .include "../../x11/libSM/buildlink3.mk"
 .include "../../x11/libICE/buildlink3.mk"
 .include "../../x11/startup-notification/buildlink3.mk"
+.endif # BERYL_CORE_BUILDLINK3_MK
 
-BUILDLINK_DEPTH:=		${BUILDLINK_DEPTH:S/+$//}
+BUILDLINK_TREE+=	-beryl-core

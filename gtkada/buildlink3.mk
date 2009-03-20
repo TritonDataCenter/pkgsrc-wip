@@ -1,24 +1,15 @@
 # $NetBSD$
 
-BUILDLINK_DEPTH:=	${BUILDLINK_DEPTH}+
-GTKADA_BUILDLINK3_MK:=	${GTKADA_BUILDLINK3_MK}+
+BUILDLINK_TREE+=	GtkAda
 
-.if !empty(BUILDLINK_DEPTH:M+)
-BUILDLINK_DEPENDS+=	GtkAda
-.endif
-
-BUILDLINK_PACKAGES:=	${BUILDLINK_PACKAGES:NGtkAda}
-BUILDLINK_PACKAGES+=	GtkAda
-
-.if !empty(GTKADA_BUILDLINK3_MK:M+)
 BUILDLINK_API_DEPENDS.GtkAda+=	GtkAda>=2.2.1
 BUILDLINK_ABI_DEPENDS.GtkAda?=	GtkAda>=2.2.1nb2
 BUILDLINK_PKGSRCDIR.GtkAda?=	../../wip/gtkada
-.endif	# GTKADA_BUILDLINK3_MK
 
 .include "../../x11/gtk2/buildlink3.mk"
 .include "../../devel/libglade/buildlink3.mk"
 .include "../../devel/libgnomeui/buildlink3.mk"
 .include "../../mk/x11.buildlink3.mk"
+.endif # GTKADA_BUILDLINK3_MK
 
-BUILDLINK_DEPTH:=     ${BUILDLINK_DEPTH:S/+$//}
+BUILDLINK_TREE+=	-GtkAda

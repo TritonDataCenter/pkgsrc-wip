@@ -1,24 +1,17 @@
 # $NetBSD$
 
-BUILDLINK_DEPTH:=		${BUILDLINK_DEPTH}+
-XFCE4_EXO_BUILDLINK3_MK:=	${XFCE4_EXO_BUILDLINK3_MK}+
+BUILDLINK_TREE+=	xfce4-exo
 
-.if ${BUILDLINK_DEPTH} == "+"
-BUILDLINK_DEPENDS+=	xfce4-exo
-.endif
+.if !defined(XFCE4_EXO_BUILDLINK3_MK)
+XFCE4_EXO_BUILDLINK3_MK:=
 
-BUILDLINK_PACKAGES:=	${BUILDLINK_PACKAGES:Nxfce4-exo}
-BUILDLINK_PACKAGES+=	xfce4-exo
-BUILDLINK_ORDER:=	${BUILDLINK_ORDER} ${BUILDLINK_DEPTH}xfce4-exo
-
-.if ${XFCE4_EXO_BUILDLINK3_MK} == "+"
 BUILDLINK_API_DEPENDS.xfce4-exo+=	xfce4-exo>=0.3.2
 BUILDLINK_PKGSRCDIR.xfce4-exo?=	../../wip/xfce4-exo
-.endif	# XFCE4_EXO_BUILDLINK3_MK
 
 .include "../../graphics/hicolor-icon-theme/buildlink3.mk"
 .include "../../wip/xfce4-mcs-plugins/buildlink3.mk"
 .include "../../wip/xfce4-dev-tools/buildlink3.mk"
 .include "../../devel/glib2/buildlink3.mk"
+.endif # XFCE4_EXO_BUILDLINK3_MK
 
-BUILDLINK_DEPTH:=		${BUILDLINK_DEPTH:S/+$//}
+BUILDLINK_TREE+=	-xfce4-exo

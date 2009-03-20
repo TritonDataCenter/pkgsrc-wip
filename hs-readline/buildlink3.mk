@@ -1,22 +1,15 @@
 # $NetBSD$
 
-BUILDLINK_DEPTH:=		${BUILDLINK_DEPTH}+
-HS_READLINE_BUILDLINK3_MK:=	${HS_READLINE_BUILDLINK3_MK}+
+BUILDLINK_TREE+=	hs-readline
 
-.if ${BUILDLINK_DEPTH} == "+"
-BUILDLINK_DEPENDS+=	hs-readline
-.endif
+.if !defined(HS_READLINE_BUILDLINK3_MK)
+HS_READLINE_BUILDLINK3_MK:=
 
-BUILDLINK_PACKAGES:=	${BUILDLINK_PACKAGES:Nhs-readline}
-BUILDLINK_PACKAGES+=	hs-readline
-BUILDLINK_ORDER:=	${BUILDLINK_ORDER} ${BUILDLINK_DEPTH}hs-readline
-
-.if ${HS_READLINE_BUILDLINK3_MK} == "+"
 BUILDLINK_DEPMETHOD.hs-readline?=	build
 BUILDLINK_API_DEPENDS.hs-readline+=	hs-readline>=1.0.1.0
 BUILDLINK_PKGSRCDIR.hs-readline?=	../../wip/hs-readline
-.endif	# HS_READLINE_BUILDLINK3_MK
 
 .include "../../devel/readline/buildlink3.mk"
+.endif # HS_READLINE_BUILDLINK3_MK
 
-BUILDLINK_DEPTH:=		${BUILDLINK_DEPTH:S/+$//}
+BUILDLINK_TREE+=	-hs-readline

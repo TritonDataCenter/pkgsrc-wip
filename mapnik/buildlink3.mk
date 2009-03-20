@@ -1,20 +1,12 @@
 # $NetBSD$
 
-BUILDLINK_DEPTH:=	${BUILDLINK_DEPTH}+
-MAPNIK_BUILDLINK3_MK:=	${MAPNIK_BUILDLINK3_MK}+
+BUILDLINK_TREE+=	mapnik
 
-.if ${BUILDLINK_DEPTH} == "+"
-BUILDLINK_DEPENDS+=	mapnik
-.endif
+.if !defined(MAPNIK_BUILDLINK3_MK)
+MAPNIK_BUILDLINK3_MK:=
 
-BUILDLINK_PACKAGES:=	${BUILDLINK_PACKAGES:Nmapnik}
-BUILDLINK_PACKAGES+=	mapnik
-BUILDLINK_ORDER:=	${BUILDLINK_ORDER} ${BUILDLINK_DEPTH}mapnik
-
-.if ${MAPNIK_BUILDLINK3_MK} == "+"
 BUILDLINK_API_DEPENDS.mapnik+=	mapnik>=0.4.0
 BUILDLINK_PKGSRCDIR.mapnik?=	../../wip/mapnik
-.endif	# MAPNIK_BUILDLINK3_MK
 
 .include "../../devel/boost-headers/buildlink3.mk"
 .include "../../devel/libltdl/buildlink3.mk"
@@ -24,5 +16,6 @@ BUILDLINK_PKGSRCDIR.mapnik?=	../../wip/mapnik
 #.include "../../graphics/png/buildlink3.mk"
 #.include "../../graphics/tiff/buildlink3.mk"
 #.include "../../misc/proj/buildlink3.mk"
+.endif # MAPNIK_BUILDLINK3_MK
 
-BUILDLINK_DEPTH:=	${BUILDLINK_DEPTH:S/+$//}
+BUILDLINK_TREE+=	-mapnik

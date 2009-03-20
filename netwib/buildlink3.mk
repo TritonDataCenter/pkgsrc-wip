@@ -1,22 +1,15 @@
 # $NetBSD$
 
-BUILDLINK_DEPTH:=	${BUILDLINK_DEPTH}+
-NETWIB_BUILDLINK3_MK:=	${NETWIB_BUILDLINK3_MK}+
+BUILDLINK_TREE+=	netwib
 
-.if ${BUILDLINK_DEPTH} == "+"
-BUILDLINK_DEPENDS+=	netwib
-.endif
+.if !defined(NETWIB_BUILDLINK3_MK)
+NETWIB_BUILDLINK3_MK:=
 
-BUILDLINK_PACKAGES:=	${BUILDLINK_PACKAGES:Nnetwib}
-BUILDLINK_PACKAGES+=	netwib
-BUILDLINK_ORDER:=	${BUILDLINK_ORDER} ${BUILDLINK_DEPTH}netwib
-
-.if ${NETWIB_BUILDLINK3_MK} == "+"
 BUILDLINK_API_DEPENDS.netwib+=	netwib>=5.35.0
 BUILDLINK_PKGSRCDIR.netwib?=	../../wip/netwib
-.endif	# NETWIB_BUILDLINK3_MK
 
 .include "../../devel/libnet10/buildlink3.mk"
 .include "../../net/libpcap/buildlink3.mk"
+.endif # NETWIB_BUILDLINK3_MK
 
-BUILDLINK_DEPTH:=	${BUILDLINK_DEPTH:S/+$//}
+BUILDLINK_TREE+=	-netwib

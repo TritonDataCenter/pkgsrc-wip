@@ -1,19 +1,9 @@
 # $NetBSD$
 
-BUILDLINK_DEPTH:=		${BUILDLINK_DEPTH}+
-BOINC_LIB_BUILDLINK3_MK:=	${BOINC_LIB_BUILDLINK3_MK}+
+BUILDLINK_TREE+=	boinc-lib
 
-.if ${BUILDLINK_DEPTH} == "+"
-BUILDLINK_DEPENDS+=	boinc-lib
-.endif
-
-BUILDLINK_PACKAGES:=	${BUILDLINK_PACKAGES:Nboinc-lib}
-BUILDLINK_PACKAGES+=	boinc-lib
-
-.if ${BOINC_LIB_BUILDLINK3_MK} == "+"
 BUILDLINK_API_DEPENDS.boinc-lib+=	boinc-lib>=1
 BUILDLINK_PKGSRCDIR.boinc-lib?=	../../wip/boinc-lib
-.endif	# BOINC_LIB_BUILDLINK3_MK
 
 # XXX
 # XXX Uncomment and keep only the buildlink3 lines below which are directly
@@ -23,5 +13,6 @@ BUILDLINK_PKGSRCDIR.boinc-lib?=	../../wip/boinc-lib
 # XXX
 #.include "../../www/curl/buildlink3.mk"
 #.include "../../security/openssl/buildlink3.mk"
+.endif # BOINC_LIB_BUILDLINK3_MK
 
-BUILDLINK_DEPTH:=		${BUILDLINK_DEPTH:S/+$//}
+BUILDLINK_TREE+=	-boinc-lib

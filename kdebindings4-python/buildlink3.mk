@@ -10,21 +10,13 @@
 # XXX
 # XXX	BUILDLINK_DEPMETHOD.kdebindings4-python?=	build
 
-BUILDLINK_DEPTH:=			${BUILDLINK_DEPTH}+
-KDEBINDINGS4_PYTHON_BUILDLINK3_MK:=	${KDEBINDINGS4_PYTHON_BUILDLINK3_MK}+
+BUILDLINK_TREE+=	kdebindings4-python
 
-.if ${BUILDLINK_DEPTH} == "+"
-BUILDLINK_DEPENDS+=	kdebindings4-python
-.endif
+.if !defined(KDEBINDINGS4_PYTHON_BUILDLINK3_MK)
+KDEBINDINGS4_PYTHON_BUILDLINK3_MK:=
 
-BUILDLINK_PACKAGES:=	${BUILDLINK_PACKAGES:Nkdebindings4-python}
-BUILDLINK_PACKAGES+=	kdebindings4-python
-BUILDLINK_ORDER:=	${BUILDLINK_ORDER} ${BUILDLINK_DEPTH}kdebindings4-python
-
-.if ${KDEBINDINGS4_PYTHON_BUILDLINK3_MK} == "+"
 BUILDLINK_API_DEPENDS.kdebindings4-python+=	kdebindings4-python>=4.1.85
 BUILDLINK_PKGSRCDIR.kdebindings4-python?=	../../wip/kdebindings4-python
-.endif	# KDEBINDINGS4_PYTHON_BUILDLINK3_MK
 
 # XXX
 # XXX Uncomment and keep only the buildlink3 lines below which are directly
@@ -36,5 +28,6 @@ BUILDLINK_PKGSRCDIR.kdebindings4-python?=	../../wip/kdebindings4-python
 #.include "../../wip/kdepimlibs4/buildlink3.mk"
 #.include "../../x11/py-sip/buildlink3.mk"
 #.include "../../x11/py-qt4/buildlink3.mk"
+.endif # KDEBINDINGS4_PYTHON_BUILDLINK3_MK
 
-BUILDLINK_DEPTH:=			${BUILDLINK_DEPTH:S/+$//}
+BUILDLINK_TREE+=	-kdebindings4-python

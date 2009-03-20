@@ -10,21 +10,12 @@
 # XXX
 # XXX	BUILDLINK_DEPMETHOD.libticables?=	build
 
-BUILDLINK_DEPTH:=		${BUILDLINK_DEPTH}+
-LIBTICABLES_BUILDLINK3_MK:=	${LIBTICABLES_BUILDLINK3_MK}+
+BUILDLINK_TREE+=	libticables
 
-.if !empty(BUILDLINK_DEPTH:M+)
-BUILDLINK_DEPENDS+=	libticables
-.endif
-
-BUILDLINK_PACKAGES:=	${BUILDLINK_PACKAGES:Nlibticables}
-BUILDLINK_PACKAGES+=	libticables
-
-.if !empty(LIBTICABLES_BUILDLINK3_MK:M+)
 BUILDLINK_API_DEPENDS.libticables+=	libticables>=3.7.6
 BUILDLINK_PKGSRCDIR.libticables?=	../../wip/libticables
-.endif	# LIBTICABLES_BUILDLINK3_MK
 
 .include "../../devel/libusb/buildlink3.mk"
+.endif # LIBTICABLES_BUILDLINK3_MK
 
-BUILDLINK_DEPTH:=     ${BUILDLINK_DEPTH:S/+$//}
+BUILDLINK_TREE+=	-libticables

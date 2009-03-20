@@ -1,23 +1,16 @@
 # $NetBSD$
 
-BUILDLINK_DEPTH:=		${BUILDLINK_DEPTH}+
-DKIM_MILTER_BUILDLINK3_MK:=	${DKIM_MILTER_BUILDLINK3_MK}+
+BUILDLINK_TREE+=	dkim-milter
 
-.if ${BUILDLINK_DEPTH} == "+"
-BUILDLINK_DEPENDS+=	dkim-milter
-.endif
+.if !defined(DKIM_MILTER_BUILDLINK3_MK)
+DKIM_MILTER_BUILDLINK3_MK:=
 
-BUILDLINK_PACKAGES:=	${BUILDLINK_PACKAGES:Ndkim-milter}
-BUILDLINK_PACKAGES+=	dkim-milter
-BUILDLINK_ORDER:=	${BUILDLINK_ORDER} ${BUILDLINK_DEPTH}dkim-milter
-
-.if ${DKIM_MILTER_BUILDLINK3_MK} == "+"
 BUILDLINK_API_DEPENDS.dkim-milter+=	dkim-milter>=2.7.2
 BUILDLINK_PKGSRCDIR.dkim-milter?=	../../wip/dkim-milter
 BUILDLINK_DEPMETHOD.dkim-milter?=	build
-.endif	# DKIM_MILTER_BUILDLINK3_MK
 
 .include "../../security/openssl/buildlink3.mk"
 .include "../../mail/libmilter/buildlink3.mk"
+.endif # DKIM_MILTER_BUILDLINK3_MK
 
-BUILDLINK_DEPTH:=		${BUILDLINK_DEPTH:S/+$//}
+BUILDLINK_TREE+=	-dkim-milter

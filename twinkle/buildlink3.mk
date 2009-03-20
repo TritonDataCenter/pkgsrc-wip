@@ -1,25 +1,18 @@
 # $NetBSD$
 
-BUILDLINK_DEPTH:=	${BUILDLINK_DEPTH}+
-TWINKLE_BUILDLINK3_MK:=	${TWINKLE_BUILDLINK3_MK}+
+BUILDLINK_TREE+=	twinkle
 
-.if ${BUILDLINK_DEPTH} == "+"
-BUILDLINK_DEPENDS+=	twinkle
-.endif
+.if !defined(TWINKLE_BUILDLINK3_MK)
+TWINKLE_BUILDLINK3_MK:=
 
-BUILDLINK_PACKAGES:=	${BUILDLINK_PACKAGES:Ntwinkle}
-BUILDLINK_PACKAGES+=	twinkle
-BUILDLINK_ORDER:=	${BUILDLINK_ORDER} ${BUILDLINK_DEPTH}twinkle
-
-.if ${TWINKLE_BUILDLINK3_MK} == "+"
 BUILDLINK_API_DEPENDS.twinkle+=	twinkle>=1.1
 BUILDLINK_PKGSRCDIR.twinkle?=	../../wip/twinkle
-.endif	# TWINKLE_BUILDLINK3_MK
 
 .include "../../x11/qt3-tools/buildlink3.mk"
 .include "../../x11/qt3-libs/buildlink3.mk"
 .include "../../textproc/libxml2/buildlink3.mk"
 .include "../../wip/commoncpp2/buildlink3.mk"
 .include "../../wip/ccrtp/buildlink3.mk"
+.endif # TWINKLE_BUILDLINK3_MK
 
-BUILDLINK_DEPTH:=	${BUILDLINK_DEPTH:S/+$//}
+BUILDLINK_TREE+=	-twinkle

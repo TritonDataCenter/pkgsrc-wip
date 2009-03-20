@@ -1,20 +1,12 @@
 # $NetBSD$
 
-BUILDLINK_DEPTH:=		${BUILDLINK_DEPTH}+
-XFCE4_DESKTOP_BUILDLINK3_MK:=	${XFCE4_DESKTOP_BUILDLINK3_MK}+
+BUILDLINK_TREE+=	xfce4-desktop
 
-.if ${BUILDLINK_DEPTH} == "+"
-BUILDLINK_DEPENDS+=	xfce4-desktop
-.endif
+.if !defined(XFCE4_DESKTOP_BUILDLINK3_MK)
+XFCE4_DESKTOP_BUILDLINK3_MK:=
 
-BUILDLINK_PACKAGES:=	${BUILDLINK_PACKAGES:Nxfce4-desktop}
-BUILDLINK_PACKAGES+=	xfce4-desktop
-BUILDLINK_ORDER:=	${BUILDLINK_ORDER} ${BUILDLINK_DEPTH}xfce4-desktop
-
-.if ${XFCE4_DESKTOP_BUILDLINK3_MK} == "+"
 BUILDLINK_API_DEPENDS.xfce4-desktop+=	xfce4-desktop>=4.4.1
 BUILDLINK_PKGSRCDIR.xfce4-desktop?=	../../wip/xfce4-desktop
-.endif	# XFCE4_DESKTOP_BUILDLINK3_MK
 
 .include "../../graphics/hicolor-icon-theme/buildlink3.mk"
 .include "../../sysutils/dbus-glib/buildlink3.mk"
@@ -23,5 +15,6 @@ BUILDLINK_PKGSRCDIR.xfce4-desktop?=	../../wip/xfce4-desktop
 .include "../../wip/xfce4-thunar/buildlink3.mk"
 .include "../../wip/xfce4-dev-tools/buildlink3.mk"
 .include "../../devel/glib2/buildlink3.mk"
+.endif # XFCE4_DESKTOP_BUILDLINK3_MK
 
-BUILDLINK_DEPTH:=		${BUILDLINK_DEPTH:S/+$//}
+BUILDLINK_TREE+=	-xfce4-desktop

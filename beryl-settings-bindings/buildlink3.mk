@@ -10,22 +10,15 @@
 # XXX
 # XXX	BUILDLINK_DEPMETHOD.beryl-settings-bindings?=	build
 
-BUILDLINK_DEPTH:=			${BUILDLINK_DEPTH}+
-BERYL_SETTINGS_BINDINGS_BUILDLINK3_MK:=	${BERYL_SETTINGS_BINDINGS_BUILDLINK3_MK}+
+BUILDLINK_TREE+=	beryl-settings-bindings
 
-.if ${BUILDLINK_DEPTH} == "+"
-BUILDLINK_DEPENDS+=	beryl-settings-bindings
-.endif
+.if !defined(BERYL_SETTINGS_BINDINGS_BUILDLINK3_MK)
+BERYL_SETTINGS_BINDINGS_BUILDLINK3_MK:=
 
-BUILDLINK_PACKAGES:=	${BUILDLINK_PACKAGES:Nberyl-settings-bindings}
-BUILDLINK_PACKAGES+=	beryl-settings-bindings
-BUILDLINK_ORDER:=	${BUILDLINK_ORDER} ${BUILDLINK_DEPTH}beryl-settings-bindings
-
-.if ${BERYL_SETTINGS_BINDINGS_BUILDLINK3_MK} == "+"
 BUILDLINK_API_DEPENDS.beryl-settings-bindings+=	beryl-settings-bindings>=0.2.1
 BUILDLINK_PKGSRCDIR.beryl-settings-bindings?=	../../wip/beryl-settings-bindings
-.endif	# BERYL_SETTINGS_BINDINGS_BUILDLINK3_MK
 
 .include "../../wip/beryl-core/buildlink3.mk"
+.endif # BERYL_SETTINGS_BINDINGS_BUILDLINK3_MK
 
-BUILDLINK_DEPTH:=			${BUILDLINK_DEPTH:S/+$//}
+BUILDLINK_TREE+=	-beryl-settings-bindings
