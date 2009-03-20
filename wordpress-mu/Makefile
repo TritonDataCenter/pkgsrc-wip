@@ -2,7 +2,6 @@
 #
 
 DISTNAME=		wordpress-mu-${VERSION}
-PKGNAME=		wordpress-mu-${VERSION}
 VERSION=		2.7
 CATEGORIES=		www
 MASTER_SITES=		http://mu.wordpress.org/
@@ -28,7 +27,7 @@ SVN_REPOSITORIES=	wordpress-mu
 SVN_ROOT.wordpress-mu=	http://svn.automattic.com/wordpress-mu/tags/2.7
 SVN_TAG=		1696
 
-NO_CHECKSUM=    yes 
+NO_CHECKSUM=    yes
 
 do-install:
 	find ${WRKSRC} -type d -name .svn -print | xargs rm -r
