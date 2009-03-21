@@ -12,9 +12,6 @@ COMMENT=	Debian Almquist shell, POSIX-compliant shell faster than bash
 PKG_DESTDIR_SUPPORT=	user-destdir
 
 GNU_CONFIGURE=		yes
-USE_TOOLS+=		gmake autoconf autoheader
-
-pre-configure:
-	cd ${WRKSRC} && autoheader && autoconf
+USE_TOOLS+=		gmake
 
 .include "../../mk/bsd.pkg.mk"
