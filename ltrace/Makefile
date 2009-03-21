@@ -7,8 +7,10 @@ CATEGORIES=		sysutils devel
 MASTER_SITES=		${MASTER_SITE_DEBIAN:=pool/main/l/ltrace/}
 
 MAINTAINER=		reed@reedmedia.net
-HOMEPAGE=		http://packages.debian.org/unstable/utils/ltrace.html
+HOMEPAGE=		http://ltrace.alioth.debian.org/
 COMMENT=		Track runtime library calls in dynamically linked programs
+
+PKG_DESTDIR_SUPPORT=	user-destdir
 
 ONLY_FOR_PLATFORM=	Linux-*-*
 
