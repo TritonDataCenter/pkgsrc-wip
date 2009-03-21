@@ -1,14 +1,19 @@
 # $NetBSD$
 #
 
-DISTNAME=		Genetic-0.1.1
-PKGNAME=		${PYPKGPREFIX}-${DISTNAME}
-CATEGORIES=		devel
-MASTER_SITES=		http://ftp.debian.org/debian/pool/main/g/genetic/
+DISTNAME=	genetic_0.1.1b.orig
+PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
+CATEGORIES=	devel maths
+MASTER_SITES=	${MASTER_SITE_DEBIAN:=pool/main/g/genetic/}
 
-MAINTAINER=		pkgsrc-users@NetBSD.org
-# HOMEPAGE=		http://oomadness.tuxfamily.org/en/genetic/index.html
-COMMENT=		A package for genetic algorithms in Python
+MAINTAINER=	pkgsrc-users@NetBSD.org
+HOMEPAGE=	http://ftp.debian.org/debian/pool/main/g/genetic/
+COMMENT=	python-genetic provides genetic algorithms for Python
+
+WRKSRC=		${WRKDIR}/genetic-0.1.1b.orig
+USE_LANGUAGES=	# none
+
+PKG_DESTDIR_SUPPORT=	user-destdir
 
 PY_PATCHPLIST=		yes
 PYDISTUTILSPKG=		yes
