@@ -3,10 +3,11 @@
 
 DISTNAME=	mk-configure-0.7.0
 CATEGORIES=	devel
-MASTER_SITES=	http://mova.org/~cheusov/pub/mk-configure/
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=mk-configure/} \
+		http://mova.org/~cheusov/pub/mk-configure/
 
 MAINTAINER=	vle@gmx.net
-HOMEPAGE=	http://mova.org/~cheusov/pub/mk-configure/
+HOMEPAGE=	http://sourceforge.net/projects/mk-configure
 COMMENT=	Lightweight replacement for GNU autoconf written in and for bmake
 
 PKG_DESTDIR_SUPPORT=	user-destdir
