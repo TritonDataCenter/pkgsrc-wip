@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	dash-0.5.4
+DISTNAME=	dash-0.5.5.1
 CATEGORIES=	shells
 MASTER_SITES=	http://gondor.apana.org.au/~herbert/dash/files/
 
@@ -12,7 +12,7 @@ COMMENT=	Debian Almquist shell, POSIX-compliant shell faster than bash
 PKG_DESTDIR_SUPPORT=	user-destdir
 
 GNU_CONFIGURE=		yes
-USE_TOOLS+=		gmake autoconf
+USE_TOOLS+=		gmake autoconf autoheader
 
 pre-configure:
 	cd ${WRKSRC} && autoheader && autoconf
