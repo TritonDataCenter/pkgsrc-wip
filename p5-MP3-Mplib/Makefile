@@ -6,7 +6,7 @@ PKGNAME=		p5-${DISTNAME}
 CATEGORIES=		audio
 MASTER_SITES=		${MASTER_SITE_PERL_CPAN:=../../authors/id/V/VP/VPARSEVAL/}
 
-MAINTAINER=		bartosz@atom.eu.org
+MAINTAINER=		bartosz.kuzma@gmail.com
 COMMENT=		Speedy access to id3v1 and id3v2 tags
 
 PERL5_PACKLIST=		auto/MP3/Mplib/.packlist

@@ -5,7 +5,7 @@ PKGNAME=	p5-${DISTNAME}
 CATEGORIES=	textproc perl5
 MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=XML/}
 
-MAINTAINER=	bartosz@atom.eu.org
+MAINTAINER=	bartosz.kuzma@gmail.com
 HOMEPAGE=	http://search.cpan.org/dist/XML-DOM-XPath/
 COMMENT=	Helper module for XML::DOM that adds XPath support to it
 

@@ -5,7 +5,7 @@ DISTNAME=		super-smack-1.3
 CATEGORIES=		benchmarks
 MASTER_SITES=		http://vegan.net/tony/supersmack/
 
-MAINTAINER=		bartosz@atom.eu.org
+MAINTAINER=		bartosz.kuzma@gmail.com
 HOMEPAGE=		http://vegan.net/tony/supersmack/
 COMMENT=		Database benchmarking tool
 
