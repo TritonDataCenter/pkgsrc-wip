@@ -58,7 +58,5 @@ CONF_FILES+=		share/${PKGBASE}/examples/mpicxx.conf \
 CONF_FILES+=		share/${PKGBASE}/examples/mpif77.conf \
 			${PKG_SYSCONFDIR}/mpif77.conf
 
-CHECK_PORTABILITY_SKIP=	src/mpid/ch3/channels/nemesis/configure
-
 .include "../../lang/python/application.mk"
 .include "../../mk/bsd.pkg.mk"
