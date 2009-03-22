@@ -5,7 +5,7 @@ CATEGORIES=	www
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=chems/}
 EXTRACT_SUFX=	.tar.bz2
 
-MAINTAINER=	smoppy@gmail.com
+MAINTAINER=	clamiax@gmail.com
 HOMEPAGE=	http://chems.sourceforge.net/
 COMMENT=	The geekest content helper management system
 
