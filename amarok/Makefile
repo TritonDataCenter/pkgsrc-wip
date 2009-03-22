@@ -24,12 +24,6 @@ SUBST_MESSAGE.mysql=	Fixup paths for MySQL embedded
 SUBST_FILES.mysql=	cmake/modules/FindMySQLAmarok.cmake
 SUBST_SED.mysql=	-e s:/opt/mysqle/:${BUILDLINK_PREFIX.mysql-embedded}/:
 
-SUBST_CLASSES+=		pofix
-SUBST_STAGE.pofix=	post-patch
-SUBST_MESSAGE.pofix=	Fixup po files that use new features
-SUBST_FILES.pofix=	po/*/amarok.po
-SUBST_FILTER_CMD.pofix=	${AWK} -f ${PKGDIR}/../../wip/kde4/files/msgfmtstrip
-
 # uses its own internal plasma library/includes but if system plasma not 
 # there will install some plasma config.
 # dont use buildlink as results in header file conflicts

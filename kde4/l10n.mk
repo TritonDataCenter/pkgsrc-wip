@@ -29,11 +29,5 @@ BUILDLINK_DEPMETHOD.qt4-libs=	build
 BUILDLINK_DEPMETHOD.qt4-qdbus=	build
 BUILDLINK_DEPMETHOD.kdelibs=	build
 
-SUBST_CLASSES+=		pofix
-SUBST_STAGE.pofix=	post-patch
-SUBST_MESSAGE.pofix=	Fixup po files that use new features
-SUBST_FILES.pofix=	messages/*/*.po
-SUBST_FILTER_CMD.pofix=	${AWK} -f ${PKGDIR}/../../wip/kde4/files/msgfmtstrip
-
 .include "../../wip/kde4/kde4.mk"
 .include "../../wip/kdelibs4/buildlink3.mk"

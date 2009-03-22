@@ -22,18 +22,6 @@ USE_CMAKE=	yes
 USE_DIRS+=	xdg-1.4
 USE_TOOLS+=	gawk msgfmt perl:run pkg-config
 
-.include "../../mk/bsd.prefs.mk"
-
-# As of at least NetBSD-4.0 the shipped gettext cannot handle the .po files,
-# so we strip out usage of the newer features (context and fuzzy matches)
-.if (${OPSYS} == "NetBSD")
-post-patch:
-	for f in ${WRKSRC}/po/*/digikam.po ; do \
-	    mv $$f $$f.original ; \
-	    ${AWK} -f ${FILESDIR}/msgfmtstrip $$f.original > $$f ; \
-	done
-.endif
-
 .include "options.mk"
 
 .include "../../devel/libgphoto2/buildlink3.mk"
