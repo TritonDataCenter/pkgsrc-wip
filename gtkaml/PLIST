@@ -1,0 +1,5 @@
+@comment $NetBSD$
+bin/gtkamlc
+share/gtkaml/implicits/Gtk.implicits
+@dirrm share/gtkaml/implicits
+@dirrm share/gtkaml
