@@ -76,6 +76,7 @@ lib/openmpi/mca_coll_hierarch.la
 lib/openmpi/mca_coll_inter.la
 lib/openmpi/mca_coll_self.la
 lib/openmpi/mca_coll_sm.la
+lib/openmpi/mca_coll_sync.la
 lib/openmpi/mca_coll_tuned.la
 lib/openmpi/mca_crs_none.la
 lib/openmpi/mca_dpm_orte.la
