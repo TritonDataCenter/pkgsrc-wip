@@ -8,6 +8,7 @@ bin/pkg_micro_src_summary
 bin/pkg_refresh_summary
 bin/pkg_src_fetch_var
 bin/pkg_src_summary
+bin/pkg_summary2bb_pkgs
 bin/pkg_summary4view
 bin/pkg_uniq_summary
 bin/pkg_update_src_summary
