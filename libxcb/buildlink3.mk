@@ -5,7 +5,7 @@ BUILDLINK_TREE+=	libxcb
 .if !defined(LIBXCB_BUILDLINK3_MK)
 LIBXCB_BUILDLINK3_MK:=
 
-BUILDLINK_API_DEPENDS.libxcb+=	libxcb>=1.1.93
+BUILDLINK_API_DEPENDS.libxcb?=	libxcb>=1.1.93
 BUILDLINK_PKGSRCDIR.libxcb?=	../../wip/libxcb
 
 .include "../../wip/xcb-proto/buildlink3.mk"
