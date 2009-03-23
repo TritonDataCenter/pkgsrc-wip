@@ -52,7 +52,7 @@ HAS_CONFIGURE=		yes
 MAKE_JOBS_SAFE=		no
 
 CONFIGURE_ENV+=		PERL=${PERL5} \
-			DCC_XARGS=${XARGS}
+			DCC_XARGS=${XARGS:Q}
 
 CONFIGURE_ARGS+=	--homedir=${DCC_HOME} \
 			--bindir=${PREFIX}/bin \
