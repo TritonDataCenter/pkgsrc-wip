@@ -1,0 +1,4 @@
+@comment $NetBSD$
+bin/rthread_server
+${PYSITELIB}/rthread.pyc
+${PYSITELIB}/rthread.pyo
