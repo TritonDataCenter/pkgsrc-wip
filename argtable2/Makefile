@@ -7,7 +7,7 @@ MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=argtable/}
 
 MAINTAINER=	kamel.derouiche@gmail.com
 HOMEPAGE=	http://argtable.sourceforge.net/
-COMMENT=	Argtable is an ANSI C command line parser
+COMMENT=	ANSI C library for parsing GNU style command line options
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
