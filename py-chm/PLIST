@@ -1,0 +1,10 @@
+@comment $NetBSD$
+${PYSITELIB}/chm/__init__.pyc
+${PYSITELIB}/chm/__init__.pyo
+${PYSITELIB}/chm/_chmlib.so
+${PYSITELIB}/chm/chm.pyc
+${PYSITELIB}/chm/chm.pyo
+${PYSITELIB}/chm/chmlib.pyc
+${PYSITELIB}/chm/chmlib.pyo
+${PYSITELIB}/chm/extra.so
+@dirrm ${PYSITELIB}/chm
