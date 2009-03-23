@@ -16,6 +16,7 @@ CONFIGURE_ARGS+=	--disable-dccm
 .else
 RCD_SCRIPTS+=		dccm
 PLIST.dccm=		yes
+do-install: dccm-install
 dccm-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/dccm/dccm ${DESTDIR}${PREFIX}/libexec/
 .include "../../mail/libmilter/buildlink3.mk"
