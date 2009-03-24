@@ -5,6 +5,7 @@ VERSION=	0.7.6.${SVNVERSION}
 DISTNAME=	TracTimingAndEstimation-${VERSION}
 PKGNAME=	trac-plugins-TimingAndEstimation-${VERSION}
 # Empty to avoid default setting.
+PKGREVISION=	0
 EGG_NAME=	${DISTNAME}
 CATEGORIES=	www
 MASTER_SITES=	# not defined
