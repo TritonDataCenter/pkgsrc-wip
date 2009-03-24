@@ -15,6 +15,8 @@ GNU_CONFIGURE=	yes
 USE_TOOLS+=	intltool msgfmt pkg-config bash:run
 USE_DIRS+=	xdg-1.4
 
+NO_CHECKSUM=	yes
+
 REPLACE_BASH+=	src/grsync-batch
 
 .include "../../devel/libglade/buildlink3.mk"
