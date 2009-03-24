@@ -21,7 +21,7 @@ BUILDLINK_API_DEPENDS.cairo+=	cairo>=1.6.4
 .include "../../www/firefox/Makefile-firefox.common"
 
 MAINTAINER=		pkgsrc-users@NetBSD.org
-MOZ_VER=		3.0.6
+MOZ_VER=		3.0.7
 MOZILLA_BIN=		icecat-bin
 
 DISTNAME=		icecat-${MOZ_VER}-g1
