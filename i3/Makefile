@@ -13,6 +13,8 @@ COMMENT=	Improved dynamic tiling window manager
 
 USE_TOOLS+=		gmake
 BUILD_DEPENDS+=		asciidoc>=8.3.0:../../textproc/asciidoc
+BUILD_DEPENDS+=		xmlto:../../textproc/xmlto
+BUILD_DEPENDS+=		docbook-xml:../../textproc/docbook-xml
 PKG_DESTDIR_SUPPORT=	user-destdir
 
 CONF_FILES=${PREFIX}/share/doc/i3/config ${PKG_SYSCONFDIR}/i3/config
