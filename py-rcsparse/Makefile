@@ -9,9 +9,11 @@ MAINTAINER=	peter.schuller@infidyne.com
 HOMEPAGE=	http://ww2.fs.ei.tum.de/~corecode/hg/rcsparse/
 COMMENT=	RCS parsing library for Python
 
+PKG_DESTDIR_SUPPORT=	user-destdir
+
 LICENSE=	corecode-license
 
-PYTHON_VERSIONS_ACCEPTED=	25 24
+PYTHON_VERSIONS_ACCEPTED=	25
 PYDISTUTILSPKG=	# yes
 
 .include "../../lang/python/extension.mk"
