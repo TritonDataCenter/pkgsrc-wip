@@ -5,7 +5,7 @@ DISTNAME=	homebank-4.0.2
 CATEGORIES=	finance
 MASTER_SITES=	http://homebank.free.fr/public/
 
-MAINTAINER=	kamel.derouihe@gmail.com
+MAINTAINER=	kamel.derouiche@gmail.com
 HOMEPAGE=	http://homebank.free.fr/public/
 COMMENT=	HomeBank is to manage your personal accounts at home
 
