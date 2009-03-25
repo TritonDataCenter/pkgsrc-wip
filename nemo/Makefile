@@ -10,6 +10,8 @@ MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.iola.dk/nemo/
 COMMENT=	File manager based on labels and timestamps
 
+PKG_DESTDIR_SUPPORT=		user-destdir
+
 # for stetic
 DEPENDS+=	monodevelop-[0-9]*:../../devel/monodevelop
 
@@ -20,6 +22,7 @@ USE_TOOLS+=	gmake msgfmt pkg-config
 .include "../../lang/mono/buildlink3.mk"
 .include "../../x11/gnome-sharp/buildlink3.mk"
 .include "../../x11/gtk-sharp/buildlink3.mk"
+.include "../../sysutils/desktop-file-utils/desktopdb.mk"
 .include "../../sysutils/ndesk-dbus/buildlink3.mk"
 .include "../../sysutils/ndesk-dbus-glib/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
