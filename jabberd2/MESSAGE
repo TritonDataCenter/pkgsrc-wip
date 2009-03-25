@@ -1,6 +1,6 @@
 ===========================================================================
 $NetBSD$
 
-	Review ${PREFIX}/share/doc/UPGRADE if you're upgrading
+	Review ${PREFIX}/share/doc/jabberd/UPGRADE if you're upgrading
 	from an earlier release of Jabberd 2.x.
 ===========================================================================
