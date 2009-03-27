@@ -12,9 +12,9 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 
 USE_LANGUAGES=	c c++
 NO_CONFIGURE=	yes
-USE_TOOLS+=	gmake pkg-config msgfmt 
+USE_TOOLS+=	gmake pkg-config msgfmt
 
-INSTALL_MAKE_FLAGS+=    prefix=${PREFIX}
+INSTALL_MAKE_FLAGS+=	prefix=${PREFIX} mandir=${DESTDIR}${PREFIX}/${PKGMANDIR}
 
 .include "../../wip/stfl/buildlink3.mk"
 .include "../../databases/sqlite3/buildlink3.mk"
