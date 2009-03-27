@@ -4,7 +4,7 @@ DISTNAME=	newsbeuter-1.3
 CATEGORIES=	news
 MASTER_SITES=	http://www.newsbeuter.org/downloads/
 
-MAINTAINER=	
+MAINTAINER=	clamiax@gmail.com
 HOMEPAGE=	http://www.newsbeuter.org/downloads/
 COMMENT=	Open-source RSS/Atom feed reader for text terminals
 
