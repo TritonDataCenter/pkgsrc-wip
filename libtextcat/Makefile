@@ -16,6 +16,7 @@ GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 
 post-install:
-	${INSTALL_DATA} ${WRKSRC}/README ${PREFIX}/share/libtextcat
+	${INSTALL_DATA_DIR} ${DESTDIR}${PREFIX}/share/libtextcat
+	${INSTALL_DATA} ${WRKSRC}/README ${DESTDIR}${PREFIX}/share/libtextcat
 
 .include "../../mk/bsd.pkg.mk"
