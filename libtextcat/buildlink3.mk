@@ -6,7 +6,7 @@ BUILDLINK_TREE+=	libtextcat
 LIBTEXTCAT_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.libtextcat+=	libtextcat>=2.2
-BUILDLINK_PKGSRCDIR.libtextcat?=	../../category/libtextcat
+BUILDLINK_PKGSRCDIR.libtextcat?=	../../wip/libtextcat
 .endif # LIBTEXTCAT_BUILDLINK3_MK
 
 BUILDLINK_TREE+=	-libtextcat
