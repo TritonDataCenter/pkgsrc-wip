@@ -12,14 +12,8 @@ COMMENT=		Tools for auditing wireless networks
 PKG_DESTDIR_SUPPORT=	user-destdir
 INSTALLATION_DIRS+=	bin sbin ${PKGMANDIR}/man1
 
-USE_TOOLS+=		gmake
-
-DEPENDS+=		bash>=3.2.9:../../shells/bash
-
-REPLACE_INTERPRETER+=	bash
-REPLACE.bash.old=	.*/bin/bash
-REPLACE.bash.new=	${PREFIX}/bin/bash
-REPLACE_FILES.bash=	airdriver-ng
+USE_TOOLS+=		bash gmake
+REPLACE_BASH+=		airdriver-ng
 
 .include "../../security/openssl/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
