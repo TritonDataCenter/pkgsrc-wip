@@ -10,12 +10,12 @@ HOMEPAGE=	https://launchpad.net/gtkhotkey/
 COMMENT=	GtkHotkey library Platform independent hotkey handling for Gtk+
 
 PKG_DESTDIR_SUPPORT=    user-destdir
+
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_TOOLS+=	pkg-config intltool perl
 USE_LANGUAGES+=	c c++
 
-INSTALLATION_DIRS+=	share/doc
 
 PKGCONFIG_OVERRIDE+=	gtkhotkey-1.0.pc.in
 
