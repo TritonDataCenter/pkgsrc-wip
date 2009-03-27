@@ -8,11 +8,12 @@ MAINTAINER=	clamiax@gmail.com
 HOMEPAGE=	http://www.clifford.at/stfl/
 COMMENT=	Library which implements a curses-based widget set for text terminals
 
+NO_INSTALL_MANPAGES=	yes
+PKG_DESTDIR_SUPPORT=	user-destdir
+
 NO_CONFIGURE=	yes
 USE_TOOLS+=	gmake perl
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
-INSTALL_MAKE_FLAGS+=    prefix=${PREFIX}
+INSTALL_MAKE_FLAGS+=	prefix=${PREFIX}
 
 .include "../../mk/bsd.pkg.mk"
