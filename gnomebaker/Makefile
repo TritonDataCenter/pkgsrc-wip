@@ -14,7 +14,7 @@ USE_DIRS+=		xdg-1.4
 USE_TOOLS+=		pkg-config msgfmt intltool
 GNU_CONFIGURE=		YES
 
-DEPENDS+=	cdrtools>=2.01.01.53:../../sysutils/cdrtools
+DEPENDS+=	cdrtools>=2.01:../../sysutils/cdrtools
 
 .include "../../mk/omf-scrollkeeper.mk"
 BUILDLINK_API_DEPENDS.libgnomeui+=	libgnomeui>=2.8.1
