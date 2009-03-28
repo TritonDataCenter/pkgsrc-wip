@@ -18,7 +18,8 @@ SUBST_FILES.paths=      ${WRKSRC}/Makefile
 SUBST_STAGE.paths=      post-patch
 SUBST_SED.paths=        -e 's,@PREFIX@,${PREFIX},'
 
-#install:
-#	${INSTALL} ${WRKSRC}/pam_tacplus.so ${DESTDIR}${PREFIX}/lib/security/
+#USE_TOOLS+=		gmake
+
+MAKE_DIRS+=             ${DESTDIR}${PREFIX}/lib/security
 
 .include "../../mk/bsd.pkg.mk"
