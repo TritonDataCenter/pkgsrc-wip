@@ -12,7 +12,7 @@ HOMEPAGE=	http://divmod.org/trac/wiki/DivmodAxiom
 COMMENT=	An object database implemented on top of SQLite
 
 DEPENDS+=	${PYPKGPREFIX}-sqlite2>=2.0:../../databases/py-sqlite2
-DEPENDS+=	${PYPKGPREFIX}-twisted-core>=2.4.0:../../wip/py-twisted-core
+DEPENDS+=	${PYPKGPREFIX}-twisted>=2.4.0:../../wip/py-twisted
 DEPENDS+=	${PYPKGPREFIX}-divmod-epsilon>=0.5.6:../../wip/py-divmod-epsilon
 
 PYDISTUTILSPKG=		yes
