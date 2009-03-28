@@ -3,12 +3,12 @@
 
 DISTNAME=	genetic_0.1.1b.orig
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME:S/_/-/:S/.orig//}
-CATEGORIES=	devel maths
+CATEGORIES=	devel math
 MASTER_SITES=	${MASTER_SITE_DEBIAN:=pool/main/g/genetic/}
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://ftp.debian.org/debian/pool/main/g/genetic/
-COMMENT=	python-genetic provides genetic algorithms for Python
+COMMENT=	Python-genetic provides genetic algorithms for Python
 
 WRKSRC=		${WRKDIR}/${DISTNAME:S/_/-/}
 USE_LANGUAGES=	# none
