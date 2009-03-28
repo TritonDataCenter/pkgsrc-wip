@@ -3,6 +3,7 @@
 AXIOM_VERSION=	0.5.20
 DISTNAME=	Axiom-${AXIOM_VERSION}
 PKGNAME=	${PYPKGPREFIX}-divmod-axiom-${AXIOM_VERSION}
+PKGREVISION=	1
 CATEGORIES=	python
 MASTER_SITES=	ftp://ftp.osuosl.org/pub/nslu2/sources/
 EXTRACT_SUFX=	.tar.gz
