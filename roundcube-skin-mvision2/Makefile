@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	mvision2.2
-PKGNAME=	roundcube-skin-mvision2
+PKGNAME=	roundcube-skin-mvision-2.2
 CATEGORIES=	mail
 MASTER_SITES=	http://roundcubethemes.net/downloads/
 
