@@ -1,14 +1,14 @@
 # $NetBSD$
 #
 
-DISTNAME=	mk-configure-0.7.0
+DISTNAME=	mk-configure-0.9.0
 CATEGORIES=	devel
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=mk-configure/} \
 		http://mova.org/~cheusov/pub/mk-configure/
 
 MAINTAINER=	vle@gmx.net
 HOMEPAGE=	http://sourceforge.net/projects/mk-configure
-COMMENT=	Lightweight replacement for GNU autoconf written in and for bmake
+COMMENT=	Lightweight and powerful replacement for GNU autotools
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
