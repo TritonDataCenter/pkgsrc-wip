@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	lmdbg-0.9.0
+DISTNAME=	lmdbg-0.10alpha1
 CATEGORIES=	devel
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=lmdbg/} \
 		http://mova.org/~cheusov/pub/lmdbg/
@@ -10,15 +10,18 @@ MAINTAINER=	cheusov@tut.by
 HOMEPAGE=	http://mova.org/~cheusov/pub/lmdbg/
 COMMENT=	Lightweight Malloc Debugger
 
+BUILD_DEPENDS+=	mk-configure-[0-9]*:../../wip/mk-configure
+
 PKG_DESTDIR_SUPPORT=	user-destdir
 
-GNU_CONFIGURE=		yes
-USE_LIBTOOL=		yes
+USE_BSD_MAKEFILE=	yes
+INSTALL_DIRS=		scripts liblmdbg
 
 TEST_TARGET=		test
 
 DOCDIR=			share/doc/lmdbg
-INSTALLATION_DIRS+=	${DOCDIR}
+
+AUTO_MKDIRS=		yes
 
 DOCFILES=		README NEWS ChangeLog
 
