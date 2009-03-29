@@ -5,11 +5,11 @@ bin/lmdbg-run
 bin/lmdbg-sym
 bin/lmdbg-sysleaks
 lib/liblmdbg.a
-lib/liblmdbg_p.a
-lib/liblmdbg_pic.a
 lib/liblmdbg.so
 lib/liblmdbg.so.0
 lib/liblmdbg.so.0.0
+lib/liblmdbg_p.a
+lib/liblmdbg_pic.a
 share/doc/lmdbg/ChangeLog
 share/doc/lmdbg/NEWS
 share/doc/lmdbg/README
