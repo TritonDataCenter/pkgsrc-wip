@@ -10,7 +10,7 @@ MAINTAINER=	cheusov@tut.by
 HOMEPAGE=	http://mova.org/~cheusov/pub/lmdbg/
 COMMENT=	Lightweight Malloc Debugger
 
-BUILD_DEPENDS+=	mk-configure-[0-9]*:../../wip/mk-configure
+BUILD_DEPENDS+=		mk-configure>=0.9.0:../../wip/mk-configure
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
@@ -31,3 +31,5 @@ post-install:
 .endfor
 
 .include "../../mk/bsd.pkg.mk"
+
+MAKE_PROGRAM=		${PREFIX}/bin/bmake
