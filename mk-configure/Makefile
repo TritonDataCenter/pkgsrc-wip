@@ -8,7 +8,7 @@ MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=mk-configure/} \
 
 MAINTAINER=	vle@gmx.net
 HOMEPAGE=	http://sourceforge.net/projects/mk-configure
-COMMENT=	Lightweight and powerful replacement for GNU autotools
+COMMENT=	Lightweight but powerful replacement for GNU autotools
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
