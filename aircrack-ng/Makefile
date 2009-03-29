@@ -1,8 +1,8 @@
 # $NetBSD$
 
-DISTNAME=		aircrack-ng-1.0-rc2
-PKGNAME=		aircrack-ng-1.0rc2
-CATEGORIES=		security
+DISTNAME=		aircrack-ng-1.0-rc3
+PKGNAME=		aircrack-ng-1.0rc3
+CATEGORIES=		security net
 MASTER_SITES=		http://download.aircrack-ng.org/
 
 MAINTAINER=		tnn@NetBSD.org
@@ -13,7 +13,7 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 INSTALLATION_DIRS+=	bin sbin ${PKGMANDIR}/man1
 
 USE_TOOLS+=		bash gmake
-REPLACE_BASH+=		airdriver-ng
+REPLACE_BASH+=		scripts/airdriver-ng
 
 .include "../../security/openssl/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
