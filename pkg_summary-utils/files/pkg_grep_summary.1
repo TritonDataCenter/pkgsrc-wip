@@ -24,6 +24,10 @@ pkg_grep_summary \- tool for grepping pkgsrc summary file
 .br
 .BI "pkg_grep_summary -e" " field"
 .br
+.BI "pkg_grep_summary -m" " field regexp"
+.br
+.BI "pkg_grep_summary -s" " field string"
+.br
 .SH DESCRIPTION
 .B pkg_grep_summary
 outputs a summary information about packages that matches
@@ -45,10 +49,24 @@ display help message
 .TP
 .BI "-e" " field"
 outputs summaries in which
-.B "field"
+.I "field"
 is either empty or absent
+.TP
+.BI "-m" " field regexp"
+outputs summary if
+.I "regexp"
+matches the
+.I "field"
+.TP
+.BI "-s" " field string"
+outputs summary if
+.I "field"
+is equal to
+.I "string"
 .SH EXAMPLES
 .VB
+pkg_grep_summary -s 'PKGPATH' 'devel/libjudy'
+pkg_grep_summary -m 'PKGPATH' '^wip/'
 pkg_grep_summary 'PKGNAME' 'fvalue ~ /judy/' \\
       < /usr/pkgsrc/packages/pkg_summary.txt
 pkg_grep_summary 'PKGPATH' 'fvalue ~ /^lang\\//' \\
