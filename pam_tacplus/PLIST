@@ -1,3 +1,5 @@
 @comment $NetBSD$
 lib/security/pam_tacplus.so
+share/examples/pam_tacplus/sample.pam
+@dirrm share/examples/pam_tacplus
 @dirrm lib/security
