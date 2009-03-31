@@ -16,6 +16,12 @@ USE_TOOLS+=	gmake pkg-config msgfmt
 
 INSTALL_MAKE_FLAGS+=	prefix=${PREFIX} mandir=${DESTDIR}${PREFIX}/${PKGMANDIR}
 
+# NetBSD iconv implementation doesn't support
+# the wchar_t encoding (upon stfl relies).
+.if ${OS} == "NetBSD"
+.include "../../converters/libiconv/buildlink3.mk"
+.endif
+
 .include "../../wip/stfl/buildlink3.mk"
 .include "../../databases/sqlite3/buildlink3.mk"
 .include "../../www/curl/buildlink3.mk"
