@@ -3,6 +3,7 @@
 
 DISTNAME=	tacacs+-F4.0.4.15
 PKGNAME=	${DISTNAME:S,-F,-,}
+PKGREVISION=	1
 CATEGORIES=	net security
 MASTER_SITES=	ftp://ftp.shrubbery.net/pub/tac_plus/
 
