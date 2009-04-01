@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		fasm-1.67.37
+DISTNAME=		fasm-1.67.38
 CATEGORIES=		devel
 MASTER_SITES=		http://flatassembler.net/
 
