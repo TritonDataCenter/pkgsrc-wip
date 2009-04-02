@@ -31,9 +31,9 @@ SpamAssassin DCC Module
 -----------------------
 
 For a proper initialization of the SpamAssassin DCC module (DCC.pm),
-copy dcc-spamassassin.cf into the main SpamAssassin configuration
+copy dcc-spamassassin.pre into the main SpamAssassin configuration
 directory and restart spamd:
 
-   ${PREFIX}/share/examples/dcc/dcc-spamassassin.cf
+   ${PREFIX}/share/examples/dcc/dcc-spamassassin.pre
 
 ===========================================================================
