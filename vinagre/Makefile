@@ -30,6 +30,7 @@ BUILDLINK_API_DEPENDS.libglade+=	libglade>=2.6.0
 BUILDLINK_API_DEPENDS.gtk-vnc+=	gtk-vnc>=0.3.8nb1
 .include "../../wip/gtk-vnc/buildlink3.mk"
 .include "../../security/gnome-keyring/buildlink3.mk"
+.include "../../sysutils/desktop-file-utils/desktopdb.mk"
 .include "../../textproc/gnome-doc-utils/buildlink3.mk"
 .include "../../mk/omf-scrollkeeper.mk"
 BUILDLINK_API_DEPENDS.gtk2+=	gtk2+>=2.13.1
