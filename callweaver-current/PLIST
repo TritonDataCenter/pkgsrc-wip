@@ -216,6 +216,11 @@ man/man8/callweaver.8
 man/man8/safe_callweaver.8
 sbin/callweaver_cli
 sbin/safe_callweaver
+${PLIST.sipsecurity}share/callweaver/keys/dh1024.pem
+${PLIST.sipsecurity}share/callweaver/keys/dh512.pem
+${PLIST.sipsecurity}share/callweaver/keys/servercert.pem
+${PLIST.sipsecurity}share/callweaver/keys/serverkey.pem
+${PLIST.sipsecurity}share/callweaver/keys/trustcerts.pem
 share/callweaver/ogi/eogi-sphinx-test
 share/callweaver/ogi/eogi-test
 share/callweaver/ogi/fastogi-test
