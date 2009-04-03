@@ -3,7 +3,7 @@
 
 DISTNAME=		quodlibet-0.24
 PKGNAME=		${PYPKGPREFIX}-${DISTNAME}
-PKGREVISION=		1
+PKGREVISION=		2
 CATEGORIES=		audio
 MASTER_SITES=		http://www.sacredchao.net/~piman/software/
 
