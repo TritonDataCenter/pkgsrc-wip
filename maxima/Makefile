@@ -36,7 +36,7 @@ SUBST_CLASSES+=			fix-version
 SUBST_STAGE.fix-version=	post-patch
 SUBST_MESSAGE.fix-version=	Fixing package version.
 SUBST_FILES.fix-version=	configure.in
-SUBST_SED.fix-version=		-e 's:AM_INIT_AUTOMAKE(maxima,5.17post):AM_INIT_AUTOMAKE(maxima,${PKGVERSION_NOREV}):'
+SUBST_SED.fix-version=		-e 's:AM_INIT_AUTOMAKE(maxima,[^)]*):AM_INIT_AUTOMAKE(maxima,${PKGVERSION_NOREV}):'
 
 pre-configure:
 	cd ${WRKSRC} && ./bootstrap
