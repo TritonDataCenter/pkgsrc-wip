@@ -14,10 +14,10 @@ USE_TOOLS+=		gmake
 CONFLICTS+=		wxGTK-contrib-[0-9]*
 
 do-build:
-	cd ${WRKSRC}/contrib/src && ${SETENV} ${MAKE_ENV} ${MAKE} ${MAKE_FLAGS}
+	cd ${WRKSRC}/contrib/src && ${SETENV} ${MAKE_ENV} ${MAKE} ${BUILD_MAKE_FLAGS}
 
 do-install:
-	cd ${WRKSRC}/contrib/src && ${SETENV} ${MAKE_ENV} ${MAKE} install ${MAKE_FLAGS}
+	cd ${WRKSRC}/contrib/src && ${SETENV} ${MAKE_ENV} ${MAKE} install ${INSTALL_MAKE_FLAGS}
 
 .include "../../wip/wxGTK-unicode/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
