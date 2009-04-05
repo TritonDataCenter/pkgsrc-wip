@@ -18,6 +18,7 @@ include/ecl/stacks.h
 include/ecl/unify.h
 lib/${PKGNAME}/BUILD-STAMP
 lib/${PKGNAME}/asdf.fas
+lib/${PKGNAME}/bytecmp.fas
 lib/${PKGNAME}/cmp.fas
 lib/${PKGNAME}/defsystem.fas
 lib/${PKGNAME}/dpp
