@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	runawk-0.16.0
+PKGREVISION=	1
 CATEGORIES=	lang devel
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=runawk/} \
 		http://mova.org/~cheusov/pub/runawk/
@@ -26,8 +27,7 @@ MAKE_ENV+=		STDIN_FILENAME=-
 
 PKGDOCDIR=		${PREFIX}/share/doc/${PKGBASE}
 
-INSTALLATION_DIRS+=	share/runawk share/doc/runawk
-INSTALLATION_DIRS+=	bin ${PKGMANDIR}/man1
+AUTO_MKDIRS=		yes
 
 DOC_FILES=		README NEWS ChangeLog
 
@@ -35,9 +35,12 @@ MAKE_ENV+=		PREFIX=${PREFIX}
 MAKE_ENV+=		MKCATPAGES=no
 MAKE_ENV+=		MANDIR=${PREFIX}/${PKGMANDIR}
 
+EGDIR=			${PREFIX}/share/examples/runawk
+
 post-install:
 .for i in ${DOC_FILES}
 	${INSTALL_DATA} ${WRKSRC}/"${i}" ${DESTDIR}${PKGDOCDIR}
 .endfor
+	cp -p ${WRKSRC}/examples/* ${DESTDIR}/${EGDIR}/
 
 .include "../../mk/bsd.pkg.mk"
