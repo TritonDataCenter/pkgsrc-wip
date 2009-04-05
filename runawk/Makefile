@@ -21,11 +21,10 @@ TEST_TARGET=		test
 
 .if ${OPSYS} == "SunOS"
 MAKE_ENV+=		AWK_PROG=${AWK:Q}
-.elif ${OPSYS} == "Interix"
-MAKE_ENV+=		STDIN_FILENAME=-
 .endif
 
-PKGDOCDIR=		${PREFIX}/share/doc/${PKGBASE}
+PKGDOCDIR=		${PREFIX}/share/doc/runawk
+EGDIR=			${PREFIX}/share/examples/runawk
 
 AUTO_MKDIRS=		yes
 
@@ -34,8 +33,6 @@ DOC_FILES=		README NEWS ChangeLog
 MAKE_ENV+=		PREFIX=${PREFIX}
 MAKE_ENV+=		MKCATPAGES=no
 MAKE_ENV+=		MANDIR=${PREFIX}/${PKGMANDIR}
-
-EGDIR=			${PREFIX}/share/examples/runawk
 
 post-install:
 .for i in ${DOC_FILES}
