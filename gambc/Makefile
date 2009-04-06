@@ -22,7 +22,7 @@ USE_LANGUAGES=		c c++
 USE_TOOLS+=		gmake
 
 CONFIGURE_ARGS+=	--enable-single-host
-CONFIGURE_ARGS+=	--enable-cplusplus
+#CONFIGURE_ARGS+=	--enable-cplusplus  #breaks c code ld
 CONFIGURE_ARGS+=	--enable-shared
 CONFIGURE_ARGS+=  --docdir=${PREFIX}/share/doc/${PKGBASE}
 CONFIGURE_ARGS+=	--disable-gcc-opts
