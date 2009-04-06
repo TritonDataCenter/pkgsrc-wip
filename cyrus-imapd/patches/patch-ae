@@ -1,6 +1,6 @@
 $NetBSD$
 
---- imap/mboxlist.c.orig	2008-04-04 11:09:42.000000000 +0000
+--- imap/mboxlist.c.orig	2009-02-09 05:04:38.000000000 +0000
 +++ imap/mboxlist.c
 @@ -59,7 +59,9 @@
  #include <syslog.h>

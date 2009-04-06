@@ -1,6 +1,6 @@
 $NetBSD$
 
---- imap/cvt_cyrusdb.c.orig	2008-03-24 17:09:16.000000000 +0000
+--- imap/cvt_cyrusdb.c.orig	2009-02-11 19:11:32.000000000 +0000
 +++ imap/cvt_cyrusdb.c
 @@ -59,7 +59,9 @@
  #include <syslog.h>
