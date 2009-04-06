@@ -10,7 +10,7 @@ COMMENT=	Multimedia tools for the KDE integrated X11 desktop
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
-DEPENDS+=	xine-xcb>=1.1.9:../../wip/xine-xcb
+DEPENDS+=	xine-xcb>=1.1.9:../../x11/xine-xcb
 
 .include "../../wip/kde4/kde4.mk"
 
