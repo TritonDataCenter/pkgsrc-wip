@@ -70,7 +70,7 @@ BUILDLINK_API_DEPENDS.soprano+=	soprano>=2.1.64
 .include "../../graphics/jpeg/buildlink3.mk"
 .include "../../graphics/libungif/buildlink3.mk"
 .include "../../graphics/openexr/buildlink3.mk"
-.include "../../wip/phonon/buildlink3.mk"
+.include "../../multimedia/phonon/buildlink3.mk"
 
 # Avahi ? rather than mDNSResponder
 .include "../../net/mDNSResponder/buildlink3.mk"
