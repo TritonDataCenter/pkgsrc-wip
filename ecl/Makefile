@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		ecl-9.4.0
+DISTNAME=		ecl-9.4.1
 # PKGNAME=		ecl-9.4.99
 CATEGORIES=		lang
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=ecls/}
