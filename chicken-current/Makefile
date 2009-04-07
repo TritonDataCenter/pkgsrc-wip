@@ -3,9 +3,9 @@
 
 DISTNAME=	chicken-4.0.0
 CATEGORIES=	lang
-MASTER_SITES=	http://chicken.wiki.br/dev-snapshots/2009/02/16/ \
-		http://galinha.ucpel.tche.br/dev-snapshots/2009/02/16/
-MASTER_SITES+=	http://www.call-with-current-continuation.org/
+MASTER_SITES=	http://chicken.wiki.br/releases/ \
+		http://galinha.ucpel.tche.br/releases/ \
+		$(HOMEPAGE)
 
 MAINTAINER=	asau@inbox.ru #, airhead@users.sourceforge.net
 HOMEPAGE=	http://www.call-with-current-continuation.org/
