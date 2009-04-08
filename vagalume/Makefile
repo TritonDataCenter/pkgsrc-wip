@@ -24,6 +24,7 @@ BUILDLINK_API_DEPENDS.libnotify+=	libnotify>=0.4.1
 .include "../../multimedia/gstreamer0.10/buildlink3.mk"
 .include "../../sysutils/dbus/buildlink3.mk"
 .include "../../sysutils/dbus-glib/buildlink3.mk"
+.include "../../sysutils/desktop-file-utils/desktopdb.mk"
 .include "../../sysutils/libnotify/buildlink3.mk"
 .include "../../textproc/libxml2/buildlink3.mk"
 .include "../../www/curl/buildlink3.mk"
