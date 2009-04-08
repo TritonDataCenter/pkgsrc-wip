@@ -9,7 +9,7 @@ EXTRACT_SUFX=	.tar.bz2
 PKG_DESTDIR_SUPPORT=	user-destdir
 
 MAINTAINER=	kamel.derouiche@gmail.com
-HOMEPAGE=	http://scratchpad.googlecode.com/files/
+HOMEPAGE=	http://dborg.wordpress.com/scratchpad/
 COMMENT=	Scratchpad is a document oriented
 
 GNU_CONFIGURE=	yes
