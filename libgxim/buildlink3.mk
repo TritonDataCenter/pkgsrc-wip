@@ -1,22 +1,16 @@
 # $NetBSD$
-BUILDLINK_DEPTH:=	${BUILDLINK_DEPTH}+
-LIBGXIM_BUILDLINK3_MK:=	${LIBGXIM_BUILDLINK3_MK}+
 
-.if ${BUILDLINK_DEPTH} == "+"
-BUILDLINK_DEPENDS+=	libgxim
-.endif
+BUILDLINK_TREE+=	libgxim
 
-BUILDLINK_PACKAGES:=	${BUILDLINK_PACKAGES:Nlibgxim}
-BUILDLINK_PACKAGES+=	libgxim
-BUILDLINK_ORDER:=	${BUILDLINK_ORDER} ${BUILDLINK_DEPTH}libgxim
+.if !defined(LIBGXIM_BUILDLINK3_MK)
+LIBGXIM_BUILDLINK3_MK:=
 
-.if ${LIBGXIM_BUILDLINK3_MK} == "+"
-BUILDLINK_API_DEPENDS.libgxim+=	libgxim>=0.3.1
-BUILDLINK_PKGSRCDIR.libgxim?=	../../category/libgxim
-.endif	# LIBGXIM_BUILDLINK3_MK
+BUILDLINK_API_DEPENDS.libgxim+=	libgxim>=0.3.3
+BUILDLINK_PKGSRCDIR.libgxim?=	../../wip/libgxim
 
 .include "../../devel/glib2/buildlink3.mk"
-.include "../../sysutils/dbus/buildlink3.mk"
 .include "../../sysutils/dbus-glib/buildlink3.mk"
 
-BUILDLINK_DEPTH:=	${BUILDLINK_DEPTH:S/+$//}
+.endif	# LIBGXIM_BUILDLINK3_MK
+
+BUILDLINK_TREE+=	-libgxim
