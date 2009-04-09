@@ -11,10 +11,7 @@ HOMEPAGE=	http://www.NetBSD.org/support/security/
 COMMENT=	Check the NetBSD base OS for known vulnerabilities
 
 WRKSRC=		${WRKDIR}
-EXTRACT_ONLY=	# empty
-NO_CHECKSUM=	yes
 NO_BUILD=	yes
-NO_MTREE=	yes
 USE_LANGUAGES=	# none
 
 ONLY_FOR_PLATFORM=	NetBSD-*-*
