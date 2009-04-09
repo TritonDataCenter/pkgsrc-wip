@@ -1,22 +1,14 @@
 # $NetBSD$
 
+META_PACKAGE=	# empty
+
 .include "../../wip/xfce4/Makefile.common"
 
 DISTNAME=	xfce4-extras-${XFCE4_VERSION}
-DISTFILES=	# empty
 #PKGREVISION=	1
 PKGREVISION=	1
 CATEGORIES=	meta-pkgs
 COMMENT=	Xfce extras
-
-NO_CHECKSUM=	yes
-NO_CONFIGURE=	yes
-NO_BUILD=	yes
-PLIST_SRC=	# empty (meta-package)
-WRKSRC=		${WRKDIR}
-
-do-install:
-	@${DO_NADA}
 
 # Xfce
 .include "../../wip/xfce4/buildlink3.mk"
