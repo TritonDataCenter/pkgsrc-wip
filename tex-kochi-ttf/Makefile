@@ -15,8 +15,6 @@ DEPENDS+=	kochi-ttf-20030809*:../../fonts/kochi-ttf
 FONT_FILES=	gothic mincho
 
 TEX_ACCEPTED=	teTeX3
-EXTRACT_ONLY=	# empty
-NO_CHECKSUM=	yes
 NO_CONFIGURE=	yes
 
 WRKSRC=		${WRKDIR}

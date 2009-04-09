@@ -15,8 +15,6 @@ DEPENDS+=	baekmuk-ttf-2.2*:../../fonts/baekmuk-ttf
 FONT_FILES=	batang dotum gulim hline
 
 TEX_ACCEPTED=	teTeX3
-EXTRACT_ONLY=	# empty
-NO_CHECKSUM=	yes
 NO_CONFIGURE=	yes
 
 WRKSRC=		${WRKDIR}

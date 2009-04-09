@@ -15,8 +15,6 @@ DEPENDS+=	arphic-ttf-2.11*:../../fonts/arphic-ttf
 FONT_FILES=	bkai00mp bsmi00lp gbsn00lp gkai00mp
 
 TEX_ACCEPTED=	teTeX3
-EXTRACT_ONLY=	# empty
-NO_CHECKSUM=	yes
 NO_CONFIGURE=	yes
 
 WRKSRC=		${WRKDIR}
