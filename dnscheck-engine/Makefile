@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	dnscheck-${RCVERSION}
+DISTNAME=	dnscheck-${RCVERSION}-maint
 PKGNAME=	dnscheck-engine-${RCVERSION}
 CATEGORIES=	net perl5
 MASTER_SITES=	# not defined
@@ -15,7 +15,7 @@ LICENSE_FILE=	${FILESDIR}/iis-license
 SVN_REPOSITORIES=	dnscheck
 SVN_ROOT.dnscheck=	svn+ssh://anonsvn@opensource.iis.se/dnscheck/branches/${RCVERSION}
 SVN_MODULE.dnscheck=	dnscheck
-RCVERSION=		0.91-maint
+RCVERSION=		0.91
 NO_CHECKSUM=		yes
 
 PKG_DESTDIR_SUPPORT=	user-destdir
