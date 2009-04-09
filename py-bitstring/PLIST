@@ -1,0 +1,3 @@
+@comment $NetBSD$
+${PYSITELIB}/bitstring.pyc
+${PYSITELIB}/bitstring.pyo
