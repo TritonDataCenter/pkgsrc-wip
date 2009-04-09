@@ -7,6 +7,8 @@ DISTFILES=	# empty
 MAINTAINER=	pkgsrc@blackmouse.biz
 COMMENT=		Common package for openoffice lang packages
 
+META_PACKAGE=	# empty
+
 OO_RELEASE=		2.4.0
 
 DEPENDS+=	openoffice2-bin-be-BY-${OO_RELEASE}:../../wip/openoffice2-bin-be-BY
@@ -32,14 +34,5 @@ DEPENDS+=	openoffice2-bin-sk-${OO_RELEASE}:../../wip/openoffice2-bin-sk
 DEPENDS+=	openoffice2-bin-sl-${OO_RELEASE}:../../wip/openoffice2-bin-sl
 DEPENDS+=	openoffice2-bin-sv-${OO_RELEASE}:../../wip/openoffice2-bin-sv
 DEPENDS+=	openoffice2-bin-th-${OO_RELEASE}:../../wip/openoffice2-bin-th
-
-EXTRACT_ONLY=	# empty
-NO_CHECKSUM=	yes
-NO_CONFIGURE=	yes
-NO_BUILD=	yes
-NO_MTREE=	yes
-
-do-install:
-	@${DO_NADA}
 
 .include "../../mk/bsd.pkg.mk"
