@@ -9,7 +9,6 @@ MAINTAINER=	pancake@phreaker.net
 COMMENT=	Firefox binary wrapper
 
 NO_CONFIGURE=	yes
-NO_CHECKSUM=	yes
 NO_BUILD=	yes
 
 CONF_FILES=	${PREFIX}/share/examples/firefox-wrapper/firefox-wrapper.conf \

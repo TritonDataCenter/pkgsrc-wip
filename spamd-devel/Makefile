@@ -12,7 +12,6 @@ COMMENT=		OpenBSD spam deferral daemons and tools
 
 ONLY_FOR_PLATFORM=	NetBSD-*-* OpenBSD-*-* FreeBSD-*-* DragonFly-*-*
 
-NO_CHECKSUM=		yes
 NO_CONFIGURE=		yes
 WRKSRC=			${WRKDIR}/src
 

@@ -16,7 +16,6 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 WRKSRC=			${WRKDIR}/${DISTNAME}
 
 NO_CONFIGURE=		yes
-NO_CHECKSUM=		yes
 
 AUTO_MKDIRS=		yes
 

@@ -9,7 +9,6 @@ MAINTAINER=	pancake@phreaker.net
 COMMENT=	pkgsrc tool to create and manage fake packages
 
 NO_CONFIGURE=	yes
-NO_CHECKSUM=	yes
 NO_BUILD=	yes
 
 DEPENDS+=	pkg_alternatives>=1.3:../../pkgtools/pkg_alternatives

@@ -9,7 +9,6 @@ MAINTAINER=	blair.sadewitz@gmail.com #drochner@NetBSD.org
 COMMENT=	Library providing noop-stubs for pthread functions
 
 WRKSRC=		${WRKDIR}
-NO_CHECKSUM=	yes
 USE_LIBTOOL=	yes
 USE_TOOLS+=	pkg-config
 

@@ -9,7 +9,6 @@ DISTFILES=		# empty
 MAINTAINER=		reed@reedmedia.net
 COMMENT=		Fast mkdep
 
-NO_CHECKSUM=		yes
 USE_FEATURES=		nbcompat
 
 do-extract:
