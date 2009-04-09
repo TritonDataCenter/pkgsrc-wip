@@ -12,8 +12,6 @@ MAINTAINER=	reed@reedmedia.net
 #HOMEPAGE=
 COMMENT=	Determine interdependencies in a list of object files
 
-EXTRACT_ONLY=	# empty
-NO_CHECKSUM=	YES
 NO_CONFIGURE=	YES
 NO_BUILD=	YES
 
