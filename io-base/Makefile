@@ -1,11 +1,12 @@
 # $NetBSD$
+
+META_PACKAGE=	# empty
+
 .include "../../wip/io/version.mk"
 
 DISTNAME =	io-${IO_VERSION}
 PKGNAME =	io-base-${IO_VERSION}
 CATEGORIES =	meta-pkgs lang devel
-MASTER_SITES=	# empty
-DISTFILES=	# empty
 
 MAINTAINER=	milos.negovanovic@googlemail.com
 HOMEPAGE=	www.iolanguage.com
@@ -32,13 +33,5 @@ DEPENDS+=	io-systemcall>=${IO_VERSION}:../../wip/io-systemcall
 DEPENDS+=	io-thread>=${IO_VERSION}:../../wip/io-thread
 DEPENDS+=	io-user>=${IO_VERSION}:../../wip/io-user
 DEPENDS+=	io-zlib>=${IO_VERSION}:../../wip/io-zlib
-
-EXTRACT_ONLY=	# empty
-NO_CHECKSUM=	yes
-NO_CONFIGURE=	yes
-NO_BUILD=	yes
-NO_MTREE=	yes
-
-do-install:     # empty
 
 .include "../../mk/bsd.pkg.mk"
