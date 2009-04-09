@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		rsyslog-3.21.10
+DISTNAME=		rsyslog-3.21.11
 CATEGORIES=		sysutils
 MASTER_SITES=		http://download.rsyslog.com/rsyslog/
 
@@ -10,6 +10,8 @@ HOMEPAGE=		http://www.rsyslog.com/
 COMMENT=		The enhanced syslogd for Unix
 
 GNU_CONFIGURE=		yes
+
+USE_TOOLS+=		pkg-config
 
 SUBST_CLASSES+=		paths
 SUBST_STAGE.paths=	pre-configure
