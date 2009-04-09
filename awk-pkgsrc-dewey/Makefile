@@ -22,7 +22,6 @@ INSTALLATION_DIRS+=	share/runawk
 
 WRKSRC=		${.CURDIR}/files
 USE_LANGUAGES=	# empty
-NO_CHECKSUM=	yes
 NO_BUILD=	yes
 
 MAKE_ENV+=	AWKMODDIR=${PREFIX}/share/runawk

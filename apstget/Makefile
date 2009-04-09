@@ -14,7 +14,6 @@ DEPENDS+=	pkg_chk>=1.54:../../pkgtools/pkg_chk
 DEPENDS+=	pkglint>=3.94:../../pkgtools/pkglint
 
 NO_CONFIGURE=	yes
-NO_CHECKSUM=	yes
 NO_BUILD=	yes
 
 CONF_FILES=	apstget.conf ${PKG_SYSCONFDIR}/apstget.conf
