@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	gipfel-0.2.9
+DISTNAME=	gipfel-0.3.1
 CATEGORIES=	geography graphics
 MASTER_SITES=	http://www.ecademix.com/JohannesHofmann/
 
@@ -14,11 +14,10 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 GNU_CONFIGURE=	yes
 USE_LANGUAGES=	c c++
 
-DEPENDS+=	exif-[0-9]*:../../graphics/exif
-
 .include "../../graphics/tiff/buildlink3.mk"
 .include "../../graphics/png/buildlink3.mk"
 .include "../../graphics/jpeg/buildlink3.mk"
+.include "../../graphics/exiv2/buildlink3.mk"
 .include "../../math/gsl/buildlink3.mk"
 .include "../../x11/fltk/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
