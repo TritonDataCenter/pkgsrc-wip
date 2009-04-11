@@ -1,0 +1,4 @@
+@comment $NetBSD$
+include/nxml.h
+lib/libnxml.la
+lib/pkgconfig/nxml.pc
