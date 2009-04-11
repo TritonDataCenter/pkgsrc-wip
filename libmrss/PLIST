@@ -1,0 +1,4 @@
+@comment $NetBSD$
+include/mrss.h
+lib/libmrss.la
+lib/pkgconfig/mrss.pc
