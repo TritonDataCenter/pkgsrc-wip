@@ -14,16 +14,9 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 GNU_CONFIGURE=	yes
 USE_TOOLS+=	gmake
 
-
-REPLACE_PYTHON=+	dragbox
+REPLACE_PYTHON+=	dragbox
 PY_PATCHPLIST=	yes
 
-INSTALLATION_DIRS+= 	share/doc
-
-post-install:
-	${INSTALL_DATA} ${WRKSRC}/README ${DESTDIR}${PREFIX}/share/doc/dragbox
-
-.include "../../devel/GConf/schemas.mk"
 .include "../../devel/libglade/buildlink3.mk"
 .include "../../devel/py-gobject/buildlink3.mk"
 .include "../../lang/python/application.mk"
