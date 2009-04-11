@@ -7,7 +7,7 @@ MASTER_SITES=	http://www.autistici.org/bakunin/libmrss/
 
 MAINTAINER=	kamel.derouiche@gmail.com
 HOMEPAGE=	http://www.autistici.org/bakunin/libmrss/
-COMMENT=	Libmrss is a C library manipulate rss files or streams
+COMMENT=	C library for parsing, writing and creating RSS files or streams
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
