@@ -6,7 +6,7 @@ CATEGORIES=	finance
 MASTER_SITES=	http://homebank.free.fr/public/
 
 MAINTAINER=	kamel.derouiche@gmail.com
-HOMEPAGE=	http://homebank.free.fr/public/
+HOMEPAGE=	http://homebank.free.fr/
 COMMENT=	HomeBank is to manage your personal accounts at home
 
 PKG_DESTDIR_SUPPORT=	user-destdir
