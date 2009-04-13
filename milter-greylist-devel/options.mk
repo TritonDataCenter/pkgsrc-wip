@@ -64,8 +64,8 @@ CONFIGURE_ARGS+=	--with-openldap=${PREFIX:Q}
 .if empty(PKG_OPTIONS:Mdkim)
 CONFIGURE_ARGS+=	--disable-dkim=${PREFIX:Q}
 .else
-DEPENDS+=		dkim-milter>=2.6:../../wip/dkim-milter
-.include "../../wip/dkim-milter/buildlink3.mk"
+DEPENDS+=		dkim-milter>=2.6:../../mail/dkim-milter
+.include "../../mail/dkim-milter/buildlink3.mk"
 
 CONFIGURE_ARGS+=	--with-libdkim=${PREFIX:Q}
 .endif
