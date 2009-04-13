@@ -11,13 +11,15 @@ MAINTAINER=	mj@turner.org.za
 HOMEPAGE=	http://codespeak.net/icalendar/
 COMMENT=	Python parser/generator for iCalendar files, as per RFC2445
 
-PYDISTUTILSPKG=	yes
+PKG_DESTDIR_SUPPORT=	user-destdir
+
 PY_PATCHPLIST=	yes
 
+DOCDIR=	${PREFIX}/share/doc/${PKGNAME}
 # Install documentation manually
 post-install:
-	${INSTALL_DATA_DIR} ${PREFIX}/share/doc/${PKGBASE}
-	${INSTALL_DATA} ${WRKSRC}/doc/* ${PREFIX}/share/doc/${PKGBASE}
+	${INSTALL_DATA_DIR} ${DESTDIR}${DOCDIR}
+	${INSTALL_DATA} ${WRKSRC}/doc/* ${DESTDIR}${DOCDIR}
 
-.include "../../lang/python/extension.mk"
+.include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"
