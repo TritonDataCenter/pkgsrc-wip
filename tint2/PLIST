@@ -3,4 +3,6 @@ bin/tint
 share/doc/tint/tint-0.6.odt
 share/doc/tint/tint-0.6.pdf
 share/examples/xdg/tint/tintrc
+@dirrm share/examples/xdg/tint
+@dirrm share/examples/xdg
 @dirrm share/doc/tint
