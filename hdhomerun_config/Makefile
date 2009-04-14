@@ -1,13 +1,13 @@
 # $NetBSD$
 #
 
-DISTNAME=	libhdhomerun_20081213
+DISTNAME=	libhdhomerun_20090411
 PKGNAME=	${DISTNAME:S/libhdhomerun_/hdhomerun_config-/}
 CATEGORIES=	multimedia
 MASTER_SITES=	http://download.silicondust.com/hdhomerun/
 EXTRACT_SUFX=	.tgz
 
-MAINTAINER=	jakllsch@kollasch.net
+MAINTAINER=	jakllsch@NetBSD.org
 HOMEPAGE=	http://www.silicondust.com/hdhomerun/
 COMMENT=	SiliconDust HDHomeRun utility
 
