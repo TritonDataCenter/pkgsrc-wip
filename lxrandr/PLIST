@@ -1,0 +1,5 @@
+@comment $NetBSD$
+bin/lxrandr
+share/applications/lxrandr.desktop
+share/locale/hu/LC_MESSAGES/lxrandr.mo
+share/locale/zh_TW/LC_MESSAGES/lxrandr.mo
