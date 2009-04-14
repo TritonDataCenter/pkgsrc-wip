@@ -10,8 +10,11 @@ MAINTAINER=     netbsd@guigui2.net
 HOMEPAGE=       http://live.gnome.org/giggle
 COMMENT=        GTK2 graphical frontend to git SCM tool
 
-DEPENDS+=       scmgit-base-[0-9]*:../../devel/scmgit-base
+LICENSE=	gnu-gpl-v2
 
+PKG_DESTDIR_SUPPORT=	user-destdir
+
+DEPENDS+=       scmgit-base-[0-9]*:../../devel/scmgit-base
 GNU_CONFIGURE=  yes
 USE_LIBTOOL=    yes
 USE_TOOLS+=     gmake pkg-config intltool
