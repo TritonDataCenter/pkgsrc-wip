@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	arora-0.5
+DISTNAME=	arora-0.6
 CATEGORIES=	www net
 MASTER_SITES=	http://arora.googlecode.com/files/
 
@@ -11,6 +11,7 @@ COMMENT=	Arora is a simple cross platform web browser using Qt and Webkit
 
 PKG_DESTDIR_SUPPORT=    user-destdir
 
+USE_LIBTOOL=yes
 USE_LANGUAGES=	c++
 USE_DIRS+=	xdg-1.4
 
@@ -36,4 +37,5 @@ SUBST_SED.target=         -e 's,^QMAKE_TARGET.*$$,QMAKE_TARGET=${ARORA_BIN},g'
 .include "../../x11/qt4-libs/buildlink3.mk"
 .include "../../x11/qt4-tools/buildlink3.mk"
 .include "../../graphics/hicolor-icon-theme/buildlink3.mk"
+.include "../../sysutils/desktop-file-utils/desktopdb.mk"
 .include "../../mk/bsd.pkg.mk"
