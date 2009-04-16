@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	HsSVN-0.4
+PKGREVISION=	1
 CATEGORIES=	devel
 
 MAINTAINER=	pho@cielonegro.org
