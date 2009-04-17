@@ -22,8 +22,5 @@ bin/njb-settime
 bin/njb-tagtr
 bin/njb-tracks
 include/libnjb.h
-lib/libnjb.a
 lib/libnjb.la
-lib/libnjb.so.5.1.0
-lib/libnjb.so
 lib/pkgconfig/libnjb.pc
