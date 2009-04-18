@@ -696,6 +696,7 @@ share/maxima/${PKGVERSION}/share/contrib/rtest_z_transform.mac
 share/maxima/${PKGVERSION}/share/contrib/rtestdefstruct.mac
 share/maxima/${PKGVERSION}/share/contrib/sarag/aliases.mac
 share/maxima/${PKGVERSION}/share/contrib/sarag/arag_test.mac
+share/maxima/${PKGVERSION}/share/contrib/sarag/certificateOfPositivity.mac
 share/maxima/${PKGVERSION}/share/contrib/sarag/constants.mac
 share/maxima/${PKGVERSION}/share/contrib/sarag/examples.mac
 share/maxima/${PKGVERSION}/share/contrib/sarag/hard_test.mac
