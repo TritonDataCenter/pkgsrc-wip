@@ -10,6 +10,8 @@ MAINTAINER=			dbolgheroni@unifei.edu.br
 HOMEPAGE=			http://txt2tags.sourceforge.net/
 COMMENT=			Text formatting and conversion tool
 
+PKG_DESTDIR_SUPPORT=  user-destdir
+
 PYTHON_PATCH_SCRIPTS=		txt2tags
 PYTHON_VERSIONS_ACCEPTED=	25 24
 
