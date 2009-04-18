@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=			iodine-0.4.2
+DISTNAME=			iodine-0.5.1
 CATEGORIES=			net
 MASTER_SITES=			http://code.kryo.se/iodine/
 
@@ -10,9 +10,7 @@ COMMENT=			Tool to tunnel IPv4 over DNS
 
 PKG_DESTDIR_SUPPORT=		user-destdir
 
-WRKSRC=				${WRKDIR}/${PKGNAME_NOREV}
-BUILD_DIRS=			src
-INSTALLATION_DIRS=		share/${PKGBASE} ${PKGMANDIR}/man8
+INSTALLATION_DIRS=		bin sbin share/${PKGBASE} ${PKGMANDIR}/man8
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/bin/iodine ${DESTDIR}${PREFIX}/bin
