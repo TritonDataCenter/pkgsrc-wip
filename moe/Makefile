@@ -1,13 +1,14 @@
 # $NetBSD$
 
-DISTNAME=	moe-1.0
+DISTNAME=	moe-1.1
 CATEGORIES=	editors
 MASTER_SITES=	${MASTER_SITE_GNU:=moe/}
-EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	schwarz@NetBSD.org
 HOMEPAGE=	http://www.gnu.org/software/moe/moe.html
 COMMENT=	Moe Editor - A powerful and user-friendly text editor
+
+PKG_DESTDIR_SUPPORT=	user-destdir
 
 GNU_CONFIGURE=	YES
 USE_GNU_CONFIGURE_HOST=	NO
