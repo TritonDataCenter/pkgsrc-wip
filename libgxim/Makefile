@@ -7,7 +7,7 @@ MASTER_SITES=	http://libgxim.googlecode.com/files/
 EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	kamel.derouiche@gmail.com
-HOMEPAGE=	http://libgxim.googlecode.com/files/
+HOMEPAGE=	http://code.google.com/p/libgxim/
 COMMENT=	GObject-based XIM protocol library
 
 PKG_DESTDIR_SUPPORT=	user-destdir
