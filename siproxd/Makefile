@@ -8,6 +8,8 @@ MAINTAINER=	schwarz@NetBSD.org
 HOMEPAGE=	http://siproxd.sourceforge.net/
 COMMENT=	Session Initiation Protocol Application-Level Gateway (SIP ALG)
 
+PKG_DESTDIR_SUPPORT=	user-destdir
+
 GNU_CONFIGURE=	YES
 USE_TOOLS+=	gmake
 

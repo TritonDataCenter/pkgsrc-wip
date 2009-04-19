@@ -10,6 +10,8 @@ MAINTAINER=	schwarz@NetBSD.org
 HOMEPAGE=	http://speedmodem50b.berlios.de/
 COMMENT=	Speed Modem 50B/50B+/200/Cellpipe CELL 19A-BX utility
 
+PKG_DESTDIR_SUPPORT=	user-destdir
+
 #LICENSE=	gnu-gpl-v2
 
 WRKSRC=		${WRKDIR}/${PKGBASE}/src
@@ -21,6 +23,6 @@ INSTALLATION_DIRS=	bin
 BUILD_TARGET=	tctool
 
 do-install:
-		${INSTALL_PROGRAM} ${WRKSRC}/tctool ${PREFIX}/bin
+		${INSTALL_PROGRAM} ${WRKSRC}/tctool ${DESTDIR}${PREFIX}/bin
 
 .include "../../mk/bsd.pkg.mk"
