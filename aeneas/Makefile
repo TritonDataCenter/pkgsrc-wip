@@ -9,6 +9,8 @@ MAINTAINER=	schwarz@NetBSD.org
 HOMEPAGE=	http://www.gnu.org/software/aeneas/
 COMMENT=	3D Monte Carlo simulation software for submicron semiconductor devices
 
+PKG_DESTDIR_SUPPORT=	user-destdir
+
 GNU_CONFIGURE=	YES
 
 .include "../../mk/bsd.pkg.mk"
