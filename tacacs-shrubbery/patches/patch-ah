@@ -1,10 +1,10 @@
 $NetBSD$
 
---- do_acct.c.orig	2006-07-12 19:09:32.000000000 +0200
-+++ do_acct.c	2006-07-23 20:41:26.000000000 +0200
-@@ -155,7 +155,7 @@
- 	strcpy(entry.ut_name, name);
-     else bcopy(name, entry.ut_name, sizeof entry.ut_name);
+--- do_acct.c.orig	2009-03-17 19:40:29.000000000 +0100
++++ do_acct.c	2009-04-19 12:34:09.000000000 +0200
+@@ -220,7 +220,7 @@
+     else
+ 	memcpy(entry.ut_name, name, sizeof(entry.ut_name));
  
 -#ifndef SOLARIS
 +#if !defined(SOLARIS) && !defined(__sgi)
