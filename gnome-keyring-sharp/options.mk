@@ -1,9 +1,9 @@
 # $NetBSD$
 
-PKG_OPTIONS_VAR=	PKG_OPTIONS.gnome-keyring-sharp
+PKG_OPTIONS_VAR=PKG_OPTIONS.gnome-keyring-sharp
 
 PKG_SUPPORTED_OPTIONS=	ndesk-dbus
-PKG_SUGGESTED_OPTIONS=    	ndesk-dbus
+PKG_SUGGESTED_OPTIONS=	ndesk-dbus
 
 .include "../../mk/bsd.options.mk"
 
