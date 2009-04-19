@@ -9,6 +9,8 @@ EXTRACT_SUFX=	.tgz
 MAINTAINER=	schwarz@NetBSD.org
 COMMENT=	Non-spooling LPD server (RFC1179)
 
+PKG_DESTDIR_SUPPORT=	user-destdir
+
 NO_CONFIGURE=	YES
 WRKSRC=		${WRKDIR}
 EXTRACT_USING=	gtar # archive does not properly extract using BSD tar
@@ -16,6 +18,6 @@ EXTRACT_USING=	gtar # archive does not properly extract using BSD tar
 INSTALLATION_DIRS=	sbin
 
 do-install:
-		${INSTALL_PROGRAM} ${WRKSRC}/lpdsrv ${PREFIX}/sbin
+		${INSTALL_PROGRAM} ${WRKSRC}/lpdsrv ${DESTDIR}${PREFIX}/sbin
 
 .include "../../mk/bsd.pkg.mk"

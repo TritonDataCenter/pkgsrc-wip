@@ -9,6 +9,8 @@ MAINTAINER=	schwarz@NetBSD.org
 HOMEPAGE=	http://www-dinma.univ.trieste.it/nirftc/research/easymesh/
 COMMENT=	Display program for easymesh
 
+PKG_DESTDIR_SUPPORT=	user-destdir
+
 WRKSRC=		${WRKDIR}
 NO_CONFIGURE=	YES
 
@@ -20,7 +22,7 @@ do-build:
 		cd ${WRKSRC} && ${CC} ${CPPFLAGS} ${CFLAGS} showmesh_1_0.c -o showmesh ${LDFLAGS} -lX11
 
 do-install:
-		${INSTALL_PROGRAM} ${WRKSRC}/showmesh ${PREFIX}/bin
+		${INSTALL_PROGRAM} ${WRKSRC}/showmesh ${DESTDIR}${PREFIX}/bin
 
 .include "../../mk/x11.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

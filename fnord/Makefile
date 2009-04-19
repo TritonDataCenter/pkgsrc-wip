@@ -9,6 +9,8 @@ MAINTAINER=	schwarz@NetBSD.org
 HOMEPAGE=	http://www.fefe.de/fnord/
 COMMENT=	Small HTTP server
 
+PKG_DESTDIR_SUPPORT=	user-destdir
+
 USE_TOOLS+=	gmake
 DEPENDS+=	ucspi-tcp-*:../../net/ucspi-tcp
 
@@ -21,6 +23,6 @@ CFLAGS+=	-DNEED_ALLOCA_H
 INSTALLATION_DIRS=	sbin
 
 do-install:
-		cd ${WRKSRC} && ${INSTALL_PROGRAM} fnord fnord-cgi fnord-idx ${PREFIX}/sbin
+		cd ${WRKSRC} && ${INSTALL_PROGRAM} fnord fnord-cgi fnord-idx ${DESTDIR}${PREFIX}/sbin
 
 .include "../../mk/bsd.pkg.mk"

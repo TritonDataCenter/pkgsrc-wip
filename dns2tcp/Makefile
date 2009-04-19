@@ -8,6 +8,8 @@ MAINTAINER=	schwarz@NetBSD.org
 HOMEPAGE=	http://www.hsc.fr/ressources/outils/dns2tcp/index.html.en
 COMMENT=	Dns2tcp is a tool for relaying TCP connections over DNS
 
+PKG_DESTDIR_SUPPORT=	user-destdir
+
 GNU_CONFIGURE=	YES
 
 INSTALLATION_DIRS=	bin ${PKGMANDIR}/man1

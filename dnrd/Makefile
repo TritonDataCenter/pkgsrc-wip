@@ -8,6 +8,8 @@ MAINTAINER=	schwarz@NetBSD.org
 HOMEPAGE=	http://dnrd.sourceforge.net/
 COMMENT=	Dnrd is a caching forwarding DNS proxy
 
+PKG_DESTDIR_SUPPORT=	user-destdir
+
 .include "options.mk"
 
 GNU_CONFIGURE=	YES

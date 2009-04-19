@@ -9,6 +9,8 @@ MAINTAINER=	schwarz@NetBSD.org
 HOMEPAGE=	http://sipp.sourceforge.net/
 COMMENT=	SIPp is a free Open Source SIP test tool/traffic generator
 
+PKG_DESTDIR_SUPPORT=	user-destdir
+
 WRKSRC=		${WRKDIR}/sipp.svn
 NO_CONFIGURE=	yes
 USE_TOOLS+=	gmake
@@ -17,7 +19,7 @@ USE_LANGUAGES=	c c++
 INSTALLATION_DIRS=	bin
 
 do-install:
-		${INSTALL_PROGRAM} ${WRKSRC}/sipp ${PREFIX}/bin
+		${INSTALL_PROGRAM} ${WRKSRC}/sipp ${DESTDIR}${PREFIX}/bin
 
 .include "../../devel/ncurses/buildlink3.mk"
 .include "../../mk/dlopen.buildlink3.mk"

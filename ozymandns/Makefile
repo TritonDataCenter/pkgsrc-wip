@@ -10,6 +10,8 @@ MAINTAINER=	schwarz@NetBSD.org
 HOMEPAGE=	http://localhost.lu/localhostwiki/OzymanDNS/
 COMMENT=	Tool to enable ssh tunnel over DNS using TXT records
 
+PKG_DESTDIR_SUPPORT=	user-destdir
+
 DEPENDS+=		p5-Net-DNS-[0-9]*:../../net/p5-Net-DNS
 DEPENDS+=		p5-LWP-UserAgent-Determined-[0-9]*:../../www/p5-LWP-UserAgent-Determined
 DEPENDS+=		p5-MIME-Base32-[0-9]*:../../converters/p5-MIME-Base32
@@ -33,6 +35,6 @@ do-build:
 		cd ${WRKSRC} && ${CC} ${CPPFLAGS} ${CFLAGS} glance.c -o glance ${LDFLAGS}
 
 do-install:
-		cd ${WRKSRC} && ${INSTALL_PROGRAM} glance ${PREFIX}/sbin && ${INSTALL_SCRIPT} ${OZYMAN_PERLSCRIPTS} ${PREFIX}/sbin
+		cd ${WRKSRC} && ${INSTALL_PROGRAM} glance ${DESTDIR}${PREFIX}/sbin && ${INSTALL_SCRIPT} ${OZYMAN_PERLSCRIPTS} ${DESTDIR}${PREFIX}/sbin
 
 .include "../../mk/bsd.pkg.mk"
