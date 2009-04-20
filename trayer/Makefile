@@ -11,7 +11,7 @@ HOMEPAGE=	http://fvwm-crystal.org/
 COMMENT=	Standalone tray app
 
 USE_TOOLS+=	gmake pkg-config
-
+MAKE_JOBS_SAFE=	no
 
 do-install:
 	cp ${WRKSRC}/trayer ${PREFIX}/bin/
