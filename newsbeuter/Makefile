@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	newsbeuter-1.3
+DISTNAME=	newsbeuter-2.0
 CATEGORIES=	news
 MASTER_SITES=	http://www.newsbeuter.org/downloads/
 
