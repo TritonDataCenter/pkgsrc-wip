@@ -1,4 +1,5 @@
 @comment $NetBSD$
+bin/arora
 bin/arora-placesimport
 bin/googlesuggest
 bin/htmlToXBel
