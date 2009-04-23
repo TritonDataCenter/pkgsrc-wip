@@ -22,6 +22,7 @@ INSTALL_MAKE_FLAGS+=	prefix=${PREFIX} mandir=${DESTDIR}${PREFIX}/${PKGMANDIR}
 .include "../../converters/libiconv/buildlink3.mk"
 .endif
 
+.include "../../textproc/libxml2/buildlink3.mk"
 .include "../../wip/stfl/buildlink3.mk"
 .include "../../databases/sqlite3/buildlink3.mk"
 .include "../../www/curl/buildlink3.mk"
