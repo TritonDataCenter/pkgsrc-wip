@@ -11,7 +11,7 @@ BUILD_MAKE_FLAGS+=CGIT_CONFIG=${PKG_SYSCONFDIR}/cgitrc
 BUILD_TARGET=get-git all
 
 PKG_DESTDIR_SUPPORT=user-destdir
-BUILD_DEPENDS+= curl-7.19.2:../../www/curl
+BUILD_DEPENDS+= curl>=7.19.2:../../www/curl
 
 MASTER_SITES=http://hjemli.net/git/cgit/snapshot/
 DISTFILES=${DISTNAME}.tar.bz2
