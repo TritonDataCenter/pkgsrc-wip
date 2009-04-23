@@ -8,6 +8,8 @@ MAINTAINER=	schwarz@NetBSD.org
 HOMEPAGE=	http://zeank.in-berlin.de/gtkimonc/
 COMMENT=	GTK version of the fli4l monitoring tool
 
+PKG_DESTDIR_SUPPORT=	user-destdir
+
 GNU_CONFIGURE=	YES
 
 .include "../../mk/bsd.prefs.mk"
