@@ -11,17 +11,21 @@ COMMENT=	Open-source RSS/Atom feed reader for text terminals
 PKG_DESTDIR_SUPPORT=	user-destdir
 
 USE_LANGUAGES=	c c++
-NO_CONFIGURE=	yes
-USE_TOOLS+=	gmake pkg-config msgfmt
+USE_TOOLS+=	gmake pkg-config msgfmt perl
+
+REPLACE_PERL+=	txt2h.pl
 
 INSTALL_MAKE_FLAGS+=	prefix=${PREFIX} mandir=${DESTDIR}${PREFIX}/${PKGMANDIR}
 
+.include "../../mk/bsd.prefs.mk"
+
 # NetBSD iconv implementation doesn't support
 # the wchar_t encoding (upon stfl relies).
-.if ${OS} == "NetBSD"
+.if ${OPSYS} == "NetBSD"
 .include "../../converters/libiconv/buildlink3.mk"
 .endif
 
+.include "../../devel/ncursesw/buildlink3.mk"
 .include "../../textproc/libxml2/buildlink3.mk"
 .include "../../wip/stfl/buildlink3.mk"
 .include "../../databases/sqlite3/buildlink3.mk"

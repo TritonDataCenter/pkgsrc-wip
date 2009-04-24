@@ -3,3 +3,4 @@ $NetBSD$
 SHA1 (newsbeuter-2.0.tar.gz) = b25fb3d742c3f975140365e64861e653026ca12d
 RMD160 (newsbeuter-2.0.tar.gz) = fd860542ca547d9d41cbfa3a12eac38f633830fa
 Size (newsbeuter-2.0.tar.gz) = 335576 bytes
+SHA1 (patch-aa) = 15ffa6728034c8004039fcf6a9a99b3c37275417
