@@ -1,7 +1,7 @@
 # $NetBSD$
 
 DISTNAME=	TracFullBlog-0.1dev
-PKGNAME=	trac-plugins-fullblog-0.1pre5210
+PKGNAME=	trac-plugins-fullblog-0.1pre5336
 PKGREVISION=	# blank on purpose even though pkglint moans
 EGG_NAME=	${DISTNAME}
 CATEGORIES=	www
@@ -16,7 +16,7 @@ DEPENDS+=	{ja-,}trac>=0.11:../../www/trac
 
 SVN_REPOSITORIES=	fullblog
 SVN_ROOT.fullblog=	http://trac-hacks.org/svn/fullblogplugin/0.11
-SVN_TAG.fullblog=	5210
+SVN_TAG.fullblog=	5336
 
 NO_CHECKSUM=	yes
 
