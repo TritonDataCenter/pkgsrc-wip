@@ -16,4 +16,5 @@ USE_TOOLS+=	gmake perl
 
 INSTALL_MAKE_FLAGS+=	prefix=${PREFIX}
 
+.include "../../devel/ncursesw/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
