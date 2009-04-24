@@ -12,8 +12,6 @@ COMMENT=		Communicating with some Creative and Dell audio players
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
-CHECK_PORTABILITY_SKIP+=	hotplug.sh.in
-
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_TOOLS+=	pkg-config
