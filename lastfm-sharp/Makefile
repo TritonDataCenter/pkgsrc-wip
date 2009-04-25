@@ -6,8 +6,8 @@ CATEGORIES=	audio
 MASTER_SITES=	http://lastfm-sharp.googlecode.com/files/
 
 MAINTAINER=	kamel.derouiche@gmail.com
-HOMEPAGE=	http://lastfm-sharp.googlecode.com/files/
-COMMENT=	 .net/mono interface to last.fm
+HOMEPAGE=	http://code.google.com/p/lastfm-sharp/
+COMMENT=	DotNet/Mono interface to last.fm
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
