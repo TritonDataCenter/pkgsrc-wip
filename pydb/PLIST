@@ -3,6 +3,9 @@ bin/pydb
 ${PYSITELIB}/pydb/__init__.py
 ${PYSITELIB}/pydb/__init__.pyc
 ${PYSITELIB}/pydb/__init__.pyo
+${PYSITELIB}/pydb/bytecode.py
+${PYSITELIB}/pydb/bytecode.pyc
+${PYSITELIB}/pydb/bytecode.pyo
 ${PYSITELIB}/pydb/complete.py
 ${PYSITELIB}/pydb/complete.pyc
 ${PYSITELIB}/pydb/complete.pyo
