@@ -1,0 +1,6 @@
+@comment $NetBSD$
+bin/gbemol
+share/applications/gbemol.desktop
+share/pixmaps/gbemol.png
+@comment in xdg-dirs: @dirrm share/pixmaps
+@comment in xdg-dirs: @dirrm share/applications
