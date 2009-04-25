@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	nmzmail-1.0
+DISTNAME=	nmzmail-1.1
 CATEGORIES=	mail
 MASTER_SITES=	http://www.ecademix.com/JohannesHofmann/
 
