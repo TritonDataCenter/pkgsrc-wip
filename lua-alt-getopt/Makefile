@@ -2,9 +2,9 @@
 #
 
 PKGNAME=	${DISTNAME:S/lua-/${LUA_PKGPREFIX}-/}
-DISTNAME=	lua-alt-getopt-0.5.0
+DISTNAME=	lua-alt-getopt-0.6.0
 CATEGORIES=	devel
-MASTER_SITES=	http://luaforge.net/frs/download.php/3915/ \
+MASTER_SITES=	http://luaforge.net/frs/download.php/4049/ \
 		http://mova.org/~cheusov/pub/lua_alt_getopt/
 
 MAINTAINER=	cheusov@tut.by
