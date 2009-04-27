@@ -72,7 +72,7 @@ post-install:
 		${DESTDIR}${PREFIX}/share/doc/kde/HTML/en/kdm
 .if ${OPSYS} == "NetBSD"
 	@# NetBSD Advertisement O:-)
-	cd ${PREFIX}/share/kde/config/kdm;				\
+	cd ${DESTDIR}${PREFIX}/share/kde/config/kdm;			\
 	${SED} -e 's|^\(LogoPixmap\)=.*|\1=${PREFIX}/${ICONDIR}/NetBSD-flag.png|' \
                 kdmrc > ${WRKDIR}/kdmrc.ad;				\
 	${CP} -f ${WRKDIR}/kdmrc.ad kdmrc
