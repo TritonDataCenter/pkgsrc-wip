@@ -13,6 +13,7 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 
 WRKSRC=		${WRKDIR}/aamath
 USE_LANGUAGES=	c++
+MAKE_JOBS_SAFE=	no
 
 BUILD_TARGET=	aamath
 
