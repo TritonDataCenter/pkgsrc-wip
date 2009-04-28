@@ -9,7 +9,7 @@ PKG_OPTIONS_GROUP.auth+=	auth-db auth-ldap auth-pam
 PKG_OPTIONS_GROUP.storage=	storage-mysql storage-pgsql
 PKG_OPTIONS_GROUP.storage+=	storage-sqlite storage-db
 # SASL implementation
-PKG_OPTIONS_GROUP.sasl=		sasl-cyrus sasl-gnu 
+PKG_OPTIONS_GROUP.sasl=		sasl-cyrus sasl-gnu
 # debugging
 PKG_SUPPORTED_OPTIONS+=		debug
 PKG_SUGGESTED_OPTIONS=		auth-sqlite storage-sqlite sasl-gnu
