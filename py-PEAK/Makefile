@@ -10,6 +10,8 @@ MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://peak.telecommunity.com/
 COMMENT=		Python Enterprise Application Kit
 
+PKG_DESTDIR_SUPPORT=	user-destdir
+
 CONFLICTS+=		${PYPKGPREFIX}-ZODB-*
 
 PY_PATCHPLIST=		yes
