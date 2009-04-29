@@ -10,6 +10,7 @@ HOMEPAGE=	http://fuse.superglue.se/aamath/
 COMMENT=	ASCII art mathematics
 
 PKG_DESTDIR_SUPPORT=	user-destdir
+INSTALLATION_DIRS=	bin ${PKGMANDIR}/man1
 
 WRKSRC=		${WRKDIR}/aamath
 USE_LANGUAGES=	c++
