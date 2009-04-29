@@ -11,6 +11,8 @@ MAINTAINER=	obache@NetBSD.org
 HOMEPAGE=	http://www.gnu.org/software/emacs/emacs.html
 COMMENT=	GNU editing macros (editor)
 
+LICENSE=	gnu-gpl-v3
+
 PKG_DESTDIR_SUPPORT=	user-destdir
 
 USE_DIRS+=	xdg-1.1
