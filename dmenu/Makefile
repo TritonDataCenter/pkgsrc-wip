@@ -1,12 +1,12 @@
 # $NetBSD$
 #
 
-DISTNAME=	dmenu-3.9
+DISTNAME=	dmenu-4.0
 CATEGORIES=	x11
 MASTER_SITES=	http://code.suckless.org/dl/tools/
 
 MAINTAINER=	leot1990@users.sourceforge.net
-HOMEPAGE=	http://www.suckless.org/programs/dmenu.html
+HOMEPAGE=	http://tools.suckless.org/dmenu
 COMMENT=	Dymanic menu for X
 
 PKG_DESTDIR_SUPPORT=	user-destdir
