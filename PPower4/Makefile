@@ -14,7 +14,7 @@ BUILD_DEPENDS+=	unzip-[0-9]*:../../archivers/unzip
 
 # This requires Java 1.2 or better
 USE_JAVA=	run
-USE_JAVA2=	YES
+USE_JAVA2=	yes
 TEX_ACCEPTED=	teTeX1 teTeX2 teTeX3
 
 NO_CONFIGURE=	YES
