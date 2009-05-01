@@ -9,13 +9,17 @@ MAINTAINER=	mj@mjturner.net
 HOMEPAGE=	http://code.google.com/p/httplib2/
 COMMENT=	Comprehensive http client library for Python
 
+PKG_DESTDIR_SUPPORT=	user-destdir
+
 PYDISTUTILSPKG=	yes
 PY_PATCHPLIST=	yes
 
 # Install README manually
+DOCDIR=	${PREFIX}/share/doc/${PKGNAME}
+
 post-install:
-	${INSTALL_DATA_DIR} ${PREFIX}/share/doc/${PKGBASE}
-	${INSTALL_DATA} ${WRKSRC}/README ${PREFIX}/share/doc/${PKGBASE}
+	${INSTALL_DATA_DIR} ${DESTDIR}${DOCDIR}
+	${INSTALL_DATA} ${WRKSRC}/README ${DESTDIR}${DOCDIR}
 
 .include "../../lang/python/extension.mk"
 .include "../../mk/bsd.pkg.mk"
