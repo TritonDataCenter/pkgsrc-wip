@@ -1,0 +1,4 @@
+@comment $NetBSD$
+bin/googlecalsync.py
+share/doc/${PKGNAME}/README
+@dirrm share/doc/${PKGNAME}

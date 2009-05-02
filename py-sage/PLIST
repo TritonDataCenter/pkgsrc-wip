@@ -1,0 +1,10 @@
+@comment $NetBSD$
+${PYSITELIB}/pysage/__init__.pyc
+${PYSITELIB}/pysage/__init__.pyo
+${PYSITELIB}/pysage/messaging.pyc
+${PYSITELIB}/pysage/messaging.pyo
+${PYSITELIB}/pysage/system.pyc
+${PYSITELIB}/pysage/system.pyo
+${PYSITELIB}/pysage/util.pyc
+${PYSITELIB}/pysage/util.pyo
+@dirrm ${PYSITELIB}/pysage
