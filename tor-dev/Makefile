@@ -12,6 +12,7 @@ COMMENT=		Anonymizing overlay network for TCP (unstable)
 
 .include "../../mk/bsd.prefs.mk"
 
+LICENSE=		modified-bsd
 PKG_DESTDIR_SUPPORT=	user-destdir
 
 USE_LANGUAGES+=		c99
