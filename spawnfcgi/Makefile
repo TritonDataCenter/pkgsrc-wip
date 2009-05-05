@@ -17,18 +17,16 @@ CONFLICTS=       lighttpd<1.4.23
 GNU_CONFIGURE=	yes
 
 CONFIGURE_ARGS+= --sysconfdir=${PKG_SYSCONFDIR}
-CONFIGURE_ARGS+= --libdir=${PREFIX}/lib/${PKGBASE}
 
 DOCDIR=                 ${PREFIX}/share/doc/${PKGBASE}
-EGDIR=                  ${PREFIX}/share/examples/${PKGBASE}
 PKG_SYSCONFSUBDIR=      ${PKGBASE}
 
 RCD_SCRIPTS=            spawnfcgi
 
-INSTALLATION_DIRS=      ${DOCDIR} ${EGDIR}
+INSTALLATION_DIRS=      ${DOCDIR}
 
 post-install:
-	cd ${WRKSRC}; for f in AUTHORS COPYING ChangeLog NEWS README; do	\
+	cd ${WRKSRC}; for f in AUTHORS COPYING NEWS README; do	\
 		${INSTALL_DATA} ${WRKSRC}/$$f ${DESTDIR}${DOCDIR};		\
 	done
 

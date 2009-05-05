@@ -6,3 +6,4 @@ share/doc/spawn-fcgi/AUTHORS
 share/doc/spawn-fcgi/COPYING
 share/doc/spawn-fcgi/NEWS
 share/doc/spawn-fcgi/README
+@dirrm share/doc/spawn-fcgi
