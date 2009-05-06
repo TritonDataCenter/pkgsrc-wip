@@ -12,6 +12,9 @@
 
 BUILDLINK_TREE+=	libticalcs
 
+.if !defined(LIBTICALCS_BUILDLINK3_MK)
+LIBTICALCS_BUILDLINK3_MK:=
+
 BUILDLINK_API_DEPENDS.libticalcs+=	libticalcs>=4.4.9
 BUILDLINK_PKGSRCDIR.libticalcs?=	../../wip/libticalcs
 .endif # LIBTICALCS_BUILDLINK3_MK

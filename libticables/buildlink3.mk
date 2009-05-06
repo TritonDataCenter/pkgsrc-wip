@@ -12,6 +12,9 @@
 
 BUILDLINK_TREE+=	libticables
 
+.if !defined(LIBTICABLES_BUILDLINK3_MK)
+LIBTICABLES_BUILDLINK3_MK:=
+
 BUILDLINK_API_DEPENDS.libticables+=	libticables>=3.7.6
 BUILDLINK_PKGSRCDIR.libticables?=	../../wip/libticables
 

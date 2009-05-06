@@ -2,6 +2,9 @@
 
 BUILDLINK_TREE+=	esdl
 
+.if !defined(ESDL_BUILDLINK3_MK)
+ESDL_BUILDLINK3_MK:=
+
 BUILDLINK_API_DEPENDS.esdl+=	esdl>=0.95
 BUILDLINK_ABI_DEPENDS.esdl?=	esdl>=0.95.0630nb1
 BUILDLINK_PKGSRCDIR.esdl?=	../../wip/esdl

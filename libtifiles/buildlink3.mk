@@ -12,6 +12,9 @@
 
 BUILDLINK_TREE+=	libtifiles
 
+.if !defined(LIBTIFILES_BUILDLINK3_MK)
+LIBTIFILES_BUILDLINK3_MK:=
+
 BUILDLINK_API_DEPENDS.libtifiles+=	libtifiles>=0.5.6
 BUILDLINK_PKGSRCDIR.libtifiles?=	../../wip/libtifiles
 .endif # LIBTIFILES_BUILDLINK3_MK
