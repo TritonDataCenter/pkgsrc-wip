@@ -2,6 +2,9 @@
 
 BUILDLINK_TREE+=	DirectFB
 
+.if !defined(DIRECTFB_BUILDLINK3_MK)
+DIRECTFB_BUILDLINK3_MK:=
+
 BUILDLINK_API_DEPENDS.DirectFB+=	directfb>=0.9.17
 BUILDLINK_ABI_DEPENDS.DirectFB?=	directfb>=0.9.22nb1
 BUILDLINK_PKGSRCDIR.DirectFB?=	../../wip/directfb
