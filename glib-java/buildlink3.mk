@@ -22,6 +22,5 @@ BUILDLINK_PKGSRCDIR.glib-java?=	../../wip/glib-java
 # XXX buildlink3 lines below to dependencies, remove them.
 # XXX
 #.include "../../devel/glib2/buildlink3.mk"
-.endif # GLIB_JAVA_BUILDLINK3_MK
 
 BUILDLINK_TREE+=	-glib-java

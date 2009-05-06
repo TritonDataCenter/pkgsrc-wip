@@ -13,6 +13,5 @@ BUILDLINK_PKGSRCDIR.boinc-lib?=	../../wip/boinc-lib
 # XXX
 #.include "../../www/curl/buildlink3.mk"
 #.include "../../security/openssl/buildlink3.mk"
-.endif # BOINC_LIB_BUILDLINK3_MK
 
 BUILDLINK_TREE+=	-boinc-lib
