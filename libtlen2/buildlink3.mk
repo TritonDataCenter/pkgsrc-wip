@@ -2,6 +2,9 @@
 
 BUILDLINK_TREE+=	libtlen2
 
+.if !defined(LIBTLEN2_BUILDLINK3_MK)
+LIBTLEN2_BUILDLINK3_MK:=
+
 BUILDLINK_API_DEPENDS.libtlen2+=	libtlen2>=20040301
 BUILDLINK_PKGSRCDIR.libtlen2?=	../../wip/libtlen2
 
