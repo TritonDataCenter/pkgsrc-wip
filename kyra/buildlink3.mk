@@ -7,6 +7,9 @@
 
 BUILDLINK_TREE+=	kyra
 
+.if !defined(KYRA_BUILDLINK3_MK)
+KYRA_BUILDLINK3_MK:=
+
 BUILDLINK_API_DEPENDS.kyra+=	kyra>=1.6.5
 BUILDLINK_ABI_DEPENDS.kyra?=	kyra>=1.6.5nb1
 BUILDLINK_PKGSRCDIR.kyra?=	../../wip/kyra
