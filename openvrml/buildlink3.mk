@@ -2,6 +2,9 @@
 
 BUILDLINK_TREE+=	openvrml
 
+.if !defined(OPENVRML_BUILDLINK3_MK)
+OPENVRML_BUILDLINK3_MK:=
+
 BUILDLINK_API_DEPENDS.openvrml+=	openvrml>=0.14.3
 BUILDLINK_PKGSRCDIR.openvrml?=	../../wip/openvrml
 

@@ -7,6 +7,9 @@
 
 BUILDLINK_TREE+=	xbase
 
+.if !defined(XBASE_BUILDLINK3_MK)
+XBASE_BUILDLINK3_MK:=
+
 BUILDLINK_API_DEPENDS.xbase+=	xbase>=2.0.0
 BUILDLINK_PKGSRCDIR.xbase?=	../../wip/xbase
 .endif # XBASE_BUILDLINK3_MK

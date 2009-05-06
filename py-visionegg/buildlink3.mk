@@ -4,6 +4,9 @@
 
 BUILDLINK_TREE+=	pyvisionegg
 
+.if !defined(PY_VISIONEGG_BUILDLINK3_MK)
+PY_VISIONEGG_BUILDLINK3_MK:=
+
 BUILDLINK_API_DEPENDS.pyvisionegg+=	${PYPKGPREFIX}-visionegg>=0.9.9
 BUILDLINK_ABI_DEPENDS.pyvisionegg?=	${PYPKGPREFIX}-visionegg>=0.9.9nb1
 BUILDLINK_PKGSRCDIR.pyvisionegg?=	../../wip/py-visionegg

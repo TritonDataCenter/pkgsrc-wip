@@ -12,6 +12,9 @@
 
 BUILDLINK_TREE+=	libvc
 
+.if !defined(LIBVC_BUILDLINK3_MK)
+LIBVC_BUILDLINK3_MK:=
+
 BUILDLINK_API_DEPENDS.libvc+=	libvc>=003
 BUILDLINK_PKGSRCDIR.libvc?=	../../wip/libvc
 .endif # LIBVC_BUILDLINK3_MK

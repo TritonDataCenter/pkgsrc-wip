@@ -2,6 +2,9 @@
 
 BUILDLINK_TREE+=	kaffe
 
+.if !defined(KAFFE_BUILDLINK3_MK)
+KAFFE_BUILDLINK3_MK:=
+
 BUILDLINK_API_DEPENDS.kaffe+=	kaffe>=1.1.4nb2
 BUILDLINK_ABI_DEPENDS.kaffe+=	kaffe>=1.1.4nb4
 BUILDLINK_PKGSRCDIR.kaffe?=	../../wip/kaffe

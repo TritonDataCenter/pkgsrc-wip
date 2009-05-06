@@ -12,6 +12,9 @@
 
 BUILDLINK_TREE+=	xspd
 
+.if !defined(XSPD_BUILDLINK3_MK)
+XSPD_BUILDLINK3_MK:=
+
 BUILDLINK_API_DEPENDS.xspd+=	xspd>=6.3.1
 BUILDLINK_PKGSRCDIR.xspd?=	../../wip/xspd
 .endif # XSPD_BUILDLINK3_MK

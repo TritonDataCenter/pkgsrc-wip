@@ -2,6 +2,9 @@
 
 BUILDLINK_TREE+=	mapserver
 
+.if !defined(MAPSERVER_BUILDLINK3_MK)
+MAPSERVER_BUILDLINK3_MK:=
+
 BUILDLINK_API_DEPENDS.mapserver+=	mapserver>=4.4.2
 BUILDLINK_PKGSRCDIR.mapserver?=	../../wip/mapserver
 

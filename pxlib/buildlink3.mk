@@ -2,6 +2,9 @@
 
 BUILDLINK_TREE+=	pxlib
 
+.if !defined(PXLIB_BUILDLINK3_MK)
+PXLIB_BUILDLINK3_MK:=
+
 BUILDLINK_API_DEPENDS.pxlib+=	pxlib>=0.2.0
 BUILDLINK_PKGSRCDIR.pxlib?=	../../wip/pxlib
 

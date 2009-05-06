@@ -2,6 +2,9 @@
 
 BUILDLINK_TREE+=	phlib
 
+.if !defined(PHLIB_BUILDLINK3_MK)
+PHLIB_BUILDLINK3_MK:=
+
 BUILDLINK_API_DEPENDS.phlib+=	phlib>=1.20
 BUILDLINK_PKGSRCDIR.phlib?=	../../wip/phlib
 .endif # PHLIB_BUILDLINK3_MK

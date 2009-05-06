@@ -12,6 +12,9 @@
 
 BUILDLINK_TREE+=	libgtk-java
 
+.if !defined(uibgtk_java_BUILDLINK3_MK)
+uibgtk_java_BUILDLINK3_MK:=
+
 BUILDLINK_API_DEPENDS.libgtk-java+=	libgtk-java>=2.8.5
 BUILDLINK_PKGSRCDIR.libgtk-java?=	../../wip/libgtk-java
 

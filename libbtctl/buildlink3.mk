@@ -2,6 +2,9 @@
 
 BUILDLINK_TREE+=	libbtctl
 
+.if !defined(LIBBTCTL_BUILDLINK3_MK)
+LIBBTCTL_BUILDLINK3_MK:=
+
 BUILDLINK_API_DEPENDS.libbtctl+=	libbtctl>=0.4.1
 BUILDLINK_PKGSRCDIR.libbtctl?=	../../wip/libbtctl
 

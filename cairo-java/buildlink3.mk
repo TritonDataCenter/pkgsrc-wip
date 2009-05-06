@@ -12,6 +12,9 @@
 
 BUILDLINK_TREE+=	cairo-java
 
+.if !defined(CAIRO_JAVA_BUILDLINK3_MK)
+CAIRO_JAVA_BUILDLINK3_MK:=
+
 BUILDLINK_API_DEPENDS.cairo-java+=	cairo-java>=1.0.1
 BUILDLINK_PKGSRCDIR.cairo-java?=	../../wip/cairo-java
 

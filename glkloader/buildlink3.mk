@@ -2,6 +2,9 @@
 
 BUILDLINK_TREE+=	glkloader
 
+.if !defined(GLKLOADER_BUILDLINK3_MK)
+GLKLOADER_BUILDLINK3_MK:=
+
 BUILDLINK_API_DEPENDS.glkloader+=	glkloader>=0.3.2
 BUILDLINK_PKGSRCDIR.glkloader?=	../../wip/glkloader
 

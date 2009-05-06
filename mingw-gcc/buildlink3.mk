@@ -2,6 +2,9 @@
 
 BUILDLINK_TREE+=	mingw-gcc
 
+.if !defined(MINGW_GCC_BUILDLINK3_MK)
+MINGW_GCC_BUILDLINK3_MK:=
+
 .include "../../wip/mingw/Makefile.common"
 
 BUILDLINK_API_DEPENDS.mingw-gcc+=	mingw-gcc>=3.4.2
