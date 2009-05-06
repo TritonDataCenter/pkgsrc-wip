@@ -9,6 +9,7 @@ EXTRACT_SUFX=	.tar.bz2
 MAINTAINER=	vs@nifelheim.info
 HOMEPAGE=	http://redmine.lighttpd.net/projects/spawn-fcgi
 COMMENT=	Spawns FCGI-Processes and runs with priviledge separation
+LICENSE=        generic-nonlicense
 
 PKG_DESTDIR_SUPPORT=    user-destdir
 
