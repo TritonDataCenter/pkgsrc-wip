@@ -2,6 +2,9 @@
 
 BUILDLINK_TREE+=	gtkglk
 
+.if !defined(GTKGLK_BUILDLINK3_MK)
+GTKGLK_BUILDLINK3_MK:=
+
 BUILDLINK_API_DEPENDS.gtkglk+=	gtkglk>=0.2
 BUILDLINK_ABI_DEPENDS.gtkglk?=	gtkglk>=0.2nb1
 BUILDLINK_PKGSRCDIR.gtkglk?=	../../wip/gtkglk

@@ -12,6 +12,9 @@
 
 BUILDLINK_TREE+=	libgksuui1.0
 
+.if !defined(LIBGKSUUI1.0_BUILDLINK3_MK)
+LIBGKSUUI1.0_BUILDLINK3_MK:=
+
 BUILDLINK_API_DEPENDS.libgksuui1.0+=	libgksuui1.0>=1.0.7
 BUILDLINK_PKGSRCDIR.libgksuui1.0?=	../../wip/libgksuui
 

@@ -2,6 +2,9 @@
 
 BUILDLINK_TREE+=	libpcap
 
+.if !defined(LIBPCAP_BUILDLINK3_MK)
+LIBPCAP_BUILDLINK3_MK:=
+
 BUILDLINK_API_DEPENDS.libpcap+=	libpcap>=0.8.3
 BUILDLINK_PKGSRCDIR.libpcap?=	../../wip/libpcap-latest
 

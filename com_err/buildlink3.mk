@@ -2,6 +2,9 @@
 
 BUILDLINK_TREE+=	com_err
 
+.if !defined(COM_ERR_BUILDLINK3_MK)
+COM_ERR_BUILDLINK3_MK:=
+
 BUILDLINK_API_DEPENDS.com_err+=	com_err>=1.35
 BUILDLINK_PKGSRCDIR.com_err?=	../../wip/com_err
 

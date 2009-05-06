@@ -2,6 +2,9 @@
 
 BUILDLINK_TREE+=	glkterm
 
+.if !defined(GLKTERM_BUILDLINK3_MK)
+GLKTERM_BUILDLINK3_MK:=
+
 BUILDLINK_API_DEPENDS.glkterm+=	glkterm>=0.7.8
 BUILDLINK_PKGSRCDIR.glkterm?=	../../wip/glkterm
 #BUILDLINK_DEPMETHOD.glkterm?=	build

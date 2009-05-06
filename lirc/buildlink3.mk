@@ -12,6 +12,9 @@
 
 BUILDLINK_TREE+=	lirc
 
+.if !defined(LIRC_BUILDLINK3_MK)
+LIRC_BUILDLINK3_MK:=
+
 BUILDLINK_API_DEPENDS.lirc+=	lirc>=0.8.0
 BUILDLINK_PKGSRCDIR.lirc?=	../../wip/lirc
 .endif # LIRC_BUILDLINK3_MK

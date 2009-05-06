@@ -12,6 +12,9 @@
 
 BUILDLINK_TREE+=	libGenome
 
+.if !defined(LIBGENOME_BUILDLINK3_MK)
+LIBGENOME_BUILDLINK3_MK:=
+
 BUILDLINK_API_DEPENDS.libGenome+=	libGenome>=0.5.2
 BUILDLINK_PKGSRCDIR.libGenome?=	../../wip/libGenome
 .endif # LIBGENOME_BUILDLINK3_MK
