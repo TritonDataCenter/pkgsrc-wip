@@ -33,7 +33,7 @@ CONFIGURE_ARGS+=	--enable-db
 PLIST.db=		yes
 BDB_ACCEPTED=		db4
 BUILDLINK_TRANSFORM+=	l:db:db4
-.  include "../../mk/bdb.buildlink3.mk"
+.  include "../../databases/db4/buildlink3.mk"
 .else
 CONFIGURE_ARGS+=	--disable-db
 .endif
