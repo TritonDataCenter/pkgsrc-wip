@@ -12,8 +12,8 @@ COMMENT=	Essential texmf files of TeX Live
 
 CONFLICTS+=	tetex-texmf-[0-9]*
 DEPENDS+=	tex-bin-tetex-[0-9]*:../../print/tex-bin-tetex
-DEPENDS+=	tex-metafont-[0-9]*:../../wip/tex-metafont
-DEPENDS+=	tex-plain-[0-9]*:../../wip/tex-plain
+DEPENDS+=	tex-metafont-[0-9]*:../../fonts/tex-metafont
+DEPENDS+=	tex-plain-[0-9]*:../../print/tex-plain
 
 EXTRACT_ELEMENTS=	${DISTNAME}/texmf-dist/bibtex \
 			${DISTNAME}/texmf-dist/fonts \
