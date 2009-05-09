@@ -1,5 +1,6 @@
 @comment $NetBSD$
 bin/pmars
+man/man6/pmars.6
 share/pmars/CONTRIB
 share/pmars/README
 share/pmars/warriors/aeka.red
