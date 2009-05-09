@@ -15,15 +15,15 @@ WRKSRC=			${WRKDIR}/${PKGNAME_NOREV}
 USE_TOOLS+=		pkg-config gmake
 MAKE_FILE=		makefile
 
+PKG_DESTDIR_SUPPORT=	user-destdir
+
 .include "../../mk/bsd.prefs.mk"
 
 .if ${OPSYS} != "NetBSD" && ${OPSYS} != "FreeBSD" && ${OPSYS} != "SunOS"
 BUILD_DEPENDS+=		ex-[0-9]*:../../editors/ex
 .endif
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
-INSTALLATION_DIRS+=	share/pmars share/pmars/warriors ${PKGMANDIR}/man6
+INSTALLATION_DIRS+=	bin share/pmars share/pmars/warriors ${PKGMANDIR}/man6
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/pmars ${DESTDIR}${PREFIX}/bin
