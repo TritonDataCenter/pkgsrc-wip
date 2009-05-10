@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	flvmeta-1.0.8
-CATEGORIES=	wip
+CATEGORIES=	multimedia
 MASTER_SITES=	http://flvmeta.googlecode.com/files/
 
 MAINTAINER=	kamel.derouiche@gmail.com
