@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		commoncpp2-1.7.1
+DISTNAME=		commoncpp2-1.7.3
 CATEGORIES=		devel
 MASTER_SITES=		ftp://ftp.gnu.org/gnu/commonc++/
 
