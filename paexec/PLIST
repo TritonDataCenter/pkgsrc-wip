@@ -1,5 +1,6 @@
 @comment $NetBSD$
 bin/paexec
+bin/paexec_reorder
 man/man1/paexec.1
 share/doc/paexec/ChangeLog
 share/doc/paexec/NEWS
