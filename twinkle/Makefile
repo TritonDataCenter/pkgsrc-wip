@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		twinkle-1.4.1
+DISTNAME=		twinkle-1.4.2
 PKGREVISION=		1
 CATEGORIES=		audio chat net
 MASTER_SITES=		http://www.xs4all.nl/~mfnboer/twinkle/download/
