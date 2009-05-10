@@ -26,6 +26,8 @@ CONFLICTS+=	pkg_summary4view-[0-9]*
 
 TEST_TARGET=		test
 
+NO_CHECKSUM=		yes
+
 USE_BSD_MAKEFILE=	yes
 USE_LANGUAGES=		#empty
 USE_TOOLS+=		gzip:run

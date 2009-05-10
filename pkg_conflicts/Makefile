@@ -17,6 +17,7 @@ USE_LANGUAGES=		#empty
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
+NO_CHECKSUM=		yes
 NO_BUILD=		yes
 
 INSTALLATION_DIRS+=	bin

@@ -14,6 +14,7 @@ ONLY_FOR_PLATFORM=	Interix-*-*
 DEPENDS+=		rcorder-[0-9]*:../../pkgtools/rcorder
 DEPENDS+=		rc.subr-[0-9]*:../../pkgtools/rc.subr
 
+NO_CHECKSUM=		yes
 NO_BUILD=		yes
 NO_CONFIGURE=		yes
 NO_MTREE=		yes
