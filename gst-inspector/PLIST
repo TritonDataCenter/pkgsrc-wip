@@ -12,5 +12,6 @@ ${PYSITELIB}/GstInspector/utils.pyc
 ${PYSITELIB}/GstInspector/utils.pyo
 share/applications/gst-inspector.desktop
 share/locale/de/LC_MESSAGES/gst-inspector.mo
+@comment in hicolor-icon-theme: @dirrm share/icons/hicolor
 @comment in xdg-dirs: @dirrm share/applications
 @dirrm ${PYSITELIB}/GstInspector
