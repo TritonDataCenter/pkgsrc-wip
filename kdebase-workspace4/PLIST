@@ -134,10 +134,10 @@ include/taskmanager/taskgroup.h
 include/taskmanager/taskitem.h
 include/taskmanager/taskmanager.h
 include/taskmanager/taskmanager_export.h
-lib/cmake/KDE4Workspace-4.2.2/KDE4WorkspaceConfig.cmake
-lib/cmake/KDE4Workspace-4.2.2/KDE4WorkspaceConfigVersion.cmake
-lib/cmake/KDE4Workspace-4.2.2/KDE4WorkspaceLibraryTargets-relwithdebinfo.cmake
-lib/cmake/KDE4Workspace-4.2.2/KDE4WorkspaceLibraryTargets.cmake
+lib/cmake/KDE4Workspace-4.2.3/KDE4WorkspaceConfig.cmake
+lib/cmake/KDE4Workspace-4.2.3/KDE4WorkspaceConfigVersion.cmake
+lib/cmake/KDE4Workspace-4.2.3/KDE4WorkspaceLibraryTargets-relwithdebinfo.cmake
+lib/cmake/KDE4Workspace-4.2.3/KDE4WorkspaceLibraryTargets.cmake
 lib/kconf_update_bin/khotkeys_update
 lib/kconf_update_bin/krdb_clearlibrarypath
 lib/kconf_update_bin/kwin_update_default_rules
@@ -1761,6 +1761,7 @@ share/kde4/services/ion-bbcukmet.desktop
 share/kde4/services/ion-envcan.desktop
 share/kde4/services/ion-noaa.desktop
 share/kde4/services/kaccess.desktop
+share/kde4/services/kcm_keyboard.desktop
 share/kde4/services/kcm_solid.desktop
 share/kde4/services/kcmaccess.desktop
 share/kde4/services/kcmlaunch.desktop
