@@ -17,10 +17,11 @@ NO_BIN_ON_FTP=		${RESTRICTED}
 NO_SRC_ON_CDROM=	${RESTRICTED}
 NO_BIN_ON_CDROM=	${RESTRICTED}
 
+PKG_DESTDIR_SUPPORT=	user-destdir
+
 USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=		yes
 USE_LANGUAGES+=		c c++ fortran
 GNU_CONFIGURE=		yes
-PKG_DESTDIR_SUPPORT=	destdir
 
 .include "../../mk/bsd.pkg.mk"
