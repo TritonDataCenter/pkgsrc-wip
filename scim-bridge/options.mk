@@ -5,7 +5,7 @@ PKG_OPTIONS_VAR=	PKG_OPTIONS.scim-bridge
 PKG_SUPPORTED_OPTIONS=	gtk qt
 PKG_SUGGESTED_OPTIONS=	gtk
 
-PLIST_VARS=	gtk qt
+PLIST_VARS+=	gtk qt
 
 .include "../../mk/bsd.options.mk"
 
