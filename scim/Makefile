@@ -1,13 +1,15 @@
 # $NetBSD$
 #
 
-DISTNAME=		scim-1.4.8
+DISTNAME=		scim-1.4.9
 CATEGORIES=		inputmethod
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=scim/}
 
 MAINTAINER=		obache@NetBSD.org
 HOMEPAGE=		http://www.scim-im.org/
 COMMENT=		Smart Common Input Method
+
+LICENSE=		gnu-lgpl-v2.1
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
@@ -27,7 +29,9 @@ PKGCONFIG_OVERRIDE+=	scim.pc.in
 
 GNU_CONFIGURE=		yes
 
-CONFIGURE_ARGS+=	--sysconfdir=${PKG_SYSCONFDIR:Q}
+#CFLAGS+=		-Wextra
+
+CONFIGURE_ARGS+=	--sysconfdir=${PKG_SYSCONFDIR}
 GTK2_IMMODULES=		yes
 
 EGDIR=			${PREFIX}/share/examples/scim
@@ -40,6 +44,7 @@ INSTALL_MAKE_FLAGS+=	sysconfdir=${PREFIX}/share/examples
 PTHREAD_AUTO_VARS=	yes
 
 .include "../../devel/gettext-lib/buildlink3.mk"
+.include "../../sysutils/desktop-file-utils/desktopdb.mk"
 .include "../../x11/gtk2/modules.mk"
 .include "../../x11/libICE/buildlink3.mk"
 BUILDLINK_DEPMETHOD.libXt=	build

@@ -1,0 +1,13 @@
+$NetBSD$
+
+--- modules/IMEngine/scim_rawcode_imengine.cpp.orig	2008-11-02 06:42:21.000000000 +0000
++++ modules/IMEngine/scim_rawcode_imengine.cpp
+@@ -48,7 +48,7 @@
+ 
+ using namespace scim;
+ 
+-static Pointer <RawCodeFactory> __rawcode_factory;
++static Pointer <RawCodeFactory> __rawcode_factory = Pointer<RawCodeFactory>(0);
+ 
+ static String __rawcode_locales;
+ 
