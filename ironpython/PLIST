@@ -1,0 +1,11 @@
+@comment $NetBSD$
+bin/ipy
+bin/ipyw
+lib/ironpython/IronMath.dll
+lib/ironpython/IronPython.dll
+lib/ironpython/ipy.exe
+lib/ironpython/ipyw.exe
+share/doc/${PKGNAME}/FAQ.html
+share/doc/${PKGNAME}/License.html
+share/doc/${PKGNAME}/Readme.html
+@dirrm share/doc/${PKGNAME}
