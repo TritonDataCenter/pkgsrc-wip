@@ -12,4 +12,4 @@ BUILDLINK_PKGSRCDIR.hs-cabal?=		../../wip/hs-cabal
 .include "../../lang/ghc/buildlink3.mk"
 .endif # HS_CABAL_BUILDLINK3_MK
 
-BUILDLINK_TREE+=	hs-cabal
+BUILDLINK_TREE+=	-hs-cabal
