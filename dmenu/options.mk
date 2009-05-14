@@ -1,8 +1,8 @@
 # $NetBSD$
 
-PKG_OPTIONS_VAR=		PKG_OPTIONS.dmenu
-PKG_SUPPORTED_OPTIONS=		xinerama
-PKG_SUGGESTED_OPTIONS=		xinerama
+PKG_OPTIONS_VAR=	PKG_OPTIONS.dmenu
+PKG_SUPPORTED_OPTIONS=	xinerama
+PKG_SUGGESTED_OPTIONS=	xinerama
 
 .include "../../mk/bsd.options.mk"
 
