@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	dwm-5.5
+PKGREVISION=	1
 CATEGORIES=	wm
 MASTER_SITES=	http://code.suckless.org/dl/dwm/
 
@@ -18,7 +19,7 @@ SUBST_CLASSES+=		makefile
 SUBST_STAGE.makefile=	pre-build
 SUBST_MESSAGE.makefile=	Fixing config.mk
 SUBST_FILES.makefile=	config.mk
-SUBST_SED.makefile+=	-e 's,/usr/local,${PREFIX},g'
+SUBST_SED.makefile+=	-e 's,/usr/local,${DESTDIR}${PREFIX},g'
 SUBST_SED.makefile+=	-e 's,share/man,${PKGMANDIR},g'
 SUBST_SED.makefile+=	-e 's,/usr/X11R6,${X11BASE},'
 SUBST_SED.makefile+=	-e 's,^CFLAGS = ,CFLAGS += ,'
