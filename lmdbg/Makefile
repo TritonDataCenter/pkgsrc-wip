@@ -11,6 +11,7 @@ HOMEPAGE=	http://mova.org/~cheusov/pub/lmdbg/
 COMMENT=	Lightweight Malloc Debugger
 
 BUILD_DEPENDS+=		mk-configure>=0.9.0:../../wip/mk-configure
+DEPENDS+=		gdb-[0-9]*:../../devel/gdb
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
