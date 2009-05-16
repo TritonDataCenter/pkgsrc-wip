@@ -1,3 +1,4 @@
 @comment $NetBSD$
+${PYSITELIB}/pylast.py
 ${PYSITELIB}/pylast.pyc
 ${PYSITELIB}/pylast.pyo

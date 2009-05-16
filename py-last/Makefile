@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	pylast-0.3.2
+DISTNAME=	pylast-0.3.4
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	audio
 MASTER_SITES=	http://pylast.googlecode.com/files/
@@ -9,6 +9,7 @@ MASTER_SITES=	http://pylast.googlecode.com/files/
 MAINTAINER=	kamel.derouiche@gmail.com
 HOMEPAGE=	http://code.google.com/p/pylast/
 COMMENT=	Python interface to Last.fm
+LICENSE=	gnu-gpl-v2
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
