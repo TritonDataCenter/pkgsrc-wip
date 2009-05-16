@@ -23,4 +23,27 @@ Anywhere else
 
 	# pkgin keep pkgin sqlite3 libfetch libarchive
 
+***************************************************************************
+
+WARNING PKGIN < 20090516 USERS
+
+pkgin's database format has changed, follow those simple steps in
+order to restore your keepable packages list :
+
+	# pkgin show-keep | cut -d' ' -f1 > keep.list
+
+Delete your current database
+
+	# rm -rf /var/db/pkgin
+
+Update pkgin's database
+
+	# pkgin update
+
+Record your keepable packages again
+
+	# for pkg in `cat keep.list`; do pkgin keep $pkg; done
+
+***************************************************************************
+
 ===========================================================================
