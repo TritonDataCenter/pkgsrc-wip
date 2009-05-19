@@ -11,7 +11,6 @@ DISTFILES=		${DEFAULT_DISTFILES} uqm-0.6.0-content.uqm
 MAINTAINER=	leot1990@users.sourceforge.net
 HOMEPAGE=	http://sc2.sourceforge.net/
 COMMENT=	Ur-Quan Masters
-
 # GPL and Creative Commons Attribution-NonCommercial-ShareAlike 2.5
 #LICENSE=	gnu-gpl-v2
 

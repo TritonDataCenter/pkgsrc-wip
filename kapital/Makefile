@@ -7,16 +7,15 @@ CATEGORIES=	devel kde
 MAINTAINER=	greyskyy@users.sourceforge.net
 HOMEPAGE=	http://www.thekompany.com/products/kapital/
 COMMENT=	Personal finance manager
-
-
-DOWNLOAD_PAGE=	http://www.thekompany.com/products/
-
 LICENSE=		no-redistribution
+
 RESTRICTED=		Redistribution not permitted
 NO_SRC_ON_CDROM=	${RESTRICTED}
 NO_SRC_ON_FTP=		${RESTRICTED}
 NO_BIN_ON_CDROM=	${RESTRICTED}
 NO_BIN_ON_FTP=		${RESTRICTED}
+
+DOWNLOAD_PAGE=	http://www.thekompany.com/products/
 
 INTERACTIVE_STAGE=	fetch
 _FETCH_MESSAGE= \

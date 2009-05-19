@@ -7,7 +7,6 @@ EXTRACT_SUFX=		.tar.bz2
 
 MAINTAINER=		eric@cirr.com
 HOMEPAGE=		http://jabberd2.xiaoka.com/
-
 LICENSE=		gnu-gpl-v2
 
 PKG_DESTDIR_SUPPORT=	user-destdir

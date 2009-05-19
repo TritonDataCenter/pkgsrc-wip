@@ -9,6 +9,12 @@ MASTER_SITES=		http://www.rarlab.com/rar/
 MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://www.rarlab.com/
 COMMENT=		File archiver (binary only)
+LICENSE=		rar3-license
+
+RESTRICTED=		Only unmodified original package can be distributed
+NO_BIN_ON_CDROM=	${RESTRICTED}
+NO_BIN_ON_FTP=		${RESTRICTED}
+LICENSE_FILE=		${FILESDIR}/rar3-license
 
 EGDIR=			${PREFIX}/share/examples/rar3
 
@@ -19,13 +25,6 @@ ONLY_FOR_PLATFORM=	FreeBSD-*-i386 NetBSD-*-i386
 NO_BUILD=		yes
 NO_CONFIGURE=		yes
 PKG_DESTDIR_SUPPORT=	user-destdir
-
-RESTRICTED=		Only unmodified original package can be distributed
-NO_BIN_ON_CDROM=	${RESTRICTED}
-NO_BIN_ON_FTP=		${RESTRICTED}
-
-LICENSE=		rar3-license
-LICENSE_FILE=		${FILESDIR}/rar3-license
 
 DATA_FILES=		file_id.diz license.txt order.htm rar.txt \
 			readme.txt technote.txt whatsnew.txt

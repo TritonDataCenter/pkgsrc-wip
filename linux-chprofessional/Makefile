@@ -8,17 +8,15 @@ MASTER_SITES=	http://www.softintegration.com/download/software/release/Linux/
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.softintegration.com/products/chprofessional/
 COMMENT=	Ch is an interactive C development environment
-
-BUILD_DIRS=	# empty
-
 #
 # I have included chpro-license for pkgsrc-wip purposes as
 # linux-chprofessional/licenses/chpro-license. Basically,
 # this tool is free for academic purposes *only*. For personal
 # or commercial use, go for Ch standard edition
 #
-
 LICENSE=	chpro-license
+
+BUILD_DIRS=	# empty
 
 #
 # Webpage claims, that there are ports for Solaris, HP-UX, MacOS

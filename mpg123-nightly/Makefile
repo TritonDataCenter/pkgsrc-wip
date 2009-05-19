@@ -6,7 +6,6 @@ CATEGORIES=	audio
 MAINTAINER=	blair.sadewitz@gmail.com
 HOMEPAGE=	http://www.mpg123.de
 COMMENT=	Mpg123 MPEG layer 1, 2, 3 audio player
-
 LICENSE=	mpg123-license
 
 NO_SRC_ON_FTP=		${RESTRICTED}

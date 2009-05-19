@@ -8,7 +8,6 @@ MASTER_SITES=	ftp://linux.thai.net/pub/ThaiLinux/software/libthai/
 MAINTAINER=	obache@NetBSD.org
 HOMEPAGE=	http://linux.thai.net/projects/scim-thai
 COMMENT=	SCIM IMEngine module for Thai
-
 LICENSE=	gnu-gpl-v2
 
 PKG_DESTDIR_SUPPORT=	user-destdir

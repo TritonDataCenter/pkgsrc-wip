@@ -9,8 +9,7 @@ EXTRACT_SUFX=	.tar.bz2
 MAINTAINER=	leot1990@users.sourceforge.net
 HOMEPAGE=	http://xtags.sourceforge.net/
 COMMENT=	Little keyboard-driven Window Manager for X11
-
-#LICENSE=	gnu-gpl-v3
+LICENSE=	gnu-gpl-v3
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 

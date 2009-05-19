@@ -9,11 +9,12 @@ MAINTAINER=		pettai@nordu.net
 HOMEPAGE=		http://www.shrubbery.net/rancid/
 COMMENT=		Really Awesome New Cisco confIg Differ
 LICENSE=		rancid-license
+
 LICENSE_FILE=		${FILESDIR}/rancid-license
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 DEPENDS+=		tcl-expect>=5.4:../../lang/tcl-expect
+
+PKG_DESTDIR_SUPPORT=	user-destdir
 
 BUILD_DEFS+=		VARBASE
 

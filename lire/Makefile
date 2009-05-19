@@ -4,11 +4,11 @@
 DISTNAME=	lire-2.1
 CATEGORIES=	sysutils
 MASTER_SITES=	http://download.logreport.org/pub/
-#LICENSE=	gnu-gpl-v2
 
 MAINTAINER=	airhead@users.sf.net
 HOMEPAGE=	http://www.logreport.org/lire.html
 COMMENT=	Log analyzing tool
+LICENSE=	gnu-gpl-v2
 
 DEPENDS+=	p5-DBI-[0-9]*:../../databases/p5-DBI
 DEPENDS+=	p5-DBD-SQLite-[0-9]*:../../databases/p5-DBD-SQLite

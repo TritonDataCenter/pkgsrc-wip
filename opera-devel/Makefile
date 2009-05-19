@@ -8,7 +8,6 @@ DISTFILES=		opera-${OPERA_DIST_VERSION}${OPERA_ARCH}${EXTRACT_SUFX}
 MAINTAINER=		ghen@NetBSD.org
 HOMEPAGE=		http://snapshot.opera.com/
 COMMENT=		Small, fast and customizable WWW client
-
 LICENSE=		opera-850-license
 
 EMUL_PLATFORMS=		freebsd-i386

@@ -10,12 +10,11 @@ EXTRACT_SUFX=		.shar.Z
 MAINTAINER=		hdp@cs.nmsu.edu
 HOMEPAGE=		http://fasta.bioch.virginia.edu/
 COMMENT=		FASTA sequence comparison programs
+LICENSE=		no-commercial-use
 
 MAKE_FILE=		Makefile.NetBSD
 
 WRKSRC=			${WRKDIR}
-
-LICENSE=		no-commercial-use
 
 post-extract:
 	${SED} -e 's:/seqprg/slib/bin:@PREFIX@:' \

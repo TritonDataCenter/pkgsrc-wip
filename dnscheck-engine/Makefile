@@ -10,6 +10,7 @@ MAINTAINER=	pettai@nordu.net
 HOMEPAGE=	http://opensource.iis.se/trac/dnscheck/
 COMMENT=	DNSCheck is a DNS quality checker
 LICENSE=	iis-license
+
 LICENSE_FILE=	${FILESDIR}/iis-license
 
 SVN_REPOSITORIES=	dnscheck

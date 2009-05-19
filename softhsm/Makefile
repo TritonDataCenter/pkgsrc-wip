@@ -9,10 +9,11 @@ MAINTAINER=	pettai@nordu.net
 HOMEPAGE=	http://www.opendnssec.se/wiki/SoftHSM/
 COMMENT=	Cryptographic store accessible through a PKCS#11 interface
 LICENSE=	iis-license
+
 LICENSE_FILE=	${FILESDIR}/iis-license
 
 USE_TOOLS+=     aclocal autoconf automake autoheader gmake gm4
-USE_LITOOL=	yes
+USE_LIBTOOL=	yes
 
 SVN_REPOSITORIES=	softhsm
 SVN_ROOT.softhsm=	http://svn.opendnssec.se/trunk/softHSM/

@@ -15,7 +15,6 @@ MASTER_SITES+=		# http://www.eyesbeyond.com/freebsddom/java/jdk15.html
 DISTFILES=		${JRL_SRCFILE} ${JRL_BINFILE} ${PATCHSETFILE}
 
 COMMENT=		Java Development Kit ${JDK_VERSION}
-
 LICENSE=		sun-jrl-16-license
 
 MAKE_JOBS_SAFE=		no

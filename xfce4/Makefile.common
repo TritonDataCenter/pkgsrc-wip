@@ -30,7 +30,7 @@ EXTRACT_SUFX=		.tar.bz2
 
 MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://www.xfce.org/
-#LICENSE=		gnu-gpl-v2
+LICENSE=		gnu-gpl-v2
 
 XFCE4_VERSION=		4.5.91
 

@@ -10,16 +10,16 @@ EXTRACT_SUFX=	.tgz
 MAINTAINER=	obache@NetBSD.org
 HOMEPAGE=	http://www.3ware.com/support/
 COMMENT=	AMCC/3ware Strage Controller Management Command Line Interface
-
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 LICENSE=	3ware-license
+
 LICENSE_FILE=	LICENSE
 RESTRICTED=	Redistribution is not permitted
 NO_SRC_ON_CDROM=${RESTRICTED}
 NO_SRC_ON_FTP=	${RESTRICTED}
 NO_BIN_ON_CDROM=${RESTRICTED}
 NO_BIN_ON_FTP=	${RESTRICTED}
+
+PKG_DESTDIR_SUPPORT=	user-destdir
 
 WRKSRC=		${WRKDIR}
 USE_LANGUAGES=	# none

@@ -11,10 +11,10 @@ JAD_OSDIR=		linux # Default one
 MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://www.kpdus.com/jad.html
 COMMENT=		The fast Java Decompiler
+LICENSE=		no-commercial-use
 
 WRKSRC=		${WRKDIR}
 
-LICENSE=no-commercial-use
 NO_BUILD=YES
 
 .include "../../mk/bsd.prefs.mk"

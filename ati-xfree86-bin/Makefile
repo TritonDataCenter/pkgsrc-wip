@@ -13,12 +13,12 @@ EXTRACT_SUFX=
 MAINTAINER=	bsd@cs.ubc.ca
 HOMEPAGE=	http://ati.amd.com/support/drivers/linux/linux-radeon.html
 COMMENT=	ATI proprietary binary drivers for XFree86 4.3
+LICENSE=	amd-software-license
+
+LICENSE_FILE=	LICENSE
 
 NO_BUILD=	yes
 USE_DIRS+=	xdg-1.1
-
-LICENSE=	amd-software-license
-LICENSE_FILE=	LICENSE
 
 # Note: untested on all but NetBSD-4.99.[23]?-i386
 # Please send feedback to ${MAINTAINER}

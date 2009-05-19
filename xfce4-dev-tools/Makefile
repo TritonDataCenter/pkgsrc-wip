@@ -5,12 +5,12 @@ CATEGORIES=	devel
 MASTER_SITES=	http://www.xfce.org/archive/xfce-4.4.1/src/
 EXTRACT_SUFX=	.tar.bz2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.xfce.org/
 COMMENT=	Xfce development tools
 LICENSE=	gnu-gpl-v2
+
+PKG_DESTDIR_SUPPORT=	user-destdir
 
 GNU_CONFIGURE=	yes
 

@@ -13,7 +13,6 @@ PATCH_DIST_STRIP.hg-214.patch=	-p1
 MAINTAINER=		eric@cirr.com
 HOMEPAGE=		http://delx.net.au/projects/pymsnt
 COMMENT=		Transport connecting Jabber to the MSN network
-
 LICENSE=		gnu-gpl-v2
 
 PKG_DESTDIR_SUPPORT=	user-destdir

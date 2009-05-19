@@ -9,7 +9,6 @@ EXTRACT_SUFX=	.tar.bz2
 MAINTAINER=	obache@NetBSD.org
 HOMEPAGE=	http://ruby-ldap.sourceforge.net/
 COMMENT=	LDAP extension module for Ruby
-
 LICENSE=	modified-bsd
 
 PKG_DESTDIR_SUPPORT=	user-destdir

@@ -12,13 +12,13 @@ EXTRACT_SUFX=		.zip
 MAINTAINER=		collver1@comcast.net
 HOMEPAGE=		http://www.un4seen.com/mo3.html
 COMMENT=		MO3 decoder
+LICENSE=		no-profit
 
 BUILD_DEPENDS+=		upx>=1.24:../../archivers/upx
 
 ONLY_FOR_PLATFORM=	NetBSD-*-i386
 ONLY_FOR_PLATFORM+=	Linux-*-i[3-6]86
 
-LICENSE=		no-profit
 CHECK_SHLIBS=		NO
 
 do-build:

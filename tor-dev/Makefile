@@ -9,10 +9,10 @@ MASTER_SITES=		http://www.torproject.org/dist/
 MAINTAINER=		athaba@inode.at
 HOMEPAGE=		http://www.torproject.org/
 COMMENT=		Anonymizing overlay network for TCP (unstable)
+LICENSE=		modified-bsd
 
 .include "../../mk/bsd.prefs.mk"
 
-LICENSE=		modified-bsd
 PKG_DESTDIR_SUPPORT=	user-destdir
 
 USE_LANGUAGES+=		c99

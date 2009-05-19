@@ -8,8 +8,7 @@ MASTER_SITES=	http://www.nickg.me.uk/files/
 MAINTAINER=	leot1990@users.sourceforge.net
 HOMEPAGE=	http://www.doof.me.uk/xcowsay/
 COMMENT=	Display a cow and message on your desktop
-
-#LICENSE=	gnu-gpl-v3
+LICENSE=	gnu-gpl-v3
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 

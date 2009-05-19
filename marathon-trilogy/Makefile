@@ -14,6 +14,13 @@ EXTRACT_SUFX=	.zip
 MAINTAINER=	christtrekker@users.sourceforge.net
 HOMEPAGE=	http://trilogyrelease.bungie.org/
 COMMENT=	Bungie game data files, playable with the Aleph One engine
+LICENSE=	generic-nonlicense
+
+RESTRICTED=	Copyrighted game material given away gratis - not sure what to call that.
+NO_SRC_ON_FTP=	${RESTRICTED}
+NO_SRC_ON_CDROM=	${RESTRICTED}
+NO_BIN_ON_FTP=	${RESTRICTED}
+NO_BIN_ON_CDROM=	${RESTRICTED}
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
@@ -31,13 +38,6 @@ do-install:
 	${CP} -r ${WRKDIR}/M1A1/* ${DESTDIR}${PREFIX}/${SCENARIO_BASE}/1
 	${CP} -r ${WRKDIR}/Marathon\ 2/* ${DESTDIR}${PREFIX}/${SCENARIO_BASE}/2
 	${CP} -r ${WRKDIR}/Marathon\ Infinity/* ${DESTDIR}${PREFIX}/${SCENARIO_BASE}/Infinity
-
-LICENSE=	generic-nonlicense
-RESTRICTED=	Copyrighted game material given away gratis - not sure what to call that.
-NO_SRC_ON_FTP=	${RESTRICTED}
-NO_SRC_ON_CDROM=	${RESTRICTED}
-NO_BIN_ON_FTP=	${RESTRICTED}
-NO_BIN_ON_CDROM=	${RESTRICTED}
 
 # There is no true dependency on Aleph One.  These scenarios cannot be
 # played without it, though.

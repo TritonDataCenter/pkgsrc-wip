@@ -14,7 +14,6 @@ MASTER_SITES+=		# http://www.eyesbeyond.com/freebsddom/java/jdk16.html
 DISTFILES=		${JRL_SRCFILE} ${JRL_BINFILE} ${PATCHSETFILE}
 
 COMMENT=		Java Development Kit ${JDK_VERSION}
-
 LICENSE=		sun-jrl-16-license
 
 USE_TOOLS+=		patch

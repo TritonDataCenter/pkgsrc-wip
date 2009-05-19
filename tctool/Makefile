@@ -9,10 +9,9 @@ EXTRACT_SUFX=	.zip
 MAINTAINER=	schwarz@NetBSD.org
 HOMEPAGE=	http://speedmodem50b.berlios.de/
 COMMENT=	Speed Modem 50B/50B+/200/Cellpipe CELL 19A-BX utility
+LICENSE=	gnu-gpl-v2
 
 PKG_DESTDIR_SUPPORT=	user-destdir
-
-#LICENSE=	gnu-gpl-v2
 
 WRKSRC=		${WRKDIR}/${PKGBASE}/src
 NO_CONFIGURE=	YES

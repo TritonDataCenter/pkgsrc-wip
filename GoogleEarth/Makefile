@@ -9,8 +9,8 @@ EXTRACT_SUFX=
 MAINTAINER=		tnn@NetBSD.org
 HOMEPAGE=		http://earth.google.com/
 COMMENT=		Interactive browser for satellite imagery and maps
-
 LICENSE=		google-earth-license
+
 LICENSE_FILE=		${FILESDIR}/google-earth-license
 RESTRICTED=		No redistribution allowed
 NO_BIN_ON_CDROM=	${RESTRICTED}

@@ -9,7 +9,6 @@ EXTRACT_SUFX=	.tar.bz2
 MAINTAINER=	blair.sadewitz@gmail.com
 HOMEPAGE=	http://www.mpg123.de/
 COMMENT=	Command line player for MPEG layer 1, 2, and 3 audio
-
 LICENSE=	mpg123-license
 
 PKG_DESTDIR_SUPPORT=user-destdir

@@ -8,7 +8,6 @@ MASTER_SITES=		http://biopython.org/DIST/
 MAINTAINER=		dprice@cs.nmsu.edu
 HOMEPAGE=		http://biopython.org/
 COMMENT=		Python libraries for computational molecular biology
-
 LICENSE=		no-commercial-use
 
 PY_PATCHPLIST=		YES

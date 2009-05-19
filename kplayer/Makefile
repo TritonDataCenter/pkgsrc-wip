@@ -10,6 +10,7 @@ EXTRACT_SUFX=		.tar.bz2
 MAINTAINER=		shattered@users.sourceforge.net
 HOMEPAGE=		http://kplayer.sourceforge.net/
 COMMENT=		KDE media player based on MPlayer
+LICENSE=		gnu-gpl-v3
 
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
@@ -18,7 +19,6 @@ USE_TOOLS+=		gmake
 USE_LANGUAGES=		c c++
 USE_TOOLS+=		autoconf automake perl
 AUTOMAKE_OVERRIDE=	no
-#LICENSE=		gnu-gpl-v3
 
 pre-configure:
 	cd ${WRKSRC} && gmake -f Makefile.dist

@@ -8,7 +8,6 @@ MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=scim/}
 MAINTAINER=		obache@NetBSD.org
 HOMEPAGE=		http://www.scim-im.org/
 COMMENT=		Smart Common Input Method
-
 LICENSE=		gnu-lgpl-v2.1
 
 PKG_DESTDIR_SUPPORT=	user-destdir

@@ -9,14 +9,11 @@ MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=sid-milter/}
 MAINTAINER=	pettai@nordu.net
 HOMEPAGE=	http://sid-milter.sourceforge.net/
 COMMENT=	Open source SPF/SenderID filter software from Sendmail, Inc.
+LICENSE=		sendmail-open-source-license
 
 DEPENDS+=	sendmail>=8.13.0:../../mail/sendmail
 
-BUILDLINK_API_DEPENDS.libmilter+=	libmilter>=8.13.0
-
-
 USE_BUILTIN.libmilter=	NO
-LICENSE=		sendmail-open-source-license
 USE_TOOLS+=		gm4
 MAKE_ENV+=		M4=${M4:Q}
 PTHREAD_OPTS+=		require
@@ -31,6 +28,7 @@ SUBST_SED.libs=		-e "s|@LMBASE@|${BUILDLINK_PREFIX.libmilter}|g"
 SUBST_MESSAGE.libs=	Fixing paths.
 
 .include "../../security/openssl/buildlink3.mk"
+BUILDLINK_API_DEPENDS.libmilter+=	libmilter>=8.13.0
 .include "../../mail/libmilter/buildlink3.mk"
 .include "../../mk/pthread.buildlink3.mk"
 

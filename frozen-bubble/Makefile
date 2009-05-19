@@ -9,8 +9,7 @@ EXTRACT_SUFX=	.tar.bz2
 MAINTAINER=	leot1990@users.sourceforge.net
 HOMEPAGE=	http://www.frozen-bubble.org/
 COMMENT=	Pop the frozen bubbles
-
-#LICENSE=	gnu-gpl-v2
+LICENSE=	gnu-gpl-v2
 
 DEPENDS+=	p5-SDL>=2.1.2:../../devel/p5-SDL
 DEPENDS+=	p5-gettext>=0:../../devel/p5-gettext

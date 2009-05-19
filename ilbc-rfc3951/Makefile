@@ -9,8 +9,8 @@ MASTER_SITES=		http://download.savannah.gnu.org/releases/linphone/1.3.x/source/
 MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://www.ietf.org/rfc/rfc3951.txt
 COMMENT=		Internet Low Bit Rate Codec
-
 LICENSE=		GIPS-iLBC-license
+
 RESTRICTED=		Personal distribution only.
 NO_SRC_ON_FTP=		${RESTRICTED}
 NO_BIN_ON_FTP=		${RESTRICTED}

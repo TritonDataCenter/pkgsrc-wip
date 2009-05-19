@@ -8,7 +8,6 @@ MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=scim/}
 MAINTAINER=	obache@NetBSD.org
 HOMEPAGE=	http://www.scim-im.org/projects/scim_bridge
 COMMENT=	C wrapper library for SCIM
-
 #LICENSE=	gnu-gpl-v2 OR gnu-lgpl-2.1
 
 PKG_DESTDIR_SUPPORT=	user-destdir

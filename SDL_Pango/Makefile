@@ -12,8 +12,7 @@ PATCH_SITES+=	http://zarb.org/~gc/t/
 MAINTAINER=	heinz@NetBSD.org
 HOMEPAGE=	http://sdlpango.sourceforge.net/
 COMMENT=	Connects the text rendering engine of GNOME 2.x. with SDL
-
-#LICENSE=	gnu-lgpl-v2.1
+LICENSE=	gnu-lgpl-v2.1
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 

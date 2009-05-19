@@ -8,7 +8,7 @@ MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=gallery/}
 MAINTAINER=	pettai@nordu.net
 HOMEPAGE=	http://gallery.sourceforge.net/
 COMMENT=	Web-based photo gallery written in PHP
-#LICENSE=	gnu-gpl-v2
+LICENSE=	gnu-gpl-v2
 
 NO_BUILD=	yes
 WRKSRC=		${WRKDIR}/${DISTNAME}

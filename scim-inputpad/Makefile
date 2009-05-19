@@ -8,7 +8,6 @@ MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=scim/}
 MAINTAINER=	obache@NetBSD.org
 HOMEPAGE=	http://scim.sourceforge.net/
 COMMENT=	SCIM onscreen input pad
-
 LICENSE=	gnu-gpl-v2
 
 PKG_DESTDIR_SUPPORT=	user-destdir

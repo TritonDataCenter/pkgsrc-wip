@@ -13,7 +13,6 @@ MASTER_SITES+=		# http://www.eyesbeyond.com/freebsddom/java/jdk14.html
 DISTFILES=		${SCSL_SRCFILE} ${SCSL_BINFILE} ${PATCHSETFILE}
 
 COMMENT=		Java Development Kit 1.4.2
-
 LICENSE=		scsl23-license
 
 EXTRACT_CMD_OPTS.zip=	-a -q

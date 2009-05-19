@@ -8,8 +8,7 @@ MASTER_SITES=		${MASTER_SITE_GNU:=gtypist/}
 MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://www.gnu.org/software/gtypist/
 COMMENT=		Universal typing tutor
-
-#LICENSE=		gnu-gpl-v3
+LICENSE=		gnu-gpl-v3
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 

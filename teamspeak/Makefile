@@ -10,10 +10,10 @@ EXTRACT_SUFX=		.tar.bz2
 MAINTAINER=		rillig@NetBSD.org
 HOMEPAGE=		ftp://ftp.freenet.de/pub/4players/teamspeak.org/releases/
 COMMENT=		Talk to other people over the internet
+LICENSE=		fee-based-commercial-use
 
 NO_BUILD=		yes
 USE_TOOLS+=		pax
-LICENSE=		fee-based-commercial-use
 
 SUBST_CLASSES+=		ts
 SUBST_STAGE.ts=		post-configure

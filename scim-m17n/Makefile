@@ -8,7 +8,6 @@ MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=scim/}
 MAINTAINER=		obache@NetBSD.org
 HOMEPAGE=		http://www.scim-im.org/
 COMMENT=		SCIM IMEngine module for m17n-lib
-
 LICENSE=		gnu-gpl-v2
 
 PKG_DESTDIR_SUPPORT=	user-destdir

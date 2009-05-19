@@ -11,6 +11,11 @@ EXTRACT_SUFX=		.tar.bz2
 MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://files3.worthplaying.com/postal2/
 COMMENT=		Demo of a violent 3D game
+LICENSE=		postal2mpdemo-license
+
+RESTRICTED=		It's huge, it's demo, it's a game, I'm not sure if we can redistribute it
+NO_SRC_ON_CDROM=	${RESTRICTED}
+NO_PKG_ON_CDROM=	${RESTRICTED}
 
 EMUL_PLATFORMS=		linux-i386
 EMUL_MODULES.linux=	glx
@@ -19,11 +24,7 @@ SUSE_VERSION_REQD=	7.3
 # Would install outside of ${LOCALBASE} on Linux.
 NOT_FOR_PLATFORM=	Linux-*-*
 
-RESTRICTED=		It's huge, it's demo, it's a game, I'm not sure if we can redistribute it
-NO_SRC_ON_CDROM=	${RESTRICTED}
-NO_PKG_ON_CDROM=	${RESTRICTED}
 NO_BUILD=		yes
-LICENSE=		postal2mpdemo-license
 
 POSTAL_DIR=		${EMULDIR}/usr/games/postal
 
