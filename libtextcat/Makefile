@@ -11,12 +11,13 @@ COMMENT=	Libtextcat library the Cavnar & Trenkle
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
-USE_DIRS+=	xdg-1.4
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 
+SHAREDIR=	${PREFIX}/share/libtextcat
+
 post-install:
-	${INSTALL_DATA_DIR} ${DESTDIR}${PREFIX}/share/libtextcat
+	${INSTALL_DATA_DIR} ${DESTDIR}${SHAREDIR}
 	${INSTALL_DATA} ${WRKSRC}/README ${DESTDIR}${PREFIX}/share/libtextcat
 
 .include "../../mk/bsd.pkg.mk"
