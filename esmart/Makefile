@@ -23,7 +23,7 @@ pre-configure:
 	cd ${WRKSRC} && ${SH} autogen.sh	
 
 .include "../../wip/ecore/buildlink3.mk"
-.include "../../wip/eina/buildlink3.mk"
+.include "../../devel/eina/buildlink3.mk"
 .include "../../wip/edje/buildlink3.mk"
 .include "../../wip/epsilon/buildlink3.mk"
 .include "../../devel/libltdl/buildlink3.mk"
