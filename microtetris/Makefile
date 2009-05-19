@@ -13,17 +13,19 @@ COMMENT=	MicroTetris is a simple and compact popular game Tetris
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
-WRKSRC=		${WRKDIR}/microtetris.py
+WRKSRC=		${WRKDIR}
 USE_LANGUAGES=	# none
 NO_BUILD=	yes
-PYTHON_VERSIONS_ACCEPTED=  25
 
-REPLACE_PYTHON+=        ${DISTNAME}
+
+INSTALLATION_DIRS=	bin
+
+REPLACE_PYTHON+=        ${DISTNAME}.py
 
 do-install:
-	${INSTALL_SCRIPT} ${WRKSRC} \
+	${CHMOD} +x ${WRKSRC}/${DISTNAME}.py
+	${INSTALL_SCRIPT} ${WRKSRC}/${DISTNAME}.py \
 	    ${DESTDIR}${PREFIX}/bin/${DISTNAME}
-	${CHMOD} +x ${DESTDIR}${PREFIX}/bin/${DISTNAME}
 
 
 .include "../../devel/py-gobject/buildlink3.mk"
