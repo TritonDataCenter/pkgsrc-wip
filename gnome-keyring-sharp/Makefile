@@ -7,7 +7,8 @@ MASTER_SITES=	http://ftp.novell.com/pub/mono/sources/gnome-keyring-sharp/
 EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	kamel.derouiche@gmail.com
-HOMEPAGE=	http://andrew.jorgensenfamily.us/2008/08/gnome-keyring-sharp/
+#http://andrew.jorgensenfamily.us/2008/08/gnome-keyring-sharp/
+HOMEPAGE=	http://ftp.novell.com/pub/mono/sources/gnome-keyring-sharp/ 
 COMMENT=	Fully managed implementation of libgnome-keyring
 
 PKG_DESTDIR_SUPPORT=	user-destdir
