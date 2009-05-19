@@ -98,7 +98,7 @@ CONFIGURE_ARGS+=	--with-x-toolkit=athena
 .  endif
 
 ###
-### Support using NextStep (Cocoa or GNUstep) windwing system
+### Support using NextStep (Cocoa or GNUstep) windowing system
 ###
 .elif !empty(PKG_OPTIONS:Mnextstep)
 .  if exists(/System/Library/Frameworks/Cocoa.framework)
