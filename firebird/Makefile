@@ -3,6 +3,7 @@
 
 DISTNAME=		Firebird-2.1.1.17910-0
 PKGNAME=		firebird-2.1.1
+PKGREVISION=		1
 CATEGORIES=		databases
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=firebird/}
 EXTRACT_SUFX=		.tar.bz2

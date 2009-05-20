@@ -3,6 +3,7 @@
 
 DISTNAME=		premake-src-3.1
 PKGNAME=		premake-3.1
+PKGREVISION=		1
 CATEGORIES=		devel
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=premake/}
 EXTRACT_SUFX=		.zip

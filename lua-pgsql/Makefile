@@ -3,6 +3,7 @@
 
 DISTNAME=		luasql-2.0b
 PKGNAME=		lua-pgsql-2.0b
+PKGREVISION=		1
 CATEGORIES=		databases
 MASTER_SITES=		http://www.keplerproject.org/luasql/
 

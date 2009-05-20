@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	nmzmail-1.1
+PKGREVISION=	1
 CATEGORIES=	mail
 MASTER_SITES=	http://www.ecademix.com/JohannesHofmann/
 

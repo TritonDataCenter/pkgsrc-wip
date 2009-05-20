@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	mkcabal-0.4.1.1
+PKGREVISION=	1
 CATEGORIES=	devel
 
 MAINTAINER=	pho@cielonegro.org

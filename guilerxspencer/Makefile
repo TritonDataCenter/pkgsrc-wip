@@ -2,6 +2,7 @@
 #
 
 DISTNAME=		guilerxspencer-1.2
+PKGREVISION=		1
 CATEGORIES=		devel
 MASTER_SITES=		http://arglist.com/guile/${DISTNAME}/
 

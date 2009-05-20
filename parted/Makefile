@@ -2,6 +2,7 @@
 #
 
 DISTNAME=		parted-1.6.23
+PKGREVISION=		1
 CATEGORIES=		sysutils
 MASTER_SITES=		http://ftp.gnu.org/gnu/parted/
 

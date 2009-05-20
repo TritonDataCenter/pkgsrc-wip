@@ -3,6 +3,7 @@
 
 DISTNAME=		luasocket-2.0.1
 PKGNAME=		lua-socket-2.0.1
+PKGREVISION=		1
 CATEGORIES=		net
 MASTER_SITES=		http://luaforge.net/frs/download.php/1589/
 

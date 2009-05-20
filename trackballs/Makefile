@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	trackballs-1.1.2
+PKGREVISION=	1
 CATEGORIES=	games
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=trackballs/}
 

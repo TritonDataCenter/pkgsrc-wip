@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	or1ksim-0.2.0rc3
+PKGREVISION=	1
 CATEGORIES=	emulators
 MASTER_SITES=	http://www.opencores.org/projects.cgi/web/or1k/
 

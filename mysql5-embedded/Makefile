@@ -1,6 +1,7 @@
 # $NetBSD: Makefile,v 1.25 2008/09/18 11:51:37 taca Exp $
 
 PKGNAME=		${DISTNAME:S/-/-embedded-/}
+PKGREVISION=		1
 COMMENT=		MySQL 5, a free SQL database (embedded)
 
 PKG_DESTDIR_SUPPORT=	user-destdir

@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	icecast-1.3.12
-PKGREVISION=	2
+PKGREVISION=	3
 CATEGORIES=	audio
 MASTER_SITES=	http://www.icecast.org/files/
 

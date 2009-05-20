@@ -2,6 +2,7 @@
 
 DISTNAME=		elinks-current-0.13
 PKGNAME=		elinks-0.13
+PKGREVISION=		1
 CATEGORIES=		www
 MASTER_SITES=		http://elinks.or.cz/download/
 EXTRACT_SUFX=		.tar.bz2

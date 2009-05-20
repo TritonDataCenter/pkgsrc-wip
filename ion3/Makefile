@@ -3,6 +3,7 @@
 
 DISTNAME=	ion-3-20090110
 PKGNAME=	ion3-20090110
+PKGREVISION=	1
 CATEGORIES=	wm x11
 MASTER_SITES=	http://iki.fi/tuomov/dl/
 

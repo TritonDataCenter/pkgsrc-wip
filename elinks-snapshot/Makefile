@@ -3,7 +3,7 @@
 
 DISTNAME=	elinks-current-unstable
 PKGNAME=	elinks-snap-${ELINKS_VERSION}
-PKGREVISION=	4
+PKGREVISION=	5
 CATEGORIES=	www
 MASTER_SITES=	http://elinks.or.cz/download/
 EXTRACT_SUFX=	.tar.bz2

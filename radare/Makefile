@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	radare-0.8.6
+PKGREVISION=	1
 CATEGORIES=	wip sysutils
 MASTER_SITES=	http://radare.nopcode.org/get/
 

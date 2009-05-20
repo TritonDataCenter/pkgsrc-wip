@@ -1,6 +1,7 @@
 # $NetBSD$
 
 DISTNAME=					pandoc-1.2
+PKGREVISION=				1
 CATEGORIES=				textproc
 MASTER_SITES=			http://pandoc.googlecode.com/files/
 

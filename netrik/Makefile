@@ -1,6 +1,7 @@
 # $NetBSD$
 
 DISTNAME=		netrik-1.15.4
+PKGREVISION=		1
 CATEGORIES=		www net
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=netrik/}
 

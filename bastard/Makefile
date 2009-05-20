@@ -3,6 +3,7 @@
 
 DISTNAME=		bastard-0.17-pre
 PKGNAME=		bastard-0.17
+PKGREVISION=		1
 CATEGORIES=		sysutils
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=bastard/}
 EXTRACT_SUFX=		.tgz

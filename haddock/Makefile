@@ -2,6 +2,7 @@
 #
 
 DISTNAME=		haddock-${VERSION}
+PKGREVISION=		1
 CATEGORIES=		devel
 MASTER_SITES=		http://www.haskell.org/haddock/
 DISTFILES=		haddock-${VERSION}-src.tar.gz

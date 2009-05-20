@@ -2,6 +2,7 @@
 #
 
 DISTNAME=		guile-scsh-2.0.1
+PKGREVISION=		1
 CATEGORIES=		shells
 MASTER_SITES=		http://arglist.com/guile/${DISTNAME}/
 

@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	alex-${VERSION}
+PKGREVISION=	1
 CATEGORIES=	devel
 MASTER_SITES=	http://www.haskell.org/alex/dist/${VERSION}/
 DISTFILES=	${DISTNAME}.tar.gz

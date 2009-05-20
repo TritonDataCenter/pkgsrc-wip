@@ -2,6 +2,7 @@
 
 DISTNAME=			digest-0.0.0.5
 PKGNAME=			hs-digest-0.0.0.5
+PKGREVISION=		1
 CATEGORIES=		lang
 MASTER_SITES=	http://hackage.haskell.org/packages/archive/digest/0.0.0.5/
 

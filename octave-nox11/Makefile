@@ -3,6 +3,7 @@
 
 DISTNAME=	octave-${OCTAVE_VER}
 PKGNAME=	octave-nox11-${OCTAVE_VER}
+PKGREVISION=	1
 CATEGORIES=	math
 MASTER_SITES=	ftp://ftp.che.wisc.edu/pub/octave/bleeding-edge/ \
 		ftp://ftp.u-aizu.ac.jp/pub/SciEng/numanal/Octave/bleeding-edge/ \

@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	aamath-0.3
+PKGREVISION=	1
 CATEGORIES=	math
 MASTER_SITES=	http://fuse.superglue.se/aamath/
 

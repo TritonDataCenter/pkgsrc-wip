@@ -2,6 +2,7 @@
 #
 
 DISTNAME=		xbsql-0.11
+PKGREVISION=		1
 CATEGORIES=		databases
 MASTER_SITES=		http://www.rekallrevealed.org/packages/
 EXTRACT_SUFX=		.tgz

@@ -6,6 +6,7 @@ BUILDLINK_TREE+=	kdeedu4
 KDEEDU4_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.kdeedu4+=	kdeedu4>=4.1.1
+BUILDLINK_ABI_DEPENDS.kdeedu4?=	kdeedu4>=4.2.3nb1
 BUILDLINK_PKGSRCDIR.kdeedu4?=	../../wip/kdeedu4
 
 #.include "../../devel/libusb/buildlink3.mk"

@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	beast-0.5.4
-PKGREVISION=	1
+PKGREVISION=	2
 CATEGORIES=	audio
 MASTER_SITES=	http://beast.gtk.org/beast-ftp/v0.5/
 

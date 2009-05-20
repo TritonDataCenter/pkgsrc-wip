@@ -4,6 +4,7 @@
 .include "../../wip/sj3/Makefile.common"
 
 PKGNAME=	${DISTNAME:S/sj3-/sj3-server-/}
+PKGREVISION=	1
 
 COMMENT=	SJ3 Japanese input method server
 

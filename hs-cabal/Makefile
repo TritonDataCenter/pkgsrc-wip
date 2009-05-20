@@ -3,6 +3,7 @@
 
 DISTNAME=		Cabal-1.6.0.2
 PKGNAME=		hs-cabal-1.6.0.2
+PKGREVISION=		1
 CATEGORIES=		devel
 MASTER_SITES=		http://www.haskell.org/cabal/release/${PKGNAME}/
 

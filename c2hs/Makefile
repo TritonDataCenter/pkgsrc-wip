@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	c2hs-0.14.5
+PKGREVISION=	1
 CATEGORIES=	devel
 MASTER_SITES=	http://www.cse.unsw.edu.au/~chak/haskell/c2hs/
 

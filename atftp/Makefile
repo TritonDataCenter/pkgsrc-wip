@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		atftp-0.7
-PKGREVISION=		2
+PKGREVISION=		3
 CATEGORIES=		net
 MASTER_SITES=		ftp://ftp.mamalinux.com/pub/atftp/ \
 			http://osmirrors.cerias.purdue.edu/pub/gentoo/distfiles/

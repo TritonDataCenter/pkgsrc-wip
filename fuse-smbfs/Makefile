@@ -2,6 +2,7 @@
 
 DISTNAME=	fusesmb-${FUSESMB_VER}
 PKGNAME=	fuse-smb-${FUSESMB_VER}
+PKGREVISION=	1
 CATEGORIES=	filesystems
 MASTER_SITES=	http://www.ricardis.tudelft.nl/~vincent/fusesmb/download/
 

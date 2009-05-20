@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	xmonad-${VERSION}
+PKGREVISION=	1
 CATEGORIES=	wm
 MASTER_SITES=	http://hackage.haskell.org/packages/archive/xmonad/${VERSION}/
 

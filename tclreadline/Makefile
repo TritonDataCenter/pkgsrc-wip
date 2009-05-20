@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	tclreadline-2.1.0
+PKGREVISION=	1
 CATEGORIES=	lang
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=tclreadline/}
 

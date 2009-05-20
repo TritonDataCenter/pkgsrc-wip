@@ -3,6 +3,7 @@
 
 DISTNAME=	X11-${VERSION}
 PKGNAME=	hs-x11-${VERSION}
+PKGREVISION=	1
 CATEGORIES=	x11
 MASTER_SITES=	http://hackage.haskell.org/packages/archive/X11/${VERSION}/
 

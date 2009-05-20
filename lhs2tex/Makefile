@@ -2,6 +2,7 @@
 #
 
 DISTNAME=		lhs2tex-1.12
+PKGREVISION=		1
 CATEGORIES=		print devel
 MASTER_SITES=		http://www.iai.uni-bonn.de/~loeh/lhs2tex/
 EXTRACT_SUFX=		.tar.bz2
