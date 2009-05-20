@@ -8,7 +8,7 @@ HASKELL_PKG_DESCR_FILE="@HASKELL_PKG_DESCR_FILE@"
 case ${STAGE} in 
     DEINSTALL)
         if [ -f ${HASKELL_PKG_DESCR_FILE} ]; then
-            ${HASKELL_PKG_BIN} unregister ${DISTNAME}
+            ${HASKELL_PKG_BIN} unregister --force ${DISTNAME}
         fi
         ;;
 esac
