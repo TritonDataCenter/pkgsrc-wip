@@ -1,9 +1,9 @@
 # $NetBSD$
 #
 
-DISTNAME=	regex-posix-0.93.2
+DISTNAME=	regex-posix-0.94.1
 PKGNAME=	hs-${DISTNAME}
-CATEGORIES=	devel
+CATEGORIES=	textproc
 
 MAINTAINER=	pho@cielonegro.org
 HOMEPAGE=	http://sourceforge.net/projects/lazy-regex
