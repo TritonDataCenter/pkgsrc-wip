@@ -6,7 +6,7 @@ SVR4_PKGNAME=		p5stu
 CATEGORIES=		textproc perl5
 MASTER_SITES=		${MASTER_SITE_PERL_CPAN:=Unicode/MSCHWARTZ/}
 
-MAINTAINER=		tonnerre@NetBSD.org
+MAINTAINER=		pkgsrc-p5-people@NetBSD.org
 HOMEPAGE=		http://search.cpan.org/dist/Startup/
 COMMENT=		Program flow utility
 

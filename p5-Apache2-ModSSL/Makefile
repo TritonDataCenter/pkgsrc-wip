@@ -5,7 +5,7 @@ PKGNAME=	p5-${DISTNAME}
 CATEGORIES=	www perl5
 MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=Apache2/}
 
-MAINTAINER=	tonnerre@NetBSD.org
+MAINTAINER=	pkgsrc-p5-people@NetBSD.org
 HOMEPAGE=	http://search.cpan.org/dist/Apache2-ModSSL/
 COMMENT=	Perl Interface to mod_ssl functions
 
