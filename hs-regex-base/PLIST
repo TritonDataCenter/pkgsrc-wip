@@ -1,10 +1,15 @@
 @comment $NetBSD$
 lib/regex-base-${PKGVERSION}/${HASKELL_VERSION}/HSregex-base-${PKGVERSION}.o
 lib/regex-base-${PKGVERSION}/${HASKELL_VERSION}/Text/Regex/Base.hi
+lib/regex-base-${PKGVERSION}/${HASKELL_VERSION}/Text/Regex/Base.p_hi
 lib/regex-base-${PKGVERSION}/${HASKELL_VERSION}/Text/Regex/Base/Context.hi
+lib/regex-base-${PKGVERSION}/${HASKELL_VERSION}/Text/Regex/Base/Context.p_hi
 lib/regex-base-${PKGVERSION}/${HASKELL_VERSION}/Text/Regex/Base/Impl.hi
+lib/regex-base-${PKGVERSION}/${HASKELL_VERSION}/Text/Regex/Base/Impl.p_hi
 lib/regex-base-${PKGVERSION}/${HASKELL_VERSION}/Text/Regex/Base/RegexLike.hi
+lib/regex-base-${PKGVERSION}/${HASKELL_VERSION}/Text/Regex/Base/RegexLike.p_hi
 lib/regex-base-${PKGVERSION}/${HASKELL_VERSION}/libHSregex-base-${PKGVERSION}.a
+lib/regex-base-${PKGVERSION}/${HASKELL_VERSION}/libHSregex-base-${PKGVERSION}_p.a
 lib/regex-base-${PKGVERSION}/${HASKELL_VERSION}/package-description
 share/doc/regex-base-${PKGVERSION}/LICENSE
 @dirrm share/doc/regex-base-${PKGVERSION}

@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	zlib-0.5.0.0
+PKGREVISION=	1
 PKGNAME=	hs-${DISTNAME}
 CATEGORIES=	devel
 

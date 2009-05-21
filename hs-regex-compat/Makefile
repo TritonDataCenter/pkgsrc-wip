@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	regex-compat-0.92
+PKGREVISION=	1
 PKGNAME=	hs-${DISTNAME}
 CATEGORIES=	devel
 
