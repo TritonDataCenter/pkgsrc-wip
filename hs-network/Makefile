@@ -1,10 +1,8 @@
 # $NetBSD$
 #
 
-DISTNAME=	network-2.2.0.1
-PKGREVISION=	1
-PKGNAME=	hs-${DISTNAME}
-CATEGORIES=	devel
+DISTNAME=	network-2.2.1.2
+CATEGORIES=	net
 
 MAINTAINER=	pho@cielonegro.org
 COMMENT=	Haskell networking-related facilities
