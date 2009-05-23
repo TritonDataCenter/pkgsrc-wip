@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		blassic-0.10.0
+DISTNAME=		blassic-0.10.1
 CATEGORIES=		lang
 MASTER_SITES=		http://www.blassic.org/bin/
 EXTRACT_SUFX=		.tgz
