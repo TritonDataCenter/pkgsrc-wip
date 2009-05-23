@@ -11,7 +11,7 @@ HOMEPAGE=		http://www.arrakis.es/~ninsesabe/qtre/
 COMMENT=		Quick Tool for Raw Editing
 
 USE_PKGLOCALEDIR=	yes
-USE_TOOLS+=		gmake pkg-config
+USE_TOOLS+=		gmake pkg-config perl
 GNU_CONFIGURE=		yes
 GNU_MAKE=		yes
 USE_LANGUAGES+=		c c++
