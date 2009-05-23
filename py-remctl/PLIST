@@ -1,0 +1,5 @@
+@comment $NetBSD$
+${PYSITELIB}/_remctl.so
+${PYSITELIB}/remctl.py
+${PYSITELIB}/remctl.pyc
+${PYSITELIB}/remctl.pyo
