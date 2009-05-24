@@ -30,6 +30,7 @@ share/locale/ko/LC_MESSAGES/nautilus-open-terminal.mo
 share/locale/lt/LC_MESSAGES/nautilus-open-terminal.mo
 share/locale/mk/LC_MESSAGES/nautilus-open-terminal.mo
 share/locale/ml/LC_MESSAGES/nautilus-open-terminal.mo
+share/locale/mr/LC_MESSAGES/nautilus-open-terminal.mo
 share/locale/nb/LC_MESSAGES/nautilus-open-terminal.mo
 share/locale/ne/LC_MESSAGES/nautilus-open-terminal.mo
 share/locale/nl/LC_MESSAGES/nautilus-open-terminal.mo
@@ -54,5 +55,8 @@ share/locale/uk/LC_MESSAGES/nautilus-open-terminal.mo
 share/locale/vi/LC_MESSAGES/nautilus-open-terminal.mo
 share/locale/zh_CN/LC_MESSAGES/nautilus-open-terminal.mo
 share/locale/zh_TW/LC_MESSAGES/nautilus-open-terminal.mo
+@dirrm share/locale/sr@Latn/LC_MESSAGES
+@dirrm share/locale/sr@Latn
 @comment in GConf: @dirrm share/gconf/schemas
-@dirrm lib/nautilus/extensions-2.0
+@comment in nautilus: @dirrm lib/nautilus/extensions-2.0
+@comment in nautilus: @dirrm lib/nautilus
