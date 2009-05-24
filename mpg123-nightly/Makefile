@@ -11,7 +11,7 @@ LICENSE=	mpg123-license
 NO_SRC_ON_FTP=		${RESTRICTED}
 NO_SRC_ON_CDROM=	${RESTRICTED}
 
-USE_TOOLS+=		pkg-config automake date
+USE_TOOLS+=		pkg-config automake date perl
 GNU_CONFIGURE=		yes
 
 PKG_DESTDIR_SUPPORT=	user-destdir
