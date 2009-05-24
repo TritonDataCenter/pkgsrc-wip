@@ -1,7 +1,7 @@
 # $NetBSD: Makefile,v 1.14 2007/03/06 05:40:33 jonb Exp $
 
 DISTNAME=		${PKGNAME_NOREV}-source
-PKGNAME=		sbcl-1.0.18
+PKGNAME=		sbcl-1.0.28
 CATEGORIES=		lang
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=sbcl/}
 EXTRACT_SUFX=		.tar.bz2
@@ -53,6 +53,7 @@ WRKSRC=			${WRKDIR}/${PKGNAME_NOREV}
 .if !defined(SBCL_BOOT_SYSTEM)
 SBCL_BOOT_SYSTEM=	clisp
 BUILD_DEPENDS+=		clisp-[0-9]*:../../lang/clisp
+ULIMIT_RESOURCES=	datasize
 .elif ${SBCL_BOOT_SYSTEM} == clisp
 BUILD_DEPENDS+=		clisp-[0-9]*:../../lang/clisp
 .elif ${SBCL_BOOT_SYSTEM} == sbcl
@@ -81,6 +82,7 @@ post-build:
 
 do-install:
 	cd ${WRKSRC} && BUILD_ROOT=${DESTDIR:Q} INSTALL_ROOT=${PREFIX:Q} MAN_DIR=${PREFIX}/${PKGMANDIR} ${SH} install.sh
+	rm -f $(DESTDIR)$(PREFIX)/lib/sbcl/asdf-install/installer.lisp.orig
 
 do-test:
 	cd ${WRKSRC}/tests && ${SH} ./run-tests.sh

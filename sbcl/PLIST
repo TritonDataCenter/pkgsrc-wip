@@ -9,7 +9,6 @@ lib/sbcl/asdf-install/defpackage.fasl
 lib/sbcl/asdf-install/defpackage.lisp
 lib/sbcl/asdf-install/installer.fasl
 lib/sbcl/asdf-install/installer.lisp
-lib/sbcl/asdf-install/installer.lisp.orig
 lib/sbcl/asdf-install/test-passed
 lib/sbcl/asdf/asdf.fasl
 lib/sbcl/sb-aclrepl/.cvsignore
