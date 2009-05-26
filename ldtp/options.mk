@@ -19,6 +19,7 @@ PLIST_SUBST+=			PYSITELIB=${PYSITELIB}
 .  include "../../x11/py-gnome2/buildlink3.mk"
 .  include "../../x11/py-gnome2-desktop/buildlink3.mk"
 .  include "../../x11/py-gtk2/buildlink3.mk"
+DEPENDS+=	${PYPKGPREFIX}-gtksourceview-[0-9]*:../../x11/py-gtksourceview
 .else
 CONFIGURE_ARGS+=	--without-pythonmodules
 .endif
