@@ -12,6 +12,8 @@ COMMENT=	Simple dynamic window manager for X
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
+NO_CONFIGURE=	yes
+
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/musca ${DESTDIR}${PREFIX}/bin
 
