@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		pkgin-20090527
+DISTNAME=		pkgin-2009052701
 CATEGORIES=		pkgtools
 MASTER_SITES=		http://imil.net/NetBSD/
 
