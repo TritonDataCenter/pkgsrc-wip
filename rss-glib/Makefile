@@ -6,7 +6,7 @@ CATEGORIES=	www
 MASTER_SITES=	http://ftp.dronelabs.com/sources/rss-glib/0.2/
 
 MAINTAINER=	kamel.derouiche@gmail.com
-HOMEPAGE=	http://ftp.dronelabs.com/sources/rss-glib/0.2/
+HOMEPAGE=	http://dronelabs.com/
 COMMENT=	Rss GLib is a RSS and Atom parser for GObject
 
 PKG_DESTDIR_SUPPORT=	user-destdir
