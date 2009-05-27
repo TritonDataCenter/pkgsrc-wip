@@ -16,6 +16,7 @@ NO_CONFIGURE=	yes
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/musca ${DESTDIR}${PREFIX}/bin
+	${INSTALL_MAN} ${WRKSRC}/musca.1 ${DESTDIR}${PREFIX}/${PKGMANDIR}/man1
 
 .include "../../x11/libX11/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
