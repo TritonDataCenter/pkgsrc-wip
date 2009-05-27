@@ -9,7 +9,7 @@ EXTRACT_SUFX=	.tar.bz2
 MAINTAINER=	kamel.derouiche@gmail.com
 #http://andrew.jorgensenfamily.us/2008/08/gnome-keyring-sharp/
 HOMEPAGE=	http://ftp.novell.com/pub/mono/sources/gnome-keyring-sharp/ 
-COMMENT=	Fully managed implementation of libgnome-keyring
+COMMENT=	Mono implementation of libgnome-keyring
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
@@ -17,7 +17,10 @@ GNU_CONFIGURE=	yes
 USE_TOOLS+=	gmake pkg-config
 USE_LANGUAGES=	# none
 
+
 PKGCONFIG_OVERRIDE+=	src/gnome-keyring-sharp-1.0.pc.in
+
+CONFIGURE_ARGS+=	--disable-monodoc
 
 .include "options.mk"
 
