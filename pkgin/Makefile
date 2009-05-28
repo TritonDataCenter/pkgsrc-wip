@@ -6,6 +6,7 @@ CATEGORIES=		pkgtools
 MASTER_SITES=		http://imil.net/NetBSD/
 
 MAINTAINER=		imil@gcu.info
+HOMEPAGE=		http://imil.net/pkgin/
 COMMENT=		Apt / yum like tool for managing pkgsrc binary packages
 
 PKG_DESTDIR_SUPPORT=	user-destdir
