@@ -3,7 +3,7 @@
 
 DISTNAME=	nautilus-open-terminal-0.13
 CATEGORIES=	sysutils gnome
-MASTER_SITES=	${MASTER_SITE_GNOME:=sources/nautilus-open-terminals/0.13/}
+MASTER_SITES=	${MASTER_SITE_GNOME:=sources/nautilus-open-terminal/0.13/}
 EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	kamel.derouiche@gmail.com
