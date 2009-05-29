@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	spandsp-0.0.5pre3
+DISTNAME=	spandsp-0.0.6pre7
 CATEGORIES=	devel
 MASTER_SITES=	http://www.soft-switch.org/downloads/spandsp/
 EXTRACT_SUFX=	.tgz
@@ -9,11 +9,11 @@ MAINTAINER=	x400@msfu.ru
 HOMEPAGE=	http://www.soft-switch.org/
 COMMENT=	DSP functions
 
-WRKSRC=		${WRKDIR}/spandsp-0.0.5
+WRKSRC=		${WRKDIR}/spandsp-0.0.6
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_LANGUAGES=	c c++ fortran
-USE_TOOLS+=	automake gmake
+USE_TOOLS+=	gmake
 
 .include "options.mk"
 
