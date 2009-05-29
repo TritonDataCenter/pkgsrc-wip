@@ -1,9 +1,8 @@
 # $NetBSD$
 #
 
-DISTNAME=	time-1.1.2.2
-PKGNAME=	hs-${DISTNAME}
-CATEGORIES=	devel
+DISTNAME=	time-1.1.2.4
+CATEGORIES=	time
 
 MAINTAINER=	pho@cielonegro.org
 HOMEPAGE=	http://semantic.org/TimeLib/
