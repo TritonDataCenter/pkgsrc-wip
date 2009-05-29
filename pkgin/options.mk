@@ -2,7 +2,6 @@
 
 PKG_OPTIONS_VAR=	PKG_OPTIONS.pkgin
 PKG_SUPPORTED_OPTIONS=	gzip-summary
-PKG_SUGGESTED_OPTIONS=
 
 .include "../../mk/bsd.options.mk"
 
