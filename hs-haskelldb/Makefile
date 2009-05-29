@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	haskelldb-0.12
-CATEGORIES=	net
+CATEGORIES=	databases
 
 MAINTAINER=	pho@cielonegro.org
 COMMENT=	SQL unwrapper for Haskell
