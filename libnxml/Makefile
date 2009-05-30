@@ -8,6 +8,7 @@ MASTER_SITES=	http://www.autistici.org/bakunin/libnxml/
 MAINTAINER=	kamel.derouiche@gmail.com
 HOMEPAGE=	http://www.autistici.org/bakunin/libnxml/doc/
 COMMENT=	C library for parsing, writing and creating XML files or streams
+LICENSE=	gnu-lgpl-v2.1
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
