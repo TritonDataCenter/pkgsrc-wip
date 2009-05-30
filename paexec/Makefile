@@ -40,7 +40,8 @@ REPLACE_AWK+=		examples/1_div_X/1_div_X_cmd \
 			tests/big_result_cmd \
 			tests/transport_broken_rnd \
 			examples/make_package/make_package_cmd__*
-REPLACE_SH+=		examples/cc_wrapper/cc_wrapper_cmd
+REPLACE_SH+=		examples/cc_wrapper/cc_wrapper_cmd \
+			examples/broken_echo/transport_broken_echo2
 
 post-install:
 	${INSTALL_SCRIPT} ${.CURDIR}/files/paexec_reorder ${DESTDIR}${PREFIX}/bin
