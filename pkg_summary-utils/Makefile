@@ -14,7 +14,7 @@ DEPENDS+=	awk-pkgsrc-dewey>=0.5.6:../../wip/awk-pkgsrc-dewey
 DEPENDS+=	pipestatus-[0-9]*:../../wip/pipestatus
 #DEPENDS+=	getopt-[0-9]*:../../misc/getopt
 
-CONFLICTS+=	paexec<0.9.0
+CONFLICTS+=	paexec<0.13.0nb1
 
 CONFLICTS+=	pkg_src_summary-[0-9]*
 CONFLICTS+=	pkg_cmp_summary-[0-9]*
