@@ -1,8 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		gnocky-0.0.3
-PKGREVISION=		3
+DISTNAME=		gnocky-0.0.7
 CATEGORIES=		comms
 MASTER_SITES=		http://www.gnokii.org/download/gnocky/
 
@@ -14,6 +13,8 @@ USE_LIBTOOL=		yes
 GNU_CONFIGURE=		yes
 USE_X11=		yes
 USE_TOOLS+=		gmake
+
+PKG_DESTDIR_SUPPORT=	user-destdir
 
 .include "../../mk/pthread.buildlink3.mk"
 .include "../../devel/gettext-lib/buildlink3.mk"
