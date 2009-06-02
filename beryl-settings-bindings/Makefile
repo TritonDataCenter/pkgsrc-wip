@@ -12,7 +12,7 @@ PKGCONFIG_OVERRIDE+=	beryl-settings-bindings.pc.in
 
 DEPENDS+=	${PYPKGPREFIX}-pyrex>=0.9:../../lang/py-pyrex
 
-PYTHON_VERSION_REQD=	24
+PYTHON_VERSION_REQD=	25
 PYBINMODULE=	YES
 PY_PATCHPLIST=	YES
 
