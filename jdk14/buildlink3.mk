@@ -15,7 +15,13 @@ BUILDLINK_CPPFLAGS.jdk14= \
 	-I${BUILDLINK_JAVA_PREFIX.jdk14}/include				\
 	-I${BUILDLINK_JAVA_PREFIX.jdk14}/include/netbsd
 
+.if ${X11_TYPE} == "modular"
+.include "../../x11/libXft/buildlink3.mk"
+.include "../../x11/libXi/buildlink3.mk"
+.include "../../x11/libXtst/buildlink3.mk"
+.else
 .include "../../mk/x11.buildlink3.mk"
+.endif # X11_TYPE
 .endif # JDK14_BUILDLINK3_MK
 
 BUILDLINK_TREE+=	-jdk14
