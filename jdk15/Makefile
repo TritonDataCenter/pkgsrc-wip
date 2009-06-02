@@ -158,6 +158,12 @@ do-install:
 #	 ${INSTALL_DATA} ${FILESDIR}/cacerts \
 #		${DESTDIR}${JAVA_HOME}/jre/javaws/cacerts
 
+GCC_REQD+=		3.0
+.if !empty(MACHINE_PLATFORM:MNetBSD-4*) || !empty(MACHINE_PLATFORM:MNetBSD-5*)
+USE_PKGSRC_GCC=		yes
+.endif
+.include "../../mk/compiler.mk"
+
 .include "../../mk/java-env.mk"
 .include "../../x11/libXi/buildlink3.mk"
 .include "../../x11/libXtst/buildlink3.mk"
