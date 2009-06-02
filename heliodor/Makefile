@@ -13,6 +13,8 @@ USE_LIBTOOL=	yes
 
 .include "../../sysutils/desktop-file-utils/desktopdb.mk"
 
+.include "../../x11/gnome-control-center/buildlink3.mk"
+
 .include "../../devel/GConf/buildlink3.mk"
 .include "../../devel/libwnck/buildlink3.mk"
 .include "../../wip/beryl-core/buildlink3.mk"
