@@ -23,7 +23,7 @@ CONFIGURE_ARGS+=	--with-odometerdb=${VARBASE}/odometer/odometer.db
 APACHE_MODULE_NAME=	${DISTNAME:C|-.*||}.so
 APACHE_MODULE_SRC=	${DISTNAME:C|-.*||}.c
 
-WRAPPER_TRANSFORM_CMDS+=l:db:db4
+BUILDLINK_TRANSFORM+=l:db:db4
 
 .include "../../www/apache/module.mk"
 
