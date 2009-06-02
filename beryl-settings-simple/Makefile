@@ -8,7 +8,7 @@ COMMENT=	"Simple" beryl settings (?)
 .include "../../wip/beryl/Makefile.inc"
 
 GNU_CONFIGURE=	yes
-USE_LANGUAGES=	# none
+USE_LANGUAGES=	c
 
 USE_TOOLS+=	gettext-tools intltool
 
