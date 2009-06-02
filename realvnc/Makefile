@@ -77,5 +77,11 @@ do-install:
 	${INSTALL_DATA} ${WRKDIR}/${DISTNAME}/common/javabin/* ${PREFIX}/share/vnc/classes
 
 .include "../../devel/zlib/buildlink3.mk"
+.if ${X11_TYPE} == "native"
 .include "../../mk/x11.buildlink3.mk"
+.else
+.include "../../x11/libXtst/buildlink3.mk"
+.include "../../x11/xextproto/buildlink3.mk"
+.include "../../x11/libX11/buildlink3.mk"
+.endif
 .include "../../mk/bsd.pkg.mk"
