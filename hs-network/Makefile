@@ -8,5 +8,5 @@ MAINTAINER=	pho@cielonegro.org
 COMMENT=	Haskell networking-related facilities
 
 .include "../../wip/mk/haskell.mk"
-.include "../../wip/parsec/buildlink3.mk"
+.include "../../wip/hs-parsec/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
