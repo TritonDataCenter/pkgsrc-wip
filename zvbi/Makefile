@@ -23,5 +23,10 @@ SUBST_FILES.putwchar=	test/glyph.c test/unicode.c
 SUBST_SED.putwchar=	-e s/putwchar/my_putwchar/
 
 .include "../../textproc/libunicode/buildlink3.mk"
+.include "../../mk/bsd.prefs.mk"
+.if ${X11_TYPE} == "native"
 .include "../../mk/x11.buildlink3.mk"
+.else
+.include "../../x11/libX11/buildlink3.mk"
+.endif
 .include "../../mk/bsd.pkg.mk"
