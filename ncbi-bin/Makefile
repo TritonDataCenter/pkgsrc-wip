@@ -34,5 +34,9 @@ do-install:
 
 .include "../../mk/motif.buildlink3.mk"
 .include "../../mk/pthread.buildlink3.mk"
+.if ${X11_TYPE} == "native"
 .include "../../mk/x11.buildlink3.mk"
+.else
+.include "../../x11/libX11/buildlink3.mk"
+.endif
 .include "../../mk/bsd.pkg.mk"
