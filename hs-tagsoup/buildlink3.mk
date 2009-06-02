@@ -5,7 +5,7 @@ BUILDLINK_TREE+=	hs-tagsoup
 .if !defined(HS_TAGSOUP_BUILDLINK3_MK)
 HS_TAGSOUP_BUILDLINK3_MK:=
 
-BUILDLINK_API_DEPENDS.hs-tagsoup+=	hs-tagsoup>=0.6nb1
+BUILDLINK_API_DEPENDS.hs-tagsoup+=	hs-tagsoup>=0.6
 BUILDLINK_PKGSRCDIR.hs-tagsoup?=	../../wip/tagsoup
 
 .include "../../wip/hs-mtl/buildlink3.mk"
