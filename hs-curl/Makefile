@@ -1,10 +1,8 @@
 # $NetBSD$
 #
 
-DISTNAME=	curl-1.3.4
-PKGREVISION=	1
-PKGNAME=	hs-${DISTNAME}
-CATEGORIES=	devel
+DISTNAME=	curl-1.3.5
+CATEGORIES=	www
 
 MAINTAINER=	pho@cielonegro.org
 COMMENT=	Haskell binding to libcurl
