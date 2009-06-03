@@ -18,6 +18,6 @@ USE_LANGUAGES =	c c++
 
 PKGCONFIG_OVERRIDE+=	mrss.pc.in
 
-.include "../../wip/libnxml/buildlink3.mk"
+.include "../../textproc/libnxml/buildlink3.mk"
 .include "../../www/curl/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
