@@ -13,6 +13,7 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 
 NO_CONFIGURE=	yes
 USE_TOOLS+=	gmake perl
+USE_NCURSES=	yes
 
 INSTALL_MAKE_FLAGS+=	prefix=${PREFIX}
 
