@@ -40,13 +40,6 @@ BUILD_DEFS+=		GAMEDATAMODE
 
 PLIST_SRC+=		PLIST
 
-SUBST_CLASSES+=			test_equal
-SUBST_STAGE.test_equal=		pre-configure
-SUBST_MESSAGE.test_equal=	Fixing bashisms in test(1) usage.
-SUBST_FILES.test_equal=		mac/make-package
-SUBST_FILES.test_equal+=	admin/charsets/mapconv
-SUBST_SED.test_equal=		-e 's/ == / = /g'
-
 MAKE_DIRS_PERMS+=	${VARBASE}/games/emacs ${GAMEOWN:Q} ${GAMEGRP} ${GAMEDIRMODE:Q}
 CONF_FILES_PERMS+=	/dev/null ${VARBASE}/games/emacs/snake-scores ${GAMEOWN:Q} ${GAMEGRP:Q} ${GAMEDATAMODE:Q}
 CONF_FILES_PERMS+=	/dev/null ${VARBASE}/games/emacs/tetris-scores ${GAMEOWN:Q} ${GAMEGRP:Q} ${GAMEDATAMODE:Q}
