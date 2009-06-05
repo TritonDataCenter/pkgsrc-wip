@@ -3,10 +3,9 @@ $NetBSD$
 
 First steps before using pkgin.
 
-Initialize the database :
+. Modify ${PREFIX}/etc/pkgin/repositories.conf to suit your platform
+. Initialize the database :
 
-	# PKG_REPOS=ftp://your.favourite/pkgsrc/binary/mirror/All
-	# export PKG_REPOS
 	# pkgin update
 
 ***************************************************************************
