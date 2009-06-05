@@ -9,3 +9,4 @@ share/doc/${PKGNAME}/FAQ.html
 share/doc/${PKGNAME}/License.html
 share/doc/${PKGNAME}/Readme.html
 @dirrm share/doc/${PKGNAME}
+@dirrm lib/ironpython
