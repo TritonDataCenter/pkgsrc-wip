@@ -8,6 +8,7 @@ MAINTAINER=	pho@cielonegro.org
 COMMENT=	Command-line interface for user input, written in Haskell
 
 .include "../../wip/mk/haskell.mk"
+.include "../../converters/libiconv/buildlink3.mk"
 .include "../../wip/hs-extensible-exceptions/buildlink3.mk"
 .include "../../wip/hs-mtl/buildlink3.mk"
 .include "../../wip/hs-utf8-string/buildlink3.mk"
