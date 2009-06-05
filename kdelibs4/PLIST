@@ -1866,6 +1866,7 @@ share/kde/apps/LICENSES/LGPL_V2
 share/kde/apps/LICENSES/LGPL_V3
 share/kde/apps/LICENSES/QPL_V1.0
 share/kde/apps/cmake/modules/BasicFindPackageVersion.cmake.in
+share/kde/apps/cmake/modules/CheckCXXSymbolExists.cmake
 share/kde/apps/cmake/modules/CheckPointerMember.cmake
 share/kde/apps/cmake/modules/CheckPrototypeExists.cmake
 share/kde/apps/cmake/modules/CheckStructMember.cmake
