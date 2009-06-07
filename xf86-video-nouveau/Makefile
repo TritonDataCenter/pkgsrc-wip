@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	xf86-video-nouveau-0.0.10
+PKGREVISION=	1
 CATEGORIES=	x11
 MASTER_SITES=	ftp://ftp.NetBSD.org/pub/NetBSD/misc/bjs/distfiles/
 EXTRACT_SUFX=	.tar.bz2

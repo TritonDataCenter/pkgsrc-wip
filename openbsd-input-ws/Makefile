@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	openbsd-input-ws-1.2
-PKGREVISION=	1
+PKGREVISION=	2
 CATEGORIES=	x11
 MASTER_SITES=	http://xenocara.org/src/
 
