@@ -1,9 +1,9 @@
 # $NetBSD$
 #
 
-DISTNAME=	efreet-0.5.0.050
+DISTNAME=	efreet-0.5.0.060
 CATEGORIES=	graphics
-MASTER_SITES=	http://download.enlightenment.org/snapshots/2008-09-25/
+MASTER_SITES=	http://download.enlightenment.org/snapshots/2009-04-22/
 EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	yazzy@yazzy.org

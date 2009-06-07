@@ -1,9 +1,9 @@
 # $NetBSD$
 #
 
-DISTNAME=	edje-0.9.9.050
+DISTNAME=	edje-0.9.92.060
 CATEGORIES=	graphics
-MASTER_SITES=	http://download.enlightenment.org/snapshots/2008-09-25/
+MASTER_SITES=	http://download.enlightenment.org/snapshots/2009-04-22/
 
 MAINTAINER=	yazzy@yazzy.org
 HOMEPAGE=	http://enlightenment.org/
