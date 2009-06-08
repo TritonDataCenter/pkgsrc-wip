@@ -45,8 +45,8 @@ do-install:
 	${CHMOD} +x  ${DESTDIR}${PREFIX}/bin/ipyw
 	${INSTALL_DATA} ${WRKSRC}/ipy.exe ${DESTDIR}${PREFIX}/lib/ironpython
 	${INSTALL_DATA} ${WRKSRC}/ipyw.exe ${DESTDIR}${PREFIX}/lib/ironpython
-	${INSTALL_DATA}	${WRKSRC}/IronMath.dll ${DESTDIR}${PREFIX}/lib/ironpython
-	${INSTALL_DATA}	${WRKSRC}/IronPython.dll ${DESTDIR}${PREFIX}/lib/ironpython
+	${INSTALL_LIB}	${WRKSRC}/IronMath.dll ${DESTDIR}${PREFIX}/lib/ironpython
+	${INSTALL_LIB}	${WRKSRC}/IronPython.dll ${DESTDIR}${PREFIX}/lib/ironpython
 	${INSTALL_DATA_DIR} ${DESTDIR}${DOCDIR}
 	${INSTALL_DATA} ${WRKSRC}/*.html ${DESTDIR}${DOCDIR}
 
