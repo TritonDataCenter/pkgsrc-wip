@@ -10,8 +10,8 @@
 #	> you distribute. Updatedcc must work.
 #
 #
-DISTNAME=		dcc-1.3.103
-PKGREVISION=		2
+DISTNAME=		dcc-1.3.106
+#PKGREVISION=		2
 CATEGORIES=		mail
 MASTER_SITES=		http://www.rhyolite.com/dcc/source/old/
 EXTRACT_SUFX=		.tar.Z
