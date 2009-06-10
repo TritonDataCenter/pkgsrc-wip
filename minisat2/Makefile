@@ -23,9 +23,9 @@ do-build:
 	cd ${WRKSRC}/core && ${GMAKE}
 
 do-install:
-	${INSTALL_PROGRAM} ${WRKSRC}/core/minisat ${DESTDIR}${PREFIX}/bin/minisat2
-	${INSTALL_DATA} ${WRKSRC}/core/*.h ${DESTDIR}${PREFIX}/include
-	${INSTALL_DATA} ${WRKSRC}/mtl/*.h ${DESTDIR}${PREFIX}/include
-	${INSTALL_DATA} ${WRKSRC}/LICENSE  ${DESTDIR}${PREFIX}/share/doc/minisat2
+	${INSTALL_PROGRAM} ${WRKSRC}/core/minisat \
+		${DESTDIR}${PREFIX}/bin/minisat2
+	${INSTALL_DATA} ${WRKSRC}/LICENSE \
+		${DESTDIR}${PREFIX}/share/doc/minisat2
 
 .include "../../mk/bsd.pkg.mk"
