@@ -9,7 +9,7 @@ MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://pidgin-festival.sourceforge.net/
 COMMENT=	Pidgin plugin that interfaces with festival
 
-BUILD_DEPENDS+=		festival-[0-9]*:../../audio/festival
+DEPENDS+=		festival-[0-9]*:../../audio/festival
 WRKSRC=			${WRKDIR}/pidgin-festival-2.4
 GNU_CONFIGURE=		yes
 USE_LANGUAGES+=		c c++ fortran
