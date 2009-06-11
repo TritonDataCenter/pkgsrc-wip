@@ -149,4 +149,5 @@ share/pixmaps/gimmie.png
 @dirrm ${PYSITELIB}/gimmie/gmenu
 @dirrm ${PYSITELIB}/gimmie/gdmclient
 @dirrm ${PYSITELIB}/gimmie
-@comment in libbonobo: @dirrm lib/bonobo/servers
+@dirrm lib/bonobo/servers
+@dirrm lib/bonobo
