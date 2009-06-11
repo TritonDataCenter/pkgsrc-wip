@@ -4,7 +4,8 @@ bin/grsync-batch
 man/man1/grsync-batch.1
 man/man1/grsync.1
 share/applications/grsync.desktop
+share/grsync/grsync.glade
 share/pixmaps/grsync.png
-@comment in xdg-dirs: @dirrm share/pixmaps
-@comment in hicolor-icon-theme: @dirrm share/icons/hicolor
-@comment in xdg-dirs: @dirrm share/applications
+@dirrm share/pixmaps
+@dirrm share/grsync
+@dirrm share/applications
