@@ -5,6 +5,7 @@ META_PACKAGE=	# empty
 .include "Makefile.common"
 
 DISTNAME=	xfce4-${XFCE4_VERSION}
+PKGREVISION=	1
 CATEGORIES=	meta-pkgs
 COMMENT=	Xfce
 
