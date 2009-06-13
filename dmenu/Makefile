@@ -9,6 +9,8 @@ MAINTAINER=	leot1990@users.sourceforge.net
 HOMEPAGE=	http://tools.suckless.org/dmenu
 COMMENT=	Dymanic menu for X
 
+LICENSE=	mit
+
 PKG_DESTDIR_SUPPORT=	user-destdir
 
 NO_CONFIGURE=	yes
