@@ -11,6 +11,7 @@ COMMENT=	GTK version of the fli4l monitoring tool
 PKG_DESTDIR_SUPPORT=	user-destdir
 
 GNU_CONFIGURE=	YES
+USE_TOOLS+=	pkg-config
 
 .include "../../mk/bsd.prefs.mk"
 .if ${OPSYS} == "Darwin"
