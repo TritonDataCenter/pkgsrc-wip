@@ -18,7 +18,7 @@ USE_FEATURES+=	snprintf
 
 CONFIGURE_ARGS+=	--docdir=${PREFIX}/share/doc/proxyknife
 
-CONF_FILES=	${PREFIX}/share/doc/proxyknife/example/proxyknife.conf.example ${PKG_SYSCONFDIR}/proxyknife.conf
+CONF_FILES=	${DESTDIR}${PREFIX}/share/doc/proxyknife/example/proxyknife.conf.example ${DESTDIR}${PKG_SYSCONFDIR}/proxyknife.conf
 
 .include "../../mk/pthread.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
