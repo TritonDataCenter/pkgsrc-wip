@@ -7,7 +7,7 @@ CATEGORIES=	devel python
 MASTER_SITES=	http://bitbucket.org/ned/coveragepy/downloads/
 
 MAINTAINER=	kamel.derouiche@gmail.com
-HOMEPAGE=	http://nedbatchelder.com/code/modules/coverage.html/
+HOMEPAGE=	http://nedbatchelder.com/code/coverage/
 COMMENT=	Python module that measures and testing code coverage for Python
 #LICENSE=	modified-bsd
 
