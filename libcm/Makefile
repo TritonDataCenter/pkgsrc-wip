@@ -2,19 +2,21 @@
 #
 
 DISTNAME=	libcm-0.1.1
-CATEGORIES=	wm devel
+CATEGORIES=	wm devel gnome
 MASTER_SITES=	ftp://ftp.gnome.org/pub/gnome/sources/libcm/0.1/
 EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	blair.sadewitz@gmail.com
 HOMEPAGE=	http://www.gnome.org/
 COMMENT=	Metacity compositor library
+#LICENSE=	gnu-gpl-v2
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_TOOLS+=	pkg-config
+USE_LANGUAGES+=	c c++
 
 PKGCONFIG_OVERRIDE+=	cm.pc.in
 
@@ -25,5 +27,4 @@ PKGCONFIG_OVERRIDE+=	cm.pc.in
 .include "../../x11/libXdamage/buildlink3.mk"
 .include "../../x11/libXext/buildlink3.mk"
 .include "../../x11/libXtst/buildlink3.mk"
-
 .include "../../mk/bsd.pkg.mk"

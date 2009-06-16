@@ -23,4 +23,3 @@ include/cm/ws.h
 include/cm/wsint.h
 lib/libcm.la
 lib/pkgconfig/cm.pc
-@dirrm include/cm
