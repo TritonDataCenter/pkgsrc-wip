@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	mcpp-2.7.1
+DISTNAME=	mcpp-2.7.2
 CATEGORIES=	devel
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=mcpp/}
 
