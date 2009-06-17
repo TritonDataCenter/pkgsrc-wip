@@ -24,6 +24,7 @@ PLIST_SUBST+=			PYVERSSUFFIX=${PYVERSSUFFIX:Q}
 
 .include "../../wip/kde4/kde4.mk"
 
+.include "../../lang/python/application.mk"
 .include "../../lang/python/extension.mk"
 .include "../../wip/kdelibs4/buildlink3.mk"
 .include "../../wip/kdepimlibs4/buildlink3.mk"
