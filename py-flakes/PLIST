@@ -1,0 +1,9 @@
+@comment $NetBSD$
+bin/pyflakes
+${PYSITELIB}/pyflakes/__init__.py
+${PYSITELIB}/pyflakes/__init__.pyc
+${PYSITELIB}/pyflakes/__init__.pyo
+${PYSITELIB}/pyflakes/messages.py
+${PYSITELIB}/pyflakes/messages.pyc
+${PYSITELIB}/pyflakes/messages.pyo
+@dirrm ${PYSITELIB}/pyflakes
