@@ -7,7 +7,7 @@ PKGNAME=	${PYPKGPREFIX}-cherry-${CHERRYVERS}
 CATEGORIES=	www python
 MASTER_SITES=	http://download.cherrypy.org/cherrypy/${CHERRYVERS}/
 
-MAINTAINER=	kamel.derouiche@gmail.com
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	http://www.cherrypy.org/
 COMMENT=	CherryPy is a pythonic, object-oriented HTTP framework
 
