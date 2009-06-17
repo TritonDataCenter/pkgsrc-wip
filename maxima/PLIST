@@ -1631,6 +1631,7 @@ share/maxima/${PKGVERSION}/tests/rtest_integrate_special.mac
 share/maxima/${PKGVERSION}/tests/rtest_lambert_w.mac
 share/maxima/${PKGVERSION}/tests/rtest_map.mac
 share/maxima/${PKGVERSION}/tests/rtest_mset.mac
+share/maxima/${PKGVERSION}/tests/rtest_plot.mac
 share/maxima/${PKGVERSION}/tests/rtest_round.mac
 share/maxima/${PKGVERSION}/tests/rtest_scalarp.mac
 share/maxima/${PKGVERSION}/tests/rtest_sign.mac
