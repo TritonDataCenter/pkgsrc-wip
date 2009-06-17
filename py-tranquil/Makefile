@@ -6,7 +6,7 @@ PKGNAME=	${PYPKGPREFIX}-tranquil-0.2
 CATEGORIES=	databases
 MASTER_SITES=	http://tranquil.googlecode.com/files/
 
-MAINTAINER=	kamel.derouiche@gmail.com
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	http://code.google.com/p/tranquil/
 COMMENT=	Integrating SQLAlchemy with Django
 

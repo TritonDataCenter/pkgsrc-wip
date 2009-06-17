@@ -7,7 +7,7 @@ CATEGORIES=	www python
 MASTER_SITES=	http://pywebkitgtk.googlecode.com/files/
 EXTRACT_SUFX=	.tar.bz2
 
-MAINTAINER=	kamel.derouiche@gmail.com
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	http://code.google.com/p/pywebkitgtk/
 COMMENT=	Python bindings for the WebKit GTK+ port
 LICENSE=	gnu-lgpl-v2
