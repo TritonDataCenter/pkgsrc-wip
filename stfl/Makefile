@@ -17,5 +17,13 @@ USE_NCURSES=	yes
 
 INSTALL_MAKE_FLAGS+=	prefix=${PREFIX}
 
+.include "../../mk/bsd.prefs.mk"
+
+# NetBSD iconv implementation doesn't support
+# the wchar_t encoding (upon stfl relies).
+.if ${OPSYS} == "NetBSD"
+.include "../../converters/libiconv/buildlink3.mk"
+.endif
+
 .include "../../devel/ncursesw/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
