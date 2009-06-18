@@ -6,7 +6,7 @@ PKGNAME=        ${PYPKGPREFIX}-${DISTNAME:S/py//}
 CATEGORIES=	sysutils
 MASTER_SITES=	http://pytrash.googlecode.com/files/
 
-MAINTAINER=	kamel.derouiche@gmail.com
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	http://code.google.com/p/pytrash/
 COMMENT=	The command line tool for the GNOME Trash
 

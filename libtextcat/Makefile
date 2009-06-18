@@ -5,7 +5,7 @@ DISTNAME=	libtextcat-2.2
 CATEGORIES=	textproc
 MASTER_SITES=	http://software.wise-guys.nl/download/
 
-MAINTAINER=	kamel.derouiche@gmail.com
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	http://software.wise-guys.nl/libtextcat/
 COMMENT=	Libtextcat library the Cavnar & Trenkle
 

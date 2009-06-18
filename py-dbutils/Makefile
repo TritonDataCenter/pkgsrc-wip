@@ -6,7 +6,7 @@ PKGNAME=		${PYPKGPREFIX}-dbutils-1.0
 CATEGORIES=	databases
 MASTER_SITES=	http://www.webwareforpython.org/downloads/DBUtils/
 
-MAINTAINER=	kamel.derouiche@gmail.com
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	http://www.webwareforpython.org/DBUtils
 COMMENT=	Database connections for multi-threaded environments
 
