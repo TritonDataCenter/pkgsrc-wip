@@ -5,7 +5,7 @@ DISTNAME=	gbemol-0.3.2
 CATEGORIES=	audio
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=gbemol/}
 
-MAINTAINER=	kamel.derouiche@gmail.com
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	http://gbemol.sourceforge.net/
 COMMENT=	Graphical frontend for the Music Player Daemon (MPD)
 

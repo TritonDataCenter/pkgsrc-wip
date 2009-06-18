@@ -6,7 +6,7 @@ PKGNAME=	${PYPKGPREFIX}-gcalendarsync-0.4
 CATEGORIES=	www python
 MASTER_SITES=	http://googlecalendarsync.googlecode.com/files/
 
-MAINTAINER=	kamel.derouiche@gmail.com
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	http://code.google.com/p/googlecalendarsync/
 COMMENT=	Googlecalendarsync is a tool to bidirectional synchronize a local iCal
 
