@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	musca-0.9.22
-CATEGORIES=	wip x11
+CATEGORIES=	x11
 MASTER_SITES=	http://aerosuidae.net/
 EXTRACT_SUFX=	.tgz
 
@@ -11,6 +11,7 @@ HOMEPAGE=	http://aerosuidae.net/musca/
 COMMENT=	Simple dynamic window manager for X
 
 PKG_DESTDIR_SUPPORT=	user-destdir
+INSTALLATION_DIRS=	bin ${PKGMANDIR}/man1
 
 NO_CONFIGURE=	yes
 
