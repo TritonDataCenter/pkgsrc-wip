@@ -8,7 +8,7 @@ EXTRACT_SUFX=	.tar.bz2
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
-MAINTAINER=	kamel.derouiche@gmail.com
+MAINTAINER=	pkgsrc-users@netbsd.org
 HOMEPAGE=	http://dborg.wordpress.com/scratchpad/
 COMMENT=	Scratchpad is a document oriented
 

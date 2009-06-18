@@ -7,7 +7,7 @@ CATEGORIES=	games python
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=microtetris/}
 EXTRACT_SUFX=	.py
 
-MAINTAINER=	kamel.derouiche@gmail.com
+MAINTAINER=	pkgsrc-users@netbsd.org
 HOMEPAGE=	http://microtetris.sourceforge.net/
 COMMENT=	MicroTetris is a simple and compact popular game Tetris
 

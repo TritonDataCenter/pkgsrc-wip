@@ -6,7 +6,7 @@ PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	devel python
 MASTER_SITES=	http://download.gna.org/songwrite/
 
-MAINTAINER=	kamel.derouiche@gmail.com
+MAINTAINER=	pkgsrc-users@netbsd.org
 HOMEPAGE=	http://home.gna.org/oomadness/en/editobj/index.html
 COMMENT=	EditObj2 is a dialog box generator for Python objects
 LICENSE=	gnu-gpl-v2
