@@ -9,6 +9,7 @@ EXTRACT_SUFX=	.tar.bz2
 MAINTAINER=	kamel.derouiche@gmail.com
 HOMEPAGE=	http://mono-project.com/GeckoSharp/
 COMMENT=	GeckoSharp is a wrapper for the GtkEmbedMoz widget
+LICENSE=	gnu-lgpl-v2.1
 
 PKG_DESTDIR_SUPPORT=		user-destdir
 GNU_CONFIGURE=	yes
