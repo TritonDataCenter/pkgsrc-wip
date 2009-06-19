@@ -6,7 +6,7 @@ CATEGORIES=	www
 MASTER_SITES=	http://ftp.novell.com/pub/mono/sources/gecko-sharp2/
 EXTRACT_SUFX=	.tar.bz2
 
-MAINTAINER=	kamel.derouiche@gmail.com
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	http://mono-project.com/GeckoSharp/
 COMMENT=	GeckoSharp is a wrapper for the GtkEmbedMoz widget
 LICENSE=	gnu-lgpl-v2.1
