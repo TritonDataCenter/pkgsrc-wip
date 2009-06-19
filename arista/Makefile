@@ -5,7 +5,7 @@ DISTNAME=	arista-0.9.1
 CATEGORIES=	multimedia python
 MASTER_SITES=	http://programmer-art.org/media/releases/arista-transcoder/
 
-MAINTAINER=	kamel.derouiche@gmail.com
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	http://programmer-art.org/projects/arista-transcoder
 COMMENT=	Tools multimedia transcoder for GNOME
 LICENSE=	gnu-lgpl-v2
