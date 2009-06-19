@@ -678,6 +678,7 @@ lib/firefox35/icons/mozicon50.xpm
 lib/firefox35/icons/updater.png
 lib/firefox35/libfreebl3.chk
 lib/firefox35/libfreebl3.so
+${PLIST.mozilla-jemalloc}lib/firefox35/libjemalloc.so
 lib/firefox35/libmozjs.so
 lib/firefox35/libnspr4.so
 lib/firefox35/libnss3.so
