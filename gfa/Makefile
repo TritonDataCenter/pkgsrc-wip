@@ -5,7 +5,7 @@ DISTNAME=	gfa-0.4.1
 CATEGORIES=	time
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=gfa/}
 
-MAINTAINER=	kamel.derouiche@gmail.com
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://gfa.sourceforge.net/
 COMMENT=	Gfa a GTK+ fast address
 
