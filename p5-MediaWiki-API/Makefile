@@ -9,7 +9,6 @@ MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=../../authors/id/E/EX/EXOBUZZ/}
 MAINTAINER=	leot1990@users.sourceforge.net
 HOMEPAGE=	http://search.cpan.org/dist/MediaWiki-API/
 COMMENT=	Perl interface to the MediaWiki API
-
 LICENSE=	gnu-gpl-v3
 
 PKG_DESTDIR_SUPPORT=	user-destdir
