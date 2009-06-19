@@ -5,9 +5,10 @@ DISTNAME=	frogmicroblog-0.1.2.1
 CATEGORIES=	www
 MASTER_SITES=	http://froggymicroblog.googlecode.com/files/
 
-MAINTAINER=	kamel.derouiche@gmail.com
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	http://code.google.com/p/froggymicroblog/
 COMMENT=	C\# twitter identi.ca client
+LICENSE=	gnu-gpl-v2
 
 PKG_DESTDIR_SUPPORT=		user-destdir
 
