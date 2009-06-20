@@ -5,7 +5,7 @@ DISTNAME=	flvmeta-1.0.8
 CATEGORIES=	multimedia
 MASTER_SITES=	http://flvmeta.googlecode.com/files/
 
-MAINTAINER=	kamel.derouiche@gmail.com
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	http://code.google.com/p/flvmeta/
 COMMENT=	Metadata injector for FLV video files
 LICENSE=	gnu-gpl-v2
