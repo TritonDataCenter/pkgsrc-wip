@@ -6,7 +6,7 @@ PKGNAME=	labyrinth-0.4.1
 CATEGORIES=	graphics python
 MASTER_SITES=	http://labyrinth.googlecode.com/files/
 
-MAINTAINER=	kamel.derouiche@gmail.com
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	http://www.gnome.org/~dscorgie/labyrinth.html
 COMMENT=	Labyrinth is a lightweight mind-mapping tool for GNOME
 
