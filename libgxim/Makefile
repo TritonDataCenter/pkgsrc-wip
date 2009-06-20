@@ -6,7 +6,7 @@ CATEGORIES=	x11
 MASTER_SITES=	http://libgxim.googlecode.com/files/
 EXTRACT_SUFX=	.tar.bz2
 
-MAINTAINER=	kamel.derouiche@gmail.com
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://code.google.com/p/libgxim/
 COMMENT=	GObject-based XIM protocol library
 
