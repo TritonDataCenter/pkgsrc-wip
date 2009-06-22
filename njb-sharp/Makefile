@@ -3,11 +3,12 @@
 
 DISTNAME=	njb-sharp-0.3.0
 CATEGORIES=	audio
-MASTER_SITES=	http://download.banshee-project.org/njb-sharp/
+MASTER_SITES=	http://download.banshee-project.org/legacy/njb-sharp/
 
-MAINTAINER=	kamel.derouiche@gmail.com
-HOMEPAGE=	http://download.banshee-project.org/njb-sharp/
-COMMENT=	Sharp binding for libnjb
+MAINTAINER=	kamelderouiche@yahoo.com
+HOMEPAGE=	http://download.banshee-project.org/legacy/njb-sharp/
+COMMENT=	Mono C\# Bindings to libnjb
+#LICENSE=	LICENSE
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
