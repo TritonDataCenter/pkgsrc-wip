@@ -10,13 +10,7 @@ COMMENT=	Open-source RSS/Atom feed reader for text terminals
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
-# Makefile
-SUBST_CLASSES+=		makefile
-SUBST_STAGE.makefile=	pre-build
-SUBST_MESSAGE.makefile=	Fixing distribution Makefile...
-SUBST_FILES.makefile=	${MAKE_FILE}
-SUBST_SED.makefile=	-e 's|$(INSTALL) doc|$(INSTALL) -m 644 doc|'
-
+USE_NCURSES=	yes
 USE_LANGUAGES=	c c++
 USE_TOOLS+=	gmake pkg-config msgfmt perl
 
