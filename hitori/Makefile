@@ -5,7 +5,7 @@ DISTNAME=	hitori-0.2.1
 CATEGORIES=	games
 MASTER_SITES=	http://tecnocode.co.uk/downloads/
 
-MAINTAINER=	kamel.derouiche@gmail.com
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	http://tecnocode.co.uk/projects/hitori/
 COMMENT=	Hitori is an application that allow to play the eponymous puzzle game
 
