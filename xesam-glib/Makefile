@@ -5,7 +5,7 @@ DISTNAME=	xesam-glib-0.5.0
 CATEGORIES=	sysutils
 MASTER_SITES=	http://xesam.org/people/kamstrup/xesam-glib/
 
-MAINTAINER=	kamel.derouiche@gmail.com
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://xesam.org/main/XesamGLib
 COMMENT=	Xesam GLib is a client library for the XESAM specification
 
