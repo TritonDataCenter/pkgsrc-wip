@@ -1,8 +1,8 @@
 # $NetBSD$
 #
 
-DISTNAME=	lcdproc-0.5.2
-CATEGORIES=	wip
+DISTNAME=	lcdproc-0.5.3
+CATEGORIES=	sysutils
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=lcdproc/}
 
 MAINTAINER=	christtrekker@users.sourceforge.net
