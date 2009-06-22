@@ -5,7 +5,7 @@ DISTNAME=	liblastfm-sharp-0.1.09
 CATEGORIES=	audio
 MASTER_SITES=	http://lastfm-sharp.googlecode.com/files/
 
-MAINTAINER=	kamel.derouiche@gmail.com
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	http://code.google.com/p/lastfm-sharp/
 COMMENT=	DotNet/Mono interface to last.fm
 

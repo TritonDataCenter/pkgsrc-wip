@@ -6,7 +6,7 @@ CATEGORIES=	audio
 MASTER_SITES=	http://download.banshee-project.org/taglib-sharp/2.0.3.2/
 EXTRACT_SUFX=	.tar.bz2
 
-MAINTAINER=	kamel.derouiche@gmail.com
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	http://developer.novell.com/wiki/index.php/TagLib_Sharp
 COMMENT=	Multimedia metadata reading/writing library for popular formats
 

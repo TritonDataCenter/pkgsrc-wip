@@ -5,7 +5,7 @@ DISTNAME=	imagination-1.0
 CATEGORIES=	multimedia
 MASTER_SITES=	http://ovh.dl.sourceforge.net/sourceforge/imagination/
 
-MAINTAINER=	kamel.derouiche@gmail.com
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	http://imagination.sourceforge.net/
 COMMENT=	Imagination a simple and lightweight DVD slideshow maker
 
