@@ -5,7 +5,7 @@ DISTNAME=	json-c-0.8
 CATEGORIES=	textproc
 MASTER_SITES=	http://oss.metaparadigm.com/json-c/
 
-MAINTAINER=	kamel.derouiche@gmail.com
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	http://json.org/
 COMMENT=	JSON (Javascript Object Notation) implementation in C
 #LICENSE=	LICENSE
