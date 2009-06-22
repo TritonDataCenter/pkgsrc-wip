@@ -1,0 +1,13 @@
+# $NetBSD$
+
+BUILDLINK_TREE+=	sox
+
+.if !defined(SOX_BUILDLINK3_MK)
+SOX_BUILDLINK3_MK:=
+
+BUILDLINK_API_DEPENDS.sox+=	sox>=14.2.0
+BUILDLINK_PKGSRCDIR.sox?=	../../wip/sox
+
+.endif	# SOX_BUILDLINK3_MK
+
+BUILDLINK_TREE+=	-sox
