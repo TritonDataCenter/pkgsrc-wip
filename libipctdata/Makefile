@@ -5,7 +5,7 @@ DISTNAME=	libiptcdata-1.0.3
 CATEGORIES=	graphics
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=libiptcdata/}
 
-MAINTAINER=	kamel.derouiche@gmail.com
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	http://libiptcdata.sourceforge.net/
 COMMENT=	Library to parse IPTC metadata
 
