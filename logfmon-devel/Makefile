@@ -1,7 +1,6 @@
 # $NetBSD$
 #
 
-PKGNAME=	logfmon-1.0.1
 DISTNAME=	logfmon
 CATEGORIES=	sysutils
 
