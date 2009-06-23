@@ -5,7 +5,7 @@ DISTNAME=	pidgin-rhythmbox-2.0
 CATEGORIES=	chat
 MASTER_SITES=	http://jon.oberheide.org/projects/pidgin-rhythmbox/downloads/
 
-MAINTAINER=	kamel.derouiche@gmail.com
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	http://jon.oberheide.org/projects/pidgin-rhythmbox/
 COMMENT=	Plugin for pidgin to support Rhythmbox
 
