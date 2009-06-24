@@ -44,7 +44,7 @@ include/firefox35/stable/md/_irix64.cfg
 include/firefox35/stable/md/_linux.cfg
 include/firefox35/stable/md/_ncr.cfg
 include/firefox35/stable/md/_nec.cfg
-include/firefox35/stable/md/_${LOWER_OPSYS}.cfg
+include/firefox35/stable/md/_netbsd.cfg
 include/firefox35/stable/md/_nextstep.cfg
 include/firefox35/stable/md/_nto.cfg
 include/firefox35/stable/md/_openbsd.cfg

@@ -7,7 +7,7 @@ $NetBSD$
   */
  
 -#if defined(linux) || defined(SOLARIS)
-+#if defined(linux) || defined(SOLARIS) || defined(__NetBSD__)
++#if defined(linux) || defined(SOLARIS) || defined(__NetBSD__) || defined(__DragonFly__)
  #include <semaphore.h>
  #define SEM_CREATE(p,s) sem_init(&(p), 1, s)
  #define SEM_SIGNAL(p)   sem_post(&(p))
