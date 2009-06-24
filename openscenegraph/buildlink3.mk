@@ -1,0 +1,13 @@
+# $NetBSD$
+
+BUILDLINK_TREE+=	OpenSceneGraph
+
+.if !defined(OPENSCENEGRAPH_BUILDLINK3_MK)
+OPENSCENEGRAPH_BUILDLINK3_MK:=
+
+BUILDLINK_API_DEPENDS.OpenSceneGraph+=	OpenSceneGraph>=2.8.1
+BUILDLINK_PKGSRCDIR.OpenSceneGraph?=	../../local/openscenegraph
+
+.endif	# OPENSCENEGRAPH_BUILDLINK3_MK
+
+BUILDLINK_TREE+=	-OpenSceneGraph
