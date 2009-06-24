@@ -11,6 +11,8 @@ HOMEPAGE=	http://www.torcs.org/
 COMMENT=	The Open Racing Car Simulator
 LICENSE=	gnu-gpl-v2
 
+PKG_DESTDIR_SUPPORT=	user-destdir
+
 RESTRICTED=		Files too large.
 NO_BIN_ON_CDROM=	${RESTRICTED}
 NO_BIN_ON_FTP=		${RESTRICTED}
