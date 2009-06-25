@@ -1,13 +1,14 @@
 # $NetBSD$
 #
 
-DISTNAME=	gipfel-0.3.1
+DISTNAME=	gipfel-0.3.2
 CATEGORIES=	geography graphics
 MASTER_SITES=	http://www.ecademix.com/JohannesHofmann/
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.ecademix.com/JohannesHofmann/gipfel.html
 COMMENT=	Photogrammetry For Mountain Images
+LICENSE=	gnu-gpl-v3
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
