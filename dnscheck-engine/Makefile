@@ -16,7 +16,7 @@ LICENSE_FILE=	${FILESDIR}/iis-license
 SVN_REPOSITORIES=	dnscheck
 SVN_ROOT.dnscheck=	svn+ssh://anonsvn@opensource.iis.se/dnscheck/branches/${RCVERSION}
 SVN_MODULE.dnscheck=	dnscheck
-RCVERSION=		0.91-maint
+RCVERSION=		0.92-maint
 NO_CHECKSUM=		yes
 
 PKG_DESTDIR_SUPPORT=	user-destdir
