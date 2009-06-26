@@ -6,7 +6,7 @@ PKGNAME=	${DISTNAME:S/-src//}
 CATEGORIES=	finance
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=ta-lib/}
 
-MAINTAINER=	kamel.derouiche@gmail.com
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	http://www.ta-lib.org/
 COMMENT=	Unix POSIX Library for Technical Analysis
 
