@@ -5,9 +5,10 @@ DISTNAME=	winwrangler-0.2.1
 CATEGORIES=	x11
 MASTER_SITES=	http://launchpad.net/winwrangler/0.2/0.2.1/+download/
 
-MAINTAINER=	kamel.derouiche@gmail.com
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	http://launchpad.net/winwrangler/
 COMMENT=	WinWrangler desktop daemon to manipulations window managers
+LICENSE=	gnu-gpl-v3
 
 PKG_DESTDIR_SUPPORT= 	user-destdir
 GNU_CONFIGURE=	yes
