@@ -1,8 +1,8 @@
 # $NetBSD$
 #
 
-DISTNAME=	emacs-23.0.95
-PKGNAME=	emacs-23.0.95
+DISTNAME=	emacs-23.1.50
+PKGNAME=	emacs-23.1.50
 PKGREVISION=	${_CVS_PKGVERSION:S/.//g}
 CATEGORIES=	editors
 MASTER_SITES=	#

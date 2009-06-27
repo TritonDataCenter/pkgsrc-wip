@@ -6,7 +6,6 @@ Applications/Emacs.app/Contents/Resources/Credits.html
 Applications/Emacs.app/Contents/Resources/Emacs.icns
 Applications/Emacs.app/Contents/Resources/English.lproj/InfoPlist.strings
 Applications/Emacs.app/Contents/Resources/document.icns
-bin/mac-fix-env
 @dirrm Applications/Emacs.app/Contents/Resources/English.lproj
 @dirrm Applications/Emacs.app/Contents/Resources
 @dirrm Applications/Emacs.app/Contents/MacOS
