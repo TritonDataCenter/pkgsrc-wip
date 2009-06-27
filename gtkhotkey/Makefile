@@ -5,15 +5,17 @@ DISTNAME=	gtkhotkey-0.2.0
 CATEGORIES=	x11
 MASTER_SITES=	http://launchpad.net/gtkhotkey/0.2/0.2.0/+download/
 
-MAINTAINER=	kamel.derouiche@gmail.com
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://launchpad.net/gtkhotkey/
 COMMENT=	GtkHotkey library Platform independent hotkey handling for Gtk+
+LICENSE=	gnu-gpl-v3
 
 PKG_DESTDIR_SUPPORT=    user-destdir
 
 GNU_CONFIGURE=	yes
+USE_PKGLOCALEDIR= yes
 USE_LIBTOOL=	yes
-USE_TOOLS+=	pkg-config intltool perl
+USE_TOOLS+=	pkg-config intltool msgfmt perl
 USE_LANGUAGES+=	c c++
 
 
@@ -24,5 +26,4 @@ BUILDLINK_API_DEPENDS.gtk2+=    gtk2+>=2.12.0
 
 .include "../../devel/glib2/buildlink3.mk"
 .include "../../x11/gtk2/buildlink3.mk"
-
 .include "../../mk/bsd.pkg.mk"
