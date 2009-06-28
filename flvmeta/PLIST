@@ -1,3 +1,4 @@
 @comment $NetBSD$
 bin/flvdump
 bin/flvmeta
+share/doc/flvmeta/README
