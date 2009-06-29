@@ -1,4 +1,6 @@
 @comment $NetBSD$
+include/io/Range/IoRange.h
+include/io/Range/IoRange_inline.h
 lib/io/addons/Range/_build/dll/libIoRange.so
 lib/io/addons/Range/_build/lib/libIoRange.a
 lib/io/addons/Range/build.io
@@ -10,3 +12,4 @@ lib/io/addons/Range/io/Range.io
 @dirrm lib/io/addons/Range/_build/dll
 @dirrm lib/io/addons/Range/_build
 @dirrm lib/io/addons/Range
+@dirrm include/io/Range
