@@ -1,5 +1,7 @@
 $NetBSD$
 
+Use Sun audio on NetBSD and OSS on DragonFlyBSD.
+
 --- media/libsydneyaudio/src/Makefile.in.orig	2009-06-29 18:15:03.000000000 +0200
 +++ media/libsydneyaudio/src/Makefile.in
 @@ -65,12 +65,18 @@ CSRCS		= \

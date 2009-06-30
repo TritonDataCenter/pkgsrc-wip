@@ -1,5 +1,7 @@
 $NetBSD$
 
+Treat DragonFly like FreeBSD.
+
 --- js/src/configure.in.orig	2009-06-29 18:14:51.000000000 +0200
 +++ js/src/configure.in
 @@ -1693,7 +1693,7 @@ case "$target" in

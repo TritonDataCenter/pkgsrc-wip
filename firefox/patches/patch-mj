@@ -1,5 +1,7 @@
 $NetBSD: patch-ds,v 1.1.1.1 2008/06/28 10:01:07 tnn Exp $
 
+Add DragonFly support.
+
 diff -ruN ../Orig/mozilla/security/coreconf/arch.mk ./security/coreconf/arch.mk
 --- security/coreconf/arch.mk.orig	2009-06-29 18:15:11.000000000 +0200
 +++ security/coreconf/arch.mk

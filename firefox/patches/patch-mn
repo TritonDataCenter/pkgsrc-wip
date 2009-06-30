@@ -1,5 +1,7 @@
 $NetBSD: patch-ei,v 1.1 2008/12/17 23:16:50 tnn Exp $
 
+Make sure we link correctly with sqlite3 from pkgsrc.
+
 --- security/nss/lib/softoken/config.mk.orig	2009-06-29 18:15:14.000000000 +0200
 +++ security/nss/lib/softoken/config.mk
 @@ -86,7 +86,7 @@ else

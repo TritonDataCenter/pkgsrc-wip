@@ -1,5 +1,7 @@
 $NetBSD$
 
+Treat DragonFly like FreeBSD.
+
 --- gfx/qcms/qcmstypes.h.orig	2009-06-29 18:14:50.000000000 +0200
 +++ gfx/qcms/qcmstypes.h
 @@ -23,7 +23,7 @@ typedef PRUint64 uint64_t;

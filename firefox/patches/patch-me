@@ -1,5 +1,7 @@
 $NetBSD: patch-de,v 1.1.1.1 2008/06/28 10:01:07 tnn Exp $
 
+Add DragonFly support.
+
 --- security/nss/lib/freebl/Makefile.orig	2009-06-29 18:15:13.000000000 +0200
 +++ security/nss/lib/freebl/Makefile
 @@ -212,7 +212,7 @@ endif

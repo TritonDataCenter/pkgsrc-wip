@@ -1,5 +1,7 @@
 $NetBSD$
 
+Add DragonFly support.
+
 --- security/coreconf/config.mk.orig	2009-06-29 18:15:11.000000000 +0200
 +++ security/coreconf/config.mk
 @@ -63,7 +63,7 @@ endif
