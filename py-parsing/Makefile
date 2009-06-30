@@ -7,7 +7,7 @@ CATEGORIES=	devel python
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=pyparsing/}
 
 MAINTAINER=	kamelderouiche@yahoo.com
-HOMEPAGE=	http://pyparsing.sourceforge.net/
+HOMEPAGE=	http://pyparsing.wikispaces.com/
 COMMENT=	General parsing module for Python
 #LICENSE=	LICENSE
 
