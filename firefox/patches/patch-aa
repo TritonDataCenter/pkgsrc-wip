@@ -1,6 +1,6 @@
 $NetBSD$
 
---- configure.in.orig	2009-06-16 00:42:36.000000000 +0200
+--- configure.in.orig	2009-06-29 18:14:41.000000000 +0200
 +++ configure.in
 @@ -1799,7 +1799,7 @@ case "$target" in
      fi

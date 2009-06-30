@@ -1,6 +1,6 @@
 $NetBSD$
 
---- media/liboggplay/src/liboggplay/std_semaphore.h.orig	2009-06-16 00:42:52.000000000 +0200
+--- media/liboggplay/src/liboggplay/std_semaphore.h.orig	2009-06-29 18:15:03.000000000 +0200
 +++ media/liboggplay/src/liboggplay/std_semaphore.h
 @@ -74,7 +74,7 @@
   * @retval non-zero on error 

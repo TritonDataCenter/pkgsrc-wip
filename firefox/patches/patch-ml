@@ -1,6 +1,6 @@
 $NetBSD$
 
---- js/src/Makefile.in.orig	2009-06-16 00:42:43.000000000 +0200
+--- js/src/Makefile.in.orig	2009-06-29 18:14:51.000000000 +0200
 +++ js/src/Makefile.in
 @@ -429,6 +429,9 @@ endif # WINNT
  ifeq ($(OS_ARCH),FreeBSD)

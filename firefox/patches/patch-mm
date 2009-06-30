@@ -1,8 +1,8 @@
 $NetBSD: patch-eh,v 1.1 2008/12/11 09:34:12 tnn Exp $
 
---- toolkit/library/Makefile.in.orig	2008-05-08 11:20:45.000000000 +0200
+--- toolkit/library/Makefile.in.orig	2009-06-29 18:15:25.000000000 +0200
 +++ toolkit/library/Makefile.in
-@@ -227,7 +227,10 @@ EXTRA_DSO_LDOPTS += -lbe -ltracker
+@@ -252,7 +252,10 @@ EXTRA_DSO_LDOPTS += -lbe -ltracker
  endif
  
  ifeq ($(OS_ARCH),SunOS)

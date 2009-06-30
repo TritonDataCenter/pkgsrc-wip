@@ -1,6 +1,6 @@
 $NetBSD$
 
---- security/coreconf/config.mk.orig	2009-06-16 00:42:58.000000000 +0200
+--- security/coreconf/config.mk.orig	2009-06-29 18:15:11.000000000 +0200
 +++ security/coreconf/config.mk
 @@ -63,7 +63,7 @@ endif
  #######################################################################

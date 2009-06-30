@@ -1,6 +1,6 @@
 $NetBSD$
 
---- nsprpub/pr/include/md/_netbsd.h.orig	2009-06-16 00:42:54.000000000 +0200
+--- nsprpub/pr/include/md/_netbsd.h.orig	2009-06-29 18:15:06.000000000 +0200
 +++ nsprpub/pr/include/md/_netbsd.h
 @@ -94,6 +94,12 @@
  #define _PR_INET6_PROBE

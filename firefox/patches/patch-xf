@@ -1,9 +1,9 @@
 $NetBSD: patch-ae,v 1.1.1.1 2008/06/28 10:01:07 tnn Exp $
 
 diff -ruN ../Orig/mozilla/xpcom/reflect/xptcall/src/md/unix/xptcstubs_netbsd_m68k.cpp ./xpcom/reflect/xptcall/src/md/unix/xptcstubs_netbsd_m68k.cpp
---- ../Orig/mozilla/xpcom/reflect/xptcall/src/md/unix/xptcstubs_netbsd_m68k.cpp	2004-04-18 23:18:18.000000000 +0900
-+++ ./xpcom/reflect/xptcall/src/md/unix/xptcstubs_netbsd_m68k.cpp	2005-12-04 19:03:11.000000000 +0900
-@@ -123,17 +123,27 @@
+--- xpcom/reflect/xptcall/src/md/unix/xptcstubs_netbsd_m68k.cpp.orig	2009-06-29 18:15:33.000000000 +0200
++++ xpcom/reflect/xptcall/src/md/unix/xptcstubs_netbsd_m68k.cpp
+@@ -123,17 +123,27 @@ extern "C" {
      }
  }
  

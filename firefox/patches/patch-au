@@ -3,7 +3,7 @@ $NetBSD$
 SOUND_VERSION just isn't a reliable way to detect features supported by
 particular OSS implementation.
 
---- media/libsydneyaudio/src/sydney_audio_oss.c.orig
+--- media/libsydneyaudio/src/sydney_audio_oss.c.orig	2009-06-29 18:15:03.000000000 +0200
 +++ media/libsydneyaudio/src/sydney_audio_oss.c
 @@ -51,9 +51,9 @@
  // support only versions newer than 3.6.1

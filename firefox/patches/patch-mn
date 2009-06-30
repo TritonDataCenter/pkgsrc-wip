@@ -1,6 +1,6 @@
 $NetBSD: patch-ei,v 1.1 2008/12/17 23:16:50 tnn Exp $
 
---- security/nss/lib/softoken/config.mk.orig	2008-02-25 19:55:39.000000000 +0100
+--- security/nss/lib/softoken/config.mk.orig	2009-06-29 18:15:14.000000000 +0200
 +++ security/nss/lib/softoken/config.mk
 @@ -86,7 +86,7 @@ else
  EXTRA_SHARED_LIBS += \

@@ -1,9 +1,9 @@
 $NetBSD: patch-dj,v 1.1.1.1 2008/06/28 10:01:07 tnn Exp $
 
 diff -ruN ../Orig/mozilla/dbm/src/mktemp.c ./dbm/src/mktemp.c
---- ../Orig/mozilla/dbm/src/mktemp.c	2003-01-21 08:13:37.000000000 +0900
-+++ ./dbm/src/mktemp.c	2005-12-04 19:44:43.000000000 +0900
-@@ -98,7 +98,7 @@
+--- dbm/src/mktemp.c.orig	2009-06-29 18:14:43.000000000 +0200
++++ dbm/src/mktemp.c
+@@ -90,7 +90,7 @@ mktemp(char *path)
  static int 
  _gettemp(char *path, register int *doopen, int extraFlags)
  {    
