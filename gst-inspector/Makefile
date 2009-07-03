@@ -10,12 +10,13 @@ EXTRACT_SUFX=	.tar.bz2
 MAINTAINER=	kamel.derouiche@gmail.com
 HOMEPAGE=	http://renestadler.de/projects/gst-inspector/
 COMMENT=	Multimedia system plugin introspection for the GStreamer framework
+LICENSE=	gnu-gpl-v3
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
 USE_PKGLOCALEDIR=	yes
 USE_TOOLS+=		intltool msgfmt gettext
-USE_DIRS+=		xdg-1.4 gnome2-1.6
+USE_DIRS+=		xdg-1.4
 
 PY_PATCHPLIST=		yes
 PYDISTUTILSPKG=		yes
