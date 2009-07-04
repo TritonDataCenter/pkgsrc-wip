@@ -1,0 +1,4 @@
+@comment $NetBSD$
+lib/python2.5/site-packages/lockfile.py
+lib/python2.5/site-packages/lockfile.pyc
+lib/python2.5/site-packages/lockfile.pyo
