@@ -1,3 +1,5 @@
 @comment $NetBSD$
+${PYSITELIB}/bitstring.py
 ${PYSITELIB}/bitstring.pyc
 ${PYSITELIB}/bitstring.pyo
+share/doc/py-bitstring/bitstring.pdf
