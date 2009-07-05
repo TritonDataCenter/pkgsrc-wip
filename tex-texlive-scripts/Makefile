@@ -6,6 +6,7 @@ PKGNAME=	tex-${DISTNAME}-2009.13822
 
 MAINTAINER=	minskim@NetBSD.org
 COMMENT=	Executables and files maintained as part of TeX Live
+LICENSE=	gnu-gpl-v2 AND public-domain
 
 CONFLICTS+=	tex-bin-texlive-[0-9]*
 DEPENDS+=	luatex-[0-9]*:../../print/luatex
