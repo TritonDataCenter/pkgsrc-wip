@@ -62,10 +62,11 @@ _texlive-install:
 			${_texmf} ${DESTDIR}${PREFIX}/share; \
 	fi
 .endfor
-	if [ -d ${WRKSRC}/texmf-doc ]; then \
-		cd ${WRKSRC} && \
-		pax -rwpm -s ',.*\.orig$$,,' texmf-doc/* \
-			${DESTDIR}${PREFIX}/share/doc/texmf; \
+	if [ -d ${WRKSRC}/bin ]; then \
+		${INSTALL_SCRIPT_DIR} ${DESTDIR}${PREFIX}/bin; \
+		for script in ${WRKSRC}/bin/*; do \
+			${INSTALL_SCRIPT} $$script ${DESTDIR}${PREFIX}/bin; \
+		done; \
 	fi
 
 .include "../../print/kpathsea/texmf.mk"
