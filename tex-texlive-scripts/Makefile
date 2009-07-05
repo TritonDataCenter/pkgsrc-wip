@@ -11,14 +11,7 @@ LICENSE=	gnu-gpl-v2 AND public-domain
 CONFLICTS+=	tex-bin-texlive-[0-9]*
 DEPENDS+=	luatex-[0-9]*:../../print/luatex
 
-FIND_PREFIX:=	TEXLUA_PREFIX=texlua
-.include "../../mk/find-prefix.mk"
-
-REPLACE_INTERPRETER=	texlua
-REPLACE.texlua.old=	.*texlua
-REPLACE.texlua.new=	${TEXLUA_PREFIX}/bin/texlua
-REPLACE_FILES.texlua=	bin/rungs
-
+REPLACE_TEXLUA=		bin/rungs
 TEX_TEXMF_DIRS+=	${PREFIX}/share/texmf
 
 .include "../../wip/mk/tlpkg.mk"
