@@ -45,6 +45,8 @@ NO_BUILD?=	yes
 WRKSRC?=	${WRKDIR}
 
 .if defined(REPLACE_TEXLUA)
+DEPENDS+=	luatex-[0-9]*:../../print/luatex
+
 FIND_PREFIX:=	LUATEX_PREFIX=luatex
 .include "../../mk/find-prefix.mk"
 
