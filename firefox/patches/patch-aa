@@ -46,12 +46,3 @@ $NetBSD$
  *)
  	AC_CHECK_LIB(c_r, gethostbyname_r)
  	;;
-@@ -6320,7 +6333,7 @@ dnl ====================================
- dnl = Enable code optimization. ON by default.
- dnl ========================================================
- if test -z "$MOZ_OPTIMIZE_FLAGS"; then
--	MOZ_OPTIMIZE_FLAGS="-O"
-+	MOZ_OPTIMIZE_FLAGS=""
- fi
- 
- MOZ_ARG_ENABLE_STRING(optimize,
