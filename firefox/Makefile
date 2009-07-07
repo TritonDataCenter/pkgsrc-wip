@@ -33,6 +33,7 @@ CONFIG_STATUS_OVERRIDE+=js/src/build/autoconf/config.status
 CONFIG_STATUS_OVERRIDE+=nsprpub/config.status
 
 CONFIGURE_ARGS+=	--enable-application=browser
+CONFIGURE_ARGS+=	--enable-libxul
 #CONFIGURE_ARGS+=	--with-libxul-sdk=/usr/pkg/lib/xulrunner-sdk
 CONFIGURE_ARGS+=	--disable-tests --disable-pedantic
 CONFIGURE_ARGS+=	--enable-crypto
