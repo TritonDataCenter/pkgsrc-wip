@@ -7,7 +7,7 @@ MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=xine/}
 EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
-HOMEPAGE=	http://xinehq.de/
+HOMEPAGE=	http://www.xine-project.org/
 COMMENT=	Plugin for www/firefox for using multimedia/xine-lib
 
 PKG_DESTDIR_SUPPORT=	user-destdir
