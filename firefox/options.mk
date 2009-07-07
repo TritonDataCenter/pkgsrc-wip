@@ -13,7 +13,9 @@ PKG_SUGGESTED_OPTIONS+=	mozilla-jemalloc
 
 .if !empty(PKG_OPTIONS:Mmozilla-jemalloc)
 CONFIGURE_ARGS+=	--enable-jemalloc
+. if ${OPSYS} == "SunOS"
 PLIST.jemalloc=		yes
+. endif
 .else
 CONFIGURE_ARGS+=	--disable-jemalloc
 .endif
