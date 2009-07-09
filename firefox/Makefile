@@ -37,7 +37,7 @@ CONFIGURE_ARGS+=	--enable-libxul
 #CONFIGURE_ARGS+=	--with-libxul-sdk=/usr/pkg/lib/xulrunner-sdk
 CONFIGURE_ARGS+=	--disable-tests --disable-pedantic
 CONFIGURE_ARGS+=	--enable-crypto
-CONFIGURE_ARGS+=	--enable-optimize="-DTNN_OPTIMIZE -O2" --with-pthreads
+CONFIGURE_ARGS+=	--enable-optimize=-O2 --with-pthreads
 CONFIGURE_ARGS+=	--disable-gnomevfs --disable-gnomeui
 CONFIGURE_ARGS+=	--disable-dbus --disable-javaxpcom
 CONFIGURE_ARGS+=	--enable-default-toolkit=cairo-gtk2
@@ -47,8 +47,6 @@ CONFIGURE_ARGS+=	--with-system-jpeg
 CONFIGURE_ARGS+=	--with-system-zlib --with-system-bz2
 CONFIGURE_ARGS+=	--enable-system-sqlite
 CONFIGURE_ARGS+=	--disable-crashreporter
-CFLAGS+=		-DTNN_CFLAGS
-CXXFLAGS+=		-DTNN_CXXFLAGS
 
 MAKE_ENV+=		MOZILLA_PKG_NAME=firefox35
 
