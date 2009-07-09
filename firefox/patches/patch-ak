@@ -1,4 +1,4 @@
-$NetBSD: patch-ej,v 1.1 2009/01/05 09:58:36 martin Exp $
+$NetBSD$
 
 --- toolkit/components/places/src/nsMorkHistoryImporter.cpp.orig	2009-06-29 18:15:22.000000000 +0200
 +++ toolkit/components/places/src/nsMorkHistoryImporter.cpp

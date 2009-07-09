@@ -1,8 +1,7 @@
-$NetBSD: patch-dr,v 1.1.1.1 2008/06/28 10:01:07 tnn Exp $
+$NetBSD$
 
 Add DragonFly support.
 
-diff -ruN ../Orig/mozilla/config/config.mk ./config/config.mk
 --- config/config.mk.orig	2009-06-29 18:14:41.000000000 +0200
 +++ config/config.mk
 @@ -133,7 +133,7 @@ endif

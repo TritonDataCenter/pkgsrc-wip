@@ -1,8 +1,7 @@
-$NetBSD: patch-du,v 1.1.1.1 2008/06/28 10:01:07 tnn Exp $
+$NetBSD$
 
 Treat DragonFly like FreeBSD.
 
-diff -ruN ../Orig/mozilla/config/rules.mk ./config/rules.mk
 --- config/rules.mk.orig	2009-06-29 18:14:41.000000000 +0200
 +++ config/rules.mk
 @@ -592,6 +592,12 @@ EXTRA_DSO_LDOPTS += -Wl,-Bsymbolic

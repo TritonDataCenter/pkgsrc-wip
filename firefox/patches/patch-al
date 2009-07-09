@@ -1,4 +1,4 @@
-$NetBSD: patch-ek,v 1.1 2009/01/05 09:58:36 martin Exp $
+$NetBSD$
 
 # Reported upstream as https://bugzilla.mozilla.org/show_bug.cgi?id=471179
 

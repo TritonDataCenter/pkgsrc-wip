@@ -1,6 +1,5 @@
-$NetBSD: patch-dj,v 1.1.1.1 2008/06/28 10:01:07 tnn Exp $
+$NetBSD$
 
-diff -ruN ../Orig/mozilla/dbm/src/mktemp.c ./dbm/src/mktemp.c
 --- dbm/src/mktemp.c.orig	2009-06-29 18:14:43.000000000 +0200
 +++ dbm/src/mktemp.c
 @@ -90,7 +90,7 @@ mktemp(char *path)

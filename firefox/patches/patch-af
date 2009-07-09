@@ -1,6 +1,5 @@
-$NetBSD: patch-bs,v 1.1.1.1 2008/06/28 10:01:07 tnn Exp $
+$NetBSD$
 
-diff -ruN ../Orig/mozilla/config/mkdepend/imakemdep.h ./config/mkdepend/imakemdep.h
 --- config/mkdepend/imakemdep.h.orig	2009-06-29 18:14:41.000000000 +0200
 +++ config/mkdepend/imakemdep.h
 @@ -235,7 +235,7 @@ in this Software without prior written a

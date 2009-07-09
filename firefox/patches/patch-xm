@@ -1,4 +1,4 @@
-$NetBSD: patch-cb,v 1.2 2009/04/21 12:58:22 tnn Exp $
+$NetBSD$
 
 NetBSD/ppc xptcall support code. Originally from pkgsrc/www/mozilla.
 

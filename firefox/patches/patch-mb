@@ -1,4 +1,4 @@
-$NetBSD: patch-ac,v 1.2 2009/04/21 12:58:22 tnn Exp $
+$NetBSD$
 
 --- xpcom/reflect/xptcall/src/md/unix/Makefile.in.orig	2009-06-29 18:15:32.000000000 +0200
 +++ xpcom/reflect/xptcall/src/md/unix/Makefile.in

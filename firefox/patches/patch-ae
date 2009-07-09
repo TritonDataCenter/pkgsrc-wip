@@ -1,4 +1,4 @@
-$NetBSD: patch-br,v 1.2 2009/04/07 08:01:01 hasso Exp $
+$NetBSD$
 
 --- nsprpub/pr/src/misc/prnetdb.c.orig	2009-06-29 18:15:07.000000000 +0200
 +++ nsprpub/pr/src/misc/prnetdb.c

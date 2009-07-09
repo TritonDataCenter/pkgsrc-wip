@@ -1,4 +1,4 @@
-$NetBSD: patch-em,v 1.1 2009/02/11 10:09:47 markd Exp $
+$NetBSD$
 
 SHA1_Update conflicts with openssl which may be dynamically loaded
 at runtime via libcups or libgssapi so causing a crash due to using

@@ -1,6 +1,5 @@
-$NetBSD: patch-dh,v 1.1.1.1 2008/06/28 10:01:07 tnn Exp $
+$NetBSD$
 
-diff -ruN ../Orig/mozilla/xpcom/reflect/xptcall/src/md/unix/xptc_platforms_unixish_x86.h ./xpcom/reflect/xptcall/src/md/unix/xptc_platforms_unixish_x86.h
 --- xpcom/reflect/xptcall/src/md/unix/xptc_platforms_unixish_x86.h.orig	2009-06-29 18:15:33.000000000 +0200
 +++ xpcom/reflect/xptcall/src/md/unix/xptc_platforms_unixish_x86.h
 @@ -77,6 +77,13 @@

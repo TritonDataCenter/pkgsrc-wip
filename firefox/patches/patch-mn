@@ -1,4 +1,4 @@
-$NetBSD: patch-ei,v 1.1 2008/12/17 23:16:50 tnn Exp $
+$NetBSD$
 
 Make sure we link correctly with sqlite3 from pkgsrc.
 

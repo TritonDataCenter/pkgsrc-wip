@@ -1,8 +1,7 @@
-$NetBSD: patch-bv,v 1.1.1.1 2008/06/28 10:01:07 tnn Exp $
+$NetBSD$
 
 NetBSD/amd64 xptcall support code. Originally from pkgsrc/www/mozilla.
 
-diff -ruN ../Orig/mozilla/xpcom/reflect/xptcall/src/md/unix/xptcstubs_unixish_amd64.cpp ./xpcom/reflect/xptcall/src/md/unix/xptcstubs_unixish_amd64.cpp
 --- xpcom/reflect/xptcall/src/md/unix/xptcstubs_unixish_amd64.cpp.orig	2009-06-30 22:20:24.000000000 +0200
 +++ xpcom/reflect/xptcall/src/md/unix/xptcstubs_unixish_amd64.cpp
 @@ -0,0 +1,206 @@
