@@ -88,7 +88,7 @@ post-install:
 BUILDLINK_DEPMETHOD.qt4-tools=	full
 .include "../../wip/kde4/kde4.mk"
 
-PYTHON_VERSIONS_ACCEPTED= 25 # because kdebindings4-python
+PYTHON_VERSIONS_ACCEPTED= 26 25 # because kdebindings4-python
 .include "../../lang/python/application.mk"
 .include "../../lang/python/extension.mk"
 .include "../../devel/libusb/buildlink3.mk"

@@ -6,7 +6,7 @@ COMMENT=	Utilities for the KDE integrated X11 desktop
 
 .include "../../wip/kde4/Makefile.kde4"
 
-PYTHON_VERSIONS_ACCEPTED= 25
+PYTHON_VERSIONS_ACCEPTED= 26 25
 #make sure cmake picks up the same Python version as pkgsrc
 CMAKE_ARGS+=	-DPYTHON_EXECUTABLE:FILEPATH=${PYTHONBIN}
 
