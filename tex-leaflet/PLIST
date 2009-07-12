@@ -1,9 +1,0 @@
-@comment $NetBSD$
-${PKG_LOCALTEXMFPREFIX}/doc/latex/leaflet/README
-${PKG_LOCALTEXMFPREFIX}/doc/latex/leaflet/leaflet-manual.pdf
-${PKG_LOCALTEXMFPREFIX}/doc/latex/leaflet/leaflet.pdf
-${PKG_LOCALTEXMFPREFIX}/tex/latex/leaflet/leaflet.cls
-@dirrm ${PKG_LOCALTEXMFPREFIX}/tex/latex/leaflet
-@comment In texmf-dirs: @dirrm ${PKG_LOCALTEXMFPREFIX}/tex/latex
-@dirrm ${PKG_LOCALTEXMFPREFIX}/doc/latex/leaflet
-@comment In texmf-dirs: @dirrm ${PKG_LOCALTEXMFPREFIX}/doc/latex
