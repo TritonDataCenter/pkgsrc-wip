@@ -1,7 +1,6 @@
 # $NetBSD$
 
 DISTNAME=	scummvm-${SCM_VER}
-PKGREVISION=	1
 CATEGORIES=	games
 
 OWNER=		dillo@NetBSD.org
