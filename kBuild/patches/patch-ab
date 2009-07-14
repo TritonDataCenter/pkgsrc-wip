@@ -1,0 +1,12 @@
+$NetBSD$
+
+--- src/ash/Makefile.kmk.orig	2009-01-10 03:24:02.000000000 +0100
++++ src/ash/Makefile.kmk
+@@ -36,6 +36,7 @@ kmk_ash_DEFS.debug = DEBUG=2
+ endif
+ kmk_ash_DEFS.linux = BSD
+ kmk_ash_DEFS.solaris = BSD
++kmk_ash_DEFS.netbsd = BSD HAVE_SYS_SIGNAME
+ kmk_ash_DEFS.win = \
+ 	BSD PC_PATH_SEP PC_DRIVE_LETTERS PC_EXE_EXTS PC_SLASHES
+ kmk_ash_DEFS.os2 = \

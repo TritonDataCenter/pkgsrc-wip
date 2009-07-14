@@ -1,0 +1,13 @@
+$NetBSD$
+
+--- src/kmk/kmkbuiltin/osdep.c.orig	2009-01-10 03:24:02.000000000 +0100
++++ src/kmk/kmkbuiltin/osdep.c
+@@ -38,5 +38,8 @@
+ #elif defined(__APPLE__)
+ # include "darwin.c"
+ 
++#elif defined(__NetBSD__)
++# include "strtofflags.c"
++
+ #endif
+ 
