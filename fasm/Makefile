@@ -1,13 +1,15 @@
 # $NetBSD$
 #
 
-DISTNAME=		fasm-1.67.38
+DISTNAME=		fasm-1.68
 CATEGORIES=		devel
 MASTER_SITES=		http://flatassembler.net/
 
 MAINTAINER=		athaba@inode.at
 HOMEPAGE=		http://flatassembler.net/
 COMMENT=		Open source assembly language compiler
+
+LICENSE=		modified-bsd
 
 ONLY_FOR_PLATFORM=	*-*-i386 *-*-x86_64
 PKG_DESTDIR_SUPPORT=	user-destdir
