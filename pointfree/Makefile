@@ -10,5 +10,5 @@ COMMENT=	Convert Haskell expressions to pointfree form
 
 .include "../../wip/mk/haskell.mk"
 .include "../../wip/hs-mtl/buildlink3.mk"
-.include "../../wip/parsec/buildlink3.mk"
+.include "../../wip/hs-parsec/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
