@@ -70,6 +70,15 @@ pre-configure:
 	cd ${WRKSRC}/js/src && autoconf
 	cd ${WRKSRC}/nsprpub && autoconf
 
+
+# Makefiles sometimes call "rm -f" without more arguments. Kludge around ...
+.PHONY: create-rm-wrapper
+pre-configure: create-rm-wrapper
+create-rm-wrapper:
+	printf '#!/bin/sh\n[ "$$*" = "-f" ] && exit 0\nexec /bin/rm $$@\n' > \
+	  ${WRAPPER_DIR}/bin/rm
+	chmod +x ${WRAPPER_DIR}/bin/rm
+
 .PHONY: install-desktop
 post-install: install-desktop
 install-desktop:
