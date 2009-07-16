@@ -1,4 +1,4 @@
-# $NetBSD: Makefile,v 1.14 2008/06/12 02:14:47 joerg Exp $
+# $NetBSD$
 #
 
 DISTNAME=	aspell6-te-0.01-2
