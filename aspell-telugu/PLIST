@@ -1,0 +1,7 @@
+@comment $NetBSD$
+lib/aspell/te.rws
+lib/aspell/te.multi
+lib/aspell/telugu.alias
+share/aspell/te.dat
+share/aspell/u-telu.cset
+share/aspell/u-telu.cmap
