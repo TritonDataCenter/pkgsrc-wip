@@ -10,9 +10,10 @@ COMMENT=	Open-source RSS/Atom feed reader for text terminals
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
-USE_NCURSES=	yes
 USE_LANGUAGES=	c c++
 USE_TOOLS+=	gmake pkg-config msgfmt perl
+USE_NCURSES=	yes
+USE_GNU_ICONV=	yes
 
 REPLACE_PERL+=	txt2h.pl
 
