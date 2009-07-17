@@ -6,7 +6,7 @@ PKGREVISION=	3
 CATEGORIES=	mail
 MASTER_SITES=	ftp://ftp.sendmail.org/pub/sendmail/
 
-MAINTAINER=	adrianp@NetBSD.org
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.sendmail.org/sm-X/
 COMMENT=	Modular Mail Transfer Agent
 

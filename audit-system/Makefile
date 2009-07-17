@@ -6,7 +6,7 @@ CATEGORIES=	security
 MASTER_SITES=	# empty
 DISTFILES=	# empty
 
-MAINTAINER=	adrianp@NetBSD.org
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.NetBSD.org/support/security/
 COMMENT=	Check the NetBSD base OS for known vulnerabilities
 
