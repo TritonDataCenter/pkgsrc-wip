@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	stfl-0.19
+DISTNAME=	stfl-0.21
 CATEGORIES=	devel
 MASTER_SITES=	http://www.clifford.at/stfl/
 
@@ -12,10 +12,18 @@ NO_INSTALL_MANPAGES=	yes
 PKG_DESTDIR_SUPPORT=	user-destdir
 
 NO_CONFIGURE=	yes
-USE_TOOLS+=	gmake perl
+USE_TOOLS+=	gmake perl iconv
 USE_NCURSES=	yes
+USE_GNU_ICONV=	yes
 
 INSTALL_MAKE_FLAGS+=	prefix=${PREFIX}
+
+# Makefile
+SUBST_CLASSES+=		makefile
+SUBST_STAGE.makefile=	pre-build
+SUBST_MESSAGE.makefile=	Fixing distribution Makefile...
+SUBST_FILES.makefile=	${MAKE_FILE}
+SUBST_SED.makefile=	-e 's/LDLIBS.*/& -liconv/'
 
 .include "../../mk/bsd.prefs.mk"
 
