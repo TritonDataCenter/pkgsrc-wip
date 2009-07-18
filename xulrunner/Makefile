@@ -33,6 +33,7 @@ PKGCONFIG_OVERRIDE+=	xulrunner/installer/mozilla-nspr.pc.in
 PKGCONFIG_OVERRIDE+=	xulrunner/installer/mozilla-nss.pc.in
 PKGCONFIG_OVERRIDE+=	xulrunner/installer/mozilla-plugin.pc.in
 
+PRIVILEGED_STAGES=	clean
 CHECK_SHLIBS_SUPPORTED=	no # XXX
 
 CONFIG_GUESS_OVERRIDE=	build/autoconf/config.guess

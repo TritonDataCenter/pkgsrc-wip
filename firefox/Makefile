@@ -21,6 +21,8 @@ BUILD_DEPENDS+=		zip>=2.3:../../archivers/zip
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 CHECK_PORTABILITY_SKIP=	security/nss/tests/libpkix/libpkix.sh
+
+PRIVILEGED_STAGES=	clean
 CHECK_SHLIBS_SUPPORTED=	no # XXX
 
 CONFIG_GUESS_OVERRIDE=	build/autoconf/config.guess
