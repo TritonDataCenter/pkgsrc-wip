@@ -1,9 +1,9 @@
 # $NetBSD$
 #
 
-DISTNAME=	llvm-2.4
+DISTNAME=	llvm-2.5
 CATEGORIES=	lang
-MASTER_SITES=	http://llvm.org/releases/2.4/
+MASTER_SITES=	http://llvm.org/releases/${PKGVERSION_NOREV}/
 
 MAINTAINER=	adam.hoka@gmail.com
 HOMEPAGE=	http://llvm.org/
@@ -31,6 +31,8 @@ CONFIGURE_ARGS+= --enable-targets=host-only
 #CONF_FILES+=	share/examples/llvm/st etc/llvm/st
 
 CHECK_PORTABILITY_SKIP=	utils/buildit/build_llvm
+
+TEST_TARGET=	check unittests
 
 .include "../../converters/libiconv/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
