@@ -12,7 +12,7 @@ NO_INSTALL_MANPAGES=	yes
 PKG_DESTDIR_SUPPORT=	user-destdir
 
 NO_CONFIGURE=	yes
-USE_TOOLS+=	gmake perl iconv
+USE_TOOLS+=	gmake perl
 USE_NCURSES=	yes
 USE_GNU_ICONV=	yes
 
