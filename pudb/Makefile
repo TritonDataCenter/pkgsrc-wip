@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	pudb-0.92.7.tar
+DISTNAME=	pudb-0.92.9.tar
 PKGNAME=	${DISTNAME:S/.tar//}
 CATEGORIES=	devel python
 MASTER_SITES=	http://pypi.python.org/packages/source/p/pudb/
@@ -19,7 +19,7 @@ DEPENDS+=	${PYPKGPREFIX}-pygments>=1.0:../../textproc/py-pygments
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
-WRKSRC=		${WRKDIR}/pudb-0.92.7
+WRKSRC=		${WRKDIR}/pudb-0.92.9
 USE_LANGUAGES=	# none
 
 .include "../../lang/python/egg.mk"
