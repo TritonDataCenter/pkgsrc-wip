@@ -8,6 +8,8 @@ MASTER_SITES=	http://www.cacti.net/downloads/spine/
 MAINTAINER=	pettai@nordu.net
 HOMEPAGE=	http://www.cacti.net/spine_info.php
 COMMENT=	Spine is a poller for Cacti for large installations
+LICENSE=	cacti-license
+LICENSE_FILE=	${FILESDIR}/cacti-license
 
 WRKSRC=		${WRKDIR}/${DISTNAME}
 USE_LANGUAGES=	c c++
