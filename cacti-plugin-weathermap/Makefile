@@ -1,8 +1,8 @@
 # $NetBSD$
 #
 
-DISTNAME=		php-weathermap-0.95b
-PKGNAME=		cacti-plugin-weathermap-0.95b
+DISTNAME=		php-weathermap-0.96a
+PKGNAME=		cacti-plugin-weathermap-0.96a
 CATEGORIES=		net
 MASTER_SITES=		http://www.network-weathermap.com/files/
 EXTRACT_SUFX=		.zip
@@ -10,6 +10,7 @@ EXTRACT_SUFX=		.zip
 MAINTAINER=		pettai@nordu.net
 HOMEPAGE=		http://www.network-weathermap.com/
 COMMENT=		Php Weathermap, as a plugin to cacti
+LICENSE=		gnu-gpl-v2
 
 WRKSRC=			${WRKDIR}/weathermap
 USE_LANGUAGES=		# none
