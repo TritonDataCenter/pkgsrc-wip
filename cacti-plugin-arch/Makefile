@@ -5,18 +5,19 @@ PKGNAME=		cacti-plugin-arch-${RC_VERSION}
 CATEGORIES=		net
 MASTER_SITES=		http://mirror.cactiusers.org/downloads/plugins/
 EXTRACT_SUFX=		.zip
-RC_VERSION=		2.4
-CACTI_RC=		0.8.7d
+RC_VERSION=		2.5
+CACTI_RC=		0.8.7e
 
 MAINTAINER=		pettai@nordu.net
 HOMEPAGE=		http://cactiusers.org/
 COMMENT=		Plugin architecture for cacti
+LICENSE=		gnu-gpl-v2
 
 USE_LANGUAGES=		# none
 NO_BUILD=		yes
 WRKSRC=			${WRKDIR}/files-${CACTI_RC}
 
-DEPENDS+=		cacti-0.8.7d:../../wip/cacti
+DEPENDS+=		cacti-0.8.7e:../../wip/cacti
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 

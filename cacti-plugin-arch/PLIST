@@ -35,8 +35,3 @@ share/cacti/plugins/index.php
 share/cacti/poller.php
 share/cacti/user_admin.php
 share/cacti/utilities.php
-@dirrm share/cacti/plugins
-@dirrm share/cacti/lib
-@dirrm share/cacti/include
-@dirrm share/cacti/docs
-@dirrm share/cacti
