@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		cacti-0.8.7d
+DISTNAME=		cacti-0.8.7e
 CATEGORIES=		net
 MASTER_SITES=		http://sourceforge.net/project/showfiles.php?group_id=34886&package_id=27259
 
