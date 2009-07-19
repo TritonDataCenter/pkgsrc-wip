@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		rancid-2.3.2a9
+DISTNAME=		rancid-2.3.2
 CATEGORIES=		net
 MASTER_SITES=		ftp://ftp.shrubbery.net/pub/rancid/
 

@@ -101,5 +101,3 @@ share/doc/rancid/rancid.conf.sample
 share/doc/rancid/rtrfilter
 share/examples/rancid/lg.conf.sample
 share/examples/rancid/rancid.conf.sample
-@dirrm share/examples/rancid
-@dirrm share/doc/rancid
