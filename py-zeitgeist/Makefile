@@ -14,6 +14,8 @@ LICENSE=	gnu-lgpl-v3
 DEPENDS+=	${PYPKGPREFIX}-xdg-[0-9]*:../../devel/py-xdg
 DEPENDS+=	${PYPKGPREFIX}-storm-[0-9]*:../../wip/py-storm
 
+PYTHON_VERSIONS_INCOMPATIBLE=	23 24 25
+
 PKG_DESTDIR_SUPPORT=	user-destdir
 
 GNU_CONFIGURE=	yes
