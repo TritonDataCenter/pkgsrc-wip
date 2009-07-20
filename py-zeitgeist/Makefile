@@ -31,4 +31,6 @@ REPLACE_PYTHON=	zeitgeist-daemon zeitgeist-datahub
 .include "../../sysutils/py-dbus/buildlink3.mk"
 BUILDLINK_ABI_DEPENDS.pygtk2+=	${PYPKGPREFIX}-gtk2>=2.14.1nb1
 .include "../../x11/py-gtk2/buildlink3.mk"
+# for py-gconf
+.include "../../x11/py-gnome2/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
