@@ -3,3 +3,4 @@ $NetBSD$
 SHA1 (TracAuthOpenId-0.2.1.tar.gz) = 120b747044a4737acde44337a630541714666d4d
 RMD160 (TracAuthOpenId-0.2.1.tar.gz) = 5cb119b187a16c4893d8e378bf61492df1c02bf0
 Size (TracAuthOpenId-0.2.1.tar.gz) = 220464 bytes
+SHA1 (patch-aa) = e2a5360a40c33d8f9c58f016fc0f82cc9945443a
