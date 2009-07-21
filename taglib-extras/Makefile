@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	taglib-extras-0.1.3
+DISTNAME=	taglib-extras-0.1.4
 CATEGORIES=	audio
 MASTER_SITES=	http://www.kollide.net/~jefferai/
 
@@ -11,7 +11,6 @@ COMMENT=	Extra plugins for taglib
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
-WRKSRC=		${WRKDIR}/taglib-extras
 USE_LANGUAGES=	c c++
 USE_CMAKE=	yes
 
