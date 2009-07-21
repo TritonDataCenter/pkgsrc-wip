@@ -1,4 +1,4 @@
-# $NetBSD: options.mk,v 1.36 2009/05/11 08:24:58 wiz Exp $
+# $NetBSD$
 
 .if defined(PKGNAME) && empty(PKGNAME:Mmplayer-share*)
 

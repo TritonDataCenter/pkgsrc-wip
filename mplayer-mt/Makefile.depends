@@ -1,4 +1,4 @@
-# $NetBSD: Makefile.depends,v 1.18 2007/08/15 13:23:27 rillig Exp $
+# $NetBSD$
 #
 
 #DEPENDS+=	mplayer-share>=${MPLAYER_PKG_VERSION}:../../multimedia/mplayer-share
