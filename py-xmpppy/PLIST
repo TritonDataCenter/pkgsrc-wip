@@ -44,4 +44,12 @@ ${PYSITELIB}/xmpp/simplexml.pyo
 ${PYSITELIB}/xmpp/transports.py
 ${PYSITELIB}/xmpp/transports.pyc
 ${PYSITELIB}/xmpp/transports.pyo
-@dirrm ${PYSITELIB}/xmpp
+${PYSITELIB}/xmpppy-0.5.0rc1-py2.5.egg-info/PKG-INFO
+${PYSITELIB}/xmpppy-0.5.0rc1-py2.5.egg-info/SOURCES.txt
+${PYSITELIB}/xmpppy-0.5.0rc1-py2.5.egg-info/dependency_links.txt
+${PYSITELIB}/xmpppy-0.5.0rc1-py2.5.egg-info/top_level.txt
+share/doc/py-xmpppy/advanced.html
+share/doc/py-xmpppy/basic.html
+share/doc/py-xmpppy/index.html
+share/doc/py-xmpppy/xmpppy.css
+share/doc/py-xmpppy/xmpppy_title.png
