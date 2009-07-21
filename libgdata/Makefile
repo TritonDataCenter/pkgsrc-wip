@@ -1,9 +1,9 @@
 # $NetBSD$
 #
 
-DISTNAME=	libgdata-0.3.0
+DISTNAME=	libgdata-0.4.0
 CATEGORIES=	www
-MASTER_SITES=	${MASTER_SITE_GNOME:=sources/libgdata/0.3/}
+MASTER_SITES=	${MASTER_SITE_GNOME:=sources/libgdata/0.4/}
 EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	kamelderouiche@yahoo.com
@@ -17,6 +17,7 @@ GNU_CONFIGURE=	yes
 USE_PKGLOCALEDIR= yes
 USE_LIBTOOL=	yes
 USE_TOOLS+=	pkg-config gmake intltool msgfmt
+USE_LANGUAGES+=  c c++
 
 PKGCONFIG_OVERRIDE+=	libgdata.pc.in
 
