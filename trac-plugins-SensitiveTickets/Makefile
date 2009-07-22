@@ -1,6 +1,6 @@
 # $NetBSD$
 
-VERSION=	0.0.${SVN_VERSION}
+VERSION=	0.1.${SVN_VERSION}
 SVN_VERSION=	5285
 
 DISTNAME=	TracSensitiveTickets-${VERSION}
@@ -10,6 +10,9 @@ PKGREVISION=
 EGG_NAME=	${DISTNAME}
 CATEGORIES=	www
 MASTER_SITES=	# not defined
+
+# setup.py says "GPL".
+LICENSE=	gnu-gpl-v2
 
 MAINTAINER=	gdt@NetBSD.org
 HOMEPAGE=	http://trac-hacks.org/wiki/SensitiveTicketsPlugin
