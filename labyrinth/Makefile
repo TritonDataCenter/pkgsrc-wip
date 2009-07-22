@@ -18,7 +18,6 @@ USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=	yes
 USE_TOOLS+=	pkg-config intltool gmake
 USE_LANGUAGES=	c c++
-USE_DIRS+=		xdg-1.4
 
 PYTHON_VERSIONS_ACCEPTED=   26 25
 PY_PATCHPLIST=		yes

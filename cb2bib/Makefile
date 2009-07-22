@@ -13,7 +13,6 @@ BROKEN=			Requires QT>=4.2, and pkgsrc is still at 4.1
 DEPENDS+=		qt4-libs>=4.2:../../x11/qt4-libs
 DEPENDS+=		qt4-tools>=4.2:../../x11/qt4-tools
 
-USE_DIRS+=		xdg-1.2
 USE_LANGUAGES=		c c++
 USE_LIBTOOL=		yes
 USE_TOOLS+=		gmake

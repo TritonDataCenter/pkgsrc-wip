@@ -13,7 +13,6 @@ PKG_DESTDIR_SUPPORT=		user-destdir
 WRKSRC=		${WRKDIR}/gxconsole
 GNU_CONFIGURE=	yes
 USE_TOOLS+=		pkg-config
-USE_DIRS+=		 xdg-1.4
 
 .include "../../devel/glib2/buildlink3.mk"
 .include "../../sysutils/desktop-file-utils/desktopdb.mk"

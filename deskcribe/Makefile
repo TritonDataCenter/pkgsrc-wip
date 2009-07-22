@@ -12,7 +12,6 @@ COMMENT=	DeskScribe is a usability testing suite
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
-USE_DIRS+=		xdg-1.4
 GNU_CONFIGURE=	yes
 USE_TOOLS+=	intltool perl pkg-config gmake
 

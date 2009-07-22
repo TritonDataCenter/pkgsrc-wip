@@ -16,7 +16,6 @@ USE_LANGUAGES=	c c++
 CONFIGURE_ARGS+=	--with-opengl
 USE_TOOLS+=	pkg-config
 
-USE_DIRS+= xdg-1.4
 
 .include "../../wip/guichan/buildlink3.mk"
 .include "../../devel/SDL/buildlink3.mk"

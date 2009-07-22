@@ -12,7 +12,6 @@ HOMEPAGE=	http://www.byuu.org/
 COMMENT=	SNES emulator
 
 WRKSRC=		${WRKDIR}/src
-USE_DIRS=	xdg-1.4
 USE_LANGUAGES=	c c++
 USE_TOOLS+=	gmake pkg-config
 MAKE_FLAGS+=	platform=x compiler=gcc enable_gzip=true

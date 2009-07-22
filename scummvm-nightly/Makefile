@@ -16,7 +16,6 @@ USE_LANGUAGES=	c c++
 HAS_CONFIGURE=	yes
 CONFIGURE_ARGS+=--prefix=${LOCALBASE}
 CONFIGURE_ARGS+=--mandir=${LOCALBASE}/${PKGMANDIR}
-USE_DIRS+=	xdg-1.1
 WRKSRC=		${WRKDIR}/scummvm
 
 .include "options.mk"

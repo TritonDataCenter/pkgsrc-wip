@@ -10,7 +10,6 @@ MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://labs.libre-entreprise.org/projects/gurlchecker/
 COMMENT=	Gnome2 program to check a page/website for broken links
 
-USE_DIRS+=		gnome2-1.5
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 USE_TOOLS+=		gmake msgfmt

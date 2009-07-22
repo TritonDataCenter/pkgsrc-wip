@@ -10,7 +10,6 @@ HOMEPAGE=		http://www.workrave.org/
 COMMENT=		Wrist break reminder program for prevention of RSI
 
 USE_LIBTOOL=		YES
-USE_DIRS+=		xdg-1.1
 USE_TOOLS+=		gmake pkg-config intltool
 USE_LANGUAGES+=		c c++
 USE_PKGLOCALEDIR=	yes

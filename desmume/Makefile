@@ -11,7 +11,6 @@ COMMENT=	Nintendo DS emulator
 
 GNU_CONFIGURE=	yes
 USE_TOOLS+=	intltool perl pkg-config
-USE_DIRS+=	xdg-1.4
 
 PKG_DESTDIR_SUPPORT=user-destdir
 

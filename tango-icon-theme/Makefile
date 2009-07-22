@@ -16,7 +16,6 @@ USE_TOOLS+=	gmake intltool pkg-config
 BUILDLINK_DEPMETHOD.ImageMagick=	build
 BUILDLINK_API_DEPENDS.icon-naming-utils+=	icon-naming-utils>=0.8.90
 
-USE_DIRS+=	xdg-1.4
 
 .include "../../graphics/ImageMagick/buildlink3.mk"
 .include "../../graphics/hicolor-icon-theme/buildlink3.mk"

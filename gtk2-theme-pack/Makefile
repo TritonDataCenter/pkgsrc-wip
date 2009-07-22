@@ -124,7 +124,6 @@ WRKSRC=		${WRKDIR}
 NO_BUILD=	yes
 
 USE_TOOLS+=		pax
-USE_DIRS+=		xdg-1.4
 
 # clean up a bit. remove .xvpics (GIMP and xv thumbnail directories) and
 # backup files

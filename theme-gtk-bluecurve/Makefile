@@ -22,7 +22,6 @@ BUILD_DEPENDS+=	rpm-[0-9]*:../../misc/rpm
 
 WRKSRC=	${WRKDIR}/redhat-artwork-${THEMEVERSION}
 USE_TOOLS+=	gmake
-USE_DIRS+=		xdg-1.4
 THEMES_SUBDIRS= ${WRKSRC}/art/gtk/Bluecurve1
 USE_LIBTOOL=	YES
 

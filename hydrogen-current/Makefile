@@ -15,7 +15,6 @@ USE_LANGUAGES=	c c++
 USE_LIBTOOL=	yes
 USE_TOOLS+=	gmake pax
 GNU_CONFIGURE=	yes
-USE_DIRS+=	xdg-1.4
 LDFLAGS+=	-lossaudio
 
 CONFIGURE_ARGS+=	--disable-alsa

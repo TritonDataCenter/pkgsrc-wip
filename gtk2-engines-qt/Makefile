@@ -13,7 +13,6 @@ COMMENT=		GTK+ 2.x theme, which looks just like Qt toolkit
 
 WRKSRC=			${WRKDIR}/gtk-qt-engine-0.2
 USE_PKGLOCALEDIR=	yes
-USE_DIRS+=		xdg-1.4
 USE_LIBTOOL=		yes
 USE_TOOLS+=		gmake pkg-config
 PKGCONFIG_OVERRIDE+=	gtk-qt-engine-2.pc.in

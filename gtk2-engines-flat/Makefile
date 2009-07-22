@@ -11,7 +11,6 @@ HOMEPAGE=		http://freshmeat.net/projects/gtk2flat/
 COMMENT=		Flat theme engine for GTK+ 2.x
 
 USE_LIBTOOL=		YES
-USE_DIRS+=		xdg-1.4
 USE_TOOLS+=		gmake pkg-config
 GNU_CONFIGURE=		YES
 

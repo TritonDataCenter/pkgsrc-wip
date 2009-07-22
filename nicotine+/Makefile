@@ -11,7 +11,6 @@ HOMEPAGE=	http://www.nicotine-plus.org/
 COMMENT=	Client for the SoulSeek, a peer-to-peer network for music
 
 CONFLICTS=	nicotine-[0-9]*
-USE_DIRS+=	xdg-1.4
 USE_LANGUAGES=	# none
 
 DEPENDS+=	${PYPKGPREFIX}-vorbis>=0:../../audio/py-vorbis

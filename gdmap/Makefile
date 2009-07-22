@@ -12,7 +12,6 @@ COMMENT=		Tool to visualize disk space
 PKG_DESTDIR_SUPPORT=	user-destdir
 
 GNU_CONFIGURE=		yes
-USE_DIRS+=		xdg-1.2
 USE_LANGUAGES=		c c++
 USE_PKGLOCALEDIR=	yes
 USE_TOOLS+=		gmake pkg-config msgfmt xgettext perl intltool

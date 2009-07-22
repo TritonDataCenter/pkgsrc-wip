@@ -14,7 +14,6 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=		yes
 GNU_CONFIGURE=		yes
-USE_DIRS+=		xdg-1.4 gnome2-1.6
 USE_TOOLS+=		gmake intltool pkg-config
 
 .include "../../devel/GConf/schemas.mk"

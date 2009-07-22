@@ -13,7 +13,6 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 
 GNU_CONFIGURE=	yes
 USE_TOOLS+=	intltool pkg-config gmake
-USE_DIRS+= 	xdg-1.4
 
 CONFIGURE_ARGS+=	--disable-omoko
 CONFIGURE_ARGS+=	--disable-hildon

@@ -17,7 +17,6 @@ DEPENDS+=	lha>=114:../../archivers/lha
 DEPENDS+=	unrar>=3.0:../../archivers/unrar
 DEPENDS+=	wget>=1.10:../../net/wget
 
-USE_DIRS+=	xdg-1.1
 USE_LANGUAGES=	c c++
 USE_TOOLS+=	gmake bash gzip:run tar:run
 

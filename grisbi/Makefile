@@ -15,7 +15,6 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 GNU_CONFIGURE=	yes
 USE_TOOLS+=	pkg-config intltool gmake
 
-USE_DIRS+=	xdg-1.4
 
 INSTALLATION_DIRS=	${PKGMANDIR}/man1
 

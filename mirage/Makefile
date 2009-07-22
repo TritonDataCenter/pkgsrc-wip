@@ -15,7 +15,6 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 PYTHON_VERSIONS_ACCEPTED=	25 24
 PY_PATCHPLIST=			yes
 PYDISTUTILSPKG=			yes
-USE_DIRS+=			xdg-1.4
 
 .include "../../devel/GConf/schemas.mk"
 .include "../../graphics/hicolor-icon-theme/buildlink3.mk"

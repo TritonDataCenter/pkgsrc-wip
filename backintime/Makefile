@@ -16,7 +16,6 @@ DEPENDS+=	rsync-[0-9]*:../../net/rsync
 WRKSRC=		${WRKDIR}/${PKGNAME_NOREV}
 
 REPLACE_PYTHON=	backintime
-USE_DIRS+=	gnome2-1.6 xdg-1.4
 USE_LANGUAGES=	# none
 USE_TOOLS=	msgfmt
 

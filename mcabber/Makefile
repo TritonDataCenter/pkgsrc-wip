@@ -17,7 +17,6 @@ CHECK_PORTABILITY_SKIP+=	contrib/events/eventcmd.pastebin
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=		yes
 USE_TOOLS+=		gmake xgettext pkg-config
-USE_DIRS+=			xdg-1.4
 USE_NCURSES=		yes
 
 post-install:

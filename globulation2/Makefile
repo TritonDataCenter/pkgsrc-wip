@@ -11,7 +11,6 @@ HOMEPAGE=		http://globulation2.org/wiki/
 COMMENT=		Real-Time Strategy (RTS) game providing AI and net mode
 
 GNU_CONFIGURE=		YES
-USE_DIRS+=		xdg-1.4
 USE_LANGUAGES=		c++
 USE_TOOLS+=		gmake
 

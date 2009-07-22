@@ -16,7 +16,6 @@ PKG_DESTDIR_SUPPORT=		user-destdir
 # for stetic
 DEPENDS+=	monodevelop-[0-9]*:../../devel/monodevelop
 
-USE_DIRS+=	xdg-1.4
 USE_PKGLOCALEDIR= yes
 USE_LANGUAGES=	# C#
 USE_TOOLS+=	gmake msgfmt pkg-config

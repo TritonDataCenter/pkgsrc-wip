@@ -7,7 +7,6 @@ PKGNAME=	xfce4-wm-${XFCE4_VERSION}
 CATEGORIES=	wm
 COMMENT=	Xfce window manager
 
-USE_DIRS+=	xdg-1.4
 
 .include "../../graphics/hicolor-icon-theme/buildlink3.mk"
 .include "../../x11/libXpm/buildlink3.mk"

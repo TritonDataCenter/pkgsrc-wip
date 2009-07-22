@@ -20,7 +20,6 @@ LICENSE_FILE=	LICENSE
 DEPENDS=	ati-xfree86-bin<${VERSION}:../../wip/ati-xfree86-bin
 
 NO_BUILD=	yes
-USE_DIRS+=	xdg-1.1
 SHAREDIR=	${PREFIX}/share/${PKGBASE}
 MESSAGE_SUBST+=	SHAREDIR=${SHAREDIR}
 

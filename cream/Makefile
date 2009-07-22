@@ -12,7 +12,6 @@ COMMENT=		Usability add-on for Vim
 DEPENDS+=		{vim-gtk2,vim-gtk,vim-kde,vim-motif}>=7.0:../../editors/vim-gtk2
 
 NO_BUILD=		yes
-USE_DIRS+=		xdg-1.2
 
 .include "../../editors/vim-share/version.mk"
 VIMRUNTIME=		${PREFIX}/share/vim/${VIM_SUBDIR}

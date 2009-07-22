@@ -14,7 +14,6 @@ LICENSE=	gnu-gpl-v3
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
-USE_DIRS+=	xdg-1.1
 USE_TOOLS+=	gmake makeinfo gzip
 
 CONFLICTS+=	emacs-nox11-[0-9]*

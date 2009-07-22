@@ -20,7 +20,6 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_TOOLS=	gmake pkg-config automake autoconf
-USE_DIRS+=	xdg-1.4
 
 PKG_SYSCONFSUBDIR=	enlightenment
 CONFIGURE_ARGS+=	--sysconfdir=${PKG_SYSCONFDIR:Q}

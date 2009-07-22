@@ -14,7 +14,6 @@ DEPENDS=	${PYPKGPREFIX}-expat-[0-9]*:../../textproc/py-expat
 .include "options.mk"
 
 PY_PATCHPLIST=	yes
-USE_DIRS+=	xdg-1.4
 USE_TOOLS+=	gmake intltool pkg-config
 GNU_CONFIGURE=	yes
 

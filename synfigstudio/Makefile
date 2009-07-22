@@ -16,7 +16,6 @@ USE_LANGUAGES=		c c++
 USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=		yes
 USE_TOOLS+=			gmake
-USE_DIRS+=			xdg-1.4
 
 GCONF2_SCHEMAS+=	synfigstudio-thumbnailer.schemas
 

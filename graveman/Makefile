@@ -13,7 +13,6 @@ COMMENT=		GTK2 frontend for CD writing and audio conversion
 DEPENDS+=		dvd+rw-tools>5.21:../../sysutils/dvd+rw-tools
 
 GNU_CONFIGURE=		yes
-USE_DIRS+=		xdg-1.2
 USE_PKGLOCALEDIR=	yes
 USE_TOOLS+=		gmake intltool pkg-config
 

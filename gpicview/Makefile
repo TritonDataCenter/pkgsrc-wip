@@ -13,7 +13,6 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 
 GNU_CONFIGURE=	yes
 USE_TOOLS+=			pkg-config gmake
-USE_DIRS+=			xdg-1.4
 
 .include "../../x11/gtk2/buildlink3.mk"
 .include "../../graphics/jpeg/buildlink3.mk"

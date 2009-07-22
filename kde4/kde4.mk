@@ -8,7 +8,6 @@
 KDE4_MK=	# defined
 
 USE_PKGLOCALEDIR=	YES
-USE_DIRS+=		kde4-1.0
 
 CMAKE_ARGS+=	-DHTML_INSTALL_DIR=${PREFIX}/share/doc/kde/HTML
 CMAKE_ARGS+=	-DDATA_INSTALL_DIR=${PREFIX}/share/kde/apps

@@ -14,7 +14,6 @@ DEPENDS+=		zip>=0.0:../../archivers/zip
 
 WRKSRC=			${WRKDIR}/${DISTNAME}-beta
 
-USE_DIRS+=		xdg-1.3
 USE_LANGUAGES=		c c++
 USE_LIBTOOL=		yes
 USE_PKGLOCALEDIR=	yes

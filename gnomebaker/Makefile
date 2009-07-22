@@ -10,7 +10,6 @@ COMMENT=	GTK2/GNOME CD/DVD burning application
 
 DEPENDS+=	cdrtools>=2.01:../../sysutils/cdrtools
 
-USE_DIRS+=		xdg-1.4 gnome2-1.4
 USE_TOOLS+=		pkg-config msgfmt intltool
 GNU_CONFIGURE=		YES
 

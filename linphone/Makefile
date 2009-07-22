@@ -11,7 +11,6 @@ COMMENT=	SIP-based IP telephony client
 
 GNU_CONFIGURE=	YES
 USE_TOOLS+=	gmake intltool perl pkg-config
-USE_DIRS+=	gnome2-1.6 xdg-1.4
 USE_LIBTOOL=	YES
 USE_GNU_READLINE=	yes # rl_hook_func_t et al.
 USE_PKGLOCALEDIR=	yes

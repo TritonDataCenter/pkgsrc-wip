@@ -19,7 +19,6 @@ PKG_DESTDIR_SUPPORT=    user-destdir
 ###
 NOT_FOR_PLATFORM=	Darwin-*-*
  
-USE_DIRS+=		xdg-1.4
 USE_LANGUAGES=          c c++
 USE_LIBTOOL=		yes
 

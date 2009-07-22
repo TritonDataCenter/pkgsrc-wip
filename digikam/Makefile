@@ -22,7 +22,6 @@ USE_LANGUAGES=		c c++
 REPLACE_PERL=	utilities/scripts/digitaglinktree
 REPLACE_SH=	utilities/scripts/cleanup_digikamdb
 USE_CMAKE=	yes
-USE_DIRS+=	xdg-1.4
 USE_TOOLS+=	gawk msgfmt perl:run pkg-config
 
 .include "options.mk"

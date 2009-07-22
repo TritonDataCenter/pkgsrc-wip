@@ -15,7 +15,6 @@ GNU_CONFIGURE=	yes
 USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=	yes
 USE_TOOLS+=	pkg-config intltool
-USE_DIRS+=		xdg-1.4
 
 .include "../../audio/id3lib/buildlink3.mk"
 .include "../../devel/glib2/buildlink3.mk"

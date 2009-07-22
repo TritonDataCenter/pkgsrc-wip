@@ -13,7 +13,6 @@ HOMEPAGE=		http://themes.freshmeat.net/projects/dwerg/
 COMMENT=		Theme engine for GTK+ 2.x
 
 USE_LIBTOOL=		YES
-USE_DIRS+=		xdg-1.4
 USE_TOOLS+=		gmake pkg-config
 GNU_CONFIGURE=		YES
 

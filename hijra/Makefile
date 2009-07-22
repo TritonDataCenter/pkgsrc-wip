@@ -16,7 +16,6 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 USE_LANGUAGES=	# none
 PYDISTUTILSPKG=		yes
 
-USE_DIRS+=	xdg-1.4
 
 INSTALLATION_DIRS+=	bin
 

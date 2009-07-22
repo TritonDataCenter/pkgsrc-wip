@@ -15,7 +15,6 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 GNU_CONFIGURE=	yes
 USE_PKGLOCALEDIR=   yes
 USE_TOOLS+=	pkg-config perl intltool gmake msgfmt
-USE_DIRS+= 	xdg-1.4 gnome2-1.6
 
 PKG_OPTIONS_VAR=                PKG_OPTIONS.homebank
 PKG_SUPPORTED_OPTIONS=          libofx

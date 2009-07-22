@@ -18,7 +18,6 @@ PKG_DESTDIR_SUPPORT=		user-destdir
 USE_PKGLOCALEDIR=	yes
 USE_TOOLS+=	intltool msgfmt
 USE_LANGUAGES=	# none
-USE_DIRS+= 	xdg-1.4
 
 PYDISTUTILSPKG= yes
 

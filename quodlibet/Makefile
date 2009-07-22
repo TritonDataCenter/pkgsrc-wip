@@ -19,7 +19,6 @@ DEPENDS+=		gst-plugins0.10-ogg>=0.10.0:../../multimedia/gst-plugins0.10-ogg
 PYTHON_VERSIONS_INCOMPATIBLE=\
 			15 20 21 22 23
 PYTHON_PATCH_SCRIPTS=	*.py */*.py
-USE_DIRS+=		xdg-1.4
 USE_TOOLS+=		gmake intltool pkg-config
 USE_PKGLOCALEDIR=	yes
 BUILD_TARGET=		_trayicon.so _mmkeys.so

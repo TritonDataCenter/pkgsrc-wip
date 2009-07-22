@@ -18,7 +18,6 @@ DEPENDS+=	${PYPKGPREFIX}-configobj>=0.4.3:../../wip/py-configobj
 PKG_DESTDIR_SUPPORT=	user-destdir
 
 GNU_CONFIGURE=	yes
-USE_DIRS+= 	xdg-1.4
 
 REPLACE_PYTHON+=	bin/reinteract.in
 

@@ -24,7 +24,6 @@ GNU_CONFIGURE=		yes
 USE_LIBTOOL=		yes
 USE_PKGLOCALEDIR=	yes
 USE_TOOLS+=	pkg-config perl gmake intltool msgfmt
-USE_DIRS+= 	xdg-1.4
 
 PYTHON_VERSIONS_ACCEPTED= 26 25 24 23
 

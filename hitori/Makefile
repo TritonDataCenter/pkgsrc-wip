@@ -11,7 +11,6 @@ COMMENT=	Hitori is an application that allow to play the eponymous puzzle game
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
-USE_DIRS+=	xdg-1.4
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_TOOLS+=	pkg-config intltool gmake

@@ -15,7 +15,6 @@ GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_TOOLS+=	pkg-config intltool perl gmake
 USE_LANGUAGES=	c c++
-USE_DIRS+=	xdg-1.4
 
 
 .include "../../devel/glib2/buildlink3.mk"

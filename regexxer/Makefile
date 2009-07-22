@@ -11,7 +11,6 @@ HOMEPAGE=	http://regexxer.sourceforge.net/
 COMMENT=	Interactive tool for performing search and replace operations
 
 GNU_CONFIGURE=		yes
-USE_DIRS+=		gnome2-1.5
 USE_LANGUAGES=		c c++
 USE_TOOLS+=		gmake perl intltool pkg-config
 

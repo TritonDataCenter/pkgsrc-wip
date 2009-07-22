@@ -17,7 +17,6 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 GNU_CONFIGURE=		yes
 LDFLAGS+=		-L${WRKSRC}/src/.libs/
 LIBTOOL_OVERRIDE=	${WRKSRC}/libtool
-USE_DIRS+=		xdg-1.4
 USE_LIBTOOL=		yes
 USE_TOOLS+=		bash:run gmake
 WRKSRC=			${WRKDIR}/${PKGNAME_NOREV}

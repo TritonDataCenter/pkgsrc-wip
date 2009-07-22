@@ -14,7 +14,6 @@ COMMENT=	FTP, FTPS and SFTP client with intuitive GUI
 PKG_DESTDIR_SUPPORT=	user-destdir
 
 GNU_CONFIGURE=	yes
-USE_DIRS+=	xdg-1.4
 USE_LANGUAGES=	c c++
 USE_TOOLS+=	gmake pkg-config msgfmt msgmerge
 WRKSRC=		${WRKDIR}/${PKGNAME_NOREV}

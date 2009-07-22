@@ -14,7 +14,6 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_TOOLS+=	pkg-config perl intltool gmake
-USE_DIRS+= 	xdg-1.4
 USE_LANGUAGES=	c c++
 
 .include "../../devel/GConf/schemas.mk"

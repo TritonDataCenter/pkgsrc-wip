@@ -14,7 +14,6 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 GNU_CONFIGURE=	yes
 USE_TOOLS+=		pkg-config msgfmt gmake
 USE_LANGUAGES=	# none
-USE_DIRS+=			xdg-1.4
 
 .include "../../graphics/hicolor-icon-theme/buildlink3.mk"
 .include "../../lang/mono/buildlink3.mk"

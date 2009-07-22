@@ -13,7 +13,6 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 
 GNU_CONFIGURE=	yes
 USE_PKGLOCALEDIR= yes
-USE_DIRS=	gnome2-1.6 xdg-1.4
 USE_LIBTOOL=	yes
 USE_TOOLS+=	gmake intltool msgfmt pkg-config
 USE_LANGUAGES=  c c++

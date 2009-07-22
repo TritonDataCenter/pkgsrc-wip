@@ -18,7 +18,6 @@ LICENSE=	amd-software-license
 LICENSE_FILE=	LICENSE
 
 NO_BUILD=	yes
-USE_DIRS+=	xdg-1.1
 
 # Note: untested on all but NetBSD-4.99.[23]?-i386
 # Please send feedback to ${MAINTAINER}

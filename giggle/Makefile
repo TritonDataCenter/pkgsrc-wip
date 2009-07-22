@@ -17,7 +17,6 @@ DEPENDS+=       scmgit-base-[0-9]*:../../devel/scmgit-base
 GNU_CONFIGURE=  yes
 USE_LIBTOOL=    yes
 USE_TOOLS+=     gmake pkg-config intltool
-USE_DIRS+=      xdg-1.4
 
 .include "options.mk"
 

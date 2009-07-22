@@ -12,7 +12,6 @@ PKG_DESTDIR_SUPPORT=		user-destdir
 
 USE_LIBTOOL=			yes
 USE_LANGUAGES=		c++
-USE_DIRS+=				xdg-1.4
 
 ARORA_BIN=				../arora
 

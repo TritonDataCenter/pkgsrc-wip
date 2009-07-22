@@ -14,7 +14,6 @@ COMMENT=		GNOME Commander is a fast and powerful graphical filemanager
 USE_LANGUAGES=		c c++
 USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=		yes
-USE_DIRS=		gnome2-1.6
 GNU_CONFIGURE=		yes
 USE_TOOLS+=		gmake intltool pkg-config perl
 

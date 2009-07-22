@@ -14,7 +14,6 @@ PKG_DESTDIR_SUPPORT=    user-destdir
 
 GNU_CONFIGURE=	yes
 USE_TOOLS+=	intltool perl pkg-config gmake
-USE_DIRS+= xdg-1.4
 
 DEPENDS+=	rdesktop>=1.6.0:../../net/rdesktop
 

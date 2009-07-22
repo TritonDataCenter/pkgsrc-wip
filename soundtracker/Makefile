@@ -12,7 +12,6 @@ COMMENT=		Music tracker for XM and MOD files
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 USE_TOOLS+=		gettext
-USE_DIRS+=		xdg-1.4
 LIBS+=	${LIBOSSAUDIO}
 
 .include "../../x11/gtk/buildlink3.mk"

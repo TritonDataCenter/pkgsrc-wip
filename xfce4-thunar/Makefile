@@ -12,7 +12,6 @@ COMMENT=	Xfce file manager
 
 #DEPENDS+=	p5-XML-Parser-[0-9]*:../../textproc/p5-XML-Parser
 
-USE_DIRS+=	xdg-1.2
 
 PKGCONFIG_OVERRIDE+=	thunar-vfs/thunar-vfs-1.pc.in
 PKGCONFIG_OVERRIDE+=	thunarx/thunarx-1.pc.in
