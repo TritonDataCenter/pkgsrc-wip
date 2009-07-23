@@ -3,6 +3,7 @@
 
 DISTNAME=	html-1.0.1.2
 PKGNAME=	hs-${DISTNAME}
+PKGREVISION=	1
 CATEGORIES=	www
 
 MAINTAINER=	pho@cielonegro.org
