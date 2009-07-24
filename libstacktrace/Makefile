@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	lmdbg-0.10.0
+DISTNAME=	lmdbg-0.11.0
 PKGNAME=	${DISTNAME:S/lmdbg-/libstacktrace-/}
 CATEGORIES=	devel
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=lmdbg/} \
