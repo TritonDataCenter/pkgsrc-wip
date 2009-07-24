@@ -1,7 +1,9 @@
 @comment $NetBSD$
 bin/lmdbg
 bin/lmdbg-leaks
+bin/lmdbg-multi2single
 bin/lmdbg-run
+bin/lmdbg-single2multi
 bin/lmdbg-sym
 bin/lmdbg-sysleaks
 lib/liblmdbg.a
