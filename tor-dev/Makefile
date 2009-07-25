@@ -1,14 +1,13 @@
 # $NetBSD$
 #
 
-DISTNAME=		tor-0.2.1.17-rc
-PKGNAME=		${DISTNAME:S/-rc//}
+DISTNAME=		tor-0.2.1.18
 CATEGORIES=		net security
 MASTER_SITES=		http://www.torproject.org/dist/
 
 MAINTAINER=		athaba@inode.at
 HOMEPAGE=		http://www.torproject.org/
-COMMENT=		Anonymizing overlay network for TCP (unstable)
+COMMENT=		Anonymizing overlay network for TCP
 LICENSE=		modified-bsd
 
 .include "../../mk/bsd.prefs.mk"
