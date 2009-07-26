@@ -1,7 +1,7 @@
 # $NetBSD: Makefile,v 1.42 2008/07/07 14:58:00 kristerw Exp $
 
 DISTNAME=		ghc-${VERSION}
-VERSION=		6.10.3
+VERSION=		6.10.4
 CATEGORIES=		lang
 MASTER_SITES=	http://www.haskell.org/ghc/dist/${VERSION}/
 MAINTAINER=		kristerw@NetBSD.org
@@ -51,7 +51,7 @@ CONFIGURE_ARGS += --with-gmp-libraries=${PREFIX}/lib
 # because we don't build it in a standard way (./configure && make).
 #
 # To install it, we search for any non-symlink executables in
-# work/ghc-6.4.2 whose name ends with "-inplace". Then copy those
+# work/ghc-6.6.1 whose name ends with "-inplace". Then copy those
 # files into ${BUILDLINK_DIR}/bin with dropping the "-inplace" at
 # their tails.
 pre-configure:
