@@ -57,3 +57,4 @@ sbin/collectd
 sbin/collectdmon
 share/collectd/postgresql_default.conf
 share/collectd/types.db
+share/examples/collectd/collectd.conf
