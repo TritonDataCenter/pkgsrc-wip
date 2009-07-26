@@ -9,7 +9,6 @@ COMMENT=	Executables and files maintained as part of TeX Live
 LICENSE=	gnu-gpl-v2 AND public-domain
 
 CONFLICTS+=	tex-bin-texlive-[0-9]*
-DEPENDS+=	luatex-[0-9]*:../../print/luatex
 
 REPLACE_TEXLUA=		bin/rungs
 TEX_TEXMF_DIRS+=	${PREFIX}/share/texmf
