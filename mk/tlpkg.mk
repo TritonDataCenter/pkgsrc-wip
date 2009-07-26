@@ -31,7 +31,15 @@
 #	should not be installed.
 
 CATEGORIES?=	print
-MASTER_SITES?=	ftp://ftp.math.utah.edu/pub/texlive/tlnet/archive/
+MASTER_SITES?=	\
+	ftp://ftp.ctex.org/mirrors/texlive/tlnet/archive/ \
+	http://ftp.ctex.org/mirrors/texlive/tlnet/archive/ \
+	ftp://ftp.cstug.cz/pub/tex/tlnet/archive/ \
+	http://ftp.cstug.cz/pub/tex/tlnet/archive/ \
+	http://ftp.klid.dk/ftp/texlive/tlnet/ \
+	http://texlive.guiling.fr/archive/ \
+	ftp://ftp.math.utah.edu/pub/texlive/tlnet/archive/ \
+	http://www.math.utah.edu/pub/texlive/tlnet/archive/
 DIST_SUBDIR?=	${PKGNAME_NOREV}
 EXTRACT_SUFX?=	.tar.xz
 
