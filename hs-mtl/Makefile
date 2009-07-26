@@ -5,6 +5,7 @@ DISTNAME=	mtl-1.1.0.2
 PKGREVISION=	1
 PKGNAME=	hs-${DISTNAME}
 CATEGORIES=	devel
+LICENSE=	modified-bsd
 
 MAINTAINER=	pho@cielonegro.org
 COMMENT=	Monad transformer library
