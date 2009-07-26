@@ -1,12 +1,14 @@
 # $NetBSD$
 #
 
-DISTNAME=	HsOpenSSL-0.6.1
+DISTNAME=	HsOpenSSL-0.6.4
 CATEGORIES=	security
 
 MAINTAINER=	pho@cielonegro.org
 HOMEPAGE=	http://cielonegro.org/HsOpenSSL.html
 COMMENT=	OpenSSL binding for Haskell
+LICENSE=	public-domain
+
 USE_TOOLS+=	pkg-config
 
 BUILDLINK_API_DEPENDS.openssl+=	openssl>=0.9.7l
