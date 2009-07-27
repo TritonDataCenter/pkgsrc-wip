@@ -1,8 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	HTTP-4000.0.1
-PKGNAME=	hs-${DISTNAME}
+DISTNAME=	HTTP-4000.0.7
 CATEGORIES=	www
 
 MAINTAINER=	pho@cielonegro.org
@@ -11,5 +10,5 @@ COMMENT=	Haskell library for client-side HTTP
 
 .include "../../wip/mk/haskell.mk"
 .include "../../wip/hs-network/buildlink3.mk"
-.include "../../wip/parsec/buildlink3.mk"
+.include "../../wip/hs-parsec/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
