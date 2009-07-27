@@ -9,6 +9,7 @@ MAINTAINER=	eric@cirr.com
 HOMEPAGE=	http://www.corpit.ru/mjt/udns.html
 COMMENT=	Lightweight DNS resolver supporting asynchronous queries
 
+LICENSE=	gnu-lgpl-v2.1
 PKG_DESTDIR_SUPPORT=	user-destdir
 
 WRKSRC=		${WRKDIR}/${PKGNAME_NOREV}

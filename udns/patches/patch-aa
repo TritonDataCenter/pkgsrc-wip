@@ -1,5 +1,7 @@
 $NetBSD$
 
+# update to use libtool for portability
+
 --- Makefile.in.orig	2007-01-15 22:19:08.000000000 +0100
 +++ Makefile.in
 @@ -34,7 +34,7 @@ DIST   = COPYING.LGPL udns.h udns.3 dnsg
