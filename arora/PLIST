@@ -3,7 +3,7 @@ bin/arora
 bin/arora-placesimport
 bin/googlesuggest
 bin/htmlToXBel
-man/man1/arora.1.gz
+man/man1/arora.1
 share/applications/arora.desktop
 share/arora/locale/cs_CZ.qm
 share/arora/locale/da_DK.qm
