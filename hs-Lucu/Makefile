@@ -1,12 +1,13 @@
 # $NetBSD$
 #
 
-DISTNAME=	Lucu-0.3
+DISTNAME=	Lucu-0.3.2
 CATEGORIES=	www
 
 MAINTAINER=	pho@cielonegro.org
 HOMEPAGE=	http://cielonegro.org/Lucu.html
 COMMENT=	HTTP daemonic library for Haskell
+LICENSE=	public-domain
 
 .include "../../wip/mk/haskell.mk"
 .include "../../wip/hs-HsOpenSSL/buildlink3.mk"
