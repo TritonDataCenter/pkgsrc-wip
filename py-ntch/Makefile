@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	pyntch-dist-20090615
-PKGNAME=	${PYPKGPREFIX}-ntch-20090531
+PKGNAME=	${PYPKGPREFIX}-ntch-${VERSION}
 CATEGORIES=	devel python
 MASTER_SITES=	http://www.unixuser.org/~euske/python/pyntch/
 
@@ -13,7 +13,7 @@ COMMENT=	Examine python code and detect possible errors
 
 PKG_DESTDIR_SUPPORT=		user-destdir
 
-USE_LANGUAGES=	# none
+VERSION=	20090615
 
 PYDISTUTILSPKG= 	yes
 PYTHON_VERSIONS_ACCEPTED= 26 25 24
