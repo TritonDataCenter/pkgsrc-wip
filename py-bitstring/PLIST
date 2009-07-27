@@ -2,4 +2,4 @@
 ${PYSITELIB}/bitstring.py
 ${PYSITELIB}/bitstring.pyc
 ${PYSITELIB}/bitstring.pyo
-share/doc/py-bitstring/bitstring.pdf
+share/doc/py-bitstring/bitstring_manual.pdf
