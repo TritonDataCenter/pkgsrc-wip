@@ -30,6 +30,9 @@ INSTALL_MAKE_FLAGS+=    ${MAKE_FLAGS} sysconfdir=${EGDIR:Q}
 PERL5_CONFIGURE=	no
 PERL5_PACKLIST=	auto/Collectd/.packlist
 
+.include "../../mk/bsd.prefs.mk"
+.include "options.mk"
+
 .include "../../devel/libltdl/convenience.mk"
 .include "../../lang/perl5/module.mk"
 .include "../../lang/perl5/buildlink3.mk"
