@@ -4,6 +4,7 @@ lib/blam/AtomFeed.dll
 lib/blam/RSSFeed.dll
 lib/blam/blam.exe
 lib/blam/blam.exe.config
+lib/blam/blam.exe.mdb
 man/man1/blam.1
 share/applications/blam.desktop
 share/blam/collection.xml
@@ -37,19 +38,3 @@ share/icons/hicolor/24x24/apps/blam.png
 share/icons/hicolor/32x32/apps/blam.png
 share/icons/hicolor/48x48/apps/blam.png
 share/icons/hicolor/scalable/apps/blam.svg
-@comment in hicolor-icon-theme: @dirrm share/icons/hicolor/scalable/apps
-@comment in hicolor-icon-theme: @dirrm share/icons/hicolor/48x48/apps
-@comment in hicolor-icon-theme: @dirrm share/icons/hicolor/32x32/apps
-@comment in hicolor-icon-theme: @dirrm share/icons/hicolor/24x24/apps
-@comment in hicolor-icon-theme: @dirrm share/icons/hicolor/22x22/apps
-@comment in hicolor-icon-theme: @dirrm share/icons/hicolor/16x16/apps
-@comment in hicolor-icon-theme: @dirrm share/icons/hicolor
-@comment in GConf: @dirrm share/gconf/schemas
-@dirrm share/blam/themes/planet
-@dirrm share/blam/themes/pimped
-@dirrm share/blam/themes/blam
-@dirrm share/blam/themes/akregator
-@dirrm share/blam/themes
-@dirrm share/blam
-@comment in xdg-dirs: @dirrm share/applications
-@dirrm lib/blam
