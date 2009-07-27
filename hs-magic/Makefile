@@ -2,12 +2,13 @@
 #
 
 DISTNAME=	magic-1.0.7
-PKGNAME=	hs-${DISTNAME}
+PKGREVISION=	1
 CATEGORIES=	devel
 
 MAINTAINER=	pho@cielonegro.org
 COMMENT=	Haskell interface to the C libmagic library
+LICENSE=	modified-bsd
 
-.include "../../sysutils/file/buildlink3.mk"
 .include "../../wip/mk/haskell.mk"
+.include "../../sysutils/file/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
