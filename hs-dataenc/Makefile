@@ -7,6 +7,7 @@ CATEGORIES=	devel
 MAINTAINER=	pho@cielonegro.org
 HOMEPAGE=	http://www.haskell.org/haskellwiki/Library/Data_encoding
 COMMENT=	Data encoding library for Haskell
+LICENSE=	modified-bsd
 
 .include "../../wip/mk/haskell.mk"
 .include "../../mk/bsd.pkg.mk"

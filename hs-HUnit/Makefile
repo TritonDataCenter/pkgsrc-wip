@@ -7,6 +7,7 @@ CATEGORIES=	devel
 MAINTAINER=	pho@cielonegro.org
 HOMEPAGE=	http://hunit.sourceforge.net/
 COMMENT=	Unit testing framework for Haskell
+LICENSE=	modified-bsd
 
 USE_LANGUAGES=	# none
 
