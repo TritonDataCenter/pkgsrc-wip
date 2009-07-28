@@ -5,7 +5,7 @@ DISTNAME=	gxmessage-2.12.1
 CATEGORIES=	x11
 MASTER_SITES=	http://homepages.ihug.co.nz/~trmusson/stuff/
 
-MAINTAINER=	kamel.derouiche@gmail.com
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	http://homepages.ihug.co.nz/~trmusson/programs.html#gxmessage/
 COMMENT=	Gxmessage a GTK2+ based xmessage clone
 
