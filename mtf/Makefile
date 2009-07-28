@@ -8,6 +8,9 @@ EXTRACT_SUFX=	.tgz
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.laytongraphics.com/mtf/
 COMMENT=	Unix reader for the Microsoft Tape Format used by NT Backup
+LICENSE=	gnu-gpl-v2
+
+PKG_DESTDIR_SUPPORT=	user-destdir
 
 BUILD_TARGET=	# empty
 MTF_DOCSDIR=	${PREFIX}/share/doc/mtf
