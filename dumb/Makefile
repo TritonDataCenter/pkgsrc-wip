@@ -8,7 +8,9 @@ MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=dumb/}
 MAINTAINER=		collver1@comcast.net
 HOMEPAGE=		http://dumb.sourceforge.net/
 COMMENT=		IT, XM, S3M and MOD player library
-LICENSE=		dumb-license
+#LICENSE=		dumb-license
+
+PKG_DESTDIR_SUPPORT=	destdir
 
 USE_TOOLS+=		gmake
 
@@ -22,4 +24,4 @@ post-install:
 
 .include "../../devel/allegro/buildlink3.mk"
 .include "../../mk/oss.buildlink3.mk"
-.include "../../mk/bsd.pkg.mk"
+
