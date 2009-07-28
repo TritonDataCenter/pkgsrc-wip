@@ -9,6 +9,8 @@ MAINTAINER=	ondrej.tuma@firma.seznam.cz
 HOMEPAGE=	http://downloads.sourceforge.net/sourceforge/fastrpc/
 COMMENT=	Protocol based on the XML-RPC which uses binary format for data
 
+PKG_DESTDIR_SUPPORT=	user-destdir
+
 WRKSRC=		${WRKDIR}/fastrpc-1.0
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
