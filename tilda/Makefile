@@ -8,7 +8,7 @@ MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=tilda/}
 
 MAINTAINER=	pancake@phreaker.net
 HOMEPAGE=	http://tilda.sourceforge.net/
-COMMENT=	Terminal like the classic first-person-shooter games.
+COMMENT=	Terminal like the classic first-person-shooter games
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
