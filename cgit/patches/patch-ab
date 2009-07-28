@@ -2,14 +2,16 @@ $NetBSD$
 
 --- cgitrc.orig	2009-02-21 18:34:56.000000000 +0100
 +++ cgitrc
-@@ -0,0 +1,63 @@
+@@ -0,0 +1,65 @@
 +##
 +## cgitrc: template for /etc/cgitrc
 +##
 +
-+
-+## root folder for git repos
-+#root=/usr/src/git
++## repositories
++repo.url=name
++repo.path=/var/git/repository.git
++repo.desc=repository description
++repo.owner=your@email
 +
 +
 +## base for virtual urls. If specified, rewrite rules must be added to 
@@ -31,7 +33,7 @@ $NetBSD$
 +
 +
 +## link to logo file
-+#logo=/git-logo.png
++#logo=/cgit.png
 +
 +
 +## url loaded when clicking the logo
