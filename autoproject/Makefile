@@ -8,6 +8,8 @@ MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://jrv.oddones.org/
 COMMENT=		Creates a skeleton source package for a new program
 
+PKG_DESTDIR_SUPPORT=	user-destdir
+
 DEPENDS+=		autoconf>=2.57:../../devel/autoconf
 DEPENDS+=		automake>=1.7:../../devel/automake
 DEPENDS+=		bash>=2.0:../../shells/bash2
