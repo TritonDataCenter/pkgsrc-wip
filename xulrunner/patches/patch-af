@@ -1,6 +1,6 @@
 $NetBSD$
 
---- config/mkdepend/imakemdep.h.orig	2004-04-20 23:38:14.000000000 +0200
+--- config/mkdepend/imakemdep.h.orig	2009-06-29 18:14:41.000000000 +0200
 +++ config/mkdepend/imakemdep.h
 @@ -235,7 +235,7 @@ in this Software without prior written a
  #ifdef _CRAY

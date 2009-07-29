@@ -1,6 +1,6 @@
 $NetBSD$
 
---- xulrunner/installer/mozilla-nss.pc.in.orig	2008-01-18 12:20:17.000000000 +0100
+--- xulrunner/installer/mozilla-nss.pc.in.orig	2009-06-29 18:15:36.000000000 +0200
 +++ xulrunner/installer/mozilla-nss.pc.in
 @@ -6,5 +6,5 @@ Name: NSS
  Description: Mozilla Network Security Services

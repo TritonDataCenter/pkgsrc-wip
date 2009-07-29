@@ -2,7 +2,7 @@ $NetBSD$
 
 Add DragonFly support.
 
---- security/coreconf/arch.mk.orig	2007-11-14 23:49:43.000000000 +0100
+--- security/coreconf/arch.mk.orig	2009-06-29 18:15:11.000000000 +0200
 +++ security/coreconf/arch.mk
 @@ -146,7 +146,7 @@ endif
  # IRIX 6.5-ALPHA-1289139620.

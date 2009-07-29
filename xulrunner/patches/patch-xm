@@ -2,7 +2,7 @@ $NetBSD$
 
 NetBSD/ppc xptcall support code. Originally from pkgsrc/www/mozilla.
 
---- xpcom/reflect/xptcall/src/md/unix/xptcinvoke_ppc_netbsd.cpp.orig	2008-01-06 04:46:24.000000000 +0100
+--- xpcom/reflect/xptcall/src/md/unix/xptcinvoke_ppc_netbsd.cpp.orig	2009-06-29 18:15:33.000000000 +0200
 +++ xpcom/reflect/xptcall/src/md/unix/xptcinvoke_ppc_netbsd.cpp
 @@ -40,9 +40,9 @@
  

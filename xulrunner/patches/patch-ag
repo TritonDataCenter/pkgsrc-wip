@@ -1,6 +1,6 @@
 $NetBSD$
 
---- nsprpub/pr/include/md/_freebsd.h.orig	2004-11-22 22:24:53.000000000 +0100
+--- nsprpub/pr/include/md/_freebsd.h.orig	2009-06-29 18:15:06.000000000 +0200
 +++ nsprpub/pr/include/md/_freebsd.h
 @@ -79,7 +79,7 @@
  #define _PR_NO_LARGE_FILES

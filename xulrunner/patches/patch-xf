@@ -2,7 +2,7 @@ $NetBSD$
 
 NetBSD/amd64 xptcall support code. From pkgsrc/www/firefox/patch-ae.
 
---- xpcom/reflect/xptcall/src/md/unix/xptcstubs_netbsd_m68k.cpp.orig	2004-04-18 16:18:18.000000000 +0200
+--- xpcom/reflect/xptcall/src/md/unix/xptcstubs_netbsd_m68k.cpp.orig	2009-06-29 18:15:33.000000000 +0200
 +++ xpcom/reflect/xptcall/src/md/unix/xptcstubs_netbsd_m68k.cpp
 @@ -123,17 +123,27 @@ extern "C" {
      }

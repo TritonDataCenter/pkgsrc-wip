@@ -1,6 +1,6 @@
 $NetBSD$
 
---- xulrunner/installer/libxul-unstable.pc.in.orig	2008-01-05 07:50:34.000000000 +0100
+--- xulrunner/installer/libxul-unstable.pc.in.orig	2009-06-29 18:15:36.000000000 +0200
 +++ xulrunner/installer/libxul-unstable.pc.in
 @@ -8,5 +8,5 @@ Name: libxul
  Description: The Mozilla Runtime and Embedding Engine (unstable API)
@@ -8,4 +8,4 @@ $NetBSD$
  Requires: %NSPR_NAME% >= %NSPR_VERSION%
 -Libs: -L${sdkdir}/lib -lxpcomglue_s -lxul -lxpcom
 +Libs: -Wl,-R${prefix}/lib/xulrunner -L${prefix}/lib/xulrunner -lxpcomglue_s -lxul -lxpcom
- Cflags: -I${includedir}/${includetype} -fshort-wchar
+ Cflags: -I${includedir}/${includetype} %WCHAR_CFLAGS%

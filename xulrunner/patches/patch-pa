@@ -1,6 +1,6 @@
 $NetBSD$
 
---- xulrunner/installer/mozilla-js.pc.in.orig	2007-08-03 16:46:28.000000000 +0200
+--- xulrunner/installer/mozilla-js.pc.in.orig	2009-06-29 18:15:36.000000000 +0200
 +++ xulrunner/installer/mozilla-js.pc.in
 @@ -6,5 +6,5 @@ Name: JavaScript
  Description: The Mozilla JavaScript Library

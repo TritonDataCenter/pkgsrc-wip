@@ -1,6 +1,6 @@
 $NetBSD$
 
---- xpcom/io/nsLocalFileUnix.h.orig	2008-10-29 06:05:40.000000000 +0100
+--- xpcom/io/nsLocalFileUnix.h.orig	2009-06-29 18:15:32.000000000 +0200
 +++ xpcom/io/nsLocalFileUnix.h
 @@ -75,7 +75,7 @@
  #endif

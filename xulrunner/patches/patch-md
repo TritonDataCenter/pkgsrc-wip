@@ -2,7 +2,7 @@ $NetBSD$
 
 ???. from www/firefox/patch-ax.
 
---- security/coreconf/SunOS5.mk.orig	2007-11-22 05:39:56.000000000 +0100
+--- security/coreconf/SunOS5.mk.orig	2009-06-29 18:15:11.000000000 +0200
 +++ security/coreconf/SunOS5.mk
 @@ -156,6 +156,10 @@ endif
  endif

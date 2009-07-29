@@ -2,9 +2,9 @@ $NetBSD$
 
 Treat DragonFly like FreeBSD.
 
---- config/rules.mk.orig	2008-06-25 01:29:46.000000000 +0200
+--- config/rules.mk.orig	2009-06-29 18:14:41.000000000 +0200
 +++ config/rules.mk
-@@ -473,6 +473,12 @@ EXTRA_DSO_LDOPTS += -Wl,-Bsymbolic
+@@ -592,6 +592,12 @@ EXTRA_DSO_LDOPTS += -Wl,-Bsymbolic
  endif
  endif
  

@@ -1,6 +1,6 @@
 $NetBSD$
 
---- xulrunner/installer/libxul-embedding.pc.in.orig	2007-08-03 16:46:28.000000000 +0200
+--- xulrunner/installer/libxul-embedding.pc.in.orig	2009-06-29 18:15:36.000000000 +0200
 +++ xulrunner/installer/libxul-embedding.pc.in
 @@ -11,5 +11,5 @@ includetype=stable
  Name: libxul-embedding
@@ -8,4 +8,4 @@ $NetBSD$
  Version: %MOZILLA_VERSION%
 -Libs: -L${sdkdir}/lib -lxpcomglue
 +Libs: -Wl,-R${prefix}/lib/xulrunner -L${prefix}/lib/xulrunner -lxpcomglue
- Cflags: -DXPCOM_GLUE -I${includedir}/${includetype} -fshort-wchar
+ Cflags: -DXPCOM_GLUE -I${includedir}/${includetype} %WCHAR_CFLAGS%
