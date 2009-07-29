@@ -10,6 +10,8 @@ MAINTAINER=	netbsd@guigui2.net
 HOMEPAGE=	http://castget.nongnu.org/
 COMMENT=	Command-line RSS enclosures dowloader
 
+PKG_DESTDIR_SUPPORT=	user-destdir
+
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_LANGUAGES+=	c c++
@@ -19,7 +21,7 @@ AUTO_MKDIRS=	yes
 
 post-install:
 	${INSTALL_DATA} ${WRKSRC}/castgetrc.example \
-		${PREFIX}/share/examples/castgetrc.example
+		${DESTDIR}${PREFIX}/share/examples/castgetrc.example
 
 .include "../../www/curl/buildlink3.mk"
 .include "../../audio/id3lib/buildlink3.mk"
