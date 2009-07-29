@@ -31,8 +31,8 @@ CONFIG_GUESS_OVERRIDE+=	nsprpub/build/autoconf/config.guess
 CONFIG_SUB_OVERRIDE=	build/autoconf/config.sub
 CONFIG_SUB_OVERRIDE+=	js/src/build/autoconf/config.sub
 CONFIG_SUB_OVERRIDE+=	nsprpub/build/autoconf/config.sub
-CONFIG_STATUS_OVERRIDE=	build/config.status
-CONFIG_STATUS_OVERRIDE+=js/src/build/autoconf/config.status
+CONFIG_STATUS_OVERRIDE=	config.status
+CONFIG_STATUS_OVERRIDE+=js/src/config.status
 CONFIG_STATUS_OVERRIDE+=nsprpub/config.status
 
 CONFIGURE_ARGS+=	--enable-application=browser
