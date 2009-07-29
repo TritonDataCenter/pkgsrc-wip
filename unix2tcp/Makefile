@@ -9,7 +9,8 @@ MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://ahriman.bucharest.roedu.net/unix2tcp/
 COMMENT=		UNIX socket to TCP tunnel.
 
-USE_PKGLOCALEDIR=	yes
+PKG_DESTDIR_SUPPORT=	user-destdir
+
 GNU_CONFIGURE=		yes
 
 .include "../../mk/bsd.pkg.mk"
