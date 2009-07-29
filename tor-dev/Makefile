@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		tor-0.2.1.18
+DISTNAME=		tor-0.2.1.19
 CATEGORIES=		net security
 MASTER_SITES=		http://www.torproject.org/dist/
 
