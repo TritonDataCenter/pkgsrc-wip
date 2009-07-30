@@ -19,10 +19,14 @@ CMAKE_ARGS+=	-DWITH_Xmms:BOOL=OFF
 
 REPLACE_PERL+= \
 	kopete/kopete/kconf_update/kopete-account-0.10.pl \
+	kopete/kopete/kconf_update/kopete-gaim_to_pidgin_style.pl \
 	kopete/kopete/kconf_update/kopete-initialstatus.pl \
-	kopete/kopete/kconf_update/kopete-pluginloader.pl
+	kopete/kopete/kconf_update/kopete-pluginloader.pl \
+	kopete/kopete/kconf_update/kopete-update_yahoo_server.pl
 
 REPLACE_SH+= \
+	kopete/protocols/skype/call_end \
+	kopete/protocols/skype/call_start \
 	kopete/protocols/winpopup/winpopup-install.sh \
 	kopete/protocols/winpopup/winpopup-send.sh
 
