@@ -9,5 +9,5 @@ dont install hicolor/index.theme as hicolor-icon-theme pkg will
 -add_subdirectory( hicolor )
 +#add_subdirectory( hicolor )
  add_subdirectory( emoticons )
- add_subdirectory( oxygen )
+ #add_subdirectory( oxygen )
  

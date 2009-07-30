@@ -12,7 +12,7 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 CMAKE_ARGS+=	-DWITH_PulseAudio:BOOL=off
 
 DEPENDS+=	htdig>=3.2.0:../../www/htdig-devel
-# DEPENDS+=	xine-xcb>=1.1.9:../../wip/xine-xcb
+DEPENDS+=	oxygen-icons-[0-9]*:../../wip/oxygen-icons
 
 .include "options.mk"
 
@@ -43,8 +43,8 @@ INSTALLATION_DIRS+=	${PKGMANDIR}/man1
 .include "../../wip/kde4/kde4.mk"
 
 .include "../../graphics/hicolor-icon-theme/buildlink3.mk"
-# .include "../../multimedia/xine-lib/buildlink3.mk"
-# .include "../../wip/libxcb/buildlink3.mk"
+.include "../../net/openslp/buildlink3.mk"
+.include "../../wip/kdelibs-experimental4/buildlink3.mk"
 .include "../../wip/kdelibs4/buildlink3.mk"
 
 .include "../../mk/bsd.pkg.mk"
