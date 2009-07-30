@@ -41,6 +41,7 @@ REPLACE_SH+= \
 .include "../../wip/ortp/buildlink3.mk"
 .include "../../security/qca2/buildlink3.mk"
 .include "../../wip/kdelibs4/buildlink3.mk"
+.include "../../wip/kdelibs-experimental4/buildlink3.mk"
 .include "../../wip/kdepimlibs4/buildlink3.mk"
 .include "../../wip/kdebase4/buildlink3.mk"
 .include "../../wip/kdebase-runtime4/buildlink3.mk"

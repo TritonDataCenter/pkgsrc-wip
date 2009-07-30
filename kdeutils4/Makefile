@@ -25,8 +25,11 @@ BUILDLINK_DEPMETHOD.qt4-tools=	full
 .include "../../lang/python/application.mk"
 .include "../../wip/kdebindings4-python/buildlink3.mk"
 .include "../../print/py-cups/buildlink3.mk"
+.include "../../security/qca2/buildlink3.mk"
 .include "../../wip/kdelibs4/buildlink3.mk"
+.include "../../wip/kdelibs-experimental4/buildlink3.mk"
 .include "../../wip/kdepimlibs4/buildlink3.mk"
+.include "../../wip/kdebase4/buildlink3.mk"
 .include "../../wip/kdebase-runtime4/buildlink3.mk"
 .include "../../wip/kdebase-workspace4/buildlink3.mk"
 

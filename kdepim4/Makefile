@@ -1,7 +1,6 @@
 # $NetBSD$
 
 DISTNAME=	kdepim-${_KDE_VERSION}
-PKGREVISION=	1
 CATEGORIES=	misc
 COMMENT=	Personal Information Management tools for the KDE desktop
 
@@ -65,6 +64,7 @@ BUILDLINK_DEPMETHOD.qt4-tools=full
 .include "../../security/libassuan/buildlink3.mk"
 .include "../../security/qca2/buildlink3.mk"
 .include "../../wip/kdelibs4/buildlink3.mk"
+.include "../../wip/kdelibs-experimental4/buildlink3.mk"
 .include "../../wip/kdepimlibs4/buildlink3.mk"
 .include "../../wip/kdebase-runtime4/buildlink3.mk"
 .include "../../wip/kdebase-workspace4/buildlink3.mk"

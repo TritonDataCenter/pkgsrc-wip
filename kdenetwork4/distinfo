@@ -1,5 +1,6 @@
 $NetBSD$
 
-SHA1 (kdenetwork-4.2.4.tar.bz2) = 31f3f1c44690339ce523c309a3d2c131563d9f97
-RMD160 (kdenetwork-4.2.4.tar.bz2) = 2ea29be5b112af974add898419403c9d8cea9436
-Size (kdenetwork-4.2.4.tar.bz2) = 7038448 bytes
+SHA1 (kdenetwork-4.2.98.tar.bz2) = 25d72e499b42b8e6473b627f14286e4686331440
+RMD160 (kdenetwork-4.2.98.tar.bz2) = 18d7934e1152b605ba25c5be6062dfda42fea756
+Size (kdenetwork-4.2.98.tar.bz2) = 7380196 bytes
+SHA1 (patch-aa) = 0359cd86501c57197242c398d63c1fc77c60a4d0

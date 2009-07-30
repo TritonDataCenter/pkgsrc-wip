@@ -1,6 +1,5 @@
 $NetBSD$
 
-SHA1 (kdeutils-4.2.4.tar.bz2) = 59bb17463bec48c77768e50fb0e9ec3c1b0827af
-RMD160 (kdeutils-4.2.4.tar.bz2) = a25e1457416e0a45fd5d65bb24c42d8d735f70e0
-Size (kdeutils-4.2.4.tar.bz2) = 2377830 bytes
-SHA1 (patch-ab) = 2cc883872b73f36fd8a648cab19e8c326831660b
+SHA1 (kdeutils-4.2.98.tar.bz2) = 0c478471748fe8648d28056bd7624967572cff14
+RMD160 (kdeutils-4.2.98.tar.bz2) = ff49209d7f4e2127c8f1fad7358e904a3568eec1
+Size (kdeutils-4.2.98.tar.bz2) = 2522836 bytes
