@@ -32,7 +32,8 @@ REPLACE_PERL+= \
 	kio/proxytype.pl \
 	kio/useragent.pl \
 	kio/misc/fileshareset \
-	kdeui/preparetips
+	kdeui/preparetips \
+	plasma/plasma_popupapplet_fix_groups.pl
 
 CHECK_PORTABILITY_SKIP+=kate/tests/highlight.sh
 
@@ -57,7 +58,7 @@ BUILDLINK_DEPMETHOD.qt4-tools=		full
 .include "../../wip/kde4/kde4.mk"
 
 BUILDLINK_API_DEPENDS.strigi+=	strigi>=0.5.11
-BUILDLINK_API_DEPENDS.soprano+=	soprano>=2.1.64
+BUILDLINK_API_DEPENDS.soprano+=	soprano>=2.3.0
 
 .include "../../archivers/bzip2/buildlink3.mk"
 .include "../../sysutils/strigi/buildlink3.mk"
