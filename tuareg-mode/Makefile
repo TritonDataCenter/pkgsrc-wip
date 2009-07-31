@@ -18,5 +18,5 @@ do-install:
 	cd ${WRKSRC} && ${INSTALL_DATA} ${SRCS} ${SRCS} \
 		${EMACS_LISPPREFIX}/
 
-.include "../../mk/emacs.mk"
+.include "../../editors/emacs/modules.mk"
 .include "../../mk/bsd.pkg.mk"

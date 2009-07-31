@@ -25,5 +25,5 @@ do-install:
 	${INSTALL_DATA} ${WRKSRC}/*.el  ${EMACS_LISPPREFIX}/haskell-mode
 	${INSTALL_DATA} ${WRKSRC}/*.elc ${EMACS_LISPPREFIX}/haskell-mode
 
-.include "../../mk/emacs.mk"
+.include "../../editors/emacs/modules.mk"
 .include "../../mk/bsd.pkg.mk"

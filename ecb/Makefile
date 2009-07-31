@@ -31,4 +31,4 @@ do-install:
 DEPENDS+=	cedet-[0-9]*:../../wip/cedet
 
 .include "../../mk/bsd.pkg.mk"
-.include "../../mk/emacs.mk"
+.include "../../editors/emacs/modules.mk"

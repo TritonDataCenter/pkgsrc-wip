@@ -29,5 +29,5 @@ do-install:
 	${INSTALL_DATA_DIR} ${EMACS_LISPPREFIX}/mpc/images/mpc
 	${INSTALL_DATA} ${WRKSRC}/images/mpc/*.xpm ${EMACS_LISPPREFIX}/mpc/images/mpc
 
-.include "../../mk/emacs.mk"
+.include "../../editors/emacs/modules.mk"
 .include "../../mk/bsd.pkg.mk"

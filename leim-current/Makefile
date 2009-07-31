@@ -38,6 +38,6 @@ post-extract:
 post-install:
 	@${CHOWN} -R ${ROOT_USER} ${PREFIX}/share/emacs/${VERSION}/leim
 
-.include "../../mk/emacs.mk"
+.include "../../editors/emacs/modules.mk"
 .include "../../wip/mk/cvs-package.mk"
 .include "../../mk/bsd.pkg.mk"

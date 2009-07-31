@@ -12,7 +12,7 @@ COMMENT=	IRC client for Emacs
 USE_TOOLS+=	gmake makeinfo
 INFO_FILES=	yes
 
-.include "../../mk/emacs.mk"
+.include "../../editors/emacs/modules.mk"
 .if ${EMACS_FLAVOR} == "xemacs"
 	MAKE_FLAGS+= EMACS=xemacs
 .endif

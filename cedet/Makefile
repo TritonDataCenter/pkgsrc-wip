@@ -45,4 +45,4 @@ do-install:
 	${INSTALL_DATA} ${WRKSRC}/*/doc/*.info* ${DESTDIR}${PREFIX}/${PKGINFODIR}
 
 .include "../../mk/bsd.pkg.mk"
-.include "../../mk/emacs.mk"
+.include "../../editors/emacs/modules.mk"

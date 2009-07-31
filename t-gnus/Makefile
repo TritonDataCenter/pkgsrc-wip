@@ -32,5 +32,5 @@ FILES_SUBST+=		EMACS_LISPPREFIX=${EMACS_LISPPREFIX:C|^${PREFIX}/||}
 #pre-configure:
 #	cd ${WRKSRC} && ${AUTORECONF} --force
 
-.include "../../mk/emacs.mk"
+.include "../../editors/emacs/modules.mk"
 .include "../../mk/bsd.pkg.mk"

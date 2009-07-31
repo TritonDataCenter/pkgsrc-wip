@@ -12,5 +12,5 @@ USE_TOOLS+=		makeinfo
 GNU_CONFIGURE=		yes
 EMACS_VERSIONS_ACCEPTED= emacs21 emacs21nox
 
-.include "../../mk/emacs.mk"
+.include "../../editors/emacs/modules.mk"
 .include "../../mk/bsd.pkg.mk"

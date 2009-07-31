@@ -35,5 +35,5 @@ do-install:
 		${INSTALL_DATA} *.lisp ${SLIME_LISPDIR}
 		${INSTALL_DATA} ${WRKSRC}/doc/slime.info ${EMACS_INFOPREFIX}
 
-.include "../../mk/emacs.mk"
+.include "../../editors/emacs/modules.mk"
 .include "../../mk/bsd.pkg.mk"

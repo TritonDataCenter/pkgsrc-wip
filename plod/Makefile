@@ -17,5 +17,5 @@ do-install:
 	${INSTALL_MAN} ${WRKSRC}/plod.1.gz ${PREFIX}/${PKGMANDIR}/man1
 	${INSTALL_DATA} ${WRKSRC}/plod.el ${EMACS_LISPPREFIX}
 
-.include "../../mk/emacs.mk"
+.include "../../editors/emacs/modules.mk"
 .include "../../mk/bsd.pkg.mk"

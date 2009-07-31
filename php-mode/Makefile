@@ -14,7 +14,7 @@ NO_CONFIGURE=	yes
 
 WRKSRC=		${WRKDIR}
 
-.include "../../mk/emacs.mk"
+.include "../../editors/emacs/modules.mk"
 
 do-build:
 	cd ${WRKSRC}; \
