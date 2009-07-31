@@ -5,7 +5,7 @@ DISTNAME=	s3funnel-0.5.2
 CATEGORIES=	devel python
 MASTER_SITES=	http://s3funnel.googlecode.com/files/
 
-MAINTAINER=	kamelderouiche@yahoo.com
+MAINTAINER=	pkgsrc-users@netbsd.org
 HOMEPAGE=	http://code.google.com/p/s3funnel/
 COMMENT=	Multithreaded tool for performing operations on Amazon S3
 
