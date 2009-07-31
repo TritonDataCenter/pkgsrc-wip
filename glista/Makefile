@@ -5,7 +5,7 @@ DISTNAME=	glista-0.4
 CATEGORIES=	time gnome
 MASTER_SITES=	http://glista.googlecode.com/files/
 
-MAINTAINER=	kamelderouiche@yahoo.com
+MAINTAINER=	pkgsrc-users@netbsd.org
 HOMEPAGE=	http://prematureoptimization.org/glista/
 COMMENT=	Simple task list management utility
 
