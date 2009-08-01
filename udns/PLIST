@@ -1,8 +1,0 @@
-@comment $NetBSD$
-bin/dnsget
-bin/rblcheck
-include/udns.h
-lib/libudns.la
-man/man1/dnsget.1
-man/man1/rblcheck.1
-man/man3/udns.3
