@@ -17,7 +17,7 @@ NO_CONFIGURE=		yes
 USE_PKGLOCALEDIR=	yes
 WRKSRC=			${WRKDIR}/kBuild-0.1.5-p1
 
-USE_TOOLS+=	pax gmake autoconf automake autoreconf perl
+USE_TOOLS+=	pax gmake autoconf automake autoreconf perl flex bison
 
 .include "../../mk/bsd.prefs.mk"
 
