@@ -7,7 +7,7 @@ CATEGORIES=	www python
 MASTER_SITES=	http://django-tagging.googlecode.com/files/
 EXTRACT_SUFX=	.zip
 
-MAINTAINER=	kamelderouiche@yahoo.com
+MAINTAINER=	pkgsrc-users@netbsd.org
 HOMEPAGE=	http://code.google.com/p/django-tagging/
 COMMENT=	Generic tagging application for Django
 #LICENSE=	LICENSE

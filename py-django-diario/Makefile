@@ -6,7 +6,7 @@ PKGNAME=	${PYPKGPREFIX}-${DISTNAME:S/-grigoropoulos//}
 CATEGORIES=	www python
 MASTER_SITES=	http://django-diario.googlecode.com/files/
 
-MAINTAINER=	kamelderouiche@yahoo.com
+MAINTAINER=	pkgsrc-users@netbsd.org
 HOMEPAGE=	http://django-diario.googlecode.com/
 COMMENT=	Django Diário is a pluggable weblog application for Django Web
 #LICENSE=	gnu-lgpl-v2.1
