@@ -3,4 +3,3 @@ bin/moe
 info/moe.info
 man/man1/moe.1
 share/examples/moe/moerc
-@dirrm share/examples/moe
