@@ -73,5 +73,3 @@ share/examples/rc.d/jabberd
 share/examples/rc.d/router
 share/examples/rc.d/s2s
 share/examples/rc.d/sm
-@dirrm share/examples/jabberd
-@dirrm lib/jabberd

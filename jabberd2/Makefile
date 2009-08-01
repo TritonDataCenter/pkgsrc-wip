@@ -123,7 +123,7 @@ post-install:
 	${INSTALL_DATA} ${WRKSRC}/${f} ${DESTDIR}${DOCDIR}
 .endfor
 
-.include "../../wip/udns/buildlink3.mk"
+.include "../../net/udns/buildlink3.mk"
 .include "../../converters/libiconv/buildlink3.mk"
 .include "../../devel/libidn/buildlink3.mk"
 .include "../../security/openssl/buildlink3.mk"
