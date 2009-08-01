@@ -66,4 +66,3 @@ include/ETL/thread
 include/ETL/trivial
 include/ETL/value
 lib/pkgconfig/ETL.pc
-@dirrm include/ETL
