@@ -6,7 +6,7 @@ CATEGORIES=	audio gnome sysutils
 MASTER_SITES=	http://nautilus-sound-converter.googlecode.com/files/
 EXTRACT_SUFX=	.tar.bz2
 
-MAINTAINER=	kamel.derouiche@gmail.com
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	http://code.google.com/p/nautilus-sound-converter/
 COMMENT=	Nautilus extension to convert audio files
 

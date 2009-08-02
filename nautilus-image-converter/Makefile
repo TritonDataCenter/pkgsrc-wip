@@ -6,7 +6,7 @@ CATEGORIES=	sysutils graphics gnome
 MASTER_SITES=	ftp://ftp.gnome.org/pub/gnome/sources/nautilus-image-converter/0.3/
 EXTRACT_SUFX=	.tar.bz2
 
-MAINTAINER=	kamel.derouiche@gmail.com
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	http://www.bitron.ch/software/nautilus-image-converter.php
 COMMENT=	Nautilus extension to mass resize or rotate images
 
