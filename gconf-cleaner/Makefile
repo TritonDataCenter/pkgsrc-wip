@@ -5,7 +5,7 @@ DISTNAME=	gconf-cleaner-0.0.3
 CATEGORIES=	sysutils
 MASTER_SITES=	http://gconf-cleaner.googlecode.com/files/
 
-MAINTAINER=	kamel.derouiche@gmail.com
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	http://code.google.com/p/gconf-cleaner/
 COMMENT=	Cleaning tool for GConf
 

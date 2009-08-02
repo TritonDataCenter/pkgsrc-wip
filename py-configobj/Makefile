@@ -7,7 +7,7 @@ CATEGORIES=	devel
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=configobj/}
 EXTRACT_SUFX=	.zip
 
-MAINTAINER=	kamel.derouiche@gmail.com
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	http://www.voidspace.org.uk/python/configobj.html
 COMMENT=	Simple but powerful config file reader and write
 
