@@ -6,7 +6,7 @@ PKGNAME=	gtk-${DISTNAME}
 CATEGORIES=	x11
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=grdc/}
 
-MAINTAINER=	kamel.derouiche@gmail.com
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	http://grdc.sourceforge.net/
 COMMENT=	Grdc is a remote desktop client based on GTK+
 

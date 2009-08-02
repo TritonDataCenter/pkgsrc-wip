@@ -5,7 +5,7 @@ DISTNAME=	tasks-0.15
 CATEGORIES=	time editors
 MASTER_SITES=	http://pimlico-project.org/sources/tasks/
 
-MAINTAINER=	kamel.derouiche@gmail.com
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	http://pimlico-project.org/tasks.html
 COMMENT=	Tasks is a simple To Do list application for GNOME
 
