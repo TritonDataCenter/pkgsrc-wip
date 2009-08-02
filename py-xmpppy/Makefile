@@ -9,7 +9,7 @@ MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=xmpppy/}
 MAINTAINER=	eric@cirr.com
 HOMEPAGE=	http://xmpppy.sourceforge.net/
 COMMENT=	XMPP (Jabber) library for Python
-#LICENSE=	LICENSE
+LICENSE=	gnu-gpl-v2
 
 DEPENDS+=	${PYPKGPREFIX}-dns-[0-9]*:../../net/py-dns
 
@@ -32,5 +32,5 @@ post-install:
 	${INSTALL_DATA} ${WRKSRC}/doc/*.css \
 		${DESTDIR}${DOCDIR}
 
-.include "../../lang/python/extension.mk"
+.include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"
