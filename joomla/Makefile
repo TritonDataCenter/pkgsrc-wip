@@ -1,9 +1,9 @@
 # $NetBSD$
 
-DISTNAME=	Joomla_1.5.12-Stable-Full_Package
-PKGNAME=	joomla-1.5.12
+DISTNAME=	Joomla_1.5.14-Stable-Full_Package
+PKGNAME=	joomla-1.5.14
 CATEGORIES=	www
-MASTER_SITES=	http://joomlacode.org/gf/download/frsrelease/10547/41303/
+MASTER_SITES=	http://joomlacode.org/gf/download/frsrelease/10785/42653/
 EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
