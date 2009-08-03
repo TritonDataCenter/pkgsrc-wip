@@ -3,6 +3,7 @@ bin/chicken
 bin/chicken-bug
 bin/chicken-install
 bin/chicken-profile
+bin/chicken-setup
 bin/chicken-status
 bin/chicken-uninstall
 bin/csc
@@ -10,7 +11,6 @@ bin/csi
 include/chicken-config.h
 include/chicken.h
 lib/chicken/4/chicken.import.so
-lib/chicken/4/compiler.import.so
 lib/chicken/4/csi.import.so
 lib/chicken/4/data-structures.import.so
 lib/chicken/4/extras.import.so
