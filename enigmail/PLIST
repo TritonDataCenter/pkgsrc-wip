@@ -1,0 +1,2 @@
+@comment $NetBSD$
+share/${PKGNAME}-${LOWER_OPSYS}-${MACHINE_ARCH}.xpi
