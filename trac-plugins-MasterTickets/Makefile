@@ -4,7 +4,7 @@ VERSION=	2.1.3.4179
 DISTNAME=	TracMasterTickets-${VERSION}
 PKGNAME=	trac-plugins-MasterTickets-${VERSION}
 # Empty PKGREVISION because svn-package by default sets one.
-PKGREVISION=	1
+PKGREVISION=	2
 EGG_NAME=	${DISTNAME}
 CATEGORIES=	www
 MASTER_SITES=	# not defined
