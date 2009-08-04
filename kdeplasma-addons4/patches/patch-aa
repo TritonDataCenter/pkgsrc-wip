@@ -1,8 +1,8 @@
 $NetBSD$
 
---- applets/lancelot/libs/lancelot/widgets/BasicWidget.cpp.orig	2008-08-21 07:53:49.000000000 +1200
+--- applets/lancelot/libs/lancelot/widgets/BasicWidget.cpp.orig	2009-05-07 12:05:53.000000000 +1200
 +++ applets/lancelot/libs/lancelot/widgets/BasicWidget.cpp
-@@ -27,6 +27,10 @@
+@@ -31,6 +31,10 @@
  
  #define max(A, B) ((A) >= (B)) ? (A) : (B)
  
@@ -10,6 +10,6 @@ $NetBSD$
 +#define fmaxf(A, B) ((A) >= (B)) ? (A) : (B)
 +#endif
 +
- // macro for setting the left coordinate of items
- // relative to the parent and with alignment
- // taken into consideration
+ namespace Lancelot
+ {
+ 

@@ -34,6 +34,10 @@ REPLACE_PERL+= \
 	cervisia/cervisia-normalize_cvsroot.pl \
 	cervisia/change_colors.pl
 
+REPLACE_SH+= \
+	scripts/build-progress.sh \
+	scripts/cvsaddcurrentdir
+
 INSTALLATION_DIRS+=	${PKGMANDIR}/man1
 
 USE_TOOLS+=	gmake

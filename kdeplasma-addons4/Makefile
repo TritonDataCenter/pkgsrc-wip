@@ -13,6 +13,9 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 .include "../../wip/kde4/kde4.mk"
 
 .include "../../graphics/hicolor-icon-theme/buildlink3.mk"
+BUILDLINK_API_DEPENDS.eigen2+=	eigen2>=2.0.3
+.include "../../math/eigen2/buildlink3.mk"
+.include "../../wip/kdeedu4/buildlink3.mk"
 .include "../../wip/kdegraphics4/buildlink3.mk"
 .include "../../wip/kdelibs4/buildlink3.mk"
 .include "../../wip/kdepimlibs4/buildlink3.mk"

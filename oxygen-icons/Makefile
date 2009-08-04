@@ -1,8 +1,8 @@
 # $NetBSD$
 
-DISTNAME=	oxygen-icons-4.2.98
+DISTNAME=	oxygen-icons-4.3.0
 CATEGORIES=	x11 kde
-MASTER_SITES=	${MASTER_SITE_KDE:=4.2.98/src/}
+MASTER_SITES=	${MASTER_SITE_KDE:=4.3.0/src/}
 EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	markd@NetBSD.org
