@@ -6,7 +6,7 @@ SVN_VERSION=	5285
 DISTNAME=	TracSensitiveTickets-${VERSION}
 PKGNAME=	trac-plugins-SensitiveTickets-${VERSION}
 # Empty PKGREVISION because svn-package by default sets one.
-PKGREVISION=
+PKGREVISION=	1
 EGG_NAME=	${DISTNAME}
 CATEGORIES=	www
 MASTER_SITES=	# not defined
