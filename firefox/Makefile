@@ -46,7 +46,7 @@ CONFIGURE_ARGS+=	--with-system-zlib --with-system-bz2
 CONFIGURE_ARGS+=	--enable-system-sqlite
 CONFIGURE_ARGS+=	--disable-crashreporter
 
-ALL_ENV+=		MOZILLA_PKG_NAME=firefox35
+ALL_ENV+=		MOZILLA_PKG_NAME=firefox
 
 PYTHON_FOR_BUILD_ONLY=	yes
 .include "../../lang/python/application.mk"
