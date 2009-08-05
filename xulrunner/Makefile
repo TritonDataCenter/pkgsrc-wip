@@ -34,7 +34,6 @@ PKGCONFIG_OVERRIDE+=	xulrunner/installer/mozilla-nss.pc.in
 PKGCONFIG_OVERRIDE+=	xulrunner/installer/mozilla-plugin.pc.in
 
 PRIVILEGED_STAGES=	clean
-CHECK_SHLIBS_SUPPORTED=	no # XXX
 
 CONFIG_GUESS_OVERRIDE=	build/autoconf/config.guess
 CONFIG_GUESS_OVERRIDE+=	js/src/build/autoconf/config.guess
@@ -58,7 +57,7 @@ CONFIGURE_ARGS+=	--enable-system-sqlite
 CONFIGURE_ARGS+=	--disable-crashreporter
 CONFIGURE_ARGS+=	--disable-debug
 
-MAKE_ENV+=		MOZILLA_PKG_NAME=xulrunner
+ALL_ENV+=		MOZILLA_PKG_NAME=xulrunner
 
 PYTHON_FOR_BUILD_ONLY=	yes
 .include "../../lang/python/application.mk"
