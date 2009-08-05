@@ -9,7 +9,7 @@ EXTRACT_SUFX=	.tar.bz2
 MAINTAINER=	kamel.derouiche@gmail.com
 HOMEPAGE=	https://fedorahosted.org/d-feet/
 COMMENT=	D-Feet is a powerful dbus debugger
-#LICENSE=	gnu-gpl-v2
+LICENSE=	gnu-gpl-v2
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
@@ -17,7 +17,6 @@ USE_TOOLS+=	intltool msgfmt
 USE_DIRS+= 	xdg-1.4
 
 PYTHON_VERSIONS_ACCEPTED= 26 25
-PYDISTUTILSPKG=		yes
 PY_PATCHPLIST=		yes
 
 SUBST_CLASSES+=		paths
