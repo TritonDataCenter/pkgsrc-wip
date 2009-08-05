@@ -6,7 +6,7 @@ CATEGORIES=	devel security python
 MASTER_SITES=	http://pypi.python.org/packages/source/f/fusil/
 
 MAINTAINER=	kamel.derouiche@gmail.com
-HOMEPAGE=	http://fusil.hachoir.org/trac
+HOMEPAGE=	http://bitbucket.org/haypo/fusil/wiki/Home
 COMMENT=	Fuzzing program to test applications
 LICENSE=	gnu-gpl-v2
 
