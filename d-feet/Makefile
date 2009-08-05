@@ -33,7 +33,7 @@ SUBST_MESSAGE.paths=	Fixing header search paths.
 .include "../../devel/pango/buildlink3.mk"
 .include "../../devel/py-gobject/buildlink3.mk"
 .include "../../graphics/hicolor-icon-theme/buildlink3.mk"
-.include "../../lang/python/extension.mk"
+.include "../../lang/python/egg.mk"
 BUILDLINK_API_DEPENDS.py-dbus+=	${PYPKGPREFIX}-dbus>=0.23.4
 .include "../../sysutils/py-dbus/buildlink3.mk"
 .include "../../sysutils/desktop-file-utils/desktopdb.mk"
