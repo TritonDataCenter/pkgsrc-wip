@@ -1,5 +1,6 @@
 @comment $NetBSD$
 bin/spin
+bin/xspin
 man/man1/spin.1
 share/doc/spin/Book.Ch6.add
 share/doc/spin/Book.Errata
@@ -38,5 +39,3 @@ share/examples/spin/snoopy
 share/examples/spin/sort
 share/examples/spin/wordcount
 share/examples/spin/zune.pml
-@dirrm share/examples/spin
-@dirrm share/doc/spin
