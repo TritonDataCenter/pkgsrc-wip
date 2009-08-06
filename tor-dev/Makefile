@@ -2,6 +2,7 @@
 #
 
 DISTNAME=		tor-0.2.1.19
+PKGREVISION=		1
 CATEGORIES=		net security
 MASTER_SITES=		http://www.torproject.org/dist/
 
@@ -62,7 +63,6 @@ post-install:
 		${DESTDIR}${PREFIX}/share/examples/tor/torrc.sample
 	${INSTALL_DATA} ${WRKSRC}/contrib/tor-tsocks.conf		\
 		${DESTDIR}${PREFIX}/share/examples/tor/tor-tsocks.conf
-	-${RMDIR} ${DESTDIR}${PREFIX}/etc/tor/tor
 
 BUILDLINK_API_DEPENDS.libevent+= libevent>=1.2
 .include "../../devel/libevent/buildlink3.mk"
