@@ -18,10 +18,10 @@ USE_LANGUAGES=  c c++
 ONLY_FOR_COMPILER=	gcc
 ONLY_FOR_PLATFORM= NetBSD-*-i386 Linux-*-i386
 
+PLIST_SRC+=	PLIST
+PLIST_SRC+=	${PKGDIR}/PLIST.doc ${PKGDIR}/PLIST.li
 
 INSTALLATION_DIRS+=	bin
 
-do-build:
-	cd ${WRKSRC} && ${GMAKE}
 
 .include "../../mk/bsd.pkg.mk"
