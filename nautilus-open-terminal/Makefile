@@ -1,9 +1,9 @@
 # $NetBSD$
 #
 
-DISTNAME=	nautilus-open-terminal-0.13
-CATEGORIES=	sysutils gnome
-MASTER_SITES=	${MASTER_SITE_GNOME:=sources/nautilus-open-terminal/0.13/}
+DISTNAME=	nautilus-open-terminal-0.16
+CATEGORIES=	wip
+MASTER_SITES=	ftp://ftp.gnome.org/pub/gnome/sources/nautilus-open-terminal/0.16/
 EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	kamelderouiche@yahoo.com
@@ -20,7 +20,6 @@ MAKE_ENV+=	GCONF_SCHEMA_FILE_DIR=${PREFIX}/share/gconf/schemas/
 USE_LIBTOOL=	yes
 USE_TOOLS+=	pkg-config gmake intltool msgfmt
 USE_LANGUAGES=	c c++
-
 
 GCONF_SCHEMAS+=	nautilus-open-terminal.schemas
 
