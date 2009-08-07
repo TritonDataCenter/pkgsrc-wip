@@ -12,6 +12,9 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 
 DEPENDS+=	xine-xcb>=1.1.9:../../x11/xine-xcb
 
+.include "../../mk/bsd.prefs.mk"
+.include "options.mk"
+
 .include "../../wip/kde4/kde4.mk"
 
 .include "../../audio/cdparanoia/buildlink3.mk"
