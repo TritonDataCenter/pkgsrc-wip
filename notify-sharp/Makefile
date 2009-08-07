@@ -20,8 +20,6 @@ USE_LANGUAGES=	c
 
 PKGCONFIG_OVERRIDE+=	notify-sharp.pc.in
 
-INSTALLATION_DIRS+=	${PREFIX}/lib/monodoc/sources
-
 
 .include "../../lang/mono/buildlink3.mk"
 .include "../../sysutils/ndesk-dbus/buildlink3.mk"
