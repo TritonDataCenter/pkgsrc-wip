@@ -18,7 +18,7 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 
 WRKSRC=		${WRKDIR}/${DISTNAME}/src
 USE_TOOLS+=     gmake perl
-INSTALLATION_DIRS+=	share/doc/${PKGBASE} share/${PKGBASE}
+INSTALLATION_DIRS+=	bin share/doc/${PKGBASE} share/${PKGBASE}
 
 pre-build:
 	if [ -L ${WRKSRC}/vars ]; then ${RM} ${WRKSRC}/vars; fi
