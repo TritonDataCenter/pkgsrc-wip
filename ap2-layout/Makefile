@@ -7,7 +7,7 @@ CATEGORIES=	www
 MASTER_SITES=	http://download.tangent.org/
 
 MAINTAINER=	obache@NetBSD.org
-HOMEPAGE=	http://tangent.org/
+HOMEPAGE=	http://tangent.org/362/mod_layout.html
 COMMENT=	Apache2 module to wrap served pages with a header and/or footer
 
 USE_LIBTOOL=	yes
