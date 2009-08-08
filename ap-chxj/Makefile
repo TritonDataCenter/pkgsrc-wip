@@ -7,7 +7,7 @@ CATEGORIES=	www
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE_JP:=modchxj/32266/}
 
 MAINTAINER=	obache@NetBSD.org
-HOMEPAGE=	http://cvs.sourceforge.jp/cgi-bin/viewcvs.cgi/modchxj/mod_chxj/doc/modchxj.html?rev=HEAD
+HOMEPAGE=	http://sourceforge.jp/projects/modchxj/wiki/FrontPage
 COMMENT=	CHTML to HDML,XHTML,JHTML convert module for apache2
 
 GNU_CONFIGURE=	yes
