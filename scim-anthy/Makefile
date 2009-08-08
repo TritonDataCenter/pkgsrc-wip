@@ -1,9 +1,9 @@
 # $NetBSD$
 #
 
-DISTNAME=		scim-anthy-1.2.6
+DISTNAME=		scim-anthy-1.2.7
 CATEGORIES=		inputmethod
-MASTER_SITES=		${MASTER_SITE_SOURCEFORGE_JP:=scim-imengine/30199/}
+MASTER_SITES=		${MASTER_SITE_SOURCEFORGE_JP:=scim-imengine/37309/}
 
 MAINTAINER=		obache@NetBSD.org
 HOMEPAGE=		http://scim-imengine.sourceforge.jp/
