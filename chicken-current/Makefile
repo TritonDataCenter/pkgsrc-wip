@@ -3,13 +3,14 @@
 
 DISTNAME=	chicken-4.1.0
 CATEGORIES=	lang
-MASTER_SITES=	http://chicken.wiki.br/releases/ \
-		http://galinha.ucpel.tche.br/releases/ \
-		$(HOMEPAGE)
+MASTER_SITES=	http://chicken.wiki.br/releases/${PKGVERSION}/ \
+		http://galinha.ucpel.tche.br/releases/${PKGVERSION}/ \
+		${HOMEPAGE}
 
 MAINTAINER=	asau@inbox.ru #, airhead@users.sourceforge.net
 HOMEPAGE=	http://www.call-with-current-continuation.org/
 COMMENT=	Scheme to C compiler, handling R5RS
+LICENSE=	modified-bsd
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
