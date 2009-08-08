@@ -14,7 +14,3 @@ share/scim/pinyin/pinyin_phrase_index
 share/scim/pinyin/pinyin_phrase_lib
 share/scim/pinyin/pinyin_table
 share/scim/pinyin/special_table
-@dirrm share/scim/pinyin
-@comment in scim: @dirrm share/scim/icons
-@comment in scim: @dirrm lib/scim-1.0/1.4.0/SetupUI
-@comment in scim: @dirrm lib/scim-1.0/1.4.0/IMEngine

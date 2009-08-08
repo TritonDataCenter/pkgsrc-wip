@@ -10,7 +10,3 @@ share/locale/pa/LC_MESSAGES/scim-hangul.mo
 share/locale/zh_CN/LC_MESSAGES/scim-hangul.mo
 share/scim/hangul/symbol.txt
 share/scim/icons/scim-hangul.png
-@comment in scim: @dirrm share/scim/icons
-@dirrm share/scim/hangul
-@comment in scim: @dirrm lib/scim-1.0/1.4.0/SetupUI
-@comment in scim: @dirrm lib/scim-1.0/1.4.0/IMEngine

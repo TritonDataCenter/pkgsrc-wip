@@ -2,5 +2,3 @@
 lib/scim-1.0/1.4.0/IMEngine/sinhala.la
 share/locale/ja/LC_MESSAGES/scim-sinhala.mo
 share/scim/icons/scim-sinhala.png
-@comment in scim: @dirrm share/scim/icons
-@comment in scim: @dirrm lib/scim-1.0/1.4.0/IMEngine
