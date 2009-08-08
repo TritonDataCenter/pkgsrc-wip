@@ -1,3 +1,6 @@
+# $NetBSD$
+#
+
 PKG_OPTIONS_VAR=                PKG_OPTIONS.collectd
 PKG_SUPPORTED_OPTIONS=          rrdtool curl libstatgrab snmp
 PKG_SUGGESTED_OPTIONS+=         rrdtool curl libstatgrab
