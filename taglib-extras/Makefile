@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	taglib-extras-0.1.5
+DISTNAME=	taglib-extras-0.1.6
 CATEGORIES=	audio
 MASTER_SITES=	http://www.kollide.net/~jefferai/
 
