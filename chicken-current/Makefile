@@ -14,6 +14,8 @@ LICENSE=	modified-bsd
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
+MAKE_JOBS_SAFE=		no
+
 INFO_FILES=		yes
 USE_LIBTOOL=		yes
 USE_TOOLS+=		gmake makeinfo
