@@ -1,0 +1,10 @@
+@comment $NetBSD$
+share/doc/hunspell-ar/README-ar
+share/doc/hunspell-ar/README-en
+share/doc/hunspell-ar/README-fr
+share/doc/hunspell-ar/install-ar
+share/doc/hunspell-ar/install-en
+share/doc/hunspell-ar/install-fr
+share/doc/hunspell-ar/install-us
+share/hunspell/ar.aff
+share/hunspell/ar.dic
