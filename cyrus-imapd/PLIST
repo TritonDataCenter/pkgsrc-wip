@@ -186,8 +186,3 @@ share/examples/cyrus-imapd/normal.conf
 share/examples/cyrus-imapd/prefork.conf
 share/examples/cyrus-imapd/small.conf
 share/examples/rc.d/cyrus
-@dirrm share/examples/cyrus-imapd
-@dirrm share/doc/cyrus-imapd
-@dirrm include/cyrus
-@dirrm cyrus/bin
-@dirrm cyrus
