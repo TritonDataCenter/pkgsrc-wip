@@ -100,6 +100,10 @@ any explicit options.
 Additional options passed to
 .I paexec
 executable in case a pkg_summary is built in parallel. Example: -Z300
+.TP
+.BR PSS_PRE_PATH ", " PSS_POST_PATH
+In a distributed mode prepand and append PSS_PRE_PATH and PSS_POST_PATH to
+PATH
 .SH EXAMPLES
 .VB
 pkg_src_summary wip/dict-server wip/dict-mueller7 wip/dict-client
