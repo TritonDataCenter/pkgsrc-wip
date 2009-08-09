@@ -15,6 +15,7 @@ libexec/distbb/upload_pkgs_all_files
 libexec/distbb/upload_pkgs_built_total
 libexec/distbb/upload_pkgs_no_bin_on_cdrom
 libexec/distbb/upload_pkgs_no_bin_on_ftp
+libexec/distbb/wrapper
 share/distbb/distbb.default.conf
 share/distbb/distbb.ico
 share/distbb/distbb.mk
