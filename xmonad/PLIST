@@ -1,7 +1,5 @@
 @comment $NetBSD$
 bin/xmonad
-lib/ghc-${GHCVERSION}/package.conf
-lib/ghc-${GHCVERSION}/package.conf.old
 lib/${PKGNAME}/ghc-${GHCVERSION}/HS${PKGNAME}.o
 lib/${PKGNAME}/ghc-${GHCVERSION}/XMonad.hi
 lib/${PKGNAME}/ghc-${GHCVERSION}/XMonad/Config.hi
@@ -13,8 +11,3 @@ lib/${PKGNAME}/ghc-${GHCVERSION}/XMonad/Operations.hi
 lib/${PKGNAME}/ghc-${GHCVERSION}/XMonad/StackSet.hi
 lib/${PKGNAME}/ghc-${GHCVERSION}/libHS${PKGNAME}.a
 share/doc/${PKGNAME}/LICENSE
-@dirrm share/doc/${PKGNAME}
-@dirrm lib/${PKGNAME}/ghc-${GHCVERSION}/XMonad
-@dirrm lib/${PKGNAME}/ghc-${GHCVERSION}
-@dirrm lib/${PKGNAME}
-@dirrm lib/ghc-${GHCVERSION}

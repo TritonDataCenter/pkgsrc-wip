@@ -2,7 +2,6 @@
 #
 
 DISTNAME=	xmonad-${VERSION}
-PKGREVISION=	1
 CATEGORIES=	wm
 MASTER_SITES=	http://hackage.haskell.org/packages/archive/xmonad/${VERSION}/
 
@@ -24,7 +23,7 @@ CONFIGURE_ARGS+=	--with-compiler=${PREFIX}/bin/ghc
 CONFIGURE_ARGS+=	--with-hc-pkg=${PREFIX}/bin/ghc-pkg
 CONFIGURE_ARGS+=	--prefix=${PREFIX}
 
-VERSION=		0.7
+VERSION=		0.8.1
 
 
 do-configure:
@@ -37,8 +36,8 @@ do-install:
 	cd ${WRKSRC} && runhaskell -cpp Setup.lhs copy
 
 
-.include "../../wip/hs-x11-extras/buildlink3.mk"
 .include "../../wip/hs-x11/buildlink3.mk"
+.include "../../wip/hs-x11-extras/buildlink3.mk"
 .include "../../lang/ghc/buildlink3.mk"
 .include "../../x11/libX11/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
