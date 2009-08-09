@@ -7,7 +7,7 @@ MASTER_SITES=	${MASTER_SITE_XORG:=driver/}
 EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	joerg@NetBSD.org
-HOMEPAGE=	http://xorg.freedesktop.org/
+HOMEPAGE=	http://cgit.freedesktop.org/xorg/driver/xf86-video-geode/
 COMMENT=	Modular Xorg AMD Geode GX/LX driver
 
 PKG_DESTDIR_SUPPORT=    user-destdir
