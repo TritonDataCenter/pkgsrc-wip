@@ -9,6 +9,8 @@ MAINTAINER=	cheusov@tut.by
 HOMEPAGE=	http://sourceforge.net/projects/pipestatus/
 COMMENT=	UNIX/POSIX shell helper for running pipes safely
 
+LICENSE=		public-domain
+
 PKG_DESTDIR_SUPPORT=	user-destdir
 
 NO_CONFIGURE=		yes
