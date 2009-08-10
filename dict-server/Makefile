@@ -6,6 +6,8 @@ PKGNAME=	${DISTNAME:S/dictd/dict-server/}
 CATEGORIES=	textproc
 COMMENT=	Dictionary Service Protocol server
 
+#LICENSE=		gnu-gpl-v2
+
 .include "../../mk/bsd.prefs.mk"
 
 USE_TOOLS+=		gmake yacc lex m4:run

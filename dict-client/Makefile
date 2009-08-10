@@ -6,6 +6,8 @@ PKGNAME=	${DISTNAME:S/dictd/dict-client/}
 CATEGORIES=	textproc
 COMMENT=	Dictionary Service Protocol client
 
+LICENSE=		gnu-gpl-v2
+
 USE_TOOLS+=		gmake yacc lex
 USE_LIBTOOL=		yes
 GNU_CONFIGURE=		yes
