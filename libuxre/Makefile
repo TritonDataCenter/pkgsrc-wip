@@ -8,6 +8,8 @@ CATEGORIES=	devel
 MAINTAINER=	cheusov@tut.by
 COMMENT=	POSIX compatible regular expression library
 
+LICENSE=		gnu-lgpl-v2
+
 USE_LIBTOOL=		yes
 
 INSTALLATION_DIRS+=	include/uxre share/doc/${PKGBASE} lib
