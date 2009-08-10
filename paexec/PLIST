@@ -19,10 +19,3 @@ share/examples/paexec/make_package/make_package_cmd__xxx_failed
 share/examples/paexec/make_package/make_package_tasks
 share/examples/paexec/toupper/toupper_cmd
 share/examples/paexec/toupper/toupper_run
-@dirrm share/doc/paexec
-@dirrm share/examples/paexec/1_div_X
-@dirrm share/examples/paexec/all_substr
-@dirrm share/examples/paexec/cc_wrapper
-@dirrm share/examples/paexec/make_package
-@dirrm share/examples/paexec/toupper
-@dirrm share/examples/paexec
