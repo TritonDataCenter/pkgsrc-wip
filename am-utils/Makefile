@@ -19,6 +19,8 @@ MAINTAINER=		cheusov@tut.by
 HOMEPAGE=		http://www.am-utils.org/
 COMMENT=		Berkeley automounter suite of utilities
 
+LICENSE=		original-bsd
+
 USE_TOOLS+=		yacc lex perl:run
 GNU_CONFIGURE=		yes
 USE_LIBTOOL=		yes
