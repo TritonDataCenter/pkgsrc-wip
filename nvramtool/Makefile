@@ -36,13 +36,14 @@ ONLY_FOR_PLATFORM=	NetBSD-*-i386 NetBSD-*-x86_64
 WRKSRC=			${WRKDIR}/${PKGBASE}
 
 .if ${OPSYS} == "NetBSD"
+
 SUBST_CLASSES+= iopl
 SUBST_FILES.iopl+=	cmos_lowlevel.c
 SUBST_MESSAGE.iopl=	fixing iopl
 SUBST_STAGE.iopl=	pre-configure
-SUBST_SED.iopl+= -e 's,i386_iopl,${MACHINE_ARCH}_iopl,g'
+SUBST_SED.iopl+= -e 's,iopl(,${MACHINE_ARCH}_iopl(,g'
 
-MAKE_FLAGS+=	LDFLAGS=-l${MACHINE_ARCH}
+MAKE_FLAGS+=    LDFLAGS=-l${MACHINE_ARCH}
 
 .endif
 
@@ -54,6 +55,6 @@ NVRAMTOOL_SNAP_VERSION!=		${DATE} -r ${YESTERDAY} +%Y%m%d
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/nvramtool ${PREFIX}/sbin/nvramtool
-	${INSTALL_MAN} ${WRKSRC}/nvramtool.1 ${PREFIX}/${PKGMANDIR}/man8/nvramtool.8
+	${INSTALL_MAN} ${WRKSRC}/nvramtool.8 ${PREFIX}/${PKGMANDIR}/man8/nvramtool.8
 
 .include "../../mk/bsd.pkg.mk"
