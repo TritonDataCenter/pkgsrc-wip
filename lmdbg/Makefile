@@ -10,6 +10,8 @@ MAINTAINER=	cheusov@tut.by
 HOMEPAGE=	http://mova.org/~cheusov/pub/lmdbg/
 COMMENT=	Lightweight Malloc Debugger
 
+LICENSE=		mit
+
 BUILD_DEPENDS+=		mk-configure>=0.10.0:../../wip/mk-configure
 DEPENDS+=		gdb-[0-9]*:../../devel/gdb
 

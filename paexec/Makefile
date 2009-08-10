@@ -11,6 +11,8 @@ MAINTAINER=	cheusov@tut.by
 HOMEPAGE=	http://sourceforge.net/projects/paexec
 COMMENT=	Parallel executor, distributes tasks over network
 
+LICENSE=		mit
+
 DEPENDS+=		runawk>=0.16.0:../../wip/runawk
 
 PKG_DESTDIR_SUPPORT=	user-destdir

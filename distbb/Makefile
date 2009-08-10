@@ -9,6 +9,8 @@ MAINTAINER=	cheusov@tut.by
 HOMEPAGE=	http://mova.org/~cheusov/pub/distbb/
 COMMENT=	DISTributed Bulk Build tool for pkgsrc
 
+LICENSE=	mit
+
 DEPENDS+=	pkg_summary-utils>=0.31.0:../../wip/pkg_summary-utils
 DEPENDS+=	paexec>=0.13.0nb1:../../wip/paexec
 DEPENDS+=	runawk>=0.14.3:../../wip/runawk
