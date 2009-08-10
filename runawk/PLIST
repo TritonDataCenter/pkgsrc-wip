@@ -45,5 +45,3 @@ share/runawk/tokenre.awk
 share/runawk/xclose.awk
 share/runawk/xgetline.awk
 share/runawk/xsystem.awk
-@dirrm share/runawk
-@dirrm share/doc/runawk
