@@ -9,6 +9,8 @@ MAINTAINER=	cheusov@tut.by
 HOMEPAGE=	http://libdbi.sourceforge.net/
 COMMENT=	Database Independent Abstraction Layer for C
 
+LICENSE=		gnu-lgpl-v2
+
 USE_LANGUAGES=		c
 USE_LIBTOOL=		yes
 GNU_CONFIGURE=		yes
