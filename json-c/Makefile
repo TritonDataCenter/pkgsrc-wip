@@ -1,14 +1,14 @@
 # $NetBSD$
 #
 
-DISTNAME=	json-c-0.8
+DISTNAME=	json-c-0.9
 CATEGORIES=	textproc
 MASTER_SITES=	http://oss.metaparadigm.com/json-c/
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	http://json.org/
 COMMENT=	JSON (Javascript Object Notation) implementation in C
-#LICENSE=	LICENSE
+LICENSE=	mit
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
