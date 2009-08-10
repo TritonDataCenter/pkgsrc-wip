@@ -7,9 +7,6 @@ CATEGORIES=	meta-pkgs
 MASTER_SITES=	# empty
 DISTFILES=	# empty
 
-
-LICENSE=	mit
-
 MAINTAINER=	cheusov@tut.by
 HOMEPAGE=	http://luaforge.net/projects/lrexlib
 COMMENT=	Regexp libraries for Lua programming language
