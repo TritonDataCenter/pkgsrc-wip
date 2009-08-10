@@ -3,6 +3,8 @@
 
 .include "../../wip/libdbi/Makefile_drivers"
 
+LICENSE=		gnu-lgpl-v2
+
 DRIVER=			sqlite
 
 COMMENT=		SQLite driver for libdbi, a database abstraction
