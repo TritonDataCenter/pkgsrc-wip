@@ -13,6 +13,8 @@ MAINTAINER=	cheusov@tut.by
 HOMEPAGE=	http://mova.org/~cheusov/pub/pkg_online/
 COMMENT=	Client/Server search in pkgsrc packages
 
+LICENSE=		mit
+
 PKG_DESTDIR_SUPPORT=	user-destdir
 
 DISTINFO_FILE=		${.CURDIR}/../../wip/pkg_online/distinfo

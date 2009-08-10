@@ -11,7 +11,7 @@ MAINTAINER=	cheusov@tut.by
 HOMEPAGE=	http://sourceforge.net/projects/runawk
 COMMENT=	Wrapper that impelements modules for AWK
 
-#LICENSE=		mit
+LICENSE=		mit
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
