@@ -12,6 +12,8 @@ MAINTAINER=	cheusov@tut.by
 HOMEPAGE=	http://mueller-dic.chat.ru/
 COMMENT=	DICTD data for English-Russian dictionary by Mueller
 
+LICENSE=	gnu-gpl-v2
+
 DEPENDS+=	dict-server>=1.9.14:../../wip/dict-server
 
 BUILD_DEPENDS+=	dict-server>=1.10.2:../../wip/dict-server
