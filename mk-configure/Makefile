@@ -10,6 +10,8 @@ MAINTAINER=	vle@gmx.net
 HOMEPAGE=	http://sourceforge.net/projects/mk-configure
 COMMENT=	Lightweight but powerful replacement for GNU autotools
 
+LICENSE=		modified-bsd
+
 PKG_DESTDIR_SUPPORT=	user-destdir
 
 USE_LANGUAGES=		# no languages
