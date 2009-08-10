@@ -10,6 +10,8 @@ MASTER_SITES=	ftp://ftp.fu-berlin.de/unix/languages/mawk/
 MAINTAINER=	cheusov@tut.by
 COMMENT=	AWK clone by Mike Brennan with UXRE regexp library
 
+LICENSE=		gnu-gpl-v2
+
 PKG_DESTDIR_SUPPORT=	user-destdir
 
 USE_TOOLS+=		autoconf213
