@@ -9,6 +9,8 @@ MAINTAINER=	cheusov@tut.by
 HOMEPAGE=	http://www.mova.org/~cheusov/
 COMMENT=	Pkgsrc dewey module for AWK programming language
 
+LICENSE=	public-domain
+
 DEPENDS+=	runawk-[0-9]*:../../wip/runawk
 
 .include "../../wip/awk-pkgsrc-dewey/files/Makefile.version"
