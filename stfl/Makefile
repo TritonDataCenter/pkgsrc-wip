@@ -25,13 +25,6 @@ SUBST_MESSAGE.makefile=	Fixing distribution Makefile...
 SUBST_FILES.makefile=	${MAKE_FILE}
 SUBST_SED.makefile=	-e 's/LDLIBS.*/& -liconv/'
 
-.include "../../mk/bsd.prefs.mk"
-
-# NetBSD iconv implementation doesn't support
-# the wchar_t encoding (upon stfl relies).
-.if ${OPSYS} == "NetBSD"
 .include "../../converters/libiconv/buildlink3.mk"
-.endif
-
 .include "../../devel/ncursesw/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
