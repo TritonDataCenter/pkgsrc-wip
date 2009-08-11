@@ -6,7 +6,7 @@ PKGNAME=	${PYPKGPREFIX}-${DISTNAME:S/py//}
 CATEGORIES=	devel python
 MASTER_SITES=	http://pycsp.googlecode.com/files/
 
-MAINTAINER=	netbsdresearch@gmail.com
+MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	http://code.google.com/p/pycsp/
 COMMENT=	PyCSP Python CSP Library
 #LICENSE=	LICENSE
