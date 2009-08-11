@@ -19,5 +19,3 @@ share/locale/tr/LC_MESSAGES/newsbeuter.mo
 share/locale/uk/LC_MESSAGES/newsbeuter.mo
 share/locale/zh/LC_MESSAGES/newsbeuter.mo
 share/locale/zh_TW/LC_MESSAGES/newsbeuter.mo
-@dirrm share/doc/newsbeuter/examples
-@dirrm share/doc/newsbeuter
