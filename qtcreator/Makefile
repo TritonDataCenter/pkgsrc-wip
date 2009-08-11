@@ -21,7 +21,9 @@ INSTALLATION_DIRS=      bin lib/qtcreator lib/qtcreator/plugins/Nokia \
 			share/qtcreator/translations
 PKG_DESTDIR_SUPPORT=	user-destdir
 
-BUILD_DEPENDS+=	qt4-tools>=4.5.2nb1:../../x11/qt4-tools
+BUILD_DEPENDS+=	qt4-tools>=4.5.2nb1:../../x11/qt4-tools \
+		qt4-sqlite3>=4.5.2:../../x11/qt4-sqlite3
+
 BUILD_TARGET=	make_default qch_docs
 MAKE_ENV+=	PREFIX=${PREFIX}
 
