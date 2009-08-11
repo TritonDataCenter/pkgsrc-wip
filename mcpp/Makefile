@@ -9,6 +9,8 @@ MAINTAINER=	loo@bazmek.net
 HOMEPAGE=	http://mcpp.sourceforge.net/
 COMMENT=	Alternative C/C++ preprocessor
 
+PKG_DESTDIR_SUPPORT=	user-destdir
+
 GNU_CONFIGURE=	yes
 USE_LANGUAGES=	c
 
