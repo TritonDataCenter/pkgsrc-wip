@@ -1,5 +1,4 @@
 @comment $NetBSD$
-bin/sieve-filter
 bin/sieve-test
 bin/sievec
 bin/sieved
