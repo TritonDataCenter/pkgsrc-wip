@@ -5,7 +5,7 @@ DISTNAME=	lisaac-0.13.1
 CATEGORIES=	lang
 MASTER_SITES=	http://isaacproject.u-strasbg.fr/download/
 
-MAINTAINER=	kamel.derouiche@gmail.com
+MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	http://isaacproject.u-strasbg.fr/li.html
 COMMENT=	Lisaac is the first compiled POO based on prototype concepts
 #LICENSE=	gnu-gpl-v3
