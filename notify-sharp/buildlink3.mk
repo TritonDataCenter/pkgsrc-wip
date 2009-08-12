@@ -6,6 +6,7 @@ BUILDLINK_TREE+=	notify-sharp
 NOTIFY_SHARP_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.notify-sharp+=	notify-sharp>=0.4.0
+BUILDLINK_ABI_DEPENDS.notify-sharp?=	notify-sharp>=0.4.0nb1
 BUILDLINK_PKGSRCDIR.notify-sharp?=	../../wip/notify-sharp
 
 

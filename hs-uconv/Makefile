@@ -3,6 +3,7 @@
 
 DISTNAME=	uconv-0.0.3
 PKGNAME=	hs-${DISTNAME}
+PKGREVISION=	1
 CATEGORIES=	devel
 
 MAINTAINER=	pho@cielonegro.org

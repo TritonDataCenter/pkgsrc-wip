@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	gnome-keyring-sharp-1.0.0
+PKGREVISION=	1
 CATEGORIES=	security
 MASTER_SITES=	http://ftp.novell.com/pub/mono/sources/gnome-keyring-sharp/
 EXTRACT_SUFX=	.tar.bz2

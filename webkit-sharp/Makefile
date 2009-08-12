@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	webkit-sharp-0.2
+PKGREVISION=	1
 CATEGORIES=	www
 MASTER_SITES=	http://ftp.novell.com/pub/mono/sources/webkit-sharp/
 EXTRACT_SUFX=	.tar.bz2

@@ -3,6 +3,7 @@
 
 DISTNAME=	IronPython-1.0.1-Src
 PKGNAME=	ironpython-1.0.1
+PKGREVISION=	1
 CATEGORIES=	lang python
 MASTER_SITES=	http://ftp.novell.com/pub/mono/sources/ironpython/
 EXTRACT_SUFX=	.zip

@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	muine-0.8.10
-PKGREVISION=	1
+PKGREVISION=	2
 CATEGORIES=	audio gnome
 MASTER_SITES=	${MASTER_SITE_GNOME:=sources/muine/0.8/}
 

@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	njb-sharp-0.3.0
+PKGREVISION=	1
 CATEGORIES=	audio
 MASTER_SITES=	http://download.banshee-project.org/legacy/njb-sharp/
 

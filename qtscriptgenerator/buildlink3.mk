@@ -16,6 +16,7 @@ BUILDLINK_TREE+=	qtscriptgenerator
 QTSCRIPTGENERATOR_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.qtscriptgenerator+=	qtscriptgenerator>=0.1.0
+BUILDLINK_ABI_DEPENDS.qtscriptgenerator?=	qtscriptgenerator>=0.1.0nb1
 BUILDLINK_PKGSRCDIR.qtscriptgenerator?=	../../wip/qtscriptgenerator
 
 # XXX

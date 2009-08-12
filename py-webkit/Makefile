@@ -3,6 +3,7 @@
 
 DISTNAME=	pywebkitgtk-1.1.5
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME:S/py//}
+PKGREVISION=	1
 CATEGORIES=	www python
 MASTER_SITES=	http://pywebkitgtk.googlecode.com/files/
 EXTRACT_SUFX=	.tar.bz2

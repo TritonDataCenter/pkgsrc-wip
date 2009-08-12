@@ -6,6 +6,7 @@ BUILDLINK_TREE+=	gecko-sharp-2.0
 GECKO_SHARP_2.0_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.gecko-sharp-2.0+=	gecko-sharp-2.0>=0.13
+BUILDLINK_ABI_DEPENDS.gecko-sharp-2.0?=	gecko-sharp-2.0>=0.13nb1
 BUILDLINK_PKGSRCDIR.gecko-sharp-2.0?=	../../wip/gecko-sharp
 
 # XXX

@@ -8,6 +8,7 @@ PY_WEBKITGTK_BUILDLINK3_MK:=
 .include "../../lang/python/pyversion.mk"
 
 BUILDLINK_API_DEPENDS.py-webkitgtk+=	${PYPKGPREFIX}-webkitgtk>=1.1.4
+BUILDLINK_ABI_DEPENDS.py-webkitgtk?=	py25-webkitgtk>=1.1.5nb1
 BUILDLINK_PKGSRCDIR.py-webkitgtk?=	../../wip/py-webkit
 
 .include "../../x11/py-gtk2/buildlink3.mk"

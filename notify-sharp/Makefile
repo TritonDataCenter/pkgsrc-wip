@@ -3,6 +3,7 @@
 
 DISTNAME=	notify-sharp_0.4.0~r2998.orig
 PKGNAME=	notify-sharp-0.4.0
+PKGREVISION=	1
 CATEGORIES=	sysutils
 MASTER_SITES=	${MASTER_SITE_DEBIAN:=pool/main/n/notify-sharp/}
 

@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	frogmicroblog-0.1.4
+PKGREVISION=	1
 CATEGORIES=	www
 MASTER_SITES=	http://froggymicroblog.googlecode.com/files/
 

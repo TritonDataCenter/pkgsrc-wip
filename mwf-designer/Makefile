@@ -2,6 +2,7 @@
 
 DISTNAME=	mwf-designer
 PKGNAME=	${DISTNAME}-${MWF_VERSION}
+PKGREVISION=	1
 CATEGORIES=	devel
 MASTER_SITES=	http://www.mono-project.com/
 

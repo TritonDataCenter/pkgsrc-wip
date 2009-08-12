@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	blam-1.8.7
+PKGREVISION=	1
 CATEGORIES=	www
 MASTER_SITES=	http://www.cmartin.tk/blam/
 EXTRACT_SUFX=	.tar.bz2

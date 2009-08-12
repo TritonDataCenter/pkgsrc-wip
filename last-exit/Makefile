@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	last-exit-6
+PKGREVISION=	1
 CATEGORIES=	audio gnome
 MASTER_SITES=	http://lastexit-player.org/releases/
 EXTRACT_SUFX=	.tar.bz2

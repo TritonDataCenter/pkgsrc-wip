@@ -6,6 +6,7 @@ BUILDLINK_TREE+=	mono-zeroconf
 MONO_ZEROCONF_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.mono-zeroconf+=	mono-zeroconf>=0.8.0
+BUILDLINK_ABI_DEPENDS.mono-zeroconf?=	mono-zeroconf>=0.9.0nb1
 BUILDLINK_PKGSRCDIR.mono-zeroconf?=	../../wip/mono-zeroconf
 
 

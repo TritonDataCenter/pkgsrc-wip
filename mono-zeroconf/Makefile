@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	mono-zeroconf-0.9.0
+PKGREVISION=	1
 CATEGORIES=	net
 MASTER_SITES=	http://download.banshee-project.org/mono-zeroconf/
 EXTRACT_SUFX=	.tar.bz2

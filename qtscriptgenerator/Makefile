@@ -3,6 +3,7 @@
 
 DISTNAME=	qtscriptgenerator-src-0.1.0
 PKGNAME=	${DISTNAME:S/-src//}
+PKGREVISION=	1
 CATEGORIES=	devel
 MASTER_SITES=	http://qtscriptgenerator.googlecode.com/files/
 

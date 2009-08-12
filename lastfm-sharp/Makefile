@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	liblastfm-sharp-0.1.09
+PKGREVISION=	1
 CATEGORIES=	audio
 MASTER_SITES=	http://lastfm-sharp.googlecode.com/files/
 

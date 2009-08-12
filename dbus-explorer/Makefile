@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	dbus-explorer-0.5
+PKGREVISION=	1
 CATEGORIES=	sysutils
 MASTER_SITES=	http://www.ndesk.org/archive/dbus-explorer/
 

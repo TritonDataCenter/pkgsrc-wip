@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	nemo-0.2.4
+PKGREVISION=	1
 CATEGORIES=	sysutils
 MASTER_SITES=	http://www.iola.dk/nemo/downloads/
 EXTRACT_SUFX=	.tar.bz2
