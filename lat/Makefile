@@ -16,7 +16,6 @@ USE_TOOLS+=		pkg-config gmake msgfmt intltool
 USE_LANGUAGES=		# empty -> its csharp
 GNU_CONFIGURE=		yes
 USE_LIBTOOL=		yes
-			gnome2-1.6
 
 PKGCONFIG_OVERRIDE+=	desktop/lat-plugins.pc.in
 
