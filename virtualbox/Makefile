@@ -43,6 +43,9 @@ CONFIGURE_ARGS+=	--disable-opengl
 CONFIGURE_ARGS+=	--disable-qt4
 #CONFIGURE_ARGS+=	--with-qt4-dir=${PREFIX}/qt4
 
+post-extract:
+	cp -R ${FILESDIR}/src/VBox/Runtime/r3/netbsd ${WRKSRC}/src/VBox/Runtime/r3
+	cp -R ${FILESDIR}/src/VBox/HostDrivers/Support/netbsd ${WRKSRC}/src/VBox/HostDrivers/Support
 
 do-build:
 	cd ${WRKSRC} && ${SETENV} ${MAKE_ENV} KBUILD_PATH=${WRKSRC}/kBuild sh -c ". ./env.sh; kmk"
