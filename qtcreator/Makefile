@@ -58,7 +58,7 @@ do-install:
                 ${INSTALL_DATA_DIR} "${WRKSRC}/share/qtcreator/{}" \
 		"${DESTDIR}${PREFIX}/share/qtcreator/{}" ";"
 	cd ${WRKSRC}/share/qtcreator && ${FIND} designer gdbmacros \
-		schemes snippets templates -type f -exec \
+		schemes snippets templates -type f \! -name "*.orig" -exec \
                 ${INSTALL_DATA} "${WRKSRC}/share/qtcreator/{}" \
 		"${DESTDIR}${PREFIX}/share/qtcreator/{}" ";"
 
