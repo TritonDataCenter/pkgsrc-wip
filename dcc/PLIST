@@ -4,6 +4,7 @@ bin/dccproc
 libexec/cron-dccd
 libexec/dbclean
 libexec/dblist
+libexec/dcc-nagios
 libexec/dcc-stats-collect
 libexec/dcc-stats-graph
 libexec/dcc-stats-init

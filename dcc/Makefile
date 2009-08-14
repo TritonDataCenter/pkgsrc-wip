@@ -10,7 +10,7 @@
 #	> you distribute. Updatedcc must work.
 #
 #
-DISTNAME=		dcc-1.3.109
+DISTNAME=		dcc-1.3.113
 #PKGREVISION=		2
 CATEGORIES=		mail
 MASTER_SITES=		http://www.rhyolite.com/dcc/source/old/
@@ -116,6 +116,7 @@ do-install:
 	${INSTALL_SCRIPT} ${WRKSRC}/cgi-bin/list-msg ${DESTDIR}${DCC_EGDIR}/cgi-bin/
 	${INSTALL_SCRIPT} ${WRKSRC}/cgi-bin/webuser-notify ${DESTDIR}${DCC_EGDIR}/cgi-bin/
 	${INSTALL_SCRIPT} ${WRKSRC}/misc/cron-dccd ${DESTDIR}${PREFIX}/libexec/
+	${INSTALL_SCRIPT} ${WRKSRC}/misc/dcc-nagios ${DESTDIR}${PREFIX}/libexec/
 	${INSTALL_SCRIPT} ${WRKSRC}/misc/dcc-stats-collect ${DESTDIR}${PREFIX}/libexec/
 	${INSTALL_SCRIPT} ${WRKSRC}/misc/dcc-stats-graph ${DESTDIR}${PREFIX}/libexec/
 	${INSTALL_SCRIPT} ${WRKSRC}/misc/dcc-stats-init ${DESTDIR}${PREFIX}/libexec/
