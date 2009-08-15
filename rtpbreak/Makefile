@@ -9,6 +9,7 @@ EXTRACT_SUFX=	.tgz
 MAINTAINER=	prudhvi-krishna-bsd@surapaneni.in
 HOMEPAGE=	http://xenion.antifork.org/rtpbreak/
 COMMENT=	Detects, reconstructs and analyzes any RTP session
+LICENSE=	gnu-gpl-v2
 
 DEPENDS+=	libnet11>=1.1.2.1:../../devel/libnet11
 
