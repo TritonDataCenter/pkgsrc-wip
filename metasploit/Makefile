@@ -14,6 +14,8 @@ LICENSE=	modified-bsd
 SCRIPTS=	msfcli msfconsole msfd msfelfscan msfencode msfmachscan \
 		msfopcode msfpayload msfpescan msfweb
 
+#Fix me for msfgui
+
 PKG_DESTDIR_SUPPORT+=	user-destdir
 NO_BUILD=	yes
 USE_TOOLS+=	pax ln chmod
