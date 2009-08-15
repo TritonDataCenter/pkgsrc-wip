@@ -9,7 +9,7 @@ MASTER_SITES=	ftp://ftp.computing.dcu.ie/pub/crypto/
 EXTRACT_SUFX=	.zip
 
 MAINTAINER=	prudhvi-krishna-bsd@surapaneni.in
-HOMEPAGE=	ftp://ftp.computing.dcu.ie/pub/crypto/
+HOMEPAGE=	http://www.shamus.ie
 COMMENT=	Multiprecision Integer and Rational Arithmetic C/C++ Library
 
 INSTALLATION_DIRS+=	include/${DISTNAME}
