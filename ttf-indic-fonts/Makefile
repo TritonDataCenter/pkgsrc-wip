@@ -7,7 +7,7 @@ CATEGORIES=	fonts
 MASTER_SITES=	http://www.gtlib.cc.gatech.edu/pub/debian/pool/main/t/ttf-indic-fonts/
 
 MAINTAINER=	prudhvi-krishna-bsd@surapaneni.in
-HOMEPAGE=	http://www.gtlib.cc.gatech.edu/pub/debian/pool/main/t/ttf-indic-fonts/
+HOMEPAGE=	http://www.debian-in.org/
 COMMENT=	TTF Indic Fonts from Debian
 LICENSE=	gnu-gpl-v2
 
