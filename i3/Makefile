@@ -41,8 +41,8 @@ post-build:
 post-install:
 	${INSTALL_MAN} ${WRKSRC}/man/i3.1 ${DESTDIR}${PREFIX}/${PKGMANDIR}/man1
 
+.include "../../devel/libev/buildlink3.mk"
 .include "../../x11/xcb-util/buildlink3.mk"
 .include "../../x11/libxcb/buildlink3.mk"
 .include "../../x11/libX11/buildlink3.mk"
-.include "../../wip/libev/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
