@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		tor-0.2.1.19
-PKGREVISION=		1
+PKGREVISION=		2
 CATEGORIES=		net security
 MASTER_SITES=		http://www.torproject.org/dist/
 
