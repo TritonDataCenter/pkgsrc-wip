@@ -3,5 +3,3 @@ include/uxre/regex.h
 lib/libuxre.la
 share/doc/${PKGBASE}/COPYING.LGPL
 share/doc/${PKGBASE}/NOTES
-@dirrm share/doc/${PKGBASE}
-@dirrm include/uxre
