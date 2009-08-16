@@ -24,6 +24,3 @@ share/freedict-tools-xsl/tei2htm.xsl
 share/freedict-tools-xsl/tei2txt.xsl
 share/freedict-tools-xsl/tei2vok.xsl
 share/freedict-tools-xsl/tei2webster.xsl
-@dirrm share/freedict-tools-xsl/inc
-@dirrm share/freedict-tools-xsl
-@dirrm share/doc/freedict-tools-xsl
