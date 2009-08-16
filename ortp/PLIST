@@ -1,4 +1,5 @@
 @comment $NetBSD$
+include/ortp/b64.h
 include/ortp/event.h
 include/ortp/ortp.h
 include/ortp/payloadtype.h
@@ -8,10 +9,10 @@ include/ortp/rtp.h
 include/ortp/rtpsession.h
 include/ortp/rtpsignaltable.h
 include/ortp/sessionset.h
+include/ortp/srtp.h
 include/ortp/str_utils.h
 include/ortp/stun.h
 include/ortp/stun_udp.h
 include/ortp/telephonyevents.h
 lib/libortp.la
 lib/pkgconfig/ortp.pc
-@dirrm include/ortp
