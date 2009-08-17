@@ -1,16 +1,15 @@
 # $NetBSD$
 #
 
-DISTNAME=	pywebkitgtk-1.1.5
+DISTNAME=	pywebkitgtk-1.1.6
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME:S/py//}
-PKGREVISION=	1
 CATEGORIES=	www python
 MASTER_SITES=	http://pywebkitgtk.googlecode.com/files/
 EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	http://code.google.com/p/pywebkitgtk/
-COMMENT=	Python bindings for the WebKit GTK+ port
+COMMENT=	Python bindings for the WebKit GTK+
 LICENSE=	gnu-lgpl-v2
 
 DEPENDS+=	${PYPKGPREFIX}-libxslt-[0-9]*:../../textproc/py-libxslt
