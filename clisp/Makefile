@@ -9,6 +9,7 @@ MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=clisp/}
 MAINTAINER=		asau@inbox.ru
 HOMEPAGE=		http://clisp.cons.org/
 COMMENT=		CLISP, a Common Lisp implementation
+LICENSE=		gnu-gpl-v2
 
 CVS_REPOSITORIES=	clisp
 CVS_ROOT.clisp=		:pserver:anonymous:@clisp.cvs.sourceforge.net:/cvsroot/clisp
