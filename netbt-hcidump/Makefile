@@ -20,16 +20,8 @@ WRKSRC=			${WRKDIR}/bluez-hcidump-1.42
 LIBSRC=			${WRKDIR}/bluez-4.27
 
 PKG_DESTDIR_SUPPORT=	user-destdir
-PKG_OPTIONS_VAR=	PKG_OPTIONS.hcidump
-PKG_SUPPORTED_OPTIONS=	inet6
-PKG_SUGGESTED_OPTIONS=	inet6
 
-.include "../../mk/bsd.prefs.mk"
-.include "../../mk/bsd.options.mk"
-
-.if !empty(PKG_OPTIONS:Minet6)
-CPPFLAGS+=	-DINET6
-.endif
+.include "options.mk"
 
 CPPFLAGS+=	-DVERSION=\""1.42-netbt"\"
 

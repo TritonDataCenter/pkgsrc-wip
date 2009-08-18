@@ -1,6 +1,6 @@
 $NetBSD$
 
---- src/Makefile.orig	2008-07-29 11:23:30.000000000 +0100
+--- src/Makefile.orig	2009-08-18 15:53:42.000000000 +0100
 +++ src/Makefile
 @@ -0,0 +1,16 @@
 +.PATH: ../parser
