@@ -1,5 +1,7 @@
 $NetBSD$
 
+this is a bugfix, has been reported upstreadm (18 Aug 2009)
+
 --- parser/obex.c.orig	2007-02-18 03:39:02.000000000 +0000
 +++ parser/obex.c
 @@ -236,7 +236,7 @@ void obex_dump(int level, struct frame *
