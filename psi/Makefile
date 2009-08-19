@@ -66,7 +66,7 @@ post-install:
 .include "../../devel/libidn/buildlink3.mk"
 .include "../../devel/zlib/buildlink3.mk"
 .include "../../security/qca2/buildlink3.mk"
-BUILDLINK_API_DEPENDS.qt4-libs+=	qt4-libs>=4.3.2
+BUILDLINK_API_DEPENDS.qt4-libs+=	qt4-libs>=4.4.0
 .include "../../x11/qt4-libs/buildlink3.mk"
 .include "../../sysutils/desktop-file-utils/desktopdb.mk"
 .include "../../mk/bsd.pkg.mk"
