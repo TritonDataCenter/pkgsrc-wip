@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	ipython-0.10
+PKGNAME=	${PYPKGPRFEIX}-${DISTNAME}
 CATEGORIES=	wip
 MASTER_SITES=	http://ipython.scipy.org/dist/
 
