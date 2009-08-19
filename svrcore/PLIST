@@ -1,0 +1,4 @@
+@comment $NetBSD$
+include/svrcore.h
+lib/libsvrcore.la
+lib/pkgconfig/svrcore.pc
