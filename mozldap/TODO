@@ -1,0 +1,5 @@
+$NetBSD$
+
+Rewrite pkg-config ugly hack?
+
+Decide whether to install private headers or not
