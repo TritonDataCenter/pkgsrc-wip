@@ -32,7 +32,7 @@ BUILD_DIRS=		src
 GNU_CONFIGURE=		YES
 USE_LIBTOOL=		YES
 USE_PKGLOCALEDIR=	YES
-USE_TOOLS+=		dvipdf
+USE_TOOLS+=		groff
 UNLIMIT_RESOURCES=	stacksize
 
 CONFIGURE_ARGS+=	--disable-maintainer-mode
