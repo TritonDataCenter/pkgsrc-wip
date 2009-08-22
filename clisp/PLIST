@@ -93,12 +93,3 @@ share/locale/nl/LC_MESSAGES/clisp.mo
 share/locale/nl/LC_MESSAGES/clisplow.mo
 share/locale/ru/LC_MESSAGES/clisp.mo
 share/locale/ru/LC_MESSAGES/clisplow.mo
-@dirrm share/doc/clisp
-@dirrm share/clisp/vim
-@dirrm share/clisp/emacs
-@dirrm share/clisp
-@dirrm lib/clisp/linkkit
-@dirrm lib/clisp/full
-@dirrm lib/clisp/data
-@dirrm lib/clisp/base
-@dirrm lib/clisp
