@@ -1,6 +1,6 @@
 # $NetBSD$
 
-PKG_OPTIONS_VAR=        PKG_OPTIONS.ldapsdk
+PKG_OPTIONS_VAR=        PKG_OPTIONS.mozldap
 PKG_SUPPORTED_OPTIONS=  sasl
 
 .include "../../mk/bsd.options.mk"
