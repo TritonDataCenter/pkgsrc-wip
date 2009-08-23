@@ -16,6 +16,7 @@ DEPENDS+=	${PYPKGPREFIX}-django-[0-9]*:../../www/py-django
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
+PYTHON_VERSIONS_ACCEPTED=	25 24
 PYDISTUTILSPKG=		yes
 USE_LANGUAGES=	# none
 
