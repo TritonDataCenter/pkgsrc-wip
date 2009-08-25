@@ -2,7 +2,7 @@
 share/cacti/auth_changepassword.php
 share/cacti/auth_login.php
 share/cacti/data_sources.php
-share/cacti/docs/readme.txt
+share/cacti/docs/Readme.txt
 share/cacti/graph.php
 share/cacti/graph_image.php
 share/cacti/graphs.php

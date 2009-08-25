@@ -2,6 +2,7 @@
 #
 DISTNAME=		cacti-plugin-${CACTI_RC}-PA-v${RC_VERSION}
 PKGNAME=		cacti-plugin-arch-${RC_VERSION}
+PKGREVISION=		1
 CATEGORIES=		net
 MASTER_SITES=		http://mirror.cactiusers.org/downloads/plugins/
 EXTRACT_SUFX=		.zip
@@ -25,11 +26,12 @@ CACTIDIR=		${PREFIX}/share/cacti
 
 MESSAGE_SUBST+=         CACTIDIR=${CACTIDIR}
 
-INSTALLATION_DIRS+=	share/cacti
+INSTALLATION_DIRS+=	share/cacti/docs
 
 do-install:
-	${INSTALL_DATA} ${WRKDIR}/readme.txt ${DESTDIR}${CACTIDIR}/docs/
+	${INSTALL_DATA} ${WRKDIR}/Readme.txt ${DESTDIR}${CACTIDIR}/docs/
 	${INSTALL_DATA} ${WRKDIR}/pa.sql ${DESTDIR}${CACTIDIR}/
 	${CP} -R ${WRKSRC}/* ${DESTDIR}${CACTIDIR}/
+	$(CHMOD) -R go-w ${DESTDIR}${CACTIDIR}/
 
 .include "../../mk/bsd.pkg.mk"

@@ -1,9 +1,8 @@
 @comment $NetBSD$
-share/doc/interbase-docs-6.0/apiguide.pdf
-share/doc/interbase-docs-6.0/datadef.pdf
-share/doc/interbase-docs-6.0/devguide.pdf
-share/doc/interbase-docs-6.0/embedsql.pdf
-share/doc/interbase-docs-6.0/getstart.pdf
-share/doc/interbase-docs-6.0/langref.pdf
-share/doc/interbase-docs-6.0/opguide.pdf
-@dirrm share/doc/interbase-docs-6.0
+share/doc/interbase-docs-6.0/ApiGuide.pdf
+share/doc/interbase-docs-6.0/DataDef.pdf
+share/doc/interbase-docs-6.0/DevGuide.pdf
+share/doc/interbase-docs-6.0/EmbedSQL.pdf
+share/doc/interbase-docs-6.0/GetStart.pdf
+share/doc/interbase-docs-6.0/LANGREF.PDF
+share/doc/interbase-docs-6.0/OpGuide.pdf

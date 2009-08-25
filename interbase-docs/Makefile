@@ -18,8 +18,8 @@ NO_SRC_ON_CDROM=	${RESTRICTED}
 NO_BUILD=		yes
 
 ID6_DIR=	${PREFIX}/share/doc/${PKGNAME}
-ID6_FILES=		apiguide.pdf datadef.pdf devguide.pdf embedsql.pdf \
-			getstart.pdf langref.pdf opguide.pdf
+ID6_FILES=		ApiGuide.pdf DataDef.pdf DevGuide.pdf EmbedSQL.pdf \
+			GetStart.pdf LANGREF.PDF OpGuide.pdf
 
 do-install:
 	${INSTALL_DATA_DIR} ${ID6_DIR}

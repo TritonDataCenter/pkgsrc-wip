@@ -1,8 +1,9 @@
 # $NetBSD$
 #
 
-DISTNAME=		papyros-0.2.1
-PKGNAME=		${PYPKGPREFIX}-${DISTNAME}
+DISTNAME=	papyros-0.2.1
+PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
+PKGREVISION=	1
 CATEGORIES=	devel python
 MASTER_SITES=	http://papyros.googlecode.com/files/
 EXTRACT_SUFX=	.zip

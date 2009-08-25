@@ -12,6 +12,7 @@ HOMEPAGE=	http://members.cox.net/rcolbert/index.htm
 COMMENT=	6502 Disassembler with Atari 2600 headers and cycle counting info
 
 NO_CONFIGURE=	YES
+EXTRACT_OPTS_ZIP=	-Laqo
 
 post-extract:
 	${MKDIR} ${WRKSRC}
