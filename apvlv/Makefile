@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	apvlv-0.0.6.10
-CATEGORIES=	local
+CATEGORIES=	print
 MASTER_SITES=	http://apvlv.googlecode.com/files/
 
 MAINTAINER=	leot1990@users.sourceforge.net
