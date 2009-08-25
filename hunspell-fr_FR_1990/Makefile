@@ -12,7 +12,6 @@ MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://dico.savant.free.fr/index.php
 COMMENT=		French (1990 Reform) dictionary for hunspell
 
-EXTRACT_OPTS_ZIP=	-aqo # We don't want -L
 PKG_DESTDIR_SUPPORT=	user-destdir
 USE_LANGUAGES=		# none
 

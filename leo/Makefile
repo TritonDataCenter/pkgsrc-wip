@@ -16,8 +16,6 @@ DEPENDS+=		${PYPKGPREFIX}-docutils>=0.3.9:../../textproc/py-docutils
 NO_BUILD=		yes
 PYTHON_PATCH_SCRIPTS=	src/leo.py scripts/LinixInstall.py
 
-EXTRACT_OPTS_ZIP=	-aqo
-
 PYCOMPILEALL=	${BUILDLINK_PREFIX.${PYPACKAGE}}/${PYLIB}/compileall.py
 
 post-extract:
