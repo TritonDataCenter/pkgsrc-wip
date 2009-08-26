@@ -1,0 +1,5 @@
+#!/usr/pkg/bin/pdksh
+wrapperlog="${TOOLS_WRAPPER_LOG-/usr/pkgsrc/wip/syn68k/work.sparc/.work.log}"
+echo "[*] "/usr/pkgsrc/wip/syn68k/work.sparc/.tools/bin/aclocal" $@" >> $wrapperlog
+echo "<.> /usr/pkgsrc/mk/gnu-config/missing aclocal" >> $wrapperlog
+/usr/pkgsrc/mk/gnu-config/missing aclocal

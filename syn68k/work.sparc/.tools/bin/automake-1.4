@@ -1,0 +1,5 @@
+#!/usr/pkg/bin/pdksh
+wrapperlog="${TOOLS_WRAPPER_LOG-/usr/pkgsrc/wip/syn68k/work.sparc/.work.log}"
+echo "[*] "/usr/pkgsrc/wip/syn68k/work.sparc/.tools/bin/automake-1.4" $@" >> $wrapperlog
+echo "<.> /usr/pkgsrc/mk/gnu-config/missing automake" >> $wrapperlog
+/usr/pkgsrc/mk/gnu-config/missing automake
