@@ -1,0 +1,11 @@
+$NetBSD$
+
+- Fix heimdal - https://bugzilla.redhat.com/show_bug.cgi?id=519464
+
+- Get NSPR fixed - nspr-config
+
+- Restrict patches to exclusively cosmetic pkgsrc changes (-ldb4 instead of -ldb for example)
+- Use --with-db-inc instead of a patch - https://bugzilla.redhat.com/show_bug.cgi?id=519459
+
+- Write BSD-compatible rc script
+
