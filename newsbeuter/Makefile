@@ -17,7 +17,7 @@ USE_GNU_ICONV=	yes
 
 REPLACE_PERL+=	txt2h.pl
 
-INSTALL_MAKE_FLAGS+=	prefix=${PREFIX} mandir=${DESTDIR}${PREFIX}/${PKGMANDIR}
+INSTALL_MAKE_FLAGS+=	prefix=${PREFIX} mandir=${PREFIX}/${PKGMANDIR}
 
 .include "../../mk/bsd.prefs.mk"
 
