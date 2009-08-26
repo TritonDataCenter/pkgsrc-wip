@@ -1,5 +1,0 @@
-CC = gcc
-OFILE_DIR = obj/i860
-LIBDIR = ../lib/i860
-LIBS = -L/usr/ucblib -lucb
-HOSTCPU = i860
