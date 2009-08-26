@@ -1,5 +1,0 @@
-#!/usr/pkg/bin/pdksh
-wrapperlog="${TOOLS_WRAPPER_LOG-/usr/pkgsrc/wip/syn68k/work.sparc/.work.log}"
-echo "[*] "/usr/pkgsrc/wip/syn68k/work.sparc/.tools/bin/intltool-update" $@" >> $wrapperlog
-echo "<.> exit 1" >> $wrapperlog
-exit 1

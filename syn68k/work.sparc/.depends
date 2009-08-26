@@ -1,3 +1,0 @@
-bootstrap	digest>=20010302	../../pkgtools/digest
-bootstrap	tnftp-[0-9]*	../../net/tnftp
-build	{gzip>=1.2.4b,gzip-base>=1.2.4b}	../../archivers/gzip

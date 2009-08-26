@@ -1,5 +1,0 @@
-#!/usr/pkg/bin/pdksh
-wrapperlog="${TOOLS_WRAPPER_LOG-/usr/pkgsrc/wip/syn68k/work.sparc/.work.log}"
-echo "[*] "/usr/pkgsrc/wip/syn68k/work.sparc/.tools/bin/perl" $@" >> $wrapperlog
-echo "<.> echo >> /usr/pkgsrc/wip/syn68k/work.sparc/.warning/perl "Please add USE_TOOLS+=perl to the package Makefile.";  /usr/pkg/bin/pdksh /usr/pkgsrc/mk/scripts/fail echo 1>&2 "ERROR:" "To use this tool, add USE_TOOLS+=perl to the package Makefile."" >> $wrapperlog
-echo >> /usr/pkgsrc/wip/syn68k/work.sparc/.warning/perl "Please add USE_TOOLS+=perl to the package Makefile.";  /usr/pkg/bin/pdksh /usr/pkgsrc/mk/scripts/fail echo 1>&2 "ERROR:" "To use this tool, add USE_TOOLS+=perl to the package Makefile."
