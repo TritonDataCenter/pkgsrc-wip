@@ -28,4 +28,5 @@ mysqld/include/mysql/sslopt-case.h
 mysqld/include/mysql/sslopt-longopts.h
 mysqld/include/mysql/sslopt-vars.h
 mysqld/include/mysql/typelib.h
+mysqld/lib/mysql/libmysqlclient.la
 mysqld/lib/mysql/libmysqld.a
