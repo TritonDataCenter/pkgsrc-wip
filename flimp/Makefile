@@ -1,13 +1,14 @@
 # $NetBSD$
 #
 
-DISTNAME=	flimp-0.0.8
+DISTNAME=	flimp-0.0.9
 CATEGORIES=	graphics
 MASTER_SITES=	http://www.ecademix.com/JohannesHofmann/
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.ecademix.com/JohannesHofmann/flimp.html
 COMMENT=	Generic GUI for image manipulation
+LICENSE=	gnu-gpl-v3
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
