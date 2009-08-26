@@ -7,6 +7,7 @@ MASTER_SITES=	http://www.clifford.at/stfl/
 MAINTAINER=	clamiax@gmail.com
 HOMEPAGE=	http://www.clifford.at/stfl/
 COMMENT=	Library which implements a curses-based widget set for text terminals
+LICENSE=	gnu-gpl-v3
 
 NO_INSTALL_MANPAGES=	yes
 PKG_DESTDIR_SUPPORT=	user-destdir
