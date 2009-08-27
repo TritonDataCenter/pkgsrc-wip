@@ -11,6 +11,8 @@ HOMEPAGE=	http://download.github.com/
 COMMENT=	ARDI's 68LC040 CPU emulator
 LICENSE=	mit
 
-WRKSRC=	${WRKDIR} # More than one possibility -- please check manually.
+USE_TOOLS+=	bash
+REPLACE_BASH=	autogen.sh test/testall.sh
+
 
 .include "../../mk/bsd.pkg.mk"
