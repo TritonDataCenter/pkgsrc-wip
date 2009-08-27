@@ -9,10 +9,6 @@ MAINTAINER=		dhowland@users.sourceforge.net
 HOMEPAGE=		http://www.molspaces.com/cb2bib/
 COMMENT=		Extract and organize bibliographic references
 
-BROKEN=			Requires QT>=4.2, and pkgsrc is still at 4.1
-DEPENDS+=		qt4-libs>=4.2:../../x11/qt4-libs
-DEPENDS+=		qt4-tools>=4.2:../../x11/qt4-tools
-
 USE_LANGUAGES=		c c++
 USE_LIBTOOL=		yes
 USE_TOOLS+=		gmake
