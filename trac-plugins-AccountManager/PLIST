@@ -17,6 +17,9 @@ ${PYSITELIB}/acct_mgr/api.pyo
 ${PYSITELIB}/acct_mgr/db.py
 ${PYSITELIB}/acct_mgr/db.pyc
 ${PYSITELIB}/acct_mgr/db.pyo
+${PYSITELIB}/acct_mgr/hashlib_compat.py
+${PYSITELIB}/acct_mgr/hashlib_compat.pyc
+${PYSITELIB}/acct_mgr/hashlib_compat.pyo
 ${PYSITELIB}/acct_mgr/htfile.py
 ${PYSITELIB}/acct_mgr/htfile.pyc
 ${PYSITELIB}/acct_mgr/htfile.pyo
