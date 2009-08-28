@@ -10,7 +10,7 @@ EXTRACT_SUFX=	.tgz
 MAINTAINER=	kamel.derouiche@gmail.com
 HOMEPAGE=	http://barryp.org/software/py-amqplib/
 COMMENT=	Client library for AMQP wirtten by python
-#LICENSE=	gnu-lgpl-v2.1
+LICENSE=	gnu-lgpl-v2.1
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
