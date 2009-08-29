@@ -12,6 +12,13 @@ PKG_SUGGESTED_OPTIONS=	dbus svg x11 xft2
 .include "../../mk/bsd.options.mk"
 
 ###
+### Check incompatible option sets.
+###
+.if !empty(PKG_OPTIONS:Mnextstep) && !empty(PKG_OPTIONS:xft2)
+PKG_FAIL_REASON+=	`xft2' options is incompatible with `nextstep' option.
+.endif
+
+###
 ### Support D-BUS
 ###
 .if !empty(PKG_OPTIONS:Mdbus)
