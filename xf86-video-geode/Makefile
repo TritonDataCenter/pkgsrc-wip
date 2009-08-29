@@ -1,13 +1,13 @@
 # $NetBSD$
 #
 
-DISTNAME=	xf86-video-geode-2.11.3
+DISTNAME=	xf86-video-geode-2.11.4
 CATEGORIES=	x11
 MASTER_SITES=	${MASTER_SITE_XORG:=driver/}
 EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	joerg@NetBSD.org
-HOMEPAGE=	http://cgit.freedesktop.org/xorg/driver/xf86-video-geode/
+HOMEPAGE=	http://wiki.x.org/wiki/GeodeDriver
 COMMENT=	Modular Xorg AMD Geode GX/LX driver
 
 PKG_DESTDIR_SUPPORT=    user-destdir
