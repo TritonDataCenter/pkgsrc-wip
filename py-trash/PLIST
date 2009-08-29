@@ -1,7 +1,0 @@
-@comment $NetBSD$
-bin/emptytrash
-bin/trash
-bin/undel
-${PYSITELIB}/pytrash/__init__.pyc
-${PYSITELIB}/pytrash/__init__.pyo
-@dirrm ${PYSITELIB}/pytrash
