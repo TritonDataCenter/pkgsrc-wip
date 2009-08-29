@@ -24,7 +24,7 @@ USE_LANGUAGES=	# none
 PYTHON_VERSIONS_ACCEPTED= 26 25
 PYDISTUTILSPKG= yes
 
-#only_platform: netbsd and linux
+ONLY_FOR_PLATFORM= NetBSD-*-* Linux-*-*
 
 REPLACE_PYTHON+=	bleachbit.py
 
