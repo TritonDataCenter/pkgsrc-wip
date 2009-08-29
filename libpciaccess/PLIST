@@ -1,4 +1,0 @@
-@comment $NetBSD$
-include/pciaccess.h
-lib/libpciaccess.la
-lib/pkgconfig/pciaccess.pc
