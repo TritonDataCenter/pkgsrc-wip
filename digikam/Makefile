@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	digikam-1.0.0-beta3
+DISTNAME=	digikam-1.0.0-beta4
 PKGNAME=	${DISTNAME:S/-beta/beta/}
 CATEGORIES=	graphics
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=digikam/}
