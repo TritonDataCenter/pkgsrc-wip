@@ -1,6 +1,7 @@
 # $NetBSD$
 
 DISTNAME=	${E2FSPROGS_DISTNAME}
+PKGREVISION=	1
 # what should the version be?
 PKGNAME=	com_err-${E2FSPROGS_VERSION}
 WRKSRC=		${WRKDIR}/${DISTNAME}/lib/et
