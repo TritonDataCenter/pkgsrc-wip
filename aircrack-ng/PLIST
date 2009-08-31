@@ -25,5 +25,6 @@ sbin/airdriver-ng
 sbin/aireplay-ng
 sbin/airmon-ng
 sbin/airodump-ng
+sbin/airodump-ng-oui-update
 sbin/airserv-ng
 sbin/airtun-ng
