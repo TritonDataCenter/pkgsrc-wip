@@ -1,0 +1,14 @@
+@comment $NetBSD$
+${PYSITELIB}/pynetcdf/NetCDF.py
+${PYSITELIB}/pynetcdf/NetCDF.pyc
+${PYSITELIB}/pynetcdf/NetCDF.pyo
+${PYSITELIB}/pynetcdf/__init__.py
+${PYSITELIB}/pynetcdf/__init__.pyc
+${PYSITELIB}/pynetcdf/__init__.pyo
+${PYSITELIB}/pynetcdf/_netcdf.so
+${PYSITELIB}/pynetcdf/netcdf_demo.py
+${PYSITELIB}/pynetcdf/netcdf_demo.pyc
+${PYSITELIB}/pynetcdf/netcdf_demo.pyo
+${PYSITELIB}/pynetcdf/pynetcdf/LICENSE
+${PYSITELIB}/pynetcdf/pynetcdf/README
+${PYSITELIB}/pynetcdf/pynetcdf/demomodule.c
