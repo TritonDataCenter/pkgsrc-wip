@@ -2822,6 +2822,7 @@ share/kde/apps/ksgmltools2/customization/pl/lang.entities
 share/kde/apps/ksgmltools2/customization/pl/strings.entities
 share/kde/apps/ksgmltools2/customization/pl/user.entities
 share/kde/apps/ksgmltools2/customization/pt-BR/catalog.xml
+share/kde/apps/ksgmltools2/customization/pt-BR/contributor.entities
 share/kde/apps/ksgmltools2/customization/pt-BR/entities/fdl-notice.docbook
 share/kde/apps/ksgmltools2/customization/pt-BR/entities/gpl-notice.docbook
 share/kde/apps/ksgmltools2/customization/pt-BR/entities/help-menu.docbook
