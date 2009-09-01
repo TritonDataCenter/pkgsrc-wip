@@ -12,6 +12,9 @@ COMMENT=	Modular Xorg AMD Geode GX/LX driver
 
 PKG_DESTDIR_SUPPORT=    user-destdir
 
+# http://bugs.freedesktop.org/show_bug.cgi?id=23590
+ONLY_FOR_PLATFORM=	*-*-i386
+
 USE_LIBTOOL=    yes
 GNU_CONFIGURE=  yes
 USE_TOOLS+=     pkg-config
