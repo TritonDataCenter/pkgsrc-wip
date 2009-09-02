@@ -1,13 +1,14 @@
 # $NetBSD$
 #
 
-DISTNAME=	tasks-0.15
+DISTNAME=	tasks-0.16
 CATEGORIES=	time editors
 MASTER_SITES=	http://pimlico-project.org/sources/tasks/
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	http://pimlico-project.org/tasks.html
-COMMENT=	Tasks is a simple To Do list application for GNOME
+COMMENT=	Simple To Do list application for GNOME
+LICENSE=	gnu-gpl-v2
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
