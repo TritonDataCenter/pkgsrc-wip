@@ -11,11 +11,15 @@ COMMENT=	Jabber client written in PyGTK
 
 DEPENDS=	${PYPKGPREFIX}-expat-[0-9]*:../../textproc/py-expat
 
+PKG_DESTDIR_SUPPORT=	user-destdir
+
 .include "options.mk"
 
 PY_PATCHPLIST=	yes
 USE_TOOLS+=	gmake intltool pkg-config
 GNU_CONFIGURE=	yes
+
+INSTALLATION_DIRS+=	bin
 
 SUBST_CLASSES+=		paths
 SUBST_STAGE.paths=	pre-configure
@@ -47,21 +51,21 @@ BUILDLINK_TRANSFORM+=	rm:-lXss
 .endif
 
 post-install:
-	${INSTALL_SCRIPT} ${WRKSRC}/src/gajim.py ${PREFIX}/bin/gajim
+	${INSTALL_SCRIPT} ${WRKSRC}/src/gajim.py ${DESTDIR}${PREFIX}/bin/gajim
 .if !empty(PKG_OPTIONS:Mdbus)
-	${INSTALL_SCRIPT} ${WRKSRC}/src/gajim-remote.py ${PREFIX}/bin/gajim-remote
+	${INSTALL_SCRIPT} ${WRKSRC}/src/gajim-remote.py ${DESTDIR}${PREFIX}/bin/gajim-remote
 .endif
 	cd ${WRKSRC} && \
 	for i in `find data/emoticons data/iconsets -iname\
 	'*.jpg' -o -iname '*.png' -o -iname '*.py'` ;\
 	do\
-	    ${INSTALL_DATA_DIR} `${DIRNAME} ${PREFIX}/share/gajim/$$i` ;\
-            ${INSTALL_DATA} $$i ${PREFIX}/share/gajim/$$i ;\
+	    ${INSTALL_DATA_DIR} `${DIRNAME} ${DESTDIR}${PREFIX}/share/gajim/$$i` ;\
+            ${INSTALL_DATA} $$i ${DESTDIR}${PREFIX}/share/gajim/$$i ;\
 	done
 
 .include "../../lang/python/application.mk"
 .include "../../lang/python/extension.mk"
 .include "../../x11/py-gtk2/buildlink3.mk"
 .include "../../databases/py-sqlite2/buildlink3.mk"
-.include "../../x11/scrnsaverproto/buildlink3.mk"
+.include "../../x11/libXScrnSaver/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
