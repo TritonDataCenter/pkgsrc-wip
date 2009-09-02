@@ -69,23 +69,3 @@ share/kde/services/magnet.protocol
 share/kde/services/mldonkey.protocol
 share/kde/services/sig2dat.protocol
 share/kde/servicetypes/kmldonkey_plugin.desktop
-@comment in kde: @dirrm share/kde/servicetypes
-@comment in kde: @dirrm share/kde/services/kded
-@comment in kde: @dirrm share/kde/services
-@dirrm share/kde/apps/mldonkeyapplet/pics
-@dirrm share/kde/apps/mldonkeyapplet
-@comment in kde: @dirrm share/kde/apps/konqueror/servicemenus
-@dirrm share/kde/apps/kmldonkey/images/networks
-@dirrm share/kde/apps/kmldonkey/images
-@dirrm share/kde/apps/kmldonkey
-@comment in kde: @dirrm share/kde/apps/kicker/applets
-@comment in kde: @dirrm share/kde/apps
-@exec ${MKDIR} %D/share/doc/kde/HTML/en/kmldonkey-apidocs/kmldonkey/html
-@dirrm share/doc/kde/HTML/en/kmldonkey-apidocs/kmldonkey/html
-@dirrm share/doc/kde/HTML/en/kmldonkey-apidocs/kmldonkey
-@dirrm share/doc/kde/HTML/en/kmldonkey-apidocs
-@dirrm share/doc/kde/HTML/en/kmldonkey
-@comment in kde: @dirrm share/doc/kde/HTML/en
-@comment in kde: @dirrm share/applications/kde
-@comment in kde: @dirrm lib/kde3
-@dirrm include/kmldonkey
