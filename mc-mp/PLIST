@@ -131,7 +131,6 @@ lib/mc/term/xterm.ti
 man/man1/mc.1
 man/man1/mcedit.1
 man/man8/mcserv.8
-share/locale/ru/LC_MESSAGES/mc.mo
 @dirrm lib/mc/term
 @dirrm lib/mc/syntax
 @dirrm lib/mc/extfs

@@ -13,10 +13,14 @@ COMMENT=		Midnight Commander clone
 
 CONFLICTS+=		mc-[0-9]*
 
+PKG_DESTDIR_SUPPORT=	user-destdir
+
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 USE_TOOLS+=		gmake
 INSTALL_MAKE_FLAGS+=	INSTALL_PROGRAM=${INSTALL_SCRIPT:Q}
+
+CONFIGURE_ARGS+=	--disable-nls
 
 REPLACE_PERL+=		vfs/extfs/a vfs/extfs/deb vfs/extfs/mailfs
 
