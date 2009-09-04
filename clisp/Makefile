@@ -56,6 +56,8 @@ CONFIGURE_ENV+=		PS2PDF= ac_cv_prog_PS2PDF=
 CONFIGURE_ARGS+=	--disable-mmap
 .endif
 
+CONFIGURE_ARGS+=	--with-dynamic-modules
+
 .include "options.mk"
 
 .include "../../converters/libiconv/buildlink3.mk"

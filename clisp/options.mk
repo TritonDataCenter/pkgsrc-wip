@@ -26,6 +26,8 @@ PKG_SUGGESTED_OPTIONS+=		regexp
 PKG_SUGGESTED_OPTIONS+=		gmalloc
 .endif
 
+PKG_SUGGESTED_OPTIONS=		gmalloc ffcall	# Override!!
+
 .include "../../mk/bsd.prefs.mk"
 .include "../../mk/bsd.options.mk"
 
