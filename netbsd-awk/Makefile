@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	netbsd-awk-20080721
+DISTNAME=	netbsd-awk-20090901
 CATEGORIES=	sysutils textproc
 MASTER_SITES=	http://mova.org/~cheusov/pub/netbsd-tools/
 EXTRACT_SUFX=	.tar.bz2
