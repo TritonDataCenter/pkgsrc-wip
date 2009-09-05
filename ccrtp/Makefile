@@ -9,14 +9,15 @@ MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://wiki.gnutelephony.org/
 COMMENT=		RTP and RTSP protocol implementation using GNU CommonCpp
 
+PKG_DESTDIR_SUPPORT=	user-destdir
+
+GNU_CONFIGURE=		yes
 USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=		yes
-USE_TOOLS+=		pkg-config
 USE_LANGUAGES+=		c c++
+USE_TOOLS+=		pkg-config
 PKGCONFIG_OVERRIDE+=	${WRKSRC}/libccrtp1.pc.in
-GNU_CONFIGURE=		yes
 INFO_FILES=		yes
-PKG_DESTDIR_SUPPORT=	destdir
 
 .include "../../wip/commoncpp2/buildlink3.mk"
 .include "../../security/openssl/buildlink3.mk"
