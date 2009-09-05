@@ -271,15 +271,3 @@ lib/libCLHEP-Vector-${PKGVERSION}.a
 lib/libCLHEP-Vector-${PKGVERSION}.so
 lib/libCLHEP.a
 lib/libCLHEP.so
-@dirrm include/CLHEP/Vector
-@dirrm include/CLHEP/Units
-@dirrm include/CLHEP/RefCount
-@dirrm include/CLHEP/RandomObjects
-@dirrm include/CLHEP/Random
-@dirrm include/CLHEP/Matrix
-@dirrm include/CLHEP/Geometry
-@dirrm include/CLHEP/GenericFunctions
-@dirrm include/CLHEP/Exceptions
-@dirrm include/CLHEP/Evaluator
-@dirrm include/CLHEP/Cast
-@dirrm include/CLHEP
