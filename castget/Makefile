@@ -17,7 +17,7 @@ USE_LIBTOOL=	yes
 USE_LANGUAGES+=	c c++
 USE_TOOLS+=	gmake intltool pkg-config
 
-AUTO_MKDIRS=	yes
+INSTALLATION_DIRS=	share/examples
 
 post-install:
 	${INSTALL_DATA} ${WRKSRC}/castgetrc.example \
