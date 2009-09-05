@@ -32,4 +32,13 @@ post-install:
 .endfor
 	cp -Rp ${WRKSRC}/examples/* ${DESTDIR}${PREFIX}/${EGDIR}
 
+.include "../../mk/bsd.prefs.mk"
+
+#.if ${OPSYS} == NetBSD && exists(/usr/pkg/heirloom/bin/posix2001/awk)
+REPLACE_INTERPRETER+=   awk
+REPLACE.awk.old=        /.*/nawk
+REPLACE.awk.new=        /usr/bin/awk
+REPLACE_FILES.awk=      mkc_check_version
+#.endif
+
 .include "../../mk/bsd.pkg.mk"
