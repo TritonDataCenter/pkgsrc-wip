@@ -17,4 +17,3 @@ include/ccrtp/sources.h
 info/ccrtp.info
 lib/libccrtp1.la
 lib/pkgconfig/libccrtp1.pc
-@dirrm include/ccrtp
