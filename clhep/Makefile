@@ -1,10 +1,9 @@
 # $NetBSD$
 #
 
-DISTNAME=	clhep-2.0.4.2
+DISTNAME=	clhep-2.0.4.3
 CATEGORIES=	math
-MASTER_SITES=	http://cern.ch/clhep/distributions/ \
-		http://cern.ch/clhep/
+MASTER_SITES=	http://proj-clhep.web.cern.ch/proj-clhep/DISTRIBUTION/tarFiles/
 EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	hugor@users.sourceforge.net
@@ -22,10 +21,10 @@ CONFIGURE_SCRIPT= ${TMPEXT_DIR}/configure
 USE_LANGUAGES=	c c++
 
 pre-configure:
-	${MKDIR} ${WRKSRC};	\
-	cd ${TMPEXT_DIR};	\
-	autoconf;	\
-	aclocal;	\
+	${RUN} ${MKDIR} ${WRKSRC};	\
+	cd ${TMPEXT_DIR};		\
+	autoconf;			\
+	aclocal;			\
 	automake -a --foreign -i
 
-.include	"../../mk/bsd.pkg.mk"
+.include "../../mk/bsd.pkg.mk"
