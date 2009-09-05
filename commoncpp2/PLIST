@@ -44,4 +44,3 @@ lib/libccgnu2.la
 lib/pkgconfig/libccext2.pc
 lib/pkgconfig/libccgnu2.pc
 share/aclocal/ost_check2.m4
-@dirrm include/cc++
