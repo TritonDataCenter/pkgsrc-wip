@@ -3,9 +3,12 @@ bin/ccat
 bin/ccdecrypt
 bin/ccencrypt
 bin/ccrypt
+lib/charset.alias
 man/man1/ccat.1
 man/man1/ccdecrypt.1
 man/man1/ccencrypt.1
 man/man1/ccrypt.1
-share/doc/html/ccrypt/ccrypt.html
-@dirrm share/doc/html/ccrypt
+share/emacs/site-lisp/ps-ccrypt.el
+share/locale/de/LC_MESSAGES/ccrypt.mo
+share/locale/fr/LC_MESSAGES/ccrypt.mo
+share/locale/locale.alias
