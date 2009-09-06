@@ -1,0 +1,10 @@
+@comment $NetBSD$
+bin/browser
+bin/copy
+bin/delete
+bin/desktop
+bin/move
+bin/open
+bin/properties
+bin/view
+share/applications/browser.desktop
