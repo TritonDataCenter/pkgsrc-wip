@@ -14,7 +14,7 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 
 USE_TOOLS+=	gmake
 GNU_CONFIGURE=	YES
-USE_LANGUAGES+=	c++
+USE_LANGUAGES+=	c c++
 
 WRKSRC=		${WRKDIR}/LabPlot-1.6.0.1
 
@@ -23,6 +23,7 @@ CONFIGURE_ARGS+= --enable-fftw
 CONFIGURE_ARGS+= --enable-ImageMagick
 CONFIGURE_ARGS+= --enable-tiff
 CONFIGURE_ARGS+= --enable-jasper
+CONFIGURE_ARGS+= --disable-ocaml
 
 .include "../../meta-pkgs/kde3/kde3.mk"
 .include "../../x11/kdelibs3/buildlink3.mk"
