@@ -2,13 +2,14 @@
 #
 
 DISTNAME=	musca-0.9.22
-CATEGORIES=	x11
+CATEGORIES=	wm
 MASTER_SITES=	http://aerosuidae.net/
 EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	ishit@users.sourceforge.jp
-HOMEPAGE=	http://aerosuidae.net/musca/
+HOMEPAGE=	http://aerosuidae.net/musca/Musca_Window_Manager
 COMMENT=	Simple dynamic window manager for X
+LICENSE=	gnu-gpl-v3
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 INSTALLATION_DIRS=	bin ${PKGMANDIR}/man1
