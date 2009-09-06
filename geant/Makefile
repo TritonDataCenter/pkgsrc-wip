@@ -18,6 +18,12 @@ MAKE_FILE=	GNUmakefile
 USE_TOOLS+=	gmake pax
 USE_LANGUAGES=	c c++
 
+REPLACE_SH=	examples/advanced/Tiara/envCommon.sh
+# It should be:
+#REPLACE_CSH=	examples/extended/biasing/B02/setupPI.csh
+# skip it for now:
+CHECK_INTERPRETER_SKIP=	geant/examples/extended/biasing/B02/setupPI.csh
+
 BUILD_TARGET=	# empty
 
 # Enviroment variables for building geant4
