@@ -13,8 +13,8 @@ COMMENT=	DeforaOS core system library
 LICENSE=	gnu-gpl-v3
 
 PKG_DESTDIR_SUPPORT=	user-destdir
-MAKE_FLAGS+=	PREFIX=$(PREFIX)
-MAKE_FLAGS+=	DESTDIR=$(DESTDIR)
+MAKE_FLAGS+=	PREFIX=${PREFIX}
+MAKE_FLAGS+=	DESTDIR=${DESTDIR}
 
 .include "../../security/openssl/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

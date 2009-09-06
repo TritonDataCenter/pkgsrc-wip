@@ -1,5 +1,7 @@
 $NetBSD$
 
+gcc prefers "-lSystem" to "-lSystem"
+
 --- src/Makefile.orig	2009-08-13 18:59:40.000000000 +0200
 +++ src/Makefile
 @@ -18,7 +18,7 @@ all: $(TARGETS)
