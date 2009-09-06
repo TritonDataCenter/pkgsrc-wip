@@ -15,7 +15,7 @@ $NetBSD$
 -MANDIR  ?= $(DESTDIR)/usr/share/man
 +LIBDIR  ?= $(DESTDIR)$(PREFIX)/lib
 +DOCDIR  ?= $(DESTDIR)$(PREFIX)/share/doc
-+MANDIR  ?= $(DESTDIR)$(PREFIX)/share/man
++MANDIR  ?= $(DESTDIR)$(PREFIX)/man
  EXENAME ?= olsrd
  CFGNAME ?= $(EXENAME).conf
  CFGFILE ?= $(ETCDIR)/$(CFGNAME)
