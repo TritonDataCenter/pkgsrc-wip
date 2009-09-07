@@ -55,6 +55,3 @@ ${PYSITELIB}/acct_mgr/util.pyo
 ${PYSITELIB}/acct_mgr/web_ui.py
 ${PYSITELIB}/acct_mgr/web_ui.pyc
 ${PYSITELIB}/acct_mgr/web_ui.pyo
-@dirrm ${PYSITELIB}/acct_mgr/templates
-@dirrm ${PYSITELIB}/acct_mgr
-@dirrm ${PYSITELIB}/${EGG_INFODIR}
