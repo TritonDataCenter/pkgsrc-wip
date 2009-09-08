@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	bird-1.1.0
+DISTNAME=	bird-1.1.2
 CATEGORIES=	net
 MASTER_SITES=	ftp://bird.network.cz/pub/bird/
 
