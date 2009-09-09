@@ -25,9 +25,6 @@ USE_LIBTOOL=		yes
 USE_PKGLOCALEDIR=	yes
 USE_TOOLS+=	pkg-config perl gmake intltool msgfmt
 
-PYTHON_VERSIONS_ACCEPTED= 26 25 24 23
-
-
 REPLACE_PERL+=	build-lives-rfx-plugin-multi build-lives-rfx-plugin \
 		tools/autolives.pl \
 		smogrify \

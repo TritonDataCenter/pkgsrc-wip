@@ -13,8 +13,6 @@ COMMENT=	Collaborative, networked system to detect and block spam
 DEPENDS+=	${PYPKGPREFIX}-gdbm>=0nb1:../../databases/py-gdbm
 .endif
 
-PYTHON_VERSIONS_ACCEPTED=	23
-
 BUILD_DEFS+=	PYZOR_USE_PYZORD
 
 PYDISTUTILSPKG=	YES

@@ -13,11 +13,6 @@ COMMENT=		Authoritative/recursive DNS server
 PY_PATCHPLIST=		yes
 PYDISTUTILSPKG=		yes
 
-#
-# TODO: I am not sure about non- versions
-#
-PYTHON_VERSIONS_ACCEPTED=	23
-
 post-patch:
 	${CP} ${WRKSRC}/setup.cfg ${WRKSRC}/setup.cfg.pkgsrc
 	${SED} -e 's|@@LOCALBASE@@|${PREFIX}|g' ${WRKSRC}/setup.cfg.pkgsrc > \

@@ -13,7 +13,5 @@ COMMENT=		Collection of Python classes for working with network protocols
 PY_PATCHPLIST=		yes
 PYDISTUTILSPKG=		yes
 
-PYTHON_VERSIONS_ACCEPTED=	23
-
 .include "../../lang/python/extension.mk"
 .include "../../mk/bsd.pkg.mk"

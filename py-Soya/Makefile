@@ -15,8 +15,6 @@ COMMENT=		High level 3D engine for Python
 PY_PATCHPLIST=		yes
 PYDISTUTILSPKG=		yes
 
-PYTHON_VERSIONS_ACCEPTED=	23
-
 .include "../../lang/python/extension.mk"
 .include "../../graphics/MesaLib/buildlink3.mk"
 .include "../../graphics/freetype2/buildlink3.mk"

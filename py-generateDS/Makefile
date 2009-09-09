@@ -15,7 +15,6 @@ PYDISTUTILSPKG=	yes
 PLIST_SUBST+=	PYVERSSUFFIX=${PYVERSSUFFIX:Q}
 
 PYTHON_PATCH_SCRIPTS=	generateDS.py
-PYTHON_VERSIONS_ACCEPTED= 23
 
 # set up a convenience link
 post-install:

@@ -14,7 +14,6 @@ COMMENT=		Storage for ZODB, that uses files and directories
 NO_CONFIGURE=		yes
 PYTHON_PATCH_SCRIPTS=	${TOOLS}
 PY_PATCHPLIST=		yes
-PYTHON_VERSIONS_ACCEPTED=	23
 
 # package settings
 

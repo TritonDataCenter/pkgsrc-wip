@@ -12,7 +12,6 @@ COMMENT=		Scanning, Parsing, and Rewriting Kit for Python
 
 NO_BUILD=	YES
 PY_PATCHPLIST=	YES
-PYTHON_VERSIONS_ACCEPTED=    23
 
 do-install:
 	${INSTALL_DATA_DIR} ${PREFIX}/share/py-spark
