@@ -13,7 +13,6 @@ PKG_SUGGESTED_OPTIONS=	python mono vala
 .if !empty(PKG_OPTIONS:Mpython)
 .  include "../../lang/python/extension.mk"
 .  include "../../lang/python/pyversion.mk"
-PYTHON_VERSIONS_ACCEPTED=	26 25 24 23 22
 PLIST_SUBST+=			PYSITELIB=${PYSITELIB}
 .  include "../../devel/py-gobject/buildlink3.mk"
 .  include "../../x11/py-gtk2/buildlink3.mk"

@@ -20,8 +20,6 @@ GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_LANGUAGES=	c c++
 
-PYTHON_VERSIONS_ACCEPTED= 26 25 24 23 22
-
 .include "../../audio/taglib/buildlink3.mk"
 .include "../../devel/swig/buildlink3.mk"
 .include "../../lang/python/extension.mk"
