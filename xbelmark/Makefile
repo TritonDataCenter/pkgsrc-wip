@@ -16,7 +16,6 @@ DEPENDS=		${PYPKGPREFIX}-expat-[0-9]*:../../textproc/py-expat
 WRKSRC=			${WRKDIR}
 NO_BUILD=		YES
 
-PYTHON_VERSIONS_INCOMPATIBLE=	21
 PYTHON_PATCH_SCRIPTS=	xbelmark.py
 
 do-extract:
