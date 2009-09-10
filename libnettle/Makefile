@@ -13,6 +13,16 @@ COMMENT=	Cryptographic library
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
+.include "../../mk/bsd.prefs.mk"
+
+.if ${OPSYS} == "Darwin"
+SOEXT=dylib
+.else
+SOEXT=so
+.endif
+
+PLIST_SUBST+=		SOEXT=${SOEXT}
+
 GNU_CONFIGURE=		yes
 CONFIGURE_ARGS+=	--without-openssl --enable-shared
 

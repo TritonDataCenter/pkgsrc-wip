@@ -39,7 +39,7 @@ include/nettle/twofish.h
 include/nettle/yarrow.h
 info/nettle.info
 lib/libnettle.a
-lib/libnettle.so
-lib/libnettle.so.2
-lib/libnettle.so.2.6
+lib/libnettle.${SOEXT}
+lib/libnettle.${SOEXT}.2
+lib/libnettle.${SOEXT}.2.6
 @dirrm include/nettle
