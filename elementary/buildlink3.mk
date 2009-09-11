@@ -1,14 +1,15 @@
 # $NetBSD$
 
-BUILDLINK_TREE+=	edbus
+BUILDLINK_TREE+=	elementary
 
-.if !defined(EDBUS_BUILDLINK3_MK)
-EDBUS_BUILDLINK3_MK:=
+.if !defined(ELEMENTARY_BUILDLINK3_MK)
+ELEMENTARY_BUILDLINK3_MK:=
 
-BUILDLINK_API_DEPENDS.edbus+=	edbus>=0.5.0.062
-BUILDLINK_PKGSRCDIR.edbus?=	../../wip/edbus
+BUILDLINK_API_DEPENDS.elementary+=	elementary>=0.5.1.0
+BUILDLINK_PKGSRCDIR.elementary?=	../../wip/elementary
 
-.include "../../sysutils/dbus/buildlink3.mk"
-.endif # EDBUS_BUILDLINK3_MK
+.include "../../wip/ecore/buildlink3.mk"
+.include "../../wip/edje/buildlink3.mk"
+.endif	# ELEMENTARY_BUILDLINK3_MK
 
-BUILDLINK_TREE+=	-edbus
+BUILDLINK_TREE+=	-elementary
