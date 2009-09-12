@@ -1,8 +1,8 @@
 $NetBSD$
 
---- configure.ac.orig	2009-08-21 00:28:11.000000000 +0300
+--- configure.ac.orig	2009-09-12 02:38:50.000000000 +0300
 +++ configure.ac
-@@ -567,31 +567,26 @@ case $host in
+@@ -585,31 +585,26 @@ case $host in
  		AC_MSG_WARN([Unknown host operating system])
  		cpu_type="i386"
  		buffer=disabled
@@ -34,3 +34,12 @@ $NetBSD$
  	;;
    *)
    	AC_MSG_WARN([Unknown host operating system])
+@@ -1803,7 +1798,7 @@ AC_ARG_ENABLE(win32_unicode,
+ 	   fi
+ 	], [AC_MSG_RESULT([no])])
+ 
+-AM_CONDITIONAL([WIN32_USE_UNICODE], [ test "x$win32_unicode" == xenabled])
++AM_CONDITIONAL([WIN32_USE_UNICODE], [ test "x$win32_unicode" = xenabled])
+ 
+ dnl ############## Final Output
+ 

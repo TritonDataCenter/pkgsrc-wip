@@ -46,7 +46,7 @@ SVN_ROOT.mpg123=	svn://orgis.org/mpg123/trunk
 SVN_MODULE.mpg123=	mpg123
 
 pre-configure:
-	cd ${WRKSRC} && sh ./autogen.sh
+	cd ${WRKSRC} && autoreconf -iv
 
 .include "../../wip/mk/svn-package.mk"
 .include "../../mk/bsd.fast.prefs.mk"
