@@ -1,5 +1,8 @@
 $NetBSD$
 
+Indicate to the preprocessor magic further down in this file that NetBSD also
+has a working alloca.
+
 --- src/common/3dsparse/aseFile.tab.cpp.orig	2009-02-23 03:14:20.000000000 +0000
 +++ src/common/3dsparse/aseFile.tab.cpp
 @@ -5,7 +5,8 @@

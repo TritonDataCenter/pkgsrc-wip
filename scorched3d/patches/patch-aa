@@ -1,5 +1,10 @@
 $NetBSD$
 
+Don't unconditionally reset LDFLAGS and CPPFLAGS because pkgsrc passes
+important settings in those.
+
+Change test ... == to test ... = for portability.
+
 --- configure.orig	2009-03-02 17:59:25.000000000 +0000
 +++ configure
 @@ -4190,10 +4190,10 @@ else

@@ -1,5 +1,8 @@
 $NetBSD$
 
+Write an implementation to read the MAC address on BSD where ioctl(SIOCGHWADDR)
+isn't available.
+
 --- src/client/client/SecureID.cpp.orig	2008-03-02 18:47:36.000000000 +0000
 +++ src/client/client/SecureID.cpp
 @@ -34,6 +34,38 @@ std::string SecureID::GetPrivateKey(void
