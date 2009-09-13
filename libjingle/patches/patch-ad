@@ -1,5 +1,8 @@
 $NetBSD$
 
+Depending on the type of THREAD_ID, it cannot be converted to unsigned long
+with a static_cast<>. Use reinterpret_cast<> instead.
+
 --- talk/base/ssladapter.cc.orig	2008-09-16 14:55:22.000000000 +0100
 +++ talk/base/ssladapter.cc
 @@ -99,7 +99,7 @@ static void locking_function(int mode, i

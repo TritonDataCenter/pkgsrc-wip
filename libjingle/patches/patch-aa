@@ -1,5 +1,9 @@
 $NetBSD$
 
+Depending on the declared type of ifconf:ifc_buf, it cannot be used with
+delete []. Store the dynamically allocated storage in a separate variable
+of the correct type and use that with delete[].
+
 --- talk/base/network.cc.orig	2008-09-16 14:55:22.000000000 +0100
 +++ talk/base/network.cc
 @@ -185,7 +185,8 @@ void NetworkManager::CreateNetworks(std:

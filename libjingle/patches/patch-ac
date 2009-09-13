@@ -1,5 +1,7 @@
 $NetBSD$
 
+Don't use SO_PRIORITY which isn't available on NetBSD.
+
 --- talk/base/physicalsocketserver.cc.orig	2008-09-16 14:55:22.000000000 +0100
 +++ talk/base/physicalsocketserver.cc
 @@ -42,6 +42,9 @@ extern "C" {

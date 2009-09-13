@@ -8,6 +8,7 @@ MASTER_SITES=	http://farsight.freedesktop.org/releases/libjingle/
 MAINTAINER=	yacht@users.sourceforge.net
 HOMEPAGE=	http://farsight.freedesktop.org/releases/libjingle/
 COMMENT=	Google Talk's implementation of Jingle and Jingle-Audio
+
 LICENSE=	modified-bsd
 
 PKG_DESTDIR_SUPPORT=	user-destdir

@@ -1,5 +1,8 @@
 $NetBSD$
 
+In newer versions of openssl, X509V3_EXT_get() now returns a const pointer.
+Use a const_cast<>() to be able to build with both versions of the API.
+
 --- talk/base/openssladapter.cc.orig	2008-09-16 14:55:22.000000000 +0100
 +++ talk/base/openssladapter.cc
 @@ -641,7 +641,7 @@ OpenSSLAdapter::SSLPostConnectionCheck(S
