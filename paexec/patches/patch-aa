@@ -1,0 +1,18 @@
+$NetBSD$
+
+--- paexec.c.orig	2009-03-07 19:05:27.000000000 +0200
++++ paexec.c
+@@ -36,13 +36,11 @@
+ #include <stdlib.h>
+ #include <string.h>
+ #include <assert.h>
+-#include <ctype.h>
+ #include <unistd.h>
+ #include <limits.h>
+ #include <signal.h>
+ #include <sys/wait.h>
+ #include <errno.h>
+-#include <stdint.h>
+ 
+ /***********************************************************/
+ 
