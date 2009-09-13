@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	pipestatus-0.5.0
+DISTNAME=	pipestatus-0.6.0
 CATEGORIES=	devel
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=pipestatus/}
 
