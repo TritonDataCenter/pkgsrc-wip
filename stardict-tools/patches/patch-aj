@@ -1,0 +1,14 @@
+$NetBSD$
+
+--- src/wikipedia.cpp.orig	2007-07-13 12:19:44.000000000 +0300
++++ src/wikipedia.cpp
+@@ -11,6 +11,9 @@
+ 
+ #include <gtk/gtk.h>
+ 
++#ifndef O_LARGEFILE
++#define O_LARGEFILE (0)
++#endif
+ 
+ struct _worditem
+ {
