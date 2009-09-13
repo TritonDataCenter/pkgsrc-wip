@@ -1,5 +1,7 @@
 $NetBSD$
 
+Convert test ... == to test ... = for better portability.
+
 --- ./configure.orig	2009-09-07 14:22:46.000000000 +0100
 +++ ./configure
 @@ -24084,7 +24084,7 @@ fi
