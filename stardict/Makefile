@@ -10,6 +10,8 @@ MAINTAINER=		rxg@NetBSD.org
 HOMEPAGE=		http://stardict.sourceforge.net/
 COMMENT=		Cross-Platform and international dictionary written in Gtk2
 
+PKG_DESTDIR_SUPPORT=	user-destdir
+
 BUILD_DEPENDS+=		p5-XML-Parser-[0-9]*:../../textproc/p5-XML-Parser
 
 LICENSE=		gnu-gpl-v3
@@ -29,8 +31,9 @@ MAKE_ENV+=		GCONF_SCHEMA_FILE_DIR="${PREFIX}/share/gconf/schemas/"
 
 GCONF_SCHEMAS+=	stardict.schemas
 
-#.include "../../devel/GConf/schemas.mk"
+.include "../../sysutils/desktop-file-utils/desktopdb.mk"
+.include "../../devel/GConf/schemas.mk"
 .include "../../devel/libgnomeui/buildlink3.mk"
-#.include "../../mk/omf-scrollkeeper.mk"
+.include "../../mk/omf-scrollkeeper.mk"
 .include "../../x11/gtk2/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
