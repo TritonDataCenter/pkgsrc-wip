@@ -26,13 +26,13 @@ USE_LANGUAGES=		c c++
 CONFIGURE_ARGS+=	--disable-spell --disable-gucharmap --disable-festival
 CONFIGURE_ARGS+=	--disable-espeak
 
-CONFIGURE_ENV+=		GCONF_SCHEMA_FILE_DIR="${PREFIX}/share/gconf/schemas/"
-MAKE_ENV+=		GCONF_SCHEMA_FILE_DIR="${PREFIX}/share/gconf/schemas/"
+#CONFIGURE_ENV+=		GCONF_SCHEMA_FILE_DIR="${PREFIX}/share/gconf/schemas/"
+#MAKE_ENV+=		GCONF_SCHEMA_FILE_DIR="${PREFIX}/share/gconf/schemas/"
 
-GCONF_SCHEMAS+=	stardict.schemas
+#GCONF_SCHEMAS+=	stardict.schemas
 
 .include "../../sysutils/desktop-file-utils/desktopdb.mk"
-.include "../../devel/GConf/schemas.mk"
+#.include "../../devel/GConf/schemas.mk"
 .include "../../devel/libgnomeui/buildlink3.mk"
 .include "../../mk/omf-scrollkeeper.mk"
 .include "../../x11/gtk2/buildlink3.mk"
