@@ -1,7 +1,8 @@
 # $NetBSD$
 #
 
-DISTNAME=	stardict-tools-3.0.1
+DISTNAME=	stardict-tools-3.0.1]
+PKGREVISION=	1
 CATEGORIES=	textproc
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=stardict/}
 EXTRACT_SUFX=	.tar.bz2
