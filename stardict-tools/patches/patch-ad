@@ -27,12 +27,3 @@ $NetBSD$
  
  #define BUFSIZE BUFSIZ
  #define UCS_MARK 0xFEFF
-@@ -392,7 +403,7 @@ static char *make_dict(char *dslfilename
-         size_t inbuff_size;
-         size_t outbuff_size = BUFSIZE;
-         size_t writems;
--        char *inbufptr = (char *) inbuff;
-+        const char *inbufptr = (char *) inbuff;
-         char *outbufptr = (char *) outbuff;
-         long filepos = BUFOVERLAP * UCS_CHARLEN;
-         char *buffborder;
