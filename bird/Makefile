@@ -18,6 +18,7 @@ DEPENDS+= bison*:../../devel/bison
 PKG_DESTDIR_SUPPORT=  user-destdir
 
 CONFIGURE_ARGS+= --localstatedir=/var
+CONFIGURE_ARGS+= --enable-ipv6
 
 .include "../../devel/readline/buildlink3.mk"
 .include "../../devel/ncurses/buildlink3.mk"
