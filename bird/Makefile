@@ -19,4 +19,5 @@ CONFIGURE_ARGS+= --localstatedir=/var
 
 .include "../../devel/readline/buildlink3.mk"
 .include "../../devel/ncurses/buildlink3.mk"
+.include "../../devel/bison/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
