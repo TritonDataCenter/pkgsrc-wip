@@ -12,6 +12,7 @@ USE_LIBTOOL= yes
 GNU_CONFIGURE= yes
 USE_TOOLS+= gmake
 USE_GNU_READLINE=  yes
+DEPENDS+= bison*:../../devel/bison
 
 PKG_DESTDIR_SUPPORT=  user-destdir
 
@@ -19,5 +20,4 @@ CONFIGURE_ARGS+= --localstatedir=/var
 
 .include "../../devel/readline/buildlink3.mk"
 .include "../../devel/ncurses/buildlink3.mk"
-.include "../../devel/bison/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
