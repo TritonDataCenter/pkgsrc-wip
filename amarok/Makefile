@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	amarok-${VERS}
-VERS=		2.1.80
+VERS=		2.1.85
 CATEGORIES=	audio multimedia
 MASTER_SITES=	http://download.kde.org/unstable/amarok/${VERS}/src/ \
 		ftp://gd.tuwien.ac.at/kde/unstable/amarok/${VERS}/src/
