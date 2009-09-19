@@ -22,8 +22,6 @@ SUBST_SED.rpath=	-e "s|-L\\([^ 	]*\\)|${COMPILER_RPATH_FLAG}\\1 -L\\1|g"
 SUBST_STAGE.rpath=	pre-configure
 SUBST_MESSAGE.rpath=	Add rpath to config script.
 
-.include "options.mk"
-
 BUILDLINK_ABI_DEPENDS.taglib+=	taglib>=1.6
 .include "../../audio/taglib/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
