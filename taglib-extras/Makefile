@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	taglib-extras-0.1.7
+DISTNAME=	taglib-extras-1.0.0
 CATEGORIES=	audio
 MASTER_SITES=	http://www.kollide.net/~jefferai/
 
@@ -24,5 +24,6 @@ SUBST_MESSAGE.rpath=	Add rpath to config script.
 
 .include "options.mk"
 
+BUILDLINK_ABI_DEPENDS.taglib+=	taglib>=1.6
 .include "../../audio/taglib/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
