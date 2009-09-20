@@ -1,6 +1,6 @@
 $NetBSD$
 
-gcc prefers "-lSystem" to "-lSystem"
+gcc prefers "-lSystem" to "-l System"
 
 --- src/Makefile.orig	2009-08-13 18:59:40.000000000 +0200
 +++ src/Makefile
