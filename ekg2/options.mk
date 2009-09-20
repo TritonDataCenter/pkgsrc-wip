@@ -9,14 +9,11 @@ PKG_SUGGESTED_OPTIONS=	libgadu jabber
 .if !empty(PKG_OPTIONS:Mjabber)
 .include "../../textproc/expat/buildlink3.mk"
 .include "../../security/gnutls/buildlink3.mk"
-PLIST_SUBST+=	JABBER=""
-.else
-PLIST_SUBST+=	JABBER="@comment "
+.include "../../security/gnutls/libgnutls-config.mk"
+PLIST.jabber=	yes
 .endif
 
 .if !empty(PKG_OPTIONS:Mlibgadu)
 .include "../../wip/libgadu/buildlink3.mk"
-PLIST_SUBST+=	GG=""
-.else
-PLIST_SUBST+=	GG="@comment "
+PLIST.gg+=	yes
 .endif
