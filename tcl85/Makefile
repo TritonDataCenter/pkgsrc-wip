@@ -10,6 +10,8 @@ MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://www.tcl.tk/
 COMMENT=		Tool Command Language, a dynamic language
 
+PKG_DESTDIR_SUPPORT=	user-destdir
+
 .include "../../wip/tcl85/Makefile.version"
 
 CONFLICTS+=		tclman80-[0-9]*
@@ -36,5 +38,6 @@ DESTDIRPREFIX=          ${DESTDIR}${PREFIX}
 
 post-install:
 	mv ${DESTDIRPREFIX:Q}/lib/tclConfig.sh ${DESTDIRPREFIX:Q}/lib/tcl${TCL_PKGSRC_VERSION}
+	cd ${DESTDIR:Q}${PREFIX:Q}/bin && ln -s tclsh8.5 tclsh
 
 .include "../../mk/bsd.pkg.mk"
