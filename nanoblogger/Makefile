@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	nanoblogger-3.3
+DISTNAME=	nanoblogger-3.4.1
 CATEGORIES=	www
 MASTER_SITES=	http://nanoblogger.sourceforge.net/downloads/
 
