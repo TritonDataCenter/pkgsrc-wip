@@ -12,7 +12,7 @@ COMMENT=		FriCAS is a fork of the Axiom computer algebra system
 
 # Get it from Subversion repository:
 SVN_REPOSITORIES=	fricas
-SVN_ROOT.fricas=	https://fricas.svn.sourceforge.net/svnroot/fricas/trunk
+SVN_ROOT.fricas=	http://fricas.svn.sourceforge.net/svnroot/fricas/trunk
 SVN_MODULE.fricas=	fricas
 
 #WRKSRC=			${WRKDIR}/${PKGNAME_NOREV}
