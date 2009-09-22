@@ -1,0 +1,8 @@
+@comment $NetBSD$
+lib/StateVar-${PKGVERSION}/${HASKELL_VERSION}/Data/StateVar.hi
+lib/StateVar-${PKGVERSION}/${HASKELL_VERSION}/Data/StateVar.p_hi
+lib/StateVar-${PKGVERSION}/${HASKELL_VERSION}/HSStateVar-${PKGVERSION}.o
+lib/StateVar-${PKGVERSION}/${HASKELL_VERSION}/libHSStateVar-${PKGVERSION}.a
+lib/StateVar-${PKGVERSION}/${HASKELL_VERSION}/libHSStateVar-${PKGVERSION}_p.a
+lib/StateVar-${PKGVERSION}/${HASKELL_VERSION}/package-description
+share/doc/StateVar-${PKGVERSION}/LICENSE
