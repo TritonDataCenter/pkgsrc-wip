@@ -1,7 +1,7 @@
 # $NetBSD: Makefile,v 1.20 2007/12/02 00:11:10 wiz Exp $
 #
 
-DISTNAME=	mawk-1.3.3-20090820
+DISTNAME=	mawk-1.3.3-20090920
 PKGNAME=	${DISTNAME:S/-20/.20/}
 CATEGORIES=	lang
 MASTER_SITES=	ftp://invisible-island.net/mawk/
