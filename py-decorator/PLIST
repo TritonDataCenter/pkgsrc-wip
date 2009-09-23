@@ -1,9 +1,9 @@
 @comment $NetBSD$
-${PYSITELIB}/decorator-3.1.1-py2.5.egg-info/PKG-INFO
-${PYSITELIB}/decorator-3.1.1-py2.5.egg-info/SOURCES.txt
-${PYSITELIB}/decorator-3.1.1-py2.5.egg-info/dependency_links.txt
-${PYSITELIB}/decorator-3.1.1-py2.5.egg-info/not-zip-safe
-${PYSITELIB}/decorator-3.1.1-py2.5.egg-info/top_level.txt
+${PYSITELIB}/decorator-3.1.2-py2.5.egg-info/PKG-INFO
+${PYSITELIB}/decorator-3.1.2-py2.5.egg-info/SOURCES.txt
+${PYSITELIB}/decorator-3.1.2-py2.5.egg-info/dependency_links.txt
+${PYSITELIB}/decorator-3.1.2-py2.5.egg-info/not-zip-safe
+${PYSITELIB}/decorator-3.1.2-py2.5.egg-info/top_level.txt
 ${PYSITELIB}/decorator.py
 ${PYSITELIB}/decorator.pyc
 ${PYSITELIB}/decorator.pyo
