@@ -2,13 +2,13 @@
 #
 
 DISTNAME=	gxmessage-2.12.3
-CATEGORIES=	wip
+CATEGORIES=	x11
 MASTER_SITES=	http://homepages.ihug.co.nz/~trmusson/stuff/
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE
+MAINTAINER=	kamel.derouiche@gmail.com
 HOMEPAGE=	http://homepages.ihug.co.nz/~trmusson/stuff/
-COMMENT=	TODO: Short description of the package
-#LICENSE=	# TODO: (see mk/license.mk)
+COMMENT=	Gxmessage a GTK2+ based xmessage clone
+LICENSE=	gnu-gpl-v3
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
@@ -28,7 +28,7 @@ post-install:
 		${INSTALL_DATA} ${WRKSRC}/examples/$$a ${DESTDIR}${EDGDIR}/$$a;\
 	done
 
-INSTALLATIONS_DIRS=	${PKGMANDIR}/man1
+INSTALLATION_DIRS=	${PKGMANDIR}/man1
 
 .include "../../graphics/hicolor-icon-theme/buildlink3.mk"
 .include "../../x11/gtk2/buildlink3.mk"
