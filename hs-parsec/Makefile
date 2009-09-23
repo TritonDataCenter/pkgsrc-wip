@@ -1,15 +1,13 @@
 # $NetBSD$
 #
 
-DISTNAME=	parsec-3.0.0
+DISTNAME=	parsec-3.0.1
 CATEGORIES=	textproc
 
 MAINTAINER=	pho@cielonegro.org
 HOMEPAGE=	http://www.cs.uu.nl/~daan/parsec.html
 COMMENT=	Monadic parser combinators
 LICENSE=	modified-bsd
-
-USE_LANGUAGES=	# none
 
 .include "../../wip/mk/haskell.mk"
 .include "../../wip/hs-mtl/buildlink3.mk"
