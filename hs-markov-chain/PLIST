@@ -1,0 +1,8 @@
+@comment $NetBSD$
+lib/markov-chain-${PKGVERSION}/${HASKELL_VERSION}/Data/MarkovChain.hi
+lib/markov-chain-${PKGVERSION}/${HASKELL_VERSION}/Data/MarkovChain.p_hi
+lib/markov-chain-${PKGVERSION}/${HASKELL_VERSION}/HSmarkov-chain-${PKGVERSION}.o
+lib/markov-chain-${PKGVERSION}/${HASKELL_VERSION}/libHSmarkov-chain-${PKGVERSION}.a
+lib/markov-chain-${PKGVERSION}/${HASKELL_VERSION}/libHSmarkov-chain-${PKGVERSION}_p.a
+lib/markov-chain-${PKGVERSION}/${HASKELL_VERSION}/package-description
+share/doc/markov-chain-${PKGVERSION}/LICENSE
