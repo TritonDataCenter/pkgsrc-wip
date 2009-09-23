@@ -1,8 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	binary-0.5.0.1
-PKGNAME=	hs-${DISTNAME}
+DISTNAME=	binary-0.5.0.2
 CATEGORIES=	devel
 
 MAINTAINER=	pho@cielonegro.org
