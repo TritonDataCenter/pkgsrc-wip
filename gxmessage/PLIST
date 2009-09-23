@@ -2,13 +2,11 @@
 bin/gxmessage
 info/gxmessage.info
 man/man1/gxmessage.1
-share/examples/${PKGNAME}/gtkrc
-share/examples/${PKGNAME}/gxaddress
-share/examples/${PKGNAME}/gxdialup
-share/examples/${PKGNAME}/gxdict
-share/examples/${PKGNAME}/gxman
-share/examples/${PKGNAME}/gxview
-share/examples/${PKGNAME}/nautilus-word-count
+share/examples/gxmessage/gtkrc
+share/examples/gxmessage/gxaddress
+share/examples/gxmessage/gxdialup
+share/examples/gxmessage/gxdict
+share/examples/gxmessage/gxman
+share/examples/gxmessage/gxview
+share/examples/gxmessage/nautilus-word-count
 share/icons/hicolor/48x48/apps/gxmessage.png
-@comment in hicolor-icon-theme: @dirrm share/icons/hicolor/48x48/apps
-@dirrm share/examples/${PKGNAME}
