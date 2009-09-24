@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	amarok-${VERS}
-VERS=		2.1.85
+VERS=		2.1.90
 CATEGORIES=	audio multimedia
 MASTER_SITES=	http://download.kde.org/unstable/amarok/${VERS}/src/ \
 		ftp://gd.tuwien.ac.at/kde/unstable/amarok/${VERS}/src/
@@ -37,7 +37,7 @@ SUBST_SED.mysql=	-e s:/opt/mysqle/:${BUILDLINK_PREFIX.mysql-embedded}/mysqld:
 
 .include "options.mk"
 
-BUILDLINK_API_DEPENDS.taglib+=	taglib>=1.5
+BUILDLINK_API_DEPENDS.taglib+=	taglib>=1.6nb1
 .include "../../audio/taglib/buildlink3.mk"
 .include "../../sysutils/desktop-file-utils/desktopdb.mk"
 .include "../../wip/taglib-extras/buildlink3.mk"
