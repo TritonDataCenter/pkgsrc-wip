@@ -5,7 +5,7 @@ BUILDLINK_TREE+=	ghc
 .if !defined(GHC_BUILDLINK3_MK)
 GHC_BUILDLINK3_MK:=
 
-BUILDLINK_API_DEPENDS.ghc+=	ghc>=6.10.3
+BUILDLINK_API_DEPENDS.ghc+=	ghc>=6.10.4
 BUILDLINK_PKGSRCDIR.ghc?=	../../wip/ghc
 
 .include "../../devel/gmp/buildlink3.mk"
