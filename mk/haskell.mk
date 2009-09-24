@@ -156,7 +156,7 @@ HASKELL_ENABLE_HADDOCK_DOCUMENTATION?=	no
 .if ${HASKELL_COMPILER} == "ghc"
 
 # Add dependency to the GHC.
-.include "../../lang/ghc/buildlink3.mk"
+.include "../../wip/ghc/buildlink3.mk"
 
 # Tools
 _GHC_BIN=		${PREFIX}/bin/ghc
