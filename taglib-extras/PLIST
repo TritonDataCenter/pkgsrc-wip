@@ -10,5 +10,5 @@ include/taglib-extras/taglib-extras_export.h
 include/taglib-extras/tfile_helper.h
 lib/libtag-extras.so
 lib/libtag-extras.so.1
-lib/libtag-extras.so.1.0.0
+lib/libtag-extras.so.1.0.1
 lib/pkgconfig/taglib-extras.pc
