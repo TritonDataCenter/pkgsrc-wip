@@ -5,5 +5,5 @@ sbin/smtp-gated
 share/doc/smtp-gated/README.PL
 share/examples/rc.d/smtp_gated
 share/examples/smtp-gated/smtp-gated.conf
-@dirrm share/doc/smtp-gated
-@dirrm share/examples/smtp-gated
+@pkgdir share/doc/smtp-gated
+@pkgdir share/examples/smtp-gated
