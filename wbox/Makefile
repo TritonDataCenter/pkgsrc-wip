@@ -1,17 +1,20 @@
 # $NetBSD$
 #
 
-DISTNAME=	wbox-4
-CATEGORIES=	wip www
-MASTER_SITES=	http://www.hping.org/wbox/
+DISTNAME=		wbox-4
+CATEGORIES=		wip www
+MASTER_SITES=		http://www.hping.org/wbox/
 
-MAINTAINER=	bartosz.kuzma@gmail.com
-HOMEPAGE=	http://www.hping.org/wbox/
-COMMENT=	HTTP testing tool
+MAINTAINER=		bartosz.kuzma@gmail.com
+HOMEPAGE=		http://www.hping.org/wbox/
+COMMENT=		HTTP testing tool
+LICENSE=		gnu-gpl-v2
 
-WRKSRC=		${WRKDIR}/wbox
+PKG_DESTDIR_SUPPORT=    user-destdir
+
+WRKSRC=			${WRKDIR}/wbox
 
 do-install:
-	${INSTALL_PROGRAM} ${WRKSRC}/wbox ${PREFIX}/bin
+	${INSTALL_PROGRAM} ${WRKSRC}/wbox ${DESTDIR}${PREFIX}/bin
 
 .include "../../mk/bsd.pkg.mk"
