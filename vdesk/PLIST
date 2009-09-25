@@ -3,4 +3,4 @@ bin/vdesk
 share/doc/vdesk/AUTHORS
 share/doc/vdesk/COPYING
 share/doc/vdesk/README
-@dirrm share/doc/vdesk
+@pkgdir share/doc/vdesk
