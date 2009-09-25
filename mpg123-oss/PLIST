@@ -1,3 +1,2 @@
 @comment $NetBSD$
 lib/mpg123/output_oss.la
-@comment in mpg123: @dirrm lib/mpg123

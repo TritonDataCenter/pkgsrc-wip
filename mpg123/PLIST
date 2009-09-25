@@ -5,4 +5,3 @@ lib/libmpg123.la
 lib/mpg123/output_dummy.la
 lib/pkgconfig/libmpg123.pc
 man/man1/mpg123.1
-@dirrm lib/mpg123

@@ -1,3 +1,2 @@
 @comment $NetBSD$
 lib/mpg123/output_sun.la
-@dirrm lib/mpg123
