@@ -16,9 +16,9 @@ USE_TOOLS+=     aclocal autoconf automake autoheader gmake gm4
 USE_LIBTOOL=	yes
 
 SVN_REPOSITORIES=	softhsm
-SVN_ROOT.softhsm=	http://svn.opendnssec.se/trunk/softHSM/
+SVN_ROOT.softhsm=	http://svn.opendnssec.org/tags/softHSM-${RCVERSION}/
 SVN_MODULE.softhsm=	softHSM
-RCVERSION=		1.0.0-RC2
+RCVERSION=		1.0.0-RC3
 NO_CHECKSUM=		yes
 
 PKG_DESTDIR_SUPPORT=    user-destdir
