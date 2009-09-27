@@ -19,8 +19,8 @@ PKGCONFIG_OVERRIDE+=	synfig.pc.in
 
 .include "options.mk"
 
+.include "../../devel/ETL/buildlink3.mk"
 .include "../../devel/gettext-lib/buildlink3.mk"
 .include "../../devel/libsigc++/buildlink3.mk"
 .include "../../textproc/libxml++/buildlink3.mk"
-.include "../../wip/ETL/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
