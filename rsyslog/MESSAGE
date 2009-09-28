@@ -1,8 +1,8 @@
 ===========================================================================
 $NetBSD$
 
-For simple replacement for syslogd(8), you may put below
-lines in your /etc/rc.conf:
+For simple replacement for syslogd(8), you may put the following lines
+into your /etc/rc.conf:
 
     syslogd=NO
     rsyslogd=YES
