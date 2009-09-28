@@ -10,8 +10,11 @@ MASTER_SITES=		http://cpbotha.net/files/pam_pwdfile/
 MAINTAINER=		bartosz.kuzma@gmail.com
 HOMEPAGE=		http://cpbotha.net/pam_pwdfile.html
 COMMENT=		PAM module for authenticating with text password files
+LICENSE=		modified-bsd
 
 USE_LIBTOOL=		yes
+
+PKG_DESTDIR_SUPPORT=	user-destdir
 
 .include "../../mk/bsd.prefs.mk"
 
@@ -41,12 +44,14 @@ do-build:
 		md5_crypt_broken.lo bigcrypt.lo
 
 do-install:
-	${INSTALL_DATA_DIR} ${PREFIX}/lib/security
+	${INSTALL_DATA_DIR} ${DESTDIR}${PREFIX}/lib/security
 	${SHLIBTOOL} --mode=install ${INSTALL_PROGRAM} \
-		-c ${WRKSRC}/pam_pwdfile.la ${PREFIX}/lib/security
-	${INSTALL_DATA_DIR} ${PREFIX}/share/doc/pam-pwdfile
-	${INSTALL_DATA} ${WRKSRC}/README ${PREFIX}/share/doc/pam-pwdfile
-	${INSTALL_DATA} ${WRKSRC}/changelog ${PREFIX}/share/doc/pam-pwdfile
+		-c ${WRKSRC}/pam_pwdfile.la ${DESTDIR}${PREFIX}/lib/security
+	${INSTALL_DATA_DIR} ${DESTDIR}${PREFIX}/share/doc/pam-pwdfile
+	${INSTALL_DATA} ${WRKSRC}/README \
+		${DESTDIR}${PREFIX}/share/doc/pam-pwdfile
+	${INSTALL_DATA} ${WRKSRC}/changelog \
+		${DESTDIR}${PREFIX}/share/doc/pam-pwdfile
 
 .include "../../mk/pam.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
