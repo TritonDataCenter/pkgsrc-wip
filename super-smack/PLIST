@@ -7,5 +7,3 @@ share/doc/super-smack/README
 share/doc/super-smack/TUTORIAL
 share/smacks/select-key.smack
 share/smacks/update-select.smack
-@pkgdir share/smacks
-@pkgdir share/doc/super-smack
