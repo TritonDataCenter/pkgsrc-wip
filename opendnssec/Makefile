@@ -13,7 +13,7 @@ COMMENT=	OSS for a fast and easy DNSSEC deployment
 #LICENSE_FILE=	${FILESDIR}/iis-license
 
 DEPENDS+=       rubygems:../../misc/rubygems
-DEPENDS+=       ruby-dnsruby:../../wip/ruby-dnsruby
+DEPENDS+=       ${RUBY_PKGPREFIX}-dnsruby:../../wip/ruby-dnsruby
 
 USE_TOOLS+=     aclocal autoconf automake autoheader gmake gm4 perl
 USE_LIBTOOL=	yes
@@ -42,6 +42,7 @@ pre-configure:
 	${CHMOD} u+x ${WRKSRC}/autogen.sh
 	cd ${WRKSRC} && ./autogen.sh
 
+.include "../../lang/python/application.mk"
 .include "../../textproc/libxml2/buildlink3.mk"
 .include "../../net/ldns/buildlink3.mk"
 .include "../../devel/cunit/buildlink3.mk"
