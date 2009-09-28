@@ -39,10 +39,10 @@ pkgbase:= synfig
 .    include "../../multimedia/ffmpeg/buildlink3.mk"
 .  endif
 
+.include "../../devel/ETL/buildlink3.mk"
 .include "../../devel/gettext-lib/buildlink3.mk"
 .include "../../devel/libsigc++/buildlink3.mk"
 .include "../../textproc/libxml++/buildlink3.mk"
-.include "../../wip/ETL/buildlink3.mk"
 .endif # SYNFIG_BUILDLINK3_MK
 
 BUILDLINK_TREE+=	-synfig
