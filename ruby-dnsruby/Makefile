@@ -8,14 +8,13 @@ MAINTAINER=	pettai@nordu.net
 HOMEPAGE=	http://dnsruby.rubyforge.org/
 COMMENT=	Ruby DNS client library
 
+PKG_DESTDIR_SUPPORT=	user-destdir
+
 NO_BUILD=	yes
+GEM_BUILD=      gemspec
 
-RCV=		1.37
-WRKSRC=		${WRKDIR}/dnsruby-${RCV}
+post-patch:
+	cd ${DISTDIR} && ${CP} ${DISTFILES} ${WRKSRC}
 
-post-configure:
-	cp ${WRKDIR}/dnsruby-${RCV}.gemspec ${WRKSRC}/
-
-#.include "../../lang/ruby/modules.mk"
 .include "../../misc/rubygems/rubygem.mk"
 .include "../../mk/bsd.pkg.mk"
