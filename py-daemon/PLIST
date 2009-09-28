@@ -17,9 +17,9 @@ ${PYSITELIB}/daemon/version/__init__.pyo
 ${PYSITELIB}/daemon/version/version_info.py
 ${PYSITELIB}/daemon/version/version_info.pyc
 ${PYSITELIB}/daemon/version/version_info.pyo
-${PYSITELIB}/python_daemon-1.4.8-py2.5.egg-info/PKG-INFO
-${PYSITELIB}/python_daemon-1.4.8-py2.5.egg-info/SOURCES.txt
-${PYSITELIB}/python_daemon-1.4.8-py2.5.egg-info/dependency_links.txt
-${PYSITELIB}/python_daemon-1.4.8-py2.5.egg-info/not-zip-safe
-${PYSITELIB}/python_daemon-1.4.8-py2.5.egg-info/requires.txt
-${PYSITELIB}/python_daemon-1.4.8-py2.5.egg-info/top_level.txt
+${PYSITELIB}/python_daemon-1.5-py2.5.egg-info/PKG-INFO
+${PYSITELIB}/python_daemon-1.5-py2.5.egg-info/SOURCES.txt
+${PYSITELIB}/python_daemon-1.5-py2.5.egg-info/dependency_links.txt
+${PYSITELIB}/python_daemon-1.5-py2.5.egg-info/not-zip-safe
+${PYSITELIB}/python_daemon-1.5-py2.5.egg-info/requires.txt
+${PYSITELIB}/python_daemon-1.5-py2.5.egg-info/top_level.txt
