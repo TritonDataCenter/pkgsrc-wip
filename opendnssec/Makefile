@@ -13,7 +13,7 @@ COMMENT=	OSS for a fast and easy DNSSEC deployment
 #LICENSE_FILE=	${FILESDIR}/iis-license
 
 DEPENDS+=       rubygems:../../misc/rubygems
-#DEPENDS+=       dnsruby:../../wip/dnsruby
+DEPENDS+=       ruby-dnsruby:../../wip/ruby-dnsruby
 
 USE_TOOLS+=     aclocal autoconf automake autoheader gmake gm4 perl
 USE_LIBTOOL=	yes
