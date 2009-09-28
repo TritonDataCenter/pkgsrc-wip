@@ -23,11 +23,11 @@ USE_TOOLS+=	automake
 pre-configure:
 	cd ${WRKSRC} && autoreconf
 
+.include "../../devel/ETL/buildlink3.mk"
 .include "../../devel/GConf/schemas.mk"
 .include "../../devel/libsigc++/buildlink3.mk"
 .include "../../devel/gettext-lib/buildlink3.mk"
 .include "../../devel/glibmm/buildlink3.mk"
-.include "../../wip/ETL/buildlink3.mk"
 .include "../../wip/synfig/buildlink3.mk"
 .include "../../x11/gtkmm/buildlink3.mk"
 .include "../../x11/gtk2/buildlink3.mk"
