@@ -1,4 +1,3 @@
 @comment $NetBSD$
 bin/pointfree
 share/doc/${PKGNAME}/LICENSE
-@dirrm share/doc/${PKGNAME}

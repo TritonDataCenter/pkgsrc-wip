@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	pointfree-1.0.1
+PKGNAME=	${DISTNAME}
 CATEGORIES=	devel
 
 MAINTAINER=	pho@cielonegro.org
