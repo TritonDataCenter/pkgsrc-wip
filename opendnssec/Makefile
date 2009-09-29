@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	opendnssec-${RCVERSION}
-CATEGORIES=	security
+CATEGORIES=	net security
 MASTER_SITES=	# not defined
 
 MAINTAINER=	pettai@nordu.net
@@ -36,10 +36,10 @@ BUILD_DEFS+=	VARBASE
 USE_LANGUAGES=	c c++
 USE_LIBTOOL=	yes
 
-GNU_CONFIGURE=	yes
+GNU_CONFIGURE=		yes
 CONFIGURE_ARGS+=	--prefix=${PREFIX:Q}
-CONFIGURE_ARGS+=	--localstatedir=${VARBASE}/opendnssec
-CONFIGURE_ENV+=		F77=${FALSE:Q}
+CONFIGURE_ARGS+=	--localstatedir=${VARBASE}
+#CONFIGURE_ENV+=	F77=${FALSE:Q}
 
 WRKSRC=			${WRKDIR}/OpenDNSSEC
 

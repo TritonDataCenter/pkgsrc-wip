@@ -19,11 +19,12 @@ DEPENDS+=	${RUBY_PKGPREFIX}-dnsruby:../../wip/ruby-dnsruby
 .endif
 
 ###
-### Kasp Auditor
+### SoftHSM
 ###
 .if empty(PKG_OPTIONS:Msofthsm)
 
 .else
 
-DEPENDS+=	softhsm:../../wip/softhsm
+#DEPENDS+=	softhsm:../../wip/softhsm
+.include "../../wip/softhsm/buildlink3.mk"
 .endif
