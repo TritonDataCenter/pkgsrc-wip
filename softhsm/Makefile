@@ -33,7 +33,7 @@ USE_LIBTOOL=	yes
 
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS+=	--prefix=${PREFIX:Q}
-CONFIGURE_ARGS+=	--localstatedir=${VARBASE}/softhsm
+CONFIGURE_ARGS+=	--localstatedir=${VARBASE}
 CONFIGURE_ENV+=		F77=${FALSE:Q}
 
 WRKSRC=			${WRKDIR}/softHSM
