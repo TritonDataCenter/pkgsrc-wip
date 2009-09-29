@@ -1,12 +1,12 @@
 # $NetBSD$
 
-DISTNAME=		sic-0.6
+DISTNAME=		sic-1.0
 CATEGORIES=		chat
 MASTER_SITES=		http://suckless.org/download/
 
 
-MAINTAINER=		pkgsrc-users@NetBSD.org
-HOMEPAGE=		http://irc.suckless.org/
+MAINTAINER=		smoppy@gmail.com
+HOMEPAGE=		http://tools.suckless.org/sic
 COMMENT=		Simple IRC client
 
 NO_CONFIGURE=		yes
