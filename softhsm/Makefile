@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	softhsm-${RCVERSION}
+PKGNAME=	${DISTNAME:S/${RCVERSION}/${VERSION}/}
 CATEGORIES=	security
 MASTER_SITES=	# not defined
 
@@ -19,6 +20,7 @@ SVN_REPOSITORIES=	softhsm
 SVN_ROOT.softhsm=	http://svn.opendnssec.org/tags/softHSM-${RCVERSION}/
 SVN_MODULE.softhsm=	softHSM
 RCVERSION=		1.0.0-RC3
+VERSION=		${RCVERSION:S/-RC/rc/}
 NO_CHECKSUM=		yes
 
 PKG_DESTDIR_SUPPORT=    user-destdir
