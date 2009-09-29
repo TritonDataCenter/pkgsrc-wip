@@ -45,6 +45,6 @@ pre-configure:
 	cd ${WRKSRC} && ./autogen.sh
 
 .include "../../databases/sqlite3/buildlink3.mk"
-.include "../../wip/botan/buildlink3.mk"
+.include "../../security/botan/buildlink3.mk"
 .include "../../wip/mk/svn-package.mk"
 .include "../../mk/bsd.pkg.mk"
