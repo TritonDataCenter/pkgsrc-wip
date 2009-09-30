@@ -84,6 +84,7 @@ SUBST_SED.paths+=	-e 's,@JABBER_USER@,${JABBER_USER},g'
 SUBST_SED.paths+=	-e 's,@JABBER_LOGDIR@,${JABBER_LOGDIR},g'
 SUBST_SED.paths+=	-e 's,@PREFIX@,${PREFIX},g'
 SUBST_SED.paths+=	-e 's,@JABBER_PIDDIR@,${JABBER_PIDDIR},g'
+SUBST_SED.paths+=	-e 's,@PYTHONBIN@,${PYTHONBIN},g'
 
 .include "../../lang/python/application.mk"
 .include "../../mk/bsd.pkg.mk"
