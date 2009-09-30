@@ -108,7 +108,8 @@ ${WRKDIR}/stage2-done: ${WRKDIR}/stage1-done
 	touch ${WRKDIR}/stage2-done
 
 do-install:
-	cd ${BUILDDIR} && mv j2sdk-image openjdk && pax -rwpp openjdk ${DESTDIR}${PREFIX}
+	${INSTALL_DATA_DIR} ${DESTDIR}${PREFIX}/java
+	cd ${BUILDDIR} && mv j2sdk-image openjdk7 && pax -rwpp openjdk7 ${DESTDIR}${PREFIX}/java
 
 .include "../../graphics/freetype2/buildlink3.mk"
 BUILDLINK_DEPMETHOD.cups?=	build
