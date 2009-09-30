@@ -91,9 +91,6 @@ SUBST_SED.add-rpaths=		-e 's|-L$$(OPENWIN_LIB)|-L$$(OPENWIN_LIB) -Wl,-R$$(OPENWI
 post-extract:
 	chmod +x ${ANT_BIN}/ant
 
-post-build:
-	touch ${BUILDDIR}/j2sdk-image/jre/lib/applet/.keep
-
 do-build: ${WRKDIR}/stage2-done
 
 ${WRKDIR}/stage1-done:
@@ -103,13 +100,27 @@ ${WRKDIR}/stage1-done:
 	rm -rf ${BUILDDIR}
 	touch ${WRKDIR}/stage1-done
 
-${WRKDIR}/stage2-done: ${WRKDIR}/stage1-done
+${WRKDIR}/stage2-done: ${WRKDIR}/stage1-done ${WRKDIR}/cacerts
 	cd ${WRKSRC} && ${SETENV} ${MAKE_ENV} ${MAKE_PROGRAM}
+	touch ${BUILDDIR}/j2sdk-image/jre/lib/applet/.keep
 	touch ${WRKDIR}/stage2-done
 
+${WRKDIR}/cacerts:
+	for cert in ${FILESDIR}/cacerts/*.crt; do			\
+		${ECHO} yes | ${WRKDIR}/bootstrap/bin/keytool		\
+		  -importcert						\
+		  -keystore ${.TARGET}					\
+		  -alias `${ECHO} $$cert | sed 's,.*/\\([^/]*\\)\\.crt,\\1,'` \
+		  -file $$cert						\
+		  -storepass pkgsrc;					\
+	done
+
 do-install:
-	${INSTALL_DATA_DIR} ${DESTDIR}${PREFIX}/java
-	cd ${BUILDDIR} && mv j2sdk-image openjdk7 && pax -rwpp openjdk7 ${DESTDIR}${PREFIX}/java
+	${INSTALL_DATA_DIR} ${DESTDIR}${PREFIX}/java/openjdk7
+	cd ${BUILDDIR}/j2sdk-image && pax -rwpp .			\
+	  ${DESTDIR}${PREFIX}/java/openjdk7
+	${INSTALL_DATA} ${WRKDIR}/cacerts				\
+	  ${DESTDIR}${PREFIX}/java/openjdk7/jre/lib/security/cacerts
 
 .include "../../graphics/freetype2/buildlink3.mk"
 BUILDLINK_DEPMETHOD.cups?=	build
