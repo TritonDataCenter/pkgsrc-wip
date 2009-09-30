@@ -11,7 +11,7 @@ HOMEPAGE=		http://www.emboss.org/
 COMMENT=	Standalone Interface for EMBOSS
 
 DEPENDS+=		emboss-java>=0.0.3:../../wip/emboss-java
-DEPENDS+=	jakarta-servletapi-[0-9]*:../../www/jakarta-servletapi
+#DEPENDS+=	jakarta-servletapi-[0-9]*:../../www/jakarta-servletapi
 DEPENDS+=		xerces-j>=1.2.0:../../textproc/xerces-j
 #DEPENDS+=		iasp>=2.1.1:../../www/iasp
 DEPENDS+=		apache-ant>=1.5.3.1:../../devel/apache-ant
