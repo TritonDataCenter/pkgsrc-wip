@@ -10,6 +10,7 @@ MASTER_SITES=	http://vagalume.igalia.com/files/source/
 MAINTAINER=	dieter.NetBSD@pandora.be
 HOMEPAGE=	http://vagalume.igalia.com/
 COMMENT=	GTK+-based Last.fm client
+LICENSE=	gnu-gpl-v3
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
