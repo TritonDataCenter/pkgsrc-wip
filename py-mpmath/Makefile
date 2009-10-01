@@ -7,7 +7,7 @@ CATEGORIES=	math python
 MASTER_SITES=	http://mpmath.googlecode.com/files/
 
 MAINTAINER=	kamel.derouiche@gmail.com
-HOMEPAGE=	http://mpmath.googlecode.com/files/
+HOMEPAGE=	http://code.google.com/p/mpmath/
 COMMENT=	Python library for arbitrary-precision floating-point arithmetic
 #LICENSE=	# TODO: (see mk/license.mk)
 
