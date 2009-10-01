@@ -26,8 +26,3 @@ share/vagalume/icons/hicolor/scalable/actions/media-playback-start.svg
 share/vagalume/icons/hicolor/scalable/actions/media-playback-stop.svg
 share/vagalume/icons/hicolor/scalable/actions/media-skip-forward.svg
 share/vagalume/icons/hicolor/scalable/actions/process-stop.svg
-@dirrm share/vagalume/icons/hicolor/scalable/actions
-@dirrm share/vagalume/icons/hicolor/scalable
-@dirrm share/vagalume/icons/hicolor
-@dirrm share/vagalume/icons
-@dirrm share/vagalume
