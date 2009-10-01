@@ -8,6 +8,7 @@ DISTNAME=	xfce4-taskmanager-${XFCE4_VERSION}
 #PKGREVISION=	1
 CATEGORIES=	sysutils
 MASTER_SITES=	http://goodies.xfce.org/releases/xfce4-taskmanager/
+MAINTAINER=	pkgsrc-users@NetBSD.org
 COMMENT=	Xfce task manager
 
 .include "../../x11/libxfce4gui/buildlink3.mk"

@@ -16,6 +16,7 @@ EXTRACT_SUFX=	.tar.bz2
 CONFIGURE_ARGS+=	--x-includes=${X11BASE}/include \
 			--x-libraries=${X11BASE}/libs
 
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://spuriousinterrupt.org/projects/mailwatch/
 COMMENT=	Xfce mail checker plugin for the panel
 

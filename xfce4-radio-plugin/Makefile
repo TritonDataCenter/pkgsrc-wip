@@ -8,6 +8,7 @@ DISTNAME=	xfce4-radio-plugin-${XFCE4_VERSION}
 CATEGORIES=	multimedia
 MASTER_SITES=	http://goodies.xfce.org/releases/xfce4-radio-plugin/
 EXTRACT_SUFX=	.tar.gz
+MAINTAINER=	pkgsrc-users@NetBSD.org
 COMMENT=	Xfce V4L radio plugin
 
 ONLY_FOR_PLATFORM=	Linux-*-*	# V4L
