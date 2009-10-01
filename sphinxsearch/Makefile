@@ -11,6 +11,7 @@ MASTER_SITES=	http://www.sphinxsearch.com/downloads/
 MAINTAINER=	filip@joyent.com
 HOMEPAGE=	http://www.sphinxsearch.com/
 COMMENT=	Sphinx Full-Text Search Engine
+LICENSE=	gnu-gpl-v2
 
 GNU_CONFIGURE=	yes
 USE_LANGUAGES=	c c++
