@@ -7,6 +7,7 @@ MASTER_SITES=	http://tango.freedesktop.org/releases/
 MAINTAINER=	dieter.NetBSD@pandora.be
 HOMEPAGE=	http://tango.freedesktop.org/Tango_Desktop_Project
 COMMENT=	Tango desktop project icon theme
+LICENSE=	public-domain
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
