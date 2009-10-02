@@ -2,7 +2,3 @@
 bin/softhsm
 lib/libsofthsm.la
 lib/libsofthsm.a
-lib/libsofthsm.so
-lib/libsofthsm.so.1
-lib/libsofthsm.so.1.0.0
-
