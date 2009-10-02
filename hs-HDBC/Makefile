@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	HDBC-2.1.0
+DISTNAME=	HDBC-2.1.1
 CATEGORIES=	databases
 
 MAINTAINER=	pho@cielonegro.org
