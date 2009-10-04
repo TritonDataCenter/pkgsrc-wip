@@ -30,7 +30,7 @@ ICC_PREFIX=		${PREFIX}/icc11
 ONLY_FOR_PLATFORM+=	NetBSD-*-i386 NetBSD-*-x86_64 \
 			Linux-*-i386 Linux-*-x86_64
 
-USE_TOOLS+=		pax objcopy ar make
+USE_TOOLS+=		pax make rpm2pkg
 
 ENABLE_LANGUAGES+=	c
 
