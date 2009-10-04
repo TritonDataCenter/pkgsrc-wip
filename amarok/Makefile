@@ -3,6 +3,7 @@
 
 DISTNAME=	amarok-${VERS}
 VERS=		2.2.0
+PKGREVISION=	1
 CATEGORIES=	audio multimedia
 #MASTER_SITES=	http://download.kde.org/unstable/amarok/${VERS}/src/ \
 #		ftp://gd.tuwien.ac.at/kde/unstable/amarok/${VERS}/src/
@@ -33,7 +34,9 @@ SUBST_CLASSES+=		mysql
 SUBST_STAGE.mysql=	post-patch
 SUBST_MESSAGE.mysql=	Fixup paths for MySQL embedded
 SUBST_FILES.mysql=	cmake/modules/FindMySQLAmarok.cmake
+SUBST_FILES.mysql+=	src/collection/mysqlecollection/CMakeLists.txt
 SUBST_SED.mysql=	-e s:/opt/mysqle/:${BUILDLINK_PREFIX.mysql-embedded}/mysqld:
+SUBST_SED.mysql+=	-e s:@@WLR@@:${COMPILER_RPATH_FLAG}${BUILDLINK_PREFIX.mysql-embedded}/mysqld/lib/mysql:
 
 .include "options.mk"
 
