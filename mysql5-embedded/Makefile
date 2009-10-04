@@ -2,7 +2,7 @@
 
 DISTNAME=		mysql-5.1.36
 PKGNAME=		${DISTNAME:S/-/-embedded-/}
-PKGREVISION=		2
+PKGREVISION=		3
 CATEGORIES=		databases
 MASTER_SITES=		${MASTER_SITE_MYSQL:=MySQL-5.1/}
 
@@ -38,7 +38,7 @@ CXXFLAGS+=		-fPIC -DPIC
 INSTALLATION_DIRS=	mysqld/lib/mysql
 
 # install headers and client library
-INSTALL_DIRS=	include libmysql
+INSTALL_DIRS=	include libmysql sql
 
 # We only need readline to placate the configure script.  None of the
 # binaries are actually linked against -lreadline, so make this only
