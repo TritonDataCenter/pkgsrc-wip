@@ -1,5 +1,4 @@
 @comment $NetBSD$
-${TRANSPORTDIR}/ChangeLog
 ${TRANSPORTDIR}/adhoc.py
 ${TRANSPORTDIR}/adhoc.pyc
 ${TRANSPORTDIR}/avatar.py
