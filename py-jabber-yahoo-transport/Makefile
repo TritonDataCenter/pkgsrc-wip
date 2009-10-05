@@ -1,17 +1,14 @@
 # $NetBSD: Makefile-example,v 1.9 2005/04/11 21:45:39 tv Exp $
 
-DISTNAME=		yahoo-transport-0.4
-PKGREVISION=		2
+DISTNAME=		yahoo-transport-0.4.90
 PKGNAME=		${PYPKGPREFIX}-jabber-${DISTNAME}
 CATEGORIES=		chat python
-MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=xmpppy/}
-
-PATCH_SITES=		http://www.devdots.com/files/
-PATCHFILES=		status.patch
+MASTER_SITES=		ftp://ftp.cirr.com/pub/eric/
 
 MAINTAINER=		eric@cirr.com
 HOMEPAGE=		http://xmpppy.sourceforge.net/
 COMMENT=		Transport connecting Jabber to the Yahoo! IM network
+LICENSE=		gnu-gpl-v2
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
@@ -48,10 +45,11 @@ MESSAGE_SUBST+=		HOMEPAGE=${HOMEPAGE:Q}
 
 CONF_FILES=	${EGDIR}/yahoo-transport.xml ${PKG_SYSCONFDIR}/yahoo-transport.xml
 
+INSTALLATION_DIRS+=	${TRANSPORTDIR}
+
 do-build:
 
 do-install:
-	${INSTALL_SCRIPT_DIR} ${DESTDIR}${PREFIX}/${TRANSPORTDIR}
 	cd ${WRKSRC} && \
 	for i in `find . -type f -name '*.py' -print` ; do \
 	    ${ECHO} "Installing $$i -> " \

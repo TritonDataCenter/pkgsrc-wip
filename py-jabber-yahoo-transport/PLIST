@@ -38,5 +38,3 @@ ${TRANSPORTDIR}/ylib.py
 ${TRANSPORTDIR}/ylib.pyc
 ${JABBER_EXDIR}/yahoo-transport.xml
 share/examples/rc.d/yahoo-transport
-@dirrm ${TRANSPORTDIR}/curphoo
-@dirrm ${TRANSPORTDIR}
