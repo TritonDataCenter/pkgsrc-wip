@@ -24,8 +24,6 @@ NO_CHECKSUM=		yes
 
 .include "options.mk"
 
-PKG_JVMS_ACCEPTED=	sun-jdk6 sun-jdk15 sun-jdk14
-
 # XXX: Others might work
 #ONLY_FOR_PLATFORM=	NetBSD-*-* Linux-*-*
 
@@ -45,6 +43,11 @@ WRKSRC=			${WRKDIR}/OpenDNSSEC
 
 CXXFLAGS.NetBSD+=	-D_NETBSD_SOURCE
 
+.if ${OPSYS} == "NetBSD" 
+#PKG_JVMS_ACCEPTED=	sun-jdk6 sun-jdk15 sun-jdk14
+.include "../../mk/java-vm.mk"
+.endif
+
 pre-configure:
 	${CHMOD} u+x ${WRKSRC}/autogen.sh
 	cd ${WRKSRC} && ./autogen.sh
@@ -55,5 +58,4 @@ pre-configure:
 .include "../../devel/cunit/buildlink3.mk"
 .include "../../databases/sqlite3/buildlink3.mk"
 .include "../../wip/mk/svn-package.mk"
-.include "../../mk/java-vm.mk"
 .include "../../mk/bsd.pkg.mk"
