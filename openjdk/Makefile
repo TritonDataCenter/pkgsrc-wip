@@ -64,9 +64,6 @@ PLIST_SUBST+=	LOWER_OPSYS=${LOWER_OPSYS}
 
 .include "../../mk/bsd.prefs.mk"
 .include "bootstrap.mk"
-.if defined(TNN)
-.include "icedtea-extras.mk"
-.endif
 
 SUBST_CLASSES+=			add-rpaths
 SUBST_STAGE.add-rpaths=		pre-build
@@ -99,7 +96,7 @@ ${WRKDIR}/stage2-done: ${WRKDIR}/stage1-done
 	touch ${WRKDIR}/stage2-done
 
 # stage 3 builds third party add-ons
-${WRKDIR}/stage3-done: ${WRKDIR}/stage2-done ${WRKDIR}/${ICEDTEA}/IcedTeaPlugin.so ${WRKDIR}/cacerts
+${WRKDIR}/stage3-done: ${WRKDIR}/stage2-done ${WRKDIR}/cacerts
 	touch ${WRKDIR}/stage3-done
 
 ${WRKDIR}/cacerts:
@@ -118,6 +115,8 @@ do-install:
 	  ${DESTDIR}${PREFIX}/java/openjdk7
 	${INSTALL_DATA} ${WRKDIR}/cacerts				\
 	  ${DESTDIR}${PREFIX}/java/openjdk7/jre/lib/security/cacerts
+
+.include "icedtea-extras.mk"
 
 .include "../../graphics/freetype2/buildlink3.mk"
 BUILDLINK_DEPMETHOD.cups?=	build
