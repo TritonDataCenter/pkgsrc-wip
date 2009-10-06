@@ -51,7 +51,7 @@ PLIST.ia32w=		yes
 OPERA_DIST_SUFFIX=	${OPERA_VARIANT}.${OPERA_ARCH}
 OPERA_DIST_SEP=		.
 
-.ifndef EMUL_IS_NATIVE
+.if !defined(EMUL_IS_NATIVE)
 post-tools: emul-md5sum
 
 .PHONY: emul-md5sum
