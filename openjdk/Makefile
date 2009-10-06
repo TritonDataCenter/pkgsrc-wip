@@ -16,6 +16,9 @@ DIST_SUBDIR=	${PKGNAME_NOREV}
 DISTFILES=	${DEFAULT_DISTFILES}
 EXTRACT_ONLY=	${DISTNAME}${EXTRACT_SUFX}
 
+# old name of package
+CONFLICTS=	openjdk-[0-9]*
+
 JAVA_NAME=	openjdk7
 JAVA_HOME=	${PREFIX}/java/${JAVA_NAME}
 JAVA_WRAPPERS=	jar java javac javadoc javah javap keytool orbd \
