@@ -95,7 +95,7 @@ ${WRKDIR}/stage1-done:
 	touch ${WRKDIR}/stage1-done
 
 # stage 2 rebuilds the JDK using native tools
-${WRKDIR}/stage2-done: ${WRKDIR}/stage1-done
+${WRKDIR}/stage2-done: #${WRKDIR}/stage1-done
 	cd ${WRKSRC} && ${SETENV} ${MAKE_ENV} ${MAKE_PROGRAM}
 	touch ${BUILDDIR}/j2sdk-image/jre/lib/applet/.keep
 	touch ${WRKDIR}/stage2-done
@@ -121,7 +121,7 @@ do-install:
 	${INSTALL_DATA} ${WRKDIR}/cacerts				\
 	  ${DESTDIR}${JAVA_HOME}/jre/lib/security/cacerts
 
-.include "icedtea-extras.mk"
+.include "options.mk"
 
 .include "../../graphics/freetype2/buildlink3.mk"
 BUILDLINK_DEPMETHOD.cups?=	build
