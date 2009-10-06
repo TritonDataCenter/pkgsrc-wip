@@ -13,7 +13,7 @@ MASTER_SITES+=		ftp://ftp.opera.com/pub/opera/${OPERA_DIR}/
 MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://www.opera.com/
 COMMENT=		Small, fast and customizable WWW client
-#LICENSE=		opera-1000-license
+LICENSE_FILE=		opera-1000-license
 
 EMUL_PLATFORMS=		freebsd-i386 freebsd-x86_64
 EMUL_PLATFORMS+=	linux-i386 linux-x86_64 linux-powerpc
