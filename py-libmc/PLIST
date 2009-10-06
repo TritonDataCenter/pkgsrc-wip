@@ -1,0 +1,5 @@
+@comment $NetBSD$
+${PYSITELIB}/_pylibmc.so
+${PYSITELIB}/pylibmc.py
+${PYSITELIB}/pylibmc.pyc
+${PYSITELIB}/pylibmc.pyo
