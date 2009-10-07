@@ -1,20 +1,23 @@
-# $NetBSD: Makefile,v 1.5 2008/01/18 05:14:37 tnn Exp $
+# $NetBSD$
 #
 
 MODNAME=		memcached
-PKGREVISION=		1
 PECL_VERSION=		1.0.0
 CATEGORIES+=		devel
-COMMENT=		PHP extension for memcached
+
+MAINTAINER=		filip@joyent.com
+HOMEPAGE=		http://github.com/andreiz/php-memcached
+COMMENT=		PHP extension for interfacing with memcached via libmemcached library
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
-USE_LIBTOOL=		yes
+CONFLICTS=		php-memcached-[0-9]*
 
 CONFIGURE_ARGS+=	--enable-${MODNAME}
-CONFIGURE_ARGS+=	--with-${PKGMODNAME}=shared,${BUILDLINK_DIR}
-CONFIGURE_ARGS+=	--with-libmemcached_dir=${BUILDLINK_PREFIX.libmemcached}
+CONFIGURE_ARGS+=	--with-libmemcached-dir=${PREFIX}
+WRKSRC=			${WRKDIR}/${MODNAME}-${PECL_VERSION}
 
-.include "../../lang/php/ext.mk"
 .include "../../wip/libmemcached/buildlink3.mk"
+.include "../../lang/php/ext.mk"
+.include "../../devel/zlib/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
