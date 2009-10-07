@@ -15,9 +15,9 @@ PKG_SUGGESTED_OPTIONS=	lensfun liblqr marble pim
 .endif
 
 .if !empty(PKG_OPTIONS:Mmarble)
-.include "../../wip/kdeedu4/buildlink3.mk"
+.include "../../misc/kdeedu4/buildlink3.mk"
 .endif
 
 .if !empty(PKG_OPTIONS:Mpim)
-.include "../../wip/kdepimlibs4/buildlink3.mk"
+.include "../../misc/kdepimlibs4/buildlink3.mk"
 .endif
