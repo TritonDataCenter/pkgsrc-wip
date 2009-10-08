@@ -11,14 +11,16 @@ COMMENT=	Desktop environment built on GNUstep
 LICENSE=	modified-bsd
 
 WRKSRC=		${WRKDIR}/Etoile-0.4.1
-USE_LANGUAGES=	c c++
+USE_LANGUAGES=	objc
+
+MAKE_FILE=	GNUmakefile
 
 DEPENDS+=	gnustep-make>=2.0.8:../../devel/gnustep-make
 DEPENDS+=	gnustep-base>=1.18.0:../../devel/gnustep-base
 DEPENDS+=	gnustep-gui>=0.16.0:../../x11/gnustep-gui
 DEPENDS+=	gnustep-back>=0.16.0:../../x11/gnustep-back
 DEPENDS+=	lemon>=1.0.0:../../devel/lemon
-DEPENDS+=	postgresql>=8.3.0:../../databases/postgresql83
+DEPENDS+=	postgresql83>=8.3.0:../../databases/postgresql83
 
 .include "../../graphics/png/buildlink3.mk"
 .include "../../devel/zlib/buildlink3.mk"
