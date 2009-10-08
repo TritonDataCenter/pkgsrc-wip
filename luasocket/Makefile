@@ -17,6 +17,8 @@ MAKE_FILE=		${WRKSRC}/makefile
 BUILD_TARGET=		all
 USE_TOOLS+=		gmake
 
+LDFLAGS.SunOS=		-lrt -lresolv
+
 INSTALLATION_DIRS+=	${LUA_CDIR} ${LUA_LDIR}
 
 do-install:
