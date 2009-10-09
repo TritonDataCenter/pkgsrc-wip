@@ -22,6 +22,7 @@ java/openjdk7/bin/idlj
 java/openjdk7/bin/jar
 java/openjdk7/bin/jarsigner
 java/openjdk7/bin/java
+${PLIST.i386}java/openjdk7/bin/java-rmi.cgi
 java/openjdk7/bin/javac
 java/openjdk7/bin/javadoc
 java/openjdk7/bin/javah
@@ -330,6 +331,9 @@ java/openjdk7/jre/bin/rmiregistry
 java/openjdk7/jre/bin/servertool
 java/openjdk7/jre/bin/tnameserv
 java/openjdk7/jre/bin/unpack200
+${PLIST.i386}java/openjdk7/jre/lib/${ARCH}/client/Xusage.txt
+${PLIST.i386}java/openjdk7/jre/lib/${ARCH}/client/libjsig.so
+${PLIST.i386}java/openjdk7/jre/lib/${ARCH}/client/libjvm.so
 java/openjdk7/jre/lib/${ARCH}/headless/libmawt.so
 java/openjdk7/jre/lib/${ARCH}/jexec
 java/openjdk7/jre/lib/${ARCH}/jli/libjli.so

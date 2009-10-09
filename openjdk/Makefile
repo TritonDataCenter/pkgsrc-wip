@@ -76,6 +76,11 @@ SUBST_FILES.add-rpaths=		jdk/make/sun/awt/Makefile		\
 				jdk/make/sun/xawt/Makefile
 SUBST_SED.add-rpaths=		-e 's|-L$$(OPENWIN_LIB)|-L$$(OPENWIN_LIB) -Wl,-R$$(OPENWIN_LIB)|g'
 
+PLIST_VARS+=	i386
+.if ${MACHINE_ARCH} == "i386"
+PLIST.i386=	yes
+.endif
+
 post-extract:
 	chmod +x ${ANT_BIN}/ant
 	cd ${WRKDIR}/${ICEDTEA}/plugin/icedteanp/java && pax -rw . \
