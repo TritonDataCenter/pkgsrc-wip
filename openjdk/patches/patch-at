@@ -1,0 +1,13 @@
+$NetBSD$
+
+--- jdk/src/share/classes/sun/applet/AppletPanel.java.orig	2009-09-17 09:52:11.000000000 +0200
++++ jdk/src/share/classes/sun/applet/AppletPanel.java
+@@ -67,7 +67,7 @@ abstract class AppletPanel extends Panel
+     /**
+      * The applet (if loaded).
+      */
+-    Applet applet;
++    protected Applet applet;
+ 
+     /**
+      * Applet will allow initialization.  Should be
