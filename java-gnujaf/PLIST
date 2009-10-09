@@ -1,3 +1,2 @@
 @comment $NetBSD$
 share/java/activation.jar
-@dirrm share/java
