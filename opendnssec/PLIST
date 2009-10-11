@@ -6,13 +6,6 @@ bin/ods-hsmutil
 bin/ods-kaspcheck
 bin/ods-ksmutil
 bin/ods-signer
-etc/opendnssec/conf.xml
-etc/opendnssec/conf.xml.sample
-etc/opendnssec/kasp.xml
-etc/opendnssec/kasp.xml.sample
-etc/opendnssec/zonefetch.xml.sample
-etc/opendnssec/zonelist.xml
-etc/opendnssec/zonelist.xml.sample
 include/hsmtest.h
 include/libhsm.h
 include/libhsmdns.h
