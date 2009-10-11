@@ -10,6 +10,8 @@ HOMEPAGE=	http://www.opendnssec.org/
 COMMENT=	OSS for a fast and easy DNSSEC deployment
 LICENSE=	iis-license
 
+DEPENDS+=	${PYPKGPREFIX}-4Suite:../../wip/py-4Suite
+
 LICENSE_FILE=	${FILESDIR}/iis-license
 
 USE_TOOLS+=     aclocal autoconf automake autoheader gmake gm4 perl
@@ -19,13 +21,13 @@ USE_LIBTOOL=	yes
 SVN_REPOSITORIES=	opendnssec
 SVN_ROOT.opendnssec=	http://svn.opendnssec.org/tags/OpenDNSSEC-${VERSION}
 SVN_MODULE.opendnssec=	OpenDNSSEC
-VERSION=		1.0.0b1
+VERSION=		1.0.0b2
 NO_CHECKSUM=		yes
 
 .include "options.mk"
 
 # XXX: Others might work
-#ONLY_FOR_PLATFORM=	NetBSD-*-* Linux-*-*
+#ONLY_FOR_PLATFORM=	NetBSD-*-* Darwin-*-*
 
 PKG_DESTDIR_SUPPORT=    user-destdir
 PKG_INSTALLATION_TYPES= overwrite pkgviews
