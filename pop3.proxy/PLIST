@@ -1,2 +1,3 @@
-@comment $NetBSD: PLIST,v 1.1 2005/02/08 10:13:18 oht  $
-@comment This PLIST is intentionally left empty.
+@comment $NetBSD$
+man/man1/pop3.proxy.1
+sbin/pop3.proxy
