@@ -3,4 +3,3 @@ bin/swami
 lib/swami/samplelib_libsndfile.la
 lib/swami/wavetbl_fluidsynth.la
 share/locale/de/LC_MESSAGES/swami.mo
-@dirrm lib/swami

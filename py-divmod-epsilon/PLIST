@@ -240,13 +240,3 @@ ${PYSITELIB}/epsilon/test/utils.pyc
 ${PYSITELIB}/epsilon/test/utils.pyo
 ${PYSITELIB}/epsilon/unrepr.pyc
 ${PYSITELIB}/epsilon/unrepr.pyo
-@dirrm ${PYSITELIB}/epsilon/test
-@dirrm ${PYSITELIB}/epsilon/scripts
-@dirrm ${PYSITELIB}/epsilon/hotfixes
-@dirrm ${PYSITELIB}/epsilon
-@dirrm ${PYSITELIB}/build/lib/epsilon/test
-@dirrm ${PYSITELIB}/build/lib/epsilon/scripts
-@dirrm ${PYSITELIB}/build/lib/epsilon/hotfixes
-@dirrm ${PYSITELIB}/build/lib/epsilon
-@dirrm ${PYSITELIB}/build/lib
-@dirrm ${PYSITELIB}/build

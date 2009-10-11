@@ -310,14 +310,3 @@ ${PYSITELIB}/weave/wx_info.pyo
 ${PYSITELIB}/weave/wx_spec.py
 ${PYSITELIB}/weave/wx_spec.pyc
 ${PYSITELIB}/weave/wx_spec.pyo
-@dirrm ${PYSITELIB}/weave/tests
-@dirrm ${PYSITELIB}/weave/swig
-@dirrm ${PYSITELIB}/weave/scxx
-@dirrm ${PYSITELIB}/weave/examples
-@dirrm ${PYSITELIB}/weave/doc
-@dirrm ${PYSITELIB}/weave/blitz-20001213/blitz/meta
-@dirrm ${PYSITELIB}/weave/blitz-20001213/blitz/array
-@dirrm ${PYSITELIB}/weave/blitz-20001213/blitz
-@dirrm ${PYSITELIB}/weave/blitz-20001213
-@dirrm ${PYSITELIB}/weave/CXX
-@dirrm ${PYSITELIB}/weave

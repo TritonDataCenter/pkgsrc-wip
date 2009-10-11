@@ -3,4 +3,3 @@ include/ilbc/iLBC_decode.h
 include/ilbc/iLBC_define.h
 include/ilbc/iLBC_encode.h
 lib/libilbc.la
-@dirrm include/ilbc

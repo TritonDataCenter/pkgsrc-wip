@@ -5,4 +5,3 @@ lib/libdisasm.so
 share/libdisasm/IntCode.txt
 share/libdisasm/Perl-Disassembler-HOWTO.txt
 share/libdisasm/libdisasm.txt
-@dirrm share/libdisasm

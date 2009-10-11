@@ -62,6 +62,3 @@ ${PKGLOCALEDIR}/locale/ja_JP/LC_MESSAGES/granule.mo
 ${PKGLOCALEDIR}/locale/ru/LC_MESSAGES/granule.mo
 @comment in xdg-dirs: @dirrm share/applications
 @comment in xdg-dirs: @dirrm share/pixmaps
-@dirrm share/granule/xml
-@dirrm share/granule/pixmaps
-@dirrm share/granule

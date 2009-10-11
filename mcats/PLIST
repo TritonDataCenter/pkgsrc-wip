@@ -8,4 +8,3 @@ man/man1/mcats_cdinput.1
 man/man1/mcats_iodbc.1
 man/man1/mcats_stdout.1
 man/man1/mcats_wii.1
-@dirrm lib/mcats

@@ -5,5 +5,3 @@ man/man5/greylist.conf.5
 share/doc/milter-greylist/README
 share/examples/milter-greylist/greylist.conf
 share/examples/rc.d/milter-greylist
-@dirrm share/examples/milter-greylist
-@dirrm share/doc/milter-greylist

@@ -104,4 +104,3 @@ ${PYSITELIB}/xsdb/xspickle.pyo
 ${PYSITELIB}/xsdb/xsserve.py
 ${PYSITELIB}/xsdb/xsserve.pyc
 ${PYSITELIB}/xsdb/xsserve.pyo
-@dirrm ${PYSITELIB}/xsdb

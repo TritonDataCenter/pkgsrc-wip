@@ -47,6 +47,3 @@ share/gtk-doc/html/xesam-glib/xesam-glib-Global-Definitions.html
 share/gtk-doc/html/xesam-glib/xesam-glib-XesamGQueryToken.html
 share/gtk-doc/html/xesam-glib/xesam-glib.devhelp
 share/gtk-doc/html/xesam-glib/xesam-glib.devhelp2
-@dirrm share/gtk-doc/html/xesam-glib
-@dirrm include/xesam-1.0/xesam-glib
-@dirrm include/xesam-1.0

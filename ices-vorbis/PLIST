@@ -14,5 +14,3 @@ share/doc/${PKGBASE}/style.css
 share/examples/${PKGBASE}/ices-alsa.xml
 share/examples/${PKGBASE}/ices-oss.xml
 share/examples/${PKGBASE}/ices-playlist.xml
-@dirrm share/examples/${PKGBASE}
-@dirrm share/doc/${PKGBASE}

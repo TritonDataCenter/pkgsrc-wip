@@ -5,5 +5,3 @@ etc/modules/ices.pm.dist
 etc/modules/ices.py.dist
 man/man1/ices.1
 share/doc/ices/icesmanual.html
-@dirrm share/doc/ices
-@dirrm etc/modules

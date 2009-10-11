@@ -20,8 +20,3 @@ lib/curl-${PKGVERSION}/${HASKELL_VERSION}/libHScurl-${PKGVERSION}.a
 lib/curl-${PKGVERSION}/${HASKELL_VERSION}/libHScurl-${PKGVERSION}_p.a
 lib/curl-${PKGVERSION}/${HASKELL_VERSION}/package-description
 share/doc/curl-${PKGVERSION}/LICENSE
-@dirrm share/doc/curl-${PKGVERSION}
-@dirrm lib/curl-${PKGVERSION}/${HASKELL_VERSION}/Network/Curl
-@dirrm lib/curl-${PKGVERSION}/${HASKELL_VERSION}/Network
-@dirrm lib/curl-${PKGVERSION}/${HASKELL_VERSION}
-@dirrm lib/curl-${PKGVERSION}

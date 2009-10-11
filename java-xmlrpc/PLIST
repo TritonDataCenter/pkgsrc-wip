@@ -115,16 +115,3 @@ share/doc/java-xmlrpc/package-list
 share/doc/java-xmlrpc/packages.html
 share/doc/java-xmlrpc/serialized-form.html
 share/doc/java-xmlrpc/stylesheet.css
-@dirrm share/doc/java-xmlrpc/org/apache/xmlrpc/util/class-use
-@dirrm share/doc/java-xmlrpc/org/apache/xmlrpc/util
-@dirrm share/doc/java-xmlrpc/org/apache/xmlrpc/secure/class-use
-@dirrm share/doc/java-xmlrpc/org/apache/xmlrpc/secure
-@dirrm share/doc/java-xmlrpc/org/apache/xmlrpc/fesi/class-use
-@dirrm share/doc/java-xmlrpc/org/apache/xmlrpc/fesi
-@dirrm share/doc/java-xmlrpc/org/apache/xmlrpc/class-use
-@dirrm share/doc/java-xmlrpc/org/apache/xmlrpc/applet/class-use
-@dirrm share/doc/java-xmlrpc/org/apache/xmlrpc/applet
-@dirrm share/doc/java-xmlrpc/org/apache/xmlrpc
-@dirrm share/doc/java-xmlrpc/org/apache
-@dirrm share/doc/java-xmlrpc/org
-@dirrm share/doc/java-xmlrpc

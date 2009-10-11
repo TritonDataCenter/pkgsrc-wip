@@ -102,8 +102,3 @@ ${PYSITELIB}/mapnik/ogcserver/exceptions.py
 ${PYSITELIB}/mapnik/ogcserver/wms111.py
 ${PYSITELIB}/mapnik/ogcserver/wms130.py
 ${PYSITELIB}/mapnik/paths.py
-@dirrm ${PYSITELIB}/mapnik/ogcserver
-@dirrm ${PYSITELIB}/mapnik
-@dirrm lib/mapnik/input
-@dirrm lib/mapnik
-@dirrm include/mapnik

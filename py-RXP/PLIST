@@ -5,4 +5,3 @@ share/doc/${PKGNAME}/PyRXP_Documentation.html
 share/doc/${PKGNAME}/PyRXP_Documentation.rml
 share/doc/${PKGNAME}/README
 share/doc/${PKGNAME}/replogo.gif
-@dirrm share/doc/${PKGNAME}

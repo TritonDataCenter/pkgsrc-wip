@@ -2,4 +2,3 @@
 bin/tcpxtract
 man/man1/tcpxtract.1
 share/examples/tcpxtract/tcpxtract.conf
-@dirrm share/examples/tcpxtract

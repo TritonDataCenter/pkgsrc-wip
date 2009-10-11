@@ -10,5 +10,3 @@ share/xmoto/editor.dat
 share/xmoto/fonts.dat
 share/xmoto/xmoto.bin
 share/xmoto/xmoto.ogg
-@dirrm share/xmoto
-@dirrm man/mang

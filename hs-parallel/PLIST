@@ -8,8 +8,3 @@ lib/parallel-${PKGVERSION}/${HASKELL_VERSION}/libHSparallel-${PKGVERSION}.a
 lib/parallel-${PKGVERSION}/${HASKELL_VERSION}/libHSparallel-${PKGVERSION}_p.a
 lib/parallel-${PKGVERSION}/${HASKELL_VERSION}/package-description
 share/doc/parallel-${PKGVERSION}/LICENSE
-@dirrm share/doc/parallel-${PKGVERSION}
-@dirrm lib/parallel-${PKGVERSION}/${HASKELL_VERSION}/Control/Parallel
-@dirrm lib/parallel-${PKGVERSION}/${HASKELL_VERSION}/Control
-@dirrm lib/parallel-${PKGVERSION}/${HASKELL_VERSION}
-@dirrm lib/parallel-${PKGVERSION}

@@ -14,5 +14,3 @@ share/examples/teapot/life
 share/examples/teapot/life.README
 share/examples/teapot/sqrt
 share/examples/teapot/sqrt.README
-@dirrm share/examples/teapot
-@dirrm share/doc/teapot

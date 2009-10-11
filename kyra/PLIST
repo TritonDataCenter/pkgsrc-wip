@@ -58,7 +58,3 @@ include/Kyra/util/gltypes.h
 include/Kyra/util/glutil.h
 lib/libkyra.la
 share/aclocal/kyra.m4
-@dirrm include/Kyra/util
-@dirrm include/Kyra/tinyxml
-@dirrm include/Kyra/engine
-@dirrm include/Kyra

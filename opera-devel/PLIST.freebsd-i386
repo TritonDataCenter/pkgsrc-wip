@@ -115,17 +115,5 @@ share/opera/styles/user/textonly.css
 share/opera/styles/user/userstyle.ini
 share/opera/styles/wml.css
 share/opera/styles/OPF.css
-@dirrm share/doc/opera
-@dirrm share/opera/styles/user
-@dirrm share/opera/styles
-@dirrm share/opera/skin
 @comment @dirrm share/opera/plugins
-@dirrm share/opera/locale/en
-@dirrm share/opera/locale
-@dirrm share/opera/java
-@dirrm share/opera/ini
-@dirrm share/opera/images
-@dirrm share/opera/help
-@dirrm share/opera/config
-@dirrm share/opera/bin
 @comment @dirrm share/opera

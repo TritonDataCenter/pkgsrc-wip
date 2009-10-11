@@ -12,9 +12,3 @@ lib/regex-base-${PKGVERSION}/${HASKELL_VERSION}/libHSregex-base-${PKGVERSION}.a
 lib/regex-base-${PKGVERSION}/${HASKELL_VERSION}/libHSregex-base-${PKGVERSION}_p.a
 lib/regex-base-${PKGVERSION}/${HASKELL_VERSION}/package-description
 share/doc/regex-base-${PKGVERSION}/LICENSE
-@dirrm share/doc/regex-base-${PKGVERSION}
-@dirrm lib/regex-base-${PKGVERSION}/${HASKELL_VERSION}/Text/Regex/Base
-@dirrm lib/regex-base-${PKGVERSION}/${HASKELL_VERSION}/Text/Regex
-@dirrm lib/regex-base-${PKGVERSION}/${HASKELL_VERSION}/Text
-@dirrm lib/regex-base-${PKGVERSION}/${HASKELL_VERSION}
-@dirrm lib/regex-base-${PKGVERSION}

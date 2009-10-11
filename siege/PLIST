@@ -11,4 +11,3 @@ man/man5/urls_txt.5
 man/man7/layingsiege.7
 share/examples/siege/urls.txt
 share/examples/siege/siegerc
-@dirrm share/examples/siege

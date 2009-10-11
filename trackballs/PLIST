@@ -217,10 +217,4 @@ share/trackballs/sfx/start.wav
 share/trackballs/sfx/switch.wav
 share/trackballs/sfx/time_warning.wav
 share/trackballs/sfx/timeout.wav
-@dirrm share/trackballs/sfx
 @exec ${MKDIR} %D/share/trackballs/music
-@dirrm share/trackballs/music
-@dirrm share/trackballs/levels
-@dirrm share/trackballs/images
-@dirrm share/trackballs/fonts
-@dirrm share/trackballs

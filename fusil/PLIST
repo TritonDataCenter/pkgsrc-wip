@@ -265,10 +265,3 @@ share/doc/${PKGNAME}/usage.rst
 share/examples/${PKGNAME}/good-bye-world
 share/examples/${PKGNAME}/hello-world
 share/examples/${PKGNAME}/xterm
-@dirrm share/examples/${PKGNAME}
-@dirrm share/doc/${PKGNAME}
-@dirrm ${PYSITELIB}/fusil/process
-@dirrm ${PYSITELIB}/fusil/network
-@dirrm ${PYSITELIB}/fusil/mas
-@dirrm ${PYSITELIB}/fusil/linux
-@dirrm ${PYSITELIB}/fusil

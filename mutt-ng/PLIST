@@ -93,7 +93,3 @@ share/locale/tr/LC_MESSAGES/muttng.mo
 share/locale/uk/LC_MESSAGES/muttng.mo
 share/locale/zh_CN/LC_MESSAGES/muttng.mo
 share/locale/zh_TW/LC_MESSAGES/muttng.mo
-@dirrm share/doc/muttng/samples/iconv
-@dirrm share/doc/muttng/samples
-@dirrm share/doc/muttng/html
-@dirrm share/doc/muttng

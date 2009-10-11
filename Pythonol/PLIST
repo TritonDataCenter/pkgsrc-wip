@@ -225,14 +225,3 @@ ${PYSITELIB}/Pythonol/user-doc/Pythonol-LICENSE
 ${PYSITELIB}/Pythonol/user-doc/SQLite-LICENSE
 ${PYSITELIB}/Pythonol/verb_conjugate.py
 ${PYSITELIB}/Pythonol/verb_families.py
-@dirrm ${PYSITELIB}/Pythonol/user-doc
-@dirrm ${PYSITELIB}/Pythonol/theme/gtk
-@dirrm ${PYSITELIB}/Pythonol/theme
-@dirrm ${PYSITELIB}/Pythonol/pixmaps
-@dirrm ${PYSITELIB}/Pythonol/icons
-@dirrm ${PYSITELIB}/Pythonol/festival
-@dirrm ${PYSITELIB}/Pythonol/docs/images
-@dirrm ${PYSITELIB}/Pythonol/docs
-@dirrm ${PYSITELIB}/Pythonol/dictionary
-@dirrm ${PYSITELIB}/Pythonol/datafiles
-@dirrm ${PYSITELIB}/Pythonol

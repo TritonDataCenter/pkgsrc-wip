@@ -56,7 +56,3 @@ man/man1/quickie.1
 man/man1/quickie_svt.1
 man/man1/quickie_license.1
 man/man1/quickie_post_install.1
-@dirrm share/doc/quickie
-@dirrm share/quickie/manual
-@dirrm share/quickie/admin
-@dirrm share/quickie

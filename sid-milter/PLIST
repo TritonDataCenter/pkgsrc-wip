@@ -15,4 +15,3 @@ share/doc/sid-milter/rfc4406.txt
 share/doc/sid-milter/rfc4407.txt
 share/doc/sid-milter/rfc4408.txt
 share/examples/rc.d/sid-milter
-@dirrm share/doc/sid-milter

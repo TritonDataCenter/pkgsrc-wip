@@ -175,7 +175,3 @@ ${PYSITELIB}/ptrace/tools.pyo
 ${PYSITELIB}/ptrace/version.py
 ${PYSITELIB}/ptrace/version.pyc
 ${PYSITELIB}/ptrace/version.pyo
-@dirrm ${PYSITELIB}/ptrace/syscall
-@dirrm ${PYSITELIB}/ptrace/debugger
-@dirrm ${PYSITELIB}/ptrace/binding
-@dirrm ${PYSITELIB}/ptrace

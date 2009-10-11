@@ -29,6 +29,3 @@ sbin/hciconfig
 sbin/hcid
 sbin/hid2hci
 sbin/sdpd
-@dirrm etc/dbus-1/system.d
-@dirrm etc/dbus-1
-@dirrm etc/bluetooth

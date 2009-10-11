@@ -5,4 +5,3 @@ share/${PKGBASE}/igowin.exe
 share/${PKGBASE}/igowin.hlp
 share/${PKGBASE}/readme.txt
 share/${PKGBASE}/tutor.hlp
-@dirrm share/${PKGBASE}

@@ -27,4 +27,3 @@ share/doc/socklog/tryto.1.html
 share/doc/socklog/uncat.1.html
 share/doc/socklog/upgrade.html
 share/doc/socklog/usedietlibc.html
-@dirrm share/doc/socklog

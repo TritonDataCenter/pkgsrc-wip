@@ -10,5 +10,3 @@ ${PYSITELIB}/s3funnel/__init__.pyc
 ${PYSITELIB}/s3funnel/__init__.pyo
 ${PYSITELIB}/s3funnel/jobs.pyc
 ${PYSITELIB}/s3funnel/jobs.pyo
-@dirrm ${PYSITELIB}/${EGG_INFODIR}
-@dirrm ${PYSITELIB}/s3funnel

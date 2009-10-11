@@ -1,4 +1,3 @@
 @comment $NetBSD$
 bin/jad
 share/doc/jad/readme.txt
-@dirrm share/doc/jad

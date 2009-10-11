@@ -2,4 +2,3 @@
 include/${DISTNAME}/miracl.h
 include/${DISTNAME}/mirdef.h
 lib/libmiracl.a
-@dirrm include/${DISTNAME}

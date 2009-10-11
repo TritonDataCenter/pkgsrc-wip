@@ -81,7 +81,3 @@ share/kde/doc/serlook/INSTALL
 share/kde/doc/serlook/KNOWN_BUGS
 share/kde/doc/serlook/README
 share/kde/doc/serlook/TODO
-@dirrm share/kde/doc/serlook
-@dirrm share/kde/apps/serlook
-@dirrm share/doc/kde/HTML/serlook
-@dirrm share/doc/kde/HTML/en/serlook

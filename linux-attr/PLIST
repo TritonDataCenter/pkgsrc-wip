@@ -48,6 +48,3 @@ share/locale/fr/LC_MESSAGES/attr.mo
 share/locale/nl/LC_MESSAGES/attr.mo
 share/locale/pl/LC_MESSAGES/attr.mo
 share/locale/sv/LC_MESSAGES/attr.mo
-@dirrm share/doc/attr/ea-conv
-@dirrm share/doc/attr
-@dirrm include/attr

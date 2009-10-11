@@ -9,5 +9,3 @@ share/doc/tcoffee/t_coffee_doc.doc
 share/doc/tcoffee/t_coffee_doc.html
 share/doc/tcoffee/t_coffee_doc.pdf
 share/doc/tcoffee/t_coffee_doc.ps
-@dirrm share/doc/tcoffee
-@dirrm share/doc/html/tcoffee

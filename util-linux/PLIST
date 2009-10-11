@@ -142,5 +142,3 @@ share/misc/getopt/getopt-parse.bash
 share/misc/getopt/getopt-parse.tcsh
 share/misc/getopt/getopt-test.bash
 share/misc/getopt/getopt-test.tcsh
-@dirrm share/misc/getopt
-@dirrm share/examples/util-linux

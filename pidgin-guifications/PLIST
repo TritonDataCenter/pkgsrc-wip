@@ -55,9 +55,3 @@ share/pixmaps/pidgin/guifications/themes/default/background.png
 share/pixmaps/pidgin/guifications/themes/default/theme.xml
 share/pixmaps/pidgin/guifications/themes/mini/background.png
 share/pixmaps/pidgin/guifications/themes/mini/theme.xml
-@dirrm share/pixmaps/pidgin/guifications/themes/mini
-@dirrm share/pixmaps/pidgin/guifications/themes/default
-@dirrm share/pixmaps/pidgin/guifications/themes/Penguins
-@dirrm share/pixmaps/pidgin/guifications/themes
-@dirrm share/pixmaps/pidgin/guifications/conf
-@dirrm share/pixmaps/pidgin/guifications

@@ -78,13 +78,3 @@ share/ficl/test/sarray.fr
 share/ficl/test/testcase.fr
 share/ficl/test/tester.fr
 share/ficl/test/vocab.fr
-@dirrm share/ficl/test
-@dirrm share/ficl/softcore
-@dirrm share/ficl/doc/source
-@dirrm share/ficl/doc/graphics
-@dirrm share/ficl/doc/articles
-@dirrm share/ficl/doc
-@dirrm share/ficl/contrib/xclasses
-@dirrm share/ficl/contrib
-@dirrm share/ficl
-@dirrm include/ficlplatform

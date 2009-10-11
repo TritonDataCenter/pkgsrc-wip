@@ -78,6 +78,3 @@ share/locale/sq/LC_MESSAGES/libxfce4util.mo
 share/locale/tr/LC_MESSAGES/libxfce4util.mo
 share/locale/uk/LC_MESSAGES/libxfce4util.mo
 share/locale/ur/LC_MESSAGES/libxfce4util.mo
-@dirrm share/doc/libxfce4util
-@dirrm include/xfce4/libxfce4util
-@dirrm include/xfce4

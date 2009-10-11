@@ -50,5 +50,3 @@ share/doc/am-utils/README.y2k
 share/examples/am-utils/amd.conf
 share/examples/am-utils/lostaltmail.conf
 share/examples/rc.d/amd-pkgsrc
-@dirrm share/doc/am-utils
-@dirrm share/examples/am-utils

@@ -18,5 +18,3 @@ share/locale/pt_BR/LC_MESSAGES/libgksu1.2.mo
 share/locale/ro/LC_MESSAGES/libgksu1.2.mo
 share/locale/ru/LC_MESSAGES/libgksu1.2.mo
 share/locale/sk/LC_MESSAGES/libgksu1.2.mo
-@dirrm lib/libgksu1.2
-@dirrm include/libgksu1.2

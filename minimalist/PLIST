@@ -12,7 +12,3 @@ share/examples/minimalist/minimalist.conf
 share/examples/minimalist/sample/config
 share/examples/minimalist/sample/footer
 share/examples/minimalist/sample/info
-@dirrm share/examples/minimalist/sample
-@dirrm share/examples/minimalist
-@dirrm share/doc/minimalist/FAQ
-@dirrm share/doc/minimalist

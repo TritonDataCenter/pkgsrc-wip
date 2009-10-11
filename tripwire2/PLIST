@@ -13,4 +13,3 @@ sbin/twadmin
 sbin/twprint
 share/tripwire/policyguide.txt
 share/tripwire/twpol.txt
-@dirrm share/tripwire

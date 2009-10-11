@@ -6,5 +6,3 @@ share/examples/picasm/morse.asm
 share/examples/picasm/morse.h
 share/examples/picasm/pic16c84.h
 share/examples/picasm/picmac.h
-@dirrm share/examples/picasm
-@dirrm share/doc/picasm

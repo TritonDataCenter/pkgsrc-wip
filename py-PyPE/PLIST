@@ -4,4 +4,3 @@ ${PYSITELIB}/pype/configuration.py
 ${PYSITELIB}/pype/parsers.py
 ${PYSITELIB}/pype/readme.txt
 ${PYSITELIB}/pype/__init__.py
-@dirrm ${PYSITELIB}/pype

@@ -1,6 +1,4 @@
 @comment $NetBSD$
 lib/gtk-2.0/2.10.0/engines/libdwerg.la
 share/themes/dwerg/gtk-2.0/gtkrc
-@dirrm share/themes/dwerg/gtk-2.0
-@dirrm share/themes/dwerg
 @comment in gtk2: @dirrm lib/gtk-2.0/2.10.0/engines

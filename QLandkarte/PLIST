@@ -33,9 +33,3 @@ lib/qlandkarte/plugins/libwhatGarmin.la
 share/applications/qlandkarte.desktop
 share/man/qlandkarte.1
 share/menu/qlandkarte.menu
-@dirrm share/menu
-@dirrm share/man
-@dirrm share/applications
-@dirrm lib/qlandkarte/plugins/.libs
-@dirrm lib/qlandkarte/plugins
-@dirrm lib/qlandkarte

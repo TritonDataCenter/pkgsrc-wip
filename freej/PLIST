@@ -30,7 +30,3 @@ lib/freej/water.la
 man/man1/freej.1
 share/freej/freej-gtk2.glade
 share/freej/ipernav.png
-@dirrm share/freej
-@dirrm lib/freej
-@dirrm doc/FreeJ-${PKGVERSION}
-@dirrm doc

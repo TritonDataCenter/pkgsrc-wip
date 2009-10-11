@@ -6,4 +6,3 @@ sbin/audit-system
 man/man5/audit-system.conf.5
 man/man8/audit-system.8
 share/examples/audit-system/audit-system.conf
-@dirrm share/examples/audit-system

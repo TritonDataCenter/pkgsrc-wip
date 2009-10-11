@@ -151,6 +151,3 @@ share/autopsy/pict/tl_t_tl_cur.jpg
 share/autopsy/pict/tl_t_tl_link.jpg
 share/autopsy/pict/tl_t_view_cur.jpg
 share/autopsy/pict/tl_t_view_link.jpg
-@dirrm share/autopsy/pict
-@dirrm share/autopsy/lib
-@dirrm share/autopsy

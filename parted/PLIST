@@ -41,4 +41,3 @@ share/locale/uk/LC_MESSAGES/parted.mo
 share/locale/vi/LC_MESSAGES/parted.mo
 share/locale/zh_CN/LC_MESSAGES/parted.mo
 share/locale/zh_TW/LC_MESSAGES/parted.mo
-@dirrm include/parted

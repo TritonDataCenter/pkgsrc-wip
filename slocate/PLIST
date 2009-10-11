@@ -6,5 +6,3 @@ man/man1/locate.1
 man/man1/slocate.1
 man/man1/updatedb.1
 share/examples/slocate/updatedb.conf
-@dirrm var/slocate
-@dirrm share/examples/slocate

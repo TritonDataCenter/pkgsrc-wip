@@ -10,4 +10,3 @@ ${PYSITELIB}/chm/chmlib.py
 ${PYSITELIB}/chm/chmlib.pyc
 ${PYSITELIB}/chm/chmlib.pyo
 ${PYSITELIB}/chm/extra.so
-@dirrm ${PYSITELIB}/chm

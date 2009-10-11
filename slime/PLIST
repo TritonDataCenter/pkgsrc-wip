@@ -30,4 +30,3 @@ ${EMACS_LISPPREFIX}/slime/swank.lisp
 ${EMACS_LISPPREFIX}/slime/tree-widget.el
 ${EMACS_LISPPREFIX}/slime/tree-widget.elc
 ${EMACS_LISPPREFIX}/slime/xref.lisp
-@dirrm ${EMACS_LISPPREFIX}/slime

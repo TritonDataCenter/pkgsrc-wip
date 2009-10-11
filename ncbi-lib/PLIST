@@ -543,6 +543,3 @@ lib/ncbi/libvibgif.a
 lib/ncbi/libvibnet.a
 lib/ncbi/libvibrant.a
 lib/ncbi/ncbithr.o
-@dirrm lib/ncbi
-@dirrm include/ncbi/connect
-@dirrm include/ncbi

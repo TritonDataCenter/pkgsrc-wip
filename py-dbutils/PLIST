@@ -51,7 +51,3 @@ ${PYSITELIB}/DBUtils/ThreadingLocal.pyc
 ${PYSITELIB}/DBUtils/ThreadingLocal.pyo
 ${PYSITELIB}/DBUtils/__init__.pyc
 ${PYSITELIB}/DBUtils/__init__.pyo
-@dirrm ${PYSITELIB}/DBUtils/Testing
-@dirrm ${PYSITELIB}/DBUtils/Examples
-@dirrm ${PYSITELIB}/${EGG_INFODIR}
-@dirrm ${PYSITELIB}/DBUtils

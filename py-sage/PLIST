@@ -11,4 +11,3 @@ ${PYSITELIB}/pysage/transport.pyc
 ${PYSITELIB}/pysage/transport.pyo
 ${PYSITELIB}/pysage/util.pyc
 ${PYSITELIB}/pysage/util.pyo
-@dirrm ${PYSITELIB}/pysage

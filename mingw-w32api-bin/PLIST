@@ -457,8 +457,3 @@ ${MINGW_TARGET}/lib/libwsnmp32.a
 ${MINGW_TARGET}/lib/libwsock32.a
 ${MINGW_TARGET}/lib/libwst.a
 ${MINGW_TARGET}/lib/libwtsapi32.a
-@dirrm ${MINGW_TARGET}/include/ddk
-@dirrm ${MINGW_TARGET}/include/GL
-@dirrm ${MINGW_TARGET}/include
-@dirrm ${MINGW_TARGET}/lib
-@dirrm ${MINGW_TARGET}

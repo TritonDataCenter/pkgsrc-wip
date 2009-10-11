@@ -24,4 +24,3 @@ share/bashdb/dbg-sig.inc
 share/bashdb/dbg-stack.inc
 share/emacs/site-lisp/bashdb.el
 share/emacs/site-lisp/bashdb.elc
-@dirrm share/bashdb

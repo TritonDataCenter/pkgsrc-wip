@@ -326,4 +326,3 @@ share/emacs/site-lisp/w3m/w3m-weather.el
 share/emacs/site-lisp/w3m/w3m-weather.elc
 share/emacs/site-lisp/w3m/w3m.el
 share/emacs/site-lisp/w3m/w3m.elc
-@dirrm share/emacs/site-lisp/w3m

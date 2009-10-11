@@ -12,4 +12,3 @@ share/locale/fr/LC_MESSAGES/mailfilter.mo
 share/locale/it/LC_MESSAGES/mailfilter.mo
 share/locale/pt_BR/LC_MESSAGES/mailfilter.mo
 share/locale/ru/LC_MESSAGES/mailfilter.mo
-@dirrm share/doc/mailfilter

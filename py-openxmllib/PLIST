@@ -21,5 +21,3 @@ ${PYSITELIB}/openxmllib/utils.pyc
 ${PYSITELIB}/openxmllib/utils.pyo
 ${PYSITELIB}/openxmllib/wordprocessing.pyc
 ${PYSITELIB}/openxmllib/wordprocessing.pyo
-@dirrm ${PYSITELIB}/${EGG_INFODIR}
-@dirrm ${PYSITELIB}/openxmllib

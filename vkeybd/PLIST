@@ -6,4 +6,3 @@ share/vkeybd/vkeybd.list
 share/vkeybd/vkeybd.tcl
 share/vkeybd/vkeybdmap
 share/vkeybd/vkeybdmap-german
-@dirrm share/vkeybd

@@ -3,5 +3,3 @@ bin/hlint
 share/doc/${PKGNAME}/LICENSE
 share/${PKGNAME}/Hints.hs
 share/${PKGNAME}/report.html
-@dirrm share/${PKGNAME}
-@dirrm share/doc/${PKGNAME}

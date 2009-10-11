@@ -21,9 +21,3 @@ share/py-spark/examples/python/main.py
 share/py-spark/examples/python/parse.py
 share/py-spark/examples/python/scan.py
 share/py-spark/examples/python/spark.py
-@dirrm share/py-spark/examples/python
-@dirrm share/py-spark/examples/paper
-@dirrm share/py-spark/examples/auto
-@dirrm share/py-spark/examples
-@dirrm share/py-spark/doc
-@dirrm share/py-spark/

@@ -9,5 +9,3 @@ ${PYSITELIB}/tranquil/models.pyc
 ${PYSITELIB}/tranquil/models.pyo
 ${PYSITELIB}/tranquil/translator.pyc
 ${PYSITELIB}/tranquil/translator.pyo
-@dirrm ${PYSITELIB}/tranquil/middleware
-@dirrm ${PYSITELIB}/tranquil

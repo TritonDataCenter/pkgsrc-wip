@@ -45,13 +45,5 @@ share/locale/de/LC_MESSAGES/backintime.mo
 share/locale/es/LC_MESSAGES/backintime.mo
 share/locale/fr/LC_MESSAGES/backintime.mo
 share/omf/backintime/backintime-C.omf
-@dirrm share/omf/backintime
 @comment in rarian: @dirrm share/omf
-@dirrm share/gnome/help/backintime/C/figures
-@dirrm share/gnome/help/backintime/C
-@dirrm share/gnome/help/backintime
-@dirrm share/doc/backintime-gnome
-@dirrm share/doc/backintime-common
-@dirrm share/doc/backintime
-@dirrm share/backintime
 @comment in xdg-dirs: @dirrm share/applications

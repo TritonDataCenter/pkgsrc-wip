@@ -155,15 +155,3 @@ share/examples/cnews/mailpaths.eg
 share/examples/cnews/organization
 share/examples/cnews/sys.eg
 share/examples/cnews/whoami.eg
-@dirrm share/examples/cnews
-@dirrm share/doc/cnews
-@dirrm ${CNEWSBIN}/relay
-@dirrm ${CNEWSBIN}/nov
-@dirrm ${CNEWSBIN}/maint
-@dirrm ${CNEWSBIN}/input
-@dirrm ${CNEWSBIN}/inject
-@dirrm ${CNEWSBIN}/expire
-@dirrm ${CNEWSBIN}/decompressors
-@dirrm ${CNEWSBIN}/ctl
-@dirrm ${CNEWSBIN}/batch
-@dirrm ${CNEWSBIN}

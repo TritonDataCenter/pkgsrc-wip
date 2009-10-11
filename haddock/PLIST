@@ -6,5 +6,3 @@ share/${PKGNAME}/html/haddock.js
 share/${PKGNAME}/html/haskell_icon.gif
 share/${PKGNAME}/html/minus.gif
 share/${PKGNAME}/html/plus.gif
-@dirrm share/${PKGNAME}/html
-@dirrm share/${PKGNAME}

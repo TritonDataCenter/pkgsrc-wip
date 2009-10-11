@@ -45,7 +45,3 @@ share/ldtp/appdata
 share/ldtp/editor.conf
 share/ldtp/glade/ldtpeditor.glade
 share/ldtp/icons/ldtp-logo-small.png
-@dirrm share/ldtp/icons
-@dirrm share/ldtp/glade
-@dirrm share/ldtp
-@dirrm ${PYSITELIB}/ldtplib

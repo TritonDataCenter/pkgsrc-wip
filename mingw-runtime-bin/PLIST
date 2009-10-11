@@ -89,8 +89,3 @@ ${MINGW_TARGET}/lib/libmsvcr80d.a
 ${MINGW_TARGET}/lib/libmsvcr90.a
 ${MINGW_TARGET}/lib/libmsvcr90d.a
 ${MINGW_TARGET}/lib/txtmode.o
-@dirrm ${MINGW_TARGET}/include/sys
-@dirrm ${MINGW_TARGET}/include
-@dirrm ${MINGW_TARGET}/lib
-@dirrm ${MINGW_TARGET}/bin
-@dirrm ${MINGW_TARGET}

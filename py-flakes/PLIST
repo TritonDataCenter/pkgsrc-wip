@@ -6,4 +6,3 @@ ${PYSITELIB}/pyflakes/__init__.pyo
 ${PYSITELIB}/pyflakes/messages.py
 ${PYSITELIB}/pyflakes/messages.pyc
 ${PYSITELIB}/pyflakes/messages.pyo
-@dirrm ${PYSITELIB}/pyflakes

@@ -35,10 +35,3 @@ share/pdq/interfaces/efax-0.1
 share/pdq/interfaces/local-port-1.0
 share/pdq/interfaces/tcp-port-2.0
 share/pdq/printrc.example
-@dirrm share/pdq/interfaces
-@dirrm share/pdq/drivers/postscript
-@dirrm share/pdq/drivers/misc
-@dirrm share/pdq/drivers/ghostscript
-@dirrm share/pdq/drivers/generic
-@dirrm share/pdq/drivers
-@dirrm share/pdq

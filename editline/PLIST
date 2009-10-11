@@ -27,4 +27,3 @@ man/man3/el_tok_line.3
 man/man3/el_tok_reset.3
 man/man3/el_tok_str.3
 man/man5/editrc.5
-@dirrm include/editline

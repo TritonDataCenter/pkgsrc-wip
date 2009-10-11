@@ -36,5 +36,3 @@ share/gtk-doc/html/libiptcdata/style.css
 share/gtk-doc/html/libiptcdata/up.png
 share/locale/de/LC_MESSAGES/iptc.mo
 share/locale/de/LC_MESSAGES/libiptcdata.mo
-@dirrm share/gtk-doc/html/libiptcdata
-@dirrm include/libiptcdata

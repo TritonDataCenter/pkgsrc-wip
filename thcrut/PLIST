@@ -3,4 +3,3 @@ bin/thcrut
 share/thcrut/manuf
 share/thcrut/nmap-os-fingerprints
 share/thcrut/thcrut-os-fingerprints
-@dirrm share/thcrut

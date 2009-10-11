@@ -6,4 +6,3 @@ lib/libxar.la
 lib/libxar.so
 lib/libxar.so.1
 man/man1/xar.1
-@dirrm include/xar

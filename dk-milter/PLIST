@@ -36,5 +36,3 @@ share/doc/dk-milter/libdk/dk_verify.html
 share/doc/dk-milter/libdk/index.html
 share/doc/dk-milter/libdk/overview.html
 share/doc/dk-milter/libdk/rfc2822_mailbox_split.html
-@dirrm share/doc/dk-milter/libdk
-@dirrm share/doc/dk-milter

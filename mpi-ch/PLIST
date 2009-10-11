@@ -824,12 +824,3 @@ share/mpich2/examples_logging/pthread_sendrecv.c
 share/mpich2/examples_logging/pthread_sendrecv_user.c
 share/mpich2/examples_logging/srtest.c
 share/mpich2/mpich2.module
-@dirrm share/mpich2/examples_logging
-@dirrm share/mpich2/examples_collchk
-@dirrm share/mpich2/examples
-@dirrm share/mpich2
-@dirrm share/doc/mpich2/html/www4
-@dirrm share/doc/mpich2/html/www3
-@dirrm share/doc/mpich2/html/www1
-@dirrm share/doc/mpich2/html
-@dirrm share/doc/mpich2

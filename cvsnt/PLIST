@@ -24,11 +24,3 @@ share/examples/rc.d/cvslockd
 share/examples/cvsnt/ca.pem.example
 share/examples/cvsnt/Plugins.example
 share/examples/cvsnt/PServer.example
-@dirrm lib/cvsnt/database
-@dirrm lib/cvsnt/xdiff
-@dirrm lib/cvsnt/triggers
-@dirrm lib/cvsnt/protocols
-@dirrm lib/cvsnt/mdns
-@dirrm lib/cvsnt
-@dirrm etc/cvsnt
-@dirrm share/examples/cvsn

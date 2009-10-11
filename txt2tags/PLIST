@@ -36,6 +36,3 @@ share/examples/txt2tags/sample.tex
 share/examples/txt2tags/sample.txt
 share/examples/txt2tags/sample.wiki
 share/examples/txt2tags/sample.xhtml
-@dirrm share/examples/txt2tags/img
-@dirrm share/examples/txt2tags
-@dirrm share/doc/txt2tags

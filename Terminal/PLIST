@@ -18,15 +18,4 @@ share/GNUstep/Local/Applications/Terminal.app/Resources/cursor_line.tiff
 share/GNUstep/Local/Applications/Terminal.app/Resources/cursor_stroked.tiff
 share/GNUstep/Local/Applications/Terminal.app/Terminal
 share/GNUstep/Local/Applications/Terminal.app/stamp.make
-@dirrm share/GNUstep/Local/Applications/Terminal.app/Resources/Turkish.lproj
-@dirrm share/GNUstep/Local/Applications/Terminal.app/Resources/Swedish.lproj
-@dirrm share/GNUstep/Local/Applications/Terminal.app/Resources/Spanish.lproj
-@dirrm share/GNUstep/Local/Applications/Terminal.app/Resources/Russian.lproj
-@dirrm share/GNUstep/Local/Applications/Terminal.app/Resources/Norwegian.lproj
-@dirrm share/GNUstep/Local/Applications/Terminal.app/Resources/Hungarian.lproj
-@dirrm share/GNUstep/Local/Applications/Terminal.app/Resources/German.lproj
-@dirrm share/GNUstep/Local/Applications/Terminal.app/Resources/French.lproj
-@dirrm share/GNUstep/Local/Applications/Terminal.app/Resources/English.lproj
-@dirrm share/GNUstep/Local/Applications/Terminal.app/Resources
-@dirrm share/GNUstep/Local/Applications/Terminal.app
 @comment in devel/gnustep-make: @dirrm share/GNUstep/Local/Applications

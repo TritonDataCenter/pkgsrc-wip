@@ -13,4 +13,3 @@ lib/perl5/site_perl/man/man3/Net::Whois::RIPE::RPSL::Attribute.3
 lib/perl5/site_perl/man/man3/Net::Whois::RIPE::RPSL::Error.3
 lib/perl5/site_perl/man/man3/Net::Whois::RIPE::RPSL::TemplateAttribute.3
 lib/perl5/site_perl/man/man3/Net::Whois::RIPE::RPSL.3
-@dirrm lib/perl5/site_perl/5.8.6/${MACHINE_ARCH}-${LOWER_OPSYS}-thread-multi/auto/Net/Whois/RIPE/RPSL

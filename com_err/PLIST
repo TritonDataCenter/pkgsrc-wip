@@ -10,5 +10,3 @@ man/man1/compile_et.1
 man/man3/com_err.3
 share/et/et_c.awk
 share/et/et_h.awk
-@dirrm share/et
-@dirrm include/et

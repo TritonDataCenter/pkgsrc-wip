@@ -32,4 +32,3 @@ lib/libboinc_graphics_api.a
 lib/libboinc_graphics_impl.a
 lib/libboinc_graphics_lib.a
 lib/libboinc_zip.a
-@dirrm include/BOINC

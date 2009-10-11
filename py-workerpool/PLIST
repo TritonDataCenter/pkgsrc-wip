@@ -17,7 +17,3 @@ ${PYSITELIB}/workerpool/pools.pyo
 ${PYSITELIB}/workerpool/workers.pyc
 ${PYSITELIB}/workerpool/workers.pyo
 share/example/${PKGNAME}/blockingworker.py
-@dirrm share/example/${PKGNAME}
-@dirrm share/example
-@dirrm ${PYSITELIB}/${EGG_INFODIR}
-@dirrm ${PYSITELIB}/workerpool

@@ -4,8 +4,3 @@ lib/io/addons/MD5/_build/lib/libIoMD5.a
 lib/io/addons/MD5/build.io
 lib/io/addons/MD5/depends
 lib/io/addons/MD5/io/MD5_extras.io
-@dirrm lib/io/addons/MD5/io
-@dirrm lib/io/addons/MD5/_build/lib
-@dirrm lib/io/addons/MD5/_build/dll
-@dirrm lib/io/addons/MD5/_build
-@dirrm lib/io/addons/MD5

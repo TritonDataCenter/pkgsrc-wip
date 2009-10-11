@@ -59,5 +59,3 @@ share/wordwarvi/sounds/volcano_eruption.ogg
 share/wordwarvi/sounds/woohoo.ogg
 share/wordwarvi/sounds/yay_santa.ogg
 share/wordwarvi/sounds/zzzt.ogg
-@dirrm share/wordwarvi/sounds
-@dirrm share/wordwarvi

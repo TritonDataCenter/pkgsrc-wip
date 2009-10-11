@@ -337,15 +337,6 @@ lib/X11/xplore/system.xplorerc
 man/cat1/xplore.0
 man/cat1/xploretype.0
 @exec ${MKDIR} %D/lib/X11/xplore/shelf/Trash
-@dirrm lib/X11/xplore/shelf/Trash
 @exec ${MKDIR} %D/lib/X11/xplore/shelf/Programs
-@dirrm lib/X11/xplore/shelf/Programs
 @exec ${MKDIR} %D/lib/X11/xplore/shelf/Desk
-@dirrm lib/X11/xplore/shelf/Desk
 @exec ${MKDIR} %D/lib/X11/xplore/shelf/Clipboard
-@dirrm lib/X11/xplore/shelf/Clipboard
-@dirrm lib/X11/xplore/shelf
-@dirrm lib/X11/xplore/schemes
-@dirrm lib/X11/xplore/icons
-@dirrm lib/X11/xplore/etc
-@dirrm lib/X11/xplore

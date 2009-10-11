@@ -15,6 +15,3 @@ share/tinyca2/OpenSSL.pm
 share/tinyca2/REQ.pm
 share/tinyca2/TCONFIG.pm
 share/tinyca2/templates/openssl.cnf
-@dirrm share/tinyca2/templates
-@dirrm share/tinyca2/GUI
-@dirrm share/tinyca2

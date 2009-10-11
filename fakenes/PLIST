@@ -2,4 +2,3 @@
 bin/fakenes
 share/doc/fakenes/LICENSE
 share/doc/fakenes/README
-@dirrm share/doc/fakenes

@@ -31,7 +31,3 @@ share/efreet/test/test.menu
 share/efreet/test/test_garbage
 share/efreet/test/test_menu_slash_bad.menu
 share/efreet/test/test_type.desktop
-@dirrm share/efreet/test/sub
-@dirrm share/efreet/test
-@dirrm share/efreet
-@dirrm include/efreet

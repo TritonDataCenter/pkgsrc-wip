@@ -2,4 +2,3 @@
 bin/gwhois
 man/man1/gwhois.1
 share/${PKGBASE}/pattern
-@dirrm share/${PKGBASE}

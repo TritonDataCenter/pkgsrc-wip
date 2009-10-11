@@ -151,7 +151,3 @@ lib/libsndfilehv.la
 share/locale/de/LC_MESSAGES/cinelerra.mo
 share/locale/es/LC_MESSAGES/cinelerra.mo
 share/locale/sl/LC_MESSAGES/cinelerra.mo
-@dirrm lib/cinelerra/fonts
-@dirrm lib/cinelerra
-@dirrm include/quicktime
-@dirrm include/mpeg3

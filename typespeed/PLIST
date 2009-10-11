@@ -19,6 +19,3 @@ share/typespeed/words/words.por
 share/typespeed/words/words.prog
 share/typespeed/words/words.tha
 share/typespeed/words/words.unix
-@dirrm share/typespeed/words
-@dirrm share/typespeed/rules
-@dirrm share/doc/typespeed

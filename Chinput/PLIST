@@ -9,5 +9,3 @@ share/doc/Chinput/INSTALL
 share/doc/Chinput/README
 share/doc/Chinput/USAGE
 share/examples/Chinput/Chinput.ad
-@dirrm share/doc/Chinput
-@dirrm share/examples/Chinput

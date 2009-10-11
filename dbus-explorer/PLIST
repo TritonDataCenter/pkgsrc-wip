@@ -5,4 +5,3 @@ lib/dbus-explorer/DBusExplorer.exe.mdb
 share/applications/dbus-explorer.desktop
 share/locale/fr/LC_MESSAGES/dbus-explorer.mo
 @comment in xdg-dirs: @dirrm share/applications
-@dirrm lib/dbus-explorer

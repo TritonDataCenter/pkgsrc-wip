@@ -4,4 +4,3 @@ include/at/nbp.h
 include/at/pap.h
 lib/libnatali.a
 share/doc/natali
-@dirrm include/at

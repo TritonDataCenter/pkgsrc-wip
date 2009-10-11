@@ -62,5 +62,3 @@ ${PYSITELIB}/genetic/organism.pyo
 ${PYSITELIB}/genetic/prog.py
 ${PYSITELIB}/genetic/prog.pyc
 ${PYSITELIB}/genetic/prog.pyo
-@dirrm ${PYSITELIB}/genetic/demo
-@dirrm ${PYSITELIB}/genetic

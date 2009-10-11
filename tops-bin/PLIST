@@ -7,5 +7,3 @@ share/examples/tops-bin/6fab.dssp
 share/examples/tops-bin/6fab.tops
 share/examples/tops-bin/DomainFile
 share/examples/tops-bin/tops.def
-@dirrm share/examples/tops-bin
-@dirrm share/doc/tops-bin

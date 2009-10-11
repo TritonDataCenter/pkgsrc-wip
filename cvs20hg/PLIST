@@ -12,4 +12,3 @@ ${PYSITELIB}/cvstohg/chast.pyo
 ${PYSITELIB}/cvstohg/cvs20hg.py
 ${PYSITELIB}/cvstohg/cvs20hg.pyc
 ${PYSITELIB}/cvstohg/cvs20hg.pyo
-@dirrm ${PYSITELIB}/cvstohg

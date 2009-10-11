@@ -8,5 +8,3 @@ share/examples/boa/boa.conf
 share/examples/boa/cgi-test.cgi
 share/examples/boa/nph-test.cgi
 share/examples/boa/resolver.pl
-@dirrm share/examples/boa
-@dirrm share/doc/boa

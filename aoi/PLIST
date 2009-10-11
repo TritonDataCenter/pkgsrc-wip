@@ -31,12 +31,3 @@ lib/java/${PKGNAME}/Scripts/Tools/Thicken.bsh
 share/doc/${PKGNAME}/HISTORY
 share/doc/${PKGNAME}/LICENSE
 share/doc/${PKGNAME}/README
-@dirrm share/doc/${PKGNAME}
-@dirrm lib/java/${PKGNAME}/Scripts/Tools
-@dirrm lib/java/${PKGNAME}/Scripts/Startup
-@dirrm lib/java/${PKGNAME}/Scripts/Objects
-@dirrm lib/java/${PKGNAME}/Scripts
-@dirrm lib/java/${PKGNAME}/Plugins/Help
-@dirrm lib/java/${PKGNAME}/Plugins
-@dirrm lib/java/${PKGNAME}/Icons
-@dirrm lib/java/${PKGNAME}

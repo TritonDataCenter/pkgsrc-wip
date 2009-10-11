@@ -272,18 +272,7 @@ ${PLIST.mysql}share/examples/callweaver/res_mysql.conf
 ${PLIST.pgsql}share/examples/callweaver/cdr_pgsql.conf
 ${PLIST.pgsql}share/examples/callweaver/res_pgsql.conf
 share/examples/rc.d/callweaver
-@dirrm share/examples/callweaver
-@dirrm share/doc/callweaver
-@dirrm share/callweaver/ogi
 @exec ${MKDIR} %D/share/callweaver/moh
-@dirrm share/callweaver/moh
 @exec ${MKDIR} %D/share/callweaver/keys
-@dirrm share/callweaver/keys
 @exec ${MKDIR} %D/share/callweaver/images
-@dirrm share/callweaver/images
-@dirrm share/callweaver
 @exec ${MKDIR} %D/lib/callweaver/modules/icd
-@dirrm lib/callweaver/modules/icd
-@dirrm lib/callweaver/modules
-@dirrm lib/callweaver
-@dirrm include/callweaver

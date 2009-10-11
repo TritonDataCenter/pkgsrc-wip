@@ -5,5 +5,3 @@ libdata/boost-test-suite/patches/index
 libdata/boost-test-suite/patches/patch-aa
 man/man1/boost-test-suite.1
 sbin/boost-test-suite
-@dirrm libdata/boost-test-suite/patches
-@dirrm libdata/boost-test-suite

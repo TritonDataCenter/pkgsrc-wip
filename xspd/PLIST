@@ -79,9 +79,4 @@ share/xspd/utils/xspStuffEncode
 share/xspd/xspanalyze
 share/xspd/xspdAdmin.xsp
 share/xspd/xspfwd
-@dirrm share/xspd/utils
-@dirrm share/xspd
-@dirrm share/examples/xspd
-@dirrm lib/xspd
-@dirrm include/xspd
 @comment @dirrm etc/xspd

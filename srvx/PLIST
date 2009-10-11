@@ -7,5 +7,3 @@ share/srvx/global.help
 share/srvx/helpserv.help
 share/srvx/nickserv.help
 share/srvx/opserv.help
-@dirrm share/srvx
-@dirrm share/examples/srvx

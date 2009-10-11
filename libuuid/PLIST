@@ -18,4 +18,3 @@ man/man3/uuid_is_null.3
 man/man3/uuid_parse.3
 man/man3/uuid_time.3
 man/man3/uuid_unparse.3
-@dirrm include/uuid

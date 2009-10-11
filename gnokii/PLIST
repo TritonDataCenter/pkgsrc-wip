@@ -70,5 +70,3 @@ share/locale/sk/LC_MESSAGES/gnokii.mo
 share/locale/sl/LC_MESSAGES/gnokii.mo
 share/locale/sv/LC_MESSAGES/gnokii.mo
 share/locale/zh_CN/LC_MESSAGES/gnokii.mo
-@dirrm share/doc/gnokii
-@dirrm include/gnokii

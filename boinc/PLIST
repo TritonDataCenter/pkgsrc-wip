@@ -32,4 +32,3 @@ include/boinc/version.h
 lib/libboinc.a
 lib/libboinc_api.a
 lib/libboinc_zip.a
-@dirrm include/boinc

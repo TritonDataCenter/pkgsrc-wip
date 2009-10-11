@@ -39,7 +39,3 @@ include/asm/target_time.h
 include/asm/traps.h
 include/asm/ucontext.h
 include/asm/virtconvert.h
-@dirrm include/asm/aki3068net
-@dirrm include/asm/edosk2674
-@dirrm include/asm/generic
-@dirrm include/asm/h8max

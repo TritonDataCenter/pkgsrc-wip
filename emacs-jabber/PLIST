@@ -54,4 +54,3 @@ ${EMACS_LISPPREFIX}/emacs-jabber/jabber-xmessage.el
 ${EMACS_LISPPREFIX}/emacs-jabber/jabber-xml.el
 ${EMACS_LISPPREFIX}/emacs-jabber/jabber.el
 ${EMACS_LISPPREFIX}/emacs-jabber/srv.el
-@dirrm ${EMACS_LISPPREFIX}/emacs-jabber

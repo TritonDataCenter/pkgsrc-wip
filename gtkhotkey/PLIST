@@ -26,6 +26,3 @@ share/gtk-doc/html/gtkhotkey/left.png
 share/gtk-doc/html/gtkhotkey/right.png
 share/gtk-doc/html/gtkhotkey/style.css
 share/gtk-doc/html/gtkhotkey/up.png
-@dirrm share/gtk-doc/html/gtkhotkey
-@dirrm share/doc/gtkhotkey
-@dirrm include/gtkhotkey-1.0

@@ -98,11 +98,3 @@ share/Bastille/ifup-local
 share/Bastille/incomplete.xbm
 share/Bastille/wz_tooltip.js
 @exec ${MKDIR} %D/var/lock/subsys/bastille
-@dirrm var/lock/subsys/bastille
-@dirrm share/Bastille/Questions
-@dirrm share/Bastille/OSMap
-@dirrm share/Bastille/FKL/configs
-@dirrm share/Bastille/FKL
-@dirrm share/Bastille
-@dirrm lib/perl5/site_perl/Curses
-@dirrm lib/Bastille

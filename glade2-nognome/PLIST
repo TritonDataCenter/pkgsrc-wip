@@ -68,13 +68,4 @@ share/omf/glade-2/glade-turbo-start-C.omf
 share/omf/glade-2/glade-user-guide-C.omf
 share/pixmaps/glade-2.png
 share/pixmaps/glade-2/glade_logo.png
-@dirrm share/pixmaps/glade-2
-@dirrm share/omf/glade-2
 @exec ${MKDIR} %D/share/gnome/help/glade-2/ro/figures
-@dirrm share/gnome/help/glade-2/ro/figures
-@dirrm share/gnome/help/glade-2/ro
-@dirrm share/gnome/help/glade-2/C/figures
-@dirrm share/gnome/help/glade-2/C
-@dirrm share/gnome/help/glade-2
-@dirrm share/glade-2/gtk
-@dirrm share/glade-2

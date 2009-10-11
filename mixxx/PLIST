@@ -1123,12 +1123,3 @@ share/mixxx/skins/traditional/zpet3.png
 share/mixxx/skins/traditional/zpet4.png
 share/mixxx/skins/traditional/zpet5.png
 share/mixxx/skins/traditional/zpetback.png
-@dirrm share/mixxx/skins/traditional
-@dirrm share/mixxx/skins/outlineSmall
-@dirrm share/mixxx/skins/outlineClose
-@dirrm share/mixxx/skins/outline
-@dirrm share/mixxx/skins
-@dirrm share/mixxx/midi
-@dirrm share/mixxx/keyboard
-@dirrm share/mixxx
-@dirrm share/doc/mixxx-1.3

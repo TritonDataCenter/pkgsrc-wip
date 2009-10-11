@@ -205,9 +205,3 @@ lib/scilab-${SCIVERSION}/contrib/sip/man/watershed.htm
 lib/scilab-${SCIVERSION}/contrib/sip/man/whatis.htm
 lib/scilab-${SCIVERSION}/contrib/sip/man/xgetpixel.htm
 lib/scilab-${SCIVERSION}/contrib/sip/man/xor.htm
-@dirrm lib/scilab-${SCIVERSION}/contrib/sip/man
-@dirrm lib/scilab-${SCIVERSION}/contrib/sip/macros
-@dirrm lib/scilab-${SCIVERSION}/contrib/sip/lib
-@dirrm lib/scilab-${SCIVERSION}/contrib/sip/images/photonics
-@dirrm lib/scilab-${SCIVERSION}/contrib/sip/images
-@dirrm lib/scilab-${SCIVERSION}/contrib/sip

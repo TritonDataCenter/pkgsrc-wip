@@ -12,4 +12,3 @@ ${PYSITELIB}/kaa/imlib2/image.pyo
 ${PYSITELIB}/kaa/imlib2/version.py
 ${PYSITELIB}/kaa/imlib2/version.pyc
 ${PYSITELIB}/kaa/imlib2/version.pyo
-@dirrm ${PYSITELIB}/kaa/imlib2

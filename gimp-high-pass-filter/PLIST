@@ -1,3 +1,2 @@
 @comment $NetBSD$
 share/gimp/2.0/scripts/high-pass.scm
-@dirrm share/gimp/2.0/scripts

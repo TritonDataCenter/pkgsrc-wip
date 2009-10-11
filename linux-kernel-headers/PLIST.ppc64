@@ -92,4 +92,3 @@ include/asm/uninorth.h
 include/asm/vga.h
 include/asm/vio.h
 include/asm/xics.h
-@dirrm include/asm/iSeries

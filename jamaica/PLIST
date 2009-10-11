@@ -19,5 +19,3 @@ share/examples/jamaica/settest.ja
 share/examples/jamaica/staticfinaltest.ja
 share/examples/jamaica/switchtest.ja
 share/examples/jamaica/valuegetsettest.ja
-@dirrm share/examples/jamaica
-@dirrm lib/java

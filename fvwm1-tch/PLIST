@@ -77,6 +77,3 @@ xorg/lib/X11/fvwm/pixmaps/xterm-sol.xpm
 xorg/lib/X11/fvwm/pixmaps/xterm-sun.xpm
 xorg/lib/X11/fvwm/pixmaps/xterm.xpm
 xorg/lib/X11/fvwm/system.fvwmrc
-@dirrm xorg/lib/X11/fvwm/pixmaps
-@dirrm xorg/lib/X11/fvwm
-@dirrm libexec/fvwm

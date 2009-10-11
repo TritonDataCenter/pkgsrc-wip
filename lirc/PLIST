@@ -26,4 +26,3 @@ man/man8/lircd.8
 man/man8/lircmd.8
 sbin/lircd
 sbin/lircmd
-@dirrm include/lirc

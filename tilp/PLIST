@@ -148,12 +148,3 @@ share/tilp/pixmaps/tb_ready.xpm
 share/tilp/pixmaps/tb_refresh.xpm
 share/tilp/pixmaps/tb_trash.xpm
 share/tilp/pixmaps/yes.xpm
-@dirrm share/tilp/pixmaps
-@dirrm share/tilp/icons
-@dirrm share/tilp/help
-@dirrm share/tilp/glade
-@dirrm share/tilp
-@dirrm share/appsign83
-@dirrm lib/tilp
-@dirrm include/tilp
-@dirrm etc/tilp

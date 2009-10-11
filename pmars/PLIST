@@ -8,5 +8,3 @@ share/pmars/warriors/flashpaper.red
 share/pmars/warriors/pspace.red
 share/pmars/warriors/rave.red
 share/pmars/warriors/validate.red
-@dirrm share/pmars/warriors
-@dirrm share/pmars

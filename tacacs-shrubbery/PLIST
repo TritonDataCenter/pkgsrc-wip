@@ -7,4 +7,3 @@ sbin/tac_convert
 sbin/tac_plus
 sbin/tac_pwd
 share/doc/tacacs/users_guide
-@dirrm share/doc/tacacs

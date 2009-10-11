@@ -83,9 +83,3 @@ ${PYSITELIB}/orm/errors.pyo
 ${PYSITELIB}/orm/inetaddr.pyo
 ${PYSITELIB}/orm/relationships.pyo
 ${PYSITELIB}/orm/util.pyo
-@dirrm ${PYSITELIB}/orm/ui
-@dirrm ${PYSITELIB}/orm/adapters/firebird
-@dirrm ${PYSITELIB}/orm/adapters/pgsql
-@dirrm ${PYSITELIB}/orm/adapters/mysql
-@dirrm ${PYSITELIB}/orm/adapters
-@dirrm ${PYSITELIB}/orm

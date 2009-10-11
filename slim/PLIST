@@ -6,6 +6,3 @@ share/examples/slim.conf
 share/slim/themes/default/background.jpg
 share/slim/themes/default/panel.png
 share/slim/themes/default/slim.theme
-@dirrm share/slim/themes/default
-@dirrm share/slim/themes
-@dirrm share/slim

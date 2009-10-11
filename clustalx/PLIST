@@ -6,4 +6,3 @@ bin/colprint.par
 bin/colprot.par
 share/doc/clustalx/README_X
 share/doc/clustalx/clustalx.html
-@dirrm share/doc/clustalx

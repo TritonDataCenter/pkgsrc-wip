@@ -109,9 +109,3 @@ share/doc/daphne/graphics/screenshot1.jpg
 share/doc/daphne/graphics/screenshot2.jpg
 share/doc/daphne/graphics/screenshot3.jpg
 share/doc/daphne/index.html
-@dirrm share/doc/daphne/graphics
-@dirrm share/doc/daphne
-@dirrm share/daphne/sound
-@dirrm share/daphne/pics
-@dirrm share/daphne
-@dirrm lib/daphne

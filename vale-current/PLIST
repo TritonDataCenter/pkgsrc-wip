@@ -15,4 +15,3 @@ include/vale/udptl.h
 include/vale/unaligned.h
 include/vale/version.h
 lib/libvale.la
-@dirrm include/vale

@@ -6,5 +6,3 @@ share/dvd2xvid/icons/exit.png
 share/dvd2xvid/icons/filesave.png
 share/dvd2xvid/icons/reload.png
 share/dvd2xvid/icons/sprachen.png
-@dirrm share/dvd2xvid/icons
-@dirrm share/dvd2xvid

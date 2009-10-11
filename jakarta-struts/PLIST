@@ -24,4 +24,3 @@ lib/java/jakarta-struts/validator-rules.xml
 lib/java/jakarta-struts/validator-rules_1_1.dtd
 lib/java/jakarta-struts/web-app_2_2.dtd
 lib/java/jakarta-struts/web-app_2_3.dtd
-@dirrm lib/java/jakarta-struts

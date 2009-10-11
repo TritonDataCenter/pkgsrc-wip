@@ -11,4 +11,3 @@ ${PYSITELIB}/tunepimp/track.pyo
 ${PYSITELIB}/tunepimp/tunepimp.py
 ${PYSITELIB}/tunepimp/tunepimp.pyc
 ${PYSITELIB}/tunepimp/tunepimp.pyo
-@dirrm ${PYSITELIB}/tunepimp

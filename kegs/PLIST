@@ -9,5 +9,3 @@ share/doc/kegs/README.linux.partitions.txt
 share/doc/kegs/README.mac.txt
 share/doc/kegs/README.win32.txt
 share/kegs/config.kegs
-@dirrm share/kegs
-@dirrm share/doc/kegs

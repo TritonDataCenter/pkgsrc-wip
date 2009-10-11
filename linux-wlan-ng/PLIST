@@ -11,4 +11,3 @@ sbin/prism2dl
 sbin/wlancfg
 sbin/wlanctl-ng
 sbin/wland
-@dirrm etc/wlan

@@ -244,14 +244,3 @@ share/uade/players/uadeformats
 share/uade/score
 share/uade/uadelogo.xpm
 share/uade/uaerc
-@dirrm share/uade/players/S
-@dirrm share/uade/players/ENV/EaglePlayer
-@dirrm share/uade/players/ENV
-@dirrm share/uade/players
-@dirrm share/uade
-@dirrm share/doc/${PKGNAME}/uade-docs/players/ptk-prowiz
-@dirrm share/doc/${PKGNAME}/uade-docs/players/WantedTeam
-@dirrm share/doc/${PKGNAME}/uade-docs/players
-@dirrm share/doc/${PKGNAME}/uade-docs/decrunch
-@dirrm share/doc/${PKGNAME}/uade-docs
-@dirrm share/doc/${PKGNAME}

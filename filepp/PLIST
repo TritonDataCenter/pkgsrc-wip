@@ -19,5 +19,3 @@ share/filepp/modules/maths.pm
 share/filepp/modules/regexp.pm
 share/filepp/modules/tolower.pm
 share/filepp/modules/toupper.pm
-@dirrm share/filepp/modules
-@dirrm share/filepp

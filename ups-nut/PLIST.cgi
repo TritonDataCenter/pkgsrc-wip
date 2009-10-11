@@ -16,6 +16,3 @@ share/httpd/htdocs/nut/bottom.html
 share/httpd/htdocs/nut/header.html
 share/httpd/htdocs/nut/index.html
 share/httpd/htdocs/nut/nut-banner.png
-@dirrm share/httpd/htdocs/nut
-@dirrm share/httpd/htdocs
-@dirrm libexec/cgi-bin/nut

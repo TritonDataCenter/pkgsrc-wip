@@ -2,4 +2,3 @@
 bin/cspchecker
 share/doc/README
 @exec ${MKDIR} %D/share/doc/cspchecker
-@dirrm share/doc/cspchecker

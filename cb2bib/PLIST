@@ -17,8 +17,4 @@ share/cb2bib/testPDFImport/nomeaning3.pdf
 share/cb2bib/testPDFImport/nomeaning4.pdf
 share/pixmaps/cb2bib.png
 @comment in xdg-dirs: @dirrm share/pixmaps
-@dirrm share/cb2bib/testPDFImport
-@dirrm share/cb2bib/data
-@dirrm share/cb2bib/c2btools
-@dirrm share/cb2bib
 @comment in xdg-dirs: @dirrm share/applications

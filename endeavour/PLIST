@@ -666,11 +666,3 @@ share/endeavour2/icons/icon_usb_plug_48x48.xpm
 share/endeavour2/images/texttips_example.xpm
 share/endeavour2/images/tooltips_example.xpm
 @comment in xdg-dirs: @dirrm share/icons
-@dirrm share/endeavour2/images
-@dirrm share/endeavour2/icons
-@dirrm share/endeavour2/help
-@dirrm share/endeavour2
-@dirrm lib/endeavour2/lib
-@dirrm lib/endeavour2/include
-@dirrm lib/endeavour2/bin
-@dirrm lib/endeavour2

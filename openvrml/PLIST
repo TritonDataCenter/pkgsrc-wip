@@ -1584,9 +1584,3 @@ share/doc/${PKGNAME}/manual/structopenvrml_1_1vrml97__node_1_1text__node_1_1text
 share/doc/${PKGNAME}/manual/structopenvrml_1_1vrml97__node_1_1text__node_1_1text__geometry.html
 share/doc/${PKGNAME}/manual/todo.html
 share/pixmaps/lookat.xpm
-@dirrm share/pixmaps
-@dirrm share/doc/${PKGNAME}/manual
-@dirrm share/doc/${PKGNAME}
-@dirrm include/openvrml/openvrml/gl
-@dirrm include/openvrml/openvrml
-@dirrm include/openvrml

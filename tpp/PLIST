@@ -25,6 +25,3 @@ share/doc/tpp/examples/source.tpp
 share/doc/tpp/examples/test.tpp
 share/doc/tpp/examples/tpp-features.tpp
 share/doc/tpp/examples/wrap.tpp
-@dirrm share/doc/tpp/examples
-@dirrm share/doc/tpp/contrib
-@dirrm share/doc/tpp

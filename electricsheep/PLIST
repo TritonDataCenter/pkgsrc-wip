@@ -10,4 +10,3 @@ share/electricsheep/electricsheep-frown.png
 share/electricsheep/electricsheep-smile.png
 libexec/xscreensaver/config/electricsheep.xml
 man/man1/electricsheep.1
-@dirrm share/electricsheep

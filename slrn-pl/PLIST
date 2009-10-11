@@ -173,14 +173,3 @@ share/slrn-pl/macros/varset.sl
 share/slrn-pl/macros/win_resize.sl
 share/slrn-pl/macros/xcomment.sl
 share/slrn-pl/newsgroups.dsc
-@dirrm share/slrn-pl/macros/farben
-@dirrm share/slrn-pl/macros
-@dirrm share/slrn-pl
-@dirrm share/doc/slrn-pl/slrnpull/pl/hlml
-@dirrm share/doc/slrn-pl/slrnpull/pl
-@dirrm share/doc/slrn-pl/slrnpull
-@dirrm share/doc/slrn-pl/pl/html
-@dirrm share/doc/slrn-pl/pl
-@dirrm share/doc/slrn-pl/contrib
-@dirrm share/doc/slrn-pl
-@dirrm etc/slrn-pl

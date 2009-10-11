@@ -74,6 +74,3 @@ share/locale/pt_PT/LC_MESSAGES/libxfce4menu-0.1.mo
 share/locale/sq/LC_MESSAGES/libxfce4menu-0.1.mo
 share/locale/uk/LC_MESSAGES/libxfce4menu-0.1.mo
 share/locale/ur/LC_MESSAGES/libxfce4menu-0.1.mo
-@dirrm share/doc/libxfce4menu
-@dirrm include/xfce4/libxfce4menu-0.1/libxfce4menu
-@dirrm include/xfce4/libxfce4menu-0.1

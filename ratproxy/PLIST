@@ -5,5 +5,3 @@ share/doc/ratproxy/README
 share/ratproxy/keyfile.pem
 share/ratproxy/messages.list
 share/ratproxy/ratproxy-back.png
-@dirrm share/ratproxy
-@dirrm share/doc/ratproxy

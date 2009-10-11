@@ -51,10 +51,3 @@ ${PYSITELIB}/tracscreenshots/timeline.pyo
 ${PYSITELIB}/tracscreenshots/wiki.py
 ${PYSITELIB}/tracscreenshots/wiki.pyc
 ${PYSITELIB}/tracscreenshots/wiki.pyo
-@dirrm ${PYSITELIB}/tracscreenshots/templates
-@dirrm ${PYSITELIB}/tracscreenshots/htdocs/js
-@dirrm ${PYSITELIB}/tracscreenshots/htdocs/css
-@dirrm ${PYSITELIB}/tracscreenshots/htdocs
-@dirrm ${PYSITELIB}/tracscreenshots/db
-@dirrm ${PYSITELIB}/tracscreenshots
-@dirrm ${PYSITELIB}/TracScreenshots-0.7-py2.5.egg-info

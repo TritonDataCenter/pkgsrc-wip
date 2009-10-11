@@ -240,7 +240,3 @@ man/man8/uniconfd.8
 sbin/uniconfd
 share/examples/wvstreams/uniconf.conf
 var/lib/uniconf/uniconfd.ini
-@dirrm share/examples/wvstreams
-@dirrm lib/valgrind
-@dirrm include/wvstreams/xplc
-@dirrm include/wvstreams

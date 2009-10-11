@@ -7,5 +7,3 @@ share/doc/ltrace/ChangeLog
 share/doc/ltrace/README
 share/doc/ltrace/TODO
 share/examples/ltrace/ltrace.conf
-@dirrm share/examples/ltrace
-@dirrm doc/ltrace

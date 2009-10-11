@@ -142,10 +142,3 @@ share/nicotine/sounds/default/license.txt
 share/nicotine/sounds/default/private.ogg
 share/nicotine/sounds/default/room_nick.ogg
 share/pixmaps/nicotine-plus-32px.png
-@dirrm share/nicotine/sounds/default
-@dirrm share/nicotine/sounds/cough
-@dirrm share/nicotine/sounds
-@dirrm share/nicotine/documentation
-@dirrm share/nicotine
-@dirrm ${PYSITELIB}/pynicotine/gtkgui
-@dirrm ${PYSITELIB}/pynicotine

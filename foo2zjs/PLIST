@@ -109,8 +109,5 @@ share/foomatic/ppd/foo2zjs/Samsung-CLX-2160.ppd.gz
 share/foomatic/ppd/foo2zjs/Samsung-CLX-3160.ppd.gz
 share/foomatic/ppd/foo2zjs/Xerox-Phaser-6110.ppd.gz
 share/foomatic/ppd/foo2zjs/Xerox-Phaser-6115MFP.ppd.gz
-@dirrm share/foomatic/ppd/foo2zjs
 @comment share/foomatic/ppd
-@dirrm share/foo2zjs
-@dirrm share/doc/foo2zjs
 @comment share/cups/model

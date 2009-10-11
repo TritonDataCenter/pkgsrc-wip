@@ -8,5 +8,4 @@ ${PYSITELIB}/hijri.pyc
 ${PYSITELIB}/hijri.pyo
 share/applications/hijra-autostart.desktop
 share/doc/hijra-python/readme-ar.html
-@dirrm share/doc/hijra-python
 @comment in xdg-dirs: @dirrm share/applications

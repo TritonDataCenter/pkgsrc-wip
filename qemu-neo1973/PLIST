@@ -66,14 +66,3 @@ ${NEO1973_PREFIX}/share/qemu/pxe-rtl8139.bin
 ${NEO1973_PREFIX}/share/qemu/vgabios-cirrus.bin
 ${NEO1973_PREFIX}/share/qemu/vgabios.bin
 ${NEO1973_PREFIX}/share/qemu/video.x
-@dirrm ${NEO1973_PREFIX}/share/qemu/keymaps
-@dirrm ${NEO1973_PREFIX}/share/qemu
-@dirrm ${NEO1973_PREFIX}/share/doc/qemu
-@dirrm ${NEO1973_PREFIX}/share/doc
-@dirrm ${NEO1973_PREFIX}/share
-@dirrm ${NEO1973_PREFIX}/man/man1
-@dirrm ${NEO1973_PREFIX}/man
-@dirrm ${NEO1973_PREFIX}/bin
-@dirrm ${NEO1973_PREFIX}/libexec/openmoko
-@dirrm ${NEO1973_PREFIX}/libexec
-@dirrm ${NEO1973_PREFIX}/

@@ -8,8 +8,3 @@ lib/io/addons/DistributedObjects/io/DOServer.io
 lib/io/addons/DistributedObjects/io/MDOConnection.io
 lib/io/addons/DistributedObjects/io/MDOServer.io
 lib/io/addons/DistributedObjects/protos
-@dirrm lib/io/addons/DistributedObjects/io
-@dirrm lib/io/addons/DistributedObjects/_build/lib
-@dirrm lib/io/addons/DistributedObjects/_build/dll
-@dirrm lib/io/addons/DistributedObjects/_build
-@dirrm lib/io/addons/DistributedObjects

@@ -7,5 +7,3 @@ lib/njb-sharp/njb-sharp.dll
 lib/njb-sharp/njb-sharp.dll.config
 lib/njb-sharp/njb-sharp.dll.mdb
 lib/pkgconfig/njb-sharp.pc
-@dirrm lib/njb-sharp
-@dirrm lib/monodoc/sources

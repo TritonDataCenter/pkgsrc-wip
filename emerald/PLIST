@@ -60,8 +60,3 @@ share/mime-info/emerald.mime
 share/mime/packages/emerald.xml
 share/pixmaps/emerald-theme-manager-icon.png
 @comment in shared-mime-info: @dirrm share/mime/packages
-@dirrm share/emerald/theme
-@dirrm share/emerald
-@dirrm lib/emerald/engines
-@dirrm lib/emerald
-@dirrm include/emerald

@@ -1,3 +1,2 @@
 @comment $NetBSD$
 share/es40-firmware/cl67srmrom.exe
-@dirrm share/es40-firmware

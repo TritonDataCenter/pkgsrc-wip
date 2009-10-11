@@ -157,7 +157,3 @@ share/ecasound/ecasound.el
 share/ecasound/ecasoundrc
 share/ecasound/effect_presets
 share/ecasound/generic_oscillators
-@dirrm share/ecasound
-@dirrm include/libecasoundc
-@dirrm include/libecasound
-@dirrm include/kvutils

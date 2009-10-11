@@ -21,6 +21,4 @@ share/locale/vi/LC_MESSAGES/giggle.mo
 @comment in hicolor-icon-theme: @dirrm share/icons/hicolor/22x22/apps
 @comment in hicolor-icon-theme: @dirrm share/icons/hicolor/16x16/apps
 @comment in hicolor-icon-theme: @dirrm share/icons/hicolor
-@dirrm share/giggle/glade
-@dirrm share/giggle
 @comment in xdg-dirs: @dirrm share/applications

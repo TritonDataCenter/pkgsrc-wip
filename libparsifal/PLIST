@@ -10,4 +10,3 @@ include/libparsifal/xmlpool.h
 include/libparsifal/xmlsbuf.h
 include/libparsifal/xmlvect.h
 lib/libparsifal.la
-@dirrm include/libparsifal

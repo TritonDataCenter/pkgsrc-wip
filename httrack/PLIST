@@ -190,20 +190,3 @@ share/httrack/templates/topindex-bodycat.html
 share/httrack/templates/topindex-footer.html
 share/httrack/templates/topindex-header.html
 share/pixmaps/httrack.xpm
-@dirrm share/pixmaps
-@dirrm share/httrack/templates
-@dirrm share/httrack/libtest
-@dirrm share/httrack/lang
-@dirrm share/httrack/icons
-@dirrm share/httrack
-@dirrm share/doc/httrack/html/server/sfx
-@dirrm share/doc/httrack/html/server/images
-@dirrm share/doc/httrack/html/server
-@dirrm share/doc/httrack/html/img
-@dirrm share/doc/httrack/html/images
-@dirrm share/doc/httrack/html/div
-@dirrm share/doc/httrack/html
-@dirrm share/doc/httrack
-@dirrm share/applications
-@dirrm lib/httrack
-@dirrm include/httrack

@@ -31,8 +31,3 @@ share/omf/gnochm/gnochm-C.omf
 share/pixmaps/chmfile.png
 share/pixmaps/gnochm.png
 share/pixmaps/gnochm_logo.png
-@dirrm share/omf/gnochm
-@dirrm share/gnome/help/gnochm/C
-@dirrm share/gnome/help/gnochm
-@dirrm share/gnochm/glade
-@dirrm share/gnochm

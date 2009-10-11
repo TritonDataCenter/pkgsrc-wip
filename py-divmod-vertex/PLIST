@@ -167,11 +167,3 @@ ${PYSITELIB}/vertex/test/test_q2q.pyo
 ${PYSITELIB}/vertex/test/test_sigma.pyo
 ${PYSITELIB}/vertex/test/test_statemachine.pyo
 ${PYSITELIB}/vertex/test/test_subproducer.pyo
-@dirrm ${PYSITELIB}/vertex/test
-@dirrm ${PYSITELIB}/vertex/scripts
-@dirrm ${PYSITELIB}/vertex
-@dirrm ${PYSITELIB}/build/lib/vertex/test
-@dirrm ${PYSITELIB}/build/lib/vertex/scripts
-@dirrm ${PYSITELIB}/build/lib/vertex
-@dirrm ${PYSITELIB}/build/lib
-@dirrm ${PYSITELIB}/build

@@ -40,6 +40,3 @@ share/fbpanel/plugins/tclock.so
 share/fbpanel/plugins/test.so
 share/fbpanel/plugins/tray.so
 share/fbpanel/plugins/wincmd.so
-@dirrm share/fbpanel/plugins
-@dirrm share/fbpanel/images
-@dirrm share/fbpanel

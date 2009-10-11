@@ -31,4 +31,3 @@ ${PYSITELIB}/editobj2/treewidget.pyc
 ${PYSITELIB}/editobj2/treewidget.pyo
 ${PYSITELIB}/editobj2/undoredo.pyc
 ${PYSITELIB}/editobj2/undoredo.pyo
-@dirrm ${PYSITELIB}/editobj2

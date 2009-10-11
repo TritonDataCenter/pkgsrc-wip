@@ -124,4 +124,3 @@ share/locale/zh_CN/LC_MESSAGES/ld.mo
 share/locale/zh_CN/LC_MESSAGES/opcodes.mo
 share/locale/zh_TW/LC_MESSAGES/binutils.mo
 share/locale/zh_TW/LC_MESSAGES/ld.mo
-@dirrm ${MINGW_TARGET}/lib/ldscripts

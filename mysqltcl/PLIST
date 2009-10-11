@@ -2,5 +2,4 @@
 lib/tcl/${PKGNAME}/libmysqltcl${PKGVERSION}.so
 lib/tcl/${PKGNAME}/pkgIndex.tcl
 man/mann/mysqltcl.n
-@dirrm lib/tcl/${PKGNAME}
 @comment in tcl: @dirrm lib/tcl

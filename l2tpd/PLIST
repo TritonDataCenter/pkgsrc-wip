@@ -6,5 +6,3 @@ man/man8/l2tpd.8
 share/doc/l2tpd/README
 share/examples/l2tpd/l2tp-secrets.sample
 share/examples/l2tpd/l2tpd.conf.sample
-@dirrm share/examples/l2tpd
-@dirrm share/doc/l2tpd

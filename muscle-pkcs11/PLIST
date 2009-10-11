@@ -10,4 +10,3 @@ include/pkcs11t.h
 include/thread_generic.h
 lib/libmusclepkcs11.la
 share/examples/muscle-pkcs11/pkcs11rc.example
-@dirrm share/examples/muscle-pkcs11

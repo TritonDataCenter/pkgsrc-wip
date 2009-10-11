@@ -81,15 +81,4 @@ share/locale/fr/LC_MESSAGES/kino.mo
 share/locale/sv/LC_MESSAGES/kino.mo
 share/pixmaps/kino.png
 @comment in xdg-dirs: @dirrm share/pixmaps
-@dirrm share/kino/scripts/publish
-@dirrm share/kino/scripts/exports
-@dirrm share/kino/scripts
-@dirrm share/kino/help
-@dirrm share/kino
-@dirrm share/examples/kino/hotplug/usb
-@dirrm share/examples/kino/hotplug
-@dirrm share/examples/kino
 @comment in xdg-dirs: @dirrm share/applications
-@dirrm lib/hotplug/kino
-@dirrm lib/hotplug
-@dirrm include/kino

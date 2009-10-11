@@ -33,6 +33,3 @@ share/linuxdcpp/pixmaps/quit.png
 share/linuxdcpp/pixmaps/search.png
 share/linuxdcpp/pixmaps/settings.png
 share/linuxdcpp/pixmaps/upload.png
-@dirrm share/linuxdcpp/glade
-@dirrm share/linuxdcpp/pixmaps
-@dirrm share/linuxdcpp

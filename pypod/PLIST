@@ -18,4 +18,3 @@ ${PYSITELIB}/pypod/iTunesDB.pyo
 ${PYSITELIB}/pypod/rhythmdb.py
 ${PYSITELIB}/pypod/rhythmdb.pyc
 ${PYSITELIB}/pypod/rhythmdb.pyo
-@dirrm ${PYSITELIB}/pypod

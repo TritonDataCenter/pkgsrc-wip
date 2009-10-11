@@ -17,6 +17,4 @@ share/scummvm/pred.dic
 share/scummvm/queen.tbl
 share/scummvm/scummmodern.zip
 share/scummvm/sky.cpt
-@dirrm share/scummvm
 @comment in xdg-dirs: @dirrm share/pixmaps
-@dirrm share/doc/scummvm

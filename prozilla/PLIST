@@ -3,4 +3,3 @@ bin/proz
 man/man1/proz.1
 man/man1/prozilla.1
 share/examples/prozilla/prozilla.conf
-@dirrm share/examples/prozilla

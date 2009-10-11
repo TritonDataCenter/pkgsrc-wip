@@ -5,6 +5,3 @@ man/ja/man5/dsh.conf.5
 man/man1/dsh.1
 man/man5/dsh.conf.5
 share/examples/dsh/dsh.conf
-@dirrm man/ja/man5
-@dirrm man/ja/man1
-@dirrm man/ja

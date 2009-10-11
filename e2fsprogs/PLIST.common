@@ -107,11 +107,3 @@ share/et/et_c.awk
 share/et/et_h.awk
 share/ss/ct_c.awk
 share/ss/ct_c.sed
-@dirrm share/ss
-@dirrm share/et
-@dirrm include/uuid
-@dirrm include/ss
-@dirrm include/ext2fs
-@dirrm include/et
-@dirrm include/e2p
-@dirrm include/blkid

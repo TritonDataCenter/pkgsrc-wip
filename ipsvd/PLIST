@@ -23,4 +23,3 @@ share/doc/ipsvd/tcpsvd.8.html
 share/doc/ipsvd/udpsvd.8.html
 share/doc/ipsvd/upgrade.html
 share/doc/ipsvd/usedietlibc.html
-@dirrm share/doc/ipsvd

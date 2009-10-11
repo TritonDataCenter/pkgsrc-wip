@@ -4,8 +4,3 @@ lib/perl5/vendor_perl/5.8.0/${MACHINE_ARCH}-${LOWER_OPSYS}-thread-multi/auto/Spr
 lib/perl5/vendor_perl/5.8.0/${MACHINE_ARCH}-${LOWER_OPSYS}-thread-multi/auto/Spread/Spread.so
 lib/perl5/vendor_perl/5.8.0/${MACHINE_ARCH}-${LOWER_OPSYS}-thread-multi/auto/Spread/autosplit.ix
 lib/perl5/vendor_perl/man/man3/Spread.3
-@dirrm lib/perl5/vendor_perl/man/man3
-@dirrm lib/perl5/vendor_perl/5.8.0/${MACHINE_ARCH}-${LOWER_OPSYS}-thread-multi/auto/Spread
-@dirrm lib/perl5/vendor_perl/5.8.0/${MACHINE_ARCH}-${LOWER_OPSYS}-thread-multi/auto
-@dirrm lib/perl5/vendor_perl/5.8.0/${MACHINE_ARCH}-${LOWER_OPSYS}-thread-multi
-@dirrm lib/perl5/5.8.0/${MACHINE_ARCH}-${LOWER_OPSYS}-thread-multi

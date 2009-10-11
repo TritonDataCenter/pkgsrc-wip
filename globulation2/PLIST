@@ -1661,12 +1661,3 @@ share/pixmaps/glob2-icon-24x24.png
 share/pixmaps/glob2-icon-32x32.png
 share/pixmaps/glob2-icon-48x48.png
 share/pixmaps/glob2-icon-64x64.png
-@dirrm share/glob2/maps
-@dirrm share/glob2/data/zik
-@dirrm share/glob2/data/gui
-@dirrm share/glob2/data/gfx/cursor
-@dirrm share/glob2/data/gfx
-@dirrm share/glob2/data/fonts
-@dirrm share/glob2/data
-@dirrm share/glob2/campaigns
-@dirrm share/glob2

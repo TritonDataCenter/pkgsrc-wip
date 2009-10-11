@@ -14,6 +14,3 @@ lib/tcc/bcheck.o
 lib/tcc/libtcc1.a
 man/man1/tcc.1
 share/doc/tcc/tcc-doc.html
-@dirrm share/doc/tcc
-@dirrm lib/tcc
-@dirrm include/tcc

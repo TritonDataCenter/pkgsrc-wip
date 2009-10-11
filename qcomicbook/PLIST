@@ -29,6 +29,3 @@ share/qcomicbook/settings.png
 share/qcomicbook/thumbnails.png
 share/qcomicbook/twopages.png
 share/qcomicbook/wholepage.png
-@dirrm share/qcomicbook/help/en
-@dirrm share/qcomicbook/help
-@dirrm share/qcomicbook

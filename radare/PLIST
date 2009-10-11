@@ -67,6 +67,3 @@ share/doc/radare/java
 share/doc/radare/map-struct
 share/doc/radare/shell
 share/radare/magic/elf
-@dirrm share/radare/magic
-@dirrm share/doc/radare
-@dirrm libexec/radare

@@ -89,6 +89,3 @@ ${PYSITELIB}/PyPlucker/helper/timeoutsocket.pyo
 share/doc/py-plucker/exclusionlist.txt
 share/doc/py-plucker/home.html
 share/doc/py-plucker/pluckerrc.sample
-@dirrm share/doc/py-plucker
-@dirrm ${PYSITELIB}/PyPlucker/helper
-@dirrm ${PYSITELIB}/PyPlucker

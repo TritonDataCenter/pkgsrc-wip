@@ -562,16 +562,3 @@ ${PYSITELIB}/build/lib/axiom/upgrade.pyc
 ${PYSITELIB}/build/lib/axiom/upgrade.pyo
 ${PYSITELIB}/build/lib/axiom/userbase.pyc
 ${PYSITELIB}/build/lib/axiom/userbase.pyo
-@dirrm ${PYSITELIB}/build/lib/axiom/test/historic
-@dirrm ${PYSITELIB}/build/lib/axiom/test
-@dirrm ${PYSITELIB}/build/lib/axiom/scripts
-@dirrm ${PYSITELIB}/build/lib/axiom/plugins
-@dirrm ${PYSITELIB}/build/lib/axiom
-@dirrm ${PYSITELIB}/build/lib
-@dirrm ${PYSITELIB}/axiom/test/historic
-@dirrm ${PYSITELIB}/axiom/test
-@dirrm ${PYSITELIB}/axiom/scripts
-@dirrm ${PYSITELIB}/axiom/plugins
-@dirrm ${PYSITELIB}/axiom/examples
-@dirrm ${PYSITELIB}/axiom/benchmarks
-@dirrm ${PYSITELIB}/axiom

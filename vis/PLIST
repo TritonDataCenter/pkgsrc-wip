@@ -223,5 +223,3 @@ share/vis/script_model_check.robust
 share/vis/script_model_check.simple
 share/vis/sislib.mv
 share/vis/visdbgpp
-@dirrm share/vis/help
-@dirrm share/vis

@@ -37,8 +37,3 @@ share/gtksourcecompletion/pixmaps/document-words-icon.png
 share/locale/es/LC_MESSAGES/gtksourcecompletion.mo
 share/locale/fr/LC_MESSAGES/gtksourcecompletion.mo
 share/locale/it/LC_MESSAGES/gtksourcecompletion.mo
-@dirrm share/gtksourcecompletion/pixmaps
-@dirrm share/gtksourcecompletion
-@dirrm share/gtk-doc/html/gtksourcecompletion-1.0
-@dirrm include/gtksourcecompletion-1.0/gtksourcecompletion
-@dirrm include/gtksourcecompletion-1.0

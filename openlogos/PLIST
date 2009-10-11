@@ -190,15 +190,3 @@ share/openlogos/bin_data/italian/italian.ordinal
 share/openlogos/bin_data/italian/italian.months
 share/openlogos/bin_data/italian/italian.nevereos
 share/openlogos/bin_data/italian/vssver.scc
-@dirrm share/openlogos/bin
-@dirrm share/openlogos/bin_data/other
-@dirrm share/openlogos/bin_data/english/res
-@dirrm share/openlogos/bin_data/english
-@dirrm share/openlogos/bin_data/spanish
-@dirrm share/openlogos/bin_data/portuguese
-@dirrm share/openlogos/bin_data/german/res
-@dirrm share/openlogos/bin_data/german
-@dirrm share/openlogos/bin_data/french
-@dirrm share/openlogos/bin_data/italian
-@dirrm share/openlogos/bin_data
-@dirrm share/openlogos

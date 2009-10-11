@@ -32,6 +32,5 @@ include/mysql++/tiny_int.h
 include/mysql++/transaction.h
 include/mysql++/type_info.h
 include/mysql++/vallist.h
-@dirrm include/mysql++
 lib/libmysqlpp.so
 lib/libmysqlpp.so.3

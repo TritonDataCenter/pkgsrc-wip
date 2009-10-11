@@ -28,5 +28,3 @@ ${PYSITELIB}/yapgvb/graph_attributes.pyc
 ${PYSITELIB}/yapgvb/graph_attributes.pyo
 ${PYSITELIB}/yapgvb/mneumonics.pyc
 ${PYSITELIB}/yapgvb/mneumonics.pyo
-@dirrm ${PYSITELIB}/yapgvb/examples
-@dirrm ${PYSITELIB}/yapgvb

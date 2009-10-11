@@ -12,4 +12,3 @@ man/man1/jbgtopbm.1
 man/man1/pbmtojbg.1
 share/doc/jbig/jbig.txt
 share/doc/jbig/jbig85.txt
-@dirrm share/doc/jbig

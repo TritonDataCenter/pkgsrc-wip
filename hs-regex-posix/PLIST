@@ -16,10 +16,3 @@ lib/regex-posix-${PKGVERSION}/${HASKELL_VERSION}/libHSregex-posix-${PKGVERSION}.
 lib/regex-posix-${PKGVERSION}/${HASKELL_VERSION}/libHSregex-posix-${PKGVERSION}_p.a
 lib/regex-posix-${PKGVERSION}/${HASKELL_VERSION}/package-description
 share/doc/regex-posix-${PKGVERSION}/LICENSE
-@dirrm share/doc/regex-posix-${PKGVERSION}
-@dirrm lib/regex-posix-${PKGVERSION}/${HASKELL_VERSION}/Text/Regex/Posix/ByteString
-@dirrm lib/regex-posix-${PKGVERSION}/${HASKELL_VERSION}/Text/Regex/Posix
-@dirrm lib/regex-posix-${PKGVERSION}/${HASKELL_VERSION}/Text/Regex
-@dirrm lib/regex-posix-${PKGVERSION}/${HASKELL_VERSION}/Text
-@dirrm lib/regex-posix-${PKGVERSION}/${HASKELL_VERSION}
-@dirrm lib/regex-posix-${PKGVERSION}

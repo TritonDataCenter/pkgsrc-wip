@@ -42,4 +42,3 @@ lib/libnettle.a
 lib/libnettle.${SOEXT}
 lib/libnettle.${SOEXT}.2
 lib/libnettle.${SOEXT}.2.6
-@dirrm include/nettle

@@ -37,7 +37,3 @@ ${PYSITELIB}/beaker/synchronization.pyc
 ${PYSITELIB}/beaker/synchronization.pyo
 ${PYSITELIB}/beaker/util.pyc
 ${PYSITELIB}/beaker/util.pyo
-@dirrm ${PYSITELIB}/beaker/ext
-@dirrm ${PYSITELIB}/beaker/crypto
-@dirrm ${PYSITELIB}/beaker
-@dirrm ${PYSITELIB}/Beaker-${PKGVERSION}-py${PYVERSSUFFIX}.egg-info

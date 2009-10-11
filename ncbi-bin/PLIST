@@ -195,9 +195,3 @@ share/doc/ncbi/seq_install/win-ie3.css
 share/doc/ncbi/seq_install/win-netscape.css
 share/doc/ncbi/sequin.htm
 share/doc/ncbi/tbl2asn.txt
-@dirrm share/doc/ncbi/seq_install
-@dirrm share/doc/ncbi/man
-@dirrm share/doc/ncbi/images
-@dirrm share/doc/ncbi/fa2htgs
-@dirrm share/doc/ncbi/blast
-@dirrm share/doc/ncbi

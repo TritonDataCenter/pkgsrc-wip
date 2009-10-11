@@ -4,8 +4,6 @@ share/GNUstep/Local/Applications/Emacs.app/Resources/Emacs.desktop
 share/GNUstep/Local/Applications/Emacs.app/Resources/Info-gnustep.plist
 share/GNUstep/Local/Applications/Emacs.app/Resources/emacstiff
 share/GNUstep/Local/Applications/Emacs.app/library_paths.openapp
-@dirrm share/GNUstep/Local/Applications/Emacs.app/Resources
-@dirrm share/GNUstep/Local/Applications/Emacs.app
 @comment in devel/gnustep-make: @dirrm share/GNUstep/Local/Applications
 @comment in devel/gnustep-make: @dirrm share/GNUstep/Local
 @comment in devel/gnustep-make: @dirrm share/GNUstep

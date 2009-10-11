@@ -2,4 +2,3 @@
 bin/probe
 share/doc/probe/Licence
 share/doc/probe/README
-@dirrm share/doc/probe

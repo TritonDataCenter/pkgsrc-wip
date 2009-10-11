@@ -19,11 +19,3 @@ lib/gtk2hs/imports/cairo/Graphics/Rendering/Cairo/Internal/Utilities.hi
 lib/gtk2hs/imports/cairo/Graphics/Rendering/Cairo/Matrix.hi
 lib/gtk2hs/imports/cairo/Graphics/Rendering/Cairo/Types.hi
 lib/gtk2hs/libHScairo.a
-@dirrm lib/gtk2hs/imports/cairo/Graphics/Rendering/Cairo/Internal/Surfaces
-@dirrm lib/gtk2hs/imports/cairo/Graphics/Rendering/Cairo/Internal/Fonts
-@dirrm lib/gtk2hs/imports/cairo/Graphics/Rendering/Cairo/Internal/Drawing
-@dirrm lib/gtk2hs/imports/cairo/Graphics/Rendering/Cairo/Internal
-@dirrm lib/gtk2hs/imports/cairo/Graphics/Rendering/Cairo
-@dirrm lib/gtk2hs/imports/cairo/Graphics/Rendering
-@dirrm lib/gtk2hs/imports/cairo/Graphics
-@dirrm lib/gtk2hs/imports/cairo

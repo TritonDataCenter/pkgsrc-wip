@@ -43,4 +43,3 @@ share/cops/suid.stop
 share/cops/tilde
 share/cops/user.chk
 share/cops/yp_pass.chk
-@dirrm share/cops

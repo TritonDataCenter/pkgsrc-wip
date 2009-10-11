@@ -7,5 +7,3 @@ bin/es40_lss
 share/es40/vgabios-0.6b.bin
 share/examples/es40/es40-netbsd.cfg
 share/examples/es40/es40.cfg
-@dirrm share/examples/es40
-@dirrm share/es40

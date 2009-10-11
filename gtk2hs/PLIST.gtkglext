@@ -11,8 +11,3 @@ lib/gtk2hs/imports/gtkglext/Graphics/UI/Gtk/OpenGL/Pixmap.hi
 lib/gtk2hs/imports/gtkglext/Graphics/UI/Gtk/OpenGL/Types.hi
 lib/gtk2hs/imports/gtkglext/Graphics/UI/Gtk/OpenGL/Window.hi
 lib/gtk2hs/libHSgtkglext.a
-@dirrm lib/gtk2hs/imports/gtkglext/Graphics/UI/Gtk/OpenGL
-@dirrm lib/gtk2hs/imports/gtkglext/Graphics/UI/Gtk
-@dirrm lib/gtk2hs/imports/gtkglext/Graphics/UI
-@dirrm lib/gtk2hs/imports/gtkglext/Graphics
-@dirrm lib/gtk2hs/imports/gtkglext

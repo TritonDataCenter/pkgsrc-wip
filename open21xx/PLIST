@@ -24,5 +24,3 @@ open21xx/ADSP-21992.ldf
 open21xx/include/ad1847.h
 open21xx/include/mmregs.h
 open21xx/include/registers.h
-@dirrm open21xx/include
-@dirrm open21xx

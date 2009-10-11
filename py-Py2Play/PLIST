@@ -13,4 +13,3 @@ ${PYSITELIB}/py2play/level.pyc
 ${PYSITELIB}/py2play/level.pyo
 ${PYSITELIB}/py2play/player.pyc
 ${PYSITELIB}/py2play/player.pyo
-@dirrm ${PYSITELIB}/py2play

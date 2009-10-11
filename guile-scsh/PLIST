@@ -58,5 +58,3 @@ share/guile/site/scsh/syscalls.scm
 share/guile/site/scsh/time.scm
 share/guile/site/scsh/utilities.scm
 share/guile/site/scsh/weak.scm
-@dirrm share/guile/site/scsh/rx
-@dirrm share/guile/site/scsh

@@ -40,9 +40,3 @@ lib/vhook/fish.so
 lib/vhook/null.so
 lib/vhook/ppm.so
 lib/vhook/watermark.so
-@dirrm lib/vhook
-@dirrm include/libswscale
-@dirrm include/libavutil
-@dirrm include/libavformat
-@dirrm include/libavdevice
-@dirrm include/libavcodec

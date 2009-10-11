@@ -37,4 +37,3 @@ share/emacs/site-lisp/ledger.el
 share/emacs/site-lisp/ledger.elc
 share/emacs/site-lisp/timeclock.el
 share/emacs/site-lisp/timeclock.elc
-@dirrm include/ledger

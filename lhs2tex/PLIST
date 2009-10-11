@@ -19,8 +19,3 @@ ${PKG_LOCALTEXMFPREFIX}/tex/latex/lazylist/lazylist.sty
 ${PKG_LOCALTEXMFPREFIX}/tex/latex/polytable/polytable.sty
 share/texmf-var/ls-R
 share/texmf/ls-R
-@dirrm ${PKG_LOCALTEXMFPREFIX}/tex/latex/polytable
-@dirrm ${PKG_LOCALTEXMFPREFIX}/tex/latex/lazylist
-@dirrm share/lhs2tex
-@dirrm share/doc/${PKGNAME}
-@dirrm share/doc/lhs2tex

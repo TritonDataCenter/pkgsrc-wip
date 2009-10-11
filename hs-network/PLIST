@@ -16,9 +16,3 @@ lib/network-${PKGVERSION}/${HASKELL_VERSION}/libHSnetwork-${PKGVERSION}.a
 lib/network-${PKGVERSION}/${HASKELL_VERSION}/libHSnetwork-${PKGVERSION}_p.a
 lib/network-${PKGVERSION}/${HASKELL_VERSION}/package-description
 share/doc/network-${PKGVERSION}/LICENSE
-@dirrm share/doc/network-${PKGVERSION}
-@dirrm lib/network-${PKGVERSION}/${HASKELL_VERSION}/include
-@dirrm lib/network-${PKGVERSION}/${HASKELL_VERSION}/Network/Socket
-@dirrm lib/network-${PKGVERSION}/${HASKELL_VERSION}/Network
-@dirrm lib/network-${PKGVERSION}/${HASKELL_VERSION}
-@dirrm lib/network-${PKGVERSION}

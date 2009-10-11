@@ -41,4 +41,3 @@ include/xyssl/ssl.h
 include/xyssl/timing.h
 include/xyssl/x509.h
 lib/libxyssl.a
-@dirrm include/xyssl

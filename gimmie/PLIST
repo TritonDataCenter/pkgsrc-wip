@@ -142,12 +142,3 @@ share/pixmaps/gimmie.png
 @comment in gnome2-dirs: @dirrm share/gnome-2.0/ui
 @comment in gnome2-dirs: @dirrm share/gnome-2.0
 @comment in GConf: @dirrm share/gconf/schemas
-@dirrm ${PYSITELIB}/gimmie/traymanager
-@dirrm ${PYSITELIB}/gimmie/sexy
-@dirrm ${PYSITELIB}/gimmie/iconentry
-@dirrm ${PYSITELIB}/gimmie/gnomecups
-@dirrm ${PYSITELIB}/gimmie/gmenu
-@dirrm ${PYSITELIB}/gimmie/gdmclient
-@dirrm ${PYSITELIB}/gimmie
-@dirrm lib/bonobo/servers
-@dirrm lib/bonobo

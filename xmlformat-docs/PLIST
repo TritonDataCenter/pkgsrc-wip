@@ -13,5 +13,3 @@ share/doc/xmlformat/examples/doc2.conf2
 share/doc/xmlformat/examples/doc2.conf3
 share/doc/xmlformat/examples/doc2.conf4
 share/doc/xmlformat/examples/doc2.xml
-@dirrm share/doc/xmlformat/examples
-@dirrm share/doc/xmlformat

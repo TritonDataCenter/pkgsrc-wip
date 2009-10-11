@@ -6,4 +6,3 @@ include/libavc1394/rom1394.h
 lib/libavc1394.la
 lib/librom1394.la
 man/man1/dvcont.1
-@dirrm include/libavc1394

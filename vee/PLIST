@@ -6,8 +6,3 @@ share/vee/sample-filters/vee-filtermanager.pl
 share/vee/sample-filters/vee-filter.sh
 share/vee/sample-filters/vee-filter.pl
 share/vee/INSTALL
-@dirrm share/vee/sample-config
-@dirrm share/vee/sample-custom-format
-@dirrm share/vee/sample-filters
-@dirrm share/vee/utils
-@dirrm share/vee

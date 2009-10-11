@@ -7,6 +7,3 @@ share/multisync/pixmaps/multisync.png
 share/multisync/pixmaps/multisync.xpm
 share/multisync/pixmaps/multisync_small.png
 share/multisync/pixmaps/resync_small.png
-@dirrm share/multisync/pixmaps
-@dirrm share/multisync
-@dirrm include/multisync

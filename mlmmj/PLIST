@@ -44,5 +44,3 @@ share/mlmmj/text.skel/unsub-notsubscribed
 share/mlmmj/text.skel/unsub-ok
 share/mlmmj/text.skel/unsub-ok-digest
 share/mlmmj/text.skel/unsub-ok-nomail
-@dirrm share/mlmmj/text.skel
-@dirrm share/mlmmj

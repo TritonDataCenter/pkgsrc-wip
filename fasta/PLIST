@@ -92,5 +92,3 @@ share/examples/fasta/prot_test.lib
 share/examples/fasta/qrhuld.aa
 share/examples/fasta/xurt8c.aa
 share/examples/fasta/xurtg.aa
-@dirrm share/examples/fasta
-@dirrm share/doc/fasta

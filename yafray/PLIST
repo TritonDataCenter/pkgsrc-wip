@@ -3,5 +3,3 @@ bin/yafray
 lib/libyafraycore.so
 share/doc/yafray/doc.html
 share/yafray/gram.yafray
-@dirrm share/doc/yafray
-@dirrm share/yafray

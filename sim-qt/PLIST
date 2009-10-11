@@ -102,8 +102,3 @@ share/locale/uk/LC_MESSAGES/sim.mo
 share/locale/zh_TW/LC_MESSAGES/sim.mo
 share/mimelnk/application/x-icq.desktop
 share/services/simctrl.desktop
-@dirrm share/apps/sim/styles
-@dirrm share/apps/sim/sounds
-@dirrm share/apps/sim/pict
-@dirrm share/apps/sim
-@dirrm lib/sim

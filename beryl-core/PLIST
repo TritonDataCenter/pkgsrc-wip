@@ -121,7 +121,3 @@ share/locale/zh_TW/LC_MESSAGES/beryl-core.mo
 @comment 				share/locale/sv_FI
 @comment 				share/locale/hu_HU/LC_MESSAGES
 @comment 				share/locale/hu_HU
-@dirrm share/beryl
-@dirrm lib/beryl/backends
-@dirrm lib/beryl
-@dirrm include/beryl

@@ -57,8 +57,3 @@ share/songwrite/stemml.py
 share/songwrite/tablature.py
 share/songwrite/ui.py
 share/songwrite/view.py
-@dirrm share/songwrite/doc/fr
-@dirrm share/songwrite/doc/en
-@dirrm share/songwrite/doc
-@dirrm share/songwrite/data
-@dirrm share/songwrite

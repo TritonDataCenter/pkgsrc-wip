@@ -30,4 +30,3 @@ ${EMACS_LISPPREFIX}/mmm-utils.el
 ${EMACS_LISPPREFIX}/mmm-utils.elc
 ${EMACS_LISPPREFIX}/mmm-vars.el
 ${EMACS_LISPPREFIX}/mmm-vars.elc
-@dirrm ${EMACS_LISPPREFIX}/mmm-mode

@@ -24,5 +24,3 @@ share/doc/clockspeed/README
 share/doc/clockspeed/THANKS
 share/doc/clockspeed/TODO
 share/examples/clockspeed/leapsecs.dat
-@dirrm share/examples/clockspeed
-@dirrm share/doc/clockspeed

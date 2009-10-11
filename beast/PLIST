@@ -159,15 +159,3 @@ share/beast/v0.5.4/scripts/progressor-example.scm
 share/beast/v0.5/images/beast-mime.png
 share/beast/v0.5/images/beast-splash.png
 share/beast/v0.5/images/bse-mime.png
-@dirrm include/bse
-@dirrm include/bsw
-@dirrm include/sfi
-@dirrm lib/bse/v0.5.4/plugins
-@dirrm lib/bse/v0.5.4
-@dirrm lib/bse
-@dirrm share/beast/v0.5.4/docs
-@dirrm share/beast/v0.5.4/scripts
-@dirrm share/beast/v0.5/images
-@dirrm share/beast/v0.5.4
-@dirrm share/beast/v0.5
-@dirrm share/beast

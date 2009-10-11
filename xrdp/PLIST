@@ -23,7 +23,3 @@ share/xrdp/ad256.bmp
 share/xrdp/cursor0.cur
 share/xrdp/cursor1.cur
 share/xrdp/xrdp256.bmp
-@dirrm share/xrdp
-@dirrm share/examples/xrdp
-@dirrm share/doc/xrdp
-@dirrm etc/xrdp

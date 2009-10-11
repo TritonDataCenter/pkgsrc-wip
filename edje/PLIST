@@ -8,5 +8,3 @@ include/Edje_Edit.h
 lib/libedje.la
 lib/pkgconfig/edje.pc
 share/edje/include/edje.inc
-@dirrm share/edje/include
-@dirrm share/edje

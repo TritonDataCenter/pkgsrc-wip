@@ -9,5 +9,3 @@ ${PYSITELIB}/${EGG_INFODIR}/zip-safe
 ${PYSITELIB}/tracexcelviewer/__init__.py
 ${PYSITELIB}/tracexcelviewer/__init__.pyc
 ${PYSITELIB}/tracexcelviewer/__init__.pyo
-@dirrm ${PYSITELIB}/tracexcelviewer
-@dirrm ${PYSITELIB}/${EGG_INFODIR}

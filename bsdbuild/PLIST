@@ -121,5 +121,3 @@ share/bsdbuild/manlinks.pl
 share/bsdbuild/mkconcurrent.pl
 share/bsdbuild/mkdep
 share/bsdbuild/ml.xsl
-@dirrm share/bsdbuild/BSDBuild
-@dirrm share/bsdbuild

@@ -19,11 +19,3 @@ share/locale/it_IT/LC_MESSAGES/lat.mo
 share/locale/pt_BR/LC_MESSAGES/lat.mo
 share/omf/lat/lat-C.omf
 share/pixmaps/lat.png
-@dirrm share/omf/lat
-@dirrm share/omf
-@dirrm share/locale/it_IT/LC_MESSAGES
-@dirrm share/locale/it_IT
-@dirrm share/locale/fr_FR/LC_MESSAGES
-@dirrm share/locale/fr_FR
-@dirrm lib/lat/plugins
-@dirrm lib/lat

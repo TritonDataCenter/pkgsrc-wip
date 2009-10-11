@@ -1,4 +1,3 @@
 @comment $NetBSD$
 bin/osmose
 share/doc/osmose/readme.txt
-@dirrm share/doc/osmose

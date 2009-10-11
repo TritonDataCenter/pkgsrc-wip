@@ -110,7 +110,3 @@ share/doc/html/${PKGNAME}/public/toc-tagger.id3v2frame-module.html
 share/doc/html/${PKGNAME}/public/toc-tagger.utility-module.html
 share/doc/html/${PKGNAME}/public/toc.html
 share/doc/html/${PKGNAME}/public/trees.html
-@dirrm share/doc/html/${PKGNAME}/public
-@dirrm share/doc/html/${PKGNAME}/private
-@dirrm share/doc/html/${PKGNAME}
-@dirrm ${PYSITELIB}/tagger

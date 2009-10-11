@@ -31,4 +31,3 @@ share/examples/libdialog/radio3.c
 share/examples/libdialog/text.c
 share/examples/libdialog/tree.c
 share/examples/libdialog/yesno.c
-@dirrm share/examples/libdialog

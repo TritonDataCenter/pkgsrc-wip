@@ -27,4 +27,3 @@ share/scm/slibcat
 share/scm/x11.scm
 share/scm/xatoms.scm
 share/scm/xevent.scm
-@dirrm share/scm

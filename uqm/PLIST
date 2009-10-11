@@ -4,7 +4,3 @@ lib/uqm/uqm
 share/doc/uqm/manual.txt
 share/uqm/content/packages/uqm-0.6.0-content.uqm
 share/uqm/content/version
-@dirrm share/uqm/content/packages
-@dirrm share/uqm/content
-@dirrm share/doc/uqm
-@dirrm lib/uqm

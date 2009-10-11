@@ -397,8 +397,3 @@ share/fish/man/ulimit.1
 share/fish/man/umask.1
 share/fish/man/vared.1
 share/fish/man/while.1
-@dirrm share/fish/man
-@dirrm share/fish/functions
-@dirrm share/fish/completions
-@dirrm share/fish
-@dirrm share/doc/fish

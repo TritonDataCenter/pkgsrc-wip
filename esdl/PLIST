@@ -81,10 +81,3 @@ lib/erlang/lib/${PKGNAME}/src/sdl_util.hrl
 lib/erlang/lib/${PKGNAME}/src/sdl_video.erl
 lib/erlang/lib/${PKGNAME}/src/sdl_video_funcs.hrl
 lib/erlang/lib/${PKGNAME}/vsn
-@dirrm lib/erlang/lib/${PKGNAME}/src
-@dirrm lib/erlang/lib/${PKGNAME}/priv
-@dirrm lib/erlang/lib/${PKGNAME}/include
-@dirrm lib/erlang/lib/${PKGNAME}/ebin
-@dirrm lib/erlang/lib/${PKGNAME}/doc
-@dirrm lib/erlang/lib/${PKGNAME}/c_src
-@dirrm lib/erlang/lib/${PKGNAME}

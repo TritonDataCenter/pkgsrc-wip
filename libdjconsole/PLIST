@@ -15,5 +15,3 @@ share/libdjconsole/06f8-b101.leds
 share/libdjconsole/06f8-d001.buttons
 share/libdjconsole/06f8-d001.leds
 share/libdjconsole/06f8-d001.mouse
-@dirrm share/libdjconsole
-@dirrm include/libdjconsole

@@ -62,5 +62,3 @@ share/examples/dcc/whitelist
 share/examples/rc.d/dccd
 share/examples/rc.d/dccifd
 ${PLIST.dccm}share/examples/rc.d/dccm
-@dirrm share/examples/dcc/cgi-bin
-@dirrm share/examples/dcc

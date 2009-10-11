@@ -7,4 +7,3 @@ man/man8/qico.8
 sbin/qico
 share/examples/qico/qico.conf
 share/examples/rc.d/qico
-@dirrm share/examples/qico

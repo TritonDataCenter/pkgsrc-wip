@@ -4,8 +4,3 @@ lib/io/addons/Rational/_build/lib/libIoRational.a
 lib/io/addons/Rational/build.io
 lib/io/addons/Rational/depends
 lib/io/addons/Rational/io/Rational.io
-@dirrm lib/io/addons/Rational/io
-@dirrm lib/io/addons/Rational/_build/lib
-@dirrm lib/io/addons/Rational/_build/dll
-@dirrm lib/io/addons/Rational/_build
-@dirrm lib/io/addons/Rational

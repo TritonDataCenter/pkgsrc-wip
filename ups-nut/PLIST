@@ -148,8 +148,3 @@ share/examples/rc.d/upslog
 share/examples/rc.d/upsmon
 share/nut/cmdvartab
 share/nut/driver.list
-@dirrm share/nut
-@dirrm share/examples/nut
-@dirrm share/doc/nut/cables
-@dirrm share/doc/nut
-@dirrm libexec/nut

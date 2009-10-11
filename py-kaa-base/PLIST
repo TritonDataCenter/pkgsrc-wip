@@ -141,9 +141,3 @@ ${PYSITELIB}/kaa/weakref.pyo
 ${PYSITELIB}/kaa/xmlutils.py
 ${PYSITELIB}/kaa/xmlutils.pyc
 ${PYSITELIB}/kaa/xmlutils.pyo
-@dirrm ${PYSITELIB}/kaa/notifier/pynotifier
-@dirrm ${PYSITELIB}/kaa/notifier
-@dirrm ${PYSITELIB}/kaa/input
-@dirrm ${PYSITELIB}/kaa/inotify
-@dirrm ${PYSITELIB}/kaa/distribution
-@dirrm ${PYSITELIB}/kaa

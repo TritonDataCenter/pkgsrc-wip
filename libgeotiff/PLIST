@@ -51,4 +51,3 @@ share/epsg_csv/projop_wparm.csv
 share/epsg_csv/stateplane.csv
 share/epsg_csv/unit_of_measure.csv
 share/epsg_csv/version_history.csv
-@dirrm share/epsg_csv

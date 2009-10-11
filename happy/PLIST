@@ -14,5 +14,3 @@ share/${PKGNAME}/HappyTemplate-arrays-ghc
 share/${PKGNAME}/HappyTemplate-arrays-ghc-debug
 share/${PKGNAME}/HappyTemplate-coerce
 share/${PKGNAME}/HappyTemplate-ghc
-@dirrm share/${PKGNAME}
-@dirrm share/doc/${PKGNAME}

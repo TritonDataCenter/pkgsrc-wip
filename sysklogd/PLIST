@@ -9,4 +9,3 @@ share/examples/rc.d/klogd
 share/examples/rc.d/syslogd
 share/examples/sysklogd/syslog.conf
 share/examples/sysklogd/syslog.conf.example
-@dirrm share/examples/sysklogd

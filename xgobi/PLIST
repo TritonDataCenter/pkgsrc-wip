@@ -228,8 +228,3 @@ share/examples/${PKGNAME}/data_xgvis/torus1.edges
 share/examples/${PKGNAME}/data_xgvis/torus1.pos
 share/examples/${PKGNAME}/data_xgvis/torus2.edges
 share/examples/${PKGNAME}/data_xgvis/torus2.pos
-@dirrm share/examples/${PKGNAME}/data_xgvis
-@dirrm share/examples/${PKGNAME}/data_xgobi
-@dirrm share/examples/${PKGNAME}
-@dirrm share/doc/${PKGNAME}/HELP
-@dirrm share/doc/${PKGNAME}

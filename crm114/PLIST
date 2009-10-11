@@ -26,6 +26,3 @@ share/examples/crm114/priolist.mfp.example
 share/examples/crm114/procmailrc.recipe
 share/examples/crm114/rewrites.mfp
 share/examples/crm114/whitelist.mfp.example
-@dirrm share/examples/crm114
-@dirrm share/doc/crm114
-@dirrm share/crm114

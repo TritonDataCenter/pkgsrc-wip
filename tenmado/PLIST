@@ -82,7 +82,3 @@ share/games/tenmado/image/trinity-damaged.png
 share/games/tenmado/image/trinity.png
 share/games/tenmado/image/uncertainty-damaged.png
 share/games/tenmado/image/uncertainty.png
-@dirrm var/games/tenmado
-@dirrm share/games/tenmado/image
-@dirrm share/games/tenmado/default
-@dirrm share/games/tenmado

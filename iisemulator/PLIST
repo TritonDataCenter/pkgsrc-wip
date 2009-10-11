@@ -134,19 +134,3 @@ share/iisemulator/wwwroot/global.asa
 share/iisemulator/wwwroot/web.gif
 share/iisemulator/wwwroot/print.gif
 share/iisemulator/wwwroot/help.gif
-@dirrm share/iisemulator/iis_data
-@dirrm share/iisemulator/wwwroot/_private
-@dirrm share/iisemulator/wwwroot/scripts
-@dirrm share/iisemulator/wwwroot/msadc
-@dirrm share/iisemulator/wwwroot/iisadmin
-@dirrm share/iisemulator/wwwroot/images
-@dirrm share/iisemulator/wwwroot/_vti_txt
-@dirrm share/iisemulator/wwwroot/_vti_log
-@dirrm share/iisemulator/wwwroot/_vti_cnf
-@dirrm share/iisemulator/wwwroot/_vti_pvt
-@dirrm share/iisemulator/wwwroot
-@dirrm share/iisemulator
-@dirrm share/examples/iisemulator
-@dirrm share/doc/iisemulator/docs/notes
-@dirrm share/doc/iisemulator/docs
-@dirrm share/doc/iisemulator

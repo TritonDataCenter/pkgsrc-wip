@@ -83,8 +83,5 @@ share/locale/zh_CN/LC_MESSAGES/muine.mo
 @comment in hicolor-icon-theme: @dirrm share/icons/hicolor
 @comment in xdg-dirs: @dirrm share/icons
 @comment in GConf: @dirrm share/gconf/schemas
-@dirrm share/doc/muine
 @comment in dbus: @dirrm share/dbus-1/services
 @comment in xdg-dirs: @dirrm share/applications
-@dirrm lib/muine/plugins
-@dirrm lib/muine

@@ -27,4 +27,3 @@ ${PYSITELIB}/PyKyra/KrVideo.py
 ${PYSITELIB}/PyKyra/SMPEG.py
 ${PYSITELIB}/PyKyra/__init__.py
 ${PYSITELIB}/PyKyra/_pyKyra.so
-@dirrm ${PYSITELIB}/PyKyra

@@ -3,4 +3,3 @@ bin/flv2mpeg4
 share/doc/${PKGNAME}/CREDITS
 share/doc/${PKGNAME}/INSTALL
 share/doc/${PKGNAME}/README
-@dirrm share/doc/${PKGNAME}

@@ -40,9 +40,3 @@ share/themes/bnr2/Silver/ToolBarSep.bmp
 share/themes/bnr2/Silver/TrackBar.bmp
 share/themes/bnr2/Silver/checkedmenu.bmp
 share/themes/bnr2/Silver/checkedmenu.png
-@dirrm share/themes/bnr2/Luna
-@dirrm share/themes/bnr2/Silver
-@dirrm share/themes/bnr2
-@dirrm share/icons/bnr2
-@dirrm share/doc/bnr2
-@dirrm lib/bnr2

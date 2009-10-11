@@ -51,4 +51,3 @@ lib/libatlas.a
 lib/libcblas.a
 lib/libf77blas.a
 lib/liblapack.a
-@dirrm include/atlas

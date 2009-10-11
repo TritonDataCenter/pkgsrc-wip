@@ -18,9 +18,3 @@ lib/HDBC-sqlite3-${PKGVERSION}/${HASKELL_VERSION}/libHSHDBC-sqlite3-${PKGVERSION
 lib/HDBC-sqlite3-${PKGVERSION}/${HASKELL_VERSION}/libHSHDBC-sqlite3-${PKGVERSION}_p.a
 lib/HDBC-sqlite3-${PKGVERSION}/${HASKELL_VERSION}/package-description
 share/doc/HDBC-sqlite3-${PKGVERSION}/COPYRIGHT
-@dirrm share/doc/HDBC-sqlite3-${PKGVERSION}
-@dirrm lib/HDBC-sqlite3-${PKGVERSION}/${HASKELL_VERSION}/Database/HDBC/Sqlite3
-@dirrm lib/HDBC-sqlite3-${PKGVERSION}/${HASKELL_VERSION}/Database/HDBC
-@dirrm lib/HDBC-sqlite3-${PKGVERSION}/${HASKELL_VERSION}/Database
-@dirrm lib/HDBC-sqlite3-${PKGVERSION}/${HASKELL_VERSION}
-@dirrm lib/HDBC-sqlite3-${PKGVERSION}

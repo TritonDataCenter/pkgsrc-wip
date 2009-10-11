@@ -131,9 +131,3 @@ lib/mc/term/xterm.ti
 man/man1/mc.1
 man/man1/mcedit.1
 man/man8/mcserv.8
-@dirrm lib/mc/term
-@dirrm lib/mc/syntax
-@dirrm lib/mc/extfs
-@dirrm lib/mc/codepages
-@dirrm lib/mc/bin
-@dirrm lib/mc

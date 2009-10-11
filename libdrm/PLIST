@@ -18,4 +18,3 @@ include/xf86drm.h
 lib/libdrm.la
 lib/libdrm_intel.la
 lib/pkgconfig/libdrm.pc
-@dirrm include/drm

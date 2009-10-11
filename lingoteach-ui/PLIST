@@ -32,7 +32,3 @@ share/locale/hu/LC_MESSAGES/lingoteach.mo
 share/locale/id/LC_MESSAGES/lingoteach.mo
 share/locale/pt_BR/LC_MESSAGES/lingoteach.mo
 share/locale/sv/LC_MESSAGES/lingoteach.mo
-@dirrm share/lingoteach/data
-@dirrm share/lingoteach
-@dirrm share/doc/lingoteach/img
-@dirrm share/doc/lingoteach

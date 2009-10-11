@@ -6,4 +6,3 @@ lib/java/argouml/gef.jar
 lib/java/argouml/i18n.jar
 lib/java/argouml/nsuml.jar
 lib/java/argouml/ocl-argo.jar
-@dirrm lib/java/argouml

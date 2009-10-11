@@ -1,7 +1,6 @@
 @comment $NetBSD$
+bin/tac_plus_generate_passwd
 man/man8/tac_plus.8
 sbin/tac_plus
 share/doc/tac_plus/users_guide
 share/examples/tac_plus/tac_plus.cfg
-@dirrm share/examples/tac_plus
-@dirrm share/doc/tac_plus

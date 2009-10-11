@@ -493,10 +493,3 @@ share/openmpi/mpicc-wrapper-data.txt
 share/openmpi/mpicxx-wrapper-data.txt
 share/openmpi/mpif77-wrapper-data.txt
 share/openmpi/mpif90-wrapper-data.txt
-@dirrm share/openmpi/amca-param-sets
-@dirrm share/openmpi
-@dirrm lib/openmpi
-@dirrm include/openmpi/ompi/mpi/cxx
-@dirrm include/openmpi/ompi/mpi
-@dirrm include/openmpi/ompi
-@dirrm include/openmpi

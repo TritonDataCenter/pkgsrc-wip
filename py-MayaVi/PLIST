@@ -237,12 +237,3 @@ ${PYSITELIB}/vtkPipeline/vtkMethodParser.pyo
 ${PYSITELIB}/vtkPipeline/vtkPipeline.py
 ${PYSITELIB}/vtkPipeline/vtkPipeline.pyc
 ${PYSITELIB}/vtkPipeline/vtkPipeline.pyo
-@dirrm ${PYSITELIB}/mayavi/tools
-@dirrm ${PYSITELIB}/mayavi/Sources
-@dirrm ${PYSITELIB}/mayavi/Modules
-@dirrm ${PYSITELIB}/mayavi/Misc
-@dirrm ${PYSITELIB}/mayavi/Filters
-@dirrm ${PYSITELIB}/mayavi/Base
-@dirrm ${PYSITELIB}/mayavi
-@dirrm ${PYSITELIB}/vtkPipeline/Icons
-@dirrm ${PYSITELIB}/vtkPipeline

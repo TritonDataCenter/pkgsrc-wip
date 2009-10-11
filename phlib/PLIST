@@ -27,4 +27,3 @@ lib/libpxtra.a.${PKGVERSION}
 lib/libpxtra.so
 lib/libpxtra.so.1
 lib/libpxtra.so.${PKGVERSION}
-@dirrm include/phlib

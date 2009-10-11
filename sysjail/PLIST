@@ -12,4 +12,3 @@ man/man8/sysjail.8
 sbin/sjls
 sbin/sysjail
 sbin/sysjail-cmd
-@dirrm include/sysjail

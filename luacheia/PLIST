@@ -32,4 +32,3 @@ lib/luacheia5/rex.lua
 lib/luacheia5/shelve.lua
 lib/luacheia5/socket.lua
 lib/luacheia5/sqlite.lua
-@dirrm lib/luacheia5

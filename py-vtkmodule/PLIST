@@ -138,11 +138,3 @@ ${PYSITELIB}/vtk_python/vtkpythontk.pyo
 ${PYSITELIB}/vtk_python/wxVTKRenderWindow.py
 ${PYSITELIB}/vtk_python/wxVTKRenderWindow.pyc
 ${PYSITELIB}/vtk_python/wxVTKRenderWindow.pyo
-@dirrm ${PYSITELIB}/vtk_python/vtk/wx
-@dirrm ${PYSITELIB}/vtk_python/vtk/util
-@dirrm ${PYSITELIB}/vtk_python/vtk/tk
-@dirrm ${PYSITELIB}/vtk_python/vtk/test
-@dirrm ${PYSITELIB}/vtk_python/vtk/qt
-@dirrm ${PYSITELIB}/vtk_python/vtk/gtk
-@dirrm ${PYSITELIB}/vtk_python/vtk
-@dirrm ${PYSITELIB}/vtk_python

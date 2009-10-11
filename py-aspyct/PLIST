@@ -15,5 +15,3 @@ ${PYSITELIB}/Aspyct/unit.pyc
 ${PYSITELIB}/Aspyct/unit.pyo
 ${PYSITELIB}/Aspyct/utils.pyc
 ${PYSITELIB}/Aspyct/utils.pyo
-@dirrm ${PYSITELIB}/Aspyct/core
-@dirrm ${PYSITELIB}/Aspyct

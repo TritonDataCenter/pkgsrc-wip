@@ -30,5 +30,3 @@ include/animal/set.h
 include/animal/util.h
 lib/libanimal.la
 lib/pkgconfig/animal.pc
-@dirrm include/animal/base
-@dirrm include/animal

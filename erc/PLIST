@@ -77,4 +77,3 @@ ${EMACS_LISPPREFIX}/erc/erc-xdcc.el
 ${EMACS_LISPPREFIX}/erc/erc-xdcc.elc
 ${EMACS_LISPPREFIX}/erc/erc.el
 ${EMACS_LISPPREFIX}/erc/erc.elc
-@dirrm ${EMACS_LISPPREFIX}/erc

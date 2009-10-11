@@ -5,4 +5,3 @@ share/locale/fr/LC_MESSAGES/bmp-docklet.mo
 share/locale/it/LC_MESSAGES/bmp-docklet.mo
 share/locale/ja/LC_MESSAGES/bmp-docklet.mo
 share/locale/pl/LC_MESSAGES/bmp-docklet.mo
-@dirrm lib/bmp/General

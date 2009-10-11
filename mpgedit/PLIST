@@ -20,4 +20,3 @@ share/xmpgedit/pause.xpm
 share/xmpgedit/play.xpm
 share/xmpgedit/record.xpm
 share/xmpgedit/stop.xpm
-@dirrm share/xmpgedit

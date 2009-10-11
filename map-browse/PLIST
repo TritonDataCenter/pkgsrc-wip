@@ -7,5 +7,3 @@ share/doc/map-browse/map-browse-shrunk.ps
 share/doc/map-browse/map-browse-solid.ps
 share/examples/map-browse/sample.data
 share/examples/map-browse/zpow.m
-@dirrm share/doc/map-browse
-@dirrm share/examples/map-browse

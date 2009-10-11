@@ -149,7 +149,3 @@ share/brltty/text.visiob.tbl
 share/brltty/text.vni.tbl
 share/examples/brltty/brlapi.key
 share/examples/brltty/brltty.conf
-@dirrm share/examples/brltty
-@dirrm share/brltty
-@dirrm lib/brltty
-@dirrm include/brltty

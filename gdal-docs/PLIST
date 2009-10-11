@@ -377,6 +377,3 @@ share/doc/gdal/ogr/tab_r.gif
 share/doc/gdal/ogr/tabs.css
 share/doc/gdal/ogr/unionOGRField-members.html
 share/doc/gdal/ogr/unionOGRField.html
-@dirrm share/doc/gdal/ogr
-@dirrm share/doc/gdal/gdal
-@dirrm share/doc/gdal

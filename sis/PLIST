@@ -468,14 +468,3 @@ share/sis/sis_lib/stdcell2_2.genlib
 share/sis/sis_lib/synch.genlib
 share/sis/sis_lib/weird.genlib
 share/sis/sis_lib/weird.lib
-@dirrm share/sis/sis_lib/help
-@dirrm share/sis/sis_lib
-@dirrm share/sis/historical
-@dirrm share/sis/espresso_examples/random
-@dirrm share/sis/espresso_examples/math
-@dirrm share/sis/espresso_examples/indust
-@dirrm share/sis/espresso_examples/doc
-@dirrm share/sis/espresso_examples
-@dirrm share/sis/doc
-@dirrm share/sis
-@dirrm include/sis

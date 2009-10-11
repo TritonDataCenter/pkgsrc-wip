@@ -21,6 +21,3 @@ share/mvsis/examples/term1.blif
 share/mvsis/share/master.mvsisrc
 share/mvsis/share/script.check
 share/mvsis/share/script.mvs
-@dirrm share/mvsis/share
-@dirrm share/mvsis/examples
-@dirrm share/mvsis

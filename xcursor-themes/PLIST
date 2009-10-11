@@ -123,10 +123,4 @@ share/icons/whiteglass/cursors/ul_angle
 share/icons/whiteglass/cursors/ur_angle
 share/icons/whiteglass/cursors/watch
 share/icons/whiteglass/cursors/xterm
-@dirrm share/icons/whiteglass/cursors
-@dirrm share/icons/whiteglass
-@dirrm share/icons/redglass/cursors
-@dirrm share/icons/redglass
-@dirrm share/icons/handhelds/cursors
-@dirrm share/icons/handhelds
 @comment @dirrm share/icons

@@ -12,5 +12,3 @@ lib/pkgconfig/soundtouch-1.0.pc
 share/aclocal/soundtouch.m4
 share/doc/soundtouch/COPYING.TXT
 share/doc/soundtouch/README.html
-@dirrm share/doc/soundtouch
-@dirrm include/soundtouch

@@ -88,9 +88,3 @@ share/sounds/linphone/rings/sweet.wav
 share/sounds/linphone/rings/synth.wav
 share/sounds/linphone/rings/tapping.wav
 share/sounds/linphone/rings/toy.wav
-@dirrm include/linphone
-@dirrm include/mediastreamer2
-@dirrm include/ortp
-@dirrm share/pixmaps/linphone
-@dirrm share/sounds/linphone/rings
-@dirrm share/sounds/linphone

@@ -3,5 +3,4 @@ share/examples/tsm/dsm.opt.smp
 share/examples/tsm/dsm.sys.smp
 share/examples/tsm/tsm_daily.sh
 @exec ${LN} -s ${EMULDIR}/${TSMCLIENTSUBDIR}/ba/bin/en_US/ ${PKG_SYSCONFDIR}/en_US
-@dirrm share/examples/tsm
 @unexec ${RM} -f ${PKG_SYSCONFDIR}/en_US

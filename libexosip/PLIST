@@ -10,4 +10,3 @@ include/eXosip2/eX_setup.h
 include/eXosip2/eX_subscribe.h
 include/eXosip2/eXosip.h
 lib/libeXosip2.la
-@dirrm include/eXosip2

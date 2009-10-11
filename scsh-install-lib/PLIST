@@ -6,9 +6,3 @@ lib/scsh/modules/install-lib-1.2.0/load.scm
 lib/scsh/modules/install-lib-1.2.0/scheme/install-lib-module.scm
 lib/scsh/modules/install-lib-1.2.0/scheme/install-lib-version.scm
 lib/scsh/modules/install-lib-1.2.0/scheme/install-lib.scm
-@dirrm lib/scsh/modules/install-lib-1.2.0/scheme
-@dirrm lib/scsh/modules/install-lib-1.2.0
-@dirrm lib/scsh/modules
-@dirrm share/doc/scsh/modules/install-lib-1.2.0/pdf
-@dirrm share/doc/scsh/modules/install-lib-1.2.0
-@dirrm share/doc/scsh/modules

@@ -14,4 +14,3 @@ include/kore/rwbackend.h
 include/kore/wrbackend.h
 lib/libkore.la
 lib/libkoretest.la
-@dirrm include/kore

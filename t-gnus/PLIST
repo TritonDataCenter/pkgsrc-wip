@@ -285,4 +285,3 @@ ${EMACS_LISPPREFIX}/gnus/webmail.el
 ${EMACS_LISPPREFIX}/gnus/webmail.elc
 ${EMACS_LISPPREFIX}/gnus/yenc.el
 ${EMACS_LISPPREFIX}/gnus/yenc.elc
-@dirrm ${EMACS_LISPPREFIX}/gnus

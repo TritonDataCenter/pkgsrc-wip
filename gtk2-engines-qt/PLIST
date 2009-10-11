@@ -4,5 +4,3 @@ lib/pkgconfig/gtk-qt-engine-2.pc
 share/themes/Qt/ICON.png
 share/themes/Qt/README.html
 share/themes/Qt/gtk-2.0/gtkrc
-@dirrm share/themes/Qt/gtk-2.0
-@dirrm share/themes/Qt

@@ -123,8 +123,3 @@ include/asm/ucontext.h
 include/asm/unwind.h
 include/asm/ustack.h
 include/asm/vga.h
-@dirrm include/asm/sn
-@dirrm include/asm/sn/ksys
-@dirrm include/asm/sn/pci
-@dirrm include/asm/sn/sn2
-@dirrm include/asm/sn/xtalk

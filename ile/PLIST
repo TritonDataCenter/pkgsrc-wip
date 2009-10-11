@@ -4,5 +4,3 @@ share/doc/ile/COPYING
 share/doc/ile/README.html
 share/doc/ile/style.css
 share/examples/ile/ile.xml
-@dirrm share/examples/ile
-@dirrm share/doc/ile

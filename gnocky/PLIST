@@ -44,6 +44,3 @@ share/gnocky/pixmaps/phones/unknown.png
 share/gnocky/pixmaps/sm.png
 share/locale/it/LC_MESSAGES/gnocky.mo
 share/locale/pl/LC_MESSAGES/gnocky.mo
-@dirrm share/gnocky/pixmaps/phones
-@dirrm share/gnocky/pixmaps
-@dirrm share/gnocky/glade

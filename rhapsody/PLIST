@@ -3,4 +3,3 @@ bin/rhapsody
 share/rhapsody/clientcmnds.hlp
 share/rhapsody/irccmnds.hlp
 share/rhapsody/keys.hlp
-@dirrm share/rhapsody

@@ -24,7 +24,3 @@ share/azureus/swt-about.html
 share/azureus/swt-mozilla.jar
 share/azureus/swt-pi.jar
 share/azureus/swt.jar
-@dirrm share/azureus/plugins/azupdater
-@dirrm share/azureus/plugins/azplugins
-@dirrm share/azureus/plugins
-@dirrm share/azureus

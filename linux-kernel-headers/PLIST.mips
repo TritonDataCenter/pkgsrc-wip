@@ -237,27 +237,3 @@ include/asm/watch.h
 include/asm/wbflush.h
 include/asm/xtalk/xtalk.h
 include/asm/xtalk/xwidget.h
-@dirrm include/asm/arc
-@dirrm include/asm/baget
-@dirrm include/asm/cobalt
-@dirrm include/asm/ddb5xxx
-@dirrm include/asm/dec
-@dirrm include/asm/galileo-boards
-@dirrm include/asm/gcc
-@dirrm include/asm/gt64120
-@dirrm include/asm/gt64120/momenco_ocelot
-@dirrm include/asm/hp-lj
-@dirrm include/asm/ip32
-@dirrm include/asm/it8172
-@dirrm include/asm/jmr3927
-@dirrm include/asm/lasat
-@dirrm include/asm/mips-boards
-@dirrm include/asm/pci
-@dirrm include/asm/sgi
-@dirrm include/asm/sibyte
-@dirrm include/asm/sn
-@dirrm include/asm/sn/sn0
-@dirrm include/asm/tx4927
-@dirrm include/asm/vr4181
-@dirrm include/asm/vr41xx
-@dirrm include/asm/xtalk

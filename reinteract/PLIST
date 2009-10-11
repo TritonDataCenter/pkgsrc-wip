@@ -162,10 +162,5 @@ share/reinteract/examples/index.rnb
 share/reinteract/examples/play.rws
 share/reinteract/examples/plot.rws
 share/reinteract/examples/plot2.rws
-@dirrm share/reinteract/examples
-@dirrm share/reinteract/dialogs
-@dirrm share/reinteract
-@dirrm share/mime/packages
 @comment in hicolor-icon-theme: @dirrm share/icons/hicolor/scalable/apps
 @comment in xdg-dirs: @dirrm share/applications
-@dirrm ${PYSITELIB}/reinteract

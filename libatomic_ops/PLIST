@@ -52,12 +52,3 @@ share/libatomic_ops/README.txt
 share/libatomic_ops/README_malloc.txt
 share/libatomic_ops/README_stack.txt
 share/libatomic_ops/README_win32.txt
-@dirrm share/libatomic_ops
-@dirrm include/atomic_ops/sysdeps/sunc
-@dirrm include/atomic_ops/sysdeps/msftc
-@dirrm include/atomic_ops/sysdeps/icc
-@dirrm include/atomic_ops/sysdeps/ibmc
-@dirrm include/atomic_ops/sysdeps/hpc
-@dirrm include/atomic_ops/sysdeps/gcc
-@dirrm include/atomic_ops/sysdeps
-@dirrm include/atomic_ops

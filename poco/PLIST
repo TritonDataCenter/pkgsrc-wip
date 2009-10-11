@@ -623,15 +623,3 @@ lib/libPocoZip.so
 lib/libPocoZip.so.6
 lib/libPocoZipd.so
 lib/libPocoZipd.so.6
-@dirrm include/Poco/Zip
-@dirrm include/Poco/XML
-@dirrm include/Poco/Util
-@dirrm include/Poco/SAX
-@dirrm include/Poco/Net
-@dirrm include/Poco/Data/SQLite
-@dirrm include/Poco/Data/ODBC
-@dirrm include/Poco/Data/MySQL
-@dirrm include/Poco/Data
-@dirrm include/Poco/DOM
-@dirrm include/Poco/Crypto
-@dirrm include/Poco

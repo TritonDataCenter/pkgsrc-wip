@@ -5,4 +5,3 @@ include/gtkglk/gi_dispa.h
 include/gtkglk/glk.h
 include/gtkglk/glkstart.h
 lib/libgtkglk.la
-@dirrm include/gtkglk

@@ -2434,9 +2434,3 @@ share/foomatic/db/source/printer/Xerox-WorkCentre_XD120f.xml
 share/foomatic/db/source/printer/Xerox-WorkCentre_XE80.xml
 share/foomatic/db/source/printer/Xerox-WorkCentre_XE90fx.xml
 share/foomatic/db/source/printer/Xerox-WorkCentre_XK35c.xml
-@dirrm share/foomatic/db/source/driver
-@dirrm share/foomatic/db/source/opt
-@dirrm share/foomatic/db/source/printer
-@dirrm share/foomatic/db/source
-@dirrm share/foomatic/db
-@dirrm share/foomatic

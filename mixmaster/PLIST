@@ -19,4 +19,3 @@ share/examples/mixmaster/rab.blk
 share/examples/mixmaster/reply.txt.in
 share/examples/mixmaster/type1.hlp
 share/examples/mixmaster/usage.txt.in
-@dirrm share/examples/mixmaster

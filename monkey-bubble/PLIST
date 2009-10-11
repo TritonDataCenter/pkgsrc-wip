@@ -179,20 +179,7 @@ share/omf/monkey-bubble/monkey-bubble-C.omf
 share/omf/monkey-bubble/monkey-bubble-fr.omf
 share/pixmaps/monkey-bubble-icon.png
 @comment in xdg-dirs: @dirrm share/pixmaps
-@dirrm share/omf/monkey-bubble
 @comment in rarian: @dirrm share/omf
-@dirrm share/monkey-bubble/sounds
-@dirrm share/monkey-bubble/glade
-@dirrm share/monkey-bubble/gfx/snake
-@dirrm share/monkey-bubble/gfx/number
-@dirrm share/monkey-bubble/gfx/frozen-bubble
-@dirrm share/monkey-bubble/gfx/bubbles
-@dirrm share/monkey-bubble/gfx
-@dirrm share/monkey-bubble
-@dirrm share/locale/sr@Latn/LC_MESSAGES
-@dirrm share/gnome/help/monkey-bubble/fr
-@dirrm share/gnome/help/monkey-bubble/C
-@dirrm share/gnome/help/monkey-bubble
 @comment in gnome2-dirs: @dirrm share/gnome/help
 @comment in GConf: @dirrm share/gconf/schemas
 @comment in xdg-dirs: @dirrm share/applications

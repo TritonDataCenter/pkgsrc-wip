@@ -3,7 +3,3 @@ bin/sc_serv
 etc/shoutcast/sc_serv.conf
 share/doc/shoutcast/README.shoutcast
 share/shoutcast/content/scpromo.mp3
-@dirrm share/shoutcast/content
-@dirrm share/shoutcast
-@dirrm share/doc/shoutcast
-@dirrm etc/shoutcast

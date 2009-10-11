@@ -3,4 +3,3 @@ bin/cvs2darcs
 man/man1/cvs2darcs.1
 share/cvs2darcs/branch_detect.pl
 share/cvs2darcs/cvs_convert.pl
-@dirrm share/cvs2darcs

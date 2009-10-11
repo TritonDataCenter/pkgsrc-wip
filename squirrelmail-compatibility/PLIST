@@ -5,4 +5,3 @@ share/squirrelmail/plugins/compatibility/index.php
 share/squirrelmail/plugins/compatibility/README
 share/squirrelmail/plugins/compatibility/setup.php
 share/squirrelmail/plugins/compatibility/version
-@dirrm share/squirrelmail/plugins/compatibility

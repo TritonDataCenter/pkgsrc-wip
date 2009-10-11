@@ -366,16 +366,3 @@ share/silvertree-rpg/talin.3ds
 share/silvertree-rpg/tower.dae
 share/silvertree-rpg/tree.3d
 share/silvertree-rpg/tree2.3d
-@dirrm share/silvertree-rpg/model-sources/sketchup
-@dirrm share/silvertree-rpg/model-sources/blender
-@dirrm share/silvertree-rpg/model-sources
-@dirrm share/silvertree-rpg/images/units
-@dirrm share/silvertree-rpg/images/terrain
-@dirrm share/silvertree-rpg/images/portraits
-@dirrm share/silvertree-rpg/images/items
-@dirrm share/silvertree-rpg/images/frames
-@dirrm share/silvertree-rpg/images
-@dirrm share/silvertree-rpg/data/maps
-@dirrm share/silvertree-rpg/data
-@dirrm share/silvertree-rpg
-@dirrm share/doc/silvertree-rpg

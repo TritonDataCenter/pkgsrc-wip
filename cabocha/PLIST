@@ -17,6 +17,3 @@ libexec/cabocha/kc2cabocha.pl
 libexec/cabocha/kc2juman.pl
 man/man1/cabocha.1
 share/examples/cabocharc
-@dirrm libexec/cabocha
-@dirrm lib/cabocha/model
-@dirrm lib/cabocha

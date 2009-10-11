@@ -2,4 +2,3 @@
 bin/createfp
 lib/libtextcat.la
 share/libtextcat/README
-@dirrm share/libtextcat

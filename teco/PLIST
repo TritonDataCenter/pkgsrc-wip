@@ -33,5 +33,3 @@ share/doc/teco/problems.txt
 share/doc/teco/video.txt
 share/doc/teco/teco.doc
 share/doc/teco/wchart.txt
-@dirrm share/doc/teco
-@dirrm share/teco

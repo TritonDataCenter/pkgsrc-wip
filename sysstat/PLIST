@@ -33,6 +33,3 @@ share/locale/pt/LC_MESSAGES/sysstat.mo
 share/locale/ro/LC_MESSAGES/sysstat.mo
 share/locale/ru/LC_MESSAGES/sysstat.mo
 share/locale/sk/LC_MESSAGES/sysstat.mo
-@dirrm share/examples/sysstat
-@dirrm share/doc/sysstat
-@dirrm libexec/sa

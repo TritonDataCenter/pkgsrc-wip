@@ -36,6 +36,3 @@ share/examples/alex/tkns.hs
 share/examples/alex/words.x
 share/examples/alex/words_monad.x
 share/examples/alex/words_posn.x
-@dirrm share/examples/alex
-@dirrm share/doc/alex
-@dirrm share/${PKGNAME}

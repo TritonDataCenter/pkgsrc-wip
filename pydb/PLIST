@@ -56,4 +56,3 @@ ${PYSITELIB}/pydb/threadinfo.py
 ${PYSITELIB}/pydb/threadinfo.pyc
 ${PYSITELIB}/pydb/threadinfo.pyo
 man/man1/pydb.1
-@dirrm ${PYSITELIB}/pydb

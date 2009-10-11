@@ -64,7 +64,3 @@ share/doc/wbxml2-${PKGVERSION}/manual/images/up.png
 share/doc/wbxml2-${PKGVERSION}/manual/images/warning.png
 share/doc/wbxml2-${PKGVERSION}/manual/wbxml2.html
 share/doc/wbxml2-${PKGVERSION}/manual/wbxml2.xml
-@dirrm share/doc/wbxml2-${PKGVERSION}/manual/images/callouts
-@dirrm share/doc/wbxml2-${PKGVERSION}/manual/images
-@dirrm share/doc/wbxml2-${PKGVERSION}/manual
-@dirrm share/doc/wbxml2-${PKGVERSION}

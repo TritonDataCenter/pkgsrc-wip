@@ -5,10 +5,3 @@ lib/X11-extras-${PKGVERSION}/ghc-${GHCVERSION}/HSX11-extras-${PKGVERSION}.o
 lib/X11-extras-${PKGVERSION}/ghc-${GHCVERSION}/include/XlibExtras.h
 lib/X11-extras-${PKGVERSION}/ghc-${GHCVERSION}/libHSX11-extras-${PKGVERSION}.a
 share/doc/X11-extras-${PKGVERSION}/LICENSE
-@dirrm share/doc/X11-extras-${PKGVERSION}
-@dirrm lib/X11-extras-${PKGVERSION}/ghc-${GHCVERSION}/include
-@dirrm lib/X11-extras-${PKGVERSION}/ghc-${GHCVERSION}/Graphics/X11/Xlib
-@dirrm lib/X11-extras-${PKGVERSION}/ghc-${GHCVERSION}/Graphics/X11
-@dirrm lib/X11-extras-${PKGVERSION}/ghc-${GHCVERSION}/Graphics
-@dirrm lib/X11-extras-${PKGVERSION}/ghc-${GHCVERSION}
-@dirrm lib/X11-extras-${PKGVERSION}

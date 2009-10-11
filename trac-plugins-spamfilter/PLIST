@@ -61,8 +61,3 @@ ${PYSITELIB}/tracspamfilter/templates/admin_spammonitor.html
 ${PYSITELIB}/tracspamfilter/upgrades.py
 ${PYSITELIB}/tracspamfilter/upgrades.pyc
 ${PYSITELIB}/tracspamfilter/upgrades.pyo
-@dirrm ${PYSITELIB}/tracspamfilter/templates
-@dirrm ${PYSITELIB}/tracspamfilter/htdocs
-@dirrm ${PYSITELIB}/tracspamfilter/filters
-@dirrm ${PYSITELIB}/tracspamfilter
-@dirrm ${PYSITELIB}/TracSpamFilter-0.2.1dev-py2.5.egg-info

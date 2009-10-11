@@ -1548,18 +1548,3 @@ share/lidia/MOD_EQ_2/meq_2_977
 share/lidia/MOD_EQ_2/meq_2_983
 share/lidia/MOD_EQ_2/meq_2_991
 share/lidia/MOD_EQ_2/meq_2_997
-@dirrm share/lidia/MOD_EQ_2
-@dirrm share/lidia/MOD_EQ
-@dirrm share/lidia/Discriminants
-@dirrm share/lidia
-@dirrm share/doc/lidia
-@dirrm include/lidia/specialization
-@dirrm include/lidia/number_fields
-@dirrm include/lidia/matrix
-@dirrm include/lidia/lattices
-@dirrm include/lidia/kernel
-@dirrm include/lidia/instantiate
-@dirrm include/lidia/finite_fields
-@dirrm include/lidia/elliptic_curves
-@dirrm include/lidia/base
-@dirrm include/lidia

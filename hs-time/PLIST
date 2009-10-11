@@ -54,13 +54,3 @@ lib/time-${PKGVERSION}/${HASKELL_VERSION}/libHStime-${PKGVERSION}.a
 lib/time-${PKGVERSION}/${HASKELL_VERSION}/libHStime-${PKGVERSION}_p.a
 lib/time-${PKGVERSION}/${HASKELL_VERSION}/package-description
 share/doc/time-${PKGVERSION}/LICENSE
-@dirrm share/doc/time-${PKGVERSION}
-@dirrm lib/time-${PKGVERSION}/${HASKELL_VERSION}/include
-@dirrm lib/time-${PKGVERSION}/${HASKELL_VERSION}/Data/Time/LocalTime
-@dirrm lib/time-${PKGVERSION}/${HASKELL_VERSION}/Data/Time/Format
-@dirrm lib/time-${PKGVERSION}/${HASKELL_VERSION}/Data/Time/Clock
-@dirrm lib/time-${PKGVERSION}/${HASKELL_VERSION}/Data/Time/Calendar
-@dirrm lib/time-${PKGVERSION}/${HASKELL_VERSION}/Data/Time
-@dirrm lib/time-${PKGVERSION}/${HASKELL_VERSION}/Data
-@dirrm lib/time-${PKGVERSION}/${HASKELL_VERSION}
-@dirrm lib/time-${PKGVERSION}

@@ -11,6 +11,3 @@ lib/libglkloader.so.0.3
 lib/libglkloader.so.0.3.2
 share/doc/glkloader/README
 share/doc/glkloader/samples/glkloaderrc
-@dirrm share/doc/glkloader/samples
-@dirrm share/doc/glkloader
-@dirrm include/glkloader

@@ -14,5 +14,3 @@ man/man1/vncserver.1
 share/vnc/classes/index.vnc
 share/vnc/classes/logo150x150.gif
 share/vnc/classes/vncviewer.jar
-@dirrm share/vnc/classes
-@dirrm share/vnc

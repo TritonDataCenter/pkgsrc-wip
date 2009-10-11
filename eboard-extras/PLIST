@@ -50,4 +50,3 @@ share/eboard/extras1.prevconf
 share/eboard/extras${PKGVERSION}.prevconf
 share/eboard/themeconf.extras1
 share/eboard/themeconf.extras${PKGVERSION}
-@dirrm share/eboard

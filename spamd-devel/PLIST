@@ -15,4 +15,3 @@ man/man8/spamdb.8
 sbin/spamdb
 share/examples/rc.d/pfspamd
 share/examples/spamd/spamd.conf
-@dirrm share/examples/spamd

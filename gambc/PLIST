@@ -39,4 +39,3 @@ lib/syntax-case.scm
 share/doc/gambc/gambit-c.html
 share/doc/gambc/gambit-c.pdf
 share/doc/gambc/gambit-c.txt
-@dirrm share/doc/gambc

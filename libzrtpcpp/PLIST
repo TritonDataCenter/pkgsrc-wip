@@ -7,4 +7,3 @@ include/libzrtpcpp/ZrtpUserCallback.h
 include/libzrtpcpp/zrtpccrtp.h
 lib/libzrtpcpp.la
 lib/pkgconfig/libzrtpcpp.pc
-@dirrm include/libzrtpcpp

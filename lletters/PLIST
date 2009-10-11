@@ -66,5 +66,3 @@ share/lletters/sounds/Kangaroo.wav
 share/lletters/sounds/Tiger.1.wav
 share/lletters/sounds/Tiger.2.wav
 share/locale/nl/LC_MESSAGES/lletters.mo
-@dirrm share/lletters/sounds
-@dirrm share/lletters/images

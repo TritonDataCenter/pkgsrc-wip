@@ -96,16 +96,3 @@ ${PERL5_SITEARCH}/PDL/HtmlDocs/PDL/Transform/Cartography.html
 ${PERL5_SITEARCH}/PDL/HtmlDocs/PDL/PDL.html
 ${PERL5_SITEARCH}/PDL/HtmlDocs/PDL/pod2htmi.tmp
 ${PERL5_SITEARCH}/PDL/HtmlDocs/PDL/pod2htmd.tmp
-@dirrm ${PERL5_SITEARCH}/PDL/HtmlDocs/PDL/Core
-@dirrm ${PERL5_SITEARCH}/PDL/HtmlDocs/PDL/Doc
-@dirrm ${PERL5_SITEARCH}/PDL/HtmlDocs/PDL/Pod
-@dirrm ${PERL5_SITEARCH}/PDL/HtmlDocs/PDL/IO
-@dirrm ${PERL5_SITEARCH}/PDL/HtmlDocs/PDL/Graphics/TriD
-@dirrm ${PERL5_SITEARCH}/PDL/HtmlDocs/PDL/Graphics/PGPLOT
-@dirrm ${PERL5_SITEARCH}/PDL/HtmlDocs/PDL/Graphics
-@dirrm ${PERL5_SITEARCH}/PDL/HtmlDocs/PDL/Opt
-@dirrm ${PERL5_SITEARCH}/PDL/HtmlDocs/PDL/Fit
-@dirrm ${PERL5_SITEARCH}/PDL/HtmlDocs/PDL/Filter
-@dirrm ${PERL5_SITEARCH}/PDL/HtmlDocs/PDL/Transform
-@dirrm ${PERL5_SITEARCH}/PDL/HtmlDocs/PDL
-@dirrm ${PERL5_SITEARCH}/PDL/HtmlDocs

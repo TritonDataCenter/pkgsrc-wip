@@ -9,4 +9,3 @@ share/examples/${PKGBASE}/XF86Config.example
 @unexec ${RMDIR} %D/lib/modules/linux 2>/dev/null || ${TRUE}
 etc/ati/control
 etc/ati/signature
-@dirrm etc/ati

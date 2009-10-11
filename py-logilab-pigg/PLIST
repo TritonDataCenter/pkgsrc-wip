@@ -20,4 +20,3 @@ ${PYSITELIB}/pigg/utils.pyo
 ${PYSITELIB}/pigg/wgenerator.py
 ${PYSITELIB}/pigg/wgenerator.pyc
 ${PYSITELIB}/pigg/wgenerator.pyo
-@dirrm ${PYSITELIB}/pigg

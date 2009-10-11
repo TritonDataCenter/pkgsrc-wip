@@ -64,4 +64,3 @@ share/tf-lib/tr.tf
 share/tf-lib/watch.tf
 share/tf-lib/world-q.tf
 share/tf-lib/worldqueue.tf
-@dirrm share/tf-lib

@@ -60,6 +60,3 @@ share/locale/de/LC_MESSAGES/acl.mo
 share/locale/fr/LC_MESSAGES/acl.mo
 share/locale/pl/LC_MESSAGES/acl.mo
 share/locale/sv/LC_MESSAGES/acl.mo
-@dirrm share/doc/acl
-@dirrm include/sys
-@dirrm include/acl

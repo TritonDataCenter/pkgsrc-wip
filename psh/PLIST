@@ -27,7 +27,3 @@ share/psh/themes/simple
 share/psh/themes/stereophonic
 share/psh/themes/sunos
 share/psh/themes/vms
-@dirrm share/psh/themes
-@dirrm share/psh/complete
-@dirrm share/psh
-@dirrm share/examples/psh

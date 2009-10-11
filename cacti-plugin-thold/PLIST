@@ -26,8 +26,3 @@ share/cacti/plugins/thold/thold_add.php
 share/cacti/plugins/thold/thold_functions.php
 share/cacti/plugins/thold/thold_graph.php
 share/cacti/plugins/thold/thold_templates.php
-@dirrm share/cacti/plugins/thold/includes
-@dirrm share/cacti/plugins/thold/images
-@dirrm share/cacti/plugins/thold/extras
-@dirrm share/cacti/plugins/thold
-@dirrm share/cacti/plugins

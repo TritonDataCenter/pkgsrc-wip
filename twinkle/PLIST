@@ -12,5 +12,3 @@ share/twinkle/ringtone.wav
 share/twinkle/twinkle16.png
 share/twinkle/twinkle32.png
 share/twinkle/twinkle48.png
-@dirrm share/twinkle/lang
-@dirrm share/twinkle

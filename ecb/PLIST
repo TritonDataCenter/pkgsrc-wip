@@ -71,4 +71,3 @@ ${EMACS_LISPPREFIX}/ecb/silentcomp.el
 ${EMACS_LISPPREFIX}/ecb/silentcomp.elc
 ${EMACS_LISPPREFIX}/ecb/tree-buffer.el
 ${EMACS_LISPPREFIX}/ecb/tree-buffer.elc
-@dirrm ${EMACS_LISPPREFIX}/ecb

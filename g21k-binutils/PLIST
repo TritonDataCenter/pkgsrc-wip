@@ -8,4 +8,3 @@ man/man1/a21000.1
 man/man1/asm21k.1
 man/man1/ld21k.1
 man/man1/mem21k.1
-@dirrm 21k/etc

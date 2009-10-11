@@ -14,9 +14,3 @@ lib/network-bytestring-${PKGVERSION}/${HASKELL_VERSION}/libHSnetwork-bytestring-
 lib/network-bytestring-${PKGVERSION}/${HASKELL_VERSION}/libHSnetwork-bytestring-${PKGVERSION}_p.a
 lib/network-bytestring-${PKGVERSION}/${HASKELL_VERSION}/package-description
 share/doc/network-bytestring-${PKGVERSION}/LICENSE
-@dirrm share/doc/network-bytestring-${PKGVERSION}
-@dirrm lib/network-bytestring-${PKGVERSION}/${HASKELL_VERSION}/Network/Socket/ByteString
-@dirrm lib/network-bytestring-${PKGVERSION}/${HASKELL_VERSION}/Network/Socket
-@dirrm lib/network-bytestring-${PKGVERSION}/${HASKELL_VERSION}/Network
-@dirrm lib/network-bytestring-${PKGVERSION}/${HASKELL_VERSION}
-@dirrm lib/network-bytestring-${PKGVERSION}

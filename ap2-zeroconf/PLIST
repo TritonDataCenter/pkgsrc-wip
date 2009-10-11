@@ -1,4 +1,3 @@
 @comment $NetBSD$
 lib/httpd/mod_zeroconf.so
 share/doc/mod_zeroconf/README.txt
-@dirrm share/doc/mod_zeroconf

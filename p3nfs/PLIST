@@ -17,4 +17,3 @@ share/doc/${PKGNAME}/nfsc3.opl
 share/doc/${PKGNAME}/nfsc3a.opl
 share/doc/${PKGNAME}/nfsc5.opl
 share/doc/${PKGNAME}/usb.linux
-@dirrm share/doc/${PKGNAME}

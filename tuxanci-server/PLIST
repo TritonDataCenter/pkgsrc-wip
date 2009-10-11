@@ -13,7 +13,3 @@ share/tuxanci-server/arena/night_workshift.map
 share/tuxanci-server/doc/AUTHORS
 share/tuxanci-server/doc/LICENCE
 share/tuxanci-server/doc/README
-@dirrm share/tuxanci-server/doc
-@dirrm share/tuxanci-server/arena
-@dirrm share/tuxanci-server
-@dirrm lib/tuxanci-server

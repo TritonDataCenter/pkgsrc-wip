@@ -17,5 +17,3 @@ lib/libpano12.so
 share/doc/libpano12/README.linux
 share/doc/libpano12/README.mac
 share/doc/libpano12/README.windows
-@dirrm share/doc/libpano12
-@dirrm include/pano12

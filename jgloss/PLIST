@@ -3,5 +3,3 @@ bin/jgloss
 libexec/jgloss/jgloss.jar
 share/doc/jgloss/README.txt
 share/doc/jgloss/jgloss.pdf
-@dirrm share/doc/jgloss
-@dirrm libexec/jgloss

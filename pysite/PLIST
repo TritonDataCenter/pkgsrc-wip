@@ -71,12 +71,3 @@ share/examples/Pysite/normal.css
 share/examples/Pysite/pysiterc
 share/examples/Pysite/template
 share/examples/Pysite/title
-@dirrm share/examples/Pysite/news
-@dirrm share/examples/Pysite/license
-@dirrm share/examples/Pysite/install
-@dirrm share/examples/Pysite/download
-@dirrm share/examples/Pysite/docs/user
-@dirrm share/examples/Pysite/docs/api
-@dirrm share/examples/Pysite/docs
-@dirrm share/examples/Pysite
-@dirrm ${PYSITELIB}/pysite

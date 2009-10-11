@@ -91,7 +91,3 @@ ${PYSITELIB}/soya/data/font_time_22.data
 ${PYSITELIB}/soya/data/fx.data
 ${PYSITELIB}/soya/data/fx.png
 ${PYSITELIB}/soya/data/soya3d_logo.tga
-@dirrm ${PYSITELIB}/soya/editor
-@dirrm ${PYSITELIB}/soya/game
-@dirrm ${PYSITELIB}/soya/data
-@dirrm ${PYSITELIB}/soya

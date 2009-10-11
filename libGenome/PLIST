@@ -45,4 +45,3 @@ include/gn/gnStringTools.h
 include/gn/gnTranslator.h
 include/gn/gnVersion.h
 lib/libGenome.la
-@dirrm include/gn

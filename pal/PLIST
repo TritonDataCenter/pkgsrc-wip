@@ -20,6 +20,3 @@ share/pal/music.pal
 share/pal/pagan.pal
 share/pal/us.pal
 share/pal/world.pal
-@dirrm share/pal
-@dirrm share/examples/pal
-@dirrm share/doc/${PKGNAME}

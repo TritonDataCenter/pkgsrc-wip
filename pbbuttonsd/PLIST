@@ -33,6 +33,3 @@ man/man5/pbbuttonsd.conf.5
 share/locale/ca/LC_MESSAGES/pbbuttonsd.mo
 share/locale/de/LC_MESSAGES/pbbuttonsd.mo
 share/locale/es/LC_MESSAGES/pbbuttonsd.mo
-@dirrm etc/power/scripts.d
-@dirrm etc/power/event.d
-@dirrm etc/power

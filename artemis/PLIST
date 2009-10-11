@@ -1434,23 +1434,3 @@ share/Artemis/uk/ac/sanger/artemis/util/URLDocument.class
 share/Artemis/uk/ac/sanger/artemis/util/URLDocument.java
 share/Artemis/uk/ac/sanger/artemis/util/WorkingGZIPInputStream.class
 share/Artemis/uk/ac/sanger/artemis/util/WorkingGZIPInputStream.java
-@dirrm share/Artemis/etc/
-@dirrm share/Artemis/images
-@dirrm share/Artemis/lib/
-@dirrm share/Artemis/nsdb/LocationPackage/
-@dirrm share/Artemis/nsdb/NucFeaturePackage/
-@dirrm share/Artemis/nsdb/EmblPackage/
-@dirrm share/Artemis/nsdb/
-@dirrm share/Artemis/seqdb/
-@dirrm share/Artemis/type/
-@dirrm share/Artemis/uk/ac/sanger/artemis/components/
-@dirrm share/Artemis/uk/ac/sanger/artemis/editor/
-@dirrm share/Artemis/uk/ac/sanger/artemis/io/
-@dirrm share/Artemis/uk/ac/sanger/artemis/plot/
-@dirrm share/Artemis/uk/ac/sanger/artemis/sequence/
-@dirrm share/Artemis/uk/ac/sanger/artemis/util/
-@dirrm share/Artemis/uk/ac/sanger/artemis/
-@dirrm share/Artemis/uk/ac/sanger/
-@dirrm share/Artemis/uk/ac/
-@dirrm share/Artemis/uk/
-@dirrm share/Artemis/

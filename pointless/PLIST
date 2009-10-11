@@ -63,12 +63,3 @@ share/pointless/templates/xml/pointless.dtd
 share/pointless/templates/xml/pointless.xsl
 share/pointless/templates/xml/pointless2html.xsl
 share/pointless/templates/xml/pointlesshtml.css
-@dirrm share/pointless/templates/xml
-@dirrm share/pointless/templates/html
-@dirrm share/pointless/templates
-@dirrm share/pointless/samples
-@dirrm share/pointless/lib/python/pointless
-@dirrm share/pointless/lib/python
-@dirrm share/pointless/lib
-@dirrm share/pointless/fonts
-@dirrm share/pointless

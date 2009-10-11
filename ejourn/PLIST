@@ -80,12 +80,3 @@ share/ejourn/modules/mult_journ.so
 share/ejourn/modules/toolbar.so
 share/ejourn/page/latex.html
 share/ejourn/page/latex.html~
-@dirrm share/ejourn/page
-@dirrm share/ejourn/modules
-@dirrm share/ejourn/img
-@dirrm share/ejourn/doc/resources
-@dirrm share/ejourn/doc/images/callouts
-@dirrm share/ejourn/doc/images
-@dirrm share/ejourn/doc
-@dirrm share/ejourn/dict
-@dirrm share/ejourn

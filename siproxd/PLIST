@@ -2,4 +2,3 @@
 sbin/siproxd
 share/examples/siproxd/siproxd.conf.example
 share/examples/siproxd/siproxd_passwd.cfg
-@dirrm share/examples/siproxd

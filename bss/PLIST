@@ -7,4 +7,3 @@ share/doc/bss/bluetooth.jpg
 share/doc/bss/hcidump-crash.c
 share/doc/bss/index.html
 share/doc/bss/reset_display_KV600i.c
-@dirrm share/doc/bss

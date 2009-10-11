@@ -4,4 +4,3 @@ man/man1/pdftk.1
 share/doc/pdftk/COPYING
 share/doc/pdftk/License-Adobe.txt
 share/doc/html/pdftk/pdftk.html
-@dirrm share/doc/pdftk

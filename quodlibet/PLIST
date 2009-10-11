@@ -138,13 +138,3 @@ share/quodlibet/util/i18n.py
 share/quodlibet/util/massagers.py
 share/quodlibet/util/uri.py
 share/quodlibet/widgets.py
-@dirrm share/quodlibet/util
-@dirrm share/quodlibet/qltk
-@dirrm share/quodlibet/plugins
-@dirrm share/quodlibet/parse
-@dirrm share/quodlibet/library
-@dirrm share/quodlibet/formats
-@dirrm share/quodlibet/devices
-@dirrm share/quodlibet/browsers
-@dirrm share/quodlibet
-@dirrm lib/quodlibet

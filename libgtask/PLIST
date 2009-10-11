@@ -19,12 +19,3 @@ share/gtk-doc/html/gtask/style.css
 share/gtk-doc/html/gtask/up.png
 share/pygtk/2.0/defs/gtask.defs
 share/vala/vapi/gtask-1.0.vapi
-@dirrm share/vala/vapi
-@dirrm share/vala
-@dirrm share/pygtk/2.0/defs
-@dirrm share/pygtk/2.0
-@dirrm share/pygtk
-@dirrm share/gtk-doc/html/gtask
-@dirrm ${PYSITELIB}/gtk-2.0
-@dirrm include/gtask-1.0/gtask
-@dirrm include/gtask-1.0

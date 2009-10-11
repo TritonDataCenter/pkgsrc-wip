@@ -27,4 +27,3 @@ sbin/modinfo.old
 sbin/modprobe.old
 sbin/rmmod.old
 share/linux-modutils-old/modules.conf.example
-@dirrm share/linux-modutils-old

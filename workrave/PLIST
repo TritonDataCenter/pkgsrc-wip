@@ -80,11 +80,5 @@ share/workrave/images/workrave-icon-small.png
 share/workrave/images/workrave-quiet-icon-medium.png
 share/workrave/images/workrave-suspended-icon-medium.png
 share/workrave/images/workrave.png
-@dirrm share/workrave/images
-@dirrm share/workrave/exercises
-@dirrm share/workrave
-@dirrm share/sounds/workrave
-@dirrm share/examples/workrave/sound/events
 @comment in xdg-dirs: @dirrm share/sounds
-@dirrm share/pixmaps/workrave
 @comment in xdg-dirs: @dirrm share/pixmaps

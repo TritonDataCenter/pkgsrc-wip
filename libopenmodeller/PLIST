@@ -47,7 +47,3 @@ lib/openmodeller/libomdg_bs.la
 lib/openmodeller/libomdistance_to_average.la
 lib/openmodeller/libomminimum_distance.la
 lib/openmodeller/libomoldgarp.la
-@dirrm lib/openmodeller
-@dirrm include/openmodeller/models
-@dirrm include/openmodeller/env_io
-@dirrm include/openmodeller

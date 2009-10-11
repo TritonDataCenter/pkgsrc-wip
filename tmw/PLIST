@@ -165,15 +165,3 @@ share/tmw/data/help/team.txt
 share/tmw/data/icons/tmw-icon.ico
 share/tmw/data/icons/tmw-icon.png
 share/tmw/data/icons/tmw-icon.xpm
-@dirrm share/tmw/data/icons
-@dirrm share/tmw/data/help
-@dirrm share/tmw/data/graphics/tiles
-@dirrm share/tmw/data/graphics/sprites
-@dirrm share/tmw/data/graphics/images/ambient
-@dirrm share/tmw/data/graphics/images
-@dirrm share/tmw/data/graphics/gui
-@dirrm share/tmw/data/graphics
-@dirrm share/tmw/data
-@dirrm share/tmw
-@dirrm share/pixmaps
-@dirrm share/applications

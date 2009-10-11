@@ -14,8 +14,3 @@ lib/gtk2hs/imports/sourceview/Graphics/UI/Gtk/SourceView/SourceTagStyle.hi
 lib/gtk2hs/imports/sourceview/Graphics/UI/Gtk/SourceView/SourceTagTable.hi
 lib/gtk2hs/imports/sourceview/Graphics/UI/Gtk/SourceView/SourceView.hi
 lib/gtk2hs/imports/sourceview/Graphics/UI/Gtk/SourceView/Types.hi
-@dirrm lib/gtk2hs/imports/sourceview/Graphics/UI/Gtk/SourceView
-@dirrm lib/gtk2hs/imports/sourceview/Graphics/UI/Gtk
-@dirrm lib/gtk2hs/imports/sourceview/Graphics/UI
-@dirrm lib/gtk2hs/imports/sourceview/Graphics
-@dirrm lib/gtk2hs/imports/sourceview

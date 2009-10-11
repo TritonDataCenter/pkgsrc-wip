@@ -27,4 +27,3 @@ include/xbase/xdate.h
 include/xbase/xstack.h
 include/xbase/xtypes.h
 lib/libxbase.la
-@dirrm include/xbase

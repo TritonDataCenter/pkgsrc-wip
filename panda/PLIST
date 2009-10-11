@@ -5,4 +5,3 @@ include/panda/legacy.h
 include/panda/objects.h
 lib/libpanda.la
 lib/pkgconfig/panda.pc
-@dirrm include/panda

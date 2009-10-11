@@ -2,4 +2,3 @@
 ${PYSITELIB}/_openal.so
 ${PYSITELIB}/pyopenal/__init__.pyc
 ${PYSITELIB}/pyopenal/__init__.pyo
-@dirrm ${PYSITELIB}/pyopenal

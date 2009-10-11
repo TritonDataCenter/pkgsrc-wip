@@ -104,7 +104,3 @@ include/audio-mml/voxlet.h
 lib/libuclaudio.la
 man/man1/rat.1
 share/examples/audio-mml/sdr/plugins/sdr2.plugin.S02.audio.rtp.-.rat-${PKGVERSION}
-@dirrm share/examples/audio-mml/sdr/plugins
-@dirrm share/examples/audio-mml/sdr
-@dirrm share/examples/audio-mml
-@dirrm include/audio-mml

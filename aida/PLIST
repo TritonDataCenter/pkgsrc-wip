@@ -143,9 +143,3 @@ share/doc/${PKGBASE}/api/hep/aida/OutOfStorageException.html
 share/doc/${PKGBASE}/api/hep/aida/package-frame.html
 share/doc/${PKGBASE}/api/hep/aida/package-summary.html
 share/doc/${PKGBASE}/api/hep/aida/package-tree.html
-@dirrm share/doc/${PKGBASE}/api/hep/aida
-@dirrm share/doc/${PKGBASE}/api/hep
-@dirrm share/doc/${PKGBASE}/api
-@dirrm share/doc/${PKGBASE}/UsersGuide
-@dirrm share/doc/${PKGBASE}
-@dirrm include/AIDA

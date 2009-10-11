@@ -105,4 +105,3 @@ include/io/utf8internal.h
 include/io/utf_convert.h
 lib/libiovmall.a
 lib/libiovmall.so
-@dirrm include/io

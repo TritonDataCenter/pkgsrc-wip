@@ -1,3 +1,2 @@
 @comment $NetBSD$
 lib/xmms/Input/xmp-plugin.so
-@dirrm lib/xmms/Input

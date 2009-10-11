@@ -25,5 +25,3 @@ share/mtrack/visibility.help
 share/mtrack/world.pbm
 var/mtrack/locfile
 var/mtrack/satfile
-@dirrm var/mtrack
-@dirrm share/mtrack

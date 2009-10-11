@@ -2,4 +2,3 @@
 bin/lsh
 man/man1/lsh.1
 share/examples/mg-lsh/autoexec
-@dirrm share/examples/mg-lsh

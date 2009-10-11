@@ -17,4 +17,3 @@ sbin/modprobe
 sbin/rmmod
 share/examples/linux-module-init-tools/modprobe.devfs.example
 share/examples/rc.d/modutils
-@dirrm share/examples/linux-module-init-tools

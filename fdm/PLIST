@@ -9,4 +9,3 @@ share/examples/fdm/n-marriott-old.conf
 share/examples/fdm/n-marriott.conf
 share/examples/fdm/t-ulmer.conf
 share/examples/fdm/w-maier.conf
-@dirrm share/examples/fdm

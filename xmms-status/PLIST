@@ -17,4 +17,3 @@ share/xmms/status_docklet/stave-anim5.xpm
 share/xmms/status_docklet/timetre-idle.xpm
 share/xmms/status_docklet/timetre-paused-anim.xpm
 share/xmms/status_docklet/timetre-playing-anim.xpm
-@dirrm share/xmms/status_docklet

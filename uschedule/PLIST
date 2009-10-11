@@ -21,4 +21,3 @@ sbin/uscheduled
 share/doc/uschedule/ChangeLog
 share/doc/uschedule/NEWS
 share/doc/uschedule/SECURITY-BUG
-@dirrm share/doc/uschedule

@@ -36,5 +36,3 @@ ${PYSITELIB}/pywm/flwm.py
 ${PYSITELIB}/pywm/flwm.pyc
 ${PYSITELIB}/pywm/flwm.pyo
 ${PYSITELIB}/pywm/flwm_.so
-@dirrm ${PYSITELIB}/pywm/examples
-@dirrm ${PYSITELIB}/pywm

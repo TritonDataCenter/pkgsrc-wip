@@ -29,7 +29,3 @@ share/esmart/esmart.png
 share/esmart/esmart_text_entry_test.edj
 share/esmart/text_view_bg.png
 share/esmart/text_view_over.png
-@dirrm share/esmart
-@dirrm lib/esmart/layout
-@dirrm lib/esmart
-@dirrm include/Esmart

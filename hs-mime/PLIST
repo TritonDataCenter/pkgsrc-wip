@@ -16,8 +16,3 @@ lib/mime-${PKGVERSION}/${HASKELL_VERSION}/libHSmime-${PKGVERSION}.a
 lib/mime-${PKGVERSION}/${HASKELL_VERSION}/libHSmime-${PKGVERSION}_p.a
 lib/mime-${PKGVERSION}/${HASKELL_VERSION}/package-description
 share/doc/mime-${PKGVERSION}/LICENSE
-@dirrm share/doc/mime-${PKGVERSION}
-@dirrm lib/mime-${PKGVERSION}/${HASKELL_VERSION}/Codec/MIME
-@dirrm lib/mime-${PKGVERSION}/${HASKELL_VERSION}/Codec
-@dirrm lib/mime-${PKGVERSION}/${HASKELL_VERSION}
-@dirrm lib/mime-${PKGVERSION}

@@ -62,8 +62,3 @@ ${PKGLOCALEDIR}/locale/uk/LC_MESSAGES/gtk-gnutella.mo
 ${PKGLOCALEDIR}/locale/zh_CN/LC_MESSAGES/gtk-gnutella.mo
 share/pixmaps/gtk-gnutella.png
 share/pixmaps/gtk-gnutella.svg
-@dirrm share/gtk-gnutella/pixmaps
-@dirrm share/gtk-gnutella/ja
-@dirrm share/gtk-gnutella/en
-@dirrm share/gtk-gnutella/el
-@dirrm share/gtk-gnutella

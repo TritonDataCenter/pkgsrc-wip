@@ -27,9 +27,4 @@ share/mime/packages/deskscribe.xml
 @comment in hicolor-icon-theme: @dirrm share/icons/hicolor/22x22/apps
 @comment in hicolor-icon-theme: @dirrm share/icons/hicolor/16x16/apps
 @comment in hicolor-icon-theme: @dirrm share/icons/hicolor
-@dirrm share/deskscribe/icons/hicolor/48x48/status
-@dirrm share/deskscribe/icons/hicolor/48x48
-@dirrm share/deskscribe/icons/hicolor
-@dirrm share/deskscribe/icons
-@dirrm share/deskscribe
 @comment in xdg-dirs: @dirrm share/applications

@@ -8,4 +8,3 @@ ${PYSITELIB}/${EGG_INFODIR}/top_level.txt
 ${PYSITELIB}/sshpt.py
 ${PYSITELIB}/sshpt.pyc
 ${PYSITELIB}/sshpt.pyo
-@dirrm ${PYSITELIB}/${EGG_INFODIR}

@@ -40,4 +40,3 @@ include/asm/sigcontext.h
 include/asm/smp.h
 include/asm/system.h
 include/asm/ucontext.h
-@dirrm include/asm/arch-v10

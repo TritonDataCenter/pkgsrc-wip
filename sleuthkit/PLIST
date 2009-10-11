@@ -62,5 +62,3 @@ share/sorter/linux.sort
 share/sorter/openbsd.sort
 share/sorter/solaris.sort
 share/sorter/windows.sort
-@dirrm share/sorter
-@dirrm share/doc/sleuthkit

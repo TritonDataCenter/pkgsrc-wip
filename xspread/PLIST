@@ -40,7 +40,3 @@ share/xspread/examples/ex2
 share/xspread/examples/ex2o
 share/xspread/examples/ex3
 share/xspread/examples/tutorial
-@dirrm share/xspread/examples
-@dirrm share/xspread/documents
-@dirrm share/xspread
-@dirrm share/doc/xspread

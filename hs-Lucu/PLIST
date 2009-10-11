@@ -67,12 +67,3 @@ lib/Lucu-${PKGVERSION}/${HASKELL_VERSION}/libHSLucu-${PKGVERSION}.a
 lib/Lucu-${PKGVERSION}/${HASKELL_VERSION}/libHSLucu-${PKGVERSION}_p.a
 lib/Lucu-${PKGVERSION}/${HASKELL_VERSION}/package-description
 share/doc/Lucu-${PKGVERSION}/COPYING
-@dirrm share/doc/Lucu-${PKGVERSION}
-@dirrm lib/Lucu-${PKGVERSION}/${HASKELL_VERSION}/Network/HTTP/Lucu/Resource
-@dirrm lib/Lucu-${PKGVERSION}/${HASKELL_VERSION}/Network/HTTP/Lucu/Parser
-@dirrm lib/Lucu-${PKGVERSION}/${HASKELL_VERSION}/Network/HTTP/Lucu/MIMEType
-@dirrm lib/Lucu-${PKGVERSION}/${HASKELL_VERSION}/Network/HTTP/Lucu
-@dirrm lib/Lucu-${PKGVERSION}/${HASKELL_VERSION}/Network/HTTP
-@dirrm lib/Lucu-${PKGVERSION}/${HASKELL_VERSION}/Network
-@dirrm lib/Lucu-${PKGVERSION}/${HASKELL_VERSION}
-@dirrm lib/Lucu-${PKGVERSION}

@@ -5,8 +5,3 @@ lib/digest-${PKGVERSION}/ghc-6.8.3/HSdigest-${PKGVERSION}.o
 lib/digest-${PKGVERSION}/ghc-6.8.3/libHSdigest-${PKGVERSION}.a
 lib/ghc-6.8.3/package.conf
 share/doc/digest-${PKGVERSION}/LICENSE
-@dirrm share/doc/digest-${PKGVERSION}
-@dirrm lib/ghc-6.8.3
-@dirrm lib/digest-${PKGVERSION}/ghc-6.8.3/Data/Digest
-@dirrm lib/digest-${PKGVERSION}/ghc-6.8.3/Data
-@dirrm lib/digest-${PKGVERSION}/ghc-6.8.3

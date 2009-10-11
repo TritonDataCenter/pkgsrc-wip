@@ -13,4 +13,3 @@ include/bluetooth/sdp_lib.h
 lib/libbluetooth.la
 lib/pkgconfig/bluez.pc
 share/aclocal/bluez.m4
-@dirrm include/bluetooth

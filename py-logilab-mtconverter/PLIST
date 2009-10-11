@@ -48,8 +48,3 @@ ${PYSITELIB}/logilab_mtconverter-0.6.0-py2.5.egg-info/SOURCES.txt
 ${PYSITELIB}/logilab_mtconverter-0.6.0-py2.5.egg-info/dependency_links.txt
 ${PYSITELIB}/logilab_mtconverter-0.6.0-py2.5.egg-info/namespace_packages.txt
 ${PYSITELIB}/logilab_mtconverter-0.6.0-py2.5.egg-info/top_level.txt
-@dirrm ${PYSITELIB}/logilab_mtconverter-${PKGVERSION}-py2.5.egg-info
-@dirrm ${PYSITELIB}/logilab/mtconverter/transforms
-@dirrm ${PYSITELIB}/logilab/mtconverter/test
-@dirrm ${PYSITELIB}/logilab/mtconverter
-@dirrm ${PYSITELIB}/logilab

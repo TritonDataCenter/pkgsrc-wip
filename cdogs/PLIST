@@ -34,11 +34,3 @@ share/doc/cdogs/doc/README
 share/doc/cdogs/doc/README_DATA
 share/doc/cdogs/doc/TODO
 share/doc/cdogs/doc/original_readme.txt
-@dirrm share/doc/cdogs/doc
-@dirrm share/doc/cdogs
-@dirrm share/cdogs/data/sounds
-@dirrm share/cdogs/data/music
-@dirrm share/cdogs/data/missions
-@dirrm share/cdogs/data/graphics
-@dirrm share/cdogs/data
-@dirrm share/cdogs

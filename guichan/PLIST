@@ -58,7 +58,3 @@ include/guichan/x.hpp
 lib/libguichan.la
 lib/libguichan_opengl.la
 lib/libguichan_sdl.la
-@dirrm include/guichan/widgets
-@dirrm include/guichan/sdl
-@dirrm include/guichan/opengl
-@dirrm include/guichan

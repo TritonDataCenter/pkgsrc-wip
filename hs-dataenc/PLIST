@@ -32,8 +32,3 @@ lib/dataenc-${PKGVERSION}/${HASKELL_VERSION}/libHSdataenc-${PKGVERSION}.a
 lib/dataenc-${PKGVERSION}/${HASKELL_VERSION}/libHSdataenc-${PKGVERSION}_p.a
 lib/dataenc-${PKGVERSION}/${HASKELL_VERSION}/package-description
 share/doc/dataenc-${PKGVERSION}/LICENSE
-@dirrm share/doc/dataenc-${PKGVERSION}
-@dirrm lib/dataenc-${PKGVERSION}/${HASKELL_VERSION}/Codec/Binary
-@dirrm lib/dataenc-${PKGVERSION}/${HASKELL_VERSION}/Codec
-@dirrm lib/dataenc-${PKGVERSION}/${HASKELL_VERSION}
-@dirrm lib/dataenc-${PKGVERSION}

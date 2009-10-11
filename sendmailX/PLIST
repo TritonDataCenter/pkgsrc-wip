@@ -37,6 +37,3 @@ share/examples/smX/Makefile
 share/examples/smX/aliases
 share/examples/smX/mt
 share/examples/smX/smx.conf
-@dirrm share/examples/smX
-@dirrm share/doc/smX
-@dirrm include/smX

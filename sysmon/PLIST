@@ -17,5 +17,3 @@ share/doc/sysmon/sysmon.conf.man.html
 share/doc/sysmon/sysmon.jpg
 share/doc/sysmon/sysmon.man.html
 share/examples/sysmon/sysmon.conf.dist
-@dirrm share/examples/sysmon
-@dirrm share/doc/sysmon

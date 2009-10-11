@@ -1,4 +1,3 @@
 @comment $NetBSD$
 lib/httpd/mod_jk2.so
 share/examples/ap2-jk2/workers.properties
-@dirrm share/examples/ap2-jk2

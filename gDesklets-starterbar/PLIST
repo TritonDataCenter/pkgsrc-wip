@@ -25,23 +25,5 @@ share/gdesklets/Sensors/StarterBar/locale/sr@Latn/LC_MESSAGES/gdesklets.mo
 share/gdesklets/Sensors/StarterBar/locale/sv/LC_MESSAGES/gdesklets.mo
 share/gdesklets/Sensors/StarterBar/__init__.py
 share/gdesklets/Sensors/StarterBar/home.desktop
-@dirrm share/gdesklets/Sensors/StarterBar/locale/sv/LC_MESSAGES
-@dirrm share/gdesklets/Sensors/StarterBar/locale/sv
-@dirrm share/gdesklets/Sensors/StarterBar/locale/sr@Latn/LC_MESSAGES
-@dirrm share/gdesklets/Sensors/StarterBar/locale/sr@Latn
-@dirrm share/gdesklets/Sensors/StarterBar/locale/sr/LC_MESSAGES
-@dirrm share/gdesklets/Sensors/StarterBar/locale/sr
-@dirrm share/gdesklets/Sensors/StarterBar/locale/sq/LC_MESSAGES
-@dirrm share/gdesklets/Sensors/StarterBar/locale/sq
-@dirrm share/gdesklets/Sensors/StarterBar/locale/pt/LC_MESSAGES
-@dirrm share/gdesklets/Sensors/StarterBar/locale/pt
-@dirrm share/gdesklets/Sensors/StarterBar/locale/fr/LC_MESSAGES
-@dirrm share/gdesklets/Sensors/StarterBar/locale/fr
-@dirrm share/gdesklets/Sensors/StarterBar/locale/de/LC_MESSAGES
-@dirrm share/gdesklets/Sensors/StarterBar/locale/de
-@dirrm share/gdesklets/Sensors/StarterBar/locale
-@dirrm share/gdesklets/Sensors/StarterBar
 @comment in gDesklets: @dirrm share/gdesklets/Sensors
-@dirrm share/gdesklets/Displays/StarterBar/gfx
-@dirrm share/gdesklets/Displays/StarterBar
 @comment in gDesklets: @dirrm share/gdesklets/Displays

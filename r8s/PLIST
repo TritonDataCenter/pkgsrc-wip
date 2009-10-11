@@ -8,5 +8,3 @@ share/examples/r8s/SAMPLE_FLU
 share/examples/r8s/SAMPLE_LOCAL_CLOCK
 share/examples/r8s/SAMPLE_SIMPLE
 share/examples/r8s/SAMPLE_SUPERTREE
-@dirrm share/examples/r8s
-@dirrm share/doc/r8s

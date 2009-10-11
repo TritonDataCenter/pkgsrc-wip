@@ -13,5 +13,3 @@ share/doc/ppp/SETUP
 share/ppp/chap-secrets
 share/ppp/options
 share/ppp/pap-secrets
-@dirrm share/ppp
-@dirrm share/doc/ppp

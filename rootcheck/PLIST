@@ -4,6 +4,3 @@ share/doc/rootcheck/README
 share/rootcheck/db/rootkit_files.txt
 share/rootcheck/db/rootkit_trojans.txt
 share/rootcheck/rootcheck.conf
-@dirrm share/rootcheck/db
-@dirrm share/rootcheck
-@dirrm share/doc/rootcheck

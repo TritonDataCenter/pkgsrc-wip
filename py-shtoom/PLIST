@@ -156,12 +156,3 @@ ${PYSITELIB}/shtoom/rtp.pyo
 ${PYSITELIB}/shtoom/sip.pyo
 ${PYSITELIB}/shtoom/stun.pyo
 ${PYSITELIB}/shtoom/upnp.pyo
-@dirrm ${PYSITELIB}/shtoom/app
-@dirrm ${PYSITELIB}/shtoom/audio
-@dirrm ${PYSITELIB}/shtoom/ui/tkui
-@dirrm ${PYSITELIB}/shtoom/ui/textui
-@dirrm ${PYSITELIB}/shtoom/ui/gnomeui
-@dirrm ${PYSITELIB}/shtoom/ui/qtui
-@dirrm ${PYSITELIB}/shtoom/ui
-@dirrm ${PYSITELIB}/shtoom/multicast
-@dirrm ${PYSITELIB}/shtoom

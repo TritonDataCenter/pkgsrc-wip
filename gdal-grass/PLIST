@@ -3,4 +3,3 @@ lib/gdalplugins/gdal_GRASS.so
 lib/gdalplugins/ogr_GRASS.so
 share/gdal/grass/etc/datum.table
 share/gdal/grass/etc/ellipse.table
-@dirrm lib/gdalplugins

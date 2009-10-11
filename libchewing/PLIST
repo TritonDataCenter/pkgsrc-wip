@@ -14,5 +14,3 @@ share/chewing/pinyin.tab
 share/chewing/swkb.dat
 share/chewing/symbols.dat
 share/chewing/us_freq.dat
-@dirrm share/chewing
-@dirrm include/chewing

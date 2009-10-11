@@ -62,5 +62,3 @@ include/assa-3.5/assa/XDRHack.h
 include/assa-3.5/assa/xdrIOBuffer.h
 lib/libassa-3.5.la
 lib/pkgconfig/assa-3.5.pc
-@dirrm include/assa-3.5/assa
-@dirrm include/assa-3.5

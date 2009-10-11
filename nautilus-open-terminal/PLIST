@@ -55,8 +55,6 @@ share/locale/uk/LC_MESSAGES/nautilus-open-terminal.mo
 share/locale/vi/LC_MESSAGES/nautilus-open-terminal.mo
 share/locale/zh_CN/LC_MESSAGES/nautilus-open-terminal.mo
 share/locale/zh_TW/LC_MESSAGES/nautilus-open-terminal.mo
-@dirrm share/locale/sr@Latn/LC_MESSAGES
-@dirrm share/locale/sr@Latn
 @comment in GConf: @dirrm share/gconf/schemas
 @comment in nautilus: @dirrm lib/nautilus/extensions-2.0
 @comment in nautilus: @dirrm lib/nautilus

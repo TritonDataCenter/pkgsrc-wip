@@ -25,5 +25,3 @@ ${PYSITELIB}/BabelPhish/pyfilter.py
 ${PYSITELIB}/BabelPhish/pytheme.py
 ${PYSITELIB}/BabelPhish/pythonol_festival.py
 ${PYSITELIB}/BabelPhish/symbolbar.py
-@dirrm ${PYSITELIB}/BabelPhish/pixmaps
-@dirrm ${PYSITELIB}/BabelPhish

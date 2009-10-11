@@ -8,4 +8,3 @@ man/man1/kawa.1
 man/man1/qexo.1
 share/java/${PKGNAME}.jar
 share/java/kawa.jar
-@dirrm share/java

@@ -1,3 +1,2 @@
 @comment $NetBSD$
 share/dataset/geography/${PKGNAME}/gully.dat
-@dirrm share/dataset/geography/${PKGNAME}

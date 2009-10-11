@@ -74,7 +74,4 @@ share/polipo/www/Variable-index.html
 share/polipo/www/WWWOFFLE.html
 share/polipo/www/Web-interface.html
 share/polipo/www/index.html
-@dirrm share/polipo/www
-@dirrm share/polipo
 @exec ${MKDIR} %D/etc/polipo
-@dirrm etc/polipo

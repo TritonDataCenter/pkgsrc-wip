@@ -32,5 +32,3 @@ ${PYSITELIB}/protocols/twisted_support.pyc
 ${PYSITELIB}/protocols/twisted_support.pyo
 ${PYSITELIB}/protocols/zope_support.pyc
 ${PYSITELIB}/protocols/zope_support.pyo
-@dirrm ${PYSITELIB}/protocols/tests
-@dirrm ${PYSITELIB}/protocols

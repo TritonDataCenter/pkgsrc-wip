@@ -16,8 +16,3 @@ lib/haskell-src-${PKGVERSION}/${HASKELL_VERSION}/libHShaskell-src-${PKGVERSION}.
 lib/haskell-src-${PKGVERSION}/${HASKELL_VERSION}/libHShaskell-src-${PKGVERSION}_p.a
 lib/haskell-src-${PKGVERSION}/${HASKELL_VERSION}/package-description
 share/doc/haskell-src-${PKGVERSION}/LICENSE
-@dirrm share/doc/haskell-src-${PKGVERSION}
-@dirrm lib/haskell-src-${PKGVERSION}/${HASKELL_VERSION}/Language/Haskell
-@dirrm lib/haskell-src-${PKGVERSION}/${HASKELL_VERSION}/Language
-@dirrm lib/haskell-src-${PKGVERSION}/${HASKELL_VERSION}
-@dirrm lib/haskell-src-${PKGVERSION}

@@ -49,8 +49,3 @@ share/linuxtv-dvb/dvb-t/uk-Rowridge
 share/linuxtv-dvb/dvb-t/uk-SandyHeath
 share/linuxtv-dvb/dvb-t/uk-Storeton
 share/linuxtv-dvb/dvb-t/uk-WinterHill
-@dirrm share/linuxtv-dvb/dvb-t
-@dirrm share/linuxtv-dvb/dvb-s
-@dirrm share/linuxtv-dvb/dvb-c
-@dirrm share/linuxtv-dvb
-@dirrm share/doc/linuxtv-dvb

@@ -85,6 +85,3 @@ share/vacuum/superspit.wav
 share/vacuum/time.wav
 share/vacuum/vacuum.ico
 share/vacuum/witch.wav
-@dirrm share/vacuum/music
-@dirrm share/vacuum/bin
-@dirrm share/vacuum

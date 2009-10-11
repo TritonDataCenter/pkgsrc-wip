@@ -9,4 +9,3 @@ share/viewglob/glob-expand
 share/viewglob/gviewglob
 share/viewglob/init-viewglob.bashrc
 share/viewglob/seer
-@dirrm share/viewglob

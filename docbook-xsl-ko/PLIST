@@ -6,4 +6,3 @@ share/xsl/docbook-ko/dbk-html-chunk.xsl
 share/xsl/docbook-ko/dbk-html-common.xsl
 share/xsl/docbook-ko/dbk-html.xsl
 share/xsl/docbook-ko/dbk-htmlhelp.xsl
-@dirrm share/xsl/docbook-ko

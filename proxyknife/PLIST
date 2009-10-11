@@ -33,7 +33,3 @@ share/doc/proxyknife/html/proxyknife.html/Startup-Options.html
 share/doc/proxyknife/html/proxyknife.html/Via-Proxy.html
 share/doc/proxyknife/proxyknife.dvi
 share/doc/proxyknife/proxyknife.pdf
-@dirrm share/doc/proxyknife/example
-@dirrm share/doc/proxyknife/html/proxyknife.html
-@dirrm share/doc/proxyknife/html
-@dirrm share/doc/proxyknife

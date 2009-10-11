@@ -5,4 +5,3 @@ ${PYSITELIB}/pypanel/COPYING
 ${PYSITELIB}/pypanel/README
 ${PYSITELIB}/pypanel/ppicon.png
 ${PYSITELIB}/pypanel/pypanelrc
-@dirrm ${PYSITELIB}/pypanel

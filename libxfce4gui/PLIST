@@ -142,7 +142,4 @@ share/locale/zh_TW/LC_MESSAGES/libxfcegui4.mo
 @comment in hicolor-icon-theme: @dirrm share/icons/hicolor/48x48/apps
 @comment in hicolor-icon-theme: @dirrm share/icons/hicolor/48x48
 @comment in hicolor-icon-theme: @dirrm share/icons/hicolor
-@dirrm share/doc/libxfcegui4
 @comment in libglade: @dirrm lib/libglade/2.0
-@dirrm include/xfce4/libxfcegui4
-@dirrm include/xfce4

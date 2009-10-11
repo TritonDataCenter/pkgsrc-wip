@@ -9,4 +9,3 @@ include/lo/lo_throw.h
 include/lo/lo_types.h
 lib/liblo.la
 lib/pkgconfig/liblo.pc
-@dirrm include/lo

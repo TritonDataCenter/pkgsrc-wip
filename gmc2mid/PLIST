@@ -41,11 +41,3 @@ share/examples/gmc2mid/samples/incomplete/rosen.gmc
 share/examples/gmc2mid/samples/incomplete/saveworld.gmc
 share/examples/gmc2mid/samples/incomplete/silberfaeden.gmc
 share/examples/gmc2mid/samples/others_songs/uptempo.gmc
-@dirrm share/doc/gmc2mid
-@dirrm share/examples/gmc2mid/lections
-@dirrm share/examples/gmc2mid/samples/complete
-@dirrm share/examples/gmc2mid/samples/from_mid2gmc
-@dirrm share/examples/gmc2mid/samples/incomplete
-@dirrm share/examples/gmc2mid/samples/others_songs
-@dirrm share/examples/gmc2mid/samples
-@dirrm share/examples/gmc2mid

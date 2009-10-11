@@ -34,5 +34,3 @@ share/swftools/swfs/keyboard_viewer.swf
 share/swftools/swfs/simple_viewer.swf
 share/swftools/swfs/swft_loader.swf
 share/swftools/swfs/tessel_loader.swf
-@dirrm share/swftools/swfs
-@dirrm share/swftools

@@ -114,16 +114,5 @@ share/kde/apps/yakuake/skins/plastik_dark/title/quit_down.png
 share/kde/apps/yakuake/skins/plastik_dark/title/quit_over.png
 share/kde/apps/yakuake/skins/plastik_dark/title/quit_up.png
 share/kde/apps/yakuake/skins/plastik_dark/title/right.png
-@dirrm share/kde/apps/yakuake/skins/plastik_light/title
-@dirrm share/kde/apps/yakuake/skins/plastik_light/tabs
-@dirrm share/kde/apps/yakuake/skins/plastik_light
-@dirrm share/kde/apps/yakuake/skins/plastik_dark/title
-@dirrm share/kde/apps/yakuake/skins/plastik_dark/tabs
-@dirrm share/kde/apps/yakuake/skins/plastik_dark
-@dirrm share/kde/apps/yakuake/skins/default/title
-@dirrm share/kde/apps/yakuake/skins/default/tabs
-@dirrm share/kde/apps/yakuake/skins/default
-@dirrm share/kde/apps/yakuake/skins
-@dirrm share/kde/apps/yakuake
 @comment in kde: @dirrm share/kde/apps
 @comment in kde: @dirrm share/applications/kde4

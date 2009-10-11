@@ -114,6 +114,4 @@ share/emacs/${PKGVERSION}/leim/quail/vntelex.el.gz
 share/emacs/${PKGVERSION}/leim/quail/vntelex.elc
 share/emacs/${PKGVERSION}/leim/quail/welsh.el.gz
 share/emacs/${PKGVERSION}/leim/quail/welsh.elc
-@dirrm share/emacs/${PKGVERSION}/leim/ja-dic
-@dirrm share/emacs/${PKGVERSION}/leim/quail
 @comment belongs to emacs package: dirrm share/emacs/${PKGVERSION}/leim

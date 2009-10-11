@@ -9,6 +9,3 @@ share/gdesklets/Displays/rssgrab/gfx/logo.png
 share/gdesklets/Displays/rssgrab/gfx/preview.png
 share/gdesklets/Sensors/rssgrab/__init__.py
 share/gdesklets/Sensors/rssgrab/feedparser.py
-@dirrm share/gdesklets/Sensors/rssgrab
-@dirrm share/gdesklets/Displays/rssgrab/gfx
-@dirrm share/gdesklets/Displays/rssgrab

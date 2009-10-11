@@ -44,6 +44,3 @@ share/gtk-doc/html/libgxim/up.png
 share/libgxim/AUTHORS
 share/libgxim/NEWS
 share/libgxim/README
-@dirrm share/libgxim
-@dirrm share/gtk-doc/html/libgxim
-@dirrm include/libgxim

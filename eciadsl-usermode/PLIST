@@ -7,5 +7,3 @@ share/${PKGBASE}/providers.db
 share/${PKGBASE}/firmware00.bin
 share/${PKGBASE}/synch01.bin
 share/examples/${PKGBASE}/ppp.conf
-@dirrm share/${PKGBASE}
-@dirrm share/examples/${PKGBASE}

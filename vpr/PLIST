@@ -10,5 +10,3 @@ share/vpr/e64-4lut.net
 share/vpr/e64-4x4lut.net
 share/vpr/e64.blif
 share/vpr/s1423.blif
-@dirrm share/vpr
-@dirrm share/doc/vpr

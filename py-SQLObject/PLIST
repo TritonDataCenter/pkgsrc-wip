@@ -159,18 +159,3 @@ ${PYSITELIB}/sqlobject/views.pyo
 ${PYSITELIB}/sqlobject/wsgi_middleware.py
 ${PYSITELIB}/sqlobject/wsgi_middleware.pyc
 ${PYSITELIB}/sqlobject/wsgi_middleware.pyo
-@dirrm ${PYSITELIB}/sqlobject/versioning
-@dirrm ${PYSITELIB}/sqlobject/util
-@dirrm ${PYSITELIB}/sqlobject/sybase
-@dirrm ${PYSITELIB}/sqlobject/sqlite
-@dirrm ${PYSITELIB}/sqlobject/postgres
-@dirrm ${PYSITELIB}/sqlobject/mysql
-@dirrm ${PYSITELIB}/sqlobject/mssql
-@dirrm ${PYSITELIB}/sqlobject/maxdb
-@dirrm ${PYSITELIB}/sqlobject/manager
-@dirrm ${PYSITELIB}/sqlobject/inheritance
-@dirrm ${PYSITELIB}/sqlobject/include/pydispatch
-@dirrm ${PYSITELIB}/sqlobject/include
-@dirrm ${PYSITELIB}/sqlobject/firebird
-@dirrm ${PYSITELIB}/sqlobject
-@dirrm ${PYSITELIB}/SQLObject-${PKGVERSION}-py2.5.egg-info

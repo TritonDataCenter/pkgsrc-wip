@@ -19,7 +19,3 @@ share/${PKGNAME}/scheme/switch-wm.scm
 share/${PKGNAME}/scheme/titlebar.scm
 share/${PKGNAME}/scheme/utils.scm
 share/doc/${PKGNAME}/html/user.html
-@dirrm share/${PKGNAME}/scheme
-@dirrm share/${PKGNAME}
-@dirrm share/doc/${PKGNAME}/html
-@dirrm share/doc/${PKGNAME}

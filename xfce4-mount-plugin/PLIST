@@ -20,5 +20,3 @@ share/locale/uk/LC_MESSAGES/xfce4-mount-plugin.mo
 share/locale/vi/LC_MESSAGES/xfce4-mount-plugin.mo
 share/locale/zh_TW/LC_MESSAGES/xfce4-mount-plugin.mo
 share/xfce4/panel-plugins/xfce4-mount-plugin.desktop
-@dirrm libexec/xfce4/mcs-plugins
-@dirrm share/xfce4/panel-plugins

@@ -3,7 +3,6 @@ bin/ewl_config
 bin/ewl_embed_test
 bin/ewl_simple_test
 bin/ewl_test
-etc/ewl/ewl.cfg
 include/ewl/Ewl.h
 include/ewl/Ewl_Test.h
 include/ewl/ewl_attach.h
@@ -264,13 +263,3 @@ share/ewl/images/lilbottom.png
 share/ewl/images/lilgrad.png
 share/ewl/themes/e17.edj
 share/ewl/themes/ewl_embed_test.edj
-@dirrm share/ewl/themes
-@dirrm share/ewl/images
-@dirrm share/ewl/examples
-@dirrm share/ewl
-@dirrm lib/ewl/tests
-@dirrm lib/ewl/plugins
-@dirrm lib/ewl/engines
-@dirrm lib/ewl
-@dirrm include/ewl
-@dirrm etc/ewl

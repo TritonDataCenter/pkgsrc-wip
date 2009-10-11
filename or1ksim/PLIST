@@ -9,5 +9,3 @@ share/doc/or1ksim/README
 share/doc/or1ksim/README.gdb
 share/examples/or1ksim/or1ksim.cfg
 share/examples/or1ksim/virtex.tim
-@dirrm share/doc/or1ksim
-@dirrm share/examples/or1ksim

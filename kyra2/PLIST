@@ -68,8 +68,3 @@ include/Kyra/util/gltypes.h
 include/Kyra/util/glutil.h
 lib/libkyra.la
 share/aclocal/kyra.m4
-@dirrm include/Kyra/util
-@dirrm include/Kyra/guiExtended
-@dirrm include/Kyra/gui
-@dirrm include/Kyra/engine
-@dirrm include/Kyra

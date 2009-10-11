@@ -21,9 +21,3 @@ lib/tagsoup-${PKGVERSION}/${HASKELL_VERSION}/libHStagsoup-${PKGVERSION}.a
 lib/tagsoup-${PKGVERSION}/${HASKELL_VERSION}/libHStagsoup-${PKGVERSION}_p.a
 lib/tagsoup-${PKGVERSION}/${HASKELL_VERSION}/package-description
 share/doc/tagsoup-${PKGVERSION}/LICENSE
-@dirrm share/doc/tagsoup-${PKGVERSION}
-@dirrm lib/tagsoup-${PKGVERSION}/${HASKELL_VERSION}/Text/HTML/TagSoup
-@dirrm lib/tagsoup-${PKGVERSION}/${HASKELL_VERSION}/Text/HTML
-@dirrm lib/tagsoup-${PKGVERSION}/${HASKELL_VERSION}/Text
-@dirrm lib/tagsoup-${PKGVERSION}/${HASKELL_VERSION}
-@dirrm lib/tagsoup-${PKGVERSION}

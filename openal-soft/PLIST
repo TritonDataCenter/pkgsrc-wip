@@ -7,4 +7,3 @@ lib/libopenal.so
 lib/libopenal.so.1
 lib/libopenal.so.${PKGVERSION}
 lib/pkgconfig/openal.pc
-@dirrm include/AL

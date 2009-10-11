@@ -51,4 +51,3 @@ include/ga/gaid.h
 include/ga/garandom.h
 include/ga/gatypes.h
 lib/libga.a
-@dirrm include/ga

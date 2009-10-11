@@ -19,5 +19,3 @@ share/locale/pt_BR/LC_MESSAGES/libgksuui1.0.mo
 share/locale/ro/LC_MESSAGES/libgksuui1.0.mo
 share/locale/ru/LC_MESSAGES/libgksuui1.0.mo
 share/locale/sk/LC_MESSAGES/libgksuui1.0.mo
-@dirrm share/libgksuui1.0
-@dirrm include/libgksuui1.0

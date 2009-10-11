@@ -61,9 +61,5 @@ ${PKG_LOCALTEXMFPREFIX}/fonts/tfm/kochi/mincho/mincho31.tfm
 ${PKG_LOCALTEXMFPREFIX}/fonts/truetype/kochi/gothic.ttf
 ${PKG_LOCALTEXMFPREFIX}/fonts/truetype/kochi/mincho.ttf
 @comment In ttf2pk: ${PKG_LOCALTEXMFPREFIX}/ttf2tfm/base/ttfonts.map
-@dirrm ${PKG_LOCALTEXMFPREFIX}/fonts/truetype/kochi
 @comment In teTeX-texmf: @dirrm ${PKG_LOCALTEXMFPREFIX}/fonts/truetype
-@dirrm ${PKG_LOCALTEXMFPREFIX}/fonts/tfm/kochi/mincho
-@dirrm ${PKG_LOCALTEXMFPREFIX}/fonts/tfm/kochi/gothic
-@dirrm ${PKG_LOCALTEXMFPREFIX}/fonts/tfm/kochi
 @comment In teTeX-texmf: @dirrm ${PKG_LOCALTEXMFPREFIX}/fonts/tfm

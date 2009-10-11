@@ -26,6 +26,3 @@ share/gdesklets/Displays/CornerXMMS/gfx/stop0.png
 share/gdesklets/Displays/CornerXMMS/gfx/textmask-br0.png
 share/gdesklets/Displays/CornerXMMS/gfx/textmask-br1.png
 share/gdesklets/Sensors/CornerXMMS/__init__.py
-@dirrm share/gdesklets/Sensors/CornerXMMS
-@dirrm share/gdesklets/Displays/CornerXMMS/gfx
-@dirrm share/gdesklets/Displays/CornerXMMS

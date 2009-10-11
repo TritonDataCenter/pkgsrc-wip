@@ -2,4 +2,3 @@
 share/doc/hunspell-${DICTNAME}/README_${DICTNAME}.txt
 share/hunspell/${DICTNAME}.aff
 share/hunspell/${DICTNAME}.dic
-@dirrm share/doc/hunspell-${DICTNAME}

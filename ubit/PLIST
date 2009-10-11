@@ -103,4 +103,3 @@ include/ubit/uxmlgrammar.hpp
 include/ubit/uxmlparser.hpp
 lib/libubit.la
 man/man1/ubit-config.1
-@dirrm include/ubit

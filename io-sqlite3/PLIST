@@ -4,8 +4,3 @@ lib/io/addons/SQLite3/_build/lib/libIoSQLite3.a
 lib/io/addons/SQLite3/build.io
 lib/io/addons/SQLite3/depends
 lib/io/addons/SQLite3/io/SQLite3.io
-@dirrm lib/io/addons/SQLite3/io
-@dirrm lib/io/addons/SQLite3/_build/lib
-@dirrm lib/io/addons/SQLite3/_build/dll
-@dirrm lib/io/addons/SQLite3/_build
-@dirrm lib/io/addons/SQLite3

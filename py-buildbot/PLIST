@@ -228,15 +228,3 @@ ${PYSITELIB}/buildbot/test/test_webparts.pyc
 ${PYSITELIB}/buildbot/test/test_webparts.pyo
 ${PYSITELIB}/buildbot/util.pyc
 ${PYSITELIB}/buildbot/util.pyo
-@dirrm ${PYSITELIB}/buildbot/test/subdir
-@dirrm ${PYSITELIB}/buildbot/test/mail
-@dirrm ${PYSITELIB}/buildbot/test
-@dirrm ${PYSITELIB}/buildbot/steps
-@dirrm ${PYSITELIB}/buildbot/status/web
-@dirrm ${PYSITELIB}/buildbot/status
-@dirrm ${PYSITELIB}/buildbot/slave
-@dirrm ${PYSITELIB}/buildbot/scripts
-@dirrm ${PYSITELIB}/buildbot/process
-@dirrm ${PYSITELIB}/buildbot/clients
-@dirrm ${PYSITELIB}/buildbot/changes
-@dirrm ${PYSITELIB}/buildbot

@@ -239,16 +239,3 @@ ${EMULSUBDIRSLASH}usr/games/postal/Textures/slaughterhouse-sw.utx
 ${EMULSUBDIRSLASH}usr/games/postal/Textures/spew.utx
 ${EMULSUBDIRSLASH}usr/games/postal/Textures/stv-height-1b.utx
 ${EMULSUBDIRSLASH}usr/games/postal/Textures/tempheight.utx
-@dirrm ${EMULSUBDIRSLASH}usr/games/postal/Textures
-@dirrm ${EMULSUBDIRSLASH}usr/games/postal/System
-@dirrm ${EMULSUBDIRSLASH}usr/games/postal/StaticMeshes
-@dirrm ${EMULSUBDIRSLASH}usr/games/postal/Sounds
-@dirrm ${EMULSUBDIRSLASH}usr/games/postal/Music
-@dirrm ${EMULSUBDIRSLASH}usr/games/postal/Maps
-@dirrm ${EMULSUBDIRSLASH}usr/games/postal/KarmaData
-@dirrm ${EMULSUBDIRSLASH}usr/games/postal/Help
-@dirrm ${EMULSUBDIRSLASH}usr/games/postal/Animations
-@dirrm ${EMULSUBDIRSLASH}usr/games/postal
-@dirrm ${EMULSUBDIRSLASH}usr/games/lib
-@dirrm ${EMULSUBDIRSLASH}usr/games/bin
-@dirrm ${EMULSUBDIRSLASH}usr/games

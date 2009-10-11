@@ -83,4 +83,3 @@ include/asm/udbg.h
 include/asm/user_exports.h
 include/asm/vc_ioctl.h
 include/asm/vga.h
-@dirrm include/asm/iSeries

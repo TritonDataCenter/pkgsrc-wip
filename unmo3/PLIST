@@ -1,4 +1,3 @@
 @comment $NetBSD$
 bin/unmo3
 share/doc/unmo3/unmo3.txt
-@dirrm share/doc/unmo3

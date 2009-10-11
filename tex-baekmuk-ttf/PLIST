@@ -145,11 +145,5 @@ ${PKG_LOCALTEXMFPREFIX}/fonts/truetype/baekmuk/dotum.ttf
 ${PKG_LOCALTEXMFPREFIX}/fonts/truetype/baekmuk/gulim.ttf
 ${PKG_LOCALTEXMFPREFIX}/fonts/truetype/baekmuk/hline.ttf
 @comment In ttf2pk: ${PKG_LOCALTEXMFPREFIX}/ttf2tfm/base/ttfonts.map
-@dirrm ${PKG_LOCALTEXMFPREFIX}/fonts/truetype/baekmuk
 @comment In teTeX-texmf: @dirrm ${PKG_LOCALTEXMFPREFIX}/fonts/truetype
-@dirrm ${PKG_LOCALTEXMFPREFIX}/fonts/tfm/baekmuk/hline
-@dirrm ${PKG_LOCALTEXMFPREFIX}/fonts/tfm/baekmuk/gulim
-@dirrm ${PKG_LOCALTEXMFPREFIX}/fonts/tfm/baekmuk/dotum
-@dirrm ${PKG_LOCALTEXMFPREFIX}/fonts/tfm/baekmuk/batang
-@dirrm ${PKG_LOCALTEXMFPREFIX}/fonts/tfm/baekmuk
 @comment In teTeX-texmf: @dirrm ${PKG_LOCALTEXMFPREFIX}/fonts/tfm

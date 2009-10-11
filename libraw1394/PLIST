@@ -12,4 +12,3 @@ man/man1/sendiso.1
 man/man1/testlibraw.1
 man/man5/isodump.5
 share/aclocal/libraw1394.m4
-@dirrm include/libraw1394

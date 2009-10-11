@@ -15,4 +15,3 @@ include/sidplay/sidtypes.h
 include/sidplay/sidusage.h
 lib/libsidplay2.la
 lib/pkgconfig/libsidplay2.pc
-@dirrm include/sidplay

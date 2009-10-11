@@ -94,5 +94,3 @@ ${PYSITELIB}/Pynfo/tap.pyo
 ${PYSITELIB}/Pynfo/util.py
 ${PYSITELIB}/Pynfo/util.pyc
 ${PYSITELIB}/Pynfo/util.pyo
-@dirrm ${PYSITELIB}/Pynfo/plugins
-@dirrm ${PYSITELIB}/Pynfo

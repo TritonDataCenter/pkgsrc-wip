@@ -54,13 +54,7 @@ share/pixmaps/grisbi/payment-methods.png
 share/pixmaps/grisbi/reconciliation.png
 share/pixmaps/grisbi/transaction-list.png
 share/pixmaps/grisbi/warnings.png
-@dirrm share/pixmaps/grisbi
 @comment in xdg-dirs: @dirrm share/pixmaps
 @comment in xdg-dirs: @dirrm share/mime-info
 @comment in hicolor-icon-theme: @dirrm share/icons/hicolor
-@dirrm share/doc/grisbi/help/fr
-@dirrm share/doc/grisbi/help/de
-@dirrm share/doc/grisbi/help/C
-@dirrm share/doc/grisbi/help
-@dirrm share/doc/grisbi
 @comment in xdg-dirs: @dirrm share/applications

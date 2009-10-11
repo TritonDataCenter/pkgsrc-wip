@@ -1,3 +1,2 @@
 @comment $NetBSD$
 lib/nautilus/extensions-2.0/libnautilus-search-tool.la
-@dirrm lib/nautilus/extensions-2.0

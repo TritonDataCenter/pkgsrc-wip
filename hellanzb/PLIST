@@ -60,8 +60,3 @@ ${PYSITELIB}/Hellanzb/external/elementtree/SimpleXMLWriter.pyc
 ${PYSITELIB}/Hellanzb/external/elementtree/SimpleXMLWriter.pyo
 ${PYSITELIB}/Hellanzb/external/elementtree/__init__.pyc
 ${PYSITELIB}/Hellanzb/external/elementtree/__init__.pyo
-@dirrm ${PYSITELIB}/Hellanzb/external/elementtree
-@dirrm ${PYSITELIB}/Hellanzb/external
-@dirrm ${PYSITELIB}/Hellanzb/NZBLeecher
-@dirrm ${PYSITELIB}/Hellanzb/HellaXMLRPC
-@dirrm ${PYSITELIB}/Hellanzb

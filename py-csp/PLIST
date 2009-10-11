@@ -104,9 +104,3 @@ share/examples/${PKGNAME}/Sieve.py
 share/examples/${PKGNAME}/TokenRing.py
 share/examples/${PKGNAME}/WebServer.py
 share/examples/${PKGNAME}/common.py
-@dirrm share/examples/${PKGNAME}
-@dirrm ${PYSITELIB}/pycsp/threads
-@dirrm ${PYSITELIB}/pycsp/processes
-@dirrm ${PYSITELIB}/pycsp/net
-@dirrm ${PYSITELIB}/pycsp/greenlets
-@dirrm ${PYSITELIB}/pycsp

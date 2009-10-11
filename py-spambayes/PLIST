@@ -142,5 +142,3 @@ ${PYSITELIB}/spambayes/storage.pyo
 ${PYSITELIB}/spambayes/tokenizer.py
 ${PYSITELIB}/spambayes/tokenizer.pyc
 ${PYSITELIB}/spambayes/tokenizer.pyo
-@dirrm ${PYSITELIB}/spambayes/resources
-@dirrm ${PYSITELIB}/spambayes

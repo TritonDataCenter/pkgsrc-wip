@@ -228,17 +228,3 @@ share/hengband/save/delete.me
 share/hengband/script/delete.me
 share/hengband/user/delete.me
 share/hengband/xtra/graf/8x8.bmp
-@dirrm share/hengband/xtra/graf
-@dirrm share/hengband/xtra
-@dirrm share/hengband/user
-@dirrm share/hengband/script
-@dirrm share/hengband/save
-@dirrm share/hengband/pref
-@dirrm share/hengband/info
-@dirrm share/hengband/help
-@dirrm share/hengband/file
-@dirrm share/hengband/edit
-@dirrm share/hengband/data
-@dirrm share/hengband/bone
-@dirrm share/hengband/apex
-@dirrm share/hengband
