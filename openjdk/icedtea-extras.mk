@@ -41,7 +41,6 @@ ICEDTEA_CONFIGURE_ARGS=	\
 .if defined(ICEDTEA_PACKAGE)
 CONFIGURE_ARGS+=	${ICEDTEA_CONFIGURE_ARGS}
 CONFIGURE_ARGS+=	--with-jdk-home=${PREFIX}/java/openjdk7
-CONFIGURE_ARGS+=	--with-jdk-home=/work/pkgsrc-obj/wip/openjdk/work.mac/bootstrap
 
 USE_LANGUAGES=		c c++
 USE_TOOLS+=	gawk pkg-config autoconf automake
