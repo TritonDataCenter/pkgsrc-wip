@@ -432,4 +432,3 @@ share/examples/java/jakarta-log4j/sort4.properties
 share/examples/java/jakarta-log4j/subclass/MyLogger.java
 share/examples/java/jakarta-log4j/subclass/MyLoggerFactory.java
 share/examples/java/jakarta-log4j/subclass/MyLoggerTest.java
-@unexec ${RMDIR} %D/lib/java 2>/dev/null || true

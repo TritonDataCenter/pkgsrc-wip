@@ -433,4 +433,3 @@ share/idl/omniORB/ir.idl
 share/idl/omniORB/orb.idl
 share/idl/omniORB/poa.idl
 share/idl/omniORB/poa_include.idl
-@unexec /bin/rmdir %D/share/idl 2>/dev/null || true

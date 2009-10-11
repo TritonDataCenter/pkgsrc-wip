@@ -1,5 +1,3 @@
 @comment $NetBSD$
 lib/opensync/plugins/python_module.la
 lib/opensync/python-plugins/sample.py
-@unexec ${RMDIR} %D/lib/opensync/python-plugins 2>/dev/null || ${TRUE}
-@unexec ${RMDIR} %D/lib/opensync/plugins 2>/dev/null || ${TRUE}

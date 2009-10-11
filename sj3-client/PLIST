@@ -7,4 +7,3 @@ lib/pkgconfig/sj3lib.pc
 man/man1/sj3dic.1
 share/doc/sj3/Nihongo.ps
 share/doc/sj3/sj3lib.ms
-@unexec ${RMDIR} %D/share/doc/sj3 2>/dev/null || ${TRUE}

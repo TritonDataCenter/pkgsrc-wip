@@ -1,3 +1,2 @@
 @comment $NetBSD$
 lib/xchat/plugins/python.la
-@unexec ${RMDIR} %D/lib/xchat/plugins 2>/dev/null || ${TRUE}

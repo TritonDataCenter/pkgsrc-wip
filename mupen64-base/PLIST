@@ -14,8 +14,6 @@ share/mupen64-base/mupen64
 share/mupen64-base/mupen64.ini
 share/mupen64-base/roms/pong.v64.gz
 share/mupen64-base/roms/fire.bin.gz
-@exec ${MKDIR} %D/share/mupen64-base/save
-@exec ${MKDIR} %D/share/mupen64-base/scripts
-@exec ${MKDIR} %D/share/mupen64-base/plugins
-@unexec ${RMDIR} %D/share/mupen64-base/plugins 2>/dev/null || ${TRUE}
-@unexec ${RMDIR} %D/share/mupen64-base 2>/dev/null || ${TRUE}
+@pkgdir share/mupen64-base/save
+@pkgdir share/mupen64-base/scripts
+@pkgdir share/mupen64-base/plugins

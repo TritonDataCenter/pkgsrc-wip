@@ -13,4 +13,3 @@ share/squirrelmail/plugins/chg_sasl_passwd/locale/sv_SE/LC_MESSAGES/chg_sasl_pas
 share/squirrelmail/plugins/chg_sasl_passwd/options.php
 share/squirrelmail/plugins/chg_sasl_passwd/setup.php
 share/squirrelmail/plugins/chg_sasl_passwd/version
-@unexec ${RMDIR} %D/share/squirrelmail/plugins/chg_sasl_passwd 2>/dev/null || ${TRUE}

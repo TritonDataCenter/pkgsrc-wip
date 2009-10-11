@@ -4,4 +4,3 @@ lib/java/jalview_1.8.jar
 share/jalview/examples/1hdc.pfam
 share/jalview/README.jalview
 share/jalview/jalview.sh
-@unexec ${RMDIR} %D/lib/java 2>/dev/null || ${TRUE}

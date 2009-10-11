@@ -2,4 +2,3 @@
 ${EMACS_LISPPREFIX}/camldebug.el
 ${EMACS_LISPPREFIX}/sym-lock.el
 ${EMACS_LISPPREFIX}/tuareg.el
-@unexec ${RMDIR} %D/${EMACS_LISPPREFIX} 2>/dev/null || ${TRUE}

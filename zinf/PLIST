@@ -36,4 +36,3 @@ share/pixmaps/zinf.png
 share/zinf/themes/Aquatica.fat
 share/zinf/themes/Zinf.fat
 share/zinf/themes/ZinfClassic.fat
-@unexec ${RMDIR} -p %D/share/gnome/apps/Audio 2> /dev/null || ${TRUE}

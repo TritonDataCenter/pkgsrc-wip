@@ -3,4 +3,3 @@ bin/mozplugger-controller
 bin/mozplugger-helper
 lib/mozilla/plugins/mozplugger.so
 share/examples/mozplugger/mozpluggerrc
-@unexec ${RMDIR} %D/lib/mozilla/plugins 2>/dev/null || ${TRUE}
