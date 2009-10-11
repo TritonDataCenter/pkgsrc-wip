@@ -1,0 +1,7 @@
+@comment $NetBSD$
+bin/bibliographer
+lib/bibliographer/bibliographer.exe
+lib/bibliographer/bibliographer.exe.config
+man/man1/bibliographer.1
+share/applications/bibliographer.desktop
+share/pixmaps/bibliographer.png
