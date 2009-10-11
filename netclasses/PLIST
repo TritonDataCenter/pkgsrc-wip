@@ -19,6 +19,3 @@ share/GNUstep/Local/Library/Headers/netclasses/IRCObject.h
 share/GNUstep/Local/Library/Headers/netclasses/LineObject.h
 share/GNUstep/Local/Library/Headers/netclasses/NetBase.h
 share/GNUstep/Local/Library/Headers/netclasses/NetTCP.h
-@comment in devel/gnustep-make: @dirrm share/GNUstep/Local/Library/Libraries
-@comment in devel/gnustep-make: @dirrm share/GNUstep/Local/Library/Headers
-@comment in devel/gnustep-make: @dirrm share/GNUstep/Local/Library/Frameworks

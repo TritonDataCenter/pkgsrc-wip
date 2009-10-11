@@ -3,5 +3,3 @@ bin/glista
 share/applications/glista.desktop
 share/glista/glista-icon.png
 share/glista/glista.ui
-@comment in hicolor-icon-theme: @dirrm share/icons/hicolor
-@comment in xdg-dirs: @dirrm share/applications

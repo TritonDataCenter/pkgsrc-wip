@@ -2,4 +2,3 @@
 bin/gfa
 share/gfa/README
 share/gfa/pixmaps/person.png
-@comment in hicolor-icon-theme: @dirrm share/icons/hicolor

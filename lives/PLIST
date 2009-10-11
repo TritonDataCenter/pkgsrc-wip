@@ -236,5 +236,3 @@ share/locale/pt_BR/LC_MESSAGES/lives.mo
 share/locale/ru/LC_MESSAGES/lives.mo
 share/locale/tr/LC_MESSAGES/lives.mo
 share/pixmaps/lives.xpm
-@comment in xdg-dirs: @dirrm share/pixmaps
-@comment in xdg-dirs: @dirrm share/applications

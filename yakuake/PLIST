@@ -114,5 +114,3 @@ share/kde/apps/yakuake/skins/plastik_dark/title/quit_down.png
 share/kde/apps/yakuake/skins/plastik_dark/title/quit_over.png
 share/kde/apps/yakuake/skins/plastik_dark/title/quit_up.png
 share/kde/apps/yakuake/skins/plastik_dark/title/right.png
-@comment in kde: @dirrm share/kde/apps
-@comment in kde: @dirrm share/applications/kde4

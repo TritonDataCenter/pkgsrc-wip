@@ -26,4 +26,3 @@ share/GNUstep/Local/Applications/TextEdit.app/Resources/text.tiff
 share/GNUstep/Local/Applications/TextEdit.app/TextEdit
 share/GNUstep/Local/Applications/TextEdit.app/stamp.make
 share/GNUstep/Local/Tools/TextEdit
-@comment in devel/gnustep-make: @dirrm share/GNUstep/Local/Applications

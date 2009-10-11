@@ -45,5 +45,3 @@ share/locale/de/LC_MESSAGES/backintime.mo
 share/locale/es/LC_MESSAGES/backintime.mo
 share/locale/fr/LC_MESSAGES/backintime.mo
 share/omf/backintime/backintime-C.omf
-@comment in rarian: @dirrm share/omf
-@comment in xdg-dirs: @dirrm share/applications

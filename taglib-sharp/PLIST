@@ -5,5 +5,3 @@ lib/mono/gac/taglib-sharp/${PKGVERSION}__db62eba44689b5b0/taglib-sharp.dll
 lib/mono/gac/taglib-sharp/${PKGVERSION}__db62eba44689b5b0/taglib-sharp.dll.mdb
 lib/mono/taglib-sharp/taglib-sharp.dll
 share/pkgconfig/taglib-sharp.pc
-@comment in mono: @dirrm lib/mono/gac
-@comment in mono: @dirrm lib/mono

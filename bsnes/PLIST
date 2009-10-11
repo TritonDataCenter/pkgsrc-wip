@@ -1,4 +1,3 @@
 @comment $NetBSD$
 bin/bsnes
 share/icons/bsnes.png
-@comment in xdg-dirs: @dirrm share/icons

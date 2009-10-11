@@ -2,5 +2,3 @@
 java/kaffe/jre/lib/${MACHINE_ARCH}/libgtkpeer.la
 java/kaffe/jre/lib/${MACHINE_ARCH}/libjawtgnu.la
 java/kaffe/jre/lib/${MACHINE_ARCH}/libxawt.la
-@comment in kaffe: @dirrm java/kaffe/jre/lib/${MACHINE_ARCH}
-@comment in kaffe: @dirrm java/kaffe/jre/lib

@@ -60,4 +60,3 @@ share/locale/uk/LC_MESSAGES/audacity.mo
 share/locale/zh/LC_MESSAGES/audacity.mo
 share/locale/zh_TW/LC_MESSAGES/audacity.mo
 share/mime/packages/audacity.xml
-@comment in shared-mime-info: @dirrm share/mime/packages

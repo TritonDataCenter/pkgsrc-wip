@@ -1016,5 +1016,3 @@ share/locale/uk/LC_MESSAGES/gajim.mo
 share/locale/zh_CN/LC_MESSAGES/gajim.mo
 share/pixmaps/gajim.png
 share/pixmaps/gajim_about.png
-@comment in xdg-dirs: @dirrm share/pixmaps
-@comment in xdg-dirs: @dirrm share/applications

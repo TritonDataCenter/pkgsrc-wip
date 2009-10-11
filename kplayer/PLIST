@@ -336,18 +336,3 @@ share/locale/sr@Latn/LC_MESSAGES/kplayer.mo
 share/locale/sv/LC_MESSAGES/kplayer.mo
 share/locale/tr/LC_MESSAGES/kplayer.mo
 share/locale/zh_CN/LC_MESSAGES/kplayer.mo
-@comment in kde: @dirrm share/kde/services
-@comment in kde: @dirrm share/icons/locolor/32x32/apps
-@comment in kde: @dirrm share/icons/locolor/22x22/apps
-@comment in kde: @dirrm share/icons/locolor/16x16/apps
-@comment in kde: @dirrm share/icons/hicolor/64x64/apps
-@comment in kde: @dirrm share/icons/hicolor/48x48/apps
-@comment in kde: @dirrm share/icons/hicolor/32x32/apps
-@comment in kde: @dirrm share/icons/hicolor/22x22/apps
-@comment in kde: @dirrm share/icons/hicolor/16x16/apps
-@comment in kde: @dirrm share/kde/apps
-@comment in kde: @dirrm share/doc/kde/HTML/sv
-@comment in kde: @dirrm share/doc/kde/HTML/pt
-@comment in kde: @dirrm share/doc/kde/HTML/en
-@comment in kde: @dirrm share/doc/kde/HTML/da
-@comment in kde: @dirrm lib/kde3

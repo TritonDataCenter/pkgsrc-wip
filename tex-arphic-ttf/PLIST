@@ -174,6 +174,3 @@ ${PKG_LOCALTEXMFPREFIX}/fonts/truetype/arphic/bkai00mp.ttf
 ${PKG_LOCALTEXMFPREFIX}/fonts/truetype/arphic/bsmi00lp.ttf
 ${PKG_LOCALTEXMFPREFIX}/fonts/truetype/arphic/gbsn00lp.ttf
 ${PKG_LOCALTEXMFPREFIX}/fonts/truetype/arphic/gkai00mp.ttf
-@comment In ttf2pk: ${PKG_LOCALTEXMFPREFIX}/ttf2tfm/base/ttfonts.map
-@comment In teTeX-texmf: @dirrm ${PKG_LOCALTEXMFPREFIX}/fonts/truetype
-@comment In teTeX-texmf: @dirrm ${PKG_LOCALTEXMFPREFIX}/fonts/tfm

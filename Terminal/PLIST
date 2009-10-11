@@ -18,4 +18,3 @@ share/GNUstep/Local/Applications/Terminal.app/Resources/cursor_line.tiff
 share/GNUstep/Local/Applications/Terminal.app/Resources/cursor_stroked.tiff
 share/GNUstep/Local/Applications/Terminal.app/Terminal
 share/GNUstep/Local/Applications/Terminal.app/stamp.make
-@comment in devel/gnustep-make: @dirrm share/GNUstep/Local/Applications

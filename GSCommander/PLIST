@@ -8,4 +8,3 @@ share/GNUstep/Local/Applications/GSCommander.app/Resources/Info-gnustep.plist
 share/GNUstep/Local/Applications/GSCommander.app/Resources/README
 share/GNUstep/Local/Applications/GSCommander.app/library_paths.openapp
 share/GNUstep/Local/Applications/GSCommander.app/stamp.make
-@comment in devel/gnustep-make: @dirrm share/GNUstep/Local/Applications

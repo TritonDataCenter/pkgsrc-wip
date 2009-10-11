@@ -15,10 +15,3 @@ share/locale/fr/LC_MESSAGES/giggle.mo
 share/locale/pl/LC_MESSAGES/giggle.mo
 share/locale/sv/LC_MESSAGES/giggle.mo
 share/locale/vi/LC_MESSAGES/giggle.mo
-@comment in hicolor-icon-theme: @dirrm share/icons/hicolor/scalable/apps
-@comment in hicolor-icon-theme: @dirrm share/icons/hicolor/48x48/apps
-@comment in hicolor-icon-theme: @dirrm share/icons/hicolor/32x32/apps
-@comment in hicolor-icon-theme: @dirrm share/icons/hicolor/22x22/apps
-@comment in hicolor-icon-theme: @dirrm share/icons/hicolor/16x16/apps
-@comment in hicolor-icon-theme: @dirrm share/icons/hicolor
-@comment in xdg-dirs: @dirrm share/applications

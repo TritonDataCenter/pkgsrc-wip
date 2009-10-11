@@ -21,10 +21,3 @@ share/locale/oc/LC_MESSAGES/deskscribe.mo
 share/locale/sl/LC_MESSAGES/deskscribe.mo
 share/locale/sv/LC_MESSAGES/deskscribe.mo
 share/mime/packages/deskscribe.xml
-@comment in shared-mime-info: @dirrm share/mime/packages
-@comment in hicolor-icon-theme: @dirrm share/icons/hicolor/48x48/apps
-@comment in hicolor-icon-theme: @dirrm share/icons/hicolor/32x32/apps
-@comment in hicolor-icon-theme: @dirrm share/icons/hicolor/22x22/apps
-@comment in hicolor-icon-theme: @dirrm share/icons/hicolor/16x16/apps
-@comment in hicolor-icon-theme: @dirrm share/icons/hicolor
-@comment in xdg-dirs: @dirrm share/applications

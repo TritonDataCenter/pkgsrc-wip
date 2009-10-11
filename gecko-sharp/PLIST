@@ -6,5 +6,3 @@ lib/monodoc/sources/gecko-sharp-docs.source
 lib/monodoc/sources/gecko-sharp-docs.tree
 lib/monodoc/sources/gecko-sharp-docs.zip
 lib/pkgconfig/gecko-sharp-2.0.pc
-@comment in mono: @dirrm lib/mono/gac
-@comment in mono: @dirrm lib/mono

@@ -1347,7 +1347,5 @@ man/xemacs-ctags.1
 man/xemacs-etags.1
 man/xemacs.1
 @comment ### Per default, sxemacs creates a symlink to xemacs-packages.
-@comment @exec ${MKDIR} %D/lib/sxemacs/site-modules
-@comment @dirrm lib/sxemacs/site-modules
-@comment @dirrm lib/sxemacs
-@exec ${MKDIR} %D/lib/${PKGNAME}/${MACHINE_GNU_PLATFORM}/modules
+@pkgdir lib/sxemacs/site-modules
+@pkgdir lib/${PKGNAME}/${MACHINE_GNU_PLATFORM}/modules

@@ -56,6 +56,3 @@ share/mime-info/metatheme.mime
 share/pixmaps/32_butteflylogo.png
 share/pixmaps/gnome-application-x-metatheme.png
 share/pixmaps/settings.png
-@comment in gnome2-control-center: @dirrm share/mime-info
-@comment in gnome2-control-center: @dirrm share/control-center-2.0/capplets
-@comment in xdg-dirs: @dirrm share/applications

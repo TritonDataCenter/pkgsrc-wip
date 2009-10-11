@@ -59,4 +59,3 @@ share/locale/zh_TW/LC_MESSAGES/emerald.mo
 share/mime-info/emerald.mime
 share/mime/packages/emerald.xml
 share/pixmaps/emerald-theme-manager-icon.png
-@comment in shared-mime-info: @dirrm share/mime/packages

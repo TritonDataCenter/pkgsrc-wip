@@ -22,5 +22,3 @@ share/locale/sk/LC_MESSAGES/gpicview.mo
 share/locale/zh_CN/LC_MESSAGES/gpicview.mo
 share/locale/zh_TW/LC_MESSAGES/gpicview.mo
 share/pixmaps/gpicview.png
-@comment in xdg-dirs: @dirrm share/pixmaps
-@comment in xdg-dirs: @dirrm share/applications

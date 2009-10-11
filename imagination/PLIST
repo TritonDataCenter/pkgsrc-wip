@@ -38,9 +38,3 @@ share/imagination/pixmaps/imagination-import.png
 share/locale/en_GB/LC_MESSAGES/imagination.mo
 share/locale/it/LC_MESSAGES/imagination.mo
 share/locale/sl_SI/LC_MESSAGES/imagination.mo
-@comment in hicolor-icon-theme: @dirrm share/icons/hicolor/scalable/apps
-@comment in hicolor-icon-theme: @dirrm share/icons/hicolor/48x48/apps
-@comment in hicolor-icon-theme: @dirrm share/icons/hicolor/24x24/apps
-@comment in hicolor-icon-theme: @dirrm share/icons/hicolor/16x16/apps
-@comment in hicolor-icon-theme: @dirrm share/icons/hicolor
-@comment in xdg-dirs: @dirrm share/applications

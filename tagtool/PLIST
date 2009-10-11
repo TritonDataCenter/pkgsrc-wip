@@ -35,7 +35,3 @@ share/tagtool/tab_rename.png
 share/tagtool/tab_tag.png
 share/tagtool/tagtool.glade
 share/tagtool/warn.png
-@comment in hicolor-icon-theme: @dirrm share/icons/hicolor/scalable/apps
-@comment in hicolor-icon-theme: @dirrm share/icons/hicolor/48x48/apps
-@comment in hicolor-icon-theme: @dirrm share/icons/hicolor
-@comment in xdg-dirs: @dirrm share/applications

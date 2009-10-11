@@ -11,5 +11,3 @@ share/locale/hr/LC_MESSAGES/GdMap.mo
 share/locale/ru/LC_MESSAGES/GdMap.mo
 share/locale/tr/LC_MESSAGES/GdMap.mo
 share/pixmaps/gdmap_icon.png
-@comment in xdg-dirs: @dirrm share/pixmaps
-@comment in xdg-dirs: @dirrm share/applications

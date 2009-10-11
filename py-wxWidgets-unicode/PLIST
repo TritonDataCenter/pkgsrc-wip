@@ -1721,5 +1721,3 @@ ${PYSITELIB}/wxaddons/sized_controls.pyo
 ${PYSITELIB}/wxversion.py
 ${PYSITELIB}/wxversion.pyc
 ${PYSITELIB}/wxversion.pyo
-@comment in wxGTK: @dirrm include/wx-2.8/wx
-@comment in wxGTK: @dirrm include/wx-2.8

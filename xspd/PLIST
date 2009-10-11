@@ -79,4 +79,3 @@ share/xspd/utils/xspStuffEncode
 share/xspd/xspanalyze
 share/xspd/xspdAdmin.xsp
 share/xspd/xspfwd
-@comment @dirrm etc/xspd

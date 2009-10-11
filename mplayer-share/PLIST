@@ -249,4 +249,3 @@ share/mplayer/DOCS/zh/users_against_developers.html
 share/mplayer/DOCS/zh/video.html
 share/mplayer/codecs.conf
 share/mplayer/input.conf
-@comment in mplayer-fonts: @dirrm share/mplayer

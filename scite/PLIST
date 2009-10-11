@@ -81,5 +81,3 @@ share/scite/vb.properties
 share/scite/verilog.properties
 share/scite/vhdl.properties
 share/scite/yaml.properties
-@comment in xdg-dirs: @dirrm share/pixmaps
-@comment in xdg-dirs: @dirrm share/applications

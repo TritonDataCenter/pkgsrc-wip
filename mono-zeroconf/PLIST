@@ -17,5 +17,3 @@ lib/monodoc/sources/mono-zeroconf-docs.source
 lib/monodoc/sources/mono-zeroconf-docs.tree
 lib/monodoc/sources/mono-zeroconf-docs.zip
 lib/pkgconfig/mono-zeroconf.pc
-@comment in mono: @dirrm lib/mono/gac
-@comment in mono: @dirrm lib/mono

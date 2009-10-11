@@ -163,4 +163,3 @@ share/GNUstep/Local/Library/Headers/TalkSoupBundles
 share/GNUstep/Local/Library/Libraries/libTalkSoupBundles.so
 share/GNUstep/Local/Library/Libraries/libTalkSoupBundles.so.0.0.1
 share/GNUstep/Local/Tools/TalkSoup
-@comment in devel/gnustep-make: @dirrm share/GNUstep

@@ -665,4 +665,3 @@ share/endeavour2/icons/icon_usb_plug_32x32.xpm
 share/endeavour2/icons/icon_usb_plug_48x48.xpm
 share/endeavour2/images/texttips_example.xpm
 share/endeavour2/images/tooltips_example.xpm
-@comment in xdg-dirs: @dirrm share/icons

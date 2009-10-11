@@ -5,6 +5,3 @@ share/doc/scratchpad/README
 share/gconf/schemas/scratchpad.schemas
 share/pixmaps/scratchpad.svg
 share/scratchpad/scratchpad-ui.xml
-@comment in xdg-dirs: @dirrm share/pixmaps
-@comment in GConf: @dirrm share/gconf/schemas
-@comment in xdg-dirs: @dirrm share/applications

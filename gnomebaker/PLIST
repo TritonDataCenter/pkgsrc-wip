@@ -46,10 +46,3 @@ share/gnomebaker/state12.png
 share/gnomebaker/state13.png
 share/icons/hicolor/48x48/apps/gnomebaker-48.png
 share/omf/gnomebaker/gnomebaker-C.omf
-@comment in rarian: @dirrm share/omf
-@comment in hicolor-icon-theme: @dirrm share/icons/hicolor/48x48/apps
-@comment in hicolor-icon-theme: @dirrm share/icons/hicolor/48x48
-@comment in hicolor-icon-theme: @dirrm share/icons/hicolor
-@comment in xdg-dirs: @dirrm share/icons
-@comment in gnome2-dirs: @dirrm share/gnome/help
-@comment in xdg-dirs: @dirrm share/applications

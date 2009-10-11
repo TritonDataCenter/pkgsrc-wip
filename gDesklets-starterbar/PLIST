@@ -25,5 +25,3 @@ share/gdesklets/Sensors/StarterBar/locale/sr@Latn/LC_MESSAGES/gdesklets.mo
 share/gdesklets/Sensors/StarterBar/locale/sv/LC_MESSAGES/gdesklets.mo
 share/gdesklets/Sensors/StarterBar/__init__.py
 share/gdesklets/Sensors/StarterBar/home.desktop
-@comment in gDesklets: @dirrm share/gdesklets/Sensors
-@comment in gDesklets: @dirrm share/gdesklets/Displays

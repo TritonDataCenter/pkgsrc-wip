@@ -6,6 +6,3 @@ lib/monodoc/sources/webkit-sharp-docs.source
 lib/monodoc/sources/webkit-sharp-docs.tree
 lib/monodoc/sources/webkit-sharp-docs.zip
 lib/pkgconfig/webkit-sharp-1.0.pc
-@comment in hicolor-icon-theme: @dirrm share/icons/hicolor
-@comment in mono: @dirrm lib/mono/gac
-@comment in mono: @dirrm lib/mono

@@ -7,4 +7,3 @@ share/doc/residual/NEWS
 share/doc/residual/README
 share/doc/residual/TODO
 share/pixmaps/residual.xpm
-@comment in xdg-dirs: @dirrm share/pixmaps

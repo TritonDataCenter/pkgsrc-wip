@@ -115,5 +115,3 @@ share/opera/styles/user/textonly.css
 share/opera/styles/user/userstyle.ini
 share/opera/styles/wml.css
 share/opera/styles/OPF.css
-@comment @dirrm share/opera/plugins
-@comment @dirrm share/opera

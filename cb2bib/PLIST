@@ -16,5 +16,3 @@ share/cb2bib/testPDFImport/nomeaning2.pdf
 share/cb2bib/testPDFImport/nomeaning3.pdf
 share/cb2bib/testPDFImport/nomeaning4.pdf
 share/pixmaps/cb2bib.png
-@comment in xdg-dirs: @dirrm share/pixmaps
-@comment in xdg-dirs: @dirrm share/applications

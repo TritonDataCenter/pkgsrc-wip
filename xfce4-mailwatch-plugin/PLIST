@@ -31,6 +31,3 @@ share/xfce4/doc/C/images/mailwatch-pop3-settings.png
 share/xfce4/doc/C/images/mailwatch-properties.png
 share/xfce4/doc/C/xfce4-mailwatch-plugin.html
 share/xfce4/panel-plugins/mailwatch.desktop
-@comment in hicolor-icon-theme: @dirrm share/icons/hicolor/scalable/apps
-@comment in hicolor-icon-theme: @dirrm share/icons/hicolor/48x48/apps
-@comment in hicolor-icon-theme: @dirrm share/icons/hicolor

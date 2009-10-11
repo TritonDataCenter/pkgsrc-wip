@@ -5524,5 +5524,3 @@ majordomo/man/man3/Mj::TokenDB.3
 majordomo/man/man3/Mj::Util.3
 majordomo/man/man3/mj_cf_data.3
 majordomo/man/man3/mj_cf_defs.3
-@comment @dirrm majordomo/lists
-@comment @dirrm majordomo

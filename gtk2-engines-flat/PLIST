@@ -3,5 +3,3 @@ lib/gtk-${PKGVERSION}/2.10.0/engines/libflat.la
 share/themes/Flat/ICON.png
 share/themes/Flat/README.html
 share/themes/Flat/gtk-${PKGVERSION}/gtkrc
-@comment in xdg-dirs: @dirrm share/themes
-@comment in gtk2: @dirrm lib/gtk-${PKGVERSION}/2.10.0/engines

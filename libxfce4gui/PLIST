@@ -137,9 +137,3 @@ share/locale/uk/LC_MESSAGES/libxfcegui4.mo
 share/locale/ur/LC_MESSAGES/libxfcegui4.mo
 share/locale/zh_CN/LC_MESSAGES/libxfcegui4.mo
 share/locale/zh_TW/LC_MESSAGES/libxfcegui4.mo
-@comment in hicolor-icon-theme: @dirrm share/icons/hicolor/scalable/apps
-@comment in hicolor-icon-theme: @dirrm share/icons/hicolor/scalable
-@comment in hicolor-icon-theme: @dirrm share/icons/hicolor/48x48/apps
-@comment in hicolor-icon-theme: @dirrm share/icons/hicolor/48x48
-@comment in hicolor-icon-theme: @dirrm share/icons/hicolor
-@comment in libglade: @dirrm lib/libglade/2.0

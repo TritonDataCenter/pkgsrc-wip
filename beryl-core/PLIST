@@ -115,9 +115,3 @@ share/locale/uk_UA/LC_MESSAGES/beryl-core.mo
 share/locale/zh_CN/LC_MESSAGES/beryl-core.mo
 share/locale/zh_HK/LC_MESSAGES/beryl-core.mo
 share/locale/zh_TW/LC_MESSAGES/beryl-core.mo
-@comment these belong to libiconv: 	share/locale/uk_UA/LC_MESSAGES
-@comment 				share/locale/uk_UA
-@comment 				share/locale/sv_FI/LC_MESSAGES
-@comment 				share/locale/sv_FI
-@comment 				share/locale/hu_HU/LC_MESSAGES
-@comment 				share/locale/hu_HU

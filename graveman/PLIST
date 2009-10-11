@@ -190,5 +190,3 @@ share/locale/pt_BR/LC_MESSAGES/graveman.mo
 share/locale/ru/LC_MESSAGES/graveman.mo
 share/locale/sv/LC_MESSAGES/graveman.mo
 share/pixmaps/graveman${PKGVERSION}8.png
-@comment in xdg-dirs: @dirrm share/pixmaps
-@comment in xdg-dirs: @dirrm share/applications
