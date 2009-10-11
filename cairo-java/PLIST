@@ -53,7 +53,6 @@ share/doc/${PKGNAME}/api/org/freedesktop/cairo/package-summary.html
 share/doc/${PKGNAME}/api/org/freedesktop/cairo/package-tree.html
 share/doc/${PKGNAME}/api/overview-tree.html
 share/doc/${PKGNAME}/api/package-list
-share/doc/${PKGNAME}/api/packages.html
 share/doc/${PKGNAME}/api/resources/inherit.gif
 share/doc/${PKGNAME}/api/serialized-form.html
 share/doc/${PKGNAME}/api/stylesheet.css
