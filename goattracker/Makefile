@@ -3,7 +3,7 @@
 
 DISTNAME=	goattrk2
 PKGNAME=	goattracker-2.68
-CATEGORIES=	wip	
+CATEGORIES=	audio
 MASTER_SITES=	http://cadaver.homeftp.net/tools/
 EXTRACT_SUFX=	.zip
 
@@ -13,7 +13,7 @@ COMMENT=	Crossplatform C64 Music Editor
 
 PKG_INSTALLATION_TYPES= overwrite pkgviews
 PKG_DESTDIR_SUPPORT=	user-destdir
-CFLAGS=			-I{PREFIX}/include -D_GNU_SOURCE=1 -D_REENTRANT -D_THREAD_SAFE 
+CFLAGS=			-I{PREFIX}/include -D_GNU_SOURCE=1 -D_REENTRANT -D_THREAD_SAFE
 WRKSRC=			${WRKDIR}/src
 USE_LANGUAGES=		c c++
 USE_TOOLS+=		gmake
