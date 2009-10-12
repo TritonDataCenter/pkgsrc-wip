@@ -1,0 +1,12 @@
+$NetBSD$
+
+--- GNUmakefile.orig	2009-03-17 08:19:35.000000000 -0500
++++ GNUmakefile
+@@ -6,6 +6,6 @@ PACKAGE_NAME = Etoile
+ # Projects (listed by dependency order, then alphabetical order)
+ #
+ 
+-SUBPROJECTS = Frameworks Languages Bundles Services Developer #Documentation
++SUBPROJECTS = Bundles Services
+ 
+ include $(GNUSTEP_MAKEFILES)/aggregate.make
