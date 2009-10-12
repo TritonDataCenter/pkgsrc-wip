@@ -3,5 +3,3 @@ bin/aticonfig
 lib/modules/drivers/fglrx_drv.o
 lib/modules/linux/libfglrxdrm.a
 share/examples/${PKGBASE}/XF86Config.example
-@unexec ${RMDIR} %D/lib/modules/drivers 2>/dev/null || ${TRUE}
-@unexec ${RMDIR} %D/lib/modules/linux 2>/dev/null || ${TRUE}

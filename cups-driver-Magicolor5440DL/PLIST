@@ -17,5 +17,3 @@ share/KONICA_MINOLTA/mc5440DL/Profiles/km_0.icm
 share/KONICA_MINOLTA/mc5440DL/Profiles/km_1.icm
 share/KONICA_MINOLTA/mc5440DL/Profiles/km_2.icm
 share/cups/model/KONICA_MINOLTA/km5440dl.ppd.gz
-@unexec ${RMDIR} %D/share/cups/model/KONICA_MINOLTA 2>/dev/null || ${TRUE}
-@unexec ${RMDIR} %D/share/KONICA_MINOLTA 2>/dev/null || ${TRUE}

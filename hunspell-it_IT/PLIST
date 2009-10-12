@@ -10,4 +10,3 @@ share/doc/hunspell-${DICTNAME}/${DICTNAME}_statistiche.ods
 share/doc/hunspell-${DICTNAME}/${DICTNAME}_todo.txt
 share/hunspell/${DICTNAME}.aff
 share/hunspell/${DICTNAME}.dic
-@unexec ${RMDIR} %D/share/hunspell 2>/dev/null || ${TRUE}

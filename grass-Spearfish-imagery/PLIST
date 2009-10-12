@@ -107,5 +107,4 @@ share/dataset/geography/${PKGNAME}/user1/group/spotxy/subgroup/spot.test/REF
 share/dataset/geography/${PKGNAME}/user1/group/spotxy/subgroup/spot.test/sig/sig.1
 share/dataset/geography/${PKGNAME}/user1/group/spotxy/subgroup/spot.test/sig/test
 share/dataset/geography/${PKGNAME}/user1/gscam
-@exec ${MKDIR} %D/share/dataset/geography/${PKGNAME}/PERMANENT/cell_misc/nhap1.orig
-@exec ${MKDIR} %D/share/dataset/geography/
+@pkgdir share/dataset/geography/${PKGNAME}/PERMANENT/cell_misc/nhap1.orig

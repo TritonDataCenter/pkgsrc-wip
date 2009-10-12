@@ -280,4 +280,3 @@ man/man3/glutWireSphere.3
 man/man3/glutWireTeapot.3
 man/man3/glutWireTetrahedron.3
 man/man3/glutWireTorus.3
-@unexec ${RMDIR} %D/include/GL >/dev/null 2>&1 || ${TRUE}
