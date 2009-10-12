@@ -1,7 +1,7 @@
 # $NetBSD$
 
 DISTNAME= mlton
-PKGNAME= mlton-svn
+PKGNAME= mlton-1
 PKGREVISION=${_SVN_PKGVERSION:S/.//g}
 
 CATEGORIES= lang
@@ -11,11 +11,15 @@ HOMEPAGE= http://mlton.org/
 COMMENT= Mlton provides an sml optimizing compiler
 LICENSE= modified-bsd
 
+mywild = mlton-*
+installq= pkg_info -E ${mywild}
+isinstalled != ${installq}
+
 USE_TOOLS+= gmake
 
 .if (!defined(mlton_boot) ||  ${mlton_boot} == mlton ) 
 BUILD_TARGET= all
-BUILD_DEPENDS+=  mlton>=svnnb20091009*:../../wip/mlton-svn
+#BUILD_DEPENDS+=  mlton>=svnnb20091009*:../../wip/mlton-svn
 .include "../../wip/mlton-svn/buildlink3.mk"
 .elif ${mlton_boot} == smlnj
 BUILD_TARGET=smlnj-mlton all
