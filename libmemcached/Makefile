@@ -33,9 +33,4 @@ SUBST_FILES.gcc=	tests/Makefile
 SUBST_SED.gcc=		-e '/AM_CXXFLAGS/s/ -Wno-attributes//'
 .endif
 
-# Otherwise 64bit build is forced on Solaris (tested on SX:CE)
-.if ${ABI} != 64
-CONFIGURE_ARGS+=	--disable-64bit
-.endif
-
 .include "../../mk/bsd.pkg.mk"
