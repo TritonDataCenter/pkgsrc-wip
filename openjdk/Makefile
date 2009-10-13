@@ -26,6 +26,7 @@ JAVA_WRAPPERS=	jar java javac javadoc javah javap keytool orbd \
 
 # "hg fclone http://hg.openjdk.java.net/bsd-port/bsd-port/"
 PATCHFILES+=	jdk-7-bsd-port-72.20090924.diff.bz2
+PATCH_SITES+=	${MASTER_SITE_LOCAL:=openjdk7/}
 
 CACERTS=	cacerts-20091013.tar.bz2
 DISTFILES+=	${CACERTS}
