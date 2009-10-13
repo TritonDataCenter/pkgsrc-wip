@@ -12,7 +12,7 @@ COMMENT=		Perl module to reuse PDF templates
 PKG_INSTALLATION_TYPES=	overwrite pkgviews
 PKG_DESTDIR_SUPPORT=	user-destdir
 
-DEPENDS+=		p5-Compress-Zlib>=2.004:../../devel/p5-Compress-Zlib
+DEPENDS+=		p5-IO-Compress>=0:../../devel/p5-IO-Compress
 DEPENDS+=		p5-Font-TTF>=0:../../fonts/p5-Font-TTF
 DEPENDS+=		p5-Text-PDF>=0:../../textproc/p5-Text-PDF
 DEPENDS+=		p5-Digest-MD5>=2.35:../../security/p5-Digest-MD5
