@@ -7,8 +7,7 @@ BOOT.nb4-i386=		bootstrap-jdk-7-bin-netbsd-4-i386-20091012.tar.bz2
 #BOOT.nb4-amd64=		bootstrap-jdk-7-bin-netbsd-4-amd64-20091013.tar.bz2
 BOOT.nb5-i386=		bootstrap-jdk-7-bin-netbsd-5-i386-20090926.tar.bz2
 BOOT.nb5-amd64=		bootstrap-jdk-7-bin-netbsd-5-amd64-20090925.tar.bz2
-# not yet
-#BOOT.nb6-i386=		bootstrap-jdk-7-bin-netbsd-6-i386-20091013.tar.bz2
+BOOT.nb6-i386=		bootstrap-jdk-7-bin-netbsd-6-i386-20091014.tar.bz2
 BOOT.nb6-amd64=		bootstrap-jdk-7-bin-netbsd-6-amd64-20091013.tar.bz2
 
 .if !empty(MACHINE_PLATFORM:MNetBSD-4.[0-8]*-i386) || make(distinfo)
