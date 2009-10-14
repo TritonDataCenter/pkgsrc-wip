@@ -1,9 +1,8 @@
 # $NetBSD$
 #
 
-DISTNAME=	pyntch-dist-20090615
-PKGNAME=	${PYPKGPREFIX}-ntch-${VERSION}
-CATEGORIES=	devel python
+DISTNAME=	pyntch-dist-20090907
+CATEGORIES=	wip
 MASTER_SITES=	http://www.unixuser.org/~euske/python/pyntch/
 
 MAINTAINER=	kamel.derouiche@gmail.com
