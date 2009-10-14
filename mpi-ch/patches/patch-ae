@@ -13,12 +13,3 @@ $NetBSD$
         if test "${ac_cv_header_nm_public_h+set}" = set; then
    { $as_echo "$as_me:$LINENO: checking for nm_public.h" >&5
  $as_echo_n "checking for nm_public.h... " >&6; }
-@@ -5810,7 +5810,7 @@
-        fi
-     fi;
- 
--    if test "${net}" == "elan" ; then
-+    if test "${net}" = "elan" ; then
-     echo "=== You're about to use the experimental Nemesis/Elan network module."
-     echo "=== This module has not been thoroughly tested and some performance issues remain."
-         if test "${ac_cv_header_elan_elan_h+set}" = set; then

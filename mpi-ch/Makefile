@@ -1,9 +1,9 @@
 # $NetBSD: Makefile,v 1.2 2008/03/19 20:36:41 asau Exp $
 
-DISTNAME=	mpich2-1.1b1
+DISTNAME=	mpich2-1.2
 PKGNAME=	${DISTNAME}
 CATEGORIES=	parallel
-MASTER_SITES=	http://www.mcs.anl.gov/research/projects/mpich2/downloads/tarballs/1.1b1/src/
+MASTER_SITES=	http://www.mcs.anl.gov/research/projects/mpich2/downloads/tarballs/1.2/
 
 MAINTAINER=	asau@inbox.ru
 HOMEPAGE=	http://www.mcs.anl.gov/research/projects/mpich2/
@@ -27,7 +27,8 @@ CONFIGURE_ARGS+=	--sysconfdir=${PKG_SYSCONFDIR}
 CONFIGURE_ARGS+=	--docdir=${PREFIX}/share/doc/${PKGBASE}
 CONFIGURE_ARGS+=	--htmldir=${PREFIX}/share/doc/${PKGBASE}/html
 
-CONFIGURE_ARGS+=	--disable-f90	# problems?
+CONFIGURE_ARGS+=	--disable-f90		# problems?
+CONFIGURE_ARGS+=	--with-device=ch3:sock	# work around problem with "nemesis"
 
 USE_TOOLS+=		perl:run
 
