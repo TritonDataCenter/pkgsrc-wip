@@ -108,6 +108,12 @@ OWN_DIRS+=		${CWLOGDIR} ${CWSPOOLDIR} ${CWVARDIR}
 CONF_FILES+=		${CWCONFEXAMPLESDIR:Q}/${f} ${CWCONFDIR:Q}/${f}
 .endfor
 
+.if !empty(PKG_OPTIONS:Mjabber)
+.for f in res_jabber.conf
+CONF_FILES+=            ${CWCONFEXAMPLESDIR:Q}/${f} ${CWCONFDIR:Q}/${f}
+.endfor
+.endif
+
 .if !empty(PKG_OPTIONS:Mmysql)
 .for f in cdr_mysql.conf \
 	res_mysql.conf

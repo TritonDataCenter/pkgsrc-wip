@@ -1,11 +1,17 @@
 # $NetBSD$
 
 PKG_OPTIONS_VAR=	PKG_OPTIONS.callweaver
-PKG_SUPPORTED_OPTIONS=	mysql pgsql sipsecurity
+PKG_SUPPORTED_OPTIONS=	jabber mysql pgsql sipsecurity
 
 .include "../../mk/bsd.options.mk"
 
-PLIST_VARS+=		mysql pgsql sipsecurity
+PLIST_VARS+=		jabber mysql pgsql sipsecurity
+
+.if !empty(PKG_OPTIONS:Mjabber)
+.include "../../chat/loudmouth/buildlink3.mk"
+PLIST.jabber=           yes
+CONFIGURE_ARGS+=        --enable-jabber --with-res_jabber
+.endif
 
 .if !empty(PKG_OPTIONS:Mmysql)
 .include "../../databases/mysql5-client/buildlink3.mk"
