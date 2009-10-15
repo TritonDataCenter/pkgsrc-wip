@@ -1,9 +1,9 @@
 # $NetBSD$
 #
 
-DISTNAME=	nautilus-open-terminal-0.16
-CATEGORIES=	wip
-MASTER_SITES=	ftp://ftp.gnome.org/pub/gnome/sources/nautilus-open-terminal/0.16/
+DISTNAME=	nautilus-open-terminal-0.17
+CATEGORIES=	sysutils
+MASTER_SITES=	ftp://ftp.gnome.org/pub/gnome/sources/nautilus-open-terminal/0.17/
 EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	kamelderouiche@yahoo.com
