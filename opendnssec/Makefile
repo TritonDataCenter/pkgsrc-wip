@@ -21,7 +21,7 @@ USE_LIBTOOL=	yes
 SVN_REPOSITORIES=	opendnssec
 SVN_ROOT.opendnssec=	http://svn.opendnssec.org/tags/OpenDNSSEC-${VERSION}
 SVN_MODULE.opendnssec=	OpenDNSSEC
-VERSION=		1.0.0b2
+VERSION=		1.0.0b3
 NO_CHECKSUM=		yes
 
 .include "options.mk"
