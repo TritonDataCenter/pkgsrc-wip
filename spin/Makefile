@@ -1,8 +1,8 @@
 # $NetBSD$
 #
 
-DISTNAME=	spin520
-PKGNAME=	${DISTNAME:S/520//}-5.2.0
+DISTNAME=	spin522
+PKGNAME=	${DISTNAME:S/522//}-5.2.2
 CATEGORIES=	devel
 MASTER_SITES=	http://spinroot.com/spin/Src/
 
@@ -18,12 +18,12 @@ USE_TOOLS+=	flex gmake
 INSTALLATION_DIRS+=	bin ${PKGMANDIR}/man1 share/doc/spin share/examples/spin
 
 do-build:
-	cd ${WRKSRC}/Src5.2.0 && ${GMAKE}
+	cd ${WRKSRC}/Src5.2.2 && ${GMAKE}
 
 do-install:
 	cd ${WRKSRC}/Xspin5.2 && \
-		${MV} xspin520.tcl xspin
-	${INSTALL_PROGRAM} ${WRKSRC}/Src5.2.0/spin \
+		${MV} xspin521.tcl xspin
+	${INSTALL_PROGRAM} ${WRKSRC}/Src5.2.2/spin \
 		${DESTDIR}${PREFIX}/bin
 	${INSTALL_SCRIPT} ${WRKSRC}/Xspin5.2/xspin \
 		${DESTDIR}${PREFIX}/bin
