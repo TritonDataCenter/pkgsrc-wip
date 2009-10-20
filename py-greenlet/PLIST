@@ -1,0 +1,6 @@
+@comment $NetBSD$
+${PYSITELIB}/greenlet-0.2-py2.5.egg-info/PKG-INFO
+${PYSITELIB}/greenlet-0.2-py2.5.egg-info/SOURCES.txt
+${PYSITELIB}/greenlet-0.2-py2.5.egg-info/dependency_links.txt
+${PYSITELIB}/greenlet-0.2-py2.5.egg-info/top_level.txt
+${PYSITELIB}/greenlet.so
