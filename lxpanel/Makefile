@@ -9,6 +9,8 @@ MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE
 HOMEPAGE=	http://lxde.sourceforge.net/
 COMMENT=	SHORT_DESCRIPTION_OF_THE_PACKAGE
 
+DEPENDS+=	lxmenu-data-[0-9]*:../../wip/lxmenu-data
+
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_TOOLS+=	perl pkg-config
@@ -22,6 +24,7 @@ PKGCONFIG_OVERRIDE+=	lxpanel.pc.in
 # menu-cache, lxmenu-data
 
 .include "../../devel/glib2/buildlink3.mk"
+.include "../../wip/menu-cache/buildlink3.mk"
 .include "../../x11/gtk2/buildlink3.mk"
 
 .include "../../mk/bsd.pkg.mk"
