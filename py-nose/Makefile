@@ -11,7 +11,6 @@ HOMEPAGE=	http://code.google.com/p/python-nose/
 COMMENT=	Unittest-based testing framework for python
 LICENSE=	gnu-lgpl-v2.1
 
-DEPENDS+=	pydb>=1.26:../../wip/pydb
 DEPENDS+=	${PYPKGPREFIX}-coverage>=3.0:../../wip/py-coverage
 
 PKG_DESTDIR_SUPPORT=	user-destdir
