@@ -28,7 +28,6 @@ CONFIGURE_ARGS+=	--docdir=${PREFIX}/share/doc/${PKGBASE}
 CONFIGURE_ARGS+=	--htmldir=${PREFIX}/share/doc/${PKGBASE}/html
 
 CONFIGURE_ARGS+=	--disable-f90		# problems?
-CONFIGURE_ARGS+=	--with-device=ch3:sock	# work around problem with "nemesis"
 
 USE_TOOLS+=		perl:run
 
@@ -59,5 +58,6 @@ CONF_FILES+=		share/${PKGBASE}/examples/mpicxx.conf \
 CONF_FILES+=		share/${PKGBASE}/examples/mpif77.conf \
 			${PKG_SYSCONFDIR}/mpif77.conf
 
+.include "../../parallel/openpa/buildlink3.mk"
 .include "../../lang/python/application.mk"
 .include "../../mk/bsd.pkg.mk"
