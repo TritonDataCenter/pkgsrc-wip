@@ -46,12 +46,20 @@ PLIST_SRC+=		${PKGDIR}/PLIST.common
 PLIST_SUBST+=		SHLIB_VERSION=${RCVERSION:C/[^0-9]*$//}
 
 WRKSRC=			${WRKDIR}/softHSM
+EGDIR=			${PREFIX}/share/examples/softhsm
 
 CXXFLAGS.NetBSD+=	-D_NETBSD_SOURCE
+
+CONF_FILES=		${EGDIR}/softhsm.conf ${PKG_SYSCONFDIR}/softhsm.conf
+
+INSTALLATION_DIRS=	${EGDIR} ${VARBASE}/softhsm
 
 pre-configure:
 	${CHMOD} u+x ${WRKSRC}/autogen.sh
 	cd ${WRKSRC} && ./autogen.sh
+
+pre-install:
+	${INSTALL_DATA} ${WRKSRC}/softhsm.conf ${DESTDIR}${EGDIR}
 
 .include "../../databases/sqlite3/buildlink3.mk"
 .include "../../security/botan/buildlink3.mk"
