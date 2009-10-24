@@ -2,3 +2,4 @@
 bin/softhsm
 lib/libsofthsm.la
 lib/libsofthsm.a
+share/examples/softhsm/softhsm.conf
