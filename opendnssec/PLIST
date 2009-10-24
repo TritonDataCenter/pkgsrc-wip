@@ -51,6 +51,10 @@ libexec/opendnssec/zone_fetcher
 libexec/opendnssec/zone_reader
 sbin/ods-enforcerd
 sbin/ods-signerd
+share/examples/opendnssec/conf.xml.sample
+share/examples/opendnssec/kasp.xml.sample
+share/examples/opendnssec/zonefetch.xml.sample
+share/examples/opendnssec/zonelist.xml.sample
 share/opendnssec/conf.rnc
 share/opendnssec/conf.rng
 share/opendnssec/database_create.sqlite3
