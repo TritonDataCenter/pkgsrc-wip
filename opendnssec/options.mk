@@ -15,7 +15,7 @@ CONFIGURE_ARGS+=	--disable-auditor
 .include "../../lang/ruby/buildlink3.mk"
 
 DEPENDS+=	rubygems:../../misc/rubygems
-DEPENDS+=	${RUBY_PKGPREFIX}-dnsruby:../../wip/ruby-dnsruby
+DEPENDS+=	${RUBY_PKGPREFIX}-dnsruby>=1.39:../../wip/ruby-dnsruby
 .endif
 
 ###
