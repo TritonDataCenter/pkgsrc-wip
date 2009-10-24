@@ -12,7 +12,6 @@ include/libhsmdns.h
 lib/libhsm.la
 lib/opendnssec/kasp_auditor.rb
 lib/opendnssec/kasp_auditor/auditor.rb
-lib/opendnssec/kasp_auditor/auditor_daemon.rb
 lib/opendnssec/kasp_auditor/config.rb
 lib/opendnssec/kasp_auditor/key_tracker.rb
 lib/opendnssec/kasp_auditor/parse.rb
