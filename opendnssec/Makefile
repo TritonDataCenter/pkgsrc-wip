@@ -44,6 +44,11 @@ CONFIGURE_ARGS+=	--localstatedir=${VARBASE}
 WRKSRC=			${WRKDIR}/OpenDNSSEC
 EGDIR=			${PREFIX}/share/examples/opendnssec
 
+SUBST_CLASSES+=         paths
+SUBST_FILES.paths=      ${WRKSRC}/conf/Makefile.am
+SUBST_STAGE.paths=      post-patch
+SUBST_SED.paths=        -e 's,@EGDIR@,${EGDIR},'
+
 CXXFLAGS.NetBSD+=	-D_NETBSD_SOURCE
 
 .if ${OPSYS} == "NetBSD" 
@@ -60,7 +65,10 @@ CONF_FILES+=	${EGDIR}/zonefetch.xml.sample \
 CONF_FILES+=	${EGDIR}/zonelist.xml.sample \
 			${PKG_SYSCONFDIR}/opendnssec/zonelist.xml
 
-INSTALLATION_DIRS=	${EGDIR} ${VARBASE}/opendnssec/tmp
+INSTALLATION_DIRS=	${EGDIR} ${PKG_SYSCONFDIR}/opendnssec
+INSTALLATION_DIRS+=	${PREFIX}/opendnssec
+INSTALLATION_DIRS+=	${VARBASE}/opendnssec
+INSTALLATION_DIRS+=	${VARBASE}/opendnssec/tmp
 INSTALLATION_DIRS+=	${VARBASE}/opendnssec/signconf
 INSTALLATION_DIRS+=	${VARBASE}/opendnssec/signed
 INSTALLATION_DIRS+=	${VARBASE}/opendnssec/unsigned
@@ -68,16 +76,6 @@ INSTALLATION_DIRS+=	${VARBASE}/opendnssec/unsigned
 pre-configure:
 	${CHMOD} u+x ${WRKSRC}/autogen.sh
 	cd ${WRKSRC} && ./autogen.sh
-
-pre-install:
-	${INSTALL_DATA} ${WRKSRC}/conf/conf.xml \
-		${DESTDIR}${EGDIR}/conf.xml.sample
-	${INSTALL_DATA} ${WRKSRC}/conf/kasp.xml \
-		${DESTDIR}${EGDIR}/kasp.xml.sample
-	${INSTALL_DATA} ${WRKSRC}/conf/zonefetch.xml \
-		${DESTDIR}${EGDIR}/zonefetch.xml.sample
-	${INSTALL_DATA} ${WRKSRC}/conf/zonelist.xml \
-		${DESTDIR}${EGDIR}/zonelist.xml.sample
 
 .include "../../lang/python/application.mk"
 .include "../../textproc/libxml2/buildlink3.mk"
