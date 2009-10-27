@@ -66,6 +66,10 @@ CONF_FILES+=	${EGDIR}/zonelist.xml.sample \
 			${PKG_SYSCONFDIR}/opendnssec/zonelist.xml
 
 INSTALLATION_DIRS=	${EGDIR} ${PKG_SYSCONFDIR}/opendnssec
+INSTALLATION_DIRS+=	${PREFIX}/share/opendnssec
+INSTALLATION_DIRS+=	${PREFIX}/lib/opendnssec
+INSTALLATION_DIRS+=	${PREFIX}/lib/opendnssec/signer
+INSTALLATION_DIRS+=	${PREFIX}/lib/opendnssec/kasp_auditor
 INSTALLATION_DIRS+=	${VARBASE}/opendnssec
 INSTALLATION_DIRS+=	${VARBASE}/opendnssec/tmp
 INSTALLATION_DIRS+=	${VARBASE}/opendnssec/signconf
