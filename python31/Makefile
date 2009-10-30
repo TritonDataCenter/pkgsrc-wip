@@ -44,11 +44,11 @@ LIBS.SunOS+=		-lrt
 
 PY_VER_SUFFIX=		3.1
 
-PLIST_SRC=	${.CURDIR}/../../lang/python31/PLIST.common
-.if exists(${.CURDIR}/../../lang/python31/PLIST.${OPSYS})
-PLIST_SRC+=	${.CURDIR}/../../lang/python31/PLIST.${OPSYS}
+PLIST_SRC=	${.CURDIR}/../../wip/python31/PLIST.common
+.if exists(${.CURDIR}/../../wip/python31/PLIST.${OPSYS})
+PLIST_SRC+=	${.CURDIR}/../../wip/python31/PLIST.${OPSYS}
 .endif
-PLIST_SRC+=	${.CURDIR}/../../lang/python31/PLIST.common_end
+PLIST_SRC+=	${.CURDIR}/../../wip/python31/PLIST.common_end
 
 .if ${OPSYS} == "NetBSD"
 PRIVILEGED_STAGES+=	clean

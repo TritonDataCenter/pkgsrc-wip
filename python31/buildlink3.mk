@@ -6,7 +6,7 @@ BUILDLINK_TREE+=	python31
 PYTHON31_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.python31+=	python31>=3.1
-BUILDLINK_PKGSRCDIR.python31?=		../../lang/python31
+BUILDLINK_PKGSRCDIR.python31?=		../../wip/python31
 
 .  if defined(BUILDLINK_DEPMETHOD.python)
 BUILDLINK_DEPMETHOD.python31?=	${BUILDLINK_DEPMETHOD.python}
