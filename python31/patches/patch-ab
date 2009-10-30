@@ -15,9 +15,9 @@ $NetBSD: patch-ab,v 1.1.1.1 2009/04/19 14:42:50 wiz Exp $
 +        # command line args.  Hence we combine them in order:
          extra_args = ext.extra_link_args or []
  
-+        if os.environ.get('LDFLAGS'):
-+            extra_args = list(extra_args)
-+            extra_args.extend(string.split(os.environ['LDFLAGS']))
++ #        if os.environ.get('LDFLAGS'):
++ #           extra_args = list(extra_args)
++ #           extra_args.extend(string.split(os.environ['LDFLAGS']))
 +
          # Detect target language, if not provided
          language = ext.language or self.compiler.detect_language(sources)
