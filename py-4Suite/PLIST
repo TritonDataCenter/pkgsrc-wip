@@ -470,7 +470,6 @@ share/4Suite/Schemata/xhtml-symbol.ent
 share/4Suite/Schemata/xhtml1-strict.dtd
 share/4Suite/Schemata/xhtml1-transitional.dtd
 share/4Suite/Schemata/xsa.dtd
-share/4Suite/Data/Stylesheets
 share/4Suite/Data/Stylesheets/commandline.css
 share/4Suite/Data/Stylesheets/commandline_html.xslt
 share/4Suite/Data/Stylesheets/docbook_html-css.xslt
