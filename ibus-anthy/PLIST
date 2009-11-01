@@ -27,6 +27,9 @@ share/ibus-anthy/engine/segment.pyo
 share/ibus-anthy/engine/tables.py
 share/ibus-anthy/engine/tables.pyc
 share/ibus-anthy/engine/tables.pyo
+share/ibus-anthy/engine/thumb.py
+share/ibus-anthy/engine/thumb.pyc
+share/ibus-anthy/engine/thumb.pyo
 share/ibus-anthy/icons/ibus-anthy.png
 share/ibus-anthy/setup/anthyprefs.py
 share/ibus-anthy/setup/anthyprefs.pyc

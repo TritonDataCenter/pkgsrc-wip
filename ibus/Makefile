@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	ibus-1.1.0.20090829
+DISTNAME=	ibus-1.2.0.20091024
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	inputmethod
 MASTER_SITES=	http://ibus.googlecode.com/files/
@@ -26,7 +26,7 @@ USE_PKGLOCALEDIR=	yes
 GCONF_SCHEMAS+=		ibus.schemas
 PKGCONFIG_OVERRIDE+=	ibus-1.0.pc.in
 
-CONFIGURE_ARGS+=	--sysconfdir=${PKG_SYSCONFBASE}
+CONFIGURE_ARGS+=	--sysconfdir=${PKG_SYSCONFBASEDIR}
 
 BUILD_DEFS+=	PKG_SYSCONFBASE
 

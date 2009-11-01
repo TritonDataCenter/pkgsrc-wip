@@ -8,7 +8,7 @@ IBUS_BUILDLINK3_MK:=
 
 .include "../../lang/python/pyversion.mk"
 
-BUILDLINK_API_DEPENDS.ibus+=	${PYPKGPREFIX}-ibus>=1.1.0.20090612
+BUILDLINK_API_DEPENDS.ibus+=	${PYPKGPREFIX}-ibus>=1.2.0.20091024
 BUILDLINK_PKGSRCDIR.ibus?=	../../wip/ibus
 
 .include "../../devel/gettext-lib/buildlink3.mk"

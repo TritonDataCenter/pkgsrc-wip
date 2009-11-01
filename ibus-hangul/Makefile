@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	ibus-hangul-1.1.0.20090328
+DISTNAME=	ibus-hangul-1.2.0.20091031
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	inputmethod korean
 MASTER_SITES=	http://ibus.googlecode.com/files/
@@ -20,6 +20,7 @@ USE_LIBTOOL=		yes
 USE_PKGLOCALEDIR=	yes
 USE_TOOLS+=		pkg-config gmake msgfmt
 
+BUILDLINK_API_DEPENDS.libhangul+=	libhangul>=0.0.10
 .include "../../inputmethod/libhangul/buildlink3.mk"
 .include "../../wip/ibus/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
