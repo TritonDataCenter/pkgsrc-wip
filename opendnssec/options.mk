@@ -2,7 +2,7 @@
 
 PKG_OPTIONS_VAR=		PKG_OPTIONS.opendnssec
 PKG_SUPPORTED_OPTIONS=		auditor softhsm
-PKG_SUGGESTED_OPTIONS=		auditor
+PKG_SUGGESTED_OPTIONS=		auditor softhsm
 
 .include "../../mk/bsd.options.mk"
 
