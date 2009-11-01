@@ -89,3 +89,13 @@ CONFIGURE_ARGS+=	--disable-p0f
 .else
 DEPENDS+=		spamassassin:../../mail/spamassassin
 CONFIGURE_ARGS+=	--enable-spamassassin
+.endif
+
+###
+### postfix
+###
+.if empty(PKG_OPTIONS:Mpostfix)
+CONFIGURE_ARGS+=	--disable-postfix
+.else
+CONFIGURE_ARGS+=	--enable-postfix
+.endif
