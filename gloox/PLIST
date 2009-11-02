@@ -52,6 +52,7 @@ include/gloox/featureneg.h
 include/gloox/flexoff.h
 include/gloox/flexoffhandler.h
 include/gloox/gloox.h
+include/gloox/glooxversion.h
 include/gloox/gpgencrypted.h
 include/gloox/gpgsigned.h
 include/gloox/inbandbytestream.h
@@ -59,16 +60,6 @@ include/gloox/instantmucroom.h
 include/gloox/iq.h
 include/gloox/iqhandler.h
 include/gloox/jid.h
-include/gloox/jingleaudiortp.h
-include/gloox/jinglecontent.h
-include/gloox/jingledescription.h
-include/gloox/jingleiceudp.h
-include/gloox/jingleplugin.h
-include/gloox/jinglerawudp.h
-include/gloox/jinglesession.h
-include/gloox/jinglesessionhandler.h
-include/gloox/jingletransport.h
-include/gloox/jinglevideortp.h
 include/gloox/lastactivity.h
 include/gloox/lastactivityhandler.h
 include/gloox/loghandler.h
