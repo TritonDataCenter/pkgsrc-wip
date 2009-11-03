@@ -6,8 +6,8 @@ $NetBSD$
  		unsigned short int* array;
  		struct seminfo*     __buf;
  	};
--#elif defined(hpux)
-+#elif defined(hpux) || defined(__NetBSD__)
+-#elif defined(__hpux)
++#elif defined(__hpux) || defined(__NetBSD__)
  	union semun
  	{
  		int              val;

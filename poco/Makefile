@@ -1,14 +1,15 @@
 # $NetBSD$
 #
 
-DISTNAME=	poco-1.3.3p1-all
-PKGNAME=	poco-1.3.3p1
+DISTNAME=	poco-1.3.5-all
+PKGNAME=	poco-1.3.5
 CATEGORIES=	devel
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=poco/}
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.pocoproject.org/
 COMMENT=	POCO C++ libraries
+# LICENSE=	boost
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
