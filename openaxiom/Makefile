@@ -23,6 +23,7 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 MAKE_JOBS_SAFE=		no
 
 GNU_CONFIGURE=		yes
+USE_LIBTOOL=		yes
 USE_TOOLS+=		gmake makeinfo awk:run
 USE_LANGUAGES+=		fortran
 BUILD_DEPENDS+=		noweb-[0-9]*:../../devel/noweb
