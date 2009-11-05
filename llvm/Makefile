@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	llvm-2.5
+DISTNAME=	llvm-2.6
 CATEGORIES=	lang
 MASTER_SITES=	http://llvm.org/releases/${PKGVERSION_NOREV}/
 
