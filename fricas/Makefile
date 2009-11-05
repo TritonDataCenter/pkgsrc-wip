@@ -20,11 +20,10 @@ WRKSRC=			${WRKDIR}/fricas
 
 BUILD_DEPENDS+=		noweb-[0-9]*:../../devel/noweb
 
+PKG_DESTDIR_SUPPORT=	user-destdir
+
 GNU_CONFIGURE=		yes
 USE_TOOLS+=		gmake
-
-PKG_DESTDIR_SUPPORT=	user-destdir
-MAKE_JOBS_SAFE=		no
 
 # Problems:
 # 1. Building X11 interfaces requires X server running.
