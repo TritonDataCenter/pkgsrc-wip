@@ -1,0 +1,5 @@
+@comment $NetBSD$
+${PYSITELIB}/PythonMagick/_PythonMagick.la
+${PYSITELIB}/PythonMagick/__init__.py
+${PYSITELIB}/PythonMagick/__init__.pyc
+${PYSITELIB}/PythonMagick/__init__.pyo
