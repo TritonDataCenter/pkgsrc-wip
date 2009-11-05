@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	lcdproc-0.5.3
-CATEGORIES=	sysutils
+CATEGORIES=	misc
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=lcdproc/}
 
 MAINTAINER=	christtrekker@users.sourceforge.net
