@@ -1,0 +1,10 @@
+$NetBSD$
+
+--- simplecount.orig	2009-11-06 12:33:49.000000000 +0100
++++ simplecount
+@@ -1,4 +1,4 @@
+-#!/usr/bin/perl -w
++#!/usr/bin/env perl
+ 
+ # simplecount
+ # Usage: simple_count commentstart [-f file] [list_of_files]
