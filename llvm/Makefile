@@ -18,7 +18,7 @@ MAKE_DIRS+=	etc/llvm
 
 CONFIGURE_ARGS=	--enable-bindings=none	# no OCaml, please!
 
-INSTALLATION_DIRS=	lib
+INSTALLATION_DIRS=	bin lib
 
 # This should be changed!
 CONFIGURE_ARGS+= --enable-targets=host-only
