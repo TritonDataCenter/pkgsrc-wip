@@ -1492,6 +1492,7 @@ SUBDIR+=	p5-Net-PcapUtils
 SUBDIR+=	p5-Net-SenderBase
 SUBDIR+=	p5-Net-SMTP-TLS
 SUBDIR+=	p5-Net-Syslog
+SUBDIR+=	p5-Net-Twitter-Lite
 SUBDIR+=	p5-Net-Whois-RIPE
 SUBDIR+=	p5-Net-validMX
 SUBDIR+=	p5-News-Newsrc
