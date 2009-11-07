@@ -1,3 +1,0 @@
-@comment $NetBSD$
-lib/libsofthsm.dylib
-lib/libsofthsm.${SHLIB_VERSION}.dylib
