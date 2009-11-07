@@ -1,0 +1,5 @@
+@comment $NetBSD$
+bin/softhsm
+bin/softhsm-keyconv
+lib/libsofthsm.la
+share/examples/softhsm/softhsm.conf
