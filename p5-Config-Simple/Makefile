@@ -9,6 +9,7 @@ MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=../../authors/id/S/SH/SHERZODR/}
 MAINTAINER=	leot1990@users.sourceforge.net
 HOMEPAGE=	http://search.cpan.org/dist/Config-Simple/
 COMMENT=	Simple configuration file class
+LICENSE=	${PERL5_LICENSE}
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
