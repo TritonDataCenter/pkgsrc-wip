@@ -16,7 +16,7 @@ lib/ganglia/modmem.so
 lib/ganglia/modmulticpu.so
 lib/ganglia/modnet.so
 lib/ganglia/modproc.so
-lib/ganglia/modpython.so
+${PLIST.python}lib/ganglia/modpython.so
 lib/ganglia/modsys.so
 lib/libganglia.la
 man/man1/gmetad.1
