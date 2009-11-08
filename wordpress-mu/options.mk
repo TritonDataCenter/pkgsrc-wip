@@ -1,8 +1,11 @@
 # $NetBSD$
 
 PKG_OPTIONS_VAR=	PKG_OPTIONS.wordpress-mu
+
 PKG_OPTIONS_REQUIRED_GROUPS=	wordpress-mu
 PKG_OPTIONS_GROUP.wordpress-mu=	php-cgi ap-php
+
+PKG_SUGGESTED_OPTIONS=		ap-php
 
 .include "../../mk/bsd.options.mk"
 
