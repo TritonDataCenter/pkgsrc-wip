@@ -26,6 +26,7 @@ man/man1/gstat.1
 man/man5/gmond.conf.5
 sbin/gmetad
 sbin/gmond
+share/doc/ganglia/README
 share/examples/ganglia/gmetad.conf
 share/examples/ganglia/gmond.conf
 share/examples/rc.d/gmetad
