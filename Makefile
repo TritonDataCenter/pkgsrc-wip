@@ -2246,7 +2246,6 @@ SUBDIR+=	xgobi
 SUBDIR+=	xhkeys1
 SUBDIR+=	xine-plugin
 SUBDIR+=	xinetd
-SUBDIR+=	xlsfonts
 SUBDIR+=	xmail
 SUBDIR+=	xmim
 SUBDIR+=	xmlformat-docs
