@@ -20,6 +20,9 @@ WRKSRC=		${WRKDIR}/${DISTNAME}/src
 USE_TOOLS+=     gmake perl
 INSTALLATION_DIRS+=	bin share/doc/${PKGBASE} share/${PKGBASE}
 
+# Has problems finding shared libs on some platforms...
+CFLAGS+=	${COMPILER_RPATH_FLAG}${X11BASE}/lib
+
 pre-build:
 	if [ -L ${WRKSRC}/vars ]; then ${RM} ${WRKSRC}/vars; fi
 	@${ECHO} Building for ${OPSYS} on ${MACHINE_ARCH}...
