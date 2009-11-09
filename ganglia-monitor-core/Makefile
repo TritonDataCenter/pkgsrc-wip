@@ -41,7 +41,7 @@ SUBST_FILES.pkg_sysconfdir=	mans/gmetad.1 mans/gmetric.1 mans/gmond.1 \
 			gmetric/cmdline.c gmetric/cmdline.h		\
 			gmond/cmdline.c gmond/cmdline.h gmond/g25_config.h \
 			ganglia.html
-SUBST_VARS.pkg_sysconfdir=	PKG_SYSCONFDIR
+SUBST_SED.pkg_sysconfdir=	-e 's,/etc/ganglia,${PKG_SYSCONFDIR},g'
 
 EGDIR=			${PREFIX}/share/examples/ganglia
 CONF_FILES=		${EGDIR}/gmond.conf ${PKG_SYSCONFDIR}/gmond.conf
