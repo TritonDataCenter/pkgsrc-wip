@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=		libzrtpcpp-1.4.3
+DISTNAME=		libzrtpcpp-1.4.6
 CATEGORIES=		net
 MASTER_SITES=		${MASTER_SITE_GNU:=ccrtp/}
 
