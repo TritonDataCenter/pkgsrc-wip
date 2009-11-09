@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	fonttosfnt-1.0.3
+DISTNAME=	fonttosfnt-1.0.4
 CATEGORIES=	fonts x11
 MASTER_SITES=	${MASTER_SITE_XORG:=app/}
 EXTRACT_SUFX=	.tar.bz2
