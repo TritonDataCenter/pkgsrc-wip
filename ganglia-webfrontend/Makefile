@@ -32,7 +32,7 @@ SUBST_FILES.prefix=	conf.php
 SUBST_VARS.prefix=	PREFIX
 
 do-install:
-	cd ${WRKSRC} && pax -rw . ${DESTDIR}${DOCROOT}/
+	cd ${WRKSRC} && ${PAX} -rw . ${DESTDIR}${DOCROOT}/
 	${RM} ${DESTDIR}${DOCROOT}/AUTHORS
 	${RM} ${DESTDIR}${DOCROOT}/COPYING
 	${RM} ${DESTDIR}${DOCROOT}/Makefile.am
