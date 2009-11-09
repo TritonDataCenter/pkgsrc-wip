@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	xcursor-themes-1.0.1
+DISTNAME=	xcursor-themes-1.0.2
 CATEGORIES=	x11 graphics
 MASTER_SITES=	${MASTER_SITE_XORG:=data/}
 EXTRACT_SUFX=	.tar.bz2
