@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	dataenc-0.13.0.0
+DISTNAME=	dataenc-0.13.0.2
 CATEGORIES=	devel
 
 MAINTAINER=	pho@cielonegro.org
