@@ -1,0 +1,5 @@
+@comment $NetBSD$
+bin/spectrum
+share/spectrum/certificates/facebook.pem
+share/spectrum/locales/cs.po
+share/examples/jabberd/spectrum.cfg
