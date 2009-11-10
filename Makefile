@@ -10,7 +10,6 @@ SUBDIR+=	GSCommander
 SUBDIR+=	GoogleEarth
 SUBDIR+=	HCL
 SUBDIR+=	HLint
-SUBDIR+=	HsSVN
 SUBDIR+=	InfoNES
 SUBDIR+=	LabPlot
 SUBDIR+=	MoleInvasion
