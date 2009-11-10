@@ -1,6 +1,6 @@
 # $NetBSD: Makefile,v 1.6 2008/09/18 12:42:47 taca Exp $
 
-DISTNAME=	term-ansicolor-1.0.3
+DISTNAME=	term-ansicolor-1.0.4
 PKGNAME=	${RUBY_PKGPREFIX}-${DISTNAME}
 CATEGORIES=	devel
 
