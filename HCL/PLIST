@@ -1,7 +1,0 @@
-@comment $NetBSD$
-bin/hangman
-lib/${PKGNAME}/${HASKELL_VERSION}/HS${PKGNAME}.o
-lib/${PKGNAME}/${HASKELL_VERSION}/System/Console/HCL.hi
-lib/${PKGNAME}/${HASKELL_VERSION}/libHS${PKGNAME}.a
-lib/${PKGNAME}/${HASKELL_VERSION}/package-description
-share/${PKGNAME}/hangman/2of12.txt
