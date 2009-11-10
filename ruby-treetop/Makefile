@@ -15,8 +15,5 @@ DEPENDS+=	${RUBY_PKGPREFIX}-polyglot>=0.2.5:../../wip/ruby-polyglot
 
 GEM_BUILD=	gemspec
 
-#pre-build:
-#	${SED} '/^---/d' ${WRKDIR}/treetop-1.2.5.gemspec > ${WRKSRC}/treetop.gemspec
-
 .include "../../misc/rubygems/rubygem.mk"
 .include "../../mk/bsd.pkg.mk"
