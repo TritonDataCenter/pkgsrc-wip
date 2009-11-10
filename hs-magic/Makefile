@@ -1,8 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	magic-1.0.7
-PKGREVISION=	1
+DISTNAME=	magic-1.0.8
 CATEGORIES=	devel
 
 MAINTAINER=	pho@cielonegro.org
