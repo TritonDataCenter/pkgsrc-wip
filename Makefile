@@ -702,6 +702,7 @@ SUBDIR+=	heroes
 SUBDIR+=	hgview
 SUBDIR+=	hijra
 SUBDIR+=	hitori
+SUBDIR+=	hlint
 SUBDIR+=	homebank
 SUBDIR+=	hping3
 SUBDIR+=	hplip
