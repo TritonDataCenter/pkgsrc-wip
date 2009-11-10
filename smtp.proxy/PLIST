@@ -1,1 +1,3 @@
-@comment $NetBSD: PLIST,v 1.1 2005/02/08 10:13:18 oht  $
+@comment $NetBSD$
+man/man1/smtp.proxy.1
+sbin/smtp.proxy
