@@ -26,8 +26,8 @@ NO_BUILD=		yes
 NO_CONFIGURE=		yes
 PKG_DESTDIR_SUPPORT=	user-destdir
 
-DATA_FILES=		file_id.diz license.txt order.htm rar.txt \
-			readme.txt technote.txt whatsnew.txt
+DATA_FILES=		license.txt order.htm rar.txt readme.txt technote.txt \
+			whatsnew.txt
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/rar ${DESTDIR}/${PREFIX}/bin/rar3
