@@ -1,5 +1,0 @@
-@comment $NetBSD$
-bin/hlint
-share/doc/${PKGNAME}/LICENSE
-share/${PKGNAME}/Hints.hs
-share/${PKGNAME}/report.html

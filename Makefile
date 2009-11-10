@@ -8,7 +8,6 @@ SUBDIR+=	Chinput
 SUBDIR+=	GNUMail-pgp
 SUBDIR+=	GSCommander
 SUBDIR+=	GoogleEarth
-SUBDIR+=	HLint
 SUBDIR+=	InfoNES
 SUBDIR+=	LabPlot
 SUBDIR+=	MoleInvasion
