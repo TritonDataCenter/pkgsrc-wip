@@ -1,6 +1,6 @@
 $NetBSD$
---- vars_hp.orig	2004-12-06 18:42:47.000000000 -0600
-+++ vars_hp	2009-11-05 10:30:18.000000000 -0600
+--- src/vars_hp.orig	2004-12-06 18:42:47.000000000 -0600
++++ src/vars_hp	2009-11-05 10:30:18.000000000 -0600
 @@ -2,7 +2,7 @@
  TARGET = xkegs
  OBJECTS = engine_s.o $(OBJECTS1) sound_driver.o xdriver.o
