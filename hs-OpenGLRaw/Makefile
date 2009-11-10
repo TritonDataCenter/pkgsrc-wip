@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	OpenGLRaw-1.1.0.0
+DISTNAME=	OpenGLRaw-1.1.0.1
 CATEGORIES=	graphics
 
 MAINTAINER=	pho@cielonegro.org
