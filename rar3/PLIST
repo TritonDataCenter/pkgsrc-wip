@@ -4,7 +4,6 @@ bin/unrar3
 lib/default.sfx
 man/cat1/rar3.0
 share/examples/rar3/rarfiles.lst
-share/rar3/file_id.diz
 share/rar3/license.txt
 share/rar3/order.htm
 share/examples/rar3/rarfiles.lst
