@@ -938,7 +938,6 @@ SUBDIR+=	kannel-gateway
 SUBDIR+=	kapital
 SUBDIR+=	katapult
 SUBDIR+=	kawa
-SUBDIR+=	kegs
 SUBDIR+=	kino
 SUBDIR+=	kissme
 SUBDIR+=	klamav
