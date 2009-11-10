@@ -1,7 +1,5 @@
 # $NetBSD$
-DISTNAME=	hopenssl-${VERSION}
-PKGNAME=	hs-hopenssl-${VERSION}
-VERSION=	1.2
+DISTNAME=	hopenssl-1.2
 CATEGORIES=	security
 
 MAINTAINER=	emil@math.su.se
