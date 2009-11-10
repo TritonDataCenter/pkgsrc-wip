@@ -1,11 +1,10 @@
 # $NetBSD$
 #
 
-DISTNAME=	hxt-8.3.1
+DISTNAME=	hxt-8.3.2
 CATEGORIES=	textproc
 
 MAINTAINER=	pho@cielonegro.org
-HOMEPAGE=	http://www.fh-wedel.de/~si/HXmlToolbox/index.html
 COMMENT=	Collection of tools for processing XML with Haskell
 LICENSE=	mit
 
