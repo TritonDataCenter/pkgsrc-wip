@@ -1,9 +1,9 @@
 # $NetBSD$
 #
 
-DISTNAME=	koffice-2.0.83
+DISTNAME=	koffice-2.0.91
 CATEGORIES=	misc kde
-MASTER_SITES=	${MASTER_SITE_KDE:=../unstable/koffice-2.0.83/src/}
+MASTER_SITES=	${MASTER_SITE_KDE:=../unstable/koffice-2.0.91/src/}
 EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	markd@NetBSD.org
