@@ -2,7 +2,6 @@
 
 DISTNAME=		mysql-5.1.40
 PKGNAME=		${DISTNAME:S/-/-embedded-/}
-PKGREVISION=		3
 CATEGORIES=		databases
 MASTER_SITES=		${MASTER_SITE_MYSQL:=MySQL-5.1/}
 
