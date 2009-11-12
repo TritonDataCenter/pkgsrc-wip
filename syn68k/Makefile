@@ -15,6 +15,7 @@ LICENSE=	mit
 USE_TOOLS+=	autoconf automake bash
 #REPLACE_BASH=	autogen.sh test/testall.sh
 REPLACE_BASH=	test/testall.sh
+REPLACE_SH=	configure
 
 SUBST_CLASSES+=	replace_bash_early
 SUBST_STAGE.replace_bash_early=	pre-configure
