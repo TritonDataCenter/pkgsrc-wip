@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	mk-configure-0.11.1
+DISTNAME=	mk-configure-0.12.0
 CATEGORIES=	devel
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=mk-configure/} \
 		http://mova.org/~cheusov/pub/mk-configure/
@@ -17,7 +17,7 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 USE_LANGUAGES=		# no languages
 USE_BSD_MAKEFILE=	yes
 
-DOC_FILES=		README NEWS ChangeLog TODO FAQ
+DOC_FILES=		README NEWS ChangeLog TODO FAQ COPYRIGHT
 
 MAKE_ENV+=		MKCATPAGES=no
 
