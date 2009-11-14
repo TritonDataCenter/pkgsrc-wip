@@ -17,7 +17,7 @@ BUILD_DEPENDS+=		docbook-xml-[0-9]*:../../textproc/docbook-xml
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
-USE_TOOLS+=		gmake pkg-config
+USE_TOOLS+=		gmake pkg-config lex yacc
 
 INSTALLATION_DIRS=${PKG_SYSCONFDIR}/i3 ${PKGMANDIR}/man1
 CONF_FILES=${PREFIX}/share/doc/i3/config ${PKG_SYSCONFDIR}/i3/config
