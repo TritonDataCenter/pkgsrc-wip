@@ -2,7 +2,7 @@
 bin/mcabber
 man/man1/mcabber.1
 share/applications/mcabber.desktop
-share/examples/mcabber/mcabberrc
+share/examples/mcabber/mcabberrc.example
 share/mcabber/help/de/hlp.txt
 share/mcabber/help/de/hlp_add.txt
 share/mcabber/help/de/hlp_alias.txt
