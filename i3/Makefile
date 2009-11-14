@@ -1,8 +1,8 @@
 # $NetBSD$
 #
 
-PKGNAME=	i3-3b
-DISTNAME=	i3-3.b
+DISTNAME=	i3-3.d
+PKGNAME=	${DISTNAME:C/\.//}
 CATEGORIES=	wm
 MASTER_SITES=	http://i3.zekjur.net/downloads/
 EXTRACT_SUFX=	.tar.bz2

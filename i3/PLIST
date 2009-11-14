@@ -1,4 +1,5 @@
 @comment $NetBSD$
 bin/i3
-share/doc/i3/config
 man/man1/i3.1
+share/doc/i3/config
+share/doc/i3/welcome
