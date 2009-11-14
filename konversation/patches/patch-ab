@@ -1,0 +1,14 @@
+$NetBSD$
+
+Make it build on DragonFly.
+
+--- src/dcc/dcccommon.cpp.orig	2009-11-12 18:24:42.000000000 +1300
++++ src/dcc/dcccommon.cpp
+@@ -15,6 +15,7 @@
+ #include "server.h"
+ 
+ #include <arpa/inet.h>
++#include <netinet/in.h>
+ 
+ #include <QHostAddress>
+ #include <QTcpServer>
