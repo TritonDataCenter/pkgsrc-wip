@@ -14,4 +14,11 @@ $ multiview output.1 output.2 > comparison.html
 
 Then read 'comparison.html' in your favorite web browser.
 
+WARNING: libMicro's results are strongly dependant of compile time options
+and compiler's optimizations. You must ensure that that the compiler does
+not arbitrarily chose optimizations that do not fit the benchmark and
+which may return irrelevant results. For example: over-simplification of
+the call-graph, load/store variables from register instead of memory,
+function vs builtin macro expansion, ...
+
 ===========================================================================
