@@ -2,8 +2,7 @@
 #
 
 DISTNAME=	amarok-${VERS}
-VERS=		2.2.0
-PKGREVISION=	2
+VERS=		2.2.1
 CATEGORIES=	audio multimedia
 #MASTER_SITES=	http://download.kde.org/unstable/amarok/${VERS}/src/ \
 #		ftp://gd.tuwien.ac.at/kde/unstable/amarok/${VERS}/src/
@@ -45,6 +44,7 @@ BUILDLINK_API_DEPENDS.taglib+=	taglib>=1.6nb1
 .include "../../graphics/hicolor-icon-theme/buildlink3.mk"
 .include "../../meta-pkgs/kde4/kde4.mk"
 .include "../../multimedia/kdemultimedia4/buildlink3.mk"
+.include "../../security/qca2/buildlink3.mk"
 .include "../../sysutils/desktop-file-utils/desktopdb.mk"
 .include "../../wip/liblastfm/buildlink3.mk"
 .include "../../wip/mysql5-embedded/buildlink3.mk"
