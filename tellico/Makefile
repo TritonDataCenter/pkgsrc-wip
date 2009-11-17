@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	tellico-2.0
+DISTNAME=	tellico-2.1
 CATEGORIES=	misc
 MASTER_SITES=	http://tellico-project.org/files/
 EXTRACT_SUFX=	.tar.bz2
