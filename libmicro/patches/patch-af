@@ -7,7 +7,7 @@ $NetBSD$
  touch $IFILE
  
 -ARCH=`arch -k`
-+ARCH=`uname -m`
++ARCH=@@MACHINE_ARCH@@
  
  # produce benchmark header for easier comparisons
  

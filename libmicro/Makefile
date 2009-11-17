@@ -27,6 +27,12 @@ INSTALLATION_DIRS+=	libexec/${PKGBASE}/bin-${MACHINE_ARCH}
 
 LIBMICRO_BASE=		${PREFIX}/libexec/${PKGBASE}
 
+SUBST_CLASSES+=		fix-arch
+SUBST_MESSAGE.fix-arch=	Fix machine architecture path
+SUBST_STAGE.fix-arch=	pre-configure
+SUBST_FILES.fix-arch=	Makefile bench.sh wrapper.sh
+SUBST_SED.fix-arch=	-e 's|@@MACHINE_ARCH@@|${MACHINE_ARCH:Q}|'
+
 post-build:
 	${SED}  -e 's|@@DESTDIR@@|${DESTDIR:Q}|'	\
 		-e 's|@@PREFIX@@|${PREFIX:Q}|'		\
