@@ -11,6 +11,12 @@ COMMENT=	Client/server software to print system info to small LCDs
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 GNU_CONFIGURE=	yes
+REPLACE_PERL+=	clients/examples/fortune.pl \
+		clients/examples/iosock.pl \
+		clients/examples/tail.pl \
+		clients/examples/x11amp.pl \
+		clients/examples/lcdident.pl \
+		clients/metar/lcdmetar.pl
 
 EGDIR=		${PREFIX}/share/examples/${PKGBASE}
 CONF_FILES=	${EGDIR}/LCDd.conf ${PKG_SYSCONFDIR}/LCDd.conf
