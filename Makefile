@@ -209,6 +209,7 @@ SUBDIR+=	cinelerra
 SUBDIR+=	cjk-latex
 SUBDIR+=	cjk-latex-wadalab
 SUBDIR+=	clamassassin
+SUBDIR+=	classic-mac-font-pack
 SUBDIR+=	clhep
 SUBDIR+=	clips
 SUBDIR+=	clisp
