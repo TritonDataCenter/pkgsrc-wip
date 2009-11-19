@@ -1942,7 +1942,6 @@ SUBDIR+=	ruby-GalleryAdministrator
 SUBDIR+=	ruby-actionmessenger
 SUBDIR+=	ruby-dnsruby
 SUBDIR+=	ruby-git
-SUBDIR+=	ruby-innate
 SUBDIR+=	ruby-ldap
 SUBDIR+=	ruby-ming
 SUBDIR+=	ruby-nokogiri
