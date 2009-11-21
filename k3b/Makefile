@@ -23,6 +23,7 @@ USE_TOOLS+=		perl pkg-config
 USE_LANGUAGES=		c c++
 
 #CMAKE_ARGS+=		-DK3B_ENABLE_DVD_RIPPING=OFF
+#CMAKE_ARGS+=            -DCMAKE_BUILD_TYPE=Debug
 
 ONLY_FOR_PLATFORM=	FreeBSD-*-* Linux-*-* NetBSD-*-* DragonFly-*-*
 
@@ -42,5 +43,6 @@ BUILDLINK_TRANSFORM+=   opt:-ldl:${BUILDLINK_LDADD.dl:M*}
 .include "../../multimedia/ffmpeg/buildlink3.mk"
 .include "../../multimedia/kdemultimedia4/buildlink3.mk"
 .include "../../multimedia/libdvdread/buildlink3.mk"
+.include "../../security/polkit-qt/buildlink3.mk"
 .include "../../x11/kdelibs4/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
