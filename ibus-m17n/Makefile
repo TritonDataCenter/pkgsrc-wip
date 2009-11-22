@@ -8,7 +8,7 @@ MASTER_SITES=	http://ibus.googlecode.com/files/
 
 MAINTAINER=	obache@NetBSD.org
 HOMEPAGE=	http://code.google.com/p/ibus/
-COMMENT=	M17N engine for IBus
+COMMENT=	M17N engine for IBus platform
 LICENSE=	gnu-gpl-v2
 
 PKG_DESTDIR_SUPPORT=	user-destdir
