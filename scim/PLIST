@@ -46,7 +46,6 @@ include/scim-1.0/scim_transaction.h
 include/scim-1.0/scim_types.h
 include/scim-1.0/scim_utility.h
 include/scim-1.0/x11/scim_x11_utils.h
-lib/gtk-2.0/immodules/im-scim.la
 lib/libscim-1.0.la
 lib/libscim-gtkutils-1.0.la
 lib/libscim-x11utils-1.0.la
