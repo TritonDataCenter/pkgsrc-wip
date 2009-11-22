@@ -12,6 +12,7 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 
 USE_LIBTOOL=		YES
 GNU_CONFIGURE=		YES
+USE_FEATURES+=		getopt_long
 
 DEPENDS+=	libosip2>=3.2.0:../../devel/libosip
 .include "../../devel/libosip/buildlink3.mk"
