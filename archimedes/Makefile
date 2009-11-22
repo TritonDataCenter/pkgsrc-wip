@@ -13,5 +13,6 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 
 GNU_CONFIGURE=	YES
 USE_LANGUAGES=	c c++
+USE_FEATURES+=	getopt_long
 
 .include "../../mk/bsd.pkg.mk"
