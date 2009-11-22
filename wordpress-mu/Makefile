@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		wordpress-mu-${VERSION}
-VERSION=		2.8.5.2
+VERSION=		2.8.6
 CATEGORIES=		www
 MASTER_SITES=		http://mu.wordpress.org/
 
