@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	moe-1.2
+DISTNAME=	moe-1.3
 CATEGORIES=	editors
 MASTER_SITES=	${MASTER_SITE_GNU:=moe/}
 
