@@ -15,7 +15,7 @@ name="slim"
 rcvar=${name}
 command="@PREFIX@/sbin/${name}"
 command_args="-d"
-pidfile="/var/run/${name}.pid"
+pidfile="/var/run/${name}.lock"
 required_files="@PKG_SYSCONFDIR@/slim.conf"
 
 if [ -f /etc/rc.subr ]; then
