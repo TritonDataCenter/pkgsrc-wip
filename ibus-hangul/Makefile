@@ -8,7 +8,7 @@ MASTER_SITES=	http://ibus.googlecode.com/files/
 
 MAINTAINER=	obache@NetBSD.org
 HOMEPAGE=	http://code.googlecode.com/p/ibus/
-COMMENT=	Korean input engine for IBus
+COMMENT=	Hangul engine for IBus input platform
 LICENSE=	gnu-gpl-v2
 
 PKG_DESTDIR_SUPPORT=	user-destdir

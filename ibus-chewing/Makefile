@@ -8,7 +8,7 @@ MASTER_SITES=	http://ibus.googlecode.com/files/
 
 MAINTAINER=	obache@NetBSD.org
 HOMEPAGE=	http://code.google.com/p/ibus/
-COMMENT=	Chewing engine for IBus
+COMMENT=	Chewing engine for IBus input platform
 LICENSE=	gnu-gpl-v2
 
 PKG_DESTDIR_SUPPORT=	user-destdir

@@ -8,7 +8,7 @@ MASTER_SITES=	http://ibus.googlecode.com/files/
 
 MAINTAINER=	obache@NetBSD.org
 HOMEPAGE=	http://code.google.com/p/ibus/
-COMMENT=	Intelligent Input Bus for Linux / Unix OS
+COMMENT=	Intelligent Input Bus
 LICENSE=	gnu-lgpl-v2.1
 
 PKG_DESTDIR_SUPPORT=	user-destdir

@@ -9,7 +9,7 @@ DISTFILES=	${DEFAULT_DISTFILES} ${DBTAR}
 
 MAINTAINER=	obache@NetBSD.org
 HOMEPAGE=	http://code.google.com/p/ibus/
-COMMENT=	PinYin engine for IBus
+COMMENT=	PinYin engine for IBus platform
 LICENSE=	gnu-gpl-v2
 
 PKG_DESTDIR_SUPPORT=	user-destdir
