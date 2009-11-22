@@ -16,15 +16,8 @@ GNU_CONFIGURE=	YES
 
 CONFIGURE_ARGS+=	--sysconfdir=${PKG_SYSCONFDIR:Q}
 
-.if ${OPSYS} == "NetBSD" || ${OPSYS} == "SunOS"
-LIBS+=		-lrt	# for sem_*()
-.endif
-
-.if ${OPSYS} == "SunOS"
-LIBS+=		-lsocket
-LIBS+=		-lnsl	# for inet_ntoa()
-LIBS+=		-lresolv	# for inet_aton()
-.endif
+LIBS.NetBSD+=	-lrt	# for sem_*()
+LIBS.SunOS+=	-lrt -lsocket -lnsl -lresolv	# for sem_*(), inet_ntoa(), inet_aton()
 
 INSTALLATION_DIRS=	sbin share/doc/dnrd
 
