@@ -15,6 +15,8 @@ NO_CONFIGURE=	YES
 
 INSTALLATION_DIRS=	bin
 
+CPPFLAGS.SunOS+=	-Du_int8_t=uint8_t -Du_int16_t=uint16_t -Du_int32_t=uint32_t
+
 do-install:
 		${INSTALL_PROGRAM} ${WRKSRC}/dwepcrack ${DESTDIR}${PREFIX}/bin
 
