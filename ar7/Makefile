@@ -14,4 +14,7 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 GNU_CONFIGURE=	YES
 INSTALLATION_DIRS=	bin
 
+USE_FEATURES+=	getopt_long
+LIBS.SunOS+=	-lnsl -lsocket
+
 .include "../../mk/bsd.pkg.mk"
