@@ -1038,7 +1038,6 @@ SUBDIR+=	liblastfm
 SUBDIR+=	liblingoteach
 SUBDIR+=	liblo
 SUBDIR+=	libmemcached
-SUBDIR+=	libmicro
 SUBDIR+=	libmrss
 SUBDIR+=	libmusclecard
 SUBDIR+=	libnettle
