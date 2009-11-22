@@ -17,8 +17,6 @@ USE_LIBTOOL=	yes
 USE_LANGUAGES=	c c++
 USE_TOOLS+=	pkg-config
 
-#CFLAGS+=	-Wextra
-
 CONFIGURE_ARGS+=	--enable-agent
 CONFIGURE_ARGS+=	--disable-documents
 CONFIGURE_ARGS+=	--disable-tests
