@@ -10,11 +10,12 @@ PLIST_VARS+=	gtk qt
 .include "../../mk/bsd.options.mk"
 
 .if !empty(PKG_OPTIONS:Mgtk)
+GTK2_IMMODULES=		yes
 .include "../../x11/gtk2/modules.mk"
 CONFIGURE_ARGS+=	--enable-gtk2-immodule
 PLIST.gtk=		yes
 .else
-CONFIGURE_ARGS+=	--disable-gtk2-immodule
+CONFIGURE_ARGS+=	--enable-gtk2-immodule=no
 .endif
 
 #.if !empty(PKG_OPTIONS:Mqt3)

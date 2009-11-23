@@ -27,8 +27,6 @@ PKGCONFIG_OVERRIDE+=	scim.pc.in
 
 GNU_CONFIGURE=		yes
 
-#CFLAGS+=		-Wextra
-
 CONFIGURE_ARGS+=	--sysconfdir=${PKG_SYSCONFDIR}
 CONFIGURE_ARGS+=	--disable-gtk2-immodule
 

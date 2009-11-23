@@ -18,6 +18,8 @@ USE_LIBTOOL=		yes
 USE_TOOLS+=		gmake msgfmt pkg-config intltool
 GNU_CONFIGURE=		yes
 
+USE_SCIM_GTKUTILS=	yes
+
 .include "../../devel/gettext-lib/buildlink3.mk"
 .include "../../wip/libchewing/buildlink3.mk"
 .include "../../wip/scim/buildlink3.mk"

@@ -18,6 +18,8 @@ USE_PKGLOCALEDIR=	yes
 USE_LANGUAGES=		c c++
 USE_TOOLS+=		pkg-config
 
+USE_SCIM_GTKUTILS=	yes
+
 .include "../../devel/gettext-lib/buildlink3.mk"
 .include "../../devel/libthai/buildlink3.mk"
 .include "../../wip/scim/buildlink3.mk"

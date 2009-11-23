@@ -19,6 +19,8 @@ USE_LANGUAGES=		c c++
 USE_TOOLS+=		pkg-config bash
 CONFIG_SHELL=		${BASH}
 
+USE_SCIM_GTKUTILS=	yes
+
 .include "../../devel/gettext-lib/buildlink3.mk"
 .include "../../wip/scim/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

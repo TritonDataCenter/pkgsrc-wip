@@ -17,6 +17,8 @@ USE_LIBTOOL=		yes
 USE_TOOLS+=		msgfmt pkg-config
 GNU_CONFIGURE=		yes
 
+USE_SCIM_GTKUTILS=	yes
+
 .include "../../devel/gettext-lib/buildlink3.mk"
 .include "../../inputmethod/canna-lib/buildlink3.mk"
 .include "../../wip/scim/buildlink3.mk"
