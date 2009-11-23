@@ -965,7 +965,6 @@ SUBDIR+=	kpathsea
 SUBDIR+=	kplayer
 SUBDIR+=	krusader
 SUBDIR+=	kstart
-SUBDIR+=	ktorrent3
 SUBDIR+=	kuickshow
 SUBDIR+=	kvirc
 SUBDIR+=	kxmleditor
