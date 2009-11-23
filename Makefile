@@ -1954,6 +1954,7 @@ SUBDIR+=	scare
 SUBDIR+=	schismtracker
 SUBDIR+=	scim
 SUBDIR+=	scim-anthy
+SUBDIR+=	scim-array
 SUBDIR+=	scim-bridge
 SUBDIR+=	scim-canna
 SUBDIR+=	scim-ccinput
