@@ -1971,6 +1971,7 @@ SUBDIR+=	scim-tables
 SUBDIR+=	scim-thai
 SUBDIR+=	scim-tomoe
 SUBDIR+=	scim-uim
+SUBDIR+=	scim-unikey
 SUBDIR+=	scite
 SUBDIR+=	scm
 SUBDIR+=	scmail
