@@ -1751,6 +1751,7 @@ SUBDIR+=	py-bsddb
 SUBDIR+=	py-buildbot
 SUBDIR+=	py-cElementTree
 SUBDIR+=	py-chm
+SUBDIR+=	py-clonedigger
 SUBDIR+=	py-clutter
 SUBDIR+=	py-configobj
 SUBDIR+=	py-coverage
