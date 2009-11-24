@@ -10,6 +10,10 @@ CATEGORIES=		mail
 MASTER_SITES=		http://www.dovecot.org/releases/${DOVECOT_VERSION}/
 DOVECOT_SIEVE_SITES=	http://www.rename-it.nl/dovecot/${DOVECOT_VERSION}/
 
+MANAGESIEVE_PATCH=			dovecot-${DOVECOT_VERSION}${DOVECOT_SUBVERSION}-managesieve-${MANAGESIEVE_VERSION}.diff.gz
+PATCH_SITES.${MANAGESIEVE_PATCH}=	${DOVECOT_SIEVE_SITES}
+PATCH_DIST_STRIP.${MANAGESIEVE_PATCH}=	p1
+
 MAINTAINER=		ghen@NetBSD.org
 HOMEPAGE=		http://www.dovecot.org/
 COMMENT=		Secure IMAP and POP3 server

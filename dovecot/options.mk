@@ -118,9 +118,7 @@ PLIST_SRC+=		${PKGDIR}/PLIST.sieve
 
 .if !empty(PKG_OPTIONS:Mdovecot-managesieve)
 # The managesieve patch to dovecot
-PATCHFILES=		dovecot-${DOVECOT_VERSION}${DOVECOT_SUBVERSION}-managesieve-${MANAGESIEVE_VERSION}.diff.gz
-PATCH_SITES=		${DOVECOT_SIEVE_SITES}
-PATCH_DIST_STRIP=	-p1
+PATCHFILES+=		${MANAGESIEVE_PATCH}
 # managesieve itself (built after both dovecot and sieve)
 DISTFILES+=		dovecot-${DOVECOT_VERSION}-managesieve-${MANAGESIEVE_VERSION}.tar.gz
 SITES.dovecot-${DOVECOT_VERSION}-managesieve-${MANAGESIEVE_VERSION}.tar.gz=\
