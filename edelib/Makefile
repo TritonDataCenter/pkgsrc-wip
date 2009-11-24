@@ -13,7 +13,7 @@ LICENSE=	gnu-lgpl-v2
 
 WRKSRC=		${WRKDIR}/edelib-2.0-beta
 GNU_CONFIGURE=	yes
-USE_TOOLS+=	pkg-config
+USE_TOOLS+=	pkg-config jam
 USE_LANGUAGES=	c c++
 
 PKGCONFIG_OVERRIDE+=	edelib-dbus.pc.in
