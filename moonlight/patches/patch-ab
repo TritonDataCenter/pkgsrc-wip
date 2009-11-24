@@ -1,0 +1,13 @@
+$NetBSD$
+--- src/debug.h.orig	2009-11-24 19:13:53.000000000 +0200
++++ src/debug.h	2009-11-24 19:14:06.000000000 +0200
+@@ -14,7 +14,9 @@
+ 
+ #include <glib.h>
+ #include <unistd.h>
++#ifndef __NetBSD__
+ #include <execinfo.h>
++#endif
+ #include <stdio.h>
+ #include <stdlib.h>
+ #include <string.h>
