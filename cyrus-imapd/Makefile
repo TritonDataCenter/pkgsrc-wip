@@ -66,7 +66,7 @@ PKG_OPTIONS+=	gssapi
 
 .if !empty(PKG_OPTIONS:Mkerberos4)
 .  if exists(/usr/include/kerberosIV/krb.h)
-CRYPTO+=		uses Kerberos encryption code
+PKG_USE_KERBEROS=	yes
 CONFIGURE_ARGS+=	--with-krb=/usr
 .  endif
 .elif !empty(PKG_OPTIONS:Mgssapi)
