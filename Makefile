@@ -1796,6 +1796,7 @@ SUBDIR+=	py-kcs11
 SUBDIR+=	py-kyra
 SUBDIR+=	py-last
 SUBDIR+=	py-lib
+SUBDIR+=	py-libdisassemble
 SUBDIR+=	py-libmc
 SUBDIR+=	py-libmemcache
 SUBDIR+=	py-libmpdclient2
