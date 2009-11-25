@@ -1867,6 +1867,7 @@ SUBDIR+=	py-willow
 SUBDIR+=	py-workerpool
 SUBDIR+=	py-wxWidgets-unicode
 SUBDIR+=	py-xlrd
+SUBDIR+=	py-xmiparser 
 SUBDIR+=	py-xmpppy
 SUBDIR+=	py-xsdb
 SUBDIR+=	py-yapgvb
