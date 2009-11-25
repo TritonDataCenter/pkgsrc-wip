@@ -999,7 +999,6 @@ SUBDIR+=	libassa
 SUBDIR+=	libatomic_ops
 SUBDIR+=	libavc1394
 SUBDIR+=	libbtctl
-SUBDIR+=	libchewing
 SUBDIR+=	libcli
 SUBDIR+=	libcm
 SUBDIR+=	libcmt

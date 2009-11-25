@@ -34,8 +34,8 @@ CMAKE_ARGS+=	-DGCONF_SCHEMAS_INSTALLED_DIR=${GCONF_SCHEMAS_DIR}
 
 .include "../../devel/GConf/schemas.mk"
 .include "../../wip/ibus/buildlink3.mk"
-.include "../../wip/libchewing/buildlink3.mk"
 .include "../../devel/gob2/buildlink3.mk"
+.include "../../inputmethod/libchewing/buildlink3.mk"
 .include "../../x11/gtk2/buildlink3.mk"
 .include "../../x11/libXtst/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
