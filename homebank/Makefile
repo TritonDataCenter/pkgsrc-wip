@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	homebank-4.0.4
+DISTNAME=	homebank-4.1
 CATEGORIES=	finance
 MASTER_SITES=	http://homebank.free.fr/public/
 
