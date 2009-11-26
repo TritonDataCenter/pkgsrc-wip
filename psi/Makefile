@@ -1,6 +1,6 @@
 # $NetBSD: Makefile,v 1.49 2007/02/20 16:23:22 rillig Exp $
 
-PSI_VERSION=	0.14-rc2
+PSI_VERSION=	0.14-rc3
 DISTNAME=	psi-${PSI_VERSION}
 PKGNAME=	${DISTNAME:S/-rc/rc/}
 CATEGORIES=	chat
