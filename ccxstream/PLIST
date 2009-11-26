@@ -1,0 +1,11 @@
+@comment $NetBSD$
+bin/ccxstream
+bin/ccxtest
+share/doc/ccxstream/COPYRIGHT
+share/doc/ccxstream/ChangeLog
+share/doc/ccxstream/PORTING
+share/doc/ccxstream/README
+share/doc/ccxstream/TODO
+share/doc/ccxstream/xbmsp-rc
+share/doc/ccxstream/xbmsp-xml.txt
+share/doc/ccxstream/xbmsp.txt
