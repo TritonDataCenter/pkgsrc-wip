@@ -22,4 +22,5 @@ PKGCONFIG_OVERRIDE+=	src/Hyena.Data.Sqlite/hyena.data.sqlite.pc.in
 PKGCONFIG_OVERRIDE+=	src/Hyena/hyena.pc.in
 
 .include "../../x11/gtk-sharp/buildlink3.mk"
+.include "../../lang/mono/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
