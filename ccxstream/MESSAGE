@@ -1,5 +1,6 @@
 ===========================================================================
 $NetBSD$
+
 Don't forget to update mountpoints (-S statements in
 ccxstream_flags) before starting ccxstream.
 ===========================================================================
