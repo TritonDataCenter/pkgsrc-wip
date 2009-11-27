@@ -19,7 +19,7 @@ CONFIG_GUESS_OVERRIDE+=	directory/c-sdk/config/autoconf/config.guess
 CONFIG_SUB_OVERRIDE+=	directory/c-sdk/config/autoconf/config.sub
 
 CONFIGURE_ARGS+=	--enable-application=suite
-CONFIGURE_ARGS+=	--enable-libxul
+CONFIGURE_ARGS+=	--enable-static
 
 # XXX these should be options, but for now ...
 CONFIGURE_ARGS+=	--disable-dbus --disable-gnomevfs --disable-gnomeui
