@@ -1,0 +1,5 @@
+@comment $NetBSD$
+lib/X11/fonts/TTF/odokai-ExtB.ttf
+lib/X11/fonts/TTF/odokai.ttf
+lib/X11/fonts/TTF/odosung-ExtB.ttf
+lib/X11/fonts/TTF/odosung.ttc
