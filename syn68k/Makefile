@@ -2,7 +2,8 @@
 #
 
 #DISTNAME=	ctm-syn68k-b9044353deba13876bd024ea42c8be04e2ff3d8f
-DISTNAME=	ctm-syn68k-b904435
+#DISTNAME=	ctm-syn68k-b904435
+DISTNAME=	ctm-syn68k-655e404
 PKGNAME=	syn68k-20090622
 CATEGORIES=	emulators
 MASTER_SITES=	http://download.github.com/
