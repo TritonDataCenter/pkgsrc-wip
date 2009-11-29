@@ -80,8 +80,11 @@ lib/seamonkey/components/browser.xpt
 lib/seamonkey/components/glautocomp.js
 lib/seamonkey/components/jsconsole-clhandler.js
 lib/seamonkey/components/jsmimeemitter.js
+${PLIST.gnome}lib/seamonkey/components/libdbusservice.so
 lib/seamonkey/components/libimgicon.so
 lib/seamonkey/components/libjsd.so
+${PLIST.gnome}lib/seamonkey/components/libmozgnome.so
+${PLIST.gnome}lib/seamonkey/components/libnkgnomevfs.so
 lib/seamonkey/components/libsuite.so
 lib/seamonkey/components/libxpinstall.so
 lib/seamonkey/components/mail.xpt
