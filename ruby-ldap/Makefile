@@ -20,7 +20,8 @@ RUBY_HAS_ARCHLIB=	yes
 USE_RUBY_EXTCONF=	yes
 USE_TOOLS+=		pax
 
-.include "options.mk"
+CONFIGURE_ARGS+=	--with-openldap2
+CONFIGURE_ARGS+=	--with-ldap-dir=${BUILDLINK_PREFIX.openldap-client}
 
 DOCS=		ChangeLog FAQ README TODO
 
@@ -32,5 +33,6 @@ post-install:
 	${INSTALL_DATA_DIR} ${DESTDIR}${RUBY_EXAMPLESDIR}/ldap
 	cd ${WRKSRC}/example && pax -rw -pp * ${DESTDIR}${RUBY_EXAMPLESDIR}/ldap
 
+.include "../../databases/openldap-client/buildlink3.mk"
 .include "../../lang/ruby/modules.mk"
 .include "../../mk/bsd.pkg.mk"
