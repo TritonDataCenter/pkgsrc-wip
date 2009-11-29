@@ -5,7 +5,7 @@ PKGNAME=	${PYPKGPREFIX}-cElementTree-0
 CATEGORIES=	textproc python
 
 MAINTAINER=	obache@NetBSD.org
-HOMEPAGE=	http://www.python.org/
+HOMEPAGE=	http://www.effbot.org/zone/celementtree.htm
 COMMENT=	C implementation of Python ElementTree API
 
 PKG_DESTDIR_SUPPORT=	user-destdir
