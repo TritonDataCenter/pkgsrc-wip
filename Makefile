@@ -1975,7 +1975,6 @@ SUBDIR+=	scummvm-nightly
 SUBDIR+=	scx
 SUBDIR+=	sdd
 SUBDIR+=	sdict-tools
-SUBDIR+=	seamonkey
 SUBDIR+=	send-pr
 SUBDIR+=	sendmailX
 SUBDIR+=	serlook
