@@ -2146,7 +2146,6 @@ SUBDIR+=	tftp-hpa
 SUBDIR+=	thabit
 SUBDIR+=	thcrut
 SUBDIR+=	theme-gtk-bluecurve
-SUBDIR+=	thunderbird
 SUBDIR+=	tilda
 SUBDIR+=	tilp
 SUBDIR+=	tint2
