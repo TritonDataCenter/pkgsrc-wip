@@ -2160,7 +2160,6 @@ SUBDIR+=	tmux
 SUBDIR+=	tmw
 SUBDIR+=	tome
 SUBDIR+=	tome2
-SUBDIR+=	topless
 SUBDIR+=	tops-bin
 SUBDIR+=	tor-dev
 SUBDIR+=	torcs
