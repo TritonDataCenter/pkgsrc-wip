@@ -18,6 +18,8 @@ NO_CONFIGURE=	YES
 INSTALLATION_DIRS=	bin
 
 CXXFLAGS+=	-DQT_THREAD_SUPPORT -D_REENTRANT
+LIBS.SunOS+=	-lnsl -lsocket
+MAKE_ENV+=	LIBS=${LIBS:Q}
 
 do-install:
 		${INSTALL_PROGRAM} ${WRKSRC}/sipb_main ${DESTDIR}${PREFIX}/bin/sipbomber
