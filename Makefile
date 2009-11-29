@@ -1,4 +1,8 @@
+<<<<<<< Makefile
 # $Id$
+=======
+# $Id$
+>>>>>>> 1.3706
 #
 
 COMMENT=	WIP pkgsrc packages
@@ -1747,6 +1751,7 @@ SUBDIR+=	py-SQLObject
 SUBDIR+=	py-Soya
 SUBDIR+=	py-albatross
 SUBDIR+=	py-amqplib
+SUBDIR+=	py-anyjson
 SUBDIR+=	py-aspects
 SUBDIR+=	py-aspell
 SUBDIR+=	py-aspyct
