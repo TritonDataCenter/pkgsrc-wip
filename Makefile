@@ -2108,7 +2108,6 @@ SUBDIR+=	taglib-extras
 SUBDIR+=	taglib-sharp
 SUBDIR+=	tagtool
 SUBDIR+=	talksoup
-SUBDIR+=	tango-icon-theme
 SUBDIR+=	tardy
 SUBDIR+=	task
 SUBDIR+=	taskbar
