@@ -1,2 +1,2 @@
 @comment $NetBSD$
-${PYSITELIB}/_elementtree.so
+${PYSITELIB}/${C_MODULE_NAME}.so
