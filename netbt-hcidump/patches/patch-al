@@ -1,6 +1,6 @@
 $NetBSD$
 
---- src/bt_lib.c.orig	2009-08-18 15:53:42.000000000 +0100
+--- src/bt_lib.c.orig	2009-11-30 19:29:17.000000000 +0000
 +++ src/bt_lib.c
 @@ -48,6 +48,7 @@ void baswap(bdaddr_t *dst, const bdaddr_
  		d[i] = s[5-i];
