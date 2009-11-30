@@ -4,6 +4,7 @@
 DISTNAME=	ekg2-20091123
 CATEGORIES=	chat
 MASTER_SITES=	http://pl.ekg2.org/
+MASTER_SITES+=	http://pl.ekg2.org/archive/
 EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	shinden@linux.pl
