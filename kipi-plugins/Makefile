@@ -1,9 +1,9 @@
 # $NetBSD$
 #
 
-DISTNAME=	kipi-plugins-0.8.0
+DISTNAME=	kipi-plugins-0.9.0
 CATEGORIES=	graphics
-MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=kipi/kipi-plugins/0.8.0/}
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=kipi/kipi-plugins/0.9.0/}
 EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
