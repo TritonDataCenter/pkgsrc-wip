@@ -1,8 +1,8 @@
 # $NetBSD$
 #
 
-DISTNAME=	digikam-1.0.0-beta6
-PKGNAME=	${DISTNAME:S/-beta/beta/}
+DISTNAME=	digikam-1.0.0-rc
+PKGNAME=	${DISTNAME:S/-rc/rc1/}
 CATEGORIES=	graphics
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=digikam/}
 EXTRACT_SUFX=	.tar.bz2
