@@ -1954,7 +1954,6 @@ SUBDIR+=	ruby-actionmessenger
 SUBDIR+=	ruby-dnsruby
 SUBDIR+=	ruby-git
 SUBDIR+=	ruby-ming
-SUBDIR+=	ruby-polyglot
 SUBDIR+=	ruby-term-ansicolor
 SUBDIR+=	ruby-thor
 SUBDIR+=	ruby-treetop
