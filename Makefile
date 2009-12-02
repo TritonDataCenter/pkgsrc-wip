@@ -1,8 +1,4 @@
-<<<<<<< Makefile
 # $Id$
-=======
-# $Id$
->>>>>>> 1.3706
 #
 
 COMMENT=	WIP pkgsrc packages
@@ -417,6 +413,7 @@ SUBDIR+=	filelight
 SUBDIR+=	filepp
 SUBDIR+=	firebird
 SUBDIR+=	fireflysung-ttf
+SUBDIR+=	firefox
 SUBDIR+=	firefox-wrapper
 SUBDIR+=	firehose
 SUBDIR+=	fish
@@ -2359,6 +2356,7 @@ SUBDIR+=	xspread
 SUBDIR+=	xtags
 SUBDIR+=	xtrace
 SUBDIR+=	xtrlock
+SUBDIR+=	xulrunner
 SUBDIR+=	xvmware
 SUBDIR+=	xwelltris
 SUBDIR+=	xxdiff
