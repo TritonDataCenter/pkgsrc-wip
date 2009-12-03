@@ -1,4 +1,5 @@
 $NetBSD: distinfo,v 1.2 2001/04/20 15:05:13 skrll Exp $
 
-SHA1 (jakarta-log4j-1.2.8.tar.gz) = 969c0576ca20e29da5c4bffcb9833d12f702b545
-Size (jakarta-log4j-1.2.8.tar.gz) = 2513781 bytes
+SHA1 (logging-log4j-1.3alpha-8.tar.gz) = 483777825c01d91cd9c8a85dafdb0f370ded5286
+RMD160 (logging-log4j-1.3alpha-8.tar.gz) = 3d7c2488e9361c7a996a1b03ec6e38cc85ab2891
+Size (logging-log4j-1.3alpha-8.tar.gz) = 2435942 bytes
