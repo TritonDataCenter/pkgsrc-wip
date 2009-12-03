@@ -1,8 +1,8 @@
 # $NetBSD$
 #
 
-DISTNAME=	grsync-0.9.1
-CATEGORIES=	sysutils
+DISTNAME=	grsync-0.9.3
+CATEGORIES=	wip
 MASTER_SITES=	http://www.opbyte.it/release/
 
 MAINTAINER=	pkgsrc@blackmouse.biz
