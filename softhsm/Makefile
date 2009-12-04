@@ -13,13 +13,13 @@ LICENSE=	iis-license
 
 LICENSE_FILE=	${FILESDIR}/iis-license
 
-USE_TOOLS+=     aclocal autoconf automake autoheader gmake gm4
+#USE_TOOLS+=     aclocal autoconf automake autoheader gmake gm4
 USE_LIBTOOL=	yes
 
 #SVN_REPOSITORIES=	softhsm
 #SVN_ROOT.softhsm=	http://svn.opendnssec.org/tags/softHSM-${RCVERSION}/
 #SVN_MODULE.softhsm=	softHSM
-VERSION=		1.1.0
+VERSION=		1.1.1
 #RCVERSION=		${VERSION:S/-RC/rc/}
 #NO_CHECKSUM=		yes
 

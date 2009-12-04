@@ -5,7 +5,7 @@ BUILDLINK_TREE+=	softhsm
 .if !defined(SOFTHSM_BUILDLINK3_MK)
 SOFTHSM_BUILDLINK3_MK:=
 
-BUILDLINK_API_DEPENDS.softhsm+=	softhsm>=1.0.0rc3nb20090929
+BUILDLINK_API_DEPENDS.softhsm+=	softhsm>=1.1.1
 BUILDLINK_PKGSRCDIR.softhsm?=	../../wip/softhsm
 
 .include "../../databases/sqlite3/buildlink3.mk"
