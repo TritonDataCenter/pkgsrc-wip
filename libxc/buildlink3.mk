@@ -1,0 +1,12 @@
+# $NetBSD$
+
+BUILDLINK_TREE+=	libxc
+
+.if !defined(LIBXC_BUILDLINK3_MK)
+LIBXC_BUILDLINK3_MK:=
+
+BUILDLINK_API_DEPENDS.libxc+=	libxc>=1.0
+BUILDLINK_PKGSRCDIR.libxc?=	../../wip/libxc
+.endif	# LIBXC_BUILDLINK3_MK
+
+BUILDLINK_TREE+=	-libxc
