@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	ibus-1.2.0.20091124
+DISTNAME=	ibus-1.2.0.20091204
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	inputmethod
 MASTER_SITES=	http://ibus.googlecode.com/files/
