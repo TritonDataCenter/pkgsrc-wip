@@ -1823,6 +1823,7 @@ SUBDIR+=	py-libmemcache
 SUBDIR+=	py-libmpdclient2
 SUBDIR+=	py-libopensync-plugin
 SUBDIR+=	py-libtunepimp
+SUBDIR+=	py-libxc
 SUBDIR+=	py-lockfile
 SUBDIR+=	py-logilab-astng
 SUBDIR+=	py-logilab-common
