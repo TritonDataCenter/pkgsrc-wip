@@ -1852,6 +1852,7 @@ SUBDIR+=	py-pcapy
 SUBDIR+=	py-plucker
 SUBDIR+=	py-pp
 SUBDIR+=	py-ptrace
+SUBDIR+=	py-pygr
 SUBDIR+=	py-rcsparse
 SUBDIR+=	py-rdflib
 SUBDIR+=	py-remctl
