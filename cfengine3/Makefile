@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	cfengine-3.0.2b5
+DISTNAME=	cfengine-3.0.2
 CATEGORIES=	sysutils
 MASTER_SITES=	http://www.cfengine.org/tarballs/
 
