@@ -6,6 +6,7 @@ CATEGORIES=	games
 OWNER=		dillo@NetBSD.org
 HOMEPAGE=	http://scummvm.sourceforge.net/
 COMMENT=	LucasArts Script Creation Utility for Maniac Mansion
+LICENSE=	gnu-gpl-v2
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
