@@ -67,6 +67,7 @@ share/gforth/${PKGVERSION}/compat/defer.fs
 share/gforth/${PKGVERSION}/compat/exception.fs
 share/gforth/${PKGVERSION}/compat/execute-parsing.fs
 share/gforth/${PKGVERSION}/compat/loops.fs
+share/gforth/${PKGVERSION}/compat/macros.fs
 share/gforth/${PKGVERSION}/compat/required.fs
 share/gforth/${PKGVERSION}/compat/strcomp.fs
 share/gforth/${PKGVERSION}/compat/struct.fs
@@ -211,6 +212,7 @@ share/gforth/${PKGVERSION}/test/float.fs
 share/gforth/${PKGVERSION}/test/gforth-nofast.fs
 share/gforth/${PKGVERSION}/test/gforth.fs
 share/gforth/${PKGVERSION}/test/libcc.fs
+share/gforth/${PKGVERSION}/test/macros.fs
 share/gforth/${PKGVERSION}/test/other.fs
 share/gforth/${PKGVERSION}/test/postpone.fs
 share/gforth/${PKGVERSION}/test/primtest.fs
