@@ -1333,6 +1333,7 @@ SUBDIR+=	oops
 SUBDIR+=	oorexx
 SUBDIR+=	opax
 SUBDIR+=	opendesktop-fonts
+SUBDIR+=	opensips
 SUBDIR+=	opd
 SUBDIR+=	open21xx
 SUBDIR+=	openal-soft
