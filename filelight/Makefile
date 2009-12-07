@@ -12,6 +12,8 @@ HOMEPAGE=	http://www.methylblue.com/filelight/
 COMMENT=	Graphical filesystem usage monitor
 LICENSE=	gnu-gpl-v3
 
+BUILD_DEPENDS+=	automoc4>=0.9.83:../../devel/automoc4
+
 PKG_DESTDIR_SUPPORT=	user-destdir
 
 WRKSRC=		${WRKDIR}/${PKGNAME}
