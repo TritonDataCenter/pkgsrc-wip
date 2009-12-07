@@ -76,6 +76,7 @@ CONFIGURE_ENV+=	ac_cv_thread_keyword=no
 BUILDLINK_API_DEPENDS.sqlite3+=	sqlite3>=3.6.16
 .include "../../databases/sqlite3/buildlink3.mk"
 .include "../../devel/zlib/buildlink3.mk"
+.include "../../graphics/jpeg/buildlink3.mk"
 .include "../../net/libIDL/buildlink3.mk"
 BUILDLINK_API_DEPENDS.gtk2+=	gtk2+>=2.18.3nb1
 .include "../../x11/gtk2/buildlink3.mk"
