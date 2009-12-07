@@ -9,7 +9,6 @@ share/doc/scummvm/NEWS
 share/doc/scummvm/README
 share/pixmaps/scummvm.xpm
 share/scummvm/drascula.dat
-share/scummvm/igor.tbl
 share/scummvm/kyra.dat
 share/scummvm/lure.dat
 share/scummvm/m4.dat
@@ -17,3 +16,4 @@ share/scummvm/pred.dic
 share/scummvm/queen.tbl
 share/scummvm/scummmodern.zip
 share/scummvm/sky.cpt
+share/scummvm/teenagent.dat
