@@ -483,6 +483,7 @@ SUBDIR+=	gdmap
 SUBDIR+=	gdvb
 SUBDIR+=	geant
 SUBDIR+=	gecko-sharp
+SUBDIR+=	gemrb
 SUBDIR+=	gfa
 SUBDIR+=	gfontview
 SUBDIR+=	gforge
