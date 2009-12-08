@@ -2249,6 +2249,7 @@ SUBDIR+=	viewer
 SUBDIR+=	viewglob
 SUBDIR+=	vino
 SUBDIR+=	virtualbox
+SUBDIR+=	virtualjaguar
 SUBDIR+=	virus
 SUBDIR+=	vis
 SUBDIR+=	vkeybd
