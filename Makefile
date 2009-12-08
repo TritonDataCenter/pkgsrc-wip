@@ -964,6 +964,7 @@ SUBDIR+=	kino
 SUBDIR+=	kipi-plugins
 SUBDIR+=	kissme
 SUBDIR+=	klamav
+SUBDIR+=	kmldonkey
 SUBDIR+=	kmymoney2-cvs
 SUBDIR+=	kmymoney2-devel
 SUBDIR+=	knutclient
