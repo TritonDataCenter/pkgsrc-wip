@@ -1,0 +1,12 @@
+$NetBSD$
+
+--- configure.orig	2009-06-26 05:32:21.000000000 +0000
++++ configure
+@@ -5286,6 +5286,7 @@ done
+ 	#AC_PROG_INTLTOOL([0.21])
+ 
+ 	ALL_LINGUAS=`grep -v '^#' $srcdir/po/LINGUAS | sed -r ':a;N;$!ba;s/\n/ /g; s/[ ]+/ /g'`
++	ALL_LINGUAS=de
+ 	GETTEXT_PACKAGE=gnome-do
+ 
+ 
