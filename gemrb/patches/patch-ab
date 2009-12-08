@@ -1,0 +1,10 @@
+$NetBSD$
+
+--- gemrb/CMakeLists.txt.orig	2009-08-18 15:23:48.000000000 +0000
++++ gemrb/CMakeLists.txt
+@@ -15,4 +15,4 @@ ELSE(WIN32)
+ ENDIF(WIN32)
+ 
+ INSTALL( TARGETS gemrb DESTINATION ${CMAKE_INSTALL_PREFIX})
+-INSTALL( FILES GemRB.cfg.sample GemRB.cfg.subdir.sample DESTINATION ${CMAKE_INSTALL_PREFIX} )
++INSTALL( FILES GemRB.cfg.sample GemRB.cfg.subdir.sample DESTINATION ${CMAKE_INSTALL_PREFIX}/share/examples/gemrb )
