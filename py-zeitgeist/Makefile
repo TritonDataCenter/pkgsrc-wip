@@ -23,9 +23,6 @@ USE_LANGUAGES=	c
 USE_TOOLS+=	gmake intltool
 PY_PATCHPLIST=	yes
 
-# https://bugs.launchpad.net/bugs/401199
-REPLACE_PYTHON=	zeitgeist-daemon zeitgeist-datahub
-
 .include "../../lang/python/application.mk"
 .include "../../lang/python/extension.mk"
 .include "../../devel/py-gobject/buildlink3.mk"
