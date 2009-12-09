@@ -14,6 +14,10 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 
 GNU_CONFIGURE=	YES
 USE_TOOLS+=	autoconf gmake
+.include "../../mk/bsd.prefs.mk"
+.if ${OPSYS} == "SunOS"
+CONFIGURE_ENV+=	ac_cv_search_getopt_long=no
+.endif
 
 MAKE_ENV+=	INSTALLROOT="${DESTDIR}"
 
