@@ -15,10 +15,7 @@ LIBS+=		${BUILDLINK_LDADD.getopt:Q}
 
 INSTALLATION_DIRS=	bin ${PKGMANDIR}/man1
 
-.include "../../mk/bsd.prefs.mk"
-.if ${OPSYS} == "SunOS"
-CPPFLAGS+=	-Du_int8_t=uint8_t -Du_int16_t=uint16_t -Du_int32_t=uint32_t
-.endif
+CPPFLAGS.SunOS+=	-Du_int8_t=uint8_t -Du_int16_t=uint16_t -Du_int32_t=uint32_t
 
 do-install:
 		${INSTALL_PROGRAM} ${WRKSRC}/weplab ${DESTDIR}${PREFIX}/bin
