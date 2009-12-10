@@ -20,8 +20,9 @@ MAKE_JOBS_SAFE=		no
 
 EGDIR=			${PREFIX}/share/examples/${PKGBASE}
 EGFILES=		00_header 10_linux 10_hurd
-CONF_FILES+=		${EGFILES:@.f.@:${EGDIR}/${.f.}\
-				${PKG_SYSCONFDIR}/${.f.}@}
+.for file in ${EGFILES}
+CONF_FILES+=		${EGDIR}/${file} ${PKG_SYSCONFDIR}/${file}
+.endfor
 GRUB_MACHINE_ARCH=	${"${MACHINE_ARCH}" == "x86_64":?i386:${MACHINE_ARCH}}
 
 MAKE_ENV+=		LIBARGP=-largp
@@ -33,6 +34,8 @@ ONLY_FOR_PLATFORM=	*-*-i386 *-*-x86_64
 PLIST_SUBST+=		GRUB_MACHINE_ARCH=${GRUB_MACHINE_ARCH}
 PKG_SYSCONFSUBDIR=	${PKGBASE}
 REPLACE_SH+=		*.sh *.in */*.in */*/*.in */*/*/*.in
+
+PLIST_SRC=		${PKGDIR}/PLIST.common
 
 .include "cvs.mk"
 .include "options.mk"
