@@ -6,8 +6,8 @@ $NetBSD$
  
  %%
  /* It should be possible to do this in a clean way...  */
--script:		{ state->err = 0} newlines commands
-+script:		{ state->err = 0;} newlines commands
+-script_init:	{ state->err = 0} script
++script_init:	{ state->err = 0;} script
  		  {
- 		    state->parsed = $3;
+ 		    state->parsed = $2;
  		  }
