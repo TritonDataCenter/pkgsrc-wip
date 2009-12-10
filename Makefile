@@ -1740,6 +1740,7 @@ SUBDIR+=	py-Beaker
 SUBDIR+=	py-Brenda
 SUBDIR+=	py-CVSToys
 SUBDIR+=	py-CherryPy
+SUBDIR+=	py-DNS
 SUBDIR+=	py-DirectoryStorage
 SUBDIR+=	py-EditObj2
 SUBDIR+=	py-Fnorb
