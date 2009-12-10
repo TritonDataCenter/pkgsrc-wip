@@ -100,13 +100,6 @@ include/xulrunner/inISearchProcess.h
 include/xulrunner/jar-ds.h
 include/xulrunner/jar.h
 include/xulrunner/jarfile.h
-include/xulrunner/jconfig.h
-include/xulrunner/jerror.h
-include/xulrunner/jinclude.h
-include/xulrunner/jmorecfg.h
-include/xulrunner/jos2fig.h
-include/xulrunner/jpegint.h
-include/xulrunner/jpeglib.h
 include/xulrunner/js-config.h
 include/xulrunner/js.msg
 include/xulrunner/jsapi.h
@@ -162,7 +155,6 @@ include/xulrunner/jsutil.h
 include/xulrunner/jsversion.h
 include/xulrunner/jsxdrapi.h
 include/xulrunner/jsxml.h
-include/xulrunner/jwinfig.h
 include/xulrunner/key.h
 include/xulrunner/keyhi.h
 include/xulrunner/keyt.h
