@@ -1282,7 +1282,6 @@ SUBDIR+=	ncbi-lib
 #SUBDIR+=	ncurses-devel	# missing Makefile.common
 SUBDIR+=	neb-cd512
 SUBDIR+=	neb-hdtoolbox
-SUBDIR+=	neb-wipe
 SUBDIR+=	nehe-opengl-tutorials
 SUBDIR+=	nemo
 SUBDIR+=	nestra
