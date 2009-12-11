@@ -311,7 +311,6 @@ SUBDIR+=	docbook-xsl-ko
 SUBDIR+=	doorman
 SUBDIR+=	dotconf
 SUBDIR+=	dotproject
-SUBDIR+=	dovecot
 SUBDIR+=	dpic
 SUBDIR+=	dragbox
 SUBDIR+=	drow
