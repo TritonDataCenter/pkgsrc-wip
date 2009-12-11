@@ -93,6 +93,7 @@ SUBDIR+=	applewmproto
 SUBDIR+=	apstget
 SUBDIR+=	apvlv
 SUBDIR+=	ar7
+SUBDIR+=	arcem-current
 SUBDIR+=	archimedes
 SUBDIR+=	argouml
 SUBDIR+=	arista
