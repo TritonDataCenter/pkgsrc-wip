@@ -1,9 +1,10 @@
 # $NetBSD$
 #
 
-DISTNAME=	gobject-introspection-0.6.5
-CATEGORIES=	devel
-MASTER_SITES=	${MASTER_SITE_GNOME:=sources/gobject-introspection/0.6/}
+DISTNAME=	gobject-introspection-0.6.6
+CATEGORIES=	wip
+MASTER_SITES=	ftp://ftp.gnome.org/pub/gnome/sources/gobject-introspection/0.6/
+EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	obache@NetBSD.org
 HOMEPAGE=	http://live.gnome.org/GObjectIntrospection
