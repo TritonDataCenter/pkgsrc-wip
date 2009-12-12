@@ -22,7 +22,6 @@ SHLIBTOOL_OVERRIDE=	${WRKSRC}/config/libtool.m4
 
 #CONFIGURE_ARGS=		LIBLTDL_SUBDIR=	# use our libltdl
 
-CONFIGURE_ARGS+=	--enable-debug
 CONFIGURE_ARGS+=	--disable-mpi-f90
 CONFIGURE_ARGS+=	--with-wrapper-ldflags="-L${PREFIX}/lib ${LINKER_RPATH_FLAG}${PREFIX}/lib"
 CONFIGURE_ENV+=		NM=/usr/bin/nm
@@ -37,9 +36,9 @@ CONFIGURE_ARGS+=	OPAL_HAVE_LTDL_ADVISE=0
 CONFIGURE_ENV+=		NM=/usr/bin/nm	# configure doesn't detect it
 .endif
 
-TEST_TARGET=	check
+.include "options.mk"
 
-# opal/util/if.c
+TEST_TARGET=	check
 
 #USE_TOOLS+=	aclocal autoconf automake
 #USE_TOOLS+=	bash
