@@ -104,6 +104,7 @@ CONFIGURE_ARGS+=	--disable-mad
 .include "../../audio/liba52/buildlink3.mk"
 CONFIGURE_ARGS+=	--enable-a52 --enable-ffmpeg-a52 \
 			--with-a52-prefix=${BUILDLINK_PREFIX.liba52:Q}
+PLIST.ffmpeg=		yes
 .else
 CONFIGURE_ARGS+=	--disable-a52
 .endif
