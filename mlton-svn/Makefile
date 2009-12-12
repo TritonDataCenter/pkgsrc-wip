@@ -11,10 +11,9 @@ LICENSE=	modified-bsd
 
 USE_TOOLS+=	gmake
 
-.if !defined(MLTON_BOOT) || $(MLTON_BOOT) == "mlton"
+.if defined(MLTON_BOOT) && $(MLTON_BOOT) == "mlton"
 BUILD_TARGET=	all
-.else
-# use SML/NJ
+.else # use SML/NJ
 BUILD_DEPENDS+=	smlnj-[0-9]*:../../lang/smlnj
 BUILD_TARGET=	smlnj-mlton all
 .endif
