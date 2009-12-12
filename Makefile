@@ -792,6 +792,7 @@ SUBDIR+=	hs-markov-chain
 SUBDIR+=	hs-midi
 SUBDIR+=	hs-mime
 SUBDIR+=	hs-mmap
+SUBDIR+=	hs-mmap4
 SUBDIR+=	hs-monoid-transformer
 SUBDIR+=	hs-mtl
 SUBDIR+=	hs-network
