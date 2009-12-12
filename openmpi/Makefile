@@ -26,12 +26,6 @@ CONFIGUGE_ENV+=		LIBLTDL=libltdl.la # LTDLINCL=-I${PREFIX}/include
 BUILD_MAKE_FLAGS=	LIBLTDL=$(BUILDLINK_PREFIX.libltdl)/lib/libltdl.la # configure doesn't allow overriding it
 CONFIGURE_ARGS+=	OPAL_HAVE_LTDL_ADVISE=0
 
-.include "../../mk/bsd.prefs.mk"
-
-.if ${OPSYS} == "FreeBSD"
-CONFIGURE_ENV+=		NM=/usr/bin/nm	# configure doesn't detect it
-.endif
-
 .include "options.mk"
 
 TEST_TARGET=	check
