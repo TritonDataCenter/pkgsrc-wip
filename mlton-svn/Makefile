@@ -9,6 +9,8 @@ HOMEPAGE=	http://mlton.org/
 COMMENT=	Standard ML whole-program optimizing compiler
 LICENSE=	modified-bsd
 
+PKG_DESTDIR_SUPPORT=	user-destdir
+
 MAKE_JOBS_SAFE=	no
 USE_TOOLS+=	gmake
 
