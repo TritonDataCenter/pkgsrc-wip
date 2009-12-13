@@ -16,7 +16,9 @@ DEPENDS+=	roundcube>=0.2-stable:../../mail/roundcube
 WRKSRC=		${WRKDIR}/mvision2_en
 USE_LANGUAGES=	# none
 
-NO_BUILD=	no
+NO_BUILD=	yes
+
+INSTALLATION_DIRS=	share/roundcube/skins
 
 do-install:
 	${CP} -R ${WRKDIR}/mvision2_en ${DESTDIR}${PREFIX}/share/roundcube/skins/
