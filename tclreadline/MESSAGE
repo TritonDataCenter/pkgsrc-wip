@@ -3,12 +3,11 @@ $NetBSD$
 
 tclreadline is now installed.
 
-A template file for the tcl/tk shells (tclsh & wish) is bundled and
-installed here:
+A template for the tcl/tk shells (tclsh & wish) is bundled and installed:
 ${EGDIR}/tclshrc
 
-Rename it with a dot infront (.tclshrc & .wishrc) and copy it to your
-/etc/skel directory if you wish that all newly created users should receive
-it automatically, or your just your home directory ~
+Rename the file (put a dot in front) and copy it to your home directory ~
+If you wish that all new users should receive it automatically, copy the
+file to your systems /etc/skel directory.
 
 ===========================================================================

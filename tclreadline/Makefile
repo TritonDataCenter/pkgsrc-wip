@@ -20,6 +20,13 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 
 MESSAGE_SUBST+=		EGDIR=${EGDIR}
 
+SUBST_CLASSES+=         paths
+SUBST_FILES.paths=      ${WRKSRC}/pkgIndex.tcl.in
+SUBST_FILES.paths+=     ${WRKSRC}/tclreadlineInit.tcl.in
+SUBST_FILES.paths+=     ${WRKSRC}/tclreadlineSetup.tcl.in
+SUBST_STAGE.paths=      post-patch
+SUBST_SED.paths=        -e 's,@@PREFIX@@,${PREFIX},'
+
 INSTALLATION_DIRS=	include ${PKGMANDIR}/mann lib \
 			lib/tclreadline${PKGVERSION} ${EGDIR}
 
