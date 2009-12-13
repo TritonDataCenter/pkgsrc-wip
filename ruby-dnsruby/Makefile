@@ -14,7 +14,7 @@ GEM_BUILD=      gemspec
 
 post-extract:
 	${MKDIR} -p ${WRKSRC}/html/classes
-	${MKDIR} -p ${WRKSRC}/html/files 
+	${MKDIR} -p ${WRKSRC}/html/files
 
 .include "../../misc/rubygems/rubygem.mk"
 .include "../../mk/bsd.pkg.mk"
