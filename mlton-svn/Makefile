@@ -25,6 +25,9 @@ SVN_REPOSITORIES=	mlton
 SVN_ROOT.mlton=		svn://mlton.org/mlton/trunk
 WRKSRC=		$(WRKDIR)/mlton
 
+# REPLACE_PERL=	lib/mlrisc-lib/MLRISC/cm/makeallcm build/lib/sml/mlrisc-lib/cm/makeallcm \
+# 		lib/mlrisc-lib/MLRISC/cm/makecm build/lib/sml/mlrisc-lib/cm/makecm
+
 .include "../../devel/gmp/buildlink3.mk"
 .include "../../wip/mk/svn-package.mk"
 .include "../../mk/bsd.pkg.mk"
