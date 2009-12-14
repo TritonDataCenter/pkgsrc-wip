@@ -2163,7 +2163,6 @@ SUBDIR+=	thcrut
 SUBDIR+=	theme-gtk-bluecurve
 SUBDIR+=	tilda
 SUBDIR+=	tilp
-SUBDIR+=	tint2
 SUBDIR+=	tinyca2
 SUBDIR+=	tinycobol
 SUBDIR+=	tinyfugue-beta
