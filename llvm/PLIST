@@ -138,7 +138,6 @@ include/llvm/CallGraphSCCPass.h
 include/llvm/CallingConv.h
 include/llvm/CodeGen/AsmPrinter.h
 include/llvm/CodeGen/BinaryObject.h
-include/llvm/CodeGen/BreakCriticalMachineEdge.h
 include/llvm/CodeGen/CallingConvLower.h
 include/llvm/CodeGen/DAGISelHeader.h
 include/llvm/CodeGen/DwarfWriter.h
