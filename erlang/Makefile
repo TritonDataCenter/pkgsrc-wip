@@ -2,6 +2,7 @@
 
 DISTNAME=		otp_src_${DIST_VERSION_MAJOR}${DIST_VERSION_MINOR:D-${DIST_VERSION_MINOR}}
 PKGNAME=		erlang-${ERLANG_VERSION}
+PKGREVISION=		1
 CATEGORIES=		lang
 MASTER_SITES=		http://www.erlang.org/download/
 
@@ -38,8 +39,6 @@ SUBST_SED.target=	-e "s|=.*config.guess)|= ${MACHINE_GNU_PLATFORM}|"
 SUBST_MESSAGE.target=	Fixing target name.
 
 TEST_TARGET=		tests
-
-PLIST_SRC=		PLIST
 
 .include "../../mk/bsd.prefs.mk"
 
