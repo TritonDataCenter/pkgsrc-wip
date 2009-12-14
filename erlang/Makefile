@@ -2,7 +2,7 @@
 
 DISTNAME=		otp_src_${DIST_VERSION_MAJOR}${DIST_VERSION_MINOR:D-${DIST_VERSION_MINOR}}
 PKGNAME=		erlang-${ERLANG_VERSION}
-PKGREVISION=		1
+PKGREVISION=		2
 CATEGORIES=		lang
 MASTER_SITES=		http://www.erlang.org/download/
 
@@ -40,7 +40,13 @@ SUBST_MESSAGE.target=	Fixing target name.
 
 TEST_TARGET=		tests
 
+PLIST_SRC=		PLIST
+
 .include "../../mk/bsd.prefs.mk"
+
+.if exists(${.CURDIR}/PLIST.${OPSYS})
+PLIST_SRC+=	${.CURDIR}/PLIST.${OPSYS}
+.endif
 
 .if ${OPSYS} == "DragonFly"
 CONFIGURE_ARGS+=	--disable-sctp
