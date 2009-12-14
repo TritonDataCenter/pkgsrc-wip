@@ -25,7 +25,7 @@ MAKE_DIRS+=		${PKG_SYSCONFDIR:Q}/${PKGBASE}
 
 EGDIR=                  ${PREFIX}/share/examples/${PKGBASE}
 CONF_FILES+=            ${EGDIR}/collectd.conf ${PKG_SYSCONFDIR}/${PKGBASE}/collectd.conf
-INSTALL_MAKE_FLAGS+=    ${MAKE_FLAGS} sysconfdir=${EGDIR:Q}
+INSTALL_MAKE_FLAGS+=    sysconfdir=${EGDIR:Q}
 
 PERL5_CONFIGURE=	no
 PERL5_PACKLIST=	auto/Collectd/.packlist
