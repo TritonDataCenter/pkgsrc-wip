@@ -22,6 +22,8 @@ USE_TOOLS+=	pkg-config flex bison gmake
 PKGCONFIG_OVERRIDE+=	gobject-introspection-1.0.pc.in
 PKGCONFIG_OVERRIDE+=	gobject-introspection-no-export-1.0.pc.in
 
+TEST_TARGET=	check
+
 .include "../../devel/glib2/buildlink3.mk"
 .include "../../devel/libffi/buildlink3.mk"
 .include "../../lang/python/extension.mk"
