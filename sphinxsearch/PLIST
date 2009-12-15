@@ -1,5 +1,6 @@
 @comment $NetBSD$
 bin/indexer
+bin/indextool
 bin/search
 bin/searchd
 bin/spelldump

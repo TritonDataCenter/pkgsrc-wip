@@ -3,8 +3,7 @@
 
 PKGNAME=	sphinxsearch-${PKGVERSION}
 DISTNAME=	sphinx-${PKGVERSION}
-PKGVERSION=	0.9.8.1
-PKGREVISION=	1
+PKGVERSION=	0.9.9
 CATEGORIES=	databases textproc
 MASTER_SITES=	http://www.sphinxsearch.com/downloads/
 
@@ -55,7 +54,7 @@ SUBST_SED.paths+=	-e 's,@egdir@,${EGDIR},g'
 CONFIGURE_DIRS=		.
 CONFIGURE_DIRS+=	api/libsphinxclient
 
-LDFLAGS.SunOS+=	-lsocket -lnsl
+LDFLAGS.SunOS+=		-lsocket -lnsl
 
 post-install:
 	${MV} ${EGDIR}/sphinx.conf.dist ${EGDIR}/sphinx-full.conf
