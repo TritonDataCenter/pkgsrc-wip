@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	musca-0.9.22
+DISTNAME=	musca-0.9.24
 CATEGORIES=	wm
 MASTER_SITES=	http://aerosuidae.net/
 EXTRACT_SUFX=	.tgz
