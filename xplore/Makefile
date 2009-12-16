@@ -12,6 +12,6 @@ COMMENT=		X11/Motif File Manager
 
 USE_IMAKE=		YES
 
-.include "../../graphics/xpm/buildlink3.mk"
+.include "../../x11/libXpm/buildlink3.mk"
 .include "../../mk/motif.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

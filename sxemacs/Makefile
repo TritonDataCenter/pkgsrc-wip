@@ -82,7 +82,7 @@ PLIST_SUBST+=	X11ONLY=""
 .include "../../graphics/jpeg/buildlink3.mk"
 .include "../../graphics/png/buildlink3.mk"
 .include "../../graphics/tiff/buildlink3.mk"
-.include "../../graphics/xpm/buildlink3.mk"
+.include "../../x11/libXpm/buildlink3.mk"
 .if ${OPSYS} == "Darwin"
 .include "../../devel/ncurses/buildlink3.mk"
 .endif

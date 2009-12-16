@@ -61,7 +61,7 @@ do-install:
 .include "../../graphics/png/buildlink3.mk"
 .include "../../graphics/tiff/buildlink3.mk"
 .include "../../graphics/tiff/buildlink3.mk"
-.include "../../graphics/xpm/buildlink3.mk"
+.include "../../libXpm/libXpm/buildlink3.mk"
 .include "../../misc/proj/buildlink3.mk"
 .include "../../print/pdflib/buildlink3.mk"
 .include "../../mk/pgsql.buildlink3.mk" # this must come before the next line
