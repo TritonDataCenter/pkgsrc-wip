@@ -1,5 +1,4 @@
 @comment $NetBSD$
-
 bin/grub2-editenv
 bin/grub2-fstest
 bin/grub2-mkelfimage
