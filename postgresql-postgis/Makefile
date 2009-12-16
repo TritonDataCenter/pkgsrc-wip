@@ -13,6 +13,8 @@ LICENSE=		gnu-gpl-v2
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
+# postgis requires pgxs.mk and associated Makefiles to be installed.
+# When/if 82 and 83 install pgxs.mk, they can be added.
 PGSQL_VERSIONS_ACCEPTED=	84
 
 CONFLICTS=		postgis-[0-9]*
