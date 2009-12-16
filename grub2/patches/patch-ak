@@ -1,27 +1,14 @@
 $NetBSD$
 
---- util/misc.c.orig	2007-10-21 08:29:33.000000000 -0400
-+++ util/misc.c
-@@ -36,6 +36,9 @@
-    memalign is declared in malloc.h in all systems, if present.  */
- #ifdef HAVE_MEMALIGN
- # include <malloc.h>
-+# if !defined(posix_memalign) && defined(__NetBSD__)
-+int     posix_memalign(void **memptr, size_t alignment, size_t size);
-+# endif
- #endif
+--- util/grub.d/10_windows.in.orig	2009-11-09 16:48:16.000000000 +0100
++++ util/grub.d/10_windows.in
+@@ -19,7 +19,8 @@
+ prefix=@prefix@
+ exec_prefix=@exec_prefix@
+ libdir=@libdir@
+-. ${libdir}/grub/grub-mkconfig_lib
++pkglibdirbase=${libdir}/`echo @PACKAGE_TARNAME@ | sed "@program_transform_name@"`
++. ${pkglibdirbase}/grub-mkconfig_lib
  
- char *progname = 0;
-@@ -242,7 +245,11 @@ grub_memalign (grub_size_t align, grub_s
- #elif defined(HAVE_MEMALIGN)
-   p = memalign (align, size);
- #else
--  grub_util_error ("grub_memalign is not supported");
-+  p = malloc (size + align - 1);
-+  if (p)
-+    p = (void *)(((int)p/align + 1) * align);
-+  else
-+    grub_util_error ("out of memory");
- #endif
-   
-   if (! p)
+ case "`uname 2>/dev/null`" in
+   CYGWIN*)  ;;

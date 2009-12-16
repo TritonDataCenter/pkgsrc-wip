@@ -1,8 +1,8 @@
 $NetBSD$
 
---- util/grub.d/30_os-prober.in.orig	2009-11-09 16:48:16.000000000 +0100
-+++ util/grub.d/30_os-prober.in
-@@ -19,8 +19,9 @@
+--- util/update-grub_lib.in.orig	2009-11-09 16:48:16.000000000 +0100
++++ util/update-grub_lib.in
+@@ -17,7 +17,8 @@
  prefix=@prefix@
  exec_prefix=@exec_prefix@
  libdir=@libdir@
@@ -11,5 +11,4 @@ $NetBSD$
 -. ${libdir}/grub/grub-mkconfig_lib
 +. ${pkglibdirbase}/grub-mkconfig_lib
  
- if [ "x${GRUB_DISABLE_OS_PROBER}" = "xtrue" ]; then
-   exit 0
+ grub_warn "update-grub_lib is deprecated, use grub-mkconfig_lib instead"

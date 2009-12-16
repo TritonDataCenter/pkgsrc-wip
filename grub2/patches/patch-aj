@@ -1,7 +1,7 @@
 $NetBSD$
 
---- util/grub.d/10_freebsd.in.orig	2009-11-09 16:48:16.000000000 +0100
-+++ util/grub.d/10_freebsd.in
+--- util/grub.d/10_linux.in.orig	2009-11-09 16:48:16.000000000 +0100
++++ util/grub.d/10_linux.in
 @@ -19,7 +19,8 @@
  prefix=@prefix@
  exec_prefix=@exec_prefix@
@@ -10,5 +10,5 @@ $NetBSD$
 +pkglibdirbase=${libdir}/`echo @PACKAGE_TARNAME@ | sed "@program_transform_name@"`
 +. ${pkglibdirbase}/grub-mkconfig_lib
  
- case "${GRUB_DISTRIBUTOR}" in
-   Debian)	OS="${GRUB_DISTRIBUTOR} GNU/kFreeBSD" ;;
+ if [ "x${GRUB_DISTRIBUTOR}" = "x" ] ; then
+   OS=GNU/Linux
