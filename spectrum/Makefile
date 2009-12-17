@@ -13,7 +13,7 @@ LICENSE=		gnu-gpl-v3
 # if the package can be created without root privileges
 PKG_DESTDIR_SUPPORT=	user-destdir
 
-PREFER.gettext=		pkgsrc
+# PREFER.gettext=		pkgsrc
 # DEPENDS+=		gettext-tools>=0.0:../../devel/gettext-tools
 
 # GIT configuration
@@ -22,7 +22,7 @@ GIT_REPO.spectrum=	git://github.com/schnoebe/spectrum.git
 
 .include "../../wip/mk/git-package.mk"
 
-USE_TOOLS+=		pkg-config intltool
+USE_TOOLS+=		pkg-config msgfmt
 USE_CMAKE=		yes
 USE_LANGUAGES+=		c++ c
 
@@ -41,7 +41,7 @@ SUBST_STAGE.cfgpath=	post-patch
 SUBST_FILES.cfgpath=	CMakeLists.txt
 SUBST_FILES.cfgpath+=	src/main.cpp
 SUBST_FILES.cfgpath+=	tools/migrate-db/main.cpp
-SUBST_FILES.cfgpath+=	tools/spectrumctl/spectrumctl.py
+SUBST_FILES.cfgpath+=	tools/spectrumctl/spectrumctl
 SUBST_MESSAGE.cfgpath=	Correcting configuration directory
 SUBST_SED.cfgpath=	-e 's,/etc/spectrum,${PKG_SYSCONFDIR},g'
 
@@ -58,6 +58,5 @@ post-install:
 .include "../../chat/libpurple/buildlink3.mk"
 .include "../../devel/cmake/buildlink3.mk"
 .include "../../devel/glib2/buildlink3.mk"
-.include "../../devel/gettext-tools/buildlink3.mk"
 .include "../../devel/gettext-lib/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
