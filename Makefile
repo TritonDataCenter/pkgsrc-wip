@@ -1806,6 +1806,7 @@ SUBDIR+=	py-gtk2-docs
 SUBDIR+=	py-gts
 SUBDIR+=	py-httplib2
 SUBDIR+=	py-imgSeek
+SUBDIR+=	py-ipaddr
 SUBDIR+=	py-ipython
 SUBDIR+=	py-jabber-aimt
 SUBDIR+=	py-jabber-icqt
