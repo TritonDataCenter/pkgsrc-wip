@@ -5,7 +5,7 @@ DISTNAME=	gtg-0.1.1
 CATEGORIES=	editors python
 MASTER_SITES=	http://launchpad.net/gtg/trunk/0.1.1/+download/
 
-MAINTAINER=	kamelderouiche@iyahoo.com
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	http://gtg.fritalk.com/
 COMMENT=	GTG is a personal organizer for the GNOME
 LICENSE=	gnu-gpl-v3
