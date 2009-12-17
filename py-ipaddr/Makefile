@@ -14,7 +14,7 @@ LICENSE=	apache-2.0
 PKG_DESTDIR_SUPPORT=	user-destdir
 
 PYDISTUTILSPKG=		yes
-PYTHON_VERSIONS_ACCEPTED= 26 25
+PYTHON_VERSIONS_ACCEPTED= 26 25 24	# XXX - 30 also requires it
 
 .include "../../lang/python/extension.mk"
 .include "../../mk/bsd.pkg.mk"
