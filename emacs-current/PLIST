@@ -18,6 +18,7 @@ info/dbus
 info/dired-x
 info/ebrowse
 info/ede
+info/edt
 info/ediff
 info/efaq
 info/eieio
@@ -257,7 +258,7 @@ share/emacs/${PKGVERSION}/etc/e/README
 share/emacs/${PKGVERSION}/etc/e/eterm-color
 share/emacs/${PKGVERSION}/etc/e/eterm-color.ti
 share/emacs/${PKGVERSION}/etc/echo.msg
-share/emacs/${PKGVERSION}/etc/edt-user.doc
+share/emacs/${PKGVERSION}/etc/edt-user.el
 share/emacs/${PKGVERSION}/etc/emacs-buffer.gdb
 share/emacs/${PKGVERSION}/etc/emacs.bash
 share/emacs/${PKGVERSION}/etc/emacs.csh
