@@ -1,8 +1,7 @@
 # $NetBSD$
 
-DISTNAME=		postgis-1.4.0
+DISTNAME=		postgis-1.4.1rc2
 PKGNAME=		postgresql${PGSQL_VERSION}-${DISTNAME}
-PKGREVISION=		1
 CATEGORIES=		databases geography
 MASTER_SITES=		http://postgis.refractions.net/download/
 
@@ -23,6 +22,7 @@ CONFLICTS=		postgis-[0-9]*
 MAKE_JOBS_SAFE=		no
 
 GNU_CONFIGURE=		YES
+USE_LIBTOOL=		YES
 USE_TOOLS+=		gmake lex pax perl
 USE_LANGUAGES=		c c++
 
