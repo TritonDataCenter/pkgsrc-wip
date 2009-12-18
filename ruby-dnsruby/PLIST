@@ -93,6 +93,7 @@ ${GEM_LIBDIR}/test/tc_ipseckey.rb
 ${GEM_LIBDIR}/test/tc_itar.rb
 ${GEM_LIBDIR}/test/tc_misc.rb
 ${GEM_LIBDIR}/test/tc_name.rb
+${GEM_LIBDIR}/test/tc_naptr.rb
 ${GEM_LIBDIR}/test/tc_nsec.rb
 ${GEM_LIBDIR}/test/tc_nsec3.rb
 ${GEM_LIBDIR}/test/tc_nsec3param.rb
