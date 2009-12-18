@@ -131,3 +131,4 @@ share/xml/shibboleth/shibboleth-2.0-sp-notify.xsd
 share/xml/shibboleth/shibboleth-metadata-1.0.xsd
 share/xml/shibboleth/shibboleth.xsd
 @pkgdir share/doc/shibboleth-${PKGVERSION}/api
+@pkgdir etc/shibboleth
