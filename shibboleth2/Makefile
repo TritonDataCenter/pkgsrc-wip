@@ -4,7 +4,7 @@
 DISTNAME=	shibboleth-sp-${PKGVERSION}
 PKGNAME=	shibboleth2-${PKGVERSION}
 PKGVERSION=	2.2.1
-CATEGORIES=	wip
+CATEGORIES=	www
 MASTER_SITES=	http://shibboleth.internet2.edu/downloads/shibboleth/cppsp/latest/
 
 MAINTAINER=	pettai@nordu.net
@@ -76,4 +76,3 @@ INSTALLATION_DIRS+=	${VARBASE}/log/shibboleth
 .include "../../wip/opensaml2/buildlink3.mk"
 .include "../../mk/apache.mk"
 .include "../../mk/bsd.pkg.mk"
-

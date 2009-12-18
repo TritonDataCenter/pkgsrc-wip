@@ -15,7 +15,7 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 
 GNU_CONFIGURE=	yes
 
-INSTALLATION_DIRS=	sbin man/man8
+INSTALLATION_DIRS=	sbin ${PKGMANDIR}/man8
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/dnssec-zkt ${DESTDIR}${PREFIX}/sbin/dnssec-zkt
