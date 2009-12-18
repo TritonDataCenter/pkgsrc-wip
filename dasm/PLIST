@@ -1,0 +1,15 @@
+@comment $NetBSD: PLIST,v 1.1.1.1 2004/11/20 16:24:43 minskim Exp $
+bin/dasm
+bin/ftohex
+share/dasm/AUTHORS
+share/dasm/FUTURE
+share/dasm/NEWS
+share/dasm/README
+share/dasm/README.ANDREW
+share/dasm/atari2600/macro.h
+share/dasm/atari2600/vcs.h
+share/dasm/channel-f/README
+share/dasm/channel-f/macro.h
+share/dasm/channel-f/ves.h
+share/dasm/dasm.txt
+share/dasm/ftohex.txt
