@@ -22,7 +22,6 @@ include/ibus-qt/qibusobservedpath.h
 include/ibus-qt/qibusproperty.h
 include/ibus-qt/qibusproplist.h
 include/ibus-qt/qibusserializable.h
-include/ibus-qt/qibusservice.h
 include/ibus-qt/qibustext.h
 lib/libibus-qt.so
 lib/libibus-qt.so.1
