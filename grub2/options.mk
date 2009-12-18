@@ -10,7 +10,7 @@
 
 PKG_OPTIONS_VAR=	PKG_OPTIONS.grub2
 PKG_SUPPORTED_OPTIONS=	grub-mm-debug grub-emu grub-mkfont
-PKG_SUGGESTED_OPTIONS=	grub-emu grub-mkfont
+PKG_SUGGESTED_OPTIONS=	grub-mm-debug grub-emu grub-mkfont
 
 .include "../../mk/bsd.options.mk"
 
