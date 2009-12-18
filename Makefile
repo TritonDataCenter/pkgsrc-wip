@@ -262,6 +262,7 @@ SUBDIR+=	d4x
 SUBDIR+=	daphne
 SUBDIR+=	darcnes-svgalib
 SUBDIR+=	darcs
+SUBDIR+=	dasm
 SUBDIR+=	datapipe
 SUBDIR+=	db1
 SUBDIR+=	dbf
