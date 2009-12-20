@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	gobject-introspection-0.6.6
+DISTNAME=	gobject-introspection-0.6.7
 CATEGORIES=	wip
 MASTER_SITES=	ftp://ftp.gnome.org/pub/gnome/sources/gobject-introspection/0.6/
 EXTRACT_SUFX=	.tar.bz2
