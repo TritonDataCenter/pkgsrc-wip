@@ -87,7 +87,7 @@ diff -u -r1.4 options.mk
 +###
 +### xcb support
 +###
-+.if !empty(PKG_OPTIONS:Mx11)
++.if !empty(PKG_OPTIONS:Mxcb)
 +CONFIGURE_ARGS+=	--enable-xcb
 +PLIST.xcb=		yes
 +.include "../../x11/xcb-util/buildlink3.mk"
