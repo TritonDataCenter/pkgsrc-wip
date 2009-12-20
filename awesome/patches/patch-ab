@@ -10,7 +10,7 @@ $NetBSD$
 +option(WITH_DBUS "build with D-BUS" OFF)
  option(GENERATE_MANPAGES "generate manpages" ON)
 -option(GENERATE_LUADOC "generate luadoc" ON)
-+option(COMPRESS_MANPAGES "generate manpages" OFF)
++option(COMPRESS_MANPAGES "generate manpages" ON)
 +option(GENERATE_LUADOC "generate luadoc" OFF)
  
  link_directories(/usr/local/lib)
