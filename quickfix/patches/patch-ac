@@ -1,5 +1,8 @@
 $NetBSD$
 
+See patch 2918990:
+https://sourceforge.net/tracker/?func=detail&aid=2918990&group_id=37535&atid=420032
+
 --- src/C++/Makefile.am.orig	2006-09-14 00:32:52.000000000 +0000
 +++ src/C++/Makefile.am
 @@ -137,23 +137,23 @@ clean-local:

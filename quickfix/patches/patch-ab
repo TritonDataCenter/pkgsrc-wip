@@ -1,5 +1,8 @@
 $NetBSD$
 
+See patch 2918987:
+https://sourceforge.net/tracker/?func=detail&aid=2918987&group_id=37535&atid=420032
+
 --- configure.orig	2006-09-14 13:53:46.000000000 +0000
 +++ configure
 @@ -20070,7 +20070,7 @@ echo "$as_me:$LINENO: checking which thr
