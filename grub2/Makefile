@@ -42,7 +42,7 @@ MAKE_ENV+=		EGDIR=${EGDIR}
 .include "../../mk/bsd.prefs.mk"
 
 .if ${OPSYS} == "FreeBSD" || ${OPSYS} == "Linux"
-CONF_FILES+=		${EGDIR}/00_${OPSYS:tl} ${PKG_SYSCONFDIR}/00_${OPSYS:tl}
+CONF_FILES+=		${EGDIR}/10_${OPSYS:tl} ${PKG_SYSCONFDIR}/10_${OPSYS:tl}
 .endif
 
 #
