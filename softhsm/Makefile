@@ -19,7 +19,7 @@ USE_LIBTOOL=	yes
 #SVN_REPOSITORIES=	softhsm
 #SVN_ROOT.softhsm=	http://svn.opendnssec.org/tags/softHSM-${RCVERSION}/
 #SVN_MODULE.softhsm=	softHSM
-VERSION=		1.1.1
+VERSION=		1.1.2
 #RCVERSION=		${VERSION:S/-RC/rc/}
 #NO_CHECKSUM=		yes
 
