@@ -19,7 +19,7 @@ ONLY_FOR_PLATFORM=	*-*-i386 *-*-x86_64
 
 PKG_SYSCONFSUBDIR=	${PKGBASE}
 
-USE_TOOLS+=		autoconf automake
+USE_TOOLS+=		autoconf automake gettext-m4
 USE_TOOLS+=		gmake bison makeinfo
 GNU_CONFIGURE=		yes
 CONFIGURE_ARGS+=	--sysconfdir=${PKG_SYSCONFDIR}
