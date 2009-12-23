@@ -26,6 +26,12 @@ INSTALLATION_DIRS+= ${SCENARIO_BASE}/${scenario} ${SCENARIO_BASE}/${scenario}/Ph
 NO_CONFIGURE=	yes
 NO_BUILD=	yes
 
+post-extract:
+	${FIND} ${WRKDIR} -name CVS -print | ${XARGS} ${RM} -rf
+	${FIND} ${WRKDIR}/M1A1 -type f -exec ${CHMOD} 0644 {} \;
+	${FIND} ${WRKDIR}/Marathon\ 2 -type f -exec ${CHMOD} 0644 {} \;
+	${FIND} ${WRKDIR}/Marathon\ Infinity -type f -exec ${CHMOD} 0644 {} \;
+
 do-install:
 	#install the files into the Scenarios dir
 	#there is no ${INSTALL_...} command with recursive abilities...
