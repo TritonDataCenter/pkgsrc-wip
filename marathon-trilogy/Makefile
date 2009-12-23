@@ -27,8 +27,7 @@ NO_CONFIGURE=	yes
 NO_BUILD=	yes
 
 post-extract:
-	#${FIND} ${WRKDIR} -name CVS -exec ${RM} -vrf "{}" \;
-	${FIND} ${WRKDIR} -name CVS -print | ${XARGS} -I repl ${RM} -vrf "repl"
+	${FIND} ${WRKDIR} -name CVS -print | ${XARGS} -I repl ${RM} -rf "repl"
 	${FIND} ${WRKDIR}/M1A1 -type f -exec ${CHMOD} 0644 {} \;
 	${FIND} ${WRKDIR}/Marathon\ 2 -type f -exec ${CHMOD} 0644 {} \;
 	${FIND} ${WRKDIR}/Marathon\ Infinity -type f -exec ${CHMOD} 0644 {} \;
