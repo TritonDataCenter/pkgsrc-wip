@@ -28,8 +28,8 @@ POST-INSTALL)
 	#
 	#	assemble sed-commands
 	#
-	SED_CMD1="-e s/secret1/${SECRET1}/"
-	SED_CMD2="-e s/secret2/${SECRET2}/"
+	SED_CMD1="-e /^[:blank:]*[^#]/{s/secret1/${SECRET1}/;}"
+	SED_CMD2="-e /^[:blank:]*[^#]/{s/secret2/${SECRET2}/;}"
 
 	if [ ! -f ${DCC_HOME}/${IDS} ]; then
 		#
