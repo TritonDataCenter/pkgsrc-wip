@@ -1,6 +1,5 @@
 @comment $NetBSD$
 bin/spin
-bin/xspin
 man/man1/spin.1
 share/doc/spin/Book.Ch6.add
 share/doc/spin/Book.Errata
