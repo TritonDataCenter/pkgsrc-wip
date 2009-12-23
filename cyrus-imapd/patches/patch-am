@@ -1,6 +1,6 @@
 $NetBSD$
 
---- tools/config2header.orig	2008-03-24 20:25:22.000000000 +0000
+--- tools/config2header.orig	2009-12-02 22:50:29.000000000 +0000
 +++ tools/config2header
 @@ -79,6 +79,14 @@ while ($#ARGV >= 0) {
  

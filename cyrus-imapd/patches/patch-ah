@@ -1,8 +1,8 @@
 $NetBSD$
 
---- perl/Makefile.in.orig	2008-04-04 12:47:07.000000000 +0000
+--- perl/Makefile.in.orig	2009-05-06 13:48:04.000000000 +0000
 +++ perl/Makefile.in
-@@ -84,7 +84,7 @@ all::
+@@ -86,7 +86,7 @@ all::
  			   BDB_LIB="$(BDB_LIB)" BDB_INC="$(BDB_INC)" \
  			   OPENSSL_LIB="$(OPENSSL_LIB)" OPENSSL_INC="$(OPENSSL_INC)" \
  			   SASL_LIB="$(SASL_LIB)" SASL_INC="$(SASL_INC)" CC="$(CC)" \

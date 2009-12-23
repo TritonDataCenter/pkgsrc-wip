@@ -1,6 +1,6 @@
 $NetBSD$
 
---- sieve/sieved.c.orig	2008-03-24 20:08:46.000000000 +0000
+--- sieve/sieved.c.orig	2009-03-25 23:58:05.000000000 +0000
 +++ sieve/sieved.c
 @@ -63,6 +63,10 @@
  
