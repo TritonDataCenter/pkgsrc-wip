@@ -9,10 +9,7 @@ MASTER_SITES=	http://iki.fi/tuomov/dl/
 
 MAINTAINER=	matias@dotbsd.org
 HOMEPAGE=	http://modeemi.fi/~tuomov/ion/
-# The license requires us to mark this package as "obsolete" starting
-# with the 28th day after the latest release. To be on the safe side,
-# we just always mark it as obsolete.
-COMMENT=	Tiling tabbed window manager (obsolete version)
+COMMENT=	Tiling tabbed window manager
 
 MAKE_JOBS_SAFE=		no
 
