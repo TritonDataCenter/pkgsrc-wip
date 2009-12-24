@@ -8,7 +8,7 @@ MASTER_SITES=	${MASTER_SITE_SOURCEFORGE_JP:=ume-font/22212/}
 
 MAINTAINER=	ryo_on@yk.rim.or.jp
 HOMEPAGE=	http://sourceforge.jp/projects/ume-font/wiki/FrontPage
-COMMENT=	Ume 18 Japanese fonts (Mincho and Gothic) 
+COMMENT=	Ume 18 Japanese fonts (Mincho and Gothic)
 # LICENSE=	M+ FONTS License
 
 PKG_DESTDIR_SUPPORT=	user-destdir
