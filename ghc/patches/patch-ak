@@ -1,0 +1,10 @@
+$NetBSD$
+
+--- libraries/integer-gmp/gmp/config.mk.in.orig	2009-12-11 03:25:53.000000000 +0900
++++ libraries/integer-gmp/gmp/config.mk.in
+@@ -5,3 +5,5 @@ endif
+ ifeq "$(HaveFrameworkGMP)" ""
+  HaveFrameworkGMP = @HaveFrameworkGMP@
+ endif
++
++libraries/integer-gmp_CC_OPTS += @CPPFLAGS@ @LDFLAGS@
