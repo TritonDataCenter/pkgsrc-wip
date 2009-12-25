@@ -9,7 +9,7 @@ MASTER_SITES=		ftp://ftp.zimmers.net/pub/cbm/crossplatform/emulators/VICE/ \
 			http://www.trikaliotis.net/Download/vice/
 
 MAINTAINER=		rhialto@falu.nl
-HOMEPAGE=		http://www.viceteam.org/
+HOMEPAGE=		http://vice-emu.sourceforge.net/
 COMMENT=		Emulator for C64, C128, CBM-II, PET, and VIC20
 
 PATCH_SITES=            http://www.students.tut.fi/~nuotio/
