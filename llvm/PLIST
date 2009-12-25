@@ -331,6 +331,7 @@ include/llvm/Support/TargetFolder.h
 include/llvm/Support/Timer.h
 include/llvm/Support/TypeBuilder.h
 include/llvm/Support/ValueHandle.h
+include/llvm/Support/circular_raw_ostream.h
 include/llvm/Support/raw_os_ostream.h
 include/llvm/Support/raw_ostream.h
 include/llvm/Support/type_traits.h
