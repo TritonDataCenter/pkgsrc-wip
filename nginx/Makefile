@@ -1,13 +1,14 @@
 # $NetBSD: Makefile,v 1.5 2008/01/18 05:09:52 tnn Exp $
 
-DISTNAME=		nginx-0.6.39
+DISTNAME=		nginx-0.7.64
 #PKGREVISION=		1
 CATEGORIES=		www
 MASTER_SITES=		http://sysoev.ru/nginx/
 
-MAINTAINER=		nkalev@securelabs.org
+MAINTAINER=		aniou@smutek.pl
 HOMEPAGE=		http://nginx.net/
 COMMENT=		Lightweight HTTP server and mail proxy server
+LICENSE=		2-clause-bsd
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
@@ -43,7 +44,6 @@ CONFIGURE_ARGS+=	--http-log-path=${NGINX_LOGDIR}/access.log
 CONFIGURE_ARGS+=	--http-client-body-temp-path=${NGINX_DATADIR}/client_body_temp
 CONFIGURE_ARGS+=	--http-proxy-temp-path=${NGINX_DATADIR}/proxy_temp
 CONFIGURE_ARGS+=	--http-fastcgi-temp-path=${NGINX_DATADIR}/fstcgi_temp
-CONFIGURE_ARGS+=	--with-mail
 
 .include "../../mk/bsd.prefs.mk"
 
