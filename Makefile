@@ -1327,6 +1327,7 @@ SUBDIR+=	nvidia-freebsd
 SUBDIR+=	nvramtool
 SUBDIR+=	nx-client-bin
 SUBDIR+=	nzbget
+SUBDIR+=	obmenu
 SUBDIR+=	ocamlgraph
 SUBDIR+=	ocamlweb
 SUBDIR+=	ode
