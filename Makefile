@@ -488,6 +488,7 @@ SUBDIR+=	gdvb
 SUBDIR+=	geant
 SUBDIR+=	gecko-sharp
 SUBDIR+=	gemrb
+SUBDIR+=	gerris
 SUBDIR+=	gfa
 SUBDIR+=	gfontview
 SUBDIR+=	gforge
