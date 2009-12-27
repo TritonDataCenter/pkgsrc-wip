@@ -17,3 +17,14 @@ do-bzr-extract:
 
 pre-configure:
 	cd ${WRKSRC} && ./autogen.sh
+
+# The script autogen.sh uses python and ruby.
+PYTHON_FOR_BUILD_ONLY=	yes
+SUBST_CLASSES+=		fix-py
+SUBST_STAGE.fix-py=	pre-configure
+SUBST_MESSAGE.fix-py=	Appending python version in autogen.sh.
+SUBST_FILES.fix-py=	autogen.sh
+SUBST_SED.fix-py=	-e 's,^python,python${PYVERSSUFFIX},g'
+BUILD_DEPENDS+=		ruby>=1.8:../../lang/ruby
+
+.include "../../lang/python/pyversion.mk"
