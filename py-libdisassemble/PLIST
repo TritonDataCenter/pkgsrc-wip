@@ -1,5 +1,0 @@
-@comment $NetBSD$
-bin/disassemble2.5
-${PYSITELIB}/opcode86.py
-${PYSITELIB}/opcode86.pyc
-share/doc/py-libdisassemble/README
