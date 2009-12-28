@@ -1738,6 +1738,7 @@ SUBDIR+=	prozilla
 SUBDIR+=	prtunnel
 SUBDIR+=	psh
 SUBDIR+=	psi
+SUBDIR+=	pt-cyrillic-ttf
 SUBDIR+=	pts
 SUBDIR+=	ptunnel
 SUBDIR+=	pudb
