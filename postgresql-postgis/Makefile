@@ -5,7 +5,7 @@ PKGNAME=	postgresql${PGSQL_VERSION}-${DISTNAME}
 CATEGORIES=	databases geography
 MASTER_SITES=	http://postgis.refractions.net/download/
 
-MAINTAINER=	filip@joyent.com
+MAINTAINER=	gdt@NetBSD.org
 HOMEPAGE=	http://postgis.refractions.net/
 COMMENT=	Spatial database capabilities for PostgreSQL
 
