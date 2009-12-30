@@ -84,7 +84,7 @@ PLIST_SUBST+=		GRUB_PLATFORM=${GRUB_PLATFORM}
 # - $libdir/grub is replaced by $libdir/grub2 in Makefile.in and in scripts.
 # - DEFAULT_DIRECTORY in include/grub/util/misc.h.
 #
-SUBST_CLASSES+=			fix-paths-1 fix-paths-2
+SUBST_CLASSES+=			fix-paths-1 fix-paths-2 fix-paths-3
 SUBST_STAGE.fix-paths-1=	pre-configure
 SUBST_MESSAGE.fix-paths-1=	Fixing configuration and library paths in makefile.
 SUBST_FILES.fix-paths-1=	Makefile.in
