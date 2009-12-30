@@ -1,8 +1,8 @@
 @comment $NetBSD$
-grass-${PKGVERSION}/bin/d.font.freetype
-grass-${PKGVERSION}/bin/d.text.freetype
-grass-${PKGVERSION}/docs/html/d.font.freetype.html
-grass-${PKGVERSION}/docs/html/d.text.freetype.html
-grass-${PKGVERSION}/etc/freetypecap
-grass-${PKGVERSION}/man/man1/d.font.freetype.1
-grass-${PKGVERSION}/man/man1/d.text.freetype.1
+${PKGNAME}/bin/d.font.freetype
+${PKGNAME}/bin/d.text.freetype
+${PKGNAME}/docs/html/d.font.freetype.html
+${PKGNAME}/docs/html/d.text.freetype.html
+${PKGNAME}/etc/freetypecap
+${PKGNAME}/man/man1/d.font.freetype.1
+${PKGNAME}/man/man1/d.text.freetype.1

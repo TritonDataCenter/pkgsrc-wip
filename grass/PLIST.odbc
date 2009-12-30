@@ -1,2 +1,2 @@
 @comment $NetBSD$
-grass-${PKGVERSION}/driver/db/odbc
+${PKGNAME}/driver/db/odbc
