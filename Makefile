@@ -1926,6 +1926,7 @@ SUBDIR+=	qgis
 SUBDIR+=	qhacc
 SUBDIR+=	qico
 SUBDIR+=	qinx
+SUBDIR+=	qmpdclient
 SUBDIR+=	qn-x11
 SUBDIR+=	qpsmtpd
 SUBDIR+=	qtcreator
