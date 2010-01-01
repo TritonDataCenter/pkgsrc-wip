@@ -130,9 +130,6 @@ include/llvm/Bitcode/BitstreamWriter.h
 include/llvm/Bitcode/Deserialize.h
 include/llvm/Bitcode/LLVMBitCodes.h
 include/llvm/Bitcode/ReaderWriter.h
-include/llvm/Bitcode/Serialization.h
-include/llvm/Bitcode/SerializationFwd.h
-include/llvm/Bitcode/Serialize.h
 include/llvm/CMakeLists.txt
 include/llvm/CallGraphSCCPass.h
 include/llvm/CallingConv.h
