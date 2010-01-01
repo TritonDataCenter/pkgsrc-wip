@@ -19,22 +19,11 @@ USE_LIBTOOL=		yes
 # png2swf already installed as part of ming. 
 CONFIGURE_ENV+=		DISABLEPNG2SWF=true
 
-PKG_OPTIONS_VAR=	PKG_OPTIONS.swftools
-PKG_SUPPORTED_OPTIONS=	lame
-
-.include "../../mk/bsd.options.mk"
-
-.if !empty(PKG_OPTIONS:Mlame)
-CONFIGURE_ARGS+=	--enable-lame
-.include "../../audio/lame/buildlink3.mk"
-.else
-CONFIGURE_ARGS+=	--disable-lame
-.endif
+.include "options.mk"
 
 INSTALL_MAKE_FLAGS=	prefix=${DESTDIR}${PREFIX}
 INSTALL_MAKE_FLAGS+=	mandir=${DESTDIR}/${PREFIX}/${PKGMANDIR}
 
-.include "../../wip/avifile-devel/buildlink3.mk"
 BUILDLINK_INCDIRS.fontconfig=	include/fontconfig
 .include "../../fonts/fontconfig/buildlink3.mk"
 .include "../../graphics/jpeg/buildlink3.mk"
