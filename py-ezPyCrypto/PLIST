@@ -1,0 +1,4 @@
+@comment $NetBSD$
+${PYSITELIB}/ezPyCrypto.py
+${PYSITELIB}/ezPyCrypto.pyc
+${PYSITELIB}/ezPyCrypto.pyo
