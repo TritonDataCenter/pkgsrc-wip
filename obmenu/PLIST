@@ -7,5 +7,6 @@ bin/obmenu
 share/obmenu/obmenu.glade
 share/obmenu/mnu16.png
 share/obmenu/mnu48.png
+${PYSITELIB}/obxml.py
 ${PYSITELIB}/obxml.pyc
 ${PYSITELIB}/obxml.pyo
