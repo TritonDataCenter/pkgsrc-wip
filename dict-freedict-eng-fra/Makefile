@@ -2,6 +2,7 @@
 
 DISTNAME=	eng-fra
 PKGNAME=	dict-freedict-${DISTNAME}-0.0.3
+PKGREVISION=	1
 CATEGORIES=	textproc
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=freedict/}
 
@@ -15,8 +16,8 @@ USE_TOOLS+=		gzip
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
-DEPENDS+=		dict-server>=1.9.14:../../wip/dict-server
-BUILD_DEPENDS+=		dict-server>=1.10.2:../../wip/dict-server
+DEPENDS+=		dict-server>=1.9.14:../../textproc/dict-server
+BUILD_DEPENDS+=		dict-server>=1.10.2:../../textproc/dict-server
 
 DICTD_DB_DIR=		${PREFIX}/share/dictd
 INSTALLATION_DIRS+=	${DICTD_DB_DIR}

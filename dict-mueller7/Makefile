@@ -2,6 +2,7 @@
 
 DISTNAME=	Mueller7GPL
 PKGNAME=	dict-mueller7-1.2
+PKGREVISION=	1
 CATEGORIES=	textproc
 MASTER_SITES=	http://www.geocities.com/mueller_dic/ \
 		http://mueller-dic.chat.ru/ \
@@ -14,9 +15,9 @@ COMMENT=	DICTD data for English-Russian dictionary by Mueller
 
 LICENSE=	gnu-gpl-v2
 
-DEPENDS+=	dict-server>=1.9.14:../../wip/dict-server
+DEPENDS+=	dict-server>=1.9.14:../../textproc/dict-server
 
-BUILD_DEPENDS+=	dict-server>=1.10.2:../../wip/dict-server
+BUILD_DEPENDS+=	dict-server>=1.10.2:../../textproc/dict-server
 BUILD_DEPENDS+=	p5-Unicode-Map8-[0-9]*:../../converters/p5-Unicode-Map8
 BUILD_DEPENDS+=	metamail-[0-9]*:../../mail/metamail
 
