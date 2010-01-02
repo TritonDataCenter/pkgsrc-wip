@@ -3,7 +3,7 @@
 PKG_OPTIONS_VAR=    		PKG_OPTIONS.spectrum
 PKG_OPTIONS_REQUIRED_GROUPS=	storage debug
 PKG_OPTIONS_GROUP.storage=	storage-mysql storage-sqlite
-PKG_OPTIONS_GROUP.debug=	debug
+PKG_OPTIONS_GROUP.debug=	debug cppunit
 
 PKG_SUGGESTED_OPTIONS=		storage-sqlite
 
@@ -23,5 +23,8 @@ PLIST.mysql=	yes
 
 .if !empty(PKG_OPTIONS:Mdebug)
 CMAKE_ARGS+=	-DCMAKE_BUILD_TYPE=Debug
+.endif
+
+.if !empty(PKG_OPTIONS:Mcppunit)
 . include "../../devel/cppunit/buildlink3.mk"
 .endif
