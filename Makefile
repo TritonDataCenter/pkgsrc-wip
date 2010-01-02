@@ -907,6 +907,7 @@ SUBDIR+=	ironpython
 SUBDIR+=	ispell-dictionaries
 SUBDIR+=	ispell-lietuviu
 SUBDIR+=	itask-ng
+SUBDIR+=	ja-misaki
 #SUBDIR+=	jabberd			# not a real package
 SUBDIR+=	jabberd-aim
 SUBDIR+=	jabberd2
