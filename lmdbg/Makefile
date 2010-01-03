@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	lmdbg-0.11.0
+DISTNAME=	lmdbg-0.12.0
 CATEGORIES=	devel
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=lmdbg/} \
 		http://mova.org/~cheusov/pub/lmdbg/
@@ -20,7 +20,7 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 USE_BSD_MAKEFILE=	yes
 INSTALL_DIRS=		scripts liblmdbg
 
-MAKE_FLAGS+=		MKCATPAGES=no
+MAKE_FLAGS+=		MKCATPAGES=no MKPICINSTALL=no MKPROFILE=no
 
 TEST_TARGET=		test
 
