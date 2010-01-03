@@ -14,7 +14,7 @@ BUILDLINK_API_DEPENDS.libdrm+=	libdrm>=2.4.16
 ###	[bjs 20080714]
 ###
 #BUILDLINK_API_DEPENDS.libdrm+=	libdrm>=2.3.1
-BUILDLINK_PKGSRCDIR.libdrm?=	../../x11/libdrm
+BUILDLINK_PKGSRCDIR.libdrm?=	../../wip/libdrm
 .endif # LIBDRM_BUILDLINK3_MK
 
 BUILDLINK_TREE+=	-libdrm
