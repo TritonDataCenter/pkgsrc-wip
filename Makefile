@@ -313,6 +313,7 @@ SUBDIR+=	dotconf
 SUBDIR+=	dotproject
 SUBDIR+=	dpic
 SUBDIR+=	dragbox
+SUBDIR+=	dri
 SUBDIR+=	drow
 SUBDIR+=	drpython
 SUBDIR+=	drumpiler
