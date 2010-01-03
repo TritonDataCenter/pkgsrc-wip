@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	runawk-0.18.0
+DISTNAME=	runawk-0.19.0
 CATEGORIES=	lang devel
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=runawk/} \
 		http://mova.org/~cheusov/pub/runawk/
