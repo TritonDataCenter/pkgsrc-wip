@@ -1,0 +1,4 @@
+@comment $NetBSD$
+include/GL/glut.h
+lib/libglut.la
+lib/pkgconfig/glut.pc
