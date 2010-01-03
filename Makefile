@@ -503,6 +503,7 @@ SUBDIR+=	git
 SUBDIR+=	givaro
 SUBDIR+=	gjots2
 SUBDIR+=	gksu
+SUBDIR+=	gl
 SUBDIR+=	glade2-nognome
 SUBDIR+=	glib-java
 SUBDIR+=	glibc
