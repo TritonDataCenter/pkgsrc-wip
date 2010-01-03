@@ -1,0 +1,7 @@
+@comment $NetBSD$
+include/GL/GLwDrawA.h
+include/GL/GLwDrawAP.h
+include/GL/GLwMDrawA.h
+include/GL/GLwMDrawAP.h
+lib/libGLw.la
+lib/pkgconfig/glw.pc
