@@ -1042,6 +1042,7 @@ SUBDIR+=	libdrm
 SUBDIR+=	libdshconfig
 SUBDIR+=	libdssialsacompat
 SUBDIR+=	libexosip
+SUBDIR+=	libfplll
 SUBDIR+=	libgadu
 SUBDIR+=	libgdata
 SUBDIR+=	libgeotiff
