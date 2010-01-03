@@ -515,6 +515,7 @@ SUBDIR+=	glkterm
 SUBDIR+=	globulation2
 SUBDIR+=	gloox
 SUBDIR+=	glulxe
+SUBDIR+=	glw
 SUBDIR+=	gmc2mid
 SUBDIR+=	gmediaserver
 SUBDIR+=	gmp-ecm
