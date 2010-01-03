@@ -1788,6 +1788,7 @@ SUBDIR+=	py-coverage
 SUBDIR+=	py-cryptoidlib
 SUBDIR+=	py-cscope
 SUBDIR+=	py-csp
+SUBDIR+=	py-cvxopt
 SUBDIR+=	py-daemon
 SUBDIR+=	py-dbutils
 SUBDIR+=	py-decorator
