@@ -3,7 +3,7 @@
 
 DISTNAME=	MDP-2.5
 PKGNAME=	${PYPKGPREFIX}-mdp-2.5
-CATEGORIES=	parallel python
+CATEGORIES=	math python
 MASTER_SITES=	http://garr.dl.sourceforge.net/project/mdp-toolkit/mdp-toolkit/2.5/
 
 MAINTAINER=	jihbed.research@gmail.com
