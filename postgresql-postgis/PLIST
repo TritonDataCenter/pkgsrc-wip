@@ -1,6 +1,7 @@
 @comment $NetBSD$
 bin/pgsql2shp
 bin/shp2pgsql
+lib/liblwgeom.la
 lib/libpostgis-1.4.la
 man/man1/pgsql2shp.1
 man/man1/shp2pgsql.1

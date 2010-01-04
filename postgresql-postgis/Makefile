@@ -45,6 +45,7 @@ SUBST_STAGE.paths=	pre-configure
 INSTALLATION_DIRS=	${DOCDIR} ${DOCDIR}/images ${PKGMANDIR}/man1
 
 post-install:
+	${LIBTOOL} --mode=install ${INSTALL_LIB} ${WRKSRC}/liblwgeom/liblwgeom.la ${DESTDIR}${PREFIX}/lib
 	${INSTALL_DATA} ${BUILD_DIRS:Q}/README.postgis ${DESTDIR}${DOCDIR}
 	${INSTALL_DATA} ${BUILD_DIRS:Q}/doc/html/postgis.html ${DESTDIR}${DOCDIR}
 	${INSTALL_DATA} ${BUILD_DIRS:Q}/doc/html/style.css ${DESTDIR}${DOCDIR}
