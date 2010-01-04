@@ -1,7 +1,7 @@
 # $NetBSD$
 
 DISTNAME=		mskbdb11
-PKGNAME=		${DISTNAME:S/mskbd/ja-misaki-/}
+PKGNAME=		${DISTNAME:S/mskbd/misaki-fonts-/}
 CATEGORIES=		fonts x11 japanese
 MASTER_SITES=		http://www.geocities.jp/littlimi/arc/misaki/
 
