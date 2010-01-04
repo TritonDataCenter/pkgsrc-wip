@@ -39,6 +39,7 @@ USE_LIBTOOL=	yes
 GNU_CONFIGURE=		yes
 CONFIGURE_ARGS+=	--prefix=${PREFIX:Q}
 CONFIGURE_ARGS+=	--localstatedir=${VARBASE}
+CONFIGURE_ENV+=		RUBY=${RUBY}
 
 #WRKSRC=		${WRKDIR}/OpenDNSSEC
 EGDIR=			${PREFIX}/share/examples/opendnssec

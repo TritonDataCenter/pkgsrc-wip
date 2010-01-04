@@ -27,17 +27,17 @@ $NetBSD$
 -	test -f ${sysconfdir}/kasp.xml || \
 -		${INSTALL_DATA} ${top_builddir}/kasp.xml ${DESTDIR}${sysconfdir}
 -	${INSTALL_DATA} ${top_builddir}/kasp.xml ${DESTDIR}${sysconfdir}/kasp.xml.sample
-+	test -d ${EGDIR} || mkdir -p ${DESTDIR}${EGDIR}
-+	test -f ${EGDIR}/conf.xml || \
++	test -d ${DESTDIR}${EGDIR} || mkdir -p ${DESTDIR}${EGDIR}
++	test -f ${DESTDIR}${EGDIR}/conf.xml || \
 +		${INSTALL_DATA} -m 0640 ${top_builddir}/conf.xml ${DESTDIR}${EGDIR}
 +	${INSTALL_DATA} -m 640 ${top_builddir}/conf.xml ${DESTDIR}${EGDIR}/conf.xml.sample
-+	test -f ${EGDIR}/zonelist.xml || \
++	test -f ${DESTDIR}${EGDIR}/zonelist.xml || \
 +		${INSTALL_DATA} ${top_builddir}/zonelist.xml ${DESTDIR}${EGDIR}
 +	${INSTALL_DATA} ${top_builddir}/zonelist.xml ${DESTDIR}${EGDIR}/zonelist.xml.sample
-+	test -f ${EGDIR}/zonefetch.xml || \
++	test -f ${DESTDIR}${EGDIR}/zonefetch.xml || \
 +		${INSTALL_DATA} -m 0640 ${top_builddir}/zonefetch.xml ${DESTDIR}${EGDIR}
 +	${INSTALL_DATA} -m 640 ${top_builddir}/zonefetch.xml ${DESTDIR}${EGDIR}/zonefetch.xml.sample
-+	test -f ${EGDIR}/kasp.xml || \
++	test -f ${DESTDIR}${EGDIR}/kasp.xml || \
 +		${INSTALL_DATA} ${top_builddir}/kasp.xml ${DESTDIR}${EGDIR}
 +	${INSTALL_DATA} ${top_builddir}/kasp.xml ${DESTDIR}${EGDIR}/kasp.xml.sample
  
