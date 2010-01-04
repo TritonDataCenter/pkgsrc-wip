@@ -6,8 +6,8 @@ bin/pbmtojbg85
 include/jbig.h
 include/jbig85.h
 include/jbig_ar.h
-lib/libjbig.a
-lib/libjbig85.a
+lib/libjbig.la
+lib/libjbig85.la
 man/man1/jbgtopbm.1
 man/man1/pbmtojbg.1
 share/doc/jbig/jbig.txt
