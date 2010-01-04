@@ -848,6 +848,7 @@ SUBDIR+=	hyena
 SUBDIR+=	hylafax
 SUBDIR+=	hylafax-devel
 SUBDIR+=	i3
+SUBDIR+=	i3lock
 SUBDIR+=	iText
 SUBDIR+=	iTextXML
 SUBDIR+=	ibus
