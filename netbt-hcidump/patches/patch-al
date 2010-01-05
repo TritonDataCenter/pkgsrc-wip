@@ -1,7 +1,18 @@
 $NetBSD$
 
---- src/bt_lib.c.orig	2009-11-30 19:29:17.000000000 +0000
+--- src/bt_lib.c.orig	2010-01-05 12:27:30.000000000 +0000
 +++ src/bt_lib.c
+@@ -35,8 +35,8 @@
+ #include <string.h>
+ #include <sys/socket.h>
+ 
+-#include "bluetooth.h"
+-#include "hci.h"
++#include <bluetooth/bluetooth.h>
++#include <bluetooth/hci.h>
+ 
+ void baswap(bdaddr_t *dst, const bdaddr_t *src)
+ {
 @@ -48,6 +48,7 @@ void baswap(bdaddr_t *dst, const bdaddr_
  		d[i] = s[5-i];
  }
