@@ -30,6 +30,12 @@ CONF_FILES=		${PREFIX}/share/examples/k3b/org.k3b.setup.conf \
 
 ONLY_FOR_PLATFORM=	FreeBSD-*-* Linux-*-* NetBSD-*-* DragonFly-*-*
 
+SUBST_CLASSES+=		pathfix
+SUBST_STAGE.pathfix=	post-patch
+SUBST_MESSAGE.pathfix=	Add cdrtools path.
+SUBST_FILES.pathfix=	libk3b/core/k3bexternalbinmanager.cpp
+SUBST_SED.pathfix=	-e 's:"/usr/bin/":"${LOCALBASE}/bin", "/usr/bin/":g'
+
 .include "../../mk/dlopen.buildlink3.mk"
 BUILDLINK_TRANSFORM+=   opt:-ldl:${BUILDLINK_LDADD.dl:M*}
 
