@@ -17,7 +17,7 @@ USE_X11BASE=		YES
 NO_CONFIGURE=		YES
 USE_TOOLS+=		bdftopcf gzip
 
-DOCSDIR=			${PREFIX}/share/doc/${PKGBASE}
+DOCSDIR=		${PREFIX}/share/doc/${PKGBASE}
 FONTDIR=		${PREFIX}/lib/X11/fonts/local
 FONTS_DIRS.x11=		${FONTDIR}
 
