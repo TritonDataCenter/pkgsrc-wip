@@ -1882,6 +1882,7 @@ SUBDIR+=	py-pp
 SUBDIR+=	py-ptrace
 SUBDIR+=	py-processing
 SUBDIR+=	py-pygr
+SUBDIR+=	py-pymetrics
 SUBDIR+=	py-rcsparse
 SUBDIR+=	py-rdflib
 SUBDIR+=	py-remctl
