@@ -173,6 +173,7 @@ sbin/grub2-mkdevicemap
 sbin/grub2-probe
 sbin/grub2-setup
 share/examples/grub2/00_header
+share/examples/grub2/05_pkgsrc_theme
 share/examples/grub2/10_hurd
 share/examples/grub2/10_kfreebsd
 share/examples/grub2/10_linux
