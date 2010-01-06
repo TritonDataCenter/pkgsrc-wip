@@ -40,7 +40,7 @@ MAKE_ENV+=		EGDIR=${EGDIR}
 
 .include "../../mk/bsd.prefs.mk"
 
-EGFILES=		00_header 30_os-prober 40_custom
+EGFILES=		00_header 05_pkgsrc_theme 30_os-prober 40_custom
 .if ${OPSYS} == "FreeBSD"
 EGFILES+=		10_kfreebsd
 .elif ${OPSYS} == "Linux"
@@ -119,6 +119,7 @@ TOOLS_PLATFORM.gsed=	# empty   (to trick pkgsrc into the real gsed)
 
 post-install:
 	${INSTALL_DATA} ${FILESDIR}/default.conf ${EGDIR}/default.conf.sample
+	${INSTALL_SCRIPT} ${FILESDIR}/05_pkgsrc_theme ${EGDIR}/05_pkgsrc_theme
 
 .include "options.mk"
 .include "../../devel/gettext-lib/buildlink3.mk"
