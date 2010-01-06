@@ -16,7 +16,7 @@ Description: forces installation of all configuration scripts.  These are
 -grub-mkconfig_SCRIPTS += 10_$(host_kernel)
 -endif
 +#ifneq (, $(host_kernel))
-+grub-mkconfig_SCRIPTS += 10_hurd 10_kfreebsd 10_linux 10_windows
++grub-mkconfig_SCRIPTS += 10_hurd 10_kfreebsd 10_linux 10_netbsd 10_windows
 +#endif
  
  CLEANFILES += $(grub-mkconfig_SCRIPTS)
