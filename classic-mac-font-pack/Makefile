@@ -11,7 +11,8 @@ CATEGORIES=	fonts
 # are available gratis.
 
 DISTFILES+=	alexandria.zip
-SITES.alexandria.zip=	http://www.1001freefonts.com/winfonts/
+SITES.alexandria.zip=	http://www.acidfonts.com/fonts/
+# defunct	http://www.1001freefonts.com/winfonts/
 DISTFILES+=	Cairo_TTF.zip
 SITES.Cairo_TTF.zip=	http://www.masterstech-home.com/The_Library/Font_Samples/Font_Sample_Files/PC/C/
 # File is invalid?
