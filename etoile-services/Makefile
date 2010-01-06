@@ -16,7 +16,9 @@ USE_LANGUAGES=	objc
 USE_TOOLS+=	gmake
 
 MAKE_FILE=	GNUmakefile
-MAKE_ENV=	GNUSTEP_MAKEFILES=${LOCALBASE}/share/GNUstep/Makefiles
+#MAKE_ENV=	GNUSTEP_MAKEFILES=${LOCALBASE}/share/GNUstep/Makefiles
+
+.include "../../devel/gnustep-make/gnustep.mk"
 
 DEPENDS+=	etoile-core>=2.0.0:../../wip/etoile-core
 
