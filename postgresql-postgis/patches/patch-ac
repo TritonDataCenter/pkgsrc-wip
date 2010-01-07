@@ -24,3 +24,14 @@ $NetBSD$
  
  shp2pgsql-core-gui.o: shp2pgsql-core.c
  	$(CC) $(CFLAGS) -DPGUI -c -o $@ $^
+@@ -79,8 +79,8 @@ $(SHP2PGSQL-CLI): stringbuffer.o shpopen
+ 
+ install: all
+ 	@mkdir -p $(DESTDIR)$(bindir)
+-	$(INSTALL) $(PGSQL2SHP) $(DESTDIR)$(bindir)
+-	$(INSTALL) $(SHP2PGSQL) $(DESTDIR)$(bindir)
++	${LIBTOOL} --mode=install ${BSD_INSTALL_PROGRAM} $(PGSQL2SHP) $(DESTDIR)$(bindir)
++	${LIBTOOL} --mode=install ${BSD_INSTALL_PROGRAM} $(SHP2PGSQL) $(DESTDIR)$(bindir)
+ 
+ uninstall:
+ 	@rm -f $(DESTDIR)$(bindir)/$(PGSQL2SHP)
