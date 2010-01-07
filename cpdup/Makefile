@@ -11,7 +11,7 @@ MAINTAINER=	adam.hoka@gmail.com
 HOMEPAGE=	http://apollo.backplane.com/FreeSrc/
 COMMENT=	Designed to make exact mirrors of directory trees
 
-NOT_FOR_PLATFORM=	*-*-x86_64 *-*-alpha *-*-sparc64
+NOT_FOR_PLATFORM=	${LP64PLATFORMS}
 
 WRKSRC=	${WRKDIR}/cpdup
 
