@@ -1,10 +1,10 @@
 # $NetBSD$
 #
 
-DISTNAME=	awesome-3.4.2
+DISTNAME=	awesome-3.4.3
 CATEGORIES=	x11 wm
 MASTER_SITES=	http://awesome.naquadah.org/download/
-EXTRACT_SUFX=	.tar.bz2
+EXTRACT_SUFX=	.tar.xz
 
 MAINTAINER=	pallegra@gmail.com
 HOMEPAGE=	http://awesome.naquadah.org/
