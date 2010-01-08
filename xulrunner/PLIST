@@ -2300,6 +2300,8 @@ lib/xulrunner/libsoftokn3.so
 lib/xulrunner/libssl3.so
 lib/xulrunner/libunicharutil_external_s.a
 lib/xulrunner/libxpcom.so
+lib/xulrunner/libxpcomglue.a
+lib/xulrunner/libxpcomglue_s.a
 lib/xulrunner/libxul.so
 lib/xulrunner/modules/CertUtils.jsm
 lib/xulrunner/modules/DownloadLastDir.jsm
