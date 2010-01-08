@@ -36,3 +36,4 @@ share/doc/pkg_summary-utils/README
 share/doc/pkg_summary-utils/TODO
 share/psu_mk/pkg_src_summary.mk
 share/runawk/pkg_grep_summary.awk
+share/runawk/psu_funcs.awk
