@@ -35,7 +35,7 @@ do-build:
 	   -rpath ${PREFIX}/lib -version-info 0:0 ${LOFILES}
 
 do-install:
-	${LIBTOOL} ${INSTALL_DATA} ${WRKSRC}/libuxre/libuxre.la ${DESTDIR}${PREFIX}/lib
+	${LIBTOOL} --mode=install ${INSTALL_DATA} ${WRKSRC}/libuxre/libuxre.la ${DESTDIR}${PREFIX}/lib
 	${INSTALL_DATA} ${WRKSRC}/libuxre/regex.h ${DESTDIR}${PREFIX}/include/uxre
 .for i in ${DOC_FILES}
 	${INSTALL_DATA} ${WRKSRC}/libuxre/"${i}" ${DESTDIR}${DOC_DIR}
