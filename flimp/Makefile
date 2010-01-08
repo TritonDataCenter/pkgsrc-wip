@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	flimp-0.0.10
+DISTNAME=	flimp-0.0.11
 CATEGORIES=	graphics
 MASTER_SITES=	http://www.ecademix.com/JohannesHofmann/
 
