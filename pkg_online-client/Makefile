@@ -1,6 +1,8 @@
 # $NetBSD$
 #
 
+.include "../../wip/pkg_online-server/Makefile.common"
+
 PKGNAME=	${DISTNAME:C/online/online-client/}
 CATEGORIES=	pkgtools
 COMMENT+=	(client tools)
@@ -18,5 +20,4 @@ DESCR_SRC+=	${.CURDIR}/DESCR
 
 MAKE_FLAGS+=	DOCDIR=${PREFIX}/share/doc/pkg_online-client
 
-.include "../../wip/pkg_online-server/Makefile.common"
 .include "../../mk/bsd.pkg.mk"
