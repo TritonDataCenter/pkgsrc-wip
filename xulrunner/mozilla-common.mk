@@ -69,6 +69,11 @@ create-rm-wrapper:
 CONFIGURE_ENV+=	ac_cv_thread_keyword=no
 .endif
 
+.if ${OPSYS} == "SunOS"
+# native libbz2.so hides BZ2_crc32Table
+PREFER.bzip2?= pkgsrc
+.endif
+
 .if ${OPSYS} == "Linux"
 .include "../../audio/alsa-lib/buildlink3.mk"
 .endif
