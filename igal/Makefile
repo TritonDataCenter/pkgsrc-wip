@@ -16,6 +16,12 @@ REPLACE_PERL=		igal
 USE_TOOLS+=		perl:run
 USE_PKGLOCALEDIR=	YES
 
+SUBST_CLASSES+=			fix-prefix
+SUBST_STAGE.fix-prefix=		post-patch
+SUBST_MESSAGE.fix-prefix=	Fixing relative prefix
+SUBST_FILES.fix-prefix=		igal
+SUBST_SED.fix-prefix=		-e 's,/usr/local/lib/igal,${PREFIX}/share/igal,'
+
 do-install:
 	${INSTALL_SCRIPT} ${WRKSRC}/igal ${PREFIX}/bin
 	${INSTALL_MAN} ${WRKSRC}/igal.1 ${PREFIX}/${PKGMANDIR}/man1
