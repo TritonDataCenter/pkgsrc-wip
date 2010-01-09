@@ -1,9 +1,9 @@
 # $NetBSD$
 #
 
-DISTNAME=	json-glib-0.8.0
+DISTNAME=	json-glib-0.10.0
 CATEGORIES=	textproc
-MASTER_SITES=	${MASTER_SITE_GNOME:=sources/json-glib/0.8/}
+MASTER_SITES=	${MASTER_SITE_GNOME:=sources/json-glib/0.10/}
 
 MAINTAINER=	obache@NetBSD.org
 HOMEPAGE=	http://live.gnome.org/JsonGlib
