@@ -9,8 +9,6 @@ MAINTAINER=	pettai@nordu.net
 HOMEPAGE=	http://zkt.sourceforge.net/
 COMMENT=	Tool to manage keys and signatures for DNSSEC-zones
 
-WRKSRC=		${WRKDIR}/${DISTNAME}
-
 PKG_DESTDIR_SUPPORT=	user-destdir
 
 GNU_CONFIGURE=	yes
