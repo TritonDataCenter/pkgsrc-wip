@@ -2,7 +2,6 @@
 #
 
 DISTNAME=	ibus-m17n-1.2.0.20091217
-PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	inputmethod
 MASTER_SITES=	http://ibus.googlecode.com/files/
 
@@ -12,8 +11,6 @@ COMMENT=	M17N engine for IBus platform
 LICENSE=	gnu-gpl-v2
 
 PKG_DESTDIR_SUPPORT=	user-destdir
-
-CONFLICTS+=	py[0-9]*-ibus-m17n-[0-9]*
 
 GNU_CONFIGURE=		yes
 USE_LIBTOOL=		yes

@@ -2,7 +2,6 @@
 #
 
 DISTNAME=	ibus-anthy-1.2.0.20091127
-PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	inputmethod japanese
 MASTER_SITES=	http://ibus.googlecode.com/files/
 
@@ -12,8 +11,6 @@ COMMENT=	Anthy engine for IBus input platform
 LICENSE=	gnu-gpl-v2
 
 PKG_DESTDIR_SUPPORT=	user-destdir
-
-CONFLICTS+=	py[0-9]*-ibus-anthy-[0-9]*
 
 DEPENDS+=	kasumi-[0-9]*:../../inputmethod/kasumi
 
