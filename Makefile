@@ -858,6 +858,7 @@ SUBDIR+=	ibus-hangul
 SUBDIR+=	ibus-m17n
 SUBDIR+=	ibus-pinyin
 SUBDIR+=	ibus-qt
+SUBDIR+=	ibus-table
 SUBDIR+=	icc10
 SUBDIR+=	icc11
 SUBDIR+=	icecast
