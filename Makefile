@@ -1769,7 +1769,6 @@ SUBDIR+=	py-Fnorb-docs
 SUBDIR+=	py-Genetic
 SUBDIR+=	py-Impacket
 SUBDIR+=	py-MayaVi
-SUBDIR+=	py-MoinMoin
 SUBDIR+=	py-OpenAL
 SUBDIR+=	py-PEAK
 SUBDIR+=	py-PEAK-docs
