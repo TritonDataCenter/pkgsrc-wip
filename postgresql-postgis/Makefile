@@ -13,7 +13,8 @@ LICENSE=	gnu-gpl-v2
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
-# See TODO
+# Needs pgxs makefiles installed.  Currently this is done only by the 84
+# package, although there are no good reasons the others don't.
 PGSQL_VERSIONS_ACCEPTED=	84
 
 DEPENDS+=		postgresql${PGSQL_VERSION}-server>=0:../../databases/postgresql${PGSQL_VERSION}-server
