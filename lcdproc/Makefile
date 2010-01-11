@@ -45,6 +45,6 @@ CONF_FILES+=	${EGDIR}/lcdproc.conf ${PKG_SYSCONFDIR}/lcdproc.conf
 CONF_FILES+=	${EGDIR}/lcdvc.conf ${PKG_SYSCONFDIR}/lcdvc.conf
 
 post-patch:
-	cp ${FILESDIR}/getopt.h ${WRKSRC}/shared
+	${CP} ${FILESDIR}/getopt.h ${WRKSRC}/shared
 
 .include "../../mk/bsd.pkg.mk"
