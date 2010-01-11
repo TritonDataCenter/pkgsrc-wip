@@ -4,7 +4,7 @@
 BUILD_DEPENDS+=		bzr>=1.0:../../devel/bzr
 
 DISTFILES?=		# empty
-BZR_REPOSITORY=		http://bzr.savannah.gnu.org/r/grub/trunk/grub
+BZR_REPOSITORY=		http://bzr.savannah.gnu.org/r/grub/people/gsutre/netbsd
 
 pre-extract: do-bzr-extract
 
