@@ -132,6 +132,7 @@ include/xulrunner/jslong.h
 include/xulrunner/jsmath.h
 include/xulrunner/jsnum.h
 include/xulrunner/jsobj.h
+include/xulrunner/jsobjinlines.h
 include/xulrunner/json.h
 include/xulrunner/jsopcode.h
 include/xulrunner/jsopcode.tbl
@@ -2277,7 +2278,7 @@ lib/xulrunner/defaults/profile/localstore.rdf
 lib/xulrunner/dependentlibs.list
 lib/xulrunner/dictionaries/en-US.aff
 lib/xulrunner/dictionaries/en-US.dic
-lib/xulrunner/gre.d/${PKGVERSION}.system.conf
+lib/xulrunner/gre.d/1.9.2.system.conf
 lib/xulrunner/greprefs/all.js
 lib/xulrunner/greprefs/security-prefs.js
 lib/xulrunner/greprefs/xpinstall.js
