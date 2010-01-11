@@ -13,6 +13,8 @@ COMMENT=	DeforaOS desktop window manager
 
 LICENSE=	gnu-gpl-v3
 
+USE_TOOLS+=	pkg-config
+
 PKG_DESTDIR_SUPPORT=	user-destdir
 MAKE_FLAGS+=	PREFIX=${PREFIX}
 MAKE_FLAGS+=	DESTDIR=${DESTDIR}
