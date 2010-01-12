@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		gromacs-4.0.4
+DISTNAME=		gromacs-4.0.7
 CATEGORIES=		biology
 MASTER_SITES=		ftp://ftp.gromacs.org/pub/gromacs/
 
