@@ -52,5 +52,8 @@ SUBST_SED.version-string-2=	-e '/^PACKAGE_VERSION=/s:[0-9.-]\{1,\}:${PKGVERSION_
 pre-configure:
 	${RUN} cd ${WRKSRC} && ./build-setup.sh
 
+# Skip these checks for now:
+CHECK_WRKREF_SKIP=     lib/*/hypertex lib/*/viewAlone lib/*/view2D lib/*/view3D lib/*/viewman
+
 .include "../mk/svn-package.mk"
 .include "../../mk/bsd.pkg.mk"
