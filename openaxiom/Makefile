@@ -14,7 +14,7 @@ COMMENT=		Platform for symbolic, algebraic, and numerical computations
 
 # Get it from Subversion repository:
 SVN_REPOSITORIES=	open-axiom
-SVN_ROOT.open-axiom=	https://open-axiom.svn.sf.net/svnroot/open-axiom/trunk
+SVN_ROOT.open-axiom=	http://open-axiom.svn.sf.net/svnroot/open-axiom/trunk
 SVN_MODULE.open-axiom=	open-axiom
 
 WRKSRC=			${WRKDIR}/open-axiom
