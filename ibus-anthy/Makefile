@@ -28,6 +28,11 @@ SUBST_STAGE.kasumi=	pre-configure
 SUBST_FILES.kasumi=	setup/anthyprefs.py
 SUBST_SED.kasumi=	-e 's|/usr/bin/kasumi|${KASUMI_DIR}/bin/kasumi|g'
 
+SUBST_CLASSES+=		epython
+SUBST_STAGE.epython=	pre-configure
+SUBST_FILES.epython=	engine/ibus-engine-anthy.in setup/ibus-setup-anthy.in
+SUBST_SED.epython=	-e 's;exec python;exec ${PYTHONBIN};g'
+
 .include "../../devel/swig/buildlink3.mk"
 PY_PATCHPLIST=		yes
 .include "../../lang/python/extension.mk"
