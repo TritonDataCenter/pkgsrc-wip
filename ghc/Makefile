@@ -45,7 +45,7 @@ CONFIGURE_ENV+=		PerlCmd=${PERL5:Q}
 # We don't want to extract all of the DISTFILEs.
 EXTRACT_ONLY=	${DISTNAME}-src.tar.bz2
 
-PLATFORM= ${LOWER_ARCH}-unknown-${LOWER_OPSYS}
+PLATFORM= ${MACHINE_ARCH}-unknown-${LOWER_OPSYS}
 CONFIGURE_ARGS += \
 	--build=${PLATFORM} \
 	--host=${PLATFORM} \
