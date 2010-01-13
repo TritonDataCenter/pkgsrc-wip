@@ -1,0 +1,13 @@
+$NetBSD$
+
+--- configure.orig	2010-01-13 14:39:12.000000000 +0300
++++ configure
+@@ -43183,7 +43183,7 @@
+ # [  --with-net_snmp enable snmp [will check /usr /usr/local ]
+ # ],
+ #[   AC_MSG_RESULT(yes)
+-    for dir in $withval /usr/local /usr ; do
++    for dir in $withval /usr/local /usr /usr/pkg ; do
+         snmpdir="$dir"
+ 
+ 	if test -f "$dir/include/net-snmp/net-snmp-config.h"; then

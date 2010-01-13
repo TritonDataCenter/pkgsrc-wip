@@ -213,6 +213,7 @@ ${PLIST.mysql}lib/callweaver/modules/res_config_mysql.la
 ${PLIST.pgsql}lib/callweaver/modules/app_sql_postgres.la
 ${PLIST.pgsql}lib/callweaver/modules/cdr_pgsql.la
 ${PLIST.pgsql}lib/callweaver/modules/res_config_pgsql.la
+${PLIST.snmp}lib/callweaver/modules/res_snmp.la
 man/man8/callweaver.8
 man/man8/safe_callweaver.8
 sbin/callweaver_cli
