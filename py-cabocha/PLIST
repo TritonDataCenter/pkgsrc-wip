@@ -1,0 +1,5 @@
+@comment $NetBSD$
+${PYSITELIB}/CaboCha.py
+${PYSITELIB}/CaboCha.pyc
+${PYSITELIB}/CaboCha.pyo
+${PYSITELIB}/_CaboCha.so

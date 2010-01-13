@@ -1,0 +1,2 @@
+@comment $NetBSD$
+${RUBY_VENDORARCHLIB}/YamCha.${RUBY_DLEXT}
