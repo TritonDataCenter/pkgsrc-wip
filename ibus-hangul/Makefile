@@ -17,7 +17,13 @@ USE_LIBTOOL=		yes
 USE_PKGLOCALEDIR=	yes
 USE_TOOLS+=		pkg-config gmake msgfmt intltool
 
+SUBST_CLASSES+=		epython
+SUBST_STAGE.epython=	pre-configure
+SUBST_FILES.epython=	setup/ibus-setup-hangul.in
+SUBST_SED.epython=	-e 's;exec python;exec ${PYTHONBIN};g'
+
 BUILDLINK_API_DEPENDS.libhangul+=	libhangul>=0.0.10
 .include "../../inputmethod/libhangul/buildlink3.mk"
 .include "../../wip/ibus/buildlink3.mk"
+.include "../../lang/python/application.mk"
 .include "../../mk/bsd.pkg.mk"
