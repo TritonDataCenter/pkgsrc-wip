@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	clhep-2.0.4.3
+DISTNAME=	clhep-2.0.4.5
 CATEGORIES=	math
 MASTER_SITES=	http://proj-clhep.web.cern.ch/proj-clhep/DISTRIBUTION/tarFiles/
 EXTRACT_SUFX=	.tgz
