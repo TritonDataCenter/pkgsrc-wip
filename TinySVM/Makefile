@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	TinySVM-0.09
-CATEGORIES=	devel
+CATEGORIES=	math
 MASTER_SITES=	http://www.chasen.org/~taku/software/TinySVM/src/
 
 MAINTAINER=	obache@NetBSD.org
