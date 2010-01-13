@@ -1,12 +1,8 @@
 # $NetBSD$
 #
 
-DISTNAME=	cabocha-0.53
-CATEGORIES=	devel
-MASTER_SITES=	http://www.chasen.org/~taku/software/cabocha/src/
+.include "Makefile.common"
 
-MAINTAINER=	obache@NetBSD.org
-HOMEPAGE=	http://www.chasen.org/~taku/software/cabocha/
 COMMENT=	Yet another Japanese Dependency Structure Analyzer
 
 PKG_DESTDIR_SUPPORT=	user-destdir
