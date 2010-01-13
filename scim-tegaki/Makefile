@@ -5,9 +5,9 @@ DISTNAME=	scim-tegaki-0.1
 CATEGORIES=	inputmethod
 MASTER_SITES=	http://www.tegaki.org/releases/0.1/
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE
+MAINTAINER=	obache@NetBSD.org
 HOMEPAGE=	http://www.tegaki.org/releases/0.1/
-COMMENT=	TODO: Short description of the package
+COMMENT=	Tegaki integration in SCIM
 LICENSE=	gnu-gpl-v2
 
 DEPENDS+=	tegaki-pygtk>=0.2:../../wip/tegaki-pygtk
