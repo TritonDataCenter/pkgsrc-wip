@@ -7,7 +7,7 @@ HASKELL_PKG_DESCR_FILE="@HASKELL_PKG_DESCR_FILE@"
 case ${STAGE} in
     POST-INSTALL)
         if [ -f ${HASKELL_PKG_DESCR_FILE} ]; then
-            ${HASKELL_PKG_BIN} register ${HASKELL_PKG_DESCR_FILE};
+            ${HASKELL_PKG_BIN} update ${HASKELL_PKG_DESCR_FILE};
         fi
         ;;
 esac
