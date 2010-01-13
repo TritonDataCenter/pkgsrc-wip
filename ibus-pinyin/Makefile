@@ -31,5 +31,10 @@ post-extract:
 	mv ${WRKDIR}/py.db ${WRKSRC}/engine
 	touch -r ${WRKSRC}/engine/py.db ${WRKSRC}/engine/${DBTAR}
 
+SUBST_CLASSES+=		epython
+SUBST_STAGE.epython=	pre-configure
+SUBST_FILES.epython=	engine/ibus-engine-pinyin.in setup/ibus-setup-pinyin.in
+SUBST_SED.epython=	-e 's;exec python;exec ${PYTHONBIN};g'
+
 .include "../../wip/ibus/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
