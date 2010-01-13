@@ -1,0 +1,5 @@
+@comment $NetBSD$
+${PYSITELIB}/_zinnia.so
+${PYSITELIB}/zinnia.py
+${PYSITELIB}/zinnia.pyc
+${PYSITELIB}/zinnia.pyo

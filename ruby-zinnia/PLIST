@@ -1,0 +1,2 @@
+@comment $NetBSD$
+${RUBY_VENDORARCHLIB}/zinnia.${RUBY_DLEXT}
