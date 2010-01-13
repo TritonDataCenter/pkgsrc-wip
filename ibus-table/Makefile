@@ -18,5 +18,10 @@ USE_PKGLOCALEDIR=	yes
 
 PKGCONFIG_OVERRIDE+=	ibus-table.pc.in
 
+SUBST_CLASSES+=		prefix
+SUBST_STAGE.prefix=	pre-configure
+SUBST_FILES.prefix=	engine/tabcreatedb.py
+SUBST_SED.prefix=	-e 's|/usr/share|${PREFIX}/share|g'
+
 .include "../../wip/ibus/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
