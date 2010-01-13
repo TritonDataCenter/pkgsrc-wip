@@ -2,12 +2,12 @@
 #
 
 DISTNAME=	amarok-${VERS}
-VERS=		2.2.1.90
+VERS=		2.2.2
 CATEGORIES=	audio multimedia
-MASTER_SITES=	http://download.kde.org/unstable/amarok/${VERS}/src/ \
-		ftp://gd.tuwien.ac.at/kde/unstable/amarok/${VERS}/src/
-#MASTER_SITES=	http://download.kde.org/stable/amarok/${VERS}/src/ \
-#		ftp://gd.tuwien.ac.at/kde/stable/amarok/${VERS}/src/
+#MASTER_SITES=	http://download.kde.org/unstable/amarok/${VERS}/src/ \
+#		ftp://gd.tuwien.ac.at/kde/unstable/amarok/${VERS}/src/
+MASTER_SITES=	http://download.kde.org/stable/amarok/${VERS}/src/ \
+		ftp://gd.tuwien.ac.at/kde/stable/amarok/${VERS}/src/
 EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	wiz@NetBSD.org
