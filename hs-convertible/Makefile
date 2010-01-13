@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	convertible-1.0.5
+DISTNAME=	convertible-1.0.8
 CATEGORIES=	devel
 
 MAINTAINER=	pho@cielonegro.org
