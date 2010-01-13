@@ -20,6 +20,9 @@ GNU_CONFIGURE=	yes
 CONFIGURE_SCRIPT= ${TMPEXT_DIR}/configure
 USE_LANGUAGES=	c c++
 
+# Apply extra force to make it link on FreeBSD 6.3:
+LDFLAGS.FreeBSD=	-lc
+
 pre-configure:
 	${RUN} ${MKDIR} ${WRKSRC};	\
 	cd ${TMPEXT_DIR};		\
