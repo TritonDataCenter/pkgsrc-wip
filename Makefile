@@ -864,6 +864,7 @@ SUBDIR+=	ibus-table-array30
 SUBDIR+=	ibus-table-cangjie
 SUBDIR+=	ibus-table-cantonese
 SUBDIR+=	ibus-table-code
+SUBDIR+=	ibus-table-cyrillic
 SUBDIR+=	icc10
 SUBDIR+=	icc11
 SUBDIR+=	icecast
