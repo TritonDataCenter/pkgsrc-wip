@@ -23,5 +23,12 @@ SUBST_STAGE.prefix=	pre-configure
 SUBST_FILES.prefix=	engine/tabcreatedb.py
 SUBST_SED.prefix=	-e 's|/usr/share|${PREFIX}/share|g'
 
+SUBST_CLASSES+=		epython
+SUBST_STAGE.epython=	pre-configure
+SUBST_FILES.epython=	engine/ibus-engine-table.in
+SUBST_FILES.epython=	engine/ibus-table-createdb.in
+SUBST_SED.epython=	-e 's;exec python;exec ${PYTHONBIN};g'
+
 .include "../../wip/ibus/buildlink3.mk"
+.include "../../lang/python/application.mk"
 .include "../../mk/bsd.pkg.mk"
