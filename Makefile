@@ -861,6 +861,7 @@ SUBDIR+=	ibus-qt
 SUBDIR+=	ibus-skk
 SUBDIR+=	ibus-table
 SUBDIR+=	ibus-table-array30
+SUBDIR+=	ibus-table-cangjie
 SUBDIR+=	icc10
 SUBDIR+=	icc11
 SUBDIR+=	icecast
