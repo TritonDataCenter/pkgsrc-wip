@@ -1,0 +1,6 @@
+@comment $NetBSD$
+${PYSITELIB}/_wagomu.so
+${PYSITELIB}/wagomu.py
+${PYSITELIB}/wagomu.pyc
+${PYSITELIB}/wagomu.pyo
+share/tegaki/engines/tegakiwagomu.py
