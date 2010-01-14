@@ -19,5 +19,4 @@ USE_LANGUAGES=	c
 USE_TOOLS+=	pkg-config
 
 .include "../../wip/ibus-table/buildlink3.mk"
-.include "../../lang/python/extension.mk"
 .include "../../mk/bsd.pkg.mk"
