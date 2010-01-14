@@ -43,7 +43,7 @@ SUBST_SED.iso=		-e "s;/usr/share;${BUILDLINK_PREFIX.iso-codes}/share;"
 
 SUBST_CLASSES+=		epython
 SUBST_STAGE.epython=	pre-configure
-SUBST_FILES.epython=	ui/gtk/ibus-ui-gtk.in
+SUBST_FILES.epython=	setup/ibus-setup.in ui/gtk/ibus-ui-gtk.in
 SUBST_SED.epython=	-e 's;exec python;exec ${PYTHONBIN};g'
 
 .include "../../devel/GConf/schemas.mk"
