@@ -28,5 +28,10 @@ CONFIGURE_ARGS+=	OPAL_HAVE_LTDL_ADVISE=0
 
 TEST_TARGET=	check
 
+USE_TOOLS+=	aclocal autoconf automake bash perl
+REPLACE_BASH=	autogen.sh
+pre-configure:	replace-interpreter
+	cd $(WRKSRC) && $(BASH) autogen.sh
+
 .include "../../devel/libltdl/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
