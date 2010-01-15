@@ -48,6 +48,7 @@ SUBST_SED.epython=	-e 's;exec python;exec ${PYTHONBIN};g'
 
 .include "../../devel/GConf/schemas.mk"
 .include "../../devel/gettext-lib/buildlink3.mk"
+.include "../../graphics/hicolor-icon-theme/buildlink3.mk"
 PY_PATCHPLIST=	yes
 .include "../../lang/python/extension.mk"
 BUILDLINK_API_DEPENDS.dbus-glib+=	dbus-glib>=0.74
