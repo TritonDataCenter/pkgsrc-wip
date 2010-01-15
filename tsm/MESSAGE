@@ -23,7 +23,8 @@ NetBSD configuration hints:
 
 - The environment variables DSM_DIR, DSM_CONFIG, DSM_LOG
   need to be set properly. DSM_LOG may inadvertently end up in the emul
-  shadow hierarchy.
+  shadow hierarchy, unless you make ${EMULDIR}/var/log a symbolic
+  link to /../var/log/.
   There is a sample start script in ${PREFIX}/share/examples/tsm.
 
 - For backing up the native filesystem hierarchy, use a construct
