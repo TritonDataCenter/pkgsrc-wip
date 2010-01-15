@@ -2,10 +2,10 @@
 #
 # TODO: add an embedded option
 
-DISTNAME=	Panel-0.0.3
-PKGNAME=	deforaos-panel-0.0.3
+DISTNAME=	Panel-0.0.4
+PKGNAME=	deforaos-panel-0.0.4
 CATEGORIES=	x11
-MASTER_SITES=	http://www.defora.org/os/download/download/3281/
+MASTER_SITES=	http://www.defora.org/os/download/download/3321/
 
 MAINTAINER=	khorben@defora.org
 HOMEPAGE=	http://www.defora.org/
