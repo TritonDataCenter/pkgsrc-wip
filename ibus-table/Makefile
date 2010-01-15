@@ -10,6 +10,8 @@ HOMEPAGE=	http://code.google.com/p/ibus/
 COMMENT=	The Table engine for IBus platform
 LICENSE=	gnu-lgpl-v2.1
 
+DEPENDS+=	${PYPKGPREFIX}-sqlite3-[0-9]*:../../databases/py-sqlite3
+
 PKG_DESTDIR_SUPPORT=	user-destdir
 
 GNU_CONFIGURE=		yes
@@ -26,7 +28,7 @@ SUBST_SED.prefix=	-e 's|/usr/share|${PREFIX}/share|g'
 SUBST_CLASSES+=		epython
 SUBST_STAGE.epython=	pre-configure
 SUBST_FILES.epython=	engine/ibus-engine-table.in
-SUBST_FILES.epython=	engine/ibus-table-createdb.in
+SUBST_FILES.epython+=	engine/ibus-table-createdb.in
 SUBST_SED.epython=	-e 's;exec python;exec ${PYTHONBIN};g'
 
 .include "../../wip/ibus/buildlink3.mk"
