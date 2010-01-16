@@ -2,7 +2,7 @@
 #
 
 PKG_OPTIONS_VAR=	PKG_OPTIONS.cyrus-imapd
-PKG_SUPPORTED_OPTIONS=	gssapi kerberos kerberos4 ldap snmp zephyr
+PKG_SUPPORTED_OPTIONS=	gssapi kerberos kerberos4 ldap snmp
 PKG_SUPPORTED_OPTIONS+=	bdb mysql pgsql sqlite
 PKG_SUGGESTED_OPTIONS=	bdb
 
