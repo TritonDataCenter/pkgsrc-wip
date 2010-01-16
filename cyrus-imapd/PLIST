@@ -43,9 +43,9 @@ cyrus/bin/notifyd
 cyrus/bin/pop3d
 cyrus/bin/pop3proxyd
 cyrus/bin/proxyd
-${LDAP}cyrus/bin/ptdump
-${LDAP}cyrus/bin/ptexpire
-${LDAP}cyrus/bin/ptloader
+${PLIST.ldap}cyrus/bin/ptdump
+${PLIST.ldap}cyrus/bin/ptexpire
+${PLIST.ldap}cyrus/bin/ptloader
 cyrus/bin/quota
 cyrus/bin/reconstruct
 cyrus/bin/rehash

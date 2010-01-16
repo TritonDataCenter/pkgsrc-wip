@@ -8,6 +8,8 @@ PKG_SUGGESTED_OPTIONS=	bdb
 
 .include "../../mk/bsd.options.mk"
 
+PLIST_VARS+=	ldap
+
 .if !empty(PKG_OPTIONS:Mkerberos)
 .  if empty(PKG_OPTIONS:Mgssapi)
 PKG_OPTIONS+=	gssapi
@@ -35,10 +37,9 @@ CONFIGURE_ARGS+=	--disable-gssapi
 .if !empty(PKG_OPTIONS:Mldap)
 .  include "../../databases/openldap-client/buildlink3.mk"
 CONFIGURE_ARGS+=	--with-ldap=${BUILDLINK_PREFIX.openldap-client}
-PLIST_SUBST+=		LDAP=
+PLIST.ldap=		yes
 .else
 CONFIGURE_ARGS+=	--without-ldap
-PLIST_SUBST+=		LDAP="@comment "
 .endif
 
 .if !empty(PKG_OPTIONS:Msnmp)
