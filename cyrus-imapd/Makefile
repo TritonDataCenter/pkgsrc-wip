@@ -51,7 +51,7 @@ CONFIGURE_ARGS+=	--enable-murder
 CONFIGURE_ARGS+=	--enable-nntp
 CONFIGURE_ARGS+=	--enable-replication
 
-include "options.mk"
+.include "options.mk"
 
 .if exists(/usr/bin/compile_et)
 COMERRBASE?=		/usr
