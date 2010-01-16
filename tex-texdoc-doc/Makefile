@@ -10,5 +10,5 @@ LICENSE=	gnu-gpl-v3
 
 CONFLICTS+=	teTeX-texmf-[0-9]*
 
-.include "../../wip/mk/tlpkg.mk"
+.include "../../print/texlive/package.mk"
 .include "../../mk/bsd.pkg.mk"

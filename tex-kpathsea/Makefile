@@ -17,5 +17,5 @@ TEXLIVE_IGNORE_PATTERNS=	texmf/web2c/fmtutil.cnf \
 				texmf/web2c/mktex[a-z]* \
 				texmf/web2c/texmf.cnf
 
-.include "../../wip/mk/tlpkg.mk"
+.include "../../print/texlive/package.mk"
 .include "../../mk/bsd.pkg.mk"

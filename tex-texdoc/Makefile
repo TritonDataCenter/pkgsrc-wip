@@ -15,7 +15,7 @@ REPLACE_PERL=		bin/texdoctk
 REPLACE_TEXLUA=		bin/texdoc
 TEX_TEXMF_DIRS+=	${PREFIX}/share/texmf
 
-.include "../../wip/mk/tlpkg.mk"
+.include "../../print/texlive/package.mk"
 
 post-extract:
 	${MKDIR} ${WRKSRC}/bin
