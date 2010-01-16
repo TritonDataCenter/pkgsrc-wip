@@ -2220,7 +2220,6 @@ SUBDIR+=	tex-kochi-ttf
 SUBDIR+=	tex-kpathsea
 SUBDIR+=	tex-texdoc
 SUBDIR+=	tex-texdoc-doc
-SUBDIR+=	tex-texlive-scripts
 SUBDIR+=	texlive
 SUBDIR+=	texlive-bin
 SUBDIR+=	texlive-texmf-base
