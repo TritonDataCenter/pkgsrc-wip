@@ -2,6 +2,7 @@
 
 DISTNAME=		spectrum
 PKGNAME=		${DISTNAME}-0.1
+PKGREVISION=		1
 CATEGORIES=		chat
 
 # Second paragraph - MAINTAINER/OWNER, HOMEPAGE and COMMENT, and LICEN[CS]E

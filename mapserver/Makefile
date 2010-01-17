@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		mapserver-4.4.2
-PKGREVISION=		2
+PKGREVISION=		3
 CATEGORIES=		geography
 MASTER_SITES=		http://download.osgeo.org/mapserver/ \
 			http://cvs.gis.umn.edu/dist/

@@ -1,7 +1,7 @@
 # $NetBSD$
 
 DISTNAME=	libgtksourceviewmm-0.3.1
-PKGREVISION=	2
+PKGREVISION=	3
 CATEGORIES=	devel
 MASTER_SITES=	${MASTER_SITE_GNOME:=sources/libgtksourceviewmm/0.3/}
 

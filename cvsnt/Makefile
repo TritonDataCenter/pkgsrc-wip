@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	cvsnt-2.5.03.2382
-PKGREVISION=	1
+PKGREVISION=	2
 CATEGORIES=	devel
 MASTER_SITES=	http://www.cvsnt.org/archive/
 

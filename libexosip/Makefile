@@ -1,6 +1,7 @@
 # $NetBSD$
 
 DISTNAME=	libeXosip2-3.3.0
+PKGREVISION=	1
 CATEGORIES=	devel
 MASTER_SITES=	http://download.savannah.nongnu.org/releases/exosip/
 

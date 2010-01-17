@@ -3,6 +3,7 @@
 
 .include "../../wip/libdbi/Makefile_drivers"
 
+PKGREVISION=		1
 LICENSE=		gnu-lgpl-v2
 
 DRIVER=			mysql

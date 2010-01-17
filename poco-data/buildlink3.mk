@@ -6,6 +6,7 @@ BUILDLINK_TREE+=	poco-data
 POCO_DATA_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.poco-data+=	poco-data>=1.3.5
+BUILDLINK_ABI_DEPENDS.poco-data?=	poco-data>=1.3.5nb1
 BUILDLINK_PKGSRCDIR.poco-data?=	../../wip/poco-data
 
 .include "../../wip/poco/buildlink3.mk"

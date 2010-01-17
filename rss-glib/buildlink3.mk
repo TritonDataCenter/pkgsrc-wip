@@ -6,6 +6,7 @@ BUILDLINK_TREE+=	rss-glib
 RSS_GLIB_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.rss-glib+=	rss-glib>=0.2.2
+BUILDLINK_ABI_DEPENDS.rss-glib?=	rss-glib>=0.2.2nb1
 BUILDLINK_PKGSRCDIR.rss-glib?=	../../wip/rss-glib
 
 

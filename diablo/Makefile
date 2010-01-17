@@ -3,6 +3,7 @@
 
 DISTNAME=	diablo-5.1-REL
 PKGNAME=	${DISTNAME:S/-REL//}
+PKGREVISION=	1
 CATEGORIES=	news
 MASTER_SITES=	http://www.openusenet.org/diablo/download/
 EXTRACT_SUFX=	.tgz

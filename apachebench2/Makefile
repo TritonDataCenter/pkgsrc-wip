@@ -3,7 +3,7 @@
 # XXX This uses the version of apache2 distfile instead of
 # XXX the AP_AB_BASEREVISION from the support/ab.c source.
 PKGNAME=		apachebench2-${APACHE_VERSION}
-PKGREVISION=		1
+PKGREVISION=		2
 CATEGORIES=		benchmarks www
 
 MAINTAINER=		pkgsrc-users@NetBSD.org

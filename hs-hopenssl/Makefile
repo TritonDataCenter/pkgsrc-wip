@@ -1,5 +1,6 @@
 # $NetBSD$
 DISTNAME=	hopenssl-1.2
+PKGREVISION=	1
 CATEGORIES=	security
 
 MAINTAINER=	emil@math.su.se

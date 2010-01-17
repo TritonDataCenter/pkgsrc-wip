@@ -2,7 +2,7 @@
 
 DISTNAME=	Mail-SpamAssassin-${_SA_CVS_VER}
 PKGNAME=	spamassassin-cvs-${_SA_CVS_DATE}
-PKGREVISION=	1
+PKGREVISION=	2
 SVR4_PKGNAME=	sa
 CATEGORIES=	mail
 MASTER_SITES=	http://www.spamassassin.org/devel/		\

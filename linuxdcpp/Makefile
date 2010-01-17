@@ -1,6 +1,7 @@
 # $NetBSD$
 
 DISTNAME=		linuxdcpp-1.0.3
+PKGREVISION=		1
 CATEGORIES=		net x11
 MASTER_SITES=		http://launchpad.net/linuxdcpp/1.0/1.0.3/+download/
 EXTRACT_SUFX=		.tar.bz2

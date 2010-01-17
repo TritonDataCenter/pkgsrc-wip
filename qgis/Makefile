@@ -3,7 +3,7 @@
 
 DISTNAME=		qgis_1.0.2
 PKGNAME=		qgis-1.0.2
-PKGREVISION=		1
+PKGREVISION=		2
 CATEGORIES=		geography
 MASTER_SITES=		http://download.osgeo.org/qgis/src/
 EXTRACT_SUFX=		.tar.gz

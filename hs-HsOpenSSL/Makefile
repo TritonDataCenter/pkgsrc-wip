@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	HsOpenSSL-0.6.5
+PKGREVISION=	1
 CATEGORIES=	security
 
 MAINTAINER=	pho@cielonegro.org

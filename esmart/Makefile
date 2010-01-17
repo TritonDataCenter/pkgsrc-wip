@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	esmart-0.9.0.042
-PKGREVISION=	2
+PKGREVISION=	3
 CATEGORIES=	graphics
 MASTER_SITES=	http://www.ezunix.org/pkgsrc/e17/snapshots/2008-09-25/
 

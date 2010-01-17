@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	elementary-0.5.1.0
+PKGREVISION=	1
 CATEGORIES=	x11
 MASTER_SITES=	http://download.enlightenment.org/snapshots/2009-07-29/
 EXTRACT_SUFX=	.tar.bz2

@@ -2,6 +2,7 @@
 
 DISTNAME=	Python-3.1.1
 PKGNAME=	python31-3.1.1
+PKGREVISION=	1
 CATEGORIES=	lang python
 MASTER_SITES=	http://www.python.org/ftp/python/3.1.1/
 EXTRACT_SUFX=	.tar.bz2

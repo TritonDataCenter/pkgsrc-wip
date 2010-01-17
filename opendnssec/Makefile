@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	opendnssec-${VERSION}
+PKGREVISION=	1
 CATEGORIES=	net security
 MASTER_SITES=	http://www.opendnssec.org/files/source/
 

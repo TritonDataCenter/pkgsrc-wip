@@ -3,7 +3,7 @@
 
 DISTNAME=		mod_limitipconn-0.22
 PKGNAME=		${DISTNAME:S/mod_/ap2-/}
-PKGREVISION=		2
+PKGREVISION=		3
 CATEGORIES=		www
 MASTER_SITES=		http://dominia.org/djao/limit/
 

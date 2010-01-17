@@ -2,6 +2,7 @@
 #
 
 DISTNAME=		pkgin-2009120601
+PKGREVISION=		1
 CATEGORIES=		pkgtools
 MASTER_SITES=		http://imil.net/NetBSD/
 

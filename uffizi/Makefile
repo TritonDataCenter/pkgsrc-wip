@@ -3,6 +3,7 @@
 
 DISTNAME=	uffizi
 PKGNAME=	uffizi-0.7
+PKGREVISION=	1
 CATEGORIES=	www graphics perl5
 MASTER_SITES=	http://jmason.org/software/uffizi/
 EXTRACT_SUFX=	.txt

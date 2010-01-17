@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	cfengine-3.0.2
+PKGREVISION=	1
 CATEGORIES=	sysutils
 MASTER_SITES=	http://www.cfengine.org/tarballs/
 

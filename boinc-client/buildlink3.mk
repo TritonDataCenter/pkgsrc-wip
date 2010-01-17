@@ -3,6 +3,7 @@
 BUILDLINK_TREE+=	boinc-client
 
 BUILDLINK_API_DEPENDS.boinc-client+=	boinc-client>=1
+BUILDLINK_ABI_DEPENDS.boinc-client?=	boinc-client>=1nb1
 BUILDLINK_PKGSRCDIR.boinc-client?=	../../wip/boinc-client
 
 # XXX

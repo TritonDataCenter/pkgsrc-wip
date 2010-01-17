@@ -2,7 +2,7 @@
 
 DISTNAME=	mod_layout-4.1
 PKGNAME=	${DISTNAME:S/mod_/ap2-/}
-PKGREVISION=	2
+PKGREVISION=	3
 CATEGORIES=	www
 MASTER_SITES=	http://download.tangent.org/
 

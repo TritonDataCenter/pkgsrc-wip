@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	kipi-plugins-1.0.0
+PKGREVISION=	1
 CATEGORIES=	graphics
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=kipi/kipi-plugins/1.0.0/}
 EXTRACT_SUFX=	.tar.bz2

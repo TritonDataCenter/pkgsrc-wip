@@ -2,7 +2,7 @@
 
 DISTNAME=	mod_macro-1.1.5
 PKGNAME=	${DISTNAME:S/mod_/ap2-/}
-PKGREVISION=	2
+PKGREVISION=	3
 CATEGORIES=	www
 MASTER_SITES=	http://www.cri.ensmp.fr/~coelho/mod_macro/
 

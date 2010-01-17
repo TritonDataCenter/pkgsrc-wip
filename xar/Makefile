@@ -2,6 +2,7 @@
 #
 
 DISTNAME=		xar-1.5.2
+PKGREVISION=		1
 CATEGORIES=		archivers
 MASTER_SITES=		http://xar.googlecode.com/files/
 

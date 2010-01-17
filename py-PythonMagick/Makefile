@@ -4,6 +4,7 @@
 DISTNAME=	PythonMagick-0.9.1
 PKGNAME=        ${PYPKGPREFIX}-PythonMagick-0.9.1
 
+PKGREVISION=	1
 CATEGORIES=	python graphics
 MASTER_SITES=	http://www.imagemagick.org/download/python/
 EXTRACT_SUFX=	.tar.bz2

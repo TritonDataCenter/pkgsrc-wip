@@ -1,7 +1,7 @@
 # $NetBSD$
 
 DISTNAME=		gdal-1.3.1
-PKGREVISION=		3
+PKGREVISION=		4
 CATEGORIES=		geography
 MASTER_SITES=		#empty
 DISTFILES=		#empty

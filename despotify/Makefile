@@ -3,6 +3,7 @@
 
 DISTNAME=	despotify-r761
 PKGNAME=	despotify-761
+PKGREVISION=	1
 CATEGORIES=	audio
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=despotify/}
 

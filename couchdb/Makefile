@@ -3,6 +3,7 @@
 
 PKGNAME=		couchdb-0.9.1
 DISTNAME=		apache-${PKGNAME}
+PKGREVISION=		1
 CATEGORIES=		databases
 MASTER_SITES=		${MASTER_SITE_APACHE:=couchdb/0.9.1/}
 

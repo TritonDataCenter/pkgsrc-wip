@@ -3,6 +3,7 @@
 
 OSGVER=		2.8.1
 DISTNAME=	OpenSceneGraph-${OSGVER}
+PKGREVISION=	1
 CATEGORIES=	devel graphics
 MASTER_SITES=	http://www.openscenegraph.org/downloads/stable_releases/OpenSceneGraph-${OSGVER}/source/
 EXTRACT_SUFX=	.zip

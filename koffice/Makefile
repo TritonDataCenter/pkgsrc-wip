@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	koffice-2.1.0
+PKGREVISION=	1
 CATEGORIES=	misc kde
 MASTER_SITES=	${MASTER_SITE_KDE:=koffice-2.1.0/}
 EXTRACT_SUFX=	.tar.bz2

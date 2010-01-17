@@ -2,6 +2,7 @@
 
 DISTNAME=			gwhois_20080219.1
 PKGNAME=			${DISTNAME:S/_/-/g}
+PKGREVISION=			1
 CATEGORIES=			net
 MASTER_SITES=			http://gwhois.de/gwhois/
 

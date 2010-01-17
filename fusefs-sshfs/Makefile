@@ -3,7 +3,7 @@
 
 DISTNAME=		sshfs-fuse-1.4
 PKGNAME=		fuse-sshfs-1.4
-PKGREVISION=		1
+PKGREVISION=		2
 CATEGORIES=		sysutils
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=fuse/}
 

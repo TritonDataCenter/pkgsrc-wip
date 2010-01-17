@@ -2,6 +2,7 @@
 #
 
 DISTNAME=		synce-kde-0.9.1
+PKGREVISION=		1
 CATEGORIES=		comms
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=synce/}
 

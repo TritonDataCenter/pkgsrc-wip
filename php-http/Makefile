@@ -1,6 +1,7 @@
 # $NetBSD$
 
 MODNAME=		http
+PKGREVISION=		1
 PECL_VERSION=		1.6.5
 CATEGORIES+=		www
 

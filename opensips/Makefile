@@ -2,6 +2,7 @@
 
 DISTNAME=		opensips-${VER}-tls_src
 PKGNAME=		opensips-${VER}
+PKGREVISION=		1
 CATEGORIES=		net
 MASTER_SITES=		http://opensips.org/pub/opensips/${VER}/src/
 

@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	rss-glib-0.2.2
+PKGREVISION=	1
 CATEGORIES=	www
 MASTER_SITES=	http://ftp.dronelabs.com/sources/rss-glib/0.2/
 

@@ -3,6 +3,7 @@
 
 DISTNAME=		nsfreetds-0.4-src
 PKGNAME=		aols-freetds-0.4
+PKGREVISION=		1
 CATEGORIES=		www
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=aolserver/}
 

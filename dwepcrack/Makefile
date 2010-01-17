@@ -1,7 +1,7 @@
 # $NetBSD$
 
 DISTNAME=	dwepcrack-0.4
-PKGREVISION=	2
+PKGREVISION=	3
 CATEGORIES=	security
 MASTER_SITES=	http://www.e.kth.se/~pvz/wifi/
 

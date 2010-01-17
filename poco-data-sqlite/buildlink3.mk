@@ -6,6 +6,7 @@ BUILDLINK_TREE+=	poco-data-sqlite
 POCO_DATA_SQLITE_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.poco-data-sqlite+=	poco-data-sqlite>=1.3.5
+BUILDLINK_ABI_DEPENDS.poco-data-sqlite?=	poco-data-sqlite>=1.3.5nb1
 BUILDLINK_PKGSRCDIR.poco-data-sqlite?=	../../wip/poco-data-sqlite
 
 .include "../../databases/sqlite3/buildlink3.mk"

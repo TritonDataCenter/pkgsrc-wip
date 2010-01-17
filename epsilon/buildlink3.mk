@@ -6,7 +6,7 @@ BUILDLINK_TREE+=	epsilon
 EPSILON_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.epsilon+=	epsilon>=0.3.0.012
-BUILDLINK_ABI_DEPENDS.epsilon?=	epsilon>=0.3.0.012nb1
+BUILDLINK_ABI_DEPENDS.epsilon?=	epsilon>=0.3.0.012nb2
 BUILDLINK_PKGSRCDIR.epsilon?=	../../wip/epsilon
 
 .include "../../wip/ecore/buildlink3.mk"

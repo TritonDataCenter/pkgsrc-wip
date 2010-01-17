@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	cherokee-0.99.28
+PKGREVISION=	1
 CATEGORIES=	www
 MASTER_SITES=	http://www.cherokee-project.com/download/0.99/0.99.28/
 

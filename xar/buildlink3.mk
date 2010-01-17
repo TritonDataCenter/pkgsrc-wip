@@ -6,6 +6,7 @@ BUILDLINK_TREE+=	xar
 XAR_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.xar+=	xar>=1.5.2
+BUILDLINK_ABI_DEPENDS.xar?=	xar>=1.5.2nb1
 BUILDLINK_PKGSRCDIR.xar?=	../../wip/xar
 
 .include "../../textproc/libxml2/buildlink3.mk"

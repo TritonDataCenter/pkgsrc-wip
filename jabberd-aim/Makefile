@@ -2,7 +2,7 @@
 
 DISTNAME=	aim-transport-stable-20040131
 PKGNAME=	jabberd-aim-20040131
-PKGREVISION=	1
+PKGREVISION=	2
 CATEGORIES=	chat
 MASTER_SITES=	http://aim-transport.jabberstudio.org/
 

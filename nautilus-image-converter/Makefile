@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	nautilus-image-converter-0.3.0
+PKGREVISION=	1
 CATEGORIES=	sysutils graphics gnome
 MASTER_SITES=	ftp://ftp.gnome.org/pub/gnome/sources/nautilus-image-converter/0.3/
 EXTRACT_SUFX=	.tar.bz2

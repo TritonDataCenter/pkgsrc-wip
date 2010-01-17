@@ -3,6 +3,7 @@
 
 DISTNAME=		TclCurl-7.19.6
 PKGNAME=		tcl-curl-7.19.6
+PKGREVISION=		1
 CATEGORIES=		www
 MASTER_SITES=		http://personal1.iddeo.es/andresgarci/tclcurl/download/tarball/
 

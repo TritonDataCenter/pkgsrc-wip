@@ -6,7 +6,7 @@
 # ugly interactive "Install" script does).
 
 DISTNAME=		mixmaster-2.9.1
-PKGREVISION=		2
+PKGREVISION=		3
 CATEGORIES=		security mail
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=mixmaster/}
 

@@ -1,9 +1,9 @@
 # $NetBSD: Makefile,v 1.15 2005/09/22 02:08:14 minskim Exp $
-# $Id: Makefile,v 1.16 2008/09/06 20:54:44 thomasklausner Exp $
+# $Id$
 
 .include "Makefile.common"
 
-PKGREVISION=		2
+PKGREVISION=		3
 
 PKG_OPTIONS_VAR=	PKG_OPTIONS.cfengine2
 PKG_SUPPORTED_OPTIONS=	static cfengine-thread

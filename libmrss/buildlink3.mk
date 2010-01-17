@@ -6,6 +6,7 @@ BUILDLINK_TREE+=	libmrss
 LIBMRSS_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.libmrss+=	libmrss>=0.19.2
+BUILDLINK_ABI_DEPENDS.libmrss?=	libmrss>=0.19.2nb1
 BUILDLINK_PKGSRCDIR.libmrss?=	../../wip/libmrss
 
 .include "../../textproc/libnxml/buildlink3.mk"

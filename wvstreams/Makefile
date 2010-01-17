@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	wvstreams-4.5.1
+PKGREVISION=	1
 CATEGORIES=	net
 MASTER_SITES=	http://wvstreams.googlecode.com/files/
 

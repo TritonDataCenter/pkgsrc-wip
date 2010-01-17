@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	curl-1.3.5
+PKGREVISION=	1
 CATEGORIES=	www
 
 MAINTAINER=	pho@cielonegro.org

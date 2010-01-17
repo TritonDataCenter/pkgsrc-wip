@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	krusader-2.1.0-beta1
+PKGREVISION=	1
 CATEGORIES=	kde sysutils
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=krusader/}
 EXTRACT_SUFX=	.tar.bz2

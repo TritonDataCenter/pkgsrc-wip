@@ -1,7 +1,7 @@
 # $NetBSD$
 
 DISTNAME=		stunnel-3.26
-PKGREVISION=		2
+PKGREVISION=		3
 CATEGORIES=		security
 MASTER_SITES=		http://www.stunnel.org/download/stunnel/src/
 

@@ -6,6 +6,7 @@ BUILDLINK_TREE+=	boinc-lib
 BOINC_LIB_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.boinc-lib+=	boinc-lib>=1
+BUILDLINK_ABI_DEPENDS.boinc-lib?=	boinc-lib>=1nb1
 BUILDLINK_PKGSRCDIR.boinc-lib?=	../../wip/boinc-lib
 
 # XXX

@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	ratproxy-1.51
+PKGREVISION=	1
 CATEGORIES=	security
 MASTER_SITES=	http://ratproxy.googlecode.com/files/
 

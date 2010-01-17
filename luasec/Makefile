@@ -3,6 +3,7 @@
 
 PKGNAME=		lua-sec-0.3.3
 DISTNAME=		${PKGNAME:S/-//}
+PKGREVISION=		1
 CATEGORIES=		security
 MASTER_SITES=		http://luaforge.net/frs/download.php/4160/
 

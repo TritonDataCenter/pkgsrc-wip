@@ -4,6 +4,7 @@
 DISTNAME=	xmltooling-${PKGVERSION}
 PKGNAME=	xmltooling-c-${PKGVERSION}
 PKGVERSION=	1.2.2
+PKGREVISION=	1
 CATEGORIES=	textproc
 MASTER_SITES=	http://shibboleth.internet2.edu/downloads/opensaml/cpp/latest/
 

@@ -2,6 +2,7 @@
 
 DISTNAME=		boinc
 PKGNAME=		boinc-client-1
+PKGREVISION=		1
 CATEGORIES=		net
 
 COMMENT=		The BOINC distributed computing application

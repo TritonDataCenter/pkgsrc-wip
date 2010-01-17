@@ -6,6 +6,7 @@ BUILDLINK_TREE+=	esmart
 ESMART_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.esmart+=	esmart>=0.9.0.42nb2
+BUILDLINK_ABI_DEPENDS.esmart?=	esmart>=0.9.0.042nb3
 BUILDLINK_PKGSRCDIR.esmart?=	../../wip/esmart
 
 .include "../../wip/ecore/buildlink3.mk"

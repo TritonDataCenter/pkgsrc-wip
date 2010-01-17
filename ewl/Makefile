@@ -1,11 +1,11 @@
 # $NetBSD$
 #
 
-DISTNAME=	ewl-0.5.1.011
-PKGREVISION=	1
+DISTNAME=	ewl-0.5.2.042
+PKGREVISION=	2
 CATEGORIES=	graphics
-MASTER_SITES=	http://download.enlightenment.org/snapshots/2007-08-26/ \
-		http://www.ezunix.org/pkgsrc/e17/snapshots/2007-08-26/ \
+MASTER_SITES=	http://download.enlightenment.org/snapshots/2008-01-25/ \
+		http://www.ezunix.org/pkgsrc/e17/snapshots/2008-01-25/ \
                 http://jfranz.users.bsdprojects.net/pkgsrc/e17/
 
 MAINTAINER=	yazzy@yazzy.org
@@ -25,4 +25,3 @@ CONFIGURE_ARGS+=	--disable-pthreads --disable-directfb \
 .include "../../wip/edje/buildlink3.mk"
 .include "../../wip/epsilon/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
-

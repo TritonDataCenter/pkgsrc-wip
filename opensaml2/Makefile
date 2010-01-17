@@ -3,6 +3,7 @@
 
 DISTNAME=	opensaml-2.2.1
 PKGNAME=	opensaml2-2.2.1
+PKGREVISION=	1
 CATEGORIES=	security
 MASTER_SITES=	http://shibboleth.internet2.edu/downloads/opensaml/cpp/latest/
 

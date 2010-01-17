@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	links-hacked-${VER}
-PKGREVISION=	3
+PKGREVISION=	4
 CATEGORIES=	www
 MASTER_SITES=	http://xray.sai.msu.ru/~karpov/links-hacked/downloads/
 EXTRACT_SUFX=	.tgz

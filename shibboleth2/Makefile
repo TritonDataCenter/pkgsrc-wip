@@ -4,6 +4,7 @@
 DISTNAME=	shibboleth-sp-${PKGVERSION}
 PKGNAME=	shibboleth2-${PKGVERSION}
 PKGVERSION=	2.2.1
+PKGREVISION=	1
 CATEGORIES=	www
 MASTER_SITES=	http://shibboleth.internet2.edu/downloads/shibboleth/cppsp/latest/
 
