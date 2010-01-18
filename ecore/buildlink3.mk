@@ -5,8 +5,7 @@ BUILDLINK_TREE+=	ecore
 .if !defined(ECORE_BUILDLINK3_MK)
 ECORE_BUILDLINK3_MK:=
 
-BUILDLINK_API_DEPENDS.ecore+=	ecore>=0.9.9.062
-BUILDLINK_ABI_DEPENDS.ecore?=	ecore>=0.9.9.062nb2
+BUILDLINK_API_DEPENDS.ecore+=	ecore>=0.9.9.063
 BUILDLINK_PKGSRCDIR.ecore?=	../../wip/ecore
 
 .include "../../devel/eet/buildlink3.mk"
