@@ -1,11 +1,10 @@
 # $NetBSD$
 #
 
-DISTNAME=	enlightenment-0.16.999.062
+DISTNAME=	enlightenment-0.16.999.063
 PKGNAME=	${DISTNAME:S/enlightenment/e17/}
-PKGREVISION=	2
 CATEGORIES=	x11
-MASTER_SITES=	http://download.enlightenment.org/snapshots/2009-07-29/
+MASTER_SITES=	http://download.enlightenment.org/snapshots/2009-12-02/
 EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	yazzy@yazzy.org

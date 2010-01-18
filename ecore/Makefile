@@ -1,10 +1,9 @@
 # $NetBSD$
 #
 
-DISTNAME=	ecore-0.9.9.062
-PKGREVISION=	2
+DISTNAME=	ecore-0.9.9.063
 CATEGORIES=	x11
-MASTER_SITES=	http://download.enlightenment.org/snapshots/2009-07-29/
+MASTER_SITES=	http://download.enlightenment.org/snapshots/2009-12-02/
 
 MAINTAINER=	yazzy@yazzy.org
 HOMEPAGE=	http://enlightenment.org/

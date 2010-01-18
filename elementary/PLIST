@@ -5,6 +5,7 @@ bin/elementary_test
 bin/elementary_testql
 include/Elementary.h
 include/elementary/elementary_config.h
+lib/elementary/modules/test_entry/${MODULE_ARCH}/module.la
 lib/elementary_testql.la
 lib/libelementary.la
 lib/pkgconfig/elementary.pc

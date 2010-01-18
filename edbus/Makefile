@@ -1,11 +1,10 @@
 # $NetBSD$
 #
 
-DISTNAME=	e_dbus-0.5.0.062
+DISTNAME=	e_dbus-0.5.0.063
 PKGNAME=	${DISTNAME:S/_//}
-PKGREVISION=	2
 CATEGORIES=	sysutils
-MASTER_SITES=	http://download.enlightenment.org/snapshots/2009-07-29/
+MASTER_SITES=	http://download.enlightenment.org/snapshots/2009-12-02/
 EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	pkgsrc-users@NetBSD.org

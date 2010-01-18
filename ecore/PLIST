@@ -41,3 +41,6 @@ lib/pkgconfig/ecore-job.pc
 lib/pkgconfig/ecore-txt.pc
 lib/pkgconfig/ecore-x.pc
 lib/pkgconfig/ecore.pc
+share/locale/cs/LC_MESSAGES/ecore.mo
+share/locale/fr/LC_MESSAGES/ecore.mo
+share/locale/it/LC_MESSAGES/ecore.mo
