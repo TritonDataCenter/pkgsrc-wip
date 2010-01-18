@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	ldtp-1.6.0
+PKGREVISION=	1
 CATEGORIES=	devel x11 python
 MASTER_SITES=	http://download.freedesktop.org/ldtp/1.x/1.6.x/
 

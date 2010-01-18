@@ -3,7 +3,7 @@
 
 DISTNAME=	e_dbus-0.5.0.062
 PKGNAME=	${DISTNAME:S/_//}
-PKGREVISION=	1
+PKGREVISION=	2
 CATEGORIES=	sysutils
 MASTER_SITES=	http://download.enlightenment.org/snapshots/2009-07-29/
 EXTRACT_SUFX=	.tar.bz2

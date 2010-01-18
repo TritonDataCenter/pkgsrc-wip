@@ -1,11 +1,12 @@
 # $NetBSD$
 #
 
-DISTNAME=	wxMaxima-0.8.3a
+DISTNAME=	wxMaxima-0.8.4
+PKGREVISION=	1
 CATEGORIES=	math
-MASTER_SITES=	http://downloads.sourceforge.net/project/wxmaxima/wxMaxima/0.8.3a/
+MASTER_SITES=	http://downloads.sourceforge.net/project/wxmaxima/wxMaxima/0.8.4/
 
-MAINTAINER=	H_Muehlmeier@gmx.de
+MAINTAINER=	helgoman@users.sourceforge.net
 HOMEPAGE=	http://wxmaxima.sourceforge.net/wiki/index.php/Main_Page
 COMMENT=	Graphical UI for maxima
 #LICENSE=	# TODO: (see mk/license.mk)

@@ -6,7 +6,7 @@ BUILDLINK_TREE+=	DirectFB
 DIRECTFB_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.DirectFB+=	directfb>=0.9.17
-BUILDLINK_ABI_DEPENDS.DirectFB?=	directfb>=0.9.22nb1
+BUILDLINK_ABI_DEPENDS.DirectFB?=	directfb>=0.9.22nb2
 BUILDLINK_PKGSRCDIR.DirectFB?=	../../wip/directfb
 
 .include "../../devel/SDL/buildlink3.mk"

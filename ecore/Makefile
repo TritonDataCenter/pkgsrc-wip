@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	ecore-0.9.9.062
-PKGREVISION=	1
+PKGREVISION=	2
 CATEGORIES=	x11
 MASTER_SITES=	http://download.enlightenment.org/snapshots/2009-07-29/
 

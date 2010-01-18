@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	efreet-0.5.0.062
-PKGREVISION=	2
+PKGREVISION=	3
 CATEGORIES=	graphics
 MASTER_SITES=	http://download.enlightenment.org/snapshots/2009-07-29/
 EXTRACT_SUFX=	.tar.bz2

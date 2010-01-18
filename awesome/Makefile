@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	awesome-3.4.3
+PKGREVISION=	1
 CATEGORIES=	x11 wm
 MASTER_SITES=	http://awesome.naquadah.org/download/
 EXTRACT_SUFX=	.tar.xz

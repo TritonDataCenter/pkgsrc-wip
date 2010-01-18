@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	yakuake-2.9.4
-PKGREVISION=	1
+PKGREVISION=	2
 CATEGORIES=	x11
 MASTER_SITES=	http://download.berlios.de/yakuake/
 EXTRACT_SUFX=	.tar.bz2

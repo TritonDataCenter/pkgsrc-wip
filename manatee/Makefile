@@ -2,6 +2,7 @@
 #
 
 DISTNAME=		manatee-1.8.4.1
+PKGREVISION=		1
 CATEGORIES=		biology
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=manatee/}
 

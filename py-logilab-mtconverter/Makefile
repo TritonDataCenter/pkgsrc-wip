@@ -3,6 +3,7 @@
 
 DISTNAME=	logilab-mtconverter-0.6.0
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
+PKGREVISION=	1
 CATEGORIES=	converters python
 MASTER_SITES=	http://ftp.logilab.org/pub/mtconverter/
 

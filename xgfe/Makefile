@@ -2,6 +2,7 @@
 #
 
 DISTNAME=		xgfe-2.1
+PKGREVISION=		1
 CATEGORIES=		x11
 MASTER_SITES=		${MASTER_SITE_TEX_CTAN=graphics/gnuplot/contrib}
 

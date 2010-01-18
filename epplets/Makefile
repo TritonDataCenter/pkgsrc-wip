@@ -2,6 +2,7 @@
 #
 
 DISTNAME=		epplets-0.7
+PKGREVISION=		1
 CATEGORIES=		wm x11
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=enlightenment/}
 

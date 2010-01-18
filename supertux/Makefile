@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		supertux-0.1.3
-PKGREVISION=		3
+PKGREVISION=		4
 CATEGORIES=		games
 MASTER_SITES=		http://download.berlios.de/supertux/
 EXTRACT_SUFX=		.tar.bz2

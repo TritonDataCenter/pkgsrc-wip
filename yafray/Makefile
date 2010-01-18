@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	yafray-0.0.7
+PKGREVISION=	1
 CATEGORIES=	graphics
 MASTER_SITES= http://yafray.org/sec/2/downloads/
 

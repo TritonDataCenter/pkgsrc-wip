@@ -3,6 +3,7 @@
 
 DISTNAME=	tome-300alpha18-src
 PKGNAME=	tome-300alpha18
+PKGREVISION=	1
 CATEGORIES=	games
 MASTER_SITES=	http://t-o-m-e.net/dl/src/
 EXTRACT_SUFX=	.tar.bz2

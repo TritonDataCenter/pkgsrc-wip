@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	MoleInvasion-0.4
+PKGREVISION=	1
 CATEGORIES=	games
 MASTER_SITES=	ftp://download.tuxfamily.org/minvasion/packages/
 EXTRACT_SUFX=	.tar.bz2

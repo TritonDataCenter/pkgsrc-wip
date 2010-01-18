@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	flimsel-0.0.6
+PKGREVISION=	1
 CATEGORIES=	graphics
 MASTER_SITES=	http://www.ecademix.com/JohannesHofmann/
 

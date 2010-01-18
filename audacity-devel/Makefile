@@ -2,7 +2,7 @@
 
 DISTNAME=		audacity-src-1.3.0b
 PKGNAME=		${DISTNAME:S/-src-/-/}
-PKGREVISION=		2
+PKGREVISION=		3
 CATEGORIES=		audio
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=audacity/}
 

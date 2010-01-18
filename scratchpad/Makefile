@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	scratchpad-0.3.0
-PKGREVISION=	1
+PKGREVISION=	2
 CATEGORIES=	editors gnome
 MASTER_SITES=	http://scratchpad.googlecode.com/files/
 EXTRACT_SUFX=	.tar.bz2

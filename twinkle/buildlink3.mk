@@ -6,6 +6,7 @@ BUILDLINK_TREE+=	twinkle
 TWINKLE_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.twinkle+=	twinkle>=1.1
+BUILDLINK_ABI_DEPENDS.twinkle?=	twinkle>=1.4.2nb3
 BUILDLINK_PKGSRCDIR.twinkle?=	../../wip/twinkle
 
 .include "../../x11/qt3-tools/buildlink3.mk"

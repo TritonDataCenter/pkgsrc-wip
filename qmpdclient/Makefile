@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	qmpdclient-1.1.2
-PKGREVISION=	1
+PKGREVISION=	2
 
 CATEGORIES=	audio
 MASTER_SITES=	http://dump.bitcheese.net/files/dedycec/

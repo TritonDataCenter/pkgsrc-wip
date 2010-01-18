@@ -1,6 +1,7 @@
 # $NetBSD$
 
 DISTNAME=	gnomebaker-0.6.4
+PKGREVISION=	1
 CATEGORIES=	sysutils
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=gnomebaker/}
 

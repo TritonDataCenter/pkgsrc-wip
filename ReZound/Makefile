@@ -2,6 +2,7 @@
 #
 
 DISTNAME=		rezound-0.12.0beta
+PKGREVISION=		1
 CATEGORIES=		audio
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=rezound/}
 

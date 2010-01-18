@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	tellico-2.1.1
-PKGREVISION=	1
+PKGREVISION=	2
 CATEGORIES=	misc
 MASTER_SITES=	http://tellico-project.org/files/
 EXTRACT_SUFX=	.tar.bz2

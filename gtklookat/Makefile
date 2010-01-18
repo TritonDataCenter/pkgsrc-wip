@@ -1,6 +1,7 @@
 # $NetBSD$
 
 DISTNAME=	gtklookat-0.13.0
+PKGREVISION=	1
 CATEGORIES=	graphics
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=openvrml/}
 

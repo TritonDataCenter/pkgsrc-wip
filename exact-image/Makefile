@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	exact-image-0.7.5
+PKGREVISION=	1
 CATEGORIES=	graphics
 MASTER_SITES=	http://dl.exactcode.de/oss/exact-image/
 EXTRACT_SUFX=	.tar.bz2

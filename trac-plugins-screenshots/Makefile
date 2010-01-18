@@ -4,6 +4,7 @@ DISTNAME=	TracScreenshots-0.1dev
 PKGNAME=	trac-plugins-screenshots-0.1pre5002
 PKGREVISION=	# blank on purpose even though pkglint moans
 EGG_NAME=	${DISTNAME}
+PKGREVISION=	1
 CATEGORIES=	www
 
 MAINTAINER=	roy@NetBSD.org

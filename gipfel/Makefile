@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	gipfel-0.3.2
+PKGREVISION=	1
 CATEGORIES=	geography graphics
 MASTER_SITES=	http://www.ecademix.com/JohannesHofmann/
 

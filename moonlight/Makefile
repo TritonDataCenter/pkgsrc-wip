@@ -1,6 +1,7 @@
 # $NetBSD$
 
 DISTNAME=	moon-1.0.1
+PKGREVISION=	1
 CATEGORIES=	multimedia
 PKGNAME=	moonlight-1.0.1
 MASTER_SITES=	http://ftp.novell.com/pub/mono/sources/moon/1.0.1/

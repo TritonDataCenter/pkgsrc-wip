@@ -1,7 +1,7 @@
 # $NetBSD$
 
 DISTNAME=	callweaver-1.2.1
-PKGREVISION=	1
+PKGREVISION=	2
 CATEGORIES=	comms
 MASTER_SITES=	http://devs.callweaver.org/release/
 EXTRACT_SUFX=	.tgz

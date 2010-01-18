@@ -3,6 +3,7 @@
 VERS=		4.3.4
 PKGNAME=	hylafax-${VERS}
 DISTNAME=	hylafax-${VERS}
+PKGREVISION=	1
 CATEGORIES=	comms
 MASTER_SITES_BETA=	ftp://ftp.hylafax.org/source/BETA/
 MASTER_SITES_RELEASE=	ftp://ftp.hylafax.org/source/

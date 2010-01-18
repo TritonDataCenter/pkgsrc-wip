@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		fbida-2.03
-PKGREVISION=		2
+PKGREVISION=		3
 CATEGORIES=		graphics
 MASTER_SITES=		http://dl.bytesex.org/releases/fbida/
 

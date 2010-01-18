@@ -2,7 +2,7 @@
 
 #DISTNAME=	ubit-5.0.4
 DISTNAME=	ubit-5.5.0
-PKGREVISION=	1
+PKGREVISION=	2
 CATEGORIES=	x11
 
 MASTER_SITES=	ftp://ftp.enst.fr/pub/ubit/

@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		twinkle-1.4.2
-PKGREVISION=		2
+PKGREVISION=		3
 CATEGORIES=		audio chat net
 MASTER_SITES=		http://www.xs4all.nl/~mfnboer/twinkle/download/
 

@@ -3,6 +3,7 @@
 
 DISTNAME=		ncbi_cxx--Nov_30_2004
 PKGNAME=		ncbi_cxx-lib-20041130
+PKGREVISION=		1
 CATEGORIES=		biology
 MASTER_SITES=		ftp://ftp.ncbi.nih.gov/toolbox/ncbi_tools++/2004/Nov_30_2004/
 

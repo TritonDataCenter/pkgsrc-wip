@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	edje-0.9.92.062
-PKGREVISION=	1
+PKGREVISION=	2
 CATEGORIES=	graphics
 MASTER_SITES=	http://download.enlightenment.org/snapshots/2009-07-29/
 

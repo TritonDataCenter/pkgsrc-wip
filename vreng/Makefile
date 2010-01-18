@@ -2,7 +2,7 @@
 
 #DISTNAME=	vreng-6.8.3
 DISTNAME=	vreng-6.8.12
-PKGREVISION=	3
+PKGREVISION=	4
 CATEGORIES=	x11
 
 MASTER_SITES=	ftp://ftp.enst.fr/pub/vreng/

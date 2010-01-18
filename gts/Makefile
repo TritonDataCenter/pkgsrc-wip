@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	gts-0.7.6
+PKGREVISION=	1
 CATEGORIES=	math
 MASTER_SITES=	http://garr.dl.sourceforge.net/project/gts/gts/0.7.6/
 

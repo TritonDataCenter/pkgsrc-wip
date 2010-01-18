@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		gnome-bluetooth-0.7.0
-PKGREVISION=		4
+PKGREVISION=		5
 CATEGORIES=		net
 MASTER_SITES=		http://ftp.gnome.org/pub/gnome/sources/gnome-bluetooth/0.7/
 

@@ -2,6 +2,7 @@
 #
 
 DISTNAME=		cb2bib-0.7.2
+PKGREVISION=		1
 CATEGORIES=		misc
 MASTER_SITES=		http://www.molspaces.com/dl/progs/
 

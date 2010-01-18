@@ -3,7 +3,7 @@
 
 DISTNAME=	DFBPoint-0.7.2
 PKGNAME=	${DISTNAME:S/DFBP/dfbp/}
-PKGREVISION=	1
+PKGREVISION=	2
 CATEGORIES=	graphics
 MASTER_SITES=	http://www.directfb.org/download/DFBPoint/
 

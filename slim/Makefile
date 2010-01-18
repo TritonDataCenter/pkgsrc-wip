@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	slim-1.3.1
+PKGREVISION=	1
 CATEGORIES=	x11
 MASTER_SITES=	http://download.berlios.de/slim/
 

@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	qinx-1.4
-PKGREVISION=	4
+PKGREVISION=	5
 CATEGORIES=	wm kde
 MASTER_SITES=	http://www.usermode.org/code/
 EXTRACT_SUFX=	.tar.bz2

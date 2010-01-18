@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	synfigstudio-0.61.08
+PKGREVISION=	1
 CATEGORIES=	multimedia
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=synfig/}
 

@@ -2,7 +2,7 @@
 
 DISTNAME=	rawphoto.c
 PKGNAME=	rawphoto-1.1.15
-PKGREVISION=	4
+PKGREVISION=	5
 CATEGORIES=	graphics
 MASTER_SITES=	http://www.cybercom.net/~dcoffin/dcraw/
 EXTRACT_SUFX=

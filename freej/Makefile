@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		freej-0.8.1
-PKGREVISION=		1
+PKGREVISION=		2
 CATEGORIES=		multimedia
 MASTER_SITES=		http://www.ljudmila.org/~jaromil/freej/releases/
 

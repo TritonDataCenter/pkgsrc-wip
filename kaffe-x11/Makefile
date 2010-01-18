@@ -4,7 +4,7 @@
 .include "../../wip/kaffe/Makefile.common"
 
 PKGNAME=    ${DISTNAME:S/kaffe/kaffe-x11/}
-PKGREVISION=	1
+PKGREVISION=	2
 
 COMMENT+=   (AWT support through X11)
 

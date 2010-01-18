@@ -3,7 +3,7 @@
 
 DISTNAME=	enlightenment-0.16.999.062
 PKGNAME=	${DISTNAME:S/enlightenment/e17/}
-PKGREVISION=	1
+PKGREVISION=	2
 CATEGORIES=	x11
 MASTER_SITES=	http://download.enlightenment.org/snapshots/2009-07-29/
 EXTRACT_SUFX=	.tar.bz2

@@ -2,6 +2,7 @@
 #
 
 DISTNAME=		drpython-2.1.9
+PKGREVISION=		1
 CATEGORIES=		editors
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=drpython/}
 EXTRACT_SUFX=		.zip

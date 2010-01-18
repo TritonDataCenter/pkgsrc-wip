@@ -2,6 +2,7 @@
 #
 
 DISTNAME=		qcomicbook-0.3.4
+PKGREVISION=		1
 CATEGORIES=		graphics
 MASTER_SITES=		http://linux.bydg.org/~yogin/
 

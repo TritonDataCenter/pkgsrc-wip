@@ -3,7 +3,7 @@
 
 DISTNAME=	DFBSee-0.7.4
 PKGNAME=	${DISTNAME:S/DFBS/dfbs/}
-PKGREVISION=	1
+PKGREVISION=	2
 CATEGORIES=	graphics
 MASTER_SITES=	http://www.directfb.org/download/DFBSee/
 

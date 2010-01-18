@@ -3,7 +3,7 @@
 
 DISTNAME=	kmldonkey-r1055884
 PKGNAME=	${DISTNAME:S/-r/-2.0.5pre/}
-PKGREVISION=	1
+PKGREVISION=	2
 CATEGORIES=	net
 MASTER_SITES=	# none, snapshot grabbed from svn
 EXTRACT_SUFX=	.tar.bz2

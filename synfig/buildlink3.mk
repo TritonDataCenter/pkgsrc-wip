@@ -6,6 +6,7 @@ BUILDLINK_TREE+=	synfig
 SYNFIG_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.synfig+=	synfig>=0.61.08
+BUILDLINK_ABI_DEPENDS.synfig?=	synfig>=0.61.08
 BUILDLINK_PKGSRCDIR.synfig?=	../../wip/synfig
 
 pkgbase:= synfig

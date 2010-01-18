@@ -2,6 +2,7 @@
 #
 
 DISTNAME=		freevo-1.7.6
+PKGREVISION=		1
 CATEGORIES=		multimedia
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=freevo/}
 

@@ -3,7 +3,7 @@
 
 DISTNAME=	99561-filelight-1.9rc3
 PKGNAME=	filelight-1.9rc3
-PKGREVISION=	1
+PKGREVISION=	2
 CATEGORIES=	sysutils
 MASTER_SITES=	http://www.kde-apps.org/CONTENT/content-files/
 EXTRACT_SUFX=	.tgz

@@ -6,6 +6,7 @@ BUILDLINK_TREE+=	synfigstudio
 SYNFIGSTUDIO_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.synfigstudio+=	synfigstudio>=0.61.08
+BUILDLINK_ABI_DEPENDS.synfigstudio?=	synfigstudio>=0.61.08nb1
 BUILDLINK_PKGSRCDIR.synfigstudio?=	../../wip/synfigstudio
 
 .include "../../devel/ETL/buildlink3.mk"

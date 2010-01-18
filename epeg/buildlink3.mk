@@ -6,7 +6,7 @@ BUILDLINK_TREE+=	epeg
 EPEG_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.epeg+=	epeg>=0.9.1.042
-BUILDLINK_ABI_DEPENDS.epeg?=	epeg>=0.9.1.042nb2
+BUILDLINK_ABI_DEPENDS.epeg?=	epeg>=0.9.1.042nb3
 BUILDLINK_PKGSRCDIR.epeg?=	../../wip/epeg
 
 .include	"../../wip/ecore/buildlink3.mk"

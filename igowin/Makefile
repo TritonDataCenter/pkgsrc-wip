@@ -3,7 +3,7 @@
 
 DISTNAME=		igowin
 PKGNAME=		igowin-1.0
-PKGREVISION=		2
+PKGREVISION=		3
 CATEGORIES=		games
 MASTER_SITES=		http://www.smart-games.com/
 EXTRACT_SUFX=		.exe

@@ -2,7 +2,7 @@
 
 DISTNAME=	DirectFB-0.9.22
 PKGNAME=	directfb-0.9.22
-PKGREVISION=	1
+PKGREVISION=	2
 CATEGORIES=	devel
 MASTER_SITES=	http://www.directfb.org/download/DirectFB/
 

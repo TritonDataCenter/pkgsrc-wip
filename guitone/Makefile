@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	guitone-0.8.99.0
+PKGREVISION=	1
 CATEGORIES=	devel
 #MASTER_SITES=	http://guitone.thomaskeller.biz/releases/0.8/
 # snapshot

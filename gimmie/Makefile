@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	gimmie-0.2.8
-PKGREVISION=	1
+PKGREVISION=	2
 CATEGORIES=	sysutils python
 MASTER_SITES=	http://www.beatniksoftware.com/gimmie/releases/
 

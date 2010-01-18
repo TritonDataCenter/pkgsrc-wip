@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	pdfmod-0.8
+PKGREVISION=	1
 CATEGORIES=	print
 MASTER_SITES=	${MASTER_SITE_GNOME:=sources/pdfmod/0.8/}
 EXTRACT_SUFX=	.tar.bz2

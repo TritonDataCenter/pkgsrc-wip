@@ -1,16 +1,16 @@
 # $NetBSD$
 
-BUILDLINK_TREE+=	py26-PythonMagick
+BUILDLINK_TREE+=	py-PythonMagick
 
-.if !defined(PY26_PYTHONMAGICK_BUILDLINK3_MK)
-PY26_PYTHONMAGICK_BUILDLINK3_MK:=
+.if !defined(PY_PYTHONMAGICK_BUILDLINK3_MK)
+PY_PYTHONMAGICK_BUILDLINK3_MK:=
 
-BUILDLINK_API_DEPENDS.py26-PythonMagick+=	py26-PythonMagick>=0.9.1
-BUILDLINK_ABI_DEPENDS.py26-PythonMagick?=	py26-PythonMagick>=0.9.1nb1
-BUILDLINK_PKGSRCDIR.py26-PythonMagick?=	../../wip/py-PythonMagick
+BUILDLINK_API_DEPENDS.py-PythonMagick+=	${PYPKGPREFIX}-PythonMagick>=0.9.1
+BUILDLINK_ABI_DEPENDS.py-PythonMagick?=	${PYPKGPREFIX}-PythonMagick>=0.9.1nb2
+BUILDLINK_PKGSRCDIR.py-PythonMagick?=	../../wip/py-PythonMagick
 
 .include "../../graphics/ImageMagick/buildlink3.mk"
 .include "../../devel/boost-python/buildlink3.mk"
-.endif	# PY26_PYTHONMAGICK_BUILDLINK3_MK
+.endif	# PY_PYTHONMAGICK_BUILDLINK3_MK
 
-BUILDLINK_TREE+=	-py26-PythonMagick
+BUILDLINK_TREE+=	-py-PythonMagick

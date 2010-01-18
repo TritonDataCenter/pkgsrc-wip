@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	vidalia-0.0.16
+PKGREVISION=	1
 CATEGORIES=	net security
 MASTER_SITES=	http://vidalia-project.net/dist/
 

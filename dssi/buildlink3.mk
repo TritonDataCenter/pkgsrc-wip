@@ -6,6 +6,7 @@ BUILDLINK_TREE+=	dssi
 DSSI_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.dssi+=	dssi>=0.9.1
+BUILDLINK_ABI_DEPENDS.dssi?=	dssi>=0.9.1nb2
 BUILDLINK_PKGSRCDIR.dssi?=	../../wip/dssi
 BUILDLINK_DEPMETHOD.dssi?=	build
 

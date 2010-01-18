@@ -2,6 +2,7 @@
 #
 
 DISTNAME=		monkey-bubble-0.4.0
+PKGREVISION=		1
 CATEGORIES=		games
 MASTER_SITES=		http://home.gna.org/monkeybubble/downloads/
 

@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	entrance-0.9.9.050
-PKGREVISION=	1
+PKGREVISION=	2
 CATEGORIES=	x11
 MASTER_SITES=	http://www.ezunix.org/pkgsrc/e17/snapshots/2008-09-25/
 EXTRACT_SUFX=	.tar.bz2

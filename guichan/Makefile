@@ -3,6 +3,7 @@
 
 DISTNAME=		guichan-0.6.0-src
 PKGNAME=		${DISTNAME:S/-src//}
+PKGREVISION=		1
 CATEGORIES=		devel
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=guichan/}
 

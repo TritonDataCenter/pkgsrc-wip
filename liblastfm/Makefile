@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	liblastfm-0.3.0
+PKGREVISION=	1
 CATEGORIES=	audio net
 MASTER_SITES=	http://cdn.last.fm/src/
 EXTRACT_SUFX=	.tar.bz2

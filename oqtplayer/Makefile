@@ -3,7 +3,7 @@
 
 DISTNAME=		oqtplayer-0.5-src
 PKGNAME=		${DISTNAME:C/-src//}
-PKGREVISION=		1
+PKGREVISION=		2
 CATEGORIES=		security net
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=openquicktime/}
 EXTRACT_SUFX=		.tgz

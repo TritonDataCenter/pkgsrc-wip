@@ -3,7 +3,7 @@
 
 DISTNAME=	5440DL_lin64bit_1_2_1
 PKGNAME=	cups-driver-Magicolor5440DL-1.2.1
-PKGREVISION=	1
+PKGREVISION=	2
 CATEGORIES=	print
 MASTER_SITES=	http://printer.konicaminolta.net/drivers/linux/
 EXTRACT_SUFX=	.zip

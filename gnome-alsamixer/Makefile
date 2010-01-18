@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		gnome-alsamixer-0.9.6
-PKGREVISION=		2
+PKGREVISION=		3
 CATEGORIES=		audio gnome
 MASTER_SITES=		ftp://ftp.paw.co.za/pub/PAW/sources/
 

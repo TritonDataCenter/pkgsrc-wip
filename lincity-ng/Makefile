@@ -3,7 +3,7 @@
 
 VERSION=		1.1.2
 DISTNAME=		lincity-ng-${VERSION}
-PKGREVISION=		1
+PKGREVISION=		2
 CATEGORIES=		games
 MASTER_SITES=		http://download.berlios.de/lincity-ng/ \
 			http://download2.berlios.de/lincity-ng/

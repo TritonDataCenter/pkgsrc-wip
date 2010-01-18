@@ -1,6 +1,7 @@
 # $NetBSD$
 
 DISTNAME=		qvamps-0.98
+PKGREVISION=		1
 CATEGORIES=		multimedia
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=vamps/}
 

@@ -2,6 +2,7 @@
 #
 
 DISTNAME=		gpsdrive-2.10pre4
+PKGREVISION=		1
 CATEGORIES=		geography
 MASTER_SITES=		http://www.gpsdrive.de/gpsdrive.tar/
 

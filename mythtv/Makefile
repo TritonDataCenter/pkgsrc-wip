@@ -2,6 +2,7 @@
 #
 
 DISTNAME=		mythtv-0.11
+PKGREVISION=		1
 CATEGORIES=		graphics
 MASTER_SITES=		http://www.mythtv.org/mc/
 EXTRACT_SUFX=		.tar.bz2

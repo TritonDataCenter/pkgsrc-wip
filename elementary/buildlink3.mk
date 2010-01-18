@@ -6,7 +6,7 @@ BUILDLINK_TREE+=	elementary
 ELEMENTARY_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.elementary+=	elementary>=0.5.1.0
-BUILDLINK_ABI_DEPENDS.elementary?=	elementary>=0.5.1.0nb1
+BUILDLINK_ABI_DEPENDS.elementary?=	elementary>=0.5.1.0nb2
 BUILDLINK_PKGSRCDIR.elementary?=	../../wip/elementary
 
 .include "../../wip/ecore/buildlink3.mk"

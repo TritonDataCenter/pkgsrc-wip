@@ -2,6 +2,7 @@
 #
 
 DISTNAME=		libpano12-2.7.0.8
+PKGREVISION=		1
 CATEGORIES=		graphics
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=panotools/}
 EXTRACT_SUFX=		.tar.bz2
