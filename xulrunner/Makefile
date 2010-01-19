@@ -8,6 +8,7 @@ CATEGORIES=	devel www
 MAINTAINER=	tnn@NetBSD.org
 HOMEPAGE=	http://developer.mozilla.org/en/docs/XULRunner
 COMMENT=	XML User Interface Language runtime environment
+LICENSE=	mpl-1.1
 
 MOZILLA_DIR=	# empty
 

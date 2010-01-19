@@ -7,7 +7,8 @@
 
 GNU_CONFIGURE=		yes
 USE_TOOLS+=		pkg-config perl gmake autoconf213
-USE_LANGUAGES+=		c c++
+USE_LANGUAGES+=		c99 c++
+UNLIMIT_RESOURCES+=	datasize
 
 BUILD_DEPENDS+=		zip>=2.3:../../archivers/zip
 
