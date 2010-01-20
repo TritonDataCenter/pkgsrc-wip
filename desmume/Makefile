@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	desmume-0.9.4
+DISTNAME=	desmume-0.9.5
 CATEGORIES=	emulators
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=desmume/}
 
@@ -18,6 +18,7 @@ PKG_DESTDIR_SUPPORT=user-destdir
 .include "../../archivers/zziplib/buildlink3.mk"
 .include "../../devel/SDL/buildlink3.mk"
 .include "../../devel/libglade/buildlink3.mk"
+.include "../../graphics/agg/buildlink3.mk"
 .include "../../graphics/gtkglext/buildlink3.mk"
 .include "../../x11/gtk2/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
