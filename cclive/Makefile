@@ -1,8 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		cclive-0.5.6
-PKGREVISION=		1
+DISTNAME=		cclive-0.5.8
 CATEGORIES=		net multimedia www
 MASTER_SITES=		http://cclive.googlecode.com/files/
 EXTRACT_SUFX=		.tar.bz2
@@ -10,6 +9,7 @@ EXTRACT_SUFX=		.tar.bz2
 MAINTAINER= 		zecrazytux@zecrazytux.net
 HOMEPAGE=		http://code.google.com/p/cclive/
 COMMENT=		Command line video extraction tool for user-uploaded video hosts
+LICENSE=		gnu-gpl-v3
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
