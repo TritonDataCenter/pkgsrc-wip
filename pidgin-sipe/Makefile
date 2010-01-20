@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	pidgin-sipe-1.6.3
+DISTNAME=	pidgin-sipe-1.7.1
 CATEGORIES=	chat
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=sipe/}
 
