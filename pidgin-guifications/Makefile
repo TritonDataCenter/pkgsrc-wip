@@ -2,6 +2,7 @@
 #
 
 DISTNAME=		pidgin-guifications-2.16
+PKGREVISION=		1
 CATEGORIES=		chat
 MASTER_SITES=		http://downloads.guifications.org/plugins/Guifications2/
 EXTRACT_SUFX=		.tar.bz2

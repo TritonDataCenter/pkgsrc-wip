@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	gupnp-vala-0.5.4
+PKGREVISION=	1
 CATEGORIES=	net
 MASTER_SITES=	http://gupnp.org/sources/bindings/
 
