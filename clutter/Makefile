@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	clutter-1.1.4
+DISTNAME=	clutter-1.1.6
 CATEGORIES=	graphics
 MASTER_SITES=	http://www.clutter-project.org/sources/clutter/1.1/ \
 		${MASTER_SITE_GNOME:=clutter/1.1/}
@@ -31,6 +31,8 @@ BUILDLINK_API_DEPENDS.glib2+=	glib2>=2.16.0
 .include "../../devel/glib2/buildlink3.mk"
 BUILDLINK_API_DEPENDS.pango+=	pango>=1.20.0
 .include "../../devel/pango/buildlink3.mk"
+BUILDLINK_API_DEPENDS.cairo+=	cairo>=1.6.0
+.include "../../graphics/cairo/buildlink3.mk"
 BUILDLINK_API_DEPENDS.json-glib+=	json-glib>=0.8.0
 .include "../../wip/json-glib-devel/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

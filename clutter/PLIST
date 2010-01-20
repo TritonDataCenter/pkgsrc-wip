@@ -144,6 +144,7 @@ share/gtk-doc/html/clutter/clutter-Colors.html
 share/gtk-doc/html/clutter/clutter-EGL-Specific-Support.html
 share/gtk-doc/html/clutter/clutter-EGLX-Specific-Support.html
 share/gtk-doc/html/clutter/clutter-Events.html
+share/gtk-doc/html/clutter/clutter-Features.html
 share/gtk-doc/html/clutter/clutter-GLX-Specific-Support.html
 share/gtk-doc/html/clutter/clutter-General.html
 share/gtk-doc/html/clutter/clutter-Implicit-Animations.html
