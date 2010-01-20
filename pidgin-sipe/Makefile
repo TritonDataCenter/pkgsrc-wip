@@ -16,4 +16,5 @@ USE_TOOLS+=	intltool pkg-config
 PKG_DESTDIR_SUPPORT=	user-destdir
 
 .include "../../chat/libpurple/buildlink3.mk"
+.include "../../devel/libidn/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
