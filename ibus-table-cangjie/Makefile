@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	ibus-table-cangjie-1.2.0.20100106
+DISTNAME=	ibus-table-cangjie-1.2.0.20100119
 CATEGORIES=	inputmethod
 MASTER_SITES=	http://ibus.googlecode.com/files/
 
