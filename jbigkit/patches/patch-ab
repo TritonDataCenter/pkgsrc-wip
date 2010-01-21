@@ -1,5 +1,7 @@
 $NetBSD$
 
+libtoolize
+
 --- pbmtools/Makefile.orig	2008-08-25 22:26:39.000000000 +0000
 +++ pbmtools/Makefile
 @@ -7,35 +7,38 @@ CC = gcc
