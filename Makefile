@@ -961,7 +961,6 @@ SUBDIR+=	java-swt
 SUBDIR+=	java-xmlrpc
 SUBDIR+=	javascript-guide
 SUBDIR+=	javascript-reference
-SUBDIR+=	jbigkit
 SUBDIR+=	jbmgen
 SUBDIR+=	jc
 SUBDIR+=	jdk14
