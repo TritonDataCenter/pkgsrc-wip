@@ -29,7 +29,7 @@ do-install:
 		${INSTALL_DATA} $${h} ${DESTDIR}${PREFIX}/include; \
 	done; \
 	for l in *.la; do \
-		${LIBTOOL} --mode=install ${INSTALL_DATA} $${l} ${DESTDIR}${PREFIX}/lib; \
+		${LIBTOOL} --mode=install ${INSTALL_LIB} $${l} ${DESTDIR}${PREFIX}/lib; \
 	done; \
 	for t in *.txt; do \
 		${INSTALL_DATA} $${t} ${DESTDIR}${PREFIX}/share/doc/jbig; \
