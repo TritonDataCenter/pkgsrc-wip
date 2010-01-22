@@ -51,7 +51,7 @@ post-install:
 	rm -f ${DESTDIR}${PREFIX}/bin/firefox
 	${INSTALL_SCRIPT} ${WRKDIR}/firefox ${DESTDIR}${PREFIX}/bin
 
-BUILDLINK_API_DEPENDS.xulrunner+=	xulrunner-1.9.2rc2{,nb*}
+BUILDLINK_API_DEPENDS.xulrunner+=	xulrunner-1.9.2
 .include "../../wip/xulrunner/buildlink3.mk"
 PLIST_VARS+=	gnome
 .if !empty(PKG_BUILD_OPTIONS.xulrunner:Mgnome)

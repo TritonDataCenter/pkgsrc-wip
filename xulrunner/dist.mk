@@ -4,7 +4,7 @@
 # used by wip/firefox/Makefile
 
 DISTNAME=	firefox-${FIREFOX_VER}.source
-FIREFOX_VER=	3.6rc2
+FIREFOX_VER=	3.6
 MASTER_SITES=	${MASTER_SITE_MOZILLA:=firefox/releases/${FIREFOX_VER}/source/}
 EXTRACT_SUFX=	.tar.bz2
 
