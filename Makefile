@@ -145,6 +145,7 @@ SUBDIR+=	bibliographer
 SUBDIR+=	biopython
 SUBDIR+=	bioruby
 SUBDIR+=	bird
+SUBDIR+=	bird6
 SUBDIR+=	blam
 SUBDIR+=	blassic
 SUBDIR+=	bleachbit
