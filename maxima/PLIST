@@ -1655,6 +1655,7 @@ share/maxima/${PKGVERSION}/tests/rtest_round.mac
 share/maxima/${PKGVERSION}/tests/rtest_scalarp.mac
 share/maxima/${PKGVERSION}/tests/rtest_sign.mac
 share/maxima/${PKGVERSION}/tests/rtest_signum.mac
+share/maxima/${PKGVERSION}/tests/rtest_sqrt.mac
 share/maxima/${PKGVERSION}/tests/rtest_taylor.mac
 share/maxima/${PKGVERSION}/tests/rtest_translator.mac
 share/maxima/${PKGVERSION}/tests/rtest_trig.mac
