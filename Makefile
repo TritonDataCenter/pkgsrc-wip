@@ -1339,7 +1339,6 @@ SUBDIR+=	netwox
 SUBDIR+=	netx
 SUBDIR+=	newsbeuter
 SUBDIR+=	nginx
-SUBDIR+=	nginx-devel
 SUBDIR+=	nicotine+
 SUBDIR+=	njb-sharp
 SUBDIR+=	nmzmail
