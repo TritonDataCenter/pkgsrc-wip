@@ -11,7 +11,6 @@ BUILDLINK_PKGSRCDIR.hs-HDBC-sqlite3?=	../../wip/hs-HDBC-sqlite3
 .include "../../wip/hs-convertible/buildlink3.mk"
 .include "../../wip/hs-HDBC/buildlink3.mk"
 .include "../../wip/hs-mtl/buildlink3.mk"
-.include "../../wip/hs-utf8-string/buildlink3.mk"
 .include "../../databases/sqlite3/buildlink3.mk"
 .endif	# HS_HDBC_SQLITE3_BUILDLINK3_MK
 

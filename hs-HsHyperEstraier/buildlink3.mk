@@ -10,7 +10,6 @@ BUILDLINK_PKGSRCDIR.hs-HsHyperEstraier?=	../../wip/hs-HsHyperEstraier
 
 .include "../../textproc/hyperestraier/buildlink3.mk"
 .include "../../wip/hs-network/buildlink3.mk"
-.include "../../wip/hs-utf8-string/buildlink3.mk"
 .endif	# HS_HSHYPERESTRAIER_BUILDLINK3_MK
 
 BUILDLINK_TREE+=	-hs-HsHyperEstraier

@@ -14,5 +14,4 @@ CONFIGURE_ARGS+= -fterminfo
 .include "../../converters/libiconv/buildlink3.mk"
 .include "../../wip/hs-mtl/buildlink3.mk"
 .include "../../wip/hs-terminfo/buildlink3.mk"
-.include "../../wip/hs-utf8-string/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
