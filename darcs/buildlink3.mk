@@ -14,7 +14,6 @@ BUILDLINK_PKGSRCDIR.darcs?=	../../wip/darcs
 .include "../../wip/hs-mtl/buildlink3.mk"
 .include "../../wip/hs-parsec/buildlink3.mk"
 .include "../../wip/hs-regex-compat/buildlink3.mk"
-.include "../../wip/hs-utf8-string/buildlink3.mk"
 .endif	# DARCS_BUILDLINK3_MK
 
 BUILDLINK_TREE+=	-darcs
