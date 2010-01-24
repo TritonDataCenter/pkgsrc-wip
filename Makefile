@@ -837,7 +837,6 @@ SUBDIR+=	hs-terminfo
 SUBDIR+=	hs-transformers
 SUBDIR+=	hs-uconv
 SUBDIR+=	hs-uniplate
-SUBDIR+=	hs-utf8-string
 SUBDIR+=	hs-utility-ht
 SUBDIR+=	hs-x11
 SUBDIR+=	hs-x11-extras
