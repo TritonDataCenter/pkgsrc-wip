@@ -1,8 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	apvlv-0.0.7.4
-PKGREVISION=	1
+DISTNAME=	apvlv-0.0.9.2
 CATEGORIES=	print
 MASTER_SITES=	http://apvlv.googlecode.com/files/
 
