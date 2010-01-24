@@ -8,7 +8,6 @@ HS_HASHED_STORAGE3_BUILDLINK3_MK:=
 BUILDLINK_API_DEPENDS.hs-hashed-storage3+=	hs-hashed-storage3>=0.3.9
 BUILDLINK_PKGSRCDIR.hs-hashed-storage3?=	../../wip/hs-hashed-storage3
 
-.include "../../wip/hs-extensible-exceptions/buildlink3.mk"
 .include "../../wip/hs-mmap4/buildlink3.mk"
 .include "../../wip/hs-mtl/buildlink3.mk"
 .include "../../wip/hs-zlib/buildlink3.mk"
