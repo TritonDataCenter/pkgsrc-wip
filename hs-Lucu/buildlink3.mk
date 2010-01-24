@@ -16,7 +16,6 @@ BUILDLINK_PKGSRCDIR.hs-Lucu?=	../../wip/hs-Lucu
 .include "../../wip/hs-mtl/buildlink3.mk"
 .include "../../wip/hs-network/buildlink3.mk"
 .include "../../wip/hs-stm/buildlink3.mk"
-.include "../../wip/hs-time/buildlink3.mk"
 .include "../../wip/hs-zlib/buildlink3.mk"
 .endif	# HS_LUCU_BUILDLINK3_MK
 

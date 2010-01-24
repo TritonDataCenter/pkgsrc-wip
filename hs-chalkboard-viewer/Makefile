@@ -13,5 +13,4 @@ LICENSE=	modified-bsd
 .include "../../wip/hs-chalkboard/buildlink3.mk"
 .include "../../wip/hs-GLUT/buildlink3.mk"
 .include "../../wip/hs-OpenGL/buildlink3.mk"
-.include "../../wip/hs-time/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

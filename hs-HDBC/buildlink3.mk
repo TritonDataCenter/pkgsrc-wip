@@ -10,7 +10,6 @@ BUILDLINK_PKGSRCDIR.hs-HDBC?=	../../wip/hs-HDBC
 
 .include "../../wip/hs-convertible/buildlink3.mk"
 .include "../../wip/hs-mtl/buildlink3.mk"
-.include "../../wip/hs-time/buildlink3.mk"
 .include "../../wip/hs-utf8-string/buildlink3.mk"
 .endif	# HS_HDBC_BUILDLINK3_MK
 

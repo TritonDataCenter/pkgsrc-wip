@@ -16,5 +16,4 @@ BUILDLINK_API_DEPENDS.openssl+=	openssl>=0.9.7l
 .include "../../wip/mk/haskell.mk"
 .include "../../security/openssl/buildlink3.mk"
 .include "../../wip/hs-network/buildlink3.mk"
-.include "../../wip/hs-time/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

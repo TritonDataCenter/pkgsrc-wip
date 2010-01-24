@@ -11,7 +11,6 @@ BUILDLINK_PKGSRCDIR.hs-HsOpenSSL?=	../../wip/hs-HsOpenSSL
 
 .include "../../security/openssl/buildlink3.mk"
 .include "../../wip/hs-network/buildlink3.mk"
-.include "../../wip/hs-time/buildlink3.mk"
 .endif	# HS_HSOPENSSL_BUILDLINK3_MK
 
 BUILDLINK_TREE+=	-hs-HsOpenSSL
