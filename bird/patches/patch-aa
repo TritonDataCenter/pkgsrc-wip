@@ -12,8 +12,9 @@ $NetBSD$
  	if test -n "@CLIENT@" ; then								\
  		$(INSTALL_PROGRAM) -s $(exedir)/birdc $(DESTDIR)/$(sbindir)/birdc@SUFFIX6@ ;				\
  	fi
- 	if ! test -f $(DESTDIR)/$(sysconfdir)/bird@SUFFIX6@.conf ; then						\
+-	if ! test -f $(DESTDIR)/$(sysconfdir)/bird@SUFFIX6@.conf ; then						\
 -		$(INSTALL_DATA) $(srcdir)/doc/bird.conf.example $(DESTDIR)/$(sysconfdir)/bird@SUFFIX6@.conf ;	\
++	if true; then	\
 +		$(INSTALL_DATA) $(srcdir)/doc/bird.conf.example $(DESTDIR)/$(EGDIR)/bird@SUFFIX6@.conf ;	\
  	else											\
  		echo "Not overwriting old bird@SUFFIX@.conf" ;						\
