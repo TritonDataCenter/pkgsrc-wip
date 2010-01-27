@@ -1,7 +1,8 @@
 # $NetBSD$
 
 PKG_OPTIONS_VAR=    		PKG_OPTIONS.spectrum
-PKG_OPTIONS_REQUIRED_GROUPS=	storage debug
+PKG_OPTIONS_REQUIRED_GROUPS=	storage
+PKG_OPTIONS_OPTIONAL_GROUPS=	debug
 PKG_OPTIONS_GROUP.storage=	storage-mysql storage-sqlite
 PKG_OPTIONS_GROUP.debug=	debug cppunit
 

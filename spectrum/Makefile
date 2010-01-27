@@ -42,7 +42,6 @@ SUBST_STAGE.cfgpath=	post-patch
 SUBST_FILES.cfgpath=	CMakeLists.txt
 SUBST_FILES.cfgpath+=	src/configfile.cpp
 SUBST_FILES.cfgpath+=	tools/migrate-db/main.cpp
-SUBST_FILES.cfgpath+=	tools/spectrumctl/spectrumctl
 SUBST_FILES.cfgpath+=	spectrumctl/spectrumctl.py
 SUBST_MESSAGE.cfgpath=	Correcting configuration directory
 SUBST_SED.cfgpath=	-e 's,/etc/spectrum,${PKG_SYSCONFDIR},g'
