@@ -112,6 +112,7 @@ SUBDIR+=	atftp
 SUBDIR+=	ati-xfree86-bin
 SUBDIR+=	ati-xfree86-bin-unstable
 SUBDIR+=	atlas
+SUBDIR+=	aubio
 SUBDIR+=	audacity-devel
 SUBDIR+=	audio-mml
 SUBDIR+=	audit-system
