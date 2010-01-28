@@ -2,7 +2,6 @@
 
 DISTNAME=		opensips-${VER}-tls_src
 PKGNAME=		opensips-${VER}
-PKGREVISION=		1
 CATEGORIES=		net
 MASTER_SITES=		http://opensips.org/pub/opensips/${VER}/src/
 
@@ -12,7 +11,7 @@ COMMENT=		Open Source implementation of a SIP server
 
 LICENSE=		gnu-gpl-v2
 
-VER=			1.6.0
+VER=			1.6.1
 WRKSRC=			${WRKDIR}/opensips-${VER}-tls
 
 USE_TOOLS+=		gmake
