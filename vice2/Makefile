@@ -37,6 +37,10 @@ FONTS_DIRS.x11=		${PREFIX}/share/vice/fonts
 REQD_DIRS+=		${PREFIX}/share/vice/fonts
 REQD_DIRS+=		${PREFIX}/share/vice
 
+# Skip the check on configure, since the check is done before the
+# patch that fixes it (patch-ab).
+CHECK_PORTABILITY_SKIP += configure
+
 .include "options.mk"
 
 .include "../../mk/bsd.prefs.mk"
