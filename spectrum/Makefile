@@ -62,6 +62,7 @@ post-install:
 
 
 .include "../../lang/python/application.mk"
+.include "../../lang/python/extension.mk"
 .include "../../wip/poco/buildlink3.mk"
 .include "../../wip/gloox/buildlink3.mk"
 .include "../../chat/libpurple/buildlink3.mk"
