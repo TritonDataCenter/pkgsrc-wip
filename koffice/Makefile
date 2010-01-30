@@ -1,10 +1,9 @@
 # $NetBSD$
 #
 
-DISTNAME=	koffice-2.1.0
-PKGREVISION=	2
+DISTNAME=	koffice-2.1.1
 CATEGORIES=	misc kde
-MASTER_SITES=	${MASTER_SITE_KDE:=koffice-2.1.0/}
+MASTER_SITES=	${MASTER_SITE_KDE:=koffice-2.1.1/}
 EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	markd@NetBSD.org
