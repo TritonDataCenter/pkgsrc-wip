@@ -1,0 +1,5 @@
+@comment $NetBSD$
+bin/ascii2uni
+bin/uni2ascii
+man/man1/ascii2uni.1
+man/man1/uni2ascii.1

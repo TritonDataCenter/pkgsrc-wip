@@ -2301,6 +2301,7 @@ SUBDIR+=	uebimiau
 SUBDIR+=	uffizi
 SUBDIR+=	umefont-ttf
 SUBDIR+=	umix
+SUBDIR+=	uni2ascii
 SUBDIR+=	unix2tcp
 SUBDIR+=	unmo3
 SUBDIR+=	unrealtournament-server
