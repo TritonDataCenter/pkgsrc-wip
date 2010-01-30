@@ -27,6 +27,8 @@ USE_TOOLS+=		pkg-config msgfmt
 USE_CMAKE=		yes
 USE_LANGUAGES+=		c++ c
 
+REPLACE_PYTHON+=	spectrumctl/spectrumctl.py
+
 # always include bsd.prefs.mk before any .if or .ifdef statements
 .include "../../mk/bsd.prefs.mk"
 
@@ -54,11 +56,12 @@ INSTALLATION_DIRS+=	${EGDIR}
 post-install:
 	${INSTALL_DATA} ${WRKSRC}/spectrum.cfg ${DESTDIR}${EGDIR}
 	${INSTALL_DATA} ${WRKSRC}/schemas/mysql_schema.sql \
-						${EGDIR}/spectrum-mysql.sql
+					${DESTDIR}${EGDIR}/spectrum-mysql.sql
 	${INSTALL_DATA} ${WRKSRC}/schemas/sqlite_schema.sql \
-						${EGDIR}/spectrum-sqlite3.sql
+					${DESTDIR}${EGDIR}/spectrum-sqlite3.sql
 
 
+.include "../../lang/python/application.mk"
 .include "../../wip/poco/buildlink3.mk"
 .include "../../wip/gloox/buildlink3.mk"
 .include "../../chat/libpurple/buildlink3.mk"
