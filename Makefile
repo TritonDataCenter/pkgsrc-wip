@@ -1808,6 +1808,7 @@ SUBDIR+=	py-aspell
 SUBDIR+=	py-aspyct
 SUBDIR+=	py-behaviour
 SUBDIR+=	py-bitstring
+SUBDIR+=	py-brian
 SUBDIR+=	py-bsddb
 SUBDIR+=	py-buildbot
 SUBDIR+=	py-cElementTree
