@@ -6,6 +6,8 @@ CATEGORIES=	databases
 
 COMMENT=	POCO C++ SQLite RDBMS Accessor libraries
 
+PKG_DESTDIR_SUPPORT=	user-destdir
+
 .include "../../mk/bsd.prefs.mk"
 
 .include "../../wip/poco/Makefile.common"

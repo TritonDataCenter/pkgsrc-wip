@@ -17,8 +17,6 @@ HOMEPAGE=	http://www.pocoproject.org/
 PATCHDIR=	${.CURDIR}/../../wip/poco/patches
 DISTINFO_FILE=	${.CURDIR}/../../wip/poco/distinfo
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 HAS_CONFIGURE=	yes
 USE_LANGUAGES=	c c++
 USE_TOOLS+=	gmake
