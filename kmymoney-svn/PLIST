@@ -1,3 +1,4 @@
+@comment $NetBSD$
 bin/kmymoney
 include/kmymoney/importinterface.h
 include/kmymoney/imymoneyprocessingcalendar.h
