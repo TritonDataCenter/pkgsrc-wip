@@ -1,0 +1,7 @@
+@comment $NetBSD$
+bin/electricsheep
+bin/electricsheep-preferences
+bin/electricsheep-saver
+libexec/xscreensaver/config/electricsheep.xml
+man/man1/electricsheep.1
+share/electricsheep/electricsheep-preferences.glade
