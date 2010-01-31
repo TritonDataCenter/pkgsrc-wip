@@ -9,7 +9,6 @@ MAINTAINER=	tnn@NetBSD.org
 HOMEPAGE=	http://www.mozilla.com/en-US/firefox/
 COMMENT=	Web browser with support for extensions
 
-WRKSRC=		${WRKDIR}/mozilla-1.9.2
 MOZILLA_DIR=	# empty
 
 CONFIGURE_ARGS+=	--enable-application=browser
@@ -51,7 +50,9 @@ post-install:
 	rm -f ${DESTDIR}${PREFIX}/bin/firefox
 	${INSTALL_SCRIPT} ${WRKDIR}/firefox ${DESTDIR}${PREFIX}/bin
 
-BUILDLINK_API_DEPENDS.xulrunner+=	xulrunner-1.9.2
+BUILDLINK_API_DEPENDS.xulrunner+=	xulrunner>=${MOZ_BRANCH} # .${MOZ_BRANCH_MINOR}
+BUILD_DEPENDS+=				xulrunner-${MOZ_BRANCH}{,nb*}:../../wip/xulrunner
+#BUILD_DEPENDS+=				xulrunner-${MOZ_BRANCH}.${MOZ_BRANCH_MINOR}{,nb*}:../../wip/xulrunner
 .include "../../wip/xulrunner/buildlink3.mk"
 PLIST_VARS+=	gnome
 .if !empty(PKG_BUILD_OPTIONS.xulrunner:Mgnome)

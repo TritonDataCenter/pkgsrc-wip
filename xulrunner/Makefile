@@ -2,7 +2,7 @@
 #
 
 .include "dist.mk"
-PKGNAME=	${DISTNAME:S/firefox/xulrunner/:S/3.6/1.9.2/:S/.source//}
+PKGNAME=	xulrunner-${MOZ_BRANCH} # .${MOZ_BRANCH_MINOR}
 CATEGORIES=	devel www
 
 MAINTAINER=	tnn@NetBSD.org
