@@ -10,6 +10,10 @@ HOMEPAGE=	http://aubio.org/
 COMMENT=	Extracting annotations from audio signals
 LICENSE=	gnu-gpl-v2
 
+# Python 2.6 claims that there are syntax errors in Python sources. I
+# don't know why.
+PYTHON_VERSIONS_INCOMPATIBLE=	26
+
 PKG_DESTDIR_SUPPORT=	user-destdir
 
 GNU_CONFIGURE=	yes
