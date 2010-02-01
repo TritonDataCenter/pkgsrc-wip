@@ -253,7 +253,6 @@ SUBDIR+=	csp2b
 SUBDIR+=	cspchecker
 SUBDIR+=	css-mode
 SUBDIR+=	csstidy
-SUBDIR+=	cups-driver-Magicolor5440DL
 SUBDIR+=	cvs-syncmail
 SUBDIR+=	cvs20hg
 SUBDIR+=	cvs2darcs
