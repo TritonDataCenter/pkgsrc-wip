@@ -7,7 +7,7 @@ MASTER_SITES=	http://billposer.org/Software/Downloads/
 EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	bartosz.kuzma@gmail.com
-HOMEPAGE=	http://billposer.org/Software/Downloads/
+HOMEPAGE=	http://billposer.org/Software/uni2ascii.html
 COMMENT=	Convert between UTF-8 Unicode and 7-bit ASCII equivalents
 LICENSE=	gnu-gpl-v3
 
