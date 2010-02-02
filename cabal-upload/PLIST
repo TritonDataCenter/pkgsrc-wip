@@ -1,3 +1,0 @@
-@comment $NetBSD$
-bin/cabal-upload
-share/doc/${PKGNAME}/LICENSE
