@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	haskell-src-exts-1.3.0
+DISTNAME=	haskell-src-exts-1.8.0
 CATEGORIES=	devel
 
 MAINTAINER=	pho@cielonegro.org
