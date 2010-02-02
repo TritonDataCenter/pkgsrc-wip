@@ -1,8 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	Lucu-0.4
-PKGREVISION=	1
+DISTNAME=	Lucu-0.4.2
 CATEGORIES=	www
 
 MAINTAINER=	pho@cielonegro.org
