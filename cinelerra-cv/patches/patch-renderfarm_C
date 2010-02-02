@@ -1,0 +1,14 @@
+$NetBSD$
+
+--- cinelerra/renderfarm.C.orig	2010-02-01 08:26:23.000000000 +0000
++++ cinelerra/renderfarm.C
+@@ -51,6 +51,9 @@
+ #include <sys/un.h>
+ #include <unistd.h>
+ 
++#if !defined(AF_FILE)
++#  define AF_FILE AF_UNIX
++#endif
+ 
+ 
+ 
