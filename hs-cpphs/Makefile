@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		cpphs-1.9
+DISTNAME=		cpphs-1.10
 CATEGORIES=		lang
 
 MAINTAINER=		emil@math.su.se
