@@ -1,11 +1,11 @@
 # $NetBSD$
 #
 
-DISTNAME=	uniplate-1.2.0.3
+DISTNAME=	uniplate-1.5.1
 CATEGORIES=	devel
 
 MAINTAINER=	pho@cielonegro.org
-COMMENT=	Haskell boilerplate removal library
+COMMENT=	Help writing simple, concise and fast generic operations
 
 .include "../../wip/mk/haskell.mk"
 .include "../../wip/hs-mtl/buildlink3.mk"
