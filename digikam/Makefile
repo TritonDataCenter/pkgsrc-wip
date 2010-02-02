@@ -1,8 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	digikam-1.0.0
-PKGREVISION=	2
+DISTNAME=	digikam-1.1.0
 CATEGORIES=	graphics
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=digikam/}
 EXTRACT_SUFX=	.tar.bz2
