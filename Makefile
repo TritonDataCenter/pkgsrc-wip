@@ -184,7 +184,6 @@ SUBDIR+=	bwm-ng
 SUBDIR+=	c-news
 SUBDIR+=	c2hs
 SUBDIR+=	cabal-install
-SUBDIR+=	cabal-upload
 SUBDIR+=	cabocha
 SUBDIR+=	cacti
 SUBDIR+=	cacti-plugin-arch
