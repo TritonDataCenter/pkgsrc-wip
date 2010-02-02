@@ -215,6 +215,7 @@ SUBDIR+=	cherokee
 SUBDIR+=	chora
 SUBDIR+=	chrsh
 SUBDIR+=	cinelerra
+SUBDIR+=	cinelerra-cv
 SUBDIR+=	cjk-latex
 SUBDIR+=	cjk-latex-wadalab
 SUBDIR+=	clamassassin
