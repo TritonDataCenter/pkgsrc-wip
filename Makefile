@@ -2368,7 +2368,6 @@ SUBDIR+=	wtf
 SUBDIR+=	wvstreams
 SUBDIR+=	wxGTK-contrib-unicode
 SUBDIR+=	wxGTK-unicode
-SUBDIR+=	wxmaxima
 SUBDIR+=	xace
 SUBDIR+=	xar
 SUBDIR+=	xaralx-bin
