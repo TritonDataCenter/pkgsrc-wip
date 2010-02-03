@@ -1184,7 +1184,6 @@ SUBDIR+=	map-browse
 SUBDIR+=	mapnik
 SUBDIR+=	mapserver
 SUBDIR+=	marathon-scenarios
-SUBDIR+=	marathon-trilogy
 SUBDIR+=	marsyas
 SUBDIR+=	matanza
 SUBDIR+=	mathopd
