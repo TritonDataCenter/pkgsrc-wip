@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	umefont-410
+DISTNAME=	umefont-412
 PKGNAME=	${DISTNAME:S/-/-0./}
 CATEGORIES=	fonts japanese
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE_JP:=ume-font/22212/}
