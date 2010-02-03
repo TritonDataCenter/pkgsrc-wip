@@ -1,3 +1,4 @@
 @comment $NetBSD$
 ${PYSITELIB}/gmpy.so
 share/doc/py-gmpy/gmpydoc.txt
+share/doc/py-gmpy/index.html
