@@ -2300,7 +2300,6 @@ SUBDIR+=	uclibc
 SUBDIR+=	udhcp
 SUBDIR+=	uebimiau
 SUBDIR+=	uffizi
-SUBDIR+=	umefont-ttf
 SUBDIR+=	umix
 SUBDIR+=	uni2ascii
 SUBDIR+=	unix2tcp
