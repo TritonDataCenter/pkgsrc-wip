@@ -3,7 +3,7 @@
 
 DISTNAME=	Geo-ShapeFile-2.52
 PKGNAME=	p5-${DISTNAME}
-CATEGORIES=	perl5
+CATEGORIES=	geography perl5
 MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=Geo/}
 
 MAINTAINER=	wenheping@gmail.com
