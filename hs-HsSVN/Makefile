@@ -1,8 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	HsSVN-0.4.1
-PKGREVISION=	1
+DISTNAME=	HsSVN-0.4.2
 CATEGORIES=	devel
 
 MAINTAINER=	pho@cielonegro.org
