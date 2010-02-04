@@ -5,6 +5,7 @@ CATEGORIES+=	net
 
 MAINTAINER=	wenheping@gmail.com
 COMMENT=	Object oriented interface for searching and manipulating LDAP-entries
+LICENSE=	gnu-lgpl-v3
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
