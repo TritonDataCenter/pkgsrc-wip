@@ -1,12 +1,15 @@
 # $NetBSD$
 
-DISTNAME=	kstart-3.14
+DISTNAME=	kstart-3.16
 CATEGORIES=	sysutils
 MASTER_SITES=	http://archives.eyrie.org/software/kerberos/
 
 MAINTAINER=	jakllsch@NetBSD.org
 HOMEPAGE=	http://www.eyrie.org/~eagle/software/kstart/
 COMMENT=	Run a process with Kerberos credentials
+LICENSE=	mit
+
+PKG_DESTDIR_SUPPORT= user-destdir
 
 USE_TOOLS+=	gmake
 GNU_CONFIGURE=	yes
