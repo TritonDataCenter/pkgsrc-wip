@@ -1,6 +1,6 @@
 # $NetBSD$
 
-VERSION=	2.14
+VERSION=	2.15
 DISTNAME=	remctl-${VERSION}
 CATEGORIES=	sysutils security
 MASTER_SITES=	http://archives.eyrie.org/software/kerberos/

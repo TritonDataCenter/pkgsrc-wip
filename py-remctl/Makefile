@@ -1,6 +1,6 @@
 # $NetBSD$
 
-VERSION=	2.14
+VERSION=	2.15
 DISTNAME=	remctl-${VERSION}
 PKGNAME=	${PYPKGPREFIX}-remctl-${VERSION}
 CATEGORIES=	sysutils security
