@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	Hash-AsObject-0.11
+DISTNAME=	Hash-AsObject-0.13
 PKGNAME=	p5-${DISTNAME}
 CATEGORIES=	perl5 devel
 MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=Hash/}
@@ -9,6 +9,7 @@ MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=Hash/}
 MAINTAINER=	athaba@inode.at
 HOMEPAGE=	http://search.cpan.org/dist/Hash-AsObject
 COMMENT=	Treat hashes as objects, with arbitrary accessors/mutators
+LICENSE=	${PERL5_LICENSE}
 
 PKG_DESTDIR_SUPPORT=user-destdir
 
