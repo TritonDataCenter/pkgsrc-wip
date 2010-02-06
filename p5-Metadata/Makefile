@@ -9,6 +9,7 @@ MASTER_SITES=		${MASTER_SITE_PERL_CPAN:=Metadata/}
 MAINTAINER=		athaba@inode.at
 HOMEPAGE=		http://search.cpan.org/dist/Metadata/
 COMMENT=		Perl classes for simple metadata
+LICENSE=		${PERL5_LICENSE}
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
