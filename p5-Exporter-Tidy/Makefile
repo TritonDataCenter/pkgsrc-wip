@@ -8,7 +8,10 @@ MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=Exporter/}
 
 MAINTAINER=	athaba@inode.at
 HOMEPAGE=	http://search.cpan.org/dist/Exporter-Tidy
-COMMENT=	alternative way of exporting symbols
+COMMENT=	Alternative way of exporting symbols in perl
+# In fact the license says:
+# Pick your favourite OSI approved license :)
+LICENSE=	modified-bsd
 
 PKG_DESTDIR_SUPPORT=user-destdir
 
