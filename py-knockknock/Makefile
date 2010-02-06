@@ -15,6 +15,7 @@ COMMENT=	Simple & secure port knocking client/server written in python
 PKG_DESTDIR_SUPPORT=	user-destdir
 
 DEPENDS+=	hping3-[0-9]*:../../wip/hping3
+DEPENDS+=	${PYPKGPREFIX}-pycrypto-[0-9]*:../../wip/py-pycrypto
 
 PYDISTUTILSPKG=	yes
 
