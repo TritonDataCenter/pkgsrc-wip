@@ -14,7 +14,7 @@ PKG_SUGGESTED_OPTIONS=	dbus svg x11 xft2
 ###
 ### Check incompatible option sets.
 ###
-.if !empty(PKG_OPTIONS:Mnextstep) && !empty(PKG_OPTIONS:xft2)
+.if !empty(PKG_OPTIONS:Mnextstep) && !empty(PKG_OPTIONS:Mxft2)
 PKG_FAIL_REASON+=	`xft2' options is incompatible with `nextstep' option.
 .endif
 
