@@ -17,7 +17,7 @@ USE_TOOLS+=		gmake yacc
 USE_LANGUAGES=		c c++
 USE_LIBTOOL=		yes
 
-# png2swf already installed as part of ming. 
+# png2swf already installed as part of ming<=0.4.3. 
 CONFIGURE_ENV+=		DISABLEPNG2SWF=true
 
 .include "options.mk"
