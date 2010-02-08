@@ -14,6 +14,7 @@ LICENSE=	${PERL5_LICENSE}
 PKG_DESTDIR_SUPPORT=	user-destdir
 
 PERL5_PACKLIST=		auto/Audio/Scan/.packlist
+USE_LIBTOOL=		yes
 
 .include "../../lang/perl5/module.mk"
 .include "../../mk/bsd.pkg.mk"
