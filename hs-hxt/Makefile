@@ -1,8 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	hxt-8.3.2
-PKGREVISION=	1
+DISTNAME=	hxt-8.5.0
 CATEGORIES=	textproc
 
 MAINTAINER=	pho@cielonegro.org
@@ -11,8 +10,8 @@ LICENSE=	mit
 
 .include "../../wip/mk/haskell.mk"
 .include "../../wip/hs-curl/buildlink3.mk"
+.include "../../wip/hs-deepseq/buildlink3.mk"
 .include "../../wip/hs-network/buildlink3.mk"
-.include "../../wip/hs-parallel/buildlink3.mk"
 .include "../../wip/hs-parsec/buildlink3.mk"
 .include "../../wip/hs-tagsoup/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
