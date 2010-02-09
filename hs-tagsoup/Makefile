@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	tagsoup-0.6
+DISTNAME=	tagsoup-0.8
 CATEGORIES=	textproc
 
 MAINTAINER=	pho@cielonegro.org
