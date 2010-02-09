@@ -810,6 +810,7 @@ SUBDIR+=	hs-hscolour
 SUBDIR+=	hs-hslogger
 SUBDIR+=	hs-html
 SUBDIR+=	hs-hxt
+SUBDIR+=	hs-hxt-xpath
 SUBDIR+=	hs-iconv
 SUBDIR+=	hs-irc
 SUBDIR+=	hs-magic
