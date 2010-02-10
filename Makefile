@@ -270,6 +270,7 @@ SUBDIR+=	d4x
 SUBDIR+=	daphne
 SUBDIR+=	darcnes-svgalib
 SUBDIR+=	darcs
+SUBDIR+=	darcs-to-git
 SUBDIR+=	dasm
 SUBDIR+=	datapipe
 SUBDIR+=	db1
