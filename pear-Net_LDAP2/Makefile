@@ -9,7 +9,5 @@ LICENSE=	gnu-lgpl-v3
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
-CONFLICTS=	php-pear-Net_URL-[0-9]*
-
 .include "../../lang/php/pear.mk"
 .include "../../mk/bsd.pkg.mk"
