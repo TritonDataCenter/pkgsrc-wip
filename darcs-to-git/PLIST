@@ -1,0 +1,4 @@
+@comment $NetBSD$
+bin/darcs-to-git
+share/doc/${PKGNAME}/LICENSE
+share/doc/${PKGNAME}/README.markdown
