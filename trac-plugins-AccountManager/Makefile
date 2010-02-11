@@ -15,7 +15,7 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 
 DEPENDS+=	{ja-,}trac>=0.11:../../www/trac
 
-SVN_REV=	5836
+SVN_REV=	7163
 SVN_MOD=	accountmanagerplugin/0.11
 WRKSRC=		${WRKDIR}/${SVN_MOD}
 
