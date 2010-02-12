@@ -5,7 +5,7 @@ DISTNAME=	ibus-skk-0.0.4
 CATEGORIES=	inputmethod
 MASTER_SITES=	http://cloud.github.com/downloads/ueno/ibus-skk/
 
-MAINTAINER=	obache@MetBSD.org
+MAINTAINER=	obache@NetBSD.org
 HOMEPAGE=	http://github.com/ueno/ibus-skk/
 COMMENT=	Japanese SKK input engine for IBus
 LICENSE=	gnu-gpl-v2
