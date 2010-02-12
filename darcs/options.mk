@@ -56,7 +56,7 @@ CONFIGURE_ARGS+= -f-color
 #
 .if !empty(PKG_OPTIONS:Mmmap)
 CONFIGURE_ARGS+= -fmmap
-.include "../../wip/hs-mmap/buildlink3.mk"
+.include "../../wip/hs-mmap4/buildlink3.mk"
 .else
 CONFIGURE_ARGS+= -f-mmap
 .endif
