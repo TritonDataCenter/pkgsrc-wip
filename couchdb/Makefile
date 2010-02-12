@@ -1,11 +1,10 @@
 # $NetBSD$
 #
 
-PKGNAME=		couchdb-0.9.1
-DISTNAME=		apache-${PKGNAME}
-PKGREVISION=		1
+DISTNAME=		apache-couchdb-0.10.1
+PKGNAME=		${DISTNAME:S/apache-//}
 CATEGORIES=		databases
-MASTER_SITES=		${MASTER_SITE_APACHE:=couchdb/0.9.1/}
+MASTER_SITES=		${MASTER_SITE_APACHE:=couchdb/0.10.1/}
 
 MAINTAINER=		filip@joyent.com
 HOMEPAGE=		http://couchdb.apache.org/
@@ -14,7 +13,7 @@ LICENSE=		apache-2.0
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
-VERSION.ibrowse=	1.4.1
+VERSION.ibrowse=	1.5.2
 VERSION.mochiweb=	r97
 
 GNU_CONFIGURE=		yes
