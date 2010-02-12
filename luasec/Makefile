@@ -1,11 +1,10 @@
 # $NetBSD$
 #
 
-PKGNAME=		lua-sec-0.3.3
-DISTNAME=		${PKGNAME:S/-//}
-PKGREVISION=		1
+DISTNAME=		luasec-0.4
+PKGNAME=		${DISTNAME:S/lua/lua-/}
 CATEGORIES=		security
-MASTER_SITES=		http://luaforge.net/frs/download.php/4160/
+MASTER_SITES=		http://luaforge.net/frs/download.php/4255/
 
 MAINTAINER=		filip@joyent.com
 HOMEPAGE=		http://www.inf.puc-rio.br/~brunoos/luasec/
