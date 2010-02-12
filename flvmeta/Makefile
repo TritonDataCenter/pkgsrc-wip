@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	flvmeta-1.0.10
+DISTNAME=	flvmeta-1.0.11
 CATEGORIES=	multimedia
 MASTER_SITES=	http://flvmeta.googlecode.com/files/
 
