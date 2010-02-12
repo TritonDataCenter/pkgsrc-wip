@@ -1,8 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	evolution-couchdb-0.3.4
-PKGREVISION=	1
+DISTNAME=	evolution-couchdb-0.3.99
 CATEGORIES=	mail
 MASTER_SITES=	ftp://ftp.gnome.org/pub/gnome/sources/evolution-couchdb/0.3/
 EXTRACT_SUFX=	.tar.bz2
@@ -10,7 +9,7 @@ EXTRACT_SUFX=	.tar.bz2
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://launchpad.net/evolution-couchdb
 COMMENT=	Evolution backend to access CouchDBs
-#LICENSE=	# TODO: (see mk/license.mk)
+LICENSE=	gnu-gpl-v2
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
@@ -18,8 +17,6 @@ GNU_CONFIGURE=	yes
 USE_PKGLOCALEDIR= yes
 USE_LIBTOOL=	yes
 USE_TOOLS+=	pkg-config gmake intltool msgfmt
-
-
 
 .include "../../devel/glib2/buildlink3.mk"
 .include "../../mail/evolution/buildlink3.mk"
