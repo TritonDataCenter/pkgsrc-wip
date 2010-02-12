@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	hashed-storage-0.4.3
+DISTNAME=	hashed-storage-0.4.6
 CATEGORIES=	devel
 
 MAINTAINER=	pho@cielonegro.org
