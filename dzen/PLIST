@@ -1,2 +1,6 @@
 @comment $NetBSD$
 bin/dzen2
+bin/dbar
+bin/gcpubar
+bin/gdbar
+bin/textwidth
