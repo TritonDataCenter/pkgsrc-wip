@@ -3,7 +3,7 @@
 
 DISTNAME=	dzen2-0.8.5
 PKGREVISION=	1
-CATEGORIES=	misc
+CATEGORIES=	x11 misc
 MASTER_SITES=	http://gotmor.googlepages.com/
 
 MAINTAINER=	pikapika@8-0.net
