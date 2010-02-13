@@ -8,7 +8,7 @@ $NetBSD$
  expression *
 +expression::fromInteger(unsigned long long int x, unsigned bits)
 +{
-+	return fromInteger((uint16_t)x, bits);
++	return fromInteger((uint64_t)x, bits);
 +}
 +
 +expression *
