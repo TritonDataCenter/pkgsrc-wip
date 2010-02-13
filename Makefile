@@ -1051,6 +1051,7 @@ SUBDIR+=	libbtctl
 SUBDIR+=	libcli
 SUBDIR+=	libcm
 SUBDIR+=	libcmt
+SUBDIR+=	libcpu
 SUBDIR+=	libdbi
 SUBDIR+=	libdbi-driver-mysql
 SUBDIR+=	libdbi-driver-pgsql
