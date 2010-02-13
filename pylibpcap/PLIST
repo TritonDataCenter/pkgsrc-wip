@@ -1,0 +1,5 @@
+@comment $NetBSD$
+${PYSITELIB}/_pcapmodule.so
+${PYSITELIB}/pcap.py
+${PYSITELIB}/pcap.pyc
+${PYSITELIB}/pcap.pyo
