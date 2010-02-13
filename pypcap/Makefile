@@ -19,8 +19,9 @@ FILES_SUBST+=   PYTHONBIN=${PYTHONBIN:Q}
 
 do-configure:
 	cd ${WRKSRC} && ${SETENV} ${CONFIGURE_ENV} \
-	${PYTHONBIN} setup.py config
+	${PYTHONBIN} setup.py config --with-pcap=${PREFIX}
 
+.include "../../net/libpcap/buildlink3.mk"
 .include "../../lang/python/extension.mk"
 .include "../../lang/python/application.mk"
 .include "../../mk/bsd.pkg.mk"
