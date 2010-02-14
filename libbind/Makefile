@@ -20,4 +20,6 @@ MAKE_JOBS_SAFE=	no
 
 BUILD_TARGET=	all man
 
+.include "options.mk"
+
 .include "../../mk/bsd.pkg.mk"
