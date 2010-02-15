@@ -26,7 +26,7 @@ BUILDLINK_API_DEPENDS.libgpod+=	libgpod>=0.6.0nb1
 .endif
 
 #.if !empty(PKG_OPTIONS:Mlibnjb)
-#.include "../../wip/libnjb/buildlink3.mk"
+#.include "../../devel/libnjb/buildlink3.mk"
 #.endif
 
 .if !empty(PKG_OPTIONS:Mlibvisual)

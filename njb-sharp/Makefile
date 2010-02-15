@@ -24,6 +24,6 @@ CONFIGURE_ARGS+=	--disable-monodoc
 
 PKGCONFIG_OVERRIDE+=	njb-sharp.pc.in
 
+.include "../../devel/libnjb/buildlink3.mk"
 .include "../../lang/mono/buildlink3.mk"
-.include "../../wip/libnjb/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
