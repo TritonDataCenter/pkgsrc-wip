@@ -20,6 +20,7 @@ USE_TOOLS+=		intltool pkg-config
 .include "../../audio/libid3tag/buildlink3.mk"
 .include "../../devel/libmtp/buildlink3.mk"
 .include "../../devel/libnjb/buildlink3.mk"
+.include "../../sysutils/desktop-file-utils/desktopdb.mk"
 .include "../../x11/gtk2/buildlink3.mk"
 
 .include "../../mk/bsd.pkg.mk"
