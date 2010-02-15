@@ -1081,7 +1081,6 @@ SUBDIR+=	libharu
 SUBDIR+=	libhttpd
 SUBDIR+=	libipctdata
 SUBDIR+=	libjingle
-SUBDIR+=	liblastfm
 SUBDIR+=	liblingoteach
 SUBDIR+=	liblo
 SUBDIR+=	libmemcached
