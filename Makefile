@@ -2174,7 +2174,6 @@ SUBDIR+=	t-gnus
 SUBDIR+=	ta-lib
 SUBDIR+=	tac_plus-libradius
 SUBDIR+=	tacacs-shrubbery
-SUBDIR+=	taglib-extras
 SUBDIR+=	taglib-sharp
 SUBDIR+=	tagtool
 SUBDIR+=	talksoup
