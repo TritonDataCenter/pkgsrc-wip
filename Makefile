@@ -1973,7 +1973,6 @@ SUBDIR+=	qpsmtpd
 SUBDIR+=	qt4-qscintilla
 SUBDIR+=	qtcreator
 SUBDIR+=	qtre
-SUBDIR+=	qtscriptgenerator
 SUBDIR+=	qucs
 SUBDIR+=	quickfix
 SUBDIR+=	quickie
