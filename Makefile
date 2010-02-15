@@ -998,7 +998,6 @@ SUBDIR+=	kgrab
 SUBDIR+=	kgraphviewer
 SUBDIR+=	kile
 SUBDIR+=	kino
-SUBDIR+=	kipi-plugins
 SUBDIR+=	kissme
 SUBDIR+=	klamav
 SUBDIR+=	kmldonkey
