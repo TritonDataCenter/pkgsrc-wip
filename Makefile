@@ -1914,6 +1914,7 @@ SUBDIR+=	py-scipy
 SUBDIR+=	py-scrobbler
 SUBDIR+=	py-sendmail-admin
 SUBDIR+=	py-shtoom
+SUBDIR+=	py-simpleparse-mxtexttools
 SUBDIR+=	py-snmp
 SUBDIR+=	py-spambayes
 SUBDIR+=	py-spark
