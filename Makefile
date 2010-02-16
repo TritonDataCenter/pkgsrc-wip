@@ -808,6 +808,7 @@ SUBDIR+=	hs-haskore
 SUBDIR+=	hs-hopenssl
 SUBDIR+=	hs-hscolour
 SUBDIR+=	hs-hslogger
+SUBDIR+=	hs-hslogger-template
 SUBDIR+=	hs-html
 SUBDIR+=	hs-hxt
 SUBDIR+=	hs-hxt-xpath
