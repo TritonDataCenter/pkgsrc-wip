@@ -1196,6 +1196,7 @@ include/xulrunner/nsILocalFileWin.h
 include/xulrunner/nsILocalStore.h
 include/xulrunner/nsILocale.h
 include/xulrunner/nsILocaleService.h
+${PLIST.debug}include/xulrunner/nsILoggingSink.h
 include/xulrunner/nsILoginInfo.h
 include/xulrunner/nsILoginManager.h
 include/xulrunner/nsILoginManagerIEMigrationHelper.h
