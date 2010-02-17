@@ -13,6 +13,10 @@ LICENSE=	modified-bsd
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
+BUILD_DEPENDS+=		${PYPKGPREFIX}-pyrex-[0-9]*:../../lang/py-pyrex
+
+USE_TOOLS+=	pyrexc
+
 SUBST_CLASSES+=         python
 SUBST_FILES.python=     Makefile
 SUBST_SED.python+=      -e 's,@PYTHON@,${PYTHONBIN},g'
@@ -25,6 +29,10 @@ SUBST_STAGE.prefix=     post-patch
 PYDISTUTILSPKG= yes
 
 FILES_SUBST+=   PYTHONBIN=${PYTHONBIN:Q}
+
+pre-configure:
+	cd ${WRKSRC} && ${SETENV} ${CONFIGURE_ENV} \
+	pyrexc pcap.pyx
 
 do-configure:
 	cd ${WRKSRC} && ${SETENV} ${CONFIGURE_ENV} \
