@@ -1834,6 +1834,7 @@ SUBDIR+=	py-divmod-nevow
 SUBDIR+=	py-divmod-vertex
 SUBDIR+=	py-django-diario
 SUBDIR+=	py-django-tagging
+SUBDIR+=	py-dpkt
 SUBDIR+=	py-duali
 SUBDIR+=	py-eventlet
 SUBDIR+=	py-ezPyCrypto
