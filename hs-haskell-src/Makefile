@@ -9,4 +9,5 @@ COMMENT=	Manipulating Haskell source code
 LICENSE=	modified-bsd
 
 .include "../../wip/mk/haskell.mk"
+.include "../../wip/happy/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
