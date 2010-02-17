@@ -1,0 +1,4 @@
+@comment $NetBSD$
+include/prng.h
+info/prng.info
+lib/libprng.a
