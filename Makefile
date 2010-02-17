@@ -2245,7 +2245,6 @@ SUBDIR+=	tinylogin
 SUBDIR+=	tk85
 SUBDIR+=	tleenx2
 SUBDIR+=	tleenx3
-SUBDIR+=	tmux
 SUBDIR+=	tmw
 SUBDIR+=	tome
 SUBDIR+=	tome2
