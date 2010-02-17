@@ -1,8 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	HsOpenSSL-0.6.5
-PKGREVISION=	1
+DISTNAME=	HsOpenSSL-0.8
 CATEGORIES=	security
 
 MAINTAINER=	pho@cielonegro.org
