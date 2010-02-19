@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	event-list-0.0.10
+DISTNAME=	event-list-0.0.10.1
 CATEGORIES=	devel
 
 MAINTAINER=	pho@cielonegro.org
