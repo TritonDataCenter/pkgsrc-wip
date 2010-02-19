@@ -5,7 +5,7 @@ BUILDLINK_TREE+=	darcs
 .if !defined(DARCS_BUILDLINK3_MK)
 DARCS_BUILDLINK3_MK:=
 
-BUILDLINK_API_DEPENDS.darcs+=	darcs>=2.3.99.2
+BUILDLINK_API_DEPENDS.darcs+=	darcs>=2.3.99.2nb1
 BUILDLINK_PKGSRCDIR.darcs?=	../../wip/darcs
 
 .include "../../wip/hs-hashed-storage/buildlink3.mk"

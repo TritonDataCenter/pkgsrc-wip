@@ -3,6 +3,7 @@
 DISTNAME=		darcs-beta-${VERSION}
 PKGNAME=		darcs-${VERSION}
 VERSION=		2.3.99.2
+PKGREVISION=		1
 CATEGORIES=		devel scm
 
 MAINTAINER=		matias@dotbsd.org
