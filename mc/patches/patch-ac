@@ -1,0 +1,13 @@
+$NetBSD$
+
+--- misc/Makefile.in.orig	2010-02-02 15:24:52.000000000 +0000
++++ misc/Makefile.in
+@@ -313,7 +313,7 @@ LIBFILES_CONST = \
+ 	mc.menu.sr
+ 
+ CLEANFILES = $(SCRIPTS_OUT)
+-cfgdir = $(sysconfdir)/@PACKAGE@
++cfgdir = @datadir@/examples/@PACKAGE@
+ cfg_DATA = \
+ 	$(LIBFILES_CONST) \
+ 	$(LIBFILES_OUT) \
