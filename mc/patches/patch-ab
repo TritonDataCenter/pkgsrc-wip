@@ -7,7 +7,7 @@ $NetBSD$
      (void) me;
  
 -    mc_sfsini = concat_dir_and_file (mc_home, "extfs" PATH_SEP_STR "sfs.ini");
-+    mc_sfsini = concat_dir_and_file ("/usr/pkg/etc/mc", "sfs.ini");
++    mc_sfsini = concat_dir_and_file ("@PKG_SYSCONFDIR@", "sfs.ini");
      cfg = fopen (mc_sfsini, "r");
  
      if (!cfg){
