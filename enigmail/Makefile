@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	enigmail-0.96.0
+PKGREVISION=	1
 CATEGORIES=	mail
 MASTER_SITES=	http://www.mozilla-enigmail.org/download/source/
 
@@ -20,15 +21,15 @@ REPLACE_PERL+=	${ENIGMAIL_WRKSRC}/makemake
 REPLACE_PERL+=	${ENIGMAIL_WRKSRC}/ipc/makemake
 REPLACE_PERL+=	${ENIGMAIL_WRKSRC}/lang/make-lang-xpi.pl
 
-BUILD_DEPENDS+= 	thunderbird>=2.0.0.0:../../mail/thunderbird
+BUILD_DEPENDS+= 	thunderbird>=2.0.0.0:../../mail/thunderbird2
 DEPENDS+=		gnupg-[0-9]*:../../security/gnupg
 
 ENIGMAIL_WRKSRC=	${THUNDERBIRD_WRKSRC}/mailnews/extensions/enigmail
-MAKE_THUNDERBIRD=	cd ${PKGDIR}/../../mail/thunderbird && \
+MAKE_THUNDERBIRD=	cd ${PKGDIR}/../../mail/thunderbird2 && \
 			env -i ${MAKE} -f ${PKGDIR}/Makefile.thunderbird \
 				WRKDIR=${THUNDERBIRD_WRKDIR} \
 				WRKSRC=${THUNDERBIRD_WRKSRC}
-THUNDERBIRD_WRKDIR=	${WRKDIR}/thunderbird
+THUNDERBIRD_WRKDIR=	${WRKDIR}/thunderbird2
 THUNDERBIRD_WRKSRC=	${THUNDERBIRD_WRKDIR}/mozilla
 
 ENIGMAILXPI=	${DISTNAME}-${LOWER_OPSYS}-${MACHINE_GNU_ARCH}.xpi

@@ -29,5 +29,5 @@ build-enigmail:
 	cd ${ENIGMAIL_WRKSRC} && env ${MAKE_ENV} ${MAKE_PROGRAM} ${HACK}
 	cd ${ENIGMAIL_WRKSRC} && env ${MAKE_ENV} ${MAKE_PROGRAM} ${HACK} xpi
 
-.include "../../mail/thunderbird/Makefile-thunderbird.common"
+.include "../../mail/thunderbird2/Makefile-thunderbird.common"
 .include "../../mk/bsd.pkg.mk"
