@@ -6,7 +6,7 @@ CATEGORIES=	chat
 MASTER_SITES=	http://www.psybnc.at/download/beta/
 
 MAINTAINER=	pettai@nordu.net
-HOMEPAGE=	http://www.psybnc.at/download/beta/
+HOMEPAGE=	http://www.psybnc.at/
 COMMENT=	Easy-to-use, multi-user, permanent IRC-Bouncer with many features
 LICENSE=	gnu-gpl-v2
 
