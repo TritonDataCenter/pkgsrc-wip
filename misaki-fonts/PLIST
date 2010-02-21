@@ -3,5 +3,5 @@ lib/X11/fonts/local/4x8.pcf.gz
 lib/X11/fonts/local/4x8_8859.pcf.gz
 lib/X11/fonts/local/misaki.pcf.gz
 lib/X11/fonts/local/misakimn.pcf.gz
-share/doc/ja-misaki/msk_${PKGVERSION}.txt
-share/doc/ja-misaki/msk_bdf.txt
+share/doc/${PKGBASE}/msk_${PKGVERSION}.txt
+share/doc/${PKGBASE}/msk_bdf.txt
