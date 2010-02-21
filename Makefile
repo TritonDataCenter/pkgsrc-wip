@@ -745,7 +745,6 @@ SUBDIR+=	heirloom-whodo
 SUBDIR+=	heirloom-xargs
 SUBDIR+=	heirloom-yes
 SUBDIR+=	heliodor
-SUBDIR+=	hellanzb
 SUBDIR+=	hengband
 SUBDIR+=	heroes
 SUBDIR+=	hgview
