@@ -20,7 +20,7 @@ GNU_CONFIGURE=		YES
 PKG_DESTDIR_SUPPORT=	user-destdir
 
 USE_TOOLS+=		makeinfo
-INFO_FILES=		# PLIST
+INFO_FILES=		yes
 
 CONFIGURE_ARGS=		--with-lispdir=${PREFIX}/share/emacs/site-lisp
 INSTALL_TARGET=		install install-info
