@@ -1,0 +1,6 @@
+@comment $NetBSD$
+bin/psybnc
+share/doc/psybnc/FAQ
+share/doc/psybnc/README
+share/doc/psybnc/SCRIPTING
+share/examples/psybnc/psybnc.conf
