@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	gosmore-1
-SVN_DATE=	20100216
+CHECKOUT_DATE=	20100218
 CATEGORIES=	geography
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
