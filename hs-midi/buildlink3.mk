@@ -5,7 +5,7 @@ BUILDLINK_TREE+=	hs-midi
 .if !defined(HS_MIDI_BUILDLINK3_MK)
 HS_MIDI_BUILDLINK3_MK:=
 
-BUILDLINK_API_DEPENDS.hs-midi+=	hs-midi>=0.1.4
+BUILDLINK_API_DEPENDS.hs-midi+=	hs-midi>=0.1.5
 BUILDLINK_PKGSRCDIR.hs-midi?=	../../wip/hs-midi
 
 .include "../../wip/hs-binary/buildlink3.mk"

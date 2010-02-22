@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	midi-0.1.4
+DISTNAME=	midi-0.1.5
 CATEGORIES=	audio
 
 MAINTAINER=	pho@cielonegro.org
