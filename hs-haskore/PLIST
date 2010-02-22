@@ -57,6 +57,8 @@ lib/haskore-${PKGVERSION}/${HASKELL_VERSION}/Haskore/General/GraphRecursiveGen.h
 lib/haskore-${PKGVERSION}/${HASKELL_VERSION}/Haskore/General/GraphRecursiveGen.p_hi
 lib/haskore-${PKGVERSION}/${HASKELL_VERSION}/Haskore/General/GraphTaggedGen.hi
 lib/haskore-${PKGVERSION}/${HASKELL_VERSION}/Haskore/General/GraphTaggedGen.p_hi
+lib/haskore-${PKGVERSION}/${HASKELL_VERSION}/Haskore/General/LetRec.hi
+lib/haskore-${PKGVERSION}/${HASKELL_VERSION}/Haskore/General/LetRec.p_hi
 lib/haskore-${PKGVERSION}/${HASKELL_VERSION}/Haskore/General/LoopTreeRecursive.hi
 lib/haskore-${PKGVERSION}/${HASKELL_VERSION}/Haskore/General/LoopTreeRecursive.p_hi
 lib/haskore-${PKGVERSION}/${HASKELL_VERSION}/Haskore/General/LoopTreeRecursiveGen.hi

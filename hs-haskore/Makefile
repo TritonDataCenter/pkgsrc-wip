@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	haskore-0.1
+DISTNAME=	haskore-0.1.0.2
 CATEGORIES=	audio
 
 MAINTAINER=	pho@cielonegro.org
