@@ -1025,6 +1025,7 @@ SUBDIR+=	last-exit
 SUBDIR+=	last.fm
 SUBDIR+=	lastfm-sharp
 SUBDIR+=	lat
+SUBDIR+=	lcal
 SUBDIR+=	lcdproc
 SUBDIR+=	lcrack
 SUBDIR+=	ldapbrowser
