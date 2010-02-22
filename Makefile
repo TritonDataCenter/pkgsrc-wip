@@ -1908,6 +1908,7 @@ SUBDIR+=	py-pp
 SUBDIR+=	py-prayertime
 SUBDIR+=	py-processing
 SUBDIR+=	py-ptrace
+SUBDIR+=	py-pydot
 SUBDIR+=	py-pygr
 SUBDIR+=	py-rcsparse
 SUBDIR+=	py-rdflib
