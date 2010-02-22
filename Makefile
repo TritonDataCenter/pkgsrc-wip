@@ -2301,6 +2301,7 @@ SUBDIR+=	udhcp
 SUBDIR+=	uebimiau
 SUBDIR+=	uffizi
 SUBDIR+=	umix
+SUBDIR+=	undo-tree
 SUBDIR+=	uni2ascii
 SUBDIR+=	unix2tcp
 SUBDIR+=	unmo3
