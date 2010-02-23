@@ -1444,6 +1444,7 @@ SUBDIR+=	p5-AI-Prolog
 SUBDIR+=	p5-Aceperl
 SUBDIR+=	p5-Apache-AuthenNTLM
 SUBDIR+=	p5-Apache2-ModSSL
+SUBDIR+=	p5-App-cpanminus
 SUBDIR+=	p5-Arch
 SUBDIR+=	p5-Authen-Htpasswd
 SUBDIR+=	p5-Authen-TacacsPlus
