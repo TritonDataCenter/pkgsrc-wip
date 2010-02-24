@@ -1,8 +1,8 @@
-$NetBSD$
+$NetBSD: patch-ag,v 1.2 2009/12/15 12:07:57 asau Exp $
 
---- erts/emulator/obsolete/driver.h.orig	2007-11-26 13:55:21.000000000 -0500
-+++ erts/emulator/obsolete/driver.h
-@@ -67,10 +67,10 @@
+--- erts/emulator/obsolete/driver.h.orig	2009-03-12 14:16:23.000000000 +0200
++++ erts/emulator/obsolete/driver.h	2010-02-24 14:38:23.000000000 +0200
+@@ -68,10 +68,10 @@
  #  define DRIVER_INIT(DRIVER_NAME)  driver_init
  #endif
  

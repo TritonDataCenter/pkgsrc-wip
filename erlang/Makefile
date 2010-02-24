@@ -1,14 +1,14 @@
-# $NetBSD: Makefile,v 1.37 2008/04/08 13:16:22 martti Exp $
+# $NetBSD: Makefile,v 1.44 2010/01/17 12:02:22 wiz Exp $
 
 DISTNAME=		otp_src_${DIST_VERSION_MAJOR}${DIST_VERSION_MINOR:D-${DIST_VERSION_MINOR}}
 PKGNAME=		erlang-${ERLANG_VERSION}
-PKGREVISION=		3
 CATEGORIES=		lang
 MASTER_SITES=		http://www.erlang.org/download/
 
 MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://www.erlang.org/
 COMMENT=		Concurrent functional programming language
+#LICENSE=		erlang-license
 
 DIST_SUBDIR=		erlang
 
@@ -72,12 +72,6 @@ pre-build:
 
 post-install:
 	chmod -R go-w ${DESTDIR}${PREFIX}/lib/erlang/lib
-
-# Generate PLIST
-.for _pkg_ _version_ in $(_VERSIONS)
-PRINT_PLIST_AWK+=	{if ($$0 ~ /\/$(_pkg_)-$(_version_)\//) {sub(/\/$(_pkg_)-$(_version_)\//,"/$(_pkg_)-$${VERSION.$(_pkg_)}/", $$0);}}
-.endfor
-PRINT_PLIST_AWK+=	{if ($$0 ~ /\/releases\/${DIST_VERSION_MAJOR}\//) {sub(/\/releases\/${DIST_VERSION_MAJOR}\//,"/releases/$${VERSION}/", $$0);}}
 
 .include "../../security/openssl/buildlink3.mk"
 .include "../../devel/ncurses/buildlink3.mk"

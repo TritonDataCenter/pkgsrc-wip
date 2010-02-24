@@ -1,4 +1,4 @@
-@comment $NetBSD: PLIST.java,v 1.5 2008/01/04 14:05:05 ghen Exp $
+@comment $NetBSD: PLIST.java,v 1.8 2010/01/13 19:28:33 tnn Exp $
 lib/erlang/lib/ic-${VERSION.ic}/java_src/com/ericsson/otp/ic/Any.java
 lib/erlang/lib/ic-${VERSION.ic}/java_src/com/ericsson/otp/ic/AnyHelper.java
 lib/erlang/lib/ic-${VERSION.ic}/java_src/com/ericsson/otp/ic/AnyHolder.java
@@ -77,4 +77,3 @@ lib/erlang/lib/jinterface-${VERSION.jinterface}/java_src/com/ericsson/otp/erlang
 lib/erlang/lib/jinterface-${VERSION.jinterface}/java_src/com/ericsson/otp/erlang/OtpSystem.java
 lib/erlang/lib/jinterface-${VERSION.jinterface}/priv/OtpErlang.jar
 lib/erlang/lib/orber-${VERSION.orber}/java_src/Orber/InitialReference.java
-lib/erlang/lib/orber-${VERSION.orber}/priv/Orber/InitialReference.class
