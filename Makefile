@@ -203,6 +203,7 @@ SUBDIR+=	cb2bib
 SUBDIR+=	cclive
 SUBDIR+=	ccrtp
 SUBDIR+=	ccrypt
+SUBDIR+=	cddlib
 SUBDIR+=	cdogs
 SUBDIR+=	cdpr
 SUBDIR+=	cedet
