@@ -92,12 +92,12 @@ do-install:
 do-test:
 	cd ${WRKSRC}/tests && ${SH} ./run-tests.sh
 
-# CVS_REPOSITORIES=	sbcl
-# CVS_ROOT.sbcl=		:pserver:anonymous:@sbcl.cvs.sourceforge.net:/cvsroot/sbcl
-# WRKSRC=			${WRKDIR}/sbcl
-# DISTNAME=
-# PKGNAME=		sbcl-1.0.99
+CVS_REPOSITORIES=	sbcl
+CVS_ROOT.sbcl=		:pserver:anonymous:@sbcl.cvs.sourceforge.net:/cvsroot/sbcl
+WRKSRC=			${WRKDIR}/sbcl
+DISTNAME=
+PKGNAME=		sbcl-1.0.99
 
-# .include "../mk/cvs-package.mk"
+.include "../mk/cvs-package.mk"
 
 .include "../../mk/bsd.pkg.mk"

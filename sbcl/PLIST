@@ -211,6 +211,7 @@ lib/sbcl/sb-simple-streams/internal.fasl
 lib/sbcl/sb-simple-streams/internal.lisp
 lib/sbcl/sb-simple-streams/iodefs.fasl
 lib/sbcl/sb-simple-streams/iodefs.lisp
+lib/sbcl/sb-simple-streams/lp491087.txt
 lib/sbcl/sb-simple-streams/null.fasl
 lib/sbcl/sb-simple-streams/null.lisp
 lib/sbcl/sb-simple-streams/package.fasl
