@@ -21,10 +21,9 @@ CONFIGURE_ENV+=	JAVAC=none
 ### XXX Need to check which platforms will enable this by default, if any.
 ###	Should it be an option?
 ###
-PLIST_SUBST+=		SMP="@comment "
 CONFIGURE_ARGS+=	--enable-hipe
+PLIST_SRC+=		PLIST.hipe
 .else
-PLIST_SUBST+=		SMP=""
 CONFIGURE_ARGS+=	--disable-hipe
 .endif
 
