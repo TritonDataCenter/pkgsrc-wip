@@ -169,6 +169,7 @@ CHECK_PORTABILITY_SKIP+=	distrib/prep-bin-dist-mingw
 # http://hackage.haskell.org/trac/ghc/ticket/2933
 CHECK_SHLIBS_SUPPORTED= 	no
 
+BUILD_DEPENDS+=	docbook-xsl-[0-9]*:../../textproc/docbook-xsl
 BUILDLINK_DEPMETHOD.libxslt = build
 .include "../../converters/libiconv/buildlink3.mk"
 .include "../../devel/gmp/buildlink3.mk"
