@@ -1958,7 +1958,6 @@ SUBDIR+=	py-yamcha
 SUBDIR+=	py-yapgvb
 SUBDIR+=	py-zeitgeist
 SUBDIR+=	py-zinnia
-SUBDIR+=	pycrypto
 SUBDIR+=	pydance
 SUBDIR+=	pydb
 SUBDIR+=	pylibpcap
