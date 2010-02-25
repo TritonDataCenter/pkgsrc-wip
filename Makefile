@@ -623,6 +623,7 @@ SUBDIR+=	gune
 SUBDIR+=	gupnp-ui
 SUBDIR+=	gupnp-vala
 SUBDIR+=	gurlchecker
+SUBDIR+=	gvariant
 SUBDIR+=	gwhois
 SUBDIR+=	gwsmhg
 SUBDIR+=	gxconsole
