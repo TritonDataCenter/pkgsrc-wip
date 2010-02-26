@@ -6,7 +6,7 @@ CATEGORIES=	textproc
 
 MAINTAINER=	pho@cielonegro.org
 COMMENT=	Simple template library with static safety
-LICENSE=	gnu-lgpl-v2
+LICENSE=	gnu-lgpl-v2.1
 
 .include "../../wip/mk/haskell.mk"
 .include "../../wip/hs-parsec/buildlink3.mk"
