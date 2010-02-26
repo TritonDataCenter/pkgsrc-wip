@@ -807,6 +807,7 @@ SUBDIR+=	hs-haskelldb
 SUBDIR+=	hs-haskelldb-hdbc
 SUBDIR+=	hs-haskelldb-hdbc-sqlite3
 SUBDIR+=	hs-haskore
+SUBDIR+=	hs-hinstaller
 SUBDIR+=	hs-hopenssl
 SUBDIR+=	hs-hscolour
 SUBDIR+=	hs-hslogger
