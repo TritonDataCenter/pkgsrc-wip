@@ -11,6 +11,8 @@ MAINTAINER=		pettai@nordu.net
 HOMEPAGE=		http://www.bsdstats.org/
 COMMENT=		BSD-Stats collector script
 
+DEPENDS+=		netcat-[0-9]*:../../net/netcat
+
 PKG_DESTDIR_SUPPORT=	user-destdir
 
 # XXX: Others might work
@@ -25,6 +27,6 @@ MESSAGE_SUBST+=		PREFIX=${PREFIX}
 INSTALLATION_DIRS=	bin ${VARBASE}/db/bsdstats
 
 do-install:
-	${INSTALL} ${WRKDIR}/300.statistics ${DESTDIR}${PREFIX}/bin
+	${INSTALL} ${FILESDIR}/300.statistics ${DESTDIR}${PREFIX}/bin
 
 .include "../../mk/bsd.pkg.mk"
