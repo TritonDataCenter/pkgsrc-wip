@@ -6,7 +6,7 @@ CATEGORIES=		net
 MASTER_SITES=		# Need to get it yourself.
 EXTRACT_SUFX=		.tgz
 
-MAINTAINER=		cjep@NetBSD.org
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://www.open.com.au/radiator/
 COMMENT=		RADIUS server implemented in Perl
 

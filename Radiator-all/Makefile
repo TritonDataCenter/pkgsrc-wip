@@ -4,7 +4,7 @@
 DISTNAME=	Radiator-all-3.6
 CATEGORIES=	meta-pkgs net
 
-MAINTAINER=	cjep@NetBSD.org
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	# irrelevant
 COMMENT=	Provides some useful modules for Radiator
 
