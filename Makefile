@@ -786,6 +786,7 @@ SUBDIR+=	hs-cabal
 SUBDIR+=	hs-cabal-query
 SUBDIR+=	hs-chalkboard
 SUBDIR+=	hs-chalkboard-viewer
+SUBDIR+=	hs-chunks
 SUBDIR+=	hs-convertible
 SUBDIR+=	hs-cpphs
 SUBDIR+=	hs-curl
