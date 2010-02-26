@@ -28,6 +28,7 @@ USE_CMAKE=		yes
 USE_LANGUAGES+=		c++ c
 
 REPLACE_PYTHON+=	spectrumctl/spectrumctl.py
+PY_PATCHPLIST=		yes
 
 # always include bsd.prefs.mk before any .if or .ifdef statements
 .include "../../mk/bsd.prefs.mk"

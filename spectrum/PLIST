@@ -4,9 +4,11 @@ bin/spectrumctl
 ${PYSITELIB}/spectrum/__init__.py
 ${PYSITELIB}/spectrum/spectrum.py
 ${PYSITELIB}/spectrum/spectrumconfigparser.py
+${PYSITELIB}/spectrum/actions.py
 share/examples/spectrum/spectrum-mysql.sql
 share/examples/spectrum/spectrum-sqlite3.sql
 share/examples/spectrum/spectrum.cfg
 share/spectrum/locales/cs.po
+share/man/man8/spectrumctl.8
 @pkgdir share/spectrum/locales
 @pkgdir share/spectrum/certificates
