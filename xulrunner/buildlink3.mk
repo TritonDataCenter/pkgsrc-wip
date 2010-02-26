@@ -6,7 +6,7 @@ BUILDLINK_TREE+=	xulrunner
 XULRUNNER_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.xulrunner+=	xulrunner>=1.9.2
-BUILDLINK_ABI_DEPENDS.xulrunner?=		xulrunner>=1.9.2
+BUILDLINK_ABI_DEPENDS.xulrunner?=	xulrunner>=1.9.2
 BUILDLINK_PKGSRCDIR.xulrunner?=		../../wip/xulrunner
 
 pkgbase := xulrunner
