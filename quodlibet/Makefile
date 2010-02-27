@@ -22,8 +22,6 @@ USE_TOOLS+=		msgfmt intltool
 USE_PKGLOCALEDIR=	yes
 BUILD_TARGET=		_trayicon.so _mmkeys.so
 
-PYTHON_VERSIONS_INCOMPATIBLE=\
-			15 20 21 22 23
 PYDISTUTILSPKG= yes
 
 .include "../../devel/py-ctypes/buildlink3.mk"
