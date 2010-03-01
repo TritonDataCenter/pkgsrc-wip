@@ -1,8 +1,8 @@
 # $NetBSD$
 #
 
-DISTNAME=	QScintilla-gpl-2.4
-PKGNAME=	qt4-qscintilla-2.4
+DISTNAME=	QScintilla-gpl-2.4.2
+PKGNAME=	qt4-qscintilla-2.4.2
 PKGREVISION=	1
 CATEGORIES=	x11
 MASTER_SITES=	http://www.riverbankcomputing.com/static/Downloads/QScintilla2/
