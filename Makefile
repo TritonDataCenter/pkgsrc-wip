@@ -1195,6 +1195,7 @@ SUBDIR+=	mathopd
 SUBDIR+=	mawk
 SUBDIR+=	mawk-uxre
 SUBDIR+=	maxima
+SUBDIR+=	mc
 SUBDIR+=	mc-mp
 SUBDIR+=	mcabber
 SUBDIR+=	mcats
