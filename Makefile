@@ -2039,6 +2039,7 @@ SUBDIR+=	ruby-ming
 SUBDIR+=	ruby-term-ansicolor
 SUBDIR+=	ruby-thor
 SUBDIR+=	ruby-treetop
+SUBDIR+=	ruby-trollop
 SUBDIR+=	ruby-xmpp4r
 SUBDIR+=	ruby-yamcha
 SUBDIR+=	ruby-zinnia
