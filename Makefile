@@ -2033,6 +2033,7 @@ SUBDIR+=	rtpbreak
 SUBDIR+=	ruby-GalleryAdministrator
 SUBDIR+=	ruby-actionmessenger
 SUBDIR+=	ruby-cabocha
+SUBDIR+=	ruby-ditz
 SUBDIR+=	ruby-dnsruby
 SUBDIR+=	ruby-git
 SUBDIR+=	ruby-ming
