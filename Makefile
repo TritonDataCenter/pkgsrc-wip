@@ -779,6 +779,7 @@ SUBDIR+=	hs-QuickCheck1
 SUBDIR+=	hs-SHA
 SUBDIR+=	hs-StateVar
 SUBDIR+=	hs-Tensor
+SUBDIR+=	hs-base-unicode-symbols
 SUBDIR+=	hs-binary
 SUBDIR+=	hs-binary-strict
 SUBDIR+=	hs-bytestring-trie
