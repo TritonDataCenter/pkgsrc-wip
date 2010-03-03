@@ -1,10 +1,10 @@
 # $NetBSD$
 #
 
-DISTNAME=	clutter-1.1.14
+DISTNAME=	clutter-1.2.0
 CATEGORIES=	graphics
-MASTER_SITES=	http://www.clutter-project.org/sources/clutter/1.1/ \
-		${MASTER_SITE_GNOME:=clutter/1.1/}
+MASTER_SITES=	http://www.clutter-project.org/sources/clutter/1.2/ \
+		${MASTER_SITE_GNOME:=clutter/1.2/}
 
 MAINTAINER=	obache@NetBSD.org
 HOMEPAGE=	http://clutter-project.org/
