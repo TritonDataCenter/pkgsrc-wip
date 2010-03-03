@@ -837,6 +837,7 @@ SUBDIR+=	hs-parseargs
 SUBDIR+=	hs-parsec
 SUBDIR+=	hs-pcre-light
 SUBDIR+=	hs-readline
+SUBDIR+=	hs-regions
 SUBDIR+=	hs-regex-base
 SUBDIR+=	hs-regex-compat
 SUBDIR+=	hs-regex-posix
