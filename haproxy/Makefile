@@ -4,7 +4,7 @@ DISTNAME=	haproxy-1.3.22
 CATEGORIES=	www
 MASTER_SITES=	http://haproxy.1wt.eu/download/1.3/src/
 
-MAINTAINER=	shinden@linux.pl
+MAINTAINER=	morr@NetBSD.org
 HOMEPAGE=	http://haproxy.1wt.eu/
 COMMENT=	Reliable, high performance TCP/HTTP load balancer
 

@@ -5,7 +5,7 @@ DISTNAME=	dsh-0.25.9
 CATEGORIES=	shells
 MASTER_SITES=	http://www.netfort.gr.jp/~dancer/software/downloads/
 
-MAINTAINER=	shinden@linux.pl
+MAINTAINER=	morr@NetBSD.org
 HOMEPAGE=	http://www.netfort.gr.jp/~dancer/software/downloads/
 COMMENT=	Runs command through rsh or ssh on a cluster of machines
 

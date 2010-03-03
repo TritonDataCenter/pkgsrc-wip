@@ -7,7 +7,7 @@ MASTER_SITES=	http://pl.ekg2.org/
 MASTER_SITES+=	http://pl.ekg2.org/archive/
 EXTRACT_SUFX=	.tar.bz2
 
-MAINTAINER=	shinden@linux.pl
+MAINTAINER=	morr@NetBSD.org
 HOMEPAGE=	http://pl.ekg2.org/
 COMMENT=	Multiplatform, multiprotocol, plugin-based instant messanger
 #LICENSE=	# TODO: (see mk/license.mk)
@@ -27,7 +27,6 @@ CONFIGURE_ARGS+=	--enable-shared \
 			--enable-dynamic \
 			--without-inotify \
 			--without-ioctld \
-			--with-expat \
 			--without-gtk \
 			--without-readline \
 			--disable-nls \

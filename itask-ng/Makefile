@@ -6,7 +6,7 @@ PKGREVISION=	3
 CATEGORIES=	x11
 MASTER_SITES=	http://itask-module.googlecode.com/files/
 
-MAINTAINER=	shinden@linux.pl
+MAINTAINER=	morr@NetBSD.org
 HOMEPAGE=	http://itask-module.googlecode.com/files/
 COMMENT=	Application launcher and taskbar for e17
 

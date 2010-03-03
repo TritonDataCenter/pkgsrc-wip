@@ -6,7 +6,7 @@ PKGREVISION=	3
 CATEGORIES=	local
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=katapult/}
 
-MAINTAINER=	shinden@linux.pl
+MAINTAINER=	morr@NetBSD.org
 HOMEPAGE=	http://katapult.kde.org/
 COMMENT=	Allow faster access to applications, bookmarks, and other items
 
