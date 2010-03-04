@@ -5,7 +5,7 @@ VERSION=	0.7.5.${SVNVERSION}
 DISTNAME=	TracGraphViz-${VERSION}
 PKGNAME=	trac-plugins-GraphViz-${VERSION}
 # Empty to avoid default setting.
-PKGREVISION=
+PKGREVISION=	1
 EGG_NAME=	${DISTNAME}
 CATEGORIES=	www
 MASTER_SITES=	# not defined
