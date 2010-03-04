@@ -16,3 +16,5 @@ ${PYSITELIB}/tracext/git/__init__.pyo
 ${PYSITELIB}/tracext/git/git_fs.py
 ${PYSITELIB}/tracext/git/git_fs.pyc
 ${PYSITELIB}/tracext/git/git_fs.pyo
+share/doc/trac-plugins-GitPlugin/COPYING
+share/doc/trac-plugins-GitPlugin/README
