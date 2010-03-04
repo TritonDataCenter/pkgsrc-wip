@@ -1,5 +1,10 @@
 $NetBSD$
 
+Adjust setup.py to put documention in a reasonable place rather than
+in $prefix directly.
+Filed upstream as
+  http://trac-hacks.org/ticket/6768
+
 --- setup.py.orig	2010-03-04 19:35:00.000000000 +0000
 +++ setup.py
 @@ -20,4 +20,4 @@ setup(
