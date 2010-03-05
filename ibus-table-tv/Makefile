@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	ibus-table-tv-1.2.0.20100108
+DISTNAME=	ibus-table-tv-1.2.0.20100305
 CATEGORIES=	inputmethod
 MASTER_SITES=	http://ibus.googlecode.com/files/
 
