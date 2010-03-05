@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	ibus-table-cyrillic-1.2.0.20100107
+DISTNAME=	ibus-table-cyrillic-1.2.0.20100305
 CATEGORIES=	inputmethod
 MASTER_SITES=	http://ibus.googlecode.com/files/
 
