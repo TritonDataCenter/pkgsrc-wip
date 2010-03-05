@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	ibus-table-cangjie-1.2.0.20100119
+DISTNAME=	ibus-table-cangjie-1.2.0.20100305
 CATEGORIES=	inputmethod
 MASTER_SITES=	http://ibus.googlecode.com/files/
 
@@ -10,12 +10,10 @@ HOMEPAGE=	http://codes.google.com/p/ibus/
 COMMENT=	CangJie tables for IBus-Table
 LICENSE=	gnu-gpl-v3
 
-DEPENDS+=	ibus-table>=1.2.0:../../wip/ibus-table
-
 PKG_DESTDIR_SUPPORT=	user-destdir
 
 GNU_CONFIGURE=	yes
-USE_LANGUAGES=	c
+USE_LANGUAGES=	#
 USE_TOOLS+=	pkg-config
 
 .include "../../wip/ibus-table/buildlink3.mk"
