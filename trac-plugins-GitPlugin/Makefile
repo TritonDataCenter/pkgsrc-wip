@@ -1,10 +1,11 @@
 # $NetBSD$
 
 DISTNAME=	TracGitPlugin-0.1dev
-PKGNAME=	trac-plugins-GitPlugin-0.1pre5396
+PKGNAME=	trac-plugins-GitPlugin-0.1pre${SVNVERSION}
+SVNVERSION=	6442
 # PKGREVISION should be empty rather than unset because svn-package.mk
 # does the wrong thing if it is unset, even though pkglint will complain
-PKGREVISION=	1
+PKGREVISION=	
 EGG_NAME=	${DISTNAME}
 CATEGORIES=	www
 
@@ -20,7 +21,7 @@ DEPENDS+=	scmgit-base>=1.5.6:../../devel/scmgit-base
 
 SVN_REPOSITORIES=	gitplugin
 SVN_ROOT.gitplugin=	http://trac-hacks.org/svn/gitplugin/0.11
-SVN_TAG.gitplugin=	5396
+SVN_TAG.gitplugin=	${SVNVERSION}
 
 NO_CHECKSUM=	yes
 
