@@ -2399,6 +2399,7 @@ SUBDIR+=	xdiskusage
 SUBDIR+=	xesam-glib
 SUBDIR+=	xf86-video-geode
 SUBDIR+=	xf86-video-nouveau
+SUBDIR+=	xf86-video-nv-current
 SUBDIR+=	xf86rushproto
 SUBDIR+=	xfce4-mailwatch-plugin
 SUBDIR+=	xfce4-mount-plugin
