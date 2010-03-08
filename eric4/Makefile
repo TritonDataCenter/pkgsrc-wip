@@ -13,15 +13,8 @@ LICENSE=		gnu-gpl-v3
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
-
-# Add support for Qt SQL drivers; sqlite3 driver is needed to avoid warnings
-# while using help-functions
-#DEPENDS+=				qt4-sqlite3>=4.6.2:../../x11/qt4-sqlite3
-#DEPENDS+=				qt4-mysql>=4.6.2:../../x11/qt4-mysql
-#DEPENDS+=				qt4-pgsql>=4.6.2:../../x11/qt4-pgsql
-
 PY_PATCHPLIST=          yes
-PYSETUP=				install.py -b ${PREFIX}/bin			#set install path to PREFIX
+PYSETUP=				install.py -b ${PREFIX}/bin	#set install path to PREFIX
 PYDISTUTILSPKG=			yes
 
 .include "options.mk"
