@@ -1,10 +1,10 @@
 # $NetBSD$
 #
 
-DISTNAME=		eric4-4.4.1
-PKGREVISION=	2
+DISTNAME=		eric4-4.4.2
+PKGREVISION=	1
 CATEGORIES=		devel
-MASTER_SITES=	http://downloads.sourceforge.net/project/eric-ide/eric4/stable/4.4.1/
+MASTER_SITES=	http://downloads.sourceforge.net/project/eric-ide/eric4/stable/4.4.2/
 
 MAINTAINER=		helgoman@users.sourceforge.net
 HOMEPAGE=		http://eric-ide.python-projects.org/index.html
