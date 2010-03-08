@@ -8,7 +8,7 @@ HOMEPAGE=	http://xorg.freedesktop.org/
 COMMENT=	Modular Xorg NVIDIA video driver
 
 GIT_REPOSITORIES=	master
-GIT_REPO.master=	http://cgit.freedesktop.org/xorg/driver/xf86-video-nv
+GIT_REPO.master=	git://cgit.freedesktop.org/xorg/driver/xf86-video-nv
 .include "../../wip/mk/git-package.mk"
 
 BUILD_DEPENDS+=		xorg-util-macros-[0-9]*:../../devel/xorg-util-macros
