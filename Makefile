@@ -1944,6 +1944,7 @@ SUBDIR+=	py-storm
 SUBDIR+=	py-sympy-core
 SUBDIR+=	py-tagger
 SUBDIR+=	py-taglib
+SUBDIR+=	py-telepathy
 SUBDIR+=	py-tranquil
 SUBDIR+=	py-twisted
 SUBDIR+=	py-twisted-kqueue
