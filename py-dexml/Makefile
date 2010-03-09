@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	dexml-0.3.3
+DISTNAME=	dexml-0.3.4
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	textproc python
 MASTER_SITES=	http://pypi.python.org/packages/source/d/dexml/
