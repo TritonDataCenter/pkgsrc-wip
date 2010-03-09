@@ -1911,6 +1911,7 @@ SUBDIR+=	py-omniORBpy
 SUBDIR+=	py-openxmllib
 SUBDIR+=	py-orm
 SUBDIR+=	py-osd
+SUBDIR+=	py-papyon
 SUBDIR+=	py-papyros
 SUBDIR+=	py-parsing
 SUBDIR+=	py-pcapy
