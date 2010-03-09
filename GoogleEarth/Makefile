@@ -25,9 +25,9 @@ EMUL_MODULES.linux=	fontconfig glx gtk2
 
 NOT_FOR_PLATFORM=	NetBSD-[0-2]*-*
 
-GE_VERSION=		4.3.7284.3916
+GE_VERSION=		5.1.3533.1731
 NO_CONFIGURE=		yes
-WRKSRC=			${WRKDIR}/GoogleEarthLinuxPlus-installer
+WRKSRC=			${WRKDIR}/GoogleEarthLinuxPlus-${GE_VERSION}-installer
 DIST_SUBDIR=		${PKGNAME_NOREV}
 EXTRACT_CMD=		${SH} "$$extract_file" --noexec --keep
 
