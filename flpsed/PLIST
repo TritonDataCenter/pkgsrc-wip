@@ -1,0 +1,3 @@
+@comment $NetBSD$
+bin/flpsed
+man/man1/flpsed.1
