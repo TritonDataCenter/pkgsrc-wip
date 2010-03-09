@@ -2415,6 +2415,7 @@ SUBDIR+=	xine-plugin
 SUBDIR+=	xinetd
 SUBDIR+=	xmail
 SUBDIR+=	xmim
+SUBDIR+=	xml-light
 SUBDIR+=	xmlformat-docs
 SUBDIR+=	xmlformat-perl
 SUBDIR+=	xmlformat-ruby
