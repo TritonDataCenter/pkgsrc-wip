@@ -1,7 +1,7 @@
 # $NetBSD$
 
-DISTNAME=		rarbsd-3.9.0
-PKGNAME=		rar-3.9.0
+DISTNAME=		rarbsd-3.9.2
+PKGNAME=		rar-3.9.2
 WRKSRC=			${WRKDIR}/rar
 CATEGORIES=		archivers
 MASTER_SITES=		http://www.rarlab.com/rar/
