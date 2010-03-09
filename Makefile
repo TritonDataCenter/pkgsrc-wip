@@ -441,6 +441,7 @@ SUBDIR+=	flc
 SUBDIR+=	flexdump
 SUBDIR+=	flimp
 SUBDIR+=	flimsel
+SUBDIR+=	flpsed
 SUBDIR+=	fluxspace
 SUBDIR+=	flv2mpeg4
 SUBDIR+=	flvmeta
