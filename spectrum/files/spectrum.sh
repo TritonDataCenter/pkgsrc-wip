@@ -10,17 +10,9 @@
 
 name="spectrum"
 rcvar=$name
-command=@PREFIX@/bin/spectrum
-required_files="@PKG_SYSCONFDIR@/yahoo-transport.xml"
-yahoo_transport_user="@JABBER_USER@"
-pidfile="@JABBER_PIDDIR@/yahoo-transport.pid"
-logfile="@JABBER_LOGDIR@/yahoo-transport.log"
+command=@PREFIX@/bin/spectrumctl
+spectrum_user="@JABBER_USER@"
 command_args=""
-stop_postcmd="remove_pidfile"
-start_precmd="ensure_piddir"
-
-PID=${pidfile} 
-export PID
 
 ensure_piddir()
 {
