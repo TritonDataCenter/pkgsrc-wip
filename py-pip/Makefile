@@ -4,7 +4,7 @@
 DISTNAME=	pip-0.6.3
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	devel
-MASTER_SITES=	http://pypi.python.org/packages/source/d/dexml/
+MASTER_SITES=	http://pypi.python.org/packages/source/p/pip/
 
 MAINTAINER=	wenheping@gmail.com
 HOMEPAGE=	http://pip.openplans.org/
