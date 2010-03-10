@@ -1,5 +1,0 @@
-@comment $NetBSD$
-include/dbi/dbd.h
-include/dbi/dbi-dev.h
-include/dbi/dbi.h
-lib/libdbi.la
