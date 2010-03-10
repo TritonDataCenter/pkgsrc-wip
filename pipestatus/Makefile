@@ -8,7 +8,6 @@ MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=pipestatus/}
 MAINTAINER=	cheusov@tut.by
 HOMEPAGE=	http://sourceforge.net/projects/pipestatus/
 COMMENT=	UNIX/POSIX shell helper for running pipes safely
-
 LICENSE=		public-domain
 
 PKG_DESTDIR_SUPPORT=	user-destdir
