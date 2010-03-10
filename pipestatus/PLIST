@@ -1,4 +1,0 @@
-@comment $NetBSD$
-bin/pipestatus
-share/doc/pipestatus/NEWS
-share/doc/pipestatus/README

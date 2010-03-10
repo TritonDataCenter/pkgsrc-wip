@@ -1734,7 +1734,6 @@ SUBDIR+=	pike-core
 SUBDIR+=	pike-gdbm
 SUBDIR+=	pike-mime
 SUBDIR+=	pinball
-SUBDIR+=	pipestatus
 SUBDIR+=	pizza
 SUBDIR+=	pjproject
 SUBDIR+=	pkg_conflicts
