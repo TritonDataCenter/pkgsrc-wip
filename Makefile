@@ -329,6 +329,7 @@ SUBDIR+=	drow
 SUBDIR+=	drpython
 SUBDIR+=	drumpiler
 SUBDIR+=	dsh
+SUBDIR+=	dspam
 SUBDIR+=	dssi
 SUBDIR+=	duali-data
 SUBDIR+=	dumb
