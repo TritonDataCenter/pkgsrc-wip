@@ -20,6 +20,13 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 CHECK_INTERPRETER_SKIP+=lib/opensips/opensipsctl/dbtextdb/dbtextdb.py
 REPLACE_PERL+=		scripts/osipsconsole
 
+PKG_SYSCONFSUBDIR=	opensips
+OWN_DIRS=		${EGDIR} ${PKG_SYSCONFDIR}
+EGDIR=			${PREFIX}/share/examples/opensips
+CONF_FILES+=		${EGDIR}/opensips.cfg ${PKG_SYSCONFDIR}/opensips.cf
+CONF_FILES+=		${EGDIR}/opensipsctlrc ${PKG_SYSCONFDIR}/opensipsctlrc
+CONF_FILES+=		${EGDIR}/osipsconsolerc ${PKG_SYSCONFDIR}/osipsconsolerc
+
 .include "../../security/openssl/buildlink3.mk"
 .include "../../textproc/expat/buildlink3.mk"
 .include "../../textproc/libxml2/buildlink3.mk"
