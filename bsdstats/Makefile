@@ -21,7 +21,7 @@ BUILD_DEFS+=		VARBASE
 
 WRKSRC=			${WRKDIR}/bsdstats
 NO_BUILD=		yes
-AUTO_MKDIRS=		yes
+INSTALLATION_DIRS=	bin
 
 post-extract:
 	${MKDIR} ${WRKDIR}/bsdstats
