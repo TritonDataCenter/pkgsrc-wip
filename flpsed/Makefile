@@ -14,6 +14,7 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 
 GNU_CONFIGURE=	yes
 USE_LANGUAGES=	c c++
+USE_TOOLS+=	gs:run
 
 .include "../../x11/fltk2/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
