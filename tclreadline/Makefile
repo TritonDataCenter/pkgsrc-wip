@@ -9,6 +9,7 @@ MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=tclreadline/}
 MAINTAINER=	pettai@nordu.net
 HOMEPAGE=	http://tclreadline.sourceforge.net/
 COMMENT=	GNU Readline library for interactive tcl shells
+LICENSE=	modified-bsd
 
 USE_LIBTOOL=		yes
 GNU_CONFIGURE=		yes
