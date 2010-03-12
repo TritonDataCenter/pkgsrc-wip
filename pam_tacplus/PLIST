@@ -1,4 +1,0 @@
-@comment $NetBSD$
-lib/security/pam_tacplus.so
-share/doc/pam_tacplus/README
-share/examples/pam_tacplus/sample.pam
