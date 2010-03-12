@@ -2289,6 +2289,7 @@ SUBDIR+=	tumble
 SUBDIR+=	tutos
 SUBDIR+=	tuxanci
 SUBDIR+=	tuxanci-server
+SUBDIR+=	tuxguitar
 SUBDIR+=	tuxtype2
 SUBDIR+=	tw_cli
 SUBDIR+=	twinkle
