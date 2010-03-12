@@ -170,7 +170,6 @@ SUBDIR+=	briquolo
 SUBDIR+=	brltty
 SUBDIR+=	bscript
 SUBDIR+=	bsdbuild
-SUBDIR+=	bsdstats
 SUBDIR+=	bsfilter
 SUBDIR+=	bsnes
 SUBDIR+=	bss
