@@ -1733,6 +1733,7 @@ SUBDIR+=	pkg_fake
 SUBDIR+=	pkg_online-client
 SUBDIR+=	pkg_online-server
 SUBDIR+=	pkg_rmleaves
+SUBDIR+=	pkg_status
 SUBDIR+=	pkg_summary-utils
 SUBDIR+=	pkgin
 SUBDIR+=	pkgmanager
