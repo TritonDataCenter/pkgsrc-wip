@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	dnsruby-1.43
+DISTNAME=	dnsruby-1.44
 PKGNAME=	${RUBY_PKGPREFIX}-${DISTNAME}
 CATEGORIES=	net
 
