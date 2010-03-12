@@ -11,13 +11,13 @@ HOMEPAGE=	http://tclreadline.sourceforge.net/
 COMMENT=	GNU Readline library for interactive tcl shells
 LICENSE=	modified-bsd
 
+PKG_DESTDIR_SUPPORT=	user-destdir
+
 USE_LIBTOOL=		yes
 GNU_CONFIGURE=		yes
 CONFIGURE_ARGS+=	--with-tcl=${PREFIX}/lib
 
 EGDIR=		${PREFIX}/share/examples/tclreadline
-
-PKG_DESTDIR_SUPPORT=	user-destdir
 
 MESSAGE_SUBST+=		EGDIR=${EGDIR}
 
@@ -26,7 +26,8 @@ SUBST_FILES.paths=      ${WRKSRC}/pkgIndex.tcl.in
 SUBST_FILES.paths+=     ${WRKSRC}/tclreadlineInit.tcl.in
 SUBST_FILES.paths+=     ${WRKSRC}/tclreadlineSetup.tcl.in
 SUBST_STAGE.paths=      post-patch
-SUBST_SED.paths=        -e 's,@@PREFIX@@,${PREFIX},'
+SUBST_SED.paths=        -e 's,\/usr\/local,${PREFIX},'
+SUBST_SED.paths+=       -e 's,\/usr\/locanl,${PREFIX},'
 
 INSTALLATION_DIRS=	include ${PKGMANDIR}/mann lib \
 			lib/tclreadline${PKGVERSION} ${EGDIR}
