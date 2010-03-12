@@ -7,6 +7,7 @@ CATEGORIES=	net
 MAINTAINER=	pettai@nordu.net
 HOMEPAGE=	http://dnsruby.rubyforge.org/
 COMMENT=	Ruby DNS client library
+LICENSE=	apache-1.1
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
