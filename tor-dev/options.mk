@@ -1,13 +1,27 @@
 # $NetBSD$
 
 PKG_OPTIONS_VAR=	PKG_OPTIONS.tor
-PKG_SUPPORTED_OPTIONS=	threads
+PKG_SUPPORTED_OPTIONS=	threads asciidoc
+PKG_SUGGESTED_OPTIONS+=	asciidoc
 
 .if !empty(PTHREAD_TYPE:Mnative)
 PKG_SUGGESTED_OPTIONS+=	threads
 .endif
 
 .include "../../mk/bsd.options.mk"
+
+###
+### This enables the build of manual pages. It requires asciidoc
+### at build time, which comes with a tail of dependencies and
+### may not be wanted under certain circumstances.
+###
+.if !empty(PKG_OPTIONS:Masciidoc)
+BUILD_DEPENDS+=		asciidoc>=8.3.3:../../textproc/asciidoc
+CONFIGURE_ARGS+=	--enable-asciidoc
+.else
+CONFIGURE_ARGS+=	--disable-asciidoc
+.endif
+
 
 ###
 ### This enables new code for threaded operation on NetBSD, OpenBSD, etc.
