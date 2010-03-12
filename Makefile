@@ -2075,7 +2075,6 @@ SUBDIR+=	showmesh
 SUBDIR+=	shttpd
 SUBDIR+=	shunt
 SUBDIR+=	sic
-SUBDIR+=	sid-milter
 SUBDIR+=	siege
 SUBDIR+=	silky
 SUBDIR+=	silvertree
