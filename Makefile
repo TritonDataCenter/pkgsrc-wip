@@ -1990,7 +1990,6 @@ SUBDIR+=	qvamps
 SUBDIR+=	r8s
 SUBDIR+=	rabbitmq
 SUBDIR+=	radare
-SUBDIR+=	rancid
 SUBDIR+=	rar3
 SUBDIR+=	ratproxy
 SUBDIR+=	rawphoto
