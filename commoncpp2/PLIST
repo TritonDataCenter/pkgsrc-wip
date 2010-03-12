@@ -1,6 +1,7 @@
 @comment $NetBSD$
 bin/ccgnu2-config
 include/cc++/address.h
+include/cc++/applog.h
 include/cc++/buffer.h
 include/cc++/cmdoptns.h
 include/cc++/common.h
