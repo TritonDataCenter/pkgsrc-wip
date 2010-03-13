@@ -2111,7 +2111,6 @@ SUBDIR+=	snark
 SUBDIR+=	snes9express
 SUBDIR+=	socklog
 SUBDIR+=	softflowd
-SUBDIR+=	softhsm
 SUBDIR+=	songwrite
 SUBDIR+=	soundtracker
 SUBDIR+=	sox
