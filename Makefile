@@ -1961,7 +1961,6 @@ SUBDIR+=	pydb
 SUBDIR+=	pylibpcap
 SUBDIR+=	pynfo
 SUBDIR+=	pypanel
-SUBDIR+=	pypcap
 SUBDIR+=	pypod
 SUBDIR+=	pysite
 SUBDIR+=	python31
