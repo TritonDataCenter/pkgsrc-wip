@@ -9,7 +9,7 @@ COMMENT+=	(server tools)
 
 DEPENDS+=	dict-server>=1.10.10nb2:../../textproc/dict-server
 DEPENDS+=	pkg_summary-utils>=0.18.1:../../wip/pkg_summary-utils
-DEPENDS+=	pipestatus-[0-9]*:../../wip/pipestatus
+DEPENDS+=	pipestatus-[0-9]*:../../devel/pipestatus
 
 INSTALL_TARGET=	install-server
 
