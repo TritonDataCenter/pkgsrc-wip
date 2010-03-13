@@ -1,0 +1,12 @@
+# $NetBSD$
+
+BUILDLINK_TREE+=	pylint
+
+.if !defined(PYLINT_BUILDLINK3_MK)
+PYLINT_BUILDLINK3_MK:=
+
+BUILDLINK_API_DEPENDS.pylint+=	pylint>=0.19.0nb1
+BUILDLINK_PKGSRCDIR.pylint?=	../../wip/pylint
+.endif	# PYLINT_BUILDLINK3_MK
+
+BUILDLINK_TREE+=	-pylint
