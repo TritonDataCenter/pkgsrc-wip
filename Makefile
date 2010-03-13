@@ -1958,7 +1958,6 @@ SUBDIR+=	py-zeitgeist
 SUBDIR+=	py-zinnia
 SUBDIR+=	pydance
 SUBDIR+=	pydb
-SUBDIR+=	pylibpcap
 SUBDIR+=	pynfo
 SUBDIR+=	pypanel
 SUBDIR+=	pypod
