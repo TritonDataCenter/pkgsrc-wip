@@ -13,7 +13,7 @@ LICENSE=	mit
 
 DEPENDS+=	runawk>=0.16.0:../../wip/runawk
 DEPENDS+=	awk-pkgsrc-dewey>=0.5.6:../../wip/awk-pkgsrc-dewey
-DEPENDS+=	pipestatus-[0-9]*:../../wip/pipestatus
+DEPENDS+=	pipestatus-[0-9]*:../../devel/pipestatus
 #DEPENDS+=	getopt-[0-9]*:../../misc/getopt
 
 CONFLICTS+=	paexec<0.13.0nb1

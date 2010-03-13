@@ -13,7 +13,7 @@ COMMENT=	Lightweight Malloc Debugger
 LICENSE=		mit
 
 BUILD_DEPENDS+=		mk-configure>=0.14.0:../../wip/mk-configure
-DEPENDS+=		pipestatus-[0-9]*:../../wip/pipestatus
+DEPENDS+=		pipestatus-[0-9]*:../../devel/pipestatus
 #DEPENDS+=		gdb-[0-9]*:../../devel/gdb
 
 PKG_DESTDIR_SUPPORT=	user-destdir

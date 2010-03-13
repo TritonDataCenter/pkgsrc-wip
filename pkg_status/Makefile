@@ -11,7 +11,7 @@ COMMENT=	Shows status of installed packages
 
 LICENSE=	mit
 
-DEPENDS+=	pipestatus-[0-9]*:../../wip/pipestatus
+DEPENDS+=	pipestatus-[0-9]*:../../devel/pipestatus
 DEPENDS+=	pkg_summary-utils-[0-9]*:../../wip/pkg_summary-utils
 
 PKG_DESTDIR_SUPPORT=	user-destdir
