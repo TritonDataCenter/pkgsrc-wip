@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	ibus-anthy-1.2.0.20100312.1
+DISTNAME=	ibus-anthy-1.2.0.20100313
 CATEGORIES=	inputmethod japanese
 MASTER_SITES=	http://ibus.googlecode.com/files/
 
