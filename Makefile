@@ -2468,7 +2468,6 @@ SUBDIR+=	zapping
 SUBDIR+=	zinf
 SUBDIR+=	zinnia
 SUBDIR+=	zinnia-tomoe
-SUBDIR+=	zkt
 SUBDIR+=	zope3-unstable
 SUBDIR+=	zsh-snapshot
 SUBDIR+=	zvbi
