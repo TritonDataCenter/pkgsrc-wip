@@ -1013,6 +1013,7 @@ SUBDIR+=	kmymoney2-devel
 SUBDIR+=	knutclient
 SUBDIR+=	koffice
 SUBDIR+=	koha
+SUBDIR+=	konatu-ttf
 SUBDIR+=	konversation
 SUBDIR+=	korelib
 SUBDIR+=	kpanta
