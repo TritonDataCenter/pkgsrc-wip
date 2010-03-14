@@ -23,6 +23,7 @@ WRKSRC=		${WRKDIR}
 
 do-build:
 	sed -e 's,@PKG_INFO_CMD@,${PKG_INFO},' \
+	    -e 's,@PACKAGES@,${PACKAGES},' \
 	    ${.CURDIR}/files/pkg_status.in > ${WRKSRC}/pkg_status
 
 do-install:
