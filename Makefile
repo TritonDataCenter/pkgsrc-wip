@@ -2267,7 +2267,6 @@ SUBDIR+=	trac-plugins-TimingAndEstimation
 SUBDIR+=	trac-plugins-excelviewer
 SUBDIR+=	trac-plugins-screenshots
 SUBDIR+=	trac-plugins-spamfilter
-SUBDIR+=	traceroute-nanog
 SUBDIR+=	trackballs
 SUBDIR+=	trayer
 SUBDIR+=	trayion
