@@ -22,7 +22,7 @@ NO_CHECKSUM=	yes
 WRKSRC=		${WRKDIR}
 
 do-build:
-	sed -e 's,@PKG_INFO@,${PKG_INFO},' \
+	sed -e 's,@PKG_INFO_CMD@,${PKG_INFO},' \
 	    ${.CURDIR}/files/pkg_status.in > ${WRKSRC}/pkg_status
 
 do-install:
