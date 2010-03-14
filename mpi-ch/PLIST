@@ -1,4 +1,5 @@
 @comment $NetBSD$
+bin/bt2line
 bin/check_callstack
 bin/clog2_join
 bin/clog2_print
