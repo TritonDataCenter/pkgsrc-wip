@@ -11,7 +11,10 @@ PLIST_VARS+=		gg jabber
 .include "../../textproc/expat/buildlink3.mk"
 .include "../../security/gnutls/buildlink3.mk"
 .include "../../security/gnutls/libgnutls-config.mk"
+CONFIGURE_ARGS+=	--with-expat
 PLIST.jabber=	yes
+.else
+CONFIGURE_ARGS+=	--without-expat
 .endif
 
 .if !empty(PKG_OPTIONS:Mgg)

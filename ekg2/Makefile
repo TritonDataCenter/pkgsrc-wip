@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	ekg2-20091123
+DISTNAME=	ekg2-20100305
 CATEGORIES=	chat
 MASTER_SITES=	http://pl.ekg2.org/
 MASTER_SITES+=	http://pl.ekg2.org/archive/
