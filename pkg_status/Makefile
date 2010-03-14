@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	pkg_status-0.5
+DISTNAME=	pkg_status-0.6
 CATEGORIES=	pkgtools
 MASTER_SITES=	# empty
 DISTFILES=	# empty
@@ -21,6 +21,9 @@ NO_CHECKSUM=	yes
 
 WRKSRC=		${WRKDIR}
 
+DOCDIR=			share/doc/pkg_status
+INSTALLATION_DIRS+=	${DOCDIR}
+
 do-build:
 	sed -e 's,@PKG_INFO_CMD@,${PKG_INFO},' \
 	    -e 's,@PACKAGES@,${PACKAGES},' \
@@ -28,5 +31,6 @@ do-build:
 
 do-install:
 	${INSTALL_SCRIPT} ${WRKSRC}/pkg_status ${DESTDIR}${PREFIX}/bin/
+	${INSTALL_DATA} ${.CURDIR}/files/NEWS ${DESTDIR}${PREFIX}/${DOCDIR}/
 
 .include "../../mk/bsd.pkg.mk"
