@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	goattrk2
-PKGNAME=	goattracker-2.68
+PKGNAME=	goattracker-2.70
 CATEGORIES=	audio
 MASTER_SITES=	http://cadaver.homeftp.net/tools/
 EXTRACT_SUFX=	.zip
