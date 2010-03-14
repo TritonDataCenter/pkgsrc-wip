@@ -39,9 +39,9 @@ PLIST_VARS+=		grass python
 
 .include "../../databases/sqlite3/buildlink3.mk"
 .include "../../geography/gdal-lib/buildlink3.mk"
+.include "../../geography/proj/buildlink3.mk"
 .include "../../graphics/tiff/buildlink3.mk"
 .include "../../math/gsl/buildlink3.mk"
-.include "../../misc/proj/buildlink3.mk"
 .include "../../mk/pgsql.buildlink3.mk"
 .include "../../x11/qt4-libs/buildlink3.mk"
 .include "../../x11/qt4-tools/buildlink3.mk"

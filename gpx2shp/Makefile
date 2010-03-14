@@ -16,6 +16,6 @@ USE_LANGUAGES=	c
 GNU_CONFIGURE=	yes
 USE_TOOLS+=	gmake
 
-.include "../../misc/proj/buildlink3.mk"
+.include "../../geography/proj/buildlink3.mk"
 .include "../../textproc/expat/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

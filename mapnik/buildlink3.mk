@@ -16,7 +16,7 @@ BUILDLINK_PKGSRCDIR.mapnik?=	../../wip/mapnik
 #.include "../../graphics/jpeg/buildlink3.mk"
 #.include "../../graphics/png/buildlink3.mk"
 #.include "../../graphics/tiff/buildlink3.mk"
-#.include "../../misc/proj/buildlink3.mk"
+#.include "../../geography/proj/buildlink3.mk"
 .endif # MAPNIK_BUILDLINK3_MK
 
 BUILDLINK_TREE+=	-mapnik
