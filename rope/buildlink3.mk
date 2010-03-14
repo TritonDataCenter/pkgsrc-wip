@@ -1,0 +1,12 @@
+# $NetBSD$
+
+BUILDLINK_TREE+=	rope
+
+.if !defined(ROPE_BUILDLINK3_MK)
+ROPE_BUILDLINK3_MK:=
+
+BUILDLINK_API_DEPENDS.rope+=	rope>=0.9.2
+BUILDLINK_PKGSRCDIR.rope?=	../../wip/rope
+.endif	# ROPE_BUILDLINK3_MK
+
+BUILDLINK_TREE+=	-rope
