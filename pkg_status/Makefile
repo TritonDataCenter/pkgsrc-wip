@@ -1,6 +1,7 @@
 # $NetBSD$
 
 DISTNAME=	pkg_status-0.6
+PKGREVISION=	1
 CATEGORIES=	pkgtools
 MASTER_SITES=	# empty
 DISTFILES=	# empty
