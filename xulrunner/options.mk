@@ -40,6 +40,7 @@ CONFIGURE_ARGS+=	--disable-jemalloc
 
 .if !empty(PKG_OPTIONS:Mdebug)
 CONFIGURE_ARGS+=	--enable-debug
+CONFIGURE_ARGS+=	--disable-install-strip
 PLIST.debug=		yes
 .else
 CONFIGURE_ARGS+=	--disable-debug
