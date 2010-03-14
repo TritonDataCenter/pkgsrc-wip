@@ -18,9 +18,14 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 INSTALLATION_DIRS+=	bin
 
 NO_CHECKSUM=	yes
-NO_BUILD=	yes
+
+WRKSRC=		${WRKDIR}
+
+do-build:
+	sed -e 's,@PKG_INFO@,${PKG_INFO},' \
+	    ${.CURDIR}/files/pkg_status.in > ${WRKSRC}/pkg_status
 
 do-install:
-	${INSTALL_SCRIPT} ${.CURDIR}/files/pkg_status ${DESTDIR}${PREFIX}/bin/
+	${INSTALL_SCRIPT} ${WRKSRC}/pkg_status ${DESTDIR}${PREFIX}/bin/
 
 .include "../../mk/bsd.pkg.mk"
