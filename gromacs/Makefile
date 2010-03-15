@@ -24,6 +24,7 @@ CONFIGURE_ARGS+=	--with-gsl
 
 .include "options.mk"
 
+USE_TOOLS+=		perl:run
 REPLACE_PERL=		scripts/demux.pl scripts/xplor2gmx.pl
 
 .include "../../math/fftw/buildlink3.mk"
