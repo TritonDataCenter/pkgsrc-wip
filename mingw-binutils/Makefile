@@ -6,7 +6,7 @@ CATEGORIES=	cross
 MASTER_SITES=	${MASTER_SITE_GNU:=binutils/}
 EXTRACT_SUFX=	.tar.bz2
 
-MAINTAINER=	makoto@ki.nu
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://mingw.sourceforge.net/
 COMMENT=	GNU binutils ported to win32 platforms
 
