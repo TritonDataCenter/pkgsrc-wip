@@ -2399,7 +2399,6 @@ SUBDIR+=	xmlformat-docs
 SUBDIR+=	xmlformat-perl
 SUBDIR+=	xmlformat-ruby
 SUBDIR+=	xmlsysinfo
-SUBDIR+=	xmltooling-c
 SUBDIR+=	xmms-cdread
 SUBDIR+=	xmms-dumb
 SUBDIR+=	xmms-infopipe
