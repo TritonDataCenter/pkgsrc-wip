@@ -1152,7 +1152,6 @@ SUBDIR+=	lletters
 SUBDIR+=	llvm
 SUBDIR+=	lmdbg
 SUBDIR+=	lmtp2nntp
-SUBDIR+=	log4shib
 SUBDIR+=	logfmon-devel
 SUBDIR+=	logrotate
 SUBDIR+=	lorder
