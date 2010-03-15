@@ -1,5 +1,4 @@
 # $NetBSD$
-# $Id: Makefile,v 1.12 2008/07/26 13:41:37 obache Exp $
 
 DISTNAME=	mingw-runtime-3.14
 PKGNAME=	mingw-runtime-bin-3.14

@@ -1,5 +1,4 @@
 # $NetBSD$
-# $Id: Makefile,v 1.20 2008/07/26 13:58:55 obache Exp $
 
 DISTNAME=	binutils-2.18
 PKGNAME=	mingw-${DISTNAME:S/-src//}
