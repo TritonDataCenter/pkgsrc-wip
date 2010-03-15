@@ -584,7 +584,6 @@ SUBDIR+=	gretl
 SUBDIR+=	grip
 SUBDIR+=	grisbi
 SUBDIR+=	groku
-SUBDIR+=	gromacs
 SUBDIR+=	grsync
 SUBDIR+=	grub2
 SUBDIR+=	grub2-current
