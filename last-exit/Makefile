@@ -7,7 +7,7 @@ CATEGORIES=	audio gnome
 MASTER_SITES=	http://lastexit-player.org/releases/
 EXTRACT_SUFX=	.tar.bz2
 
-MAINTAINER=	kamelderouiche@yahoo.com
+MAINTAINER=	pkgsrc.gnome@gmail.com
 HOMEPAGE=	http://lastexit-player.org/index.php/Main_Page
 COMMENT=	Last Exit is streaming media player for GNOME
 LICENSE=	gnu-gpl-v2
