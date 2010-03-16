@@ -6,7 +6,7 @@ CATEGORIES=	devel
 MASTER_SITES=	${MASTER_SITE_GNOME:=sources/hyena/0.2/}
 EXTRACT_SUFX=	.tar.bz2
 
-MAINTAINER=	kamelderouiche@yahoo.com
+MAINTAINER=	pkgsrc.gnome@gmail.com
 HOMEPAGE=	http://live.gnome.org/Hyena
 COMMENT=	Hyena is a C\# library used to make awesome applications
 #LICENSE=	# TODO: (see mk/license.mk)
