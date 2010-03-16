@@ -7,7 +7,7 @@ CATEGORIES=	print
 MASTER_SITES=	${MASTER_SITE_GNOME:=sources/pdfmod/0.8/}
 EXTRACT_SUFX=	.tar.bz2
 
-MAINTAINER=	kamelderouiche@yahoo.com
+MAINTAINER=	pkgsrc.gnome@gmail.com
 HOMEPAGE=	http://live.gnome.org/PdfMod
 COMMENT=	PDF Mod is a simple tool for modifying PDF documents
 LICENSE=	gnu-gpl-v2

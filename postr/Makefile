@@ -6,7 +6,7 @@ CATEGORIES=	graphics gnome
 MASTER_SITES=	ftp://ftp.gnome.org/pub/gnome/sources/postr/0.12/
 EXTRACT_SUFX=	.tar.bz2
 
-MAINTAINER=	kamelderouiche@yahoo.com
+MAINTAINER=	pkgsrc.gnome@gmail.com
 HOMEPAGE=	http://projects.gnome.org/postr/
 COMMENT=	GNOME flickr uploader
 #LICENSE=	# TODO: (see mk/license.mk)

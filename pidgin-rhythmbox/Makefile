@@ -6,7 +6,7 @@ PKGREVISION=	1
 CATEGORIES=	chat
 MASTER_SITES=	http://jon.oberheide.org/projects/pidgin-rhythmbox/downloads/
 
-MAINTAINER=	kamelderouiche@yahoo.com
+MAINTAINER=	pkgsrc.gnome@gmail.com
 HOMEPAGE=	http://jon.oberheide.org/projects/pidgin-rhythmbox/
 COMMENT=	Plugin for pidgin to support Rhythmbox
 
