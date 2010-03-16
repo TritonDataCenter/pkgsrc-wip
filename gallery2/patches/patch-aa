@@ -1,0 +1,10 @@
+$NetBSD$
+
+--- lib/tools/po/extract.php.orig	2009-12-18 01:51:55.000000000 +0100
++++ lib/tools/po/extract.php	2009-12-18 01:52:25.000000000 +0100
+@@ -1,4 +1,4 @@
+-#!/usr/bin/php -f
++#!@PREFIX@/bin/php -f
+ <?php
+ /*
+  * PHP script to extract strings from all the files and print
