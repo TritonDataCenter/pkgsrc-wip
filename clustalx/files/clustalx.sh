@@ -1,0 +1,7 @@
+#!/bin/sh
+# $NetBSD$
+
+LIBEXECDIR=@LIBEXECDIR@
+CLUSTALX=${LIBEXECDIR}/clustalx
+
+exec ${CLUSTALX} $*
