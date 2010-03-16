@@ -6,6 +6,7 @@ CATEGORIES=	time
 
 MAINTAINER=	pho@cielonegro.org
 COMMENT=	Parse, format and convert W3C Date and Time
+LICENSE=	public-domain
 
 .include "../../wip/mk/haskell.mk"
 .include "../../wip/hs-convertible/buildlink3.mk"
