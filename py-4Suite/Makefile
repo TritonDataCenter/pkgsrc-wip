@@ -10,12 +10,21 @@ MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=foursuite/}
 MAINTAINER=	pettai@nordu.net
 HOMEPAGE=	http://4suite.org/
 COMMENT=	Open-source platform for XML and RDF processing
+LICENSE=	apache-1.1
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
 PYDISTUTILSPKG= yes
 
-FILES_SUBST+=	PYTHONBIN=${PYTHONBIN:Q}
+SUBST_CLASSES+=		python
+SUBST_FILES.python=	${WRKSRC}/build/scripts.*/4xml
+SUBST_FILES.python+=	${WRKSRC}/build/scripts.*/4xpath
+SUBST_FILES.python+=	${WRKSRC}/build/scripts.*/4xslt
+SUBST_FILES.python+=	${WRKSRC}/build/scripts.*/4xupdate
+SUBST_STAGE.python=	post-build
+SUBST_SED.python=	-e 's,\#![^ ]* python,\#! ${PYTHONBIN},'
+
+PLIST_SUBST+=	PYVERSSUFFIX=${PYVERSSUFFIX}
 
 do-configure:
 	cd ${WRKSRC} && ${SETENV} ${CONFIGURE_ENV} \
