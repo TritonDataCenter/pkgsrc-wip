@@ -59,6 +59,8 @@ lib/Lucu-${PKGVERSION}/${HASKELL_VERSION}/Network/HTTP/Lucu/Response.hi
 lib/Lucu-${PKGVERSION}/${HASKELL_VERSION}/Network/HTTP/Lucu/Response.p_hi
 lib/Lucu-${PKGVERSION}/${HASKELL_VERSION}/Network/HTTP/Lucu/ResponseWriter.hi
 lib/Lucu-${PKGVERSION}/${HASKELL_VERSION}/Network/HTTP/Lucu/ResponseWriter.p_hi
+lib/Lucu-${PKGVERSION}/${HASKELL_VERSION}/Network/HTTP/Lucu/SocketLike.hi
+lib/Lucu-${PKGVERSION}/${HASKELL_VERSION}/Network/HTTP/Lucu/SocketLike.p_hi
 lib/Lucu-${PKGVERSION}/${HASKELL_VERSION}/Network/HTTP/Lucu/StaticFile.hi
 lib/Lucu-${PKGVERSION}/${HASKELL_VERSION}/Network/HTTP/Lucu/StaticFile.p_hi
 lib/Lucu-${PKGVERSION}/${HASKELL_VERSION}/Network/HTTP/Lucu/Utils.hi
