@@ -1,8 +1,8 @@
 $NetBSD$
 
---- js/ctypes/libffi/configure.orig	2010-01-21 03:30:16.000000000 +0000
+--- js/ctypes/libffi/configure.orig	2010-03-16 01:02:50.000000000 +0000
 +++ js/ctypes/libffi/configure
-@@ -21033,7 +21033,7 @@ case "$host" in
+@@ -12232,7 +12232,7 @@ case "$host" in
    powerpc-*-aix* | rs6000-*-aix*)
  	TARGET=POWERPC_AIX; TARGETDIR=powerpc
  	;;
