@@ -3,8 +3,7 @@
 
 DISTNAME=		clustalx-2.0.12
 CATEGORIES=		biology
-MASTER_SITES=		ftp://ftp-igbmc.u-strasbg.fr/pub/ClustalX/ \
-			ftp://ftp.ebi.ac.uk/pub/software/clustalw2/2.0.12/
+MASTER_SITES=		ftp://ftp.ebi.ac.uk/pub/software/clustalw2/2.0.12/
 
 MAINTAINER=	brook@nmsu.edu
 HOMEPAGE=	http://bips.u-strasbg.fr/fr/Documentation/ClustalX/
