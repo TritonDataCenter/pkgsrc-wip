@@ -1515,6 +1515,7 @@ SUBDIR+=	p5-Crypt-CAST5
 SUBDIR+=	p5-Crypt-Serpent
 SUBDIR+=	p5-DBIx-Easy
 SUBDIR+=	p5-DBIx-Simple
+SUBDIR+=	p5-Data-ObjectDriver
 SUBDIR+=	p5-Data-Properties
 SUBDIR+=	p5-Data-Random
 SUBDIR+=	p5-Date-Range
