@@ -6,7 +6,7 @@ PKGREVISION=	1
 CATEGORIES=	geography graphics
 MASTER_SITES=	http://www.ecademix.com/JohannesHofmann/
 
-MAINTAINER=	pkgsrc-users@NetBSD.org
+MAINTAINER=	johannes.hofmann@gmx.de
 HOMEPAGE=	http://www.ecademix.com/JohannesHofmann/gipfel.html
 COMMENT=	Photogrammetry For Mountain Images
 LICENSE=	gnu-gpl-v3
@@ -17,7 +17,6 @@ GNU_CONFIGURE=	yes
 USE_LANGUAGES=	c c++
 
 .include "../../graphics/tiff/buildlink3.mk"
-.include "../../graphics/png/buildlink3.mk"
 .include "../../graphics/jpeg/buildlink3.mk"
 .include "../../graphics/exiv2/buildlink3.mk"
 .include "../../math/gsl/buildlink3.mk"
