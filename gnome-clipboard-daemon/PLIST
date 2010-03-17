@@ -1,2 +1,2 @@
 @comment $NetBSD$
-bin/gnome-clipboard-daemon
+bin/clipboard-daemon
