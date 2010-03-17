@@ -1,8 +1,8 @@
 # $NetBSD$
 
 PKG_OPTIONS_VAR =	PKG_OPTIONS.SQLObject
-PKG_SUPPORTED_OPTIONS=	firebird mysql psycopg1 psycopg2 sqlite sybase
-PKG_SUGGESTED_OPTIONS=	psycopg1
+PKG_SUPPORTED_OPTIONS=	firebird mysql psycopg2 sqlite sybase
+PKG_SUGGESTED_OPTIONS=	psycopg2
 
 .include "../../mk/bsd.options.mk"
 
@@ -11,10 +11,6 @@ PLIST_VARS+=	${PKG_SUPPORTED_OPTIONS}
 .if !empty(PKG_OPTIONS:Mmysql)
 DEPENDS+=	${PYPKGPREFIX}-mysqldb-[0-9]*:../../databases/py-mysqldb
 PLIST.mysql=	yes
-.endif
-
-.if !empty(PKG_OPTIONS:Mpsycopg1)
-DEPENDS+=	${PYPKGPREFIX}-psycopg-[0-9]*:../../databases/py-psycopg
 .endif
 
 .if !empty(PKG_OPTIONS:Mpsycopg2)

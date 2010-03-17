@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	SQLObject-0.10.6.tar
+DISTNAME=	SQLObject-0.12.2.tar
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME:S/.tar//}
 CATEGORIES=	databases python
 MASTER_SITES=	http://pypi.python.org/packages/source/S/SQLObject/
@@ -14,7 +14,7 @@ LICENSE=	gnu-lgpl-v2
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
-WRKSRC=		${WRKDIR}/SQLObject-0.10.6
+WRKSRC=		${WRKDIR}/SQLObject-0.12.2
 USE_LANGUAGES=	# none
 
 PY_PATCHPLIST=		yes
