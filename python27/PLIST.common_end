@@ -1,0 +1,2 @@
+@comment $NetBSD$
+@pkgdir lib/python${PY_VER_SUFFIX}/lib-old
