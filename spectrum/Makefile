@@ -1,7 +1,8 @@
 # $NetBSD: Makefile-example,v 1.18 2009/05/18 17:09:43 agc Exp $
 
-DISTNAME=		spectrum
-PKGNAME=		${DISTNAME}-0.2s
+# DISTNAME=		spectrum
+# PKGNAME=		${DISTNAME}-${GIT_TAG}
+DISTNAME=		spectrum-v0.1s0
 # PKGREVISION=		2
 CATEGORIES=		chat
 
@@ -10,6 +11,7 @@ MAINTAINER=		eric@cirr.com
 HOMEPAGE=		http://spectrum.im/
 COMMENT=		XMPP transport/gateway based on libpurple
 LICENSE=		gnu-gpl-v3
+MASTER_SITES=		ftp://ftp.cirr.com/pub/eric/
 
 # if the package can be created without root privileges
 PKG_DESTDIR_SUPPORT=	user-destdir
@@ -18,11 +20,11 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 # DEPENDS+=		gettext-tools>=0.0:../../devel/gettext-tools
 
 # GIT configuration
-GIT_REPOSITORIES=	spectrum
-GIT_REPO.spectrum=	git://github.com/schnoebe/spectrum.git
-GIT_TAG=		94ff9163690a5bae41821fcda5204a1468ddd5b5
+# GIT_REPOSITORIES=	spectrum
+# GIT_REPO.spectrum=	git://github.com/schnoebe/spectrum.git
+# GIT_TAG=		v0.1s0
 
-.include "../../wip/mk/git-package.mk"
+# .include "../../wip/mk/git-package.mk"
 
 USE_TOOLS+=		pkg-config msgfmt
 USE_CMAKE=		yes
@@ -37,7 +39,7 @@ PY_PATCHPLIST=		yes
 
 PKG_SYSCONFSUBDIR=	spectrum
 EGDIR=			${PREFIX}/share/examples/spectrum
-RCD_SCRIPTS+=		spectrum
+RCD_SCRIPTS=		spectrum
 
 CONF_FILES+=		${EGDIR}/spectrum.cfg ${PKG_SYSCONFDIR}/spectrum.cfg
 
