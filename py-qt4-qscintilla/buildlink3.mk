@@ -5,7 +5,7 @@ BUILDLINK_TREE+=	py26-qt4-qscintilla
 .if !defined(PY26_QT4_QSCINTILLA_BUILDLINK3_MK)
 PY26_QT4_QSCINTILLA_BUILDLINK3_MK:=
 
-BUILDLINK_API_DEPENDS.py26-qt4-qscintilla+=	py26-qt4-qscintilla>=2.4.2nb1
+BUILDLINK_API_DEPENDS.py26-qt4-qscintilla+=	py26-qt4-qscintilla>=2.4.3nb1
 BUILDLINK_PKGSRCDIR.py26-qt4-qscintilla?=	../../wip/py-qt4-qscintilla
 
 .include "../../x11/py-sip/buildlink3.mk"
