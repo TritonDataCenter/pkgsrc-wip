@@ -1,0 +1,12 @@
+# $NetBSD$
+
+BUILDLINK_TREE+=	gmm
+
+.if !defined(GMM_BUILDLINK3_MK)
+GMM_BUILDLINK3_MK:=
+
+BUILDLINK_API_DEPENDS.gmm+=	gmm>=4.0.0
+BUILDLINK_PKGSRCDIR.gmm?=	../../wip/gmm
+.endif	# GMM_BUILDLINK3_MK
+
+BUILDLINK_TREE+=	-gmm
