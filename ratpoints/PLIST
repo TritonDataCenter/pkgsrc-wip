@@ -1,0 +1,5 @@
+@comment $NetBSD$
+bin/ratpoints
+include/ratpoints.h
+lib/libratpoints.a
+share/doc/ratpoints/ratpoints-doc.pdf
