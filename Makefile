@@ -550,6 +550,7 @@ SUBDIR+=	gnome-bluetooth
 SUBDIR+=	gnome-clipboard-daemon
 SUBDIR+=	gnome-do
 SUBDIR+=	gnome-jabber
+SUBDIR+=	gnome-js-common
 SUBDIR+=	gnome-keyring-sharp
 SUBDIR+=	gnomebaker
 SUBDIR+=	gnomeradio
