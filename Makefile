@@ -2003,6 +2003,7 @@ SUBDIR+=	r8s
 SUBDIR+=	rabbitmq
 SUBDIR+=	radare
 SUBDIR+=	rar3
+SUBDIR+=	ratpoints
 SUBDIR+=	ratproxy
 SUBDIR+=	rawphoto
 SUBDIR+=	rc.d.Interix
