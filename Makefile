@@ -486,7 +486,6 @@ SUBDIR+=	gDesklets-rssgrab
 SUBDIR+=	gDesklets-starterbar
 SUBDIR+=	gajim
 SUBDIR+=	galib
-SUBDIR+=	gallery2
 SUBDIR+=	gambas2
 SUBDIR+=	gambc
 SUBDIR+=	gappa
