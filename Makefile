@@ -1250,6 +1250,7 @@ SUBDIR+=	mlmmj
 SUBDIR+=	mlton-svn
 SUBDIR+=	mmm-mode
 SUBDIR+=	mnogosearch
+SUBDIR+=	modplugplay
 SUBDIR+=	modular-xorg-server
 SUBDIR+=	moe
 SUBDIR+=	molmol
