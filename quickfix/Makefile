@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=		quickfix-1.12.4
+DISTNAME=		quickfix-1.13.2
 CATEGORIES=		finance
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=quickfix/}
 
