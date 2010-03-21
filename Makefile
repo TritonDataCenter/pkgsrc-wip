@@ -2234,6 +2234,7 @@ SUBDIR+=	tegaki-zinnia-simplified-chinese
 SUBDIR+=	tegaki-zinnia-simplified-chinese-light
 SUBDIR+=	tegaki-zinnia-traditional-chinese
 SUBDIR+=	tegaki-zinnia-traditional-chinese-light
+SUBDIR+=	telepathy-butterfly
 SUBDIR+=	tellico
 SUBDIR+=	tendra
 SUBDIR+=	tendra.org-sid
