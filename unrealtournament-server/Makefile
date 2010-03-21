@@ -7,7 +7,7 @@ WRKSRC=		${WRKDIR}/ut-server
 CATEGORIES=	games
 MASTER_SITES=	http://public.planetmirror.com/pub/lokigames/installers/ut/
 
-MAINTAINER=	grant@NetBSD.org
+MAINTAINER=	pkgsrc-users@NetBSD.org
 COMMENT=	Server for Unreal Tournament first person shooter
 
 EMUL_PLATFORMS=		linux-i386

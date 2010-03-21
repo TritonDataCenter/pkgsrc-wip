@@ -7,7 +7,7 @@ CATEGORIES=		graphics
 MASTER_SITES=		http://www.mythtv.org/mc/
 EXTRACT_SUFX=		.tar.bz2
 
-MAINTAINER=		grant@NetBSD.org
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://www.mythtv.org/
 COMMENT=		TV/video recorder with many features
 
