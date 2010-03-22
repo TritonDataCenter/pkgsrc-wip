@@ -546,6 +546,7 @@ SUBDIR+=	gnochm
 SUBDIR+=	gnocky
 SUBDIR+=	gnokii
 SUBDIR+=	gnomad2
+SUBDIR+=	gnome-activity-journal
 SUBDIR+=	gnome-alsamixer
 SUBDIR+=	gnome-bluetooth
 SUBDIR+=	gnome-clipboard-daemon
