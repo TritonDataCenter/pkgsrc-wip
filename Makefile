@@ -1842,6 +1842,7 @@ SUBDIR+=	py-daemon
 SUBDIR+=	py-dbutils
 SUBDIR+=	py-decorator
 SUBDIR+=	py-dexml
+SUBDIR+=	py-distutils-extra
 SUBDIR+=	py-divmod-axiom
 SUBDIR+=	py-divmod-epsilon
 SUBDIR+=	py-divmod-mantissa
