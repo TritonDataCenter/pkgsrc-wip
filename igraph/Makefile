@@ -17,6 +17,9 @@ USE_LIBTOOL=	yes
 USE_TOOLS+=	pkg-config
 USE_LANGUAGES=	c c++
 
+REPLACE_SH+=	configure depcomp install-sh missing ylwrap \
+		tests/testsuite
+
 PKGCONFIG_OVERRIDE+=	igraph.pc.in
 
 .include "../../devel/gmp/buildlink3.mk"
