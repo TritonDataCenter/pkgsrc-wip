@@ -83,6 +83,7 @@ PREFER.bzip2?=	pkgsrc
 .include "../../archivers/bzip2/buildlink3.mk"
 BUILDLINK_API_DEPENDS.sqlite3+=	sqlite3>=3.6.22
 CONFIGURE_ENV+=	ac_cv_sqlite_secure_delete=yes # XXX pragma secure_delete
+CONFIGURE_ENV+= ac_cv_sqlite_enable_fts3=yes   # XXX we should enable it
 .include "../../databases/sqlite3/buildlink3.mk"
 .include "../../devel/zlib/buildlink3.mk"
 .include "../../graphics/jpeg/buildlink3.mk"

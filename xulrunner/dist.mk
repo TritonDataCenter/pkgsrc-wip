@@ -16,6 +16,6 @@ PATCHDIR=	${.CURDIR}/../../wip/xulrunner/patches
 WRKSRC=		${WRKDIR}/mozilla-${MOZ_BRANCH}
 
 # snapshot overrides
-DISTNAME=	050887c64183
+DISTNAME=	61fb9e7374eb
 MASTER_SITES=	http://hg.mozilla.org/mozilla-central/archive/
-WRKSRC=		${WRKDIR}/mozilla-central-050887c64183
+WRKSRC=		${WRKDIR}/mozilla-central-61fb9e7374eb
