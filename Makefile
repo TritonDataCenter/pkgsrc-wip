@@ -904,6 +904,7 @@ SUBDIR+=	idled
 SUBDIR+=	ifstat
 SUBDIR+=	igal
 SUBDIR+=	igowin
+SUBDIR+=	igraph
 SUBDIR+=	iisemulator
 SUBDIR+=	iksemel
 SUBDIR+=	ilbc-rfc3951
