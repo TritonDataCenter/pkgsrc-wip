@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	pt-cyrillic-ttf-1.0.20100112
+DISTNAME=	pt-cyrillic-ttf-1.0.20100113
 CATEGORIES=	fonts
 MASTER_SITES=	http://www.fontstock.com/public/
 DISTFILES=	PTSans.zip # PTSerif.zip (still under construction)
@@ -9,7 +9,7 @@ DISTFILES=	PTSans.zip # PTSerif.zip (still under construction)
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.paratype.ru/public/
 COMMENT=	Public fonts with Russia national alphabets support
-#LICENSE=	http://www.paratype.ru/public/pt_openlicense_eng.asp
+LICENSE=	pt-open-license
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
