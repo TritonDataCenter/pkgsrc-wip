@@ -1867,6 +1867,7 @@ SUBDIR+=	py-greenlet
 SUBDIR+=	py-gtk2-docs
 SUBDIR+=	py-gts
 SUBDIR+=	py-httplib2
+SUBDIR+=	py-igraph
 SUBDIR+=	py-imgSeek
 SUBDIR+=	py-ipaddr
 SUBDIR+=	py-ipython
