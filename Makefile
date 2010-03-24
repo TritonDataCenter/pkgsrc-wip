@@ -2210,6 +2210,7 @@ SUBDIR+=	tasks
 SUBDIR+=	tcc
 SUBDIR+=	tcc-devel
 SUBDIR+=	tcl-curl
+SUBDIR+=	tcl-tDOM
 SUBDIR+=	tcl85
 SUBDIR+=	tcmplex-panteltje
 SUBDIR+=	tcpspy
