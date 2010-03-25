@@ -1,0 +1,2 @@
+@comment $NetBSD$
+lib/dovecot/imap/lib90_antispam_plugin.so
