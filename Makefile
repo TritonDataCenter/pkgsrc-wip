@@ -1131,6 +1131,7 @@ SUBDIR+=	libvdpau
 SUBDIR+=	libvg
 SUBDIR+=	libwbxml2-patched
 SUBDIR+=	libxc
+SUBDIR+=	libyubikey
 SUBDIR+=	libzdb
 SUBDIR+=	libzrtpcpp
 SUBDIR+=	lidia
