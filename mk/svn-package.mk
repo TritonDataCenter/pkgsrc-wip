@@ -195,7 +195,7 @@ pre-extract: do-svn-extract
 do-svn-extract: .PHONY
 .if defined(SVN_CERTS) && !empty(SVN_CERTS)
 	${RUN}${MKDIR} -p ${_SVN_CONFIG_DIR}/auth/svn.ssl.server
-	${RUN}${CP} ${SVN_CERTS:Q} ${_SVN_CONFIG_DIR}/auth/svn.ssl.server
+	${RUN}${CP} ${SVN_CERTS} ${_SVN_CONFIG_DIR}/auth/svn.ssl.server
 .endif
 .for repo in ${SVN_REPOSITORIES}
 	${RUN} cd ${WRKDIR};						\
