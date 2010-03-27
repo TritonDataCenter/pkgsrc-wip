@@ -45,8 +45,6 @@ lib/Lucu-${PKGVERSION}/${HASKELL_VERSION}/Network/HTTP/Lucu/Postprocess.hi
 lib/Lucu-${PKGVERSION}/${HASKELL_VERSION}/Network/HTTP/Lucu/Postprocess.p_hi
 lib/Lucu-${PKGVERSION}/${HASKELL_VERSION}/Network/HTTP/Lucu/Preprocess.hi
 lib/Lucu-${PKGVERSION}/${HASKELL_VERSION}/Network/HTTP/Lucu/Preprocess.p_hi
-lib/Lucu-${PKGVERSION}/${HASKELL_VERSION}/Network/HTTP/Lucu/RFC1123DateTime.hi
-lib/Lucu-${PKGVERSION}/${HASKELL_VERSION}/Network/HTTP/Lucu/RFC1123DateTime.p_hi
 lib/Lucu-${PKGVERSION}/${HASKELL_VERSION}/Network/HTTP/Lucu/Request.hi
 lib/Lucu-${PKGVERSION}/${HASKELL_VERSION}/Network/HTTP/Lucu/Request.p_hi
 lib/Lucu-${PKGVERSION}/${HASKELL_VERSION}/Network/HTTP/Lucu/RequestReader.hi
