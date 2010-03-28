@@ -1168,6 +1168,7 @@ SUBDIR+=	lire
 SUBDIR+=	lissac
 SUBDIR+=	lives
 SUBDIR+=	lletters
+SUBDIR+=	llgal
 SUBDIR+=	llvm
 SUBDIR+=	lmdbg
 SUBDIR+=	lmtp2nntp
