@@ -1,0 +1,4 @@
+@comment $NetBSD$
+bin/download
+bin/surfer
+share/applications/surfer.desktop
