@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	milter-manager-1.4.1
+DISTNAME=	milter-manager-1.4.2
 CATEGORIES=	mail
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=milter-manager/}
 
