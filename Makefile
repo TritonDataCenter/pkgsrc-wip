@@ -2009,6 +2009,7 @@ SUBDIR+=	qucs
 SUBDIR+=	quickfix
 SUBDIR+=	quickie
 SUBDIR+=	quodlibet
+SUBDIR+=	quvi
 SUBDIR+=	qvamps
 SUBDIR+=	r8s
 SUBDIR+=	rabbitmq
