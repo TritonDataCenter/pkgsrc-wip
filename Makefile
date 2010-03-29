@@ -5,6 +5,7 @@ COMMENT=	WIP pkgsrc packages
 
 SUBDIR+=	389-ds-base
 SUBDIR+=	Chinput
+SUBDIR+=	FontManager
 SUBDIR+=	GNUMail-pgp
 SUBDIR+=	GSCommander
 SUBDIR+=	GoogleEarth
@@ -43,6 +44,7 @@ SUBDIR+=	StepTalk
 SUBDIR+=	Terminal
 SUBDIR+=	TextEdit
 SUBDIR+=	TinySVM
+SUBDIR+=	Typewriter
 SUBDIR+=	WEPCrack
 SUBDIR+=	a2ps-sharatype
 SUBDIR+=	abclock
