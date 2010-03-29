@@ -5,7 +5,7 @@ DISTNAME=	lxmusic-0.4.0
 CATEGORIES=	audio
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=lxde/}
 
-MAINTAINER=	christtrekker@users.sourceforge.net
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://lxde.org/
 COMMENT=	Minimalist XMMS2-based music player
 LICENSE=	gnu-gpl-v2
