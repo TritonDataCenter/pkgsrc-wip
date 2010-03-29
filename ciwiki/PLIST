@@ -1,0 +1,16 @@
+@comment $NetBSD$
+bin/didiwiki
+man/man1/didiwiki.1
+share/doc/ciwiki/AUTHORS
+share/doc/ciwiki/COPYING
+share/doc/ciwiki/ChangeLog
+share/doc/ciwiki/HOWLOGIN
+share/doc/ciwiki/INSTALL
+share/doc/ciwiki/NEWS
+share/doc/ciwiki/README
+share/doc/ciwiki/TODO
+share/doc/ciwiki/didiwiki-16.png
+share/doc/ciwiki/didiwiki.conf
+share/doc/ciwiki/didiwiki.html
+share/doc/ciwiki/didiwiki.png
+share/doc/ciwiki/styles.css
