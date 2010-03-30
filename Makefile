@@ -1358,6 +1358,7 @@ SUBDIR+=	newsbeuter
 SUBDIR+=	nginx
 SUBDIR+=	nicotine+
 SUBDIR+=	njb-sharp
+SUBDIR+=	nmap-beta
 SUBDIR+=	nmzmail
 SUBDIR+=	nnrpd
 SUBDIR+=	noip

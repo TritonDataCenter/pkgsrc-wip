@@ -7,7 +7,7 @@ CATEGORIES=	net security
 MASTER_SITES=	http://nmap.org/dist/
 EXTRACT_SUFX=	.tar.bz2
 
-MAINTAINER=	pkgsrc-users@NetBSD.org
+MAINTAINER=	pettai@NetBSD.org
 HOMEPAGE=	http://insecure.org/nmap/
 COMMENT=	Network/port scanner with OS detection
 LICENSE=	gnu-gpl-v2
