@@ -2,13 +2,13 @@
 #
 
 DISTNAME=			QScintilla-gpl-2.4.3
-PKGNAME=			${PYPKGPREFIX}-qt4-qscintilla-2.4.3
-PKGREVISION=		1
+PKGNAME=			${PYPKGPREFIX}-qt4-${DISTNAME:tl:S/-gpl-/-/}
+PKGREVISION=		2
 CATEGORIES=			x11
 MASTER_SITES=		http://www.riverbankcomputing.com/static/Downloads/QScintilla2/
 
 MAINTAINER=			helgoman@users.sourceforge.net
-HOMEPAGE=			http://www.riverbankcomputing.com/static/Downloads/QScintilla2/
+HOMEPAGE=			http://www.riverbankcomputing.co.uk/software/qscintilla/intro
 COMMENT=			QScintilla -- Python bindings --
 LICENSE=			gnu-gpl-v3
 
@@ -16,7 +16,6 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 
 WRKSRC=				${WRKDIR}/${DISTNAME}/Python
 
-USE_TOOLS+=			make
 USE_LIBTOOL=		yes
 USE_LANGUAGES=		c++
 
