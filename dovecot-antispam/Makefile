@@ -1,6 +1,7 @@
 # $NetBSD$
 
-DISTNAME=	dovecot-antispam-1.2
+DISTNAME=	dovecot-antispam-1.3-pre1
+PKGNAME=	dovecot-antispam-1.2.90.1
 CATEGORIES=	mail
 MASTER_SITES=	http://johannes.sipsolutions.net/download/dovecot-antispam/
 EXTRACT_SUFX=	.tar.bz2
