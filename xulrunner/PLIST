@@ -1941,7 +1941,7 @@ include/xulrunner/nspr/md/_irix64.cfg
 include/xulrunner/nspr/md/_linux.cfg
 include/xulrunner/nspr/md/_ncr.cfg
 include/xulrunner/nspr/md/_nec.cfg
-include/xulrunner/nspr/md/_${LOWER_OPSYS}.cfg
+include/xulrunner/nspr/md/_netbsd.cfg
 include/xulrunner/nspr/md/_nextstep.cfg
 include/xulrunner/nspr/md/_nto.cfg
 include/xulrunner/nspr/md/_openbsd.cfg
