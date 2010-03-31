@@ -1,14 +1,14 @@
 # $NetBSD$
 #
 
-DISTNAME=		biopython-1.40b
+DISTNAME=		biopython-1.53
 CATEGORIES=		biology
 MASTER_SITES=		http://biopython.org/DIST/
 
 MAINTAINER=		dprice@cs.nmsu.edu
 HOMEPAGE=		http://biopython.org/
 COMMENT=		Python libraries for computational molecular biology
-LICENSE=		no-commercial-use
+LICENSE=		Biopython
 
 PY_PATCHPLIST=		YES
 PYDISTUTILSPKG=		YES
@@ -32,6 +32,6 @@ post-install:
 		${PREFIX}/share/examples/biopython/nmr
 
 .include "../../time/py-mxDateTime/buildlink3.mk"
-.include "../../math/py-Numeric/buildlink3.mk"
+.include "../../math/py-numpy/buildlink3.mk"
 .include "../../lang/python/extension.mk"
 .include "../../mk/bsd.pkg.mk"
