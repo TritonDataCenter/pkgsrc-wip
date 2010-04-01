@@ -2154,6 +2154,7 @@ SUBDIR+=	spfmilter
 SUBDIR+=	sphinxsearch
 SUBDIR+=	spin
 SUBDIR+=	splix
+SUBDIR+=	squidview
 SUBDIR+=	squirrelmail-avelsieve
 SUBDIR+=	squirrelmail-chg_sasl_passwd
 SUBDIR+=	squirrelmail-compatibility
