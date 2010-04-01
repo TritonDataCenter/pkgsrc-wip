@@ -14,6 +14,7 @@ CONFIGURE_ARGS+=	--enable-debug
 .if !empty(PKG_OPTIONS:Mopenmpi-vampirtrace)
 CONFLICTS+=	libotf-[0-9]*
 PLIST_SRC+=	PLIST.vt
+.include "../../graphics/freetype2/buildlink3.mk"
 .else
 CONFIGURE_ARGS+=	--enable-contrib-no-build=vt
 .endif
