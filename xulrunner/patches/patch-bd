@@ -1,6 +1,6 @@
 $NetBSD$
 
---- js/ctypes/CTypes.cpp.orig	2010-03-16 01:02:50.000000000 +0000
+--- js/ctypes/CTypes.cpp.orig	2010-04-01 07:32:13.000000000 +0000
 +++ js/ctypes/CTypes.cpp
 @@ -36,6 +36,22 @@
   *
@@ -24,4 +24,4 @@ $NetBSD$
 +
  #include "jscntxt.h"
  #include "CTypes.h"
- #include "nsAutoPtr.h"
+ #include "Library.h"

@@ -50,7 +50,7 @@ CONFIGURE_ARGS+=	--disable-debug
 .if !empty(PKG_OPTIONS:Mmozilla-jit)
 PLIST.jit=		yes
 PLIST_SUBST+=		NANOJIT_ARCH=${NANOJIT_ARCH.${MACHINE_ARCH}}
-CONFIGURE_ARGS+=	--enable-jit
+CONFIGURE_ARGS+=	--enable-tracejit
 .else
-CONFIGURE_ARGS+=	--disable-jit
+CONFIGURE_ARGS+=	--disable-tracejit
 .endif
