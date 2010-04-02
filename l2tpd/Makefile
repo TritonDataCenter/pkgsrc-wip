@@ -4,7 +4,7 @@ DISTNAME=	l2tpd-0.69
 CATEGORIES=	net
 MASTER_SITES=	http://l2tpd.sourceforge.net/l2tpd.org/downloads/
 
-MAINTAINER=	hauke@Espresso.Rhein-Neckar.DE
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://l2tpd.sourceforge.net/
 # NOTE: "The l2tpd project is now officially inactive"
 COMMENT=	Implementation of the layer two tunneling protocol (l2tp)
