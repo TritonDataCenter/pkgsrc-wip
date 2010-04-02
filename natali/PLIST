@@ -3,4 +3,5 @@ include/at/appletalk.h
 include/at/nbp.h
 include/at/pap.h
 lib/libnatali.a
-share/doc/natali
+share/doc/natali/History.txt
+share/doc/natali/README.txt
