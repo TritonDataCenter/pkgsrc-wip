@@ -45,6 +45,10 @@ EGDIR=		${PREFIX}/share/examples/c-news
 DEPENDS+=	uucp-[1-9]*:../../net/uucp
 .endif
 
+.if !empty(PKGSRC_RUN_TEST:M[Yy][Ee][Ss])
+TEST_TARGET=	regression
+.endif
+
 USE_TOOLS+=	perl:run
 REPLACE_PERL+=	${PGPVERIFY:Q}
 
@@ -94,7 +98,7 @@ pre-configure:
 # One of the regression tests does not work correctly if we are in
 # a union-mounted directory. In that case, build with something like
 # "env WRKOBJDIR=/var/tmp make".
-post-build:     build-doc regression
+post-build:     build-doc
 
 .PHONY: regression
 regression:
