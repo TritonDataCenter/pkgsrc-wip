@@ -6,12 +6,8 @@ BUILDLINK_TREE+=	libtorrent-rasterbar
 LIBTORRENT_RASTERBAR_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.libtorrent-rasterbar+=	libtorrent-rasterbar>=0.15.0
-BUILDLINK_PKGSRCDIR.libtorrent-rasterbar?=	../../local/libtorrent-rasterbar
+BUILDLINK_PKGSRCDIR.libtorrent-rasterbar?=	../../wip/libtorrent-rasterbar
 
-.include "../../devel/boost-libs/buildlink3.mk"
-.include "../../net/GeoIP/buildlink3.mk"
-.include "../../security/openssl/buildlink3.mk"
-.include "../../devel/zlib/buildlink3.mk"
 .endif	# LIBTORRENT_RASTERBAR_BUILDLINK3_MK
 
 BUILDLINK_TREE+=	-libtorrent-rasterbar

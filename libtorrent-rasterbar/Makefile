@@ -9,6 +9,8 @@ COMMENT=	The rasterbar libtorrent is a feature complete C++ bittorrent library
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
+BUILD_MAKE_FLAGS+=	V=1
+
 PKGCONFIG_OVERRIDE=	libtorrent-rasterbar.pc.in
 
 .include "../../wip/libtorrent-rasterbar/Makefile.common"
