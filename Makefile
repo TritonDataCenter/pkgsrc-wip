@@ -1856,6 +1856,7 @@ SUBDIR+=	py-divmod-vertex
 SUBDIR+=	py-django-diario
 SUBDIR+=	py-django-tagging
 SUBDIR+=	py-duali
+SUBDIR+=	py-eyeD3
 SUBDIR+=	py-eventlet
 SUBDIR+=	py-ezPyCrypto
 SUBDIR+=	py-fastaudio
