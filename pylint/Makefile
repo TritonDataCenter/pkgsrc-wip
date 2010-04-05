@@ -1,14 +1,14 @@
 # $NetBSD$
 #
 
-VERS=						0.19.0
+VERS=						0.20.0
 DISTNAME=					pylint-${VERS}
 PKGREVISION=    			1
 CATEGORIES=					devel
 MASTER_SITES=				http://pypi.python.org/packages/source/p/pylint/
 
 MAINTAINER=					helgoman@users.sourceforge.net
-HOMEPAGE=					http://www.logilab.org/857
+HOMEPAGE=					http://www.logilab.org/project/pylint
 COMMENT=					Python code static checker
 LICENSE=					gnu-gpl-v2
 
