@@ -1,10 +1,10 @@
 # $NetBSD$
 #
 
-DISTNAME=		ecl-10.3.1
+DISTNAME=		ecl-10.4.1
 CATEGORIES=		lang
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=ecls/}
-EXTRACT_SUFX=		.tgz
+#EXTRACT_SUFX=		.tgz
 
 MAINTAINER=		asau@inbox.ru
 HOMEPAGE=		http://ecls.sourceforge.net/
