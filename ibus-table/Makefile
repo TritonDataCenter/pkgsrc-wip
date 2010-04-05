@@ -31,6 +31,7 @@ SUBST_FILES.epython=	engine/ibus-engine-table.in
 SUBST_FILES.epython+=	engine/ibus-table-createdb.in
 SUBST_SED.epython=	-e 's;exec python;exec ${PYTHONBIN};g'
 
-.include "../../wip/ibus/buildlink3.mk"
 .include "../../lang/python/application.mk"
+BUILDLINK_ABI_DEPENDS.ibus+=	ibus>=1.1.0
+.include "../../wip/ibus/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
