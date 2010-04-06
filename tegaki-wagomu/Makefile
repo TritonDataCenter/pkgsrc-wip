@@ -1,9 +1,10 @@
 # $NetBSD$
 #
 
-DISTNAME=	tegaki-wagomu-0.3
+DISTNAME=	tegaki-wagomu-0.3.1
 CATEGORIES=	inputmethod
-MASTER_SITES=	http://www.tegaki.org/releases/0.3/
+MASTER_SITES=	http://www.tegaki.org/releases/${PKGVERSION_NOREV}/
+DISTFILES=	tegaki-wagomu-0.3${EXTRACT_SUFX} ${DEFAULT_DISTFILES}
 
 MAINTAINER=	obache@NetBSD.org
 HOMEPAGE=	http://www.tegaki.org/
@@ -17,6 +18,10 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 USE_LANGUAGES=	c c++
 
 PYDISTUTILSPKG=	yes
+
+post-extract:
+		${CP} ${WRKDIR}/tegaki-wagomu-0.3/tegakiwagomu.py ${WRKSRC}
+		${CP} ${WRKDIR}/tegaki-wagomu-0.3/wagomu.h ${WRKSRC}
 
 .include "../../devel/glib2/buildlink3.mk"
 .include "../../lang/python/extension.mk"

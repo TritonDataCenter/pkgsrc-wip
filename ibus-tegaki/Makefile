@@ -1,24 +1,29 @@
 # $NetBSD$
 #
 
-DISTNAME=	tegaki-tools-0.3.1
+DISTNAME=	ibus-tegaki-0.3.1
 CATEGORIES=	inputmethod
 MASTER_SITES=	http://www.tegaki.org/releases/${PKGVERSION_NOREV}/
 
 MAINTAINER=	obache@NetBSD.org
 HOMEPAGE=	http://www.tegaki.org/
-COMMENT=	Set of command-line tools for Tegaki
+COMMENT=	Tegaki integration in ibus
 LICENSE=	gnu-gpl-v2
 
-DEPENDS+=	tegaki-python>=0.3:../../wip/tegaki-python
 DEPENDS+=	tegaki-pygtk>=0.3:../../wip/tegaki-pygtk
+DEPENDS+=	ibus>=1.2:../../wip/ibus
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
-USE_LANGUAGES=	c c++
+USE_LANGUAGES=	# none
 
 PYDISTUTILSPKG=	yes
 
-.include "../../lang/python/application.mk"
+SUBST_CLASSES+=		epython
+SUBST_STAGE.epython=	pre-configure
+SUBST_FILES.epython=	ibus-engine-tegaki.in
+SUBST_SED.epython=	-e 's;exec python;exec ${PYTHONBIN};g'
+
 .include "../../lang/python/extension.mk"
+.include "../../lang/python/application.mk"
 .include "../../mk/bsd.pkg.mk"

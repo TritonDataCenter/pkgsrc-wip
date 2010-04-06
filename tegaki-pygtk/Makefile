@@ -1,9 +1,9 @@
 # $NetBSD$
 #
 
-DISTNAME=	tegaki-pygtk-0.3
+DISTNAME=	tegaki-pygtk-0.3.1
 CATEGORIES=	inputmethod
-MASTER_SITES=	http://www.tegaki.org/releases/0.3/
+MASTER_SITES=	http://www.tegaki.org/releases/${PKGVERSION_NOREV}/
 
 MAINTAINER=	obache@NetBSD.org
 HOMEPAGE=	http://www.tegaki.org/
