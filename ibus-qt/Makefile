@@ -1,9 +1,8 @@
 # $NetBSD$
 #
 
-DISTNAME=	ibus-qt-1.2.0.20091217-Source
+DISTNAME=	ibus-qt-1.3.0-Source
 PKGNAME=	${DISTNAME:S/-Source//}
-PKGREVISION=	1
 CATEGORIES=	inputmethod
 MASTER_SITES=	http://ibus.googlecode.com/files/
 
