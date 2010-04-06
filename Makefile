@@ -2494,6 +2494,7 @@ SUBDIR+=	yamcha
 SUBDIR+=	yauap
 SUBDIR+=	yaws
 SUBDIR+=	yersinia
+SUBDIR+=	ykclient
 SUBDIR+=	yp-tools
 SUBDIR+=	ypbind-mt
 SUBDIR+=	ypserv
