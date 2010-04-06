@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	ibus-hangul-1.2.0.20100102
+DISTNAME=	ibus-hangul-1.3.0.20100329
 CATEGORIES=	inputmethod korean
 MASTER_SITES=	http://ibus.googlecode.com/files/
 
