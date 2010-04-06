@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	ibus-1.2.1
+DISTNAME=	ibus-1.3.1
 CATEGORIES=	inputmethod
 MASTER_SITES=	http://ibus.googlecode.com/files/
 
