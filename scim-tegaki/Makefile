@@ -6,7 +6,7 @@ CATEGORIES=	inputmethod
 MASTER_SITES=	http://www.tegaki.org/releases/0.1/
 
 MAINTAINER=	obache@NetBSD.org
-HOMEPAGE=	http://www.tegaki.org/releases/0.1/
+HOMEPAGE=	http://www.tegaki.org/
 COMMENT=	Tegaki integration in SCIM
 LICENSE=	gnu-gpl-v2
 
