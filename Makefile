@@ -163,6 +163,7 @@ SUBDIR+=	bmp-docklet
 SUBDIR+=	bnr2
 SUBDIR+=	boa
 SUBDIR+=	bodr
+SUBDIR+=	bogomips
 SUBDIR+=	boinc
 SUBDIR+=	boinc-client
 SUBDIR+=	boinc-lib
