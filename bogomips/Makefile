@@ -31,11 +31,12 @@ BUILD_TARGET=bogoport
 .endif
 
 INSTALLATION_DIRS+= share/doc/bogomips
+INSTALLATION_DIRS+= bin
 
 
 do-install:
-	${INSTALL_PROGRAM} ${WRKSRC}/${BUILD_TARGET} ${DESTDIR}/${PREFIX}/bin/bogomips
-	${INSTALL_DATA} ${WRKSRC}/README ${DESTDIR}/${PREFIX}/share/doc/bogomips
+	${INSTALL_PROGRAM} ${WRKSRC}/${BUILD_TARGET} ${DESTDIR}${PREFIX}/bin/bogomips
+	${INSTALL_DATA} ${WRKSRC}/README ${DESTDIR}${PREFIX}/share/doc/bogomips
 
 
 .include "../../mk/bsd.pkg.mk"
