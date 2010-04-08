@@ -2310,6 +2310,7 @@ SUBDIR+=	trayion
 SUBDIR+=	treetool
 SUBDIR+=	treeview
 SUBDIR+=	tripwire2
+SUBDIR+=	truecrypt
 SUBDIR+=	tsh
 SUBDIR+=	tsm
 SUBDIR+=	ttf-indic-fonts
