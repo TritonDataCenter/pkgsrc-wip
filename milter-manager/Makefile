@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	milter-manager-1.4.2
+DISTNAME=	milter-manager-1.5.0
 CATEGORIES=	mail
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=milter-manager/}
 
@@ -54,6 +54,7 @@ OWN_DIRS_PERMS+=	${VARBASE}/run/milter-manager \
 	applicable-conditions/restrict-accounts.conf \
 	applicable-conditions/s25r.conf \
 	applicable-conditions/sendmail-compatible.conf \
+	applicable-conditions/stress.conf \
 	defaults/pkgsrc.conf
 CONF_FILES+=	${EGDIR}/${conf} ${PKG_SYSCONFDIR}/${conf}
 .endfor

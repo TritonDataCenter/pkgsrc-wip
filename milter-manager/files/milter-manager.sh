@@ -1,4 +1,7 @@
 #! @RCD_SCRIPTS_SHELL@
+#
+# $NetBSD$
+#
 
 # PROVIDE: milter-manager
 # REQUIRE: LOGIN
