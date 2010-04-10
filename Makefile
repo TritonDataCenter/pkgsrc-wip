@@ -1907,6 +1907,7 @@ SUBDIR+=	py-logilab-pigg
 SUBDIR+=	py-matplotlib
 SUBDIR+=	py-matplotlib-gtk2
 SUBDIR+=	py-mdp
+SUBDIR+=	py-memcached
 SUBDIR+=	py-metrics
 SUBDIR+=	py-mocker
 SUBDIR+=	py-mpmath
