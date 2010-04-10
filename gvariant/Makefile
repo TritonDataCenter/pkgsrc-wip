@@ -5,10 +5,10 @@ DISTNAME=	gvariant-0
 CATEGORIES=	devel
 MASTER_SITES=	http://people.gnome.org/~ryanl/src/
 
-MAINTAINER=	kamelderouiche@yahoo.com
+MAINTAINER=	pkgsrc.gnome@gmail.com
 HOMEPAGE=	http://people.gnome.org/~ryanl/src/
 COMMENT=	GVariant is a new datatype in glib that stores complex values
-LICENSE=		gnu-gpl-v3
+LICENSE=	gnu-gpl-v3
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
