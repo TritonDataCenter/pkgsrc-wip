@@ -1893,7 +1893,6 @@ SUBDIR+=	py-kyra
 SUBDIR+=	py-last
 SUBDIR+=	py-lib
 SUBDIR+=	py-libmc
-SUBDIR+=	py-libmemcache
 SUBDIR+=	py-libmpdclient2
 SUBDIR+=	py-libopensync-plugin
 SUBDIR+=	py-libtorrent-rasterbar
