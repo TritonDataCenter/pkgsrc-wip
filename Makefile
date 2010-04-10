@@ -1027,7 +1027,6 @@ SUBDIR+=	knutclient
 SUBDIR+=	koffice
 SUBDIR+=	koha
 SUBDIR+=	konatu-ttf
-SUBDIR+=	konversation
 SUBDIR+=	korelib
 SUBDIR+=	kpanta
 SUBDIR+=	kpathsea
