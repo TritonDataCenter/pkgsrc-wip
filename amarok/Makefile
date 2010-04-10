@@ -3,6 +3,7 @@
 
 DISTNAME=	amarok-${VERS}
 VERS=		2.2.2.90
+PKGREVISION=	1
 CATEGORIES=	audio multimedia
 MASTER_SITES=	http://download.kde.org/unstable/amarok/${VERS}/src/ \
 		ftp://gd.tuwien.ac.at/kde/unstable/amarok/${VERS}/src/
@@ -56,8 +57,6 @@ BUILDLINK_API_DEPENDS.mysql-server+=	mysql-server>=5.1.44nb1
 .include "../../sysutils/desktop-file-utils/desktopdb.mk"
 # for plasma
 .include "../../x11/kdebase-workspace4/buildlink3.mk"
-BUILDLINK_API_DEPENDS.kdelibs+=	kdelibs4>=4.3.0
+BUILDLINK_API_DEPENDS.kdelibs+=	kdelibs4>=4.4.0
 .include "../../x11/kdelibs4/buildlink3.mk"
-BUILDLINK_API_DEPENDS.qt4-libs+=	qt4-libs>=4.5.0
-.include "../../x11/qt4-libs/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
