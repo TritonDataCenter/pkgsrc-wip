@@ -10,12 +10,15 @@ MAINTAINER=		reed@reedmedia.net
 COMMENT=		Fast mkdep
 
 USE_FEATURES=		nbcompat
+PKG_DESTDIR_SUPPORT=	user-destdir
+
+INSTALLATION_DIRS+=	bin ${PKGMANDIR}/man1
 
 do-extract:
 	${CP} -R ${FILESDIR} ${WRKSRC}
 
 do-install:
-	${INSTALL_PROGRAM} ${WRKSRC}/mkdep ${PREFIX}/bin
-	${INSTALL_MAN} ${WRKSRC}/mkdep.1 ${PREFIX}/${PKGMANDIR}/man1/
+	${INSTALL_PROGRAM} ${WRKSRC}/mkdep ${DESTDIR}${PREFIX}/bin
+	${INSTALL_MAN} ${WRKSRC}/mkdep.1 ${DESTDIR}${PREFIX}/${PKGMANDIR}/man1/
 
 .include "../../mk/bsd.pkg.mk"
