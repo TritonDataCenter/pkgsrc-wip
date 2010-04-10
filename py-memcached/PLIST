@@ -1,0 +1,9 @@
+@comment $NetBSD$
+${PYSITELIB}/memcache.py
+${PYSITELIB}/memcache.pyc
+${PYSITELIB}/memcache.pyo
+${PYSITELIB}/python_${EGG_INFODIR}/PKG-INFO
+${PYSITELIB}/python_${EGG_INFODIR}/SOURCES.txt
+${PYSITELIB}/python_${EGG_INFODIR}/dependency_links.txt
+${PYSITELIB}/python_${EGG_INFODIR}/top_level.txt
+share/doc/py-memcached/memcache.html
