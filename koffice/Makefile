@@ -1,9 +1,9 @@
 # $NetBSD$
 #
 
-DISTNAME=	koffice-2.1.1
+DISTNAME=	koffice-2.1.82
 CATEGORIES=	misc kde
-MASTER_SITES=	${MASTER_SITE_KDE:=koffice-2.1.1/}
+MASTER_SITES=	${MASTER_SITE_KDE:=../unstable/koffice-2.1.82/}
 EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	markd@NetBSD.org
@@ -18,6 +18,9 @@ USE_TOOLS+=	pkg-config
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
+.include "../../databases/mysql51-client/buildlink3.mk"
+.include "../../databases/sqlite3/buildlink3.mk"
+.include "../../devel/libgsf/buildlink3.mk"
 .include "../../graphics/exiv2/buildlink3.mk"
 .include "../../graphics/glew/buildlink3.mk"
 .include "../../graphics/qimageblitz/buildlink3.mk"
