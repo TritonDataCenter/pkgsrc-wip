@@ -16,6 +16,8 @@ GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_TOOLS+=	nroff tbl
 
+CONFIGURE_ARGS+=	--with-libtool=yes
+
 MAKE_JOBS_SAFE=	no
 
 BUILD_TARGET=	all man
