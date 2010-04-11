@@ -8,6 +8,7 @@ MASTER_SITES=	http://downloads.sourceforge.net/vlevel/
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://vlevel.sourceforge.net/
 COMMENT=	Dynamic compressor LADSPA plugin with look-ahead
+LICENSE=	gnu-gpl-v2
 
 WRKSRC=		${WRKDIR}/vlevel-0.5
 USE_LANGUAGES=	c++
