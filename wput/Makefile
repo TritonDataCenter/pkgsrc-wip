@@ -10,11 +10,12 @@ MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://wput.sourceforge.net/
 COMMENT=	Wput is a command-line ftp-client that looks like wget
 
-INSTALLATION_DIRS=	bin ${PKGMANDIR}/man1
+PKG_DESTDIR_SUPPORT=	user-destdir
 
 GNU_CONFIGURE=		yes
 USE_PKGLOCALEDIR=	yes
-PKG_DESTDIR_SUPPORT=	user-destdir
+
+INSTALLATION_DIRS=	bin ${PKGMANDIR}/man1
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/wput ${DESTDIR}/${PREFIX}/bin/wput
