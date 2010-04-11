@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	ibus-pinyin-1.3.1
+DISTNAME=	ibus-pinyin-1.3.2
 CATEGORIES=	inputmethod chinese
 MASTER_SITES=	http://ibus.googlecode.com/files/
 DISTFILES=	${DEFAULT_DISTFILES} ${DBTAR}
