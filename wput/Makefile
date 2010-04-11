@@ -15,6 +15,7 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 
 GNU_CONFIGURE=		yes
 USE_PKGLOCALEDIR=	yes
+USE_TOOLS+=		gmake
 
 MAKE_JOBS_SAFE=		no
 
@@ -22,7 +23,6 @@ INSTALLATION_DIRS=	bin ${PKGMANDIR}/man1
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/wput ${DESTDIR}/${PREFIX}/bin/wput
-	${INSTALL_MAN_DIR} ${DESTDIR}/${PREFIX}/${PKGMANDIR}/man1
 	${INSTALL_MAN} ${WRKSRC}/doc/wput.1 ${DESTDIR}/${PREFIX}/${PKGMANDIR}/man1/wput.1
 
 .include "../../mk/bsd.pkg.mk"
