@@ -5,6 +5,7 @@ BUILDLINK_TREE+=	libbind
 .if !defined(LIBBIND_BUILDLINK3_MK)
 LIBBIND_BUILDLINK3_MK:=
 
+BUILDLINK_DEPMETHOD.libbind?=	build
 BUILDLINK_API_DEPENDS.libbind+=	libbind>=6.0
 BUILDLINK_PKGSRCDIR.libbind?=	../../wip/libbind
 .endif	# LIBBIND_BUILDLINK3_MK
