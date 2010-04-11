@@ -1,7 +1,7 @@
 @comment $NetBSD$
 bin/assa-genesis
-bin/assa-hexdump
 bin/assa-genesis-3.5
+bin/assa-hexdump
 bin/assa-hexdump-3.5
 include/assa-3.5/assa/Acceptor.h
 include/assa-3.5/assa/Address.h
