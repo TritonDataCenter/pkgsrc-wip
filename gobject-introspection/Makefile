@@ -13,7 +13,7 @@ LICENSE=	gnu-gpl-v2 AND gnu-lgpl-v2
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
-DEPENDS+=	${PYPKGPREFIX}-cElementTree-[0-9]*:../../wip/py-cElementTree
+DEPENDS+=	${PYPKGPREFIX}-cElementTree-[0-9]*:../../textproc/py-cElementTree
 
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
@@ -21,6 +21,7 @@ USE_TOOLS+=	pkg-config flex bison gmake
 
 PKGCONFIG_OVERRIDE+=	gobject-introspection-1.0.pc.in
 PKGCONFIG_OVERRIDE+=	gobject-introspection-no-export-1.0.pc.in
+PYTHON_VERSIONS_ACCEPTED=	26 25
 
 TEST_TARGET=	check
 
