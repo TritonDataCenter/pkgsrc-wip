@@ -1831,7 +1831,6 @@ SUBDIR+=	py-bitstring
 SUBDIR+=	py-brian
 SUBDIR+=	py-bsddb
 SUBDIR+=	py-buildbot
-SUBDIR+=	py-cElementTree
 SUBDIR+=	py-cabocha
 SUBDIR+=	py-chm
 SUBDIR+=	py-clonedigger
