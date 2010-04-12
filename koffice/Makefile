@@ -11,6 +11,7 @@ HOMEPAGE=	http://www.koffice.org/
 COMMENT=	KDE4 office suite
 
 BUILD_DEPENDS+=	automoc4>=0.9.83:../../devel/automoc4
+DEPENDS+=	pstoedit>=3.0:../../graphics/pstoedit
 
 USE_CMAKE=	yes
 USE_LANGUAGES=	c c++
