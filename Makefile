@@ -763,6 +763,7 @@ SUBDIR+=	hlint
 SUBDIR+=	homebank
 SUBDIR+=	hplip
 SUBDIR+=	hpoj
+SUBDIR+=	hs-ConfigFile
 SUBDIR+=	hs-FileManip
 SUBDIR+=	hs-GLURaw
 SUBDIR+=	hs-GLUT
