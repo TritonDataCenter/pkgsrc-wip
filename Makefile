@@ -1836,6 +1836,7 @@ SUBDIR+=	py-cabocha
 SUBDIR+=	py-chm
 SUBDIR+=	py-clonedigger
 SUBDIR+=	py-codepy
+SUBDIR+=	py-cogent
 SUBDIR+=	py-configobj
 SUBDIR+=	py-couchdb
 SUBDIR+=	py-coverage
