@@ -6,7 +6,7 @@ CATEGORIES=	news
 MASTER_SITES=	http://www.newsbeuter.org/downloads/
 
 MAINTAINER=	clamiax@gmail.com
-HOMEPAGE=	http://www.newsbeuter.org/downloads/
+HOMEPAGE=	http://www.newsbeuter.org/
 COMMENT=	Open-source RSS/Atom feed reader for text terminals
 
 PKG_DESTDIR_SUPPORT=	user-destdir
