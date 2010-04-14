@@ -1938,6 +1938,7 @@ SUBDIR+=	py-processing
 SUBDIR+=	py-ptrace
 SUBDIR+=	py-pydot
 SUBDIR+=	py-pygr
+SUBDIR+=	py-pyvib2
 SUBDIR+=	py-qt4-qscintilla
 SUBDIR+=	py-rcsparse
 SUBDIR+=	py-rdflib
