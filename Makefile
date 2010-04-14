@@ -1972,6 +1972,7 @@ SUBDIR+=	py-visionegg-demos
 SUBDIR+=	py-visionegg-docs
 SUBDIR+=	py-vtkmodule
 SUBDIR+=	py-weave
+SUBDIR+=	py-webob
 SUBDIR+=	py-webkit
 SUBDIR+=	py-willow
 SUBDIR+=	py-workerpool
