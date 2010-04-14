@@ -1,0 +1,6 @@
+@comment $NetBSD$
+bin/ncp
+bin/npoll
+bin/npush
+man/man1/ncp.1
+man/man1/npush.1
