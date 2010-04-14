@@ -5,7 +5,7 @@ DISTNAME=	TrueCrypt%206.3a%20Source
 PKGNAME=	truecrypt-6.3a
 CATEGORIES=	security
 
-DOWNLOAD=	http://www.truecrypt.org/downloads2/
+DOWNLOAD=	http://www.truecrypt.org/downloads2
 MAINTAINER=	schaecsn@gmx.net
 HOMEPAGE=	http://www.truecrypt.org/
 COMMENT=	Filesystem encryption package
