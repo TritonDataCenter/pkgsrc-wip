@@ -1942,6 +1942,7 @@ SUBDIR+=	py-qt4-qscintilla
 SUBDIR+=	py-rcsparse
 SUBDIR+=	py-rdflib
 SUBDIR+=	py-remctl
+SUBDIR+=	py-restkit
 SUBDIR+=	py-rlcompleter2
 SUBDIR+=	py-sage
 SUBDIR+=	py-scipy
