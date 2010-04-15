@@ -16,7 +16,7 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 GNU_CONFIGURE=		yes
 USE_LIBTOOL=		yes
 USE_PKGLOCALEDIR=	yes
-USE_LANGUAGES=		c99 c++
+USE_LANGUAGES=		c c++
 USE_TOOLS+=		pkg-config gmake intltool msgfmt
 
 # taken from ${WRKSRC}/data/db/open-phrase/Makefile.in
