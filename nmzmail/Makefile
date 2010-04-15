@@ -15,5 +15,7 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 
 GNU_CONFIGURE=		yes
 
+DEPENDS+=	namazu>=2.0.20:../../textproc/namazu
+
 .include "../../devel/readline/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
