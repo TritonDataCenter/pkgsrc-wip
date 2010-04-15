@@ -1,0 +1,4 @@
+@comment $NetBSD$
+bin/DaMon
+bin/Probe
+etc/AppInterface/Probe.interface
