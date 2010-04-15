@@ -1,11 +1,10 @@
 # $NetBSD$
 #
 
-DISTNAME=	libSystem-0.1.2
-PKGNAME=	deforaos-libsystem-0.1.2
-PKGREVISION=	1
+DISTNAME=	libSystem-0.1.3
+PKGNAME=	deforaos-libsystem-0.1.3
 CATEGORIES=	devel
-MASTER_SITES=	http://www.defora.org/os/download/download/3264/
+MASTER_SITES=	http://www.defora.org/os/download/download/3301/
 
 MAINTAINER=	khorben@defora.org
 HOMEPAGE=	http://www.defora.org/
