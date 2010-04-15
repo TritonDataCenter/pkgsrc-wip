@@ -12,6 +12,7 @@ share/ibus-pinyin/icons/half.svg
 share/ibus-pinyin/icons/ibus-pinyin.svg
 share/ibus-pinyin/icons/simp-chinese.svg
 share/ibus-pinyin/icons/trad-chinese.svg
+share/ibus-pinyin/phrases.txt
 share/ibus-pinyin/setup/ibus-pinyin-preferences.ui
 share/ibus-pinyin/setup/main.py
 share/ibus-pinyin/setup/main.pyc
