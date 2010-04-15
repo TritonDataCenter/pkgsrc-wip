@@ -15,7 +15,7 @@ LICENSE=	gnu-gpl-v2
 
 DEPENDS+=	${PHP_PKG_PREFIX}-gd>=4.3.3:../../graphics/php-gd
 DEPENDS+=	${PHP_PKG_PREFIX}-iconv-[0-9]*:../../converters/php-iconv
-DEPENDS+=	${PHP_PKG_PREFIX}-mbstring>=5.2.0:../../misc/php-mbstring
+DEPENDS+=	${PHP_PKG_PREFIX}-mbstring>=5.2.0:../../converters/php-mbstring
 DEPENDS+=	${PHP_PKG_PREFIX}-curl>=5.2.0:../../www/php-curl
 DEPENDS+=	${PHP_PKG_PREFIX}-xmlrpc>=5.2.0:../../net/php-xmlrpc
 
