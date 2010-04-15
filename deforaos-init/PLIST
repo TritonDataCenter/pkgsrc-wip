@@ -1,0 +1,4 @@
+@comment $NetBSD$
+bin/Init
+etc/AppInterface/Init.interface
+share/examples/rc.d/Init
