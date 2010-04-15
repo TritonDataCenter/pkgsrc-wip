@@ -5,7 +5,7 @@ DISTNAME=	xhkeys-1.0.2
 CATEGORIES=	x11
 MASTER_SITES=	http://wmalms.tripod.com/
 
-MAINTAINER=	jakllsch@kollasch.net
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://wmalms.tripod.com/
 COMMENT=	Tool for special keyboards
 
