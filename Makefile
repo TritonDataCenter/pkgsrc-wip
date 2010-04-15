@@ -1035,7 +1035,6 @@ SUBDIR+=	kpanta
 SUBDIR+=	kpathsea
 SUBDIR+=	kplayer
 SUBDIR+=	krusader
-SUBDIR+=	kstart
 SUBDIR+=	kuickshow
 SUBDIR+=	kvirc
 SUBDIR+=	kxmleditor

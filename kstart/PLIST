@@ -1,5 +1,0 @@
-@comment $NetBSD$
-bin/k5start
-man/man1/k5start.1
-bin/krenew
-man/man1/krenew.1
