@@ -1320,6 +1320,7 @@ SUBDIR+=	mwf-designer
 SUBDIR+=	mxallowd
 SUBDIR+=	mysql++
 SUBDIR+=	mysql-docs
+SUBDIR+=	mysql-workbench
 SUBDIR+=	mysqltcl
 SUBDIR+=	mythtv
 SUBDIR+=	nanoblogger
