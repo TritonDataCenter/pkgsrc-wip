@@ -1,4 +1,5 @@
 @comment $NetBSD$
+bin/AppBroker
 include/System.h
 include/System/appclient.h
 include/System/appserver.h
