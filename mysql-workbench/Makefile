@@ -23,8 +23,9 @@ SUBST_CLASSES+=		python
 SUBST_STAGE.python=	pre-configure
 SUBST_FILES.python=	configure configure.in
 SUBST_SED.python=	-e "s,python -c,${PYTHONBIN} -c,g"
-SUBST_MESSAGE.python=	Fixing harcoded python binary
+SUBST_MESSAGE.python=	Fixing hardcoded python binary
 
+.include "../../archivers/libzip/buildlink3.mk"
 .include "../../devel/pcre/buildlink3.mk"
 .include "../../graphics/MesaLib/buildlink3.mk"
 .include "../../graphics/cairo/buildlink3.mk"
