@@ -5,7 +5,7 @@ DISTNAME=	syx-0.1.7
 CATEGORIES=	lang devel
 MASTER_SITES=	http://syx.berlios.de/downloads/
 
-MAINTAINER=	athaba@inode.at
+MAINTAINER=	athaba@users.sourceforge.net
 HOMEPAGE=	http://syx.berlios.de/
 COMMENT=	Free and portable smalltalk implementation
 LICENSE=	mit

@@ -7,7 +7,7 @@ PKGREVISION=		1
 CATEGORIES=		perl5 mail
 MASTER_SITES=		${MASTER_SITE_PERL_CPAN:=Net/}
 
-MAINTAINER=		athaba@inode.at
+MAINTAINER=		athaba@users.sourceforge.net
 HOMEPAGE=		http://search.cpan.org/dist/Net-SMTP-TLS/
 COMMENT=		SMTP client module supporting TLS and AUTH
 

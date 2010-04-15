@@ -5,7 +5,7 @@ DISTNAME=		fasm-1.68
 CATEGORIES=		devel
 MASTER_SITES=		http://flatassembler.net/
 
-MAINTAINER=		athaba@inode.at
+MAINTAINER=		athaba@users.sourceforge.net
 HOMEPAGE=		http://flatassembler.net/
 COMMENT=		Open source assembly language compiler
 

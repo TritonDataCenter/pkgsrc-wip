@@ -3,13 +3,13 @@
 
 DISTNAME=		Crypt-Serpent-1.01
 PKGNAME=		p5-${DISTNAME}
-PKGNAME=		p5-${DISTNAME}
 CATEGORIES=		security perl5
 MASTER_SITES=		${MASTER_SITE_PERL_CPAN:=Crypt/}
 
-MAINTAINER=		athaba@inode.at
+MAINTAINER=		athaba@users.sourceforge.net
 HOMEPAGE=		http://search.cpan.org/dist/Crypt-Serpent
 COMMENT=		Serpent block cipher encryption module for perl
+LICENSE=		${PERL5_LICENSE}
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 

@@ -6,7 +6,7 @@ PKGNAME=	p5-${DISTNAME}
 CATEGORIES=	perl5 devel
 MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=Exporter/}
 
-MAINTAINER=	athaba@inode.at
+MAINTAINER=	athaba@users.sourceforge.net
 HOMEPAGE=	http://search.cpan.org/dist/Exporter-Tidy
 COMMENT=	Alternative way of exporting symbols in perl
 # In fact the license says:

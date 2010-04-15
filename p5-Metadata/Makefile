@@ -6,7 +6,7 @@ PKGNAME=		p5-${DISTNAME}
 CATEGORIES=		devel perl5
 MASTER_SITES=		${MASTER_SITE_PERL_CPAN:=Metadata/}
 
-MAINTAINER=		athaba@inode.at
+MAINTAINER=		athaba@users.sourceforge.net
 HOMEPAGE=		http://search.cpan.org/dist/Metadata/
 COMMENT=		Perl classes for simple metadata
 LICENSE=		${PERL5_LICENSE}

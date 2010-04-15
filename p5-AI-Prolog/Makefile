@@ -6,9 +6,10 @@ PKGNAME=	p5-${DISTNAME}
 CATEGORIES=	perl5 lang
 MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=AI/}
 
-MAINTAINER=	athaba@inode.at
+MAINTAINER=	athaba@users.sourceforge.net
 HOMEPAGE=	http://search.cpan.org/dist/AI-Prolog
 COMMENT=	Pure Perl predicate logic engine
+LICENSE=	${PERL5_LICENSE}
 
 DEPENDS+=	p5-Clone>=0.15:../../devel/p5-Clone
 DEPENDS+=	p5-Exporter-Tidy>=0.06:../../wip/p5-Exporter-Tidy
