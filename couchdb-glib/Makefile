@@ -6,7 +6,7 @@ CATEGORIES=	databases gnome
 MASTER_SITES=	ftp://ftp.gnome.org/pub/gnome/sources/couchdb-glib/0.5/
 EXTRACT_SUFX=	.tar.bz2
 
-MAINTAINER=	kamelderouiche@yahoo.com
+MAINTAINER=	pkgsrc.gnome@gmail.com
 HOMEPAGE=	https://launchpad.net/couchdb-glib
 COMMENT=	GLib-based api to access couchdb databases
 LICENSE=	gnu-gpl-v2
