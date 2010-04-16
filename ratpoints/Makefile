@@ -5,9 +5,9 @@ DISTNAME=		ratpoints-2.1.3
 CATEGORIES=		math
 MASTER_SITES=	http://www.mathe2.uni-bayreuth.de/stoll/programs/
 
-MAINTAINER=	kamel.derouiche@gmail.com
+MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	http://www.mathe2.uni-bayreuth.de/stoll/programs/index.html
-COMMENT=	TODO: Short description of the package
+COMMENT=		Optimized quadratic sieve algorithm
 LICENSE=		gnu-gpl-v2
 
 PKG_DESTDIR_SUPPORT=	user-destdir
