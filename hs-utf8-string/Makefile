@@ -4,7 +4,7 @@ PKGNAME=	hs-utf8-string-${VERSION}
 VERSION=	0.3.6
 CATEGORIES=	devel
 
-MAINTAINER=	esg@sdf.org
+MAINTAINER=	pho@cielonegro.org
 HOMEPAGE=	http://github.com/glguy/utf8-string/
 COMMENT=	Support for reading and writing UTF8 Strings
 
