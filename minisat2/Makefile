@@ -6,7 +6,7 @@ CATEGORIES=	math
 MASTER_SITES=	http://www.cs.sunysb.edu/~algorith/implement/minisat/distrib/
 EXTRACT_SUFX=	.zip
 
-MAINTAINER=	kamel.derouiche@gmail.com
+MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	http://minisat.se/MiniSat.html
 COMMENT=	Fast and lightweight SAT solver
 #LICENSE=	LICENSE
