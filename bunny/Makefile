@@ -6,7 +6,7 @@ CATEGORIES=	security
 MASTER_SITES=	http://bunny-the-fuzzer.googlecode.com/files/
 EXTRACT_SUFX=	.tgz
 
-MAINTAINER=	kamel.derouiche@gmail.com
+MAINTAINER=	pkgsrc-users@netbsd.org
 HOMEPAGE=	http://code.google.com/p/bunny-the-fuzzer/
 COMMENT=	Tools with C code security fuzzer
 LICENSE=	apache-2.0
