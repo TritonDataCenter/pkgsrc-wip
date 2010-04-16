@@ -4,7 +4,7 @@ PKGNAME=	hs-x11-xft-${VERSION}
 VERSION=	0.3
 CATEGORIES=	devel
 
-MAINTAINER=	esg@sdf.org
+MAINTAINER=	esg@sdf.lonestar.org
 HOMEPAGE=	http://hackage.haskell.org/cgi-bin/hackage-scripts/package/X11-xft
 COMMENT=	Bindings to the Xft library, and some Xrender parts
 

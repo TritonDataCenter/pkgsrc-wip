@@ -4,7 +4,7 @@ PKGNAME=	xmonad-${VERSION}
 VERSION=	0.9.1
 CATEGORIES=	wm
 
-MAINTAINER=	esg@sdf.org
+MAINTAINER=	esg@sdf.lonestar.org
 HOMEPAGE=	http://xmonad.org/
 COMMENT=	Tiling window manager
 

@@ -4,7 +4,7 @@ PKGNAME=	hs-x11-${VERSION}
 VERSION=	1.5.0.0
 CATEGORIES=	devel
 
-MAINTAINER=	esg@sdf.org
+MAINTAINER=	esg@sdf.lonestar.org
 HOMEPAGE=	http://code.haskell.org/X11
 COMMENT=	Haskell binding to the X11 graphics library
 
