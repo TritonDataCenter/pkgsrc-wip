@@ -13,8 +13,8 @@ COMMENT=	Parallel and distributed programming for Python
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
-DOCDIR=	${PREFIX}/share/doc/${PYPKGPREFIX}-pp
-EGDIR=		${PREFIX}/share/examples/${PYPKGPREFIX}-pp
+DOCDIR=	${PREFIX}/share/doc/py-pp
+EGDIR=		${PREFIX}/share/examples/py-pp
 
 MESSAGE_SUBST+=	DOCDIR=${DOCDIR}
 MESSAGE_SUBST+=	EGDIR=${EGDIR}
