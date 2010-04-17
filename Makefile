@@ -2218,7 +2218,6 @@ SUBDIR+=	tac_plus-libradius
 SUBDIR+=	tacacs-shrubbery
 SUBDIR+=	taglib-sharp
 SUBDIR+=	tagtool
-SUBDIR+=	takao-fonts-ttf
 SUBDIR+=	talksoup
 SUBDIR+=	tardy
 SUBDIR+=	task
