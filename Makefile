@@ -1689,7 +1689,6 @@ SUBDIR+=	pdq
 SUBDIR+=	pear-DB_DataObject
 SUBDIR+=	pear-HTTP_Client
 SUBDIR+=	pear-HTTP_Request2
-SUBDIR+=	pear-Net_LDAP2
 SUBDIR+=	pear-Net_URL2
 SUBDIR+=	pear-XML_Parser
 SUBDIR+=	pfe
