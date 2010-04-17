@@ -1726,7 +1726,6 @@ SUBDIR+=	php-recode
 SUBDIR+=	php-suhosin
 SUBDIR+=	php-tclink
 SUBDIR+=	php-tidy
-SUBDIR+=	php-uploadprogress
 SUBDIR+=	php-xcache
 SUBDIR+=	picasm
 SUBDIR+=	picocom
