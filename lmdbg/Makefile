@@ -8,7 +8,7 @@ MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=lmdbg/} \
 
 MAINTAINER=	cheusov@tut.by
 HOMEPAGE=	http://sourceforge.net/projects/lmdbg/
-COMMENT=	Lightweight Malloc Debugger
+COMMENT=	Lightweight Modular malloc Debugger
 
 LICENSE=		mit
 
