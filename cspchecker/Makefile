@@ -6,10 +6,10 @@ PKGNAME=	cspchecker-4
 CATEGORIES=	devel
 MASTER_SITES=	http://www.fsel.com/download/
 
-MAINTAINER=	kamel.derouiche@gmail.com
+MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	http://www.fsel.com/software.html
 COMMENT=	CSP code type hecker
-LICENSE=	LICENSE
+#LICENSE=	LICENSE
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
