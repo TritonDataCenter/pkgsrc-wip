@@ -2,10 +2,10 @@
 #
 
 DISTNAME=	dragbox-0.4.0
-CATEGORIES=	misc gnome
+CATEGORIES=	x11 gnome
 MASTER_SITES=	http://kaizer.se/publicfiles/dragbox/
 
-MAINTAINER=	kamelderouiche@yahoo.com
+MAINTAINER=	pkgsrc.gnome@gmail.com
 HOMEPAGE=	http://users.student.lth.se/f04us/wiki/dragbox/
 COMMENT=	Command line drag-and-drop tool for GNOME
 LICENSE=	gnu-gpl-v2
