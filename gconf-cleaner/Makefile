@@ -5,7 +5,7 @@ DISTNAME=	gconf-cleaner-0.0.3
 CATEGORIES=	sysutils
 MASTER_SITES=	http://gconf-cleaner.googlecode.com/files/
 
-MAINTAINER=	kamelderouiche@yahoo.com
+MAINTAINER=	pkgsrc-users@netbsd.org
 HOMEPAGE=	http://code.google.com/p/gconf-cleaner/
 COMMENT=	Cleaning tool for GConf
 
