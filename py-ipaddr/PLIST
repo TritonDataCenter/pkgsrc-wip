@@ -1,2 +1,4 @@
 @comment $NetBSD$
 ${PYSITELIB}/ipaddr.py
+${PYSITELIB}/ipaddr.pyc
+${PYSITELIB}/ipaddr.pyo
