@@ -7,7 +7,7 @@ CATEGORIES=	audio
 MASTER_SITES=	http://converttomp3.googlecode.com/files/
 EXTRACT_SUFX=	.zip
 
-MAINTAINER=	kamelderouiche@yahoo.com
+MAINTAINER=	pkgsrc-users@netbsd.org
 HOMEPAGE=	http://code.google.com/p/converttomp3/
 COMMENT=	Convert music files to MP3, preserving some tag information
 
