@@ -6,10 +6,9 @@ PKGNAME=	${DISTNAME:S/-linux6//}
 CATEGORIES=	devel
 MASTER_SITES=	http://www.fsel.com/download/
 
-MAINTAINER=	kamel.derouiche@gmail.com
+MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	http://www.fsel.com/software.html
 COMMENT=	ProBE is an animator for CSP processes
-LICENSE=	LICENSE
 
 EMUL_PLATFORMS=		linux-i386
 EMUL_MODULES.linux=	base x11
