@@ -8,10 +8,12 @@ MASTER_SITES=	http://rdflib.net/
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	http://rdflib.net/
-COMMENT=	RDFLib is a Python library for working with RDF
-#LICENSE=	# TODO: (see mk/license.mk)
+COMMENT=	RDF library containing an RDF triple store and RDF/XML parser/serializer
+LICENSE=		modified-bsd
 
 PKG_DESTDIR_SUPPORT=	user-destdir
+
+PYTHON_VERSIONS_ACCEPTED= 26 25 24
 
 .include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"
