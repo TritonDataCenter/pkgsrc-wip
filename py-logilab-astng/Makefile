@@ -1,7 +1,8 @@
 # $NetBSD$
 #
 
-DISTNAME=	logilab-astng-0.19.0
+DISTNAME=	logilab-astng-0.20.0
+EGG_NAME=	logilab_astng-0.20.0
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	devel python
 MASTER_SITES=	http://ftp.logilab.org/pub/astng/
