@@ -15,6 +15,7 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 
 NO_CONFIGURE=   yes
 USE_TOOLS+=     gs:run
+USE_TOOLS+=     gmake
 
 INSTALLATION_DIRS=      bin ${PKGMANDIR}/man1
 
