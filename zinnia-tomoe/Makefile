@@ -24,5 +24,4 @@ FIND_PREFIX:=	ZINNIA_DIR=zinnia
 
 CONFIGURE_ARGS+=	--with-zinnia-convert=${ZINNIA_DIR}/bin/zinnia_convert
 
-.include "../../wip/zinnia/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
