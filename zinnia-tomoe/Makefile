@@ -4,7 +4,7 @@
 DISTNAME=	zinnia-tomoe-0.6.0-20080911
 PKGNAME=	zinnia-tomoe-0.6.0.20080911
 CATEGORIES=	wip
-MASTER_SITES=	http://downloads.sourceforge.net/project/zinnia/zinnia-tomoe/0.6.0-20080911/
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=zinnia/}
 EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	obache@NetBSD.org
