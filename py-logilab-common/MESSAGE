@@ -1,0 +1,11 @@
+===========================================================================
+$NetBSD$
+
+The *optional* package:
+
+ - ElementTree  => 	pkgsrc/textproc/py-elementtree
+ - omniOrb 		=> 	pkgsrc/wip/py-omniORBpy
+ - IPython		=> 	pkgsrc/wip/py-ipython
+ - django		=> 	pkgsrc/www/py-django
+
+===========================================================================
