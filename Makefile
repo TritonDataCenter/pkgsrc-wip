@@ -516,6 +516,7 @@ SUBDIR+=	ghc
 SUBDIR+=	giggle
 SUBDIR+=	gimmie
 SUBDIR+=	gimp-high-pass-filter
+SUBDIR+=	gimp-resynthesizer
 SUBDIR+=	git
 SUBDIR+=	givaro
 SUBDIR+=	gjots2
