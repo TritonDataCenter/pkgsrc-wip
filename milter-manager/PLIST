@@ -24,6 +24,7 @@ include/milter-manager/milter/core/milter-finished-emittable.h
 include/milter-manager/milter/core/milter-headers.h
 include/milter-manager/milter/core/milter-logger.h
 include/milter-manager/milter/core/milter-macros-requests.h
+include/milter-manager/milter/core/milter-memory-profile.h
 include/milter-manager/milter/core/milter-message-result.h
 include/milter-manager/milter/core/milter-option.h
 include/milter-manager/milter/core/milter-protocol-agent.h
