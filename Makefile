@@ -1044,6 +1044,7 @@ SUBDIR+=	kyra
 SUBDIR+=	kyra2
 SUBDIR+=	l2tpd
 SUBDIR+=	labyrinth
+SUBDIR+=	lasem
 SUBDIR+=	lasi
 SUBDIR+=	last-exit
 SUBDIR+=	last.fm
