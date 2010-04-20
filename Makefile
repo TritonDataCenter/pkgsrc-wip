@@ -2053,6 +2053,7 @@ SUBDIR+=	rootcheck
 SUBDIR+=	rope
 SUBDIR+=	rosegarden-current
 SUBDIR+=	roundcube-skin-mvision2
+SUBDIR+=	rrdtool
 SUBDIR+=	rss-glib
 SUBDIR+=	rst-mode
 SUBDIR+=	rsyslog
