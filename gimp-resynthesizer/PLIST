@@ -1,0 +1,4 @@
+@comment $NetBSD$
+lib/gimp/2.0/plug-ins/resynth
+share/gimp/2.0/scripts/smart-enlarge.scm
+share/gimp/2.0/scripts/smart-remove.scm
