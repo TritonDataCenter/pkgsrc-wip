@@ -254,6 +254,7 @@ SUBDIR+=	csp2b
 SUBDIR+=	cspchecker
 SUBDIR+=	css-mode
 SUBDIR+=	csstidy
+SUBDIR+=	ctemplate
 SUBDIR+=	cvs-syncmail
 SUBDIR+=	cvs20hg
 SUBDIR+=	cvs2darcs
