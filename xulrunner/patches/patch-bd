@@ -1,7 +1,7 @@
 $NetBSD$
 
---- js/ctypes/CTypes.cpp.orig	2010-04-01 07:32:13.000000000 +0000
-+++ js/ctypes/CTypes.cpp
+--- js/src/ctypes/CTypes.cpp.orig	2010-04-21 09:07:48.000000000 +0000
++++ js/src/ctypes/CTypes.cpp
 @@ -36,6 +36,22 @@
   *
   * ***** END LICENSE BLOCK ***** */
@@ -22,6 +22,6 @@ $NetBSD$
 +#define uintptr_t uintptr_t
 +#endif
 +
- #include "jscntxt.h"
  #include "CTypes.h"
  #include "Library.h"
+ #include "jsdtoa.h"
