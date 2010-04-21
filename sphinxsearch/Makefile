@@ -28,7 +28,7 @@ SPHINX_LOG?=	${VARBASE}/log/sphinx
 .include "../../mk/bsd.prefs.mk"
 .include "options.mk"
 
-EGDIR=		${DESTDIR}${PREFIX}/share/examples/sphinx
+EGDIR=		${PREFIX}/share/examples/sphinx
 CONF_FILES+=	${EGDIR}/sphinx-min.conf ${PKG_SYSCONFDIR}/sphinx.conf
 
 INSTALLATION_DIRS=	bin sbin ${EGDIR}
@@ -57,8 +57,8 @@ CONFIGURE_DIRS+=	api/libsphinxclient
 LDFLAGS.SunOS+=		-lsocket -lnsl
 
 post-install:
-	${MV} ${EGDIR}/sphinx.conf.dist ${EGDIR}/sphinx-full.conf
-	${MV} ${EGDIR}/sphinx-min.conf.dist ${EGDIR}/sphinx-min.conf
+	${MV} ${DESTDIR}${EGDIR}/sphinx.conf.dist ${DESTDIR}${EGDIR}/sphinx-full.conf
+	${MV} ${DESTDIR}${EGDIR}/sphinx-min.conf.dist ${DESTDIR}${EGDIR}/sphinx-min.conf
 
 .include "../../textproc/expat/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

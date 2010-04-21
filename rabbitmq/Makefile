@@ -70,13 +70,13 @@ SUBST_STAGE.shell=	post-patch
 SUBST_FILES.shell=	Makefile
 SUBST_SED.shell=	-e 's|@SHELL@|${RMQ_SHELL}|g'
 
-MAKE_ENV+=		TARGET_DIR="${PREFIX}/lib/erlang/lib/rabbitmq_server-${RMQ_VERSION}"
-MAKE_ENV+=		SBIN_DIR="${PREFIX}/sbin/"
-MAKE_ENV+=		MAN_DIR="${PREFIX}/man"
+MAKE_ENV+=		TARGET_DIR="${DESTDIR}${PREFIX}/lib/erlang/lib/rabbitmq_server-${RMQ_VERSION}"
+MAKE_ENV+=		SBIN_DIR="${DESTDIR}${PREFIX}/sbin/"
+MAKE_ENV+=		MAN_DIR="${DESTDIR}${PREFIX}/man"
 MAKE_ENV+=		RMQ_VERSION=${RMQ_VERSION}
 
 post-install:
-	${INSTALL_DATA} ${FILESDIR}/rabbitmq.conf ${PREFIX}/share/examples/rabbitmq/rabbitmq.conf
+	${INSTALL_DATA} ${FILESDIR}/rabbitmq.conf ${DESTDIR}${PREFIX}/share/examples/rabbitmq/rabbitmq.conf
 
 .include "../../lang/erlang/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
