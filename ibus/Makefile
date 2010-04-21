@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	ibus-1.3.1
+DISTNAME=	ibus-1.3.2
 CATEGORIES=	inputmethod
 MASTER_SITES=	http://ibus.googlecode.com/files/
 
@@ -35,11 +35,6 @@ INSTALL_MAKE_FLAGS+=	sysconfdir=${EXAMPLESDIR}
 MAKE_DIRS+=		${PKG_SYSCONFBASE}/xdg/autostart
 CONF_FILES+=		${EXAMPLESDIR}/xdg/autostart/ibus.desktop \
 			${PKG_SYSCONFBASE}/xdg/autostart/ibus.desktop
-
-SUBST_CLASSES+=		iso
-SUBST_STAGE.iso=	post-configure
-SUBST_FILES.iso=	ibus/lang.py
-SUBST_SED.iso=		-e "s;/usr/share;${BUILDLINK_PREFIX.iso-codes}/share;"
 
 SUBST_CLASSES+=		epython
 SUBST_STAGE.epython=	pre-configure
