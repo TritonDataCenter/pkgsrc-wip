@@ -90,6 +90,7 @@ SUBDIR+=	ap2-jk2
 SUBDIR+=	ap2-layout
 SUBDIR+=	ap2-limitipconn
 SUBDIR+=	ap2-macro
+SUBDIR+=	ap2-passenger
 SUBDIR+=	ap2-xsendfile
 SUBDIR+=	ap2-zeroconf
 SUBDIR+=	apachebench2
