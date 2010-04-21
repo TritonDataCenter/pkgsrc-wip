@@ -771,6 +771,7 @@ SUBDIR+=	hs-GLUT
 SUBDIR+=	hs-HCL
 SUBDIR+=	hs-HDBC
 SUBDIR+=	hs-HDBC-sqlite3
+SUBDIR+=	hs-HList
 SUBDIR+=	hs-HSH
 SUBDIR+=	hs-HTTP
 SUBDIR+=	hs-HUnit
