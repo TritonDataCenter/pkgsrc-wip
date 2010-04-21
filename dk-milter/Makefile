@@ -41,7 +41,7 @@ SUBST_FILES.rename=	dk-filter/dk-filter.8
 SUBST_SED.rename=	-e 's|dk-filter|dk-milter|g'
 SUBST_MESSAGE.rename=	Renaming dk-filter to dk-milter
 
-INSTALLATION_DIRS=	${PKGMANDIR}/man8 sbin share/doc/dk-milter/libdk
+INSTALLATION_DIRS=	lib ${PKGMANDIR}/man8 sbin share/doc/dk-milter/libdk
 
 pre-configure:
 	mv ${WRKSRC}/site.config.m4.dist ${WRKSRC}/devtools/Site/site.config.m4
