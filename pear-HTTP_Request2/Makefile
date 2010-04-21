@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	HTTP_Request2-0.4.1
+DISTNAME=	HTTP_Request2-0.5.2
 CATEGORIES=	www
 MASTER_SITES=	http://download.pear.php.net/package/
 EXTRACT_SUFX=	.tgz
