@@ -793,6 +793,7 @@ SUBDIR+=	hs-base-unicode-symbols
 SUBDIR+=	hs-binary
 SUBDIR+=	hs-binary-strict
 SUBDIR+=	hs-bindings-DSL
+SUBDIR+=	hs-bindings-librrd
 SUBDIR+=	hs-bytestring-trie
 SUBDIR+=	hs-cabal
 SUBDIR+=	hs-cabal-query
