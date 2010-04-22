@@ -13,13 +13,13 @@ LICENSE_FILE=	pstotext-license
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
-NO_CONFIGURE=   yes
-USE_TOOLS+=     gs:run
-USE_TOOLS+=     gmake
+NO_CONFIGURE=	yes
+USE_TOOLS+=	gs:run
+USE_TOOLS+=	gmake
 
-BUILD_MAKE_FLAGS+=	CFLAGS="${CFLAGS}"
+BUILD_MAKE_FLAGS+=	CFLAGS=${CFLAGS:Q}
 
-INSTALLATION_DIRS=      bin ${PKGMANDIR}/man1
+INSTALLATION_DIRS=	bin ${PKGMANDIR}/man1
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/pstotext ${DESTDIR}${PREFIX}/bin

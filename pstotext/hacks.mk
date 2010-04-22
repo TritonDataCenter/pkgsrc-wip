@@ -1,7 +1,7 @@
 # $NetBSD$
 
 .if !defined(PSTOTEXT_HACKS_MK)
-PSTOTEXT_HACKS_MK=   defined
+PSTOTEXT_HACKS_MK=	defined
 
 .include "../../mk/compiler.mk"
 
@@ -13,7 +13,7 @@ PSTOTEXT_HACKS_MK=   defined
 ### on any platform when gcc-4 is used independent of the compiler options.
 ###
 .if !empty(CC_VERSION:Mgcc-4.*)
-PKG_HACKS+=             optimisation
+PKG_HACKS+=		optimisation
 CFLAGS+=		-fno-strict-aliasing # must come at the end of CFLAGs.
 .endif
 
