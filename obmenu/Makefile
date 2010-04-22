@@ -8,7 +8,7 @@ MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=obmenu/}
 MAINTAINER=	ccatrian@eml.cc
 HOMEPAGE=	http://obmenu.sourceforge.net/
 COMMENT=	Openbox menu editor
-LICENSE=	gnu-gpl-v2 OR gnu-gpl-v3
+LICENSE=	gnu-gpl-v2
 
 DEPENDS+=	${PYPKGPREFIX}-gtk2-[0-9]*:../../x11/py-gtk2
 
