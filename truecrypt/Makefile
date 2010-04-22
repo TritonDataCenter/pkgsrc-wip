@@ -16,7 +16,7 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 
 WRKSRC=		${WRKDIR}/truecrypt-6.3a-source
 
-USE_TOOLS+=     gmake pkg-config
+USE_TOOLS+=	gmake pkg-config
 NO_CONFIGURE=	yes
 USE_LANGUAGES=	c c++
 GCC_REQD=	4.0
