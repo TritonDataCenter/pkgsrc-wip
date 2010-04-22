@@ -41,15 +41,10 @@ MAKE_ENV+=	PKCS11=1
 
 INSTALLATION_DIRS+= bin
 
-post-fetch:
-	if [ ! -x ${DISTDIR}/${DISTNAME}${EXTRACT_SUFX} ]; then	\
-		${CHMOD} +x ${DISTDIR}/${DISTNAME}${EXTRACT_SUFX};	\
-	fi
-
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/Main/truecrypt ${DESTDIR}${PREFIX}/bin/
 
-.include "../../filesystems/fuse/buildlink3.mk"
+.include "../../mk/fuse.buildlink3.mk"
 .include "../../x11/wxGTK28/buildlink3.mk"
 .include "../../devel/nss/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
