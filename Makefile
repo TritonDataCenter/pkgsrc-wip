@@ -858,6 +858,7 @@ SUBDIR+=	hs-storable-record
 SUBDIR+=	hs-tagsoup
 SUBDIR+=	hs-tar
 SUBDIR+=	hs-terminfo
+SUBDIR+=	hs-tfp
 SUBDIR+=	hs-time-http
 SUBDIR+=	hs-time-w3c
 SUBDIR+=	hs-transformers
