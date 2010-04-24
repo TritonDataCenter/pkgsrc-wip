@@ -1,3 +1,5 @@
 @comment $NetBSD$
 bin/pstotext
 man/man1/pstotext.1
+share/doc/pstotext/pstotext.hlp
+share/doc/pstotext/pstotext.txt
