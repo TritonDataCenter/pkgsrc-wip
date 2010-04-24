@@ -17,8 +17,6 @@ NO_CONFIGURE=	yes
 USE_TOOLS+=	gs:run
 USE_TOOLS+=	gmake
 
-BUILD_MAKE_FLAGS+=	CFLAGS=${CFLAGS:Q}
-
 INSTALLATION_DIRS=	bin ${PKGMANDIR}/man1
 
 do-install:
