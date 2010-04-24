@@ -18,7 +18,7 @@ USE_PKGLOCALEDIR=yes
 
 USE_LANGUAGES=	# none
 
-USE_TOOLS+=	gmake perl:run
+USE_TOOLS+=	gmake msgfmt perl:run
 PERL5_PACKLIST=	auto/Llgal/.packlist
 REPLACE_PERL+=	llgal.in
 
