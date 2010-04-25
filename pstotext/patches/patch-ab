@@ -1,6 +1,8 @@
 $NetBSD$
 
-Debian's security patch (also used in FreeBSD).
+* Set absolute path for GS cmmand.
+* Fixes CVE-2005-2536 and SA20012
+  Debian's security patch (also used in FreeBSD).
 
 --- main.c.orig	2004-01-09 10:17:38.000000000 +0000
 +++ main.c
