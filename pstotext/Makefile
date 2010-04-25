@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	pstotext-1.9
-CATEGORIES=	print
+CATEGORIES=	converters print
 MASTER_SITES=	ftp://mirror.cs.wisc.edu/pub/mirrors/ghost/contrib/
 
 MAINTAINER=	schaecsn@gmx.net
