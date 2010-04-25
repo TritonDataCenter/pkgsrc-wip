@@ -1,7 +1,6 @@
 # $NetBSD$
 
-DISTNAME=		aircrack-ng-1.0
-PKGREVISION=		1
+DISTNAME=		aircrack-ng-1.1
 CATEGORIES=		security net
 MASTER_SITES=		http://download.aircrack-ng.org/
 
