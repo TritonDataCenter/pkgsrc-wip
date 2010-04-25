@@ -1,5 +1,7 @@
 $Id$
 
+All this may be obsolete after update to Zabbix 1.8.1
+
 2. Install sample configuration files.
 3. Options: provide sane default values.
 4. Check for hard-coded pathes.
