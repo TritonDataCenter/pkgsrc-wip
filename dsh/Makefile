@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	dsh-0.25.9
+DISTNAME=	dsh-0.25.10
 CATEGORIES=	shells
 MASTER_SITES=	http://www.netfort.gr.jp/~dancer/software/downloads/
 
