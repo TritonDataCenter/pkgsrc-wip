@@ -25,7 +25,7 @@ FONTS_DIRS.x11=	${FONTDIR}
 
 do-install:
 	${RUN} cd ${WRKSRC}; \
-	${SETENV} ${ALL_ENV} DESTDIR=${DESTDIR}${FONTDIR} \
+	${SETENV} ${MAKE_ENV} DESTDIR=${DESTDIR}${FONTDIR} \
 		${SH} install_mplus_fonts
 
 .include "../../mk/bsd.pkg.mk"
