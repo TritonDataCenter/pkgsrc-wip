@@ -11,7 +11,7 @@ EXTRACT_SUFX=	.zip
 MAINTAINER=	ryo_on@yk.rim.or.jp
 HOMEPAGE=	http://ossipedia.ipa.go.jp/ipafont/
 COMMENT=	IPA JIS X 0213 fonts (Gothic, P Gothic, Mincho, and P Mincho)
-# LICENSE=	IPA Font License Agreement v1.0
+LICENSE=	ipafont
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 

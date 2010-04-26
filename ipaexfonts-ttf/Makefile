@@ -11,7 +11,7 @@ EXTRACT_SUFX=	.zip
 MAINTAINER=	ryo_on@yk.rim.or.jp
 HOMEPAGE=	http://ossipedia.ipa.go.jp/ipafont/
 COMMENT=	IPAex fonts (fixed JIS X0213 Kanji, and proportional ASCII)
-# LICENSE=	IPA Font License Agreement v1.0
+LICENSE=	ipafont
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
