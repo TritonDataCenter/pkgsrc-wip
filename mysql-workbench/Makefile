@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-PKGVERSION=	5.2.18
+PKGVERSION=	5.2.19
 DISTNAME=	mysql-workbench-oss-${PKGVERSION}
 PKGNAME=	${DISTNAME:S/-oss//}
 CATEGORIES=	databases
@@ -15,6 +15,7 @@ LICENSE=	gnu-gpl-v2
 PKG_DESTDIR_SUPPORT=	user-destdir
 
 GNU_CONFIGURE=		yes
+CONFIGURE_ARGS+=	--with-system-ctemplate
 USE_LANGUAGES+=		c c++ fortran
 USE_TOOLS+=		autoconf autoheader aclocal automake cp gmake
 USE_LIBTOOL=		yes
@@ -32,6 +33,7 @@ pre-configure:
 pre-build:
 	${CP} ${WRKSRC}/res/include/wb_config_oss.h ${WRKSRC}/wb_config.h
 
+.include "../../wip/ctemplate/buildlink3.mk"
 .include "../../archivers/libzip/buildlink3.mk"
 .include "../../devel/pcre/buildlink3.mk"
 .include "../../graphics/MesaLib/buildlink3.mk"
