@@ -17,7 +17,7 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 GNU_CONFIGURE=		yes
 CONFIGURE_ARGS+=	--with-system-ctemplate
 USE_LANGUAGES+=		c c++ fortran
-USE_TOOLS+=		autoconf autoheader aclocal automake cp gmake
+USE_TOOLS+=		autoconf autoheader aclocal automake bash cp gmake
 USE_LIBTOOL=		yes
 
 SUBST_CLASSES+=		python
@@ -25,6 +25,11 @@ SUBST_STAGE.python=	pre-configure
 SUBST_FILES.python=	configure configure.in
 SUBST_SED.python=	-e "s,python -c,${PYTHONBIN} -c,g"
 SUBST_MESSAGE.python=	Fixing hardcoded python binary
+
+REPLACE_INTERPRETER+=	bash
+REPLACE.bash.old=	/bin/bash
+REPLACE.bash.new=	${BASH}
+REPLACE_FILES.bash=	frontend/linux/workbench/mysql-workbench
 
 pre-configure:
 	set -e; cd ${WRKSRC}; \
