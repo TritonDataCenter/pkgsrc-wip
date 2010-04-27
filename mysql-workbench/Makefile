@@ -33,6 +33,7 @@ pre-configure:
 pre-build:
 	${CP} ${WRKSRC}/res/include/wb_config_oss.h ${WRKSRC}/wb_config.h
 
+.include "../../sysutils/desktop-file-utils/desktopdb.mk"
 .include "../../wip/ctemplate/buildlink3.mk"
 .include "../../archivers/libzip/buildlink3.mk"
 .include "../../devel/pcre/buildlink3.mk"
