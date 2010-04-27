@@ -22,7 +22,6 @@ USE_NCURSES=		yes
 
 INSTALLATION_DIRS+= 	share/examples/mcabber
 post-install:
-	${INSTALL_DATA} ${WRKSRC}/mcabber.desktop ${PREFIX}/share/applications/
 	${INSTALL_DATA} ${WRKSRC}/mcabberrc.example \
 			${DESTDIR}${PREFIX}/share/examples/mcabber
 
