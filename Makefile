@@ -599,6 +599,7 @@ SUBDIR+=	gst-inspector
 SUBDIR+=	gst-plugins0.10-farsight
 SUBDIR+=	gstat
 SUBDIR+=	gstreamer-plugins
+SUBDIR+=	gsview
 SUBDIR+=	gtg
 SUBDIR+=	gtk-gnutella-current
 SUBDIR+=	gtk-grdc
