@@ -1,10 +1,10 @@
 # $NetBSD$
 #
 
-DISTNAME=	castget-1.0.1
-PKGREVISION=	2
+DISTNAME=	castget-1.1.0
 CATEGORIES=	audio www
 MASTER_SITES=	http://savannah.nongnu.org/download/castget/
+EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	netbsd@guigui2.net
 HOMEPAGE=	http://castget.nongnu.org/
