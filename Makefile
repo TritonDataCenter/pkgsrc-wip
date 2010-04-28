@@ -246,6 +246,7 @@ SUBDIR+=	couchdb-glib
 SUBDIR+=	courierpassd
 SUBDIR+=	cpdup
 SUBDIR+=	cpm
+SUBDIR+=	creal
 SUBDIR+=	cream
 SUBDIR+=	crfpp
 SUBDIR+=	crm114
