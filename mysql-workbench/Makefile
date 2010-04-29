@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-PKGVERSION=	5.2.19
+PKGVERSION=	5.2.20
 DISTNAME=	mysql-workbench-oss-${PKGVERSION}
 PKGNAME=	${DISTNAME:S/-oss//}
 CATEGORIES=	databases
