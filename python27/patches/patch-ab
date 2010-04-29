@@ -1,6 +1,6 @@
 $NetBSD$
 
---- Lib/distutils/command/build_ext.py.orig	2010-03-05 00:16:02.000000000 +0000
+--- Lib/distutils/command/build_ext.py.orig	2010-04-01 18:17:09.000000000 +0000
 +++ Lib/distutils/command/build_ext.py
 @@ -514,8 +514,19 @@ class build_ext (Command):
          # that go into the mix.

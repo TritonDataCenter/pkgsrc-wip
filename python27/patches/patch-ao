@@ -1,6 +1,6 @@
 $NetBSD$
 
---- Lib/distutils/util.py.orig	2010-03-05 00:16:02.000000000 +0000
+--- Lib/distutils/util.py.orig	2010-04-01 18:17:09.000000000 +0000
 +++ Lib/distutils/util.py
 @@ -177,6 +177,8 @@ def get_platform ():
                  # See 'i386' case

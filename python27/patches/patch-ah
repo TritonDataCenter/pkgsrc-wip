@@ -1,6 +1,6 @@
 $NetBSD$
 
---- Modules/_cursesmodule.c.orig	2010-03-01 23:25:13.000000000 +0000
+--- Modules/_cursesmodule.c.orig	2010-03-25 00:54:54.000000000 +0000
 +++ Modules/_cursesmodule.c
 @@ -315,17 +315,9 @@ Window_NoArg2TupleReturnFunction(getpary
  
