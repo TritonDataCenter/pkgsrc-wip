@@ -321,6 +321,7 @@ SUBDIR+=	dns2tcp
 SUBDIR+=	dnscheck-engine
 SUBDIR+=	dnswalk
 SUBDIR+=	docbook-xsl-ko
+SUBDIR+=	docbook2X
 SUBDIR+=	doorman
 SUBDIR+=	dotconf
 SUBDIR+=	dotproject
