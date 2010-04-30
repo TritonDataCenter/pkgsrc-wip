@@ -3,7 +3,7 @@
 
 DISTNAME=	99561-filelight-1.9rc3
 PKGNAME=	filelight-1.9rc3
-PKGREVISION=	2
+PKGREVISION=	3
 CATEGORIES=	sysutils
 MASTER_SITES=	http://www.kde-apps.org/CONTENT/content-files/
 EXTRACT_SUFX=	.tgz
@@ -25,5 +25,6 @@ USE_CMAKE=	yes
 .include "../../meta-pkgs/kde4/kde4.mk"
 .include "../../graphics/hicolor-icon-theme/buildlink3.mk"
 .include "../../graphics/qimageblitz/buildlink3.mk"
+.include "../../sysutils/desktop-file-utils/desktopdb.mk"
 .include "../../x11/kdelibs4/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
