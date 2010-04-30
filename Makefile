@@ -558,6 +558,7 @@ SUBDIR+=	gnome-do
 SUBDIR+=	gnome-jabber
 SUBDIR+=	gnome-js-common
 SUBDIR+=	gnome-keyring-sharp
+SUBDIR+=	gnome-user-share
 SUBDIR+=	gnomebaker
 SUBDIR+=	gnomeradio
 SUBDIR+=	gnormalize
