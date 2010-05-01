@@ -2157,6 +2157,7 @@ SUBDIR+=	smtp.proxy
 SUBDIR+=	smtprc
 SUBDIR+=	smtprc-gui
 SUBDIR+=	smtpscan
+SUBDIR+=	smw
 SUBDIR+=	snark
 SUBDIR+=	snes9express
 SUBDIR+=	socklog
