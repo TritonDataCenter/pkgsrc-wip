@@ -1381,6 +1381,7 @@ SUBDIR+=	nomadio
 SUBDIR+=	noor
 SUBDIR+=	nos-tun
 SUBDIR+=	notify-sharp
+SUBDIR+=	notmuch
 SUBDIR+=	nullpop
 SUBDIR+=	nuppelvideo
 SUBDIR+=	nuttcp
