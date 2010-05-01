@@ -1683,6 +1683,7 @@ SUBDIR+=	pam-yubico
 SUBDIR+=	pan2-git
 SUBDIR+=	panda
 SUBDIR+=	pandoc
+SUBDIR+=	paperbox
 SUBDIR+=	parcellite
 SUBDIR+=	parted
 SUBDIR+=	pasmo
