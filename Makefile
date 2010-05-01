@@ -2232,6 +2232,7 @@ SUBDIR+=	tacacs-shrubbery
 SUBDIR+=	taglib-sharp
 SUBDIR+=	tagtool
 SUBDIR+=	talksoup
+SUBDIR+=	talloc
 SUBDIR+=	tardy
 SUBDIR+=	task
 SUBDIR+=	taskbar
