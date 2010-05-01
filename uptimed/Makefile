@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		uptimed-0.3.10
+DISTNAME=		uptimed-0.3.16
 CATEGORIES=		sysutils
 MASTER_SITES=		http://podgorny.cz/uptimed/releases/
 EXTRACT_SUFX=	.tar.bz2
