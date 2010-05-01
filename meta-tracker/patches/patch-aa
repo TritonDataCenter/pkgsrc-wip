@@ -1,4 +1,5 @@
 $NetBSD$
+
 --- src/trackerd/tracker-os-dependant-unix.c.orig	2008-06-09 21:48:30.000000000 +0200
 +++ src/trackerd/tracker-os-dependant-unix.c	2008-06-09 22:09:53.000000000 +0200
 @@ -26,6 +26,9 @@
