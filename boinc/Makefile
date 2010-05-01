@@ -27,6 +27,7 @@ USE_TOOLS+=		autoconf automake pkg-config # gmake gm4
 USE_LIBTOOL=		yes
 USE_LANGUAGES=		c c++
 BUILDLINK_TRANSFORM+=	rm:-ldl
+CONFIGURE_ARGS+=	--without-x --without-wx-config
 
 pre-configure:
 	${RUN} cd ${WRKSRC} && ${SH} _autosetup
