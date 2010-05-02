@@ -1,6 +1,7 @@
 @comment $NetBSD$
 bin/cdcc
 bin/dccproc
+libexec/ck2ip
 libexec/cron-dccd
 libexec/dbclean
 libexec/dblist
