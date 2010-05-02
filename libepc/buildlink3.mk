@@ -6,7 +6,7 @@ BUILDLINK_TREE+=	libepc
 LIBEPC_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.libepc+=	libepc>=0.3.11
-BUILDLINK_PKGSRCDIR.libepc?=	../../devel/libepc
+BUILDLINK_PKGSRCDIR.libepc?=	../../wip/libepc
 
 .include "../../net/libsoup24/buildlink3.mk"
 .endif	# LIBEPC_BUILDLINK3_MK
