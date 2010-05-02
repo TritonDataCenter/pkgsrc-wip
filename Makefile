@@ -1090,6 +1090,7 @@ SUBDIR+=	libdjconsole
 SUBDIR+=	libdmx
 SUBDIR+=	libdshconfig
 SUBDIR+=	libdssialsacompat
+SUBDIR+=	libepc
 SUBDIR+=	libexosip
 SUBDIR+=	libfplll
 SUBDIR+=	libgadu
