@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-VERS=			0.49.0
+VERS=	0.50.1
 DISTNAME=	logilab-common-${VERS}
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 EGG_NAME=	logilab_common-${VERS}
@@ -25,7 +25,6 @@ post-install:
 	${INSTALL_MAN} ${WRKSRC}/doc/pytest.1 \
 		${DESTDIR}${PREFIX}/${PKGMANDIR}/man1
 
-.include "../../devel/py-readline/buildlink3.mk"
 .include "../../lang/python/egg.mk"
 .include "../../time/py-mxDateTime/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
