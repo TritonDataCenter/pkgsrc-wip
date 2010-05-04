@@ -2254,7 +2254,6 @@ SUBDIR+=	tcpxtract
 SUBDIR+=	tctool
 SUBDIR+=	tde
 SUBDIR+=	teamspeak
-SUBDIR+=	teapot
 SUBDIR+=	teco
 SUBDIR+=	tegaki-pygtk
 SUBDIR+=	tegaki-python
