@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	aspell6-fi-0.7-0
+PKGNAME=	aspell-finnish-0.7.0
 CATEGORIES=	textproc
 MASTER_SITES=	${MASTER_SITE_GNU:=aspell/dict/fi/}
 EXTRACT_SUFX=	.tar.bz2
