@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	aspell6-te-0.01-2
-PKGNAME=	${DISTNAME:C/te-(.*)-(.*)$/telugu-\1.\2/}
+PKGNAME=	${DISTNAME:S/aspell6/aspell/:C/te-(.*)-(.*)$/telugu-\1.\2/}
 #PKGREVISION=	4
 CATEGORIES=	textproc
 MASTER_SITES=	${MASTER_SITE_GNU:=aspell/dict/te/}
