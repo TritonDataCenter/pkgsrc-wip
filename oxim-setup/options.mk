@@ -3,7 +3,7 @@
 
 PKG_OPTIONS_VAR=	PKG_OPTIONS.oxim-setup
 PKG_SUPPORTED_OPTIONS=	gtk qt
-PKG_SUGGESTED_OPTIONS=	qt
+PKG_SUGGESTED_OPTIONS=	gtk
 
 .include "../../mk/bsd.options.mk"
 
