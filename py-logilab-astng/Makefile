@@ -16,6 +16,8 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 
 USE_LANGUAGES=	# none
 
+PYTHON_VERSIONS_ACCEPTED= 26 25 24 23
+
 .include "../../lang/python/egg.mk"
 .include "../../wip/py-logilab-common/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
