@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	oxim-1.4.1
+DISTNAME=	oxim-1.4.4
 CATEGORIES=	inputmethod chinese
 MASTER_SITES=	ftp://ftp.opendesktop.org.tw/odp/OXIM/Source/
 
@@ -17,6 +17,8 @@ USE_LIBTOOL=		yes
 USE_LANGUAGES=		c c++
 USE_TOOLS+=		gmake pkg-config
 USE_PKGLOCALEDIR=	yes
+
+PKGCONFIG_OVERRIDE+=	oxim.pc.in
 
 PKG_SYSCONFSUBDIR=	oxim
 
