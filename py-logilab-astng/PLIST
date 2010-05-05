@@ -1,5 +1,4 @@
 @comment $NetBSD$
-${PYSITELIB}/logilab/__init__.py
 ${PYSITELIB}/logilab/astng/__init__.py
 ${PYSITELIB}/logilab/astng/__init__.pyc
 ${PYSITELIB}/logilab/astng/__init__.pyo
