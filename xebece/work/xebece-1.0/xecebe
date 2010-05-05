@@ -1,0 +1,2 @@
+#!/bin/sh
+/usr/pkg/bin/sun6-java -jar /usr/pkg/xebece/dist/xebece.jar

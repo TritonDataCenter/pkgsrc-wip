@@ -1,0 +1,16 @@
+@name xebece-1.0.3
+@blddep sun-jre6-6.0.17
+@pkgdep sun-jre6-[0-9]*
+@blddep sun-jre6-6.0.17
+@pkgdep sun-jre6>=6.0.4
+@blddep digest-20080510
+@comment $NetBSD$
+bin/xecebe
+share/doc/xebece/Xebece-Manual.cal
+share/doc/xebece/Xebece-Manual_de.cal
+share/examples/xebece/chi.cal
+share/examples/xebece/solar_system.cal
+xebece/dist/xebece.jar
+xebece/lib/icons.zip
+xebece/lib/prefuse.jar
+xebece/lib/prefusex.jar

@@ -1,0 +1,26 @@
+msg_log $wrapperlog "==> Reordering libraries: $libs"
+prevlibs=
+while $test "$libs" != "$prevlibs"; do
+	_libs=
+	for l in $libs; do
+		case $l in
+		*)
+			_libs="${_libs} $l"
+			;;
+		esac
+		_libs="${_libs# }"
+		_libs="${_libs% }"
+	done
+	prevlibs="$libs"
+	libs="${_libs}"
+done
+_libs=
+for l in $libs; do
+	case "${_libs}" in
+	$l|*" "$l) ;;
+	*) _libs="${_libs} $l" ;;
+	esac
+done
+_libs="${_libs# }"
+_libs="${_libs% }"
+libs="${_libs}"

@@ -1,0 +1,5 @@
+#!/bin/sh
+wrapperlog="${TOOLS_WRAPPER_LOG-/usr/pkgsrc/wip/xebece/work/.work.log}"
+echo "[*] "/usr/pkgsrc/wip/xebece/work/.tools/bin/aclocal-1.6" $@" >> $wrapperlog
+echo "<.> /usr/pkgsrc/mk/gnu-config/missing aclocal" >> $wrapperlog
+/usr/pkgsrc/mk/gnu-config/missing aclocal

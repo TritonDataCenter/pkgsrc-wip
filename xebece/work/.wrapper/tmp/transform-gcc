@@ -1,0 +1,112 @@
+transform_setname "transform-gcc"
+case $arg in
+-[EcgOos]		|\
+-[DILlU]?*		|\
+-O[01]			) transform_pass ;;
+-V			|\
+-v			|\
+--version		) transform_pass ;;
+-			|\
+-dynamic		|\
+-export-dynamic		|\
+-falign-functions=*	|\
+-falign-loops=*		|\
+-falign-jumps=*		|\
+-fexpensive-optimizations |\
+-ffast-math		|\
+-ffloat-store		|\
+-finline-functions	|\
+-fno-builtin*		|\
+-fno-common		|\
+-fno-implicit-templates	|\
+-fno-inline-functions	|\
+-fno-strict-aliasing	|\
+-fomit-frame-pointer	|\
+-fPIC			|\
+-fpic			|\
+-fpcc-struct-return	|\
+-freg-struct-return	|\
+-fsigned-char		|\
+-funroll-loops		|\
+-funsigned-char		|\
+-ggdb			|\
+-M			|\
+-M[DFMPT]		|\
+-MMD			|\
+-m32			|\
+-m64			|\
+-mabi=*			|\
+-march=*		|\
+-mcpu=*			|\
+-mieee-fp		|\
+-O[23s]			|\
+-pedantic		|\
+-pedantic-errors	|\
+-pipe			|\
+-pthread		|\
+-print-prog-name=*	|\
+-print-search-dirs	|\
+-S			|\
+-shared			|\
+-static			|\
+-std=c99		|\
+-std=gnu89		|\
+-std=gnu99		|\
+-W			|\
+-W[cLlS],*		|\
+-Wall			|\
+-Wcast-align		|\
+-Wcast-qual		|\
+-Wchar-subscripts	|\
+-Wconversion		|\
+-Wextra			|\
+-Werror			|\
+-Werror-implicit-function-declaration |\
+-Wformat=[012]		|\
+-Wmissing-declarations	|\
+-Wmissing-format-attribute |\
+-Wmissing-prototypes	|\
+-Wnested-externs	|\
+-Wno-error		|\
+-Wno-format-y2k		|\
+-Wno-format-zero-length	|\
+-Wno-implicit-int	|\
+-Wno-import		|\
+-Wno-inline		|\
+-Wno-long-long		|\
+-Wno-sign-compare	|\
+-Wno-traditional	|\
+-Wno-undef		|\
+-Wno-uninitialized	|\
+-Wno-unused		|\
+-Wno-unused-parameter	|\
+-Wno-write-strings	|\
+-Wparentheses		|\
+-Wpointer-arith		|\
+-Wreturn-type		|\
+-Wshadow		|\
+-Wsign-compare		|\
+-Wstrict-aliasing	|\
+-Wstrict-prototypes	|\
+-Wswitch		|\
+-Wunused		|\
+-Wundef			|\
+-Wwrite-strings		) transform_pass ;;
+-w			) transform_discard ;;
+-fexceptions		|\
+-fmessage-length=*	|\
+-fno-check-new		|\
+-fno-exceptions		|\
+-fno-rtti		|\
+-Wno-non-virtual-dtor	|\
+-ftemplate-depth=*	) transform_pass ;;
+-fgnu-runtime		|\
+-fconstant-string-class=* ) transform_pass ;;
+-Kpic			|\
+-kpic			|\
+-KPIC			|\
+-kPIC			) transform_to "-fPIC" ;;
+-mt			) transform_to "-threads" ;;
+-64			) transform_to "-m64" ;;
+-*			) transform_pass_with_warning ;;
+esac
