@@ -1,3 +1,0 @@
-bootstrap	digest>=20010302	../../pkgtools/digest
-full	sun-jre6-[0-9]*	../../lang/sun-jre6
-full	sun-jre6>=6.0.4	../../lang/sun-jre6
