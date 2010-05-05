@@ -8,7 +8,7 @@ MASTER_SITES=	http://ljk.imag.fr/CASYS/LOGICIELS/givaro/Downloads/
 MAINTAINER=	emil@math.su.se
 HOMEPAGE=	http://ljk.imag.fr/CASYS/LOGICIELS/givaro/
 COMMENT=	C++ library for arithmetic and algebraic computations
-#LICENSE=	# TODO: (see mk/license.mk)
+LICENSE=	gnu-gpl-v3
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
