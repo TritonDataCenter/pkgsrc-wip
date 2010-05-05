@@ -17,8 +17,9 @@ GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_LANGUAGES=	c c++
 
-EGDIR=		${PREFIX}/share/examples/${PKGBASE}
+CONFIGURE_ARGS+=	--with-gmp=${BUILDLINK_PREFIX.gmp}
 
+EGDIR=		${PREFIX}/share/examples/${PKGBASE}
 
 post-install:
 	${INSTALL_DATA_DIR} ${DESTDIR}${EGDIR}/FiniteField
