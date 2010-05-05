@@ -1,5 +1,5 @@
 @comment $NetBSD$
-bin/xecebe
+bin/xebece
 share/doc/xebece/Xebece-Manual.cal
 share/doc/xebece/Xebece-Manual_de.cal
 share/examples/xebece/chi.cal
