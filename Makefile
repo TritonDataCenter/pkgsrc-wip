@@ -176,6 +176,7 @@ SUBDIR+=	bscript
 SUBDIR+=	bsdbuild
 SUBDIR+=	bsfilter
 SUBDIR+=	bsnes
+SUBDIR+=	bsnmp
 SUBDIR+=	bss
 SUBDIR+=	bsvc
 SUBDIR+=	btscanner
