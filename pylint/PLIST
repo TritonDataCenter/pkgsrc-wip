@@ -108,3 +108,11 @@ ${PYSITELIB}/pylint/reporters/text.pyo
 ${PYSITELIB}/pylint/utils.py
 ${PYSITELIB}/pylint/utils.pyc
 ${PYSITELIB}/pylint/utils.pyo
+man/man1/pylint.1
+man/man1/pyreverse.1
+share/doc/pylint/FAQ.txt
+share/doc/pylint/beginner_pylint_tutorial.txt
+share/doc/pylint/features.txt
+share/doc/pylint/flymake.txt
+share/doc/pylint/manual.txt
+share/doc/pylint/quickstart.txt
