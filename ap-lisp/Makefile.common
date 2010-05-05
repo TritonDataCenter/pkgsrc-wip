@@ -1,6 +1,7 @@
 # $NetBSD$
 #
-
+# used by wip/ap-lisp/Makefile
+# used by wip/ap2-lisp/Makefile
 CATEGORIES=	lang www
 MASTER_SITES=	http://www.fractalconcept.com/fcweb/download/
 EXTRACT_SUFX=	.c
