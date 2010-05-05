@@ -1,5 +1,0 @@
-#!/bin/sh
-wrapperlog="${TOOLS_WRAPPER_LOG-/usr/pkgsrc/wip/xebece/work/.work.log}"
-echo "[*] "/usr/pkgsrc/wip/xebece/work/.tools/bin/intltool-merge" $@" >> $wrapperlog
-echo "<.> exit 1" >> $wrapperlog
-exit 1
