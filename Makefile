@@ -1977,6 +1977,7 @@ SUBDIR+=	py-sshpt
 SUBDIR+=	py-statgrap
 SUBDIR+=	py-stem
 SUBDIR+=	py-storm
+SUBDIR+=	py-sympycore
 SUBDIR+=	py-tagger
 SUBDIR+=	py-taglib
 SUBDIR+=	py-telepathy
