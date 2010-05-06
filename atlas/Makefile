@@ -12,6 +12,8 @@ MAINTAINER=	asau@inbox.ru
 HOMEPAGE=	 http://math-atlas.sourceforge.net/
 COMMENT=	Automatically Tuned Linear Algebra Software
 
+CONFLICTS=	lapack-[0-9]*
+
 PKG_DESTDIR_SUPPORT=	user-destdir
 
 WRKSRC=		${WRKDIR}/ATLAS
@@ -26,8 +28,6 @@ CONFIGURE_SCRIPT=	../configure
 CONFIGURE_ARGS+=	--incdir=${DESTDIR}${PREFIX}/include
 CONFIGURE_ARGS+=	--libdir=${DESTDIR}${PREFIX}/lib
 CONFIGURE_ARGS+=	-b 32
-
-CONFLITS=	lapack-[0-9]*
 
 TEST_TARGET=	check
 
