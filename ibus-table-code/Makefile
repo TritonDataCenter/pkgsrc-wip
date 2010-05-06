@@ -15,9 +15,6 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 GNU_CONFIGURE=	yes
 USE_TOOLS+=	pkg-config
 
-# latex is in ibus-table.
-CONFIGURE_ARGS+=	--disable-latex
-
 .include "../../lang/python/application.mk"
 .include "../../wip/ibus-table/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

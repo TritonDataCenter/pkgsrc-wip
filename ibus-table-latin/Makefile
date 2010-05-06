@@ -16,8 +16,5 @@ GNU_CONFIGURE=	yes
 USE_LANGUAGES=	c
 USE_TOOLS+=	pkg-config
 
-# already in ibus-table.
-CONFIGURE_ARGS+=	--disable-compose
-
 .include "../../wip/ibus-table/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

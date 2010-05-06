@@ -1,3 +1,5 @@
 @comment $NetBSD$
+share/ibus-table/icons/compose.svg
 share/ibus-table/icons/ipa-x-sampa.png
+share/ibus-table/tables/compose.db
 share/ibus-table/tables/ipa-x-sampa.db
