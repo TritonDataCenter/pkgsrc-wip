@@ -10,7 +10,7 @@ EXTRACT_SUFX=	.zip
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	http://code.google.com/p/gmpy
 COMMENT=	Library for arbitrary precision arithmetic wirtten by Python
-LICENSE=		gnu-lgpl-v2.1
+LICENSE=	gnu-lgpl-v2.1
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 USE_LANGUAGES=	c
@@ -35,6 +35,7 @@ post-install:
 	${INSTALL_DATA} ${WRKSRC}/doc/index.html \
 		${DESTDIR}${PREFIX}/share/doc/py-gmpy
 
+BUILDLINK_API_DEPENDS.gmp+=		gmp>=4.2.1
 .include "../../devel/gmp/buildlink3.mk"
 .include "../../lang/python/extension.mk"
 .include "../../mk/bsd.pkg.mk"
