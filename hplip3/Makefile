@@ -18,6 +18,8 @@ USE_LANGUAGES=	c c++
 USE_TOOLS+=	gmake
 
 CONFIGURE_ARGS= --sysconfdir=${PKG_SYSCONFDIR} \
+		--with-cupsbackenddir=${PREFIX}/libexec/cups/backend \
+		--with-cupsfilterdir=${PREFIX}/libexec/cups/filter \
 		--enable-dbus-build=false
 
 .include "../../lang/python/application.mk"

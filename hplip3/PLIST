@@ -37,6 +37,13 @@ ${PYSITELIB}/hpmudext.la
 ${PYSITELIB}/pcardext.la
 ${PYSITELIB}/scanext.la
 lib/sane/libsane-hpaio.la
+libexec/cups/backend/hp
+libexec/cups/backend/hpfax
+libexec/cups/filter/hpcac
+libexec/cups/filter/hpcups
+libexec/cups/filter/hpcupsfax
+libexec/cups/filter/hplipjs
+libexec/cups/filter/pstotiff
 share/cups/drv/hp/hpcups.drv
 share/doc/${PKGNAME}/COPYING
 share/doc/${PKGNAME}/README_LIBJPG
