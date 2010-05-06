@@ -6,7 +6,7 @@ PKGREVISION=	1
 CATEGORIES=	graphics
 MASTER_SITES=	http://garr.dl.sourceforge.net/project/gts/gts/0.7.6/
 
-MAINTAINER=	kamel.derouiche@gmail.com
+MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	http://gts.sourceforge.net/
 COMMENT=	GTS stands for the GNU Triangulated Surface Library
 LICENSE=	gnu-gpl-v2
