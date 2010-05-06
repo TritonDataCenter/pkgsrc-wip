@@ -1921,7 +1921,6 @@ SUBDIR+=	py-libtunepimp
 SUBDIR+=	py-lockfile
 SUBDIR+=	py-logilab-astng
 SUBDIR+=	py-logilab-common
-SUBDIR+=	py-logilab-doctools
 SUBDIR+=	py-logilab-mtconverter
 SUBDIR+=	py-logilab-pigg
 SUBDIR+=	py-matplotlib
