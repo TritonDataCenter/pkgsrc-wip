@@ -9,3 +9,5 @@ ${PYSITELIB}/gts/blender.pyo
 ${PYSITELIB}/gts/pygts.py
 ${PYSITELIB}/gts/pygts.pyc
 ${PYSITELIB}/gts/pygts.pyo
+share/doc/py-gts/README.developers
+share/doc/py-gts/gts.html
