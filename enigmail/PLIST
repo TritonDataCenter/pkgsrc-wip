@@ -1,2 +1,2 @@
 @comment $NetBSD$
-share/${PKGNAME}-${LOWER_OPSYS}-${MACHINE_ARCH}.xpi
+share/enigmail-1.0-${LOWER_OPSYS}-${MACHINE_ARCH}.xpi
