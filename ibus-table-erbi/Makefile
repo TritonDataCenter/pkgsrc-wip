@@ -16,9 +16,8 @@ GNU_CONFIGURE=	yes
 USE_LANGUAGES=	# none
 USE_TOOLS+=	pkg-config
 
-#XXX: should be optionify?
-#CONFIGURE_ARGS+=	--enable-extra-phrases
+CONFIGURE_ARGS+=	--enable-extra-phrases
 
-#.include "../../wip/ibus-table-extraphrase/buildlink3.mk"
+.include "../../wip/ibus-table-extraphrase/buildlink3.mk"
 .include "../../wip/ibus-table/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
