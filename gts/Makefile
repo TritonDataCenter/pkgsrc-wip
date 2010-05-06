@@ -3,7 +3,7 @@
 
 DISTNAME=	gts-0.7.6
 PKGREVISION=	1
-CATEGORIES=	math
+CATEGORIES=	graphics
 MASTER_SITES=	http://garr.dl.sourceforge.net/project/gts/gts/0.7.6/
 
 MAINTAINER=	kamel.derouiche@gmail.com
