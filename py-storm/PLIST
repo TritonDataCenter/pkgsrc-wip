@@ -87,6 +87,9 @@ ${PYSITELIB}/storm/variables.pyo
 ${PYSITELIB}/storm/zope/__init__.py
 ${PYSITELIB}/storm/zope/__init__.pyc
 ${PYSITELIB}/storm/zope/__init__.pyo
+${PYSITELIB}/storm/zope/adapters.py
+${PYSITELIB}/storm/zope/adapters.pyc
+${PYSITELIB}/storm/zope/adapters.pyo
 ${PYSITELIB}/storm/zope/configure.zcml
 ${PYSITELIB}/storm/zope/interfaces.py
 ${PYSITELIB}/storm/zope/interfaces.pyc
@@ -101,3 +104,4 @@ ${PYSITELIB}/storm/zope/metadirectives.pyo
 ${PYSITELIB}/storm/zope/zstorm.py
 ${PYSITELIB}/storm/zope/zstorm.pyc
 ${PYSITELIB}/storm/zope/zstorm.pyo
+share/doc/py-storm/README
