@@ -469,6 +469,7 @@ SUBDIR+=	foomatic-db-engine
 SUBDIR+=	fortunes-it
 SUBDIR+=	fprobe
 SUBDIR+=	fragrouter
+SUBDIR+=	freecell
 SUBDIR+=	freedict-tools-xsl
 SUBDIR+=	freedup
 SUBDIR+=	freej
