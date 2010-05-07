@@ -579,6 +579,7 @@ SUBDIR+=	gobject-introspection
 SUBDIR+=	godura
 SUBDIR+=	goldwater
 SUBDIR+=	google-perftools
+SUBDIR+=	googlesharing
 SUBDIR+=	gosmore
 SUBDIR+=	gov2
 SUBDIR+=	gpak
