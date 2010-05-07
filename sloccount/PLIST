@@ -39,10 +39,8 @@ bin/show_filecount
 bin/sloccount
 bin/sql_count
 bin/tcl_count
-share/doc/${PKGNAME}-1/ChangeLog
-share/doc/${PKGNAME}-1/README
-share/doc/${PKGNAME}-1/TODO
-share/doc/${PKGNAME}-1/sloccount.html
-share/man/man1/sloccount.1.gz
-@dirrm share/man/man1
-@dirrm share/doc/${PKGNAME}-1
+man/man1/sloccount.1.gz
+share/doc/sloccount/ChangeLog
+share/doc/sloccount/README
+share/doc/sloccount/TODO
+share/doc/sloccount/sloccount.html

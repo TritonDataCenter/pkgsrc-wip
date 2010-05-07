@@ -11,8 +11,13 @@ COMMENT=	Counting physical Source Lines of Code (SLOC)
 LICENSE=	gnu-gpl-v2
 
 PKG_DESTDIR_SUPPORT=	user-destdir
+
+USE_TOOLS+=	flex perl
+
 MAKE_FILE=	makefile
 MAKE_FLAGS+=	PREFIX=${PREFIX}
 MAKE_FLAGS+=	DESTDIR=${DESTDIR}
+
+INSTALLATION_DIRS=	bin
 
 .include "../../mk/bsd.pkg.mk"
