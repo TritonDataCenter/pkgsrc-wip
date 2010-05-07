@@ -341,6 +341,7 @@ SUBDIR+=	dspam
 SUBDIR+=	dssi
 SUBDIR+=	duali-data
 SUBDIR+=	dumb
+SUBDIR+=	duplo
 SUBDIR+=	dvbsnoop
 SUBDIR+=	dvd2xvid
 SUBDIR+=	dwepcrack
