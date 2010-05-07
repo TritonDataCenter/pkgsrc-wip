@@ -1,0 +1,3 @@
+@comment $NetBSD$
+bin/duplo
+share/doc/duplo/README
