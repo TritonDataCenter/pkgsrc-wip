@@ -1886,6 +1886,7 @@ SUBDIR+=	py-ezPyCrypto
 SUBDIR+=	py-fastaudio
 SUBDIR+=	py-flakes
 SUBDIR+=	py-foolscap
+SUBDIR+=	py-fuzzpy
 SUBDIR+=	py-fs
 SUBDIR+=	py-gcalendarsync
 SUBDIR+=	py-generateDS
