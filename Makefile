@@ -1934,6 +1934,7 @@ SUBDIR+=	py-mdp
 SUBDIR+=	py-memcached
 SUBDIR+=	py-metrics
 SUBDIR+=	py-mocker
+SUBDIR+=	py-mpich4py
 SUBDIR+=	py-mpmath
 SUBDIR+=	py-mx-base
 SUBDIR+=	py-mysqldb-docs
