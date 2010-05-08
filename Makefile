@@ -1917,6 +1917,7 @@ SUBDIR+=	py-kcs11
 SUBDIR+=	py-knockknock
 SUBDIR+=	py-kyra
 SUBDIR+=	py-last
+SUBDIR+=	py-lazr.uri
 SUBDIR+=	py-lib
 SUBDIR+=	py-libmc
 SUBDIR+=	py-libmpdclient2
