@@ -1715,6 +1715,7 @@ SUBDIR+=	pear-HTTP_Client
 SUBDIR+=	pear-HTTP_Request2
 SUBDIR+=	pear-Net_URL2
 SUBDIR+=	pear-XML_Parser
+SUBDIR+=	pessulus
 SUBDIR+=	pfe
 SUBDIR+=	pgp6
 SUBDIR+=	phlib
