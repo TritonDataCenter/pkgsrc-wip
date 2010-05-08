@@ -2531,6 +2531,7 @@ SUBDIR+=	yakuake
 SUBDIR+=	yamcha
 SUBDIR+=	yauap
 SUBDIR+=	yaws
+SUBDIR+=	yelp-xsl
 SUBDIR+=	yersinia
 SUBDIR+=	ykclient
 SUBDIR+=	yp-tools
