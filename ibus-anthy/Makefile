@@ -12,7 +12,7 @@ LICENSE=	gnu-gpl-v2
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
-DEPENDS+=	kasumi-[0-9]*:../../inputmethod/kasumi
+DEPENDS+=	kasumi>=2.1:../../inputmethod/kasumi
 DEPENDS+=	ibus>=1.2.0.20100111:../../wip/ibus
 DEPENDS+=	${PYPKGPREFIX}-gtk2>=1.15.2:../../x11/py-gtk2
 
@@ -26,7 +26,7 @@ FIND_PREFIX:=	KASUMI_DIR=kasumi
 .include "../../mk/find-prefix.mk"
 
 CONFIGURE_ARGS+=	--with-kasumi-exec=${KASUMI_DIR}/bin/kasumi
-CONFIGURE_ARGS+=	--with-kasumi-icon=${KASUMI_DIR}/share/kasumi/kasumi.png
+CONFIGURE_ARGS+=	--with-kasumi-icon=${KASUMI_DIR}/share/pixmaps/kasumi.png
 
 SUBST_CLASSES+=		epython
 SUBST_STAGE.epython=	pre-configure
