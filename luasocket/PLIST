@@ -1,11 +1,11 @@
 @comment $NetBSD$
-lib/lua/5.1/mime.so
-lib/lua/5.1/socket.so
-share/lua/5.1/ftp.lua
-share/lua/5.1/http.lua
+lib/lua/5.1/mime/core.so
+lib/lua/5.1/socket/core.so
 share/lua/5.1/ltn12.lua
 share/lua/5.1/mime.lua
-share/lua/5.1/smtp.lua
 share/lua/5.1/socket.lua
-share/lua/5.1/tp.lua
-share/lua/5.1/url.lua
+share/lua/5.1/socket/ftp.lua
+share/lua/5.1/socket/http.lua
+share/lua/5.1/socket/smtp.lua
+share/lua/5.1/socket/tp.lua
+share/lua/5.1/socket/url.lua
