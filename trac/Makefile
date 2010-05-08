@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	Trac-0.11.6
+DISTNAME=	Trac-0.12b1
 PKGNAME=	${DISTNAME:tl}
 EGG_NAME=	${DISTNAME}
 CATEGORIES=	devel www
@@ -16,7 +16,7 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 USE_LANGUAGES=	# none
 USE_TOOLS+=	pax
 
-DEPENDS+=	${PYPKGPREFIX}-genshi>=0.5:../../www/py-genshi
+DEPENDS+=	${PYPKGPREFIX}-genshi>=0.6:../../www/py-genshi
 
 REPLACE_PYTHON=	cgi-bin/trac.cgi cgi-bin/trac.fcgi
 REPLACE_PYTHON+=contrib/*.py contrib/*-hook contrib/workflow/*.py
