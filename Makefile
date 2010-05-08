@@ -1992,6 +1992,7 @@ SUBDIR+=	py-tranquil
 SUBDIR+=	py-twisted
 SUBDIR+=	py-twisted-kqueue
 SUBDIR+=	py-twisted-zopeinterface
+SUBDIR+=	py-uuid
 SUBDIR+=	py-van.testing
 SUBDIR+=	py-visionegg
 SUBDIR+=	py-visionegg-contrib
