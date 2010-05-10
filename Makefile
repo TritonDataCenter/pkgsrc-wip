@@ -1975,6 +1975,7 @@ SUBDIR+=	py-rlcompleter2
 SUBDIR+=	py-sage
 SUBDIR+=	py-scipy
 SUBDIR+=	py-scrobbler
+SUBDIR+=	py-sfepy
 SUBDIR+=	py-shtoom
 SUBDIR+=	py-simpleparse-mxtexttools
 SUBDIR+=	py-snmp
