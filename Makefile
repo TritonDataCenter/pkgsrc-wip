@@ -2107,6 +2107,7 @@ SUBDIR+=	s3funnel
 SUBDIR+=	sakura
 SUBDIR+=	samhain
 SUBDIR+=	sara
+SUBDIR+=	saxon
 SUBDIR+=	sbcl
 SUBDIR+=	scare
 SUBDIR+=	schismtracker
