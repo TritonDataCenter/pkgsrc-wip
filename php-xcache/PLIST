@@ -19,5 +19,3 @@ share/examples/xcache/admin/xcache.css
 share/examples/xcache/admin/xcache.php
 share/examples/xcache/admin/xcache.tpl.php
 share/examples/xcache/xcache.ini
-@dirrm share/examples/xcache/admin
-@dirrm share/examples/xcache

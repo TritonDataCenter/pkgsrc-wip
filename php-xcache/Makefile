@@ -11,15 +11,9 @@ MAINTAINER=		mbowie@buzmo.com
 HOMEPAGE=		http://xcache.lighttpd.net/
 COMMENT=		Fast and stable PHP opcode cacher
 
-CONFLICTS=		php-xcache-[0-9]*
-
 PKG_DESTDIR_SUPPORT=	user-destdir
 
 CONFIGURE_ARGS+=	--enable-${MODNAME}
-
-AUTO_MKDIRS=		yes
-
-USE_PHP_EXT_PATCHES=	yes
 
 INSTALLATION_DIRS=	share/examples/xcache
 INSTALLATION_DIRS+=	share/examples/xcache/admin
