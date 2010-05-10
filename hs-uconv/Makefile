@@ -2,14 +2,11 @@
 #
 
 DISTNAME=	uconv-0.0.3
-PKGNAME=	hs-${DISTNAME}
-PKGREVISION=	1
+PKGREVISION=	2
 CATEGORIES=	devel
 
 MAINTAINER=	pho@cielonegro.org
 COMMENT=	Haskell interface to ICU's uconv library
-
-USE_LANGUAGES=	# none
 
 .include "../../wip/mk/haskell.mk"
 .include "../../textproc/icu/buildlink3.mk"
