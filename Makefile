@@ -2241,6 +2241,7 @@ SUBDIR+=	sxemacs
 SUBDIR+=	sxid
 SUBDIR+=	symon
 SUBDIR+=	symmetrica
+SUBDIR+=	sympow
 SUBDIR+=	syn68k
 SUBDIR+=	synce-dynamite
 #SUBDIR+=	synce-kde	# requires buildlink3 file to be put in pkgsrc tree
