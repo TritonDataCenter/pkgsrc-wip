@@ -1,4 +1,4 @@
-$NetBSD: patch-ml,v 1.1.1.1 2009/08/05 02:37:11 tnn Exp $
+$NetBSD: patch-ml,v 1.1.1.1 2009/08/05 02:59:48 tnn Exp $
 
 Treat DragonFly like FreeBSD.
 

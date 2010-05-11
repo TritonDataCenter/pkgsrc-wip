@@ -1,4 +1,4 @@
-$NetBSD: patch-ma,v 1.1.1.1 2009/08/05 02:37:11 tnn Exp $
+$NetBSD: patch-ma,v 1.1.1.1 2009/08/05 02:59:48 tnn Exp $
 
 --- config/autoconf.mk.in.orig	2009-06-29 18:14:41.000000000 +0200
 +++ config/autoconf.mk.in

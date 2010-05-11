@@ -1,4 +1,4 @@
-$NetBSD: patch-xm,v 1.1.1.1 2009/08/05 02:37:12 tnn Exp $
+$NetBSD: patch-xm,v 1.1.1.1 2009/08/05 02:59:49 tnn Exp $
 
 NetBSD/ppc xptcall support code. Originally from pkgsrc/www/mozilla.
 

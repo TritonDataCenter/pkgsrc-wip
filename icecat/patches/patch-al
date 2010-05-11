@@ -1,4 +1,4 @@
-$NetBSD: patch-al,v 1.7 2009/08/05 02:43:47 tnn Exp $
+$NetBSD: patch-al,v 1.1.1.1 2009/08/05 02:59:48 tnn Exp $
 
 # Reported upstream as https://bugzilla.mozilla.org/show_bug.cgi?id=471179
 

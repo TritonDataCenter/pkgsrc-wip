@@ -1,4 +1,4 @@
-$NetBSD: patch-au,v 1.1.1.1 2009/08/05 02:37:11 tnn Exp $
+$NetBSD: patch-au,v 1.1.1.1 2009/08/05 02:59:48 tnn Exp $
 
 SOUND_VERSION just isn't a reliable way to detect features supported by
 particular OSS implementation.
