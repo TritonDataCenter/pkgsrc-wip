@@ -6,7 +6,7 @@ PKGNAME=	${PYPKGPREFIX}-${DISTNAME:S/py//}
 CATEGORIES=	math python
 MASTER_SITES=	http://garr.dl.sourceforge.net/project/pysparse/pysparse/1.1/
 
-MAINTAINER=	kamel.derouiche@gmail.com
+MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	http://pysparse.sourceforge.net/
 COMMENT=	Sparse linear algebra extension for Python
 #LICENSE=	# TODO: (see mk/license.mk)
