@@ -5,6 +5,8 @@ lib/HDBC-${PKGVERSION}/${HASKELL_VERSION}/Database/HDBC/ColTypes.hi
 lib/HDBC-${PKGVERSION}/${HASKELL_VERSION}/Database/HDBC/ColTypes.p_hi
 lib/HDBC-${PKGVERSION}/${HASKELL_VERSION}/Database/HDBC/DriverUtils.hi
 lib/HDBC-${PKGVERSION}/${HASKELL_VERSION}/Database/HDBC/DriverUtils.p_hi
+lib/HDBC-${PKGVERSION}/${HASKELL_VERSION}/Database/HDBC/Locale.hi
+lib/HDBC-${PKGVERSION}/${HASKELL_VERSION}/Database/HDBC/Locale.p_hi
 lib/HDBC-${PKGVERSION}/${HASKELL_VERSION}/Database/HDBC/SqlValue.hi
 lib/HDBC-${PKGVERSION}/${HASKELL_VERSION}/Database/HDBC/SqlValue.p_hi
 lib/HDBC-${PKGVERSION}/${HASKELL_VERSION}/Database/HDBC/Statement.hi
