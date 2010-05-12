@@ -1,0 +1,14 @@
+@comment $NetBSD$
+${PYSITELIB}/CifFile.py
+${PYSITELIB}/CifFile.pyc
+${PYSITELIB}/CifFile.pyo
+${PYSITELIB}/StarFile.py
+${PYSITELIB}/StarFile.pyc
+${PYSITELIB}/StarFile.pyo
+${PYSITELIB}/StarScan.so
+${PYSITELIB}/YappsStarParser.py
+${PYSITELIB}/YappsStarParser.pyc
+${PYSITELIB}/YappsStarParser.pyo
+${PYSITELIB}/yapps_compiled_rt.py
+${PYSITELIB}/yapps_compiled_rt.pyc
+${PYSITELIB}/yapps_compiled_rt.pyo
