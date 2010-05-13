@@ -5,7 +5,7 @@ DISTNAME=	yauap-0.2.4
 CATEGORIES=	audio
 MASTER_SITES=	http://mirrors.linhub.com/savannah/yauap/
 
-MAINTAINER=	kamelderouiche@yahoo.com
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.nongnu.org/yauap/index.html
 COMMENT=	Yauap is a simple commandline audio player
 LICENSE=	gnu-lgpl-v2.1
