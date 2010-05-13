@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	gobject-introspection-0.6.9
+DISTNAME=	gobject-introspection-0.6.10
 CATEGORIES=	devel
 MASTER_SITES=	${MASTER_SITE_GNOME:=sources/gobject-introspection/0.6/}
 EXTRACT_SUFX=	.tar.bz2
@@ -27,5 +27,6 @@ TEST_TARGET=	check
 
 .include "../../devel/glib2/buildlink3.mk"
 .include "../../devel/libffi/buildlink3.mk"
+.include "../../graphics/cairo/buildlink3.mk"
 .include "../../lang/python/extension.mk"
 .include "../../mk/bsd.pkg.mk"
