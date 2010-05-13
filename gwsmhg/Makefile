@@ -5,7 +5,7 @@ DISTNAME=	gwsmhg-0.8.1
 CATEGORIES=	devel python
 MASTER_SITES=	http://garr.dl.sourceforge.net/project/gwsmhg/gwsmhg/v-0.8.1/
 
-MAINTAINER=	kamelderouiche@yahoo.com
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://gwsmhg.sourceforge.net/
 COMMENT=	Mercurial PyGtk GUI client
 LICENSE=	gnu-gpl-v2
