@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	haskelldb-hdbc-0.12
+DISTNAME=	haskelldb-hdbc-0.13
 CATEGORIES=	databases
 
 MAINTAINER=	pho@cielonegro.org
