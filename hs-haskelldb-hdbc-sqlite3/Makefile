@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	haskelldb-hdbc-sqlite3-0.12
+DISTNAME=	haskelldb-hdbc-sqlite3-0.13
 CATEGORIES=	databases
 
 MAINTAINER=	pho@cielonegro.org

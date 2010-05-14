@@ -5,7 +5,7 @@ BUILDLINK_TREE+=	hs-haskelldb-hdbc-sqlite3
 .if !defined(HS_HASKELLDB_HDBC_SQLITE3_BUILDLINK3_MK)
 HS_HASKELLDB_HDBC_SQLITE3_BUILDLINK3_MK:=
 
-BUILDLINK_API_DEPENDS.hs-haskelldb-hdbc-sqlite3+=	hs-haskelldb-hdbc-sqlite3>=0.12
+BUILDLINK_API_DEPENDS.hs-haskelldb-hdbc-sqlite3+=	hs-haskelldb-hdbc-sqlite3>=0.13
 BUILDLINK_PKGSRCDIR.hs-haskelldb-hdbc-sqlite3?=	../../wip/hs-haskelldb-hdbc-sqlite3
 
 .include "../../wip/hs-haskelldb/buildlink3.mk"
