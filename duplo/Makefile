@@ -8,8 +8,8 @@ MASTER_SITES=	http://garr.dl.sourceforge.net/project/duplo/duplo/duplo_0.2.0/
 
 MAINTAINER=	kamel.derouiche@gmail.com
 HOMEPAGE=	http://duplo.giants.ch/
-COMMENT=		Duplicated source code blocks C++ language
-LICENSE=	    gnu-gpl-v2
+COMMENT=	Find duplicated code blocks in large C/C++/Java/C
+LICENSE=	gnu-gpl-v2
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
