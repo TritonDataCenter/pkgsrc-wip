@@ -1,0 +1,4 @@
+@comment $NetBSD$
+${PYSITELIB}/xdgapp.py
+${PYSITELIB}/xdgapp.pyc
+${PYSITELIB}/xdgapp.pyo
