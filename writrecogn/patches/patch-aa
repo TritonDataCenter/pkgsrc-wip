@@ -1,0 +1,12 @@
+$NetBSD$
+
+--- src/ui/callbacks.c.orig	2008-04-24 02:23:00.000000000 +0000
++++ src/ui/callbacks.c
+@@ -28,7 +28,6 @@
+ #include <libgen.h>
+ #include <unistd.h>
+ #include <errno.h>
+-#include <error.h>
+ 
+ #include "ui.h"
+ #include "algors.h"
