@@ -7,6 +7,7 @@ MASTER_SITES=		http://download.savannah.gnu.org/releases/gmediaserver/
 MAINTAINER=		obache@NetBSD.org
 HOMEPAGE=		http://www.gnu.org/software/gmediaserver/
 COMMENT=		UPnP compatible media server for the GNU system
+LICENSE=		gnu-gpl-v3
 
 USE_TOOLS+=		perl pkg-config gmake makeinfo msgfmt
 GNU_CONFIGURE=		yes
