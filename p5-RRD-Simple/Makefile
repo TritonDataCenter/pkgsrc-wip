@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	RRD-Simple-1.43
+DISTNAME=	RRD-Simple-1.44
 PKGNAME=	p5-${DISTNAME}
 CATEGORIES=	perl5 databases
 MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=../by-authors/id/N/NI/NICOLAW/}
