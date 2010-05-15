@@ -1728,6 +1728,7 @@ SUBDIR+=	petsc
 SUBDIR+=	pfe
 SUBDIR+=	pgp6
 SUBDIR+=	phlib
+SUBDIR+=	php-libawl
 #SUBDIR+=	php-doc			# not a package
 SUBDIR+=	php-doc-ar
 SUBDIR+=	php-doc-br
