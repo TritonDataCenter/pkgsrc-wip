@@ -20,6 +20,8 @@ USE_LIBTOOL=	yes
 USE_TOOLS+= pkg-config
 
 PYTHON_VERSIONS_ACCEPTED= 26 25
+CONFIGURE_ENV+=		PYTHON=${PYTHONBIN}
+PY_PATCHPLIST=		yes
 
 .include "../../devel/glib2/buildlink3.mk"
 BUILDLINK_API_DEPENDS.pygobject+=	${PYPKGPREFIX}-gobject>=2.10.1nb1
