@@ -1,2 +1,5 @@
-Fix installation script in config/install.py,
+$Id$
+
+1. Support Fortran.
+2. Fix installation script in config/install.py,
 it should support staged installation.
