@@ -26,5 +26,5 @@ post-install:
 
 .include "../../devel/py-ctypes/buildlink3.mk"
 .include "../../lang/python/extension.mk"
-.include "../../parallel/mpi-ch/buildlink3.mk"
+.include "../../mk/mpi.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

@@ -30,5 +30,5 @@ do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/simplempi/${_prog_} ${DESTDIR}${PREFIX}/bin/${_prog_}
 .endfor
 
-.include "../../wip/mpi-ch/buildlink3.mk"
+.include "../../mk/mpi.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
