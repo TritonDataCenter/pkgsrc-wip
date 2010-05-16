@@ -16,12 +16,13 @@ _GIT_FLAGS= # The repository is very large. We don't want git to be quiet.
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
-WRKSRC=				${WRKDIR}/cinelerra
+WRKSRC=			${WRKDIR}/cinelerra
 GNU_CONFIGURE=		yes
-USE_TOOLS+=			pkg-config automake gmake xgettext msgmerge
+USE_TOOLS+=		automake gmake msgmerge pkg-config xgettext
 USE_LIBTOOL=		yes
 USE_PKGLOCALEDIR=	yes
 USE_LANGUAGES=		c c++
+REPLACE_PERL=		admin/nasm
 
 CONFIGURE_ARGS+=	--with-external-ffmpeg
 
@@ -55,6 +56,7 @@ BUILD_DEPENDS+=	nasm-[0-9]*:../../devel/nasm
 .include "../../graphics/openexr/buildlink3.mk"
 .include "../../graphics/png/buildlink3.mk"
 .include "../../graphics/tiff/buildlink3.mk"
+.include "../../lang/perl5/buildlink3.mk"
 .include "../../math/fftw/buildlink3.mk"
 .include "../../multimedia/ffmpeg/buildlink3.mk"
 .include "../../multimedia/libdv/buildlink3.mk"
