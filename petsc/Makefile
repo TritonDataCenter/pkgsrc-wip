@@ -1,7 +1,8 @@
 # $NetBSD$
 #
 
-DISTNAME=	petsc-3.0.0
+DISTNAME=	petsc-3.1-p2
+PKGNAME=	petsc-3.1p2
 CATEGORIES=	math
 MASTER_SITES=	http://ftp.mcs.anl.gov/pub/petsc/release-snapshots/
 
@@ -12,7 +13,6 @@ COMMENT=	Portable, Extensible Toolkit for  Scientific Computation
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
-WRKSRC=		${WRKDIR}/petsc-3.0.0-p11
 HAS_CONFIGURE=	yes
 USE_LANGUAGES=	c c++
 
