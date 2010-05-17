@@ -5,7 +5,7 @@ DISTNAME=	uim-chewing-0.0.4.1
 CATEGORIES=	inputmethod
 MASTER_SITES=	http://uim.googlecode.com/files/
 
-MAINTAINER=	obache@sourceforge.net
+MAINTAINER=	obache@users.sourceforge.net
 HOMEPAGE=	http://code.google.com/p/uim/
 COMMENT=	Chewing im for uim
 LICENSE=	modified-bsd
