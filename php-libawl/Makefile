@@ -14,10 +14,6 @@ LICENSE=	gnu-gpl-v2
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
-WRKSRC=		${WRKDIR}/awl-0.42
-
-LIBAWLDIR=	lib/php/awl
-
 DEPENDS+=       php>=5.2.0:../../lang/php5
 
 INSTALLATION_DIRS=	${LIBAWLDIR} ${LIBAWLDIR}/inc ${LIBAWLDIR}/dba
@@ -35,4 +31,5 @@ do-install:
 		    ${DESTDIR}${PREFIX}/${LIBAWLDIR}/inc;	\
 	done;
 
+.include "../../wip/php-libawl/Makefile.common"
 .include "../../mk/bsd.pkg.mk"
