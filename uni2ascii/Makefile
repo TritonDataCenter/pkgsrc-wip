@@ -13,7 +13,10 @@ LICENSE=	gnu-gpl-v3
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
+BROKEN_GETTEXT_DETECTION=	yes
 GNU_CONFIGURE=	yes
+
+INSTALLATION_DIRS=	bin ${PKGMANDIR}/man1
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/ascii2uni ${DESTDIR}${PREFIX}/bin
