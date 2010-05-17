@@ -1,6 +1,6 @@
 # $NetBSD: Makefile,v 1.40 2009/05/20 00:58:16 wiz Exp $
 
-DISTNAME=	kmymoney-3.95.0
+DISTNAME=	kmymoney-3.98.0
 CATEGORIES=	finance kde
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=kmymoney2/}
 EXTRACT_SUFX=  .tar.bz2
@@ -28,6 +28,7 @@ REPLACE_PERL+=	contrib/splitup-kde-chunk-online
 .include "../../devel/glibmm/buildlink3.mk"
 .include "../../finance/libofx/buildlink3.mk"
 .include "../../misc/kdepim4/buildlink3.mk"
+.include "../../misc/kdepimlibs4/buildlink3.mk"
 .include "../../multimedia/phonon/buildlink3.mk"
 .include "../../security/gpgme/buildlink3.mk"
 .include "../../sysutils/desktop-file-utils/desktopdb.mk"
