@@ -7,7 +7,7 @@ $NetBSD$
  
  // Ensure that ../inc is in our included paths as early as possible
 -set_include_path( '../inc'. PATH_SEPARATOR. get_include_path());
-+set_include_path( '../inc'. PATH_SEPARATOR . "@LIBAWLDIR@" . PATH_SEPARATOR . get_include_path());
++set_include_path( '../inc'. PATH_SEPARATOR . "@LIBAWLDIR@/inc" . PATH_SEPARATOR . get_include_path());
  
  // Kind of private configuration values
  $c->total_query_time = 0;
