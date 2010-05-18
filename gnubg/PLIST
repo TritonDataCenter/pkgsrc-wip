@@ -146,9 +146,11 @@ share/gnubg/gnubg_os0.bd
 share/gnubg/gnubg_ts0.bd
 share/gnubg/met/Kazaross-Shaw.xml
 share/gnubg/met/README
+share/gnubg/met/Rockwell-Kazaross.xml
 share/gnubg/met/TODO
 share/gnubg/met/catalog.dtd
 share/gnubg/met/catalog.xml
+share/gnubg/met/dunstan.xml
 share/gnubg/met/g11.xml
 share/gnubg/met/jac050.xml
 share/gnubg/met/jac100.xml
