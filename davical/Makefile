@@ -49,6 +49,9 @@ MESSAGE_SUBST+=		PKG_SYSCONFDIR=${PKG_SYSCONFDIR:Q}
 CONF_FILES=		${EGDIR}/davical.conf	\
 			${PKG_SYSCONFDIR}/davical.conf
 
+CONF_FILES+=		${EGDIR}/config/example-administration.yml	\
+			${PKG_SYSCONFDIR}/administration.yml
+
 CONF_FILES_PERMS+=	${EGDIR}/config/example-config.php	\
 			${PKG_SYSCONFDIR}/config.php		\
 			${DAVICAL_USER} ${DAVICAL_GROUP} 0640
