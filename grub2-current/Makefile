@@ -110,6 +110,9 @@ SUBST_SED.fix-paths-3+=		-e 's,"/boot/grub","/boot/grub2",g'
 # This package uses help2man to generate man pages.
 BUILD_DEPENDS+=		help2man>=1.36:../../converters/help2man
 
+# A recent version of flex is required to build.
+BUILD_DEPENDS+=		flex>=2.5.35:../../devel/flex
+
 post-install:
 	${INSTALL_DATA} ${FILESDIR}/default.conf ${EGDIR}/default.conf.sample
 	${INSTALL_SCRIPT} ${FILESDIR}/05_pkgsrc_theme ${EGDIR}/05_pkgsrc_theme
