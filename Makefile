@@ -2250,7 +2250,6 @@ SUBDIR+=	sudoscript
 SUBDIR+=	sugarCRM
 SUBDIR+=	sun-j2me
 SUBDIR+=	sunterlib
-SUBDIR+=	super-smack
 SUBDIR+=	supertux
 SUBDIR+=	suse100_32_SDL
 SUBDIR+=	suse100_SDL
