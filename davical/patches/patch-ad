@@ -7,7 +7,7 @@ $NetBSD$
  LOCALEDIR="locale"
  APPLICATION="davical"
 -AWL_LOCATION="../awl"
-+AWL_LOCATION="@LIBAWLDIR@"
++AWL_LOCATION="@LIBAWLPATH@"
  
  if [ ! -d "${AWL_LOCATION}" ]; then
    AWL_LOCATION=/usr/share/awl
