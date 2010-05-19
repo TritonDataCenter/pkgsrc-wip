@@ -1,5 +1,0 @@
-@comment $NetBSD$
-${PYSITELIB}/YamCha.py
-${PYSITELIB}/YamCha.pyc
-${PYSITELIB}/YamCha.pyo
-${PYSITELIB}/_YamCha.so
