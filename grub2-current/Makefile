@@ -56,8 +56,8 @@ CONF_FILES+=		${EGDIR}/default.conf.sample ${PKG_SYSCONFDIR}/default.conf
 
 TODAY!=			${DATE} -u +'%Y%m%d'
 
-# GRUB 2 current development trunk seems to prefer a recent version of gcc.
-GCC_REQD=		4.1.3
+# GRUB 2 current development trunk requires a recent version of gcc.
+GCC_REQD=		4.3
 
 #
 # GRUB 2's configure script sets the variables `target_cpu' and `platform',
