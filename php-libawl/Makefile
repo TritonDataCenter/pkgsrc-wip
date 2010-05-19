@@ -3,13 +3,13 @@
 
 DISTNAME=	awl-${LIBAWL_VERSION}
 PKGNAME=	${PHP_PKG_PREFIX}-libawl-${LIBAWL_VERSION}
-LIBAWL_VERSION=	0.42
+LIBAWL_VERSION=	0.43
 CATEGORIES=	devel
-MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=rscds/}
+MASTER_SITES=	http://debian.mcmillan.net.nz/packages/awl/
 
 MAINTAINER=	jym@NetBSD.org
-HOMEPAGE=	http://andrew.mcmillan.net.nz/node/91/
-COMMENT=	"PHP Andrew's Web Libraries"
+HOMEPAGE=	http://andrew.mcmillan.net.nz/projects/awl/
+COMMENT=	PHP Andrew's Web Libraries
 LICENSE=	gnu-gpl-v2
 
 PKG_DESTDIR_SUPPORT=	user-destdir

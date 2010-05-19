@@ -21,3 +21,7 @@ lib/php/awl/inc/classBrowser.php
 lib/php/awl/inc/classEditor.php
 lib/php/awl/inc/iCalendar.php
 lib/php/awl/inc/vEvent.php
+lib/php/awl/inc/AwlDBDialect.php
+lib/php/awl/inc/AwlDatabase.php
+lib/php/awl/inc/AwlQuery.php
+lib/php/awl/inc/AwlUpgrader.php
