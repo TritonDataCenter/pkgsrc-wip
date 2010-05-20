@@ -1,0 +1,7 @@
+@comment $NetBSD$
+include/dlna.h
+lib/libdlna.a
+lib/libdlna.so
+lib/libdlna.so.0
+lib/libdlna.so.${PKGVERSION}
+lib/pkgconfig/libdlna.pc
