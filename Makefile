@@ -552,7 +552,6 @@ SUBDIR+=	glut
 SUBDIR+=	glw
 SUBDIR+=	glx-utils
 SUBDIR+=	gmc2mid
-SUBDIR+=	gmediaserver
 SUBDIR+=	gmm
 SUBDIR+=	gmp-ecm
 SUBDIR+=	gnocchi
