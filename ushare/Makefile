@@ -33,6 +33,10 @@ RCD_SCRIPTS=	ushare
 
 INSTALL_MAKE_FLAGS+=	sysconfdir=${DESTDIR}${PREFIX}/share/examples/ushare
 
+post-install:
+	${INSTALL_MAN_DIR} ${DESTDIR}${PREFIX}/${PKGMANDIR}/man1
+	${INSTALL_MAN} ${WRKSRC}/src/ushare.1 ${DESTDIR}${PREFIX}/${PKGMANDIR}/man1/
+
 .include "../../converters/libiconv/buildlink3.mk"
 .include "../../devel/gettext-lib/buildlink3.mk"
 .include "../../net/libupnp/buildlink3.mk"
