@@ -9,8 +9,6 @@ ${PYSITELIB}/xlrd/biffh.pyo
 ${PYSITELIB}/xlrd/compdoc.py
 ${PYSITELIB}/xlrd/compdoc.pyc
 ${PYSITELIB}/xlrd/compdoc.pyo
-${PYSITELIB}/xlrd/doc/HISTORY.html
-${PYSITELIB}/xlrd/doc/README.html
 ${PYSITELIB}/xlrd/doc/compdoc.html
 ${PYSITELIB}/xlrd/doc/xlrd.html
 ${PYSITELIB}/xlrd/examples/namesdemo.xls

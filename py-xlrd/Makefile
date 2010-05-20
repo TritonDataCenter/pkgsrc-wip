@@ -1,23 +1,19 @@
 # $NetBSD$
 #
 
-DISTNAME=		xlrd-0.6.1
+DISTNAME=		xlrd-0.7.1
 PKGNAME=		${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=		devel python
-MASTER_SITES=		http://www.lexicon.net/sjmachin/ \
-			http://cheeseshop.python.org/packages/source/x/xlrd/
-EXTRACT_SUFX=		.zip
+MASTER_SITES=		http://cheeseshop.python.org/packages/source/x/xlrd/
 
 MAINTAINER=		obache@NetBSD.org
 HOMEPAGE=		http://www.lexicon.net/sjmachin/xlrd.htm
 COMMENT=		Python library to extract data from Microsoft Excel spread sheet files
+LICENSE=		modified-bsd
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
 PYDISTUTILSPKG=		yes
-
-post-install:
-	chmod go-w ${DESTDIR}${PREFIX}/bin/runxlrd.py
 
 .include "../../lang/python/extension.mk"
 .include "../../mk/bsd.pkg.mk"
