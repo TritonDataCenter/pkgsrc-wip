@@ -18,6 +18,11 @@ USE_LIBTOOL=	yes
 USE_LANGUAGES=	c c++
 USE_TOOLS+=	gmake pkg-config
 
+SUBST_CLASSES+=		datadir
+SUBST_STAGE.datadir=	post-configure
+SUBST_SED.datadir=	-e 's|/usr/share|${PREFIX}/share|'
+SUBST_FILES.datadir=	src/common.h
+
 .include "../../databases/sqlite3/buildlink3.mk"
 .include "../../devel/glib2/buildlink3.mk"
 .include "../../textproc/libxml2/buildlink3.mk"
