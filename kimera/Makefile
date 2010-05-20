@@ -23,6 +23,13 @@ do-configure:
 		script.path=${PREFIX}/bin \
 		kimera.pro
 
+.if !exists(/usr/include/alloca.h)
+SUBST_CLASSES+=		alloca
+SUBST_STAGE.alloca=	post-configure
+SUBST_FILES.alloca=	src/inputmethod.cpp
+SUBST_SED.alloca=	-e 's|<alloca.h>|<stdlib.h>|g'
+.endif
+
 .include "../../inputmethod/anthy/buildlink3.mk"
 .include "../../x11/qt4-libs/buildlink3.mk"
 .include "../../x11/qt4-tools/buildlink3.mk"
