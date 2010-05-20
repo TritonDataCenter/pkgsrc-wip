@@ -1,8 +1,0 @@
-@comment $NetBSD$
-bin/zinnia
-bin/zinnia_convert
-bin/zinnia_learn
-include/zinnia.h
-include/zinnia/zinnia.h
-lib/libzinnia.la
-lib/pkgconfig/zinnia.pc
