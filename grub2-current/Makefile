@@ -109,8 +109,8 @@ BUILD_DEPENDS+=		help2man>=1.36:../../converters/help2man
 BUILD_DEPENDS+=		flex>=2.5.35:../../devel/flex
 
 post-install:
-	${INSTALL_DATA} ${FILESDIR}/default.conf ${EGDIR}/default.conf.sample
-	${INSTALL_SCRIPT} ${FILESDIR}/05_pkgsrc_theme ${EGDIR}/05_pkgsrc_theme
+	${INSTALL_DATA} ${FILESDIR}/default.conf ${DESTDIR}${EGDIR}/default.conf.sample
+	${INSTALL_SCRIPT} ${FILESDIR}/05_pkgsrc_theme ${DESTDIR}${EGDIR}/05_pkgsrc_theme
 
 .include "options.mk"
 .include "../../devel/gettext-lib/buildlink3.mk"
