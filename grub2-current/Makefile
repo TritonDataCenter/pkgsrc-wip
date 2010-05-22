@@ -13,7 +13,7 @@ LICENSE=		gnu-gpl-v3
 PKG_DESTDIR_SUPPORT=	user-destdir
 
 # Helper file for access to the bazaar repository and for autogen.sh.
-.include "bzr.mk"
+.include "download.mk"
 
 #
 # XXX: Linux-*-powerpc and others?
