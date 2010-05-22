@@ -1,0 +1,4 @@
+@comment $NetBSD$
+include/mopac7/libmopac7.h
+lib/libmopac7.la
+lib/pkgconfig/libmopac7.pc
