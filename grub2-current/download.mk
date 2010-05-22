@@ -6,6 +6,8 @@ BUILD_DEPENDS+=		rsync>=3.0:../../net/rsync
 
 DISTFILES?=		# empty
 BZR_REPOSITORY=		http://bzr.savannah.gnu.org/r/grub/people/gsutre/netbsd
+UNIFONT_URL=		http://unifoundry.com/unifont-5.1.20080820.pcf.gz
+UNIFONT_EXT=		pcf.gz
 
 pre-extract: do-bzr-extract
 
@@ -18,6 +20,7 @@ do-bzr-extract:
 
 post-extract:
 	cd ${WRKSRC} && rsync -Lrtvz  translationproject.org::tp/latest/grub/ po
+	cd ${WRKSRC} && ftp -o unifont.${UNIFONT_EXT} ${UNIFONT_URL}
 
 pre-configure:
 	cd ${WRKSRC} && ./autogen.sh
