@@ -10,12 +10,13 @@ EXTRACT_SUFX=	.zip
 MAINTAINER=	obache@NetBSD.org
 HOMEPAGE=	http://trac-hacks.org/wiki/AccountManagerPlugin
 COMMENT=	User account management plugin for Trac
+#LICENSE=	THE BEER-WARE LICENSE
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
 DEPENDS+=	{ja-,}trac>=0.11:../../www/trac
 
-SVN_REV=	7163
+SVN_REV=	7731
 SVN_MOD=	accountmanagerplugin/0.11
 WRKSRC=		${WRKDIR}/${SVN_MOD}
 
