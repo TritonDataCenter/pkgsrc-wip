@@ -593,7 +593,6 @@ SUBDIR+=	gpsdrive
 SUBDIR+=	gpx2shp
 SUBDIR+=	grandr
 SUBDIR+=	granule
-SUBDIR+=	grape
 SUBDIR+=	grass
 SUBDIR+=	grass-JockeyRidge
 SUBDIR+=	grass-Maas
