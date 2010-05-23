@@ -1645,7 +1645,6 @@ SUBDIR+=	p5-PluceneSimple
 SUBDIR+=	p5-Pod-Constants
 SUBDIR+=	p5-Pod-Xhtml
 SUBDIR+=	p5-Quota
-SUBDIR+=	p5-RRD-Simple
 SUBDIR+=	p5-RTF-Writer
 SUBDIR+=	p5-Spread
 SUBDIR+=	p5-Startup
