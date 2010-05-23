@@ -1,7 +1,0 @@
-# $NetBSD$
-# used by wip/php-libawl/Makefile
-# used by wip/davical/Makefile
-#
-
-# Include path of AWL
-LIBAWLDIR=	lib/php/awl
