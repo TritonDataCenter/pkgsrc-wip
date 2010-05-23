@@ -7,6 +7,9 @@ share/ibus-skk/engine/engine.pyo
 share/ibus-skk/engine/factory.py
 share/ibus-skk/engine/factory.pyc
 share/ibus-skk/engine/factory.pyo
+share/ibus-skk/engine/kzik.py
+share/ibus-skk/engine/kzik.pyc
+share/ibus-skk/engine/kzik.pyo
 share/ibus-skk/engine/main.py
 share/ibus-skk/engine/main.pyc
 share/ibus-skk/engine/main.pyo

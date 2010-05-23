@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	ibus-skk-0.0.4
+DISTNAME=	ibus-skk-0.0.8
 CATEGORIES=	inputmethod
 MASTER_SITES=	http://cloud.github.com/downloads/ueno/ibus-skk/
 
