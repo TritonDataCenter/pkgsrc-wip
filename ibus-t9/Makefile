@@ -17,7 +17,7 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 
 GNU_CONFIGURE=		yes
 USE_PKGLOCALEDIR=	yes
-USE_TOOLS+=		pkg-config
+USE_TOOLS+=		gmake pkg-config
 
 .include "../../wip/ibus/buildlink3.mk"
 .include "../../x11/gtk2/buildlink3.mk"
