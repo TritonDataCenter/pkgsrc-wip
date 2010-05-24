@@ -1,6 +1,6 @@
 # $NetBSD: Makefile,v 1.21 2010/02/11 21:21:49 tnn Exp $
 
-DISTNAME=	Python-2.7b1
+DISTNAME=	Python-2.7b2
 PKGNAME=	${DISTNAME:S/Python/python27/:S/b/beta/}
 CATEGORIES=	lang python
 MASTER_SITES=	http://www.python.org/ftp/python/2.7/
