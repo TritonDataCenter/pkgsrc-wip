@@ -186,3 +186,4 @@ share/mkc-mk/mkc_imp.platform.sys.mk
 share/mkc-mk/mkc_imp.prog.mk
 share/mkc-mk/mkc_imp.subdir.mk
 share/mkc-mk/mkc_imp.sys.mk
+share/mkc-mk/sys.mk
