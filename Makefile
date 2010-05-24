@@ -2129,6 +2129,7 @@ SUBDIR+=	ruby-trollop
 SUBDIR+=	ruby-xmpp4r
 SUBDIR+=	runawk
 SUBDIR+=	runit
+SUBDIR+=	s3cmd
 SUBDIR+=	s3funnel
 SUBDIR+=	sakura
 SUBDIR+=	samhain
