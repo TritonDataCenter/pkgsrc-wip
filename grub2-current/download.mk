@@ -20,7 +20,9 @@ do-bzr-extract:
 
 post-extract:
 	cd ${WRKSRC} && rsync -Lrtvz  translationproject.org::tp/latest/grub/ po
+.if !empty(PKG_OPTIONS:Mgrub-mkfont)
 	cd ${WRKSRC} && ftp -o unifont.${UNIFONT_EXT} ${UNIFONT_URL}
+.endif
 
 pre-configure:
 	cd ${WRKSRC} && ./autogen.sh
