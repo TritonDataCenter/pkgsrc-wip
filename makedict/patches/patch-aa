@@ -1,6 +1,6 @@
 $NetBSD$
 
---- tests/t_convert_all.sh.orig	2008-04-28 20:39:42.000000000 +0300
+--- tests/t_convert_all.sh.orig	2010-01-13 18:06:17.000000000 +0000
 +++ tests/t_convert_all.sh
 @@ -19,7 +19,7 @@ fi
  

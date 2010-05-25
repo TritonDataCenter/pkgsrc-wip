@@ -1,11 +1,10 @@
 # $NetBSD$
 #
 
-DISTNAME=	makedict-0.3.1-beta1-Source
+DISTNAME=	makedict-0.4.1-beta1-Source
 PKGNAME=	${DISTNAME:S/-Source//:S/-beta/beta/}
 CATEGORIES=	devel
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=xdxf/}
-EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	vle@gmx.net
 HOMEPAGE=	http://sourceforge.net/projects/xdxf/
@@ -16,6 +15,7 @@ LICENSE=		gnu-gpl-v2
 PKG_DESTDIR_SUPPORT=	user-destdir
 
 USE_CMAKE=		yes
+USE_TOOLS=		pkg-config
 
 USE_LANGUAGES=		c c++
 INSTALLATION_DIRS+=	share/doc/makedict
