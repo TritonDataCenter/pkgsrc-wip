@@ -20,6 +20,7 @@ man/man1/mkc_check_header.1
 man/man1/mkc_check_prog.1
 man/man1/mkc_check_sizeof.1
 man/man7/mk-configure.7
+share/doc/mk-configure/presentation.pdf
 share/doc/mk-configure/COPYRIGHT
 share/doc/mk-configure/ChangeLog
 share/doc/mk-configure/FAQ

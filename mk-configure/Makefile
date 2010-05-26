@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	mk-configure-0.15.0
+PKGREVISION=	1
 CATEGORIES=	devel
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=mk-configure/} \
 		http://mova.org/~cheusov/pub/mk-configure/
@@ -16,7 +17,8 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 
 USE_LANGUAGES=		# no languages
 
-DOC_FILES=		README NEWS ChangeLog TODO FAQ COPYRIGHT
+DOC_FILES=		README NEWS ChangeLog TODO FAQ COPYRIGHT \
+			doc/presentation.pdf
 
 MAKE_ENV+=		MKCATPAGES=no MKHTML=no
 
