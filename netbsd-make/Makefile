@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	bmake-20091118
+DISTNAME=	bmake-20100510
 PKGNAME=	${DISTNAME:S/bmake/nbmake/}
 CATEGORIES=	devel
 MASTER_SITES=	http://www.crufty.net/ftp/pub/sjg/
@@ -43,6 +43,6 @@ do-build:
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKDIR}/${OPSYS}/bmake ${DESTDIR}${PREFIX}/bin/nbmake
-	${INSTALL_MAN} ${WRKDIR}/${OPSYS}/bmake.1 ${DESTDIR}${PREFIX}/${PKGMANDIR}/man1/nbmake.1
+	${INSTALL_MAN} ${WRKSRC}/bmake.1 ${DESTDIR}${PREFIX}/${PKGMANDIR}/man1/nbmake.1
 
 .include "../../mk/bsd.pkg.mk"
