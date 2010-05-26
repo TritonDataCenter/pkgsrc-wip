@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=		arora-0.9.0
+DISTNAME=		arora-0.10.2
 PKGREVISION=		1
 CATEGORIES=		www net
 MASTER_SITES=		http://arora.googlecode.com/files/
