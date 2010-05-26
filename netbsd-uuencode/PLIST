@@ -1,6 +1,0 @@
-@comment $NetBSD$
-bin/uudecode
-bin/uuencode
-man/man1/uudecode.1
-man/man1/uuencode.1
-man/man5/uuencode.5
