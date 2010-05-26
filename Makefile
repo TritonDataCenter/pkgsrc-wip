@@ -1270,7 +1270,6 @@ SUBDIR+=	miniupnpc
 SUBDIR+=	miracl
 SUBDIR+=	mirage
 SUBDIR+=	miro
-SUBDIR+=	misaki-fonts
 SUBDIR+=	mixer.tk
 SUBDIR+=	mixmaster
 SUBDIR+=	mixxx
