@@ -201,6 +201,7 @@ share/mkc-mk/mkc.own.mk
 share/mkc-mk/mkc.pkg-config.mk
 share/mkc-mk/mkc.prog.mk
 share/mkc-mk/mkc.subdir.mk
+share/mkc-mk/mkc.subprjs.mk
 share/mkc-mk/mkc.ver.mk
 share/mkc-mk/mkc_imp.dep.mk
 share/mkc-mk/mkc_imp.files.mk
@@ -215,5 +216,6 @@ share/mkc-mk/mkc_imp.own.mk
 share/mkc-mk/mkc_imp.platform.sys.mk
 share/mkc-mk/mkc_imp.prog.mk
 share/mkc-mk/mkc_imp.subdir.mk
+share/mkc-mk/mkc_imp.subprjs.mk
 share/mkc-mk/mkc_imp.sys.mk
 share/mkc-mk/sys.mk
