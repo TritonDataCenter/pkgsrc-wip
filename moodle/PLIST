@@ -1,4 +1,5 @@
 @comment $NetBSD$
+share/examples/moodle/moodle.conf
 share/moodle/COPYING.txt
 share/moodle/README.txt
 share/moodle/admin/auth.php
