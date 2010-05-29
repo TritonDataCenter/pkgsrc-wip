@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	ibus-table-others-1.2.0.20100512
+DISTNAME=	ibus-table-others-1.3.0.20100528
 CATEGORIES=	inputmethod
 MASTER_SITES=	http://ibus.googlecode.com/files/
 
