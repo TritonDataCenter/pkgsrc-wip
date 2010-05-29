@@ -30,6 +30,8 @@ pkg_grep_summary \- tool for grepping pkgsrc summary file
 .br
 .BI "pkg_grep_summary -S" " field filename"
 .br
+.BI "pkg_grep_summary -t" " strategy field str_or_regexp"
+.br
 .SH DESCRIPTION
 .B pkg_grep_summary
 takes package summaries on stdin and
@@ -92,7 +94,7 @@ according to search strategy
 .IR strategy .
 Available search strategies are:
 .IR exact ", " prefix ", " suffix ", " substring ", " word ", "
-.IR first ", " last ", " re .
+.IR first ", " last ", " re ", " strfile " and " awk .
 Search strategy 
 .I re
 is for matching using regexp (ERE),
@@ -105,9 +107,13 @@ display all search strategies available for
 .B -t
 and exits.
 .SH NOTES
-.IR "-S exact <field> <string>" " and " "-s <field> <string>" " are equivalent."
+.IR "-t exact <field> <string>" " and " "-s <field> <string>" " are equivalent."
 .br
-.IR "-S re <field> <regexp>" " and " "-m <field> <regexp>" " are equivalent."
+.IR "-t re <field> <regexp>" " and " "-m <field> <regexp>" " are equivalent."
+.br
+.IR "-t strfile <field> <filename>" " and " "-S <field> <filename>" " are equivalent."
+.br
+.IR "-t awk <field> <awk_expr>" " and " "<field> <awk_expr>" " are equivalent."
 .SH EXAMPLES
 .VB
 pkg_grep_summary -s PKGPATH 'devel/libjudy'
