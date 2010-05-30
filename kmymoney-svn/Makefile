@@ -12,7 +12,7 @@ LICENSE=	gnu-gpl-v2
 BUILD_DEPENDS+=	automoc4-[0-9]*:../../devel/automoc4
 
 SVN_REPOSITORIES=	kmymoney
-SVN_ROOT.kmymoney=	svn://anonsvn.kde.org/home/kde/trunk/playground/office/kmymoney
+SVN_ROOT.kmymoney=	svn://anonsvn.kde.org/home/kde/trunk/kdereview/kmymoney
 NO_CHECKSUM=YES
 
 #MAKE_JOBS_SAFE=no
