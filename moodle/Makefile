@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	moodle-1.9.7
+DISTNAME=	moodle-1.9.8
 CATEGORIES=	www
 MASTER_SITES=	http://download.moodle.org/stable19/ \
 		http://download2.moodle.org/stable19/ \
