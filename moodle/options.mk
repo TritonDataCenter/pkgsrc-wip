@@ -4,9 +4,7 @@ PKG_OPTIONS_VAR=	PKG_OPTIONS.moodle
 
 PKG_OPTIONS_REQUIRED_GROUPS=	db
 PKG_OPTIONS_GROUP.db=		mysql pgsql
-
-PKG_SUPPORTED_OPTIONS+=	mysql pgsql
-PKG_SUGGESTED_OPTIONS=	mysql
+PKG_SUGGESTED_OPTIONS=		mysql
 
 .include "../../mk/bsd.options.mk"
 
