@@ -3,7 +3,6 @@ bin/firefox
 lib/firefox/README.txt
 lib/firefox/application.ini
 lib/firefox/blocklist.xml
-lib/firefox/browserconfig.properties
 lib/firefox/chrome/browser.jar
 lib/firefox/chrome/browser.manifest
 lib/firefox/chrome/en-US.jar
