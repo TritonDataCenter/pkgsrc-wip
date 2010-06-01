@@ -2008,6 +2008,7 @@ SUBDIR+=	py-sparce
 SUBDIR+=	py-speex
 SUBDIR+=	py-psychopy
 SUBDIR+=	py-srpy
+SUBDIR+=	py-ssh2
 SUBDIR+=	py-sshpt
 SUBDIR+=	py-statgrap
 SUBDIR+=	py-stem
