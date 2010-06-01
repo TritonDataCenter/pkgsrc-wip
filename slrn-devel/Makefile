@@ -1,7 +1,7 @@
 # $NetBSD: Makefile,v 1.44 2008/12/05 19:00:27 ahoka Exp $
 
-DISTNAME=	slrn-pre1.0.0~17
-PKGNAME=	slrn-pre1.0.0-17
+DISTNAME=	slrn-pre1.0.0~18
+PKGNAME=	slrn-pre1.0.0-18
 CONFLICTS=      slrn-pl-[0-9]* slrn-[0-9]*
 LICENSE=	gnu-gpl-v2
 CATEGORIES=	news
