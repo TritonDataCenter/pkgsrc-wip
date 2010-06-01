@@ -1029,6 +1029,7 @@ SUBDIR+=	jupp
 SUBDIR+=	just
 SUBDIR+=	jython
 SUBDIR+=	k3b
+SUBDIR+=	k4dirstat
 SUBDIR+=	kBuild
 SUBDIR+=	kacst-fonts
 SUBDIR+=	kaffe
