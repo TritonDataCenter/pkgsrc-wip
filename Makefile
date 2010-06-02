@@ -94,6 +94,7 @@ SUBDIR+=	ap2-macro
 SUBDIR+=	ap2-passenger
 SUBDIR+=	ap2-xsendfile
 SUBDIR+=	ap2-zeroconf
+SUBDIR+=	ap22-layout
 SUBDIR+=	apachebench2
 SUBDIR+=	applewmproto
 SUBDIR+=	apstget
