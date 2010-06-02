@@ -232,6 +232,7 @@ SUBDIR+=	clisp
 SUBDIR+=	cloc
 SUBDIR+=	clockspeed
 SUBDIR+=	clustalx
+SUBDIR+=	cmetrics
 SUBDIR+=	codeblocks
 SUBDIR+=	coldfire
 SUBDIR+=	collectd
