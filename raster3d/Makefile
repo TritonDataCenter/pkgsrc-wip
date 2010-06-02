@@ -28,6 +28,7 @@ MANL=		avs2ps.l label3d.l r3d_objects.l rastep.l render.l rods.l \
 PLIST_SUBST+=	DATADIR="${DATADIR:C/^${PREFIX}\///}"
 PLIST_SUBST+=	DOCSDIR="${DOCSDIR:C/^${PREFIX}\///}"
 PLIST_SUBST+=	EGDIR="${EGDIR:C/^${PREFIX}\///}"
+MESSAGE_SUBST+=	DATADIR=${DATADIR}
 
 .include "options.mk"
 
