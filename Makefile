@@ -1116,6 +1116,7 @@ SUBDIR+=	libfplll
 SUBDIR+=	libgadu
 SUBDIR+=	libgdata
 SUBDIR+=	libgeotiff
+SUBDIR+=	libghemical
 SUBDIR+=	libginac
 SUBDIR+=	libgksu
 SUBDIR+=	libgksuui
