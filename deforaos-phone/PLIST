@@ -7,6 +7,7 @@ bin/phone-settings
 include/Phone.h
 lib/Phone/plugins/openmoko.so
 lib/Phone/plugins/profiles.so
+lib/Phone/plugins/smscrypt.so
 share/applications/phone-contacts.desktop
 share/applications/phone-dialer.desktop
 share/applications/phone-messages.desktop
