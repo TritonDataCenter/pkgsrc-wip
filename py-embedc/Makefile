@@ -8,7 +8,7 @@ CATEGORIES=	devel python
 MASTER_SITES=	http://pypi.python.org/packages/source/e/embedc/
 EXTRACT_SUFX=	.gz#md5=96a0c4bb74158284a2626ef49bbd0883
 
-MAINTAINER=	kamelderouiche@yahoo.com
+MAINTAINER=	kamel.derouiche@gmail.com
 HOMEPAGE=	http://pyembedc.sourceforge.net/
 COMMENT=	Python module for embedding C/C++ 
 #LICENSE=	# TODO: (see mk/license.mk)

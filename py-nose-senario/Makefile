@@ -7,7 +7,7 @@ CATEGORIES=	devel python
 MASTER_SITES=	http://pypi.python.org/packages/source/n/nose_scenario/
 EXTRACT_SUFX=	.gz
 
-MAINTAINER=	kamelderouiche@yahoo.com
+MAINTAINER=	kamel.derouiche@gmail.com
 HOMEPAGE=	http://cheeseshop.python.org/pypi/nose_scenario/
 COMMENT=	Nose plugin test unittest scenario adapt
 LICENSE=	gnu-gpl-v2

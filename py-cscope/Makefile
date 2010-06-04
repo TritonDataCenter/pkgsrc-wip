@@ -8,7 +8,7 @@ CATEGORIES=	devel python
 MASTER_SITES=	http://pypi.python.org/packages/source/p/pycscope/
 EXTRACT_SUFX=	.gz
 
-MAINTAINER=	kamelderouiche@yahoo.com
+MAINTAINER=	kamel.derouiche@gmail.com
 HOMEPAGE=	http://pypi.python.org/pypi/pycscope/
 COMMENT=	Generates a cscope index of Python source trees
 LICENSE=	gnu-gpl-v2

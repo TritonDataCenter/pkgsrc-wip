@@ -5,7 +5,7 @@ DISTNAME=	bodr-8
 CATEGORIES=	biology
 MASTER_SITES=	http://garr.dl.sourceforge.net/project/bodr/bodr/8/
 
-MAINTAINER=	kamelderouiche@yahoo.com
+MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	http://blueobelisk.sourceforge.net/wiki/Main_Page
 COMMENT=	Blue Obelisk Data Repository
 #LICENSE=	# TODO: (see mk/license.mk)
