@@ -12,7 +12,7 @@ COMMENT=	Shows status of installed packages
 LICENSE=	mit
 
 DEPENDS+=	pipestatus-[0-9]*:../../devel/pipestatus
-DEPENDS+=	pkg_summary-utils>=0.41:../../wip/pkg_summary-utils
+DEPENDS+=	pkg_summary-utils>=0.41.1:../../wip/pkg_summary-utils
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
@@ -23,6 +23,7 @@ WRKSRC=			${.CURDIR}/files
 
 MAKE_ENV+=		PKG_INFO_CMD=${PKG_INFO:Q}
 MAKE_ENV+=		PKG_DELETE_CMD=${PKG_DELETE:Q}
+MAKE_ENV+=		PKG_ADMIN_CMD=${PKG_ADMIN:Q}
 MAKE_ENV+=		PACKAGES=${PACKAGES}
 MAKE_ENV+=		MKCATPAGES=no
 
