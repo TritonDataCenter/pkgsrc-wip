@@ -1,5 +1,6 @@
 @comment $NetBSD: PLIST,v 1.1.1.1 2007/12/11 09:12:26 ghen Exp $
 sbin/nginx
+share/examples/nginx/conf/fastcgi.conf
 share/examples/nginx/conf/fastcgi_params
 share/examples/nginx/conf/koi-utf
 share/examples/nginx/conf/koi-win
