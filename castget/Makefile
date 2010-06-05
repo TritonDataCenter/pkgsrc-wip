@@ -15,7 +15,7 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
-USE_LANGUAGES+=	c c++
+USE_LANGUAGES=	c
 USE_TOOLS+=	gmake intltool pkg-config
 
 INSTALLATION_DIRS=	share/examples
