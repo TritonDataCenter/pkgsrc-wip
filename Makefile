@@ -155,7 +155,6 @@ SUBDIR+=	bird6
 SUBDIR+=	blam
 SUBDIR+=	blassic
 SUBDIR+=	bleachbit
-SUBDIR+=	blop
 SUBDIR+=	blueproxy
 SUBDIR+=	bluez-gnome
 SUBDIR+=	bluez-hcidump
