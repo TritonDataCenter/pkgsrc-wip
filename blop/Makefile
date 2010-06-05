@@ -8,8 +8,10 @@ MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=blop/}
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://blop.sourceforge.net/
 COMMENT=	Bandlimited LADSPA Oscillator Plugins
+LICENSE=	gnu-gpl-v2
 
 PKG_DESTDIR_SUPPORT=	user-destdir
+
 GNU_CONFIGURE=		yes
 USE_PKGLOCALEDIR=	yes
 
