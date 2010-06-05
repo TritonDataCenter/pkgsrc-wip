@@ -28,3 +28,5 @@ lib/ladspa/sync_pulse_2023.so
 lib/ladspa/sync_square_1678.so
 lib/ladspa/tracker_2025.so
 lib/ladspa/triangle_1649.so
+share/locale/de/LC_MESSAGES/blop.mo
+share/locale/en_GB/LC_MESSAGES/blop.mo
