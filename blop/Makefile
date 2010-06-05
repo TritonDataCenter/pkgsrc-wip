@@ -13,7 +13,6 @@ LICENSE=	gnu-gpl-v2
 PKG_DESTDIR_SUPPORT=	user-destdir
 
 GNU_CONFIGURE=		yes
-USE_PKGLOCALEDIR=	yes
 
 CONFIGURE_ARGS+=	--with-ladspa-prefix=${BUILDLINK_PREFIX.ladspa}
 
