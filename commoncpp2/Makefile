@@ -4,7 +4,7 @@
 DISTNAME=		commoncpp2-1.8.0
 PKGREVISION=		1
 CATEGORIES=		devel
-MASTER_SITES=		ftp://ftp.gnu.org/gnu/commonc++/
+MASTER_SITES=		${MASTER_SITE_GNU:=commonc++/}
 
 MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://cplusplus.sourceforge.net/
