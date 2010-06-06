@@ -20,7 +20,7 @@ DEPENDS+=	p5-version-[0-9]*:../../devel/p5-version
 DEPENDS+=	p5-Error-[0-9]*:../../devel/p5-Error
 DEPENDS+=	p5-NetAddr-IP>=4.000:../../net/p5-NetAddr-IP
 DEPENDS+=	p5-Net-DNS>=0.58:../../net/p5-Net-DNS
-DEPENDS+=	p5-URI-[0-9]*:../../www/p5-URI
+DEPENDS+=	p5-URI>=1.13:../../www/p5-URI
 
 SUBST_CLASSES+=		fix
 
