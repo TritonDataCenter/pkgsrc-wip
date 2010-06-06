@@ -17,6 +17,7 @@ CONFIGURE_ARGS+= --prefix=/usr/pkg
 
 USE_TOOLS+=	aclocal autoconf automake
 USE_LIBTOOL=	yes
+USE_NCURSES=	yes
 
 pre-configure:
 #	cd  ${WRKSRC} && ${SETENV} ${CONFIGURE_ENV} ${SH} ./autogen.sh ${CONFIGURE_ARGS}
