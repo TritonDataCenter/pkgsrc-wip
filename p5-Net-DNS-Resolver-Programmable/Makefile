@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	Net-DNS-Resolver-Programmable-v0.003
-PKGNAME=	p5-Net-DNS-Resolver-Programmable-0.003
+PKGNAME=	p5-${DISTNAME:S/-v/-/}
 CATEGORIES=	net perl5
 MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=Net/}
 
