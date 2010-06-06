@@ -9,6 +9,7 @@ MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=Mail/}
 MAINTAINER=	aniou@smutek.pl
 HOMEPAGE=	http://search.cpan.org/~jmehnle/Mail-SPF-v2.00/7
 COMMENT=	Perl implementation of the Sender Policy Framework
+LICENSE=	modified-bsd
 
 PKG_INSTALLATION_TYPES=	overwrite pkgviews
 PKG_DESTDIR_SUPPORT=	user-destdir
