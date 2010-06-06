@@ -24,6 +24,7 @@ pre-configure:
 	cd ${WRKSRC} && ${SH} ./autogen.sh ${CONFIGURE_ARGS}
 
 post-install:
+	${INSTALL_DATA_DIR} ${DESTDIR}${PREFIX}/lib/X11/app-defaults
 	${INSTALL_DATA} ${WRKSRC}/src/XSki \
 			${DESTDIR}${PREFIX}/lib/X11/app-defaults/XSki
 
