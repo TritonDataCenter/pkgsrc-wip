@@ -10,16 +10,16 @@ MAINTAINER=	aniou@smutek.pl
 HOMEPAGE=	http://search.cpan.org/dist/Net-DNS-Resolver-Programmable/
 COMMENT=	Net::DNS::Resolver descendant class for offline emulation of DNS
 
+PKG_INSTALLATION_TYPES= overwrite pkgviews
 PKG_DESTDIR_SUPPORT=	user-destdir
 
 DEPENDS+=	p5-version-[0-9]*:../../devel/p5-version
 DEPENDS+=	p5-Net-DNS-[0-9]*:../../net/p5-Net-DNS
 
-PKG_INSTALLATION_TYPES= overwrite pkgviews
-PERL5_MODULE_TYPE= Module::Build
-
 USE_LANGUAGES=	# empty
-PERL5_PACKLIST= auto/Net/DNS/Resolver/Programmable/.packlist
+
+PERL5_MODULE_TYPE=	Module::Build
+PERL5_PACKLIST=		auto/Net/DNS/Resolver/Programmable/.packlist
 
 .include "../../lang/perl5/module.mk"
 .include "../../mk/bsd.pkg.mk"
