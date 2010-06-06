@@ -8,7 +8,7 @@ MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=openbabel/}
 MAINTAINER=	oivulf@gmail.com
 HOMEPAGE=	http://openbabel.sourceforge.net/
 COMMENT=	Chemistry file translation program
-#LICENSE=	# TODO: (see mk/license.mk)
+LICENSE=	gnu-gpl-v2
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
