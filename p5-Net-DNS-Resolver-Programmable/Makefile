@@ -9,6 +9,7 @@ MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=Net/}
 MAINTAINER=	aniou@smutek.pl
 HOMEPAGE=	http://search.cpan.org/dist/Net-DNS-Resolver-Programmable/
 COMMENT=	Net::DNS::Resolver descendant class for offline emulation of DNS
+LICENSE=	${PERL5_LICENSE}
 
 PKG_INSTALLATION_TYPES= overwrite pkgviews
 PKG_DESTDIR_SUPPORT=	user-destdir
