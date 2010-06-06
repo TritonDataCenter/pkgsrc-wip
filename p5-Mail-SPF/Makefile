@@ -7,7 +7,7 @@ CATEGORIES=	mail perl5
 MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=Mail/}
 
 MAINTAINER=	aniou@smutek.pl
-HOMEPAGE=	http://search.cpan.org/~jmehnle/Mail-SPF-v2.00/7
+HOMEPAGE=	http://search.cpan.org/dist/Mail-SPF/
 COMMENT=	Perl implementation of the Sender Policy Framework
 LICENSE=	modified-bsd
 
