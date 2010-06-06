@@ -29,10 +29,7 @@ SUBST_FILES.fix=	Build.PL
 SUBST_SED.fix=		-e "s,^\\(.*'sbin' *=> *\\)'/usr/sbin',\\1 '${PREFIX}/sbin'\\, 'script' => '${PREFIX}/bin',"
 SUBST_MESSAGE.fix=	Fixing hardcoded spfd/spfquery pathes
 
-REPLACE_INTERPRETER+=	perl
-REPLACE.perl.old=	.*/bin/perl
-REPLACE.perl.new=	${PREFIX}/bin/perl
-REPLACE_FILES.perl=	sbin/spfd bin/spfquery
+REPLACE_PERL=	sbin/spfd bin/spfquery
 
 PERL5_MODULE_TYPE=	Module::Build
 PERL5_PACKLIST=		auto/Mail/SPF/.packlist
