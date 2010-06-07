@@ -5,7 +5,7 @@ BUILD_DEPENDS+=		bzr>=1.0:../../devel/bzr
 BUILD_DEPENDS+=		rsync>=3.0:../../net/rsync
 
 DISTFILES?=		# empty
-BZR_REPOSITORY=		http://bzr.savannah.gnu.org/r/grub/people/gsutre/netbsd
+BZR_REPOSITORY=		http://bzr.savannah.gnu.org/r/grub/people/gsutre/fixes
 UNIFONT_URL=		http://unifoundry.com/unifont-5.1.20080820.pcf.gz
 UNIFONT_EXT=		pcf.gz
 
