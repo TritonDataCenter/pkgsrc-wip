@@ -43,6 +43,7 @@ lib/grub2/${GRUB_TARGET_CPU}-${GRUB_PLATFORM}/cpuid.mod
 lib/grub2/${GRUB_TARGET_CPU}-${GRUB_PLATFORM}/crc.mod
 lib/grub2/${GRUB_TARGET_CPU}-${GRUB_PLATFORM}/crypto.lst
 lib/grub2/${GRUB_TARGET_CPU}-${GRUB_PLATFORM}/crypto.mod
+lib/grub2/${GRUB_TARGET_CPU}-${GRUB_PLATFORM}/cs5536.mod
 lib/grub2/${GRUB_TARGET_CPU}-${GRUB_PLATFORM}/date.mod
 lib/grub2/${GRUB_TARGET_CPU}-${GRUB_PLATFORM}/datehook.mod
 lib/grub2/${GRUB_TARGET_CPU}-${GRUB_PLATFORM}/datetime.mod
