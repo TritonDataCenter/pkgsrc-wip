@@ -1240,7 +1240,6 @@ SUBDIR+=	manatee
 SUBDIR+=	manifold
 SUBDIR+=	map-browse
 SUBDIR+=	mapnik
-SUBDIR+=	mapserver
 SUBDIR+=	marathon-scenarios
 SUBDIR+=	marsyas
 SUBDIR+=	matanza
