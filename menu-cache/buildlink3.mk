@@ -16,7 +16,7 @@ BUILDLINK_TREE+=	menu-cache
 MENU_CACHE_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.menu-cache+=	menu-cache>=0.2.3
-BUILDLINK_PKGSRCDIR.menu-cache?=	../../new/menu-cache
+BUILDLINK_PKGSRCDIR.menu-cache?=	../../wip/menu-cache
 
 # XXX
 # XXX Uncomment and keep only the buildlink3 lines below which are directly
