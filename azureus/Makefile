@@ -45,5 +45,5 @@ do-install:
 	${INSTALL} ${WRKSRC}/plugins/azupdater/*.jar ${DESTDIR}${PREFIX}/share/azureus/plugins/azupdater/
 	${INSTALL} ${WRKSRC}/plugins/azupdater/*.properties ${DESTDIR}${PREFIX}/share/azureus/plugins/azupdater/
 
-.include "../../lang/sun-jre15/buildlink3.mk"
+.include "../../mk/java-vm.mk"
 .include "../../mk/bsd.pkg.mk"
