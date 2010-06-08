@@ -14,7 +14,7 @@ DEPENDS+=	${PYPKGPREFIX}-sqlite3-[0-9]*:../../databases/py-sqlite3
 DEPENDS+=	${PYPKGPREFIX}-expat-[0-9]*:../../textproc/py-expat
 # optional for desktop applications, see tegaki/character.py
 #DEPENDS+=	${PYPKGPREFIX}-lxml-[0-9]*:../../textproc/py-lxml
-DEPENDS+=	${PYPKGPREFIX}-zinnia>=0.05:../../wip/py-zinnia
+DEPENDS+=	${PYPKGPREFIX}-zinnia>=0.05:../../inputmethod/py-zinnia
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
