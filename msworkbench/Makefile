@@ -9,6 +9,8 @@ MAINTAINER=		mchittur@cs.nmsu.edu
 HOMEPAGE=		http://msworkbench.sourceforge.net/
 COMMENT=		Set of tools for development of MapServer web mapping applications
 
+DEPENDS+=		mapserver-[0-9]*:../../geography/mapserver
+
 WRKSRC=			${WRKDIR}/msworkbench
 
 SUBST_CLASSES+=		wishpath
@@ -25,5 +27,4 @@ do-install:
 
 .include "../../lang/tcl/buildlink3.mk"
 .include "../../x11/tk/buildlink3.mk"
-.include "../../wip/mapserver/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
