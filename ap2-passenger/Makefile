@@ -1,10 +1,10 @@
 # $NetBSD$
 
-DISTNAME=		passenger-2.2.11
+DISTNAME=		passenger-2.2.14
 PKGNAME=		${APACHE_PKG_PREFIX}-${DISTNAME}
 CATEGORIES=		www
 
-MASTER_SITES=		http://rubyforge.org/frs/download.php/69546/
+MASTER_SITES=		http://rubyforge.org/frs/download.php/71015/
 MAINTAINER=		filip@joyent.com
 HOMEPAGE=		http://www.modrails.com/
 COMMENT=		Apache module for easy and robust deployment of Rails applications
