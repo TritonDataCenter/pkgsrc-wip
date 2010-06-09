@@ -28,6 +28,7 @@ post-install:
 	${INSTALL_DATA} ${WRKSRC}/src/XSki \
 			${DESTDIR}${PREFIX}/lib/X11/app-defaults/XSki
 
+.include "../../devel/gperf/buildlink3.mk"
 .include "../../devel/libelf/buildlink3.mk"
 .include "../../devel/ncurses/buildlink3.mk"
 .include "../../devel/libltdl/buildlink3.mk"
