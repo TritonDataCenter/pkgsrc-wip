@@ -1,13 +1,13 @@
 # $NetBSD$
 
 MODNAME=		http
-PKGREVISION=		1
-PECL_VERSION=		1.6.5
+PECL_VERSION=		1.7.0
 CATEGORIES+=		www
 
 PECL_DISTNAME=		pecl_http-${PECL_VERSION}
 
 MAINTAINER=		filip@joyent.com
+HOMEPAGE=		http://pecl.php.net/package/pecl_http
 COMMENT=		PHP extension for extended HTTP support
 
 PKG_DESTDIR_SUPPORT=	user-destdir
