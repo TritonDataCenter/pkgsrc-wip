@@ -33,4 +33,8 @@ SUBST_FILES.gcc=	tests/Makefile
 SUBST_SED.gcc=		-e '/AM_CXXFLAGS/s/ -Wno-attributes//'
 .endif
 
+.if !empty(ABI) && ${ABI} != 64
+CONFIGURE_ARGS+=	--disable-64bit
+.endif
+
 .include "../../mk/bsd.pkg.mk"
