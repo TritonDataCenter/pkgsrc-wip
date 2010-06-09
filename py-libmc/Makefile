@@ -2,7 +2,7 @@
 #
 
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME:S/py//}
-DISTNAME=	pylibmc-0.8.2
+DISTNAME=	pylibmc-1.1.1
 CATEGORIES=	devel
 MASTER_SITES=	http://pypi.python.org/packages/source/p/pylibmc/
 
