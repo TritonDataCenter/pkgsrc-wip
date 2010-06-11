@@ -1763,6 +1763,7 @@ SUBDIR+=	php-tidy
 SUBDIR+=	php-xcache
 SUBDIR+=	picasm
 SUBDIR+=	picocom
+SUBDIR+=	picosat
 SUBDIR+=	picprog
 SUBDIR+=	pidgin-festival
 SUBDIR+=	pidgin-guifications
