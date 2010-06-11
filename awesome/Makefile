@@ -2,7 +2,6 @@
 #
 
 DISTNAME=	awesome-3.4.3
-PKGREVISION=	1
 CATEGORIES=	x11 wm
 MASTER_SITES=	http://awesome.naquadah.org/download/
 EXTRACT_SUFX=	.tar.xz
@@ -37,6 +36,12 @@ SUBST_MESSAGE.eg=	Fixing pathnames
 SUBST_STAGE.eg=		pre-configure
 SUBST_FILES.eg=		CMakeLists.txt
 SUBST_SED.eg=		-e "s,\$${AWESOME_SYSCONFDIR},${EGDIR},"
+
+SUBST_CLASSES+=		ev
+SUBST_MESSAGE.ev=	Fixing pathnames for libev
+SUBST_STAGE.ev=		pre-configure
+SUBST_FILES.ev=		awesomeConfig.cmake
+SUBST_SED.ev=		-e "s,PKGPREFIX,${PREFIX},"
 
 BUILD_DEPENDS+= ImageMagick-[0-9]*:../../graphics/ImageMagick
 BUILD_DEPENDS+=	asciidoc>=8.3.0:../../textproc/asciidoc
