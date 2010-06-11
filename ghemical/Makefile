@@ -10,7 +10,6 @@ HOMEPAGE=	http://www.bioinformatics.org/ghemical/ghemical/
 COMMENT=	Ghemical is a computational chemistry software package for GNOME
 LICENSE=	gnu-gpl-v2
 
-#DEPENDS+=	openbabel>=2.2.3:../../wip/openbabel
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
