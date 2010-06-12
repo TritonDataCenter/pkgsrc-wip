@@ -200,6 +200,7 @@ SUBDIR+=	cacti-plugin-weathermap
 SUBDIR+=	cacti-spine
 SUBDIR+=	cairo-java
 SUBDIR+=	calcurse
+SUBDIR+=	calcurse-2.8
 SUBDIR+=	callweaver
 SUBDIR+=	callweaver-current
 SUBDIR+=	castget
