@@ -1,0 +1,6 @@
+@comment $NetBSD$
+share/texmf-dist/metafont/feynmf/feynmf.mf
+share/texmf-dist/metapost/feynmf/feynmp.mp
+share/texmf-dist/metapost/feynmf/manpics.mp
+share/texmf-dist/tex/latex/feynmf/feynmf.sty
+share/texmf-dist/tex/latex/feynmf/feynmp.sty
