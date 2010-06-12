@@ -1047,6 +1047,7 @@ SUBDIR+=	kannel-gateway
 SUBDIR+=	kapital
 SUBDIR+=	katapult
 SUBDIR+=	kawa
+SUBDIR+=	kde4-l10n-ar
 SUBDIR+=	kdiff3
 SUBDIR+=	kgrab
 SUBDIR+=	kgraphviewer
