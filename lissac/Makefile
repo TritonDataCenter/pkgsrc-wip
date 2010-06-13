@@ -6,7 +6,7 @@ CATEGORIES=	lang
 MASTER_SITES=	http://isaacproject.u-strasbg.fr/download/
 
 MAINTAINER=	jihbed.research@gmail.com
-HOMEPAGE=	http://isaacproject.u-strasbg.fr/li.html
+HOMEPAGE=	http://www.lisaac.org/
 COMMENT=	Lisaac is the first compiled POO based on prototype concepts
 #LICENSE=	gnu-gpl-v3
 
