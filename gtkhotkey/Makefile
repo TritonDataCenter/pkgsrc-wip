@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	gtkhotkey-0.2.1
+PKGREVISION=	1
 CATEGORIES=	x11
 MASTER_SITES=	http://launchpad.net/gtkhotkey/0.2/0.2.1/+download/
 

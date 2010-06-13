@@ -6,6 +6,7 @@ BUILDLINK_TREE+=	meta-tracker
 META_TRACKER_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.meta-tracker+=	meta-tracker>=0.6.96
+BUILDLINK_ABI_DEPENDS.meta-tracker?=	meta-tracker>=0.6.96nb1
 BUILDLINK_PKGSRCDIR.meta-tracker?=	../../wip/meta-tracker
 
 .include "../../databases/qdbm/buildlink3.mk"

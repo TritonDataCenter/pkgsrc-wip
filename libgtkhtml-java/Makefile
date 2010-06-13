@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		libgtkhtml-java-2.6.0
-PKGREVISION=		2
+PKGREVISION=		3
 CATEGORIES=		www
 MASTER_SITES=		${MASTER_SITE_GNOME:=sources/libgtkhtml-java/2.6/}
 EXTRACT_SUFX=		.tar.bz2

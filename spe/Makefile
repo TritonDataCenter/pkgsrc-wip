@@ -3,7 +3,7 @@
 
 DISTNAME=		SPE-0.4.1.d-wx2.4.2.4.-bl2.28
 PKGNAME=		spe-0.4.1
-PKGREVISION=		1
+PKGREVISION=		2
 CATEGORIES=		editors
 MASTER_SITES=		http://projects.blender.org/download.php/47/
 EXTRACT_SUFX=		.zip

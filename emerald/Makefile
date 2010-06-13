@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	emerald-0.2.1
+PKGREVISION=	1
 COMMENT=	Emerald decorator for the Beryl Compositor
 
 .include "../../wip/beryl/Makefile.inc"

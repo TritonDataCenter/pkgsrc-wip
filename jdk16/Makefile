@@ -9,7 +9,7 @@ JDK_VERSION_STRING=	b05-jrl-24_sep_2007
 
 DISTNAME=		jdk-6u${JDK_UPDATE}
 PKGNAME=	jdk16-${JDK_VERSION}.${JDK_UPDATE}.${JDK_PATCHSET_VERSION}
-PKGREVISION=		2
+PKGREVISION=		3
 MASTER_SITES+=		# http://download.java.net/jdk6/6u3/
 MASTER_SITES+=		# http://www.eyesbeyond.com/freebsddom/java/jdk16.html
 DISTFILES=		${JRL_SRCFILE} ${JRL_BINFILE} ${PATCHSETFILE}

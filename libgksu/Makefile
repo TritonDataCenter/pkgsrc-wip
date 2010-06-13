@@ -2,6 +2,7 @@
 #
 
 DISTNAME=		libgksu1.2-1.3.7
+PKGREVISION=		1
 CATEGORIES=		sysutils
 MASTER_SITES=		http://people.debian.org/~kov/gksu/libgksu1.2/
 

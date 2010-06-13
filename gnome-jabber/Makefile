@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		gnome-jabber-0.4
-PKGREVISION=		2
+PKGREVISION=		3
 CATEGORIES=		chat
 MASTER_SITES=		http://ftp.gnome.org/pub/GNOME/sources/gnome-jabber/0.4/
 EXTRACT_SUFX=		.tar.bz2

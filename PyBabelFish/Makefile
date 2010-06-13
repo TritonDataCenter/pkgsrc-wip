@@ -4,7 +4,7 @@
 DISTNAME=		PyBabelPhish-2.0_All_Platforms
 PKGNAME=		${PYPKGPREFIX}-${DISTNAME:S/_All_Platforms//}
 WRKSRC=			${WRKDIR}/PyBabelPhish-Install
-PKGREVISION=		1
+PKGREVISION=		2
 CATEGORIES=		textproc
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=pythonol/}
 EXTRACT_SUFX=		.tar.bz2

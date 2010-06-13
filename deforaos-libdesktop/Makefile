@@ -3,6 +3,7 @@
 
 DISTNAME=	libDesktop-0.0.2
 PKGNAME=	deforaos-libdesktop-0.0.2
+PKGREVISION=	1
 CATEGORIES=	devel
 MASTER_SITES=	http://www.defora.org/os/download/download/3357/
 

@@ -3,6 +3,7 @@
 
 DISTNAME=	swt-2.1.3-linux-gtk
 PKGNAME=	java-swt-2.1.3
+PKGREVISION=	1
 CATEGORIES=	lang
 MASTER_SITES=	http://download.eclipse.org/downloads/drops/R-2.1.3-200403101828/
 EXTRACT_SUFX=	.zip

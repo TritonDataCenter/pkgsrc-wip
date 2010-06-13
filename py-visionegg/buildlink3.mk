@@ -8,7 +8,7 @@ BUILDLINK_TREE+=	pyvisionegg
 PY_VISIONEGG_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.pyvisionegg+=	${PYPKGPREFIX}-visionegg>=0.9.9
-BUILDLINK_ABI_DEPENDS.pyvisionegg?=	${PYPKGPREFIX}-visionegg>=0.9.9nb1
+BUILDLINK_ABI_DEPENDS.pyvisionegg?=	${PYPKGPREFIX}-visionegg>=0.9.9nb2
 BUILDLINK_PKGSRCDIR.pyvisionegg?=	../../wip/py-visionegg
 
 .if exists(../../mk/opengl.buildlink3.mk)

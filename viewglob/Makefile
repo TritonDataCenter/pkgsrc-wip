@@ -2,6 +2,7 @@
 #
 
 DISTNAME=		viewglob-0.9
+PKGREVISION=		1
 CATEGORIES=		misc
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=viewglob/}
 

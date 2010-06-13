@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		brltty-3.7
-PKGREVISION=		1
+PKGREVISION=		2
 CATEGORIES=		misc
 MASTER_SITES=		http://www.mielke.cc/brltty/releases/
 

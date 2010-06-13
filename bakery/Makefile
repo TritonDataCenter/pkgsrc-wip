@@ -2,6 +2,7 @@
 #
 
 DISTNAME=		bakery-2.6.3
+PKGREVISION=	1
 CATEGORIES=	devel gnome
 MASTER_SITES=	${MASTER_SITE_GNOME:=sources/bakery/2.6/}
 EXTRACT_SUFX=	.tar.bz2

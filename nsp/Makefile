@@ -3,6 +3,7 @@
 
 DISTNAME=	nsp2-cvs_20090724
 PKGNAME=	nsp2-20090724
+PKGREVISION=	1
 CATEGORIES=	math
 MASTER_SITES=	http://cermics.enpc.fr/~jpc/nsp-tiddly/files/
 

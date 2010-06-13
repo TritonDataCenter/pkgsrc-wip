@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	pidgin-festival-2.4
-PKGREVISION=	1
+PKGREVISION=	2
 CATEGORIES=	chat audio
 MASTER_SITES=	http://downloads.sourceforge.net/pidgin-festival/
 

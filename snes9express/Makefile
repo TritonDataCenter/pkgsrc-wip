@@ -2,6 +2,7 @@
 #
 
 DISTNAME=		snes9express-1.42
+PKGREVISION=		1
 CATEGORIES=		emulators x11
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=snes9express/}
 

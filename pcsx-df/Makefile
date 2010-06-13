@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	pcsx-df-1.10
+PKGREVISION=	1
 CATEGORIES=	emulators
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=pcsx-df/}
 

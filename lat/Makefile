@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		lat-1.2.3
-PKGREVISION=		2
+PKGREVISION=		3
 CATEGORIES=		databases
 MASTER_SITES=		http://dev.mmgsecurity.com/downloads/lat/1.2/
 

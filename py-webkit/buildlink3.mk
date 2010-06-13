@@ -6,7 +6,7 @@ BUILDLINK_TREE+=	py-webkitgtk
 PY_WEBKITGTK_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.py-webkitgtk+=	${PYPKGPREFIX}-webkitgtk>=1.1.6
-BUILDLINK_ABI_DEPENDS.py-webkitgtk?=	${PYPKGPREFIX}-webkitgtk>=1.1.6nb1
+BUILDLINK_ABI_DEPENDS.py-webkitgtk?=	${PYPKGPREFIX}-webkitgtk>=1.1.7nb1
 BUILDLINK_PKGSRCDIR.py-webkitgtk?=	../../wip/py-webkit
 
 

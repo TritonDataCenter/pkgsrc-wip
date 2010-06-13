@@ -8,7 +8,7 @@ BUILDLINK_TREE+=	wxGTK-unicode
 WXGTK_UNICODE_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.wxGTK-unicode+=	wxGTK-unicode>=2.8.0
-BUILDLINK_ABI_DEPENDS.wxGTK-unicode?=	wxGTK-unicode>=2.8.8
+BUILDLINK_ABI_DEPENDS.wxGTK-unicode?=	wxGTK-unicode>=2.8.8nb1
 BUILDLINK_PKGSRCDIR.wxGTK-unicode?=	../../wip/wxGTK-unicode
 
 .include "../../devel/zlib/buildlink3.mk"

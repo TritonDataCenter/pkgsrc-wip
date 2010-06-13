@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	grsync-0.9.3
+PKGREVISION=	1
 CATEGORIES=	wip
 MASTER_SITES=	http://www.opbyte.it/release/
 

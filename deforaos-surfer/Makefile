@@ -2,6 +2,7 @@
 
 DISTNAME=	Surfer-0.1.0
 PKGNAME=	deforaos-surfer-0.1.0
+PKGREVISION=	1
 CATEGORIES=	www
 MASTER_SITES=	http://www.defora.org/os/download/download/3330/
 

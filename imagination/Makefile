@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	imagination-1.0
+PKGREVISION=	1
 CATEGORIES=	multimedia
 MASTER_SITES=	http://ovh.dl.sourceforge.net/sourceforge/imagination/
 

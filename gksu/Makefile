@@ -2,6 +2,7 @@
 #
 
 DISTNAME=		gksu-1.3.6
+PKGREVISION=		1
 CATEGORIES=		sysutils
 MASTER_SITES=		http://people.debian.org/~kov/gksu/gksu/
 

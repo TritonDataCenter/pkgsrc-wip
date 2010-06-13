@@ -16,6 +16,7 @@ BUILDLINK_TREE+=	beryl-core
 BERYL_CORE_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.beryl-core+=	beryl-core>=0.2.1
+BUILDLINK_ABI_DEPENDS.beryl-core?=	beryl-core>=0.2.1nb2
 BUILDLINK_PKGSRCDIR.beryl-core?=	../../wip/beryl-core
 
 .include "../../devel/glib2/buildlink3.mk"

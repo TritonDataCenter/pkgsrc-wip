@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	gnome-activity-journal-0.3.3
+PKGREVISION=	1
 CATEGORIES=	sysutils
 MASTER_SITES=	http://edge.launchpad.net/gnome-activity-journal/0.3/0.3.3/+download/
 

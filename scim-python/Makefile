@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	scim-python-0.1.13rc1
+PKGREVISION=	1
 CATEGORIES=	inputmethod python
 MASTER_SITES=	http://scim-python.googlecode.com/files/
 

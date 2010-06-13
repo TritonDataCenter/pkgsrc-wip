@@ -3,6 +3,7 @@
 DISTNAME=		dwerg-default-${DWERG_VERSION}
 DWERG_VERSION=		0.8
 PKGNAME=		gtk2-engines-dwerg-${DWERG_VERSION}
+PKGREVISION=		1
 CATEGORIES=		x11
 MASTER_SITES=		http://download.freshmeat.net/themes/dwerg/
 EXTRACT_SUFX=		.tar.gz

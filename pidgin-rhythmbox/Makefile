@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	pidgin-rhythmbox-2.0
-PKGREVISION=	1
+PKGREVISION=	2
 CATEGORIES=	chat
 MASTER_SITES=	http://jon.oberheide.org/projects/pidgin-rhythmbox/downloads/
 

@@ -16,6 +16,7 @@ BUILDLINK_TREE+=	libgtk-java
 uibgtk_java_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.libgtk-java+=	libgtk-java>=2.8.5
+BUILDLINK_ABI_DEPENDS.libgtk-java?=	libgtk-java>=2.8.5nb1
 BUILDLINK_PKGSRCDIR.libgtk-java?=	../../wip/libgtk-java
 
 # XXX

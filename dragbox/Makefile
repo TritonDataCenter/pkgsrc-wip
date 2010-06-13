@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	dragbox-0.4.0
+PKGREVISION=	1
 CATEGORIES=	x11 gnome
 MASTER_SITES=	http://kaizer.se/publicfiles/dragbox/
 

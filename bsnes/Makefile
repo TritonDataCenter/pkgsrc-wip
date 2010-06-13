@@ -3,6 +3,7 @@
 
 DISTNAME=	bsnes_v039
 PKGNAME=	${DISTNAME:S/_v0/-0./}
+PKGREVISION=	1
 CATEGORIES=	emulators
 MASTER_SITES=	http://byuu.cinnamonpirate.com/files/
 EXTRACT_SUFX=	.tar.bz2

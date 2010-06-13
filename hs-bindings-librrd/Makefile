@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	bindings-librrd-0.1
+PKGREVISION=	1
 CATEGORIES=	databases
 
 MAINTAINER=	pho@cielonegro.org

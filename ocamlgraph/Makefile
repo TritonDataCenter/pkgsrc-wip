@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	ocamlgraph-1.1
+PKGREVISION=	1
 CATEGORIES=	devel
 MASTER_SITES=	http://ocamlgraph.lri.fr/download/
 

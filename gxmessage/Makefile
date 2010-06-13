@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	gxmessage-2.12.4
+PKGREVISION=	1
 CATEGORIES=	x11
 MASTER_SITES=	http://homepages.ihug.co.nz/~trmusson/stuff/
 

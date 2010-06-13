@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	taglib-sharp-2.0.3.2
-PKGREVISION=	2
+PKGREVISION=	3
 CATEGORIES=	audio
 MASTER_SITES=	http://download.banshee-project.org/taglib-sharp/2.0.3.2/
 EXTRACT_SUFX=	.tar.bz2

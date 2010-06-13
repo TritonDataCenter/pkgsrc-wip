@@ -2,6 +2,7 @@
 
 DISTNAME=	Mixer-0.0.1
 PKGNAME=	deforaos-mixer-0.0.1
+PKGREVISION=	1
 CATEGORIES=	audio
 MASTER_SITES=	http://www.defora.org/os/download/download/3317/
 

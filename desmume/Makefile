@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	desmume-0.9.5
+PKGREVISION=	1
 CATEGORIES=	emulators
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=desmume/}
 

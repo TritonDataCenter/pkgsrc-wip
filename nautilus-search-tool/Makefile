@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	nautilus-search-tool-0.3.0
+PKGREVISION=	1
 CATEGORIES=	sysutils
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=nautsearchtool/}
 

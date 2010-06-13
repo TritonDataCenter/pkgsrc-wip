@@ -3,6 +3,7 @@
 
 DISTNAME=	TrueCrypt%206.3a%20Source
 PKGNAME=	truecrypt-6.3a
+PKGREVISION=	1
 CATEGORIES=	security
 
 DOWNLOAD=	http://www.truecrypt.org/downloads2

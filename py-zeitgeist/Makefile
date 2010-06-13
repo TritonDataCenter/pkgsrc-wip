@@ -3,6 +3,7 @@
 
 DISTNAME=	zeitgeist-0.3.2
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
+PKGREVISION=	1
 CATEGORIES=	sysutils
 MASTER_SITES=	http://launchpad.net/zeitgeist/0.3/0.3.2/+download/
 

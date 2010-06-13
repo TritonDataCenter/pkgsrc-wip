@@ -3,6 +3,7 @@
 
 DISTNAME=	pygi-0.5.1
 PKGNAME= ${PYPKGPREFIX}-${DISTNAME}
+PKGREVISION=	1
 CATEGORIES=	devel python
 MASTER_SITES=	http://ftp.gnome.org/Public/gnome/sources/pygi/0.5/
 

@@ -2,6 +2,7 @@
 #
 
 DISTNAME=		gnocky-0.0.7
+PKGREVISION=		1
 CATEGORIES=		comms
 MASTER_SITES=		http://www.gnokii.org/download/gnocky/
 

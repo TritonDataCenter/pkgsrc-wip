@@ -6,7 +6,7 @@ BUILDLINK_TREE+=	gupnp-vala
 GUPNP_VALA_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.gupnp-vala+=	gupnp-vala>=0.5.4
-BUILDLINK_ABI_DEPENDS.gupnp-vala?=	gupnp-vala>=0.5.4nb1
+BUILDLINK_ABI_DEPENDS.gupnp-vala?=	gupnp-vala>=0.5.4nb2
 BUILDLINK_PKGSRCDIR.gupnp-vala?=	../../wip/gupnp-vala
 
 

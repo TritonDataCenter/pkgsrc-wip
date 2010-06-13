@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		passepartout-0.3
-PKGREVISION=		2
+PKGREVISION=		3
 CATEGORIES=		print
 MASTER_SITES=		http://www.stacken.kth.se/project/pptout/files/
 EXTRACT_SUFX=		.tar.bz2

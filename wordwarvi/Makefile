@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	wordwarvi-0.24
+PKGREVISION=	1
 CATEGORIES=	games
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=wordwarvi/}
 

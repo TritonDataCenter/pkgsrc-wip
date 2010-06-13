@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	ibus-handwrite-2.1.0
+PKGREVISION=	1
 CATEGORIES=	inputmethod
 MASTER_SITES=	http://ibus-handwrite.googlecode.com/files/
 EXTRACT_SUFX=	.tar.bz2

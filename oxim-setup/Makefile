@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	oxim-setup-1.4.4
+PKGREVISION=	1
 CATEGORIES=	inputmethod chinese
 MASTER_SITES=	ftp://ftp.opendesktop.org.tw/odp/OXIM/Source/
 

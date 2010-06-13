@@ -3,7 +3,7 @@
 
 DISTNAME=	${PKGNAME}.src
 PKGNAME=	last.fm-1.3.2.13
-PKGREVISION=	1
+PKGREVISION=	2
 CATEGORIES=	audio net
 MASTER_SITES=	http://cdn.last.fm/client/src/
 EXTRACT_SUFX=	.tar.bz2

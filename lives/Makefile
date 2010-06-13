@@ -4,7 +4,7 @@
 DISTNAME=	LiVES-0.9.9.9
 LIVESVERS=	0.9.9.9
 PKGNAME=	lives-${LIVESVERS}
-PKGREVISION=	2
+PKGREVISION=	3
 CATEGORIES=	multimedia
 MASTER_SITES=	http://www.xs4all.nl/%7Esalsaman/lives/current/
 EXTRACT_SUFX=	.tar.bz2

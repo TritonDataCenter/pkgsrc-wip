@@ -2,6 +2,7 @@
 
 DISTNAME=		gtk2-engines-magicchicken_1.1.1.orig
 PKGNAME=		gtk2-engines-magicchicken-1.1.1
+PKGREVISION=		1
 CATEGORIES=		x11
 MASTER_SITES=		ftp://ftp.debian.org/debian/pool/main/g/gtk2-engines-magicchicken/
 

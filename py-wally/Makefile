@@ -4,6 +4,7 @@
 DISTNAME=	Wally-0.6.14.tar
 EGG_NAME=	Wally-0.6.14
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME:S/Wally/wally/S/.tar//}
+PKGREVISION=	1
 CATEGORIES=	sysutils
 MASTER_SITES=	http://pypi.python.org/packages/source/W/Wally/
 EXTRACT_SUFX=	.gz#md5=43820ab951aefb8ed82e4a3238c0eaa1

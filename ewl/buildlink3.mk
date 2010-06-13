@@ -6,7 +6,7 @@ BUILDLINK_TREE+=	ewl
 EWL_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.ewl+=	ewl>=0.5.2.042
-BUILDLINK_ABI_DEPENDS.ewl?=	ewl>=0.5.2.042nb3
+BUILDLINK_ABI_DEPENDS.ewl?=	ewl>=0.5.2.042nb4
 BUILDLINK_PKGSRCDIR.ewl?=	../../wip/ewl
 
 .include "../../wip/efreet/buildlink3.mk"

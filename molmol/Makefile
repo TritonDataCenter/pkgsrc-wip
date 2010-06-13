@@ -3,7 +3,7 @@
 
 DISTNAME=		molmol-2k.2.0-src
 PKGNAME=		molmol-2.2.0
-PKGREVISION=		1
+PKGREVISION=		2
 CATEGORIES=		biology
 MASTER_SITES=		ftp://freedom7.swmed.edu/pub/software/MOLMOL/unix-gzip/
 

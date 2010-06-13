@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	swfmill-0.2.11
+PKGREVISION=	1
 CATEGORIES=	graphics converters
 MASTER_SITES=	http://swfmill.org/releases/
 

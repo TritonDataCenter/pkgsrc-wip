@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	desktop-data-model-1.2.5
+PKGREVISION=	1
 CATEGORIES=	net
 MASTER_SITES=	${MASTER_SITE_GNOME:=sources/desktop-data-model/1.2/}
 EXTRACT_SUFX=	.tar.bz2

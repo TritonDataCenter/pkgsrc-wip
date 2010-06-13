@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	glista-0.4
+PKGREVISION=	1
 CATEGORIES=	time gnome
 MASTER_SITES=	http://glista.googlecode.com/files/
 

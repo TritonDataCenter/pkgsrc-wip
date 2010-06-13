@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	desktopcouch-0.6.4
+PKGREVISION=	1
 CATEGORIES=	databases python
 MASTER_SITES=	http://launchpad.net/desktopcouch/trunk/0.6.4/+download/
 

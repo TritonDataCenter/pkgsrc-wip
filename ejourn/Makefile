@@ -2,6 +2,7 @@
 #
 
 DISTNAME=		ejourn-0.4.2
+PKGREVISION=		1
 CATEGORIES=		misc
 MASTER_SITES=		http://www.public.iastate.edu/~chris129/code/ejourn/Downloads/
 EXTRACT_SUFX=		.tar.bz2

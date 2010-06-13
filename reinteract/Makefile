@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	reinteract-0.5.0
+PKGREVISION=	1
 CATEGORIES=	devel python
 MASTER_SITES=	http://www.reinteract.org/download/sources/
 EXTRACT_SUFX=	.tar.bz2

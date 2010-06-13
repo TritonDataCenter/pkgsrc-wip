@@ -3,6 +3,7 @@
 
 DISTNAME=	PcsxSrc-1.5
 PKGNAME=	${DISTNAME:S/PcsxSrc/pcsx/}
+PKGREVISION=	1
 CATEGORIES=	emulators
 MASTER_SITES=	http://www.pcsx.net/downloads/
 EXTRACT_SUFX=	.tgz

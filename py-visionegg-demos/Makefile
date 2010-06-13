@@ -3,7 +3,7 @@
 
 DISTNAME=		visionegg-0.9.9-demo
 PKGNAME=		${PYPKGPREFIX}-visionegg-demo-0.9.9
-PKGREVISION=		2
+PKGREVISION=		3
 CATEGORIES=		misc
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=visionegg/}
 

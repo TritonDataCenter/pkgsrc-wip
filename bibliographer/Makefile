@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	bibliographer-0.1.3
-PKGREVISION=	1
+PKGREVISION=	2
 CATEGORIES=	print
 MASTER_SITES=	http://launchpad.net/bibliographer/trunk/0.1.3/+download/
 

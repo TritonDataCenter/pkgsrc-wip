@@ -1,7 +1,7 @@
 # $NetBSD$
 
 DISTNAME=	sxemacs-22.1.5
-PKGREVISION=	2
+PKGREVISION=	3
 CATEGORIES=	editors
 MASTER_SITES=	ftp://ftp.sxemacs.org/pub/sxemacs/
 

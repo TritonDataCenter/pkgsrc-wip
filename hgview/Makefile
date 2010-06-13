@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	hgview-0.9.${HGVIEW_VER}
+PKGREVISION=	1
 CATEGORIES=	devel
 
 MAINTAINER=	pkgsrc-users@NetBSD.org

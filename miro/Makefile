@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	miro-3.0.1
+PKGREVISION=	1
 CATEGORIES=	multimedia net
 MASTER_SITES=	http://ftp.osuosl.org/pub/pculture.org/miro/src/
 

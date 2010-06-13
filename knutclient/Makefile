@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		knutclient-0.9.3
-PKGREVISION=		3
+PKGREVISION=		4
 CATEGORIES=		sysutils kde
 MASTER_SITES=		ftp://ftp.buzuluk.cz/pub/alo/knutclient/stable/
 

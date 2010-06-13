@@ -3,7 +3,7 @@
 
 DISTNAME=	gtask-0.1.2
 PKGNAME=	lib${DISTNAME}
-PKGREVISION=	3
+PKGREVISION=	4
 CATEGORIES=	devel
 MASTER_SITES=	http://ftp.dronelabs.com/sources/gtask/0.1/
 

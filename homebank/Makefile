@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	homebank-4.1
+PKGREVISION=	1
 CATEGORIES=	finance
 MASTER_SITES=	http://homebank.free.fr/public/
 

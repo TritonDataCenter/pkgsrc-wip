@@ -4,6 +4,7 @@
 
 DISTNAME=	Player-0.1.2
 PKGNAME=	deforaos-player-0.1.2
+PKGREVISION=	1
 CATEGORIES=	multimedia
 MASTER_SITES=	http://www.defora.org/os/download/download/3277/
 

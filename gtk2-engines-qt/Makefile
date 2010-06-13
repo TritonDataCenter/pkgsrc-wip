@@ -3,7 +3,7 @@
 
 DISTNAME=		9714-gtk-qt-engine-0.2
 PKGNAME=		gtk2-engines-qt-0.2
-PKGREVISION=		1
+PKGREVISION=		2
 CATEGORIES=		devel x11
 MASTER_SITES=		http://www.kde-look.org/content/files/
 EXTRACT_SUFX=		.tar.bz2

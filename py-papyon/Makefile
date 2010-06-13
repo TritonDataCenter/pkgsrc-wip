@@ -3,6 +3,7 @@
 
 DISTNAME=	papyon-0.4.6
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
+PKGREVISION=	1
 CATEGORIES=	chat
 MASTER_SITES=	http://telepathy.freedesktop.org/releases/papyon/
 

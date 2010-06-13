@@ -3,6 +3,7 @@
 
 DISTNAME=	quodlibet-2.1
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
+PKGREVISION=	1
 CATEGORIES=	audio
 MASTER_SITES=	http://quodlibet.googlecode.com/files/
 

@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	noor-1.2.1
+PKGREVISION=	1
 CATEGORIES=	misc python
 MASTER_SITES=	http://garr.dl.sourceforge.net/project/noor/noor/1.2.1/
 

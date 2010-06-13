@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	giggle-0.5
+PKGREVISION=	1
 CATEGORIES=	devel
 MASTER_SITES=	${MASTER_SITE_GNOME:=sources/giggle/0.5/}
 EXTRACT_SUFX=	.tar.bz2

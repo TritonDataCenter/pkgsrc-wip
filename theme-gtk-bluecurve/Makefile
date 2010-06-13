@@ -6,7 +6,7 @@ DISTNAME=	redhat-artwork-${THEMEVERSION}-${SUBVERSION}.src
 PKGNAME=	theme-gtk-bluecurve-${THEMEVERSION}
 THEMEVERSION=	0.47
 SUBVERSION=	3
-PKGREVISION=	1
+PKGREVISION=	2
 CATEGORIES=	x11
 MASTER_SITES=	ftp://ftp.rutgers.edu/pub/redhat/linux/8.0/en/os/i386/SRPMS/ \
 		ftp://ftp.redhat.com/redhat/linux/8.0/en/os/i386/SRPMS/	     \

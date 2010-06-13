@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	tasks-0.16
+PKGREVISION=	1
 CATEGORIES=	time editors
 MASTER_SITES=	http://pimlico-project.org/sources/tasks/
 

@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		briquolo-0.5.2
-PKGREVISION=		1
+PKGREVISION=		2
 CATEGORIES=		games
 MASTER_SITES=		http://briquolo.free.fr/download/
 EXTRACT_SUFX=		.tar.bz2

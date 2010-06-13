@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		GtkAda-2.2.1
-PKGREVISION=		3
+PKGREVISION=		4
 CATEGORIES=		devel
 MASTER_SITES=		http://libre.act-europe.fr/GtkAda/
 EXTRACT_SUFX=		.tgz

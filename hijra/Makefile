@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	hijra-0.1.18
+PKGREVISION=	1
 CATEGORIES=	time python
 MASTER_SITES=	http://www.ojuba.org/downloads/hijra/
 EXTRACT_SUFX=	.tar.bz2

@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	gstat-2.4.3
-PKGREVISION=	1
+PKGREVISION=	2
 CATEGORIES=	geography math
 MASTER_SITES=	http://www.gstat.org/bin/
 

@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	flimp-0.0.11
-PKGREVISION=	1
+PKGREVISION=	2
 CATEGORIES=	graphics
 MASTER_SITES=	http://www.ecademix.com/JohannesHofmann/
 

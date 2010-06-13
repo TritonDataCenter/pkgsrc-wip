@@ -3,6 +3,7 @@
 
 DISTNAME=		vice-2.2
 #PKGREVISION=		0
+PKGREVISION=		1
 CATEGORIES=		emulators
 MASTER_SITES=		ftp://ftp.zimmers.net/pub/cbm/crossplatform/emulators/VICE/ \
 			http://www.zimmers.net/anonftp/pub/cbm/crossplatform/emulators/VICE/ \

@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	mapnik-0.4.0
-PKGREVISION=	1
+PKGREVISION=	2
 CATEGORIES=	geography
 MASTER_SITES=	http://download.berlios.de/mapnik/
 

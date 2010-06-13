@@ -6,7 +6,7 @@ BUILDLINK_TREE+=	guichan
 GUICHAN_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.guichan+=	guichan>=0.6.0
-BUILDLINK_ABI_DEPENDS.guichan?=	guichan>=0.6.0nb1
+BUILDLINK_ABI_DEPENDS.guichan?=	guichan>=0.6.0nb2
 BUILDLINK_PKGSRCDIR.guichan?=	../../wip/guichan
 
 .include "../../devel/SDL/buildlink3.mk"

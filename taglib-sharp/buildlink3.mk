@@ -6,7 +6,7 @@ BUILDLINK_TREE+=	taglib-sharp
 TAGLIB_SHARP_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.taglib-sharp+=	taglib-sharp>=2.0.3.2
-BUILDLINK_ABI_DEPENDS.taglib-sharp?=	taglib-sharp>=2.0.3.2nb2
+BUILDLINK_ABI_DEPENDS.taglib-sharp?=	taglib-sharp>=2.0.3.2nb3
 BUILDLINK_PKGSRCDIR.taglib-sharp?=	../../wip/taglib-sharp
 
 

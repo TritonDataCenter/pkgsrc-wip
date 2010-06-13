@@ -2,6 +2,7 @@
 #
 
 DISTNAME=		xdiskusage-1.48
+PKGREVISION=		1
 CATEGORIES=		sysutils
 MASTER_SITES=		http://xdiskusage.sourceforge.net/
 EXTRACT_SUFX=		.tgz

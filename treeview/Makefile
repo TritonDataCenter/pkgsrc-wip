@@ -3,7 +3,7 @@
 
 DISTNAME=	tv-0.5
 PKGNAME=	treeviewx-0.5
-PKGREVISION=	1
+PKGREVISION=	2
 CATEGORIES=	biology
 MASTER_SITES=	http://darwin.zoology.gla.ac.uk/~rpage/treeviewx/
 

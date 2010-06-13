@@ -2,6 +2,7 @@
 #
 
 DISTNAME=			mirage-0.9.3
+PKGREVISION=			1
 CATEGORIES=			graphics
 MASTER_SITES=			http://download.berlios.de/mirageiv/
 EXTRACT_SUFX=			.tar.bz2

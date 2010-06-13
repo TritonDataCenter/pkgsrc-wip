@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	gwsmhg-0.8.1
+PKGREVISION=	1
 CATEGORIES=	devel python
 MASTER_SITES=	http://garr.dl.sourceforge.net/project/gwsmhg/gwsmhg/v-0.8.1/
 

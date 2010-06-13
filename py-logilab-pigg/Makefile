@@ -3,6 +3,7 @@
 
 DISTNAME=	pigg-0.2.0
 PKGNAME=	${PYPKGPREFIX}-logilab-${DISTNAME}
+PKGREVISION=	1
 CATEGORIES=	x11 python
 MASTER_SITES=	http://ftp.logilab.org/pub/pigg/
 

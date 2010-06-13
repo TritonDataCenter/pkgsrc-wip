@@ -6,7 +6,7 @@ BUILDLINK_TREE+=	gtkglk
 GTKGLK_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.gtkglk+=	gtkglk>=0.2
-BUILDLINK_ABI_DEPENDS.gtkglk?=	gtkglk>=0.2nb1
+BUILDLINK_ABI_DEPENDS.gtkglk?=	gtkglk>=0.2nb2
 BUILDLINK_PKGSRCDIR.gtkglk?=	../../wip/gtkglk
 
 BUILDLINK_TRANSFORM+=   l:glk:gtkglk

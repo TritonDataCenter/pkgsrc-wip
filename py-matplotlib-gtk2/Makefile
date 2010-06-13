@@ -3,6 +3,7 @@
 
 DISTNAME=		matplotlib-0.98.0
 PKGNAME=		${PYPKGPREFIX}-matplotlib-gtk-0.98.0
+PKGREVISION=		1
 CATEGORIES=		graphics python
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=matplotlib/}
 

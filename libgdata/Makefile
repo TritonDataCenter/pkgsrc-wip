@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	libgdata-0.4.0
+PKGREVISION=	1
 CATEGORIES=	www
 MASTER_SITES=	${MASTER_SITE_GNOME:=sources/libgdata/0.4/}
 EXTRACT_SUFX=	.tar.bz2

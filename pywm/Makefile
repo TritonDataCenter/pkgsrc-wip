@@ -3,6 +3,7 @@
 
 DISTNAME=		pywm-0.1
 PKGNAME=		${PYPKGPREFIX}-${DISTNAME}
+PKGREVISION=		1
 CATEGORIES=		wm
 MASTER_SITES=		http://www.freenet.org.nz/python/pywm/
 

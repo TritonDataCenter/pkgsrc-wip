@@ -3,7 +3,7 @@
 
 DISTNAME=		tilp
 PKGNAME=		tilp-6.67-beta3
-PKGREVISION=		1
+PKGREVISION=		2
 CATEGORIES=		math
 MASTER_SITES=		http://www.ticalc.org/pub/unix/
 

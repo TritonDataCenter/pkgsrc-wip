@@ -5,6 +5,7 @@ DISTNAME=		mpgedit_0-7p2beta_src
 PKGNAME=		mpgedit-0.7.1.99
 EXTRACT_SUFX=		.tgz
 WRKSRC=			${WRKDIR}/${DISTNAME}/mpgedit
+PKGREVISION=		1
 CATEGORIES=		audio
 MASTER_SITES=		http://www.mpgedit.org/mpgedit/download/
 

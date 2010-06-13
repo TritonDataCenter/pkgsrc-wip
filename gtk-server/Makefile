@@ -2,6 +2,7 @@
 #
 
 DISTNAME=		gtk-server-2.0.10
+PKGREVISION=		1
 CATEGORIES=		wip x11 devel
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=gtk-server/}
 

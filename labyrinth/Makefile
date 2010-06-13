@@ -3,6 +3,7 @@
 
 DISTNAME=	labyrinth_0.4.1
 PKGNAME=	labyrinth-0.4.1
+PKGREVISION=	1
 CATEGORIES=	graphics python
 MASTER_SITES=	http://labyrinth.googlecode.com/files/
 

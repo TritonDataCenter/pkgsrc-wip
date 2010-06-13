@@ -11,7 +11,7 @@ BUILDLINK_TREE+=	kyra2
 KYRA2_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.kyra2+=	kyra2>=2.0.7
-BUILDLINK_ABI_DEPENDS.kyra2?=	kyra2>=2.0.7nb2
+BUILDLINK_ABI_DEPENDS.kyra2?=	kyra2>=2.0.7nb3
 BUILDLINK_PKGSRCDIR.kyra2?=	../../wip/kyra2
 
 .include "../../devel/SDL/buildlink3.mk"

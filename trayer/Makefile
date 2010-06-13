@@ -2,9 +2,9 @@
 
 TR_VERSION=	1.0
 DISTNAME=	trayer-${TR_VERSION}
+PKGREVISION=    3
 CATEGORIES=	x11
 MASTER_SITES=	http://download.berlios.de/fvwm-crystal/
-PKGREVISION=    2
 
 MAINTAINER=	milos.negovanovic@googlemail.com
 HOMEPAGE=	http://fvwm-crystal.org/

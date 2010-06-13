@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		gnomeradio-1.6
-PKGREVISION=		3
+PKGREVISION=		4
 CATEGORIES=		wip audio
 MASTER_SITES=		http://www.wh-hms.uni-ulm.de/~mfcn/gnomeradio/packages/
 

@@ -1,7 +1,7 @@
 # $NetBSD: $
 
 DISTNAME=		symon-2.76
-PKGREVISION=		1
+PKGREVISION=		2
 CATEGORIES=		net sysutils
 MASTER_SITES=		http://www.xs4all.nl/~wpd/symon/philes/
 

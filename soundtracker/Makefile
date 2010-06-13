@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		soundtracker-0.6.8
-PKGREVISION=		1
+PKGREVISION=		2
 CATEGORIES=		audio
 MASTER_SITES=		http://www.soundtracker.org/dl/v0.6/
 

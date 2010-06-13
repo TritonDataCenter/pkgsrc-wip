@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	gts-0.7.6
-PKGREVISION=	1
+PKGREVISION=	2
 CATEGORIES=	graphics
 MASTER_SITES=	http://garr.dl.sourceforge.net/project/gts/gts/0.7.6/
 

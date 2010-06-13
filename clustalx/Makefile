@@ -2,6 +2,7 @@
 #
 
 DISTNAME=		clustalx-2.0.12
+PKGREVISION=		1
 CATEGORIES=		biology
 MASTER_SITES=		ftp://ftp.ebi.ac.uk/pub/software/clustalw2/2.0.12/
 

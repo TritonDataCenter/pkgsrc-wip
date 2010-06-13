@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	gnome-user-share-2.26.0
+PKGREVISION=	1
 CATEGORIES=	misc
 MASTER_SITES=	${MASTER_SITE_GNOME:=sources/gnome-user-share/2.26/}
 EXTRACT_SUFX=	.tar.bz2

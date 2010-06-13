@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	libowl-av-0.1
+PKGREVISION=	1
 CATEGORIES=	audio
 MASTER_SITES=	http://labs.o-hand.com/sources/libowl-av/
 

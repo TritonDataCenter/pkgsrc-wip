@@ -3,6 +3,7 @@
 
 DISTNAME=		RealTimeBattle-1.0.7-Std
 PKGNAME=		realtimebattle-1.0.7
+PKGREVISION=		1
 CATEGORIES=		games
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=realtimebattle/}
 

@@ -4,7 +4,7 @@
 DISTNAME=	VirtualBox-${VBOX_VER}-OSE
 PKGNAME=	virtualbox-${VBOX_VER}
 VBOX_VER=	3.0.4
-PKGREVISION=	2
+PKGREVISION=	3
 CATEGORIES=	emulators
 MASTER_SITES=	http://download.virtualbox.org/virtualbox/${VBOX_VER}/
 EXTRACT_SUFX=	.tar.bz2

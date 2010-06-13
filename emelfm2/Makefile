@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	emelfm2-0.1.3
+PKGREVISION=	1
 CATEGORIES=	sysutils
 MASTER_SITES=	http://emelfm2.net/rel/
 

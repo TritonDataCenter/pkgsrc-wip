@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	xcowsay-1.2
+PKGREVISION=	1
 CATEGORIES=	misc
 MASTER_SITES=	http://www.nickg.me.uk/files/
 

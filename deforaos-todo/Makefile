@@ -2,6 +2,7 @@
 
 DISTNAME=	Todo-0.0.1
 PKGNAME=	deforaos-todo-0.0.1
+PKGREVISION=	1
 CATEGORIES=	time
 MASTER_SITES=	http://www.defora.org/os/download/download/3369/
 

@@ -2,7 +2,7 @@
 #
 
 PKGNAME=		multisync-syncml-0.82
-PKGREVISION=		2
+PKGREVISION=		3
 
 COMMENT=		SyncML module for Multisync
 

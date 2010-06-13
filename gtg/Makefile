@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	gtg-0.1.1
+PKGREVISION=	1
 CATEGORIES=	editors python
 MASTER_SITES=	http://launchpad.net/gtg/trunk/0.1.1/+download/
 

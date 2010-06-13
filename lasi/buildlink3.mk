@@ -13,6 +13,7 @@ BUILDLINK_ORDER:=	${BUILDLINK_ORDER} ${BUILDLINK_DEPTH}liblasi
 
 .if ${LIBLASI_BUILDLINK3_MK} == "+"
 BUILDLINK_API_DEPENDS.liblasi+=	liblasi>=1.1.0
+BUILDLINK_ABI_DEPENDS.liblasi?=	liblasi>=1.1.0nb1
 BUILDLINK_PKGSRCDIR.liblasi?=	../../wip/lasi
 .endif	# LIBLASI_BUILDLINK3_MK
 

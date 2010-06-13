@@ -2,6 +2,7 @@
 #
 
 DISTNAME=		libgksuui1.0-1.0.7
+PKGREVISION=		1
 CATEGORIES=		sysutils
 MASTER_SITES=		http://people.debian.org/~kov/gksu/old_stuff/libgksuui1.0/
 

@@ -3,6 +3,7 @@
 
 
 DISTNAME=	gst-inspector-0.4
+PKGREVISION=	1
 CATEGORIES=	devel python
 MASTER_SITES=	http://cgit.freedesktop.org/~cymacs/gst-inspector/snapshot/
 EXTRACT_SUFX=	.tar.bz2

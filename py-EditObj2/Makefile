@@ -3,6 +3,7 @@
 
 DISTNAME=	EditObj2-0.2.1
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
+PKGREVISION=	1
 CATEGORIES=	devel python
 MASTER_SITES=	http://download.gna.org/songwrite/
 

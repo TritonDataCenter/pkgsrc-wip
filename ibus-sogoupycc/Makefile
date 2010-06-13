@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	ibus-sogoupycc-0.2.5
+PKGREVISION=	1
 CATEGORIES=	inputmethod
 MASTER_SITES=	http://ibus-sogoupycc.googlecode.com/files/
 

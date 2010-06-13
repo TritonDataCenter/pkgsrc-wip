@@ -6,6 +6,7 @@ BUILDLINK_TREE+=	lasem
 LASEM_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.lasem+=	lasem>=0.2.0
+BUILDLINK_ABI_DEPENDS.lasem?=	lasem>=0.2.0nb1
 BUILDLINK_PKGSRCDIR.lasem?=	../../wip/lasem
 
 .include "../../devel/glib2/buildlink3.mk"

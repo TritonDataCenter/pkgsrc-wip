@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		evilvte-0.4.3
-PKGREVISION=		1
+PKGREVISION=		2
 CATEGORIES=		x11
 MASTER_SITES=		http://www.calno.com/evilvte/
 

@@ -1,6 +1,7 @@
 # $NetBSD$
 
 DISTNAME=	gtk-imonc-0.6.4.1
+PKGREVISION=	1
 CATEGORIES=	net
 MASTER_SITES=	http://zeank.in-berlin.de/download/
 

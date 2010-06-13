@@ -2,6 +2,7 @@
 
 DISTNAME=	Framer-0.0.0
 PKGNAME=	deforaos-framer-0.0.0
+PKGREVISION=	1
 CATEGORIES=	wm
 MASTER_SITES=	http://www.defora.org/os/download/download/3291/
 

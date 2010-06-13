@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	pdf2svg-0.2.1
-PKGREVISION=	1
+PKGREVISION=	2
 CATEGORIES=	converters
 MASTER_SITES=	http://www.cityinthesky.co.uk/files/
 

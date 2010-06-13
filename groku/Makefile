@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		groku-0.1
-PKGREVISION=		3
+PKGREVISION=		4
 CATEGORIES=		audio
 MASTER_SITES=		http://digitalssg.net/debian/
 

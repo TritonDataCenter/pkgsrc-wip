@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	tegaki-pygtk-0.3.1
+PKGREVISION=	1
 CATEGORIES=	inputmethod
 MASTER_SITES=	http://www.tegaki.org/releases/${PKGVERSION_NOREV}/
 

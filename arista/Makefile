@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	arista-0.9.1
+PKGREVISION=	1
 CATEGORIES=	multimedia python
 MASTER_SITES=	http://programmer-art.org/media/releases/arista-transcoder/
 

@@ -4,7 +4,7 @@
 DISTNAME=	vagalume_${VERSION}.orig
 PKGNAME=	vagalume-${VERSION}
 VERSION=	0.7.1
-PKGREVISION=	1
+PKGREVISION=	2
 CATEGORIES=	audio net
 MASTER_SITES=	http://vagalume.igalia.com/files/source/
 

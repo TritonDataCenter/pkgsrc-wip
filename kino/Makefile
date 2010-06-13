@@ -4,7 +4,7 @@
 # XXX You must update MASTER_SITES download number when updating
 # XXX or you will download old file with new filename.
 DISTNAME=		kino-0.7.5
-PKGREVISION=		3
+PKGREVISION=		4
 CATEGORIES=		multimedia
 MASTER_SITES=		http://kino.schirmacher.de/filemanager/download/42/
 

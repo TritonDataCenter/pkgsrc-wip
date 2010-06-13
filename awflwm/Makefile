@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	awflwm-0.0
-PKGREVISION=	1
+PKGREVISION=	2
 CATEGORIES=	x11 wm
 MASTER_SITES=	http://awflwm.berlios.de/downloads/
 EXTRACT_SUFX=	.tar.bz2

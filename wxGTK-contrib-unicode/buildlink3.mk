@@ -6,7 +6,7 @@ BUILDLINK_TREE+=	wxGTK-contrib-unicode
 WXGTK_CONTRIB_UNICODE_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.wxGTK-contrib-unicode+=	wxGTK-contrib-unicode>=2.8.0
-BUILDLINK_ABI_DEPENDS.wxGTK-contrib-unicode?=	wxGTK-contrib-unicode>=2.8.8
+BUILDLINK_ABI_DEPENDS.wxGTK-contrib-unicode?=	wxGTK-contrib-unicode>=2.8.8nb1
 BUILDLINK_PKGSRCDIR.wxGTK-contrib-unicode?=	../../wip/wxGTK-contrib-unicode
 
 .include "../../devel/zlib/buildlink3.mk"

@@ -3,6 +3,7 @@
 
 DISTNAME=	etoile-0.4.1
 PKGNAME=	${DISTNAME:S/-/-core-/}
+PKGREVISION=	1
 CATEGORIES=	gnustep
 MASTER_SITES=	http://download.gna.org/etoile/
 

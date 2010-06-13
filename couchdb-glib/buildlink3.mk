@@ -6,6 +6,7 @@ BUILDLINK_TREE+=	couchdb-glib
 COUCHDB_GLIB_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.couchdb-glib+=	couchdb-glib>=0.5.3
+BUILDLINK_ABI_DEPENDS.couchdb-glib?=	couchdb-glib>=0.5.99nb1
 BUILDLINK_PKGSRCDIR.couchdb-glib?=	../../wip/couchdb-glib
 
 

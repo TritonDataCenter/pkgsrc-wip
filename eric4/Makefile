@@ -4,7 +4,7 @@
 DATE=			20100523
 VERS=			4.5-snapshot-${DATE}
 DISTNAME=		eric4-${VERS}
-PKGREVISION=	1
+PKGREVISION=	2
 CATEGORIES=		devel
 MASTER_SITES=	http://downloads.sourceforge.net/project/eric-ide/eric4/unstable/${DATE}/
 

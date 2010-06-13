@@ -2,6 +2,7 @@
 
 DISTNAME=	Phone-0.0.9
 PKGNAME=	deforaos-phone-0.0.9
+PKGREVISION=	1
 CATEGORIES=	comms
 MASTER_SITES=	http://www.defora.org/os/download/download/3360/
 

@@ -2,6 +2,7 @@
 #
 
 DISTNAME=		godura-0.6.2
+PKGREVISION=		1
 CATEGORIES=		editors
 MASTER_SITES=		http://www.mindspring.com/~joeja/ftp/
 

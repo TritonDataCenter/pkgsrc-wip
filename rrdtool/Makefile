@@ -2,6 +2,7 @@
 
 DISTNAME=	rrdtool-1.4.3
 
+PKGREVISION=	1
 CATEGORIES=	databases graphics net
 MASTER_SITES=	http://oss.oetiker.ch/rrdtool/pub/
 

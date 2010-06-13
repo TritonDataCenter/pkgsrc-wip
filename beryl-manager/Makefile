@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	beryl-manager-${BERYL_VERSION}
+PKGREVISION=	1
 CATEGORIES=	wm
 
 COMMENT=	Managing application of the Beryl compositing window manager

@@ -16,6 +16,7 @@ BUILDLINK_TREE+=	beryl-settings-bindings
 BERYL_SETTINGS_BINDINGS_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.beryl-settings-bindings+=	beryl-settings-bindings>=0.2.1
+BUILDLINK_ABI_DEPENDS.beryl-settings-bindings?=	beryl-settings-bindings>=0.2.1nb1
 BUILDLINK_PKGSRCDIR.beryl-settings-bindings?=	../../wip/beryl-settings-bindings
 
 .include "../../wip/beryl-core/buildlink3.mk"

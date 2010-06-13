@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	gtkglk-0.2
-PKGREVISION=	1
+PKGREVISION=	2
 CATEGORIES=	games
 MASTER_SITES=	${MASTER_SITE_IFARCHIVE:=programming/glk/implementations/}
 

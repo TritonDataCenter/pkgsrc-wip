@@ -2,7 +2,7 @@
 
 DISTNAME=		boinc
 PKGNAME=		boinc-lib-1
-PKGREVISION=		1
+PKGREVISION=		2
 CATEGORIES=		net
 
 COMMENT=		Libraries for the BOINC distributed computing application

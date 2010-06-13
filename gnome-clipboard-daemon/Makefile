@@ -3,6 +3,7 @@
 
 DISTNAME=	clipboard-daemon-1.0
 PKGNAME=	gnome-${DISTNAME}
+PKGREVISION=	1
 CATEGORIES=	x11 gnome
 MASTER_SITES=	http://members.chello.nl/~h.lai/gnome-clipboard-daemon/
 EXTRACT_SUFX=	.tar.bz2

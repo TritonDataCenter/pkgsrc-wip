@@ -3,6 +3,7 @@
 .include "Makefile.common"
 DISTNAME=		EMBOSS-2.9.0
 PKGNAME=		emboss-base-2.9.0
+PKGREVISION=		1
 
 COMMENT=	European Molecular Biology Open Software Suite
 

@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	heliodor-0.2.1
-PKGREVISION=	2
+PKGREVISION=	3
 
 .include "../../wip/beryl/Makefile.inc"
 

@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	monajat-2.3.1
+PKGREVISION=	1
 CATEGORIES=	misc
 MASTER_SITES=	http://launchpad.net/monajat/trunk/beta/+download/
 

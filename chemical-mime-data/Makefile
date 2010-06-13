@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	chemical-mime-data-0.1.94
+PKGREVISION=	1
 CATEGORIES=	biology
 MASTER_SITES=	http://garr.dl.sourceforge.net/project/chemical-mime/chemical-mime-data/0.1.94/
 

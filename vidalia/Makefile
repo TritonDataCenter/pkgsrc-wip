@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	vidalia-0.2.9
+PKGREVISION=	1
 CATEGORIES=	net security
 MASTER_SITES=	https://www.torproject.org/vidalia/dist/
 

@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	hitori-0.2.3
+PKGREVISION=	1
 CATEGORIES=	games gnome
 MASTER_SITES=	http://ftp.acc.umu.se/pub/GNOME/sources/hitori/0.2/
 EXTRACT_SUFX=	.tar.bz2

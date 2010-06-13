@@ -3,6 +3,7 @@
 DISTNAME=		gtk2flat-default
 PKGNAME=		gtk2-engines-flat-2.0
 WRKSRC=			${WRKDIR}/gtk-flat-theme-2.0
+PKGREVISION=		1
 CATEGORIES=		x11
 MASTER_SITES=		http://freshmeat.net/projects/gtk2flat/url_tgz/
 

@@ -2,6 +2,7 @@
 #
 
 PKGNAME=	${DISTNAME:S/.src//}
+PKGREVISION=	1
 COMMENT=	Tron clone in 3D with advanced gameplay and multiplayer
 
 .include "../../devel/SDL/buildlink3.mk"

@@ -1,7 +1,7 @@
 # $NetBSD$
 
 DISTNAME=	gDesklets-0.26
-PKGREVISION=	4
+PKGREVISION=	5
 CATEGORIES=	x11 gnome
 MASTER_SITES=	http://www.pycage.de/download/gdesklets/
 EXTRACT_SUFX=	.tar.bz2

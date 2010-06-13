@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		graveman-0.3.12-5
-PKGREVISION=		1
+PKGREVISION=		2
 CATEGORIES=		sysutils
 MASTER_SITES=		http://graveman.tuxfamily.org/sources/
 EXTRACT_SUFX=		.tar.bz2

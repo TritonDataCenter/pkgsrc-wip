@@ -13,6 +13,7 @@
 BUILDLINK_TREE+=	ncbi_cxx-lib
 
 BUILDLINK_API_DEPENDS.ncbi_cxx-lib+=	ncbi_cxx-lib>=20041130
+BUILDLINK_ABI_DEPENDS.ncbi_cxx-lib?=	ncbi_cxx-lib>=20041130nb2
 BUILDLINK_PKGSRCDIR.ncbi_cxx-lib?=	../../wip/ncbi-c++-lib
 
 # XXX

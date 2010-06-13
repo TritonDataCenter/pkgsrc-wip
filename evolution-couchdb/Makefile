@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	evolution-couchdb-0.3.99
+PKGREVISION=	1
 CATEGORIES=	mail
 MASTER_SITES=	ftp://ftp.gnome.org/pub/gnome/sources/evolution-couchdb/0.3/
 EXTRACT_SUFX=	.tar.bz2

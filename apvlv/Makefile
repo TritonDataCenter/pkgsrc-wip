@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	apvlv-0.0.9.2
+PKGREVISION=	1
 CATEGORIES=	print
 MASTER_SITES=	http://apvlv.googlecode.com/files/
 

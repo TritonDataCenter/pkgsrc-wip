@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	ibus-unikey-0.4
+PKGREVISION=	1
 CATEGORIES=	inputmethod
 MASTER_SITES=	http://ibus-unikey.googlecode.com/files/
 

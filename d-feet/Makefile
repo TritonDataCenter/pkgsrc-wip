@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	d-feet-0.1.10
+PKGREVISION=	1
 CATEGORIES=	devel python
 MASTER_SITES=	http://johnp.fedorapeople.org/downloads/d-feet/
 EXTRACT_SUFX=	.tar.bz2

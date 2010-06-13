@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	hplip-3.10.2
+PKGREVISION=	1
 CATEGORIES=	wip
 MASTER_SITES=	http://downloads.sourceforge.net/project/hplip/hplip/3.10.2/
 

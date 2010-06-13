@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	swftools-0.9.0
-PKGREVISION=	1
+PKGREVISION=	2
 CATEGORIES=	graphics converters
 MASTER_SITES=	http://www.swftools.org/
 

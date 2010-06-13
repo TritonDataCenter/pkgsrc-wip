@@ -2,6 +2,7 @@
 #
 
 DISTNAME=		lingoteach-ui-0.3.9a
+PKGREVISION=		1
 CATEGORIES=		misc
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=lingoteach/}
 

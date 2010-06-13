@@ -3,7 +3,7 @@
 
 DISTNAME=	endeavour-2.8.5
 #PKGREVISION=	1
-PKGREVISION=	2
+PKGREVISION=	3
 CATEGORIES=	sysutils
 MASTER_SITES=	http://www.battlefieldlinux.com/wolfpack/packages/
 EXTRACT_SUFX=	.tgz

@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	deskscribe-0.4.2
+PKGREVISION=	1
 CATEGORIES=	misc
 MASTER_SITES=	${MASTER_SITE_GNOME:=sources/deskscribe/0.4/}
 EXTRACT_SUFX=	.tar.bz2

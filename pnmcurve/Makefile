@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	pnmcurve-0.0.4
+PKGREVISION=	1
 CATEGORIES=	graphics
 MASTER_SITES=	http://www.ecademix.com/JohannesHofmann/
 

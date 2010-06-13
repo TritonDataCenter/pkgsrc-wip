@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	libslab-2.30.0
+PKGREVISION=	1
 CATEGORIES=	devel
 MASTER_SITES=	ftp://ftp.gnome.org/pub/gnome/sources/libslab/2.30/
 EXTRACT_SUFX=	.tar.bz2

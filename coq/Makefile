@@ -2,6 +2,7 @@
 #
 
 DISTNAME=		coq-8.2pl1
+PKGREVISION=		1
 CATEGORIES=		math
 MASTER_SITES=		http://coq.inria.fr/distrib/V8.2pl1/files/
 

@@ -3,7 +3,7 @@
 
 DISTNAME=	ipython-0.10
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
-PKGREVISION=	1
+PKGREVISION=	2
 CATEGORIES=	devel python
 MASTER_SITES=	http://ipython.scipy.org/dist/
 

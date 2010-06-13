@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		metatheme-0.9.7
-PKGREVISION=		6
+PKGREVISION=		7
 CATEGORIES=		misc
 MASTER_SITES=		${MASTER_SITE_GNOME:=sources/metatheme/0.9/}
 EXTRACT_SUFX=		.tar.bz2

@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	gupnp-ui-0.1.1
-PKGREVISION=	1
+PKGREVISION=	2
 CATEGORIES=	net
 MASTER_SITES=	http://www.gupnp.org/sources/gupnp-ui/
 

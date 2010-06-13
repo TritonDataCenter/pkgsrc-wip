@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	gtkaml-0.2.7.1
+PKGREVISION=	1
 CATEGORIES=	wip
 MASTER_SITES=	http://gtkaml.googlecode.com/files/
 EXTRACT_SUFX=	.tar.bz2

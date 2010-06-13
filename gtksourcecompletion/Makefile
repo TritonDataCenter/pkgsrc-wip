@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	gtksourcecompletion-0.5.2
+PKGREVISION=	1
 CATEGORIES=	x11
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=gtksourcecomple/}
 

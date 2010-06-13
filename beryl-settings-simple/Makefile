@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	beryl-settings-simple-0.2.1
-PKGREVISION=	1
+PKGREVISION=	2
 COMMENT=	"Simple" beryl settings (?)
 
 .include "../../wip/beryl/Makefile.inc"

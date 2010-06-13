@@ -6,7 +6,7 @@ BUILDLINK_TREE+=	GtkAda
 GTKADA_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.GtkAda+=	GtkAda>=2.2.1
-BUILDLINK_ABI_DEPENDS.GtkAda?=	GtkAda>=2.2.1nb3
+BUILDLINK_ABI_DEPENDS.GtkAda?=	GtkAda>=2.2.1nb4
 BUILDLINK_PKGSRCDIR.GtkAda?=	../../wip/gtkada
 
 .include "../../x11/gtk2/buildlink3.mk"

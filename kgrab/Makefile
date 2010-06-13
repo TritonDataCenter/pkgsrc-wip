@@ -3,6 +3,7 @@
 
 DISTNAME=	kgrab-0.1.1-kde4.4.0
 PKGNAME=	${DISTNAME:S/-kde/./}
+PKGREVISION=	1
 CATEGORIES=	graphics
 MASTER_SITES=	${MASTER_SITE_KDE:=4.4.0/src/extragear/}
 EXTRACT_SUFX=	.tar.bz2

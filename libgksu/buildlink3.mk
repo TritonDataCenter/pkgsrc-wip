@@ -16,6 +16,7 @@ BUILDLINK_TREE+=	libgksu1.2
 LIBGKSU1.2_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.libgksu1.2+=	libgksu1.2>=1.3.7
+BUILDLINK_ABI_DEPENDS.libgksu1.2?=	libgksu1.2>=1.3.7nb1
 BUILDLINK_PKGSRCDIR.libgksu1.2?=	../../wip/libgksu
 
 # XXX

@@ -6,6 +6,7 @@ BUILDLINK_TREE+=	libgdata
 LIBGDATA_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.libgdata+=	libgdata>=0.1.1
+BUILDLINK_ABI_DEPENDS.libgdata?=	libgdata>=0.4.0nb1
 BUILDLINK_PKGSRCDIR.libgdata?=	../../wip/libgdata
 
 

@@ -2,6 +2,7 @@
 
 DISTNAME=	tracker-0.6.96
 PKGNAME=	meta-${DISTNAME}
+PKGREVISION=	1
 CATEGORIES=	sysutils
 MASTER_SITES=	${MASTER_SITE_GNOME:=sources/tracker/0.6/}
 EXTRACT_SUFX=	.tar.bz2

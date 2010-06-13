@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	lasem-0.2.0
+PKGREVISION=	1
 CATEGORIES=	graphics gnome
 MASTER_SITES=	ftp://ftp.gnome.org/pub/gnome/sources/lasem/0.2/
 EXTRACT_SUFX=	.tar.bz2

@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	gajim-0.12.1
+PKGREVISION=	1
 CATEGORIES=	chat python
 MASTER_SITES=	http://www.gajim.org/downloads/
 

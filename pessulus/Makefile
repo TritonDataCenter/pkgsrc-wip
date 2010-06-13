@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	pessulus-2.30.0
+PKGREVISION=	1
 CATEGORIES=	sysutils gnome
 MASTER_SITES=	${MASTER_SITE_GNOME:=sources/pessulus/2.30/}
 EXTRACT_SUFX=	.tar.bz2

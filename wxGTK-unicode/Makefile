@@ -2,7 +2,7 @@
 
 .include "Makefile.common"
 
-PKGREVISION=		#
+PKGREVISION=		1
 COMMENT=		GTK-based unicode implementation of the wxWidgets GUI library
 
 # conflicts with non unicode version

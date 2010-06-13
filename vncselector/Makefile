@@ -3,7 +3,7 @@
 
 PKGNAME=		vncselector-1.6.1
 DISTNAME=		vncselector_1.6.1
-PKGREVISION=		1
+PKGREVISION=		2
 CATEGORIES=		net
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=vncselector/}
 

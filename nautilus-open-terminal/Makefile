@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	nautilus-open-terminal-0.18
+PKGREVISION=	1
 CATEGORIES=	sysutils
 MASTER_SITES=	ftp://ftp.gnome.org/pub/gnome/sources/nautilus-open-terminal/0.18/
 EXTRACT_SUFX=	.tar.bz2

@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	couchdb-glib-0.5.99
+PKGREVISION=	1
 CATEGORIES=	databases gnome
 MASTER_SITES=	ftp://ftp.gnome.org/pub/gnome/sources/couchdb-glib/0.5/
 EXTRACT_SUFX=	.tar.bz2

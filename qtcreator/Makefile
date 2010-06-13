@@ -4,6 +4,7 @@
 DISTNAME=	qt-creator-1.3.1-src
 PKGNAME=	qt-creator-1.3.1
 #PKGREVISION=	1
+PKGREVISION=	1
 CATEGORIES=	devel
 MASTER_SITES=	http://get.qt.nokia.com/qtcreator/
 EXTRACT_SUFX=	.zip

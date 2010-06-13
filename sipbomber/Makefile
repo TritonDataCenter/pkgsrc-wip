@@ -2,7 +2,7 @@
 
 DISTNAME=	sipbomber_0.8
 PKGNAME=	${DISTNAME:S/_/-/}
-PKGREVISION=	1
+PKGREVISION=	2
 CATEGORIES=	net
 MASTER_SITES=	http://metalinkltd.com/wp-content/uploads/
 

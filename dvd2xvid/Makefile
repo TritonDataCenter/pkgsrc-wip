@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	dvd2xvid-0.5.0
-PKGREVISION=	1
+PKGREVISION=	2
 CATEGORIES=	multimedia
 MASTER_SITES=	http://www.neoversum.org/download/
 

@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	sakura-2.3.7
+PKGREVISION=	1
 CATEGORIES=	x11
 MASTER_SITES=	http://www.pleyades.net/david/projects/sakura/
 EXTRACT_SUFX=	.tar.bz2

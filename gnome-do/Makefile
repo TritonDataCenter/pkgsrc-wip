@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	gnome-do-0.8.2
-PKGREVISION=	2
+PKGREVISION=	3
 CATEGORIES=	sysutils
 MASTER_SITES=	http://launchpad.net/do/0.8/0.8.2/+download/
 

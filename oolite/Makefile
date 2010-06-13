@@ -1,7 +1,7 @@
 # $NetBSD$
 
 DISTNAME=	oolite-1.65
-PKGREVISION=	1
+PKGREVISION=	2
 CATEGORIES=	games
 MASTER_SITES=	http://download.berlios.de/oolite-linux/ \
 		http://download2.berlios.de/oolite-linux/

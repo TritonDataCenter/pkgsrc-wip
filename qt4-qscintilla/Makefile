@@ -3,7 +3,7 @@
 
 DISTNAME=			QScintilla-gpl-2.4.3
 PKGNAME=			qt4-${DISTNAME:tl:S/-gpl-/-/}
-PKGREVISION=		2
+PKGREVISION=		3
 CATEGORIES=			x11
 MASTER_SITES=		http://www.riverbankcomputing.com/static/Downloads/QScintilla2/
 

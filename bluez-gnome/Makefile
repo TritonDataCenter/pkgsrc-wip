@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		bluez-gnome-0.4
-PKGREVISION=		1
+PKGREVISION=		2
 CATEGORIES=		comms
 MASTER_SITES=		http://bluez.sourceforge.net/download/
 

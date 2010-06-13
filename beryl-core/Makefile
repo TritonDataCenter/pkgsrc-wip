@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	beryl-core-0.2.1
-PKGREVISION=	1
+PKGREVISION=	2
 CATEGORIES=	wm
 MASTER_SITES=	http://releases.beryl-project.org/0.2.1/
 EXTRACT_SUFX=	.tar.bz2

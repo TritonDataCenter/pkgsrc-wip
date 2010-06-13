@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	flpsed-0.6.1
+PKGREVISION=	1
 CATEGORIES=	graphics
 MASTER_SITES=	http://www.ecademix.com/JohannesHofmann/
 

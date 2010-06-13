@@ -3,6 +3,7 @@
 
 DISTNAME=	Raster3D_2.7s
 PKGNAME=	${DISTNAME:S/_/-/:tl}
+PKGREVISION=	1
 CATEGORIES=	graphics biology
 MASTER_SITES=	http://skuld.bmsc.washington.edu/raster3d/
 
