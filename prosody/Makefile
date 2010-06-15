@@ -2,6 +2,7 @@
 #
 
 DISTNAME=		prosody-0.7.0
+PKGREVISION=		1
 CATEGORIES=		chat
 MASTER_SITES=		http://prosody.im/downloads/source/
 
