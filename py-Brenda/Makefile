@@ -34,6 +34,5 @@ do-install:
 		${INSTALL_DATA} ${WRKSRC}/$$a ${BRENDA_DIR}/$$a; \
 	done
 
-.include "../../lang/python/pyversion.mk"
 .include "../../lang/python/extension.mk"
 .include "../../mk/bsd.pkg.mk"
