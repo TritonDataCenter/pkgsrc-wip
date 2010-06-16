@@ -1,6 +1,7 @@
 @comment $NetBSD$
 bin/clisp
 bin/clisp-link
+lib/clisp/base/bogomips.o
 lib/clisp/base/calls.o
 lib/clisp/base/gettext.o
 lib/clisp/base/libgnu_cl.a
