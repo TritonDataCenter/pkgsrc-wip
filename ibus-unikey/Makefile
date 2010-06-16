@@ -1,8 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	ibus-unikey-0.4
-PKGREVISION=	1
+DISTNAME=	ibus-unikey-0.5
 CATEGORIES=	inputmethod
 MASTER_SITES=	http://ibus-unikey.googlecode.com/files/
 
