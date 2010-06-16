@@ -43,3 +43,6 @@ USE_GNU_READLINE=	YES
 .if !empty(PKG_OPTIONS:Mpng)
 .include "../../graphics/png/buildlink3.mk"
 .endif
+
+# More?
+#.include "../../x11/gtk2/buildlink3.mk"
