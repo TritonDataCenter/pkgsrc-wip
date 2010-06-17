@@ -18,7 +18,7 @@ include/ecl/stacks.h
 include/ecl/unify.h
 lib/Copyright
 lib/LGPL
-lib/${PKGNAME}/BUILD-STAMP
+lib/${PKGNAME}/build-stamp
 lib/${PKGNAME}/TAGS
 lib/${PKGNAME}/asdf.fas
 lib/${PKGNAME}/bytecmp.asd
