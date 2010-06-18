@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	task-1.9.0
+DISTNAME=	task-1.9.1
 CATEGORIES=	time
 MASTER_SITES=	http://www.taskwarrior.org/download/
 
@@ -26,6 +26,7 @@ PKG_SUGGESTED_OPTIONS=	ncurses
 .if empty(PKG_OPTIONS:Mncurses)
 CONFIGURE_ARGS+=	--without-ncurses
 .endif
+
 
 INSTALLATION_DIRS+=	${PKGMANDIR}/man1 ${PKGMANDIR}/man5
 
