@@ -2015,6 +2015,7 @@ SUBDIR+=	py-sage
 SUBDIR+=	py-scipy
 SUBDIR+=	py-scrobbler
 SUBDIR+=	py-sfepy
+SUBDIR+=	py-setupdocs
 SUBDIR+=	py-shtoom
 SUBDIR+=	py-simpleparse-mxtexttools
 SUBDIR+=	py-snmp
