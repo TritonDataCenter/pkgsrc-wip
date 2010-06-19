@@ -1965,7 +1965,6 @@ SUBDIR+=	py-mpmath
 SUBDIR+=	py-mx-base
 SUBDIR+=	py-mysqldb-docs
 SUBDIR+=	py-netcdf
-SUBDIR+=	py-nose
 SUBDIR+=	py-nose-senario
 SUBDIR+=	py-ntch
 SUBDIR+=	py-numpy
