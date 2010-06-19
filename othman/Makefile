@@ -1,9 +1,8 @@
 # $NetBSD$
 #
 
-VERS=	0.2.0
-DISTNAME=	othman-master
-PKGNAME=	${DISTNAME:S/-master//}-${VERS}
+VERS=	0.2.5
+DISTNAME=	othman-${VERS}
 PKGREVISION=	1
 CATEGORIES=	misc
 MASTER_SITES=	http://git.ojuba.org/cgit/othman/snapshot/
@@ -12,9 +11,6 @@ EXTRACT_SUFX=	.tar.bz2
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	http://othman.ojuba.org/
 COMMENT=	Electronic Quran browser
-#LICENSE=	# TODO: (see mk/license.mk)
-
-DEPENDS+=	${PYPKGPREFIX}-sqlite-[0-9]*:../../databases/py-sqlite3
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
