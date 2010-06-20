@@ -19,6 +19,10 @@ USE_LANGUAGES=	c c++
 
 PYDISTUTILSPKG= yes
 
+do-test:
+	${RUN} cd ${WRKSRC}/greentest; ${SETENV} ${TEST_ENV} ${PYTHONBIN} testrunner.py
+	
+
 BUILDLINK_API_DEPENDS.libevent+=libevent>=0.6
 .include "../../devel/libevent/buildlink3.mk"
 .include "../../lang/python/extension.mk"
