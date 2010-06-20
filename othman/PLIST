@@ -9,6 +9,7 @@ ${PYSITELIB}/othman/core.pyo
 ${PYSITELIB}/othman/gtkUi.py
 ${PYSITELIB}/othman/gtkUi.pyc
 ${PYSITELIB}/othman/gtkUi.pyo
+share/applications/Othman.desktop.in
 share/othman/quran-kareem.png
 share/othman/quran-kareem.svg
 share/othman/quran.db
