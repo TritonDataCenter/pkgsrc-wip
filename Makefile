@@ -902,7 +902,6 @@ SUBDIR+=	ht2html
 SUBDIR+=	html2latex
 SUBDIR+=	httrack
 SUBDIR+=	hu-go
-SUBDIR+=	hunspell-ar
 SUBDIR+=	hunspell-it_IT
 SUBDIR+=	hydrogen-current
 SUBDIR+=	hyena
