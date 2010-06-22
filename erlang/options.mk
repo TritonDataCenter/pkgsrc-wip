@@ -13,7 +13,7 @@ USE_JAVA2=		yes
 .include "../../mk/java-vm.mk"
 PLIST_SRC+=		PLIST.java
 .else
-CONFIGURE_ENV+=	JAVAC=none
+CONFIGURE_ARGS+=	--without-javac
 .endif
 
 .if !empty(PKG_OPTIONS:Merlang-hipe)
