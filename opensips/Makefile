@@ -11,7 +11,7 @@ COMMENT=		Open Source implementation of a SIP server
 
 LICENSE=		gnu-gpl-v2
 
-VER=			1.6.1
+VER=			1.6.2
 WRKSRC=			${WRKDIR}/opensips-${VER}-tls
 
 USE_TOOLS+=		gmake
