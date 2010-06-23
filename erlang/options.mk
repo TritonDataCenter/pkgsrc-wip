@@ -16,11 +16,14 @@ PLIST_SRC+=		PLIST.java
 CONFIGURE_ARGS+=	--without-javac
 .endif
 
-.if !empty(PKG_OPTIONS:Merlang-hipe)
 ###
-### XXX Need to check which platforms will enable this by default, if any.
-###	Should it be an option?
+### Activate HiPE by default on some systems or if the user has
+### defined the erlang-hipe option in mk.conf
 ###
+.if !empty(PKG_OPTIONS:Merlang-hipe) ||					\
+    (${MACHINE_ARCH} == "i386" || ${MACHINE_ARCH} == "x86_64") &&	\
+    (${OPSYS} == "FreeBSD" || ${OPSYS} == "Linux" ||			\
+     ${OPSYS} == "NetBSD"  || ${OPSYS} == "OpenBSD")
 CONFIGURE_ARGS+=	--enable-hipe
 PLIST_SRC+=		PLIST.hipe
 .else
