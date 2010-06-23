@@ -2,7 +2,6 @@
 bin/mysql-workbench
 bin/mysql-workbench-bin
 lib/mysql-workbench/libcdbc.la
-lib/mysql-workbench/libctemplate_wb.la
 lib/mysql-workbench/libgrt.la
 lib/mysql-workbench/liblinux_utilities.la
 lib/mysql-workbench/libmdcanvas.la
@@ -577,7 +576,6 @@ share/mysql-workbench/modules/data/mysql_rdbms_info.xml
 share/mysql-workbench/modules/data/mysql_reserved.xml
 share/mysql-workbench/modules/data/sqlide/CSV.tpl
 share/mysql-workbench/modules/data/sqlide/CSV_semicolon.tpl
-share/mysql-workbench/modules/data/sqlide/CSV_tab.tpl
 share/mysql-workbench/modules/data/sqlide/HTML.tpl
 share/mysql-workbench/modules/data/sqlide/XML.tpl
 share/mysql-workbench/modules/data/wb_model_reporting/HTML_Basic_Frames.tpl/basic.css.tpl
