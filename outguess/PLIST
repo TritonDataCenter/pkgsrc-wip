@@ -1,5 +1,7 @@
 @comment $NetBSD$
 bin/outguess
+bin/outguess_histogram
 man/man1/outguess.1
 share/doc/outguess/README
 share/doc/outguess/STIRMARK-README
+share/examples/outguess/seek_script
