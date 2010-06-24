@@ -85,6 +85,13 @@ do-install:
 do-test:
 	cd ${WRKSRC}/tests && ${SH} ./run-tests.sh
 
+.if $(LOWER_ARCH) == "amd64" || $(LOWER_ARCH) == "x86_64"
+PLIST_SUBST+=	SUFX64=-64
+.else
+PLIST_SUBST+=	SUFX64=
+.endif
+
+
 CVS_REPOSITORIES=	sbcl
 CVS_ROOT.sbcl=		:pserver:anonymous:@sbcl.cvs.sourceforge.net:/cvsroot/sbcl
 WRKSRC=			${WRKDIR}/sbcl
