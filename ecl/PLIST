@@ -16,11 +16,11 @@ include/ecl/object.h
 include/ecl/page.h
 include/ecl/stacks.h
 include/ecl/unify.h
-lib/Copyright
-lib/LGPL
-lib/${PKGNAME}/build-stamp
+lib/${PKGNAME}/Copyright
+lib/${PKGNAME}/LGPL
 lib/${PKGNAME}/TAGS
 lib/${PKGNAME}/asdf.fas
+lib/${PKGNAME}/build-stamp
 lib/${PKGNAME}/bytecmp.asd
 lib/${PKGNAME}/bytecmp.fas
 lib/${PKGNAME}/cmp.asd
