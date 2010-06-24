@@ -110,7 +110,6 @@ post-install:
 	${INSTALL_DATA} ${WRKSRC}/etc/templates/roster.xml.dist.in	\
 	    ${DESTDIR}${EGDIR}/roster.xml
 	${INSTALL_SCRIPT} ${WRKSRC}/tools/pipe-auth.pl ${DESTDIR}${BINDIR}
-	${INSTALL_SCRIPT} ${WRKSRC}/tools/migrate.pl ${DESTDIR}${BINDIR}
 .for f in ${DBFILES}
 	${INSTALL_DATA} ${WRKSRC}/tools/${f} ${DESTDIR}${EGDIR}
 .endfor
