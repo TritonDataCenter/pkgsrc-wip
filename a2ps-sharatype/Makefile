@@ -6,7 +6,7 @@ CATEGORIES=	print
 MASTER_SITES=	http://ftp.wagner.pp.ru/pub/fonts/type1/
 
 MAINTAINER=	cheusov@tut.by
-HOMEPAGE=	http://ftp.45.free.net/pub/fonts/type1/
+HOMEPAGE=	http://ftp.wagner.pp.ru/pub/fonts/type1/
 COMMENT=	Cyrillic fonts for a2ps (a part of sharatype project)
 
 PKG_DESTDIR_SUPPORT=	user-destdir
