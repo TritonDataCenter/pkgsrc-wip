@@ -68,7 +68,7 @@ post-install:
 .endfor
 	${INSTALL_MAN} ${WRKSRC}/${MANFILES1} ${DESTDIR}${PREFIX}/${PKGMANDIR}/man1/
 .for filename in ${SCRIPTFILES}
-	${INSTALL_DATA} ${WRKSRC}/scripts/${filename} ${DESTDIR}/${SCRIPTSDIR}/scripts
+	${INSTALL_SCRIPT} ${WRKSRC}/scripts/${filename} ${DESTDIR}/${SCRIPTSDIR}/scripts
 .endfor
 
 .include "../../mk/bsd.prefs.mk"
