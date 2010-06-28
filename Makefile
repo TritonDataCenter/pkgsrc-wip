@@ -1033,6 +1033,7 @@ SUBDIR+=	jlibtool
 SUBDIR+=	joomla
 SUBDIR+=	jp2a
 SUBDIR+=	jpgtn
+SUBDIR+=	jsl
 SUBDIR+=	json-c
 SUBDIR+=	jumpnbump
 SUBDIR+=	jupp
