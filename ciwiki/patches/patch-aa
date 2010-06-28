@@ -1,6 +1,6 @@
 $NetBSD$
 
---- src/didi.h.orig	2010-03-29 06:36:07.000000000 +0000
+--- src/didi.h.orig	2010-05-24 02:04:18.000000000 +0000
 +++ src/didi.h
 @@ -78,6 +78,7 @@
  #include <dirent.h>
