@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	sakura-2.3.7
+DISTNAME=	sakura-2.3.8
 PKGREVISION=	1
 CATEGORIES=	x11
 MASTER_SITES=	http://www.pleyades.net/david/projects/sakura/
