@@ -71,5 +71,5 @@ post-install:
 	${INSTALL_DATA} ${WRKSRC}/scripts/${filename} ${DESTDIR}/${SCRIPTSDIR}/scripts
 .endfor
 
-
+.include "../../mk/bsd.prefs.mk"
 .include "../../mk/bsd.pkg.mk"
