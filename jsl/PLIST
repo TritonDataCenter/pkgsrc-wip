@@ -1,0 +1,4 @@
+@comment $NetBSD$
+bin/jsl
+share/doc/html/jsl/README.html
+share/examples/jsl/jsl.config.sample
