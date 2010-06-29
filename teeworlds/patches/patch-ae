@@ -1,0 +1,13 @@
+$NetBSD$
+
+--- teeworlds-0.5.2-src/src/engine/e_engine.c.orig	2010-06-26 17:31:55.000000000 +0200
++++ teeworlds-0.5.2-src/src/engine/e_engine.c	2010-06-26 17:32:21.000000000 +0200
+@@ -572,7 +572,7 @@
+ 	/* 5) check for all default locations */
+ 	{
+ 		const char *sdirs[] = {
+-			"/usr/share/teeworlds",
++			"@DATADIR@",
+ 			"/usr/local/share/teeworlds"
+ 			"/opt/teeworlds"
+ 		};
