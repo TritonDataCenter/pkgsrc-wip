@@ -2357,6 +2357,7 @@ SUBDIR+=	termit
 SUBDIR+=	testdisk
 SUBDIR+=	tetrinet
 SUBDIR+=	teeworlds
+SUBDIR+=	teeworlds-client
 SUBDIR+=	teeworlds-server
 SUBDIR+=	tex-arabxtex
 SUBDIR+=	tex-arabxtex-doc
