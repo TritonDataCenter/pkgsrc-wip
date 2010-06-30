@@ -2,7 +2,6 @@
 
 .include "../../wip/xulrunner/dist.mk"
 PKGNAME=	firefox-${FIREFOX_VER}
-PKGREVISION=	1
 CATEGORIES=	www
 
 MAINTAINER=	tnn@NetBSD.org
@@ -23,10 +22,10 @@ ALL_ENV+=		MOZILLA_PKG_NAME=firefox
 
 MOZILLA=firefox
 .if !empty(PKG_OPTIONS:Mofficial-mozilla-branding)
-MOZILLA_NAME=	Firefox 3.7
+MOZILLA_NAME=	Firefox
 MOZILLA_ICON=	${WRKSRC}/other-licenses/branding/firefox/default48.png
 .else
-MOZILLA_NAME=	Browser 3.7
+MOZILLA_NAME=	Browser
 MOZILLA_ICON=	${WRKSRC}/browser/branding/unofficial/default48.png
 .endif
 
