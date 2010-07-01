@@ -1,4 +1,4 @@
-# $NetBSD: Makefile,v 1.89 2009/08/29 13:15:54 obache Exp $
+# $NetBSD$
 
 DISTNAME=		opera-${OPERA_PKG_VERSION}${OPERA_DIST_SEP}${OPERA_DIST_SUFFIX}
 PKGNAME=		opera-${OPERA_PKG_VERSION:S/u/pl/}
