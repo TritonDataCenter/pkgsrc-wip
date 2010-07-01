@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	rdup-1.1.5
+DISTNAME=	rdup-1.1.7
 CATEGORIES=	sysutils
 MASTER_SITES=	http://www.miek.nl/projects/rdup/
 EXTRACT_SUFX=	.tar.bz2
@@ -22,6 +22,8 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 GNU_CONFIGURE=	yes
 
 USE_TOOLS=	pkg-config gmake bash:run
+
+CFLAGS+=	-Wno-char-subscripts
 
 MAKE_FILE=	GNUmakefile
 
