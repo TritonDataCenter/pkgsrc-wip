@@ -7,7 +7,7 @@ CATEGORIES=	print
 MASTER_SITES=	http://libharu.org/files/
 
 MAINTAINER=	emil@math.su.se
-HOMEPAGE=	http://libharu.org/files/
+HOMEPAGE=	http://libharu.org/
 COMMENT=	Library for generating PDF files
 
 PKG_DESTDIR_SUPPORT=	user-destdir
