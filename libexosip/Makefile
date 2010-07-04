@@ -8,6 +8,7 @@ MASTER_SITES=	http://download.savannah.nongnu.org/releases/exosip/
 MAINTAINER=	schwarz@NetBSD.org
 HOMEPAGE=	http://savannah.nongnu.org/projects/exosip
 COMMENT=	The Extended Open SIP library
+LICENSE=	gnu-gpl-v2
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
