@@ -1,12 +1,11 @@
 @comment $NetBSD$
-${PYSITELIB}/TracGit-0.11.0.2-py2.5-nspkg.pth
-${PYSITELIB}/TracGit-0.11.0.2-py2.5.egg-info/PKG-INFO
-${PYSITELIB}/TracGit-0.11.0.2-py2.5.egg-info/SOURCES.txt
-${PYSITELIB}/TracGit-0.11.0.2-py2.5.egg-info/dependency_links.txt
-${PYSITELIB}/TracGit-0.11.0.2-py2.5.egg-info/entry_points.txt
-${PYSITELIB}/TracGit-0.11.0.2-py2.5.egg-info/namespace_packages.txt
-${PYSITELIB}/TracGit-0.11.0.2-py2.5.egg-info/requires.txt
-${PYSITELIB}/TracGit-0.11.0.2-py2.5.egg-info/top_level.txt
+${PYSITELIB}/TracGit-0.12.0.2dev-py2.5-nspkg.pth
+${PYSITELIB}/TracGit-0.12.0.2dev-py2.5.egg-info/PKG-INFO
+${PYSITELIB}/TracGit-0.12.0.2dev-py2.5.egg-info/SOURCES.txt
+${PYSITELIB}/TracGit-0.12.0.2dev-py2.5.egg-info/dependency_links.txt
+${PYSITELIB}/TracGit-0.12.0.2dev-py2.5.egg-info/entry_points.txt
+${PYSITELIB}/TracGit-0.12.0.2dev-py2.5.egg-info/namespace_packages.txt
+${PYSITELIB}/TracGit-0.12.0.2dev-py2.5.egg-info/top_level.txt
 ${PYSITELIB}/tracext/git/PyGIT.py
 ${PYSITELIB}/tracext/git/PyGIT.pyc
 ${PYSITELIB}/tracext/git/PyGIT.pyo
