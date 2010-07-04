@@ -14,6 +14,7 @@ COMMENT=	Spam Filter plugin for Trac
 PKG_DESTDIR_SUPPORT=	user-destdir
 
 DEPENDS+=	{ja-,}trac>=0.11:../../www/trac
+DEPENDS+=	${PYPKGPREFIX}-dns:../../net/py-dns
 
 SVN_REPOSITORIES=	spamfilter
 SVN_ROOT.spamfilter=	http://svn.edgewall.org/repos/trac/plugins/0.11/spam-filter
