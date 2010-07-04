@@ -1,7 +1,8 @@
 # $NetBSD$
 
+SVNREV=		9626
 DISTNAME=	TracSpamFilter-0.1dev
-PKGNAME=	trac-plugins-spamfilter-0.1pre7539
+PKGNAME=	trac-plugins-spamfilter-0.1pre${SVNREV}
 PKGREVISION=	# blank on purpose even though pkglint moans
 EGG_NAME=	${DISTNAME}
 CATEGORIES=	www
@@ -15,8 +16,8 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 DEPENDS+=	{ja-,}trac>=0.11:../../www/trac
 
 SVN_REPOSITORIES=	spamfilter
-SVN_ROOT.spamfilter=	http://svn.edgewall.com/repos/trac/sandbox/spam-filter
-SVN_TAG.spamfilter=	7539
+SVN_ROOT.spamfilter=	http://svn.edgewall.org/repos/trac/plugins/0.11/spam-filter
+SVN_TAG.spamfilter=	${SVNREV}
 
 NO_CHECKSUM=	yes
 
