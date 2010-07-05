@@ -5,7 +5,7 @@ DISTNAME=	arcem-20090925-src
 PKGNAME=	${DISTNAME:S/-src//}
 CATEGORIES=	emulators
 MASTER_SITES=	${MASTER_SITE_LOCAL} \
-		http://www.tetera.org-a.googlepages.com/
+		http://ryo-on.users.sourceforge.net/distrib/
 EXTRACT_SUFX=	.tar.bz2
 
 PKG_DESTDIR_SUPPORT=	user-destdir
