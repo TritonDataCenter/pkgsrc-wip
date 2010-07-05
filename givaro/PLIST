@@ -26,6 +26,7 @@ include/givaro/givgenarith.h
 include/givaro/givgfq.h
 include/givaro/givgfq.inl
 include/givaro/givgfqext.h
+include/givaro/givgfqkron.h
 include/givaro/givhashtable.h
 include/givaro/givhashtable.inl
 include/givaro/givhighorder.h

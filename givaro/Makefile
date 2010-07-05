@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	givaro-3.3.2rc1
+DISTNAME=	givaro-3.3.2
 CATEGORIES=	math
 MASTER_SITES=	http://ljk.imag.fr/CASYS/LOGICIELS/givaro/Downloads/
 
