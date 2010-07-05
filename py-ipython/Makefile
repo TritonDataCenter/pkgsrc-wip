@@ -34,7 +34,7 @@ INSTALLATION_DIRS+=	man
 DEPENDS+=	${PYPKGPREFIX}-gobject>=2.18.0:../../devel/py-gobject
 DEPENDS+=	${PYPKGPREFIX}-readline>=0:../../devel/py-readline
 #DEPENDS+=	pydb>=1.26:../../wip/pydb
-DEPENDS+=	${PYPKGPREFIX}-nose-[0-9]*:../../wip/py-nose
+DEPENDS+=	${PYPKGPREFIX}-nose-[0-9]*:../../devel/py-nose
 
 # Graphics dependecy section
 
