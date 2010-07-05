@@ -9,7 +9,7 @@ EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	ryo_on@yk.rim.or.jp
 HOMEPAGE=	http://www.pleyades.net/david/sakura.php
-COMMENT=	The sakura is a terminal emulator based on GTK and VTE
+COMMENT=	The sakura is a terminal emulator based on GTK and VTE supports tab
 
 LICENSE=	gnu-gpl-v2
 
