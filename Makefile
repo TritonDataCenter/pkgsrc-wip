@@ -666,6 +666,7 @@ SUBDIR+=	gxmessage
 SUBDIR+=	gxmms2
 SUBDIR+=	habak
 SUBDIR+=	haddock
+SUBDIR+=	hanazono-ttf
 SUBDIR+=	happy
 SUBDIR+=	haproxy
 SUBDIR+=	hasciicam
