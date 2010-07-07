@@ -1,8 +1,8 @@
 $NetBSD$
 
---- misc/syntax/Makefile.in.orig	2010-02-02 15:24:53.000000000 +0000
+--- misc/syntax/Makefile.in.orig	2010-07-05 19:13:19.000000000 +0000
 +++ misc/syntax/Makefile.in
-@@ -359,7 +359,7 @@ SYNTAXCONFFILES = \
+@@ -386,7 +386,7 @@ SYNTAXCONFFILES = \
  
  @USE_EDIT_TRUE@syntaxdir = $(pkgdatadir)/syntax
  @USE_EDIT_TRUE@syntax_DATA = $(SYNTAXFILES)
