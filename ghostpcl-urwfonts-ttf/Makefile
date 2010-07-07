@@ -2,7 +2,8 @@
 #
 
 DISTNAME=	urwfonts-8.71
-PKGNAME=	ghostpcl-urwfonts-ttf-8.71
+PKGNAME=	ghostpcl-${DISTNAME:S/-/-ttf-/}
+#PKGNAME=	ghostpcl-urwfonts-ttf-8.71
 CATEGORIES=	fonts
 MASTER_SITES=	${MASTER_SITE_TEX_CTAN:=support/ghostscript/AFPL/GhostPCL/}
 DISTFILES=	${DISTNAME}.tar.bz2 urwfonts-1.41.tar.bz2
