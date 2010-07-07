@@ -1,9 +1,8 @@
 # $NetBSD$
 #
 
-DISTNAME=	ibus-chewing-1.3.4.20100608-Source
+DISTNAME=	ibus-chewing-1.3.5.20100706-Source
 PKGNAME=	${DISTNAME:S/-Source//}
-PKGREVISION=	1
 CATEGORIES=	inputmethod chinese
 MASTER_SITES=	http://ibus.googlecode.com/files/
 
