@@ -1,8 +1,8 @@
 # $NetBSD$
 #
 
-DISTNAME=		clisp-2.47
-PKGNAME=		clisp-2.48.99 # needed because of cvs-package.mk
+DISTNAME=		clisp-2.49
+PKGNAME=		clisp-2.49.99 # needed because of cvs-package.mk
 CATEGORIES=		lang
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=clisp/}
 
