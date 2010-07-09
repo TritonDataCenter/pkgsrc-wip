@@ -14,9 +14,12 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 
+INCLUDEDIR=	${PREFIX}/include/libtextcat
 SHAREDIR=	${PREFIX}/share/libtextcat
 
 post-install:
+	${INSTALL_DATA_DIR}  ${DESTDIR}${INCLUDEDIR}
+	${INSTALL_DATA} ${WRKSRC}/src/textcat.h ${DESTDIR}${INCLUDEDIR}
 	${INSTALL_DATA_DIR} ${DESTDIR}${SHAREDIR}
 	${INSTALL_DATA} ${WRKSRC}/README ${DESTDIR}${PREFIX}/share/libtextcat
 
