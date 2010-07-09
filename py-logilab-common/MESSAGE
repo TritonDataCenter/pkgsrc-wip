@@ -6,7 +6,7 @@ The *optional* package:
  - ElementTree   	=> 	pkgsrc/textproc/py-elementtree
  - omniOrb 		=> 	pkgsrc/wip/py-omniORBpy
  - IPython		=> 	pkgsrc/wip/py-ipython
- - Pyro			=>   	pkgsrc/devel/py-Pyro
+ - Pyro			=>   pkgsrc/devel/py-Pyro
  - django		=> 	pkgsrc/www/py-django
 
 ===========================================================================
