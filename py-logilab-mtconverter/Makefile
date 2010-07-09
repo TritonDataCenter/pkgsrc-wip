@@ -1,8 +1,9 @@
 # $NetBSD$
 #
 
-DISTNAME=	logilab-mtconverter-0.6.0
+DISTNAME=	logilab-mtconverter-0.8.0
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
+EGG_NAME=	logilab_mtconverter-0.8.0
 PKGREVISION=	1
 CATEGORIES=	converters python
 MASTER_SITES=	http://ftp.logilab.org/pub/mtconverter/
@@ -17,6 +18,5 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 USE_LANGUAGES=	# none
 
 .include "../../lang/python/egg.mk"
-.include "../../graphics/py-imaging/buildlink3.mk"
 .include "../../wip/py-logilab-common/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
