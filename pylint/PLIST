@@ -99,6 +99,9 @@ ${PYSITELIB}/pylint/pyreverse/writer.pyo
 ${PYSITELIB}/pylint/reporters/__init__.py
 ${PYSITELIB}/pylint/reporters/__init__.pyc
 ${PYSITELIB}/pylint/reporters/__init__.pyo
+${PYSITELIB}/pylint/reporters/guireporter.py
+${PYSITELIB}/pylint/reporters/guireporter.pyc
+${PYSITELIB}/pylint/reporters/guireporter.pyo
 ${PYSITELIB}/pylint/reporters/html.py
 ${PYSITELIB}/pylint/reporters/html.pyc
 ${PYSITELIB}/pylint/reporters/html.pyo
