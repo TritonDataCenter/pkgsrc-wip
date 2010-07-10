@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		happy-1.18.4
+DISTNAME=		happy-1.18.5
 PKGNAME=		${DISTNAME}
 CATEGORIES=		devel
 MAINTAINER=		emil@math.su.se
