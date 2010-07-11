@@ -1,0 +1,4 @@
+@comment $NetBSD$
+include/mpg123.h
+lib/libmpg123.la
+lib/pkgconfig/libmpg123.pc
