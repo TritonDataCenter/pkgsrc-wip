@@ -19,8 +19,21 @@ DEPENDS+=	jython>=2.5.1:../../wip/jython
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 PYDISTUTILSPKG=	yes
+PLIST_SUBST+=	PYVERSSUFFIX=${PYVERSSUFFIX}
 
 WRKSRC=	${WRKDIR}/spade
+
+SUBST_CLASSES+=		paths
+SUBST_STAGE.paths=	pre-configure
+SUBST_SED.paths+=	-e 's,tlslite/scripts/tls.py,tls${PYVERSSUFFIX},g'
+SUBST_SED.paths+=	-e 's,tlslite/scripts/tlsdb.py,tlsdb${PYVERSSUFFIX},g'
+SUBST_SED.paths+=	-e 's,etc/xmppd.xml,xmppd/xmppd.xml,g'
+SUBST_FILES.paths+=	setup.py
+SUBST_MESSAGE.paths=	Fixing header search paths.
+
+post-extract:
+	${CP} ${FILESDIR}/tls.py ${WRKSRC}/tls${PYVERSSUFFIX}
+	${CP} ${FILESDIR}/tlsdb.py ${WRKSRC}/tlsdb${PYVERSSUFFIX}
 
 TEST_ENV+=	PYTHONPATH=${WRKSRC}/examples/unittests
 do-test:
