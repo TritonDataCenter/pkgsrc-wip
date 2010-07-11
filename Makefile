@@ -1911,6 +1911,7 @@ SUBDIR+=	py-django-tagging
 SUBDIR+=	py-duali
 SUBDIR+=	py-embedc
 SUBDIR+=	py-eyeD3
+SUBDIR+=	py-event
 SUBDIR+=	py-eventlet
 SUBDIR+=	py-ezPyCrypto
 SUBDIR+=	py-fastaudio
