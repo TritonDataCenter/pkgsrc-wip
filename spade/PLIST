@@ -392,3 +392,4 @@ ${PYSITELIB}/xmppd/socker/socker.pyo
 ${PYSITELIB}/xmppd/xmppd.py
 ${PYSITELIB}/xmppd/xmppd.pyc
 ${PYSITELIB}/xmppd/xmppd.pyo
+share/doc/spade/api.tar.gz
