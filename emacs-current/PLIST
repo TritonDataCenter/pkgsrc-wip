@@ -2406,7 +2406,8 @@ share/emacs/${PKGVERSION}/lisp/language/georgian.el
 share/emacs/${PKGVERSION}/lisp/language/greek.el
 share/emacs/${PKGVERSION}/lisp/language/hanja-util.el.gz
 share/emacs/${PKGVERSION}/lisp/language/hanja-util.elc
-share/emacs/${PKGVERSION}/lisp/language/hebrew.el
+share/emacs/${PKGVERSION}/lisp/language/hebrew.el.gz
+share/emacs/${PKGVERSION}/lisp/language/hebrew.elc
 share/emacs/${PKGVERSION}/lisp/language/ind-util.el.gz
 share/emacs/${PKGVERSION}/lisp/language/ind-util.elc
 share/emacs/${PKGVERSION}/lisp/language/indian.el.gz
