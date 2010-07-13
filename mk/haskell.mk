@@ -192,7 +192,6 @@ PLIST.prof=		yes
 # Haddock documentations
 PLIST_VARS+=		doc
 .if ${HASKELL_ENABLE_HADDOCK_DOCUMENTATION} == "yes"
-.include "../../wip/hs-haddock/buildlink3.mk"
 CONFIGURE_ARGS+=	--with-haddock=${PREFIX}/bin/haddock
 PLIST.doc=		yes
 .endif
