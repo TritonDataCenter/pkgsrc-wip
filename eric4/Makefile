@@ -31,6 +31,6 @@ do-install:
 .include "options.mk"
 .include "../../lang/python/extension.mk"
 .include "../../x11/py-qt4/buildlink3.mk"
-.include "../../wip/qt4-qscintilla/buildlink3.mk"
-.include "../../wip/py-qt4-qscintilla/buildlink3.mk"
+.include "../../x11/qt4-qscintilla/buildlink3.mk"
+.include "../../x11/py-qt4-qscintilla/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
