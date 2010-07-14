@@ -35,6 +35,13 @@ TEST_TARGET=	check
 
 INSTALLATION_DIRS=	share/emacs/site-lisp
 
+.include "../../mk/bsd.prefs.mk"
+.if $(MACHINE_ARCH) == "amd64" ||  $(MACHINE_ARCH) == "x86_64"
+PLIST_SUBST+=	BITS=64
+.else
+PLIST_SUBST+=	BITS=32
+.endif
+
 # Change package version to make it consistent with our scheme:
 SUBST_CLASSES+=			fix-version
 SUBST_STAGE.fix-version=	post-patch

@@ -152,7 +152,7 @@ share/gforth/${PKGVERSION}/kernel/tools.fs
 share/gforth/${PKGVERSION}/kernel/toolsext.fs
 share/gforth/${PKGVERSION}/kernel/vars.fs
 share/gforth/${PKGVERSION}/kernel/xchars.fs
-share/gforth/${PKGVERSION}/kernl32l.fi
+share/gforth/${PKGVERSION}/kernl${BITS}l.fi
 share/gforth/${PKGVERSION}/lib.fs
 share/gforth/${PKGVERSION}/libcc.fs
 share/gforth/${PKGVERSION}/libffi.fs
