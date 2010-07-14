@@ -2015,6 +2015,7 @@ SUBDIR+=	py-pygi
 SUBDIR+=	py-pypedal
 SUBDIR+=	py-pyqu
 SUBDIR+=	py-pyquante
+SUBDIR+=	py-pylons
 SUBDIR+=	py-pythics
 SUBDIR+=	py-pyvib2
 SUBDIR+=	py-qecalc
