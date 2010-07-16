@@ -1,14 +1,14 @@
 # $NetBSD$
 #
 
-DISTNAME=	ibus-pinyin-1.3.8
+DISTNAME=	ibus-pinyin-1.3.9
 CATEGORIES=	inputmethod chinese
 MASTER_SITES=	http://ibus.googlecode.com/files/
 DISTFILES=	${DEFAULT_DISTFILES} ${DBTAR}
 
 MAINTAINER=	obache@NetBSD.org
 HOMEPAGE=	http://code.google.com/p/ibus/
-COMMENT=	PinYin engine for IBus platform
+COMMENT=	Chinese Pinyin and Bopomofo engines for IBus input platform
 LICENSE=	gnu-gpl-v2
 
 PKG_DESTDIR_SUPPORT=	user-destdir
@@ -36,6 +36,8 @@ SUBST_SED.epython=	-e 's;exec python;exec ${PYTHONBIN};g'
 
 CONFIGURE_ARGS+=	--disable-db-android
 CONFIGURE_ARGS+=	--enable-db-open-phrase
+
+.include "options.mk"
 
 .include "../../databases/sqlite3/buildlink3.mk"
 .include "../../devel/boost-headers/buildlink3.mk"
