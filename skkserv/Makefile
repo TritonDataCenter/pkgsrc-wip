@@ -10,7 +10,7 @@ MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://skk.kuis.kyoto-u.ac.jp/
 COMMENT=	Dictionary server for Simple Kana-Kanji conversion programs
 
-DEPENDS=	skk-jisyo>=201007:../../wip/skk-jisyo
+DEPENDS=	skk-jisyo>=200708:../../wip/skk-jisyo
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
