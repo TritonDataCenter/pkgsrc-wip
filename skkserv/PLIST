@@ -1,0 +1,4 @@
+@comment $NetBSD$
+libexec/skkserv
+share/examples/rc.d/skkserv
+share/skk/README.skkserv
