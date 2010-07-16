@@ -2141,6 +2141,7 @@ SUBDIR+=	remctl
 SUBDIR+=	resid-builder
 SUBDIR+=	residual-nightly
 SUBDIR+=	repositoryhandler
+SUBDIR+=	resin
 SUBDIR+=	rhapsody
 SUBDIR+=	ripe-rpsl-objectlibrary
 SUBDIR+=	ripit
