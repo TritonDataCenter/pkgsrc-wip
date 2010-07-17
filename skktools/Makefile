@@ -17,14 +17,12 @@ CONFLICTS=	skkserv-3.9.4nb[1-6]*
 
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS+=--without-gdbm
-#CONFIGURE_ARGS+=--without-skkdic-expr2
 
-USE_TOOLS+=	pkg-config
+.include "options.mk"
 
 SUBST_CLASSES+=		prefix
 SUBST_STAGE.prefix=	pre-configure
 SUBST_FILES.prefix=	configure
 SUBST_SED.prefix=	-e 's|/usr/local|${PREFIX}|g'
 
-.include "../../devel/glib2/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
