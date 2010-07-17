@@ -43,7 +43,7 @@ SUBST_CLASSES+=		ver-num
 SUBST_STAGE.ver-num=	pre-configure
 SUBST_MESSAGE.ver-num=	Fixing version number and its comments.
 SUBST_FILES.ver-num=	skkserv/skkserv.c
-SUBST_SED.ver-num=	-e 's,"3.9.4 ","3.9.4nb${PKGREVISION} (binary search) ",g'
+SUBST_SED.ver-num=	-e 's,"${PKGVERSION_NOREV} ","${PKGVERSION} (binary search) ",g'
 
 INSTALL_MAKE_FLAGS+=	prefix=${DESTDIR}${PREFIX}
 
