@@ -1,4 +1,10 @@
 @comment $NetBSD$
+etc/gconf/schemas/nautilus-sound-converter.schemas
 lib/nautilus/extensions-2.0/libnautilus-sound-converter.la
-share/nautilus-sound-converter/main.xml
-share/nautilus-sound-converter/progress.xml
+share/locale/de/LC_MESSAGES/nautilus-sound-converter.mo
+share/locale/fr/LC_MESSAGES/nautilus-sound-converter.mo
+share/locale/hu/LC_MESSAGES/nautilus-sound-converter.mo
+share/locale/it/LC_MESSAGES/nautilus-sound-converter.mo
+share/locale/sv/LC_MESSAGES/nautilus-sound-converter.mo
+share/nautilus-sound-converter/main.ui
+share/nautilus-sound-converter/progress.ui
