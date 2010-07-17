@@ -21,6 +21,7 @@ BUILD_DEFS+=	IPV6_READY
 DIST_SUBDIR=	skk
 
 GNU_CONFIGURE=	YES
+BUILD_DIRS=	skkserv
 
 .include "../../mk/bsd.prefs.mk"
 
