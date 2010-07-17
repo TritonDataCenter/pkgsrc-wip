@@ -1,5 +1,0 @@
-@comment $NetBSD$
-bin/skkdic-count
-bin/skkdic-expr
-${PLIST.expr2}bin/skkdic-expr2
-bin/skkdic-sort
