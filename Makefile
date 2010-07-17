@@ -329,6 +329,7 @@ SUBDIR+=	diveintopython
 SUBDIR+=	djview4
 SUBDIR+=	dk-milter
 SUBDIR+=	dmd-bin
+SUBDIR+=	dmt-ux
 SUBDIR+=	dmxproto
 SUBDIR+=	dnrd
 SUBDIR+=	dns2tcp
