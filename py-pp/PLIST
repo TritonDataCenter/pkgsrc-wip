@@ -1,11 +1,14 @@
 @comment $NetBSD$
-bin/ppserver.py
+bin/ppserver2.6
 ${PYSITELIB}/pp.py
 ${PYSITELIB}/pp.pyc
 ${PYSITELIB}/pp.pyo
 ${PYSITELIB}/ppauto.py
 ${PYSITELIB}/ppauto.pyc
 ${PYSITELIB}/ppauto.pyo
+${PYSITELIB}/ppcommon.py
+${PYSITELIB}/ppcommon.pyc
+${PYSITELIB}/ppcommon.pyo
 ${PYSITELIB}/pptransport.py
 ${PYSITELIB}/pptransport.pyc
 ${PYSITELIB}/pptransport.pyo
