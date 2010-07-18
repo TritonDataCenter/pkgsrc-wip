@@ -6,3 +6,5 @@ lib/pkgconfig/vdpau.pc
 lib/vdpau/libvdpau_trace.la
 share/doc/libvdpau/AUTHORS
 share/doc/libvdpau/COPYING
+share/doc/libvdpau/NEWS
+share/doc/libvdpau/README
