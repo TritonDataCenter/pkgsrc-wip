@@ -3,8 +3,7 @@
 
 DISTNAME=	VirtualBox-${VBOX_VER}-OSE
 PKGNAME=	virtualbox-${VBOX_VER}
-VBOX_VER=	3.0.4
-PKGREVISION=	3
+VBOX_VER=	3.2.6
 CATEGORIES=	emulators
 MASTER_SITES=	http://download.virtualbox.org/virtualbox/${VBOX_VER}/
 EXTRACT_SUFX=	.tar.bz2
@@ -60,6 +59,7 @@ do-build:
 .include "../../textproc/libxslt/buildlink3.mk"
 .include "../../textproc/libxml2/buildlink3.mk"
 .include "../../x11/libXcursor/buildlink3.mk"
+.include "../../x11/libXinerama/buildlink3.mk"
 .include "../../x11/libXmu/buildlink3.mk"
 #.include "../../x11/qt4-libs/buildlink3.mk"
 .include "../../www/curl/buildlink3.mk"
