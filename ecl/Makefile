@@ -4,7 +4,6 @@
 DISTNAME=		ecl-10.4.1
 CATEGORIES=		lang
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=ecls/}
-#EXTRACT_SUFX=		.tgz
 
 MAINTAINER=		asau@inbox.ru
 HOMEPAGE=		http://ecls.sourceforge.net/
@@ -21,6 +20,12 @@ USE_TOOLS+=		gmake makeinfo
 INFO_FILES=		yes
 
 CONFIGURE_ARGS+=	--enable-boehm=system --with-system-gmp
+
+SUBST_CLASSES+=			fix-libffi-include
+SUBST_STAGE.fix-libdir=		post-patch
+SUBST_MESSAGE.fix-libdir=	Fixing libffi layout.
+SUBST_FILES.fix-libdir=		src/c/ffi.d
+SUBST_SED.fix-libdir=		-e '/include.*<ffi/ffi.h>/s:ffi/ffi.h:ffi.h:'
 
 .include "options.mk"
 
