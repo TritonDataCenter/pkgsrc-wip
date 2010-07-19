@@ -1285,6 +1285,7 @@ SUBDIR+=	mid2gmc
 SUBDIR+=	milter-greylist-devel
 SUBDIR+=	milter-manager
 SUBDIR+=	mime-support
+SUBDIR+=	mimedefang
 SUBDIR+=	min12xxw
 SUBDIR+=	minimalist
 SUBDIR+=	minisat2
