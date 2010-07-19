@@ -1,5 +1,9 @@
 $NetBSD$
 
+#
+# modify spectrumctl.py to have substitutable paths
+#
+
 --- spectrumctl/spectrumctl.py.orig	2010-07-13 17:38:39.000000000 +0000
 +++ spectrumctl/spectrumctl.py
 @@ -3,7 +3,7 @@
@@ -22,7 +26,7 @@ $NetBSD$
  parser.add_option( '-c', '--config', metavar='FILE',
  	help = 'Only act on transport configured in FILE (ignored for list)' )
 -parser.add_option( '-d', '--config-dir', metavar='DIR', default='/etc/spectrum',
-+parser.add_option( '-d', '--config-dir', metavar='DIR', default='@ETC_SPECTRUM@'
++parser.add_option( '-d', '--config-dir', metavar='DIR', default='@ETC_SPECTRUM@',
  	help = 'Act on all transports configured in DIR (default: %default)' )
  parser.add_option( '-q', '--quiet', action='store_true', default=False,
  	help = 'Do not print any output (ignored for list)' )
