@@ -1266,6 +1266,7 @@ SUBDIR+=	mcabber
 SUBDIR+=	mcats
 SUBDIR+=	mcats-iodbc
 SUBDIR+=	mcpp
+SUBDIR+=	mcwm
 SUBDIR+=	mdadm
 SUBDIR+=	mdbtools
 SUBDIR+=	memcached14
