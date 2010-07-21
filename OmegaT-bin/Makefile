@@ -8,7 +8,7 @@ MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=omegat/}
 EXTRACT_SUFX=	.zip
 
 MAINTAINER=	ryo_on@yk.rim.or.jp
-HOMEPAGE=	http://ryo-on.users.sourceforge.net/distrib/
+HOMEPAGE=	http://www.omegat.org/
 COMMENT=	The translation memory (TM) application written in Java
 
 LICENSE=	gnu-gpl-v2
