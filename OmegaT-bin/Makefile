@@ -4,7 +4,7 @@
 DISTNAME=	OmegaT_2.0.5_04_Without_JRE
 PKGNAME=	${DISTNAME:S/OmegaT_/OmegaT-bin-/:S/_Without_JRE//}
 CATEGORIES=	editors
-MASTER_SITES=	http://ryo-on.users.sourceforge.net/distrib/
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=omegat/}
 EXTRACT_SUFX=	.zip
 
 MAINTAINER=	ryo_on@yk.rim.or.jp
