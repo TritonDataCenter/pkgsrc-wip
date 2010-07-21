@@ -15,12 +15,12 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 
 BUILDLINK_API_DEPENDS.curl+=		curl>=7.18.0
 BUILDLINK_API_DEPENDS.pcre+=		pcre>=7.8
-BUILDLINK_API_DEPENDS.libiconv+=	libiconv>=7.18.0
+BUILDLINK_API_DEPENDS.libiconv+=	libiconv>=1.12.0
 BUILDLINK_API_DEPENDS.lua+=		lua>=5.1
 
 PLIST_VARS+=	doc
 
-USE_TOOLS+=	pkg-config perl
+USE_TOOLS+=	pkg-config
 USE_LIBTOOL=	yes
 GNU_CONFIGURE=	yes
 USE_LANGUAGES=	c c++
