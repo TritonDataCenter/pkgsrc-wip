@@ -21,6 +21,9 @@ share/doc/task/i18n/tips.en-US
 share/doc/task/i18n/tips.sv-SE
 share/doc/task/rc/dark-16.theme
 share/doc/task/rc/dark-256.theme
+share/doc/task/rc/dark-blue-256.theme
+share/doc/task/rc/dark-green-256.theme
+share/doc/task/rc/dark-red-256.theme
 share/doc/task/rc/holidays-SE.rc
 share/doc/task/rc/holidays-US.rc
 share/doc/task/rc/light-16.theme
