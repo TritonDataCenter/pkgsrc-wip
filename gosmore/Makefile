@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	gosmore-1
-CHECKOUT_DATE=	20100218
+CHECKOUT_DATE=	20100722
 CATEGORIES=	geography
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
@@ -13,6 +13,7 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 
 USE_TOOLS+=	gmake pkg-config
 USE_LANGUAGES+=	c c++
+GNU_CONFIGURE=	yes
 
 # Get it from Subversion repository:
 SVN_REPOSITORIES=	gosmore
@@ -22,6 +23,8 @@ WRKSRC=			${WRKDIR}/gosmore
 
 .include "../../wip/mk/svn-package.mk"
 
+BUILDLINK_DEPMETHOD.bzip2= build
+.include "../../archivers/bzip2/buildlink3.mk"
 .include "../../devel/glib2/buildlink3.mk"
 .include "../../x11/gtk2/buildlink3.mk"
 .include "../../textproc/libxml2/buildlink3.mk"
