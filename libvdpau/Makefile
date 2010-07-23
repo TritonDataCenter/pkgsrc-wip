@@ -8,7 +8,7 @@ MASTER_SITES=	http://people.freedesktop.org/~aplattner/vdpau/
 MAINTAINER=	vle@gmx.net
 HOMEPAGE=	http://http.download.nvidia.com/XFree86/vdpau/doxygen/html/index.html
 COMMENT=	Video Decode and Presentation API for Unix
-#LICENSE=	a la BSD
+LICENSE=	mit
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
