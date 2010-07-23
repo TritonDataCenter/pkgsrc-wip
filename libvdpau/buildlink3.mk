@@ -4,7 +4,7 @@
 # For linking use LDFLAGS.vdpau variable
 #
 
-# Check whether VDPAU is available
+# Check whether VDPAU is available on this platform
 .include "../../wip/libvdpau/available.mk"
 .if ${VDPAU_AVAILABLE} == "yes"
 
