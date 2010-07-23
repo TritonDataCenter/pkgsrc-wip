@@ -15,6 +15,7 @@ SUBDIR+=	Mesa
 SUBDIR+=	MesaLib
 SUBDIR+=	MoleInvasion
 SUBDIR+=	OmegaT-bin
+SUBDIR+=	OmegaT-devel-bin
 SUBDIR+=	OpenGLUT
 SUBDIR+=	PPower4
 SUBDIR+=	PyBabelFish
