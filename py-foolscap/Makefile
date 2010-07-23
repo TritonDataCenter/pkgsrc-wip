@@ -24,12 +24,9 @@ USE_LANGUAGES=	# none
 
 PYTHON_VERSIONS_ACCEPTED= 26
 
-EDGIR=	${PREFIX}/share/examples/py-foolscap
-
-INSTALLATION_DIRS=	share/doc/py-foolscap
+INSTALLATION_DIRS+=	share/doc/py-foolscap
 
 post-install:
-	${INSTALL_DATA_DIR} ${DESTDIR}${PREFIX}/share/doc/py-foolscap
 	${INSTALL_DATA} ${WRKSRC}/doc/*.txt \
 		${DESTDIR}${PREFIX}/share/doc/py-foolscap
 	${INSTALL_DATA} ${WRKSRC}/doc/*.xhtml \
@@ -38,7 +35,6 @@ post-install:
 		${DESTDIR}${PREFIX}/share/doc/py-foolscap
 	${INSTALL_DATA} ${WRKSRC}/doc/*.tpl \
 		${DESTDIR}${PREFIX}/share/doc/py-foolscap
-
 
 .include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"
