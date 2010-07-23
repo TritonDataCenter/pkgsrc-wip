@@ -14,7 +14,6 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 
 DEPENDS+=	p5-Curses>=0:../../devel/p5-Curses
 DEPENDS+=	p5-DBD-mysql>=0:../../databases/p5-DBD-mysql
-DEPENDS+=	p5-Getopt-Long>=0:../../devel/p5-Getopt-Long
 
 PERL5_PACKLIST=	auto/mtop/.packlist
 USE_LANGUAGES=	# none
