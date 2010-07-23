@@ -8,7 +8,7 @@ CATEGORIES=    editors
 MASTER_SITES=    ${MASTER_SITE_SOURCEFORGE:=drpython/}
 EXTRACT_SUFX=    .zip
 
-MAINTAINER=    pkgsrc-users@NetBSD.org
+MAINTAINER=   pkgsrc-users@NetBSD.org
 HOMEPAGE=    http://drpython.sourceforge.net/
 COMMENT=    Source code editor, written in Python, for Python
 LICENSE=    gnu-gpl-v3
@@ -19,7 +19,6 @@ WRKSRC=        ${WRKDIR}/DrPython
 USE_LANGUAGES=    # none
 
 PYDISTUTILSPKG=    yes
-PLIST_SUBST+=    PYVERSSUFFIX=${PYVERSSUFFIX}
 
 PY_EXEC=${PREFIX}/bin/python${PYVERSSUFFIX}
 PY_APPAPATH=${PREFIX}/${PYSITELIB}/drpython/drpython.py
