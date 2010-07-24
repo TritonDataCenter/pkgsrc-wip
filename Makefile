@@ -2160,7 +2160,6 @@ SUBDIR+=	rst-mode
 SUBDIR+=	rsyslog
 SUBDIR+=	rte
 SUBDIR+=	rthread
-SUBDIR+=	rtmpdump
 SUBDIR+=	rtpbreak
 SUBDIR+=	ruby-GalleryAdministrator
 SUBDIR+=	ruby-actionmessenger
