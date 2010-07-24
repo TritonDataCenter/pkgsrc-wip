@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	hanazono-20100222
+DISTNAME=	hanazono-20100718
 PKGNAME=	${DISTNAME:S/-/-ttf-/}
 CATEGORIES=	fonts
 MASTER_SITES=	http://www.fonts.jp/hanazono/
