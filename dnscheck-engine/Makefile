@@ -29,7 +29,7 @@ DEPENDS+=	p5-TimeDate>=0.19:../../time/p5-TimeDate
 DEPENDS+=	p5-YAML-[0-9]*:../../textproc/p5-YAML
 DEPENDS+=	p5-Socket6>=0.19:../../net/p5-Socket6
 DEPENDS+=	p5-IO-Socket-INET6-[0-9]*:../../net/p5-IO-Socket-INET6
-DEPENDS+=	p5-Mail-RFC822-Address-[0-9]*:../../wip/p5-Mail-RFC822-Address
+DEPENDS+=	p5-Mail-RFC822-Address-[0-9]*:../../mail/p5-Mail-RFC822-Address
 DEPENDS+=	p5-DBI-[0-9]*:../../databases/p5-DBI
 
 PERL5_PACKLIST=	auto/DNSCheck/.packlist
