@@ -10,7 +10,7 @@ MASTER_SITES=	http://milosn.no-ip.org/files/
 #MASTER_SITES=	http://divmod.org/trac/attachment/wiki/SoftwareReleases/
 EXTRACT_SUFX=	.tar.gz
 
-MAINTAINER=	milos.negovanovic@googlemail.com
+MAINTAINER=         pkgsrc-wip-users@sourceforge.net
 HOMEPAGE=	http://divmod.org/trac/wiki/DivmodVertex
 COMMENT=	An implementation of the Q2Q protocol
 

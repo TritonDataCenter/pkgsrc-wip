@@ -8,7 +8,7 @@ CATEGORIES=	python www net
 MASTER_SITES=	ftp://ftp.osuosl.org/pub/nslu2/sources/
 EXTRACT_SUFX=	.tar.gz
 
-MAINTAINER=	milos.negovanovic@googlemail.com
+MAINTAINER=         pkgsrc-wip-users@sourceforge.net
 HOMEPAGE=	http://divmod.org/trac/wiki/DivmodMantissa
 COMMENT=	An extensible application server
 

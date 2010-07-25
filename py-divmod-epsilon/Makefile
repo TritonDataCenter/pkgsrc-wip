@@ -8,7 +8,7 @@ CATEGORIES=	python
 MASTER_SITES=	ftp://ftp.osuosl.org/pub/nslu2/sources/
 EXTRACT_SUFX=	.tar.gz
 
-MAINTAINER=	milos.negovanovic@googlemail.com
+MAINTAINER=         pkgsrc-wip-users@sourceforge.net
 HOMEPAGE=	http://divmod.org/trac/wiki/DivmodNevow
 COMMENT=	A Python utilities package, most famous for its Time class
 
