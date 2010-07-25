@@ -93,12 +93,14 @@ post-install:
 	# 				${DESTDIR}${EGDIR}/spectrum-sqlite3.sql
 
 
-.include "../../lang/python/application.mk"
-.include "../../lang/python/extension.mk"
-.include "../../wip/poco/buildlink3.mk"
-.include "../../wip/gloox/buildlink3.mk"
 .include "../../chat/libpurple/buildlink3.mk"
 .include "../../devel/cmake/buildlink3.mk"
-.include "../../devel/glib2/buildlink3.mk"
 .include "../../devel/gettext-lib/buildlink3.mk"
+.include "../../devel/glib2/buildlink3.mk"
+.include "../../devel/py-readline/buildlink.mk"
+.include "../../lang/python/application.mk"
+.include "../../lang/python/extension.mk"
+.include "../../wip/gloox/buildlink3.mk"
+.include "../../wip/poco/buildlink3.mk"
+
 .include "../../mk/bsd.pkg.mk"
