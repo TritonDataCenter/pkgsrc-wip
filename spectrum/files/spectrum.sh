@@ -9,22 +9,14 @@
 #
 
 name="spectrum"
-rcvar=$name
+rcvar="$name"
+procname="$name"
 command=@PREFIX@/bin/spectrumctl
-spectrum_user="@JABBER_USER@"
-command_args=""
 
 ensure_piddir()
 {
 	mkdir -p @JABBER_PIDDIR@ @JABBER_LOGDIR@
 	chown @JABBER_USER@ @JABBER_PIDDIR@ @JABBER_LOGDIR@
-}
-
-remove_pidfile()
-{
-        if [ -f $pidfile ]; then
-            rm -f $pidfile
-        fi
 }
 
 if [ -f /etc/rc.subr ]; then
@@ -33,5 +25,5 @@ if [ -f /etc/rc.subr ]; then
 	run_rc_command "$1"
 else
 	@ECHO@ -n " ${name}"
-	@SU@ ${yahoo_user} -c "${command} ${yahoo_transport_flags} ${command_args}"
+	${command} $1
 fi
