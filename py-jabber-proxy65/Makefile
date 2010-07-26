@@ -6,8 +6,9 @@ CATEGORIES=	chat python
 MASTER_SITES=	http://proxy65.googlecode.com/files/
 
 MAINTAINER=	eric@cirr.com
-HOMEPAGE=	http://code.google.com/p/proxy65/
+HOMEPAGE=	http://proxy65.googlecode.com/
 COMMENT=	XEP-0065 proxy transport for XMPP
+LICENSE=	mit
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 #
@@ -29,13 +30,13 @@ PYDISTUTILSPKG=	yes
 JABBER_USER?=		jabberd
 JABBER_GROUP?=		jabberd
 FILES_SUBST+=		PYTHONBIN=${PYTHONBIN:Q}
-PKG_USERS_VARS+=	JABBER_USER
+PKG_USERS_VARS=		JABBER_USER
 PKG_GROUPS_VARS+=	JABBER_GROUP
 
 .include "../../wip/jabberd/transports.mk"
 
-DOCDIR=                 ${DESTDIR}${PREFIX}/share/doc/proxy65
-DOCFILES=               README
+DOCDIR=			${DESTDIR}${PREFIX}/share/doc/proxy65
+DOCFILES=		README
 
 INSTALLATION_DIRS=	share/doc/proxy65
 

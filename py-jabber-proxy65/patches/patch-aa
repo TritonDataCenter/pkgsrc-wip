@@ -1,5 +1,7 @@
 $NetBSD$
 
+# set a reasonable port for connecting to the jabber server.
+
 --- twisted/plugins/proxy65_plugin.py.orig	2008-11-22 05:04:58.000000000 -0600
 +++ twisted/plugins/proxy65_plugin.py
 @@ -37,7 +37,7 @@ class Options(usage.Options):
