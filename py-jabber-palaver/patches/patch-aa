@@ -1,5 +1,7 @@
 $NetBSD$
 
+# Update to newer style twisted service creation.
+
 --- twisted/plugins/palaver.py.orig	2007-02-08 17:08:22.000000000 -0600
 +++ twisted/plugins/palaver.py
 @@ -1,6 +1,6 @@

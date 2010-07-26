@@ -1,5 +1,8 @@
 $NetBSD$
 
+# make the spool path configurable by pkgsrc.
+# make the pgsql back end settings visible.
+
 --- example-config.xml.orig	2006-08-06 10:45:21.000000000 -0500
 +++ example-config.xml
 @@ -26,14 +26,13 @@

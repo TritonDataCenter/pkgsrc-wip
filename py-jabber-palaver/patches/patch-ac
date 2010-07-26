@@ -1,5 +1,7 @@
 $NetBSD$
 
+# ?correct? the argument processing.
+
 --- palaver/palaver.py.orig	2007-03-17 11:20:00.000000000 -0500
 +++ palaver/palaver.py
 @@ -205,11 +205,10 @@ class ConfigParser:
