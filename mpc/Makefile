@@ -2,11 +2,12 @@
 #
 
 DISTNAME=	mpc-0.8.2
+PKGNAME=	mpcomplex-0.8.2
 CATEGORIES=	math devel
 MASTER_SITES=	http://www.multiprecision.org/mpc/download/
 
 MAINTAINER=	MarkoSchuetz@web.de
-HOMEPAGE=	http://www.multiprecision.org/mpc/download/
+HOMEPAGE=	http://www.multiprecision.org/mpc/
 COMMENT=	Arithmetic of complex numbers with arbitrarily high precision
 LICENSE=	gnu-lgpl-v2.1
 PKG_DESTDIR_SUPPORT= user-destdir
