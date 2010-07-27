@@ -1877,6 +1877,7 @@ SUBDIR+=	py-addons
 SUBDIR+=	py-albatross
 SUBDIR+=	py-amqplib
 SUBDIR+=	py-anyjson
+SUBDIR+=	py-argparse
 SUBDIR+=	py-aspects
 SUBDIR+=	py-aspell
 SUBDIR+=	py-aspyct
