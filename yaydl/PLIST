@@ -1,0 +1,4 @@
+@comment $NetBSD$
+bin/yaydl
+share/doc/yaydl.pl/README
+share/doc/yaydl.pl/changelog
