@@ -2624,6 +2624,7 @@ SUBDIR+=	yafray
 SUBDIR+=	yakuake
 SUBDIR+=	yauap
 SUBDIR+=	yaws
+SUBDIR+=	yaydl
 SUBDIR+=	yelp-xsl
 SUBDIR+=	yersinia
 SUBDIR+=	ykclient
