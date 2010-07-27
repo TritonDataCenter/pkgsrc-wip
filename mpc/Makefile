@@ -3,7 +3,7 @@
 
 DISTNAME=	mpc-0.8.2
 PKGNAME=	mpcomplex-0.8.2
-CATEGORIES=	math devel
+CATEGORIES=	math
 MASTER_SITES=	http://www.multiprecision.org/mpc/download/
 
 MAINTAINER=	MarkoSchuetz@web.de
