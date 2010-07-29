@@ -1177,6 +1177,7 @@ SUBDIR+=	libuxre
 SUBDIR+=	libvc
 SUBDIR+=	libvdpau
 SUBDIR+=	libvg
+SUBDIR+=	libvpx
 SUBDIR+=	libwbxml2-patched
 SUBDIR+=	libxc
 SUBDIR+=	libyubikey
