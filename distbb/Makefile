@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	distbb-0.36.2
+PKGREVISION=	1
 CATEGORIES=	pkgtools
 MASTER_SITES=	http://mova.org/~cheusov/pub/distbb/
 
@@ -11,7 +12,7 @@ COMMENT=	DISTributed Bulk Build tool for pkgsrc
 
 LICENSE=	mit
 
-DEPENDS+=	pkg_summary-utils>=0.39.0:../../wip/pkg_summary-utils
+DEPENDS+=	pkg_summary-utils>=0.42.2:../../wip/pkg_summary-utils
 DEPENDS+=	paexec>=0.13.0nb1:../../wip/paexec
 DEPENDS+=	runawk>=0.21.0:../../wip/runawk
 DEPENDS+=	pipestatus>=0.6.0:../../devel/pipestatus
