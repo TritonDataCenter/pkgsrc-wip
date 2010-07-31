@@ -1,0 +1,10 @@
+@comment $NetBSD$
+${PYSITELIB}/aopython.py
+${PYSITELIB}/aopython.pyc
+${PYSITELIB}/aopython.pyo
+${PYSITELIB}/aopythonexamples.py
+${PYSITELIB}/aopythonexamples.pyc
+${PYSITELIB}/aopythonexamples.pyo
+${PYSITELIB}/aopythontest.py
+${PYSITELIB}/aopythontest.pyc
+${PYSITELIB}/aopythontest.pyo
