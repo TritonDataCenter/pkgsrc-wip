@@ -63,8 +63,6 @@ CHECK_WRKREF_SKIP+=	bin/emacs-${PKGVERSION_NOREV}
 
 FILESDIR=	${.CURDIR}/../../editors/emacs/files
 
-PLIST_SUBST+=	DISTNAME=${DISTNAME:C/-nox11//:Q}
-
 post-extract:
 	${CP} ${FILESDIR}/site-init.el ${WRKSRC}/lisp
 
