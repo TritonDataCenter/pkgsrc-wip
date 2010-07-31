@@ -1,0 +1,9 @@
+@comment $NetBSD$
+${PYSITELIB}/djvu/__init__.py
+${PYSITELIB}/djvu/__init__.pyc
+${PYSITELIB}/djvu/__init__.pyo
+${PYSITELIB}/djvu/const.py
+${PYSITELIB}/djvu/const.pyc
+${PYSITELIB}/djvu/const.pyo
+${PYSITELIB}/djvu/decode.so
+${PYSITELIB}/djvu/sexpr.so
