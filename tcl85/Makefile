@@ -13,6 +13,7 @@ COMMENT=		Tool Command Language, a dynamic language
 PKG_DESTDIR_SUPPORT=	user-destdir
 
 .include "../../wip/tcl85/Makefile.version"
+.include "options.mk"
 
 CONFLICTS+=		tclman80-[0-9]*
 
