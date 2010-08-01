@@ -12,7 +12,7 @@ COMMENT=	The ia64 instruction set simulator
 PKG_DESTDIR_SUPPORT=        user-destdir
 
 GNU_CONFIGURE=	yes
-USE_LANGUAGES+= c fortran c++
+USE_LANGUAGES+= c fortran77 c++
 CONFIGURE_ARGS+= --prefix=/usr/pkg
 
 USE_TOOLS+=	aclocal autoconf automake

@@ -12,7 +12,7 @@ COMMENT=	Vidrioclock is a simple X11 clock that uses vidriolib
 
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
-USE_LANGUAGES=	c c++ fortran
+USE_LANGUAGES=	c c++ fortran77
 
 .include "../../wip/vidriolib/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

@@ -14,7 +14,7 @@ COMMENT=	Sparse linear algebra extension for Python
 PKG_DESTDIR_SUPPORT=	user-destdir
 
 PKG_DESTDIR_SUPPORT=	user-destdir
-USE_LANGUAGES=	c c++ fortran
+USE_LANGUAGES=	c c++ fortran77
 PYDISTUTILSPKG= yes
 
 #.include "../../graphics/vtk-python/buildlink3.mk"

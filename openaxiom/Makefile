@@ -25,7 +25,7 @@ MAKE_JOBS_SAFE=		no
 GNU_CONFIGURE=		yes
 USE_LIBTOOL=		yes
 USE_TOOLS+=		gmake makeinfo awk:run
-USE_LANGUAGES+=		fortran
+USE_LANGUAGES+=		fortran77
 BUILD_DEPENDS+=		noweb-[0-9]*:../../devel/noweb
 
 BUILD_MAKE_FLAGS+=	TOOLS_PLATFORM.install=${TOOLS_PLATFORM.install:Q}

@@ -14,7 +14,7 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 PYDISTUTILSPKG=	yes
 PLIST_SUBST+=   PYPKGPREFIX=${PYPKGPREFIX}
 PYTHON_VERSIONS_ACCEPTED=   25 24
-USE_LANGUAGES+=	c c++ fortran
+USE_LANGUAGES+=	c c++ fortran77
 MAKE_ENV+=	ATLAS=None
 
 .include "../../lang/python/extension.mk"

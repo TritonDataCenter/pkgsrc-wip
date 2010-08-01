@@ -21,7 +21,7 @@ HAS_CONFIGURE=	yes
 
 MAKE_JOBS_SAFE=	no
 
-USE_LANGUAGES=	c fortran
+USE_LANGUAGES=	c fortran77
 
 CONFIGURE_DIRS=		obj
 CONFIGURE_SCRIPT=	../configure

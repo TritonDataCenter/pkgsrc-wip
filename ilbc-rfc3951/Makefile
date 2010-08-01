@@ -21,7 +21,7 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 
 USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=		yes
-USE_LANGUAGES+=		c c++ fortran
+USE_LANGUAGES+=		c c++ fortran77
 GNU_CONFIGURE=		yes
 
 .include "../../mk/bsd.pkg.mk"

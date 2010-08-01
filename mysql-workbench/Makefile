@@ -16,7 +16,7 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 
 GNU_CONFIGURE=		yes
 CONFIGURE_ARGS+=	--with-system-ctemplate
-USE_LANGUAGES+=		c c++ fortran
+USE_LANGUAGES+=		c c++ fortran77
 USE_TOOLS+=		autoconf autoheader aclocal automake bash cp gmake
 USE_LIBTOOL=		yes
 

@@ -16,7 +16,7 @@ GNU_CONFIGURE=		yes
 USE_TOOLS+=		gmake bison flex autoconf automake
 USE_LIBTOOL=		yes
 USE_PKGLOCALEDIR=	yes
-USE_LANGUAGES=		c c++ fortran
+USE_LANGUAGES=		c c++ fortran77
 
 #LDFLAGS+= ${COMPILER_RPATH_FLAG}${PREFIX}/lib
 

@@ -10,7 +10,7 @@ COMMENT=	hash digests for R objects
 R_PKGNAME=	digest
 R_PKGVER=	0.4.2
 
-USE_LANGUAGES=	fortran
+USE_LANGUAGES=	fortran77
 
 .include "../../math/R/Makefile.extension"
 .include "../../mk/bsd.pkg.mk"

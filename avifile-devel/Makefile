@@ -18,7 +18,7 @@ DEPENDS+=	win32-codecs>=010122:../../multimedia/win32-codecs
 
 USE_TOOLS+=		gmake pkg-config
 USE_LIBTOOL=		YES
-USE_LANGUAGES=		c c++ fortran
+USE_LANGUAGES=		c c++ fortran77
 
 PKGCONFIG_OVERRIDE+=	avifile.pc.in
 

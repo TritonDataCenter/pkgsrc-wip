@@ -13,7 +13,7 @@ COMMENT=	Set of tools for generating raster images of proteins and molecules
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
-USE_LANGUAGES=	c fortran
+USE_LANGUAGES=	c fortran77
 USE_TOOLS+=	gunzip:run
 
 DATADIR=	${PREFIX}/share/${PKGBASE}

@@ -16,7 +16,7 @@ COMMENT=		Geographic Information System (GIS)
 
 USE_PKGLOCALEDIR=       yes
 USE_TOOLS+=		bison perl
-USE_LANGUAGES+=		c c++ fortran
+USE_LANGUAGES+=		c c++ fortran77
 USE_CMAKE=		yes
 USE_LIBTOOL=		yes
 USE_X11=		yes

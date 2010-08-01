@@ -14,7 +14,7 @@ COMMENT=	Open source MPI-2 implementation
 PKG_DESTDIR_SUPPORT=	user-destdir
 
 GNU_CONFIGURE=		yes
-USE_LANGUAGES=		c c++ fortran
+USE_LANGUAGES=		c c++ fortran77
 USE_LIBTOOL=		yes
 LIBTOOL_OVERRIDE=	${WRKSRC}/libtool
 SHLIBTOOL_OVERRIDE=	${WRKSRC}/config/libtool.m4

@@ -17,7 +17,7 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 WRKSRC=			${WRKDIR}/nsp2
 USE_PKGLOCALEDIR=	yes
 USE_TOOLS+=	pkg-config automake autoconf
-USE_LANGUAGES=		c c++ fortran
+USE_LANGUAGES=		c c++ fortran77
 
 pre-configure:
 	cd ${WRKSRC} && ${SH} autogen.sh

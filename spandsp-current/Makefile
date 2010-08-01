@@ -13,7 +13,7 @@ COMMENT=	DSP functions
 WRKSRC=		${WRKDIR}/spandsp-0.0.6
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
-USE_LANGUAGES=	c c++ fortran
+USE_LANGUAGES=	c c++ fortran77
 USE_TOOLS+=	gmake
 
 .include "options.mk"

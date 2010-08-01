@@ -12,7 +12,7 @@ COMMENT=	Sample programs from "Using MPI" (2nd ed.) book
 PKG_DESTDIR_SUPPORT=	user-destdir
 
 GNU_CONFIGURE=	yes
-USE_LANGUAGES=	c fortran c++
+USE_LANGUAGES=	c fortran77 c++
 CONFIGURE_ARGS+=	--with-mpich=${PREFIX}/bin
 BUILD_MAKE_FLAGS+=	CXX=${PREFIX}/bin/mpicxx
 BUILD_MAKE_FLAGS+=	LIBS=-lm

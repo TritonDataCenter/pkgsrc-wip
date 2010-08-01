@@ -17,7 +17,7 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 WRKSRC=		${WRKDIR}/cvxopt-1.1.2/src
 
 USE_TOOLS+=	pax
-USE_LANGUAGES=	c fortran
+USE_LANGUAGES=	c fortran77
 
 PYDISTUTILSPKG= yes
 

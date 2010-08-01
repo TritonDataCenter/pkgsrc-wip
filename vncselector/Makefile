@@ -12,7 +12,7 @@ HOMEPAGE=		http://vncselector.sourceforge.net/
 COMMENT=		Tool for managing VNC sessions
 
 GNU_CONFIGURE=		yes
-USE_LANGUAGES=		c c++ fortran
+USE_LANGUAGES=		c c++ fortran77
 USE_LIBTOOL=		yes
 USE_TOOLS+=		gmake
 

@@ -12,7 +12,7 @@ COMMENT=	Media streaming library
 WRKSRC=		${WRKDIR}/vale-0.0.1
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=    yes
-USE_LANGUAGES=  c c++ fortran
+USE_LANGUAGES=  c c++ fortran77
 USE_TOOLS+=     gmake
 
 .include "../../mk/bsd.pkg.mk"

@@ -12,7 +12,7 @@ COMMENT=	Scientific plotting library
 PKG_DESTDIR_SUPPORT=	user-destdir
 
 USE_CMAKE=	yes
-USE_LANGUAGES=	c c++ # fortran
+USE_LANGUAGES=	c c++ # fortran77
 USE_TOOLS+=	perl
 CHECK_PORTABILITY_SKIP+=	 plplot_test/test_single_tcl.sh
 

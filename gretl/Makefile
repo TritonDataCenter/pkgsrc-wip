@@ -12,7 +12,7 @@ COMMENT=	Gnu Regression, Econometrics and Time-series Library
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
-USE_LANGUAGES=	c fortran	# problems with LAPACK
+USE_LANGUAGES=	c fortran77	# problems with LAPACK
 GNU_CONFIGURE=	yes
 USE_TOOLS+=	gmake
 USE_LIBTOOL=	yes
