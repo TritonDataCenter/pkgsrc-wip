@@ -1,6 +1,6 @@
 # $NetBSD$
 
-ATLAS_VERSION=	3.9.15
+ATLAS_VERSION=	3.9.25
 
 DISTNAME=	atlas${ATLAS_VERSION}
 PKGNAME=	atlas-${ATLAS_VERSION}
@@ -9,7 +9,7 @@ MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=math-atlas/}
 EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	asau@inbox.ru
-HOMEPAGE=	 http://math-atlas.sourceforge.net/
+HOMEPAGE=	http://math-atlas.sourceforge.net/
 COMMENT=	Automatically Tuned Linear Algebra Software
 
 CONFLICTS=	lapack-[0-9]*
