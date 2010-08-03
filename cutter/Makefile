@@ -29,7 +29,7 @@ TEST_TARGET=	check
 
 .include "options.mk"
 
-# XXX!
+# XXX: PR#lib/39986?
 LDFLAGS.NetBSD+=	-lgcc_s
 
 BUILDLINK_API_DEPENDS.glib2+=	glib2>=2.16.0
