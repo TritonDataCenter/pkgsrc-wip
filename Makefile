@@ -1935,6 +1935,7 @@ SUBDIR+=	py-extremes/
 SUBDIR+=	py-eyeD3
 SUBDIR+=	py-ezPyCrypto
 SUBDIR+=	py-fastaudio
+SUBDIR+=	py-figleaf
 SUBDIR+=	py-flakes
 SUBDIR+=	py-fuzzpy
 SUBDIR+=	py-fs
