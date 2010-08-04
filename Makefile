@@ -791,6 +791,7 @@ SUBDIR+=	heirloom-yes
 SUBDIR+=	heliodor
 SUBDIR+=	hengband
 SUBDIR+=	heroes
+SUBDIR+=	hgsubversion
 SUBDIR+=	hgview
 SUBDIR+=	hijra
 SUBDIR+=	hitori
