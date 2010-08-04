@@ -1,0 +1,12 @@
+# $NetBSD$
+
+BUILDLINK_TREE+=	lucene
+
+.if !defined(LUCENE_BUILDLINK3_MK)
+LUCENE_BUILDLINK3_MK:=
+
+BUILDLINK_API_DEPENDS.lucene+=	lucene>=3.0.2
+BUILDLINK_PKGSRCDIR.lucene?=	../../wip/lucene
+.endif	# LUCENE_BUILDLINK3_MK
+
+BUILDLINK_TREE+=	-lucene
