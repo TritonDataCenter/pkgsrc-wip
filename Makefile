@@ -2350,6 +2350,7 @@ SUBDIR+=	taglib-sharp
 SUBDIR+=	tagtool
 SUBDIR+=	talksoup
 SUBDIR+=	talloc
+SUBDIR+=	tamago-anthy
 SUBDIR+=	tardy
 SUBDIR+=	task
 SUBDIR+=	taskbar
