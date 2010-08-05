@@ -2161,11 +2161,7 @@ SUBDIR+=	relaydb
 SUBDIR+=	remctl
 SUBDIR+=	resid-builder
 SUBDIR+=	residual-nightly
-<<<<<<< Makefile
-=======
-SUBDIR+=	repositoryhandler
 SUBDIR+=	resin
->>>>>>> 1.4027
 SUBDIR+=	rhapsody
 SUBDIR+=	ripe-rpsl-objectlibrary
 SUBDIR+=	ripit
