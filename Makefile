@@ -2103,7 +2103,6 @@ SUBDIR+=	py-workerpool
 SUBDIR+=	py-wxWidgets-unicode
 SUBDIR+=	py-xdgapp
 SUBDIR+=	py-xlib
-SUBDIR+=	py-xlrd
 SUBDIR+=	py-xmiparser
 SUBDIR+=	py-xmpppy
 SUBDIR+=	py-xsdb

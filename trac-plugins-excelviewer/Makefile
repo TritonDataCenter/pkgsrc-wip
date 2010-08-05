@@ -14,7 +14,7 @@ COMMENT=	Excel viewer plugin for trac
 PKG_DESTDIR_SUPPORT=	user-destdir
 
 DEPENDS+=	{ja-,}trac>=0.10:../../www/trac
-DEPENDS+=	${PYPKGPREFIX}-xlrd>=0:../../wip/py-xlrd
+DEPENDS+=	${PYPKGPREFIX}-xlrd>=0:../../textproc/py-xlrd
 
 SVN_REV=	687
 SVN_MOD=	excelviewerplugin/0.10
