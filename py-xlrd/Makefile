@@ -3,7 +3,7 @@
 
 DISTNAME=		xlrd-0.7.1
 PKGNAME=		${PYPKGPREFIX}-${DISTNAME}
-CATEGORIES=		devel python
+CATEGORIES=		textproc python
 MASTER_SITES=		http://cheeseshop.python.org/packages/source/x/xlrd/
 
 MAINTAINER=		obache@NetBSD.org
