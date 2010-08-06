@@ -1,5 +1,7 @@
 $NetBSD$
 
+http://code.google.com/p/ibus/issues/detail?id=884
+
 --- engine/Makefile.in.orig	2010-01-15 03:27:22.000000000 +0000
 +++ engine/Makefile.in
 @@ -787,7 +787,7 @@ uninstall-am: uninstall-anthyDATA uninst
@@ -7,7 +9,7 @@ $NetBSD$
  
  anthy.py anthy_wrap.c: anthy.i
 -	$(SWIG) -python -I/usr/include -o anthy_wrap.c $(srcdir)/anthy.i
-+	$(SWIG) -python ${ANTHY_CFLAGS} -o anthy_wrap.c $(srcdir)/anthy.i
++	$(SWIG) -python ${ANTHY_CFLAGS} -I/usr/include -o anthy_wrap.c $(srcdir)/anthy.i
  
  anthy.xml: anthy.xml.in
  	( \

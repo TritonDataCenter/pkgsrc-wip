@@ -1,5 +1,7 @@
 $NetBSD$
 
+http://code.google.com/p/ibus/issues/detail?id=883
+
 --- configure.orig	2010-01-15 03:27:24.000000000 +0000
 +++ configure
 @@ -18156,7 +18156,7 @@ $as_echo "no" >&6; }
