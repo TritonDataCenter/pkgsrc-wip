@@ -158,3 +158,4 @@ ${PYSITELIB}/Xlib/xobject/icccm.pyo
 ${PYSITELIB}/Xlib/xobject/resource.py
 ${PYSITELIB}/Xlib/xobject/resource.pyc
 ${PYSITELIB}/Xlib/xobject/resource.pyo
+${PLIST.eggfile}${PYSITELIB}/${EGG_FILE}
