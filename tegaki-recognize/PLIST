@@ -1,5 +1,0 @@
-@comment $NetBSD$
-bin/tegaki-recognize
-share/applications/tegaki-recognize.desktop
-share/menu/tegaki-recognize
-share/pixmaps/tegaki-recognize.svg
