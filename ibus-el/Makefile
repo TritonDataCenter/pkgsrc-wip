@@ -12,7 +12,7 @@ COMMENT=	IBus client for GNU Emacs
 LICENSE=	gnu-gpl-v3
 
 DEPENDS+=	ibus>=1.2:../../inputmethod/ibus
-DEPENDS+=	${PYPKGPREFIX}-xlib-[0-9]*:../../wip/py-xlib
+DEPENDS+=	${PYPKGPREFIX}-Xlib-[0-9]*:../../x11/py-xlib
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
