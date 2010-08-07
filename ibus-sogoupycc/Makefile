@@ -25,8 +25,8 @@ REPLACE.lua.new=	${BUILDLINK_PREFIX.lua}/bin/lua
 REPLACE_FILES.lua=	fetcher
 
 .include "../../databases/sqlite3/buildlink3.mk"
+.include "../../inputmethod/ibus/buildlink3.mk"
 .include "../../lang/lua/buildlink3.mk"
 .include "../../sysutils/libnotify/buildlink3.mk"
 .include "../../x11/gtk2/buildlink3.mk"
-.include "../../wip/ibus/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

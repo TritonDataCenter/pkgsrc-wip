@@ -1,8 +1,0 @@
-@comment $NetBSD$
-libexec/ibus-engine-handwrite
-share/ibus-handwrite/data/table.txt
-share/ibus-handwrite/icons/ibus-handwrite.svg
-share/ibus-handwrite/icons/switch.svg
-share/ibus/component/handwrite-jp.xml
-share/ibus/component/handwrite-zh.xml
-share/locale/zh_CN/LC_MESSAGES/ibus-handwrite.mo

@@ -11,7 +11,7 @@ COMMENT=	Tegaki integration in ibus
 LICENSE=	gnu-gpl-v2
 
 DEPENDS+=	tegaki-pygtk>=0.3:../../wip/tegaki-pygtk
-DEPENDS+=	ibus>=1.2:../../wip/ibus
+DEPENDS+=	ibus>=1.2:../../inputmethod/ibus
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
