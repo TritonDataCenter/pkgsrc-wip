@@ -10,6 +10,8 @@ MAINTAINER=		ccatrian@eml.cc
 HOMEPAGE=		http://pypanel.sourceforge.net/
 COMMENT=		Lightweight panel written in Python and C for X11
 
+DEPENDS+=		${PYPKGPREFIX}-Xlib-[0-9]*:../../x11/py-Xlib
+
 PYDISTUTILSPKG=		yes
 PY_PATCHPLIST=		yes
 

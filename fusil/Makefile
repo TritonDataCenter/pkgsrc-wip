@@ -11,6 +11,7 @@ COMMENT=	Fuzzing program to test applications
 LICENSE=	gnu-gpl-v2
 
 DEPENDS+=	${PYPKGPREFIX}-ptrace>=0.6:../../wip/py-ptrace
+DEPENDS+=	${PYPKGPREFIX}-Xlib-[0-9]*:../../x11/py-Xlib
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
@@ -29,5 +30,4 @@ post-install:
 
 
 .include "../../lang/python/extension.mk"
-.include "../../x11/py-Xlib/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
