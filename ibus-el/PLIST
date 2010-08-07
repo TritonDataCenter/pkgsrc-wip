@@ -1,4 +1,0 @@
-@comment $NetBSD$
-${EMACS_LISPPREFIX}/ibus-el-agent
-${EMACS_LISPPREFIX}/ibus.el
-${EMACS_LISPPREFIX}/ibus.elc

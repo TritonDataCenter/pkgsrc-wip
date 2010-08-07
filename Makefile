@@ -919,7 +919,6 @@ SUBDIR+=	i3
 SUBDIR+=	i3lock
 SUBDIR+=	iText
 SUBDIR+=	iTextXML
-SUBDIR+=	ibus-el
 SUBDIR+=	ibus-sogoupycc
 SUBDIR+=	ibus-tegaki
 SUBDIR+=	icc10
