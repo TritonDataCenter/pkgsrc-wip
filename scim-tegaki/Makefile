@@ -10,7 +10,7 @@ HOMEPAGE=	http://www.tegaki.org/
 COMMENT=	Tegaki integration in SCIM
 LICENSE=	gnu-gpl-v2
 
-DEPENDS+=	tegaki-pygtk>=0.2:../../wip/tegaki-pygtk
+DEPENDS+=	tegaki-pygtk>=0.2:../../inputmethod/tegaki-pygtk
 DEPENDS+=	scim-python>=0.1.13rc1:../../wip/scim-python
 
 PKG_DESTDIR_SUPPORT=	user-destdir
