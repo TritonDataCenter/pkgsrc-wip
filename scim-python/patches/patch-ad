@@ -1,5 +1,7 @@
 $NetBSD$
 
+remove unwanted cast.
+
 --- src/scim-python-lookup-table.cpp.orig	2008-07-11 04:16:15.000000000 +0000
 +++ src/scim-python-lookup-table.cpp
 @@ -86,7 +86,7 @@ PyLookupTable::py_set_candidate_labels (

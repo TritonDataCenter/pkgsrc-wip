@@ -1,5 +1,7 @@
 $NetBSD$
 
+portability fix.
+
 --- configure.orig	2008-07-11 04:17:12.000000000 +0000
 +++ configure
 @@ -20602,7 +20602,7 @@ fi

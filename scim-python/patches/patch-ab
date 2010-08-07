@@ -1,5 +1,7 @@
 $NetBSD$
 
+remove unwanted cast.
+
 --- src/scim-python-engine.cpp.orig	2008-07-11 04:16:15.000000000 +0000
 +++ src/scim-python-engine.cpp
 @@ -621,7 +621,7 @@ PyIMEngine::py_update_preedit_string (Py
