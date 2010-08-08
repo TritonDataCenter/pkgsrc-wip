@@ -17,6 +17,9 @@ MAKE_FILE=	makefile
 USE_TOOLS+=	gmake
 USE_LANGUAGES=	c++
 
+GCC_REQD+=	3.3.5
+ONLY_FOR_PLATFORM= NetBSD-*-* Linux-*-* Solaris-*-*
+
 INSTALLATION_DIRS=	bin
 
 do-install:
