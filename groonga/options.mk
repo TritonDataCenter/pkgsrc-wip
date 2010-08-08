@@ -7,10 +7,13 @@ PKG_SUGGESTED_OPTIONS=  mecab tests
 
 .include "../../mk/bsd.options.mk"
 
+PLIST_VARS+=		mecab
+
 .if !empty(PKG_OPTIONS:Mmecab)
 CONFIGURE_ARGS+=	--with-mecab
 CONFIGURE_ARGS+=	--with-mecab-config=${BUILDLINK_PREFIX.mecab}/bin/mecab-config
 .include "../../textproc/mecab/buildlink3.mk"
+PLIST.mecab=		yes
 .else
 CONFIGURE_ARGS+=	--without-mecab
 .endif
