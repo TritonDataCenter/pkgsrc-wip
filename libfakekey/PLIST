@@ -1,0 +1,4 @@
+@comment $NetBSD$
+include/fakekey/fakekey.h
+lib/libfakekey.la
+lib/pkgconfig/libfakekey.pc
