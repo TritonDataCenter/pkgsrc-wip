@@ -7,10 +7,12 @@ libexec/distbb/get_direct_pkgname_deps
 libexec/distbb/make-depends
 libexec/distbb/slave
 libexec/distbb/stage_build
+libexec/distbb/stage_checksum
 libexec/distbb/stage_gen_report
 libexec/distbb/stage_init
 libexec/distbb/stage_post_build
 libexec/distbb/stage_report
+libexec/distbb/stage_summary
 libexec/distbb/stage_update_best
 libexec/distbb/stage_upload
 libexec/distbb/stage_upload_logs
