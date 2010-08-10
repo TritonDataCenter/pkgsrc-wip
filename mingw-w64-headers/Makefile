@@ -29,12 +29,13 @@ INSTALL_DIRS=		../build
 
 CONFIGURE_SCRIPT=	${WRKSRC}/mingw-w64-headers/configure
 
-INSTALLATION_DIRS+=	cross/x86_64-w64-mingw32/lib
+INSTALLATION_DIRS+=	x86_64-w64-mingw32/lib
 
 post-extract:
 	mkdir ${WRKDIR}/build
 
 post-install:
 	ln -sf x86_64-w64-mingw32 ${DESTDIR}${PREFIX}/mingw
+	ln -sf lib ${DESTDIR}${PREFIX}/x86_64-w64-mingw32/lib64
 
 .include "../../mk/bsd.pkg.mk"
