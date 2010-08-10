@@ -2113,6 +2113,7 @@ SUBDIR+=	pyzor
 SUBDIR+=	q3-urbanterror
 SUBDIR+=	qca2-gnupg
 SUBDIR+=	qcomicbook
+SUBDIR+=	qdevelop
 SUBDIR+=	qemu-neo1973
 SUBDIR+=	qemu-neo1973-images
 SUBDIR+=	qgis
