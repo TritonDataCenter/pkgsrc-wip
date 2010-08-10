@@ -4,6 +4,7 @@
 COMMENT=	WIP pkgsrc packages
 
 SUBDIR+=	389-ds-base
+SUBDIR+=	Box2D
 SUBDIR+=	Chinput
 SUBDIR+=	FontManager
 SUBDIR+=	GNUMail-pgp
