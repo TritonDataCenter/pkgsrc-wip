@@ -144,11 +144,6 @@ ${PYSITELIB}/rope/contrib/fixsyntax.pyo
 ${PYSITELIB}/rope/contrib/generate.py
 ${PYSITELIB}/rope/contrib/generate.pyc
 ${PYSITELIB}/rope/contrib/generate.pyo
-${PYSITELIB}/rope/docs/contributing.txt
-${PYSITELIB}/rope/docs/done.txt
-${PYSITELIB}/rope/docs/library.txt
-${PYSITELIB}/rope/docs/overview.txt
-${PYSITELIB}/rope/docs/rope.txt
 ${PYSITELIB}/rope/refactor/__init__.py
 ${PYSITELIB}/rope/refactor/__init__.pyc
 ${PYSITELIB}/rope/refactor/__init__.pyo
