@@ -6,7 +6,7 @@ BUILDLINK_TREE+=	gtkglextmm
 GTKGLEXTMM_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.gtkglextmm+=	gtkglextmm>=1.2.0
-BUILDLINK_PKGSRCDIR.gtkglextmm?=	../../category/gtkglextmm
+BUILDLINK_PKGSRCDIR.gtkglextmm?=	../../wip/gtkglextmm
 
 .include "../../graphics/gtkglext/buildlink3.mk"
 .include "../../x11/gtkmm/buildlink3.mk"
