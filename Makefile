@@ -650,6 +650,7 @@ SUBDIR+=	gtk2hs
 SUBDIR+=	gtkada
 SUBDIR+=	gtkaml
 SUBDIR+=	gtkfontsel
+SUBDIR+=	gtkglextmm
 SUBDIR+=	gtkglk
 SUBDIR+=	gtkhotkey
 SUBDIR+=	gtklookat
