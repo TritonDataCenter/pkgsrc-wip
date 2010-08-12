@@ -16,6 +16,7 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 .include "options.mk"
 
 CONFLICTS+=		tclman80-[0-9]*
+CONFLICTS+=             tcl86-* tcl-[0-9]*
 
 WRKSRC=			${WRKDIR}/tcl${TCL_PKGSRC_PATCHLEVEL}
 
@@ -39,6 +40,5 @@ DESTDIRPREFIX=          ${DESTDIR}${PREFIX}
 
 post-install:
 	mv ${DESTDIRPREFIX:Q}/lib/tclConfig.sh ${DESTDIRPREFIX:Q}/lib/tcl${TCL_PKGSRC_VERSION}
-	cd ${DESTDIR:Q}${PREFIX:Q}/bin && ln -s tclsh8.5 tclsh
 
 .include "../../mk/bsd.pkg.mk"
