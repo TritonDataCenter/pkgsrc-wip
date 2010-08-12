@@ -15,7 +15,7 @@ GNU_CONFIGURE=	yes
 USE_LANGUAGES+= c fortran77 c++
 CONFIGURE_ARGS+= --prefix=${PREFIX}
 
-USE_TOOLS+=	aclocal autoconf automake
+USE_TOOLS+=	pkg-config aclocal autoconf automake
 USE_LIBTOOL=	yes
 USE_NCURSES=	yes
 
