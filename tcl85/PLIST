@@ -1,5 +1,4 @@
 @comment $NetBSD$
-bin/tclsh
 bin/tclsh8.5
 include/tcl.h
 include/tclDecls.h
