@@ -58,6 +58,7 @@ OWN_DIRS_PERMS+=	${VARBASE}/run/milter-manager \
 	applicable-conditions/s25r.conf \
 	applicable-conditions/sendmail-compatible.conf \
 	applicable-conditions/stress.conf \
+	applicable-conditions/trust.conf \
 	defaults/pkgsrc.conf
 CONF_FILES+=	${EGDIR}/${conf} ${PKG_SYSCONFDIR}/${conf}
 .endfor
