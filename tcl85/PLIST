@@ -932,4 +932,3 @@ man/mann/upvar.n
 man/mann/variable.n
 man/mann/vwait.n
 man/mann/while.n
-@pkgdir lib/tcl8/8.3
