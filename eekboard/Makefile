@@ -23,6 +23,8 @@ PKGCONFIG_OVERRIDE+=	eek/eek-xkb-0.1.pc.in
 PKGCONFIG_OVERRIDE+=	eek/eek-clutter-0.1.pc.in
 PKGCONFIG_OVERRIDE+=	eek/eek-gtk-0.1.pc.in
 
+TEST_TARGET=		check
+
 .include "../../devel/GConf/buildlink3.mk"
 .include "../../devel/at-spi/buildlink3.mk"
 .include "../../devel/gettext-lib/buildlink3.mk"
