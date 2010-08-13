@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-PKGVERSION=	5.2.25
+PKGVERSION=	5.2.26
 DISTNAME=	mysql-workbench-gpl-${PKGVERSION}
 PKGNAME=	${DISTNAME:S/-gpl//}
 CATEGORIES=	databases
