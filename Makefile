@@ -2362,7 +2362,6 @@ SUBDIR+=	teamspeak
 SUBDIR+=	teco
 SUBDIR+=	telepathy-butterfly
 SUBDIR+=	telepathy-logger
-SUBDIR+=	tellico
 SUBDIR+=	tendra
 SUBDIR+=	tendra.org-sid
 SUBDIR+=	tenmado
