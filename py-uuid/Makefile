@@ -1,11 +1,11 @@
 # $NetBSD$
 #
 
-DISTNAME=	uuid-1.30.tar
-PKGNAME=	${PYPKGPREFIX}-${DISTNAME:S/.tar//}
+DISTNAME=	uuid-1.30
+PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	net
 MASTER_SITES=	http://pypi.python.org/packages/source/u/uuid/
-EXTRACT_SUFX=	.gz#md5=639b310f1fe6800e4bf8aa1dd9333117
+EXTRACT_SUFX=	.tar.gz
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	http://pypi.python.org/pypi/uuid/1.30
