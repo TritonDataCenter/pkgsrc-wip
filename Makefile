@@ -2022,6 +2022,7 @@ SUBDIR+=	py-pydot
 SUBDIR+=	py-pyecm
 SUBDIR+=	py-pyentropy
 SUBDIR+=	py-pyevolve
+SUBDIR+=	py-pyexiv2
 SUBDIR+=	py-pygr
 SUBDIR+=	py-pygi
 SUBDIR+=	py-pypedal
