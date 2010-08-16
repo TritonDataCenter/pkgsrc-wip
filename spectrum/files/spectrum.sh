@@ -7,11 +7,18 @@
 # PROVIDE: spectrum
 # REQUIRE: DAEMON s2s
 #
+if [ -f /etc/rc.subr ]; then
+    . /etc/rc.subr
+fi
 
 name="spectrum"
 rcvar="$name"
 procname="$name"
 command=@PREFIX@/bin/spectrumctl
+
+start_cmd="$command start"
+restart_cmd="$command restart"
+stop_cmd="$command stop"
 
 ensure_piddir()
 {
@@ -20,7 +27,6 @@ ensure_piddir()
 }
 
 if [ -f /etc/rc.subr ]; then
-	. /etc/rc.subr
 	load_rc_config $name
 	run_rc_command "$1"
 else
