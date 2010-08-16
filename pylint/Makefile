@@ -15,10 +15,18 @@ LICENSE=	gnu-gpl-v2
 DEPENDS+=	${PYPKGPREFIX}-logilab-astng>=0.20.0:../../wip/py-logilab-astng
 
 PKG_DESTDIR_SUPPORT=		user-destdir
+PLIST_SUBST+=	PYVERSSUFFIX=${PYVERSSUFFIX}
 
 DOCDIR=	${PREFIX}/share/doc/pylint
 
 INSTALLATION_DIRS=	${DOCDIR} ${PKGMANDIR}/man1
+
+post-extract:
+	${MV} ${WRKSRC}/bin/epylint ${WRKSRC}/bin/epylint${PYVERSSUFFIX}
+	${MV} ${WRKSRC}/bin/pylint ${WRKSRC}/bin/pylint${PYVERSSUFFIX}
+	${MV} ${WRKSRC}/bin/pylint-gui ${WRKSRC}/bin/pylint-gui${PYVERSSUFFIX}
+	${MV} ${WRKSRC}/bin/pyreverse ${WRKSRC}/bin/pyreverse${PYVERSSUFFIX}
+	${MV} ${WRKSRC}/bin/symilar ${WRKSRC}/bin/symilar${PYVERSSUFFIX}
 
 post-install:
 	${INSTALL_DATA} ${WRKSRC}/doc/*.txt ${DESTDIR}${DOCDIR}
