@@ -1220,6 +1220,7 @@ SUBDIR+=	logrotate
 SUBDIR+=	lorder
 SUBDIR+=	lpdsrv
 SUBDIR+=	ltrace
+SUBDIR+=	lrslib
 SUBDIR+=	lua-lrexlib
 SUBDIR+=	lua-lrexlib-onig
 SUBDIR+=	lua-lrexlib-pcre
