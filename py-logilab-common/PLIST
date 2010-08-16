@@ -1,5 +1,5 @@
 @comment $NetBSD$
-bin/pytest
+bin/pytest2.6
 ${PYSITELIB}/logilab/__init__.py
 ${PYSITELIB}/logilab/common/__init__.py
 ${PYSITELIB}/logilab/common/__init__.pyc

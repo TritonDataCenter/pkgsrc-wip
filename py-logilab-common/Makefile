@@ -4,7 +4,7 @@
 VERS=	0.50.3
 DISTNAME=	logilab-common-${VERS}
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
-EGG_NAME=	logilab-common-
+EGG_NAME=	logilab_common-${VERS}
 CATEGORIES=	devel python
 MASTER_SITES=	http://ftp.logilab.org/pub/common/
 
@@ -17,9 +17,13 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 
 USE_LANGUAGES=	# none
 
-PYTHON_VERSIONS_ACCEPTED= 26 25 24 23
+PYTHON_VERSIONS_ACCEPTED= 26 25 24
+PLIST_SUBST+=	PYVERSSUFFIX=${PYVERSSUFFIX}
 
 INSTALLATION_DIRS=	${PKGMANDIR}/man1
+
+post-extract:
+	${MV} ${WRKSRC}/bin/pytest ${WRKSRC}/bin/pytest${PYVERSSUFFIX}
 
 post-install:
 	${INSTALL_MAN} ${WRKSRC}/doc/pytest.1 \

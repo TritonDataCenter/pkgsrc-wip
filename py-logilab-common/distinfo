@@ -3,3 +3,4 @@ $NetBSD$
 SHA1 (logilab-common-0.50.1.tar.gz) = c646f48bf347b5838481ecf48792ad80d0013373
 RMD160 (logilab-common-0.50.1.tar.gz) = 2dc00fbf9e0d766994e60cecb8c9fd561142da6d
 Size (logilab-common-0.50.1.tar.gz) = 164975 bytes
+SHA1 (patch-aa) = 6275c852553469b256954a62de728ae80350a649
