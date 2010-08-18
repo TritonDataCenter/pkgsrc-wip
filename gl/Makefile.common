@@ -24,7 +24,7 @@ PATCHDIR=	${.CURDIR}/../../wip/gl/patches
 
 WRKSRC=		${WRKDIR}/Mesa-${MESA_VERSION}
 GNU_CONFIGURE=	yes
-USE_LIBTOOL=	yes
+#USE_LIBTOOL=	yes
 USE_TOOLS+=	gmake pkg-config makedepend
 USE_LANGUAGES=	c99
 
@@ -32,3 +32,5 @@ CONFIGURE_ARGS+=	--disable-gallium
 CONFIGURE_ARGS+=	--disable-egl
 CONFIGURE_ARGS+=	--disable-motif
 CONFIGURE_ARGS+=	--with-demos=""
+# XXX TODO
+CONFIGURE_ARGS+=	--disable-asm

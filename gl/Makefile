@@ -23,19 +23,16 @@ CONFIGURE_ARGS+=	--disable-glu
 CONFIGURE_ARGS+=	--disable-glut
 CONFIGURE_ARGS+=	--disable-glw
 
+# BUILD_DIRS= src/glx doesn't work if -dri
 SUBST_CLASSES+=		rm_mesa
 SUBST_FILES.rm_mesa=	configs/current
-SUBST_MESSAGE.rm_mesa=	Removing libmesa.la
-SUBST_SED.rm_mesa=	-e 's,SRC_DIRS = glx/x11 mesa glew,SRC_DIRS = glx/x11,'
+SUBST_MESSAGE.rm_mesa=	Removing libmesa.a
+SUBST_SED.rm_mesa=	-e 's,SRC_DIRS = glsl mesa glew glx,SRC_DIRS = glx,'
 SUBST_STAGE.rm_mesa=	post-configure
-
-# Not working for -dri
-#BUILD_DIRS=		src/glx/x11
-#BUILD_TARGET=		default
 
 SUBST_CLASSES+=		rm_mesa2
 SUBST_FILES.rm_mesa2=	src/mesa/Makefile
-SUBST_MESSAGE.rm_mesa2=	Removing libmesa.la part 2
+SUBST_MESSAGE.rm_mesa2=	Removing libmesa.a part 2
 SUBST_SED.rm_mesa2=	-e 's,install-libgl: default,install-libgl:,'
 SUBST_STAGE.rm_mesa2=	pre-install
 
