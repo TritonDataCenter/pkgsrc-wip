@@ -11,6 +11,8 @@ HOMEPAGE=	http://ryo-on.users.sourceforge.net/distrib/
 COMMENT=	Simple skk multi-dictionary server
 LICENSE=	gnu-gpl-v2
 
+DEPENDS=	skk-jisyo-cdb-[0-9]*:../../wip/skk-jisyo-cdb
+
 PKG_DESTDIR_SUPPORT=	user-destdir
 
 DOCSDIR=		${PREFIX}/share/doc/${PKGBASE}
