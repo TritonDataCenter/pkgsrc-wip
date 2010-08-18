@@ -22,7 +22,7 @@ CONFIGURE_ARGS+=	--disable-glu
 CONFIGURE_ARGS+=	--disable-glut
 CONFIGURE_ARGS+=	--disable-glw
 
-BUILD_DIRS=	src/mesa
+BUILD_DIRS=	src/glsl src/mesa
 BUILD_TARGET=	default
 
 INSTALL_DIRS=	src/mesa
