@@ -59,6 +59,7 @@ post-patch:
 pre-configure:
 	cp -p ${WRKDIR}/egg-anthy/anthy.el	${WRKSRC}/egg
 	cp -p ${WRKDIR}/egg-anthy/anthyipc.el	${WRKSRC}/egg
+	cat files/patch-aa | ( cd ${WRKSRC} ; patch -s -p0 )
 
 # take care anthy part needs some make
 post-install:
