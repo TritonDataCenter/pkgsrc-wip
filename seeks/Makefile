@@ -1,8 +1,8 @@
 # $NetBSD$
 #
 
-PKGNAME=	seeks-0.2.3a
-DISTNAME=	seeks_solo_stable-0.2.3a.src
+PKGNAME=	seeks-0.2.4
+DISTNAME=	seeks_solo_stable-0.2.4
 CATEGORIES=	local
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=seeks/}
 
