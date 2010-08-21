@@ -10,7 +10,7 @@ HOMEPAGE=	http://apocalypse.rulez.org/vacuum
 COMMENT=	Vacuum Magic, a fast-paced action game
 
 DEPENDS+=	p5-SDL>=1.20.0:../../devel/p5-SDL
-DEPENDS+=	p5-Compress-Zlib-[0-9]*:../../devel/p5-Compress-Zlib
+DEPENDS+=	p5-IO-Compress-[0-9]*:../../devel/p5-IO-Compress
 DEPENDS+=	p5-MIME-Base64-[0-9]*:../../converters/p5-MIME-Base64
 
 GNU_CONFIGURE=	yes

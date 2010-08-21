@@ -47,5 +47,5 @@ do-test:
 .include "../../lang/python/application.mk"
 .include "../../lang/python/extension.mk"
 .include "../../security/py-amkCrypto/buildlink3.mk"
-.include "../../wip/py-gmpy/buildlink3.mk"
+.include "../../math/py-gmpy/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
