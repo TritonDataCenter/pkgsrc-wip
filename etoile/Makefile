@@ -15,8 +15,8 @@ USE_LANGUAGES=	objc
 
 MAKE_FILE=	GNUmakefile
 
-DEPENDS+=	etoile-core:../../gnustep/etoile-core
-DEPENDS+=	etoile-services:../../gnustep/etoile-services
+DEPENDS+=	etoile-core:../../wip/etoile-core
+DEPENDS+=	etoile-services:../../wip/etoile-services
 # DictionaryReader
 # Font Manager
 # Melodie

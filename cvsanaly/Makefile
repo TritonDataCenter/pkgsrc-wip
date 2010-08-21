@@ -34,5 +34,5 @@ post-install:
 
 .include "../../devel/subversion-base/buildlink3.mk"
 .include "../../lang/python/extension.mk"
-.include "../../wip/repositoryhandler/buildlink3.mk"
+.include "../../wip/py-repositoryhandler/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
