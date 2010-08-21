@@ -4,7 +4,7 @@
 DISTNAME=	ipython-0.10
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 PKGREVISION=	3
-CATEGORI
+CATEGORIES=	lang
 MASTER_SITES=	http://ipython.scipy.org/dist/
 
 MAINTAINER=	tonnerre@NetBSD.org
