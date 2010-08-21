@@ -51,7 +51,7 @@ pre-configure:
 	${MKDIR} ${WRKSRC}/_ParaView_build
 
 
-#.include "../../parallel/mpi-ch/buildlink3.mk"
+#.include "../../mk/mpi.buildlink3.mk"
 .include "../../x11/libXt/buildlink3.mk"
 .include "../../x11/qt4-tools/buildlink3.mk"
 .include "../../x11/qt4-libs/buildlink3.mk"
