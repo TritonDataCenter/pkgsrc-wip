@@ -1083,7 +1083,6 @@ SUBDIR+=	last.fm
 SUBDIR+=	lastfm-sharp
 SUBDIR+=	lat
 SUBDIR+=	lateef-shaikh-ttf
-SUBDIR+=	lcal
 SUBDIR+=	lcalc
 SUBDIR+=	lcdproc
 SUBDIR+=	lcrack
