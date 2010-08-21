@@ -11,6 +11,8 @@ COMMENT=		Remote Desktop Protocol server
 
 USE_TOOLS+=		gmake
 
+PKG_DESTDIR_SUPPORT=	user-destdir
+
 EGDIR=			${PREFIX}/share/examples/xrdp
 MAKE_ENV+=		DESTDIR=${PREFIX:Q}
 MAKE_ENV+=		CFGDIR=${EGDIR:Q}
@@ -19,8 +21,7 @@ MAKE_ENV+=		MANDIR=${PREFIX:Q}/${PKGMANDIR:Q}
 MAKE_ENV+=		DOCDIR=${PREFIX:Q}/share/doc/xrdp
 MAKE_ENV+=		DLLIB=${BUILDLINK_LDADD.dl}
 
-INSTALLATION_DIRS+=	bin share/doc/xrdp share/xrdp
-INSTALLATION_DIRS+=	${EGDIR} share/examples/pam.d
+AUTO_MKDIRS=		yes
 
 PKG_SYSCONFSUBDIR=	xrdp
 CONF_FILES+=		${EGDIR}/sesman.ini	${PKG_SYSCONFDIR}/sesman.ini
