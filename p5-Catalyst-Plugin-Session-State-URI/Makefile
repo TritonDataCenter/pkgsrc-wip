@@ -16,7 +16,7 @@ DEPENDS+=	p5-HTML-TokeParser-Simple>=0:../../www/p5-HTML-TokeParser-Simple
 DEPENDS+=	p5-MIME-Types>=0:../../mail/p5-MIME-Types
 DEPENDS+=	p5-Test-MockObject>=1.01:../../devel/p5-Test-MockObject
 DEPENDS+=	p5-URI>=0:../../www/p5-URI
-DEPENDS+=	p5-URI-Find>=0:../../wip/p5-URI-Find
+DEPENDS+=	p5-URI-Find>=0:../../www/p5-URI-Find
 
 # PERL5_MODULE_TYPE=	Module::Build
 
