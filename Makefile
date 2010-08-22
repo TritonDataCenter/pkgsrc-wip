@@ -1071,7 +1071,6 @@ SUBDIR+=	krusader
 SUBDIR+=	kuickshow
 SUBDIR+=	kvirc
 SUBDIR+=	kxmleditor
-SUBDIR+=	kylix-openedition
 SUBDIR+=	kyra
 SUBDIR+=	kyra2
 SUBDIR+=	l2tpd
