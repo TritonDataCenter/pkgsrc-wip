@@ -2103,6 +2103,7 @@ SUBDIR+=	pypod
 SUBDIR+=	pysite
 SUBDIR+=	python27
 SUBDIR+=	python31
+SUBDIR+=	pythoncad
 SUBDIR+=	pywm
 SUBDIR+=	pyzor
 SUBDIR+=	q3-urbanterror
