@@ -13,7 +13,7 @@ MAINTAINER=	adam@migus.org
 HOMEPAGE=	http://axkit.org/
 COMMENT=	AxKit is an XML Application Server for Apache
 
-DEPENDS+=	p5-Compress-Zlib>=1.21:../../devel/p5-Compress-Zlib
+DEPENDS+=	p5-IO-Compress>=1.21:../../devel/p5-IO-Compress
 DEPENDS+=	p5-Digest-MD5>=2.09:../../security/p5-Digest-MD5
 DEPENDS+=	p5-Error>=0.14:../../devel/p5-Error
 DEPENDS+=	p5-libapreq>=0.32:../../www/p5-libapreq
