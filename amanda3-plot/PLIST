@@ -1,0 +1,7 @@
+@comment $NetBSD$
+libexec/amanda/amcat.awk
+libexec/amanda/amplot.awk
+libexec/amanda/amplot.g
+libexec/amanda/amplot.gp
+man/man8/amplot.8
+sbin/amplot
