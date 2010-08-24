@@ -1,0 +1,12 @@
+# $NetBSD$
+
+BUILDLINK_TREE+=	jython
+
+.if !defined(JYTHON_BUILDLINK3_MK)
+JYTHON_BUILDLINK3_MK:=
+
+BUILDLINK_API_DEPENDS.jython+=	jython>=2.5.2b1
+BUILDLINK_PKGSRCDIR.jython?=	../../wip/jython
+.endif	# JYTHON_BUILDLINK3_MK
+
+BUILDLINK_TREE+=	-jython
