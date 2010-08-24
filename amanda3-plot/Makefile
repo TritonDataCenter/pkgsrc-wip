@@ -2,7 +2,6 @@
 #
 
 PKGNAME=		amanda-plot-${VERS}
-PKGREVISION=		1
 SVR4_PKGNAME=		amapl
 
 COMMENT=		Visualizes the behavior of Amanda, a network backup system
