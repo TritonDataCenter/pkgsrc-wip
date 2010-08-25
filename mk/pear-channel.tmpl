@@ -1,0 +1,15 @@
+# $NetBSD$
+#
+# Rebuild the PEAR channels registry.
+#
+
+PEAR_CMD="@PEAR_CMD@"
+
+case ${STAGE} in
+POST-INSTALL)
+	${PEAR_CMD} channel-add ${PREFIX}/@PEAR_CHANNELS_SUBDIR@/@PEAR_CHANNEL@
+	;;
+DEINSTALL)
+	${PEAR_CMD} channel-delete @PEAR_CHANNEL@
+	;;
+esac
