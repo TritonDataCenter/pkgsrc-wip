@@ -1,16 +1,16 @@
-# $NetBSD: Makefile,v 1.20 2007/12/02 00:11:10 wiz Exp $
+# $NetBSD: Makefile,v 1.21 2010/04/20 19:23:14 zafer Exp $
 #
 
-DISTNAME=	mawk-1.3.4
+DISTNAME=	mawk-1.3.4-20100625
 PKGNAME=	${DISTNAME:S/-20/.20/:S/mawk/mawk-uxre/}
 CATEGORIES=	lang
 MASTER_SITES=	ftp://invisible-island.net/mawk/
 EXTRACT_SUFX=	.tgz
 
-MAINTAINER=		vle@gmx.net
-COMMENT=		AWK clone by Mike Brennan
+MAINTAINER=	vle@gmx.net
+COMMENT=	AWK clone by Mike Brennan
 
-LICENSE=		gnu-gpl-v2
+LICENSE=	gnu-gpl-v2
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
