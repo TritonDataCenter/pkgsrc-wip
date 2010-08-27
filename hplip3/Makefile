@@ -16,12 +16,11 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_LANGUAGES+=	c c++ fortran
-USE_TOOLS+=	autoconf automake gmake
+USE_TOOLS+=	autoconf automake gmake pkg-config
 
 CONFIGURE_ARGS= --sysconfdir=${PKG_SYSCONFDIR} \
 		--with-cupsbackenddir=${PREFIX}/libexec/cups/backend \
-		--with-cupsfilterdir=${PREFIX}/libexec/cups/filter \
-		--enable-dbus-build=false
+		--with-cupsfilterdir=${PREFIX}/libexec/cups/filter
 
 REPLACE_PYTHON=	base/magic.py
 REPLACE_PERL=	prnt/filters/hpcac prnt/hpijs/foomatic-rip-hplip
@@ -41,4 +40,5 @@ pre-configure:
 .include "../../print/cups/buildlink3.mk"
 .include "../../devel/libusb/buildlink3.mk"
 .include "../../graphics/sane-backends/buildlink3.mk"
+.include "../../sysutils/dbus/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
