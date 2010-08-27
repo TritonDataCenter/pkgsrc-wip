@@ -1482,7 +1482,6 @@ SUBDIR+=	openoffice2-bin-tn
 SUBDIR+=	openoffice2-bin-ts
 SUBDIR+=	openoffice2-bin-xh
 SUBDIR+=	openoffice2-bin-zu
-SUBDIR+=	openscenegraph
 SUBDIR+=	openscep
 SUBDIR+=	opensips
 SUBDIR+=	opentracker-current
