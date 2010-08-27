@@ -1,15 +1,15 @@
 # $NetBSD$
 #
 
-DISTNAME=	hplip-3.10.2
+DISTNAME=	hplip-3.10.6
 PKGREVISION=	1
-CATEGORIES=	wip
-MASTER_SITES=	http://downloads.sourceforge.net/project/hplip/hplip/3.10.2/
+CATEGORIES=	print
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=hplip/}
 
 MAINTAINER=	khorben@defora.org
-HOMEPAGE=	http://downloads.sourceforge.net/project/hplip/hplip/3.10.2/
-COMMENT=	HP Linux imaging and printing
-#LICENSE=	# TODO: (see mk/license.mk)
+HOMEPAGE=	http://hplip.sourceforge.net/
+COMMENT=	HP Linux Imaging and Printing
+LICENSE=	gnu-gpl-v2 AND mit AND modified-bsd
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
@@ -23,7 +23,13 @@ CONFIGURE_ARGS= --sysconfdir=${PKG_SYSCONFDIR} \
 		--with-cupsfilterdir=${PREFIX}/libexec/cups/filter \
 		--enable-dbus-build=false
 
+REPLACE_PYTHON=	base/magic.py
+REPLACE_PERL=	prnt/filters/hpcac prnt/hpijs/foomatic-rip-hplip
+
+PY_PATCHPLIST=	yes
+
 .include "../../lang/python/application.mk"
+.include "../../lang/python/extension.mk"
 .include "../../graphics/jpeg/buildlink3.mk"
 .include "../../net/net-snmp/buildlink3.mk"
 .include "../../print/cups/buildlink3.mk"
