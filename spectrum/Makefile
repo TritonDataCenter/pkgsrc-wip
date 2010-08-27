@@ -1,6 +1,6 @@
 # $NetBSD: Makefile-example,v 1.18 2009/05/18 17:09:43 agc Exp $
 
-DISTNAME=		spectrum-1.4.0
+DISTNAME=		spectrum-1.4.1
 CATEGORIES=		chat
 
 # Second paragraph - MAINTAINER/OWNER, HOMEPAGE and COMMENT, and LICEN[CS]E
@@ -8,7 +8,7 @@ MAINTAINER=		eric@cirr.com
 HOMEPAGE=		http://spectrum.im/
 COMMENT=		XMPP transport/gateway based on libpurple
 LICENSE=		gnu-gpl-v3
-MASTER_SITES=		http://spectrum.im/attachments/download/15/
+MASTER_SITES=		http://spectrum.im/attachments/download/19/
 
 DEPENDS+=		${PYPKGPREFIX}-xmpppy>=0.4.1:../../wip/py-xmpppy
 DEPENDS+=		${PYPKGPREFIX}-expat>=0nb4:../../textproc/py-expat
