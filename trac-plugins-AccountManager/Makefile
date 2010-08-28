@@ -14,7 +14,7 @@ COMMENT=	User account management plugin for Trac
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
-DEPENDS+=	trac>=0.12:../../www/trac
+DEPENDS+=	{,ja-}trac>=0.12:../../www/trac
 
 SVN_REV=	8246
 SVN_MOD=	accountmanagerplugin/trunk
