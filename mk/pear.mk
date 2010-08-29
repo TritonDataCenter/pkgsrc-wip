@@ -54,7 +54,7 @@ post-extract:
 
 do-install:
 	cd ${WRKSRC} && ${SETENV} TZ=UTC \
-		${PEAR_CMD} "install" ${PEAR_DESTDIR} -n package.xml || exit 1
+		${PEAR_CMD} "install" ${PEAR_DESTDIR} -n -O package.xml || exit 1
 
 .if ${_USE_DESTDIR} != "no"
 CHECK_FILES_SKIP+=	${PREFIX}/lib/php/\.channels/\.alias/.*\.txt
