@@ -21,6 +21,7 @@ GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_LANGUAGES+=	c c++ fortran
 USE_TOOLS+=	aclocal autoconf automake gmake pkg-config
+USE_TOOLS+=	perl:run
 
 CONFIGURE_ARGS=	--sysconfdir=${PKG_SYSCONFDIR} \
 		--localstatedir=${VARBASE} \
@@ -54,7 +55,7 @@ CONF_FILES+=	${EGDIR}/${file} ${PKG_SYSCONFDIR}/${file}
 .endfor
 CONF_FILES+=	${EGDIR}/lib/hp/hplip.state ${VARBASE}/lib/hp/hplip.state
 
-REPLACE_PYTHON=	base/magic.py
+REPLACE_PYTHON=	*.py */*.py */*/*.py
 REPLACE_PERL=	prnt/filters/hpcac prnt/hpijs/foomatic-rip-hplip
 
 PY_PATCHPLIST=	yes
