@@ -43,9 +43,12 @@ FILES_SUBST+=	PEAR_CHANNEL=${PEAR_CHANNEL}
 INSTALL_TEMPLATES+=	../../wip/mk/pear-channel.tmpl
 DEINSTALL_TEMPLATES+=	../../wip/mk/pear-channel.tmpl
 
+.if !exists(${CURDIR}/DESCR)
 DESCR_SRC=	${WRKDIR}/DESCR_SRC
+do-extract:	pear-channel-descr
+.endif
 
-do-extract:	pear-channel-extract pear-channel-descr
+do-extract:	pear-channel-extract
 
 do-install:	pear-channel-install
 
