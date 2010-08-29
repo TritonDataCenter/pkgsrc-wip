@@ -14,7 +14,7 @@ ${GEM_LIBDIR}/ext/dnssd/flags.c
 ${GEM_LIBDIR}/ext/dnssd/record.c
 ${GEM_LIBDIR}/ext/dnssd/service.c
 ${GEM_LIBDIR}/lib/dnssd.rb
-${GEM_LIBDIR}/lib/dnssd.${RUBY_DLEXT}
+${GEM_LIBDIR}/lib/dnssd/dnssd.${RUBY_DLEXT}
 ${GEM_LIBDIR}/lib/dnssd/flags.rb
 ${GEM_LIBDIR}/lib/dnssd/record.rb
 ${GEM_LIBDIR}/lib/dnssd/reply.rb
