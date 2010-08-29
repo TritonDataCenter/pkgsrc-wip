@@ -3,3 +3,4 @@ $NetBSD$
 SHA1 (Browser-0.3.1.tar.gz) = 2180872f27f850043e61af7aefc2876503e5f0ee
 RMD160 (Browser-0.3.1.tar.gz) = e35edbb42d069e865a7cde1a5c13da626d6d67fe
 Size (Browser-0.3.1.tar.gz) = 77932 bytes
+SHA1 (patch-aa) = fd2195901e78e0e038140c6acca00155be4adb4b

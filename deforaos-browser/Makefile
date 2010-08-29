@@ -2,7 +2,7 @@
 
 DISTNAME=	Browser-0.3.1
 PKGNAME=	deforaos-browser-0.3.1
-PKGREVISION=	1
+PKGREVISION=	2
 CATEGORIES=	sysutils
 MASTER_SITES=	http://www.defora.org/os/download/download/3393/
 
