@@ -14,5 +14,5 @@ DEPENDS+=		${PHP_PKG_PREFIX}-dom-[0-9]*:../../textproc/php-dom
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
-.include "../../wip/mk/pear.mk"
+.include "../../lang/php/pear.mk"
 .include "../../mk/bsd.pkg.mk"
