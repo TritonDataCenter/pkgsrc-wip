@@ -38,7 +38,6 @@ ${GEM_LIBDIR}/sample/server.rb
 ${GEM_LIBDIR}/sample/socket.rb
 ${GEM_LIBDIR}/test/test_dnssd.rb
 ${GEM_LIBDIR}/test/test_dnssd_flags.rb
-${GEM_LIBDIR}/test/test_dnssd_getaddrinfo.rb
 ${GEM_LIBDIR}/test/test_dnssd_record.rb
 ${GEM_LIBDIR}/test/test_dnssd_reply.rb
 ${GEM_LIBDIR}/test/test_dnssd_reply_browse.rb
