@@ -10,7 +10,6 @@
 #
 # PEAR_LIB	directory under ${PREFIX} where Pear modules are installed
 #
-# PEAR_CHANNEL	channel name for the package
 
 .if !defined(_PEAR_PACKAGE_MK)
 _PEAR_PACKAGE_MK=       # defined
