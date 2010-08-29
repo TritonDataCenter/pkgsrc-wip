@@ -24,6 +24,15 @@ $NetBSD$
  hplip_conf_DATA = hplip.conf
  
  #pstotiff filter
+@@ -109,7 +109,7 @@ pstotiffdir = $(cupsfilterdir)
+ pstotiff_SCRIPTS = fax/filters/pstotiff
+ 
+ # hplip.state
+-hplip_statedir = /var/lib/hp
++hplip_statedir = $(localstatedir)/lib/hp
+ dist_hplip_state_DATA = hplip.state
+ 
+ if FULL_BUILD
 @@ -317,9 +317,9 @@ endif
  
  # PolicyKit
