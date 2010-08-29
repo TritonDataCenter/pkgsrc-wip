@@ -1,10 +1,10 @@
 # $NetBSD$
 
-DISTNAME=	Browser-0.1.4
-PKGNAME=	deforaos-browser-0.1.4
+DISTNAME=	Browser-0.3.1
+PKGNAME=	deforaos-browser-0.3.1
 PKGREVISION=	1
 CATEGORIES=	sysutils
-MASTER_SITES=	http://www.defora.org/os/download/download/3328/
+MASTER_SITES=	http://www.defora.org/os/download/download/3393/
 
 MAINTAINER=	khorben@defora.org
 HOMEPAGE=	http://www.defora.org/
