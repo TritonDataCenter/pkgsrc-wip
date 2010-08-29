@@ -8,9 +8,11 @@ CATEGORIES=		games
 MASTER_SITES=		http://download.berlios.de/lincity-ng/ \
 			http://download2.berlios.de/lincity-ng/
 
+#LICENSE=		gnu-gpl-v2 AND see COPYING-fonts.txt
+
 EXTRACT_SUFX=		.tar.bz2
 
-MAINTAINER=		cheusov@tut.by
+MAINTAINER=		pkgsrc-users@NetBSD.org,cheusov@tut.by
 HOMEPAGE=		http://prdownload.berlios.de/lincity-ng/
 COMMENT=		City Simulation Game
 
