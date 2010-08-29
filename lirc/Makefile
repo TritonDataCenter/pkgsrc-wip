@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		lirc-0.8.0
-CATEGORIES=		wip comms linux
+CATEGORIES=		comms
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=lirc/}
 EXTRACT_SUFX=		.tar.bz2
 
