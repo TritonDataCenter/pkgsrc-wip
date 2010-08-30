@@ -47,8 +47,7 @@ INSTALL_MAKE_FLAGS+=	systraydir=${EGDIR}/xdg/autostart
 INSTALL_MAKE_FLAGS+=	mimedir=${EGDIR}/cups
 
 OWN_DIRS+=		${PKG_SYSCONFDIR}/hp
-OWN_DIRS+=		${PKG_SYSCONFDIR}/cups
-OWN_DIRS+=		${PKG_SYSCONFDIR}/xdg/autostart
+MAKE_DIRS+=		${PKG_SYSCONFDIR}/xdg/autostart
 OWN_DIRS+=		${VARBASE}/lib/hp
 
 .for file in ${EGFILES}

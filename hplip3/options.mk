@@ -17,6 +17,7 @@ PLIST.fax=		yes
 CONFIGURE_ARGS+=	--enable-fax-build
 CONFIGURE_ARGS+=	--enable-dbus-build
 EGFILES+=		cups/pstotiff.convs cups/pstotiff.types
+MAKE_DIRS+=		${PKG_SYSCONFDIR}/cups
 DEPENDS+=	${PYPKGPREFIX}-reportlab-[0-9]*:../../print/py-reportlab
 .include "../../sysutils/dbus/buildlink3.mk"
 .include "../../sysutils/py-dbus/buildlink3.mk"
