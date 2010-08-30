@@ -50,6 +50,8 @@ OWN_DIRS+=		${PKG_SYSCONFDIR}/hp
 MAKE_DIRS+=		${PKG_SYSCONFDIR}/xdg/autostart
 OWN_DIRS+=		${VARBASE}/lib/hp
 
+.include "options.mk"
+
 .for file in ${EGFILES}
 CONF_FILES+=		${EGDIR}/${file} ${PKG_SYSCONFDIR}/${file}
 .endfor
@@ -88,8 +90,6 @@ pre-configure:
 post-install:
 	${CHMOD} a-x ${DESTDIR}${PREFIX}/share/hplip/__init__.py
 	${PY_COMPILE_ALL} ${DESTDIR}${PREFIX}/share/hplip
-
-.include "options.mk"
 
 .include "../../lang/python/application.mk"
 .include "../../lang/python/extension.mk"
