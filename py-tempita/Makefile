@@ -1,12 +1,11 @@
 # $NetBSD$
 #
 
-DISTNAME=	Tempita-0.4.tar
-EGG_NAME=	${DISTNAME:S/.tar//}
-PKGNAME=	${PYPKGPREFIX}-${DISTNAME:S/T/t/S/.tar//}
-CATEGORIES=	www
+DISTNAME=	Tempita-0.4
+EGG_NAME=	${DISTNAME}
+PKGNAME=	${PYPKGPREFIX}-${DISTNAME:S/T/t/}
+CATEGORIES=	textproc
 MASTER_SITES=	http://pypi.python.org/packages/source/T/Tempita/
-EXTRACT_SUFX=	.gz
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	http://pythonpaste.org/tempita/
