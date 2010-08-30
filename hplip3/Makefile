@@ -86,6 +86,9 @@ BUILDLINK_TRANSFORM+=	opt:-ldl:${BUILDLINK_LDADD.dl:Q}
 pre-configure:
 	cd ${WRKSRC} && aclocal && automake --add-missing --foreign && autoconf
 
+post-install:
+	${CHMOD} a-x ${DESTDIR}${PREFIX}/share/hplip/__init__.py
+
 .include "options.mk"
 
 .include "../../lang/python/application.mk"
