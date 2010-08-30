@@ -1,0 +1,7 @@
+@comment $NetBSD$
+include/teng.h
+include/tengconfig.h
+include/tengerror.h
+include/tengstructs.h
+include/tengwriter.h
+lib/libteng.la
