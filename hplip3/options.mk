@@ -31,7 +31,6 @@ PLIST.scan=		yes
 CONFIGURE_ARGS+=	--enable-scan-build
 MESSAGE_SRC+=		MESSAGE.scan
 MESSAGE_SUBST+=		EGDIR=${EGDIR}
-DEPENDS+=	xsane-[0-9]*:../../graphics/xsane
 .include "../../graphics/sane-backends/buildlink3.mk"
 .include "../../graphics/py-imaging/buildlink3.mk"
 .else
