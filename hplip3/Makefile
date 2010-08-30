@@ -87,6 +87,7 @@ pre-configure:
 
 post-install:
 	${CHMOD} a-x ${DESTDIR}${PREFIX}/share/hplip/__init__.py
+	${PY_COMPILE_ALL} ${DESTDIR}${PREFIX}/share/hplip
 
 .include "options.mk"
 
