@@ -32,4 +32,5 @@ SUBST_SED.xaw=		-e 's,define XAW3D,,g'
 .endif
 
 .include "../../x11/libXtst/buildlink3.mk"
+.include "../../x11/libXp/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
