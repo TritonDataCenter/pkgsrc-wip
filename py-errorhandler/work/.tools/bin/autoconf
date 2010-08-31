@@ -1,5 +1,0 @@
-#!/bin/sh
-wrapperlog="${TOOLS_WRAPPER_LOG-/usr/pkgsrc/wip/py-errorhandler/work/.work.log}"
-echo "[*] "/usr/pkgsrc/wip/py-errorhandler/work/.tools/bin/autoconf" $@" >> $wrapperlog
-echo "<.> /usr/pkgsrc/mk/gnu-config/missing autoconf" >> $wrapperlog
-/usr/pkgsrc/mk/gnu-config/missing autoconf
