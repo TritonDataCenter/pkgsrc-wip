@@ -1,0 +1,33 @@
+============
+ErrorHandler
+============
+
+This is a handler for the python standard logging framework that can
+be used to tell whether messages have been logged at or above a
+certain level.
+
+This can be useful when wanting to ensure that no errors have been
+logged before committing data back to a database.
+
+As an example, first, you set up the error handler:
+
+>>> from errorhandler import ErrorHandler
+>>> e = ErrorHandler()
+
+Then you can log and check the handler at any point to see if it has
+been triggered:
+
+>>> e.fired
+False
+>>> from logging import getLogger
+>>> logger = getLogger()
+>>> logger.error('an error')
+>>> e.fired
+True
+
+You can use the `fired` attribute to only perform actions when no
+errors have been logged:
+
+>>> if e.fired:
+...   print "Not updating files as errors have occurred"
+Not updating files as errors have occurred

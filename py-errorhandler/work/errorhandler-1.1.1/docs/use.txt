@@ -1,0 +1,150 @@
+==================
+Using ErrorHandler
+==================
+
+.. module:: errorhandler
+
+This is a handler for the python standard logging framework that can
+be used to tell whether messages have been logged at or above a
+certain level.
+
+This can be useful when wanting to ensure that no errors have been
+logged before committing data back to a database.
+
+Basic usage
+-----------
+
+First, you set up the error handler:
+
+>>> from logging import getLogger
+>>> from errorhandler import ErrorHandler
+>>> logger = getLogger()
+>>> e = ErrorHandler()
+
+The handler starts off being un-fired:
+
+>>> e.fired
+False
+
+Then you do whatever else you need to do, which may involve logging:
+
+>>> logger.info('some information')
+>>> e.fired
+False
+
+However, if any logging occurs at an error level or above:
+
+>>> logger.error('an error')
+
+Then the error handler becomes fired:
+
+>>> e.fired
+True
+
+You can use this as a condition to only perform certain actions when
+no errors have been logged:
+
+>>> if e.fired:
+...   print "Not updating files as errors have occurred"
+Not updating files as errors have occurred
+
+Resetting
+---------
+
+If your code does work in batches, you may wish to reset the error
+handler at the start of each batch:
+
+>>> e.fired
+True
+>>> e.reset()
+>>> e.fired
+False
+
+Registering for a particular logger
+-----------------------------------
+
+The error handler can be set to only trigger on a certain
+logger and its children:
+
+>>> from logging import getLogger
+>>> e = ErrorHandler(logger='b')
+
+Using these three loggers as an example:
+
+>>> a = getLogger()
+>>> b = getLogger('b')
+>>> c = getLogger('b.c')
+
+Logging to `a` won't trigger the handler:
+
+>>> a.critical('message')
+>>> e.fired
+False
+
+Logging to `b` will trigger the handler:
+
+>>> b.critical('message')
+>>> e.fired
+True
+>>> e.reset()
+>>> e.fired
+False
+
+Logging to `c` will also trigger the handler:
+
+>>> c.critical('message')
+>>> e.fired
+True
+
+.. cleanup
+
+  >>> e.remove()
+
+Using a different log level
+---------------------------
+
+The logging level at which the :class:`ErrorHandler` is fired
+can also be configured: 
+
+>>> from logging import INFO
+>>> e = ErrorHandler(INFO)
+
+Debugging messages still don't trigger:
+
+>>> logger.debug('debugging')
+>>> e.fired
+False
+
+But now informational messages do:
+
+>>> logger.info('some information')
+>>> e.fired
+True
+
+.. cleanup
+
+  >>> e.remove()
+
+Installing and removing the handler
+-----------------------------------
+
+By default, the :class:`ErrorHandler` is installed when it is created,
+but this doesn't have to be the case:
+
+>>> e = ErrorHandler(install=False)
+>>> logger.error('an error')
+>>> e.fired
+False
+
+When you create an :class:`ErrorHandler` like this, you have to
+install it before log messages will cause it to become fired:
+
+>>> e.install()
+>>> logger.error('an error')
+>>> e.fired
+True
+
+However, it's always good practice to remove the handler when you're
+done, like this:
+
+>>> e.remove()

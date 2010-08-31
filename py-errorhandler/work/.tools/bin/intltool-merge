@@ -1,0 +1,5 @@
+#!/bin/sh
+wrapperlog="${TOOLS_WRAPPER_LOG-/usr/pkgsrc/wip/py-errorhandler/work/.work.log}"
+echo "[*] "/usr/pkgsrc/wip/py-errorhandler/work/.tools/bin/intltool-merge" $@" >> $wrapperlog
+echo "<.> exit 1" >> $wrapperlog
+exit 1

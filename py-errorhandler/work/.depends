@@ -1,0 +1,3 @@
+bootstrap	digest>=20010302	../../pkgtools/digest
+full	py26-setuptools>=0.6c9	../../devel/py-setuptools
+full	python26>=2.6	../../lang/python26

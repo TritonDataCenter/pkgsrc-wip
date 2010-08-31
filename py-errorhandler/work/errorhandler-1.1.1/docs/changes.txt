@@ -1,0 +1,17 @@
+Changes
+=======
+
+1.1.1 (01 Mar 2010)
+-------------------
+
+- Fixed test for Python 2.5
+
+1.1.0 (07 Nov 2009)
+-------------------
+
+- Switched to Sphinx documentation
+
+1.0.0 (3 Dec 2008)
+------------------
+
+- Initial Release
