@@ -1,0 +1,4 @@
+@comment $NetBSD$
+include/dbglog.h
+include/dbglogobject.h
+lib/libdbglog.la
