@@ -24,7 +24,7 @@ SUBST_CLASSES+=		xaw
 SUBST_STAGE.xaw=	pre-configure
 SUBST_MESSAGE.xaw=	fixing pathes
 SUBST_FILES.xaw=	Imakefile
-SUBST_SED.xaw=		-e 's,define XAW3D,,g'
+SUBST_SED.xaw=		-e 's,define XAW3D,undef XAW3D,g'
 
 .include "../../x11/libXaw/buildlink3.mk"
 .else
