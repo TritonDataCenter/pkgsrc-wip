@@ -3,4 +3,8 @@ $NetBSD$
 
 For help, type
 ${PREFIX}/scrc-2.1/bin/scrc -h
+
+Or to compile sample file,
+ (rsync -a  ${PREFIX}/scrc-2.1/examples/simple/ /tmp/scrc-simple/ ; \
+  cd /tmp/scrc-simple; env PATH=${PREFIX}/scrc-2.1/bin:$PATH make)
 ===========================================================================
