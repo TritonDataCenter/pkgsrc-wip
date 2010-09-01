@@ -39,7 +39,7 @@ CONFIGURE_ARGS+=	--enable-foomatic-ppd-install
 CONFIGURE_ARGS+=	--enable-foomatic-rip-hplip-install
 
 EGDIR=			${PREFIX}/share/examples/${PKGBASE}
-EGFILES=		hp/hplip.conf xdg/autostart/hplip-systray.desktop
+EGFILES=		hp/hplip.conf
 
 INSTALL_MAKE_FLAGS+=	${MAKE_FLAGS}
 INSTALL_MAKE_FLAGS+=	sysconfdir=${EGDIR}
@@ -48,7 +48,6 @@ INSTALL_MAKE_FLAGS+=	systraydir=${EGDIR}/xdg/autostart
 INSTALL_MAKE_FLAGS+=	mimedir=${EGDIR}/cups
 
 OWN_DIRS+=		${PKG_SYSCONFDIR}/hp
-MAKE_DIRS+=		${PKG_SYSCONFDIR}/xdg/autostart
 OWN_DIRS+=		${VARBASE}/lib/hp
 
 .include "options.mk"
