@@ -10,6 +10,8 @@ HOMEPAGE=	http://http.download.nvidia.com/XFree86/vdpau/doxygen/html/index.html
 COMMENT=	Video Decode and Presentation API for Unix
 LICENSE=	mit
 
+ONLY_FOR_PLATFORM=	${VDPAU_AVAILABLE_ON:S/$/-*-*/}
+
 PKG_DESTDIR_SUPPORT=	user-destdir
 
 GNU_CONFIGURE=	yes
@@ -26,5 +28,6 @@ post-install:
 	set -e; cd ${WRKSRC}; \
 	${INSTALL_DATA} ${DOCFILES} ${DESTDIR}${PREFIX}/share/doc/libvdpau
 
+.include "available.mk"
 .include "../../x11/libX11/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
