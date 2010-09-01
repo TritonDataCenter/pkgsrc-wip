@@ -1165,7 +1165,6 @@ SUBDIR+=	libtorrent-rasterbar
 SUBDIR+=	libuuid
 SUBDIR+=	libuxre
 SUBDIR+=	libvc
-SUBDIR+=	libvdpau
 SUBDIR+=	libvg
 SUBDIR+=	libvpx
 SUBDIR+=	libwbxml2-patched
