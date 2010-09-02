@@ -1,0 +1,12 @@
+# $NetBSD$
+
+BUILDLINK_TREE+=	cglib
+
+.if !defined(CGLIB_BUILDLINK3_MK)
+CGLIB_BUILDLINK3_MK:=
+
+BUILDLINK_API_DEPENDS.cglib+=	cglib>=2.2
+BUILDLINK_PKGSRCDIR.cglib?=	../../wip/cglib
+.endif	# CGLIB_BUILDLINK3_MK
+
+BUILDLINK_TREE+=	-cglib
