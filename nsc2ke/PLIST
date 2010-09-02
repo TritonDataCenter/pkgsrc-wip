@@ -1,0 +1,5 @@
+@comment $NetBSD$
+bin/nsc2ke
+share/examples/nsc2ke/DATA
+share/examples/nsc2ke/MESH
+share/examples/nsc2ke/gnu.data
