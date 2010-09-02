@@ -1,0 +1,7 @@
+@comment $NetBSD$
+include/scscp.h
+include/scscptypes.h
+include/scscpxx.h
+info/scscp.info
+lib/libscscp.a
+lib/libscscpxx.a
