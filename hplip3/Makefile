@@ -6,7 +6,7 @@ PKGREVISION=		1
 CATEGORIES=		print
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=hplip/}
 
-MAINTAINER=		khorben@defora.org
+MAINTAINER=		gsutre@NetBSD.org
 HOMEPAGE=		http://hplip.sourceforge.net/
 COMMENT=		HP Linux Imaging and Printing
 LICENSE=		gnu-gpl-v2 AND mit AND modified-bsd
