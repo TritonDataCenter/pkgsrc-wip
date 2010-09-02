@@ -1,0 +1,6 @@
+@comment $NetBSD$
+bin/calverter.py
+${PYSITELIB}/calverter.py
+${PYSITELIB}/calverter.pyc
+${PYSITELIB}/calverter.pyo
+share/doc/py-calverter/USAGE.txt
