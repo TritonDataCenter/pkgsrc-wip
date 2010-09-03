@@ -1145,7 +1145,6 @@ SUBDIR+=	libmrss
 SUBDIR+=	libmusclecard
 SUBDIR+=	libnettle
 SUBDIR+=	libneural
-SUBDIR+=	liboauth
 SUBDIR+=	libopenmodeller
 SUBDIR+=	libopensync-plugin-moto
 SUBDIR+=	libowl-av
