@@ -5,7 +5,7 @@
 
 PKGNAMESUF=	uxre
 
-MAKEFLAGS+=	LIBS=-luxre\ -lm
+LIBS=		-luxre
 
 DESCR_SRC+=	${.CURDIR}/DESCR.addon
 

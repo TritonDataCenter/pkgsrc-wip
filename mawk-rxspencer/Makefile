@@ -5,7 +5,7 @@
 
 PKGNAMESUF=	rxspencer
 
-MAKEFLAGS+=	LIBS=-lrxspencer\ -lm
+LIBS=		-lrxspencer
 
 DESCR_SRC+=	${.CURDIR}/DESCR.addon
 

@@ -5,7 +5,7 @@
 
 PKGNAMESUF=	onig
 
-MAKEFLAGS+=	LIBS=-lonig\ -lm
+LIBS=		-lonig
 
 DESCR_SRC+=	${.CURDIR}/DESCR.addon
 
