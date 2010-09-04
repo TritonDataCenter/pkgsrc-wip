@@ -1311,7 +1311,6 @@ SUBDIR+=	monkey-bubble
 SUBDIR+=	mono-zeroconf
 SUBDIR+=	monodevelop
 SUBDIR+=	monotone-cvsimport
-SUBDIR+=	mothanna-ttf
 SUBDIR+=	moonlight
 SUBDIR+=	moregroupware
 SUBDIR+=	moto4lin
