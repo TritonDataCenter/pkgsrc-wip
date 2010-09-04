@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	groonga-0.7.4
+DISTNAME=	groonga-1.0.0
 CATEGORIES=	textproc
 MASTER_SITES=	http://groonga.org/files/groonga/
 
@@ -18,7 +18,17 @@ USE_TOOLS+=	pkg-config
 
 .include "options.mk"
 
+CONFIGURE_ARGS+=	--sysconfdir=${PKG_SYSCONFBASEDIR}
+CONFIGURE_ARGS+=	--with-log-path=${VARBASE}/log/${PKGBASE}/${PKGBASE}.log
+
 PKGCONFIG_OVERRIDE+=	groonga.pc.in
+
+PKG_SYSCONFSUBDIR=	${PKGBASE}
+
+INSTALL_MAKE_FLAGS+=	sysconfdir=${PREFIX}/share/examples
+
+CONF_FILES+=		share/examples/${PKGBASE}/groonga.conf \
+			${PKGSYSCONFDIR}/groonga.conf
 
 CHECK_WRKREF_SKIP+=	bin/groonga
 
