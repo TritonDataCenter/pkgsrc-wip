@@ -8,6 +8,7 @@ DISTFILES=	fli4l-3.4.0.tar.gz
 MAINTAINER=	schwarz@NetBSD.org
 HOMEPAGE=	http://www.fli4l.de/
 COMMENT=	Command-line version of the fli4l monitoring tool
+LICENSE=	gnu-gpl-v2
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
