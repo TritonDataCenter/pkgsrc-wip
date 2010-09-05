@@ -7,6 +7,7 @@ MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=weplab/}
 MAINTAINER=	schwarz@NetBSD.org
 HOMEPAGE=	http://weplab.sourceforge.net/
 COMMENT=	Weplab is a tool to review the security of WEP encryption
+LICENSE=	gnu-gpl-v2
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
