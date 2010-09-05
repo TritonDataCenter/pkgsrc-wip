@@ -28,10 +28,10 @@ $NetBSD$
  #ifndef REAPCHILD
  
 -#ifdef LINUX
-+#if defined(LINUX) || defined(__sgi)
++#if defined(LINUX) || defined(__sgi) || defined(MACOSX5PLUS)
  	if (setpgrp() == -1)
 -#else /* LINUX */
-+#else /* LINUX or IRIX */
++#else /* LINUX or IRIX or MacOS 10.5 or later */
  	if (setpgrp(0, getpid()) == -1)
 -#endif /* LINUX */
 +#endif /* LINUX or IRIX */

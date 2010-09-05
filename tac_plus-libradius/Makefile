@@ -29,6 +29,10 @@ CPPFLAGS+=	-DNETBSD
 CPPFLAGS+=	-DMIPS
 .endif
 
+.if !empty(MACHINE_PLATFORM:MDarwin-9.*) || !empty(MACHINE_PLATFORM:MDarwin-1[0-9].*) # MacOS 10.5 or higher
+CPPFLAGS+=	-DMACOSX5PLUS
+.endif
+
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/tac_plus ${DESTDIR}${PREFIX}/sbin
 	${INSTALL_PROGRAM} ${WRKSRC}/generate_passwd \
