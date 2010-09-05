@@ -9,6 +9,7 @@ MASTER_SITES=	http://metalinkltd.com/wp-content/uploads/
 MAINTAINER=	schwarz@NetBSD.org
 HOMEPAGE=	http://www.metalinkltd.com/downloads.php
 COMMENT=	SipBomber is a SIP protocol testing tool
+LICENSE=	gnu-gpl-v2
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
