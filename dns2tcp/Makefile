@@ -7,6 +7,7 @@ MASTER_SITES=	http://www.hsc.fr/ressources/outils/dns2tcp/download/
 MAINTAINER=	schwarz@NetBSD.org
 HOMEPAGE=	http://www.hsc.fr/ressources/outils/dns2tcp/index.html.en
 COMMENT=	Dns2tcp is a tool for relaying TCP connections over DNS
+LICENSE=	gnu-gpl-v2
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 

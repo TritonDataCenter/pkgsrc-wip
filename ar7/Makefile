@@ -8,6 +8,7 @@ MASTER_SITES=	http://home.arcor.de/volpol/ar7/ \
 MAINTAINER=	schwarz@NetBSD.org
 HOMEPAGE=	${MASTER_SITES}
 COMMENT=	Diagnosis tool for certain ADSL modems
+LICENSE=	gnu-gpl-v2
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 

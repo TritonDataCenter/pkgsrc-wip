@@ -8,6 +8,7 @@ EXTRACT_SUFX=	.tar.bz2
 MAINTAINER=	schwarz@NetBSD.org
 HOMEPAGE=	http://www.gnu.org/software/aeneas/
 COMMENT=	3D Monte Carlo simulation software for submicron semiconductor devices
+LICENSE=	gnu-gpl-v3
 
 USE_FEATURES+=	getopt_long
 

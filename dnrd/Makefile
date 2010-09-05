@@ -7,6 +7,7 @@ MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=dnrd/}
 MAINTAINER=	schwarz@NetBSD.org
 HOMEPAGE=	http://dnrd.sourceforge.net/
 COMMENT=	Dnrd is a caching forwarding DNS proxy
+LICENSE=	gnu-gpl-v2
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 

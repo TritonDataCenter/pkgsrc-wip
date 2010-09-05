@@ -8,6 +8,7 @@ MASTER_SITES=	http://www.boa.org/
 MAINTAINER=	schwarz@NetBSD.org
 HOMEPAGE=	http://www.boa.org/
 COMMENT=	Small HTTP server
+LICENSE=	gnu-gpl-v2
 
 PKG_SYSCONFSUBDIR=	boa
 CONFIGURE_ARGS+=	--sysconfdir=${PKG_SYSCONFDIR:Q}
