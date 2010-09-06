@@ -1,0 +1,4 @@
+@comment $NetBSD$
+${PYSITELIB}/FixedPoint.py
+${PYSITELIB}/FixedPoint.pyc
+${PYSITELIB}/FixedPoint.pyo

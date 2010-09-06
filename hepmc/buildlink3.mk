@@ -1,0 +1,12 @@
+# $NetBSD$
+
+BUILDLINK_TREE+=	hepmc
+
+.if !defined(HEPMC_BUILDLINK3_MK)
+HEPMC_BUILDLINK3_MK:=
+
+BUILDLINK_API_DEPENDS.hepmc+=	hepmc>=2.06.02
+BUILDLINK_PKGSRCDIR.hepmc?=	../../wip/hepmc
+.endif	# HEPMC_BUILDLINK3_MK
+
+BUILDLINK_TREE+=	-hepmc
