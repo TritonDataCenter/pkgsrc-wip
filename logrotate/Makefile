@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	logrotate-3.7.8
+DISTNAME=	logrotate-3.7.9
 CATEGORIES=	sysutils
 MASTER_SITES=	${MASTER_SITE_GENTOO:=distfiles/}
 

@@ -1,6 +1,6 @@
 $NetBSD$
 
---- examples/logrotate-default.orig	2007-08-29 07:19:36.000000000 +0000
+--- examples/logrotate-default.orig	2010-06-28 08:04:56.000000000 +0000
 +++ examples/logrotate-default
 @@ -12,18 +12,12 @@ create
  dateext
