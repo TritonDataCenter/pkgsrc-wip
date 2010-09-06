@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	cutter-1.1.4
+DISTNAME=	cutter-1.1.5
 CATEGORIES=	devel
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=cutter/}
 
