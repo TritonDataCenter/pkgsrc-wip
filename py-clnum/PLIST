@@ -1,0 +1,9 @@
+@comment $NetBSD$
+${PYSITELIB}/clnum/__init__.py
+${PYSITELIB}/clnum/__init__.pyc
+${PYSITELIB}/clnum/__init__.pyo
+${PYSITELIB}/clnum/_clnum_str.py
+${PYSITELIB}/clnum/_clnum_str.pyc
+${PYSITELIB}/clnum/_clnum_str.pyo
+${PYSITELIB}/clnum/clnum.so
+share/doc/py-clnum/clnumManual.html
