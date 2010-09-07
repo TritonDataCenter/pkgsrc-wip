@@ -141,8 +141,9 @@ CONFIGURE_ARGS+=	--enable-libdv
 CONFIGURE_ARGS+=	--disable-libdv
 .endif
 
+CONFIGURE_ARGS+=	--disable-dvdread-internal
 .if !empty(PKG_OPTIONS:Mdvdread)
-CONFIGURE_ARGS+=	--enable-dvdread --disable-dvdread-internal
+CONFIGURE_ARGS+=	--enable-dvdread
 .  include "../../multimedia/libdvdread/buildlink3.mk"
 .else
 CONFIGURE_ARGS+=	--disable-dvdread
