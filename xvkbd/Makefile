@@ -22,11 +22,7 @@ SUBST_MESSAGE.xaw=	undefine Xaw3d
 SUBST_FILES.xaw=	Imakefile
 SUBST_SED.xaw=		-e 's,define XAW3D,undef XAW3D,g'
 .elif ${XAW_TYPE} == "neXtaw"
-SUBST_CLASSES+=		neXtaw
-SUBST_STAGE.neXtaw=	pre-configure
-SUBST_MESSAGE.neXtaw=	using NeXtaw3d
-SUBST_FILES.neXtaw=	Imakefile
-SUBST_SED.neXtaw=		-e 's,-lXaw3d,-lneXtaw,g'
+BUILDLINK_TRANSFORM+=	l:Xaw3d:neXtaw
 .endif
 
 .include "../../x11/libXtst/buildlink3.mk"
