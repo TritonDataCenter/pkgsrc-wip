@@ -1,0 +1,9 @@
+@comment $NetBSD$
+bin/ical
+bin/idate
+bin/ipraytime
+bin/ireminder
+man/man1/ical.1
+man/man1/idate.1
+man/man1/ipraytime.1
+man/man1/ireminder.1
