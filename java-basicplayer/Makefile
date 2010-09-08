@@ -3,7 +3,7 @@
 
 DISTNAME=	basicplayer3.0
 PKGNAME=	java-basicplayer-3.0
-CATEGORIES=	sound java
+CATEGORIES=	audio java
 MASTER_SITES=	http://www.javazoom.net/jlgui/sources/
 EXTRACT_SUFX=	.zip
 
