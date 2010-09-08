@@ -227,6 +227,7 @@ SUBDIR+=	chbg
 SUBDIR+=	chems
 
 SUBDIR+=	chora
+SUBDIR+=	chromium-devel
 SUBDIR+=	chrsh
 SUBDIR+=	cinelerra
 SUBDIR+=	cinelerra-cv
