@@ -2,11 +2,11 @@
 #
 
 DISTNAME=	Tranquil-0.2dev
-PKGNAME=	${PYPKGPREFIX}-tranquil-0.2
-CATEGORIES=	databases
+PKGNAME=	${PYPKGPREFIX}-${DISTNAME:S/T/t/S/dev//}
+CATEGORIES=	databases python
 MASTER_SITES=	http://tranquil.googlecode.com/files/
 
-MAINTAINER=	kamelderouiche@yahoo.com
+MAINTAINER=	pkgsrc-users@netbsd.org
 HOMEPAGE=	http://code.google.com/p/tranquil/
 COMMENT=	Integrating SQLAlchemy with Django
 
