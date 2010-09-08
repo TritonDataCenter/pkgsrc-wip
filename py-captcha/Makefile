@@ -7,7 +7,7 @@ CATEGORIES=	www
 MASTER_SITES=	http://releases.navi.cx/pycaptcha/
 EXTRACT_SUFX=	.tar.bz2
 
-MAINTAINER=	kamelderouiche@yahoo.com
+MAINTAINER=	pkgsrc-users@netbsd.org
 HOMEPAGE=	http://svn.navi.cx/misc/trunk/pycaptcha/
 COMMENT=	Python framework for CAPTCHA tests
 LICENSE=	mit
