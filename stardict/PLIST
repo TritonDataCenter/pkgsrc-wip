@@ -14,7 +14,7 @@ lib/stardict/plugins/stardict_wordnet_parsedata.la
 lib/stardict/plugins/stardict_xdxf_parsedata.la
 man/man1/stardict.1
 share/applications/stardict.desktop
-@comment share/gconf/schemas/stardict.schemas
+share/gconf/schemas/stardict.schemas
 share/gnome/help/stardict/C/figures/stardict_float_window.png
 share/gnome/help/stardict/C/figures/stardict_main_window.png
 share/gnome/help/stardict/C/figures/stardict_notification_area.png
@@ -98,3 +98,5 @@ share/stardict/pixmaps/index_wazard.png
 share/stardict/pixmaps/splash.png
 share/stardict/sounds/buttonactive.wav
 share/stardict/sounds/menushow.wav
+@pkgdir share/stardict/treedict
+@pkgdir share/stardict/dic
