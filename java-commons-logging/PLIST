@@ -1,4 +1,0 @@
-@comment $NetBSD$
-lib/java/commons-logging-adapters.jar
-lib/java/commons-logging-api.jar
-lib/java/commons-logging.jar
