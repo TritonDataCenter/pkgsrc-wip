@@ -8,7 +8,7 @@ CATEGORIES=	devel python
 MASTER_SITES=	http://cgit.freedesktop.org/~cymacs/gst-inspector/snapshot/
 EXTRACT_SUFX=	.tar.bz2
 
-MAINTAINER=	kamelderouiche@yahoo.com
+MAINTAINER=	pkgsrc.gnome@gmail.com
 HOMEPAGE=	http://renestadler.de/projects/gst-inspector/
 COMMENT=	Multimedia system plugin introspection for the GStreamer framework
 LICENSE=	gnu-gpl-v3
