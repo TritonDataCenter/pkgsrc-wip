@@ -14,13 +14,15 @@ COMMENT=	Dictionary collection for SKK
 PKG_DESTDIR_SUPPORT=	user-destdir
 WRKSRC=	${WRKDIR}
 
-BUILD_DEPENDS=	tinycdb-[0-9]*:../../databases/tinycdb
+BUILD_DEPENDS+=	tinycdb-[0-9]*:../../databases/tinycdb
+
+USE_LANGUAGES=	# empty
 
 SKKJISYO_VERS=	201008
 
 INSTALLATION_DIRS+=	${PREFIX}/share/skk
 
-FIND_PREFIX:=	CDBDIR=tinycdb-[0-9]*
+FIND_PREFIX:=	CDBDIR=tinycdb
 
 do-build:
 	LC_ALL=C ${AWK} '/^[^;]/ { \
