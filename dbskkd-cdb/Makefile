@@ -19,7 +19,7 @@ INSTALLATION_DIRS=	libexec \
 
 DEPENDS=	skk-jisyo-cdb-[0-9]*:../../wip/skk-jisyo-cdb
 
-FIND_PREFIX:=	SKKJISYOCDBDIR=skk-jisyo-cdb-[0-9]*
+FIND_PREFIX:=	SKKJISYOCDBDIR=skk-jisyo-cdb
 
 SUBST_CLASSES+=			fix-paths
 SUBST_STAGE.fix-paths=		pre-configure
