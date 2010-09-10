@@ -8,7 +8,7 @@ MASTER_SITES=	http://garr.dl.sourceforge.net/project/chemical-mime/chemical-mime
 
 MAINTAINER=	kamel.derouiche@gmail.com
 HOMEPAGE=	http://chemical-mime.sourceforge.net/
-COMMENT=	chemical mime and file type support for desktops
+COMMENT=	Chemical mime and file type support for desktops
 #LICENSE=	# TODO: (see mk/license.mk)
 
 PKG_DESTDIR_SUPPORT=	user-destdir
