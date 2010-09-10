@@ -6,7 +6,7 @@ PKGREVISION=	1
 CATEGORIES=	www
 MASTER_SITES=	http://ftp.dronelabs.com/sources/rss-glib/0.2/
 
-MAINTAINER=	kamel.derouiche@gmail.com
+MAINTAINER=	pkgsrc.gnome@gmail.com
 HOMEPAGE=	http://dronelabs.com/
 COMMENT=	Rss GLib is a RSS and Atom parser for GObject
 LICENSE=	gnu-gpl-v3

@@ -6,7 +6,7 @@ PKGREVISION=	1
 CATEGORIES=	www
 MASTER_SITES=	http://www.autistici.org/bakunin/libmrss/
 
-MAINTAINER=	kamel.derouiche@gmail.com
+MAINTAINER=	pkgsrc.gnome@gmail.com
 HOMEPAGE=	http://www.autistici.org/bakunin/libmrss/
 COMMENT=	C library for parsing, writing and creating RSS files or streams
 

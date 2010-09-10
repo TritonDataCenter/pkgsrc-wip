@@ -7,7 +7,7 @@ PKGREVISION=	4
 CATEGORIES=	devel
 MASTER_SITES=	http://ftp.dronelabs.com/sources/gtask/0.1/
 
-MAINTAINER=	kamel.derouiche@gmail.com
+MAINTAINER=	pkgsrc.gnome@gmail.com
 HOMEPAGE=	http://chergert.github.com/gtask/
 COMMENT=	Library for asynchronous and Callback-based execution for GObject
 LICENSE=	gnu-lgpl-v2.1
