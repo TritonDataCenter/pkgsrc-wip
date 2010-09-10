@@ -7,7 +7,7 @@ PKGREVISION=	1
 CATEGORIES=	chat
 MASTER_SITES=	http://www.freedesktop.org/software/papyon/releases/
 
-MAINTAINER=	kamelderouiche@yahoo.com
+MAINTAINER=	pkgsrc.gnome@gmail.com
 HOMEPAGE=	http://telepathy.freedesktop.org/wiki/Papyon
 COMMENT=	MSN client library written in Python
 LICENSE=	gnu-gpl-v2

@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	rthread-0.1.1
+PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	devel python
 MASTER_SITES=	http://www.cs.tut.fi/~ask/rthread/
 
@@ -17,5 +18,4 @@ PYDISTUTILSPKG= yes
 
 
 .include "../../lang/python/extension.mk"
-.include "../../x11/py-Tk/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
