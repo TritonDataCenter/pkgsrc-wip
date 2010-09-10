@@ -28,7 +28,7 @@ SUBST_FILES.fix-paths=		dbskkd-cdb.c
 SUBST_SED.fix-paths=		-e 's,/usr/local/share/skk/SKK-JISYO.L.cdb,${SKKJISYOCDBDIR}/share/skk/SKK-JISYO.L.cdb,g'
 
 
-MAKE_FLAGS+=		CDBLIB=${BUILDLINK_DIR}/lib/libcdb.a
+MAKE_FLAGS+=		CDBLIB=${BUILDLINK_PREFIX.tinycdb}/lib/libcdb.a
 MAKE_FLAGS+=		INSTALLDIR=${DESTDIR}${PREFIX}/libexec
 
 INSTALL_DOCS=	CHANGES \
