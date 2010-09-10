@@ -3,8 +3,6 @@
 
 DEPENDS+=	mplayer-share>=${MPLAYER_PKG_VERSION}:../../wip/mplayer-snapshot-share
 
-GCC_REQD+=	2.95.3
-
 .include "../../converters/libiconv/buildlink3.mk"
 .include "../../fonts/fontconfig/buildlink3.mk"
 .include "../../graphics/freetype2/buildlink3.mk"
