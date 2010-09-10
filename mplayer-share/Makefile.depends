@@ -3,8 +3,6 @@
 
 DEPENDS+=	mplayer-share>=${MPLAYER_PKG_VERSION}:../../wip/mplayer-share
 
-GCC_REQD+=	2.95.3
-
 .if ${OPSYS} == "NetBSD"
 .  include "../../devel/binutils/buildlink3.mk"
 .endif
