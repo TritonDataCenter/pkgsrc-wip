@@ -5,7 +5,7 @@ DISTNAME=	gtkglextmm-1.2.0
 CATEGORIES=	graphics
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=gtkglext/}
 
-MAINTAINER=	kamelderouiche@yahoo.com
+MAINTAINER=	pkgsrc.gnome@gmail.com
 HOMEPAGE=	http://gtkglext.sourceforge.net/
 COMMENT=	C++ wrapper for GtkGLExt
 LICENSE=	gnu-gpl-v2 AND gnu-lgpl-v2.1
