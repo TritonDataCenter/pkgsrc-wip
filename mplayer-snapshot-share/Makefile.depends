@@ -1,7 +1,7 @@
 # $NetBSD: Makefile.depends,v 1.18 2007/08/15 13:23:27 rillig Exp $
 #
 
-DEPENDS+=	mplayer-share>=${MPLAYER_PKG_VERSION}:../../wip/mplayer-snapshot-share
+DEPENDS+=	mplayer-share>=${MPLAYER_VERSION}:../../wip/mplayer-snapshot-share
 
 #CONFIGURE_ARGS+=	--enable-tremor --disable-tremor-internal
 #.include "../../audio/tremor/buildlink3.mk"
