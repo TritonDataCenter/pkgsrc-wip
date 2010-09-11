@@ -11,7 +11,7 @@ name="multiskkserv"
 rcvar=$name
 command="@PREFIX@/sbin/${name}"
 
-multiskkserv_flags="@PREFIX@/share/skk/SKK-JISYO.L.cdb &"
+multiskkserv_flags="@SKKJISYOCDBDIR@/share/skk/SKK-JISYO.L.cdb &"
 
 load_rc_config $name
 run_rc_command "$1"
