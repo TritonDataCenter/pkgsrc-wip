@@ -118,6 +118,7 @@ CONFIGURE_ARGS+=	--disable-arts
 .if !empty(PKG_OPTIONS:Mcdparanoia)
 CONFIGURE_ARGS+=	--enable-cdparanoia
 .  include "../../audio/cdparanoia/buildlink3.mk"
+CFLAGS+=		-I${BUILDLINK_PREFIX.cdparanoia}/include/cdparanoia
 .else
 CONFIGURE_ARGS+=	--disable-cdparanoia
 .endif
