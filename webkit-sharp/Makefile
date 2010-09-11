@@ -7,7 +7,7 @@ CATEGORIES=	www
 MASTER_SITES=	http://ftp.novell.com/pub/mono/sources/webkit-sharp/
 EXTRACT_SUFX=	.tar.bz2
 
-MAINTAINER=	kamelderouiche@yahoo.com
+MAINTAINER=	pkgsrc.gnome@gmail.com
 # could not find real homepage
 #HOMEPAGE=	http://ftp.novell.com/pub/mono/sources/webkit-sharp/
 COMMENT=	Webkit-sharp Bindings webkit-gtk under C\#

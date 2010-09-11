@@ -6,7 +6,7 @@ PKGREVISION=	1
 CATEGORIES=	multimedia
 MASTER_SITES=	http://ovh.dl.sourceforge.net/sourceforge/imagination/
 
-MAINTAINER=	kamelderouiche@yahoo.com
+MAINTAINER=	pkgsrc.gnome@gmail.com
 HOMEPAGE=	http://imagination.sourceforge.net/
 COMMENT=	Imagination a simple and lightweight DVD slideshow maker
 
