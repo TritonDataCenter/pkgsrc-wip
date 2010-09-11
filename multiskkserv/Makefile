@@ -12,7 +12,7 @@ HOMEPAGE=	http://github.com/sina-ht/multiskkserv/
 COMMENT=	Simple skk multi-dictionary server
 LICENSE=	gnu-gpl-v2
 
-DEPENDS=	skk-jisyo-cdb-[0-9]*:../../wip/skk-jisyo-cdb
+DEPENDS=	skk-jisyo-cdb-[0-9]*:../../inputmethod/skk-jisyo-cdb
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
