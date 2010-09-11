@@ -37,4 +37,5 @@ post-install:
 .endfor
 
 .include "../../mk/find-prefix.mk"
+.include "../../mk/pthread.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
