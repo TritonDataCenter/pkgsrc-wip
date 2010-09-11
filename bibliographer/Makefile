@@ -6,7 +6,7 @@ PKGREVISION=	2
 CATEGORIES=	print
 MASTER_SITES=	http://launchpad.net/bibliographer/trunk/0.1.3/+download/
 
-MAINTAINER=	kamelderouiche@yahoo.com
+MAINTAINER=	pkgsrc.gnome@gmail.com
 HOMEPAGE=	https://launchpad.net/bibliographer
 COMMENT=	Bibliographer is a bibtex editor written in Gtk\# and Mono
 #LICENSE=	# TODO: (see mk/license.mk)

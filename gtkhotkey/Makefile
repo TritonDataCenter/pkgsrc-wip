@@ -6,7 +6,7 @@ PKGREVISION=	1
 CATEGORIES=	x11
 MASTER_SITES=	http://launchpad.net/gtkhotkey/0.2/0.2.1/+download/
 
-MAINTAINER=	kamelderouiche@yahoo.com
+MAINTAINER=	pkgsrc.gnome@gmail.com
 HOMEPAGE=	https://launchpad.net/gtkhotkey/
 COMMENT=	GtkHotkey library Platform independent hotkey handling for Gtk+
 LICENSE=	gnu-gpl-v3

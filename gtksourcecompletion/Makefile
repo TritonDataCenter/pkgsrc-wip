@@ -6,7 +6,7 @@ PKGREVISION=	1
 CATEGORIES=	x11
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=gtksourcecomple/}
 
-MAINTAINER=	kamelderouiche@yahoo.com
+MAINTAINER=	pkgsrc.gnome@gmail.com
 HOMEPAGE=	http://gtksourcecomple.sourceforge.net/
 COMMENT=	GtkSourceCompletion
 LICENSE=	gnu-gpl-v3
