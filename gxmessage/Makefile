@@ -6,7 +6,7 @@ PKGREVISION=	1
 CATEGORIES=	x11
 MASTER_SITES=	http://homepages.ihug.co.nz/~trmusson/stuff/
 
-MAINTAINER=	kamelderouiche@yahoo.com
+MAINTAINER=	pkgsrc.gnome@gmail.com
 HOMEPAGE=	http://homepages.ihug.co.nz/~trmusson/stuff/
 COMMENT=	Gxmessage a GTK2+ based xmessage clone
 LICENSE=	gnu-gpl-v3
