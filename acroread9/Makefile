@@ -55,7 +55,7 @@ do-install:
 	set -e; ( ${ECHO} n; ${ECHO} n ) | InstallDir=${DESTDIR}${PREFIX}/Acrobat9 ${WRKSRC}/INSTALL
 
 post-install:
-	set -e
+	set -e;
 	cd ${DESTDIR}${PREFIX}/Acrobat9/Adobe/Reader9/Reader/GlobalPrefs && \
 	  ${BIN_PATCH} <${FILESDIR}/reader_prefs.diff && \
 	  ${RM} -f reader_prefs.orig
