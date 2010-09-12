@@ -7,7 +7,7 @@ PKGREVISION=	1
 CATEGORIES=	sysutils
 MASTER_SITES=	${MASTER_SITE_DEBIAN:=pool/main/n/notify-sharp/}
 
-MAINTAINER=	kamelderouiche@yahoo.com
+MAINTAINER=	pkgsrc.gnome@gmail.com
 HOMEPAGE=	http://www.ndesk.org/NotifySharp
 COMMENT=	C\# bindings for libnotify
 #LICENSE=	# TODO: (see mk/license.mk)

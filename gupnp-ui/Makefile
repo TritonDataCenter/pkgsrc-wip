@@ -6,7 +6,7 @@ PKGREVISION=	2
 CATEGORIES=	net
 MASTER_SITES=	http://www.gupnp.org/sources/gupnp-ui/
 
-MAINTAINER=	kamelderouiche@yahoo.com
+MAINTAINER=	pkgsrc.gnome@gmail.com
 HOMEPAGE=	http://www.gupnp.org/
 COMMENT=	GTK+ widgets for use with GUPnP
 #LICENSE=	# TODO: (see mk/license.mk)
