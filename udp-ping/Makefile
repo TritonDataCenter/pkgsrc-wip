@@ -20,11 +20,12 @@ INSTALLATION_DIRS+=	 bin sbin
 
 do-build:
 		cd ${WRKSRC} &&  \
-		${CXX} ${CPPFLAGS} ${CXXFLAGS} ${LDFLAGS} cUDPingLnx.cpp -o udp-ping ${LIBS} && \
+		${CXX} ${CPPFLAGS} ${CXXFLAGS} ${LDFLAGS} ${PTHREAD_LDFLAGS} cUDPingLnx.cpp -o udp-ping ${LIBS} ${PTHREAD_LIBS} && \
 		${CXX} ${CPPFLAGS} ${CXXFLAGS} ${LDFLAGS} sUDPingLnx.cpp -o udp-ping-server ${LIBS}
 
 do-install:
 		${INSTALL_PROGRAM} ${WRKSRC}/udp-ping ${DESTDIR}${PREFIX}/bin && \
 		${INSTALL_PROGRAM} ${WRKSRC}/udp-ping-server ${DESTDIR}${PREFIX}/sbin
 
+.include "../../mk/pthread.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
