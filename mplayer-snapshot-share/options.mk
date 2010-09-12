@@ -147,6 +147,7 @@ CONFIGURE_ARGS+=	--disable-libdv
 CONFIGURE_ARGS+=	--disable-dvdread-internal
 .if !empty(PKG_OPTIONS:Mdvdread)
 CONFIGURE_ARGS+=	--enable-dvdread
+CONFIGURE_ARGS+=	--with-dvdread-config=${BUILDLINK_PREFIX.libdvdread}/bin/dvdread-config
 .  include "../../multimedia/libdvdread/buildlink3.mk"
 .else
 CONFIGURE_ARGS+=	--disable-dvdread
@@ -154,8 +155,9 @@ CONFIGURE_ARGS+=	--disable-dvdread
 
 .if !empty(PKG_OPTIONS:Mdvdnav)
 CONFIGURE_ARGS+=	--enable-dvdnav
+CONFIGURE_ARGS+=	--with-dvdnav-config=${BUILDLINK_PREFIX.libdvdnav}/bin/dvdnav-config
 .  include "../../multimedia/libdvdnav/buildlink3.mk"
-CFLAGS+=		-I${BUILDLINK_PREFIX.dvdnav}/include/dvdnav
+#CFLAGS+=		-I${BUILDLINK_PREFIX.libdvdnav}/include/dvdnav
 .else
 CONFIGURE_ARGS+=	--disable-dvdnav
 .endif
