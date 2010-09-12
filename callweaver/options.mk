@@ -32,6 +32,7 @@ CONFIGURE_ARGS+=	--enable-sip-tcp-support --enable-srtp
 
 .if !empty(PKG_OPTIONS:Msnmp)
 .include "../../net/net-snmp/buildlink3.mk"
+.include "../../lang/perl5/buildlink3.mk"
 PLIST.snmp=		yes
 CONFIGURE_ARGS+=	--with-res_snmp
 .endif
