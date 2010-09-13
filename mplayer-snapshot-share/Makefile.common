@@ -14,7 +14,6 @@ CATEGORIES?=		multimedia
 MASTER_SITES=		http://mova.org/~cheusov/pub/mplayer/
 
 #MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=commondistfiles/}
-#MASTER_SITES+=		http://mx1.nygren.pp.se/misc/
 #MASTER_SITES=		http://www.mplayerhq.hu/MPlayer/releases/ \
 #			ftp://ftp.mplayerhq.hu/MPlayer/releases/
 #.for i in 1 2 3 4 5 7 8 9 10 11 12 # 6 is missed
