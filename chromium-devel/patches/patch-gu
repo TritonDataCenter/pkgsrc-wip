@@ -313,7 +313,7 @@ $NetBSD$
 +#define U_TZSET         tzset
 +#endif
 +#if 1
-+#define U_TIMEZONE      __timezone
++#define U_TIMEZONE      timezone
 +#endif
 +#if 1
 +#define U_TZNAME        tzname
