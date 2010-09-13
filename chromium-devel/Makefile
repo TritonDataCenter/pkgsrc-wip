@@ -14,7 +14,7 @@ LICENSE=	modified-bsd
 WRKSRC=		${WRKDIR}/home/chrome-svn/tarball/chromium/src
 
 USE_TOOLS+=	gmake pkg-config
-USE_LANGUAGES=	c++
+USE_LANGUAGES=	c c++
 
 CHECK_PORTABILITY_SKIP+=breakpad/src/third_party/protobuf/protobuf/post_process_dist.sh
 CHECK_PORTABILITY_SKIP+=native_client/src/third_party/libxt/configure
