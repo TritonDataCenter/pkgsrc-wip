@@ -15,7 +15,7 @@ LICENSE=	gnu-gpl-v2
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
-PKG_JVMS_ACCEPTED=	sun-jdk6
+#PKG_JVMS_ACCEPTED=	sun-jdk6
 
 USE_JAVA=	run
 USE_JAVA2=	yes
