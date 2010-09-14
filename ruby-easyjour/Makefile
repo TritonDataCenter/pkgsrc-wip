@@ -2,7 +2,6 @@
 #
 
 DISTNAME=	easyjour-0.0.4
-PKGNAME=	${RUBY_PKGPREFIX}-${DISTNAME}
 CATEGORIES=	net ruby
 
 MAINTAINER=	obache@NetBSD.org
@@ -14,7 +13,5 @@ DEPENDS+=	${RUBY_PKGPREFIX}-dnssd>=0.7.0:../../wip/ruby-dnssd
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
-GEM_BUILD=	gemspec
-
-.include "../../misc/rubygems/rubygem.mk"
+.include "../../lang/ruby/gem.mk"
 .include "../../mk/bsd.pkg.mk"

@@ -2,7 +2,6 @@
 #
 
 DISTNAME=	gallery-0.0.8
-PKGNAME=	${RUBY_PKGPREFIX}-GalleryAdministrator-0.0.8
 PKGREVISION=	1
 CATEGORIES=	graphics ruby www
 MASTER_SITES=	http://www.cozmixng.org/~kou/download/
