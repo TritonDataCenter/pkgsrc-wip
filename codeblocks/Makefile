@@ -1,12 +1,11 @@
 # $NetBSD$
 #
 
-PKGVERSION=	8.02
-PKGREVISION=	2
+PKGVERSION=	10.05
 DISTNAME=	codeblocks-${PKGVERSION}-src
 PKGNAME=	codeblocks-${PKGVERSION}
 CATEGORIES=	devel
-MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=codeblocks/}
+MASTER_SITES=	http://download.berlios.de/codeblocks/
 EXTRACT_SUFX=	.tar.bz2
 
 BUILD_DEPENDS+=	zip-[0-9]*:../../archivers/zip
@@ -17,7 +16,7 @@ COMMENT=	Open source, cross platform, free C++ IDE
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
-WRKSRC=		${WRKDIR}/${PKGNAME_NOREV}
+WRKSRC=		${WRKDIR}/${PKGNAME_NOREV}-release
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_TOOLS+=	pkg-config gmake
