@@ -38,7 +38,7 @@ SUBST_STAGE.rm_mesa2=	pre-install
 
 pre-install:
 	${RM} -f ${WRKSRC}/include/GL/glu*.h
-	#${RM} -f ${WRKSRC}/include/GL/*gl*w*.h
+	${RM} -f ${WRKSRC}/include/GL/*gl*w*.h
 
 INSTALL_DIRS=	src/mesa
 INSTALL_TARGET=	install-libgl
