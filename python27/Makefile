@@ -162,6 +162,7 @@ REPLACE_FILES.py26+=	Lib/test/test_largefile.py Lib/test/test_optparse.py
 post-extract:
 	${MV} ${WRKSRC}/Lib/smtpd.py ${WRKSRC}/Lib/smtpd${PY_VER_SUFFIX}.py
 	${MV} ${WRKSRC}/Tools/scripts/pydoc ${WRKSRC}/Tools/scripts/pydoc${PY_VER_SUFFIX}
+	${MV} ${WRKSRC}/Tools/scripts/2to3 ${WRKSRC}/Tools/scripts/2to3-${PY_VER_SUFFIX}
 
 .if ${OPSYS} == "HPUX"
 post-install:
