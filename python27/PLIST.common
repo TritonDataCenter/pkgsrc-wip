@@ -1839,7 +1839,6 @@ lib/python${PY_VER_SUFFIX}/lib-dynload/mmap.so
 ${PLIST.nis}lib/python${PY_VER_SUFFIX}/lib-dynload/nis.so
 ${PLIST.no-nis}lib/python${PY_VER_SUFFIX}/lib-dynload/nis_failed.so
 lib/python${PY_VER_SUFFIX}/lib-dynload/operator.so
-${PLIST.oss}lib/python${PY_VER_SUFFIX}/lib-dynload/ossaudiodev.so
 lib/python${PY_VER_SUFFIX}/lib-dynload/parser.so
 lib/python${PY_VER_SUFFIX}/lib-dynload/resource.so
 lib/python${PY_VER_SUFFIX}/lib-dynload/select.so
