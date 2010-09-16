@@ -8,6 +8,8 @@ MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://projects.gnome.org/emerillon/
 COMMENT=	Map browser
 
+BUILD_DEPENDS+=	gnome-common-[0-9]*:../../devel/gnome-common
+
 GIT_REPOSITORIES=	master
 GIT_REPO.master=	git://git.gnome.org/emerillon
 GIT_TAG=		EMERILLON_0_1_2
@@ -35,6 +37,7 @@ GCONF_SCHEMAS=		emerillon.schemas
 .include "../../geography/libchamplain06/buildlink3.mk"
 .include "../../geography/geoclue/buildlink3.mk"
 .include "../../devel/ethos/buildlink3.mk"
+.include "../../textproc/gtk-doc/buildlink3.mk"
 .include "../../x11/gtk2/buildlink3.mk"
 .include "../../sysutils/desktop-file-utils/desktopdb.mk"
 .include "../../mk/bsd.pkg.mk"
