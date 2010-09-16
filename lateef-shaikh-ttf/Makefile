@@ -1,16 +1,15 @@
 # $NetBSD$
-#
 
-VERS=	20030228
 DISTNAME=	lateef.shaikh_fonts
 PKGNAME=	lateef-shaikh-ttf-${VERS}
+VERS=		20030228
 CATEGORIES=	fonts
-MASTER_SITES=	http://garr.dl.sourceforge.net/project/arabeyes/Fonts/lateef.shaikh_fonts/
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=arabeyes/Fonts/lateef.shaikh_fonts/}
 EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	kamelderouiche@yahoo.com
-HOMEPAGE=	http://garr.dl.sourceforge.net/project/arabeyes/Fonts/lateef.shaikh_fonts/
-COMMENT=	Lateef Shaikh fonts
+#HOMEPAGE=	http://garr.dl.sourceforge.net/project/arabeyes/Fonts/lateef.shaikh_fonts/
+COMMENT=	Arabic font by Lateef Shaikh
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
