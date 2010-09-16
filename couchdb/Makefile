@@ -1,10 +1,10 @@
 # $NetBSD$
 #
 
-DISTNAME=		apache-couchdb-0.11.0
+DISTNAME=		apache-couchdb-1.0.1
 PKGNAME=		${DISTNAME:S/apache-//}
 CATEGORIES=		databases
-MASTER_SITES=		${MASTER_SITE_APACHE:=couchdb/0.11.0/}
+MASTER_SITES=		${MASTER_SITE_APACHE:=couchdb/1.0.1/}
 
 MAINTAINER=		filip@joyent.com
 HOMEPAGE=		http://couchdb.apache.org/
