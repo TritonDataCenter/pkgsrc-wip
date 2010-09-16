@@ -2,7 +2,7 @@
 lib/libpython${PY_VER_SUFFIX}.dylib
 lib/python${PY_VER_SUFFIX}/lib-dynload/ColorPicker.so
 lib/python${PY_VER_SUFFIX}/lib-dynload/MacOS.so
-${PLIST.nav}lib/python${PY_VER_SUFFIX}/lib-dynload/Nav.so
+lib/python${PY_VER_SUFFIX}/lib-dynload/Nav.so
 lib/python${PY_VER_SUFFIX}/lib-dynload/OSATerminology.so
 lib/python${PY_VER_SUFFIX}/lib-dynload/_AE.so
 lib/python${PY_VER_SUFFIX}/lib-dynload/_AH.so

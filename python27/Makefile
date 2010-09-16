@@ -103,11 +103,6 @@ PLIST.extra-so=	yes
 # Make sure python modules can link correctly
 .if ${OPSYS} == "Darwin"
 INSTALL_UNSTRIPPED=	yes
-
-PLIST_VARS+=	nav
-.  if !defined(ABI) || ${ABI} != "64"
-PLIST.nav=	yes
-.  endif
 .endif
 
 PLIST_VARS+=	dll nis no-nis
