@@ -55,7 +55,6 @@ SUBDIR+=	acpid
 SUBDIR+=	adamem
 SUBDIR+=	adms
 SUBDIR+=	admsmb
-SUBDIR+=	ae-mono-ttf
 SUBDIR+=	aegis-devel
 SUBDIR+=	aeneas
 SUBDIR+=	aespipe
