@@ -2194,7 +2194,6 @@ SUBDIR+=	ruby-dnssd
 SUBDIR+=	ruby-easyjour
 SUBDIR+=	ruby-git
 SUBDIR+=	ruby-term-ansicolor
-SUBDIR+=	ruby-thor
 SUBDIR+=	ruby-trollop
 SUBDIR+=	ruby-xmpp4r
 SUBDIR+=	runawk
