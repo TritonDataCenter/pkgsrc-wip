@@ -52,7 +52,7 @@ PLIST_SRC+=	${.CURDIR}/../../wip/python27/PLIST.common_end
 
 .if ${OPSYS} == "NetBSD"
 PRIVILEGED_STAGES+=	clean
-# XXX work around a botched autoconf check whiche ignores libintl
+# XXX work around a botched autoconf check which ignores libintl
 CONFIGURE_ENV+=		ac_cv_func_bind_textdomain_codeset=yes
 .endif
 
