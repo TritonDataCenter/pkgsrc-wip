@@ -11,6 +11,7 @@ LICENSE=	gnu-gpl-v2
 
 GIT_REPOSITORIES=	master
 GIT_REPO.master=	git://git.cinelerra.org/j6t/cinelerra.git
+GIT_MODULE=		cinelerra
 .include "../../wip/mk/git-package.mk"
 _GIT_FLAGS= # The repository is very large. We don't want git to be quiet.
 
