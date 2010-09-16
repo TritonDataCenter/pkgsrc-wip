@@ -1,4 +1,4 @@
 # $NetBSD$
 #
 
-RMQ_VERSION=	1.7.2
+RMQ_VERSION=	2.1.0
