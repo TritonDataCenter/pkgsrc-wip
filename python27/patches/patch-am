@@ -1,7 +1,7 @@
 $NetBSD$
 
 Disabled modules for normal build:
-bsdddb
+bsddb
 curses
 curses_panel
 elementtree
