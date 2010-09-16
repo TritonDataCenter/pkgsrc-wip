@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		mod_xsendfile-0.9
+DISTNAME=		mod_xsendfile-0.11.1
 PKGNAME=		${APACHE_PKG_PREFIX}-${DISTNAME:S/mod_//}
 CATEGORIES=		www
 MASTER_SITES=		http://tn123.ath.cx/mod_xsendfile/
