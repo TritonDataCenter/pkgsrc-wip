@@ -2195,7 +2195,6 @@ SUBDIR+=	ruby-easyjour
 SUBDIR+=	ruby-git
 SUBDIR+=	ruby-term-ansicolor
 SUBDIR+=	ruby-thor
-SUBDIR+=	ruby-treetop
 SUBDIR+=	ruby-trollop
 SUBDIR+=	ruby-xmpp4r
 SUBDIR+=	runawk
