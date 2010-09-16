@@ -9,7 +9,5 @@ HOMEPAGE=	http://term-ansicolor.rubyforge.org/
 COMMENT=	Small Ruby library that colors strings using ANSI escape sequences
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
-.include "../../misc/rubygems/rubygem.mk"
+.include "../../lang/ruby/gem.mk"
 .include "../../mk/bsd.pkg.mk"

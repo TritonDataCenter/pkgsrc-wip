@@ -9,9 +9,5 @@ HOMEPAGE=	http://home.gna.org/xmpp4r/
 COMMENT=	XMPP/Jabber library for Ruby
 LICENSE=	ruby-license
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
-GEM_BUILD=	gemspec
-
-.include "../../misc/rubygems/rubygem.mk"
+.include "../../lang/ruby/gem.mk"
 .include "../../mk/bsd.pkg.mk"
