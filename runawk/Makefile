@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	runawk-1.0.0
+PKGREVISION=	1
 CATEGORIES=	lang devel
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=runawk/} \
 		http://mova.org/~cheusov/pub/runawk/
@@ -31,7 +32,7 @@ EGDIR=			${PREFIX}/share/examples/runawk
 
 AUTO_MKDIRS=		yes
 
-DOC_FILES=		README NEWS ChangeLog
+DOC_FILES=		README NEWS ChangeLog TODO
 
 post-install:
 .for i in ${DOC_FILES}
