@@ -10,7 +10,6 @@ BUILDLINK_PKGSRCDIR.libmemcached?=	../../wip/libmemcached
 BUILDLINK_FILES.libmemcached=		include/libmemcached/*.h
 BUILDLINK_FILES.libmemcached+=		lib/libmemcached.*
 
-BUILDLINK_INCDIRS.libmemcached+=	include/libmemcached
 .endif	# LIBMEMCACHED_BUILDLINK3_MK
 
 BUILDLINK_TREE+=	-libmemcached

@@ -1,8 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	libmemcached-0.33
-PKGREVISION=	1
+DISTNAME=	libmemcached-0.43
 CATEGORIES=	devel
 MASTER_SITES=	http://download.tangent.org/
 
