@@ -1,0 +1,5 @@
+@comment $NetBSD$
+man/man1/php-fpm.1
+sbin/php-fpm
+share/examples/php/php-fpm.conf
+@pkgdir share/examples/php
