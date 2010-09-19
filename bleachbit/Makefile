@@ -6,7 +6,7 @@ CATEGORIES=	sysutils python
 MASTER_SITES=	http://garr.dl.sourceforge.net/project/bleachbit/bleachbit/0.7.2/
 EXTRACT_SUFX=	.tar.bz2
 
-MAINTAINER=	kamelderouiche@yahoo.com
+MAINTAINER=	pkgsrc.gnome@gmail.com
 HOMEPAGE=	http://bleachbit.sourceforge.net/
 COMMENT=	Bleachbit is a privacy and cleaning tool
 #LICENSE=	# TODO: (see mk/license.mk)
