@@ -6,7 +6,7 @@ PKGREVISION=	1
 CATEGORIES=	audio
 MASTER_SITES=	http://labs.o-hand.com/sources/libowl-av/
 
-MAINTAINER=	kamelderouiche@yahoo.com
+MAINTAINER=	pkgsrc.gnome@gmail.com
 HOMEPAGE=	http://labs.o-hand.com/av-widget-library/
 COMMENT=	AV widget library
 LICENSE=	gnu-lgpl-v2
