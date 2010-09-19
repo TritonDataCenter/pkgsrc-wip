@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	mk-configure-0.19.0
+DISTNAME=	mk-configure-0.20.0
 CATEGORIES=	devel
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=mk-configure/} \
 		http://mova.org/~cheusov/pub/mk-configure/
