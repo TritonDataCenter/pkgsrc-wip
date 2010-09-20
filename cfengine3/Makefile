@@ -21,7 +21,8 @@ CONFIGURE_ARGS+=        --with-berkeleydb=${BUILDLINK_PREFIX.db4:Q}
 CONFIGURE_ARGS+=        --with-openssl=${BUILDLINK_PREFIX.openssl:Q}
 CONFIGURE_ARGS+=        --with-pcre=${BUILDLINK_PREFIX.pcre:Q}
 
-BUILD_DEFS+=		${VARBASE}
+OWN_DIRS=               ${VARBASE}/${PKGBASE}
+BUILD_DEFS+=            ${VARBASE}
 EGDIR=                  ${VARBASE}/${PKGBASE}
 CONF_FILES+=            ${PREFIX}/share/doc/${PKGBASE}/inputs/failsafe.cf ${EGDIR}/failsafe.cf
 CONF_FILES+=            ${PREFIX}/share/doc/${PKGBASE}/inputs/library.cf ${EGDIR}/library.cf
