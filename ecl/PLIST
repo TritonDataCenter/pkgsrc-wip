@@ -42,6 +42,7 @@ lib/${PKGNAME}/librt.a
 lib/${PKGNAME}/libsb-bsd-sockets.a
 lib/${PKGNAME}/libserve-event.a
 lib/${PKGNAME}/libsockets.a
+lib/${PKGNAME}/prebuilt-asdf.asd
 lib/${PKGNAME}/profile.asd
 lib/${PKGNAME}/profile.fas
 lib/${PKGNAME}/rt.asd
