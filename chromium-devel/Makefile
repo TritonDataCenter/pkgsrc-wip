@@ -13,6 +13,15 @@ LICENSE=	modified-bsd
 USE_TOOLS+=	gmake pkg-config
 USE_LANGUAGES=	c c++
 
+# Override the LINK variable for the platforms which do not have flock(1).
+MAKE_ENV+=	LINK=${CXX}
+
+RESTRICTED=	tarball contains some allegedly patent-infringing source code
+NO_SRC_ON_FTP=		${RESTRICTED}
+NO_BIN_ON_FTP=		${RESTRICTED}
+NO_SRC_ON_CDROM=	${RESTRICTED}
+NO_BIN_ON_CDROM=	${RESTRICTED}
+
 CHECK_PORTABILITY_SKIP+=breakpad/src/third_party/protobuf/protobuf/post_process_dist.sh
 CHECK_PORTABILITY_SKIP+=native_client/src/third_party/libxt/configure
 CHECK_PORTABILITY_SKIP+=third_party/protobuf2/src/post_process_dist.sh
