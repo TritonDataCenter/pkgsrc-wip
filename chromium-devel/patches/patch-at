@@ -7,7 +7,7 @@ $NetBSD$
        ],
        'conditions': [
 -        ['OS=="linux" or OS=="freebsd"', {
-+        ['OS=="linux" or OS=="freebsd"or OS=="netbsd"', {
++        ['OS=="linux" or OS=="freebsd" or OS=="netbsd"', {
            'conditions': [
              ['linux_use_tcmalloc==1', {
                'dependencies': [
