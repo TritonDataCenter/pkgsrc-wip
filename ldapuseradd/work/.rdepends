@@ -1,0 +1,3 @@
+bootstrap	digest>=20010302	digest-20080510
+build	gmake>=3.81	gmake-3.81
+full	mysql-client>=5.0.91	mysql-client-5.1.49

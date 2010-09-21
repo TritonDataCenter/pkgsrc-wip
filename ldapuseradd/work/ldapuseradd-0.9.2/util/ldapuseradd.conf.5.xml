@@ -1,0 +1,323 @@
+<?xml version="1.0" standalone='no'?>
+<!DOCTYPE manpage SYSTEM "http://masqmail.cx/xmltoman/xmltoman.dtd">
+<?xml-stylesheet type="text/xsl" href="http://masqmail.cx/xmltoman/xmltoman.xsl" ?>
+
+<manpage name="ldapuseradd.conf" section="5" desc="ldapuseradd Config Entries">
+
+<synopsis>
+    <cmd>ldapuseradd.conf</cmd>
+</synopsis>
+
+<description>
+    <p>This is the ldapuseradd toolset configuration file.</p>
+</description>
+
+<options>
+    <p>CORE OPTIONS</p>
+    <option>
+      <p><opt>uidset</opt></p>
+      <optdesc>
+        <p>Example: 10000-50000</p>
+        <p>Scope: Global</p>
+        <p>UID pool to use</p>
+      </optdesc>
+    </option>
+    <option>
+      <p><opt>gidset</opt></p>
+      <optdesc>
+        <p>Example: 10000-50000</p>
+        <p>Scope: Global</p>
+        <p>GID pool to use</p>
+      </optdesc>
+    </option>
+    <option>
+      <p><opt>default</opt></p>
+      <optdesc>
+        <p>Example: users</p>
+        <p>Scope: Global</p>
+        <p>Default user type stanza/tier to use</p>
+      </optdesc>
+    </option>
+    <option>
+      <p><opt>ldapuri</opt></p>
+      <optdesc>
+        <p>Example: ldap://172.16.1.4/</p>
+        <p>Scope: Global</p>
+        <p>LDAP Server URI (comma-seperated list)</p>
+      </optdesc>
+    </option>
+    <option>
+      <p><opt>ldapbasedn</opt></p>
+      <optdesc>
+        <p>Example: dc=example,dc=com</p>
+        <p>Scope: Global</p>
+        <p>LDAP Base DN for queries</p>
+      </optdesc>
+    </option>
+    <option>
+      <p><opt>ldapbinddn</opt></p>
+      <optdesc>
+        <p>Example: cn=admin,dc=example,dc=com</p>
+        <p>Scope: Global</p>
+        <p>LDAP Admin user that can add enpies.</p>
+      </optdesc>
+    </option>
+    <option>
+      <p><opt>ldapbindpw</opt></p>
+      <optdesc>
+        <p>Example: ASK</p>
+        <p>Scope: Global</p>
+        <p>LDAP Admin password or the word ASK to query user.</p>
+      </optdesc>
+    </option>
+    <option>
+      <p><opt>ldapuserdn</opt></p>
+      <optdesc>
+        <p>Example: uid=%u,ou=people,dc=example,dc=com</p>
+        <p>Scope: Global</p>
+        <p>Template for creating new user DNs.</p>
+      </optdesc>
+    </option>
+    <option>
+      <p><opt>ldapgroupdn</opt></p>
+      <optdesc>
+        <p>Example: cn=%g,ou=group,dc=example,dc=com</p>
+        <p>Scope: Global</p>
+        <p>Template for creating new group DNs.</p>
+      </optdesc>
+    </option>
+    <option>
+      <p><opt>user_template</opt></p>
+      <optdesc>
+        <p>Example: users.ldap</p>
+        <p>Scope: global / stanza</p>
+        <p>LDAP template for user creation relative to config dir.</p>
+      </optdesc>
+    </option>
+    <option>
+      <p><opt>group_template</opt></p>
+      <optdesc>
+        <p>Example: groups.ldap</p>
+        <p>Scope: global / stanza</p>
+        <p>LDAP template for group creation relative to config dir.</p>
+      </optdesc>
+    </option>
+    <option>
+      <p><opt>manage</opt></p>
+      <optdesc>
+        <p>Example: home,web,mail,sql,script,...</p>
+        <p>Scope: global / stanza</p>
+        <p>What DSO modules to load and run against the new user. home
+is recommended, script and sql also work very well. mail and web need partial
+rewrite.</p>
+      </optdesc>
+    </option>
+    <option>
+      <p><opt>group</opt></p>
+      <optdesc>
+        <p>Example: 1004</p>
+        <p>Example: users</p>
+        <p>Scope: global / stanza</p>
+        <p>The group "gid" (text) or "gidNumber" used by default for this user type.</p>
+      </optdesc>
+    </option>
+    <option>
+      <p><opt>shell</opt></p>
+      <optdesc>
+        <p>Example: /bin/tcsh</p>
+        <p>Scope: global / stanza</p>
+        <p>The default shell for a new user.</p>
+      </optdesc>
+    </option>
+</options>
+<options>
+    <p>HOOK_HOME OPTIONS</p>
+    <option>
+      <p><opt>home</opt></p>
+      <optdesc>
+        <p>Example: /home/uweb/%u</p>
+        <p>Scope: global / stanza</p>
+        <p>If "home" is enabled on the manage list, this directive
+supplies the template for creating user home directories.</p>
+      </optdesc>
+    </option>
+</options>
+<options>
+    <p>HOOK_SCRIPT OPTIONS</p>
+    <option>
+      <p><opt>scriptadd</opt></p>
+      <optdesc>
+        <p>Example: /bin/echo %u added</p>
+        <p>Scope: global / stanza</p>
+        <p>If "script" is enabled on the manage list, this directive
+specifies a script/program to run after user record addition. %u is
+replaced with the username, %g with the group name, and %c with the
+user profile name.</p>
+      </optdesc>
+    </option>
+    <option>
+      <p><opt>scriptdel</opt></p>
+      <optdesc>
+        <p>Example: /bin/echo %u deleted</p>
+        <p>Scope: global / stanza</p>
+        <p>If "script" is enabled on the manage list, this directive
+specifies a script/program to run after user record removal. %u is
+replaced with the username, %g with the group name, and %c with the
+user profile name.</p>
+      </optdesc>
+    </option>
+</options>
+<options>
+    <p>HOOK_WEB OPTIONS</p>
+    <option>
+      <p><opt>apache</opt></p>
+      <optdesc>
+        <p>Example: false</p>
+        <p>Scope: global / stanza</p>
+        <p>If "web" is enabled on the "manage" list, this directive
+toggles configuration of apache for this user type.</p>
+      </optdesc>
+    </option>
+    <option>
+      <p><opt>apachesites</opt></p>
+      <optdesc>
+        <p>Example: /etc/apache2/sites-enabled/</p>
+        <p>Scope: global / stanza</p>
+        <p>If "web" is enabled in the manage list and apache=true for
+this user type, use this directory to create and remove user websites.</p>
+      </optdesc>
+    </option>
+    <option>
+      <p><opt>apachedomain</opt></p>
+      <optdesc>
+        <p>Example: example.com</p>
+        <p>Scope: global / stanza</p>
+        <p>If "web" is enabled in the manage list and apache=true for
+this user type, use this domain for the created VirtualHost.</p>
+      </optdesc>
+    </option>
+    <option>
+      <p><opt>apacheport</opt></p>
+      <optdesc>
+        <p>Example: 80</p>
+        <p>Scope: global / stanza</p>
+        <p>If "web" is enabled in the manage list and apache=true for
+this user type, use this port for webserver logic.</p>
+      </optdesc>
+    </option>
+    <option>
+      <p><opt>apachectl</opt></p>
+      <optdesc>
+        <p>Example: /etc/init.d/apache2</p>
+        <p>Scope: global / stanza</p>
+        <p>If "web" is enabled in the manage list and apache=true for
+this user type, use this script to conpol apache.</p>
+      </optdesc>
+    </option>
+    <option>
+      <p><opt>web</opt></p>
+      <optdesc>
+        <p>Example: /fs/files/www/uweb/pusers/%u</p>
+        <p>Scope: global / stanza</p>
+        <p>If "web" is enabled on the manage list, this directive
+supllies the template for creating user webspace folders.</p>
+      </optdesc>
+    </option>
+    <option>
+      <p><opt>weblink</opt></p>
+      <optdesc>
+        <p>Example: /home/uweb/%u/hoptdescocs,/fs/files/www/vhost-dir/example.com/%u</p>
+        <p>Scope: global / stanza</p>
+        <p>If "web" is enabled on the manage list, this directive
+supplies a comma-separated list of symbolic links to be created to the
+user's webspace.</p>
+      </optdesc>
+    </option>
+</options>
+<options> 
+    <p>HOOK_SQL OPTIONS</p>
+    <option>
+      <p><opt>sqlserver</opt></p>
+      <optdesc>
+        <p>Example: 172.16.1.3</p>
+        <p>Scope: Global</p>
+        <p>MySQL server to use if hook_sql is enabled in "manage" and
+sql=true.</p>
+      </optdesc>
+    </option>
+    <option>
+      <p><opt>sqluser</opt></p>
+      <optdesc>
+        <p>Example: root</p>
+        <p>Scope: global</p>
+        <p>MySQL user to bind.</p>
+      </optdesc>
+    </option>
+    <option>
+      <p><opt>sqlpw</opt></p>
+      <optdesc>
+        <p>Example: ASK</p>
+        <p>Scope: global</p>
+        <p>MySQL password or the word ASK to query user.</p>
+      </optdesc>
+    </option>
+    <option>
+      <p><opt>sql</opt></p>
+      <optdesc>
+        <p>Example: true</p>
+        <p>Scope: global / stanza</p>
+        <p>If "sql" is enabled on the "manage" list, this directive
+toggles creation of an SQL database for this user type.</p>
+      </optdesc>
+    </option>
+</options>
+<options> 
+    <p>HOOK_MAIL OPTIONS</p>
+    <option>
+      <p><opt>mail</opt></p>
+      <optdesc>
+        <p>/home/uweb/%u/Maildir</p>
+        <p>Scope: global / stanza</p>
+        <p>If "mail" is enabled on the "manage" list, this directive
+supplies the template for creating user Maildir folders.</p>
+      </optdesc>
+    </option>
+    <option>
+      <p><opt>maillink</opt></p>
+      <optdesc>
+        <p>Example: </p>
+        <p>Scope: global / stanza</p>
+        <p>If "mail" is enabled on the "manage" list, this directive
+supplies a comma-separated list of&nbsp; symbolic links to be created
+to the user's Maildir.</p>
+      </optdesc>
+    </option>
+</options>
+
+<section name ="Files">
+      <p><file>/usr/local/etc/ldapuseradd/ldapuseradd.conf</file> the config file.</p>
+</section>
+     
+<section name = "Author">
+      <p>ldapuseradd was written by Greg Schenzel
+      &lt;inittab@unixdev.net&gt;</p>
+</section>
+     
+<section name = "See also">
+      <p><manref name="ldapuseradd" section="8"/></p>
+      <p><manref name="ldapusermod" section="8"/></p>
+      <p><manref name="ldapuserdel" section="8"/></p>
+      <p><manref name="ldapgroupadd" section="8"/></p>
+      <p><manref name="ldapgroupmod" section="8"/></p>
+      <p><manref name="ldapgroupdel" section="8"/></p>
+      <p><manref name="users.ldap" section="5"/></p>
+      <p><manref name="groups.ldap" section="5"/></p>
+</section>
+     
+<section name = "Comments">
+      <p>This man page was written using <manref name="xmltoman" section="1"
+      href="http://masqmail.cx/xmltoman/"/>.</p>     
+</section>
+
+</manpage>
+

@@ -1,0 +1,16 @@
+Source: ldapuseradd
+Section: misc
+Priority: optional
+Maintainer: Greg Schenzel <inittab@unixdev.net>
+Build-Depends: libldap2-dev, mysql-client
+Standards-Version: 3.8.0
+
+Package: ldapuseradd
+Architecture: any
+Depends: ${shlibs:Depends}
+Suggests: mysql-client
+Description: LDAP User/Group Management Toolset
+ This package provides a drop-in LDAP replacement for standard
+ UNIX user management tools. It includes support for user
+ profiles and custom plugins to manage third-party requirements.
+

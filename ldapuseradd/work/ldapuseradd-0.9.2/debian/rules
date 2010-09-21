@@ -1,0 +1,110 @@
+#!/usr/bin/make -f
+# -*- makefile -*-
+# debian/rules file - for ldapuseradd
+# Copyright 2005 by Greg Schenzel
+# Patterned after the rxvt package by Brian Mays.
+# Patterned after the hello package by Ian Jackson.
+
+package=ldapuseradd
+
+# Stupid hack dictated by policy wonks
+#CFLAGS=-O3 -Wall
+#ifneq (,$(findstring debug,$(DEB_BUILD_OPTIONS)))
+#CFLAGS += -g
+#endif
+
+build:	build-std
+	$(checkdir)
+	touch build
+
+build-std: 
+	$(checkdir)
+	$(MAKE) -f debian/rules Makefile
+	# ./configure --prefix=/usr will set conf to /usr/etc. override
+	sed -i 's,#define CONFIG_DIR "/usr/etc/ldapuseradd",#define CONFIG_DIR "/etc/ldapuseradd",' config.h
+	# Manpages are hardcoded to /usr/local/etc
+	sed -i 's,/usr/local/etc,/etc,' man5/*.5 man8/*.8
+	$(MAKE) all
+	touch build-std
+
+clean:
+	$(checkdir)
+	$(RM) build*
+	$(RM) -rf debian/files debian/tmp debian/substvars
+	$(MAKE) -f Makefile.in -i distclean
+
+binary-indep:	checkroot build
+	$(checkdir)
+
+binary-arch:	ldapuseradd-std
+
+ldapuseradd-std:	checkroot build-std
+	$(checkdir)
+	$(RM) -r debian/tmp
+	install -d debian/tmp debian/tmp/DEBIAN
+	install -d debian/tmp/usr/share/doc/$(package)
+	install -d debian/tmp/usr/share/doc/$(package)/examples
+# Install Debian package control information files
+	cp debian/conffiles debian/tmp/DEBIAN/.
+# Install directories
+	install -d debian/tmp/etc/ldapuseradd
+	install -d debian/tmp/usr/sbin
+	install -d debian/tmp/usr/share/man/man5
+	install -d debian/tmp/usr/share/man/man8
+	install -d debian/tmp/usr/lib/ldapuseradd
+# Install files
+	cp -v man5/*.5 debian/tmp/usr/share/man/man5
+	cp -v man8/*.8 debian/tmp/usr/share/man/man8
+	gzip -9v debian/tmp/usr/share/man/man5/*.5
+	gzip -9v debian/tmp/usr/share/man/man8/*.8
+	cp -v src/ldapuseradd debian/tmp/usr/sbin
+	ln -s ldapuseradd debian/tmp/usr/sbin/ldapusermod
+	ln -s ldapuseradd debian/tmp/usr/sbin/ldapuserdel
+	ln -s ldapuseradd debian/tmp/usr/sbin/ldapgroupadd
+	ln -s ldapuseradd debian/tmp/usr/sbin/ldapgroupmod
+	ln -s ldapuseradd debian/tmp/usr/sbin/ldapgroupdel
+	cp -v src/hooks/*.so debian/tmp/usr/lib/ldapuseradd
+	cp -v conf/*.ldap conf/ldapuseradd.conf debian/tmp/etc/ldapuseradd
+	cp -v conf/* debian/tmp/usr/share/doc/$(package)/examples
+# Strip binaries (including hack by policy wonks)
+ifeq (,$(findstring nostrip,$(DEB_BUILD_OPTIONS)))
+	strip -R.note -R.comment debian/tmp/usr/sbin/* debian/tmp/usr/lib/ldapuseradd/*
+endif
+# Install documentation, changelog & copyright
+	install -m644 ldapuseradd.html debian/tmp/usr/share/doc/$(package)/ldapuseradd.html
+	install -m644 ChangeLog debian/tmp/usr/share/doc/$(package)/changelog
+	install -m644 debian/changelog \
+	  debian/tmp/usr/share/doc/$(package)/changelog.Debian
+	gzip -9v `find debian/tmp/usr/share/doc/$(package) -type f`
+#	gzip -9v debian/tmp/usr/share/man/*/*
+	install -m644 debian/copyright debian/tmp/usr/share/doc/$(package)/.
+# Determine shared library dependencies
+	dpkg-shlibdeps src/ldapuseradd
+# Genereate deb file
+	dpkg-gencontrol -isp -p$(package)
+	chown -R root.root debian/tmp
+	chmod -R g-ws debian/tmp
+	chown root.root debian/tmp/usr/sbin/ldapuseradd
+	chmod 0755 debian/tmp/usr/sbin/ldapuseradd
+	dpkg-deb --build debian/tmp ..
+
+Makefile:
+	$(checkdir)
+	./configure --prefix=/usr
+
+define checkdir
+	test -f configure.in -a -f debian/rules
+endef
+
+# Below here is fairly generic really
+
+binary:		binary-indep binary-arch
+
+source diff:
+	@echo >&2 'source and diff are obsolete - use dpkg-source -b'; false
+
+checkroot:
+	$(checkdir)
+	test root = "`whoami`"
+
+.PHONY: binary binary-arch binary-indep clean checkroot ldapuseradd-std

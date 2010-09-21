@@ -1,0 +1,254 @@
+.TH ldapuseradd.conf 5 User Manuals
+.SH NAME
+ldapuseradd.conf \- ldapuseradd Config Entries
+.SH SYNOPSIS
+\fBldapuseradd.conf
+\f1
+.SH DESCRIPTION
+This is the ldapuseradd toolset configuration file.
+.SH OPTIONS
+CORE OPTIONS
+.TP
+\fBuidset\f1
+Example: 10000-50000
+
+Scope: Global
+
+UID pool to use
+.TP
+\fBgidset\f1
+Example: 10000-50000
+
+Scope: Global
+
+GID pool to use
+.TP
+\fBdefault\f1
+Example: users
+
+Scope: Global
+
+Default user type stanza/tier to use
+.TP
+\fBldapuri\f1
+Example: ldap://172.16.1.4/
+
+Scope: Global
+
+LDAP Server URI (comma-seperated list)
+.TP
+\fBldapbasedn\f1
+Example: dc=example,dc=com
+
+Scope: Global
+
+LDAP Base DN for queries
+.TP
+\fBldapbinddn\f1
+Example: cn=admin,dc=example,dc=com
+
+Scope: Global
+
+LDAP Admin user that can add enpies.
+.TP
+\fBldapbindpw\f1
+Example: ASK
+
+Scope: Global
+
+LDAP Admin password or the word ASK to query user.
+.TP
+\fBldapuserdn\f1
+Example: uid=%u,ou=people,dc=example,dc=com
+
+Scope: Global
+
+Template for creating new user DNs.
+.TP
+\fBldapgroupdn\f1
+Example: cn=%g,ou=group,dc=example,dc=com
+
+Scope: Global
+
+Template for creating new group DNs.
+.TP
+\fBuser_template\f1
+Example: users.ldap
+
+Scope: global / stanza
+
+LDAP template for user creation relative to config dir.
+.TP
+\fBgroup_template\f1
+Example: groups.ldap
+
+Scope: global / stanza
+
+LDAP template for group creation relative to config dir.
+.TP
+\fBmanage\f1
+Example: home,web,mail,sql,script,...
+
+Scope: global / stanza
+
+What DSO modules to load and run against the new user. home is recommended, script and sql also work very well. mail and web need partial rewrite.
+.TP
+\fBgroup\f1
+Example: 1004
+
+Example: users
+
+Scope: global / stanza
+
+The group "gid" (text) or "gidNumber" used by default for this user type.
+.TP
+\fBshell\f1
+Example: /bin/tcsh
+
+Scope: global / stanza
+
+The default shell for a new user.
+.SH OPTIONS
+HOOK_HOME OPTIONS
+.TP
+\fBhome\f1
+Example: /home/uweb/%u
+
+Scope: global / stanza
+
+If "home" is enabled on the manage list, this directive supplies the template for creating user home directories.
+.SH OPTIONS
+HOOK_SCRIPT OPTIONS
+.TP
+\fBscriptadd\f1
+Example: /bin/echo %u added
+
+Scope: global / stanza
+
+If "script" is enabled on the manage list, this directive specifies a script/program to run after user record addition. %u is replaced with the username, %g with the group name, and %c with the user profile name.
+.TP
+\fBscriptdel\f1
+Example: /bin/echo %u deleted
+
+Scope: global / stanza
+
+If "script" is enabled on the manage list, this directive specifies a script/program to run after user record removal. %u is replaced with the username, %g with the group name, and %c with the user profile name.
+.SH OPTIONS
+HOOK_WEB OPTIONS
+.TP
+\fBapache\f1
+Example: false
+
+Scope: global / stanza
+
+If "web" is enabled on the "manage" list, this directive toggles configuration of apache for this user type.
+.TP
+\fBapachesites\f1
+Example: /etc/apache2/sites-enabled/
+
+Scope: global / stanza
+
+If "web" is enabled in the manage list and apache=true for this user type, use this directory to create and remove user websites.
+.TP
+\fBapachedomain\f1
+Example: example.com
+
+Scope: global / stanza
+
+If "web" is enabled in the manage list and apache=true for this user type, use this domain for the created VirtualHost.
+.TP
+\fBapacheport\f1
+Example: 80
+
+Scope: global / stanza
+
+If "web" is enabled in the manage list and apache=true for this user type, use this port for webserver logic.
+.TP
+\fBapachectl\f1
+Example: /etc/init.d/apache2
+
+Scope: global / stanza
+
+If "web" is enabled in the manage list and apache=true for this user type, use this script to conpol apache.
+.TP
+\fBweb\f1
+Example: /fs/files/www/uweb/pusers/%u
+
+Scope: global / stanza
+
+If "web" is enabled on the manage list, this directive supllies the template for creating user webspace folders.
+.TP
+\fBweblink\f1
+Example: /home/uweb/%u/hoptdescocs,/fs/files/www/vhost-dir/example.com/%u
+
+Scope: global / stanza
+
+If "web" is enabled on the manage list, this directive supplies a comma-separated list of symbolic links to be created to the user's webspace.
+.SH OPTIONS
+HOOK_SQL OPTIONS
+.TP
+\fBsqlserver\f1
+Example: 172.16.1.3
+
+Scope: Global
+
+MySQL server to use if hook_sql is enabled in "manage" and sql=true.
+.TP
+\fBsqluser\f1
+Example: root
+
+Scope: global
+
+MySQL user to bind.
+.TP
+\fBsqlpw\f1
+Example: ASK
+
+Scope: global
+
+MySQL password or the word ASK to query user.
+.TP
+\fBsql\f1
+Example: true
+
+Scope: global / stanza
+
+If "sql" is enabled on the "manage" list, this directive toggles creation of an SQL database for this user type.
+.SH OPTIONS
+HOOK_MAIL OPTIONS
+.TP
+\fBmail\f1
+/home/uweb/%u/Maildir
+
+Scope: global / stanza
+
+If "mail" is enabled on the "manage" list, this directive supplies the template for creating user Maildir folders.
+.TP
+\fBmaillink\f1
+Example: 
+
+Scope: global / stanza
+
+If "mail" is enabled on the "manage" list, this directive supplies a comma-separated list of symbolic links to be created to the user's Maildir.
+.SH FILES
+\fI/usr/local/etc/ldapuseradd/ldapuseradd.conf\f1 the config file.
+.SH AUTHOR
+ldapuseradd was written by Greg Schenzel <inittab@unixdev.net>
+.SH SEE ALSO
+\fBldapuseradd(8)\f1
+
+\fBldapusermod(8)\f1
+
+\fBldapuserdel(8)\f1
+
+\fBldapgroupadd(8)\f1
+
+\fBldapgroupmod(8)\f1
+
+\fBldapgroupdel(8)\f1
+
+\fBusers.ldap(5)\f1
+
+\fBgroups.ldap(5)\f1
+.SH COMMENTS
+This man page was written using \fBxmltoman(1)\f1.

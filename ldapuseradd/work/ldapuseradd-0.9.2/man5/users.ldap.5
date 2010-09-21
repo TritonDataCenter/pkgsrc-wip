@@ -1,0 +1,16 @@
+.TH users.ldap 5 User Manuals
+.SH NAME
+users.ldap \- ldapuseradd User Template
+.SH SYNOPSIS
+\fBusers.ldap
+\f1
+.SH DESCRIPTION
+This configuration file is a template used for the creation of new users. To have multiple values for a record (like objectClass), you must seperate each (on the same line) with %(,). Standard values may be specified as %(name). However, non-standard runtime values (set via -V VAR:VALUE) must be specified as %(var:name).
+.SH FILES
+\fI/usr/local/etc/ldapuseradd/users.ldap\f1 User Template.
+.SH AUTHOR
+ldapuseradd was written by Greg Schenzel <inittab@unixdev.net>
+.SH SEE ALSO
+\fBldapuseradd.conf(5)\f1
+.SH COMMENTS
+This man page was originally written using \fBxmltoman(1)\f1.

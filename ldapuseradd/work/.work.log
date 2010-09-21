@@ -1,0 +1,259 @@
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.tools/bin/true 
+<.> true  
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.tools/bin/true 
+<.> true  
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.tools/bin/true 
+<.> true  
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.tools/bin/true 
+<.> true  
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.tools/bin/true 
+<.> true  
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.tools/bin/true 
+<.> true  
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.tools/bin/true 
+<.> true  
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.tools/bin/true 
+<.> true  
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.tools/bin/true 
+<.> true  
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.tools/bin/true 
+<.> true  
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.tools/bin/true 
+<.> true  
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.tools/bin/true 
+<.> true  
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.tools/bin/true 
+<.> true  
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.tools/bin/true 
+<.> true  
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.tools/bin/true 
+<.> true  
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.tools/bin/true 
+<.> true  
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.tools/bin/true 
+<.> true  
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.tools/bin/true 
+<.> true  
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.tools/bin/true 
+<.> true  
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.tools/bin/true 
+<.> true  
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.tools/bin/true 
+<.> true  
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.tools/bin/true 
+<.> true  
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.tools/bin/mkdir conf21431.dir
+<.> /bin/mkdir -p conf21431.dir
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.tools/bin/mkdir -p .
+<.> /bin/mkdir -p -p .
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc --version
+<.> /usr/pkgsrc/wip/ldapuseradd/work/.gcc/bin/gcc --version -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include -L/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/lib 
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc -v
+<.> /usr/pkgsrc/wip/ldapuseradd/work/.gcc/bin/gcc -v 
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc -V
+<.> /usr/pkgsrc/wip/ldapuseradd/work/.gcc/bin/gcc -V -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include -L/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/lib 
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc -fPIC -I/usr/include -I/usr/pkg/include/mysql -I/usr/include -I/usr/pkg/include/mysql -L/usr/lib -Wl,-R/usr/lib -L/usr/pkg/lib/mysql -Wl,-R/usr/pkg/lib/mysql -Wl,-R/usr/pkg/lib conftest.c -lintl
+<.> /usr/pkgsrc/wip/ldapuseradd/work/.gcc/bin/gcc -fPIC -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include/mysql -L/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/lib/mysql -Wl,-R/usr/pkg/lib/mysql -Wl,-R/usr/pkg/lib conftest.c -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include -L/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/lib  -lintl
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc -o conftest -fPIC -I/usr/include -I/usr/pkg/include/mysql -I/usr/include -I/usr/pkg/include/mysql -L/usr/lib -Wl,-R/usr/lib -L/usr/pkg/lib/mysql -Wl,-R/usr/pkg/lib/mysql -Wl,-R/usr/pkg/lib conftest.c -lintl
+<.> /usr/pkgsrc/wip/ldapuseradd/work/.gcc/bin/gcc -o conftest -fPIC -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include/mysql -L/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/lib/mysql -Wl,-R/usr/pkg/lib/mysql -Wl,-R/usr/pkg/lib conftest.c -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include -L/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/lib  -lintl
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc -c -fPIC -I/usr/include -I/usr/pkg/include/mysql -I/usr/include -I/usr/pkg/include/mysql conftest.c
+<.> /usr/pkgsrc/wip/ldapuseradd/work/.gcc/bin/gcc -c -fPIC -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include/mysql conftest.c -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include -L/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/lib 
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc -c -fPIC -I/usr/include -I/usr/pkg/include/mysql -I/usr/include -I/usr/pkg/include/mysql conftest.c
+<.> /usr/pkgsrc/wip/ldapuseradd/work/.gcc/bin/gcc -c -fPIC -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include/mysql conftest.c -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include -L/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/lib 
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc -c -g -I/usr/include -I/usr/pkg/include/mysql conftest.c
+<.> /usr/pkgsrc/wip/ldapuseradd/work/.gcc/bin/gcc -c -g -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include/mysql conftest.c -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include -L/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/lib 
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc -c -fPIC -I/usr/include -I/usr/pkg/include/mysql -I/usr/include -I/usr/pkg/include/mysql conftest.c
+<.> /usr/pkgsrc/wip/ldapuseradd/work/.gcc/bin/gcc -c -fPIC -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include/mysql conftest.c -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include -L/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/lib 
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc -E -I/usr/include -I/usr/pkg/include/mysql conftest.c
+<.> /usr/pkgsrc/wip/ldapuseradd/work/.gcc/bin/gcc -E -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include/mysql conftest.c -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include -L/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/lib 
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc -E -I/usr/include -I/usr/pkg/include/mysql conftest.c
+<.> /usr/pkgsrc/wip/ldapuseradd/work/.gcc/bin/gcc -E -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include/mysql conftest.c -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include -L/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/lib 
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc -E -I/usr/include -I/usr/pkg/include/mysql conftest.c
+<.> /usr/pkgsrc/wip/ldapuseradd/work/.gcc/bin/gcc -E -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include/mysql conftest.c -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include -L/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/lib 
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc -E -I/usr/include -I/usr/pkg/include/mysql conftest.c
+<.> /usr/pkgsrc/wip/ldapuseradd/work/.gcc/bin/gcc -E -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include/mysql conftest.c -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include -L/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/lib 
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc -c -fPIC -I/usr/include -I/usr/pkg/include/mysql -I/usr/include -I/usr/pkg/include/mysql conftest.c
+<.> /usr/pkgsrc/wip/ldapuseradd/work/.gcc/bin/gcc -c -fPIC -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include/mysql conftest.c -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include -L/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/lib 
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc -E -I/usr/include -I/usr/pkg/include/mysql conftest.c
+<.> /usr/pkgsrc/wip/ldapuseradd/work/.gcc/bin/gcc -E -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include/mysql conftest.c -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include -L/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/lib 
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc -E -I/usr/include -I/usr/pkg/include/mysql conftest.c
+<.> /usr/pkgsrc/wip/ldapuseradd/work/.gcc/bin/gcc -E -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include/mysql conftest.c -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include -L/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/lib 
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc -o conftest -fPIC -I/usr/include -I/usr/pkg/include/mysql -I/usr/include -I/usr/pkg/include/mysql -L/usr/lib -Wl,-R/usr/lib -L/usr/pkg/lib/mysql -Wl,-R/usr/pkg/lib/mysql -Wl,-R/usr/pkg/lib conftest.c -lintl
+<.> /usr/pkgsrc/wip/ldapuseradd/work/.gcc/bin/gcc -o conftest -fPIC -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include/mysql -L/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/lib/mysql -Wl,-R/usr/pkg/lib/mysql -Wl,-R/usr/pkg/lib conftest.c -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include -L/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/lib  -lintl
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc -c -fPIC -I/usr/include -I/usr/pkg/include/mysql -I/usr/include -I/usr/pkg/include/mysql conftest.c
+<.> /usr/pkgsrc/wip/ldapuseradd/work/.gcc/bin/gcc -c -fPIC -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include/mysql conftest.c -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include -L/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/lib 
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc -c -fPIC -I/usr/include -I/usr/pkg/include/mysql -I/usr/include -I/usr/pkg/include/mysql conftest.c
+<.> /usr/pkgsrc/wip/ldapuseradd/work/.gcc/bin/gcc -c -fPIC -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include/mysql conftest.c -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include -L/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/lib 
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc -c -fPIC -I/usr/include -I/usr/pkg/include/mysql -I/usr/include -I/usr/pkg/include/mysql conftest.c
+<.> /usr/pkgsrc/wip/ldapuseradd/work/.gcc/bin/gcc -c -fPIC -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include/mysql conftest.c -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include -L/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/lib 
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc -c -fPIC -I/usr/include -I/usr/pkg/include/mysql -I/usr/include -I/usr/pkg/include/mysql conftest.c
+<.> /usr/pkgsrc/wip/ldapuseradd/work/.gcc/bin/gcc -c -fPIC -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include/mysql conftest.c -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include -L/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/lib 
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc -c -fPIC -I/usr/include -I/usr/pkg/include/mysql -I/usr/include -I/usr/pkg/include/mysql conftest.c
+<.> /usr/pkgsrc/wip/ldapuseradd/work/.gcc/bin/gcc -c -fPIC -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include/mysql conftest.c -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include -L/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/lib 
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc -c -fPIC -I/usr/include -I/usr/pkg/include/mysql -I/usr/include -I/usr/pkg/include/mysql conftest.c
+<.> /usr/pkgsrc/wip/ldapuseradd/work/.gcc/bin/gcc -c -fPIC -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include/mysql conftest.c -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include -L/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/lib 
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc -c -fPIC -I/usr/include -I/usr/pkg/include/mysql -I/usr/include -I/usr/pkg/include/mysql conftest.c
+<.> /usr/pkgsrc/wip/ldapuseradd/work/.gcc/bin/gcc -c -fPIC -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include/mysql conftest.c -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include -L/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/lib 
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc -c -fPIC -I/usr/include -I/usr/pkg/include/mysql -I/usr/include -I/usr/pkg/include/mysql conftest.c
+<.> /usr/pkgsrc/wip/ldapuseradd/work/.gcc/bin/gcc -c -fPIC -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include/mysql conftest.c -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include -L/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/lib 
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc -c -fPIC -I/usr/include -I/usr/pkg/include/mysql -I/usr/include -I/usr/pkg/include/mysql conftest.c
+<.> /usr/pkgsrc/wip/ldapuseradd/work/.gcc/bin/gcc -c -fPIC -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include/mysql conftest.c -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include -L/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/lib 
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc -c -fPIC -I/usr/include -I/usr/pkg/include/mysql -I/usr/include -I/usr/pkg/include/mysql conftest.c
+<.> /usr/pkgsrc/wip/ldapuseradd/work/.gcc/bin/gcc -c -fPIC -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include/mysql conftest.c -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include -L/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/lib 
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc -E -I/usr/include -I/usr/pkg/include/mysql conftest.c
+<.> /usr/pkgsrc/wip/ldapuseradd/work/.gcc/bin/gcc -E -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include/mysql conftest.c -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include -L/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/lib 
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc -c -fPIC -I/usr/include -I/usr/pkg/include/mysql -I/usr/include -I/usr/pkg/include/mysql conftest.c
+<.> /usr/pkgsrc/wip/ldapuseradd/work/.gcc/bin/gcc -c -fPIC -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include/mysql conftest.c -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include -L/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/lib 
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc -E -I/usr/include -I/usr/pkg/include/mysql conftest.c
+<.> /usr/pkgsrc/wip/ldapuseradd/work/.gcc/bin/gcc -E -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include/mysql conftest.c -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include -L/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/lib 
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc -c -fPIC -I/usr/include -I/usr/pkg/include/mysql -I/usr/include -I/usr/pkg/include/mysql conftest.c
+<.> /usr/pkgsrc/wip/ldapuseradd/work/.gcc/bin/gcc -c -fPIC -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include/mysql conftest.c -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include -L/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/lib 
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc -E -I/usr/include -I/usr/pkg/include/mysql conftest.c
+<.> /usr/pkgsrc/wip/ldapuseradd/work/.gcc/bin/gcc -E -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include/mysql conftest.c -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include -L/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/lib 
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc -c -fPIC -I/usr/include -I/usr/pkg/include/mysql -I/usr/include -I/usr/pkg/include/mysql conftest.c
+<.> /usr/pkgsrc/wip/ldapuseradd/work/.gcc/bin/gcc -c -fPIC -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include/mysql conftest.c -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include -L/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/lib 
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc -E -I/usr/include -I/usr/pkg/include/mysql conftest.c
+<.> /usr/pkgsrc/wip/ldapuseradd/work/.gcc/bin/gcc -E -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include/mysql conftest.c -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include -L/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/lib 
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc -c -fPIC -I/usr/include -I/usr/pkg/include/mysql -I/usr/include -I/usr/pkg/include/mysql conftest.c
+<.> /usr/pkgsrc/wip/ldapuseradd/work/.gcc/bin/gcc -c -fPIC -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include/mysql conftest.c -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include -L/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/lib 
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc -E -I/usr/include -I/usr/pkg/include/mysql conftest.c
+<.> /usr/pkgsrc/wip/ldapuseradd/work/.gcc/bin/gcc -E -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include/mysql conftest.c -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include -L/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/lib 
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc -c -fPIC -I/usr/include -I/usr/pkg/include/mysql -I/usr/include -I/usr/pkg/include/mysql conftest.c
+<.> /usr/pkgsrc/wip/ldapuseradd/work/.gcc/bin/gcc -c -fPIC -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include/mysql conftest.c -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include -L/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/lib 
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc -E -I/usr/include -I/usr/pkg/include/mysql conftest.c
+<.> /usr/pkgsrc/wip/ldapuseradd/work/.gcc/bin/gcc -E -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include/mysql conftest.c -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include -L/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/lib 
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc -c -fPIC -I/usr/include -I/usr/pkg/include/mysql -I/usr/include -I/usr/pkg/include/mysql conftest.c
+<.> /usr/pkgsrc/wip/ldapuseradd/work/.gcc/bin/gcc -c -fPIC -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include/mysql conftest.c -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include -L/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/lib 
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc -E -I/usr/include -I/usr/pkg/include/mysql conftest.c
+<.> /usr/pkgsrc/wip/ldapuseradd/work/.gcc/bin/gcc -E -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include/mysql conftest.c -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include -L/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/lib 
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc -c -fPIC -I/usr/include -I/usr/pkg/include/mysql -I/usr/include -I/usr/pkg/include/mysql conftest.c
+<.> /usr/pkgsrc/wip/ldapuseradd/work/.gcc/bin/gcc -c -fPIC -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include/mysql conftest.c -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include -L/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/lib 
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc -c -fPIC -I/usr/include -I/usr/pkg/include/mysql -I/usr/include -I/usr/pkg/include/mysql conftest.c
+<.> /usr/pkgsrc/wip/ldapuseradd/work/.gcc/bin/gcc -c -fPIC -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include/mysql conftest.c -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include -L/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/lib 
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc -E -I/usr/include -I/usr/pkg/include/mysql conftest.c
+<.> /usr/pkgsrc/wip/ldapuseradd/work/.gcc/bin/gcc -E -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include/mysql conftest.c -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include -L/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/lib 
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc -c -fPIC -I/usr/include -I/usr/pkg/include/mysql -I/usr/include -I/usr/pkg/include/mysql conftest.c
+<.> /usr/pkgsrc/wip/ldapuseradd/work/.gcc/bin/gcc -c -fPIC -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include/mysql conftest.c -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include -L/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/lib 
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc -o conftest -fPIC -I/usr/include -I/usr/pkg/include/mysql -I/usr/include -I/usr/pkg/include/mysql -L/usr/lib -Wl,-R/usr/lib -L/usr/pkg/lib/mysql -Wl,-R/usr/pkg/lib/mysql -Wl,-R/usr/pkg/lib conftest.c -lintl
+<.> /usr/pkgsrc/wip/ldapuseradd/work/.gcc/bin/gcc -o conftest -fPIC -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include/mysql -L/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/lib/mysql -Wl,-R/usr/pkg/lib/mysql -Wl,-R/usr/pkg/lib conftest.c -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include -L/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/lib  -lintl
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc -o conftest -fPIC -I/usr/include -I/usr/pkg/include/mysql -I/usr/include -I/usr/pkg/include/mysql -L/usr/lib -Wl,-R/usr/lib -L/usr/pkg/lib/mysql -Wl,-R/usr/pkg/lib/mysql -Wl,-R/usr/pkg/lib conftest.c -lintl
+<.> /usr/pkgsrc/wip/ldapuseradd/work/.gcc/bin/gcc -o conftest -fPIC -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include/mysql -L/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/lib/mysql -Wl,-R/usr/pkg/lib/mysql -Wl,-R/usr/pkg/lib conftest.c -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include -L/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/lib  -lintl
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc -o conftest -fPIC -I/usr/include -I/usr/pkg/include/mysql -I/usr/include -I/usr/pkg/include/mysql -L/usr/lib -Wl,-R/usr/lib -L/usr/pkg/lib/mysql -Wl,-R/usr/pkg/lib/mysql -Wl,-R/usr/pkg/lib conftest.c -lintl
+<.> /usr/pkgsrc/wip/ldapuseradd/work/.gcc/bin/gcc -o conftest -fPIC -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include/mysql -L/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/lib/mysql -Wl,-R/usr/pkg/lib/mysql -Wl,-R/usr/pkg/lib conftest.c -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include -L/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/lib  -lintl
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.tools/bin/mkdir conf11766.dir
+<.> /bin/mkdir -p conf11766.dir
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.tools/bin/mkdir -p .
+<.> /bin/mkdir -p -p .
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.tools/bin/true 
+<.> true  
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.tools/bin/true 
+<.> true  
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.tools/bin/true 
+<.> true  
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.tools/bin/true 
+<.> true  
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.tools/bin/true 
+<.> true  
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.tools/bin/true 
+<.> true  
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.tools/bin/true 
+<.> true  
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.tools/bin/true 
+<.> true  
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc -Wall -I.. -I. -Iapi -Ildap -fPIC -I/usr/include -I/usr/pkg/include/mysql -I/usr/include -I/usr/pkg/include/mysql -c -o argv_groupadd.o argv_groupadd.c
+<.> /usr/pkgsrc/wip/ldapuseradd/work/.gcc/bin/gcc -Wall -I.. -I. -Iapi -Ildap -fPIC -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include/mysql -c -o argv_groupadd.o argv_groupadd.c -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include -L/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/lib 
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc -Wall -I.. -I. -Iapi -Ildap -fPIC -I/usr/include -I/usr/pkg/include/mysql -I/usr/include -I/usr/pkg/include/mysql -c -o argv_groupdel.o argv_groupdel.c
+<.> /usr/pkgsrc/wip/ldapuseradd/work/.gcc/bin/gcc -Wall -I.. -I. -Iapi -Ildap -fPIC -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include/mysql -c -o argv_groupdel.o argv_groupdel.c -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include -L/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/lib 
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc -Wall -I.. -I. -Iapi -Ildap -fPIC -I/usr/include -I/usr/pkg/include/mysql -I/usr/include -I/usr/pkg/include/mysql -c -o argv_groupmod.o argv_groupmod.c
+<.> /usr/pkgsrc/wip/ldapuseradd/work/.gcc/bin/gcc -Wall -I.. -I. -Iapi -Ildap -fPIC -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include/mysql -c -o argv_groupmod.o argv_groupmod.c -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include -L/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/lib 
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc -Wall -I.. -I. -Iapi -Ildap -fPIC -I/usr/include -I/usr/pkg/include/mysql -I/usr/include -I/usr/pkg/include/mysql -c -o argv_useradd.o argv_useradd.c
+<.> /usr/pkgsrc/wip/ldapuseradd/work/.gcc/bin/gcc -Wall -I.. -I. -Iapi -Ildap -fPIC -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include/mysql -c -o argv_useradd.o argv_useradd.c -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include -L/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/lib 
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc -Wall -I.. -I. -Iapi -Ildap -fPIC -I/usr/include -I/usr/pkg/include/mysql -I/usr/include -I/usr/pkg/include/mysql -c -o argv_userdel.o argv_userdel.c
+<.> /usr/pkgsrc/wip/ldapuseradd/work/.gcc/bin/gcc -Wall -I.. -I. -Iapi -Ildap -fPIC -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include/mysql -c -o argv_userdel.o argv_userdel.c -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include -L/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/lib 
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc -Wall -I.. -I. -Iapi -Ildap -fPIC -I/usr/include -I/usr/pkg/include/mysql -I/usr/include -I/usr/pkg/include/mysql -c -o argv_usermod.o argv_usermod.c
+<.> /usr/pkgsrc/wip/ldapuseradd/work/.gcc/bin/gcc -Wall -I.. -I. -Iapi -Ildap -fPIC -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include/mysql -c -o argv_usermod.o argv_usermod.c -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include -L/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/lib 
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc -Wall -I.. -I. -Iapi -Ildap -fPIC -I/usr/include -I/usr/pkg/include/mysql -I/usr/include -I/usr/pkg/include/mysql -c -o configfile.o configfile.c
+<.> /usr/pkgsrc/wip/ldapuseradd/work/.gcc/bin/gcc -Wall -I.. -I. -Iapi -Ildap -fPIC -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include/mysql -c -o configfile.o configfile.c -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include -L/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/lib 
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc -Wall -I.. -I. -Iapi -Ildap -fPIC -I/usr/include -I/usr/pkg/include/mysql -I/usr/include -I/usr/pkg/include/mysql -c -o getopt.o getopt.c
+<.> /usr/pkgsrc/wip/ldapuseradd/work/.gcc/bin/gcc -Wall -I.. -I. -Iapi -Ildap -fPIC -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include/mysql -c -o getopt.o getopt.c -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include -L/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/lib 
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc -Wall -I.. -I. -Iapi -Ildap -fPIC -I/usr/include -I/usr/pkg/include/mysql -I/usr/include -I/usr/pkg/include/mysql -c -o getopt1.o getopt1.c
+<.> /usr/pkgsrc/wip/ldapuseradd/work/.gcc/bin/gcc -Wall -I.. -I. -Iapi -Ildap -fPIC -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include/mysql -c -o getopt1.o getopt1.c -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include -L/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/lib 
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc -Wall -I.. -I. -Iapi -Ildap -fPIC -I/usr/include -I/usr/pkg/include/mysql -I/usr/include -I/usr/pkg/include/mysql -c -o ldapuseradd.o ldapuseradd.c
+<.> /usr/pkgsrc/wip/ldapuseradd/work/.gcc/bin/gcc -Wall -I.. -I. -Iapi -Ildap -fPIC -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include/mysql -c -o ldapuseradd.o ldapuseradd.c -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include -L/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/lib 
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc -Wall -I.. -I. -Iapi -Ildap -fPIC -I/usr/include -I/usr/pkg/include/mysql -I/usr/include -I/usr/pkg/include/mysql -c -o userstate.o userstate.c
+<.> /usr/pkgsrc/wip/ldapuseradd/work/.gcc/bin/gcc -Wall -I.. -I. -Iapi -Ildap -fPIC -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include/mysql -c -o userstate.o userstate.c -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include -L/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/lib 
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc -Wall -I.. -I. -Iapi -Ildap -fPIC -I/usr/include -I/usr/pkg/include/mysql -I/usr/include -I/usr/pkg/include/mysql -c -o ldap/ldap_core.o ldap/ldap_core.c
+<.> /usr/pkgsrc/wip/ldapuseradd/work/.gcc/bin/gcc -Wall -I.. -I. -Iapi -Ildap -fPIC -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include/mysql -c -o ldap/ldap_core.o ldap/ldap_core.c -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include -L/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/lib 
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc -Wall -I.. -I. -Iapi -Ildap -fPIC -I/usr/include -I/usr/pkg/include/mysql -I/usr/include -I/usr/pkg/include/mysql -c -o ldap/ldap_group.o ldap/ldap_group.c
+<.> /usr/pkgsrc/wip/ldapuseradd/work/.gcc/bin/gcc -Wall -I.. -I. -Iapi -Ildap -fPIC -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include/mysql -c -o ldap/ldap_group.o ldap/ldap_group.c -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include -L/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/lib 
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc -Wall -I.. -I. -Iapi -Ildap -fPIC -I/usr/include -I/usr/pkg/include/mysql -I/usr/include -I/usr/pkg/include/mysql -c -o ldap/ldap_groups.o ldap/ldap_groups.c
+<.> /usr/pkgsrc/wip/ldapuseradd/work/.gcc/bin/gcc -Wall -I.. -I. -Iapi -Ildap -fPIC -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include/mysql -c -o ldap/ldap_groups.o ldap/ldap_groups.c -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include -L/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/lib 
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc -Wall -I.. -I. -Iapi -Ildap -fPIC -I/usr/include -I/usr/pkg/include/mysql -I/usr/include -I/usr/pkg/include/mysql -c -o ldap/ldap_nss.o ldap/ldap_nss.c
+<.> /usr/pkgsrc/wip/ldapuseradd/work/.gcc/bin/gcc -Wall -I.. -I. -Iapi -Ildap -fPIC -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include/mysql -c -o ldap/ldap_nss.o ldap/ldap_nss.c -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include -L/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/lib 
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc -Wall -I.. -I. -Iapi -Ildap -fPIC -I/usr/include -I/usr/pkg/include/mysql -I/usr/include -I/usr/pkg/include/mysql -c -o ldap/ldap_user.o ldap/ldap_user.c
+<.> /usr/pkgsrc/wip/ldapuseradd/work/.gcc/bin/gcc -Wall -I.. -I. -Iapi -Ildap -fPIC -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include/mysql -c -o ldap/ldap_user.o ldap/ldap_user.c -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include -L/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/lib 
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc -Wall -I.. -I. -Iapi -Ildap -fPIC -I/usr/include -I/usr/pkg/include/mysql -I/usr/include -I/usr/pkg/include/mysql -c -o api/chmod.o api/chmod.c
+<.> /usr/pkgsrc/wip/ldapuseradd/work/.gcc/bin/gcc -Wall -I.. -I. -Iapi -Ildap -fPIC -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include/mysql -c -o api/chmod.o api/chmod.c -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include -L/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/lib 
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc -Wall -I.. -I. -Iapi -Ildap -fPIC -I/usr/include -I/usr/pkg/include/mysql -I/usr/include -I/usr/pkg/include/mysql -c -o api/chown.o api/chown.c
+<.> /usr/pkgsrc/wip/ldapuseradd/work/.gcc/bin/gcc -Wall -I.. -I. -Iapi -Ildap -fPIC -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include/mysql -c -o api/chown.o api/chown.c -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include -L/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/lib 
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc -Wall -I.. -I. -Iapi -Ildap -fPIC -I/usr/include -I/usr/pkg/include/mysql -I/usr/include -I/usr/pkg/include/mysql -c -o api/functions.o api/functions.c
+<.> /usr/pkgsrc/wip/ldapuseradd/work/.gcc/bin/gcc -Wall -I.. -I. -Iapi -Ildap -fPIC -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include/mysql -c -o api/functions.o api/functions.c -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include -L/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/lib 
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc -Wall -I.. -I. -Iapi -Ildap -fPIC -I/usr/include -I/usr/pkg/include/mysql -I/usr/include -I/usr/pkg/include/mysql -c -o api/mkdir.o api/mkdir.c
+<.> /usr/pkgsrc/wip/ldapuseradd/work/.gcc/bin/gcc -Wall -I.. -I. -Iapi -Ildap -fPIC -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include/mysql -c -o api/mkdir.o api/mkdir.c -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include -L/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/lib 
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc -Wall -I.. -I. -Iapi -Ildap -fPIC -I/usr/include -I/usr/pkg/include/mysql -I/usr/include -I/usr/pkg/include/mysql -c -o api/pwgen.o api/pwgen.c
+<.> /usr/pkgsrc/wip/ldapuseradd/work/.gcc/bin/gcc -Wall -I.. -I. -Iapi -Ildap -fPIC -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include/mysql -c -o api/pwgen.o api/pwgen.c -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include -L/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/lib 
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc -Wall -I.. -I. -Iapi -Ildap -fPIC -I/usr/include -I/usr/pkg/include/mysql -I/usr/include -I/usr/pkg/include/mysql -c -o api/rmdir.o api/rmdir.c
+<.> /usr/pkgsrc/wip/ldapuseradd/work/.gcc/bin/gcc -Wall -I.. -I. -Iapi -Ildap -fPIC -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include/mysql -c -o api/rmdir.o api/rmdir.c -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include -L/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/lib 
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc -Wall -I.. -I. -Iapi -Ildap -fPIC -I/usr/include -I/usr/pkg/include/mysql -I/usr/include -I/usr/pkg/include/mysql -c -o api/str.o api/str.c
+<.> /usr/pkgsrc/wip/ldapuseradd/work/.gcc/bin/gcc -Wall -I.. -I. -Iapi -Ildap -fPIC -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include/mysql -c -o api/str.o api/str.c -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include -L/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/lib 
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc -Wall -I.. -I. -Iapi -Ildap -fPIC -I/usr/include -I/usr/pkg/include/mysql -I/usr/include -I/usr/pkg/include/mysql -c -o api/wc.o api/wc.c
+<.> /usr/pkgsrc/wip/ldapuseradd/work/.gcc/bin/gcc -Wall -I.. -I. -Iapi -Ildap -fPIC -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include/mysql -c -o api/wc.o api/wc.c -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include -L/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/lib 
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc -o ldapuseradd argv_groupadd.o argv_groupdel.o argv_groupmod.o argv_useradd.o argv_userdel.o argv_usermod.o configfile.o getopt.o getopt1.o ldapuseradd.o userstate.o ldap/ldap_core.o ldap/ldap_group.o ldap/ldap_groups.o ldap/ldap_nss.o ldap/ldap_user.o api/chmod.o api/chown.o api/functions.o api/mkdir.o api/pwgen.o api/rmdir.o api/str.o api/wc.o -Wl,-s -Wl,--export-dynamic -lintl -lldap
+==> Reordering libraries:  -lintl -lldap
+<.> /usr/pkgsrc/wip/ldapuseradd/work/.gcc/bin/gcc -o ldapuseradd argv_groupadd.o argv_groupdel.o argv_groupmod.o argv_useradd.o argv_userdel.o argv_usermod.o configfile.o getopt.o getopt1.o ldapuseradd.o userstate.o ldap/ldap_core.o ldap/ldap_group.o ldap/ldap_groups.o ldap/ldap_nss.o ldap/ldap_user.o api/chmod.o api/chown.o api/functions.o api/mkdir.o api/pwgen.o api/rmdir.o api/str.o api/wc.o -Wl,-s -Wl,--export-dynamic -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include -L/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/lib -lintl -lldap
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc -shared -Wunused -I.. -I../.. -I../api -I../ldap -fPIC -o hook_home.so hook_home.c
+<.> /usr/pkgsrc/wip/ldapuseradd/work/.gcc/bin/gcc -shared -Wunused -I.. -I../.. -I../api -I../ldap -fPIC -o hook_home.so hook_home.c -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include -L/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/lib 
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc -shared -Wunused -I.. -I../.. -I../api -I../ldap -fPIC -o hook_mail.so hook_mail.c
+<.> /usr/pkgsrc/wip/ldapuseradd/work/.gcc/bin/gcc -shared -Wunused -I.. -I../.. -I../api -I../ldap -fPIC -o hook_mail.so hook_mail.c -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include -L/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/lib 
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc -shared -Wunused -I.. -I../.. -I../api -I../ldap -fPIC -o hook_sql.so hook_sql.c
+<.> /usr/pkgsrc/wip/ldapuseradd/work/.gcc/bin/gcc -shared -Wunused -I.. -I../.. -I../api -I../ldap -fPIC -o hook_sql.so hook_sql.c -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include -L/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/lib 
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc -shared -Wunused -I.. -I../.. -I../api -I../ldap -fPIC -o hook_web.so hook_web.c
+<.> /usr/pkgsrc/wip/ldapuseradd/work/.gcc/bin/gcc -shared -Wunused -I.. -I../.. -I../api -I../ldap -fPIC -o hook_web.so hook_web.c -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include -L/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/lib 
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc /usr/pkgsrc/wip/ldapuseradd/work/.wrapper/bin/cc -shared -Wunused -I.. -I../.. -I../api -I../ldap -fPIC -o hook_script.so hook_script.c
+<.> /usr/pkgsrc/wip/ldapuseradd/work/.gcc/bin/gcc -shared -Wunused -I.. -I../.. -I../api -I../ldap -fPIC -o hook_script.so hook_script.c -I/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/include -L/usr/pkgsrc/wip/ldapuseradd/work/.buildlink/lib 
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.tools/bin/true 
+<.> true  
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.tools/bin/true 
+<.> true  
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.tools/bin/true 
+<.> true  
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.tools/bin/true 
+<.> true  
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.tools/bin/true 
+<.> true  
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.tools/bin/true 
+<.> true  
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.tools/bin/true 
+<.> true  
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.tools/bin/true 
+<.> true  
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.tools/bin/true 
+<.> true  
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.tools/bin/true 
+<.> true  
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.tools/bin/true 
+<.> true  
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.tools/bin/mkdir -p /usr/pkg/man/man5
+<.> /bin/mkdir -p -p /usr/pkg/man/man5
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.tools/bin/mkdir -p /usr/pkg/man/cat5
+<.> /bin/mkdir -p -p /usr/pkg/man/cat5
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.tools/bin/mkdir -p /usr/pkg/man/man8
+<.> /bin/mkdir -p -p /usr/pkg/man/man8
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.tools/bin/mkdir -p /usr/pkg/man/cat8
+<.> /bin/mkdir -p -p /usr/pkg/man/cat8
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.tools/bin/true 
+<.> true  
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.tools/bin/true 
+<.> true  
+[*] /usr/pkgsrc/wip/ldapuseradd/work/.tools/bin/true 
+<.> true  

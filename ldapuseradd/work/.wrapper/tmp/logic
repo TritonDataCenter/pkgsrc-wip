@@ -1,0 +1,104 @@
+. $cache
+skipargs=0
+while ! queue_is_empty argbuf; do
+	argok=no
+	while $test "$argok" = "no"; do
+		if queue_is_empty argbuf; then
+			argok=yes
+			continue
+		fi
+		pop_queue argbuf arg
+		$debug_log $wrapperlog "    (logic) pop:  $arg"
+		if $test $skipargs -eq 0; then
+			do_transform=yes
+		else
+			skipargs=`$expr $skipargs - 1 || true`
+			do_transform=no
+			argok=yes
+			continue
+		fi
+		argmatch=no
+		. $arg_pp_main
+		case $argmatch in
+		yes)	continue ;;
+		esac
+		. $arg_pp
+		case $argmatch in
+		yes)	continue ;;
+		esac
+		argok=yes
+	done
+	case $do_transform in
+	yes)
+		cache_lookup
+		case $cachehit in
+		yes)
+			$debug_log $wrapperlog "    (logic) to:   $arg [cached]"
+			;;
+		*)
+			addtocache=no
+			split_arg=no
+			case $skip_transform in
+			yes)
+				$debug_log $wrapperlog "    (logic) to:   $arg [untransformed]"
+				;;
+			*)
+				shquote "$arg"; cachearg="$shquoted"
+				case $arg in
+				-*|/*)
+					case $transform_sed in
+					"")	;;
+					*)
+						arg=`$echo "X$arg" | $Xsed $transform_sed`
+						$debug_log $wrapperlog "    (logic) to:   $arg"
+						addtocache=yes
+						;;
+					esac
+					;;
+				*)
+					$debug_log $wrapperlog "    (logic) to:   $arg [untransformed]"
+					;;
+				esac
+				. $transform
+				;;
+			esac
+			case $arg in
+			-l*)	split_arg=yes ;;
+			esac
+			case $updatecache,$addtocache in
+			yes,yes)
+				shquote "$arg"; cachedarg="$shquoted"
+				$cat >> $cache_body << EOF
+$cachearg) arg=$cachedarg; split_arg=$split_arg; cachehit=yes ;;
+EOF
+				{ echo "cache_lookup() {"
+				  echo "case \$arg in"
+				  $cat $cache_body
+				  echo "*) cachehit=no ;;"
+				  echo "esac"
+				  echo "}"
+				} > $cache-$$.tmp
+				$mv -f $cache-$$.tmp $cache
+				;;
+			esac
+			;;
+		esac
+		case $split_arg in
+		yes)
+			for i in $arg; do
+				append_queue cmdbuf "$i"
+				$debug_log $wrapperlog "    (logic) push: $i [split]"
+			done
+			;;
+		no)
+			append_queue cmdbuf "$arg"
+			$debug_log $wrapperlog "    (logic) push: $arg"
+			;;
+		esac
+		;;
+	*)
+		append_queue cmdbuf "$arg"
+		$debug_log $wrapperlog "    (logic) push: $arg [untransformed]"
+		;;
+	esac
+done

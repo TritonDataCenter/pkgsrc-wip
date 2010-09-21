@@ -1,0 +1,53 @@
+.TH ldapgroupmod 8 User Manuals
+.SH NAME
+ldapgroupmod \- LDAP Group Modify
+.SH SYNOPSIS
+\fBldapgroupmod [\fIoptions\fB] groupname
+\f1
+.SH DESCRIPTION
+ldapuseradd is a set of utilities that aid in the management of users and groups in LDAP directories. Their syntax is identical to the UNIX useradd toolset. 
+.SH OPTIONS
+.TP
+\fB -g INT\f1
+Group ID Number
+.TP
+\fB -h | --help\f1
+Print help and exit
+.TP
+\fB -n NAME\f1
+New Group Name
+.TP
+\fB -o\f1
+Unsupported
+.TP
+\fB -v | --verbose\f1
+Increase Verbosity (use up to 4 times)
+.TP
+\fB -x | --dump\f1
+Dump run-time config and exit
+.SH FILES
+\fI/usr/local/etc/ldapuseradd/ldapuseradd.conf\f1 The config file.
+
+\fI/usr/local/etc/ldapuseradd/users.ldap\f1 User Schema.
+
+\fI/usr/local/etc/ldapuseradd/groups.ldap\f1 Group Schema.
+.SH AUTHOR
+ldapuseradd was written by Greg Schenzel <inittab@unixdev.net>
+.SH SEE ALSO
+\fBldapusermod(8)\f1
+
+\fBldapuserdel(8)\f1
+
+\fBldapuseradd(8)\f1
+
+\fBldapgroupdel(8)\f1
+
+\fBldapgroupadd(8)\f1
+
+\fBldapuseradd.conf(5)\f1
+
+\fBusers.ldap(5)\f1
+
+\fBgroups.ldap(5)\f1
+.SH COMMENTS
+This man page was originally written using \fBxmltoman(1)\f1.

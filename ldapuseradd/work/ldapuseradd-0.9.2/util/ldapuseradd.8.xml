@@ -1,0 +1,77 @@
+<?xml version="1.0" standalone='no'?>
+<!DOCTYPE manpage SYSTEM "http://masqmail.cx/xmltoman/xmltoman.dtd">
+<?xml-stylesheet type="text/xsl" href="http://masqmail.cx/xmltoman/xmltoman.xsl" ?>
+
+<manpage name="ldapuseradd" section="8" desc="LDAP User Add">
+
+<synopsis>
+<cmd>ldapuseradd [<arg>options</arg>] username</cmd>
+</synopsis>
+
+<description>
+
+<p>ldapuseradd is a set of utilities that aid in the management of
+users and groups in LDAP directories. Their syntax is identical to
+the UNIX useradd toolset.
+</p>
+
+</description>
+
+<options>
+<option><p><opt>   -a STRING</opt></p><optdesc><p>                First name</p></optdesc></option>
+<option><p><opt>   -b STRING</opt></p><optdesc><p>                Last name</p></optdesc></option>
+<option><p><opt>   -c STRING</opt></p><optdesc><p>                Comment/gecos</p></optdesc></option>
+<option><p><opt>   -d STRING</opt></p><optdesc><p>                Home Directory</p></optdesc></option>
+<option><p><opt>   -e LONG</opt></p><optdesc><p>                  Expiration date</p></optdesc></option>
+<option><p><opt>   -E STRING</opt></p><optdesc><p>                E-Mail</p></optdesc></option>
+<option><p><opt>   -f LONG</opt></p><optdesc><p>                  Inactive days</p></optdesc></option>
+<option><p><opt>   -g INT</opt></p><optdesc><p>                   Primary group</p></optdesc></option>
+<option><p><opt>   -G STRING</opt></p><optdesc><p>                Secondary groups</p></optdesc></option>
+<option><p><opt>   -h | --help</opt></p><optdesc><p>              Print help and exit</p></optdesc></option>
+<option><p><opt>   -i INT</opt></p><optdesc><p>                   Flag</p></optdesc></option>
+<option><p><opt>   -k STRING</opt></p><optdesc><p>                Skeleton Directory</p></optdesc></option>
+<option><p><opt>   -L INT</opt></p><optdesc><p>                   Last Change</p></optdesc></option>
+<option><p><opt>   -M INT</opt></p><optdesc><p>                   Min Age</p></optdesc></option>
+<option><p><opt>   -m</opt></p><optdesc><p>                       Unsupported</p></optdesc></option>
+<option><p><opt>   -n STRING</opt></p><optdesc><p>                Config Stanza (account profile)</p></optdesc></option>
+<option><p><opt>   -o</opt></p><optdesc><p>                       Unsupported</p></optdesc></option>
+<option><p><opt>   -p STRING</opt></p><optdesc><p>                Password</p></optdesc></option>
+<option><p><opt>   -s STRING</opt></p><optdesc><p>                Shell</p></optdesc></option>
+<option><p><opt>   -u INT</opt></p><optdesc><p>                   User ID Number</p></optdesc></option>
+<option><p><opt>   -V VAR:VALUE</opt></p><optdesc><p>             Custom Schema Variable</p></optdesc></option>
+<option><p><opt>   -v | --verbose</opt></p><optdesc><p>           Increase Verbosity (use up to 4 times)</p></optdesc></option>
+<option><p><opt>   -w INT</opt></p><optdesc><p>                   Warn</p></optdesc></option>
+<option><p><opt>   -x | --dump</opt></p><optdesc><p>              Dump run-time config and exit</p></optdesc></option>
+<option><p><opt>   -X INT</opt></p><optdesc><p>                   Max Age</p></optdesc></option>
+</options>
+
+<section name ="Files">
+<p><file>/usr/local/etc/ldapuseradd/ldapuseradd.conf</file> The config file.</p>
+<p><file>/usr/local/etc/ldapuseradd/users.ldap</file> User Schema.</p>
+<p><file>/usr/local/etc/ldapuseradd/groups.ldap</file> Group Schema.</p>
+</section>
+
+<section name = "Author">
+<p>ldapuseradd was written by Greg Schenzel
+&lt;inittab@unixdev.net&gt;</p>
+</section>
+
+<section name = "See also">
+    <p><manref name="ldapusermod" section="8"/></p>
+    <p><manref name="ldapuserdel" section="8"/></p>
+    <p><manref name="ldapgroupmod" section="8"/></p>
+    <p><manref name="ldapgroupdel" section="8"/></p>
+    <p><manref name="ldapgroupadd" section="8"/></p>
+    <p><manref name="ldapuseradd.conf" section="5"/></p>
+    <p><manref name="users.ldap" section="5"/></p>
+    <p><manref name="groups.ldap" section="5"/></p>
+</section>
+
+<section name = "Comments">
+
+<p>This man page was written using <manref name="xmltoman" section="1"
+href="http://masqmail.cx/xmltoman/"/>.</p>
+
+</section>
+
+</manpage>

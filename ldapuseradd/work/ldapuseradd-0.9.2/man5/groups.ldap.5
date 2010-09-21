@@ -1,0 +1,16 @@
+.TH groups.ldap 5 User Manuals
+.SH NAME
+groups.ldap \- ldapgroupadd Group Template
+.SH SYNOPSIS
+\fBgroups.ldap
+\f1
+.SH DESCRIPTION
+This configuration file is a template used for the creation of new groups. To have multiple values for a record (like objectClass), you must seperate each (on the same line) with %(,). Standard values may be specified as %(name). However, non-standard runtime values (set via -V VAR:VALUE) must be specified as %(var:name).
+.SH FILES
+\fI/usr/local/etc/ldapuseradd/groups.ldap\f1 Group Template.
+.SH AUTHOR
+ldapuseradd was written by Greg Schenzel <inittab@unixdev.net>
+.SH SEE ALSO
+\fBldapuseradd.conf(5)\f1
+.SH COMMENTS
+This man page was originally written using \fBxmltoman(1)\f1.

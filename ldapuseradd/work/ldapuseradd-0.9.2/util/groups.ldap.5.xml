@@ -1,0 +1,37 @@
+<?xml version="1.0" standalone='no'?>
+<!DOCTYPE manpage SYSTEM "http://masqmail.cx/xmltoman/xmltoman.dtd">
+<?xml-stylesheet type="text/xsl" href="http://masqmail.cx/xmltoman/xmltoman.xsl" ?>
+
+<manpage name="groups.ldap" section="5" desc="ldapgroupadd Group Template">
+
+<synopsis>
+  <cmd>groups.ldap</cmd>
+</synopsis>
+
+<description>
+  <p>This configuration file is a template used for the creation of new
+  groups. To have multiple values for a record (like objectClass), you
+  must seperate each (on the same line) with %(,). Standard values may
+  be specified as %(name). However, non-standard runtime values (set
+  via -V VAR:VALUE) must be specified as %(var:name).</p>
+</description>
+
+<section name ="Files">
+  <p><file>/usr/local/etc/ldapuseradd/groups.ldap</file> Group Template.</p>
+</section>
+
+<section name = "Author">
+  <p>ldapuseradd was written by Greg Schenzel
+&lt;inittab@unixdev.net&gt;</p>
+</section>
+
+<section name = "See also">
+  <p><manref name="ldapuseradd.conf" section="5"/></p>
+</section>
+
+<section name = "Comments">
+  <p>This man page was written using <manref name="xmltoman" section="1"
+href="http://masqmail.cx/xmltoman/"/>.</p>
+</section>
+
+</manpage>

@@ -1,0 +1,104 @@
+ldapusermod(8)                                                  ldapusermod(8)
+
+
+
+NNAAMMEE
+       ldapusermod - LDAP User Modify
+
+SSYYNNOOPPSSIISS
+       llddaappuusseerrmmoodd [[_o_p_t_i_o_n_s]] uusseerrnnaammee
+
+DDEESSCCRRIIPPTTIIOONN
+       ldapuseradd  is  a set of utilities that aid in the management of users
+       and groups in LDAP directories. Their syntax is identical to  the  UNIX
+       useradd toolset.
+
+OOPPTTIIOONNSS
+        --aa SSTTRRIINNGG
+              first name
+
+        --bb SSTTRRIINNGG
+              last name
+
+        --cc SSTTRRIINNGG
+              comment/gecos
+
+        --dd SSTTRRIINNGG
+              home directory
+
+        --ee LLOONNGG
+              expiration date
+
+        --EE SSTTRRIINNGG
+              e-mail address
+
+        --ff LLOONNGG
+              inactive days
+
+        --gg IINNTT
+              primary groups
+
+        --GG IINNTT
+              secondary groups
+
+        --hh || ----hheellpp
+              Print help and exit
+
+        --ll SSTTRRIINNGG
+              New Username
+
+        --mm    unsupported
+
+        --nn SSTTRRIINNGG
+              config stanza (account profile)
+
+        --oo    unsupported
+
+        --pp SSTTRRIINNGG
+              password
+
+        --ss SSTTRRIINNGG
+              shell
+
+        --uu IINNTT
+              userid number
+
+        --vv || ----vveerrbboossee
+              Increase Verbosity (use up to 4 times)
+
+        --xx || ----dduummpp
+              Dump run-time config and exit
+
+FFIILLEESS
+       _/_u_s_r_/_l_o_c_a_l_/_e_t_c_/_l_d_a_p_u_s_e_r_a_d_d_/_l_d_a_p_u_s_e_r_a_d_d_._c_o_n_f The config file.
+
+       _/_u_s_r_/_l_o_c_a_l_/_e_t_c_/_l_d_a_p_u_s_e_r_a_d_d_/_u_s_e_r_s_._l_d_a_p User Schema.
+
+       _/_u_s_r_/_l_o_c_a_l_/_e_t_c_/_l_d_a_p_u_s_e_r_a_d_d_/_g_r_o_u_p_s_._l_d_a_p Group Schema.
+
+AAUUTTHHOORR
+       ldapuseradd was written by Greg Schenzel <inittab@unixdev.net>
+
+SSEEEE AALLSSOO
+       llddaappuusseerraadddd((88))
+
+       llddaappuusseerrddeell((88))
+
+       llddaappggrroouuppmmoodd((88))
+
+       llddaappggrroouuppddeell((88))
+
+       llddaappggrroouuppaadddd((88))
+
+       llddaappuusseerraadddd..ccoonnff((55))
+
+       uusseerrss..llddaapp((55))
+
+       ggrroouuppss..llddaapp((55))
+
+CCOOMMMMEENNTTSS
+       This man page was originally written using xxmmllttoommaann((11)).
+
+
+
+Manuals                              User                       ldapusermod(8)

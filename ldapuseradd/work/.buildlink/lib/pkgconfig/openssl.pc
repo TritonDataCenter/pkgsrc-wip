@@ -1,0 +1,5 @@
+Name: OpenSSL
+Description: Secure Sockets Layer and cryptography libraries and tools
+Version: 0.9.9
+Libs: -L/usr/lib -lssl -lcrypto
+Cflags: -I/usr/include

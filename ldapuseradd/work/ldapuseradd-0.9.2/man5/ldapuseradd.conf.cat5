@@ -1,0 +1,286 @@
+ldapuseradd.conf(5)                                        ldapuseradd.conf(5)
+
+
+
+NNAAMMEE
+       ldapuseradd.conf - ldapuseradd Config Entries
+
+SSYYNNOOPPSSIISS
+       llddaappuusseerraadddd..ccoonnff
+
+DDEESSCCRRIIPPTTIIOONN
+       This is the ldapuseradd toolset configuration file.
+
+OOPPTTIIOONNSS
+       CORE OPTIONS
+
+       uuiiddsseett Example: 10000-50000
+
+              Scope: Global
+
+              UID pool to use
+
+       ggiiddsseett Example: 10000-50000
+
+              Scope: Global
+
+              GID pool to use
+
+       ddeeffaauulltt
+              Example: users
+
+              Scope: Global
+
+              Default user type stanza/tier to use
+
+       llddaappuurrii
+              Example: ldap://172.16.1.4/
+
+              Scope: Global
+
+              LDAP Server URI (comma-seperated list)
+
+       llddaappbbaasseeddnn
+              Example: dc=example,dc=com
+
+              Scope: Global
+
+              LDAP Base DN for queries
+
+       llddaappbbiinnddddnn
+              Example: cn=admin,dc=example,dc=com
+
+              Scope: Global
+
+              LDAP Admin user that can add enpies.
+
+       llddaappbbiinnddppww
+              Example: ASK
+
+              Scope: Global
+
+              LDAP Admin password or the word ASK to query user.
+
+       llddaappuusseerrddnn
+              Example: uid=%u,ou=people,dc=example,dc=com
+
+              Scope: Global
+
+              Template for creating new user DNs.
+
+       llddaappggrroouuppddnn
+              Example: cn=%g,ou=group,dc=example,dc=com
+
+              Scope: Global
+
+              Template for creating new group DNs.
+
+       uusseerr__tteemmppllaattee
+              Example: users.ldap
+
+              Scope: global / stanza
+
+              LDAP template for user creation relative to config dir.
+
+       ggrroouupp__tteemmppllaattee
+              Example: groups.ldap
+
+              Scope: global / stanza
+
+              LDAP template for group creation relative to config dir.
+
+       mmaannaaggee Example: home,web,mail,sql,script,...
+
+              Scope: global / stanza
+
+              What  DSO  modules to load and run against the new user. home is
+              recommended, script and sql also work very well.  mail  and  web
+              need partial rewrite.
+
+       ggrroouupp  Example: 1004
+
+              Example: users
+
+              Scope: global / stanza
+
+              The  group  "gid" (text) or "gidNumber" used by default for this
+              user type.
+
+       sshheellll  Example: /bin/tcsh
+
+              Scope: global / stanza
+
+              The default shell for a new user.
+
+OOPPTTIIOONNSS
+       HOOK_HOME OPTIONS
+
+       hhoommee   Example: /home/uweb/%u
+
+              Scope: global / stanza
+
+              If "home" is enabled on the manage list, this directive supplies
+              the template for creating user home directories.
+
+OOPPTTIIOONNSS
+       HOOK_SCRIPT OPTIONS
+
+       ssccrriippttaadddd
+              Example: /bin/echo %u added
+
+              Scope: global / stanza
+
+              If "script" is enabled on the manage list, this directive speci-
+              fies a script/program to run after user record addition.  %u  is
+              replaced  with the username, %g with the group name, and %c with
+              the user profile name.
+
+       ssccrriippttddeell
+              Example: /bin/echo %u deleted
+
+              Scope: global / stanza
+
+              If "script" is enabled on the manage list, this directive speci-
+              fies  a  script/program  to run after user record removal. %u is
+              replaced with the username, %g with the group name, and %c  with
+              the user profile name.
+
+OOPPTTIIOONNSS
+       HOOK_WEB OPTIONS
+
+       aappaacchhee Example: false
+
+              Scope: global / stanza
+
+              If "web" is enabled on the "manage" list, this directive toggles
+              configuration of apache for this user type.
+
+       aappaacchheessiitteess
+              Example: /etc/apache2/sites-enabled/
+
+              Scope: global / stanza
+
+              If "web" is enabled in the manage list and apache=true for  this
+              user  type,  use  this  directory to create and remove user web-
+              sites.
+
+       aappaacchheeddoommaaiinn
+              Example: example.com
+
+              Scope: global / stanza
+
+              If "web" is enabled in the manage list and apache=true for  this
+              user type, use this domain for the created VirtualHost.
+
+       aappaacchheeppoorrtt
+              Example: 80
+
+              Scope: global / stanza
+
+              If  "web" is enabled in the manage list and apache=true for this
+              user type, use this port for webserver logic.
+
+       aappaacchheeccttll
+              Example: /etc/init.d/apache2
+
+              Scope: global / stanza
+
+              If "web" is enabled in the manage list and apache=true for  this
+              user type, use this script to conpol apache.
+
+       wweebb    Example: /fs/files/www/uweb/pusers/%u
+
+              Scope: global / stanza
+
+              If  "web" is enabled on the manage list, this directive supllies
+              the template for creating user webspace folders.
+
+       wweebblliinnkk
+              Example: /home/uweb/%u/hoptdescocs,/fs/files/www/vhost-dir/exam-
+              ple.com/%u
+
+              Scope: global / stanza
+
+              If  "web" is enabled on the manage list, this directive supplies
+              a comma-separated list of symbolic links to be  created  to  the
+              user's webspace.
+
+OOPPTTIIOONNSS
+       HOOK_SQL OPTIONS
+
+       ssqqllsseerrvveerr
+              Example: 172.16.1.3
+
+              Scope: Global
+
+              MySQL  server  to  use  if  hook_sql  is enabled in "manage" and
+              sql=true.
+
+       ssqqlluusseerr
+              Example: root
+
+              Scope: global
+
+              MySQL user to bind.
+
+       ssqqllppww  Example: ASK
+
+              Scope: global
+
+              MySQL password or the word ASK to query user.
+
+       ssqqll    Example: true
+
+              Scope: global / stanza
+
+              If "sql" is enabled on the "manage" list, this directive toggles
+              creation of an SQL database for this user type.
+
+OOPPTTIIOONNSS
+       HOOK_MAIL OPTIONS
+
+       mmaaiill   /home/uweb/%u/Maildir
+
+              Scope: global / stanza
+
+              If  "mail"  is enabled on the "manage" list, this directive sup-
+              plies the template for creating user Maildir folders.
+
+       mmaaiilllliinnkk
+              Example:
+
+              Scope: global / stanza
+
+              If "mail" is enabled on the "manage" list, this  directive  sup-
+              plies  a comma-separated list of symbolic links to be created to
+              the user's Maildir.
+
+FFIILLEESS
+       _/_u_s_r_/_l_o_c_a_l_/_e_t_c_/_l_d_a_p_u_s_e_r_a_d_d_/_l_d_a_p_u_s_e_r_a_d_d_._c_o_n_f the config file.
+
+AAUUTTHHOORR
+       ldapuseradd was written by Greg Schenzel <inittab@unixdev.net>
+
+SSEEEE AALLSSOO
+       llddaappuusseerraadddd((88))
+
+       llddaappuusseerrmmoodd((88))
+
+       llddaappuusseerrddeell((88))
+
+       llddaappggrroouuppaadddd((88))
+
+       llddaappggrroouuppmmoodd((88))
+
+       llddaappggrroouuppddeell((88))
+
+       uusseerrss..llddaapp((55))
+
+       ggrroouuppss..llddaapp((55))
+
+CCOOMMMMEENNTTSS
+       This man page was written using xxmmllttoommaann((11)).
+
+
+
+Manuals                              User                  ldapuseradd.conf(5)

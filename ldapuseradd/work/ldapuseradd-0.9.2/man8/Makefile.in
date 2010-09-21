@@ -1,0 +1,25 @@
+FILES=\
+ldapgroupadd.8 ldapgroupadd.cat8 \
+ldapgroupdel.8 ldapgroupdel.cat8 \
+ldapgroupmod.8 ldapgroupmod.cat8 \
+ldapuseradd.8 ldapuseradd.cat8 \
+ldapuserdel.8 ldapuserdel.cat8 \
+ldapusermod.8 ldapusermod.cat8
+
+all: $(FILES)
+
+clean:
+	-rm *.cat8
+
+install:
+	-mkdir -p @MAN_DIR@/man8
+	-mkdir -p @MAN_DIR@/cat8
+	cp *.8 @MAN_DIR@/man8
+	cp *.cat8 @MAN_DIR@/cat8
+
+#%.8: %.8.xml
+#	xmltoman $^ > $@
+
+%.cat8: %.8
+	nroff -man < $^ > $@
+

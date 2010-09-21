@@ -1,0 +1,5 @@
+#!/bin/sh
+wrapperlog="${TOOLS_WRAPPER_LOG-/usr/pkgsrc/wip/ldapuseradd/work/.work.log}"
+echo "[*] "/usr/pkgsrc/wip/ldapuseradd/work/.tools/bin/[" $@" >> $wrapperlog
+echo "<.> [  "$@"" >> $wrapperlog
+[  "$@"
