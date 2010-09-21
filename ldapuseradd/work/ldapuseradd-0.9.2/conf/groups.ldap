@@ -1,3 +1,0 @@
-cn: %(gid)
-objectClass: top%(,)posixGroup
-gidNumber: %(gid_number)

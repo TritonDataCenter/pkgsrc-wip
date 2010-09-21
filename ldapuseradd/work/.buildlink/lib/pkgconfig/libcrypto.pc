@@ -1,5 +1,0 @@
-Name: OpenSSL-libcrypto
-Description: OpenSSL cryptography library
-Version: 0.9.9
-Libs: -L/usr/lib -lcrypto
-Cflags: -I/usr/include

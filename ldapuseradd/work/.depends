@@ -1,3 +1,0 @@
-bootstrap	digest>=20010302	../../pkgtools/digest
-build	gmake>=3.81	../../devel/gmake
-full	mysql-client>=5.0.91	../../databases/mysql5-client
