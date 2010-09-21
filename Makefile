@@ -1088,6 +1088,7 @@ SUBDIR+=	lcdproc
 SUBDIR+=	lcrack
 SUBDIR+=	ldapbrowser
 SUBDIR+=	ldapdns
+SUBDIR+=	ldapuseradd
 SUBDIR+=	lde
 SUBDIR+=	ldtp
 SUBDIR+=	ledger
