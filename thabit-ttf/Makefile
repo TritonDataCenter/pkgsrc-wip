@@ -9,6 +9,7 @@ MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=arabeyes/}
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	http://www.arabeyes.org/project.php?proj=Khotot
 COMMENT=	Thabit (from Arabic:fixed) is a fixed width OpenType font family
+LICENSE=	open-font-license
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
