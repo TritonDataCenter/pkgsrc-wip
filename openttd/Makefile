@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-VERSION=	1.0.3
+VERSION=	1.0.4
 DISTNAME=	openttd-${VERSION}-source
 PKGNAME=	${DISTNAME:S/-source//}
 CATEGORIES=	games x11
