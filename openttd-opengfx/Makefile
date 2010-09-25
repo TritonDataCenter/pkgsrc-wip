@@ -2,7 +2,7 @@
 #
 
 
-VERSION=	0.2.4
+VERSION=	0.3.1
 DISTNAME=	opengfx-${VERSION}-all
 PKGNAME=	openttd-${DISTNAME:S/-all$//}
 CATEGORIES=	games
@@ -20,11 +20,19 @@ INSTALLATION_DIRS=  	share/openttd/data
 WRKSRC=		${WRKDIR}/opengfx-${VERSION}
 USE_LANGUAGES=	# none
 
-NO_BUILD=		YES
-NO_CONFIGURE=		YES
+NO_BUILD=     	YES
+NO_CONFIGURE=	YES
+
+OPENTTD_DATADIR= ${DESTDIR}${PREFIX}/share/openttd/data
 
 do-install:
-	${INSTALL_DATA} ${WRKSRC}/${DISTNAME:S/-all$//}.tar \
-	   	${DESTDIR}${PREFIX}/share/openttd/data
+#	The single tar version has been dropped	for some reason
+#	${INSTALL_DATA} ${WRKSRC}/${DISTNAME:S/-all$//}.tar \
+#	   	${DESTDIR}${PREFIX}/share/openttd/data
+	${INSTALL_DATA} ${WRKSRC}/*.grf \
+		${OPENTTD_DATADIR}
+	${INSTALL_DATA} ${WRKSRC}/*.obg \
+		${OPENTTD_DATADIR}
+
 
 .include "../../mk/bsd.pkg.mk"
