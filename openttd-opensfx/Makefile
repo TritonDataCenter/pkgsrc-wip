@@ -19,17 +19,19 @@ INSTALLATION_DIRS=  	share/openttd/data
 WRKSRC=		${WRKDIR}/opensfx-${VERSION}
 USE_LANGUAGES=	# none
 
-NO_BUILD=		YES
-NO_CONFIGURE=		YES
+NO_BUILD=    	YES
+NO_CONFIGURE=	YES
+
+OPENTTD_DATADIR= ${DESTDIR}${PREFIX}/share/openttd/data
 
 do-install:
 # the readme is already bumped to the single tar version
 # probably this method will work soon
 #	 	${INSTALL_DATA} ${WRKSRC}/${DISTNAME:S/-all$//}.tar \
 #  		${DESTDIR}${PREFIX}/share/openttd/data
-	${INSTALL_DATA} ${WRKSRC}/opensfx.cat \
-	   	${DESTDIR}${PREFIX}/share/openttd/data
-	${INSTALL_DATA} ${WRKSRC}/opensfx.obs \
-	   	${DESTDIR}${PREFIX}/share/openttd/data
+	${INSTALL_DATA} ${WRKSRC}/*.cat \
+		${OPENTTD_DATADIR}
+	${INSTALL_DATA} ${WRKSRC}/*.obs \
+	   	${OPENTTD_DATADIR}
 
 .include "../../mk/bsd.pkg.mk"
