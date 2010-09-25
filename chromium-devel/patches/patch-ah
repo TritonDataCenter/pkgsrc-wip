@@ -57,15 +57,6 @@ $NetBSD$
            'conditions': [
              [ 'linux_use_tcmalloc==0', {
                  'defines': [
-@@ -578,7 +583,7 @@
-             '../build/linux/system.gyp:gtk',
-           ],
-         },],
--        [ 'OS == "freebsd" or OS == "openbsd"', {
-+        [ 'OS == "freebsd" or OS == "netbsd" or OS == "openbsd"', {
-           'link_settings': {
-             'libraries': [
-               '-L/usr/local/lib -lexecinfo',
 @@ -671,7 +676,7 @@
              ],
            },
