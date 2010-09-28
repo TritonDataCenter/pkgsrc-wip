@@ -1,0 +1,12 @@
+$NetBSD$
+
+--- src/core/sip-sec-krb5.c.orig	2010-06-28 06:25:01.000000000 +0000
++++ src/core/sip-sec-krb5.c
+@@ -24,6 +24,7 @@
+ #include <glib.h>
+ #include <stdio.h>
+ #include <string.h>
++#include <krb5/krb5.h>
+ #include <gssapi/gssapi.h>
+ #include <gssapi/gssapi_krb5.h>
+ 

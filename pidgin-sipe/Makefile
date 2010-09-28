@@ -1,10 +1,10 @@
 # $NetBSD$
 #
 
-DISTNAME=	pidgin-sipe-1.7.1
-PKGREVISION=	2
+DISTNAME=	pidgin-sipe-1.10.1
 CATEGORIES=	chat
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=sipe/}
+EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	yacht@users.sourceforge.net
 HOMEPAGE=	http://sipe.sourceforge.net/
