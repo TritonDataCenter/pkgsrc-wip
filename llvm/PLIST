@@ -115,7 +115,6 @@ include/llvm/Analysis/MemoryBuiltins.h
 include/llvm/Analysis/MemoryDependenceAnalysis.h
 include/llvm/Analysis/PHITransAddr.h
 include/llvm/Analysis/Passes.h
-include/llvm/Analysis/PointerTracking.h
 include/llvm/Analysis/PostDominators.h
 include/llvm/Analysis/ProfileInfo.h
 include/llvm/Analysis/ProfileInfoLoader.h
