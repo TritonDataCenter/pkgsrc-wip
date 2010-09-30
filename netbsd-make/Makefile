@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	bmake-20100510
+DISTNAME=	bmake-20100911
 PKGNAME=	${DISTNAME:S/bmake/nbmake/}
 CATEGORIES=	devel
 MASTER_SITES=	http://www.crufty.net/ftp/pub/sjg/
