@@ -8,7 +8,7 @@ MASTER_SITES=	http://webm.googlecode.com/files/
 EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	ryo_on@yk.rim.or.jp
-HOMEPAGE=	http://webm.googlecode.com/files/
+HOMEPAGE=	http://code.google.com/p/webm/
 COMMENT=	On2 VP8 library from Google
 LICENSE=	modified-bsd
 
