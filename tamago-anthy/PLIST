@@ -63,6 +63,7 @@ ${EMACS_LISPPREFIX}/egg/its/zenkaku.elc
 ${EMACS_LISPPREFIX}/egg/its/zhuyin.el
 ${EMACS_LISPPREFIX}/egg/its/zhuyin.elc
 ${EMACS_LISPPREFIX}/egg/leim-list.el
+${FOR_emacs20}${EMACS_LISPPREFIX}/egg/f-anthy/leim-list.elc
 ${EMACS_LISPPREFIX}/egg/menudiag.el
 ${EMACS_LISPPREFIX}/egg/menudiag.elc
 ${EMACS_LISPPREFIX}/egg/f-anthy/anthy-azik.el
