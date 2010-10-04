@@ -13,11 +13,6 @@ LICENSE=	gnu-gpl-v3
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
-BUILDLINK_API_DEPENDS.curl+=		curl>=7.18.0
-BUILDLINK_API_DEPENDS.pcre+=		pcre>=7.8
-BUILDLINK_API_DEPENDS.libiconv+=	libiconv>=1.12.0
-BUILDLINK_API_DEPENDS.lua+=		lua>=5.1
-
 PLIST_VARS+=	doc
 
 USE_TOOLS+=	pkg-config
@@ -31,8 +26,12 @@ PKGCONFIG_OVERRIDE+=	libquvi.pc.in
 
 .include "options.mk"
 
+BUILDLINK_API_DEPENDS.pcre+=		pcre>=7.8
 .include "../../devel/pcre/buildlink3.mk"
+BUILDLINK_API_DEPENDS.curl+=		curl>=7.18.0
 .include "../../www/curl/buildlink3.mk"
+BUILDLINK_API_DEPENDS.libiconv+=	libiconv>=1.12.0
 .include "../../converters/libiconv/buildlink3.mk"
+BUILDLINK_API_DEPENDS.lua+=		lua>=5.1
 .include "../../lang/lua/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
