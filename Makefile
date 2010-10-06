@@ -224,7 +224,7 @@ SUBDIR+=	cgit
 SUBDIR+=	cglib
 SUBDIR+=	chbg
 SUBDIR+=	chems
-
+SUBDIR+=	chicken
 SUBDIR+=	chora
 SUBDIR+=	chromium-devel
 SUBDIR+=	chrsh
