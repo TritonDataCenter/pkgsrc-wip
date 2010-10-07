@@ -1,10 +1,9 @@
 # $NetBSD$
 
-DISTNAME=	Surfer-0.1.0
-PKGNAME=	deforaos-surfer-0.1.0
-PKGREVISION=	1
+DISTNAME=	Surfer-0.2.0
+PKGNAME=	deforaos-surfer-0.2.0
 CATEGORIES=	www
-MASTER_SITES=	http://www.defora.org/os/download/download/3330/
+MASTER_SITES=	http://www.defora.org/os/download/download/3341/
 
 MAINTAINER=	khorben@defora.org
 HOMEPAGE=	http://www.defora.org/
