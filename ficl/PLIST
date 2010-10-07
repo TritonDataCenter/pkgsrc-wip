@@ -61,7 +61,6 @@ share/ficl/softcore/jhlocal.fr
 share/ficl/softcore/make.bat
 share/ficl/softcore/makefile
 share/ficl/softcore/makesoftcore.c
-share/ficl/softcore/makesoftcore.exe
 share/ficl/softcore/marker.fr
 share/ficl/softcore/oo.fr
 share/ficl/softcore/prefix.fr
