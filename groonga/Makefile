@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	groonga-1.0.1
+DISTNAME=	groonga-1.0.2
 CATEGORIES=	textproc
 MASTER_SITES=	http://groonga.org/files/groonga/
 
