@@ -2,6 +2,8 @@
 bin/paexec
 bin/paexec_reorder
 man/man1/paexec.1
+man/man1/paexec_reorder.1
+share/doc/paexec/COPYRIGHT
 share/doc/paexec/ChangeLog
 share/doc/paexec/NEWS
 share/doc/paexec/README
