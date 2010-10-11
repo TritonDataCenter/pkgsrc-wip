@@ -1279,6 +1279,7 @@ SUBDIR+=	mic-paren
 SUBDIR+=	microcom
 SUBDIR+=	microtetris
 SUBDIR+=	mid2gmc
+SUBDIR+=	mikutter
 SUBDIR+=	milter-greylist-devel
 SUBDIR+=	milter-manager
 SUBDIR+=	mime-support
