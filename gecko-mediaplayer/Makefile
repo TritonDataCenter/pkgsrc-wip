@@ -23,7 +23,7 @@ USE_TOOLS+=		pkg-config msgfmt
 GCONF_SCHEMAS+=		gecko-mediaplayer.schemas
 
 CONFIGURE_ARGS+=	--enable-new-libxul
-CONFIGURE_ARGS+=	--with-plugin-dir=${PREFIX}/lib/netscape
+CONFIGURE_ARGS+=	--with-plugin-dir=${PREFIX}/lib/netscape/plugins
 
 .include "../../devel/glib2/buildlink3.mk"
 .include "../../devel/nspr/buildlink3.mk"
