@@ -32,6 +32,7 @@ CONFIGURE_ARGS+=	--docdir=${PREFIX}/share/doc/${PKGBASE}
 CONFIGURE_ARGS+=	--htmldir=${PREFIX}/share/doc/${PKGBASE}/html
 
 CONFIGURE_ARGS+=	--with-pm=hydra:gforker
+CONFIGURE_ARGS+=	--with-hydra-bindlib=plpa # problems with hwloc
 CONFIGURE_ARGS+=	--disable-fc		# problems?
 
 USE_TOOLS+=		perl:run
