@@ -2193,6 +2193,7 @@ SUBDIR+=	ruby-actionmessenger
 SUBDIR+=	ruby-ditz
 SUBDIR+=	ruby-dnssd
 SUBDIR+=	ruby-easyjour
+SUBDIR+=	ruby-escape
 SUBDIR+=	ruby-git
 SUBDIR+=	ruby-term-ansicolor
 SUBDIR+=	ruby-trollop
