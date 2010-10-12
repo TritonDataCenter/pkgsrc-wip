@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	llvm-2.6
+DISTNAME=	llvm-2.8
 CATEGORIES=	lang
 MASTER_SITES=	http://llvm.org/releases/${PKGVERSION_NOREV}/
 
@@ -42,7 +42,7 @@ SVN_MODULE.llvm=	llvm
 
 #AKE_FLAGS+=		prefix=${DESTDIR:Q}${PREFIX}
 
-PKGNAME=		llvm-2.6.99
+PKGNAME=		llvm-2.8.99
 WRKSRC=			${WRKDIR}/${SVN_MODULE.llvm}
 
 CHECK_PORTABILITY_SKIP= utils/buildit/.svn/text-base/build_llvm.svn-base \
