@@ -2,7 +2,7 @@
 
 DISTNAME=	llvm-2.8
 CATEGORIES=	lang
-MASTER_SITES=	http://llvm.org/releases/2.8/
+MASTER_SITES=	http://llvm.org/releases/${PKGVERSION_NOREV}/
 
 MAINTAINER=	adam.hoka@gmail.com
 HOMEPAGE=	http://llvm.org/
