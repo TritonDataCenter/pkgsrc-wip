@@ -2,6 +2,7 @@
 #
 
 DISTNAME=		auto-complete-1.3
+PKGREVISION=		1
 CATEGORIES=		editors
 MASTER_SITES=	http://cx4a.org/pub/auto-complete/
 EXTRACT_SUFX=	.tar.bz2
