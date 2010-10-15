@@ -31,7 +31,6 @@ post-install:
 	${INSTALL_DATA_DIR} ${PKG_SYSCONFDIR}/sup
 	${INSTALL_DATA_DIR} ${PKG_SYSCONFDIR}/sup-client-scan
 	${INSTALL_DATA_DIR} ${PKG_SYSCONFDIR}/prefixes
-	${INSTALL_DATA_DIR} /home/cvsroot
 
 DEPENDS+=            cvsup-16.1.hnb2:../../devel/cvsup
 
