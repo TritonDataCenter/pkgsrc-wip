@@ -1,0 +1,6 @@
+@comment $NetBSD$
+etc/cvsup/update.sh
+etc/cvsup/config.netbsd.conf
+etc/cvsup/supfile-netbsd
+etc/cvsup/supfile-freebsd
+@exec ${MKDIR} %D/etc/cvsup
