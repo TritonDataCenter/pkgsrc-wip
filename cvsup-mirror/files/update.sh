@@ -52,9 +52,9 @@ cd ${rundir} || exit 120
 
 source ${base}/config.${DISTRO}.conf || exit
 
-colldir=sup-client-scan-deltas # used by all clients to store scan files and daemon to read them
+colldir=sup-client-scan # Used by all clients to store 'scan' files (delta cache DB) and daemon to read them
 
-startup=${PREFIX}/etc/rc.d
+startup=${PREFIX}/etc/rc.d/cvsupd
 eval chome=~${cuser}
 cmd="exec env HOME=${chome} cvsup"
 
@@ -75,8 +75,7 @@ if [ $? -eq 0 ]; then
     # rc.conf snippet:
      # cvsupd=YES
      # cvsupd_user="cvsup"
-     # cvsupd_mirrormode_scandir="sup-client-scan-deltas"
-     # And rc.d/cvsupd:
+     # Also ./rc.d/cvsupd:
 	# [ -z "$cvsupd_user" ] && cvsupd_user="cvsupd"
 	# [ -z "$cvsupd_basedir" ] && cvsupd_basedir="/usr/pkg/etc/cvsup"
 	# [ -z "$cvsupd_maxclients" ] && cvsupd_maxclients="8"
