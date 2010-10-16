@@ -2473,6 +2473,7 @@ SUBDIR+=	udhcp
 SUBDIR+=	uebimiau
 SUBDIR+=	uffizi
 SUBDIR+=	umix
+SUBDIR+=	umurmur
 SUBDIR+=	undo-tree
 SUBDIR+=	unix2tcp
 SUBDIR+=	unmo3
