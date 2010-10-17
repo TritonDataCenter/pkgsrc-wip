@@ -78,6 +78,7 @@ do-install:
 	rm -f $(DESTDIR)$(PREFIX)/lib/sbcl/asdf-install/installer.lisp.orig
 	rm -f $(DESTDIR)$(PREFIX)/lib/sbcl/sb-posix/posix-tests.lisp.orig
 	find $(DESTDIR)$(PREFIX)/lib/sbcl -type d -name CVS -exec rm -rf {} \+
+	find $(DESTDIR)$(PREFIX)/lib/sbcl -type f -name .cvsignore -exec rm -f {} \+
 
 do-test:
 	cd ${WRKSRC}/tests && ${SH} ./run-tests.sh
