@@ -12,12 +12,10 @@ COMMENT=	Utilities for manipulating pkg_summary(5) files
 LICENSE=	mit
 
 DEPENDS+=	runawk>=1.1.0:../../wip/runawk
-DEPENDS+=	awk-pkgsrc-dewey>=0.5.6:../../wip/awk-pkgsrc-dewey
 DEPENDS+=	pipestatus-[0-9]*:../../devel/pipestatus
-#DEPENDS+=	getopt-[0-9]*:../../misc/getopt
 
 CONFLICTS+=	paexec<0.15.0
-
+CONFLICTS+=	awk-pkgsrc-dewey-[0-9]*
 CONFLICTS+=	pkg_src_summary-[0-9]*
 CONFLICTS+=	pkg_cmp_summary-[0-9]*
 CONFLICTS+=	pkg_src_update_summary-[0-9]*
