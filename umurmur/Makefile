@@ -25,6 +25,12 @@ SUBST_STAGE.conf=	post-extract
 SUBST_FILES.conf=	conf.c
 SUBST_SED.conf=	-e 's,/etc/umurmur.conf,${PKG_SYSCONFDIR}/umurmur.conf,g'
 
+SUBST_CLASSES+=		certdir
+SUBST_STAGE.certdir=	post-extract
+SUBST_FILES.certdir=	../umurmur.conf.example
+SUBST_SED.certdir=	-e 's,/etc,${PKG_SYSCONFDIR},g'
+
+MAKE_DIRS+=	${PKG_SYSCONFDIR}/umurmur
 RCD_SCRIPTS=	umurmur
 
 do-install:
