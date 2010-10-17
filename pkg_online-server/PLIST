@@ -10,3 +10,5 @@ bin/pkg_summary2shortinfo
 share/doc/pkg_online-server/NEWS
 share/doc/pkg_online-server/README
 share/doc/pkg_online-server/TODO
+share/examples/pkg_online-server/dictd.conf
+share/examples/pkg_online-server/pkg_online_server.conf

@@ -4,14 +4,13 @@
 # used by wip/pkg_online-server/Makefile
 
 DISTNAME=	pkg_online-${VERSION}
-PKGREVISION=	1
 MASTER_SITES=	http://mova.org/~cheusov/pub/pkg_online/
 
-VERSION=	0.9.1
+VERSION=	0.10.0
 
 MAINTAINER=	cheusov@tut.by
 HOMEPAGE=	http://mova.org/~cheusov/pub/pkg_online/
-COMMENT=	Client/Server search in pkgsrc packages
+COMMENT=	Client/Server searcher for pkgsrc
 
 LICENSE=		mit
 
@@ -21,6 +20,3 @@ DISTINFO_FILE=		${.CURDIR}/../../wip/pkg_online-server/distinfo
 DESCR_SRC=		${.CURDIR}/../../wip/pkg_online-server/DESCR.common
 
 USE_LANGUAGES=		# none
-USE_BSD_MAKEFILE=	yes
-
-NO_BUILD=		yes
