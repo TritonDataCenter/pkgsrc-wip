@@ -8,6 +8,7 @@ share/quvi/lua/README
 share/quvi/lua/util/charset.lua
 share/quvi/lua/util/content_type.lua
 share/quvi/lua/website/README
+share/quvi/lua/website/academicearth.lua
 share/quvi/lua/website/break.lua
 share/quvi/lua/website/buzzhumor.lua
 share/quvi/lua/website/charlierose.lua
