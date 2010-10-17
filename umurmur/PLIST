@@ -1,3 +1,4 @@
 @comment $NetBSD$
 sbin/umurmurd
+share/examples/rc.d/umurmur
 share/examples/umurmur/umurmur.conf
