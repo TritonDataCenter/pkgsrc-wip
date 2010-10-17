@@ -38,7 +38,7 @@ $NetBSD$
    USE_TPROXY     = implicit
  else
 +ifeq ($(TARGET),netbsd)
-+  # This is for FreeBSD
++  # This is for NetBSD
 +  USE_POLL       = implicit
 +  USE_KQUEUE     = implicit
 +  USE_TPROXY     = implicit
