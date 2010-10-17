@@ -11,6 +11,9 @@ MAINTAINER=	asau@inbox.ru
 HOMEPAGE=	http://www.open-mpi.org/
 COMMENT=	Open source MPI-2 implementation
 
+CONFLICTS+=	mpich-[0-9]*	# installs bin/mpicc & other wrappers
+CONFLICTS+=	mpich2-[0-9]*	# installs bin/mpicc & other wrappers
+
 PKG_DESTDIR_SUPPORT=	user-destdir
 
 GNU_CONFIGURE=		yes
