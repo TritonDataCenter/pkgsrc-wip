@@ -21,6 +21,7 @@ CONFIGURE_ARGS+=	--enable-sbcl
 DEPENDS+=		ecl-[0-9]*:../../lang/ecl
 CONFIGURE_ARGS+=	--enable-ecl
 .include "../../lang/ecl/buildlink3.mk"
+.include "../../devel/libffi/buildlink3.mk"
 .endif
 
 # Modify PLIST
