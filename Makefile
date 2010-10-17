@@ -134,7 +134,6 @@ SUBDIR+=	avida2
 SUBDIR+=	avifile-devel
 SUBDIR+=	awesome
 SUBDIR+=	awflwm
-SUBDIR+=	awk-pkgsrc-dewey
 SUBDIR+=	axe
 SUBDIR+=	axel
 SUBDIR+=	azureus
