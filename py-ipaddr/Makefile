@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	ipaddr-2.1.1
+DISTNAME=	ipaddr-2.1.5
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	net python
 MASTER_SITES=	http://ipaddr-py.googlecode.com/files/
