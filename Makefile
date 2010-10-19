@@ -2414,6 +2414,7 @@ SUBDIR+=	tinyfugue-beta
 SUBDIR+=	tinylogin
 SUBDIR+=	tk85
 SUBDIR+=	tkpng
+SUBDIR+=	tktable
 SUBDIR+=	tleenx2
 SUBDIR+=	tleenx3
 SUBDIR+=	tmw
