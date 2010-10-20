@@ -41,7 +41,7 @@ where R is
   >     second file contains earlier version
   ?     versions are incomparable (incorrect version, for example)
   !     versions are not equal (versions themselves are the same but
-           CVS_CHECKSUMs are different)
+           CVS_CHECKSUMs or DEPENDS are different)
 .VE
 .P
 PKGBASE is PKGNAME with version stripped,
@@ -61,7 +61,10 @@ for comparing summaries for multi-variant packages
 (PKGPATH=category/name:variable_assignments format of PKGPATH field)
 .TP
 .B "-c|--use-checksum"
-use CVS_CHECKSUM field for comparing in addition to PKGNAME (and PKGPATH)
+use CVS_CHECKSUM field for comparing in addition to PKGNAME and/or PKGPATH
+.TP
+.B "-d"
+use DEPENDS field for comparing in addition to PKGNAME and/or PKGPATH
 .SH SEE ALSO
 .BR pkg_summary-utils(7) ,
 .BR pkg_summary(5) ,
