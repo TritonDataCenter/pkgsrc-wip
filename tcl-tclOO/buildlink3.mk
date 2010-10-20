@@ -1,0 +1,12 @@
+# $NetBSD$
+
+BUILDLINK_TREE+=	tcl-tclOO
+
+.if !defined(TCL_TCLOO_BUILDLINK3_MK)
+TCL_TCLOO_BUILDLINK3_MK:=
+
+BUILDLINK_API_DEPENDS.tcl-tclOO+=	tcl-tclOO>=0.6
+BUILDLINK_PKGSRCDIR.tcl-tclOO?=		../../wip/tcl-tclOO
+.endif # TCL_TCLOO_BUILDLINK3_MK
+
+BUILDLINK_TREE+=	-tcl-tclOO
