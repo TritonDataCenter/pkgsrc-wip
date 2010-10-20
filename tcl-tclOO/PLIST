@@ -1,6 +1,8 @@
 @comment $NetBSD$
 include/tclOO.h
 include/tclOODecls.h
+include/tclOOInt.h
+include/tclOOIntDecls.h
 lib/TclOO${PKGVERSION}/libTclOO${PKGVERSION}.so
 lib/TclOO${PKGVERSION}/libTclOOstub${PKGVERSION}.a
 lib/TclOO${PKGVERSION}/pkgIndex.tcl
