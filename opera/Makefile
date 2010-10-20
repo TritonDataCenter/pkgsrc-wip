@@ -9,8 +9,8 @@ EXTRACT_SUFX=		.tar.bz2
 MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://www.opera.com/
 COMMENT=		Small, fast and customizable WWW client
-LICENSE=		opera-1000-license
-LICENSE_FILE=		opera-1000-license
+LICENSE=		opera-1060-license
+LICENSE_FILE=		opera-1060-license
 
 EMUL_PLATFORMS=		freebsd-i386 freebsd-x86_64
 EMUL_PLATFORMS+=	linux-i386 linux-x86_64 linux-powerpc
@@ -36,8 +36,8 @@ OPERA_PKG_VERSION=	10.63
 OPERA_PKG_VERSION_DIR=	1063
 
 .if ${EMUL_OPSYS} == "linux"
-EMUL_MODULES.linux=	gtk2 xml2
-# need gstreamer0.10
+EMUL_MODULES.linux=	base x11 fontconfig
+# need gstreamer0.10?
 #EMUL_MODULES.linux+=	xml2 gstreamer
 EMUL_REQD=		suse>=10.0
 OPERA_ARCH.x86_64=	x86_64
