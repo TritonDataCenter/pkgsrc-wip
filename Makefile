@@ -2366,6 +2366,7 @@ SUBDIR+=	tcc
 SUBDIR+=	tcc-devel
 SUBDIR+=	tcl-curl
 SUBDIR+=	tcl-tDOM
+SUBDIR+=	tcl-tclOO
 SUBDIR+=	tcl85
 SUBDIR+=	tcmplex-panteltje
 SUBDIR+=	tcpspy
