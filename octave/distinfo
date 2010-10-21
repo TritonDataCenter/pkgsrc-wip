@@ -3,3 +3,4 @@ $NetBSD$
 SHA1 (octave-3.2.4.tar.bz2) = 7de078564027108f3436f3ba7bf5993a6b411a67
 RMD160 (octave-3.2.4.tar.bz2) = 6dcdea7ef2431b8427da5e6b9d2113e0e5736f43
 Size (octave-3.2.4.tar.bz2) = 12080959 bytes
+SHA1 (patch-an) = e265b1e5d070f0084c6bf96012abd93553d5babf
