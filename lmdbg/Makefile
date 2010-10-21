@@ -20,6 +20,8 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 
 TEST_TARGET=		test
 
+MAKE_ENV=		MANDIR=${PREFIX}/${PKGMANDIR}
+
 DOCDIR=			share/doc/lmdbg
 DOCFILES=		README NEWS ChangeLog
 
