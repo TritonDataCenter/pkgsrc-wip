@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	runawk-1.1.0
+DISTNAME=	runawk-1.2.0
 CATEGORIES=	lang devel
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=runawk/} \
 		http://mova.org/~cheusov/pub/runawk/
@@ -15,7 +15,6 @@ LICENSE=		mit
 PKG_DESTDIR_SUPPORT=	user-destdir
 
 USE_LANGUAGES=		c
-USE_BSD_MAKEFILE=	yes
 TEST_TARGET=		test
 
 .include "../../mk/bsd.prefs.mk"
@@ -24,7 +23,6 @@ TEST_TARGET=		test
 MAKE_ENV+=	AWK_PROG=${AWK:Q}
 .endif
 
-MAKE_ENV+=		PREFIX=${PREFIX}
 MAKE_ENV+=		MANDIR=${PREFIX}/${PKGMANDIR}
 
 PKGDOCDIR=		${PREFIX}/share/doc/runawk
@@ -41,3 +39,5 @@ post-install:
 	cp -p ${WRKSRC}/examples/* ${DESTDIR}/${EGDIR}/
 
 .include "../../mk/bsd.pkg.mk"
+
+MAKE_PROGRAM=		mkcmake

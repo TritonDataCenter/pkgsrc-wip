@@ -31,6 +31,8 @@ share/examples/runawk/demo_heapsort.in
 share/examples/runawk/demo_heapsort2
 share/examples/runawk/demo_heapsort3
 share/examples/runawk/demo_heapsort3.in
+share/examples/runawk/demo_heapsort4
+share/examples/runawk/demo_heapsort4.in
 share/examples/runawk/demo_ini
 share/examples/runawk/demo_ini.in
 share/examples/runawk/demo_minmax
@@ -54,6 +56,7 @@ share/examples/runawk/demo_tokenre2
 share/examples/runawk/demo_tokenre2.in
 share/examples/runawk/demo_tokenre3
 share/examples/runawk/demo_tokenre3.in
+share/examples/runawk/demo_tokenre4
 share/examples/runawk/demo_trim
 share/examples/runawk/demo_trim.in
 share/examples/runawk/demo_trim_in
