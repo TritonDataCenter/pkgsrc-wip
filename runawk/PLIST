@@ -1,9 +1,9 @@
 @comment $NetBSD$
-bin/runawk
 bin/alt_getopt
 bin/alt_getopt.sh
-man/man1/runawk.1
+bin/runawk
 man/man1/alt_getopt.1
+man/man1/runawk.1
 share/doc/runawk/ChangeLog
 share/doc/runawk/NEWS
 share/doc/runawk/README

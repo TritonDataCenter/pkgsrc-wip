@@ -10,6 +10,8 @@ MAINTAINER=	cheusov@tut.by
 HOMEPAGE=	http://sourceforge.net/projects/runawk
 COMMENT=	AWK wrapper that provides support for modules
 
+BUILD_DEPENDS+=		mk-configure>=0.20.0:../../wip/mk-configure
+
 LICENSE=		mit
 
 PKG_DESTDIR_SUPPORT=	user-destdir
