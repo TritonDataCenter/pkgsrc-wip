@@ -16,10 +16,4 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 
 GNU_CONFIGURE=		yes
 
-USE_TOOLS+=		tar
-
-do-extract:
-	set -e; ${MKDIR} ${WRKDIR}; cd ${WRKDIR}; \
-	${TAR} -xf ${DISTDIR}/${DISTNAME}.tar.gz
-
 .include "../../mk/bsd.pkg.mk"
