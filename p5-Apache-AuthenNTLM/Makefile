@@ -5,7 +5,7 @@ PKGNAME=	p5-${DISTNAME}
 CATEGORIES=	www perl5
 MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=Apache/}
 
-MAINTAINER=	shattered@users.sourceforge.net
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://search.cpan.org/~speeves/
 COMMENT=	Perl5/Apache module for NTLM authorization
 

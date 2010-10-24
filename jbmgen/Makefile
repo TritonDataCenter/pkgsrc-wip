@@ -7,7 +7,7 @@ PKGREVISION=		1
 CATEGORIES=		audio ruby
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=jbmgen/}
 
-MAINTAINER=		shattered@users.sourceforge.net
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://jbmgen.sourceforge.net/
 COMMENT=		Archos Gmini playlist generator
 
