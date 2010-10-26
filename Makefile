@@ -265,6 +265,7 @@ SUBDIR+=	creal
 SUBDIR+=	cream
 SUBDIR+=	crfpp
 SUBDIR+=	crm114
+SUBDIR+=	crrcsim
 SUBDIR+=	cryptcat
 SUBDIR+=	csoap
 SUBDIR+=	csp2b
