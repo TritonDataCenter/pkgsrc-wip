@@ -1,0 +1,4 @@
+@comment $NetBSD$
+bin/markdown
+include/mkdio.h
+lib/libmarkdown.a
