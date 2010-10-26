@@ -15,11 +15,12 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 GNU_CONFIGURE=	yes
 USE_LANGUAGES=	c c++
 
+# No pkgsrc package, yet
+##.include "../../math/cgal/buildlink3.mk"
+##.include "../../devel/boost-libs/buildlink3.mk"
+
 .include "../../audio/portaudio/buildlink3.mk"
 .include "../../games/plib/buildlink3.mk"
 .include "../../devel/SDL/buildlink3.mk"
-# No pkgsrc package, yet
-##.include "../../math/cgal/buildlink3.mk"
-.include "../../devel/boost-libs/buildlink3.mk"
 .include "../../graphics/jpeg/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
