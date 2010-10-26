@@ -38,6 +38,9 @@ SUBST_STAGE.man=        post-patch
 SUBST_MESSAGE.man=	Fixing man page.
 SUBST_FILES.man=        ${WRKSRC}/logrotate.8
 SUBST_SED.man=          -e "s|__PREFIX__|${PREFIX}|g"
+MESSAGE_SUBST+=  	DOCDIR=${DOCDIR}
+MESSAGE_SUBST+=  	EXAMPLES_DIR=${EXAMPLES_DIR}
+
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/logrotate ${DESTDIR}${PREFIX}/sbin
