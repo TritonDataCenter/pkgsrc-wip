@@ -21,8 +21,6 @@ HOMEPAGE=		http://www.rhyolite.com/dcc/
 COMMENT=		Anti-spam content filter
 LICENSE=		dcc-free-license
 
-LICENSE_FILE=		${FILESDIR}/dcc-free-license
-
 PKG_DESTDIR_SUPPORT=	user-destdir
 
 .include "../../mk/bsd.prefs.mk"
