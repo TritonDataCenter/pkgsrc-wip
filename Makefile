@@ -55,6 +55,7 @@ SUBDIR+=	acpid
 SUBDIR+=	acroread9
 SUBDIR+=	acroread9-font-share
 SUBDIR+=	acroread9-chsfont
+SUBDIR+=	acroread9-chtfont
 SUBDIR+=	acroread9-jpnfont
 SUBDIR+=	acroread9-korfont
 SUBDIR+=	adamem
