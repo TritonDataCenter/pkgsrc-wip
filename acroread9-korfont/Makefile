@@ -6,7 +6,7 @@ CATEGORIES=	fonts
 DISTFILES=	FontPack910_kor_i486-linux.tar.bz2
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
-COMMENT=	Asian Font Packs for Acrobat Reader 9 (Japanese)
+COMMENT=	Asian Font Packs for Acrobat Reader 9 (Korean)
 
 DEPENDS+=	acroread9-font-share>=9.1:../../wip/acroread9-font-share
 
