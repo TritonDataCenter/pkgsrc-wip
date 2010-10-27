@@ -304,7 +304,6 @@ SUBDIR+=	dates
 SUBDIR+=	db1
 SUBDIR+=	dbf
 SUBDIR+=	dbus-explorer
-SUBDIR+=	dcc
 SUBDIR+=	ddate
 SUBDIR+=	debian_base
 SUBDIR+=	debian_glib
