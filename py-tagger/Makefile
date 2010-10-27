@@ -10,7 +10,7 @@ EXTRACT_SUFX=		.tar.bz2
 MAINTAINER=		shattered@users.sourceforge.net
 HOMEPAGE=		http://www.liquidx.net/pytagger/
 COMMENT=		ID3v1 and ID3v2 tag library in Python
-LICENSE=		modified-bsd	
+LICENSE=		modified-bsd
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
