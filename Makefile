@@ -226,6 +226,7 @@ SUBDIR+=	cdpr
 SUBDIR+=	cedet
 SUBDIR+=	cfengine
 SUBDIR+=	cfengine3
+SUBDIR+=	cgal
 SUBDIR+=	cgit
 SUBDIR+=	cglib
 SUBDIR+=	chbg
