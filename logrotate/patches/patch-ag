@@ -20,7 +20,7 @@ $NetBSD$
  Default state file.
  .TP 27
 -\fI/etc/logrotate.conf\fR
-+\fI/usr/pkg/etc/logrotate.conf\fR
++\fI__PREFIX__/etc/logrotate.conf\fR
  Configuration options.
  
  .SH SEE ALSO
