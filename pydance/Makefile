@@ -17,6 +17,8 @@ DEPENDS+=		${PYPKGPREFIX}-game>=1.6:../../devel/py-game
 
 EXAMPLESDIR=		${PREFIX}/share/examples/pydance
 CONF_FILES+=		${EXAMPLESDIR}/pydance.cfg ${PKG_SYSCONFDIR}/pydance.cfg
+INSTALLATION_DIRS=	${PKGMANDIR}/man6
+
 PYTHON_PATCH_SCRIPTS=	pydance.py
 PYTHON_VERSIONS_INCOMPATIBLE=\
 			15 20 21 22

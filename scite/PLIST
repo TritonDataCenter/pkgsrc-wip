@@ -64,6 +64,7 @@ share/scite/others.properties
 share/scite/pascal.properties
 share/scite/perl.properties
 share/scite/pov.properties
+share/scite/powershell.properties
 share/scite/ps.properties
 share/scite/purebasic.properties
 share/scite/python.properties
