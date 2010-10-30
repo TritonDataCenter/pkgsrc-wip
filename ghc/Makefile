@@ -28,6 +28,9 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 # these packages are built with integer-simple, not integer-gmp, to
 # reduce some complexity by not depending on the GMP. The resulting
 # registerised GHC uses integer-gmp so this won't be a problem.
+#
+# If you want to build HC packages yourself, follow instructions in
+# the ./TODO file.
 ONLY_FOR_PLATFORM= NetBSD-*-i386 FreeBSD-*-i386 Darwin-*-powerpc
 
 # We must provide the real pass to gcc to the ./configure script,
