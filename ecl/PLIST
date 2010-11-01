@@ -1,6 +1,7 @@
 @comment $NetBSD$
 bin/ecl
 bin/ecl-config
+include/ecl/atomic_ops.h
 include/ecl/bytecodes.h
 include/ecl/config.h
 include/ecl/configpre.h
