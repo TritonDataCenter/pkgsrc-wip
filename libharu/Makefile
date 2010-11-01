@@ -28,7 +28,7 @@ CONFIGURE_ARGS+=	--with-png=${BUILDLINK_PREFIX.png}
 .endif
 
 .if !empty(PKG_OPTIONS:Mzlib)
-CONFIGURE_ARGS+=	--with-zlib
+CONFIGURE_ARGS+=	--with-zlib=${BUILDLINK_PREFIX.zlib}
 .endif
 
 
