@@ -6,7 +6,7 @@ PLUGIN_NAME=	change_qldforward
 PLUGIN_VERSION=	1.00-1.2.0
 PKGNAME=	sm-${PLUGIN_NAME}-${PLUGIN_VERSION:S/-/./}
 
-MAINTAINER=	cube@NetBSD.org
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.squirrelmail.org/plugin_view.php?id=26
 COMMENT=	Allows users to change their LDAP password from SquirrelMail
 

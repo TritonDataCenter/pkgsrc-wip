@@ -5,7 +5,7 @@ PKGNAME=		p5-${DISTNAME}
 CATEGORIES=		net perl5
 MASTER_SITES=		${MASTER_SITE_PERL_CPAN:=Frontier/}
 
-MAINTAINER=		cube@cubidou.net
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://datetime.perl.org/
 COMMENT=		Perl module to handle client/server xmlrpc
 

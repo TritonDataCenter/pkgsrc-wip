@@ -5,7 +5,7 @@
 PLUGIN_NAME=	change_ldappass
 PLUGIN_VERSION=	1.8
 
-MAINTAINER=	cube@NetBSD.org
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.squirrelmail.org/plugin_view.php?id=26
 COMMENT=	Allows users to change their LDAP password from SquirrelMail
 
