@@ -1,6 +1,6 @@
 # $NetBSD: Makefile,v 1.39 2006/03/30 03:44:43 jlam Exp $
 
-DISTNAME=	nettle-1.15
+DISTNAME=	nettle-2.1
 PKGNAME=	lib${DISTNAME}
 CATEGORIES=	devel security
 MASTER_SITES=	http://www.lysator.liu.se/~nisse/archive/ \

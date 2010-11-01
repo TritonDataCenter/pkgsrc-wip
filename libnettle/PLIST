@@ -10,6 +10,7 @@ include/nettle/base64.h
 include/nettle/bignum.h
 include/nettle/blowfish.h
 include/nettle/buffer.h
+include/nettle/camellia.h
 include/nettle/cast128.h
 include/nettle/cbc.h
 include/nettle/ctr.h
@@ -39,6 +40,6 @@ include/nettle/twofish.h
 include/nettle/yarrow.h
 info/nettle.info
 lib/libnettle.a
-lib/libnettle.${SOEXT}
-lib/libnettle.${SOEXT}.2
-lib/libnettle.${SOEXT}.2.6
+lib/libnettle.so
+lib/libnettle.so.4
+lib/libnettle.so.4.0
