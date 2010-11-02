@@ -908,6 +908,7 @@ SUBDIR+=	hs-regex-posix
 SUBDIR+=	hs-regions
 SUBDIR+=	hs-stm
 SUBDIR+=	hs-storable-record
+SUBDIR+=	hs-storablevector
 SUBDIR+=	hs-tagsoup
 SUBDIR+=	hs-tar
 SUBDIR+=	hs-terminfo
