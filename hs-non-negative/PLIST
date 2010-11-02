@@ -6,8 +6,6 @@ lib/non-negative-${PKGVERSION}/${HASKELL_VERSION}/Numeric/NonNegative/ChunkyPriv
 lib/non-negative-${PKGVERSION}/${HASKELL_VERSION}/Numeric/NonNegative/ChunkyPrivate.p_hi
 lib/non-negative-${PKGVERSION}/${HASKELL_VERSION}/Numeric/NonNegative/Class.hi
 lib/non-negative-${PKGVERSION}/${HASKELL_VERSION}/Numeric/NonNegative/Class.p_hi
-lib/non-negative-${PKGVERSION}/${HASKELL_VERSION}/Numeric/NonNegative/Utility.hi
-lib/non-negative-${PKGVERSION}/${HASKELL_VERSION}/Numeric/NonNegative/Utility.p_hi
 lib/non-negative-${PKGVERSION}/${HASKELL_VERSION}/Numeric/NonNegative/Wrapper.hi
 lib/non-negative-${PKGVERSION}/${HASKELL_VERSION}/Numeric/NonNegative/Wrapper.p_hi
 lib/non-negative-${PKGVERSION}/${HASKELL_VERSION}/libHSnon-negative-${PKGVERSION}.a
