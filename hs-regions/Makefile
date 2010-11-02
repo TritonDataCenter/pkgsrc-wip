@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	regions-0.4
+DISTNAME=	regions-0.7.0.1
 CATEGORIES=	devel
 
 MAINTAINER=	pho@cielonegro.org
