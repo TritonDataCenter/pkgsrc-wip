@@ -908,6 +908,7 @@ SUBDIR+=	hs-readline
 SUBDIR+=	hs-regex-base
 SUBDIR+=	hs-regex-compat
 SUBDIR+=	hs-regex-posix
+SUBDIR+=	hs-regional-pointers
 SUBDIR+=	hs-regions
 SUBDIR+=	hs-stm
 SUBDIR+=	hs-storable-record
