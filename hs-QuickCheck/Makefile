@@ -1,13 +1,12 @@
 # $NetBSD$
 #
 
-DISTNAME=	QuickCheck-2.1.0.2
-PKGREVISION=	1
+DISTNAME=	QuickCheck-2.3.0.2
 CATEGORIES=	devel
 
 MAINTAINER=	pho@cielonegro.org
-HOMEPAGE=	http://www.cs.chalmers.se/~koen
 COMMENT=	Automatic testing of Haskell programs
+LICENSE=	modified-bsd
 
 .include "../../wip/mk/haskell.mk"
 .include "../../wip/hs-mtl/buildlink3.mk"
