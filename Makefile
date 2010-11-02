@@ -910,6 +910,7 @@ SUBDIR+=	hs-regions
 SUBDIR+=	hs-stm
 SUBDIR+=	hs-storable-record
 SUBDIR+=	hs-storablevector
+SUBDIR+=	hs-tagged
 SUBDIR+=	hs-tagsoup
 SUBDIR+=	hs-tar
 SUBDIR+=	hs-terminfo
