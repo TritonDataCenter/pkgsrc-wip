@@ -122,6 +122,7 @@ include/llvm/Analysis/ProfileInfoLoader.h
 include/llvm/Analysis/ProfileInfoTypes.h
 include/llvm/Analysis/RegionInfo.h
 include/llvm/Analysis/RegionIterator.h
+include/llvm/Analysis/RegionPass.h
 include/llvm/Analysis/RegionPrinter.h
 include/llvm/Analysis/ScalarEvolution.h
 include/llvm/Analysis/ScalarEvolutionExpander.h
@@ -334,6 +335,7 @@ include/llvm/Support/DebugLoc.h
 include/llvm/Support/Dwarf.h
 include/llvm/Support/DynamicLinker.h
 include/llvm/Support/ELF.h
+include/llvm/Support/Endian.h
 include/llvm/Support/ErrorHandling.h
 include/llvm/Support/FileUtilities.h
 include/llvm/Support/Format.h
