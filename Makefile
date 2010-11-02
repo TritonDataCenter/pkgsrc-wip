@@ -902,6 +902,7 @@ SUBDIR+=	hs-numeric-quest
 SUBDIR+=	hs-parallel
 SUBDIR+=	hs-parseargs
 SUBDIR+=	hs-parsec
+SUBDIR+=	hs-pathtype
 SUBDIR+=	hs-pcre-light
 SUBDIR+=	hs-readline
 SUBDIR+=	hs-regex-base
