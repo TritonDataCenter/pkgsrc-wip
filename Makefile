@@ -910,6 +910,7 @@ SUBDIR+=	hs-regex-compat
 SUBDIR+=	hs-regex-posix
 SUBDIR+=	hs-regional-pointers
 SUBDIR+=	hs-regions
+SUBDIR+=	hs-safer-file-handles
 SUBDIR+=	hs-stm
 SUBDIR+=	hs-storable-record
 SUBDIR+=	hs-storablevector
