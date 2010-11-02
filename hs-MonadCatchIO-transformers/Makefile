@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	MonadCatchIO-transformers-0.0.2.0
+DISTNAME=	MonadCatchIO-transformers-0.2.2.0
 CATEGORIES=	devel
 
 MAINTAINER=	pho@cielonegro.org
