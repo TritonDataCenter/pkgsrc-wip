@@ -3,7 +3,8 @@
 
 DISTNAME=		logrotate-3.7.9
 CATEGORIES=		sysutils
-MASTER_SITES=		${MASTER_SITE_GENTOO:=distfiles/}
+#MASTER_SITES=		${MASTER_SITE_GENTOO:=distfiles/}
+MASTER_SITES=		${MASTER_SITE_FREEBSD:=distfiles/}
 
 MAINTAINER=		ahp-nils@users.sourceforge.net
 HOMEPAGE=		https://fedorahosted.org/logrotate/
@@ -16,7 +17,7 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 USE_TOOLS+=		gmake
 USE_LIBTOOL=		yes
 NO_EXPORT_CPP=		yes
-MAKE_ENV+=		"BASEDIR=${PREFIX}"
+MAKE_ENV+=		BASEDIR=${PREFIX}
 MAKE_ENV+=		INSTALL_PROGRAM=${INSTALL_PROGRAM:Q}
 MAKE_ENV+=		INSTALL_MAN=${INSTALL_MAN:Q}
 
