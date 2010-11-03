@@ -1,10 +1,8 @@
 # $NetBSD$
 #
 
-SOQT_VERSION=	1.4.1
-
-DISTNAME=	SoQt-${SOQT_VERSION}
-PKGNAME=	${DISTNAME:S/SoQt/soqt/}
+DISTNAME=	SoQt-1.4.1
+PKGNAME=	${DISTNAME:tl}
 CATEGORIES=	graphics
 MASTER_SITES=	http://ftp.coin3d.org/coin/src/all/
 
