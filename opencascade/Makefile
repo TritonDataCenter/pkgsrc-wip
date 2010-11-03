@@ -1,10 +1,8 @@
 # $NetBSD$
 #
 
-OPENCASCADE_VERSION=6.3
-
 DISTNAME=	OpenCASCADE_src
-PKGNAME=	opencascade-${OPENCASCADE_VERSION}
+PKGNAME=	opencascade-6.3
 CATEGORIES=	cad
 MASTER_SITES=	http://files.opencascade.com/OCC_6.3_release/
 EXTRACT_SUFX=	.tgz
