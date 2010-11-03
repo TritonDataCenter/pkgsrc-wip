@@ -1,6 +1,6 @@
 @comment $NetBSD$
-man/man8/logrotate.8
 man/man5/logrotate.conf.5
+man/man8/logrotate.8
 sbin/logrotate
 share/doc/logrotate/CHANGES
 share/doc/logrotate/COPYING
