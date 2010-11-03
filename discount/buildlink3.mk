@@ -2,6 +2,8 @@
 
 BUILDLINK_TREE+=	discount
 
+BUILDLINK_DEPMETHOD.discount?=  build
+
 .if !defined(DISCOUNT_BUILDLINK3_MK)
 DISCOUNT_BUILDLINK3_MK:=
 
