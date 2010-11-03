@@ -11,13 +11,17 @@ COMMENT=	The ia64 instruction set simulator
 
 PKG_DESTDIR_SUPPORT=        user-destdir
 
+BUILD_DEPENDS+= libelf>=0.8.13:../../devel/libelf
 GNU_CONFIGURE=	yes
 USE_LANGUAGES+= c fortran77 c++
 CONFIGURE_ARGS+= --prefix=${PREFIX}
 
+CPPFLAGS+=	-I${PREFIX}/include/libelf -L ${PREFIX}/lib
+
 USE_TOOLS+=	pkg-config aclocal autoconf automake
 USE_LIBTOOL=	yes
 USE_NCURSES=	yes
+
 
 pre-configure:
 #	cd  ${WRKSRC} && ${SETENV} ${CONFIGURE_ENV} ${SH} ./autogen.sh ${CONFIGURE_ARGS}
