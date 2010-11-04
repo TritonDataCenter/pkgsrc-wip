@@ -2661,6 +2661,7 @@ SUBDIR+=	ypbind-mt
 SUBDIR+=	ypserv
 SUBDIR+=	zabbix
 SUBDIR+=	zapping
+SUBDIR+=	zim
 SUBDIR+=	zinf
 SUBDIR+=	zope3-unstable
 SUBDIR+=	zsh-snapshot
