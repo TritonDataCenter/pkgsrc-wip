@@ -2485,6 +2485,7 @@ SUBDIR+=	typhoon
 SUBDIR+=	u-boot
 SUBDIR+=	uade
 SUBDIR+=	ubit
+SUBDIR+=	ubuntu-font-ttf
 SUBDIR+=	uclibc
 SUBDIR+=	udhcp
 SUBDIR+=	uebimiau
