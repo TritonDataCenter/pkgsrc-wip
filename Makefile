@@ -2310,7 +2310,6 @@ SUBDIR+=	spectrum
 SUBDIR+=	speedx
 SUBDIR+=	spfmilter
 SUBDIR+=	sphinxsearch
-SUBDIR+=	spin
 SUBDIR+=	splix
 SUBDIR+=	squidview
 SUBDIR+=	squirrelmail-avelsieve
