@@ -9,5 +9,3 @@
   or alternatively propose a GNU autoconf option for disabling
   parallel port access. See patch-ab for the current quick hack.
 
-* Add a math/cgal package (see www.cgal.org) for improved 
-  simulation
