@@ -7,7 +7,7 @@ CATEGORIES=	fonts
 MASTER_SITES=	http://archive.ubuntu.com/ubuntu/pool/main/u/ubuntu-font-family-sources/
 
 MAINTAINER=	ryo_on@yk.rim.or.jp
-HOMEPAGE=	http://archive.ubuntu.com/ubuntu/pool/main/u/ubuntu-font-family-sources/
+HOMEPAGE=	https://wiki.ubuntu.com/Ubuntu%20Font%20Family
 COMMENT=	Ubuntu font family
 #LICENSE=	UBUNTU FONT LICENCE Version 1.0
 
