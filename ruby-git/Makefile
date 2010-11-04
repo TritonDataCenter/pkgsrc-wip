@@ -13,7 +13,5 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 
 DEPENDS+=	scmgit-base>=1.6:../../devel/scmgit-base
 
-GEM_BUILD=	gemspec
-
-.include "../../misc/rubygems/rubygem.mk"
+.include "../../lang/ruby/gem.mk"
 .include "../../mk/bsd.pkg.mk"
