@@ -3,7 +3,7 @@
 
 DISTNAME=	zim-0.49
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
-CATEGORIES=	textproc
+CATEGORIES=	editors
 MASTER_SITES=	http://zim-wiki.org/downloads/
 
 MAINTAINER=	ryo_on@yk.rim.or.jp
