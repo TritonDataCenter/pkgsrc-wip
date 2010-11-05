@@ -53,7 +53,7 @@ $NetBSD$
 +	int region;
 +	BOOL abi;
 +
-+	if (ident[EI_OSABI] != ELFOSABI_FREEBSD)
++	if (ident[EI_OSABI] != ELFOSABI_SYSV)
 +		return (0);
 +
 +	region = ehdr->e_entry >> 61;
