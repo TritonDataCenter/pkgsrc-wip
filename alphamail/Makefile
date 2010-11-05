@@ -5,9 +5,11 @@ PKGREVISION=	3
 CATEGORIES=	mail
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=alphamail/}
 
-MAINTAINER=	shattered@users.sourceforge.net
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://alphamail.sourceforge.net/
 COMMENT=	Highly scalable webmail with middleware component
+
+BROKEN=		"Incompatible with boost 1.34+"
 
 DEPENDS+=	p5-HTML-Mason>=1.30:../../www/p5-HTML-Mason
 DEPENDS+=	p5-CGI>=3.20:../../www/p5-CGI
