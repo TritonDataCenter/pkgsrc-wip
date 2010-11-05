@@ -5,7 +5,7 @@ PKGNAME=	p5-${DISTNAME}
 CATEGORIES=	security perl5
 MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=Crypt/}
 
-MAINTAINER=	shattered@users.sourceforge.net
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://search.cpan.org/dist/Crypt-CAST5/
 COMMENT=	Perl5 CAST5 block cipher implementation
 

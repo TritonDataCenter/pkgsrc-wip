@@ -5,7 +5,7 @@ PKGNAME=	p5-${DISTNAME}
 CATEGORIES=	converters perl5
 MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=Encode/}
 
-MAINTAINER=	shattered@users.sourceforge.net
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://search.cpan.org/dist/Encode-IMAPUTF7/
 COMMENT=	Modified UTF7 encoding (for IMAP)
 
