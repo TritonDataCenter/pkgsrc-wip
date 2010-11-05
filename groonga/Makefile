@@ -28,7 +28,7 @@ PKG_SYSCONFSUBDIR=	${PKGBASE}
 INSTALL_MAKE_FLAGS+=	sysconfdir=${PREFIX}/share/examples
 
 CONF_FILES+=		share/examples/${PKGBASE}/groonga.conf \
-			${PKGSYSCONFDIR}/groonga.conf
+			${PKG_SYSCONFDIR}/groonga.conf
 
 OWN_DIRS+=		${VARBASE}/log/${PKGBASE}
 
