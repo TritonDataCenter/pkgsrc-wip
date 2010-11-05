@@ -172,5 +172,6 @@ share/examples/givaro/Polynomial/isprimitive.C
 share/examples/givaro/Polynomial/pol_arith.C
 share/examples/givaro/Polynomial/pol_eval.C
 share/examples/givaro/Polynomial/pol_factor.C
+share/examples/givaro/Polynomial/trunc_arith.C
 share/examples/givaro/Rational/iratrecon.C
 share/examples/givaro/Rational/polydouble.C
