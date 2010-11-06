@@ -1,5 +1,7 @@
 $NetBSD$
 
+Added paths for NetBSD. Patch commited upstream.
+
 --- config.h.orig	2010-06-28 08:04:56.000000000 +0000
 +++ config.h
 @@ -16,6 +16,13 @@

@@ -1,5 +1,7 @@
 $NetBSD$
 
+Add pkgsrc paths compatibility
+
 --- examples/logrotate.cron.orig	2010-06-28 08:04:56.000000000 +0000
 +++ examples/logrotate.cron
 @@ -1,6 +1,6 @@

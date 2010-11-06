@@ -1,5 +1,7 @@
 $NetBSD$
 
+Add pkgsrc paths compatibility
+
 --- logrotate.8.orig	2010-06-28 08:04:56.000000000 +0000
 +++ logrotate.8
 @@ -55,7 +55,7 @@ and mail it to the recipient. The defaul

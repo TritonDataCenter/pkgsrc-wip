@@ -1,5 +1,8 @@
 $NetBSD$
 
+Compatibility patch for systems not using alloca.h and some
+other things. Patch commited upstream.
+
 --- logrotate.c.orig	2010-06-28 08:04:56.000000000 +0000
 +++ logrotate.c
 @@ -1,5 +1,9 @@
