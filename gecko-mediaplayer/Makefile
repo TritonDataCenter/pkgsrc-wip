@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	gecko-mediaplayer-0.9.9.2
+DISTNAME=	gecko-mediaplayer-1.0.0
 CATEGORIES=	multimedia www
 MASTER_SITES=	http://gecko-mediaplayer.googlecode.com/files/
 

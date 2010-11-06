@@ -13,6 +13,7 @@ share/doc/gecko-mediaplayer/README
 share/doc/gecko-mediaplayer/javascript.txt
 share/gconf/schemas/gecko-mediaplayer.schemas
 share/locale/cs/LC_MESSAGES/gecko-mediaplayer.mo
+share/locale/de/LC_MESSAGES/gecko-mediaplayer.mo
 share/locale/es/LC_MESSAGES/gecko-mediaplayer.mo
 share/locale/fr/LC_MESSAGES/gecko-mediaplayer.mo
 share/locale/it/LC_MESSAGES/gecko-mediaplayer.mo
