@@ -583,6 +583,7 @@ SUBDIR+=	glx-utils
 SUBDIR+=	gmc2mid
 SUBDIR+=	gmm
 SUBDIR+=	gmp-ecm
+SUBDIR+=	gmrun
 SUBDIR+=	gnocchi
 SUBDIR+=	gnochm
 SUBDIR+=	gnocky
