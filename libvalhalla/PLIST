@@ -1,0 +1,8 @@
+@comment $NetBSD$
+bin/libvalhalla-test
+include/valhalla.h
+lib/libvalhalla.a
+lib/libvalhalla.so
+lib/libvalhalla.so.1
+lib/libvalhalla.so.${PKGVERSION}
+lib/pkgconfig/libvalhalla.pc
