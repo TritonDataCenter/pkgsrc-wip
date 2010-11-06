@@ -1,0 +1,5 @@
+@comment $NetBSD$
+bin/gmrun
+man/man1/gmrun.1
+share/doc/gmrun/README
+share/examples/gmrun/gmrunrc
