@@ -23,6 +23,7 @@ libexec/psu/XB2bin_summary
 libexec/psu/direct_deps
 libexec/psu/get_processed_pkgs
 man/man1/cvs_checksum.1
+man/man1/pkg_bin_summary.1
 man/man1/pkg_cleanup_distdir.1
 man/man1/pkg_cmp_summary.1
 man/man1/pkg_grep_summary.1
