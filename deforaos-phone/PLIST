@@ -18,9 +18,14 @@ share/applications/phone-dialer.desktop
 share/applications/phone-log.desktop
 share/applications/phone-messages.desktop
 share/applications/phone-settings.desktop
+share/icons/hicolor/16x16/apps/phone-dialer.png
+share/icons/hicolor/22x22/apps/phone-dialer.png
 share/icons/hicolor/22x22/apps/phone-signal-00.png
 share/icons/hicolor/22x22/apps/phone-signal-100.png
 share/icons/hicolor/22x22/apps/phone-signal-25.png
 share/icons/hicolor/22x22/apps/phone-signal-50.png
 share/icons/hicolor/22x22/apps/phone-signal-75.png
+share/icons/hicolor/24x24/apps/phone-dialer.png
+share/icons/hicolor/32x32/apps/phone-dialer.png
+share/icons/hicolor/48x48/apps/phone-dialer.png
 share/locale/fr/LC_MESSAGES/Phone.mo
