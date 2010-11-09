@@ -1,8 +1,9 @@
 ===========================================================================
 $NetBSD$
 
-An example configuration file has been installed in
-${EGDIR}.
+Example configuration files have been installed in
+${DESTDIR}${PREFIX}/share/examples/nzbget.
 
 Once modified, this file should be saved as ~/.nzbget/nzbget.conf
+
 ===========================================================================

@@ -1,3 +1,5 @@
 @comment $NetBSD$
 bin/nzbget
 share/examples/nzbget/nzbget.conf.example
+share/examples/nzbget/postprocess-example.conf
+share/examples/nzbget/postprocess-example.sh
