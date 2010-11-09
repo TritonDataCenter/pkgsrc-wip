@@ -3,6 +3,7 @@ bin/task
 man/man1/task.1
 man/man5/task-color.5
 man/man5/task-faq.5
+man/man5/task-sync.5
 man/man5/task-tutorial.5
 man/man5/taskrc.5
 share/doc/task/AUTHORS
@@ -24,7 +25,15 @@ share/doc/task/rc/dark-256.theme
 share/doc/task/rc/dark-blue-256.theme
 share/doc/task/rc/dark-green-256.theme
 share/doc/task/rc/dark-red-256.theme
+share/doc/task/rc/dark-violets-256.theme
+share/doc/task/rc/dark-yellow-green.theme
+share/doc/task/rc/holidays-CA.rc
+share/doc/task/rc/holidays-DE.rc
+share/doc/task/rc/holidays-ES.rc
+share/doc/task/rc/holidays-FR.rc
+share/doc/task/rc/holidays-NL.rc
 share/doc/task/rc/holidays-SE.rc
+share/doc/task/rc/holidays-UK.rc
 share/doc/task/rc/holidays-US.rc
 share/doc/task/rc/light-16.theme
 share/doc/task/rc/light-256.theme
