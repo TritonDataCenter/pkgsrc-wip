@@ -7,8 +7,8 @@ MASTER_SITES=	http://www.fontstock.com/public/
 DISTFILES=	PTSans.zip # PTSerif.zip (still under construction)
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
-HOMEPAGE=	http://www.paratype.ru/public/
-COMMENT=	Public fonts with Russia national alphabets support
+HOMEPAGE=	http://www.paratype.com/public/
+COMMENT=	Public fonts for minority languages of Russia
 LICENSE=	pt-open-license
 
 PKG_DESTDIR_SUPPORT=	user-destdir
