@@ -1,11 +1,11 @@
 # $NetBSD$
 
-DISTNAME=	texlive-20080822-texmf
-PKGNAME=	texlive-texmf-base-2008
-PKGREVISION=	1
+DISTNAME=	texlive-20091107-texmf
+PKGNAME=	texlive-texmf-base-2009
+#PKGREVISION=	1
 CATEGORIES=	print
-MASTER_SITES=	ftp://tug.org/texlive/historic/2008/
-EXTRACT_SUFX=	.tar.lzma
+MASTER_SITES=	ftp://tug.org/texlive/historic/2009/
+EXTRACT_SUFX=	.tar.xz
 
 MAINTAINER=	minskim@NetBSD.org
 HOMEPAGE=	http://www.tug.org/texlive/
