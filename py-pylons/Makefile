@@ -9,7 +9,7 @@ MASTER_SITES=	http://pypi.python.org/packages/source/P/Pylons/
 EXTRACT_SUFX=	.gz
 
 MAINTAINER=	kamelderouiche@yahoo.com
-HOMEPAGE=	http://www.pylonshq.com/
+HOMEPAGE=	http://pylonshq.com/
 COMMENT=	Pylons Web Framework
 LICENSE=	modified-bsd
 

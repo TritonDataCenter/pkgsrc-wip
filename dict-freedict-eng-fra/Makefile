@@ -1,4 +1,5 @@
 # $NetBSD$
+#
 
 DISTNAME=	eng-fra
 PKGNAME=	dict-freedict-${DISTNAME}-0.0.3
@@ -7,7 +8,7 @@ CATEGORIES=	textproc
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=freedict/}
 
 MAINTAINER=	cheusov@tut.by
-HOMEPAGE=	http://freedict.de/
+HOMEPAGE=	http://www.freedict.org/
 COMMENT=	DICTD data for FreeDict English-French dictionary
 
 DICTSRCNAME=	${DISTNAME}

@@ -4,10 +4,10 @@
 DISTNAME=		guile-scsh-2.0.1
 PKGREVISION=		1
 CATEGORIES=		shells
-MASTER_SITES=		http://arglist.com/guile/${DISTNAME}/
+MASTER_SITES=		http://www.arglist.com/guile/${DISTNAME}/
 
 MAINTAINER=		pkgsrc-users@NetBSD.org
-HOMEPAGE=		http://arglist.com/guile/
+HOMEPAGE=		http://www.arglist.com/guile/
 COMMENT=		Scheme Shell that runs in Guile
 
 GNU_CONFIGURE=		yes

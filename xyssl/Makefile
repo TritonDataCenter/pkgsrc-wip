@@ -1,13 +1,14 @@
 # $NetBSD$
+#
 
 DISTNAME=		xyssl-0.8-bsd
 PKGNAME=		xyssl-0.8
 CATEGORIES=		devel
-MASTER_SITES=		http://xyssl.org/code/download/
+MASTER_SITES=		http://polarssl.org/code/download/
 EXTRACT_SUFX=		.tgz
 
 MAINTAINER=		kh.p@no-log.org
-HOMEPAGE=		http://xyssl.org/
+HOMEPAGE=		http://polarssl.org/
 COMMENT=		SSL minimalist library
 
 PKG_DESTDIR_SUPPORT=	user-destdir

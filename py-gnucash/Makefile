@@ -5,10 +5,10 @@ DISTNAME=	python-gnucash-0.7.10
 PKGNAME=	${DISTNAME:S/python/${PYPKGPREFIX}/}
 PKGREVISION=	3
 CATEGORIES=	finance
-MASTER_SITES=	http://www.parit.ca/projects/pythongnucash/
+MASTER_SITES=	http://parit.ca/products/finance/
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
-HOMEPAGE=	http://www.parit.ca/projects/pythongnucash/
+HOMEPAGE=	http://parit.ca/products/finance/
 COMMENT=	Python bindings to the GnuCash libraries
 
 PYDISTUTILSPKG=	yes

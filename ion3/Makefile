@@ -8,7 +8,7 @@ CATEGORIES=	wm x11
 MASTER_SITES=	http://iki.fi/tuomov/dl/
 
 MAINTAINER=	matias@dotbsd.org
-HOMEPAGE=	http://modeemi.fi/~tuomov/ion/
+HOMEPAGE=	http://tuomov.iki.fi/software/
 COMMENT=	Tiling tabbed window manager
 
 MAKE_JOBS_SAFE=		no

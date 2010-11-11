@@ -3,11 +3,11 @@
 
 DISTNAME=		goldwater-1.4.0
 CATEGORIES=		sysutils
-MASTER_SITES=		http://www.nfluid.com/download/src/
+MASTER_SITES=		http://www.zxdesign.info/download/src/
 EXTRACT_SUFX=		.tgz
 
 MAINTAINER=		pancake@phreaker.net
-HOMEPAGE=		http://www.nfluid.com/download/src/
+HOMEPAGE=		http://www.zxdesign.info/download/src/
 COMMENT=		Highly scalable distributed middleware
 
 USE_PKGLOCALEDIR=	yes

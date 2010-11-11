@@ -7,7 +7,7 @@ CATEGORIES=		chat
 MASTER_SITES=		http://download.gna.org/mu-conference/
 
 MAINTAINER=		eric@cirr.com
-HOMEPAGE=		http://gna.org/projects/mu-conference/
+HOMEPAGE=		https://gna.org/projects/mu-conference/
 COMMENT=		Implementation of the JEP-0045 Multi-User Chat protocol
 
 PKG_DESTDIR_SUPPORT=	user-destdir

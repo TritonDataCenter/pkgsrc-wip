@@ -6,7 +6,7 @@ CATEGORIES=		sysutils
 MASTER_SITES=		ftp://ftp.berlios.de/pub/sdd/
 
 MAINTAINER=		pancake@phreaker.net
-HOMEPAGE=		http://directory.fsf.org/All_Packages_in_Directory/sdd.html
+HOMEPAGE=		http://directory.fsf.org/project/sdd/
 COMMENT=		Replacement for 'dd'
 
 USE_PKGLOCALEDIR=	yes

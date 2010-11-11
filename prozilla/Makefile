@@ -7,7 +7,7 @@ CATEGORIES=		net
 MASTER_SITES=		http://prozilla.genesys.ro/downloads/prozilla/tarballs/
 
 MAINTAINER=		low@ameba6.com
-HOMEPAGE=		http://directory.fsf.org/network/Tools/ProZilla.html
+HOMEPAGE=		http://directory.fsf.org/project/ProZilla/
 COMMENT=		ProZilla is a multi-threaded download accelerator
 
 USE_PKGLOCALEDIR=	yes

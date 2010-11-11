@@ -3,11 +3,11 @@
 
 DISTNAME=	flashrom-0.9.0
 CATEGORIES=	sysutils
-MASTER_SITES=	http://qa.coreboot.org/releases/
+MASTER_SITES=	http://qa.flashrom.org/releases/
 EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	jakllsch@NetBSD.org
-HOMEPAGE=	http://www.coreboot.org/Flashrom
+HOMEPAGE=	http://www.flashrom.org/Flashrom
 COMMENT=	Universal (coreboot/LinuxBIOS) flash utility
 
 PKG_DESTDIR_SUPPORT=	user-destdir
