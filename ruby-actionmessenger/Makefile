@@ -2,9 +2,9 @@
 #
 
 DISTNAME=	actionmessenger-0.2.0
-PKGNAME=        ${RUBY_PKGPREFIX}-${DISTNAME}
+PKGNAME=	${RUBY_PKGPREFIX}-${DISTNAME}
 CATEGORIES=	chat
-MASTER_SITES=	http://trypticon.org/files/software/actionmessenger/
+MASTER_SITES=	http://cloud.github.com/downloads/trejkaz/actionmessenger/
 EXTRACT_SUFX=	.gem
 
 MAINTAINER=	yuripoloni@gmail.com
@@ -14,8 +14,7 @@ LICENSE=	mit
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
-GEM_BUILD=      gemspec
 USE_LANGUAGES=	# none
 
-.include "../../misc/rubygems/rubygem.mk"
+.include "../../lang/ruby/gem.mk"
 .include "../../mk/bsd.pkg.mk"
