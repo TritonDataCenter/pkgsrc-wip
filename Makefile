@@ -1794,7 +1794,6 @@ SUBDIR+=	php-fpm
 SUBDIR+=	php-geoip
 SUBDIR+=	php-http
 SUBDIR+=	php-igbinary
-SUBDIR+=	php-intl
 SUBDIR+=	php-memcached
 SUBDIR+=	php-oauth
 SUBDIR+=	php-recode
