@@ -10,6 +10,7 @@ HOMEPAGE=		http://search.cpan.org/~adeo/Data-Random-0.05
 COMMENT=		Perl module to generate random data
 
 PKG_INSTALLATION_TYPES=	overwrite pkgviews
+PKG_DESTDIR_SUPPORT=	user-destdir
 
 DEPENDS+=		p5-GD>=1.18:../../graphics/p5-GD
 DEPENDS+=		p5-Date-Calc>=5.4:../../devel/p5-Date-Calc
