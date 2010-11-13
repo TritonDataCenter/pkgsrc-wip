@@ -8,7 +8,6 @@ DISTFILES=	# empty
 MAINTAINER=	cheusov@tut.by
 HOMEPAGE=	http://www.mova.org/~cheusov/pub/pkg_summary-utils/
 COMMENT=	Utilities for manipulating pkg_summary(5) files
-
 LICENSE=	mit
 
 DEPENDS+=	runawk>=1.1.0:../../wip/runawk
