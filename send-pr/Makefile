@@ -15,7 +15,7 @@ LICENSE=	gnu-gpl-v2
 WRKSRC=		${WRKDIR}/gnats-${GNATS_VERSION}/send-pr
 GNATS_VERSION=	${DISTNAME:S/gnats-//}
 
-CONFLICTS+=	gnats-[0-9]*
+CONFLICTS+=	gnats-[0-9]* arla-[0-9]*
 
 GNU_CONFIGURE=		YES
 PKG_DESTDIR_SUPPORT=	user-destdir
