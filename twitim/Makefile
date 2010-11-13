@@ -57,7 +57,6 @@ do-install:
 	${CP} -r ${WRKSRC}/Twitim ${DESTDIR}${PERL5_INSTALLVENDORLIB}
 	${INSTALL_DATA} ${WRKSRC}/pixmaps/* ${DESTDIR}${PREFIX}/share/pixmaps/${PKGBASE}
 
-#.include "../../lang/perl5/dirs.mk"
 .include "../../lang/perl5/module.mk"
-#.include "../../sysutils/desktop-file-utils/desktopdb.mk"
+.include "../../sysutils/desktop-file-utils/desktopdb.mk"
 .include "../../mk/bsd.pkg.mk"
