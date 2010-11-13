@@ -20,17 +20,15 @@ CONFIGURE_ENV+=		LIBS="-lGL -lm -pthread"
 
 GNU_CONFIGURE=		yes
 
-WRKSRC= 	        ${WRKDIR}/${PKGNAME}
+WRKSRC=			${WRKDIR}/${PKGNAME_NOREV}
 
-INSTALLATIONS_DIRS+=	share/applications
+INSTALLATION_DIRS+=	share/applications
 
 .include "../../mk/bsd.prefs.mk"
 
 .if ${OPSYS} == "NetBSD" && !empty(OS_VERSION:M[1-3].[0-9]*)
 GCC_REQD+=		3.4
 .endif
-
-.include "options.mk"
 
 # Change the desktop file icon.
 SUBST_CLASSES+=			desktop
