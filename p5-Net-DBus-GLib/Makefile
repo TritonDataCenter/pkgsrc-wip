@@ -17,5 +17,6 @@ DEPENDS+=	p5-Net-DBus>=0.33.2:../../net/p5-Net-DBus
 
 PERL5_PACKLIST=	auto/Net/DBus/GLib/.packlist
 
+.include "../../sysutils/dbus-glib/buildlink3.mk"
 .include "../../lang/perl5/module.mk"
 .include "../../mk/bsd.pkg.mk"
