@@ -2479,6 +2479,7 @@ SUBDIR+=	tuxtype2
 SUBDIR+=	tvmet
 SUBDIR+=	tw_cli
 SUBDIR+=	twinkle
+SUBDIR+=	twitim
 SUBDIR+=	twitmail
 SUBDIR+=	txt2tags
 SUBDIR+=	typespeed
