@@ -16,6 +16,7 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 USE_TOOLS+=	pkg-config
 
 DEPENDS+=	p5-Net-DBus>=0.33.2:../../net/p5-Net-DBus
+DEPENDS+=	p5-glib2-[0-9]*:../../devel/p5-glib2
 
 PERL5_PACKLIST=	auto/Net/DBus/GLib/.packlist
 
