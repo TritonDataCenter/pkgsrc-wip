@@ -1661,6 +1661,7 @@ SUBDIR+=	p5-Module-Pluggable-Ordered
 SUBDIR+=	p5-Module-Starter-Plugin-CGIApp
 SUBDIR+=	p5-Mojo
 SUBDIR+=	p5-NNTPClient
+SUBDIR+=	p5-Net-DBus-GLib
 SUBDIR+=	p5-Net-DNS-Resolver-Programmable
 SUBDIR+=	p5-Net-Delicious
 SUBDIR+=	p5-Net-IP-Match-Regexp
