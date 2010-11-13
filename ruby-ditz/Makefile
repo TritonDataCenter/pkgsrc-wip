@@ -10,8 +10,8 @@ HOMEPAGE=	http://ditz.rubyforge.org/
 COMMENT=	Simple, light-weight distributed issue tracker
 LICENSE=	gnu-gpl-v3
 
-BUILD_DEPENDS+=	hoe-[0-9]*:../../devel/hoe
+BUILD_DEPENDS+=	${RUBY_PKGPREFIX}-hoe-[0-9]*:../../devel/hoe
 DEPENDS+=	${RUBY_PKGPREFIX}-trollop-[0-9]*:../../wip/ruby-trollop
 
-.include "../../misc/rubygems/rubygem.mk"
+.include "../../lang/ruby/gem.mk"
 .include "../../mk/bsd.pkg.mk"
