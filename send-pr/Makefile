@@ -10,6 +10,7 @@ MASTER_SITES=	${MASTER_SITE_GNU=gnats/}
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.gnu.org/software/gnats/
 COMMENT=	GNATS problem reporting tool
+LICENSE=	gnu-gpl-v2
 
 WRKSRC=		${WRKDIR}/gnats-${GNATS_VERSION}/send-pr
 GNATS_VERSION=	${DISTNAME:S/gnats-//}
