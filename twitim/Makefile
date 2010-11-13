@@ -38,6 +38,8 @@ DEPENDS+=	p5-Net-OAuth-[0-9]*:../../net/p5-Net-OAuth
 DEPENDS+=	p5-Data-Random-[0-9]*:../../wip/p5-Data-Random
 DEPENDS+=	libgnome-[0-9]*:../../devel/libgnome
 
+.include "options.mk"
+
 SUBST_CLASSES+=		prefix
 SUBST_STAGE.prefix=	pre-configure
 SUBST_FILES.prefix=	etc/twitim.conf twitim
