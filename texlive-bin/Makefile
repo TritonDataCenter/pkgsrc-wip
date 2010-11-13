@@ -51,7 +51,6 @@ CONFIGURE_ARGS+=--disable-multiplatform
 .include "../../wip/texlive/Makefile.common"
 .include "options.mk"
 
-#.include "../../mk/tex.buildlink3.mk"  # XXX
 .include "../../graphics/freetype2/buildlink3.mk"
 .include "../../devel/ncurses/buildlink3.mk"
 .include "../../graphics/png/buildlink3.mk"
