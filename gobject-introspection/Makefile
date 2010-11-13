@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	gobject-introspection-0.9.5
+DISTNAME=	gobject-introspection-0.9.12
 CATEGORIES=	devel
 MASTER_SITES=	${MASTER_SITE_GNOME:=sources/gobject-introspection/0.9/}
 EXTRACT_SUFX=	.tar.bz2
