@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	quvi-0.2.7
+DISTNAME=	quvi-0.2.8
 CATEGORIES=	net multimedia www
 MASTER_SITES=	http://quvi.googlecode.com/files/
 EXTRACT_SUFX=	.tar.bz2
@@ -20,7 +20,7 @@ USE_LIBTOOL=	yes
 GNU_CONFIGURE=	yes
 USE_LANGUAGES=	c c++
 
-CONFIGURE_ARGS+=	--enable-smut
+CONFIGURE_ARGS+=	--enable-nsfw
 
 PKGCONFIG_OVERRIDE+=	libquvi.pc.in
 
