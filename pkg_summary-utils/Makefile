@@ -8,7 +8,7 @@ DISTFILES=	# empty
 MAINTAINER=	cheusov@tut.by
 HOMEPAGE=	http://www.mova.org/~cheusov/pub/pkg_summary-utils/
 COMMENT=	Utilities for manipulating pkg_summary(5) files
-LICENSE=	mit
+LICENSE=	2-clause-bsd
 
 DEPENDS+=	runawk>=1.1.0:../../wip/runawk
 DEPENDS+=	pipestatus-[0-9]*:../../devel/pipestatus
@@ -37,7 +37,7 @@ WRKSRC=		${.CURDIR}/files
 
 EGDIR=		${PREFIX}/share/examples/pkg_summary-utils
 
-CONF_FILES=    ${EGDIR}/pkg_digger.conf ${PKG_SYSCONFDIR}/pkg_digger.conf
+CONF_FILES=	${EGDIR}/pkg_digger.conf ${PKG_SYSCONFDIR}/pkg_digger.conf
 
 MAKE_ENV+=	MAKEOBJDIR=${WRKDIR}
 MAKE_ENV+=	AWKMODDIR=${PREFIX}/share/runawk
