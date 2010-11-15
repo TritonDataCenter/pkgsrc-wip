@@ -1,5 +1,5 @@
 @comment $NetBSD$
-bin/2to3
+bin/2to3-${PY_VER_SUFFIX}
 bin/idle3
 bin/pydoc${PY_VER_SUFFIX}
 bin/python${PY_VER_SUFFIX}
