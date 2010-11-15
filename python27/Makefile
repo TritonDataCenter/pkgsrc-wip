@@ -12,8 +12,6 @@ LICENSE=	python-software-foundation
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
-# Remember to update pkgsrc/lang/python/srcdist.mk when version changes
-
 CONFLICTS+=	python-[0-9]*
 
 GNU_CONFIGURE=		yes
