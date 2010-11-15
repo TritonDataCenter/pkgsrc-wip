@@ -177,6 +177,7 @@ SUBDIR+=	bmap
 SUBDIR+=	bmp-docklet
 SUBDIR+=	bnr2
 SUBDIR+=	boa
+SUBDIR+=	bochs-snapshot
 SUBDIR+=	bodr
 SUBDIR+=	bogomips
 SUBDIR+=	boinc
