@@ -12,6 +12,8 @@ HOMEPAGE=	http://writrecogn.sourceforge.net/
 COMMENT=	CJK Handwriting Recoginzer
 LICENSE=	gnu-gpl-v2
 
+BUILD_DEPENDS+=	gob2>=2.0.0:../../devel/gob2
+
 PKG_DESTDIR_SUPPORT=	user-destdir
 
 GNU_CONFIGURE=	yes
