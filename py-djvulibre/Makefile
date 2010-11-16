@@ -1,6 +1,6 @@
 # $NetBSD$
 #
-DISTNAME=	python-djvulibre-0.1.18
+DISTNAME=	python-djvulibre-0.3.0
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME:S/python-//}
 CATEGORIES=	graphics textproc
 MASTER_SITES=	http://pypi.python.org/packages/source/p/python-djvulibre/
@@ -11,6 +11,9 @@ COMMENT=	Python bindings for the DjVuLibre library
 LICENSE=	gnu-gpl-v2
 
 PKG_DESTDIR_SUPPORT=	user-destdir
+
+DEPENDS+=	${PYPKGPREFIX}-pyrex-[0-9]*:../../lang/py-pyrex
+DEPENDS+=	${PYPKGPREFIX}-setuptools-[0-9]*:../../devel/py-setuptools
 
 USE_TOOLS+=	pkg-config
 
