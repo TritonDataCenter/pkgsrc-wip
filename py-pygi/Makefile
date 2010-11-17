@@ -12,7 +12,7 @@ HOMEPAGE=	http://live.gnome.org/PyGI
 COMMENT=	Python dynamic bindings based on GObject-Introspection
 LICENSE=	gnu-lgpl-v2.1
 
-DEPENDS+=	gobject-introspection>=0.6.9:../../wip/gobject-introspection
+DEPENDS+=	gobject-introspection>=0.6.9:../../devel/gobject-introspection
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 

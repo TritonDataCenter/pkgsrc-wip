@@ -12,7 +12,7 @@ HOMEPAGE=	https://launchpad.net/couchdb-glib
 COMMENT=	GLib-based api to access couchdb databases
 LICENSE=	gnu-gpl-v2
 
-DEPENDS+=	gobject-introspection>=0.6.7:../../wip/gobject-introspection
+DEPENDS+=	gobject-introspection>=0.6.7:../../devel/gobject-introspection
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 

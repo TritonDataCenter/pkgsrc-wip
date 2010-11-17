@@ -11,7 +11,7 @@ HOMEPAGE=	http://git.gnome.org/browse/discident-glib/
 COMMENT=	Discident-glib is a convenience library for the DiscIdent Web Service
 LICENSE=	gnu-gpl-v2
 
-DEPENDS+=	gobject-introspection>=0.6.10:../../wip/gobject-introspection
+DEPENDS+=	gobject-introspection>=0.6.10:../../devel/gobject-introspection
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
