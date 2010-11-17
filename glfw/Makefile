@@ -24,7 +24,7 @@ INSTALL_TARGET=	x11-install
 
 MAKE_FLAGS=	SOFLAGS=-shared
 
-PKGCONFIG_OVERRIDE+=	libglfw.pc.in
+PKGCONFIG_OVERRIDE+=	lib/x11/libglfw.pc.in
 
 do-configure:
 	cd ${WRKSRC} && \
