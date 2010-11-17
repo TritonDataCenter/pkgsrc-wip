@@ -1,21 +1,10 @@
 # $NetBSD$
 
 PKG_OPTIONS_VAR=		PKG_OPTIONS.opendnssec
-PKG_SUPPORTED_OPTIONS=		auditor softhsm
-PKG_SUGGESTED_OPTIONS=		auditor softhsm
+PKG_SUPPORTED_OPTIONS=		softhsm
+PKG_SUGGESTED_OPTIONS=		softhsm
 
 .include "../../mk/bsd.options.mk"
-
-###
-### Kasp Auditor
-###
-.if !empty(PKG_OPTIONS:Mauditor)
-.include "../../lang/ruby/buildlink3.mk"
-DEPENDS+=	rubygems:../../misc/rubygems
-DEPENDS+=	${RUBY_PKGPREFIX}-dnsruby>=1.46:../../net/ruby-dnsruby
-.else
-CONFIGURE_ARGS+=	--disable-auditor
-.endif
 
 ###
 ### SoftHSM
