@@ -4,6 +4,7 @@ bin/send-pr
 info/send-pr.info
 man/man1/send-pr.1
 share/emacs/site-lisp/send-pr.el
+share/examples/gnats/config
 share/gnats/cygnus
 share/gnats/dist/INSTALL.send-pr
 share/gnats/netbsd
