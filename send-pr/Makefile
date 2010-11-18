@@ -33,7 +33,8 @@ INSTALL_TARGET=		install install-info
 # information in from the standard NetBSD send-pr program
 CONFIGURE_ENV+=		SEND_PR=/dev/null
 
-MAKE_FLAGS+=		MAKEINFO=makeinfo\ --no-split
+MAKE_FLAGS+=		MAKEINFO=makeinfo\ --no-split \
+			INSTALL_SCRIPT=${INSTALL_SCRIPT:Q}
 
 AUTO_MKDIRS=		yes
 
