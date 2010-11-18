@@ -65,6 +65,6 @@ post-build:
 post-install:
 	${INSTALL_DATA} ${WRKSRC}/INSTALL ${DESTDIR}${PREFIX}/share/gnats/dist/INSTALL.send-pr
 	${INSTALL_DATA} ${FILESDIR}/netbsd-categories ${DESTDIR}${PREFIX}/share/gnats/netbsd
-	${INSTALL_DATA} ${.CURDIR}/files/config ${DESTDIR}${EGDIR}
+	${INSTALL_DATA} ${FILESDIR}/config ${DESTDIR}${EGDIR}
 
 .include "../../mk/bsd.pkg.mk"
