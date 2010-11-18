@@ -513,6 +513,7 @@ SUBDIR+=	frozen-bubble
 SUBDIR+=	fs2open
 SUBDIR+=	fslsfonts
 SUBDIR+=	fstobdf
+SUBDIR+=	ftgl
 SUBDIR+=	ftpd-tls
 SUBDIR+=	ftpsesame
 SUBDIR+=	fuse-smbfs
