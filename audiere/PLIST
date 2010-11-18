@@ -1,0 +1,4 @@
+@comment $NetBSD$
+bin/audiere-config
+include/audiere.h
+lib/libaudiere.la
