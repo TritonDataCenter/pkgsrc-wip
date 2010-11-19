@@ -107,6 +107,15 @@ output in the following format:
    c: conflict CNFLCT_REQD CNFLCT_PATH CNFLCT_NAME <- PKGPATH PKGBASE
 
 .VE
+.TP
+.B "-u"
+check unicity of PKGBASE of packages given on input and outputs found
+problems to stderr in the following format:
+.VB
+
+   u: unicity PKGBASE <- PKGPATH1 PKGPATH2 ... PKGPATHn
+
+.VE
 .SH SEE ALSO
 .BR pkg_summary-utils(7) ,
 .BR pkg_summary(5) ,
