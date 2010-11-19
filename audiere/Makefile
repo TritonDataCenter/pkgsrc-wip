@@ -19,6 +19,5 @@ USE_LIBTOOL=	yes
 # XXX
 BUILDLINK_TRANSFORM+=l:ogg:ogg:ossaudio
 
-.include "../../audio/flac/buildlink3.mk"
 .include "../../audio/libvorbis/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
