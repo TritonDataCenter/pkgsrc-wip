@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	evernote-mode-0_11
+DISTNAME=	evernote-mode-0_14
 PKGNAME=	${DISTNAME:S/_/./}
 CATEGORIES=	editors net
 MASTER_SITES=	http://emacs-evernote-mode.googlecode.com/files/
