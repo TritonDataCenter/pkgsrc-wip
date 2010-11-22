@@ -1,0 +1,8 @@
+@comment $NetBSD$
+bin/qgoogletranslator
+share/applications/qgoogletranslator.desktop
+share/pixmaps/qgoogletranslator.png
+share/qgoogletranslator/l10n/English.qm
+share/qgoogletranslator/l10n/Japanese.qm
+share/qgoogletranslator/l10n/Russian.qm
+share/qgoogletranslator/l10n/Ukrainian.qm
