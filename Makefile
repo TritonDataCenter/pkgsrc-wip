@@ -581,6 +581,7 @@ SUBDIR+=	glkloader
 SUBDIR+=	glkterm
 SUBDIR+=	globulation2
 SUBDIR+=	gloox
+SUBDIR+=	glsl
 SUBDIR+=	glu
 SUBDIR+=	glulxe
 SUBDIR+=	glut
