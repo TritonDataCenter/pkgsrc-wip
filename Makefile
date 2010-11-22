@@ -2163,6 +2163,7 @@ SUBDIR+=	qcomicbook
 SUBDIR+=	qdevelop
 SUBDIR+=	qemu-neo1973
 SUBDIR+=	qemu-neo1973-images
+SUBDIR+=	qgoogletranslator
 SUBDIR+=	qhacc
 SUBDIR+=	qico
 SUBDIR+=	qinx
