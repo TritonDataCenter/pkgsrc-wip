@@ -1804,7 +1804,6 @@ SUBDIR+=	php-doc-sv
 SUBDIR+=	php-dtrace
 SUBDIR+=	php-fileinfo
 SUBDIR+=	php-fpm
-SUBDIR+=	php-geoip
 SUBDIR+=	php-http
 SUBDIR+=	php-igbinary
 SUBDIR+=	php-memcached
