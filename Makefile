@@ -1433,6 +1433,7 @@ SUBDIR+=	netx
 SUBDIR+=	newsbeuter
 SUBDIR+=	nginx
 SUBDIR+=	nicotine+
+SUBDIR+=	nicovideo-dl
 SUBDIR+=	njb-sharp
 SUBDIR+=	nmap
 SUBDIR+=	nmzmail
