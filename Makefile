@@ -1438,6 +1438,7 @@ SUBDIR+=	njb-sharp
 SUBDIR+=	nmap
 SUBDIR+=	nmzmail
 SUBDIR+=	nnrpd
+SUBDIR+=	nodau
 SUBDIR+=	noip
 SUBDIR+=	noiptun
 SUBDIR+=	nomadio
