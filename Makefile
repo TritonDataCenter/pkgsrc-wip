@@ -692,6 +692,7 @@ SUBDIR+=	gurlchecker
 SUBDIR+=	gvariant
 SUBDIR+=	gwget
 SUBDIR+=	gwhois
+SUBDIR+=	gwibber
 SUBDIR+=	gwsmhg
 SUBDIR+=	gxconsole
 SUBDIR+=	gxmessage
