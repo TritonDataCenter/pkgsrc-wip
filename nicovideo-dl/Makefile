@@ -8,11 +8,10 @@ MASTER_SITES=	${MASTER_SITE_SOURCEFORGE_JP:=nicovideo-dl/44836/}
 MAINTAINER=	ryo_on@yk.rim.or.jp
 HOMEPAGE=	http://sourceforge.jp/projects/nicovideo-dl/
 COMMENT=	Download videos from www.nicovideo.jp
-#LICENSE=	# TODO: (see mk/license.mk)
+LICENSE=	mit
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
-WRKSRC=		${WRKDIR}/nicovideo-dl-0.0.20091209
 USE_LANGUAGES=	# none
 NO_BUILD=	yes
 
