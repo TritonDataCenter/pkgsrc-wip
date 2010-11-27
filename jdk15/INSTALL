@@ -1,0 +1,6 @@
+# $NetBSD$
+
+case ${STAGE} in
+POST-INSTALL)
+	${PREFIX}/bin/jdk15-java -Xshare:dump;;
+esac
