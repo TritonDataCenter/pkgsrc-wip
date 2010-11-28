@@ -1,5 +1,7 @@
 $NetBSD$
 
+Recognize latest libwpd.
+
 --- cmake/modules/FindWPD.cmake.orig	2010-08-21 05:37:59.000000000 +0000
 +++ cmake/modules/FindWPD.cmake
 @@ -19,12 +19,12 @@ if (WPD_INCLUDE_DIR AND WPD_LIBRARIES)

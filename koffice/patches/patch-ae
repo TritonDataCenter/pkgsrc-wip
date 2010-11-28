@@ -1,5 +1,7 @@
 $NetBSD$
 
+Recognize latest libwpg.
+
 --- cmake/modules/FindWPG.cmake.orig	2010-08-21 05:37:59.000000000 +0000
 +++ cmake/modules/FindWPG.cmake
 @@ -18,14 +18,9 @@ ELSE (LIBWPG_INCLUDE_DIR AND LIBWPG_LIBR
