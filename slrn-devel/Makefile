@@ -1,14 +1,14 @@
 # $NetBSD: Makefile,v 1.44 2008/12/05 19:00:27 ahoka Exp $
 
-DISTNAME=	slrn-pre1.0.0~24
-PKGNAME=	slrn-pre1.0.0-24
+DISTNAME=	slrn-pre1.0.0-26
+PKGNAME=	slrn-pre1.0.0-26
 CONFLICTS=      slrn-pl-[0-9]* slrn-[0-9]*
 LICENSE=	gnu-gpl-v2
 #PKGREVISION=	1
 CATEGORIES=	news
-MASTER_SITES=	http://slrn.sourceforge.net/downloads/svn_snapshots/
-EXTRACT_SUFX=	.tar.bz2
-WRKSRC=		${WRKDIR}/slrn
+MASTER_SITES=	http://www.jedsoft.org/snapshots/
+EXTRACT_SUFX=	.tar.gz
+#WRKSRC=		${WRKDIR}/slrn
 
 MAINTAINER=	aniou@smutek.pl
 HOMEPAGE=	http://slrn.sourceforge.net/
