@@ -11,7 +11,7 @@ LoadModule passenger_module lib/httpd/mod_passenger.so
 Then add this to your Apache configuration:
 
 <IfModule mod_passenger.c>
-  PassengerRoot ${PREFIX}/${RUBY_VENDORLIB}/passenger
+  PassengerRoot ${PREFIX}
   PassengerRuby ${RUBY}
 </IfModule>
 
