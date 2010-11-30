@@ -39,6 +39,7 @@ BUILD_DEPENDS+=		sun-jdk15>=1:../../lang/sun-jdk15
 ALT_BOOTDIR=		${PREFIX}/java/sun-1.5
 .endif
 
+BUILD_DEPENDS+=		unzip>=6.0:../../archivers/unzip
 BUILD_DEPENDS+=		libxslt>=1.1:../../textproc/libxslt
 
 .if !empty(MAKE_ENV:M*/java/sun-*) && !exists(/emul/linux/proc/uptime) && !exists(/proc/uptime)
