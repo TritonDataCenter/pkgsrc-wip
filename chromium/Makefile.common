@@ -11,7 +11,7 @@ HOMEPAGE=	http://dev.chromium.org/Home
 COMMENT=	Open-source browser project
 LICENSE=	modified-bsd
 
-USE_TOOLS+=	bash flex:pkgsrc gmake pax perl pkg-config
+USE_TOOLS+=	bash bison flex:pkgsrc gmake pax perl pkg-config
 USE_LANGUAGES=	c c++
 
 BUILD_DEPENDS+=	gperf>=3.0.1:../../devel/gperf
