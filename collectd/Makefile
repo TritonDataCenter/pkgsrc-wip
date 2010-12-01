@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	collectd-4.9.2
+DISTNAME=	collectd-4.9.4
 CATEGORIES=	net
 MASTER_SITES=	http://collectd.org/files/
 EXTRACT_SUFX=	.tar.bz2
