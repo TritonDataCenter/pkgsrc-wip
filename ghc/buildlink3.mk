@@ -5,7 +5,7 @@ BUILDLINK_TREE+=	ghc
 .if !defined(GHC_BUILDLINK3_MK)
 GHC_BUILDLINK3_MK:=
 
-BUILDLINK_API_DEPENDS.ghc+=	ghc>=6.12.2
+BUILDLINK_API_DEPENDS.ghc+=	ghc>=7.0
 BUILDLINK_PKGSRCDIR.ghc?=	../../wip/ghc
 
 .include "../../converters/libiconv/buildlink3.mk"
