@@ -160,6 +160,7 @@ SUBDIR+=	beryl-settings-bindings
 SUBDIR+=	beryl-settings-simple
 SUBDIR+=	bibliographer
 SUBDIR+=	bicho
+SUBDIR+=	bindgraph
 SUBDIR+=	biopython
 SUBDIR+=	bioruby
 SUBDIR+=	bird
