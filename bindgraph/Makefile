@@ -36,8 +36,7 @@ RCD_SCRIPTS= bindgraph
 SUBST_CLASSES+= defs
 SUBST_STAGE.defs=	pre-build
 SUBST_FILES.defs=	${BG_SCRIPTS}
-SUBST_SED.defs+=	-e "s,'\\.','${DBDIR}',g"
-SUBST_SED.defs+=	-e "s,/var/www/as112/rrd,${DBDIR},g"
+SUBST_SED.defs+=	-e 's,@RRDDIR@,${DBDIR},g'
 #
 SUBST_MESSAGE.defs=	Fixing defaults.
 
