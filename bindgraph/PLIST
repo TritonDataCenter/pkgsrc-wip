@@ -1,0 +1,7 @@
+@comment $NetBSD$
+libexec/cgi-bin/bindgraph.cgi
+sbin/bindgraph
+share/doc/bindgraph/COPYING
+share/doc/bindgraph/ChangeLog
+share/doc/bindgraph/README
+share/examples/rc.d/bindgraph
