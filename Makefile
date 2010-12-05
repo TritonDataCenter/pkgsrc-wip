@@ -2200,6 +2200,7 @@ SUBDIR+=	readseq
 SUBDIR+=	realtimebattle
 SUBDIR+=	realvnc
 SUBDIR+=	redfang
+SUBDIR+=	redis
 SUBDIR+=	regexxer
 SUBDIR+=	reinteract
 SUBDIR+=	rekall
