@@ -2673,6 +2673,7 @@ SUBDIR+=	xwelltris
 SUBDIR+=	xxdiff
 SUBDIR+=	xyssl
 SUBDIR+=	yafray
+SUBDIR+=	yajl
 SUBDIR+=	yakuake
 SUBDIR+=	yauap
 SUBDIR+=	yaws
