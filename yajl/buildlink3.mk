@@ -1,0 +1,11 @@
+# $NetBSD$
+BUILDLINK_TREE+=	yajl
+
+.if !defined(YAJL_BUILDLINK3_MK)
+YAJL_BUILDLINK3_MK:=
+
+BUILDLINK_API_DEPENDS.yajl+=	yajl>=1.0.9
+BUILDLINK_PKGSRCDIR.yajl?=	../../wip/yajl
+.endif	# YAJL_BUILDLINK3_MK
+
+BUILDLINK_TREE+=	-yajl

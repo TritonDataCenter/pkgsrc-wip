@@ -1,0 +1,13 @@
+# $NetBSD$
+
+BUILDLINK_TREE+=	i3
+
+.if !defined(I3_BUILDLINK3_MK)
+I3_BUILDLINK3_MK:=
+
+BUILDLINK_API_DEPENDS.i3+=	i3>=4devel1
+BUILDLINK_PKGSRCDIR.i3?=	../../wip/i3-devel
+
+.endif	# I3_BUILDLINK3_MK
+
+BUILDLINK_TREE+=	-i3
