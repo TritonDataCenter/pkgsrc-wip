@@ -52,6 +52,7 @@ CHECK_PORTABILITY_SKIP= utils/buildit/.svn/text-base/build_llvm.svn-base \
 
 SO_SUFFIX=		so
 PLIST_SUBST+=   	SO_SUFFIX=${SO_SUFFIX}
+PRINT_PLIST_AWK+=	{gsub(/\.${SO_SUFFIX}$$/, ".$${SO_SUFFIX}");}
 
 .if ${OPSYS} == "Darwin"
 SO_SUFFIX=		dylib
