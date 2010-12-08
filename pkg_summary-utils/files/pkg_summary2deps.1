@@ -58,12 +58,16 @@ Versions in CONFLICTS are always checked (see "-s")
 .B "-A"
 analyse both DEPENDS and BUILD_DEPENDS
 .TP
+.B "-a"
+output all matched dependencies separated by `|' symbol,
+not only the first one
+.TP
 .B "-s"
 enable strict mode. Versions of dependencies are always checked, even
 if there is only one matched (by PKGBASE) package.
 .TP
 .B "-t"
-produce output compatible in
+produce output compatible with
 .B tsort(1)
 command
 .TP
