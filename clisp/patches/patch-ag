@@ -8,7 +8,7 @@ NetBSD has getpagesize(3) in unistd.h
  extern size_t __getpagesize PP ((void));
  #endif
  #else
-+#if defined (__NetBSD__)
++#if defined (__NetBSD__) || defined (__DragonFly__)
 +extern int getpagesize (void); /* from getpagesize(3) */
 +#else
  #include "getpagesize.h"
