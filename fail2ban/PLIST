@@ -1,0 +1,7 @@
+@comment $NetBSD$
+bin/fail2ban-client
+bin/fail2ban-regex
+bin/fail2ban-server
+man/man1/fail2ban-client.1
+man/man1/fail2ban-regex.1
+man/man1/fail2ban-server.1
