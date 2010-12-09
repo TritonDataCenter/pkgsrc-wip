@@ -15,6 +15,7 @@ DEPENDS+=	paexec>=0.15.0:../../wip/paexec
 DEPENDS+=	runawk>=1.1.0:../../wip/runawk
 DEPENDS+=	pipestatus>=0.6.0:../../devel/pipestatus
 DEPENDS+=	digest-[0-9]*:../../pkgtools/digest
+BUILD_DEPENDS+=	mk-configure>=0.21:../../wip/mk-configure
 
 USE_LANGUAGES=		# none
 
