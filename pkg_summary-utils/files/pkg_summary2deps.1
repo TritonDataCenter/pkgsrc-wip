@@ -83,6 +83,14 @@ compatible with pkg_lint_summary, e.g.,
 .VB
 d: not_found foo-[0-9]*:../../devel/foo <- lang/bar bar
 .VE
+.TP
+.B "-P <PKGPATHs>"
+find dependencies for specified PKGPATHs only.
+Packages are separated by space or comma.
+.TP
+.B "-N <PKGNAMEs>"
+find dependencies for specified PKGNAMEs only.
+Packages are separated by space or comma.
 .SH ""
 If both "-p" and "-n" are applied,
 .B pkg_summary2deps
