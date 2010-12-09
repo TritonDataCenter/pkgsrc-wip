@@ -460,6 +460,7 @@ SUBDIR+=	exact-image
 SUBDIR+=	expiretable
 SUBDIR+=	ezbounce
 SUBDIR+=	ezstream
+SUBDIR+=	fail2ban
 SUBDIR+=	fakenes
 SUBDIR+=	fakeroot
 SUBDIR+=	farsi-ttf
