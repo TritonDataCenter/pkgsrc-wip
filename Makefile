@@ -61,6 +61,7 @@ SUBDIR+=	acroread9-korfont
 SUBDIR+=	adamem
 SUBDIR+=	adms
 SUBDIR+=	admsmb
+SUBDIR+=	adobe-flash-plugin
 SUBDIR+=	aegis-devel
 SUBDIR+=	aeneas
 SUBDIR+=	aespipe
