@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	evernote-mode-0_14
+DISTNAME=	evernote-mode-0_21
 PKGNAME=	${DISTNAME:S/_/./}
 CATEGORIES=	editors net
 MASTER_SITES=	http://emacs-evernote-mode.googlecode.com/files/
@@ -36,7 +36,7 @@ post-install:
 	${INSTALL_DATA} ${WRKSRC}/../evernote-mode.el \
 		${DESTDIR}${EMACS_LISPPREFIX}
 .for docfile in ${DOCUMENTS}
-	${INSTALL_DATA} ${WRKSRC}/../${docfile} \
+	${INSTALL_DATA} ${WRKSRC}/../doc/${docfile} \
 		${DESTDIR}${DOCSDIR}
 .endfor
 
