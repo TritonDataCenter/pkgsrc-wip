@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	umph-0.1.6
+DISTNAME=	umph-0.1.7
 PKGNAME=	p5-${DISTNAME}
 CATEGORIES=	net
 MASTER_SITES=	http://umph.googlecode.com/files/
