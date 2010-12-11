@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	gst123-0.1.2
+DISTNAME=	gst123-0.1.3
 CATEGORIES=	audio
 MASTER_SITES=	http://space.twc.de/~stefan/gst123/
 EXTRACT_SUFX=	.tar.bz2
