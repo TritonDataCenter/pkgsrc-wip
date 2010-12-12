@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	quvi-0.2.8
+DISTNAME=	quvi-0.2.10
 CATEGORIES=	net multimedia www
 MASTER_SITES=	http://quvi.googlecode.com/files/
 EXTRACT_SUFX=	.tar.bz2
