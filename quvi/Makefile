@@ -6,7 +6,7 @@ CATEGORIES=	net multimedia www
 MASTER_SITES=	http://quvi.googlecode.com/files/
 EXTRACT_SUFX=	.tar.bz2
 
-MAINTAINER=	ryo_on@yk.rim.or.jp
+MAINTAINER=	ryoon@NetBSD.org
 HOMEPAGE=	http://code.google.com/p/quvi/
 COMMENT=	The quvi is command line tool and library for parsing video links
 LICENSE=	gnu-gpl-v3
