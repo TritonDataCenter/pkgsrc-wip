@@ -8,6 +8,7 @@ PKG_SUPPORTED_OPTIONS+=	doc
 .if !empty(PKG_OPTIONS:Mdoc)
 BUILD_DEPENDS+=		doxygen>=1.4.7:../../devel/doxygen
 CONFIGURE_ARGS+=	--with-doc=yes
+PLIST.doc=		yes
 .else
 CONFIGURE_ARGS+=	--with-doc=no
 .endif
