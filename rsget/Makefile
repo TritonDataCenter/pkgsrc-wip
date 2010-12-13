@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	rsget.pl-11666
+DISTNAME=	rsget.pl-11838
 PKGNAME=	${DISTNAME:S/-/-r/}
 CATEGORIES=	net
 MASTER_SITES=	http://rsget.pl/download/
