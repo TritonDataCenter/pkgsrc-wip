@@ -1,5 +1,6 @@
 $NetBSD$
 
+http://gna.org/bugs/?17084
 --- gui/tileddrawwidget.py.orig	2010-10-30 19:27:59.000000000 +0000
 +++ gui/tileddrawwidget.py
 @@ -9,6 +9,7 @@

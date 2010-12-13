@@ -13,7 +13,7 @@ LICENSE=	gnu-gpl-v2
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
-PYTHON_VERSIONS_ACCEPTED=	25 26
+PYTHON_VERSIONS_ACCEPTED=	26 25
 USE_LANGUAGES=	c++
 
 BUILD_DEPENDS+=	scons-[0-9]*:../../devel/scons
@@ -40,6 +40,7 @@ do-build:
 do-install:
 	cd ${WRKSRC} && ${SCONSDIR}/bin/scons prefix=${DESTDIR}${PREFIX} install
 
+.include "../../sysutils/desktop-file-utils/desktopdb.mk"
 .include "../../graphics/png/buildlink3.mk"
 .include "../../devel/glib2/buildlink3.mk"
 .include "../../math/py-numpy/buildlink3.mk"
