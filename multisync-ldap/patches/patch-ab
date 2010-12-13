@@ -7,7 +7,7 @@ $NetBSD$
  
  AC_CHECK_LIB(ldap,ldap_init,,AC_MSG_ERROR(You must have openldap libraries installed.))
 -AC_CHECK_HEADER(sasl/sasl.h,, AC_MSG_ERROR(You must have the libsasl2-dev package installed))
-+AC_CHECK_HEADER(sasl.h,, AC_MSG_ERROR(You must have the libsasl2-dev package installed))
++AC_CHECK_HEADER(sasl/sasl.h,, AC_MSG_ERROR(You must have the libsasl2-dev package installed))
  
  dnl Info for the RPM
  MULTISYNC_TOP="../.."
