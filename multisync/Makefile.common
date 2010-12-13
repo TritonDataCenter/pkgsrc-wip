@@ -6,6 +6,7 @@
 # used by wip/multisync-opie/Makefile
 # used by wip/multisync-palm/Makefile
 # used by wip/multisync-syncml/Makefile
+# used by wip/multisync-syncml-moto/Makefile
 
 DISTNAME=		multisync-0.82-1
 PKGREVISION=		1
