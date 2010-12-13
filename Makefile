@@ -1376,6 +1376,7 @@ SUBDIR+=	multisync-ldap
 SUBDIR+=	multisync-opie
 SUBDIR+=	multisync-palm
 SUBDIR+=	multisync-syncml
+SUBDIR+=	multisync-syncml-moto
 SUBDIR+=	mumble
 SUBDIR+=	mupen64
 SUBDIR+=	mupen64-base
