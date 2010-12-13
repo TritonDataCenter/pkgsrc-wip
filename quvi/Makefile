@@ -24,7 +24,18 @@ CONFIGURE_ARGS+=	--enable-nsfw
 
 PKGCONFIG_OVERRIDE+=	libquvi.pc.in
 
-.include "options.mk"
+DOCUMENTS=	CodingStyle \
+		HowtoContributeCode \
+		HowtoGetDevelopmentCode \
+		HowtoHelp \
+		HowtoSubmitPatches
+
+DOCSDIR=	${PREFIX}/share/doc/${PKGBASE}
+
+post-install:
+.for docfile in ${DOCUMENTS}
+	${INSTALL_DATA} ${WRKSRC}/doc/${docfile} ${DESTDIR}${DOCSDIR}
+.endfor
 
 BUILDLINK_API_DEPENDS.pcre+=		pcre>=7.8
 .include "../../devel/pcre/buildlink3.mk"
