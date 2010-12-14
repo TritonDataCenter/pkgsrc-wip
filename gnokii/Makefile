@@ -30,6 +30,9 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 pre-configure:
 	set -e; cd ${WRKSRC}; autoheader; autoconf
 
+post-install:
+	cd ${WRKSRC} && ${MAKE_PROGRAM} ${MAKE_FLAGS} install-devel
+
 .include "../../mk/pthread.buildlink3.mk"
 .include "../../devel/libusb/buildlink3.mk"
 .include "../../x11/gtk/buildlink3.mk"
