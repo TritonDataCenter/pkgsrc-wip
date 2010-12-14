@@ -1174,6 +1174,7 @@ SUBDIR+=	libnfo
 SUBDIR+=	libnettle
 SUBDIR+=	libneural
 SUBDIR+=	libopenmodeller
+SUBDIR+=	libopensync-plugin-gnokii
 SUBDIR+=	libopensync-plugin-moto
 SUBDIR+=	libowl-av
 SUBDIR+=	libpano12
