@@ -6,11 +6,14 @@
 # REQUIRE: DAEMON network
 # KEYWORD: shutdown
 
-. /etc/rc.subr
+if [ -f /etc/rc.subr ]; then
+	. /etc/rc.subr
+fi
 
 name="redis"
 rcvar=$name
 command="@PREFIX@/bin/redis-server"
+redis_user="@REDIS_USER@"
 command_args="@PKG_SYSCONFDIR@/${name}.conf"
 
 if [ -f /etc/rc.subr ]; then
@@ -18,5 +21,5 @@ if [ -f /etc/rc.subr ]; then
 	run_rc_command "$1"
 else
 	echo -n "${name}"
-	${command} ${command_args}
+	@SU@ -m ${redis_user} -c "${command} ${command_args}"
 fi
