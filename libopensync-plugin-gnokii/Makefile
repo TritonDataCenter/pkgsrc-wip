@@ -20,9 +20,4 @@ GNU_CONFIGURE=	yes
 .include "../../wip/gnokii/buildlink3.mk"
 
 .include "../../comms/libopensync/buildlink3.mk"
-.include "../../comms/libsyncml/buildlink3.mk"
-.include "../../comms/openobex/buildlink3.mk"
-.include "../../devel/glib2/buildlink3.mk"
-.include "../../textproc/libxml2/buildlink3.mk"
-
 .include "../../mk/bsd.pkg.mk"
