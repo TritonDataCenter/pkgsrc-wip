@@ -1,0 +1,4 @@
+@comment $NetBSD$
+lib/opensync/formats/gnokii.la
+lib/opensync/plugins/gnokii_sync.la
+share/opensync/defaults/gnokii-sync
