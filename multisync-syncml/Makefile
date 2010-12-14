@@ -2,9 +2,11 @@
 #
 
 PKGNAME=		multisync-syncml-0.82
-PKGREVISION=		3
+PKGREVISION=		4
 
 COMMENT=		SyncML module for Multisync
+
+CONFLICTS=		multisync-syncml-moto-[0-9]*
 
 WRKSRC=			${WRKDIR}/multisync-0.82/plugins/syncml_plugin/
 
