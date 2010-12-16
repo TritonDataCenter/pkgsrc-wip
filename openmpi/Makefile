@@ -1,8 +1,8 @@
 # $NetBSD$
 
-DISTNAME=	openmpi-1.5
-DISTNAME=	openmpi-1.5.1rc3r24143
-PKGNAME=	openmpi-1.5.0.24143
+DISTNAME=	openmpi-1.5.1
+# DISTNAME=	openmpi-1.5.1rc3r24143
+# PKGNAME=	openmpi-1.5.0.24143
 CATEGORIES=	parallel
 MASTER_SITES=	http://www.open-mpi.org/software/ompi/v1.5/downloads/ \
 		http://www.open-mpi.org/nightly/v1.5/
