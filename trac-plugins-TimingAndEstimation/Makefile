@@ -1,12 +1,14 @@
 # $NetBSD$
 
 SVNVERSION=	5370
-VERSION=	0.7.6.${SVNVERSION}
+# Eggs do not have the same name and do not include the SVN revision.
+EGG_VERSION=	0.7.6
+VERSION=	${EGG_VERSION}.${SVNVERSION}
 DISTNAME=	TracTimingAndEstimation-${VERSION}
+EGG_NAME=	timingandestimationplugin-${EGG_VERSION}
 PKGNAME=	trac-plugins-TimingAndEstimation-${VERSION}
 # Empty to avoid default setting.
-PKGREVISION=	2
-EGG_NAME=	${DISTNAME}
+PKGREVISION=	3
 CATEGORIES=	www
 MASTER_SITES=	# not defined
 
