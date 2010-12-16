@@ -21,7 +21,7 @@ $NetBSD$
            'conditions': [
              # Linux/Solaris need libdl for dlopen() and friends.
 -            ['OS=="linux" or OS=="solaris"', {
-+            ['OS=="solaris" or OS=="linux"', {
++            ['(OS=="linux") or OS=="solaris"', {
                'link_settings': {
                  'libraries': [
                    '-ldl',
