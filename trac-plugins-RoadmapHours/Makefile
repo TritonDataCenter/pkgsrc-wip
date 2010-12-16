@@ -1,12 +1,14 @@
 # $NetBSD$
 
 SVNVERSION=	4802
-VERSION=	0.5.${SVNVERSION}
+# Eggs do not have the same name and do not include the SVN revision.
+EGG_VERSION=	0.5
+VERSION=	${EGG_VERSION}.${SVNVERSION}
 DISTNAME=	TracRoadmapHours-${VERSION}
+EGG_NAME=	RoadmapHours-${EGG_VERSION}
 PKGNAME=	trac-plugins-RoadmapHours-${VERSION}
 # Empty to avoid default setting.
-PKGREVISION=
-EGG_NAME=	${DISTNAME}
+PKGREVISION=	1
 CATEGORIES=	www
 MASTER_SITES=	# not defined
 
