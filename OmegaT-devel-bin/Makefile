@@ -1,14 +1,13 @@
 # $NetBSD$
 #
 
-DISTNAME=	OmegaT_Beta_2.2.0_Without_JRE
-#PKGNAME=	${DISTNAME:S/OmegaT_/OmegaT-bin-/:S/_Without_JRE//}
-PKGNAME=	OmegaT-bin-2.2.0-Beta
+DISTNAME=	OmegaT_2.2.2_01_Beta_Without_JRE
+PKGNAME=	${DISTNAME:S/OmegaT_/OmegaT-bin-/:S/_Without_JRE//:S/_/./g}
 CATEGORIES=	editors
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=omegat/}
 EXTRACT_SUFX=	.zip
 
-MAINTAINER=	ryo_on@yk.rim.or.jp
+MAINTAINER=	ryoon@NetBSD.org
 HOMEPAGE=	http://www.omegat.org/
 COMMENT=	The translation memory (TM) application written in Java
 
