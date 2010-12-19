@@ -1428,7 +1428,6 @@ SUBDIR+=	net-quanta
 SUBDIR+=	net-tools
 SUBDIR+=	netbsd-awk
 SUBDIR+=	netbsd-make
-SUBDIR+=	netbt-hcidump
 SUBDIR+=	netclasses
 SUBDIR+=	netkit-base
 SUBDIR+=	netkit-routed
