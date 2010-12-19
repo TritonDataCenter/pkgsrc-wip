@@ -16,7 +16,7 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 PYTHON_VERSIONS_ACCEPTED=	26 25
 USE_LANGUAGES=	c++
 
-USE_TOOLS=	bash:run
+USE_TOOLS+=	bash:run
 
 BUILD_DEPENDS+=	scons-[0-9]*:../../devel/scons
 DEPENDS+=	bash-[0-9]*:../../shells/bash
