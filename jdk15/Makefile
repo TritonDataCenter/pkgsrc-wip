@@ -153,8 +153,12 @@ SUBST_SED.paths+=	-e 's,%%JVM_HOME%%,${JVM_HOME},g'
 
 .include "options.mk"
 
-PLIST_VARS+=    jce plugin
+PLIST_VARS+=    jce plugin client_jvm
 PLIST_SUBST+=	JAVA_MACHINE_ARCH=${JAVA_MACHINE_ARCH:Q}
+
+.if ${MACHINE_ARCH} == "i386"
+PLIST.client_jvm=	yes
+.endif
 
 .include "../../wip/jdk16/license-extract.mk"
 
