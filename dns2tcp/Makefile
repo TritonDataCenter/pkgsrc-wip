@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	dns2tcp-0.4.3
+DISTNAME=	dns2tcp-0.5.2
 CATEGORIES=	net
 MASTER_SITES=	http://www.hsc.fr/ressources/outils/dns2tcp/download/
 
