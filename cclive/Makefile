@@ -24,7 +24,7 @@ do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/src/cclive ${DESTDIR}${PREFIX}/bin
 	${INSTALL_MAN} ${WRKSRC}/cclive.1 ${DESTDIR}${PREFIX}/${PKGMANDIR}/man1
 
-.include "../../wip/quvi/buildlink3.mk"
+.include "../../net/quvi/buildlink3.mk"
 .include "../../www/curl/buildlink3.mk"
 .include "../../devel/pcre++/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
