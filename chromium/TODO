@@ -25,3 +25,5 @@ chrome/test/ui/fast_shutdown_uitest.cc
 views/controls/textfield/textfield.h
 webkit/glue/webkitclient_impl.cc
 webkit/tools/pepper_test_plugin/event_handler.cc
+
+resolve http://secunia.com/advisories/42605/ if applicable
