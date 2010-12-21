@@ -285,7 +285,6 @@ SUBDIR+=	css-mode
 SUBDIR+=	csstidy
 SUBDIR+=	ctemplate
 SUBDIR+=	cup
-SUBDIR+=	cutter
 SUBDIR+=	cvs-syncmail
 SUBDIR+=	cvs20hg
 SUBDIR+=	cvs2darcs
