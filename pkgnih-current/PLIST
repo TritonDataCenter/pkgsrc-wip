@@ -1,0 +1,4 @@
+@comment $NetBSD$
+bin/nih
+libexec/nih/pkg_update_plan
+share/examples/nih/nih.conf
