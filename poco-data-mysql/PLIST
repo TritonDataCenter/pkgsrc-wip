@@ -9,7 +9,7 @@ include/Poco/Data/MySQL/MySQLStatementImpl.h
 include/Poco/Data/MySQL/SessionHandle.h
 include/Poco/Data/MySQL/SessionImpl.h
 include/Poco/Data/MySQL/StatementExecutor.h
-lib/libPocoMySQLd.so.9
-lib/libPocoMySQL.so.9
+lib/libPocoMySQLd.so.10
+lib/libPocoMySQL.so.10
 lib/libPocoMySQLd.so
 lib/libPocoMySQL.so

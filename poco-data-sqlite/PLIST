@@ -7,7 +7,7 @@ include/Poco/Data/SQLite/Extractor.h
 include/Poco/Data/SQLite/Utility.h
 include/Poco/Data/SQLite/SQLite.h
 include/Poco/Data/SQLite/SQLiteStatementImpl.h
-lib/libPocoSQLited.so.9
-lib/libPocoSQLite.so.9
+lib/libPocoSQLited.so.10
+lib/libPocoSQLite.so.10
 lib/libPocoSQLited.so
 lib/libPocoSQLite.so

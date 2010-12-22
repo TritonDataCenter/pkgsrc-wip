@@ -30,7 +30,7 @@ include/Poco/Data/SessionPool.h
 include/Poco/Data/Statement.h
 include/Poco/Data/StatementImpl.h
 include/Poco/Data/TypeHandler.h
-lib/libPocoDatad.so.9
-lib/libPocoData.so.9
+lib/libPocoDatad.so.10
+lib/libPocoData.so.10
 lib/libPocoDatad.so
 lib/libPocoData.so
