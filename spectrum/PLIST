@@ -34,7 +34,8 @@ share/examples/spectrum/spectrum-mysql.sql
 share/examples/spectrum/spectrum.cfg
 share/locale/cs/LC_MESSAGES/spectrum.mo
 share/locale/de/LC_MESSAGES/spectrum.mo
+share/locale/fr/LC_MESSAGES/spectrum.mo
 share/locale/pl/LC_MESSAGES/spectrum.mo
 share/locale/ru/LC_MESSAGES/spectrum.mo
-@pkgdir share/locales
 @pkgdir etc/spectrum
+@pkgdir share/locales
