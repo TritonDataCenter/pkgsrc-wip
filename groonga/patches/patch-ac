@@ -1,6 +1,6 @@
 $NetBSD$
 
-need for sys/sysctl.h.
+need for sys/sysctl.h, if _XOPEN_SOURCE is defined.
 
 --- lib/groonga_in.h.orig	2010-08-18 05:19:17.000000000 +0000
 +++ lib/groonga_in.h
