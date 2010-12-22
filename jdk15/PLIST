@@ -2402,4 +2402,4 @@ ${PLIST.plugin}@dirrm java/jdk-1.5.0/demo/plugin/applets/Animator/audio
 ${PLIST.plugin}@dirrm java/jdk-1.5.0/demo/plugin/applets/Animator
 ${PLIST.plugin}@dirrm java/jdk-1.5.0/demo/plugin/applets
 ${PLIST.plugin}@dirrm java/jdk-1.5.0/demo/plugin
-@exec ${MKDIR} %D/java/jdk-1.5.0/jre/lib/applet
+@pkgdir java/jdk-1.5.0/jre/lib/applet
