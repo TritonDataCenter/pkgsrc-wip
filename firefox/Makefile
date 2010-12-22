@@ -14,6 +14,8 @@ MOZILLA_DIR=	# empty
 CONFIGURE_ARGS+=	--enable-application=browser
 CONFIGURE_ARGS+=	--with-libxul-sdk=${PREFIX}/lib/xulrunner-sdk
 CONFIGURE_ARGS+=	--with-system-libxul
+# XXX tnn with omnijar enabled it just doesn't start
+CONFIGURE_ARGS+=	--enable-chrome-format=flat
 
 ALL_ENV+=		MOZILLA_PKG_NAME=firefox
 
@@ -31,6 +33,8 @@ MOZILLA_ICON=	${WRKSRC}/browser/branding/unofficial/default48.png
 
 pre-configure:
 	cd ${WRKSRC} && autoconf
+# XXX not built here, just to make check-portability.awk shut up.
+	cd ${WRKSRC}/js/src && autoconf
 
 post-build:
 	${SED} -e 's|@MOZILLA@|${MOZILLA}|g'				\
