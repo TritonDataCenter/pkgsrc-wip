@@ -15,12 +15,14 @@ CONFIGURE_ARGS+=	--disable-dbus
 
 .if !empty(PKG_OPTIONS:Mgecko)
 .   include "../../devel/xulrunner/buildlink3.mk"
+CONFIGURE_ARGS+=	--enable-gecko
 .else
 CONFIGURE_ARGS+=	--disable-gecko
 .endif
 
 .if !empty(PKG_OPTIONS:Mwebkit )
 .   include "../../www/webkit-gtk/buildlink3.mk"
+CONFIGURE_ARGS+=	--enable-webkit
 .else
 CONFIGURE_ARGS+=	--disable-webkit
 .endif
