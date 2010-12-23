@@ -12,7 +12,7 @@ CONFIGURE_ARGS+=	--with-aspell-lib=${BUILDLINK_PREFIX.aspell}/lib
 .include "../../textproc/aspell/buildlink3.mk"
 .endif
 
-# enable aspell
+# enable enchant
 .if empty(PKG_OPTIONS:Menchant)
 CONFIGURE_ARGS+=	--disable-enchant
 .else
