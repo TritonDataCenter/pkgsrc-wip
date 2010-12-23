@@ -4,7 +4,7 @@
 DISTNAME=	blam-1.8.7
 PKGREVISION=	3
 CATEGORIES=	www
-MASTER_SITES=	http://www.cmartin.tk/blam/
+MASTER_SITES=	http://blam.cmartin.tk/downloads/
 EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	pkgsrc.gnome@gmail.com
