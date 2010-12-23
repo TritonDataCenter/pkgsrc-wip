@@ -1,5 +1,7 @@
 $NetBSD$
 
+Some old versions of zlib defined OF; not needed, but provide compat for it.
+
 --- src/libpsi/tools/zip/minizip/unzip.h.orig	2007-10-14 09:00:55.000000000 -0500
 +++ src/libpsi/tools/zip/minizip/unzip.h
 @@ -49,6 +49,14 @@ extern "C" {
