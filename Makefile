@@ -1396,7 +1396,6 @@ SUBDIR+=	muttvcquery
 SUBDIR+=	mvsis
 SUBDIR+=	mwf-designer
 SUBDIR+=	mxallowd
-SUBDIR+=	mypaint
 SUBDIR+=	mysql++
 SUBDIR+=	mysql-docs
 SUBDIR+=	mysql-workbench
