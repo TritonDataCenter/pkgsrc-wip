@@ -1,10 +1,9 @@
 # $NetBSD$
 #
 
-DISTNAME=	evolution-couchdb-0.3.99
-PKGREVISION=	1
+DISTNAME=	evolution-couchdb-0.5.1
 CATEGORIES=	mail
-MASTER_SITES=	ftp://ftp.gnome.org/pub/gnome/sources/evolution-couchdb/0.3/
+MASTER_SITES=	ftp://ftp.gnome.org/pub/gnome/sources/evolution-couchdb/0.5/
 EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	kamelderouiche@yahoo.com

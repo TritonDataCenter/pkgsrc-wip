@@ -1,7 +1,7 @@
 @comment $NetBSD$
 lib/evolution-data-server-1.2/extensions/libebookbackendcouchdb.la
-lib/evolution/2.28/plugins/liborg-gnome-evolution-couchdb.la
-lib/evolution/2.28/plugins/org-gnome-evolution-couchdb.eplug
+lib/evolution/2.30/plugins/liborg-gnome-evolution-couchdb.la
+lib/evolution/2.30/plugins/org-gnome-evolution-couchdb.eplug
 share/locale/ca/LC_MESSAGES/evolution-couchdb.mo
 share/locale/cs/LC_MESSAGES/evolution-couchdb.mo
 share/locale/de/LC_MESSAGES/evolution-couchdb.mo
