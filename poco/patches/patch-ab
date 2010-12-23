@@ -1,5 +1,7 @@
 $NetBSD$
 
+# include NetBSD with the HP-UX portion of the event handling
+
 --- Foundation/src/NamedEvent_UNIX.cpp.orig	2008-10-09 18:14:00.000000000 +0200
 +++ Foundation/src/NamedEvent_UNIX.cpp
 @@ -60,7 +60,7 @@ namespace Poco {

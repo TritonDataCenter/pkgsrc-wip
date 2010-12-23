@@ -4,7 +4,8 @@
 #	wip/poco/Makefile
 #	wip/poco-data/Makefile
 #	wip/poco-data-sqlite/Makefile
-#	wip/poco-data-mysql/Makefil
+#	wip/poco-data-mysql/Makefile
+#	wip/poco-data-odbc/Makefile
 
 POCO_VERSION=1.4.0
 

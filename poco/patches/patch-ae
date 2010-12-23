@@ -1,5 +1,7 @@
 $NetBSD$
 
+# clean up the FreeBSD configuration to fit better with pkgsrc
+
 --- build/config/FreeBSD.orig	2010-01-15 12:13:34.000000000 +0000
 +++ build/config/FreeBSD
 @@ -20,7 +20,8 @@ CXX     = g++

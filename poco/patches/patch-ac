@@ -1,5 +1,7 @@
 $NetBSD$
 
+# handle a POSIX mutex on NetBSD as they do on HP-UX
+
 --- Foundation/src/NamedMutex_UNIX.cpp.orig	2008-10-09 18:14:00.000000000 +0200
 +++ Foundation/src/NamedMutex_UNIX.cpp
 @@ -60,7 +60,7 @@ namespace Poco {

@@ -1,5 +1,8 @@
 $NetBSD$
 
+# simplify the search for the MySQL components, since we know
+# where they are..
+
 --- Data/MySQL/Makefile.orig	2009-05-12 13:22:14.000000000 -0500
 +++ Data/MySQL/Makefile
 @@ -8,8 +8,8 @@
