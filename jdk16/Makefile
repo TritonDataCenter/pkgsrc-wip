@@ -153,6 +153,12 @@ MAKE_ENV+=			ALT_CUPS_HEADERS_PATH=${PREFIX}/include
 BUILDLINK_DEPMETHOD.cups?=	build
 .include "../../print/cups/buildlink3.mk"
 
+GCC_REQD+=		3.4
+.if !empty(MACHINE_PLATFORM:MNetBSD-4*) || !empty(MACHINE_PLATFORM:MNetBSD-5*)
+USE_PKGSRC_GCC=		yes
+.endif
+.include "../../mk/compiler.mk"
+
 .include "../../mk/java-env.mk"
 .include "../../x11/libXi/buildlink3.mk"
 .include "../../x11/libXtst/buildlink3.mk"

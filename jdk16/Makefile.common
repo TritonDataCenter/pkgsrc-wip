@@ -43,9 +43,3 @@ MOTIF_TYPE=		openmotif
 .include "../../mk/motif.buildlink3.mk"
 
 _WRAP_EXTRA_ARGS.CXX+=	-Wno-deprecated
-
-#GCC_REQD+=		3.0
-#.if !empty(MACHINE_PLATFORM:MNetBSD-4*)
-#USE_PKGSRC_GCC=		yes
-#.endif
-#.include "../../mk/compiler.mk"
