@@ -2,6 +2,7 @@
 #
 
 DISTNAME=		STonX-0.6.7.6
+PKGREVISION=		1
 CATEGORIES=		emulators
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=stonx/}
 
@@ -11,5 +12,10 @@ COMMENT=		Atari ST Emulator
 
 GNU_CONFIGURE=		yes
 
+.include "../../mk/bsd.prefs.mk"
+.if ${X11_TYPE} == "modular"
+.include "../../x11/libXext/buildlink3.mk"
+.else
 .include "../../mk/x11.buildlink3.mk"
+.endif
 .include "../../mk/bsd.pkg.mk"
