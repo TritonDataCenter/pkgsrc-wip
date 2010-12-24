@@ -21,7 +21,11 @@ USE_LANGUAGES=		c c++
 .if !empty(PKG_OPTIONS:Mdont-use-x)
 CONFIGURE_ARGS+=	--without-x
 .else
+.if ${X11_TYPE} == "modular"
+.include "../../x11/libX11/buildlink3.mk"
+.else
 .include "../../mk/x11.buildlink3.mk"
+.endif
 .endif
 
 .include "../../mk/bsd.pkg.mk"
