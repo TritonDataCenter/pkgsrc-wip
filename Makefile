@@ -531,7 +531,6 @@ SUBDIR+=	gDesklets
 SUBDIR+=	gDesklets-CornerXMMS
 SUBDIR+=	gDesklets-rssgrab
 SUBDIR+=	gDesklets-starterbar
-SUBDIR+=	gajim
 SUBDIR+=	galib
 SUBDIR+=	gambas2
 SUBDIR+=	gambc
