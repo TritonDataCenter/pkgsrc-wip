@@ -1,12 +1,12 @@
 # $NetBSD$
 
-DISTNAME=	rssgrab-0.5
+DISTNAME=	rssgrab-0.6.4
 PKGNAME=	gDesklets-${DISTNAME}
 CATEGORIES=	www
-MASTER_SITES=	http://gdesklets.gnomedesktop.org/files/
+MASTER_SITES=	http://www.gdesklets.info/archive/
 
 MAINTAINER=	minskim@NetBSD.org
-HOMEPAGE=	http://gdesklets.gnomedesktop.org/categories.php?func=gd_show_app&gd_app_id=101
+HOMEPAGE=	http://www.gdesklets.info/archive/#R
 COMMENT=	RSS/RDF News Feed Grabber
 
 DEPENDS+=	gDesklets-[0-9]*:../../wip/gDesklets

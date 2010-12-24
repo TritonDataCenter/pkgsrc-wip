@@ -1,13 +1,12 @@
 # $NetBSD$
 
-DISTNAME=	starterbar-desklet-0.22.1
+DISTNAME=	starterbar-desklet-0.31.3
 PKGNAME=	gDesklets-${DISTNAME:S/-desklet//}
 CATEGORIES=	x11
-MASTER_SITES=	http://www.gdesklets.org/files/
-EXTRACT_SUFX=	.tar.bz2
+MASTER_SITES=	http://www.gdesklets.info/archive/
 
 MAINTAINER=	minskim@NetBSD.org
-HOMEPAGE=	http://www.gdesklets.org/
+HOMEPAGE=	http://www.gdesklets.info/archive/#S
 COMMENT=	Icon bar for GNOME where you can put starters into
 
 DEPENDS=	gDesklets-[0-9]*:../../wip/gDesklets
