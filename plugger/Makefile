@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	plugger-5.0
+PKGREVISION=	1
 CATEGORIES=	www
 MASTER_SITES=	http://fredrik.hubbe.net/plugger/
 
@@ -17,11 +18,16 @@ PLIST_SUBST+=		EGDIR=${REL_EGDIR:Q}
 
 do-install:
 	${INSTALL_DATA_DIR} ${EGDIR}
-	${INSTALL_PROGRAM} ${WRKSRC}/plugger-${PKGVERSION} ${PREFIX}/bin/
+	${INSTALL_PROGRAM} ${WRKSRC}/plugger-5.0 ${PREFIX}/bin/
 	${INSTALL_PROGRAM} ${WRKSRC}/plugger-controller ${PREFIX}/bin/
 	${INSTALL_DATA} ${WRKSRC}/plugger.so ${PREFIX}/lib/
 	${INSTALL_MAN} ${WRKSRC}/plugger.7 ${PREFIX}/${PKGMANDIR}/man7/
 	${INSTALL_DATA} ${WRKSRC}/pluggerrc ${EGDIR}/
 
+.include "../../mk/bsd.prefs.mk"
+.if ${X11_TYPE} == "modular"
+.include "../../x11/libXt/buildlink3.mk"
+.else
 .include "../../mk/x11.buildlink3.mk"
+.endif
 .include "../../mk/bsd.pkg.mk"
