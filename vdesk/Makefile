@@ -2,6 +2,7 @@
 #
 
 DISTNAME=		vdesk-1.2
+PKGREVISION=		1
 CATEGORIES=		wm x11
 MASTER_SITES=		http://offog.org/files/
 
