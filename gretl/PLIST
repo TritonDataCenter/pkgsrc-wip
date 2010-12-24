@@ -460,5 +460,5 @@ share/locale/pt_BR/LC_MESSAGES/gretl.mo
 share/locale/ru/LC_MESSAGES/gretl.mo
 share/locale/tr/LC_MESSAGES/gretl.mo
 share/locale/zh_TW/LC_MESSAGES/gretl.mo
-share/man/man1/gretl.1
+man/man1/gretl.1
 @pkgdir share/gretl/doc
