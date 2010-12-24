@@ -2,6 +2,7 @@
 #
 
 DISTNAME=		dumb-0.9.3
+PKGREVISION=		1
 CATEGORIES=		audio devel
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=dumb/}
 
@@ -24,4 +25,4 @@ post-install:
 
 .include "../../devel/allegro/buildlink3.mk"
 .include "../../mk/oss.buildlink3.mk"
-
+.include "../../mk/bsd.pkg.mk"
