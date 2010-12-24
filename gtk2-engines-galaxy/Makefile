@@ -5,7 +5,7 @@ PKGNAME=		gtk2-engines-galaxy-0
 WRKSRC=			${WRKDIR}/galaxy-0.2
 PKGREVISION=		1
 CATEGORIES=		x11
-MASTER_SITES=		http://ftp.gnome.org/pub/GNOME/teams/art.gnome.org/themes/gtk2/
+MASTER_SITES=		http://ftp.gnome.org/pub/GNOME/teams/art.gnome.org/archive/themes/gtk2/
 
 MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://art.gnome.org/
