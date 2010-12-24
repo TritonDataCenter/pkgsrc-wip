@@ -18,5 +18,10 @@ post-install:
 	${INSTALL_DATA} ${WRKSRC}/AUTHORS ${WRKSRC}/COPYING ${WRKSRC}/README \
 		${DESTDIR}${PREFIX}/share/doc/vdesk
 
+.include "../../mk/bsd.prefs.mk"
+.if ${X11_TYPE} == "modular"
+.include "../../x11/libX11/buildlink3.mk"
+.else
 .include "../../mk/x11.buildlink3.mk"
+.endif
 .include "../../mk/bsd.pkg.mk"
