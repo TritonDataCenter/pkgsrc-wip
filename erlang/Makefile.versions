@@ -36,7 +36,7 @@ _VERSIONS=					\
 	megaco			3.15		\
 	mnesia			4.4.16		\
 	observer		0.9.8.4		\
-	odbc			2.10.8		\
+	odbc			2.10.9		\
 	orber			3.6.18		\
 	os_mon			2.2.5		\
 	otp_mibs		1.0.6		\
