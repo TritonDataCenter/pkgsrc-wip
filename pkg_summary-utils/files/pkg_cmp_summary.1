@@ -65,6 +65,17 @@ use CVS_CHECKSUM field for comparing in addition to PKGNAME and/or PKGPATH
 .TP
 .B "-d"
 use DEPENDS field for comparing in addition to PKGNAME and/or PKGPATH
+.TP
+.B "-u"
+output A at the end of line for automatically
+installed packages and U for packages installed by user.
+A field
+.I automatic
+is expected in
+.IR summary1 ,
+if it is specified in
+.IR summary2 ,
+it is ignored.
 .SH SEE ALSO
 .BR pkg_summary-utils(7) ,
 .BR pkg_summary(5) ,
