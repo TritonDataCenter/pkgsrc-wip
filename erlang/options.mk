@@ -18,7 +18,7 @@ PKG_SUGGESTED_OPTIONS+=	erlang-hipe
 
 .include "../../mk/bsd.options.mk"
 
-PLIST_VARS+=	hipe odbc
+PLIST_VARS+=	odbc
 
 .if !empty(PKG_OPTIONS:Mjava)
 USE_JAVA=		yes
@@ -31,7 +31,7 @@ CONFIGURE_ARGS+=	--without-javac
 
 .if !empty(PKG_OPTIONS:Merlang-hipe)
 CONFIGURE_ARGS+=	--enable-hipe
-PLIST.hipe=	yes
+PLIST_SRC+=		PLIST.hipe
 .else
 CONFIGURE_ARGS+=	--disable-hipe
 .endif
