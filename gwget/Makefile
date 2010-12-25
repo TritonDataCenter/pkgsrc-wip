@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	gwget-1.0.4
-PKGREVISION=	1
+PKGREVISION=	2
 CATEGORIES=	gnome net
 MASTER_SITES=	${MASTER_SITE_GNOME:=sources/gwget/1.0/}
 EXTRACT_SUFX=	.tar.bz2
@@ -20,7 +20,10 @@ GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_TOOLS+=	pkg-config intltool msgfmt gmake
 
-GCONF_SCHEMAS+=	data/gwget.schemas
+GCONF_SCHEMAS+=	gwget.schemas
+
+pre-configure:
+	${LN} -s ${WRKSRC}/data/gwget.schemas ${WRKSRC}/gwget.schemas
 
 .include "options.mk"
 

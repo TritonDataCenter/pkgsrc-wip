@@ -1,7 +1,7 @@
 @comment $NetBSD$
 bin/gwget
-lib/epiphany/2.28/extensions/gwget.xml
-lib/epiphany/2.28/extensions/libgwgetextension.la
+lib/epiphany/2.29/extensions/gwget.xml
+lib/epiphany/2.29/extensions/libgwgetextension.la
 share/applications/gwget.desktop
 share/dbus-1/services/org.gnome.gwget.service
 share/gconf/schemas/gwget.schemas
