@@ -13,12 +13,12 @@ PKG_SUGGESTED_OPTIONS=	# empty
 .if (${MACHINE_ARCH} == "i386" || ${MACHINE_ARCH} == "x86_64") &&	\
     (${OPSYS} == "FreeBSD" || ${OPSYS} == "Linux" ||			\
      ${OPSYS} == "NetBSD"  || ${OPSYS} == "OpenBSD")
-#PKG_SUGGESTED_OPTIONS+=	erlang-hipe
+PKG_SUGGESTED_OPTIONS+=	erlang-hipe
 .endif
 
 .include "../../mk/bsd.options.mk"
 
-PLIST_VARS+=	odbc
+PLIST_VARS+=	hipe odbc
 
 .if !empty(PKG_OPTIONS:Mjava)
 USE_JAVA=		yes
@@ -31,7 +31,7 @@ CONFIGURE_ARGS+=	--without-javac
 
 .if !empty(PKG_OPTIONS:Merlang-hipe)
 CONFIGURE_ARGS+=	--enable-hipe
-PLIST_SRC+=		PLIST.hipe
+PLIST.hipe=	yes
 .else
 CONFIGURE_ARGS+=	--disable-hipe
 .endif
