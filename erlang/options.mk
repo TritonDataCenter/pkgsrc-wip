@@ -42,7 +42,7 @@ CONFIGURE_ARGS+=	--disable-hipe
 .if !empty(PKG_OPTIONS:Miodbc)
 .  include "../../databases/iodbc/buildlink3.mk"
 CONFIGURE_ARGS+=	--with-odbc=${BUILDLINK_PREFIX.iodbc}
-PLIST_SRC+=		PLIST.odbc
+PLIST.odbc=	yes
 .endif
 
 .if !empty(PKG_OPTIONS:Munixodbc)
