@@ -21,7 +21,9 @@ CONFIGURE_DIRS=	unix
 BUILD_DIRS=		${CONFIGURE_DIRS}
 
 CONFIGURE_ARGS+=	--prefix=${PREFIX}
-CONFIGURE_ARGS+=	--with-tcl=${TCLCONFIG_SH_DIR}
+# CONFIGURE_ARGS+=	--with-tcl=${TCLCONFIG_SH_DIR}
+CONFIGURE_ARGS+=	--with-tcl=${PREFIX}/lib
+# CONFIGURE_ARGS+=	--enable-shared=no
 
 TEST_TARGET=	test
 INSTALL_TARGET=	install install-private-headers
@@ -38,7 +40,7 @@ post-install:
 CVS_REPOSITORIES=	tk
 CVS_ROOT.tk=	:pserver:anonymous:@tktoolkit.cvs.sourceforge.net:/cvsroot/tktoolkit
 WRKSRC=			${WRKDIR}/tk
-CHECKOUT_DATE=		2010-08-07
+CHECKOUT_DATE=		2010-12-23
 
 .include "../mk/cvs-package.mk"
 
