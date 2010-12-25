@@ -18,6 +18,8 @@ PKG_SUGGESTED_OPTIONS=	# empty
 
 .include "../../mk/bsd.options.mk"
 
+PLIST_VARS+=	odbc
+
 .if !empty(PKG_OPTIONS:Mjava)
 USE_JAVA=		yes
 USE_JAVA2=		yes
@@ -46,5 +48,8 @@ PLIST_SRC+=		PLIST.odbc
 .if !empty(PKG_OPTIONS:Munixodbc)
 .  include "../../databases/unixodbc/buildlink3.mk"
 CONFIGURE_ARGS+=	--with-odbc=${BUILDLINK_PREFIX.unixodbc}
-PLIST_SRC+=		PLIST.odbc
+PLIST.odbc=	yes
 .endif
+
+# Help generate optional PLIST parts:
+PRINT_PLIST_AWK+=	{if ($$0 ~ /\/erlang\/lib\/odbc-${VERSION.odbc}\//) {$$0 = "$${PLIST.odbc}" $$0;}}
