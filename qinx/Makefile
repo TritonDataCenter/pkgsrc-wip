@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	qinx-1.4
-PKGREVISION=	7
+PKGREVISION=	8
 CATEGORIES=	wm kde
 MASTER_SITES=	http://www.usermode.org/code/
 EXTRACT_SUFX=	.tar.bz2
@@ -22,9 +22,5 @@ USE_LANGUAGES=		c c++
 .include "../../x11/kdelibs3/buildlink3.mk"
 .include "../../x11/kdebase3/buildlink3.mk"
 .include "../../mk/pthread.buildlink3.mk"
-.if ${X11_TYPE} == "modular"
 .include "../../x11/libX11/buildlink3.mk"
-.else
-.include "../../mk/x11.buildlink3.mk"
-.endif
 .include "../../mk/bsd.pkg.mk"

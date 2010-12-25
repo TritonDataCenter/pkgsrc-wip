@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	vpr-4.30
-PKGREVISION=	1
+PKGREVISION=	2
 CATEGORIES=	cad
 MASTER_SITES=	http://www.eecg.toronto.edu/~vaughn/vpr/downloadfiles/
 
@@ -34,10 +34,5 @@ do-install:
 	${INSTALL_DATA} ${WRKSRC}/vpr/*.arch ${PREFIX}/share/vpr
 	${INSTALL_DATA} ${WRKSRC}/vpr/*.net ${PREFIX}/share/vpr
 
-.include "../../mk/bsd.prefs.mk"
-.if ${X11_TYPE} == "modular"
 .include "../../x11/libX11/buildlink3.mk"
-.else
-.include "../../mk/x11.buildlink3.mk"
-.endif
 .include "../../mk/bsd.pkg.mk"

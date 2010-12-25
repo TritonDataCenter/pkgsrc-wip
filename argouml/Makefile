@@ -3,6 +3,7 @@
 
 DISTNAME=	ArgoUML-0.14
 PKGNAME=	argouml-0.14
+PKGREVISION=	1
 CATEGORIES=	devel
 MASTER_SITES=	http://argouml.tigris.org/files/documents/4/0/argouml-0.14/
 
@@ -35,10 +36,6 @@ do-install:
 	${INSTALL_SCRIPT} ${WRKSRC}/argouml ${DESTDIR}${PREFIX}/bin/
 
 .include "../../mk/java-vm.mk"
-.if ${X11_TYPE} == "modular"
 .include "../../x11/libX11/buildlink3.mk"
-.else
-.include "../../mk/x11.buildlink3.mk"
-.endif
 
 .include "../../mk/bsd.pkg.mk"
