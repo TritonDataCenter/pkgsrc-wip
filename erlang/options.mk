@@ -52,4 +52,5 @@ PLIST.odbc=	yes
 .endif
 
 # Help generate optional PLIST parts:
+PRINT_PLIST_AWK+=	{if ($$0 ~ /\/erlang\/lib\/hipe-${VERSION.hipe}\//) {$$0 = "$${PLIST.hipe}" $$0;}}
 PRINT_PLIST_AWK+=	{if ($$0 ~ /\/erlang\/lib\/odbc-${VERSION.odbc}\//) {$$0 = "$${PLIST.odbc}" $$0;}}
