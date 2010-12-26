@@ -19,6 +19,7 @@ USE_LANGUAGES=	c++ c
 USE_CMAKE=	yes
 
 FIND_PREFIX:=	MPG123DIR=mpg123
+.include "../../mk/find-prefix.mk"
 
 SUBST_CLASSES+=		mpg123-cmd
 SUBST_STAGE.mpg123-cmd=	pre-configure
@@ -26,7 +27,7 @@ SUBST_FILES.mpg123-cmd=	src/defines.h.in
 SUBST_SED.mpg123-cmd=	-e 's,/usr/bin/mpg123,${MPG123DIR}/bin/mpg123,'
 SUBST_SED.mpg123-cmd+=	-e 's,/usr/local/bin/mpg123,${MPG123DIR}/bin/mpg123,'
 
+.include "../../x11/qt4-tools/buildlink3.mk"
 .include "../../x11/qt4-libs/buildlink3.mk"
 .include "../../sysutils/desktop-file-utils/desktopdb.mk"
-.include "../../mk/find-prefix.mk"
 .include "../../mk/bsd.pkg.mk"
