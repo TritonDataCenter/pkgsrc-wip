@@ -19,7 +19,7 @@ USE_TOOLS+=		gmake
 CONFIGURE_ARGS+=	--with-librra=${PREFIX}
 #ONFIGURE_ARGS+=	--datadir=${PREFIX}/share/kde
 
-.include "../../graphics/jpeg/buildlink3.mk"
+.include "../../mk/jpeg.buildlink3.mk"
 .include "../../comms/synce-librapi2/buildlink3.mk"
 .include "../../comms/synce-rra/buildlink3.mk"
 .include "../../wip/synce-orange/buildlink3.mk"

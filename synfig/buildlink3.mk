@@ -21,7 +21,7 @@ pkgbase:= synfig
 .  endif
 
 .  if !empty(PKG_BUILD_OPTIONS.synfig:Mjpeg)
-.    include "../../graphics/jpeg/buildlink3.mk"
+.    include "../../mk/jpeg.buildlink3.mk"
 .  endif
 
 .  if !empty(PKG_BUILD_OPTIONS.synfig:Mfreetype)

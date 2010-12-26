@@ -15,7 +15,7 @@ BUILDLINK_PKGSRCDIR.esmart?=	../../wip/esmart
 .include "../../wip/epsilon/buildlink3.mk"
 .include "../../devel/libltdl/buildlink3.mk"
 .include "../../graphics/imlib2/buildlink3.mk"
-.include "../../graphics/jpeg/buildlink3.mk"
+.include "../../mk/jpeg.buildlink3.mk"
 .endif # ESMART_BUILDLINK3_MK
 
 BUILDLINK_TREE+=	-esmart

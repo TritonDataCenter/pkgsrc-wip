@@ -49,7 +49,7 @@ CONFIGURE_ARGS+=	--with-ix86-asm
 .include "../../audio/gsm/buildlink3.mk"
 .include "../../devel/zlib/buildlink3.mk"
 .include "../../graphics/png/buildlink3.mk"
-.include "../../graphics/jpeg/buildlink3.mk"
+.include "../../mk/jpeg.buildlink3.mk"
 .include "../../graphics/MesaLib/buildlink3.mk"
 .include "../../fonts/Xft2/buildlink3.mk"
 .include "../../lang/perl5/buildlink3.mk"

@@ -22,6 +22,6 @@ CONFIGURE_ARGS+=	--with-extra-libs=${LOCALBASE}/libs
 .include "../../devel/zlib/buildlink3.mk"
 .include "../../audio/arts/buildlink3.mk"
 .include "../../graphics/png/buildlink3.mk"
-.include "../../graphics/jpeg/buildlink3.mk"
+.include "../../mk/jpeg.buildlink3.mk"
 .include "../../x11/kdelibs3/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

@@ -200,7 +200,7 @@ CONFIGURE_ARGS+=	--disable-gif
 
 .if !empty(PKG_OPTIONS:Mjpeg)
 CONFIGURE_ARGS+=	--enable-jpeg
-.  include "../../graphics/jpeg/buildlink3.mk"
+.  include "../../mk/jpeg.buildlink3.mk"
 .else
 CONFIGURE_ARGS+=	--disable-jpeg
 .endif

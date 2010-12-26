@@ -40,7 +40,7 @@ do-install:
 	${INSTALL} -d -m 0755 ${DESTDIR}/${PREFIX}/libexec/xscreensaver/config
 	${INSTALL_DATA} ${WRKSRC}/electricsheep.xml ${DESTDIR}/${PREFIX}/libexec/xscreensaver/config
 
-.include "../../graphics/jpeg/buildlink3.mk"
+.include "../../mk/jpeg.buildlink3.mk"
 # for libavformat:
 .include "../../multimedia/ffmpeg/buildlink3.mk"
 .include "../../devel/libglade/buildlink3.mk"

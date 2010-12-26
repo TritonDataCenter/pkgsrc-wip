@@ -23,7 +23,7 @@ do-install:
 
 .include "../../devel/zlib/buildlink3.mk"
 .include "../../graphics/tiff/buildlink3.mk"
-.include "../../graphics/jpeg/buildlink3.mk"
+.include "../../mk/jpeg.buildlink3.mk"
 .include "../../graphics/png/buildlink3.mk"
 .include "../../mk/motif.buildlink3.mk"
 .include "../../mk/x11.buildlink3.mk"

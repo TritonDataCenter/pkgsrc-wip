@@ -22,5 +22,5 @@ GNU_CONFIGURE=		yes
 .include "../../graphics/freetype2/buildlink3.mk"
 .include "../../wip/alsa-lib/buildlink3.mk"
 .include "../../graphics/png/buildlink3.mk"
-.include "../../graphics/jpeg/buildlink3.mk"
+.include "../../mk/jpeg.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

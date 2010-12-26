@@ -27,7 +27,7 @@ INSTALL_MAKE_FLAGS+=	mandir=${DESTDIR}/${PREFIX}/${PKGMANDIR}
 
 BUILDLINK_INCDIRS.fontconfig=	include/fontconfig
 .include "../../fonts/fontconfig/buildlink3.mk"
-.include "../../graphics/jpeg/buildlink3.mk"
+.include "../../mk/jpeg.buildlink3.mk"
 .include "../../graphics/libungif/buildlink3.mk"
 .include "../../multimedia/ming/buildlink3.mk"
 .include "../../devel/zlib/buildlink3.mk"

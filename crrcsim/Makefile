@@ -22,6 +22,6 @@ USE_LANGUAGES=	c c++
 .include "../../audio/portaudio/buildlink3.mk"
 .include "../../games/plib/buildlink3.mk"
 .include "../../devel/SDL/buildlink3.mk"
-.include "../../graphics/jpeg/buildlink3.mk"
+.include "../../mk/jpeg.buildlink3.mk"
 .include "../../mk/pthread.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

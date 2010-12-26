@@ -15,6 +15,6 @@ GNU_CONFIGURE=	yes
 USE_TOOLS+=			pkg-config gmake
 
 .include "../../x11/gtk2/buildlink3.mk"
-.include "../../graphics/jpeg/buildlink3.mk"
+.include "../../mk/jpeg.buildlink3.mk"
 .include "../../sysutils/desktop-file-utils/desktopdb.mk"
 .include "../../mk/bsd.pkg.mk"

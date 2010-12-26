@@ -18,7 +18,7 @@ USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 CONFIGURE_ENV+=		have_lrelease=${QTDIR}/bin/lrelease
 # for broken jpeg detection
-CONFIGURE_ARGS+=	--with-extra-includes=${BUILDLINK_PREFIX.jpeg}/include
+CONFIGURE_ARGS+=	--with-extra-includes=${JPEGBASE}/include
 CPPFLAGS+=		-I${BUILDLINK_PREFIX.commoncpp2}/include/cc++2
 
 SUBST_CLASSES+=		boost

@@ -130,7 +130,7 @@ CONFIGURE_ARGS+=	--disable-ac3passthrough
 .endif
 
 .if !empty(PKG_OPTIONS:Mjpeg)
-.include "../../graphics/jpeg/buildlink3.mk"
+.include "../../mk/jpeg.buildlink3.mk"
 PLIST.jpeg=		yes
 .endif
 

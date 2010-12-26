@@ -74,7 +74,7 @@ pre-configure:
 .include "../../graphics/glu/buildlink3.mk"
 .include "../../graphics/glew/buildlink3.mk"
 .include "../../audio/libmad/buildlink3.mk"
-.include "../../graphics/jpeg/buildlink3.mk"
+.include "../../mk/jpeg.buildlink3.mk"
 .include "../../audio/libsamplerate/buildlink3.mk"
 .include "../../databases/mysql5-client/buildlink3.mk"
 .include "../../archivers/lzo/buildlink3.mk"

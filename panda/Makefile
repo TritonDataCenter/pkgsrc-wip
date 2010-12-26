@@ -27,7 +27,7 @@ post-extract:
 	cp ${FILESDIR}/* ${WRKSRC}/config/
 
 .include "../../graphics/tiff/buildlink3.mk"
-.include "../../graphics/jpeg/buildlink3.mk"
+.include "../../mk/jpeg.buildlink3.mk"
 .include "../../graphics/png/buildlink3.mk"
 .include "../../databases/edb/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

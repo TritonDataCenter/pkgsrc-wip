@@ -34,7 +34,7 @@ post-patch:
 	${SED} < ${WRKSRC}/electricsheep.c.orig > ${WRKSRC}/electricsheep.c \
 		-e 's|/usr/local/share|${DESTDIR}/${PREFIX}/share/electricsheep|'
 
-.include "../../graphics/jpeg/buildlink3.mk"
+.include "../../mk/jpeg.buildlink3.mk"
 .include "../../graphics/png/buildlink3.mk"
 .include "../../graphics/tiff/buildlink3.mk"
 .include "../../devel/SDL/buildlink3.mk"

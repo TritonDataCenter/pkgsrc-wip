@@ -32,5 +32,5 @@ SUBST_SED.share=	-e 's|install -D|${INSTALL_DATA:Q}|'
 .include "../../devel/SDL/buildlink3.mk"
 .include "../../devel/ncurses/buildlink3.mk"
 .include "../../graphics/SDL_image/buildlink3.mk"
-.include "../../graphics/jpeg/buildlink3.mk"
+.include "../../mk/jpeg.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

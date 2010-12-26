@@ -79,7 +79,7 @@ PLIST_SUBST+=	X11ONLY=""
 .include "../../mk/oss.buildlink3.mk"
 
 .include "../../databases/gdbm/buildlink3.mk"
-.include "../../graphics/jpeg/buildlink3.mk"
+.include "../../mk/jpeg.buildlink3.mk"
 .include "../../graphics/png/buildlink3.mk"
 .include "../../graphics/tiff/buildlink3.mk"
 .include "../../x11/libXpm/buildlink3.mk"

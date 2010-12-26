@@ -64,7 +64,7 @@ CONFIGURE_ARGS+=	--with-tiff
 CONFIGURE_ARGS+=	--with-gif
 CONFIGURE_ARGS+=	--with-png
 
-.include "../../graphics/jpeg/buildlink3.mk"
+.include "../../mk/jpeg.buildlink3.mk"
 .include "../../graphics/tiff/buildlink3.mk"
 .include "../../graphics/libungif/buildlink3.mk"
 .include "../../graphics/png/buildlink3.mk"

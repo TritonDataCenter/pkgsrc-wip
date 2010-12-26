@@ -35,6 +35,6 @@ do-install:
 .include "../../lang/erlang/buildlink3.mk"
 BUILDLINK_API_DEPENDS.erlang+=	erlang>=10
 .include "../../wip/esdl/buildlink3.mk"
-.include "../../graphics/jpeg/buildlink3.mk"
+.include "../../mk/jpeg.buildlink3.mk"
 .include "../../mk/x11.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

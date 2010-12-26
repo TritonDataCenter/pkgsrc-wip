@@ -19,5 +19,5 @@ USE_LIBTOOL=	yes
 USE_TOOLS=	gmake pkg-config
 
 .include "../../wip/ecore/buildlink3.mk"
-.include "../../graphics/jpeg/buildlink3.mk"
+.include "../../mk/jpeg.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

@@ -32,7 +32,7 @@ PKG_SUGGESTED_OPTIONS=	\
 .endif
 
 .if !empty(PKG_OPTIONS:Mjpeg)
-.include "../../graphics/jpeg/buildlink3.mk"
+.include "../../mk/jpeg.buildlink3.mk"
 .endif
 
 .if !empty(PKG_OPTIONS:Mfreetype)

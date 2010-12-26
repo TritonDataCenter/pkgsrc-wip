@@ -54,7 +54,7 @@ CONFIGURE_ARGS= --sysconfdir=${EGDIR:Q} \
 .include "../../textproc/py-xml/buildlink3.mk"
 .include "../../x11/py-qt3-base/buildlink3.mk"
 .include "../../devel/py-readline/buildlink3.mk"
-.include "../../graphics/jpeg/buildlink3.mk"
+.include "../../mk/jpeg.buildlink3.mk"
 .include "../../graphics/sane-backends/buildlink3.mk"
 .include "../../print/cups/buildlink3.mk"
 .include "../../devel/libusb/buildlink3.mk"

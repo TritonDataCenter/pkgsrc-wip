@@ -32,7 +32,7 @@ do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/src/loader/.libs/yafray ${PREFIX}/bin
 	${INSTALL_PROGRAM} ${WRKSRC}/src/yafraycore/.libs/libyafraycore.so ${PREFIX}/lib
 
-.include "../../graphics/jpeg/buildlink3.mk"
+.include "../../mk/jpeg.buildlink3.mk"
 .include "../../devel/zlib/buildlink3.mk"
 
 .include "../../mk/pthread.buildlink3.mk"

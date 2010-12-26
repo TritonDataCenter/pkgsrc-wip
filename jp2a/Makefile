@@ -30,7 +30,7 @@ CONFIGURE_ARGS+=	--disable-curl
 CONFIGURE_ARGS+=	--disable-termlib
 .endif
 
-.include "../../graphics/jpeg/buildlink3.mk"
+.include "../../mk/jpeg.buildlink3.mk"
 
 .if !empty(PKG_OPTIONS:Mcurl)
 .include "../../www/curl/buildlink3.mk"

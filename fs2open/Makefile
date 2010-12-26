@@ -29,7 +29,7 @@ do-install:
 .include "../../audio/libvorbis/buildlink3.mk"
 .include "../../audio/openal/buildlink3.mk"
 .include "../../devel/SDL/buildlink3.mk"
-.include "../../graphics/jpeg/buildlink3.mk"
+.include "../../mk/jpeg.buildlink3.mk"
 .include "../../graphics/png/buildlink3.mk"
 .include "../../lang/lua/buildlink3.mk"
 .include "../../multimedia/libtheora/buildlink3.mk"

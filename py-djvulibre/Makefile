@@ -25,5 +25,5 @@ PYDISTUTILSPKG=	yes
 .include "../../lang/python/extension.mk"
 .include "../../devel/py-cython/buildlink3.mk"
 .include "../../graphics/djvulibre-lib/buildlink3.mk"
-.include "../../graphics/jpeg/buildlink3.mk"
+.include "../../mk/jpeg.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

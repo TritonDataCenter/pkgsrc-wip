@@ -19,7 +19,7 @@ WRKSRC=			${WRKDIR}/flam3/src
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
-.include "../../graphics/jpeg/buildlink3.mk"
+.include "../../mk/jpeg.buildlink3.mk"
 .include "../../graphics/png/buildlink3.mk"
 .include "../../textproc/libxml2/buildlink3.mk"
 .include "../../wip/mk/svn-package.mk"

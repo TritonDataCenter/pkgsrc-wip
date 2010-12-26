@@ -30,6 +30,6 @@ do-install:
 
 
 .include 	"../../graphics/ImageMagick/buildlink3.mk"
-.include	"../../graphics/jpeg/buildlink3.mk"
+.include	"../../mk/jpeg.buildlink3.mk"
 
 .include "../../mk/bsd.pkg.mk"
