@@ -40,7 +40,7 @@ post-install:
 CVS_REPOSITORIES=	tk
 CVS_ROOT.tk=	:pserver:anonymous:@tktoolkit.cvs.sourceforge.net:/cvsroot/tktoolkit
 WRKSRC=			${WRKDIR}/tk
-CHECKOUT_DATE=		2010-12-23
+CHECKOUT_DATE=		2010-12-27
 
 .include "../mk/cvs-package.mk"
 
