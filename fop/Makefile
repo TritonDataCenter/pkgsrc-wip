@@ -25,8 +25,23 @@ INSTALLATION_DIRS=	share/java/fop
 
 WRKSRC=${WRKDIR}/${PKGNAME}
 
+.include "options.mk"
+
+PLIST_SRC=	${PKGDIR}/PLIST
+
+.if !empty(PKG_OPTIONS:Mfop-docs)
+PLIST_SRC+=	${PKGDIR}/PLIST.docs
+.endif
+
+post-extract:
+.if empty(PKG_OPTIONS:Mfop-docs)
+.for _dir in docs javadocs
+	cd ${WRKSRC} && ${RM} -rf ${_dir}
+.endfor
+.endif
+
 do-install:
-	cd ${WRKSRC} && pax -rw . ${DESTDIR}${PREFIX}/share/java/fop
+	cd ${WRKSRC} && ${PAX} -rw . ${DESTDIR}${PREFIX}/share/java/fop
 	${LN} -sf ${DESTDIR}${PREFIX}/share/java/fop/fop ${DESTDIR}${PREFIX}/bin
 
 .include "../../mk/java-vm.mk"
