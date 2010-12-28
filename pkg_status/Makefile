@@ -12,7 +12,7 @@ COMMENT=	Shows status of installed packages
 LICENSE=	2-clause-bsd
 
 DEPENDS+=	pipestatus-[0-9]*:../../devel/pipestatus
-DEPENDS+=	pkg_summary-utils>=0.46:../../wip/pkg_summary-utils
+DEPENDS+=	pkg_summary-utils>=0.50beta4:../../wip/pkg_summary-utils
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
