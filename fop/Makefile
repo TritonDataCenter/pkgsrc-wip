@@ -27,6 +27,7 @@ WRKSRC=${WRKDIR}/${PKGNAME}
 
 do-install:
 	cd ${WRKSRC} && pax -rw . ${DESTDIR}${PREFIX}/share/java/fop
+	${LN} -sf ${DESTDIR}${PREFIX}/share/java/fop/fop ${DESTDIR}${PREFIX}/bin
 
 .include "../../mk/java-vm.mk"
 .include "../../mk/bsd.pkg.mk"
