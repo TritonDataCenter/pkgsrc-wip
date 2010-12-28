@@ -21,9 +21,9 @@ pkg_refresh_summary \- refreshes the pkg_summary
 .BI pkg_refresh_summary " [OPTIONS] [files...]"
 .SH DESCRIPTION
 .B pkg_refresh_summary
-refreshes pkg_summary, that is
-for each PKGPATH:PKGBASE pair present in summary it outputs
-an information only about newest version.
+pkg_refresh_summary - refreshes pkg_summary, that is for each
+(PKGPATH,PKGBASE) pair present on input it outputs summaries about
+newest packages only.  Duplicated summaries are also removed.
 .SH OPTIONS
 .TP
 .BR "-h"
