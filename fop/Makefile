@@ -18,7 +18,7 @@ USE_JAVA=	run
 USE_TOOLS+=	pax
 NO_CONFIGURE=	yes
 NO_BUILD=	yes
-INSTALLATION_DIRS=	share/java/fop
+INSTALLATION_DIRS=	bin share/java/fop
 
 .include "../../mk/bsd.prefs.mk"
 
@@ -41,7 +41,7 @@ post-extract:
 
 do-install:
 	cd ${WRKSRC} && ${PAX} -rw . ${DESTDIR}${PREFIX}/share/java/fop
-	${LN} -sf ${DESTDIR}${PREFIX}/share/java/fop/fop ${DESTDIR}${PREFIX}/bin
+	${LN} -sf ../share/java/fop/fop ${DESTDIR}${PREFIX}/bin
 
 .include "../../mk/java-vm.mk"
 .include "../../mk/bsd.pkg.mk"
