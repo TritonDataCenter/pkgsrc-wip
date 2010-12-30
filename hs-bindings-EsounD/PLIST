@@ -1,0 +1,8 @@
+@comment $NetBSD$
+lib/bindings-EsounD-${PKGVERSION}/${HASKELL_VERSION}/Bindings/EsounD.hi
+lib/bindings-EsounD-${PKGVERSION}/${HASKELL_VERSION}/Bindings/EsounD.p_hi
+lib/bindings-EsounD-${PKGVERSION}/${HASKELL_VERSION}/HSbindings-EsounD-${PKGVERSION}.o
+lib/bindings-EsounD-${PKGVERSION}/${HASKELL_VERSION}/libHSbindings-EsounD-${PKGVERSION}.a
+lib/bindings-EsounD-${PKGVERSION}/${HASKELL_VERSION}/libHSbindings-EsounD-${PKGVERSION}_p.a
+lib/bindings-EsounD-${PKGVERSION}/${HASKELL_VERSION}/package-description
+share/doc/bindings-EsounD-${PKGVERSION}/COPYING
