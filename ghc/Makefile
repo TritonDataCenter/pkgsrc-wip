@@ -178,6 +178,9 @@ do-configure:
 #	${RUN} ${ECHO} "GhcRtsCcOpts = -O0 -g" >> ${WRKSRC}/mk/build.mk
 #.endif
 
+# Substitutions for INSTALL and DEINSTALL.
+FILES_SUBST+=	DISTNAME=${DISTNAME}
+
 # Some unused scripts don't pass the portability test.
 CHECK_PORTABILITY_SKIP+=	distrib/prep-bin-dist-mingw
 
