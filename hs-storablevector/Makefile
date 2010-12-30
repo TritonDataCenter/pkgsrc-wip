@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	storablevector-0.2.7
+PKGREVISION=	1
 CATEGORIES=	devel
 
 MAINTAINER=	pho@cielonegro.org
