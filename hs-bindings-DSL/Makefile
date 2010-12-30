@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	bindings-DSL-1.0.6
+DISTNAME=	bindings-DSL-1.0.8
 CATEGORIES=	devel
 
 MAINTAINER=	pho@cielonegro.org
