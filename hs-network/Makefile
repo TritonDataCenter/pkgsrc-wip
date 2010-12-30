@@ -1,11 +1,11 @@
 # $NetBSD$
 #
 
-DISTNAME=	network-2.2.1.5
+DISTNAME=	network-2.3
 CATEGORIES=	net
 
 MAINTAINER=	pho@cielonegro.org
-COMMENT=	Haskell networking-related facilities
+COMMENT=	Haskell Low-level networking interface
 LICENSE=	modified-bsd
 
 .include "../../wip/mk/haskell.mk"
