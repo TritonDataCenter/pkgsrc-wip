@@ -2,6 +2,8 @@
 lib/QuickCheck-${PKGVERSION}/${HASKELL_VERSION}/HSQuickCheck-${PKGVERSION}.o
 lib/QuickCheck-${PKGVERSION}/${HASKELL_VERSION}/Test/QuickCheck.hi
 lib/QuickCheck-${PKGVERSION}/${HASKELL_VERSION}/Test/QuickCheck.p_hi
+lib/QuickCheck-${PKGVERSION}/${HASKELL_VERSION}/Test/QuickCheck/All.hi
+lib/QuickCheck-${PKGVERSION}/${HASKELL_VERSION}/Test/QuickCheck/All.p_hi
 lib/QuickCheck-${PKGVERSION}/${HASKELL_VERSION}/Test/QuickCheck/Arbitrary.hi
 lib/QuickCheck-${PKGVERSION}/${HASKELL_VERSION}/Test/QuickCheck/Arbitrary.p_hi
 lib/QuickCheck-${PKGVERSION}/${HASKELL_VERSION}/Test/QuickCheck/Exception.hi
