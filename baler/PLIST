@@ -1,0 +1,4 @@
+@comment $NetBSD$
+bin/baler
+bin/baler.rb
+share/doc/baler/README.rst
