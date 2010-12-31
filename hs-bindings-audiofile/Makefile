@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	bindings-audiofile-0.1.0.1
+DISTNAME=	bindings-audiofile-0.1.0.2
 CATEGORIES=	audio
 
 MAINTAINER=	pho@cielonegro.org
