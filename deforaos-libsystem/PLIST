@@ -19,3 +19,4 @@ lib/libSystem.a
 lib/libSystem.so
 lib/libSystem.so.0
 lib/libSystem.so.0.0
+lib/pkgconfig/libSystem.pc
