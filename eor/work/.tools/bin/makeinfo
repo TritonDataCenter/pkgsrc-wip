@@ -1,5 +1,0 @@
-#!/bin/sh
-wrapperlog="${TOOLS_WRAPPER_LOG-/usr/pkgsrc/wip/eor/work/.work.log}"
-echo "[*] "/usr/pkgsrc/wip/eor/work/.tools/bin/makeinfo" $@" >> $wrapperlog
-echo "<.> for arg in "$@"; do case "$arg" in --version) exit 1 ;; esac; done; /usr/pkgsrc/mk/gnu-config/missing makeinfo "$@"" >> $wrapperlog
-for arg in "$@"; do case "$arg" in --version) exit 1 ;; esac; done; /usr/pkgsrc/mk/gnu-config/missing makeinfo "$@"

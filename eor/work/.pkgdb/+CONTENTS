@@ -1,9 +1,0 @@
-@cwd /usr/pkg
-@name eor-1.0.1
-@blddep digest-20080510
-@blddep cmake-2.8.1nb1
-@blddep gmake-3.82nb1
-@blddep unzip-6.0
-@comment $NetBSD$
-bin/eor
-@comment MD5:883eb640edc1a58bf5785ad4ccd7d979
