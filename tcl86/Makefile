@@ -53,7 +53,7 @@ post-install:
 CVS_REPOSITORIES=	tcl
 CVS_ROOT.tcl=		:pserver:anonymous:@tcl.cvs.sourceforge.net:/cvsroot/tcl
 WRKSRC=			${WRKDIR}/tcl
-CHECKOUT_DATE=		2010-12-27
+CHECKOUT_DATE=		2010-12-31
 
 .include "../mk/cvs-package.mk"
 
