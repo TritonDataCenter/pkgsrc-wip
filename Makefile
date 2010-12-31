@@ -1189,6 +1189,7 @@ SUBDIR+=	libraw1394
 SUBDIR+=	libscscp
 SUBDIR+=	libsidplay2
 SUBDIR+=	libslab
+SUBDIR+=	libspt
 SUBDIR+=	libstacktrace
 SUBDIR+=	libtextcat
 SUBDIR+=	libticables
