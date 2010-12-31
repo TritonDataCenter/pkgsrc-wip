@@ -1825,7 +1825,6 @@ SUBDIR+=	php-suhosin
 SUBDIR+=	php-tclink
 SUBDIR+=	php-tidy
 SUBDIR+=	php-xcache
-SUBDIR+=	php53-fpm
 SUBDIR+=	picasm
 SUBDIR+=	picocom
 SUBDIR+=	picosat
