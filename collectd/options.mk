@@ -17,7 +17,7 @@ PKG_SUPPORTED_OPTIONS+=		target_notification target_replace target_scale
 PKG_SUPPORTED_OPTIONS+=		target_set tcpconns teamspeak2 ted
 PKG_SUPPORTED_OPTIONS+=		unixsock uptime users uuid write_http
 
-PKG_SUGGESTED_OPTIONS+=		rrdtool curl libstatgrab
+PKG_SUGGESTED_OPTIONS+=		rrdtool curl libstatgrab df interface cpu csv load memory swap syslog network uptime users
 .include "../../mk/bsd.options.mk"
 
 #rrdtool
