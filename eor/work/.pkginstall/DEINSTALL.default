@@ -1,0 +1,184 @@
+#!/bin/sh
+#
+# $NetBSD: header,v 1.2 2006/07/19 22:26:26 jlam Exp $
+
+SELF="$0"
+PKGNAME="$1"
+STAGE="$2"
+shift 2
+
+AWK="/usr/bin/awk"
+BASENAME="/usr/bin/basename"
+CAT="/bin/cat"
+CHGRP="/usr/bin/chgrp"
+CHMOD="/bin/chmod"
+CHOWN="/usr/sbin/chown"
+CMP="/usr/bin/cmp"
+CP="/bin/cp"
+DIRNAME="/usr/bin/dirname"
+ECHO="echo"
+ECHO_N="echo -n"
+EGREP="/usr/bin/egrep"
+EXPR="/bin/expr"
+FALSE="false"
+FIND="/usr/bin/find"
+GREP="/usr/bin/grep"
+GTAR=""
+HEAD="/usr/bin/head"
+ID="/usr/bin/id"
+LINKFARM="/usr/sbin/linkfarm"
+LN="/bin/ln"
+LS="/bin/ls"
+MKDIR="/bin/mkdir -p"
+MV="/bin/mv"
+PERL5="/usr/pkg/bin/perl"
+PKG_ADMIN="/usr/sbin/pkg_admin"
+PKG_INFO="/usr/sbin/pkg_info"
+PWD_CMD="/bin/pwd"
+RM="/bin/rm"
+RMDIR="/bin/rmdir"
+SED="/usr/bin/sed"
+SETENV="/usr/bin/env"
+SH="/bin/sh"
+SORT="/usr/bin/sort"
+SU="/usr/bin/su"
+TEST="test"
+TOUCH="/usr/bin/touch"
+TR="/usr/bin/tr"
+TRUE="true"
+XARGS="/usr/bin/xargs"
+
+CURDIR=`${PWD_CMD}`
+: ${PKG_METADATA_DIR=${CURDIR}}
+PKGBASE="eor"
+
+LOCALBASE="/usr/pkg"
+X11BASE="/usr/X11R7"
+DEPOTBASE="/usr/pkg/packages"
+PREFIX="/usr/pkg"
+case ${PKG_PREFIX} in
+${LOCALBASE}/*)	VIEW="${PKG_PREFIX#${LOCALBASE}/}" ;;
+*)		VIEW="" ;;
+esac
+
+PKG_SYSCONFBASE="/usr/pkg/etc"
+PKG_SYSCONFDEPOTBASE=""
+PKG_SYSCONFBASEDIR="/usr/pkg/etc"
+PKG_SYSCONFDIR="/usr/pkg/etc"
+CONF_DEPENDS=""
+
+case ${VIEW} in
+"")	PKG_SYSCONFVIEWBASE="${PKG_SYSCONFBASE}" ;;
+*)	PKG_SYSCONFVIEWBASE="${PKG_SYSCONFBASE}/${VIEW}" ;;
+esac
+
+CONF_IGNORE_FILES="*[~#] *.OLD *.orig *,v .pkgsrc */.pkgsrc"
+
+PKG_INSTALLATION_TYPE="overwrite"
+
+case "${PKG_CONFIG:-YES}" in
+[Yy][Ee][Ss]|[Tt][Rr][Uu][Ee]|[Oo][Nn]|1)
+	_PKG_CONFIG=yes
+	;;
+[Nn][Oo]|[Ff][Aa][Ll][Ss][Ee]|[Oo][Ff][Ff]|0)
+	_PKG_CONFIG=yes
+	;;
+esac
+
+# $NetBSD: deinstall-pre,v 1.1 2006/05/21 23:50:15 jlam Exp $
+
+# Ensure that the VIEW-DEINSTALL action is called for overwrite packages.
+# This is here to ensure that it's the first DEINSTALL action (before
+# any DEINSTALL_TEMPLATE DEINSTALL actions).
+#
+case ${STAGE} in
+DEINSTALL)
+	if [ "${PKG_INSTALLATION_TYPE}" = "overwrite" ]; then
+		${SETENV} PKG_PREFIX="${PKG_PREFIX}" \
+			$0 ${PKGNAME} VIEW-DEINSTALL
+        fi
+	;;
+esac
+
+# $NetBSD: deinstall,v 1.2 2007/07/18 18:01:03 jlam Exp $
+
+case ${STAGE} in
+VIEW-DEINSTALL)
+	case ${_PKG_CONFIG} in
+	yes)
+		case ${PKG_SYSCONFDEPOTBASE} in
+		"")
+			${TEST} ! -x ./+FILES ||
+				./+FILES VIEW-REMOVE ${PREFIX} ${PKG_PREFIX}
+			;;
+		*)
+			${SETENV} PLIST_IGNORE_FILES="${CONF_IGNORE_FILES}" \
+				${LINKFARM} -D -t ${PKG_SYSCONFVIEWBASE} -d ${PKG_SYSCONFDEPOTBASE} ${PKGNAME}
+			${RMDIR} -p ${PKG_SYSCONFVIEWBASE} 2>/dev/null || ${TRUE}
+			;;
+		esac
+		;;
+	esac
+	#
+	# Unregister info files.
+	#
+	${TEST} ! -x ./+INFO_FILES ||
+		./+INFO_FILES REMOVE ${PKG_METADATA_DIR}
+	#
+	# Remove shells from /etc/shells.
+	#
+	${TEST} ! -x ./+SHELL ||
+		./+SHELL REMOVE ${PKG_METADATA_DIR}
+	${TEST} ! -x ./+SHELL ||
+		./+SHELL CHECK-REMOVE ${PKG_METADATA_DIR}
+	;;
+
+DEINSTALL)
+	# Remove configuration files if they don't differ from the default
+	# config file.
+	#
+	${TEST} ! -x ./+FILES ||
+		./+FILES REMOVE ${PKG_METADATA_DIR}
+	;;
+
+POST-DEINSTALL)
+	if [ "${PKG_INSTALLATION_TYPE}" = "pkgviews" -a			\
+	     "${_PKG_CONFIG}" = "yes" -a -n "${CONF_DEPENDS}" ]; then
+		if [ -h ${PKG_SYSCONFDIR} ]; then
+			${RM} -f ${PKG_SYSCONFDIR}
+		fi
+		${RMDIR} -p `${DIRNAME} ${PKG_SYSCONFDIR}` 2>/dev/null || ${TRUE}
+	fi
+	#
+	# Update any fonts databases.
+	#
+	${TEST} ! -x ./+FONTS ||
+		./+FONTS ${PKG_METADATA_DIR}
+	#
+	# Rebuild the system run-time library search path database.
+	#
+	${TEST} ! -x ./+SHLIBS ||
+		./+SHLIBS REMOVE ${PKG_METADATA_DIR}
+	#
+	# Remove empty directories and unused users/groups.
+	#
+	${TEST} ! -x ./+DIRS ||
+		./+DIRS REMOVE ${PKG_METADATA_DIR}
+	${TEST} ! -x ./+USERGROUP ||
+		./+USERGROUP REMOVE ${PKG_METADATA_DIR}
+	#
+	# Check for any existing bits after we're finished de-installing.
+	#
+	${TEST} ! -x ./+USERGROUP ||
+		./+USERGROUP CHECK-REMOVE ${PKG_METADATA_DIR}
+	${TEST} ! -x ./+FILES ||
+		./+FILES CHECK-REMOVE ${PKG_METADATA_DIR}
+	${TEST} ! -x ./+DIRS ||
+		./+DIRS CHECK-REMOVE ${PKG_METADATA_DIR}
+	;;
+esac
+
+# $NetBSD: footer,v 1.1 2006/05/21 23:50:15 jlam Exp $
+
+exit 0
+

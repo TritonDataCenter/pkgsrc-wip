@@ -1,0 +1,5 @@
+#!/bin/sh
+wrapperlog="${TOOLS_WRAPPER_LOG-/usr/pkgsrc/wip/eor/work/.work.log}"
+echo "[*] "/usr/pkgsrc/wip/eor/work/.tools/bin/perl" $@" >> $wrapperlog
+echo "<.> echo >> /usr/pkgsrc/wip/eor/work/.warning/perl "Please add USE_TOOLS+=perl to the package Makefile.";  /bin/sh /usr/pkgsrc/mk/scripts/fail echo 1>&2 "ERROR:" "To use this tool, add USE_TOOLS+=perl to the package Makefile."" >> $wrapperlog
+echo >> /usr/pkgsrc/wip/eor/work/.warning/perl "Please add USE_TOOLS+=perl to the package Makefile.";  /bin/sh /usr/pkgsrc/mk/scripts/fail echo 1>&2 "ERROR:" "To use this tool, add USE_TOOLS+=perl to the package Makefile."

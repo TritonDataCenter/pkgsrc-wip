@@ -1,0 +1,5 @@
+#!/bin/sh
+wrapperlog="${TOOLS_WRAPPER_LOG-/usr/pkgsrc/wip/eor/work/.work.log}"
+echo "[*] "/usr/pkgsrc/wip/eor/work/.tools/bin/intltool-extract" $@" >> $wrapperlog
+echo "<.> exit 1" >> $wrapperlog
+exit 1

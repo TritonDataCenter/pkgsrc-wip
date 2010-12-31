@@ -1,0 +1,5 @@
+while ! queue_is_empty cmdbuf; do
+	pop_queue cmdbuf arg
+	$debug_log $wrapperlog "    (cmd-sink) pop: $arg"
+	. $buildcmd
+done

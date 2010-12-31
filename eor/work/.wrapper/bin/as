@@ -1,0 +1,85 @@
+#! /bin/sh
+empty_file=""
+arg_pp="/usr/pkgsrc/wip/eor/work/.wrapper/tmp/empty"
+arg_pp_main="/usr/pkgsrc/wip/eor/work/.wrapper/tmp/arg-pp-main"
+arg_source="/usr/pkgsrc/wip/eor/work/.wrapper/tmp/arg-source"
+buildcmd="/usr/pkgsrc/wip/eor/work/.wrapper/tmp/buildcmd"
+cache="/usr/pkgsrc/wip/eor/work/.wrapper/tmp/cache"
+cache_body="/usr/pkgsrc/wip/eor/work/.wrapper/tmp/cache-body"
+cleanup="/usr/pkgsrc/wip/eor/work/.wrapper/tmp/empty"
+cmd_sink="/usr/pkgsrc/wip/eor/work/.wrapper/tmp/cmd-sink"
+logic="/usr/pkgsrc/wip/eor/work/.wrapper/tmp/logic"
+reorderlibs="/usr/pkgsrc/wip/eor/work/.wrapper/tmp/reorderlibs"
+shell_lib="/usr/pkgsrc/wip/eor/work/.wrapper/tmp/shell-lib"
+scan="/usr/pkgsrc/wip/eor/work/.wrapper/tmp/scan"
+transform="/usr/pkgsrc/wip/eor/work/.wrapper/tmp/empty"
+transform_sed=" -f /usr/pkgsrc/wip/eor/work/.wrapper/tmp/transform.sed"
+wrapper_subr_sh="/usr/pkgsrc/wip/eor/work/.wrapper/tmp/wrapper-subr.sh"
+wrapper_abi=""		# see ABI in mk/defaults/mk.conf
+wrapper_type="AS"	# one of AS, CC, CXX, FC, IMAKE, LD, LIBTOOL.
+wrapperlog="${WRAPPER_LOG-/usr/pkgsrc/wip/eor/work/.work.log}"
+skip_transform="${WRAPPER_SKIP_TRANSFORM-no}"
+debug="${WRAPPER_DEBUG-no}"
+cat="/bin/cat"
+echo="echo"
+expr="/bin/expr"
+mv="/bin/mv"
+sed="/usr/bin/sed"
+test="test"
+Xsed="$sed -e 1s/^X//"
+. $shell_lib
+. "$wrapper_subr_sh"
+updatecache=${WRAPPER_UPDATE_CACHE-yes}
+reorder=${WRAPPER_REORDER-no}
+case $debug in
+yes)	debug_log="msg_log" ;;
+*)	debug_log=":" ;;
+esac
+qcmd="$0"; for arg in ${1+"$@"}; do shquote "$arg"; qcmd="$qcmd $shquoted"; done
+msg_log "$wrapperlog" "[*] $0 $qcmd"
+cmd="/usr/bin/as"
+case "$*" in
+--wrappee-name) $echo $cmd ; exit ;;
+esac
+libs=""
+rellpath=""
+do_transform=yes
+init_queue argbuf
+init_queue cmdbuf
+append_extra_args=yes
+. $scan
+case $append_extra_args in
+yes)
+	$debug_log $wrapperlog "    (wrapper.sh) append args: "
+	set -- "$@" 
+	;;
+*)
+	;;
+esac
+. $arg_source
+. $logic
+. $cmd_sink
+case $reorder in
+yes)
+	if $test -n "$libs"; then
+		. $reorderlibs
+	fi
+	;;
+esac
+cmd="$cmd $libs"
+PATH="/usr/pkgsrc/wip/eor/work/.buildlink/bin:/usr/pkgsrc/wip/eor/work/.gcc/bin:/usr/pkgsrc/wip/eor/work/.tools/bin:/usr/pkg/bin:/home/honza/bin:/home/honza/local/local/bin:/bin:/sbin:/usr/bin:/usr/sbin:/usr/X11R7/bin:/usr/X11R6/bin:/usr/pkg/bin:/usr/pkg/sbin:/usr/games:/usr/local/bin:/usr/local/sbin"; export PATH
+msg_log $wrapperlog "<.>" "$cmd"
+if [ "${empty_file}" = "${cleanup}" ] && [ "$debug" != "yes" ]; then
+	eval "exec $cmd"
+	wrapper_results=$?
+else
+	wrapper_result=0
+	eval "$cmd" || wrapper_result="$?"
+fi
+. $cleanup
+[ $wrapper_result -eq 0 ] || [ "$debug" != "yes" ] || {
+	echo ""
+	echo "[wrapper.sh] note: The real command line, after the pkgsrc wrapper, was:"
+	echo "$cmd"
+} 1>&2
+exit ${wrapper_result}

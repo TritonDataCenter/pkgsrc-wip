@@ -1,0 +1,1 @@
+/usr/pkgsrc/wip/eor/work/.wrapper/bin/cc  -O2 -O3 -msse3 -mfpmath=sse   -Wl,-R/usr/pkg/lib CMakeFiles/eor.dir/eor.c.o  -o eor  

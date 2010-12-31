@@ -1,0 +1,4 @@
+bootstrap	digest>=20010302	digest-20080510
+build	cmake>=2.8.1nb1	cmake-2.8.1nb1
+build	gmake>=3.81	gmake-3.82nb1
+build	unzip-[0-9]*	unzip-6.0

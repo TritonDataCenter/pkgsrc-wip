@@ -1,0 +1,4 @@
+bootstrap	digest>=20010302	../../pkgtools/digest
+build	cmake>=2.8.1nb1	../../devel/cmake
+build	gmake>=3.81	../../devel/gmake
+build	unzip-[0-9]*	../../archivers/unzip

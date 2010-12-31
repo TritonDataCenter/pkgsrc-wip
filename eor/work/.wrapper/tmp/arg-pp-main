@@ -1,0 +1,95 @@
+case $arg in
+/*/lib*.so|/*/lib*.so.[0-9]*)
+	dir="${arg%/lib*}"
+	lib="${arg#$dir/lib}"
+	case $lib in
+	*/*)		argok=yes; argmatch=yes ;;
+	*.so)		lib="${lib%.so}" ;;
+	*.so.[0-9]*)	lib="${lib%.so.[0-9]*}" ;;
+	esac
+	case $argmatch in
+	yes)	;;
+	*)	prepend_queue argbuf "-l$lib"
+		$debug_log $wrapperlog "    (arg-pp-main) pre:  -l$lib"
+		prepend_queue argbuf "-L$dir"
+		$debug_log $wrapperlog "    (arg-pp-main) pre:  -L$dir"
+		argmatch=yes
+		;;
+	esac
+	;;
+/*/lib*.sl|/*/lib*.sl.[0-9]*)	# HP-UX
+	dir="${arg%/lib*}"
+	lib="${arg#$dir/lib}"
+	case $lib in
+	*/*)		argok=yes; argmatch=yes ;;
+	*.sl)		lib="${lib%.sl}" ;;
+	*.sl.[0-9]*)	lib="${lib%.sl.[0-9]*}" ;;
+	esac
+	case $argmatch in
+	yes)	;;
+	*)	prepend_queue argbuf "-l$lib"
+		$debug_log $wrapperlog "    (arg-pp-main) pre:  -l$lib"
+		prepend_queue argbuf "-L$dir"
+		$debug_log $wrapperlog "    (arg-pp-main) pre:  -L$dir"
+		argmatch=yes
+		;;
+	esac
+	;;
+-Wl,-L,*)
+	arg="-Wl,-L${arg#-Wl,-L,}"
+	$debug_log $wrapperlog "    (arg-pp-main) pre:  $arg"
+	prepend_queue argbuf "$arg"
+	argmatch=yes
+	;;
+-Wl,-R,*)
+	arg="-Wl,-R${arg#-Wl,-R,}"
+	$debug_log $wrapperlog "    (arg-pp-main) pre:  $arg"
+	prepend_queue argbuf "$arg"
+	argmatch=yes
+	;;
+-Wl,-[LR])
+	pop_queue argbuf nextarg
+	$debug_log $wrapperlog "    (arg-pp-main) pop:  $nextarg"
+	nextarg="${nextarg#-Wl,}"
+	$debug_log $wrapperlog "    (arg-pp-main) pre:  $arg$nextarg"
+	prepend_queue argbuf "$arg$nextarg"
+	argmatch=yes
+	;;
+-Wl,-rpath|-Wl,-rpath-link|-Wl,--rpath)
+	pop_queue argbuf nextarg
+	$debug_log $wrapperlog "    (arg-pp-main) pop:  $nextarg"
+	nextarg="${nextarg#-Wl,}"
+	$debug_log $wrapperlog "    (arg-pp-main) pre:  $arg,$nextarg"
+	prepend_queue argbuf "$arg,$nextarg"
+	argmatch=yes
+	;;
+-R[!/]*|-Wl,-R[!/]*|\
+-Wl,-rpath,[!/]*|-Wl,-rpath-link,[!/]*|-Wl,--rpath,[!/]*)
+	$debug_log $wrapperlog "    (arg-pp-main) drop: $arg"
+	argmatch=yes
+	;;
+-l*)
+	head_queue argbuf nextarg
+	while $test "$nextarg" = "$arg"; do
+		pop_queue argbuf nextarg
+		$debug_log $wrapperlog "    (arg-pp-main) drop: $nextarg"
+		if queue_is_empty argbuf; then
+			break
+		else
+			head_queue argbuf nextarg
+		fi
+	done
+	argok=yes
+	argmatch=yes
+	;;
+-o)
+	skipargs=1
+	argok=yes
+	argmatch=yes
+	;;
+--dynamic-linker)
+	skipargs=1
+	argok=yes
+	argmatch=yes
+	;;
+esac

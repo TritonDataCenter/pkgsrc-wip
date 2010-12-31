@@ -1,0 +1,78 @@
+[*] /usr/pkgsrc/wip/eor/work/.tools/bin/true 
+<.> true  
+[*] /usr/pkgsrc/wip/eor/work/.tools/bin/true 
+<.> true  
+[*] /usr/pkgsrc/wip/eor/work/.tools/bin/true 
+<.> true  
+[*] /usr/pkgsrc/wip/eor/work/.tools/bin/true 
+<.> true  
+[*] /usr/pkgsrc/wip/eor/work/.tools/bin/true 
+<.> true  
+[*] /usr/pkgsrc/wip/eor/work/.tools/bin/true 
+<.> true  
+[*] /usr/pkgsrc/wip/eor/work/.tools/bin/true 
+<.> true  
+[*] /usr/pkgsrc/wip/eor/work/.tools/bin/true 
+<.> true  
+[*] /usr/pkgsrc/wip/eor/work/.tools/bin/true 
+<.> true  
+[*] /usr/pkgsrc/wip/eor/work/.tools/bin/true 
+<.> true  
+[*] /usr/pkgsrc/wip/eor/work/.tools/bin/true 
+<.> true  
+[*] /usr/pkgsrc/wip/eor/work/.tools/bin/true 
+<.> true  
+[*] /usr/pkgsrc/wip/eor/work/.tools/bin/true 
+<.> true  
+[*] /usr/pkgsrc/wip/eor/work/.tools/bin/true 
+<.> true  
+[*] /usr/pkgsrc/wip/eor/work/.wrapper/bin/cc /usr/pkgsrc/wip/eor/work/.wrapper/bin/cc -O2 -O3 -msse3 -mfpmath=sse CMakeCCompilerId.c
+WARNING: [transform-gcc] passing unknown option -msse3
+WARNING: [transform-gcc] passing unknown option -mfpmath=sse
+<.> /usr/pkgsrc/wip/eor/work/.gcc/bin/gcc -O2 -O3 -msse3 -mfpmath=sse CMakeCCompilerId.c -I/usr/pkgsrc/wip/eor/work/.buildlink/include -L/usr/pkgsrc/wip/eor/work/.buildlink/lib 
+[*] /usr/pkgsrc/wip/eor/work/.wrapper/bin/cc /usr/pkgsrc/wip/eor/work/.wrapper/bin/cc -O2 -O3 -msse3 -mfpmath=sse -o CMakeFiles/cmTryCompileExec.dir/testCCompiler.c.o -c /usr/pkgsrc/wip/eor/work/eor-1.0.1/CMakeFiles/CMakeTmp/testCCompiler.c
+WARNING: [transform-gcc] passing unknown option -msse3
+WARNING: [transform-gcc] passing unknown option -mfpmath=sse
+<.> /usr/pkgsrc/wip/eor/work/.gcc/bin/gcc -O2 -O3 -msse3 -mfpmath=sse -o CMakeFiles/cmTryCompileExec.dir/testCCompiler.c.o -c /usr/pkgsrc/wip/eor/work/eor-1.0.1/CMakeFiles/CMakeTmp/testCCompiler.c -I/usr/pkgsrc/wip/eor/work/.buildlink/include -L/usr/pkgsrc/wip/eor/work/.buildlink/lib 
+[*] /usr/pkgsrc/wip/eor/work/.wrapper/bin/cc /usr/pkgsrc/wip/eor/work/.wrapper/bin/cc -O2 -O3 -msse3 -mfpmath=sse -Wl,-R/usr/pkg/lib CMakeFiles/cmTryCompileExec.dir/testCCompiler.c.o -o cmTryCompileExec
+WARNING: [transform-gcc] passing unknown option -msse3
+WARNING: [transform-gcc] passing unknown option -mfpmath=sse
+<.> /usr/pkgsrc/wip/eor/work/.gcc/bin/gcc -O2 -O3 -msse3 -mfpmath=sse -Wl,-R/usr/pkg/lib CMakeFiles/cmTryCompileExec.dir/testCCompiler.c.o -o cmTryCompileExec -I/usr/pkgsrc/wip/eor/work/.buildlink/include -L/usr/pkgsrc/wip/eor/work/.buildlink/lib 
+[*] /usr/pkgsrc/wip/eor/work/.wrapper/bin/cc /usr/pkgsrc/wip/eor/work/.wrapper/bin/cc -O2 -O3 -msse3 -mfpmath=sse -o CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o -c /usr/pkg/share/cmake-2.8/Modules/CMakeCCompilerABI.c
+WARNING: [transform-gcc] passing unknown option -msse3
+WARNING: [transform-gcc] passing unknown option -mfpmath=sse
+<.> /usr/pkgsrc/wip/eor/work/.gcc/bin/gcc -O2 -O3 -msse3 -mfpmath=sse -o CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o -c /usr/pkg/share/cmake-2.8/Modules/CMakeCCompilerABI.c -I/usr/pkgsrc/wip/eor/work/.buildlink/include -L/usr/pkgsrc/wip/eor/work/.buildlink/lib 
+[*] /usr/pkgsrc/wip/eor/work/.wrapper/bin/cc /usr/pkgsrc/wip/eor/work/.wrapper/bin/cc -O2 -O3 -msse3 -mfpmath=sse -v CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o -o cmTryCompileExec
+WARNING: [transform-gcc] passing unknown option -msse3
+WARNING: [transform-gcc] passing unknown option -mfpmath=sse
+<.> /usr/pkgsrc/wip/eor/work/.gcc/bin/gcc -O2 -O3 -msse3 -mfpmath=sse -v CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o -o cmTryCompileExec 
+[*] /usr/pkgsrc/wip/eor/work/.tools/bin/true 
+<.> true  
+[*] /usr/pkgsrc/wip/eor/work/.tools/bin/true 
+<.> true  
+[*] /usr/pkgsrc/wip/eor/work/.tools/bin/true 
+<.> true  
+[*] /usr/pkgsrc/wip/eor/work/.tools/bin/true 
+<.> true  
+[*] /usr/pkgsrc/wip/eor/work/.tools/bin/true 
+<.> true  
+[*] /usr/pkgsrc/wip/eor/work/.tools/bin/true 
+<.> true  
+[*] /usr/pkgsrc/wip/eor/work/.wrapper/bin/cc /usr/pkgsrc/wip/eor/work/.wrapper/bin/cc -O2 -O3 -msse3 -mfpmath=sse -o CMakeFiles/eor.dir/eor.c.o -c /usr/pkgsrc/wip/eor/work/eor-1.0.1/eor.c
+WARNING: [transform-gcc] passing unknown option -msse3
+WARNING: [transform-gcc] passing unknown option -mfpmath=sse
+<.> /usr/pkgsrc/wip/eor/work/.gcc/bin/gcc -O2 -O3 -msse3 -mfpmath=sse -o CMakeFiles/eor.dir/eor.c.o -c /usr/pkgsrc/wip/eor/work/eor-1.0.1/eor.c -I/usr/pkgsrc/wip/eor/work/.buildlink/include -L/usr/pkgsrc/wip/eor/work/.buildlink/lib 
+[*] /usr/pkgsrc/wip/eor/work/.wrapper/bin/cc /usr/pkgsrc/wip/eor/work/.wrapper/bin/cc -O2 -O3 -msse3 -mfpmath=sse -Wl,-R/usr/pkg/lib CMakeFiles/eor.dir/eor.c.o -o eor
+WARNING: [transform-gcc] passing unknown option -msse3
+WARNING: [transform-gcc] passing unknown option -mfpmath=sse
+<.> /usr/pkgsrc/wip/eor/work/.gcc/bin/gcc -O2 -O3 -msse3 -mfpmath=sse -Wl,-R/usr/pkg/lib CMakeFiles/eor.dir/eor.c.o -o eor -I/usr/pkgsrc/wip/eor/work/.buildlink/include -L/usr/pkgsrc/wip/eor/work/.buildlink/lib 
+[*] /usr/pkgsrc/wip/eor/work/.tools/bin/true 
+<.> true  
+[*] /usr/pkgsrc/wip/eor/work/.tools/bin/true 
+<.> true  
+[*] /usr/pkgsrc/wip/eor/work/.tools/bin/true 
+<.> true  
+[*] /usr/pkgsrc/wip/eor/work/.tools/bin/true 
+<.> true  
+[*] /usr/pkgsrc/wip/eor/work/.tools/bin/true 
+<.> true  

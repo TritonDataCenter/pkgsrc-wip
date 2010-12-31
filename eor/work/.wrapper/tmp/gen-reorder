@@ -1,0 +1,80 @@
+#! /bin/sh
+shell_lib="/usr/pkgsrc/wip/eor/work/.wrapper/tmp/shell-lib"
+wrapperlog="${WRAPPER_LOG-/usr/pkgsrc/wip/eor/work/.work.log}"
+debug="${WRAPPER_DEBUG-no}"
+cat="/bin/cat"
+. $shell_lib
+case $debug in
+yes)	debug_log="msg_log" ;;
+*)	debug_log=":" ;;
+esac
+gen() {
+	save_IFS="${IFS}"; IFS=":"
+	set -- $1
+	IFS="${save_IFS}"
+	_cmd="$1"; shift
+	case $_cmd in
+	reorder)
+		$debug_log $wrapperlog "    (gen-reorder) $_cmd: $@"
+		case $1 in
+		l)
+			$cat << EOF
+		-l$2)
+			case "\${_libs}" in
+			-l$3|-l$3" "*)
+				_libs="\$l \${_libs}"
+				;;
+			*" "-l$3)
+				_libs="\${_libs%%-l$3}\$l -l$3"
+				;;
+			*" "-l$3" "*)
+				_libs="\${_libs%% -l$3 *} \$l -l$3 \${_libs#* -l$3 }"
+				;;
+			*)
+				_libs="\${_libs} \$l"
+				;;
+			esac
+			;;
+EOF
+			;;
+		esac
+		;;
+	*)
+		$debug_log $wrapperlog "    (gen-reorder) $_cmd: $@ [unknown]"
+		;;
+	esac
+}
+$cat << 'EOF'
+msg_log $wrapperlog "==> Reordering libraries: $libs"
+prevlibs=
+while $test "$libs" != "$prevlibs"; do
+	_libs=
+	for l in $libs; do
+		case $l in
+EOF
+for arg do
+	gen "$arg"
+done
+$cat << 'EOF'
+		*)
+			_libs="${_libs} $l"
+			;;
+		esac
+		_libs="${_libs# }"
+		_libs="${_libs% }"
+	done
+	prevlibs="$libs"
+	libs="${_libs}"
+done
+_libs=
+for l in $libs; do
+	case "${_libs}" in
+	$l|*" "$l) ;;
+	*) _libs="${_libs} $l" ;;
+	esac
+done
+_libs="${_libs# }"
+_libs="${_libs% }"
+libs="${_libs}"
+EOF
+exit 0

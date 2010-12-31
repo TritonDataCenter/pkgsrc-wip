@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/usr/pkgsrc/wip/eor/work/eor-1.0.1/eor.c
+stdio.h
+-
+stdlib.h
+-
+unistd.h
+-
+

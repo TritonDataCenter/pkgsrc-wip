@@ -1,0 +1,5 @@
+#!/bin/sh
+wrapperlog="${TOOLS_WRAPPER_LOG-/usr/pkgsrc/wip/eor/work/.work.log}"
+echo "[*] "/usr/pkgsrc/wip/eor/work/.tools/bin/rpcgen" $@" >> $wrapperlog
+echo "<.> CPP=/usr/pkgsrc/wip/eor/work/.wrapper/bin/cpp /usr/bin/rpcgen -b "$@"" >> $wrapperlog
+CPP=/usr/pkgsrc/wip/eor/work/.wrapper/bin/cpp /usr/bin/rpcgen -b "$@"

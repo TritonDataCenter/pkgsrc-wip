@@ -1,0 +1,5 @@
+#!/bin/sh
+wrapperlog="${TOOLS_WRAPPER_LOG-/usr/pkgsrc/wip/eor/work/.work.log}"
+echo "[*] "/usr/pkgsrc/wip/eor/work/.tools/bin/mkdir" $@" >> $wrapperlog
+echo "<.> /bin/mkdir -p "$@"" >> $wrapperlog
+/bin/mkdir -p "$@"
