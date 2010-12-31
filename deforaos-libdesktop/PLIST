@@ -9,3 +9,4 @@ lib/libDesktop.a
 lib/libDesktop.so
 lib/libDesktop.so.0
 lib/libDesktop.so.0.0
+lib/pkgconfig/libDesktop.pc
