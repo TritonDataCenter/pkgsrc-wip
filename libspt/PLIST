@@ -1,0 +1,6 @@
+@comment $NetBSD$
+bin/libspt-config
+include/libspt.h
+lib/libSPT.la
+libexec/sptagent
+man/man3/libspt.3
