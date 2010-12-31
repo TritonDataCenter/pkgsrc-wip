@@ -21,9 +21,13 @@ CONFIGURE_ARGS+=	--with-libevent-dir=${BUILDLINK_PREFIX.libevent}
 CONFIGURE_ARGS+=	--with-fpm-user=www
 CONFIGURE_ARGS+=	--with-fpm-group=www
 
+RCD_SCRIPTS=		php_fpm
+MESSAGE_SUBST+=		CGIDIR=${CGIDIR:Q}
+MESSAGE_SUBST+=		VARBASE=${VARBASE:Q}
+
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/sapi/fpm/php-fpm ${DESTDIR}${PREFIX}/sbin/php-fpm
-	${INSTALL_MAN} ${WRKSRC}/sapi/fpm/php-fpm.1 ${DESTDIR}${PREFIX}/${PKGMANDIR}/man1
+	${INSTALL_MAN} ${WRKSRC}/sapi/fpm/php-fpm.8 ${DESTDIR}${PREFIX}/${PKGMANDIR}/man8/
 	${INSTALL_DATA} ${WRKSRC}/sapi/fpm/php-fpm.conf ${DESTDIR}${EGDIR}
 
 .include "../../devel/libevent/buildlink3.mk"
