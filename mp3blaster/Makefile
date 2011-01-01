@@ -4,7 +4,7 @@ DISTNAME=	mp3blaster-3.2.5
 CATEGORIES=	audio
 MASTER_SITES=	http://www.stack.nl/~brama/mp3blaster/src/
 
-MAINTAINER=	rxg@NetBSD.org
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://mp3blaster.sourceforge.net/
 COMMENT=	MP3 console curses-based player
 
