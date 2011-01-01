@@ -2,7 +2,7 @@
 
 DISTNAME=	mp3blaster-3.2.5
 CATEGORIES=	audio
-MASTER_SITES=	http://www.stack.nl/~brama/mp3blaster/src/
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=mp3blaster/}
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://mp3blaster.sourceforge.net/
