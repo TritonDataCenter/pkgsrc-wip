@@ -1352,6 +1352,7 @@ SUBDIR+=	moto4lin
 SUBDIR+=	motoya-fonts
 SUBDIR+=	mozldap
 SUBDIR+=	mozplugger
+SUBDIR+=	mp3blaster
 SUBDIR+=	mp3chop
 SUBDIR+=	mp3gain
 SUBDIR+=	mpc-el
