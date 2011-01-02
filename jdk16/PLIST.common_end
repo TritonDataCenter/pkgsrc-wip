@@ -1,2 +1,2 @@
 @comment $NetBSD$
-@exec ${MKDIR} %D/java/jdk-1.6.0/jre/lib/applet
+@pkgdir java/jdk-1.6.0/jre/lib/applet
