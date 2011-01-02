@@ -29,6 +29,7 @@ PKG_FAIL_REASON+=	xft2 options is incompatible with nextstep option.
 ### Support SVG
 ###
 .if !empty(PKG_OPTIONS:Msvg)
+.include "../../graphics/cairo/buildlink3.mk"
 .include "../../graphics/librsvg/buildlink3.mk"
 .else
 CONFIGURE_ARGS+=	--without-rsvg
