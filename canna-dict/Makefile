@@ -35,10 +35,10 @@ post-patch:
 # cannaconf.h is not automatically generated so specify explicitly.
 do-build:
 	(cd ${WRKSRC};\
-	xmkmf;\
-	make Makefile; \
-	make cannaconf.h; \
-	make canna )
+	${XMKMF};\
+	${MAKE} Makefile; \
+	${MAKE} cannaconf.h; \
+	${MAKE} canna )
 
 INSTALLATION_DIRS+=	${CANNA_DICTDIR}
 
