@@ -1,6 +1,11 @@
 # $NetBSD$
 
+MACHINE_ARCH=`uname -m`
+
 case ${STAGE} in
 POST-INSTALL)
-	${PREFIX}/bin/jdk16-java -Xshare:dump;;
+	if [ "${MACHINE_ARCH}" = "i386" ]; then
+		${PREFIX}/bin/jdk16-java -client -Xshare:dump
+	fi
+	;;
 esac
