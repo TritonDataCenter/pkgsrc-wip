@@ -1,15 +1,12 @@
 # $NetBSD$
 #
 
-DISTNAME=		nzbget-0.7.0-testing
-PKGNAME=		${DISTNAME:S/-testing//}
-PKGREVISION=		1
+DISTNAME=		nzbget-0.7.0
 CATEGORIES=		news
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=nzbget/}
-EXTRACT_SUFX=		-r380.tar.gz
 
 MAINTAINER=		martijn.van.buul@gmail.com
-HOMEPAGE=		http://sourceforge.net/projects/nzbget/
+HOMEPAGE=		http://nzbget.sourceforge.net/
 COMMENT=		Binary newsreader with NZB support
 LICENSE=		gnu-gpl-v2
 
