@@ -124,8 +124,13 @@ SUBST_SED.paths+=	-e 's,%%JVM_HOME%%,${JVM_HOME},g'
 INSTALL_TEMPLATES+=	${PKGDIR}/INSTALL.tmpl
 DEINSTALL_TEMPLATES+=	${PKGDIR}/DEINSTALL.tmpl
 
+PLIST_VARS+=		client_jvm
 PLIST_SUBST+=		JAVA_MACHINE_ARCH=${JAVA_MACHINE_ARCH:Q}
 PLIST_SRC+=		PLIST.common_end
+
+.if ${MACHINE_ARCH} == "i386"
+	PLIST.client_jvm=       yes
+.endif
 
 .include "../../wip/jdk16/license-extract.mk"
 
