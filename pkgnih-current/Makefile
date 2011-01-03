@@ -20,6 +20,9 @@ BUILD_DEPENDS+=		mk-configure>=0.21.0:../../wip/mk-configure
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
+BUILD_TARGET=		all all-doc
+INSTALL_TARGET=		install install-doc
+
 WRKSRC=			${WRKDIR}/pkgnih
 EGDIR=			${PREFIX}/share/examples/nih
 
@@ -30,6 +33,7 @@ MAKE_DIRS+=		${PKG_SYSCONFDIR}/nih
 
 MAKE_ENV+=		MANDIR=${PREFIX}/${PKGMANDIR}
 MAKE_ENV+=		EGDIR=${EGDIR}
+MAKE_ENV+=		DOCDIR=${PREFIX}/share/doc/pkgnih
 
 .include "../../wip/mk/git-package.mk"
 .include "../../mk/bsd.pkg.mk"
