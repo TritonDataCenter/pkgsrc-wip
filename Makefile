@@ -1857,7 +1857,6 @@ SUBDIR+=	pkg_summary-utils
 SUBDIR+=	pkgin
 SUBDIR+=	pkgmanager
 SUBDIR+=	pkgnih-current
-#SUBDIR+=	pkgpm # not a package yet
 SUBDIR+=	plconfig
 SUBDIR+=	plod
 SUBDIR+=	plplot
