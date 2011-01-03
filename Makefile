@@ -2159,6 +2159,7 @@ SUBDIR+=	py-wxWidgets-unicode
 SUBDIR+=	py-xdgapp
 SUBDIR+=	py-xmiparser
 SUBDIR+=	py-xmpppy
+SUBDIR+=	py-jabberbot
 SUBDIR+=	py-xsdb
 SUBDIR+=	py-yapgvb
 SUBDIR+=	py-yapps2
