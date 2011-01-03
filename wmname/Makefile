@@ -6,7 +6,7 @@ CATEGORIES=     x11
 MASTER_SITES=	http://dl.suckless.org/tools/
 
 MAINTAINER=	rga@sdf.lonestar.org
-HOMEPAGE=	http://dl.suckless.org/tools/
+HOMEPAGE=	http://tools.suckless.org/wmname
 COMMENT=	Prints/sets the window manager name property of the root window
 LICENSE=	mit
 
