@@ -1893,7 +1893,6 @@ SUBDIR+=	proxyknife
 SUBDIR+=	prozilla
 SUBDIR+=	prtunnel
 SUBDIR+=	psh
-SUBDIR+=	psi
 SUBDIR+=	psybnc
 SUBDIR+=	pt-cyrillic-ttf
 SUBDIR+=	pts
