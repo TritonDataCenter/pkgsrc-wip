@@ -25,8 +25,8 @@ DOCDIR=			share/doc/logrotate
 TESTDIR=		test
 EXAMPLES_DIR=		examples
 EGDIR=			${PREFIX}/${DOCDIR}/${EXAMPLES_DIR}
-CONF_FILES=		${EGDIR}/logrotate-default ${PKG_SYSCONFDIR}/logrotate.conf
-INSTALLATION_DIRS=	sbin etc ${DOCDIR} ${DOCDIR}/${EXAMPLES_DIR} ${DOCDIR}/${TESTDIR} ${PKGMANDIR}/man8 ${PKGMANDIR}/man5 etc/logrotate.d
+CONF_FILES=		${EGDIR}/logrotate-default ${PREFIX}/etc/logrotate.conf
+INSTALLATION_DIRS=	sbin etc ${DOCDIR} ${DOCDIR}/${EXAMPLES_DIR} ${DOCDIR}/${TESTDIR} ${PKGMANDIR}/man8 ${PKGMANDIR}/man5 ${PREFIX}/etc/logrotate.d
 
 SUBST_CLASSES+=		confs
 SUBST_STAGE.confs=	post-patch
