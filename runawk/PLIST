@@ -4,6 +4,7 @@ bin/alt_getopt.sh
 bin/runawk
 man/man1/alt_getopt.1
 man/man1/runawk.1
+share/doc/runawk/COPYRIGHT
 share/doc/runawk/ChangeLog
 share/doc/runawk/NEWS
 share/doc/runawk/README
