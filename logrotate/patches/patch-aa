@@ -1,6 +1,6 @@
 $NetBSD$
 
-Add NetBSD in OS list
+Add NetBSD in OS list. Patch commited upstream.
 
 --- Makefile.orig	2010-06-28 08:04:56.000000000 +0000
 +++ Makefile
