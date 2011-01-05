@@ -2242,6 +2242,7 @@ SUBDIR+=	ruby-dnssd
 SUBDIR+=	ruby-easyjour
 SUBDIR+=	ruby-escape
 SUBDIR+=	ruby-git
+SUBDIR+=	ruby-memoize
 SUBDIR+=	ruby-term-ansicolor
 SUBDIR+=	ruby-trollop
 SUBDIR+=	ruby-xmpp4r
