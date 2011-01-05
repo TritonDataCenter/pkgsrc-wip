@@ -3,7 +3,7 @@
 
 DISTNAME=	memoize-1.3.1
 CATEGORIES=	misc
-MASTER_SITES=	http://rubyforge.org/frs/download.php/61792/
+MASTER_SITES=	http://rubyforge.org/frs/download.php/61790/
 
 MAINTAINER=	obache@NetBSD.org
 HOMEPAGE=	http://www.rubyforge.org/projects/shards
@@ -13,6 +13,18 @@ LICENSE=	artistic-2.0
 PKG_DESTDIR_SUPPORT=	user-destdir
 
 USE_LANGUAGES=	# none
+NO_BUILD=	yes
+USE_RAKE=	yes
 
-.include "../../lang/ruby/gem.mk"
+INSTALLATION_DIRS+=	${RUBY_VENDORLIB}
+
+do-test:
+	${RUN} cd ${WRKSRC}; \
+	${SETENV} ${TEST_ENV} ${RAKE} test
+
+do-install:
+	${RUN} cd ${WRKSRC}; \
+	${SETENV} ${MAKE_ENV} ${INSTALL_ENV} ${RAKE} install
+
+.include "../../lang/ruby/modules.mk"
 .include "../../mk/bsd.pkg.mk"
