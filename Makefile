@@ -562,6 +562,7 @@ SUBDIR+=	ggz-gtk-client
 SUBDIR+=	ggz-gtk-games
 SUBDIR+=	ggz-server
 SUBDIR+=	ghc
+SUBDIR+=	ghc-core
 SUBDIR+=	ghemical
 SUBDIR+=	giggle
 SUBDIR+=	gimmie
