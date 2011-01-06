@@ -8,6 +8,7 @@ EXTRACT_SUFX=	.tar.bz2
 MAINTAINER=	lkundrak@skosi.org
 HOMEPAGE=	http://pdfedit.petricek.net/
 COMMENT=	Editor for manipulating PDF documents
+LICENSE=	gnu-gpl-v2
 
 GNU_CONFIGURE=	yes
 USE_TOOLS+=	gmake
