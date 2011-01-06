@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	ghc-core-0.5.4
+PKGNAME=	${DISTNAME}
 CATEGORIES=	devel
 
 MAINTAINER=	pho@cielonegro.org
