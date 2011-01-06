@@ -1,0 +1,3 @@
+@comment $NetBSD$
+bin/ghc-core
+share/doc/ghc-core-${PKGVERSION}/LICENSE
