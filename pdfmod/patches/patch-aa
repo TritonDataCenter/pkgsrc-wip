@@ -3,6 +3,8 @@ $NetBSD$
 Avoid unnecessary build-breaking warning about uninitialized variable
 with mono-2.8.1.
 
+https://bugzilla.gnome.org/show_bug.cgi?id=638851
+
 --- src/PdfMod/Gui/Client.cs.orig	2010-09-28 19:45:35.000000000 +0000
 +++ src/PdfMod/Gui/Client.cs
 @@ -415,7 +415,7 @@ namespace PdfMod.Gui
