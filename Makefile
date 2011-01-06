@@ -884,6 +884,7 @@ SUBDIR+=	hs-gnuplot
 SUBDIR+=	hs-hashed-storage
 SUBDIR+=	hs-hashed-storage3
 SUBDIR+=	hs-haskeline
+SUBDIR+=	hs-haskell-lexer
 SUBDIR+=	hs-haskell-src
 SUBDIR+=	hs-haskell-src-exts
 SUBDIR+=	hs-haskelldb
