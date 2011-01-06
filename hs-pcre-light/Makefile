@@ -1,14 +1,12 @@
 # $NetBSD$
 #
 
-DISTNAME=	pcre-light-0.3.1
-PKGREVISION=	1
-PKGNAME=	hs-${DISTNAME}
+DISTNAME=	pcre-light-0.4
 CATEGORIES=	devel
 
 MAINTAINER=	pho@cielonegro.org
-HOMEPAGE=	http://code.haskell.org/~dons/code/pcre-light
-COMMENT=	Haskell binding to the PCRE regex library
+COMMENT=	Haskell bindings to the PCRE regex library
+LICENSE=	modified-bsd
 
 SUBST_CLASSES+=		prefix
 SUBST_STAGE.prefix=	post-patch
