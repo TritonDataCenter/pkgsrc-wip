@@ -1,11 +1,10 @@
 # $NetBSD$
 #
 
-DISTNAME=	dataenc-0.13.0.2
+DISTNAME=	dataenc-0.13.0.4
 CATEGORIES=	devel
 
 MAINTAINER=	pho@cielonegro.org
-HOMEPAGE=	http://www.haskell.org/haskellwiki/Library/Data_encoding
 COMMENT=	Data encoding library for Haskell
 LICENSE=	modified-bsd
 
