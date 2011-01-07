@@ -1,13 +1,10 @@
 # $NetBSD$
 #
 
-DISTNAME=	regex-base-0.93.1
-PKGREVISION=	1
-PKGNAME=	hs-${DISTNAME}
-CATEGORIES=	textproc
+DISTNAME=	regex-base-0.93.2
+CATEGORIES=	devel
 
 MAINTAINER=	pho@cielonegro.org
-HOMEPAGE=	http://sourceforge.net/projects/lazy-regex
 COMMENT=	Replaces/Enhances Haskell Text.Regex
 
 .include "../../wip/mk/haskell.mk"
