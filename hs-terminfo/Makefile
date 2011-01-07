@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	terminfo-0.3.1.1
+DISTNAME=	terminfo-0.3.1.3
 CATEGORIES=	devel
 
 MAINTAINER=	pho@cielonegro.org
@@ -10,6 +10,7 @@ LICENSE=	modified-bsd
 
 CONFIGURE_ARGS+= --extra-include-dirs=${PREFIX}/include/ncurses --extra-lib-dirs=${PREFIX}/lib
 
+USE_NCURSES=    yes
 .include "../../wip/mk/haskell.mk"
 .include "../../devel/ncurses/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
