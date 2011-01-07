@@ -1165,7 +1165,6 @@ SUBDIR+=	libgksu
 SUBDIR+=	libgksuui
 SUBDIR+=	libglade-java
 SUBDIR+=	libgnome-java
-SUBDIR+=	libgnugetopt
 SUBDIR+=	libgrass5
 SUBDIR+=	libgtask
 SUBDIR+=	libgtk-java

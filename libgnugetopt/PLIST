@@ -1,5 +1,0 @@
-@comment $NetBSD$
-include/gnugetopt.h
-lib/libgnugetopt.a
-lib/libgnugetopt.so
-lib/libgnugetopt.so.1
