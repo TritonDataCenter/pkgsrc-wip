@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	mmap-0.5.4
+DISTNAME=	mmap-0.5.7
 CATEGORIES=	devel
 
 MAINTAINER=	pho@cielonegro.org
