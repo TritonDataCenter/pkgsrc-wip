@@ -951,6 +951,7 @@ SUBDIR+=	hs-uconv
 SUBDIR+=	hs-uniplate
 SUBDIR+=	hs-utf8-string
 SUBDIR+=	hs-utility-ht
+SUBDIR+=	hs-vector
 SUBDIR+=	hs-x11
 SUBDIR+=	hs-x11-extras
 SUBDIR+=	hs-x11-xft
