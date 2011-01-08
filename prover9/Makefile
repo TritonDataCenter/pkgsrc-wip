@@ -16,6 +16,8 @@ MAKE_JOBS_SAFE= 	no
 
 REPLACE_PYTHON=		utilities/attack utilities/gvizify utilities/looper utilities/prover9-mace4
 
+TEST_TARGET=	test1 test2 test3
+
 INSTALLATION_DIRS=      bin ${PKGMANDIR}/man1 share/examples/prover9/prover9 share/examples/prover9/mace4
 
 do-install:
