@@ -15,9 +15,8 @@ DEPENDS+=	xrandr>=1.2:../../x11/xrandr
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
+PY_PATCHPLIST = YES
 PYSETUP = setup.py
-
-NO_BUILD= YES
 
 # Adjust setup.py
 SUBST_CLASSES+=         setup
@@ -26,11 +25,7 @@ SUBST_MESSAGE.setup=    Fixing ${PYSETUP}
 SUBST_FILES.setup=      ${PYSETUP}
 SUBST_SED.setup+=       -e 's,share/man/,${PKGMANDIR}/,g'
 
-do-install:
-	cd ${WRKSRC}; \
-	${PYTHONBIN} ${PYSETUP}	install
-
 .include "../../x11/py-gtk2/buildlink3.mk"
-.include "../../lang/python/application.mk"
+.include "../../lang/python/distutils.mk"
 .include "../../sysutils/desktop-file-utils/desktopdb.mk"
 .include "../../mk/bsd.pkg.mk"
