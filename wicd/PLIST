@@ -186,6 +186,8 @@ share/pixmaps/wicd/transmitting-low-signal-lock.png
 share/pixmaps/wicd/transmitting-low-signal.png
 share/pixmaps/wicd/wired-gui.svg
 share/pixmaps/wicd/wired.png
+share/examples/rc.d/wicd
+share/applications/wicd.desktop
 @pkgdir etc/wicd/scripts/predisconnect
 @pkgdir etc/wicd/scripts/preconnect
 @pkgdir etc/wicd/scripts/postdisconnect

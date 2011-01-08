@@ -56,4 +56,5 @@ post-install:
 .include "options.mk"
 .include "../../lang/python/application.mk"
 .include "../../lang/python/extension.mk"
+.include "../../sysutils/desktop-file-utils/desktopdb.mk"
 .include "../../mk/bsd.pkg.mk"
