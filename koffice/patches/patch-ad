@@ -13,8 +13,9 @@ Recognize latest libwpd.
  endif(NOT WIN32)
  
    FIND_PATH(WPD_INCLUDE_DIR libwpd/libwpd.h
-     ${WPD_INCLUDE_DIR}
+-    ${WPD_INCLUDE_DIR}
 -    /usr/include/libwpd-0.8
++    ${WPD_INCLUDE_DIRS}
 +    /usr/include/libwpd-0.9
    )
  

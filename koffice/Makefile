@@ -1,10 +1,9 @@
 # $NetBSD$
 #
 
-DISTNAME=	koffice-2.2.2
-PKGREVISION=	1
+DISTNAME=	koffice-2.3.0
 CATEGORIES=	misc kde
-MASTER_SITES=	${MASTER_SITE_KDE:=koffice-2.2.2/}
+MASTER_SITES=	${MASTER_SITE_KDE:=koffice-2.3.0/}
 EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	markd@NetBSD.org
@@ -21,8 +20,7 @@ USE_TOOLS+=	pkg-config
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
-# CMake doesn't find it
-#.include "../../converters/libwpd/buildlink3.mk"
+.include "../../converters/libwpd/buildlink3.mk"
 .include "../../converters/libwpg/buildlink3.mk"
 .include "../../databases/mysql51-client/buildlink3.mk"
 # CMake doesn't find it
