@@ -1,5 +1,5 @@
 @comment $NetBSD$
-${PYSITELIB}/jabberbot-0.10-py2.5.egg-info
+${PLIST.eggfile}${PYSITELIB}/${EGG_FILE}
 ${PYSITELIB}/jabberbot.py
 ${PYSITELIB}/jabberbot.pyc
 ${PYSITELIB}/jabberbot.pyo
