@@ -32,4 +32,5 @@ do-install:
 
 .include "../../x11/py-gtk2/buildlink3.mk"
 .include "../../lang/python/application.mk"
+.include "../../sysutils/desktop-file-utils/desktopdb.mk"
 .include "../../mk/bsd.pkg.mk"
