@@ -18,7 +18,6 @@ MASTER_SITES=	ftp://ftp.am-utils.org/pub/am-utils/ \
 MAINTAINER=		cheusov@tut.by
 HOMEPAGE=		http://www.am-utils.org/
 COMMENT=		Berkeley automounter suite of utilities
-
 LICENSE=		original-bsd
 
 USE_TOOLS+=		yacc lex perl:run
