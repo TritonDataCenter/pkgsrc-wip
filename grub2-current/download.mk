@@ -7,7 +7,7 @@ BUILD_DEPENDS+=		rsync>=3.0:../../net/rsync
 
 DISTFILES?=		# empty
 BZR_REPOSITORY=		http://bzr.savannah.gnu.org/r/grub/trunk/grub
-BZR_REVISION=		3038
+BZR_REVISION=		3040
 UNIFONT_URL=		http://unifoundry.com/unifont-5.1.20080820.pcf.gz
 UNIFONT_EXT=		pcf.gz
 
