@@ -79,6 +79,14 @@ it is ignored.
 .TP
 .B "-2"
 output PKGPATHe from summary1 and from summary2 (<>!=)
+.TP
+.B "-e"
+normally a number of duplications is output as a result of
+comparison if they (duplications) exist.  If
+.I "-e"
+was
+applied, = (or !) is output if package from summary2
+exists (or doesn't exist) in summary1
 .SH SEE ALSO
 .BR pkg_summary-utils(7) ,
 .BR pkg_summary(5) ,
