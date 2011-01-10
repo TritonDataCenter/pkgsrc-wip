@@ -1416,6 +1416,7 @@ SUBDIR+=	mysql-docs
 SUBDIR+=	mysql-workbench
 SUBDIR+=	mysqltcl
 SUBDIR+=	mythtv
+SUBDIR+=	nag
 SUBDIR+=	nanoblogger
 SUBDIR+=	natali
 SUBDIR+=	naturaldocs
