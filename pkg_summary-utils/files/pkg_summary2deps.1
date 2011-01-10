@@ -52,7 +52,9 @@ output PKGPATH.
 output PKGNAME.
 .TP
 .B "-d"
-analyse DEPENDS.
+analyse DEPENDS field. Missed alternative dependencies are
+output as altdep1|altdep2|...|altdepN. The same is applied for
+.IR "-D" .
 .TP
 .B "-D"
 analyse BUILD_DEPENDS.
