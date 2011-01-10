@@ -128,7 +128,7 @@ PLIST_SUBST+=		JAVA_MACHINE_ARCH=${JAVA_MACHINE_ARCH:Q}
 PLIST_SRC+=		PLIST.common_end
 
 .if ${MACHINE_ARCH} == "i386"
-	PLIST.client_jvm=       yes
+PLIST.client_jvm=	yes
 .endif
 
 .include "../../wip/jdk16/license-extract.mk"
