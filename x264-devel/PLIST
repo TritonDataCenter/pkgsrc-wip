@@ -1,6 +1,8 @@
 @comment $NetBSD$
-bin/libx264.so.84
 bin/x264
 include/x264.h
-lib/libx264.la
+include/x264_config.h
+lib/libx264.a
+lib/libx264.so
+lib/libx264.so.112
 lib/pkgconfig/x264.pc

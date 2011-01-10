@@ -1,6 +1,6 @@
 # $NetBSD: Makefile,v 1.25 2010/08/11 19:11:55 tsutsui Exp $
 
-SNAPSHOT_DATE=		20100201
+SNAPSHOT_DATE=		20110101
 
 DISTNAME=		x264-snapshot-${SNAPSHOT_DATE}-2245
 PKGNAME=		x264-devel-${SNAPSHOT_DATE}
@@ -43,7 +43,6 @@ HAS_CONFIGURE=		yes
 CONFIG_SHELL=		${BASH}
 #CONFIGURE_ARGS+=	--enable-pic	# uses libtool's -prefer-pic
 CONFIGURE_ARGS+=	--prefix=${PREFIX:Q}
-CONFIGURE_ARGS+=	--disable-mp4-output	# needs GPAC, not in pkgsrc
 CONFIGURE_ARGS+=	--enable-shared
 MAKE_ENV+=		SH=${SH:Q}
 

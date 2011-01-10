@@ -14,7 +14,7 @@ X264_DEVEL_BUILDLINK3_MK:=
 ###	  Prior specification: x264-devel>=20060127 # X264_BUILD 44
 ###	  Prior specification: x264-devel>=20081217 # X264_BUILD 65
 ###
-BUILDLINK_API_DEPENDS.x264-devel+=	x264-devel>=20100201 # X264_BUILD 84
+BUILDLINK_API_DEPENDS.x264-devel+=	x264-devel>=20110101 # X264_BUILD 112
 BUILDLINK_PKGSRCDIR.x264-devel?=	../../wip/x264-devel
 pkgbase:= x264-devel
 .  include "../../mk/pkg-build-options.mk"
