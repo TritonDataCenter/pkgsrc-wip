@@ -64,6 +64,7 @@ share/mikutter/core/mui/gtk_mtk.rb
 share/mikutter/core/mui/gtk_mumble.rb
 share/mikutter/core/mui/gtk_postbox.rb
 share/mikutter/core/mui/gtk_prioritybox.rb
+share/mikutter/core/mui/gtk_selectbox.rb
 share/mikutter/core/mui/gtk_skin.rb
 share/mikutter/core/mui/gtk_timeline.rb
 share/mikutter/core/mui/gtk_userlist.rb
@@ -74,6 +75,7 @@ share/mikutter/core/plugin/plugin.rb
 share/mikutter/core/plugin/template
 share/mikutter/core/post.rb
 share/mikutter/core/retriever.rb
+share/mikutter/core/serialthread.rb
 share/mikutter/core/skin/data/close.png
 share/mikutter/core/skin/data/etc.png
 share/mikutter/core/skin/data/fav.png
