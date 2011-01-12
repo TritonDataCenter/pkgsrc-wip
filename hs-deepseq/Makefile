@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	deepseq-1.1.0.0
+DISTNAME=	deepseq-1.1.0.2
 CATEGORIES=	devel
 
 MAINTAINER=	pho@cielonegro.org
