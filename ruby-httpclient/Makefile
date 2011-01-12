@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	httpclient-2.1.6
+DISTNAME=	httpclient-2.1.6.1
 CATEGORIES=	www
 MASTER_SITES=	http://dev.ctor.org/download/ \
 		http://dev.ctor.org/download/archive/
