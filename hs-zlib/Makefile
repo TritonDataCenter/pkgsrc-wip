@@ -1,9 +1,8 @@
 # $NetBSD$
 #
 
-DISTNAME=	zlib-0.5.2.0
-PKGNAME=	hs-${DISTNAME}
-CATEGORIES=	devel
+DISTNAME=	zlib-0.5.3.1
+CATEGORIES=	archivers
 
 MAINTAINER=	pho@cielonegro.org
 COMMENT=	Zlib binding for Haskell
