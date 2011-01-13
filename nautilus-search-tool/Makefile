@@ -18,7 +18,6 @@ USE_LIBTOOL=	yes
 USE_LANGUAGES+=	c c++
 
 .include "../../devel/GConf/schemas.mk"
-.include "../../devel/eel/buildlink3.mk"
 .include "../../devel/glib2/buildlink3.mk"
 .include "../../sysutils/nautilus/buildlink3.mk"
 .include "../../sysutils/gnome-vfs/buildlink3.mk"
