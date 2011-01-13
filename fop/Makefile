@@ -9,6 +9,7 @@ VERSION=	1.0
 CATEGORIES=	textproc www
 MASTER_SITES=	${MASTER_SITE_APACHE:=xmlgraphics/fop/binaries/}
 
+MAINTAINER=	ftigeot@users.sourceforge.net
 HOMEPAGE=	http://xmlgraphics.apache.org/fop/
 COMMENT=	Print formatter driven by XSL Formatting Objects (XSL-FO)
 LICENSE=	apache-2.0
