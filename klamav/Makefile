@@ -21,7 +21,7 @@ CONFIGURE_ARGS+=	--without-included-sqlite
 .include "../../databases/sqlite3/buildlink3.mk"
 
 .include "../../meta-pkgs/kde3/kde3.mk"
-.include "../../mail/clamav/buildlink3.mk"
+.include "../../security/clamav/buildlink3.mk"
 .include "../../www/curl/buildlink3.mk"
 .include "../../x11/kdelibs3/buildlink3.mk"
 .include "../../mk/pthread.buildlink3.mk"
