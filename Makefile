@@ -937,6 +937,7 @@ SUBDIR+=	hs-safer-file-handles
 SUBDIR+=	hs-stm
 SUBDIR+=	hs-storable-record
 SUBDIR+=	hs-storablevector
+SUBDIR+=	hs-stream-fusion
 SUBDIR+=	hs-strict
 SUBDIR+=	hs-syb
 SUBDIR+=	hs-tagged
