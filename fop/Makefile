@@ -11,6 +11,7 @@ MASTER_SITES=	${MASTER_SITE_APACHE:=xmlgraphics/fop/binaries/}
 
 HOMEPAGE=	http://xmlgraphics.apache.org/fop/
 COMMENT=	Print formatter driven by XSL Formatting Objects (XSL-FO)
+LICENSE=	apache-2.0
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
