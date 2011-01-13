@@ -12,8 +12,6 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 
 CONFLICTS=		splay-[0-9]*
 
-MAKE_JOBS_SAFE=		yes
-
 PTHREAD_OPTS+=	require
 USE_LANGUAGES=	c c++
 USE_TOOLS+=	gmake
@@ -48,4 +46,5 @@ CONFIGURE_ARGS+=	--with-sdl=yes
 .endif
 
 .include "../../audio/libvorbis/buildlink3.mk"
+.include "../../mk/curses.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
