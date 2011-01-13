@@ -26,7 +26,6 @@ SUBST_SED.setup+=	-e 's|/usr/lib|${LOCALBASE}/lib|g'
 .include "../../lang/python/application.mk"
 .include "../../lang/python/extension.mk"
 .include "../../graphics/imlib2/buildlink3.mk"
-.include "../../x11/py-Xlib/buildlink3.mk"
 .include "../../x11/renderproto/buildlink3.mk"
 .include "../../x11/libXft/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
