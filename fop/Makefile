@@ -26,6 +26,12 @@ WRKSRC=		${WRKDIR}/${PKGNAME_NOREV}
 
 PLIST_SRC=	${PKGDIR}/PLIST
 
+SUBST_CLASSES+=			java_home
+SUBST_STAGE.java_home=		post-patch
+SUBST_MESSAGE.java_home=	Setting JAVA_HOME to a sane value.
+SUBST_FILES.java_home=		fop
+SUBST_SED.java_home=		-e 's,@JAVA_HOME@,${PKG_JAVA_HOME},g'
+
 .include "options.mk"
 
 do-install:
