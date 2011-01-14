@@ -1,6 +1,6 @@
 $NetBSD$
 
---- build/make/Makefile.orig	2010-09-02 18:56:47.000000000 +0000
+--- build/make/Makefile.orig	2010-10-28 13:14:14.000000000 +0000
 +++ build/make/Makefile
 @@ -102,7 +102,7 @@ $(BUILD_PFX)%.c.d: %.c
  

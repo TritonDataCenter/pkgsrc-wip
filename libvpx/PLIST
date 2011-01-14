@@ -1,6 +1,6 @@
 @comment $NetBSD$
-bin/ivfdec
-bin/ivfenc
+bin/vpxdec
+bin/vpxenc
 include/vpx/vp8.h
 include/vpx/vp8cx.h
 include/vpx/vp8dx.h
