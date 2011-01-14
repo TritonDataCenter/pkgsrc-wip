@@ -6,12 +6,12 @@ COMMENT=	Decoding, encoding and streaming software
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
-CONFIGURE_ARGS+=	--enable-avfilter \
-			--enable-avfilter-lavf \
-			--enable-postproc \
-			--enable-libvorbis \
-			--enable-libmp3lame \
-			--enable-libx264
+CONFIGURE_ARGS+=	--enable-avfilter
+CONFIGURE_ARGS+=	--enable-avfilter-lavf
+CONFIGURE_ARGS+=	--enable-postproc
+CONFIGURE_ARGS+=	--enable-libvorbis
+CONFIGURE_ARGS+=	--enable-libmp3lame
+CONFIGURE_ARGS+=	--enable-libx264
 
 INSTALLATION_DIRS=	lib share/examples/ffmpeg share/doc/ffmpeg
 
