@@ -1,5 +1,4 @@
-
-:# $NetBSD: options.mk,v 1.2 2008/12/18 22:23:36 bjs Exp $
+# $NetBSD: options.mk,v 1.2 2008/12/18 22:23:36 bjs Exp $
 
 PKG_OPTIONS_VAR=	PKG_OPTIONS.x264-devel
 PKG_SUPPORTED_OPTIONS=	debug threads
