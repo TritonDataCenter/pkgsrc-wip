@@ -10,7 +10,7 @@ MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://home.gna.org/oomadness/en/songwrite/index.html
 COMMENT=		Tablature (guitar partition) editor
 
-DEPENDS+=		${PYPKGPREFIX}-EditObj-[0-9]*:../../wip/py-EditObj
+DEPENDS+=		${PYPKGPREFIX}-EditObj2-[0-9]*:../../wip/py-EditObj2
 
 PY_PATCHPLIST=		yes
 PYDISTUTILSPKG=		yes
