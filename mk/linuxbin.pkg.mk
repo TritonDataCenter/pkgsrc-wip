@@ -4,7 +4,7 @@ BROKEN=		Please update linuxbin.pkg.mk for the new emulator framework.
 
 ###########################################################################
 #
-# $Id: linuxbin.pkg.mk,v 1.26 2008/02/03 16:32:26 tnn2 Exp $
+# $Id$
 #
 # Proposal: how should we deal with Linux binary packages packages
 #
@@ -83,7 +83,7 @@ LINUX_BASE_PREFERRED?=		suse
 
 LINUX_BASE_REQUIRED?=		${LINUX_BASE_PREFERRED}
 
-LINUX_BASE_PREFIX.suse?=	suse
+LINUX_BASE_PREFIX.suse?=	suse100
 LINUX_BASE_VERSION.suse=	9.1
 
 LINUX_BASE_PREFIX.slackware?=	slackware
