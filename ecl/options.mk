@@ -44,3 +44,9 @@ PLIST_VARS+=		clx
 PLIST.${option}=	yes
 .  endif
 .endfor
+
+# Help generating PLIST:
+.if !empty(PKG_OPTIONS:Mclx)
+PRINT_PLIST_AWK+=	{if ($$0 ~ /lib\/.*\/libclx.a$$/) {$$0 = "$${PLIST.clx}" $$0;}}
+PRINT_PLIST_AWK+=	{if ($$0 ~ /lib\/.*\/clx.(asd|fas)$$/) {$$0 = "$${PLIST.clx}" $$0;}}
+.endif
