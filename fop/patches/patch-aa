@@ -1,5 +1,7 @@
 $NetBSD$
 
+The fop script needs JAVA_HOME set, so prepare a variable to sed into.
+
 --- fop.orig	2010-07-12 19:47:02.000000000 +0000
 +++ fop
 @@ -85,6 +85,8 @@ case "`uname`" in
