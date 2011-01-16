@@ -52,7 +52,7 @@ $NetBSD$
  	$(if $(quiet),@echo "    [AR] $$@")
 -	$(qexec)$$(AR) $$(ARFLAGS) $$@ $$?
 +	$(qexec)${LIBTOOL} --mode=link $(CC) -o $$(patsubst %.a,%.la,$$@) \
-+	    $$(patsubst %.o,%.lo,$$?) -rpath $(DIST_DIR)/lib \
++	    $$(patsubst %.o,%.lo,$$?) -rpath $(DIST_DIR)/lib $$(extralibs) \
 +	    -version-info $(VERSION_MINOR):$(VERSION_PATCH):$(VERSION_MINOR)
  endef
  
