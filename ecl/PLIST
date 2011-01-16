@@ -62,4 +62,5 @@ lib/libecl.so
 lib/libecl.so.${PKGVERSION_MAJOR}
 lib/libecl.so.${PKGVERSION_MAJOR_MINOR}
 lib/libecl.so.${PKGVERSION}
+man/man1/ecl-config.1
 man/man1/ecl.1
