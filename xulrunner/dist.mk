@@ -4,8 +4,8 @@
 # used by wip/firefox/Makefile
 
 DISTNAME=	firefox-${FIREFOX_VER}.source
-FIREFOX_VER=	4.0b8${MOZ_BRANCH_MINOR}
-MOZ_BRANCH=	2.0b8
+FIREFOX_VER=	4.0b9${MOZ_BRANCH_MINOR}
+MOZ_BRANCH=	2.0b9
 MOZ_BRANCH_MINOR=	# empty
 MASTER_SITES=	${MASTER_SITE_MOZILLA:=firefox/releases/${FIREFOX_VER}/source/}
 EXTRACT_SUFX=	.tar.bz2
@@ -16,6 +16,6 @@ PATCHDIR=	${.CURDIR}/../../wip/xulrunner/patches
 WRKSRC=		${WRKDIR}/mozilla-central
 
 # snapshot overrides
-#DISTNAME=	297086a0fb61
+#DISTNAME=	77979cd6890d
 #MASTER_SITES=	http://hg.mozilla.org/mozilla-central/archive/
-#WRKSRC=	${WRKDIR}/mozilla-central-297086a0fb61
+#WRKSRC=	${WRKDIR}/mozilla-central-${DISTNAME}

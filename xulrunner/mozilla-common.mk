@@ -25,7 +25,9 @@ CONFIGURE_ARGS+=	--enable-optimize=-O2 --with-pthreads
 CONFIGURE_ARGS+=	--disable-javaxpcom
 CONFIGURE_ARGS+=	--enable-default-toolkit=cairo-gtk2
 CONFIGURE_ARGS+=	--enable-svg --enable-mathml
-CONFIGURE_ARGS+=	--enable-system-cairo
+# Needs tee and subpixel functions which are not shipped in stable cairo (yet?)
+CONFIGURE_ARGS+=	--disable-system-cairo
+CONFIGURE_ARGS+=	--disable-system-pixman
 CONFIGURE_ARGS+=	--with-system-jpeg
 CONFIGURE_ARGS+=	--with-system-zlib --with-system-bz2
 CONFIGURE_ARGS+=	--enable-system-sqlite

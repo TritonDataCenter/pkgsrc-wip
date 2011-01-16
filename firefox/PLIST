@@ -366,6 +366,7 @@ lib/firefox/modules/PropertyPanel.jsm
 lib/firefox/modules/distribution.js
 lib/firefox/modules/domplate.jsm
 lib/firefox/modules/openLocationLastURL.jsm
+lib/firefox/modules/services-crypto/WeaveCrypto.js
 lib/firefox/modules/services-sync/auth.js
 lib/firefox/modules/services-sync/base_records/collection.js
 lib/firefox/modules/services-sync/base_records/crypto.js

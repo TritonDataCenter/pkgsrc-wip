@@ -1,6 +1,6 @@
 $NetBSD$
 
---- toolkit/library/Makefile.in.orig	2010-12-15 01:03:37.000000000 +0000
+--- toolkit/library/Makefile.in.orig	2011-01-11 03:27:37.000000000 +0000
 +++ toolkit/library/Makefile.in
 @@ -246,6 +246,13 @@ EXTRA_DSO_LDOPTS += -lelf -ldemangle
  endif
