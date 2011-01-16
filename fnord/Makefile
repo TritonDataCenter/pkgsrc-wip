@@ -16,11 +16,13 @@ USE_TOOLS+=	gmake
 DEPENDS+=	ucspi-tcp-*:../../net/ucspi-tcp
 
 CFLAGS+=	${CPPFLAGS}
-MAKE_ENV+=	RANLIB=${RANLIB:Q}
+MAKE_ENV+=	RANLIB=${RANLIB:Q} LIBS=${LIBS:Q}
 
 .if exists(/usr/include/alloca.h)
-CFLAGS+=	-DNEED_ALLOCA_H
+CPPFLAGS+=	-DNEED_ALLOCA_H
 .endif
+
+LIBS.SunOS+=	-lsocket  -lnsl
 
 INSTALLATION_DIRS=	sbin
 
