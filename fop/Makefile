@@ -37,6 +37,7 @@ SUBST_SED.java_home=		-e 's,@JAVA_HOME@,${PKG_JAVA_HOME},g'
 do-install:
 	cd ${WRKSRC} && ${PAX} -rw . ${DESTDIR}${PREFIX}/share/java/fop
 	${LN} -sf ../share/java/fop/fop ${DESTDIR}${PREFIX}/bin
+	${RM} -f ${DESTDIR}${PREFIX}/share/java/fop/fop.orig
 
 .include "../../mk/java-vm.mk"
 .include "../../mk/bsd.pkg.mk"
