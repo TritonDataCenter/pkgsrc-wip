@@ -53,3 +53,9 @@ share/doc/py-xmpppy/basic.html
 share/doc/py-xmpppy/index.html
 share/doc/py-xmpppy/xmpppy.css
 share/doc/py-xmpppy/xmpppy_title.png
+share/examples/py-xmpppy/README.py
+share/examples/py-xmpppy/bot.py
+share/examples/py-xmpppy/commandsbot.py
+share/examples/py-xmpppy/logger.py
+share/examples/py-xmpppy/xsend.py
+share/examples/py-xmpppy/xtalk.py
