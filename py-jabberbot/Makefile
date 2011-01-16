@@ -11,7 +11,7 @@ HOMEPAGE=	${MASTER_SITES}
 COMMENT=	Module to enable easy creation of XMPP bots in Python
 LICENSE=	gnu-gpl-v3
 
-DEPENDS+=	${PYPKGPREFIX}-xmpppy>=0.5.0:../../wip/py-xmpppy
+DEPENDS+=	${PYPKGPREFIX}-xmpppy>=0.5.0rc1:../../wip/py-xmpppy
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
