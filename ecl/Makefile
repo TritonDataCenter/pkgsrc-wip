@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		ecl-10.4.1
+DISTNAME=		ecl-11.1.1
 CATEGORIES=		lang
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=ecls/}
 
@@ -36,7 +36,7 @@ PLIST_SUBST=	PKGVERSION_MAJOR_MINOR=${PKGVERSION_NOREV:R} \
 #.if defined(USE_CVS) && !empty(USE_CVS:M[Yy][Ee][Ss])
 ## CVS part:
 
-PKGNAME=		ecl-10.3.99
+PKGNAME=		ecl-11.1.99
 WRKSRC=			${WRKDIR}/ecl
 
 CVS_REPOSITORIES=	ecl
