@@ -27,7 +27,7 @@ $NetBSD$
  	$(if $(quiet),@echo    "    [LD] $$@")
 -	$(qexec)$$(LD) $$(strip $$(LDFLAGS) -o $$@ $(2) $(3) $$(extralibs))
 +	$(qexec)${LIBTOOL} --mode=link $(CC) -o $$@ $$(filter-out -lvpx,$(2)) \
-+	    libvpx.la
++	    libvpx.la $$(extralibs)
  endef
  # make-3.80 has a bug with expanding large input strings to the eval function,
  # which was triggered in some cases by the following component of
