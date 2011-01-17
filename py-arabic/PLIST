@@ -1,0 +1,7 @@
+@comment $NetBSD$
+${PYSITELIB}/pyarabic/__init__.py
+${PYSITELIB}/pyarabic/__init__.pyc
+${PYSITELIB}/pyarabic/__init__.pyo
+${PYSITELIB}/pyarabic/araby.py
+${PYSITELIB}/pyarabic/araby.pyc
+${PYSITELIB}/pyarabic/araby.pyo

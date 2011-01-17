@@ -1,0 +1,7 @@
+@comment $NetBSD$
+bin/ann2fig
+include/ANN/ANN.h
+include/ANN/ANNperf.h
+include/ANN/ANNx.h
+lib/libANN.a
+share/doc/ann/ANNmanual.pdf
