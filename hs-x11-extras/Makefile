@@ -7,7 +7,7 @@ PKGREVISION=	1
 CATEGORIES=	x11
 MASTER_SITES=	http://hackage.haskell.org/packages/archive/X11-extras/${VERSION}/
 
-MAINTAINER=	emil@math.su.se
+MAINTAINER=	esg@sdf.lonestar.org
 HOMEPAGE=	http://hackage.haskell.org/packages/archive/X11-extras/
 COMMENT=	Missing Haskell bindings to the X11 graphics library
 

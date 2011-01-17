@@ -5,7 +5,7 @@ DISTNAME=		cvs2darcs-0.7.1
 CATEGORIES=		devel
 MASTER_SITES=		http://ab-initio.mit.edu/cvs2darcs/
 
-MAINTAINER=		emil@math.su.se
+MAINTAINER=		esg@sdf.lonestar.org
 HOMEPAGE=		http://ab-initio.mit.edu/cvs2darcs/
 COMMENT=		Convert CVS repositories to Darcs version control
 

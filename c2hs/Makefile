@@ -6,7 +6,7 @@ PKGREVISION=	1
 CATEGORIES=	devel
 MASTER_SITES=	http://www.cse.unsw.edu.au/~chak/haskell/c2hs/
 
-MAINTAINER=	emil@math.su.se
+MAINTAINER=	esg@sdf.lonestar.org
 HOMEPAGE=	http://www.cse.unsw.edu.au/~chak/haskell/c2hs/
 COMMENT=	C->Haskell, an Interface Generator for Haskell
 

@@ -6,7 +6,7 @@ PKGREVISION=	4
 CATEGORIES=	graphics
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=jp2a/}
 
-MAINTAINER=	emil@math.su.se
+MAINTAINER=	esg@sdf.lonestar.org
 HOMEPAGE=	http://jp2a.sourceforge.net/
 COMMENT=	JPEG to ASCII converter
 

@@ -4,7 +4,7 @@
 DISTNAME=		cpphs-1.11
 CATEGORIES=		lang
 
-MAINTAINER=		emil@sdf.lonestar.org
+MAINTAINER=		esg@sdf.lonestar.org
 HOMEPAGE=		http://haskell.org/cpphs/
 COMMENT=		Re-implementation of cpp in Haskell
 LICENSE=		gnu-lgpl-v2.1

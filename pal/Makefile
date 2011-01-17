@@ -7,7 +7,7 @@ CATEGORIES=		time
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=palcal/}
 EXTRACT_SUFX=		.tgz
 
-MAINTAINER=		emil@math.su.se
+MAINTAINER=		esg@sdf.lonestar.org
 HOMEPAGE=		http://palcal.sourceforge.net/
 COMMENT=		Command-line calendar program
 

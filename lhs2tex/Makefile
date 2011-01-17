@@ -8,7 +8,7 @@ MASTER_SITES=		http://www.iai.uni-bonn.de/~loeh/lhs2tex/
 EXTRACT_SUFX=		.tar.bz2
 
 HOMEPAGE=		http://www.iai.uni-bonn.de/~loeh/lhs2tex/
-MAINTAINER=		emil@math.su.se
+MAINTAINER=		esg@sdf.lonestar.org
 COMMENT=		Preprocessor for typesetting Haskell sources with LaTeX
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes

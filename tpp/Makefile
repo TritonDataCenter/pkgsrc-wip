@@ -5,7 +5,7 @@ DISTNAME=		tpp-1.3.1
 CATEGORIES=		graphics
 MASTER_SITES=		http://synflood.at/tpp/
 
-MAINTAINER=		emil@math.su.se
+MAINTAINER=		esg@sdf.lonestar.org
 HOMEPAGE=		http://synflood.at/tpp/
 COMMENT=		Tpp is an ncurses-based presentation tool
 

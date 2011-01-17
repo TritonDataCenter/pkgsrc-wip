@@ -4,7 +4,7 @@
 DISTNAME=	happy-1.18.6
 PKGNAME=	${DISTNAME}
 CATEGORIES=	devel
-MAINTAINER=	emil@math.su.se
+MAINTAINER=	esg@sdf.lonestar.org
 HOMEPAGE=	http://www.haskell.org/happy/
 COMMENT=	LALR(1) parser generator for the functional language Haskell
 LICENSE=	modified-bsd

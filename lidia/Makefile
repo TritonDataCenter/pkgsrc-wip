@@ -5,7 +5,7 @@ DISTNAME=		lidia-2.2.0
 CATEGORIES=		math
 MASTER_SITES=		ftp://ftp.informatik.tu-darmstadt.de/pub/TI/systems/LiDIA/current/
 
-MAINTAINER=		emil@math.su.se
+MAINTAINER=		esg@sdf.lonestar.org
 HOMEPAGE=		ftp://ftp.informatik.tu-darmstadt.de/pub/TI/systems/LiDIA/current/
 COMMENT=		C++ Library For Computational Number Theory
 

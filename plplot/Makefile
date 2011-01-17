@@ -5,7 +5,7 @@ DISTNAME=	plplot-5.9.2
 CATEGORIES=	graphics
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=plplot/}
 
-MAINTAINER=	emil@math.su.se
+MAINTAINER=	esg@sdf.lonestar.org
 HOMEPAGE=	http://plplot.sourceforge.net/
 COMMENT=	Scientific plotting library
 

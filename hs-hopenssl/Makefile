@@ -3,7 +3,7 @@ DISTNAME=	hopenssl-1.2
 PKGREVISION=	1
 CATEGORIES=	security
 
-MAINTAINER=	emil@math.su.se
+MAINTAINER=	esg@sdf.lonestar.org
 COMMENT=	FFI bindings to OpenSSL's EVP digest interface
 LICENSE=	modified-bsd
 
