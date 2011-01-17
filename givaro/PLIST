@@ -33,7 +33,6 @@ include/givaro/givhighorder.h
 include/givaro/givindeter.h
 include/givaro/givinit.h
 include/givaro/givinteger.h
-include/givaro/givinteger.inl
 include/givaro/givinterp.h
 include/givaro/givintfactor.h
 include/givaro/givintfactor.inl
