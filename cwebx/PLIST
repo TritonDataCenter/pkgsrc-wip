@@ -1,0 +1,5 @@
+@comment $NetBSD$
+bin/ctanglex
+bin/cweavex
+man/man1/cwebx.1
+share/doc/cwebx/manual.dvi
