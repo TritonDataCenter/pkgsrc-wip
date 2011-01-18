@@ -1,13 +1,13 @@
 # $NetBSD$
 #
 
-DISTNAME=	gst123-0.1.3
-CATEGORIES=	audio
+DISTNAME=	gst123-0.1.4
+CATEGORIES=	audio multimedia
 MASTER_SITES=	http://space.twc.de/~stefan/gst123/
 EXTRACT_SUFX=	.tar.bz2
 
-MAINTAINER=	ryo_on@yk.rim.or.jp
-HOMEPAGE=	http://space.twc.de/~stefan/gst123/
+MAINTAINER=	ryoon@NetBSD.org
+HOMEPAGE=	http://space.twc.de/~stefan/gst123.php
 COMMENT=	The gst123 is designed to be a more flexible command line player
 LICENSE=	gnu-gpl-v2
 
