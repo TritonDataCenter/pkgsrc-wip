@@ -15,6 +15,9 @@ NO_CONFIGURE=	YES
 WRKSRC=		${WRKDIR}
 EXTRACT_USING=	gtar # archive does not properly extract using BSD tar
 
+LIBS.SunOS+=	-lsocket -lnsl
+MAKE_ENV+=	LDLIBS=${LIBS:Q}
+
 INSTALLATION_DIRS=	sbin
 
 do-install:
