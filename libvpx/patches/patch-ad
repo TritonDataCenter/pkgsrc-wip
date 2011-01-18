@@ -1,5 +1,7 @@
 $NetBSD$
 
+*BSD are identified as linux.
+
 --- build/make/configure.sh.orig	2010-10-28 13:14:14.000000000 +0000
 +++ build/make/configure.sh
 @@ -956,6 +956,18 @@ EOF
