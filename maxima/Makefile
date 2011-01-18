@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		maxima-5.23.0
+DISTNAME=		maxima-5.23.2
 # On updates, please make sure editors/TeXmacs knows about the new
 # version number.
 # (if needed, patch plugins/maxima/bin/{maxima_detect,tm_maxima})
