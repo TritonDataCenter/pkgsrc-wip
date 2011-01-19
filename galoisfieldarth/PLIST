@@ -1,0 +1,6 @@
+@comment $NetBSD$
+bin/GFPDerivTest
+bin/GaloisFieldOut
+bin/GaloisFieldTest
+bin/GaloisProto
+bin/GaloisShiftProto
