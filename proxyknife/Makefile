@@ -18,6 +18,7 @@ USE_TOOLS+=	perl gmake
 USE_FEATURES+=	snprintf
 
 CONFIGURE_ARGS+=	--docdir=${PREFIX}/share/doc/proxyknife
+CPPFLAGS.SunOS+=	-DHAVE_LOCALE_H # apparently not automatically detected
 
 CONF_FILES=	${DESTDIR}${PREFIX}/share/doc/proxyknife/example/proxyknife.conf.example ${DESTDIR}${PKG_SYSCONFDIR}/proxyknife.conf
 
