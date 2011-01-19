@@ -31,6 +31,10 @@ BUILD_DEFS+=		VARBASE
 CPPFLAGS+=		-Duint16_t=u_int16_t -Duint32_t=u_int32_t
 .endif
 
+.if exists(/usr/include/pam/pam_appl.h) # MacOS X prior to 10.6
+CPPFLAGS+=		-DPAM-PAM
+.endif
+
 INSTALLATION_DIRS=	sbin ${PKGMANDIR}/man3 ${PKGMANDIR}/man5 \
 			${PKGMANDIR}/man8 share/doc/tacacs
 
