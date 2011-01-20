@@ -1,0 +1,6 @@
+# $NetBSD$
+
+# used by wip/ec2-ami-tools/Makefile
+#
+# Default path to Amazon EC2 scripts, binaries and tools
+EC2_HOME=	${PREFIX}/amazon-ec2
