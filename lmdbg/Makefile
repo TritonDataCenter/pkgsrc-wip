@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	lmdbg-0.16.0
+PKGREVISION=	1
 CATEGORIES=	devel
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=lmdbg/} \
 		http://mova.org/~cheusov/pub/lmdbg/
@@ -11,7 +12,7 @@ HOMEPAGE=	http://sourceforge.net/projects/lmdbg/
 COMMENT=	Lightweight Modular malloc Debugger
 LICENSE=		mit
 
-BUILD_DEPENDS+=		mk-configure>=0.20.0:../../wip/mk-configure
+BUILD_DEPENDS+=		mk-configure>=0.20.0:../../devel/mk-configure
 DEPENDS+=		pipestatus-[0-9]*:../../devel/pipestatus
 #DEPENDS+=		gdb-[0-9]*:../../devel/gdb
 

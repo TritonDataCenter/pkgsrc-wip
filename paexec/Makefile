@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	paexec-0.15.0
+PKGREVISION=	1
 CATEGORIES=	parallel sysutils
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=paexec/} \
 		http://mova.org/~cheusov/pub/paexec/
@@ -11,8 +12,8 @@ HOMEPAGE=	http://sourceforge.net/projects/paexec
 COMMENT=	Distributes tasks over network or CPUs
 LICENSE=		mit
 
-BUILD_DEPENDS+=		mk-configure>=0.20.0:../../wip/mk-configure
-DEPENDS+=		runawk>=0.20.0:../../wip/runawk
+BUILD_DEPENDS+=		mk-configure>=0.20.0:../../devel/mk-configure
+DEPENDS+=		runawk>=0.20.0:../../lang/runawk
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 

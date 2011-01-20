@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	distbb-0.39.2
-PKGREVISION=	1
+PKGREVISION=	2
 CATEGORIES=	pkgtools
 MASTER_SITES=	http://mova.org/~cheusov/pub/distbb/
 
@@ -13,11 +13,11 @@ LICENSE=	2-clause-bsd
 
 DEPENDS+=	pkg_summary-utils>=0.50beta3:../../wip/pkg_summary-utils
 DEPENDS+=	paexec>=0.15.0:../../wip/paexec
-DEPENDS+=	runawk>=1.1.0:../../wip/runawk
+DEPENDS+=	runawk>=1.1.0:../../lang/runawk
 DEPENDS+=	pipestatus>=0.6.0:../../devel/pipestatus
 DEPENDS+=	digest-[0-9]*:../../pkgtools/digest
 
-BUILD_DEPENDS+=	mk-configure>=0.21:../../wip/mk-configure
+BUILD_DEPENDS+=	mk-configure>=0.21:../../devel/mk-configure
 
 USE_LANGUAGES=		# none
 
