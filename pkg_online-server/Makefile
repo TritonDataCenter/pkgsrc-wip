@@ -11,7 +11,7 @@ DEPENDS+=	dict-server>=1.10.10nb2:../../textproc/dict-server
 DEPENDS+=	pkg_summary-utils>=0.18.1:../../wip/pkg_summary-utils
 DEPENDS+=	pipestatus-[0-9]*:../../devel/pipestatus
 
-BUILD_DEPENDS+=	mk-configure>=0.20.0:../../wip/mk-configure
+BUILD_DEPENDS+=	mk-configure>=0.20.0:../../devel/mk-configure
 
 INSTALL_TARGET=	install-server install-doc
 

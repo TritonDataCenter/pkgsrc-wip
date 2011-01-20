@@ -12,7 +12,7 @@ DEPENDS+=	pkg_summary-utils>=0.49:../../wip/pkg_summary-utils
 DEPENDS+=	pipestatus-[0-9]*:../../devel/pipestatus
 DEPENDS+=	netcat-[0-9]*:../../net/netcat
 
-BUILD_DEPENDS+=	mk-configure>=0.20.0:../../wip/mk-configure
+BUILD_DEPENDS+=	mk-configure>=0.20.0:../../devel/mk-configure
 
 INSTALL_TARGET=	install-client install-doc
 
