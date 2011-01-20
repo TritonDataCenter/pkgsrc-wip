@@ -1,10 +1,9 @@
 # $NetBSD$
 #
 
-DISTNAME=	olsrd-0.5.6-r5
-PKGNAME=	olsrd-0.5.6r5
+DISTNAME=	olsrd-0.6.1
 CATEGORIES=	net
-MASTER_SITES=	http://www.olsr.org/releases/0.5/
+MASTER_SITES=	http://www.olsr.org/releases/0.6/
 
 MAINTAINER=	khorben@defora.org
 HOMEPAGE=	http://www.olsr.org/

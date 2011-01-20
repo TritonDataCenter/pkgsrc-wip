@@ -1,5 +1,6 @@
 @comment $NetBSD$
-man/man5/olsrd.conf.5
-man/man8/olsrd.8
+etc/olsrd.conf
+man/man5/olsrd.conf.5.gz
+man/man8/olsrd.8.gz
 sbin/olsrd
 share/examples/olsrd/olsrd.conf
