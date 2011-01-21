@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	OmegaT_2.2.2_01_Beta_Without_JRE
+DISTNAME=	OmegaT_2.2.3_01_Beta_Without_JRE
 PKGNAME=	${DISTNAME:S/OmegaT_/OmegaT-bin-/:S/_Without_JRE//:S/_/./g}
 CATEGORIES=	editors
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=omegat/}
