@@ -5,7 +5,7 @@ DISTNAME=	nicovideo-dl-0.0.20091209
 CATEGORIES=	net
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE_JP:=nicovideo-dl/44836/}
 
-MAINTAINER=	ryo_on@yk.rim.or.jp
+MAINTAINER=	ryoon@NetBSD.org
 HOMEPAGE=	http://sourceforge.jp/projects/nicovideo-dl/
 COMMENT=	Download videos from www.nicovideo.jp
 LICENSE=	mit
