@@ -1,0 +1,5 @@
+@comment $NetBSD$
+bin/compare
+bin/makegnuplot
+bin/probcons
+bin/project
