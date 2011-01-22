@@ -37,7 +37,11 @@ EGDIR=			${PREFIX}/share/examples/mc
 
 CONFFILES=	cedit.menu edit.indent.rc edit.spell.rc filehighlight.ini \
 		mc.ext mc.keymap mc.keymap.default mc.keymap.emacs mc.lib \
-		mc.menu mc.menu.sr syntax/Syntax
+		mc.menu mc.menu.sr
+
+.if !empty(PKG_OPTIONS:Medit)
+CONFFILES+=	syntax/Syntax
+.endif
 
 .if !empty(PKG_OPTIONS:Mvfs)
 CONFFILES+=	sfs.ini
