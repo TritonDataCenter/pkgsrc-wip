@@ -1097,6 +1097,7 @@ SUBDIR+=	kaffe
 SUBDIR+=	kaffe-x11
 SUBDIR+=	kahakai
 SUBDIR+=	kahua
+SUBDIR+=	kanjistrokeorders-ttf
 SUBDIR+=	kannel-gateway
 SUBDIR+=	kapital
 SUBDIR+=	kacst-ttf
