@@ -1,5 +1,6 @@
 $NetBSD$
 
+for installing configs to share/examples/mc
 --- lib/vfs/mc-vfs/extfs/Makefile.in.orig	2010-07-05 19:13:19.000000000 +0000
 +++ lib/vfs/mc-vfs/extfs/Makefile.in
 @@ -391,7 +391,7 @@ EXTFS_OUT = \

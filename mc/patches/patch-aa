@@ -1,4 +1,6 @@
 $NetBSD$
+
+https://midnight-commander.org/ticket/2425
 Fixes segmentation fault on NetBSD
 --- src/mountlist.c.orig	2010-11-08 11:46:14.000000000 +0000
 +++ src/mountlist.c

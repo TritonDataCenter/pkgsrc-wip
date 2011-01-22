@@ -1,5 +1,6 @@
 $NetBSD$
 
+for installing configs to share/examples/mc
 --- misc/syntax/Makefile.in.orig	2010-07-05 19:13:19.000000000 +0000
 +++ misc/syntax/Makefile.in
 @@ -386,7 +386,7 @@ SYNTAXCONFFILES = \
