@@ -64,6 +64,4 @@ post-install:
 	rmdir ${DESTDIR}${PREFIX}/lib/mc 2>/dev/null || ${TRUE}
 
 .include "../../devel/gettext-lib/buildlink3.mk"
-.include "../../devel/libslang2/buildlink3.mk"
-.include "../../devel/ncurses/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
