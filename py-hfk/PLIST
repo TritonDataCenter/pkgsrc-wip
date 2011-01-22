@@ -1,0 +1,5 @@
+@comment $NetBSD$
+${PYSITELIB}/hfk/__init__.py
+${PYSITELIB}/hfk/__init__.pyc
+${PYSITELIB}/hfk/__init__.pyo
+${PYSITELIB}/hfk/_hfk.so
