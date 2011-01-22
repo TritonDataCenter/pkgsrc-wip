@@ -1224,7 +1224,6 @@ SUBDIR+=	libuxre
 SUBDIR+=	libvalhalla
 SUBDIR+=	libvc
 SUBDIR+=	libvg
-SUBDIR+=	libvpx
 SUBDIR+=	libwbxml2-patched
 SUBDIR+=	libxc
 SUBDIR+=	libyubikey
