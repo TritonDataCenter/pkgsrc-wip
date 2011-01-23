@@ -8,8 +8,6 @@ COMMENT=	POCO C++ ODBC RDBMS Accessor libraries
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
-.include "../../mk/bsd.prefs.mk"
-
 .include "../../wip/poco/Makefile.common"
 
 CONFIGURE_ARGS+=	--prefix=${PREFIX}
