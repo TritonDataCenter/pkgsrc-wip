@@ -1,6 +1,7 @@
 # $NetBSD$
 
 DISTNAME=	pkg_conflicts-0.4.0
+PKGREVISION=	1
 CATEGORIES=	pkgtools
 MASTER_SITES=	# empty
 DISTFILES=	# empty
@@ -11,7 +12,7 @@ COMMENT=	Tools for automatic CONFLICTS detection
 
 LICENSE=	mit
 
-DEPENDS+=	runawk>=0.14.3:../../wip/runawk
+DEPENDS+=	runawk>=0.14.3:../../lang/runawk
 DEPENDS+=	pkg_online-client>=0.6.0:../../wip/pkg_online-client
 DEPENDS+=	pkg_summary-utils-[0-9]*:../../wip/pkg_summary-utils
 
