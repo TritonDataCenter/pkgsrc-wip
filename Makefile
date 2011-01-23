@@ -2248,7 +2248,6 @@ SUBDIR+=	ruby-memoize
 SUBDIR+=	ruby-term-ansicolor
 SUBDIR+=	ruby-trollop
 SUBDIR+=	ruby-xmpp4r
-SUBDIR+=	runawk
 SUBDIR+=	runit
 SUBDIR+=	s3cmd
 SUBDIR+=	s3funnel
