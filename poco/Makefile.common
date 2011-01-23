@@ -25,6 +25,8 @@ CONFIGURE_ARGS+=	--prefix=${PREFIX} --omit=Data
 # don't use the bundled versions of SQLite, zlib, etc..
 CONFIGURE_ARGS+=	--unbundled
 
+.include "../../mk/bsd.prefs.mk"
+
 .if !empty(OPSYS:M*BSD)
 CONFIGURE_ARGS+=	--config=FreeBSD
 .endif
