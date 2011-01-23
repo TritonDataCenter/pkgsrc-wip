@@ -1,7 +1,5 @@
 $NetBSD$
 
-#
-
 --- configure.orig	2010-01-15 12:13:34.000000000 +0000
 +++ configure
 @@ -194,45 +194,47 @@ if [ "$base" != "$build" ] ; then
