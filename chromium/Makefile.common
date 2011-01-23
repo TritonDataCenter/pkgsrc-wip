@@ -133,7 +133,7 @@ do-install:
 .include "../../mk/jpeg.buildlink3.mk"
 .include "../../graphics/png/buildlink3.mk"
 .include "../../lang/python/pyversion.mk"
-.include "../../wip/libvpx/buildlink3.mk"
+.include "../../multimedia/libvpx/buildlink3.mk"
 .include "../../security/libgnome-keyring/buildlink3.mk"
 .include "../../textproc/libxslt/buildlink3.mk"
 .include "../../x11/gtk2/buildlink3.mk"
