@@ -1312,7 +1312,6 @@ SUBDIR+=	mawk-rxspencer
 SUBDIR+=	mawk-tre
 SUBDIR+=	mawk-uxre
 SUBDIR+=	maxima
-SUBDIR+=	mc
 SUBDIR+=	mc-mp
 SUBDIR+=	mcabber
 SUBDIR+=	mcats
