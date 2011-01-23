@@ -2,19 +2,18 @@
 
 DISTNAME=		spectrum-1.4.7
 CATEGORIES=		chat
+MASTER_SITES=		http://spectrum.im/attachments/download/37/
 
-# Second paragraph - MAINTAINER/OWNER, HOMEPAGE and COMMENT, and LICEN[CS]E
 MAINTAINER=		eric@cirr.com
 HOMEPAGE=		http://spectrum.im/
 COMMENT=		XMPP transport/gateway based on libpurple
 LICENSE=		gnu-gpl-v3
-MASTER_SITES=		http://spectrum.im/attachments/download/37/
 
 DEPENDS+=		${PYPKGPREFIX}-xmpppy>=0.4.1:../../wip/py-xmpppy
 DEPENDS+=		${PYPKGPREFIX}-expat>=0nb4:../../textproc/py-expat
+
 PYTHON_VERSIONS_ACCEPTED=	26 25
 
-# if the package can be created without root privileges
 PKG_DESTDIR_SUPPORT=	user-destdir
 
 USE_TOOLS+=		pkg-config msgfmt xgettext
@@ -24,8 +23,6 @@ USE_LANGUAGES=		c++ c
 REPLACE_PYTHON+=	spectrumctl/spectrumctl.py
 PY_PATCHPLIST=		yes
 
-# always include bsd.prefs.mk before any .if or .ifdef statements
-.include "../../mk/bsd.prefs.mk"
 .include "../../wip/jabberd/transports.mk"
 
 PKG_SYSCONFSUBDIR=	spectrum
