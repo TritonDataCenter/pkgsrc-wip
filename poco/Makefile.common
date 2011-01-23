@@ -14,6 +14,9 @@ MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=poco/}
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.pocoproject.org/
 
+PKG_DESTDIR_SUPPORT=	user-destdir
+LICENSE=		boost
+
 PATCHDIR=	${.CURDIR}/../../wip/poco/patches
 DISTINFO_FILE=	${.CURDIR}/../../wip/poco/distinfo
 

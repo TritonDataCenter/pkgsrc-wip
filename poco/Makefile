@@ -4,9 +4,7 @@
 PKGNAME=	poco-${POCO_VERSION}
 CATEGORIES=	devel
 
-COMMENT=	POCO C++ libraries
-
-PKG_DESTDIR_SUPPORT=	user-destdir
+COMMENT=	POCO C++ Foundation libraries
 
 .include "../../wip/poco/Makefile.common"
 

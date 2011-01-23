@@ -6,8 +6,6 @@ CATEGORIES=	databases
 
 COMMENT=	POCO C++ MySQL RDBMS Accessor libraries
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 .include "../../wip/poco/Makefile.common"
 
 CONFIGURE_ARGS+=	--prefix=${PREFIX}
