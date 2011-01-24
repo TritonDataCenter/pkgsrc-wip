@@ -21,4 +21,7 @@ GNU_CONFIGURE=	yes
 USE_TOOLS+=	gmake
 USE_LIBTOOL=	yes
 
+CONFIGURE_ARGS+=	--enable-ntl-checks
+
+.include "../../math/ntl/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
