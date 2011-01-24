@@ -1,0 +1,7 @@
+@comment $NetBSD$
+include/libzn-poly/profiler.h
+include/libzn-poly/support.h
+include/libzn-poly/wide_arith.h
+include/libzn-poly/zn_poly.h
+include/libzn-poly/zn_poly_internal.h
+lib/libzn_poly.a
