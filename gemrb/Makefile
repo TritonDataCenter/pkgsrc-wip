@@ -22,6 +22,7 @@ INSTALL_MAKE_FLAGS+=	sysconfdir=${PREFIX}/share/examples/gemrb
 
 #.include "../../audio/freealut/buildlink3.mk"
 .include "../../audio/openal/buildlink3.mk"
+# not properly found by cmake?
 .include "../../audio/SDL_mixer/buildlink3.mk"
 .include "../../audio/libvorbis/buildlink3.mk"
 .include "../../devel/SDL/buildlink3.mk"
