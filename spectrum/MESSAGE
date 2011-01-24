@@ -23,7 +23,7 @@ Quick Start:
 				(the value of <secret/> in router.xml
 
 	protocol	    --	The protocol to be implemented
-				ex: Yahoo, ICQ, MSN
+				ex: yahoo, icq, msn
 
 	[database] settings:
 	type		    --	sqlite or mysql, depending on build
