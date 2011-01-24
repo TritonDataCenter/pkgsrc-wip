@@ -564,6 +564,7 @@ SUBDIR+=	gecko-mediaplayer
 SUBDIR+=	gecko-sharp
 SUBDIR+=	gemrb
 SUBDIR+=	gerris
+SUBDIR+=	gf2x
 SUBDIR+=	gfa
 SUBDIR+=	gfan
 SUBDIR+=	gfontview
