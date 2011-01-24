@@ -16,7 +16,7 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 USE_LANGUAGES=	# none
 
 PYDISTUTILSPKG=		yes
-PYTHON_VERSIONS_ACCEPTED= 26 25 24	# XXX - 30 also requires it
+PYTHON_VERSIONS_ACCEPTED= 26 25 24
 
 do-test:
 	( cd ${WRKSRC} && ${PYTHONBIN} ipaddr_test.py )
