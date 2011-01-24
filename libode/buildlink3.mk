@@ -1,0 +1,12 @@
+# $NetBSD$
+
+BUILDLINK_TREE+=	libode
+
+.if !defined(LIBODE_BUILDLINK3_MK)
+LIBODE_BUILDLINK3_MK:=
+
+BUILDLINK_API_DEPENDS.libode+=	libode>=0.11.1
+BUILDLINK_PKGSRCDIR.libode?=	../../wip/libode
+.endif	# LIBODE_BUILDLINK3_MK
+
+BUILDLINK_TREE+=	-libode
