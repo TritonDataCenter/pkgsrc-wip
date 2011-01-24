@@ -1,0 +1,7 @@
+@comment $NetBSD$
+${PYSITELIB}/pygnm/GNM.py
+${PYSITELIB}/pygnm/GNM.pyc
+${PYSITELIB}/pygnm/GNM.pyo
+${PYSITELIB}/pygnm/__init__.py
+${PYSITELIB}/pygnm/__init__.pyc
+${PYSITELIB}/pygnm/__init__.pyo
