@@ -8,7 +8,7 @@ MASTER_SITES=	http://stat.genopole.cnrs.fr/_media/logiciels/
 
 MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	http://stat.genopole.cnrs.fr/logiciels/mixnet
-COMMENT=	Erdös-Renyi Mixture for Networks
+COMMENT=	Erdos-Renyi Mixture for Networks
 LICENSE=	gnu-gpl-v3
 
 PKG_DESTDIR_SUPPORT=	user-destdir
