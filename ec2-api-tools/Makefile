@@ -37,10 +37,10 @@ SUBST_MESSAGE.java-path=Fixing path to Java interpreter.
 SUBST_CLASSES+=		ec2-home
 SUBST_STAGE.ec2-home=	pre-configure
 SUBST_FILES.ec2-home=	bin/*
-SUBST_SED.ec2-home+=	-e 's|:.EC2_HOME is not set|:-${EC2_HOME}/|g'
+SUBST_SED.ec2-home+=	-e 's|:.EC2_HOME is not set|:-${EC2_HOME}|g'
 SUBST_MESSAGE.ec2-home=	Setting EC2_HOME default path.
 
-INSTALLATION_DIRS+=	bin amazon-ec2 amazon-ec2/bin amazon-ec2/lib
+INSTALLATION_DIRS+=	bin ${EC2_DIR} ${EC2_DIR}/bin ${EC2_DIR}/lib
 
 post-extract:
 	# Get rid of Windows batch files

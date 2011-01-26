@@ -3,4 +3,5 @@
 # used by wip/ec2-ami-tools/Makefile
 #
 # Default path to Amazon EC2 scripts, binaries and tools
-EC2_HOME=	${PREFIX}/amazon-ec2
+EC2_DIR=	ec2-amazon
+EC2_HOME=	${PREFIX}/${EC2_DIR}
