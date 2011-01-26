@@ -12,7 +12,7 @@ EXTRACT_SUFX=	.zip
 
 MAINTAINER=	jym@NetBSD.org
 HOMEPAGE=	http://aws.amazon.com/developertools/368
-COMMENT=	Amazon EC2 AMI Tools (bundle, create, upload AMIs to S3)
+COMMENT=	Amazon EC2 AMI tools (bundle, create, upload AMIs to S3)
 LICENSE=	amazon-software-license
 
 PKG_DESTDIR_SUPPORT=	user-destdir
