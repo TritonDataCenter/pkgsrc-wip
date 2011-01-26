@@ -40,6 +40,8 @@ SUBST_FILES.ec2-home=	bin/*
 SUBST_SED.ec2-home+=	-e 's|:.EC2_HOME is not set|:-${EC2_HOME}|g'
 SUBST_MESSAGE.ec2-home=	Setting EC2_HOME default path.
 
+PLIST_SUBST+=		EC2_DIR=${EC2_DIR:Q}
+
 INSTALLATION_DIRS+=	bin ${EC2_DIR} ${EC2_DIR}/bin ${EC2_DIR}/lib
 
 post-extract:
