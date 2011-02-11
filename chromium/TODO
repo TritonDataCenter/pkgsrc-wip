@@ -28,3 +28,4 @@ webkit/tools/pepper_test_plugin/event_handler.cc
 
 resolve http://secunia.com/advisories/42605/ if applicable
 also SA42850
+also SA43021
