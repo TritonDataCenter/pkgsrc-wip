@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	groonga-1.0.6
+DISTNAME=	groonga-1.1.0
 CATEGORIES=	textproc
 MASTER_SITES=	http://groonga.org/files/groonga/
 
@@ -33,6 +33,7 @@ CONF_FILES+=		share/examples/${PKGBASE}/groonga.conf \
 OWN_DIRS+=		${VARBASE}/log/${PKGBASE}
 
 CHECK_WRKREF_SKIP+=	bin/groonga
+CHECK_INTERPRETER_SKIP+=	share/groonga/examples/*
 
 .include "../../devel/glib2/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

@@ -1,6 +1,7 @@
 @comment $NetBSD$
 bin/grntest
 bin/groonga
+bin/groonga-suggest-create-dataset
 include/groonga/groonga.h
 include/groonga/groonga/plugin.h
 lib/groonga/plugins/suggest/suggest.la

@@ -25,6 +25,7 @@ USE_TOOLS+=		gmake
 TEST_TARGET=		check
 BUILDLINK_DEPMETHOD.${RUBY_BASE}+=	build
 .include "../../lang/ruby/buildlink3.mk"
+BUILDLINK_API_DEPENDS.cutter+=		cutter>=1.1.6
 .include "../../devel/cutter/buildlink3.mk"
 .else
 CONFIGURE_ARGS+=	--without-ruby
