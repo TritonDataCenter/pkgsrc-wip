@@ -1,0 +1,5 @@
+@comment $NetBSD$
+sbin/groupadd
+sbin/groupdel
+sbin/useradd
+sbin/userdel
