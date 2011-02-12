@@ -169,7 +169,7 @@ GENERATE_PLIST+=                                                        \
 	| ${SORT} ;
 
 .include "../../devel/gmp/buildlink3.mk"
-.include "../../wip/mpc/buildlink3.mk"
+.include "../../math/mpcomplex/buildlink3.mk"
 .include "../../devel/zlib/buildlink3.mk"
 .include "../../math/mpfr/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
