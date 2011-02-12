@@ -2599,6 +2599,7 @@ SUBDIR+=	wordwarvi
 SUBDIR+=	workrave
 SUBDIR+=	wpro
 SUBDIR+=	wput
+SUBDIR+=	wqy-zenhei-ttf
 SUBDIR+=	wrcs
 SUBDIR+=	writrecogn
 SUBDIR+=	wsmake
