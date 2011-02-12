@@ -3,7 +3,7 @@
 
 DISTNAME=	nodau-0.2.1
 CATEGORIES=	editors
-MASTER_SITES=	http://ryo-on.users.sourceforge.net/distrib/
+MASTER_SITES=	-http://sandbox.ltmnet.com/download/35
 EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	ryo_on@yk.rim.or.jp
