@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	Trac-0.12.1
+DISTNAME=	Trac-0.12.2
 PKGNAME=	${DISTNAME:tl}
 EGG_NAME=	${DISTNAME}
 CATEGORIES=	devel www
