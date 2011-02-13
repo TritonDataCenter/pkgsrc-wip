@@ -6,8 +6,8 @@ CATEGORIES=	fonts
 MASTER_SITES=	http://ryo-on.users.sourceforge.net/distrib/
 EXTRACT_SUFX=	.tar.bz2
 
-MAINTAINER=	ryo_on@yk.rim.or.jp
-HOMEPAGE=	http://www.droidfonts.com/
+MAINTAINER=	ryoon@NetBSD.org
+HOMEPAGE=	http://android.git.kernel.org/?p=platform/frameworks/base.git;a=tree;f=data/fonts
 COMMENT=	The Droid fonts family from Ascender Corporation
 LICENSE=	apache-2.0
 
