@@ -1,11 +1,13 @@
 @comment $NetBSD$
 bin/sesman
 bin/sesrun
+bin/sessvc
+bin/sestest
 bin/startwm.sh
 bin/xrdp
 bin/xrdp_control.sh
-bin/xrdpstart.sh
 lib/librdp.so
+lib/libscp.so
 lib/libvnc.so
 lib/libxrdp.so
 lib/libxup.so
