@@ -22,6 +22,7 @@ WRKSRC=			${WRKDIR}/open-axiom
 PKG_DESTDIR_SUPPORT=	user-destdir
 MAKE_JOBS_SAFE=		no
 
+USE_LANGUAGES=		c c++
 GNU_CONFIGURE=		yes
 USE_LIBTOOL=		yes
 USE_TOOLS+=		gmake makeinfo awk:run
