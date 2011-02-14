@@ -35,7 +35,7 @@ SCONS_INSTALL_TARGET= "install"
 SCONS_TARGET=	all
 SCONS_ARGS= 	--prefix=${PREFIX}
 SCONS_ARGS+=	--full
-
+SCONS_ARGS+= 	--libpath=${LIBPATH}
 
 do-build:
 	cd ${WRKSRC} && ${SETENV} ${SCONS_BUILDENV} ${SCONS_BIN} ${SCONS_ENV} ${SCONS_ARGS} ${SCONS_TARGET}
