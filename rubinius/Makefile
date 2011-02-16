@@ -1,12 +1,12 @@
 # $NetBSD$
-DISTNAME=	rubinius-1.2.1dev
+DISTNAME=	rubinius-1.2.1-20110215
 CATEGORIES=	lang
-MASTER_SITES=	ftp://ftp.netbsd.org/pub/NetBSD/misc/ober/
+MASTER_SITES=	http://asset.rubini.us/
 
 MAINTAINER=	ober@netbsd.org
 HOMEPAGE=	http://rubini.us/
 COMMENT=	Rubinius is an implementation of the Ruby programming language.
-EXTRACT_SUFX=	.tgz
+EXTRACT_SUFX=	.tar.gz
 
 
 PKG_DESTDIR_SUPPORT=	user-destdir
@@ -30,9 +30,7 @@ do-install:
 		ln -s ${DESTDIR}/bin/rake18 ${DESTDIR}/bin/rake; \
 	 fi; \
 	fi;
-	cd ${WRKSRC} && ./configure --prefix=${DESTDIR}/rubinius && ${DESTDIR}/bin/rake install
-
-
+	cd work/rubinius-1.2.1 && ./configure --prefix=${DESTDIR}/rubinius && ${DESTDIR}/bin/rake install
 
 DEPENDS+=	bison>=2.4.3:../../devel/bison
 DEPENDS+=	zlib>=1.2.3:../../devel/zlib
