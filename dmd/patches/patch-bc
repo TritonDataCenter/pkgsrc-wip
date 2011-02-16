@@ -1,0 +1,13 @@
+$NetBSD$
+
+--- src/druntime/posix.mak.orig	2010-12-15 07:30:54.000000000 +0000
++++ src/druntime/posix.mak
+@@ -1,5 +1,7 @@
+ 
+-DMD=dmd
++all: target
++
++DMD=../dmd/dmd
+ 
+ DOCDIR=doc
+ IMPDIR=import

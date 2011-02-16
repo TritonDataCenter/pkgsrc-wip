@@ -1,0 +1,13 @@
+$NetBSD$
+
+--- src/druntime/src/rt/monitor.c.orig	2010-12-15 07:30:48.000000000 +0000
++++ src/druntime/src/rt/monitor.c
+@@ -16,7 +16,7 @@
+ #include <assert.h>
+ 
+ #if _WIN32
+-#elif linux || __APPLE__ || __FreeBSD__
++#elif linux || __APPLE__ || __FreeBSD__ || __NetBSD__
+ #define USE_PTHREADS    1
+ #else
+ #endif
