@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	pkgnih-0.4.1
+DISTNAME=	pkgnih-0.5
 CATEGORIES=	pkgtools
 MASTER_SITES=	http://mova.org/~cheusov/pub/pkgnih/
 
@@ -20,7 +20,6 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 BUILD_TARGET=		all all-doc
 INSTALL_TARGET=		install install-doc
 
-#WRKSRC=			${WRKDIR}/pkgnih
 EGDIR=			${PREFIX}/share/examples/nih
 
 CONF_FILES=		${EGDIR}/nih.conf \
