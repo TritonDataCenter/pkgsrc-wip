@@ -1,5 +1,11 @@
 @comment $NetBSD$
 bin/createfp
 include/libtextcat/textcat.h
+include/libtextcat/common.h
+include/libtextcat/config.h
+include/libtextcat/constants.h
+include/libtextcat/fingerprint.h
+include/libtextcat/utf8misc.h
+include/libtextcat/wg_mempool.h
 lib/libtextcat.la
 share/libtextcat/README
