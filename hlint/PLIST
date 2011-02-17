@@ -77,4 +77,4 @@ share/${PKGNAME}/Test.hs
 share/${PKGNAME}/hlint.1
 share/${PKGNAME}/hlint.ghci
 share/${PKGNAME}/hs-lint.el
-share/${PKGNAME}/report.html
+share/${PKGNAME}/report_template.html

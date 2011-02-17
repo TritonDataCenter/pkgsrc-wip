@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	hlint-1.7.2
+DISTNAME=	hlint-1.8.7
 PKGNAME=	${DISTNAME}
 CATEGORIES=	devel
 
@@ -12,6 +12,6 @@ COMMENT=	Haskell source code suggestions
 .include "../../wip/hs-cpphs/buildlink3.mk"
 .include "../../wip/hs-haskell-src-exts/buildlink3.mk"
 .include "../../wip/hs-hscolour/buildlink3.mk"
-.include "../../wip/hs-mtl/buildlink3.mk"
+.include "../../wip/hs-transformers/buildlink3.mk"
 .include "../../wip/hs-uniplate/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
