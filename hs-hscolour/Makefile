@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	hscolour-1.16
+DISTNAME=	hscolour-1.17
 CATEGORIES=	devel
 
 MAINTAINER=	pho@cielonegro.org
