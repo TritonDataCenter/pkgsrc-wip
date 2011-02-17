@@ -33,6 +33,8 @@ lib/uniplate-${PKGVERSION}/${HASKELL_VERSION}/Data/Generics/Uniplate/Operations.
 lib/uniplate-${PKGVERSION}/${HASKELL_VERSION}/Data/Generics/Uniplate/Operations.p_hi
 lib/uniplate-${PKGVERSION}/${HASKELL_VERSION}/Data/Generics/Uniplate/Typeable.hi
 lib/uniplate-${PKGVERSION}/${HASKELL_VERSION}/Data/Generics/Uniplate/Typeable.p_hi
+lib/uniplate-${PKGVERSION}/${HASKELL_VERSION}/Data/Generics/Uniplate/Zipper.hi
+lib/uniplate-${PKGVERSION}/${HASKELL_VERSION}/Data/Generics/Uniplate/Zipper.p_hi
 lib/uniplate-${PKGVERSION}/${HASKELL_VERSION}/Data/Generics/UniplateOn.hi
 lib/uniplate-${PKGVERSION}/${HASKELL_VERSION}/Data/Generics/UniplateOn.p_hi
 lib/uniplate-${PKGVERSION}/${HASKELL_VERSION}/Data/Generics/UniplateStr.hi
