@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	undo-tree
-PKGNAME=	${DISTNAME}-0.1.6
+PKGNAME=	${DISTNAME}-0.3
 CATEGORIES=	editors
 MASTER_SITES=	http://www.dr-qubit.org/${DISTNAME}/
 EXTRACT_SUFX=	.el
