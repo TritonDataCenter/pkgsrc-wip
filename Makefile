@@ -434,7 +434,6 @@ SUBDIR+=	e2fsprogs
 SUBDIR+=	e3
 SUBDIR+=	easymesh
 SUBDIR+=	eboard-extras
-SUBDIR+=	ec2-ami-tools
 SUBDIR+=	ecasound
 SUBDIR+=	ecb
 SUBDIR+=	eciadsl-usermode
