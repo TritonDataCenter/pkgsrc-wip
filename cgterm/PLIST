@@ -1,0 +1,13 @@
+@comment $NetBSD$
+bin/cgchat
+bin/cgedit
+bin/cgterm
+share/cgterm/10x12white.bmp
+share/cgterm/10x12yellow.bmp
+share/cgterm/bell.wav
+share/cgterm/german.kbd
+share/cgterm/lower.bmp
+share/cgterm/swedish.kbd
+share/cgterm/upper.bmp
+share/cgterm/us.kbd
+share/cgterm/windows.kbd
