@@ -7,7 +7,7 @@ $NetBSD$
  #include <sys/types.h>
  #include <limits.h>
 -#include <db.h>
-+#include <db4/db.h>
++#include <db46/db.h>
  /* O_CREAT and others are not defined in db.h */
  #include <fcntl.h>
  
