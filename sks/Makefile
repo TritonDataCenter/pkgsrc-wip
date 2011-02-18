@@ -34,6 +34,7 @@ post-install:
 	cd ${WRKSRC} && ${MAKE_PROGRAM} sks.8
 	${INSTALL_PROGRAM} ${WRKSRC}/sks ${DESTDIR}${PREFIX}/bin
 	${INSTALL_PROGRAM} ${WRKSRC}/sks_add_mail ${DESTDIR}${PREFIX}/bin
+	${INSTALL_SCRIPT} ${WRKSRC}/sks_build.sh ${DESTDIR}${PREFIX}/bin
 	${INSTALL_MAN} ${WRKSRC}/sks.8 ${DESTDIR}${PREFIX}/${PKGMANDIR}/man8
 
 .include "../../mk/bsd.pkg.mk"
