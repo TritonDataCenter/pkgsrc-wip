@@ -263,6 +263,7 @@ SUBDIR+=	cfengine
 SUBDIR+=	cgal
 SUBDIR+=	cgit
 SUBDIR+=	cglib
+SUBDIR+=	cgterm
 SUBDIR+=	chbg
 SUBDIR+=	chemical-mime-data
 SUBDIR+=	chems
