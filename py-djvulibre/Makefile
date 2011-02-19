@@ -29,7 +29,10 @@ SUBST_FILES.setup=	setup.py
 SUBST_SED.setup=	-e "s,\['cython,\['cython${PYVERSSUFFIX},"
 SUBST_SED.setup+=	-e "s/'sed', '-i~',/'sed', '-n',/"
 
-.include "../../lang/python/extension.mk"
+PLIST_SUBST+=	PYVERSSUFFIX=${PYVERSSUFFIX}
+
+.include "../../lang/python/egg.mk"
+.include "../../lang/python/pyversion.mk"
 .include "../../devel/py-cython/buildlink3.mk"
 .include "../../graphics/djvulibre-lib/buildlink3.mk"
 .include "../../mk/jpeg.buildlink3.mk"
