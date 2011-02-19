@@ -63,7 +63,7 @@ post-install:
 
 .include "../../archivers/bzip2/buildlink3.mk"
 .include "../../archivers/libzip/buildlink3.mk"
-.include "../../graphics/imlib/buildlink3.mk"
+.include "../../graphics/imlib-gtk/buildlink3.mk"
 .include "../../graphics/libungif/buildlink3.mk"
 .include "../../wip/xar/buildlink3.mk"
 .include "../../x11/gtk/buildlink3.mk"

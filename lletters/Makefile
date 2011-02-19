@@ -22,7 +22,7 @@ pre-configure:
 	${MV} ${WRKDIR}/images/* ${WRKSRC}/images/
 
 #.include "../../x11/gtk/buildlink3.mk"
-.include "../../graphics/imlib/buildlink3.mk"
+.include "../../graphics/imlib-gtk/buildlink3.mk"
 .include "../../mk/oss.buildlink3.mk"
 
 .include "../../mk/bsd.pkg.mk"

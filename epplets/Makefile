@@ -28,7 +28,7 @@ CONFIGURE_ARGS+=	--x-libraries=${X11BASE}/include
 # If enlightenment < 0.16.4
 #CONFIGURE_ARGS+=	--disable-new-remember
 
-.include "../../graphics/imlib/buildlink3.mk"
+.include "../../graphics/imlib-gtk/buildlink3.mk"
 .include "../../graphics/Mesa/buildlink3.mk"
 .include "../../mk/oss.buildlink3.mk"
 .include "../../mk/x11.buildlink3.mk"
