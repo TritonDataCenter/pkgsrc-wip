@@ -13,7 +13,7 @@ COMMENT=	Ubuntu font family
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
-WRKSRC=		${WRKDIR}/ubuntu-font-family-sources-0.70.1
+WRKSRC=		${WRKDIR}/${DISTNAME:S/.orig//:S/_/-/}
 USE_LANGUAGES=	# none
 
 USE_X11BASE=	YES
