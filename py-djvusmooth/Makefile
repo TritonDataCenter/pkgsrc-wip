@@ -25,10 +25,10 @@ DEPENDS+=	djvulibre-tools:../../graphics/djvulibre-tools
 PYTHON_VERSIONS_ACCEPTED=	26 25
 PYDISTUTILSPKG=	yes
 
-MANFILES=	djvusmooth.1
-
-post-install:
-	${INSTALL_MAN} ${WRKSRC}/doc/${MANFILES:Q} ${DESTDIR}${PREFIX}/${PKGMANDIR}/man1/
+SUBST_CLASSES+=		fix-paths
+SUBST_STAGE.fix-paths=	pre-configure
+SUBST_FILES.fix-paths=	setup.py
+SUBST_SED.fix-paths=	-e 's,share/man,${PKGMANDIR},'
 
 .include "../../lang/python/extension.mk"
 .include "../../lang/python/application.mk"
