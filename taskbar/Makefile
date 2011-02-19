@@ -22,7 +22,7 @@ post-install:
 	${INSTALL_DATA} ${WRKSRC}/doc/example_.taskbar \
 		${PREFIX}/share/examples/taskbar/
 
-.include "../../graphics/imlib-gtk/buildlink3.mk"
+.include "../../graphics/imlib/buildlink3.mk"
 .include "../../fonts/Xft2/buildlink3.mk"
 .include "../../devel/libltdl/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
