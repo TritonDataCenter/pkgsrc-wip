@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	djvusmooth-0.2.9
+DISTNAME=	djvusmooth-0.2.10
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	graphics textproc
 MASTER_SITES=	http://pypi.python.org/packages/source/d/djvusmooth/
