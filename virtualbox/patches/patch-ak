@@ -1,6 +1,6 @@
 $NetBSD$
 
---- src/VBox/Devices/Storage/DrvVD.cpp.orig	2010-06-25 14:24:59.000000000 +0000
+--- src/VBox/Devices/Storage/DrvVD.cpp.orig	2011-01-14 20:15:15.000000000 +0000
 +++ src/VBox/Devices/Storage/DrvVD.cpp
 @@ -19,6 +19,7 @@
  /*******************************************************************************
@@ -8,5 +8,5 @@ $NetBSD$
  *******************************************************************************/
 +#include <time.h> /* for struct timeval */
  #define LOG_GROUP LOG_GROUP_DRV_VD
- #include <VBox/VBoxHDD.h>
- #include <VBox/pdmdrv.h>
+ #include <VBox/vd.h>
+ #include <VBox/vmm/pdmdrv.h>
