@@ -487,7 +487,6 @@ SUBDIR+=	eor
 SUBDIR+=	eot
 SUBDIR+=	epeg
 SUBDIR+=	epm
-SUBDIR+=	epplets
 SUBDIR+=	epsilon
 SUBDIR+=	eq-xmms
 SUBDIR+=	erc
