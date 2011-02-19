@@ -7,7 +7,7 @@ ${PYSITELIB}/djvu/const.pyc
 ${PYSITELIB}/djvu/const.pyo
 ${PYSITELIB}/djvu/decode.so
 ${PYSITELIB}/djvu/sexpr.so
-${PYSITELIB}/python_djvulibre-0.3.0-py2.6.egg-info/PKG-INFO
-${PYSITELIB}/python_djvulibre-0.3.0-py2.6.egg-info/SOURCES.txt
-${PYSITELIB}/python_djvulibre-0.3.0-py2.6.egg-info/dependency_links.txt
-${PYSITELIB}/python_djvulibre-0.3.0-py2.6.egg-info/top_level.txt
+${PYSITELIB}/python_djvulibre-${PKGVERSION}-py2.6.egg-info/PKG-INFO
+${PYSITELIB}/python_djvulibre-${PKGVERSION}-py2.6.egg-info/SOURCES.txt
+${PYSITELIB}/python_djvulibre-${PKGVERSION}-py2.6.egg-info/dependency_links.txt
+${PYSITELIB}/python_djvulibre-${PKGVERSION}-py2.6.egg-info/top_level.txt
