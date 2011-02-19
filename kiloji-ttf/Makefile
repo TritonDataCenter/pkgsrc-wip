@@ -13,7 +13,6 @@ DISTFILES=	kiloji_2.1.0.zip \
 MAINTAINER=	ryo_on@yk.rim.or.jp
 HOMEPAGE=	http://www.ez0.net/distribution/font/kiloji/
 COMMENT=	JIS X 0208 Japanese script fonts made by kilo
-
 LICENSE=	modified-bsd # with some difference
 
 PKG_DESTDIR_SUPPORT=	user-destdir
