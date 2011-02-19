@@ -27,7 +27,7 @@ DEPENDS+=	${PYPKGPREFIX}-cElementTree-[0-9]*:../../textproc/py-cElementTree
 DEPENDS+=	xdg-utils-[0-9]*:../../misc/xdg-utils
 
 .include "../../lang/python/pyversion.mk"
-.if ${PYTHON_VERSION_DEFAULT} == "25"
+.if ${PYPKGPREFIX} == "py25"
 DEPENDS+=	${PYPKGPREFIX}-simplejson-[0-9]*:../../converters/py-simplejson
 .endif
 
