@@ -1346,7 +1346,6 @@ SUBDIR+=	lirc
 SUBDIR+=	lire
 SUBDIR+=	lissac
 SUBDIR+=	lives
-SUBDIR+=	lletters
 SUBDIR+=	llvm
 SUBDIR+=	llvm28
 SUBDIR+=	lmdbg
