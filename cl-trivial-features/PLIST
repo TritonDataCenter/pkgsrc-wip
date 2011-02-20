@@ -1,0 +1,5 @@
+@comment $NetBSD$
+${PLIST.ecl}${ECL_PATH}trivial-features.asd
+${PLIST.ecl}${ECL_PATH}trivial-features.fas
+share/doc/${LISP}-trivial-features/README
+share/doc/${LISP}-trivial-features/COPYRIGHT

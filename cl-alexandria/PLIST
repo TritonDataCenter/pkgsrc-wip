@@ -1,0 +1,7 @@
+@comment $NetBSD$
+${PLIST.ecl}${ECL_PATH}alexandria.asd
+${PLIST.ecl}${ECL_PATH}alexandria.fas
+share/doc/${LISP}-alexandria/README
+share/doc/${LISP}-alexandria/AUTHORS
+share/doc/${LISP}-alexandria/LICENCE
+share/doc/${LISP}-alexandria/alexandria.html
