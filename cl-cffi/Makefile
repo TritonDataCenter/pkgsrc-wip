@@ -35,6 +35,8 @@ DEPENDS+=			ecl-babel:../../wip/cl-babel
 ECL_CENTRAL_REGISTRY=           lib/ecl-${ECL_VERSION}/
 PLIST_SUBST+=			ECL_PATH="${ECL_CENTRAL_REGISTRY}"
 PLIST_SUBST+=			LISP="${LISP_PREFIX}"
+INSTALLATION_DIRS+=		${ECL_CENTRAL_REGISTRY}
+INSTALLATION_DIRS+=		share/doc/${LISP_PREFIX}-${SHORTNAME}/examples
 
 do-build:
 	( cd ${WRKSRC} && ${PREFIX}/bin/ecl -q -norc \
