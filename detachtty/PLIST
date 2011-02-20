@@ -1,0 +1,5 @@
+@comment $NetBSD$
+bin/detachtty
+bin/attachtty
+share/doc/detachtty/README
+man/man1/detachtty.1
