@@ -1,0 +1,11 @@
+===========================================================================
+$NetBSD$
+
+To use this package without ASDF, you need to load the following
+dependecies manually:
+
+ alexandria
+ trivial-features
+ babel
+
+===========================================================================
