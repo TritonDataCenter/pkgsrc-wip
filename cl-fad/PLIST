@@ -1,0 +1,6 @@
+@comment $NetBSD$
+${PLIST.ecl}${ECL_PATH}cl-fad.asd
+${PLIST.ecl}${ECL_PATH}cl-fad.fas
+share/doc/${LISP}-fad/README
+share/doc/${LISP}-fad/CHANGELOG
+share/doc/${LISP}-fad/index.html
