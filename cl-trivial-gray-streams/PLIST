@@ -1,0 +1,5 @@
+@comment $NetBSD$
+${PLIST.ecl}${ECL_PATH}trivial-gray-streams.asd
+${PLIST.ecl}${ECL_PATH}trivial-gray-streams.fas
+share/doc/${LISP}-trivial-gray-streams/README
+share/doc/${LISP}-trivial-gray-streams/COPYING
