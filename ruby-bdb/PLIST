@@ -1,0 +1,2 @@
+@comment $NetBSD$
+${RUBY_VENDORARCHLIB}/bdb.${RUBY_DLEXT}
