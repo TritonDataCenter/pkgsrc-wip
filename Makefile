@@ -2403,6 +2403,7 @@ SUBDIR+=	rtpbreak
 SUBDIR+=	rubinius
 SUBDIR+=	ruby-GalleryAdministrator
 SUBDIR+=	ruby-actionmessenger
+SUBDIR+=	ruby-bdb
 SUBDIR+=	ruby-ditz
 SUBDIR+=	ruby-dnssd
 SUBDIR+=	ruby-easyjour
