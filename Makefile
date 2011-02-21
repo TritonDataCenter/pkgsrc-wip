@@ -2547,6 +2547,7 @@ SUBDIR+=	suse100_SDL
 SUBDIR+=	suse100_devel
 SUBDIR+=	suse100_gdb
 SUBDIR+=	suse100_glut
+SUBDIR+=	suse100_gmp4
 SUBDIR+=	svgalib
 SUBDIR+=	svrcore
 SUBDIR+=	swami
