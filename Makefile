@@ -2332,7 +2332,6 @@ SUBDIR+=	pypanel
 SUBDIR+=	pypod
 SUBDIR+=	pysite
 SUBDIR+=	pysvn
-SUBDIR+=	python27
 SUBDIR+=	python31
 SUBDIR+=	pythoncad
 SUBDIR+=	pywm

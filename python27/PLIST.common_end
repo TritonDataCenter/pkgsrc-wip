@@ -1,3 +1,0 @@
-@comment $NetBSD$
-@pkgdir lib/python${PY_VER_SUFFIX}/test/data
-@pkgdir lib/python${PY_VER_SUFFIX}/lib-old
