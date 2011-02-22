@@ -1,0 +1,3 @@
+@comment $NetBSD$
+${PLIST.ecl}${ECL_PATH}split-sequence.asd
+${PLIST.ecl}${ECL_PATH}split-sequence.fas
