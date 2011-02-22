@@ -7,7 +7,7 @@ $NetBSD: patch-al,v 1.1.1.1 2009/04/19 14:42:50 wiz Exp $
  	  INSTSONAME="$LDLIBRARY".$SOVERSION
            ;;
 -    Linux*|GNU*|NetBSD*|FreeBSD*|DragonFly*)
-+    Linux*|GNU*|NetBSD*|FreeBSD*|Interix*|DragonFly*)
++    Linux*|GNU*|NetBSD*|FreeBSD*|Interix*|DragonFly*|OpenBSD*)
  	  LDLIBRARY='libpython$(VERSION).so'
  	  BLDLIBRARY='-L. -lpython$(VERSION)'
  	  RUNSHARED=LD_LIBRARY_PATH=`pwd`:${LD_LIBRARY_PATH}
