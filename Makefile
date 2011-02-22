@@ -2681,6 +2681,7 @@ SUBDIR+=	tsh
 SUBDIR+=	tsm
 SUBDIR+=	ttf-indic-fonts
 SUBDIR+=	ttr
+SUBDIR+=	ttyload
 SUBDIR+=	ttysnoop
 SUBDIR+=	tuareg-mode
 SUBDIR+=	tumble
