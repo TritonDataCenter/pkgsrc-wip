@@ -1,0 +1,5 @@
+#!/bin/sh
+wrapperlog="${TOOLS_WRAPPER_LOG-/export/pkgsrc/wip/ghostscript-cidfonts/work/.work.log}"
+echo "[*] "/export/pkgsrc/wip/ghostscript-cidfonts/work/.tools/bin/[" $@" >> $wrapperlog
+echo "<.> [  "$@"" >> $wrapperlog
+[  "$@"

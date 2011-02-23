@@ -1,0 +1,5 @@
+#!/bin/sh
+wrapperlog="${TOOLS_WRAPPER_LOG-/export/pkgsrc/wip/ghostscript-cidfonts/work/.work.log}"
+echo "[*] "/export/pkgsrc/wip/ghostscript-cidfonts/work/.tools/bin/autoconf-2.13" $@" >> $wrapperlog
+echo "<.> /export/pkgsrc/mk/gnu-config/missing autoconf" >> $wrapperlog
+/export/pkgsrc/mk/gnu-config/missing autoconf

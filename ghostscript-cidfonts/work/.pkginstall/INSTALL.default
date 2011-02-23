@@ -1,0 +1,208 @@
+#!/bin/sh
+#
+# $NetBSD: header,v 1.2 2006/07/19 22:26:26 jlam Exp $
+
+SELF="$0"
+PKGNAME="$1"
+STAGE="$2"
+shift 2
+
+AWK="/usr/bin/awk"
+BASENAME="/usr/bin/basename"
+CAT="/bin/cat"
+CHGRP="/usr/bin/chgrp"
+CHMOD="/bin/chmod"
+CHOWN="/usr/sbin/chown"
+CMP="/usr/bin/cmp"
+CP="/bin/cp"
+DIRNAME="/usr/bin/dirname"
+ECHO="echo"
+ECHO_N="echo -n"
+EGREP="/usr/bin/egrep"
+EXPR="/bin/expr"
+FALSE="false"
+FIND="/usr/bin/find"
+GREP="/usr/bin/grep"
+GTAR=""
+HEAD="/usr/bin/head"
+ID="/usr/bin/id"
+LINKFARM="/usr/sbin/linkfarm"
+LN="/bin/ln"
+LS="/bin/ls"
+MKDIR="/bin/mkdir -p"
+MV="/bin/mv"
+PERL5="/usr/pkg/bin/perl"
+PKG_ADMIN="/usr/sbin/pkg_admin"
+PKG_INFO="/usr/sbin/pkg_info -K /var/db/pkg"
+PWD_CMD="/bin/pwd"
+RM="/bin/rm"
+RMDIR="/bin/rmdir"
+SED="/usr/bin/sed"
+SETENV="/usr/bin/env"
+SH="/bin/sh"
+SORT="/usr/bin/sort"
+SU="/usr/bin/su"
+TEST="test"
+TOUCH="/usr/bin/touch"
+TR="/usr/bin/tr"
+TRUE="true"
+XARGS="/usr/bin/xargs"
+
+CURDIR=`${PWD_CMD}`
+: ${PKG_METADATA_DIR=${CURDIR}}
+PKGBASE="ghostscript-cidfonts"
+
+LOCALBASE="/usr/pkg"
+X11BASE="/usr/pkg"
+DEPOTBASE="/usr/pkg/packages"
+PREFIX="/usr/pkg"
+case ${PKG_PREFIX} in
+${LOCALBASE}/*)	VIEW="${PKG_PREFIX#${LOCALBASE}/}" ;;
+*)		VIEW="" ;;
+esac
+
+PKG_SYSCONFBASE="/usr/pkg/etc"
+PKG_SYSCONFDEPOTBASE=""
+PKG_SYSCONFBASEDIR="/usr/pkg/etc"
+PKG_SYSCONFDIR="/usr/pkg/etc"
+CONF_DEPENDS=""
+
+case ${VIEW} in
+"")	PKG_SYSCONFVIEWBASE="${PKG_SYSCONFBASE}" ;;
+*)	PKG_SYSCONFVIEWBASE="${PKG_SYSCONFBASE}/${VIEW}" ;;
+esac
+
+CONF_IGNORE_FILES="*[~#] *.OLD *.orig *,v .pkgsrc */.pkgsrc"
+
+PKG_INSTALLATION_TYPE="overwrite"
+
+case "${PKG_CONFIG:-YES}" in
+[Yy][Ee][Ss]|[Tt][Rr][Uu][Ee]|[Oo][Nn]|1)
+	_PKG_CONFIG=yes
+	;;
+[Nn][Oo]|[Ff][Aa][Ll][Ss][Ee]|[Oo][Ff][Ff]|0)
+	_PKG_CONFIG=yes
+	;;
+esac
+
+# $NetBSD: install,v 1.2 2007/07/18 18:01:03 jlam Exp $
+
+case ${STAGE} in
+PRE-INSTALL)
+	#
+	# Unpack the helper scriptlets.
+	#
+	${SH} ${SELF} ${PKGNAME} UNPACK
+	#
+	# Require that necessary users and groups exist or else fail the
+	# installation of the package.
+	#
+	${TEST} ! -x ./+USERGROUP ||
+		{ ./+USERGROUP ADD ${PKG_METADATA_DIR}
+		  if ./+USERGROUP CHECK-ADD ${PKG_METADATA_DIR}; then
+			:
+		  else
+			exit 1
+		  fi; }
+	#
+	# Create package directories at pre-install time.
+	#
+	if [ "${PKG_INSTALLATION_TYPE}" = "pkgviews" -a			\
+	     "${_PKG_CONFIG}" = "yes" -a -n "${CONF_DEPENDS}" ]; then
+		pkg=`${PKG_ADMIN} -b -d ${DEPOTBASE} -s "" lsbest "${CONF_DEPENDS}"`
+		sysconfdir=`${PKG_INFO} -B -K ${DEPOTBASE} $pkg |	\
+			${AWK} '/^PKG_SYSCONFDIR=/ {			\
+				gsub("^PKG_SYSCONFDIR=[ 	]*", ""); \
+				print;					\
+			}'						\
+		`
+		if [ -d $sysconfdir -a ! -d ${PKG_SYSCONFDIR} ]; then
+			${MKDIR} -p `${DIRNAME} ${PKG_SYSCONFDIR}`
+			${LN} -sf $sysconfdir ${PKG_SYSCONFDIR}
+		fi
+	fi
+	${TEST} ! -x ./+DIRS ||
+		./+DIRS ADD ${PKG_METADATA_DIR}
+	${TEST} ! -x ./+DIRS ||
+		./+DIRS PERMS ${PKG_METADATA_DIR}
+        ;;
+
+POST-INSTALL)
+	#
+	# Rebuild the system run-time library search path database.
+	#
+	${TEST} ! -x ./+SHLIBS ||
+		./+SHLIBS ADD ${PKG_METADATA_DIR}
+	#
+	# Copy configuration/support files into place.
+	#
+        ${TEST} ! -x ./+FILES ||
+		./+FILES ADD ${PKG_METADATA_DIR}
+        ${TEST} ! -x ./+FILES ||
+		./+FILES PERMS ${PKG_METADATA_DIR}
+	#
+	# Set special permissions on any files/directories that need them.
+	#
+	${TEST} ! -x ./+PERMS ||
+		./+PERMS ${PKG_METADATA_DIR}
+	#
+	# Update any fonts databases.
+	#
+	${TEST} ! -x ./+FONTS ||
+		./+FONTS ${PKG_METADATA_DIR}
+
+	# Check for any missing bits after we're finished installing.
+	#
+	${TEST} ! -x ./+DIRS ||
+		./+DIRS CHECK-ADD ${PKG_METADATA_DIR}
+	${TEST} ! -x ./+DIRS ||
+		./+DIRS CHECK-PERMS ${PKG_METADATA_DIR}
+	${TEST} ! -x ./+FILES ||
+		./+FILES CHECK-ADD ${PKG_METADATA_DIR}
+	${TEST} ! -x ./+FILES ||
+		./+FILES CHECK-PERMS ${PKG_METADATA_DIR}
+	;;
+
+VIEW-INSTALL)
+	#
+	# Register shells in /etc/shells.
+	#
+	${TEST} ! -x ./+SHELL ||
+		./+SHELL ADD ${PKG_METADATA_DIR}
+	${TEST} ! -x ./+SHELL ||
+		./+SHELL CHECK-ADD ${PKG_METADATA_DIR}
+	#
+	# Register info files.
+	#
+	${TEST} ! -x ./+INFO_FILES ||
+		./+INFO_FILES ADD ${PKG_METADATA_DIR}
+
+	# If ${PKG_SYSCONFBASE} points outside of ${PREFIX}, then add the
+	# package config files to the proper view.
+	#
+	if [ "${_PKG_CONFIG}" = "yes" -a -n "${PKG_SYSCONFDEPOTBASE}" ]; then
+		${SETENV} PLIST_IGNORE_FILES="${CONF_IGNORE_FILES}" \
+			${LINKFARM} -t ${PKG_SYSCONFVIEWBASE} -d ${PKG_SYSCONFDEPOTBASE} ${PKGNAME}
+	fi
+	;;
+esac
+
+# $NetBSD: install-post,v 1.1 2006/05/21 23:50:15 jlam Exp $
+
+# Ensure that the VIEW-INSTALL action is called for overwrite packages.
+# This is here to ensure that it's the final POST-INSTALL action (after
+# any INSTALL_TEMPLATE POST-INSTALL actions).
+#
+case ${STAGE} in
+POST-INSTALL)
+	if [ "${PKG_INSTALLATION_TYPE}" = "overwrite" ]; then
+		${SETENV} PKG_PREFIX="${PKG_PREFIX}" \
+			$0 ${PKGNAME} VIEW-INSTALL
+        fi
+	;;
+esac
+
+# $NetBSD: footer,v 1.1 2006/05/21 23:50:15 jlam Exp $
+
+exit 0
+
