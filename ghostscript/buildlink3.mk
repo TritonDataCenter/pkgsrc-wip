@@ -7,7 +7,7 @@ GHOSTSCRIPT_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.ghostscript+=	ghostscript>=8.63nb1
 BUILDLINK_ABI_DEPENDS.ghostscript?=	ghostscript>=8.71nb7
-BUILDLINK_PKGSRCDIR.ghostscript?=	../../print/ghostscript
+BUILDLINK_PKGSRCDIR.ghostscript?=	../../wip/ghostscript
 
 .include "../../graphics/png/buildlink3.mk"
 .include "../../devel/zlib/buildlink3.mk"
