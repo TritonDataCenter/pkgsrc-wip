@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	rdup-1.1.10
+DISTNAME=	rdup-1.1.11
 CATEGORIES=	sysutils
 MASTER_SITES=	http://www.miek.nl/projects/rdup/
 EXTRACT_SUFX=	.tar.bz2
