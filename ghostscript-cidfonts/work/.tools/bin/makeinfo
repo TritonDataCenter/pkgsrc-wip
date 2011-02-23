@@ -1,5 +1,0 @@
-#!/bin/sh
-wrapperlog="${TOOLS_WRAPPER_LOG-/export/pkgsrc/wip/ghostscript-cidfonts/work/.work.log}"
-echo "[*] "/export/pkgsrc/wip/ghostscript-cidfonts/work/.tools/bin/makeinfo" $@" >> $wrapperlog
-echo "<.> for arg in "$@"; do case "$arg" in --version) exit 1 ;; esac; done; /export/pkgsrc/mk/gnu-config/missing makeinfo "$@"" >> $wrapperlog
-for arg in "$@"; do case "$arg" in --version) exit 1 ;; esac; done; /export/pkgsrc/mk/gnu-config/missing makeinfo "$@"

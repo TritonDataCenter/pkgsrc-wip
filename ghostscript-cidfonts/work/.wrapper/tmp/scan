@@ -1,6 +1,0 @@
-for arg do
-	case $arg in
-	-v)	append_extra_args=no; break ;;
-	*)	;;
-	esac
-done

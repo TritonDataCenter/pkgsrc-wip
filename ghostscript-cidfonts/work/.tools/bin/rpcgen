@@ -1,5 +1,0 @@
-#!/bin/sh
-wrapperlog="${TOOLS_WRAPPER_LOG-/export/pkgsrc/wip/ghostscript-cidfonts/work/.work.log}"
-echo "[*] "/export/pkgsrc/wip/ghostscript-cidfonts/work/.tools/bin/rpcgen" $@" >> $wrapperlog
-echo "<.> CPP=/export/pkgsrc/wip/ghostscript-cidfonts/work/.wrapper/bin/cpp /usr/bin/rpcgen -b "$@"" >> $wrapperlog
-CPP=/export/pkgsrc/wip/ghostscript-cidfonts/work/.wrapper/bin/cpp /usr/bin/rpcgen -b "$@"

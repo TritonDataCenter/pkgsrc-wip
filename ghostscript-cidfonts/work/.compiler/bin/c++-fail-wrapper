@@ -1,9 +1,0 @@
-#!/bin/sh
-wrapperlog="${TOOLS_WRAPPER_LOG-/export/pkgsrc/wip/ghostscript-cidfonts/work/.work.log}"
-lang="c++"
-msg="*** Please consider adding $lang to USE_LANGUAGES in the package Makefile."
-echo "$msg" >> $wrapperlog
-echo "$msg" > /export/pkgsrc/wip/ghostscript-cidfonts/work/.warning/c++-fail-wrapper
-echo "PKGSRC-WARNING: Something is trying to run the $lang compiler," 1>&2
-echo "PKGSRC-WARNING: but it is not added to USE_LANGUAGES in the package Makefile." 1>&2
-exit 1

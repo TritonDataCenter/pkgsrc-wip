@@ -1,5 +1,0 @@
-#!/bin/sh
-wrapperlog="${TOOLS_WRAPPER_LOG-/export/pkgsrc/wip/ghostscript-cidfonts/work/.work.log}"
-echo "[*] "/export/pkgsrc/wip/ghostscript-cidfonts/work/.tools/bin/perl" $@" >> $wrapperlog
-echo "<.> echo >> /export/pkgsrc/wip/ghostscript-cidfonts/work/.warning/perl "Please add USE_TOOLS+=perl to the package Makefile.";  /bin/sh /export/pkgsrc/mk/scripts/fail echo 1>&2 "ERROR:" "To use this tool, add USE_TOOLS+=perl to the package Makefile."" >> $wrapperlog
-echo >> /export/pkgsrc/wip/ghostscript-cidfonts/work/.warning/perl "Please add USE_TOOLS+=perl to the package Makefile.";  /bin/sh /export/pkgsrc/mk/scripts/fail echo 1>&2 "ERROR:" "To use this tool, add USE_TOOLS+=perl to the package Makefile."
