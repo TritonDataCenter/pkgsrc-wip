@@ -1869,6 +1869,7 @@ SUBDIR+=	pcp
 SUBDIR+=	pcsx
 SUBDIR+=	pcsx-df
 SUBDIR+=	pdb2ldif
+SUBDIR+=	pdf2djvu
 SUBDIR+=	pdf2svg
 SUBDIR+=	pdfedit
 SUBDIR+=	pdfgrep
