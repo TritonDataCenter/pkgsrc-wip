@@ -1,5 +1,7 @@
 $NetBSD$
 
+* Add NetBSD support
+
 --- src/defines.h.in.orig	2010-11-20 20:07:29.000000000 +0000
 +++ src/defines.h.in
 @@ -74,7 +74,7 @@ arg(release_label);

@@ -1,5 +1,7 @@
 $NetBSD$
 
+* Add NetBSD support
+
 --- CMakeLists.txt.orig	2010-11-21 09:54:19.000000000 +0000
 +++ CMakeLists.txt
 @@ -13,9 +13,9 @@ if(${CMAKE_SYSTEM_NAME} STREQUAL Linux)
