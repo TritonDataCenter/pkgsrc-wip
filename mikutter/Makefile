@@ -22,9 +22,9 @@ DEPENDS+=	${RUBY_PKGPREFIX}-hmac-[0-9]*:../../security/ruby-hmac
 DEPENDS+=	${RUBY_PKGPREFIX}-gnome2-gtk-[0-9]*:../../x11/ruby-gnome2-gtk
 DEPENDS+=	${RUBY_PKGPREFIX}-gnome2-gstreamer-[0-9]*:../../multimedia/ruby-gnome2-gstreamer
 DEPENDS+=	${RUBY_PKGPREFIX}-oauth>=0.3.6:../../security/ruby-oauth
-DEPENDS+=	${RUBY_PKGPREFIX}-escape-[0-9]*:../../wip/ruby-escape
-DEPENDS+=	${RUBY_PKGPREFIX}-memoize>=1.3.1:../../wip/ruby-memoize
-DEPENDS+=	${RUBY_PKGPREFIX}-httpclient-[0-9]*:../../wip/ruby-httpclient
+DEPENDS+=	${RUBY_PKGPREFIX}-escape-[0-9]*:../../textproc/ruby-escape
+DEPENDS+=	${RUBY_PKGPREFIX}-memoize>=1.3.1:../../devel/ruby-memoize
+DEPENDS+=	${RUBY_PKGPREFIX}-httpclient-[0-9]*:../../www/ruby-httpclient
 # notif-send
 DEPENDS+=	libnotify-[0-9]*:../../sysutils/libnotify
 
