@@ -1534,6 +1534,7 @@ SUBDIR+=	ncbi
 SUBDIR+=	ncbi-bin
 SUBDIR+=	ncbi-c++-lib
 SUBDIR+=	ncbi-lib
+SUBDIR+=	ncdu
 SUBDIR+=	ncp
 #SUBDIR+=	ncurses-devel	# missing Makefile.common
 SUBDIR+=	neb-cd512
