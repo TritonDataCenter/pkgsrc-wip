@@ -71,7 +71,7 @@ DEPENDS+=	${PYPKGPREFIX}-sphinx-[0-9]*:../../textproc/py-sphinx
 
 DEPENDS+=	zope3-[0-9]*:../../www/zope3
 
-PYTHON_VERSIONS_ACCEPTED= 26 25 24
+PYTHON_VERSIONS_ACCEPTED= 27 26 25 24
 
 PLIST_SRC+=	PLIST
 PLIST_SRC+=	${PKGDIR}/PLIST.doc

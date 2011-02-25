@@ -19,7 +19,7 @@ NO_CONFIGURE=		yes
 USE_TOOLS=	pax
 
 # Need python for build dependency.
-PYTHON_VERSIONS_ACCEPTED=	26 25 24
+PYTHON_VERSIONS_ACCEPTED=	27 26 25 24
 PYTHON_FOR_BUILD_ONLY=		yes
 
 # bam is the teeworlds `make'.

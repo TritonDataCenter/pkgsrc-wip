@@ -20,7 +20,7 @@ USE_LANGUAGES=	# none
 PYDISTUTILSPKG=	yes
 PY_PATCHPLIST=	yes
 PLIST_SUBST+=	DISTNAME=${DISTNAME}
-PYTHON_VERSIONS_ACCEPTED= 26 25 24
+PYTHON_VERSIONS_ACCEPTED= 27 26 25 24
 
 .include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"

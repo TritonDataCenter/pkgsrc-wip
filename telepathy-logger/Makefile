@@ -25,7 +25,7 @@ CONFIGURE_ARGS+=	--disable-coding-style-checks
 
 PKGCONFIG_OVERRIDE+=	telepathy-logger/telepathy-logger.pc.in
 
-PYTHON_VERSIONS_ACCEPTED= 26 25
+PYTHON_VERSIONS_ACCEPTED= 27 26 25
 
 BUILDLINK_API_DEPENDS.telepathy-glib+=	telepathy-glib>=0.7.18
 .include "../../chat/telepathy-glib/buildlink3.mk"

@@ -17,7 +17,7 @@ PKG_DESTDIR_SUPPORT= 	user-destdir
 USE_LANGUAGES=	# none
 PYDISTUTILSPKG=         yes
 
-PYTHON_VERSIONS_ACCEPTED= 26 25
+PYTHON_VERSIONS_ACCEPTED= 27 26 25
 
 .include "../../devel/py-gobject/buildlink3.mk"
 .include "../../graphics/hicolor-icon-theme/buildlink3.mk"

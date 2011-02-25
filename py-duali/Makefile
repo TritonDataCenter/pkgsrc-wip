@@ -24,7 +24,7 @@ SUBST_SED.paths+=	-e 's,/etc,${PREFIX}/etc,g'
 SUBST_FILES.paths+=	setup.py duali.conf
 SUBST_MESSAGE.paths=	Fixing header search paths.
 
-PYTHON_VERSIONS_ACCEPTED= 26 25 24 23
+PYTHON_VERSIONS_ACCEPTED= 27 26 25 24 23
 PYDISTUTILSPKG= yes
 
 INSTALLATION_DIRS=	share/doc/py-duali ${PKGMANDIR}/man1

@@ -18,7 +18,7 @@ DEPENDS+=		${PYPKGPREFIX}-simplejson>=2.0.9:../../converters/py-simplejson
 WRKSRC=	${WRKDIR}/WebOb-0.9.8
 PKG_DESTDIR_SUPPORT=	user-destdir
 
-PYTHON_VERSIONS_ACCEPTED= 26 2
+PYTHON_VERSIONS_ACCEPTED= 27 26 2
 
 .include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"

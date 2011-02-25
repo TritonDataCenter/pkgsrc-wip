@@ -18,7 +18,7 @@ DEPENDS+=	${PYPKGPREFIX}-pyrex-[0-9]*:../../lang/py-pyrex
 PKG_DESTDIR_SUPPORT=	user-destdir
 
 USE_LANGUAGES= c c++
-PYTHON_VERSIONS_ACCEPTED= 26 25 24
+PYTHON_VERSIONS_ACCEPTED= 27 26 25 24
 
 .include "../../databases/py-bsddb3/buildlink3.mk"
 .include "../../lang/python/egg.mk"

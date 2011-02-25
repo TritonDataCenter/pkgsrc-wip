@@ -21,7 +21,7 @@ USE_TOOLS+=	pkg-config
 DEPENDS=	${PYPKGPREFIX}-pyrex>=0.9.6.4:../../lang/py-pyrex
 DEPENDS+=	${PYPKGPREFIX}-libtorrent-rasterbar>=0.15.0:../../wip/py-libtorrent-rasterbar
 
-PYTHON_VERSIONS_ACCEPTED=	26 25
+PYTHON_VERSIONS_ACCEPTED=	27 26 25
 PYDISTUTILSPKG=	yes
 PYSETUPSUBDIR=	platform/gtk-x11
 REPLACE_PYTHON=	${WRKSRC}/platform/gtk-x11/miro.real

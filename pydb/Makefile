@@ -29,7 +29,7 @@ CONFIGURE_ARGS+=	--enable-pyreadline
 .endif
 
 
-PYTHON_VERSIONS_ACCEPTED= 26 25
+PYTHON_VERSIONS_ACCEPTED= 27 26 25
 PY_PATCHPLIST=	yes
 
 .include "../../lang/python/extension.mk"

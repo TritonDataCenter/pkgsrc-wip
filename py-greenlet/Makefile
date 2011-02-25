@@ -12,7 +12,7 @@ COMMENT=	Lightweight in-process concurrent programming
 LICENSE=	mit
 
 PKG_DESTDIR_SUPPORT=	user-destdir
-PYTHON_VERSIONS_ACCEPTED= 26 25
+PYTHON_VERSIONS_ACCEPTED= 27 26 25
 USE_LANGUAGES=	c 
 
 .include "../../lang/python/egg.mk"
