@@ -1,10 +1,9 @@
 # $NetBSD$
 
-DISTNAME=	Todo-0.0.1
-PKGNAME=	deforaos-todo-0.0.1
-PKGREVISION=	1
+DISTNAME=	Todo-0.1.0
+PKGNAME=	deforaos-todo-0.1.0
 CATEGORIES=	time
-MASTER_SITES=	http://www.defora.org/os/download/download/3369/
+MASTER_SITES=	http://www.defora.org/os/download/download/3395/
 
 MAINTAINER=	khorben@defora.org
 HOMEPAGE=	http://www.defora.org/
