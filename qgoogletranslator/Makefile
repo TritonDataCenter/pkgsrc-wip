@@ -6,7 +6,7 @@ CATEGORIES=	editors
 MASTER_SITES=	http://qgt.googlecode.com/files/
 EXTRACT_SUFX=	.tar.bz2
 
-MAINTAINER=	ryo_on@yk.rim.or.jp
+MAINTAINER=	ryoon@NetBSD.org
 HOMEPAGE=	http://code.google.com/p/qgt/
 COMMENT=	Qt gui for google translate based on ajax api
 LICENSE=	gnu-gpl-v3
