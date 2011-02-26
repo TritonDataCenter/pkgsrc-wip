@@ -2356,6 +2356,7 @@ SUBDIR+=	qpsmtpd
 SUBDIR+=	qrint
 SUBDIR+=	qtcreator
 SUBDIR+=	qtre
+SUBDIR+=	quantlib
 SUBDIR+=	qucs
 SUBDIR+=	quickfix
 SUBDIR+=	quickie
