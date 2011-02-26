@@ -41,7 +41,8 @@ SUBST_CLASSES+=		prefix
 SUBST_STAGE.prefix=	post-patch
 SUBST_FILES.prefix=	setup.cfg
 SUBST_FILES.prefix+=	com.Gwibber*
-SUBST_SED.prefix=	-e 's,/usr,${PREFIX},'
+SUBST_FILES.prefix+=	gwibber/microblog/util/resources.py
+SUBST_SED.prefix=	-e 's,/usr,${PREFIX},g'
 
 .include "../../lang/python/extension.mk"
 .include "../../lang/python/application.mk"

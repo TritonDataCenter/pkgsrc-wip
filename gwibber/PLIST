@@ -431,6 +431,7 @@ share/gwibber/ui/themes/ubuntu/jquery.js
 share/gwibber/ui/themes/ubuntu/main.css
 share/gwibber/ui/themes/ubuntu/template.mako
 share/gwibber/ui/themes/ubuntu/theme.version
+share/indicators/messages/applications/gwibber
 share/locale/ar/LC_MESSAGES/gwibber.mo
 share/locale/ast/LC_MESSAGES/gwibber.mo
 share/locale/bg/LC_MESSAGES/gwibber.mo

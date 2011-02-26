@@ -1,6 +1,8 @@
 $NetBSD$
 
---- gwibber/microblog/util/keyring.py.orig	2010-12-14 20:13:35.000000000 +0000
+* for non-Linux platform.
+
+--- gwibber/microblog/util/keyring.py.orig	2011-01-09 06:12:03.000000000 +0000
 +++ gwibber/microblog/util/keyring.py
 @@ -17,7 +17,7 @@ def get_secret(id):
  
