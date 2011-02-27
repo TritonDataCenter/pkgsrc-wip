@@ -1,9 +1,9 @@
 # $NetBSD$
 #
 
-DISTNAME=	nicovideo-dl-0.0.20091209
+DISTNAME=	nicovideo-dl-0.0.20110122
 CATEGORIES=	net
-MASTER_SITES=	${MASTER_SITE_SOURCEFORGE_JP:=nicovideo-dl/44836/}
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE_JP:=nicovideo-dl/50675/}
 
 MAINTAINER=	ryoon@NetBSD.org
 HOMEPAGE=	http://sourceforge.jp/projects/nicovideo-dl/
