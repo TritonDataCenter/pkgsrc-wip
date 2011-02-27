@@ -14,7 +14,7 @@ LICENSE=	${PERL5_LICENSE}
 PKG_INSTALLATION_TYPES= overwrite pkgviews
 PKG_DESTDIR_SUPPORT=	user-destdir
 
-DEPENDS+=	p5-version-[0-9]*:../../devel/p5-version
+DEPENDS+=	{perl>=5.10.0,p5-version-[0-9]*}:../../devel/p5-version
 DEPENDS+=	p5-Net-DNS-[0-9]*:../../net/p5-Net-DNS
 
 USE_LANGUAGES=	# empty
