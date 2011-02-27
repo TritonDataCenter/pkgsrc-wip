@@ -1,4 +1,4 @@
-# $Id$
+# $NetBSD$
 #
 
 DISTNAME=	Mail-SPF-v2.007
