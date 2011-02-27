@@ -14,6 +14,10 @@ LICENSE=	modified-bsd
 PKG_INSTALLATION_TYPES=	overwrite pkgviews
 PKG_DESTDIR_SUPPORT=	user-destdir
 
+# sbin/spfd
+CONFLICTS+=	libspf2-[0-9]*
+CONFLICTS+=	libspf-alt-[0-9]*
+
 BUILD_DEPENDS+=		p5-Net-DNS-Resolver-Programmable-[0-9]*:../../net/p5-Net-DNS-Resolver-Programmable
 BUILD_DEPENDS+=		{perl>=5.6.2,p5-Test-Simple>=0.10}:../../devel/p5-Test-Simple
 
