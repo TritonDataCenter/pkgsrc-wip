@@ -1,4 +1,4 @@
-# $Id$
+# $NetBSD$
 #
 
 DISTNAME=	Net-DNS-Resolver-Programmable-v0.003
