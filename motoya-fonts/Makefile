@@ -4,7 +4,7 @@
 DISTNAME=	motoya-al-fonts-20100921
 PKGNAME=	${DISTNAME:S/-al//}
 CATEGORIES=	fonts japanese
-MASTER_SITES=	ftp://ftp.freebsd.org/pub/FreeBSD/ports/local-distfiles/hrs/
+MASTER_SITES=	${MASTER_SITE_FREEBSD_LOCAL:=hrs/}
 EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	ryoon@NetBSD.org
