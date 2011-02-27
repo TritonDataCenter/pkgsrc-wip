@@ -1765,7 +1765,6 @@ SUBDIR+=	p5-MARC-Charset
 SUBDIR+=	p5-MARC-XML
 SUBDIR+=	p5-MKDoc-XML
 SUBDIR+=	p5-MMapDB
-SUBDIR+=	p5-Mail-SPF
 SUBDIR+=	p5-MasonX-Apache2Handler
 SUBDIR+=	p5-Math-FixedPrecision
 SUBDIR+=	p5-Math-IntervalSearch
