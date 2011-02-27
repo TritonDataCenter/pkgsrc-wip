@@ -15,7 +15,7 @@ LICENSE=	gnu-gpl-v2
 PKG_DESTDIR_SUPPORT=	destdir
 
 DEPENDS+=	p5-Net-Server>=0:../../net/p5-Net-Server
-DEPENDS+=	munin-common>=1.4:../munin-common
+DEPENDS+=	munin-common>=1.4:../../wip/munin-common
 #DEPENDS+=	munin-doc>=1.3.1:../../sysutils/munin-doc
 
 .include "../../mk/bsd.prefs.mk"
