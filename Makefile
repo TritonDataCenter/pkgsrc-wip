@@ -671,6 +671,7 @@ SUBDIR+=	gmc2mid
 SUBDIR+=	gmm
 SUBDIR+=	gmp-ecm
 SUBDIR+=	gmpc-lyricsplugin
+SUBDIR+=	gmpc-wikipedia
 SUBDIR+=	gmrun
 SUBDIR+=	gnocchi
 SUBDIR+=	gnochm
