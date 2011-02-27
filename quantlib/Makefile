@@ -5,12 +5,12 @@ DISTNAME=	QuantLib-1.0.1
 CATEGORIES=	math
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=quantlib/}
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
-MAINTAINER=	slitvinov@gmail.com
-HOMEPAGE=	http://quantlib.sourceforge.net/
 COMMENT=	Framework for quantitative finance
 LICENSE=	modified-bsd
+
+PKG_DESTDIR_SUPPORT=	user-destdir
+MAINTAINER=	slitvinov@gmail.com
+HOMEPAGE=	http://quantlib.sourceforge.net/
 
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
