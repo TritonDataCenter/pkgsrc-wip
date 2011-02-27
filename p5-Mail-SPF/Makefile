@@ -14,7 +14,7 @@ LICENSE=	modified-bsd
 PKG_INSTALLATION_TYPES=	overwrite pkgviews
 PKG_DESTDIR_SUPPORT=	user-destdir
 
-BUILD_DEPENDS+=		p5-Net-DNS-Resolver-Programmable-[0-9]*:../../wip/p5-Net-DNS-Resolver-Programmable
+BUILD_DEPENDS+=		p5-Net-DNS-Resolver-Programmable-[0-9]*:../../net/p5-Net-DNS-Resolver-Programmable
 BUILD_DEPENDS+=		p5-Test-Simple-[0-9]*:../../devel/p5-Test-Simple
 
 DEPENDS+=	p5-version-[0-9]*:../../devel/p5-version
