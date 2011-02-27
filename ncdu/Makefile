@@ -5,11 +5,12 @@ DISTNAME=	ncdu-1.7
 CATEGORIES=	filesystems
 MASTER_SITES=	http://sourceforge.net/projects/ncdu/files/ncdu/ncdu-1.7/
 
-PKG_DESTDIR_SUPPORT=	user-destdir
+COMMENT=	Disk usage visualization tool
+LICENSE=	modified-bsd
 
+PKG_DESTDIR_SUPPORT=	user-destdir
 MAINTAINER=	slitvinov@gmail.com
 HOMEPAGE=	http://dev.yorhel.nl/ncdu
-COMMENT=	Disk usage visualization tool
 
 GNU_CONFIGURE=	yes
 
