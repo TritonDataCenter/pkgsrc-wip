@@ -1476,7 +1476,6 @@ SUBDIR+=	moonlight
 SUBDIR+=	mopac7
 SUBDIR+=	moregroupware
 SUBDIR+=	moto4lin
-SUBDIR+=	motoya-fonts
 SUBDIR+=	mozldap
 SUBDIR+=	mozplugger
 SUBDIR+=	mp3blaster
