@@ -15,9 +15,9 @@ PKG_INSTALLATION_TYPES=	overwrite pkgviews
 PKG_DESTDIR_SUPPORT=	user-destdir
 
 BUILD_DEPENDS+=		p5-Net-DNS-Resolver-Programmable-[0-9]*:../../net/p5-Net-DNS-Resolver-Programmable
-BUILD_DEPENDS+=		p5-Test-Simple-[0-9]*:../../devel/p5-Test-Simple
+BUILD_DEPENDS+=		{perl>=5.6.2,p5-Test-Simple>=0.10}:../../devel/p5-Test-Simple
 
-DEPENDS+=	p5-version-[0-9]*:../../devel/p5-version
+DEPENDS+=	{perl>=5.9.0,p5-version-[0-9]*}:../../devel/p5-version
 DEPENDS+=	p5-Error-[0-9]*:../../devel/p5-Error
 DEPENDS+=	p5-NetAddr-IP>=4.000:../../net/p5-NetAddr-IP
 DEPENDS+=	p5-Net-DNS>=0.58:../../net/p5-Net-DNS
