@@ -6,6 +6,12 @@ PKG_SUGGESTED_OPTIONS=	x11 fontconfig
 
 .include "../../mk/bsd.options.mk"
 
+# (cidfmap)	default complie, GS_COMPILE_INITS, not active now.
+# (no_cidfmap)	when --disable-compile-inits selected, 
+#		cidfmap is renamed to cidfmap.dist
+PLIST_VARS+=		cidfmap
+PLIST_VARS+=		no_cidfmap
+
 .if !empty(PKG_OPTIONS:Mx11)
 CONFIGURE_ARGS+=	--with-x
 .include "../../x11/libX11/buildlink3.mk"
@@ -47,6 +53,10 @@ CONFIGURE_ARGS+=	--enable-debug
 CONFIGURE_ARGS+=	--disable-fontconfig
 .endif
 
+# Please note the same if cond is in post-install: target in Makefile
 .if !empty(PKG_OPTIONS:Mdisable-compile-inits)
 CONFIGURE_ARGS+=        --disable-compile-inits
+PLIST.no_cidfmap=	YES
+.else
+PLIST.cidfmap=		YES
 .endif
