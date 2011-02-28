@@ -9,6 +9,7 @@ EXTRACT_SUFX=	.tar.bz2
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.suse.de/~mana/ladspa.html
 COMMENT=	Some LADSPA plugins for audio EQ biquad filters
+#LICENSE=	gnu-lgpl-?
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
