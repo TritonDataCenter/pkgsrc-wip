@@ -1,5 +1,10 @@
 $NetBSD$
 
+# lots of portability changes to configure.in, removing hard-coded paths
+# and pulling in the dynamic library loading modules..
+
+# pushed upstream as https://bugs.launchpad.net/hplip/+bug/726207
+
 --- configure.in.orig	2010-07-19 02:18:37.000000000 +0000
 +++ configure.in
 @@ -34,14 +34,15 @@ AC_DISABLE_STATIC
