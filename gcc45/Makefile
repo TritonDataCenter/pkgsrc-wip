@@ -131,6 +131,7 @@ MAKE_ENV+=		ac_cv_path_ac_cv_prog_chmod=${TOOLS_CHMOD}
 # ${WRKSRC}/fixincludes/ looks for sed and compiles the path to sed into
 # a binary so we need to make sure we give it the installed sed and not
 # the tool wrapped one.
+MAKE_ENV+=		ac_cv_path_SED=${TOOLS_SED}
 MAKE_ENV+=		lt_cv_path_SED=${TOOLS_SED}
 
 CPPFLAGS+=		-I${BUILDLINK_DIR}/include
