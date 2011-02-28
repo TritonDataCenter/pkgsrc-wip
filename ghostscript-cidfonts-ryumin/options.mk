@@ -2,7 +2,7 @@
 
 # gcr = ghostscript-cidfonts-ryumin
 PKG_OPTIONS_VAR=        PKG_OPTIONS.gcr_type
-PKG_SUPPORTED_OPTIONS=  ipa adobe-cidfonts
+PKG_SUPPORTED_OPTIONS=  ipa adobe-cidfonts umefont
 PKG_SUGGESTED_OPTIONS=  ipa
 
 PLIST_VARS+=	cidfmap
@@ -18,6 +18,14 @@ PLIST_VARS+=	adobe
 DEPENDS+=	adobe-cidfonts:../../fonts/adobe-cidfonts
 DEPENDS+=	ghostscript-cidfonts:../../fonts/ghostscript-cidfonts
 GCR_INSTALL_TYPE= adobe
+.endif
+
+# -------- IPA (TTF) font requested -------------
+.if !empty(PKG_OPTIONS:Mumefont)
+GS_CIDFMAP=	cidfmap-umefont
+DEPENDS+=	ipafont:../../fonts/umefont-ttf
+PLIST.cidfmap=	yes
+GCR_INSTALL_TYPE= ttf
 .endif
 
 # -------- IPA (TTF) font requested -------------
