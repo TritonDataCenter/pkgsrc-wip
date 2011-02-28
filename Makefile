@@ -2444,6 +2444,7 @@ SUBDIR+=	samhain
 SUBDIR+=	sara
 SUBDIR+=	saxon
 SUBDIR+=	sbcl
+SUBDIR+=	scantailor
 SUBDIR+=	scare
 SUBDIR+=	schismtracker
 SUBDIR+=	schur
