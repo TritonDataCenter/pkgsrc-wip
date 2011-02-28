@@ -10,9 +10,11 @@ MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.suse.de/~mana/ladspa.html
 COMMENT=	Some LADSPA plugins for audio EQ biquad filters
 
+PKG_DESTDIR_SUPPORT=	user-destdir
+
 do-install:
-	${INSTALL_LIB_DIR} ${BUILDLINK_PREFIX.ladspa}/lib/ladspa
-	${INSTALL_LIB} ${WRKSRC}/vcf.so ${BUILDLINK_PREFIX.ladspa}/lib/ladspa
+	${INSTALL_LIB_DIR} ${DESTDIR}${BUILDLINK_PREFIX.ladspa}/lib/ladspa
+	${INSTALL_LIB} ${WRKSRC}/vcf.so ${DESTDIR}${BUILDLINK_PREFIX.ladspa}/lib/ladspa
 
 .include "../../audio/ladspa/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
