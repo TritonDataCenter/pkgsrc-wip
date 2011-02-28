@@ -5,7 +5,7 @@ DISTNAME=	psh-1.8.1
 CATEGORIES=	shells
 MASTER_SITES=	http://www.focusresearch.com/gregor/download/
 
-MAINTAINER=	bjs@NetBSD.org
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.focusresearch.com/gregor/download/
 COMMENT=	Perl Shell
 

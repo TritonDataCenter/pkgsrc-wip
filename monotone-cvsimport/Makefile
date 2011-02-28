@@ -6,7 +6,7 @@ CATEGORIES=	devel scm
 MASTER_SITES=	http://www.NetBSD.org/~bjs/distfiles/
 EXTRACT_SUFX?=	.tar.bz2
 
-MAINTAINER=	bjs@NetBSD.org
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://monotone.ca/
 COMMENT=	Free distributed version control system
 

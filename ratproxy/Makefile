@@ -6,7 +6,7 @@ PKGREVISION=	1
 CATEGORIES=	security
 MASTER_SITES=	http://ratproxy.googlecode.com/files/
 
-MAINTAINER=	bjs@NetBSD.org
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://code.google.com/p/ratproxy
 COMMENT=	Passive web application security assessment tool
 

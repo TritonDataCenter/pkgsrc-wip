@@ -5,7 +5,7 @@ DISTNAME=	Pysite-0.2.0
 CATEGORIES=	textproc
 MASTER_SITES=	http://ambient.2y.net/pysite/download/
 
-MAINTAINER=	recht@NetBSD.org
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://ambient.2y.net/pysite/
 COMMENT=	XHTML website generation tool
 

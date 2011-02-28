@@ -6,7 +6,7 @@ PKGREVISION=		2
 CATEGORIES=		games
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=bub-n-bros/}
 
-MAINTAINER=		recht@NetBSD.org
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://bub-n-bros.sourceforge.net/
 COMMENT=		Multiplayer crazy clone of Bubble Bobble
 

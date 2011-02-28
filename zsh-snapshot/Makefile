@@ -8,7 +8,7 @@ EXTRACT_SUFX=	.tar.bz2
 
 ZSH_SNAP_DATE=	20080908
 
-MAINTAINER=	bjs@NetBSD.org
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.zsh.org
 COMMENT=	Z Shell (development version)
 

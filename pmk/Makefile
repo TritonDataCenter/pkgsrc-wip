@@ -5,7 +5,7 @@ DISTNAME=	pmk-0.10.4
 CATEGORIES=	devel
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=pmk/}
 
-MAINTAINER=	bjs@NetBSD.org
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://pmk.sourceforge.net/
 COMMENT=	Pre-make kit
 

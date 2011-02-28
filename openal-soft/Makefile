@@ -7,7 +7,7 @@ MASTER_SITES=	http://connect.creativelabs.com/openal/Downloads/ \
 		http://kcat.strangesoft.net/openal-releases/
 EXTRACT_SUFX=	.tar.bz2
 
-MAINTAINER=	bjs@NetBSD.org
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://kcat.strangesoft.net/
 COMMENT=	Alternative OpenAL implementation
 

@@ -7,7 +7,7 @@ CATEGORIES=	mbone audio multimedia
 MASTER_SITES=	http://ftp.NetBSD.org/pub/NetBSD/packages/distfiles/LOCAL_PORTS/
 EXTRACT_SUFX=	.tar.bz2
 
-MAINTAINER=	bjs@NetBSD.org
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www-mice.cs.ucl.ac.uk/multimedia/software/
 COMMENT=	Real-time Audio Tool
 

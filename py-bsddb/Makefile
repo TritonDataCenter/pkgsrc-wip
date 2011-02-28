@@ -5,7 +5,7 @@ PKGNAME=	${PYPKGPREFIX}-bsddb-0
 PKGREVISION=	1
 CATEGORIES=	databases
 
-MAINTAINER=	recht@NetBSD.org
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.python.org/topics/database/
 COMMENT=	Python extension module for Berkeley DB 3 and 4
 

@@ -7,7 +7,7 @@ MASTER_SITES=	http://download.enlightenment.org/snaphots/2008-05-19/
 MASTER_SITES+=	ftp://ftp.springdaemons.com/pub/snapshots/e17/
 EXTRACT_SUFX=	.tar.bz2
 
-MAINTAINER=	bjs@NetBSD.org
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.enlightenment.org/
 COMMENT=	Enlightenment Database Library
 

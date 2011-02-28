@@ -7,7 +7,7 @@ CATEGORIES=	mbone audio multimedia
 MASTER_SITES=	${MASTER_SITE_LOCAL}
 EXTRACT_SUFX=	.tar.bz2
 
-MAINTAINER=	bjs@NetBSD.org
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www-mice.cs.ucl.ac.uk/multimedia/software/common/
 COMMENT=	Common multimedia library required by mbone tools
 

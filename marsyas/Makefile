@@ -6,7 +6,7 @@ PKGREVISION=	1
 CATEGORIES=	wip
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=marsyas/}
 
-MAINTAINER=	bjs@NetBSD.org
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://marsyas.sourceforge.net/
 COMMENT=	Music Analysis, Retrieval and Synthesis for Audio Signals
 

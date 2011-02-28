@@ -5,7 +5,7 @@ DISTNAME=	bsdbuild-102608
 CATEGORIES=	devel
 MASTER_SITES=	http://ftp.NetBSD.org/pub/NetBSD/misc/bjs/distfiles/
 
-MAINTAINER=	bjs@NetBSD.org
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.hypertriton.com/bsdbuild/
 COMMENT=	BSD-licensed portable build system
 
