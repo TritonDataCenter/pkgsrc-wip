@@ -1581,7 +1581,6 @@ SUBDIR+=	netx
 SUBDIR+=	newsbeuter
 SUBDIR+=	nginx
 SUBDIR+=	nicotine+
-SUBDIR+=	nicovideo-dl
 SUBDIR+=	nios2
 SUBDIR+=	nios2-binutils
 SUBDIR+=	nios2-gcc
