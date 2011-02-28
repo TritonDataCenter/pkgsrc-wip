@@ -1504,6 +1504,7 @@ SUBDIR+=	mtd-utils
 SUBDIR+=	mtf
 SUBDIR+=	mtop
 SUBDIR+=	mtrack
+SUBDIR+=	mu
 SUBDIR+=	mu-conference
 SUBDIR+=	muine
 SUBDIR+=	multisync
