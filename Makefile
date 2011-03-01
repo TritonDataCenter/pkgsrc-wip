@@ -2741,7 +2741,6 @@ SUBDIR+=	ups-nut
 SUBDIR+=	uptimed
 SUBDIR+=	uqm
 SUBDIR+=	uqwk
-SUBDIR+=	urbanrenewal
 SUBDIR+=	uschedule
 SUBDIR+=	user_irix
 SUBDIR+=	ushare
