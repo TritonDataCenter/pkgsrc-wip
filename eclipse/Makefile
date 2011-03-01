@@ -35,6 +35,7 @@ do-install:
 		${WRKDIR}/.eclipse
 	cd ${DESTDIR}${PREFIX} && \
 		${TAR} -xzf ${DISTDIR}/${PKGNAME_NOREV}${EXTRACT_SUFX}
+	${MKDIR} ${DESTDIR}${PREFIX}/bin
 	${INSTALL_SCRIPT} ${WRKDIR}/.eclipse ${DESTDIR}${PREFIX}/bin/eclipse
 
 .include "../../mk/java-vm.mk"
