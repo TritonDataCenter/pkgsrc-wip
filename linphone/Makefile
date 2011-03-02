@@ -1,8 +1,8 @@
 # $NetBSD$
 
-DISTNAME=	linphone-3.2.1
+DISTNAME=	linphone-3.3.2
 CATEGORIES=	net
-MASTER_SITES=	http://download.savannah.gnu.org/releases/linphone/stable/sources/
+MASTER_SITES=	http://download.savannah.gnu.org/releases/linphone/3.3.x/sources/
 
 MAINTAINER=	schwarz@NetBSD.org
 HOMEPAGE=	http://www.linphone.org/
@@ -23,7 +23,7 @@ CONFIGURE_ARGS+=	--with-speex=${BUILDLINK_PREFIX.speex}
 CONFIGURE_ARGS+=	--with-html-dir=${PREFIX}/share/doc/linphone
 CONFIGURE_ARGS+=	--disable-manual --enable-glib
 
-# don't treat warnings as errors, code is not portable enough (3.2.1)
+# don't treat warnings as errors, code is not portable enough (3.3.2)
 BUILDLINK_TRANSFORM+=	rm:-Werror
 
 .include "options.mk"

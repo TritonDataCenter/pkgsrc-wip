@@ -1,8 +1,8 @@
 $NetBSD$
 
---- console/linphonec.c.orig	2007-11-14 14:40:27.000000000 +0100
-+++ console/linphonec.c	2008-09-30 19:10:05.000000000 +0200
-@@ -994,12 +994,12 @@
+--- console/linphonec.c.orig	2011-01-30 21:05:52.000000000 +0100
++++ console/linphonec.c	2011-01-30 21:06:56.000000000 +0100
+@@ -1348,12 +1348,12 @@
  	char *iptr;
  
  	/* Find first non-blank */

@@ -12,6 +12,8 @@ CONFIGURE_ARGS+=	--enable-alsa
 
 .if empty(PKG_OPTIONS:Mlinphone-gui)
 CONFIGURE_ARGS+=	--enable-gnome_ui=no
+.include "../../x11/gtk2/buildlink3.mk"
+.include "../../devel/libglade/buildlink3.mk"
 PLIST_SUBST+=	GUI="@comment "
 .else
 PLIST_SUBST+=	GUI=
