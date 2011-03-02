@@ -3,7 +3,7 @@
 DISTNAME=	ozymandns_src_0.1
 PKGNAME=	${DISTNAME:S/_src_/-/}
 CATEGORIES=	net
-MASTER_SITES=	http://www.doxpara.com/ http://www.cship.info/mirror/dnstunnel/
+MASTER_SITES=	http://www.cship.info/mirror/dnstunnel/ http://beta.ivancover.com/dnstunnel/ http://wiki.kartbuilding.net/ http://s3.amazonaws.com/dmk/
 EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	schwarz@NetBSD.org
