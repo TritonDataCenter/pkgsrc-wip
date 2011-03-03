@@ -5,7 +5,7 @@ DISTNAME=	munin-${VERSION}
 PKGNAME=	munin-common-${VERSION}
 VERSION=	1.4.5
 CATEGORIES=	sysutils
-MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=munin/munin%20stable/}
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=munin/}
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://munin-monitoring.org/
