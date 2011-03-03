@@ -1,5 +1,8 @@
 $NetBSD$
 
+Add missing MANIFEST file so that Munin::Common becomes manageable
+by the Perl module framework.
+
 --- /dev/null	2011-01-09 11:43:05.000000000 +0000
 +++ MANIFEST
 @@ -0,0 +1,22 @@

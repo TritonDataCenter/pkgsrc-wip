@@ -1,5 +1,7 @@
 $NetBSD$
 
+Initialize default paths for all Munin components.
+
 --- lib/Munin/Common/Defaults.pm.orig	2009-11-10 20:13:54.000000000 +0000
 +++ lib/Munin/Common/Defaults.pm
 @@ -18,18 +18,18 @@ my $COMPONENT_ROOT = dirname(__FILE__) .

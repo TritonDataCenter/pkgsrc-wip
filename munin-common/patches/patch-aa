@@ -1,5 +1,7 @@
 $NetBSD$
 
+Add missing module_name so that Munin::Common becomes a valid Perl Module.
+
 --- Build.PL.orig	2009-04-15 06:58:10.000000000 +0000
 +++ Build.PL
 @@ -1,6 +1,7 @@
