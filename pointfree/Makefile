@@ -1,12 +1,11 @@
 # $NetBSD$
 #
 
-DISTNAME=	pointfree-1.0.3
+DISTNAME=	pointfree-1.0.4.1
 PKGNAME=	${DISTNAME}
 CATEGORIES=	devel
 
 MAINTAINER=	pho@cielonegro.org
-HOMEPAGE=	http://haskell.org/haskellwiki/Pointfree
 COMMENT=	Convert Haskell expressions to pointfree form
 LICENSE=	modified-bsd
 
