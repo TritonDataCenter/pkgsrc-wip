@@ -10,6 +10,9 @@ bin/properties
 bin/view
 share/applications/browser.desktop
 share/applications/desktop-settings.desktop
+share/icons/hicolor/16x16/apps/browser-view-details.png
+share/icons/hicolor/16x16/apps/browser-view-icons.png
+share/icons/hicolor/16x16/apps/browser-view-list.png
 share/locale/de/LC_MESSAGES/Browser.mo
 share/locale/es/LC_MESSAGES/Browser.mo
 share/locale/fr/LC_MESSAGES/Browser.mo
