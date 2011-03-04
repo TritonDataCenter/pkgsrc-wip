@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	dnssd-1.4
+DISTNAME=	dnssd-2.0
 CATEGORIES=	net ruby
 
 MAINTAINER=	obache@NetBSD.org
