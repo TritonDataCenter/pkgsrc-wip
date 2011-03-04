@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	gnome-mplayer-1.0.0
+DISTNAME=	gnome-mplayer-1.0.2
 CATEGORIES=	multimedia
 MASTER_SITES=	http://gnome-mplayer.googlecode.com/files/
 

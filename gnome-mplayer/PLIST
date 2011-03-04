@@ -27,7 +27,6 @@ share/locale/cs/LC_MESSAGES/gnome-mplayer.mo
 share/locale/da/LC_MESSAGES/gnome-mplayer.mo
 share/locale/de/LC_MESSAGES/gnome-mplayer.mo
 share/locale/el/LC_MESSAGES/gnome-mplayer.mo
-share/locale/en/LC_MESSAGES/gnome-mplayer.mo
 share/locale/en_GB/LC_MESSAGES/gnome-mplayer.mo
 share/locale/es/LC_MESSAGES/gnome-mplayer.mo
 share/locale/et/LC_MESSAGES/gnome-mplayer.mo
@@ -35,6 +34,7 @@ share/locale/eu/LC_MESSAGES/gnome-mplayer.mo
 share/locale/fi/LC_MESSAGES/gnome-mplayer.mo
 share/locale/fo/LC_MESSAGES/gnome-mplayer.mo
 share/locale/fr/LC_MESSAGES/gnome-mplayer.mo
+share/locale/fy/LC_MESSAGES/gnome-mplayer.mo
 share/locale/gl/LC_MESSAGES/gnome-mplayer.mo
 share/locale/he/LC_MESSAGES/gnome-mplayer.mo
 share/locale/hu/LC_MESSAGES/gnome-mplayer.mo
@@ -52,6 +52,7 @@ share/locale/sr/LC_MESSAGES/gnome-mplayer.mo
 share/locale/sr@latin/LC_MESSAGES/gnome-mplayer.mo
 share/locale/sv/LC_MESSAGES/gnome-mplayer.mo
 share/locale/tr/LC_MESSAGES/gnome-mplayer.mo
+share/locale/uk/LC_MESSAGES/gnome-mplayer.mo
 share/locale/zh_CN/LC_MESSAGES/gnome-mplayer.mo
 share/locale/zh_HK/LC_MESSAGES/gnome-mplayer.mo
 share/locale/zh_TW/LC_MESSAGES/gnome-mplayer.mo
