@@ -40,15 +40,6 @@ INSTALL_UNSTRIPPED=	yes
 #		--with-widgets=motif \
 #		--with-xim=motif
 #.include "../../mk/motif.buildlink3.mk"
-#.elif defined(USE_GTK)
-#WITH_DIALOGS= \
-#		--with-gtk \
-#		--with-menubars=yes \
-#		--with-scrollbars=yes \
-#		--with-dialogs=yes \
-#		--with-widgets=yes \
-#		--with-xim=yes
-#.include "../../x11/gtk/buildlink3.mk"
 #.else
 # XXX Default is "lucid".  Due to the output of `configure --help', Lucid
 #     widgets wrap Athena, so xaw.buildlink3.mk.
