@@ -1,6 +1,0 @@
-@comment $NetBSD$
-bin/taskbar
-share/taskbar/libclock.la
-share/taskbar/libsensors.la
-share/doc/taskbar/README
-share/examples/taskbar/example_.taskbar
