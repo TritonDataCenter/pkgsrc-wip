@@ -24,5 +24,6 @@ USE_TOOLS+=	msgfmt pkg-config
 
 .include "../../graphics/imlib/buildlink3.mk"
 .include "../../x11/kdelibs4/buildlink3.mk"
+.include "../../sysutils/desktop-file-utils/desktopdb.mk"
 .include "../../meta-pkgs/kde4/kde4.mk"
 .include "../../mk/bsd.pkg.mk"
