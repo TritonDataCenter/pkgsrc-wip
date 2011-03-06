@@ -2,6 +2,7 @@
 bin/nih
 bin/pkg_update_plan
 man/man1/nih.1
+man/man1/pkg_update_plan.1
 share/doc/pkgnih/COPYRIGHT
 share/doc/pkgnih/NEWS
 share/doc/pkgnih/README
