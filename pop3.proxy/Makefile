@@ -15,5 +15,5 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 MAKE_FILE=	makefile
 INSTALLATION_DIRS=	sbin man/man1
 
-.include "../../mail/clamav/buildlink3.mk"
+.include "../../security/clamav/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
