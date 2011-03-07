@@ -3,7 +3,6 @@
 
 DISTNAME=	Konatu_ver_26
 PKGNAME=	${DISTNAME:tl:S/_ver_/-ttf-/}
-
 CATEGORIES=	fonts japanese
 MASTER_SITES=	http://www.masuseki.com/be/konatu/
 EXTRACT_SUFX=	.zip
