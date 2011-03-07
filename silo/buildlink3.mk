@@ -1,0 +1,13 @@
+# $NetBSD$
+
+BUILDLINK_TREE+=	silo
+
+.if !defined(SILO_BUILDLINK3_MK)
+SILO_BUILDLINK3_MK:=
+
+BUILDLINK_API_DEPENDS.silo+=	silo>=4.8
+BUILDLINK_PKGSRCDIR.silo?=	../../wip/silo
+
+.endif	# SILO_BUILDLINK3_MK
+
+BUILDLINK_TREE+=	-silo
