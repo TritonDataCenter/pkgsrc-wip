@@ -10,7 +10,7 @@ EXTRACT_SUFX=	.zip
 
 MAINTAINER=	ryoon@NetBSD.org
 HOMEPAGE=	http://www.masuseki.com/?u=be/konatu.htm
-COMMENT=	Japanese TrueType gothic (sans-serif) fonts, Konatsu fonts
+COMMENT=	Japanese TrueType gothic (sans-serif) fonts, Konatu fonts
 # LICENSE=	Creative Commons Attribution-Share Alike 3.0 Unported
 
 PKG_DESTDIR_SUPPORT=	user-destdir
