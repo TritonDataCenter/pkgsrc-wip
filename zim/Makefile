@@ -6,7 +6,7 @@ PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	editors
 MASTER_SITES=	http://zim-wiki.org/downloads/
 
-MAINTAINER=	ryo_on@yk.rim.or.jp
+MAINTAINER=	ryoon@NetBSD.org
 HOMEPAGE=	http://zim-wiki.org/
 COMMENT=	Zim brings the concept of a wiki to your desktop
 LICENSE=	gnu-gpl-v2
@@ -35,14 +35,6 @@ SUBST_SED.data-path=	-e 's,/usr/local/share/,${PREFIX}/share/,'
 .if ${PYPKGPREFIX} == "py25"
 DEPENDS+=	${PYPKGPREFIX}-simplejson-[0-9]*:../../converters/py-simplejson
 .endif
-
-#post-install:
-#	set -e; \
-#	cd ${SRKSRC}/data/pixmaps; \
-#	${INSTALL_DATA} attachment.png calendar.png checked-box.png link.png \
-#		linkmap.png task-list.png unchecked-box.png xchecked-box.png \
-#		${DESTDIR}${PREFIX}/share/pixmaps
-
 
 .include "../../lang/python/application.mk"
 .include "../../lang/python/extension.mk"
