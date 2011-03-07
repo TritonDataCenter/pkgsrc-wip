@@ -10,7 +10,7 @@ DISTFILES=	kiloji_2.1.0.zip \
 		kiloji_d2.1.0.zip \
 		kiloji_b2.1.0.zip
 
-MAINTAINER=	ryo_on@yk.rim.or.jp
+MAINTAINER=	ryoon@NetBSD.org
 HOMEPAGE=	http://www.ez0.net/distribution/font/kiloji/
 COMMENT=	JIS X 0208 Japanese script fonts made by kilo
 LICENSE=	modified-bsd # with some difference
@@ -38,11 +38,11 @@ INSTALL_DOCS=	Collecting.txt \
 		License.txt
 
 do-install:
-.for filename in ${INSTALL_FONTS}
-	${INSTALL_DATA} ${WRKSRC}/${filename} ${DESTDIR}${FONTDIR}
+.for f in ${INSTALL_FONTS}
+	${INSTALL_DATA} ${WRKSRC}/${f} ${DESTDIR}${FONTDIR}
 .endfor
-.for filename in ${INSTALL_DOCS}
-	${INSTALL_DATA} ${WRKSRC}/${filename} ${DESTDIR}${DOCDIR}
+.for f in ${INSTALL_DOCS}
+	${INSTALL_DATA} ${WRKSRC}/${f} ${DESTDIR}${DOCDIR}
 .endfor
 
 .include "../../mk/bsd.pkg.mk"
