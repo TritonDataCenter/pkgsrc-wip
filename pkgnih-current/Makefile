@@ -1,7 +1,6 @@
 # $NetBSD$
 
 DISTNAME=	pkgnih-999
-PKGREVISION=	1
 CATEGORIES=	pkgtools
 
 MAINTAINER=	vle@gmx.net
