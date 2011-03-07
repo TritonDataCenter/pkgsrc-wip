@@ -1,6 +1,7 @@
 # $NetBSD$
 
 DISTNAME=	pkgnih-999
+PKGREVISION=	1
 CATEGORIES=	pkgtools
 
 MAINTAINER=	vle@gmx.net
@@ -13,7 +14,7 @@ GIT_REPOSITORIES=	master
 GIT_REPO.master=	git://github.com/cheusov/pkgnih.git
 .include "../../wip/mk/git-package.mk"
 
-DEPENDS+=		pkg_summary-utils>=0.52beta1:../../wip/pkg_summary-utils
+DEPENDS+=		pkg_summary-utils>=0.53beta1:../../wip/pkg_summary-utils
 DEPENDS+=		pkg_status>=0.14:../../wip/pkg_status
 DEPENDS+=		digest-[0-9]*:../../pkgtools/digest
 
