@@ -1,0 +1,12 @@
+@comment $NetBSD$
+bin/curve1
+bin/fourexp
+bin/hat
+bin/morobropro
+bin/powell
+bin/surface1
+include/lmmin.h
+lib/liblmmin.la
+man/man3/lmcurve_fit.3
+man/man3/lmfit.3
+man/man3/lmmin.3
