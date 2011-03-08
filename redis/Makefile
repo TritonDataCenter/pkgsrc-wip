@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	redis-2.0.4
+DISTNAME=	redis-2.2.2
 CATEGORIES=	databases
 MASTER_SITES=	http://redis.googlecode.com/files/
 
@@ -21,7 +21,7 @@ RCD_SCRIPTS+=		redis
 RCD_SCRIPT_SRC.redis=	${FILESDIR}/redis.sh
 
 DOCDIR=			share/doc/redis
-DOCFILES+=		00-RELEASENOTES BETATESTING.txt BUGS COPYING \
+DOCFILES+=		00-RELEASENOTES BUGS COPYING \
 			Changelog README
 EGDIR=			${PREFIX}/share/examples/${PKGBASE}
 INSTALLATION_DIRS+=	bin ${DOCDIR} ${EGDIR} ${EGDIR}/utils ${EGDIR}/tests
@@ -45,7 +45,7 @@ PKG_USERS+=		${REDIS_USER}:${REDIS_GROUP}
 PKG_GECOS.${REDIS_USER}= Redis daemon user
 PKG_HOME.${REDIS_USER}=	${REDIS_DBDIR}
 
-FILES_SUBST+=		REDIS_USER=${REDIS_USER:Q}
+FILES_SUBST+=		REDIS_USER=${REDIS_USER}
 
 SUBST_CLASSES+=		fix-paths
 SUBST_STAGE.fix-paths=	post-patch
