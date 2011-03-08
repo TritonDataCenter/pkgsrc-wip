@@ -2398,6 +2398,7 @@ SUBDIR+=	qvamps
 SUBDIR+=	r8s
 SUBDIR+=	rabbitmq
 SUBDIR+=	radare
+SUBDIR+=	radiotray
 SUBDIR+=	rar3
 SUBDIR+=	rast
 SUBDIR+=	raster3d
