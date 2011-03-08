@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		grub-bazaar-snapshot
-PKGNAME=		grub2-${TODAY}
+PKGNAME=		grub2-${BZR_REVISION}.${TODAY}
 CATEGORIES=		sysutils
 
 MAINTAINER=		gsutre@NetBSD.org
