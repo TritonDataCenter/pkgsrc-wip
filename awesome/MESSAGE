@@ -1,5 +1,0 @@
-===========================================================================
-$NetBSD$
-libxdg-base is currently bugged (see PR pkg/42575) :
-You should copy /usr/pkg/etc/xdg/awesome/rc.lua to ~/.config/awesome/
-===========================================================================
