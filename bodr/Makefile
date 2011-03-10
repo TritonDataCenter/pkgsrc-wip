@@ -3,10 +3,10 @@
 
 DISTNAME=	bodr-8
 CATEGORIES=	biology
-MASTER_SITES=	http://garr.dl.sourceforge.net/project/bodr/bodr/8/
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=bodr/}
 
 MAINTAINER=	jihbed.research@gmail.com
-HOMEPAGE=	http://blueobelisk.sourceforge.net/wiki/Main_Page
+HOMEPAGE=	http://blueobelisk.org/
 COMMENT=	Blue Obelisk Data Repository
 #LICENSE=	# TODO: (see mk/license.mk)
 

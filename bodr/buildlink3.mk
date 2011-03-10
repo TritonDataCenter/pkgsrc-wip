@@ -1,0 +1,13 @@
+# $NetBSD$
+
+BUILDLINK_TREE+=	bodr
+
+.if !defined(BODR_BUILDLINK3_MK)
+BODR_BUILDLINK3_MK:=
+
+BUILDLINK_API_DEPENDS.bodr+=	bodr>=8
+BUILDLINK_PKGSRCDIR.bodr?=	../../wip/bodr
+
+.endif	# BODR_BUILDLINK3_MK
+
+BUILDLINK_TREE+=	-bodr
