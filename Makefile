@@ -704,6 +704,7 @@ SUBDIR+=	goattracker
 SUBDIR+=	godura
 SUBDIR+=	goldwater
 SUBDIR+=	google-perftools
+SUBDIR+=	googlecl
 SUBDIR+=	googlesharing
 SUBDIR+=	gosmore
 SUBDIR+=	gov2
