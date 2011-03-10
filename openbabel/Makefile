@@ -21,7 +21,6 @@ PKGCONFIG_OVERRIDE+=	openbabel-2.0.pc.in
 
 CONFIGURE_ARGS+=	--disable-inchi
 CONFIGURE_ARGS+=	--disable-dynamic-modules
-CONFIGURE_ARGS+=	--disable-inchi
 
 .include "options.mk"
 
