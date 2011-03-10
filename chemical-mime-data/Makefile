@@ -13,6 +13,8 @@ COMMENT=	Chemical mime and file type support for desktops
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
+BUILD_DEPENDS+=		ImageMagick-[0-9]*:../../graphics/ImageMagick
+
 GNU_CONFIGURE=	yes
 USE_PKGLOCALEDIR=  yes
 USE_TOOLS+=	pkg-config intltool msgfmt gmake
@@ -24,7 +26,6 @@ PKGCONFIG_OVERRIDE+=	chemical-mime-data.pc.in
 
 .include "../../databases/gnome-mime-data/buildlink3.mk"
 .include "../../databases/shared-mime-info/buildlink3.mk"
-.include "../../graphics/librsvg/buildlink3.mk"
 .include "../../lang/python/application.mk"
 .include "../../textproc/libxslt/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
