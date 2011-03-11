@@ -2628,6 +2628,7 @@ SUBDIR+=	talloc
 SUBDIR+=	tamago-anthy
 SUBDIR+=	tardy
 SUBDIR+=	task
+SUBDIR+=	taskcoach
 SUBDIR+=	tasks
 SUBDIR+=	tcc
 SUBDIR+=	tcc-devel
