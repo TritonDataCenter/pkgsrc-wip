@@ -34,7 +34,6 @@ CONF_FILES=		${EGDIR}/nih.conf \
 MAKE_DIRS+=		${PKG_SYSCONFDIR}/nih
 
 MAKE_ENV+=		MANDIR=${PREFIX}/${PKGMANDIR}
-MAKE_ENV+=		EGDIR=${EGDIR}
 MAKE_ENV+=		DOCDIR=${PREFIX}/share/doc/pkgnih
 
 .include "../../wip/mk/git-package.mk"
