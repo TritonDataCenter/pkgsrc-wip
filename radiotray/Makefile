@@ -4,7 +4,7 @@
 DISTNAME=		radiotray-0.6.3
 CATEGORIES=		audio net
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=radiotray/}
-LICENSE=		gnu-gpl-v2
+LICENSE=		gnu-gpl-v1
 
 MAINTAINER=		pouya@san-serriffe.org
 HOMEPAGE=		http://radiotray.sourceforge.net/
@@ -13,7 +13,8 @@ COMMENT=		Internet radio player with a minimal GUI
 DEPENDS+=		${PYPKGPREFIX}-lxml>=2.1.5:../../textproc/py-lxml
 DEPENDS+=		${PYPKGPREFIX}-xdg-[0-9]*:../../devel/py-xdg
 DEPENDS+=		gst-plugins0.10-soup-[0-9]*:../../net/gst-plugins0.10-soup
-DEPENDS+=		notification-daemon-[0-9]*:../../sysutils/notification-daemon
+# XXX notification-daemon is not a strict dependency.
+#DEPENDS+=		notification-daemon-[0-9]*:../../sysutils/notification-daemon
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
