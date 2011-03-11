@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	i3bar-0.5
+DISTNAME=	i3bar-0.6
 CATEGORIES=	x11 wm
 MASTER_SITES=	http://git.merovius.de/i3bar/snapshot/
 
