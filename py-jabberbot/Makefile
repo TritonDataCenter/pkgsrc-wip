@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	jabberbot-0.10
+DISTNAME=	jabberbot-0.12
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	chat python
 MASTER_SITES=	http://thp.io/2007/python-jabberbot/

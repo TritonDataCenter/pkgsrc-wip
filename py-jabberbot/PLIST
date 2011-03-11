@@ -6,3 +6,4 @@ ${PYSITELIB}/jabberbot.pyo
 share/examples/py-jabberbot/broadcast.py
 share/examples/py-jabberbot/tunes.py
 share/examples/py-jabberbot/twitterbot.py
+share/examples/py-jabberbot/muc.py
