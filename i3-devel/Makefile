@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	i3-tree-pr1
+DISTNAME=	i3-tree-pr2
 PKGNAME=	${DISTNAME:C/tree-pr/4devel/}
 CATEGORIES=	wm
 MASTER_SITES=	http://i3.zekjur.net/downloads/
@@ -14,7 +14,7 @@ LICENSE=	modified-bsd
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
-USE_TOOLS+=	gmake bison lex yacc
+USE_TOOLS+=	gmake bison lex yacc pkg-config
 USE_LANGUAGES=	c99
 MAKE_JOBS_SAFE=	no
 
