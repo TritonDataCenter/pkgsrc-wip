@@ -28,7 +28,7 @@ MAKE_ENV+=		SUBPRJ_DFLT="paexec doc examples"
 MAKE_ENV+=		EGDIR=${EGDIR}
 
 REPLACE_SH+=		examples/cc_wrapper/cc_wrapper_cmd \
-			examples/broken_echo/transport_broken_echo2
+			tests/broken_echo/transport_broken_echo2
 
 .include "../../devel/libmaa/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
