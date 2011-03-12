@@ -106,6 +106,8 @@ CONFIGURE_ARGS+=	--disable-libssp
 CONFIGURE_ARGS+=	--enable-threads=posix
 CONFIGURE_ARGS+=	--with-gmp=${BUILDLINK_PREFIX.gmp}
 CONFIGURE_ARGS+=	--with-mpfr=${BUILDLINK_PREFIX.mpfr}
+CONFIGURE_ARGS+=	--with-ld=${PREFIX}/bin/gnu-ld
+CONFIGURE_ARGS+=	--with-libelf=${PREFIX}
 
 CONFIGURE_ENV+=		CONFIG_SHELL=${CONFIG_SHELL}
 
@@ -155,6 +157,9 @@ pre-configure:
 	${CP} ${FILESDIR}/i386-dragonfly64.h ${WRKSRC}/gcc/config/i386/dragonfly64.h
 .endif
 
+.if ${OPSYS} == "NetBSD"
+	${CP} ${WRKSRC}/gcc/config/freebsd-stdint.h ${WRKSRC}/gcc/config/netbsd-stdint.h 
+.endif
 
 do-configure:
 	${MKDIR} ${WRKDIR}/obj
