@@ -1278,6 +1278,7 @@ SUBDIR+=	libgxim
 SUBDIR+=	libharu
 SUBDIR+=	libhttpd
 SUBDIR+=	libipctdata
+SUBDIR+=	libisoburn
 SUBDIR+=	libisofs
 SUBDIR+=	libitl
 SUBDIR+=	libjingle
