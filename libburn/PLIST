@@ -1,0 +1,6 @@
+@comment $NetBSD$
+bin/cdrskin
+include/libburn/libburn.h
+lib/libburn.la
+lib/pkgconfig/libburn-1.pc
+man/man1/cdrskin.1
