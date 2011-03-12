@@ -1245,6 +1245,7 @@ SUBDIR+=	libatomic_ops
 SUBDIR+=	libavc1394
 SUBDIR+=	libbrahe
 SUBDIR+=	libbtctl
+SUBDIR+=	libburn
 SUBDIR+=	libcli
 SUBDIR+=	libcm
 SUBDIR+=	libcmt
