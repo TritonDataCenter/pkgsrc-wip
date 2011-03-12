@@ -1277,6 +1277,7 @@ SUBDIR+=	libgxim
 SUBDIR+=	libharu
 SUBDIR+=	libhttpd
 SUBDIR+=	libipctdata
+SUBDIR+=	libisofs
 SUBDIR+=	libitl
 SUBDIR+=	libjingle
 SUBDIR+=	liblingoteach
