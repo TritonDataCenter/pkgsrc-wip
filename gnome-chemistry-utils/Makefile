@@ -26,6 +26,8 @@ GCONF_SCHEMAS+=	programs/paint/gchempaint.schemas
 BUILDLINK_TRANSFORM+=rm:-DGTK_DISABLE_DEPRECATED
 BUILDLINK_TRANSFORM+=rm:-ldl
 
+CONFIGURE_ARGS+=	--disable-update-databases
+
 .include "../../devel/GConf/schemas.mk"
 .include "../../databases/shared-mime-info/buildlink3.mk"
 .include "../../textproc/gnome-doc-utils/buildlink3.mk"
