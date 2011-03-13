@@ -1,7 +1,7 @@
 # $NetBSD$
 
 DISTNAME=	pkgnih-0.5
-PKGREVISION=	3
+PKGREVISION=	4
 CATEGORIES=	pkgtools
 MASTER_SITES=	http://mova.org/~cheusov/pub/pkgnih/
 
@@ -10,7 +10,7 @@ HOMEPAGE=	https://github.com/cheusov/pkgnih
 COMMENT=	Package manager for pkgsrc
 LICENSE=	2-clause-bsd
 
-DEPENDS+=		pkg_summary-utils>=0.53beta3:../../wip/pkg_summary-utils
+DEPENDS+=		pkg_summary-utils>=0.53beta4:../../wip/pkg_summary-utils
 DEPENDS+=		pkg_status>=0.14:../../wip/pkg_status
 DEPENDS+=		digest-[0-9]*:../../pkgtools/digest
 DEPENDS+=		pkg_install>=20100915:../../pkgtools/pkg_install
