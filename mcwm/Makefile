@@ -1,8 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	mcwm-20101118-2
-PKGNAME=	mcwm-20101118.2
+DISTNAME=	mcwm-20110308
 CATEGORIES=	wm
 MASTER_SITES=	http://www.hack.org/mc/hacks/mcwm/
 EXTRACT_SUFX=	.tar.bz2
