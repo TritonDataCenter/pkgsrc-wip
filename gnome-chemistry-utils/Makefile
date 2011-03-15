@@ -19,9 +19,9 @@ USE_TOOLS+=	gmake intltool pkg-config msgfmt xgettext msgmerge perl
 USE_LANGUAGES=	c c++
 
 GCONF_SCHEMAS+=	gchemutils.schemas
-GCONF_SCHEMAS+=	plugins/paint/arrows/gchempaint-arrows.schemas
-GCONF_SCHEMAS+=	programs/crystal/gcrystal.schemas
-GCONF_SCHEMAS+=	programs/paint/gchempaint.schemas
+GCONF_SCHEMAS+=	gchempaint-arrows.schemas
+GCONF_SCHEMAS+=	gcrystal.schemas
+GCONF_SCHEMAS+=	gchempaint.schemas
 
 BUILDLINK_TRANSFORM+=rm:-DGTK_DISABLE_DEPRECATED
 BUILDLINK_TRANSFORM+=rm:-ldl
@@ -33,6 +33,7 @@ CONFIGURE_ARGS+=	--disable-update-databases
 .include "../../textproc/gnome-doc-utils/buildlink3.mk"
 .include "../../graphics/gtkglext/buildlink3.mk"
 .include "../../misc/goffice0.8/buildlink3.mk"
+.include "../../sysutils/desktop-file-utils/desktopdb.mk"
 .include "../../wip/chemical-mime-data/buildlink3.mk"
 .include "../../wip/bodr/buildlink3.mk"
 .include "../../wip/openbabel/buildlink3.mk"
