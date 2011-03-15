@@ -2497,7 +2497,6 @@ SUBDIR+=	shaper
 SUBDIR+=	sharif-univ-ttf
 SUBDIR+=	shed
 SUBDIR+=	shell-fm
-SUBDIR+=	shibboleth2
 SUBDIR+=	shoutcast
 SUBDIR+=	showmesh
 SUBDIR+=	shttpd
