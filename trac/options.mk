@@ -4,7 +4,7 @@ PKG_OPTIONS_VAR=		PKG_OPTIONS.trac
 PKG_OPTIONS_REQUIRED_GROUPS=	db
 PKG_OPTIONS_GROUP.db=		sqlite pgsql mysql
 PKG_SUGGESTED_OPTIONS=		sqlite
-PKG_LEGACY_OPTIONS=		psycopg2:pgsql
+PKG_OPTIONS_LEGACY_OPTS=	psycopg2:pgsql
 
 .include "../../mk/bsd.options.mk"
 
