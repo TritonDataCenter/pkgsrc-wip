@@ -1,8 +1,12 @@
 @comment $NetBSD$
 lib/X11/fonts/TTF/Ubuntu-B.ttf
 lib/X11/fonts/TTF/Ubuntu-BI.ttf
-lib/X11/fonts/TTF/Ubuntu-I.ttf
+lib/X11/fonts/TTF/Ubuntu-L.ttf
+lib/X11/fonts/TTF/Ubuntu-LI.ttf
+lib/X11/fonts/TTF/Ubuntu-M.ttf
+lib/X11/fonts/TTF/Ubuntu-MI.ttf
 lib/X11/fonts/TTF/Ubuntu-R.ttf
+lib/X11/fonts/TTF/Ubuntu-RI.ttf
 share/doc/ubuntu-font-ttf/CONTRIBUTING.txt
 share/doc/ubuntu-font-ttf/FONTLOG.txt
 share/doc/ubuntu-font-ttf/LICENCE-FAQ.txt
