@@ -187,4 +187,5 @@ GENERATE_PLIST+=                                                        \
 .include "../../devel/zlib/buildlink3.mk"
 .include "../../math/mpfr/buildlink3.mk"
 .include "../../devel/binutils/buildlink3.mk"
+.include "../../devel/libelf/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
