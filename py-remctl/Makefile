@@ -1,6 +1,6 @@
 # $NetBSD$
 
-VERSION=	2.15
+VERSION=	2.16
 DISTNAME=	remctl-${VERSION}
 PKGNAME=	${PYPKGPREFIX}-remctl-${VERSION}
 CATEGORIES=	sysutils security
@@ -9,6 +9,7 @@ MASTER_SITES=	http://archives.eyrie.org/software/kerberos/
 MAINTAINER=	jakllsch@NetBSD.org
 HOMEPAGE=	http://www.eyrie.org/~eagle/software/remctl/
 COMMENT=	Python bindings for remctl remote command execution
+LICENSE=	mit
 
 USE_LIBTOOL=		yes
 USE_TOOLS+=		gmake
