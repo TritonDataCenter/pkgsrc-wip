@@ -409,6 +409,7 @@ SUBDIR+=	directfb
 SUBDIR+=	discident-glib
 SUBDIR+=	discount
 SUBDIR+=	distbb
+SUBDIR+=	distbb-current
 SUBDIR+=	distella
 SUBDIR+=	diveintopython
 SUBDIR+=	djview4
