@@ -381,7 +381,6 @@ lib/firefox/modules/services-sync/engines/tabs.js
 lib/firefox/modules/services-sync/ext/Observers.js
 lib/firefox/modules/services-sync/ext/Preferences.js
 lib/firefox/modules/services-sync/ext/StringBundle.js
-lib/firefox/modules/services-sync/ext/Sync.js
 lib/firefox/modules/services-sync/identity.js
 lib/firefox/modules/services-sync/jpakeclient.js
 lib/firefox/modules/services-sync/log4moz.js
