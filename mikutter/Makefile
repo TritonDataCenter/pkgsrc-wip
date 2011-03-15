@@ -1,13 +1,13 @@
 # $NetBSD$
 #
 
-DISTNAME=	mikutter.0.0.2.10
+DISTNAME=	mikutter.0.0.2.11
 PKGNAME=	${RUBY_PKGPREFIX}-${DISTNAME:S/./-/}
 CATEGORIES=	net
-MASTER_SITES=	http://mikutter.d.hachune.net/bin/
+MASTER_SITES=	http://mikutter.hachune.net/bin/
 
 MAINTAINER=	obache@NetBSD.org
-HOMEPAGE=	http://mikutter.d.hachune.net/
+HOMEPAGE=	http://mikutter.hachune.net/
 COMMENT=	Moest Twitter Client
 LICENSE=	gnu-gpl-v3
 
