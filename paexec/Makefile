@@ -18,8 +18,6 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 
 TEST_TARGET=		test
 
-AUTO_MKDIRS=		yes
-
 EGDIR=			${PREFIX}/share/examples/${PKGBASE}
 
 MAKE_ENV+=		MANDIR=${PREFIX}/${PKGMANDIR}
