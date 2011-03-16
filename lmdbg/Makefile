@@ -16,6 +16,8 @@ BUILD_DEPENDS+=		mk-configure>=0.20.0:../../devel/mk-configure
 DEPENDS+=		pipestatus-[0-9]*:../../devel/pipestatus
 #DEPENDS+=		gdb-[0-9]*:../../devel/gdb
 
+ONLY_FOR_COMPILER=	gcc icc
+
 PKG_DESTDIR_SUPPORT=	user-destdir
 
 TEST_TARGET=		test
@@ -25,7 +27,7 @@ MAKE_ENV=		MANDIR=${PREFIX}/${PKGMANDIR}
 DOCDIR=			share/doc/lmdbg
 DOCFILES=		README NEWS ChangeLog
 
-AUTO_MKDIRS=		yes
+INSTALLATION_DIRS=	${DOCDIR}
 
 post-install:
 .for f in ${DOCFILES}
