@@ -169,9 +169,9 @@ do-build:
 	(${_ULIMIT_CMD} cd ${WRKDIR}/obj && ${SETENV} ${MAKE_ENV} ${GMAKE} -j${MAKE_JOBS:U1:Q} )
 
 do-test:
-.if (${MACHINE_GNU_ARCH} == "x86_64")
-	(cd ${FILESDIR} && ${CP} netbsd64macro.dfs ${WRKSRC}/gcc/testsuite/ada/acats/support/macro.dfs)
-.endif
+#.if (${MACHINE_GNU_ARCH} == "x86_64")
+#	(cd ${FILESDIR} && ${CP} netbsd64macro.dfs ${WRKSRC}/gcc/testsuite/ada/acats/support/macro.dfs)
+#.endif
 	(cd ${WRKDIR}/obj && ${GMAKE} -k check)
 
 do-install:
