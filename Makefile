@@ -1874,7 +1874,6 @@ SUBDIR+=	p5-XML-Writer-Simple
 SUBDIR+=	p5-mozldap
 SUBDIR+=	p5-qt3
 SUBDIR+=	packman
-SUBDIR+=	paexec
 SUBDIR+=	pagetools
 SUBDIR+=	pal
 SUBDIR+=	palp
