@@ -17,6 +17,7 @@ DEPENDS+=		pipestatus-[0-9]*:../../devel/pipestatus
 #DEPENDS+=		gdb-[0-9]*:../../devel/gdb
 
 ONLY_FOR_COMPILER=	gcc icc
+NOT_FOR_PLATFORM=	Darwin-*-*
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
