@@ -12,7 +12,6 @@ EXTRACT_SUFX=	.tgz
 MAINTAINER=	cheusov@tut.by
 HOMEPAGE=	http://mueller-dic.chat.ru/
 COMMENT=	DICTD data for English-Russian dictionary by Mueller
-
 LICENSE=	gnu-gpl-v2
 
 DEPENDS+=	dict-server>=1.9.14:../../textproc/dict-server
