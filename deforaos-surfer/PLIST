@@ -2,3 +2,9 @@
 bin/download
 bin/surfer
 share/applications/surfer.desktop
+share/icons/hicolor/16x16/apps/surfer-view-html-source.png
+share/icons/hicolor/24x24/apps/surfer-view-html-source.png
+share/locale/de/LC_MESSAGES/Surfer.mo
+share/locale/es/LC_MESSAGES/Surfer.mo
+share/locale/fr/LC_MESSAGES/Surfer.mo
+share/locale/it/LC_MESSAGES/Surfer.mo
