@@ -1,12 +1,9 @@
 # $NetBSD$
-#
-# TODO: add an embedded option
 
-DISTNAME=	Player-0.1.2
-PKGNAME=	deforaos-player-0.1.2
-PKGREVISION=	1
+DISTNAME=	Player-0.1.3
+PKGNAME=	deforaos-player-0.1.3
 CATEGORIES=	multimedia
-MASTER_SITES=	http://www.defora.org/os/download/download/3277/
+MASTER_SITES=	http://www.defora.org/os/download/download/3504/
 
 MAINTAINER=	khorben@defora.org
 HOMEPAGE=	http://www.defora.org/
@@ -20,7 +17,9 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 MAKE_FLAGS+=	PREFIX=${PREFIX}
 MAKE_FLAGS+=	DESTDIR=${DESTDIR}
 
+.include "options.mk"
+
 .include "../../wip/deforaos-libsystem/buildlink3.mk"
-.include "../../x11/gtk2/buildlink3.mk"
+.include "../../wip/deforaos-libdesktop/buildlink3.mk"
 .include "../../sysutils/desktop-file-utils/desktopdb.mk"
 .include "../../mk/bsd.pkg.mk"
