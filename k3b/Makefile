@@ -19,7 +19,7 @@ DEPENDS+=		cdrdao-[0-9]*:../../sysutils/cdrdao
 DEPENDS+=		{cdrtools,cdrtools-ossdvd}-[0-9]*:../../sysutils/cdrtools
 
 USE_CMAKE=		yes
-USE_TOOLS+=		perl pkg-config gmake
+USE_TOOLS+=		perl pkg-config gmake msgfmt
 USE_LANGUAGES=		c c++
 
 #CMAKE_ARGS+=		-DK3B_ENABLE_DVD_RIPPING=OFF
@@ -35,6 +35,10 @@ SUBST_STAGE.pathfix=	post-patch
 SUBST_MESSAGE.pathfix=	Add cdrtools path.
 SUBST_FILES.pathfix=	libk3b/core/k3bexternalbinmanager.cpp
 SUBST_SED.pathfix=	-e 's:"/usr/bin/":"${LOCALBASE}/bin", "/usr/bin/":g'
+
+pre-configure:
+	# buildlink loses this symlink
+	ln -s ${BUILDLINK_PREFIX.qt4-libs}/qt4/mkspecs/default ${BUILDLINK_DIR}/qt4/mkspecs/default
 
 .include "../../mk/dlopen.buildlink3.mk"
 BUILDLINK_TRANSFORM+=   opt:-ldl:${BUILDLINK_LDADD.dl:M*}
