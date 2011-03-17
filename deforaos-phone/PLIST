@@ -4,11 +4,14 @@ bin/phone-contacts
 bin/phone-dialer
 bin/phone-logs
 bin/phone-messages
+bin/phone-resume
 bin/phone-settings
+bin/phone-suspend
 include/Phone.h
 lib/Phone/plugins/blacklist.so
 lib/Phone/plugins/debug.so
 lib/Phone/plugins/engineering.so
+lib/Phone/plugins/gprs.so
 lib/Phone/plugins/openmoko.so
 lib/Phone/plugins/panel.so
 lib/Phone/plugins/profiles.so
