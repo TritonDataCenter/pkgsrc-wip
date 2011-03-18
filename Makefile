@@ -411,6 +411,7 @@ SUBDIR+=	discount
 SUBDIR+=	distbb
 SUBDIR+=	distbb-current
 SUBDIR+=	distella
+SUBDIR+=	ditz-commander
 SUBDIR+=	diveintopython
 SUBDIR+=	djview4
 SUBDIR+=	dk-milter
