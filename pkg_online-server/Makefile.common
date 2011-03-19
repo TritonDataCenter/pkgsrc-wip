@@ -6,7 +6,7 @@
 DISTNAME=	pkg_online-${VERSION}
 MASTER_SITES=	http://mova.org/~cheusov/pub/pkg_online/
 
-VERSION=	0.12
+VERSION=	0.12.1
 
 MAINTAINER=	cheusov@tut.by
 HOMEPAGE=	http://mova.org/~cheusov/pub/pkg_online/
