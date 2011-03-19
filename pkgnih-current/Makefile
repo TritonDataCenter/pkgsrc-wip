@@ -34,6 +34,7 @@ CONF_FILES=		${EGDIR}/nih.conf \
 MAKE_DIRS+=		${PKG_SYSCONFDIR}/nih
 
 MAKE_ENV+=		MANDIR=${PREFIX}/${PKGMANDIR}
+MAKE_ENV+=		VERSION=${_GIT_TODAY:S/-//g}
 
 .include "../../wip/mk/git-package.mk"
 .include "../../mk/bsd.pkg.mk"
