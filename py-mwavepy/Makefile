@@ -7,7 +7,7 @@ PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	science
 MASTER_SITES=	http://mwavepy.googlecode.com/files/
 
-MAINTAINER=	jihbed.esearch@gmail.com
+MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	http://code.google.com/p/mwavepy/
 COMMENT=	Python datatypes and functions for microwave engineering
 LICENSE=	gnu-gpl-v2
