@@ -1459,6 +1459,7 @@ SUBDIR+=	miracl
 SUBDIR+=	mirage
 SUBDIR+=	miro
 SUBDIR+=	mixer.tk
+SUBDIR+=	mixnet
 SUBDIR+=	mixmaster
 SUBDIR+=	mixnet
 SUBDIR+=	mixxx
@@ -2189,6 +2190,7 @@ SUBDIR+=	py-lockfile
 SUBDIR+=	py-logilab-database
 SUBDIR+=	py-logilab-mtconverter
 SUBDIR+=	py-logilab-pigg
+SUBDIR+=	py-liveplots
 SUBDIR+=	py-magnitude
 SUBDIR+=	py-matplotlib
 SUBDIR+=	py-matplotlib-gtk2
@@ -2327,8 +2329,12 @@ SUBDIR+=	py-telepathy
 SUBDIR+=	py-tempita
 SUBDIR+=	py-teng
 SUBDIR+=	py-texml
+<<<<<<< Makefile
+SUBDIR+=	py-topkapi
+=======
 SUBDIR+=	py-thermopy
 SUBDIR+=	py-topkapi
+>>>>>>> 1.4259
 SUBDIR+=	py-toscawidgets
 SUBDIR+=	py-tracks
 SUBDIR+=	py-traits
@@ -2396,7 +2402,11 @@ SUBDIR+=	qpsmtpd
 SUBDIR+=	qrint
 SUBDIR+=	qtcreator
 SUBDIR+=	qtre
+<<<<<<< Makefile
+SUBDIR+=	qrint
+=======
 SUBDIR+=	quantlib
+>>>>>>> 1.4259
 SUBDIR+=	qucs
 SUBDIR+=	quickfix
 SUBDIR+=	quickie
