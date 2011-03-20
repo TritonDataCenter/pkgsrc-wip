@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	pkgnih-0.6
+DISTNAME=	pkgnih-0.6.2
 CATEGORIES=	pkgtools
 MASTER_SITES=	http://mova.org/~cheusov/pub/pkgnih/
 
