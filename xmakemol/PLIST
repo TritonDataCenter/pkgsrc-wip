@@ -1,0 +1,6 @@
+@comment $NetBSD$
+bin/xmake_anim.pl
+bin/xmakemol
+man/man1/xmakemol.1
+share/applications/xmakemol.desktop
+share/xmakemol/elements
