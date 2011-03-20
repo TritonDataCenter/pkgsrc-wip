@@ -1,13 +1,12 @@
 # $NetBSD$
 
-DISTNAME=	haproxy-1.4.8
+DISTNAME=	haproxy-1.4.13
 CATEGORIES=	www
 MASTER_SITES=	http://haproxy.1wt.eu/download/1.4/src/
 
 MAINTAINER=	morr@NetBSD.org
 HOMEPAGE=	http://haproxy.1wt.eu/
 COMMENT=	Reliable, high performance TCP/HTTP load balancer
-
 LICENSE=	gnu-gpl-v2
 
 PKG_DESTDIR_SUPPORT=	user-destdir
