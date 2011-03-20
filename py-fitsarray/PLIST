@@ -1,0 +1,7 @@
+@comment $NetBSD$
+${PYSITELIB}/fitsarray/__init__.py
+${PYSITELIB}/fitsarray/__init__.pyc
+${PYSITELIB}/fitsarray/__init__.pyo
+${PYSITELIB}/fitsarray/fitsarray.py
+${PYSITELIB}/fitsarray/fitsarray.pyc
+${PYSITELIB}/fitsarray/fitsarray.pyo
