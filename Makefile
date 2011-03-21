@@ -2672,7 +2672,6 @@ SUBDIR+=	testdisk
 SUBDIR+=	tetrinet
 SUBDIR+=	tex-arabxtex
 SUBDIR+=	tex-arabxtex-doc
-SUBDIR+=	tex-arphic-ttf
 SUBDIR+=	tex-baekmuk-ttf
 SUBDIR+=	tex-feynmf
 SUBDIR+=	tex-feynmf-doc
