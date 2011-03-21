@@ -2559,7 +2559,6 @@ SUBDIR+=	socklog
 SUBDIR+=	softflowd
 SUBDIR+=	songwrite
 SUBDIR+=	soqt
-SUBDIR+=	sox
 SUBDIR+=	spade
 SUBDIR+=	spamassassin-cvs
 SUBDIR+=	spamd-devel
