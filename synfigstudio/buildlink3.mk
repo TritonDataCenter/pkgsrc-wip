@@ -5,17 +5,16 @@ BUILDLINK_TREE+=	synfigstudio
 .if !defined(SYNFIGSTUDIO_BUILDLINK3_MK)
 SYNFIGSTUDIO_BUILDLINK3_MK:=
 
-BUILDLINK_API_DEPENDS.synfigstudio+=	synfigstudio>=0.61.08
-BUILDLINK_ABI_DEPENDS.synfigstudio?=	synfigstudio>=0.61.08nb2
+BUILDLINK_API_DEPENDS.synfigstudio+=	synfigstudio>=0.62.02
 BUILDLINK_PKGSRCDIR.synfigstudio?=	../../wip/synfigstudio
 
-.include "../../devel/ETL/buildlink3.mk"
+.include "../../wip/ETL/buildlink3.mk"
 .include "../../devel/libsigc++/buildlink3.mk"
 .include "../../devel/gettext-lib/buildlink3.mk"
 .include "../../devel/glibmm/buildlink3.mk"
 .include "../../wip/synfig/buildlink3.mk"
 .include "../../x11/gtkmm/buildlink3.mk"
 .include "../../x11/gtk2/buildlink3.mk"
-.endif # SYNFIGSTUDIO_BUILDLINK3_MK
+.endif	# SYNFIGSTUDIO_BUILDLINK3_MK
 
 BUILDLINK_TREE+=	-synfigstudio
