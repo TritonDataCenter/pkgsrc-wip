@@ -13,7 +13,7 @@ BUILDLINK_PASSTHRU_DIRS+=	${BUILDLINK_JAVA_PREFIX.jdk15}
 
 BUILDLINK_CPPFLAGS.jdk15= \
 	-I${BUILDLINK_JAVA_PREFIX.jdk15}/include	\
-	-I${BUILDLINK_JAVA_PREFIX.jdk15}/include/netbsd
+	-I${BUILDLINK_JAVA_PREFIX.jdk15}/include/${LOWER_OPSYS}
 
 .include "../../x11/libXi/buildlink3.mk"
 .include "../../x11/libXtst/buildlink3.mk"
