@@ -9,6 +9,8 @@ BUILDLINK_API_DEPENDS.synfigstudio+=	synfigstudio>=0.62.02
 BUILDLINK_PKGSRCDIR.synfigstudio?=	../../wip/synfigstudio
 
 .include "../../wip/ETL/buildlink3.mk"
+.include "../../devel/glib2/buildlink3.mk"
+.include "../../devel/libltdl/buildlink3.mk"
 .include "../../devel/libsigc++/buildlink3.mk"
 .include "../../devel/gettext-lib/buildlink3.mk"
 .include "../../devel/glibmm/buildlink3.mk"
