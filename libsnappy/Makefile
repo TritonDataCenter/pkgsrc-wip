@@ -6,14 +6,15 @@ DISTNAME=	snappy-1.0.0
 CATEGORIES=	devel
 # MASTER_SITES=	http://code.google.com/p/snappy/downloads/detail?name=
 MASTER_SITES=	http://snappy.googlecode.com/files/
+PKGREVISION=    1
 
 MAINTAINER=	bch@methodlogic.net
 HOMEPAGE=	http://code.google.com/p/snappy/downloads/
 COMMENT=	A compression/decompression library.
-#LICENSE=	# TODO: (see mk/license.mk)
+LICENSE=	apache-2.0
 GNU_CONFIGURE=	yes
-USE_LANGUAGES+=	c++
-USE_LANGUAGES+=	c
+CPPFLAGS+=	-DLZF_STATE_ARG="0"
+USE_LANGUAGES+=	c++ c
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
