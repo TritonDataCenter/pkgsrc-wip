@@ -1,0 +1,8 @@
+@comment $NetBSD$
+${PYSITELIB}/Symbolic/__init__.py
+${PYSITELIB}/Symbolic/__init__.pyc
+${PYSITELIB}/Symbolic/__init__.pyo
+${PYSITELIB}/_swiginac.so
+${PYSITELIB}/swiginac.py
+${PYSITELIB}/swiginac.pyc
+${PYSITELIB}/swiginac.pyo
