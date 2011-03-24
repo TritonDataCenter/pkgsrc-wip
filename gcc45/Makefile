@@ -102,7 +102,7 @@ CONFIGURE_ARGS+=	--disable-libssp
 CONFIGURE_ARGS+=	--enable-threads=posix
 CONFIGURE_ARGS+=	--with-gmp=${BUILDLINK_PREFIX.gmp}
 CONFIGURE_ARGS+=	--with-mpfr=${BUILDLINK_PREFIX.mpfr}
-.if !(${OPSYS} == "NetBSD")
+.if !(${OPSYS} == "Linux")
 CONFIGURE_ARGS+=	--with-ld=${PREFIX}/bin/gnu-ld
 CONFIGURE_ARGS+=	--with-libelf=${PREFIX}
 .endif
