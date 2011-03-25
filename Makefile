@@ -1403,6 +1403,7 @@ SUBDIR+=	mago
 SUBDIR+=	mailfilter
 SUBDIR+=	majordomo-devel
 SUBDIR+=	makedict
+SUBDIR+=	maloc
 SUBDIR+=	man
 SUBDIR+=	man-db
 SUBDIR+=	manatee
