@@ -1,11 +1,9 @@
 # $NetBSD$
-#
 
-DISTNAME=	CherryPy-3.1.2
-PKGNAME=        ${PYPKGPREFIX}-CherryPy-3.1.2
-
-CATEGORIES=	python www
-MASTER_SITES=	http://download.cherrypy.org/cherrypy/3.1.2/
+DISTNAME=	CherryPy-3.2.0
+PKGNAME=	${PYPKGPREFIX}-CherryPy-3.2.0
+CATEGORIES=	www python
+MASTER_SITES=	http://download.cherrypy.org/cherrypy/${PKGVERSION_NOREV}/
 
 MAINTAINER=	pkgsrc@blackmouse.biz
 HOMEPAGE=	http://www.cherrypy.org/
@@ -14,10 +12,8 @@ LICENSE=	modified-bsd
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
-USE_LANGUAGES=	# none
+USE_LANGUAGES=		# none
+EGG_NAME=		${DISTNAME}
 
-PYDISTUTILSPKG= yes
-PY_PATCHPLIST=  yes
-
-.include "../../lang/python/extension.mk"
+.include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"
