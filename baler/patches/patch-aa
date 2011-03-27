@@ -1,5 +1,6 @@
 $NetBSD$
 
+pkgsrc config for ${DESTDIR}${PREFIX}
 --- GNUmakefile.orig	2010-12-31 12:06:06.000000000 +0000
 +++ GNUmakefile
 @@ -25,7 +25,7 @@
