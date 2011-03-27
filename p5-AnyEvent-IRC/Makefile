@@ -16,6 +16,7 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 USE_LANGUAGES=	# empty
 PERL5_PACKLIST= auto/AnyEvent/IRC/.packlist
 
+DEPENDS+=	p5-Object-Event-[0-9]*:../../devel/p5-Object-Event
 DEPENDS+=	p5-AnyEvent>=5:../../devel/p5-AnyEvent
 
 .include "../../lang/perl5/module.mk"
