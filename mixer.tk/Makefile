@@ -5,7 +5,7 @@ DISTNAME=	mixer.tk-0.4
 CATEGORIES=	audio
 MASTER_SITES=	http://gnorw.net/netbsd/
 
-MAINTAINER=	gnorwos@gmail.com
+MAINTAINER=	jaka.jejcic@gmail.com
 HOMEPAGE=	
 COMMENT=	Tcl/Tk audio mixer using mixerctl utility
 
