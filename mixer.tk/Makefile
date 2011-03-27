@@ -1,12 +1,12 @@
 # $NetBSD$
 #
 
-DISTNAME=	mixer.tk-0.3
+DISTNAME=	mixer.tk-0.4
 CATEGORIES=	audio
-MASTER_SITES=	http://netbsd.gnorw.net/Applications/mixer.tk/downloads/
+MASTER_SITES=	http://gnorw.net/netbsd/
 
 MAINTAINER=	gnorwos@gmail.com
-HOMEPAGE=	http://netbsd.gnorw.net/Applications/mixer.tk/
+HOMEPAGE=	
 COMMENT=	Tcl/Tk audio mixer using mixerctl utility
 
 NO_CONFIGURE=	yes
