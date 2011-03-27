@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	gcap-0.0.7
+DISTNAME=	gcap-0.0.8
 PKGNAME=	p5-${DISTNAME}
 CATEGORIES=	net
 MASTER_SITES=	http://gcap.googlecode.com/files/
