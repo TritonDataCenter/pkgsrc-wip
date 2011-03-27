@@ -17,3 +17,12 @@ configure for pkgsrc
  INSTALL=    install
  
  sinclude    LOCAL.mk
+@@ -44,7 +44,7 @@ ${PROGNAME}:	${SRC}
+ 
+ install:    ${PROGNAME}
+ 	mkdir -p ${PREFIX}/bin
+-	${INSTALL} -m 755 ${PROGNAME} ${PREFIX}/bin/${PROGNAME}
++	${INSTALL} -m 755 ${PROGNAME} ${DESTDIR}${PREFIX}/bin/${PROGNAME}
+ 
+ clean:
+ 	rm -f ${PROGNAME}
