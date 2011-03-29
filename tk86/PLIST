@@ -525,6 +525,7 @@ man/mann/tk_focusPrev.n
 man/mann/tk_getOpenFile.n
 man/mann/tk_getSaveFile.n
 man/mann/tk_library.n
+man/mann/tk_mac.n
 man/mann/tk_menuBar.n
 man/mann/tk_menuSetFocus.n
 man/mann/tk_messageBox.n
