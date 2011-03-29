@@ -13,11 +13,17 @@ COMMENT=	Standalone tray app
 USE_TOOLS+=	gmake pkg-config
 MAKE_JOBS_SAFE=	no
 
+# trayer uses GTK_OBJECT_FLAGS which has been deprecated
+# this is an easy fix
+CFLAGS+=	-DGTK_COMPILATION
+BUILD_MAKE_FLAGS+=	CFLAGS="${CFLAGS}"
+
 do-install:
 	cp ${WRKSRC}/trayer ${PREFIX}/bin/
 
 
 .include "../../x11/gtk2/buildlink3.mk"
+.include "../../graphics/gdk-pixbuf2-xlib/buildlink3.mk"
 .include "../../devel/glib/buildlink3.mk"
 .if ${X11_TYPE} == "modular"
 .include "../../x11/libXmu/buildlink3.mk"
