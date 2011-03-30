@@ -11,8 +11,9 @@ DEINSTALL)
 	${PKG_INFO} -qL adobe-cidfonts | ${GREP} "/Resource/CIDFont/" |
 	while read src; do
 		base=`${BASENAME} $src`
-		dest="${GS_RESOURCEDIR}/CIDFont/$base"
+		dest="${GS_RESOURCEDIR}/Init/CIDFont/$base"
 		${RM} -f $dest
 	done
 	;;
+	rmdir ${GS_RESOURCEDIR}/Init/CIDFont
 esac

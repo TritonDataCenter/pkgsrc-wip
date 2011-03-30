@@ -3,4 +3,4 @@
 # used by wip/ghostscript-cidfonts/Makefile
 # used by wip/ghostscript-cidfonts-ryumin/Makefile
 
-GS_VERSION=	9.00
+GS_VERSION=	9.01

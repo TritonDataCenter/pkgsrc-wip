@@ -25,7 +25,7 @@ INSTALLATION_DIRS+=	${GS_RESOURCEDIR}/Init
 
 DEPENDS+=	ghostscript>=8.71.nb8:../../wip/ghostscript
 BUILD_DEFS=	GS_CIDFMAP
-# used in options.mk to switch PLIST.adobe or PLIST.cidfmap
+# used in options.mk to switch adobe or ttf
 SUBST_VARS=	GCR_INSTALL_TYPE
 
 .include "options.mk"

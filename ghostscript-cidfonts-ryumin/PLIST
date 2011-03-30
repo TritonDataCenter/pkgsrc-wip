@@ -4,5 +4,4 @@ share/ghostscript/${PKGVERSION}/Resource/Font/GothicBBB-Medium-EUC-H
 share/ghostscript/${PKGVERSION}/Resource/Font/Ryumin-Light-EUC-H
 share/ghostscript/${PKGVERSION}/Resource/Font/Ryumin-Light-H
 share/ghostscript/${PKGVERSION}/Resource/Font/Ryumin-Light-Identity-H
-${PLIST.cidfmap}share/ghostscript/${PKGVERSION}/Resource/Init/cidfmap
-${PLIST.adobe}  share/ghostscript/${PKGVERSION}/Resource/CIDFont
+share/ghostscript/${PKGVERSION}/Resource/Init/cidfmap

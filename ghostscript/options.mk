@@ -6,10 +6,8 @@ PKG_SUGGESTED_OPTIONS=	x11 fontconfig
 
 .include "../../mk/bsd.options.mk"
 
-# (cidfmap)	default complie, GS_COMPILE_INITS, not active now.
 # (no_cidfmap)	when --disable-compile-inits selected, 
 #		cidfmap is renamed to cidfmap.dist
-PLIST_VARS+=		cidfmap
 PLIST_VARS+=		no_cidfmap
 
 .if !empty(PKG_OPTIONS:Mx11)
