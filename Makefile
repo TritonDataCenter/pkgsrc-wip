@@ -2819,6 +2819,7 @@ SUBDIR+=	wang-ttf
 SUBDIR+=	wbox
 SUBDIR+=	webcleaner
 SUBDIR+=	webkit-sharp
+SUBDIR+=	webp
 SUBDIR+=	weplab
 SUBDIR+=	west
 SUBDIR+=	which
