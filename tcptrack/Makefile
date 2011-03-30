@@ -1,13 +1,13 @@
 # $NetBSD$
-#
 
-DISTNAME=	tcptrack-1.3.0
+DISTNAME=	tcptrack-1.4.0
 CATEGORIES=	net
-MASTER_SITES=	http://www.rhythm.cx/~steve/devel/tcptrack/release/1.3.0/source/
+MASTER_SITES=	http://www.rhythm.cx/~steve/devel/tcptrack/release/${PKGVERSION_NOREV}/source/
 
 MAINTAINER=	pancake@phreaker.net
 HOMEPAGE=	http://www.rhythm.cx/~steve/devel/tcptrack/
 COMMENT=	Watch TCP connections
+LICENSE=	gnu-lgpl-v2.1
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
