@@ -17,7 +17,7 @@ CONFIGURE_ARGS+=	--prefix=${PREFIX}
 USE_TOOLS+=		gmake pkg-config
 MAKE_FLAGS+=		OPTFLAGS="${CFLAGS}"
 
-INSTALL_MAKE_FLAGS+=	mandir=${PREFIX}/${PKGMANDIR}/man1
+INSTALL_MAKE_FLAGS+=	mandir=${DESTDIR}${PREFIX}/${PKGMANDIR}/man1
 
 .include "../../x11/vte/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
