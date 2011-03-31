@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	llvm-2.6
-SVN_TAG=	122809
+SVN_TAG=	128526
 CATEGORIES=	lang
 MASTER_SITES=	http://llvm.org/releases/${PKGVERSION_NOREV}/
 
@@ -46,7 +46,7 @@ SVN_MODULE.llvm=	llvm
 SVN_ROOT.clang=		http://llvm.org/svn/llvm-project/cfe/trunk
 SVN_MODULE.clang=	clang
 
-PKGNAME=		clang-2.7.99
+PKGNAME=		clang-2.8.99
 WRKSRC=			$(WRKDIR)/$(SVN_MODULE.llvm)
 
 CHECK_PORTABILITY_SKIP= utils/buildit/.svn/text-base/build_llvm.svn-base \
