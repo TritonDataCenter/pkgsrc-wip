@@ -12,6 +12,7 @@ R_PKGVER=	3.4.8
 
 USE_LANGUAGES=	fortran77
 
+.include "../../devel/gettext-lib/buildlink3.mk"
 .include "../../math/R/Makefile.extension"
 .include "../../math/blas/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
