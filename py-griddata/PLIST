@@ -1,0 +1,8 @@
+@comment $NetBSD$
+${PYSITELIB}/griddata/__init__.py
+${PYSITELIB}/griddata/__init__.pyc
+${PYSITELIB}/griddata/__init__.pyo
+${PYSITELIB}/griddata/griddata.py
+${PYSITELIB}/griddata/griddata.pyc
+${PYSITELIB}/griddata/griddata.pyo
+${PYSITELIB}/nnint.so
