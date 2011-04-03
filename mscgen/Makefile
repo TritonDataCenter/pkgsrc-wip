@@ -3,7 +3,7 @@
 
 DISTNAME=		mscgen-src-${VERSION}
 PKGNAME=		mscgen-${VERSION}
-VERSION=		0.18
+VERSION=		0.20
 CATEGORIES=		devel graphics
 MASTER_SITES=		http://www.mcternan.me.uk/mscgen/software/
 
