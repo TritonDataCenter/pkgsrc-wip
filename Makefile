@@ -1449,7 +1449,6 @@ SUBDIR+=	microtetris
 SUBDIR+=	mid2gmc
 SUBDIR+=	mikutter
 SUBDIR+=	milter-greylist-devel
-SUBDIR+=	milter-manager
 SUBDIR+=	mime-support
 SUBDIR+=	mimedefang
 SUBDIR+=	min12xxw
