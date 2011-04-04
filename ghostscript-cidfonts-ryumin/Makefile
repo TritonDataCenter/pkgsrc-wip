@@ -4,7 +4,7 @@ DISTNAME=	ghostscript-cidfonts-ryumin-${GS_VERSION}
 # Please note  following is a must when building ghostscript
 # for this package to work
 #    PKGOPTION.ghostscipt+= disable-compile-inits
-LICENSE=	# empty
+LICENSE=	generic-nonlicenses
 
 CATEGORIES=	print
 DISTFILES=	# empty
