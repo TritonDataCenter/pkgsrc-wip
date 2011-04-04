@@ -2962,6 +2962,7 @@ SUBDIR+=	ypbind-mt
 SUBDIR+=	ypserv
 SUBDIR+=	zabbix
 SUBDIR+=	zapping
+SUBDIR+=	zeromq
 SUBDIR+=	zim
 SUBDIR+=	zinf
 SUBDIR+=	zoem
