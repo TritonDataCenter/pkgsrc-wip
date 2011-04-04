@@ -15,7 +15,7 @@ PYBINMODULE=	yes
 EXTRACT_ELEMENTS=	${PYSUBDIR}/Modules/_bsddb.c
 
 .include "../../lang/python/pyversion.mk"
-.if ${_PYTHON_VERSION:M2[67}
+.if ${_PYTHON_VERSION:M2[67]}
 EXTRACT_ELEMENTS+=	${PYSUBDIR}/Modules/bsddb.h
 .endif
 
