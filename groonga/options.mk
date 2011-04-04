@@ -3,7 +3,7 @@
 
 PKG_OPTIONS_VAR=	PKG_OPTIONS.groonga
 PKG_SUPPORTED_OPTIONS=	mecab tests zlib lzo
-PKG_SUGGESTED_OPTIONS=  mecab tests
+PKG_SUGGESTED_OPTIONS=	mecab tests
 
 .include "../../mk/bsd.options.mk"
 
