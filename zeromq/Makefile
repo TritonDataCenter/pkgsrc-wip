@@ -19,4 +19,10 @@ USE_LIBTOOL=	yes
 
 PKGCONFIG_OVERRIDE+=	src/libzmq.pc.in
 
+.include "../../mk/bsd.prefs.mk"
+
+.if ${OPSYS} == "Linux" || ${OPSYS} == "SunOS"
+.include "../../devel/libuuid/buildlink3.mk"
+.endif
+
 .include "../../mk/bsd.pkg.mk"
