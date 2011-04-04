@@ -25,6 +25,8 @@ PKGCONFIG_OVERRIDE+=	groonga.pc.in
 
 PKG_SYSCONFSUBDIR=	${PKGBASE}
 
+BUILD_DEFS+=		VARBASE
+
 INSTALL_MAKE_FLAGS+=	sysconfdir=${PREFIX}/share/examples
 
 CONF_FILES+=		share/examples/${PKGBASE}/groonga.conf \
