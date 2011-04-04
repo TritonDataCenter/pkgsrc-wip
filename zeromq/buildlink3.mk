@@ -1,0 +1,13 @@
+# $NetBSD$
+#
+
+BUILDLINK_TREE+=	zeromq
+
+.if !defined(ZEROMQ_BUILDLINK3_MK)
+ZEROMQ_BUILDLINK3_MK:=
+
+BUILDLINK_API_DEPENDS.zeromq+=	zeromq>=2.0.11
+BUILDLINK_PKGSRCDIR.zeromq?=	../../wip/zeromq
+.endif	# ZEROMQ_BUILDLINK3_MK
+
+BUILDLINK_TREE+=	-zeromq
