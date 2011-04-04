@@ -32,7 +32,6 @@ bin/mk-variable-advisor
 bin/mk-visual-explain
 lib/perl5/maatkit.pod
 lib/perl5/${MACHINE_ARCH}-${LOWER_OPSYS}-thread-multi/auto/maatkit/.packlist
-lib/perl5/${MACHINE_ARCH}-${LOWER_OPSYS}-thread-multi/perllocal.pod
 man/man1/maatkit.1
 man/man1/mk-archiver.1
 man/man1/mk-checksum-filter.1
