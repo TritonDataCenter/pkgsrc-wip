@@ -1515,6 +1515,7 @@ SUBDIR+=	mplus-bitmap-fonts
 SUBDIR+=	mplus-outline-fonts
 SUBDIR+=	mppdec
 SUBDIR+=	mpq-tools
+SUBDIR+=	msgpack
 SUBDIR+=	msworkbench
 SUBDIR+=	mtd-utils
 SUBDIR+=	mtf
