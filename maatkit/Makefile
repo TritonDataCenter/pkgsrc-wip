@@ -20,7 +20,7 @@ DEPENDS+=	p5-DBD-mysql:../../databases/p5-DBD-mysql
 DEPENDS+=	p5-Time-HiRes:../../time/p5-Time-HiRes
 
 do-configure:
-	cd ${WRKSRC} && perl Makefile.PL INSTALL_BASE=${PREFIX}
+	cd ${WRKSRC} && ${PERL5} Makefile.PL INSTALL_BASE=${PREFIX}
 
 post-install:
 	find ${WRKDIR} -name "perllocal.pod" -exec rm {} \;
