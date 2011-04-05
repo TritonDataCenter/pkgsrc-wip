@@ -1211,7 +1211,6 @@ SUBDIR+=	koha
 SUBDIR+=	konatu-ttf
 SUBDIR+=	korelib
 SUBDIR+=	kpanta
-SUBDIR+=	kpathsea
 SUBDIR+=	kplayer
 SUBDIR+=	krusader
 SUBDIR+=	kuickshow
