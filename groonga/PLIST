@@ -2,6 +2,8 @@
 bin/grntest
 bin/groonga
 bin/groonga-suggest-create-dataset
+${PLIST.learner}bin/groonga-suggest-httpd
+${PLIST.learner}bin/groonga-suggest-learner
 include/groonga/groonga.h
 include/groonga/groonga/plugin.h
 lib/groonga/plugins/suggest/suggest.la
