@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	zeromq-2.0.11
-CATEGORIES=	devel
+CATEGORIES=	net devel
 MASTER_SITES=	http://download.zeromq.org/
 
 MAINTAINER=	obache@NetBSD.org
