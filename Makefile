@@ -1518,6 +1518,7 @@ SUBDIR+=	mtf
 SUBDIR+=	mtop
 SUBDIR+=	mtrack
 SUBDIR+=	mu
+SUBDIR+=	mu-cite
 SUBDIR+=	mu-conference
 SUBDIR+=	muine
 SUBDIR+=	multisync
