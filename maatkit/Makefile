@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	maatkit-7332
-PKGREVISION=	1
+PKGREVISION=	2
 CATEGORIES=	wip
 MASTER_SITES=	http://maatkit.googlecode.com/files/
 
@@ -19,11 +19,6 @@ REPLACE_PERL+=	bin/*
 DEPENDS+=	p5-DBD-mysql:../../databases/p5-DBD-mysql
 DEPENDS+=	p5-Time-HiRes:../../time/p5-Time-HiRes
 
-do-configure:
-	cd ${WRKSRC} && ${PERL5} Makefile.PL INSTALL_BASE=${PREFIX}
-
-post-install:
-	find ${WRKDIR} -name "perllocal.pod" -exec rm {} \;
-
+PERL5_PACKLIST=	auto/maatkit/.packlist
+.include "../../lang/perl5/module.mk"
 .include "../../mk/bsd.pkg.mk"
-.include "../../lang/perl5/buildlink3.mk"
