@@ -9,13 +9,14 @@ PKG_SUGGESTED_OPTIONS=	gnome musicbrainz pulseaudio
 PLIST_VARS+=	nautilus
 
 #
-# Use pulse audio flat volume feature
+# PulseAudio device and volume support
 #
 .if !empty(PKG_OPTIONS:Mpulseaudio)
-DEPENDS+=		pulseaudio>=0.9.14:../../audio/pulseaudio
-CONFIGURE_ARGS+=	--with-flat-volume=yes
+BUILDLINK_API_DEPENDS.pulseaudio+=	pulseaudio>=0.9.14
+.include "../../audio/pulseaudio/buildlink3.mk"
+CONFIGURE_ARGS+=	--with-pulseaudio=yes
 .else
-CONFIGURE_ARGS+=	--with-flat-volume=no
+CONFIGURE_ARGS+=	--with-pulseaudio=no
 .endif
 
 #
