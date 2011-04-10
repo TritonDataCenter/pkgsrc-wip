@@ -6,7 +6,6 @@ PKGREVISION=	1
 CATEGORIES=	textproc
 MASTER_SITES=	http://dict.osdn.org.ua/ \
 		http://mova.org/~cheusov/pub/dict-mueller/
-		# http://mueller-dic.chat.ru/
 EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	cheusov@tut.by
