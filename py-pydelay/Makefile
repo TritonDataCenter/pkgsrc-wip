@@ -8,7 +8,7 @@ MASTER_SITES=	http://garr.dl.sourceforge.net/project/pydelay/
 
 MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	http://pydelay.sourceforge.net/
-COMMENT=	TODO: Short description of the package
+COMMENT=	Translates a system of delay differential equations (DDEs)
 LICENSE=	mit
 
 PKG_DESTDIR_SUPPORT=	user-destdir
