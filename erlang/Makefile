@@ -21,6 +21,11 @@ OVERRIDE_DIRDEPTH=	4
 USE_TOOLS+=		gmake perl:run
 USE_LANGUAGES=		c c++
 
+CONFIGURE_ARGS+=	--with-ssl=${BUILDLINK_PREFIX.openssl}
+
+PTHREAD_OPTS+=		require native
+CONFIGURE_ARGS+=	--enable-threads
+
 MAKE_ENV+=		DESTDIR=${DESTDIR}
 
 SUBST_CLASSES+=		target
@@ -43,6 +48,12 @@ PLIST_SRC+=	${.CURDIR}/PLIST.${OPSYS}
 
 .if ${OPSYS} == "DragonFly"
 CONFIGURE_ARGS+=	--disable-sctp
+.endif
+###
+### XXX There may be others here.
+###
+.if ${OPSYS} == "NetBSD" || ${OPSYS} == "OpenBSD"
+CONFIGURE_ARGS+=	--enable-kernel-poll
 .endif
 
 .include "options.mk"
