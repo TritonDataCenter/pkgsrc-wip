@@ -444,6 +444,7 @@ SUBDIR+=	dsh
 SUBDIR+=	dspam
 SUBDIR+=	dssi
 SUBDIR+=	duali-data
+SUBDIR+=	duff
 SUBDIR+=	dumb
 SUBDIR+=	duplo
 SUBDIR+=	dvbsnoop
