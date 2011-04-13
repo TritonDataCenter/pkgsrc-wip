@@ -1,8 +1,8 @@
 # $NetBSD$
 #
 
-DISTNAME=	maatkit-7332
-PKGREVISION=	2
+DISTNAME=	maatkit-7410
+PKGREVISION=	1
 CATEGORIES=	wip
 MASTER_SITES=	http://maatkit.googlecode.com/files/
 
