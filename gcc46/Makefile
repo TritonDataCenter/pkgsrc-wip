@@ -111,6 +111,9 @@ CONFIGURE_ARGS+=	--with-ld=${PREFIX}/bin/gnu-ld
 CONFIGURE_ARGS+=	--with-libelf=${PREFIX}
 MAKE_ENV+=		ac_cv_func_clock_gettime=yes
 .endif
+.if ${OPSYS} == "Linux"
+CONFIGURE_ARGS+=	--disable-libquadmath --disable-libquadmath-support
+.endif
 
 CONFIGURE_ENV+=		CONFIG_SHELL=${CONFIG_SHELL}
 
