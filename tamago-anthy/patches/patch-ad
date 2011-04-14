@@ -1,5 +1,7 @@
 $NetBSD$
 
+ make-local-hook is used only before emacs-21.
+
 --- menudiag.el.orig	2001-01-28 03:53:13.000000000 +0900
 +++ menudiag.el	2010-10-04 11:42:56.000000000 +0900
 @@ -503,7 +503,9 @@

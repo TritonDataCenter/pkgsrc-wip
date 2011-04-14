@@ -1,5 +1,9 @@
 $NetBSD$
 
+Couldn't get kana kanji conversion at mini buffer with [22.0.95] 
+See (in Japanese) discussion at following mail.
+http://www.m17n.org/mlarchive/mule-ja/200703/msg00018.html
+
 --- egg-com.el.orig	2001-01-28 03:53:13.000000000 +0900
 +++ egg-com.el	2010-11-19 22:37:28.000000000 +0900
 @@ -44,6 +44,8 @@
