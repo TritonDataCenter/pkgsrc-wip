@@ -1,0 +1,4 @@
+@comment $NetBSD$
+include/libestr.h
+lib/libestr.la
+lib/pkgconfig/libestr.pc

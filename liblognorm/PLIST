@@ -1,0 +1,8 @@
+@comment $NetBSD$
+bin/normalizer
+include/liblognorm.h
+include/lognorm.h
+include/ptree.h
+include/samp.h
+lib/liblognorm.la
+lib/pkgconfig/lognorm.pc
