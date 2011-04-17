@@ -1,6 +1,6 @@
 # $NetBSD$
 #
-DISTNAME=	python-djvulibre-0.3.2
+DISTNAME=	python-djvulibre-0.3.3
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME:S/python-//}
 CATEGORIES=	graphics textproc
 MASTER_SITES=	http://pypi.python.org/packages/source/p/python-djvulibre/
