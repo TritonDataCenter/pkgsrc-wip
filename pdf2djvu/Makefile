@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	pdf2djvu_0.7.6
+DISTNAME=	pdf2djvu_0.7.7
 PKGNAME=	${DISTNAME:S/_/-/}
 CATEGORIES=	print
 MASTER_SITES=	http://pdf2djvu.googlecode.com/files/
