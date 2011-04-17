@@ -47,6 +47,10 @@ ${RUBY_SITELIB}/thrift/transport/unix_server_socket.rb
 ${RUBY_SITELIB}/thrift/transport/unix_socket.rb
 ${RUBY_SITELIB}/thrift/types.rb
 ${RUBY_SITELIB}/thrift/union.rb
+share/doc/evernote-mode/readme_en.html
+share/doc/evernote-mode/readme_en.org
 share/doc/evernote-mode/readme_en.txt
+share/doc/evernote-mode/readme_ja.html
+share/doc/evernote-mode/readme_ja.org
 share/doc/evernote-mode/readme_ja.txt
 ${EMACS_LISPPREFIX}/evernote-mode.el
