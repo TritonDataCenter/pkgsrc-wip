@@ -5,8 +5,8 @@ BUILDLINK_TREE+=	libee
 .if !defined(LIBEE_BUILDLINK3_MK)
 LIBEE_BUILDLINK3_MK:=
 
-BUILDLINK_API_DEPENDS.libee+=	libee>=0.3.0
-BUILDLINK_ABI_DEPENDS.libee+=	libee>=0.3.0
+BUILDLINK_API_DEPENDS.libee+=	libee>=0.3.1
+BUILDLINK_ABI_DEPENDS.libee+=	libee>=0.3.1
 BUILDLINK_PKGSRCDIR.libee?=	../../wip/libee
 
 .endif # LIBEE_BUILDLINK3_MK
