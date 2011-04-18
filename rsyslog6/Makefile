@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		rsyslog-6.1.6
+DISTNAME=		rsyslog-6.1.7
 CATEGORIES=		sysutils
 MASTER_SITES=		http://download.rsyslog.com/rsyslog/
 
@@ -9,6 +9,8 @@ MAINTAINER=		bartosz.kuzma@gmail.com
 HOMEPAGE=		http://www.rsyslog.com/
 COMMENT=		The enhanced syslogd for Unix
 LICENSE=		gnu-gpl-v3
+
+CONFLICTS=		rsyslog-[0-9]-*
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
