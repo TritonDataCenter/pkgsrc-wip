@@ -12,6 +12,7 @@ COMMENT=		System to automate the compile/test cycle
 
 PY_PATCHPLIST=		yes
 PYDISTUTILSPKG=		yes
+PYTHON_VERSIONS_ACCEPTED=	27 26 25
 
 ALL_ENV+=               NO_INSTALL_REQS=1
 
