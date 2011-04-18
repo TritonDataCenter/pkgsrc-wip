@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	liblognorm-0.3.0
+DISTNAME=	liblognorm-0.3.1
 CATEGORIES=	devel
 MASTER_SITES=	http://www.liblognorm.com/files/download/
 
