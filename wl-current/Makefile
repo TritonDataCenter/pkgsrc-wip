@@ -6,6 +6,7 @@ PKGREVISION=	${_CVS_PKGVERSION:S/.//g}
 
 CATEGORIES=	mail
 MASTER_SITES=	ftp://ftp.gohome.org/wl/stable/
+LICENSE=	gnu-gpl-v2
 
 MAINTAINER=	tech-pkg-ja@jp.NetBSD.org
 HOMEPAGE=	http://www.gohome.org/wl/
@@ -20,7 +21,7 @@ MAKE_FLAGS+=	INFODIR=${DESTDIR:Q}${EMACS_INFOPREFIX:Q}
 MAKE_FLAGS+=	LISPDIR=${DESTDIR:Q}${EMACS_LISPPREFIX:Q}
 MAKE_FLAGS+=	EMACS=${EMACS_FLAVOR:Q}
 MAKE_FLAGS+=	PIXMAPDIR=${DESTDIR:Q}${PREFIX:Q}/share/wl
-INFO_FILES=	# PLIST
+INFO_FILES=	YES
 
 	# Change default wl-icon-directory for PIXMAP.
 	# Why not just use patch-ab ?  $PREFIX is to be embedded.

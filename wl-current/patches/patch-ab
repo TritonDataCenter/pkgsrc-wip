@@ -1,5 +1,8 @@
 $NetBSD$
 
+Without this patch, user needs to say where the icons installed, 
+and the icons won't be displayed such setup.
+
 --- wanderlust/wl/wl-vars.el.orig	2008-02-15 23:10:39.000000000 +0900
 +++ wl/wl-vars.el	2008-11-19 08:56:50.000000000 +0900
 @@ -172,8 +172,8 @@

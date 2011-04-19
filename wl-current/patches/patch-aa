@@ -1,5 +1,7 @@
 $NetBSD: patch-aa,v 1.2 2002/01/08 11:47:17 jun Exp $
 
+Install utils also as commented below.
+
 --- WL-CFG.orig	Tue Oct 23 20:44:04 2001
 +++ WL-CFG
 @@ -9,7 +9,7 @@
