@@ -1,8 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	distbb-0.39.2
-PKGREVISION=	4
+DISTNAME=	distbb-0.40.0
 CATEGORIES=	pkgtools
 MASTER_SITES=	http://mova.org/~cheusov/pub/distbb/
 
@@ -11,8 +10,8 @@ HOMEPAGE=	http://mova.org/~cheusov/pub/distbb/
 COMMENT=	DISTributed Bulk Build tool for pkgsrc
 LICENSE=	2-clause-bsd
 
-DEPENDS+=	pkg_summary-utils>=0.50beta4:../../wip/pkg_summary-utils
-DEPENDS+=	paexec>=0.15.0:../../parallel/paexec
+DEPENDS+=	pkg_summary-utils>=0.53:../../wip/pkg_summary-utils
+DEPENDS+=	paexec>=0.16.0:../../parallel/paexec
 DEPENDS+=	runawk>=1.1.0:../../lang/runawk
 DEPENDS+=	pipestatus>=0.6.0:../../devel/pipestatus
 DEPENDS+=	digest-[0-9]*:../../pkgtools/digest
