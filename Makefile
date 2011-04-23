@@ -2400,6 +2400,7 @@ SUBDIR+=	pynfo
 SUBDIR+=	pypanel
 SUBDIR+=	pypod
 SUBDIR+=	pysite
+SUBDIR+=	pythia6
 SUBDIR+=	pysvn
 SUBDIR+=	python31
 SUBDIR+=	pythoncad
