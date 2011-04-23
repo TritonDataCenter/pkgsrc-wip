@@ -7,7 +7,7 @@ MASTER_SITES=	http://forge.morfeo-project.org/frs/download.php/750/
 
 MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	http://tools.libresoft.es/cmetrics
-COMMENT=	C metrics package
+COMMENT=	Size and complexity metrics for C source code files
 LICENSE=	gnu-gpl-v2
 
 PKG_DESTDIR_SUPPORT=	user-destdir
