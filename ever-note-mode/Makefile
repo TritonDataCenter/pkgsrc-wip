@@ -14,6 +14,8 @@ LICENSE=	apache-2.0
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
+DEPENDS+=	${RUBY_PKGPREFIX}-gdbm>=${RUBY_VERSION_SUFFIX}:../../databases/ruby-gdbm
+
 USE_LANGUAGES=	# none
 
 DOCSDIR=		${PREFIX}/share/doc/${PKGBASE}
