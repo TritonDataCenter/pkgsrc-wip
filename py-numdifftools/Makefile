@@ -7,7 +7,7 @@ CATEGORIES=	math python
 MASTER_SITES=	http://pypi.python.org/packages/source/N/Numdifftools/
 EXTRACT_SUFX=	.zip
 
-MAINTAINER=	jihbed.research@gmail.comE
+MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	http://code.google.com/p/numdifftools/
 COMMENT=	Tools for automatic numerical differentiation
 LICENSE=	modified-bsd
