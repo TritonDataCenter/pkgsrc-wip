@@ -437,7 +437,6 @@ SUBDIR+=	dovecot-antispam
 SUBDIR+=	dpic
 SUBDIR+=	dragbox
 SUBDIR+=	dri
-SUBDIR+=	droid-fonts
 SUBDIR+=	drow
 SUBDIR+=	drpython
 SUBDIR+=	drumpiler
