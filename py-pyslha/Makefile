@@ -7,7 +7,7 @@ CATEGORIES=	physics
 MASTER_SITES=	http://pypi.python.org/packages/source/p/pyslha/
 
 MAINTAINER=	jihbed.research@gmail.com
-HOMEPAGE=	http://pypi.python.org/packages/source/p/pyslha/
+HOMEPAGE=	http://www.insectnation.org/projects/pyslha
 COMMENT=	Parsing, manipulating, and visualising SUSY Les Houches Accord data
 LICENSE=	gnu-gpl-v3
 
