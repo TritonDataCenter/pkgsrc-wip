@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	Minuit2-5.28.00
-PKGNAME=	${DISTNAME:S/M/m/}
+PKGNAME=	minuit2-5.28.00
 CATEGORIES=	physics
 MASTER_SITES=	http://www.cern.ch/mathlibs/sw/5_28_00/Minuit2/
 
