@@ -15,7 +15,7 @@ MODULE_DIRS+=		modules/${m:Q}
 .include "../../wip/pike-core/Makefile.common"
 
 .include "../../devel/gmp/buildlink3.mk"
-.include "../../wip/libnettle/buildlink3.mk"
+.include "../../security/nettle/buildlink3.mk"
 .include "../../mk/pthread.buildlink3.mk"
 .include "../../mk/dlopen.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

@@ -13,20 +13,17 @@ LICENSE=	gnu-gpl-v3
 
 REPLACE_BASH+=	sh/rdup-simple.in
 
-
 PKG_DESTDIR_SUPPORT=	user-destdir
 
-GNU_CONFIGURE=	yes
-
 USE_TOOLS+=	pkg-config gmake bash:run
+GNU_CONFIGURE=	yes
 
 CFLAGS+=	-Wno-char-subscripts
 
 MAKE_FILE=	GNUmakefile
 
-
+.include "../../archivers/libarchive/buildlink3.mk"
 .include "../../devel/glib2/buildlink3.mk"
 .include "../../devel/gmp/buildlink3.mk"
-.include "../../archivers/libarchive/buildlink3.mk"
-.include "../../wip/libnettle/buildlink3.mk"
+.include "../../security/nettle/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
