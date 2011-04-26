@@ -25,6 +25,8 @@ CONFIGURE_ARGS+=	--enable-libxul
 
 ALL_ENV+=		MOZILLA_PKG_NAME=xulrunner
 
+MAKE_ENV+=		FREEBL_NO_DEPEND=0
+
 .include "mozilla-common.mk"
 .include "options.mk"
 

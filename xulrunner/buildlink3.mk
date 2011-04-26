@@ -5,7 +5,7 @@ BUILDLINK_TREE+=	xulrunner
 .if !defined(XULRUNNER_BUILDLINK3_MK)
 XULRUNNER_BUILDLINK3_MK:=
 
-BUILDLINK_API_DEPENDS.xulrunner+=	xulrunner>=1.99
+BUILDLINK_API_DEPENDS.xulrunner+=	xulrunner>=2.0
 BUILDLINK_PKGSRCDIR.xulrunner?=		../../wip/xulrunner
 
 pkgbase := xulrunner

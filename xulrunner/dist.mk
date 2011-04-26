@@ -13,7 +13,7 @@ EXTRACT_SUFX=	.tar.bz2
 DISTINFO_FILE=	${.CURDIR}/../../wip/xulrunner/distinfo
 PATCHDIR=	${.CURDIR}/../../wip/xulrunner/patches
 
-WRKSRC=		${WRKDIR}/mozilla-2.0
+WRKSRC=		${WRKDIR}/mozilla-${MOZ_BRANCH}
 
 # snapshot overrides
 #DISTNAME=	77979cd6890d
