@@ -1,0 +1,8 @@
+@comment $NetBSD$
+${PYSITELIB}/delaunay/__init__.py
+${PYSITELIB}/delaunay/__init__.pyc
+${PYSITELIB}/delaunay/__init__.pyo
+${PYSITELIB}/delaunay/_qhull.so
+${PYSITELIB}/delaunay/core.py
+${PYSITELIB}/delaunay/core.pyc
+${PYSITELIB}/delaunay/core.pyo
