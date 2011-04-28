@@ -1124,6 +1124,7 @@ SUBDIR+=	ispell-dictionaries
 SUBDIR+=	ispell-lietuviu
 SUBDIR+=	itask-ng
 SUBDIR+=	itools
+SUBDIR+=	ja-freewnn-cvs
 #SUBDIR+=	jabberd			# not a real package
 SUBDIR+=	jabberd-aim
 SUBDIR+=	jabberd2
