@@ -39,6 +39,11 @@ EGDIR=		${PREFIX}/share/examples/pkg_summary-utils
 
 CONF_FILES=	${EGDIR}/pkg_digger.conf ${PKG_SYSCONFDIR}/pkg_digger.conf
 
+REPLACE_INTERPRETER+=	runawk
+REPLACE.runawk.old=	.*runawk
+REPLACE.runawk.new=	${PREFIX}/bin/runawk
+REPLACE_FILES.runawk=	pkg_*.in XB2bin_summary.in direct_deps.in
+
 MAKE_ENV+=	MAKEOBJDIR=${WRKDIR}
 MAKE_ENV+=	AWKMODDIR=${PREFIX}/share/runawk
 MAKE_ENV+=	EGDIR=${EGDIR}
