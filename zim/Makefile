@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	zim-0.51
+DISTNAME=	zim-0.52
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	editors
 MASTER_SITES=	http://zim-wiki.org/downloads/
