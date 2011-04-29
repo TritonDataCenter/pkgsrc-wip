@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	dos2unix-5.2.1
+DISTNAME=	dos2unix-5.3
 CATEGORIES=	converters
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=dos2unix/}
 
