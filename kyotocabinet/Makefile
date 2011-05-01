@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	kyotocabinet-1.2.51
+DISTNAME=	kyotocabinet-1.2.52
 CATEGORIES=	wip
 MASTER_SITES=	http://fallabs.com/kyotocabinet/pkg/
 
