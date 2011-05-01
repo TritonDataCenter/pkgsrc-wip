@@ -54,6 +54,10 @@ PRINT_PLIST_AWK+=	{if ($$0 !~ /^\$${x11}/ && $$0 ~ /\/bin\/${_file_}$$/) {$$0 = 
 .for _file_ in ex2ht hthits htsearch presea spadbuf view2D view3D viewman
 PRINT_PLIST_AWK+=	{if ($$0 !~ /^\$${x11}/ && $$0 ~ /\/lib\/${_file_}$$/) {$$0 = "$${x11}" $$0;}}
 .endfor
+# files in lib/.../bitmaps
+.for _file_ in door ht_icon
+PRINT_PLIST_AWK+=	{if ($$0 !~ /^\$${x11}/ && $$0 ~ /\/bitmaps\/${_file_}$$/) {$$0 = "$${x11}" $$0;}}
+.endfor
 # Postscript files in lib/.../lib/graph:
 PRINT_PLIST_AWK+=	{if ($$0 !~ /^\$${x11}/ && $$0 ~ /\/lib\/graph\/.*\.ps$$/) {$$0 = "$${x11}" $$0;}}
 .endif
