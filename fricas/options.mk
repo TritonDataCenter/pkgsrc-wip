@@ -24,6 +24,7 @@ CONFIGURE_ARGS+=	--with-lisp=sbcl
 .if !empty(PKG_OPTIONS:Mecl)
 FASL=			fas
 CONFIGURE_ARGS+=	--with-lisp=ecl
+.include "../../devel/libffi/buildlink3.mk"
 .include "../../lang/ecl/buildlink3.mk"
 .endif
 
