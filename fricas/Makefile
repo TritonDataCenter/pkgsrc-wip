@@ -1,6 +1,6 @@
 # $NetBSD$
 
-PKGNAME=		fricas-1.0.99
+PKGNAME=		fricas-1.1.99
 DISTNAME=		${PKGNAME}-full
 CATEGORIES=		math
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=fricas/}
