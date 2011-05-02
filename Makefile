@@ -2799,6 +2799,7 @@ SUBDIR+=	ushare
 SUBDIR+=	using-mpi
 SUBDIR+=	ussp-push
 SUBDIR+=	util-linux
+SUBDIR+=	v8
 SUBDIR+=	vacuum
 SUBDIR+=	vagalume
 SUBDIR+=	vale-current
