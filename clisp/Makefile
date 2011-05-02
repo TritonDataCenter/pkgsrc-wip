@@ -11,8 +11,8 @@ HOMEPAGE=		http://clisp.cons.org/
 COMMENT=		CLISP, a Common Lisp implementation
 LICENSE=		gnu-gpl-v2
 
-CVS_REPOSITORIES=	clisp
-CVS_ROOT.clisp=		:pserver:anonymous:@clisp.cvs.sourceforge.net:/cvsroot/clisp
+HG_REPOSITORIES=	clisp
+HG_REPO.clisp=		http://clisp.hg.sourceforge.net:/cvsroot/clisp
 WRKSRC=			${WRKDIR}/clisp
 
 # Sparc64 has assembler code problems, see
@@ -66,5 +66,5 @@ CONFIGURE_ARGS+=	--with-dynamic-modules
 BUILDLINK_API_DEPENDS.libsigsegv+=	libsigsegv>=2.4
 .include "../../devel/libsigsegv/buildlink3.mk"
 
-.include "../../wip/mk/cvs-package.mk"
+.include "../../wip/mk/hg-package.mk"
 .include "../../mk/bsd.pkg.mk"
