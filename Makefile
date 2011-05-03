@@ -2459,6 +2459,7 @@ SUBDIR+=	resid-builder
 SUBDIR+=	residual-nightly
 SUBDIR+=	resin
 SUBDIR+=	rhapsody
+SUBDIR+=	ricty-ttf
 SUBDIR+=	ripe-rpsl-objectlibrary
 SUBDIR+=	ripit
 SUBDIR+=	ripole
