@@ -33,7 +33,7 @@ USE_TOOLS+=		gzip:run
 PKG_INSTALLATION_TYPES=	overwrite pkgviews
 PKG_DESTDIR_SUPPORT=	user-destdir
 
-WRKSRC=		${WRKDIR}
+WRKSRC=		${WRKDIR}/files
 
 EGDIR=		${PREFIX}/share/examples/pkg_summary-utils
 
@@ -57,9 +57,7 @@ MAKE_ENV+=	PKG_INFO_CMD=${PKG_INFO:Q}
 AUTO_MKDIRS=	yes
 
 do-extract:
-	${CP} ${FILESDIR}/[M-Za-su-z]* ${WRKSRC}
-	${MKDIR} ${WRKSRC}/tests
-	${CP} ${FILESDIR}/tests/[a-z]* ${WRKSRC}/tests
+	${CP} -Rp ${FILESDIR} ${WRKSRC}
 
 .include "../../wip/pkg_summary-utils/files/version.mk"
 .include "../../mk/bsd.pkg.mk"
