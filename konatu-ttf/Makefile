@@ -35,11 +35,11 @@ INSTALL_DOCS=	README.txt \
 USE_LANGUAGES=	# none
 
 do-install:
-.for fontfile in ${INSTALL_FONTS}
-	${INSTALL_DATA} ${WRKSRC}/${fontfile} ${DESTDIR}${FONTDIR}
+.for f in ${INSTALL_FONTS}
+	${INSTALL_DATA} ${WRKSRC}/${f} ${DESTDIR}${FONTDIR}
 .endfor
-.for docfile in ${INSTALL_DOCS}
-	${INSTALL_DATA} ${WRKSRC}/${docfile} ${DESTDIR}${DOCSDIR}
+.for f in ${INSTALL_DOCS}
+	${INSTALL_DATA} ${WRKSRC}/${f} ${DESTDIR}${DOCSDIR}
 .endfor
 
 .include "../../mk/bsd.pkg.mk"
