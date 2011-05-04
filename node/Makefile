@@ -26,6 +26,9 @@ post-extract:
 	cp -r ${WRKSRC}/deps/c-ares/openbsd-ia32 ${WRKSRC}/deps/c-ares/netbsd-ia32
 
 REPLACE_PYTHON+=	tools/waf-light
+REPLACE_PYTHON+=	tools/node-waf
+REPLACE_PYTHON+=	tools/wafadmin/*.py
+REPLACE_PYTHON+=	tools/wafadmin/Tools/*.py
 
 .include "../../lang/python26/buildlink3.mk"
 .include "../../lang/python/application.mk"
