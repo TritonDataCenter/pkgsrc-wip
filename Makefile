@@ -1199,7 +1199,6 @@ SUBDIR+=	kdiff3
 SUBDIR+=	kgrab
 SUBDIR+=	kgraphviewer
 SUBDIR+=	kile
-SUBDIR+=	kiloji-ttf
 SUBDIR+=	kino
 SUBDIR+=	kissme
 SUBDIR+=	klamav
