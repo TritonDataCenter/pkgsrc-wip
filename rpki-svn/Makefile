@@ -31,6 +31,8 @@ WRKSRC=			${WRKDIR}/rpki
 
 INSTALL_MAKE_FLAGS+=	prefix=${DESTDIR}${PREFIX}
 
+INSTALLATION_DIRS=	bin
+
 .include "../../lang/perl5/buildlink3.mk"
 .include "../../lang/python/application.mk"
 .include "../../security/openssl/buildlink3.mk"
