@@ -1,6 +1,6 @@
 $NetBSD$
 
---- libraries/integer-gmp/configure.orig	2010-11-12 18:10:51.000000000 +0000
+--- libraries/integer-gmp/configure.orig	2011-03-26 18:10:55.000000000 +0000
 +++ libraries/integer-gmp/configure
 @@ -3070,42 +3070,6 @@ fi
  fi
