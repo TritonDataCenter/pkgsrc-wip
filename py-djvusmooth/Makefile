@@ -6,7 +6,7 @@ PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	graphics textproc
 MASTER_SITES=	http://pypi.python.org/packages/source/d/djvusmooth/
 
-MAINTAINER=	ryo_on@yk.rim.or.jp
+MAINTAINER=	ryoon@NetBSD.org
 HOMEPAGE=	http://jwilk.net/software/djvusmooth
 COMMENT=	Graphical editor for DjVu documents
 LICENSE=	gnu-gpl-v2
