@@ -20,5 +20,5 @@ USE_LANGUAGES=	# none
 PYDISTUTILSPKG=	yes
 
 .include "../../lang/python/application.mk"
-.include "../../lang/python/extension.mk"
+.include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"
