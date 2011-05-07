@@ -57,6 +57,7 @@ CONF_FILES+=		${EGDIR}/${file} ${PKG_SYSCONFDIR}/${file}
 CONF_FILES+=		${EGDIR}/lib/hp/hplip.state ${VARBASE}/lib/hp/hplip.state
 
 REPLACE_PYTHON=		*.py */*.py */*/*.py
+REPLACE_PYTHON+=	fax/filters/pstotiff
 REPLACE_PERL=		prnt/filters/hpcac prnt/hpijs/foomatic-rip-hplip
 
 PY_PATCHPLIST=		yes
