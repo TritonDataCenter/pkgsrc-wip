@@ -2429,6 +2429,7 @@ SUBDIR+=	quantlib
 SUBDIR+=	qucs
 SUBDIR+=	quickfix
 SUBDIR+=	quickie
+SUBDIR+=	quickml
 SUBDIR+=	quodlibet
 SUBDIR+=	qvamps
 SUBDIR+=	r8s
