@@ -1616,7 +1616,6 @@ SUBDIR+=	notify-sharp
 SUBDIR+=	notmuch
 SUBDIR+=	nsc2ke
 SUBDIR+=	nsp
-SUBDIR+=	nts
 SUBDIR+=	nullpop
 SUBDIR+=	nuppelvideo
 SUBDIR+=	nuttcp
