@@ -24,7 +24,7 @@ BUILD_DEFS+=	VARBASE
 
 .include "../../mk/bsd.prefs.mk"
 
-QUICKML_DATA_DIR=	${DESTDIR}${VARBASE}/quickml
+QUICKML_DATA_DIR=	${VARBASE}/quickml
 INSTALLATION_DIRS+=	share/examples/quickml
 
 .include "options.mk"
@@ -44,7 +44,7 @@ SPECIAL_PERMS+=         ${VARBASE}/quickml ${QUICKML_USER} ${QUICKML_GROUP} 0750
 CONF_FILES=	${PREFIX}/share/examples/quickml/quickmlrc.sample ${PKG_SYSCONFDIR}/quickmlrc
 
 post-install:
-	${INSTALL_DATA} ${WRKSRC}/messages.ja ${QUICKML_DATA_DIR}
+	${INSTALL_DATA} ${WRKSRC}/messages.ja ${DESTDIR}${QUICKML_DATA_DIR}
 
 .include "../../lang/ruby/modules.mk"
 .include "../../mk/bsd.pkg.mk"
