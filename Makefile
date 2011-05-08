@@ -404,7 +404,6 @@ SUBDIR+=	dicom3tools
 SUBDIR+=	dict-est-rus
 SUBDIR+=	dict-freedict-eng-ara
 SUBDIR+=	dict-freedict-eng-fra
-SUBDIR+=	dict-mueller7
 SUBDIR+=	dikt
 SUBDIR+=	ding
 SUBDIR+=	dionysus
