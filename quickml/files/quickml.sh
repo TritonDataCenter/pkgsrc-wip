@@ -16,6 +16,7 @@ rcvar=$name
 command="@PREFIX@/sbin/${name}"
 command_interpreter="@RUBY@"
 pidfile="@VARBASE@/run/${name}.pid"
+required_files=@PKG_SYSCONFDIR@/quickmlrc
 
 load_rc_config ${name}
 run_rc_command "$1"
