@@ -25,7 +25,6 @@ BUILD_DEFS+=	VARBASE
 .include "../../mk/bsd.prefs.mk"
 
 QUICKML_DATA_DIR=	${VARBASE}/quickml
-INSTALLATION_DIRS+=	share/examples/quickml
 
 .include "options.mk"
 .include "../../lang/ruby/buildlink3.mk"
