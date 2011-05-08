@@ -1371,7 +1371,6 @@ SUBDIR+=	lissac
 SUBDIR+=	lives
 SUBDIR+=	llvm
 SUBDIR+=	llvm28
-SUBDIR+=	lmdbg
 SUBDIR+=	lmfit
 SUBDIR+=	lmtp2nntp
 SUBDIR+=	logfmon-devel
