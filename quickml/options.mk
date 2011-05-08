@@ -17,7 +17,7 @@ PATCH_DIST_STRIP.${LIMIT_PATCH}=	-p1
 
 
 .if !empty(PKG_OPTIONS:Manalog)
-.include "../../graphics/ImageMagick/buildlink3.mk"
-.include "../../print/ghostscript/buildlink3.mk"
+USE_TOOLS+=	gs:run
+DEPENDS+=	ImageMagick-[0-9]*:../../graphics/ImageMagick
 DEPENDS+=	gnuplot>=3.7:../../graphics/gnuplot
 .endif
