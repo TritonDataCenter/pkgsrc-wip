@@ -510,7 +510,6 @@ SUBDIR+=	entrance
 SUBDIR+=	eor
 SUBDIR+=	eot
 SUBDIR+=	epeg
-SUBDIR+=	epm
 SUBDIR+=	epsilon
 SUBDIR+=	erc
 SUBDIR+=	eric4
