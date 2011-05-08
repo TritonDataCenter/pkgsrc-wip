@@ -37,15 +37,14 @@ CONFIGURE_ARGS+=        --with-group=${QUICKML_GROUP}
 CONFIGURE_ARGS+=        --with-rubydir=${PREFIX}/${RUBY_SITELIB}
 CONFIGURE_ARGS+=        --localstatedir=${VARBASE}
 
+INSTALL_MAKE_FLAGS+=	etcdir=${PREFIX}/share/examples/quickml
+
 SPECIAL_PERMS+=         ${VARBASE}/quickml ${QUICKML_USER} ${QUICKML_GROUP} 0750
 
-CONF_FILES=	${PREFIX}/share/examples/quickml/quickmlrc ${PKG_SYSCONFDIR}/quickmlrc
+CONF_FILES=	${PREFIX}/share/examples/quickml/quickmlrc.sample ${PKG_SYSCONFDIR}/quickmlrc
 
 post-install:
 	${INSTALL_DATA} ${WRKSRC}/messages.ja ${QUICKML_DATA_DIR}
-	# installed in wrong place, move it
-	${RM}	${DESTDIR}${PREFIX}/etc/quickmlrc.sample
-	${INSTALL_DATA} ${WRKSRC}/quickmlrc.sample ${DESTDIR}${PREFIX}/share/examples/quickml/quickmlrc
 
 .include "../../lang/ruby/modules.mk"
 .include "../../mk/bsd.pkg.mk"
