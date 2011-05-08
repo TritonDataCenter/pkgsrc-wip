@@ -32,7 +32,6 @@ INSTALLATION_DIRS+=	share/examples/quickml
 
 CONFIGURE_ARGS+=        --datadir=${QUICKML_DATA_DIR}
 CONFIGURE_ARGS+=	--sysconfdir=${PKG_SYSCONFDIR}
-CONFIGURE_ARGS+=        --with-ruby=${RUBY}
 CONFIGURE_ARGS+=        --with-user=${QUICKML_USER}
 CONFIGURE_ARGS+=        --with-group=${QUICKML_GROUP}
 CONFIGURE_ARGS+=        --with-rubydir=${PREFIX}/${RUBY_SITELIB}
