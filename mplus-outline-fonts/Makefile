@@ -9,7 +9,7 @@ MASTER_SITES=	${MASTER_SITE_SOURCEFORGE_JP:=mplus-fonts/6650/}
 MAINTAINER=	obache@NetBSD.org
 HOMEPAGE=	http://mplus-fonts.sourceforge.jp/mplus-outline-fonts/index-en.html
 COMMENT=	M+ outline fonts
-#LICENSE=	# TODO: (see mk/license.mk)
+LICENSE=	mplusfont
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 

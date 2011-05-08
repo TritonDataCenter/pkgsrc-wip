@@ -9,7 +9,7 @@ MASTER_SITES=	${MASTER_SITE_SOURCEFORGE_JP:=mplus-fonts/5030/}
 MAINTAINER=	obache@NetBSD.org
 HOMEPAGE=	http://mplus-fonts.sourceforge.jp/mplus-bitmap-fonts/index.html
 COMMENT=	Simple and highly readable bitmap fonts
-#LICENSE=	# TODO: (see mk/license.mk)
+LICENSE=	mplusfont
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
