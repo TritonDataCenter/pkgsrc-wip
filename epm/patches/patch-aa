@@ -1,5 +1,6 @@
 $NetBSD$
 
+DESTDIR support
 --- Makefile.in.orig	2006-11-30 23:59:27.000000000 +0200
 +++ Makefile.in
 @@ -31,7 +31,10 @@ RANLIB		=	@RANLIB@
