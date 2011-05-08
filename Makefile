@@ -2792,7 +2792,6 @@ SUBDIR+=	uptimed
 SUBDIR+=	uqm
 SUBDIR+=	uqwk
 SUBDIR+=	uschedule
-SUBDIR+=	user_irix
 SUBDIR+=	ushare
 SUBDIR+=	using-mpi
 SUBDIR+=	ussp-push
