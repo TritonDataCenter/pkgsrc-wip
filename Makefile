@@ -2964,7 +2964,6 @@ SUBDIR+=	zabbix
 SUBDIR+=	zapping
 SUBDIR+=	zim
 SUBDIR+=	zinf
-SUBDIR+=	zoem
 SUBDIR+=	zope3-unstable
 SUBDIR+=	zsh-snapshot
 SUBDIR+=	zvbi
