@@ -9,7 +9,7 @@ MASTER_SITES=	http://save.sys.t.u-tokyo.ac.jp/~yusa/fonts/ricty/
 MAINTAINER=	ryoon@NetBSD.org
 HOMEPAGE=	http://save.sys.t.u-tokyo.ac.jp/~yusa/fonts/ricty.html
 COMMENT=	Migu 1M and Inconsolata based TrueType fonts for programming
-LICENSE=	ipafont AND open-font-license #AND M plus font license
+LICENSE=	ipafont AND open-font-license AND mplusfont
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
