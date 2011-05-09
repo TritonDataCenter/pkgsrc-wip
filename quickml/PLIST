@@ -14,3 +14,4 @@ sbin/quickml
 sbin/quickml-ctl
 share/examples/quickml/quickmlrc.sample
 share/examples/rc.d/quickml
+share/quickml/messages.ja
