@@ -2444,6 +2444,7 @@ SUBDIR+=	realtimebattle
 SUBDIR+=	realvnc
 SUBDIR+=	redfang
 SUBDIR+=	redis
+SUBDIR+=	reduze
 SUBDIR+=	regexxer
 SUBDIR+=	reinteract
 SUBDIR+=	rekall
