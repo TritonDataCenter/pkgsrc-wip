@@ -1,0 +1,6 @@
+@comment $NetBSD$
+bin/convert
+bin/spai
+lib/libspai.a
+share/doc/spai/spaidoc.pdf
+share/doc/spai/spaidoc.ps
