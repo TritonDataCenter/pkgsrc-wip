@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	netbsd-awk-20090901
+DISTNAME=	netbsd-awk-20110509
 CATEGORIES=	sysutils textproc
 MASTER_SITES=	http://mova.org/~cheusov/pub/netbsd-tools/
 EXTRACT_SUFX=	.tar.bz2
@@ -9,6 +9,7 @@ EXTRACT_SUFX=	.tar.bz2
 MAINTAINER=		cheusov@tut.by
 HOMEPAGE=		# none
 COMMENT=		NetBSD version of AWK
+# LICENSE=		original-bsd
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
