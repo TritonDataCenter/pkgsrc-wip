@@ -9,7 +9,7 @@ $NetBSD$
      (setq default-input-method "japanese-egg-anthy")
 ;;     in your init file (~/.emacs etc).
 ;;
-;; (3) You may need following line in init file to work 
+;; (3) You may need following line in init file to work
 ;;     M-x egg-toroku-region correctly
 ;;     with recent UCS(UTF-8) enabled emacs.
       (setq anthy-egg-use-utf8 t)
