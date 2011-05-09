@@ -35,8 +35,8 @@ PLIST_SRC+=		${PKGDIR}/PLIST.dirs
 
 EMUL_PLATFORMS=		linux-i386
 #EMUL_PLATFORMS+=	solaris-i386 solaris-sparc
-EMUL_MODULES.linux=	compat freetype2 x11
-EMUL_REQD=		suse>=10.0
+EMUL_MODULES.linux=	freetype2 x11 locale
+EMUL_REQD=		suse>=11.3
 
 EMUL_PKG_FMT=		rpm
 RPMFILES=		${WRKSRC}/RPMS/*.rpm
