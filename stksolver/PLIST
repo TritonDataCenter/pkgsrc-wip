@@ -1,0 +1,3 @@
+@comment $NetBSD$
+bin/stksolver
+share/doc/tksolver/stkSolverManual.pdf
