@@ -1,9 +1,9 @@
 # $NetBSD$
 
-DISTNAME=	Panel-0.2.4
-PKGNAME=	deforaos-panel-0.2.4
+DISTNAME=	Panel-0.2.6
+PKGNAME=	deforaos-panel-0.2.6
 CATEGORIES=	x11
-MASTER_SITES=	http://www.defora.org/os/download/download/3510/
+MASTER_SITES=	http://www.defora.org/os/download/download/3526/
 
 MAINTAINER=	khorben@defora.org
 HOMEPAGE=	http://www.defora.org/
