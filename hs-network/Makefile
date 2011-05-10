@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	network-2.3
+DISTNAME=	network-2.3.0.2
 CATEGORIES=	net
 
 MAINTAINER=	pho@cielonegro.org
