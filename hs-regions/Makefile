@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	regions-0.8
+DISTNAME=	regions-0.9
 CATEGORIES=	devel
 
 MAINTAINER=	pho@cielonegro.org
@@ -10,6 +10,6 @@ LICENSE=	modified-bsd
 
 .include "../../wip/mk/haskell.mk"
 .include "../../wip/hs-base-unicode-symbols/buildlink3.mk"
-.include "../../wip/hs-monad-peel/buildlink3.mk"
+.include "../../wip/hs-monad-control/buildlink3.mk"
 .include "../../wip/hs-transformers/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
