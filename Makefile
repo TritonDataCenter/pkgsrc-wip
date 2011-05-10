@@ -233,6 +233,7 @@ SUBDIR+=	bub-n-bros
 SUBDIR+=	bunny
 SUBDIR+=	busybox
 SUBDIR+=	bwm-ng
+SUBDIR+=	bwping
 SUBDIR+=	bzr
 SUBDIR+=	bzrtools
 SUBDIR+=	c-news
