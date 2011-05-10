@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	utility-ht-0.0.5.1
+DISTNAME=	utility-ht-0.0.7
 CATEGORIES=	devel
 
 MAINTAINER=	pho@cielonegro.org
