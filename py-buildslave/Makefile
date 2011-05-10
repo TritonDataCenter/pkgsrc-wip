@@ -1,17 +1,21 @@
 # $NetBSD$
 #
 
-DISTNAME=		buildbot-slave-0.8.2
+DISTNAME=		buildbot-slave-0.8.3
 PKGNAME=		${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=		devel
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=buildbot/}
 
 MAINTAINER=		haad@NetBSD.org
 HOMEPAGE=		http://buildbot.sourceforge.net/
-COMMENT=		System to automate the compile/test cycle, this is slave part of buildbot.
+COMMENT=		System to automate the compile/test cycle, slave part of buildbot
+LICENSE=		gnu-gpl-v2
+
+PKG_DESTDIR_SUPPORT=	user-destdir
 
 PY_PATCHPLIST=		yes
 PYDISTUTILSPKG=		yes
+PYTHON_VERSIONS_ACCEPTED=	27 26 25
 
 ALL_ENV+=               NO_INSTALL_REQS=1
 
