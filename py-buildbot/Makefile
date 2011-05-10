@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		buildbot-0.8.2
+DISTNAME=		buildbot-0.8.3p1
 PKGNAME=		${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=		devel
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=buildbot/}
@@ -9,6 +9,9 @@ MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=buildbot/}
 MAINTAINER=		haad@NetBSD.org
 HOMEPAGE=		http://buildbot.sourceforge.net/
 COMMENT=		System to automate the compile/test cycle
+LICENSE=		gnu-gpl-v2
+
+PKG_DESTDIR_SUPPORT=	user-destdir
 
 PY_PATCHPLIST=		yes
 PYDISTUTILSPKG=		yes
