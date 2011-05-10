@@ -1,0 +1,3 @@
+@comment $NetBSD$
+man/man8/bwping.8
+sbin/bwping
