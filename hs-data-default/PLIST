@@ -5,3 +5,4 @@ lib/data-default-${PKGVERSION}/${HASKELL_VERSION}/HSdata-default-${PKGVERSION}.o
 lib/data-default-${PKGVERSION}/${HASKELL_VERSION}/libHSdata-default-${PKGVERSION}.a
 lib/data-default-${PKGVERSION}/${HASKELL_VERSION}/libHSdata-default-${PKGVERSION}_p.a
 lib/data-default-${PKGVERSION}/${HASKELL_VERSION}/package-description
+share/doc/data-default-${PKGVERSION}/LICENSE
