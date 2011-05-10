@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	explicit-iomodes-0.6.0.1
+DISTNAME=	explicit-iomodes-0.6.0.2
 CATEGORIES=	devel
 
 MAINTAINER=	pho@cielonegro.org
