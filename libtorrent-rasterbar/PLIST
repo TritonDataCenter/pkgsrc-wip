@@ -1,9 +1,4 @@
 @comment $NetBSD$
-bin/client_test
-bin/dump_torrent
-bin/enum_if
-bin/make_torrent
-bin/simple_client
 include/libtorrent/alert.hpp
 include/libtorrent/alert_types.hpp
 include/libtorrent/assert.hpp
