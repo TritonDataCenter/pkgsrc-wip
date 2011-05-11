@@ -10,7 +10,7 @@ HOMEPAGE=	https://github.com/cheusov/pkgnih
 COMMENT=	Package manager for pkgsrc
 LICENSE=	2-clause-bsd
 
-DEPENDS+=	pkg_summary-utils>=0.53.2:../../wip/pkg_summary-utils
+DEPENDS+=	pkg_summary-utils>=0.53.2:../../pkgtools/pkg_summary-utils
 DEPENDS+=	pkg_status>=0.14:../../wip/pkg_status
 DEPENDS+=	digest-[0-9]*:../../pkgtools/digest
 DEPENDS+=	pkg_install>=20100915:../../pkgtools/pkg_install
@@ -36,6 +36,6 @@ REPLACE_FILES.runawk=	nih/pkg_update_plan.in
 
 MAKE_ENV+=		MANDIR=${PREFIX}/${PKGMANDIR}
 
-.include "../../mk/bsd.pkg.mk"
-
 MAKE_PROGRAM=		mkcmake
+
+.include "../../mk/bsd.pkg.mk"
