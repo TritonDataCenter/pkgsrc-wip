@@ -487,6 +487,7 @@ SUBDIR+=	elinks-snapshot
 SUBDIR+=	elk
 SUBDIR+=	emacs-current
 SUBDIR+=	emacs-current-nox11
+SUBDIR+=	emacs-ditz
 SUBDIR+=	emacs-jabber
 SUBDIR+=	emacs-pr-el
 SUBDIR+=	emacs-w3m-current
