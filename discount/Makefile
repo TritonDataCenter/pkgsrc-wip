@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	discount-2.0.6
+DISTNAME=	discount-2.0.9
 CATEGORIES=	textproc
 MASTER_SITES=	http://www.pell.portland.or.us/~orc/Code/discount/
 EXTRACT_SUFX=	.tar.bz2
@@ -9,7 +9,6 @@ EXTRACT_SUFX=	.tar.bz2
 MAINTAINER=	zecrazytux@zecrazytux.net
 HOMEPAGE=	http://www.pell.portland.or.us/~orc/Code/discount/
 COMMENT=	Markdown C implementation
-
 LICENSE=	modified-bsd
 
 PKG_DESTDIR_SUPPORT=	user-destdir
