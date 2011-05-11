@@ -5,7 +5,7 @@ DISTNAME=	miro-3.5.1
 CATEGORIES=	multimedia net
 MASTER_SITES=	http://ftp.osuosl.org/pub/pculture.org/miro/src/
 
-MAINTAINER=	ryo_on@yk.rim.or.jp
+MAINTAINER=	ryoon@NetBSD.org
 HOMEPAGE=	http://www.getmiro.com/
 COMMENT=	Miro is a integrated video downloader and player
 
