@@ -55,10 +55,10 @@ MAKE_ENV+=	PKG_INFO_CMD=${PKG_INFO:Q}
 
 AUTO_MKDIRS=	yes
 
+MAKE_PROGRAM=	mkcmake
+
 do-extract:
 	${CP} -Rp ${FILESDIR} ${WRKSRC}
 
 .include "../../wip/pkg_summary-utils/files/version.mk"
 .include "../../mk/bsd.pkg.mk"
-
-MAKE_PROGRAM=	mkcmake
