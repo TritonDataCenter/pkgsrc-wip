@@ -16,10 +16,10 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 
 HAS_CONFIGURE=		YES
 CONFIGURE_SCRIPT=	./configure.sh
-CONFIGURE_ARGS=		--prefix=${DESTDIR}${PREFIX} \
-			--execdir=${DESTDIR}${PREFIX}/bin \
-			--libdir=${DESTDIR}${PREFIX}/lib \
-			--mandir=${DESTDIR}${PREFIX}/${PKGMANDIR} \
+CONFIGURE_ARGS=		--prefix=${PREFIX} \
+			--execdir=${PREFIX}/bin \
+			--libdir=${PREFIX}/lib \
+			--mandir=${PREFIX}/${PKGMANDIR} \
 			--enable-all-features
 
 INSTALL_TARGET=		install.everything
