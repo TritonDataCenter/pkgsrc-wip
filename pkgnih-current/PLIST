@@ -1,7 +1,7 @@
 @comment $NetBSD$
 bin/nih
-bin/pkg_update_plan
 bin/pkg_status
+bin/pkg_update_plan
 lib/nih/nih.default.conf
 man/man1/nih.1
 man/man1/pkg_update_plan.1
