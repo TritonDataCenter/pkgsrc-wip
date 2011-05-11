@@ -1,0 +1,4 @@
+@comment $NetBSD$
+share/doc/emacs-ditz/README
+${EMACS_LISPPREFIX}/ditz.el
+${EMACS_LISPPREFIX}/ditz.elc
