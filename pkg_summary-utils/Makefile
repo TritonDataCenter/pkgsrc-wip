@@ -44,7 +44,6 @@ REPLACE.runawk.old=	.*runawk
 REPLACE.runawk.new=	${PREFIX}/bin/runawk
 REPLACE_FILES.runawk=	get_processed_pkgs.in pkg_*.in XB2bin_summary.in direct_deps.in
 
-MAKE_ENV+=	MAKEOBJDIR=${WRKDIR}
 MAKE_ENV+=	AWKMODDIR=${PREFIX}/share/runawk
 MAKE_ENV+=	EGDIR=${EGDIR}
 MAKE_ENV+=	SH=${SH:Q}
