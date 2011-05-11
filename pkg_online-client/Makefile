@@ -8,7 +8,7 @@ CATEGORIES=	pkgtools
 COMMENT+=	(client tools)
 
 DEPENDS+=	dict-client>=1.10.9:../../textproc/dict-client
-DEPENDS+=	pkg_summary-utils>=0.49:../../wip/pkg_summary-utils
+DEPENDS+=	pkg_summary-utils>=0.49:../../pkgtools/pkg_summary-utils
 DEPENDS+=	pipestatus-[0-9]*:../../devel/pipestatus
 DEPENDS+=	netcat-[0-9]*:../../net/netcat
 
