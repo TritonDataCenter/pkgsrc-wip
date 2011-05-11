@@ -12,8 +12,16 @@ LICENSE=	modified-bsd
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
-USE_TOOLS+=	gmake
-USE_CMAKE=	yes
-USE_LANGUAGES=	c c++
+USE_LIBTOOL=	yes
+
+USE_LANGUAGES=	c
+
+MAKE_ENV+=	MKDIR="${MKDIR}"
+MAKE_ENV+=	CP="${CP}"
+
+post-extract:
+	${CP} ${FILESDIR}/Makefile ${WRKSRC}/src/
+
+BUILD_DIRS=	src
 
 .include "../../mk/bsd.pkg.mk"
