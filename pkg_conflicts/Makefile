@@ -9,12 +9,11 @@ DISTFILES=	# empty
 MAINTAINER=	cheusov@tut.by
 HOMEPAGE=	# empty http://www.mova.org/~cheusov/pub/pkg_conflicts/
 COMMENT=	Tools for automatic CONFLICTS detection
-
 LICENSE=	mit
 
 DEPENDS+=	runawk>=0.14.3:../../lang/runawk
 DEPENDS+=	pkg_online-client>=0.6.0:../../wip/pkg_online-client
-DEPENDS+=	pkg_summary-utils-[0-9]*:../../wip/pkg_summary-utils
+DEPENDS+=	pkg_summary-utils-[0-9]*:../../pkgtools/pkg_summary-utils
 
 USE_LANGUAGES=		#empty
 
