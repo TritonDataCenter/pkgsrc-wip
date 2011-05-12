@@ -2983,6 +2983,7 @@ SUBDIR+=	yp-tools
 SUBDIR+=	ypbind-mt
 SUBDIR+=	ypserv
 SUBDIR+=	zabbix
+SUBDIR+=	zaparchive
 SUBDIR+=	zapping
 SUBDIR+=	zim
 SUBDIR+=	zinf
