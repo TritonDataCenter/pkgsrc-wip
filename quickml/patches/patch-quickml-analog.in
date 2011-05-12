@@ -1,6 +1,6 @@
 $NetBSD$
 
-gnuplot fix
+* gnuplot>=4.0 support.
 
 --- quickml-analog.in.orig	2004-06-07 08:50:59.000000000 +0000
 +++ quickml-analog.in
