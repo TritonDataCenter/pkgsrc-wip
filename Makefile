@@ -750,6 +750,7 @@ SUBDIR+=	gstat
 SUBDIR+=	gstreamer-plugins
 SUBDIR+=	gsview
 SUBDIR+=	gtg
+SUBDIR+=	gtest
 SUBDIR+=	gtimelog
 SUBDIR+=	gtk-gnutella-current
 SUBDIR+=	gtk-grdc
