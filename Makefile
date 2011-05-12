@@ -90,6 +90,7 @@ SUBDIR+=	amarok
 SUBDIR+=	and
 SUBDIR+=	anki
 SUBDIR+=	ann
+SUBDIR+=	anthy-dic-jis34
 SUBDIR+=	aoi
 SUBDIR+=	aokell
 SUBDIR+=	aols-freetds
