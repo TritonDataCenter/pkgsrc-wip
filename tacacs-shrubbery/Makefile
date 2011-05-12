@@ -19,6 +19,8 @@ USE_TOOLS+=	id # used in options.mk
 
 GNU_CONFIGURE=	yes
 USE_TOOLS+=	perl
+USE_LIBTOOL=    yes
+USE_LANGUAGES=	c c++
 USE_FEATURES+=	snprintf
 
 CONFIGURE_ARGS+=	--with-acctfile=${VARBASE:Q}/log/tac_plus.acct
@@ -35,12 +37,13 @@ CPPFLAGS+=		-Duint16_t=u_int16_t -Duint32_t=u_int32_t
 CPPFLAGS+=		-DPAM-PAM
 .endif
 
-INSTALLATION_DIRS=	sbin ${PKGMANDIR}/man3 ${PKGMANDIR}/man5 \
+INSTALLATION_DIRS=	lib sbin ${PKGMANDIR}/man3 ${PKGMANDIR}/man5 \
 			${PKGMANDIR}/man8 share/doc/tacacs
 
 do-install:
-	${INSTALL_PROGRAM} ${WRKSRC}/tac_plus ${WRKSRC}/tac_pwd \
-	${DESTDIR}${PREFIX}/sbin
+	${LIBTOOL} --mode=install ${INSTALL_PROGRAM} ${WRKSRC}/tac_plus ${DESTDIR}${PREFIX}/sbin
+	${LIBTOOL} --mode=install ${INSTALL_LIB} ${WRKSRC}/libtacacs.la ${DESTDIR}${PREFIX}/lib
+	${INSTALL_PROGRAM} ${WRKSRC}/tac_pwd ${DESTDIR}${PREFIX}/sbin
 	${INSTALL_SCRIPT} ${WRKSRC}/tac_convert ${DESTDIR}${PREFIX}/sbin
 	${INSTALL_MAN} ${WRKSRC}/regexp.3 ${DESTDIR}${PREFIX}/${PKGMANDIR}/man3
 	${INSTALL_MAN} ${WRKSRC}/tac_plus.conf.5 ${DESTDIR}${PREFIX}/${PKGMANDIR}/man5

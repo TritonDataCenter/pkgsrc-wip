@@ -1,4 +1,5 @@
 @comment $NetBSD$
+lib/libtacacs.la
 man/man3/regexp.3
 man/man5/tac_plus.conf.5
 man/man8/tac_plus.8
