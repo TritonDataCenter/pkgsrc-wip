@@ -7,6 +7,7 @@ SUBDIR+=	389-ds-base
 SUBDIR+=	Box2D
 SUBDIR+=	Chinput
 SUBDIR+=	ETL
+SUBDIR+=	FlightCrew
 SUBDIR+=	FontManager
 SUBDIR+=	GNUMail-pgp
 SUBDIR+=	GSCommander
