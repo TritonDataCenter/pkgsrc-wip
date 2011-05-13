@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		hplip-3.11.1
+DISTNAME=		hplip-3.11.3a
 CATEGORIES=		print
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=hplip/}
 
