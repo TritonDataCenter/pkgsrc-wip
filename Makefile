@@ -48,6 +48,7 @@ SUBDIR+=	SDL-intro-pt
 SUBDIR+=	SDL-intro-ru
 SUBDIR+=	SDL_Pango
 SUBDIR+=	Siesta
+SUBDIR+=	Sigil
 SUBDIR+=	StepTalk
 SUBDIR+=	Terminal
 SUBDIR+=	TextEdit
