@@ -8,7 +8,7 @@ EXTRACT_SUFX=	.zip
 
 MAINTAINER=	ryoon@NetBSD.org
 HOMEPAGE=	http://code.google.com/p/googlemock/
-COMMENT=	TODO: Short description of the package
+COMMENT=	C++ Mocking Framework
 LICENSE=	modified-bsd
 
 PKG_DESTDIR_SUPPORT=	user-destdir
