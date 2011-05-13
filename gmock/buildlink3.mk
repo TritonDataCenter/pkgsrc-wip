@@ -8,7 +8,7 @@ GMOCK_BUILDLINK3_MK:=
 BUILDLINK_API_DEPENDS.gmock+=	gmock>=1.6.0
 BUILDLINK_PKGSRCDIR.gmock?=	../../wip/gmock
 
-.include "../../wip/gtest/buildlink3.mk"
+.include "../../devel/googletest/buildlink3.mk"
 .endif	# GMOCK_BUILDLINK3_MK
 
 BUILDLINK_TREE+=	-gmock

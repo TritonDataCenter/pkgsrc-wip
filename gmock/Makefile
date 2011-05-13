@@ -32,6 +32,6 @@ pre-configure:
 post-install:
 	${INSTALL_SCRIPT} ${WRKSRC}/scripts/gmock-config ${DESTDIR}${PREFIX}/bin
 
-.include "../../wip/gtest/buildlink3.mk"
+.include "../../devel/googletest/buildlink3.mk"
 .include "../../lang/python/extension.mk"
 .include "../../mk/bsd.pkg.mk"
