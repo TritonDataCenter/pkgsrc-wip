@@ -1,0 +1,15 @@
+$NetBSD$
+
+* libgtest is needed.
+
+--- src/FlightCrew/tests/CMakeLists.txt.orig	2010-11-11 10:05:50.000000000 +0000
++++ src/FlightCrew/tests/CMakeLists.txt
+@@ -65,7 +65,7 @@ precompiled_header( TEST_SOURCES ALL_INC
+ 
+ add_executable( ${PROJECT_NAME} ${TEST_SOURCES} )
+ 
+-target_link_libraries( ${PROJECT_NAME} FlightCrew gmock )
++target_link_libraries( ${PROJECT_NAME} FlightCrew gmock gtest )
+ 
+ #############################################################################
+ 
