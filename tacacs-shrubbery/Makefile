@@ -13,12 +13,13 @@ COMMENT=	Cisco AAA protocol (tacacs+) daemon (Shrubbery Networks version)
 PKG_DESTDIR_SUPPORT=	user-destdir
 
 USE_TOOLS+=	id # used in options.mk
+MAKE_JOBS_SAFE=	no
 
 .include "../../mk/bsd.prefs.mk"
 .include "options.mk"
 
 GNU_CONFIGURE=	yes
-USE_TOOLS+=	perl
+USE_TOOLS+=	bison perl
 USE_LIBTOOL=    yes
 USE_LANGUAGES=	c c++
 USE_FEATURES+=	snprintf
