@@ -38,6 +38,11 @@ SUBST_FILES.fix-python+=	zim/_lib/xdot.py
 SUBST_FILES.fix-python+=	zim/_version.py
 SUBST_SED.fix-python+=		-e 's,/usr/bin/env python,${PYTHONBIN},'
 
+SUBST_CLASSES+=			man-path
+SUBST_STAGE.man-path+=		pre-configure
+SUBST_FILES.man-path+=		setup.py
+SUBST_SED.man-path=		-e s,share/man/man1,${PKGMANDIR}/man1,
+
 .include "../../lang/python/pyversion.mk"
 .if ${PYPKGPREFIX} == "py25"
 DEPENDS+=	${PYPKGPREFIX}-simplejson-[0-9]*:../../converters/py-simplejson
