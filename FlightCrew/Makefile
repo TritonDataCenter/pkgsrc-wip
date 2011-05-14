@@ -21,6 +21,13 @@ BUILDLINK_TRANSFORM+=	l:BoostParts:boost_date_time:boost_filesystem:boost_regex:
 BUILDLINK_TRANSFORM+=	l:Xerces:xerces-c
 BUILDLINK_TRANSFORM+=	l:zlib:z
 
+SUBST_CLASSES+=			fix-damaged
+SUBST_STAGE.fix-damaged=	pre-patch
+SUBST_MESSAGE.fix-damaged=	fixing
+SUBST_FILES.fix-damaged=	src/FlightCrew/tests/misc_tests/ConvertUtf8PathToBoostPath_test.cpp
+SUBST_SED.fix-damaged+=		-e "2,2s/^/\//" # commented-out
+SUBST_SED.fix-damaged+=		-e "1,1d" # deleted
+
 .include "../../devel/googletest/buildlink3.mk"
 .include "../../wip/gmock/buildlink3.mk"
 .include "../../textproc/xerces-c/buildlink3.mk"
