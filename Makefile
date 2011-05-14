@@ -626,7 +626,6 @@ SUBDIR+=	gauche-fastcgi
 SUBDIR+=	gcap
 SUBDIR+=	gcc42
 SUBDIR+=	gcc43
-SUBDIR+=	gcc45
 SUBDIR+=	gconf-cleaner
 SUBDIR+=	gdal
 SUBDIR+=	gdal-docs
