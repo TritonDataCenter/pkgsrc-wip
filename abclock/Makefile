@@ -10,6 +10,8 @@ HOMEPAGE=	http://odur.let.rug.nl/~kleiweg/abclock/
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
+INSTALLATION_DIRS=	bin
+
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/abclock ${DESTDIR}${PREFIX}/bin
 	${INSTALL_PROGRAM} ${WRKSRC}/abc_img ${DESTDIR}${PREFIX}/bin
