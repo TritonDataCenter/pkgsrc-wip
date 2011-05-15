@@ -1,3 +1,2 @@
 @comment $NetBSD$
-@comment $NetBSD$
 lib/httpd/mod_geoip.so
