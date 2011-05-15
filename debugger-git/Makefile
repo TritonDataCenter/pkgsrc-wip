@@ -2,10 +2,10 @@
 
 DISTNAME=		debugger-git
 CATEGORIES=		devel
-MASTER_SITES=		https://github.com/path64/
+MASTER_SITES=		https://github.com/path64/debugger
 
 MAINTAINER=		pkgsrc-users@NetBSD.org
-HOMEPAGE=		https://github.com/path64/
+HOMEPAGE=		https://github.com/path64/debugger
 COMMENT=		X86/x86_64 debugger with the goal to drop-in replace gdb
 LICENSE=		2-clause-bsd
 
