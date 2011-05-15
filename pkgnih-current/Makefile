@@ -35,6 +35,11 @@ CONF_FILES=		${EGDIR}/nih.conf \
 
 MAKE_DIRS+=		${PKG_SYSCONFDIR}/nih
 
+REPLACE_INTERPRETER+=	runawk
+REPLACE.runawk.old=	.*runawk
+REPLACE.runawk.new=	${PREFIX}/bin/runawk
+REPLACE_FILES.runawk=	nih/pkg_update_plan.in
+
 MAKE_ENV+=		MANDIR=${PREFIX}/${PKGMANDIR}
 MAKE_ENV+=		VERSION=${_GIT_TODAY:S/-//g}
 
