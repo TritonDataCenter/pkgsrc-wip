@@ -2108,6 +2108,7 @@ SUBDIR+=	py-clonedigger
 SUBDIR+=	py-codepy
 SUBDIR+=	py-cogent
 SUBDIR+=	py-configobj
+SUBDIR+=	py-construct
 SUBDIR+=	py-cosmolopy
 SUBDIR+=	py-couchdb
 SUBDIR+=	py-cryptoidlib
