@@ -26,5 +26,4 @@ pre-install:
 
 .include "../../www/apache/module.mk"
 .include "../../net/GeoIP/buildlink3.mk"
-# url2pkg-marker (please do not remove this line.)
 .include "../../mk/bsd.pkg.mk"
