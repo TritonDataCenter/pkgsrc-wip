@@ -18,4 +18,6 @@ USE_TOOLS+=	gmake
 
 MAKE_FILE=	GNUmakefile
 
+INSTALLATION_DIRS=	bin
+
 .include "../../mk/bsd.pkg.mk"
