@@ -18,5 +18,8 @@ MAKE_FILE=	GNUmakefile
 
 NO_BUILD=	yes
 
+REPLACE_RUBY=	baler.rb
+
 .include "../../lang/ruby/buildlink3.mk"
+.include "../../lang/ruby/replace.mk"
 .include "../../mk/bsd.pkg.mk"
