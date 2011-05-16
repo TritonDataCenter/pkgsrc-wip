@@ -1,10 +1,10 @@
 # $NetBSD$
 
-DISTNAME=		passenger-3.0.0
+DISTNAME=		passenger-3.0.7
 PKGNAME=		${APACHE_PKG_PREFIX}-${DISTNAME}
 CATEGORIES=		www
 
-MASTER_SITES=		http://rubyforge.org/frs/download.php/72923/
+MASTER_SITES=		http://rubyforge.org/frs/download.php/74656/
 MAINTAINER=		filip@joyent.com
 HOMEPAGE=		http://www.modrails.com/
 COMMENT=		Apache module for easy and robust deployment of Rails applications
@@ -42,9 +42,11 @@ REPLACE_FILES.ruby+=	bin/passenger-install-nginx-module
 REPLACE_FILES.ruby+=	bin/passenger-make-enterprisey
 REPLACE_FILES.ruby+=	bin/passenger-memory-stats
 REPLACE_FILES.ruby+=	bin/passenger-status
-REPLACE_FILES.ruby+=	bin/passenger-stress-test
+REPLACE_FILES.ruby+=	helper-scripts/passenger-spawn-server
+REPLACE_FILES.ruby+=	helper-scripts/prespawn
 
-CHECK_INTERPRETER_SKIP=	share/phusion-passenger/source/*
+CHECK_INTERPRETER_SKIP+=	share/phusion-passenger/source/*
+CHECK_INTERPRETER_SKIP+=	lib/ruby/vendor_ruby/1.8/phusion_passenger/wsgi/request_handler.py
 
 SUBST_CLASSES+=		rake
 SUBST_STAGE.rake=	post-patch
