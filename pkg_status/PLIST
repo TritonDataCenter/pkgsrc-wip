@@ -1,3 +1,0 @@
-@comment $NetBSD$
-bin/pkg_status
-share/doc/pkg_status/NEWS
