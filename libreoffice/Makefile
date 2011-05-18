@@ -50,6 +50,8 @@ EXTRACT_ONLY+=	libreoffice-${component}-${VER}.tar.bz2
 DISTFILES+=		${md}
 .endfor
 
+# tar: Invalid header, starting valid header search.
+EXTRACT_USING=		gtar
 
 WRKSRC=		${WRKDIR}/${LO_BOOTSTRAP}
 
@@ -81,7 +83,7 @@ CONFLICTS+=		openoffice-linux-[0-9]*
 CONFLICTS+=		libreoffice3-bin-[0-9]*
 
 
-USE_TOOLS+=			automake bash gmake perl pkg-config unzip
+USE_TOOLS+=		automake bash bison gmake perl pkg-config unzip
 PTHREAD_OPTS+=		require
 
 HAS_CONFIGURE=		yes
