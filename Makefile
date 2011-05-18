@@ -418,7 +418,6 @@ SUBDIR+=	dir2ogg
 SUBDIR+=	directfb
 SUBDIR+=	discident-glib
 SUBDIR+=	discount
-SUBDIR+=	distbb
 SUBDIR+=	distbb-current
 SUBDIR+=	distella
 SUBDIR+=	ditz-commander
