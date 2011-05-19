@@ -1,7 +1,7 @@
 # $NetBSD$
 
 PKG_OPTIONS_VAR=	PKG_OPTIONS.quickml
-PKG_SUPPORTED_OPTIONS+= limit analog
+PKG_SUPPORTED_OPTIONS+= quickml-limit analog
 
 .include "../../mk/bsd.options.mk"
 
