@@ -13,7 +13,7 @@ LICENSE=	gnu-gpl-v2
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
-FETCH_CMD=		wget
+FETCH_USING=		wget
 FETCH_BEFORE_ARGS=	--no-check-certificate
 
 USE_CMAKE=	yes
