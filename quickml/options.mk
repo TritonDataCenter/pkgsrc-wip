@@ -3,9 +3,9 @@
 PKG_OPTIONS_VAR=	PKG_OPTIONS.quickml
 PKG_SUPPORTED_OPTIONS+= limit analog
 
-
 .include "../../mk/bsd.options.mk"
 
+PLIST_VARS+=	analog
 
 .if !empty(PKG_OPTIONS:Mlimit)
 LIMIT_PATCH=	quickml-0.7-limited.patch
@@ -20,4 +20,11 @@ PATCH_DIST_STRIP.${LIMIT_PATCH}=	-p1
 USE_TOOLS+=	gs:run
 DEPENDS+=	ImageMagick-[0-9]*:../../graphics/ImageMagick
 DEPENDS+=	gnuplot>=3.7:../../graphics/gnuplot
+PLIST.analog=	yes
+.else
+SUBST_CLASSES+=		analog
+SUBST_STAGE.analog=	pre-configure
+SUBST_MESSAGE.analog=	Disable quickml-analog script.
+SUBST_FILES.analog=	Makefile.in
+SUBST_SED.analog=	-e '/^bin_SCRIPTS =/s/quickml-analog//g'
 .endif

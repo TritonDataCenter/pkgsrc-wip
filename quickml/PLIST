@@ -1,5 +1,5 @@
 @comment $NetBSD$
-bin/quickml-analog
+${PLIST.analog}bin/quickml-analog
 ${RUBY_VENDORLIB}/quickml.rb
 ${RUBY_VENDORLIB}/quickml/config.rb
 ${RUBY_VENDORLIB}/quickml/core.rb
