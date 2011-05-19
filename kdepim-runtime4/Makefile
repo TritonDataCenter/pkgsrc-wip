@@ -8,6 +8,9 @@ COMMENT=	Runtime requirements for the KDE PIM tools
 
 .include "../../wip/kde4/Makefile.kde4"
 
+# tar: Invalid header, starting valid header search.
+EXTRACT_USING=	gtar
+
 # BUILD_MAKE_FLAGS+= VERBOSE=1
 
 .include "../../wip/kde4/kde4.mk"
