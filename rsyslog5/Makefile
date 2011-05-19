@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		rsyslog-5.8.0
+DISTNAME=		rsyslog-5.8.1
 CATEGORIES=		sysutils
 MASTER_SITES=		http://download.rsyslog.com/rsyslog/
 
