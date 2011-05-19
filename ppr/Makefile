@@ -5,7 +5,7 @@ CATEGORIES=		print
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=ppr/}\
 			ftp://ppr-dist.trincoll.edu/pub/ppr/
 
-MAINTAINER=		hauke@Espresso.Rhein-Neckar.DE
+MAINTAINER=		hauke@NetBSD.org
 HOMEPAGE=		http://ppr.trincoll.edu/
 COMMENT=		PPR is a print spooler for PostScript printers
 

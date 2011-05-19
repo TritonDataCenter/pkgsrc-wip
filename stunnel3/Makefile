@@ -5,7 +5,7 @@ PKGREVISION=		4
 CATEGORIES=		security
 MASTER_SITES=		http://www.stunnel.org/download/stunnel/src/
 
-MAINTAINER=		hauke@Espresso.Rhein-Neckar.DE
+MAINTAINER=		hauke@NetBSD.org
 HOMEPAGE=		http://www.stunnel.org/
 COMMENT=		Universal SSL tunnel
 LICENSE=		gnu-gpl-v2

@@ -5,7 +5,7 @@ PKGREVISION=	1
 CATEGORIES=	net
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=ppr/}
 
-MAINTAINER=	hauke@Espresso.Rhein-Neckar.DE
+MAINTAINER=	hauke@NetBSD.org
 HOMEPAGE=	http://ppr.trincoll.edu/
 COMMENT=	AT&T/Apple AppleTalk Library Interface for Netatalk
 
