@@ -1,8 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	ocamlgraph-1.1
-PKGREVISION=	1
+DISTNAME=	ocamlgraph-1.7
 CATEGORIES=	devel
 MASTER_SITES=	http://ocamlgraph.lri.fr/download/
 
@@ -28,6 +27,7 @@ post-install:
 		${DESTDIR}${PREFIX}/share/doc/ocamlgraph
 
 .include "../../graphics/libgnomecanvas/buildlink3.mk"
+.include "../../devel/nspr/buildlink3.mk"
 .include "../../lang/ocaml/buildlink3.mk"
 .include "../../x11/lablgtk/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
