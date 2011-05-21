@@ -1,0 +1,4 @@
+@comment $NetBSD$
+bin/alt-ergo
+lib/alt-ergo/smt_prelude.mlw
+man/man1/alt-ergo.1
