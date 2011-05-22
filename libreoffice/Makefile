@@ -116,7 +116,7 @@ CONFIGURE_ARGS+=	--without-system-mythes
 # and fail with the pkgsrc environment
 # Preset LD_LIBRARY_PATH to sane defaults and avoid complicating them
 # further
-LIBPATH=				${BUILDLINK_DIR}/lib:${WRKSRC}/desktop/unxdfly.pro/lib
+LIBPATH=				${BUILDLINK_DIR}/lib:${WRKSRC}/desktop/unxdfly.pro/lib:${WRKSRC}/desktop/unxnbsd.pro/lib
 SUBST_CLASSES+=			libpath
 SUBST_STAGE.libpath=	pre-configure
 SUBST_FILES.libpath=	set_soenv.in
