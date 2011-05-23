@@ -65,7 +65,7 @@ BUILDLINK_DEPMETHOD.qt4-tools=		full
 .include "../../wip/kde4/kde4.mk"
 
 BUILDLINK_API_DEPENDS.strigi+=	strigi>=0.5.11
-BUILDLINK_API_DEPENDS.soprano+=	soprano>=2.3.0
+BUILDLINK_API_DEPENDS.soprano+=	soprano>=2.5.60
 BUILDLINK_API_DEPENDS.shared-desktop-ontologies+=	shared-desktop-ontologies>=0.4
 
 .include "../../archivers/bzip2/buildlink3.mk"
