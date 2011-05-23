@@ -3,7 +3,7 @@
 DISTNAME=		bzr-${VER}
 CATEGORIES=		devel scm
 MASTER_SITES=		http://launchpad.net/bzr/2.3/${VER}/+download/
-VER=			2.3.0
+VER=			2.3.3
 
 MAINTAINER=		jan.m.danielsson@gmail.com
 HOMEPAGE=		http://bazaar-vcs.org/
