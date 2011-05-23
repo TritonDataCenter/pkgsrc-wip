@@ -2731,6 +2731,7 @@ SUBDIR+=	tardy
 SUBDIR+=	task
 SUBDIR+=	taskcoach
 SUBDIR+=	tasks
+SUBDIR+=	tc-svn
 SUBDIR+=	tcc
 SUBDIR+=	tcc-devel
 SUBDIR+=	tcl-curl
