@@ -411,7 +411,6 @@ SUBDIR+=	dicom3tools
 SUBDIR+=	dict-est-rus
 SUBDIR+=	dict-freedict-eng-ara
 SUBDIR+=	dict-freedict-eng-fra
-SUBDIR+=	dikt
 SUBDIR+=	ding
 SUBDIR+=	dionysus
 SUBDIR+=	dir2ogg
