@@ -3,7 +3,7 @@ $NetBSD: MESSAGE,v 1.1 2011/04/14 14:40:34 makoto Exp $
 ;; (1) README file in Japanese is at ${PREFIX}/share/tc/README.euc.
 ;;     Please note the email address mentioned is obsolete now.
 ;; (2) setup file may be at ~/.tc and the sample is at
-;;    ${PREFIX}/share/example/tc/sample.tc
+;;    ${PREFIX}/share/examples/tc/sample.tc
 ;;
 ;; (3) You may have following line in Emacs init file.
    (set-language-environment 'Japanese)

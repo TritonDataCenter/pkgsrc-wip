@@ -17,6 +17,7 @@ ${EMACS_LISPPREFIX}/tc-2.3.1/tc-is18.el
 ${NOTFOR_emacs22}${EMACS_LISPPREFIX}/tc-2.3.1/tc-is18.elc
 ${EMACS_LISPPREFIX}/tc-2.3.1/tc-is19.el
 ${EMACS_LISPPREFIX}/tc-2.3.1/tc-is20.el
+${EMACS_LISPPREFIX}/tc-2.3.1/tc-is22.el
 ${EMACS_LISPPREFIX}/tc-2.3.1/tc-ja-alnum.el
 ${EMACS_LISPPREFIX}/tc-2.3.1/tc-ja-alnum.elc
 ${EMACS_LISPPREFIX}/tc-2.3.1/tc-jiscode.el
