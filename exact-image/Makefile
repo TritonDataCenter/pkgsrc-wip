@@ -30,7 +30,7 @@ post-extract:
 .include "../../graphics/jasper/buildlink3.mk"
 .include "../../mk/jpeg.buildlink3.mk"
 .include "../../graphics/lcms/buildlink3.mk"
-.include "../../graphics/libungif/buildlink3.mk"
+.include "../../mk/giflib.buildlink3.mk"
 .include "../../graphics/openexr/buildlink3.mk"
 .include "../../graphics/png/buildlink3.mk"
 .include "../../graphics/tiff/buildlink3.mk"

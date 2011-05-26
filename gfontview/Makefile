@@ -16,6 +16,6 @@ CONFIGURE_ARGS+=	--with-fontdir=${LOCALBASE}/share/ghostscript/fonts
 
 .include "../../fonts/t1lib/buildlink3.mk"
 .include "../../graphics/freetype-lib/buildlink3.mk"
-.include "../../graphics/libungif/buildlink3.mk"
+.include "../../mk/giflib.buildlink3.mk"
 .include "../../x11/gtk/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

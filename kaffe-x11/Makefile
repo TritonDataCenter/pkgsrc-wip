@@ -35,7 +35,7 @@ PRINT_PLIST_AWK+= /^@dirrm/ { print "@comment in kaffe: " $$0; next; }
 .include "../../x11/gtk2/buildlink3.mk"
 .include "../../graphics/libart/buildlink3.mk"
 .include "../../mk/jpeg.buildlink3.mk"
-.include "../../graphics/libungif/buildlink3.mk"
+.include "../../mk/giflib.buildlink3.mk"
 .include "../../graphics/png/buildlink3.mk"
 .include "../../wip/kaffe/buildlink3.mk"
 .include "../../mk/x11.buildlink3.mk"

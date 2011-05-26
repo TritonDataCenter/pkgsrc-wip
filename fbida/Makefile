@@ -21,7 +21,7 @@ USE_TOOLS+=		gmake perl
 .include "../../graphics/png/buildlink3.mk"
 #.include "../../graphics/sane-backends/buildlink3.mk"
 .include "../../graphics/tiff/buildlink3.mk"
-.include "../../graphics/libungif/buildlink3.mk"
+.include "../../mk/giflib.buildlink3.mk"
 .include "../../www/curl/buildlink3.mk"
 .include "../../x11/openmotif/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

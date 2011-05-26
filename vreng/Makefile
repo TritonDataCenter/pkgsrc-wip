@@ -40,7 +40,7 @@ LIBS.SunOS+=		-R${LOCALBASE}/lib/mysql
 .include "../../wip/ubit/buildlink3.mk"
 .include "../../textproc/libxml2/buildlink3.mk"
 #.include "../../lang/ocaml/buildlink3.mk"
-.include "../../graphics/libungif/buildlink3.mk"
+.include "../../mk/giflib.buildlink3.mk"
 .include "../../x11/libXpm/buildlink3.mk"
 .include "../../graphics/png/buildlink3.mk"
 .include "../../mk/jpeg.buildlink3.mk"
