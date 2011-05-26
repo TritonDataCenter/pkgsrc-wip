@@ -35,7 +35,7 @@ pre-install:
 .include "../../audio/pulseaudio/buildlink3.mk"
 .include "../../devel/zlib/buildlink3.mk"
 .include "../../graphics/freetype2/buildlink3.mk"
-.include "../../graphics/jpeg/buildlink3.mk"
+.include "../../mk/jpeg.buildlink3.mk"
 .include "../../graphics/png/buildlink3.mk"
 # doesn't work yet
 #.include "../../lang/spidermonkey/buildlink3.mk"
