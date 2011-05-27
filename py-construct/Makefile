@@ -34,6 +34,4 @@ PLIST_SUBST+=	PYVERSSUFFIX=${PYVERSSUFFIX}
 #	${PYTHONBIN} -c "import numpy; numpy.test()"
 
 .include "../../lang/python/egg.mk"
-# .include "../../lang/python/application.mk"
-# .include "../../lang/python/extension.mk"
 .include "../../mk/bsd.pkg.mk"
