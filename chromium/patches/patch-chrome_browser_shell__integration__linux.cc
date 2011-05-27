@@ -1,12 +1,12 @@
 $NetBSD$
 
---- chrome/browser/shell_integration_linux.cc.orig	2011-04-13 08:01:44.000000000 +0000
+--- chrome/browser/shell_integration_linux.cc.orig	2011-05-24 08:01:43.000000000 +0000
 +++ chrome/browser/shell_integration_linux.cc
 @@ -117,11 +117,23 @@ void CreateShortcutOnDesktop(const FileP
    if (!PathService::Get(chrome::DIR_USER_DESKTOP, &desktop_path))
      return;
  
-+#if defined(OS_NETBSD)
++#if defined(OS_BSD)
 +  int desktop_fd = open(desktop_path.value().c_str(), O_RDONLY);
 +#else
    int desktop_fd = open(desktop_path.value().c_str(), O_RDONLY | O_DIRECTORY);

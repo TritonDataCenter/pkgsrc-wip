@@ -1,12 +1,12 @@
 $NetBSD$
 
---- base/debug/stack_trace_posix.cc.orig	2011-04-13 08:01:34.000000000 +0000
+--- base/debug/stack_trace_posix.cc.orig	2011-05-24 08:01:33.000000000 +0000
 +++ base/debug/stack_trace_posix.cc
 @@ -5,11 +5,16 @@
  #include "base/debug/stack_trace.h"
  
  #include <errno.h>
-+#if !defined(OS_NETBSD)
++#if !defined(OS_NETBSD) && !defined(OS_DRAGONFLY)
  #include <execinfo.h>
 +#endif
  #include <fcntl.h>
@@ -23,7 +23,7 @@ $NetBSD$
  #endif
    // Though the backtrace API man page does not list any possible negative
    // return values, we take no chance.
-+#if !defined(OS_NETBSD)
++#if !defined(OS_NETBSD) && !defined(OS_DRAGONFLY)
    count_ = std::max(backtrace(trace_, arraysize(trace_)), 0);
 +#else
 +  count_ = 0;

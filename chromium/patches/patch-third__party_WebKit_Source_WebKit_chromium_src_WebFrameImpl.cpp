@@ -1,17 +1,17 @@
 $NetBSD$
 
---- third_party/WebKit/Source/WebKit/chromium/src/WebFrameImpl.cpp.orig	2011-04-13 08:12:09.000000000 +0000
+--- third_party/WebKit/Source/WebKit/chromium/src/WebFrameImpl.cpp.orig	2011-05-24 08:03:03.000000000 +0000
 +++ third_party/WebKit/Source/WebKit/chromium/src/WebFrameImpl.cpp
-@@ -159,7 +159,7 @@
- #include "LocalCurrentGraphicsContext.h"
- #endif
+@@ -154,7 +154,7 @@
+ #include <algorithm>
+ #include <wtf/CurrentTime.h>
  
 -#if OS(LINUX) || OS(FREEBSD)
 +#if OS(LINUX) || OS(BSD)
  #include <gdk/gdk.h>
  #endif
  
-@@ -322,7 +322,7 @@ public:
+@@ -324,7 +324,7 @@ public:
          float scale = m_printedPageWidth / pageRect.width();
  
          ctx.save();
@@ -20,12 +20,3 @@ $NetBSD$
          ctx.scale(WebCore::FloatSize(scale, scale));
  #endif
          ctx.translate(static_cast<float>(-pageRect.x()),
-@@ -1338,7 +1338,7 @@ float WebFrameImpl::printPage(int page, 
-         return 0;
-     }
- 
--#if OS(WINDOWS) || OS(LINUX) || OS(FREEBSD) || OS(SOLARIS)
-+#if OS(WINDOWS) || OS(LINUX) || OS(BSD) || OS(SOLARIS)
-     PlatformContextSkia context(canvas);
-     GraphicsContext spool(&context);
- #elif OS(DARWIN)

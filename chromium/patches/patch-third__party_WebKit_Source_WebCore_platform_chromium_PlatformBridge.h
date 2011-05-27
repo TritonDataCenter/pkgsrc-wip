@@ -1,6 +1,6 @@
 $NetBSD$
 
---- third_party/WebKit/Source/WebCore/platform/chromium/PlatformBridge.h.orig	2011-04-13 08:12:29.000000000 +0000
+--- third_party/WebKit/Source/WebCore/platform/chromium/PlatformBridge.h.orig	2011-05-24 08:03:23.000000000 +0000
 +++ third_party/WebKit/Source/WebCore/platform/chromium/PlatformBridge.h
 @@ -148,7 +148,7 @@ public:
  #if OS(WINDOWS)
@@ -9,9 +9,9 @@ $NetBSD$
 -#if OS(LINUX) || OS(FREEBSD)
 +#if OS(LINUX) || OS(BSD)
      static void getRenderStyleForStrike(const char* family, int sizeAndStyle, FontRenderStyle* result);
-     static String getFontFamilyForCharacters(const UChar*, size_t numCharacters);
+     static String getFontFamilyForCharacters(const UChar*, size_t numCharacters, const char* preferredLocale);
  #endif
-@@ -264,7 +264,7 @@ public:
+@@ -265,7 +265,7 @@ public:
          GraphicsContext*, int part, int state, int classicState, const IntRect&);
      static void paintProgressBar(
          GraphicsContext*, const IntRect& barRect, const IntRect& valueRect, bool determinate, double animatedSeconds);

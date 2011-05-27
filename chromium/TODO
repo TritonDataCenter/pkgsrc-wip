@@ -1,5 +1,5 @@
 $NetBSD$
 
 * debug
-* test on Linux/DragonFly/FreeBSD/OpenBSD
+* test on Linux/FreeBSD/OpenBSD
 * use libtool

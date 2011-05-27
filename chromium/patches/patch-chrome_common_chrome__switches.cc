@@ -1,8 +1,8 @@
 $NetBSD$
 
---- chrome/common/chrome_switches.cc.orig	2011-04-13 08:01:58.000000000 +0000
+--- chrome/common/chrome_switches.cc.orig	2011-05-24 08:01:58.000000000 +0000
 +++ chrome/common/chrome_switches.cc
-@@ -1302,7 +1302,7 @@ const char kEnableMediaPlayer[]         
+@@ -1174,7 +1174,7 @@ const char kEnableMediaPlayer[]         
  const char kEnableAdvancedFileSystem[]      = "enable-advanced-fs";
  #endif
  

@@ -1,10 +1,10 @@
 $NetBSD$
 
---- media/tools/shader_bench/shader_bench.cc.orig	2011-04-13 08:01:06.000000000 +0000
+--- media/tools/shader_bench/shader_bench.cc.orig	2011-05-24 08:01:03.000000000 +0000
 +++ media/tools/shader_bench/shader_bench.cc
 @@ -24,7 +24,7 @@
- #include "media/tools/shader_bench/painter.h"
  #include "media/tools/shader_bench/window.h"
+ #include "ui/gfx/native_widget_types.h"
  
 -#if defined(OS_LINUX)
 +#if defined(TOOLKIT_USES_GTK)

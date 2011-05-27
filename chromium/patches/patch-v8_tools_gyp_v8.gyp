@@ -1,6 +1,6 @@
 $NetBSD$
 
---- v8/tools/gyp/v8.gyp.orig	2011-04-13 08:24:41.000000000 +0000
+--- v8/tools/gyp/v8.gyp.orig	2011-05-24 08:20:55.000000000 +0000
 +++ v8/tools/gyp/v8.gyp
 @@ -109,7 +109,7 @@
            },
@@ -11,16 +11,21 @@ $NetBSD$
                  'cflags!': [
                    '-O2',
                    '-Os',
-@@ -717,7 +717,7 @@
+@@ -718,6 +718,13 @@
                  ],
                }
              ],
--            ['OS=="freebsd"', {
-+            ['OS=="freebsd" or OS=="dragonfly"', {
++            ['OS=="dragonfly"', {
++                'sources': [
++                  '../../src/platform-dragonfly.cc',
++                  '../../src/platform-posix.cc'
++                ],
++              }
++            ],
+             ['OS=="freebsd"', {
                  'link_settings': {
                    'libraries': [
-                     '-L/usr/local/lib -lexecinfo',
-@@ -728,6 +728,12 @@
+@@ -729,6 +736,12 @@
                  ],
                }
              ],

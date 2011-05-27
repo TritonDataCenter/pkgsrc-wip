@@ -1,6 +1,6 @@
 $NetBSD$
 
---- chrome/browser/memory_details.cc.orig	2011-04-13 08:01:44.000000000 +0000
+--- chrome/browser/memory_details.cc.orig	2011-05-24 08:01:43.000000000 +0000
 +++ chrome/browser/memory_details.cc
 @@ -25,7 +25,7 @@
  #include "grit/generated_resources.h"
@@ -8,8 +8,8 @@ $NetBSD$
  
 -#if defined(OS_LINUX)
 +#if defined(OS_LINUX) || defined(OS_BSD)
- #include "chrome/browser/zygote_host_linux.h"
- #include "chrome/browser/renderer_host/render_sandbox_host_linux.h"
+ #include "content/browser/zygote_host_linux.h"
+ #include "content/browser/renderer_host/render_sandbox_host_linux.h"
  #endif
 @@ -109,7 +109,7 @@ void MemoryDetails::CollectChildInfoOnIO
  void MemoryDetails::CollectChildInfoOnUIThread() {

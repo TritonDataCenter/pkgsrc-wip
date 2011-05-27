@@ -17,9 +17,14 @@ GYP_DEFINES+=	use_cups=0
 .endif
 
 .if !empty(PKG_OPTIONS:Mcodecs)
-GYP_DEFINES+=	ffmpeg_branding=Chrome
+FFMPEG_CODECS=	Chrome
+FFMPEG_ARGS+=	--enable-decoder='theora,vorbis,libvpx,pcm_u8,pcm_s16le,pcm_f32le,aac,h264,mp3'
+FFMPEG_ARGS+=	--enable-demuxer='ogg,matroska,wav,mp3,mov'
+FFMPEG_ARGS+=	--enable-parser=mpegaudio
 .else
-GYP_DEFINES+=	ffmpeg_branding=Chromium
+FFMPEG_CODECS=	Chromium
+FFMPEG_ARGS+=	--enable-decoder='theora,vorbis,libvpx,pcm_u8,pcm_s16le,pcm_f32le'
+FFMPEG_ARGS+=	--enable-demuxer='ogg,matroska,wav'
 .endif
 
 .if !empty(PKG_OPTIONS:Mdebug)

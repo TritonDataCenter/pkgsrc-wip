@@ -1,8 +1,8 @@
 $NetBSD$
 
---- webkit/tools/test_shell/test_shell.cc.orig	2011-04-13 08:01:08.000000000 +0000
+--- webkit/tools/test_shell/test_shell.cc.orig	2011-05-24 08:01:05.000000000 +0000
 +++ webkit/tools/test_shell/test_shell.cc
-@@ -880,7 +880,7 @@ bool LaunchSelLdr(const char* alleged_ur
+@@ -703,7 +703,7 @@ bool LaunchSelLdr(const char* alleged_ur
    return false;
  }
  

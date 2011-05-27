@@ -1,8 +1,8 @@
 $NetBSD$
 
---- net/net.gyp.orig	2011-04-13 08:01:17.000000000 +0000
+--- net/net.gyp.orig	2011-05-24 08:01:15.000000000 +0000
 +++ net/net.gyp
-@@ -238,7 +238,15 @@
+@@ -241,11 +241,23 @@
          },
        ],
        'conditions': [
@@ -15,11 +15,20 @@ $NetBSD$
 +            'base/network_change_notifier_netlink_linux.h',
 +          ],
 +        }],
++        [ 'OS == "linux" or OS == "netbsd"', {
++            'dependencies': [
++              '../build/linux/system.gyp:libresolv',
++            ],
++        }],
 +        [ 'OS == "linux" or OS == "dragonfly" or OS == "freebsd" or OS == "netbsd" or OS == "openbsd"', {
              'dependencies': [
                '../build/linux/system.gyp:gconf',
                '../build/linux/system.gyp:gdk',
-@@ -772,7 +780,7 @@
+-              '../build/linux/system.gyp:libresolv',
+             ],
+             'conditions': [
+               ['use_openssl==1', {
+@@ -777,7 +789,7 @@
              ],
            },
          ],
@@ -28,7 +37,7 @@ $NetBSD$
              'dependencies': [
                '../build/linux/system.gyp:gconf',
                '../build/linux/system.gyp:gdk',
-@@ -1014,7 +1022,7 @@
+@@ -1011,7 +1023,7 @@
               'proxy/proxy_config_service_linux_unittest.cc',
            ],
          }],
@@ -37,7 +46,7 @@ $NetBSD$
              'dependencies': [
                '../build/linux/system.gyp:gtk',
                '../build/linux/system.gyp:nss',
-@@ -1029,7 +1037,7 @@
+@@ -1023,7 +1035,7 @@
              ],
            }
          ],
@@ -46,7 +55,7 @@ $NetBSD$
            'conditions': [
              ['linux_use_tcmalloc==1', {
                'dependencies': [
-@@ -1181,7 +1189,7 @@
+@@ -1183,7 +1195,7 @@
              '../third_party/protobuf/protobuf.gyp:py_proto',
            ],
          }],
@@ -55,7 +64,7 @@ $NetBSD$
            'conditions': [
              ['use_openssl==1', {
                'dependencies': [
-@@ -1193,8 +1201,6 @@
+@@ -1195,8 +1207,6 @@
                ],
              }],
            ],

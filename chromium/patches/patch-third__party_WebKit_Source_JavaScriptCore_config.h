@@ -1,9 +1,9 @@
 $NetBSD$
 
---- third_party/WebKit/Source/JavaScriptCore/config.h.orig	2011-04-13 08:12:07.000000000 +0000
+--- third_party/WebKit/Source/JavaScriptCore/config.h.orig	2011-05-24 08:03:02.000000000 +0000
 +++ third_party/WebKit/Source/JavaScriptCore/config.h
-@@ -57,7 +57,7 @@
- 
+@@ -61,7 +61,7 @@
+ #define WTF_USE_OS_RANDOMNESS 1
  #endif
  
 -#if OS(FREEBSD) || OS(OPENBSD)

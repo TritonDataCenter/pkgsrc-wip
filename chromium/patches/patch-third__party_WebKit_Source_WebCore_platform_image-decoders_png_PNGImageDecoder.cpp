@@ -1,6 +1,6 @@
 $NetBSD$
 
---- third_party/WebKit/Source/WebCore/platform/image-decoders/png/PNGImageDecoder.cpp.orig	2011-04-13 08:12:31.000000000 +0000
+--- third_party/WebKit/Source/WebCore/platform/image-decoders/png/PNGImageDecoder.cpp.orig	2011-05-24 08:03:25.000000000 +0000
 +++ third_party/WebKit/Source/WebCore/platform/image-decoders/png/PNGImageDecoder.cpp
 @@ -136,14 +136,31 @@ public:
  
@@ -81,7 +81,7 @@ $NetBSD$
  void PNGImageDecoder::rowAvailable(unsigned char* rowBuffer, unsigned rowIndex, int interlacePass)
 @@ -343,7 +354,8 @@ void PNGImageDecoder::rowAvailable(unsig
          // For PNGs, the frame always fills the entire image.
-         buffer.setRect(IntRect(IntPoint(), size()));
+         buffer.setOriginalFrameRect(IntRect(IntPoint(), size()));
  
 -        if (m_reader->pngPtr()->interlaced)
 +        if (png_get_interlace_type(m_reader->pngPtr(), m_reader->infoPtr())
