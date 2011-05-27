@@ -1,6 +1,7 @@
 @comment $NetBSD$
 bin/panel
 bin/panel-settings
+bin/panel_test
 bin/run
 include/Desktop/Panel.h
 lib/Panel/applets/battery.so
