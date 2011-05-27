@@ -1,9 +1,9 @@
 # $NetBSD$
 #
 
-DISTNAME=	bsdbuild-102608
+DISTNAME=	bsdbuild-2.8
 CATEGORIES=	devel
-MASTER_SITES=	http://ftp.NetBSD.org/pub/NetBSD/misc/bjs/distfiles/
+MASTER_SITES=	http://stable.hypertriton.com/bsdbuild/
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.hypertriton.com/bsdbuild/
