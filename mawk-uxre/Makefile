@@ -9,5 +9,5 @@ LIBS=		-luxre
 
 DESCR_SRC+=	${.CURDIR}/DESCR.addon
 
-.include "../../wip/libuxre/buildlink3.mk"
+.include "../../devel/libuxre/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
