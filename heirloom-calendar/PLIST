@@ -1,4 +1,0 @@
-@comment $NetBSD$
-${HLROOT}/bin/calendar
-${HLROOT}/lib/calprog
-${HLROOT}/man/man1/calendar.1

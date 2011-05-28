@@ -1,3 +1,0 @@
-@comment $NetBSD$
-${HLROOT}/bin/uniq
-${HLROOT}/man/man1/uniq.1

@@ -1,7 +1,0 @@
-@comment $NetBSD$
-${HLROOT}/bin/mt
-${HLROOT}/bin/tape
-${HLROOT}/bin/tapecntl
-${HLROOT}/man/man1/mt.1
-${HLROOT}/man/man1/tape.1
-${HLROOT}/man/man1/tapecntl.1

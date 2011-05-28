@@ -1,3 +1,0 @@
-@comment $NetBSD$
-${HLROOT}/bin/join
-${HLROOT}/man/man1/join.1

@@ -1,5 +1,0 @@
-@comment $NetBSD$
-${HLROOT}/bin/ptime
-${HLROOT}/bin/time
-${HLROOT}/man/man1/ptime.1
-${HLROOT}/man/man1/time.1

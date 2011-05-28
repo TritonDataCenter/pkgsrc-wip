@@ -1,6 +1,0 @@
-@comment $NetBSD$
-${HLROOT}/bin/posix/sed
-${HLROOT}/bin/posix2001/sed
-${HLROOT}/bin/s42/sed
-${HLROOT}/bin/sed
-${HLROOT}/man/man1/sed.1

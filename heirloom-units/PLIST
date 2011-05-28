@@ -1,4 +1,0 @@
-@comment $NetBSD$
-${HLROOT}/bin/units
-${HLROOT}/lib/unittab
-${HLROOT}/man/man1/units.1

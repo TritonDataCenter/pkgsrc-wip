@@ -1,3 +1,0 @@
-@comment $NetBSD$
-${HLROOT}/bin/pathchk
-${HLROOT}/man/man1/pathchk.1

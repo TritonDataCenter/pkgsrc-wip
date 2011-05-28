@@ -1,6 +1,0 @@
-@comment $NetBSD$
-${HLROOT}/bin/posix/wc
-${HLROOT}/bin/posix2001/wc
-${HLROOT}/bin/s42/wc
-${HLROOT}/bin/wc
-${HLROOT}/man/man1/wc.1

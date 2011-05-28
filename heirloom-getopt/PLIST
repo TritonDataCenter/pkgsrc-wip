@@ -1,3 +1,0 @@
-@comment $NetBSD$
-${HLROOT}/bin/getopt
-${HLROOT}/man/man1/getopt.1

@@ -1,4 +1,0 @@
-@comment $NetBSD$
-${HLROOT}/bin/ul
-${HLROOT}/man/man1/ul.1
-${HLROOT}/ucb/ul

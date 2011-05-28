@@ -1,6 +1,0 @@
-@comment $NetBSD$
-${HLROOT}/bin/csplit
-${HLROOT}/bin/posix/csplit
-${HLROOT}/bin/posix2001/csplit
-${HLROOT}/bin/s42/csplit
-${HLROOT}/man/man1/csplit.1

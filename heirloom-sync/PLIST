@@ -1,3 +1,0 @@
-@comment $NetBSD$
-${HLROOT}/bin/sync
-${HLROOT}/man/man1m/sync.1m

@@ -1,5 +1,0 @@
-@comment $NetBSD$
-${HLROOT}/bin/groups
-${HLROOT}/man/man1/groups.1
-${HLROOT}/man/man1b/groups.1b
-${HLROOT}/ucb/groups

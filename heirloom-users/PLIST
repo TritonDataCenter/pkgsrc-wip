@@ -1,4 +1,0 @@
-@comment $NetBSD$
-${HLROOT}/bin/users
-${HLROOT}/man/man1/users.1
-${HLROOT}/ucb/users

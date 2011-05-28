@@ -1,6 +1,0 @@
-@comment $NetBSD$
-${HLROOT}/bin/posix/rmdir
-${HLROOT}/bin/posix2001/rmdir
-${HLROOT}/bin/rmdir
-${HLROOT}/bin/s42/rmdir
-${HLROOT}/man/man1/rmdir.1

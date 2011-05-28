@@ -1,6 +1,0 @@
-@comment $NetBSD$
-${HLROOT}/bin/date
-${HLROOT}/bin/posix/date
-${HLROOT}/bin/posix2001/date
-${HLROOT}/bin/s42/date
-${HLROOT}/man/man1/date.1

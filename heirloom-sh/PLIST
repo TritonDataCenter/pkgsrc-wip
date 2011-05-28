@@ -1,9 +1,0 @@
-@comment $NetBSD$
-heirloom/bin/jsh
-heirloom/bin/sh
-heirloom/man/man1/jsh.1
-heirloom/man/man1/sh.1
-share/doc/${PKGBASE}/CHANGES
-share/doc/${PKGBASE}/CALDERA.LICENSE
-share/doc/${PKGBASE}/OPENSOLARIS.LICENSE
-share/doc/${PKGBASE}/README

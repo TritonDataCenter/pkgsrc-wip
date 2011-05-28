@@ -1,3 +1,0 @@
-@comment $NetBSD$
-${HLROOT}/bin/uname
-${HLROOT}/man/man1/uname.1

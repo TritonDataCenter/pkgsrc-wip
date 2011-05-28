@@ -1,3 +1,0 @@
-@comment $NetBSD$
-${HLROOT}/bin/sleep
-${HLROOT}/man/man1/sleep.1

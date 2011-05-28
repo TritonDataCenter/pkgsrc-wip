@@ -1,4 +1,0 @@
-@comment $NetBSD$
-${HLROOT}/bin/tcopy
-${HLROOT}/man/man1/tcopy.1
-${HLROOT}/ucb/tcopy

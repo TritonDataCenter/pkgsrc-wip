@@ -1,3 +1,0 @@
-@comment $NetBSD$
-${HLROOT}/bin/cat
-${HLROOT}/man/man1/cat.1

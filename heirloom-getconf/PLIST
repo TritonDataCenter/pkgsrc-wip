@@ -1,6 +1,0 @@
-@comment $NetBSD$
-${HLROOT}/bin/getconf
-${HLROOT}/bin/posix2001/getconf
-${HLROOT}/bin/posix/getconf
-${HLROOT}/bin/s42/getconf
-${HLROOT}/man/man1/getconf.1

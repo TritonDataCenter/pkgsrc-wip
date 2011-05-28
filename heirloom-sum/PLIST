@@ -1,5 +1,0 @@
-@comment $NetBSD$
-${HLROOT}/bin/sum
-${HLROOT}/man/man1/sum.1
-${HLROOT}/man/man1b/sum.1b
-${HLROOT}/ucb/sum

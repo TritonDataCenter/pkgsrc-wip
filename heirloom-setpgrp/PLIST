@@ -1,3 +1,0 @@
-@comment $NetBSD$
-${HLROOT}/bin/setpgrp
-${HLROOT}/man/man1/setpgrp.1

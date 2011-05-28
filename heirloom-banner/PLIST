@@ -1,3 +1,0 @@
-@comment $NetBSD$
-${HLROOT}/bin/banner
-${HLROOT}/man/man1/banner.1

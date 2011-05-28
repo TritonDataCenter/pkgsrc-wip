@@ -1,6 +1,0 @@
-@comment $NetBSD$
-${HLROOT}/bin/posix/pr
-${HLROOT}/bin/posix2001/pr
-${HLROOT}/bin/pr
-${HLROOT}/bin/s42/pr
-${HLROOT}/man/man1/pr.1

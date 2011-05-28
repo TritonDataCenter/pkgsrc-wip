@@ -1,3 +1,0 @@
-@comment $NetBSD$
-${HLROOT}/bin/sdiff
-${HLROOT}/man/man1/sdiff.1

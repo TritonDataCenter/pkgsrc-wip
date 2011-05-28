@@ -1,4 +1,0 @@
-@comment $NetBSD$
-${HLROOT}/bin/diff3
-${HLROOT}/lib/diff3prog
-${HLROOT}/man/man1/diff3.1

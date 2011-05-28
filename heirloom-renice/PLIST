@@ -1,4 +1,0 @@
-@comment $NetBSD$
-${HLROOT}/bin/renice
-${HLROOT}/man/man1/renice.1
-${HLROOT}/ucb/renice

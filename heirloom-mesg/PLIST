@@ -1,3 +1,0 @@
-@comment $NetBSD$
-${HLROOT}/bin/mesg
-${HLROOT}/man/man1/mesg.1

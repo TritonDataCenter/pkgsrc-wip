@@ -1,6 +1,0 @@
-@comment $NetBSD$
-${HLROOT}/bin/posix/sort
-${HLROOT}/bin/posix2001/sort
-${HLROOT}/bin/s42/sort
-${HLROOT}/bin/sort
-${HLROOT}/man/man1/sort.1

@@ -1,6 +1,0 @@
-@comment $NetBSD$
-${HLROOT}/bin/pg
-${HLROOT}/bin/posix/pg
-${HLROOT}/bin/posix2001/pg
-${HLROOT}/bin/s42/pg
-${HLROOT}/man/man1/pg.1

@@ -1,6 +1,0 @@
-@comment $NetBSD$
-${HLROOT}/bin/chmod
-${HLROOT}/bin/posix/chmod
-${HLROOT}/bin/posix2001/chmod
-${HLROOT}/bin/s42/chmod
-${HLROOT}/man/man1/chmod.1

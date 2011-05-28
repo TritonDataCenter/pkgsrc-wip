@@ -1,3 +1,0 @@
-@comment $NetBSD$
-${HLROOT}/bin/mkfifo
-${HLROOT}/man/man1/mkfifo.1

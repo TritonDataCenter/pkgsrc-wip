@@ -1,4 +1,0 @@
-@comment $NetBSD$
-${HLROOT}/bin/priocntl
-${HLROOT}/bin/s42/priocntl
-${HLROOT}/man/man1/priocntl.1
