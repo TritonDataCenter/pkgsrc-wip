@@ -24,7 +24,7 @@ INSTALLATION_DIRS+=	bin ${PKGMANDIR}/man1
 post-patch:
 	set -e; \
 	sed -e 's|awk|nbawk|g' ${WRKSRC}/awk.1 > ${WRKSRC}/nbawk.1; \
-	cp ${FILESDIR}/* ${WRKSRC}/
+	cp ${FILESDIR}/*.c ${FILESDIR}/*.h ${FILESDIR}/Makefile ${WRKSRC}/
 
 MAKE_PROGRAM=		mkcmake
 

@@ -30,7 +30,9 @@ CPPFLAGS+=	-DHAS_ISBLANK
 MKC_ERR_MSG+=	"fpurge(3) cannot be found"
 .endif
 
-CPPFLAGS+=	-I.
+CPPFLAGS+=	-I. -DHAVE_NBTOOL_CONFIG_H=1
 LDADD+=		-lm
+
+WARNS=		4
 
 .include <mkc.prog.mk>
