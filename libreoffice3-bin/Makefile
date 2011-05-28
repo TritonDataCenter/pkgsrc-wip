@@ -16,6 +16,7 @@ CONFLICTS+=		openoffice-bin-[0-9]*
 CONFLICTS+=		openoffice2-bin-[0-9]*
 CONFLICTS+=		openoffice2-[0-9]*
 CONFLICTS+=		openoffice3-[0-9]*
+CONFLICTS+=		openoffice3-bin-[0-9]*
 CONFLICTS+=		openoffice-linux-[0-9]*
 
 OO_VER=			3
@@ -62,9 +63,7 @@ DISTNAME=		OOo_${OO_RELEASE}_Solaris_Sparc_install_en-US
 WRKSRC=			${WRKDIR}/OOO320_m18_native_packed-1_en-US.9502/packages
 .endif
 
-PKG_JVMS_ACCEPTED=	sun-jdk6
-USE_JAVA=		run
-.include "../../mk/java-vm.mk"
+.include "options.mk"
 
 INSTALLATION_DIRS= bin
 
