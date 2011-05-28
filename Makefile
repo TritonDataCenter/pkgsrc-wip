@@ -1251,7 +1251,6 @@ SUBDIR+=	libtogl
 SUBDIR+=	libtorrent-rasterbar
 SUBDIR+=	libupnp
 SUBDIR+=	libuuid
-SUBDIR+=	libuxre
 SUBDIR+=	libvalhalla
 SUBDIR+=	libvc
 SUBDIR+=	libvg
