@@ -7,11 +7,11 @@ MASTER_SITES=	http://mova.org/~cheusov/pub/netbsd-tools/
 EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=		cheusov@tut.by
-HOMEPAGE=		http://cvsweb.netbsd.org/bsdweb.cgi/src/external/historical/nawk/dist/
+HOMEPAGE=		http://cvsweb.NetBSD.org/bsdweb.cgi/src/external/historical/nawk/dist/
 COMMENT=		NetBSD version of AWK
-# LICENSE=		modified-bsd
+#LICENSE=		mit/bsd?
 
-BUILD_DEPENDS=		mk-configure>0.19.0:../../devel/mk-configure
+BUILD_DEPENDS+=		mk-configure>0.19.0:../../devel/mk-configure
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
