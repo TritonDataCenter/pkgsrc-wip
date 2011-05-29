@@ -6,6 +6,7 @@ ENGINE_DIR=	oniguruma
 
 .include "../../wip/lua-lrexlib/Makefile.common"
 
+PKGREVISION=	1
 COMMENT=	Oniguruma regexp library for Lua (lrexlib project)
 
 DESCR_SRC+=	${.CURDIR}/DESCR

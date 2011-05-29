@@ -1,5 +1,6 @@
 $NetBSD$
 
+# libtool-ization
 --- src/common.mak.orig	2008-06-14 20:11:08.000000000 +0300
 +++ src/common.mak
 @@ -3,11 +3,11 @@

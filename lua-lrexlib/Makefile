@@ -10,6 +10,7 @@ DISTFILES=	# empty
 MAINTAINER=	cheusov@tut.by
 HOMEPAGE=	http://luaforge.net/projects/lrexlib
 COMMENT=	Regexp libraries for Lua programming language
+LICENSE=	mit
 
 APIs=		pcre posix onig
 

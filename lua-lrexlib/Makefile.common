@@ -7,12 +7,10 @@
 
 DISTNAME=	lrexlib-${VERSION}
 PKGNAME=	${LUA_PKGPREFIX}-lrexlib-${ENGINE}-${VERSION}
-PKGREVISION=	1
 CATEGORIES=	devel
 MASTER_SITES=	http://luaforge.net/frs/download.php/3599/
 EXTRACT_SUFX=	.zip
 
-MAINTAINER=	cheusov@tut.by
 HOMEPAGE=	http://luaforge.net/projects/lrexlib
 
 LICENSE=		mit
@@ -37,8 +35,6 @@ MAKE_FLAGS+=		LIBTOOL=${LIBTOOL:Q}
 MAKE_FLAGS+=		MODULES_DIR=${PREFIX}/${LUA_CDIR}
 
 INSTALLATION_DIRS+=	${LUA_CDIR}
-
-ENGINE_DIR?=		${ENGINE}
 
 do-install:
 	${LIBTOOL} --mode=install ${INSTALL_PROGRAM} \
