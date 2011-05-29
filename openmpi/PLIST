@@ -142,7 +142,6 @@ lib/openmpi/mca_routed_direct.la
 lib/openmpi/mca_routed_linear.la
 lib/openmpi/mca_routed_radix.la
 lib/openmpi/mca_routed_slave.la
-lib/openmpi/mca_sysinfo_linux.la
 lib/openmpi/mca_topo_unity.la
 lib/openmpi/mca_vprotocol_pessimist.la
 lib/pkgconfig/ompi-c.pc
