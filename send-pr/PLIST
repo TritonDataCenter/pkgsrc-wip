@@ -1,10 +1,9 @@
 @comment $NetBSD$
 bin/install-sid
 bin/send-pr
-info/send-pr.info
 man/man1/send-pr.1
-share/emacs/site-lisp/send-pr.el
-share/examples/gnats/config
-share/gnats/cygnus
+man/man8/install-sid.8
+share/examples/gnats/send-pr.NetBSD.conf
+share/examples/gnats/send-pr.conf
 share/gnats/dist/INSTALL.send-pr
 share/gnats/netbsd
