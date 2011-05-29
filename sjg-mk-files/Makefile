@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	mk-20100612
+DISTNAME=	mk-20110505
 PKGNAME=	${DISTNAME:S/mk/sjg-mk-files/}
 CATEGORIES=	devel
 MASTER_SITES=	http://crufty.net/ftp/pub/sjg/
