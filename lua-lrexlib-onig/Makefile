@@ -8,6 +8,7 @@ ENGINE_DIR=	oniguruma
 
 PKGREVISION=	1
 COMMENT=	Oniguruma regexp library for Lua (lrexlib project)
+MAINTAINER=	cheusov@tut.by
 
 DESCR_SRC+=	${.CURDIR}/DESCR
 
