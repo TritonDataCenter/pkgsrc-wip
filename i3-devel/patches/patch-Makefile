@@ -1,6 +1,6 @@
 $NetBSD$
 
---- Makefile.orig	2011-03-07 19:24:40.000000000 +0000
+--- Makefile.orig	2011-05-28 20:13:18.000000000 +0000
 +++ Makefile
 @@ -26,6 +26,8 @@ src/%.o: src/%.c ${HEADERS}
  all: src/cfgparse.y.o src/cfgparse.yy.o src/cmdparse.y.o src/cmdparse.yy.o ${FILES}

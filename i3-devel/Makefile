@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	i3-tree-pr2
+DISTNAME=	i3-tree-pr3
 PKGNAME=	${DISTNAME:C/tree-pr/4devel/}
 CATEGORIES=	wm
 MASTER_SITES=	http://i3.zekjur.net/downloads/
