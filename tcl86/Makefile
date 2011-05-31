@@ -1,9 +1,8 @@
 # $NetBSD$
 #
 
-DISTNAME=		999804376c
+DISTNAME=		188a795873
 PKGNAME=		tcl86-${TCL_PKGSRC_PATCHLEVEL}
-PKGREVISION=		1
 CATEGORIES=		lang
 MASTER_SITES=		http://mirror1.tcl.tk/tcl/tarball/tcl.tgz?uuid=
 EXTRACT_SUFX=

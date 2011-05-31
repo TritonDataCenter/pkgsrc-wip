@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=		c1b5bef43f
+DISTNAME=		9bc115d8f1
 PKGNAME=		tk86-${TK_PKGSRC_PATCHLEVEL}
 CATEGORIES=		x11 lang
 MASTER_SITES=		http://mirror1.tcl.tk/tk/tarball/tk.tgz?uuid=
