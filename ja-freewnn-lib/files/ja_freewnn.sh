@@ -8,8 +8,8 @@
 . /etc/rc.subr
 
 name="freewnn"
-command_start="@PREFIX@/bin/Wnn4/jserver"
-command_stop="@PREFIX@/bin/Wnn4/wnnkill"
+command_start="@PREFIX@/sbin/jserver"
+command_stop="@PREFIX@/sbin/wnnkill"
 pidfile=""
 
 cmd=${1:-start}
