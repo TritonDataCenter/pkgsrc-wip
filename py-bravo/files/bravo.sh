@@ -16,8 +16,8 @@ command_interpreter="@PYTHONBIN@"
 required_files="@PKG_SYSCONFDIR@/bravo.ini"
 pidfile="@PIDDIR@/${name}.pid"
 logfile="@LOGDIR@/${name}.log"
-command_args="-u @BRAVO_USER@ --pidfile=${pidfile} -l ${logfile}"
-command_args="${command_args} bravo -c ${required_files}"
+command_args="-u @BRAVO_USER@ -g @BRAVO_GROUP@ -p ${pidfile} -l ${logfile}"
+command_args="${command_args} ${name}"
 
 # start_precmd="ensure_dirs"
 
