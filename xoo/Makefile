@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	xoo-0.8
+PKGREVISION=	1
 CATEGORIES=	x11
 MASTER_SITES=	http://labs.o-hand.com/sources/xoo/
 
@@ -15,6 +16,10 @@ GNU_CONFIGURE=	yes
 CFLAGS=
 CFLAGS+=	-DPREFIX=\"${PREFIX:Q}\"
 CONFIGURE_ARGS+=CFLAGS=${CFLAGS:M*:Q}
+
+post-install:
+	${INSTALL} -m 444 ${FILESDIR}/neo1973.png ${DESTDIR}${PREFIX}/share/xoo/neo1973.png
+	${INSTALL} -m 444 ${FILESDIR}/neo1973.xml ${DESTDIR}${PREFIX}/share/xoo/neo1973.xml
 
 .include "../../x11/gtk2/buildlink3.mk"
 .include "../../devel/libglade/buildlink3.mk"
