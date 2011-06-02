@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	flimsel-0.0.6
+DISTNAME=	flimsel-0.0.7
 PKGREVISION=	2
 CATEGORIES=	graphics
 MASTER_SITES=	http://www.ecademix.com/JohannesHofmann/
