@@ -5,7 +5,7 @@ POST-INSTALL)
 	for i in `${FIND} ${PREFIX}/${WNNDICDIR} -type f \( -name \*dic -o -name  \*fzk \)`; 
 	 do
 	   ${CHMOD} +w ${i};
-	   ${PREFIX}/bin/Wnn4/wnntouch ${i};
+	   ${PREFIX}/bin/wnntouch ${i};
 	 done;
 	;;
 esac
