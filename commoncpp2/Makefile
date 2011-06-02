@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		commoncpp2-1.8.0
+DISTNAME=		commoncpp2-1.8.1
 PKGREVISION=		1
 CATEGORIES=		devel
 MASTER_SITES=		${MASTER_SITE_GNU:=commonc++/}
