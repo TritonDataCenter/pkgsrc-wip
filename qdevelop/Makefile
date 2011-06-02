@@ -7,7 +7,7 @@ CATEGORIES=	devel
 MASTER_SITES=	http://biord-software.org/downloads/
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
-HOMEPAGE=	http://biord-software.org/
+HOMEPAGE=	http://biord-software.org/qdevelop/
 COMMENT=	Development environment entirely dedicated to Qt4
 LICENSE=	gnu-gpl-v2
 
