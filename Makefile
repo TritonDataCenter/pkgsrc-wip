@@ -623,6 +623,7 @@ SUBDIR+=	gaphor
 SUBDIR+=	gappa
 SUBDIR+=	gauche-dbd-pg
 SUBDIR+=	gauche-fastcgi
+SUBDIR+=	gbase
 SUBDIR+=	gcap
 SUBDIR+=	gcc42
 SUBDIR+=	gcc43
