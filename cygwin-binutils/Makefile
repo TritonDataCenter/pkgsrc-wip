@@ -6,8 +6,9 @@ PKGNAME=	cygwin-${DISTNAME:S/-src//}
 CATEGORIES=	cross
 MASTER_SITES=	${MASTER_SITE_GNU:=binutils/}
 EXTRACT_SUFX=	.tar.bz2
+LICENSE=	gnu-gpl-v2
 
-#PATCH_SITES=    ${MASTER_SITE_GNU:=binutils/}      
+#PATCH_SITES=    ${MASTER_SITE_GNU:=binutils/}
 #PATCHFILES=     binutils-2.20-2.20.1-patch.gz
 #PATCH_DIST_STRIP=       -p1
 
