@@ -6,7 +6,7 @@ PKGNAME=		grub2-${BZR_REVISION}.${TODAY}
 CATEGORIES=		sysutils
 
 MAINTAINER=		gsutre@NetBSD.org
-HOMEPAGE=		http://www.gnu.org/software/grub/grub-2.en.html
+HOMEPAGE=		http://www.gnu.org/software/grub/
 COMMENT=		GRand Unified Bootloader, version 2 (development snapshot)
 LICENSE=		gnu-gpl-v3
 
