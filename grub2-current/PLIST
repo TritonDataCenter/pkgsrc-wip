@@ -13,7 +13,6 @@ bin/grub2-mkrescue
 bin/grub2-script-check
 info/grub2-dev.info
 info/grub2.info
-lib/charset.alias
 lib/grub2/grub-mkconfig_lib
 lib/grub2/${GRUB_TARGET_CPU}-${GRUB_PLATFORM}/acpi.mod
 lib/grub2/${GRUB_TARGET_CPU}-${GRUB_PLATFORM}/affs.mod
