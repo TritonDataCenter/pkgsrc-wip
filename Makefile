@@ -280,7 +280,6 @@ SUBDIR+=	cgterm
 SUBDIR+=	chbg
 SUBDIR+=	chemical-mime-data
 SUBDIR+=	chems
-SUBDIR+=	cherokee
 SUBDIR+=	chicken
 SUBDIR+=	chora
 SUBDIR+=	chromium
