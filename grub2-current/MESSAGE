@@ -1,9 +1,6 @@
 ===========================================================================
 $NetBSD$
 
-GRUB 2 is in development stage and is still neither complete nor well
-tested.  Anyways, just installing this package should do no harm.
-
 To actually install GRUB 2 to disk, use grub2-install utility.  Do not do
 it unless you understand what it actually does, for it may lead to loss of
 data when used improperly.
