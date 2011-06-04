@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	vidalia-0.2.9
+DISTNAME=	vidalia-0.2.12
 PKGREVISION=	1
 CATEGORIES=	net security
 MASTER_SITES=	https://www.torproject.org/vidalia/dist/
