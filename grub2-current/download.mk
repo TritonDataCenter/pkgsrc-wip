@@ -1,6 +1,11 @@
 # $NetBSD$
 #
 
+#
+# Helper file to access the bazaar repository, download translations and font
+# files, and generate the configure script with autogen.sh.
+#
+
 USE_TOOLS+=		ftp
 BUILD_DEPENDS+=		bzr>=1.0:../../devel/bzr
 BUILD_DEPENDS+=		rsync>=3.0:../../net/rsync
