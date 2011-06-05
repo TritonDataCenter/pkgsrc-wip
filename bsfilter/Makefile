@@ -8,6 +8,7 @@ EXTRACT_SUFX=	.tgz
 MAINTAINER=	ura@jp.netbsd.org
 HOMEPAGE=	http://sourceforge.jp/projects/bsfilter/
 COMMENT=	Bayesian spam filter written in Ruby
+LICENSE=	gnu-gpl-v2
 
 DEPENDS+=	${RUBY_PKGPREFIX}-gdbm>=${RUBY_VERSION}:../../databases/ruby-gdbm
 
