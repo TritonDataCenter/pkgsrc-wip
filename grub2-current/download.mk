@@ -27,7 +27,7 @@ post-extract: do-extra-downloads
 do-extra-downloads:
 	cd ${WRKSRC} && rsync -Lrtvz translationproject.org::tp/latest/grub/ po
 	cd ${WRKSRC}/po && (ls *.po | sed -e 's,\.po$$,,') > LINGUAS
-.if !empty(PKG_OPTIONS:Mgrub-mkfont)
+.if !empty(PKG_OPTIONS:Mfreetype)
 	cd ${WRKSRC} && ftp -o unifont.${UNIFONT_EXT} ${UNIFONT_URL}
 .endif
 
