@@ -1,6 +1,6 @@
 # $NetBSD$
 
-VER=			2011-06-04
+VER=			2011-06-05
 DISTNAME=		libreoffice-${VER}
 PKGNAME=		libreoffice-${VER:S/-//g}
 CATEGORIES=		misc
