@@ -123,6 +123,11 @@ SUBST_FILES.libpath=	set_soenv.in
 SUBST_SED.libpath=		-e 's,@LIBPATH@,${LIBPATH},g'
 SUBST_MESSAGE.libpath=	Fixing library path for dmake scripts
 
+PLIST_VARS+=	adabas
+.if ${OPSYS} == "NetBSD"
+PLIST.adabas=	yes
+.endif
+
 LO_PROGRAMS=	sbase scalc sdraw simpress smath soffice swriter
 
 post-extract:
