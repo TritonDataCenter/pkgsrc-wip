@@ -15,7 +15,7 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 .include "options.mk"
 
 CONFLICTS+=		tclman80-[0-9]*
-CONFLICTS+=             tcl86-* tcl-[0-9]*
+CONFLICTS+=		tcl86-* tcl-[0-9]*
 
 WRKSRC=			${WRKDIR}/tcl${TCL_VERSION}
 
