@@ -2749,6 +2749,7 @@ SUBDIR+=	umurmur
 SUBDIR+=	undo-tree
 SUBDIR+=	unix2tcp
 SUBDIR+=	unmo3
+SUBDIR+=	unnethack
 SUBDIR+=	unrealtournament-server
 SUBDIR+=	ups-nut
 SUBDIR+=	uptimed
