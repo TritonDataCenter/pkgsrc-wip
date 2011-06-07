@@ -1,3 +1,5 @@
+# $NetBSD$
+
 PKG_OPTIONS_VAR=	PKG_OPTIONS.tcltk85
 PKG_SUPPORTED_OPTIONS=	threaded memdebug
 PKG_SUGGESTED_OPTIONS=	threaded
