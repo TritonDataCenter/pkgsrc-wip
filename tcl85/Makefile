@@ -1,14 +1,13 @@
 # $NetBSD$
-#
 
-DISTNAME=		tcl${TCL_PKGSRC_PATCHLEVEL}-src
-PKGNAME=		tcl-${TCL_PKGSRC_PATCHLEVEL}
-CATEGORIES=		lang
+DISTNAME=	tcl${TCL_PKGSRC_PATCHLEVEL}-src
+PKGNAME=	tcl-${TCL_PKGSRC_PATCHLEVEL}
+CATEGORIES=	lang
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=tcl/}
 
-MAINTAINER=		pkgsrc-users@NetBSD.org
-HOMEPAGE=		http://www.tcl.tk/
-COMMENT=		Tool Command Language, a dynamic language
+MAINTAINER=	pkgsrc-users@NetBSD.org
+HOMEPAGE=	http://www.tcl.tk/
+COMMENT=	Tool Command Language, a dynamic language
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
@@ -20,8 +19,8 @@ CONFLICTS+=             tcl86-* tcl-[0-9]*
 
 WRKSRC=			${WRKDIR}/tcl${TCL_PKGSRC_PATCHLEVEL}
 
-GNU_CONFIGURE=	yes
-CONFIGURE_DIRS=	unix
+GNU_CONFIGURE=		yes
+CONFIGURE_DIRS=		unix
 BUILD_DIRS=		${CONFIGURE_DIRS}
 
 CONFIGURE_ARGS+=	"--prefix=${PREFIX}"
