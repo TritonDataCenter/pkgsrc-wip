@@ -9,13 +9,12 @@ MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.tcl.tk/
 COMMENT=	Tool Command Language, a dynamic language
 
+CONFLICTS+=	tclman80-[0-9]*
+CONFLICTS+=	tcl86-* tcl-[0-9]*
+
 PKG_DESTDIR_SUPPORT=	user-destdir
 
 .include "../../wip/tcl85/Makefile.version"
-.include "options.mk"
-
-CONFLICTS+=		tclman80-[0-9]*
-CONFLICTS+=		tcl86-* tcl-[0-9]*
 
 WRKSRC=			${WRKDIR}/tcl${TCL_VERSION}
 
@@ -29,6 +28,7 @@ INSTALL_TARGET=	install install-private-headers
 # The test target gives better results when not run as root.
 TEST_TARGET=		test
 
+.include "options.mk"
 
 # This is needed for SGI and maybe sun (according to tcl developers)
 .if defined(ABI) && ${ABI} == "64"
