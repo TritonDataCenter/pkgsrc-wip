@@ -1395,6 +1395,7 @@ SUBDIR+=	mkcabal
 SUBDIR+=	mkdep
 SUBDIR+=	mksend
 SUBDIR+=	mlmmj
+SUBDIR+=	mlocate
 SUBDIR+=	mlton-svn
 SUBDIR+=	mmdb
 SUBDIR+=	mmm-mode
