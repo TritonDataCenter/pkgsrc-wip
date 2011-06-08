@@ -1,8 +1,8 @@
 # $NetBSD: Makefile,v 1.71 2010/03/21 21:58:23 pettai Exp $
 #
 
-DISTNAME=	nmap-5.30BETA1
-PKGNAME=	nmap-5.30b1
+DISTNAME=	nmap-5.52.IPv6.Beta2
+PKGNAME=	nmap-IPv6-5.52b2
 CATEGORIES=	net security
 MASTER_SITES=	http://nmap.org/dist/
 EXTRACT_SUFX=	.tar.bz2
@@ -17,6 +17,7 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 
 BUILDLINK_API_DEPENDS.libpcap=	libpcap>=1.0.0
 BUILDLINK_API_DEPENDS.libpcre=	libpcre>=7.6
+BUILDLINK_API_DEPENDS.openssl=	openssl>=0.9.8
 
 GNU_CONFIGURE=		yes
 
