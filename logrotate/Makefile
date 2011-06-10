@@ -35,6 +35,7 @@ SUBST_MESSAGE.confs=	Fixing configuration files.
 SUBST_FILES.confs=	${WRKSRC}/${EXAMPLES_DIR}/logrotate-default
 SUBST_FILES.confs+=	${WRKSRC}/${EXAMPLES_DIR}/logrotate.cron
 SUBST_VARS.confs=	PREFIX
+SUBST_VARS.confs+=	VARBASE
 
 SUBST_CLASSES+=		man
 SUBST_STAGE.man=	post-patch
