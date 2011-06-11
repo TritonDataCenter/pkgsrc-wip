@@ -1122,6 +1122,7 @@ SUBDIR+=	kdewebdev4
 SUBDIR+=	kdiff3
 SUBDIR+=	kgrab
 SUBDIR+=	kgraphviewer
+SUBDIR+=	kicad
 SUBDIR+=	kile
 SUBDIR+=	kino
 SUBDIR+=	kissme
