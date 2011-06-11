@@ -2014,6 +2014,7 @@ SUBDIR+=	py-calverter
 SUBDIR+=	py-captcha
 SUBDIR+=	py-cclib
 SUBDIR+=	py-ccuracy
+SUBDIR+=	py-cdb
 SUBDIR+=	py-cdecimal
 SUBDIR+=	py-chaco
 SUBDIR+=	py-chaintipy
