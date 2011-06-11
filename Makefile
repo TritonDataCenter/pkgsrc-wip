@@ -2383,6 +2383,7 @@ SUBDIR+=	qtcreator
 SUBDIR+=	qtre
 SUBDIR+=	quantlib
 SUBDIR+=	qucs
+SUBDIR+=	queequeg
 SUBDIR+=	quickfix
 SUBDIR+=	quickie
 SUBDIR+=	quickml
