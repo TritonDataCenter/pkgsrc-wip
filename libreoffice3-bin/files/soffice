@@ -2,7 +2,7 @@
 #
 #	$NetBSD: soffice,v 1.2 2010/03/02 22:57:03 bad Exp $
 #
-SOINST=@@PREFIX@@/opt/libreoffice
+SOINST=@@PREFIX@@/opt/libreoffice@@OO_BASEVER@@
 
 # make sure we can find `whoami` on solaris
 PATH=${PATH}:/usr/ucb
