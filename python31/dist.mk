@@ -1,6 +1,6 @@
 # $NetBSD$
 
-PY_DISTVERSION=	3.1.3
+PY_DISTVERSION=	3.1.4
 DISTNAME=	Python-${PY_DISTVERSION}
 EXTRACT_SUFX=	.tar.bz2
 DISTINFO_FILE=	${.CURDIR}/../../wip/python31/distinfo
