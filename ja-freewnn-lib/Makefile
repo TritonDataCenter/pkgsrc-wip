@@ -1,6 +1,6 @@
 # $NetBSD$
 
-PKGNAME=	ja-freewnn-lib-1.1.1_pl22
+PKGNAME=	ja-freewnn-lib-1.11alpha22
 
 CONFIGURE_ARGS+=	--disable-server
 CONFIGURE_ARGS+=	--disable-client
