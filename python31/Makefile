@@ -9,6 +9,8 @@ MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.python.org/
 COMMENT=	Interpreted, interactive, object-oriented programming language
 
+LICENSE=	python-software-foundation
+
 PKG_DESTDIR_SUPPORT=	user-destdir
 
 CONFLICTS+=	python-[0-9]*
