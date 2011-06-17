@@ -2368,7 +2368,6 @@ SUBDIR+=	pypod
 SUBDIR+=	pysite
 SUBDIR+=	pysvn
 SUBDIR+=	pythia6
-SUBDIR+=	python31
 SUBDIR+=	pythoncad
 SUBDIR+=	pywm
 SUBDIR+=	pyzor
