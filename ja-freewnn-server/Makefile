@@ -33,5 +33,8 @@ SPECIAL_PERMS+=	bin/Wnn4/cserver ${FREEWNN_USER} ${FREEWNN_GROUP} 4711
 SPECIAL_PERMS+=	bin/Wnn4/tserver ${FREEWNN_USER} ${FREEWNN_GROUP} 4711
 SPECIAL_PERMS+=	bin/Wnn4/kserver ${FREEWNN_USER} ${FREEWNN_GROUP} 4711
 
+OWN_DIRS+=		${IMDICTDIR}/wnn/ja_JP
+OWN_DIRS_PERMS+=	${IMDICTDIR}/wnn/ja_JP/usr ${FREEWNN_USER} ${FREEWNN_GROUP} ${PKGDIRMODE}
+
 .include "../../wip/ja-freewnn-lib/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

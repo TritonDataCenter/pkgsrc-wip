@@ -25,3 +25,11 @@ PATCHDIR=       ${.CURDIR}/../../wip/ja-freewnn-lib/patches
 # will be taka care with pkg INSTALL script
 INSTALL_MAKE_FLAGS+=	WNNTOUCH=${TRUE}
 INSTALL_MAKE_FLAGS+=	WNNOWNER=${ROOT_USER}
+
+WNNDICTDIR=		${IMDICTDIR}/wnn
+FILES_SUBST=		WNNDICTDIR=${WNNDICTDIR}
+
+SUBST_CLASSES+=		imdictdir
+SUBST_STAGE.imdictdir=	post-extract
+SUBST_SED.imdictdir=	-e 's|@LIBDIR/@LANG/dic|${WNNDICTDIR}/@LANG|'
+SUBST_FILES.imdictdir=	Wnn/jd/jserverrc
