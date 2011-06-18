@@ -2,7 +2,7 @@
 
 .include "../../wip/ja-freewnn-lib/Makefile.common"
 
-PKGNAME=	ja-freewnn-server-1.11alpha22
+PKGNAME=	ja-FreeWnn-server-1.11alpha22
 
 COMMENT+=	(Japanese server)
 
