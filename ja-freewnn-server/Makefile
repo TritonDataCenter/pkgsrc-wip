@@ -21,10 +21,6 @@ INSTALL_TARGET=	install install.man
 
 RCD_SCRIPTS=    ja_freewnn
 
-FILESDIR=       ${.CURDIR}/../ja-freewnn-lib/files
-DISTINFO_FILE=  ${.CURDIR}/../ja-freewnn-lib/distinfo
-PATCHDIR=       ${.CURDIR}/../ja-freewnn-lib/patches
-
 BUILD_DEFS=	FREEWNN_USER FREEWNN_GROUP
 
 FREEWNN_USER=	wnn
