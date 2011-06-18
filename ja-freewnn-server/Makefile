@@ -4,6 +4,8 @@
 
 PKGNAME=	ja-freewnn-server-1.11alpha22
 
+COMMENT+=	(Japanese server)
+
 CONFIGURE_ARGS+=	--disable-libraries
 # Following two lines gives equivalent to previous 1.10 version
 CONFIGURE_ARGS+=	--disable-cWnn

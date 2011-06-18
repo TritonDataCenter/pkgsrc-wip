@@ -4,6 +4,8 @@
 
 PKGNAME=	ja-freewnn-lib-1.11alpha22
 
+COMMENT+=	(Japanese client library)
+
 CONFIGURE_ARGS+=	--disable-server
 CONFIGURE_ARGS+=	--disable-client
 CONFIGURE_ARGS+=	--disable-cWnn
