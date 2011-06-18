@@ -10,6 +10,6 @@ CONFIGURE_ARGS+=	--disable-cWnn
 CONFIGURE_ARGS+=	--disable-kWnn
 
 
-INSTALL_TARGET+=	install.man
+INSTALL_TARGET=		install install.man
 
 .include "../../mk/bsd.pkg.mk"
