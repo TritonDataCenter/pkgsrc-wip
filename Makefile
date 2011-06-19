@@ -311,6 +311,7 @@ SUBDIR+=	clips
 SUBDIR+=	clisp
 SUBDIR+=	cloc
 SUBDIR+=	clockspeed
+SUBDIR+=	cloog
 SUBDIR+=	clustalx
 SUBDIR+=	clustershell
 SUBDIR+=	cmetrics
