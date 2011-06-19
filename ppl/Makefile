@@ -24,7 +24,7 @@ CONFIGURE_ARGS+=	--with-gmp-prefix=${PREFIX}
 #CONFIGURE_ARGS+=	--enable-interfaces=c,cxx
 
 do-build:
-	cd ${WRKSRC}; ${SETENV} ${MAKE_ENV} ${GMAKE}
+	set -e; cd ${WRKSRC}; ${SETENV} ${MAKE_ENV} ${GMAKE}
 
 # url2pkg-marker (please do not remove this line.)
 .include "../../devel/gmp/buildlink3.mk"
