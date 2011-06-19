@@ -1404,6 +1404,7 @@ SUBDIR+=	mnogosearch
 SUBDIR+=	modplugplay
 SUBDIR+=	modular-xorg-xephyr
 SUBDIR+=	moe
+SUBDIR+=	moeclock
 SUBDIR+=	molmol
 SUBDIR+=	monajat
 SUBDIR+=	mongodb
