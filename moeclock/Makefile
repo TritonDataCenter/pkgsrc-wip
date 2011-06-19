@@ -8,7 +8,7 @@ MASTER_SITES=	http://moeclock.googlecode.com/files/
 
 MAINTAINER=	ryoon@NetBSD.org
 HOMEPAGE=	http://code.google.com/p/moeclock/
-COMMENT=	TODO: Short description of the package
+COMMENT=	Wallpaper changing clock
 LICENSE=	gnu-gpl-v3 #AND cc-by-v3.0
 # The time signal voice must not be modified and distributed separately.
 
