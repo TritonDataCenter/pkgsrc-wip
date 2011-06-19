@@ -1,7 +1,7 @@
 # $NetBSD$
 
 PKG_OPTIONS_VAR=	PKG_OPTIONS.quickml
-PKG_SUPPORTED_OPTIONS+= quickml-limit analog
+PKG_SUPPORTED_OPTIONS+= quickml-analog quickml-limit
 
 .include "../../mk/bsd.options.mk"
 
@@ -16,7 +16,7 @@ PATCH_DIST_STRIP.${LIMIT_PATCH}=	-p1
 .endif
 
 
-.if !empty(PKG_OPTIONS:Manalog)
+.if !empty(PKG_OPTIONS:Mquickml-analog)
 USE_TOOLS+=	gs:run
 DEPENDS+=	ImageMagick-[0-9]*:../../graphics/ImageMagick
 DEPENDS+=	gnuplot>=3.7:../../graphics/gnuplot
