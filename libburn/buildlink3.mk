@@ -5,7 +5,7 @@ BUILDLINK_TREE+=	libburn
 .if !defined(LIBBURN_BUILDLINK3_MK)
 LIBBURN_BUILDLINK3_MK:=
 
-BUILDLINK_API_DEPENDS.libburn+=	libburn>=1.0.4.00
+BUILDLINK_API_DEPENDS.libburn+=	libburn>=1.1.0
 BUILDLINK_PKGSRCDIR.libburn?=	../../wip/libburn
 .endif	# LIBBURN_BUILDLINK3_MK
 
