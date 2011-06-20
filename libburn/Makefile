@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	libburn-1.0.6.pl00
+DISTNAME=	libburn-1.1.0.pl01
 PKGNAME=	${DISTNAME:S/pl//}
 CATEGORIES=	sysutils
 MASTER_SITES=	http://files.libburnia-project.org/releases/
@@ -13,7 +13,7 @@ LICENSE=	gnu-gpl-v2
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
-WRKSRC=		${WRKDIR}/${DISTNAME:S/.pl00//}
+WRKSRC=		${WRKDIR}/${DISTNAME:S/.pl01//}
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_TOOLS+=	pkg-config
