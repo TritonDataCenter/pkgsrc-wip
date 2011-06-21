@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	bsdbuild-2.8
+DISTNAME=	bsdbuild-2.9
 CATEGORIES=	devel
 MASTER_SITES=	http://stable.hypertriton.com/bsdbuild/
 
