@@ -2749,6 +2749,7 @@ SUBDIR+=	uade
 SUBDIR+=	ubit
 SUBDIR+=	ubuntu-font-ttf
 SUBDIR+=	uclibc
+SUBDIR+=	ucommon
 SUBDIR+=	udhcp
 SUBDIR+=	udp-ping
 SUBDIR+=	uebimiau
