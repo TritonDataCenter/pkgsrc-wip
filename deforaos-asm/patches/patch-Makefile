@@ -1,0 +1,12 @@
+$NetBSD$
+
+--- Makefile.orig	2011-06-16 17:43:38.000000000 +0000
++++ Makefile
+@@ -1,6 +1,6 @@
+ PACKAGE	= asm
+ VERSION	= 0.2.0
+-SUBDIRS	= data include src test
++SUBDIRS	= data include src
+ RM	= rm -f
+ LN	= ln -f
+ TAR	= tar -czvf
