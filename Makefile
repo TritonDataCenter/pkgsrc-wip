@@ -1144,6 +1144,7 @@ SUBDIR+=	kyotocabinet
 SUBDIR+=	kyototycoon
 SUBDIR+=	kyra
 SUBDIR+=	kyra2
+SUBDIR+=	kyua-cli
 SUBDIR+=	l2tpd
 SUBDIR+=	labyrinth
 SUBDIR+=	lasem
