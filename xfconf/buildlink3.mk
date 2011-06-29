@@ -7,7 +7,7 @@ XFCONF_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.xfconf+=	xfconf>=4.6.0
 BUILDLINK_ABI_DEPENDS.xfconf?=	xfconf>=4.6.1nb5
-BUILDLINK_PKGSRCDIR.xfconf?=	../../devel/xfconf
+BUILDLINK_PKGSRCDIR.xfconf?=	../../wip/xfconf
 
 .include "../../devel/glib2/buildlink3.mk"
 .include "../../sysutils/dbus-glib/buildlink3.mk"
