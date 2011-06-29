@@ -17,6 +17,9 @@ GNU_CONFIGURE=	yes
 USE_LANGUAGES=	c
 USE_LIBTOOL=	yes
 
+GENERATE_PLIST+= cd ${DESTDIR}${PREFIX} && ${FIND} . \( -type f -o -type l \) \
+-print  | ${SORT} ; 
+
 
 .include "../../math/mpfr/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
