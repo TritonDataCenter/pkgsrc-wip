@@ -7,7 +7,7 @@ LIBXFCE4UTIL_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.libxfce4util+=	libxfce4util>=4.6.0
 BUILDLINK_ABI_DEPENDS.libxfce4util?=	libxfce4util>=4.6.1nb4
-BUILDLINK_PKGSRCDIR.libxfce4util?=	../../x11/libxfce4util
+BUILDLINK_PKGSRCDIR.libxfce4util?=	../../wip/libxfce4util
 
 .include "../../devel/glib2/buildlink3.mk"
 .endif # LIBXFCE4UTIL_BUILDLINK3_MK

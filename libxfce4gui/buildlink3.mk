@@ -7,12 +7,12 @@ LIBXFCE4GUI_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.libxfce4gui+=	libxfce4gui>=4.6.0
 BUILDLINK_ABI_DEPENDS.libxfce4gui?=	libxfce4gui>=4.6.1nb5
-BUILDLINK_PKGSRCDIR.libxfce4gui?=	../../x11/libxfce4gui
+BUILDLINK_PKGSRCDIR.libxfce4gui?=	../../wip/libxfce4gui
 
 .include "../../devel/glib2/buildlink3.mk"
 #.include "../../devel/xfconf/buildlink3.mk"
 .include "../../x11/gtk2/buildlink3.mk"
-.include "../../x11/libxfce4util/buildlink3.mk"
+.include "../../wip/libxfce4util/buildlink3.mk"
 .include "../../x11/startup-notification/buildlink3.mk"
 .endif # LIBXFCE4GUI_BUILDLINK3_MK
 
