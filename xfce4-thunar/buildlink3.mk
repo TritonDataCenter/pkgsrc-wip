@@ -7,7 +7,7 @@ XFCE4_THUNAR_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.xfce4-thunar+=	xfce4-thunar>=1.0.0
 BUILDLINK_ABI_DEPENDS.xfce4-thunar?=	xfce4-thunar>=1.0.1nb6
-BUILDLINK_PKGSRCDIR.xfce4-thunar?=	../../sysutils/xfce4-thunar
+BUILDLINK_PKGSRCDIR.xfce4-thunar?=	../../wip/xfce4-thunar
 
 pkgbase := xfce4-thunar
 .include "../../mk/pkg-build-options.mk"
