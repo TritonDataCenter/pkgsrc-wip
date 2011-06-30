@@ -10,6 +10,7 @@ COMMENT=	Xfce
 
 .include "../../wip/xfce4-dev-tools/buildlink3.mk"
 .include "../../wip/libxfce4util/buildlink3.mk"
+.include "../../wip/xfconf/buildlink3.mk"
 .include "../../wip/libxfce4ui/buildlink3.mk"
 .include "../../wip/libxfce4gui/buildlink3.mk"
 .include "../../wip/garcon/buildlink3.mk"
