@@ -27,7 +27,7 @@ MAKE_DIRS+=		${PKG_SYSCONFDIR}/Thunar
 
 CONF_FILES=	${EGDIR}/uca.xml ${PKG_SYSCONFDIR}/Thunar/uca.xml
 
-#PKG_FAIL_REASON+="It still crashes, might be an exo problem"
+PKG_FAIL_REASON+="It still crashes, might be an exo problem"
 
 #.include "options.mk"
 
