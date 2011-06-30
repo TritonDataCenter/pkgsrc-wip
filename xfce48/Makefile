@@ -19,6 +19,7 @@ COMMENT=	Xfce
 .include "../../wip/xfce4-settings/buildlink3.mk"
 .include "../../wip/xfce4-session/buildlink3.mk"
 .include "../../wip/xfce4-wm/buildlink3.mk"
+.include "../../wip/xfce4-desktop/buildlink3.mk"
 .include "../../wip/xfce4-thunar/buildlink3.mk"
 .include "../../wip/xfce4-quicklauncher-plugin/buildlink3.mk"
 .include "../../wip/xfce4-fsguard-plugin/buildlink3.mk"
