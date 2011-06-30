@@ -8,6 +8,16 @@ DISTNAME=	xfce4-${XFCE4_VERSION}
 CATEGORIES=	meta-pkgs
 COMMENT=	Xfce
 
+.include "../../wip/xfce4-dev-tools/buildlink3.mk"
+.include "../../wip/libxfce4util/buildlink3.mk"
+.include "../../wip/libxfce4ui/buildlink3.mk"
+.include "../../wip/libxfce4gui/buildlink3.mk"
+.include "../../wip/garcon/buildlink3.mk"
+.include "../../wip/xfce4-exo/buildlink3.mk"
+.include "../../wip/xfce4-panel/buildlink3.mk"
+.include "../../wip/xfce4-thunar/buildlink3.mk"
+.include "../../wip/xfce4-quicklauncher-plugin/buildlink3.mk"
+
 #.include "../../audio/xfce4-mixer/buildlink3.mk"
 #.include "../../editors/xfce4-mousepad/buildlink3.mk"
 #.include "../../graphics/gnome-icon-theme/buildlink3.mk"
