@@ -94,11 +94,11 @@ post-install:
 	 ${RM}  ${DESTDIR}${PREFIX}/bin/$$i-destdir ;\
 	done
 # Disable warning as 'executable bit is set on non-executable file' etc
-	${FIND} ${DESTDIR}${PREFIX}/share/fvwm2/themes -type f     -exec ${CHMOD} 644 '{}' \;
-	${FIND} ${DESTDIR}${PREFIX}/share/fvwm2/images -name \*xpm -exec ${CHMOD} 644 '{}' \;
-	${FIND} ${DESTDIR}${PREFIX}/share/fvwm2/images -type d     -exec ${CHMOD} 755 '{}' \;
-	${FIND} ${DESTDIR}${PREFIX}/share/fvwm2/sounds -name \*au  -exec ${CHMOD} 644 '{}' \;
-	${FIND} ${DESTDIR}${PREFIX}/share/fvwm2/sounds -type d     -exec ${CHMOD} 755 '{}' \;
+	${FIND} ${DESTDIR}${PREFIX}/share/fvwm2/themes -type f     -exec ${CHMOD} -x     '{}' \;
+	${FIND} ${DESTDIR}${PREFIX}/share/fvwm2/images -name \*xpm -exec ${CHMOD} -x,g-w '{}' \;
+	${FIND} ${DESTDIR}${PREFIX}/share/fvwm2/images -type d     -exec ${CHMOD}    g-w '{}' \;
+	${FIND} ${DESTDIR}${PREFIX}/share/fvwm2/sounds -name \*au  -exec ${CHMOD} -x,g-w '{}' \;
+	${FIND} ${DESTDIR}${PREFIX}/share/fvwm2/sounds -type d     -exec ${CHMOD}    g-w '{}' \;
 
 DEPENDS+= ImageMagick-[0-9]*:../../graphics/ImageMagick
 .include "../../mk/bsd.pkg.mk"
