@@ -98,6 +98,7 @@ post-install:
 	${FIND} ${DESTDIR}${PREFIX}/share/fvwm2/images -name \*xpm -exec ${CHMOD} 644 '{}' \;
 	${FIND} ${DESTDIR}${PREFIX}/share/fvwm2/images -type d     -exec ${CHMOD} 755 '{}' \;
 	${FIND} ${DESTDIR}${PREFIX}/share/fvwm2/sounds -name \*au  -exec ${CHMOD} 644 '{}' \;
+	${FIND} ${DESTDIR}${PREFIX}/share/fvwm2/sounds -type d     -exec ${CHMOD} 755 '{}' \;
 
 DEPENDS+= ImageMagick-[0-9]*:../../graphics/ImageMagick
 .include "../../mk/bsd.pkg.mk"
