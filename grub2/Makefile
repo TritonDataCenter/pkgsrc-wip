@@ -5,6 +5,7 @@ DISTNAME=		grub-1.99
 PKGNAME=		grub2-1.99
 CATEGORIES=		sysutils
 MASTER_SITES=		ftp://ftp.gnu.org/gnu/grub/
+DISTFILES=		${DISTNAME}${EXTRACT_SUFX}
 
 MAINTAINER=		gsutre@NetBSD.org
 HOMEPAGE=		http://www.gnu.org/software/grub/
