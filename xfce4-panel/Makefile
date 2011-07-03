@@ -33,7 +33,7 @@ MAKE_DIRS+=		${PKG_SYSCONFDIR}/xfce4/panel
 
 .include "../../devel/libwnck/buildlink3.mk"
 .include "../../graphics/cairo/buildlink3.mk"
-.include "../../graphics/hicolor-icon-theme/buildlink3.mk"
+.include "../../graphics/gnome-icon-theme/buildlink3.mk"
 .include "../../sysutils/desktop-file-utils/desktopdb.mk"
 #.include "../../textproc/libxml2/buildlink3.mk"
 .include "../../wip/garcon/buildlink3.mk"
