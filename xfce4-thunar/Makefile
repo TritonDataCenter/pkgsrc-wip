@@ -30,8 +30,7 @@ CONF_FILES=	${EGDIR}/uca.xml ${PKG_SYSCONFDIR}/Thunar/uca.xml
 #.include "options.mk"
 
 DEPENDS+=	gio-fam:../../sysutils/gio-fam
-# Broken. Needs libsoup24 with gnome option enabled to build gvfs
-# DEPENDS+=	gvfs:../../sysutils/gvfs
+DEPENDS+=	gvfs:../../sysutils/gvfs
 
 #.include "../../devel/GConf/buildlink3.mk"
 #.include "../../devel/gettext-lib/buildlink3.mk"
