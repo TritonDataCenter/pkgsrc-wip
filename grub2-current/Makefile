@@ -35,7 +35,7 @@ TODAY!=			${DATE} -u +'%Y%m%d'
 #
 # Requirements: GCC >= 4.1.3, Flex >= 2.5.35 and help2man.
 #
-GCC_REQD=		4.1.3
+GCC_REQD=		4.3
 BUILD_DEPENDS+=		flex>=2.5.35:../../devel/flex
 BUILD_DEPENDS+=		help2man>=1.36:../../converters/help2man
 
