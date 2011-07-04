@@ -5,7 +5,7 @@ DISTNAME=	plink
 EGG_NAME=	${DISTNAME}-${VERSION}
 PKGNAME=	${PYPKGPREFIX}-${EGG_NAME}
 CATEGORIES=	graphics python
-MASTER_SITES=	http://math.uic.edu/~t3m/plink/
+MASTER_SITES=	http://math.uic.edu/~t3m/
 
 MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	http://math.uic.edu/~t3m/plink/
