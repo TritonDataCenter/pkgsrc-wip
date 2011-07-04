@@ -31,8 +31,8 @@ TEST_TARGET=		check
 
 PKGNAME=		maxima-5.24.99
 
-CVS_REPOSITORIES=	maxima
-CVS_ROOT.maxima=	:pserver:anonymous:@maxima.cvs.sourceforge.net:/cvsroot/maxima
+GIT_REPOSITORIES=	maxima
+GIT_REPO.maxima=	git://maxima.git.sourceforge.net/gitroot/maxima/maxima
 
 WRKSRC=		${WRKDIR}/maxima
 
@@ -50,7 +50,7 @@ ALL_ENV+=	PYTHONBIN=$(PYTHONBIN:Q)
 pre-configure:
 	cd ${WRKSRC} && ./bootstrap
 
-.include "../../wip/mk/cvs-package.mk"
+.include "../../wip/mk/git-package.mk"
 
 .include "../../lang/python/pyversion.mk"
 .include "../../mk/bsd.pkg.mk"
