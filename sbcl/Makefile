@@ -92,12 +92,12 @@ PLIST_SUBST+=	SUFX64=
 .endif
 
 
-CVS_REPOSITORIES=	sbcl
-CVS_ROOT.sbcl=		:pserver:anonymous:@sbcl.cvs.sourceforge.net:/cvsroot/sbcl
+GIT_REPOSITORIES=	sbcl
+GIT_REPO.sbcl=		git://sbcl.git.sourceforge.net/gitroot/sbcl/sbcl.git
 WRKSRC=			${WRKDIR}/sbcl
 DISTNAME=
 PKGNAME=		sbcl-1.0.99
 
-.include "../mk/cvs-package.mk"
+.include "../mk/git-package.mk"
 
 .include "../../mk/bsd.pkg.mk"
