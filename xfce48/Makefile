@@ -30,6 +30,7 @@ COMMENT=	Xfce
 
 # Might be added to the xfce4-extras
 .include "../../wip/ristretto/buildlink3.mk"
+.include "../../wip/xfce4-wm-themes/buildlink3.mk"
 
 # Old links
 #   kept for reference
