@@ -12,7 +12,7 @@ MASTER_SITES=	http://archive.xfce.org/src/thunar-plugins/thunar-archive-plugin/0
 EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	gls@NetBSD.org
-HOMEPAGE=	http://archive.xfce.org/src/thunar-plugins/thunar-archive-plugin/0.3/
+HOMEPAGE=	http://goodies.xfce.org/projects/thunar-plugins/thunar-archive-plugin/
 COMMENT=	Thunar archive plugin
 
 DEPENDS=	file-roller:../../archivers/file-roller
