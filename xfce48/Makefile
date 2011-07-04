@@ -26,6 +26,7 @@ COMMENT=	Xfce
 .include "../../wip/xfce4-terminal/buildlink3.mk"
 .include "../../wip/xfce4-quicklauncher-plugin/buildlink3.mk"
 .include "../../wip/xfce4-fsguard-plugin/buildlink3.mk"
+.include "../../wip/xfce4-mousepad/buildlink3.mk"
 
 # Might be added to the xfce4-extras
 .include "../../wip/ristretto/buildlink3.mk"
