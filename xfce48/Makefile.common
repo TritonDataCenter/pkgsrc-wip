@@ -1,6 +1,8 @@
 # $NetBSD: Makefile.common,v 1.43 2009/09/16 02:25:34 reed Exp $
 
 # used by audio/xfce4-mixer/Makefile
+# used by wip/xfce4-thunar-archive/Makefile
+# used by archivers/xfce4-thunar-archive/Makefile
 # used by devel/xfce4-dev-tools/Makefile
 # used by devel/xfconf/Makefile
 # used by editors/xfce4-mousepad/Makefile
