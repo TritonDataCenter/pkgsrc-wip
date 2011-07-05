@@ -15,6 +15,7 @@
 # used by wm/xfce4-wm-themes/Makefile
 # used by wm/xfce4-wm/Makefile
 # used by wip/xfce4-thunar-media-tags/Makefile
+# used by wip/xfce4-thunar-vcs/Makefile
 # used by x11/xfce4-desktop/Makefile
 # used by x11/xfce4-exo/Makefile
 # used by x11/xfce4-gtk2-engine/Makefile
