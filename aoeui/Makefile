@@ -13,6 +13,8 @@ LICENSE=	gnu-gpl-v2
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
+USE_TOOLS+=	m4
+
 BUILD_TARGET= default
 
 .include "../../mk/bsd.pkg.mk"
