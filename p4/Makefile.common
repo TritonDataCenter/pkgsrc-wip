@@ -16,7 +16,7 @@ BUILD_DIRS=	# empty
 WRKSRC=		${WRKDIR}
 DIST_SUBDIR=	perforce-${P4_VERS}
 
-LICENSE=	# p4
+LICENSE=	perforce-license
 
 .if defined(P4BINONLY)
 
@@ -24,8 +24,6 @@ DIST_SUBDIR=	perforce-${P4_VERS}/${P4ARCH}
 MASTER_SITES=	ftp://ftp.perforce.com/pub/perforce/r10.2/bin.${P4ARCH}/
 DISTFILES=	${DISTNAME}
 EXTRACT_ONLY=	# none
-
-_STRIPFLAG_INSTALL=	# none
 
 EMUL_PLATFORMS+=	darwin-i386 darwin-x86_64 darwin-powerpc
 EMUL_PLATFORMS+=	linux-i386 linux-x86_64
