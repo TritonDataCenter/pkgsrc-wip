@@ -1603,6 +1603,7 @@ SUBDIR+=	oxygen-icons
 SUBDIR+=	ozymandns
 SUBDIR+=	p2kmoto
 SUBDIR+=	p3nfs
+SUBDIR+=	p4
 SUBDIR+=	p5-AI-NeuralNet-Simple
 SUBDIR+=	p5-AI-Prolog
 SUBDIR+=	p5-Aceperl
