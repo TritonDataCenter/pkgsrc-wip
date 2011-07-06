@@ -2,7 +2,7 @@ $NetBSD$
 
 --- setup.py.orig	2010-10-15 16:15:41.000000000 +0000
 +++ setup.py
-@@ -245,6 +245,10 @@ class PlatformInfo:
+@@ -245,6 +245,10 @@
              release += unameOut[2][2]
  
          platform = self.architecture(unameOut[4])
