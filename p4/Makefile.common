@@ -4,6 +4,9 @@
 # used by devel/p4-docs/Makefile
 # used by devel/p4d/Makefile
 # used by devel/p4web/Makefile
+# used by wip/p4/Makefile
+# used by wip/p4api/Makefile
+# used by wip/py-p4/Makefile
 
 P4_VER=		2010.2
 P4_VER_PL=	295040
