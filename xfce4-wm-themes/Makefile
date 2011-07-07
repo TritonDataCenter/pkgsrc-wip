@@ -5,6 +5,7 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 .include "../../wip/xfce48/Makefile.common"
 
 THEMES_VERSION=	4.6.0
+
 DISTNAME=	xfwm4-themes-${THEMES_VERSION}
 PKGNAME=	xfce4-wm-themes-${THEMES_VERSION}
 PKGREVISION=	5
