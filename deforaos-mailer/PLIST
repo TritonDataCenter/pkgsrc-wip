@@ -11,6 +11,12 @@ lib/Mailer/account/imap4.so
 lib/Mailer/account/mbox.so
 lib/Mailer/account/pop3.so
 share/applications/mailer.desktop
+share/icons/hicolor/16x16/apps/mailer-accounts.png
+share/icons/hicolor/16x16/apps/mailer-drafts.png
+share/icons/hicolor/16x16/apps/mailer-inbox.png
+share/icons/hicolor/16x16/apps/mailer-outbox.png
+share/icons/hicolor/16x16/apps/mailer-sent.png
+share/icons/hicolor/16x16/apps/mailer.png
 share/icons/hicolor/24x24/apps/mailer-accounts.png
 share/icons/hicolor/24x24/apps/mailer-drafts.png
 share/icons/hicolor/24x24/apps/mailer-inbox.png
