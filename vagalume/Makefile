@@ -1,10 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	vagalume_${VERSION}.orig
-PKGNAME=	vagalume-${VERSION}
-VERSION=	0.7.1
-PKGREVISION=	2
+DISTNAME=	vagalume-0.8.5
 CATEGORIES=	audio net
 MASTER_SITES=	http://vagalume.igalia.com/files/source/
 
@@ -15,10 +12,9 @@ LICENSE=	gnu-gpl-v3
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
-WRKSRC=		${WRKDIR}/vagalume-${VERSION}.orig
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
-USE_TOOLS+=	gmake msgfmt pkg-config
+USE_TOOLS+=	gmake intltool msgfmt pkg-config
 
 BUILDLINK_API_DEPENDS.libnotify+=	libnotify>=0.4.1
 
