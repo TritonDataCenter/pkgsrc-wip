@@ -37,7 +37,7 @@ DEPENDS+=	gvfs:../../sysutils/gvfs
 .include "../../devel/pcre/buildlink3.mk"
 .include "../../graphics/gnome-icon-theme/buildlink3.mk"
 .include "../../graphics/libexif/buildlink3.mk"
-.include "../../graphics/png/buildlink3.mk"
+#.include "../../graphics/png/buildlink3.mk"
 .include "../../sysutils/dbus-glib/buildlink3.mk"
 #.include "../../sysutils/desktop-file-utils/buildlink3.mk"
 .include "../../sysutils/desktop-file-utils/desktopdb.mk"

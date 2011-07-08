@@ -20,7 +20,6 @@ pkgbase := xfce4-thunar
 .include "../../devel/gettext-lib/buildlink3.mk"
 .include "../../devel/glib2/buildlink3.mk"
 .include "../../devel/pcre/buildlink3.mk"
-.include "../../graphics/png/buildlink3.mk"
 .include "../../graphics/libexif/buildlink3.mk"
 .include "../../sysutils/dbus-glib/buildlink3.mk"
 .include "../../x11/gtk2/buildlink3.mk"
