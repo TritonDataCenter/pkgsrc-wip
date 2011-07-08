@@ -11,6 +11,8 @@ lib/data-accessor-${PKGVERSION}/${HASKELL_VERSION}/Data/Accessor/Example.hi
 lib/data-accessor-${PKGVERSION}/${HASKELL_VERSION}/Data/Accessor/Example.p_hi
 lib/data-accessor-${PKGVERSION}/${HASKELL_VERSION}/Data/Accessor/MonadState.hi
 lib/data-accessor-${PKGVERSION}/${HASKELL_VERSION}/Data/Accessor/MonadState.p_hi
+lib/data-accessor-${PKGVERSION}/${HASKELL_VERSION}/Data/Accessor/MonadStatePrivate.hi
+lib/data-accessor-${PKGVERSION}/${HASKELL_VERSION}/Data/Accessor/MonadStatePrivate.p_hi
 lib/data-accessor-${PKGVERSION}/${HASKELL_VERSION}/Data/Accessor/Private.hi
 lib/data-accessor-${PKGVERSION}/${HASKELL_VERSION}/Data/Accessor/Private.p_hi
 lib/data-accessor-${PKGVERSION}/${HASKELL_VERSION}/Data/Accessor/Show.hi
