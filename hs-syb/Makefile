@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	syb-0.3
+DISTNAME=	syb-0.3.2
 CATEGORIES=	devel
 
 MAINTAINER=	pho@cielonegro.org
