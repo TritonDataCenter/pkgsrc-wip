@@ -1,12 +1,17 @@
 # $NetBSD$
 #
 
-DISTNAME=	hlint-1.8.7
+DISTNAME=	hlint-1.8.13
 PKGNAME=	${DISTNAME}
 CATEGORIES=	devel
 
 MAINTAINER=	pho@cielonegro.org
 COMMENT=	Haskell source code suggestions
+LICENSE=	gnu-gpl-v2
+
+INSTALLATION_DIRS+=	${PREFIX}/${PKGMANDIR}/man1
+post-install:
+	${INSTALL_MAN} ${WRKSRC}/data/hlint.1 ${DESTDIR}${PREFIX}/${PKGMANDIR}/man1
 
 .include "../../wip/mk/haskell.mk"
 .include "../../wip/hs-cpphs/buildlink3.mk"
