@@ -863,6 +863,7 @@ SUBDIR+=	hs-convertible
 SUBDIR+=	hs-cpphs
 SUBDIR+=	hs-curl
 SUBDIR+=	hs-data-accessor
+SUBDIR+=	hs-data-accessor-monads-fd
 SUBDIR+=	hs-data-default
 SUBDIR+=	hs-dataenc
 SUBDIR+=	hs-deepseq
