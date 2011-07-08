@@ -18,7 +18,7 @@ PKGCONFIG_OVERRIDE+=	garcon/garcon-1.pc.in
 EGDIR=          ${XFCE4_EGBASE}
 PKG_SYSCONFSUBDIR=  xdg
 CONF_FILES=     ${EGDIR}/xfce-applications.menu \
-	${PKG_SYSCONFDIR}/menus/applications.menu
+	${PKG_SYSCONFDIR}/menus/xfce-applications.menu
 
 MAKE_DIRS+=	${PKG_SYSCONFDIR}/menus
 
