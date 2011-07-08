@@ -6,6 +6,7 @@ CATEGORIES=	devel
 
 MAINTAINER=	pho@cielonegro.org
 COMMENT=	Binary serialisation for Haskell values
+LICENSE=	modified-bsd
 
 .include "../../wip/mk/haskell.mk"
 .include "../../mk/bsd.pkg.mk"
