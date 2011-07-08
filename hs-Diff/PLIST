@@ -1,0 +1,8 @@
+@comment $NetBSD$
+lib/Diff-${PKGVERSION}/${HASKELL_VERSION}/Data/Algorithm/Diff.hi
+lib/Diff-${PKGVERSION}/${HASKELL_VERSION}/Data/Algorithm/Diff.p_hi
+lib/Diff-${PKGVERSION}/${HASKELL_VERSION}/HSDiff-${PKGVERSION}.o
+lib/Diff-${PKGVERSION}/${HASKELL_VERSION}/libHSDiff-${PKGVERSION}.a
+lib/Diff-${PKGVERSION}/${HASKELL_VERSION}/libHSDiff-${PKGVERSION}_p.a
+lib/Diff-${PKGVERSION}/${HASKELL_VERSION}/package-description
+share/doc/Diff-${PKGVERSION}/LICENSE
