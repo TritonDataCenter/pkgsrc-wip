@@ -873,6 +873,7 @@ SUBDIR+=	hs-derive
 SUBDIR+=	hs-digest
 SUBDIR+=	hs-dlist
 SUBDIR+=	hs-event-list
+SUBDIR+=	hs-executable-path
 SUBDIR+=	hs-explicit-exception
 SUBDIR+=	hs-explicit-iomodes
 SUBDIR+=	hs-gnuplot
