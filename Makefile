@@ -952,6 +952,7 @@ SUBDIR+=	hs-vector
 SUBDIR+=	hs-x11
 SUBDIR+=	hs-x11-extras
 SUBDIR+=	hs-x11-xft
+SUBDIR+=	hs-xdg-basedir
 SUBDIR+=	hs-zip-archive
 SUBDIR+=	hs-zlib
 SUBDIR+=	ht2html
