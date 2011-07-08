@@ -5,7 +5,7 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 .include "../../wip/xfce48/Makefile.common"
 
 DISTNAME=	xfconf-${XFCE4_VERSION}
-#PKGREVISION=	1
+PKGREVISION=	1
 CATEGORIES=	devel
 COMMENT=	Xfce client-server configuration storage and query system
 
