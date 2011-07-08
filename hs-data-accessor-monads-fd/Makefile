@@ -6,7 +6,7 @@ CATEGORIES=	devel
 
 MAINTAINER=	pho@cielonegro.org
 HOMEPAGE=	http://www.haskell.org/haskellwiki/Record_access
-COMMENT=	Utilities for accessing and manipulating field of records
+COMMENT=	Use Accessor to access state in monads-fd State monad class
 LICENSE=	modified-bsd
 
 .include "../../wip/mk/haskell.mk"
