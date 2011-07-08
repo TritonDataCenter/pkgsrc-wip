@@ -1,0 +1,8 @@
+@comment $NetBSD$
+lib/ghc-paths-${PKGVERSION}/${HASKELL_VERSION}/GHC/Paths.hi
+lib/ghc-paths-${PKGVERSION}/${HASKELL_VERSION}/GHC/Paths.p_hi
+lib/ghc-paths-${PKGVERSION}/${HASKELL_VERSION}/HSghc-paths-${PKGVERSION}.o
+lib/ghc-paths-${PKGVERSION}/${HASKELL_VERSION}/libHSghc-paths-${PKGVERSION}.a
+lib/ghc-paths-${PKGVERSION}/${HASKELL_VERSION}/libHSghc-paths-${PKGVERSION}_p.a
+lib/ghc-paths-${PKGVERSION}/${HASKELL_VERSION}/package-description
+share/doc/ghc-paths-${PKGVERSION}/LICENSE
