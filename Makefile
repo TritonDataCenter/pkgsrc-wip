@@ -897,6 +897,7 @@ SUBDIR+=	hs-html
 SUBDIR+=	hs-hxt
 SUBDIR+=	hs-hxt-xpath
 SUBDIR+=	hs-iconv
+SUBDIR+=	hs-io-storage
 SUBDIR+=	hs-irc
 SUBDIR+=	hs-magic
 SUBDIR+=	hs-markov-chain
