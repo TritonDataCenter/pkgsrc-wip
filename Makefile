@@ -871,6 +871,7 @@ SUBDIR+=	hs-dataenc
 SUBDIR+=	hs-deepseq
 SUBDIR+=	hs-derive
 SUBDIR+=	hs-digest
+SUBDIR+=	hs-dlist
 SUBDIR+=	hs-event-list
 SUBDIR+=	hs-explicit-exception
 SUBDIR+=	hs-explicit-iomodes
