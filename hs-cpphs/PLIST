@@ -28,5 +28,4 @@ lib/cpphs-${PKGVERSION}/${HASKELL_VERSION}/Text/ParserCombinators/HuttonMeijer.p
 lib/cpphs-${PKGVERSION}/${HASKELL_VERSION}/libHScpphs-${PKGVERSION}.a
 lib/cpphs-${PKGVERSION}/${HASKELL_VERSION}/libHScpphs-${PKGVERSION}_p.a
 lib/cpphs-${PKGVERSION}/${HASKELL_VERSION}/package-description
-man/man1/cpphs.1
 share/doc/cpphs-${PKGVERSION}/LICENCE-LGPL
