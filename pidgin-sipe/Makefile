@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	pidgin-sipe-1.10.1
+DISTNAME=	pidgin-sipe-1.11.2
 CATEGORIES=	chat
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=sipe/}
 EXTRACT_SUFX=	.tar.bz2
@@ -15,6 +15,8 @@ USE_LIBTOOL=	yes
 USE_TOOLS+=	intltool pkg-config
 
 PKG_DESTDIR_SUPPORT=	user-destdir
+
+BUILDLINK_TRANSFORM+=	rm:-Werror
 
 .include "../../chat/libpurple/buildlink3.mk"
 .include "../../devel/libidn/buildlink3.mk"
