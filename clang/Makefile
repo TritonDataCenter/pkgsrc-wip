@@ -2,7 +2,6 @@
 #
 
 DISTNAME=	llvm-2.6
-SVN_TAG=	128526
 CATEGORIES=	lang
 MASTER_SITES=	http://llvm.org/releases/${PKGVERSION_NOREV}/
 
