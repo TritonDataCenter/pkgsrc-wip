@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	vector-0.7.0.1
+DISTNAME=	vector-0.7.1
 CATEGORIES=	devel
 
 MAINTAINER=	pho@cielonegro.org
