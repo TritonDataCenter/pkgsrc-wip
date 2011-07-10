@@ -1889,6 +1889,7 @@ SUBDIR+=	php-fileinfo
 SUBDIR+=	php-fpm
 SUBDIR+=	php-http
 SUBDIR+=	php-igbinary
+SUBDIR+=	php-imagick
 SUBDIR+=	php-memcached
 SUBDIR+=	php-oauth
 SUBDIR+=	php-recode
