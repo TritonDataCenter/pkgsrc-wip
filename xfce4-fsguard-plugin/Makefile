@@ -7,8 +7,9 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 DISTNAME=	xfce4-fsguard-plugin-1.0.0
 #PKGREVISION=	1
 CATEGORIES=	sysutils
-MASTER_SITES=	http://archive.xfce.org/src/panel-plugins/xfce4-fsguard-plugin/1.0/
 COMMENT=	Xfce disk space plugin
+
+MASTER_SITES=	http://archive.xfce.org/src/panel-plugins/xfce4-fsguard-plugin/1.0/
 
 .include "../../x11/xfce4-panel/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

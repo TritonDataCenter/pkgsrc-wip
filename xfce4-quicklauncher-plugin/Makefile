@@ -7,8 +7,9 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 DISTNAME=	xfce4-quicklauncher-plugin-1.9.4
 PKGREVISION=	7
 CATEGORIES=	sysutils
-MASTER_SITES=	http://archive.xfce.org/src/panel-plugins/xfce4-quicklauncher-plugin/1.9
 COMMENT=	Xfce quicklaunch plugin
+
+MASTER_SITES=	http://archive.xfce.org/src/panel-plugins/xfce4-quicklauncher-plugin/1.9/
 
 #XFCE4_PROJECT=  	xfce4-panel
 #XFCE4_BRANCH=		4.8
