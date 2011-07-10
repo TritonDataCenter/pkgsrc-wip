@@ -1,9 +1,9 @@
 # $NetBSD$
 
-DISTNAME=	Mixer-0.0.2
-PKGNAME=	deforaos-mixer-0.0.2
+DISTNAME=	Mixer-0.0.3
+PKGNAME=	deforaos-mixer-0.0.3
 CATEGORIES=	audio
-MASTER_SITES=	http://www.defora.org/os/download/download/3386/
+MASTER_SITES=	http://www.defora.org/os/download/download/3551/
 
 MAINTAINER=	khorben@defora.org
 HOMEPAGE=	http://www.defora.org/
