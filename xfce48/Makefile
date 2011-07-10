@@ -28,6 +28,7 @@ COMMENT=	Xfce
 .include "../../wip/xfce4-fsguard-plugin/buildlink3.mk"
 .include "../../wip/xfce4-mousepad/buildlink3.mk"
 .include "../../wip/xfce4-orage/buildlink3.mk"
+.include "../../wip/xfce4-mixer/buildlink3.mk"
 .include "../../graphics/gnome-icon-theme/buildlink3.mk"
 .include "../../graphics/xfce4-icon-theme/buildlink3.mk"
 
