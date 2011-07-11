@@ -6,7 +6,7 @@ $NetBSD$
  #include "opal_config.h"
  
  #include <stdio.h>
-+#if !defined(__NetBSD__)
++#ifdef HAVE_EXECINFO_H
  #include <execinfo.h>
 +#endif
  
