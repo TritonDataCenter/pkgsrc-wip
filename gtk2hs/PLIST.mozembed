@@ -1,6 +1,0 @@
-@comment $NetBSD$
-lib/gtk2hs/HSmozembed.o
-lib/gtk2hs/imports/mozembed/Graphics/UI/Gtk/MozEmbed.hi
-lib/gtk2hs/imports/mozembed/Graphics/UI/Gtk/MozEmbed/Types.hi
-lib/gtk2hs/libHSmozembed.a
-lib/gtk2hs/mozembed.package.conf
