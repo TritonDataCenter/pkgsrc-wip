@@ -864,6 +864,7 @@ SUBDIR+=	hs-chunks
 SUBDIR+=	hs-colorize-haskell
 SUBDIR+=	hs-convertible
 SUBDIR+=	hs-cpphs
+SUBDIR+=	hs-crypto-api
 SUBDIR+=	hs-curl
 SUBDIR+=	hs-data-accessor
 SUBDIR+=	hs-data-accessor-monads-fd
