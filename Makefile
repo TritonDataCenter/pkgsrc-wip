@@ -939,6 +939,7 @@ SUBDIR+=	hs-regex-posix
 SUBDIR+=	hs-regex-tdfa
 SUBDIR+=	hs-regional-pointers
 SUBDIR+=	hs-regions
+SUBDIR+=	hs-rosezipper
 SUBDIR+=	hs-safer-file-handles
 SUBDIR+=	hs-semigroups
 SUBDIR+=	hs-stm
