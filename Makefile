@@ -931,6 +931,7 @@ SUBDIR+=	hs-pathtype
 SUBDIR+=	hs-pcre-light
 SUBDIR+=	hs-pointedlist
 SUBDIR+=	hs-primitive
+SUBDIR+=	hs-pureMD5
 SUBDIR+=	hs-readline
 SUBDIR+=	hs-regex-base
 SUBDIR+=	hs-regex-compat
