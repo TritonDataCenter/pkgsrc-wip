@@ -925,6 +925,7 @@ SUBDIR+=	hs-parseargs
 SUBDIR+=	hs-parsec
 SUBDIR+=	hs-pathtype
 SUBDIR+=	hs-pcre-light
+SUBDIR+=	hs-pointedlist
 SUBDIR+=	hs-primitive
 SUBDIR+=	hs-readline
 SUBDIR+=	hs-regex-base
