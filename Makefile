@@ -875,6 +875,7 @@ SUBDIR+=	hs-derive
 SUBDIR+=	hs-digest
 SUBDIR+=	hs-dlist
 SUBDIR+=	hs-dyre
+SUBDIR+=	hs-entropy
 SUBDIR+=	hs-event-list
 SUBDIR+=	hs-executable-path
 SUBDIR+=	hs-explicit-exception
