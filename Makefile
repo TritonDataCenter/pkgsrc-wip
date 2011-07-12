@@ -859,6 +859,7 @@ SUBDIR+=	hs-bindings-librrd
 SUBDIR+=	hs-bytestring-trie
 SUBDIR+=	hs-cabal-query
 SUBDIR+=	hs-cairo
+SUBDIR+=	hs-cautious-file
 SUBDIR+=	hs-cereal
 SUBDIR+=	hs-chalkboard
 SUBDIR+=	hs-chalkboard-viewer
