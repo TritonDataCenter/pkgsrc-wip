@@ -960,6 +960,7 @@ SUBDIR+=	hs-time-w3c
 SUBDIR+=	hs-transformers
 SUBDIR+=	hs-uconv
 SUBDIR+=	hs-uniplate
+SUBDIR+=	hs-unix-compat
 SUBDIR+=	hs-utf8-string
 SUBDIR+=	hs-utility-ht
 SUBDIR+=	hs-vector
