@@ -837,6 +837,7 @@ SUBDIR+=	hs-HsOpenSSL
 SUBDIR+=	hs-HsSVN
 SUBDIR+=	hs-Lucu
 SUBDIR+=	hs-MissingH
+SUBDIR+=	hs-MonadCatchIO-mtl
 SUBDIR+=	hs-MonadCatchIO-transformers
 SUBDIR+=	hs-ObjectName
 SUBDIR+=	hs-OpenGL
