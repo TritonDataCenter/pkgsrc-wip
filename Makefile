@@ -942,6 +942,7 @@ SUBDIR+=	hs-regions
 SUBDIR+=	hs-rosezipper
 SUBDIR+=	hs-safer-file-handles
 SUBDIR+=	hs-semigroups
+SUBDIR+=	hs-split
 SUBDIR+=	hs-stm
 SUBDIR+=	hs-storable-record
 SUBDIR+=	hs-storablevector
