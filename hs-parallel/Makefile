@@ -1,11 +1,11 @@
 # $NetBSD$
 #
 
-DISTNAME=	parallel-2.2.0.1
+DISTNAME=	parallel-3.1.0.1
 CATEGORIES=	parallel
 
 MAINTAINER=	pho@cielonegro.org
-COMMENT=	Library for parallel haskell programming
+COMMENT=	Library for parallel Haskell programming
 LICENSE=	modified-bsd
 
 .include "../../wip/mk/haskell.mk"

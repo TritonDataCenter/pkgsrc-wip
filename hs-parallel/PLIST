@@ -3,6 +3,8 @@ lib/parallel-${PKGVERSION}/${HASKELL_VERSION}/Control/Parallel.hi
 lib/parallel-${PKGVERSION}/${HASKELL_VERSION}/Control/Parallel.p_hi
 lib/parallel-${PKGVERSION}/${HASKELL_VERSION}/Control/Parallel/Strategies.hi
 lib/parallel-${PKGVERSION}/${HASKELL_VERSION}/Control/Parallel/Strategies.p_hi
+lib/parallel-${PKGVERSION}/${HASKELL_VERSION}/Control/Seq.hi
+lib/parallel-${PKGVERSION}/${HASKELL_VERSION}/Control/Seq.p_hi
 lib/parallel-${PKGVERSION}/${HASKELL_VERSION}/HSparallel-${PKGVERSION}.o
 lib/parallel-${PKGVERSION}/${HASKELL_VERSION}/libHSparallel-${PKGVERSION}.a
 lib/parallel-${PKGVERSION}/${HASKELL_VERSION}/libHSparallel-${PKGVERSION}_p.a
