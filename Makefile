@@ -887,6 +887,7 @@ SUBDIR+=	hs-fclabels
 SUBDIR+=	hs-fingertree
 SUBDIR+=	hs-ghc-mtl
 SUBDIR+=	hs-ghc-paths
+SUBDIR+=	hs-glib
 SUBDIR+=	hs-gnuplot
 SUBDIR+=	hs-hashed-storage
 SUBDIR+=	hs-hashed-storage3
