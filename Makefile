@@ -890,6 +890,7 @@ SUBDIR+=	hs-ghc-paths
 SUBDIR+=	hs-gio
 SUBDIR+=	hs-glib
 SUBDIR+=	hs-gnuplot
+SUBDIR+=	hs-gtk
 SUBDIR+=	hs-hashed-storage
 SUBDIR+=	hs-hashed-storage3
 SUBDIR+=	hs-haskeline
