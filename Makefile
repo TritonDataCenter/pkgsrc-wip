@@ -2973,6 +2973,7 @@ SUBDIR+=	yauap
 SUBDIR+=	yaws
 SUBDIR+=	yelp-xsl
 SUBDIR+=	yersinia
+SUBDIR+=	yi
 SUBDIR+=	ykclient
 SUBDIR+=	yp-tools
 SUBDIR+=	ypbind-mt
