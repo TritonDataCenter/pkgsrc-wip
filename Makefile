@@ -927,6 +927,7 @@ SUBDIR+=	hs-network-bytestring
 SUBDIR+=	hs-non-negative
 SUBDIR+=	hs-numeric-prelude
 SUBDIR+=	hs-numeric-quest
+SUBDIR+=	hs-pango
 SUBDIR+=	hs-parallel
 SUBDIR+=	hs-parseargs
 SUBDIR+=	hs-parsec
