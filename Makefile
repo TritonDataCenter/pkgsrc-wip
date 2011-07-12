@@ -936,6 +936,7 @@ SUBDIR+=	hs-parsec
 SUBDIR+=	hs-pathtype
 SUBDIR+=	hs-pcre-light
 SUBDIR+=	hs-pointedlist
+SUBDIR+=	hs-pointedlist03
 SUBDIR+=	hs-primitive
 SUBDIR+=	hs-pureMD5
 SUBDIR+=	hs-readline
