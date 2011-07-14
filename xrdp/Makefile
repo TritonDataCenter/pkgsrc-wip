@@ -4,7 +4,7 @@ DISTNAME=		xrdp-0.4.2
 CATEGORIES=		net
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=xrdp/}
 
-MAINTAINER=		lkundrak@skosi.org
+MAINTAINER=		moritz+NetBSD@wzff.de
 HOMEPAGE=		http://xrdp.sourceforge.net/
 COMMENT=		Remote Desktop Protocol server
 LICENSE=		gnu-gpl-v2
@@ -12,6 +12,11 @@ LICENSE=		gnu-gpl-v2
 USE_TOOLS+=		gmake
 
 PKG_DESTDIR_SUPPORT=	user-destdir
+
+RCD_SCRIPTS=            xrdp sesman
+# FIXME: are these really needed?
+#RCD_SCRIPT_SRC.xrdp=	files/xrdp.sh
+#RCD_SCRIPT_SRC.sesman=	files/sesman.sh
 
 EGDIR=			${PREFIX}/share/examples/xrdp
 MAKE_ENV+=		DESTDIR=${DESTDIR:Q}${PREFIX:Q}
