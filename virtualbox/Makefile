@@ -53,6 +53,7 @@ do-build:
 #	cd ${WRKSRC} && ${SETENV} ${MAKE_ENV} KBUILD_PATH=${WRKSRC}/kBuild sh -c ". ./env.sh && cd src/VBox/HostDrivers && kmk HostDrivers-src vboxdrv-mod"
 
 #.include "../../audio/pulseaudio/buildlink3.mk"
+.include "../../net/libIDL/buildlink3.mk"
 .include "../../devel/SDL/buildlink3.mk"
 .include "../../devel/zlib/buildlink3.mk"
 .include "../../graphics/MesaLib/buildlink3.mk"
