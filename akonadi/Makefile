@@ -1,6 +1,6 @@
 # $NetBSD: Makefile,v 1.21 2011/01/13 13:36:54 wiz Exp $
 
-DISTNAME=	akonadi-1.5.2
+DISTNAME=	akonadi-1.5.3
 CATEGORIES=	mail
 MASTER_SITES=	http://download.akonadi-project.org/
 EXTRACT_SUFX=	.tar.bz2
@@ -31,6 +31,8 @@ USE_LANGUAGES=	c c++
 USE_CMAKE=	yes
 CMAKE_ARG_PATH=	..
 CONFIGURE_DIRS=	_build
+CMAKE_ARGS+=	-DDATABASE_BACKEND=SQLITE
+CMAKE_ARGS+=	-DINSTALL_QSQLITE_IN_QT_PREFIX=true
 
 pre-configure:
 	${LN} -sf ${QTDIR}/bin/qmake ${BUILDLINK_DIR}/bin/
