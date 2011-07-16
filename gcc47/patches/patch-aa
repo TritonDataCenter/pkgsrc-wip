@@ -58,7 +58,7 @@ $NetBSD$
 +	;;
  i[34567]86-*-netbsdelf*)
 -	tm_file="${tm_file} i386/unix.h i386/att.h dbxelf.h elfos.h netbsd.h netbsd-elf.h i386/netbsd-elf.h"
-+	tm_file="${tm_file} i386/unix.h i386/att.h dbxelf.h elfos.h netbsd.h netbsd-elf.h i386/netbsd-elf.h netbsd-stdint"
++	tm_file="${tm_file} i386/unix.h i386/att.h dbxelf.h elfos.h netbsd.h netbsd-elf.h i386/netbsd-elf.h netbsd-stdint.h"
  	extra_options="${extra_options} netbsd.opt netbsd-elf.opt"
  	;;
  x86_64-*-netbsd*)
