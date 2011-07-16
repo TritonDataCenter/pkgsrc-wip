@@ -23,6 +23,7 @@ USE_TOOLS+=		awk:run bash:run perl chmod \
 
 DEPENDS+=		zip-[0-9]*:../../archivers/zip
 DEPENDS+=		libiconv-[0-9]*:../../converters/libiconv
+BUILDLINK_API_DEPENDS.mpfr+=	mpfr>=2.3.1
 
 
 GCC_SUBPREFIX=		gcc47
