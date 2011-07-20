@@ -9,9 +9,3 @@ nostromo/htdocs/nostromo.gif
 nostromo/htdocs/cgi-bin/printenv
 nostromo/icons/dir.gif
 nostromo/icons/file.gif
-@dirrm nostromo/conf
-@dirrm nostromo/htdocs/cgi-bin
-@dirrm nostromo/htdocs
-@dirrm nostromo/icons
-@dirrm nostromo/logs
-@dirrm nostromo

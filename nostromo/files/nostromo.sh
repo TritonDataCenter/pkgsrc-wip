@@ -10,8 +10,8 @@
 
 name="nostromo"
 rcvar=$name
-command="/usr/pkg/sbin/nhttpd"
-required_files="/usr/pkg/nostromo/conf/nhttpd.conf"
+command="@PREFIX@/sbin/nhttpd"
+required_files="@PREFIX@/nostromo/conf/nhttpd.conf"
 
 load_rc_config $name
 run_rc_command "$1"
