@@ -2778,6 +2778,7 @@ SUBDIR+=	tw_cli
 SUBDIR+=	twinkle
 SUBDIR+=	twitim
 SUBDIR+=	twitmail
+SUBDIR+=	twittering-mode
 SUBDIR+=	txt2tags
 SUBDIR+=	typespeed
 SUBDIR+=	typhoon
