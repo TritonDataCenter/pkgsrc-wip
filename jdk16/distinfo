@@ -30,3 +30,5 @@ SHA1 (patch-ce) = 379e60e6443351f3dbfe6ec20e368395d0eafcbf
 SHA1 (patch-cf) = d3cc6f88011560f0174a60b14c99f63d3291bb60
 SHA1 (patch-cg) = 474fc73bf2f2de0d05eb2456ec4ff4972743d9b2
 SHA1 (patch-ch) = 3397d1af027adfc76674468148e9bd548006dbdc
+SHA1 (patch-hotspot_src_share_vm_adlc_adlc.hpp) = 86e2b4258f858b155f279b63c7e13325bae21310
+SHA1 (patch-hotspot_src_share_vm_adlc_filebuff.hpp) = 100c06a75a3191ef6a7d1c90149ef51ed5a80757
