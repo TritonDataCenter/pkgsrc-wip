@@ -22,9 +22,6 @@ USE_TOOLS+=		patch
 WRKSRC=			${WRKDIR}
 PLIST_SRC=		PLIST.common
 
-# XXX actually requires -current due to use of getpeereid()
-ONLY_FOR_PLATFORM=	NetBSD-[4-9]*-i386 NetBSD-[4-9]*-x86_64
-
 JAVA_NAME=		jdk16
 JAVA_WRAPPERS=		appletviewer jar java javac javadoc javah javap
 
