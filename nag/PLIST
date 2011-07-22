@@ -4,13 +4,9 @@ share/doc/nag/README
 share/doc/nag/RELEASE_NOTES
 share/doc/nag/UPGRADING
 share/examples/nag/nag.conf
-share/horde/nag/config/conf.xml
 share/horde/nag/config/conf.xml.dist
-share/horde/nag/config/hooks.php
 share/horde/nag/config/hooks.php.dist
-share/horde/nag/config/menu.php
 share/horde/nag/config/menu.php.dist
-share/horde/nag/config/prefs.php
 share/horde/nag/config/prefs.php.dist
 share/horde/nag/data.php
 share/horde/nag/ics.php
@@ -221,3 +217,10 @@ share/horde/nag/themes/tango-blue/graphics/tasklists.png
 share/horde/nag/themes/tango-blue/graphics/unchecked.png
 share/horde/nag/themes/tango-blue/themed_graphics
 share/horde/nag/view.php
+@pkgdir themes
+@pkgdir templates
+@pkgdir tasklists
+@pkgdir scripts
+@pkgdir po
+@pkgdir locale
+@pkgdir js
