@@ -849,7 +849,6 @@ java/jdk-1.5.0/jre/bin/tnameserv
 java/jdk-1.5.0/jre/bin/unpack200
 java/jdk-1.5.0/jre/lib/${JAVA_MACHINE_ARCH}/awt_robot
 ${PLIST.client_jvm}java/jdk-1.5.0/jre/lib/${JAVA_MACHINE_ARCH}/client/Xusage.txt
-${PLIST.client_jvm}java/jdk-1.5.0/jre/lib/${JAVA_MACHINE_ARCH}/client/classes.jsa
 ${PLIST.client_jvm}java/jdk-1.5.0/jre/lib/${JAVA_MACHINE_ARCH}/client/libjsig.so
 ${PLIST.client_jvm}java/jdk-1.5.0/jre/lib/${JAVA_MACHINE_ARCH}/client/libjvm.so
 java/jdk-1.5.0/jre/lib/${JAVA_MACHINE_ARCH}/gtkhelper
