@@ -3,8 +3,8 @@ bin/nih
 bin/pkg_status
 bin/pkg_update_plan
 lib/nih/nih.default.conf
-man/man1/nih.1
 man/man1/pkg_update_plan.1
+man/man8/nih.8
 share/doc/pkgnih/COPYRIGHT
 share/doc/pkgnih/NEWS
 share/doc/pkgnih/README
