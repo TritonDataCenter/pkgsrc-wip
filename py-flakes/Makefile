@@ -1,15 +1,13 @@
 # $NetBSD$
 #
 
-DISTNAME=	pyflakes-0.4.0.tar
-PKGNAME=	${PYPKGPREFIX}-${DISTNAME:S/py//S/.tar//}
+DISTNAME=	pyflakes-0.4.0
+PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	devel python
 MASTER_SITES=	http://pypi.python.org/packages/source/p/pyflakes/
-EXTRACT_SUFX=	.gz
 
 MAINTAINER=	kamel.derouiche@gmail.com
-HOMEPAGE=	http://www.divmod.org/trac/wiki/DivmodPyflakes \
-				
+HOMEPAGE=	http://www.divmod.org/trac/wiki/DivmodPyflakes
 COMMENT=	Passive checker of Python programs
 LICENSE=	mit
 
