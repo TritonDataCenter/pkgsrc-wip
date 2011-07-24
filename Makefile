@@ -998,7 +998,6 @@ SUBDIR+=	i3lock
 SUBDIR+=	iText
 SUBDIR+=	iTextXML
 SUBDIR+=	ibus-sogoupycc
-SUBDIR+=	icc11
 SUBDIR+=	icecast
 SUBDIR+=	icecat
 SUBDIR+=	ices
