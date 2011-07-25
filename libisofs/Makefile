@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	libisofs-1.1.0
+DISTNAME=	libisofs-1.1.2
 CATEGORIES=	sysutils
 MASTER_SITES=	http://files.libburnia-project.org/releases/
 
