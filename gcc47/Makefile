@@ -189,12 +189,8 @@ pre-configure:
 	${CP} ${WRKSRC}/gcc/config/freebsd-stdint.h ${WRKSRC}/gcc/config/netbsd-stdint.h
 .endif
 
-post-install:
-	${TEST} -f ${DESTDIR}${GCC_PREFIX}/bin/cc || ${LN} -f ${DESTDIR}${GCC_PREFIX}/bin/gcc ${DESTDIR}${GCC_PREFIX}/bin/cc
-
-GENERATE_PLIST+=                                                        \
-	cd ${DESTDIR}${PREFIX} && ${FIND} ${GCC_SUBPREFIX} \( -type f -o -type l \) -print \
-	| ${SORT} ;
+# post-install:
+# 	${TEST} -f ${DESTDIR}${GCC_PREFIX}/bin/cc || ${LN} -f ${DESTDIR}${GCC_PREFIX}/bin/gcc ${DESTDIR}${GCC_PREFIX}/bin/cc
 
 .include "../../devel/gmp/buildlink3.mk"
 .include "../../math/mpcomplex/buildlink3.mk"
