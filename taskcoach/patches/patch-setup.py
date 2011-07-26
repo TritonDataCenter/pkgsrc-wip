@@ -2,7 +2,7 @@ $NetBSD$
 
 * Support NetBSD
 
---- setup.py.orig	2011-04-09 09:12:39.000000000 +0000
+--- setup.py.orig	2011-04-30 15:01:33.000000000 +0000
 +++ setup.py
 @@ -76,7 +76,7 @@ for language in languages:
      setupOptions['classifiers'].append('Natural Language :: %s'%language)
