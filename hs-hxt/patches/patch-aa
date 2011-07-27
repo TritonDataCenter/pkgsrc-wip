@@ -1,5 +1,7 @@
 $NetBSD$
 
+HUnit seems not to be used at all!
+
 --- hxt.cabal.orig	2010-01-22 11:30:12.000000000 +0000
 +++ hxt.cabal
 @@ -169,7 +169,6 @@ library
