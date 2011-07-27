@@ -39,6 +39,14 @@ lib/text-${PKGVERSION}/${HASKELL_VERSION}/Data/Text/Lazy.hi
 lib/text-${PKGVERSION}/${HASKELL_VERSION}/Data/Text/Lazy.p_hi
 lib/text-${PKGVERSION}/${HASKELL_VERSION}/Data/Text/Lazy/Builder.hi
 lib/text-${PKGVERSION}/${HASKELL_VERSION}/Data/Text/Lazy/Builder.p_hi
+lib/text-${PKGVERSION}/${HASKELL_VERSION}/Data/Text/Lazy/Builder/Functions.hi
+lib/text-${PKGVERSION}/${HASKELL_VERSION}/Data/Text/Lazy/Builder/Functions.p_hi
+lib/text-${PKGVERSION}/${HASKELL_VERSION}/Data/Text/Lazy/Builder/Int.hi
+lib/text-${PKGVERSION}/${HASKELL_VERSION}/Data/Text/Lazy/Builder/Int.p_hi
+lib/text-${PKGVERSION}/${HASKELL_VERSION}/Data/Text/Lazy/Builder/RealFloat.hi
+lib/text-${PKGVERSION}/${HASKELL_VERSION}/Data/Text/Lazy/Builder/RealFloat.p_hi
+lib/text-${PKGVERSION}/${HASKELL_VERSION}/Data/Text/Lazy/Builder/RealFloat/Functions.hi
+lib/text-${PKGVERSION}/${HASKELL_VERSION}/Data/Text/Lazy/Builder/RealFloat/Functions.p_hi
 lib/text-${PKGVERSION}/${HASKELL_VERSION}/Data/Text/Lazy/Encoding.hi
 lib/text-${PKGVERSION}/${HASKELL_VERSION}/Data/Text/Lazy/Encoding.p_hi
 lib/text-${PKGVERSION}/${HASKELL_VERSION}/Data/Text/Lazy/Encoding/Fusion.hi
@@ -59,6 +67,8 @@ lib/text-${PKGVERSION}/${HASKELL_VERSION}/Data/Text/Search.hi
 lib/text-${PKGVERSION}/${HASKELL_VERSION}/Data/Text/Search.p_hi
 lib/text-${PKGVERSION}/${HASKELL_VERSION}/Data/Text/Unsafe.hi
 lib/text-${PKGVERSION}/${HASKELL_VERSION}/Data/Text/Unsafe.p_hi
+lib/text-${PKGVERSION}/${HASKELL_VERSION}/Data/Text/Unsafe/Base.hi
+lib/text-${PKGVERSION}/${HASKELL_VERSION}/Data/Text/Unsafe/Base.p_hi
 lib/text-${PKGVERSION}/${HASKELL_VERSION}/Data/Text/UnsafeChar.hi
 lib/text-${PKGVERSION}/${HASKELL_VERSION}/Data/Text/UnsafeChar.p_hi
 lib/text-${PKGVERSION}/${HASKELL_VERSION}/Data/Text/UnsafeShift.hi
