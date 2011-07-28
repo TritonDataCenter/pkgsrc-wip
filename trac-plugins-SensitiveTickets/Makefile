@@ -1,6 +1,7 @@
 # $NetBSD$
 
-VERSION=	0.1.${SVN_VERSION}
+UPSTREAM_VERSION=	0.1
+VERSION=	${UPSTREAM_VERSION}.${SVN_VERSION}
 SVN_VERSION=	5285
 
 DISTNAME=	TracSensitiveTickets-${VERSION}
@@ -21,6 +22,8 @@ COMMENT=	Ticket dependency plugin for Trac
 PKG_DESTDIR_SUPPORT=	user-destdir
 
 DEPENDS+=	{ja-,}trac>=0.11:../../www/trac
+
+EGG_NAME=	sensitivetickets-${UPSTREAM_VERSION}
 
 SVN_REPOSITORIES=	sensitivetickets
 SVN_ROOT.sensitivetickets=	http://trac-hacks.org/svn/sensitiveticketsplugin/0.11

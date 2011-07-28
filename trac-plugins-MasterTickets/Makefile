@@ -1,6 +1,7 @@
 # $NetBSD$
 
-VERSION=	2.1.3.4179
+UPSTREAM_VERSION=	2.1.3
+VERSION=	${UPSTREAM_VERSION}.4179
 DISTNAME=	TracMasterTickets-${VERSION}
 PKGNAME=	trac-plugins-MasterTickets-${VERSION}
 # Empty PKGREVISION because svn-package by default sets one.
@@ -16,6 +17,8 @@ COMMENT=	Ticket dependency plugin for Trac
 PKG_DESTDIR_SUPPORT=	user-destdir
 
 DEPENDS+=	{ja-,}trac>=0.11:../../www/trac
+
+EGG_NAME=	TracMasterTickets-${UPSTREAM_VERSION}
 
 SVN_REPOSITORIES=	mastertickets
 SVN_ROOT.mastertickets=	http://trac-hacks.org/svn/masterticketsplugin/0.11
