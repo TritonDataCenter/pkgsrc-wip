@@ -825,7 +825,6 @@ SUBDIR+=	hplip3
 SUBDIR+=	hpoj
 SUBDIR+=	hs-ConfigFile
 SUBDIR+=	hs-Diff
-SUBDIR+=	hs-FileManip
 SUBDIR+=	hs-GLURaw
 SUBDIR+=	hs-GLUT
 SUBDIR+=	hs-HCL
