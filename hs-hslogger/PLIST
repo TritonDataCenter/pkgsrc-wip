@@ -2,6 +2,8 @@
 lib/hslogger-${PKGVERSION}/${HASKELL_VERSION}/HShslogger-${PKGVERSION}.o
 lib/hslogger-${PKGVERSION}/${HASKELL_VERSION}/System/Log.hi
 lib/hslogger-${PKGVERSION}/${HASKELL_VERSION}/System/Log.p_hi
+lib/hslogger-${PKGVERSION}/${HASKELL_VERSION}/System/Log/Formatter.hi
+lib/hslogger-${PKGVERSION}/${HASKELL_VERSION}/System/Log/Formatter.p_hi
 lib/hslogger-${PKGVERSION}/${HASKELL_VERSION}/System/Log/Handler.hi
 lib/hslogger-${PKGVERSION}/${HASKELL_VERSION}/System/Log/Handler.p_hi
 lib/hslogger-${PKGVERSION}/${HASKELL_VERSION}/System/Log/Handler/Growl.hi

@@ -1,11 +1,10 @@
 # $NetBSD$
 #
 
-DISTNAME=	hslogger-1.0.7
+DISTNAME=	hslogger-1.1.4
 CATEGORIES=	devel
 
 MAINTAINER=	pho@cielonegro.org
-HOMEPAGE=	http://software.complete.org/hslogger
 COMMENT=	Logging framework for Haskell
 LICENSE=	gnu-lgpl-v2.1
 
