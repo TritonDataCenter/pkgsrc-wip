@@ -1,11 +1,10 @@
 # $NetBSD$
 #
 
-DISTNAME=	HsSVN-0.4.3
+DISTNAME=	HsSVN-0.4.3.2
 CATEGORIES=	devel
 
 MAINTAINER=	pho@cielonegro.org
-HOMEPAGE=	http://cielonegro.org/HsSVN.html
 COMMENT=	Subversion binding for Haskell
 LICENSE=	public-domain
 
