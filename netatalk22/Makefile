@@ -39,7 +39,6 @@ CONFLICTS=	netatalk-asun-[0-9]* netatalk-umich-[0-9]*
 BUILD_DEFS+=		VARBASE
 CONFIGURE_ARGS+=	--enable-netbsd
 CONFIGURE_ARGS+=	--enable-overwrite
-CONFIGURE_ARGS+=	--enable-timelord
 CONFIGURE_ARGS+=	--libexecdir=${PREFIX}/libexec/netatalk
 CONFIGURE_ARGS+=	--sbindir=${PREFIX}/libexec/netatalk
 CONFIGURE_ARGS+=	--with-pkgconfdir=${PKG_SYSCONFDIR}
