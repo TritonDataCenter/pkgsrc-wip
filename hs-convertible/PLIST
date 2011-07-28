@@ -11,6 +11,8 @@ lib/convertible-${PKGVERSION}/${HASKELL_VERSION}/Data/Convertible/Instances/Map.
 lib/convertible-${PKGVERSION}/${HASKELL_VERSION}/Data/Convertible/Instances/Map.p_hi
 lib/convertible-${PKGVERSION}/${HASKELL_VERSION}/Data/Convertible/Instances/Num.hi
 lib/convertible-${PKGVERSION}/${HASKELL_VERSION}/Data/Convertible/Instances/Num.p_hi
+lib/convertible-${PKGVERSION}/${HASKELL_VERSION}/Data/Convertible/Instances/Text.hi
+lib/convertible-${PKGVERSION}/${HASKELL_VERSION}/Data/Convertible/Instances/Text.p_hi
 lib/convertible-${PKGVERSION}/${HASKELL_VERSION}/Data/Convertible/Instances/Time.hi
 lib/convertible-${PKGVERSION}/${HASKELL_VERSION}/Data/Convertible/Instances/Time.p_hi
 lib/convertible-${PKGVERSION}/${HASKELL_VERSION}/Data/Convertible/Utils.hi
