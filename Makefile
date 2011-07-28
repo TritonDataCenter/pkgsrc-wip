@@ -2426,6 +2426,7 @@ SUBDIR+=	qinx
 SUBDIR+=	qmpdclient
 SUBDIR+=	qn-x11
 SUBDIR+=	qrint
+SUBDIR+=	qrq
 SUBDIR+=	qtcreator
 SUBDIR+=	qtre
 SUBDIR+=	quantlib
