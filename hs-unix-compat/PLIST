@@ -10,6 +10,8 @@ lib/unix-compat-${PKGVERSION}/${HASKELL_VERSION}/System/PosixCompat/Time.hi
 lib/unix-compat-${PKGVERSION}/${HASKELL_VERSION}/System/PosixCompat/Time.p_hi
 lib/unix-compat-${PKGVERSION}/${HASKELL_VERSION}/System/PosixCompat/Types.hi
 lib/unix-compat-${PKGVERSION}/${HASKELL_VERSION}/System/PosixCompat/Types.p_hi
+lib/unix-compat-${PKGVERSION}/${HASKELL_VERSION}/System/PosixCompat/Unistd.hi
+lib/unix-compat-${PKGVERSION}/${HASKELL_VERSION}/System/PosixCompat/Unistd.p_hi
 lib/unix-compat-${PKGVERSION}/${HASKELL_VERSION}/System/PosixCompat/User.hi
 lib/unix-compat-${PKGVERSION}/${HASKELL_VERSION}/System/PosixCompat/User.p_hi
 lib/unix-compat-${PKGVERSION}/${HASKELL_VERSION}/include/HsUnixCompat.h
