@@ -48,6 +48,9 @@ CONFIGURE_ARGS+=	--with-uams-path=${PREFIX}/libexec/netatalk/uams
 CONFIGURE_ARGS+=	--with-bdb=${BDBBASE}
 CONFIGURE_ARGS+=	--with-ssl-dir=${BUILDLINK_PREFIX.openssl}
 
+# Workaround for Netatalk bug #3380785
+CONFIGURE_ARGS+=	--without-ldap
+
 MAKE_DIRS+=		${PKG_SYSCONFDIR}/msg
 
 SUBST_CLASSES+=		paths

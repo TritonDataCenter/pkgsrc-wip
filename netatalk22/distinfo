@@ -22,3 +22,5 @@ SHA1 (patch-at) = 02946db1ffc6eccc1f7925461c39000c0d0845f2
 SHA1 (patch-au) = cff38d7d61af4ee260cead2c741f6aae07be3ddd
 SHA1 (patch-bj) = e1e0fc2be101554a2e0d53c24d113b593556eb41
 SHA1 (patch-include_atalk_dsi.h) = 77c16e42758f1b7db9daadb040337c2c23830c12
+SHA1 (patch-include_atalk_paths.h) = 21f51da5315f756b30acdfb693d99459ac974fdb
+SHA1 (patch-libatalk_util_socket.c) = 9f71ad28aab1b6fd0d8f826e7788ef4d584a9a29
