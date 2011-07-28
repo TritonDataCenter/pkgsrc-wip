@@ -121,10 +121,8 @@ CONFIGURE_ARGS+=	--with-libiconv-prefix=${PREFIX}
 CONFIGURE_ARGS+=	--with-gxx-include-dir=${GCC_PREFIX}/include/c++/
 CONFIGURE_ARGS+=	--disable-multilib
 CONFIGURE_ARGS+=	--with-tune=generic
-CONFIGURE_ARGS+=	--with-ppl-include=${PREFIX}/include
-CONFIGURE_ARGS+=	--with-ppl-lib=${PREFIX}/lib
-CONFIGURE_ARGS+=	--with-cloog-include=${PREFIX}/include
-CONFIGURE_ARGS+=	--with-cloog-lib=${PREFIX}/lib
+CONFIGURE_ARGS+=	--with-ppl=${BUILDLINK_PREFIX.ppl}
+CONFIGURE_ARGS+=	--with-cloog=${BUILDLINK_PREFIX.cloog}
 CONFIGURE_ARGS+=	--enable-cloog-backend=isl
 .if ${OPSYS} == "NetBSD"
 CONFIGURE_ARGS+=	--with-ld=${PREFIX}/bin/gnu-ld
