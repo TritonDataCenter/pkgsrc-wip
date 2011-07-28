@@ -25,4 +25,4 @@ lib/hxt-xpath-${PKGVERSION}/${HASKELL_VERSION}/Text/XML/HXT/XPath/XPathToString.
 lib/hxt-xpath-${PKGVERSION}/${HASKELL_VERSION}/libHShxt-xpath-${PKGVERSION}.a
 lib/hxt-xpath-${PKGVERSION}/${HASKELL_VERSION}/libHShxt-xpath-${PKGVERSION}_p.a
 lib/hxt-xpath-${PKGVERSION}/${HASKELL_VERSION}/package-description
-share/doc/hxt-xpath-${PKGVERSION}/LICENCE
+share/doc/hxt-xpath-${PKGVERSION}/LICENSE
