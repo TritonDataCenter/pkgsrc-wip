@@ -895,6 +895,7 @@ SUBDIR+=	hs-gio
 SUBDIR+=	hs-glib
 SUBDIR+=	hs-gnuplot
 SUBDIR+=	hs-gtk
+SUBDIR+=	hs-hashable
 SUBDIR+=	hs-hashed-storage
 SUBDIR+=	hs-hashed-storage3
 SUBDIR+=	hs-haskeline
