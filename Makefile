@@ -857,6 +857,7 @@ SUBDIR+=	hs-bindings-DSL
 SUBDIR+=	hs-bindings-EsounD
 SUBDIR+=	hs-bindings-audiofile
 SUBDIR+=	hs-bindings-librrd
+SUBDIR+=	hs-blaze-builder
 SUBDIR+=	hs-bytestring-trie
 SUBDIR+=	hs-cabal-query
 SUBDIR+=	hs-cairo
