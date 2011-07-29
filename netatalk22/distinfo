@@ -26,3 +26,4 @@ SHA1 (patch-etc_cnid_dbd_comm.c) = 38075be8bcccde82d6198e2c4b1d56655d158170
 SHA1 (patch-include_atalk_dsi.h) = 77c16e42758f1b7db9daadb040337c2c23830c12
 SHA1 (patch-include_atalk_paths.h) = 21f51da5315f756b30acdfb693d99459ac974fdb
 SHA1 (patch-libatalk_util_socket.c) = 9f71ad28aab1b6fd0d8f826e7788ef4d584a9a29
+SHA1 (patch-man_man_Makefile.in) = bfaec97eea5609bfa59a4028b815c2231edf671b

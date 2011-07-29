@@ -13,11 +13,14 @@ CONFIGURE_ARGS+=	--enable-cups
 CONFIGURE_ARGS+=	--disable-cups
 .endif
 
+PLIST_VARS+=		ddp
 .if !empty(PKG_OPTIONS:Mddp)
 CONFIGURE_ARGS+=	--enable-ddp
 CONFIGURE_ARGS+=	--enable-timelord
+PLIST.ddp=		yes
 .else
 CONFIGURE_ARGS+=	--disable-ddp
+CONFIGURE_ARGS+=	--disable-timelord
 .endif
 
 PLIST_VARS+=		gssapi
