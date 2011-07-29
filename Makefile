@@ -684,7 +684,6 @@ SUBDIR+=	glw
 SUBDIR+=	glx-utils
 SUBDIR+=	gmc2mid
 SUBDIR+=	gmm
-SUBDIR+=	gmock
 SUBDIR+=	gmp-ecm
 SUBDIR+=	gmpc-lyricsplugin
 SUBDIR+=	gmpc-wikipedia
