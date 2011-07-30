@@ -2987,7 +2987,6 @@ SUBDIR+=	zinf
 SUBDIR+=	ziparchive
 SUBDIR+=	zipios
 SUBDIR+=	zope3-unstable
-SUBDIR+=	zsh-snapshot
 SUBDIR+=	zvbi
 
 ${.CURDIR}/PKGDB:
