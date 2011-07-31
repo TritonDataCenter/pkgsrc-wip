@@ -2642,6 +2642,7 @@ SUBDIR+=	swami
 SUBDIR+=	swarp
 SUBDIR+=	swfmill
 SUBDIR+=	swftools
+SUBDIR+=	swift
 SUBDIR+=	sword
 SUBDIR+=	sxemacs
 SUBDIR+=	sxid
