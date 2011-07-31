@@ -1,0 +1,7 @@
+@comment $NetBSD$
+bin/yelp-build
+bin/yelp-check
+bin/yelp-new
+share/aclocal/yelp.m4
+share/yelp-tools/templates/task.page
+share/yelp-tools/xslt/mal-rng.xsl
