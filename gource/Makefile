@@ -1,8 +1,8 @@
 # $NetBSD$
 #
 
-DISTNAME=	gource-0.34
-CATEGORIES=	devel
+DISTNAME=	gource-0.35
+CATEGORIES=	graphics
 MASTER_SITES=	http://gource.googlecode.com/files/
 
 MAINTAINER=	ryoon@NetBSD.org
