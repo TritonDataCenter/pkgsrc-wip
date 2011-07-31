@@ -48,6 +48,7 @@ PYTHON_FOR_BUILD_ONLY=	yes
 ALL_ENV+=	PYTHONBIN=$(PYTHONBIN:Q)
 
 pre-configure:
+	cd ${WRKSRC}/src/ && ../admin/make_share_list
 	cd ${WRKSRC} && ./bootstrap
 
 .include "../../wip/mk/git-package.mk"
