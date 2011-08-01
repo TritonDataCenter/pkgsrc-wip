@@ -1,7 +1,7 @@
 # $NetBSD: options.mk,v 1.2 2009/06/09 13:57:56 taca Exp $
 #
 PKG_OPTIONS_VAR=	PKG_OPTIONS.netatalk
-PKG_SUPPORTED_OPTIONS=	cups ddp kerberos pam slp
+PKG_SUPPORTED_OPTIONS=	cups ddp debug kerberos pam slp
 PKG_SUGGESTED_OPTIONS=	ddp
 
 .include "../../mk/bsd.options.mk"
@@ -21,6 +21,16 @@ PLIST.ddp=		yes
 .else
 CONFIGURE_ARGS+=	--disable-ddp
 CONFIGURE_ARGS+=	--disable-timelord
+.endif
+
+PLIST_VARS+=		debug
+.if !empty(PKG_OPTIONS:Mdebug)
+# Debugging
+CONFIGURE_ARGS+=	--enable-debug1
+CONFIGURE_ARGS+=	--enable-debug
+CONFIGURE_ARGS+=	--enable-debugging
+CFLAGS+=		-g
+INSTALL_UNSTRIPPED=	yes
 .endif
 
 PLIST_VARS+=		gssapi
