@@ -1,0 +1,9 @@
+===========================================================================
+$NetBSD$
+
+  To use this program, you'll have to install one of the following:
+	* pkgsrc/audio/eawpatches
+	* pkgsrc/audio/freepats
+	* pkgsrc/audio/guspatches
+
+===========================================================================
