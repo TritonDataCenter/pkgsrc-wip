@@ -8,6 +8,9 @@ bin/move
 bin/open
 bin/properties
 bin/view
+include/Desktop/Browser.h
+lib/Browser/plugins/properties.so
+lib/Browser/plugins/volumes.so
 share/applications/browser.desktop
 share/applications/desktop-settings.desktop
 share/icons/hicolor/16x16/apps/browser-view-details.png
