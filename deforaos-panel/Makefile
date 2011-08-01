@@ -21,4 +21,5 @@ MAKE_FLAGS+=	DESTDIR=${DESTDIR}
 
 .include "../../wip/deforaos-libsystem/buildlink3.mk"
 .include "../../wip/deforaos-libdesktop/buildlink3.mk"
+.include "../../wip/deforaos-keyboard/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
