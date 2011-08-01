@@ -997,7 +997,6 @@ SUBDIR+=	hylafax
 SUBDIR+=	hylafax-devel
 SUBDIR+=	i3
 SUBDIR+=	i3-devel
-SUBDIR+=	i3bar
 SUBDIR+=	i3lock
 SUBDIR+=	iText
 SUBDIR+=	iTextXML
