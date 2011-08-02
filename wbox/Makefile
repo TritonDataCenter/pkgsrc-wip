@@ -10,6 +10,8 @@ HOMEPAGE=		http://www.hping.org/wbox/
 COMMENT=		HTTP testing tool
 LICENSE=		modified-bsd
 
+INSTALLATION_DIRS=	bin
+
 PKG_DESTDIR_SUPPORT=    user-destdir
 
 do-install:
