@@ -16,6 +16,8 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 USE_TOOLS+=	gmake
 USE_TOOLS+=	pkg-config
 
+PKGCONFIG_OVERRIDE+=	openbsc.pc.in
+
 GNU_CONFIGURE=	yes
 
 .include "../../wip/libosmocore/buildlink3.mk"
