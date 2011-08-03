@@ -1,5 +1,8 @@
 $NetBSD$
 
+Note: upstream fixed this by changing the prototype in imivctl.hxx instead --
+beware when updating libreoffice to a newer snapshot.
+
 --- clone/libs-gui/svtools/source/contnr/imivctl1.cxx.orig	2011-07-15 14:53:56.000000000 +0000
 +++ clone/libs-gui/svtools/source/contnr/imivctl1.cxx
 @@ -292,7 +292,7 @@ void SvxIconChoiceCtrl_Impl::FontModifie
