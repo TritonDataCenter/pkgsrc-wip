@@ -15,6 +15,10 @@ LICENSE=	gnu-gpl-v2
 PKG_DESTDIR_SUPPORT=	user-destdir
 USE_TOOLS+=	gmake
 
+PKGCONFIG_OVERRIDE+=	libosmocodec.pc.in
+PKGCONFIG_OVERRIDE+=	libosmocore.pc.in
+PKGCONFIG_OVERRIDE+=	libosmocovty.pc.in
+
 GNU_CONFIGURE=	yes
 
 .include "../../mk/bsd.pkg.mk"
