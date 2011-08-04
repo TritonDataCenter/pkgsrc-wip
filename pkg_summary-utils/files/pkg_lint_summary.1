@@ -116,6 +116,27 @@ problems to stderr in the following format:
    u: unicity PKGBASE <- PKGPATH1 PKGPATH2 ... PKGPATHn
 
 .VE
+.TP
+.B "-f"
+check files in PLIST entries given on input and warns about files common
+for several packages.
+.VB
+
+   f: conflict FILE <- PKGPATH1 PKGNAME1 PKGPATH2 PKGNAME2 ...
+
+.VE
+Sample of usage:
+.VB
+
+   # pkg_bin_summary -f PKGNAME,PKGPATH,PLIST \\ 
+         ./tex-metapost-1.211.tgz ./web2c-2011.tgz | \\ 
+     pkg_lint_summary -f
+   f: conflict /usr/pkg/bin/mfplain \\ 
+            graphics/tex-metapost tex-metapost-1.211 \\ 
+            print/web2c web2c-2011
+   # 
+
+.VE
 .SH EXIT STATUS
 Non-zero value if errors were encountered, zero otherwise.
 .SH SEE ALSO
