@@ -1541,6 +1541,7 @@ SUBDIR+=	nemo
 SUBDIR+=	nestra
 SUBDIR+=	net-quanta
 SUBDIR+=	net-tools
+SUBDIR+=	netatalk20
 SUBDIR+=	netatalk22
 SUBDIR+=	netbsd-awk
 SUBDIR+=	netbsd-make
