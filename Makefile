@@ -656,6 +656,7 @@ SUBDIR+=	gimp-high-pass-filter
 SUBDIR+=	git
 SUBDIR+=	givaro
 SUBDIR+=	gjots2
+SUBDIR+=	gjs
 SUBDIR+=	gksu
 SUBDIR+=	gl
 SUBDIR+=	glade2-nognome
