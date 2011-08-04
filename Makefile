@@ -2603,6 +2603,7 @@ SUBDIR+=	spectrum
 SUBDIR+=	speedx
 SUBDIR+=	spfmilter
 SUBDIR+=	sphinxsearch
+SUBDIR+=	spidermonkey185
 SUBDIR+=	splix
 SUBDIR+=	spyder
 SUBDIR+=	squidview
