@@ -22,6 +22,10 @@ MAKE_JOBS_SAFE=	NO
 
 GNU_CONFIGURE=		YES
 CONFIGURE_ARGS+=	--with-system-nspr
+CONFIGURE_ARGS+=	--enable-threadsafe
+
+#XXX workaround for js-config command and mozjs185.pc
+CONFIGURE_ENV+=		MOZILLA_VERSION=4.0
 
 PKGCONFIG_OVERRIDE+=	ctypes/libffi/libffi.pc.in
 PKGCONFIG_OVERRIDE+=	mozjs185.pc.in
