@@ -1301,7 +1301,6 @@ rubinius/lib/rubinius/documentation/stylesheets/application.css
 rubinius/lib/rubinius/documentation/stylesheets/blueprint/ie.css
 rubinius/lib/rubinius/documentation/stylesheets/blueprint/print.css
 rubinius/lib/rubinius/documentation/stylesheets/blueprint/screen.css
-rubinius/lib/rubinius/documentation/stylesheets/colors.css
 rubinius/lib/rubinius/documentation/stylesheets/ie.css
 rubinius/lib/rubygems.rb
 rubinius/lib/rubygems.rbc
