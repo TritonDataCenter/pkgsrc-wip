@@ -29,7 +29,9 @@ DESTDIR=${LOCALBASE}
 
 WRKSRC=		${WRKDIR}/rubinius-${VERSION}
 pre-patch:
-	ln -s /usr/pkg/include/llvm /usr/include/llvm #XXX Ugly hack. Please fix.
+        if ${TEST} ! -f /usr/include/llvm; then \
+	 ln -s /usr/pkg/include/llvm /usr/include/llvm \
+        fi; # Evil hack. Please fix
 
 do-install:
 	if ${TEST} -f ${DESTDIR}/bin/rake18; then \
