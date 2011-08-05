@@ -15,7 +15,6 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 
 GNU_CONFIGURE=	yes
 USE_TOOLS+=	pkg-config intltool
-USE_LANGUAGES=	c c++
 
 PKGCONFIG_OVERRIDE+=	yelp-xsl.pc.in
 
