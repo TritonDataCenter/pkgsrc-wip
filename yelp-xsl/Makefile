@@ -3,7 +3,7 @@
 
 DISTNAME=	yelp-xsl-2.31.1
 CATEGORIES=	misc textproc
-MASTER_SITES=	ftp://ftp.gnome.org/pub/gnome/sources/yelp-xsl/2.31/
+MASTER_SITES=	${MASTER_SITE_GNOME:=sources/yelp-xsl/2.31/}
 EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	pkgsrc.gnome@gmail.com
