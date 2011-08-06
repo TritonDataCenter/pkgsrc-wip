@@ -1893,6 +1893,7 @@ SUBDIR+=	pear-channel-phpunit
 SUBDIR+=	pessulus
 SUBDIR+=	petsc
 SUBDIR+=	pfe
+SUBDIR+=	pgbuildfarm
 SUBDIR+=	pgp6
 SUBDIR+=	phlib
 SUBDIR+=	phonon
