@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=			mirage-0.9.5.1
+DISTNAME=			mirage-0.9.5.2
 CATEGORIES=			graphics
 MASTER_SITES=		http://download.berlios.de/mirageiv/
 EXTRACT_SUFX=		.tar.bz2
