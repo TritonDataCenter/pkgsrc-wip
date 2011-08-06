@@ -867,6 +867,7 @@ SUBDIR+=	hs-chalkboard
 SUBDIR+=	hs-chalkboard-viewer
 SUBDIR+=	hs-chunks
 SUBDIR+=	hs-colorize-haskell
+SUBDIR+=	hs-containers-unicode-symbols
 SUBDIR+=	hs-convertible
 SUBDIR+=	hs-cpphs
 SUBDIR+=	hs-crypto-api
