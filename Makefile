@@ -712,7 +712,6 @@ SUBDIR+=	goldwater
 SUBDIR+=	google-perftools
 SUBDIR+=	googlecl
 SUBDIR+=	googlesharing
-SUBDIR+=	gource
 SUBDIR+=	gosmore
 SUBDIR+=	gov2
 SUBDIR+=	gpac-devel
