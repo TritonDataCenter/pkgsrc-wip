@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	yelp-xsl-2.31.1
-CATEGORIES=	misc textproc
+CATEGORIES=	textproc
 MASTER_SITES=	${MASTER_SITE_GNOME:=sources/yelp-xsl/2.31/}
 EXTRACT_SUFX=	.tar.bz2
 
