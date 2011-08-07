@@ -30,7 +30,7 @@ REPLACE_SH+=		distbb.in distbb_diff.in slave.in stage_*.in
 REPLACE_INTERPRETER+=	runawk
 REPLACE.runawk.old=	/usr/bin/env runawk
 REPLACE.runawk.new=	${PREFIX}/bin/runawk
-REPLACE_FILES.runawk=	gen_weights.in gen_queue.in
+REPLACE_FILES.runawk=	gen_weights.in gen_queue.in pkg_summary2build_deps.in
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 

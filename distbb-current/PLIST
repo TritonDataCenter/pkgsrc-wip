@@ -5,6 +5,7 @@ libexec/distbb/common
 libexec/distbb/gen_queue
 libexec/distbb/gen_weights
 libexec/distbb/make-depends
+libexec/distbb/pkg_summary2build_deps
 libexec/distbb/slave
 libexec/distbb/stage_build
 libexec/distbb/stage_checksum
