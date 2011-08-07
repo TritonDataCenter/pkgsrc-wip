@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		build-farm-4_5
-PKGNAME=		pg_build-farm-4.5
+PKGNAME=		pgbuildfarm-4.5
 CATEGORIES=		databases
 MASTER_SITES=		http://pgfoundry.org/frs/download.php/3028/
 EXTRACT_SUFX=		.tgz
@@ -31,6 +31,11 @@ CONF_FILES=		${EGDIR}/build-farm.conf \
 			${PKG_SYSCONFDIR}/build-farm.conf
 PKG_SYSCONFSUBDIR=	pgbuildfarm
 
+SUBST_CLASSES+=		conf
+SUBST_STAGE.conf=	post-patch
+SUBST_FILES.conf=	setnotes.pl update_personality.pl PGBuild/Options.pm
+SUBST_SED.conf=		-e 's,build-farm.conf,${PKG_SYSCONFDIR}/build-farm.conf,'
+SUBST_MESSAGE.conf=	Fixing default value for build-farm.conf
 
 INSTALLATION_DIRS+= ${PREFIX}/${PERL5_SUB_INSTALLVENDORLIB}
 INSTALLATION_DIRS+= ${PKG_SYSCONFDIR}
