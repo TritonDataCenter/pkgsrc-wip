@@ -1,9 +1,9 @@
 # $NetBSD$
 
-DISTNAME=		9bc115d8f1
+DISTNAME=		tk8.6b2-src.tar.gz
 PKGNAME=		tk86-${TK_PKGSRC_PATCHLEVEL}
 CATEGORIES=		x11 lang
-MASTER_SITES=		http://mirror1.tcl.tk/tk/tarball/tk.tgz?uuid=
+MASTER_SITES=		http://sourceforge.net/projects/tcl/files/Tcl/8.6b2/
 
 MAINTAINER=		bch@methodlogic.net
 HOMEPAGE=		http://www.tcl.tk/
@@ -16,7 +16,7 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 .include "../../wip/tk86/Makefile.version"
 .include "../../wip/tcl86/options.mk"
 
-WRKSRC=			${WRKDIR}/tk.tgz
+WRKSRC=			${WRKDIR}/tk8.6b2
 
 GNU_CONFIGURE=	yes
 CONFIGURE_DIRS=	unix
