@@ -1,12 +1,13 @@
 # $NetBSD$
 
-BUILDLINK_TREE+=	llvm
+BUILDLINK_TREE+=	clang
 
-.if !defined(LLVM_BUILDLINK3_MK)
-LLVM_BUILDLINK3_MK:=
+.if !defined(CLANG_BUILDLINK3_MK)
+CLANG_BUILDLINK3_MK:=
 
-BUILDLINK_API_DEPENDS.llvm+=	llvm>=2.1
-BUILDLINK_PKGSRCDIR.llvm?=	../../wip/llvm
-.endif # LLVM_BUILDLINK3_MK
+BUILDLINK_API_DEPENDS.clang+=	clang>=2.6nb2
+BUILDLINK_PKGSRCDIR.clang?=	../../wip/clang
 
-BUILDLINK_TREE+=	-llvm
+.endif	# CLANG_BUILDLINK3_MK
+
+BUILDLINK_TREE+=	-clang

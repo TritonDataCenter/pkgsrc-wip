@@ -35,6 +35,21 @@ INSTALLATION_DIRS=	bin lib libexec
 #.include "../../lang/ocaml/buildlink3.mk"
 TEST_TARGET=	check unittests
 
+.include "../../mk/bsd.prefs.mk"
+
+.if ${_OPSYS_SHLIB_TYPE} == "dylib"
+PLIST_SUBST+=		SOEXT="dylib"
+.else
+PLIST_SUBST+=		SOEXT="so"
+.endif
+PLIST_SUBST+=		PLIST_PKGVERSION=3.0 	# already used for current
+
+SUBST_CLASSES+=		perl
+SUBST_MESSAGE.perl=	Fixing llvm-configure PERL path
+SUBST_STAGE.perl=	post-patch
+SUBST_FILES.perl=	tools/llvm-config/llvm-config.in.in
+SUBST_SED.perl=		-e 's,@PERL@,${PERL5},'
+
 post-extract:
 	${MV} ${WRKDIR}/clang ${WRKSRC}/tools/clang
 
