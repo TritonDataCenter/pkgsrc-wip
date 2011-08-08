@@ -1,10 +1,10 @@
 # $NetBSD$
 #
 
-DISTNAME=		188a795873
+DISTNAME=		tcl8.6b2-src.tar.gz
 PKGNAME=		tcl86-${TCL_PKGSRC_PATCHLEVEL}
 CATEGORIES=		lang
-MASTER_SITES=		http://mirror1.tcl.tk/tcl/tarball/tcl.tgz?uuid=
+MASTER_SITES=	http://sourceforge.net/projects/tcl/files/Tcl/8.6b2/
 EXTRACT_SUFX=
 EXTRACT_CMD=		tar xzf $$extract_file
 
@@ -20,7 +20,7 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 CONFLICTS+=		tclman80-[0-9]*
 CONFLICTS+=		tcl85-* tcl-[0-9]*
 
-WRKSRC=			${WRKDIR}/tcl.tgz
+WRKSRC=			${WRKDIR}/tcl8.6b2
 
 GNU_CONFIGURE=	yes
 USE_TOOLS+=	gmake

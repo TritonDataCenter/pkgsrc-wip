@@ -237,7 +237,7 @@ lib/tcl8.6/tclAppInit.c
 lib/tcl8.6/tclIndex
 lib/tcl8.6/tm.tcl
 lib/tcl8.6/word.tcl
-lib/tcl8/8.4/platform-1.0.9.tm
+lib/tcl8/8.4/platform-1.0.10.tm
 lib/tcl8/8.4/platform/shell-1.1.4.tm
 lib/tcl8/8.5/msgcat-1.4.4.tm
 lib/tcl8/8.5/tcltest-2.3.3.tm
