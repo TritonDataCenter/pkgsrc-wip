@@ -6,7 +6,7 @@ CATEGORIES=	graphics
 MASTER_SITES=	http://webp.googlecode.com/files/
 
 MAINTAINER=	ryoon@NetBSD.org
-HOMEPAGE=	http://code.google.com/intl/ja/speed/webp/
+HOMEPAGE=	http://code.google.com/speed/webp/index.html
 COMMENT=	WebP image format library and tools
 LICENSE=	modified-bsd
 
