@@ -1,12 +1,12 @@
 # $NetBSD$
 
-DISTNAME=	wkhtmltopdf-0.10.0_beta5
+DISTNAME=	wkhtmltopdf-0.10.0_rc2
 CATEGORIES=	textproc
 MASTER_SITES=	http://wkhtmltopdf.googlecode.com/files/
-EXTRACT_SUFX=	.tar.lzma
+EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	zecrazytux@zecrazytux.net
-HOMEPAGE=	http://wkhtmltopdf.googlecode.com/files/
+HOMEPAGE=	http://code.google.com/p/wkhtmltopdf/
 COMMENT=	Prints a XHTML document into PDF thanks to the webkit engine
 LICENSE=	gnu-gpl-v3
 
