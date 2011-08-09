@@ -389,6 +389,7 @@ SUBDIR+=	deforaos-player
 SUBDIR+=	deforaos-probe
 SUBDIR+=	deforaos-surfer
 SUBDIR+=	deforaos-todo
+SUBDIR+=	denemo
 SUBDIR+=	depsolver
 SUBDIR+=	deskcribe
 SUBDIR+=	desktop-data-model
