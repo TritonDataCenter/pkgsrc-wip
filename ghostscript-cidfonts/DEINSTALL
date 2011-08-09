@@ -14,6 +14,6 @@ DEINSTALL)
 		dest="${GS_RESOURCEDIR}/Init/CIDFont/$base"
 		${RM} -f $dest
 	done
-	;;
 	rmdir ${GS_RESOURCEDIR}/Init/CIDFont
+	;;
 esac
