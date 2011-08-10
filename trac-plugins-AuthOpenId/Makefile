@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTVERS=	0.2.1
+DISTVERS=	0.3.4
 DISTNAME=	TracAuthOpenId-${DISTVERS}
 PKGNAME=	trac-plugins-AuthOpenId-${DISTVERS}
 EGG_NAME=	${PKGNAME}
