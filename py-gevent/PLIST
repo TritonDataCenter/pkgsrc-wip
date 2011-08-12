@@ -24,6 +24,9 @@ ${PYSITELIB}/gevent/greenlet.pyo
 ${PYSITELIB}/gevent/http.py
 ${PYSITELIB}/gevent/http.pyc
 ${PYSITELIB}/gevent/http.pyo
+${PYSITELIB}/gevent/httplib.py
+${PYSITELIB}/gevent/httplib.pyc
+${PYSITELIB}/gevent/httplib.pyo
 ${PYSITELIB}/gevent/hub.py
 ${PYSITELIB}/gevent/hub.pyc
 ${PYSITELIB}/gevent/hub.pyo
