@@ -1,5 +1,4 @@
 # $NetBSD$
-#
 
 DISTNAME=	greenlet-0.3.1
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
@@ -12,8 +11,7 @@ COMMENT=	Lightweight in-process concurrent programming
 LICENSE=	mit
 
 PKG_DESTDIR_SUPPORT=	user-destdir
-PYTHON_VERSIONS_ACCEPTED= 27 26 25
-USE_LANGUAGES=	c 
+PYTHON_VERSIONS_ACCEPTED= 25 26 27
 
 .include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"
