@@ -72,7 +72,7 @@ if PKG_INFO_ARGS is not empty.
 
   pkg_bin_summary -a automatic -r REQUIRES 'lib*'
 
-  pkg_bin_summary -f PKGNAME,PKGPATH,DEPENDS,BUILD_DEPENDS,ASSIGNMENTS |
+  pkg_bin_summary -f PKGNAME,PKGPATH,DEPENDS,ASSIGNMENTS |
   pkg_summary2deps -pdt |
   tsort
 
