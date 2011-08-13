@@ -1,5 +1,7 @@
 $NetBSD$
 
+Fix paths to examples.
+
 --- hl/examples/run-hlc-ex.sh.in.orig	2011-05-09 16:47:58.000000000 +0000
 +++ hl/examples/run-hlc-ex.sh.in
 @@ -20,7 +20,7 @@
