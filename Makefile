@@ -1530,6 +1530,7 @@ SUBDIR+=	nautilus-open-terminal
 SUBDIR+=	nautilus-search-tool
 SUBDIR+=	nautilus-sound-converter
 SUBDIR+=	nauty
+SUBDIR+=	navi2ch-current
 SUBDIR+=	navigatrix
 SUBDIR+=	nbfc
 SUBDIR+=	ncbi
