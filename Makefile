@@ -26,6 +26,7 @@ SUBDIR+=	Pythonol
 SUBDIR+=	R-Rdbi
 SUBDIR+=	R-Rdbi.PgSQL
 SUBDIR+=	R-Rserve
+SUBDIR+=	R-bigmemory
 SUBDIR+=	R-digest
 SUBDIR+=	R-entropy
 SUBDIR+=	R-mclust
