@@ -973,6 +973,7 @@ SUBDIR+=	hs-tagsoup
 SUBDIR+=	hs-tar
 SUBDIR+=	hs-terminfo
 SUBDIR+=	hs-text
+SUBDIR+=	hs-text-icu
 SUBDIR+=	hs-tfp
 SUBDIR+=	hs-time-http
 SUBDIR+=	hs-time-w3c
