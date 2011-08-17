@@ -23,5 +23,5 @@ COMMENT=	Xfce mail checker plugin for the panel
 .include "../../x11/xfce4-panel/buildlink3.mk"
 .include "../../x11/libxfce4gui/buildlink3.mk"
 .include "../../x11/libxfce4util/buildlink3.mk"
-.include "../../security/gnutls/buildlink3.mk"
+.include "../../security/libgcrypt/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
