@@ -2,7 +2,7 @@
 
 DISTNAME=	c-news
 PKGNAME=	c-news-CR-7
-PKGREVISION=	2
+PKGREVISION=	3
 CATEGORIES=	news
 MASTER_SITES=	ftp://ftp.cs.toronto.edu/pub/c-news/ \
 		ftp://ftp.funet.fi/pub/unix/news/cnews/ \
@@ -40,6 +40,10 @@ PKG_GROUPS=	news
 PKG_SYSCONFDIR.c-news=	${CNEWSDATA}/etc
 
 EGDIR=		${PREFIX}/share/examples/c-news
+
+# Debugging aids
+CFLAGS+=	-g
+INSTALL_UNSTRIPPED = yes
 
 .include "../../mk/bsd.prefs.mk"
 
