@@ -1649,6 +1649,7 @@ SUBDIR+=	ozymandns
 SUBDIR+=	p2kmoto
 SUBDIR+=	p3nfs
 SUBDIR+=	p4
+SUBDIR+=	p4d
 SUBDIR+=	p4api
 SUBDIR+=	p5-AI-NeuralNet-Simple
 SUBDIR+=	p5-AI-Prolog
