@@ -5,7 +5,7 @@ MASTER_SITES=	${MASTER_SITE_R_CRAN:=contrib/}
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.bigmemory.org/
-COMMENT=	Manipulation of massive matrices
+COMMENT=	Manage massive matrices with shared memory and memory-mapped files
 
 R_PKGNAME=	bigmemory
 R_PKGVER=	4.2.11
