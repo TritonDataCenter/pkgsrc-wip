@@ -3,7 +3,7 @@
 
 DISTNAME=	p4api
 DISTFILES=	p4api.tgz
-HOMEPAGE=	http://www.perforce.com/perforce/loadsupp.html
+HOMEPAGE=	http://www.perforce.com/product/components/apis
 COMMENT=	Perforce SCM C/C++ API
 
 PKG_DESTDIR_SUPPORT=	user-destdir

@@ -5,7 +5,7 @@ PKGNAME=	${PYPKGPREFIX}-p4-${P4_VER}
 DISTNAME=	p4python
 DISTFILES=	p4python.tgz
 MASTER_SITES=	ftp://ftp.perforce.com/perforce/r10.2/bin.tools/
-HOMEPAGE=	http://www.perforce.com/perforce/loadsupp.html
+HOMEPAGE=	http://www.perforce.com/product/components/apis
 COMMENT=	Perforce SCM Python API
 
 PKG_DESTDIR_SUPPORT=	user-destdir
