@@ -21,6 +21,12 @@ BUILDLINK_TRANSFORM+=	l:BoostParts:boost_date_time:boost_filesystem:boost_regex:
 BUILDLINK_TRANSFORM+=	l:Xerces:xerces-c
 BUILDLINK_TRANSFORM+=	l:zlib:z
 
+.include "../../mk/compiler.mk"
+# GCC 4.4 and above needs this
+.if !empty(PKGSRC_COMPILER:Mgcc) && !empty(CC_VERSION:Mgcc-4.[4-9]*)
+_WRAP_EXTRA_ARGS.CXX+=	-std=c++0x
+.endif
+
 .include "../../textproc/xerces-c/buildlink3.mk"
 .include "../../devel/zlib/buildlink3.mk"
 .include "../../devel/boost-libs/buildlink3.mk"
