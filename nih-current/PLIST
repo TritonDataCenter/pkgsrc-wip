@@ -3,6 +3,7 @@ bin/nih
 bin/pkg_status
 bin/pkg_update_plan
 lib/nih/nih.default.conf
+libexec/nih/cmp2hr
 man/man1/pkg_update_plan.1
 man/man8/nih.8
 share/doc/pkgnih/COPYRIGHT
