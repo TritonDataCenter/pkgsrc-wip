@@ -17,8 +17,9 @@ GNU_CONFIGURE=	yes
 MAKE_DIRS+=	etc/llvm
 CONFIGURE_ARGS+=	--disable-bindings	# disable OCaml
 CONFIGURE_ARGS+=	--enable-optimized
+# Don't build support for all targets, it leads to irreproducable packages:
+CONFIGURE_ARGS+=	--enable-targets=host
 # This should be changed!
-CONFIGURE_ARGS+=	--enable-targets=host-only
 CONFIGURE_ARGS+=	--disable-assertions
 CONFIGURE_ARGS+=	--disable-timestamps
 
