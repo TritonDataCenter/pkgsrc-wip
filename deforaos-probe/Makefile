@@ -1,6 +1,5 @@
 # $NetBSD$
 
-
 DISTNAME=	Probe-0.0.2
 PKGNAME=	deforaos-probe-0.0.2
 CATEGORIES=	net
@@ -16,6 +15,7 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 MAKE_FLAGS+=	PREFIX=${PREFIX}
 MAKE_FLAGS+=	DESTDIR=${DESTDIR}
 
+PKG_GROUPS+=	probe
 PKG_USERS+=	probe:probe
 PKG_USERS+=	damon:probe
 PKG_HOME.damon=	${VARBASE}/damon
