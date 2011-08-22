@@ -2219,6 +2219,7 @@ SUBDIR+=	py-netcdf
 SUBDIR+=	py-neurolab
 SUBDIR+=	py-neuronpy
 SUBDIR+=	py-nibabel
+SUBDIR+=	py-nltk
 SUBDIR+=	py-nodepy
 SUBDIR+=	py-nose-senario
 SUBDIR+=	py-ntch
