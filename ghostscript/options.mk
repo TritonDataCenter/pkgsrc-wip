@@ -6,7 +6,7 @@ PKG_SUGGESTED_OPTIONS=	x11 fontconfig
 
 .include "../../mk/bsd.options.mk"
 
-# (no_cidfmap)	when --disable-compile-inits selected, 
+# (no_cidfmap)	when --disable-compile-inits selected,
 #		cidfmap is renamed to cidfmap.dist
 PLIST_VARS+=		no_cidfmap
 
