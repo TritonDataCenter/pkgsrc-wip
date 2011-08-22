@@ -22,4 +22,9 @@ pre-configure:
 	${MKDIR} ${PREFIX}/share/unicode
 	${CP} ${DISTDIR}/Blocks.txt ${PREFIX}/share/unicode
 
+.include "../../devel/glib/buildlink3.mk"
+.include "../../devel/pango/buildlink3.mk"
+.include "../../fonts/fontconfig/buildlink3.mk"
+.include "../../graphics/cairo/buildlink3.mk"
+.include "../../graphics/freetype2/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
