@@ -13,10 +13,13 @@ HOMEPAGE=	http://fntsample.sourceforge.net/
 COMMENT=	Make font samples, similar to Unicode charts, showing Unicode coverage
 LICENSE=	gnu-gpl-v3
 
+INSTALLATION_DIRS=	share/unicode
+
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS+=	--with-unicode-blocks=${PREFIX}/share/unicode/Blocks.txt
 
 pre-configure:
+	${MKDIR} ${PREFIX}/share/unicode
 	${CP} ${DISTDIR}/Blocks.txt ${PREFIX}/share/unicode
 
 .include "../../mk/bsd.pkg.mk"
