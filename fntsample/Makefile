@@ -8,19 +8,22 @@ MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=fntsample/}
 DISTFILES=	${DEFAULT_DISTFILES} Blocks.txt
 SITES.Blocks.txt=	http://unicode.org/Public/UNIDATA/
 
-MAINTAINER=	pkgsrc-users@netbsd.org
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://fntsample.sourceforge.net/
 COMMENT=	Make font samples, similar to Unicode charts, showing Unicode coverage
 LICENSE=	gnu-gpl-v3
 
 INSTALLATION_DIRS=	share/unicode
 
+PKG_DESTDIR_SUPPORT=	user-destdir
+USE_TOOLS+=	pkg-config gmake perl:run
+REPLACE_PERL=	pdfoutline.pl
 GNU_CONFIGURE=	yes
-CONFIGURE_ARGS+=	--with-unicode-blocks=${PREFIX}/share/unicode/Blocks.txt
+CONFIGURE_ARGS+=	--with-unicode-blocks=${DESTDIR}${PREFIX}/share/unicode/Blocks.txt
 
 pre-configure:
-	${MKDIR} ${PREFIX}/share/unicode
-	${CP} ${DISTDIR}/Blocks.txt ${PREFIX}/share/unicode
+	${MKDIR} ${DESTDIR}${PREFIX}/share/unicode
+	${CP} ${DISTDIR}/Blocks.txt ${DESTDIR}${PREFIX}/share/unicode
 
 .include "../../devel/glib/buildlink3.mk"
 .include "../../devel/pango/buildlink3.mk"
