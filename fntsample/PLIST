@@ -4,4 +4,3 @@ bin/pdfoutline
 man/man1/fntsample.1
 man/man1/pdfoutline.1
 share/locale/uk/LC_MESSAGES/fntsample.mo
-@pkgdir share/unicode
