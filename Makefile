@@ -2452,6 +2452,7 @@ SUBDIR+=	r8s
 SUBDIR+=	rabbitmq
 SUBDIR+=	radare
 SUBDIR+=	radiotray
+SUBDIR+=	ranmacgen
 SUBDIR+=	rar4
 SUBDIR+=	rast
 SUBDIR+=	raster3d
