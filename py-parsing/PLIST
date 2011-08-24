@@ -1,8 +1,10 @@
 @comment $NetBSD$
-lib/python2.5/site-packages/pyparsing.py
-lib/python2.5/site-packages/pyparsing.pyc
-lib/python2.5/site-packages/pyparsing.pyo
-lib/python2.5/site-packages/pyparsing_py3.py
+${PYSITELIB}/pyparsing.py
+${PYSITELIB}/pyparsing.pyc
+${PYSITELIB}/pyparsing.pyo
+${PYSITELIB}/pyparsing_py3.py
+${PYSITELIB}/pyparsing_py3.pyc
+${PYSITELIB}/pyparsing_py3.pyo
 share/doc/html/pyparsing/api-objects.txt
 share/doc/html/pyparsing/class-tree.html
 share/doc/html/pyparsing/crarr.png
