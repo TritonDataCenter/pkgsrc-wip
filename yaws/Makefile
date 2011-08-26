@@ -74,5 +74,4 @@ do-install:
 	${INSTALL_DATA_DIR} ${DESTDIR}${PKG_SYSCONFDIR}/yaws
 
 .include "../../lang/erlang/buildlink3.mk"
-.include "../../mk/bsd.prefs.mk"
 .include "../../mk/bsd.pkg.mk"
