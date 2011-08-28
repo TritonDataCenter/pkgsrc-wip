@@ -113,6 +113,9 @@ with single space character between them.
 .BI "-E"
 if applied together with -A, field values are output even
 if they are equal in summary1 and summary2.
+.TP
+.BI "-O " fields
+implies -E, output specified fields but don't use them for comparison.
 .SH EXAMPLES
 .VB
    # pkg_bin_summary -f PKGNAME,automatic runawk > 1
