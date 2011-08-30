@@ -1,8 +1,8 @@
 $NetBSD$
 
---- clone/impress/sd/Module_sd.mk.orig	2011-05-10 12:45:30 +0000
-+++ clone/impress/sd/Module_sd.mk
-@@ -39,10 +39,6 @@ $(eval $(call gb_Module_add_targets,sd,\
+--- sd/Module_sd.mk.orig	2011-08-23 13:05:22.000000000 +0000
++++ sd/Module_sd.mk
+@@ -40,10 +40,6 @@ $(eval $(call gb_Module_add_targets,sd,\
      Package_xml \
  ))
  

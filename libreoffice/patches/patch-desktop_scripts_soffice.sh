@@ -1,7 +1,7 @@
 $NetBSD$
 
---- clone/libs-core/desktop/scripts/soffice.sh.orig	2011-06-14 22:00:33.000000000 +0000
-+++ clone/libs-core/desktop/scripts/soffice.sh
+--- desktop/scripts/soffice.sh.orig	2011-06-14 22:00:33.000000000 +0000
++++ desktop/scripts/soffice.sh
 @@ -87,6 +87,7 @@ NetBSD|OpenBSD|FreeBSD|DragonFly)
      sd_prog1="$sd_prog/../basis-link/program"
      sd_prog2="$sd_prog/../basis-link/ure-link/lib"
