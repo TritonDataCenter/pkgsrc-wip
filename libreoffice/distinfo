@@ -45,6 +45,7 @@ Size (libreoffice/libreoffice-dictionaries-2011-08-30.tar.bz2) = 39634187 bytes
 SHA1 (libreoffice/libreoffice-help-2011-08-30.tar.bz2) = 2f47f0e4b5debf78baa698d62fcf1055f665fa2a
 RMD160 (libreoffice/libreoffice-help-2011-08-30.tar.bz2) = 7ac3012c8f1c84c62ec931564fe7503d702ed0e6
 Size (libreoffice/libreoffice-help-2011-08-30.tar.bz2) = 1427881 bytes
+SHA1 (patch-Makefile.in) = 5612fb5f9e9f4735b6d91c8d99b6ddd5de752fa3
 SHA1 (patch-bin_distro-install-desktop-integration) = 55806364cfe6894856190893363ee34768a498f6
 SHA1 (patch-desktop_scripts_soffice.sh) = 37dfdd298a131d30580d597f3faa4c2ddbda4299
 SHA1 (patch-sd_Module_sd.mk) = efc6753baeb518e6577c018fe88f0774b307ea60
