@@ -2,7 +2,7 @@
 
 DISTNAME=	akonadi-1.5.3
 CATEGORIES=	mail
-MASTER_SITES=	http://download.akonadi-project.org/
+MASTER_SITES=	ftp://kde.mirror.anlx.net/stable/akonadi/src/
 EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	markd@NetBSD.org
