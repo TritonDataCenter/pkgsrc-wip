@@ -54,6 +54,12 @@ SUBST_SED.man+=		-e 's,\$${(SESMAN|XRDP)_CFG_DIR},${PKG_SYSCONFDIR},g'
 SUBST_SED.man+=		-e 's,\$${(SESMAN|XRDP)_LOG_DIR},.,g' # FIXME
 SUBST_SED.man+=		-e 's,\$${(SESMAN|XRDP)_PID_DIR},/var/run,g'
 
+SUBST_CLASSES+=		paths
+SUBST_MESSAGE.paths=	Fixing hardcoded paths
+SUBST_STAGE.paths=	post-patch
+SUBST_FILES.paths=	sesman/env.c
+SUBST_VARS.paths=	PREFIX
+
 .include "../../security/openssl/buildlink3.mk"
 .include "../../mk/pthread.buildlink3.mk"
 .include "../../mk/pam.buildlink3.mk"

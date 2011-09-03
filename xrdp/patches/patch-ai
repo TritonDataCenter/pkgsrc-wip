@@ -7,7 +7,7 @@ $NetBSD$
        g_clearenv();
        g_setenv("SHELL", pw_shell, 1);
 -      g_setenv("PATH", "/bin:/usr/bin:/usr/X11R6/bin:/usr/local/bin", 1);
-+      g_setenv("PATH", "/bin:/usr/bin:/usr/X11R6/bin:/usr/pkg/bin:/usr/local/bin", 1);
++      g_setenv("PATH", "/bin:/usr/bin:/usr/X11R6/bin:@PREFIX@/bin:/usr/local/bin", 1);
        g_setenv("USER", username, 1);
        g_sprintf(text, "%d", uid);
        g_setenv("UID", text, 1);
