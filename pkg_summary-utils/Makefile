@@ -65,5 +65,6 @@ MAKE_PROGRAM=	mkcmake
 do-extract:
 	${CP} -Rp ${FILESDIR} ${WRKSRC}
 
+.include "../../devel/mk-configure/configure.mk"
 .include "../../wip/pkg_summary-utils/files/version.mk"
 .include "../../mk/bsd.pkg.mk"
