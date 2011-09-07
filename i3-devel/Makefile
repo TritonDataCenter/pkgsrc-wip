@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	i3-4.0.1
+DISTNAME=	i3-4.0.2
 CATEGORIES=	wm
 MASTER_SITES=	http://i3wm.org/downloads/
 EXTRACT_SUFX=	.tar.bz2
