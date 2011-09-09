@@ -59,4 +59,5 @@ DEPENDS+=	tnftp-[0-9]*:../../net/tnftp
 
 MAKE_ENV+= FTP=${FTP_CMD:Q}
 
+.include "../../devel/mk-configure/configure.mk"
 .include "../../mk/bsd.pkg.mk"
