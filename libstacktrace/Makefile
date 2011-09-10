@@ -24,6 +24,7 @@ WRKSRC=			${WRKDIR}/${DISTNAME}/libstacktrace
 MAKE_ENV+=		MKINSTALL=yes
 MAKE_ENV+=		MKPROFILELIB=yes MKPICLIB=yes MKSTATICLIB=yes
 
-.include "../../mk/bsd.pkg.mk"
-
 MAKE_PROGRAM=		${PREFIX}/bin/mkcmake
+
+.include "../../devel/mk-configure/configure.mk"
+.include "../../mk/bsd.pkg.mk"
