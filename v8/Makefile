@@ -23,6 +23,9 @@ NO_CONFIGURE=		yes
 do-build:
 	cd ${WRKSRC} && ${SETENV} ${MAKE_ENV} ${PREFIX}/bin/scons debug=true relase=true library=shared PREFIX=${PREFIX}
 
+do-install:
+	cd ${WRKSRC}
+
 .include "../../lang/python26/buildlink3.mk"
 .include "../../wip/mk/svn-package.mk"
 .include "../../mk/bsd.pkg.mk"
