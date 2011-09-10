@@ -1,3 +1,4 @@
+@comment $NetBSD$
 lib/munin/plugins/acpi
 lib/munin/plugins/apt
 lib/munin/plugins/apt_all

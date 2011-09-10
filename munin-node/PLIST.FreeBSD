@@ -1,3 +1,4 @@
+@comment $NetBSD$
 lib/munin/plugins/coretemp
 lib/munin/plugins/cpu
 lib/munin/plugins/dev_cpu_

@@ -1,3 +1,4 @@
+@comment $NetBSD$
 lib/munin/plugins/fs_df
 lib/munin/plugins/fs_inodes
 lib/munin/plugins/io_busy_

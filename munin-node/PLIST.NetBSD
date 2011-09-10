@@ -1,3 +1,4 @@
+@comment $NetBSD$
 lib/munin/plugins/cpu
 lib/munin/plugins/forks
 lib/munin/plugins/if_
