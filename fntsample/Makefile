@@ -19,7 +19,6 @@ REPLACE_PERL=	pdfoutline.pl
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS+=	--with-unicode-blocks=${WRKDIR}/Blocks.txt
 
-.include "../../devel/glib/buildlink3.mk"
 .include "../../devel/pango/buildlink3.mk"
 .include "../../fonts/fontconfig/buildlink3.mk"
 .include "../../graphics/cairo/buildlink3.mk"
