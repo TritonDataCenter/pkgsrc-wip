@@ -34,7 +34,7 @@ CONFIGURE_ARGS+=	"--prefix=${PREFIX}"
 # CONFIGURE_ARGS+=	"--includedir=${PREFIX}/include/tcl${TCL_PKGSRC_PATCHLEVEL}"
 # CONFIGURE_ARGS+=	"--mandir=${PREFIX}/tcl${TCL_PKGSRC_PATCHLEVEL}/man"
 
-INSTALL_TARGET=	install install-private-headers
+INSTALL_TARGET=	install install-private-headers install-packages
 
 # The test target gives better results when not run as root.
 TEST_TARGET=		test
