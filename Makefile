@@ -578,7 +578,6 @@ SUBDIR+=	flvstreamer
 SUBDIR+=	flyback
 SUBDIR+=	fnord
 SUBDIR+=	fnteditfs
-SUBDIR+=	fntsample
 SUBDIR+=	fontedit
 SUBDIR+=	fonttosfnt
 SUBDIR+=	foo2zjs
