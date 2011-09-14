@@ -14,7 +14,7 @@ LICENSE=	mpl-1.1
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
-FIREFOX_VER=	3.6.19
+FIREFOX_VER=	3.6.22
 
 WRKSRC=		${WRKDIR}/firefox
 USE_LANGUAGES=	# none
