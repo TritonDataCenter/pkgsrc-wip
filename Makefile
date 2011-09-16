@@ -1312,7 +1312,6 @@ SUBDIR+=	libzn-poly
 SUBDIR+=	libzrtpcpp
 SUBDIR+=	lidia
 SUBDIR+=	linbox
-SUBDIR+=	lincity-ng
 SUBDIR+=	lingoteach-lesson
 SUBDIR+=	lingoteach-ui
 SUBDIR+=	links-hacked
