@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	OmegaT_2.2.3_04_Beta_Without_JRE
+DISTNAME=	OmegaT_2.3.0_01_Without_JRE
 PKGNAME=	${DISTNAME:S/OmegaT_/OmegaT-bin-/:S/_Without_JRE//:S/_Beta//:S/_/./g}
 CATEGORIES=	editors
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=omegat/}
@@ -14,8 +14,6 @@ COMMENT=	The translation memory (TM) application written in Java
 LICENSE=	gnu-gpl-v2
 
 PKG_DESTDIR_SUPPORT=	user-destdir
-
-#PKG_JVMS_ACCEPTED=	sun-jdk6
 
 USE_JAVA=	run
 USE_JAVA2=	yes
