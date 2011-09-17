@@ -1,14 +1,14 @@
 # $NetBSD$
 #
 
-DISTNAME=	bodr-8
+DISTNAME=	bodr-9
 CATEGORIES=	biology
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=bodr/}
 
 MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	http://blueobelisk.org/
 COMMENT=	Blue Obelisk Data Repository
-#LICENSE=	# TODO: (see mk/license.mk)
+LICENSE=	mit
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
