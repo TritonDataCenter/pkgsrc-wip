@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	sakura-2.4.0
+DISTNAME=	sakura-2.4.2
 CATEGORIES=	x11
 MASTER_SITES=	http://www.pleyades.net/david/projects/sakura/
 EXTRACT_SUFX=	.tar.bz2
