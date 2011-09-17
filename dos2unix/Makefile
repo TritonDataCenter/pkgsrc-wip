@@ -6,7 +6,7 @@ CATEGORIES=	converters
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=dos2unix/}
 
 MAINTAINER=	ryoon@NetBSD.org
-HOMEPAGE=	http://www.xs4all.nl/~waterlan/dos2unix.html
+HOMEPAGE=	http://waterlan.home.xs4all.nl/dos2unix.html
 COMMENT=	Convert text files with DOS or Mac line endings to Unix line endings
 LICENSE=	2-clause-bsd
 
