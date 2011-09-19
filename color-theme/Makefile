@@ -12,6 +12,7 @@ LICENSE=	gnu-gpl-v2
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
+MAKE_JOBS_SAFE=	no
 USE_LANGUAGES=	# none
 USE_TOOLS+=	gmake
 
