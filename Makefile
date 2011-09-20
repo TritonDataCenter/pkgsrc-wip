@@ -36,7 +36,6 @@ SUBDIR+=	R-rgdal
 SUBDIR+=	Radiator
 SUBDIR+=	Radiator-all
 SUBDIR+=	ReZound
-SUBDIR+=	Redland-rdf
 SUBDIR+=	SDL-doc
 SUBDIR+=	SDL-doc-html
 SUBDIR+=	SDL-doc-ps
