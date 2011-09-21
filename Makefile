@@ -494,6 +494,7 @@ SUBDIR+=	emacs-current-nox11
 SUBDIR+=	emacs-ditz
 SUBDIR+=	emacs-jabber
 SUBDIR+=	emacs-pr-el
+SUBDIR+=	emacs-session
 SUBDIR+=	emacs-w3m-current
 SUBDIR+=	emboss
 SUBDIR+=	emboss-base
