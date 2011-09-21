@@ -1,29 +1,31 @@
 # $NetBSD$
 #
 
-DISTNAME=	css-mode
-PKGNAME=	css-mode-1.0
-CATEGORIES=	editors
+DISTNAME=		css-mode
+PKGNAME=		${DISTNAME}-1.0
+PKGREVISION=	1
+CATEGORIES=		editors
 MASTER_SITES=	http://www.brgeight.se/downloads/emacs/
 EXTRACT_SUFX=	.el
 
-MAINTAINER=	pho@cielonegro.org
-HOMEPAGE=	http://www.brgeight.se/
-COMMENT=	CSS editing mode for Emacs
+MAINTAINER=		pho@cielonegro.org
+HOMEPAGE=		http://www.brgeight.se/
+COMMENT=		CSS editing mode for Emacs
+LICENSE=		gnu-gpl-v2
 
-WRKSRC=		${WRKDIR}
-USE_LANGUAGES=	# none
+WRKSRC=			${WRKDIR}
+NO_CONFIGURE=	yes
 
-NO_CONFIGURE=YES
+PKG_DESTDIR_SUPPORT=	user-destdir
+INSTALLATION_DIRS+=		${EMACS_LISPPREFIX}
 
 do-build:
-	cd ${WRKSRC} \
-	&& ${EMACS_BIN} -batch -f batch-byte-compile css-mode.el
+	cd ${WRKSRC} && \
+		${EMACS_BIN} -batch -f batch-byte-compile *.el
 
 do-install:
-	${INSTALL_DATA_DIR} ${EMACS_LISPPREFIX}
-	${INSTALL_DATA} ${WRKSRC}/*.el  ${EMACS_LISPPREFIX}
-	${INSTALL_DATA} ${WRKSRC}/*.elc ${EMACS_LISPPREFIX}
+	${INSTALL_DATA} ${WRKSRC}/*.el  ${DESTDIR}${EMACS_LISPPREFIX}
+	${INSTALL_DATA} ${WRKSRC}/*.elc ${DESTDIR}${EMACS_LISPPREFIX}
 
 .include "../../editors/emacs/modules.mk"
 .include "../../mk/bsd.pkg.mk"
