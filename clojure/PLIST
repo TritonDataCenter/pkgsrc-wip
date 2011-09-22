@@ -1,5 +1,5 @@
 @comment $NetBSD$
-bin/clj.sh
+bin/clj
 lib/java/clojure/clojure.jar
 share/doc/${PKGNAME}/CommonLispFormat.markdown
 share/doc/${PKGNAME}/PrettyPrinting.markdown

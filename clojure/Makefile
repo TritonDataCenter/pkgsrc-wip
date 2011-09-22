@@ -24,9 +24,9 @@ USE_LANGUAGES=	# none
 USE_TOOLS+=	pax
 
 INSTALLATION_DIRS=	bin \
-			share/doc/${PKGNAME} \
+			share/doc/${PKGNAME_NOREV} \
 			lib/java/clojure \
-			share/examples/${PKGNAME}
+			share/examples/${PKGNAME_NOREV}
 
 CLOJURE_DOCS=	changes.txt epl-v10.html readme.txt \
 		doc/clojure/pprint/CommonLispFormat.markdown \
@@ -46,16 +46,16 @@ do-install:
 		${DESTDIR}${PREFIX}/lib/java/clojure
 
 	cd ${WRKSRC}/test/clojure && pax -rw -pmp test_clojure \
-		${DESTDIR}${PREFIX}/share/examples/${PKGNAME}/
+		${DESTDIR}${PREFIX}/share/examples/${PKGNAME_NOREV}/
 	${INSTALL_DATA} ${WRKSRC}/test/clojure/test_clojure.clj \
-		${DESTDIR}${PREFIX}/share/examples/${PKGNAME}
+		${DESTDIR}${PREFIX}/share/examples/${PKGNAME_NOREV}
 
 .for f in ${CLOJURE_DOCS}
 	${INSTALL_DATA} ${WRKSRC}/${f} \
-		${DESTDIR}${PREFIX}/share/doc/${PKGNAME}
+		${DESTDIR}${PREFIX}/share/doc/${PKGNAME_NOREV}
 .endfor
 
-	${INSTALL_SCRIPT} ${WRKSRC}/clj.sh ${DESTDIR}${PREFIX}/bin
+	${INSTALL_SCRIPT} ${WRKSRC}/clj.sh ${DESTDIR}${PREFIX}/bin/clj
 
 .include "../../mk/java-env.mk"
 .include "../../mk/java-vm.mk"
