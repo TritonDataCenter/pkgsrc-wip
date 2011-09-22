@@ -7,7 +7,7 @@ MASTER_SITES=	http://cloud.github.com/downloads/xsisqox/Viewnior/
 
 MAINTAINER=	ryoon@NetBSD.org
 HOMEPAGE=	http://xsisqox.github.com/Viewnior/
-COMMENT=	TODO: Short description of the package
+COMMENT=	Viewnior is a fast and simple image viewer
 LICENSE=	gnu-gpl-v3
 
 PKG_DESTDIR_SUPPORT=	user-destdir
