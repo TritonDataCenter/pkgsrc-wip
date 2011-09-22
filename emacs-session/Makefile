@@ -20,7 +20,7 @@ INSTALLATION_DIRS+=		share/doc/${PKGBASE}
 
 do-build:
 	cd ${WRKSRC} && \
-		&& ${EMACS_BIN} -batch -f batch-byte-compile lisp/*.el
+		${EMACS_BIN} -batch -f batch-byte-compile lisp/*.el
 
 do-install:
 	${INSTALL_DATA} ${WRKSRC}/lisp/*.el  ${DESTDIR}${EMACS_LISPPREFIX}
