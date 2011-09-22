@@ -22,12 +22,12 @@ FETCH_USING=	curl
 NO_BUILD=	yes
 USE_LANGUAGES=	# none
 
-INSTALLATION_DIRS=	lib/java/clojure share/doc/${PKGNAME}
+INSTALLATION_DIRS=	lib/java/clojure share/doc/${PKGNAME_NOREV}
 
 do-install:
-	${INSTALL_DATA} ${WRKSRC}/target/${PKGNAME}.jar \
+	${INSTALL_DATA} ${WRKSRC}/target/${PKGNAME_NOREV}.jar \
 		${DESTDIR}${PREFIX}/lib/java/clojure/clojure-contrib.jar
 	${INSTALL_DATA} ${WRKSRC}/README.txt \
-		${DESTDIR}${PREFIX}/share/doc/${PKGNAME}
+		${DESTDIR}${PREFIX}/share/doc/${PKGNAME_NOREV}
 
 .include "../../mk/bsd.pkg.mk"
