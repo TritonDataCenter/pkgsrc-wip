@@ -1567,6 +1567,7 @@ SUBDIR+=	netwib
 SUBDIR+=	netwox
 SUBDIR+=	netx
 SUBDIR+=	newsbeuter
+SUBDIR+=	newlisp
 SUBDIR+=	nginx
 SUBDIR+=	nicotine+
 SUBDIR+=	nios2
