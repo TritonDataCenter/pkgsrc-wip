@@ -20,8 +20,6 @@ CONFIGURE_ARGS+=	--enable-readline
 
 USE_GNU_READLINE=	yes
 
-MAKE_JOBS_SAFE=	NO
-
 SUBST_CLASSES+=			interpreter
 SUBST_STAGE.interpreter=	pre-configure
 SUBST_MESSAGE.interpreter=	Fix shebang
