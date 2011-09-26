@@ -2017,6 +2017,7 @@ SUBDIR+=	pt-cyrillic-ttf
 SUBDIR+=	pts
 SUBDIR+=	ptunnel
 SUBDIR+=	pudb
+SUBDIR+=	pure
 SUBDIR+=	pxlib
 SUBDIR+=	pxview
 SUBDIR+=	py-Beaker
