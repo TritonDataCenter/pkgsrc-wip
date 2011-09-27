@@ -1,5 +1,8 @@
 $NetBSD$
 
+Based on the suggenstion from TNT (www.trans-nt.com)
+Thanks locore64 (at) alkyltechnology.com for the info.
+
 --- gcc/c-parse.y.orig	2006-03-06 12:57:18.000000000 +0900
 +++ gcc/c-parse.y	2010-11-24 12:10:18.000000000 +0900
 @@ -1647,34 +1647,34 @@

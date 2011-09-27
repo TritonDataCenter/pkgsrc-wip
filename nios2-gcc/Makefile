@@ -7,6 +7,7 @@ PKGNAME=		nios2-gcc-${PKG_VERSION}
 CATEGORIES=		cross
 MAINTAINER=		pkgsrc-users@NetBSD.org
 COMMENT=		GNU gcc for Altera FPGA Nios2 processor
+LICENSE=		gnu-gpl-v2
 
 EXTRACT_ELEMENTS=	gcc
 WRKSRC=			${WRKDIR}/gcc
@@ -16,6 +17,7 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 
 USE_TOOLS+=		gmake makeinfo perl
 USE_GNU_CONFIGURE_HOST=	no
+#BUILD_DEFS+=		CROSSBASE	#included in ../nios2/Makefile.common
 
 DEPENDS+=		nios2-binutils:../../wip/nios2-binutils
 
