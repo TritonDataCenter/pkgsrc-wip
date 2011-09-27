@@ -1,0 +1,14 @@
+@comment $NetBSD$
+lib/blaze-textual-${PKGVERSION}/${HASKELL_VERSION}/Blaze/Text.hi
+lib/blaze-textual-${PKGVERSION}/${HASKELL_VERSION}/Blaze/Text.p_hi
+lib/blaze-textual-${PKGVERSION}/${HASKELL_VERSION}/Blaze/Text/Double.hi
+lib/blaze-textual-${PKGVERSION}/${HASKELL_VERSION}/Blaze/Text/Double.p_hi
+${PLIST.native}lib/blaze-textual-${PKGVERSION}/${HASKELL_VERSION}/Blaze/Text/Double/Native.hi
+${PLIST.native}lib/blaze-textual-${PKGVERSION}/${HASKELL_VERSION}/Blaze/Text/Double/Native.p_hi
+lib/blaze-textual-${PKGVERSION}/${HASKELL_VERSION}/Blaze/Text/Int.hi
+lib/blaze-textual-${PKGVERSION}/${HASKELL_VERSION}/Blaze/Text/Int.p_hi
+lib/blaze-textual-${PKGVERSION}/${HASKELL_VERSION}/HSblaze-textual-${PKGVERSION}.o
+lib/blaze-textual-${PKGVERSION}/${HASKELL_VERSION}/libHSblaze-textual-${PKGVERSION}.a
+lib/blaze-textual-${PKGVERSION}/${HASKELL_VERSION}/libHSblaze-textual-${PKGVERSION}_p.a
+lib/blaze-textual-${PKGVERSION}/${HASKELL_VERSION}/package-description
+share/doc/blaze-textual-${PKGVERSION}/LICENSE
