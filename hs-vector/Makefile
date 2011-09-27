@@ -1,11 +1,11 @@
 # $NetBSD$
 #
 
-DISTNAME=	vector-0.7.1
+DISTNAME=	vector-0.9
 CATEGORIES=	devel
 
 MAINTAINER=	pho@cielonegro.org
-COMMENT=	Haskell Efficient Arrays
+COMMENT=	Efficient Arrays in Haskell
 LICENSE=	modified-bsd
 
 .include "../../wip/mk/haskell.mk"
