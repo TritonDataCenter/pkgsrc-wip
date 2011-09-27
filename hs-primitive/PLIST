@@ -9,6 +9,8 @@ lib/primitive-${PKGVERSION}/${HASKELL_VERSION}/Data/Primitive/Array.hi
 lib/primitive-${PKGVERSION}/${HASKELL_VERSION}/Data/Primitive/Array.p_hi
 lib/primitive-${PKGVERSION}/${HASKELL_VERSION}/Data/Primitive/ByteArray.hi
 lib/primitive-${PKGVERSION}/${HASKELL_VERSION}/Data/Primitive/ByteArray.p_hi
+lib/primitive-${PKGVERSION}/${HASKELL_VERSION}/Data/Primitive/Internal/Compat.hi
+lib/primitive-${PKGVERSION}/${HASKELL_VERSION}/Data/Primitive/Internal/Compat.p_hi
 lib/primitive-${PKGVERSION}/${HASKELL_VERSION}/Data/Primitive/MachDeps.hi
 lib/primitive-${PKGVERSION}/${HASKELL_VERSION}/Data/Primitive/MachDeps.p_hi
 lib/primitive-${PKGVERSION}/${HASKELL_VERSION}/Data/Primitive/Types.hi
