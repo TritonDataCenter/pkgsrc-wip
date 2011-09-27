@@ -6,15 +6,16 @@ CATEGORIES=	devel
 MASTER_SITES=	${MASTER_SITE_GNOME:=sources/libgtksourceviewmm/0.3/}
 
 MAINTAINER=	makoto@ki.nu
-HOMEPAGE=	http://home.gna.org/gtksourceviewmm/
+HOMEPAGE=	http://projects.gnome.org/gtksourceviewmm/
 COMMENT=	C++ API for gtksourceview
+LICENSE=	gnu-gpl-v2
 
 USE_LANGUAGES+=	c c++
 GNU_CONFIGURE=	YES
 
 USE_TOOLS+=	gmake pkg-config
 USE_LIBTOOL=	yes
-USE_DESTDIR=	yes
+PKG_DESTDIR_SUPPORT=	user-destdir
 
 .include "../../x11/gtksourceview/buildlink3.mk"
 .include "../../x11/gtkmm/buildlink3.mk"
