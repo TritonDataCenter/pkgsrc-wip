@@ -11,8 +11,10 @@ PKG_SUGGESTED_OPTIONS= \
 
 .include "../../mk/bsd.options.mk"
 
-# Use pure Haskell implementation instead of using (currently
-# problematic) double-conversion.
+# Use pure Haskell implementation instead of (currently problematic)
+# double-conversion package. See:
+# http://hackage.haskell.org/trac/ghc/ticket/5386
+# http://hackage.haskell.org/trac/ghc/ticket/5435
 .if !empty(PKG_OPTIONS:Mnative)
 CONFIGURE_ARGS+=	-fnative
 PLIST.native=		yes
