@@ -76,6 +76,7 @@ SUBDIR+=	alberta
 SUBDIR+=	alex
 SUBDIR+=	algol68g
 SUBDIR+=	alive
+SUBDIR+=	allegro
 SUBDIR+=	alphamail
 SUBDIR+=	alsa-lib
 SUBDIR+=	alsa-plugins
