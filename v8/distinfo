@@ -1,4 +1,4 @@
 $NetBSD$
 
-SHA1 (patch-SConstruct) = 274c5b914aafa1678a95ff47e46adff21951ced4
+SHA1 (patch-SConstruct) = 85014c7de28a026731f0793db8639bc613765727
 SHA1 (patch-tools_utils.py) = aa9c4e2e6925363d94dec5e2eb486db5d1c5249c
