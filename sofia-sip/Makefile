@@ -13,6 +13,8 @@ LICENSE=	gnu-lgpl-v2.1
 
 USE_TOOLS+=	pkg-config
 
+PKG_DESTDIR_SUPPORT=	user-destdir
+
 USE_LIBTOOL=	yes
 GNU_CONFIGURE=	yes
 USE_LANGUAGES=	c
