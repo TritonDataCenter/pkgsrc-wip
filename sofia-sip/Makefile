@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	sofia-sip-1.12.10
+DISTNAME=	sofia-sip-1.12.11
 CATEGORIES=	net
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=sofia-sip/}
 
