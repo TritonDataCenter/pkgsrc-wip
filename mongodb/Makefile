@@ -1,5 +1,6 @@
 # $NetBSD$
 DISTNAME=	mongodb-src-r1.6.5
+PKGNAME=	${DISTNAME:S/src-r//}
 CATEGORIES=	database
 MASTER_SITES=	http://downloads.mongodb.org/src
 
