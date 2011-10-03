@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	uniplate-1.6
+DISTNAME=	uniplate-1.6.2
 CATEGORIES=	devel
 
 MAINTAINER=	pho@cielonegro.org
