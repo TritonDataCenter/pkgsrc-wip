@@ -957,6 +957,7 @@ SUBDIR+=	hs-pcre-light
 SUBDIR+=	hs-pointedlist
 SUBDIR+=	hs-pointedlist03
 SUBDIR+=	hs-primitive
+SUBDIR+=	hs-punycode
 SUBDIR+=	hs-pureMD5
 SUBDIR+=	hs-readline
 SUBDIR+=	hs-regex-base
