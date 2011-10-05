@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	hxt-9.1.2
+DISTNAME=	hxt-9.1.4
 CATEGORIES=	textproc
 
 MAINTAINER=	pho@cielonegro.org
