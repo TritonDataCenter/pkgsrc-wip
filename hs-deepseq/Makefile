@@ -1,11 +1,11 @@
 # $NetBSD$
 #
 
-DISTNAME=	deepseq-1.1.0.2
+DISTNAME=	deepseq-1.2.0.1
 CATEGORIES=	devel
 
 MAINTAINER=	pho@cielonegro.org
-COMMENT=	Fully evaluate data structures
+COMMENT=	Deep evaluation of data structures
 LICENSE=	modified-bsd
 
 .include "../../wip/mk/haskell.mk"
