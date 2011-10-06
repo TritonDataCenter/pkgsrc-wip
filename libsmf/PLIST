@@ -1,6 +1,0 @@
-@comment $NetBSD$
-bin/smfsh
-include/smf.h
-lib/libsmf.la
-lib/pkgconfig/smf.pc
-man/man1/smfsh.1
