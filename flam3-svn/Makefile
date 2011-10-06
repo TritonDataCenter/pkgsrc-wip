@@ -4,6 +4,7 @@ PKGNAME=		flam3-2.7
 DISTNAME=		flam3
 CATEGORIES=		x11
 MASTER_SITES=		http://electricsheep.org/
+LICENSE=		gnu-gpl-v2
 
 MAINTAINER=		rhialto@falu.nl
 HOMEPAGE=		http://flam3.com/
