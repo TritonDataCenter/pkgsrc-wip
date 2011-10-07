@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	Box2D_v2.1.2
+DISTNAME=	Box2D_v2.2.1
 PKGNAME=	${DISTNAME:S/_v/-/}
 CATEGORIES=	games
 MASTER_SITES=	http://box2d.googlecode.com/files/
@@ -13,7 +13,6 @@ COMMENT=	Box2D Physics Engine for games
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
-WRKSRC=		${WRKDIR}/${DISTNAME}/Box2D
 CONFIGURE_DIRS=	Build
 USE_LANGUAGES=	c c++
 USE_CMAKE=	yes
