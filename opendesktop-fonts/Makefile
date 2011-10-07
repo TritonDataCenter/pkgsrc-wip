@@ -3,7 +3,7 @@
 
 DISTNAME=	opendesktop-fonts-1.4.2
 CATEGORIES=	fonts chinese japanese
-MASTER_SITES=	ftp://ftp.opendesktop.org.tw/odp/ODOFonts/OpenFonts/
+MASTER_SITES=	http://www.opendesktop.org.tw/
 
 MAINTAINER=	obache@NetBSD.org
 HOMEPAGE=	ftp://ftp.opendesktop.org.tw/odp/ODOFonts/OpenFonts/
