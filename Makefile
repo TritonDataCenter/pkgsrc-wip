@@ -2925,6 +2925,7 @@ SUBDIR+=	xcowsay
 SUBDIR+=	xcursor-themes
 SUBDIR+=	xdiskusage
 SUBDIR+=	xdotool
+SUBDIR+=	xdvipdfmx
 SUBDIR+=	xebece
 SUBDIR+=	xesam-glib
 SUBDIR+=	xf86-input-synaptics
