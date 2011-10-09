@@ -13,7 +13,7 @@ PKG_SUPPORTED_OPTIONS=	nspluginwrapper
 .include "../../mk/bsd.prefs.mk"
 
 .if ${OPSYS} != "Linux"
-.  if ${MACHINE_ARCH} == "i386"# || ${MACHINE_ARCH} == "x86_64"
+.  if ${MACHINE_ARCH} == "i386" || ${MACHINE_ARCH} == "x86_64"
 PKG_SUGGESTED_OPTIONS=  nspluginwrapper
 .  endif
 .endif
