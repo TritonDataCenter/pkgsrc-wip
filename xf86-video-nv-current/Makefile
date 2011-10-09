@@ -3,9 +3,11 @@
 DISTNAME=	xf86-video-nv-2.1.16
 CATEGORIES=	x11
 
-MAINTAINER=	vle@gmx.net
+MAINTAINER=	cheusov@NetBSD.org
 HOMEPAGE=	http://xorg.freedesktop.org/
 COMMENT=	Modular Xorg NVIDIA video driver
+
+LICENSE=	mit
 
 GIT_REPOSITORIES=	master
 GIT_REPO.master=	git://cgit.freedesktop.org/xorg/driver/xf86-video-nv
