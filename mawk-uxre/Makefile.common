@@ -7,7 +7,7 @@ CATEGORIES=	lang
 MASTER_SITES=	ftp://invisible-island.net/mawk/
 EXTRACT_SUFX=	.tgz
 
-MAINTAINER=	vle@gmx.net
+MAINTAINER=	cheusov@NetBSD.org
 COMMENT=	AWK clone by Mike Brennan
 
 LICENSE=	gnu-gpl-v2

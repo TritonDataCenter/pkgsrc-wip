@@ -5,7 +5,7 @@ CATEGORIES=		misc
 MASTER_SITES=		# empty
 DISTFILES=		# empty
 
-MAINTAINER=		vle@gmx.net
+MAINTAINER=		cheusov@NetBSD.org
 HOMEPAGE=		#
 COMMENT=		Modified version of GNATS send-pr.el
 

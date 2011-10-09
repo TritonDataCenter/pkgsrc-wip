@@ -6,7 +6,7 @@ CATEGORIES=	pkgtools
 MASTER_SITES=	# empty
 DISTFILES=	# empty
 
-MAINTAINER=	cheusov@tut.by
+MAINTAINER=	cheusov@NetBSD.org
 HOMEPAGE=	# empty http://www.mova.org/~cheusov/pub/pkg_conflicts/
 COMMENT=	Tools for automatic CONFLICTS detection
 LICENSE=	mit

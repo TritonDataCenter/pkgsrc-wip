@@ -4,7 +4,7 @@ DISTNAME=	pkgnih-999
 PKGNAME=	nih-999
 CATEGORIES=	pkgtools
 
-MAINTAINER=	vle@gmx.net
+MAINTAINER=	cheusov@NetBSD.org
 HOMEPAGE=	https://github.com/cheusov/pkgnih
 COMMENT=	Package manager for pkgsrc
 

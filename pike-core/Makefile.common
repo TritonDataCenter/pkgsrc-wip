@@ -12,7 +12,7 @@ DISTNAME=	Pike-v${PIKE_VERSION}
 CATEGORIES=	lang
 MASTER_SITES=	ftp://pike.ida.liu.se/pub/pike/all/${PIKE_VERSION:Q}/
 
-MAINTAINER=	cheusov@tut.by
+MAINTAINER=	cheusov@NetBSD.org
 HOMEPAGE=	http://pike.ida.liu.se/
 
 PATCHDIR=	${PKGDIR}/../../wip/pike-core/patches

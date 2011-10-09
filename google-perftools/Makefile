@@ -5,7 +5,7 @@ DISTNAME=	google-perftools-1.5
 CATEGORIES=	devel
 MASTER_SITES=	http://google-perftools.googlecode.com/files/
 
-MAINTAINER=	vle@gmx.net
+MAINTAINER=	cheusov@NetBSD.org
 HOMEPAGE=	http://google-perftools.googlecode.com/
 COMMENT=	Multi-threaded malloc() and nifty performance analysis tools
 

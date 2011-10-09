@@ -6,7 +6,7 @@ CATEGORIES=		pkgtools sysutils
 MASTER_SITES=		# empty
 DISTFILES=		# empty
 
-MAINTAINER=		cheusov@tut.by
+MAINTAINER=		cheusov@NetBSD.org
 HOMEPAGE=		#none
 COMMENT=		NetBSD rc.d system for MS Interix
 

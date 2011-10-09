@@ -5,7 +5,7 @@ CATEGORIES=	meta-pkgs audio
 MASTER_SITES=	# empty
 DISTFILES=	# empty
 
-MAINTAINER=	cheusov@tut.by
+MAINTAINER=	cheusov@NetBSD.org
 HOMEPAGE=	http://www.xmms.org/skins.php
 COMMENT=	Skins for XMMS
 

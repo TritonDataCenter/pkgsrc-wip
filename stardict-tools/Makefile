@@ -7,7 +7,7 @@ CATEGORIES=	textproc
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=stardict/}
 EXTRACT_SUFX=	.tar.bz2
 
-MAINTAINER=	vle@gmx.net
+MAINTAINER=	cheusov@NetBSD.org
 HOMEPAGE=	http://stardict.sourceforge.net/
 COMMENT=	StarDict tools for dictionary conversions
 

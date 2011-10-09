@@ -6,7 +6,7 @@ PKGNAME=	${DISTNAME:S/-Source//:S/-beta/beta/}
 CATEGORIES=	devel
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=xdxf/}
 
-MAINTAINER=	vle@gmx.net
+MAINTAINER=	cheusov@NetBSD.org
 HOMEPAGE=	http://sourceforge.net/projects/xdxf/
 COMMENT=	Dictionary converting tool
 

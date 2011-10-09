@@ -5,7 +5,7 @@ PKGNAME=	a2ps-${DISTNAME}
 CATEGORIES=	print
 MASTER_SITES=	http://ftp.wagner.pp.ru/pub/fonts/type1/
 
-MAINTAINER=	cheusov@tut.by
+MAINTAINER=	cheusov@NetBSD.org
 HOMEPAGE=	http://ftp.wagner.pp.ru/pub/fonts/type1/
 COMMENT=	Cyrillic fonts for a2ps (a part of sharatype project)
 

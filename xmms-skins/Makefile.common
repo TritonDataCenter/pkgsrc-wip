@@ -23,7 +23,7 @@
 CATEGORIES=		audio
 MASTER_SITES=		http://www.xmms.org/files/Skins/
 
-MAINTAINER=		cheusov@tut.by
+MAINTAINER=		cheusov@NetBSD.org
 HOMEPAGE=		http://www.xmms.org/skins.php
 COMMENT=		Skin for XMMS
 

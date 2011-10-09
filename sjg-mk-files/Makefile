@@ -6,7 +6,7 @@ PKGNAME=	${DISTNAME:S/mk/sjg-mk-files/}
 CATEGORIES=	devel
 MASTER_SITES=	http://crufty.net/ftp/pub/sjg/
 
-MAINTAINER=	cheusov@tut.by
+MAINTAINER=	cheusov@NetBSD.org
 HOMEPAGE=	http://crufty.net/help/sjg/bmake.html
 COMMENT=	mk-files for bmake by Simon J. Gerraty
 LICENSE=	2-clause-bsd

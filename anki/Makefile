@@ -6,7 +6,7 @@ CATEGORIES=	x11
 MASTER_SITES=	http://anki.googlecode.com/files/
 EXTRACT_SUFX=	.tgz
 
-MAINTAINER=	cheusov@tut.by
+MAINTAINER=	cheusov@NetBSD.org
 HOMEPAGE=	http://ichi2.net/anki/
 COMMENT=	Flashcard learning program
 LICENSE=	# TODO: (see mk/license.mk)
