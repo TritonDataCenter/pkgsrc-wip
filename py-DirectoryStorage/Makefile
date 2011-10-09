@@ -36,36 +36,36 @@ do-install:
 	# install Python modules
 	#
 	${INSTALL_DATA_DIR} ${TARGET_DIR}
-	cd ${WRKSRC} && \
+	set -e; cd ${WRKSRC}; \
 	for a in ${MODULES}; do \
-		${INSTALL_DATA} $$a ${TARGET_DIR}/$$a; \
+		${INSTALL_DATA} "$$a" ${TARGET_DIR}/"$$a"; \
 	done
 	${INSTALL_DATA_DIR} ${TARGET_DIR}/DirectoryStorageToolkit
 	${INSTALL_DATA_DIR} ${TARGET_DIR}/DirectoryStorageToolkit/management
-	cd ${WRKSRC}/DirectoryStorageToolkit && \
+	set -e; cd ${WRKSRC}/DirectoryStorageToolkit; \
 	for a in DirectoryStorageToolkit.py __init__.py; do \
-		${INSTALL_DATA} $$a ${TARGET_DIR}/DirectoryStorageToolkit/$$a; \
+		${INSTALL_DATA} "$$a" ${TARGET_DIR}/DirectoryStorageToolkit/; \
 	done
-	cd ${WRKSRC}/DirectoryStorageToolkit/management && \
+	set -e; cd ${WRKSRC}/DirectoryStorageToolkit/management; \
 	for a in *; do \
-		${INSTALL_DATA} $$a ${TARGET_DIR}/DirectoryStorageToolkit/management/$$a; \
+		${INSTALL_DATA} "$$a" ${TARGET_DIR}/DirectoryStorageToolkit/management/; \
 	done
 	#
 	# install scripts in bin/
 	#
-	cd ${WRKSRC} && \
+	set -e; cd ${WRKSRC}; \
 	for a in ${TOOLS}; do \
-		${INSTALL_SCRIPT} $$a ${PREFIX}/bin/$$a${PYPKGSUFFIX}; \
+		${INSTALL_SCRIPT} "$$a" ${PREFIX}/bin/"$$a"${PYPKGSUFFIX}; \
 	done
 	#
 	# install documentation
 	#
 	${INSTALL_DATA_DIR} ${DOCS_DIR}
-	cd ${WRKSRC}/doc && \
+	set -e; cd ${WRKSRC}/doc; \
 	for a in *; do \
-		${INSTALL_DATA} $$a ${DOCS_DIR}/$$a; \
+		${INSTALL_DATA} "$$a" ${DOCS_DIR}/; \
 	done
 
-.include "../../databases/py-ZODB/buildlink3.mk"
+#.include "../../databases/py-ZODB/buildlink3.mk"
 .include "../../lang/python/extension.mk"
 .include "../../mk/bsd.pkg.mk"
