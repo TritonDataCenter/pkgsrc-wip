@@ -75,7 +75,6 @@ SUBDIR+=	airsnort
 SUBDIR+=	akonadi
 SUBDIR+=	alberta
 SUBDIR+=	alex
-SUBDIR+=	algol68g
 SUBDIR+=	alive
 SUBDIR+=	allegro
 SUBDIR+=	alphamail
