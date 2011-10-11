@@ -1,5 +1,0 @@
-@comment $NetBSD$
-bin/a68g
-include/algol68g/a68g-config.h
-include/algol68g/a68g.h
-man/man1/a68g.1
