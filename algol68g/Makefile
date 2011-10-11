@@ -14,7 +14,7 @@ LICENSE=	gnu-gpl-v3
 PKG_DESTDIR_SUPPORT=	user-destdir
 
 GNU_CONFIGURE=	yes
-USE_LANGUAGES+=	c
+USE_LANGUAGES=	c
 
 .include "options.mk"
 
