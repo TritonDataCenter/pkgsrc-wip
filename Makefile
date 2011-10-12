@@ -2216,7 +2216,6 @@ SUBDIR+=	py-mois
 SUBDIR+=	py-mpich4py
 SUBDIR+=	py-multichain_mcmc
 SUBDIR+=	py-mwavepy
-SUBDIR+=	py-mx-base
 SUBDIR+=	py-mysqldb-docs
 SUBDIR+=	py-ncomb
 SUBDIR+=	py-netcdf
