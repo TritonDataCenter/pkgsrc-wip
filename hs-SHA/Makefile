@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	SHA-1.4.0
+DISTNAME=	SHA-1.5.0.0
 CATEGORIES=	security
 
 MAINTAINER=	pho@cielonegro.org
