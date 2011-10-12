@@ -1,9 +1,9 @@
 # $NetBSD$
 #
 
-DISTNAME=	gsettings-desktop-schemas-3.1.3
+DISTNAME=	gsettings-desktop-schemas-3.2.0
 CATEGORIES=	devel
-MASTER_SITES=	http://ftp.acc.umu.se/pub/GNOME/sources/gsettings-desktop-schemas/3.1/
+MASTER_SITES=	${MASTER_SITE_GNOME:=sources/gsettings-desktop-schemas/3.2/}
 EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	pkgsrc.gnome@gmail.com

@@ -20,8 +20,10 @@ share/glib-2.0/schemas/org.gnome.system.locale.gschema.xml
 share/glib-2.0/schemas/org.gnome.system.proxy.gschema.xml
 share/locale/cs/LC_MESSAGES/gsettings-desktop-schemas.mo
 share/locale/de/LC_MESSAGES/gsettings-desktop-schemas.mo
+share/locale/eo/LC_MESSAGES/gsettings-desktop-schemas.mo
 share/locale/es/LC_MESSAGES/gsettings-desktop-schemas.mo
 share/locale/ja/LC_MESSAGES/gsettings-desktop-schemas.mo
+share/locale/nb/LC_MESSAGES/gsettings-desktop-schemas.mo
 share/locale/pt_BR/LC_MESSAGES/gsettings-desktop-schemas.mo
 share/locale/sl/LC_MESSAGES/gsettings-desktop-schemas.mo
 share/locale/sv/LC_MESSAGES/gsettings-desktop-schemas.mo
