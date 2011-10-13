@@ -1,4 +1,0 @@
-@comment $NetBSD$
-bin/sigil
-share/applications/sigil.desktop
-share/pixmaps/sigil.png
