@@ -3,11 +3,11 @@
 
 DISTNAME=	sakura-2.4.2
 CATEGORIES=	x11
-MASTER_SITES=	http://www.pleyades.net/david/projects/sakura/
+MASTER_SITES=	http://launchpad.net/sakura/trunk/2.4.2/+download/
 EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	ryoon@NetBSD.org
-HOMEPAGE=	http://www.pleyades.net/david/sakura.php
+HOMEPAGE=	http://www.pleyades.net/david/projects/sakura
 COMMENT=	Sakura is a terminal emulator based on GTK and VTE that supports tab
 
 LICENSE=	gnu-gpl-v2
