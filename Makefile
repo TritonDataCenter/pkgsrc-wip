@@ -376,6 +376,7 @@ SUBDIR+=	debian_gtk
 #SUBDIR+=	debian_linux	# not a real package
 SUBDIR+=	debian_x11
 SUBDIR+=	debugger-git
+SUBDIR+=	dee
 SUBDIR+=	deforaos-browser
 SUBDIR+=	deforaos-configure
 SUBDIR+=	deforaos-editor
