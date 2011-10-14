@@ -1219,7 +1219,6 @@ SUBDIR+=	libSoundTouch
 SUBDIR+=	libanimal
 SUBDIR+=	libargp
 SUBDIR+=	libassa
-SUBDIR+=	libatomic_ops
 SUBDIR+=	libavc1394
 SUBDIR+=	libbrahe
 SUBDIR+=	libbtctl
