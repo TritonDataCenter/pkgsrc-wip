@@ -2519,7 +2519,6 @@ SUBDIR+=	ruby-xmpp4r
 SUBDIR+=	runit
 SUBDIR+=	s3cmd
 SUBDIR+=	s3funnel
-SUBDIR+=	sakura
 SUBDIR+=	samhain
 SUBDIR+=	sara
 SUBDIR+=	saxon
