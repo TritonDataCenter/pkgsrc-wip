@@ -1820,7 +1820,6 @@ SUBDIR+=	p5-Syntax-Highlight-Perl-Improved
 SUBDIR+=	p5-Sys-Syslog
 SUBDIR+=	p5-Task-Catalyst
 SUBDIR+=	p5-Template-Plugin-Class
-SUBDIR+=	p5-Template-Provider-Encoding
 SUBDIR+=	p5-Term-Encoding
 SUBDIR+=	p5-Test-Assertions-TestScript
 SUBDIR+=	p5-Test-WWW-Mechanize-CGIApp
