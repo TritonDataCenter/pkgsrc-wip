@@ -5,7 +5,7 @@ DISTNAME=		cclive-0.7.6
 CATEGORIES=		net multimedia www
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=cclive/}
 
-MAINTAINER= 		zecrazytux@zecrazytux.net
+MAINTAINER=		zecrazytux@zecrazytux.net
 HOMEPAGE=		http://cclive.sourceforge.net/
 COMMENT=		Command line video extraction tool for user-uploaded video hosts
 LICENSE=		gnu-gpl-v3
