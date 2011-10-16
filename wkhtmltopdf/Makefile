@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	wkhtmltopdf-0.10.0_rc2
+DISTNAME=	wkhtmltopdf-0.11.0_rc1
 CATEGORIES=	textproc
 MASTER_SITES=	http://wkhtmltopdf.googlecode.com/files/
 EXTRACT_SUFX=	.tar.bz2
