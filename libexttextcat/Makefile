@@ -1,7 +1,7 @@
 # $NetBSD$
 
-VER=		3.1.0
-DISTNAME=	8dc93ffd48cb80b738075ce37df8f915-libexttextcat-${VER}
+VER=		3.1.1
+DISTNAME=	libexttextcat-${VER}
 PKGNAME=	libexttextcat-${VER:S/-//g}
 CATEGORIES=	textproc
 MASTER_SITES=	http://dev-www.libreoffice.org/src/
