@@ -1,0 +1,11 @@
+@comment $NetBSD$
+bin/createfp
+include/libtextcat/common.h
+include/libtextcat/constants.h
+include/libtextcat/exttextcat-version.h
+include/libtextcat/fingerprint.h
+include/libtextcat/textcat.h
+include/libtextcat/utf8misc.h
+lib/libtextcat.la
+lib/pkgconfig/libexttextcat.pc
+share/libexttextcat/fpdb.conf
