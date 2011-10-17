@@ -14,13 +14,8 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 
 USE_TOOLS+=	gmake msgfmt xgettext perl
 
-BUILD_MAKE_FLAGS+=	prefix=${PREFIX} \
-			mandir=man \
-			LDFLAGS_EXTRA+=-lintl
-
+BUILD_MAKE_FLAGS+=	LDFLAGS_EXTRA+=-lintl
 INSTALL_MAKE_FLAGS+=	prefix=${PREFIX}
-#INSTALL_MAKE_FLAGS+=	mandir=${DESTDIR}${PREFIX}${PKGMANDIR}
-#INSTALL_MAKE_FLAGS+=	mandir=${PREFIX}${PKGMANDIR}
 
 .include "../../devel/gettext-lib/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
