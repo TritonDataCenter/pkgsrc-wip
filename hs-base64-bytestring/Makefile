@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	base64-bytestring-0.1.0.2
+DISTNAME=	base64-bytestring-0.1.0.3
 CATEGORIES=	converters
 
 MAINTAINER=	pho@cielonegro.org
