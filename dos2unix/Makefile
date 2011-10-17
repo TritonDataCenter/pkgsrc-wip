@@ -12,6 +12,8 @@ LICENSE=	2-clause-bsd
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
+CONFLICTS=	unix2dos-[0-9]*
+
 USE_TOOLS+=	gmake msgfmt xgettext perl
 
 BUILD_MAKE_FLAGS+=	LDFLAGS_EXTRA+=-lintl
