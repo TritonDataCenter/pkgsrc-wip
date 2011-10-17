@@ -1,0 +1,5 @@
+@comment $NetBSD$
+bin/xfs
+etc/X11/fs/config
+man/man1/xfs.1
+share/examples/rc.d/xfs
