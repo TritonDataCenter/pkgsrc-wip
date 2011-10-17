@@ -1,16 +1,15 @@
 # $NetBSD$
 #
 
-DISTNAME=	Sys-Syslog-0.27
+DISTNAME=	Sys-Syslog-0.29
 PKGNAME=	p5-${DISTNAME}
 CATEGORIES=	sysutils
 MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=../../authors/id/S/SA/SAPER/}
 
 MAINTAINER=	evaldo@gardenali.biz
-HOMEPAGE=	http://search.cpan.org/CPAN/authors/id/S/SA/SAPER/
+#HOMEPAGE=	http://search.cpan.org/CPAN/authors/id/S/SA/SAPER/
+HOMEPAGE=	http://search.cpan.org/dist/Sys-Syslog/
 COMMENT=	Perl interface to the UNIX syslog(3) calls
-
-.include "../../lang/perl5/license.mk"
 LICENSE=        ${PERL5_LICENSE}
 
 PKG_DESTDIR_SUPPORT=	user-destdir
