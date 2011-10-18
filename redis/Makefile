@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	redis-2.2.15
+DISTNAME=	redis-2.4.1
 CATEGORIES=	databases
 MASTER_SITES=	http://redis.googlecode.com/files/
 
@@ -60,7 +60,6 @@ post-install:
 .for file in ${DOCFILES}
 	${INSTALL_DATA} ${WRKSRC}/${file} ${DESTDIR}${PREFIX}/${DOCDIR}/${file}
 .endfor
-	cd ${WRKSRC}/doc && pax -rwpp . ${DESTDIR}${PREFIX}/${DOCDIR}
 	cd ${WRKSRC}/utils && pax -rwpp . ${DESTDIR}${EGDIR}/utils/
 	cd ${WRKSRC}/tests && pax -rwpp . ${DESTDIR}${EGDIR}/tests/
 
