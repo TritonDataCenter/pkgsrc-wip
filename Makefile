@@ -1459,6 +1459,7 @@ SUBDIR+=	mono-zeroconf
 SUBDIR+=	monodevelop
 SUBDIR+=	monotone-cvsimport
 SUBDIR+=	moonlight
+SUBDIR+=	mop
 SUBDIR+=	mopac7
 SUBDIR+=	moregroupware
 SUBDIR+=	moto4lin
