@@ -3,9 +3,9 @@
 
 DISTNAME=	uni-vga
 PKGNAME=	${DISTNAME}-1
-EXTRACT_SUFX=	.tgz
 CATEGORIES=	fonts x11
 MASTER_SITES=	http://www.inp.nsk.su/~bolkhov/files/fonts/univga/
+EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	mw+pkgsrc@wzff.de
 HOMEPAGE=	http://www.inp.nsk.su/~bolkhov/files/fonts/univga/
