@@ -2812,7 +2812,6 @@ SUBDIR+=	umix
 SUBDIR+=	umph
 SUBDIR+=	umurmur
 SUBDIR+=	undo-tree
-SUBDIR+=	uni-vga
 SUBDIR+=	unix2tcp
 SUBDIR+=	unmo3
 SUBDIR+=	unnethack
