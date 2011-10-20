@@ -2781,6 +2781,7 @@ SUBDIR+=	ttf-indic-fonts
 SUBDIR+=	ttr
 SUBDIR+=	ttyload
 SUBDIR+=	ttysnoop
+SUBDIR+=	ttytter
 SUBDIR+=	tuareg-mode
 SUBDIR+=	tumble
 SUBDIR+=	tutos
