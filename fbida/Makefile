@@ -3,10 +3,10 @@
 
 DISTNAME=		fbida-2.08
 CATEGORIES=		graphics
-MASTER_SITES=		http://dl.bytesex.org/releases/fbida/
+MASTER_SITES=		http://www.kraxel.org/releases/fbida/
 
 MAINTAINER=		pkgsrc-users@NetBSD.org
-HOMEPAGE=		http://linux.bytesex.org/fbida/
+HOMEPAGE=		http://www.kraxel.org/blog/linux/fbida/
 COMMENT=		Image viewer and editor
 
 MAKE_FILE=		GNUmakefile
