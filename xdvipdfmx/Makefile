@@ -18,7 +18,6 @@ EXTRACT_ELEMENTS=	${DISTNAME}/build-aux \
 PKG_DESTDIR_SUPPORT=	user-destdir
 
 GNU_CONFIGURE=	yes
-#XXX do we really need this: USE_TOOLS+=	gs:run ps2pdf:run
 WRKSRC=		${WRKDIR}/${DISTNAME}/texk/xdvipdfmx
 
 CONFIGURE_ARGS+=	--with-system-kpathsea \
