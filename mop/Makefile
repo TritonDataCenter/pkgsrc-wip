@@ -16,7 +16,7 @@ INSTALLATION_DIRS=	share/${PKGBASE}
 INSTALLATION_DIRS=	bin
 USE_TOOLS+=	pax
 
-DEPENDS+=	ruby-[0-9]*:../../lang/ruby
+DEPENDS+=	${RUBY_BASE}>=${RUBY_REQD}:${RUBY_SRCDIR}
 REPLACE_RUBY=	mop.rb
 .include "../../lang/ruby/replace.mk"
 
