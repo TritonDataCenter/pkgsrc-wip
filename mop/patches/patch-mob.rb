@@ -1,4 +1,5 @@
 $NetBSD$
+
 (1) put  homepage link
 (2) add shiftdir tweek to support main program (mop) and
     files in share directory shift
