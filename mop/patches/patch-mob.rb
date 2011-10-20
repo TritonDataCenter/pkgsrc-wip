@@ -3,6 +3,7 @@ $NetBSD$
 (1) put  homepage link
 (2) add shiftdir tweek to support main program (mop) and
     files in share directory shift
+-- These have been communicated with original author.
 
 --- mop.rb.orig	2007-02-17 07:55:25.000000000 +0900
 +++ mop.rb	2011-10-19 17:33:58.000000000 +0900
