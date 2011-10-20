@@ -16,7 +16,7 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_TOOLS+=	pkg-config
-USE_LANGUAGES= c c++
+USE_LANGUAGES=	c c++ fortran
 
 BUILDLINK_PKGSRCDIR.libsexy?=	../../devel/libsexy
 .include "../../devel/libsexy/buildlink3.mk"
