@@ -18,5 +18,5 @@ USE_LANGUAGES=	c c++
 HG_REPOSITORIES=	matiec
 HG_REPO.matiec=	http://dev.automforge.net/matiec
 
-.include "../../mk/hg-package.mk"
+.include "../mk/hg-package.mk"
 .include "../../mk/bsd.pkg.mk"
