@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	mikutter.0.0.4.549
+DISTNAME=	mikutter.0.0.4.556
 PKGNAME=	${RUBY_PKGPREFIX}-${DISTNAME:S/./-/}
 CATEGORIES=	net
 MASTER_SITES=	http://mikutter.hachune.net/bin/
