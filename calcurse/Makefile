@@ -3,11 +3,10 @@
 
 DISTNAME=	calcurse-2.9.2
 CATEGORIES=	time
-#MASTER_SITES=	ftp://ftp2.culot.org/culot/
 MASTER_SITES=	http://calcurse.org/files/
 
 MAINTAINER=	jan.smydke@jh-inst.cas.cz
-HOMEPAGE=	http://culot.org/calcurse/
+HOMEPAGE=	http://calcurse.org/
 COMMENT=	Text based calendar and scheduling application
 LICENSE=	2-clause-bsd
 
