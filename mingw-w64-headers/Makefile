@@ -1,8 +1,8 @@
 # $NetBSD$
 #
 
-DISTNAME=	mingw-w64-v1.0-snapshot-20110809
-PKGNAME=	mingw-w64-headers-1.0
+DISTNAME=	mingw-w64-v2.0
+PKGNAME=	mingw-w64-headers-2.0
 CATEGORIES=	cross
 MASTER_SITES=	 ${MASTER_SITE_SOURCEFORGE:=mingw-w64/mingw-w64/mingw-w64-snapshot/}
 EXTRACT_SUFX=	.tar.bz2
