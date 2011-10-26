@@ -1,0 +1,7 @@
+@comment $NetBSD$
+bin/slideml.pl
+share/doc/slideml/license
+share/doc/slideml/slideml_spec.txt
+share/examples/slideml/slides.sml
+share/slideml/slidy.css
+share/slideml/slidy.js
