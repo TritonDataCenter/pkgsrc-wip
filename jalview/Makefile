@@ -5,7 +5,7 @@ DISTNAME=		jalview_1.8
 PKGNAME=		jalview_binary-1.8
 WRKSRC=			${WRKDIR}/jalview_1.8
 CATEGORIES=		biology
-MASTER_SITES=		http://www.jalview.org/
+MASTER_SITES=		http://www.jalview.org/version118/
 EXTRACT_SUFX=		.tgz
 
 MAINTAINER=		dprice@cs.nmsu.edu
@@ -31,7 +31,7 @@ do-install:
 	${INSTALL_DATA} ${WRKSRC}/jalview.jar ${PREFIX}/lib/java
 	${INSTALL_DATA_DIR} ${PREFIX}/share/jalview
 	${INSTALL_DATA} ${WRKSRC}/jalview.sh ${PREFIX}/share/jalview
-	${INSTALL_DATA} ${WRKSRC}/README.jalview ${PREFIX}/share/jalview
+	${INSTALL_DATA} ${WRKSRC}/README ${PREFIX}/share/jalview
 	${INSTALL_DATA_DIR} ${PREFIX}/share/jalview/examples
 	${INSTALL_DATA} ${WRKSRC}/examples/1hdc.pfam ${PREFIX}/share/jalview/examples
 
