@@ -3,6 +3,7 @@
 
 DISTNAME=		wise2.2.0
 PKGNAME=		wise-2.2.0
+PKGREVISION=		1
 CATEGORIES=		biology
 MASTER_SITES=		ftp://ftp.ebi.ac.uk/pub/software/unix/wise2/
 
