@@ -42,6 +42,5 @@ CONFIGURE_ENV+=	kpse_cv_have_ApplicationServices=no
 .include "../../graphics/freetype2/buildlink3.mk"
 .include "../../graphics/png/buildlink3.mk"
 .include "../../print/kpathsea/buildlink3.mk"
-.include "../../print/kpathsea/texmf.mk"
 .include "../../print/libpaper/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
