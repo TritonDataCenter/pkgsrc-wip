@@ -1661,7 +1661,6 @@ SUBDIR+=	p5-Apache2-ModSSL
 SUBDIR+=	p5-App-cpanminus
 SUBDIR+=	p5-Arch
 SUBDIR+=	p5-Astro-SpaceTrack
-SUBDIR+=	p5-Authen-Htpasswd
 SUBDIR+=	p5-AxKit
 SUBDIR+=	p5-B-Deobfuscate
 SUBDIR+=	p5-Barcode-Code128
