@@ -1,5 +1,4 @@
 @comment $NetBSD$
-lib/perl5/5.14.0/${MACHINE_ARCH}-${LOWER_OPSYS}-thread-multi/perllocal.pod
 lib/perl5/vendor_perl/5.14.0/Data/AMF.pm
 lib/perl5/vendor_perl/5.14.0/Data/AMF/Formatter.pm
 lib/perl5/vendor_perl/5.14.0/Data/AMF/Formatter/AMF0.pm
