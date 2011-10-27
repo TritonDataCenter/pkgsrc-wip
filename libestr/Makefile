@@ -1,12 +1,12 @@
 # $NetBSD$
 #
 
-DISTNAME=		libestr-0.1.0
+DISTNAME=		libestr-0.1.2
 CATEGORIES=		sysutils
 MASTER_SITES=		http://libestr.adiscon.com/files/download/
 
 MAINTAINER=		bartosz.kuzma@gmail.com
-HOMEPAGE=		http://libestr.aniscon.com/
+HOMEPAGE=		http://libestr.adiscon.com/
 COMMENT=		Library for some string essentials
 LICENSE=		gnu-gpl-v2
 
