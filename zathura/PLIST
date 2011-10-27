@@ -1,0 +1,4 @@
+@comment $NetBSD$
+bin/zathura
+man/man1/zathura.1
+share/applications/zathura.desktop
