@@ -18,6 +18,7 @@ EXTRACT_ELEMENTS=	${DISTNAME}/build-aux \
 PKG_DESTDIR_SUPPORT=	user-destdir
 
 GNU_CONFIGURE=	yes
+USE_LIBTOOL=	yes
 WRKSRC=		${WRKDIR}/${DISTNAME}/texk/xdvipdfmx
 
 CONFIGURE_ARGS+=	--with-system-kpathsea \
