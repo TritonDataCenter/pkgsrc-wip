@@ -1,0 +1,4 @@
+@comment $NetBSD$
+bin/gentab2.6
+include/polymul.h
+share/doc/polymul/README

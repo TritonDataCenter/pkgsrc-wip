@@ -1,0 +1,12 @@
+# $NetBSD$
+
+BUILDLINK_TREE+=	polymul
+
+.if !defined(POLYMUL_BUILDLINK3_MK)
+POLYMUL_BUILDLINK3_MK:=
+
+BUILDLINK_API_DEPENDS.polymul+=	polymul>=1.01
+BUILDLINK_PKGSRCDIR.polymul?=	../../wip/polymul
+.endif	# POLYMUL_BUILDLINK3_MK
+
+BUILDLINK_TREE+=	-polymul
