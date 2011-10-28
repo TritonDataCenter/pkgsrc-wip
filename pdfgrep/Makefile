@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	pdfgrep-1.1
+DISTNAME=	pdfgrep-1.2
 CATEGORIES=	textproc
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=pdfgrep/}
 
