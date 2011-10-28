@@ -2859,7 +2859,6 @@ SUBDIR+=	vidrioclock
 SUBDIR+=	vidriolib
 SUBDIR+=	viewer
 SUBDIR+=	viewglob
-SUBDIR+=	viewnior
 SUBDIR+=	vino
 SUBDIR+=	virtualbox
 SUBDIR+=	virtualjaguar
