@@ -1057,6 +1057,7 @@ SUBDIR+=	io-vm
 SUBDIR+=	io-zlib
 SUBDIR+=	iodine
 SUBDIR+=	ion3
+SUBDIR+=	ipamjfont
 SUBDIR+=	ipax0208font-ttf
 SUBDIR+=	ipfm
 SUBDIR+=	ipmitools
