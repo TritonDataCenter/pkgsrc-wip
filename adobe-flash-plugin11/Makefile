@@ -1,5 +1,6 @@
 # $NetBSD: Makefile,v 1.10 2011/09/12 23:35:15 abs Exp $
 
+DISTNAME=		# empty
 PKGNAME=		adobe-flash-plugin-${FLASH_VERSION:S/r/./}
 CATEGORIES=		multimedia www
 MASTER_SITES=		http://fpdownload.macromedia.com/get/flashplayer/current/
@@ -10,10 +11,10 @@ COMMENT=		Adobe Flash Player Browser plugin
 LICENSE=		flash-license
 
 RESTRICTED=		Redistribution not permitted
-NO_SRC_ON_FTP=		${RESTRICTED}
-NO_SRC_ON_CDROM=	${RESTRICTED}
-NO_BIN_ON_FTP=		${RESTRICTED}
 NO_BIN_ON_CDROM=	${RESTRICTED}
+NO_BIN_ON_FTP=		${RESTRICTED}
+NO_SRC_ON_CDROM=	${RESTRICTED}
+NO_SRC_ON_FTP=		${RESTRICTED}
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 

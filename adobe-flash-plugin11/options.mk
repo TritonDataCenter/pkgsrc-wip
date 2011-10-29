@@ -14,14 +14,15 @@ PKG_SUPPORTED_OPTIONS=	nspluginwrapper
 
 .if ${OPSYS} != "Linux"
 .  if ${MACHINE_ARCH} == "i386" || ${MACHINE_ARCH} == "x86_64"
-PKG_SUGGESTED_OPTIONS=  nspluginwrapper
+PKG_SUGGESTED_OPTIONS=	nspluginwrapper
 .  endif
 .endif
 
 .include "../../mk/bsd.options.mk"
 
 .if !empty(PKG_OPTIONS:Mnspluginwrapper)
-DEPENDS+= nspluginwrapper>0:../../www/nspluginwrapper
+DEPENDS+=	nspluginwrapper>0:../../www/nspluginwrapper
+#DEPENDS+=	libflashsupport{,-pulse}>0:../../multimedia/libflashsupport
 INSTALL_TEMPLATES+=	${PKGDIR}/INSTALL.nspluginwrapper
 DEINSTALL_TEMPLATES+=	${PKGDIR}/INSTALL.nspluginwrapper
 .endif
