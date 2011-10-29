@@ -1,0 +1,15 @@
+===========================================================================
+$Id$
+First initialize and create config:
+
+	digitemp -s /dev/tty00 -i
+
+Then use generated config to read temperature from all sensors:
+
+	digitemp -a
+
+or specify one:
+
+	digitemp -t 0
+
+===========================================================================
