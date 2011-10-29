@@ -15,5 +15,5 @@ include/ccrtp/rtp.h
 include/ccrtp/rtppkt.h
 include/ccrtp/sources.h
 info/ccrtp.info
-lib/libccrtp1.la
-lib/pkgconfig/libccrtp1.pc
+lib/libccrtp.la
+lib/pkgconfig/libccrtp.pc
