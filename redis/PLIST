@@ -45,5 +45,8 @@ share/examples/redis/tests/unit/type/list.tcl
 share/examples/redis/tests/unit/type/set.tcl
 share/examples/redis/tests/unit/type/zset.tcl
 share/examples/redis/utils/generate-command-help.rb
+share/examples/redis/utils/install_server.sh
 share/examples/redis/utils/mktarball.sh
+share/examples/redis/utils/redis.conf.tpl
 share/examples/redis/utils/redis_init_script
+share/examples/redis/utils/redis_init_script.tpl
