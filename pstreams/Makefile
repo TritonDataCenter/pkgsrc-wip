@@ -5,7 +5,7 @@ DISTNAME=	pstreams-0.7.0
 CATEGORIES=	devel
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=pstreams/}
 
-MAINTAINER=	ryoon@NetBSD.org
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://pstreams.sourceforge.net/
 COMMENT=	POSIX Process Control in C++
 LICENSE=	gnu-lgpl-v3
