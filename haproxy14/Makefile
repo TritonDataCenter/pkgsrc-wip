@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	haproxy-1.4.13
+DISTNAME=	haproxy-1.4.18
 CATEGORIES=	www
 MASTER_SITES=	http://haproxy.1wt.eu/download/1.4/src/
 
