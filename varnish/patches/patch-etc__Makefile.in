@@ -1,5 +1,7 @@
 $NetBSD$
 
+Put config file in examples
+
 --- etc/Makefile.in.orig	2011-07-02 21:50:03.000000000 +0000
 +++ etc/Makefile.in
 @@ -220,7 +220,7 @@ target_vendor = @target_vendor@

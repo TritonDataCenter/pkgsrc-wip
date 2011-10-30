@@ -38,7 +38,7 @@ PKG_SHELL.${VRNUSER}=	${SH}
 PKG_GECOS.${VRNUSER}=	Varnish daemon user
 
 RCD_SCRIPTS=		varnishd varnishlog varnishncsa
-PYTHON_FOR_BUILD_ONLY=	1
+PYTHON_FOR_BUILD_ONLY=	yes
 
 REPLACE_PYTHON+=	lib/libvcl/generate.py
 REPLACE_PYTHON+=	lib/libvmod_std/vmod.py

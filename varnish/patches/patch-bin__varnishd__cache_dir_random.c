@@ -1,5 +1,7 @@
 $NetBSD$
 
+deal with missing exp2
+
 --- bin/varnishd/cache_dir_random.c.orig	2011-10-24 07:25:09.000000000 +0000
 +++ bin/varnishd/cache_dir_random.c
 @@ -62,6 +62,11 @@
