@@ -12,6 +12,8 @@ LICENSE=	gnu-gpl-v2
 
 DEPENDS+=	${RUBY_PKGPREFIX}-gdbm>=${RUBY_VERSION}:../../databases/ruby-gdbm
 
+RUBY_VERSION_SUPPORTED=	18
+
 NO_BUILD=	yes
 REPLACE_RUBY=	bsfilter/bsfilter
 
