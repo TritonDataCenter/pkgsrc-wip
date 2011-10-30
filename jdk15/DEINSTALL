@@ -5,7 +5,7 @@ MACHINE_ARCH=`uname -m`
 case ${STAGE} in
 DEINSTALL)
 	if [ "${MACHINE_ARCH}" = "i386" ]; then
-		${RM} -f @JAVA_HOME@/lib/@MACHINE_ARCH@/client/classes.jsa;;
+		${RM} -f @JAVA_HOME@/lib/@MACHINE_ARCH@/client/classes.jsa
 	fi
 	;;
 esac

@@ -10,6 +10,7 @@ JDK_VERSION_STRING=	b02-jrl-28_may_2008
 
 DISTNAME=		jdk-${JDK_VERSION:S/./_/g}_${JDK_UPDATE}
 PKGNAME=	jdk15-${JDK_VERSION}.${JDK_UPDATE}.${JDK_PATCHSET_VERSION}
+PKGREVISION=		1
 MASTER_SITES+=		# http://download.java.net/tiger/archive/tiger_u${JDK_UPDATE}/
 MASTER_SITES+=		# http://www.eyesbeyond.com/freebsddom/java/jdk15.html
 DISTFILES=		${JRL_SRCFILE} ${JRL_BINFILE} ${PATCHSETFILE} ${SOL_BINFILE}
