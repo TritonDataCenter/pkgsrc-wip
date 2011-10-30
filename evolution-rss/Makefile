@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	evolution-rss-0.2.0
+DISTNAME=	evolution-rss-0.2.1
 CATEGORIES=	mail gnome
 MASTER_SITES=	http://gnome.eu.org/
 
@@ -18,6 +18,8 @@ GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_TOOLS+=	pkg-config intltool  gmake msgfmt
 USE_LANGUAGES=	c c++
+
+CFLAGS+=	-DGTK_COMPILATION
 
 GCONF_SCHEMAS+=	evolution-rss.schemas
 
