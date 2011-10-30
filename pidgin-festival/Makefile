@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	pidgin-festival-2.4
-PKGREVISION=	2
+PKGREVISION=	3
 CATEGORIES=	chat audio
 MASTER_SITES=	http://downloads.sourceforge.net/pidgin-festival/
 
@@ -20,8 +20,7 @@ USE_TOOLS+=		pkg-config
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
-CONFIGURE_ENV+=		FESTIVAL_VOICES_PATH=${DESTDIR}${PREFIX}/share/festival/lib/voices
-
+CFLAGS+=		-DFESTIVAL_VOICES_PATH='"${PREFIX}/share/festival/lib/voices"'
 
 .include "../../x11/gtk2/buildlink3.mk"
 .include "../../chat/pidgin/buildlink3.mk"
