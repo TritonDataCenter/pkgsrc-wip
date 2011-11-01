@@ -3,3 +3,5 @@ $NetBSD$
 * debug
 * test on Linux/FreeBSD/OpenBSD
 * use libtool
+
+When updating this package, please have a look at http://secunia.com/advisories/46636/
