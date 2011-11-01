@@ -722,7 +722,6 @@ SUBDIR+=	gosmore
 SUBDIR+=	gov2
 SUBDIR+=	gpac-devel
 SUBDIR+=	gpak
-SUBDIR+=	gpicview
 SUBDIR+=	gplbasic
 SUBDIR+=	gps
 SUBDIR+=	gpsdrive
