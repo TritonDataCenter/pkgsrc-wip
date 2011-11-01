@@ -2,7 +2,7 @@
 # used by wip/bird/Makefile
 # used by wip/bird6/Makefile
 
-DISTNAME=	bird-1.3.0
+DISTNAME=	bird-1.3.4
 PKGNAME=	${DISTNAME:S/bird/bird${BIRD6}/}
 CATEGORIES=	net
 MASTER_SITES=	ftp://bird.network.cz/pub/bird/
