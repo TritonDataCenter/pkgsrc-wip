@@ -55,6 +55,9 @@ SUBST_SED.fix-paths=	-e 's,@@DBDIR@@,${REDIS_DATADIR},g'
 SUBST_SED.fix-paths+=	-e 's,@@LOGDIR@@,${REDIS_LOGDIR},g'
 SUBST_SED.fix-paths+=	-e 's,@@PIDDIR@@,${REDIS_PIDDIR},g'
 
+post-extract:
+	${CHMOD} -R g-w ${WRKSRC}
+
 post-install:
 	${INSTALL_DATA} ${WRKSRC}/redis.conf ${DESTDIR}${EGDIR}/redis.conf.example
 .for file in ${DOCFILES}
