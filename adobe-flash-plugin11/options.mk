@@ -2,7 +2,7 @@
 #
 
 PKG_OPTIONS_VAR=	PKG_OPTIONS.adobe-flash-plugin
-PKG_SUPPORTED_OPTIONS=	nspluginwrapper
+PKG_SUPPORTED_OPTIONS=	nspluginwrapper pulseaudio
 
 # XXXX: If nspluginwrapper is enabled and this package is installed after
 # firefox (or similar) it will install a system wide wrapped plugin into
@@ -21,8 +21,12 @@ PKG_SUGGESTED_OPTIONS=	nspluginwrapper
 .include "../../mk/bsd.options.mk"
 
 .if !empty(PKG_OPTIONS:Mnspluginwrapper)
-DEPENDS+=	nspluginwrapper>0:../../www/nspluginwrapper
-#DEPENDS+=	libflashsupport{,-pulse}>0:../../multimedia/libflashsupport
+DEPENDS+= nspluginwrapper>0:../../www/nspluginwrapper
+.  if !empty(PKG_OPTIONS:Mpulseaudio)
+# usr/lib/libpulse.so.0 provided by suse32_gtk2
+.  else
+DEPENDS+=	libflashsupport>0:../../multimedia/libflashsupport
+.  endif
 INSTALL_TEMPLATES+=	${PKGDIR}/INSTALL.nspluginwrapper
 DEINSTALL_TEMPLATES+=	${PKGDIR}/INSTALL.nspluginwrapper
 .endif
