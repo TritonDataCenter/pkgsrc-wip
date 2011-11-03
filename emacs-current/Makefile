@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	emacs-24.0.90
+DISTNAME=	emacs-24.0.91
 #PKGNAME=	emacs-24.0.50
 PKGREVISION=	${_GIT_PKGVERSION:S/.//g}
 CATEGORIES=	editors
