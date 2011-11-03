@@ -62,7 +62,6 @@ SUBDIR+=	acpid
 SUBDIR+=	adamem
 SUBDIR+=	adms
 SUBDIR+=	admsmb
-SUBDIR+=	adobe-flash-plugin11
 SUBDIR+=	ae-fonts-decorative
 SUBDIR+=	aegis-devel
 SUBDIR+=	aeneas
