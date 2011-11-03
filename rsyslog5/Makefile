@@ -31,7 +31,7 @@ EGDIR=			${PREFIX}/share/examples/rsyslog
 CONF_FILES=		${EGDIR}/rsyslog.conf ${PKG_SYSCONFDIR}/rsyslog.conf
 RCD_SCRIPTS=		rsyslogd
 
-.include "../../mk/bsd.pkg.mk"
+.include "../../mk/bsd.prefs.mk"
 
 .include "options.mk"
 
