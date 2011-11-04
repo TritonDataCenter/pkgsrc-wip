@@ -1,0 +1,4 @@
+@comment $NetBSD$
+lib/X11/fonts/TTF/TibMachUni-${PKGVERSION}.ttf
+share/doc/${PKGNAME}/ReadMe.txt
+share/doc/${PKGNAME}/gpl.txt
