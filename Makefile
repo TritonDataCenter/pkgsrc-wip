@@ -2755,6 +2755,7 @@ SUBDIR+=	tkpng
 SUBDIR+=	tktable
 SUBDIR+=	tleenx2
 SUBDIR+=	tleenx3
+SUBDIR+=	tmuni-ttf
 SUBDIR+=	tmw
 SUBDIR+=	tnt
 SUBDIR+=	tome
