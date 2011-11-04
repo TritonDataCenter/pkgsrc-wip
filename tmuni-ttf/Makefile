@@ -1,4 +1,4 @@
-# $NetBSD: Makefile,v 1.13 2011/07/22 20:27:17 ryoon Exp $
+# $NetBSD: $
 #
 
 DISTNAME=		ttf-tmuni_1.901b.orig
@@ -24,8 +24,8 @@ DOCDIR=				${PREFIX}/share/doc/${PKGNAME}
 INSTALLATION_DIRS+=	${DOCDIR}
 
 do-install:
-	${INSTALL_DATA}	${WRKSRC}/TibMachUni-1.901b.ttf ${DESTDIR}${FONTS_DIRS.ttf}
-	${INSTALL_DATA}	${WRKSRC}/ReadMe.txt            ${DESTDIR}${DOCDIR}
-	${INSTALL_DATA}	${WRKSRC}/gpl.txt               ${DESTDIR}${DOCDIR}
+	${INSTALL_DATA}	${WRKSRC}/TibMachUni-${PKGVERSION}.ttf ${DESTDIR}${FONTS_DIRS.ttf}
+	${INSTALL_DATA}	${WRKSRC}/ReadMe.txt                   ${DESTDIR}${DOCDIR}
+	${INSTALL_DATA}	${WRKSRC}/gpl.txt                      ${DESTDIR}${DOCDIR}
 
 .include "../../mk/bsd.pkg.mk"
