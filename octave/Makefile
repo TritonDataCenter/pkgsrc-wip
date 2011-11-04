@@ -12,14 +12,13 @@ COMMENT=	The famous MATLAB-like GNU software
 
 LICENSE=	gnu-gpl-v3 # LICENSE is GPL but not clear which version
 
-BUILD_DEPENDS+=	bison:../../devel/bison
-BUILD_DEPENDS+=	gperf:../../devel/gperf
-DEPENDS+=	gnuplot:../../graphics/gnuplot
+BUILD_DEPENDS+=	gperf-[0-9]*:../../devel/gperf
+DEPENDS+=	gnuplot-[0-9]*:../../graphics/gnuplot
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
 USE_GNU_READLINE=	yes
-USE_TOOLS+=	autoconf gmake gsed pkg-config perl makeinfo
+USE_TOOLS+=	autoconf gmake gsed pkg-config perl makeinfo bison
 GNU_CONFIGURE=	yes
 
 USE_LANGUAGES=	c c++ fortran77
