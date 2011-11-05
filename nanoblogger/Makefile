@@ -15,7 +15,7 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 DEPENDS+=	tidy-[0-9]*:../../www/tidy
 
 USE_LANGUAGES=	# none
-USE_TOOLS+=	pax bash:run
+USE_TOOLS+=	pax bash:run grep:run sed:run
 
 NO_BUILD=	yes
 
