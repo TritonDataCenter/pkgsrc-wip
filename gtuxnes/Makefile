@@ -2,7 +2,7 @@
 
 DISTNAME=		gtuxnes-0.75
 CATEGORIES=		emulators
-MASTER_SITES=		http://nyi.linux.tucows.com/files/
+MASTER_SITES=		http://www12.tucows.com/linux/files/
 
 MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://www.scottweber.com/projects/gtk/gtuxnes/
