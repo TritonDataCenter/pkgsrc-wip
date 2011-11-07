@@ -1,9 +1,10 @@
 # $NetBSD$
 #
 
-DISTNAME=	i3lock-2.1
+DISTNAME=	i3lock-2.2
 CATEGORIES=	x11
 MASTER_SITES=	http://i3wm.org/i3lock/
+EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	pallegra@gmail.com
 HOMEPAGE=	http://i3wm.org/i3lock/
