@@ -17,11 +17,13 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 MAN1=		dhex.1
 MAN5=		dhexrc.5 dhex_markers.5 dhex_searchlog.5
 
+INSTALLATION_DIRS+=	bin ${PKGMANDIR}/man1 ${PKGMANDIR}/man5
+
 do-install:
-	${INSTALL_PROGRAM} ${WRKSRC}/dhex ${PREFIX}/bin
-	${INSTALL_MAN} ${WRKSRC}/${MAN1} ${PREFIX}/${PKGMANDIR}/man1
+	${INSTALL_PROGRAM} ${WRKSRC}/dhex ${DESTDIR}${PREFIX}/bin
+	${INSTALL_MAN} ${WRKSRC}/${MAN1} ${DESTDIR}${PREFIX}/${PKGMANDIR}/man1
 .for f in ${MAN5}
-	${INSTALL_MAN} ${WRKSRC}/${f} ${PREFIX}/${PKGMANDIR}/man5
+	${INSTALL_MAN} ${WRKSRC}/${f} ${DESTDIR}${PREFIX}/${PKGMANDIR}/man5
 .endfor
 
 .include "../../devel/ncurses/buildlink3.mk"
