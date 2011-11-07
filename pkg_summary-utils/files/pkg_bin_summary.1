@@ -57,11 +57,11 @@ fields are separated by space or comma.
 .TP
 .BI "-k " algorithms
 Generate checksums for packages using digest(1)
-and make them a part of output summary. CKSUM field is added to summary
+and make them a part of output summary. FILE_CKSUM field is added to summary
 that has the following format:
 .br
 .VB
-  CKSUMS=<ALGO> <CKSUM>
+  FILE_CKSUM=<ALGO> <CKSUM>
 .VE
 where ALGO is is an
 .I algorithm
