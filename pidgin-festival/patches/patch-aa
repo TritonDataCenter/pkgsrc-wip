@@ -1,5 +1,7 @@
 $NetBSD$
 
+Making install in po cannot find install.sh. Fixes that issue.
+
 --- po/Makefile.in.in.orig	2008-02-06 09:27:54.000000000 +0000
 +++ po/Makefile.in.in
 @@ -28,6 +28,7 @@ exec_prefix = @exec_prefix@
