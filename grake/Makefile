@@ -6,7 +6,7 @@ PKGNAME=	p5-${DISTNAME}
 CATEGORIES=	net www
 MASTER_SITES=	http://grake.googlecode.com/files/
 
-MAINTAINER=	ryo_on@yk.rim.or.jp
+MAINTAINER=	ryoon@NetBSD.org
 HOMEPAGE=	http://code.google.com/p/grake/
 COMMENT=	Tool for scanning webpages for Youtube video links
 LICENSE=	gnu-gpl-v3
