@@ -2,11 +2,12 @@
 
 DISTNAME=	abclock-1.0d
 CATEGORIES=	time
-MASTER_SITES=	${HOMEPAGE}
+MASTER_SITES=	http://odur.let.rug.nl/~kleiweg/abclock/
 
 MAINTAINER=	ryoon@NetBSD.org
-COMMENT=	Analogue Bitmap Clock
 HOMEPAGE=	http://odur.let.rug.nl/~kleiweg/abclock/
+COMMENT=	Analogue Bitmap Clock
+LICENSE=	gnu-gpl-v2
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
