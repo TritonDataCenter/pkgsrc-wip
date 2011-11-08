@@ -551,6 +551,7 @@ SUBDIR+=	fastrpc
 SUBDIR+=	fbida
 SUBDIR+=	fbpager
 SUBDIR+=	fbpanel
+SUBDIR+		fceux
 SUBDIR+=	fdm
 SUBDIR+=	feynhiggs
 SUBDIR+=	ffmpeg
