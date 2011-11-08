@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	grake-0.0.4
+DISTNAME=	grake-0.1.0
 PKGNAME=	p5-${DISTNAME}
 CATEGORIES=	net www
 MASTER_SITES=	http://grake.googlecode.com/files/
@@ -16,6 +16,7 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 DEPENDS+=	p5-Getopt-ArgvFile>=1.11:../../devel/p5-Getopt-ArgvFile
 DEPENDS+=	p5-Test-Pod>=1.44:../../devel/p5-Test-Pod
 DEPENDS+=	p5-version>=0.77:../../devel/p5-version
+DEPENDS+=	p5-Umph-Prompt>=0.1.0:../../wip/p5-Umph-Prompt
 
 PERL5_PACKLIST=	auto/grake/.packlist
 USE_LANGUAGES=	# none
