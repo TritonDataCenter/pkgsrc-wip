@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	coccigrep-1.5
+DISTNAME=	coccigrep-1.6
 CATEGORIES=	textproc
 MASTER_SITES=	http://home.regit.org/wp-content/uploads/2011/08/
 
