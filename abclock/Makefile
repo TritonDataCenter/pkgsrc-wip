@@ -4,7 +4,7 @@ DISTNAME=	abclock-1.0d
 CATEGORIES=	time
 MASTER_SITES=	${HOMEPAGE}
 
-MAINTAINER=	ghen@NetBSD.org
+MAINTAINER=	ryoon@NetBSD.org
 COMMENT=	Analogue Bitmap Clock
 HOMEPAGE=	http://odur.let.rug.nl/~kleiweg/abclock/
 
