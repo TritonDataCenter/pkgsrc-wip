@@ -3,6 +3,7 @@
 
 DISTNAME=	moeclock
 PKGNAME=	${DISTNAME}-1.2.0.1
+PKGREVISION=	1
 CATEGORIES=	time
 MASTER_SITES=	http://moeclock.googlecode.com/files/
 
@@ -30,6 +31,12 @@ SUBST_FILES.fix-python+=	moeclock
 SUBST_SED.fix-python+=		-e 's,/usr/bin/env python,${PYTHONBIN},'
 SUBST_SED.fix-python+=		-e 's,python ,${PYTHONBIN} ,'
 SUBST_SED.fix-python+=		-e 's,/usr/share,${PREFIX}/share,'
+
+SUBST_CLASSES+=			prefix
+SUBST_STAGE.prefix=		pre-configure
+SUBST_MESSAGE.prefix=		Fixing pkgsrc prefix
+SUBST_FILES.prefix+=		moeclock.desktop
+SUBST_SED.prefix+=		-e 's,@PREFIX@,${PREFIX},'
 
 CHECK_INTERPRETER_SKIP+=	share/applications/moeclock.desktop
 
