@@ -61,7 +61,7 @@ SVN_REPOSITORIES=	llvm clang
 SVN_ROOT.llvm=		http://llvm.org/svn/llvm-project/llvm/trunk
 SVN_ROOT.clang=		http://llvm.org/svn/llvm-project/cfe/trunk
 
-PKGNAME=		clang-2.8.99
+PKGNAME=		clang-3.0.99
 WRKSRC=			$(WRKDIR)/$(SVN_MODULE.llvm)
 
 CHECK_PORTABILITY_SKIP= utils/buildit/.svn/text-base/build_llvm.svn-base \
