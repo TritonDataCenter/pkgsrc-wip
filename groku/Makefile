@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		groku-0.1
-PKGREVISION=		5
+PKGREVISION=		6
 CATEGORIES=		audio
 MASTER_SITES=		http://digitalssg.net/debian/
 
@@ -23,6 +23,10 @@ pre-configure:
 	${CP} files/depcomp ${WRKSRC}/depcomp
 	${CP} files/missing ${WRKSRC}/missing
 	${CP} files/INSTALL ${WRKSRC}/INSTALL
+
+pre-install:
+	${INSTALL_DATA_DIR} ${DESTDIR}${PREFIX}/share/groku
+	${LN} -s ${DESTDIR}${PREFIX}/share/pixmaps/groku.png ${DESTDIR}${PREFIX}/share/groku/groku-logo.png
 
 .include "../../x11/libX11/buildlink3.mk"
 .include "../../devel/libgnomeui/buildlink3.mk"
