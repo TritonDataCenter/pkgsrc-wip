@@ -1,10 +1,10 @@
 # $NetBSD$
 #
 
-DISTNAME=	hanazono-20110516
+DISTNAME=	hanazono-20110915
 PKGNAME=	${DISTNAME:S/-/-ttf-/}
 CATEGORIES=	fonts
-MASTER_SITES=	http://www.fonts.jp/hanazono/
+MASTER_SITES=	http://kage.sourceforge.jp/hanazono/
 EXTRACT_SUFX=	.zip
 
 MAINTAINER=	ryoon@NetBSD.org
