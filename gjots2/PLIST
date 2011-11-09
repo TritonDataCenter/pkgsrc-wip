@@ -23,8 +23,7 @@ share/doc/${PKGNAME}/gjots2.fr.gjots
 share/doc/${PKGNAME}/gjots2.no.gjots
 share/doc/${PKGNAME}/gjots2.nb.gjots
 share/doc/${PKGNAME}/gjots2.ru.gjots
-share/applications/gjots2.deskto
-lib/gjots2/
+share/applications/gjots2.desktop
 lib/gjots2/__init__.py
 lib/gjots2/file.py
 lib/gjots2/general.py
