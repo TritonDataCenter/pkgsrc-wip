@@ -2,13 +2,15 @@
 #
 
 DISTNAME=		groku-0.1
-PKGREVISION=		4
+PKGREVISION=		5
 CATEGORIES=		audio
 MASTER_SITES=		http://digitalssg.net/debian/
 
 MAINTAINER=		mwicks@kettering.edu
 HOMEPAGE=		http://groku.digitalssg.net/
 COMMENT=		Groku is a GTK for controlling your Roku Soundbridge (tm)
+
+PKG_DESTDIR_SUPPORT=	user-destdir
 
 GNU_CONFIGURE=		yes
 USE_TOOLS+=		pkg-config
@@ -22,9 +24,9 @@ pre-configure:
 	${CP} files/missing ${WRKSRC}/missing
 	${CP} files/INSTALL ${WRKSRC}/INSTALL
 
+.include "../../x11/libX11/buildlink3.mk"
 .include "../../devel/libgnomeui/buildlink3.mk"
 .include "../../devel/GConf/buildlink3.mk"
 .include "../../devel/libglade/buildlink3.mk"
-.include "../../x11/Xfixes/buildlink3.mk"
 
 .include "../../mk/bsd.pkg.mk"
