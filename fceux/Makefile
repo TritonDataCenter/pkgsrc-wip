@@ -31,4 +31,6 @@ do-install:
 		cd ${WRKSRC} && \
 		${INSTALL_PROGRAM} src/fceux ${DESTDIR}${PREFIX}/bin/fceux
 
+.include "../../devel/SDL/buildlink3.mk"
+.include "../../x11/gtk2/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
