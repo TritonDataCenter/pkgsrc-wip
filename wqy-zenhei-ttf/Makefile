@@ -3,6 +3,7 @@
 
 DISTNAME=	wqy-zenhei-0.8.38-1
 PKGNAME=	wqy-zenhei-0.8.38.1
+PKGREVISION=	1
 CATEGORIES=	fonts chinese
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=wqy/}
 
@@ -43,7 +44,7 @@ INSTALLED_EXAMPLES=	44-wqy-zenhei.conf \
 			66-wqy-zenhei-sharp.conf
 
 do-install:
-	${INSTALL_DATA} ${WRKSRC}/${INSTALLED_FONTS} ${DESTDIR}${FONTDIR}
+	${INSTALL_DATA} ${WRKSRC}/${INSTALLED_FONTS} ${DESTDIR}${FONTDIR}/wqy-zenhei.ttf
 .for f in ${INSTALLED_DOCS}
 	${INSTALL_DATA} ${WRKSRC}/${f} ${DESTDIR}${DOCDIR}
 .endfor
