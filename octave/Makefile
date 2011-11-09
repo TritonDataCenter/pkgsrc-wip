@@ -34,6 +34,7 @@ INFO_FILES=yes
 
 .include "../../audio/libsndfile/buildlink3.mk"
 .include "../../devel/ncurses/buildlink3.mk"
+.include "../../devel/pcre/buildlink3.mk"
 .include "../../devel/readline/buildlink3.mk"
 .include "../../devel/zlib/buildlink3.mk"
 .include "../../math/blas/buildlink3.mk"
