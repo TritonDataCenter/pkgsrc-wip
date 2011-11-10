@@ -9,6 +9,7 @@ MASTER_SITES=		http://www.xs4all.nl/~mfnboer/twinkle/download/
 MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://www.twinklephone.com/
 COMMENT=		Software Phone using the SIP protocol
+LICENSE=		gnu-gpl-v2
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
