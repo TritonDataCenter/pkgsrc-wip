@@ -1,5 +1,7 @@
 $NetBSD$
 
+Defines C as environ if not defined. Better declares and reads buffer.
+
 --- src/call_script.cpp.orig	2007-07-15 19:05:38.000000000 +0200
 +++ src/call_script.cpp
 @@ -25,6 +25,10 @@

@@ -1,5 +1,7 @@
 $NetBSD$
 
+Many have_lrelease lines were missing. Fixes that.
+
 --- src/gui/lang/Makefile.in.orig	2009-01-31 04:49:08.000000000 +0000
 +++ src/gui/lang/Makefile.in
 @@ -483,22 +483,22 @@ uninstall-am: uninstall-info-am uninstal

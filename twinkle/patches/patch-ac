@@ -1,5 +1,7 @@
 $NetBSD$
 
+Defines PTHREAD_MUTEX_RECURSIVE_NP and PTHREAD_MUTEX_RECURSIVE if not already.
+
 --- src/threads/mutex.cpp.orig	2007-01-07 07:47:34.000000000 +0000
 +++ src/threads/mutex.cpp
 @@ -23,6 +23,10 @@

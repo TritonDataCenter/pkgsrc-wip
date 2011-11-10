@@ -1,5 +1,7 @@
 $NetBSD$
 
+Fixes improperly nested conditional and removes double = test.
+
 --- configure.orig	2009-01-31 04:48:59.000000000 +0000
 +++ configure
 @@ -13394,7 +13394,7 @@ cat >>confdefs.h <<_ACEOF
