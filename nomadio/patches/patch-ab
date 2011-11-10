@@ -1,5 +1,7 @@
 $NetBSD$
 
+A kludge to fix signedness errors.
+
 --- nomadio.c.orig	2002-05-28 03:46:11.000000000 +0000
 +++ nomadio.c
 @@ -229,7 +229,7 @@ main(argc, argv)
