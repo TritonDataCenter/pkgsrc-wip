@@ -8,6 +8,7 @@ MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=djplay/}
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://djplay.sourceforge.net/
 COMMENT=	DJ Console access library
+LICENSE=	gnu-gpl-v2
 
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
