@@ -1,5 +1,7 @@
 $NetBSD$
 
+Set cmake_policy so the package builds.
+
 --- CMakeLists.txt.orig	2010-04-17 07:24:40.000000000 +0000
 +++ CMakeLists.txt
 @@ -216,6 +216,10 @@ ELSE( MINGW )
