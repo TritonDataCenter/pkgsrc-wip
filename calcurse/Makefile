@@ -12,11 +12,12 @@ LICENSE=	2-clause-bsd
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
-USE_TOOLS+=	gmake
+USE_TOOLS+=	gmake msgfmt msgmerge xgettext
 GNU_CONFIGURE=	yes
 
 # force to use ncurses from pkgsrc
 INCOMPAT_CURSES=	NetBSD-*-*
 
+.include "../../devel/gettext-lib/buildlink3.mk"
 .include "../../devel/ncurses/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
