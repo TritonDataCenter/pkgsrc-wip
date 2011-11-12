@@ -1,4 +1,4 @@
-$NetBSD$
+$NetBSD: patch-cg,v 1.2 2011/05/02 21:23:01 adam Exp $
 
 --- dlls/ws2_32/socket.c.orig	2010-12-10 22:33:07.000000000 +0300
 +++ dlls/ws2_32/socket.c	2010-12-22 02:33:54.000000000 +0300
