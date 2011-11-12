@@ -1669,7 +1669,6 @@ SUBDIR+=	p5-Arch
 SUBDIR+=	p5-Astro-SpaceTrack
 SUBDIR+=	p5-AxKit
 SUBDIR+=	p5-B-Deobfuscate
-SUBDIR+=	p5-Barcode-Code128
 SUBDIR+=	p5-Bit-Vector-Minimal
 SUBDIR+=	p5-CGI-Application-Dispatch
 SUBDIR+=	p5-CGI-Application-Plugin-AutoRunmode
