@@ -43,7 +43,7 @@ REPLACE.runawk.new=	${PREFIX}/bin/runawk
 REPLACE_FILES.runawk=	nih/pkg_update_plan.in nih/cmp2hr.in
 
 MAKE_ENV+=		MANDIR=${PREFIX}/${PKGMANDIR}
-MAKE_ENV+=		VERSION=${_GIT_TODAY:S/-//g}
+MAKE_ENV+=		VERSION=${_GIT_PKGVERSION:S/.//}
 
 MAKE_PROGRAM=		mkcmake
 
