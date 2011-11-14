@@ -48,7 +48,7 @@ REPLACE_INTERPRETER+=	runawk
 REPLACE.runawk.old=	.*runawk
 REPLACE.runawk.new=	${PREFIX}/bin/runawk
 REPLACE_FILES.runawk=	get_processed_pkgs.in pkg_*.in XB2bin_summary.in \
-	direct_deps.in summary2multi_variants.in
+	direct_deps.in summary2multi_variants.in enrich_summary.in
 
 MAKE_ENV+=	AWKMODDIR=${PREFIX}/share/runawk
 MAKE_ENV+=	EGDIR=${EGDIR}
