@@ -907,6 +907,7 @@ SUBDIR+=	hs-gtk
 SUBDIR+=	hs-hashable
 SUBDIR+=	hs-hashed-storage
 SUBDIR+=	hs-hashed-storage3
+SUBDIR+=	hs-hashmap
 SUBDIR+=	hs-haskeline
 SUBDIR+=	hs-haskell-lexer
 SUBDIR+=	hs-haskell-src
