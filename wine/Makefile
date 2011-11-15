@@ -1,7 +1,7 @@
 # $NetBSD: Makefile,v 1.25 2011/11/01 06:11:54 sbd Exp $
 
-DISTNAME=	wine-1.3.26
-PKGREVISION=	1
+DISTNAME=	wine-1.3.32
+#PKGREVISION=	1
 CATEGORIES=	emulators
 MASTER_SITES=	http://ibiblio.org/pub/linux/system/emulators/wine/ \
 		${MASTER_SITE_SOURCEFORGE:=wine/}
@@ -27,6 +27,8 @@ GNU_CONFIGURE=		yes
 UNLIMIT_RESOURCES=	datasize
 
 REPLACE_PERL+=		tools/winemaker tools/winedump/function_grep.pl
+
+CONFIGURE_ARGS+=	--without-gettext # disable temporarily
 
 # The Wine configure script has problems locating the libraries in the
 # buildlink directory, so prepend all of the LDFLAGS necessary to link
