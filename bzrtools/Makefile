@@ -2,8 +2,8 @@
 
 DISTNAME=	bzrtools-${VER}
 CATEGORIES=	devel scm
-MASTER_SITES=	http://launchpad.net/bzrtools/trunk/${VER}/+download/
-VER=		2.3.0
+MASTER_SITES=	http://launchpad.net/bzrtools/stable/${VER}/+download/
+VER=		2.4.1
 
 MAINTAINER=	jan.m.danielsson@gmail.com
 HOMEPAGE=	http://bazaar-vcs.org/BzrTools
@@ -15,6 +15,6 @@ PYDISTUTILSPKG=	yes
 
 WRKSRC=		${WRKDIR}/bzrtools
 
-.include "../../devel/bzr/plugin.mk"
+.include "../../wip/bzr/plugin.mk"
 .include "../../lang/python/extension.mk"
 .include "../../mk/bsd.pkg.mk"
