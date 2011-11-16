@@ -19,6 +19,8 @@ lib/uniplate-${PKGVERSION}/${HASKELL_VERSION}/Data/Generics/Uniplate.hi
 lib/uniplate-${PKGVERSION}/${HASKELL_VERSION}/Data/Generics/Uniplate.p_hi
 lib/uniplate-${PKGVERSION}/${HASKELL_VERSION}/Data/Generics/Uniplate/Data.hi
 lib/uniplate-${PKGVERSION}/${HASKELL_VERSION}/Data/Generics/Uniplate/Data.p_hi
+lib/uniplate-${PKGVERSION}/${HASKELL_VERSION}/Data/Generics/Uniplate/Data/Instances.hi
+lib/uniplate-${PKGVERSION}/${HASKELL_VERSION}/Data/Generics/Uniplate/Data/Instances.p_hi
 lib/uniplate-${PKGVERSION}/${HASKELL_VERSION}/Data/Generics/Uniplate/DataOnly.hi
 lib/uniplate-${PKGVERSION}/${HASKELL_VERSION}/Data/Generics/Uniplate/DataOnly.p_hi
 lib/uniplate-${PKGVERSION}/${HASKELL_VERSION}/Data/Generics/Uniplate/Direct.hi
