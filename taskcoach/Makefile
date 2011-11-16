@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	TaskCoach-1.2.30
+DISTNAME=	TaskCoach-1.2.31
 PKGNAME=	${DISTNAME:tl}
 CATEGORIES=	time
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=taskcoach/}
