@@ -3,6 +3,7 @@
 
 DISTNAME=	twitim_1.5
 PKGNAME=	${DISTNAME:S/_/-/}
+PKGREVISION=	1
 CATEGORIES=	net
 MASTER_SITES=	http://twitim.googlecode.com/files/
 
@@ -45,6 +46,8 @@ SUBST_STAGE.prefix=	pre-configure
 SUBST_FILES.prefix=	etc/twitim.conf twitim
 SUBST_SED.prefix=	-e 's,/usr,${PREFIX},g'
 SUBST_SED.prefix+=	-e 's,/etc/twitim/twitim.conf,${PREFIX}/etc/twitim.conf,g'
+
+PLIST_SUBST+=		PERL5_INSTALLVENDORLIB=${PERL5_INSTALLVENDORLIB:S|${PREFIX}/||:Q}
 
 do-install:
 	${INSTALL_DATA} ${WRKSRC}/etc/twitim.desktop ${DESTDIR}${PREFIX}/share/applications
