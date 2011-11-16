@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	netlogo-4.1
+DISTNAME=	netlogo-4.1.3
 CATEGORIES=	devel java
 MASTER_SITES=	http://ccl.northwestern.edu/netlogo/4.1/
 
