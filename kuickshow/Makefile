@@ -3,9 +3,9 @@
 
 DISTNAME=	kuickshow-0.9.1-kde4.4.0
 PKGNAME=	${DISTNAME:S/-kde/./}
-PKGREVISION=	1
+PKGREVISION=	2
 CATEGORIES=	graphics
-MASTER_SITES=	${MASTER_SITE_KDE:=4.4.0/src/extragear/}
+MASTER_SITES=	${MASTER_SITE_KDE:=extragear/}
 EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	markd@NetBSD.org
