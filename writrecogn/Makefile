@@ -3,9 +3,9 @@
 
 DISTNAME=	WritRecogn-0.1.9
 PKGNAME=	${DISTNAME:tl}
-PKGREVISION=	2
+PKGREVISION=	3
 CATEGORIES=	inputmethod
-MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=/writrecogn/}
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=writrecogn/}
 
 MAINTAINER=	obache@NetBSD.org
 HOMEPAGE=	http://writrecogn.sourceforge.net/
