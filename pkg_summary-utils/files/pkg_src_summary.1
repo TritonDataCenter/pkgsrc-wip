@@ -114,6 +114,11 @@ executable in case a pkg_summary is built in parallel. Example: -Z300
 .BR PSS_PRE_PATH ", " PSS_POST_PATH
 In a distributed mode prepand and append PSS_PRE_PATH and PSS_POST_PATH to
 PATH
+.TP
+.BR MAKECONF
+If MAKECONF and PSS_SLAVES are not empty, MAKECONF is passed to
+.I pkg_src_summary
+processes running on slave hosts.
 .SH EXAMPLES
 .VB
 pkg_src_summary wip/dict-server wip/dict-mueller7 wip/dict-client
