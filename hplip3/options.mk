@@ -10,10 +10,8 @@ PKG_SUGGESTED_OPTIONS=	fax scan
 
 .include "../../mk/bsd.options.mk"
 
-PLIST_VARS+=		fax scan gui
-
 .if !empty(PKG_OPTIONS:Mfax)
-PLIST.fax=		yes
+PLIST_SRC+=		PLIST.fax
 CONFIGURE_ARGS+=	--enable-fax-build
 CONFIGURE_ARGS+=	--enable-dbus-build
 EGFILES+=		cups/pstotiff.convs cups/pstotiff.types
@@ -27,7 +25,7 @@ CONFIGURE_ARGS+=	--disable-fax-build
 .endif
 
 .if !empty(PKG_OPTIONS:Mscan)
-PLIST.scan=		yes
+PLIST_SRC+=		PLIST.scan
 CONFIGURE_ARGS+=	--enable-scan-build
 MESSAGE_SRC+=		MESSAGE.scan
 MESSAGE_SUBST+=		EGDIR=${EGDIR}
@@ -38,7 +36,7 @@ CONFIGURE_ARGS+=	--disable-scan-build
 .endif
 
 .if !empty(PKG_OPTIONS:Mgui)
-PLIST.gui=		yes
+PLIST_SRC+=		PLIST.gui
 CONFIGURE_ARGS+=	--enable-gui-build
 CONFIGURE_ARGS+=	--enable-qt4
 CONFIGURE_ARGS+=	--enable-policykit
