@@ -8,6 +8,7 @@ MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=cedet/}
 MAINTAINER=	pho@cielonegro.org
 HOMEPAGE=	http://cedet.sourceforge.net/
 COMMENT=	Collection of Emacs Development Environment Tools
+LICENSE=	gnu-gpl-v3
 
 MESSAGE_SUBST+=	LISPDIR=${EMACS_LISPPREFIX}
 
@@ -16,6 +17,12 @@ INFO_FILES=	yes
 
 MAKE_FLAGS+=	EMACS=${EMACS_BIN}
 EMACS_MODULES+=	base
+EMACS_VERSIONS_ACCEPTED= \
+	emacs20 \
+	emacs21 emacs21nox \
+	emacs22 emacs22nox \
+	xemacs214 xemacs214nox \
+	xemacs215 xemacs215nox
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
@@ -44,5 +51,5 @@ do-install:
 	${INSTALL_DATA} ${WRKSRC}/*/*.info* ${DESTDIR}${PREFIX}/info
 	${INSTALL_DATA} ${WRKSRC}/*/doc/*.info* ${DESTDIR}${PREFIX}/${PKGINFODIR}
 
-.include "../../mk/bsd.pkg.mk"
 .include "../../editors/emacs/modules.mk"
+.include "../../mk/bsd.pkg.mk"
