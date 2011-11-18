@@ -1,0 +1,9 @@
+===========================================================================
+$NetBSD$
+
+Append the following line to your .emacs file:
+
+  (add-to-list 'load-path "${LISPDIR}/cedet/common")
+  (require 'cedet)
+
+===========================================================================
