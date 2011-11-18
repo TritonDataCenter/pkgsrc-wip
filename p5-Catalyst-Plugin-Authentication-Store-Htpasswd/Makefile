@@ -11,7 +11,7 @@ HOMEPAGE=	http://search.cpan.org/dist/Catalyst-Plugin-Authentication-Store-Htpas
 COMMENT=	Use .htpasswd with Catalyst
 
 DEPENDS+=	p5-Catalyst-Plugin-Authentication>=0.01:../../www/p5-Catalyst-Plugin-Authentication
-DEPENDS+=	p5-Authen-Htpasswd>=0.13:../../wip/p5-Authen-Htpasswd
+DEPENDS+=	p5-Authen-Htpasswd>=0.13:../../security/p5-Authen-Htpasswd
 
 PERL5_MODULE_TYPE=	Module::Build
 
