@@ -576,6 +576,7 @@ SUBDIR+=	flimp
 SUBDIR+=	flimsel
 SUBDIR+=	flpsed
 SUBDIR+=	fltk13
+SUBDIR+=	fluxbox
 SUBDIR+=	fluxspace
 SUBDIR+=	flv2mpeg4
 SUBDIR+=	flvmeta
