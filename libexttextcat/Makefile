@@ -1,11 +1,11 @@
 # $NetBSD$
 
-VER=		3.1.1
+VER=		3.2.0
 DISTNAME=	libexttextcat-${VER}
 PKGNAME=	libexttextcat-${VER:S/-//g}
 CATEGORIES=	textproc
-MASTER_SITES=	http://dev-www.libreoffice.org/src/
-EXTRACT_SUFX=	.tar.bz2
+MASTER_SITES=	http://dev-www.libreoffice.org/src/libexttextcat/
+EXTRACT_SUFX=	.tar.xz
 
 MAINTAINER=	ftigeot@wolfpond.org
 HOMEPAGE=	http://cgit.freedesktop.org/libreoffice/libexttextcat/
