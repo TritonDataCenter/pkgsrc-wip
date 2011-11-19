@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	libisoburn-1.1.2
+DISTNAME=	libisoburn-1.1.6
 PKGNAME=	${DISTNAME:S/pl//}
 CATEGORIES=	sysutils
 MASTER_SITES=	http://files.libburnia-project.org/releases/
