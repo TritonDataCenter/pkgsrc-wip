@@ -154,6 +154,7 @@ share/mikutter/core/skin/data/tab-bg.png
 share/mikutter/core/skin/data/timeline.png
 share/mikutter/core/skin/data/underconstruction.png
 share/mikutter/core/skin/data/unfav.png
+share/mikutter/core/test/test_cairo_markup_generator.rb
 share/mikutter/core/test/test_cairo_textselector.rb
 share/mikutter/core/test/test_entity.rb
 share/mikutter/core/test/test_message.rb
