@@ -128,5 +128,3 @@ share/xmms2/mind.in.a.box-lament_snipplet.ogg
 share/xmms2/scripts/startup.d/xmms2-et-launcher.sh
 share/xmms2/scripts/startup.d/xmms2-mdns-launcher.sh
 ${PLIST.gamin}share/xmms2/scripts/startup.d/xmms2-mlib-updater.sh
-${PLIST.perl}@dirrm /lib/perl5/site_perl/5.10.0/x86_64-netbsd-thread-multi/Audio/XMMSClient
-${PLIST.ruby}@dirrm lib/ruby/site_ruby/1.8/xmmsclient

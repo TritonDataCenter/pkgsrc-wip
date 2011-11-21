@@ -4,4 +4,3 @@ include/menu-cache/menu-cache.h
 lib/libmenu-cache.la
 lib/pkgconfig/libmenu-cache.pc
 libexec/menu-cached
-@dirrm include/menu-cache

@@ -254,4 +254,3 @@ share/locale/pl/LC_MESSAGES/shadow.mo
 share/locale/ru/LC_MESSAGES/shadow.mo
 share/locale/sv/LC_MESSAGES/shadow.mo
 share/locale/uk/LC_MESSAGES/shadow.mo
-${PAM}@dirrm share/examples/shadow

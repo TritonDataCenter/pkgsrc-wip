@@ -83,4 +83,3 @@ share/httpd/htdocs/openscep/scepxid.1.html
 share/httpd/htdocs/openscep/title.html
 share/httpd/htdocs/openscep/updatecrl.8.html
 share/httpd/htdocs/openscep/welcome.html
-${WEBUI}@dirrm libexec/cgi-bin/openscep
