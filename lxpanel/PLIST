@@ -52,12 +52,3 @@ share/lxpanel/images/volume.png
 share/lxpanel/profile/default/config
 share/lxpanel/profile/default/panels/panel
 share/lxpanel/ui/panel-pref.ui
-@dirrm share/lxpanel/ui
-@dirrm share/lxpanel/profile/default/panels
-@dirrm share/lxpanel/profile/default
-@dirrm share/lxpanel/profile
-@dirrm share/lxpanel/images
-@dirrm share/lxpanel
-@dirrm lib/lxpanel/plugins
-@dirrm lib/lxpanel
-@dirrm include/lxpanel
