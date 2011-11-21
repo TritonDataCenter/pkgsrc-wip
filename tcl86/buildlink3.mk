@@ -20,8 +20,6 @@ BUILDLINK_TRANSFORM+=	l:tcl86:tcl8.6
 TCLCONFIG_SH_DIR?=	${BUILDLINK_PREFIX.tcl86}/lib/
 TCLCONFIG_SH?=		${TCLCONFIG_SH_DIR}/tclConfig.sh
 
-PRINT_PLIST_AWK+=	/^@dirrm lib\/tcl$$/ \
-				{ print "@comment in tcl: " $$0; next; }
 .endif # TCL86_BUILDLINK3_MK
 
 .include "../../mk/dlopen.buildlink3.mk"

@@ -250,9 +250,6 @@ post-install:
 	${FIND} ${GCC_PREFIX} \( -type f -o -type l \) -print	\
 		| ${SORT} | ${SED} -e "s,${PREFIX}/,,g"	\
 		>> ${PLIST_SRC}
-	${FIND} ${GCC_PREFIX} -type d -print	\
-		| ${SORT} -r | ${SED} -e "s,${PREFIX}/,@dirrm ,g"	\
-		>> ${PLIST_SRC}
 
 .include "../../mk/bsd.prefs.mk"
 #.if !empty(BUILD_ADA:M[Yy][Ee][Ss])

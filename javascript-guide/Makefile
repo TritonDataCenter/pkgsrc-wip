@@ -23,7 +23,5 @@ do-install:
 	cat ${PKGDIR}/PLIST.pre >${PLIST_SRC}
 	cd ${WRKDIR} && pax -rw -pp [a-z]* ${PREFIX}/${HTMLDIR}
 	cd ${PREFIX} && find ${HTMLDIR} -type f -print >>${PLIST_SRC}
-	cd ${PREFIX} && find -d ${HTMLDIR} -type d -print | \
-	sed -e "s/^/@dirrm /" >>${PLIST_SRC}
 
 .include "../../mk/bsd.pkg.mk"

@@ -29,8 +29,6 @@ INSTALL_DIRS+=	${WRKSRC}/libraries/javalib/external/classpath/native/jawt
 pre-build:
 	cd ${WRKSRC}; ${SETENV} ${MAKE_ENV} ${MAKE_PROGRAM} ${BUILD_MAKE_FLAGS} BUILD_ENVIRONMENT
 
-PRINT_PLIST_AWK+= /^@dirrm/ { print "@comment in kaffe: " $$0; next; }
-
 .include "../../devel/glib2/buildlink3.mk"
 .include "../../x11/gtk2/buildlink3.mk"
 .include "../../graphics/libart/buildlink3.mk"

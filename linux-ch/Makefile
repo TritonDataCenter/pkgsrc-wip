@@ -23,8 +23,6 @@ do-install:
 		${SED} -e "s|^|\$${EMULOPTSUBDIR}/|" >> ${PLIST_SRC}
 	cd ${EMULOPTDIR} && ${FIND} ch4.0.0 -type l | \
 		${SED} -e "s|^|\$${EMULOPTSUBDIR}/|" >> ${PLIST_SRC}
-	cd ${EMULOPTDIR} && ${FIND} -d ch4.0.0  -type d  | \
-	${SED} -e "s/^/@dirrm \$${EMULOPTSUBDIR}\//" >>${PLIST_SRC}
 
 .include "../../wip/mk/linuxbin.pkg.mk"
 .include "../../mk/bsd.pkg.mk"

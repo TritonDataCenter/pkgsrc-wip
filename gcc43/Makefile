@@ -119,9 +119,6 @@ post-install:
 	${FIND} ${GCC_PREFIX} \( -type f -o -type l \) -print	\
 		| ${SORT} | ${SED} -e "s,${PREFIX}/,,g"	\
 		>> ${PLIST_SRC}
-	${FIND} ${GCC_PREFIX} -type d -print	\
-		| ${SORT} -r | ${SED} -e "s,${PREFIX}/,@dirrm ,g"	\
-		>> ${PLIST_SRC}
 
 .include "../../devel/gmp/buildlink3.mk"
 .include "../../math/mpfr/buildlink3.mk"

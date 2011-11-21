@@ -69,8 +69,6 @@ do-install:
 	cd ${WRKSRC} && pax -rw -pe [Ll]esson* ${PREFIX}/${NEHE_OPENGL_TUT_DIR}
 	${CAT} ${PKGDIR}/PLIST.pre >${PLIST_SRC}
 	cd ${PREFIX} && ${FIND} ${NEHE_OPENGL_TUT_DIR} -type f -print >>${PLIST_SRC}
-	cd ${PREFIX} && ${FIND} -d ${NEHE_OPENGL_TUT_DIR} -type d -print | \
-	${SED} -e "s/^/@dirrm /" >>${PLIST_SRC}
 
 .include "../../graphics/freetype2/buildlink3.mk"
 .include "../../mk/x11.buildlink3.mk"

@@ -24,7 +24,5 @@ do-install:
 	cd ${DOC_SRCDIR}/html && pax -rw -pe reference ${PREFIX}/${HTMLDIR}
 	cd ${DOC_SRCDIR}/core_tutorial && pax -rw -pe tut ${PREFIX}/${HTMLDIR}
 	cd ${PREFIX} && ${FIND} ${HTMLDIR} -type f -print >>${PLIST_SRC}
-	cd ${PREFIX} && ${FIND} -d ${HTMLDIR} -type d -print | \
-	${SED} -e "s/^/@dirrm /" >>${PLIST_SRC}
 
 .include "../../mk/bsd.pkg.mk"

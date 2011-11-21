@@ -135,14 +135,11 @@ diff -u -r1.1.1.9 -r1.2
  share/openldap/ucdata/case.dat
  share/openldap/ucdata/cmbcl.dat
  share/openldap/ucdata/comp.dat
-@@ -242,6 +240,7 @@
+@@ -242,3 +240,4 @@
  share/openldap/ucdata/decomp.dat
  share/openldap/ucdata/kdecomp.dat
  share/openldap/ucdata/num.dat
 +@unexec ${RM} -f %D/share/openldap/ucdata/.chroot_timestamp
- @dirrm share/openldap/ucdata
- @dirrm share/openldap
- @dirrm share/examples/openldap/schema
 Index: distinfo
 ===================================================================
 RCS file: /scratch/cvsroot/netbsd/pkgsrc/databases/openldap/distinfo,v
