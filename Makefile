@@ -820,7 +820,6 @@ SUBDIR+=	hijra
 SUBDIR+=	hitori
 SUBDIR+=	hlint
 SUBDIR+=	homebank
-SUBDIR+=	hplip
 SUBDIR+=	hplip3
 SUBDIR+=	hpoj
 SUBDIR+=	hs-ConfigFile
