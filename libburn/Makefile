@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	libburn-1.1.6
+DISTNAME=	libburn-1.1.8
 CATEGORIES=	sysutils
 MASTER_SITES=	http://files.libburnia-project.org/releases/
 
