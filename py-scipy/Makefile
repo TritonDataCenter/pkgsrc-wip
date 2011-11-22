@@ -19,5 +19,5 @@ MAKE_ENV+=	ATLAS=None
 
 .include "../../lang/python/extension.mk"
 .include "../../math/fftw/buildlink3.mk"
-.include "../../wip/py-numpy/buildlink3.mk"
+.include "../../math/py-numpy/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

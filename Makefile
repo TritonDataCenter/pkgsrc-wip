@@ -2230,7 +2230,6 @@ SUBDIR+=	py-nodepy
 SUBDIR+=	py-nose-senario
 SUBDIR+=	py-ntch
 SUBDIR+=	py-numdifftools
-SUBDIR+=	py-numpy
 SUBDIR+=	py-nzmath
 SUBDIR+=	py-oak
 SUBDIR+=	py-oasa

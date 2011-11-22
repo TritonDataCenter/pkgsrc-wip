@@ -25,6 +25,6 @@ PYTHON_VERSIONS_ACCEPTED=	25 24
 .include "../../devel/zlib/buildlink3.mk"
 .include "../../graphics/freetype2/buildlink3.mk"
 .include "../../graphics/png/buildlink3.mk"
-.include "../../wip/py-numpy/buildlink3.mk"
+.include "../../math/py-numpy/buildlink3.mk"
 .include "../../x11/py-gtk2/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
