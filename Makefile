@@ -2323,7 +2323,6 @@ SUBDIR+=	py-scikits_statsmodels
 SUBDIR+=	py-scikits_talkbox
 SUBDIR+=	py-scikits_timeseries
 SUBDIR+=	py-scikits_vectorplot
-SUBDIR+=	py-scipy
 SUBDIR+=	py-scitools
 SUBDIR+=	py-scrobbler
 SUBDIR+=	py-se
