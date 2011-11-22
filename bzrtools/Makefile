@@ -12,9 +12,11 @@ COMMENT=	Collection of plugins for Bazaar
 PKG_DESTDIR_SUPPORT=	user-destdir
 
 PYDISTUTILSPKG=	yes
+PYTHON_PATCH_SCRIPTS= check-release.py test.py
 
 WRKSRC=		${WRKDIR}/bzrtools
 
 .include "../../wip/bzr/plugin.mk"
+.include "../../lang/python/application.mk"
 .include "../../lang/python/extension.mk"
 .include "../../mk/bsd.pkg.mk"
