@@ -59,5 +59,9 @@ DEPENDS+=	tnftp-[0-9]*:../../net/tnftp
 
 MAKE_ENV+= FTP=${FTP_CMD:Q}
 
+.if ${OPSYS} =="SunOS" && empty(OS_VERSION:M5.11*)
+REPLACE_SH+=	nih/nih.in nih/pkg_status.in
+.endif
+
 .include "../../devel/mk-configure/configure.mk"
 .include "../../mk/bsd.pkg.mk"
