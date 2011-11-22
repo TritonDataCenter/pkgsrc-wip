@@ -23,6 +23,9 @@ PYDISTUTILSPKG=		yes
 PYTHON_VERSIONS_ACCEPTED=	27 26 25
 
 PYTHON_PATCH_SCRIPTS=		bzr bzrlib/weave.py
+PYTHON_PATCH_SCRIPTS+=		bzrlib/patiencediff.py bzrlib/_patiencediff_py.py
+PYTHON_PATCH_SCRIPTS+=		bzrlib/plugins/bash_completion/bashcomp.py
+PYTHON_PATCH_SCRIPTS+=		bzrlib/tests/ssl_certs/create_ssls.py
 
 .include "../../mk/bsd.prefs.mk"
 
