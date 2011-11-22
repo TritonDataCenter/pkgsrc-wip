@@ -5,7 +5,7 @@ CATEGORIES=	devel scm
 MASTER_SITES=	http://launchpad.net/bzrtools/stable/${VER}/+download/
 VER=		2.4.1
 
-MAINTAINER=	jan.m.danielsson@gmail.com
+MAINTAINER=	ddeus.pkgsrc@mailnull.com
 HOMEPAGE=	http://bazaar-vcs.org/BzrTools
 COMMENT=	Collection of plugins for Bazaar
 
