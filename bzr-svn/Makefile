@@ -6,23 +6,20 @@ MASTER_SITES=	http://launchpad.net/bzr-svn/1.1/${VER}/+download/
 MASTER_SITES+=	http://samba.org/~jelmer/bzr/
 VER=		1.1.1
 
-MAINTAINER=	jan.m.danielsson@gmail.com
+MAINTAINER=	ddeus.pkgsrc@mailnull.com
 HOMEPAGE=	http://bazaar-vcs.org/BzrForeignBranches/Subversion
 COMMENT=	Foreign Subversion repository support for Bazaar
 LICENSE=	gnu-gpl-v2
 
 PKG_DESTDIR_SUPPORT=	user-destdir
+PYTHON_VERSIONS_ACCEPTED=	27 26 25
 
 DEPENDS+=	bzr>=2.4:../../wip/bzr
 DEPENDS+=	${PYPKGPREFIX}-subvertpy>=0.6.1:../../devel/py-subvertpy
 
 .include "../../lang/python/pyversion.mk"
 
-.if ${PYVERSSUFFIX} == "2.4"
-DEPENDS=	${PYPKGPREFIX}-sqlite2>=2.3.5:../../databases/py-sqlite2
-.else
 DEPENDS=	${PYPKGPREFIX}-sqlite3-[0-9]*:../../databases/py-sqlite3
-.endif
 
 # for make test
 USE_TOOLS+=	gmake
