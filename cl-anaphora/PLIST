@@ -1,0 +1,4 @@
+@comment $NetBSD$
+${PLIST.ecl}${ECL_PATH}anaphora.asd
+${PLIST.ecl}${ECL_PATH}anaphora.fas
+share/doc/${LISP}-anaphora/LICENSE
