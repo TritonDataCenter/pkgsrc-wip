@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-VERSION=        0.8.0
+VERSION=        0.8.1
 SHORTNAME=	bordeaux-threads
 DISTNAME=	${SHORTNAME}-${VERSION}
 CATEGORIES=	devel
