@@ -11,8 +11,8 @@ MAINTAINER=     ddeus.pkgsrc@mailnull.com
 HOMEPAGE=	http://weitz.de/cl-fad/
 COMMENT=        CL-UNICODE - A portable Unicode library for Common Lisp
 LICENSE=        modified-bsd
-DEPENDS+=	ecl-ppcre:../../wip/cl-ppcre
-DEPENDS+=	ecl-flexi-streams:../../wip/cl-flexi-streams
+DEPENDS+=	ecl-ppcre-[0-9]*:../../wip/cl-ppcre
+DEPENDS+=	ecl-flexi-streams-[0-9]*:../../wip/cl-flexi-streams
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 WRKSRC=			${WRKDIR}/${DISTNAME}-${VERSION}

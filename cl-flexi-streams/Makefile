@@ -11,7 +11,7 @@ MAINTAINER=     ddeus.pkgsrc@mailnull.com
 HOMEPAGE=	http://weitz.de/flexi-streams/
 COMMENT=        FLEXI-STREAMS - Flexible bivalent streams for Common Lisp
 LICENSE=        modified-bsd
-DEPENDS+=	ecl-trivial-gray-streams:../../wip/cl-trivial-gray-streams
+DEPENDS+=	ecl-trivial-gray-streams-[0-9]*:../../wip/cl-trivial-gray-streams
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 WRKSRC=			${WRKDIR}/${DISTNAME}-${VERSION}

@@ -11,9 +11,9 @@ MAINTAINER=     ddeus.pkgsrc@mailnull.com
 HOMEPAGE=	http://common-lisp.net/project/cffi/
 COMMENT=        The Common Foreign Function Interface for Common Lisp
 LICENSE=        public-domain
-DEPENDS+=	ecl-trivial-features:../../wip/cl-trivial-features
-DEPENDS+=	ecl-alexandria:../../wip/cl-alexandria
-DEPENDS+=	ecl-babel:../../wip/cl-babel
+DEPENDS+=	ecl-trivial-features-[0-9]*:../../wip/cl-trivial-features
+DEPENDS+=	ecl-alexandria-[0-9]*:../../wip/cl-alexandria
+DEPENDS+=	ecl-babel-[0-9]*:../../wip/cl-babel
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 WRKSRC=			${WRKDIR}/${DISTNAME}

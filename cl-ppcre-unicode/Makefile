@@ -15,7 +15,7 @@ LICENSE=        modified-bsd
 PKG_DESTDIR_SUPPORT=	user-destdir
 WRKSRC=			${WRKDIR}/${DISTNAME}-${VERSION}
 DEPENDS+=		ecl-ppcre-${VERSION}:../../wip/cl-ppcre
-DEPENDS+=		ecl-unicode:../../wip/cl-unicode
+DEPENDS+=		ecl-unicode-[0-9]*:../../wip/cl-unicode
 
 .include "options.mk"
 .include "../../wip/mk/cl-package.mk"

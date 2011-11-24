@@ -11,7 +11,7 @@ MAINTAINER=     ddeus.pkgsrc@mailnull.com
 HOMEPAGE=	http://common-lisp.net/project/bordeaux-threads/
 COMMENT=        Portable shared-state concurrency for Common Lisp
 LICENSE=        public-domain
-DEPENDS+=	ecl-alexandria:../../wip/cl-alexandria
+DEPENDS+=	ecl-alexandria-[0-9]*:../../wip/cl-alexandria
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 WRKSRC=			${WRKDIR}/${SHORTNAME}-${VERSION}
