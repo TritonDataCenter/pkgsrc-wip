@@ -18,7 +18,9 @@ DEPENDS+=	qbzr>=0.11:../../wip/qbzr
 DEPENDS+=	${PYPKGPREFIX}-qt4>=4.4:../../x11/py-qt4
 
 PYDISTUTILSPKG=	yes
-PYTHON_VERSIONS_ACCEPTED=	27 26 25
+# Only this python versions are supported, see:
+# http://doc.bazaar.canonical.com/bzr.dev/en/whats-new/whats-new-in-2.4.html
+PYTHON_VERSIONS_ACCEPTED=	27 26
 
 .include "../../wip/bzr/plugin.mk"
 .include "../../lang/python/extension.mk"

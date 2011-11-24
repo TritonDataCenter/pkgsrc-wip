@@ -20,7 +20,9 @@ USE_TOOLS+=		gmake
 
 PY_PATCHPLIST=		yes
 PYDISTUTILSPKG=		yes
-PYTHON_VERSIONS_ACCEPTED=	27 26 25
+# Only this python versions are supported, see:
+# http://doc.bazaar.canonical.com/bzr.dev/en/whats-new/whats-new-in-2.4.html
+PYTHON_VERSIONS_ACCEPTED=	27 26
 
 PYTHON_PATCH_SCRIPTS=		bzr bzrlib/weave.py
 PYTHON_PATCH_SCRIPTS+=		bzrlib/patiencediff.py bzrlib/_patiencediff_py.py

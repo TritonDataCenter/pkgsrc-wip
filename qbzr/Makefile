@@ -19,7 +19,9 @@ USE_TOOLS+=	msgfmt
 WRKSRC=		${WRKDIR}/qbzr
 
 PYDISTUTILSPKG=	yes
-PYTHON_VERSIONS_ACCEPTED=	27 26 25
+# Only this python versions are supported, see:
+# http://doc.bazaar.canonical.com/bzr.dev/en/whats-new/whats-new-in-2.4.html
+PYTHON_VERSIONS_ACCEPTED=	27 26
 
 .include "../../wip/bzr/plugin.mk"
 .include "../../lang/python/extension.mk"
