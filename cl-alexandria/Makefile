@@ -21,7 +21,7 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 WRKSRC=			${WRKDIR}/${DISTNAME}
 COMMON_LISP_DOCFILES=	\
     ${WRKSRC}/README ${WRKSRC}/AUTHORS \
-    ${WRKSRC}/LICENSE ${FILESDIR}/alexandria.html
+    ${WRKSRC}/LICENCE ${FILESDIR}/alexandria.html
 
 .include "options.mk"
 .include "../../wip/mk/git-package.mk"
