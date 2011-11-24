@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-PKG_OPTIONS_VAR=                PKG_OPTIONS.${LISP_PREFIX}-${SHORTNAME:S/^cl-//}
+PKG_OPTIONS_VAR=                PKG_OPTIONS.cl-${SHORTNAME:S/^cl-//}
 PKG_OPTIONS_REQUIRED_GROUPS=    lisp
 PKG_OPTIONS_GROUP.lisp=         ecl
 PKG_SUGGESTED_OPTIONS+=         ecl
