@@ -50,5 +50,11 @@ do-install:
 	${INSTALL_DATA} ${WRKSRC}/aipo/src/tools.jar \
 			${DESTDIR}${PREFIX}/${TOMCAT_DIR}/lib
 
+post-install:
+	cat /dev/urandom|tr -dc "a-z0-9"|fold -w 64|head -n 1 \
+	> ${DESTDIR}${PREFIX}/${AIPO_DIR}/webapps/aipo/WEB-INF/conf/securityTokenKey.txt
+	${CP} ${DESTDIR}${PREFIX}/${AIPO_DIR}/webapps/aipo/WEB-INF/conf/securityTokenKey.txt \
+	${DESTDIR}${PREFIX}/${AIPO_DIR}/webapps/ROOT/WEB-INF/classes/aipo/securityTokenKey.txt
+
 .include "../../mk/pgsql.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
