@@ -15,7 +15,7 @@ DEPENDS+=	${PYPKGPREFIX}-cairo>=1.0:../../graphics/py-cairo
 DEPENDS+=	${PYPKGPREFIX}-gtk2>=2.8:../../x11/py-gtk2
 
 PYDISTUTILSPKG=	yes
-REPLACE_PYTHON=	create-credits.py
+REPLACE_PYTHON=	create-credits.py info.py
 # Only this python versions are supported, see:
 # http://doc.bazaar.canonical.com/bzr.dev/en/whats-new/whats-new-in-2.4.html
 PYTHON_VERSIONS_ACCEPTED=	27 26
