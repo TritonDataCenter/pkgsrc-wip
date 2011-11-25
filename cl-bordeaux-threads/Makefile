@@ -11,13 +11,11 @@ MAINTAINER=     ddeus.pkgsrc@mailnull.com
 HOMEPAGE=	http://common-lisp.net/project/bordeaux-threads/
 COMMENT=        Portable shared-state concurrency for Common Lisp
 LICENSE=        public-domain
-DEPENDS+=	ecl-alexandria-[0-9]*:../../wip/cl-alexandria
+DEPENDS+=	${LISP_PREFIX}-alexandria-[0-9]*:../../wip/cl-alexandria
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 WRKSRC=			${WRKDIR}/${SHORTNAME}-${VERSION}
-COMMON_LISP_DOCFILES=	\
-	    ${WRKSRC}/LICENSE ${WRKSRC}/CONTRIBUTORS \
-	    ${WRKSRC}/site/index.html ${WRKSRC}/site/style.css \
+COMMON_LISP_DOCFILES=	LICENSE CONTRIBUTORS site/index.html site/style.css
 
 .include "options.mk"
 .include "../../wip/mk/cl-package.mk"

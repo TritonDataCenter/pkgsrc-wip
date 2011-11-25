@@ -1,5 +1,14 @@
 @comment $NetBSD$
 ${PLIST.ecl}${ECL_PATH}trivial-gray-streams.asd
 ${PLIST.ecl}${ECL_PATH}trivial-gray-streams.fas
-share/doc/${LISP}-trivial-gray-streams/README
+${PLIST.sbcl}${SBCL_PATH}trivial-gray-streams/CVS/Entries
+${PLIST.sbcl}${SBCL_PATH}trivial-gray-streams/CVS/Repository
+${PLIST.sbcl}${SBCL_PATH}trivial-gray-streams/CVS/Root
+${PLIST.sbcl}${SBCL_PATH}trivial-gray-streams/Makefile
+${PLIST.sbcl}${SBCL_PATH}trivial-gray-streams/mixin.fasl
+${PLIST.sbcl}${SBCL_PATH}trivial-gray-streams/mixin.lisp
+${PLIST.sbcl}${SBCL_PATH}trivial-gray-streams/package.fasl
+${PLIST.sbcl}${SBCL_PATH}trivial-gray-streams/package.lisp
+${PLIST.sbcl}${SBCL_PATH}trivial-gray-streams/trivial-gray-streams.asd
 share/doc/${LISP}-trivial-gray-streams/COPYING
+share/doc/${LISP}-trivial-gray-streams/README

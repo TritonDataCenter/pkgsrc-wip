@@ -14,7 +14,7 @@ LICENSE=        mit
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 WRKSRC=			${WRKDIR}/${DISTNAME}
-COMMON_LISP_DOCFILES=	${WRKSRC}/README ${WRKSRC}/COPYRIGHT
+COMMON_LISP_DOCFILES=	README COPYRIGHT
 
 .include "options.mk"
 .include "../../wip/mk/cl-package.mk"

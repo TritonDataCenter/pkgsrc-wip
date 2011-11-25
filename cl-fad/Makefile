@@ -14,9 +14,7 @@ LICENSE=        modified-bsd
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 WRKSRC=			${WRKDIR}/${DISTNAME}-${VERSION}
-COMMON_LISP_DOCFILES=	\
-	    ${WRKSRC}/README ${WRKSRC}/CHANGELOG \
-	    ${WRKSRC}/doc/index.html
+COMMON_LISP_DOCFILES=	README CHANGELOG doc/index.html
 
 .include "options.mk"
 .include "../../wip/mk/cl-package.mk"

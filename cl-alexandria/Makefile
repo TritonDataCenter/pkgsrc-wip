@@ -19,9 +19,8 @@ GIT_MODULE=	    alexandria
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 WRKSRC=			${WRKDIR}/${DISTNAME}
-COMMON_LISP_DOCFILES=	\
-    ${WRKSRC}/README ${WRKSRC}/AUTHORS \
-    ${WRKSRC}/LICENCE ${FILESDIR}/alexandria.html
+COMMON_LISP_EXTRAFILES= alexandria.html
+COMMON_LISP_DOCFILES=	README AUTHORS LICENCE alexandria.html
 
 .include "options.mk"
 .include "../../wip/mk/git-package.mk"
