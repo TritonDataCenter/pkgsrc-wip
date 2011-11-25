@@ -69,6 +69,7 @@ SUBDIR+=	aeneas
 SUBDIR+=	aespipe
 SUBDIR+=	afflib
 SUBDIR+=	aida
+SUBDIR+=	aipo
 SUBDIR+=	aircrack-ng
 SUBDIR+=	airsnort
 SUBDIR+=	akonadi
