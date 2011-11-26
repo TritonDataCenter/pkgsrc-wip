@@ -14,6 +14,7 @@ LICENSE=	mit
 
 BUILD_DEPENDS+=		mk-configure>=0.20.0:../../devel/mk-configure
 DEPENDS+=		pipestatus-[0-9]*:../../devel/pipestatus
+DEPENDS+=		runawk>=1.3.1:../../lang/runawk
 #DEPENDS+=		gdb-[0-9]*:../../devel/gdb
 
 CVS_ROOT.lmdbg=		:pserver:anonymous:@mova.org:/home/cvsroot
@@ -21,7 +22,7 @@ CVS_REPOSITORIES=	lmdbg
 
 WRKSRC=			${WRKDIR}/lmdbg
 
-ONLY_FOR_COMPILER=	gcc icc
+ONLY_FOR_COMPILER=	gcc icc clang
 NOT_FOR_PLATFORM=	Darwin-*-*
 
 PKG_DESTDIR_SUPPORT=	user-destdir
@@ -35,7 +36,6 @@ REPLACE_INTERPRETER+=	runawk
 REPLACE.runawk.old=	.*runawk
 REPLACE.runawk.new=	${PREFIX}/bin/runawk
 REPLACE_FILES.runawk=	scripts/lmdbg-*.in
-DEPENDS+=		runawk>=1.3.1:../../lang/runawk
 
 INSTALLATION_DIRS=	${DOCDIR}
 
