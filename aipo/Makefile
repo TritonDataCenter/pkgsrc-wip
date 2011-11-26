@@ -9,7 +9,7 @@ MASTER_SITES=	http://aipo.googlecode.com/files/
 MAINTAINER=	ryoon@NetBSD.org
 HOMEPAGE=	http://www.aipo.com/
 COMMENT=	Web-based groupware that supports Japanese interface
-#LICENSE=	gnu-agpl-v3 # GNU Affero General Public License Version 3
+LICENSE=	gnu-agpl-v3
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
