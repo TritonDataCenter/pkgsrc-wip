@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	nostromo-1.9.4
+DISTNAME=	nostromo-1.9.5
 PKGREVISION=	1
 CATEGORIES=	www
 MASTER_SITES=	http://www.nazgul.ch/dev/
