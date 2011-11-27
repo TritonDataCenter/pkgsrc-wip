@@ -1365,6 +1365,7 @@ SUBDIR+=	lpdsrv
 SUBDIR+=	lrslib
 SUBDIR+=	lsw
 SUBDIR+=	ltrace
+SUBDIR+=	lua-BitOp
 SUBDIR+=	lua-filesystem
 SUBDIR+=	lua-pgsql
 SUBDIR+=	luacheia
