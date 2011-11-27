@@ -8,5 +8,12 @@ ${PLIST.sbcl}${SBCL_PATH}cl-who/specials.fasl
 ${PLIST.sbcl}${SBCL_PATH}cl-who/specials.lisp
 ${PLIST.sbcl}${SBCL_PATH}cl-who/who.fasl
 ${PLIST.sbcl}${SBCL_PATH}cl-who/who.lisp
+${PLIST.clisp}${CLISP_PATH}cl-who/cl-who.asd
+${PLIST.clisp}${CLISP_PATH}cl-who/packages.fas
+${PLIST.clisp}${CLISP_PATH}cl-who/packages.lisp
+${PLIST.clisp}${CLISP_PATH}cl-who/specials.fas
+${PLIST.clisp}${CLISP_PATH}cl-who/specials.lisp
+${PLIST.clisp}${CLISP_PATH}cl-who/who.fas
+${PLIST.clisp}${CLISP_PATH}cl-who/who.lisp
 share/doc/${LISP}-who/CHANGELOG
 share/doc/${LISP}-who/index.html
