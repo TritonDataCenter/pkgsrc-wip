@@ -2,7 +2,7 @@
 
 DISTNAME=		bzr-${VER}
 CATEGORIES=		devel scm
-MASTER_SITES=		http://launchpad.net/bzr/2.4/${VER}/+download/
+MASTER_SITES=		http://launchpad.net/bzr/${VER:R}/${VER}/+download/
 VER=			2.4.2
 
 MAINTAINER=		ddeus.pkgsrc@mailnull.com
