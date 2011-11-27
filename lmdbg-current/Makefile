@@ -32,6 +32,8 @@ TEST_TARGET=		test
 DOCDIR=			share/doc/lmdbg
 DOCFILES=		README NEWS
 
+REPLACE_SH=		scripts/lmdbg*.in tests/test.sh
+
 REPLACE_INTERPRETER+=	runawk
 REPLACE.runawk.old=	.*runawk
 REPLACE.runawk.new=	${PREFIX}/bin/runawk
