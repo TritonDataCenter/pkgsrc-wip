@@ -33,6 +33,7 @@ PYTHON_PATCH_SCRIPTS+=		bzrlib/tests/ssl_certs/create_ssls.py
 
 .if !empty(PKGSRC_RUN_TEST:M[Yy][Ee][Ss])
 DEPENDS+=		${PYPKGPREFIX}-medusa>=0:../../net/py-medusa
+DEPENDS+=		${PYPKGPREFIX}-testtools>=0:../../devel/py-testtools
 .endif
 
 SUBST_CLASSES+=			python
