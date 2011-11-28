@@ -26,6 +26,7 @@ libexec/psu/XB2bin_summary
 libexec/psu/direct_deps
 libexec/psu/enrich_summary
 libexec/psu/get_processed_pkgs
+libexec/psu/sig_handler.sh
 libexec/psu/summary2multi_variants
 man/man1/cvs_checksum.1
 man/man1/pkg_bin_summary.1
