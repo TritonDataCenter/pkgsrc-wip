@@ -1,7 +1,7 @@
 @comment $NetBSD$
-${PLIST.ecl}${ECL_PATH}split-sequence.asd
-${PLIST.ecl}${ECL_PATH}split-sequence.fas
-${PLIST.sbcl}${SBCL_PATH}split-sequence/README.cCLan-install
-${PLIST.sbcl}${SBCL_PATH}split-sequence/split-sequence.asd
-${PLIST.sbcl}${SBCL_PATH}split-sequence/split-sequence.fasl
-${PLIST.sbcl}${SBCL_PATH}split-sequence/split-sequence.lisp
+${ECL}${CL_PATH}split-sequence.asd
+${ECL}${CL_PATH}split-sequence.fas
+${CL}${CL_PATH}split-sequence/README.cCLan-install
+${CL}${CL_PATH}split-sequence/split-sequence.asd
+${CL}${CL_PATH}split-sequence/split-sequence.${EXT}
+${CL}${CL_PATH}split-sequence/split-sequence.lisp

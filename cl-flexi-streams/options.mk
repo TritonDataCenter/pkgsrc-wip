@@ -3,7 +3,7 @@
 
 PKG_OPTIONS_VAR=                PKG_OPTIONS.cl-${SHORTNAME:S/^cl-//}
 PKG_OPTIONS_REQUIRED_GROUPS=    lisp
-PKG_OPTIONS_GROUP.lisp=         ecl sbcl
+PKG_OPTIONS_GROUP.lisp=         ecl sbcl clisp
 PKG_SUGGESTED_OPTIONS+=         ecl
 
 .include "../../mk/bsd.options.mk"
