@@ -2,13 +2,13 @@ $NetBSD$
 
 Add pkgsrc paths compatibility
 
---- examples/logrotate.cron.orig	2010-06-28 08:04:56.000000000 +0000
+--- examples/logrotate.cron.orig	2011-08-31 12:39:04.000000000 +0000
 +++ examples/logrotate.cron
 @@ -1,6 +1,6 @@
  #!/bin/sh
  
--/usr/sbin/logrotate /etc/logrotate.conf >/dev/null 2>&1
-+@PREFIX@/sbin/logrotate @PKG_SYSCONFDIR@/logrotate.conf >/dev/null 2>&1
+-/usr/sbin/logrotate /etc/logrotate.conf
++@PREFIX@/sbin/logrotate @PKG_SYSCONFDIR@/logrotate.conf
  EXITVALUE=$?
  if [ $EXITVALUE != 0 ]; then
      /usr/bin/logger -t logrotate "ALERT exited abnormally with [$EXITVALUE]"
