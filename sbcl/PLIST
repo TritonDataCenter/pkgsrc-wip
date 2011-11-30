@@ -75,6 +75,8 @@ lib/sbcl/sb-cltl2/test-passed
 lib/sbcl/sb-cltl2/tests.fasl
 lib/sbcl/sb-cltl2/tests.lisp
 lib/sbcl/sb-concurrency/Makefile
+lib/sbcl/sb-concurrency/gate.fasl
+lib/sbcl/sb-concurrency/gate.lisp
 lib/sbcl/sb-concurrency/mailbox.fasl
 lib/sbcl/sb-concurrency/mailbox.lisp
 lib/sbcl/sb-concurrency/package.fasl
@@ -87,6 +89,8 @@ lib/sbcl/sb-concurrency/sb-concurrency.texinfo
 lib/sbcl/sb-concurrency/test-passed
 lib/sbcl/sb-concurrency/tests/package.fasl
 lib/sbcl/sb-concurrency/tests/package.lisp
+lib/sbcl/sb-concurrency/tests/test-gate.fasl
+lib/sbcl/sb-concurrency/tests/test-gate.lisp
 lib/sbcl/sb-concurrency/tests/test-mailbox.fasl
 lib/sbcl/sb-concurrency/tests/test-mailbox.lisp
 lib/sbcl/sb-concurrency/tests/test-queue.fasl
