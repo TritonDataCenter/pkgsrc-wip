@@ -1,5 +1,7 @@
 $NetBSD$
 
+Older implementations of skeychallenge() only have three arguments.
+
 --- skey_fn.c.orig	2009-03-17 19:40:29.000000000 +0100
 +++ skey_fn.c	2009-04-19 12:33:05.000000000 +0200
 @@ -164,7 +164,11 @@

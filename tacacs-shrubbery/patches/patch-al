@@ -1,5 +1,7 @@
 $NetBSD$
 
+Also compile on systems that do not have PAM
+
 --- config.c.orig	2009-04-19 12:39:42.000000000 +0200
 +++ config.c	2009-04-19 12:41:16.000000000 +0200
 @@ -65,7 +65,9 @@

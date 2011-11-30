@@ -9,6 +9,7 @@ MASTER_SITES=	ftp://ftp.shrubbery.net/pub/tac_plus/
 MAINTAINER=	schwarz@NetBSD.org
 HOMEPAGE=	http://www.shrubbery.net/tac_plus/
 COMMENT=	Cisco AAA protocol (tacacs+) daemon (Shrubbery Networks version)
+LICENSE=	cisco-license
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 

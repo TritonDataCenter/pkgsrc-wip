@@ -1,5 +1,9 @@
 $NetBSD$
 
+Properly handle PAM support header file on MacOS prior to 10.6;
+added patch for PAM support for pap.
+(http://www.shrubbery.net/pipermail/tac_plus/2008-October/000282.html)
+
 --- pwlib.c.orig	2011-11-30 18:02:45.000000000 +0100
 +++ pwlib.c	2011-11-30 18:02:54.000000000 +0100
 @@ -31,7 +31,7 @@
