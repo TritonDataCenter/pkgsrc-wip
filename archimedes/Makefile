@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	archimedes-1.0.0
+DISTNAME=	archimedes-2.0.0
 CATEGORIES=	misc
 MASTER_SITES=	${MASTER_SITE_GNU:=archimedes/}
 EXTRACT_SUFX=	.tar.bz2
