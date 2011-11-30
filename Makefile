@@ -1316,7 +1316,6 @@ SUBDIR+=	libvalhalla
 SUBDIR+=	libvc
 SUBDIR+=	libvg
 SUBDIR+=	libwbxml2-patched
-SUBDIR+=	libwildmidi
 SUBDIR+=	libxc
 SUBDIR+=	libyubikey
 SUBDIR+=	libzdb
