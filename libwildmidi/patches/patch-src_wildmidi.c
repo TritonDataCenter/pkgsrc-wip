@@ -1,5 +1,8 @@
 $NetBSD$
 
+On NetBSD, FNONBLOCK is only defined for the kernel.
+Fix device name in printf.
+
 --- src/wildmidi.c.orig	2010-07-30 00:33:46.000000000 +0000
 +++ src/wildmidi.c
 @@ -63,7 +63,11 @@
