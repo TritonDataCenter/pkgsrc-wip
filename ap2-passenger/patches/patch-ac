@@ -1,5 +1,6 @@
 $NetBSD$
 
+Fix paths.
 --- ext/common/ResourceLocator.h.orig	2011-02-17 15:05:08.000000000 +0000
 +++ ext/common/ResourceLocator.h
 @@ -65,13 +65,13 @@ public:

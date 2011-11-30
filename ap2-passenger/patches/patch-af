@@ -1,5 +1,6 @@
 $NetBSD$
 
+Fix paths.
 --- lib/phusion_passenger.rb.orig	2011-04-14 06:14:17.000000000 +0000
 +++ lib/phusion_passenger.rb
 @@ -46,12 +46,12 @@ module PhusionPassenger
