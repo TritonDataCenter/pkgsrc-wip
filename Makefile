@@ -1869,6 +1869,7 @@ SUBDIR+=	packman
 SUBDIR+=	pagetools
 SUBDIR+=	pal
 SUBDIR+=	palp
+SUBDIR+=	pam-krb5
 SUBDIR+=	pam-pkcs11
 SUBDIR+=	pam-pop3
 SUBDIR+=	pam-pwdfile
