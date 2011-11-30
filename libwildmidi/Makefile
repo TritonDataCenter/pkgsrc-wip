@@ -8,7 +8,7 @@ MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=wildmidi/}
 
 MAINTAINER=	pallegra@gmail.com
 HOMEPAGE=	http://wildmidi.sourceforge.net/
-COMMENT=	Midi processing library and a midi player using the gus patch set
+COMMENT=	Midi processing library and a midi player using the GUS patch set
 LICENSE=	gnu-lgpl-v3
 
 PKG_DESTDIR_SUPPORT=	user-destdir
