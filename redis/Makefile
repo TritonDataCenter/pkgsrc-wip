@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	redis-2.4.2
+DISTNAME=	redis-2.4.4
 CATEGORIES=	databases
 MASTER_SITES=	http://redis.googlecode.com/files/
 
@@ -22,7 +22,7 @@ RCD_SCRIPT_SRC.redis=	${FILESDIR}/redis.sh
 
 DOCDIR=			share/doc/redis
 DOCFILES+=		00-RELEASENOTES BUGS COPYING \
-			Changelog README
+			README
 EGDIR=			${PREFIX}/share/examples/${PKGBASE}
 INSTALLATION_DIRS+=	bin ${DOCDIR} ${EGDIR} ${EGDIR}/utils ${EGDIR}/tests
 CONF_FILES=		${EGDIR}/redis.conf.example ${PKG_SYSCONFDIR}/redis.conf
