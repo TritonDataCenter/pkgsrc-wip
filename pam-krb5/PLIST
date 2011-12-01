@@ -1,3 +1,0 @@
-@comment $NetBSD$
-lib/security/pam_krb5.la
-man/man5/pam_krb5.5
