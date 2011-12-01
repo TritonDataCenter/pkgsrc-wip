@@ -2,8 +2,8 @@
 
 DISTNAME=	imonc-20010125
 CATEGORIES=	net
-MASTER_SITES=	http://www.fli4l.de/fileadmin/downloadzaehler.php?file=3.4.0/
-DISTFILES=	fli4l-3.4.0.tar.gz
+MASTER_SITES=	http://www.fli4l.de/fileadmin/downloadzaehler.php?file=3.6.1/
+DISTFILES=	fli4l-3.6.1.tar.gz
 
 MAINTAINER=	schwarz@NetBSD.org
 HOMEPAGE=	http://www.fli4l.de/
@@ -12,7 +12,7 @@ LICENSE=	gnu-gpl-v2
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
-WRKSRC=		${WRKDIR}/fli4l-3.4.0/unix
+WRKSRC=		${WRKDIR}/fli4l-3.6.1/unix
 NO_CONFIGURE=	YES
 
 LIBS.SunOS+=	-lsocket -lnsl
