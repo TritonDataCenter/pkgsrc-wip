@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	tagged-0.2.2
+DISTNAME=	tagged-0.2.3.1
 CATEGORIES=	devel
 
 MAINTAINER=	pho@cielonegro.org
