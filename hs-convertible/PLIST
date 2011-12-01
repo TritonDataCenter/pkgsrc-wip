@@ -21,4 +21,4 @@ lib/convertible-${PKGVERSION}/${HASKELL_VERSION}/HSconvertible-${PKGVERSION}.o
 lib/convertible-${PKGVERSION}/${HASKELL_VERSION}/libHSconvertible-${PKGVERSION}.a
 lib/convertible-${PKGVERSION}/${HASKELL_VERSION}/libHSconvertible-${PKGVERSION}_p.a
 lib/convertible-${PKGVERSION}/${HASKELL_VERSION}/package-description
-share/doc/convertible-${PKGVERSION}/COPYRIGHT
+share/doc/convertible-${PKGVERSION}/LICENSE
