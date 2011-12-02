@@ -1,0 +1,7 @@
+@comment $NetBSD$
+lib/failure-${PKGVERSION}/${HASKELL_VERSION}/Control/Failure.hi
+lib/failure-${PKGVERSION}/${HASKELL_VERSION}/Control/Failure.p_hi
+lib/failure-${PKGVERSION}/${HASKELL_VERSION}/HSfailure-${PKGVERSION}.o
+lib/failure-${PKGVERSION}/${HASKELL_VERSION}/libHSfailure-${PKGVERSION}.a
+lib/failure-${PKGVERSION}/${HASKELL_VERSION}/libHSfailure-${PKGVERSION}_p.a
+lib/failure-${PKGVERSION}/${HASKELL_VERSION}/package-description
