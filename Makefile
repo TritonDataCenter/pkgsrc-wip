@@ -851,6 +851,7 @@ SUBDIR+=	hs-StateVar
 SUBDIR+=	hs-Tensor
 SUBDIR+=	hs-ansi-terminal
 SUBDIR+=	hs-ascii
+SUBDIR+=	hs-attempt
 SUBDIR+=	hs-attoparsec
 SUBDIR+=	hs-base-unicode-symbols
 SUBDIR+=	hs-base64-bytestring
