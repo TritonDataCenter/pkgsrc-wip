@@ -5,7 +5,7 @@ DISTNAME=		hplip-3.11.10
 CATEGORIES=		print
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=hplip/}
 
-MAINTAINER=		gsutre@NetBSD.org
+MAINTAINER=		schnoebe@NetBSD.org
 HOMEPAGE=		http://hplipopensource.com/
 COMMENT=		HP Linux Imaging and Printing
 LICENSE=		gnu-gpl-v2 AND mit AND modified-bsd

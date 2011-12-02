@@ -5,8 +5,10 @@
 #
 
 PKG_OPTIONS_VAR=	PKG_OPTIONS.hplip
-PKG_SUPPORTED_OPTIONS=	fax scan gui
-PKG_SUGGESTED_OPTIONS=	fax scan
+PKG_SUPPORTED_OPTIONS=	fax sane qt
+PKG_SUGGESTED_OPTIONS=	fax sane
+PKG_OPTIONS_LEGACY_OPTS+=	scan:sane
+PKG_OPTIONS_LEGACY_OPTS+=	gui:qt
 
 .include "../../mk/bsd.options.mk"
 
@@ -24,7 +26,7 @@ CONFIGURE_ARGS+=	--disable-dbus-build
 CONFIGURE_ARGS+=	--disable-fax-build
 .endif
 
-.if !empty(PKG_OPTIONS:Mscan)
+.if !empty(PKG_OPTIONS:Msane)
 PLIST_SRC+=		PLIST.scan
 CONFIGURE_ARGS+=	--enable-scan-build
 MESSAGE_SRC+=		MESSAGE.scan
@@ -35,7 +37,7 @@ MESSAGE_SUBST+=		EGDIR=${EGDIR}
 CONFIGURE_ARGS+=	--disable-scan-build
 .endif
 
-.if !empty(PKG_OPTIONS:Mgui)
+.if !empty(PKG_OPTIONS:Mqt)
 PLIST_SRC+=		PLIST.gui
 CONFIGURE_ARGS+=	--enable-gui-build
 CONFIGURE_ARGS+=	--enable-qt4

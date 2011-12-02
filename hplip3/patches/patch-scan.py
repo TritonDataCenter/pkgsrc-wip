@@ -1,5 +1,7 @@
 $NetBSD$
 
+Try to work better with multiple versions of Python
+
 --- scan.py.orig	2011-10-02 03:06:19.000000000 +0000
 +++ scan.py
 @@ -620,7 +620,7 @@ try:
