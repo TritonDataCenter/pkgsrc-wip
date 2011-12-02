@@ -878,6 +878,7 @@ SUBDIR+=	hs-collections-base-instances
 SUBDIR+=	hs-colorize-haskell
 SUBDIR+=	hs-containers-unicode-symbols
 SUBDIR+=	hs-convertible
+SUBDIR+=	hs-convertible-text
 SUBDIR+=	hs-cpphs
 SUBDIR+=	hs-crypto-api
 SUBDIR+=	hs-curl
