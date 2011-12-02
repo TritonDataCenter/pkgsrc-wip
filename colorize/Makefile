@@ -1,8 +1,7 @@
 # $NetBSD$
-#
 
-DISTNAME=	colorize-0.1
-DISTFILES=	colorize-0.1-src.tar.gz
+DISTNAME=	colorize-0.1-src
+PKGNAME=	colorize-0.1
 CATEGORIES=	sysutils
 MASTER_SITES=	http://deic.uab.cat/~iblanes/
 

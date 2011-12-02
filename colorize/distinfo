@@ -3,5 +3,5 @@ $NetBSD$
 SHA1 (colorize-0.1-src.tar.gz) = 46f9f02bc77ccd22b80a39872a1585f9f37cc504
 RMD160 (colorize-0.1-src.tar.gz) = 37fc65d59d7cfe79015ce392e3cda31e95821340
 Size (colorize-0.1-src.tar.gz) = 11115 bytes
-SHA1 (patch-aa) = e38a83c2082e19bc2c57643cc2df0b67494d8697
+SHA1 (patch-aa) = 8f64416a1851a7bbe1af41e64f72dca49763fbf7
 SHA1 (patch-ab) = afb9b649daf90dcf06324edc3a71e844f536f800
