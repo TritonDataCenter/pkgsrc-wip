@@ -28,7 +28,7 @@ LICENSE=	modified-bsd
 PKG_DESTDIR_SUPPORT=	user-destdir
 
 GNU_CONFIGURE=	yes
-USE_TOOLS+=	autoreconf
+USE_TOOLS+=	automake autoreconf
 
 pre-configure:
 	cd ${WRKSRC} && autoreconf -i
