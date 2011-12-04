@@ -6,10 +6,10 @@ MASTER_SITES=		# not defined
 
 MAINTAINER=		lars.nordlund@hem.utfors.se
 HOMEPAGE=		http://gtk-gnutella.sourceforge.net/
-COMMENT=		GTK-based gnutella client, SVN snapshot
+COMMENT=		GTK-based gnutella client, GIT snapshot
 
 # Debug
-#CFLAGS+=		-g
+CFLAGS=		-g
 
 USE_PKGLOCALEDIR=	yes
 USE_TOOLS+=		gmake msgfmt pkg-config
@@ -24,10 +24,8 @@ CONFIGURE_ARGS+=	--yacc="yacc"
 
 CONFLICTS=		gtk-gnutella-*
 
-SVN_REPOSITORIES+=	gtk-gnutella
-SVN_MODULE.gtk-gnutella=gtk-gnutella
-SVN_ROOT.gtk-gnutella=	https://gtk-gnutella.svn.sourceforge.net/svnroot/gtk-gnutella/trunk/gtk-gnutella
-SVN_CERTS=		files/163e5491b8f4ccb8a4ab62c3ea0219c9
+GIT_REPOSITORIES=	master
+GIT_REPO.master=	http://github.com/gtk-gnutella/gtk-gnutella.git
 
 WRKSRC=			${WRKDIR}/gtk-gnutella
 
@@ -46,5 +44,5 @@ distclean:
 .include "../../devel/glib2/buildlink3.mk"
 .include "../../x11/gtk2/buildlink3.mk"
 
-.include "../../wip/mk/svn-package.mk"
+.include "../../wip/mk/git-package.mk"
 .include "../../mk/bsd.pkg.mk"
