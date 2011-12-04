@@ -923,6 +923,7 @@ SUBDIR+=	hs-haskelldb-hdbc-sqlite3
 SUBDIR+=	hs-haskore
 SUBDIR+=	hs-hinstaller
 SUBDIR+=	hs-hopenssl
+SUBDIR+=	hs-hostname
 SUBDIR+=	hs-hscolour
 SUBDIR+=	hs-hslogger
 SUBDIR+=	hs-hslogger-template
