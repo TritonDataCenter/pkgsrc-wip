@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	regex-base-0.93.2
-CATEGORIES=	devel
+CATEGORIES=	textproc
 
 MAINTAINER=	pho@cielonegro.org
 COMMENT=	Replaces/Enhances Haskell Text.Regex
