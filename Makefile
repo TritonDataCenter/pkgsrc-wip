@@ -987,6 +987,7 @@ SUBDIR+=	hs-tagged
 SUBDIR+=	hs-tagsoup
 SUBDIR+=	hs-tar
 SUBDIR+=	hs-terminfo
+SUBDIR+=	hs-test-framework
 SUBDIR+=	hs-text
 SUBDIR+=	hs-text-icu
 SUBDIR+=	hs-tfp
