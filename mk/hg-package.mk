@@ -109,8 +109,8 @@ _HG_TAG.${repo}=	${HG_TAG}
 _HG_TAG_FLAG.${repo}=	-d${CHECKOUT_DATE:Q}
 _HG_TAG.${repo}=	${CHECKOUT_DATE:Q}
 .  else
-_HG_TAG_FLAG.${repo}=	-rtip
-_HG_TAG.${repo}=	tip
+_HG_TAG_FLAG.${repo}=	-d<${_HG_TODAY} 00:00:00
+_HG_TAG.${repo}=	${_HG_TODAY:Q}
 .  endif
 
 # Cache support:
