@@ -49,6 +49,14 @@ PKGREVISION?=		$(_HG_PKGVERSION:S/.//g)
 .endif
 
 #
+# definition of user-visible output variables
+#
+
+# commonly used repositories
+HG_ROOT_SOURCEFORGE?=	http://${HG_PROJECT}.hg.sourceforge.net:/cvsroot/${HG_PROJECT}
+HG_PROJECT?=		${PKGBASE}
+
+#
 # End of the interface part. Start of the implementation part.
 #
 
