@@ -115,7 +115,7 @@ _HG_TAG.${repo}=	tip
 
 # Cache support:
 #   cache file name
-_HG_DISTFILE.${repo}=	${PKGBASE}-${HG_REPO.${repo}}-${_CVS_TAG.${repo}}.tar.gz
+_HG_DISTFILE.${repo}=	${PKGBASE}-${HG_MODULE.${repo}}-${_HG_TAG.${repo}}.tar.gz
 
 #   command to extract cache file
 _HG_EXTRACT_CACHED.${repo}=	\
@@ -129,7 +129,7 @@ _HG_EXTRACT_CACHED.${repo}=	\
 _HG_CREATE_CACHE.${repo}=	\
 	${STEP_MSG} "Creating cached Mercurial archive "${_HG_DISTFILE.${repo}:Q}"."; \
 	${MKDIR} ${_HG_DISTDIR:Q};					\
-	pax -w -z -f ${_HG_DISTDIR}/${_HG_DISTFILE.${repo}:Q} ${HG_REPO.${repo}:Q}
+	pax -w -z -f ${_HG_DISTDIR}/${_HG_DISTFILE.${repo}:Q} ${HG_MODULE.${repo}:Q}
 .endfor
 
 pre-extract: do-hg-extract
@@ -138,13 +138,16 @@ pre-extract: do-hg-extract
 do-hg-extract:
 .for _repo_ in ${HG_REPOSITORIES}
 	${RUN} cd ${WRKDIR};						\
+	if [ ! -d ${_HG_DISTDIR:Q} ]; then mkdir -p ${_HG_DISTDIR:Q}; fi;	\
+	${_HG_EXTRACT_CACHED.${_repo_}};					\
 	${SETENV} ${_HG_ENV}						\
 		${_HG_CMD} clone ${_HG_FLAGS}	 			\
 			${HG_REPO.${_repo_}:Q} ${HG_MODULE.${_repo_}} && \
-	cd ${HG_MODULE.${_repo_}:Q} &&					\
+	(cd ${HG_MODULE.${_repo_}:Q} &&					\
 	${SETENV} ${_HG_ENV}						\
 		${_HG_CMD} update ${_HG_FLAGS}				\
-			 ${_HG_TAG_FLAG.${_repo_}:Q}
+			 ${_HG_TAG_FLAG.${_repo_}:Q}) &&		\
+	${_HG_CREATE_CACHE.${_repo_}}
 .endfor
 
 .endif
