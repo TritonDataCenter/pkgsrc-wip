@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	convertible-text-0.3.0.10
+DISTNAME=	convertible-text-0.4.0
 CATEGORIES=	textproc
 
 MAINTAINER=	pho@cielonegro.org
