@@ -1,9 +1,9 @@
 # $NetBSD$
 #
 
-DISTNAME=		riak-1.0.0
+DISTNAME=		riak-1.0.2
 CATEGORIES=		databases
-MASTER_SITES=		http://downloads.basho.com/riak/riak-1.0.0/
+MASTER_SITES=		http://downloads.basho.com/riak/riak-1.0.2/
 
 MAINTAINER=		filip@joyent.com
 HOMEPAGE=		http://www.basho.com/products_riak_overview.php
@@ -46,6 +46,7 @@ CONF_FILES+=		share/examples/riak/vm.args ${PKG_SYSCONFDIR}/vm.args
 
 BUILD_TARGET=		rel
 PLIST_VARS+=		innostore
+PLIST_SUBST+=		INNOVER=${INNOVER}
 
 SUBST_CLASSES+=		pkgsrc
 SUBST_STAGE.pkgsrc=	post-patch
