@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	uim-chewing-0.0.4.2
+DISTNAME=	uim-chewing-0.1.0
 CATEGORIES=	inputmethod
 MASTER_SITES=	http://uim.googlecode.com/files/
 
