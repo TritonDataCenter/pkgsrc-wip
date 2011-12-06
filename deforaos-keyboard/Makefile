@@ -1,9 +1,9 @@
 # $NetBSD$
 
-DISTNAME=	Keyboard-0.0.2
-PKGNAME=	deforaos-keyboard-0.0.2
-CATEGORIES=	comms
-MASTER_SITES=	http://www.defora.org/os/download/download/3387/
+DISTNAME=	Keyboard-0.1.2
+PKGNAME=	deforaos-keyboard-0.1.2
+CATEGORIES=	x11
+MASTER_SITES=	http://www.defora.org/os/download/download/3598/
 
 MAINTAINER=	khorben@defora.org
 HOMEPAGE=	http://www.defora.org/
