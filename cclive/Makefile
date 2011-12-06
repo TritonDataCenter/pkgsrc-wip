@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		cclive-0.7.7
+DISTNAME=		cclive-0.7.8
 CATEGORIES=		net multimedia www
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=cclive/}
 
