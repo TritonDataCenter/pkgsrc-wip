@@ -15,7 +15,7 @@ NO_BUILD=		yes
 WRKSRC=			${WRKDIR}/tools
 
 BUILD_DEPENDS+=		gtar-[0-9]*:../../archivers/gtar
-DEPENDS+=		cacti-plugin-arch-[0-9]*:../../wip/cacti-plugin-arch
+DEPENDS+=		cacti>=0.8.7h:../../net/cacti
 
 USE_TOOLS+=		gtar
 

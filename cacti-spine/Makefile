@@ -19,7 +19,7 @@ CONFIGURE_ARGS=	--with-mysql=${BUILDLINK_PREFIX.mysql-client:Q}
 USE_TOOLS+=	automake
 
 BUILD_DEPENDS+=	automake-[0-9]*:../../devel/automake
-DEPENDS+=	cacti>=0.8.7:../../wip/cacti
+DEPENDS+=	cacti>=0.8.7:../../net/cacti
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 

@@ -16,7 +16,7 @@ WRKSRC=			${WRKDIR}/weathermap
 USE_LANGUAGES=		# none
 NO_BUILD=		yes
 
-DEPENDS+=		cacti-plugin-arch-[0-9]*:../../wip/cacti-plugin-arch
+DEPENDS+=		cacti>=0.8.7h:../../net/cacti
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
