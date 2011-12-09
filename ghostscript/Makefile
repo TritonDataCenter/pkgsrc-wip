@@ -14,7 +14,7 @@ LICENSE=	gnu-gpl-v3
 
 .include	"Makefile.common"
 
-DEPENDS+=		ghostscript-fonts>=6.0:../../fonts/ghostscript-fonts
+DEPENDS+=		ghostscript-fonts-[0-9]*>=6.0:../../fonts/ghostscript-fonts
 
 CONFLICTS+=		ghostscript-afpl-[0-9]*
 CONFLICTS+=		ghostscript-esp{,-nox11}-[0-9]*
