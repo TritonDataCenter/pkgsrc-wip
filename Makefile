@@ -2530,6 +2530,7 @@ SUBDIR+=	ruby-xmpp4r
 SUBDIR+=	runit
 SUBDIR+=	s3cmd
 SUBDIR+=	s3funnel
+SUBDIR+=	samba
 SUBDIR+=	samhain
 SUBDIR+=	sara
 SUBDIR+=	saxon
