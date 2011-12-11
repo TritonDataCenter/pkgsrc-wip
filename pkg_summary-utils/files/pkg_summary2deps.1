@@ -14,7 +14,7 @@
 .fi
 ..
 .\" ------------------------------------------------------------------
-.TH PKG_SUMMARY2DEPS 1 "Nov 18, 2010" "" ""
+.TH PKG_SUMMARY2DEPS 1 "Dec 11, 2011" "" ""
 .SH NAME
 .B pkg_summary2deps
 extract dependencies from a package summary
@@ -90,6 +90,10 @@ compatible with pkg_lint_summary, e.g.,
 .VB
 d: not_found foo-[0-9]*:../../devel/foo <- lang/bar bar
 .VE
+.TP
+.B "-2"
+separate run-time and build-time dependencies and prepand output lines
+with DEPENDS or BUILD_DEPENDS.
 .TP
 .BI "-P " "<pkgpaths>"
 find dependencies for specified PKGPATHs.
