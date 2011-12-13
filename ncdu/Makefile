@@ -1,9 +1,9 @@
 # $NetBSD$
 #
 
-DISTNAME=	ncdu-1.7
+DISTNAME=	ncdu-1.8
 CATEGORIES=	filesystems
-MASTER_SITES=	http://sourceforge.net/projects/ncdu/files/ncdu/ncdu-1.7/
+MASTER_SITES=	http://sourceforge.net/projects/ncdu/files/ncdu/ncdu-1.8/
 
 COMMENT=	Disk usage visualization tool
 LICENSE=	modified-bsd
