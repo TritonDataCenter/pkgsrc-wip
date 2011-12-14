@@ -29,6 +29,7 @@ lib/Panel/applets/title.so
 lib/Panel/applets/usb.so
 lib/Panel/applets/volume.so
 lib/Panel/applets/wpa_supplicant.so
+lib/pkgconfig/Panel.pc
 share/applications/panel-settings.desktop
 share/icons/hicolor/16x16/apps/panel-applet-bluetooth.png
 share/icons/hicolor/16x16/apps/panel-applet-desktop.png
