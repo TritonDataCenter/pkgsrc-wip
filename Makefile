@@ -1130,7 +1130,6 @@ SUBDIR+=	jc
 SUBDIR+=	jdk15
 SUBDIR+=	jdk16
 SUBDIR+=	jemboss-standalone
-SUBDIR+=	jetty
 SUBDIR+=	jgloss
 SUBDIR+=	jlibtool
 SUBDIR+=	jmol
