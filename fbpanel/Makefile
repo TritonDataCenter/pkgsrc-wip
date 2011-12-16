@@ -32,4 +32,5 @@ MANCOMPRESSED=		yes
 .include "../../x11/libXpm/buildlink3.mk"
 .include "../../x11/gtk2/buildlink3.mk"
 .include "../../devel/glib2/buildlink3.mk"
+.include "../../graphics/gdk-pixbuf2-xlib/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
