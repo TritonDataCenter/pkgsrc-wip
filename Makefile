@@ -2797,6 +2797,7 @@ SUBDIR+=	treeview
 SUBDIR+=	triangle
 SUBDIR+=	tripwire2
 SUBDIR+=	truecrypt
+SUBDIR+=	tscreen
 SUBDIR+=	tsh
 SUBDIR+=	tsm
 SUBDIR+=	ttf-indic-fonts
