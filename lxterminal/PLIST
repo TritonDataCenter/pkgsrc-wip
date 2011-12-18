@@ -1,1 +1,6 @@
 @comment $NetBSD$
+bin/lxterminal
+man/man1/lxterminal.1
+share/applications/lxterminal.desktop
+share/lxterminal/lxterminal.conf
+share/pixmaps/lxterminal.png

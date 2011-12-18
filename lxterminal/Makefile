@@ -1,5 +1,4 @@
 # $NetBSD$
-#
 
 DISTNAME=	lxterminal-0.1.6
 CATEGORIES=	x11
@@ -12,6 +11,11 @@ LICENSE=	gnu-gpl-v2
 
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
-USE_TOOLS+=	perl
+USE_TOOLS+=	perl pkg-config
 
+PKG_DESTDIR_SUPPORT=	user-destdir
+
+.include "../../devel/glib2/buildlink3.mk"
+.include "../../x11/vte/buildlink3.mk"
+.include "../../sysutils/desktop-file-utils/desktopdb.mk"
 .include "../../mk/bsd.pkg.mk"
