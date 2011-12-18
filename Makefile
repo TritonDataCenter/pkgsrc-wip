@@ -299,6 +299,7 @@ SUBDIR+=	clamassassin
 SUBDIR+=	clang
 SUBDIR+=	classgen
 SUBDIR+=	classic-mac-font-pack
+SUBDIR+=	clfswm
 SUBDIR+=	clhep
 SUBDIR+=	clips
 SUBDIR+=	clisp
