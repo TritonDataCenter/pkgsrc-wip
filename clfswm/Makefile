@@ -29,7 +29,7 @@ CONFIGURE_ARGS+=	-d ${WRKSRC}/dump/
 CONFIGURE_ARGS+=	--with-clfswm ${WRKSRC}
 CONFIGURE_ARGS+=	--with-asdf ${WRKSRC}/contrib
 
-.include "../../mk/compiler.mk"
+.include "../../mk/bsd.prefs.mk"
 post-patch:
 .if ${OPSYS} == "DragonFly" || ${OPSYS} == "FreeBSD"
 SUBST_CLASSES+=		sysconf
