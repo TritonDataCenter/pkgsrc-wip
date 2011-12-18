@@ -14,6 +14,7 @@ USE_TOOLS+=	bash bison flex:pkgsrc gmake pax perl pkg-config
 USE_LANGUAGES=	c c++
 
 BUILD_DEPENDS+=	gperf>=3.0.1:../../devel/gperf
+BUILD_DEPENDS+=	yasm>=0:../../devel/yasm
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
