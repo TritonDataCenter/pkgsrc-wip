@@ -4,7 +4,7 @@ DISTNAME=	sipbomber_0.8
 PKGNAME=	${DISTNAME:S/_/-/}
 PKGREVISION=	2
 CATEGORIES=	net
-MASTER_SITES=	http://metalinkltd.com/wp-content/uploads/
+MASTER_SITES=	http://www.sourcefiles.org/Internet/Communications/Telephony/
 
 MAINTAINER=	schwarz@NetBSD.org
 HOMEPAGE=	http://www.metalinkltd.com/downloads.php
