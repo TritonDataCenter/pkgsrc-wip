@@ -8,7 +8,7 @@ CATEGORIES=	devel
 MASTER_SITES=	http://weitz.de/files/
 
 MAINTAINER=     ddeus.pkgsrc@mailnull.com
-HOMEPAGE=	http://weitz.de/cl-fad/
+HOMEPAGE=	http://weitz.de/cl-ppcre/
 COMMENT=        CL-PPCRE is a portable regular expression library for Common Lisp
 LICENSE=        modified-bsd
 
