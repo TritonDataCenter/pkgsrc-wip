@@ -1,14 +1,14 @@
 # $NetBSD$
 
-DISTNAME=	tftp-hpa-5.0
-PKGREVISION=	1
+DISTNAME=	tftp-hpa-5.2
 CATEGORIES=	net
-MASTER_SITES=	http://www.kernel.org/pub/software/network/tftp/
+MASTER_SITES=	http://www.kernel.org/pub/software/network/tftp/tftp-hpa/
 EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	schwarz@NetBSD.org
 HOMEPAGE=	http://freshmeat.net/projects/tftp-hpa/
 COMMENT=	Enhanced version of the BSD TFTP client and server
+LICENSE=	original-bsd
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
