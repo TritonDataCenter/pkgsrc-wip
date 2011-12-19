@@ -3,7 +3,9 @@
 DISTNAME=	tctool-0.9.7
 CATEGORIES=	net
 MASTER_SITES=	http://download.berlios.de/speedmodem50b/ \
-		http://download2.berlios.de/speedmodem50b/
+		http://download2.berlios.de/speedmodem50b/ \
+		http://downloads.openwrt.org/sources/ \
+		http://mirror2.openwrt.org/sources/
 EXTRACT_SUFX=	.zip
 
 MAINTAINER=	schwarz@NetBSD.org
