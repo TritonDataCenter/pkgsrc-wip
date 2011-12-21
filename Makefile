@@ -886,6 +886,7 @@ SUBDIR+=	hs-data-accessor-template
 SUBDIR+=	hs-data-default
 SUBDIR+=	hs-dataenc
 SUBDIR+=	hs-deepseq
+SUBDIR+=	hs-dependent-sum
 SUBDIR+=	hs-derive
 SUBDIR+=	hs-digest
 SUBDIR+=	hs-dlist
