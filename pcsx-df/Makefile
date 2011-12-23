@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	pcsx-df-1.10
-PKGREVISION=	1
+PKGREVISION=	2
 CATEGORIES=	emulators
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=pcsx-df/}
 
@@ -18,6 +18,12 @@ USE_LANGUAGES=		c c++ fortran
 USE_LIBTOOL=		yes
 USE_PKGLOCALEDIR=	yes
 USE_TOOLS+=		intltool pkg-config
+
+SUBST_CLASSES+=		datadir
+SUBST_STAGE.datadir=	post-configure
+SUBST_MESSAGE.datadir=	Fixing hardcoded PACKAGE_DATA_DIR path
+SUBST_FILES.datadir=	gui/Config.c
+SUBST_SED.datadir=	-e 's,/usr/lib/games/psemu/,${PREFIX}/lib/games/psemu/,'
 
 # obsolete
 CONFIGURE_ARGS+=	--disable-nautilusburn
