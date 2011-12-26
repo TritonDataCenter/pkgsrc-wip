@@ -3,3 +3,4 @@ $NetBSD$
 SHA1 (gtkglextmm-1.2.0.tar.gz) = 5cd489e07517a88262cd6050f723227664e82996
 RMD160 (gtkglextmm-1.2.0.tar.gz) = 2dd9122f8991b2cbfd839ab0aaa6dd444751b7b0
 Size (gtkglextmm-1.2.0.tar.gz) = 826309 bytes
+SHA1 (patch-gtkglext_gtkmm_gl_widget.cc) = 5e441a40d4b0c779ff4a582e758758f901c1523c
