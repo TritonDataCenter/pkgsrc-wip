@@ -3,3 +3,4 @@ $NetBSD: distinfo,v 1.10 2010/10/25 20:19:15 markd Exp $
 SHA1 (akonadi-1.5.3.tar.bz2) = 37764e0e5bc4769ce691e32a771966278e6c1084
 RMD160 (akonadi-1.5.3.tar.bz2) = be3213f03dff13bdfeb16f78398a405af0b269ac
 Size (akonadi-1.5.3.tar.bz2) = 209082 bytes
+SHA1 (patch-cmake_modules_FindSqlite.cmake) = c92cee9ff28fc2b2776625c7c54ea084b7f230ef
