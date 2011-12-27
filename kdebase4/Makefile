@@ -8,8 +8,13 @@ COMMENT=	Base modules for the KDE 4 integrated X11 desktop
 
 # BUILD_MAKE_FLAGS+= VERBOSE=1
 
-REPLACE_RUBY+=	apps/dolphin/src/khns/servicemenudeinstallation
-REPLACE_RUBY+=	apps/dolphin/src/khns/servicemenuinstallation
+REPLACE_RUBY+=	dolphin/src/settings/services/servicemenuinstallation
+REPLACE_RUBY+=	dolphin/src/settings/services/servicemenudeinstallation
+
+REPLACE_INTERPRETER+=	xdg-open
+REPLACE.scheme.old=	.*/bin/env xdg-open
+REPLACE.scheme.new=	${PREFIX}/bin/xdg-open
+REPLACE_FILES.scheme=	lib/konq/Templates/Program.desktop
 
 .include "../../lang/ruby/replace.mk"
 
