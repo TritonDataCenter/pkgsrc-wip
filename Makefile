@@ -2053,6 +2053,7 @@ SUBDIR+=	py-RXP
 SUBDIR+=	py-SQLObject
 SUBDIR+=	py-Soya
 SUBDIR+=	py-addons
+SUBDIR+=	py-aesthete
 SUBDIR+=	py-agio
 SUBDIR+=	py-aipy
 SUBDIR+=	py-albatross
