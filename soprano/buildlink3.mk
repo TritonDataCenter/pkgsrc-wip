@@ -7,7 +7,7 @@ SOPRANO_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.soprano+=	soprano>=2.0.3
 BUILDLINK_ABI_DEPENDS.soprano?=	soprano>=2.5.2nb2
-BUILDLINK_PKGSRCDIR.soprano?=	../../textproc/soprano
+BUILDLINK_PKGSRCDIR.soprano?=	../../wip/soprano
 
 .include "../../textproc/libclucene/buildlink3.mk"
 .include "../../x11/qt4-libs/buildlink3.mk"
