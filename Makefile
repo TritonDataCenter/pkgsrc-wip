@@ -2858,6 +2858,7 @@ SUBDIR+=	vale-current
 SUBDIR+=	vamp
 SUBDIR+=	vamps
 SUBDIR+=	varnish
+SUBDIR+=	vba-m
 SUBDIR+=	vcf
 SUBDIR+=	vche
 SUBDIR+=	vdesk
