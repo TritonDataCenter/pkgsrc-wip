@@ -11,3 +11,4 @@ include/registers.h
 include/unknown.h
 include/usparc.h
 lib/libbagel.a
+share/doc/bagel/bagel.pdf

@@ -7,11 +7,16 @@ MASTER_SITES=	http://www2.ph.ed.ac.uk/~paboyle/bagel/
 
 MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	http://www2.ph.ed.ac.uk/~paboyle/bagel/
-COMMENT=	Bagel assembler kernel generator
+COMMENT=	Domain specific compiler for lattice QCD
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
 GNU_CONFIGURE=	yes
 USE_LANGUAGES=	c++
+
+INSTALLATION_DIRS=	share/doc/bagel
+
+post-install:
+	${INSTALL_DATA} ${WRKSRC}/doc/bagel.pdf ${DESTDIR}${PREFIX}/share/doc/bagel
 
 .include "../../mk/bsd.pkg.mk"
