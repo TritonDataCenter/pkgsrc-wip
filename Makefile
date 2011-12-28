@@ -2115,7 +2115,6 @@ SUBDIR+=	py-dana
 SUBDIR+=	py-datarray
 SUBDIR+=	py-dbglog
 SUBDIR+=	py-dbutils
-SUBDIR+=	py-decorator
 SUBDIR+=	py-decoratortools
 SUBDIR+=	py-delny
 SUBDIR+=	py-dexml
