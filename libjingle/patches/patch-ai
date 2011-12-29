@@ -1,7 +1,7 @@
 $NetBSD$
 
---- talk/base/timing.cc.orig	2011-12-14 16:58:28.000000000 +0100
-+++ talk/base/timing.cc	2011-12-29 17:25:34.000000000 +0100
+--- talk/base/timing.cc.orig	2011-12-14 15:58:28.000000000 +0000
++++ talk/base/timing.cc
 @@ -27,7 +27,9 @@
  
  #include "talk/base/timing.h"
