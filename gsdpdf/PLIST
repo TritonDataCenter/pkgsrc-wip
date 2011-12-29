@@ -1,0 +1,4 @@
+@comment $NetBSD$
+lib/gsalps.f
+lib/gsdpdf.f
+share/doc/gsdpdf/README
