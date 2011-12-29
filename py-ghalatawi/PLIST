@@ -1,0 +1,7 @@
+@comment $NetBSD$
+${PYSITELIB}/ghalatawi/__init__.py
+${PYSITELIB}/ghalatawi/__init__.pyc
+${PYSITELIB}/ghalatawi/__init__.pyo
+${PYSITELIB}/ghalatawi/ar_ghalat.py
+${PYSITELIB}/ghalatawi/ar_ghalat.pyc
+${PYSITELIB}/ghalatawi/ar_ghalat.pyo
