@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	tDOM-0.8.2
+PKGNAME=	tcl-${DISTNAME}
 CATEGORIES=	textproc
 MASTER_SITES=	http://github.com/downloads/tDOM/tdom/
 EXTRACT_SUFX=	.tgz
