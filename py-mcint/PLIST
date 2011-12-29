@@ -1,0 +1,4 @@
+@comment $NetBSD$
+${PYSITELIB}/mcint.py
+${PYSITELIB}/mcint.pyc
+${PYSITELIB}/mcint.pyo

@@ -1,0 +1,7 @@
+@comment $NetBSD$
+${PYSITELIB}/qmath/__init__.py
+${PYSITELIB}/qmath/__init__.pyc
+${PYSITELIB}/qmath/__init__.pyo
+${PYSITELIB}/qmath/qmathcore.py
+${PYSITELIB}/qmath/qmathcore.pyc
+${PYSITELIB}/qmath/qmathcore.pyo
