@@ -651,7 +651,6 @@ SUBDIR+=	ggz-gtk-games
 SUBDIR+=	ggz-server
 SUBDIR+=	ghc
 SUBDIR+=	ghc-core
-SUBDIR+=	ghemical
 SUBDIR+=	ghostpcl-urwfonts-ttf
 SUBDIR+=	ghostscript
 SUBDIR+=	ghostscript-cidfonts
