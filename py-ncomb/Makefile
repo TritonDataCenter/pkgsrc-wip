@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	pyncomb-1.0.0
+DISTNAME=	pyncomb-1.0.2
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME:S/py//}
 CATEGORIES=	math python
 MASTER_SITES=	http://pypi.python.org/packages/source/p/pyncomb/
@@ -13,7 +13,6 @@ LICENSE=	apache-2.0
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
-WRKSRC=		${WRKDIR}/pyncomb-1.0.0
 USE_LANGUAGES=	# none
 
 .include "../../lang/python/egg.mk"
