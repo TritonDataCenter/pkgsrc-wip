@@ -15,7 +15,6 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 
 GNU_CONFIGURE=		yes
 USE_LANGUAGES=		c
-#CONFIGURE_ARGS+=	--with-expat=yes
 
 .include "../../lang/tcl/buildlink3.mk"
 .include "../../textproc/expat/buildlink3.mk"
