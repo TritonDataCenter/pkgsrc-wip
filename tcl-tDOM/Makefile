@@ -8,7 +8,7 @@ EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	pho@cielonegro.org
 HOMEPAGE=	http://tdom.github.com/
-COMMENT=	High performance XML data processing for Tcl
+COMMENT=	High performance XML data handling library for Tcl using Expat
 LICENSE=	mpl-1.1
 
 PKG_DESTDIR_SUPPORT=	user-destdir
