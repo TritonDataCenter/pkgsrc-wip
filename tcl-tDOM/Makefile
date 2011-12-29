@@ -17,5 +17,4 @@ GNU_CONFIGURE=		yes
 USE_LANGUAGES=		c
 
 .include "../../lang/tcl/buildlink3.mk"
-.include "../../textproc/expat/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
