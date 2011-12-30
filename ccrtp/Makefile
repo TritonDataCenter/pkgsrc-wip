@@ -1,13 +1,12 @@
 # $NetBSD$
 #
 
-DISTNAME=		ccrtp-2.0.1
-PKGREVISION=		1
+DISTNAME=		ccrtp-2.0.2
 CATEGORIES=		net
 MASTER_SITES=		${MASTER_SITE_GNU:=ccrtp/}
 
 MAINTAINER=		pancake@phreaker.net
-HOMEPAGE=		http://wiki.gnutelephony.org/
+HOMEPAGE=		http://www.gnu.org/software/ccrtp/
 COMMENT=		RTP and RTSP protocol implementation using GNU CommonCpp
 LICENSE=		gnu-gpl-v2
 
