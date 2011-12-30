@@ -1,5 +1,6 @@
 @comment $NetBSD$
 include/ccrtp/CryptoContext.h
+include/ccrtp/CryptoContextCtrl.h
 include/ccrtp/base.h
 include/ccrtp/channel.h
 include/ccrtp/cqueue.h
