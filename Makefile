@@ -644,6 +644,7 @@ SUBDIR+=	gecko-sharp
 SUBDIR+=	gemrb
 SUBDIR+=	genus2reduction
 SUBDIR+=	gerris
+SUBDIR+=	get_iplayer
 SUBDIR+=	gf2x
 SUBDIR+=	gfa
 SUBDIR+=	gfan
