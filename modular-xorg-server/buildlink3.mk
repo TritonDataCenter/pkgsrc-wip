@@ -7,7 +7,7 @@ MODULAR_XORG_SERVER_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.modular-xorg-server+=	modular-xorg-server>=1.6.0
 BUILDLINK_ABI_DEPENDS.modular-xorg-server+=	modular-xorg-server>=1.6.5nb8
-BUILDLINK_PKGSRCDIR.modular-xorg-server?=	../../x11/modular-xorg-server
+BUILDLINK_PKGSRCDIR.modular-xorg-server?=	../../wip/modular-xorg-server
 
 .include "../../sysutils/libpciaccess/buildlink3.mk"
 .include "../../x11/pixman/buildlink3.mk"
