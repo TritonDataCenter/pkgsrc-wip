@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	tDOM-0.8.2
+DISTNAME=	tDOM-0.8.3
 PKGNAME=	tcl-${DISTNAME}
 CATEGORIES=	textproc
 MASTER_SITES=	http://github.com/downloads/tDOM/tdom/
