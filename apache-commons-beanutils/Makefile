@@ -6,7 +6,7 @@ PKGNAME=	apache-${DISTNAME:S/-bin//}
 CATEGORIES=	devel java
 MASTER_SITES=	http://mirrors.axint.net/apache//commons/beanutils/binaries/
 
-MAINTAINER=	kamel.derouiche@gmail.com
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://commons.apache.org/beanutils/
 COMMENT=	Utility for manipulating JavaBeans
 LICENSE=	apache-2.0

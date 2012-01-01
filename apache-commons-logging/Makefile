@@ -6,7 +6,7 @@ PKGNAME=	apache-${DISTNAME:S/-bin//}
 CATEGORIES=	devel java
 MASTER_SITES=	http://www.fightrice.com/mirrors/apache//commons/logging/binaries/
 
-MAINTAINER=	kamel.derouiche@gmail.com
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://commons.apache.org/logging/
 COMMENT=	Commmon wrapper interface for several logging APIs
 LICENSE=	apache-2.0

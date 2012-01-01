@@ -6,7 +6,7 @@ PKGNAME=	apache-${DISTNAME}
 CATEGORIES=	devel java
 MASTER_SITES=	http://www.bizdirusa.com/mirrors/apache//commons/configuration/binaries/
 
-MAINTAINER=	kamel.derouiche@gmail.com
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://commons.apache.org/configuration/
 COMMENT=	Java based library providing a generic configuration interface
 LICENSE=	apache-2.0

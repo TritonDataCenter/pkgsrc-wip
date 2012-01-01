@@ -6,7 +6,7 @@ PKGNAME=	apache-${DISTNAME:S/-bin//}
 CATEGORIES=	devel java
 MASTER_SITES=	http://apache.multihomed.net//commons/codec/binaries/
 
-MAINTAINER=	kamel.derouiche@gmail.com
+MAINTAINER=	pgksrc-users@NetBSD.org
 HOMEPAGE=	http://commons.apache.org/codec/
 COMMENT=	Encoder and decoders such as Base64 and hexadecimal codec
 LICENSE=	apache-2.0

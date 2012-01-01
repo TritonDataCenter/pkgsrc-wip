@@ -6,7 +6,7 @@ PKGNAME=	apache-${DISTNAME}
 CATEGORIES=	textproc java
 MASTER_SITES=	http://www.gtlib.gatech.edu/pub/apache//velocity/engine/1.6.4/
 
-MAINTAINER=	kamelderouiche@yahoo.com
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://velocity.apache.org/
 COMMENT=	Java-based template engine for web application
 LICENSE=	apache-2.0

@@ -6,7 +6,7 @@ PKGNAME=	apache-${DISTNAME:S/-bin//}
 CATEGORIES=	devel java
 MASTER_SITES=	http://mirrors.axint.net/apache//commons/digester/binaries/
 
-MAINTAINER=	kamel.derouiche@gmail.com
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://commons.apache.org/digester/
 COMMENT=	Rule based XML Java object mapping tool
 LICENSE=	apache-2.0

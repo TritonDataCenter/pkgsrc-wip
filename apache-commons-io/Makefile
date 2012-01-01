@@ -6,7 +6,7 @@ PKGNAME=	apache-${DISTNAME:S/-bin//}
 CATEGORIES=	devel java
 MASTER_SITES=	http://apache.multihomed.net//commons/io/binaries/
 
-MAINTAINER=	kamel.derouiche@gmail.com
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://commons.apache.org/io/
 COMMENT=	Common useful IO related classes
 LICENSE=	apache-2.0

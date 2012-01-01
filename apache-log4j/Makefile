@@ -5,7 +5,7 @@ DISTNAME=	apache-log4j-1.2.16
 CATEGORIES=	www java
 MASTER_SITES=	http://apache.multihomed.net//logging/log4j/1.2.16/
 
-MAINTAINER=	kamelderouiche@yahoo.com
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://apache.multihomed.net//logging/log4j/1.2.16/
 COMMENT=	Logging facility for Java
 LICENSE=	apache-2.0
