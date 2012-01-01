@@ -548,6 +548,7 @@ SUBDIR+=	fasm
 SUBDIR+=	fasta
 SUBDIR+=	fastbit
 SUBDIR+=	fastrpc
+SUBDIR+=	faast
 SUBDIR+=	fbida
 SUBDIR+=	fbpager
 SUBDIR+=	fbpanel
