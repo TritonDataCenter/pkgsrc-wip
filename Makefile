@@ -396,7 +396,6 @@ SUBDIR+=	deforaos-todo
 SUBDIR+=	depsolver
 SUBDIR+=	deskcribe
 SUBDIR+=	desktop-data-model
-SUBDIR+=	desktopcouch
 SUBDIR+=	desmume
 SUBDIR+=	despotify
 SUBDIR+=	detachtty
