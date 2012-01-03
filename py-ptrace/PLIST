@@ -118,6 +118,9 @@ ${PYSITELIB}/ptrace/pydistorm.pyo
 ${PYSITELIB}/ptrace/signames.py
 ${PYSITELIB}/ptrace/signames.pyc
 ${PYSITELIB}/ptrace/signames.pyo
+${PYSITELIB}/ptrace/six.py
+${PYSITELIB}/ptrace/six.pyc
+${PYSITELIB}/ptrace/six.pyo
 ${PYSITELIB}/ptrace/syscall/__init__.py
 ${PYSITELIB}/ptrace/syscall/__init__.pyc
 ${PYSITELIB}/ptrace/syscall/__init__.pyo
