@@ -14,8 +14,8 @@ DEPENDS+=	p5-HTML-Parser>=3.0:../../www/p5-HTML-Parser
 DEPENDS+=	p5-HTTP-Cookies>=6.0:../../www/p5-HTTP-Cookies
 DEPENDS+=	p5-HTTP-Date>=6.0:../../www/p5-HTTP-Date
 DEPENDS+=	p5-libwww>=6.0:../../www/p5-libwww
-# can also work with flvstreamer
 DEPENDS+=	rtmpdump>=1.8:../../net/rtmpdump
+DEPENDS+=	flvstreamer>=1.8:../../wip/flvstreamer
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 INSTALLATION_DIRS=	bin ${PKGMANDIR}/man1
