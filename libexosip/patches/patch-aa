@@ -1,5 +1,7 @@
 $NetBSD$
 
+Defines INADDR_NONE, which is needed on Solaris.
+
 --- src/eXutils.c.orig	2011-01-18 22:45:03.000000000 +0100
 +++ src/eXutils.c	2011-01-18 22:45:45.000000000 +0100
 @@ -536,6 +536,10 @@
