@@ -544,6 +544,7 @@ SUBDIR+=	ezstream
 SUBDIR+=	fail2ban
 SUBDIR+=	fakenes
 SUBDIR+=	fakeroot
+SUBDIR+=	fala
 SUBDIR+=	farsi-ttf
 SUBDIR+=	fasm
 SUBDIR+=	fasta
