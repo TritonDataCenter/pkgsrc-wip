@@ -1,0 +1,6 @@
+@comment $NetBSD$
+bin/carnival
+share/applications/${XDG_DESKTOP}
+share/pixmaps/carnival.xpm
+${DOCDIR}/sable.htm
+${DOCDIR}/ssml.htm
