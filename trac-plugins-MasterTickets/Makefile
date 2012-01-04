@@ -5,13 +5,15 @@ VERSION=	${UPSTREAM_VERSION}.4179
 DISTNAME=	TracMasterTickets-${VERSION}
 PKGNAME=	trac-plugins-MasterTickets-${VERSION}
 # Empty PKGREVISION because svn-package by default sets one.
-PKGREVISION=	3
+PKGREVISION=	4
 EGG_NAME=	${DISTNAME}
 CATEGORIES=	www
 MASTER_SITES=	# not defined
 
 MAINTAINER=	gdt@NetBSD.org
 HOMEPAGE=	http://trac-hacks.org/wiki/MasterTicketsPlugin
+# 0.12 version is hosted at github
+#HOMEPAGE+=	https://github.com/coderanger/trac-mastertickets/
 COMMENT=	Ticket dependency plugin for Trac
 
 PKG_DESTDIR_SUPPORT=	user-destdir
@@ -27,8 +29,6 @@ SVN_TAG.mastertickets=	4179
 NO_CHECKSUM=	yes
 
 WRKSRC=		${WRKDIR}/mastertickets
-
-PRIVILEGED_STAGES+=	clean
 
 post-extract:
 	find ${WRKSRC} -type d -name .svn -print | xargs rm -r
