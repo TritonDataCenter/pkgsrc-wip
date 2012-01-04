@@ -259,6 +259,7 @@ SUBDIR+=	canna-dict
 SUBDIR+=	canna-lib
 SUBDIR+=	canna-server
 SUBDIR+=	cantarell-fonts
+SUBDIR+=	carnival
 SUBDIR+=	castget
 SUBDIR+=	cb2bib
 SUBDIR+=	cclive
