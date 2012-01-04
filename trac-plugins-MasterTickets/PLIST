@@ -26,9 +26,6 @@ ${PYSITELIB}/mastertickets/model.py
 ${PYSITELIB}/mastertickets/model.pyc
 ${PYSITELIB}/mastertickets/model.pyo
 ${PYSITELIB}/mastertickets/templates/depgraph.html
-${PYSITELIB}/mastertickets/util.py
-${PYSITELIB}/mastertickets/util.pyc
-${PYSITELIB}/mastertickets/util.pyo
 ${PYSITELIB}/mastertickets/web_ui.py
 ${PYSITELIB}/mastertickets/web_ui.pyc
 ${PYSITELIB}/mastertickets/web_ui.pyo
