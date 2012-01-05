@@ -857,6 +857,7 @@ SUBDIR+=	hs-StateVar
 SUBDIR+=	hs-Tensor
 SUBDIR+=	hs-ansi-terminal
 SUBDIR+=	hs-ansi-wl-pprint
+SUBDIR+=	hs-arrow-list
 SUBDIR+=	hs-ascii
 SUBDIR+=	hs-attempt
 SUBDIR+=	hs-attoparsec
