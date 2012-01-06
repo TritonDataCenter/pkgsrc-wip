@@ -2084,6 +2084,7 @@ SUBDIR+=	py-aspects
 SUBDIR+=	py-aspell
 SUBDIR+=	py-aspyct
 SUBDIR+=	py-astropysics
+SUBDIR+=	py-async
 SUBDIR+=	py-behaviour
 SUBDIR+=	py-bidict
 SUBDIR+=	py-bigfloat
