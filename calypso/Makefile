@@ -9,6 +9,7 @@ COMMENT=	CardDAV/CalDAV server
 LICENSE=	gnu-gpl-v3
 
 DEPENDS+=	${PYPKGPREFIX}-vobject>=0.8.1c:../../textproc/py-vobject
+DEPENDS+=	scmgit-base-[0-9]*:../../devel/scmgit-base
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
