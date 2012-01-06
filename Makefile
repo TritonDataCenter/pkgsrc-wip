@@ -2139,6 +2139,7 @@ SUBDIR+=	py-distutils-extra
 SUBDIR+=	py-divisi2
 SUBDIR+=	py-divmod-axiom
 SUBDIR+=	py-divmod-epsilon
+SUBDIR+=	py-django-gitrevision
 SUBDIR+=	py-divmod-mantissa
 SUBDIR+=	py-divmod-vertex
 SUBDIR+=	py-django-diario
