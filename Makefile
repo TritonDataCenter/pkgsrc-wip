@@ -2372,6 +2372,7 @@ SUBDIR+=	py-siginterrupt
 SUBDIR+=	py-simplegeneric
 SUBDIR+=	py-simpleparse-mxtexttools
 SUBDIR+=	py-smop
+SUBDIR+=	py-smmap
 SUBDIR+=	py-snmp
 SUBDIR+=	py-sofa
 SUBDIR+=	py-spambayes
