@@ -2177,6 +2177,7 @@ SUBDIR+=	py-gccxml
 SUBDIR+=	py-generateDS
 SUBDIR+=	py-gettext-tools
 SUBDIR+=	py-gevent
+SUBDIR+=	py-git
 SUBDIR+=	py-gitdb
 SUBDIR+=	py-gist
 SUBDIR+=	py-ghalatawi
