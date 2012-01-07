@@ -22,7 +22,8 @@ HAS_CONFIGURE=		YES
 CONFIGURE_ARGS+=	--buildwith=gcc --installdir=${DESTDIR}${PREFIX:Q} \
 			+docs --docdir=${DESTDIR}${PREFIX}/share/doc/nhc98
 
-PKG_DESTDIR_SUPPORT=	user-destdir
+# XXX Doesn't yet supported
+#PKG_DESTDIR_SUPPORT=	user-destdir
 
 USE_TOOLS+=		gmake
 
