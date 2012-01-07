@@ -34,9 +34,6 @@ SUBST_FILES.paths+=	w3m.el
 SUBST_SED.paths+=	-e 's,@W3MPREFIX@,${W3MPREFIX},g'
 SUBST_STAGE.paths=	pre-configure
 
-INSTALL_MAKE_FLAGS=	prefix=${DESTDIR}${PREFIX} \
-			infodir=${DESTDIR}${PREFIX}/${PKGINFODIR}
-
 #REPLACE_PERL=		lib-src/grep-changelog
 
 BUILD_DEFS+=		VARBASE
