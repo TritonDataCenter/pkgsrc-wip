@@ -1504,6 +1504,7 @@ SUBDIR+=	mpg123-oss
 SUBDIR+=	mpg123-sun
 SUBDIR+=	mpgedit
 SUBDIR+=	mpi-ch
+SUBDIR+=	mpibzip2
 SUBDIR+=	mplayer
 SUBDIR+=	mplayer-mt
 SUBDIR+=	mplayer-share
