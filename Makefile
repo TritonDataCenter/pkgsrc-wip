@@ -598,6 +598,7 @@ SUBDIR+=	fragrouter
 SUBDIR+=	freecell
 SUBDIR+=	freedict-tools-xsl
 SUBDIR+=	freedup
+SUBDIR+=	freedup16
 SUBDIR+=	freej
 SUBDIR+=	freevo
 SUBDIR+=	freevrrpd
