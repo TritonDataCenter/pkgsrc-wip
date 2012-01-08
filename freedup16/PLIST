@@ -1,0 +1,4 @@
+@comment $NetBSD$
+bin/freedup
+man/man1/freedup.1
+bin/symharden
