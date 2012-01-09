@@ -1,5 +1,7 @@
 $NetBSD$
 
+- disable building test data
+
 --- Makefile.orig	2011-06-16 17:43:38.000000000 +0000
 +++ Makefile
 @@ -1,6 +1,6 @@
