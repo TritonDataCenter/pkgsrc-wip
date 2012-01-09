@@ -11,7 +11,6 @@ COMMENT=	FreeDesktop trayicon area for Ion3
 LICENSE=	gnu-gpl-v2
 
 PKG_DESTDIR_SUPPORT=	user-destdir
-MAKE_FLAGS+=	X11_PREFIX=${BUILDLINK_PREFIX.libX11}
 
 USE_TOOLS+=	gmake
 
