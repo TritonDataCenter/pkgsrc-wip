@@ -17,6 +17,9 @@ GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_TOOLS+=	gmake intltool pkg-config
 
+# has too long file names
+EXTRACT_USING=	gtar
+
 GCONF_SCHEMAS+=	data/gnome-do.schemas
 
 PKGCONFIG_OVERRIDE+=	Do.Platform/do.platform.pc.in
