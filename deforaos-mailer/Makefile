@@ -1,9 +1,9 @@
 # $NetBSD$
 
-DISTNAME=	Mailer-0.1.3
-PKGNAME=	deforaos-mailer-0.1.3
+DISTNAME=	Mailer-0.1.4
+PKGNAME=	deforaos-mailer-0.1.4
 CATEGORIES=	mail
-MASTER_SITES=	http://www.defora.org/os/download/download/3601/
+MASTER_SITES=	http://www.defora.org/os/download/download/3613/
 
 MAINTAINER=	khorben@defora.org
 HOMEPAGE=	http://www.defora.org/

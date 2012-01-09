@@ -8,6 +8,7 @@ include/Desktop/Locker/locker.h
 include/Desktop/Locker/plugin.h
 lib/Locker/auth/password.so
 lib/Locker/auth/slider.so
+lib/Locker/demos/gtk-demo.so
 lib/Locker/demos/xscreensaver.so
 lib/Locker/demos/xterm.so
 lib/Locker/plugins/debug.so

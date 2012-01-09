@@ -5,6 +5,7 @@ include/Desktop/accel.h
 include/Desktop/assistant.h
 include/Desktop/compat.h
 include/Desktop/menubar.h
+include/Desktop/message.h
 include/Desktop/mime.h
 include/Desktop/toolbar.h
 lib/libDesktop.a
