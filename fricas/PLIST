@@ -216,6 +216,7 @@ lib/fricas/target/${MACHINE_GNU_PLATFORM}/algebra/ELEMFUN-.${FASL}
 lib/fricas/target/${MACHINE_GNU_PLATFORM}/algebra/ELEMFUN.${FASL}
 lib/fricas/target/${MACHINE_GNU_PLATFORM}/algebra/ELFUTS.${FASL}
 lib/fricas/target/${MACHINE_GNU_PLATFORM}/algebra/ELINSOL.${FASL}
+lib/fricas/target/${MACHINE_GNU_PLATFORM}/algebra/ELIPIDF.${FASL}
 lib/fricas/target/${MACHINE_GNU_PLATFORM}/algebra/ELTAB.${FASL}
 lib/fricas/target/${MACHINE_GNU_PLATFORM}/algebra/ELTAGG-.${FASL}
 lib/fricas/target/${MACHINE_GNU_PLATFORM}/algebra/ELTAGG.${FASL}
