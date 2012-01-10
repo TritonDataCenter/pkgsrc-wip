@@ -18,9 +18,6 @@ USE_LIBTOOL=		yes
 CFLAGS+=		-I${BUILDLINK_DIR}/include/glib/glib-2.0 \
 			-I${BUILDLINK_DIR}/lib/glib-2.0/include
 
-PLIST_SUBST+=		DISTNAME=${DISTNAME}
-PLIST_SUBST+=		EXTRACT_SUFX=${EXTRACT_SUFX}
-
 INSTALLATION_DIRS+=	lib/pidgin lib/purple-2 \
 			share/pixmaps/pidgin/protocols/16 \
 			share/pixmaps/pidgin/protocols/22 \
