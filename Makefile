@@ -2594,6 +2594,7 @@ SUBDIR+=	scx
 SUBDIR+=	sdd
 SUBDIR+=	sdict-tools
 SUBDIR+=	seeks
+SUBDIR+=	semanticscuttle
 SUBDIR+=	send-pr
 SUBDIR+=	sendmailX
 SUBDIR+=	serendipity
