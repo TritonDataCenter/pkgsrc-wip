@@ -27,6 +27,8 @@ CONFIGURE_ARGS+=	--with-__thread=no
 .if !empty(PKG_OPTIONS:Municode)
 CONFIGURE_ARGS+=	--enable-unicode
 PLIST_SRC+=		PLIST.unicode
+.else
+CONFIGURE_ARGS+=	--disable-unicode
 .endif
 
 .if !empty(PKG_OPTIONS:Mffi)
