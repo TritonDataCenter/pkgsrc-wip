@@ -2035,6 +2035,7 @@ SUBDIR+=	prover9
 SUBDIR+=	proxychains
 SUBDIR+=	proxyknife
 SUBDIR+=	prozilla
+SUBDIR+=	prpltwtr
 SUBDIR+=	prtunnel
 SUBDIR+=	psh
 SUBDIR+=	psybnc
