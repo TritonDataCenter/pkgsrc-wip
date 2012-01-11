@@ -2045,6 +2045,7 @@ SUBDIR+=	pts
 SUBDIR+=	ptunnel
 SUBDIR+=	pudb
 SUBDIR+=	pure
+SUBDIR+=	purple-translate
 SUBDIR+=	pxlib
 SUBDIR+=	pxview
 SUBDIR+=	py-Beaker
