@@ -2629,6 +2629,7 @@ SUBDIR+=	sipbomber
 SUBDIR+=	sipp
 SUBDIR+=	siproxd
 SUBDIR+=	siptoolbox
+SUBDIR+=	sipwitch
 SUBDIR+=	sis
 SUBDIR+=	sjg-mk-files
 SUBDIR+=	ski
