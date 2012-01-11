@@ -1979,6 +1979,7 @@ SUBDIR+=	pidgin-festival
 SUBDIR+=	pidgin-guifications
 SUBDIR+=	pidgin-rhythmbox
 SUBDIR+=	pidgin-sipe
+SUBDIR+=	pidgin-twitterstatus
 SUBDIR+=	pike
 SUBDIR+=	pike-Gettext
 SUBDIR+=	pike-Gz
