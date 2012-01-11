@@ -10,6 +10,7 @@ MASTER_SITES=		http://savannah.nongnu.org/download/autocutsel/ \
 MAINTAINER=		reed@reedmedia.net
 HOMEPAGE=		http://www.lepton.fr/tools/autocutsel/
 COMMENT=		Synchronizes the X11 cutbuffer and CLIPBOARD selection
+LICENSE=		gnu-gpl-v2
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
