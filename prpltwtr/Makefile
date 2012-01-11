@@ -2,6 +2,7 @@
 #
 
 DISTNAME=		prpltwtr-0.11.0
+PKGREVISION=		1
 CATEGORIES=		chat net
 MASTER_SITES=		http://prpltwtr.googlecode.com/files/
 
@@ -24,6 +25,7 @@ INSTALLATION_DIRS+=	lib/pidgin lib/purple-2 \
 			share/pixmaps/pidgin/protocols/48
 
 .include "../../x11/gtk2/buildlink3.mk"
+.include "../../devel/libidn/buildlink3.mk"
 .include "../../chat/pidgin/buildlink3.mk"
 .include "../../chat/libpurple/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
