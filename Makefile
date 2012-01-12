@@ -1445,6 +1445,7 @@ SUBDIR+=	metasploit
 SUBDIR+=	metatheme
 SUBDIR+=	mg-lsh
 SUBDIR+=	mic-paren
+SUBDIR+=	microblog-purple
 SUBDIR+=	microcom
 SUBDIR+=	microtetris
 SUBDIR+=	mid2gmc
