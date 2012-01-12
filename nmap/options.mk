@@ -22,6 +22,9 @@ CONFIGURE_ARGS+=		--with-zenmap
 PLIST_SRC+=			${PKGDIR}/PLIST.zenmap
 PYTHON_VERSIONS_ACCEPTED=	27 26 25 24
 PY_PATCHPLIST=			yes
+REPLACE_PYTHON=			zenmap/zenmapCore/*.py
+REPLACE_PYTHON+=		zenmap/zenmapGUI/*.py
+REPLACE_PYTHON+=		zenmap/zenmapGUI/higwidgets/*.py
 .include "../../lang/python/application.mk"
 .include "../../lang/python/extension.mk"
 .include "../../x11/py-gtk2/buildlink3.mk"

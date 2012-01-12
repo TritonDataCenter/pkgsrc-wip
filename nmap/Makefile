@@ -1,8 +1,8 @@
 # $NetBSD: Makefile,v 1.71 2010/03/21 21:58:23 pettai Exp $
 #
 
-DISTNAME=	nmap-5.52.IPv6.Beta2
-PKGNAME=	nmap-IPv6-5.52b2
+DISTNAME=	nmap-5.61TEST4
+PKGNAME=	nmap-5.61test4
 CATEGORIES=	net security
 MASTER_SITES=	http://nmap.org/dist/
 EXTRACT_SUFX=	.tar.bz2
@@ -30,7 +30,13 @@ BUILD_DEFS+=		IPV6_READY
 
 .include "options.mk"
 
-CHECK_INTERPRETER_SKIP+= share/zenmap/su-to-zenmap.sh
+CHECK_INTERPRETER_SKIP= bin/uninstall_zenmap
+CHECK_INTERPRETER_SKIP+=        share/zenmap/su-to-zenmap.sh
+CHECK_INTERPRETER_SKIP+=	share/nmap/nselib/data/oracle-default-accounts.lst
+CHECK_INTERPRETER_SKIP+=        share/nmap/nselib/data/oracle-sids
+CHECK_INTERPRETER_SKIP+=        share/nmap/nselib/data/passwords.lst
+CHECK_INTERPRETER_SKIP+=	share/nmap/nselib/data/rtsp-urls.txt
+CHECK_INTERPRETER_SKIP+=	share/nmap/nselib/data/snmpcommunities.lst
 
 CONFIGURE_ARGS+=	--with-libpcap=${BUILDLINK_PREFIX.libpcap}
 CONFIGURE_ARGS+=	--with-libpcre=${BUILDLINK_PREFIX.pcre}
