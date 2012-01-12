@@ -1980,6 +1980,7 @@ SUBDIR+=	pidgin-festival
 SUBDIR+=	pidgin-guifications
 SUBDIR+=	pidgin-rhythmbox
 SUBDIR+=	pidgin-sipe
+SUBDIR+=	pidgin-status-to-twitter
 SUBDIR+=	pidgin-twitterstatus
 SUBDIR+=	pike
 SUBDIR+=	pike-Gettext
