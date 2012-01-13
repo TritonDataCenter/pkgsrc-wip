@@ -59,6 +59,7 @@ SUBDIR+=	abclock
 SUBDIR+=	acpiclient
 SUBDIR+=	acpid
 SUBDIR+=	adamem
+SUBDIR+=	adjustmtu
 SUBDIR+=	adms
 SUBDIR+=	admsmb
 SUBDIR+=	ae-fonts-decorative
