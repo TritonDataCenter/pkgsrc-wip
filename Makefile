@@ -1599,6 +1599,7 @@ SUBDIR+=	netkit-tftp
 SUBDIR+=	netlogo
 SUBDIR+=	netrik
 SUBDIR+=	netwib
+SUBDIR+=	netwmpager
 SUBDIR+=	netwox
 SUBDIR+=	netx
 SUBDIR+=	newlisp
