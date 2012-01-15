@@ -23,6 +23,8 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 
 WRKSRC=			${WRKDIR}/${PKGNAME_NOREV}
 
+.include "../../mk/bsd.prefs.mk"
+
 #
 # Bootstrap section.
 #
