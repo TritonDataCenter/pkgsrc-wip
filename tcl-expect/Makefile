@@ -5,6 +5,8 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 .include "Makefile.common"
 
 PKGNAME=	tcl-expect-${EXPECT_VERSION}
+DISTNAME=	expect5.45
+MASTER_SITES=	http://downloads.sourceforge.net/project/expect/Expect/5.45/
 CATEGORIES=	lang
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
