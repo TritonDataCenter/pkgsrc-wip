@@ -1,6 +1,6 @@
 # $NetBSD$
 
-PKGVERSION=		4.10beta3
+PKGVERSION=		4.10beta5
 DISTNAME=		rarbsd-${PKGVERSION:S/0beta/.b/}
 PKGNAME=		rar-${PKGVERSION}
 WRKSRC=			${WRKDIR}/rar
