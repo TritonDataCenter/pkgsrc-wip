@@ -13,7 +13,7 @@ adjusted from http://old.nabble.com/attachment/31751497/0/kio_scheduler.patch
  namespace KIO {
  
      class Slave;
-@@ -287,16 +289,19 @@ namespace KIO {
+@@ -287,16 +289,17 @@ namespace KIO {
  
          static Scheduler *self();
  
@@ -28,8 +28,6 @@ adjusted from http://old.nabble.com/attachment/31751497/0/kio_scheduler.patch
          // connected to D-Bus signal:
 -        Q_PRIVATE_SLOT(schedulerPrivate, void slotReparseSlaveConfiguration(const QString &, const QDBusMessage&))
 +        void slotReparseSlaveConfiguration(const QString &, const QDBusMessage&);
-+        void slotSlaveOnHoldListChanged();
-+
 +        void slotSlaveConnected();
 +        void slotSlaveError(int error, const QString &errorMsg);
 +        void slotUnregisterWindow(QObject *);

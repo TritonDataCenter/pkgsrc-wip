@@ -4,7 +4,7 @@ adjusted from http://old.nabble.com/attachment/31751497/0/kio_scheduler.patch
 
 --- kio/kio/scheduler.cpp.orig	2011-06-30 21:34:17.000000000 +0000
 +++ kio/kio/scheduler.cpp
-@@ -882,6 +882,41 @@ void Scheduler::emitReparseSlaveConfigur
+@@ -882,6 +882,36 @@ void Scheduler::emitReparseSlaveConfigur
      emit self()->reparseSlaveConfiguration( QString() );
  }
  
@@ -21,11 +21,6 @@ adjusted from http://old.nabble.com/attachment/31751497/0/kio_scheduler.patch
 +void Scheduler::slotReparseSlaveConfiguration(const QString& prot, const QDBusMessage& msg)
 +{
 +    schedulerPrivate->slotReparseSlaveConfiguration(prot, msg);
-+}
-+
-+void Scheduler::slotSlaveOnHoldListChanged()
-+{
-+    schedulerPrivate->slotSlaveOnHoldListChanged();
 +}
 +
 +void Scheduler::slotSlaveConnected()
