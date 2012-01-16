@@ -1008,6 +1008,7 @@ SUBDIR+=	hs-tfp
 SUBDIR+=	hs-time-http
 SUBDIR+=	hs-time-w3c
 SUBDIR+=	hs-transformers
+SUBDIR+=	hs-transformers-base
 SUBDIR+=	hs-uconv
 SUBDIR+=	hs-uniplate
 SUBDIR+=	hs-unix-compat
