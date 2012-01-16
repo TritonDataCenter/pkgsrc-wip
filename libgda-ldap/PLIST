@@ -1,0 +1,4 @@
+@comment $NetBSD$
+lib/libgda-3.0/providers/libgda-ldap.la
+lib/pkgconfig/libgda-ldap-3.0.pc
+share/libgda-3.0/ldap_specs_dsn.xml

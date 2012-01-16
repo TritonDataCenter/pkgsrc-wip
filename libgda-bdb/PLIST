@@ -1,0 +1,4 @@
+@comment $NetBSD$
+lib/libgda-3.0/providers/libgda-bdb.la
+lib/pkgconfig/libgda-bdb-3.0.pc
+share/libgda-3.0/bdb_specs_dsn.xml
