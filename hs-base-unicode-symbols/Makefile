@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	base-unicode-symbols-0.2.1.5
+DISTNAME=	base-unicode-symbols-0.2.2.3
 CATEGORIES=	devel
 
 MAINTAINER=	pho@cielonegro.org
