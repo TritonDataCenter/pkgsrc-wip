@@ -38,6 +38,7 @@ DEPENDS+=		clisp-new-clx>=2.42:../../x11/clisp-new-clx
 LISP_CENTRAL_REGISTRY=	${SBCL_CENTRAL_REGISTRY}
 DEPENDS+=		sbcl-portable-clx:../../wip/cl-portable-clx
 .endif
+# From README: "by default stumpwm elects sbcl"
 .if !empty(PKG_OPTIONS:Mclisp)
 CONFIGURE_ARGS=		--with-lisp=clisp
 .endif
