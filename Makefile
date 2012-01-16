@@ -291,6 +291,7 @@ SUBDIR+=	cl-bordeaux-threads
 SUBDIR+=	cl-cffi
 SUBDIR+=	cl-fad
 SUBDIR+=	cl-flexi-streams
+SUBDIR+=	cl-portable-clx
 SUBDIR+=	cl-ppcre
 SUBDIR+=	cl-ppcre-unicode
 SUBDIR+=	cl-split-sequence
