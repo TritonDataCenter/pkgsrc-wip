@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	monad-control-0.2.0.1
+DISTNAME=	monad-control-0.3.1
 CATEGORIES=	devel
 
 MAINTAINER=	pho@cielonegro.org
@@ -11,4 +11,5 @@ LICENSE=	modified-bsd
 .include "../../wip/mk/haskell.mk"
 .include "../../wip/hs-base-unicode-symbols/buildlink3.mk"
 .include "../../wip/hs-transformers/buildlink3.mk"
+.include "../../wip/hs-transformers-base/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

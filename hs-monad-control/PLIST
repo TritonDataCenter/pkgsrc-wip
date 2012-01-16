@@ -1,8 +1,4 @@
 @comment $NetBSD$
-lib/monad-control-${PKGVERSION}/${HASKELL_VERSION}/Control/Exception/Control.hi
-lib/monad-control-${PKGVERSION}/${HASKELL_VERSION}/Control/Exception/Control.p_hi
-lib/monad-control-${PKGVERSION}/${HASKELL_VERSION}/Control/Monad/IO/Control.hi
-lib/monad-control-${PKGVERSION}/${HASKELL_VERSION}/Control/Monad/IO/Control.p_hi
 lib/monad-control-${PKGVERSION}/${HASKELL_VERSION}/Control/Monad/Trans/Control.hi
 lib/monad-control-${PKGVERSION}/${HASKELL_VERSION}/Control/Monad/Trans/Control.p_hi
 lib/monad-control-${PKGVERSION}/${HASKELL_VERSION}/HSmonad-control-${PKGVERSION}.o
