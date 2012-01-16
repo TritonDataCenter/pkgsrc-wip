@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	rtpbreak-1.3a
+PKGREVISION=	1
 CATEGORIES=	net
 MASTER_SITES=	http://xenion.antifork.org/rtpbreak/
 EXTRACT_SUFX=	.tgz
@@ -15,8 +16,10 @@ DEPENDS+=	libnet11>=1.1.2.1:../../devel/libnet11
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
+INSTALLATION_DIRS+=	bin
+
 do-install:
-	${INSTALL_PROGRAM} ${WRKSRC}/src/rtpbreak ${PREFIX}/bin/rtpbreak
+	${INSTALL_PROGRAM} ${WRKSRC}/src/rtpbreak ${DESTDIR}${PREFIX}/bin/rtpbreak
 
 .include "../../devel/libnet11/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
