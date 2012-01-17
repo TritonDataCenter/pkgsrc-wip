@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	blaze-builder-0.3.0.1
+DISTNAME=	blaze-builder-0.3.0.2
 CATEGORIES=	devel
 
 MAINTAINER=	pho@cielonegro.org
