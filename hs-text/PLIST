@@ -61,6 +61,8 @@ lib/text-${PKGVERSION}/${HASKELL_VERSION}/Data/Text/Lazy/Read.hi
 lib/text-${PKGVERSION}/${HASKELL_VERSION}/Data/Text/Lazy/Read.p_hi
 lib/text-${PKGVERSION}/${HASKELL_VERSION}/Data/Text/Lazy/Search.hi
 lib/text-${PKGVERSION}/${HASKELL_VERSION}/Data/Text/Lazy/Search.p_hi
+lib/text-${PKGVERSION}/${HASKELL_VERSION}/Data/Text/Private.hi
+lib/text-${PKGVERSION}/${HASKELL_VERSION}/Data/Text/Private.p_hi
 lib/text-${PKGVERSION}/${HASKELL_VERSION}/Data/Text/Read.hi
 lib/text-${PKGVERSION}/${HASKELL_VERSION}/Data/Text/Read.p_hi
 lib/text-${PKGVERSION}/${HASKELL_VERSION}/Data/Text/Search.hi
