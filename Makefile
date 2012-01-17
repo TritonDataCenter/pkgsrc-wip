@@ -891,6 +891,7 @@ SUBDIR+=	hs-colorize-haskell
 SUBDIR+=	hs-containers-unicode-symbols
 SUBDIR+=	hs-control-monad-failure
 SUBDIR+=	hs-convertible
+SUBDIR+=	hs-convertible-ascii
 SUBDIR+=	hs-convertible-text
 SUBDIR+=	hs-cpphs
 SUBDIR+=	hs-crypto-api
