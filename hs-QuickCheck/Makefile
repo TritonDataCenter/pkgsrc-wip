@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	QuickCheck-2.4.1.1
+DISTNAME=	QuickCheck-2.4.2
 CATEGORIES=	devel
 
 MAINTAINER=	pho@cielonegro.org
