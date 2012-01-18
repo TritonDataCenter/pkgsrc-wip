@@ -1,5 +1,7 @@
 @comment $NetBSD$
 info/clx.info
+share/doc/${LISP}-clx/NEWS
+share/doc/${LISP}-clx/README
 ${CL}${CL_PATH}clx/attributes.fasl
 ${CL}${CL_PATH}clx/attributes.lisp
 ${CL}${CL_PATH}clx/big-requests.fasl
@@ -74,8 +76,6 @@ ${CL}${CL_PATH}clx/xtest.fasl
 ${CL}${CL_PATH}clx/xtest.lisp
 ${CL}${CL_PATH}clx/xvidmode.fasl
 ${CL}${CL_PATH}clx/xvidmode.lisp
-share/doc/${LISP}-clx/NEWS
-share/doc/${LISP}-clx/README
 ${CL}${CL_PATH}clx/demo/bezier.fasl
 ${CL}${CL_PATH}clx/demo/bezier.lisp
 ${CL}${CL_PATH}clx/demo/beziertest.fasl
