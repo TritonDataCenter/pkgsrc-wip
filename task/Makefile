@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	task-1.9.3
+DISTNAME=	task-1.9.4
 CATEGORIES=	time
 MASTER_SITES=	http://www.taskwarrior.org/download/
 
