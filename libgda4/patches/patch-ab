@@ -1,0 +1,13 @@
+$NetBSD$
+
+--- data/Makefile.in.orig	2010-11-27 13:39:14.000000000 +0000
++++ data/Makefile.in
+@@ -331,7 +331,7 @@ top_builddir = @top_builddir@
+ top_srcdir = @top_srcdir@
+ 
+ # Default global configuration file
+-configdir = $(sysconfdir)/libgda-4.0
++configdir = $(datadir)/examples/libgda-4.0
+ config_DATA = config sales_test.db
+ EXTRA_DIST = \
+ 	$(config_DATA) 
