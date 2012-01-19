@@ -1,4 +1,4 @@
-# $NetBSD: buildlink3.mk,v 1.17 2009/03/20 19:24:05 joerg Exp $
+# $NetBSD$
 
 BUILDLINK_TREE+=	libgda
 
@@ -7,11 +7,11 @@ LIBGDA_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.libgda+=	libgda>=4.0.0
 BUILDLINK_ABI_DEPENDS.libgda+=	libgda>=4.0.0
-BUILDLINK_PKGSRCDIR.libgda?=	../../databases/libgda4
+BUILDLINK_PKGSRCDIR.libgda?=	../../GDA4/libgda4
 
-PRINT_PLIST_AWK+=	/^@dirrm lib\/libgda-3.0\/providers$$/ \
+PRINT_PLIST_AWK+=	/^@dirrm lib\/libgda-4.0\/providers$$/ \
 				{ print "@comment in libgda: " $$0; next; }
-PRINT_PLIST_AWK+=	/^@dirrm share\/libgda-3.0$$/ \
+PRINT_PLIST_AWK+=	/^@dirrm share\/libgda-4.0$$/ \
 				{ print "@comment in libgda: " $$0; next; }
 
 .include "../../mk/bsd.fast.prefs.mk"
