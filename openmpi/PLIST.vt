@@ -30,7 +30,6 @@ bin/vtrun
 bin/vtunify
 bin/vtunify-mpi
 bin/vtwrapper
-etc/vt-java-default-filter.spec
 include/vampirtrace/OTFAUX_MsgMatching.h
 include/vampirtrace/OTFAUX_Thumbnail.h
 include/vampirtrace/OTF_CopyHandler_stream.h
@@ -86,6 +85,9 @@ share/openmpi/mpif90-vt-wrapper-data.txt
 share/vampirtrace/FILTER.SPEC
 share/vampirtrace/GROUPS.SPEC
 share/vampirtrace/METRICS.SPEC
+share/vampirtrace/VampirTrace/examples/vt-java-default-filter.spec
+share/vampirtrace/VampirTrace/examples/vt-setup-config.dtd
+share/vampirtrace/VampirTrace/examples/vt-setup-config.xml
 share/vampirtrace/doc/ChangeLog
 share/vampirtrace/doc/LICENSE
 share/vampirtrace/doc/UserManual.html
