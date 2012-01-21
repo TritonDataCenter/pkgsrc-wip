@@ -25,11 +25,12 @@ PYTHON_VERSIONS_INCOMPATIBLE=	24 25
 INSTALLATION_DIRS=	share/examples/calypso
 
 REPLACE_PYTHON=	calypso.py
+EGG_NAME=	${DISTNAME:S/c/C/}
 
 post-install:
 	${INSTALL_DATA} ${WRKSRC}/config ${DESTDIR}${PREFIX}/share/examples/calypso/
 
 .include "../../lang/python/application.mk"
-.include "../../lang/python/extension.mk"
+.include "../../lang/python/egg.mk"
 .include "../../wip/mk/git-package.mk"
 .include "../../mk/bsd.pkg.mk"
