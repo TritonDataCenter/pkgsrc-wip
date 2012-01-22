@@ -6,7 +6,7 @@ $NetBSD: patch-ad,v 1.1.1.1 2009/10/02 19:19:00 markd Exp $
    // dictionary path
    QFileInfo dir ("/usr/lib/ispell");
    if (!dir.exists() || !dir.isDir())
-+    dir.setFile ("/usr/pkg/lib");
++    dir.setFile ("@LOCALBASE@/lib");
 +  if (!dir.exists() || !dir.isDir())
      dir.setFile ("/usr/local/lib/ispell");
    if (!dir.exists() || !dir.isDir())
@@ -15,7 +15,7 @@ $NetBSD: patch-ad,v 1.1.1.1 2009/10/02 19:19:00 markd Exp $
    if (!dir.exists() || !dir.isDir())
      dir.setFile ("/usr/lib" KDELIBSUFF "/aspell-0.60");
    if (!dir.exists() || !dir.isDir())
-+    dir.setFile ("/usr/pkg/lib");
++    dir.setFile ("@LOCALBASE@/lib");
 +  if (!dir.exists() || !dir.isDir())
      dir.setFile ("/usr/local/lib" KDELIBSUFF "/aspell");
    if (!dir.exists() || !dir.isDir())
@@ -24,7 +24,7 @@ $NetBSD: patch-ad,v 1.1.1.1 2009/10/02 19:19:00 markd Exp $
        // dictionary path
        QFileInfo dir ("/usr/lib/ispell");
        if (!dir.exists() || !dir.isDir())
-+        dir.setFile ("/usr/pkg/lib");
++        dir.setFile ("@LOCALBASE@/lib");
 +      if (!dir.exists() || !dir.isDir())
          dir.setFile ("/usr/local/lib/ispell");
        if (!dir.exists() || !dir.isDir())
@@ -33,7 +33,7 @@ $NetBSD: patch-ad,v 1.1.1.1 2009/10/02 19:19:00 markd Exp $
        if (!dir.exists() || !dir.isDir())
          dir.setFile ("/usr/lib" KDELIBSUFF "/aspell-0.60");
        if (!dir.exists() || !dir.isDir())
-+        dir.setFile ("/usr/pkg/lib");
++        dir.setFile ("@LOCALBASE@/lib");
 +      if (!dir.exists() || !dir.isDir())
          dir.setFile ("/usr/local/lib" KDELIBSUFF "/aspell");
        if (!dir.exists() || !dir.isDir())
