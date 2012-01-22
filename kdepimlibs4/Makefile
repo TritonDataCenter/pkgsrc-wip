@@ -10,6 +10,8 @@ CMAKE_DEPENDENCIES_REWRITE= _KDE_build/KDEPimLibsDependencies.cmake
 
 REPLACE_PERL+= mailtransport/kconf_update/migrate-transports.pl
 
+BUILDLINK_API_DEPENDS.akonadi+=  akonadi>=1.5.52
+
 .include "../../wip/kde4/kde4.mk"
 
 .include "../../databases/openldap-client/buildlink3.mk"
