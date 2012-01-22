@@ -1170,6 +1170,7 @@ SUBDIR+=	k3b
 SUBDIR+=	k4dirstat
 SUBDIR+=	kBuild
 SUBDIR+=	kacst-ttf
+SUBDIR+=	kactivities
 SUBDIR+=	kaffe
 SUBDIR+=	kaffe-x11
 SUBDIR+=	kahakai
