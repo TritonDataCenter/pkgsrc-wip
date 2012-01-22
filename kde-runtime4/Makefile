@@ -1,7 +1,6 @@
 # $NetBSD: Makefile,v 1.19 2011/01/23 07:55:16 markd Exp $
 
-DISTNAME=	kdebase-runtime-${_KDE_VERSION}
-PKGREVISION=	1
+DISTNAME=	kde-runtime-${_KDE_VERSION}
 CATEGORIES=	x11
 COMMENT=	Runtime requirements for the KDE integrated X11 desktop
 
@@ -37,7 +36,10 @@ REPLACE_PERL+= \
 	khelpcenter/searchhandlers/khc_mansearch.pl \
 	kioslave/info/kde-info2html
 
-CONF_FILES+=	${PREFIX}/share/examples/kdebase-runtime4/kde-information.menu \
+REPLACE_PYTHON+= \
+	nepomuk/services/storage/rcgen/nepomuk-simpleresource-rcgen.py
+
+CONF_FILES+=	${PREFIX}/share/examples/kde-runtime4/kde-information.menu \
                 ${PKG_SYSCONFDIR}/xdg/menus/kde-information.menu
 CONF_FILES+=	${PREFIX}/share/examples/kde4-dbus/org.kde.kcontrol.kcmremotewidgets.conf \
 		${PKG_SYSCONFDIR}/dbus-1/system.d/org.kde.kcontrol.kcmremotewidgets.conf
@@ -48,7 +50,9 @@ INSTALLATION_DIRS+=	${PKGMANDIR}/man1
 
 .include "../../audio/pulseaudio/buildlink3.mk"
 .include "../../audio/libcanberra/buildlink3.mk"
+.include "../../lang/python/application.mk"
 .include "../../security/libssh/buildlink3.mk"
+.include "../../security/qca2/buildlink3.mk"
 .include "../../wip/phonon/buildlink3.mk"
 .include "../../archivers/xz/buildlink3.mk"
 .include "../../graphics/exiv2/buildlink3.mk"
@@ -58,6 +62,8 @@ BUILDLINK_ABI_DEPENDS.attica?=	attica>=0.1.4
 .include "../../multimedia/xine-lib/buildlink3.mk"
 .include "../../net/openslp/buildlink3.mk"
 .include "../../sysutils/desktop-file-utils/desktopdb.mk"
+BUILDLINK_ABI_DEPENDS.soprano?=	soprano>=2.6.50
+.include "../../wip/soprano/buildlink3.mk"
 .include "../../wip/kdelibs4/buildlink3.mk"
 
 .include "../../mk/bsd.pkg.mk"
