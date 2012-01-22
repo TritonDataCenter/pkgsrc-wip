@@ -1,8 +1,8 @@
 $NetBSD$
 
---- writerfilter/Module_writerfilter.mk.orig	2011-10-17 16:49:48.000000000 +0000
+--- writerfilter/Module_writerfilter.mk.orig	2012-01-09 22:08:58.000000000 +0000
 +++ writerfilter/Module_writerfilter.mk
-@@ -38,11 +38,13 @@ $(eval $(call gb_Module_add_targets,writ
+@@ -37,10 +37,12 @@ $(eval $(call gb_Module_add_targets,writ
      Package_writerfilter_generated \
  ))
  
@@ -10,7 +10,6 @@ $NetBSD$
  $(eval $(call gb_Module_add_check_targets,writerfilter,\
      CppunitTest_writerfilter_doctok \
      CppunitTest_writerfilter_rtftok \
-     RdbTarget_writerfilter_rtftok \
  ))
 +endif
  
