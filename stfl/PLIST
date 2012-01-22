@@ -1,3 +1,7 @@
 @comment $NetBSD$
 include/stfl.h
 lib/libstfl.a
+lib/libstfl.so
+lib/libstfl.so.${MAJOR}
+lib/libstfl.so.${MAJOR}.${MINOR}
+lib/pkgconfig/stfl.pc
