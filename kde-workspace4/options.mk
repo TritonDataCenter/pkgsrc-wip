@@ -1,6 +1,6 @@
 # $NetBSD: options.mk,v 1.2 2011/03/06 16:04:33 wiz Exp $
 
-PKG_OPTIONS_VAR=	PKG_OPTIONS.kdebase-workspace
+PKG_OPTIONS_VAR=	PKG_OPTIONS.kde-workspace
 PKG_SUPPORTED_OPTIONS=	inet6
 #PKG_SUPPORTED_OPTIONS=	inet6 sasl samba debug pam
 #PKG_SUGGESTED_OPTIONS=	sasl

@@ -13,3 +13,7 @@ post-wrapper:
 .endif
 
 .endif
+
+# fix up buildlinks failure to build link tree correctly
+post-wrapper:
+	ln -s netbsd-g++ ${BUILDLINK_DIR}/qt4/mkspecs/default
