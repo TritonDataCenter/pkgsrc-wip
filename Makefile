@@ -1215,6 +1215,7 @@ SUBDIR+=	kmymoney-svn
 SUBDIR+=	knutclient
 SUBDIR+=	koffice
 SUBDIR+=	koha
+SUBDIR+=	konsole
 SUBDIR+=	korelib
 SUBDIR+=	kpanta
 SUBDIR+=	kplayer
