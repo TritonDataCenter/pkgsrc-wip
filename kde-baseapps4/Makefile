@@ -1,10 +1,13 @@
 # $NetBSD: Makefile,v 1.17 2011/01/23 07:55:16 markd Exp $
 
-DISTNAME=	kdebase-${_KDE_VERSION}
+DISTNAME=	kde-baseapps-${_KDE_VERSION}
+PKGNAME=	${DISTNAME:S/-4/4-4/}
 CATEGORIES=	x11
 COMMENT=	Base modules for the KDE 4 integrated X11 desktop
 
 .include "../../wip/kde4/Makefile.kde4"
+
+CONFLICTS=	konq-plugins-[0-9]*
 
 # BUILD_MAKE_FLAGS+= VERBOSE=1
 
@@ -24,8 +27,9 @@ REPLACE_FILES.scheme=	lib/konq/Templates/Program.desktop
 .include "../../graphics/qimageblitz/buildlink3.mk"
 .include "../../sysutils/desktop-file-utils/desktopdb.mk"
 .include "../../wip/kdelibs4/buildlink3.mk"
-.include "../../wip/kdebase-runtime4/buildlink3.mk"
-.include "../../wip/kdebase-workspace4/buildlink3.mk"
+.include "../../wip/kde-runtime4/buildlink3.mk"
+.include "../../wip/kde-workspace4/buildlink3.mk"
 .include "../../lang/ruby/buildlink3.mk"
+.include "../../www/tidy/buildlink3.mk"
 
 .include "../../mk/bsd.pkg.mk"
