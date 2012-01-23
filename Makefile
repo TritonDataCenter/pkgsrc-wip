@@ -1188,7 +1188,6 @@ SUBDIR+=	kde-baseapps4
 SUBDIR+=	kde-runtime4
 SUBDIR+=	kde-wallpapers4
 SUBDIR+=	kde-workspace4
-SUBDIR+=	kdebase4
 SUBDIR+=	kdeedu4
 SUBDIR+=	kdegames4
 SUBDIR+=	kdegraphics4
