@@ -1,9 +1,9 @@
 # $NetBSD$
 #
 
-DISTNAME=		riak-1.0.2
+DISTNAME=		riak-1.0.3
 CATEGORIES=		databases
-MASTER_SITES=		http://downloads.basho.com/riak/riak-1.0.2/
+MASTER_SITES=		http://downloads.basho.com/riak/${DISTNAME}/
 
 MAINTAINER=		filip@joyent.com
 HOMEPAGE=		http://www.basho.com/products_riak_overview.php
