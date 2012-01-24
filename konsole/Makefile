@@ -8,6 +8,7 @@ COMMENT=	a terminal emulator for the K Desktop Environment
 
 .include "../../wip/kde4/kde4.mk"
 
+.include "../../sysutils/desktop-file-utils/desktopdb.mk"
 .include "../../wip/kdelibs4/buildlink3.mk"
 .include "../../wip/kde-baseapps4/buildlink3.mk"
 
