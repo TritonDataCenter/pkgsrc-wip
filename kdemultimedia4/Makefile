@@ -1,6 +1,7 @@
 # $NetBSD: Makefile,v 1.18 2011/01/23 07:55:15 markd Exp $
 
 DISTNAME=	kdemultimedia-${_KDE_VERSION}
+PKGNAME=	${DISTNAME:S/-4/4-4/}
 CATEGORIES=	multimedia
 COMMENT=	Multimedia tools for the KDE integrated X11 desktop
 
@@ -9,6 +10,8 @@ COMMENT=	Multimedia tools for the KDE integrated X11 desktop
 # BUILD_MAKE_FLAGS+= VERBOSE=1
 
 REPLACE_BASH+=	kioslave/audiocd/upgrade-metadata.sh
+
+CMAKE_ARGS+=-DTAGLIB_MIN_VERSION=1.10
 
 .include "../../mk/bsd.prefs.mk"
 .include "options.mk"
@@ -27,7 +30,7 @@ BUILDLINK_ABI_DEPENDS.xine-lib?=	xine-lib>=1.1.19nb1
 .include "../../multimedia/xine-lib/buildlink3.mk"
 .include "../../sysutils/desktop-file-utils/desktopdb.mk"
 .include "../../wip/kdelibs4/buildlink3.mk"
-.include "../../wip/kdebase-runtime4/buildlink3.mk"
+.include "../../wip/kde-runtime4/buildlink3.mk"
 .include "../../mk/oss.buildlink3.mk"
 
 .include "../../mk/bsd.pkg.mk"
