@@ -1,0 +1,7 @@
+@comment $NetBSD$
+${PYSITELIB}/tkgen/__init__.py
+${PYSITELIB}/tkgen/__init__.pyc
+${PYSITELIB}/tkgen/__init__.pyo
+${PYSITELIB}/tkgen/gengui.py
+${PYSITELIB}/tkgen/gengui.pyc
+${PYSITELIB}/tkgen/gengui.pyo
