@@ -2626,6 +2626,7 @@ SUBDIR+=	serlook
 SUBDIR+=	service
 SUBDIR+=	sflphoned
 SUBDIR+=	sgmltools-lite
+SUBDIR+=	shaarli
 SUBDIR+=	shadow
 SUBDIR+=	shaper
 SUBDIR+=	shared-desktop-ontologies
