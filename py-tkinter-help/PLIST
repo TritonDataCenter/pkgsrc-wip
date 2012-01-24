@@ -1,0 +1,4 @@
+@comment $NetBSD$
+${PYSITELIB}/tkhelp.py
+${PYSITELIB}/tkhelp.pyc
+${PYSITELIB}/tkhelp.pyo
