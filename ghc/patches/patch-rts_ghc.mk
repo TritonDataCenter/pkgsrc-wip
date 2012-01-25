@@ -23,7 +23,7 @@ The second section:
  $(eval $(call build-dependencies,rts,dist,1))
  
  $(rts_dist_depfile_c_asm) : libffi/dist-install/build/ffi.h $(DTRACEPROBES_H)
-+rts/dist/build/Capability.o : $(DTRACEPROBES_H)
++$(patsubst rts/%.c,rts/dist/build/%.o,$(rts_C_SRCS)) : $(DTRACEPROBES_H)
  
  #-----------------------------------------------------------------------------
  # libffi stuff
