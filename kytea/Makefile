@@ -6,7 +6,7 @@ CATEGORIES=	textproc
 MASTER_SITES=	http://www.phontron.com/kytea/download/
 
 MAINTAINER=	obache@users.sourceforge.net
-HOMEPAGE=	http://www.phontron.com/
+HOMEPAGE=	http://www.phontron.com/kytea/
 COMMENT=	Kyoto Text Analysis Toolkit
 LICENSE=	apache-2.0
 
