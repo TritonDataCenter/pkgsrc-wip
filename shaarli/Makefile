@@ -3,7 +3,7 @@
 
 PKGNAME=	shaarli-${VERSION}
 DISTNAME=	shaarli_${VERSION}
-VERSION=	0.0.33beta
+VERSION=	0.0.36beta
 CATEGORIES=	www
 MASTER_SITES=	http://sebsauvage.net/files/
 EXTRACT_SUFX=	.zip
