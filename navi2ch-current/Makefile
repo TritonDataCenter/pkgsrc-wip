@@ -16,6 +16,7 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 
 GIT_REPOSITORIES=	master
 GIT_REPO.master=	git://navi2ch.git.sourceforge.net/gitroot/navi2ch/navi2ch
+GIT_MODULE.master=	navi2ch
 
 GNU_CONFIGURE=	yes
 USE_TOOLS+=	gmake
