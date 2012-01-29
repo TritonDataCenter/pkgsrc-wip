@@ -1112,6 +1112,7 @@ SUBDIR+=	ispell-dictionaries
 SUBDIR+=	ispell-lietuviu
 SUBDIR+=	itask-ng
 SUBDIR+=	itools
+SUBDIR+=	itstool
 SUBDIR+=	ja-freewnn-cvs
 SUBDIR+=	ja-freewnn-lib
 SUBDIR+=	ja-freewnn-server
