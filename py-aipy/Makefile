@@ -3,6 +3,7 @@
 
 DISTNAME=	aipy-0.9.1
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
+PKGREVISION=	1
 CATEGORIES=	astronomy python
 MASTER_SITES=	http://pypi.python.org/packages/source/a/aipy/
 
@@ -12,7 +13,7 @@ COMMENT=	Astronomical Interferometry in Python
 LICENSE=	gnu-gpl-v2
 
 DEPENDS+=	${PYPKGPREFIX}-ephem>=3.7.3.4:../../math/py-ephem
-DEPENDS+=	${PYPKGPREFIX}-pyfits>=2.3.1:../../wip/py-pyfits
+DEPENDS+=	${PYPKGPREFIX}-pyfits>=2.3.1:../../graphics/py-pyfits
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
