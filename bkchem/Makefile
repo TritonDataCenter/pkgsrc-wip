@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	bkchem-0.13.0
+PKGREVISION=	1
 CATEGORIES=	biology python
 MASTER_SITES=	http://bkchem.zirael.org/download/
 
@@ -11,6 +12,8 @@ COMMENT=	Python based chemical structures editor
 LICENSE=	gnu-gpl-v2
 
 PKG_DESTDIR_SUPPORT=	user-destdir
+
+DEPENDS+=	${PYPKGPREFIX}-Pmw>=1.3.2:../../x11/py-Pmw
 
 USE_PKGLOCALEDIR=	yes
 USE_TOOLS+=	intltool msgfmt
@@ -32,6 +35,5 @@ post-extract:
 .include "../../graphics/hicolor-icon-theme/buildlink3.mk"
 .include "../../lang/python/extension.mk"
 .include "../../sysutils/desktop-file-utils/desktopdb.mk"
-.include "../../x11/py-Pmw/buildlink3.mk"
 .include "../../x11/py-Tk/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
