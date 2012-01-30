@@ -3,6 +3,7 @@
 
 DISTNAME=	pydirector-1.0.0
 PKGNAME=		${PYPKGPREFIX}-${DISTNAME}
+PKGREVISION=	1
 CATEGORIES=	net
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=pythondirector/}
 
@@ -11,7 +12,7 @@ HOMEPAGE=		http://pythondirector.sourceforge.net/
 COMMENT=		Pure-python TCP load balancer
 
 DEPENDS+=		${PYPKGPREFIX}-twisted-[0-9]*:../../net/py-twisted
-DEPENDS+=		py25-m2crypto>=0.13:../../security/py-m2crypto
+DEPENDS+=		${PYPKGPREFIX}-m2crypto>=0.13:../../security/py-m2crypto
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
