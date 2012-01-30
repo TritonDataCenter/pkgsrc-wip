@@ -3,6 +3,7 @@
 
 DISTNAME=	Astropysics-0.1.dev-r596
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
+PKGREVISION=	1
 CATEGORIES=	physics
 MASTER_SITES=	http://pypi.python.org/packages/source/A/Astropysics/
 
@@ -13,7 +14,7 @@ LICENSE=	apache-2.0
 
 DEPENDS+=	${PYPKGPREFIX}-scipy>=0.7.0:../../math/py-scipy
 DEPENDS+=	${PYPKGPREFIX}-dateutil-[0-9]*:../../time/py-dateutil
-DEPENDS+=	${PYPKGPREFIX}-pyfits>=2.3.1:../../wip/py-pyfits
+DEPENDS+=	${PYPKGPREFIX}-pyfits>=2.3.1:../../graphics/py-pyfits
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
