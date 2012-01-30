@@ -3,7 +3,7 @@
 
 DISTNAME=	quodlibet-2.1
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
-PKGREVISION=	2
+PKGREVISION=	3
 CATEGORIES=	audio
 MASTER_SITES=	http://quodlibet.googlecode.com/files/
 
@@ -15,6 +15,7 @@ LICENSE=	gnu-gpl-v2
 DEPENDS+=	gst-plugins0.10-mad>=0.10.0:../../audio/gst-plugins0.10-mad
 DEPENDS+=	${PYPKGPREFIX}-mutagen>=1.8:../../audio/py-mutagen
 DEPENDS+=	gst-plugins0.10-vorbis>=0.10.0:../../audio/gst-plugins0.10-vorbis
+DEPENDS+=	${PYPKGPREFIX}-ctypes>=1.0.2:../../devel/py-ctypes
 DEPENDS+=	gst-plugins0.10-ogg>=0.10.0:../../multimedia/gst-plugins0.10-ogg
 
 PKG_DESTDIR_SUPPORT=	user-destdir
@@ -26,7 +27,6 @@ BUILD_TARGET=		_trayicon.so _mmkeys.so
 PYDISTUTILSPKG= yes
 PYTHON_PATCH_SCRIPTS=	exfalso.py quodlibet.py
 
-.include "../../devel/py-ctypes/buildlink3.mk"
 .include "../../devel/py-gobject/buildlink3.mk"
 .include "../../devel/pango/buildlink3.mk"
 .include "../../graphics/hicolor-icon-theme/buildlink3.mk"
