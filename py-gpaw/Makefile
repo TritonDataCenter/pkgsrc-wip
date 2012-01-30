@@ -3,6 +3,7 @@
 
 DISTNAME=	gpaw-0.7.2.6974
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
+PKGREVISION=	1
 CATEGORIES=	biology python
 MASTER_SITES=	https://wiki.fysik.dtu.dk/gpaw-files/
 
@@ -20,6 +21,7 @@ FETCH_BEFORE_ARGS=	--no-check-certificate
 
 USE_LANGUAGES=	c c99
 PYDISTUTILSPKG=	yes
+PLIST_SUBST+=	PYVERSSUFFIX=${PYVERSSUFFIX:Q}
 
 post-extract:
 	${MV} ${WRKSRC}/tools/gpaw ${WRKSRC}/tools/gpaw${PYVERSSUFFIX}

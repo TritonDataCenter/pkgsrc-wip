@@ -1,9 +1,9 @@
 @comment $NetBSD$
-bin/gpaw
-bin/gpaw-basis
-bin/gpaw-mpisim
-bin/gpaw-setup
-bin/gpaw-test
+bin/gpaw${PYVERSSUFFIX}
+bin/gpaw-basis${PYVERSSUFFIX}
+bin/gpaw-mpisim${PYVERSSUFFIX}
+bin/gpaw-setup${PYVERSSUFFIX}
+bin/gpaw-test${PYVERSSUFFIX}
 ${PYSITELIB}/_gpaw.so
 ${PYSITELIB}/gpaw/__init__.py
 ${PYSITELIB}/gpaw/__init__.pyc
