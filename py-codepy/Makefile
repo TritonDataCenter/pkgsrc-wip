@@ -3,6 +3,7 @@
 
 DISTNAME=	codepy-0.90.tar
 PKGNAME=	${PYPKGPREFIX}-codepy-0.90
+PKGREVISION=	1
 CATEGORIES=	devel python
 MASTER_SITES=	http://pypi.python.org/packages/source/c/codepy/
 EXTRACT_SUFX=	.gz#md5=72efff7486689f778f1b1f82a87b2d12
@@ -16,6 +17,7 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 
 WRKSRC=		${WRKDIR}/codepy-0.90
 USE_LANGUAGES=	# none
+PLIST_SUBST+=	PYVERSSUFFIX=${PYVERSSUFFIX:Q}
 
 .include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"

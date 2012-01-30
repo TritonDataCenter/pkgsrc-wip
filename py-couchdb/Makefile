@@ -3,6 +3,7 @@
 
 DISTNAME=	CouchDB-0.6.tar
 PKGNAME=		${PYPKGPREFIX}-couchdb-0.6
+PKGREVISION=	1
 CATEGORIES=	databases python
 MASTER_SITES=	http://pypi.python.org/packages/source/C/CouchDB/
 EXTRACT_SUFX=	.gz#md5=446b8377cf2ddda94d5f2df29c4f705f
@@ -20,6 +21,7 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 WRKSRC=		${WRKDIR}/CouchDB-0.6
 USE_TOOLS+=	pax
 USE_LANGUAGES=	# none
+PLIST_SUBST+=	PYVERSSUFFIX=${PYVERSSUFFIX:Q}
 
 post-install:
 	${INSTALL_DATA_DIR} ${DESTDIR}${PREFIX}/share/doc/py-couchdb
