@@ -3,6 +3,7 @@
 
 DISTNAME=	pygr-0.8.0
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
+PKGREVISION=	1
 CATEGORIES=	biology python
 MASTER_SITES=	http://pygr.googlecode.com/files/
 
@@ -19,6 +20,7 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 
 USE_LANGUAGES= c c++
 PYTHON_VERSIONS_ACCEPTED= 27 26 25 24
+PLIST_SUBST+=	PYVERSSUFFIX=${PYVERSSUFFIX:Q}
 
 .include "../../databases/py-bsddb3/buildlink3.mk"
 .include "../../lang/python/egg.mk"

@@ -3,6 +3,7 @@
 
 DISTNAME=	srpy-0.2.3
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
+PKGREVISION=	1
 CATEGORIES=	devel python
 MASTER_SITES=	http://srpy.googlecode.com/files/
 EXTRACT_SUFX=	.zip
@@ -24,6 +25,8 @@ PYTHON_VERSIONS_ACCEPTED= 27 26 25
 HTMLDIR=	${PREFIX}/share/doc/html/py-srpy
 
 INSTALLATION_DIRS+=	share/doc/py-srpy ${HTMLDIR}
+
+PLIST_SUBST+=	PYVERSSUFFIX=${PYVERSSUFFIX:Q}
 
 post-install:
 	${INSTALL_DATA} ${WRKSRC}/README.txt \
