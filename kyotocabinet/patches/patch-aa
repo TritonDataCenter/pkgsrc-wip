@@ -1,5 +1,7 @@
 $NetBSD$
 
+Compensate absense of long double functions in the NetBSD libm.
+
 --- kccommon.h.orig	2011-04-30 15:52:25.000000000 +0000
 +++ kccommon.h
 @@ -68,7 +68,7 @@ extern "C" {
