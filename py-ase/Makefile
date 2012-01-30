@@ -3,6 +3,7 @@
 
 DISTNAME=	python-ase-3.4.1.1765
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME:S/python-//}
+PKGREVISION=	1
 CATEGORIES=	biology python
 MASTER_SITES=	https://wiki.fysik.dtu.dk/ase-files/
 
@@ -13,6 +14,8 @@ LICENSE=	gnu-lgpl-v2.1
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
+DEPENDS+=	${PYPKGPREFIX}-ctypes>=1.0.2:../../devel/py-ctypes
+
 FETCH_USING=		wget
 FETCH_BEFORE_ARGS=	--no-check-certificate
 
@@ -21,7 +24,6 @@ USE_LANGUAGES=	# none
 PYTHON_VERSIONS_ACCEPTED= 27 26 25 24
 PYDISTUTILSPKG=	yes
 
-.include "../../devel/py-ctypes/buildlink3.mk"
 .include "../../devel/pango/buildlink3.mk"
 .include "../../devel/py-gobject/buildlink3.mk"
 .include "../../graphics/py-matplotlib/buildlink3.mk"
