@@ -3,6 +3,7 @@
 
 DISTNAME=	amqplib-0.6
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
+PKGREVISION=	1
 CATEGORIES=	devel python
 MASTER_SITES=	http://pypi.python.org/packages/source/a/amqplib/
 EXTRACT_SUFX=	.tgz
