@@ -3,6 +3,7 @@
 
 DISTNAME=	pyfeyn-0.3.2
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME:S/^py//}
+PKGREVISION=	1
 CATEGORIES=	physics
 MASTER_SITES=	http://www.hepforge.org/archive/pyfeyn/
 
