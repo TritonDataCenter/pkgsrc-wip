@@ -3,6 +3,7 @@
 
 DISTNAME=	fs-0.1.0
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
+PKGREVISION=	1
 CATEGORIES=	devel python
 MASTER_SITES=	http://pyfilesystem.googlecode.com/files/
 
