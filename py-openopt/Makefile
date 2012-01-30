@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-VERSION=	0.31
+VERSION=	0.37
 DISTNAME=	OpenOpt
 EGG_NAME=	openopt-${VERSION}
 PKGNAME=	${PYPKGPREFIX}-${EGG_NAME}
@@ -18,6 +18,7 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 
 USE_LANGUAGES=	fortran
 PYTHON_VERSIONS_ACCEPTED= 26 25
+PLIST_SUBST+=	PYVERSSUFFIX=${PYVERSSUFFIX:Q}
 
 .include "../../lang/python/egg.mk"
 .include "../../math/py-numpy/buildlink3.mk"
