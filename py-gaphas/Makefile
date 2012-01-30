@@ -3,6 +3,7 @@
 
 DISTNAME=	gaphas-0.7.0
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
+PKGREVISION=	1
 CATEGORIES=	devel python
 MASTER_SITES=	http://pypi.python.org/packages/source/g/gaphas/
 
@@ -13,7 +14,7 @@ COMMENT=	Gaphas is a GTK+ based diagramming widget
 LICENSE=	gnu-lgpl-v2
 
 DEPENDS+=	${PYPKGPREFIX}-nose>=0.11.3:../../devel/py-nose
-DEPENDS+=	${PYPKGPREFIX}-decorator>=3.2.0:../../wip/py-decorator
+DEPENDS+=	${PYPKGPREFIX}-decorator>=3.2.0:../../devel/py-decorator
 DEPENDS+=	${PYPKGPREFIX}-simplegeneric>=0.7:../../wip/py-simplegeneric
 
 PKG_DESTDIR_SUPPORT=	user-destdir
