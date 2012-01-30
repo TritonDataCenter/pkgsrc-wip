@@ -13,7 +13,7 @@ COMMENT=	Symmetrical eigenvalue routines for NumPy
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
-USE_LANGUAGES=	c
+USE_LANGUAGES=	c fortran
 PYDISTUTILSPKG=	yes
 PYTHON_VERSIONS_ACCEPTED= 27 26 25 24
 
