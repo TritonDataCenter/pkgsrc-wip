@@ -3,6 +3,7 @@
 
 DISTNAME=	pypol-0.5
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
+PKGREVISION=	1
 CATEGORIES=	math
 MASTER_SITES=	http://garr.dl.sourceforge.net/project/pypol/pypol/0.5%20Eratosthenes/
 
@@ -17,5 +18,5 @@ USE_LANGUAGES=	# none
 PYDISTUTILSPKG=	yes
 
 .include "../../lang/python/extension.mk"
-.include "../../wip/py-gmpy/buildlink3.mk"
+.include "../../math/py-gmpy/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
