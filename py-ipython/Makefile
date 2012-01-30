@@ -3,7 +3,7 @@
 
 DISTNAME=	ipython-0.10
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
-PKGREVISION=	3
+PKGREVISION=	4
 CATEGORIES=	lang
 MASTER_SITES=	http://ipython.scipy.org/dist/
 
@@ -29,8 +29,8 @@ INSTALLATION_DIRS+=	man
 
 # Devel dependency section
 
-.include "../../devel/py-ctypes/buildlink3.mk"
-.include "../../devel/py-pexpect/buildlink3.mk"
+DEPENDS+=	${PYPKGPREFIX}-ctypes>=1.0.2:../../devel/py-ctypes
+DEPENDS+=	${PYPKGPREFIX}-pexpect>=2.3:../../devel/py-pexpect
 DEPENDS+=	${PYPKGPREFIX}-gobject>=2.18.0:../../devel/py-gobject
 DEPENDS+=	${PYPKGPREFIX}-readline>=0:../../devel/py-readline
 #DEPENDS+=	pydb>=1.26:../../wip/pydb
