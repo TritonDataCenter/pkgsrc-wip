@@ -24,8 +24,7 @@ PY_PATCHPLIST=		yes
 PYDISTUTILSPKG=		yes
 MAKE_ENV+=		PYVERSSUFFIX=${PYVERSSUFFIX:Q}
 PLIST_SUBST+=		PYVERSSUFFIX=${PYVERSSUFFIX:Q}
-t:
-	echo ${PYVERSSUFFIX:Q}
+
 .include "../../devel/py-game/buildlink3.mk"
 .include "../../math/py-Numeric/buildlink3.mk"
 .include "../../x11/py-Tk/buildlink3.mk"
