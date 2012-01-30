@@ -3,6 +3,7 @@
 
 DISTNAME=	uuid-1.30
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
+PKGREVISION=	1
 CATEGORIES=	net
 MASTER_SITES=	http://pypi.python.org/packages/source/u/uuid/
 EXTRACT_SUFX=	.tar.gz
@@ -14,11 +15,12 @@ COMMENT=	UUID object and generation functions
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
+DEPENDS+=	${PYPKGPREFIX}-ctypes>=1.0.2:../../devel/py-ctypes
+
 WRKSRC=		${WRKDIR}/uuid-1.30
 USE_LANGUAGES=	# none
 
 PYDISTUTILSPKG= yes
 
-.include "../../devel/py-ctypes/buildlink3.mk"
 .include "../../lang/python/extension.mk"
 .include "../../mk/bsd.pkg.mk"

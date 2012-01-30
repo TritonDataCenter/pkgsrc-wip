@@ -3,6 +3,7 @@
 
 DISTNAME=	mpi4py-1.2.1
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
+PKGREVISION=	1
 CATEGORIES=	parallel python
 MASTER_SITES=	http://mpi4py.googlecode.com/files/
 
@@ -12,6 +13,8 @@ COMMENT=	MPI for Python - Python bindings for MPI
 LICENSE=	modified-bsd
 
 PKG_DESTDIR_SUPPORT=	user-destdir
+
+DEPENDS+=	${PYPKGPREFIX}-ctypes>=1.0.2:../../devel/py-ctypes
 
 USE_LANGUAGES=	c c++
 PYDISTUTILSPKG= yes
@@ -24,7 +27,6 @@ INSTALLATION_DIRS+=	${DOCDIR}
 post-install:
 	${INSTALL_DATA} ${WRKSRC}/docs/mpi4py.pdf ${DESTDIR}${DOCDIR}
 
-.include "../../devel/py-ctypes/buildlink3.mk"
 .include "../../lang/python/extension.mk"
 .include "../../mk/mpi.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
