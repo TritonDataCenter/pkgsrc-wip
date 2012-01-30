@@ -3,6 +3,7 @@
 
 DISTNAME=	rlcompleter2-0.96
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
+PKGREVISION=	1
 CATEGORIES=	devel
 MASTER_SITES=	http://codespeak.net/rlcompleter2/download/
 
