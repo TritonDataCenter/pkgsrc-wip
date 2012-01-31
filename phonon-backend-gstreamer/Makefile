@@ -1,8 +1,8 @@
 # $NetBSD$
 
-DISTNAME=	phonon-backend-gstreamer-4.5.0
+DISTNAME=	phonon-backend-gstreamer-4.5.1
 CATEGORIES=	multimedia
-MASTER_SITES=	${MASTER_SITE_KDE:=phonon/phonon-backend-gstreamer/4.5.0/src/}
+MASTER_SITES=	${MASTER_SITE_KDE:=phonon/phonon-backend-gstreamer/4.5.1/src/}
 EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	markd@NetBSD.org

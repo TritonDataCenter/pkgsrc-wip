@@ -1,9 +1,9 @@
 # $NetBSD: Makefile,v 1.14 2011/01/13 13:36:53 wiz Exp $
 
-DISTNAME=	phonon-4.5.0
+DISTNAME=	phonon-4.5.1
 CATEGORIES=	multimedia
-MASTER_SITES=	${MASTER_SITE_KDE:=phonon/4.5.0/src/}
-EXTRACT_SUFX=	.tar.bz2
+MASTER_SITES=	${MASTER_SITE_KDE:=phonon/4.5.1/src/}
+EXTRACT_SUFX=	.tar.xz
 
 MAINTAINER=	markd@NetBSD.org
 HOMEPAGE=	http://phonon.kde.org
