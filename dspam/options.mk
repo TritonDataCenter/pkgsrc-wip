@@ -178,7 +178,7 @@ DSPAM_PSFLAGS?=		aux
 ###
 .if !empty(PKG_OPTIONS:Mclamav)
 CONFIGURE_ARGS+=	--enable-clamav
-.include "../../mail/clamav/buildlink3.mk"
+.include "../../security/clamav/buildlink3.mk"
 .endif
 
 ###

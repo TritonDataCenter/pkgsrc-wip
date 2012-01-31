@@ -8,7 +8,7 @@ MAINTAINER=	ura@jp.NetBSD.org
 HOMEPAGE=	http://jameslick.com/clamassassin/
 COMMENT=	Simple virus filter wrapper for ClamAV
 
-DEPENDS+=	clamav>=0.84:../../mail/clamav
+DEPENDS+=	clamav>=0.84:../../security/clamav
 DEPENDS+=	procmail>=3.22nb1:../../mail/procmail
 
 GNU_CONFIGURE=	yes
