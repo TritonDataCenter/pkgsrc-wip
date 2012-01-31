@@ -26,6 +26,5 @@ CONFIGURE_ARGS+=	--disable-opt
 
 PKGCONFIG_OVERRIDE+=	kyotocabinet.pc.in
 
-# XXX - has to rely on various compression librares?
-
+.include "../../devel/zlib/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
