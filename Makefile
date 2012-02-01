@@ -993,6 +993,7 @@ SUBDIR+=	hs-regions
 SUBDIR+=	hs-rosezipper
 SUBDIR+=	hs-rosezipper1
 SUBDIR+=	hs-safer-file-handles
+SUBDIR+=	hs-semigroupoids
 SUBDIR+=	hs-semigroups
 SUBDIR+=	hs-split
 SUBDIR+=	hs-stm
