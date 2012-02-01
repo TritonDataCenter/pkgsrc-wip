@@ -890,6 +890,7 @@ SUBDIR+=	hs-collections-api
 SUBDIR+=	hs-collections-base-instances
 SUBDIR+=	hs-colorize-haskell
 SUBDIR+=	hs-comonad
+SUBDIR+=	hs-comonad-transformers
 SUBDIR+=	hs-containers-unicode-symbols
 SUBDIR+=	hs-contravariant
 SUBDIR+=	hs-control-monad-failure
