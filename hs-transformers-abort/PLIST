@@ -1,0 +1,10 @@
+@comment $NetBSD$
+lib/transformers-abort-${PKGVERSION}/${HASKELL_VERSION}/Control/Monad/Trans/Abort.hi
+lib/transformers-abort-${PKGVERSION}/${HASKELL_VERSION}/Control/Monad/Trans/Abort.p_hi
+lib/transformers-abort-${PKGVERSION}/${HASKELL_VERSION}/Control/Monad/Trans/Finish.hi
+lib/transformers-abort-${PKGVERSION}/${HASKELL_VERSION}/Control/Monad/Trans/Finish.p_hi
+lib/transformers-abort-${PKGVERSION}/${HASKELL_VERSION}/HStransformers-abort-${PKGVERSION}.o
+lib/transformers-abort-${PKGVERSION}/${HASKELL_VERSION}/libHStransformers-abort-${PKGVERSION}.a
+lib/transformers-abort-${PKGVERSION}/${HASKELL_VERSION}/libHStransformers-abort-${PKGVERSION}_p.a
+lib/transformers-abort-${PKGVERSION}/${HASKELL_VERSION}/package-description
+share/doc/transformers-abort-${PKGVERSION}/LICENSE
