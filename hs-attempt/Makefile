@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	attempt-0.3.1.1
+DISTNAME=	attempt-0.4.0
 CATEGORIES=	devel
 
 MAINTAINER=	pho@cielonegro.org
