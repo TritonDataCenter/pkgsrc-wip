@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	failure-0.1.2
+DISTNAME=	failure-0.2.0
 CATEGORIES=	devel
 
 MAINTAINER=	pho@cielonegro.org
