@@ -1,0 +1,10 @@
+@comment $NetBSD$
+lib/pointed-${PKGVERSION}/${HASKELL_VERSION}/Data/Copointed.hi
+lib/pointed-${PKGVERSION}/${HASKELL_VERSION}/Data/Copointed.p_hi
+lib/pointed-${PKGVERSION}/${HASKELL_VERSION}/Data/Pointed.hi
+lib/pointed-${PKGVERSION}/${HASKELL_VERSION}/Data/Pointed.p_hi
+lib/pointed-${PKGVERSION}/${HASKELL_VERSION}/HSpointed-${PKGVERSION}.o
+lib/pointed-${PKGVERSION}/${HASKELL_VERSION}/libHSpointed-${PKGVERSION}.a
+lib/pointed-${PKGVERSION}/${HASKELL_VERSION}/libHSpointed-${PKGVERSION}_p.a
+lib/pointed-${PKGVERSION}/${HASKELL_VERSION}/package-description
+share/doc/pointed-${PKGVERSION}/LICENSE
