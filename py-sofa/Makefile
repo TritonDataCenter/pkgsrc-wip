@@ -7,7 +7,7 @@ PKGREVISION=	2
 CATEGORIES=	astronomy python
 MASTER_SITES=	http://pypi.python.org/packages/source/p/pysofa/
 
-MAINTAINER=	Ijihbed.research@gmail.com
+MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	http://code.google.com/p/pysofa/
 COMMENT=	Python ctypes wrapper around the SOFA astronomical library
 LICENSE=	mit
