@@ -2183,6 +2183,7 @@ SUBDIR+=	py-cscope
 SUBDIR+=	py-csp
 SUBDIR+=	py-cvf
 SUBDIR+=	py-cvxopt
+SUBDIR+=	py-cythongsl
 SUBDIR+=	py-daemon
 SUBDIR+=	py-dana
 SUBDIR+=	py-datarray
