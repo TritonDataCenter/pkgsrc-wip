@@ -1350,7 +1350,6 @@ SUBDIR+=	libmrss
 SUBDIR+=	libmusclecard
 SUBDIR+=	libneural
 SUBDIR+=	libnfo
-SUBDIR+=	liboauth
 SUBDIR+=	libode
 SUBDIR+=	liboglappth
 SUBDIR+=	libopenmodeller
