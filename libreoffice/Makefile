@@ -83,6 +83,7 @@ USE_TOOLS+=		automake bash bison gmake perl pkg-config unzip
 PTHREAD_OPTS+=		require
 
 HAS_CONFIGURE=		yes
+CHECK_PORTABILITY_SKIP=	configure
 
 CONFIGURE_ARGS+=	--prefix=${DESTDIR}${PREFIX}/${PKGNAME}
 CONFIGURE_ARGS+=	--disable-ccache
