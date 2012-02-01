@@ -978,6 +978,7 @@ SUBDIR+=	hs-parseargs
 SUBDIR+=	hs-parsec
 SUBDIR+=	hs-pathtype
 SUBDIR+=	hs-pcre-light
+SUBDIR+=	hs-pointed
 SUBDIR+=	hs-pointedlist
 SUBDIR+=	hs-pointedlist03
 SUBDIR+=	hs-primitive
