@@ -4,7 +4,7 @@
 DISTNAME=	pycsp-0.7.0
 EGG_NAME=	${DISTNAME}
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME:S/py//}
-PKGREVISION=	1
+PKGREVISION=	2
 CATEGORIES=	devel python
 MASTER_SITES=	http://pycsp.googlecode.com/files/
 
@@ -14,7 +14,6 @@ COMMENT=	PyCSP Python CSP Library
 LICENSE=	mit
 
 DEPENDS+=	${PYPKGPREFIX}-Pyro>=3.4:../../devel/py-Pyro
-DEPENDS+=	${PYPKGPREFIX}-ctypes>=1.0.2:../../devel/py-ctypes
 DEPENDS+=	${PYPKGPREFIX}-greenlet>=0.2:../../wip/py-greenlet
 DEPENDS+=	${PYPKGPREFIX}-uuid>=1.30:../../wip/py-uuid
 
@@ -30,4 +29,7 @@ post-install:
 		${DESTDIR}${EDGDIR}
 
 .include "../../lang/python/egg.mk"
+.if ${PYVERSSUFFIX} == "2.4"
+DEPENDS+=	${PYPKGPREFIX}-ctypes>=1.0.2:../../devel/py-ctypes
+.endif
 .include "../../mk/bsd.pkg.mk"

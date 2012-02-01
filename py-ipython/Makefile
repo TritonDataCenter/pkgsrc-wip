@@ -3,7 +3,7 @@
 
 DISTNAME=	ipython-0.10
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
-PKGREVISION=	4
+PKGREVISION=	5
 CATEGORIES=	lang
 MASTER_SITES=	http://ipython.scipy.org/dist/
 
@@ -29,7 +29,6 @@ INSTALLATION_DIRS+=	man
 
 # Devel dependency section
 
-DEPENDS+=	${PYPKGPREFIX}-ctypes>=1.0.2:../../devel/py-ctypes
 DEPENDS+=	${PYPKGPREFIX}-pexpect>=2.3:../../devel/py-pexpect
 DEPENDS+=	${PYPKGPREFIX}-gobject>=2.18.0:../../devel/py-gobject
 DEPENDS+=	${PYPKGPREFIX}-readline>=0:../../devel/py-readline
@@ -77,4 +76,7 @@ PLIST_SRC+=	PLIST
 PLIST_SRC+=	${PKGDIR}/PLIST.doc
 
 .include "../../lang/python/extension.mk"
+.if ${PYVERSSUFFIX} == "2.4"
+DEPENDS+=	${PYPKGPREFIX}-ctypes>=1.0.2:../../devel/py-ctypes
+.endif
 .include "../../mk/bsd.pkg.mk"

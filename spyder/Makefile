@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	spyder-2.1.6
-PKGREVISION=	1
+PKGREVISION=	2
 CATEGORIES=	devel python
 MASTER_SITES=	http://spyderlib.googlecode.com/files/
 EXTRACT_SUFX=	.zip
@@ -13,7 +13,6 @@ COMMENT=	Scientific Python Development Environment
 LICENSE=	mit
 
 ### Recommende dependency###
-DEPENDS+=	${PYPKGPREFIX}-ctypes>=1.0.2:../../devel/py-ctypes
 DEPENDS+=	${PYPKGPREFIX}-scipy>=0.7.2:../../math/py-scipy
 DEPENDS+=	${PYPKGPREFIX}-cElementTree-[0-9]*:../../textproc/py-cElementTree 
 DEPENDS+=	${PYPKGPREFIX}-sphinx>=1.0.7:../../textproc/py-sphinx
