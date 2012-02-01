@@ -2704,7 +2704,6 @@ SUBDIR+=	siptoolbox
 SUBDIR+=	sipwitch
 SUBDIR+=	sis
 SUBDIR+=	sjg-mk-files
-SUBDIR+=	ski
 SUBDIR+=	sks
 SUBDIR+=	slackpkg2pkgsrc
 SUBDIR+=	slashem
