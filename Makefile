@@ -889,6 +889,7 @@ SUBDIR+=	hs-chunks
 SUBDIR+=	hs-collections-api
 SUBDIR+=	hs-collections-base-instances
 SUBDIR+=	hs-colorize-haskell
+SUBDIR+=	hs-comonad
 SUBDIR+=	hs-containers-unicode-symbols
 SUBDIR+=	hs-control-monad-failure
 SUBDIR+=	hs-convertible
