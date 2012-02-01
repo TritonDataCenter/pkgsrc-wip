@@ -1137,8 +1137,12 @@ lib/fricas/target/${MACHINE_GNU_PLATFORM}/algebra/TUPLE.${FASL}
 lib/fricas/target/${MACHINE_GNU_PLATFORM}/algebra/TWOFACT.${FASL}
 lib/fricas/target/${MACHINE_GNU_PLATFORM}/algebra/TYPE.${FASL}
 lib/fricas/target/${MACHINE_GNU_PLATFORM}/algebra/TYPED.${FASL}
+lib/fricas/target/${MACHINE_GNU_PLATFORM}/algebra/U16MAT.${FASL}
+lib/fricas/target/${MACHINE_GNU_PLATFORM}/algebra/U16VEC.${FASL}
 lib/fricas/target/${MACHINE_GNU_PLATFORM}/algebra/U32MAT.${FASL}
 lib/fricas/target/${MACHINE_GNU_PLATFORM}/algebra/U32VEC.${FASL}
+lib/fricas/target/${MACHINE_GNU_PLATFORM}/algebra/U8MAT.${FASL}
+lib/fricas/target/${MACHINE_GNU_PLATFORM}/algebra/U8VEC.${FASL}
 lib/fricas/target/${MACHINE_GNU_PLATFORM}/algebra/UDPO.${FASL}
 lib/fricas/target/${MACHINE_GNU_PLATFORM}/algebra/UDVO.${FASL}
 lib/fricas/target/${MACHINE_GNU_PLATFORM}/algebra/UFD-.${FASL}
