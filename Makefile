@@ -908,6 +908,7 @@ SUBDIR+=	hs-deepseq
 SUBDIR+=	hs-dependent-sum
 SUBDIR+=	hs-derive
 SUBDIR+=	hs-digest
+SUBDIR+=	hs-distributive
 SUBDIR+=	hs-dlist
 SUBDIR+=	hs-double-conversion
 SUBDIR+=	hs-dyre
