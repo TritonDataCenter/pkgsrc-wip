@@ -12,6 +12,8 @@ PHP_VERSIONS_ACCEPTED=	53
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
+USE_PHP_EXT_PATCHES=	yes
+
 EGDIR=			${PREFIX}/share/examples/php
 CONF_FILES=		${EGDIR}/php-fpm.conf ${PKG_SYSCONFDIR}/php-fpm.conf
 AUTO_MKDIRS=		yes
