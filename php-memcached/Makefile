@@ -8,6 +8,7 @@ CATEGORIES+=		devel
 MAINTAINER=		filip@joyent.com
 HOMEPAGE=		http://github.com/andreiz/php-memcached
 COMMENT=		PHP extension for interfacing with memcached via libmemcached library
+LICENSE=		php
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
