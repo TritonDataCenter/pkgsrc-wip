@@ -1026,6 +1026,7 @@ SUBDIR+=	hs-unix-compat
 SUBDIR+=	hs-utf8-string
 SUBDIR+=	hs-utility-ht
 SUBDIR+=	hs-vector
+SUBDIR+=	hs-vector-bytestring
 SUBDIR+=	hs-vte
 SUBDIR+=	hs-vty
 SUBDIR+=	hs-x11
