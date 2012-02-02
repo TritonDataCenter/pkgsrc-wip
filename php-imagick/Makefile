@@ -13,9 +13,7 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 CONFLICTS=		php-imagick-[0-9]*
 
 USE_LANGUAGES=		c c++
-CONFIGURE_ARGS+=	--with-imagick=${BUILDLINK_DIR:Q}
-
-USE_PHP_EXT_PATCHES=	yes
+CONFIGURE_ARGS+=	--with-imagick=${BUILDLINK_PREFIX.ImageMagick}
 
 .include "../../graphics/ImageMagick/buildlink3.mk"
 .include "../../lang/php/ext.mk"
