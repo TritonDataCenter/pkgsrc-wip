@@ -2779,6 +2779,7 @@ SUBDIR+=	stmpclean
 SUBDIR+=	stonx
 SUBDIR+=	stumpwm
 SUBDIR+=	stunnel3
+SUBDIR+=	sudo
 SUBDIR+=	sudoscript
 SUBDIR+=	sugarCRM
 SUBDIR+=	sun-j2me
