@@ -1,6 +1,6 @@
 # $NetBSD$
 
-VER=			3.5.0.2
+VER=			3.5.0.3
 DISTNAME=		libreoffice-${VER}
 PKGNAME=		libreoffice-${VER:S/-//g}
 CATEGORIES=		misc
@@ -94,6 +94,7 @@ CONFIGURE_ARGS+=	--disable-neon
 CONFIGURE_ARGS+=	--disable-odk
 CONFIGURE_ARGS+=	--disable-opengl
 CONFIGURE_ARGS+=	--disable-postgresql-sdbc
+CONFIGURE_ARGS+=	--disable-strip-solver
 CONFIGURE_ARGS+=	--disable-systray
 CONFIGURE_ARGS+=	--with-alloc=system
 CONFIGURE_ARGS+=	--with-fonts
