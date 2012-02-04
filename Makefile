@@ -3001,6 +3001,7 @@ SUBDIR+=	virtualbox
 SUBDIR+=	virtualjaguar
 SUBDIR+=	virus
 SUBDIR+=	vis
+SUBDIR+=	vista-fonts
 SUBDIR+=	vkeybd
 SUBDIR+=	vlc
 SUBDIR+=	vlevel
