@@ -1,13 +1,16 @@
 # $NetBSD$
 
-DISTNAME=	pyzor-0.4.0
+DISTNAME=	pyzor-0.5.0
 CATEGORIES=	mail
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=pyzor/}
 EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	tom@replic8.net
-HOMEPAGE=	http://pyzor.sourceforge.net/
+HOMEPAGE=	http://sourceforge.net/apps/trac/pyzor/
 COMMENT=	Collaborative, networked system to detect and block spam
+LICENSE=	gnu-gpl-v2
+
+PKG_DESTDIR_SUPPORT=	user-destdir
 
 .if defined(PYZOR_USE_PYZORD) && !empty(PYZOR_USE_PYZORD:M[Yy][Ee][Ss])
 DEPENDS+=	${PYPKGPREFIX}-gdbm>=0nb1:../../databases/py-gdbm
