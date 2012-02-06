@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	mk-20110505
+DISTNAME=	mk-20111010
 PKGNAME=	${DISTNAME:S/mk/sjg-mk-files/}
 CATEGORIES=	devel
 MASTER_SITES=	http://crufty.net/ftp/pub/sjg/
@@ -20,9 +20,9 @@ NO_BUILD=	yes
 MKFILESDIR=		${PREFIX}/share/sjg-mk
 INSTALLATION_DIRS=	${MKFILESDIR}
 
+CHECK_INTERPRETER_SKIP+=	share/sjg-mk/meta2deps.py
+
 do-install:
 	cd ${WRKSRC} && ./install-mk ${DESTDIR}${MKFILESDIR}
 
 .include "../../mk/bsd.pkg.mk"
-
-#MAKE_PROGRAM=	bmake

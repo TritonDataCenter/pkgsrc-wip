@@ -35,6 +35,7 @@ share/sjg-mk/meta.autodep.mk
 share/sjg-mk/meta.stage.mk
 share/sjg-mk/meta.subdir.mk
 share/sjg-mk/meta.sys.mk
+share/sjg-mk/meta2deps.py
 share/sjg-mk/meta2deps.sh
 share/sjg-mk/nls.mk
 share/sjg-mk/obj.mk
