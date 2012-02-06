@@ -3,3 +3,4 @@ $NetBSD$
 SHA1 (libee-0.3.1.tar.gz) = cd282dbb3c68f90196948111ebfe49745f1c12b7
 RMD160 (libee-0.3.1.tar.gz) = 70ce0500891a92e3668a85de7c0c0cbcd1437c1f
 Size (libee-0.3.1.tar.gz) = 350704 bytes
+SHA1 (patch-include__libee__libee.h) = 017d978d0406f53507656a2f9b52d4d9152147b6
