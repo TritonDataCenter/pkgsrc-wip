@@ -1,4 +1,7 @@
 @comment $NetBSD$
+man/man1/riak-admin.1
+man/man1/riak.1
+man/man1/search-cmd.1
 riak/erts-5.8.5/bin/beam
 riak/erts-5.8.5/bin/beam.smp
 riak/erts-5.8.5/bin/child_setup

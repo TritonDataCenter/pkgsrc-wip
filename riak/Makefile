@@ -65,6 +65,11 @@ REPLACE_FILES.escript+=	${WRKDIR}/innostore-${INNOVER}/priv/innoload
 
 CHECK_PORTABILITY_SKIP+=	tests/riak_search/run_all.sh
 
+INSTALL_ENV+=		REPO=riak
+INSTALL_ENV+=		REVISION=${PKGVERSION_NOREV}
+INSTALL_ENV+=		OPSYS=${OPSYS}
+INSTALL_ENV+=		MACHINE_ARCH=${MACHINE_ARCH}
+
 post-extract:
 	${CHMOD} -R u=rwX,g=rX,o=rX ${WRKDIR}/innostore-${INNOVER}
 	cp ${FILESDIR}/disable_visibility_on_sun.patch \
