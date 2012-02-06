@@ -10,9 +10,8 @@ COMMENT=	Package manager for pkgsrc
 
 LICENSE=	2-clause-bsd
 
-GIT_MODULE=		pkgnih
-GIT_REPOSITORIES=	master
-GIT_REPO.master=	git://github.com/cheusov/pkgnih.git
+GIT_REPOSITORIES=	pkgnih
+GIT_REPO.pkgnih=	git://github.com/cheusov/pkgnih.git
 .include "../../wip/mk/git-package.mk"
 
 DEPENDS+=	pkg_summary-utils>=0.56.0:../../pkgtools/pkg_summary-utils
