@@ -24,7 +24,7 @@ BUILD_DEFS+=		VARBASE
 BUILD_DEPENDS+=		asciidoc-[0-9]*:../../textproc/asciidoc
 DEPENDS+=		${RUBY_PKGPREFIX}-rack-[0-9]*:../../www/ruby-rack
 
-.if empty(RUBY_VERSION_DEFAULT) || ${RUBY_VERSION_DEFAULT} == 18
+.if ${RUBY_VERSION_DEFAULT} == 18
 BUILD_DEPENDS+=		${RUBY_PKGPREFIX}-rake>=0.8.1:../../devel/rake
 DEPENDS+=		${RUBY_PKGPREFIX}-rubygems>=1.2.0:../../misc/rubygems
 .endif
