@@ -25,6 +25,7 @@ EXTRACT_ONLY+=		${INNOSTORE}
 
 .include "../../mk/bsd.prefs.mk"
 .include "options.mk"
+.include "../../lang/erlang/Makefile.versions"
 
 RIAK_USER?=		riak
 RIAK_GROUP?=		${RIAK_USER}
