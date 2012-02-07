@@ -12,8 +12,8 @@ LICENSE=		modified-bsd
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
-BUILD_DEPENDS+=		avr-binutils-[0-9]*:../../cross/avr-binutils
-BUILD_DEPENDS+=		avr-gcc-[0-9]*:../../cross/avr-gcc
+BUILD_DEPENDS+=		avr-binutils-[0-9]*:../../wip/avr-binutils
+BUILD_DEPENDS+=		avr-gcc-[0-9]*:../../wip/avr-gcc
 BUILD_DEPENDS+=		doxygen>=1.6.3nb1:../../devel/doxygen
 BUILD_DEPENDS+=		transfig-[0-9]*:../../print/transfig
 BUILD_DEPENDS+=		netpbm-[0-9]*:../../graphics/netpbm

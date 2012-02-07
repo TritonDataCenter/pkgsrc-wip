@@ -14,7 +14,7 @@ LICENSE=		gnu-gpl-v3
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
-DEPENDS+=		avr-binutils-[0-9]*:../../cross/avr-binutils
+DEPENDS+=		avr-binutils-[0-9]*:../../wip/avr-binutils
 
 .include "../../mk/bsd.prefs.mk"
 
