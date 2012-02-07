@@ -2,6 +2,7 @@
 
 DISTNAME=		passenger-3.0.11
 PKGNAME=		${APACHE_PKG_PREFIX}-${RUBY_PKGPREFIX}-${DISTNAME}
+PKGREVISION=		1
 CATEGORIES=		www
 
 MASTER_SITES=		http://rubyforge.org/frs/download.php/75548/
@@ -23,6 +24,8 @@ BUILD_DEFS+=		VARBASE
 
 BUILD_DEPENDS+=		asciidoc-[0-9]*:../../textproc/asciidoc
 DEPENDS+=		${RUBY_PKGPREFIX}-rack-[0-9]*:../../www/ruby-rack
+
+.include "../../lang/ruby/rubyversion.mk"
 
 .if ${RUBY_VERSION_DEFAULT} == 18
 BUILD_DEPENDS+=		${RUBY_PKGPREFIX}-rake>=0.8.1:../../devel/rake
