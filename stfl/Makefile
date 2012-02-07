@@ -6,7 +6,7 @@ DISTNAME=	stfl-${MAJOR}.${MINOR}
 CATEGORIES=	devel
 MASTER_SITES=	http://www.clifford.at/stfl/
 
-MAINTAINER=	pkgsrc-users@netbsd.org
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.clifford.at/stfl/
 COMMENT=	Library which implements a curses-based widget set for text terminals
 LICENSE=	gnu-lgpl-v3
