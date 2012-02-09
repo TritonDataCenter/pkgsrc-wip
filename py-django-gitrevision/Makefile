@@ -4,7 +4,7 @@
 DISTNAME=	django-gitrevision-0.1.4
 EGG_NAME=	django_gitrevision
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
-PKGREVISION=	1
+PKGREVISION=	2
 CATEGORIES=	devel python
 MASTER_SITES=	http://pypi.python.org/packages/source/d/django-gitrevision/
 
@@ -24,7 +24,6 @@ USE_LANGUAGES=	# none
 
 PYTHON_VERSIONS_ACCEPTED= 31 27 26 25
 
-PLIST_SUBST+=	PKGVERSION_NOREV=${PKGVERSION_NOREV}
 PLIST_SUBST+=	PYVERSSUFFIX=${PYVERSSUFFIX}
 
 .include "../../lang/python/egg.mk"

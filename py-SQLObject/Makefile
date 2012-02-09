@@ -3,6 +3,7 @@
 
 DISTNAME=	SQLObject-0.12.2.tar
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME:S/.tar//}
+PKGREVISION=	2
 CATEGORIES=	databases python
 MASTER_SITES=	http://pypi.python.org/packages/source/S/SQLObject/
 EXTRACT_SUFX=	.gz
@@ -19,6 +20,7 @@ USE_LANGUAGES=	# none
 
 PY_PATCHPLIST=		yes
 PYDISTUTILSPKG=		yes
+PLIST_SUBST+=		PYVERSSUFFIX=${PYVERSSUFFIX:Q}
 
 .include "options.mk"
 
