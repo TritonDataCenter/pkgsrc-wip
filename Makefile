@@ -1439,6 +1439,7 @@ SUBDIR+=	lorder
 SUBDIR+=	lpdsrv
 SUBDIR+=	lrslib
 SUBDIR+=	lsw
+SUBDIR+=	lsyncd
 SUBDIR+=	ltrace
 SUBDIR+=	lua-BitOp
 SUBDIR+=	lua-filesystem
