@@ -1,0 +1,10 @@
+@comment $NetBSD$
+bin/lsyncd
+man/man1/lsyncd.1
+share/doc/lsyncd/lbash.lua
+share/doc/lsyncd/lecho.lua
+share/doc/lsyncd/lgforce.lua
+share/doc/lsyncd/limagemagic.lua
+share/doc/lsyncd/lpostcmd.lua
+share/doc/lsyncd/lrsync.lua
+share/doc/lsyncd/lrsyncssh.lua
