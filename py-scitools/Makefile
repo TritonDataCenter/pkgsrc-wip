@@ -3,7 +3,7 @@
 
 DISTNAME=	scitools-0.7
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
-PKGREVISION=	1
+PKGREVISION=	2
 CATEGORIES=	science python
 MASTER_SITES=	http://scitools.googlecode.com/files/
 

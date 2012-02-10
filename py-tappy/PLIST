@@ -1,9 +1,9 @@
 @comment $NetBSD$
-bin/tappy2.6
-${PYSITELIB}/tappy-0.8.3-py2.6.egg-info/PKG-INFO
-${PYSITELIB}/tappy-0.8.3-py2.6.egg-info/SOURCES.txt
-${PYSITELIB}/tappy-0.8.3-py2.6.egg-info/dependency_links.txt
-${PYSITELIB}/tappy-0.8.3-py2.6.egg-info/top_level.txt
+bin/tappy${PYVERSSUFFIX}
+${PYSITELIB}/tappy-${PKGVERSION}-py${PYVERSSUFFIX}.egg-info/PKG-INFO
+${PYSITELIB}/tappy-${PKGVERSION}-py${PYVERSSUFFIX}.egg-info/SOURCES.txt
+${PYSITELIB}/tappy-${PKGVERSION}-py${PYVERSSUFFIX}.egg-info/dependency_links.txt
+${PYSITELIB}/tappy-${PKGVERSION}-py${PYVERSSUFFIX}.egg-info/top_level.txt
 ${PYSITELIB}/tappy_lib/__init__.py
 ${PYSITELIB}/tappy_lib/__init__.pyc
 ${PYSITELIB}/tappy_lib/__init__.pyo

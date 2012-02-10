@@ -4,6 +4,7 @@
 DISTNAME=	BIP-0.5.4
 EGG_NAME=	${DISTNAME}
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME:S/BIP/bip/}
+PKGREVISION=	1
 CATEGORIES=	math python
 MASTER_SITES=	http://pypi.python.org/packages/source/B/BIP/
 
@@ -19,10 +20,11 @@ DEPENDS+=	${PYPKGPREFIX}-openopt>=0.31:../../wip/py-openopt
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
-WRKSRC=		${WRKDIR}/BIP-0.5.4
 USE_LANGUAGES=	# none
 
 INSTALLATION_DIRS=	share/doc/py-bip/html
+
+PLIST_SUBST+=	PYVERSSUFFIX=${PYVERSSUFFIX}
 
 post-install:
 	${INSTALL_DATA} ${WRKSRC}/html/* ${DESTDIR}${PREFIX}/share/doc/py-bip/html

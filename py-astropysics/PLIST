@@ -1,11 +1,11 @@
 @comment $NetBSD$
 bin/fitsinfo
 bin/spylot
-${PYSITELIB}/Astropysics-0.1.dev-py2.6.egg-info/PKG-INFO
-${PYSITELIB}/Astropysics-0.1.dev-py2.6.egg-info/SOURCES.txt
-${PYSITELIB}/Astropysics-0.1.dev-py2.6.egg-info/dependency_links.txt
-${PYSITELIB}/Astropysics-0.1.dev-py2.6.egg-info/requires.txt
-${PYSITELIB}/Astropysics-0.1.dev-py2.6.egg-info/top_level.txt
+${PYSITELIB}/Astropysics-${PKGVERSION}.dev-py${PYVERSSUFFIX}.egg-info/PKG-INFO
+${PYSITELIB}/Astropysics-${PKGVERSION}.dev-py${PYVERSSUFFIX}.egg-info/SOURCES.txt
+${PYSITELIB}/Astropysics-${PKGVERSION}.dev-py${PYVERSSUFFIX}.egg-info/dependency_links.txt
+${PYSITELIB}/Astropysics-${PKGVERSION}.dev-py${PYVERSSUFFIX}.egg-info/requires.txt
+${PYSITELIB}/Astropysics-${PKGVERSION}.dev-py${PYVERSSUFFIX}.egg-info/top_level.txt
 ${PYSITELIB}/astropysics/__init__.py
 ${PYSITELIB}/astropysics/__init__.pyc
 ${PYSITELIB}/astropysics/__init__.pyo

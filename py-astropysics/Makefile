@@ -2,8 +2,8 @@
 #
 
 DISTNAME=	Astropysics-0.1.dev-r596
-PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
-PKGREVISION=	1
+PKGNAME=	${PYPKGPREFIX}-Astropysics-0.1
+PKGREVISION=	2
 CATEGORIES=	physics
 MASTER_SITES=	http://pypi.python.org/packages/source/A/Astropysics/
 
@@ -18,8 +18,9 @@ DEPENDS+=	${PYPKGPREFIX}-pyfits>=2.3.1:../../graphics/py-pyfits
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
-WRKSRC=		${WRKDIR}/Astropysics-0.1.dev-r596
+#WRKSRC=		${WRKDIR}/Astropysics-0.1.dev-r596
 USE_LANGUAGES=	# none
+PLIST_SUBST+=	PYVERSSUFFIX=${PYVERSSUFFIX}
 
 .include "../../graphics/py-matplotlib/buildlink3.mk"
 .include "../../math/py-numpy/buildlink3.mk"

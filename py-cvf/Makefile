@@ -2,9 +2,9 @@
 #
 
 DISTNAME=	pycvf-0.2.0
-EGG_NAME=	pycvf-0.2.0
+EGG_NAME=	${DISTNAME}
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME:S/py//}
-PKGREVISION=	2
+PKGREVISION=	3
 CATEGORIES=	graphics python
 MASTER_SITES=	http://master.dl.sourceforge.net/project/pycvf/0.2/
 
@@ -22,6 +22,7 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 
 USE_LANGUAGES=	# none
 
+PLIST_SUBST+=	PYVERSSUFFIX=${PYVERSSUFFIX}
 
 BUILDLINK_API_DEPENDS.pycython+= ${PYPKGPREFIX}-cython>=0.12.1
 .include "../../devel/py-cython/buildlink3.mk"

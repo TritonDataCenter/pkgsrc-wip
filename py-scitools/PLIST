@@ -1,7 +1,7 @@
 @comment $NetBSD$
-bin/pyreport2.6
-bin/scitools2.6
-${PYSITELIB}/SciTools-0.7-py2.6.egg-info
+bin/pyreport${PYVERSSUFFIX}
+bin/scitools${PYVERSSUFFIX}
+${PYSITELIB}/SciTools-${PKGVERSION}-py${PYVERSSUFFIX}.egg-info
 ${PYSITELIB}/scitools/BoxField.py
 ${PYSITELIB}/scitools/BoxField.pyc
 ${PYSITELIB}/scitools/BoxField.pyo

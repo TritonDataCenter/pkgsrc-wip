@@ -2,8 +2,8 @@
 #
 
 DISTNAME=	python-igraph-0.5.3
-PKGNAME=	${PYPKGPREFIX}-igraph-0.5.3
-PKGREVISION=	1
+PKGNAME=	${PYPKGPREFIX}-${DISTNAME:S|python-||}
+PKGREVISION=	2
 CATEGORIES=	graphics math python
 MASTER_SITES=	http://pypi.python.org/packages/source/p/python-igraph/
 
@@ -16,6 +16,7 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 
 PYTHON_VERSIONS_ACCEPTED= 27 26 25 24
 
+PLIST_SUBST+=	PYVERSSUFFIX=${PYVERSSUFFIX}
 
 .include "../../graphics/py-cairo/buildlink3.mk"
 .include "../../lang/python/egg.mk"

@@ -3,7 +3,7 @@
 
 DISTNAME=	srpy-0.2.3
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
-PKGREVISION=	1
+PKGREVISION=	2
 CATEGORIES=	devel python
 MASTER_SITES=	http://srpy.googlecode.com/files/
 EXTRACT_SUFX=	.zip

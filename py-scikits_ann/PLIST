@@ -1,11 +1,11 @@
 @comment $NetBSD$
-${PYSITELIB}/scikits.ann-0.2.dev_r803-py2.6-nspkg.pth
-${PYSITELIB}/scikits.ann-0.2.dev_r803-py2.6.egg-info/PKG-INFO
-${PYSITELIB}/scikits.ann-0.2.dev_r803-py2.6.egg-info/SOURCES.txt
-${PYSITELIB}/scikits.ann-0.2.dev_r803-py2.6.egg-info/dependency_links.txt
-${PYSITELIB}/scikits.ann-0.2.dev_r803-py2.6.egg-info/namespace_packages.txt
-${PYSITELIB}/scikits.ann-0.2.dev_r803-py2.6.egg-info/requires.txt
-${PYSITELIB}/scikits.ann-0.2.dev_r803-py2.6.egg-info/top_level.txt
+${PYSITELIB}/scikits.ann-${PYPKGVERSION}-py${PYVERSSUFFIX}-nspkg.pth
+${PYSITELIB}/scikits.ann-${PYPKGVERSION}-py${PYVERSSUFFIX}.egg-info/PKG-INFO
+${PYSITELIB}/scikits.ann-${PYPKGVERSION}-py${PYVERSSUFFIX}.egg-info/SOURCES.txt
+${PYSITELIB}/scikits.ann-${PYPKGVERSION}-py${PYVERSSUFFIX}.egg-info/dependency_links.txt
+${PYSITELIB}/scikits.ann-${PYPKGVERSION}-py${PYVERSSUFFIX}.egg-info/namespace_packages.txt
+${PYSITELIB}/scikits.ann-${PYPKGVERSION}-py${PYVERSSUFFIX}.egg-info/requires.txt
+${PYSITELIB}/scikits.ann-${PYPKGVERSION}-py${PYVERSSUFFIX}.egg-info/top_level.txt
 ${PYSITELIB}/scikits/__init__.py
 ${PYSITELIB}/scikits/ann/ANN.py
 ${PYSITELIB}/scikits/ann/ANN.pyc
