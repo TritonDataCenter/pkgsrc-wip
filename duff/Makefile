@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	duff-0.5
+DISTNAME=	duff-0.5.2
 CATEGORIES=	sysutils
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=duff/}
 EXTRACT_SUFX=	.tar.bz2
