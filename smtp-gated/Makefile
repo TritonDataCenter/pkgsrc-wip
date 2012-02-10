@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		smtp-gated-1.4.16.2
+DISTNAME=		smtp-gated-1.4.18.8
 # PKGNAME=		${DISTNAME:S/-rc/rc/}
 CATEGORIES=		mail
 MASTER_SITES=		http://smtp-proxy.klolik.org/files/
@@ -54,4 +54,5 @@ post-install:
 	${INSTALL_DATA_DIR} ${DESTDIR}${EGDIR}
 	${INSTALL_DATA} ${WRKDIR}/smtp-gated.conf ${DESTDIR}${EGDIR}
 
+.include "../../mail/libspf2/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
