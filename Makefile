@@ -3143,7 +3143,6 @@ SUBDIR+=	yafray
 SUBDIR+=	yajl
 SUBDIR+=	yakuake
 SUBDIR+=	yauap
-SUBDIR+=	yaws
 SUBDIR+=	yelp-tools
 SUBDIR+=	yelp-xsl
 SUBDIR+=	yersinia
