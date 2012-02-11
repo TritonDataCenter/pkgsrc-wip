@@ -1,5 +1,5 @@
 @comment $NetBSD$
-bin/AIGO-gui.py2.7
+bin/AIGO-gui.py${PYVERSSUFFIX}
 ${PYSITELIB}/AIGO/Analyse.py
 ${PYSITELIB}/AIGO/Analyse.pyc
 ${PYSITELIB}/AIGO/Analyse.pyo

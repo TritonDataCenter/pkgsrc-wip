@@ -3,6 +3,7 @@
 
 DISTNAME=	AIGO-0.1.0
 PKGNAME=	${PYPKGPREFIX}-aigo-0.1.0
+PKGREVISION=	1
 CATEGORIES=	www
 MASTER_SITES=	http://pypi.python.org/packages/source/A/AIGO/
 
@@ -13,11 +14,13 @@ LICENSE=	gnu-gpl-v3
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
+CONFLICTS=	 ${PYPKGPREFIX}-creole-[0-9]*
+
 PYDISTUTILSPKG=	yes
 PLIST_SUBST+=	PYVERSSUFFIX=${PYVERSSUFFIX}
 
 post-extract:
-	${MV} ${WRKSRC}/bin/AIGO-gui.py ${WRKSRC}/bin/algio-gui.py${PYVERSSUFFIX}
+	${MV} ${WRKSRC}/bin/AIGO-gui.py ${WRKSRC}/bin/AIGO-gui.py${PYVERSSUFFIX}
 
 do-test:
 	${RUN} cd ${WRKSRC}/tests; ${SETENV} ${TEST_ENV} ${PYTHONBIN} testAIGO.py
