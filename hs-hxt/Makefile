@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	hxt-9.1.4
+DISTNAME=	hxt-9.2.0
 CATEGORIES=	textproc
 
 MAINTAINER=	pho@cielonegro.org
@@ -14,6 +14,7 @@ LICENSE=	mit
 .include "../../wip/hs-hxt-charproperties/buildlink3.mk"
 .include "../../wip/hs-hxt-regex-xmlschema/buildlink3.mk"
 .include "../../wip/hs-hxt-unicode/buildlink3.mk"
+.include "../../wip/hs-mtl/buildlink3.mk"
 .include "../../wip/hs-network/buildlink3.mk"
 .include "../../wip/hs-parsec/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
