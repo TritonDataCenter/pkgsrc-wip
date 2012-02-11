@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	unix-compat-0.2.2
+DISTNAME=	unix-compat-0.3.0.1
 CATEGORIES=	devel
 
 MAINTAINER=	pho@cielonegro.org
