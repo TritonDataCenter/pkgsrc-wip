@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	zlib-0.5.3.1
+DISTNAME=	zlib-0.5.3.3
 CATEGORIES=	archivers
 
 MAINTAINER=	pho@cielonegro.org
