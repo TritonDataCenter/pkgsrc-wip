@@ -1,11 +1,10 @@
 # $NetBSD$
 #
 
-DISTNAME=	syb-0.3.3
+DISTNAME=	syb-0.3.6
 CATEGORIES=	devel
 
 MAINTAINER=	pho@cielonegro.org
-HOMEPAGE=	http://www.cs.uu.nl/wiki/GenericProgramming/SYB
 COMMENT=	Haskell "Scrap Your Boilerplate" Library
 LICENSE=	modified-bsd
 
