@@ -24,6 +24,10 @@ lib/parsec-${PKGVERSION}/${HASKELL_VERSION}/Text/Parsec/Prim.hi
 lib/parsec-${PKGVERSION}/${HASKELL_VERSION}/Text/Parsec/Prim.p_hi
 lib/parsec-${PKGVERSION}/${HASKELL_VERSION}/Text/Parsec/String.hi
 lib/parsec-${PKGVERSION}/${HASKELL_VERSION}/Text/Parsec/String.p_hi
+lib/parsec-${PKGVERSION}/${HASKELL_VERSION}/Text/Parsec/Text.hi
+lib/parsec-${PKGVERSION}/${HASKELL_VERSION}/Text/Parsec/Text.p_hi
+lib/parsec-${PKGVERSION}/${HASKELL_VERSION}/Text/Parsec/Text/Lazy.hi
+lib/parsec-${PKGVERSION}/${HASKELL_VERSION}/Text/Parsec/Text/Lazy.p_hi
 lib/parsec-${PKGVERSION}/${HASKELL_VERSION}/Text/Parsec/Token.hi
 lib/parsec-${PKGVERSION}/${HASKELL_VERSION}/Text/Parsec/Token.p_hi
 lib/parsec-${PKGVERSION}/${HASKELL_VERSION}/Text/ParserCombinators/Parsec.hi
