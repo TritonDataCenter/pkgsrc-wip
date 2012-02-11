@@ -950,6 +950,7 @@ SUBDIR+=	hs-html
 SUBDIR+=	hs-hxt
 SUBDIR+=	hs-hxt-charproperties
 SUBDIR+=	hs-hxt-regex-xmlschema
+SUBDIR+=	hs-hxt-relaxng
 SUBDIR+=	hs-hxt-unicode
 SUBDIR+=	hs-hxt-xpath
 SUBDIR+=	hs-iconv
