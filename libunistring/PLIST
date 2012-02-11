@@ -18,7 +18,6 @@ include/unistring/woe32dll.h
 include/unitypes.h
 include/uniwbrk.h
 include/uniwidth.h
-lib/charset.alias
 lib/libunistring.la
 share/doc/libunistring/libunistring_1.html
 share/doc/libunistring/libunistring_10.html

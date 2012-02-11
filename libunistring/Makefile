@@ -14,4 +14,6 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 
 GNU_CONFIGURE=	yes
 
+.include "../../converters/libiconv/buildlink3.mk"
+
 .include "../../mk/bsd.pkg.mk"
