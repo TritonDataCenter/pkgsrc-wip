@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	hxt-xpath-9.1.1
+DISTNAME=	hxt-xpath-9.1.2
 CATEGORIES=	textproc
 
 MAINTAINER=	pho@cielonegro.org
