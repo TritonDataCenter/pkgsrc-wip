@@ -11,8 +11,8 @@ BUILD_DEPENDS+=		rsync>=3.0:../../net/rsync
 BUILD_DEPENDS+=		autogen>=5.9:../../devel/autogen
 
 DISTFILES?=		# empty
-BZR_REPOSITORY=		http://bzr.savannah.gnu.org/r/grub/trunk/grub
-BZR_REVISION=		3424
+BZR_REPOSITORY=		bzr://bzr.savannah.gnu.org/grub/trunk/grub
+BZR_REVISION=		3921
 
 pre-extract: do-bzr-extract
 
