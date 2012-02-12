@@ -4,7 +4,7 @@
 DISTNAME=	pycvf-0.2.0
 EGG_NAME=	${DISTNAME}
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME:S/py//}
-PKGREVISION=	3
+PKGREVISION=	4
 CATEGORIES=	graphics python
 MASTER_SITES=	http://master.dl.sourceforge.net/project/pycvf/0.2/
 

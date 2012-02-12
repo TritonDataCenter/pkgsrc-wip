@@ -4,7 +4,7 @@
 DISTNAME=	PsychoPy-1.61.01
 EGG_NAME=	${DISTNAME}
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME:S/PsychoPy/pyschopy/}
-PKGREVISION=	3
+PKGREVISION=	4
 CATEGORIES=	biology python
 MASTER_SITES=	http://psychopy.googlecode.com/files/
 EXTRACT_SUFX=	.zip

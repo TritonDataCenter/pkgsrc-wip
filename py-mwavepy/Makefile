@@ -4,7 +4,7 @@
 DISTNAME=	mwavepy-1.0
 EGG_NAME=	${DISTNAME}
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
-PKGREVISION=	1
+PKGREVISION=	2
 CATEGORIES=	science
 MASTER_SITES=	http://mwavepy.googlecode.com/files/
 

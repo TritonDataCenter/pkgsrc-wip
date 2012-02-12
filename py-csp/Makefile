@@ -4,7 +4,7 @@
 DISTNAME=	pycsp-0.7.0
 EGG_NAME=	${DISTNAME}
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME:S/py//}
-PKGREVISION=	3
+PKGREVISION=	4
 CATEGORIES=	devel python
 MASTER_SITES=	http://pycsp.googlecode.com/files/
 
