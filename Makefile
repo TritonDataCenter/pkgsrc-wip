@@ -2274,7 +2274,6 @@ SUBDIR+=	py-igraph
 SUBDIR+=	py-imgSeek
 SUBDIR+=	py-ipaddr
 SUBDIR+=	py-ipython
-SUBDIR+=	py-itstool
 SUBDIR+=	py-jabber-aimt
 SUBDIR+=	py-jabber-icqt
 SUBDIR+=	py-jabber-msnt
