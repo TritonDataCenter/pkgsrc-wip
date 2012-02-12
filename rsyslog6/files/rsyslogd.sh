@@ -17,7 +17,6 @@ rcvar=$name
 command="@PREFIX@/sbin/${name}"
 pidfile="/var/run/${name}.pid"
 required_files="@PKG_SYSCONFDIR@/rsyslog.conf"
-start_precmd="rsyslogd_precmd"
 extra_commands="reload"
 
 load_rc_config $name
