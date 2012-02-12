@@ -22,8 +22,6 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 
 USE_LANGUAGES=	# none
 
-PLIST_SUBST+=	PYVERSSUFFIX=${PYVERSSUFFIX}
-
 BUILDLINK_API_DEPENDS.pycython+= ${PYPKGPREFIX}-cython>=0.12.1
 .include "../../devel/py-cython/buildlink3.mk"
 .include "../../graphics/py-imaging/buildlink3.mk"

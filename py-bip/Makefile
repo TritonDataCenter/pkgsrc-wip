@@ -24,8 +24,6 @@ USE_LANGUAGES=	# none
 
 INSTALLATION_DIRS=	share/doc/py-bip/html
 
-PLIST_SUBST+=	PYVERSSUFFIX=${PYVERSSUFFIX}
-
 post-install:
 	${INSTALL_DATA} ${WRKSRC}/html/* ${DESTDIR}${PREFIX}/share/doc/py-bip/html
 

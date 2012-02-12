@@ -19,8 +19,6 @@ DEPENDS+=	${PYPKGPREFIX}-uuid>=1.30:../../wip/py-uuid
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
-PLIST_SUBST+=		PYVERSSUFFIX=${PYVERSSUFFIX}
-
 EDGDIR=	${PREFIX}/share/examples/py-csp
 
 post-install:

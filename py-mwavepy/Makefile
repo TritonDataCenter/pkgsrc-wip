@@ -21,8 +21,6 @@ USE_LANGUAGES=	# none
 
 PYTHON_VERSIONS_ACCEPTED= 26 25
 
-PLIST_SUBST+=	PYVERSSUFFIX=${PYVERSSUFFIX}
-
 .include "../../graphics/py-matplotlib/buildlink3.mk"
 .include "../../lang/python/egg.mk"
 .include "../../math/py-numpy/buildlink3.mk"
