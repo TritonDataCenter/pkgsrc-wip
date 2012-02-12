@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	liblognorm-0.3.1
+DISTNAME=	liblognorm-0.3.3
 CATEGORIES=	devel
 MASTER_SITES=	http://www.liblognorm.com/files/download/
 
@@ -17,6 +17,9 @@ USE_LIBTOOL=	yes
 USE_TOOLS+=	pkg-config
 
 PKGCONFIG_OVERRIDE+=	lognorm.pc.in
+
+do-build:
+	cd ${WRKSRC} && ${MAKE}
 
 .include "../../wip/libee/buildlink3.mk"
 .include "../../wip/libestr/buildlink3.mk"
