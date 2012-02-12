@@ -21,6 +21,7 @@ ${PYSITELIB}/pygraphviz/tests/layout_draw.txt
 ${PYSITELIB}/pygraphviz/tests/test.py
 ${PYSITELIB}/pygraphviz/tests/test.pyc
 ${PYSITELIB}/pygraphviz/tests/test.pyo
+${PYSITELIB}/pygraphviz/tests/unicode.txt
 ${PYSITELIB}/pygraphviz/version.py
 ${PYSITELIB}/pygraphviz/version.pyc
 ${PYSITELIB}/pygraphviz/version.pyo
@@ -32,3 +33,4 @@ share/doc/pygraphviz-${PKGVERSION}/examples/miles.py
 share/doc/pygraphviz-${PKGVERSION}/examples/simple.py
 share/doc/pygraphviz-${PKGVERSION}/examples/star.py
 share/doc/pygraphviz-${PKGVERSION}/examples/subgraph.py
+share/doc/pygraphviz-${PKGVERSION}/examples/utf8_encoding.py

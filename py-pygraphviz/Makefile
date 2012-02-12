@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-VERS=			1.0
+VERS=			1.1
 DISTNAME=		pygraphviz-${VERS}
 PKGNAME=		${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=		graphics
