@@ -15,13 +15,12 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 GNU_CONFIGURE=		yes
 CONFIGURE_ARGS+=	--disable-testbench
 
+MAKE_JOBS_SAFE=		no
+
 USE_LIBTOOL=		yes
 USE_TOOLS+=		bash pkg-config
 
 PKGCONFIG_OVERRIDE+=	libee.pc.in
-
-do-build:
-	cd ${WRKSRC} && ${MAKE}
 
 .include "../../wip/libestr/buildlink3.mk"
 .include "../../textproc/libxml2/buildlink3.mk"

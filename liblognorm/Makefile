@@ -13,13 +13,13 @@ LICENSE=	gnu-gpl-v2
 PKG_DESTDIR_SUPPORT=	user-destdir
 
 GNU_CONFIGURE=	yes
+
+MAKE_JOBS_SAFE=	no
+
 USE_LIBTOOL=	yes
 USE_TOOLS+=	pkg-config
 
 PKGCONFIG_OVERRIDE+=	lognorm.pc.in
-
-do-build:
-	cd ${WRKSRC} && ${MAKE}
 
 .include "../../wip/libee/buildlink3.mk"
 .include "../../wip/libestr/buildlink3.mk"
