@@ -27,4 +27,5 @@ LIBS.SunOS+=	-ldladm
 .include "../../devel/boost-libs/buildlink3.mk"
 .include "../../devel/libevent/buildlink3.mk"
 .include "../../security/libssh2/buildlink3.mk"
+.include "../../www/curl/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
