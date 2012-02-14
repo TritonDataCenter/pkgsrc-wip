@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	Lucu-0.7.0.3
+PKGREVISION=	1
 CATEGORIES=	www
 
 MAINTAINER=	pho@cielonegro.org
