@@ -25,6 +25,8 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 GNU_CONFIGURE=	yes
 USE_TOOLS+=	automake autoreconf
 
+LDFLAGS.SunOS+=	-lsocket -lnsl
+
 pre-configure:
 	cd ${WRKSRC} && autoreconf -i
 
