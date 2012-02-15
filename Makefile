@@ -516,6 +516,7 @@ SUBDIR+=	emerald-themes
 SUBDIR+=	emirror
 SUBDIR+=	emovix
 SUBDIR+=	enet
+SUBDIR+=	engauge-digitizer
 SUBDIR+=	enigma2000
 SUBDIR+=	enigmail
 SUBDIR+=	ent
