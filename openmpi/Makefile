@@ -1,7 +1,7 @@
 # $NetBSD$
 
-DISTNAME=	openmpi-1.5.5rc2r25719
-PKGNAME=	openmpi-1.5.4.25719
+DISTNAME=	openmpi-1.5.5rc1
+#PKGNAME=	openmpi-1.5.4.25719
 CATEGORIES=	parallel
 MASTER_SITES=	http://www.open-mpi.org/software/ompi/v1.5/downloads/ \
 		http://www.open-mpi.org/nightly/v1.5/
@@ -39,6 +39,13 @@ USE_TOOLS+=		perl:run
 .include "options.mk"
 
 TEST_TARGET=	check
+
+CONF_FILES+=		share/vampirtrace/VampirTrace/examples/vt-java-default-filter.spec \
+			$(PKG_SYSCONFDIR)/vt-java-default-filter.spec
+CONF_FILES+=		share/vampirtrace/VampirTrace/examples/vt-setup-config.dtd \
+			$(PKG_SYSCONFDIR)/vt-setup-config.dtd
+CONF_FILES+=		share/vampirtrace/VampirTrace/examples/vt-setup-config.xml \
+			$(PKG_SYSCONFDIR)/vt-setup-config.xml
 
 # USE_TOOLS+=	aclocal autoconf automake bash perl
 # REPLACE_BASH=	autogen.sh
