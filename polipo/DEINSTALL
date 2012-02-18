@@ -4,8 +4,6 @@ VARBASE="@VARBASE@"
 
 case ${STAGE} in
 DEINSTALL)
-	cd ${VARBASE}/cache/polipo && ${RM} -rf *
-	${RMDIR} ${VARBASE}/cache/polipo 2>/dev/null || ${TRUE}
 	if [ -d ${VARBASE}/cache/polipo ]; then
 	  echo "If you won't use the POLIPO package anymore, remove the cache manually by"
 	  echo "     rm -rf ${VARBASE}/cache/polipo"
