@@ -3,7 +3,6 @@
 
 VERS=			4.5.0
 DISTNAME=		eric4-${VERS}
-PKGREVISION=		3
 CATEGORIES=		devel
 MASTER_SITES=	http://downloads.sourceforge.net/project/eric-ide/eric4/stable/${VERS}/
 
