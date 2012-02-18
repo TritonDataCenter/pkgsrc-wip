@@ -2,7 +2,8 @@
 #
 
 DISTNAME=		polipo-1.0.4
-CATEGORIES=		www wip
+PKGREVISION=		1
+CATEGORIES=		www
 MASTER_SITES=		http://www.pps.jussieu.fr/~jch/software/files/polipo/
 MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://www.pps.jussieu.fr/~jch/software/polipo/
