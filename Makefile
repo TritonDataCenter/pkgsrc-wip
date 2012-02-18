@@ -2605,6 +2605,7 @@ SUBDIR+=	redland
 SUBDIR+=	reduze
 SUBDIR+=	regexxer
 SUBDIR+=	reinteract
+SUBDIR+=	rejik
 SUBDIR+=	rekall
 SUBDIR+=	relaydb
 SUBDIR+=	remctl
