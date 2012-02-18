@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	Net-Delicious-1.13
+DISTNAME=	Net-Delicious-1.14
 PKGNAME=	p5-${DISTNAME}
 CATEGORIES=	net perl5
 MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=Net/}
