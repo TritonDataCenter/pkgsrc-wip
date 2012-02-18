@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	B-Deobfuscate-0.10
+DISTNAME=	B-Deobfuscate-0.20
 PKGNAME=	p5-${DISTNAME}
 CATEGORIES=	devel perl5
 MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=B/}
@@ -8,9 +8,12 @@ MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=B/}
 MAINTAINER=	kuli0020@umn.edu
 HOMEPAGE=	http://search.cpan.org/dist/B-Deobfuscate/
 COMMENT=	Extension to B::Deparse for use in de-obfuscating source code
+LICENSE=	${PERL5_LICENSE}
 
 DEPENDS+=	p5-YAML>=0:../../textproc/p5-YAML
 DEPENDS+=	p5-B-Keywords>=0.03:../../devel/p5-B-Keywords
+
+PKG_DESTDIR_SUPPORT=	user-destdir
 
 PERL5_PACKLIST=	auto/B/Deobfuscate/.packlist
 
