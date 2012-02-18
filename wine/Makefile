@@ -1,6 +1,7 @@
 # $NetBSD: Makefile,v 1.25 2011/11/01 06:11:54 sbd Exp $
 
-DISTNAME=	wine-1.3.34
+DISTNAME=	wine-1.4-rc4
+PKGNAME=	wine-1.4rc4
 #PKGREVISION=	1
 CATEGORIES=	emulators
 MASTER_SITES=	http://ibiblio.org/pub/linux/system/emulators/wine/ \
@@ -55,6 +56,8 @@ CONFIGURE_ENV+=		ac_cv_prog_LD=${LD:Q}\ -m\ elf_i386
 #CONFIGURE_ARGS+=	--enable-win64
 #.endif
 
+#CONFIGURE_ARGS+=	--without-pthread
+
 .include "options.mk"
 
 post-install:
@@ -70,9 +73,9 @@ post-install:
 .include "../../security/gnutls/buildlink3.mk"
 .include "../../textproc/libxslt/buildlink3.mk"
 .include "../../textproc/libxml2/buildlink3.mk"
+.include "../../sysutils/desktop-file-utils/desktopdb.mk"
 .include "../../mk/giflib.buildlink3.mk"
 .include "../../mk/jpeg.buildlink3.mk"
 .include "../../mk/oss.buildlink3.mk"
 .include "../../mk/pthread.buildlink3.mk"
-.include "../../sysutils/desktop-file-utils/desktopdb.mk"
 .include "../../mk/bsd.pkg.mk"
