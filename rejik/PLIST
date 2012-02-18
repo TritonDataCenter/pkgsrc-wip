@@ -1,0 +1,9 @@
+@comment $NetBSD$
+bin/rejik-make-cache
+bin/rejik
+share/examples/rejik/redirector.conf.dist
+libexec/rejik/IN.gz
+libexec/rejik/benchmark
+libexec/rejik/check-redirector
+libexec/rejik/kill-cache
+libexec/rejik/set-permissions
