@@ -4,7 +4,7 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 
 .include "../../wip/xfce48/Makefile.common"
 
-DISTNAME=		xfce4-panel-4.8.5
+DISTNAME=		xfce4-panel-4.8.6
 CATEGORIES=		x11
 COMMENT=		Xfce panel
 
