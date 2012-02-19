@@ -11,6 +11,7 @@ COMMENT=	Xfce client-server configuration storage and query system
 
 XFCE4_PROJECT=  xfconf
 XFCE4_BRANCH=   4.8
+XFCE4_VERSION=	4.8.1
 
 PKGCONFIG_OVERRIDE=	xfconf/libxfconf-0.pc.in
 
