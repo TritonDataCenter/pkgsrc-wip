@@ -5,7 +5,7 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 .include "../../wip/xfce48/Makefile.common"
 
 DISTNAME=	garcon-${XFCE4_VERSION}
-XFCE4_VERSION=	0.1.5
+XFCE4_VERSION=	0.1.9
 CATEGORIES=	x11
 COMMENT=	Xfce menu library
 
@@ -22,5 +22,5 @@ CONF_FILES=     ${EGDIR}/xfce-applications.menu \
 
 MAKE_DIRS+=	${PKG_SYSCONFDIR}/menus
 
-#.include "../../wip/libxfce4util/buildlink3.mk"
+.include "../../wip/libxfce4util/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
