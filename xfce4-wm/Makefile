@@ -4,7 +4,7 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 
 .include "../../wip/xfce48/Makefile.common"
 
-XFWM_VER=	4.8.1
+XFWM_VER=	4.8.3
 
 DISTNAME=	xfwm4-${XFWM_VER}
 PKGNAME=	xfce4-wm-${XFWM_VER}
