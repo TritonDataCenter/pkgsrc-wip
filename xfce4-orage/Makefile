@@ -4,7 +4,7 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 
 .include "../../wip/xfce48/Makefile.common"
 
-ORAGE_VERSION=	4.8.1
+ORAGE_VERSION=	4.8.3
 
 DISTNAME=	orage-${ORAGE_VERSION}
 PKGNAME=	xfce4-orage-${ORAGE_VERSION}
