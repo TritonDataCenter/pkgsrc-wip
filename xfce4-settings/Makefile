@@ -4,7 +4,7 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 
 .include "../../wip/xfce48/Makefile.common"
 
-SETTINGS_VERSION=	4.8.2
+SETTINGS_VERSION=	4.8.3
 
 DISTNAME=		xfce4-settings-${SETTINGS_VERSION}
 #PKGREVISION=		1
