@@ -11,6 +11,7 @@ COMMENT=	Xfce widget library
 
 XFCE4_PROJECT=  libxfce4ui
 XFCE4_BRANCH=   4.8
+XFCE4_VERSION=	4.8.1
 
 PKGCONFIG_OVERRIDE=	libxfce4kbd-private/libxfce4kbd-private-2.pc.in
 PKGCONFIG_OVERRIDE+=	libxfce4ui/libxfce4ui-1.pc.in
