@@ -4,7 +4,7 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 
 .include "../../wip/xfce48/Makefile.common"
 
-UTILS_VERSION=	4.8.2
+UTILS_VERSION=	4.8.3
 
 DISTNAME=	xfce-utils-${UTILS_VERSION}
 PKGNAME=	xfce4-utils-${UTILS_VERSION}
