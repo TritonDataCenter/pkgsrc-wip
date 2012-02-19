@@ -5,7 +5,7 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 .include "../../wip/xfce48/Makefile.common"
 
 DISTNAME=	libxfce4util-${XFCE4_VERSION}
-XFCE4_VERSION=	4.8.1
+XFCE4_VERSION=	4.8.2
 CATEGORIES=	x11
 COMMENT=	Xfce basic library
 
