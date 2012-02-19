@@ -6,6 +6,7 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 
 DISTNAME=	thunar-vcs-plugin-0.1.4
 PKGNAME=	xfce4-${DISTNAME}
+PKGREVISION=	1
 CATEGORIES=	devel
 MASTER_SITES=	http://www.xfce.org/archive/src/thunar-plugins/thunar-vcs-plugin/0.1/
 EXTRACT_SUFX=	.tar.bz2
