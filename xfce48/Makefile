@@ -27,19 +27,21 @@ COMMENT=	Xfce
 .include "../../wip/xfce4-appfinder/buildlink3.mk"
 .include "../../wip/xfce4-utils/buildlink3.mk"
 .include "../../wip/xfce4-terminal/buildlink3.mk"
-.include "../../wip/xfce4-quicklauncher-plugin/buildlink3.mk"
-.include "../../wip/xfce4-notes-plugin/buildlink3.mk"
-.include "../../wip/xfce4-fsguard-plugin/buildlink3.mk"
+#.include "../../wip/xfce4-quicklauncher-plugin/buildlink3.mk"
+#.include "../../wip/xfce4-notes-plugin/buildlink3.mk"
+#.include "../../wip/xfce4-fsguard-plugin/buildlink3.mk"
 .include "../../wip/xfce4-mousepad/buildlink3.mk"
 .include "../../wip/xfce4-orage/buildlink3.mk"
 .include "../../wip/xfce4-mixer/buildlink3.mk"
-.include "../../wip/ristretto/buildlink3.mk"
+.include "../../wip/xfce4-screenshooter-plugin/buildlink3.mk"
+#.include "../../wip/ristretto/buildlink3.mk"
 .include "../../graphics/gnome-icon-theme/buildlink3.mk"
 .include "../../graphics/xfce4-icon-theme/buildlink3.mk"
+.include "../../graphics/tango-icon-theme/buildlink3.mk"
 
 # Might be added to the xfce4-extras
-.include "../../wip/xfce4-screenshooter-plugin/buildlink3.mk"
-.include "../../wip/xfce4-wm-themes/buildlink3.mk"
+#.include "../../wip/xfce4-screenshooter-plugin/buildlink3.mk"
+#.include "../../wip/xfce4-wm-themes/buildlink3.mk"
 
 # Old links
 #   kept for reference
@@ -63,4 +65,5 @@ COMMENT=	Xfce
 #.include "../../x11/xfce4-terminal/buildlink3.mk"
 #.include "../../x11/xfce4-utils/buildlink3.mk"
 
+DEPENDS+=	tumbler:../../wip/xfce4-tumbler
 .include "../../mk/bsd.pkg.mk"
