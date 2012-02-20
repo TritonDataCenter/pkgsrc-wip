@@ -4,7 +4,8 @@
 DISTNAME=		logrotate-3.8.1
 #PKGREVISION=		1
 CATEGORIES=		sysutils
-MASTER_SITES=		${MASTER_SITE_GENTOO:=distfiles/}
+MASTER_SITES=		https://fedorahosted.org/releases/l/o/logrotate/
+MASTER_SITES+=		${MASTER_SITE_GENTOO:=distfiles/}
 MASTER_SITES+=		${MASTER_SITE_FREEBSD:=distfiles/}
 
 MAINTAINER=		ahp-nils@users.sourceforge.net
