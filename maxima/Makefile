@@ -37,6 +37,8 @@ WRKSRC=		${WRKDIR}/maxima
 
 USE_TOOLS+=		aclocal automake autoconf
 
+CONFIGURE_ENV+=		VERSION=$(PKGVERSION_NOREV) ac_cv_prog_git_found=false
+
 SUBST_CLASSES+=			fix-version
 SUBST_STAGE.fix-version=	post-patch
 SUBST_MESSAGE.fix-version=	Fixing package version.
