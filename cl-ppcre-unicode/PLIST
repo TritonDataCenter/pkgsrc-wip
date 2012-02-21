@@ -52,3 +52,4 @@ ${CL}${CL_PATH}cl-ppcre-unicode/util.${EXT}
 ${CL}${CL_PATH}cl-ppcre-unicode/util.lisp
 ${ECL}${CL_PATH}cl-ppcre-unicode.asd
 ${ECL}${CL_PATH}cl-ppcre-unicode.fas
+${ECL}${CL_PATH}libcl-ppcre-unicode.a

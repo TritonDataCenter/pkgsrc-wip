@@ -1,10 +1,13 @@
 @comment $NetBSD$
 ${ECL}${CL_PATH}cffi-grovel.asd
 ${ECL}${CL_PATH}cffi-grovel.fas
+${ECL}${CL_PATH}libcffi-grovel.a
 ${ECL}${CL_PATH}cffi-uffi-compat.asd
 ${ECL}${CL_PATH}cffi-uffi-compat.fas
+${ECL}${CL_PATH}libcffi-uffi-compat.a
 ${ECL}${CL_PATH}cffi.asd
 ${ECL}${CL_PATH}cffi.fas
+${ECL}${CL_PATH}libcffi.a
 ${CL}${CL_PATH}cffi/Makefile
 ${CL}${CL_PATH}cffi/cffi-examples.asd
 ${CL}${CL_PATH}cffi/cffi-grovel.asd

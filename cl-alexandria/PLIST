@@ -1,6 +1,7 @@
 @comment $NetBSD$
 ${ECL}${CL_PATH}alexandria.asd
 ${ECL}${CL_PATH}alexandria.fas
+${ECL}${CL_PATH}libalexandria.a
 ${CL}${CL_PATH}alexandria/alexandria-tests.asd
 ${CL}${CL_PATH}alexandria/alexandria.asd
 ${CL}${CL_PATH}alexandria/arrays.${EXT}

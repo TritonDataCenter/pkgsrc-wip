@@ -1,6 +1,7 @@
 @comment $NetBSD$
 ${ECL}${CL_PATH}cl-ppcre.asd
 ${ECL}${CL_PATH}cl-ppcre.fas
+${ECL}${CL_PATH}libcl-ppcre.a
 ${CL}${CL_PATH}cl-ppcre/api.${EXT}
 ${CL}${CL_PATH}cl-ppcre/api.lisp
 ${CL}${CL_PATH}cl-ppcre/charmap.${EXT}

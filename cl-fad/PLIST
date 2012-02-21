@@ -1,6 +1,7 @@
 @comment $NetBSD$
 ${ECL}${CL_PATH}cl-fad.asd
 ${ECL}${CL_PATH}cl-fad.fas
+${ECL}${CL_PATH}libcl-fad.a
 ${CL}${CL_PATH}cl-fad/cl-fad.asd
 ${CL}${CL_PATH}cl-fad/cl-fad.system
 ${CL}${CL_PATH}cl-fad/corman.lisp

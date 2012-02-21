@@ -1,6 +1,7 @@
 @comment $NetBSD$
 ${ECL}${CL_PATH}cl-who.asd
 ${ECL}${CL_PATH}cl-who.fas
+${ECL}${CL_PATH}libcl-who.a
 ${CL}${CL_PATH}cl-who/cl-who.asd
 ${CL}${CL_PATH}cl-who/packages.${EXT}
 ${CL}${CL_PATH}cl-who/packages.lisp

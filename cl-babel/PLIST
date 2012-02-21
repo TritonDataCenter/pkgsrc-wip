@@ -46,8 +46,10 @@ ${CL}${CL_PATH}babel/tests/utf-8.txt
 ${CL}${CL_PATH}babel/tests/utf-8.txt-utf8
 ${ECL}${CL_PATH}babel-streams.asd
 ${ECL}${CL_PATH}babel-streams.fas
+${ECL}${CL_PATH}libbabel-streams.a
 ${ECL}${CL_PATH}babel.asd
 ${ECL}${CL_PATH}babel.fas
+${ECL}${CL_PATH}libbabel.a
 share/doc/${LISP}-babel/COPYRIGHT
 share/doc/${LISP}-babel/HEADER
 share/doc/${LISP}-babel/NOTES

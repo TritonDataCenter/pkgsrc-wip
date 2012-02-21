@@ -11,6 +11,7 @@ ${CL}${CL_PATH}anaphora/symbolic.lisp
 ${CL}${CL_PATH}anaphora/tests.lisp
 ${ECL}${CL_PATH}anaphora.asd
 ${ECL}${CL_PATH}anaphora.fas
+${ECL}${CL_PATH}libanaphora.a
 ${SBCL}${CL_PATH}anaphora/anaphora.fasl
 ${SBCL}${CL_PATH}anaphora/early.fasl
 ${SBCL}${CL_PATH}anaphora/packages.fasl

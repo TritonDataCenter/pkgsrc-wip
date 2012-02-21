@@ -1,6 +1,7 @@
 @comment $NetBSD$
 ${ECL}${CL_PATH}trivial-features.asd
 ${ECL}${CL_PATH}trivial-features.fas
+${ECL}${CL_PATH}libtrivial-features.a
 ${CL}${CL_PATH}trivial-features/SPEC
 ${CL}${CL_PATH}trivial-features/release.sh
 ${CL}${CL_PATH}trivial-features/src/tf-abcl.lisp

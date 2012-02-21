@@ -1,6 +1,7 @@
 @comment $NetBSD$
 ${ECL}${CL_PATH}cl-unicode.asd
 ${ECL}${CL_PATH}cl-unicode.fas
+${ECL}${CL_PATH}libcl-unicode.a
 ${CL}${CL_PATH}cl-unicode/alias.${EXT}
 ${CL}${CL_PATH}cl-unicode/alias.lisp
 ${CL}${CL_PATH}cl-unicode/api.${EXT}

@@ -1,6 +1,7 @@
 @comment $NetBSD$
 ${ECL}${CL_PATH}bordeaux-threads.asd
 ${ECL}${CL_PATH}bordeaux-threads.fas
+${ECL}${CL_PATH}libbordeaux-threads.a
 ${CL}${CL_PATH}bordeaux-threads/bordeaux-threads-test.asd
 ${CL}${CL_PATH}bordeaux-threads/bordeaux-threads.asd
 ${CL}${CL_PATH}bordeaux-threads/src/bordeaux-threads.${EXT}

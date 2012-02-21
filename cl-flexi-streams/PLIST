@@ -1,6 +1,7 @@
 @comment $NetBSD$
 ${ECL}${CL_PATH}flexi-streams.asd
 ${ECL}${CL_PATH}flexi-streams.fas
+${ECL}${CL_PATH}libflexi-streams.a
 ${CL}${CL_PATH}flexi-streams/ascii.${EXT}
 ${CL}${CL_PATH}flexi-streams/ascii.lisp
 ${CL}${CL_PATH}flexi-streams/code-pages.${EXT}

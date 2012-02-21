@@ -1,6 +1,7 @@
 @comment $NetBSD$
 ${ECL}${CL_PATH}split-sequence.asd
 ${ECL}${CL_PATH}split-sequence.fas
+${ECL}${CL_PATH}libsplit-sequence.a
 ${CL}${CL_PATH}split-sequence/README.cCLan-install
 ${CL}${CL_PATH}split-sequence/split-sequence.asd
 ${CL}${CL_PATH}split-sequence/split-sequence.${EXT}
