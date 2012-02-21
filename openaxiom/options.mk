@@ -62,7 +62,7 @@ PRINT_PLIST_AWK+=	{if ($$0 ~ /\/bin\/${_file_}$$/) {$$0 = "$${x11}" $$0;}}
 .for _file_ in hypertex spadbuf view2D view3D viewman
 PRINT_PLIST_AWK+=	{if ($$0 ~ /\/lib\/${_file_}$$/) {$$0 = "$${x11}" $$0;}}
 .endfor
-PRINT_PLIST_AWK+=	{if ($$0 ~ /\/graph\/[^/]*\.ps$$/) {$$0 = "$${x11}" $$0;}}
+PRINT_PLIST_AWK+=	{if ($$0 ~ /\/graph\/[^\/]*\.ps$$/) {$$0 = "$${x11}" $$0;}}
 .endif
 
 .for opt in clisp sbcl ecl x11
