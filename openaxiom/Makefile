@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		open-axiom-1.3.0
-PKGNAME=		openaxiom-1.3.99	# VCS-based
+PKGNAME=		openaxiom-1.99	# VCS-based
 CATEGORIES=		math
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=open-axiom/}
 EXTRACT_SUFX=		.tar.bz2
