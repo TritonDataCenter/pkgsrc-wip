@@ -1,1 +1,3 @@
 @comment $NetBSD$
+include/syn68k_public.h
+lib/libsyn68k.a
