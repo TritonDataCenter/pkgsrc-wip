@@ -2,7 +2,6 @@
 #
 
 DISTNAME=	trollop-1.15
-PKGNAME=	${RUBY_PKGPREFIX}-${DISTNAME}
 CATEGORIES=	devel
 
 MAINTAINER=	pho@cielonegro.org
