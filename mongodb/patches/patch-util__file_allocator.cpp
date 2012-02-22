@@ -1,9 +1,11 @@
---- util/file_allocator.h.orig	2010-12-08 09:33:20.000000000 -0500
-+++ util/file_allocator.h	2011-02-13 19:18:39.000000000 -0500
-@@ -18,7 +18,7 @@
- #include "../pch.h"
+$NetBSD$
+
+--- util/file_allocator.cpp.orig	2011-12-14 17:18:48.000000000 +0000
++++ util/file_allocator.cpp
+@@ -19,7 +19,7 @@
  #include <fcntl.h>
  #include <errno.h>
+ 
 -#if defined(__freebsd__) || defined(__openbsd__)
 +#if defined(__freebsd__) || defined(__netbsd__) || defined(__openbsd__)
  #include <sys/stat.h>
