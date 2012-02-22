@@ -22,4 +22,4 @@ include/libee/value.h
 include/libee/valuetype.h
 lib/libee.la
 lib/pkgconfig/libee.pc
-sbin/convert
+sbin/libee-convert

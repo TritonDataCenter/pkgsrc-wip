@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		libee-0.3.2
+DISTNAME=		libee-0.4.0
 CATEGORIES=		sysutils
 MASTER_SITES=		http://www.libee.org/files/download/
 
