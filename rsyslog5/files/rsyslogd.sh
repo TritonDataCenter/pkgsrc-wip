@@ -17,14 +17,17 @@ rcvar=$name
 command="@PREFIX@/sbin/${name}"
 pidfile="@VARBASE@/run/${name}.pid"
 required_files="@PKG_SYSCONFDIR@/rsyslog.conf"
-start_precmd="rsyslogd_precmd"
+start_precmd="rsyslogd_start_precmd"
+start_postcmd="rsyslogd_start_postcmd"
+stop_postcmd="rsyslogd_stop_postcmd"
 extra_commands="reload"
 
-rsyslogd_flags="-c 5"
+: ${rsyslogd_flags:=-c 5}
+: ${rsyslogd_link_syslogd_pid:=no}
 
 _sockfile="@VARBASE@/run/rsyslogd.sockets"
 
-rsyslogd_precmd()
+rsyslogd_start_precmd()
 {
 	#	Transitional symlink for old binaries
 	#
@@ -54,6 +57,22 @@ rsyslogd_precmd()
 	echo "\$SystemLogSocketName @VARBASE@/run/log" >> $_sockfile
 
 	return 0
+}
+
+rsyslogd_start_postcmd()
+{
+	if checkyesno rsyslogd_link_syslogd_pid
+	then
+		ln -f ${pidfile} @VARBASE@/run/syslogd.pid
+	fi
+}
+
+rsyslogd_stop_postcmd()
+{
+	if checkyesno rsyslogd_link_syslogd_pid
+	then
+		rm -f @VARBASE@/run/syslogd.pid
+	fi
 }
 
 load_rc_config $name
