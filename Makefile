@@ -2647,6 +2647,7 @@ SUBDIR+=	ruby-git
 SUBDIR+=	ruby-teamocil
 SUBDIR+=	ruby-term-ansicolor
 SUBDIR+=	ruby-trollop
+SUBDIR+=	ruby-yaml_waml
 SUBDIR+=	ruby-xmpp4r
 SUBDIR+=	runit
 SUBDIR+=	s3cmd
