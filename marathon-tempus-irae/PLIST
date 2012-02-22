@@ -378,6 +378,3 @@ share/doc/marathon-tempus-irae/Read Me First.txt
 share/doc/marathon-tempus-irae/Shots Fired Read Me.txt
 share/doc/marathon-tempus-irae/Tempus_Irae_Read_Me.pdf
 share/doc/marathon-tempus-irae/The_Lost_Levels_Read_Me.pdf
-@pkgdir share/AlephOne/Scenarios/TempusIrae/docs
-@pkgdir share/AlephOne/Scenarios/TempusIrae/Tracks
-@pkgdir share/AlephOne/Scenarios/TempusIrae/Extras
