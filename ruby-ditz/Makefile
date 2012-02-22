@@ -19,7 +19,7 @@ WRKSRC=				${WRKDIR}/${GIT_MODULE.ruby19}
 .else
 GIT_REPOSITORIES=	mainline
 GIT_REPO.mainline=	git://gitorious.org/ditz/mainline.git
-WRKSRC=				${WRKDIR}/${GIT_REPO.mainline}
+WRKSRC=				${WRKDIR}/${GIT_MODULE.mainline}
 .endif
 
 GEM_SPECFILE=	${WRKSRC}/ditz.gemspec
