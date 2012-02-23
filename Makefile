@@ -2025,6 +2025,7 @@ SUBDIR+=	php-http
 SUBDIR+=	php-igbinary
 SUBDIR+=	php-imagick
 SUBDIR+=	php-memcached
+SUBDIR+=	php-mongo
 SUBDIR+=	php-oauth
 SUBDIR+=	php-recode
 SUBDIR+=	php-suhosin
