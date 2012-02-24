@@ -1734,7 +1734,6 @@ SUBDIR+=	openttd-openmsx
 SUBDIR+=	openttd-opensfx
 SUBDIR+=	openvrml
 SUBDIR+=	opera
-SUBDIR+=	opera-devel
 SUBDIR+=	oqtplayer
 SUBDIR+=	or1ksim
 SUBDIR+=	orion
