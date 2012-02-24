@@ -10,7 +10,7 @@ SITES.gcc-4.7-20120211.tar.bz2= \
 
 EXTRACT_SUFX=		.tar.bz2
 
-MAINTAINER=		kuehro@gmx.de
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://gcc.gnu.org/
 COMMENT=		GNU Compiler Collection 4.7
 LICENSE=		gnu-gpl-v2 AND gnu-gpl-v3 AND gnu-lgpl-v2 AND gnu-lgpl-v3
