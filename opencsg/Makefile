@@ -1,6 +1,7 @@
 # $NetBSD$
 #
 
+PKGNAME=	opencsg-1.3.2
 DISTNAME=	OpenCSG-1.3.2
 CATEGORIES=	wip
 MASTER_SITES=	http://www.opencsg.org/
