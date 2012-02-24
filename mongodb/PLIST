@@ -12,6 +12,7 @@ bin/mongosniff
 bin/mongostat
 bin/mongotop
 share/doc/mongodb/README
+share/examples/rc.d/mongodb
 include/mongo/bson/bson-inl.h
 include/mongo/bson/bson.h
 include/mongo/bson/bson_db.h
