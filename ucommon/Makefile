@@ -22,7 +22,6 @@ CMAKE_ARGS=	-DINSTALL_MANDIR=${PKGMANDIR}
 PKGCONFIG_OVERRIDE+=	commoncpp.pc.in
 PKGCONFIG_OVERRIDE+=	ucommon.pc.in
 
-
 .include "../../security/libgcrypt/buildlink3.mk"
 .include "../../wip/commoncpp2/buildlink3.mk"
 .include "../../devel/gettext-lib/buildlink3.mk"
