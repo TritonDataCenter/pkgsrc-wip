@@ -24,4 +24,6 @@ do-install:
 
 .include "../../mk/x11.buildlink3.mk"
 .include "../../graphics/glew/buildlink3.mk"
+.include "../../graphics/MesaLib/buildlink3.mk"
+.include "../../x11/libXmu/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
