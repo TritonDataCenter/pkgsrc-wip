@@ -17,6 +17,8 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 BUILD_DEPENDS+=	automoc4>=0.9.87:../../devel/automoc4
 BUILD_DEPENDS+=	libxslt-[0-9]*:../../textproc/libxslt
 
+.include "options.mk"
+
 USE_TOOLS+=	pkg-config
 USE_LANGUAGES=	c c++
 USE_CMAKE=	yes
