@@ -55,8 +55,15 @@ PY_PATCHPLIST=	yes
 .include "../../mk/bsd.prefs.mk"
 .include "options.mk"
 
+PLIST_VARS+=	utempter noutempter
+.if ${OPSYS} == "Linux"
+PLIST.utempter=		yes
+.else
+PLIST.noutempter=	yes
+.endif
+
 SUBST_CLASSES+=		paths
-SUBST_FILES.paths=	kcontrol/kdm/main.cpp
+SUBST_FILES.paths=	kdm/kcm/main.cpp
 SUBST_SED.paths=	-e 's,@PKG_SYSCONFDIR@,${PKG_SYSCONFDIR},g'
 SUBST_STAGE.paths=	post-patch
 
