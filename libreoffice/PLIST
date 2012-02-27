@@ -232,6 +232,7 @@ ${PKGNAME}/program/libmsfilterlo.so
 ${PKGNAME}/program/libmswordlo.so
 ${PKGNAME}/program/libmsworkslo.so
 ${PKGNAME}/program/libmysqllo.so
+${PKGNAME}/program/libnpsoplugin.so
 ${PKGNAME}/program/libodbcbaselo.so
 ${PKGNAME}/program/libodbclo.so
 ${PKGNAME}/program/libodfflatxmllo.so
@@ -332,6 +333,7 @@ ${PKGNAME}/program/migrationoo3.uno.so
 ${PKGNAME}/program/msforms.uno.so
 ${PKGNAME}/program/msgbox.py
 ${PKGNAME}/program/mtfrenderer.uno.so
+${PKGNAME}/program/nsplugin
 ${PKGNAME}/program/officehelper.py
 ${PKGNAME}/program/oosplash
 ${PKGNAME}/program/open-url
