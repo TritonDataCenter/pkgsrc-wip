@@ -10,15 +10,17 @@ HOMEPAGE=	http://crrcsim.berlios.de/wiki/
 COMMENT=	Crrcsim is a model-airplane flight simulation program
 LICENSE=	gnu-gpl-v2
 
+#USE_TOOLS+=	gmake
+
 PKG_DESTDIR_SUPPORT=	user-destdir
+
+CONFGURE_ARGS+=	--with-GLU
 
 GNU_CONFIGURE=	yes
 USE_LANGUAGES=	c c++
 
-# No pkgsrc package, yet
-##.include "../../math/cgal/buildlink3.mk"
-##.include "../../devel/boost-libs/buildlink3.mk"
-
+.include "../../math/cgal/buildlink3.mk"
+.include "../../graphics/glu/buildlink3.mk"
 .include "../../audio/portaudio/buildlink3.mk"
 .include "../../games/plib/buildlink3.mk"
 .include "../../devel/SDL/buildlink3.mk"
