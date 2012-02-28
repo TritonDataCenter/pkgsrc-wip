@@ -15,7 +15,7 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 GNU_CONFIGURE=	yes
 
 BUILD_DEFS+=            VARBASE
-OWN_DIRS_PERMS+=         ${VARBASE}/db/downtimed ${ROOT_USER} ${ROOT_GROUP} 0755
+OWN_DIRS+=         ${VARBASE}/db/downtimed ${ROOT_USER} ${ROOT_GROUP}
 RCD_SCRIPTS+=	downtimed
 
 .include "../../mk/bsd.pkg.mk"
