@@ -7,7 +7,7 @@ $NetBSD$
  
  
 -#if defined(USE_LINENOISE) && !defined(__freebsd__) && !defined(__openbsd__) && !defined(_WIN32)
-+#if defined(USE_LINENOISE) && !defined(__freebsd__) && !defined(__netbsd) && !defined(__openbsd__) && !defined(_WIN32)
++#if defined(USE_LINENOISE) && !defined(__freebsd__) && !defined(__netbsd__) && !defined(__openbsd__) && !defined(_WIN32)
  // this is for ctrl-c handling
  #include <setjmp.h>
  jmp_buf jbuf;
