@@ -3,7 +3,7 @@
 
 DISTNAME=		rsyslog-6.2.0
 CATEGORIES=		sysutils
-MASTER_SITES=		http://download.rsyslog.com/rsyslog/
+MASTER_SITES=		http://www.rsyslog.com/files/download/rsyslog/
 
 MAINTAINER=		bartosz.kuzma@gmail.com
 HOMEPAGE=		http://www.rsyslog.com/
