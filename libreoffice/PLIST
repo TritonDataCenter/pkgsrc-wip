@@ -153,7 +153,6 @@ ${PKGNAME}/program/libcppcanvaslo.so
 ${PKGNAME}/program/libctllo.so
 ${PKGNAME}/program/libcuilo.so
 ${PKGNAME}/program/libdatelo.so
-${PKGNAME}/program/libdb-4.7.so
 ${PKGNAME}/program/libdbalo.so
 ${PKGNAME}/program/libdbaselo.so
 ${PKGNAME}/program/libdbaxmllo.so
