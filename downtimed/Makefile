@@ -2,13 +2,13 @@
 #
 
 DISTNAME=	downtimed-0.5
-CATEGORIES=	wip
+CATEGORIES=	sysutils
 MASTER_SITES=	http://dist.epipe.com/downtimed/
 
 MAINTAINER=	bartosz@maciejewski.org
 HOMEPAGE=	http://dist.epipe.com/downtimed/
-COMMENT=	Downtimed monitors system downtim
-LICENSE=	original-bsd
+COMMENT=	Downtimed is monitoring system downtime
+LICENSE=	2-clause-bsd
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
