@@ -1,5 +1,7 @@
 $NetBSD$
 
+Sane defaults for the config file.
+
 --- ./redis.conf.orig	2011-09-21 16:12:56.000000000 +0000
 +++ ./redis.conf
 @@ -14,11 +14,11 @@
