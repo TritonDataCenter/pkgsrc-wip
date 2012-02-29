@@ -1,5 +1,7 @@
 $NetBSD$
 
+*libupnp>=1.6.7 support.
+
 --- src/services.c.orig	2007-12-09 13:03:36.000000000 +0000
 +++ src/services.c
 @@ -20,6 +20,7 @@
