@@ -5,7 +5,7 @@ DISTNAME=	redis-2.4.8
 CATEGORIES=	databases
 MASTER_SITES=	http://redis.googlecode.com/files/
 
-MAINTAINER=	zatmania@gotofreedom.org
+MAINTAINER=	filip@joyent.com
 HOMEPAGE=	http://redis.io/
 COMMENT=	Persistent key-value database with built-in net interface
 LICENSE=	modified-bsd
