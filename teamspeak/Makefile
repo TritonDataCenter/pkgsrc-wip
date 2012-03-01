@@ -7,7 +7,7 @@ CATEGORIES=		net audio
 MASTER_SITES=		ftp://ftp.freenet.de/pub/4players/teamspeak.org/releases/
 EXTRACT_SUFX=		.tar.bz2
 
-MAINTAINER=		rillig@NetBSD.org
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		ftp://ftp.freenet.de/pub/4players/teamspeak.org/releases/
 COMMENT=		Talk to other people over the internet
 LICENSE=		fee-based-commercial-use

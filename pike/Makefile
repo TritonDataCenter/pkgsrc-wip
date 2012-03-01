@@ -6,7 +6,7 @@ PKGNAME=		pike-7.6.66
 CATEGORIES=		lang
 MASTER_SITES=		http://pike.ida.liu.se/pub/pike/latest-stable/
 
-MAINTAINER=		rillig@NetBSD.org
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://pike.ida.liu.se/
 COMMENT=		Dynamic programming language similar to Java and C
 

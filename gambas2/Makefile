@@ -7,7 +7,7 @@ CATEGORIES=		devel
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=gambas/}
 EXTRACT_SUFX=		.tar.bz2
 
-MAINTAINER=		rillig@NetBSD.org
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://gambas.sourceforge.net/
 COMMENT=		IDE similar to Visual Basic
 

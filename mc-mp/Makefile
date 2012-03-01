@@ -7,7 +7,7 @@ PKGREVISION=		1
 CATEGORIES=		sysutils
 MASTER_SITES=		http://mc.linuxinside.com/Releases/
 
-MAINTAINER=		rillig@NetBSD.org
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://mc.linuxinside.com/cgi-bin/dir.cgi
 COMMENT=		Midnight Commander clone
 
