@@ -59,12 +59,6 @@ SUBST_STAGE.plugin=	post-install
 SUBST_FILES.plugin=	${DESTDIR}${PREFIX}/share/opera/defaults/pluginpath.ini
 SUBST_SED.plugin=	-e 's,/usr/local/,${PREFIX}/,g'
 
-#SUBST_CLASSES+=		prefix
-#SUBST_STAGE.prefix=	post-extract
-#SUBST_FILES.prefix=	install
-#SUBST_SED.prefix=	-e 's,/usr/local,${PREFIX},g'
-#SUBST_SED.prefix+=	-e 's,dest=,dest=${DESTDIR},g'
-
 .if ${PKGMANDIR} != "share/man"
 post-extract:
 	${RUN} cd ${WRKSRC}; mv share/man ${PKGMANDIR}
