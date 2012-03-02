@@ -1,5 +1,7 @@
 $NetBSD$
 
+Use an absolute path in invoking w3m.
+
 --- w3m.el.orig	2011-09-07 23:15:48.000000000 +0000
 +++ w3m.el
 @@ -257,13 +257,13 @@ The valid values include `w3m', `w3mmee'
