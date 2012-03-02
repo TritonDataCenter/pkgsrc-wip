@@ -146,6 +146,7 @@ SUBDIR+=	ark
 SUBDIR+=	arla-3.99.14
 SUBDIR+=	armagetronad
 SUBDIR+=	arora
+SUBDIR+=	arpack
 SUBDIR+=	arpdig
 SUBDIR+=	arphic-ukai-ttf
 SUBDIR+=	arphic-uming-ttf
