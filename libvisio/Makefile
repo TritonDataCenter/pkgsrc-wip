@@ -10,9 +10,7 @@ EXTRACT_SUFX=	.tar.xz
 MAINTAINER=	ftigeot@wolfpond.org
 HOMEPAGE=	http://www.freedesktop.org/wiki/Software/libvisio/
 COMMENT=	Library and tools for parsing the visio file format
-LICENSE=	gnu-lgpl-v2.1
-#LICENSE+=	mpl-1.1
-#LICENSE+=	gnu-gpl-v2
+LICENSE=	gnu-lgpl-v2.1 OR mpl-1.1 OR gnu-gpl-v2
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
