@@ -14,7 +14,7 @@ LICENSE=	modified-bsd
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
-WRKSRC=		${WRKDIR}/${PKGNAME}
+WRKSRC=		${WRKDIR}/${PKGNAME_NOREV}
 
 CONFLICTS+=	libtextcat-[0-9]*
 
