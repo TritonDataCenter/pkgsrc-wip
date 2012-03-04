@@ -900,6 +900,7 @@ SUBDIR+=	hs-control-monad-failure
 SUBDIR+=	hs-convertible
 SUBDIR+=	hs-convertible-ascii
 SUBDIR+=	hs-convertible-text
+SUBDIR+=	hs-core
 SUBDIR+=	hs-cpphs
 SUBDIR+=	hs-crypto-api
 SUBDIR+=	hs-curl
