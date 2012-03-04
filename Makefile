@@ -1008,6 +1008,7 @@ SUBDIR+=	hs-storablevector
 SUBDIR+=	hs-stream-fusion
 SUBDIR+=	hs-strict
 SUBDIR+=	hs-stringsearch
+SUBDIR+=	hs-stringtable-atom
 SUBDIR+=	hs-syb
 SUBDIR+=	hs-tagged
 SUBDIR+=	hs-tagsoup
