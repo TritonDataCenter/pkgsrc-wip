@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	executable-path-0.0.2
+DISTNAME=	executable-path-0.0.3
 CATEGORIES=	devel
 
 MAINTAINER=	pho@cielonegro.org
