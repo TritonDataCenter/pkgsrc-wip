@@ -7,6 +7,8 @@ lib/bytestring-trie-${PKGVERSION}/${HASKELL_VERSION}/Data/Trie/ByteStringInterna
 lib/bytestring-trie-${PKGVERSION}/${HASKELL_VERSION}/Data/Trie/ByteStringInternal.p_hi
 lib/bytestring-trie-${PKGVERSION}/${HASKELL_VERSION}/Data/Trie/Convenience.hi
 lib/bytestring-trie-${PKGVERSION}/${HASKELL_VERSION}/Data/Trie/Convenience.p_hi
+lib/bytestring-trie-${PKGVERSION}/${HASKELL_VERSION}/Data/Trie/Errors.hi
+lib/bytestring-trie-${PKGVERSION}/${HASKELL_VERSION}/Data/Trie/Errors.p_hi
 lib/bytestring-trie-${PKGVERSION}/${HASKELL_VERSION}/Data/Trie/Internal.hi
 lib/bytestring-trie-${PKGVERSION}/${HASKELL_VERSION}/Data/Trie/Internal.p_hi
 lib/bytestring-trie-${PKGVERSION}/${HASKELL_VERSION}/HSbytestring-trie-${PKGVERSION}.o
