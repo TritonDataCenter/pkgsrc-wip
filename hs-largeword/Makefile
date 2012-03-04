@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	largeword-1.0.0
+DISTNAME=	largeword-1.0.1
 CATEGORIES=	devel
 
 MAINTAINER=	pho@cielonegro.org
