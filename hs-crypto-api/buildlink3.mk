@@ -5,7 +5,7 @@ BUILDLINK_TREE+=	hs-crypto-api
 .if !defined(HS_CRYPTO_API_BUILDLINK3_MK)
 HS_CRYPTO_API_BUILDLINK3_MK:=
 
-BUILDLINK_API_DEPENDS.hs-crypto-api+=	hs-crypto-api>=0.6
+BUILDLINK_API_DEPENDS.hs-crypto-api+=	hs-crypto-api>=0.9
 BUILDLINK_PKGSRCDIR.hs-crypto-api?=	../../wip/hs-crypto-api
 
 .include "../../wip/hs-cereal/buildlink3.mk"
