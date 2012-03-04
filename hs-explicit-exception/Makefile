@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	explicit-exception-0.1.4
+DISTNAME=	explicit-exception-0.1.6
 CATEGORIES=	devel
 
 MAINTAINER=	pho@cielonegro.org
