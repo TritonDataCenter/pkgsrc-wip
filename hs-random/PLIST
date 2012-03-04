@@ -1,0 +1,8 @@
+@comment $NetBSD$
+lib/random-${PKGVERSION}/${HASKELL_VERSION}/HSrandom-${PKGVERSION}.o
+lib/random-${PKGVERSION}/${HASKELL_VERSION}/System/Random.hi
+lib/random-${PKGVERSION}/${HASKELL_VERSION}/System/Random.p_hi
+lib/random-${PKGVERSION}/${HASKELL_VERSION}/libHSrandom-${PKGVERSION}.a
+lib/random-${PKGVERSION}/${HASKELL_VERSION}/libHSrandom-${PKGVERSION}_p.a
+lib/random-${PKGVERSION}/${HASKELL_VERSION}/package-description
+share/doc/random-${PKGVERSION}/LICENSE
