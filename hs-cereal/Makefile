@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	cereal-0.3.3.0
+DISTNAME=	cereal-0.3.5.1
 CATEGORIES=	devel
 
 MAINTAINER=	pho@cielonegro.org

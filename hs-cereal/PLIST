@@ -5,6 +5,8 @@ lib/cereal-${PKGVERSION}/${HASKELL_VERSION}/Data/Serialize/Builder.hi
 lib/cereal-${PKGVERSION}/${HASKELL_VERSION}/Data/Serialize/Builder.p_hi
 lib/cereal-${PKGVERSION}/${HASKELL_VERSION}/Data/Serialize/Get.hi
 lib/cereal-${PKGVERSION}/${HASKELL_VERSION}/Data/Serialize/Get.p_hi
+lib/cereal-${PKGVERSION}/${HASKELL_VERSION}/Data/Serialize/IEEE754.hi
+lib/cereal-${PKGVERSION}/${HASKELL_VERSION}/Data/Serialize/IEEE754.p_hi
 lib/cereal-${PKGVERSION}/${HASKELL_VERSION}/Data/Serialize/Put.hi
 lib/cereal-${PKGVERSION}/${HASKELL_VERSION}/Data/Serialize/Put.p_hi
 lib/cereal-${PKGVERSION}/${HASKELL_VERSION}/HScereal-${PKGVERSION}.o
