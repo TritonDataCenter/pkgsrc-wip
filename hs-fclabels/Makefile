@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	fclabels-0.11.1.1
+DISTNAME=	fclabels-1.0.4
 CATEGORIES=	devel
 
 MAINTAINER=	pho@cielonegro.org
@@ -10,4 +10,5 @@ LICENSE=	modified-bsd
 
 .include "../../wip/mk/haskell.mk"
 .include "../../wip/hs-mtl/buildlink3.mk"
+.include "../../wip/hs-transformers/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
