@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	hxt-9.2.0
+DISTNAME=	hxt-9.2.2
 CATEGORIES=	textproc
 
 MAINTAINER=	pho@cielonegro.org
@@ -9,8 +9,6 @@ COMMENT=	Collection of tools for processing XML with Haskell
 LICENSE=	mit
 
 .include "../../wip/mk/haskell.mk"
-.include "../../wip/hs-binary/buildlink3.mk"
-.include "../../wip/hs-deepseq/buildlink3.mk"
 .include "../../wip/hs-hxt-charproperties/buildlink3.mk"
 .include "../../wip/hs-hxt-regex-xmlschema/buildlink3.mk"
 .include "../../wip/hs-hxt-unicode/buildlink3.mk"

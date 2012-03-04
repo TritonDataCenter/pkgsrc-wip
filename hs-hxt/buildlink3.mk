@@ -5,11 +5,9 @@ BUILDLINK_TREE+=	hs-hxt
 .if !defined(HS_HXT_BUILDLINK3_MK)
 HS_HXT_BUILDLINK3_MK:=
 
-BUILDLINK_API_DEPENDS.hs-hxt+=	hs-hxt>=9.2.0
+BUILDLINK_API_DEPENDS.hs-hxt+=	hs-hxt>=9.2.2
 BUILDLINK_PKGSRCDIR.hs-hxt?=	../../wip/hs-hxt
 
-.include "../../wip/hs-binary/buildlink3.mk"
-.include "../../wip/hs-deepseq/buildlink3.mk"
 .include "../../wip/hs-hxt-charproperties/buildlink3.mk"
 .include "../../wip/hs-hxt-regex-xmlschema/buildlink3.mk"
 .include "../../wip/hs-hxt-unicode/buildlink3.mk"
