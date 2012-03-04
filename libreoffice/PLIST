@@ -122,6 +122,8 @@ ${PKGNAME}/program/fsstorage.uno.so
 ${PKGNAME}/program/fundamentalrc
 ${PKGNAME}/program/gconfbe1.uno.so
 ${PKGNAME}/program/gdbtrace
+${PKGNAME}/program/gengal
+${PKGNAME}/program/gengal.bin
 ${PKGNAME}/program/gnome-open-url
 ${PKGNAME}/program/gnome-open-url.bin
 ${PKGNAME}/program/hatchwindowfactory.uno.so
