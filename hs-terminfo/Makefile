@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	terminfo-0.3.1.3
+DISTNAME=	terminfo-0.3.2.3
 CATEGORIES=	devel
 
 MAINTAINER=	pho@cielonegro.org
