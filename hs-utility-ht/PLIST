@@ -1,4 +1,6 @@
 @comment $NetBSD$
+lib/utility-ht-${PKGVERSION}/${HASKELL_VERSION}/Control/Functor/HT.hi
+lib/utility-ht-${PKGVERSION}/${HASKELL_VERSION}/Control/Functor/HT.p_hi
 lib/utility-ht-${PKGVERSION}/${HASKELL_VERSION}/Control/Monad/HT.hi
 lib/utility-ht-${PKGVERSION}/${HASKELL_VERSION}/Control/Monad/HT.p_hi
 lib/utility-ht-${PKGVERSION}/${HASKELL_VERSION}/Data/Bool/HT.hi
