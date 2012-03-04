@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	ansi-wl-pprint-0.6.3
+DISTNAME=	ansi-wl-pprint-0.6.4
 CATEGORIES=	textproc
 
 MAINTAINER=	pho@cielonegro.org
