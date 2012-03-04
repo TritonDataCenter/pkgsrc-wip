@@ -1,8 +1,8 @@
 # $NetBSD$
 #
 
-DISTNAME=	dataenc-0.14
-CATEGORIES=	devel
+DISTNAME=	dataenc-0.14.0.3
+CATEGORIES=	converters
 
 MAINTAINER=	pho@cielonegro.org
 COMMENT=	Data encoding library for Haskell
