@@ -10,6 +10,5 @@ COMMENT=	Zipper-like comonad tracking a position (Old version)
 LICENSE=	modified-bsd
 
 .include "../../wip/mk/haskell.mk"
-.include "../../wip/hs-binary/buildlink3.mk"
 .include "../../wip/hs-data-accessor/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
