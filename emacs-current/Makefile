@@ -1,7 +1,8 @@
 # $NetBSD$
 #
 
-DISTNAME=	emacs-24.0.93
+.include	"version.mk"
+DISTNAME=	emacs-${_EMACS_VERSION_MAJOR}.${_EMACS_VERSION_MINOR}.${_EMACS_VERSION_MICRO}
 #PKGNAME=	emacs-24.0.50
 PKGREVISION=	${_GIT_PKGVERSION:S/.//g}
 CATEGORIES=	editors
