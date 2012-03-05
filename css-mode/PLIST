@@ -1,3 +1,0 @@
-@comment $NetBSD$
-${EMACS_LISPPREFIX}/css-mode.el
-${EMACS_LISPPREFIX}/css-mode.elc
