@@ -22,6 +22,7 @@ DEPENDS+=		ghostscript>=7.0:../../print/ghostscript
 
 USE_PKGLOCALEDIR=	yes
 
+CPPFLAGS=		-DHAVE_PYTHON${PYVERSSUFFIX:S/./_/}
 CONFIGURE_ARGS+=	--enable-sdl=no
 
 INSTALL_TARGET=		${INSTALL} install-modules
