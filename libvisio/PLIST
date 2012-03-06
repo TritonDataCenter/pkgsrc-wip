@@ -5,7 +5,7 @@ include/libvisio-0.0/libvisio/VSDStringVector.h
 include/libvisio-0.0/libvisio/VisioDocument.h
 include/libvisio-0.0/libvisio/libvisio.h
 lib/libvisio-0.0.la
-lib/pkgconfig/libvisio-0.0.${LOWER_VENDOR}
+lib/pkgconfig/libvisio-0.0.pc
 share/doc/libvisio/html/VSD11Parser_8cpp.html
 share/doc/libvisio/html/VSD11Parser_8h.html
 share/doc/libvisio/html/VSD11Parser_8h_source.html
