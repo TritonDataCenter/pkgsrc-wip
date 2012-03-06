@@ -3167,6 +3167,7 @@ SUBDIR+=	xyssl
 SUBDIR+=	yafray
 SUBDIR+=	yajl
 SUBDIR+=	yakuake
+SUBDIR+=	yaml-mode
 SUBDIR+=	yauap
 SUBDIR+=	yelp-tools
 SUBDIR+=	yelp-xsl
