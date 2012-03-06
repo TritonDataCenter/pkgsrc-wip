@@ -7,5 +7,3 @@ share/texmf/tex/latex/ppower4/pause.sty
 share/texmf/tex/latex/ppower4/pp4link.sty
 share/texmf/tex/latex/ppower4/pp4slide.sty
 share/texmf/tex/latex/ppower4/texpause.sty
-@exec mktexlsr
-@unexec mktexlsr
