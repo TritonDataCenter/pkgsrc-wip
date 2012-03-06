@@ -1,0 +1,5 @@
+@comment $NetBSD$
+bin/th_gen_idx.pl
+include/mythes.hxx
+lib/libmythes-1.2.la
+lib/pkgconfig/mythes.${LOWER_VENDOR}
