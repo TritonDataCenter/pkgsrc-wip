@@ -1,0 +1,5 @@
+@comment $NetBSD$
+share/doc/yaml-mode/Changes
+share/doc/yaml-mode/README
+${EMACS_LISPPREFIX}/yaml-mode.el
+${EMACS_LISPPREFIX}/yaml-mode.elc
