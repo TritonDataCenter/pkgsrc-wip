@@ -18,7 +18,6 @@ DEPENDS+=		pdflib>=4.0.3:../../print/pdflib
 DEPENDS+=		plotutils>=2.4.1:../../graphics/plotutils
 DEPENDS+=		gnuplot>=3.7:../../graphics/gnuplot
 DEPENDS+=		freetype2>=2.1:../../graphics/freetype2
-DEPENDS+=		Mesa>=6.0:../../graphics/Mesa
 DEPENDS+=		ghostscript>=7.0:../../print/ghostscript
 
 USE_PKGLOCALEDIR=	yes
@@ -30,6 +29,7 @@ INSTALL_TARGET=		${INSTALL} install-modules
 .include "../../lang/python/application.mk"
 
 .include "../../graphics/freetype2/buildlink3.mk"
+.include "../../graphics/Mesa/buildlink3.mk"
 .include "../../graphics/png/buildlink3.mk"
 .include "../../x11/libXt/buildlink3.mk"
 .include "../../mk/tex.buildlink3.mk"
