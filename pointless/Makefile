@@ -23,6 +23,8 @@ DEPENDS+=		ghostscript>=7.0:../../print/ghostscript
 
 USE_PKGLOCALEDIR=	yes
 
+CONFIGURE_ARGS+=	--enable-sdl=no
+
 INSTALL_TARGET=		${INSTALL} install-modules
 
 .include "../../lang/python/application.mk"
