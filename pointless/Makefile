@@ -31,6 +31,6 @@ INSTALL_TARGET=		${INSTALL} install-modules
 
 .include "../../graphics/freetype2/buildlink3.mk"
 .include "../../graphics/png/buildlink3.mk"
-.include "../../x11/libXt.buildlink3.mk"
+.include "../../x11/libXt/buildlink3.mk"
 .include "../../mk/tex.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
