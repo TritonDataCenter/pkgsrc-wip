@@ -104,7 +104,6 @@ CONFIGURE_ARGS+=	--without-system-altlinuxhyph
 CONFIGURE_ARGS+=	--without-system-jars
 CONFIGURE_ARGS+=	--without-system-libcmis
 CONFIGURE_ARGS+=	--without-system-mozilla-headers
-CONFIGURE_ARGS+=	--without-system-mythes
 CONFIGURE_ARGS+=	--without-system-sampleicc
 
 # Some LibreOffice build scripts do strange things with library paths
@@ -189,6 +188,7 @@ post-install:
 .include "../../textproc/libxslt/buildlink3.mk"
 .include "../../textproc/redland/buildlink3.mk"
 .include "../../wip/libexttextcat/buildlink3.mk"
+.include "../../wip/libmythes/buildlink3.mk"
 .include "../../wip/libvisio/buildlink3.mk"
 .include "../../www/curl/buildlink3.mk"
 .include "../../x11/gtk2/buildlink3.mk"
