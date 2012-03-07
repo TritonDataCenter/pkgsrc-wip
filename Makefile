@@ -2432,7 +2432,6 @@ SUBDIR+=	py-pcapy
 SUBDIR+=	py-peak-rules
 SUBDIR+=	py-pebl
 SUBDIR+=	py-pep8
-SUBDIR+=	py-pip
 SUBDIR+=	py-piquant
 SUBDIR+=	py-plex
 SUBDIR+=	py-plink
