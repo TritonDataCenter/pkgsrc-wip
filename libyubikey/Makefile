@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	libyubikey-1.5
+DISTNAME=	libyubikey-1.7
 CATEGORIES=	security
 MASTER_SITES=	http://yubico-c.googlecode.com/files/
 
