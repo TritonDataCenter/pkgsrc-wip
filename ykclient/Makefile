@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	ykclient-2.3
+DISTNAME=	ykclient-2.7
 CATEGORIES=	security
 MASTER_SITES=	http://yubico-c-client.googlecode.com/files/
 
