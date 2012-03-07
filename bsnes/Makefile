@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	bsnes_v085-source
+DISTNAME=	bsnes_v087-source
 PKGNAME=	${DISTNAME:S/_v0/-0./:S/-source//}
 CATEGORIES=	emulators
 MASTER_SITES=	http://bsnes.googlecode.com/files/
