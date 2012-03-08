@@ -7,7 +7,7 @@ MASTER_SITES=	http://yubico-pam.googlecode.com/files/
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://code.google.com/p/yubico-pam/
-COMMENT=	Pluggable authentication module for Yubikey
+COMMENT=	Pluggable Authentication Module for Yubikey validation
 
 LICENSE=	modified-bsd
 
