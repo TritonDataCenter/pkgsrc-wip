@@ -9,7 +9,7 @@ COMMENT=	Finding out the full path of the executable
 LICENSE=	public-domain
 
 # We should support more platforms in the near future.
-ONLY_FOR_PLATFORM=	Darwin-*-*
+ONLY_FOR_PLATFORM=	Darwin-*-* NetBSD-*-*
 
 .include "../../wip/mk/haskell.mk"
 .include "../../mk/bsd.pkg.mk"
