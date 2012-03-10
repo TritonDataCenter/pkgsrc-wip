@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	selenium-2.20.0.tar
-EGG_NAME=  selenium-2.20.2
+EGG_NAME=  selenium-2.20.0
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME:S/Py//S/.tar//}
 CATEGORIES=	devel
 MASTER_SITES=	http://pypi.python.org/packages/source/s/selenium/
