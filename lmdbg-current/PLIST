@@ -23,5 +23,7 @@ man/man1/lmdbg-stat.1
 man/man1/lmdbg-sym.1
 man/man1/lmdbg-sysleaks.1
 man/man1/lmdbg.1
+share/doc/lmdbg/LICENSE
 share/doc/lmdbg/NEWS
 share/doc/lmdbg/README
+share/doc/lmdbg/TODO
