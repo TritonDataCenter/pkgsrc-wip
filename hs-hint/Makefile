@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	hint-0.3.3.2
+DISTNAME=	hint-0.3.3.4
 CATEGORIES=	devel
 
 MAINTAINER=	pho@cielonegro.org
@@ -14,5 +14,6 @@ LICENSE=	modified-bsd
 .include "../../wip/hs-ghc-paths/buildlink3.mk"
 .include "../../wip/hs-haskell-src/buildlink3.mk"
 .include "../../wip/hs-mtl/buildlink3.mk"
+.include "../../wip/hs-random/buildlink3.mk"
 .include "../../wip/hs-utf8-string/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
