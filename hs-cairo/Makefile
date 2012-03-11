@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	cairo-0.12.0
+DISTNAME=	cairo-0.12.3
 CATEGORIES=	graphics
 
 MAINTAINER=	pho@cielonegro.org
