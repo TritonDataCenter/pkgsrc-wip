@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	pango-0.12.0
+DISTNAME=	pango-0.12.3
 CATEGORIES=	devel
 
 MAINTAINER=	pho@cielonegro.org
