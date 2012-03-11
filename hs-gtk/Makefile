@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	gtk-0.12.0
+DISTNAME=	gtk-0.12.3
 CATEGORIES=	x11
 
 MAINTAINER=	pho@cielonegro.org

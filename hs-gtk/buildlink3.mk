@@ -5,7 +5,7 @@ BUILDLINK_TREE+=	hs-gtk
 .if !defined(HS_GTK_BUILDLINK3_MK)
 HS_GTK_BUILDLINK3_MK:=
 
-BUILDLINK_API_DEPENDS.hs-gtk+=	hs-gtk>=0.12
+BUILDLINK_API_DEPENDS.hs-gtk+=	hs-gtk>=0.12.3
 BUILDLINK_PKGSRCDIR.hs-gtk?=	../../wip/hs-gtk
 
 .include "../../wip/hs-cairo/buildlink3.mk"
