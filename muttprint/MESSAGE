@@ -1,0 +1,6 @@
+===========================================================================
+$NetBSD$
+
+muttprint produces output in .tex format and converts it to pdf using latex.
+Please make sure you have latex installed on your system.
+===========================================================================
