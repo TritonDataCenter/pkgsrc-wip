@@ -1,11 +1,10 @@
 # $NetBSD$
 #
 
-DISTNAME=	data-accessor-template-0.2.1.7
+DISTNAME=	data-accessor-template-0.2.1.9
 CATEGORIES=	devel
 
 MAINTAINER=	pho@cielonegro.org
-HOMEPAGE=	http://www.haskell.org/haskellwiki/Record_access
 COMMENT=	Utilities for accessing and manipulating fields of records
 LICENSE=	modified-bsd
 
