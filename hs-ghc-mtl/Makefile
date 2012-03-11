@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	ghc-mtl-1.0.1.0
+DISTNAME=	ghc-mtl-1.0.1.1
 CATEGORIES=	devel
 
 MAINTAINER=	pho@cielonegro.org
