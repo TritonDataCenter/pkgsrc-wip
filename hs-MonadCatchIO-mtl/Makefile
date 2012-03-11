@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	MonadCatchIO-mtl-0.3.0.3
+DISTNAME=	MonadCatchIO-mtl-0.3.0.4
 CATEGORIES=	devel
 
 MAINTAINER=	pho@cielonegro.org
