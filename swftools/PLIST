@@ -24,7 +24,6 @@ man/man1/swfc.1
 man/man1/swfcombine.1
 man/man1/swfdump.1
 man/man1/swfextract.1
-man/man1/swfrender.1
 man/man1/swfstrings.1
 man/man1/wav2swf.1
 share/swftools/swfs/PreLoaderTemplate.swf
