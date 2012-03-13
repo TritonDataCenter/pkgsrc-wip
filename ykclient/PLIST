@@ -1,5 +1,0 @@
-@comment $NetBSD$
-bin/ykclient
-include/ykclient.h
-include/ykclient_server_response.h
-lib/libykclient.la
