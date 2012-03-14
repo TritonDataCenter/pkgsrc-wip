@@ -438,7 +438,6 @@ ${PKGNAME}/program/types/oovbaapi.rdb
 ${PKGNAME}/program/ucpcmis1.uno.so
 ${PKGNAME}/program/ucpexpand1.uno.so
 ${PKGNAME}/program/ucpext.uno.so
-${PKGNAME}/program/ucpgvfs1.uno.so
 ${PKGNAME}/program/ucptdoc1.uno.so
 ${PKGNAME}/program/uno.py
 ${PKGNAME}/program/unohelper.py
