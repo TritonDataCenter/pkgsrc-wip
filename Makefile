@@ -1898,6 +1898,7 @@ SUBDIR+=	p5-Data-AMF
 SUBDIR+=	p5-Data-ObjectDriver
 SUBDIR+=	p5-Data-Properties
 SUBDIR+=	p5-Data-Random
+SUBDIR+=	p5-Data-Types
 SUBDIR+=	p5-Date-Range
 SUBDIR+=	p5-Devel-Profiler
 SUBDIR+=	p5-Email-AddressParser
