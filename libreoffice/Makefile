@@ -187,7 +187,7 @@ post-install:
 .include "../../textproc/libxml2/buildlink3.mk"
 .include "../../textproc/libxslt/buildlink3.mk"
 .include "../../textproc/redland/buildlink3.mk"
-.include "../../wip/libexttextcat/buildlink3.mk"
+.include "../../textproc/libexttextcat/buildlink3.mk"
 .include "../../wip/libmythes/buildlink3.mk"
 .include "../../wip/libvisio/buildlink3.mk"
 .include "../../www/curl/buildlink3.mk"
