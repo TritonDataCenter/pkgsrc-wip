@@ -1,7 +1,7 @@
 # $NetBSD$
 
 DISTNAME=	libvisio-0.0.15
-CATEGORIES=	textproc
+CATEGORIES=	converters
 MASTER_SITES=	http://dev-www.libreoffice.org/src/
 EXTRACT_SUFX=	.tar.xz
 
