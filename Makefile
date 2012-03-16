@@ -1449,7 +1449,6 @@ SUBDIR+=	libuuid
 SUBDIR+=	libvalhalla
 SUBDIR+=	libvc
 SUBDIR+=	libvg
-SUBDIR+=	libvisio
 SUBDIR+=	libwbxml2-patched
 SUBDIR+=	libxc
 SUBDIR+=	libxfce4gui

@@ -153,6 +153,7 @@ post-install:
 	done
 
 
+.include "../../converters/libvisio/buildlink3.mk"
 .include "../../converters/libwpd/buildlink3.mk"
 .include "../../converters/libwpg/buildlink3.mk"
 .include "../../converters/libwps/buildlink3.mk"
@@ -189,7 +190,6 @@ post-install:
 .include "../../textproc/redland/buildlink3.mk"
 .include "../../textproc/libexttextcat/buildlink3.mk"
 .include "../../wip/libmythes/buildlink3.mk"
-.include "../../wip/libvisio/buildlink3.mk"
 .include "../../www/curl/buildlink3.mk"
 .include "../../x11/gtk2/buildlink3.mk"
 .include "../../x11/libX11/buildlink3.mk"
