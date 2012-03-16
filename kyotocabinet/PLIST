@@ -35,7 +35,7 @@ include/kcstashdb.h
 include/kctextdb.h
 include/kcthread.h
 include/kcutil.h
-lib/libkyotocabinet.16.9.0.so
+lib/libkyotocabinet.16.10.0.so
 lib/libkyotocabinet.16.so
 lib/libkyotocabinet.a
 lib/libkyotocabinet.so

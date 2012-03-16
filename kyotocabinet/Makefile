@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	kyotocabinet-1.2.72
+DISTNAME=	kyotocabinet-1.2.73
 CATEGORIES=	databases
 MASTER_SITES=	http://fallabs.com/kyotocabinet/pkg/
 
