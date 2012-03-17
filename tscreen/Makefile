@@ -19,7 +19,6 @@ NOT_FOR_PLATFORM=	Interix-*-* # user auth and username size fixes needed
 PLIST_SUBST+=		DISTNAME=${DISTNAME:Q}
 
 GNU_CONFIGURE=		yes
-CONFIGURE_ARGS+=	--with-sys-screenrc=${PKG_SYSCONFDIR}/tscreenrc
 CONFIGURE_ARGS+=	--enable-telnet
 
 PKG_SHELL=		bin/tscreen
