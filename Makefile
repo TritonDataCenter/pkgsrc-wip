@@ -320,6 +320,7 @@ SUBDIR+=	clamassassin
 SUBDIR+=	clang
 SUBDIR+=	classgen
 SUBDIR+=	classic-mac-font-pack
+SUBDIR+=	claws-mail-fancy
 SUBDIR+=	clfswm
 SUBDIR+=	clhep
 SUBDIR+=	clipit
