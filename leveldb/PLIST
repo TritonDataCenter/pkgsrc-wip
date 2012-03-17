@@ -1,5 +1,5 @@
 @comment $NetBSD$
-bin/db_bench
+bin/leveldb_bench
 include/leveldb/c.h
 include/leveldb/cache.h
 include/leveldb/comparator.h
