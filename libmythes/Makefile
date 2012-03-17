@@ -22,5 +22,6 @@ REPLACE_PERL=	th_gen_idx.pl
 
 PKGCONFIG_OVERRIDE=	mythes.pc.in
 
+.include "../../lang/perl5/buildlink3.mk"
 .include "../../textproc/hunspell/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
