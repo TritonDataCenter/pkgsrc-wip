@@ -1410,7 +1410,6 @@ SUBDIR+=	libmemcached
 SUBDIR+=	libmpg123
 SUBDIR+=	libmrss
 SUBDIR+=	libmusclecard
-SUBDIR+=	libmythes
 SUBDIR+=	libneural
 SUBDIR+=	libnfo
 SUBDIR+=	libode
