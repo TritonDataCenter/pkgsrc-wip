@@ -22,7 +22,7 @@ GNU_CONFIGURE=		yes
 CONFIGURE_ARGS+=	--with-sys-screenrc=${PKG_SYSCONFDIR}/tscreenrc
 CONFIGURE_ARGS+=	--enable-telnet
 
-PKG_SHELL=		bin/screen
+PKG_SHELL=		bin/tscreen
 INFO_FILES=		YES
 
 .include "../../mk/bsd.prefs.mk"
