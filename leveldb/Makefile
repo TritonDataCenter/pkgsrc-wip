@@ -9,7 +9,7 @@ MASTER_SITES=	#
 MAINTAINER=	mishka@NetBSD.org
 HOMEPAGE=	http://code.google.com/p/leveldb/
 COMMENT=	Fast and lightweight key/value database library by Google
-LICENSE=	2-clause-bsd
+LICENSE=	modified-bsd
 
 GIT_REPOSITORIES=	leveldb
 GIT_REPO.leveldb=	http://code.google.com/p/leveldb
