@@ -12,7 +12,7 @@ COMMENT=	CIDFont resources for Ghostscript
 PKG_DESTDIR_SUPPORT=	user-destdir
 
 DEPENDS+=	adobe-cidfonts>=20000901:../../fonts/adobe-cidfonts
-DEPENDS+=	ghostscript:../../wip/ghostscript
+DEPENDS+=	ghostscript-[0-9]*:../../wip/ghostscript
 
 GHOSTSCRIPT_REQD=	6.53
 .include	"../../wip/ghostscript/Makefile.common"
