@@ -16,7 +16,7 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 
 NO_BUILD=	yes
 
-USE_TOOLS+=	pax
+USE_TOOLS+=	pax unzip
 
 EXTRACT_OPTS+=	-f zip
 EXTRACT_DIR=	${WRKSRC}
