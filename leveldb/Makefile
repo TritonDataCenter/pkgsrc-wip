@@ -17,7 +17,7 @@ GIT_REPO.leveldb=	http://code.google.com/p/leveldb
 PKG_DESTDIR_SUPPORT=	user-destdir
 
 USE_LANGUAGES+=	c++
-USE_TOOLS+=	gmake
+USE_TOOLS+=	gmake pax
 
 BUILD_TARGET=	libleveldb.a db_bench
 
@@ -29,7 +29,9 @@ do-install:
 	${INSTALL_DATA} ${WRKSRC}/include/leveldb/*			\
 		${DESTDIR}${PREFIX}/include/leveldb
 	${INSTALL_LIB} ${WRKSRC}/libleveldb.a ${DESTDIR}${PREFIX}/lib
-	cd ${WRKSRC}/doc && pax -rw . ${DESTDIR}${PREFIX}/share/doc/leveldb
+	cd ${WRKSRC}/doc && ${PAX} -rw . ${DESTDIR}${PREFIX}/share/doc/leveldb
+
+.include "options.mk"
 
 .include "../../wip/mk/git-package.mk"
 # ignore --depth - it won't work with Google HTTP
