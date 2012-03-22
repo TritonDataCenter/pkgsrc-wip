@@ -1557,6 +1557,7 @@ SUBDIR+=	mcpp
 SUBDIR+=	mcwm
 SUBDIR+=	mdadm
 SUBDIR+=	mdbtools
+SUBDIR+=	meep
 SUBDIR+=	memcached14
 SUBDIR+=	memdump
 SUBDIR+=	memgrep
