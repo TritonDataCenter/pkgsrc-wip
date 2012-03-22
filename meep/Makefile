@@ -16,15 +16,12 @@ GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_LANGUAGES=	c c++ fortran
 
-CONFIGURE_ARGS+=	--with-libctl=${PREFIX}/share/libctl
+CONFIGURE_ARGS+=--with-libctl=${PREFIX}/share/libctl
 
 DEPENDS+=	bash:../../shells/bash
 
-#post-extract:
-#	(cd ${WRKSRC} && /usr/pkg/bin/autoconf)
-
-.include "../../jb-wip/harminv/buildlink3.mk"
-.include "../../jb-wip/libctl/buildlink3.mk"
+.include "../../wip/harminv/buildlink3.mk"
+.include "../../wip/libctl/buildlink3.mk"
 .include "../../devel/hdf5/buildlink3.mk"
 .include "../../devel/gettext-lib/buildlink3.mk"
 .include "../../converters/libiconv/buildlink3.mk"

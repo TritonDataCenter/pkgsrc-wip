@@ -6,7 +6,7 @@ BUILDLINK_TREE+=	libctl
 LIBCTL_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.libctl+=	libctl>=3.1
-BUILDLINK_PKGSRCDIR.libctl?=	../../jb-wip/libctl
+BUILDLINK_PKGSRCDIR.libctl?=	../../wip/libctl
 
 # CONFIGURE_ARGS+=	--with-libctl=${PREFIX}
 
