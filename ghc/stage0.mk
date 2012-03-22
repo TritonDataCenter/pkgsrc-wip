@@ -31,6 +31,12 @@ PLATFORM           = powerpc-apple-darwin
 # (FP_LEADING_UNDERSCORE)
 CONFLICTS=	libelf-[0-9]*
 
+.elif ${MACHINE_ARCH} == "x86_64" && ${OPSYS} == "Linux"
+BOOTSTRAP_BUILD_MK = ${PKGDIR}/files/bootstrap-linux.mk
+BOOTSTRAP_CAPI_C   = ${PKGDIR}/files/capi-wrappers-linux-x86_64.c
+BOOTSTRAP_TARBALL  = ${DISTNAME}-boot-x86_64-unknown-linux-gnu.tar.bz2
+PLATFORM           = x86_64-unknown-linux
+
 .else
 PKG_FAIL_REASON+=	"internal error: unsupported platform"
 .endif
