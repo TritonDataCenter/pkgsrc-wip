@@ -648,6 +648,7 @@ SUBDIR+=	fuse-smbfs
 SUBDIR+=	fusefs-btfs
 SUBDIR+=	fusefs-sshfs
 SUBDIR+=	fusil
+SUBDIR+=	fvcom2
 SUBDIR+=	fvcool
 SUBDIR+=	fvwm-crystal
 SUBDIR+=	fvwm1-tch
