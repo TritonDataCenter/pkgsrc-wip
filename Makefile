@@ -135,6 +135,7 @@ SUBDIR+=	apachebench2
 SUBDIR+=	applewmproto
 SUBDIR+=	apstget
 SUBDIR+=	apvlv
+SUBDIR+=	armadillo
 SUBDIR+=	ar7
 SUBDIR+=	arabeyes-qr-ttf
 SUBDIR+=	arandr
