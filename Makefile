@@ -1358,6 +1358,7 @@ SUBDIR+=	libcli
 SUBDIR+=	libcm
 SUBDIR+=	libcmt
 SUBDIR+=	libcpu
+SUBDIR+=	libctl
 SUBDIR+=	libcuba
 SUBDIR+=	libdbglog
 SUBDIR+=	libdialog
