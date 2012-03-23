@@ -19,6 +19,11 @@ USE_TOOLS+=	gsed
 
 CONFIGURE_ARGS+=--with-libctl=${PREFIX}/share/libctl
 
+# Does not want to install to destdir for reasons I haven't identified yet.
+# If you know of a better fix than this hack, please drop me an email.
+# I've tried configuring with --prefix=${DESTDIR}${PREFIX}, but my override
+# gets overridden by pkgsrc.  Also tried some vars like INSTALL_MAKE_FLAGS,
+# INSTALL_ROOT, PREFIX.
 post-configure:
 	gsed -i'' -e 's|$$(prefix)|${DESTDIR}$$(prefix)|' \
 		  -e 's|$$(mandir)|${DESTDIR}$$(mandir)|' \
