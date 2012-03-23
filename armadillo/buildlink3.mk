@@ -6,7 +6,7 @@ BUILDLINK_TREE+=	armadillo
 ARMADILLO_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.armadillo+=	armadillo>=2.2.1
-BUILDLINK_PKGSRCDIR.armadillo?=	../../jb-wip/armadillo
+BUILDLINK_PKGSRCDIR.armadillo?=	../../wip/armadillo
 
 .include "../../math/blas/buildlink3.mk"
 .include "../../math/lapack/buildlink3.mk"
