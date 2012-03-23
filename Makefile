@@ -1626,6 +1626,7 @@ SUBDIR+=	mozldap
 SUBDIR+=	mozplugger
 SUBDIR+=	mp3chop
 SUBDIR+=	mp3gain
+SUBDIR+=	mpb
 SUBDIR+=	mpc-el
 SUBDIR+=	mpg123
 SUBDIR+=	mpg123-0.65
