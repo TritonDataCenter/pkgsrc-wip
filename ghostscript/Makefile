@@ -4,6 +4,7 @@ DISTNAME=	ghostscript-${GS_VERSION}
 CATEGORIES=	print
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=ghostscript/}
 MASTER_SITES+=	http://ghostscript.com/releases/
+EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://ghostscript.sourceforge.net/
@@ -81,7 +82,7 @@ post-extract:
 	${MKDIR} ${WRKSRC}/obj
 #	${RM} -rf ${WRKSRC}/jasper
 	${RM} -rf ${WRKSRC}/libpng
-	${RM} -rf ${WRKSRC}/tiff
+#	${RM} -rf ${WRKSRC}/tiff
 #	${RM} -rf ${WRKSRC}/zlib
 #
 #  To allow outside customization, rename cidfmap
