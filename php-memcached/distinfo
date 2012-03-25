@@ -1,5 +1,5 @@
 $NetBSD$
 
-SHA1 (php-memcached/memcached-1.0.2.tgz) = 50780eac37b664a239ea52a6634a4d2199c2e3c7
-RMD160 (php-memcached/memcached-1.0.2.tgz) = 4e9b41de16682b7d7b0a86d419fa5279892b09f7
-Size (php-memcached/memcached-1.0.2.tgz) = 22724 bytes
+SHA1 (php-memcached/memcached-2.0.1.tgz) = 5442250bf4a9754534bce9a3033dc5363d8238f7
+RMD160 (php-memcached/memcached-2.0.1.tgz) = 8a881bf1da1c70946be0d8d765703b2e2dae9553
+Size (php-memcached/memcached-2.0.1.tgz) = 39088 bytes

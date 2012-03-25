@@ -2,7 +2,7 @@
 #
 
 MODNAME=		memcached
-PECL_VERSION=		1.0.2
+PECL_VERSION=		2.0.1
 CATEGORIES+=		devel
 
 MAINTAINER=		filip@joyent.com
@@ -18,7 +18,7 @@ CONFIGURE_ARGS+=	--enable-${MODNAME}
 CONFIGURE_ARGS+=	--with-libmemcached-dir=${PREFIX}
 WRKSRC=			${WRKDIR}/${MODNAME}-${PECL_VERSION}
 
-.include "../../wip/libmemcached/buildlink3.mk"
 .include "../../lang/php/ext.mk"
+.include "../../devel/libmemcached/buildlink3.mk"
 .include "../../devel/zlib/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
