@@ -1,7 +1,7 @@
 # $NetBSD$
 
 MODNAME=		oauth
-PECL_VERSION=		1.0.0
+PECL_VERSION=		1.2.2
 CATEGORIES+=		security
 
 MAINTAINER=		filip@joyent.com
