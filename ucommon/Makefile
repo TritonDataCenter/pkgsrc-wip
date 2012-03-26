@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	ucommon-5.0.7
+DISTNAME=	ucommon-5.1.2
 CATEGORIES=	devel
 MASTER_SITES=	${MASTER_SITE_GNU:=commonc++/}
 
@@ -23,7 +23,6 @@ PKGCONFIG_OVERRIDE+=	commoncpp.pc.in
 PKGCONFIG_OVERRIDE+=	ucommon.pc.in
 
 .include "../../security/libgcrypt/buildlink3.mk"
-.include "../../wip/commoncpp2/buildlink3.mk"
 .include "../../devel/gettext-lib/buildlink3.mk"
 .include "../../security/gnutls/buildlink3.mk"
 .include "../../security/openssl/buildlink3.mk"
