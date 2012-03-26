@@ -7,5 +7,7 @@ include/libzrtpcpp/ZrtpConfigure.h
 include/libzrtpcpp/ZrtpQueue.h
 include/libzrtpcpp/ZrtpUserCallback.h
 include/libzrtpcpp/zrtpccrtp.h
-lib/libzrtpcpp.la
+lib/libzrtpcpp.so
+lib/libzrtpcpp.so.2
+lib/libzrtpcpp.so.${PKGVERSION}
 lib/pkgconfig/libzrtpcpp.pc
