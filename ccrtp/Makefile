@@ -1,8 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		ccrtp-2.0.2
-PKGREVISION=		1
+DISTNAME=		ccrtp-2.0.3
 CATEGORIES=		net
 MASTER_SITES=		${MASTER_SITE_GNU:=ccrtp/}
 
