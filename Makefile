@@ -2312,6 +2312,7 @@ SUBDIR+=	py-fdm
 SUBDIR+=	py-feyn
 SUBDIR+=	py-ffc
 SUBDIR+=	py-fftw
+SUBDIR+=	py-fiat
 SUBDIR+=	py-figleaf
 SUBDIR+=	py-fipy
 SUBDIR+=	py-fitsarray
