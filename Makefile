@@ -2598,6 +2598,7 @@ SUBDIR+=	py-utilib_misc
 SUBDIR+=	py-utilib_ply
 SUBDIR+=	py-uuid
 SUBDIR+=	py-van.testing
+SUBDIR+=	py-viper
 SUBDIR+=	py-visionegg
 SUBDIR+=	py-visionegg-contrib
 SUBDIR+=	py-visionegg-demos
