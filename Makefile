@@ -2583,6 +2583,7 @@ SUBDIR+=	py-transaction
 SUBDIR+=	py-ttk
 SUBDIR+=	py-turbojson
 SUBDIR+=	py-twisted-kqueue
+SUBDIR+=	py-ufl
 SUBDIR+=	py-uncertainties
 SUBDIR+=	py-utilib_common
 SUBDIR+=	py-utilib_component_app
