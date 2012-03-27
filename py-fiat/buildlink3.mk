@@ -1,0 +1,12 @@
+# $NetBSD$
+
+BUILDLINK_TREE+=	py26-fiat
+
+.if !defined(PY26_FIAT_BUILDLINK3_MK)
+PY26_FIAT_BUILDLINK3_MK:=
+
+BUILDLINK_API_DEPENDS.py26-fiat+=	py26-fiat>=1.0.0
+BUILDLINK_PKGSRCDIR.py26-fiat?=	../../jb-wip/py-fiat
+.endif	# PY26_FIAT_BUILDLINK3_MK
+
+BUILDLINK_TREE+=	-py26-fiat
