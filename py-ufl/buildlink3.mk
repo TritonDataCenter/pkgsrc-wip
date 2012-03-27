@@ -6,7 +6,7 @@ BUILDLINK_TREE+=	py26-ufl
 PY26_UFL_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.py26-ufl+=	py26-ufl>=1.0.0
-BUILDLINK_PKGSRCDIR.py26-ufl?=	../../jb-wip/py-ufl
+BUILDLINK_PKGSRCDIR.py26-ufl?=	../../wip/py-ufl
 .endif	# PY26_UFL_BUILDLINK3_MK
 
 BUILDLINK_TREE+=	-py26-ufl

@@ -101,6 +101,6 @@ do-install:
 .include "../../math/blas/buildlink3.mk"
 .include "../../math/lapack/buildlink3.mk"
 .if defined (WITH_METIS)
-.include "../../jb-wip/metis/buildlink3.mk"
+.include "../../wip/metis/buildlink3.mk"
 .endif
 .include "../../mk/bsd.pkg.mk"
