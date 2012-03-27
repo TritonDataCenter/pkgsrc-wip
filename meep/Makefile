@@ -22,6 +22,7 @@ DEPENDS+=	bash:../../shells/bash
 
 .include "../../jb-wip/harminv/buildlink3.mk"
 .include "../../wip/libctl/buildlink3.mk"
+.include "../../math/gsl/buildlink3.mk"
 .include "../../devel/hdf5/buildlink3.mk"
 .include "../../devel/gettext-lib/buildlink3.mk"
 .include "../../converters/libiconv/buildlink3.mk"
