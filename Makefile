@@ -2350,6 +2350,7 @@ SUBDIR+=	py-hfk
 SUBDIR+=	py-httplib2
 SUBDIR+=	py-igraph
 SUBDIR+=	py-imgSeek
+SUBDIR+=	py-instant
 SUBDIR+=	py-ipaddr
 SUBDIR+=	py-ipython
 SUBDIR+=	py-jabber-aimt
