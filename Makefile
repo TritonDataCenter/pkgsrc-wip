@@ -2368,6 +2368,7 @@ SUBDIR+=	py-kcs11
 SUBDIR+=	py-kde4
 SUBDIR+=	py-keyczar
 SUBDIR+=	py-keyring
+SUBDIR+=	py-khayyam
 SUBDIR+=	py-kivy
 SUBDIR+=	py-knockknock
 SUBDIR+=	py-kyra
