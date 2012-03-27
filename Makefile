@@ -3054,6 +3054,7 @@ SUBDIR+=	ucommon
 SUBDIR+=	udhcp
 SUBDIR+=	udp-ping
 SUBDIR+=	uebimiau
+SUBDIR+=	ufc
 SUBDIR+=	uffizi
 SUBDIR+=	uim-chewing
 SUBDIR+=	umix
