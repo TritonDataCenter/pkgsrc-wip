@@ -2310,6 +2310,7 @@ SUBDIR+=	py-ezPyCrypto
 SUBDIR+=	py-fastaudio
 SUBDIR+=	py-fdm
 SUBDIR+=	py-feyn
+SUBDIR+=	py-ffc
 SUBDIR+=	py-fftw
 SUBDIR+=	py-figleaf
 SUBDIR+=	py-fipy
