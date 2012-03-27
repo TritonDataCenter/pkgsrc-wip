@@ -1567,6 +1567,7 @@ SUBDIR+=	meta-tracker
 SUBDIR+=	metalog
 SUBDIR+=	metasploit
 SUBDIR+=	metatheme
+SUBDIR+=	metis
 SUBDIR+=	mg-lsh
 SUBDIR+=	mic-paren
 SUBDIR+=	microblog-purple
