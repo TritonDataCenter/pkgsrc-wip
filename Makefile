@@ -466,6 +466,7 @@ SUBDIR+=	dnscheck-engine
 SUBDIR+=	dnswalk
 SUBDIR+=	docbook-xsl-ko
 SUBDIR+=	docbook2X
+SUBDIR+=	dolfin
 SUBDIR+=	doorman
 SUBDIR+=	dos2unix
 SUBDIR+=	dotconf
