@@ -56,8 +56,7 @@ PLIST.dtrace=		yes
 SUBST_CLASSES+=		pkgsrc
 SUBST_STAGE.pkgsrc=	post-patch
 SUBST_MESSAGE.pkgsrc=	Fixing pkgsrc locations and tools
-SUBST_FILES.pkgsrc=	deps/erlang_js/c_src/Makefile
-SUBST_FILES.pkgsrc+=	rel/vars.config
+SUBST_FILES.pkgsrc=	rel/vars.config
 SUBST_VARS.pkgsrc=	PREFIX PKG_SYSCONFDIR
 SUBST_VARS.pkgsrc+=	RIAK_USER RIAK_DATA RIAK_LOG
 
