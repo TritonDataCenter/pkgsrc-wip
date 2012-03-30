@@ -26,6 +26,13 @@ USE_PKGINSTALL=	YES
 
 WRKSRC=		${WRKDIR}/${DISTNAME}
 
+PLIST_VARS+=	smartos not-smartos
+.if !empty(SUNOS_FLAVOR:Mjoyent)
+PLIST.smartos=		yes
+.else
+PLIST.not-smartos=	yes
+.endif
+
 PKG_GROUPS_VARS+=	MUNIN_GROUP
 PKG_USERS_VARS+=	MUNIN_USER
 USERGROUP_PHASE=	pre-install
@@ -38,8 +45,11 @@ PKG_USERS=	${MUNIN_USER}:${MUNIN_GROUP}
 PKG_GECOS.${MUNIN_USER}=	Munin user
 PKG_SYSCONFSUBDIR?=	munin
 
-REPLACE_PERL+=	node/sbin/munin-node
-REPLACE_PERL+=	node/node.d/*.in
+CHECK_INTERPRETER_SKIP+=lib/munin/plugins/tomcat_
+REPLACE_PERL+=		plugins/node.d/slony_lag_.in
+REPLACE_PERL+=		node/sbin/munin-node
+REPLACE_PERL+=		node/sbin/munin-node-configure
+REPLACE_PERL+=		node/sbin/munin-run
 
 STATEDIR?=	${VARBASE}/munin/plugin-state
 MUNIN_RUN?=	${VARBASE}/run/munin
@@ -68,6 +78,8 @@ MAKE_ENV+=	CONFDIR=${PKG_SYSCONFDIR}
 MAKE_ENV+=	MUNIN_USER=${MUNIN_USER}
 MAKE_ENV+=	MUNIN_GROUP=${MUNIN_GROUP}
 MAKE_ENV+=	PERL5=${PERL5:Q}
+MAKE_ENV+=	PYTHON=${PYTHONBIN:Q}
+MAKE_ENV+=	RUBY=${RUBY:Q}
 
 FILES_SUBST+=	PERL=${PERL5:Q}
 FILES_SUBST+=	PKG_SYSCONFDIR=${PKG_SYSCONFDIR}
@@ -94,4 +106,5 @@ post-install:
 	${INSTALL_DATA} ${WRKSRC}/build/node/munin-node.conf ${DESTDIR}${EGDIR}
 
 .include "../../lang/python/application.mk"
+.include "../../lang/ruby/rubyversion.mk"
 .include "../../mk/bsd.pkg.mk"

@@ -1,9 +1,13 @@
 @comment $NetBSD$
-lib/munin/plugins/fs_df
-lib/munin/plugins/fs_inodes
+lib/munin/plugins/cpu
+lib/munin/plugins/if_
+lib/munin/plugins/if_err_
 lib/munin/plugins/io_busy_
 lib/munin/plugins/io_bytes_
 lib/munin/plugins/io_ops_
+lib/munin/plugins/iostat
+lib/munin/plugins/load
+lib/munin/plugins/memory
 lib/munin/plugins/paging_in
 lib/munin/plugins/paging_out
 lib/munin/plugins/temperature
