@@ -36,7 +36,7 @@ NO_BUILD=		yes
 
 RCD_SCRIPTS=	pyicqt
 
-PYTHON_PATCH_SCRIPTS+=	PyICQt.py
+PYTHON_PATCH_SCRIPTS+=	PyICQt.py tools/*.py
 
 TRANSPORTDIR=		${JABBER_TRANSDIR}/pyicqt
 
@@ -48,7 +48,7 @@ MESSAGE_SUBST+=		HOMEPAGE=${HOMEPAGE}
 
 #INSTALLATION_DIRS+= ${TRANSPORTDIR}
 
-.include "../../wip/jabberd/transports.mk"
+.include "../../chat/ejabberd/transports.mk"
 
 CONF_FILES=	${EGDIR}/pyicqt.xml ${PKG_SYSCONFDIR}/pyicqt.xml
 

@@ -28,6 +28,7 @@ DEPENDS+=	${PYPKGPREFIX}-imaging>=1.1.5:../../graphics/py-imaging
 # EXTRACT_ONLY=		# yes
 NO_BUILD=		yes
 PYTHON_PATCH_SCRIPTS+=	PyAIMt.py
+PYTHON_PATCH_SCRIPTS+=	tools/*.py
 
 # always include bsd.prefs.mk before any .if or .ifdef statements
 .include "../../mk/bsd.prefs.mk"
@@ -42,7 +43,7 @@ PLIST_SUBST+=		TRANSPORTDIR=${TRANSPORTDIR:Q}
 MESSAGE_SUBST+=		PKG_SYSCONFDIR=${PKG_SYSCONFDIR:Q}
 MESSAGE_SUBST+=		HOMEPAGE=${HOMEPAGE:Q}
 
-.include "../../wip/jabberd/transports.mk"
+.include "../../chat/ejabberd/transports.mk"
 
 CONF_FILES=	${EGDIR}/pyaimt.xml ${PKG_SYSCONFDIR}/pyaimt.xml
 
