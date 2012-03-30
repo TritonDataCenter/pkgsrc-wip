@@ -64,5 +64,6 @@ do-install:
 	${INSTALL_MAN} ${WRKSRC}/logrotate.conf.5 ${DESTDIR}${PREFIX}/${PKGMANDIR}/man5
 	${INSTALL_MAN} ${WRKSRC}/logrotate.8 ${DESTDIR}${PREFIX}/${PKGMANDIR}/man8
 
+.include "../../devel/gettext-asprintf/buildlink3.mk"
 .include "../../devel/popt/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
