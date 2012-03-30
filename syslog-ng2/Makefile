@@ -6,17 +6,20 @@ DISTNAME=	syslog-ng-${PKGVERSION}
 PKGNAME=	syslog-ng2-${PKGVERSION}
 
 CATEGORIES=	sysutils net
-MASTER_SITES=	http://www.balabit.com/downloads/files/syslog-ng/sources/stable/src/
-
+MASTER_SITES=	http://www.balabit.com/downloads/files?path=/syslog-ng/open-source-edition/2.0/src/
 MAINTAINER=	pkgsrc@blackmouse.biz
 HOMEPAGE=	http://www.balabit.com/products/syslog-ng/
 COMMENT=	Syslog-ng embodies the next generation of logging systems
+
+BUILD_DEPENDS+=	flex-[0-9]*:../../devel/flex
 
 CONFLICTS=	syslog-ng-[0-9]*
 
 USE_TOOLS+=	pkg-config pax
 
 GNU_CONFIGURE=	yes
+
+LDFLAGS.SunOS+=	-liconv
 
 RCD_SCRIPTS=		syslogng
 PKG_SYSCONFSUBDIR=	syslog-ng
@@ -30,6 +33,12 @@ SUBST_FILES.conf=	doc/man/syslog-ng.8 doc/man/syslog-ng.conf.5 contrib/syslog2ng
 SUBST_SED.conf=		-e "s|/etc/syslog-ng|${PKG_SYSCONFDIR}|g"
 SUBST_SED.conf+=	-e "s|/usr/bin/awk|${AWK}|g"
 SUBST_MESSAGE.conf=	Fixing configuration file paths.
+
+SUBST_CLASSES+=		ll
+SUBST_STAGE.ll=		post-configure
+SUBST_FILES.ll=		Makefile src/Makefile
+SUBST_SED.ll=		-e "s|-ll|-lfl|g"
+SUBST_MESSAGE.ll=	Fixing lex/flex linking.
 
 pre-build:
 	cd ${WRKSRC}/doc/reference && \
@@ -57,4 +66,6 @@ post-install:
 
 .include "../../wip/eventlog/buildlink3.mk"
 .include "../../devel/glib2/buildlink3.mk"
+.include "../../devel/flex/buildlink3.mk"
+.include "../../converters/libiconv/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
