@@ -2424,7 +2424,6 @@ SUBDIR+=	py-numpydoc
 SUBDIR+=	py-nzmath
 SUBDIR+=	py-oak
 SUBDIR+=	py-oasa
-SUBDIR+=	py-oauth
 SUBDIR+=	py-omniORBpy
 SUBDIR+=	py-ontopy
 SUBDIR+=	py-openopt
