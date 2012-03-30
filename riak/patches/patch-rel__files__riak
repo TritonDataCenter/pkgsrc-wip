@@ -2,6 +2,8 @@ $NetBSD$
 
 Avoid sudo -i to make the scripts much more usable.
 Make sure the Erlang cookie file is locked down.
+Make sure we have enough file descriptors (on SunOS).
+Warn against using riak to start/stop rather than SMF.
 --- rel/files/riak.orig	2012-03-07 22:08:10.000000000 +0000
 +++ rel/files/riak
 @@ -23,8 +23,7 @@ if [ "$RUNNER_USER" -a "x$LOGNAME" != "x
@@ -14,7 +16,27 @@ Make sure the Erlang cookie file is locked down.
  fi
  
  # Warn the user if ulimit -n is less than 1024
-@@ -98,6 +97,12 @@ case "$1" in
+@@ -92,12 +91,32 @@ sed -n '/Begin SSL distribution items/,/
+ # Check the first argument for instructions
+ case "$1" in
+     start)
++        if [ "${SMF_METHOD}" != "start" ]; then
++            echo "***"
++            echo "Warning: please use 'svcadm enable riak' instead"
++            echo "***"
++        fi
++
++        # Make sure we have access to enough file descriptors
++        ULIMIT_S=$(prctl -n process.max-file-descriptor -t basic -P $$ | awk '/max-file-descriptor/ { print $3 }')
++        ULIMIT_H=$(prctl -n process.max-file-descriptor -t priv -P $$ | awk '/max-file-descriptor/ { print $3 }')
++        if [ ${ULIMIT_S} -lt ${ULIMIT_H} ]; then
++            echo "Trying to raise the file descriptor limit to maximum allowed."
++            prctl -n process.max-file-descriptor -t basic -v ${ULIMIT_H} $$ || true
++        fi
++
+         # Make sure there is not already a node running
+         RES=`ping_node`
+         if [ "$RES" = "pong" ]; then
              echo "Node is already running!"
              exit 1
          fi
@@ -27,3 +49,16 @@ Make sure the Erlang cookie file is locked down.
          # Sanity check the app.config file
          RES=`$NODETOOL_LITE chkconfig $RUNNER_ETC_DIR/app.config`
          if [ "$RES" != "ok" ]; then
+@@ -138,6 +157,12 @@ case "$1" in
+         ;;
+ 
+     stop)
++        if [ "${SMF_METHOD}" != "stop" ]; then
++            echo "***"
++            echo "Warning: please use 'svcadm disable riak' instead"
++            echo "***"
++        fi
++
+         UNAME_S=`uname -s`
+         case $UNAME_S in
+             Darwin)
