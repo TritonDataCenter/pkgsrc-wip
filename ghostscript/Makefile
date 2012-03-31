@@ -24,6 +24,7 @@ CONFLICTS+=		ghostscript-gnu{,-nox11,-x11}-[0-9]*
 PKG_DESTDIR_SUPPORT=	user-destdir
 
 USE_TOOLS+=		gmake perl:run lex pkg-config
+USE_LANGUAGES+=		c c++
 GNU_CONFIGURE=		yes
 UNLIMIT_RESOURCES+=	datasize	# gsromfs1.c
 
