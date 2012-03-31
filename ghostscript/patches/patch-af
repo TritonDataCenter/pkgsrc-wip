@@ -19,7 +19,7 @@ $NetBSD$
 -LDFLAGS_SO_MAC=-dynamiclib -install_name $(GS_SONAME_MAJOR_MINOR)
 -#LDFLAGS_SO=-dynamiclib -install_name $(FRAMEWORK_NAME)
 +#Darwin#LDFLAGS_SO_MAC=-dynamiclib -install_name $(GS_SONAME_MAJOR_MINOR)
-+#Darwin#LDFLAGS_SO=-dynamiclib -install_name $(FRAMEWORK_NAME)
++#LDFLAGS_SO=-dynamiclib -install_name $(FRAMEWORK_NAME)
  
  GS_SO=$(BINDIR)/$(GS_SONAME)
  GS_SO_MAJOR=$(BINDIR)/$(GS_SONAME_MAJOR) 
