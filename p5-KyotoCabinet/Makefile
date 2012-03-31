@@ -8,7 +8,7 @@ MASTER_SITES=	http://fallabs.com/kyotocabinet/perlpkg/
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://fallabs.com/kyotocabinet/
-COMMENT=	Perl binding of Kyoto Cabinet
+COMMENT=	Perl binding for Kyoto Cabinet
 LICENSE=	gnu-gpl-v3
 
 PKG_DESTDIR_SUPPORT=	user-destdir

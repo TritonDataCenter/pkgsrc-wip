@@ -17,7 +17,7 @@ USE_TOOLS+=	pkg-config
 USE_TOOLS+=	gmake
 USE_LANGUAGES=	c c++
 
-# The TC seem very tight to 64-bit machines;
+# Kyoto Cabinet seem very tied to 64-bit machines;
 # the listed platforms are known as suffering from that
 .include "../../mk/bsd.prefs.mk"
 .if !empty(MACHINE_PLATFORM:MDarwin-*-i386)
