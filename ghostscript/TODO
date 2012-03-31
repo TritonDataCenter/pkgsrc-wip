@@ -1,13 +1,5 @@
 $NetBSD$
 - Review patches/patch-af carefully
-- All the combinations of options and PLIST relations are
-  checked, but some out of 32 combinations fail to build, with
-  the message:
-   ------
-   freetype/include/freetype/internal/t1types.h:113:5: error:
-   expected specifier-qualifier-list before 'T1_EncodingType'
-   ------
-  Seems fontconfig needs x11 always ?
 
 - pdftoraster seems gone compared to 9.0.4, (with cups only)
   -${PLIST.cups}libexec/cups/filter/pdftoraster
