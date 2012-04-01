@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	ushare-1.1a
-PKGREVISION=	1
+PKGREVISION=	3
 CATEGORIES=	net multimedia
 MASTER_SITES=	http://ushare.geexbox.org/releases/
 EXTRACT_SUFX=	.tar.bz2
