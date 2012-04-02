@@ -36,7 +36,7 @@ $NetBSD$
 +
 +# Why does this fail on NetBSD?
 +#              PARLIB = -L${LOCALBASE}/lib -lmetis
-+              PARLIB = ${WRKSRC}/METIS_source/libmetis.a
++              PARLIB = METIS_source/libmetis.a
  
  # For Typhoeus and Hydra
  #              PARLIB = -L/usr/local/lib -lmetis 
@@ -77,9 +77,11 @@ $NetBSD$
  # Use 'OPT = -O0 -g'  for fast compile to test the make 
  # Use 'OPT = -xP'      for fast run on em64t (Hydra, Typhoeus and Guppy)
  # Use 'OPT = -xN'      for fast run on em64t (Salmon and Minke)
-@@ -398,12 +401,12 @@
+@@ -397,13 +400,13 @@
+ #         LDFLAGS  = $(VISITLIBPATH)
  #--------------------------------------------------------------------------
  #  gfortran defs 
++#  Take CC, FC, etc. from environment.  Set by the pkgsrc framework
  #--------------------------------------------------------------------------
 -#         CPP      = /usr/bin/cpp 
 -#         CPPFLAGS = $(DEF_FLAGS)  -DGFORTRAN
@@ -89,7 +91,6 @@ $NetBSD$
 -#         CLIB     = 
 +         CPP      = cpp 
 +         CPPFLAGS = $(DEF_FLAGS)  -DGFORTRAN
-+         FC       = g95
 +         DEBFLGS  = 
 +         OPT      = -O
 +         CLIB     = 

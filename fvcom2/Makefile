@@ -17,6 +17,7 @@ WRKSRC=		${WRKDIR}/FVCOM2.7.1/FVCOM_source
 
 USE_TOOLS+=	make
 USE_LANGUAGES=	c fortran
+FC=		gfortran
 
 DEPENDS+=	metis>=4.0:../../math/metis
 
