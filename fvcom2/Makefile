@@ -9,7 +9,7 @@ MASTER_SITES=	http://fvcom.smast.umassd.edu/FVCOM/password_required/t2/
 MAINTAINER=	jwbacon@tds.net
 HOMEPAGE=	http://fvcom.smast.umassd.edu/FVCOM/password_required/t2/
 COMMENT=	Prognostic coastal ocean circulation model
-LICENSE=	fvcom-license
+#LICENSE=	fvcom-license
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
