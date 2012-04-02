@@ -16,7 +16,7 @@ Warn against using riak to start/stop rather than SMF.
  fi
  
  # Warn the user if ulimit -n is less than 1024
-@@ -92,12 +91,32 @@ sed -n '/Begin SSL distribution items/,/
+@@ -92,12 +91,35 @@ sed -n '/Begin SSL distribution items/,/
  # Check the first argument for instructions
  case "$1" in
      start)
@@ -34,6 +34,9 @@ Warn against using riak to start/stop rather than SMF.
 +            prctl -n process.max-file-descriptor -t basic -v ${ULIMIT_H} $$ || true
 +        fi
 +
++        # Make sure we preload extendedFILE.so.1 so that 32bit eleveldb works on SunOS
++        export LD_PRELOAD_32=${LD_PRELOAD_32}:/usr/lib/extendedFILE.so.1
++
          # Make sure there is not already a node running
          RES=`ping_node`
          if [ "$RES" = "pong" ]; then
@@ -49,7 +52,7 @@ Warn against using riak to start/stop rather than SMF.
          # Sanity check the app.config file
          RES=`$NODETOOL_LITE chkconfig $RUNNER_ETC_DIR/app.config`
          if [ "$RES" != "ok" ]; then
-@@ -138,6 +157,12 @@ case "$1" in
+@@ -138,6 +160,12 @@ case "$1" in
          ;;
  
      stop)
@@ -62,3 +65,32 @@ Warn against using riak to start/stop rather than SMF.
          UNAME_S=`uname -s`
          case $UNAME_S in
              Darwin)
+@@ -210,11 +238,28 @@ case "$1" in
+         ;;
+ 
+     console)
++        # Make sure we preload extendedFILE.so.1 so that 32bit eleveldb works on SunOS
++        export LD_PRELOAD_32=${LD_PRELOAD_32}:/usr/lib/extendedFILE.so.1
++
++        # Make sure we have access to enough file descriptors
++        ULIMIT_S=$(prctl -n process.max-file-descriptor -t basic -P $$ | awk '/max-file-descriptor/ { print $3 }')
++        ULIMIT_H=$(prctl -n process.max-file-descriptor -t priv -P $$ | awk '/max-file-descriptor/ { print $3 }')
++        if [ ${ULIMIT_S} -lt ${ULIMIT_H} ]; then
++            echo "Trying to raise the file descriptor limit to maximum allowed."
++            prctl -n process.max-file-descriptor -t basic -v ${ULIMIT_H} $$ || true
++        fi
++
+         RES=`ping_node`
+         if [ "$RES" = "pong" ]; then
+             echo "Node is already running - use '$SCRIPT attach' instead"
+             exit 1
+         fi
++
++        # Cookie file should exist now, set proper permissions
++        if [ -f $PLATFORM_DATA_DIR/.erlang.cookie ]; then
++            chmod 400 $PLATFORM_DATA_DIR/.erlang.cookie
++        fi
++
+         # Sanity check the app.config file
+         RES=`$NODETOOL_LITE chkconfig $RUNNER_ETC_DIR/app.config`
+         if [ "$RES" != "ok" ]; then
