@@ -2681,6 +2681,7 @@ SUBDIR+=	re2
 SUBDIR+=	readseq
 SUBDIR+=	realtimebattle
 SUBDIR+=	realvnc
+SUBDIR+=	recutils
 SUBDIR+=	redfang
 SUBDIR+=	redis
 SUBDIR+=	redland
