@@ -40,18 +40,6 @@ BUILD_DEPENDS+=		flex>=2.5.35:../../devel/flex
 BUILD_DEPENDS+=		help2man>=1.36:../../converters/help2man
 
 #
-# Disable some warnings so that the package builds.
-#
-CFLAGS+=		-Wno-unused-label
-CFLAGS+=		-Wno-unused-function
-CFLAGS+=		-Wno-char-subscripts
-CFLAGS+=		-Wno-unsafe-loop-optimizations
-CFLAGS+=		-Wno-uninitialized
-CFLAGS+=		-Wno-format
-CFLAGS+=		-Wno-missing-noreturn
-CFLAGS+=		-Wno-shadow
-
-#
 # The configure script sets the variables `target_cpu' and `platform', which
 # are used for the location of the library directory.  The following mimics
 # the configure script's behavior for i386 and x86_64.
