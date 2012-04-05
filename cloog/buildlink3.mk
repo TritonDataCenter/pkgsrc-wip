@@ -6,7 +6,6 @@ BUILDLINK_TREE+=	cloog
 CLOOG_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.cloog+=	cloog>=0.16.2
-BUILDLINK_ABI_DEPENDS.cloog?=	cloog>=0.16.2
 BUILDLINK_PKGSRCDIR.cloog?=	../../wip/cloog
 
 .endif # CLOOG_BUILDLINK3_MK
