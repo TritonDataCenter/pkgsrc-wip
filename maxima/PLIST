@@ -1783,6 +1783,7 @@ share/maxima/${PKGVERSION}/tests/rtest_lambert_w.mac
 share/maxima/${PKGVERSION}/tests/rtest_log.mac
 share/maxima/${PKGVERSION}/tests/rtest_map.mac
 share/maxima/${PKGVERSION}/tests/rtest_mset.mac
+share/maxima/${PKGVERSION}/tests/rtest_numth.mac
 share/maxima/${PKGVERSION}/tests/rtest_plot.mac
 share/maxima/${PKGVERSION}/tests/rtest_power.mac
 share/maxima/${PKGVERSION}/tests/rtest_round.mac
