@@ -216,7 +216,7 @@ GENERATE_PLIST+=                                                        \
 .include "../../devel/zlib/buildlink3.mk"
 .include "../../math/mpfr/buildlink3.mk"
 .include "../../converters/libiconv/buildlink3.mk"
-.include "../../wip/cloog/buildlink3.mk"
+.include "../../math/cloog/buildlink3.mk"
 .include "../../wip/ppl/buildlink3.mk"
 .include "../../lang/python/application.mk"
 .include "../../mk/bsd.pkg.mk"
