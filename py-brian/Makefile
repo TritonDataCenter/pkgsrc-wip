@@ -21,8 +21,6 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 USE_LANGUAGES=	c c++
 PYDISTUTILSPKG= yes
 
-PYTHON_VERSIONS_ACCEPTED= 27 26 25
-
 .include "../../devel/py-game/buildlink3.mk"
 .include "../../graphics/py-matplotlib/buildlink3.mk"
 .include "../../lang/python/extension.mk"

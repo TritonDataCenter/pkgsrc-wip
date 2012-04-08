@@ -19,7 +19,6 @@ USE_LANGUAGES=	# none
 
 PYDISTUTILSPKG=	yes
 PLIST_SUBST+=	PYVERSSUFFIX=${PYVERSSUFFIX}
-PYTHON_VERSIONS_INCOMPATIBLE= 22 21 20 15
 
 post-extract:
 	${MV} ${WRKSRC}/pyswarm/pyswarm-copy.py ${WRKSRC}/pyswarm/pyswarm-copy${PYVERSSUFFIX}

@@ -20,8 +20,6 @@ USE_TOOLS+=		pkg-config intltool msgfmt gmake perl
 USE_PKGLOCALEDIR=	yes
 USE_LANGUAGES=		c c++
 
-PYTHON_VERSIONS_ACCEPTED= 26 25 24 23 22
-
 GCONF_SCHEMAS+=		data/gwyddion-thumbnailer.schemas
 PKGCONFIG_OVERRIDE+=	data/gwyddion.pc.in
 

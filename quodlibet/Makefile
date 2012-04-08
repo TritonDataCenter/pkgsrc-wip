@@ -35,8 +35,5 @@ PYTHON_PATCH_SCRIPTS=	exfalso.py quodlibet.py
 .include "../../sysutils/py-dbus/buildlink3.mk"
 .include "../../x11/py-gtk2/buildlink3.mk"
 .include "../../lang/python/extension.mk"
-.if ${PYVERSSUFFIX} == "2.4"
-DEPENDS+=	${PYPKGPREFIX}-ctypes>=1.0.2:../../devel/py-ctypes
-.endif
 .include "../../lang/python/application.mk"
 .include "../../mk/bsd.pkg.mk"

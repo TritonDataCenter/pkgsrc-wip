@@ -17,8 +17,6 @@ USE_LANGUAGES=	# none
 
 DOCDIR=	${PREFIX}/share/doc/py-memcached
 
-PYTHON_VERSIONS_ACCEPTED= 27 26 25 24
-
 INSTALLATION_DIRS=	${DOCDIR}
 
 post-install:

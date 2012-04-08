@@ -18,8 +18,5 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 WRKSRC=		${WRKDIR}/rpyc-3.0.7
 USE_LANGUAGES=	# none
 
-PYTHON_VERSIONS_INCOMPATIBLE= \
-											23 22 21 20 15
-
 .include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"

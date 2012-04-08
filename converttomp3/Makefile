@@ -18,7 +18,7 @@ DEPENDS+=	mplayer-[0-9]*:../../multimedia/mplayer
 PKG_DESTDIR_SUPPORT=	user-destdir
 
 USE_LANGUAGES=			# none
-PYTHON_VERSIONS_ACCEPTED=	25 24
+PYTHON_VERSIONS_ACCEPTED=	25
 NO_BUILD=			yes
 WRKSRC=				${WRKDIR}
 

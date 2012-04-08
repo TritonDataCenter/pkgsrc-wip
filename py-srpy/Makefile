@@ -20,8 +20,6 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 USE_TOOLS+=	pax
 USE_LANGUAGES=	# none
 
-PYTHON_VERSIONS_ACCEPTED= 27 26 25
-
 HTMLDIR=	${PREFIX}/share/doc/html/py-srpy
 
 INSTALLATION_DIRS+=	share/doc/py-srpy ${HTMLDIR}

@@ -18,7 +18,6 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 PYDISTUTILSPKG=			yes
 REPLACE_PYTHON=			nltk/corpus/reader/knbc.py
 REPLACE_PYTHON+=		nltk/stem/rslp.py
-PYTHON_VERSIONS_INCOMPATIBLE=	24 31
 
 .include "../../lang/python/application.mk"
 .include "../../lang/python/extension.mk"

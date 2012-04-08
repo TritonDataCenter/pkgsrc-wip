@@ -18,7 +18,6 @@ WRKSRC=		${WRKDIR}/uncertainties-1.7.1
 USE_LANGUAGES=	# none
 
 PYDISTUTILSPKG=	yes
-PYTHON_VERSIONS_ACCEPTED= 27 26 25
 
 .include "../../lang/python/extension.mk"
 .include "../../math/py-numpy/buildlink3.mk"

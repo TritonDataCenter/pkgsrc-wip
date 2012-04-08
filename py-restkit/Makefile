@@ -24,7 +24,5 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 WRKSRC=		${WRKDIR}/restkit-2.0.4
 USE_LANGUAGES=	# none
 
-PYTHON_VERSIONS_INCOMPATIBLE= 24 23 22 21 20
-
 .include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"

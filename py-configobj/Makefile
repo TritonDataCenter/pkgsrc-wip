@@ -18,7 +18,6 @@ WRKSRC=		${WRKDIR}/configobj-4.7.2
 USE_LANGUAGES=	# none
 
 PYDISTUTILSPKG=	yes
-PYTHON_VERSIONS_ACCEPTED= 27 26 25 24
 
 .include "../../lang/python/extension.mk"
 .include "../../mk/bsd.pkg.mk"

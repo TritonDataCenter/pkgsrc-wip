@@ -14,8 +14,6 @@ LICENSE=	2-clause-bsd
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
-PYTHON_VERSIONS_ACCEPTED= 27 26 25
-
 WRKSRC=	${WRKDIR}/Shapely-1.2.14
 
 .include "../../lang/python/egg.mk"

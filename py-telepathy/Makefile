@@ -17,7 +17,6 @@ GNU_CONFIGURE=    yes
 USE_TOOLS+=	gmake
 USE_LANGUAGES=    # none
 
-PYTHON_VERSIONS_ACCEPTED= 27 26 25 24
 PY_PATCHPLIST=	 yes
 
 .include "../../lang/python/extension.mk"

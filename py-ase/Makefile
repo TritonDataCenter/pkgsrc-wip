@@ -19,16 +19,12 @@ FETCH_BEFORE_ARGS=	--no-check-certificate
 
 USE_LANGUAGES=	# none
 
-PYTHON_VERSIONS_ACCEPTED= 27 26 25 24
 PYDISTUTILSPKG=	yes
 
 .include "../../devel/pango/buildlink3.mk"
 .include "../../devel/py-gobject/buildlink3.mk"
 .include "../../graphics/py-matplotlib/buildlink3.mk"
 .include "../../lang/python/extension.mk"
-.if ${PYVERSSUFFIX} == "2.4"
-DEPENDS+=	${PYPKGPREFIX}-ctypes>=1.0.2:../../devel/py-ctypes
-.endif
 .include "../../math/py-Numeric/buildlink3.mk"
 .include "../../math/py-numpy/buildlink3.mk"
 #.include "../../x11/py-gtk2/buildlink3.mk"

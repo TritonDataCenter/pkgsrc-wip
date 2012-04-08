@@ -15,13 +15,7 @@ COMMENT=	Library for running multiple Python processes using the threading API
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
-#python section
-PYTHON_VERSIONS_INCOMPATIBLE=  \
-			23 22 21 20 15
 PYDISTUTILSPKG=	yes
 
 .include "../../lang/python/extension.mk"
-.if ${PYVERSSUFFIX} == "2.4"
-DEPENDS+=	${PYPKGPREFIX}-ctypes>=1.0.2:../../devel/py-ctypes
-.endif
 .include "../../mk/bsd.pkg.mk"

@@ -20,7 +20,6 @@ USE_LIBTOOL=	yes
 USE_TOOLS+=	pkg-config intltool gmake
 USE_LANGUAGES=	c c++
 
-PYTHON_VERSIONS_ACCEPTED=   27 26 25
 PY_PATCHPLIST=		yes
 
 .include "../../devel/libglade/buildlink3.mk"
