@@ -13,6 +13,8 @@ HOMEPAGE=		http://www.libreoffice.org/
 COMMENT=		Office productivity suite
 LICENSE=		gnu-lgpl-v3
 
+NOT_FOR_PLATFORM=	NetBSD-6.*-*
+
 PKG_DESTDIR_SUPPORT=	user-destdir
 CHECK_SHLIBS_SUPPORTED=	no
 
