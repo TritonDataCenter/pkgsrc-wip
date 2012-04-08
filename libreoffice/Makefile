@@ -122,6 +122,12 @@ SUBST_FILES.libpath=	set_soenv.in
 SUBST_SED.libpath=		-e 's,@LIBPATH@,${LIBPATH},g'
 SUBST_MESSAGE.libpath=	Fixing library path for dmake scripts
 
+SUBST_CLASSES+=			localbase
+SUBST_STAGE.localbase=		pre-configure
+SUBST_FILES.localbase=		configure.in
+SUBST_SED.localbase=		-e 's,@LOCALBASE@,${PREFIX},'
+SUBST_MESSAGE.localbase=	Fixing executable path for configure script
+
 REPLACE_PERL=	sd/res/webview/editpic.pl
 REPLACE_PERL+=	sd/res/webview/poll.pl
 REPLACE_PERL+=	sd/res/webview/savepic.pl
