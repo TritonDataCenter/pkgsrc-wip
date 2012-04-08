@@ -47,7 +47,7 @@ ${PYSITELIB}/common/protocol.pyo
 ${PYSITELIB}/common/version.py
 ${PYSITELIB}/common/version.pyc
 ${PYSITELIB}/common/version.pyo
-${PLIST.eggfile}${PYSITELIB}/${EGG_FILE}
+${PYSITELIB}/${EGG_FILE}
 ${PYSITELIB}/server/__init__.py
 ${PYSITELIB}/server/__init__.pyc
 ${PYSITELIB}/server/__init__.pyo

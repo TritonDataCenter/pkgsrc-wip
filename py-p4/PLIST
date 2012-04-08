@@ -1,5 +1,5 @@
 @comment $NetBSD$
-${PLIST.eggfile}${PYSITELIB}/${EGG_FILE}
+${PYSITELIB}/${EGG_FILE}
 ${PYSITELIB}/P4.py
 ${PYSITELIB}/P4.pyc
 ${PYSITELIB}/P4.pyo

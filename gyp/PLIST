@@ -1,6 +1,6 @@
 @comment $NetBSD$
 bin/gyp
-${PLIST.eggfile}${PYSITELIB}/${EGG_FILE}
+${PYSITELIB}/${EGG_FILE}
 ${PYSITELIB}/gyp/MSVSNew.py
 ${PYSITELIB}/gyp/MSVSNew.pyc
 ${PYSITELIB}/gyp/MSVSNew.pyo
