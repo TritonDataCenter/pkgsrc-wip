@@ -1,8 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	swftools-0.9.1
-PKGREVISION=	1
+DISTNAME=	swftools-0.9.2
 CATEGORIES=	graphics multimedia converters
 MASTER_SITES=	http://www.swftools.org/
 
