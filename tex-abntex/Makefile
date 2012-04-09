@@ -15,5 +15,5 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 
 WRKSRC=		${WRKDIR}/abntex-0.9
 
-.include "../../mk/bsd.pkg.mk"
 .include "../../print/kpathsea/texmf.mk"
+.include "../../mk/bsd.pkg.mk"
