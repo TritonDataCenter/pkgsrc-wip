@@ -1,5 +1,6 @@
 # $NetBSD$
 #
+# TODO: it doesn't compile nor install documentation yet.
 
 DISTNAME=	abntex-0.9-beta2
 CATEGORIES=	print
