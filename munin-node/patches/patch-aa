@@ -50,7 +50,7 @@ $NetBSD$
  
  # Client only - Where plugins should put their states. Must be writable by
  # group "munin", and should be preserved between reboots
-@@ -66,7 +66,7 @@ LOGDIR     = $(PREFIX)/log/munin
+@@ -66,13 +66,13 @@ LOGDIR     = $(PREFIX)/log/munin
  STATEDIR   = $(DESTDIR)/var/run/munin
  
  # The perl interpreter to use
@@ -58,7 +58,15 @@ $NetBSD$
 +PERL       := ${PERL5}
  
  # The python interpreter to use (used by some plugins)
- PYTHON     := /usr/bin/env python
+-PYTHON     := /usr/bin/env python
++PYTHON     := ${PYTHONBIN}
+ 
+ # The ruby interpreter to use (used by some plugins)
+-RUBY       := /usr/bin/env ruby
++RUBY       := ${RUBY}
+ 
+ # The java runtime to use (used by some plugins)
+ JAVARUN    := /usr/bin/java
 @@ -95,11 +95,11 @@ JAVALIBDIR:= $(LIBDIR)
  GOODSH     := $(shell PATH=`getconf PATH` sh -c 'type sh | sed "s/.* //"')
  
