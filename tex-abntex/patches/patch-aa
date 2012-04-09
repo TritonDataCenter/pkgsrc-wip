@@ -7,7 +7,7 @@ $NetBSD$
  #pelo comando kpsewich, na dúvida faça um "make test"
  #TEXDIR= /tmp/test
 -export TEXDIR= ${shell kpsewhich --expand-path='$$TEXMFMAIN'}
-+export TEXDIR=${DESTDIR}/${PREFIX}/share/texmf
++export TEXDIR=${DESTDIR}/${PREFIX}/share/texmf-dist
  
 -export USRLOCAL=/usr/local/bin
 +export USRLOCAL=${DESTDIR}/${PREFIX}/bin
