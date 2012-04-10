@@ -129,6 +129,10 @@ CONFIGURE_ARGS+=	--with-gnu-ld --with-ld=/usr/bin/ld
 CONFIGURE_ARGS+=	--with-gnu-as --with-as=/usr/bin/as
 MAKE_ENV+=		ac_cv_func_clock_gettime=yes
 .endif
+.if ${OPSYS} == "Linux"
+CONFIGURE_ARGS+=	--with-gnu-ld --with-ld=/usr/bin/ld
+CONFIGURE_ARGS+=	--with-gnu-as --with-as=/usr/bin/as
+.endif
 
 CONFIGURE_ENV+=		CONFIG_SHELL=${CONFIG_SHELL}
 
