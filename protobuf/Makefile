@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	protobuf-2.3.0
+DISTNAME=	protobuf-2.4.1
 CATEGORIES=	devel
 MASTER_SITES=	http://protobuf.googlecode.com/files/
 EXTRACT_SUFX=	.tar.bz2
@@ -9,7 +9,7 @@ EXTRACT_SUFX=	.tar.bz2
 MAINTAINER=	elentirmo.gilgalad@gmail.com
 HOMEPAGE=	http://protobuf.googlecode.com/
 COMMENT=	An rpc definition to source compiler by google
-#LICENSE=	# TODO: (see mk/license.mk)
+LICENSE=	modified-bsd
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
