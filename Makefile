@@ -1719,6 +1719,7 @@ SUBDIR+=	openlogos
 SUBDIR+=	openmpi
 SUBDIR+=	openscep
 SUBDIR+=	opensips
+SUBDIR+=	opensmtpd
 SUBDIR+=	opentracker-current
 SUBDIR+=	openttd-opengfx
 SUBDIR+=	openttd-openmsx
