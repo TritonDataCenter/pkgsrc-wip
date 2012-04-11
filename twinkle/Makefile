@@ -32,6 +32,7 @@ SUBST_SED.boost+=	-e 's,boost_regex-gcc,boost_regex-mt,'
 
 LDFLAGS+=		${BUILDLINK_LDADD.oss}
 
+.include "../../security/libgcrypt/buildlink3.mk"
 .include "../../mk/oss.buildlink3.mk"
 .include "../../audio/libsndfile/buildlink3.mk"
 .include "../../devel/readline/buildlink3.mk"
