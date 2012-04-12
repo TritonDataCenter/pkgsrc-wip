@@ -6,3 +6,4 @@ Size (tctool-0.9.7.zip) = 388340 bytes
 SHA1 (patch-aa) = 49360ae23a0d7b4688e541d16c1876a5912581da
 SHA1 (patch-ab) = 682d76cb00e5b7e35debf8704ff3c30eacb05c04
 SHA1 (patch-ac) = 875df68e3eee7ff4defdf6244ace64372610b0c8
+SHA1 (patch-tctool.cpp) = 21a3abedaa1e77c783cecdae8cba8c68173afd41
