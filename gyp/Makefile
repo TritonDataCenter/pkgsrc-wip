@@ -27,7 +27,7 @@ WRKSRC=		${WRKDIR}/gyp
 USE_TOOLS+=	gmake
 USE_LANGUAGES=	c c++
 do-test:
-	${RUN}cd ${WRKSRC}; ${SETENV} ${TEST_ENV} LINK=c++ ${PYTHONBIN} gyptest.py -a --path ${WRKSRC}/test/lib -f make
+	${RUN}cd ${WRKSRC}; ${SETENV} ${TEST_ENV} LINK=c++ ${PYTHONBIN} gyptest.py -a -f make
 
 .include "../../lang/python/distutils.mk"
 .include "../../wip/mk/svn-package.mk"
