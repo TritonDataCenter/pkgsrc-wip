@@ -2560,8 +2560,6 @@ share/emacs/${PKGVERSION}/lisp/mail/mailclient.el.gz
 share/emacs/${PKGVERSION}/lisp/mail/mailclient.elc
 share/emacs/${PKGVERSION}/lisp/mail/mailheader.el.gz
 share/emacs/${PKGVERSION}/lisp/mail/mailheader.elc
-share/emacs/${PKGVERSION}/lisp/mail/mailpost.el.gz
-share/emacs/${PKGVERSION}/lisp/mail/mailpost.elc
 share/emacs/${PKGVERSION}/lisp/mail/metamail.el.gz
 share/emacs/${PKGVERSION}/lisp/mail/metamail.elc
 share/emacs/${PKGVERSION}/lisp/mail/mspools.el.gz
