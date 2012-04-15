@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		pkgin-20120409
+DISTNAME=		pkgin-20120415
 CATEGORIES=		pkgtools
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=pkgin/}
 
@@ -32,6 +32,7 @@ SUBST_SED.path+=	-e "s|/usr/pkg|${PREFIX}|g"
 
 GNU_CONFIGURE=		yes
 USE_FEATURES=		nbcompat
+USE_TOOLS+=		nroff
 CFLAGS+=		-g
 
 DEPENDS+=		pkg_install>=20110215:../../pkgtools/pkg_install
