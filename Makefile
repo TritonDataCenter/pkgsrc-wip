@@ -2287,7 +2287,6 @@ SUBDIR+=	py-kaa-base
 SUBDIR+=	py-kaa-imlib2
 SUBDIR+=	py-kaa-metadata
 SUBDIR+=	py-kcs11
-SUBDIR+=	py-kde4
 SUBDIR+=	py-keyczar
 SUBDIR+=	py-keyring
 SUBDIR+=	py-khayyam
