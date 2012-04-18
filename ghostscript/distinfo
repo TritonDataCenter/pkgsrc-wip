@@ -14,3 +14,4 @@ SHA1 (patch-base_unix-gcc.mak) = 61da47ef24eeb975df28ad2063a3a1235fcd7885
 SHA1 (patch-be) = fde64bd096a6e6f94005c8352a6295df06c19bae
 SHA1 (patch-bf) = 8d6c232221f76fa9fb7110b8b01ae8baf1ac15a9
 SHA1 (patch-freetype_include_freetype_internal_t1types.h) = 2f56641fb51555b83fd313534bd618764365aee0
+SHA1 (patch-openjpeg_libopenjpeg_opj_malloc_h) = 383db0c5909b9d7b33f8da341d82159dbf8594b5

@@ -1,5 +1,9 @@
 $NetBSD$
-- Review patches/patch-af carefully
+- Review patches/patch-af carefully for Darwin
+  (Actually Mac OS X has problem making libgs.9.05.dynlib)
+
+- Build on DragonFly BSD is not tested
+  for the patch-openjpeg_libopenjpeg_opj_malloc_h
 
 - pdftoraster seems gone compared to 9.0.4, (with cups only)
   -${PLIST.cups}libexec/cups/filter/pdftoraster
