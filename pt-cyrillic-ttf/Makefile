@@ -13,14 +13,14 @@ LICENSE=	open-font-license
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
-WRKSRC=		${WRKDIR}
 USE_LANGUAGES=	# none
+NO_BUILD=	yes
+
+WRKSRC=		${WRKDIR}
 
 FONTDIR=		${PREFIX}/lib/X11/fonts/TTF
 FONTS_DIRS.ttf+=	${FONTDIR}
 INSTALLATION_DIRS+=	${FONTDIR}
-
-do-build:
 
 do-install:
 	${INSTALL_DATA} ${WRKSRC}/*.ttf ${DESTDIR}${FONTDIR}
