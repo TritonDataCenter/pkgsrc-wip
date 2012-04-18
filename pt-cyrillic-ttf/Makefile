@@ -1,10 +1,10 @@
 # $NetBSD$
 #
 
-DISTNAME=	pt-cyrillic-ttf-2.005.20101224
+DISTNAME=	pt-cyrillic-ttf-2.005.20120328
 CATEGORIES=	fonts
 MASTER_SITES=	http://www.fontstock.com/public/
-DISTFILES=	PTSans_OFL.zip PTSerifOFL.zip
+DISTFILES=	PTSans_OFL.zip PTSerifOFL.zip PTMonoOFL.zip
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.paratype.com/public/
