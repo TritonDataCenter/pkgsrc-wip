@@ -1,6 +1,6 @@
 @comment $NetBSD$
 bin/panel
-bin/panel_test
+bin/panel-notify
 bin/panelctl
 bin/run
 include/Desktop/Panel.h
@@ -18,8 +18,10 @@ lib/Panel/applets/lock.so
 lib/Panel/applets/logout.so
 lib/Panel/applets/main.so
 lib/Panel/applets/memory.so
+lib/Panel/applets/mixer.so
 lib/Panel/applets/pager.so
 lib/Panel/applets/phone.so
+lib/Panel/applets/rotate.so
 lib/Panel/applets/separator.so
 lib/Panel/applets/spacer.so
 lib/Panel/applets/swap.so
