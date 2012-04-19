@@ -15,3 +15,4 @@ SHA1 (patch-al) = 7613e74e9f158b0c89873bd82aa86f1cefde7571
 SHA1 (patch-an) = 6a767cf8d117583a18efad4ab0807efb08325f40
 SHA1 (patch-ao) = 8a7007aedef8f90a2e950d87a2ed97c4c5be7366
 SHA1 (patch-ap) = 7020f78ac1136c71b2fefd263b003e0bb868ac47
+SHA1 (patch-libiberty_Makefile.in) = e069f6f7ae512fb4cef8dc69e928e086c08c1e2e
