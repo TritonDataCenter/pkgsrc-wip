@@ -198,6 +198,7 @@ do-install:
 #		${DESTDIR}${JAVA_HOME}/jre/javaws/cacerts
 
 .include "../../mk/java-env.mk"
+.include "../../x11/libXft/buildlink3.mk"
 .include "../../x11/libXi/buildlink3.mk"
 .include "../../x11/libXtst/buildlink3.mk"
 .include "../../x11/xextproto/buildlink3.mk"
