@@ -1282,6 +1282,7 @@ SUBDIR+=	libavc1394
 SUBDIR+=	libbrahe
 SUBDIR+=	libbtctl
 SUBDIR+=	libburn
+SUBDIR+=	libcdr
 SUBDIR+=	libcli
 SUBDIR+=	libcm
 SUBDIR+=	libcmt
