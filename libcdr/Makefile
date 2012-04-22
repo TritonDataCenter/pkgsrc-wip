@@ -10,6 +10,8 @@ HOMEPAGE=	http://www.freedesktop.org/wiki/Software/libcdr/
 COMMENT=	Corel Draw file format importer library
 LICENSE=	gnu-lgpl-v2.1 OR mpl-1.1 OR gnu-gpl-v2
 
+BUILD_DEPENDS+=	doxygen-[0-9]*:../../devel/doxygen
+
 PKG_DESTDIR_SUPPORT=	user-destdir
 
 USE_LANGUAGES=	c c++
