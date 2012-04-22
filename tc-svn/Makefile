@@ -46,7 +46,12 @@ SUBST_FILES.tc+=	bushu-util/where
 SUBST_FILES.tc+=	mazegaki/mkcertain.pl
 SUBST_SED.tc+=		-e s\|@PERL@\|${PERL5:Q}\|g
 
-##BUILD_DEPENDS+=		automake14
+# fix hardcoded PATH, interim solution, upstream fix may differ.
+# This edit should be applied before byte compile
+SUBST_CLASSES+=		tc-pre
+SUBST_STAGE.tc-pre=	pre-configure
+SUBST_FILES.tc-pre+=	lisp/tc-pre.el
+SUBST_SED.tc-pre+=	-e s\|/usr/local/share\|${PREFIX}/share\|g
 
 .include "options.mk"
 
