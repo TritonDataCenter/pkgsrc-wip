@@ -21,15 +21,23 @@ pkg_uniq_summary \- filter out repeated package summaries
 .BI pkg_uniq_summary " [OPTIONS] [files...]"
 .SH DESCRIPTION
 .B pkg_uniq_summary
-filters out repeated package summaries.
-Summaries are compared by (PKGPATH, PKGBASE, ASSIGNMENTS) triple.
+filters out repeated package summaries.  Summaries are compared by
+combination of PKGPATH, ASSIGNMENTS, PKGNAME and PKGBASE.
 .SH OPTIONS
 .TP
 .B "-h"
-display help message.
+Display help message.
+.TP
+.BI "-F " fields
+Use the specified
+.I fields
+.RI ( p " - PKGPATH, " n " - PKGNAME, " b " - PKGBASE, " a " - ASSIGMENTS)"
+for package copmparison. The default is
+.BI -F "pab"
 .TP
 .B "-n"
-only PKGBASE field of packages are compared.
+Deprecated. Synonym for
+.BI -F b
 .SH SEE ALSO
 .BR pkg_summary-utils(7) ,
 .BR pkg_summary(5) ,
