@@ -2,7 +2,7 @@ $NetBSD$
 
 --- src/man.conf.in.orig	2005-08-20 23:26:06.000000000 +0000
 +++ src/man.conf.in
-@@ -32,14 +32,13 @@
+@@ -32,14 +32,14 @@
  # This file is also read by man in order to find how to call nroff, less, etc.,
  # and to determine the correspondence between extensions and decompressors.
  #
@@ -15,6 +15,7 @@ $NetBSD$
  MANPATH	/usr/share/man
 -MANPATH	/usr/local/man
 -MANPATH	/usr/local/share/man
++MANPATH	@PREFIX@/gcc*/@PKGMANDIR@
 +MANPATH	@PREFIX@/@PKGMANDIR@
  MANPATH	/usr/X11R6/man
  #
