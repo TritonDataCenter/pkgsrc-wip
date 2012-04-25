@@ -13,7 +13,7 @@ COMMENT=		Imlib2 wrapper for the Kaa multimedia framework
 
 PYDISTUTILSPKG=		yes
 
-PYTHON_VERSIONS_ACCEPTED=	25 24
+PYTHON_VERSIONS_ACCEPTED=	25
 
 .include "../../graphics/imlib2/buildlink3.mk"
 .include "../../lang/python/extension.mk"

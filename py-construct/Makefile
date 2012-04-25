@@ -11,8 +11,6 @@ HOMEPAGE=	http://pypi.python.org/pypi/construct
 COMMENT=	Powerful declarative parser for binary data
 LICENSE=	public-domain
 
-PYTHON_VERSIONS_ACCEPTED=	27 26 25
-
 PKG_DESTDIR_SUPPORT=	user-destdir
 
 PYDISTUTILSPKG=	yes

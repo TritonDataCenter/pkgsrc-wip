@@ -15,4 +15,4 @@ share/locale/ru/LC_MESSAGES/arandr.mo
 share/locale/tr/LC_MESSAGES/arandr.mo
 share/locale/zh_CN/LC_MESSAGES/arandr.mo
 share/applications/arandr.desktop
-${PLIST.eggfile}${PYSITELIB}/${EGG_FILE}
+${PYSITELIB}/${EGG_FILE}

@@ -1,14 +1,12 @@
 # $NetBSD: Makefile,v 1.1.1.1 2011/05/15 00:09:55 wiz Exp $
 
-GCC_VERSION=		4.7
-DISTNAME=		gcc-${GCC_VERSION}-20120324
+GCC_VERSION=		4.7.0
+DISTNAME=		gcc-${GCC_VERSION}
 PKGNAME=		gcc47-${GCC_VERSION}
 CATEGORIES=		wip
-DISTFILES=		${DISTNAME}${EXTRACT_SUFX}
-SITES.gcc-4.7-20120324.tar.bz2= \
-		ftp://ftp.fu-berlin.de/unix/languages/gcc/snapshots/4.7-20120324/
+MASTER_SITES=           ${MASTER_SITE_GNU:=gcc/gcc-${GCC_VERSION}/}
+EXTRACT_SUFX=           .tar.bz2
 
-EXTRACT_SUFX=		.tar.bz2
 
 MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://gcc.gnu.org/
@@ -44,6 +42,16 @@ CONFIGURE_SCRIPT=	$(WRKSRC)/configure
 .include "options.mk"
 
 # Determine whether to use binutils
+.if ${OPSYS} == "SunOS"
+CONFIGURE_ENV+=         OBJDUMP=/usr/sfw/bin/gobjdump
+CONFIGURE_ARGS+=        --without-gnu-ld --with-ld=/usr/ccs/bin/ld
+. if !exists(/usr/sfw/bin/gas)
+CONFIGURE_ARGS+=        --without-gnu-as --with-as=/usr/ccs/bin/as
+. else
+CONFIGURE_ARGS+=        --with-gnu-as --with-as=/usr/sfw/bin/gas
+. endif
+.endif
+
 
 # REPLACE_AWK+=	gcc/testsuite/gcc.test-framework/test-framework.awk	\
 # 		gcc/mkmap-symver.awk					\
@@ -128,6 +136,10 @@ CONFIGURE_ARGS+=	--enable-cloog-backend=isl
 CONFIGURE_ARGS+=	--with-gnu-ld --with-ld=/usr/bin/ld
 CONFIGURE_ARGS+=	--with-gnu-as --with-as=/usr/bin/as
 MAKE_ENV+=		ac_cv_func_clock_gettime=yes
+.endif
+.if ${OPSYS} == "Linux"
+CONFIGURE_ARGS+=	--with-gnu-ld --with-ld=/usr/bin/ld
+CONFIGURE_ARGS+=	--with-gnu-as --with-as=/usr/bin/as
 .endif
 
 CONFIGURE_ENV+=		CONFIG_SHELL=${CONFIG_SHELL}
@@ -216,7 +228,7 @@ GENERATE_PLIST+=                                                        \
 .include "../../devel/zlib/buildlink3.mk"
 .include "../../math/mpfr/buildlink3.mk"
 .include "../../converters/libiconv/buildlink3.mk"
-.include "../../wip/cloog/buildlink3.mk"
-.include "../../wip/ppl/buildlink3.mk"
+.include "../../math/cloog/buildlink3.mk"
+.include "../../math/ppl/buildlink3.mk"
 .include "../../lang/python/application.mk"
 .include "../../mk/bsd.pkg.mk"

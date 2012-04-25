@@ -4,10 +4,10 @@
 DISTNAME=	haze
 PKGNAME=	haze-20071107
 CATEGORIES=	sysutils
-MASTER_SITES=	http://www.NetBSD.org/~elad/
+MASTER_SITES=	# http://www.NetBSD.org/~elad/
 
-MAINTAINER=	haaaad@gmail.com,elad@NetBSD.org
-HOMEPAGE=	http://www.NetBSD.org/~elad/
+MAINTAINER=	haaaad@gmail.com
+HOMEPAGE=	# http://www.NetBSD.org/~elad/
 COMMENT=	Offer a system to generate binary updates for NetBSD
 
 WRKSRC=	${WRKDIR}/haze

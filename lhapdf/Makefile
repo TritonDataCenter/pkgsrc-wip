@@ -19,8 +19,6 @@ GNU_CONFIGURE=	yes
 CONFIG_SHELL+=	bash
 USE_LANGUAGES=	c c++ fortran fortran77
 
-PYTHON_VERSIONS_ACCEPTED= 27 26 25 24 23
-
 #.include "../../lang/gcc3-f77/buildlink3.mk"
 .include "../../lang/python/application.mk"
 .include "../../mk/bsd.pkg.mk"

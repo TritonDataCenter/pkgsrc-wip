@@ -19,7 +19,4 @@ PYDISTUTILSPKG= yes
 BUILD_DEPENDS+= libtunepimp-[0-9]*:../../audio/libtunepimp
 
 .include "../../lang/python/extension.mk"
-.if ${PYVERSSUFFIX} == "2.4"
-BUILD_DEPENDS+= ${PYPKGPREFIX}-ctypes-[0-9]*:../../devel/py-ctypes
-.endif
 .include "../../mk/bsd.pkg.mk"

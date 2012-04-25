@@ -19,7 +19,6 @@ DEPENDS+=	${PYPKGPREFIX}-pyrex-[0-9]*:../../lang/py-pyrex
 PKG_DESTDIR_SUPPORT=	user-destdir
 
 USE_LANGUAGES= c c++
-PYTHON_VERSIONS_ACCEPTED= 27 26 25 24
 PLIST_SUBST+=	PYVERSSUFFIX=${PYVERSSUFFIX:Q}
 
 .include "../../databases/py-bsddb3/buildlink3.mk"

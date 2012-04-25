@@ -14,8 +14,6 @@ COMMENT=		Python tools for manipluating iPod data
 
 PYDISTUTILSPKG=		yes
 PYTHON_PATCH_SCRIPTS=	*.py */*.py
-PYTHON_VERSIONS_INCOMPATIBLE=\
-			15 20 21 22 23
 
 .include "../../lang/python/application.mk"
 .include "../../lang/python/extension.mk"

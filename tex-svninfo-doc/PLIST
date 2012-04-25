@@ -1,0 +1,5 @@
+@comment $NetBSD$
+share/texmf-dist/doc/latex/svninfo/README
+share/texmf-dist/doc/latex/svninfo/svninfo.init
+share/texmf-dist/doc/latex/svninfo/svninfo.pdf
+share/texmf-dist/doc/latex/svninfo/svninfo.ps

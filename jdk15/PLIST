@@ -1487,6 +1487,4 @@ java/jdk-1.5.0/sample/nio/server/Server.java
 java/jdk-1.5.0/sample/nio/server/StringContent.java
 java/jdk-1.5.0/sample/nio/server/URLDumper.java
 java/jdk-1.5.0/src.zip
-${PLIST.jce}java/jdk-1.5.0/jre/lib/security/COPYRIGHT.html
-${PLIST.jce}java/jdk-1.5.0/jre/lib/security/README.txt
 @pkgdir java/jdk-1.5.0/jre/lib/applet

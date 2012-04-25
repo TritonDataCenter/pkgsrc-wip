@@ -18,8 +18,6 @@ USE_LANGUAGES=	# none
 PYDISTUTILSPKG=		yes
 PY_PATCHPLIST=		yes
 
-PYTHON_VERSIONS_ACCEPTED=  27 26 25 24
-
 INSTALLATION_DIRS+=	share/doc/pyparsing share/doc/html/pyparsing share/examples/pyparsing
 
 post-install:

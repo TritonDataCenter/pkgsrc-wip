@@ -13,7 +13,7 @@ GIT_REPOSITORIES=	distbb
 GIT_REPO.distbb=	git://github.com/cheusov/distbb.git
 .include "../../wip/mk/git-package.mk"
 
-DEPENDS+=	pkg_summary-utils>=0.56.5:../../pkgtools/pkg_summary-utils
+DEPENDS+=	pkg_summary-utils>=0.58.0:../../pkgtools/pkg_summary-utils
 DEPENDS+=	paexec>=0.16.0:../../parallel/paexec
 DEPENDS+=	runawk>=1.1.0:../../lang/runawk
 DEPENDS+=	pipestatus>=0.6.0:../../devel/pipestatus

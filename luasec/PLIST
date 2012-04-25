@@ -1,3 +1,0 @@
-@comment $NetBSD$
-${LUA_CDIR}/ssl.so
-${LUA_LDIR}/ssl.lua

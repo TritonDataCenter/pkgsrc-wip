@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	mupen64plus-bundle-src-1.99.4
+DISTNAME=	mupen64plus-bundle-src-1.99.5
 PKGNAME=	${DISTNAME:S/-bundle-src//}
 CATEGORIES=	emulators
 MASTER_SITES=	http://mupen64plus.googlecode.com/files/
@@ -20,7 +20,9 @@ USE_LIBTOOL=	yes
 #CFLAGS+=	-DNO_ASM=1
 MAKE_ENV+=	PLUGINDIR="${PREFIX}/lib/mupen64plus"
 MAKE_ENV+=	SHAREDIR="${PREFIX}/share/mupen64plus"
+CFLAGS+=	-g
 INSTALL_ENV+=	PREFIX=${PREFIX}
+INSTALL_ENV+=	MANDIR=${PREFIX}/${PKGMANDIR}
 
 .include "options.mk"
 
@@ -31,8 +33,7 @@ do-install:
 		cd ${WRKSRC} && ${SETENV} ${INSTALL_ENV} ${BASH} m64p_install.sh;
 
 #.include "../../x11/gtk2/buildlink3.mk"
-#.include "../../devel/zlib/buildlink3.mk"
-
+.include "../../devel/zlib/buildlink3.mk"
 .include "../../graphics/png/buildlink3.mk"
 .include "../../graphics/freetype2/buildlink3.mk"
 .include "../../devel/SDL/buildlink3.mk"

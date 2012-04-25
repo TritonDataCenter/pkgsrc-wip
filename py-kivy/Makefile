@@ -18,9 +18,6 @@ DEPENDS+=	${PYPKGPREFIX}-multiprocessing>=2.6.2.1:../../devel/py-multiprocessing
 DEPENDS+=	${PYPKGPREFIX}-twisted-[0-9]*:../../net/py-twisted
 DEPENDS+=	${PYPKGPREFIX}-enchant>=1.6.5:../../textproc/py-enchant
 
-# py-ctypes is included in Python 2.5 and higher (Thank you ndb)
-#DEPENDS+=	${PYPKGPREFIX}-ctypes>=1.0.2:../../devel/py-ctypes
-
 PKG_DESTDIR_SUPPORT=	user-destdir
 
 USE_LANGUAGES= c

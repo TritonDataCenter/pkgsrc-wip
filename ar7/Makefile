@@ -3,7 +3,7 @@
 DISTNAME=	ar7-0.1
 CATEGORIES=	net
 MASTER_SITES=	http://home.arcor.de/volpol/ar7/ \
-		http://ftp.backschues.net/pub/driver/sphairon_ar860/
+		ftp://ftp.backschues.net/pub/driver/sphairon_ar860/
 
 MAINTAINER=	schwarz@NetBSD.org
 HOMEPAGE=	${MASTER_SITES}

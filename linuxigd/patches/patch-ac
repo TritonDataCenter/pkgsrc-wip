@@ -2,12 +2,17 @@ $NetBSD$
 
 --- gatedevice.c.orig	2007-02-07 23:07:27.000000000 +0000
 +++ gatedevice.c
-@@ -10,6 +10,11 @@
+@@ -1,4 +1,5 @@
+ #include <syslog.h>
++#include <stdio.h>
+ #include <stdlib.h>
+ #include <upnp/ixml.h>
+ #include <string.h>
+@@ -10,6 +11,10 @@
  #include "gatedevice.h"
  #include "pmlist.h"
  #include "util.h"
 +#if defined(__NetBSD__) || defined(__OpenBSD__)
-+#include <string.h>
 +#include <sys/ioctl.h>
 +#include <sys/socket.h>
 +#endif

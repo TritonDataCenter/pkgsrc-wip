@@ -21,7 +21,7 @@ INSTALLATION_DIRS=	${EMACS_INFOPREFIX} \
 EMACS_MODULES=		base
 
 # Instead of USE_TOOLS+=, avoid to conflict with autoconf
-USE_TOOLS=		aclocal automake14 autoconf213 gmake
+USE_TOOLS=		aclocal automake autoconf gmake
 GNU_CONFIGURE=		YES
 
 CONFIGURE_ARGS+=	${CONFIGURE_ARGS.${EMACS_FLAVOR}}
@@ -46,16 +46,31 @@ SUBST_FILES.tc+=	bushu-util/where
 SUBST_FILES.tc+=	mazegaki/mkcertain.pl
 SUBST_SED.tc+=		-e s\|@PERL@\|${PERL5:Q}\|g
 
-##BUILD_DEPENDS+=		automake14
+# fix hardcoded PATH, interim solution, upstream fix may differ.
+# This edit should be applied before byte compile
+SUBST_CLASSES+=		tc-pre
+SUBST_STAGE.tc-pre=	pre-configure
+SUBST_FILES.tc-pre+=	lisp/tc-pre.el
+SUBST_SED.tc-pre+=	-e s\|/usr/local/share\|${PREFIX}/share\|g
 
 .include "options.mk"
 
 pre-configure:
 		( cd ${WRKSRC} && \
 		aclocal ;\
-		automake-1.4 --add-missing; \
+		automake --add-missing; \
 		autoconf ; \
 		)
+# To avoid byte-compile error 'Invalid syntax ?', convert EUC-JP to UTF-8
+# Just one file is to be converted now,
+.if !empty(EMACS_TYPE:Memacs24)
+post-patch:
+	(cd ${WRKSRC}/lisp; \
+	for i in tc-bushu.el;  \
+	do ${MV} $$i $$i.bak; \
+	iconv -f euc-jp -t utf-8 < $$i.bak >$$i ; \
+	done )
+.endif
 
 post-install:
 	${INSTALL_DATA} ${WRKSRC}/README    		${DESTDIR}${PREFIX}/share/tc/README.euc

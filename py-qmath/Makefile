@@ -18,7 +18,7 @@ WRKSRC=		${WRKDIR}/qmath-0.2.0
 USE_LANGUAGES=	# none
 
 PYDISTUTILSPKG=	yes
-PYTHON_VERSIONS_ACCEPTED=		31 27 26 25 24
+PYTHON_VERSIONS_ACCEPTED=		31 27 26 25
 
 .include "../../lang/python/extension.mk"
 .include "../../mk/bsd.pkg.mk"

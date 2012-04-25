@@ -17,7 +17,7 @@ LICENSE=      gnu-gpl-v2
 PKG_DESTDIR_SUPPORT=	user-destdir
 
 .include "../../lang/php/phpversion.mk"
-.include "../../mk/apachever.mk"
+.include "../../mk/apache.mk"
 DEPENDS+=	${APACHE_PKG_PREFIX}-${PHP_PKG_PREFIX}:../../www/ap-php
 
 USE_TOOLS+= pax

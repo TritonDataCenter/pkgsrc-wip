@@ -2,6 +2,24 @@ $NetBSD$
 
 --- Makefile.orig	2009-09-22 19:45:57.000000000 +0000
 +++ Makefile
+@@ -17,7 +17,7 @@
+ #                           UNCOMMENT TO SELECT DOUBLE PRECISION
+ #--------------------------------------------------------------------------
+ 
+-#            FLAG_1 =  -DDOUBLE_PRECISION 
++            FLAG_1 =  -DDOUBLE_PRECISION 
+ 
+ #--------------------------------------------------------------------------
+ #        SPHERICAL          SELECT SPHERICAL COORDINATES FOR INTEGRATION
+@@ -35,7 +35,7 @@
+ #                           UNCOMMENT TO INCLUDE FLOODYING/DRYING
+ #--------------------------------------------------------------------------
+ 
+-#             FLAG_3 = -DWET_DRY
++             FLAG_3 = -DWET_DRY
+ 
+ #--------------------------------------------------------------------------
+ #        MULTI_PROCESSOR    INCLUDES PARALLELIZATION WITH MPI
 @@ -45,14 +45,17 @@
  #                           UNCOMMENT TO INCLUDE MPI PARALLEL CAPABILITY
  #--------------------------------------------------------------------------
@@ -18,10 +36,19 @@ $NetBSD$
 +
 +# Why does this fail on NetBSD?
 +#              PARLIB = -L${LOCALBASE}/lib -lmetis
-+              PARLIB = ${LOCALBASE}/lib/libmetis.a
++              PARLIB = METIS_source/libmetis.a
  
  # For Typhoeus and Hydra
  #              PARLIB = -L/usr/local/lib -lmetis 
+@@ -67,7 +70,7 @@
+ #                           UNCOMMENT TO INCLUDE WATER QUALITY MODEL
+ #--------------------------------------------------------------------------
+ 
+-#             FLAG_5 = -DWATER_QUALITY
++             FLAG_5 = -DWATER_QUALITY
+ 
+ #--------------------------------------------------------------------------
+ #        NETCDF OUTPUT      DUMP OUTPUT INTO NETCDF FILES (yes/no)
 @@ -78,9 +81,9 @@
  #                           DEFAULT: NO NETCDF OUTPUT
  #                           UNCOMMENT TO INCLUDE NETCDF OUTPUT CAPABILITY
@@ -50,9 +77,11 @@ $NetBSD$
  # Use 'OPT = -O0 -g'  for fast compile to test the make 
  # Use 'OPT = -xP'      for fast run on em64t (Hydra, Typhoeus and Guppy)
  # Use 'OPT = -xN'      for fast run on em64t (Salmon and Minke)
-@@ -398,12 +401,12 @@
+@@ -397,13 +400,13 @@
+ #         LDFLAGS  = $(VISITLIBPATH)
  #--------------------------------------------------------------------------
  #  gfortran defs 
++#  Take CC, FC, etc. from environment.  Set by the pkgsrc framework
  #--------------------------------------------------------------------------
 -#         CPP      = /usr/bin/cpp 
 -#         CPPFLAGS = $(DEF_FLAGS)  -DGFORTRAN
@@ -62,7 +91,6 @@ $NetBSD$
 -#         CLIB     = 
 +         CPP      = cpp 
 +         CPPFLAGS = $(DEF_FLAGS)  -DGFORTRAN
-+         FC       = g95
 +         DEBFLGS  = 
 +         OPT      = -O
 +         CLIB     = 

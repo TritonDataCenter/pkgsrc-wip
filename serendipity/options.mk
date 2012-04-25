@@ -19,7 +19,7 @@ DEPENDS+=	php>=5.2.4:../../lang/php5
 .endif
 
 .if !empty(PKG_OPTIONS:Map-php)
-.  include "../../mk/apachever.mk"
+.  include "../../mk/apache.mk"
 DEPENDS+=	${APACHE_PKG_PREFIX}-${PHP_PKG_PREFIX}>=4.3.0:../../www/ap-php
 .endif
 

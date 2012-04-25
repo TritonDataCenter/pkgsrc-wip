@@ -9,7 +9,7 @@ MASTER_SITES=	http://www.cacti.net/downloads/spine/
 MAINTAINER=	pettai@nordu.net
 HOMEPAGE=	http://www.cacti.net/spine_info.php
 COMMENT=	Spine is a poller for Cacti for large installations
-LICENSE=	gnu-gpl-v2
+LICENSE=	gnu-lgpl-v2.1
 
 WRKSRC=		${WRKDIR}/${DISTNAME}
 USE_LANGUAGES=	c c++

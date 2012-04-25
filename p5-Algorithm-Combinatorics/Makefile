@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	Algorithm-Combinatorics-0.26
+DISTNAME=	Algorithm-Combinatorics-0.27
 PKGNAME=	p5-${DISTNAME}
 CATEGORIES=	devel perl5
 MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=Algorithm/}

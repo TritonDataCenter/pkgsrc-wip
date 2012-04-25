@@ -9,6 +9,7 @@ bin/open
 bin/properties
 bin/view
 include/Desktop/Browser.h
+include/Desktop/Browser/desktop.h
 lib/Browser/plugins/cvs.so
 lib/Browser/plugins/dirtree.so
 lib/Browser/plugins/preview.so

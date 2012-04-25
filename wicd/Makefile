@@ -14,7 +14,6 @@ DEPENDS+=	${PYPKGPREFIX}-gtk2>=2.10:../../x11/py-gtk2
 DEPENDS+=	${PYPKGPREFIX}-dbus>=0.80:../../sysutils/py-dbus
 DEPENDS+=	${PYPKGPREFIX}-urwid>=0.9.9:../../devel/py-urwid
 
-PYTHON_VERSIONS_ACCEPTED= 27 26 25 24
 PY_PATCHPLIST = YES
 PYSETUP = setup.py
 

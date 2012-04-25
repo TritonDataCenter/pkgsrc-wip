@@ -12,13 +12,13 @@ LICENSE=	gnu-gpl-v3
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
+DEPENDS+=	bash-[0-9]*:../../shells/bash
+
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_LANGUAGES=	c c++ fortran
 
 CONFIGURE_ARGS+=--with-libctl=${PREFIX}/share/libctl
-
-DEPENDS+=	bash:../../shells/bash
 
 .include "../../wip/harminv/buildlink3.mk"
 .include "../../wip/libctl/buildlink3.mk"

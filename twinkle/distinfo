@@ -8,3 +8,4 @@ SHA1 (patch-ab) = d0f6f84a404dbf36254dd9e7c41a31ecdf97999e
 SHA1 (patch-ac) = 9cf0f0ab78109f91ac243064b8dfad6877960edb
 SHA1 (patch-ad) = bb67de676db72c44ccc9dc66d4c94d45e455e34a
 SHA1 (patch-ae) = e75a3e4c3bb54b1049179bb8e080e0861f61a6a9
+SHA1 (patch-src_log.cpp) = 367cd2c9e536ed52beb61fbe06d8d547d0bcd544

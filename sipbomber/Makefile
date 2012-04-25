@@ -7,7 +7,7 @@ CATEGORIES=	net
 MASTER_SITES=	http://www.sourcefiles.org/Internet/Communications/Telephony/
 
 MAINTAINER=	schwarz@NetBSD.org
-HOMEPAGE=	http://www.metalinkltd.com/downloads.php
+HOMEPAGE=	http://www.sourcefiles.org/Internet/Communications/Telephony/sipbomber_0.8.tar.gz.shtml
 COMMENT=	SipBomber is a SIP protocol testing tool
 LICENSE=	gnu-gpl-v2
 

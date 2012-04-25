@@ -1,6 +1,0 @@
-$NetBSD$
-
-SHA1 (dos2unix-5.3.2.tar.gz) = 0df5fb5fae7758809105a1e6faf454e58d2af681
-RMD160 (dos2unix-5.3.2.tar.gz) = 15440229c1a0cf6ff03bedb2066e0cc48f7f2b28
-Size (dos2unix-5.3.2.tar.gz) = 56719 bytes
-SHA1 (patch-Makefile) = 3f47cf1206227479c1f0d819de1dbf65ea3626d9

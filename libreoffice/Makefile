@@ -1,10 +1,11 @@
 # $NetBSD$
 
-VER=			3.5.1.2
+VER=			3.5.2.2
 DISTNAME=		libreoffice-${VER}
 PKGNAME=		libreoffice-${VER:S/-//g}
+PKG_REVISION=	1
 CATEGORIES=		misc
-MASTER_SITES=	http://download.documentfoundation.org/libreoffice/src/3.5.1/ \
+MASTER_SITES=	http://download.documentfoundation.org/libreoffice/src/3.5.2/ \
 		http://dev-www.libreoffice.org/src/ \
 		http://www.numbertext.org/linux/
 
@@ -12,6 +13,8 @@ MAINTAINER=		ftigeot@wolfpond.org
 HOMEPAGE=		http://www.libreoffice.org/
 COMMENT=		Office productivity suite
 LICENSE=		gnu-lgpl-v3
+
+NOT_FOR_PLATFORM=	NetBSD-6.*-*
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 CHECK_SHLIBS_SUPPORTED=	no
@@ -30,6 +33,7 @@ MORE_DISTFILES= \
 	48a9f787f43a09c0a9b7b00cd1fddbbf-hyphen-2.7.1.tar.gz \
 	7c2549f6b0a8bb604e6c4c729ffdcfe6-libcmis-0.1.0.tar.gz \
 	0be45d54cc5e1c2e3102e32b8c190346-liberation-fonts-ttf-1.07.1.tar.gz \
+	067201ea8b126597670b5eff72e1f66c-mythes-1.2.0.tar.gz \
 	fdb27bfe2dbe2e7b57ae194d9bf36bab-SampleICC-1.3.2.tar.gz \
 	1f24ab1d39f4a51faf22244c94a6203f-xmlsec1-1.2.14.tar.gz
 
@@ -121,6 +125,12 @@ SUBST_FILES.libpath=	set_soenv.in
 SUBST_SED.libpath=		-e 's,@LIBPATH@,${LIBPATH},g'
 SUBST_MESSAGE.libpath=	Fixing library path for dmake scripts
 
+SUBST_CLASSES+=			localbase
+SUBST_STAGE.localbase=		pre-configure
+SUBST_FILES.localbase=		configure.in
+SUBST_SED.localbase=		-e 's,@LOCALBASE@,${PREFIX},'
+SUBST_MESSAGE.localbase=	Fixing executable path for configure script
+
 REPLACE_PERL=	sd/res/webview/editpic.pl
 REPLACE_PERL+=	sd/res/webview/poll.pl
 REPLACE_PERL+=	sd/res/webview/savepic.pl
@@ -184,6 +194,7 @@ post-install:
 .include "../../textproc/expat/buildlink3.mk"
 .include "../../textproc/hunspell/buildlink3.mk"
 .include "../../textproc/icu/buildlink3.mk"
+.include "../../textproc/libclucene/buildlink3.mk"
 .include "../../textproc/libxml2/buildlink3.mk"
 .include "../../textproc/libxslt/buildlink3.mk"
 .include "../../textproc/redland/buildlink3.mk"

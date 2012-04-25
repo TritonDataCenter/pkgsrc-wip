@@ -15,7 +15,7 @@ To sort mazegaki.dic in emacs-internal-code order
  	$(RM) -f $@
  	$(EMACS) -q -no-site-file -batch -l $(srcdir)/mk-mzdic
 +	mv mazegaki.dic mazegaki.dic.tmp
-+	$(EMACS) -q -no-site-file -batch -l $(BATCH_SORT) -f batch-sort-file mazegaki.dic.tmp mazegaki.dic
++	$(EMACS) -q -no-site-file -batch -l $(BATCH_SORT) -f batch-sort-file mazegaki.dic.tmp mazegaki.dic euc-japan euc-japan
  
  # pd_kihon.yom: step1
  # 	./step2.pl

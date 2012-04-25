@@ -1,8 +1,8 @@
 $NetBSD$
 
---- console/commands.c.orig	2011-03-06 15:18:26.000000000 +0100
-+++ console/commands.c	2011-03-06 15:18:32.000000000 +0100
-@@ -362,19 +362,19 @@
+--- console/commands.c.orig	2012-04-06 20:23:42.000000000 +0200
++++ console/commands.c	2012-04-06 20:23:57.000000000 +0200
+@@ -381,19 +381,19 @@
  	LPC_COMMAND *cmd;
  
  	/* Isolate first word and args */

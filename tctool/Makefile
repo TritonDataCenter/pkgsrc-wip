@@ -21,6 +21,8 @@ USE_TOOLS+=	gmake
 USE_LANGUAGES=	c++
 INSTALLATION_DIRS=	bin
 
+CXXFLAGS.Linux+=	-DCSTDLIB
+
 BUILD_TARGET=	tctool
 
 do-install:

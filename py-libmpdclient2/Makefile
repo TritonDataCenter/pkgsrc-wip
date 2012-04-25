@@ -13,7 +13,6 @@ COMMENT=	Python bindings to the mpd access library
 
 WRKSRC=		${WRKDIR}/py-libmpdclient2
 
-PYTHON_VERSIONS_ACCEPTED=	24
 PY_PATCHPLIST=	yes
 PYDISTUTILSPKG= yes
 

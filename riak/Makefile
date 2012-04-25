@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		riak-1.1.1
+DISTNAME=		riak-1.1.2
 CATEGORIES=		databases
 MASTER_SITES=		http://downloads.basho.com/riak/${DISTNAME}/
 

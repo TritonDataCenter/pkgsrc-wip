@@ -12,7 +12,7 @@ BUILD_DEPENDS+=		autogen>=5.9:../../devel/autogen
 
 DISTFILES?=		# empty
 BZR_REPOSITORY=		bzr://bzr.savannah.gnu.org/grub/trunk/grub
-BZR_REVISION=		3921
+BZR_REVISION=		4206
 
 pre-extract: do-bzr-extract
 
