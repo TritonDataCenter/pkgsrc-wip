@@ -446,6 +446,7 @@ SUBDIR+=	ditz-commander
 SUBDIR+=	diveintopython
 SUBDIR+=	djview4
 SUBDIR+=	dk-milter
+SUBDIR+=	dlpoly-classic
 SUBDIR+=	dmd
 SUBDIR+=	dmd-bin
 SUBDIR+=	dmt-ux
