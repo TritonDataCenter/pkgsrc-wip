@@ -21,4 +21,6 @@ PKGCONFIG_OVERRIDE+=	cmake/ufc-1.pc.in
 FETCH_USING=	curl
 
 .include "../../lang/python/application.mk"
+.include "../../devel/boost-libs/buildlink3.mk"
+.include "../../wip/swig2/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
