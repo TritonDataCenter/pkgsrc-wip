@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	awesome-3.4.9
+DISTNAME=	awesome-3.4.10
 CATEGORIES=	x11 wm
 MASTER_SITES=	http://awesome.naquadah.org/download/
 EXTRACT_SUFX=	.tar.xz
@@ -23,7 +23,7 @@ PKG_SYSCONFSUBDIR=	xdg/awesome
 
 CMAKE_ARGS+=	-DWITH_DBUS=OFF
 CMAKE_ARGS+=	-DSYSCONFDIR=${PKG_SYSCONFDIR:C/\/xdg\/awesome//}
-CMAKE_ARGS+=	-DCOMPRESS_MANPAGES=${MANZ}
+CMAKE_ARGS+=	-DCOMPRESS_MANPAGES=${MANZ:Q}
 CMAKE_ARGS+=	-DAWESOME_MAN_PATH=${PREFIX}/${PKGMANDIR}
 
 REPLACE_BASH+=	build-utils/gperf.sh
