@@ -1,0 +1,5 @@
+@comment $NetBSD$
+bin/wmsupermon
+share/doc/wmsupermon/README
+share/examples/wmsupermon/wmsupermonrc
+share/pixmaps/wmsupermon.xpm
