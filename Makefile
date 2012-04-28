@@ -3038,6 +3038,7 @@ SUBDIR+=	wmii-devel
 SUBDIR+=	wmitime
 SUBDIR+=	wmname
 SUBDIR+=	wmnetload
+SUBDIR+=	wmsupermon
 SUBDIR+=	wmx
 SUBDIR+=	wmx-gnome
 SUBDIR+=	wordcut
