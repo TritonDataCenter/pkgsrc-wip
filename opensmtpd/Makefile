@@ -19,8 +19,14 @@ USE_TOOLS+=	automake aclocal autoheader autoconf
 
 GNU_CONFIGURE=	yes
 
-SMTPD_CONF=	${PKG_SYSCONFDIR}/smtpd.conf
-CONF_FILES=	${PREFIX}/etc/mail/smtpd.conf ${PKG_SYSCONFDIR}/mail/smtpd.conf
+EXAMPLEDIR=	${PREFIX}/share/examples/opensmtpd
+CONF_FILES=	${EXAMPLEDIR}/smtpd.conf ${PKG_SYSCONFDIR}/smtpd.conf
+
+SUBST_CLASSES+=			exampledir
+SUBST_STAGE.exampledir=		pre-configure
+SUBST_MESSAGE.exampledir=	Fixing exampledir path
+SUBST_FILES.exampledir=		src/Makefile.am
+SUBST_SED.exampledir+=		-e 's,@EXAMPLE_DIR@,${EXAMPLEDIR},'
 
 pre-configure:
 	set -e; cd ${WRKSRC}; \
