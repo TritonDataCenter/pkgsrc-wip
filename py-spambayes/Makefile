@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		spambayes-1.0a7
+DISTNAME=		spambayes-1.1b1
 PKGNAME=		${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=		textproc
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=spambayes/}
@@ -9,6 +9,8 @@ MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=spambayes/}
 MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://spambayes.sourceforge.net/
 COMMENT=		Bayesian anti-spam filter, initially based on the work of Paul Graham
+
+PKG_DESTDIR_SUPPORT=	user-destdir
 
 PY_PATCHPLIST=		yes
 PYDISTUTILSPKG=		yes
