@@ -1,5 +1,5 @@
 @comment $NetBSD$
-${PYSITELIB}/pydec-1.0.0.dev24-py${PYVERSSUFFIX}.egg-info
+${PYSITELIB}/${EGG_NAME}-py${PYVERSSUFFIX}.egg-info
 ${PYSITELIB}/pydec/LICENSE.txt
 ${PYSITELIB}/pydec/__init__.py
 ${PYSITELIB}/pydec/__init__.pyc
