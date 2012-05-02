@@ -1307,6 +1307,7 @@ SUBDIR+=	libfs
 SUBDIR+=	libgadu
 SUBDIR+=	libgda-bdb
 SUBDIR+=	libgda-ldap
+SUBDIR+=	libgda-mdb
 SUBDIR+=	libgda-odbc
 #SUBDIR+=	libgda-sqlite3	# PR pkg/45845
 SUBDIR+=	libgda4
