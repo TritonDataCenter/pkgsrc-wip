@@ -1,6 +1,6 @@
 @comment $NetBSD$
 bin/gyp
-${PYSITELIB}/gyp-0.1-py2.7.egg-info
+${PYSITELIB}/${EGG_FILE}
 ${PYSITELIB}/gyp/MSVSNew.py
 ${PYSITELIB}/gyp/MSVSNew.pyc
 ${PYSITELIB}/gyp/MSVSNew.pyo
