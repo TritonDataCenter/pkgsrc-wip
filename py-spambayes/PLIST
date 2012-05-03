@@ -8,7 +8,6 @@ bin/sb_mboxtrain.py
 bin/sb_notesfilter.py
 bin/sb_pop3dnd.py
 bin/sb_server.py
-bin/sb_smtpproxy.py
 bin/sb_unheader.py
 bin/sb_upload.py
 bin/sb_xmlrpcserver.py

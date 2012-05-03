@@ -2,8 +2,8 @@
 #
 
 DISTNAME=	${PYPKGPREFIX}-pydec-0.67.0
-PKGREVISION=	1
-EGG_NAME=	pydec-1.0.0.dev14
+PKGREVISION=	3
+EGG_NAME=	pydec-1.0.0.dev29
 CATEGORIES=	science python
 
 MAINTAINER=	jihbed.research@gmail.com
@@ -22,6 +22,7 @@ SVN_MODULE.pydec=	pydec
 
 WRKSRC=			${WRKDIR}/pydec
 PLIST_SUBST+=	PYVERSSUFFIX=${PYVERSSUFFIX:Q}
+PLIST_SUBST+=	EGG_INFODIR=${EGG_NAME}-py${PYVERSSUFFIX}.egg-info
 
 .include "../../graphics/py-matplotlib/buildlink3.mk"
 .include "../../lang/python/distutils.mk"

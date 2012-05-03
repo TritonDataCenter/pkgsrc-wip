@@ -15,8 +15,9 @@ LICENSE=	qpl-v1.0 AND gnu-lgpl-v2
 
 # pkgsrc is not currently able to fetch distfiles from https web servers
 # (see mk/fetch/fetch.mk), so you have to use a browser for now.
-FETCH_USING=		wget
-FETCH_BEFORE_ARGS=	--no-check-certificate
+FETCH_USING=		curl
+# FETCH_USING=		wget
+# FETCH_BEFORE_ARGS=	--no-check-certificate
 
 USE_CMAKE=      yes
 USE_LANGUAGES=  c c++

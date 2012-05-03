@@ -16,7 +16,7 @@ $NetBSD$
  
  macro(a_find_library variable library)
 -    find_library(${variable} ${library})
-+    find_library(${variable} ${library} /usr/pkg/lib/ev)
++    find_library(${variable} ${library} PKGPREFIX/lib/ev)
      if(NOT ${variable})
          message(FATAL_ERROR ${library} " library not found.")
      endif()

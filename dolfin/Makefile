@@ -35,6 +35,8 @@ REPLACE_PYTHON+=	scripts/dolfin-convert/dolfin-convert
 
 PKGCONFIG_OVERRIDE+=	cmake/templates/dolfin.pc.in
 
+FETCH_USING=	curl
+
 post-configure:
 	gsed -i'' -e 's|/bin/bash|/usr/pkg/bin/bash|' ${WRKSRC}/dolfin-version
 #.for file in unordered_set.hpp unordered_map.hpp
@@ -61,4 +63,5 @@ pre-install:
 .include "../../wip/swig2/buildlink3.mk"
 .include "../../wip/suitesparse/buildlink3.mk"
 .include "../../textproc/libxml2/buildlink3.mk"
+.include "../../wip/cgal/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

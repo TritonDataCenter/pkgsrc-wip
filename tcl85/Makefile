@@ -38,6 +38,7 @@ CONFIGURE_ARGS+=	--enable-64bit
 DESTDIRPREFIX=          ${DESTDIR}${PREFIX}
 
 post-install:
+	cd ${DESTDIRPREFIX:Q}/bin && ln -s tclsh8.5 tclsh
 	mv ${DESTDIRPREFIX:Q}/lib/tclConfig.sh ${DESTDIRPREFIX:Q}/lib/tcl${TCL_VERSION:C/.[0-9]*$//}
 
 .include "../../mk/bsd.pkg.mk"
