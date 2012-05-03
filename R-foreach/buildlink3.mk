@@ -1,0 +1,13 @@
+# $NetBSD$
+
+BUILDLINK_TREE+=	Rforeach
+
+.if !defined(RFOREACH_BUILDLINK3_MK)
+RFOREACH_BUILDLINK3_MK:=
+
+BUILDLINK_API_DEPENDS.Rforeach+=	R-foreach>=1.4.0
+BUILDLINK_ABI_DEPENDS.Rforeach+=	R-foreach>=1.4.0
+BUILDLINK_PKGSRCDIR.Rforeach?=		../../wip/R-foreach
+.endif # RFOREACH_BUILDLINK3_MK
+
+BUILDLINK_TREE+=	-Rforeach
