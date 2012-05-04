@@ -1,6 +1,0 @@
-===========================================================================
-$NetBSD$
-
-To enable additional modules, you should create .clojure file
-in your working directory, not in home directory.
-===========================================================================
