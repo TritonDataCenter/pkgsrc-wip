@@ -33,6 +33,7 @@ SUBST_STAGE.java=	pre-install
 SUBST_MESSAGE.java=	Set Java
 SUBST_FILES.java=	clj.sh
 SUBST_SED.java=		-e 's,@JAVA_HOME@,${PKG_JAVA_HOME},g'
+SUBST_SED.java+=	-e 's,@SH@,${SH},'
 
 pre-patch:
 	${INSTALL_DATA} ${FILESDIR}/clj.sh ${WRKSRC}
