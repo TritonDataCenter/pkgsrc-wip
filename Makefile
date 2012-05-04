@@ -323,7 +323,6 @@ SUBDIR+=	clisp
 SUBDIR+=	clisp-asdf
 SUBDIR+=	cloc
 SUBDIR+=	clockspeed
-SUBDIR+=	clojure
 SUBDIR+=	clustalx
 SUBDIR+=	clustershell
 SUBDIR+=	cm-unicode-ttf
