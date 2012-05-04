@@ -28,6 +28,7 @@ SUBDIR+=	R-biganalytics
 SUBDIR+=	R-bigmemory
 SUBDIR+=	R-bigtabulate
 SUBDIR+=	R-digest
+SUBDIR+=	R-doParallel
 SUBDIR+=	R-entropy
 SUBDIR+=	R-foreach
 SUBDIR+=	R-gsl
