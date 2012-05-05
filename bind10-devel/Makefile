@@ -1,9 +1,9 @@
 # $NetBSD$
 #
 
-DISTNAME=	bind10-devel-20120119
+DISTNAME=	bind10-devel-20120329
 CATEGORIES=	net
-MASTER_SITES=	ftp://ftp.isc.org/isc/bind10/devel-20120119/
+MASTER_SITES=	ftp://ftp.isc.org/isc/bind10/devel-20120329/
 
 MAINTAINER=	pettai@NetBSD.org
 HOMEPAGE=	ftp://ftp.isc.org/isc/bind10/devel-20120119/
@@ -12,7 +12,8 @@ LICENSE=	isc
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
-PYTHON_VERSIONS_ACCEPTED= 31
+PYTHON_VERSIONS_ACCEPTED=	31
+PYTHON_VERSIONS_INCLUDE_3X=	yes
 
 PLIST_SUBST+=	PYSITELIB="${PYSITELIB}"
 
@@ -32,7 +33,6 @@ USE_LANGUAGES=	c c++
 #CONF_FILES+=	etc/bind10-devel/cmdctl-keyfile.pem \
 #		share/example/bind10-devel/cmdctl-keyfile.pem
 
-.include "../../lang/python31/buildlink3.mk"
 .include "../../security/botan/buildlink3.mk"
 .include "../../devel/log4cplus/buildlink3.mk"
 .include "../../devel/boost-headers/buildlink3.mk"
