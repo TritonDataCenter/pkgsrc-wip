@@ -460,7 +460,6 @@ SUBDIR+=	docbook-xsl-ko
 SUBDIR+=	docbook2X
 SUBDIR+=	dolfin
 SUBDIR+=	doorman
-SUBDIR+=	dos2unix
 SUBDIR+=	dotconf
 SUBDIR+=	dotproject
 SUBDIR+=	dovecot-antispam
