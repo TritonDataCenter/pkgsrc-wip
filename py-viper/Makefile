@@ -3,6 +3,7 @@
 
 DISTNAME=	viper-1.0.0
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
+PKGREVISION=	1
 CATEGORIES=	graphics python
 MASTER_SITES=	http://launchpad.net/fenics-viper/1.0.x/1.0.0/+download/
 
