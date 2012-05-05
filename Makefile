@@ -89,7 +89,6 @@ SUBDIR+=	amanda3-server
 SUBDIR+=	amarok
 SUBDIR+=	analizo
 SUBDIR+=	and
-SUBDIR+=	anki
 SUBDIR+=	ann
 SUBDIR+=	anthy-dic-jis34
 SUBDIR+=	aoeui
