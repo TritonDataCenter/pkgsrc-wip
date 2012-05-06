@@ -446,7 +446,7 @@ $NetBSD$
  }
  
  double get_acpi_temperature(int fd)
-@@ -364,3 +344,156 @@ int get_entropy_poolsize(unsigned int *v
+@@ -364,3 +344,155 @@ int get_entropy_poolsize(unsigned int *v
  {
  	return 1;
  }
@@ -559,7 +559,8 @@ $NetBSD$
 +				processes[j].pid = p[i].p_pid;
 +				processes[j].name = strndup(p[i].p_comm, text_buffer_size);
 +				processes[j].amount = 100.0 * p[i].p_pctcpu / FSCALE;
-+				processes[j].rss = p[i].p_vm_rssize;
++				processes[j].rss = p[i].p_vm_rssize * pagesize;
++				processes[j].vsize = p[i].p_vm_vsize;
 +				j++;
 +			}
 +        }
@@ -569,10 +570,9 @@ $NetBSD$
 +			struct process *tmp, *ttmp;
 +				
 +			tmp = malloc(sizeof(struct process));
-+			tmp->pid = processes[i].pid;
-+			tmp->amount = processes[i].amount;
++			memcpy(tmp, &processes[i], sizeof(struct process));
 +			tmp->name = strndup(processes[i].name, text_buffer_size);
-+			
++
 +			ttmp = mem[i];
 +			mem[i] = tmp;
 +			if (ttmp != NULL) {
@@ -586,8 +586,7 @@ $NetBSD$
 +			struct process *tmp, *ttmp;
 +
 +			tmp = malloc(sizeof(struct process));
-+			tmp->pid = processes[i].pid;
-+			tmp->amount = processes[i].amount;
++			memcpy(tmp, &processes[i], sizeof(struct process));
 +			tmp->name = strndup(processes[i].name, text_buffer_size);
 +			
 +			ttmp = cpu[i];
