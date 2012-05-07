@@ -466,6 +466,7 @@ SUBDIR+=	downtimed
 SUBDIR+=	dpic
 SUBDIR+=	dragbox
 SUBDIR+=	dri
+SUBDIR+=	dropbox
 SUBDIR+=	drow
 SUBDIR+=	drpython
 SUBDIR+=	drumpiler
