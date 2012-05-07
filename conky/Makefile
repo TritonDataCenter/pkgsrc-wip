@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	conky-1.8.1
+DISTNAME=	conky-1.9.0
 CATEGORIES=	sysutils
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=conky/}
 EXTRACT_SUFX=	.tar.bz2

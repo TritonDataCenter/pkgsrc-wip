@@ -1,6 +1,6 @@
 $NetBSD$
 
---- src/Makefile.am.orig	2010-10-05 21:29:36.000000000 +0000
+--- src/Makefile.am.orig	2012-05-03 21:08:27.000000000 +0000
 +++ src/Makefile.am
 @@ -119,9 +119,9 @@ endif
  if BUILD_FREEBSD
