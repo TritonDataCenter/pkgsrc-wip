@@ -1079,6 +1079,7 @@ SUBDIR+=	hydrogen-current
 SUBDIR+=	hyena
 SUBDIR+=	hylafax
 SUBDIR+=	hylafax-devel
+SUBDIR+=	hyperrogue
 SUBDIR+=	hztool
 SUBDIR+=	i3
 SUBDIR+=	i3-devel
