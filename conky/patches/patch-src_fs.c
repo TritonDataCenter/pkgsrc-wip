@@ -1,5 +1,7 @@
 $NetBSD$
 
+Check for sys/statvfs.h.
+
 --- src/fs.c.orig	2012-05-03 21:08:27.000000000 +0000
 +++ src/fs.c
 @@ -44,6 +44,11 @@
