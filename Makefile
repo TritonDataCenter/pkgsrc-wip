@@ -453,7 +453,6 @@ SUBDIR+=	dmt-ux
 SUBDIR+=	dmxproto
 SUBDIR+=	dnrd
 SUBDIR+=	dns2tcp
-SUBDIR+=	dnscheck-engine
 SUBDIR+=	dnswalk
 SUBDIR+=	docbook-xsl-ko
 SUBDIR+=	docbook2X
