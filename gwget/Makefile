@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	gwget-1.0.4
-PKGREVISION=	2
+PKGREVISION=	3
 CATEGORIES=	gnome net
 MASTER_SITES=	${MASTER_SITE_GNOME:=sources/gwget/1.0/}
 EXTRACT_SUFX=	.tar.bz2
