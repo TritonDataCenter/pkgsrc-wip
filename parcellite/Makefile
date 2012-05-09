@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	parcellite-0.9
-PKGREVISION=	1
+PKGREVISION=	2
 CATEGORIES=	editors
 MASTER_SITES=	http://xyhthyx.googlecode.com/files/
 
