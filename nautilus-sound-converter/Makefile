@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	nautilus-sound-converter-1.0.5
+PKGREVISION=	1
 CATEGORIES=	wip
 MASTER_SITES=	http://nautilus-sound-converter.googlecode.com/files/
 EXTRACT_SUFX=	.tar.bz2
