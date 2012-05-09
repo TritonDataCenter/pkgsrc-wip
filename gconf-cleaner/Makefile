@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	gconf-cleaner-0.0.3
-PKGREVISION=	1
+PKGREVISION=	2
 CATEGORIES=	sysutils
 MASTER_SITES=	http://gconf-cleaner.googlecode.com/files/
 
