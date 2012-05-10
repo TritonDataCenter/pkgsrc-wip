@@ -2,8 +2,8 @@
 #
 
 DISTNAME=	d-feet-0.1.14
-EGG_NAME=	d_feet-0.1.14
-PKGREVISION=	1
+EGG_NAME=	${DISTNAME:S|d-|d_|}
+PKGREVISION=	2
 CATEGORIES=	devel python
 MASTER_SITES=	${MASTER_SITE_GNOME:=sources/d-feet/0.1/}
 EXTRACT_SUFX=	.tar.bz2
