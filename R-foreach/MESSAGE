@@ -1,7 +1,7 @@
 ===========================================================================
 $NetBSD$
 
-Please also consider to install one of parallel R backends for %dopar%:
+You may also want to install one of parallel R backends for %dopar%:
 doParallel, doMC, doMPI, or doSNOW.
 
 ===========================================================================
