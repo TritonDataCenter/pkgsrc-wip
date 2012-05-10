@@ -2,8 +2,8 @@
 
 DISTNAME=	fullblogplugin_0.11-r${SVN_REV}
 PKGNAME=	trac-plugins-FullBlog-0.1.1pre${SVN_REV}
-PKGREVISION=	1
-EGG_NAME=	TracFullBlogPlugin-0.11pre${SVN_REV}
+PKGREVISION=	2
+EGG_NAME=	TracFullBlogPlugin-0.1.1
 CATEGORIES=	www
 MASTER_SITES=	-http://trac-hacks.org/changeset/${SVN_REV}/${SVN_MOD}?old_path=/&format=zip
 EXTRACT_SUFX=	.zip

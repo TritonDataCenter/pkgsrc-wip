@@ -3,7 +3,8 @@
 DISTVERS=	0.3.4
 DISTNAME=	TracAuthOpenId-${DISTVERS}
 PKGNAME=	trac-plugins-AuthOpenId-${DISTVERS}
-EGG_NAME=	${PKGNAME}
+PKGREVISION=	1
+EGG_NAME=	${DISTNAME}
 CATEGORIES=	www
 MASTER_SITES=	http://pypi.python.org/packages/source/T/TracAuthOpenId/
 

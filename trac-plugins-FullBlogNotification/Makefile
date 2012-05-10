@@ -2,8 +2,8 @@
 
 DISTNAME=	fullblognotification_0.11-r${SVN_REV}
 PKGNAME=	trac-plugins-FullBlogNotification-0.1pre${SVN_REV}
-PKGREVISION=	# blank on purpose even though pkglint moans
-EGG_NAME=	TracFullBlogNotification-0.1dev
+PKGREVISION=	1
+EGG_NAME=	TracFullBlogNotificationPlugin-0.1
 CATEGORIES=	www
 MASTER_SITES=	-http://trac-hacks.org/changeset/${SVN_REV}/${SVN_MOD}?old_path=/&format=zip
 EXTRACT_SUFX=	.zip
