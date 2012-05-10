@@ -1,0 +1,13 @@
+# $NetBSD$
+
+BUILDLINK_TREE+=	RBiocGenerics
+
+.if !defined(RBIOCGENERICS_BUILDLINK3_MK)
+RBIOCGENERICS_BUILDLINK3_MK:=
+
+BUILDLINK_API_DEPENDS.RBiocGenerics+=	R-BiocGenerics>=0.2.0
+BUILDLINK_ABI_DEPENDS.RBiocGenerics+=	R-BiocGenerics>=0.2.0
+BUILDLINK_PKGSRCDIR.RBiocGenerics?=	../../wip/R-BiocGenerics
+.endif # RBIOCGENERICS_BUILDLINK3_MK
+
+BUILDLINK_TREE+=	-RBiocGenerics
