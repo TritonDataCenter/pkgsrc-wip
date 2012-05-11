@@ -1,9 +1,9 @@
 # $NetBSD$
 #
 
-DISTNAME=	gearmand-0.28
+DISTNAME=	gearmand-0.33
 CATEGORIES=	devel
-MASTER_SITES=	http://launchpadlibrarian.net/91215774/
+MASTER_SITES=	http://launchpadlibrarian.net/104788829/
 
 MAINTAINER=	filip@joyent.com
 HOMEPAGE=	http://gearman.org/

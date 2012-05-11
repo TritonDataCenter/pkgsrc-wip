@@ -1,10 +1,9 @@
 # $NetBSD$
 #
 
-DISTNAME=	parcellite-0.9
-PKGREVISION=	1
+DISTNAME=	parcellite-1.0.1
 CATEGORIES=	editors
-MASTER_SITES=	http://xyhthyx.googlecode.com/files/
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=parcellite/}
 
 MAINTAINER=	pkgsrc-users@netbsd.org
 HOMEPAGE=	http://parcellite.sourceforge.net/

@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	sphinx-2.0.3-release
+DISTNAME=	sphinx-2.0.4-release
 PKGNAME=	${DISTNAME:S/-/search-/:S/-release//}
 CATEGORIES=	databases textproc
 MASTER_SITES=	http://www.sphinxsearch.com/files/
@@ -55,6 +55,7 @@ SUBST_SED.paths+=	-e 's,@PKG_SYSCONFDIR@,${PKG_SYSCONFDIR},g'
 CONFIGURE_DIRS=		.
 CONFIGURE_DIRS+=	api/libsphinxclient
 
+MAKE_JOBS_SAFE=		no
 LDFLAGS.SunOS+=		-lsocket -lnsl
 
 post-install:

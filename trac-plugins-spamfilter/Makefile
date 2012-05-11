@@ -3,7 +3,7 @@
 SVNREV=		9935
 DISTNAME=	TracSpamFilter-0.3.2dev
 PKGNAME=	trac-plugins-spamfilter-0.3.2pre${SVNREV}
-PKGREVISION=	# blank on purpose even though pkglint moans
+PKGREVISION=	1
 EGG_NAME=	${DISTNAME}
 CATEGORIES=	www
 

@@ -2,6 +2,8 @@
 #
 
 DISTNAME=	wicd-1.6.2.2
+EGG_NAME=	${DISTNAME:S|w|W|}
+PKGREVISION=	2
 CATEGORIES=	net
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=wicd/}
 
@@ -16,6 +18,7 @@ DEPENDS+=	${PYPKGPREFIX}-urwid>=0.9.9:../../devel/py-urwid
 
 PY_PATCHPLIST = YES
 PYSETUP = setup.py
+PLIST_SUBST+=	EGG_INFODIR=${EGG_NAME}-py${PYVERSSUFFIX}.egg-info
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 

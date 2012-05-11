@@ -1,1 +1,1 @@
-Fails linking since much stuff is not ported to NetBSD yet.
+Basic sensors + APM now working. Still needs cleanup work plus temperature.

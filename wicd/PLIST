@@ -43,7 +43,7 @@ ${PYSITELIB}/wicd/wnettools.pyo
 ${PYSITELIB}/wicd/wpath.py
 ${PYSITELIB}/wicd/wpath.pyc
 ${PYSITELIB}/wicd/wpath.pyo
-${PYSITELIB}/Wicd-1.6.2.2-py2.6.egg-info
+${PYSITELIB}/${EGG_INFODIR}
 lib/wicd/curses_misc.py
 lib/wicd/autoconnect.py
 lib/wicd/configscript_curses.py

@@ -200,6 +200,7 @@ share/phusion-passenger/source/build/rpm.rb
 share/phusion-passenger/source/build/ruby_extension.rb
 share/phusion-passenger/source/build/ruby_tests.rb
 share/phusion-passenger/source/build/test_basics.rb
+share/phusion-passenger/source/configure
 share/phusion-passenger/source/debian/README.Debian
 share/phusion-passenger/source/debian/changelog
 share/phusion-passenger/source/debian/compat
@@ -224,7 +225,6 @@ share/phusion-passenger/source/doc/Security of user switching support.html
 share/phusion-passenger/source/doc/Security of user switching support.txt
 share/phusion-passenger/source/doc/Users guide Apache with comments.html
 share/phusion-passenger/source/doc/Users guide Apache.html
-share/phusion-passenger/source/doc/Users guide Apache.idmap.txt
 share/phusion-passenger/source/doc/Users guide Apache.txt
 share/phusion-passenger/source/doc/Users guide Nginx.html
 share/phusion-passenger/source/doc/Users guide Nginx.txt
