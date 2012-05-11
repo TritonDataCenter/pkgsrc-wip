@@ -1,4 +1,5 @@
 @comment $NetBSD$
+lib/php/.registry/.channel.pear.horde.org/horde_url.reg
 lib/php/Horde/Url.php
 lib/php/Horde/Url/Exception.php
 lib/php/doc/Horde_Url/COPYING

@@ -14,5 +14,6 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 
 BUILD_DEPENDS+=	${PHP_PKG_PREFIX}-pear-channel-horde-[0-9]*:../../wip/pear-channel-horde
 DEPENDS+=	${PHP_PKG_PREFIX}-pear-Horde_Exception-[0-9]*:../../wip/pear-Horde_Exception
+
 .include "../../lang/php/pear.mk"
 .include "../../mk/bsd.pkg.mk"
