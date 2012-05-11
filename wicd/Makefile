@@ -3,7 +3,7 @@
 
 DISTNAME=	wicd-1.6.2.2
 EGG_NAME=	${DISTNAME:S|w|W|}
-PKGREVISION=	1
+PKGREVISION=	2
 CATEGORIES=	net
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=wicd/}
 
@@ -41,7 +41,7 @@ SUBST_SED.setup+=	-e 's,/usr/bin/,${PREFIX}/bin/,g'
 SUBST_SED.setup+=	-e 's,/usr/sbin/,${PREFIX}/sbin/,g'
 SUBST_SED.setup+=	-e 's,/usr/bin/python,${PYTHONBIN},g'
 
-#ONLY_FOR_PLATFORM= Linux-*-*
+ONLY_FOR_PLATFORM= Linux-*-*
 
 do-configure:
 	cd ${WRKSRC}; \
