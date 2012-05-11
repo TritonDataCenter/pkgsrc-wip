@@ -1,11 +1,11 @@
 @comment $NetBSD$
-${PYSITELIB}/scikits.timeseries-0.91.3-py2.6-nspkg.pth
-${PYSITELIB}/scikits.timeseries-0.91.3-py2.6.egg-info/PKG-INFO
-${PYSITELIB}/scikits.timeseries-0.91.3-py2.6.egg-info/SOURCES.txt
-${PYSITELIB}/scikits.timeseries-0.91.3-py2.6.egg-info/dependency_links.txt
-${PYSITELIB}/scikits.timeseries-0.91.3-py2.6.egg-info/namespace_packages.txt
-${PYSITELIB}/scikits.timeseries-0.91.3-py2.6.egg-info/requires.txt
-${PYSITELIB}/scikits.timeseries-0.91.3-py2.6.egg-info/top_level.txt
+${PYSITELIB}/${EGG_NAME}-nspkg.pth
+${PYSITELIB}/${EGG_INFODIR}/PKG-INFO
+${PYSITELIB}/${EGG_INFODIR}/SOURCES.txt
+${PYSITELIB}/${EGG_INFODIR}/dependency_links.txt
+${PYSITELIB}/${EGG_INFODIR}/namespace_packages.txt
+${PYSITELIB}/${EGG_INFODIR}/requires.txt
+${PYSITELIB}/${EGG_INFODIR}/top_level.txt
 ${PYSITELIB}/scikits/__init__.py
 ${PYSITELIB}/scikits/timeseries/__init__.py
 ${PYSITELIB}/scikits/timeseries/__init__.pyc
