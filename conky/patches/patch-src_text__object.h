@@ -1,6 +1,6 @@
 $NetBSD$
 
---- src/text_object.h.orig	2012-05-10 21:11:13.000000000 +0000
+--- src/text_object.h.orig	2012-05-03 21:08:27.000000000 +0000
 +++ src/text_object.h
 @@ -311,7 +311,8 @@ enum text_object_type {
  	OBJ_pop3_unseen,
