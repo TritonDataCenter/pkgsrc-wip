@@ -16,7 +16,7 @@ USE_TOOLS+=		automake
 MYSQL_VERSION=		${MYSQL_VERSION_DEFAULT}
 
 SPHINX=			sphinx-${SPHINX_VER}-release
-SPHINX_VER=		2.0.3
+SPHINX_VER=		2.0.4
 DISTFILES=		${DEFAULT_DISTFILES} ${SPHINX}.tar.gz
 SITES.${SPHINX}.tar.gz=	http://sphinxsearch.com/files/
 IGNOREFILES+=		${SPHINX}.tar.gz
