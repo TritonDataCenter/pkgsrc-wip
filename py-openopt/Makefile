@@ -5,6 +5,7 @@ VERSION=	0.37
 DISTNAME=	OpenOpt
 EGG_NAME=	openopt-${VERSION}
 PKGNAME=	${PYPKGPREFIX}-${EGG_NAME}
+PKGREVISION=	1
 CATEGORIES=	math python
 MASTER_SITES=	http://openopt.org/images/3/33/
 EXTRACT_SUFX=	.zip

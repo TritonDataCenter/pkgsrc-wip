@@ -2,9 +2,9 @@
 #
 
 DISTNAME=	django-gitrevision-0.1.4
-EGG_NAME=	django_gitrevision
+EGG_NAME=	${DISTNAME:S|o-|o_|:Q}
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
-PKGREVISION=	2
+PKGREVISION=	3
 CATEGORIES=	devel python
 MASTER_SITES=	http://pypi.python.org/packages/source/d/django-gitrevision/
 

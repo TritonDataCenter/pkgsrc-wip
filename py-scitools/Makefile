@@ -3,7 +3,8 @@
 
 DISTNAME=	scitools-0.7
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
-PKGREVISION=	2
+EGG_NAME=	${DISTNAME:S|scitools|SciTools|:Q}
+PKGREVISION=	3
 CATEGORIES=	science python
 MASTER_SITES=	http://scitools.googlecode.com/files/
 
@@ -21,6 +22,7 @@ USE_TOOLS+=	gzip
 USE_LANGUAGES=	# none
 
 PLIST_SUBST+=	PYVERSSUFFIX=${PYVERSSUFFIX}
+PLIST_SUBST+=	EGG_INFODIR=${EGG_NAME}-py${PYVERSSUFFIX}.egg-info
 
 post-extract:
 	gzip -d ${WRKSRC}/doc/man/man1/*.gz

@@ -1,5 +1,5 @@
 @comment $NetBSD$
-${PYSITELIB}/xlwt-${PKGVERSION}-py${PYVERSSUFFIX}.egg-info
+${PYSITELIB}/${EGG_INFODIR}
 ${PYSITELIB}/xlwt/BIFFRecords.py
 ${PYSITELIB}/xlwt/BIFFRecords.pyc
 ${PYSITELIB}/xlwt/BIFFRecords.pyo

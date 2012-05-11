@@ -4,6 +4,7 @@
 DISTNAME=	Beaker-1.5.1
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 EGG_NAME=	${DISTNAME}
+PKGREVISION=	1
 CATEGORIES=	www python
 MASTER_SITES=	http://pypi.python.org/packages/source/B/Beaker/
 

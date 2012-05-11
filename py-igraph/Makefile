@@ -3,7 +3,8 @@
 
 DISTNAME=	python-igraph-0.5.3
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME:S|python-||}
-PKGREVISION=	2
+EGG_NAME=	${DISTNAME:S|n-|n_|:Q}
+PKGREVISION=	3
 CATEGORIES=	graphics math python
 MASTER_SITES=	http://pypi.python.org/packages/source/p/python-igraph/
 
