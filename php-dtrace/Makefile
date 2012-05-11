@@ -11,5 +11,7 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 
 CONFLICTS=		php-dtrace-[0-9]*
 
+MAKE_JOBS_SAFE=		no
+
 .include "../../lang/php/ext.mk"
 .include "../../mk/bsd.pkg.mk"
