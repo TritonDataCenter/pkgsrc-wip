@@ -10,9 +10,11 @@ MAINTAINER=	jwbacon@tds.net
 HOMEPAGE=	https://launchpad.net/ffc
 COMMENT=	C++ code generator for multilinear forms
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 LICENSE=	gnu-lgpl-v3
+
+FETCH_USING=	curl
+
+PKG_DESTDIR_SUPPORT=	user-destdir
 
 PYDISTUTILSPKG=	yes
 
