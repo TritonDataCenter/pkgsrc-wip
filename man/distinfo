@@ -12,4 +12,4 @@ SHA1 (patch-af) = 0d611a641927dd07719fb4d874ce9daaf9126b7c
 SHA1 (patch-configure) = 5c8dd6d5e867a90869a62c04a30de88a20bf6ac7
 SHA1 (patch-gencat_gencat.c) = 50563fd665b5f8916ffdb51339d3fcd02e106772
 SHA1 (patch-src_man.c) = 1d131d963d2e4300de22b383545a99b7529f38cf
-SHA1 (patch-src_man.conf.in) = e0f4fe06516ae40fb3015b1b12c7db07ae6e95a7
+SHA1 (patch-src_man.conf.in) = c0232a2568f801aa802ceec989d9f4a8255e4893
