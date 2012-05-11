@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	Horde_Exception-1.0.9
-CATEGORIES=	local
+CATEGORIES=	devel
 MASTER_SITES=	http://pear.horde.org/get/
 
 MAINTAINER=	frederic@fauberteau.org
