@@ -8,7 +8,7 @@ MASTER_SITES=	http://pear.horde.org/get/
 MAINTAINER=	frederic@fauberteau.org
 HOMEPAGE=	http://pear.horde.org/
 COMMENT=	Support classes
-LICENSE=	gnu-lgpl-v2.1
+LICENSE=	2-clause-bsd
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
