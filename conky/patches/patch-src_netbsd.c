@@ -407,7 +407,7 @@ $NetBSD$
  }
  
  struct cpu_load_struct {
-@@ -273,41 +260,78 @@ struct cpu_load_struct fresh = {
+@@ -273,41 +260,79 @@ struct cpu_load_struct fresh = {
  	{0, 0, 0, 0, 0}
  };
  
@@ -456,6 +456,7 @@ $NetBSD$
 -	if (sysctlbyname("kern.cp_time", &cp_time, &len, NULL, 0) < 0) {
 +	info.cpu_usage[0] = 0;
 +
++	len = sizeof(cp_time[0]) * info.cpu_count;
 +	if (sysctl(mib, 2, cp_time, &len, NULL, 0) < 0) {
  		warn("cannot get kern.cp_time");
 +		free(cp_time);
@@ -509,7 +510,7 @@ $NetBSD$
  {
  	double v[3];
  
-@@ -316,6 +340,8 @@ void update_load_average()
+@@ -316,6 +341,8 @@ void update_load_average()
  	info.loadavg[0] = (float) v[0];
  	info.loadavg[1] = (float) v[1];
  	info.loadavg[2] = (float) v[2];
@@ -518,7 +519,7 @@ $NetBSD$
  }
  
  double get_acpi_temperature(int fd)
-@@ -323,10 +349,6 @@ double get_acpi_temperature(int fd)
+@@ -323,10 +350,6 @@ double get_acpi_temperature(int fd)
  	return -1;
  }
  
@@ -529,7 +530,7 @@ $NetBSD$
  int open_acpi_temperature(const char *name)
  {
  	return -1;
-@@ -364,3 +386,301 @@ int get_entropy_poolsize(unsigned int *v
+@@ -364,3 +387,301 @@ int get_entropy_poolsize(unsigned int *v
  {
  	return 1;
  }
