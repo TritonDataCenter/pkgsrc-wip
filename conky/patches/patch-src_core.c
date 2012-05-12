@@ -54,7 +54,7 @@ $NetBSD$
  		root->prev = obj->prev;
  		switch (obj->type) {
 -#ifndef __OpenBSD__
-+#if !defined(__OpenBSD__) && !defined(__NetBSD__)
++#if !defined(__OpenBSD__)
  			case OBJ_acpitemp:
  				close(data.i);
  				break;
@@ -63,7 +63,7 @@ $NetBSD$
  			case OBJ_pre_exec:
  				break;
 -#ifndef __OpenBSD__
-+#if !defined(__OpenBSD__) && !defined(__NetBSD__)
++#if !defined(__OpenBSD__)
  			case OBJ_battery:
  				free(data.s);
  				break;
