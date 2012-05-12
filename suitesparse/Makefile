@@ -79,11 +79,13 @@ do-build:
 	cd ${WRKSRC_SHARED} ; ${SETENV} ${MAKE_ENV} PICFLAG=${PICFLAG} \
 		${GMAKE} ${_MAKE_JOBS} ${MAKE_ARGS}
 
-post-build:
-	for i in `find ${WRKSRC_SHARED} -type f -name '*.a'` ; do \
-		j=$${i##*/} ; ${LD} -Bshareable -o $${i%.a}.so.${SVERSION} -x \
-		-soname $${j%.a}.so.${SVERSION} --whole-archive $${i} ; \
-	done
+# OS X ld does not support -Bshareable or --whole-archive
+# Find a portable way to add sonames
+#post-build:
+#	for i in `find ${WRKSRC_SHARED} -type f -name '*.a'` ; do \
+#		j=$${i##*/} ; ${LD} -Bshareable -o $${i%.a}.so.${SVERSION} -x \
+#		-soname $${j%.a}.so.${SVERSION} --whole-archive $${i} ; \
+#	done
 
 do-install:
 .for d in AMD BTF CAMD CCOLAMD CHOLMOD COLAMD CXSparse KLU SPQR UMFPACK
