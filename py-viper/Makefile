@@ -11,6 +11,8 @@ MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	https://launchpad.net/fenics-viper
 COMMENT=	Scientific plotter and run-time visualization module
 
+FETCH_USING=	curl
+
 PKG_DESTDIR_SUPPORT=	user-destdir
 
 LICENSE=	gnu-lgpl-v3

@@ -10,6 +10,8 @@ MAINTAINER=	jwbacon@tds.net
 HOMEPAGE=	https://launchpad.net/fiat
 COMMENT=	FInite element Automatic Tabulator
 
+FETCH_USING=	curl
+
 PKG_DESTDIR_SUPPORT=	user-destdir
 
 LICENSE=	gnu-lgpl-v3

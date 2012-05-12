@@ -91,7 +91,7 @@ ${PYSITELIB}/igraph/test/structural.pyo
 ${PYSITELIB}/igraph/test/vertexseq.py
 ${PYSITELIB}/igraph/test/vertexseq.pyc
 ${PYSITELIB}/igraph/test/vertexseq.pyo
-${PYSITELIB}/python_igraph-${PKGVERSION}-py${PYVERSSUFFIX}.egg-info/PKG-INFO
-${PYSITELIB}/python_igraph-${PKGVERSION}-py${PYVERSSUFFIX}.egg-info/SOURCES.txt
-${PYSITELIB}/python_igraph-${PKGVERSION}-py${PYVERSSUFFIX}.egg-info/dependency_links.txt
-${PYSITELIB}/python_igraph-${PKGVERSION}-py${PYVERSSUFFIX}.egg-info/top_level.txt
+${PYSITELIB}/${EGG_INFODIR}/PKG-INFO
+${PYSITELIB}/${EGG_INFODIR}/SOURCES.txt
+${PYSITELIB}/${EGG_INFODIR}/dependency_links.txt
+${PYSITELIB}/${EGG_INFODIR}/top_level.txt
