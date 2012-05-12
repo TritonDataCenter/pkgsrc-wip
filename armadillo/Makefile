@@ -9,7 +9,7 @@ HOMEPAGE=	http://sourceforge.net/projects/arma/
 COMMENT=	C++ template matrix library
 LICENSE=	gnu-lgpl-v3
 
-USE_LANGUAGES+= c c++ fortran
+USE_LANGUAGES+= c c++
 USE_CMAKE=	yes
 
 PKG_DESTDIR_SUPPORT=	user-destdir
