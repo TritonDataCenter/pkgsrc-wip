@@ -1547,6 +1547,7 @@ SUBDIR+=	monotone-cvsimport
 SUBDIR+=	moonlight
 SUBDIR+=	mop
 SUBDIR+=	mopac7
+SUBDIR+=	mopher
 SUBDIR+=	moregroupware
 SUBDIR+=	moto4lin
 SUBDIR+=	mozldap
