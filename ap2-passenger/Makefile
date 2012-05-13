@@ -14,7 +14,7 @@ USE_LANGUAGES=		c c++
 USE_TOOLS+=		pax:build
 
 PKG_DESTDIR_SUPPORT=	user-destdir
-PKG_APACHE_ACCEPTED=	apache2 apache22
+PKG_APACHE_ACCEPTED=	apache2 apache22 apache24
 APACHE_MODULE=		YES
 
 .include "../../mk/bsd.prefs.mk"
