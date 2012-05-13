@@ -10,5 +10,4 @@ SHA1 (patch-ad) = c7fda683b859a8b66e0e6d17fcaf183e7fdab40c
 SHA1 (patch-ae) = 055978c055db764f32c9679858d4421a20794cef
 SHA1 (patch-af) = 0c5f43bec708e096a549befdf1f9eceec861b309
 SHA1 (patch-ext__boost__config__stdlib__libstdcpp3.hpp) = 8fc74788d6dd09cc25bb643031d59c829f18059a
-SHA1 (patch-ext__common__EventedMessageServer.h) = ca59c6f58f673da452e88e74ee7ac8c7b64b8fcd
 SHA1 (patch-lib__phusion_passenger__platform_info__compiler.rb) = 1cb179eee4a733141db172650550865d63455b5a
