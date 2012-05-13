@@ -2663,6 +2663,7 @@ SUBDIR+=	rrdtool
 SUBDIR+=	rsget
 SUBDIR+=	rss-glib
 SUBDIR+=	rst-mode
+SUBDIR+=	rstudio
 SUBDIR+=	rsyslog5
 SUBDIR+=	rsyslog6
 SUBDIR+=	rte
