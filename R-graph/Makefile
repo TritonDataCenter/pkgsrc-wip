@@ -12,7 +12,9 @@ R_PKGVER=	1.34.0
 
 LICENSE=	artistic-2.0
 
-USE_LANGUAGES=  c
+REPLACE_SH+=	inst/unitTests/*.sh
+
+USE_LANGUAGES=	c
 
 .include "../../devel/gettext-lib/buildlink3.mk"
 .include "../../wip/R-BiocGenerics/buildlink3.mk"

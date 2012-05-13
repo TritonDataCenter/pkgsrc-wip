@@ -34,6 +34,9 @@ pre-configure:
 	set -e; cd ${WRKSRC};	\
 	aclocal; autoheader; automake -a --foreign -i; autoconf
 
+post-install:
+	${INSTALL_DATA} files/conkyrc ${DESTDIR}${PREFIX}/${EGDIR}
+
 .include "../../devel/ncurses/buildlink3.mk"
 .include "../../devel/tolua++/buildlink3.mk"
 .include "../../x11/libX11/buildlink3.mk"
