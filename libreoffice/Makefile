@@ -47,6 +47,9 @@ EXTRACT_ONLY+=	libreoffice-${component}-${VER}.tar.xz
 DISTFILES+=		${md}
 .endfor
 
+# ftp: Unsupported URL scheme `https'
+FETCH_USING=		curl
+
 # tar: Invalid header, starting valid header search.
 EXTRACT_USING=		gtar
 
