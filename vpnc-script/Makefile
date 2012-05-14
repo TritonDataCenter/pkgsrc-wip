@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	vpnc-script-2012-05-14
+DISTNAME=	vpnc-script-20120514
 CATEGORIES=	net security
 MASTER_SITES=	# empty
 DISTFILES=	# empty
