@@ -20,7 +20,7 @@ USE_TOOLS+=	gmake pkg-config
 DEPENDS+=	vpnc-script:../../wip/vpnc-script
 
 CONFIGURE_ARGS+=	--sysconfdir=${PKG_SYSCONFDIR}
-CONFIGURE_ARGS+=	--with-vpnc-script=${PKG_SYSCONFDIR}/vpn/vpnc-script
+CONFIGURE_ARGS+=	--with-vpnc-script=${PKG_SYSCONFDIR}/vpnc-script
 CONFIGURE_ARGS+=	--disable-nls
 
 INSTALLATION_DIRS=	sbin include lib ${PKGMANDIR}/man8
