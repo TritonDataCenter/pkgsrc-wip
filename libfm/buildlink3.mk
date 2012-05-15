@@ -6,7 +6,7 @@ BUILDLINK_TREE+=	libfm
 LIBFM_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.libfm+=	libfm>=0.1.15
-BUILDLINK_PKGSRCDIR.libfm?=	../../new/libfm
+BUILDLINK_PKGSRCDIR.libfm?=	../../wip/libfm
 
 #.include "../../devel/glib2/buildlink3.mk"
 .endif	# LIBFM_BUILDLINK3_MK
