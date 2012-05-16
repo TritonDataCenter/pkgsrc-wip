@@ -1,0 +1,4 @@
+@comment $NetBSD$
+bin/lxshortcut
+share/lxshortcut/choose-icon.ui
+share/lxshortcut/lxshortcut.ui

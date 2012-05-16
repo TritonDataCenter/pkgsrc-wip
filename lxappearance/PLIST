@@ -1,0 +1,5 @@
+@comment $NetBSD$
+bin/lxappearance
+man/man1/lxappearance.1
+share/applications/lxappearance.desktop
+share/lxappearance/install-icon-theme.sh

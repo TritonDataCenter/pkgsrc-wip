@@ -2,16 +2,16 @@ $NetBSD$
 
 glib2
 
---- src/nsc-gstreamer.c.orig	2012-05-09 19:26:31.000000000 +0000
-+++ src/nsc-gstreamer.c	2012-05-09 19:27:11.000000000 +0000
-@@ -27,9 +27,7 @@
+--- src/nsc-gstreamer.c.orig	2010-12-18 18:43:57.000000000 +0000
++++ src/nsc-gstreamer.c	2012-05-13 15:03:12.000000000 +0000
+@@ -27,9 +27,8 @@
  #include <config.h>
  
  #include <string.h>
 -#include <glib/gerror.h>
 -#include <glib/gtypes.h>
--#include <glib/gi18n.h>
 +#include <glib.h>
+ #include <glib/gi18n.h>
  #include <glib-object.h>
  #include <gst/gst.h>
  #include <profiles/gnome-media-profiles.h>

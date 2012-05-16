@@ -3,7 +3,7 @@
 
 DISTNAME=	BSD-arc4random-1.50
 PKGNAME=	p5-${DISTNAME}
-CATEGORIES=	wip
+CATEGORIES=	security
 MASTER_SITES=	http://search.cpan.org/CPAN/authors/id/S/SJ/SJSZ/
 
 MAINTAINER=	bsiegert@NetBSD.org
