@@ -10,7 +10,7 @@ COMMENT=		Passenger module for running Rails and Rack applications on Apache2
 PKG_APACHE_ACCEPTED=	apache24 apache22 apache2
 APACHE_MODULE=		YES
 
-DEPENDS+=		ruby[0-9]*-${DISTNAME}:../../wip/ruby-passenger
+DEPENDS+=		${RUBY_PKGPREFIX}-${DISTNAME}:../../wip/ruby-passenger
 
 do-build:
 	cd ${WRKSRC}/build && ${RAKE} apache2:clean apache2
