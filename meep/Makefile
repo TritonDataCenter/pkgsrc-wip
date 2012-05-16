@@ -16,7 +16,7 @@ DEPENDS+=	bash-[0-9]*:../../shells/bash
 
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
-USE_LANGUAGES=	c c++ fortran
+USE_LANGUAGES=	c c++
 
 CONFIGURE_ARGS+=--with-libctl=${PREFIX}/share/libctl
 

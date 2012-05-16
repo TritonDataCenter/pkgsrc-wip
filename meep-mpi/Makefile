@@ -32,5 +32,4 @@ CONFIGURE_ARGS+=--with-libctl=${PREFIX}/share/libctl \
 .include "../../converters/libiconv/buildlink3.mk"
 .include "../../wip/harminv/buildlink3.mk"
 .include "../../parallel/openmpi/buildlink3.mk"
-.include "../../wip/harminv/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
