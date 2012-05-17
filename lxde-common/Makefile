@@ -1,20 +1,23 @@
 # $NetBSD$
 
-DISTNAME=	lxde-common-0.3.2.1
+DISTNAME=	lxde-common-0.5.5
 CATEGORIES=	devel x11
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=lxde/}
-EXTRACT_SUFX=	.tar.bz2
+EXTRACT_SUFX=	.tar.gz
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://lxde.sourceforge.net/
-COMMENT=	Default configuration settings for LXDE
+COMMENT=	Default configuration settings and scripts for LXDE
 LICENSE=	gnu-gpl-v2
 
+DEPENDS+=	dbus>=1:../../sysutils/dbus
+DEPENDS+=	lxpanel>=0:../../wip/lxpanel
+DEPENDS+=	lxsession>=0:../../wip/lxsession
+DEPENDS+=	openbox>=0:../../wm/openbox
+DEPENDS+=	xprop>=0:../../x11/xprop
+
 GNU_CONFIGURE=	yes
-USE_TOOLS+=	pkg-config
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
-.include "../../devel/glib2/buildlink3.mk"
-.include "../../x11/libX11/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
