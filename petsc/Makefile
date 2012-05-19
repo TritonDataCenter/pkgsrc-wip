@@ -17,7 +17,8 @@ HAS_CONFIGURE=		yes
 USE_LANGUAGES=		c c++
 USE_TOOLS+=		perl
 CONFIG_SHELL=		${PYTHONBIN}
-CONFIGURE_SCRIPT=	config/configure.py
+# CONFIGURE_SCRIPT=	config/configure.py
+CONFIGURE_ARGS+=	--prefix=${DESTDIR}${PREFIX}
 
 MAKE_FILE=		makefile
 BUILD_MAKE_FLAGS+=	PETSC_DIR=${WRKSRC}
@@ -25,5 +26,5 @@ BUILD_MAKE_FLAGS+=	PETSC_DIR=${WRKSRC}
 .include "../../lang/python/pyversion.mk" # get python
 .include "../../math/lapack/buildlink3.mk"
 .include "../../math/blas/buildlink3.mk"
-.include "../../mk/mpi.buildlink3.mk"
+# .include "../../mk/mpi.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
