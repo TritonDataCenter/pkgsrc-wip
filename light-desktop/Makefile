@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	light-desktop-0.0
-PKGREVISION=	2
+PKGREVISION=	3
 CATEGORIES=	meta-pkgs x11
 MASTER_SITES=	# empty
 
@@ -23,6 +23,7 @@ DEPENDS+=	gtk2-engines-murrine>=0:../../x11/gtk2-engines-murrine
 DEPENDS+=	leafpad>=0.8.17:../../editors/leafpad
 DEPENDS+=	lxde-common>=0.5:../../wip/lxde-common
 DEPENDS+=	lxpanel>=0:../../wip/lxpanel
+DEPENDS+=	lxterminal>=0:../../wip/lxterminal
 DEPENDS+=	openbox>0:../../wm/openbox
 DEPENDS+=	pcmanfm>=0.5:../../sysutils/pcmanfm
 DEPENDS+=	pnm2ppa>=1.12:../../print/pnm2ppa
