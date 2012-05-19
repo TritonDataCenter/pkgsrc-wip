@@ -7,7 +7,6 @@
 #####################################################################
 
 DISTNAME=		php_manual_${PHP_DOC_LANG}
-PKGNAME=       		php-doc-${PHP_DOC_LANG}-20071125
 WRKSRC=	       		${WRKDIR}
 CATEGORIES=    		misc
 MASTER_SITES=  		${PHP_DOC_MASTER_SITES}
