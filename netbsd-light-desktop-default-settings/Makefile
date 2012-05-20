@@ -17,7 +17,7 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 DEPENDS+=	lightdm-gtk-greeter>=0:../../wip/lightdm-gtk-greeter
 DEPENDS+=	lxsession>=0:../../wip/lxsession
 DEPENDS+	netbsd-icon-theme>=0:../../wip/netbsd-icon-theme
-DEPENDS+=	pcmanfm>=0.5:../../sysutils/pcmanfm
+DEPENDS+=	pcmanfm>=0.5:../../wip/pcmanfm
 
 NO_CHECKSUM=	yes
 NO_BUILD=	yes
