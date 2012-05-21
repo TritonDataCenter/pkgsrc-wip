@@ -25,7 +25,7 @@ XPI_APPS=		firefox firefox36 thunderbird seamonkey
 XPI_ID=			{25A1388B-6B18-46c3-BEBA-A81915D0DE8F}
 XPI_DIR=		lib/xpi/extensions/${XPI_ID}
 
-INSTALLATION_DIRS+=	${EXTENSIONS_DIR}
+INSTALLATION_DIRS+=	${XPI_DIR}
 
 do-install:
 	cd ${WRKSRC} && pax -rw . ${DESTDIR}${PREFIX}/${XPI_DIR}
