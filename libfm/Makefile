@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	libfm-0.1.17
+PKGREVISION=	1
 CATEGORIES=	devel
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=pcmanfm/}
 
@@ -10,6 +11,8 @@ HOMEPAGE=	http://pcmanfm.sourceforge.net/
 COMMENT=	File management library
 
 PKG_DESTDIR_SUPPORT=	user-destdir
+
+DEPENDS=		gio-fam>=0:../../sysutils/gio-fam
 
 GNU_CONFIGURE=		yes
 USE_TOOLS=		intltool pkg-config
