@@ -3,3 +3,4 @@ $NetBSD$
 SHA1 (lightdm-gtk-greeter-1.1.5.tar.gz) = be515e19514b9826ddc4bb8767c30ba90045d1cc
 RMD160 (lightdm-gtk-greeter-1.1.5.tar.gz) = 800e22b7813764bd1246d4f7de0af320aaebed7e
 Size (lightdm-gtk-greeter-1.1.5.tar.gz) = 378649 bytes
+SHA1 (patch-aa) = 216c49ee61b96865ed63752bf73921662476c7f9
