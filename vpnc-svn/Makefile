@@ -72,6 +72,5 @@ CFLAGS.SunOS=	-DLOG_PERROR=0
 .endif
 
 .include "../../security/libgcrypt/buildlink3.mk"
-.include "../../security/gnutls/buildlink3.mk"
 .include "../../wip/mk/svn-package.mk"
 .include "../../mk/bsd.pkg.mk"

@@ -6,6 +6,7 @@ PKG_SUGGESTED_OPTIONS=
 
 .include "../../mk/bsd.prefs.mk"
 .include "../../mk/bsd.options.mk"
+
 .if !empty(PKG_OPTIONS:Mopenssl)
 .include "../../security/openssl/buildlink3.mk"
 SUBST_CLASSES+=		openssl
@@ -14,4 +15,6 @@ SUBST_STAGE.openssl=	post-patch
 SUBST_FILES.openssl=	Makefile
 SUBST_SED.openssl=	-e 's/^.OPENSSL_GPL_VIOLATION/OPENSSL_GPL_VIOLATION/'
 SUBST_SED.openssl+=	-e 's/^.OPENSSLLIBS/OPENSSLLIBS/'
+.else
+.include "../../security/gnutls/buildlink3.mk"
 .endif
