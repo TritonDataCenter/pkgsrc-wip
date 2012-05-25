@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	opensmtpd-201204120900
+DISTNAME=	opensmtpd-201205241358
 CATEGORIES=	mail net
 MASTER_SITES=	http://www.opensmtpd.org/archives/
 
@@ -30,7 +30,7 @@ SUBST_SED.exampledir+=		-e 's,@EXAMPLE_DIR@,${EXAMPLEDIR},'
 
 pre-configure:
 	set -e; cd ${WRKSRC}; \
-	PATH=/bin:/usr/bin:/usr/pkg/bin ./bootstrap
+	./bootstrap
 
 .include "../../devel/libevent/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
