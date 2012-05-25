@@ -69,9 +69,9 @@ do-configure:
 do-install:
 	${INSTALL_DATA_DIR} ${DESTDIR}${EGDIR}
 	cd  ${WRKSRC:Q} &&	\
-	pax -rw -s ',CVS,,' -s ',.*.orig$$,,' bin share ${DESTDIR}${PREFIX}/
+	pax -rw -s ',.*/CVS.*,,' -s ',.*.orig$$,,' bin share ${DESTDIR}${PREFIX}/
 	cd  ${WRKSRC:Q}/etc &&	\
-	pax -rw -s ',CVS,,' -s ',.*.orig$$,,' xdg \
+	pax -rw -s ',.*/CVS.*,,' -s ',.*.orig$$,,' xdg \
 		${DESTDIR}${PREFIX}/share/examples/netbsd-light-desktop/
 
 #         ttf-ubuntu-font-family
