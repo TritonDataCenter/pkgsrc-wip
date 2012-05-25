@@ -10,6 +10,9 @@ HOMEPAGE=	http://www.swftools.org/
 COMMENT=	Collection of SWF manipulation and creation utilities
 LICENSE=	gnu-gpl-v2
 
+# missing fmax(3)
+NOT_FOR_PLATFORM=	NetBSD-[0-4].*-* NetBSD-5.0*-*
+
 PKG_DESTDIR_SUPPORT=	user-destdir
 
 GNU_CONFIGURE=		yes
