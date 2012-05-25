@@ -2,6 +2,7 @@
 #
 
 PKGNAME=	netbsd-light-desktop-artwork-0.0
+PKGREVISION=	1
 DISTNAME=	lubuntu-artwork_0.27
 CATEGORIES=	graphics
 MASTER_SITES=	http://archive.ubuntu.com/ubuntu/pool/universe/l/lubuntu-artwork/
