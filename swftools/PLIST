@@ -3,6 +3,7 @@ bin/as3compile
 bin/font2swf
 bin/gif2swf
 bin/jpeg2swf
+${PLIST.pdf}bin/pdf2pdf
 bin/pdf2swf
 bin/swfbbox
 bin/swfc
@@ -16,6 +17,7 @@ man/man1/as3compile.1
 man/man1/font2swf.1
 man/man1/gif2swf.1
 man/man1/jpeg2swf.1
+${PLIST.pdf}man/man1/pdf2pdf.1
 man/man1/pdf2swf.1
 man/man1/swfbbox.1
 man/man1/swfc.1
