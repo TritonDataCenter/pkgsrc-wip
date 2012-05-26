@@ -7,6 +7,7 @@ PKG_SUPPORTED_OPTIONS=	lame
 
 .if !empty(PKG_OPTIONS:Mlame)
 CONFIGURE_ARGS+=	--enable-lame
+BUILDLINK_INCDIRS.lame=	include/lame
 .include "../../audio/lame/buildlink3.mk"
 .else
 CONFIGURE_ARGS+=	--disable-lame
