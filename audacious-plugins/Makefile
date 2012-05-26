@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	audacious-plugins-3.2.2
+DISTNAME=	audacious-plugins-3.2.3
 CATEGORIES=	wip
 MASTER_SITES=	http://distfiles.audacious-media-player.org/
 EXTRACT_SUFX=	.tar.bz2
