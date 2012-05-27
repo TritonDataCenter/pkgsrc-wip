@@ -16,3 +16,7 @@ PLIST.dtrace=          yes
 .else
 CONFIGURE_ARGS+=       --without-openssl
 .endif
+
+.if empty(PKG_OPTIONS:Msnapshot)
+CONFIGURE_ARGS+=	--without-snapshot
+.endif
