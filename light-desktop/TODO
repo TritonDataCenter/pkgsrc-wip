@@ -22,11 +22,29 @@ libsasl2-modules
 libxp6
 X lightdm
 X lightdm-gtk-greeter 		the only use of gtk3?
-(lubuntu-artwork)
+X lubuntu-artwork			wip/netbsd-light-desktop-artwork
+plus need some netbsd-artwork like:
+	352x125 logout-banner.png
+	1280x1024 netbsd-default-wallpaper.png
+	64x26 (64 width includes 20+ pixels of transparency on right)
+		or 36x36 netbsd-logo.png for panel menu button
 X gtk2-engines-murrine
 gtk3-engines-unico
-(lubuntu-default-settings)
-lubuntu-icon-theme
+X (lubuntu-default-settings)		wip/netbsd-light-desktop-default-settings
+ provides replacements for lxde-common for example for openbox/rc.xml
+X lubuntu-icon-theme			wip/netbsd-icon-theme
+					still need the graphics
+					but also offer pkgsrc-icon-theme?
+for:
+	gnome-main-menu.svg
+	novell-button.svg
+	start-here.svg
+	distributor-logo.svg
+	/usr/share/icons/netbsd/index.theme
+		which has:
+			Inherits=elementary-mono-dark
+	or pkgsrc
+X elementary-icon-theme
 X lxsession
 X pcmanfm
 ttf-ubuntu-font-family
@@ -34,6 +52,7 @@ X lxpanel
 nvidia-common
 X openbox
 openprinting-ppds		need to package
+plymouth is graphical boot animation while booting in background
 plymouth-theme-lubuntu-logo
 plymouth-theme-lubuntu-text
 X printer-driver-pnm2ppa
@@ -53,14 +72,14 @@ libgl1-mesa-dri
 zip
 lubuntu-software-center
 X lxlauncher
-lxterminal
+X lxterminal
 pm-utils
 synaptic
 update-notifier
 wvdial
 x11-utils
 X xdg-user-dirs
-lxde-common provides:
+X lxde-common provides:
   bin/startlxde
   bin/lxde-logout
   bin/openbsd-lxde
@@ -109,14 +128,14 @@ X lxshortcut
 X lxtask
 mobile-broadband-provider-info
 modemmanager
-mtpaint				need to package http://mtpaint.sourceforge.net/
+X mtpaint			wip/mtpaint
 network-manager-gnome		provides applet
 X ntp			in base
 obconf				http://gnats.netbsd.org/46090
-osmo				need to package http://clayo.org/osmo/
+X osmo				wip/osmo
 X pidgin
 pidgin-microblog
-scrot
+X scrot
 simple-scan			wip/simple-scan
 software-properties-gtk
 sylpheed
@@ -163,4 +182,12 @@ ttf-indic-fonts-core
 ttf-punjabi-fonts
 ttf-ubuntu-font-family
 amixer
+
+-=-=-=-
+
+don't do these impossible checks:
+=> Checking file-check results for light-desktop-0.0nb2
+=> Checking for non-existent script interpreters in light-desktop-0.0nb2
+=> Checking for missing run-time search paths in light-desktop-0.0nb2
+=> Checking for work-directory references in light-desktop-0.0nb2
 

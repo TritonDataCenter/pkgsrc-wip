@@ -1,10 +1,8 @@
 $NetBSD$
 
-Add missing struct field
-
---- platform/NetBSD/sm_smart.c.orig	2010-01-23 20:56:31.000000000 +0000
+--- platform/NetBSD/sm_smart.c.orig	2012-01-14 14:05:06.000000000 +0000
 +++ platform/NetBSD/sm_smart.c
-@@ -63,11 +63,12 @@ static struct atareq smart_cmd = {
+@@ -64,11 +64,12 @@ static struct atareq smart_cmd = {
  };
  
  /* per drive storage structure */
@@ -16,5 +14,5 @@ Add missing struct field
      int failed;
 +    struct atareq cmd;
      struct smart_values data;
- };
- 
+ } *smart_devs = NULL;
+ static int smart_size = 0;

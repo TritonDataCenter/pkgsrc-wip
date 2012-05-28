@@ -1,7 +1,7 @@
 # $NetBSD$
 
-DISTNAME=	dhex_0.66
-PKGNAME=	dhex-0.66
+DISTNAME=	dhex_0.67
+PKGNAME=	dhex-0.67
 CATEGORIES=	editors
 MASTER_SITES=	http://dettus.net/dhex/
 

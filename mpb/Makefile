@@ -14,10 +14,11 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
-USE_LANGUAGES=	c fortran
+USE_LANGUAGES=	c fortran77
 USE_TOOLS+=	gsed
 
 CONFIGURE_ARGS+=--with-libctl=${PREFIX}/share/libctl
+CFLAGS+=	-DH5_USE_16_API=1
 
 # Does not want to install to destdir for reasons I haven't identified yet.
 # If you know of a better fix than this hack, please drop me an email.

@@ -2,14 +2,18 @@
 #
 
 DISTNAME=	light-desktop-0.0
+PKGREVISION=	4
 CATEGORIES=	meta-pkgs x11
 MASTER_SITES=	# empty
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
-#HOMEPAGE=
+HOMEPAGE=	http://wiki.netbsd.org/light-desktop/
 COMMENT=	Fast and lightweight desktop
 
+META_PACKAGE=	yes
+
 DEPENDS=	dejavu-ttf>2.28:../../fonts/dejavu-ttf
+DEPENDS+=	elementary-icon-theme>=0:../../wip/elementary-icon-theme
 DEPENDS+=	foomatic-filters>=4.0.9:../../print/foomatic4-filters
 DEPENDS+=	freefont-ttf>0:../../fonts/freefont-ttf
 DEPENDS+=	ghostscript>=8.71:../../print/ghostscript
@@ -17,12 +21,21 @@ DEPENDS+=	gtk2-engines-murrine>=0:../../x11/gtk2-engines-murrine
 ##DEPENDS+=	gvfs>=1.2.3:../../sysutils/gvfs
 #DEPENDS+=	hplip>=3:../../wip/hplip3
 DEPENDS+=	leafpad>=0.8.17:../../editors/leafpad
+DEPENDS+=	lxde-common>=0.5:../../wip/lxde-common
 DEPENDS+=	lxpanel>=0:../../wip/lxpanel
+DEPENDS+=	lxterminal>=0:../../wip/lxterminal
 DEPENDS+=	openbox>0:../../wm/openbox
-DEPENDS+=	pcmanfm>=0.5:../../sysutils/pcmanfm
+DEPENDS+=	pcmanfm>=0.5:../../wip/pcmanfm
 DEPENDS+=	pnm2ppa>=1.12:../../print/pnm2ppa
 DEPENDS+=	xdg-user-dirs>=0.10:../../x11/xdg-user-dirs
 DEPENDS+=	xkeyboard-config>=0:../../x11/xkeyboard-config
+
+.include "../../mk/bsd.prefs.mk"
+
+.if ${OPSYS} == "NetBSD"
+DEPENDS+=	netbsd-light-desktop-artwork>=0:../../wip/netbsd-light-desktop-artwork
+DEPENDS+=	netbsd-light-desktop-default-settings>=0:../../wip/netbsd-light-desktop-default-settings
+.endif
 
 # Suggestions
 
@@ -39,6 +52,7 @@ DEPENDS+=	galculator>=1.3:../../math/galculator
 DEPENDS+=	gnome-system-tools>=0:../../sysutils/gnome-system-tools
 DEPENDS+=	gnumeric>=1.10:../../math/gnumeric110
 DEPENDS+=	gpicview>=0:../../graphics/gpicview
+DEPENDS+=	mtpaint>=0:../../wip/mtpaint
 DEPENDS+=	gutenprint-lib>=0:../../print/gutenprint-lib
 DEPENDS+=	liberation-ttf>=0:../../fonts/liberation-ttf
 DEPENDS+=	lightdm>=0:../../wip/lightdm
@@ -50,11 +64,11 @@ DEPENDS+=	lxsession-edit>=0:../../wip/lxsession-edit
 DEPENDS+=	lxshortcut>=0:../../wip/lxshortcut
 DEPENDS+=	lxrandr>=0.1:../../wip/lxrandr
 DEPENDS+=	lxtask>=0.1:../../wip/lxtask
+DEPENDS+=	osmo>=0:../../wip/osmo
+DEPENDS+=	scrot>=0:../../graphics/scrot
 DEPENDS+=	pidgin>=2.9:../../chat/pidgin
 DEPENDS+=	xpad>=0:../../x11/xpad
 
 ####
-
-META_PACKAGE=	yes
 
 .include "../../mk/bsd.pkg.mk"

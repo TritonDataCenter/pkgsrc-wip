@@ -70,5 +70,6 @@ PLIST_SUBST+=   PYSITELIB=${PYSITELIB}
 .include "../../wip/suitesparse/buildlink3.mk"
 .include "../../textproc/libxml2/buildlink3.mk"
 .include "../../wip/cgal/buildlink3.mk"
-.include "../../wip/petsc/buildlink3.mk"
+# Broken package
+#.include "../../wip/petsc/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

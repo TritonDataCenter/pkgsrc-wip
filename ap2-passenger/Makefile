@@ -12,6 +12,8 @@ APACHE_MODULE=		YES
 
 DEPENDS+=		${RUBY_PKGPREFIX}-${DISTNAME}:../../wip/ruby-passenger
 
+INSTALLATION_DIRS+=	lib/httpd
+
 do-build:
 	cd ${WRKSRC}/build && ${RAKE} apache2:clean apache2
 

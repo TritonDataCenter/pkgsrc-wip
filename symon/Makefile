@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=		symon-2.82
+DISTNAME=		symon-2.85
 CATEGORIES=		net sysutils
 MASTER_SITES=		http://www.xs4all.nl/~wpd/symon/philes/
 MAINTAINER=		charlie@rubberduck.com

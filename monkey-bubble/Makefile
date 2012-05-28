@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		monkey-bubble-0.4.0
-PKGREVISION=		3
+PKGREVISION=		4
 CATEGORIES=		games
 MASTER_SITES=		http://home.gna.org/monkeybubble/downloads/
 
@@ -16,6 +16,7 @@ USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=		yes
 GNU_CONFIGURE=		yes
 USE_TOOLS+=		gmake intltool pkg-config
+CFLAGS+=		-Wno-error=deprecated-declarations
 
 .include "../../audio/esound/buildlink3.mk"
 .include "../../devel/GConf/schemas.mk"
