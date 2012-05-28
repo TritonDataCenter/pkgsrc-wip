@@ -15,7 +15,7 @@ LICENSE=	original-bsd
 PKG_DESTDIR_SUPPORT=	user-destdir
 
 WRKSRC=		${WRKDIR}/ARPACK
-USE_LANGUAGES=	fortran
+USE_LANGUAGES=	fortran77
 
 MAKE_ENV+=	WRKSRC=${WRKSRC}
 
