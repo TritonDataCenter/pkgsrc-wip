@@ -10,7 +10,7 @@ BUILDLINK_PKGSRCDIR.libctl?=	../../wip/libctl
 
 # CONFIGURE_ARGS+=	--with-libctl=${PREFIX}
 
-.include "../../lang/guile/buildlink3.mk"
+.include "../../lang/guile16/buildlink3.mk"
 .endif	# LIBCTL_BUILDLINK3_MK
 
 BUILDLINK_TREE+=	-libctl
