@@ -1,5 +1,7 @@
 # $NetBSD$
 
+BUILDLINK_DEPMETHOD.arpack?=	build
+
 BUILDLINK_TREE+=	arpack
 
 .if !defined(ARPACK_BUILDLINK3_MK)
