@@ -9,7 +9,7 @@ DISTFILES=	arpack96.tar.gz patch.tar.gz
 
 MAINTAINER=	jwbacon@tds.net
 HOMEPAGE=	http://www.caam.rice.edu/software/ARPACK/SRC/
-COMMENT=	TODO: Short description of the package
+COMMENT=	Library of subroutines to solve eigenvalue problems
 LICENSE=	original-bsd
 
 PKG_DESTDIR_SUPPORT=	user-destdir
