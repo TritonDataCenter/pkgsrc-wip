@@ -23,8 +23,7 @@ CFLAGS+=	-DGTK_COMPILATION
 
 GCONF_SCHEMAS+=	evolution-rss.schemas
 
-.include "../../mk/bsd.prefs.mk"
-GSED=${PREFIX}/bin/${GNU_PROGRAM_PREFIX}sed
+GSED=			${PREFIX}/bin/gsed
 
 SUBST_CLASSES+=		paths
 SUBST_STAGE.paths=	pre-configure
