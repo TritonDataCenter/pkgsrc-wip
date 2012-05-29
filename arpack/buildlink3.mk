@@ -8,7 +8,7 @@ BUILDLINK_TREE+=	arpack
 ARPACK_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.arpack+=	arpack>=96
-BUILDLINK_PKGSRCDIR.arpack?=	../../wip/arpack
+BUILDLINK_PKGSRCDIR.arpack?=	../../math/arpack
 .endif	# ARPACK_BUILDLINK3_MK
 
 BUILDLINK_TREE+=	-arpack

@@ -1,5 +1,4 @@
 # $NetBSD$
-#
 
 DISTNAME=	arpack96
 PKGNAME=	arpack-96
