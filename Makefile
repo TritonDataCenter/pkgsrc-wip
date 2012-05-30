@@ -3281,7 +3281,7 @@ ${.CURDIR}/PKGDB:
 				${ECHO} "$$l" >> $$DB ; \
 			fi ; \
 		fi ; \
-		${ECHO} -n "." ; \
+		${ECHO_N} "." ; \
 		if [ `${EXPR} $$npkg % 100 = 0` -eq 1 ]; then \
 			${ECHO} " " ; \
 			${ECHO} "$$npkg" ; \
@@ -3302,7 +3302,7 @@ ${.CURDIR}/INDEX: ${.CURDIR}/PKGDB
 
 limited_list: .PHONY
 	${RM} -f ${.CURDIR}/limited_list
-	(for X in ${SUBDIR}; do echo wip/$$X; done) > ${.CURDIR}/limited_list.tmp
+	(for X in ${SUBDIR}; do ${ECHO} wip/$$X; done) > ${.CURDIR}/limited_list.tmp
 	${MV} ${.CURDIR}/limited_list.tmp ${.CURDIR}/limited_list
 
 .if exists(../mk/misc/category.mk)
