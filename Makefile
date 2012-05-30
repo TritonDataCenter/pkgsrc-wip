@@ -2127,6 +2127,7 @@ SUBDIR+=	postgresql-uniqueidentifier
 SUBDIR+=	postoffice
 SUBDIR+=	postr
 SUBDIR+=	pound
+SUBDIR+=	povray
 SUBDIR+=	ppp
 SUBDIR+=	ppr
 SUBDIR+=	premake
