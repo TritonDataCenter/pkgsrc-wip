@@ -47,5 +47,7 @@ TEST_TARGET=	check
 # pre-configure:	replace-interpreter
 # 	cd $(WRKSRC) && $(BASH) autogen.sh
 
+LIBLTDL_CONVENIENCE_SUBDIR=	opal/libltdl
+.include "../../devel/libltdl/convenience.mk" # for "test" target to work
 .include "../../devel/libltdl/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
