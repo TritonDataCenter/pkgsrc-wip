@@ -2346,7 +2346,6 @@ SUBDIR+=	py-knockknock
 SUBDIR+=	py-kyra
 SUBDIR+=	py-lapack
 SUBDIR+=	py-larry
-SUBDIR+=	py-last
 SUBDIR+=	py-lazr.uri
 SUBDIR+=	py-lib
 SUBDIR+=	py-libmc
