@@ -20,17 +20,15 @@ USE_TOOLS+=	gsed
 CONFIGURE_ARGS+=--with-libctl=${PREFIX}/share/libctl
 CFLAGS+=	-DH5_USE_16_API=1
 
-# Does not want to install to destdir for reasons I haven't identified yet.
-# If you know of a better fix than this hack, please drop me an email.
-# I've tried configuring with --prefix=${DESTDIR}${PREFIX}, but my override
-# gets overridden by pkgsrc.  Also tried some vars like INSTALL_MAKE_FLAGS,
-# INSTALL_ROOT, PREFIX.
+# Prepend ${DESTDIR} to $(prefix), but only in install commands.
+# It happens that these instances are preceded by a space, and those
+# we don't want to change are not.
 SUBST_CLASSES+=	install-prefix
 SUBST_FILES.install-prefix=	mpb-ctl/Makefile utils/Makefile
 SUBST_STAGE.install-prefix=	post-configure
 SUBST_MESSAGE.install-prefix=	Patching install prefix.
-SUBST_SED.install-prefix=	-e 's|$$(prefix)|${DESTDIR}$$(prefix)|g' \
-				-e 's|$$(mandir)|${DESTDIR}$$(mandir)|g'
+SUBST_SED.install-prefix=	-e 's| $$(prefix)| ${DESTDIR}$$(prefix)|g' \
+				-e 's| $$(mandir)| ${DESTDIR}$$(mandir)|g'
 
 .include "../../math/blas/buildlink3.mk"
 .include "../../math/lapack/buildlink3.mk"

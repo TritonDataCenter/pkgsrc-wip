@@ -19,7 +19,7 @@ BUILD_DEPENDS+=	gsharutils>=4.2.1nb2:../../archivers/gsharutils
 WRKSRC=			${WRKDIR}
 BUILD_TARGET=		copytape
 
-EXTRACT_CMD=		${GZCAT} ${DOWNLOADED_DISTFILE} | ${PREFIX}/bin/${GNU_PROGRAM_PREFIX}unshar
+EXTRACT_CMD=		${GZCAT} ${DOWNLOADED_DISTFILE} | ${PREFIX}/bin/gunshar
 
 INSTALLATION_DIRS+=	bin ${PKGMANDIR}/man1 ${PKGMANDIR}/man5
 

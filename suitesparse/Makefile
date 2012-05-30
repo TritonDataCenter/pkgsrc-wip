@@ -38,7 +38,7 @@ LAPACK=		-llapack
 USE_TOOLS+=	gmake gsed
 TOOLS_PLATFORM.gsed=	#empty
 
-USE_LANGUAGES=	c c++ fortran fortran77
+USE_LANGUAGES=	c c++ fortran77
 
 WRKSRC=${WRKDIR}/SuiteSparse
 WRKSRC_SHARED=${WRKSRC}_shared

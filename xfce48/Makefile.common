@@ -63,5 +63,5 @@ XFCE4_EGBASE=		${PREFIX}/share/examples/xfce4
 ## # Use the latest GNU tar when the native tar is buggy
 ## .if !empty(MACHINE_PLATFORM:MNetBSD-1.6*)
 ## BUILD_DEPENDS+=		gtar-base-[0-9]*:../../archivers/gtar-base
-## GTAR=			${PREFIX}/bin/${GNU_PROGRAM_PREFIX}tar
+## GTAR=			${PREFIX}/bin/gtar
 ## .endif
