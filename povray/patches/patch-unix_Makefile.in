@@ -1,5 +1,7 @@
 $NetBSD$
 
+Add missing library.
+
 --- unix/Makefile.in.orig	2011-01-22 05:36:18.000000000 +0000
 +++ unix/Makefile.in
 @@ -95,7 +95,7 @@ am__installdirs = "$(DESTDIR)$(bindir)"

@@ -1,5 +1,8 @@
 $NetBSD$
 
+Add missing header.
+XXX: should be improved by a configure test.
+
 --- vfe/unix/vfeplatform.cpp.orig	2011-01-02 13:43:05.000000000 +0000
 +++ vfe/unix/vfeplatform.cpp
 @@ -106,6 +106,13 @@

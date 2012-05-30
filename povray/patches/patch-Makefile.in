@@ -1,5 +1,7 @@
 $NetBSD$
 
+Adapt configuration directory for pkgsrc, and avoid touch $HOME during packaging.
+
 --- Makefile.in.orig	2011-01-22 05:36:17.000000000 +0000
 +++ Makefile.in
 @@ -303,7 +303,7 @@ top_srcdir = @top_srcdir@

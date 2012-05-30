@@ -1,5 +1,7 @@
 $NetBSD$
 
+At least on NetBSD, lseek is 64-bit ready and lseek64 doesn't exist.
+
 --- source/base/image/image.cpp.orig	2011-01-22 05:31:21.000000000 +0000
 +++ source/base/image/image.cpp
 @@ -2886,7 +2886,7 @@ class FileBackedPixelContainer

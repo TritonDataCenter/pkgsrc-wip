@@ -1,5 +1,7 @@
 $NetBSD$
 
+Add missing #define for NetBSD, and handle NetBSD the same as FreeBSD.
+
 --- vfe/unix/platformbase.cpp.orig	2010-12-21 06:17:01.000000000 +0000
 +++ vfe/unix/platformbase.cpp
 @@ -104,6 +104,10 @@
