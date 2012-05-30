@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		pkgin-2012052801
+DISTNAME=		pkgin-20120530
 CATEGORIES=		pkgtools
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=pkgin/}
 
@@ -59,10 +59,6 @@ do-install:
 .	include "../../net/libfetch/buildlink3.mk"
 .endif
 
-# Only MINIX doesn't compile SQLite Amalgation source
-.if ${OPSYS} == "Minix"
-.	include "../../databases/sqlite3/buildlink3.mk"
-.endif
-
+.include "../../databases/sqlite3/buildlink3.mk"
 .include "../../archivers/libarchive/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
