@@ -1,5 +1,7 @@
 $NetBSD$
 
+Disable unit tests crashing on NetBSD
+
 --- sw/Module_sw.mk.orig	2012-01-09 22:08:58.000000000 +0000
 +++ sw/Module_sw.mk
 @@ -40,11 +40,13 @@ $(eval $(call gb_Module_add_targets,sw,\

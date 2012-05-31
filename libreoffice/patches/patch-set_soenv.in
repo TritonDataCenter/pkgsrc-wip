@@ -1,5 +1,8 @@
 $NetBSD$
 
+Force the use of LD_LIBRARY_PATH to work around runpath issues
+when shared libraries are moved around by the build process
+
 --- set_soenv.in.orig	2011-08-23 13:05:22.000000000 +0000
 +++ set_soenv.in
 @@ -1493,6 +1493,7 @@ ToFile( "ASM_PATH",          $ASM_PATH,
