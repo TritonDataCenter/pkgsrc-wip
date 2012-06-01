@@ -234,6 +234,7 @@ SUBDIR+=	bogomips
 SUBDIR+=	boinc
 SUBDIR+=	boinc-client
 SUBDIR+=	boinc-lib
+SUBDIR+=	bonnie++-current
 SUBDIR+=	boost-test-suite
 SUBDIR+=	boost-threadpool
 SUBDIR+=	bridge-utils
