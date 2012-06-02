@@ -29,6 +29,12 @@ XPI_DIR=		lib/xpi/extensions/${XPI_ID}
 
 INSTALLATION_DIRS+=	${XPI_DIR}
 
+SUBST_CLASSES+=		gui
+SUBST_STAGE.gui=	pre-configure
+SUBST_MESSAGE.gui=	Change GUI locale by default
+SUBST_FILES.gui+=	defaults/preferences/prefs.js
+SUBST_SED.gui+=          -e 's/pref("extensions.qls.switch_gulocale", false);/pref("extensions.qls.switch_gulocale", true);/'
+
 do-install:
 	cd ${WRKSRC} && pax -rw . ${DESTDIR}${PREFIX}/${XPI_DIR}
 .for app in ${XPI_APPS}
