@@ -1,8 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	flpsed-0.6.1
-PKGREVISION=	1
+DISTNAME=	flpsed-0.7.0
 CATEGORIES=	graphics
 MASTER_SITES=	http://www.ecademix.com/JohannesHofmann/
 
@@ -17,5 +16,5 @@ GNU_CONFIGURE=	yes
 USE_LANGUAGES=	c c++
 USE_TOOLS+=	gs:run
 
-.include "../../x11/fltk2/buildlink3.mk"
+.include "../../x11/fltk13/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
