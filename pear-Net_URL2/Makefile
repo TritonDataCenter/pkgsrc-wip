@@ -3,11 +3,9 @@
 
 DISTNAME=	Net_URL2-2.0.0
 CATEGORIES=	www
-MASTER_SITES=	http://download.pear.php.net/package/
-EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
-HOMEPAGE=	http://download.pear.php.net/package/
+HOMEPAGE=	http://pear.php.net/package/Net_URL2
 COMMENT=	Class for parsing and handling URL
 LICENSE=	2-clause-bsd
 
