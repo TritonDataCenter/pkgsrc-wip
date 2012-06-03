@@ -4,7 +4,8 @@ DISTNAME=	HTTP_Client-1.2.1
 CATEGORIES+=	www
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
-COMMENT=	A simple HTTP client class in PHP
+COMMENT=	Simple HTTP client class in PHP
+LICENSE=	2-clause-bsd
 
 DEPENDS+=	${PHP_PKG_PREFIX}-pear-Net_URL>=1.0.12:../../net/pear-Net_URL
 DEPENDS+=	${PHP_PKG_PREFIX}-pear-Net_Socket>=1.0.2:../../net/pear-Net_Socket
