@@ -8,4 +8,5 @@ PKG_SUGGESTED_OPTIONS=	# blank
 
 .if !empty(PKG_OPTIONS:Mqt)
 .include "../../x11/qt4-tools/buildlink3.mk"
+PLIST.qt=	yes
 .endif
