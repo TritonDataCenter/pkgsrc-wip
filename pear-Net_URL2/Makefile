@@ -5,7 +5,6 @@ DISTNAME=	Net_URL2-2.0.0
 CATEGORIES=	www
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
-HOMEPAGE=	http://pear.php.net/package/Net_URL2
 COMMENT=	Class for parsing and handling URL
 LICENSE=	2-clause-bsd
 
