@@ -3055,6 +3055,7 @@ SUBDIR+=	vidrioclock
 SUBDIR+=	vidriolib
 SUBDIR+=	viewer
 SUBDIR+=	viewglob
+SUBDIR+=	vimrc-mode
 SUBDIR+=	vino
 SUBDIR+=	virtualbox
 SUBDIR+=	virtualjaguar
