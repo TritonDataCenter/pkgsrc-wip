@@ -2491,6 +2491,7 @@ SUBDIR+=	py-scikits_vectorplot
 SUBDIR+=	py-scimath
 SUBDIR+=	py-sciproc
 SUBDIR+=	py-scitools
+SUBDIR+=	py-scrapy
 SUBDIR+=	py-scrobbler
 SUBDIR+=	py-se
 SUBDIR+=	py-selenium
