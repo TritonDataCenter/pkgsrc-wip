@@ -20,7 +20,7 @@ MAKE_FILE=		GNUmakefile
 UNLIMIT_RESOURCES=	datasize
 
 INSTALLATION_DIRS=	share/chicken
-OWN_DIRS=		${PREFIX}/lib/chicken ${PREFIX}/lib/chicken/5
+OWN_DIRS=		${PREFIX}/lib/chicken ${PREFIX}/lib/chicken/6
 
 BUILD_TARGET=		all
 
