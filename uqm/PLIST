@@ -2,5 +2,5 @@
 bin/uqm
 lib/uqm/uqm
 share/doc/uqm/manual.txt
-share/uqm/content/packages/uqm-0.6.0-content.uqm
+share/uqm/content/packages/${PKGNAME}-content.uqm
 share/uqm/content/version
