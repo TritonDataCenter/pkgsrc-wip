@@ -6,7 +6,7 @@ PKGNAME=	p5-${DISTNAME}
 CATEGORIES=	www perl5
 MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=../../authors/id/E/EX/EXOBUZZ/}
 
-MAINTAINER=	leot1990@users.sourceforge.net
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://search.cpan.org/dist/MediaWiki-API/
 COMMENT=	Perl interface to the MediaWiki API
 LICENSE=	gnu-gpl-v3

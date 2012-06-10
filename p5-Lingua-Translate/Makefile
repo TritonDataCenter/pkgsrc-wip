@@ -6,10 +6,10 @@ PKGNAME=	p5-${DISTNAME}
 CATEGORIES=	textproc perl5
 MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=../../authors/id/S/SA/SAMV/}
 
-MAINTAINER=	leot1990@users.sourceforge.net
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://search.cpan.org/dist/Lingua-Translate/
 COMMENT=	Translate text from one language to another
-LICENSE=	artistic-2.0 # OR gnu-gpl-v2
+LICENSE=	${PERL5_LICENSE}
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 

@@ -6,7 +6,7 @@ PKGREVISION=	1
 CATEGORIES=	misc
 MASTER_SITES=	http://www.nickg.me.uk/files/
 
-MAINTAINER=	leot1990@users.sourceforge.net
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.doof.me.uk/xcowsay/
 COMMENT=	Display a cow and message on your desktop
 LICENSE=	gnu-gpl-v3

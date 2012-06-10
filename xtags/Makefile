@@ -6,7 +6,7 @@ CATEGORIES=	wm
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=xtags/}
 EXTRACT_SUFX=	.tar.bz2
 
-MAINTAINER=	leot1990@users.sourceforge.net
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://xtags.sourceforge.net/
 COMMENT=	Little keyboard-driven Window Manager for X11
 LICENSE=	gnu-gpl-v3

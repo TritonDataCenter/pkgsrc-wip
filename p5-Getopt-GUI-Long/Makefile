@@ -6,7 +6,7 @@ PKGNAME=	p5-${DISTNAME}
 CATEGORIES=	devel perl5
 MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=../../authors/id/H/HA/HARDAKER/}
 
-MAINTAINER=	leot1990@users.sourceforge.net
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://search.cpan.org/dist/Getopt-GUI-Long/
 COMMENT=	Wrapper around Getopt::Long
 LICENSE=	artistic-2.0 # OR gpl-v2+
