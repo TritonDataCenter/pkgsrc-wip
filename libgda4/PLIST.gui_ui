@@ -2,6 +2,7 @@
 bin/gda-browser-4.0
 bin/gda-control-center-4.0
 bin/gdaui-demo-4.0
+include/libgda-4.0/libgda/control-center/gdaui-login-dialog.h
 include/libgda-4.0/libgda-ui/gdaui-basic-form.h
 include/libgda-4.0/libgda-ui/gdaui-cloud.h
 include/libgda-4.0/libgda-ui/gdaui-combo.h
