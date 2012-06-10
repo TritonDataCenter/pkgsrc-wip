@@ -2868,6 +2868,7 @@ SUBDIR+=	swig2
 SUBDIR+=	sword
 SUBDIR+=	sxemacs
 SUBDIR+=	sxid
+SUBDIR+=	sxiv
 SUBDIR+=	symmetrica
 SUBDIR+=	symon
 SUBDIR+=	sympow
