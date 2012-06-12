@@ -5,6 +5,7 @@ PKG_OPTIONS_VAR=	PKG_OPTIONS.gnunet
 PKG_OPTIONS_REQUIRED_GROUPS=	security
 PKG_OPTIONS_GROUP.security=	libgcrypt ssl
 PKG_SUPPORTED_OPTIONS=	bdb gdbm inet6 tdb
+PKG_SUGGESTED_OPTIONS=	inet6
 
 # some sane defaults to use base OS functionality where appropriate
 .if !empty(OPSYS:M*BSD)

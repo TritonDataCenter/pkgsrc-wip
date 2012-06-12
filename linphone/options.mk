@@ -2,7 +2,7 @@
 
 PKG_OPTIONS_VAR=	PKG_OPTIONS.linphone
 PKG_SUPPORTED_OPTIONS=	alsa inet6 linphone-gui linphone-video gsm
-PKG_SUGGESTED_OPTIONS=	linphone-gui linphone-video gsm
+PKG_SUGGESTED_OPTIONS=	inet6 linphone-gui linphone-video gsm
 
 .include "../../mk/bsd.options.mk"
 

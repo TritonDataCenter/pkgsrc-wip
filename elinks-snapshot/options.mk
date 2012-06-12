@@ -8,7 +8,7 @@ PKG_SUPPORTED_OPTIONS+= elinks-use-alloca boehm-gc
 PKG_OPTIONS_GROUP.tls=	gnutls ssl
 PKG_OPTIONS_REQUIRED_GROUPS=	tls
 PKG_SUGGESTED_OPTIONS=	ssl spidermonkey x11 elinks-exmode boehm-gc expat
-PKG_SUGGESTED_OPTIONS+= elinks-html-highlight bittorrent
+PKG_SUGGESTED_OPTIONS+= elinks-html-highlight bittorrent inet6
 
 .include "../../mk/bsd.options.mk"
 
