@@ -6,8 +6,11 @@ CATEGORIES=		net
 MASTER_SITES=		http://anil.recoil.org/projects/
 
 MAINTAINER=		pancake@phreaker.net
-HOMEPAGE=		http://anil.recoil.org/projects/
+HOMEPAGE=		http://anil.recoil.org/projects/blueproxy.html
 COMMENT=		RFCOMM <-> TCP proxy
+#LICENSE=		# TODO
+
+PKG_DESTDIR_SUPPORT=	user-destdir
 
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
