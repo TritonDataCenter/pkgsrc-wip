@@ -7,6 +7,7 @@ MASTER_SITES=		http://bochs.sourceforge.net/cvs-snapshot/
 MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://bochs.sourceforge.net/
 COMMENT=		IA32 and AMD64 PC emulator
+LICENSE=		gnu-lgpl-v2.1
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 

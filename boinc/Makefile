@@ -8,6 +8,7 @@ EXTRACT_SUFX=		.tar.bz2
 MAINTAINER=		asau@inbox.ru
 HOMEPAGE=		http://boinc.berkeley.edu/
 COMMENT=		Middleware system for volunteer and grid computing
+LICENSE=		gnu-lgpl-v3
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
