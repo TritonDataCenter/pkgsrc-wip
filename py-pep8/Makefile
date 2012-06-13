@@ -6,7 +6,7 @@ PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	devel python
 MASTER_SITES=	http://pypi.python.org/packages/source/p/pep8/
 
-MAINTAINER=	kamel.derouiche@gmail.com
+MAINTAINER=	wenheping@gmail.com
 HOMEPAGE=	http://github.com/jcrocholl/pep8
 COMMENT=	Python style guide checker
 LICENSE=	mit
