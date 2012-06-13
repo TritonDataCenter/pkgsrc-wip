@@ -47,7 +47,11 @@ SUBST_SED.conf+=	-e 's,@RSYSLOG_SYSMOD@,im${RSYSLOG_SYSMOD},'
 SUBST_SED.conf+=	-e 's,@VARBASE@,${VARBASE},'
 
 post-extract:
+.	if exists(${FILESDIR}/rsyslog.conf.${OPSYS})
+	${RUN} ${CP} ${FILESDIR}/rsyslog.conf.${OPSYS} ${WRKSRC}/rsyslog.conf
+.	else
 	${RUN} ${CP} ${FILESDIR}/rsyslog.conf ${WRKSRC}
+.	endif
 
 post-install:
 	${INSTALL_DATA_DIR} ${DESTDIR}${DOCDIR}
