@@ -9,6 +9,9 @@ MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=bashdb/}
 MAINTAINER=		splitscreen@users.sourceforge.net
 HOMEPAGE=		http://sourceforge.net/projects/bashdb/
 COMMENT=		The Bash debugger project
+LICENSE=		gnu-gpl-v2
+
+PKG_DESTDIR_SUPPORT=	user-destdir
 
 DEPENDS+=		bash-[0-9]*:../../shells/bash
 
