@@ -1,6 +1,7 @@
 # $NetBSD$
 
-DISTNAME=	openmpi-1.6
+DISTNAME=	openmpi-1.6.1a1r26586
+PKGNAME=	openmpi-1.6.0.99.26586
 CATEGORIES=	parallel
 MASTER_SITES=	http://www.open-mpi.org/software/ompi/v1.6/downloads/ \
 		http://www.open-mpi.org/nightly/v1.6/
