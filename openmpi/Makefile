@@ -33,6 +33,8 @@ CONFIGURE_ARGS+=	--with-hwloc=$(BUILDLINK_PREFIX.hwloc:Q) #external
 CONFIGURE_ARGS+=	--with-wrapper-ldflags="-L${PREFIX}/lib ${LINKER_RPATH_FLAG}${PREFIX}/lib"
 CONFIGURE_ENV+=		ompi_cv_f77_have_INTEGERp8=no	# no "INTEGER*8"??
 CONFIGURE_ARGS+=	OPAL_HAVE_LTDL_ADVISE=0
+
+# Prevent detection of OpenMP support in order to make PLIST consistent:
 BUILDLINK_TRANSFORM=	rm:-fopenmp
 
 USE_TOOLS+=		perl:run
@@ -41,6 +43,7 @@ USE_TOOLS+=		perl:run
 
 TEST_TARGET=	check
 
+## Just in case you'll need it...
 # USE_TOOLS+=	aclocal autoconf automake bash perl
 # REPLACE_BASH=	autogen.sh
 
