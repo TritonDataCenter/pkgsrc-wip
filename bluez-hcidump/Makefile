@@ -8,6 +8,7 @@ MASTER_SITES=		http://bluez.sourceforge.net/download/
 MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://www.bluez.org/
 COMMENT=		Bluetooth packet analyzer
+LICENSE=		gnu-gpl-v2
 
 USE_LANGUAGES=		c
 
