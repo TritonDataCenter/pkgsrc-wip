@@ -8,7 +8,7 @@ MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=audiere/}
 MAINTAINER=	ryo_on@yk.rim.or.jp
 HOMEPAGE=	http://audiere.sourceforge.net/
 COMMENT=	Audiere is a high-level audio API
-#LICENSE=	# TODO: (see mk/license.mk)
+LICENSE=	gnu-lgpl-v2.1
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
