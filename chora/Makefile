@@ -8,6 +8,9 @@ MASTER_SITES=	ftp://ftp.horde.org/pub/chora/
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.horde.org/chora/
 COMMENT=	Another CVS-via-web system
+LICENSE=	gnu-gpl-v2
+
+PKG_DESTDIR_SUPPORT=	user-destdir
 
 #DEPENDS+=	cvs>=1.11.20:../../devel/scmcvs
 DEPENDS+=	horde>=2.2.4:../../www/horde
