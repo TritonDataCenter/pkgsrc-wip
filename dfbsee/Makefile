@@ -10,8 +10,10 @@ MASTER_SITES=	http://www.directfb.org/download/DFBSee/
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.directfb.org/download/DFBSee/
 COMMENT=	Image viewer for DirectFB
+LICENSE=	gnu-lgpl-v2.1
 
-ONLY_FOR_PLATFORM=     Linux-*-* NetBSD-*-*
+PKG_DESTDIR_SUPPORT=	user-destdir
+ONLY_FOR_PLATFORM=	Linux-*-* NetBSD-*-*
 
 GNU_CONFIGURE=		yes
 USE_TOOLS+=		gmake
