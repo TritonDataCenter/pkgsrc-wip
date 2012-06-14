@@ -7,9 +7,11 @@ MASTER_SITES=		http://www.pentest.co.uk/src/
 EXTRACT_SUFX=		.tar.bz2
 
 MAINTAINER=		pancake@phreaker.net
-HOMEPAGE=		http://www.pentest.co.uk/src/
+HOMEPAGE=		http://www.pentest.co.uk/cgi-bin/viewcat.cgi?cat=downloads
 COMMENT=		Bluetooth device information viewer
-# XXX The comment may be changed
+LICENSE=		gnu-gpl-v2
+
+PKG_DESTDIR_SUPPORT=	user-destdir
 
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
