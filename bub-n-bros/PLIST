@@ -291,7 +291,6 @@ games/bubbros/display/puremixer.pyo
 games/bubbros/display/pythonxlibintf.py
 games/bubbros/display/pythonxlibintf.pyo
 games/bubbros/display/setup.py
-games/bubbros/display/setup.py.orig
 games/bubbros/display/setup.py.pre
 games/bubbros/display/setup.pyo
 games/bubbros/display/snd_linux.py
