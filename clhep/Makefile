@@ -9,6 +9,7 @@ EXTRACT_SUFX=	.tgz
 MAINTAINER=	hugor@users.sourceforge.net
 HOMEPAGE=	http://proj-clhep.web.cern.ch/proj-clhep/
 COMMENT=	Class library for high energy physics
+LICENSE=	gnu-gpl-v3 gnu-lgpl-v3
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
