@@ -6,8 +6,11 @@ MASTER_SITES=	http://www.bradfordmott.com/bsvc/distributions/
 EXTRACT_SUFX=	-src.tar.gz
 
 MAINTAINER=	nocker.bk@gmail.com
-HOMEPAGE=	http://www.bradfordmott.com/bsvc/index.html
+HOMEPAGE=	http://www4.ncsu.edu/~bwmott/bsvc/
 COMMENT=	Extensible hardware simulation framework with MC68K support
+#LICENSE=	# TODO
+
+PKG_DESTDIR_SUPPORT=	user-destdir
 
 DEPENDS+=	tk>=8.4:../../x11/tk
 
