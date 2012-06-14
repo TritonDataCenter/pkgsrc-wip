@@ -8,6 +8,9 @@ MASTER_SITES=		http://ab-initio.mit.edu/cvs2darcs/
 MAINTAINER=		esg@sdf.lonestar.org
 HOMEPAGE=		http://ab-initio.mit.edu/cvs2darcs/
 COMMENT=		Convert CVS repositories to Darcs version control
+LICENSE=		gnu-gpl-v3
+
+PKG_DESTDIR_SUPPORT=	user-destdir
 
 GNU_CONFIGURE=		yes
 USE_TOOLS+=		perl:run
