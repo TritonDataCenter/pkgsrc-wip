@@ -1,5 +1,7 @@
 $NetBSD$
 
+Changes the use of $sysconfdir to $EGDIR.
+
 --- Programs/Makefile.in.orig	2005-08-27 06:33:11.000000000 +0200
 +++ Programs/Makefile.in
 @@ -496,8 +496,8 @@ install-api-manpages:
