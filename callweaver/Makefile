@@ -9,6 +9,9 @@ EXTRACT_SUFX=	.tgz
 MAINTAINER=	x400@msfu.ru
 HOMEPAGE=	http://www.callweaver.org/
 COMMENT=	The Callweaver Software PBX
+LICENSE=	gnu-gpl-v2
+
+PKG_DESTDIR_SUPPORT=	user-destdir
 
 GNU_CONFIGURE=		yes
 USE_LIBTOOL=		yes
