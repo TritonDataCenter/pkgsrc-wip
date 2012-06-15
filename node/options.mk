@@ -8,7 +8,6 @@ PKG_SUGGESTED_OPTIONS= openssl
 
 .if !empty(PKG_OPTIONS:Mdtrace)
 CONFIGURE_ARGS+=       --with-dtrace
-PLIST.dtrace=          yes
 .endif
 
 .if !empty(PKG_OPTIONS:Mopenssl)
