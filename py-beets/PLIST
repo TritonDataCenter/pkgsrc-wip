@@ -1,5 +1,5 @@
 @comment $NetBSD$
-bin/beet2.7
+bin/beet${PYVERSSUFFIX}
 ${PYSITELIB}/${EGG_NAME}-nspkg.pth
 ${PYSITELIB}/${EGG_INFODIR}/PKG-INFO
 ${PYSITELIB}/${EGG_INFODIR}/SOURCES.txt
