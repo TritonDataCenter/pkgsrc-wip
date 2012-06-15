@@ -9,6 +9,7 @@ MASTER_SITES=	http://garr.dl.sourceforge.net/project/freedict/English%20-%20Arab
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	http://www.freedict.org/ar/
 COMMENT=	Dict package for English-Arabic Freedict dictionary
+LICENSE=	gnu-gpl-v2
 
 DEPENDS+=		dict-server>=1.9.14:../../textproc/dict-server
 BUILD_DEPENDS+=		dict-server>=1.10.2:../../textproc/dict-server
