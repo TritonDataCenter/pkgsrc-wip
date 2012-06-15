@@ -10,6 +10,7 @@ DISTFILES=	ding-1.5.tar.gz		\
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www-user.tu-chemnitz.de/~fri/ding/
 COMMENT=	Ding is a Dictionary lookup program for the X window system
+LICENSE=	gnu-gpl-v2
 
 DEPENDS+=	tk>=8.3.2:../../x11/tk
 DEPENDS+=	aspell-german>=0.50:../../textproc/aspell-german
