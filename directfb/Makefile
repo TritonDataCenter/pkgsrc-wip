@@ -9,10 +9,12 @@ MASTER_SITES=	http://www.directfb.org/download/DirectFB/
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.directfb.org/
 COMMENT=	Thin library that provides hardware graphics acceleration
+LICENSE=	gnu-lgpl-v2.1
 
-ONLY_FOR_PLATFORM=     Linux-*-* NetBSD-*-*
+PKG_DESTDIR_SUPPORT=	user-destdir
+ONLY_FOR_PLATFORM=	Linux-*-* NetBSD-*-*
 
-USE_LIBTOOL+=		yes
+USE_LIBTOOL=		yes
 USE_TOOLS+=		gmake pkg-config
 PKGCONFIG_OVERRIDE=	directfb.pc.in lib/direct/direct.pc.in \
 			lib/fusion/fusion.pc.in lib/voodoo/voodoo.pc.in
