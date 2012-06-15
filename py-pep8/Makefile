@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	pep8-1.2
+DISTNAME=	pep8-1.3
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	devel python
 MASTER_SITES=	http://pypi.python.org/packages/source/p/pep8/
