@@ -4,7 +4,7 @@ DISTNAME=		xrdp-0.4.2
 CATEGORIES=		net
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=xrdp/}
 
-MAINTAINER=		moritz+NetBSD@wzff.de
+MAINTAINER=		mwilhelmy@users.sourceforge.net
 HOMEPAGE=		http://xrdp.sourceforge.net/
 COMMENT=		Remote Desktop Protocol server
 LICENSE=		gnu-gpl-v2
