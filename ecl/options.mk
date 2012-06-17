@@ -35,6 +35,8 @@ CONFIGURE_ARGS+=	--disable-unicode
 
 .if !empty(PKG_OPTIONS:Mffi)
 .include "../../devel/libffi/buildlink3.mk"
+.else
+CONFIGURE_ARGS+=	--with-dffi=no
 .endif
 
 .if !empty(PKG_OPTIONS:Mclx)
