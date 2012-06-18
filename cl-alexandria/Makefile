@@ -3,7 +3,7 @@
 
 SHORTNAME=	alexandria
 DISTNAME=	${SHORTNAME}-${VERSION}
-VERSION=	20111129
+VERSION=	20120615
 PKGNAME=        ${LISP_PREFIX}-${SHORTNAME}-${VERSION}
 CATEGORIES=	devel
 MASTER_SITES=	http://www.kozachuk.info/netbsd/contrib/
