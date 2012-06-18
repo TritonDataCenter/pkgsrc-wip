@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-VERSION=        0.10.6
+VERSION=        0.10.7.1
 SHORTNAME=	cffi
 DISTNAME=	${SHORTNAME}_${VERSION}
 CATEGORIES=	devel
