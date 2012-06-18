@@ -1,7 +1,7 @@
 # $NetBSD: $
 
 MODNAME=		imagick
-PECL_VERSION=		3.0.1
+PECL_VERSION=		3.1.0RC2
 CATEGORIES+=		graphics www
 
 #MAINTAINER=		pkgsrc-users@NetBSD.org
