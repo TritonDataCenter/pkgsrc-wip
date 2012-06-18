@@ -1,5 +1,6 @@
-diff --git a/deps/uv/src/unix/netbsd.c b/deps/uv/src/unix/netbsd.c
-index 2fedc94..12fc8f9 100644
+$NetBSD$
+
+Add support for NetBSD
 --- deps/uv/src/unix/netbsd.c
 +++ deps/uv/src/unix/netbsd.c
 @@ -19,10 +19,14 @@

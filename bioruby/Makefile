@@ -10,6 +10,9 @@ MASTER_SITES=		http://raa.ruby-lang.org/cache/bioruby/ \
 MAINTAINER=		dprice@cs.nmsu.edu
 HOMEPAGE=		http://bioruby.org/
 COMMENT=		Intergrated environment for Bioinformatics using Ruby
+LICENSE=		gnu-gpl-v2
+
+PKG_DESTDIR_SUPPORT=	user-destdir
 
 USE_RUBY=		yes
 USE_RUBY_EXTCONF=	yes
@@ -35,7 +38,7 @@ post-install:
 	${INSTALL_DATA} ${WRKSRC}/doc/${f} ${RUBY_DOCDIR}/bioruby/ja
 .endfor
 	${INSTALL_DATA_DIR} ${RUBY_EXAMPLESDIR}/bioruby
-	cd ${WRKSRC}/sample && ${CP} * ${RUBY_EXAMPLESDIR}/bioruby
+	cd ${WRKSRC}/sample && ${INSTALL_DATA} * ${RUBY_EXAMPLESDIR}/bioruby
 
 .include "../../lang/ruby/modules.mk"
 .include "../../mk/bsd.pkg.mk"

@@ -5,7 +5,7 @@ DISTNAME=	twitmail-0.42
 CATEGORIES=	net
 MASTER_SITES=	http://www.hardakers.net/twitmail/releases/
 
-MAINTAINER=	leot1990@users.sourceforge.net
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.hardakers.net/twitmail/
 COMMENT=	Curses-based mail-like interface to twitter
 LICENSE=	gnu-gpl-v2

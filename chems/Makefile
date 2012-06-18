@@ -8,6 +8,7 @@ EXTRACT_SUFX=	.tar.bz2
 MAINTAINER=	clamiax@gmail.com
 HOMEPAGE=	http://chems.sourceforge.net/
 COMMENT=	The geekest content helper management system
+LICENSE=	gnu-gpl-v3
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 

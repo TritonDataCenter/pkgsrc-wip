@@ -1,5 +1,7 @@
 $NetBSD$
 
+Remove forcing the use of flex/bison.
+
 --- configure.ac.orig	2007-12-21 10:10:57.000000000 +0000
 +++ configure.ac
 @@ -511,14 +511,14 @@ AC_PROG_RANLIB

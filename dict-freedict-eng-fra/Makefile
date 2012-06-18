@@ -10,6 +10,7 @@ MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=freedict/}
 MAINTAINER=	cheusov@NetBSD.org
 HOMEPAGE=	http://www.freedict.org/
 COMMENT=	DICTD data for FreeDict English-French dictionary
+LICENSE=	gnu-gpl-v2
 
 DICTSRCNAME=	${DISTNAME}
 

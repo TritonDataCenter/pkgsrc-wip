@@ -2,7 +2,7 @@
 
 PKG_OPTIONS_VAR=	PKG_OPTIONS.modular-xorg-server
 PKG_SUPPORTED_OPTIONS=	dri inet6 debug
-PKG_SUGGESTED_OPTIONS=	dri
+PKG_SUGGESTED_OPTIONS=	dri inet6
 
 .include "../../mk/bsd.options.mk"
 

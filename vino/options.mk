@@ -2,7 +2,7 @@
 
 PKG_OPTIONS_VAR=	PKG_OPTIONS.vino
 PKG_SUPPORTED_OPTIONS+=	avahi inet6
-PKG_SUGGESTED_OPTIONS+=	avahi
+PKG_SUGGESTED_OPTIONS+=	avahi inet6
 
 .include "../../mk/bsd.options.mk"
 

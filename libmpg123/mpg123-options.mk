@@ -3,6 +3,7 @@
 
 PKG_OPTIONS_VAR=	PKG_OPTIONS.mpg123
 PKG_SUPPORTED_OPTIONS=	inet6 debug
+PKG_SUGGESTED_OPTIONS=	inet6
 
 .include "../../mk/bsd.fast.prefs.mk"
 

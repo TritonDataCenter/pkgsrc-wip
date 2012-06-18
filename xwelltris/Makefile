@@ -6,7 +6,7 @@ PKGNAME=	${DISTNAME:S/.src//}
 CATEGORIES=	games
 MASTER_SITES=	http://xnc.jinr.ru/xwelltris/src/
 
-MAINTAINER=	leot1990@users.sourceforge.net
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://xnc.jinr.ru/xwelltris/
 COMMENT=	Tetris like popular game
 

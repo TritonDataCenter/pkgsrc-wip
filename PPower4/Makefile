@@ -9,6 +9,7 @@ DISTFILES=	pp4sty.zip pp4p.jar
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www-sp.iti.informatik.tu-darmstadt.de/software/ppower4/
 COMMENT=	PDF presentation post processor
+LICENSE=	gnu-gpl-v3
 
 DEPENDS+=	tex-eso-pic-[0-9]*:../../print/tex-eso-pic
 DEPENDS+=	tex-graphics-[0-9]*:../../print/tex-graphics

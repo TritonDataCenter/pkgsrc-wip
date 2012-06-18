@@ -35,9 +35,5 @@ REPLACE_PYTHON+=	libgda-report/RML/trml2html/trml2html.py
 
 TEST_TARGET=		check
 
-post-install:
-	${INSTALL_DATA_DIR} ${DESTDIR}${PREFIX}/share/icons
-	${CP} ${DESTDIR}${PREFIX}/share/libgda-4.0/pixmaps/gda-control-center.png ${DESTDIR}${PREFIX}/share/icons
-
 .include "../../lang/python/application.mk"
 .include "../../mk/bsd.pkg.mk"

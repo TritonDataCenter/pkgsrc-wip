@@ -9,6 +9,7 @@ MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=and/}
 MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://and.sourceforge.net/
 COMMENT=		Auto nice daemon
+LICENSE=		gnu-gpl-v3
 
 USE_TOOLS+=		gmake
 USE_LANGUAGES=		c

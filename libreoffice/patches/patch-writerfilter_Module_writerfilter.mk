@@ -1,5 +1,7 @@
 $NetBSD$
 
+Disable unit tests crashing on NetBSD
+
 --- writerfilter/Module_writerfilter.mk.orig	2012-01-09 22:08:58.000000000 +0000
 +++ writerfilter/Module_writerfilter.mk
 @@ -37,10 +37,12 @@ $(eval $(call gb_Module_add_targets,writ

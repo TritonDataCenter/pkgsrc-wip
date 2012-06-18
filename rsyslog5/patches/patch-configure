@@ -1,5 +1,7 @@
 $NetBSD$
 
+Add support for DragonFlyBSD.
+
 --- configure.orig	2012-02-28 21:29:28.000000000 +0000
 +++ configure
 @@ -12116,7 +12116,7 @@ case "${host}" in

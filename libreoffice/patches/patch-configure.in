@@ -1,5 +1,8 @@
 $NetBSD$
 
+Fix a few configure and portability issues
+Force the installation into a single directory in /usr/pkg
+
 --- configure.in.orig	2012-03-27 16:22:01.000000000 +0000
 +++ configure.in
 @@ -5717,7 +5717,9 @@ if test "$with_system_mdds" = "yes"; the

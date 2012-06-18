@@ -22,6 +22,8 @@ CONFIGURE_ARGS+=	--with-__thread=yes
 CONFIGURE_ARGS+=	--with-__thread=no
 .endif
 .include "../../mk/pthread.buildlink3.mk"
+.else
+CONFIGURE_ARGS+=	--disable-threads
 .endif
 
 .if !empty(PKG_OPTIONS:Municode)
@@ -33,6 +35,8 @@ CONFIGURE_ARGS+=	--disable-unicode
 
 .if !empty(PKG_OPTIONS:Mffi)
 .include "../../devel/libffi/buildlink3.mk"
+.else
+CONFIGURE_ARGS+=	--with-dffi=no
 .endif
 
 .if !empty(PKG_OPTIONS:Mclx)

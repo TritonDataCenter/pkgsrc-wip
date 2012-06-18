@@ -26,8 +26,9 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 CPPFLAGS+=	-Dsocklen_t=int
 .endif
 
-PKG_SUPPORTED_OPTIONS=	inet6
 PKG_OPTIONS_VAR=	PKG_OPTIONS.boa
+PKG_SUPPORTED_OPTIONS=	inet6
+PKG_SUGGESTED_OPTIONS=	inet6
 
 .include "../../mk/bsd.options.mk"
 

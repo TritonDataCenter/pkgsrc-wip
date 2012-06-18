@@ -9,6 +9,9 @@ EXTRACT_SUFX=		.zip
 MAINTAINER=		kh.p@no-log.org
 HOMEPAGE=		http://csstidy.sourceforge.net/
 COMMENT=		Opensource CSS parser
+LICENSE=		gnu-lgpl-v2.1
+
+PKG_DESTDIR_SUPPORT=	user-destdir
 
 WRKSRC=			${WRKDIR}
 NO_CONFIGURE=		yes

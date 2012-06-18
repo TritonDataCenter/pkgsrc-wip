@@ -6,7 +6,7 @@ PKG_SUPPORTED_OPTIONS+=	inet6 x11 elinks-exmode expat
 PKG_SUPPORTED_OPTIONS+= elinks-html-highlight elinks-root-exec libmm
 PKG_OPTIONS_GROUP.tls=	gnutls ssl
 PKG_OPTIONS_REQUIRED_GROUPS=	tls
-PKG_SUGGESTED_OPTIONS=	ssl libmm
+PKG_SUGGESTED_OPTIONS=	inet6 ssl libmm
 
 PKG_OPTIONS_LEGACY_OPTS= spidermonkey:javascript
 

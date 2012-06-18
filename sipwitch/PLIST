@@ -2,6 +2,8 @@
 bin/sippasswd
 bin/sipwitch
 bin/sipwitch-cgi
+${PLIST.qt}bin/switchview
+include/sipwitch/cache.h
 include/sipwitch/cdr.h
 include/sipwitch/control.h
 include/sipwitch/db.h

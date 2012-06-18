@@ -8,6 +8,9 @@ MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=alphamail/}
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://alphamail.sourceforge.net/
 COMMENT=	Highly scalable webmail with middleware component
+LICENSE=	gnu-gpl-v3
+
+PKG_DESTDIR_SUPPORT=	user-destdir
 
 BROKEN=		Incompatible with boost 1.34+
 

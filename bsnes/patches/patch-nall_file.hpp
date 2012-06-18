@@ -2,11 +2,11 @@ $NetBSD$
 
 Work around Linuxism.
 
---- nall/file.hpp.orig	2012-01-02 11:07:59.000000000 +0000
+--- nall/file.hpp.orig	2012-05-11 19:58:15.000000000 +0000
 +++ nall/file.hpp
-@@ -7,6 +7,10 @@
- #include <nall/utility.hpp>
+@@ -8,6 +8,10 @@
  #include <nall/windows/utf8.hpp>
+ #include <nall/stream/memory.hpp>
  
 +#ifndef stat64
 +#define stat64 stat

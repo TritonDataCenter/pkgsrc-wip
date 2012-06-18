@@ -8,6 +8,7 @@ DISTFILES=		# empty
 MAINTAINER?=		brook@nmsu.edu
 HOMEPAGE?=		http://www.boost.org/
 COMMENT?=		Run the Boost test suite
+LICENSE=		boost-license
 
 PKG_INSTALLATION_TYPES=	overwrite pkgviews
 PKG_DESTDIR_SUPPORT=	user-destdir
@@ -18,7 +19,7 @@ FTP=			${TOOLS_PLATFORM.ftp}
 HOSTNAME=		${TOOLS_PLATFORM.hostname}
 TEE=			${TOOLS_PLATFORM.tee}
 
-BOOST_TEST_BASEDIR?=	/var/boost
+BOOST_TEST_BASEDIR?=	${VARBASE}/boost
 
 CHECK_PERMS=		no
 NO_BUILD=		yes

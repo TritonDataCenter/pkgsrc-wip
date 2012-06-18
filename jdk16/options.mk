@@ -2,7 +2,7 @@
 
 PKG_OPTIONS_VAR=		PKG_OPTIONS.jdk16
 PKG_SUPPORTED_OPTIONS=		sun-jre-jce inet6 debug fastdebug # jdk16-plugin
-PKG_SUGGESTED_OPTIONS=		# jdk16-plugin
+PKG_SUGGESTED_OPTIONS=		inet6 # jdk16-plugin
 
 # fixme
 #.include "../../www/seamonkey/gecko-options.mk"

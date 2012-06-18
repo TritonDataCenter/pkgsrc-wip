@@ -3,4 +3,4 @@ $NetBSD$
 SHA1 (cb2bib-0.7.2.tar.gz) = dfede2e580f6c1584a8ce327b862cb9a1fe224dc
 RMD160 (cb2bib-0.7.2.tar.gz) = 49a70446a401ebcdf13fef685015633a366295b9
 Size (cb2bib-0.7.2.tar.gz) = 286515 bytes
-SHA1 (patch-aa) = 6a34bf8f688065aa149485fa597455bc8148dd66
+SHA1 (patch-aa) = 99ead0b3cb9f1150f60e966de8fd7c540df0b38e

@@ -1,11 +1,13 @@
 $NetBSD$
 
---- src/app/app.pro.orig	2010-01-15 17:36:52 +0000
+Adds ${PREFIX} to target.path.
+
+--- src/app/app.pro.orig	2012-05-09 14:13:18.000000000 +0000
 +++ src/app/app.pro
-@@ -28,7 +28,7 @@ win32 {
+@@ -29,7 +29,7 @@ win32 {
+     info.output = $$IDE_BIN_PATH/../Info.plist
+     QMAKE_SUBSTITUTES = info
  } else {
-     LIBS *= -lExtensionSystem -lAggregation
- 
 -    target.path  = /bin
 +    target.path  = $(PREFIX)/bin
      INSTALLS    += target

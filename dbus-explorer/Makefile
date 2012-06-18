@@ -7,8 +7,9 @@ CATEGORIES=	sysutils
 MASTER_SITES=	http://www.ndesk.org/archive/dbus-explorer/
 
 MAINTAINER=	kamel.derouiche@gmail.com
-HOMEPAGE=	www.ndesk.org/DBusExplorer
+HOMEPAGE=	http://neteril.org/projects/dbus-explorer/
 COMMENT=	GTK+ interface for viewing D-Bus service APIs written by C\#
+#LICENSE=	# TODO
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 

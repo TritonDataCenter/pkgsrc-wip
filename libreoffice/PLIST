@@ -1,4 +1,5 @@
 @comment $NetBSD$
+bin/libreoffice3.5
 bin/sbase
 bin/scalc
 bin/sdraw
@@ -6,6 +7,13 @@ bin/simpress
 bin/smath
 bin/soffice
 bin/swriter
+share/applications/calc.desktop
+share/applications/draw.desktop
+share/applications/impress.desktop
+share/applications/math.desktop
+share/applications/printeradmin.desktop
+share/applications/startcenter.desktop
+share/applications/writer.desktop
 ${PKGNAME}/CREDITS.odt
 ${PKGNAME}/LICENSE
 ${PKGNAME}/LICENSE.odt

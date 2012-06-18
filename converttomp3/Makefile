@@ -7,9 +7,10 @@ CATEGORIES=	audio
 MASTER_SITES=	http://converttomp3.googlecode.com/files/
 EXTRACT_SUFX=	.zip
 
-MAINTAINER=	pkgsrc-users@netbsd.org
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://code.google.com/p/converttomp3/
 COMMENT=	Convert music files to MP3, preserving some tag information
+LICENSE=	gnu-gpl-v3
 
 DEPENDS+=	id3v2-[0-9]*:../../audio/id3v2
 DEPENDS+=	lame-[0-9]*:../../audio/lame

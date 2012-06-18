@@ -141,7 +141,10 @@ REPLACE_PERL+=	sd/res/webview/savepic.pl
 REPLACE_PERL+=	sd/res/webview/show.pl
 REPLACE_PERL+=	sd/res/webview/webview.pl
 
-LO_PROGRAMS=	sbase scalc sdraw simpress smath soffice swriter
+LO_PROGRAMS=		sbase scalc sdraw simpress smath soffice swriter
+# Base depends on java, we don't install the icon
+LO_DESKTOP_FILES=	calc.desktop draw.desktop impress.desktop math.desktop \
+					printeradmin.desktop startcenter.desktop writer.desktop
 
 post-extract:
 	${MKDIR} -p ${WRKSRC}/clone
@@ -160,10 +163,14 @@ post-configure:
 	cd ${WRKSRC} && ./bin/create_bootstrap_links
 	${TOUCH} ${WRKSRC}/src.downloaded
 
+AUTO_MKDIRS=	yes
 post-install:
-	${MKDIR} -p ${DESTDIR}${PREFIX}/bin
 	for f in ${LO_PROGRAMS}; do \
 		${LN} -s ${DESTDIR}${PREFIX}/${PKGNAME}/program/$$f ${DESTDIR}${PREFIX}/bin/$$f; \
+	done
+	${LN} -s ${DESTDIR}${PREFIX}/${PKGNAME}/program/soffice ${DESTDIR}${PREFIX}/bin/libreoffice3.5
+	for f in ${LO_DESKTOP_FILES}; do \
+		${LN} -s ${DESTDIR}${PREFIX}/${PKGNAME}/share/xdg/$$f ${DESTDIR}${PREFIX}/share/applications; \
 	done
 
 

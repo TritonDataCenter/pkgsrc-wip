@@ -9,6 +9,9 @@ MASTER_SITES=		http://www.molspaces.com/dl/progs/
 MAINTAINER=		dhowland@users.sourceforge.net
 HOMEPAGE=		http://www.molspaces.com/cb2bib/
 COMMENT=		Extract and organize bibliographic references
+LICENSE=		gnu-gpl-v3
+
+PKG_DESTDIR_SUPPORT=	user-destdir
 
 USE_LANGUAGES=		c c++
 USE_LIBTOOL=		yes
@@ -24,6 +27,7 @@ do-configure:
 	cd ${WRKSRC} && ${SET_ENV} ${CONFIGURE_ENV} ./configure \
 	--prefix ${PREFIX} --bindir ${PREFIX}/bin --datadir ${PREFIX}/share
 
+.include "../../sysutils/desktop-file-utils/desktopdb.mk"
 .include "../../x11/qt4-libs/buildlink3.mk"
 .include "../../x11/qt4-tools/buildlink3.mk"
 .include "../../mk/x11.buildlink3.mk"

@@ -17,10 +17,6 @@ PLIST_SRC+=	PLIST.vt
 
 CONF_FILES+=		share/vampirtrace/VampirTrace/examples/vt-java-default-filter.spec \
 			$(PKG_SYSCONFDIR)/vt-java-default-filter.spec
-CONF_FILES+=		share/vampirtrace/VampirTrace/examples/vt-setup-config.dtd \
-			$(PKG_SYSCONFDIR)/vt-setup-config.dtd
-CONF_FILES+=		share/vampirtrace/VampirTrace/examples/vt-setup-config.xml \
-			$(PKG_SYSCONFDIR)/vt-setup-config.xml
 
 .include "../../graphics/freetype2/buildlink3.mk"
 .else

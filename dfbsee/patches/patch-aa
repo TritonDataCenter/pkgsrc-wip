@@ -1,5 +1,7 @@
 $NetBSD$
 
+Add support for the BSDs.
+
 --- src/volume.c.orig	2003-06-04 04:56:18.000000000 +0200
 +++ src/volume.c	2003-06-04 04:57:08.000000000 +0200
 @@ -30,7 +30,11 @@

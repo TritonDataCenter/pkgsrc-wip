@@ -86,8 +86,6 @@ share/vampirtrace/FILTER.SPEC
 share/vampirtrace/GROUPS.SPEC
 share/vampirtrace/METRICS.SPEC
 share/vampirtrace/VampirTrace/examples/vt-java-default-filter.spec
-share/vampirtrace/VampirTrace/examples/vt-setup-config.dtd
-share/vampirtrace/VampirTrace/examples/vt-setup-config.xml
 share/vampirtrace/doc/ChangeLog
 share/vampirtrace/doc/LICENSE
 share/vampirtrace/doc/UserManual.html

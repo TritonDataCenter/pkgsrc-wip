@@ -6,7 +6,7 @@ PKGNAME=	p5-${DISTNAME}
 CATEGORIES= www perl5
 MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=WWW/}
 
-MAINTAINER=	leot1990@users.sourceforge.net
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://search.cpan.org/dist/WWW-YouTube-VideoURI/
 COMMENT=	Module to determine the URI of a Flash Video file on YouTube.com
 

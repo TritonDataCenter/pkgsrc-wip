@@ -1,13 +1,13 @@
 # $NetBSD: Makefile,v 1.43 2010/09/13 12:43:16 asau Exp $
 
-DISTNAME=	chicken-4.6.2
+DISTNAME=	chicken-4.7.4 # development snapshot
 CATEGORIES=	lang
 MASTER_SITES=	http://code.call-cc.org/releases/${PKGVERSION_NOREV}/ \
-		http://code.call-cc.org/dev-snapshots/2010/10/06/
+		http://code.call-cc.org/dev-snapshots/2012/02/07/
 
 MAINTAINER=	asau@inbox.ru #, airhead@users.sourceforge.net
 HOMEPAGE=	http://www.call-cc.org/
-COMMENT=	Scheme to C compiler, handling R5RS
+COMMENT=	Scheme to C compiler, handling R5RS (development snapshot)
 LICENSE=	modified-bsd
 
 PKG_DESTDIR_SUPPORT=	user-destdir
@@ -16,10 +16,11 @@ MAKE_JOBS_SAFE=		no
 
 USE_LIBTOOL=		yes
 USE_TOOLS+=		gmake
+MAKE_FILE=		GNUmakefile
 UNLIMIT_RESOURCES=	datasize
 
 INSTALLATION_DIRS=	share/chicken
-OWN_DIRS=		${PREFIX}/lib/chicken ${PREFIX}/lib/chicken/5
+OWN_DIRS=		${PREFIX}/lib/chicken ${PREFIX}/lib/chicken/6
 
 BUILD_TARGET=		all
 

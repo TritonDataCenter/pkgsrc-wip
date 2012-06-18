@@ -9,6 +9,7 @@ EXTRACT_SUFX=	.tar.bz2
 HOMEPAGE=	http://hjemli.net/git/cgit
 COMMENT=	Fast web interface for git
 MAINTAINER=	pkgsrc-wip-discuss@lists.sourceforge.net
+LICENSE=	gnu-gpl-v2
 
 BUILD_DEPENDS+=	curl>=7.19.2:../../www/curl
 

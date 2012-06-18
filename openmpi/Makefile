@@ -1,10 +1,10 @@
 # $NetBSD$
 
-DISTNAME=	openmpi-1.5.5rc4r26069
-PKGNAME=	openmpi-1.5.5.26069
+DISTNAME=	openmpi-1.6.1a1r26586
+PKGNAME=	openmpi-1.6.0.99.26586
 CATEGORIES=	parallel
-MASTER_SITES=	http://www.open-mpi.org/software/ompi/v1.5/downloads/ \
-		http://www.open-mpi.org/nightly/v1.5/
+MASTER_SITES=	http://www.open-mpi.org/software/ompi/v1.6/downloads/ \
+		http://www.open-mpi.org/nightly/v1.6/
 EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	asau@inbox.ru
@@ -30,9 +30,12 @@ CONFIGURE_ARGS+=	--disable-mpi-f90
 CONFIGURE_ARGS+=	--without-sge
 CONFIGURE_ARGS+=	--without-slurm
 CONFIGURE_ARGS+=	--with-libltdl=external # use our libltdl
+CONFIGURE_ARGS+=	--with-hwloc=$(BUILDLINK_PREFIX.hwloc:Q) #external
 CONFIGURE_ARGS+=	--with-wrapper-ldflags="-L${PREFIX}/lib ${LINKER_RPATH_FLAG}${PREFIX}/lib"
 CONFIGURE_ENV+=		ompi_cv_f77_have_INTEGERp8=no	# no "INTEGER*8"??
 CONFIGURE_ARGS+=	OPAL_HAVE_LTDL_ADVISE=0
+
+# Prevent detection of OpenMP support in order to make PLIST consistent:
 BUILDLINK_TRANSFORM=	rm:-fopenmp
 
 USE_TOOLS+=		perl:run
@@ -41,11 +44,14 @@ USE_TOOLS+=		perl:run
 
 TEST_TARGET=	check
 
+## Just in case you'll need it...
 # USE_TOOLS+=	aclocal autoconf automake bash perl
 # REPLACE_BASH=	autogen.sh
 
 # pre-configure:	replace-interpreter
 # 	cd $(WRKSRC) && $(BASH) autogen.sh
 
+LIBLTDL_CONVENIENCE_SUBDIR=	opal/libltdl
+.include "../../devel/libltdl/convenience.mk" # for "test" target to work
 .include "../../devel/libltdl/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

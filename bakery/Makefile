@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		bakery-2.6.3
+DISTNAME=	bakery-2.6.3
 PKGREVISION=	1
 CATEGORIES=	devel gnome
 MASTER_SITES=	${MASTER_SITE_GNOME:=sources/bakery/2.6/}
@@ -10,8 +10,9 @@ EXTRACT_SUFX=	.tar.bz2
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://bakery.sourceforge.net/
 COMMENT=	C++ Framework for creating GNOME applications using gtkmm
+LICENSE=	gnu-lgpl-v2
 
- PKG_DESTDIR_SUPPORT=		user-destdir
+PKG_DESTDIR_SUPPORT=		user-destdir
 
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=		yes

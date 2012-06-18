@@ -1,12 +1,12 @@
 # $NetBSD$
 #
 
-DISTNAME=	joe-3.1jupp18.cpio
-PKGNAME=	jupp-3.1.18
+DISTNAME=	joe-3.1jupp20
+PKGNAME=	${DISTNAME:S/jupp/./:S/joe/jupp/}
 CATEGORIES=	editors
 MASTER_SITES=	http://www.mirbsd.org/MirOS/dist/jupp/ \
 		http://pub.allbsd.org/MirOS/dist/jupp/
-EXTRACT_SUFX=	.gz
+EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	adam.hoka@gmail.com
 HOMEPAGE=	http://www.mirbsd.org/jupp.htm

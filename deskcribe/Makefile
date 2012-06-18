@@ -10,6 +10,7 @@ EXTRACT_SUFX=	.tar.bz2
 MAINTAINER=	pkgsrc.gnome@gmail.com
 HOMEPAGE=	https://launchpad.net/deskscribe
 COMMENT=	DeskScribe is a usability testing suite
+LICENSE=	gnu-gpl-v2 gnu-lgpl-v2
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 

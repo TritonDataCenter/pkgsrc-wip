@@ -118,6 +118,14 @@ CONFIGURE_ARGS+=	--enable-json
 
 .if !empty(PKG_OPTIONS:Mui) || !empty(PKG_OPTIONS:Mgui)
 PLIST_SRC+=		${PKGDIR}/PLIST ${PKGDIR}/PLIST.gui_ui
+
+post-install:
+	${INSTALL_DATA_DIR} ${DESTDIR}${PREFIX}/share/icons
+	${CP} ${DESTDIR}${PREFIX}/share/libgda-4.0/pixmaps/gda-control-center.png ${DESTDIR}${PREFIX}/share/icons
+	# XXX needed for gnumeric-1.10.17nb5
+	${INSTALL_DATA_DIR} ${DESTDIR}/${PREFIX}/include/libgda-4.0/libgda/control-center
+	${INSTALL_DATA} ${WRKSRC}/control-center/gdaui-login-dialog.h ${DESTDIR}/${PREFIX}/include/libgda-4.0/libgda/control-center
+
 .  include "../../sysutils/desktop-file-utils/desktopdb.mk"
 .  include "../../security/libgcrypt/buildlink3.mk"
 .  include "../../x11/gtk2/buildlink3.mk"

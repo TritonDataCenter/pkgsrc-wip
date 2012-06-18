@@ -9,7 +9,7 @@ EXTRACT_SUFX=	.tar.bz2
 MAINTAINER=	pkgsrc.gnome@gmail.com
 HOMEPAGE=	http://bleachbit.sourceforge.net/
 COMMENT=	Bleachbit is a privacy and cleaning tool
-#LICENSE=	# TODO: (see mk/license.mk)
+LICENSE=	gnu-gpl-v3
 
 DEPENDS+=	${PYPKGPREFIX}-sqlite3-[0-9]*:../../databases/py-sqlite3
 DEPENDS+=	${PYPKGPREFIX}-gobject>=2.18.0:../../devel/py-gobject

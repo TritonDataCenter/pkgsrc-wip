@@ -7,6 +7,9 @@ CATEGORIES=		mail
 MAINTAINER=		bsd@cs.ubc.ca
 HOMEPAGE=		http://crm114.sourceforge.net/
 COMMENT=		Fast and accurate learning classifier, good for spam
+LICENSE=		gnu-gpl-v2
+
+PKG_DESTDIR_SUPPORT=	user-destdir
 
 # For some reason, later versions are just being placed on the home page
 #   MASTER_SITES=		${MASTER_SITE_SOURCEFORGET:=crm114/}

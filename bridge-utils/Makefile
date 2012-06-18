@@ -6,8 +6,11 @@ CATEGORIES=		net linux
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=bridge/}
 
 MAINTAINER=		pancake@phreaker.net
-HOMEPAGE=		http://bridge.sourceforge.net/
+HOMEPAGE=		http://www.linuxfoundation.org/collaborate/workgroups/networking/bridge
 COMMENT=		Ethernet bridging utilities for GNU/Linux
+LICENSE=		gnu-gpl-v2
+
+PKG_DESTDIR_SUPPORT=	user-destdir
 
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes

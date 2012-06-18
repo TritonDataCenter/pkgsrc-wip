@@ -1,5 +1,6 @@
-diff --git a/deps/uv/uv.gyp b/deps/uv/uv.gyp
-index f53e18e..ff5a55b 100644
+$NetBSD$
+
+Add support for NetBSD.
 --- deps/uv/uv.gyp
 +++ deps/uv/uv.gyp
 @@ -279,6 +279,19 @@
