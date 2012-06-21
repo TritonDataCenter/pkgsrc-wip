@@ -1,8 +1,8 @@
 # $NetBSD$
 #
 
-DISTNAME=		tor-0.2.3.5-alpha
-PKGNAME=		${DISTNAME:S/-alpha//}
+DISTNAME=		tor-0.2.3.17-beta
+PKGNAME=		${DISTNAME:S/-beta//}
 CATEGORIES=		net security
 MASTER_SITES=		http://www.torproject.org/dist/
 
@@ -50,6 +50,12 @@ CONF_FILES+=		${PREFIX}/share/examples/tor/torrc.sample 	\
 
 FILES_SUBST+=		PKG_HOME=${PKG_HOME}
 FILES_SUBST+=		TOR_USER=${TOR_USER} TOR_GROUP=${TOR_GROUP}
+
+SUBST_CLASSES+=			fix-paths
+SUBST_STAGE.fix-paths=		pre-configure
+SUBST_MESSAGE.fix-paths=	Fixing absolute paths.
+SUBST_FILES.fix-paths=		contrib/torify.in
+SUBST_SED.fix-paths=		-e 's,"/etc/tor,"${PKG_SYSCONFDIR},g'
 
 INSTALL_MAKE_FLAGS+=	sysconfdir=${PREFIX}/share/examples
 
