@@ -9,7 +9,7 @@ COMMENT=	Entropy and Mutual Information Estimation
 LICENSE=	gnu-gpl-v3
 
 R_PKGNAME=	entropy
-R_PKGVER=	1.1.6
+R_PKGVER=	1.1.7
 
 .include "../../math/R/Makefile.extension"
 .include "../../mk/bsd.pkg.mk"
