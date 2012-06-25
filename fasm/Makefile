@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		fasm-1.69.31
+DISTNAME=		fasm-1.70.02
 CATEGORIES=		devel
 MASTER_SITES=		http://flatassembler.net/
 
@@ -20,7 +20,7 @@ NO_CONFIGURE=		yes
 INSTALLATION_DIRS=	bin share/doc/fasm
 
 do-build:
-	cd ${WRKSRC} && ${CC} ${CFLAGS} fasm.o -o fasm
+	cd ${WRKSRC} && ${CC} -m32 ${CFLAGS} fasm.o -o fasm
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/fasm ${DESTDIR}${PREFIX}/bin

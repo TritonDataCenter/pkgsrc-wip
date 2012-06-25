@@ -1,11 +1,11 @@
 # $NetBSD$
 #
 
-VERSION=        20011114.1
+VERSION=        1.0
 SHORTNAME=	split-sequence
-DISTNAME=	${SHORTNAME}
+DISTNAME=	${SHORTNAME}-${VERSION}
 CATEGORIES=	devel
-MASTER_SITES=	http://ftp.linux.org.uk/pub/lisp/experimental/cclan/
+MASTER_SITES= 	http://common-lisp.net/~sionescu/files/
 
 MAINTAINER=     ddeus.pkgsrc@mailnull.com
 HOMEPAGE=	http://www.cliki.net/SPLIT-SEQUENCE
