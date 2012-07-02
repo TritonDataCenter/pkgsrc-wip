@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	mumble-1.2.2
+PKGREVISION=	1
 CATEGORIES=	audio
 MASTER_SITES=	http://downloads.sourceforge.net/project/mumble/Mumble/1.2.2/
 

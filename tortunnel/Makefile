@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	tortunnel-0.2
+PKGREVISION=	1
 CATEGORIES=	net
 MASTER_SITES=	http://www.thoughtcrime.org/software/tortunnel/
 

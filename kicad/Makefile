@@ -5,6 +5,7 @@ V=		2012-01-19
 S=		BZR3256-stable
 DISTNAME=	kicad_sources-${V}-${S}
 PKGNAME=	kicad-${V:S/-//g}
+PKGREVISION=	1
 CATEGORIES=	cad
 MASTER_SITES=	ftp://iut-tice.ujf-grenoble.fr/cao/
 EXTRACT_SUFX=	.zip

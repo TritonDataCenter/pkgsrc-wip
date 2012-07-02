@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	ezbounce-1.99.14
-PKGREVISION=	1
+PKGREVISION=	2
 CATEGORIES=	chat
 MASTER_SITES=	http://www.linuxftw.com/ezbounce/files/
 

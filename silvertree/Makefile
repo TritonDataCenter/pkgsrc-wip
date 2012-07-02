@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	silvertree-0.2
-PKGREVISION=	2
+PKGREVISION=	3
 CATEGORIES=	games
 MASTER_SITES=	http://www.silvertreerpg.org/downloads/
 

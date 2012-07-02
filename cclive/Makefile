@@ -2,6 +2,7 @@
 #
 
 DISTNAME=		cclive-0.7.8
+PKGREVISION=		1
 CATEGORIES=		net multimedia www
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=cclive/}
 

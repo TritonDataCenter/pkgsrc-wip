@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	scantailor-0.9.9.2
+PKGREVISION=	1
 CATEGORIES=	graphics
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=scantailor/0.9.9.2/}
 

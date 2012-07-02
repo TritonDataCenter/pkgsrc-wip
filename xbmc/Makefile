@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	xbmc-10.1
+PKGREVISION=	1
 CATEGORIES=	multimedia
 MASTER_SITES=	http://mirrors.xbmc.org/releases/source/
 

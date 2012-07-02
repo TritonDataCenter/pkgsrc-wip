@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	ufc-2.0.5
+PKGREVISION=	1
 CATEGORIES=	math
 MASTER_SITES=	http://launchpad.net/ufc/2.0.x/2.0.5/+download/
 

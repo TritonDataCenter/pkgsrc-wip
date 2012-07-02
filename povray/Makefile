@@ -2,6 +2,7 @@
 
 DISTNAME=	povray-3.7.0.RC5
 PKGNAME=	${DISTNAME:S/.RC/rc/}
+PKGREVISION=	1
 CATEGORIES=	graphics
 MASTER_SITES=	http://www.povray.org/beta/source/
 

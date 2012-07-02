@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	srecord-1.50
+PKGREVISION=	1
 CATEGORIES=	devel
 MASTER_SITES=	http://srecord.sourceforge.net/
 
