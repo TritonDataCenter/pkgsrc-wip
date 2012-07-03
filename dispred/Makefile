@@ -3,13 +3,13 @@
 
 DISTNAME=	DISPred-2.0
 PKGNAME=	dispred-2.0
-CATEGORIES=	physics
+CATEGORIES=	math
 MASTER_SITES=	http://www.hepforge.org/archive/dispred/
 EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	jihbed.research@gmail.com
-HOMEPAGE=	http://www.hepforge.org/archive/dispred/
-COMMENT=	TODO: Short description of the package
+HOMEPAGE=	http://dispred.hepforge.org/
+COMMENT=	Tools for calculating DIS cross sections at LO and NLO in QCD
 #LICENSE=	# TODO: (see mk/license.mk)
 
 PKG_DESTDIR_SUPPORT=	user-destdir
