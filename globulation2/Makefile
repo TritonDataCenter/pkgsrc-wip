@@ -3,7 +3,7 @@
 
 PKGNAME=		globulation2-0.8.21
 DISTNAME=		glob2-0.8.21
-PKGREVISION=		2
+PKGREVISION=		3
 CATEGORIES=		games
 MASTER_SITES=		http://globulation2.org/releases/0.8.21/
 

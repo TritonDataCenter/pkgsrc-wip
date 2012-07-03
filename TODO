@@ -4,7 +4,7 @@ Suggested package updates
 	o anki-1.2.9
 	o applewmproto-1.4.1
 	o argouml-0.24
-	o atlas-3.9.80
+	o atlas-3.9.81
 	o backintime-1.0.6
 	o cairo-java-1.0.8
 	o ccrypt-1.9
@@ -30,6 +30,7 @@ Suggested package updates
 	o evolution-couchdb-0.4.4
 	o fakenes-0.5.7
 	o firebird-2.5
+	o fonttosfnt-1.0.4
 	o fslsfonts-1.0.4
 	o fstobdf-1.0.5
 	o gambas2-2.23.0
@@ -48,6 +49,7 @@ Suggested package updates
 	o gnunet-0.9.3
 	o gnupod-0.99.8
 	o gobject-introspection-0.9.12
+	o grandr-0.1
 	o grass-6.4.2
 	o grisbi-0.8.4
 	o grsync-1.2.0
@@ -79,6 +81,7 @@ Suggested package updates
 	o libgtk-java-2.10.2
 	o libmemcached-0.53
 	o libpeas-1.4.0
+	o libpthread-stubs-0.3
 	o libuuid-1.41.14
 	o lirc-0.8.6
 	o lives-1.6.2
@@ -92,6 +95,7 @@ Suggested package updates
 	o nautilus-open-terminal-0.19
 	o netwmpager-2.04
 	o newsbeuter-2.4
+	o node-0.8.0
 	o ogmrip-0.13.7
 	o omega-1.2.10
 	o openvrml-0.18.9
@@ -113,6 +117,7 @@ Suggested package updates
 	o samhain-3.0.4
 	o scantailor-0.9.11.1
 	o sflphone-0.7.2
+	o showfont-1.0.3
 	o siege-2.72
 	o sleuthkit-3.2.3
 	o smc-1.8
@@ -132,6 +137,7 @@ Suggested package updates
 	o xf86-input-synaptics-1.6.2
 	o xf86-video-geode-2.11.13
 	o xf86-video-nouveau-1.0
+	o xf86rushproto-1.1.2
 	o xfs-1.1.2
 	o xinetd-2.3.15
 	o xmms2-0.6

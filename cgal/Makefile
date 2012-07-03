@@ -5,6 +5,7 @@ DISTNAME=	CGAL-${DISTVERS}
 DISTVERS=	3.7
 PKGNAME=	cgal-${DISTVERS}
 #PKGREVISION=	1
+PKGREVISION=	1
 CATEGORIES=	math
 MASTER_SITES=	https://gforge.inria.fr/frs/download.php/27641/
 

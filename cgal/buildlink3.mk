@@ -6,6 +6,7 @@ BUILDLINK_TREE+=	cgal
 CGAL_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.cgal+=	cgal>=3.7
+BUILDLINK_ABI_DEPENDS.cgal?=	cgal>=3.7nb1
 BUILDLINK_PKGSRCDIR.cgal?=	../../wip/cgal
 
 .include "../../graphics/glu/buildlink3.mk"

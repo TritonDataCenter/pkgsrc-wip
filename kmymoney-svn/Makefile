@@ -1,6 +1,7 @@
 # $NetBSD: Makefile,v 1.40 2009/05/20 00:58:16 wiz Exp $
 
 DISTNAME=	kmymoney
+PKGREVISION=	1
 CATEGORIES=	finance kde
 MASTER_SITES=	#
 

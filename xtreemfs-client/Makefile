@@ -1,7 +1,7 @@
 # $NetBSD$
-#
 
-PKGNAME=		${DISTNAME:S/XtreemFS/xtreemfs-client/}
+PKGNAME=	${DISTNAME:S/XtreemFS/xtreemfs-client/}
+PKGREVISION=	1
 
 USE_LANGUAGES+=		c c++
 

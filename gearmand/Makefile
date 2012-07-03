@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	gearmand-0.33
+PKGREVISION=	1
 CATEGORIES=	devel
 MASTER_SITES=	http://launchpadlibrarian.net/104788829/
 

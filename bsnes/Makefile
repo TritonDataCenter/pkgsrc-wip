@@ -3,6 +3,7 @@
 
 DISTNAME=	bsnes_v089
 PKGNAME=	${DISTNAME:S/_v0/-0./}
+PKGREVISION=	1
 CATEGORIES=	emulators
 MASTER_SITES=	http://bsnes.googlecode.com/files/
 EXTRACT_SUFX=	.tar.xz

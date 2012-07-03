@@ -3,6 +3,7 @@
 
 DISTNAME=	rstudio-rstudio-v0.95.264-0-ge31bd49
 PKGNAME=	rstudio-0.95.264
+PKGREVISION=	1
 CATEGORIES=	math
 MASTER_SITES=	-https://github.com/rstudio/rstudio/tarball/v0.95.265
 

@@ -3,6 +3,7 @@
 VER=			2012-04-23
 DISTNAME=		libreoffice-${VER}
 PKGNAME=		libreoffice-devel-${VER:S/-//g}
+PKGREVISION=		1
 CATEGORIES=		misc
 MASTER_SITES=	http://dl.wolfpond.org/libreoffice/ \
 		http://dev-www.libreoffice.org/src/ \
