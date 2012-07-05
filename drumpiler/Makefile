@@ -3,13 +3,16 @@
 
 DISTNAME=	drumpiler-0.9.0
 CATEGORIES=	audio
-MASTER_SITES= ${MASTER_SITE_SOURCEFORGE:=drumpiler/}
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=drumpiler/}
 
 MAINTAINER=	jfranz@bsdprojects.net
 HOMEPAGE=	http://drumpiler.sourceforge.net/
 COMMENT=	Drum machine compiler
+LICENSE=	gnu-gpl-v2
 
-BUILD_DEPENDS+=		SDL-1.2.[0-9]*:../../devel/SDL
+PKG_DESTDIR_SUPPORT=	user-destdir
+
+BUILD_DEPENDS+=	SDL-1.2.[0-9]*:../../devel/SDL
 
 SDL_CONFIG=	${PREFIX}/bin/sdl-config
 CFLAGS+=	`${SDL_CONFIG} --cflags`
