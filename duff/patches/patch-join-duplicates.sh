@@ -1,5 +1,7 @@
 $NetBSD$
 
+Using = instead of == for comparison.
+
 --- join-duplicates.sh.orig	2011-04-10 13:17:26.000000000 +0000
 +++ join-duplicates.sh
 @@ -10,7 +10,7 @@
