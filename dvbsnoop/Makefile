@@ -8,6 +8,9 @@ MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=dvbsnoop/}
 MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://dvbsnoop.sourceforge.net/
 COMMENT=		DVB / MPEG stream analyzer program
+LICENSE=		gnu-gpl-v2
+
+PKG_DESTDIR_SUPPORT=	user-destdir
 
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
