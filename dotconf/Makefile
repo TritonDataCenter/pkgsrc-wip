@@ -8,6 +8,7 @@ MASTER_SITES=	http://www.azzit.de/dotconf/download/v1.0/
 MAINTAINER=	shattered@users.sourceforge.net
 HOMEPAGE=	http://www.azzit.de/dotconf/
 COMMENT=	Configuration file parser library
+LICENSE=	gnu-lgpl-v2.1
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
