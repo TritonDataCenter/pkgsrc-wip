@@ -8,7 +8,7 @@ MASTER_SITES=	${E2FSPROGS_MASTER_SITES}
 MAINTAINER=	reed@reedmedia.net
 HOMEPAGE=	http://e2fsprogs.sourceforge.net/
 COMMENT=	Filesystem utilities for the ext2 and ext3 filesystems
-LICENSE=	gnu-gpl-v2 gnu-lgpl-v2 modified-bsd mit
+LICENSE=	gnu-gpl-v2 AND gnu-lgpl-v2 AND modified-bsd AND mit
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
