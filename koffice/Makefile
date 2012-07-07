@@ -63,5 +63,6 @@ REPLACE_PYTHON+= \
 .include "../../x11/kdelibs4/buildlink3.mk"
 # CMake doesn't find it
 #.include "../../mk/pgsql.buildlink3.mk"
+BUILDLINK_DEPMETHOD.qt4-tools=	full
 .include "../../meta-pkgs/kde4/kde4.mk"
 .include "../../mk/bsd.pkg.mk"
