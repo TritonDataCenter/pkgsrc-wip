@@ -12,6 +12,8 @@ COMMENT=	Extended DVI to PDF converter, mainly for use with XeTeX
 
 LICENSE=	gnu-gpl-v2
 
+DEPENDS+=	dvipdfmx-[0-9]*:../../print/dvipdfmx
+
 EXTRACT_ELEMENTS=	${DISTNAME}/build-aux \
 			${DISTNAME}/texk/xdvipdfmx
 
