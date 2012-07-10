@@ -8,7 +8,7 @@ HOMEPAGE=	http://www.bnlearn.com/
 COMMENT=	Bayesian network structure learning, parameter learning and inference
 
 R_PKGNAME=	bnlearn
-R_PKGVER=	2.9
+R_PKGVER=	3.0
 
 LICENSE=	gnu-gpl-v2 OR gnu-gpl-v3
 
