@@ -1,5 +1,9 @@
 $NetBSD$
 
+New file for the function batch-sort-file,
+for sorting data file in Emacs internal code order
+from shell batch execution.
+
 --- BATCH-SORT.orig	2012-04-12 23:11:23.000000000 +0900
 +++ BATCH-SORT	2012-04-12 23:16:56.000000000 +0900
 @@ -0,0 +1,44 @@
