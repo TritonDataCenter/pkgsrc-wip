@@ -1,4 +1,6 @@
 $NetBSD$
+Supporing to add following argment for configure
+ --enable-symbol-rev 
 
 --- etc/Makefile.in.orig	2012-04-12 09:42:33.000000000 +0900
 +++ etc/Makefile.in	2012-04-12 23:49:23.000000000 +0900

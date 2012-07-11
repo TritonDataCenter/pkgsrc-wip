@@ -7,7 +7,10 @@ MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=drow/}
 
 MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://drow.sourceforge.net/
-COMMENT=		low-level ELF file analyzer
+COMMENT=		Low-level ELF file analyzer
+LICENSE=		gnu-gpl-v2
+
+PKG_DESTDIR_SUPPORT=	user-destdir
 
 GNU_CONFIGURE=		YES
 

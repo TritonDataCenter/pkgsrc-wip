@@ -12,7 +12,7 @@ COMPONENT=	dri
 MAINTAINER=	pallegra@gmail.com
 HOMEPAGE=	http://www.mesa3d.org/
 COMMENT=	OpenGL hardware acceleration drivers for the DRI
-#LICENSE=	mit # ???
+LICENSE=	mit
 
 CONFLICTS=	MesaLib<=7.6
 
