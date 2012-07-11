@@ -641,6 +641,8 @@ lib/node_modules/npm/node_modules/read/lib/read.js
 lib/node_modules/npm/node_modules/read/LICENCE
 lib/node_modules/npm/node_modules/read/package.json
 lib/node_modules/npm/node_modules/read/README.md
+lib/node_modules/npm/node_modules/request/aws.js
+lib/node_modules/npm/node_modules/request/aws2.js
 lib/node_modules/npm/node_modules/request/forever.js
 lib/node_modules/npm/node_modules/request/LICENSE
 lib/node_modules/npm/node_modules/request/main.js
