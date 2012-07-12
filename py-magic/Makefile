@@ -12,9 +12,9 @@ LICENSE=	python-software-foundation
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
-PYDISTUTILSPKG= yes
+EGG_NAME=	${DISTNAME:S/-magic/_magic/}
 
 USE_LANGUAGES=	# none
 
-.include "../../lang/python/extension.mk"
+.include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"
