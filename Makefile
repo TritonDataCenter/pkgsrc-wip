@@ -2363,6 +2363,7 @@ SUBDIR+=	py-logilab-database
 SUBDIR+=	py-logilab-mtconverter
 SUBDIR+=	py-logilab-pigg
 SUBDIR+=	py-louie
+SUBDIR+=	py-magic
 SUBDIR+=	py-magnitude
 SUBDIR+=	py-mark
 SUBDIR+=	py-mcint
