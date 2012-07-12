@@ -14,6 +14,7 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 
 GIT_REPOSITORIES=	master
 GIT_REPO.master=	https://github.com/hayamiz/twittering-mode.git
+GIT_MODULE.master=	twittering-mode
 
 WRKSRC=		${WRKDIR}/twittering-mode
 NO_BUILD=	yes
