@@ -10,8 +10,6 @@ HOMEPAGE=	http://pypi.python.org/pypi/python-magic/
 COMMENT=	File type identification using libmagic
 LICENSE=	python-software-foundation
 
-DEPENDS+=	${PYPKGPREFIX}-setuptools-[0-9]*:../../devel/py-setuptools
-
 PKG_DESTDIR_SUPPORT=	user-destdir
 
 PYDISTUTILSPKG= yes
@@ -19,5 +17,4 @@ PYDISTUTILSPKG= yes
 USE_LANGUAGES=	# none
 
 .include "../../lang/python/extension.mk"
-.include "../../lang/python/application.mk"
 .include "../../mk/bsd.pkg.mk"
