@@ -1,0 +1,2 @@
+@comment $NetBSD$
+${GAUCHE_SITE_LIB_DIR}/pib.scm
