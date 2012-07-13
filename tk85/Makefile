@@ -20,6 +20,9 @@ CONFIGURE_DIRS=		unix
 BUILD_DIRS=		${CONFIGURE_DIRS}
 
 CONFIGURE_ARGS+=	--prefix=${PREFIX}
+# The next line seems to be redundent, but on some arch's, 
+# this is not default, at least for Mac OS X 10.6.1 (mef@)
+CONFIGURE_ARGS+=	--libdir=${PREFIX}/lib
 CONFIGURE_ARGS+=	--with-tcl=${BUILDLINK_PREFIX.tcl}/lib/tcl${TCL_VERSION:C/.[0-9]*$//}
 
 TEST_TARGET=		test
