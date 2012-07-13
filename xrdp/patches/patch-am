@@ -1,8 +1,8 @@
 $NetBSD$
 
---- xrdp/xrdp_login_wnd.c.orig	2006-04-29 03:47:06.000000000 +0200
+--- xrdp/xrdp_login_wnd.c.orig	2007-05-06 08:50:45.000000000 +0200
 +++ xrdp/xrdp_login_wnd.c
-@@ -645,7 +645,7 @@ xrdp_login_wnd_create(struct xrdp_wm* se
+@@ -461,7 +461,7 @@
  
    /* image */
    but = xrdp_bitmap_create(4, 4, self->screen->bpp, WND_TYPE_IMAGE, self);
@@ -11,7 +11,7 @@ $NetBSD$
    but->parent = self->screen;
    but->owner = self->screen;
    but->left = self->screen->width - but->width;
-@@ -654,7 +654,7 @@ xrdp_login_wnd_create(struct xrdp_wm* se
+@@ -470,7 +470,7 @@
  
    /* image */
    but = xrdp_bitmap_create(4, 4, self->screen->bpp, WND_TYPE_IMAGE, self);
