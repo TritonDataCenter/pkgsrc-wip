@@ -666,6 +666,7 @@ SUBDIR+=	gappa
 SUBDIR+=	garcon
 SUBDIR+=	gauche-dbd-pg
 SUBDIR+=	gauche-fastcgi
+SUBDIR+=	gauche-pib
 SUBDIR+=	gbase
 SUBDIR+=	gcc42
 SUBDIR+=	gcc43
