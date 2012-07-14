@@ -2163,7 +2163,6 @@ SUBDIR+=	py-Climate
 SUBDIR+=	py-DNS
 SUBDIR+=	py-DirectoryStorage
 SUBDIR+=	py-EditObj2
-SUBDIR+=	py-EmPy
 SUBDIR+=	py-Fnorb
 SUBDIR+=	py-Fnorb-docs
 SUBDIR+=	py-Genetic
