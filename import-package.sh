@@ -61,14 +61,8 @@ read ANS
 
 if [ "${ANS}" = "y" ]; then
     (CVS_RSH=ssh cd .. && cvs add ${PACKAGE}) || exit 1
-    find . -type d | grep -v -e CVS -e '^\.$' | while read d
-    do
-        CVS_RSH=ssh cvs add "$d"
-    done
-    find . -type f | grep -v -e CVS -e orig$ | while read f
-    do
-        CVS_RSH=ssh cvs add "$f"
-    done
+    CVS_RSH=ssh find . -type d | grep -v -e CVS -e '^\.$' | xargs -L 100 cvs add "$d"
+    CVS_RSH=ssh find . -type f | grep -v -e CVS -e orig$ | xargs -L 100 cvs add "$d"
     CVS_RSH=ssh cvs commit -m "$(grep -v '^CVS:.*$' ${MSG})"
 fi
 
