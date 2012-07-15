@@ -2638,6 +2638,7 @@ SUBDIR+=	quickie
 SUBDIR+=	quodlibet
 SUBDIR+=	qvamps
 SUBDIR+=	r8s
+SUBDIR+=	rabbitmq-c
 SUBDIR+=	radare
 SUBDIR+=	radiotray
 SUBDIR+=	ranmacgen
