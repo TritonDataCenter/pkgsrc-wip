@@ -32,6 +32,9 @@ pre-configure:
 	cd ${WRKSRC} && autoreconf -i
 
 .include "../../wip/mk/git-package.mk"
+# Init and update submodules too
+_GIT_FLAGS+=		--recursive
+
 .include "../../lang/python/application.mk"
 .include "../../devel/popt/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
