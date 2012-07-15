@@ -13,7 +13,7 @@ USE_TOOLS+=		gmake
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
-RCD_SCRIPTS=            xrdp sesman
+RCD_SCRIPTS=		xrdp sesman
 # FIXME: are these really needed?
 #RCD_SCRIPT_SRC.xrdp=	files/xrdp.sh
 #RCD_SCRIPT_SRC.sesman=	files/sesman.sh
@@ -26,6 +26,7 @@ MAKE_ENV+=		MANDIR=${PREFIX:Q}/${PKGMANDIR:Q}
 MAKE_ENV+=		DOCDIR=${PREFIX:Q}/share/doc/xrdp
 MAKE_ENV+=		DLLIB=${BUILDLINK_LDADD.dl:Q}
 MAKE_ENV+=		CFGDIR=${PKG_SYSCONFDIR}
+MAKE_ENV+=		SHAREDIR=${PREFIX}/share
 
 INSTALL_ENV+=		BINDIR=${PREFIX}/bin
 INSTALL_ENV+=		LIBDIR=${PREFIX}/lib
@@ -49,10 +50,10 @@ SUBST_MESSAGE.man=	Fixing variables in man-pages
 SUBST_STAGE.man=	post-patch
 SUBST_FILES.man=	docs/man/sesman.ini.5 docs/man/xrdp.ini.5
 SUBST_FILES.man+=	docs/man/xrdp.8 docs/man/sesman.8 docs/man/sesrun.8
-SUBST_SED.man=		-E -e 's,\$${(SESMAN|XRDP)_BIN_DIR},${BINDIR},g'
-SUBST_SED.man+=		-e 's,\$${(SESMAN|XRDP)_CFG_DIR},${PKG_SYSCONFDIR},g'
-SUBST_SED.man+=		-e 's,\$${(SESMAN|XRDP)_LOG_DIR},.,g' # FIXME
-SUBST_SED.man+=		-e 's,\$${(SESMAN|XRDP)_PID_DIR},/var/run,g'
+SUBST_SED.man=		-E -e 's,\$$\{(SESMAN|XRDP)_BIN_DIR\},${PREFIX:Q}/bin,g'
+SUBST_SED.man+=		-e 's,\$$\{(SESMAN|XRDP)_CFG_DIR\},${PKG_SYSCONFDIR},g'
+SUBST_SED.man+=		-e 's,\$$\{(SESMAN|XRDP)_LOG_DIR\},.,g' # FIXME
+SUBST_SED.man+=		-e 's,\$$\{(SESMAN|XRDP)_PID_DIR\},/var/run,g'
 
 SUBST_CLASSES+=		paths
 SUBST_MESSAGE.paths=	Fixing hardcoded paths

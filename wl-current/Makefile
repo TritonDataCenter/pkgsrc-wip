@@ -42,6 +42,7 @@ EMACS_BUILDLINK=	# empty
 
 GIT_REPOSITORIES=       master
 GIT_REPO.master=        git://github.com/wanderlust/wanderlust.git
+GIT_MODULE.master=      wanderlust 
 _GIT_FLAGS?=            --depth 1
 
 

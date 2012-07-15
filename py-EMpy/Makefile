@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	EMpy-0.1.2.linux-i686
-PKGNAME=	${PYPKGPREFIX}-empy-${VERSION}
+PKGNAME=	${PYPKGPREFIX}-EMpy-${VERSION}
 CATEGORIES=	science python
 MASTER_SITES=	http://garr.dl.sourceforge.net/project/empy/EMpy/0.1.2/
 

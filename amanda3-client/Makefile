@@ -18,6 +18,7 @@ USE_TOOLS+=		awk:run
 
 CONFIGURE_ARGS+=	--without-server
 CONFIGURE_ARGS+=	--without-ndmp
+CONFIGURE_ARGS+=	--without-gnuplot
 
 # Prevent configure script from finding unnecessary libraries.  We'll patch
 # the amrecover Makefile to add the readline libraries as it's the only
