@@ -9,7 +9,7 @@ MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=cm-unicode/}
 EXTRACT_SUFX=	.tar.xz
 
 MAINTAINER=	mishka@NetBSD.org
-HOMEPAGE=	http://canopus.iacp.dvo.ru/~panov/cm-unicode/
+HOMEPAGE=	http://cm-unicode.sourceforge.net/
 COMMENT=	Computer Modern Unicode fonts
 LICENSE=	open-font-license
 
