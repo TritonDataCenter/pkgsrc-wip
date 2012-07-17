@@ -4,7 +4,7 @@
 CATEGORIES=	math devel
 MASTER_SITES=	http://www.bioconductor.org/packages/release/bioc/src/contrib/
 
-MAINTAINER=	pkgsrc-users@NetBSD.org
+MAINTAINER=	mishka@NetBSD.org
 HOMEPAGE=	http://www.bioconductor.org/
 COMMENT=	Generic functions for Bioconductor
 

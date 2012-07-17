@@ -3,7 +3,7 @@
 CATEGORIES=	math
 MASTER_SITES=	${MASTER_SITE_R_CRAN:=contrib/}
 
-MAINTAINER=	pkgsrc-users@NetBSD.org
+MAINTAINER=	mishka@NetBSD.org
 HOMEPAGE=	http://www.stat.washington.edu/mclust/
 COMMENT=	Model-based clustering and normal mixture modeling
 

@@ -3,7 +3,7 @@
 CATEGORIES=	math devel
 MASTER_SITES=	http://www.bioconductor.org/packages/release/bioc/src/contrib/
 
-MAINTAINER=	pkgsrc-users@NetBSD.org
+MAINTAINER=	mishka@NetBSD.org
 HOMEPAGE=	http://www.bioconductor.org/packages/release/bioc/html/graph.html
 COMMENT=	R package to handle graph data structures
 

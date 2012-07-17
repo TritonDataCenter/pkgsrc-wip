@@ -3,7 +3,7 @@
 CATEGORIES=	math devel
 MASTER_SITES=	${MASTER_SITE_R_CRAN:=contrib/}
 
-MAINTAINER=	pkgsrc-users@NetBSD.org
+MAINTAINER=	mishka@NetBSD.org
 HOMEPAGE=	http://cran.r-project.org/web/packages/foreach/index.html
 COMMENT=	Foreach looping construct for R
 

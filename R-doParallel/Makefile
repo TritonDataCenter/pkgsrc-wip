@@ -3,7 +3,7 @@
 CATEGORIES=	math devel parallel
 MASTER_SITES=	${MASTER_SITE_R_CRAN:=contrib/}
 
-MAINTAINER=	pkgsrc-users@NetBSD.org
+MAINTAINER=	mishka@NetBSD.org
 HOMEPAGE=	http://cran.r-project.org/web/packages/doParallel/index.html
 COMMENT=	Foreach parallel adaptor for the parallel package
 

@@ -3,7 +3,7 @@
 CATEGORIES=	math
 MASTER_SITES=	http://www.bioconductor.org/packages/release/bioc/src/contrib/
 
-MAINTAINER=	pkgsrc-users@NetBSD.org
+MAINTAINER=	mishka@NetBSD.org
 HOMEPAGE=	http://www.bioconductor.org/packages/release/bioc/html/Rgraphviz.html
 COMMENT=	Plotting capabilities for R graph objects
 
