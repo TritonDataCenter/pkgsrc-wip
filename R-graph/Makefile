@@ -18,7 +18,7 @@ REPLACE_SH+=	inst/unitTests/*.sh
 
 USE_LANGUAGES=	c
 
+.include "../../math/R/Makefile.extension"
 .include "../../devel/gettext-lib/buildlink3.mk"
 .include "../../wip/R-BiocGenerics/buildlink3.mk"
-.include "../../math/R/Makefile.extension"
 .include "../../mk/bsd.pkg.mk"

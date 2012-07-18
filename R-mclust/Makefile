@@ -14,7 +14,7 @@ BUILDLINK_API_DEPENDS.R+=	R>=2.2.0
 
 USE_LANGUAGES=	fortran77
 
-.include "../../devel/gettext-lib/buildlink3.mk"
 .include "../../math/R/Makefile.extension"
+.include "../../devel/gettext-lib/buildlink3.mk"
 .include "../../math/blas/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

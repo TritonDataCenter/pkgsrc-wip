@@ -14,7 +14,7 @@ LICENSE=	gnu-lgpl-v3
 
 USE_LANGUAGES=  c++
 
-.include "../../devel/gettext-lib/buildlink3.mk"
 .include "../../math/R/Makefile.extension"
+.include "../../devel/gettext-lib/buildlink3.mk"
 .include "../../wip/R-bigmemory/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

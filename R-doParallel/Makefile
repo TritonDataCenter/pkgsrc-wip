@@ -14,7 +14,7 @@ BUILDLINK_API_DEPENDS.R+=	R>=2.14.0
 
 LICENSE=	gnu-gpl-v2
 
+.include "../../math/R/Makefile.extension"
 .include "../../wip/R-foreach/buildlink3.mk"
 .include "../../wip/R-iterators/buildlink3.mk"
-.include "../../math/R/Makefile.extension"
 .include "../../mk/bsd.pkg.mk"

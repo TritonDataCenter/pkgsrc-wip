@@ -16,7 +16,7 @@ LICENSE=	gnu-gpl-v2 OR gnu-gpl-v3
 
 USE_LANGUAGES=  c fortran
 
+.include "../../math/R/Makefile.extension"
 .include "../../devel/gettext-lib/buildlink3.mk"
 .include "../../wip/R-graph/buildlink3.mk"
-.include "../../math/R/Makefile.extension"
 .include "../../mk/bsd.pkg.mk"

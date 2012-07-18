@@ -16,8 +16,8 @@ LICENSE=	artistic-2.0
 
 USE_LANGUAGES=  c
 
+.include "../../math/R/Makefile.extension"
 .include "../../devel/gettext-lib/buildlink3.mk"
 .include "../../graphics/graphviz/buildlink3.mk"
 .include "../../wip/R-graph/buildlink3.mk"
-.include "../../math/R/Makefile.extension"
 .include "../../mk/bsd.pkg.mk"

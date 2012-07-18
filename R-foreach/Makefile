@@ -14,6 +14,6 @@ BUILDLINK_API_DEPENDS.R+=	R>=2.5.0
 
 LICENSE=	apache-2.0
 
-.include "../../wip/R-iterators/buildlink3.mk"
 .include "../../math/R/Makefile.extension"
+.include "../../wip/R-iterators/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

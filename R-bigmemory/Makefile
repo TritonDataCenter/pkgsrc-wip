@@ -14,6 +14,6 @@ LICENSE=	gnu-lgpl-v3
 
 USE_LANGUAGES=  c++ #fortran77
 
-.include "../../devel/gettext-lib/buildlink3.mk"
 .include "../../math/R/Makefile.extension"
+.include "../../devel/gettext-lib/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
