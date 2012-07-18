@@ -1,6 +1,6 @@
 # $NetBSD$
 
-CATEGORIES=	math devel
+CATEGORIES=	devel math
 MASTER_SITES=	${MASTER_SITE_R_CRAN:=contrib/}
 
 MAINTAINER=	mishka@NetBSD.org

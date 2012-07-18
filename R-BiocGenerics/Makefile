@@ -1,7 +1,7 @@
 # $NetBSD$
 
 
-CATEGORIES=	math devel
+CATEGORIES=	devel math
 MASTER_SITES=	http://www.bioconductor.org/packages/release/bioc/src/contrib/
 
 MAINTAINER=	mishka@NetBSD.org

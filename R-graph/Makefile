@@ -1,6 +1,6 @@
 # $NetBSD$
 
-CATEGORIES=	math devel
+CATEGORIES=	math
 MASTER_SITES=	http://www.bioconductor.org/packages/release/bioc/src/contrib/
 
 MAINTAINER=	mishka@NetBSD.org
