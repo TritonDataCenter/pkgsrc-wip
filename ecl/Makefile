@@ -36,7 +36,7 @@ PLIST_SUBST=	PKGVERSION_MAJOR_MINOR=${PKGVERSION_NOREV:R} \
 #.if defined(USE_CVS) && !empty(USE_CVS:M[Yy][Ee][Ss])
 ## CVS part:
 
-PKGNAME=		ecl-12.99
+PKGNAME=		ecl-12.99.0 # it should gave 3 levels in version
 WRKSRC=			${WRKDIR}/ecl
 
 CVS_REPOSITORIES=	ecl
