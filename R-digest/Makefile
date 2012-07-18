@@ -12,7 +12,7 @@ R_PKGVER=	0.4.2
 
 BUILDLINK_API_DEPENDS.R+=	R>=2.4.1
 
-USE_LANGUAGES=	fortran77
+USE_LANGUAGES=	c fortran
 
 .include "../../math/R/Makefile.extension"
 .include "../../mk/bsd.pkg.mk"
