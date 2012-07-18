@@ -11,5 +11,7 @@ LICENSE=	gnu-gpl-v3
 R_PKGNAME=	entropy
 R_PKGVER=	1.1.7
 
+BUILDLINK_API_DEPENDS.R+=	R>=2.10.0
+
 .include "../../math/R/Makefile.extension"
 .include "../../mk/bsd.pkg.mk"

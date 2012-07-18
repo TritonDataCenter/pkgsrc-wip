@@ -11,8 +11,6 @@ COMMENT=	Generic functions for Bioconductor
 R_PKGNAME=	BiocGenerics
 R_PKGVER=	0.2.0
 
-BUILDLINK_API_DEPENDS.R+=       R>=2.10.0
-
 LICENSE=	artistic-2.0
 
 .include "../../math/R/Makefile.extension"

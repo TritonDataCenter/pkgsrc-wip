@@ -10,6 +10,8 @@ COMMENT=	Plotting capabilities for R graph objects
 R_PKGNAME=	Rgraphviz
 R_PKGVER=	1.34.0
 
+BUILDLINK_API_DEPENDS.R+=	R>=2.6.0
+
 LICENSE=	artistic-2.0
 
 USE_LANGUAGES=  c

@@ -10,6 +10,8 @@ COMMENT=	hash digests for R objects
 R_PKGNAME=	digest
 R_PKGVER=	0.4.2
 
+BUILDLINK_API_DEPENDS.R+=	R>=2.4.1
+
 USE_LANGUAGES=	fortran77
 
 .include "../../math/R/Makefile.extension"
