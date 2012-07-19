@@ -2376,6 +2376,7 @@ SUBDIR+=	py-mlstats
 SUBDIR+=	py-mocker
 SUBDIR+=	py-model-builder
 SUBDIR+=	py-mois
+SUBDIR+=	py-mongo
 SUBDIR+=	py-mpich4py
 SUBDIR+=	py-multichain_mcmc
 SUBDIR+=	py-musicbrainz-ngs
