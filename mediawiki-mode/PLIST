@@ -1,0 +1,3 @@
+@comment $NetBSD$
+${EMACS_LISPPREFIX}/mediawiki.el
+${EMACS_LISPPREFIX}/mediawiki.elc
