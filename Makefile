@@ -1499,6 +1499,7 @@ SUBDIR+=	mcpp
 SUBDIR+=	mcwm
 SUBDIR+=	mdadm
 SUBDIR+=	mdbtools
+SUBDIR+=	mediawiki-mode
 SUBDIR+=	meep
 SUBDIR+=	meep-mpi
 SUBDIR+=	memcached14
