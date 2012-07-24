@@ -1,14 +1,16 @@
 # $NetBSD$
 
-CATEGORIES=	math devel
+CATEGORIES=	devel math
 MASTER_SITES=	${MASTER_SITE_R_CRAN:=contrib/}
 
-MAINTAINER=	pkgsrc-users@NetBSD.org
+MAINTAINER=	mishka@NetBSD.org
 HOMEPAGE=	http://cran.r-project.org/web/packages/iterators/index.html
 COMMENT=	Iterator construct for R
 
 R_PKGNAME=	iterators
 R_PKGVER=	1.0.6
+
+BUILDLINK_API_DEPENDS.R+=	R>=2.5.0
 
 LICENSE=	apache-2.0
 

@@ -1,0 +1,12 @@
+===========================================================================
+$NetBSD$
+
+Append the following line to your .emacs file:
+
+  (require 'mediawiki)
+
+Then do some customization, especially `mediawiki-site-alist':
+
+  M-x customize-group RET mediawiki RET
+
+===========================================================================

@@ -3,7 +3,7 @@
 CATEGORIES=	math
 MASTER_SITES=	${MASTER_SITE_R_CRAN:=contrib/}
 
-MAINTAINER=	pkgsrc-users@NetBSD.org
+MAINTAINER=	mishka@NetBSD.org
 HOMEPAGE=	http://www.bigmemory.org/
 COMMENT=	Manage massive matrices with shared memory and memory-mapped files
 
@@ -12,8 +12,8 @@ R_PKGVER=	4.2.11
 
 LICENSE=	gnu-lgpl-v3
 
-USE_LANGUAGES=  c++ #fortran77
+USE_LANGUAGES=  c++
 
-.include "../../devel/gettext-lib/buildlink3.mk"
 .include "../../math/R/Makefile.extension"
+.include "../../devel/gettext-lib/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

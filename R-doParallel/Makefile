@@ -1,9 +1,9 @@
 # $NetBSD$
 
-CATEGORIES=	math devel parallel
+CATEGORIES=	devel math parallel
 MASTER_SITES=	${MASTER_SITE_R_CRAN:=contrib/}
 
-MAINTAINER=	pkgsrc-users@NetBSD.org
+MAINTAINER=	mishka@NetBSD.org
 HOMEPAGE=	http://cran.r-project.org/web/packages/doParallel/index.html
 COMMENT=	Foreach parallel adaptor for the parallel package
 
@@ -14,7 +14,7 @@ BUILDLINK_API_DEPENDS.R+=	R>=2.14.0
 
 LICENSE=	gnu-gpl-v2
 
+.include "../../math/R/Makefile.extension"
 .include "../../wip/R-foreach/buildlink3.mk"
 .include "../../wip/R-iterators/buildlink3.mk"
-.include "../../math/R/Makefile.extension"
 .include "../../mk/bsd.pkg.mk"

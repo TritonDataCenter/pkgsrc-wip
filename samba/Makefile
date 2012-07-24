@@ -11,8 +11,10 @@ HOMEPAGE=	http://www.samba.org/
 COMMENT=	SMB/CIFS protocol server suite
 LICENSE=	gnu-gpl-v3
 
-VERSION=	4.0.0alpha16
+VERSION=	4.0.0beta4
 CONFLICTS+=	ja-samba-[0-9]* pam-smbpass-[0-9]* tdb-[0-9]* winbind-[0-9]*
+
+# DEPENDS=	xsltproc
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
@@ -164,7 +166,11 @@ post-install:
 	# $(WRKSRC)/examples/scripts/...
 	# ${CHMOD} ${SHAREMODE} ${DESTDIR}${PREFIX}/include/*.h
 
-.include "../../lang/python/pyversion.mk"
+REPLACE_PERL=	pidl/pidl
+REPLACE_PYTHON=	source4/setup/* source4/scripting/bin/*
+# tevent.py sample-script.py sample-two-script.py
+
+.include "../../lang/python/application.mk"
 
 PY_PATCHPLIST=	yes
 .include "../../lang/python/extension.mk"

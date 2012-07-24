@@ -1,11 +1,10 @@
 # $NetBSD$
 
-VER=			3.5.4.2
+VER=			3.5.5.3
 DISTNAME=		libreoffice-${VER}
 PKGNAME=		libreoffice-${VER:S/-//g}
-PKGREVISION=		1
 CATEGORIES=		misc
-MASTER_SITES=	http://download.documentfoundation.org/libreoffice/src/3.5.4/ \
+MASTER_SITES=	http://download.documentfoundation.org/libreoffice/src/3.5.5/ \
 		http://dev-www.libreoffice.org/src/ \
 		http://www.numbertext.org/linux/
 

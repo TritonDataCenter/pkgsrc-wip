@@ -6,7 +6,7 @@ CATEGORIES=	fonts
 MASTER_SITES=	http://www.fontstock.com/public/
 DISTFILES=	PTSansOFL.zip PTSerifOFL.zip PTMonoOFL.zip
 
-MAINTAINER=	pkgsrc-users@NetBSD.org
+MAINTAINER=	mishka@NetBSD.org
 HOMEPAGE=	http://www.paratype.com/public/
 COMMENT=	Public fonts for minority languages of Russia
 LICENSE=	open-font-license

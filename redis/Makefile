@@ -67,6 +67,6 @@ post-install:
 	cd ${WRKSRC}/tests && pax -rwpp . ${DESTDIR}${EGDIR}/tests/
 
 do-test:
-	cd $(WRKSRC) && $(SH) runtest
+	cd ${WRKSRC} && ${SH} runtest
 
 .include "../../mk/bsd.pkg.mk"

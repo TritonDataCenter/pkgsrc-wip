@@ -1,17 +1,19 @@
 # $NetBSD$
 
-CATEGORIES=	math devel
+CATEGORIES=	devel math
 MASTER_SITES=	${MASTER_SITE_R_CRAN:=contrib/}
 
-MAINTAINER=	pkgsrc-users@NetBSD.org
+MAINTAINER=	mishka@NetBSD.org
 HOMEPAGE=	http://cran.r-project.org/web/packages/foreach/index.html
 COMMENT=	Foreach looping construct for R
 
 R_PKGNAME=	foreach
 R_PKGVER=	1.4.0
 
+BUILDLINK_API_DEPENDS.R+=	R>=2.5.0
+
 LICENSE=	apache-2.0
 
-.include "../../wip/R-iterators/buildlink3.mk"
 .include "../../math/R/Makefile.extension"
+.include "../../wip/R-iterators/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
