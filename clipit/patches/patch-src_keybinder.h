@@ -1,5 +1,7 @@
 $NetBSD$
 
+Fixes build with recent versions of glib
+
 --- src/keybinder.h.orig	2010-12-12 14:31:47.000000000 +0000
 +++ src/keybinder.h
 @@ -20,8 +20,6 @@

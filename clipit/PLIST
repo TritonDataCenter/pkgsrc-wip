@@ -1,8 +1,8 @@
 @comment $NetBSD$
 bin/clipit
-etc/xdg/autostart/clipit-startup.desktop
 man/man1/clipit.1
 share/applications/clipit.desktop
+share/examples/clipit/xdg/autostart/clipit-startup.desktop
 share/icons/hicolor/scalable/apps/clipit-trayicon.svg
 share/locale/cs/LC_MESSAGES/clipit.mo
 share/locale/da/LC_MESSAGES/clipit.mo
