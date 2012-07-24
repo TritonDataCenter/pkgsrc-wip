@@ -138,6 +138,15 @@ SUBST_SED.fix-name-3+=		-e 's,grub-dev\.info,grub2-dev\.info,g'
 SUBST_SED.fix-name-3+=		-e 's,grub-dev\.texi,grub2-dev\.texi,g'
 SUBST_SED.fix-name-3+=		-e 's,grub_TEXINFOS,grub2_TEXINFOS,g'
 
+#
+# Adjust the search paths for DejaVu fonts in configure.
+#
+SUBST_CLASSES+=			fix-dejavu
+SUBST_STAGE.fix-dejavu=		pre-configure
+SUBST_MESSAGE.fix-dejavu=	Fixing dejavu search paths in configure.
+SUBST_FILES.fix-dejavu=		configure
+SUBST_SED.fix-dejavu=		-e 's, \(/usr/share/fonts/dejavu\);, \1 ${LOCALBASE}/lib/X11/fonts/TTF;,g'
+
 post-patch: do-move-texinfo
 
 .PHONY: do-move-texinfo
