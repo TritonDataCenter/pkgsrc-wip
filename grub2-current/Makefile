@@ -4,7 +4,7 @@
 DISTNAME=		grub-bazaar-snapshot
 PKGNAME=		grub2-${BZR_REVISION}.${TODAY}
 CATEGORIES=		sysutils
-DISTFILES=
+DISTFILES=		# See download.mk
 
 MAINTAINER=		gsutre@NetBSD.org
 HOMEPAGE=		http://www.gnu.org/software/grub/
