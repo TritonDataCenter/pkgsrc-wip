@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	node-v0.8.3
+DISTNAME=	node-v0.8.4
 CATEGORIES=	devel
 MASTER_SITES=	http://nodejs.org/dist/${DISTNAME:S/node-//}/
 PKGNAME=	${DISTNAME:S/-v/js-/}
