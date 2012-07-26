@@ -126,6 +126,13 @@ SUBST_FILES.fix-sed-tabs=	util/grub.d/*.in
 SUBST_SED.fix-sed-tabs=		-e 's,\\t,	,g'
 
 #
+# Remove executable bit from non-executable files.
+#
+post-install:
+	${CHMOD} a-x ${DESTDIR}${PREFIX}/lib/grub/${GRUB_TARGET_CPU}-${GRUB_PLATFORM}/gdb_grub
+	${CHMOD} a-x ${DESTDIR}${PREFIX}/lib/grub/${GRUB_TARGET_CPU}-${GRUB_PLATFORM}/gmodule.pl
+
+#
 # Includes.
 #
 .include "options.mk"
