@@ -1297,6 +1297,7 @@ SUBDIR+=	libbtctl
 SUBDIR+=	libburn
 SUBDIR+=	libcli
 SUBDIR+=	libcm
+SUBDIR+=	libcmis
 SUBDIR+=	libcmt
 SUBDIR+=	libcpu
 SUBDIR+=	libctl
