@@ -57,6 +57,13 @@ PLIST_SUBST+=		GRUB_TARGET_CPU=${GRUB_TARGET_CPU}
 PLIST_SUBST+=		GRUB_PLATFORM=${GRUB_PLATFORM}
 
 #
+# Unset ABI to prevent pkgsrc's gcc wrapper from messing with -m flags.
+#
+.if defined(ABI) && !empty(ABI)
+ABI=
+.endif
+
+#
 # Configuration files.
 #
 PKG_SYSCONFSUBDIR=	grub
