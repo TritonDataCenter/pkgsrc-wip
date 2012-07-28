@@ -45,4 +45,5 @@ Size (libreoffice/libreoffice-help-3.6.0.2.tar.xz) = 1860392 bytes
 SHA1 (patch-configure.in) = d4aee464d89fe5a1ca2f729785595cd0a7507829
 SHA1 (patch-lotuswordpro_Module_lotuswordpro.mk) = 73a115b02ff8e6b88a8a980210065f7cae6f86ef
 SHA1 (patch-sc_Module_sc.mk) = 471666218338ce10e06e215d7ad4828e42a8c8d1
+SHA1 (patch-solenv_bin_ooinstall) = 24a6f78475ec4ce8458b4b39d80dde30d88c42eb
 SHA1 (patch-testtools_CustomTarget_uno_test.mk) = 547523f6b6a9b0f25ac959e82b844089cf9490fd
