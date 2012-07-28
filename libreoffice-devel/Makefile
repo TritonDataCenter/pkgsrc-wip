@@ -102,6 +102,7 @@ CONFIGURE_ARGS+=	--with-fonts
 CONFIGURE_ARGS+=	--with-num-cpus=${MAKE_JOBS}
 CONFIGURE_ARGS+=	--with-system-headers
 CONFIGURE_ARGS+=	--with-system-libs
+CONFIGURE_ARGS+=	--with-boost-libdir=${BUILDLINK_DIR}/lib
 CONFIGURE_ARGS+=	--with-vendor="The LibreOffice pkgsrc team"
 CONFIGURE_ARGS+=	--without-java
 CONFIGURE_ARGS+=	--without-system-altlinuxhyph
