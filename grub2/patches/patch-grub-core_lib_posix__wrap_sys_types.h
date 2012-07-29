@@ -1,5 +1,7 @@
 $NetBSD$
 
+Include stddef rather than defining size_t to avoid conflict.
+
 --- grub-core/lib/posix_wrap/sys/types.h.orig	2012-05-28 15:52:37.000000000 +0000
 +++ grub-core/lib/posix_wrap/sys/types.h
 @@ -21,7 +21,7 @@

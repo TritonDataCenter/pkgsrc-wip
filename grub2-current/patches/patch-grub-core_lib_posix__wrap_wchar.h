@@ -1,5 +1,7 @@
 $NetBSD$
 
+Include stddef rather than defining wchar_t to avoid conflict.
+
 --- grub-core/lib/posix_wrap/wchar.h.orig	2012-02-08 20:34:24.000000000 +0000
 +++ grub-core/lib/posix_wrap/wchar.h
 @@ -29,7 +29,11 @@ enum
