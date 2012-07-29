@@ -36,12 +36,4 @@ do-autogen:
 	cd ${WRKSRC} && ./autogen.sh
 
 # Python is used to generate the autogen makefile template.
-PYTHON_FOR_BUILD_ONLY=	yes
-REPLACE_PYTHON=		gentpl.py
-SUBST_CLASSES+=		fix-py
-SUBST_STAGE.fix-py=	post-patch
-SUBST_MESSAGE.fix-py=	Replacing python executable in autogen.sh.
-SUBST_FILES.fix-py=	autogen.sh conf/Makefile.common
-SUBST_SED.fix-py=	-e 's,^\([	]*\)python ,\1${PYTHONBIN} ,g'
-
-.include "../../lang/python/application.mk"
+.include "../../lang/python/tool.mk"
