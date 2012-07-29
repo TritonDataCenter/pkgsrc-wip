@@ -27,7 +27,7 @@ Fix indentation for filesystem module.
  
  is_first_entry=true
 -for k in $(ls -t /netbsd*) ; do
-+for k in /netbsd $(ls -t /netbsd?*) ; do
++for k in /netbsd $(ls -t /netbsd?* 2>/dev/null) ; do
    if ! grub_file_is_not_garbage "$k" ; then
      continue
    fi

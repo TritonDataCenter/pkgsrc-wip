@@ -12,4 +12,4 @@ SHA1 (patch-grub-core_lib_posix__wrap_wchar.h) = 6509696c2d5e008634b710c63cb8366
 SHA1 (patch-grub-core_loader_i386_pc_plan9.c) = 07c909c02210ef59647185cd9b7f43b35d58515c
 SHA1 (patch-stpcpy-1.diff) = d31f8d607900fdde950d3828279d5b3b09812a39
 SHA1 (patch-stpcpy-2-gen.diff) = 8b2d08cfe798386eec7d70a3946e7a9430e75254
-SHA1 (patch-util_grub.d_10__netbsd.in) = c089e4a36f2fedda8c285ad62fe85ae0ca75c2dd
+SHA1 (patch-util_grub.d_10__netbsd.in) = c7ad93fc60594233d71962e625320091d8cc67e5
