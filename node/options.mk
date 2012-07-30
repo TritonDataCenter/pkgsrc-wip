@@ -4,10 +4,16 @@ PKG_OPTIONS_VAR=	PKG_OPTIONS.node
 PKG_SUPPORTED_OPTIONS=	openssl dtrace
 PKG_SUGGESTED_OPTIONS=	openssl
 
+.if ${OPSYS} == "SunOS" && exists(/usr/sbin/dtrace)
+PKG_SUGGESTED_OPTIONS+=	dtrace
+.endif
+
 .include "../../mk/bsd.options.mk"
 
 .if !empty(PKG_OPTIONS:Mdtrace)
 CONFIGURE_ARGS+=	--with-dtrace
+.else
+CONFIGURE_ARGS+=	--without-dtrace
 .endif
 
 .if !empty(PKG_OPTIONS:Mopenssl)
