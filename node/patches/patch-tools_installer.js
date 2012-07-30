@@ -7,7 +7,7 @@ $NetBSD$
  
    // man page
 -  copy(['doc/node.1'], 'share/man/man1/');
-+  copy(['doc/node.1'], 'man/man1/');
++  copy(['doc/node.1'], '@PKGMANDIR@/man1/');
  
    // dtrace
    if (!process.platform.match(/^linux/)) {
