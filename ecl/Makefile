@@ -1,7 +1,6 @@
 # $NetBSD$
-#
 
-DISTNAME=		ecl-11.1.1
+DISTNAME=		ecl-12.7.1
 CATEGORIES=		lang
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=ecls/}
 

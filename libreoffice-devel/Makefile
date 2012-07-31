@@ -1,11 +1,10 @@
 # $NetBSD$
 
-VER=			2012-04-23
+VER=			3.6.0.2
 DISTNAME=		libreoffice-${VER}
 PKGNAME=		libreoffice-devel-${VER:S/-//g}
-PKGREVISION=		1
 CATEGORIES=		misc
-MASTER_SITES=	http://dl.wolfpond.org/libreoffice/ \
+MASTER_SITES=	http://download.documentfoundation.org/libreoffice/src/3.6.0/ \
 		http://dev-www.libreoffice.org/src/ \
 		http://www.numbertext.org/linux/
 
@@ -13,8 +12,6 @@ MAINTAINER=		ftigeot@wolfpond.org
 HOMEPAGE=		http://www.libreoffice.org/
 COMMENT=		Office productivity suite
 LICENSE=		gnu-lgpl-v3
-
-NOT_FOR_PLATFORM=	NetBSD-6.*-*
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 CHECK_SHLIBS_SUPPORTED=	no
@@ -32,7 +29,7 @@ MORE_DISTFILES= \
 	f872f4ac066433d8ff92f5e316b36ff9-dejavu-fonts-ttf-2.33.zip \
 	35efabc239af896dfb79be7ebdd6e6b9-gentiumbasic-fonts-1.10.zip \
 	86261f06c097d3e425a2f6d0b0635380-hyphen-2.8.3.tar.gz \
-	7c2549f6b0a8bb604e6c4c729ffdcfe6-libcmis-0.1.0.tar.gz \
+	0d2dcdfbf28d6208751b33057f5361f0-libcmis-0.2.3.tar.gz \
 	0be45d54cc5e1c2e3102e32b8c190346-liberation-fonts-ttf-1.07.1.tar.gz \
 	e1e255dc43dbcbb34cb19e8a0eba90ae-mythes-1.2.2.tar.gz \
 	fdb27bfe2dbe2e7b57ae194d9bf36bab-SampleICC-1.3.2.tar.gz \
@@ -105,6 +102,7 @@ CONFIGURE_ARGS+=	--with-fonts
 CONFIGURE_ARGS+=	--with-num-cpus=${MAKE_JOBS}
 CONFIGURE_ARGS+=	--with-system-headers
 CONFIGURE_ARGS+=	--with-system-libs
+CONFIGURE_ARGS+=	--with-boost-libdir=${BUILDLINK_DIR}/lib
 CONFIGURE_ARGS+=	--with-vendor="The LibreOffice pkgsrc team"
 CONFIGURE_ARGS+=	--without-java
 CONFIGURE_ARGS+=	--without-system-altlinuxhyph
@@ -113,20 +111,6 @@ CONFIGURE_ARGS+=	--without-system-jars
 CONFIGURE_ARGS+=	--without-system-libcmis
 CONFIGURE_ARGS+=	--without-system-mozilla-headers
 CONFIGURE_ARGS+=	--without-system-sampleicc
-
-# Some LibreOffice build scripts do strange things with library paths
-# and fail with the pkgsrc environment
-# Preset LD_LIBRARY_PATH to sane defaults and avoid complicating them
-# further
-LIBPATH=	${BUILDLINK_DIR}/lib:${X11BASE}/lib
-LIBPATH:=	${LIBPATH}:${WRKSRC}/desktop/unxdfly.pro/lib:${WRKSRC}/solver/unxdfly.pro/lib
-LIBPATH:=	${LIBPATH}:${WRKSRC}/desktop/unxnbsd.pro/lib:${WRKSRC}/solver/unxnbsd.pro/lib
-
-SUBST_CLASSES+=			libpath
-SUBST_STAGE.libpath=		pre-configure
-SUBST_FILES.libpath=		set_soenv.in
-SUBST_SED.libpath=		-e 's,@LIBPATH@,${LIBPATH},g'
-SUBST_MESSAGE.libpath=		Fixing library path for dmake scripts
 
 SUBST_CLASSES+=			localbase
 SUBST_STAGE.localbase=		pre-configure
