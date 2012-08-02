@@ -72,5 +72,6 @@ pre-configure:
 .include "../../mk/pthread.buildlink3.mk"
 .include "../../mk/pam.buildlink3.mk"
 .include "../../mk/dlopen.buildlink3.mk"
-.include "../../mk/x11.buildlink3.mk"
+.include "../../x11/libX11/buildlink3.mk"
+.include "../../x11/libXfixes/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
