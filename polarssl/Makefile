@@ -18,5 +18,6 @@ WRKSRC=			${WRKDIR}/${PKGNAME}
 USE_TOOLS+=		gmake perl
 USE_LANGUAGES=		c c++
 REPLACE_PERL=		tests/scripts/*.pl
+NO_CONFIGURE=		yes
 
 .include "../../mk/bsd.pkg.mk"
