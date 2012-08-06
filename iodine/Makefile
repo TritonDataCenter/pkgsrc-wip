@@ -1,7 +1,7 @@
 # $NetBSD$
 
 DISTNAME=			iodine-0.6.0-rc1
-PKGNAME=			iodine-0.6.0
+PKGNAME=			iodine-0.6.0rc1
 CATEGORIES=			net
 MASTER_SITES=			http://code.kryo.se/iodine/
 
