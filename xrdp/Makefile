@@ -66,7 +66,7 @@ SUBST_VARS.paths=	PREFIX
 GNU_CONFIGURE=		yes
 
 pre-configure:
-	cd ${WRKSRC}; ./bootstrap
+	cd ${WRKSRC}; $(CONFIG_SHELL) bootstrap
 
 .include "../../security/openssl/buildlink3.mk"
 .include "../../mk/pthread.buildlink3.mk"
