@@ -14,7 +14,6 @@ MAINTAINER=		pkgsrc-users@NetBSD.org
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
-NO_CONFIGURE=		yes
 USE_TOOLS+=		gmake perl
 USE_LANGUAGES=		c c++
 
