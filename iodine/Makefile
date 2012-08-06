@@ -12,5 +12,12 @@ LICENSE=		mit
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
+PKG_USERS=		iodine:iodine
+PKG_GROUPS=		iodine
+
+BUILD_DEFS+=		VARBASE
+MAKE_DIRS=		${VARBASE}/chroot
+OWN_DIRS=		${VARBASE}/chroot/iodine
+
 .include "../../devel/zlib/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
