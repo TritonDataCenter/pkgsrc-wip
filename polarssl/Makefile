@@ -21,6 +21,4 @@ USE_LANGUAGES=		c c++
 WRKSRC=			${WRKDIR}/${PKGNAME}
 REPLACE_PERL=		tests/scripts/*.pl
 
-#USE_BSD_MAKEFILE=	yes
-
 .include "../../mk/bsd.pkg.mk"
