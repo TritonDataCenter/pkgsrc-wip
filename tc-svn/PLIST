@@ -31,6 +31,7 @@ ${EMACS_LISPPREFIX}/tc-${PKGVERSION}/tc-mazegaki.elc
 ${EMACS_LISPPREFIX}/tc-${PKGVERSION}/tc-mkmzdic.el
 ${EMACS_LISPPREFIX}/tc-${PKGVERSION}/tc-mkmzdic.elc
 ${EMACS_LISPPREFIX}/tc-${PKGVERSION}/tc-pre.el
+${EMACS_LISPPREFIX}/tc-${PKGVERSION}/tc-pre.elc
 ${EMACS_LISPPREFIX}/tc-${PKGVERSION}/tc-setup.el
 ${EMACS_LISPPREFIX}/tc-${PKGVERSION}/tc-setup.elc
 ${EMACS_LISPPREFIX}/tc-${PKGVERSION}/tc-stat.el
