@@ -16,8 +16,7 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 
 WRKSRC=			${WRKDIR}/${PKGNAME}
 USE_TOOLS+=		gmake perl
-USE_LANGUAGES=		c c++
+USE_LANGUAGES=		c
 REPLACE_PERL=		tests/scripts/*.pl
-NO_CONFIGURE=		yes
 
 .include "../../mk/bsd.pkg.mk"
