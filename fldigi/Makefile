@@ -1,4 +1,5 @@
 # $NetBSD$
+#
 
 DISTNAME=	fldigi-3.21.50
 CATEGORIES=	ham
@@ -6,7 +7,8 @@ MASTER_SITES=	http://www.w1hkj.com/downloads/fldigi/
 LICENSE=	gnu-gpl-v3
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
-HOMEPAGE=	http://lists.berlios.de/mailman/listinfo/fldigi-devel
+HOMEPAGE=	http://www.w1hkj.com/Fldigi.html
+#HOMEPAGE=	http://lists.berlios.de/mailman/listinfo/fldigi-devel
 COMMENT=	Digital radio modem
 
 PKG_DESTDIR_SUPPORT=	user-destdir
