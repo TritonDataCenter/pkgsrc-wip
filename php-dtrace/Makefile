@@ -11,6 +11,8 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 
 CONFLICTS=		php-dtrace-[0-9]*
 
+PHP_VERSIONS_ACCEPTED=	53
+
 MAKE_JOBS_SAFE=		no
 
 .include "../../lang/php/ext.mk"
