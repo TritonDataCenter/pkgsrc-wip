@@ -33,7 +33,7 @@ SUBST_MESSAGE.conf=	Fixing configuration file paths.
 
 pre-build:
 	cd ${WRKSRC}/doc/reference && \
-		pax -O -zrf ${WRKSRC}/doc/reference/syslog-ng.html.tar.gz
+		gzip -d -c ${WRKSRC}/doc/reference/syslog-ng.html.tar.gz | pax -r
 
 post-install:
 	${INSTALL_DATA_DIR} ${DOCDIR}
