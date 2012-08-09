@@ -24,6 +24,9 @@ do-configure:
 do-install:
 	cd ${WRKSRC} && ${INSTALL_PROGRAM} bin/phantomjs ${DESTDIR}${PREFIX}/bin/
 
+.include "../../mk/dlopen.buildlink3.mk"
+BUILDLINK_TRANSFORM+=   opt:-ldl:${BUILDLINK_LDADD.dl:M*}
+
 .include "../../x11/qt4-libs/buildlink3.mk"
 .include "../../x11/qt4-tools/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
