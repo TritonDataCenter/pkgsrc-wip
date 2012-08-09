@@ -71,3 +71,5 @@ include/polarssl/version.h
 include/polarssl/x509.h
 include/polarssl/xtea.h
 lib/libpolarssl.a
+lib/libpolarssl.so
+lib/libpolarssl.so.0
