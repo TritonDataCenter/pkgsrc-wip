@@ -1,0 +1,22 @@
+# $NetBSD$
+#
+
+DISTNAME=		polarssl-1.1.4-gpl
+PKGNAME=		${DISTNAME:-gpl=}
+CATEGORIES=		security devel
+MASTER_SITES=		http://polarssl.org/code/download/
+EXTRACT_SUFX=		.tgz
+
+MAINTAINER=		pkgsrc-users@NetBSD.org
+HOMEPAGE=		http://polarssl.org/
+COMMENT=		Lightweight, modular cryptographic and SSL/TLS library
+LICENSE=		gnu-gpl-v2
+
+PKG_DESTDIR_SUPPORT=	user-destdir
+
+WRKSRC=			${WRKDIR}/${DISTNAME:-gpl=}
+USE_TOOLS+=		gmake perl
+USE_LANGUAGES=		c
+REPLACE_PERL=		tests/scripts/*.pl
+
+.include "../../mk/bsd.pkg.mk"

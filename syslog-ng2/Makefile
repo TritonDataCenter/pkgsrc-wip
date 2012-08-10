@@ -42,7 +42,7 @@ SUBST_MESSAGE.ll=	Fixing lex/flex linking.
 
 pre-build:
 	cd ${WRKSRC}/doc/reference && \
-		pax -O -zrf ${WRKSRC}/doc/reference/syslog-ng.html.tar.gz
+		gzip -d -c ${WRKSRC}/doc/reference/syslog-ng.html.tar.gz | pax -r
 
 post-install:
 	${INSTALL_DATA_DIR} ${DOCDIR}

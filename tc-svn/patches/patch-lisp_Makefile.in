@@ -6,9 +6,9 @@ $NetBSD$
 Automake won't run on this directory, so not only Makefile.am
 but this Makefile.in should be patched the same way
 
---- work/tcode/tc/lisp/Makefile.in.orig	2012-07-10 13:12:21.000000000 +0900
-+++ ./lisp/Makefile.in	2012-07-10 14:00:34.000000000 +0900
-@@ -185,10 +185,10 @@
+--- lisp/Makefile.in.orig	2012-08-06 11:48:06.000000000 +0900
++++ lisp/Makefile.in	2012-08-06 12:02:13.000000000 +0900
+@@ -213,10 +213,10 @@
  	tc-inst.el tc-stat.el tc-ja-alnum.el \
  	try-tbl.el try-etbl.el ttc-tbl.el ttc-rtbl.el ttc-ltbl.el
  

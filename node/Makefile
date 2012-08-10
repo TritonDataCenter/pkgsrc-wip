@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	node-v0.8.4
+DISTNAME=	node-v0.8.6
 CATEGORIES=	devel
 MASTER_SITES=	http://nodejs.org/dist/${DISTNAME:S/node-//}/
 PKGNAME=	${DISTNAME:S/-v/js-/}
@@ -31,7 +31,7 @@ SUBST_VARS.python=	PYTHONBIN
 SUBST_CLASSES+=		man
 SUBST_STAGE.man=	pre-configure
 SUBST_MESSAGE.man=	Fixing man path
-SUBST_FILES.man=	tools/installer.js
+SUBST_FILES.man=	tools/install.py
 SUBST_VARS.man=		PKGMANDIR
 
 CONFIG_SHELL=		${PYTHONBIN}
