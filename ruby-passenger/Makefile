@@ -14,7 +14,7 @@ DEPENDS+=		${RUBY_PKGPREFIX}-rubygems>=1.2.0:../../misc/rubygems
 .endif
 
 do-build:
-	cd ${WRKSRC}/build && ${RAKE} common:clean agents
+	cd ${WRKSRC}/build && ${PKGSRC_SETENV} ${MAKE_ENV} ${RAKE} common:clean agents
 
 do-install:
 	cd ${WRKSRC} && DESTDIR=${DESTDIR} PREFIX=${PREFIX} MANDIR=${PKGMANDIR} ${RAKE} pkgsrc
