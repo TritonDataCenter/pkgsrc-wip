@@ -71,7 +71,7 @@ riak/erts-${VERSION.erts}/include/internal/win/ethr_dw_atomic.h
 riak/erts-${VERSION.erts}/include/internal/win/ethr_event.h
 riak/erts-${VERSION.erts}/include/internal/win/ethr_membar.h
 riak/erts-${VERSION.erts}/include/internal/win/ethread.h
-riak/erts-${VERSION.erts}/include/internal/${MACHINE_ARCH}/ethread.h
+riak/erts-${VERSION.erts}/include/internal/x86_64/ethread.h
 riak/erts-${VERSION.erts}/lib/internal/README
 riak/erts-${VERSION.erts}/lib/internal/liberts_internal.a
 riak/erts-${VERSION.erts}/lib/internal/liberts_internal_r.a
