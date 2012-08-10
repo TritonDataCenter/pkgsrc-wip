@@ -1,7 +1,6 @@
 # $NetBSD$
 
 PKGNAME=		${APACHE_PKG_PREFIX}-${RUBY_PKGPREFIX}-${DISTNAME}
-PKGREVISION=		1
 
 COMMENT=		Passenger module for running Rails and Rack applications on Apache2
 
