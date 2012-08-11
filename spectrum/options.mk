@@ -13,12 +13,12 @@ PKG_SUGGESTED_OPTIONS=		sqlite
 PLIST_VARS+=			sqlite mysql
 
 .if !empty(PKG_OPTIONS:Msqlite)
-. include "../../wip/poco-data-sqlite/buildlink3.mk"
+. include "../../databases/poco-data-sqlite/buildlink3.mk"
 PLIST.sqlite=	yes
 .endif
 
 .if !empty(PKG_OPTIONS:Mmysql)
-. include "../../wip/poco-data-mysql/buildlink3.mk"
+. include "../../databases/poco-data-mysql/buildlink3.mk"
 PLIST.mysql=	yes
 .endif
 
