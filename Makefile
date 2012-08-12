@@ -2647,7 +2647,6 @@ SUBDIR+=	qvamps
 SUBDIR+=	r8s
 SUBDIR+=	rabbitmq-c
 SUBDIR+=	radare
-SUBDIR+=	radicale
 SUBDIR+=	radiotray
 SUBDIR+=	ranmacgen
 SUBDIR+=	rar4
