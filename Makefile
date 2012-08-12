@@ -1224,7 +1224,6 @@ SUBDIR+=	just
 SUBDIR+=	jython
 SUBDIR+=	kBuild
 SUBDIR+=	kacst-ttf
-SUBDIR+=	kactivities
 SUBDIR+=	kaffe
 SUBDIR+=	kaffe-x11
 SUBDIR+=	kahakai
