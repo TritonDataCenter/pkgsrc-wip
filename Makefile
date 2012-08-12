@@ -2103,7 +2103,6 @@ SUBDIR+=	pinball
 SUBDIR+=	pinkpony
 SUBDIR+=	pizza
 SUBDIR+=	pjproject
-SUBDIR+=	pkg-config
 SUBDIR+=	pkg_conflicts
 SUBDIR+=	pkg_fake
 #SUBDIR+=	pkg_get			# not a package (yet?)
