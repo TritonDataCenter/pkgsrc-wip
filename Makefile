@@ -2647,6 +2647,7 @@ SUBDIR+=	qvamps
 SUBDIR+=	r8s
 SUBDIR+=	rabbitmq-c
 SUBDIR+=	radare
+SUBDIR+=	radicale
 SUBDIR+=	radiotray
 SUBDIR+=	ranmacgen
 SUBDIR+=	rar4
@@ -3327,3 +3328,4 @@ limited_list: .PHONY
 .else
 .include "../mk/bsd.pkg.subdir.mk"
 .endif
+
