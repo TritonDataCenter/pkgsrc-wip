@@ -40,7 +40,7 @@ DEPENDS+=	zlib>=1.2.3:../../devel/zlib
 DEPENDS+=	ruby>=1.8.7:../../lang/ruby
 DEPENDS+=	clang>=2.8:../../lang/clang
 DEPENDS+=	${RUBY_PKGPREFIX}-rubygems>=1.3.7:../../misc/rubygems
-DEPENDS+=	${RUBY_PKGPREFIX}-rake>=0.8.3:../../devel/rake
+DEPENDS+=	${RUBY_PKGPREFIX}-rake>=0.8.3:../../devel/ruby-rake
 
 SO_SUFFIX=		so
 RUBY_NAME=		ruby18
