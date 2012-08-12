@@ -4,7 +4,7 @@
 DISTNAME=		polarssl-1.1.4-gpl
 PKGNAME=		${DISTNAME:-gpl=}
 CATEGORIES=		security devel
-MASTER_SITES=		http://polarssl.org/code/download/
+MASTER_SITES=		http://polarssl.org/code/releases/
 EXTRACT_SUFX=		.tgz
 
 MAINTAINER=		pkgsrc-users@NetBSD.org
