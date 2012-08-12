@@ -23,4 +23,10 @@ post-patch:
 post-configure:
 	@${LN} -s ${WRKSRC}/server/*.h ${WRKSRC}/include
 
+# forcpp and kpdic needed for build, but not to install
+post-install:
+.for f in forcpp kpdic
+	${RM} ${DESTDIR}${PREFIX}/bin/${f}
+.endfor	
+	
 .include "../../mk/bsd.pkg.mk"
