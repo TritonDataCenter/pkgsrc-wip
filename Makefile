@@ -90,7 +90,6 @@ SUBDIR+=	amanda3-client
 SUBDIR+=	amanda3-common
 SUBDIR+=	amanda3-plot
 SUBDIR+=	amanda3-server
-SUBDIR+=	amarok
 SUBDIR+=	analizo
 SUBDIR+=	and
 SUBDIR+=	ann
