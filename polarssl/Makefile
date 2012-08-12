@@ -14,7 +14,7 @@ LICENSE=		gnu-gpl-v2
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
-WRKSRC=			${WRKDIR}/${DISTNAME:-gpl=}
+WRKSRC=			${WRKDIR}/${PKGNAME_NOREV}
 USE_TOOLS+=		gmake perl
 USE_LANGUAGES=		c
 REPLACE_PERL=		tests/scripts/*.pl
