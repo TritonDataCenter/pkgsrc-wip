@@ -1,0 +1,12 @@
+# $NetBSD$
+
+BUILDLINK_TREE+=	libspt
+
+.if !defined(LIBSPT_BUILDLINK3_MK)
+LIBSPT_BUILDLINK3_MK:=
+
+BUILDLINK_API_DEPENDS.libspt+=	libspt>=1.1
+BUILDLINK_PKGSRCDIR.libspt?=	../../wip/libspt
+.endif	# LIBSPT_BUILDLINK3_MK
+
+BUILDLINK_TREE+=	-libspt
