@@ -17,7 +17,7 @@ USE_TOOLS+=	gmake pkg-config
 USE_LANGUAGES=	c c++
 GNU_CONFIGURE=	yes
 
-# NetBSD 5.1 fails to find strip - install: exec of strip failed: 
+# NetBSD 5.1 fails to find strip - install: exec of strip failed:
 CONFIGURE_ENV+=		STRIP=${STRIP}
 
 BUILD_DEPENDS+=	asciidoc-[0-9]*:../../textproc/asciidoc
