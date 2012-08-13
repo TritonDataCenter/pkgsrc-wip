@@ -15,9 +15,14 @@ LICENSE=		gnu-gpl-v2
 PKG_DESTDIR_SUPPORT=	user-destdir
 
 WRKSRC=			${WRKDIR}/${PKGNAME_NOREV}
-USE_TOOLS+=		gmake perl
+USE_TOOLS+=		gmake
 USE_LANGUAGES=		c
+TEST_TARGET=		check
+
+.if defined(PKGSRC_RUN_TEST) && !empty(PKGSRC_RUN_TEST:M[Yy][Ee][Ss])
+USE_TOOLS+=		perl
 REPLACE_PERL=		tests/scripts/*.pl
+.endif
 
 .include "options.mk"
 .include "../../mk/bsd.pkg.mk"
