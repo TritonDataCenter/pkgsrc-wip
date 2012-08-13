@@ -10,7 +10,7 @@ $NetBSD$
  
  .SILENT:
  
-@@ -10,18 +10,18 @@ all:
+@@ -10,18 +10,20 @@ all:
  	cd tests    && $(MAKE) all && cd ..
  
  install:
@@ -21,10 +21,13 @@ $NetBSD$
  	
 -	mkdir -p $(DESTDIR)/lib
 -	cp library/libpolarssl.* $(DESTDIR)/lib
-+	$(BSD_INSTALL_LIB_DIR) $(DESTDIR)$(PREFIX)/lib
-+	$(BSD_INSTALL_LIB) library/libpolarssl.* $(DESTDIR)$(PREFIX)/lib
- 	
+-	
 -	mkdir -p $(DESTDIR)/bin
++	$(BSD_INSTALL_LIB_DIR) $(DESTDIR)$(PREFIX)/lib
++	$(BSD_INSTALL_LIB) library/libpolarssl.a $(DESTDIR)$(PREFIX)/lib/libpolarssl.a
++	$(BSD_INSTALL_LIB) library/libpolarssl.so $(DESTDIR)$(PREFIX)/lib/libpolarssl.so.0
++	cd $(DESTDIR)$(PREFIX)/lib; ln -sf libpolarssl.so.0 libpolarssl.so
++
 +	$(BSD_INSTALL_PROGRAM_DIR) $(DESTDIR)$(PREFIX)/bin
  	for p in programs/*/* ; do              \
  	    if [ -x $$p ] && [ ! -d $$p ] ;     \

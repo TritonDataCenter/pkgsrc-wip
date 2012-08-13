@@ -39,8 +39,6 @@ PKG_USERS=	${MUNIN_USER}:${MUNIN_GROUP}
 PKG_GECOS.${MUNIN_USER}=	Munin user
 PKG_SYSCONFSUBDIR?=	munin
 
-REPLACE_BASH+=	plugins/node.d/multigraph_tester.in
-
 REPLACE_PERL+=	node/sbin/munin-node
 REPLACE_PERL+=	node/sbin/munin-node-configure
 REPLACE_PERL+=	node/sbin/munin-run
