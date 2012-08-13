@@ -19,4 +19,5 @@ USE_TOOLS+=		gmake perl
 USE_LANGUAGES=		c
 REPLACE_PERL=		tests/scripts/*.pl
 
+.include "options.mk"
 .include "../../mk/bsd.pkg.mk"
