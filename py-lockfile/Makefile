@@ -1,16 +1,15 @@
 # $NetBSD$
 #
 
-DISTNAME=	lockfile-0.8
+DISTNAME=	lockfile-0.9.1
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
-PKGREVISION=	1
 CATEGORIES=	devel python
-MASTER_SITES=	http://smontanaro.dyndns.org/python/
+MASTER_SITES=	http://pylockfile.googlecode.com/files/
 
 MAINTAINER=	kamel.derouiche@gmail.com
-HOMEPAGE=	http://smontanaro.dyndns.org/python/
+HOMEPAGE=	http://pypi.python.org/pypi/lockfile/
 COMMENT=	Platform-independent file locking module
-#LICENSE=	LICENSE
+LICENSE=	mit
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
