@@ -34,9 +34,7 @@ SUBST_VARS.dirs=	GRAPHITE_DIR GRAPHITE_EGDIR PREFIX
 
 PKG_SYSCONFSUBDIR=	graphite
 
-GRAPHITE_CONF_FILES=	share/examples/graphite/dashboard.conf	\
-			share/examples/graphite/graphite.wsgi	\
-			share/examples/graphite/graphTemplates.conf
+GRAPHITE_CONF_FILES=	dashboard.conf graphite.wsgi graphTemplates.conf
 
 .for file in ${GRAPHITE_CONF_FILES}
 CONF_FILES+=		${GRAPHITE_EGDIR}/${file}.example	\
