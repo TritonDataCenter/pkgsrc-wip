@@ -13,7 +13,7 @@ COMMENT=		Fancy-looking digital video jukebox
 DEPENDS+=		aumix>=2.8:../../audio/aumix
 DEPENDS+=		mplayer>=1.0rc7:../../multimedia/mplayer
 DEPENDS+=		${PYPKGPREFIX}-sqlite>=1.0.1:../../databases/py-sqlite
-DEPENDS+=		${PYPKGPREFIX}-twisted>=2.0.0:../../wip/py-twisted
+DEPENDS+=		${PYPKGPREFIX}-twisted>=2.0.0:../../net/py-twisted
 #DEPENDS+=		${PYPKGPREFIX}-twisted-web>=0.5.0:../../wip/py-twisted-web
 DEPENDS+=		${PYPKGPREFIX}-elementtree-[0-9]*:../../textproc/py-elementtree
 DEPENDS+=		${PYPKGPREFIX}-beautifulsoup-[0-9]*:../../www/py-beautifulsoup

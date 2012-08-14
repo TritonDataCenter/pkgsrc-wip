@@ -14,7 +14,7 @@ LICENSE=	apache-2.0
 PKG_DESTDIR_SUPPORT=	user-destdir
 
 DEPENDS+=	${PYPKGPREFIX}-twisted-[0-9]*:../../net/py-twisted
-DEPENDS+=	${PYPKGPREFIX}-whisper-${PKGVERSION_NOREV}*:../../wip/py-whisper
+DEPENDS+=	${PYPKGPREFIX}-whisper>=${PKGVERSION_NOREV}*:../../wip/py-whisper
 
 USE_LANGUAGES=	# none
 

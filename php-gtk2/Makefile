@@ -6,6 +6,7 @@ PECL_DISTNAME=		php-gtk-${PECL_VERSION}
 CATEGORIES+=		x11
 COMMENT=		PHP extension for writing GUI applications with Gtk+
 MASTER_SITES=		http://gtk.php.net/do_download.php?download_file=
+EXTRACT_SUFX=		.tar.gz
 
 MAINTAINER=		khorben@defora.org
 HOMEPAGE=		http://gtk.php.net/

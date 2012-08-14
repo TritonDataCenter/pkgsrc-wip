@@ -90,7 +90,7 @@ post-install:
 .include "../../graphics/ImageMagick/buildlink3.mk"
 .include "../../lang/python/application.mk"
 .include "../../lang/python/extension.mk"
-.include "../../wip/gloox/buildlink3.mk"
-.include "../../wip/poco/buildlink3.mk"
+.include "../../chat/gloox/buildlink3.mk"
+.include "../../devel/poco/buildlink3.mk"
 
 .include "../../mk/bsd.pkg.mk"

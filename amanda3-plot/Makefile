@@ -8,7 +8,7 @@ COMMENT=		Visualizes the behavior of Amanda, a network backup system
 
 PKG_DESTDIR_SUPPORT=	destdir
 
-DEPENDS+=		gnuplot{,-nox11}>=3.7:../../graphics/gnuplot-nox11
+DEPENDS+=		gnuplot>=3.7:../../graphics/gnuplot
 DEPENDS+=		amanda-server>=3.1.*:../../wip/amanda3-server
 
 

@@ -90,7 +90,6 @@ SUBDIR+=	amanda3-client
 SUBDIR+=	amanda3-common
 SUBDIR+=	amanda3-plot
 SUBDIR+=	amanda3-server
-SUBDIR+=	amarok
 SUBDIR+=	analizo
 SUBDIR+=	and
 SUBDIR+=	ann
@@ -317,6 +316,7 @@ SUBDIR+=	cl-trivial-gray-streams
 SUBDIR+=	cl-unicode
 SUBDIR+=	cl-who
 SUBDIR+=	clamassassin
+SUBDIR+=	clang
 SUBDIR+=	classgen
 SUBDIR+=	classic-mac-font-pack
 SUBDIR+=	claws-mail-fancy
@@ -1225,7 +1225,6 @@ SUBDIR+=	just
 SUBDIR+=	jython
 SUBDIR+=	kBuild
 SUBDIR+=	kacst-ttf
-SUBDIR+=	kactivities
 SUBDIR+=	kaffe
 SUBDIR+=	kaffe-x11
 SUBDIR+=	kahakai
@@ -1435,6 +1434,7 @@ SUBDIR+=	lirc
 SUBDIR+=	lire
 SUBDIR+=	lissac
 SUBDIR+=	lives
+SUBDIR+=	llvm
 SUBDIR+=	lmdbg-current
 SUBDIR+=	lmfit
 SUBDIR+=	lmtp2nntp
@@ -2105,7 +2105,6 @@ SUBDIR+=	pinball
 SUBDIR+=	pinkpony
 SUBDIR+=	pizza
 SUBDIR+=	pjproject
-SUBDIR+=	pkg-config
 SUBDIR+=	pkg_conflicts
 SUBDIR+=	pkg_fake
 #SUBDIR+=	pkg_get			# not a package (yet?)
@@ -3330,3 +3329,4 @@ limited_list: .PHONY
 .else
 .include "../mk/bsd.pkg.subdir.mk"
 .endif
+
