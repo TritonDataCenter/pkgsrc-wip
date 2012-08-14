@@ -21,7 +21,9 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 
 INSTALLATION_DIRS=	include lib
 
-post-install:
+do-install:
+	${INSTALL_LIB} ${WRKSRC}/libexecinfo.* ${DESTDIR}${PREFIX}/lib
+	${INSTALL_LIB} ${WRKSRC}/libexecinfo_pic.a ${DESTDIR}${PREFIX}/lib
 	${INSTALL_DATA} ${WRKSRC}/execinfo.h ${DESTDIR}${PREFIX}/include
 
 .include "../../mk/bsd.pkg.mk"
