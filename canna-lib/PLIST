@@ -1,6 +1,4 @@
 @comment $NetBSD$
-bin/forcpp
-bin/kpdic
 include/canna/RK.h
 include/canna/jrkanji.h
 include/canna/keydef.h

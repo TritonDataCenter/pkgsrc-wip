@@ -1,5 +1,7 @@
 $NetBSD$
 
+NetBSD also has endian.h located in include/sys
+
 --- library/net.c.orig	2011-12-22 10:06:27.000000000 +0000
 +++ library/net.c
 @@ -59,7 +59,7 @@ static int wsa_init_done = 0;

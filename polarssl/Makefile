@@ -4,7 +4,7 @@
 DISTNAME=		polarssl-1.1.4-gpl
 PKGNAME=		${DISTNAME:-gpl=}
 CATEGORIES=		security devel
-MASTER_SITES=		http://polarssl.org/code/download/
+MASTER_SITES=		http://polarssl.org/code/releases/
 EXTRACT_SUFX=		.tgz
 
 MAINTAINER=		pkgsrc-users@NetBSD.org
@@ -14,9 +14,15 @@ LICENSE=		gnu-gpl-v2
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
-WRKSRC=			${WRKDIR}/${DISTNAME:-gpl=}
-USE_TOOLS+=		gmake perl
+WRKSRC=			${WRKDIR}/${PKGNAME_NOREV}
+USE_TOOLS+=		gmake
 USE_LANGUAGES=		c
-REPLACE_PERL=		tests/scripts/*.pl
+TEST_TARGET=		check
 
+.if defined(PKGSRC_RUN_TEST) && !empty(PKGSRC_RUN_TEST:M[Yy][Ee][Ss])
+USE_TOOLS+=		perl
+REPLACE_PERL=		tests/scripts/*.pl
+.endif
+
+.include "options.mk"
 .include "../../mk/bsd.pkg.mk"

@@ -1,5 +1,7 @@
 $NetBSD$
 
+Build dynamic library as well as static one
+
 --- library/Makefile.orig	2011-12-03 21:45:14.000000000 +0000
 +++ library/Makefile
 @@ -39,7 +39,7 @@ OBJS=	aes.o		arc4.o		asn1parse.o		\

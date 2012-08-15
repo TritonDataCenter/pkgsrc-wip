@@ -20,6 +20,9 @@ ${PYSITELIB}/calypso/acl/htpasswd.pyo
 ${PYSITELIB}/calypso/config.py
 ${PYSITELIB}/calypso/config.pyc
 ${PYSITELIB}/calypso/config.pyo
+${PYSITELIB}/calypso/paths.py
+${PYSITELIB}/calypso/paths.pyc
+${PYSITELIB}/calypso/paths.pyo
 ${PYSITELIB}/calypso/webdav.py
 ${PYSITELIB}/calypso/webdav.pyc
 ${PYSITELIB}/calypso/webdav.pyo
