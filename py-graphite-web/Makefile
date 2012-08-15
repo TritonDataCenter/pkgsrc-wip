@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	graphite-web-0.9.10
+PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	www
 MASTER_SITES=	http://launchpadlibrarian.net/106575888/
 
