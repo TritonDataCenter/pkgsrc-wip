@@ -12,13 +12,14 @@ MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://sc2.sourceforge.net/
 COMMENT=	Ur-Quan Masters
 # FIXME: GPL and Creative Commons Attribution-NonCommercial-ShareAlike 2.5
-#LICENSE=	gnu-gpl-v2
+#     At the moment cc-by-nc-sa-2.5v-license is not present in
+#     pkgsrc/licenses/, this is why LICENSE is commented.
+#LICENSE=	gnu-gpl-v2 AND cc-by-nc-sa-2.5v-license
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
 DIST_SUBDIR=		uqm
 EXTRACT_ONLY=		${DISTNAME}${EXTRACT_SUFX}
-INTERACTIVE_STAGE=	configure
 USE_TOOLS=		gmake pkg-config
 WRKSRC=			${WRKDIR}/${PKGNAME_NOREV}
 
@@ -39,7 +40,7 @@ SUBST_SED.config+=	-e 's;/usr/local/games;${DESTDIR}${PREFIX};'
 INSTALLATION_DIRS=	bin lib share/uqm/content/packages share/doc/uqm
 
 do-configure:
-	cd ${WRKSRC} &&./build.sh uqm config
+	cd ${WRKSRC} && ./build.sh uqm config
 
 do-build:
 	cd ${WRKSRC} && ./build.sh uqm reprocess_config && ./build.sh uqm
