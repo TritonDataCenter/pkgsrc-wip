@@ -7,8 +7,8 @@ $NetBSD$
 (2) 24.2 or later
  convert inactivate-input-method to deactivate-input-method
 
---- lisp/tc-sysdep.el.orig	2012-08-02 16:43:08.000000000 +0900
-+++ lisp/tc-sysdep.el	2012-08-02 23:29:10.000000000 +0900
+--- lisp/tc-sysdep.el.orig	2012-08-17 13:57:57.000000000 +0900
++++ lisp/tc-sysdep.el	2012-08-17 14:14:44.000000000 +0900
 @@ -228,7 +228,7 @@
  ;;;
  ;;; Fix incompatibilities between 18 and 19.
@@ -18,7 +18,7 @@ $NetBSD$
      (progn
        (defun tcode-redo-command (ch)
  	"キー CH を現在のキーマップで再実行する"
-@@ -240,7 +240,7 @@
+@@ -240,13 +240,13 @@
        ;; XEmacs
        (or (fboundp 'isearch-last-command-char)
  	  (defun isearch-last-command-char ()
@@ -27,6 +27,13 @@ $NetBSD$
        (or (boundp 'search-upper-case)
  	  (setq search-upper-case 'not-yanks)))
    ;; NEmacs
+   (defun tcode-redo-command (ch)
+     "キー CH を現在のキーマップで再実行する"
+-    (setq unread-command-char ch)))
++    (setq unread-command-events ch)))
+ 
+ (if (not (tcode-nemacs-p))
+     (progn
 @@ -489,10 +489,10 @@
  	(setq slot (cons input-method info))
  	(setq input-method-alist (cons slot input-method-alist))))))
