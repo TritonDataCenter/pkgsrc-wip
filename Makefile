@@ -2305,6 +2305,7 @@ SUBDIR+=	py-gaphas
 SUBDIR+=	py-gcalendarsync
 SUBDIR+=	py-gccxml
 SUBDIR+=	py-generateDS
+SUBDIR+=	py-genesis
 SUBDIR+=	py-gettext-tools
 SUBDIR+=	py-gevent
 SUBDIR+=	py-ghalatawi
