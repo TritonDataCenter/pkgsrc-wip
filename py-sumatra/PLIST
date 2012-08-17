@@ -1,6 +1,6 @@
 @comment $NetBSD$
-bin/smt2.6
-bin/smtweb2.6
+bin/smt2.7
+bin/smtweb2.7
 ${PYSITELIB}/sumatra/__init__.py
 ${PYSITELIB}/sumatra/__init__.pyc
 ${PYSITELIB}/sumatra/__init__.pyo
