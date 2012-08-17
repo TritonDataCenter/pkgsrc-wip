@@ -20,6 +20,7 @@ DEPENDS+=	${PYPKGPREFIX}-django-[0-9]*:../../www/py-django
 DEPENDS+=	${PYPKGPREFIX}-django-tagging>=0.2.1:../../wip/py-django-tagging
 DEPENDS+=	${PYPKGPREFIX}-httplib2>=0.6.0:../../wip/py-httplib2
 DEPENDS+=	${PYPKGPREFIX}-mpi4py>=1.2.1:../../wip/py-mpich4py
+DEPENDS+=	${PYPKGPREFIX}-genesis:../../wip/py-genesis/
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
