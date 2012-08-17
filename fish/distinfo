@@ -6,4 +6,4 @@ Size (fish-1.23.1.tar.gz) = 1152997 bytes
 SHA1 (patch-Makefile.in) = d92c531cb15e511f1a712d98a64e222b3316fcdd
 SHA1 (patch-configure) = 3d4cd5ed6cff65768f4f99ae196449e01d3f7ef1
 SHA1 (patch-proc.h) = 7ac0b704f6ee1b1e966f0bfdc87dfa1e23e9c338
-SHA1 (patch-screen.c) = 3f9afd7927d0669ac597e3b79b0ff78bd5da801e
+SHA1 (patch-screen.c) = eae536bb965bd2a236a5cd3ff44e5ddbeb24f519
