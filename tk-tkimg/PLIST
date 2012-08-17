@@ -1,4 +1,3 @@
 @comment $NetBSD$
 lib/Img${PKGVERSION}.9/Img.so
 lib/Img${PKGVERSION}.9/pkgIndex.tcl
-@dirrm lib/Img${PKGVERSION}.9
