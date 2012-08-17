@@ -2967,6 +2967,7 @@ SUBDIR+=	tinylogin
 SUBDIR+=	tipp10
 SUBDIR+=	tk85
 SUBDIR+=	tk86
+SUBDIR+=	tk-tkimg
 SUBDIR+=	tkpng
 SUBDIR+=	tktable
 SUBDIR+=	tktile
