@@ -121,7 +121,6 @@ share/doc/phusion-passenger/Security of user switching support.html
 share/doc/phusion-passenger/Users guide Apache.html
 share/doc/phusion-passenger/Users guide Nginx.html
 share/doc/phusion-passenger/Users guide Standalone.html
-share/doc/phusion-passenger/images/._phusion_banner.png
 share/doc/phusion-passenger/images/by_sa.png
 share/doc/phusion-passenger/images/conservative_spawning.png
 share/doc/phusion-passenger/images/conservative_spawning.svg
