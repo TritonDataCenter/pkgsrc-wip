@@ -1,0 +1,4 @@
+@comment $NetBSD$
+lib/libgda-3.0/providers/libgda-xbase.la
+lib/pkgconfig/libgda-xbase-3.0.pc
+share/libgda-3.0/xbase_specs_dsn.xml
