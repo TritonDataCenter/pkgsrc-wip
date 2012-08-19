@@ -1324,6 +1324,7 @@ SUBDIR+=	libgda-ldap
 SUBDIR+=	libgda-mdb
 SUBDIR+=	libgda-odbc
 #SUBDIR+=	libgda-sqlite3	# PR pkg/45845
+SUBDIR+=	libgda-xbase
 SUBDIR+=	libgda4
 SUBDIR+=	libgeotiff
 SUBDIR+=	libghemical
