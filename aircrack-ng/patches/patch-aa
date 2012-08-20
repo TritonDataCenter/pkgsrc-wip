@@ -1,5 +1,7 @@
 $NetBSD$
 
+Add NetBSD for machine/endian.h inclusion
+
 --- src/osdep/byteorder.h.orig	2009-08-13 20:51:18.000000000 +0200
 +++ src/osdep/byteorder.h
 @@ -184,7 +184,7 @@

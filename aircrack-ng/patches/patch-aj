@@ -1,5 +1,7 @@
 $NetBSD$
 
+Added common.o to needed objects
+
 --- src/osdep/Makefile.orig	2009-06-14 17:07:09.000000000 +0200
 +++ src/osdep/Makefile
 @@ -13,7 +13,7 @@ OBJS		= osdep.o $(OBJS_NET)

@@ -1,5 +1,7 @@
 $NetBSD$
 
+Paths fixes
+
 --- common.mak.orig	2009-09-01 11:32:00.000000000 +0200
 +++ common.mak
 @@ -70,10 +70,10 @@ OPTFLAGS        = -D_FILE_OFFSET_BITS=64
