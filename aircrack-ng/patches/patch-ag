@@ -1,5 +1,7 @@
 $NetBSD$
 
+Set ap channel to iface channel
+
 --- src/aireplay-ng.c.orig	2009-07-22 21:45:51.000000000 +0200
 +++ src/aireplay-ng.c
 @@ -726,7 +726,7 @@ int attack_check(uchar* bssid, char* ess

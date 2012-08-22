@@ -1,5 +1,7 @@
 $NetBSD$
 
+Replace install with BSD_INSTALL_PROGRAM
+
 --- src/Makefile.orig	2009-06-14 17:07:09.000000000 +0200
 +++ src/Makefile
 @@ -201,10 +201,8 @@ distclean: clean

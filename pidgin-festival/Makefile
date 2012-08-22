@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	pidgin-festival-2.4
-PKGREVISION=	4
+PKGREVISION=	5
 CATEGORIES=	chat audio
 MASTER_SITES=	http://downloads.sourceforge.net/pidgin-festival/
 
@@ -22,6 +22,8 @@ USE_TOOLS+=		aclocal autoconf autoheader automake pkg-config
 PKG_DESTDIR_SUPPORT=	user-destdir
 
 CFLAGS+=                -DFESTIVAL_VOICES_PATH='"${PREFIX}/share/festival/lib/voices"'
+
+INSTALLATION_DIRS=	lib/purple-2 share/locale/es/LC_MESSAGES share/locale/pt_BR/LC_MESSAGES share/locale/ru/LC_MESSAGES
 
 pre-configure:
 	set -e; cd ${WRKSRC}; \
