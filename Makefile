@@ -145,6 +145,7 @@ SUBDIR+=	aravis
 SUBDIR+=	arcem-current
 SUBDIR+=	archimedes
 SUBDIR+=	argouml
+SUBDIR+=	argtable2
 SUBDIR+=	arista
 SUBDIR+=	arla-3.99.14
 SUBDIR+=	armadillo
