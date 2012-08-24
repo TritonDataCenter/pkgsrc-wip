@@ -3143,6 +3143,7 @@ SUBDIR+=	x264-devel
 SUBDIR+=	xace
 SUBDIR+=	xar
 SUBDIR+=	xaralx-bin
+SUBDIR+=	xautomation
 SUBDIR+=	xbase
 SUBDIR+=	xbelmark
 SUBDIR+=	xbmc
