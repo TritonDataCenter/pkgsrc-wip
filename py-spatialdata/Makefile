@@ -8,7 +8,7 @@ EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	http://www.geodynamics.org/cig/software/pylith/
-COMMENT=	TODO: Short description of the package
+COMMENT=	Spatialdata provides transformations among coordinate systems
 LICENSE=	mit
 
 PKG_DESTDIR_SUPPORT=	user-destdir
