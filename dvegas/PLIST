@@ -1,0 +1,7 @@
+@comment $NetBSD$
+include/dvegas/dvegas.h
+include/dvegas/omnicomp.h
+include/dvegas/omnicomp.hh
+include/dvegas/rng.h
+lib/libdvegas.la
+lib/pkgconfig/dvegas.pc
