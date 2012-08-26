@@ -3,8 +3,8 @@ $NetBSD$
 
 Create file configuration using configure.py:
 
-	/usr/pkg/etc/spade.xml
-	/usr/pkg/etc/xmppd.xml
+	${PREFIX}/etc/spade/spade.xml
+	${PREFIX}/etc/spade/xmppd.xml
 
 
 
