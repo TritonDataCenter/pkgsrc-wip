@@ -1156,7 +1156,6 @@ SUBDIR+=	iptables
 SUBDIR+=	iptstate
 SUBDIR+=	ironpython
 SUBDIR+=	irrlicht
-SUBDIR+=	irssi-xmpp
 SUBDIR+=	ised
 SUBDIR+=	islamic-menus
 SUBDIR+=	ispell-dictionaries
