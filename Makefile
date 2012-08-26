@@ -2922,7 +2922,6 @@ SUBDIR+=	tcc
 SUBDIR+=	tcc-devel
 SUBDIR+=	tcl-curl
 SUBDIR+=	tcl-expect
-SUBDIR+=	tcl-tDOM
 SUBDIR+=	tcl-tclOO
 SUBDIR+=	tcl85
 SUBDIR+=	tcl86
