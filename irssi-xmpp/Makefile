@@ -16,6 +16,7 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 .include "../../mk/bsd.prefs.mk"
 .include "../../chat/irssi/Makefile.common"
 
+MAKE_JOBS_SAFE=	no
 USE_TOOLS+=	pkg-config
 WRKSRC=		${WRKDIR}/${IRSSI_DISTNAME}/${DISTNAME}
 
