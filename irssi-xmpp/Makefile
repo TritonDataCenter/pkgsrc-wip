@@ -11,6 +11,8 @@ HOMEPAGE=	http://cybione.org/~irssi-xmpp/
 COMMENT=	Irssi plugin to connect to the Jabber network
 LICENSE=	gnu-gpl-v2
 
+DEPENDS+=	irssi>=${IRSSI_VERSION}:../../chat/irssi
+
 PKG_DESTDIR_SUPPORT=	user-destdir
 
 .include "../../mk/bsd.prefs.mk"
@@ -27,8 +29,6 @@ SUBST_STAGE.makefile=	pre-build
 SUBST_MESSAGE.makefile=	Fixing doc-install Makefile target.
 SUBST_FILES.makefile=	Makefile
 SUBST_SED.makefile+=	-e '/docs/s/install/install -m 644/'
-
-DEPENDS+=	irssi>=${IRSSI_VERSION}:../../chat/irssi
 
 post-extract:
 	${MV} ${WRKDIR}/${DISTNAME} ${WRKDIR}/${IRSSI_DISTNAME}
