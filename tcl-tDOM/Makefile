@@ -4,7 +4,7 @@
 DISTNAME=	tDOM-0.8.3
 PKGNAME=	tcl-${DISTNAME}
 CATEGORIES=	textproc
-MASTER_SITES=	http://github.com/downloads/tDOM/tdom/
+MASTER_SITES=	http://cloud.github.com/downloads/tDOM/tdom/
 EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	pho@cielonegro.org
