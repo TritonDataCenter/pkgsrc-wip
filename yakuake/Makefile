@@ -20,6 +20,6 @@ USE_TOOLS+=             awk msgfmt pkg-config perl
 .include "../../graphics/hicolor-icon-theme/buildlink3.mk"
 .include "../../meta-pkgs/kde4/kde4.mk"
 .include "../../sysutils/desktop-file-utils/desktopdb.mk"
-.include "../../x11/kdebase-runtime4/buildlink3.mk"
+.include "../../x11/kde-runtime4/buildlink3.mk"
 .include "../../x11/kdelibs4/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
