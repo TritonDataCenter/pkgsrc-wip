@@ -22,5 +22,5 @@ USE_CMAKE=	yes
 .include "../../meta-pkgs/kde4/kde4.mk"
 .include "../../graphics/hicolor-icon-theme/buildlink3.mk"
 .include "../../x11/kdelibs4/buildlink3.mk"
-.include "../../x11/kdebase4/buildlink3.mk"
+.include "../../x11/kde-baseapps4/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

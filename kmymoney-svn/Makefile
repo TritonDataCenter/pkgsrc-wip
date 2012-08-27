@@ -40,7 +40,7 @@ REPLACE_PERL+=	kmymoney/misc/financequote.pl
 .include "../../textproc/libxml++/buildlink3.mk"
 .include "../../textproc/libxml2/buildlink3.mk"
 .include "../../time/libical/buildlink3.mk"
-.include "../../x11/kdebase4/buildlink3.mk"
+.include "../../x11/kde-baseapps4/buildlink3.mk"
 .include "../../x11/kdelibs4/buildlink3.mk"
 .include "../../x11/libX11/buildlink3.mk"
 .include "../../x11/qt4-libs/buildlink3.mk"

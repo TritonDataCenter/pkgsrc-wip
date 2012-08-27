@@ -1,3 +1,4 @@
 @comment $NetBSD$
 bin/stud
 man/man8/stud.8
+share/examples/stud/stud.conf

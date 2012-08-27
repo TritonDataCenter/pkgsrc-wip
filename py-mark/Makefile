@@ -8,7 +8,7 @@ MASTER_SITES=	http://pypi.python.org/packages/source/m/mark/
 
 MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	http://packages.python.org/mark/
-COMMENT=	TODO: Short description of the package
+COMMENT=RDF Bookmarking Utilities
 LICENSE=	gnu-agpl-v3
 
 DEPENDS+=	${PYPKGPREFIX}-argparse>=1.1:../../devel/py-argparse
