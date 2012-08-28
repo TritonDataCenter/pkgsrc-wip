@@ -34,6 +34,7 @@ SUBDIR+=	R-digest
 SUBDIR+=	R-doParallel
 SUBDIR+=	R-entropy
 SUBDIR+=	R-foreach
+SUBDIR+=	R-gmp
 SUBDIR+=	R-graph
 SUBDIR+=	R-gsl
 SUBDIR+=	R-iterators
