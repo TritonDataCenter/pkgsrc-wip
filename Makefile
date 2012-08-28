@@ -2139,7 +2139,6 @@ SUBDIR+=	polymul
 SUBDIR+=	pop-before-smtp
 SUBDIR+=	pop3.proxy
 SUBDIR+=	postal2-mpdemo-bin
-SUBDIR+=	postgresql-uniqueidentifier
 SUBDIR+=	postoffice
 SUBDIR+=	postr
 SUBDIR+=	pound
