@@ -14,7 +14,7 @@ BUILDLINK_API_DEPENDS.R+=	R>=2.6.0
 
 LICENSE=	artistic-2.0
 
-USE_LANGUAGES=  c
+USE_LANGUAGES=	c
 
 .include "../../math/R/Makefile.extension"
 .include "../../devel/gettext-lib/buildlink3.mk"
