@@ -1,4 +1,5 @@
 @comment $NetBSD$
+bin/libreoffice3.6
 bin/sbase
 bin/scalc
 bin/sdraw
