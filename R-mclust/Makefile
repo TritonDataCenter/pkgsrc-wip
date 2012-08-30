@@ -10,9 +10,9 @@ COMMENT=	Model-based clustering and normal mixture modeling
 R_PKGNAME=	mclust
 R_PKGVER=	3.4.8
 
-BUILDLINK_API_DEPENDS.R+=	R>=2.2.0
-
 USE_LANGUAGES=	c fortran
+
+BUILDLINK_API_DEPENDS.R+=	R>=2.2.0
 
 .include "../../math/R/Makefile.extension"
 .include "../../devel/gettext-lib/buildlink3.mk"
