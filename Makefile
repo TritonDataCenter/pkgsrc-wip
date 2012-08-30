@@ -26,6 +26,7 @@ SUBDIR+=	R-Rdbi
 SUBDIR+=	R-Rdbi.PgSQL
 SUBDIR+=	R-Rgraphviz
 SUBDIR+=	R-Rserve
+SUBDIR+=	R-VGAM
 SUBDIR+=	R-biganalytics
 SUBDIR+=	R-bigmemory
 SUBDIR+=	R-bigtabulate
