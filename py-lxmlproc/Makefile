@@ -11,7 +11,7 @@ HOMEPAGE=	http://github.com/nicferrier/lxmlproc
 COMMENT=	Lxml version of xsltproc
 LICENSE=	gnu-gpl-v3
 
-DEPENDS+=	${PYPKGPREFIX}-lxml=>2.3.2:../../textproc/py-lxml
+DEPENDS+=	${PYPKGPREFIX}-lxml>=2.3.2:../../textproc/py-lxml
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
