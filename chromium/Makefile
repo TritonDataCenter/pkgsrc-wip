@@ -2,7 +2,7 @@
 
 DISTNAME=	chromium-11.0.696.72
 CATEGORIES=	www
-MASTER_SITES=	http://build.chromium.org/buildbot/official/
+MASTER_SITES=	http://build.chromium.org/buildbot/official/obsolete/
 EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	rxg@NetBSD.org
