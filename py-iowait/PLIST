@@ -1,0 +1,4 @@
+@comment $NetBSD$
+${PYSITELIB}/iowait.py
+${PYSITELIB}/iowait.pyc
+${PYSITELIB}/iowait.pyo
