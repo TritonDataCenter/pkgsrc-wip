@@ -4,10 +4,11 @@
 .include "../emboss-base/Makefile.common"
 .include "../emboss/Makefile.common"
 
-DISTNAME=	PHYLIP-3.57c
-PKGNAME=	emboss-phylip-3.57c
+DISTNAME=		PHYLIP-3.57c
+PKGNAME=		emboss-phylip-3.57c
+PKGREVISION=		1
 
-COMMENT=	A package of programs for inferring phylogenies
+COMMENT=		A package of programs for inferring phylogenies
 
 DIST_SUBDIR=		emboss/phylip-3.57c-20041107
 BUILD_TARGET=		#empty

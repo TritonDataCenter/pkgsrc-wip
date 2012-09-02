@@ -3,8 +3,10 @@
 
 .include "../emboss-base/Makefile.common"
 .include "../emboss/Makefile.common"
+
 DISTNAME=		DOMAINATRIX-1.0.0
 PKGNAME=		emboss-domainatrix-1.0.0
+PKGREVISION=		1
 
 COMMENT=		Collection of bioinformatic programs for EMBOSS
 

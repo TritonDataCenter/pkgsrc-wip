@@ -6,6 +6,7 @@
 
 DISTNAME=		TOPO-1.0.0
 PKGNAME=		emboss-topo-1.0.0
+PKGREVISION=		1
 
 COMMENT=		Draws an image of a transmembrane protein
 
