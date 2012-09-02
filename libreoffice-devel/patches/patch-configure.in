@@ -1,5 +1,8 @@
 $NetBSD$
 
+Fix a few configure and portability issues
+Force the installation into a single directory in /usr/pkg
+
 --- configure.in.orig	2012-04-22 18:44:29.000000000 +0000
 +++ configure.in
 @@ -11047,7 +11047,7 @@ AC_MSG_RESULT([$DOCDIR])
