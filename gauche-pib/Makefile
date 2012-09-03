@@ -20,7 +20,9 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 .include "../../mk/bsd.pkg.mk"
 
 # Substitute the path to sitelibdir in the PLIST.
+.if exists(${PREFIX:Q}/bin/gauche-config)
 GAUCHE_SITE_LIB_DIR!=	${PREFIX:Q}/bin/gauche-config --sitelibdir
+.endif
 PLIST_SUBST+=		GAUCHE_SITE_LIB_DIR=${GAUCHE_SITE_LIB_DIR:S|${PREFIX}/||:Q}
 PRINT_PLIST_AWK+= \
 	{ gsub(/${GAUCHE_SITE_LIB_DIR:S|${PREFIX}/||:S|/|\\/|g}/, \

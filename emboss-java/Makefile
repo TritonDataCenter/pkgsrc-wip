@@ -3,7 +3,7 @@
 
 DISTNAME=		EMBOSS-2.9.0
 PKGNAME=		emboss-java-0.0.3
-PKGREVISION=		1
+PKGREVISION=		2
 CATEGORIES=		biology
 MASTER_SITES=		ftp://ftp.uk.embnet.org/pub/EMBOSS/
 
@@ -40,11 +40,11 @@ do-build:
 
 do-install:
 	${CP} ${WRKSRC}/ajax/.libs/libajax.so.0.1.0 ${WRKSRC}/ajax/.libs/libajaxj.so
-	${CP} ${WRKSRC}/ajax/.libs/libajaxj.so ${PREFIX}/lib/libajaxj.so
+	${CP} ${WRKSRC}/ajax/.libs/libajaxj.so ${DESTDIR}${PREFIX}/lib/libajaxj.so
 	${CP} ${WRKSRC}/ajax/.libs/libajax.a ${WRKSRC}/ajax/.libs/libajaxj.a
-	${CP} ${WRKSRC}/ajax/.libs/libajaxj.a ${PREFIX}/lib/libajaxj.a
+	${CP} ${WRKSRC}/ajax/.libs/libajaxj.a ${DESTDIR}${PREFIX}/lib/libajaxj.a
 	${CP} ${WRKSRC}/ajax/.libs/libajax.la ${WRKSRC}/ajax/.libs/libajaxj.la
-	${CP} ${WRKSRC}/ajax/.libs/libajaxj.la ${PREFIX}/lib/libajaxj.la
+	${CP} ${WRKSRC}/ajax/.libs/libajaxj.la ${DESTDIR}${PREFIX}/lib/libajaxj.la
 
 .include "../../wip/emboss-base/buildlink3.mk"
 .include "../../mk/java-vm.mk"

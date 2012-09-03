@@ -1,8 +1,0 @@
-===========================================================================
-$NetBSD$
-
-To easily introduce the new UNIQUEIDENTIFIER type to your SQL database, use:
-
-psql -af ${PREFIX}/share/uniqueidentifier/uniqueidentifier.sql [DBNAME]
-
-===========================================================================

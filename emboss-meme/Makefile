@@ -6,6 +6,7 @@
 
 DISTNAME=		MEME-2.3.1
 PKGNAME=		emboss-meme-2.3.1
+PKGREVISION=		1
 
 COMMENT=		Motif detection tool for EMBOSS
 

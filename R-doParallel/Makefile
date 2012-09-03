@@ -10,9 +10,9 @@ COMMENT=	Foreach parallel adaptor for the parallel package
 R_PKGNAME=	doParallel
 R_PKGVER=	1.0.1
 
-BUILDLINK_API_DEPENDS.R+=	R>=2.14.0
-
 LICENSE=	gnu-gpl-v2
+
+BUILDLINK_API_DEPENDS.R+=	R>=2.14.0
 
 .include "../../math/R/Makefile.extension"
 .include "../../wip/R-foreach/buildlink3.mk"

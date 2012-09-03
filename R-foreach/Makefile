@@ -10,9 +10,9 @@ COMMENT=	Foreach looping construct for R
 R_PKGNAME=	foreach
 R_PKGVER=	1.4.0
 
-BUILDLINK_API_DEPENDS.R+=	R>=2.5.0
-
 LICENSE=	apache-2.0
+
+BUILDLINK_API_DEPENDS.R+=	R>=2.5.0
 
 .include "../../math/R/Makefile.extension"
 .include "../../wip/R-iterators/buildlink3.mk"

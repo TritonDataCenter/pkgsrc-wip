@@ -1,10 +1,10 @@
 # $NetBSD$
 
-VER=			3.6.0.4
+VER=			3.6.1.2
 DISTNAME=		libreoffice-${VER}
 PKGNAME=		libreoffice-devel-${VER:S/-//g}
 CATEGORIES=		misc
-MASTER_SITES=	http://download.documentfoundation.org/libreoffice/src/3.6.0/ \
+MASTER_SITES=	http://download.documentfoundation.org/libreoffice/src/3.6.1/ \
 		http://dev-www.libreoffice.org/src/ \
 		http://www.numbertext.org/linux/
 
@@ -46,12 +46,19 @@ EXTRACT_ONLY+=	libreoffice-${component}-${VER}.tar.xz
 DISTFILES+=	${md}
 .endfor
 
+.include "../../mk/bsd.prefs.mk"
+
+# ftp: Unsupported URL scheme `https'
+.if ${OPSYS} == "NetBSD"
+FETCH_USING=		curl
+.endif
+
 # tar: Invalid header, starting valid header search.
-EXTRACT_USING=	gtar
+EXTRACT_USING=		gtar
 
 WRKSRC=		${WRKDIR}/${LO_BOOTSTRAP}
 
-BUILD_DEPENDS+=		cppunit>1.12:../../devel/cppunit
+BUILD_DEPENDS+=		cppunit>=1.12.1:../../devel/cppunit
 BUILD_DEPENDS+=		gperf-[0-9]*:../../devel/gperf
 BUILD_DEPENDS+=		hunspell>=1.2.8:../../textproc/hunspell
 BUILD_DEPENDS+=		p5-Archive-Zip-[0-9]*:../../archivers/p5-Archive-Zip
@@ -78,13 +85,13 @@ CONFLICTS+=		openoffice-linux-[0-9]*
 CONFLICTS+=		libreoffice-[0-9]*
 CONFLICTS+=		libreoffice3-bin-[0-9]*
 
-USE_TOOLS+=		automake bash bison gmake perl pkg-config unzip
+USE_TOOLS+=		automake bash bison gmake pax perl pkg-config unzip
 PTHREAD_OPTS+=		require
 
 HAS_CONFIGURE=		yes
 CHECK_PORTABILITY_SKIP=	configure
 
-CONFIGURE_ARGS+=	--prefix=${DESTDIR}${PREFIX}/${PKGNAME}
+CONFIGURE_ARGS+=	--prefix=${DESTDIR}${PREFIX}/${PKGNAME_NOREV}
 CONFIGURE_ARGS+=	--disable-ccache
 CONFIGURE_ARGS+=	--disable-epm
 CONFIGURE_ARGS+=	--disable-ext-presenter-console
@@ -125,7 +132,11 @@ REPLACE_PERL+=	sd/res/webview/savepic.pl
 REPLACE_PERL+=	sd/res/webview/show.pl
 REPLACE_PERL+=	sd/res/webview/webview.pl
 
-LO_PROGRAMS=	sbase scalc sdraw simpress smath soffice swriter
+LO_PROGRAMS=		sbase scalc sdraw simpress smath soffice swriter
+# Base depends on java, we don't install the icon
+LO_DESKTOP_FILES=	calc.desktop draw.desktop impress.desktop math.desktop \
+			printeradmin.desktop startcenter.desktop writer.desktop
+LO_ICONS=		calc draw impress math printeradmin startcenter writer
 
 post-extract:
 	${MKDIR} -p ${WRKSRC}/clone
@@ -143,12 +154,24 @@ do-configure:
 post-configure:
 	cd ${WRKSRC} && ./bin/create_bootstrap_links
 
+AUTO_MKDIRS=	yes
 post-install:
 	${MKDIR} -p ${DESTDIR}${PREFIX}/bin
 	for f in ${LO_PROGRAMS}; do \
-		${LN} -s ${DESTDIR}${PREFIX}/${PKGNAME}/program/$$f ${DESTDIR}${PREFIX}/bin/$$f; \
+		${LN} -s ${DESTDIR}${PREFIX}/${PKGNAME_NOREV}/program/$$f \
+			${DESTDIR}${PREFIX}/bin/$$f; \
 	done
-
+	${LN} -s ${DESTDIR}${PREFIX}/${PKGNAME_NOREV}/program/soffice \
+		${DESTDIR}${PREFIX}/bin/libreoffice3.6
+	# Install .desktop files
+	${MKDIR} -p ${DESTDIR}${PREFIX}/share/applications
+	for f in ${LO_DESKTOP_FILES}; do \
+		${LN} -s ${DESTDIR}${PREFIX}/${PKGNAME_NOREV}/share/xdg/$$f \
+			${DESTDIR}${PREFIX}/share/applications; \
+	done
+	# Install desktop icons
+	cd ${WRKSRC}/sysui/desktop/icons/hicolor && \
+		${PAX} -rw . ${DESTDIR}${PREFIX}/share/icons/hicolor
 
 .include "../../converters/libcdr/buildlink3.mk"
 .include "../../converters/libvisio/buildlink3.mk"

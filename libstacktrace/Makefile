@@ -26,5 +26,5 @@ MAKE_ENV+=		MKPROFILELIB=yes MKPICLIB=yes MKSTATICLIB=yes
 
 MAKE_PROGRAM=		${PREFIX}/bin/mkcmake
 
-.include "../../devel/mk-configure/configure.mk"
+.include "../../devel/mk-configure/mk-c.mk"
 .include "../../mk/bsd.pkg.mk"

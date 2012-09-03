@@ -1,5 +1,7 @@
 $NetBSD$
 
+Disable unit tests crashing on DragonFly and NetBSD
+
 --- sc/Module_sc.mk.orig	2012-04-22 18:44:29.000000000 +0000
 +++ sc/Module_sc.mk
 @@ -42,7 +42,6 @@ $(eval $(call gb_Module_add_targets,sc,\

@@ -6,7 +6,7 @@ PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	math python
 MASTER_SITES=	http://pypi.python.org/packages/source/q/qmath/
 
-MAINTAINER=	jihbed.resarch@gmail.com
+MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	http://pypi.python.org/pypi/qmath
 COMMENT= Provides a class for deal with quaternion algebra and 3D rotation
 LICENSE=	gnu-gpl-v3
