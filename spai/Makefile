@@ -6,7 +6,7 @@ CATEGORIES=	math
 MASTER_SITES=	http://www.computational.unibas.ch/software/spai/
 EXTRACT_SUFX=	.tar.bz2
 
-MAINTAINER=	jihbed.resarch@gmail.com
+MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	http://www.computational.unibas.ch/software/spai/
 COMMENT=	Sparse Approximate Inverses 
 LICENSE=	gnu-gpl-v2
