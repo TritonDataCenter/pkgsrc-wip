@@ -11,9 +11,12 @@ COMMENT=		Nbfc - the "new brainfuck compiler"
 
 WRKSRC=			${WRKDIR}/nbfc-0.1
 USE_TOOLS+=		gmake yacc
+PKG_DESTDIR_SUPPORT=	user-destdir
+
+INSTALLATION_DIRS+=	bin ${PKGMANDIR}/man1 
 
 do-install:
-			${INSTALL_PROGRAM} ${WRKSRC}/nbfc ${PREFIX}/bin
-			${INSTALL_MAN} ${WRKSRC}/nbfc.1 ${PREFIX}/${PKGMANDIR}/man1
+			${INSTALL_PROGRAM} ${WRKSRC}/nbfc ${DESTDIR}${PREFIX}/bin
+			${INSTALL_MAN} ${WRKSRC}/nbfc.1 ${DESTDIR}${PREFIX}/${PKGMANDIR}/man1
 
 .include "../../mk/bsd.pkg.mk"
