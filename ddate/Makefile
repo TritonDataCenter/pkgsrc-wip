@@ -17,6 +17,7 @@ COMMENT=		The enhanced Discordian date program
 GNU_CONFIGURE=		yes
 USE_TOOLS+=		gmake
 CONFLICTS+=		util-linux-[0-9]*
+DOCDIR=			${PREFIX}/share/doc/ddate
 INSTALLATION_DIRS+=	bin ${PKGMANDIR}/man1 share/doc/ddate
 
 do-build:
