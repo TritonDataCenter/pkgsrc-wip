@@ -1746,7 +1746,6 @@ SUBDIR+=	openca
 SUBDIR+=	opencascade
 SUBDIR+=	opencobol
 SUBDIR+=	openconnect
-SUBDIR+=	opencsg
 SUBDIR+=	opendchub
 SUBDIR+=	opendesktop-fonts
 SUBDIR+=	opendnssec
