@@ -1,0 +1,7 @@
+@comment $NetBSD$
+bin/extComments.pl
+bin/filter.pl
+bin/matcher.pl
+bin/ninka.pl
+bin/senttok.pl
+bin/splitter.pl
