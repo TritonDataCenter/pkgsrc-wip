@@ -3249,6 +3249,7 @@ SUBDIR+=	xmms2
 SUBDIR+=	xmonad
 SUBDIR+=	xmonad-contrib
 SUBDIR+=	xmoto
+SUBDIR+=	xombrero
 SUBDIR+=	xoo
 SUBDIR+=	xpde
 SUBDIR+=	xpdq
