@@ -1,4 +1,4 @@
-# $NetBSD: Makefile,v 1.4 2012/06/16 04:45:39 markd Exp $
+# $NetBSD$
 
 KDE_LANGUAGE=	Bulgarian
 KDE_LANGCODE=	bg
