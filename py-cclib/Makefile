@@ -3,6 +3,7 @@
 
 DISTNAME=	cclib-1.0.tar
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME:S/.tar//}
+PKGREVISION=	1
 CATEGORIES=	biology python
 MASTER_SITES=	http://pypi.python.org/packages/source/c/cclib/
 EXTRACT_SUFX=	.gz
