@@ -1235,6 +1235,7 @@ SUBDIR+=	kapital
 SUBDIR+=	katapult
 SUBDIR+=	kawa
 SUBDIR+=	kde4-l10n-ar
+SUBDIR+=	kde4-l10n-es
 SUBDIR+=	kgrab
 SUBDIR+=	kgraphviewer
 SUBDIR+=	kicad
