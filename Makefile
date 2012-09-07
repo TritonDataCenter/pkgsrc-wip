@@ -1275,6 +1275,7 @@ SUBDIR+=	kde4-l10n-sl
 SUBDIR+=	kde4-l10n-sr
 SUBDIR+=	kde4-l10n-tg
 SUBDIR+=	kde4-l10n-th
+SUBDIR+=	kde4-l10n-tr
 SUBDIR+=	kgrab
 SUBDIR+=	kgraphviewer
 SUBDIR+=	kicad
