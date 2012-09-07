@@ -1243,6 +1243,7 @@ SUBDIR+=	kde4-l10n-da
 SUBDIR+=	kde4-l10n-el
 SUBDIR+=	kde4-l10n-es
 SUBDIR+=	kde4-l10n-eu
+SUBDIR+=	kde4-l10n-fa
 SUBDIR+=	kde4-l10n-it
 SUBDIR+=	kgrab
 SUBDIR+=	kgraphviewer
