@@ -1262,6 +1262,7 @@ SUBDIR+=	kde4-l10n-km
 SUBDIR+=	kde4-l10n-ko
 SUBDIR+=	kde4-l10n-lt
 SUBDIR+=	kde4-l10n-lv
+SUBDIR+=	kde4-l10n-nds
 SUBDIR+=	kde4-l10n-nn
 SUBDIR+=	kde4-l10n-pa
 SUBDIR+=	kde4-l10n-pl
