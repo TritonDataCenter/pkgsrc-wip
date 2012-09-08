@@ -1228,6 +1228,7 @@ SUBDIR+=	kBuild
 SUBDIR+=	kacst-ttf
 SUBDIR+=	kaffe
 SUBDIR+=	kaffe-x11
+SUBDIR+=	kaffeine
 SUBDIR+=	kahakai
 SUBDIR+=	kahua
 SUBDIR+=	kannel-gateway
