@@ -1280,6 +1280,8 @@ SUBDIR+=	kde4-l10n-tr
 SUBDIR+=	kde4-l10n-ug
 SUBDIR+=	kde4-l10n-uk
 SUBDIR+=	kde4-l10n-vi
+SUBDIR++	kde4-l10n-wa
+SUBDIR+=	kde4-l10n-zh_CN
 SUBDIR+=	kgrab
 SUBDIR+=	kgraphviewer
 SUBDIR+=	kicad
