@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	kytea-0.4.0
+DISTNAME=	kytea-0.4.2
 CATEGORIES=	textproc
 MASTER_SITES=	http://www.phontron.com/kytea/download/
 
