@@ -7,7 +7,7 @@ CATEGORIES=	math python
 MASTER_SITES=	http://pypi.python.org/packages/source/D/Delny/
 
 MAINTAINER=	jihbed.research@gmail.com
-HOMEPAGE=	http://flub.stuffwillmade.org/delny
+HOMEPAGE=	https://bitbucket.org/flub/delny
 COMMENT=	Python module for delaunay triangulation
 LICENSE=	gnu-gpl-v3
 
