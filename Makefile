@@ -1240,6 +1240,7 @@ SUBDIR+=	kde4-l10n-ar
 SUBDIR+=	kde4-l10n-bg
 SUBDIR+=	kde4-l10n-bs
 SUBDIR+=	kde4-l10n-ca
+SUBDIR+=	kde4-l10n-cat
 SUBDIR+=	kde4-l10n-cs
 SUBDIR+=	kde4-l10n-da
 SUBDIR+=	kde4-l10n-el
