@@ -1,6 +1,6 @@
 @comment $NetBSD$
-bin/gdb.py
-bin/strace.py
+bin/gdb.py2.7
+bin/strace.py2.7
 ${PYSITELIB}/ptrace/__init__.py
 ${PYSITELIB}/ptrace/__init__.pyc
 ${PYSITELIB}/ptrace/__init__.pyo
