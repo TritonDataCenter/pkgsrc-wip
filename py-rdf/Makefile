@@ -7,7 +7,7 @@ CATEGORIES=	www python
 MASTER_SITES=	http://pypi.python.org/packages/source/r/rdf/
 
 MAINTAINER=	kamel.derouiche@gmail.com
-HOMEPAGE=	http://pypi.python.org/packages/source/r/rdf/
+HOMEPAGE=	http://rdflib.net/
 COMMENT=	Pure Python package providing the core RDF constructs
 LICENSE=	modified-bsd
 
