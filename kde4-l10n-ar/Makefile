@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-KDE_LANGUAGE=	Arabic (Arab)
+KDE_LANGUAGE=	Arabic
 KDE_LANGCODE=	ar
 
 .include "../../meta-pkgs/kde4/l10n.mk"
