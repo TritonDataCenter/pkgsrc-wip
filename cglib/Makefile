@@ -6,7 +6,7 @@ CATEGORIES=	devel java
 MASTER_SITES=	http://garr.dl.sourceforge.net/project/cglib/cglib2/2.2/
 EXTRACT_SUFX=	.jar
 
-MAINTAINER=	kamel.derouiche@gmail.com
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://cglib.sourceforge.net/
 COMMENT=	Code generation library for Java
 LICENSE=	apache-2.0
