@@ -17,6 +17,7 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 GNU_CONFIGURE=	yes
 
 REPLACE_PYTHON+=	bin/reinteract.in
+PYTHON_VERSIONS_ACCEPTED= 27 26
 PY_PATCHPLIST=	yes
 
 .include "../../devel/py-gobject/buildlink3.mk"
