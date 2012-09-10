@@ -7,7 +7,7 @@ CATEGORIES=	audio java
 MASTER_SITES=	http://garr.dl.sourceforge.net/project/jspeex/jspeex/0.9.7/
 EXTRACT_SUFX=	.zip
 
-MAINTAINER=	kamelderouiche@yahoo.com
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://jspeex.sourceforge.net/
 COMMENT=	Java Implementation of Speex
 
