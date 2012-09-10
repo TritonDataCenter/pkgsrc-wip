@@ -7,7 +7,7 @@ CATEGORIES=	audio java
 MASTER_SITES=	http://garr.dl.sourceforge.net/project/javalayer/
 EXTRACT_SUFX=	.zip
 
-MAINTAINER=	kamelderouiche@yahoo.com
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.javazoom.net/javalayer/javalayer.html
 COMMENT=	Library to decode, convert and play MP3 files
 LICENSE=	gnu-lgpl-v2.1
