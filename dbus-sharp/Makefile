@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	dbus-sharp-0.7.0
-CATEGORIES=	devel
+CATEGORIES=	sysutils
 MASTER_SITES=	https://github.com/downloads/mono/dbus-sharp/
 FETCH_USING=	curl
 
