@@ -6,7 +6,7 @@ PKGNAME=	java-vorbisspi-1.0.3
 CATEGORIES=	audio java
 MASTER_SITES=	http://www.javazoom.net/vorbisspi/sources/
 
-MAINTAINER=	kamelderouiche@yahoo.com
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.javazoom.net/vorbisspi/
 COMMENT=	Java Service Provider Interface for the OGG Vorbis audio format
 LICENSE=	gnu-lgpl-v2.1
