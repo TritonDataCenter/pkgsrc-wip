@@ -1,14 +1,13 @@
 # $NetBSD$
 #
 
-DISTNAME=	pudb-0.92.15.tar
+DISTNAME=	pudb-0.92.15
 PKGNAME=	${EGG_NAME}
-EGG_NAME=		${DISTNAME:S/.tar//}
+EGG_NAME=	${DISTNAME}
 CATEGORIES=	devel python
 MASTER_SITES=	http://pypi.python.org/packages/source/p/pudb/
-EXTRACT_SUFX=	.gz#md5=e0b469099b8ab67a4b75e4266b9e659c
 
-MAINTAINER=	kamel.derouiche@gmail.com
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://pypi.python.org/pypi/pudb/
 COMMENT=	Curses-based interface to Python debugger
 #LICENSE=	# TODO: (see mk/license.mk)

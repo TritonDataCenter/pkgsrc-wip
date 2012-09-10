@@ -7,7 +7,7 @@ CATEGORIES=	devel
 MASTER_SITES=	http://classgen.sourceforge.net/downloads/
 EXTRACT_SUFX=	.zip
 
-MAINTAINER=	kamel.derouiche@gmail.com
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://classgen.sourceforge.net/
 COMMENT=	Java tool to generate class frameworks and visitor patterns
 LICENSE=	gnu-gpl-v2
