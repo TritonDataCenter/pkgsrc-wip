@@ -396,6 +396,7 @@ SUBDIR+=	dates
 SUBDIR+=	db1
 SUBDIR+=	dbf
 SUBDIR+=	dbus-explorer
+SUBDIR+=	dbus-sharp
 SUBDIR+=	ddate
 SUBDIR+=	deadbeef
 SUBDIR+=	debian_base
