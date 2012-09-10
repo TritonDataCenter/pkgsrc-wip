@@ -7,7 +7,7 @@ CATEGORIES=	audio java
 MASTER_SITES=	http://www.javazoom.net/jlgui/sources/
 EXTRACT_SUFX=	.zip
 
-MAINTAINER=	kamelderouiche@yahoo.com
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.javazoom.net/
 COMMENT=	Threaded simple player class based on JavaSound API
 LICENSE=	gnu-lgpl-v2.1
