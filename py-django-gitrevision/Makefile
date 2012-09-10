@@ -10,7 +10,7 @@ MASTER_SITES=	http://pypi.python.org/packages/source/d/django-gitrevision/
 
 MAINTAINER=	kamel.derouiche@gmail.com
 HOMEPAGE=	http://github.com/klen/django-gitrevision.git
-COMMENT=	TODO: Short description of the package
+COMMENT=	Django git revision
 LICENSE=	gnu-lgpl-v2.1
 
 DEPENDS+=	${PYPKGPREFIX}-django-[0-9]*:../../www/py-django
