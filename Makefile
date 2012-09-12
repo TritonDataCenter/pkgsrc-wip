@@ -3015,6 +3015,7 @@ SUBDIR+=	telepathy-logger
 SUBDIR+=	tendra
 SUBDIR+=	tendra.org-sid
 SUBDIR+=	teng
+SUBDIR+=	tengwar-ttf
 SUBDIR+=	tenmado
 SUBDIR+=	tenshi
 SUBDIR+=	termit
