@@ -1,0 +1,5 @@
+@comment $NetBSD$
+bin/arxiv2bib
+${PYSITELIB}/arxiv2bib.py
+${PYSITELIB}/arxiv2bib.pyc
+${PYSITELIB}/arxiv2bib.pyo
