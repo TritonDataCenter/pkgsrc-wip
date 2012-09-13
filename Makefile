@@ -1338,7 +1338,6 @@ SUBDIR+=	leo
 SUBDIR+=	leveldb
 SUBDIR+=	lhapdf
 SUBDIR+=	lhs2tex
-SUBDIR+=	libAppleWM
 SUBDIR+=	libGenome
 SUBDIR+=	libSoundTouch
 SUBDIR+=	libalkimia
