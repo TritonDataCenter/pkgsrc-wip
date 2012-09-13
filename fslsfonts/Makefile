@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	fslsfonts-1.0.2
+DISTNAME=	fslsfonts-1.0.4
 CATEGORIES=	x11
 MASTER_SITES=	${MASTER_SITE_XORG:=app/}
 EXTRACT_SUFX=	.tar.bz2
