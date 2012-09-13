@@ -2381,7 +2381,6 @@ SUBDIR+=	py-gist
 SUBDIR+=	py-git
 SUBDIR+=	py-gitdb
 SUBDIR+=	py-gnm
-SUBDIR+=	py-gnucash
 SUBDIR+=	py-gpaw
 SUBDIR+=	py-graphite-web
 SUBDIR+=	py-graphmin
