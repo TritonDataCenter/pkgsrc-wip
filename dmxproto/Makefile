@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	dmxproto-2.2.2
+DISTNAME=	dmxproto-2.3.1
 CATEGORIES=	x11
 MASTER_SITES=	${MASTER_SITE_XORG:=proto/}
 EXTRACT_SUFX=	.tar.bz2
@@ -15,11 +15,9 @@ PKG_INSTALLATION_TYPES=	overwrite pkgviews
 
 GNU_CONFIGURE=	yes
 USE_TOOLS+=	pkg-config
-USE_LANGUAGES=	# none
+USE_LANGUAGES=	c
 
 PKGCONFIG_OVERRIDE+=	dmxproto.pc.in
 
-
 .include "../../x11/xproto/buildlink3.mk"
-
 .include "../../mk/bsd.pkg.mk"
