@@ -137,7 +137,6 @@ SUBDIR+=	apache-commons-pool
 SUBDIR+=	apache-log4j
 SUBDIR+=	apache-velocity
 SUBDIR+=	apachebench2
-SUBDIR+=	applewmproto
 SUBDIR+=	apstget
 SUBDIR+=	apvlv
 SUBDIR+=	ar7
