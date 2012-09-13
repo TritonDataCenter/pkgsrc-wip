@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	beets-1.0b14
+DISTNAME=	beets-1.0b15
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	audio
 MASTER_SITES=	http://beets.googlecode.com/files/
