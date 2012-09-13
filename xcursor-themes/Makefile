@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	xcursor-themes-1.0.2
+DISTNAME=	xcursor-themes-1.0.3
 CATEGORIES=	x11 graphics
 MASTER_SITES=	${MASTER_SITE_XORG:=data/}
 EXTRACT_SUFX=	.tar.bz2
@@ -14,10 +14,10 @@ MAKE_JOBS_SAFE=	no
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
-BUILD_DEPENDS+=	xcursorgen>=4.3.0:../../x11/xcursorgen
+BUILD_DEPENDS+=	xcursorgen>=1.0.5:../../x11/xcursorgen
 
 USE_TOOLS+=	pkg-config
-USE_LANGUAGES=	# none
+USE_LANGUAGES=	c
 GNU_CONFIGURE=	yes
 
 .include "../../x11/libXcursor/buildlink3.mk"
