@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	gemrb-0.6.5
+DISTNAME=	gemrb-0.7.1
 CATEGORIES=	games
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=gemrb/}
 
@@ -16,6 +16,8 @@ USE_CMAKE=	yes
 USE_LIBTOOL=	yes
 USE_LANGUAGES=	c c++
 USE_TOOLS+=	gmake pkg-config
+
+REPLACE_PYTHON=	admin/extend2da.py
 
 CMAKE_ARGS+=		-DDISABLE_WERROR=1
 CMAKE_ARGS+=		-DINSOURCEBUILD=1
