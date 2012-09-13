@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	fstobdf-1.0.3
+DISTNAME=	fstobdf-1.0.5
 CATEGORIES=	fonts x11
 MASTER_SITES=	${MASTER_SITE_XORG:=app/}
 EXTRACT_SUFX=	.tar.bz2
