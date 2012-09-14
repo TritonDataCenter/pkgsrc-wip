@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	plink-1.07-src
-CATEGORIES=	biology science
+CATEGORIES=	biology
 MASTER_SITES=	http://pngu.mgh.harvard.edu/~purcell/plink/dist/
 EXTRACT_SUFX=	.zip
 
