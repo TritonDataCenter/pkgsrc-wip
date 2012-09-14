@@ -8,7 +8,7 @@ EXTRACT_SUFX=	.zip
 
 MAINTAINER=	jwbacon@tds.net
 HOMEPAGE=	http://pngu.mgh.harvard.edu/~purcell/plink/dist/
-COMMENT=	TODO: Short description of the package
+COMMENT=	Whole-genome association analysis toolset
 LICENSE=	gnu-gpl-v2
 
 PKG_DESTDIR_SUPPORT=	user-destdir
