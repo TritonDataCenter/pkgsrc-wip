@@ -36,6 +36,12 @@ do-install:
 	${MKDIR} ${DESTDIR}${PREFIX}/bin
 	${INSTALL_PROGRAM} ${WRKSRC}/plink ${DESTDIR}${PREFIX}/bin
 
+do-test:
+	cd $(WRKSRC) && ./plink --file test
+	cd $(WRKSRC) && ./plink --file test --freq
+	cd $(WRKSRC) && ./plink --file test --assoc
+	cd $(WRKSRC) && ./plink --file test --make-bed
+
 .include "../../devel/libf2c/buildlink3.mk"
 .include "../../math/lapack/buildlink3.mk"
 .include "../../math/blas/buildlink3.mk"
