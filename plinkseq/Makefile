@@ -10,8 +10,6 @@ HOMEPAGE=	http://atgu.mgh.harvard.edu/plinkseq/
 COMMENT=	C/C++ library for working with human genetic variation data
 LICENSE=	gnu-gpl-v2	# Assuming same as plink.  No info on web.
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_LANGUAGES=	c c++
