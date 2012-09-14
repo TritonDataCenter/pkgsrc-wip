@@ -34,6 +34,7 @@ do-test:
 	cd $(WRKSRC) && ./plink --file test --make-bed
 
 .include "../../devel/libf2c/buildlink3.mk"
+.include "../../devel/zlib/buildlink3.mk"
 .include "../../math/lapack/buildlink3.mk"
 .include "../../math/blas/buildlink3.mk"
 .include "../../mk/dlopen.buildlink3.mk"
