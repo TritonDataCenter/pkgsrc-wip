@@ -7,9 +7,9 @@ CATEGORIES=	audio java
 MASTER_SITES=	http://tritonus.org/
 EXTRACT_SUFX=	.jar
 
-MAINTAINER=	kamelderouiche@yahoo.com
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://tritonus.org/plugins.html
-COMMENT=		Shared classes required by all other Tritonus plug-ins
+COMMENT=	Shared classes required by all other Tritonus plug-ins
 LICENSE=	gnu-lgpl-v2.1
 
 PKG_DESTDIR_SUPPORT=	user-destdir

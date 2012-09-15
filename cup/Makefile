@@ -7,7 +7,7 @@ CATEGORIES=	textproc java
 MASTER_SITES=	http://www2.cs.tum.edu/projects/cup/
 EXTRACT_SUFX=	.jar
 
-MAINTAINER=	kamel.derouiche@gmail.com
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www2.cs.tum.edu/projects/cup/
 COMMENT=	LALR parser generator for java
 

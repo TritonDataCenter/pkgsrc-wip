@@ -1,5 +1,5 @@
 @comment $NetBSD$
-bin/bis2.6
+bin/bis${PYVERSSUFFIX}
 ${PYSITELIB}/Biskit/AmberCrdEntropist.py
 ${PYSITELIB}/Biskit/AmberCrdEntropist.pyc
 ${PYSITELIB}/Biskit/AmberCrdEntropist.pyo
@@ -580,7 +580,7 @@ ${PYSITELIB}/Biskit/scripts/Biskit/amberConcat.py
 ${PYSITELIB}/Biskit/scripts/Biskit/amber_ensembleMD.py
 ${PYSITELIB}/Biskit/scripts/Biskit/amber_pdb2parm.py
 ${PYSITELIB}/Biskit/scripts/Biskit/averageASA.py
-${PYSITELIB}/Biskit/scripts/Biskit/bis2.6
+${PYSITELIB}/Biskit/scripts/Biskit/bis${PYVERSSUFFIX}
 ${PYSITELIB}/Biskit/scripts/Biskit/castPdbs.py
 ${PYSITELIB}/Biskit/scripts/Biskit/cvsrm.py
 ${PYSITELIB}/Biskit/scripts/Biskit/dope.py

@@ -45,4 +45,5 @@ CONFIGURE_ARGS+=	--enable-shared \
 .include "../../devel/ncursesw/buildlink3.mk"
 .include "../../devel/readline/buildlink3.mk"
 .include "../../devel/zlib/buildlink3.mk"
+.include "../../mk/pthread.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

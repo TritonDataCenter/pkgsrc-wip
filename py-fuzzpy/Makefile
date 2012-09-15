@@ -1,8 +1,8 @@
 # $NetBSD$
 #
 
-DISTNAME=	fuzzpy-0.2.1
-EGG_NAME=	FuzzPy-0.2.1
+DISTNAME=	fuzzpy-0.3.0
+EGG_NAME=	FuzzPy-0.3.0
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	math
 MASTER_SITES=	http://fuzzpy.googlecode.com/files/
@@ -16,6 +16,9 @@ LICENSE=	gnu-gpl-v3
 PKG_DESTDIR_SUPPORT=	user-destdir
 
 USE_LANGUAGES=	# none
+
+do-test:
+	${RUN} cd ${WRKSRC}; ${SETENV} ${TEST_ENV} ${PYTHONBIN} test.py
 
 .include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"

@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		xclipboard-1.1.0
+DISTNAME=		xclipboard-1.1.2
 CATEGORIES=		x11
 MASTER_SITES=		${MASTER_SITE_XORG:=app/}
 EXTRACT_SUFX=		.tar.bz2

@@ -1,0 +1,4 @@
+@comment $NetBSD$
+lib/libff.a
+lib/libqcdloop.a
+share/doc/qcdloop/man.ps

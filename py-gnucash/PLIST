@@ -1,8 +1,0 @@
-@comment $NetBSD$
-${PYSITELIB}/_gnucash_.so
-${PYSITELIB}/gnucash.py
-${PYSITELIB}/gnucash.pyc
-${PYSITELIB}/gnucash.pyo
-${PYSITELIB}/gnucash_.py
-${PYSITELIB}/gnucash_.pyc
-${PYSITELIB}/gnucash_.pyo

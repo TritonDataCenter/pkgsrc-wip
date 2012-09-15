@@ -1,12 +1,11 @@
 # $NetBSD$
 #
 
-DISTNAME=	TurboJson-1.2.1.tar
-EGG_NAME=	${DISTNAME:S/.tar//}
-PKGNAME=	${PYPKGPREFIX}-${DISTNAME:S/T/t/S/J/j/S/.tar//}
+DISTNAME=	TurboJson-1.2.1
+EGG_NAME=	${DISTNAME}
+PKGNAME=	${PYPKGPREFIX}-${DISTNAME:S/T/t/S/J/j/}
 CATEGORIES=	www
 MASTER_SITES=	http://pypi.python.org/packages/source/T/TurboJson/
-EXTRACT_SUFX=	.gz
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	http://pypi.python.org/pypi/TurboJson

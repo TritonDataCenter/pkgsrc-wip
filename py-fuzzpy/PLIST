@@ -22,3 +22,6 @@ ${PYSITELIB}/fuzz/graph.pyo
 ${PYSITELIB}/fuzz/iset.py
 ${PYSITELIB}/fuzz/iset.pyc
 ${PYSITELIB}/fuzz/iset.pyo
+${PYSITELIB}/fuzz/plot.py
+${PYSITELIB}/fuzz/plot.pyc
+${PYSITELIB}/fuzz/plot.pyo

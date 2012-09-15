@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	netwmpager-2.03
+DISTNAME=	netwmpager-2.04
 CATEGORIES=	wm
 MASTER_SITES=	http://downloads.sourceforge.net/project/sf-xpaint/netwmpager/
 EXTRACT_SUFX=	.tar.bz2

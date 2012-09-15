@@ -5,7 +5,7 @@ DISTNAME=	jakarta-oro-2.0.8
 CATEGORIES=	textproc java
 MASTER_SITES=	http://apache.tradebit.com/pub//jakarta/oro/binaries/
 
-MAINTAINER=	kamelderouiche@yahoo.com
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://jakarta.apache.org/oro/
 COMMENT=	Perl/awk/sh regular expressions for Java
 LICENSE=	apache-1.1

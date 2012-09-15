@@ -1,14 +1,13 @@
 # $NetBSD$
 #
 
-DISTNAME=	pmi-1.0.tar
-PKGNAME=	${PYPKGPREFIX}-${DISTNAME:S/.tar//}
+DISTNAME=	pmi-1.0
+PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	parallel
 MASTER_SITES=	http://pypi.python.org/packages/source/p/pmi/
-EXTRACT_SUFX=	.gz#md5=5143b2e7ac718990c1c34ea9f095e335
 
 MAINTAINER=	kamel.derouiche@gmail.com
-HOMEPAGE=	http://www.espresso-pp.de/projects/pmi/
+HOMEPAGE=	http://github.com/olenz/pmi/
 COMMENT=	Parallel Method Invocation
 LICENSE=	gnu-gpl-v3
 

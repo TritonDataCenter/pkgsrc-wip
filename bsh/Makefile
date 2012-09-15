@@ -2,11 +2,11 @@
 #
 
 DISTNAME=	bsh-2.0b4
-CATEGORIES=	shells
+CATEGORIES=	shells java
 MASTER_SITES=	http://www.beanshell.org/
 EXTRACT_SUFX=	.jar
 
-MAINTAINER=	kamel.derouiche@gmail.com
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.beanshell.org/
 COMMENT=	Java scripting environment
 LICENSE=	spl-1.0 AND gnu-lgpl-v2.1

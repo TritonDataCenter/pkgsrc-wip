@@ -1,6 +1,6 @@
 $NetBSD$
 
---- plugins/gg/pubdir50.c.orig	2011-02-16 10:16:03.000000000 +0000
+--- plugins/gg/pubdir50.c.orig	2011-03-17 17:08:11.000000000 +0000
 +++ plugins/gg/pubdir50.c
 @@ -36,6 +36,7 @@
  COMMAND(gg_command_find)

@@ -1,20 +1,21 @@
 # $NetBSD$
 #
 
-DISTNAME=	pyflakes-0.4.0
-PKGNAME=	${PYPKGPREFIX}-${DISTNAME:S/^py//}
-PKGREVISION=	1
+DISTNAME=	pyflakes-0.5.0
+E=	${PYPKGPREFIX}-${DISTNAME:S/^py//}
 CATEGORIES=	devel python
+CATEGORIES=	wip
 MASTER_SITES=	http://pypi.python.org/packages/source/p/pyflakes/
 
 MAINTAINER=	kamel.derouiche@gmail.com
-HOMEPAGE=	http://www.divmod.org/trac/wiki/DivmodPyflakes
+HOMEPAGE=	https://launchpad.net/pyflakes
 COMMENT=	Passive checker of Python programs
 LICENSE=	mit
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
-WRKSRC=		${WRKDIR}/pyflakes-0.4.0
+WRKSRC=		${WRKDIR}/pyflakes-0.5.0
+
 USE_LANGUAGES=	# none
 
 PYDISTUTILSPKG= yes
