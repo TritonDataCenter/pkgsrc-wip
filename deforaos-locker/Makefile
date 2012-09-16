@@ -1,9 +1,9 @@
 # $NetBSD$
 
-DISTNAME=	Locker-0.1.3
-PKGNAME=	deforaos-locker-0.1.3
+DISTNAME=	Locker-0.2.0
+PKGNAME=	deforaos-locker-0.2.0
 CATEGORIES=	x11
-MASTER_SITES=	http://www.defora.org/os/download/download/3666/
+MASTER_SITES=	http://www.defora.org/os/download/download/3689/
 
 MAINTAINER=	khorben@defora.org
 HOMEPAGE=	http://www.defora.org/
@@ -13,9 +13,19 @@ LICENSE=	gnu-gpl-v3
 
 USE_TOOLS+=	pkg-config
 
+BUILD_DEPENDS+=	libxslt-[0-9]*:../../textproc/libxslt
+BUILD_DEPENDS+=	docbook-xsl-[0-9]*:../../textproc/docbook-xsl
+
 PKG_DESTDIR_SUPPORT=	user-destdir
 MAKE_FLAGS+=	PREFIX=${PREFIX}
 MAKE_FLAGS+=	DESTDIR=${DESTDIR}
+AUTO_MKDIRS=	yes
+
+post-install:
+	${MV} ${DESTDIR}${PREFIX}/share/man/man1/locker.1 ${DESTDIR}${PREFIX}/${PKGMANDIR}/man1/locker.1
+	${MV} ${DESTDIR}${PREFIX}/share/man/man1/lockerctl.1 ${DESTDIR}${PREFIX}/${PKGMANDIR}/man1/lockerctl.1
+	${RMDIR} ${DESTDIR}${PREFIX}/share/man/man1
+	${RMDIR} ${DESTDIR}${PREFIX}/share/man
 
 .include "options.mk"
 
