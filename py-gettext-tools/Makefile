@@ -2,13 +2,17 @@
 #
 
 PKGNAME=	${PYPKGPREFIX}-gettext-tools-0
+PKGREVISION=	1
 CATEGORIES=	databases
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.python.org/topics/database/
 COMMENT=	Python tools for development of I18N Python apps
 
+PKG_DESTDIR_SUPPORT=	user-destdir
+
 NO_BUILD=	yes
+AUTO_MKDIRS=	yes
 
 EXTRACT_ELEMENTS=		${PYSUBDIR}/Tools/i18n/*
 
@@ -23,7 +27,7 @@ do-patch:
 
 do-install:
 	for a in ${PYTHON_PATCH_SCRIPTS}; do \
-		${INSTALL_SCRIPT} ${WRKSRC}/$$a ${PREFIX}/bin/`${BASENAME} $$a`-${PYVERSSUFFIX}; \
+		${INSTALL_SCRIPT} ${WRKSRC}/$$a ${DESTDIR}${PREFIX}/bin/`${BASENAME} $$a`-${PYVERSSUFFIX}; \
 	done
 
 .include "../../lang/python/application.mk"
