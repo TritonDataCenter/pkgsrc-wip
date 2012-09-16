@@ -5,10 +5,10 @@ DISTNAME=	libxc-1.2.0
 CATEGORIES=	math
 MASTER_SITES=	http://www.tddft.org/programs/octopus/down.php?file=libxc/
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE
+MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	http://www.tddft.org/programs/octopus/wiki/index.php/Libxc
-COMMENT=	TODO: Short description of the package
-#LICENSE=	# TODO: (see mk/license.mk)
+COMMENT=	Libxc is the ETSF library of exchange-correlation functionals
+LICENSE=	gnu-lgpl-v3
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
