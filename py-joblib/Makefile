@@ -4,7 +4,7 @@
 DISTNAME=	joblib-0.6.4
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	devel python
-PKGREVISION=	1
+PKGREVISION=	2
 MASTER_SITES=	http://pypi.python.org/packages/source/j/joblib/
 
 MAINTAINER=	jihbed.research@gmail.com
