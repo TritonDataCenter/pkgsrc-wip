@@ -12,6 +12,8 @@ LICENSE=		${PERL5_LICENSE}
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
+USE_MULTIARCH=		lib
+
 #MAKE_PARAMS+=		--disable gif
 
 SUBST_CLASSES+=		ft1
