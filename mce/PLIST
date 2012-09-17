@@ -1,0 +1,4 @@
+@comment $NetBSD$
+include/mce/dbus-names.h
+include/mce/mode-names.h
+lib/pkgconfig/mce.pc
