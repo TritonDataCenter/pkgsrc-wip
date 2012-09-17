@@ -44,6 +44,7 @@ REPLACE_PYTHON+= \
 .include "../../devel/libgsf/buildlink3.mk"
 .include "../../graphics/exiv2/buildlink3.mk"
 .include "../../graphics/glew/buildlink3.mk"
+.include "../../graphics/lcms/buildlink3.mk"
 #.include "../../graphics/libkexiv2/buildlink3.mk"
 .include "../../graphics/libkdcraw/buildlink3.mk"
 .include "../../graphics/openjpeg/buildlink3.mk"
