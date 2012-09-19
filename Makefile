@@ -1545,6 +1545,7 @@ SUBDIR+=	marathon-evil
 SUBDIR+=	marathon-scenarios
 SUBDIR+=	marathon-tempus-irae
 SUBDIR+=	marsyas
+SUBDIR+=	mashpodder
 SUBDIR+=	matanza
 SUBDIR+=	mathopd
 SUBDIR+=	matiec
