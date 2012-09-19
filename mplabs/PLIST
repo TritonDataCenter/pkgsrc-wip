@@ -1,0 +1,6 @@
+@comment $NetBSD$
+bin/LL-2D-DGR
+bin/LL-2D-STD
+bin/ZSC-2D-DGR
+bin/ZSC-2D-STD
+share/doc/mplabs/mp-labs.pdf

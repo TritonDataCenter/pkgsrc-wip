@@ -1,23 +1,26 @@
 # $NetBSD$
 #
 
-DISTNAME=	libxc-1.0-alpha
-PKGNAME=	libxc-1.0
-CATEGORIES=	devel
-MASTER_SITES=	http://www.tddft.org/programs/octopus/download/
+DISTNAME=	libxc-1.2.0
+CATEGORIES=	math
+MASTER_SITES=	http://www.tddft.org/programs/octopus/down.php?file=libxc/
 
 MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	http://www.tddft.org/programs/octopus/wiki/index.php/Libxc
 COMMENT=	Libxc is the ETSF library of exchange-correlation functionals
-#LICENSE=	# TODO: (see mk/license.mk)
+LICENSE=	gnu-lgpl-v3
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
 GNU_CONFIGURE=	yes
-USE_TOOLS+=	gmake perl
-USE_LANGUAGES=	c fortran77
+USE_LIBTOOL=	yes
+USE_TOOLS+=	gmake pkg-config perl
+USE_LANGUAGES=	c fortran
+
 
 REPLACE_PERL+=	src/get_funcs.pl
-CONFIGURE_ARGS+=	--disable-fortran
+
+
+PKGCONFIG_OVERRIDE+=	build/libxc.pc.in
 
 .include "../../mk/bsd.pkg.mk"

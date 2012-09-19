@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	PyKCS11-1.2.4
+PKGREVISION=	1
 CATEGORIES=	wip
 MASTER_SITES=	http://garr.dl.sourceforge.net/project/pkcs11wrap/pykcs11/pykcs11-1.2.4/
 

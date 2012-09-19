@@ -1,23 +1,23 @@
 # $NetBSD$
 #
 
-DISTNAME=	xombrero-1.3.0-5
-PKGNAME=	xombrero-1.3.0
+DISTNAME=	xombrero-1.3.1
+#PKGNAME=	xombrero-1.3.1
 CATEGORIES=	www
-MASTER_SITES=	http://www.zcraft.fr/data/
+MASTER_SITES=	https://opensource.conformal.com/snapshots/xombrero/
 
 MAINTAINER=	charles.rapenne@gmail.com
 HOMEPAGE=	https://opensource.conformal.com/wiki/xombrero
 COMMENT=	Light webkit browser with vi style
 LICENSE=	isc
+FETCH_USING=	curl
+EXTRACT_SUFX=	.tgz
 
 ONLY_FOR_PLATFORM= DragonFly-*-* NetBSD-*-*
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 NO_CONFIGURE= yes
 USE_TOOLS+= perl
-
-WRKSRC= ${WRKDIR}/xombrero
 
 .include "../../mk/bsd.prefs.mk"
 .if ${OPSYS} == "DragonFly"
