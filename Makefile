@@ -2640,7 +2640,6 @@ SUBDIR+=	py-tappy
 SUBDIR+=	py-tashaphyne
 SUBDIR+=	py-tasphyne
 SUBDIR+=	py-telepathy
-SUBDIR+=	py-tempita
 SUBDIR+=	py-teng
 SUBDIR+=	py-texml
 SUBDIR+=	py-theano
