@@ -2082,6 +2082,7 @@ SUBDIR+=	pcp
 SUBDIR+=	pcsx
 SUBDIR+=	pcsx-df
 SUBDIR+=	pcsx2
+SUBDIR+=	pcsxr
 SUBDIR+=	pdb2ldif
 SUBDIR+=	pdf2svg
 SUBDIR+=	pdfedit
