@@ -19,8 +19,6 @@ USE_PKGLOCALEDIR=	yes
 USE_LANGUAGES=		c c++
 USE_LIBTOOL=		yes
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 # Let's kick it up a notch!
 
 CONFIGURE_ARGS+= --enable-gconf

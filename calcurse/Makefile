@@ -10,8 +10,6 @@ HOMEPAGE=	http://calcurse.org/
 COMMENT=	Text based calendar and scheduling application
 LICENSE=	2-clause-bsd
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_TOOLS+=	gmake msgfmt msgmerge xgettext
 GNU_CONFIGURE=	yes
 

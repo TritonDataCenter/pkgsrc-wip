@@ -14,7 +14,6 @@ LICENSE=        modified-bsd
 DEPENDS+=	${LISP_PREFIX}-ppcre-[0-9]*:../../wip/cl-ppcre
 DEPENDS+=	${LISP_PREFIX}-flexi-streams-[0-9]*:../../wip/cl-flexi-streams
 
-PKG_DESTDIR_SUPPORT=	user-destdir
 WRKSRC=			${WRKDIR}/${DISTNAME}-${VERSION}
 COMMON_LISP_DOCFILES=	CHANGELOG.txt doc/index.html
 

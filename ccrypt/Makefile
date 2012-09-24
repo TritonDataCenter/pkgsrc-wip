@@ -10,8 +10,6 @@ HOMEPAGE=	http://www.mathstat.dal.ca/~selinger/ccrypt/
 COMMENT=	Encrypts/decrypts files using Rijndael block cipher
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=		yes
 USE_TOOLS=		perl intltool
 USE_PKGLOCALEDIR=	yes

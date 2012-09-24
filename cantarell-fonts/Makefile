@@ -11,8 +11,6 @@ HOMEPAGE=	http://live.gnome.org/CantarellFonts
 COMMENT=	Contemporary Humanist sans serif designed for on-screen reading
 LICENSE=	open-font-license
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_X11BASE=	YES
 NO_CONFIGURE=	YES
 NO_BUILD=	YES

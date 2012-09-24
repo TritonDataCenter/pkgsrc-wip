@@ -11,8 +11,6 @@ HOMEPAGE=		http://csstidy.sourceforge.net/
 COMMENT=		Opensource CSS parser
 LICENSE=		gnu-lgpl-v2.1
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=			${WRKDIR}
 NO_CONFIGURE=		yes
 USE_TOOLS+=		sh gmake

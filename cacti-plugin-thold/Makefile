@@ -20,8 +20,6 @@ DEPENDS+=		cacti-plugin-settings-[0-9]*:../../wip/cacti-plugin-settings
 
 USE_TOOLS+=		gtar
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 CACTIDIR=		${PREFIX}/share/cacti
 PLUGINDIR=		${CACTIDIR}/plugins/thold
 

@@ -15,7 +15,6 @@ DEPENDS+=	${LISP_PREFIX}-alexandria-*:../../wip/cl-alexandria
 DEPENDS+=	${LISP_PREFIX}-trivial-features-*:../../wip/cl-trivial-features
 DEPENDS+=	${LISP_PREFIX}-trivial-gray-streams-*:../../wip/cl-trivial-gray-streams
 
-PKG_DESTDIR_SUPPORT=	user-destdir
 WRKSRC=			${WRKDIR}/${DISTNAME}
 COMMON_LISP_PACKAGES=	${SHORTNAME} ${SHORTNAME}-streams
 COMMON_LISP_DOCFILES=	README COPYRIGHT HEADER NOTES

@@ -16,8 +16,6 @@ MAINTAINER=	makoto@ki.nu
 HOMEPAGE=	http://www.cygwin.com/
 COMMENT=	GNU binutils ported to Win32/Cygwin environment
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 USE_CROSSBASE=		yes

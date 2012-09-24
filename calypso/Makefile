@@ -11,8 +11,6 @@ LICENSE=	gnu-gpl-v3
 DEPENDS+=	${PYPKGPREFIX}-vobject>=0.8.1c:../../textproc/py-vobject
 DEPENDS+=	scmgit-base-[0-9]*:../../devel/scmgit-base
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GIT_REPOSITORIES=	calypso
 GIT_REPO.calypso=	git://keithp.com/git/calypso.git
 

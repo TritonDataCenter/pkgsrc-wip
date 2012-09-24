@@ -13,8 +13,6 @@ LICENSE=	gnu-gpl-v2
 
 #USE_TOOLS+=	gmake
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 CONFGURE_ARGS+=	--with-GLU
 
 GNU_CONFIGURE=	yes

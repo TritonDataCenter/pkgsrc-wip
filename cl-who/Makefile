@@ -12,7 +12,6 @@ HOMEPAGE=	http://weitz.de/cl-who/
 COMMENT=        CL-WHO - Yet another Lisp markup language
 LICENSE=        modified-bsd
 
-PKG_DESTDIR_SUPPORT=	user-destdir
 WRKSRC=			${WRKDIR}/${DISTNAME}-${VERSION}
 COMMON_LISP_DOCFILES=	CHANGELOG doc/index.html
 

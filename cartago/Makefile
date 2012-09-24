@@ -11,8 +11,6 @@ HOMEPAGE=	http://alice.unibo.it/xwiki/bin/view/CARTAGO/
 COMMENT= Framework for programming and executing environments in multi-agent
 #LICENSE=	# TODO: (see mk/license.mk)
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_TOOLS+=	pax
 NO_BUILD=	yes
 USE_LANGUAGES=	# none

@@ -18,7 +18,7 @@ WRKSRC=	${WRKDIR}/cpdup
 INSTALLATION_DIRS=	bin ${PKGMANDIR}/man1
 
 do-install:
-	${INSTALL_PROGRAM} ${WRKSRC}/cpdup ${PREFIX}/bin
-	${INSTALL_MAN} ${WRKSRC}/cpdup.1 ${PREFIX}/${PKGMANDIR}/man1
+	${INSTALL_PROGRAM} ${WRKSRC}/cpdup ${DESTDIR}${PREFIX}/bin
+	${INSTALL_MAN} ${WRKSRC}/cpdup.1 ${DESTDIR}${PREFIX}/${PKGMANDIR}/man1
 
 .include "../../mk/bsd.pkg.mk"

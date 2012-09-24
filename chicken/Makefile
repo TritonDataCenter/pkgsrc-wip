@@ -10,8 +10,6 @@ HOMEPAGE=	http://www.call-cc.org/
 COMMENT=	Scheme to C compiler, handling R5RS (development snapshot)
 LICENSE=	modified-bsd
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 MAKE_JOBS_SAFE=		no
 
 USE_LIBTOOL=		yes

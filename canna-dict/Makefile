@@ -4,8 +4,6 @@ CANNA_MODULE=	dict
 
 MAKE_JOBS_SAFE=	no
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 .include "../../wip/canna/Makefile.common"
 
 BUILD_DEPENDS+=	Canna-server>=${CANNA_VERSION}:../../wip/canna-server

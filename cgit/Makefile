@@ -13,8 +13,6 @@ LICENSE=	gnu-gpl-v2
 
 BUILD_DEPENDS+=	curl>=7.19.2:../../www/curl
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 MAKE_JOBS_SAFE=		no
 
 USE_TOOLS+=		gmake

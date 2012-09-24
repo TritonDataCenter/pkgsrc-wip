@@ -11,8 +11,6 @@ HOMEPAGE=		http://common-lisp.net/project/clfswm/
 COMMENT=		A(nother) Common Lisp FullScreen Window Manager
 LICENSE=		gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 HAS_CONFIGURE=		yes
 INSTALL_UNSTRIPPED=	yes
 # clisp-core linking set, until CLISP 2.50 release

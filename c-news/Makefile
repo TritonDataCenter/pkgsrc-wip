@@ -34,6 +34,8 @@ LICENSE_FILE=	c-news-license
 # Not yet 64 bit time_t safe
 NOT_FOR_PLATFORM=	NetBSD-5.99.*-* NetBSD-[6-9]*-*
 
+PKG_DESTDIR_SUPPORT=	none
+
 CONFLICTS+=	nntpclnt-[0-9]* inn-[0-9]*
 
 WRKSRC=		${WRKDIR}

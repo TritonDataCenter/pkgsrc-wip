@@ -13,7 +13,6 @@ COMMENT=        Portable shared-state concurrency for Common Lisp
 LICENSE=        public-domain
 DEPENDS+=	${LISP_PREFIX}-alexandria-[0-9]*:../../wip/cl-alexandria
 
-PKG_DESTDIR_SUPPORT=	user-destdir
 WRKSRC=			${WRKDIR}/${SHORTNAME}-${VERSION}
 COMMON_LISP_DOCFILES=	LICENSE CONTRIBUTORS site/index.html site/style.css
 

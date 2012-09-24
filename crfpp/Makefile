@@ -11,8 +11,6 @@ HOMEPAGE=	http://crfpp.sourceforge.net/
 COMMENT=	Yet Another CRF toolkit
 LICENSE=	gnu-lgpl-v2.1 modified-bsd
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_LANGUAGES=	c c++

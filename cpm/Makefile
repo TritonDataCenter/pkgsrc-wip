@@ -11,6 +11,8 @@ MAINTAINER=	shattered@users.sourceforge.net
 HOMEPAGE=	http://www.harry-b.de/dokuwiki/doku.php?id=harry:cpm
 COMMENT=	Console Password Manager
 
+PKG_DESTDIR_SUPPORT=	none
+
 WRKSRC=			${WRKDIR}/cpm-0.22beta
 GNU_CONFIGURE=		yes
 CONFIGURE_ARGS+=	--with-crack-dict=${PREFIX}/libdata/pw_dict

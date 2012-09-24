@@ -11,8 +11,6 @@ MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	http://math.univ-lyon1.fr/~ducloux/coxeter/coxeter3/english/coxeter3_e.html
 COMMENT=	Computer program for the study of Coxeter group theory
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 MAKE_FILE=	makefile
 USE_TOOLS+=	gmake
 USE_LANGUAGES=	c++

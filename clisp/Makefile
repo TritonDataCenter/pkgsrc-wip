@@ -22,8 +22,6 @@ NOT_FOR_PLATFORM+=	*-*-arm
 
 PKG_INSTALLATION_TYPES= overwrite pkgviews
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 MAKE_JOBS_SAFE=		no
 
 GNU_CONFIGURE=		yes

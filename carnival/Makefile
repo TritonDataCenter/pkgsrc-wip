@@ -12,8 +12,6 @@ HOMEPAGE=		http://carnival.sourceforge.net/
 COMMENT=		GUI for Festival
 LICENSE=		gnu-gpl-v1
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=			${WRKDIR}/
 USE_LANGUAGES=  	c++
 USE_TOOLS+=     	gmake

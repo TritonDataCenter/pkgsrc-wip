@@ -11,8 +11,6 @@ HOMEPAGE=		http://cclive.sourceforge.net/
 COMMENT=		Command line video extraction tool for user-uploaded video hosts
 LICENSE=		gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=		c++ c
 USE_TOOLS+=		pkg-config
 GNU_CONFIGURE=		yes

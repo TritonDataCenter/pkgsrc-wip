@@ -12,8 +12,6 @@ HOMEPAGE=	http://classgen.sourceforge.net/
 COMMENT=	Java tool to generate class frameworks and visitor patterns
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/classgen-1.4
 
 USE_JAVA=	run

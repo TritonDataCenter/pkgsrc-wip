@@ -11,8 +11,6 @@ HOMEPAGE=	http://www.ifor.math.ethz.ch/~fukuda/cdd_home/
 COMMENT=	Library for finding vertices of convex polytopes
 LICENSE=		gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_TOOLS+=	gmake
 

@@ -6,8 +6,6 @@ CANNA_MODULE=	canuum
 
 MAINTAINER=		pkgsrc-users@NetBSD.org
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 INSTALLATION_DIRS=	${PKGMANDIR}/ja_JP.EUC/man1
 
 CONFIGURE_DIRS=	. canuum

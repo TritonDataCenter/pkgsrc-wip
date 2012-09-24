@@ -11,8 +11,6 @@ HOMEPAGE=	http://conky.sourceforge.net/
 COMMENT=	Free, light-weight system monitor for X
 LICENSE=	gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_TOOLS+=	pkg-config aclocal autoconf autoheader automake

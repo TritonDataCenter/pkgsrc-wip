@@ -11,8 +11,6 @@ HOMEPAGE=	http://users.ecs.soton.ac.uk/mjb/csp2B/
 COMMENT=	The csp2B Tool written in Moscow ML
 #LICENSE=	LICENSE
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=	${WRKDIR}/${DISTNAME}
 
 DEPENDS+=	moscow_ml>=2.01:../../lang/moscow_ml

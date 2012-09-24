@@ -11,8 +11,6 @@ HOMEPAGE=	http://www.monkeymental.com/
 COMMENT=	Cisco Discovery Protocol Reporter
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 BUILD_TARGET=		cdpr
 
 INSTALLATION_DIRS=	bin

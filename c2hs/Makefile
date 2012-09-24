@@ -11,8 +11,6 @@ HOMEPAGE=	http://www.cse.unsw.edu.au/~chak/haskell/c2hs/
 COMMENT=	C->Haskell, an Interface Generator for Haskell
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 EGDIR=		${PREFIX}/share/examples/${PKGBASE}
 
 do-configure:

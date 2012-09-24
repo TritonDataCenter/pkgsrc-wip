@@ -11,8 +11,6 @@ COMMENT=	CiWiki is a small and simple WikiWikiWeb implementation written in C
 
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 #WRKSRC=		${WRKDIR}/ciwiki-1.6.0 # 1.6.1 archive is broken.
 
 DOCSDIR=	${PREFIX}/share/doc/${PKGBASE}

@@ -12,7 +12,6 @@ HOMEPAGE=	http://www.cliki.net/trivial-gray-streams
 COMMENT=        Trivial-gray-streams is a compatibility layer for Gray streams
 LICENSE=        mit
 
-PKG_DESTDIR_SUPPORT=	user-destdir
 WRKSRC=			${WRKDIR}/${DISTNAME}
 COMMON_LISP_DOCFILES=	README COPYING
 

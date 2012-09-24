@@ -12,7 +12,6 @@ HOMEPAGE=	http://www.cliki.net/SPLIT-SEQUENCE
 COMMENT=        Common Lisp utility to split sequences
 LICENSE=        public-domain
 
-PKG_DESTDIR_SUPPORT=	user-destdir
 WRKSRC=			${WRKDIR}/${DISTNAME}
 
 .include "options.mk"

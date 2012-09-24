@@ -12,7 +12,6 @@ HOMEPAGE=	http://www.cliki.net/trivial-features
 COMMENT=        Trivial-features ensures consistent *FEATURES* in Common Lisp
 LICENSE=        mit
 
-PKG_DESTDIR_SUPPORT=	user-destdir
 WRKSRC=			${WRKDIR}/${DISTNAME}
 COMMON_LISP_DOCFILES=	README COPYRIGHT
 

@@ -9,8 +9,6 @@ HOMEPAGE=	http://llvm.org/
 COMMENT=	Low Level Virtual Machine compiler infrastructure
 LICENSE=	modified-bsd
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES+=	c c++
 USE_TOOLS+=	gmake perl:build chown
 GNU_CONFIGURE=	yes

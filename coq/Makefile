@@ -11,8 +11,6 @@ HOMEPAGE=		http://coq.inria.fr/
 COMMENT=		Coq is a formal proof management system
 LICENSE=		gnu-lgpl-v2.1
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 .include "options.mk"
 
 HAS_CONFIGURE=		yes

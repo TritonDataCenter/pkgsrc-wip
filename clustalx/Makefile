@@ -12,7 +12,6 @@ COMMENT=	General purpose multiple alignment program for DNA or proteins (X11)
 LICENSE=	clustal-license
 
 PKG_INSTALLATION_TYPES=	overwrite pkgviews
-PKG_DESTDIR_SUPPORT=	user-destdir
 
 USE_LANGUAGES+=		c++
 MESSAGE_SUBST+=		PREFIX=${PREFIX}

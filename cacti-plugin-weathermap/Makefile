@@ -18,8 +18,6 @@ NO_BUILD=		yes
 
 DEPENDS+=		cacti>=0.8.7h:../../net/cacti
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 CACTI_USER?=		cacti
 CACTI_GROUP?=		cacti
 

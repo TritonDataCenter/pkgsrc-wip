@@ -23,8 +23,6 @@ FETCH_USING=		curl
 USE_CMAKE=      yes
 USE_LANGUAGES=  c c++
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 .include "../../graphics/glu/buildlink3.mk"
 .include "../../math/mpfr/buildlink3.mk"
 .include "../../math/blas/buildlink3.mk"

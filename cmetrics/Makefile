@@ -10,8 +10,6 @@ HOMEPAGE=	http://tools.libresoft.es/cmetrics
 COMMENT=	Size and complexity metrics for C source code files
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_TOOLS+=	flex
 

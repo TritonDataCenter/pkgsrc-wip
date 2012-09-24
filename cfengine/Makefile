@@ -1,6 +1,8 @@
 # $NetBSD: Makefile,v 1.15 2005/09/22 02:08:14 minskim Exp $
 # $Id$
 
+PKG_DESTDIR_SUPPORT=	none
+
 .include "Makefile.common"
 
 PKGREVISION=		3

@@ -10,13 +10,10 @@ HOMEPAGE=	http://embed.cs.utah.edu/csmith/
 COMMENT=	Random generator of C programs
 LICENSE=	modified-bsd
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_TOOLS+=	gm4 gmake perl
 USE_LANGUAGES=	c c++
 
 REPLACE_PERL+=	scripts/compiler_test.pl scripts/launchn.pl scripts/test_csmith.pl \
-					
 
 .include "../../mk/bsd.pkg.mk"

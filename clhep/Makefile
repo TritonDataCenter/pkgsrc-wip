@@ -11,8 +11,6 @@ HOMEPAGE=	http://proj-clhep.web.cern.ch/proj-clhep/
 COMMENT=	Class library for high energy physics
 LICENSE=	gnu-gpl-v3 gnu-lgpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 TMPEXT_DIR=	${WRKDIR}/${PKGVERSION_NOREV}/CLHEP
 AUTOCONF_REQD=	2.59
 USE_TOOLS+=	aclocal autoconf automake gmake perl

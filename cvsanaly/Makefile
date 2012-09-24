@@ -13,8 +13,6 @@ LICENSE=	gnu-gpl-v2
 DEPENDS+=	${PYPKGPREFIX}-mysqldb-[0-9]*:../../databases/py-mysqldb
 DEPENDS+=	scmgit>=1.7.0.5:../../devel/scmgit
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_TOOLS+=	pkg-config
 USE_LANGUAGES=	# none
 PYDISTUTILSPKG=	yes
