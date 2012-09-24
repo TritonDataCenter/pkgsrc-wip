@@ -17,7 +17,7 @@ REPLACE_PERL+=		*.pl
 do-install:
 	set -e;								\
 	cd ${WRKSRC:Q} && for f in *.pl; do				\
-		${INSTALL_SCRIPT} "./$$f" ${PREFIX:Q}/bin/;		\
+		${INSTALL_SCRIPT} "./$$f" ${DESTDIR}${PREFIX:Q}/bin/;		\
 	done
 
 .include "../../mk/bsd.pkg.mk"
