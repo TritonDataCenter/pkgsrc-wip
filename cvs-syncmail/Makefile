@@ -17,7 +17,7 @@ NO_BUILD=		yes
 PYTHON_PATCH_SCRIPTS=	syncmail
 
 do-install:
-	${INSTALL_SCRIPT} ${WRKSRC}/syncmail ${PREFIX}/bin/cvs-syncmail
+	${INSTALL_SCRIPT} ${WRKSRC}/syncmail ${DESTDIR}${PREFIX}/bin/cvs-syncmail
 
 .include "../../lang/python/application.mk"
 .include "../../mk/bsd.pkg.mk"
