@@ -11,8 +11,6 @@ HOMEPAGE=		http://www.pentest.co.uk/cgi-bin/viewcat.cgi?cat=downloads
 COMMENT=		Bluetooth device information viewer
 LICENSE=		gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 

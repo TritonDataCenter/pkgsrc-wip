@@ -10,8 +10,6 @@ HOMEPAGE=		http://boinc.berkeley.edu/
 COMMENT=		Middleware system for volunteer and grid computing
 LICENSE=		gnu-lgpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 # Get it from Subversion repository:
 SVN_REPOSITORIES=	boinc
 SVN_ROOT.boinc=		http://boinc.berkeley.edu/svn/tags/boinc_core_release_6_10_50

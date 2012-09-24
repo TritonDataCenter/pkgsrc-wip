@@ -11,7 +11,6 @@ HOMEPAGE=		http://briquolo.free.fr/en/
 COMMENT=		3D breakout based on OpenGL
 LICENSE=		gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
 INSTALLATION_DIRS+=	share/applications share/briquolo/data/.xvpics
 INSTALLATION_DIRS+=	share/pixmaps
 

@@ -11,8 +11,6 @@ HOMEPAGE=	http://www.beanshell.org/
 COMMENT=	Java scripting environment
 LICENSE=	spl-1.0 AND gnu-lgpl-v2.1
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}
 
 PKG_JVMS_ACCEPTED= sun-jdk6 sun-jdk15 sun-jdk14

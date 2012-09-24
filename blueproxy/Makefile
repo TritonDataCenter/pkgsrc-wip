@@ -10,8 +10,6 @@ HOMEPAGE=		http://anil.recoil.org/projects/blueproxy.html
 COMMENT=		RFCOMM <-> TCP proxy
 #LICENSE=		# TODO
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 

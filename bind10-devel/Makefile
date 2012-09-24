@@ -10,8 +10,6 @@ HOMEPAGE=	http://www.isc.org/bind10
 COMMENT=	ISC Bind 10 devel-20120119 (snapshot #19)
 LICENSE=	isc
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 PYTHON_VERSIONS_ACCEPTED=	31
 PYTHON_VERSIONS_INCLUDE_3X=	yes
 

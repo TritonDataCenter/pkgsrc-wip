@@ -11,6 +11,8 @@ HOMEPAGE=		http://biopython.org/
 COMMENT=		Python libraries for computational molecular biology
 LICENSE=		Biopython
 
+PKG_DESTDIR_SUPPORT=	none
+
 PY_PATCHPLIST=		YES
 PYDISTUTILSPKG=		YES
 NO_CONFIGURE=		YES

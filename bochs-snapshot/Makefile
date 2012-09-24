@@ -9,8 +9,6 @@ HOMEPAGE=		http://bochs.sourceforge.net/
 COMMENT=		IA32 and AMD64 PC emulator
 LICENSE=		gnu-lgpl-v2.1
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=		yes
 USE_TOOLS+=		gmake
 USE_TOOLS+=		gunzip gzip

@@ -17,8 +17,6 @@ GNU_CONFIGURE=		yes
 USE_TOOLS+=		gmake flex bison
 USE_GNU_READLINE=	yes
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 CONFIGURE_ARGS+=	--localstatedir=/var
 BIRD6?=			# empty
 PLIST_SUBST+=		BIRD6=${BIRD6}

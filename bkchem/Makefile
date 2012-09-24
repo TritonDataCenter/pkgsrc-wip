@@ -11,8 +11,6 @@ HOMEPAGE=	http://bkchem.zirael.org/
 COMMENT=	Python based chemical structures editor
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 DEPENDS+=	${PYPKGPREFIX}-Pmw>=1.3.2:../../x11/py-Pmw
 
 USE_PKGLOCALEDIR=	yes

@@ -12,8 +12,6 @@ HOMEPAGE=		http://bioruby.org/
 COMMENT=		Intergrated environment for Bioinformatics using Ruby
 LICENSE=		gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_RUBY=		yes
 USE_RUBY_EXTCONF=	yes
 REPLACE_RUBY_DIRS=	${WRKSRC}/bin ${WRKSRC}/sample

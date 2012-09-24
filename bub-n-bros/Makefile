@@ -11,8 +11,6 @@ HOMEPAGE=		http://bub-n-bros.sourceforge.net/
 COMMENT=		Multiplayer crazy clone of Bubble Bobble
 LICENSE=		mit
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 PY_PATCHPLIST=		yes
 PYTHON_VERSIONS_INCOMPATIBLE+=	25
 

@@ -12,8 +12,6 @@ LICENSE=	gnu-gpl-v2
 
 NO_CONFIGURE=	yes
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=	${WRKDIR}/${PKGBASE}
 
 PKG_OPTIONS_VAR=	PKG_OPTIONS.bogomips

@@ -9,8 +9,6 @@ COMMENT=	Supported plugins for the Beryl compositor
 
 .include "../../wip/beryl/Makefile.inc"
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_PKGLOCALEDIR=	yes
 
 USE_TOOLS+=	perl

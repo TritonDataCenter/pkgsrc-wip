@@ -17,8 +17,6 @@ RUBY_VERSION_SUPPORTED=	18
 NO_BUILD=	yes
 REPLACE_RUBY=	bsfilter/bsfilter
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 INSTALLATION_DIRS=	bin \
 			share/examples/bsfilter/mda/maildrop \
 			share/examples/bsfilter/mda/procmail \

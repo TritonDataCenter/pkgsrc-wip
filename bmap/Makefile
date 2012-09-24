@@ -11,8 +11,6 @@ COMMENT=			Forensic tool to perform low-level operations on ext2 filesystems
 
 USE_TOOLS+= gmake
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/bmap ${DESTDIR}${PREFIX}/bin/
 	${INSTALL_PROGRAM} ${WRKSRC}/slacker ${DESTDIR}${PREFIX}/bin/

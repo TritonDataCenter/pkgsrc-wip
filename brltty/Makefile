@@ -11,8 +11,6 @@ HOMEPAGE=		http://www.mielke.cc/brltty/
 COMMENT=		Access software for a blind person using a soft braille terminal
 LICENSE=		gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 

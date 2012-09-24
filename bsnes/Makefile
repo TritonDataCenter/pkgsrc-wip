@@ -12,8 +12,6 @@ HOMEPAGE=	http://www.byuu.org/bsnes/
 COMMENT=	SNES emulator
 LICENSE=	gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	c c++
 USE_TOOLS+=	gmake pkg-config
 MAKE_FLAGS+=	platform=x compiler=gcc enable_gzip=true

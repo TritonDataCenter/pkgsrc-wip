@@ -9,8 +9,6 @@ MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.hypertriton.com/bsdbuild/
 COMMENT=	BSD-licensed portable build system
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 HAS_CONFIGURE=	yes
 USE_LANGUAGES=	# none
 USE_LIBTOOL=	yes

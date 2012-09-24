@@ -12,8 +12,6 @@ LICENSE=		gnu-gpl-v2
 
 USE_LANGUAGES=		c
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 

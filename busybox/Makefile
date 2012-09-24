@@ -10,8 +10,6 @@ HOMEPAGE=	http://www.busybox.net/
 COMMENT=	The Swiss Army Knife of Embedded Linux
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 ONLY_FOR_PLATFORM=	Linux-*-*
 # See crunchgen(1) on BSD-systems for similar functionality.
 

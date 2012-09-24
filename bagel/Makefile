@@ -9,8 +9,6 @@ MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	http://www2.ph.ed.ac.uk/~paboyle/bagel/
 COMMENT=	Domain specific compiler for lattice QCD
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_LANGUAGES=	c++
 

@@ -11,8 +11,6 @@ MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.le-web.org/back-in-time/
 COMMENT=	Simple backup system for the GNOME desktop
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 DEPENDS+=	${PYPKGPREFIX}-gnome2-[0-9]*:../../x11/py-gnome2
 DEPENDS+=	rsync-[0-9]*:../../net/rsync
 

@@ -24,8 +24,6 @@ SUBST_MESSAGE.prefix=	Fixing prefixes.
 SUBST_FILES.prefix=	bnr2
 SUBST_SED.prefix=	-e "s|@PREFIX@|${PREFIX}|g"
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 post-extract:
 	${CP} ${FILESDIR}/bnr2 ${WRKSRC}/bnr2
 

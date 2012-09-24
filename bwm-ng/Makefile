@@ -10,8 +10,6 @@ HOMEPAGE=		http://www.gropp.org/?id=projects&sub=bwm-ng
 COMMENT=		Console-based bandwidth monitor
 LICENSE=		gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 

@@ -11,7 +11,6 @@ COMMENT?=		Run the Boost test suite
 LICENSE=		boost-license
 
 PKG_INSTALLATION_TYPES=	overwrite pkgviews
-PKG_DESTDIR_SUPPORT=	user-destdir
 
 USE_TOOLS+=		ftp pax patch
 

@@ -11,8 +11,6 @@ HOMEPAGE=	http://code.google.com/p/bunny-the-fuzzer/
 COMMENT=	Tools with C code security fuzzer
 LICENSE=	apache-2.0
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=	${WRKDIR}/bunny
 USE_TOOLS+=	gmake
 
