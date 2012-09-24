@@ -10,8 +10,6 @@ HOMEPAGE=	http://alleg.sourceforge.net/
 COMMENT=	Allegro game programming library
 #LICENSE=	# TODO: (see mk/license.mk)
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_CMAKE=	yes
 USE_TOOLS+=	pkg-config makeinfo
 USE_LANGUAGES=	c c++

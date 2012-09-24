@@ -11,8 +11,6 @@ HOMEPAGE=	http://commons.apache.org/codec/
 COMMENT=	Encoder and decoders such as Base64 and hexadecimal codec
 LICENSE=	apache-2.0
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/commons-codec-1.4
 
 NO_BUILD=	yes

@@ -14,6 +14,8 @@ ARMAD_VER=	0.2.8.2.1
 MAINTAINER=	adam.hoka@gmail.com
 HOMEPAGE=	http://armagetronad.sourceforge.net/
 
+PKG_DESTDIR_SUPPORT=	none
+
 WRKSRC=		${WRKDIR}/armagetronad-0.2.8.2.1
 GNU_CONFIGURE=	yes
 USE_LANGUAGES=	c c++

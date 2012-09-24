@@ -11,8 +11,6 @@ HOMEPAGE=		http://mot-adms.sourceforge.net/
 COMMENT=		Verilog to C code compiler
 LICENSE=		gnu-lgpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=		yes
 USE_TOOLS+=		gmake bison flex autoconf automake autoreconf
 USE_LIBTOOL=		yes

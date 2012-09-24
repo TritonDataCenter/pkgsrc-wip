@@ -11,8 +11,6 @@ HOMEPAGE=	http://commons.apache.org/logging/
 COMMENT=	Commmon wrapper interface for several logging APIs
 LICENSE=	apache-2.0
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/commons-logging-1.1.1
 
 NO_BUILD=	yes

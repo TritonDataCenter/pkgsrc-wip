@@ -10,6 +10,8 @@ MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.NetBSD.org/support/security/
 COMMENT=	Check the NetBSD base OS for known vulnerabilities
 
+PKG_DESTDIR_SUPPORT=	none
+
 WRKSRC=		${WRKDIR}
 NO_BUILD=	yes
 USE_LANGUAGES=	# none

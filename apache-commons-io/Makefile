@@ -11,8 +11,6 @@ HOMEPAGE=	http://commons.apache.org/io/
 COMMENT=	Common useful IO related classes
 LICENSE=	apache-2.0
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/commons-io-1.4
 
 USE_TOOLS+=	pax

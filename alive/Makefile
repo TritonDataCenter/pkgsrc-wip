@@ -10,8 +10,6 @@ HOMEPAGE=	http://www.gnu.org/software/alive/
 COMMENT=	Login software for Swedish Telia ADSL/Comhem cable Internet users
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 AUTOMAKE_REQD=	1.7.1
 MANCOMPRESSED=	yes
 GNU_CONFIGURE=	yes

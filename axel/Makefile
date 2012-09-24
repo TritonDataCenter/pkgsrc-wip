@@ -9,8 +9,6 @@ MAINTAINER=		alchow@users.sourceforge.net
 HOMEPAGE=		http://wilmer.gaast.net/downloads/
 COMMENT=		HTTP/FTP download accelerator
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 HAS_CONFIGURE=		yes
 USE_TOOLS+=		gmake
 CONFIGURE_ARGS+=	--prefix=${PREFIX:Q}

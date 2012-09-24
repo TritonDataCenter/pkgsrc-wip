@@ -11,8 +11,6 @@ HOMEPAGE=	https://live.gnome.org/Aravis
 COMMENT=	vision library for genicam based cameras
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_TOOLS+=	intltool gmake pkg-config

@@ -9,6 +9,8 @@ MAINTAINER=		ola@mreriksson.net
 HOMEPAGE=		http://www.stacken.kth.se/project/arla/
 COMMENT=		Free AFS implementation from KTH
 
+PKG_DESTDIR_SUPPORT=	none
+
 CONFLICTS+=		heimdal-[0-9]*
 CONFLICTS+=		lwp-[0-9]*
 CONFLICTS+=		openafs-[0-9]*

@@ -11,8 +11,6 @@ HOMEPAGE=	http://commons.apache.org/collections/
 COMMENT=	Set of abstract data type interfaces and implementations
 LICENSE=	apache-2.0
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/commons-collections-3.2.1
 
 NO_BUILD=	yes

@@ -11,8 +11,6 @@ HOMEPAGE=	http://tangent.org/362/mod_layout.html
 COMMENT=	Apache2 module to wrap served pages with a header and/or footer
 LICENSE=	apache-2.0
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LIBTOOL=	yes
 APACHE_MODULE=	yes
 

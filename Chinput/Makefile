@@ -11,6 +11,8 @@ MAINTAINER=	rxg@NetBSD.org
 HOMEPAGE=	http://www.opencjk.org/~yumj/project-chinput.html
 COMMENT=	Chinese input server
 
+PKG_DESTDIR_SUPPORT=	none
+
 USE_X11BASE=	yes
 
 BUILD_TARGET=	chinput

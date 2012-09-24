@@ -11,8 +11,6 @@ COMMENT= Projector Augmented Wave code for electronic structure calculations
 LICENSE=	gnu-gpl-v3
 
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 CHECK_PORTABILITY_SKIP= configure
 GNU_CONFIGURE=	yes
 USE_LIBTOOL= yes

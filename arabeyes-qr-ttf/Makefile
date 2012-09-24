@@ -12,8 +12,6 @@ MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	http://garr.dl.sourceforge.net/project/arabeyes/Quran/Fonts/
 COMMENT=	Fonts to be used to display the Qur\'an text
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=	${WRKDIR}
 USE_LANGUAGES=	# none
 

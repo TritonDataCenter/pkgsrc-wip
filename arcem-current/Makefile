@@ -6,8 +6,6 @@ CATEGORIES=	emulators
 MASTER_SITES=	http://ryo-on.users.sourceforge.net/distrib/
 EXTRACT_SUFX=	.tar.bz2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 INSTALLATION_DIRS=	bin \
 			share/${PKGBASE}
 

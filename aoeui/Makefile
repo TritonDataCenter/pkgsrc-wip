@@ -11,8 +11,6 @@ HOMEPAGE=	http://code.google.com/p/aoeui/
 COMMENT=	Lightweight text editor optimized for Dvorak
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_TOOLS+=	m4
 
 BUILD_TARGET= default

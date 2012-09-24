@@ -11,8 +11,6 @@ HOMEPAGE=	http://audacious-media-player.org/
 COMMENT=	Plugins for Audacious media player
 #LICENSE=	# TODO: (see mk/license.mk)
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=  c c++
 GNU_CONFIGURE=  yes
 USE_TOOLS+=     gmake pkg-config

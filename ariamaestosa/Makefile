@@ -12,7 +12,6 @@ HOMEPAGE=	http://ariamaestosa.sourceforge.net/
 COMMENT=	Open-source (GPL) midi tracker/editor
 #LICENSE=	gnu-gpl-v2 AND gnu-lgpl-v2 AND public-domain
 
-PKG_DESTDIR_SUPPORT=	user-destdir
 BUILD_DEPENDS+=		scons-[0-9]*:../../devel/scons
 
 USE_PKGLOCALEDIR=	yes

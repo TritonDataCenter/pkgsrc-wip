@@ -11,7 +11,6 @@ MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://freshmeat.net/projects/atftp/
 COMMENT=		Advanced TFTP client and server
 
-PKG_DESTDIR_SUPPORT=	user-destdir
 ONLY_FOR_PLATFORM=	Linux-*-*
 
 USE_PKGLOCALEDIR=	yes

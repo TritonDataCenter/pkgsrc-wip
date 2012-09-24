@@ -11,6 +11,8 @@ MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.umich.edu/~umweb/software/mod_ometer.html
 COMMENT=	Web counter apache module
 
+PKG_DESTDIR_SUPPORT=	none
+
 GNU_CONFIGURE=		yes
 
 CONFIGURE_ARGS+=	--with-freetype=${BUILDLINK_PREFIX.freetype2}

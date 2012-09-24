@@ -13,8 +13,6 @@ COMMENT=	Detect MTU size and set MTU size of routing table
 
 #ONLY_FOR_PLATFORM=	FreeBSD-* NetBSD-* OpenBSD-*
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/${DISTNAME:S/-1.00//}
 
 INSTALLATION_DIRS=	bin

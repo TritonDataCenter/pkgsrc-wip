@@ -11,8 +11,6 @@ MAINTAINER=	obache@NetBSD.org
 HOMEPAGE=	http://www.box2d.org/
 COMMENT=	Box2D Physics Engine for games
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 CONFIGURE_DIRS=	Build
 USE_LANGUAGES=	c c++
 USE_CMAKE=	yes

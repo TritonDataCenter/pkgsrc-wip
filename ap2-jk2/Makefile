@@ -11,6 +11,8 @@ MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://tomcat.apache.org/
 COMMENT=	Apache2 JK2 module for connecting to Tomcat using AJP1X
 
+PKG_DESTDIR_SUPPORT=	none
+
 WRKSRC=		${WRKDIR}/${DISTNAME}/jk/native2
 GNU_CONFIGURE=	yes
 USE_TOOLS+=	gmake

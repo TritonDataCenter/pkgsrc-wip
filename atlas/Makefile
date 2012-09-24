@@ -14,8 +14,6 @@ COMMENT=	Automatically Tuned Linear Algebra Software
 
 CONFLICTS=	lapack-[0-9]*
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/ATLAS
 HAS_CONFIGURE=	yes
 

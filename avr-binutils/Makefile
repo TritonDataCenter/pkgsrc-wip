@@ -10,8 +10,6 @@ MAINTAINER=		pkgsrc-users@NetBSD.org
 COMMENT=		GNU binutils for Atmel AVR 8-bit RISC microcontrollers
 LICENSE=		gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_TOOLS+=		gmake makeinfo
 GNU_CONFIGURE=		yes
 USE_PKGLOCALEDIR=	yes

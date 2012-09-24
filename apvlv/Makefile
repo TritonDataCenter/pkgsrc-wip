@@ -11,8 +11,6 @@ HOMEPAGE=	http://apvlv.googlecode.com/
 COMMENT=	PDF Viewer which behaves like Vim
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_LANGUAGES=	c c++
 USE_TOOLS+=	pkg-config

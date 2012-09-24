@@ -11,6 +11,8 @@ MAINTAINER=		iharding@destinydata.com
 HOMEPAGE=		http://aolserver.sourceforge.net/
 COMMENT=		OpenSSL module for aolserver
 
+PKG_DESTDIR_SUPPORT=	none
+
 WRKSRC=			${WRKDIR}/${DISTNAME:S/-src//}
 
 MAKE_FLAGS+=		INST=/${PREFIX:Q}/include/nsd \

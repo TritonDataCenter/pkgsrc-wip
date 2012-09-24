@@ -11,8 +11,6 @@ HOMEPAGE=	http://awesome.naquadah.org/
 COMMENT=	Tiling window manager based on dwm
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 CONFLICTS+=	awesome<3.0
 
 USE_TOOLS+=	bash gmake pkg-config

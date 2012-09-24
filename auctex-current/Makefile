@@ -12,7 +12,6 @@ HOMEPAGE=		http://www.gnu.org/software/auctex/
 COMMENT=		Enhanced LaTeX mode for Emacs
 
 WRKSRC=			${WRKDIR}/auctex
-PKG_DESTDIR_SUPPORT=	user-destdir
 INSTALLATION_DIRS=	${EMACS_INFOPREFIX} \
 			${EMACS_LISPPREFIX}/auctex
 

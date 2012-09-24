@@ -12,8 +12,6 @@ HOMEPAGE=	http://www.nongnu.org/backbone/apps.html
 COMMENT=	GNUstep terminal emulator
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/terminal-0.9.4+cvs20051125
 USE_LANGUAGES=	objc
 USE_TOOLS+=	gmake

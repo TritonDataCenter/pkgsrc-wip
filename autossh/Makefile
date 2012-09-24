@@ -11,8 +11,6 @@ HOMEPAGE=		http://www.harding.motd.ca/autossh/
 COMMENT=		Monitor and automatically restart SSH sessions and tunnels
 #LICENSE=		autossh
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=		yes
 
 SUBST_CLASSES+=		destdir

@@ -11,8 +11,6 @@ HOMEPAGE=	http://avifile.sourceforge.net/
 COMMENT=	MPEG-4 (DivX) video player library
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 .if ${MACHINE_ARCH} == "i386"
 DEPENDS+=	win32-codecs>=010122:../../multimedia/win32-codecs
 .endif

@@ -11,7 +11,6 @@ HOMEPAGE=		http://acpid.sourceforge.net/
 COMMENT=		Linux ACPI event handler
 LICENSE=		gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
 ONLY_FOR_PLATFORM=	Linux-*-*
 
 EGDIR=			${PREFIX}/share/examples/acpid

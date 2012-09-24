@@ -14,8 +14,9 @@ MAINTAINER=	bsd@cs.ubc.ca
 HOMEPAGE=	http://ati.amd.com/support/drivers/linux/linux-radeon.html
 COMMENT=	ATI binary drivers for XFree86 4.3
 LICENSE=	amd-software-license
-
 LICENSE_FILE=	LICENSE
+
+PKG_DESTDIR_SUPPORT=	none
 
 DEPENDS=	ati-xfree86-bin<${VERSION}:../../wip/ati-xfree86-bin
 

@@ -12,8 +12,6 @@ MAINTAINER=		pkgsrc-users@NetBSD.org
 COMMENT=		GNU gcc-4.5 for Atmel AVR 8-bit RISC microcontrollers
 LICENSE=		gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 DEPENDS+=		avr-binutils-[0-9]*:../../wip/avr-binutils
 
 .include "../../mk/bsd.prefs.mk"

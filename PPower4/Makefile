@@ -15,8 +15,6 @@ DEPENDS+=	tex-eso-pic-[0-9]*:../../print/tex-eso-pic
 DEPENDS+=	tex-graphics-[0-9]*:../../print/tex-graphics
 DEPENDS+=	tex-hyperref-[0-9]*:../../print/tex-hyperref
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 # This requires Java 1.2 or better
 USE_JAVA=	run
 USE_JAVA2=	yes

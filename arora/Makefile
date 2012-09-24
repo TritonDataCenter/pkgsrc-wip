@@ -10,7 +10,6 @@ HOMEPAGE=		http://code.google.com/p/arora
 COMMENT=		Arora is a web browser using Qt and Webkit
 LICENSE=		gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
 INSTALL_ENV+=		INSTALL_ROOT=${DESTDIR}
 
 USE_LIBTOOL=		yes

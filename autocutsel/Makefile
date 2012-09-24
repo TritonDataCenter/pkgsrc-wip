@@ -11,8 +11,6 @@ HOMEPAGE=		http://www.nongnu.org/autocutsel/
 COMMENT=		Synchronizes the X11 cutbuffer and CLIPBOARD selection
 LICENSE=		gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LIBTOOL=		yes
 GNU_CONFIGURE=		yes
 

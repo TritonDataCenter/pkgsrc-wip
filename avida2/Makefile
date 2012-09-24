@@ -10,8 +10,6 @@ HOMEPAGE=	http://avida.devosoft.org/
 COMMENT=	Avida is an auto-adaptive genetic system
 LICENSE=	gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 HAS_CONFIGURE=		YES
 GNU_CONFIGURE=		YES
 CONFIGURE_ARGS+=	--enable-viewer

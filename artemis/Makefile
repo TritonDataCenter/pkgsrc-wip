@@ -12,8 +12,6 @@ HOMEPAGE=		http://www.sanger.ac.uk/Software/Artemis/
 COMMENT=		Genome viewer and annotation too
 LICENSE=		gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=			${WRKDIR}/artemis
 USE_JAVA=		yes
 USE_JAVA2=		yes

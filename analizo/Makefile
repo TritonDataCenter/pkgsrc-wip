@@ -11,8 +11,6 @@ HOMEPAGE=	http://analizo.org/
 COMMENT=	Extensible source code analysis and visualization toolkit
 #LICENSE=	# TODO: (see mk/license.mk)
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 DEPENDS+=	p5-Class-Accessor>=0.34:../../devel/p5-Class-Accessor
 DEPENDS+=	p5-Test-Class>=0.36:../../devel/p5-Test-Class
 DEPENDS+=	p5-Test-Exception>=0.29:../../devel/p5-Test-Exception

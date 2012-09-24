@@ -12,8 +12,6 @@ HOMEPAGE=	http://developer.nvidia.com/cg-toolkit
 COMMENT=	TODO: Short description of the package
 LICENSE=	nvidia-license
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}
 USE_LANGUAGES=	c c++
 

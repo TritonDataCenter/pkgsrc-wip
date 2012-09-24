@@ -11,8 +11,6 @@ HOMEPAGE=	http://aspell.net/
 COMMENT=	"meta-package" for aspell spell checker dictionaries
 #LICENSE=	# TODO: (see mk/license.mk)
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	# none
 
 .include "options.mk"

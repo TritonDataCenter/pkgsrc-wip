@@ -8,8 +8,6 @@ HOMEPAGE=	http://etoileos.com/
 COMMENT=	General text editor for plain and rich format text
 LICENSE=	modified-bsd
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	objc
 
 NO_CONFIGURE=	yes

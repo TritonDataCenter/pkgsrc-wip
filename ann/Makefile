@@ -11,8 +11,6 @@ HOMEPAGE=	http://www.cs.umd.edu/~mount/ANN
 COMMENT=	Library for Approximate Nearest Neighbor Searching
 LICENSE=	gnu-lgpl-v2.1
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_TOOLS+= gmake pax
 USE_LANGUAGES=	c++
 

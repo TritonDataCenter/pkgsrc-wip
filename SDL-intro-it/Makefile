@@ -11,8 +11,6 @@ MAINTAINER=		ianzag@mail.ru
 HOMEPAGE=		http://www.libsdl.org/docs.php
 COMMENT=		Simple DirectMedia Layer introduction (Italian)
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=			${WRKDIR}/intro.it
 DEST=			${PREFIX}/share/doc/SDL-intro/it
 

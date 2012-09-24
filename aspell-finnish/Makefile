@@ -11,8 +11,6 @@ MAINTAINER=	jkj@kapsi.fi
 HOMEPAGE=	http://aspell.net/
 COMMENT=	Finnish language support for aspell
 
-PKG_DESTDIR_SUPPORT=    user-destdir
-
 HAS_CONFIGURE=  YES
 
 .include "../../textproc/aspell/buildlink3.mk"

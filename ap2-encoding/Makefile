@@ -10,6 +10,8 @@ MAINTAINER=	obache@NetBSD.org
 HOMEPAGE=	http://webdav.todo.gr.jp/
 COMMENT=	Apache module for non-ascii filename interoperability
 
+PKG_DESTDIR_SUPPORT=	none
+
 DISTFILE.main=	mod_encoding-20021209.tar.gz
 DISTFILE.ap2=	mod_encoding.c.apache2.20040616
 DISTFILES=	${DISTFILE.main} ${DISTFILE.ap2}

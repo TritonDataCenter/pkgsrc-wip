@@ -11,8 +11,6 @@ HOMEPAGE=		http://www.sleuthkit.org/
 COMMENT=		Browser interface to sleuthkit
 LICENSE=		gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=		c c++
 USE_TOOLS+=		gmake perl
 INSTALLATION_DIRS+=	share/autopsy/lib share/autopsy/pict

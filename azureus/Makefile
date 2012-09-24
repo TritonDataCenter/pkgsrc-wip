@@ -19,8 +19,6 @@ NOT_FOR_PLATFORM=	NetBSD-[0-2]*-*
 EMUL_MODULES.linux=	gtk2
 SUSE_VERSION_REQD=	10.0
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=			${WRKDIR}/azureus
 BUILD_DIRS=		# empty
 

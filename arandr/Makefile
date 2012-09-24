@@ -13,8 +13,6 @@ LICENSE=	gnu-gpl-v3
 DEPENDS+=       ${PYPKGPREFIX}-docutils>=0.6:../../textproc/py-docutils
 DEPENDS+=	xrandr>=1.2:../../x11/xrandr
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 PY_PATCHPLIST = YES
 PYSETUP = setup.py
 

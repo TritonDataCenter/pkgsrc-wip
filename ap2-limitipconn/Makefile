@@ -11,6 +11,8 @@ MAINTAINER=		tv@NetBSD.org
 HOMEPAGE=		http://dominia.org/djao/limitipconn2.html
 COMMENT=		Limits per-IP connections to an Apache 2 server
 
+PKG_DESTDIR_SUPPORT=	none
+
 APACHE_MODULE=		yes
 MAKE_FLAGS+=		APXS=${APXS:Q}
 USE_LIBTOOL=		yes

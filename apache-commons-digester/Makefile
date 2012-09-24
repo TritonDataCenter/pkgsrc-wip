@@ -14,8 +14,6 @@ LICENSE=	apache-2.0
 DEPENDS+=	apache-commons-beanutils>=1.8.3:../../wip/apache-commons-beanutils
 DEPENDS+=	apache-commons-logging>=-1.1.1:../../wip/apache-commons-logging
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/commons-digester-2.0
 
 NO_BUILD=	yes
