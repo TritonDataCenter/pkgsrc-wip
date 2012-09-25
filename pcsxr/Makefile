@@ -15,6 +15,8 @@ HOMEPAGE=	http://pcsxr.codeplex.com/
 COMMENT=	PlayStation Emulator based on PCSX-df 1.9
 LICENSE=	gnu-gpl-v2
 
+BUILD_DEPENDS+=	gettext-m4-[0-9]*:../../devel/gettext-m4
+
 PKG_DESTDIR_SUPPORT=	user-destdir
 
 GNU_CONFIGURE=		yes
