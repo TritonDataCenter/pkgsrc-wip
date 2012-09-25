@@ -65,7 +65,7 @@ pre-configure:
 		)
 # To avoid byte-compile error 'Invalid syntax ?', convert EUC-JP to UTF-8
 # Just one file is to be converted now,
-.if !empty(EMACS_TYPE:Memacs24)
+.if !empty(EMACS_TYPE:Memacs23) || !empty(EMACS_TYPE:Memacs24) || !empty(EMACS_TYPE:Memacs25)
 post-patch:
 	(cd ${WRKSRC}/lisp; \
 	for i in tc-bushu.el;  \
