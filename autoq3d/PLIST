@@ -1,5 +1,9 @@
 @comment $NetBSD$
 bin/autoq3d
+share/autoq3d/lan_sp.qm
+share/autoq3d/lan_sp.ts
+share/autoq3d/qref.htm
+share/autoq3d/qref_sp.htm
 share/autoq3d/images/array.png
 share/autoq3d/images/autoscale.png
 share/autoq3d/images/cascade.png
