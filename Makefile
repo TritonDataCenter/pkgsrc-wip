@@ -182,6 +182,7 @@ SUBDIR+=	auto-complete-mode
 SUBDIR+=	autocutsel
 SUBDIR+=	autoproject
 SUBDIR+=	autopsy
+SUBDIR+=	autoq3d
 SUBDIR+=	autossh
 SUBDIR+=	avida2
 SUBDIR+=	avifile-devel
