@@ -1,10 +1,10 @@
 # $NetBSD$
 #
 
-DISTNAME=	ipamjm00101
-PKGNAME=	ipamjfont-00101
+DISTNAME=	ipamjm00201
+PKGNAME=	ipamjfont-00201
 CATEGORIES=	fonts
-MASTER_SITES=	-http://ossipedia.ipa.go.jp/ipamjfont/ipamjm00101.php
+MASTER_SITES=	-http://ossipedia.ipa.go.jp/ipamjfont/ipamjm00201.php
 EXTRACT_SUFX=	.zip
 
 MAINTAINER=	ryoon@NetBSD.org
