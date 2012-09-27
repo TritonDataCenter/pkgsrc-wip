@@ -9,7 +9,7 @@ EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://developer.nvidia.com/cg-toolkit
-COMMENT=	TODO: Short description of the package
+COMMENT=	Compiler for the Cg 3.1 language
 LICENSE=	nvidia-license
 
 WRKSRC=		${WRKDIR}
