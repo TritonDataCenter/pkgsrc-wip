@@ -2745,6 +2745,7 @@ SUBDIR+=	qn-x11
 SUBDIR+=	qrint
 SUBDIR+=	qrq
 SUBDIR+=	qtcreator
+SUBDIR+=	qtnotifydaemon
 SUBDIR+=	qtre
 SUBDIR+=	quantlib
 SUBDIR+=	qucs
