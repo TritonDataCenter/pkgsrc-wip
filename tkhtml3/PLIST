@@ -1,0 +1,4 @@
+@comment $NetBSD$
+lib/Tkhtml3.0/libTkhtml30.so
+lib/Tkhtml3.0/pkgIndex.tcl
+man/mann/tkhtml.n
