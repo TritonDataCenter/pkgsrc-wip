@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	xoo-0.8
-PKGREVISION=	1
+PKGREVISION=	2
 CATEGORIES=	x11
 MASTER_SITES=	http://labs.o-hand.com/sources/xoo/
 
