@@ -1,7 +1,5 @@
 @comment $NetBSD$
-etc/lightdm/lightdm-gtk-greeter.conf
 sbin/lightdm-gtk-greeter
+share/examples/lightdm/lightdm-gtk-greeter.conf
 share/lightdm-gtk-greeter/greeter.ui
-share/lightdm-gtk-greeter/hicolor/scalable/apps/accessibility.svg
-share/lightdm-gtk-greeter/hicolor/scalable/apps/system-shutdown.svg
 share/xgreeters/lightdm-gtk-greeter.desktop
