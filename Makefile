@@ -3077,6 +3077,7 @@ SUBDIR+=	tipp10
 SUBDIR+=	tk-tkimg
 SUBDIR+=	tk85
 SUBDIR+=	tk86
+SUBDIR+=	tkhtml3
 SUBDIR+=	tkpng
 SUBDIR+=	tktable
 SUBDIR+=	tktile
