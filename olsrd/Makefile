@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	olsrd-0.6.1
+PKGREVISION=	1
 CATEGORIES=	net
 MASTER_SITES=	http://www.olsr.org/releases/0.6/
 
@@ -13,6 +14,7 @@ LICENSE=	modified-bsd
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 USE_TOOLS+=	bison
+USE_TOOLS+=	flex
 USE_TOOLS+=	gmake
 
 MAKE_FLAGS+=ETCDIR=${DESTDIR}${PREFIX}/etc
