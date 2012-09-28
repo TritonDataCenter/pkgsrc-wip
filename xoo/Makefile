@@ -17,8 +17,6 @@ CFLAGS=
 CFLAGS+=	-DPREFIX=\"${PREFIX:Q}\"
 CONFIGURE_ARGS+=CFLAGS=${CFLAGS:M*:Q}
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 post-install:
 	${INSTALL} -m 444 ${FILESDIR}/neo1973.png ${DESTDIR}${PREFIX}/share/xoo/neo1973.png
 	${INSTALL} -m 444 ${FILESDIR}/neo1973.xml ${DESTDIR}${PREFIX}/share/xoo/neo1973.xml
