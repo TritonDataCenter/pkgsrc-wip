@@ -72,12 +72,12 @@ do-build:
 
 do-install:
 	${FIND} ${WRKSRC} -name "*.subst.sav" -exec ${RM} {} \;
-	${INSTALL_DATA_DIR} ${ETCDIR}
+	${INSTALL_DATA_DIR} ${DESTDIR}${ETCDIR}
 	${INSTALL_DATA} ${WRKSRC}/contrib/autoconf/local.inc.in \
-		${ETCDIR}/local.inc-dist
-	cd ${WRKSRC} && pax -wr common contrib db www ${DATADIR}
-	cd ${WRKSRC} && pax -wr backend cronjobs monitor utils ${BACKENDDIR}
-	cd ${WRKSRC}/docs && pax -wr * ${DOCDIR}
+		${DESTDIR}${ETCDIR}/local.inc-dist
+	cd ${WRKSRC} && pax -wr common contrib db www ${DESTDIR}${DATADIR}
+	cd ${WRKSRC} && pax -wr backend cronjobs monitor utils ${DESTDIR}${BACKENDDIR}
+	cd ${WRKSRC}/docs && pax -wr * ${DESTDIR}${DOCDIR}
 
 .include "../../mk/pgsql.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
