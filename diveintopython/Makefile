@@ -20,9 +20,9 @@ NO_CONFIGURE=		yes
 USE_TOOLS+=		pax
 
 do-install:
-	${INSTALL_DATA_DIR} ${PREFIX}/${HTMLDIR}
+	${INSTALL_DATA_DIR} ${DESTDIR}${PREFIX}/${HTMLDIR}
 	${CAT} ${PKGDIR}/PLIST.pre >${PLIST_SRC}
-	cd ${DOC_SRCDIR} && pax -rw -pp * ${PREFIX}/${HTMLDIR}
+	cd ${DOC_SRCDIR} && pax -rw -pp * ${DESTDIR}${PREFIX}/${HTMLDIR}
 	cd ${PREFIX} && ${FIND} ${HTMLDIR} -type f -print >>${PLIST_SRC}
 
 .include "../../mk/bsd.pkg.mk"
