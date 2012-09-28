@@ -14,7 +14,9 @@ COMMENT=		Entropy calculation and analysis of putative random sequences
 WRKSRC=		${WRKDIR}
 BUILD_TARGET=	${EMPTY}
 
+INSTALLATION_DIRS=	bin
+
 do-install:
-	${INSTALL_PROGRAM} ${WRKSRC}/ent ${PREFIX}/bin
+	${INSTALL_PROGRAM} ${WRKSRC}/ent ${DESTDIR}${PREFIX}/bin
 
 .include "../../mk/bsd.pkg.mk"

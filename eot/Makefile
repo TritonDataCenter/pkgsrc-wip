@@ -18,6 +18,6 @@ NO_BUILD=	yes
 INSTALLATION_DIRS=	bin
 
 do-install:
-	${INSTALL_SCRIPT} ${WRKSRC}/eot ${PREFIX}/bin/eot
+	${INSTALL_SCRIPT} ${WRKSRC}/eot ${DESTDIR}${PREFIX}/bin/eot
 
 .include "../../mk/bsd.pkg.mk"
