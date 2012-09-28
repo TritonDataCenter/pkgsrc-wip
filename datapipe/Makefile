@@ -14,5 +14,6 @@ do-build:
 	${CC} -o ${WRKSRC}/datapipe ${WRKSRC}/datapipe.c
 
 do-install:
-	${INSTALL_PROGRAM} ${WRKSRC}/datapipe ${PREFIX}/bin
+	${INSTALL_PROGRAM} ${WRKSRC}/datapipe ${DESTDIR}${PREFIX}/bin
+
 .include "../../mk/bsd.pkg.mk"
