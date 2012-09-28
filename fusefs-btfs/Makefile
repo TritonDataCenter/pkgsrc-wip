@@ -15,8 +15,10 @@ WRKSRC=			${WRKDIR}/btfs/src/
 USE_TOOLS+=		gmake
 USE_LANGUAGES=		c
 
+INSTALLATION_DIRS=	bin
+
 do-install:
-	${INSTALL_PROGRAM} ${WRKSRC}/btfs ${PREFIX}/bin/
+	${INSTALL_PROGRAM} ${WRKSRC}/btfs ${DESTDIR}${PREFIX}/bin/
 
 .include "../../comms/openobex/buildlink3.mk"
 .include "../../wip/bluez-libs/buildlink3.mk"
