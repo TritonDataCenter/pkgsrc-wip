@@ -4,6 +4,7 @@ include/libdjconsole/delta.h
 include/libdjconsole/djconsole.h
 lib/libdjconsole.la
 lib/pkgconfig/libdjconsole.pc
+share/examples/udev/rules.d/45-hpdjconsole.rules
 share/libdjconsole/06f8-b000.buttons
 share/libdjconsole/06f8-b000.leds
 share/libdjconsole/06f8-b000.mouse
