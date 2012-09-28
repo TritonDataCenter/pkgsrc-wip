@@ -2195,6 +2195,7 @@ SUBDIR+=	pkg_fake
 #SUBDIR+=	pkg_get			# not a package (yet?)
 SUBDIR+=	pkg_rmleaves
 SUBDIR+=	pkg_summary-utils
+SUBDIR+=	pkgconf
 SUBDIR+=	pkgin
 SUBDIR+=	pkgmanager
 SUBDIR+=	plasti
