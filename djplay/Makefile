@@ -3,10 +3,10 @@
 
 DISTNAME=	djplay-0.5.0
 CATEGORIES=	audio net
-MASTER_SITES=	http://sourceforge.net/projects/djplay/files/djplay/0.5.0/
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=djplay/}
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
-HOMEPAGE=	http://sourceforge.net/projects/djplay/files/djplay/0.5.0/
+HOMEPAGE=	http://sourceforge.net/projects/djplay/
 COMMENT=	High class live DJing application
 LICENSE=	gnu-gpl-v2
 
