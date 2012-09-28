@@ -12,8 +12,6 @@ HOMEPAGE=	http://www.eclipse.org/
 COMMENT=	Java IDE
 LICENSE=	eclipse-license
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 PKG_JVMS_ACCEPTED= sun-jdk6 sun-jdk15 sun-jdk14
 
 MAKE_ENV+=	JAVA_HOME=${PKG_JAVA_HOME:Q}

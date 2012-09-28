@@ -10,8 +10,6 @@ HOMEPAGE=	http://e2fsprogs.sourceforge.net/
 COMMENT=	Filesystem utilities for the ext2 and ext3 filesystems
 LICENSE=	gnu-gpl-v2 AND gnu-lgpl-v2 AND modified-bsd AND mit
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 # needs msginit
 #BUILD_DEPENDS+=	gettext>=0.10.35nb1:../../devel/gettext
 

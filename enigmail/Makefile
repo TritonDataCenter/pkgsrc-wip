@@ -13,8 +13,6 @@ WRKSRC=		${WRKDIR}/enigmail
 USE_LANGUAGES=	c c++
 USE_TOOLS=	gmake pax perl
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 REPLACE_PERL=	makemake ipc/makemake lang/make-lang-xpi.pl
 REPLACE_PERL+=	${ENIGMAIL_WRKSRC}/makemake
 REPLACE_PERL+=	${ENIGMAIL_WRKSRC}/ipc/makemake

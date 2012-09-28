@@ -12,8 +12,6 @@ COMMENT=	Converts an image file with graph or map into numbers
 LICENSE=	gnu-gpl-v2
 
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/engauge
 USE_LANGUAGES=	c++
 

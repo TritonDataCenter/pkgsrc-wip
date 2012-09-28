@@ -15,8 +15,6 @@ DEPENDS+=	evas-eet>=1.1.0:../../graphics/evas-eet
 DEPENDS+=	evas-jpeg>=1.1.0:../../graphics/evas-jpeg
 DEPENDS+=	evas-png>=1.1.0:../../graphics/evas-png
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_TOOLS=	gmake pkg-config automake autoconf

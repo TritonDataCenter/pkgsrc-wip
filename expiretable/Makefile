@@ -9,8 +9,6 @@ MAINTAINER=	bartosz.kuzma@gmail.com
 HOMEPAGE=	http://expiretable.fnord.se/
 COMMENT=	Removes entries from pf tables based on their age
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 ONLY_FOR_PLATFORM=	DragonFly-*-* FreeBSD-[5-9]*-*
 ONLY_FOR_PLATFORM+=	NetBSD-[3-9]*-* OpenBSD-[4-9]*-*
 

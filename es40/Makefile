@@ -12,8 +12,6 @@ MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.es40.org/
 COMMENT=	AlphaServer ES40 emulator
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 CVS_REPOSITORIES=	es40
 CVS_ROOT.es40=		:pserver:anonymous:@es40.cvs.sourceforge.net:/cvsroot/es40
 WRKSRC=			${WRKDIR}/es40

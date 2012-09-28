@@ -12,8 +12,6 @@ HOMEPAGE=	http://code.google.com/p/emacs-evernote-mode/
 COMMENT=	Refer and edit Evernote notes directly from Emacs
 LICENSE=	apache-2.0
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 DEPENDS+=	${RUBY_PKGPREFIX}-gdbm>=${RUBY_VERSION_SUFFIX}:../../databases/ruby-gdbm
 
 USE_LANGUAGES=	# none

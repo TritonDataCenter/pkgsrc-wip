@@ -11,6 +11,8 @@ MAINTAINER=		dhowland@users.sourceforge.net
 HOMEPAGE=		http://www.public.iastate.edu/~chris129/code/elog/
 COMMENT=		Application to help track a journal or diary
 
+PKG_DESTDIR_SUPPORT=	none
+
 WRKSRC=			${WRKDIR}/eJourn
 
 USE_TOOLS+=		gmake

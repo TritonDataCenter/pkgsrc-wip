@@ -12,8 +12,6 @@ GNU_CONFIGURE=	yes
 USE_LANGUAGES=	# none
 USE_TOOLS+=	bash gtar
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 REPLACE_BASH=	themes/import.sh
 
 SUBST_CLASSES+=	gtar

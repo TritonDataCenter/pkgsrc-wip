@@ -9,8 +9,6 @@ MAINTAINER=		cheusov@NetBSD.org
 HOMEPAGE=		#
 COMMENT=		Modified version of GNATS send-pr.el
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 NO_CHECKSUM=		yes
 
 WRKSRC=			${WRKDIR}

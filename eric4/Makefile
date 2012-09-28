@@ -11,7 +11,6 @@ HOMEPAGE=		http://eric-ide.python-projects.org/index.html
 COMMENT=		Python - IDE
 LICENSE=		gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
 NO_BUILD=				yes
 
 PY_PATCHPLIST=			yes

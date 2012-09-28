@@ -13,8 +13,6 @@ MASTER_SITES=		ftp://emboss.open-bio.org/pub/EMBOSS/old/2.9.0/
 MAINTAINER=		dprice@cs.nmsu.edu
 HOMEPAGE=		http://emboss.sourceforge.net/
 
-PKG_DESTDIR_SUPPORT= 	user-destdir
-
 USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=		yes
 GNU_CONFIGURE=		yes

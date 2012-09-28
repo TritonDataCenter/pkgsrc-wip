@@ -10,8 +10,6 @@ MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.linuxftw.com/ezbounce/
 COMMENT=	Highly Configurable IRC Proxy
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	YES
 USE_LANGUAGES=	c c++
 

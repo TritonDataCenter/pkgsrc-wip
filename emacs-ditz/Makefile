@@ -9,8 +9,6 @@ HOMEPAGE=	https://github.com/kentaro/${PKGBASE}/
 COMMENT=	Emacs interface to Ditz issue tracking system
 LICENSE=	gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GIT_REPOSITORIES=	master
 GIT_REPO.master=	git://github.com/kentaro/${PKGBASE}.git
 GIT_MODULE.master=	${PKGBASE}
