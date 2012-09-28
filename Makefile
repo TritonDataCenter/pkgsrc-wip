@@ -3022,6 +3022,7 @@ SUBDIR+=	tagtool
 SUBDIR+=	talksoup
 SUBDIR+=	talloc
 SUBDIR+=	tamago-anthy
+SUBDIR+=	tap-plugins
 SUBDIR+=	tardy
 SUBDIR+=	task
 SUBDIR+=	taskcoach
