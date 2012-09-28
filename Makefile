@@ -463,6 +463,7 @@ SUBDIR+=	distbb-current
 SUBDIR+=	distella
 SUBDIR+=	ditz-commander
 SUBDIR+=	diveintopython
+SUBDIR+=	djplay
 SUBDIR+=	djview4
 SUBDIR+=	dk-milter
 SUBDIR+=	dlpoly-classic
