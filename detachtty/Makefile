@@ -12,8 +12,6 @@ COMMENT=	Utility that lets you run interactive programs non-interactively
 LICENSE=	gnu-gpl-v2
 USE_TOOLS=	gmake
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=	${WRKDIR}/detachtty-9
 INSTALLATION_DIRS+=bin/
 INSTALLATION_DIRS+=${PKGMANDIR}/man1/

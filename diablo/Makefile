@@ -12,6 +12,8 @@ MAINTAINER=	pettai@nordu.net
 HOMEPAGE=	http://www.openusenet.org/diablo/
 COMMENT=	Newsfeeding and newsreading server software
 
+PKG_DESTDIR_SUPPORT=	none
+
 BUILD_DEFS+=	IPV6_READY
 
 WRKSRC=		${WRKDIR}/${DISTNAME}

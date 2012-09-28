@@ -11,8 +11,6 @@ HOMEPAGE=	http://neteril.org/projects/dbus-explorer/
 COMMENT=	GTK+ interface for viewing D-Bus service APIs written by C\#
 #LICENSE=	# TODO
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_TOOLS+=		pkg-config msgfmt gmake
 USE_LANGUAGES=	# none

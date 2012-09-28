@@ -11,8 +11,6 @@ HOMEPAGE=	http://ccpforge.cse.rl.ac.uk/gf/download/frsrelease/238/2028/
 COMMENT=	General purpose classical molecular dynamics
 LICENSE=	original-bsd
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	c fortran
 USE_TOOLS+=	gmake
 

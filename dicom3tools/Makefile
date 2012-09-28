@@ -12,6 +12,8 @@ MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://www.dclunie.com/
 COMMENT=		Library for dealing with DICOM 3 files
 
+PKG_DESTDIR_SUPPORT=	none
+
 USE_IMAKE=		yes
 
 do-configure:

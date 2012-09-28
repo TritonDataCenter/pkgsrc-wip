@@ -16,8 +16,6 @@ DICTSRCNAME=	${DISTNAME}
 
 USE_TOOLS+=		gzip
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 DEPENDS+=		dict-server>=1.9.14:../../textproc/dict-server
 BUILD_DEPENDS+=		dict-server>=1.10.2:../../textproc/dict-server
 

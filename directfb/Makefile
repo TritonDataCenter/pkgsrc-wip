@@ -11,7 +11,6 @@ HOMEPAGE=	http://www.directfb.org/
 COMMENT=	Thin library that provides hardware graphics acceleration
 LICENSE=	gnu-lgpl-v2.1
 
-PKG_DESTDIR_SUPPORT=	user-destdir
 ONLY_FOR_PLATFORM=	Linux-*-* NetBSD-*-*
 
 USE_LIBTOOL=		yes

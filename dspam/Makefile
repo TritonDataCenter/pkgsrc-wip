@@ -10,8 +10,6 @@ COMMENT=	Extremely scalable, statistical-hybrid anti-spam filter
 
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=		yes
 USE_LIBTOOL=		yes
 

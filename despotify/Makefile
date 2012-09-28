@@ -10,8 +10,6 @@ MAINTAINER=	pettai@nordu.net
 HOMEPAGE=	http://despotify.sourceforge.net/
 COMMENT=	Open Source Spotify client
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_TOOLS+=	gmake
 USE_NCURSES=	yes
 WRKSRC=		${WRKDIR}/despotify/src

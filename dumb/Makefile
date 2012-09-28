@@ -11,8 +11,6 @@ HOMEPAGE=		http://dumb.sourceforge.net/
 COMMENT=		IT, XM, S3M and MOD player library
 #LICENSE=		dumb-license
 
-PKG_DESTDIR_SUPPORT=	destdir
-
 USE_TOOLS+=		gmake
 
 post-install:

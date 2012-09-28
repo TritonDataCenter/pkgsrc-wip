@@ -10,8 +10,6 @@ HOMEPAGE=	http://www.spida.net/projects/software/dmt-ux/index.de.html
 COMMENT=	DSL modem tool for Unix
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 NO_CONFIGURE=	YES
 MAKE_ENV+=	LIBS=${LIBS:Q}
 

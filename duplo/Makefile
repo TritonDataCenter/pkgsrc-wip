@@ -11,8 +11,6 @@ HOMEPAGE=	http://duplo.giants.ch/
 COMMENT=	Find duplicated code blocks in large C/C++/Java/C
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_TOOLS+=	gmake
 USE_LANGUAGES=	c++
 

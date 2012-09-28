@@ -20,8 +20,6 @@ DEPENDS+=	p5-XML-SAX-[0-9]*:../../textproc/p5-XML-SAX
 DEPENDS+=	p5-XML-SAX-Expat-[0-9]*:../../textproc/p5-XML-SAX-Expat
 DEPENDS+=	tidy-[0-9]*:../../www/tidy
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 INFO_FILES=	yes
 USE_TOOLS+=	gmake makeinfo perl

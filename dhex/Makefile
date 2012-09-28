@@ -12,8 +12,6 @@ LICENSE=	gnu-gpl-v2
 
 USE_LANGUAGES=	c
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 MAN1=		dhex.1
 MAN5=		dhexrc.5 dhex_markers.5 dhex_searchlog.5
 

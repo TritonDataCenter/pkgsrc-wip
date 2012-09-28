@@ -21,8 +21,6 @@ DEPENDS+=	dict-client>=1.8:../../textproc/dict-client
 NO_CONFIGURE=	yes
 NO_BUILD=	yes
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 .include "../../mk/bsd.prefs.mk"
 .include "../../textproc/aspell/buildlink3.mk"
 

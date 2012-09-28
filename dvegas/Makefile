@@ -10,8 +10,6 @@ HOMEPAGE=	http://dvegas.hepforge.org/
 COMMENT=	Parallel Adaptive Monte Carlo Integration in C++
 LICENSE=	gnu-lgpl-v2.1
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_TOOLS+=	pkg-config

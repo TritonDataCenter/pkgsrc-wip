@@ -11,8 +11,6 @@ HOMEPAGE=	http://www.arabeyes.org/project.php?proj=Duali
 COMMENT=	Arabic dictionary
 LICENSE=	modified-bsd
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 NO_CONFIGURE=		yes
 NO_BUILD=		yes
 USE_LANGUAGES=	# none

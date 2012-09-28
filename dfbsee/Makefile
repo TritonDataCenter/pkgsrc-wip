@@ -12,7 +12,6 @@ HOMEPAGE=	http://www.directfb.org/download/DFBSee/
 COMMENT=	Image viewer for DirectFB
 LICENSE=	gnu-lgpl-v2.1
 
-PKG_DESTDIR_SUPPORT=	user-destdir
 ONLY_FOR_PLATFORM=	Linux-*-* NetBSD-*-*
 
 GNU_CONFIGURE=		yes

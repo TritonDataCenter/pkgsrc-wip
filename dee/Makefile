@@ -11,8 +11,6 @@ HOMEPAGE=	http://launchpad.net/dee
 COMMENT=	Model to synchronize mutiple instances over DBus
 LICENSE=	gnu-gpl-v3 AND gnu-lgpl-v3 # probably
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_TOOLS+=	pkg-config gmake

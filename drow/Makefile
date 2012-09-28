@@ -10,8 +10,6 @@ HOMEPAGE=		http://drow.sourceforge.net/
 COMMENT=		Low-level ELF file analyzer
 LICENSE=		gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=		YES
 
 USE_PKGLOCALEDIR=	yes

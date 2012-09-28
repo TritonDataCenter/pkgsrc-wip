@@ -9,7 +9,6 @@ MASTER_SITES=	${MASTER_SITE_SUNSITE:=system/misc/} \
                 ftp://ftp.fr.kernel.org/pub/linux/utils/util-linux/
 
 MAINTAINER=		lkundrak@skosi.org
-PKG_DESTDIR_SUPPORT=	user-destdir
 HOMEPAGE=		http://freshmeat.net/projects/util-linux/
 COMMENT=		The enhanced Discordian date program
 #LICENSE=		# GPL, but which version?

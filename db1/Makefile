@@ -11,8 +11,6 @@ MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://www.oracle.com/database/berkeley-db.html
 COMMENT=		Berkeley DB 1.86
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 BUILD_DIRS=		${WRKSRC}/PORT/linux
 BUILD_TARGET=		libdb.a
 

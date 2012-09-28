@@ -14,8 +14,6 @@ INFO_FILES=	yes
 USE_LANGUAGES=	# none
 USE_TOOLS+=	tclsh:run
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	YES
 CONFIGURE_ARGS+=	--infodir=${PREFIX}/${PKGINFODIR}
 

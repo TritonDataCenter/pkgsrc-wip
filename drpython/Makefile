@@ -13,8 +13,6 @@ HOMEPAGE=    http://drpython.sourceforge.net/
 COMMENT=    Source code editor, written in Python, for Python
 LICENSE=    gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=    user-destdir
-
 WRKSRC=        ${WRKDIR}/DrPython
 USE_LANGUAGES=    # none
 

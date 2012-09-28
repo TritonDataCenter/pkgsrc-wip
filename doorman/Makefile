@@ -11,8 +11,6 @@ HOMEPAGE=		http://doorman.sourceforge.net/
 COMMENT=		Open ports when requested by a *secret knock*
 LICENSE=		gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 DEPENDS=		lsof>4.7:../../sysutils/lsof
 
 USE_PKGLOCALEDIR=	yes

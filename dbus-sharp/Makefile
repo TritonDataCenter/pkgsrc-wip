@@ -11,8 +11,6 @@ HOMEPAGE=	http://mono.github.com/dbus-sharp/
 COMMENT=	Fork of ndesk-dbus
 LICENSE=	2-clause-bsd # ?
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_TOOLS+=	gmake pkg-config
 USE_LANGUAGES=	# none

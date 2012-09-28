@@ -15,8 +15,6 @@ GNU_CONFIGURE=	yes
 USE_TOOLS+=	gmake intltool perl pkg-config
 USE_LANGUAGES=	c c++
 
-PKG_DESTDIR_SUPPORT=user-destdir
-
 .include "options.mk"
 
 .include "../../sysutils/desktop-file-utils/desktopdb.mk"

@@ -12,8 +12,6 @@ HOMEPAGE=	http://dispred.hepforge.org/
 COMMENT=	Tools for calculating DIS cross sections at LO and NLO in QCD
 #LICENSE=	# TODO: (see mk/license.mk)
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_TOOLS+=	gmake

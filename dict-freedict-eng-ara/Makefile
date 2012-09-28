@@ -14,8 +14,6 @@ LICENSE=	gnu-gpl-v2
 DEPENDS+=		dict-server>=1.9.14:../../textproc/dict-server
 BUILD_DEPENDS+=		dict-server>=1.10.2:../../textproc/dict-server
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 DICTSRCNAME=	${DISTNAME:S/freedict-//S/-0.0.2//}
 
 WRKSRC=		${WRKDIR}

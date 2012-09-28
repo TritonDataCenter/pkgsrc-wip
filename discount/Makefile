@@ -11,8 +11,6 @@ HOMEPAGE=	http://www.pell.portland.or.us/~orc/Code/discount/
 COMMENT=	Markdown C implementation
 LICENSE=	modified-bsd
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 HAS_CONFIGURE=		YES
 CONFIGURE_SCRIPT=	./configure.sh
 CONFIGURE_ARGS=		--prefix=${PREFIX} \

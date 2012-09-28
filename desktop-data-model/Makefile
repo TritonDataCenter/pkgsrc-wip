@@ -12,8 +12,6 @@ HOMEPAGE=	http://ftp.gnome.org/pub/GNOME/sources/desktop-data-model
 COMMENT=	Engine providing live updates of online data to the desktop
 LICENSE=	gnu-lgpl-v2.1
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_TOOLS+=	pkg-config
 USE_LANGUAGES= c c++

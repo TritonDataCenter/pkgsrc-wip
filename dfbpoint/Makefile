@@ -12,7 +12,6 @@ HOMEPAGE=	http://www.directfb.org/
 COMMENT=	Simple presentation viewer that uses the DirectFB
 LICENSE=	gnu-lgpl-v2.1
 
-PKG_DESTDIR_SUPPORT=	user-destdir
 ONLY_FOR_PLATFORM=	Linux-*-*
 
 USE_LIBTOOL=		yes

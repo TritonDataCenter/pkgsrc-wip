@@ -11,8 +11,6 @@ HOMEPAGE=	http://djvu.sourceforge.net/djview4.html
 COMMENT=	Portable DjVu viewer and browser plugin
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=			${WRKDIR}/djview4-4.3
 GNU_CONFIGURE=		yes
 USE_LANGUAGES=		c c++

@@ -10,8 +10,6 @@ HOMEPAGE=			http://jak-linux.org/projects/dir2ogg
 COMMENT=			Command-line {wav,mp3,m4a} to ogg converter
 LICENSE=			gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=		user-destdir
-
 USE_LANGUAGES=			# none
 INSTALLATION_DIRS=		bin ${PKGMANDIR}/man1
 REPLACE_PYTHON+=		${WRKSRC}/dir2ogg

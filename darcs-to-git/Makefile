@@ -9,8 +9,6 @@ HOMEPAGE=	http://github.com/purcell/${PKGBASE}
 COMMENT=	Convert a Darcs repository into a Git repository
 LICENSE=	mit
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GIT_REPOSITORIES=	master
 GIT_REPO.master=	git://github.com/purcell/${PKGBASE}.git
 GIT_MODULE.master=	darcs-to-git

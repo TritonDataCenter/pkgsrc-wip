@@ -13,8 +13,6 @@ HOMEPAGE=	http://live.gnome.org/d-feet/
 COMMENT=	D-Feet is a powerful dbus debugger
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	# none
 
 PLIST_SUBST+=	PYVERSSUFFIX=${PYVERSSUFFIX}

@@ -11,8 +11,6 @@ HOMEPAGE=	http://dasm-dillon.sourceforge.net/
 COMMENT=	Multi-CPU cross-assembler for 6502, 6803, 68HC11 and others
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 NO_CONFIGURE=	YES
 USE_TOOLS+=	gmake
 
