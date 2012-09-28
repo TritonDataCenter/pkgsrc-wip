@@ -244,6 +244,7 @@ SUBDIR+=	boinc-lib
 SUBDIR+=	bonnie++-current
 SUBDIR+=	boost-test-suite
 SUBDIR+=	boost-threadpool
+SUBDIR+=	bpmcounter
 SUBDIR+=	bridge-utils
 SUBDIR+=	briquolo
 SUBDIR+=	brltty
