@@ -11,8 +11,6 @@ MAINTAINER=	cheusov@NetBSD.org
 HOMEPAGE=	http://www.freedict.org/
 COMMENT=	XSL files from FreeDict tools
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_TOOLS+=		install pax
 NO_BUILD=		yes
 

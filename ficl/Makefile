@@ -8,8 +8,6 @@ MAINTAINER=	asau@inbox.ru
 HOMEPAGE=	http://ficl.sourceforge.net/
 COMMENT=	Forth Inspired Command Language
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 BUILD_TARGET=	ficl
 
 MAJOR=		4

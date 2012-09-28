@@ -12,8 +12,6 @@ HOMEPAGE=	http://www.farsiweb.ir/wiki/Products/PersianFonts
 COMMENT=	Mothanna is a sans-serif like Arabic OpenType font
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	# none
 NO_BUILD=		yes
 

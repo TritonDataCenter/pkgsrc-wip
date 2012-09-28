@@ -13,8 +13,6 @@ MAKE_FILE=		GNUmakefile
 MAKE_ENV+=		prefix=${PREFIX:Q}
 USE_TOOLS+=		gmake perl
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 # not used, even though the configure output claims it
 #.include "../../graphics/ImageMagick/buildlink3.mk"
 .include "../../mk/jpeg.buildlink3.mk"

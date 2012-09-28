@@ -12,8 +12,6 @@ HOMEPAGE=	http://www.math.uic.edu/~t3m/
 COMMENT=	Computes extremal rays with filtering
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 VERSION=	1.0
 BUILD_TARGET=	${DISTNAME}.so
 PYDISTUTILSPKG=	yes

@@ -9,7 +9,6 @@ MAINTAINER=	clamiax@gmail.com
 HOMEPAGE=	http://fdm.sourceforge.net/
 COMMENT=	Mail fetching, filtering and delivering program
 
-PKG_DESTDIR_SUPPORT=	user-destdir
 NO_CONFIGURE=		yes
 
 # Makefile

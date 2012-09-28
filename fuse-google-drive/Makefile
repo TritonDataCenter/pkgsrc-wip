@@ -11,8 +11,6 @@ HOMEPAGE=	https://github.com/jcline/fuse-google-drive
 COMMENT=	FUSE filesystem wrapper for Google Drive
 LICENSE=	gplv2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GIT_REPOSITORIES=	fuse-google-drive
 GIT_REPO.fuse-google-drive=	http://github.com/jcline/fuse-google-drive.git
 GIT_TAG.fuse-google-drive=	1e1bfa00b6d55cabcb717d0109ffc374c0af0348

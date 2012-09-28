@@ -11,8 +11,6 @@ HOMEPAGE=	http://sourceforge.net/projects/ftgl/
 COMMENT=	C++ library of Freetype2 in OpenGL applications
 #LICENSE=	# TODO: (see mk/license.mk)
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/ftgl-2.1.3~rc5
 GNU_CONFIGURE=	yes
 USE_TOOLS+=	pkg-config

@@ -12,8 +12,6 @@ COMMENT=	Italian fortunes
 
 BUILD_DEPENDS+=	fortune-strfile-[0-9]*:../../games/fortune-strfile
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 STRFILE=	${LOCALBASE}/bin/strfile
 
 do-build:

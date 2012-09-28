@@ -11,8 +11,6 @@ MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://code.google.com/p/flyback/
 COMMENT=	Backup software inspired by Apple's Time Machine
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 DEPENDS+=	${PYPKGPREFIX}-gnome2-[0-9]*:../../x11/py-gnome2
 DEPENDS+=	${PYPKGPREFIX}-sqlite2-[0-9]*:../../databases/py-sqlite2
 DEPENDS+=	rsync-[0-9]*:../../net/rsync

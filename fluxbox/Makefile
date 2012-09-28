@@ -11,8 +11,6 @@ MAINTAINER=	loki.vt@gmail.com
 HOMEPAGE=	http://fluxbox.sourceforge.net/
 COMMENT=	Window Manager for X based on Blackbox
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	c c++
 GNU_CONFIGURE=	YES
 USE_TOOLS+=	gmake

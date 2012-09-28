@@ -11,8 +11,6 @@ HOMEPAGE=	http://www.feynarts.de/
 COMMENT=	Tool for drawing Feynman diagrams
 LICENSE=	gnu-lgpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	# none
 
 PKG_JVMS_ACCEPTED= sun-jdk6 sun-jdk15 sun-jdk14

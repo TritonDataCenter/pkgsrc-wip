@@ -11,8 +11,6 @@ HOMEPAGE=	http://www.feynhiggs.de/FeynHiggs.html
 COMMENT=	Fortran code for the diagrammatic calculation of the masses
 #LICENSE=	# TODO: (see mk/license.mk)
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 MAKE_JOBS_SAFE=NO
 
 GNU_CONFIGURE=	yes

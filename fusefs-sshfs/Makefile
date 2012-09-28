@@ -14,8 +14,6 @@ COMMENT=		Mount remote directories using ssh and FUSE
 GNU_CONFIGURE=		YES
 USE_TOOLS+=		gmake pkg-config
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 .include "../../mk/bsd.prefs.mk"
 
 .if ${OPSYS} == "Linux"

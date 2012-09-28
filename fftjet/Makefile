@@ -9,8 +9,6 @@ MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	http://projects.hepforge.org/fftjet/
 COMMENT=	Multiresolution jet reconstruction in the Fourier domain
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_TOOLS+=	pkg-config

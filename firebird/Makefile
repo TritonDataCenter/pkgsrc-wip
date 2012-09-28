@@ -12,8 +12,6 @@ MAINTAINER=		nel@soraneko.com, adam.hoka@gmail.com
 HOMEPAGE=		http://www.firebirdsql.org/
 COMMENT=		SQL database, opensource version of InterBase
 
-PKG_DESTDIR_SUPPORT+=	user-destdir
-
 USE_PKGLOCALEDIR=	yes
 USE_LANGUAGES=		c c++
 USE_LIBTOOL=		yes

@@ -10,8 +10,6 @@ HOMEPAGE=	http://fastjet.fr/
 COMMENT=	Software package for jet finding in pp and e+e- collisions
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 CHECK_PORTABILITY_SKIP= configure plugins/SISCone/siscone/configure \
 			configure.lineno
 GNU_CONFIGURE=	yes

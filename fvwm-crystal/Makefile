@@ -10,6 +10,8 @@ MAINTAINER=		milos.negovanovic@googlemail.com
 HOMEPAGE=		http://fvwm-crystal.org/
 COMMENT=		Easy to use, powerful desktop environment
 
+PKG_DESTDIR_SUPPORT=	none
+
 EGDIR=			${PREFIX}/share/examples/fvwm-crystal
 
 SUBST_CLASSES+=		python

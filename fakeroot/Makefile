@@ -13,8 +13,6 @@ COMMENT=	Run a command faking root privileges for file manipulation
 
 LICENSE=	gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/fakeroot-1.14.4
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes

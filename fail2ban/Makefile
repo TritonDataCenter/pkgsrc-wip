@@ -12,8 +12,6 @@ HOMEPAGE=	http://www.fail2ban.org/
 COMMENT=	Scans log files and bans IP that makes too many password failures
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	# none
 
 INSTALLATION_DIRS+=	${PKGMANDIR}/man1/

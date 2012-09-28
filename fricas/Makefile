@@ -13,8 +13,6 @@ LICENSE=		modified-bsd
 
 BUILD_DEPENDS+=		noweb-[0-9]*:../../devel/noweb
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=			${WRKDIR}/${PKGNAME_NOREV}
 
 GNU_CONFIGURE=		yes

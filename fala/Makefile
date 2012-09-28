@@ -11,8 +11,6 @@ HOMEPAGE=		http://fala.sourceforge.net/
 COMMENT=		Simple text reader
 LICENSE=		public-domain
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=			${WRKDIR}/fala
 USE_LANGUAGES=		# none
 
