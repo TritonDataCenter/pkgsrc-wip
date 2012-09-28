@@ -10,8 +10,6 @@ HOMEPAGE=	http://sourceforge.net/projects/djplay/files/djplay/0.5.0/
 COMMENT=	High class live DJing application
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 DEPENDS+=		bpmcounter-[0-9]*:../../wip/bpmcounter
 
 GNU_CONFIGURE=		yes
