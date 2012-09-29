@@ -3036,6 +3036,7 @@ SUBDIR+=	tcl-curl
 SUBDIR+=	tcl-expect
 SUBDIR+=	tcl-tclOO
 SUBDIR+=	tcl85
+SUBDIR+=	tcl85-itcl
 SUBDIR+=	tcl86
 SUBDIR+=	tcmplex-panteltje
 SUBDIR+=	tcpspy
