@@ -21,8 +21,10 @@ SUBST_SED.fix-linking=		-e 's,CFLAGS += -I/usr/X11R6/include -Wall,,g'
 SUBST_SED.fix-linking+=		-e 's,LDFLAGS += -L/usr/X11R6/lib -lImlib2 -lm,LDFLAGS += -lImlib2 -lm,g'
 
 
+INSTALLATION_DIRS=	bin
+
 do-install:
-	${INSTALL_PROGRAM} ${WRKSRC}/habak ${PREFIX}/bin
+	${INSTALL_PROGRAM} ${WRKSRC}/habak ${DESTDIR}${PREFIX}/bin
 
 
 .include "../../graphics/imlib2/buildlink3.mk"

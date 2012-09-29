@@ -15,6 +15,6 @@ WRKSRC=	${WRKDIR}/haze
 INSTALLATION_DIRS= sbin
 
 do-install:
-	${INSTALL_SCRIPT} ${WRKSRC}/haze ${PREFIX}/sbin/haze
+	${INSTALL_SCRIPT} ${WRKSRC}/haze ${DESTDIR}${PREFIX}/sbin/haze
 
 .include "../../mk/bsd.pkg.mk"
