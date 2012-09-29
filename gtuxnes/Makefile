@@ -24,9 +24,9 @@ do-build:
 	cd ${WRKSRC} && && ${SETENV} ${MAKE_ENV} ${MAKE}
 
 do-install:
-	${INSTALL_PROGRAM} ${WRKSRC}/gtuxnes ${PREFIX}/bin/gtuxnes
-	${INSTALL_DATA_DIR} ${PREFIX}/share/doc/gtuxnes
-	${INSTALL_DATA} ${WRKSRC}/README ${PREFIX}/share/doc/gtuxnes
+	${INSTALL_PROGRAM} ${WRKSRC}/gtuxnes ${DESTDIR}${PREFIX}/bin/gtuxnes
+	${INSTALL_DATA_DIR} ${DESTDIR}${PREFIX}/share/doc/gtuxnes
+	${INSTALL_DATA} ${WRKSRC}/README ${DESTDIR}${PREFIX}/share/doc/gtuxnes
 
 .include "../../x11/gtk/buildlink3.mk"
 .include "../../devel/glib/buildlink3.mk"
