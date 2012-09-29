@@ -1596,7 +1596,6 @@ SUBDIR+=	microblog-purple
 SUBDIR+=	microcom
 SUBDIR+=	microtetris
 SUBDIR+=	mid2gmc
-SUBDIR+=	mikutter-snapshot
 SUBDIR+=	milter-greylist-devel
 SUBDIR+=	mime-support
 SUBDIR+=	mimedefang

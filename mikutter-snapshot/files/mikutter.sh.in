@@ -1,6 +1,0 @@
-#! /bin/sh
-#
-# $NetBSD$
-#
-
-exec @PREFIX@/share/mikutter/mikutter.rb "$@"
