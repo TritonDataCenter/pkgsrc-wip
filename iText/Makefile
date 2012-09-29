@@ -18,8 +18,8 @@ do-extract:
 do-build:
 
 do-install:
-	${INSTALL_DATA_DIR} ${PREFIX}/lib/java
-	${INSTALL_DATA} ${DISTDIR}/${DISTNAME}.jar ${PREFIX}/lib/java/itext.jar
+	${INSTALL_DATA_DIR} ${DESTDIR}${PREFIX}/lib/java
+	${INSTALL_DATA} ${DISTDIR}/${DISTNAME}.jar ${DESTDIR}${PREFIX}/lib/java/itext.jar
 
 .include "../../mk/java-vm.mk"
 .include "../../mk/bsd.pkg.mk"
