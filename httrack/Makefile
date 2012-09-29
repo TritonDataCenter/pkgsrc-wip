@@ -12,8 +12,6 @@ HOMEPAGE=	http://www.httrack.com/
 COMMENT=	Easy-to-use offline browser utility
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=		yes
 LDFLAGS+=		-L${WRKSRC}/src/.libs/
 LIBTOOL_OVERRIDE=	${WRKSRC}/libtool

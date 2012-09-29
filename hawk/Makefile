@@ -10,8 +10,6 @@ MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	http://omnibus.uni-freiburg.de/~sd565/programs/hawk/
 COMMENT=	HAWK is a Monte Carlo integrator for pp -> H + 2jets
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 VERSION=	1.1
 USE_TOOLS+= gmake
 USE_LANGUAGES=	c

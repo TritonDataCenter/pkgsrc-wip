@@ -9,8 +9,6 @@ MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://www.haskell.org/haskell-mode/
 COMMENT=		Haskell mode for Emacs
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 
 MESSAGE_SUBST+=		LISPDIR=${EMACS_LISPPREFIX:Q}
 

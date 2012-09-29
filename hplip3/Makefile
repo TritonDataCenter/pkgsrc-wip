@@ -10,8 +10,6 @@ HOMEPAGE=		http://hplipopensource.com/
 COMMENT=		HP Linux Imaging and Printing
 LICENSE=		gnu-gpl-v2 AND mit AND modified-bsd
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 CONFLICTS+=		hpijs-[0-9]*
 
 FILES_SUBST+=           CUPS_USER=${CUPS_USER}

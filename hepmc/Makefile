@@ -13,8 +13,6 @@ LICENSE=	gnu-gpl-v2
 
 MAKE_JOBS_SAFE=NO
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_LANGUAGES=	c c++ fortran

@@ -11,8 +11,6 @@ HOMEPAGE=	http://tecnocode.co.uk/projects/hitori/
 COMMENT=	Hitori is an application that allow to play the eponymous puzzle game
 LICENSE=	gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_TOOLS+=	pkg-config intltool gmake

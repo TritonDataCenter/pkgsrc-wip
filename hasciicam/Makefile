@@ -16,5 +16,7 @@ USE_TOOLS+=		gmake
 
 ONLY_FOR_PLATFORM=	Linux-*-*
 
+PKG_DESTDIR_SUPPORT=	none
+
 .include "../../graphics/aalib/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

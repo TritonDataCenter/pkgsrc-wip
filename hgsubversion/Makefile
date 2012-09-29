@@ -12,8 +12,6 @@ HOMEPAGE=		http://bibucket.org/durin42/hgsubversion/
 COMMENT=		Subversion plugin for Mercurial
 LICENSE=		gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 DIST_SUBDIR=    hgsubversion
 WRKSRC=		${WRKDIR}/hgsubversion
 

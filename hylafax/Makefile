@@ -18,7 +18,6 @@ COMMENT=	Telecommunication and fax server system
 
 DEPENDS+=	mawk>=1.2.2:../../lang/mawk
 
-PKG_DESTDIR_SUPPORT=	user-destdir
 DIST_SUBDIR=	hylafax
 
 CONFLICTS=	hylafax-devel-[0-9]* mgetty-[0-9]*

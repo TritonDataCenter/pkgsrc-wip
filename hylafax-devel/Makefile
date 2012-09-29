@@ -22,7 +22,6 @@ DEPENDS+=	mawk>=1.2.2:../../lang/mawk
 
 DIST_SUBDIR=	hylafax
 
-PKG_DESTDIR_SUPPORT=	user-destdir
 CONFLICTS=	hylafax-[0-9]* mgetty-[0-9]*
 
 USE_LANGUAGES=		c c++

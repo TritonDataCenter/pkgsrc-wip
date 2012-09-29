@@ -13,8 +13,6 @@ LICENSE=	gnu-gpl-v3
 
 #DEPENDS+=	feynhiggs-[0-9]*:../../wip/feynhiggs
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=	${WRKDIR}/${DISTNAME}/HiggsBounds
 
 HAS_CONFIGURE= yes

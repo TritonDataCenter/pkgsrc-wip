@@ -11,8 +11,6 @@ HOMEPAGE=	http://homebank.free.fr/
 COMMENT=	HomeBank is to manage your personal accounts at home
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_PKGLOCALEDIR=   yes
 USE_TOOLS+=	pkg-config perl intltool gmake msgfmt

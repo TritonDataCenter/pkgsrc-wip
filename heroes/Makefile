@@ -11,6 +11,8 @@ MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://heroes.sourceforge.net/
 COMMENT=		Feature-packed game, like Nibbles or Tron clone
 
+PKG_DESTDIR_SUPPORT=	none
+
 BUILDLINK_API_DEPENDS.gettext+=	gettext-lib>=0.10.36
 
 WRKSRC=			${WRKDIR}

@@ -16,6 +16,8 @@ DEPENDS+=		psmisc-[0-9]*:../../sysutils/psmisc
 # The ptal-cups script require bash
 DEPENDS+=		bash-[0-9]*:../../shells/bash
 
+PKG_DESTDIR_SUPPORT=	none
+
 USE_TOOLS+=		gmake perl
 GNU_CONFIGURE=		YES
 
@@ -23,7 +25,7 @@ CONFIGURE_ARGS+=	--prefix=${PREFIX:Q} \
 			--with-cups-backend=${PREFIX:Q}/libexec/cups/backend \
 			--with-sane-backend=${PREFIX:Q}/lib/sane \
 			--with-sane-etc=${PREFIX:Q}/etc/sane.d \
- 			--with-usb=libusb \
+			--with-usb=libusb \
 			--without-snmp \
 			--without-qt
 

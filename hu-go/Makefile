@@ -11,6 +11,8 @@ MAINTAINER=		dillo@NetBSD.org
 HOMEPAGE=		http://www.zeograd.com/parse.php?src=hugof&path=0,1,
 COMMENT=		PC Engine emulator (with CD support)
 
+PKG_DESTDIR_SUPPORT=	none
+
 WRKSRC=			${WRKDIR}/hugo-2.11
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
