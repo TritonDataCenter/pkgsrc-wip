@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	opendnssec-1.4.0a2
+DISTNAME=	opendnssec-1.4.0b1
 CATEGORIES=	net security
 MASTER_SITES=	http://www.opendnssec.org/files/source/testing/
 
