@@ -9,8 +9,6 @@ MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://wiki.openstreetmap.org/wiki/Gosmore
 COMMENT=	Navigation program
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_TOOLS+=	gmake pkg-config
 USE_LANGUAGES+=	c c++
 GNU_CONFIGURE=	yes

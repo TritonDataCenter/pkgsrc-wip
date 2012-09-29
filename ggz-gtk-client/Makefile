@@ -10,6 +10,8 @@ MAINTAINER=	mrohrer@users.sourceforge.net
 HOMEPAGE=	http://www.ggzgamingzone.org
 COMMENT=	GGZ Gaming Zone libraries
 
+PKG_DESTDIR_SUPPORT=	none
+
 CONFIGURE_ARGS+= --enable-debug-gdb
 
 GNU_CONFIGURE=	yes

@@ -25,8 +25,6 @@ USE_BUILTIN.gettext=	no
 REPLACE_BASH+=		utils/sendsms
 USE_TOOLS+=		bash:run
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 pre-configure:
 	set -e; cd ${WRKSRC}; autoheader; autoconf
 

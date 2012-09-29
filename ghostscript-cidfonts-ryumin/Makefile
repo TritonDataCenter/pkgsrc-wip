@@ -18,7 +18,7 @@ MAINTAINER=	pkgsrc-users@NetBSD.org
 COMMENT=	Enable Ryumin-Light and GothicBBB for ghostscript
 
 .include	"../../wip/ghostscript/Makefile.common"
-PKG_DESTDIR_SUPPORT=	user-destdir
+
 GS_RESOURCEDIR=		share/ghostscript/${PKGVERSION}/Resource
 WRKSRC=			${WRKDIR}/gcr
 INSTALLATION_DIRS+=	${GS_RESOURCEDIR}/Font

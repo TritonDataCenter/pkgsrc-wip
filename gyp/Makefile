@@ -13,8 +13,6 @@ HOMEPAGE=	http://code.google.com/p/gyp/
 COMMENT=	GYP can Generate Your Projects
 LICENSE=	modified-bsd
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 SVN_REPOSITORIES=	gyp
 SVN_ROOT.gyp=		http://gyp.googlecode.com/svn/trunk/
 SVN_TAG.gyp=		${SVN_REVISION}

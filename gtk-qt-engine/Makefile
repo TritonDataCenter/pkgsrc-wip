@@ -11,6 +11,8 @@ MAINTAINER=	blair.sadewitz@gmail.com
 HOMEPAGE=	http://gtk-qt.ecs.soton.ac.uk/
 COMMENT=	Theme engine for gtk2 which uses qt widgets
 
+PKG_DESTDIR_SUPPORT=	none
+
 USE_LANGUAGES+=	c c++
 USE_TOOLS+=	gmake pkg-config
 GNU_CONFIGURE=	yes

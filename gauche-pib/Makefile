@@ -14,8 +14,6 @@ LICENSE=	modified-bsd
 GNU_CONFIGURE=	yes
 USE_TOOLS+=	gmake
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 .include "../../lang/gauche/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
 

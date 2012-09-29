@@ -9,6 +9,8 @@ MAINTAINER=		nel@soraneko.com
 HOMEPAGE=		http://sourceforge.jp/projects/gauche/
 COMMENT=		Fastcgi bindings for gauche
 
+PKG_DESTDIR_SUPPORT=	none
+
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 

@@ -11,6 +11,8 @@ MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://freshmeat.net/projects/gtk2flat/
 COMMENT=		Flat theme engine for GTK+ 2.x
 
+PKG_DESTDIR_SUPPORT=	none
+
 USE_LIBTOOL=		YES
 USE_TOOLS+=		gmake pkg-config
 GNU_CONFIGURE=		YES

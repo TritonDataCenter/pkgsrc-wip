@@ -11,8 +11,6 @@ HOMEPAGE=	http://projects.hepforge.org/gsdpdf
 COMMENT=	Gaunt-Stirling double Parton Distribution Functions
 #LICENSE=	# TODO: (see mk/license.mk)
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}
 
 NO_BUILD=	yes

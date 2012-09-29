@@ -11,8 +11,6 @@ HOMEPAGE=	http://gwibber.com/
 COMMENT=	Open source microblogging client
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 PYDISTUTILSPKG=	yes
 
 USE_LANGUAGES=	# none

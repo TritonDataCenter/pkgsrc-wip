@@ -11,6 +11,8 @@ COMMENT=	GTK2/GNOME CD/DVD burning application
 
 DEPENDS+=	cdrtools>=2.01:../../sysutils/cdrtools
 
+PKG_DESTDIR_SUPPORT=	none
+
 USE_TOOLS+=		pkg-config msgfmt intltool
 GNU_CONFIGURE=		YES
 

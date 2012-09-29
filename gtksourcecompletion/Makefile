@@ -11,7 +11,6 @@ HOMEPAGE=	http://gtksourcecomple.sourceforge.net/
 COMMENT=	GtkSourceCompletion
 LICENSE=	gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT= user-destdir
 GNU_CONFIGURE=	yes
 USE_PKGLOCALEDIR= yes
 USE_LIBTOOL=	yes

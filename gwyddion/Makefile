@@ -11,8 +11,6 @@ HOMEPAGE=	http://gwyddion.sourceforge.net/
 COMMENT=	Gtk2 based SPM data visualization and analysis tool
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=		yes
 CONFIGURE_ENV+=		PYTHON=${PYTHONBIN}
 USE_LIBTOOL=		yes

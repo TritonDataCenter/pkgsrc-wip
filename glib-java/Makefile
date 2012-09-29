@@ -9,8 +9,6 @@ MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://java-gnome.sourceforge.net/
 COMMENT=		Glib bindings for Java
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=		yes
 USE_LIBTOOL=		yes
 USE_LANGUAGES+=		c

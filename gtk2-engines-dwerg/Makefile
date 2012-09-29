@@ -13,6 +13,8 @@ MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://themes.freshmeat.net/projects/dwerg/
 COMMENT=		Theme engine for GTK+ 2.x
 
+PKG_DESTDIR_SUPPORT=	none
+
 USE_LIBTOOL=		YES
 USE_TOOLS+=		gmake pkg-config
 GNU_CONFIGURE=		YES

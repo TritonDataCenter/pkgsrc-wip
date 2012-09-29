@@ -11,8 +11,6 @@ HOMEPAGE=	https://launchpad.net/gtkhotkey/
 COMMENT=	GtkHotkey library Platform independent hotkey handling for Gtk+
 LICENSE=	gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=    user-destdir
-
 GNU_CONFIGURE=	yes
 USE_PKGLOCALEDIR= yes
 USE_LIBTOOL=	yes

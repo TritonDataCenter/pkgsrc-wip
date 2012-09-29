@@ -12,8 +12,6 @@ HOMEPAGE=	http://code.google.com/p/gtkaml/
 COMMENT=	Gtkaml is an xml parser that extends the Vala
 LICENSE=	gnu-lgpl-v2.1
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_TOOLS+=	pkg-config gmake
 

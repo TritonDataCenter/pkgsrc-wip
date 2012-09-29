@@ -10,8 +10,6 @@ HOMEPAGE=	http://gappa.gforge.inria.fr/
 COMMENT=	Formal tool for certifying numerical applications
 #LICENSE=	# TODO: (see mk/license.mk)
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_TOOLS+=	pkg-config bison flex
 USE_LANGUAGES=	c c++

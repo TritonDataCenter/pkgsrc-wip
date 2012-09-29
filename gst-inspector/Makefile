@@ -13,8 +13,6 @@ HOMEPAGE=	http://renestadler.de/projects/gst-inspector/
 COMMENT=	Multimedia system plugin introspection for the GStreamer framework
 LICENSE=	gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_PKGLOCALEDIR=	yes
 USE_TOOLS+=		intltool msgfmt gettext
 

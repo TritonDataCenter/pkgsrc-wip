@@ -13,8 +13,6 @@ COMMENT=	Fast interpreter for the Forth language
 CVS_REPOSITORIES=	gforth
 CVS_ROOT.gforth=	:pserver:anonymous:@c1.complang.tuwien.ac.at:/nfs/unsafe/cvs-repository/src-master
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=		yes
 INFO_FILES=		yes
 

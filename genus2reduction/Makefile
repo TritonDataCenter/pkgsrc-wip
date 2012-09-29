@@ -10,8 +10,6 @@ HOMEPAGE=	http://www.math.u-bordeaux.fr/~liu/G2R/
 COMMENT=	Conductor and Reduction Types for Genus 2 Curves
 #LICENSE=	# TODO: (see mk/license.mk)
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_TOOLS+=	gmake
 USE_LANGUAGES=	c c++
 

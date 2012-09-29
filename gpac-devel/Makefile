@@ -11,8 +11,6 @@ MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://gpac.sourceforge.net/
 COMMENT=	Open source multimedia framework
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 MAKE_JOBS_SAFE=		no
 
 SVN_REPOSITORIES=	gpac

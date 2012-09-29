@@ -9,6 +9,8 @@ MAINTAINER=		ccatrian@eml.cc
 HOMEPAGE=		http://gfontview.sourceforge.net/
 COMMENT=		Outline font viewer for X11
 
+PKG_DESTDIR_SUPPORT=	none
+
 USE_LANGUAGES=		c c++
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes

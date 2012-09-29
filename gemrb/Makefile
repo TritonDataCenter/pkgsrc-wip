@@ -10,8 +10,6 @@ HOMEPAGE=	http://gemrb.sourceforge.net/
 COMMENT=	Open Source clone of the Infinity Engine
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_CMAKE=	yes
 USE_LIBTOOL=	yes
 USE_LANGUAGES=	c c++

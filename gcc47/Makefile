@@ -23,8 +23,6 @@ USE_TOOLS+=		awk:run bash:run perl chmod \
 			gmake:run makeinfo msgfmt bison flex gm4 \
 			sed:run unzip
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 UNLIMIT_RESOURCES+=	datasize
 UNLIMIT_RESOURCES+=	stacksize
 

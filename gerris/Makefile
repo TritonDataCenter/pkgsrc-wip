@@ -10,8 +10,6 @@ HOMEPAGE=	http://gfs.sourceforge.net/wiki/index.php/Main_Page
 COMMENT=	Software the solution of the PDE describing fluid flow
 #LICENSE=	# TODO: (see mk/license.mk)
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_TOOLS+=	pkg-config pax

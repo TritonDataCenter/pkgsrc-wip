@@ -9,8 +9,6 @@ DISTFILES=	# empty
 MAINTAINER=	pkgsrc-users@NetBSD.org
 COMMENT=	CIDFont resources for Ghostscript
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 DEPENDS+=	adobe-cidfonts>=20000901:../../fonts/adobe-cidfonts
 DEPENDS+=	ghostscript-[0-9]*:../../wip/ghostscript
 

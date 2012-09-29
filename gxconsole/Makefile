@@ -10,7 +10,6 @@ MAINTAINER=	pkgsrc.gnome@gmail.com
 HOMEPAGE=	http://gxconsole.sourceforge.net/
 COMMENT=	Gxconsole is gtk-based reading system console messages like xconsole
 
-PKG_DESTDIR_SUPPORT=		user-destdir
 WRKSRC=		${WRKDIR}/gxconsole
 GNU_CONFIGURE=	yes
 USE_TOOLS+=		pkg-config

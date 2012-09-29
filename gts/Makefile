@@ -11,8 +11,6 @@ HOMEPAGE=	http://gts.sourceforge.net/
 COMMENT=	GTS stands for the GNU Triangulated Surface Library
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_TOOLS+=	pkg-config gmake

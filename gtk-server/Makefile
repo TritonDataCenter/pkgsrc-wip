@@ -10,6 +10,8 @@ MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://www.gtk-server.org/
 COMMENT=		Small tool to enable GUI access for shell scripts
 
+PKG_DESTDIR_SUPPORT=	none
+
 USE_PKGLOCALEDIR=	yes
 USE_TOOLS+=		pkg-config
 GNU_CONFIGURE=		yes

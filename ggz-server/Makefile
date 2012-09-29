@@ -10,6 +10,8 @@ MAINTAINER=	mrohrer@users.sourceforge.net
 HOMEPAGE=	http://mirrors.ibiblio.org/pub/mirrors/ggzgamingzone/ggz/0.0.14/
 COMMENT=	GGZ Gaming Zone - Server package
 
+PKG_DESTDIR_SUPPORT=	none
+
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_LANGUAGES=	c c++

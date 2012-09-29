@@ -10,6 +10,8 @@ MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://nostatic.org/grip/
 COMMENT=		CD-player and CD-ripper for the Gnome desktop
 
+PKG_DESTDIR_SUPPORT=	none
+
 USE_TOOLS+=		gmake msgfmt
 USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=		yes

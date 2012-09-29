@@ -12,8 +12,6 @@ HOMEPAGE=	http://www.gnome.org/
 COMMENT=	Easy user-level file sharing
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LIBTOOL=		yes
 USE_TOOLS+=		gmake intltool pkg-config # msgfmt
 USE_PKGLOCALEDIR=	yes

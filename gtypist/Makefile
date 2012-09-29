@@ -10,8 +10,6 @@ HOMEPAGE=		http://www.gnu.org/software/gtypist/
 COMMENT=		Universal typing tutor
 LICENSE=		gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 # The *.typ files are not interpreted. They are normally accessed by
 # starting gtypist with an argument.
 CHECK_INTERPRETER_SKIP+=	share/gtypist/ru.typ

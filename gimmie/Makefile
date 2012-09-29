@@ -10,8 +10,6 @@ MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://beatniksoftware.com/gimmie
 COMMENT=	Creative panel replacement
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_PKGLOCALEDIR= yes
 USE_LIBTOOL=	yes

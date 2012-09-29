@@ -12,6 +12,8 @@ MAINTAINER=	minskim@NetBSD.org
 HOMEPAGE=	http://gdesklets.de/
 COMMENT=	Advanced architecture for desktop applets
 
+PKG_DESTDIR_SUPPORT=	none
+
 GNU_CONFIGURE=	YES
 USE_TOOLS+=	gmake pkg-config intltool
 USE_LIBTOOL=	YES

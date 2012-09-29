@@ -10,8 +10,6 @@ HOMEPAGE=	ftp://ftp.gnu.org/gnu/guile/
 COMMENT=	The official extension language for the GNU operating system.
 LICENSE=	gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_TOOLS+=	pkg-config
 

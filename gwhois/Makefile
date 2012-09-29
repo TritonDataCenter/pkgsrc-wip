@@ -10,8 +10,6 @@ MAINTAINER=			mj@mjturner.net
 HOMEPAGE=			http://gwhois.de/gwhois/
 COMMENT=			Flexible whois client and proxy
 
-PKG_DESTDIR_SUPPORT=		user-destdir
-
 USE_TOOLS+=			perl
 REPLACE_PERL+=			gwhois
 

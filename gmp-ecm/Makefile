@@ -19,7 +19,6 @@ CONFIGURE_ARGS+=	--with-gmp=${BUILDLINK_PREFIX.gmp}
 #USE_LIBTOOL=		YES
 
 TEST_TARGET=		check
-PKG_DESTDIR_SUPPORT=	user-destdir
 
 .include "options.mk"
 .include "../../devel/gmp/buildlink3.mk"

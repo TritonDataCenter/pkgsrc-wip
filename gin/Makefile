@@ -11,8 +11,6 @@ HOMEPAGE=	http://code.google.com/p/google-gin/
 COMMENT=	GIN is Guice for Google Web Toolkit client-side code
 LICENSE=	apache-2.0
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}
 
 NO_BUILD=	yes

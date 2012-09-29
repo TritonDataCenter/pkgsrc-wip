@@ -10,8 +10,6 @@ HOMEPAGE=	http://mg.pov.lt/gtimelog/
 COMMENT=	Small Gtk+ app for keeping track of your time
 LICENSE=	gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	# none
 
 PYTHON_PATCH_SCRIPTS+=	src/gtimelog/main.py src/gtimelog/test_gtimelog.py scripts/*.py

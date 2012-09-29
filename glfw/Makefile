@@ -11,8 +11,6 @@ HOMEPAGE=	http://www.glfw.org/
 COMMENT=	GLFW is a free, Open Source, multi-platform library of OpenGL
 #LICENSE=	zlib/libpng license
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_TOOLS+=	pkg-config
 
 PKGCONFIG_OVERRIDE+=	lib/win32/libglfw.pc.in

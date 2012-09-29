@@ -10,8 +10,6 @@ HOMEPAGE=	http://zeank.in-berlin.de/gtkimonc/
 COMMENT=	GTK version of the fli4l monitoring tool
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	YES
 USE_TOOLS+=	pkg-config
 

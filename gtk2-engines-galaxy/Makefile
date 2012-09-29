@@ -11,6 +11,8 @@ MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://art.gnome.org/
 COMMENT=		Another theme engine for GTK+ 2.x
 
+PKG_DESTDIR_SUPPORT=	none
+
 USE_LIBTOOL=		YES
 USE_TOOLS+=		gmake
 GNU_CONFIGURE=		YES

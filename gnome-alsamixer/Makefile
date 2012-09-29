@@ -10,6 +10,8 @@ MAINTAINER=		reed@reedmedia.net
 HOMEPAGE=		http://www.paw.za.org/projects/gnome-alsamixer/
 COMMENT=		Sound mixer for Advanced Linux Sound Architecture (ALSA)
 
+PKG_DESTDIR_SUPPORT=	none
+
 GNU_CONFIGURE=		yes
 
 .include "../../devel/libgnomeui/buildlink3.mk"

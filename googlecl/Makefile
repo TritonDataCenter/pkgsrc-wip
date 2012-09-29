@@ -10,8 +10,6 @@ HOMEPAGE=	http://code.google.com/p/googlecl/
 COMMENT=	Command line tools for the Google Data APIs
 LICENSE=	apache-2.0
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 INSTALLATION_DIRS=	${PKGMANDIR}/man1
 
 USE_LANGUAGES=	# none

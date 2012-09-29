@@ -8,8 +8,6 @@ PKGNAME=		${COMPONENT}-${MESA_PKGVERSION}
 DISTNAME=		${MESA_DISTNAME}
 MASTER_SITES=		${MESA_SITES}
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 PATCHDIR=	${.CURDIR}/../../wip/glsl/patches
 DISTINFO_FILE=	${.CURDIR}/../../wip/glsl/distinfo
 

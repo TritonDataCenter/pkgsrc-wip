@@ -10,8 +10,6 @@ MAINTAINER=	pkgsrc-users@netbsd.org
 HOMEPAGE=	http://code.google.com/p/gconf-cleaner/
 COMMENT=	Cleaning tool for GConf
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_TOOLS+=	pkg-config perl intltool gmake

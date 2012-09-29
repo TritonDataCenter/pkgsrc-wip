@@ -15,6 +15,8 @@ COMMENT=		User interface builder for the GTK2+ toolkit and GNOME2
 
 CONFLICTS+=		glade-*
 
+PKG_DESTDIR_SUPPORT=	none
+
 GNU_CONFIGURE=		YES
 USE_PKGLOCALEDIR=	YES
 USE_TOOLS+=		gmake msgfmt pkg-config

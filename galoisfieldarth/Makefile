@@ -11,8 +11,6 @@ HOMEPAGE=	http://www.partow.net/
 COMMENT=	Galois Field Arithmetic Library
 LICENSE=	cpl-1.0
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 VERSION=	2006
 USE_LANGUAGES=	c++
 

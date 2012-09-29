@@ -17,8 +17,6 @@ DEPENDS+=	${PYPKGPREFIX}-cairo>=1.8.6:../../graphics/py-cairo
 DEPENDS+=	${PYPKGPREFIX}-gtksourceview>=2.6.0:../../x11/gtksourceview
 DEPENDS+=	${PYPKGPREFIX}-gtk2>=1.99.12:../../x11/py-gtk2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	# none
 
 PYDISTUTILSPKG=	yes
