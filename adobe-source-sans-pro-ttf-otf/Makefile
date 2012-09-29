@@ -12,8 +12,6 @@ HOMEPAGE=	http://sourceforge.net/projects/sourcesans.adobe/
 COMMENT=	Adobe Source Sans Pro TTF fonts
 LICENSE=	open-font-license
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=			${WRKDIR}/${DISTNAME}
 NO_BUILD=		yes
 NO_CONFIGURE=		yes
