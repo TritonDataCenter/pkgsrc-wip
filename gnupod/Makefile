@@ -1,4 +1,4 @@
-e# $NetBSD$
+# $NetBSD$
 #
 
 DISTNAME=		gnupod-0.99.6
