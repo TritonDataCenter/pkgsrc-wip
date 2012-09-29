@@ -1,0 +1,6 @@
+$NetBSD$
+
+SHA1 (xa-2.3.5.tar.gz) = d8f4564953adfcee69faacfa300b954875fabe21
+RMD160 (xa-2.3.5.tar.gz) = 7b03a1b217dc855064f7b2b952bdb3762bfed014
+Size (xa-2.3.5.tar.gz) = 132551 bytes
+SHA1 (patch-Makefile) = 88d8935af055eb58495391237d8e62b4705708bb
