@@ -15,9 +15,9 @@ MISCDIR=		${PREFIX}/share/gps
 DOCSDIR=		${PREFIX}/share/doc/gps
 
 post-install:
-	${INSTALL_DATA_DIR} ${MISCDIR} ${DOCSDIR}
-	${INSTALL_DATA} ${WRKSRC}/AUTHORS ${WRKSRC}/COPYING ${WRKSRC}/ChangeLog ${MISCDIR}
-	${INSTALL_DATA} ${WRKSRC}/docs/* ${DOCSDIR}
+	${INSTALL_DATA_DIR} ${DESTDIR}${MISCDIR} ${DESTDIR}${DOCSDIR}
+	${INSTALL_DATA} ${WRKSRC}/AUTHORS ${WRKSRC}/COPYING ${WRKSRC}/ChangeLog ${DESTDIR}${MISCDIR}
+	${INSTALL_DATA} ${WRKSRC}/docs/* ${DESTDIR}${DOCSDIR}
 
 .include "../../devel/libnet10/buildlink3.mk"
 .include "../../net/libpcap/buildlink3.mk"
