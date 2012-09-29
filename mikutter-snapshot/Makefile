@@ -13,7 +13,7 @@ LICENSE=	gnu-gpl-v3
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
-RUBY_VERSION_SUPPORTED=	19
+RUBY_VERSION_SUPPORTED=	193
 
 .include "../../lang/ruby/rubyversion.mk"
 
