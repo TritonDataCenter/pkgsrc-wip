@@ -11,8 +11,6 @@ HOMEPAGE=	http://ficus-www.cs.ucla.edu/geoff/ispell.html
 COMMENT=	"meta-package" for ispell spell checker dictionaries
 #LICENSE=	# TODO: (see mk/license.mk)
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	# none
 
 DEPENDS+=	ispell-base>=3.3.02:../../textproc/ispell-base

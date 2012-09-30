@@ -11,8 +11,6 @@ HOMEPAGE=	http://i3wm.org/i3lock/
 COMMENT=	Slightly improved screen locker based on slock
 LICENSE=	modified-bsd
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_TOOLS+=	gmake pkg-config
 USE_LANGUAGES=	c99
 

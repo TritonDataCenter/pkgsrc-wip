@@ -9,6 +9,8 @@ MAINTAINER=		ola@mrEriksson.net
 HOMEPAGE=		http://ipmitool.sourceforge.net/
 COMMENT=		Provides command-line interface to IPMI-enabled devices
 
+PKG_DESTDIR_SUPPORT=	none
+
 CONFIGURE_ARGS+=	--enable-intf-imb=no
 
 USE_PKGLOCALEDIR=	yes

@@ -12,8 +12,6 @@ HOMEPAGE=	http://ossipedia.ipa.go.jp/ipafont/
 COMMENT=	TrueType IPA fonts based on JIS X0208
 # LICENSE=	IPA Public Font End User License (not OSI certified)
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_X11BASE=	YES
 NO_CONFIGURE=	YES
 NO_BUILD=	YES

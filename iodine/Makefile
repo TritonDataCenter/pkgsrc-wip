@@ -10,8 +10,6 @@ HOMEPAGE=		http://code.kryo.se/iodine/
 COMMENT=		Tool to tunnel IPv4 over DNS
 LICENSE=		mit
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 PKG_USERS=		iodine:iodine
 PKG_GROUPS=		iodine
 

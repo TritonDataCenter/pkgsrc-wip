@@ -9,6 +9,8 @@ MAINTAINER=	charlie@rubberduck.com
 HOMEPAGE=	http://gael.roualland.free.fr/ifstat/
 COMMENT=	Tool to report network interfaces bandwidth
 
+PKG_DESTDIR_SUPPORT=	none
+
 GNU_CONFIGURE=	YES
 
 CONFIGURE_ARGS+= --with-route # NetBSD

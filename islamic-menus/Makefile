@@ -10,8 +10,6 @@ HOMEPAGE=	https://launchpad.net/islamic-menu
 COMMENT=	Islamic menu categories for applications under GNOME and KDE
 LICENSE=	gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/${DISTNAME}
 
 USE_TOOLS+=	gmake intltool msgfmt

@@ -13,8 +13,6 @@ HOMEPAGE=	http://www.codeplex.com/IronPython
 COMMENT=	Python implementation targeting the .NET and Mono platforms
 #LICENSE=	LICENSE
 
-PKG_DESTDIR_SUPPORT= user-destdir
-
 WRKSRC=		${WRKDIR}/IronPython-1.0.1
 USE_TOOLS+=	gmake
 USE_LANGUAGES=	# none

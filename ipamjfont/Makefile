@@ -12,8 +12,6 @@ HOMEPAGE=	http://ossipedia.ipa.go.jp/ipamjfont/
 COMMENT=	Font for Japanese names
 LICENSE=	ipafont
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	# none
 NO_CONFIGURE=	yes
 NO_BUILD=	yes

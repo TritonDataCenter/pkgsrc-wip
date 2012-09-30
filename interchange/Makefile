@@ -37,6 +37,8 @@ MESSAGE_SUBST+=	ICUSER=${INTERCHANGE_USER}	\
 			ICGROUP=${INTERCHANGE_GROUP}	\
 			ICDIR=${INTERCHANGE_DIR}
 
+PKG_DESTDIR_SUPPORT=	none
+
 .include "../../mk/bsd.prefs.mk"
 
 USE_TOOLS+=		perl

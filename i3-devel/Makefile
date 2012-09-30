@@ -11,8 +11,6 @@ HOMEPAGE=	http://i3wm.org/
 COMMENT=	Improved dynamic tiling window manager
 LICENSE=	modified-bsd
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_TOOLS+=	gmake bison lex yacc pkg-config
 USE_LANGUAGES=	c99
 MAKE_JOBS_SAFE=	no

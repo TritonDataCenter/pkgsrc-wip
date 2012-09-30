@@ -10,6 +10,8 @@ MAINTAINER=	jfranz@bsdprojects.net
 HOMEPAGE=	http://code.google.com/p/iksemel/
 COMMENT=	XML parser library mainly designed for Jabber applications
 
+PKG_DESTDIR_SUPPORT=	none
+
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_TOOLS+=	pkg-config
