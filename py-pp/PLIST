@@ -1,5 +1,5 @@
 @comment $NetBSD$
-bin/ppserver2.7
+bin/ppserver${PYVERSSUFFIX}
 ${PYSITELIB}/pp.py
 ${PYSITELIB}/pp.pyc
 ${PYSITELIB}/pp.pyo
