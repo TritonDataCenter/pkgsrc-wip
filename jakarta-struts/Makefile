@@ -13,8 +13,8 @@ COMMENT=		struts is struts xD
 do-build:
 
 do-install:
-	${INSTALL_DATA_DIR} ${PREFIX}/lib/java/jakarta-struts/
-	${INSTALL_DATA} ${WRKSRC}/lib/* \
+	${INSTALL_DATA_DIR} ${DESTDIR}${PREFIX}/lib/java/jakarta-struts/
+	${INSTALL_DATA} ${DESTDIR}${WRKSRC}/lib/* \
 		${PREFIX}/lib/java/jakarta-struts/
 
 .include "../../mk/java-vm.mk"
