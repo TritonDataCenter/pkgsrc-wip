@@ -14,13 +14,15 @@ DEPENDS=		p5-Net-Jabber>=1.26:../../chat/p5-Net-Jabber
 USE_TOOLS+=		perl
 REPLACE_PERL=	${WRKSRC}/ile.pl
 
+INSTALLATION_DIRS=	bin
+
 do-build:
 
 do-install:
-	${INSTALL_SCRIPT} ${WRKSRC}/ile.pl ${PREFIX}/bin/ile.pl
-	${INSTALL_DATA_DIR} ${PREFIX}/share/doc/ile/
-	${INSTALL_DATA} ${WRKSRC}/docs/* ${PREFIX}/share/doc/ile/
-	${INSTALL_DATA_DIR} ${PREFIX}/share/examples/ile/
-	${INSTALL_DATA} ${WRKSRC}/ile.xml ${PREFIX}/share/examples/ile/ile.xml
+	${INSTALL_SCRIPT} ${WRKSRC}/ile.pl ${DESTDIR}${PREFIX}/bin/ile.pl
+	${INSTALL_DATA_DIR} ${DESTDIR}${PREFIX}/share/doc/ile/
+	${INSTALL_DATA} ${WRKSRC}/docs/* ${DESTDIR}${PREFIX}/share/doc/ile/
+	${INSTALL_DATA_DIR} ${DESTDIR}${PREFIX}/share/examples/ile/
+	${INSTALL_DATA} ${WRKSRC}/ile.xml ${DESTDIR}${PREFIX}/share/examples/ile/ile.xml
 
 .include "../../mk/bsd.pkg.mk"

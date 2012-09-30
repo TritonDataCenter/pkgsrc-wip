@@ -35,9 +35,9 @@ do-configure:
 .endfor
 
 do-install:
-	${INSTALL_SCRIPT} ${WRKSRC}/igowin.sh ${PREFIX}/bin/igowin
+	${INSTALL_SCRIPT} ${WRKSRC}/igowin.sh ${DESTDIR}${PREFIX}/bin/igowin
 .for f in ${IGOWIN_FILES}
-	${INSTALL_DATA} ${WRKSRC}/${f} ${IGOWIN_DIR}/${f}
+	${INSTALL_DATA} ${WRKSRC}/${f} ${DESTDIR}${IGOWIN_DIR}/${f}
 .endfor
 
 .include "../../emulators/wine/buildlink3.mk"
