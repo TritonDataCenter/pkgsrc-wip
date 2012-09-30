@@ -291,6 +291,7 @@ SUBDIR+=	cclive
 SUBDIR+=	ccrtp
 SUBDIR+=	ccrypt
 SUBDIR+=	cddlib
+SUBDIR+=    cde
 SUBDIR+=	cdogs
 SUBDIR+=	cdpr
 SUBDIR+=	cedet
