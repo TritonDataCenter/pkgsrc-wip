@@ -372,7 +372,7 @@ do-build:
 	@${TRUE}
 
 do-install:
-	${INSTALL_DATA_DIR} ${PREFIX}/share/koha
-	${CP} -r ${WRKDIR}/${DISTNAME}/* ${PREFIX}/share/koha
+	${INSTALL_DATA_DIR} ${DESTDIR}${PREFIX}/share/koha
+	${CP} -r ${WRKDIR}/${DISTNAME}/* ${DESTDIR}${PREFIX}/share/koha
 
 .include "../../mk/bsd.pkg.mk"
