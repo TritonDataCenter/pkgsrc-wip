@@ -1,5 +1,7 @@
 $NetBSD$
 
+Rename internal getline so it doesn't conflict with libc's
+
 --- src/xa.c.orig	2009-01-21 16:57:32.000000000 +0000
 +++ src/xa.c
 @@ -87,7 +87,7 @@ static int pass2(void);
