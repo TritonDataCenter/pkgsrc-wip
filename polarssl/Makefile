@@ -12,8 +12,6 @@ HOMEPAGE=		http://polarssl.org/
 COMMENT=		Lightweight, modular cryptographic and SSL/TLS library
 LICENSE=		gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=			${WRKDIR}/${PKGNAME_NOREV}
 USE_TOOLS+=		gmake
 USE_LANGUAGES=		c
