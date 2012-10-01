@@ -15,8 +15,6 @@ HOMEPAGE=	http://iut-tice.ujf-grenoble.fr/kicad/
 COMMENT=	Schematic and PCB CAD software
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=			${WRKDIR}/KiCad_sources
 USE_PKGLOCALEDIR=	yes
 USE_LANGUAGES=		c c++

@@ -10,8 +10,6 @@ HOMEPAGE=	http://fallabs.com/kyototycoon/
 COMMENT=	Kyoto Tycoon is a lightweight database server for Kyoto Cabinet
 LICENSE=	gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_TOOLS+=	pkg-config
 USE_TOOLS+=	gmake

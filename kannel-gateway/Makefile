@@ -9,6 +9,8 @@ MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://www.kannel.org/download/1.2.1/
 COMMENT=		Kannel WAP gateway
 
+PKG_DESTDIR_SUPPORT=	none
+
 USE_TOOLS+=		gmake
 USE_LIBTOOL=		yes
 GNU_CONFIGURE=		yes

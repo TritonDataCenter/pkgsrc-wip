@@ -12,6 +12,8 @@ HOMEPAGE=		http://kplayer.sourceforge.net/
 COMMENT=		KDE media player based on MPlayer
 LICENSE=		gnu-gpl-v3
 
+PKG_DESTDIR_SUPPORT=	none
+
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 USE_LIBTOOL=		yes

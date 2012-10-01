@@ -13,6 +13,8 @@ COMMENT=		Sprite engine in C++ that uses SDL library
 
 CONFLICTS+=		kyra2-*
 
+PKG_DESTDIR_SUPPORT=	none
+
 WRKSRC=			${WRKDIR}/kyra
 USE_PKGLOCALEDIR=	yes
 USE_LANGUAGES=		c c++

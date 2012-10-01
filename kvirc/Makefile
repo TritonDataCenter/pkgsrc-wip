@@ -15,8 +15,6 @@ MAINTAINER=		siflfran@hawo.stw.uni-erlangen.de
 HOMEPAGE=		http://www.kvirc.net/
 COMMENT=		QT based irc client
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_TOOLS+=		gmake msgfmt perl
 USE_LANGUAGES=		c c++
 USE_LIBTOOL=		yes

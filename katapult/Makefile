@@ -15,7 +15,6 @@ USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=		yes
 USE_TOOLS+=		gmake
 USE_LANGUAGES=		c c++
-PKG_DESTDIR_SUPPORT=	user-destdir
 
 .include "../../meta-pkgs/kde3/kde3.mk"
 .include "../../graphics/hicolor-icon-theme/buildlink3.mk"

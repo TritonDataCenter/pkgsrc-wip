@@ -13,8 +13,6 @@ HOMEPAGE=	http://sourceforge.net/projects/arabeyes/files/kacst_fonts/
 COMMENT=	Truetype Arabic fonts created by KACST
 LICENSE=	gnu-lgpl-v2.1
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/KacstArabicFonts-2.01
 USE_LANGUAGES=	# none
 USE_TOOLS+=	pax

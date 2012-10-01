@@ -11,8 +11,6 @@ HOMEPAGE=	ftp://ftp.netlabs.org/pub/kbuild/
 COMMENT=	Framework for writing simple makefiles for complex tasks
 LICENSE=	gnu-gpl-v3 # but also various other licenses in 3rd party code
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 NO_CONFIGURE=		yes
 USE_PKGLOCALEDIR=	yes
 WRKSRC=			${WRKDIR}/kBuild-0.1.5-p2

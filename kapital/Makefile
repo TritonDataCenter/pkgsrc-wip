@@ -35,6 +35,8 @@ _FETCH_MESSAGE= \
 	${ECHO} ; \
 	${ECHO} "======================================================================"
 
+PKG_DESTDIR_SUPPORT=	none
+
 USE_TOOLS+=	gmake
 GNU_CONFIGURE=	YES
 USE_LIBTOOL=	YES

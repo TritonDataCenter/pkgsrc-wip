@@ -10,8 +10,6 @@ HOMEPAGE=	http://www.phontron.com/kytea/
 COMMENT=	Kyoto Text Analysis Toolkit
 LICENSE=	apache-2.0
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 RESTRICTED=	Included model is not re-distributed without prior permission.
 NO_SRC_ON_FTP=		${RESTRICTED}
 NO_SRC_ON_CDROM=	${RESTRICTED}
