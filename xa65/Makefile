@@ -10,8 +10,6 @@ HOMEPAGE=		http://www.floodgap.com/retrotech/xa/
 COMMENT=		Cross assembler for MOS Technologies 6502
 LICENSE=		gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 NO_CONFIGURE=		yes
 
 .include "../../mk/bsd.pkg.mk"
