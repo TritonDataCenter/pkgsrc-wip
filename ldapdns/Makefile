@@ -15,13 +15,15 @@ BUILD_TARGET=	it
 GNU_CONFIGURE=	YES
 RCD_SCRIPTS=	ldapdns
 
+INSTALLATION_DIRS=	sbin
+
 do-install:
-	${INSTALL_PROGRAM} ${WRKSRC}/ldapdns-dg    ${PREFIX}/sbin
-	${INSTALL_PROGRAM} ${WRKSRC}/ldapdns-hosts ${PREFIX}/sbin
-	${INSTALL_PROGRAM} ${WRKSRC}/ldapdns-vc    ${PREFIX}/sbin
-	${INSTALL_DATA_DIR} ${PREFIX}/share/doc/ldapdns/
-	${INSTALL_DATA}    ${WRKSRC}/INSTALL       ${PREFIX}/share/doc/ldapdns/
-	${INSTALL_DATA}    ${WRKSRC}/README*	   ${PREFIX}/share/doc/ldapdns/
+	${INSTALL_PROGRAM} ${WRKSRC}/ldapdns-dg    ${DESTDIR}${PREFIX}/sbin
+	${INSTALL_PROGRAM} ${WRKSRC}/ldapdns-hosts ${DESTDIR}${PREFIX}/sbin
+	${INSTALL_PROGRAM} ${WRKSRC}/ldapdns-vc    ${DESTDIR}${PREFIX}/sbin
+	${INSTALL_DATA_DIR} ${DESTDIR}${PREFIX}/share/doc/ldapdns/
+	${INSTALL_DATA}    ${WRKSRC}/INSTALL       ${DESTDIR}${PREFIX}/share/doc/ldapdns/
+	${INSTALL_DATA}    ${WRKSRC}/README*	   ${DESTDIR}${PREFIX}/share/doc/ldapdns/
 
 .include "../../mk/pthread.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
