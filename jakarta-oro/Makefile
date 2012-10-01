@@ -10,8 +10,6 @@ HOMEPAGE=	http://jakarta.apache.org/oro/
 COMMENT=	Perl/awk/sh regular expressions for Java
 LICENSE=	apache-1.1
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 NO_BUILD=		yes
 USE_TOOLS+=	pax
 USE_LANGUAGES=	# none

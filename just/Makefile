@@ -11,6 +11,8 @@ COMMENT=	Jarle's useless SNMP tools
 DEPENDS+=	tk>=8.3.2:../../x11/tk
 DEPENDS+=	tcl-scotty>=2.1.10:../../net/tcl-scotty
 
+PKG_DESTDIR_SUPPORT=	none
+
 .include "../../mk/bsd.prefs.mk"
 
 GNU_CONFIGURE=		yes

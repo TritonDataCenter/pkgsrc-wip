@@ -10,8 +10,6 @@ HOMEPAGE=		http://jabberd2.xiaoka.com/
 COMMENT=		XMPP (Jabber) instant messaging server
 LICENSE=		gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 CONFLICTS=		jabberd-[0-9]*
 
 USE_LANGUAGES=		c c++

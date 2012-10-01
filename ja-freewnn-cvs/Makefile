@@ -14,8 +14,6 @@ HOMEPAGE=	http://freewnn.sourceforge.jp/
 COMMENT=	Japanese/Chinese/Korean input method (Japanese client library)
 WRKSRC=		${WRKDIR}/FreeWnn
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 BUILD_TARGET=	all
 INSTALL_TARGET=	install
 BUILD_DEFS=	FREEWNN_USER FREEWNN_GROUP

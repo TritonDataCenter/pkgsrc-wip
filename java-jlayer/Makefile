@@ -12,8 +12,6 @@ HOMEPAGE=	http://www.javazoom.net/javalayer/javalayer.html
 COMMENT=	Library to decode, convert and play MP3 files
 LICENSE=	gnu-lgpl-v2.1
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/JLayer1.0.1
 
 NO_BUILD=		yes

@@ -12,8 +12,6 @@ HOMEPAGE=	http://www.junit.org/
 COMMENT=	Automated testing framework for Java
 LICENSE=	cpl-1.0
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 NO_BUILD=	yes
 USE_JAVA=	run
 USE_TOOLS+=	pax

@@ -12,8 +12,6 @@ HOMEPAGE=	http://tritonus.org/plugins.html
 COMMENT=	Shared classes required by all other Tritonus plug-ins
 LICENSE=	gnu-lgpl-v2.1
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}
 
 NO_BUILD= yes

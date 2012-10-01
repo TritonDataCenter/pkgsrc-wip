@@ -13,8 +13,6 @@ HOMEPAGE=	http://www.jpicedt.org/
 COMMENT=	Interactive picture edtor for LaTeX and PSTricks
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}
 USE_TOOLS+=	pax
 USE_LANGUAGES=	# none

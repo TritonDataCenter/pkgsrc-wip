@@ -12,8 +12,6 @@ HOMEPAGE=	http://freewnn.sourceforge.jp/
 COMMENT=	Japanese/Chinese/Korean input method
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LIBTOOL=	YES
 
 GNU_CONFIGURE=	YES

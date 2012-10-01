@@ -12,8 +12,6 @@ HOMEPAGE=	http://www.javazoom.net/
 COMMENT=	Threaded simple player class based on JavaSound API
 LICENSE=	gnu-lgpl-v2.1
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/BasicPlayer3.0
 
 NO_BUILD=		yes

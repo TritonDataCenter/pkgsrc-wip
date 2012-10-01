@@ -10,8 +10,6 @@ MAINTAINER=	esg@sdf.lonestar.org
 HOMEPAGE=	http://jp2a.sourceforge.net/
 COMMENT=	JPEG to ASCII converter
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 
 .include "../../mk/bsd.prefs.mk"

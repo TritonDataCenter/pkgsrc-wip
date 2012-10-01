@@ -13,8 +13,6 @@ HOMEPAGE=	http://www.jython.org/
 COMMENT=	Python for the Java Platform
 LICENSE=	python-software-foundation 
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/jython_installer-2.5.2b1.jar
 
 USE_TOOLS+=	pax bash
