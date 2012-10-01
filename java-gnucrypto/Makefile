@@ -14,12 +14,12 @@ COMMENT=		Free cryptographic implementation for Java
 do-build:
 
 do-install:
-	${INSTALL_DATA_DIR} ${PREFIX}/share/classpath/
+	${INSTALL_DATA_DIR} ${DESTDIR}${PREFIX}/share/classpath/
 	${INSTALL_DATA} ${WRKSRC}/lib/gnu-crypto.jar \
-		${PREFIX}/share/classpath/
+		${DESTDIR}${PREFIX}/share/classpath/
 	${INSTALL_DATA} ${WRKSRC}/lib/javax-crypto.jar \
-		${PREFIX}/share/classpath/
+		${DESTDIR}${PREFIX}/share/classpath/
 	${INSTALL_DATA} ${WRKSRC}/lib/javax-security.jar \
-		${PREFIX}/share/classpath/
+		${DESTDIR}${PREFIX}/share/classpath/
 
 .include "../../mk/bsd.pkg.mk"

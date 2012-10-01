@@ -10,13 +10,15 @@ MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://www.urbanophile.com/arenn/hacking/download.html
 COMMENT=		GNU getopt port for Java
 
+INSTALLATION_DIRS=	share/classpath
+
 do-extract:
 
 do-build:
 
 do-install:
 	${INSTALL_DATA} ${DISTDIR}/${DISTNAME}.jar \
-		${PREFIX}/share/classpath/java-getopt.jar
+		${DESTDIR}${PREFIX}/share/classpath/java-getopt.jar
 
 WRKSRC=		${WRKDIR}/
 
