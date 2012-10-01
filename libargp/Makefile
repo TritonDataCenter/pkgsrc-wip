@@ -14,7 +14,7 @@ GNU_CONFIGURE=		yes
 INSTALLATION_DIRS+=	lib include
 
 do-install:
-	${INSTALL_DATA}	${WRKSRC}/libargp.a ${PREFIX}/lib
-	${INSTALL_DATA}	${WRKSRC}/argp.h ${PREFIX}/include
+	${INSTALL_DATA}	${WRKSRC}/libargp.a ${DESTDIR}${PREFIX}/lib
+	${INSTALL_DATA}	${WRKSRC}/argp.h ${DESTDIR}${PREFIX}/include
 
 .include "../../mk/bsd.pkg.mk"
