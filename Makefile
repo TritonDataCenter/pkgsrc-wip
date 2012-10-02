@@ -2817,6 +2817,7 @@ SUBDIR+=	rte
 SUBDIR+=	rthread
 SUBDIR+=	rtpbreak
 SUBDIR+=	rubinius
+SUBDIR+=	rubrica2
 SUBDIR+=	ruby-GalleryAdministrator
 SUBDIR+=	ruby-actionmessenger
 SUBDIR+=	ruby-bdb
