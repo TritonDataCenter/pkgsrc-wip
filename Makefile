@@ -1444,6 +1444,7 @@ SUBDIR+=	libpeas
 SUBDIR+=	libpsurface
 SUBDIR+=	libpthread-stubs
 SUBDIR+=	libpusb
+SUBDIR+=	libral
 SUBDIR+=	libraw1394
 SUBDIR+=	libreoffice
 SUBDIR+=	libreoffice-devel
