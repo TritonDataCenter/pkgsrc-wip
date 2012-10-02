@@ -13,7 +13,6 @@ COMMENT=	Efficient Compressed Bitmap Index Technology
 LICENSE=	gnu-lgpl-v2.1
 
 PKG_INSTALLATION_TYPES=	overwrite pkgviews
-PKG_DESTDIR_SUPPORT=	user-destdir
 
 USE_LANGUAGES=	c c++
 GNU_CONFIGURE=	yes

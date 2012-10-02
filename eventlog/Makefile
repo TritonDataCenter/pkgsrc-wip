@@ -9,8 +9,6 @@ MAINTAINER=	pkgsrc@blackmouse.biz
 HOMEPAGE=	http://www.balabit.com/products/syslog-ng/
 COMMENT=	New API to format and send structured log messages
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_TOOLS+=	pkg-config

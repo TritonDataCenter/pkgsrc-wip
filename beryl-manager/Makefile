@@ -9,8 +9,6 @@ COMMENT=	Managing application of the Beryl compositing window manager
 
 .include "../../wip/beryl/Makefile.inc"
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_PKGLOCALEDIR=	yes
 
 USE_TOOLS+=	perl

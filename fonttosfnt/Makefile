@@ -10,8 +10,6 @@ MAINTAINER=	blair.sadewitz@gmail.com
 HOMEPAGE=	http://xorg.freedesktop.org/
 COMMENT=	Modular X.org fonttosfnt utility
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_TOOLS+=	pkg-config
 
 GNU_CONFIGURE=	yes

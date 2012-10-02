@@ -13,8 +13,6 @@ MAINTAINER=		milos.negovanovic@googlemail.com
 HOMEPAGE=		http://www.iolanguage.com/
 COMMENT=		Small programming language
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 #USE_PKGLOCALEDIR=	yes
 NO_CONFIGURE=		yes
 USE_TOOLS+=		gmake pax

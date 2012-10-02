@@ -13,11 +13,13 @@ COMMENT=	Fancy desklet that allows you to control XMMS
 DEPENDS+=	gDesklets-[0-9]*:../../wip/gDesklets
 DEPENDS+=	${PYPKGPREFIX}-xmms-[0-9]*:../../audio/py-xmms
 
+PKG_DESTDIR_SUPPORT=	none
+
 NO_CONFIGURE=	yes
 NO_BUILD=	yes
 
 NAME=		CornerXMMS
-GDESKLETSDIR=	${LOCALBASE}/share/gdesklets
+GDESKLETSDIR=	${PREFIX}/share/gdesklets
 
 do-install:
 	${INSTALL_DATA_DIR} ${GDESKLETSDIR}/Displays/${NAME}/gfx

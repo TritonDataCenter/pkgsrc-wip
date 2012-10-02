@@ -12,7 +12,6 @@ HOMEPAGE=	http://weitz.de/cl-ppcre/
 COMMENT=        CL-PPCRE is a portable regular expression library for Common Lisp
 LICENSE=        modified-bsd
 
-PKG_DESTDIR_SUPPORT=	user-destdir
 WRKSRC=			${WRKDIR}/${DISTNAME}-${VERSION}
 COMMON_LISP_DOCFILES=	CHANGELOG doc/index.html
 

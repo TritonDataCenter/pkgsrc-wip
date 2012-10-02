@@ -24,7 +24,6 @@ USE_TOOLS+=		pkg-config gmake
 SVN_REPOSITORIES=	client
 SVN_ROOT.client=	http://electricsheep.svn.sourceforge.net/svnroot/electricsheep/trunk/client
 WRKSRC=			${WRKDIR}/client
-PKG_DESTDIR_SUPPORT=	user-destdir
 
 SHARE_DIR=		${DESTDIR}/${PREFIX}/share/electricsheep
 

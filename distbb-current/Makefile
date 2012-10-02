@@ -33,8 +33,6 @@ REPLACE.runawk.new=	${PREFIX}/bin/runawk
 REPLACE_FILES.runawk=	gen_weights.in gen_queue.in pkg_summary2build_deps.in \
 			distbb_grep.in
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 EGDIR=			${PREFIX}/share/examples/distbb
 DOCDIR=			${PREFIX}/share/doc/distbb
 

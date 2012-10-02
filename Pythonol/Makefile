@@ -15,6 +15,8 @@ COMMENT=		Learn Spanish (with a little help of Python)
 
 DEPENDS+=		${PYPKGPREFIX}-sqlite>=0.4.3:../../databases/py-sqlite
 
+PKG_DESTDIR_SUPPORT=	none
+
 PYTHON_VERSIONS_ACCEPTED=	25
 PY_PATCHPLIST=		yes
 

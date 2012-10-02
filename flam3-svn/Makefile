@@ -18,8 +18,6 @@ SVN_REPOSITORIES=	flam3
 SVN_ROOT.flam3=		http://electricsheep.svn.sourceforge.net/svnroot/flam3/trunk
 WRKSRC=			${WRKDIR}/flam3/src
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 .include "../../mk/jpeg.buildlink3.mk"
 .include "../../graphics/png/buildlink3.mk"
 .include "../../textproc/libxml2/buildlink3.mk"

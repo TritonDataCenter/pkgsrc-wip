@@ -12,8 +12,6 @@ HOMEPAGE=	http://www.math.tu-berlin.de/~jensen/software/gfan/gfan.html
 COMMENT=	Program for computing with Groebner fans
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_TOOLS+=	gmake
 USE_LANGUAGES=	c c++
 
@@ -30,7 +28,6 @@ INSTALLATION_DIRS=	bin ${EDGDIR}
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/gfan ${DESTDIR}${PREFIX}/bin
 	${INSTALL_DATA} ${WRKSRC}/examples/* ${DESTDIR}${EDGDIR}
-	
 
 .include "../../devel/gmp/buildlink3.mk"
 .include "../../wip/cddlib/buildlink3.mk"

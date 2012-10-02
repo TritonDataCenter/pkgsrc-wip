@@ -9,7 +9,6 @@ HOMEPAGE=		http://ecls.sourceforge.net/
 COMMENT=		Embeddable Common Lisp
 LICENSE=		gnu-lgpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
 MAKE_JOBS_SAFE=		no
 
 USE_PKGLOCALEDIR=	yes

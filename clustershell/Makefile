@@ -10,8 +10,6 @@ MAINTAINER=	wenheping@gmail.com
 HOMEPAGE=	http://clustershell.sourceforge.net/
 COMMENT=	Python library to execute commands on local or distant cluster nodes
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 PYDISTUTILSPKG= yes
 
 .include "../../lang/python/extension.mk"

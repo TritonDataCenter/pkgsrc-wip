@@ -9,6 +9,8 @@ MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://www.gnu.org/software/kawa/
 COMMENT=		Scheme interpreter written in Java.
 
+PKG_DESTDIR_SUPPORT=	none
+
 USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=		yes
 GNU_CONFIGURE=		yes

@@ -10,8 +10,6 @@ HOMEPAGE=	http://code.google.com/p/flvmeta/
 COMMENT=	Metadata injector for FLV video files
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=		user-destdir
-
 GNU_CONFIGURE=	yes
 
 INSTALLATION_DIRS+=	share/doc/flvmeta

@@ -10,6 +10,8 @@ MAINTAINER=		nel@soraneko.com
 HOMEPAGE=		http://www.kahua.org/download/kahua/
 COMMENT=		Kahua is a web application framework for Gauche
 
+PKG_DESTDIR_SUPPORT=	none
+
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 

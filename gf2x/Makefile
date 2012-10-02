@@ -10,8 +10,6 @@ HOMEPAGE=	https://gforge.inria.fr/projects/gf2x/
 COMMENT=	Library for fast multiplication of polynomials over GF(2)
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 # pkgsrc is not currently able to fetch distfiles from https web servers
 # (see mk/fetch/fetch.mk), so you have to use a browser for now.
 FETCH_USING=	wget

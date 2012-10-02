@@ -10,6 +10,8 @@ MAINTAINER=	martijn.van.buul@gmail.com
 HOMEPAGE=	http://foo2zjs.rkkda.com/
 COMMENT=	Printer driver for ZjStream-compatible printers
 
+PKG_DESTDIR_SUPPORT=	none
+
 WRKSRC=	${WRKDIR}/foo2zjs
 
 USE_TOOLS+=	gmake

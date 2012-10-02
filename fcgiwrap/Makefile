@@ -20,8 +20,6 @@ MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://nginx.localdomain.pl/wiki/FcgiWrap
 LICENSE=	modified-bsd
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_TOOLS+=	automake autoreconf
 

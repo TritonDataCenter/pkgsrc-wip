@@ -18,7 +18,6 @@ USE_TOOLS+=	perl
 
 PKGCONFIG_OVERRIDE+=	src/libcollectdclient/libcollectdclient.pc.in
 USE_LANGUAGES=		c c++
-PKG_DESTDIR_SUPPORT=	user-destdir
 
 CONFIGURE_ARGS+=	--with-perl-bindings='INSTALLDIRS=vendor'
 CONFIGURE_ARGS+=	--sysconfdir=${PKG_SYSCONFDIR}/${PKGBASE}

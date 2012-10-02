@@ -2,8 +2,6 @@
 
 CANNA_MODULE=	lib
 
-PKG_DESTDIR_SUPPORT= user-destdir
-
 .include "../../wip/canna/Makefile.common"
 
 # (1) Change SUBDIRS.

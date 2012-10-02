@@ -11,8 +11,6 @@ HOMEPAGE=	http://www.billposer.org/Software/a2b.html
 COMMENT=	Convert between textual representations of numbers and binary
 LICENSE=	gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 BROKEN_GETTEXT_DETECTION=	yes
 GNU_CONFIGURE=	yes
 

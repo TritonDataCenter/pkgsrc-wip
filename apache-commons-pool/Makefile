@@ -11,8 +11,6 @@ HOMEPAGE=	http://commons.apache.org/pool/
 COMMENT=	Pooling implementation for Java objects
 LICENSE=	apache-2.0
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/commons-pool-1.5.5
 
 NO_BUILD=	yes

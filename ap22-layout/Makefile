@@ -10,8 +10,6 @@ HOMEPAGE=	http://tangent.org/362/mod_layout.html
 COMMENT=	Apache22 module to wrap served pages with a header and/or footer
 LICENSE=	modified-bsd
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LIBTOOL=	yes
 APACHE_MODULE=	yes
 

@@ -10,8 +10,6 @@ HOMEPAGE=	http://ljk.imag.fr/CASYS/LOGICIELS/givaro/
 COMMENT=	C++ library for arithmetic and algebraic computations
 LICENSE=	gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_LANGUAGES=	c c++

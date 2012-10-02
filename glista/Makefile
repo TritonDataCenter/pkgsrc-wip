@@ -10,8 +10,6 @@ MAINTAINER=	pkgsrc-users@netbsd.org
 HOMEPAGE=	http://prematureoptimization.org/glista/
 COMMENT=	Simple task list management utility
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_TOOLS+=	pkg-config
 

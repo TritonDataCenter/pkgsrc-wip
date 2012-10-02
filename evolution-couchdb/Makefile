@@ -12,8 +12,6 @@ HOMEPAGE=	https://launchpad.net/evolution-couchdb
 COMMENT=	Evolution backend to access CouchDBs
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_PKGLOCALEDIR= yes
 USE_LIBTOOL=	yes

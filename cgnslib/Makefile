@@ -11,8 +11,6 @@ HOMEPAGE=	http://www.cgns.org/
 COMMENT=	CFD General Notation System library code
 LICENSE=	png-license
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/cgnslib_3.1.3
 
 USE_CMAKE=	yes

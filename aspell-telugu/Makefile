@@ -12,8 +12,6 @@ MAINTAINER=	prudhvi-krishna-bsd@surapaneni.in
 HOMEPAGE=	http://www.swecha.org/wiki/Wordlist_and_Dictionaries
 COMMENT=	Telugu language support for aspell
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 HAS_CONFIGURE=	YES
 
 .include "../../textproc/aspell/buildlink3.mk"

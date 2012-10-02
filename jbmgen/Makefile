@@ -24,13 +24,15 @@ post-extract:
 			"${WRKSRC}/$$m" > "${WRKSRC}/$$m.new"; \
 	done
 
+INSTALLATION_DIRS=	bin
+
 do-install:
-	mkdir ${RUBY_SITELIBDIR}/jbmgen
+	${INSTALL_DATA_DIR} ${DESTDIR}${RUBY_SITELIBDIR}/jbmgen
 	set -e; \
 	for m in ${JBMGEN_FILES}; do \
-		${INSTALL_DATA} "${WRKSRC}/$$m.new" "${RUBY_SITELIBDIR}/jbmgen/$$m"; \
+		${INSTALL_DATA} "${WRKSRC}/$$m.new" ${DESTDIR}${RUBY_SITELIBDIR}/jbmgen/"$$m"; \
 	done
-	${INSTALL_SCRIPT} ${WRKSRC}/jbmgen ${PREFIX}/bin
+	${INSTALL_SCRIPT} ${WRKSRC}/jbmgen ${DESTDIR}${PREFIX}/bin
 
 .include "../../lang/ruby/modules.mk"
 .include "../../lang/ruby/replace.mk"

@@ -11,8 +11,6 @@ HOMEPAGE=	http://commons.apache.org/lang/
 COMMENT=	Extension of the java.lang package
 LICENSE=	apache-2.0
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/commons-lang-2.5
 
 NO_BUILD=	yes

@@ -14,8 +14,6 @@ LICENSE=	gnu-lgpl-v2
 DEPENDS+=	gst-ffmpeg-[0-9]*:../../multimedia/gst-plugins0.10-ffmpeg
 DEPENDS+=	gst-plugins0.10-x264-[0-9]*:../../multimedia/gst-plugins0.10-x264
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_PKGLOCALEDIR=	yes
 USE_TOOLS+=	intltool msgfmt
 USE_LANGUAGES=		# none

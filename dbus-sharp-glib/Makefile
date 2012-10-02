@@ -11,8 +11,6 @@ HOMEPAGE=	https://github.com/mono/dbus-sharp-glib
 COMMENT=	Fork of ndesk-dbus-glib
 LICENSE=	2-clause-bsd # ?
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	# none
 WRKSRC=		${WRKDIR}/${DISTNAME:S/v0.5-1-g//}
 USE_TOOLS+=	aclocal autoconf autoheader automake gmake

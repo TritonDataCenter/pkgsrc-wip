@@ -12,8 +12,6 @@ HOMEPAGE=	http://moleinvasion.tuxfamily.org/dokuwiki/doku.php?id=wiki:minv_en
 COMMENT=	Platform game with moles
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=			${WRKDIR}/moleinvasion-0.4
 BUILD_DIRS=		src
 USE_TOOLS+=		gmake

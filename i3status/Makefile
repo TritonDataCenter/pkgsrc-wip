@@ -11,8 +11,6 @@ HOMEPAGE=	http://i3wm.org/i3status/
 COMMENT=	Small program for generating a status bar
 LICENSE=	modified-bsd
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_TOOLS+=	gmake
 
 INSTALLATION_DIRS=	bin ${PKGMANDIR}/man1 share/doc/i3status

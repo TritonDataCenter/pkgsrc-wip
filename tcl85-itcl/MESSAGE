@@ -1,0 +1,7 @@
+===========================================================================
+$NetBSD$
+
+The class(n) man page has been moved to itcl-class(n) as to not conflict
+with wip/tcl-tclOO, on which this package depends.
+
+===========================================================================

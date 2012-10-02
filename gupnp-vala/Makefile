@@ -11,8 +11,6 @@ HOMEPAGE=	http://gupnp.org/
 COMMENT=	Gupnp-vala offers Vala bindings to GUPnP framework
 #LICENSE=	# TODO: (see mk/license.mk)
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_TOOLS+=	pkg-config gmake
 USE_LANGUAGES=	c c++

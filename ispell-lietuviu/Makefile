@@ -11,8 +11,6 @@ HOMEPAGE=		http://www.lietuvybe.org/?menuid=Zodynai&submenu=ispell-lt
 COMMENT=		Lithuanian dictionary for ispell
 LICENSE=		modified-bsd
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 DEPENDS+=		ispell-base-[0-9]*:../../textproc/ispell-base
 
 SUBST_CLASSES+=			fix-python

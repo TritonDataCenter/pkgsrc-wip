@@ -16,8 +16,6 @@ WRKSRC=		${WRKDIR}/high-pass.scm
 
 DEPENDS+=	gimp>=2.0:../../graphics/gimp
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}
 NO_CONFIGURE=	yes
 NO_BUILD=	yes

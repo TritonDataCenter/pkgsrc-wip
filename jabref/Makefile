@@ -12,8 +12,6 @@ HOMEPAGE=	http://jabref.sourceforge.net/
 COMMENT=	JabRef is an advanced reference manager that uses the BibTeX format
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_JAVA=run
 USE_JAVA2=1.5
 

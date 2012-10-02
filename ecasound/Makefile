@@ -9,6 +9,8 @@ MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://ecasound.seul.org/
 COMMENT=		Multitrack audio processor
 
+PKG_DESTDIR_SUPPORT=	none
+
 USE_LANGUAGES=		c c++
 USE_LIBTOOL=		yes
 USE_PKGLOCALEDIR=	yes

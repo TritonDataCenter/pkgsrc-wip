@@ -1,6 +1,8 @@
 # $NetBSD$
 #
 
+PKG_DESTDIR_SUPPORT=	none
+
 .include "Makefile.common"
 
 PKGNAME=		ap-evasive-1.10.1

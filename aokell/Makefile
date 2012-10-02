@@ -12,8 +12,6 @@ HOMEPAGE=	http://fractal.ow2.org/aokell/index.html
 COMMENT=	AOKell is a Java implementation of the Fractal component model
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/AOKell-2.0
 
 NO_BUILD=	yes

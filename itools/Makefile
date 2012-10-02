@@ -10,8 +10,6 @@ HOMEPAGE=	http://www.arabeyes.org/project.php?proj=ITL
 COMMENT=	Islamic hijri date and prayer time utilities
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_TOOLS+=	perl
 

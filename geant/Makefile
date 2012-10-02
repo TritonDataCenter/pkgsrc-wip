@@ -11,8 +11,6 @@ MAINTAINER=	hugor@users.sourceforge.net
 HOMEPAGE=	http://geant4.web.cern.ch/geant4/
 COMMENT=	Toolkit for the simulation of the passage of particles through matter
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/${DISTNAME}/source
 MAKE_FILE=	GNUmakefile
 USE_TOOLS+=	gmake pax

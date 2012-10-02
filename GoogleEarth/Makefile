@@ -31,7 +31,6 @@ WRKSRC=			${WRKDIR}/GoogleEarthLinuxPlus-${GE_VERSION}-installer
 DIST_SUBDIR=		${PKGNAME_NOREV}
 EXTRACT_CMD=		${SH} "$$extract_file" --noexec --keep
 
-PKG_DESTDIR_SUPPORT=	user-destdir
 INSTALLATION_DIRS=	bin
 
 USE_TOOLS+=		pax

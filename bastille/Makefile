@@ -10,6 +10,8 @@ MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://bastille-linux.sourceforge.net/
 COMMENT=	System hardening tool focusing on educating the user
 
+PKG_DESTDIR_SUPPORT=	none
+
 WRKSRC=			${WRKDIR}/Bastille
 CONFIGURE_ENV+=		GCONF_SCHEMA_FILE_DIR=${PREFIX:Q}/share/gconf/schemas/
 MAKE_ENV+=		GCONF_SCHEMA_FILE_DIR=${PREFIX:Q}/share/gconf/schemas/

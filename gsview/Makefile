@@ -16,8 +16,6 @@ RESTRICTED=	Commercial distribution prohibited in most cases.
 NO_SRC_ON_CDROM=	${RESTRICTED}
 NO_BIN_ON_CDROM=	${RESTRICTED}
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_TOOLS+=     gmake pkg-config gs:run
 
 FIND_PREFIX:= PSTOTEXT_DIR=pstotext

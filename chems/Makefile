@@ -15,7 +15,7 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 NO_CONFIGURE=	yes
 NO_BUILD=	yes
 
-CHEMSDIR=	${PREFIX}/share/chems
+CHEMSDIR=	${DESTDIR}${PREFIX}/share/chems
 
 do-install:
 	${INSTALL_DATA_DIR} ${CHEMSDIR}

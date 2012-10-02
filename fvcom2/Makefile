@@ -11,8 +11,6 @@ HOMEPAGE=	http://fvcom.smast.umassd.edu/FVCOM/password_required/t2/
 COMMENT=	Prognostic coastal ocean circulation model
 #LICENSE=	fvcom-license
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/FVCOM2.7.1/FVCOM_source
 
 USE_TOOLS+=	make

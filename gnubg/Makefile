@@ -9,8 +9,6 @@ COMMENT=		GNU Backgammon is for playing and analysing backgammon positions
 HOMEPAGE=		http://gnubg.org/
 LICENSE=		gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 CVS_REPOSITORIES=	gnubg
 CVS_ROOT.gnubg=		${CVS_ROOT_GNU}/gnubg
 CVS_MODULE.gnubg=	gnubg

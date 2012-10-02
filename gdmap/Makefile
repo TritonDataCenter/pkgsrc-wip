@@ -10,8 +10,6 @@ MAINTAINER=		dhowland@users.sourceforge.net
 HOMEPAGE=		http://gdmap.sourceforge.net/
 COMMENT=		Tool to visualize disk space
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=		yes
 USE_LANGUAGES=		c c++
 USE_PKGLOCALEDIR=	yes

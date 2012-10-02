@@ -13,12 +13,14 @@ COMMENT=		Java classes to generate and parse XML files
 
 WRKSRC=			${WRKDIR}
 
+INSTALLATION_DIRS=	lib
+
 do-extract:
 
 do-build:
 
 do-install:
-		${INSTALL_DATA} ${DISTDIR}/iTextXML.jar ${PREFIX}/lib/iTextXML.jar
+		${INSTALL_DATA} ${DISTDIR}/iTextXML.jar ${DESTDIR}${PREFIX}/lib/iTextXML.jar
 
 .include "../../mk/java-vm.mk"
 .include "../../mk/bsd.pkg.mk"

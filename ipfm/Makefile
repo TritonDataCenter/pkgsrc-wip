@@ -9,6 +9,8 @@ MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://robert.cheramy.net/ipfm/
 COMMENT=		Bandwidth analysis tool
 
+PKG_DESTDIR_SUPPORT=	none
+
 GNU_CONFIGURE=		yes
 CONFIGURE_ARGS+=	--sysconfdir=${PKG_SYSCONFDIR:Q}
 CONFIGURE_ARGS+=	--localstatedir=${VARBASE:Q}

@@ -11,10 +11,6 @@ HOMEPAGE=				http://cx-freeze.sourceforge.net/
 COMMENT=				Freezing python scripts into executables
 LICENSE=				python-software-foundation
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-PKG_DEVELOPER=			yes
-
-
 USE_LANGUAGES=      	c c++
 
 PYDISTUTILSPKG=         yes

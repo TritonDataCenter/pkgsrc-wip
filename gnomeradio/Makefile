@@ -10,6 +10,8 @@ MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://www.wh-hms.uni-ulm.de/~mfcn/gnomeradio/
 COMMENT=		FM-radio tuner for the GNOME desktop
 
+PKG_DESTDIR_SUPPORT=	none
+
 USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=		yes
 USE_TOOLS+=		pkg-config

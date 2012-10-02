@@ -10,8 +10,6 @@ HOMEPAGE=	http://www.fli4l.de/
 COMMENT=	Command-line version of the fli4l monitoring tool
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/fli4l-3.6.1/unix
 NO_CONFIGURE=	YES
 

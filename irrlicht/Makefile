@@ -11,8 +11,6 @@ HOMEPAGE=	http://irrlicht.sourceforge.net/
 COMMENT=	open source high performance realtime 3D engine
 #LICENSE=	png-license #irrlicht-license ?
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_TOOLS+=	pkg-config gmake
 USE_LANGUAGES=	c c++
 USE_LIBTOOL=	yes

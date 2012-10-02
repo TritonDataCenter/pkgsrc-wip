@@ -11,8 +11,6 @@ LICENSE=	gnu-gpl-v2
 
 BUILD_DEFS+=	ANTHYDIC_DIR
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 NO_CONFIGURE=	yes
 NO_BUILD=	yes
 

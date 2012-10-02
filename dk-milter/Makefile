@@ -15,7 +15,6 @@ MAKE_ENV+=		M4=${M4:Q}
 RCD_SCRIPTS=		dk-milter
 USE_BUILTIN.libmilter=	no
 USE_TOOLS+=		gm4
-PKG_DESTDIR_SUPPORT=	user-destdir
 
 .include "../../mk/bsd.prefs.mk"
 

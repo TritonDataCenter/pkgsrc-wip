@@ -14,8 +14,10 @@ DEPENDS+=		enlightenment-0.16.*:../../wm/enlightenment
 
 USE_LIBTOOL=		YES
 
+INSTALLATION_DIRS=	bin
+
 do-install:
-	${INSTALL_PROGRAM} ${WRKSRC}/e16keyedit ${PREFIX}/bin
+	${INSTALL_PROGRAM} ${WRKSRC}/e16keyedit ${DESTDIR}${PREFIX}/bin
 
 .include "../../x11/gtk/buildlink3.mk"
 .include "../../x11/libX11/buildlink3.mk"

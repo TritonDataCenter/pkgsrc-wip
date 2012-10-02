@@ -13,7 +13,6 @@ HOMEPAGE=		http://gitorious.org/clx
 COMMENT=		CLX module which is mostly used with SBCL
 #LICENSE=		other/multiple
 
-PKG_DESTDIR_SUPPORT=	user-destdir
 COMMON_LISP_DOCFILES=	README NEWS
 #COMMON_LISP_EXAMPLES=	demo
 

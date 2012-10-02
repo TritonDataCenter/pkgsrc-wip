@@ -10,8 +10,6 @@ HOMEPAGE=	http://synfig.org/
 COMMENT=	C++ template library for synfig
 LICENSE=	gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_TOOLS+=	pkg-config
 USE_LANGUAGES=	c c++

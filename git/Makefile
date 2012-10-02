@@ -14,8 +14,6 @@ COMMENT=		Interpreter for Glulx interactive fiction
 WRKSRC=			${WRKDIR}/${PKGNAME_NOREV:S/glk//}
 MAKE_ENV+=		BUILDLINK_DIR=${BUILDLINK_DIR:Q}
 
-PKG_DESTDIR_SUPPORT+=	user-destdir
-
 INSTALLATION_DIRS+=	bin
 
 do-install:

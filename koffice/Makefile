@@ -18,8 +18,6 @@ DEPENDS+=	pstoedit>=3.0:../../graphics/pstoedit
 USE_LANGUAGES=	c c++
 USE_TOOLS+=	pkg-config
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 CHECK_INTERPRETER_SKIP+=	share/kde/apps/kword/scripts/samples/*
 
 REPLACE_INTERPRETER+=	sys-KROSS

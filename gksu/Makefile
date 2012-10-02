@@ -10,8 +10,6 @@ MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://www.nongnu.org/gksu/
 COMMENT=		Authorization dialog library
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 .include "../../mk/bsd.fast.prefs.mk"
 
 .if ${OPSYS} != "Linux"	# others?

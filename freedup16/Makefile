@@ -8,8 +8,6 @@ MASTER_SITES=	http://freedup.org/
 EXTRACT_SUFX=	.tar.bz2
 LICENSE=	gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=    user-destdir
-
 MAINTAINER=	stefano@dragas.it
 HOMEPAGE=	http://freedup.org/
 COMMENT=	Free disk space by hard linking duplicate files

@@ -12,8 +12,6 @@ HOMEPAGE=	http://projects.arabeyes.org/project.php?proj=Khotot
 COMMENT=	Other collection of PCF fonts that include Arabic glyphs
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 VERSION=	2.1
 NO_BUILD=	yes
 USE_LANGUAGES=	# none

@@ -14,6 +14,8 @@ MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://wejp.k.vu/projects/xmms2/
 COMMENT=	Graphical GTK+2-based XMMS2 client
 
+PKG_DESTDIR_SUPPORT=	none
+
 NO_CONFIGURE=		yes
 USE_TOOLS+=		gmake pkg-config
 

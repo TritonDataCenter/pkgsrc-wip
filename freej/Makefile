@@ -10,6 +10,8 @@ MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://freej.dyne.org/
 COMMENT=		Instrument for realtime video manipulation
 
+PKG_DESTDIR_SUPPORT=    none
+
 USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=		yes
 USE_TOOLS+=		pkg-config gmake

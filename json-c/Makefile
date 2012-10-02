@@ -10,8 +10,6 @@ HOMEPAGE=	http://json.org/
 COMMENT=	JSON (Javascript Object Notation) implementation in C
 LICENSE=	mit
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_TOOLS+=	pkg-config

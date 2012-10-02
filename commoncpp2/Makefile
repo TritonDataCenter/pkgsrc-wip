@@ -11,8 +11,6 @@ HOMEPAGE=		http://cplusplus.sourceforge.net/
 COMMENT=		Portable and highly optimized class framework for C++
 LICENSE=		gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=		yes
 INFO_FILES=		yes
 USE_LANGUAGES=		c c++

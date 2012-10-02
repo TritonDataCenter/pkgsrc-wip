@@ -10,8 +10,6 @@ HOMEPAGE=	http://www.alberta-fem.de/
 COMMENT=	Adaptive hierarchical finite element toolbox
 LICENSE=	gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_LANGUAGES=	c c++ fortran

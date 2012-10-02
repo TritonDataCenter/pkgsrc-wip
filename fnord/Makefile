@@ -10,8 +10,6 @@ HOMEPAGE=	http://www.fefe.de/fnord/
 COMMENT=	Small HTTP server
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_TOOLS+=	gmake
 DEPENDS+=	ucspi-tcp-*:../../net/ucspi-tcp
 

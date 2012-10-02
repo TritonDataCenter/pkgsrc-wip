@@ -11,8 +11,6 @@ HOMEPAGE=	http://ab-initio.mit.edu/cubature/
 COMMENT=	Multi-dimensional integration
 LICENSE=	gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 NO_BUILD=	yes
 
 INSTALLATION_DIRS= include	share/doc/cubature

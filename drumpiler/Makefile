@@ -10,8 +10,6 @@ HOMEPAGE=	http://drumpiler.sourceforge.net/
 COMMENT=	Drum machine compiler
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 BUILD_DEPENDS+=	SDL-1.2.[0-9]*:../../devel/SDL
 
 SDL_CONFIG=	${PREFIX}/bin/sdl-config

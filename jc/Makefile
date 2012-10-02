@@ -10,6 +10,8 @@ MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://jcvm.sourceforge.net/
 COMMENT=		Native java compiler using gcc
 
+PKG_DESTDIR_SUPPORT=	none
+
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 USE_TOOLS+=	makeinfo

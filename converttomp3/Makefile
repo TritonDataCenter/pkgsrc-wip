@@ -16,8 +16,6 @@ DEPENDS+=	id3v2-[0-9]*:../../audio/id3v2
 DEPENDS+=	lame-[0-9]*:../../audio/lame
 DEPENDS+=	mplayer-[0-9]*:../../multimedia/mplayer
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=			# none
 PYTHON_VERSIONS_ACCEPTED=	25
 NO_BUILD=			yes

@@ -12,8 +12,6 @@ HOMEPAGE=	http://emacs-jabber.sourceforge.net/
 COMMENT=	Minimal jabber client for emacs
 #LICENSE=	# TODO: (see mk/license.mk)
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_LANGUAGES=	# none
 USE_TOOLS+=	makeinfo

@@ -16,7 +16,6 @@ DEPENDS+=		p5-libwww>=5.800:../../www/p5-libwww
 
 GNU_CONFIGURE=		YES
 USE_LANGUAGES=		c c++
-PKG_DESTDIR_SUPPORT=	user-destdir
 USE_PKGLOCALEDIR=	YES
 USE_LIBTOOL=		YES
 PTHREAD_AUTO_VARS=	YES	# XXX needed by mapnik / boost

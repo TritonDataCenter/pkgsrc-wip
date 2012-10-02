@@ -11,8 +11,6 @@ HOMEPAGE=	http://ised.sourceforge.net/
 COMMENT=	Tool for generating number sequences and arithmetic evaluation
 LICENSE=	gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_LANGUAGES=	c++
 

@@ -11,8 +11,6 @@ HOMEPAGE=	https://launchpad.net/bibliographer
 COMMENT=	Bibliographer is a bibtex editor written in Gtk\# and Mono
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_TOOLS+=	pkg-config gmake
 USE_LANGUAGES=	# none

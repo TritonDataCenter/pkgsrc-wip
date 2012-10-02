@@ -12,8 +12,6 @@ HOMEPAGE=	http://www.digitalmars.com/d/
 COMMENT=	Digital Mars D compiler
 #LICENSE=	# TODO: (see mk/license.mk)
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=	${WRKDIR}/dmd2
 
 BUILD_DIRS=	src/dmd src/druntime src/phobos

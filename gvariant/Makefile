@@ -10,8 +10,6 @@ HOMEPAGE=	http://people.gnome.org/~ryanl/src/
 COMMENT=	GVariant is a new datatype in glib that stores complex values
 LICENSE=	gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_TOOLS+=	pkg-config

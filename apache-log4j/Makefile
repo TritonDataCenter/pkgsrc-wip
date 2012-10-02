@@ -10,8 +10,6 @@ HOMEPAGE=	http://apache.multihomed.net//logging/log4j/1.2.16/
 COMMENT=	Logging facility for Java
 LICENSE=	apache-2.0
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 NO_BUILD=	yes
 USE_JAVA=	run
 USE_TOOLS+=	pax

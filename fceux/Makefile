@@ -12,8 +12,6 @@ HOMEPAGE=	http://fceux.com/
 COMMENT=	NES, Famicom, and Famicom Disk System (FDS) emulator
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=			${WRKDIR}/fceu2.1.5
 #USE_CMAKE=		yes
 USE_LANGUAGES=		c c++

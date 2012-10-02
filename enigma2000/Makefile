@@ -11,7 +11,6 @@ COMMENT=	Enigma2000 is a mixing of boulder dash and sokoban
 LICENSE=	mit
 
 USE_LANGUAGES=	c
-PKG_DESTDIR_SUPPORT=	user-destdir
 
 GNU_CONFIGURE=	yes
 

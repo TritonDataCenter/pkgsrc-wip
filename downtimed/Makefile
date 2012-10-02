@@ -10,8 +10,6 @@ HOMEPAGE=	http://dist.epipe.com/downtimed/
 COMMENT=	Downtimed is monitoring system downtime
 LICENSE=	2-clause-bsd
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 
 BUILD_DEFS+=            VARBASE

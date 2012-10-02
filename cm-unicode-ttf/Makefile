@@ -13,8 +13,6 @@ HOMEPAGE=	http://cm-unicode.sourceforge.net/
 COMMENT=	Computer Modern Unicode fonts
 LICENSE=	open-font-license
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=			${WRKDIR}/cm-unicode-${CMU_VERSION}
 NO_BUILD=		yes
 NO_CONFIGURE=		yes

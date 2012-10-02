@@ -10,6 +10,8 @@ MAINTAINER=	jfranz@bsdprojects.net
 HOMEPAGE=	http://packages.debian.org/gtkfontsel
 COMMENT=	Utility for selecting X11 fonts	to the clipboard
 
+PKG_DESTDIR_SUPPORT=	none
+
 USE_TOOLS=	gmake autoconf automake
 USE_LIBTOOL=	yes
 GNU_CONFIGURE=	yes

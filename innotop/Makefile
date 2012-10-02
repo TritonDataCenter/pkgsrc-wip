@@ -10,8 +10,6 @@ HOMEPAGE=	http://code.google.com/p/innotop/
 COMMENT=	MySQL and InnoDB monitor program
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 DEPENDS+=	p5-Term-ReadKey>=2.10:../../devel/p5-Term-ReadKey
 DEPENDS+=	p5-DBI>=1.13:../../databases/p5-DBI
 DEPENDS+=	p5-DBD-mysql>=1.0:../../databases/p5-DBD-mysql

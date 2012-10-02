@@ -12,8 +12,6 @@ HOMEPAGE=	http://clipsrules.sourceforge.net/
 COMMENT=	Tool for Building Expert Systems
 LICENSE=	public-domain
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	c
 
 WRKSRC=		${WRKDIR}/clipssrc/clipssrc

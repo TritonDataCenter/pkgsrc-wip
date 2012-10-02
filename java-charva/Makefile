@@ -21,11 +21,13 @@ do-build:
 		${CFLAGS} -I ${JAVA_HOME}/include/ \
 		-I ${PREFIX}/include/ Toolkit.c -o libTerminal.so
 
+INSTALLATION_DIRS=	lib share/classpath
+
 do-install:
 	${INSTALL_DATA} ${WRKSRC}/java/dist/lib/charva.jar \
-		${PREFIX}/share/classpath/
+		${DESTDIR}${PREFIX}/share/classpath/
 	${INSTALL_DATA} ${WRKSRC}/c/src/libTerminal.so \
-		${PREFIX}/lib/
+		${DESTDIR}${PREFIX}/lib/
 
 .include "../../devel/ncurses/buildlink3.mk"
 .include "../../mk/java-vm.mk"

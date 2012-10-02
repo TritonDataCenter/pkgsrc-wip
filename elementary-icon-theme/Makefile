@@ -10,8 +10,6 @@ HOMEPAGE=	http://elementaryos.org/docs/packaging/themes/elementary-icons
 COMMENT=	Simple and appealing Tango-styled icon theme
 #LICENSE=	# TODO: (see mk/license.mk)
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 # Needed for launchpad
 FETCH_USING=	curl
 

@@ -10,8 +10,6 @@ HOMEPAGE=	http://alphamail.sourceforge.net/
 COMMENT=	Highly scalable webmail with middleware component
 LICENSE=	gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 BROKEN=		Incompatible with boost 1.34+
 
 DEPENDS+=	p5-HTML-Mason>=1.30:../../www/p5-HTML-Mason

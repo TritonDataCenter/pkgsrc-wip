@@ -15,8 +15,6 @@ BUILD_DEPENDS+=		asciidoc>=8.3.0:../../textproc/asciidoc
 BUILD_DEPENDS+=		xmlto-[0-9]*:../../textproc/xmlto
 BUILD_DEPENDS+=		docbook-xml-[0-9]*:../../textproc/docbook-xml
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_TOOLS+=		bison gmake pkg-config lex yacc
 
 # src/cfgparse.l:11:26: error: cfgparse.tab.h: No such file or directory

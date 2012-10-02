@@ -12,6 +12,8 @@ COMMENT=	FUSE-base SMB filesystem
 
 FUSESMB_VER=	0.8.5
 
+PKG_DESTDIR_SUPPORT=	none
+
 GNU_CONFIGURE=	yes
 USE_TOOLS+=	gmake
 

@@ -11,8 +11,6 @@ MAINTAINER=	pkgsrc-users@netbsd.org
 HOMEPAGE=	http://grdc.sourceforge.net/
 COMMENT=	Grdc is a remote desktop client based on GTK+
 
-PKG_DESTDIR_SUPPORT=    user-destdir
-
 GNU_CONFIGURE=	yes
 USE_TOOLS+=	intltool perl pkg-config gmake
 

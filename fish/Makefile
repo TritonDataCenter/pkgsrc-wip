@@ -10,8 +10,6 @@ HOMEPAGE=		http://www.fishshell.org/
 COMMENT=		User friendly command line shell for UNIX-like operating systems
 LICENSE=		gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=		yes
 CONFIGURE_ARGS+=	--sysconfdir=${PKG_SYSCONFDIR}
 CONFIGURE_ARGS+=	--without-xsel

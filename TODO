@@ -59,6 +59,7 @@ Suggested package updates
 	o i3-4.1.1
 	o i3status-2.4
 	o icecat-14.0
+	o itstool-1.2.0
 	o jakarta-struts-1.2.4
 	o jalview-2.4
 	o java-asm-3.2
@@ -96,7 +97,7 @@ Suggested package updates
 	o passepartout-0.7.1
 	o pdfedit-0.4.5
 	o pessulus-2.30.4
-	o pike-7.8.352
+	o pike-7.8.700
 	o py-PyPE-2.9
 	o py-rpyc-3.2.1
 	o py-zeitgeist-0.9

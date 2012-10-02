@@ -9,8 +9,6 @@ MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://csoap.sourceforge.net/
 COMMENT=	SOAP C Framework C API functions
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	YES
 USE_LIBTOOL=	YES
 USE_TOOLS+=	pkg-config

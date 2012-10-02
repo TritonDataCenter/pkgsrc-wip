@@ -13,8 +13,6 @@ LICENSE=	mit
 
 DEPENDS+=	clisp>=2.49:../../lang/clisp
 
-PKG_DESTDIR_SUPPORT= user-destdir
-
 USE_TOOLS+=	makeinfo
 INFO_FILES=	yes
 

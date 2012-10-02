@@ -16,7 +16,6 @@ USE_TOOLS+=	pkg-config
 BUILD_DEPENDS+=	libxslt-[0-9]*:../../textproc/libxslt
 BUILD_DEPENDS+=	docbook-xsl-[0-9]*:../../textproc/docbook-xsl
 
-PKG_DESTDIR_SUPPORT=	user-destdir
 MAKE_FLAGS+=	PREFIX=${PREFIX}
 MAKE_FLAGS+=	DESTDIR=${DESTDIR}
 AUTO_MKDIRS=	yes

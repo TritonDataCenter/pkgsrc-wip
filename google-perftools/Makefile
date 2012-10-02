@@ -13,7 +13,6 @@ LICENSE=	modified-bsd
 
 USE_TOOLS+=		perl:run
 REPLACE_PERL=		src/pprof
-PKG_DESTDIR_SUPPORT=	user-destdir
 
 GNU_CONFIGURE=		yes
 USE_LIBTOOL=		yes

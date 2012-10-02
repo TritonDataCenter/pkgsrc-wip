@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	xoo-0.8
-PKGREVISION=	1
+PKGREVISION=	3
 CATEGORIES=	x11
 MASTER_SITES=	http://labs.o-hand.com/sources/xoo/
 
@@ -24,4 +24,5 @@ post-install:
 .include "../../x11/gtk2/buildlink3.mk"
 .include "../../devel/libglade/buildlink3.mk"
 .include "../../x11/libXtst/buildlink3.mk"
+.include "../../sysutils/desktop-file-utils/desktopdb.mk"
 .include "../../mk/bsd.pkg.mk"

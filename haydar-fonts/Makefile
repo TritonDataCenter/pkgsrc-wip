@@ -12,8 +12,6 @@ MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	http://garr.dl.sourceforge.net/project/arabeyes/Fonts/haydar_fonts/
 COMMENT=	Free X11 fonts (BDF format) for HaydarLinux
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/fonts
 NO_BUILD=	yes
 USE_TOOLS+=	bdftopcf

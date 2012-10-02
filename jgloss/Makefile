@@ -19,13 +19,15 @@ do-configure:
 		-e 's|@PREFIX@|${PREFIX}|' ${FILESDIR}/jgloss.in >	   \
 		${WRKSRC}/jgloss
 
+INSTALLATION_DIRS=	bin
+
 do-install:
-	${INSTALL_DATA_DIR} ${PREFIX}/libexec/jgloss
-	${INSTALL_DATA} ${WRKSRC}/jgloss.jar ${PREFIX}/libexec/jgloss
-	${INSTALL_SCRIPT} ${WRKSRC}/jgloss ${PREFIX}/bin/jgloss
-	${INSTALL_DATA_DIR} ${PREFIX}/share/doc/jgloss
-	${INSTALL_DATA} ${WRKSRC}/README.txt ${PREFIX}/share/doc/jgloss
-	${INSTALL_DATA} ${WRKSRC}/doc/jgloss.pdf ${PREFIX}/share/doc/jgloss
+	${INSTALL_DATA_DIR} ${DESTDIR}${PREFIX}/libexec/jgloss
+	${INSTALL_DATA} ${WRKSRC}/jgloss.jar ${DESTDIR}${PREFIX}/libexec/jgloss
+	${INSTALL_SCRIPT} ${WRKSRC}/jgloss ${DESTDIR}${PREFIX}/bin/jgloss
+	${INSTALL_DATA_DIR} ${DESTDIR}${PREFIX}/share/doc/jgloss
+	${INSTALL_DATA} ${WRKSRC}/README.txt ${DESTDIR}${PREFIX}/share/doc/jgloss
+	${INSTALL_DATA} ${WRKSRC}/doc/jgloss.pdf ${DESTDIR}${PREFIX}/share/doc/jgloss
 
 .include "../../mk/java-vm.mk"
 .include "../../mk/bsd.pkg.mk"

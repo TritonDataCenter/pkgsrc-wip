@@ -18,8 +18,6 @@ DEPENDS+=	apache-commons-digester>=2.0:../../wip/apache-commons-digester
 DEPENDS+=	apache-commons-lang>=2.5:../../wip/apache-commons-lang
 DEPENDS+=	apache-commons-logging>=1.1.1:../../wip/apache-commons-logging
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 NO_BUILD=	yes
 USE_TOOLS+=	pax
 USE_LANGUAGES=	# none

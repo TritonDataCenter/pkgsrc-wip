@@ -12,8 +12,6 @@ NO_CONFIGURE=	yes
 DEPENDS+=	p5-Gtk2-GladeXML>=1.007:../../devel/p5-Gtk2-GladeXML
 DEPENDS+=	p5-pkgsrc-Dewey>=1.0:../../pkgtools/p5-pkgsrc-Dewey
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 SUBST_CLASSES+=			fix-prefix
 SUBST_STAGE.fix-prefix=		post-build
 SUBST_MESSAGE.fix-prefix=	Fixing relative prefix

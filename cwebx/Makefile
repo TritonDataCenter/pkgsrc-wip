@@ -14,8 +14,6 @@ COMMENT=	CWEBx system is a system for Structured Software Documentation
 
 DEPENDS+=	web2c-[0-9]*:../../print/web2c
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=	${WRKDIR}/cwebx
 
 USE_TOOLS+=	gmake

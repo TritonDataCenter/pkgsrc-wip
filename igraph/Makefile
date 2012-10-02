@@ -10,8 +10,6 @@ HOMEPAGE=	http://igraph.sf.net/
 COMMENT=	Package For Manipulating Undirected And Directed Graphs
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_TOOLS+=	pkg-config

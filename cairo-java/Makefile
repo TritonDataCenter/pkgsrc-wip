@@ -10,8 +10,6 @@ MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://java-gnome.sourceforge.net/
 COMMENT=		Cairo bindings for Java
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=		yes
 USE_TOOLS+=		gmake pkg-config
 CONFIGURE_ARGS+=	--without-gcj-compile # JAVAC=javac

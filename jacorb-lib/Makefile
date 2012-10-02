@@ -12,6 +12,8 @@ COMMENT=		Java implementation of the OMG's CORBA jar
 
 BUILD_DEPENDS+=               apache-ant>=1.5.3.1:../../devel/apache-ant
 
+PKG_DESTDIR_SUPPORT=	none
+
 WRKSRC=		${WRKDIR}/JacORB_${DIST_VERSION}
 
 PKG_JVMS_ACCEPTED+=	sun-jdk14

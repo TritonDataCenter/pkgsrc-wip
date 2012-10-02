@@ -12,8 +12,6 @@ USE_LANGUAGES=	c
 
 USE_TOOLS+=	gettext-tools intltool
 
-PKG_DESTDIR_SUPPORT+=	user-destdir
-
 PYTHON_PATCH_SCRIPTS+=	src/beryl-settings-simple.in
 
 .include "../../lang/python/application.mk"

@@ -13,8 +13,6 @@ LICENSE=	gnu-gpl-v3
 
 DEPENDS+=	gnuplot>=4.2.6:../../graphics/gnuplot
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/elk
 
 MAKE_JOBS_SAFE=NO

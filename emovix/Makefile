@@ -10,8 +10,6 @@ HOMEPAGE=	http://movix.sourceforge.net/
 COMMENT=	Tiny GNU/Linux distribution that plays video files when booted
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_LANGUAGES=	# none
 USE_TOOLS+=	perl

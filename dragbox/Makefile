@@ -11,8 +11,6 @@ HOMEPAGE=	http://users.student.lth.se/f04us/wiki/dragbox/
 COMMENT=	Command line drag-and-drop tool for GNOME
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_TOOLS+=	gmake
 

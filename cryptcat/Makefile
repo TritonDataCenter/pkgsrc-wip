@@ -10,8 +10,6 @@ MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://sourceforge.net/projects/cryptcat/
 COMMENT=		Standard netcat enhanced with twofish encryption
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_TOOLS+=		gmake
 WRKSRC=		${WRKDIR}/unix
 BUILD_TARGET=	${LOWER_OPSYS}

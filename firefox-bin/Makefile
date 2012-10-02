@@ -12,8 +12,6 @@ HOMEPAGE=	http://www.mozilla.com/en-US/firefox/
 COMMENT=	Web browser with support for extensions
 LICENSE=	mpl-1.1
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 FIREFOX_VER=	6.0.2
 
 WRKSRC=		${WRKDIR}/firefox

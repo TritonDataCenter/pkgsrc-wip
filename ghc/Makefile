@@ -19,8 +19,6 @@ DISTFILES+=	${DISTNAME}-boot-x86_64-unknown-linux-gnu.tar.bz2
 SITES.${i}=	http://static.cielonegro.org/archive/
 .endfor
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 # Unregisterised HC packages are platform-dependent C sources. Yes,
 # they are C sources but are totally non-portable. We have to create
 # more HC packages to support more platforms. Note that those packages

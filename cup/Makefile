@@ -11,8 +11,6 @@ MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www2.cs.tum.edu/projects/cup/
 COMMENT=	LALR parser generator for java
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/java-cup-11a-runtime.jar
 
 USE_JAVA=	run

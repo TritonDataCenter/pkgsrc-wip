@@ -10,8 +10,6 @@ HOMEPAGE=	http://www.projectaten.org/
 COMMENT=	Aten is a tool to create, edit, and visualise coordinates
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_CMAKE=	yes
 USE_LANGUAGES=	c c++
 USE_GNU_READLINE= YES

@@ -10,8 +10,6 @@ HOMEPAGE=		http://e00pg.sourceforge.net/
 COMMENT=		Converting ESRI-E00 coverages into PostgreSQL/PostGIS sql instructions
 LICENSE=		gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 USE_FEATURES+=		snprintf

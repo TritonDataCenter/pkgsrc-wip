@@ -11,8 +11,6 @@ MAINTAINER=	ianzag@mail.ru
 HOMEPAGE=	http://mitarbeiter.mbi-berlin.de/gerlach/Linux/LabPlot/
 COMMENT=	Data analysis and visualisation
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=			${WRKDIR}/LabPlot-1.6.0.1
 GNU_CONFIGURE=		yes
 USE_TOOLS+=		gmake

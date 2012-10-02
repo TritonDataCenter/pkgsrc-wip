@@ -12,6 +12,8 @@ HOMEPAGE=	http://equinox-project.org/
 COMMENT=	Libraries for Equinox Desktop
 LICENSE=	gnu-lgpl-v2
 
+PKG_DESTDIR_SUPPORT=	none
+
 WRKSRC=		${WRKDIR}/edelib-2.0-beta
 GNU_CONFIGURE=	yes
 USE_TOOLS+=	pkg-config jam

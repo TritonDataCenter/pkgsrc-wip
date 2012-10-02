@@ -14,8 +14,6 @@ LICENSE=	gnu-gpl-v3
 DEPENDS+=	${PYPKGPREFIX}-gaphas>=0.7.0:../../wip/py-gaphas
 DEPENDS+=	zope3>=3.3.1:../../www/zope3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/gaphor-0.15.0
 USE_LANGUAGES=	# none
 

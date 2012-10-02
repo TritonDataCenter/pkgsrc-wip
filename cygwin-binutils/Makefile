@@ -1,22 +1,16 @@
 # $NetBSD$
 # $Id$
 
-DISTNAME=	binutils-2.20
+DISTNAME=	binutils-2.21
 PKGNAME=	cygwin-${DISTNAME:S/-src//}
 CATEGORIES=	cross
 MASTER_SITES=	${MASTER_SITE_GNU:=binutils/}
 EXTRACT_SUFX=	.tar.bz2
 LICENSE=	gnu-gpl-v2
 
-#PATCH_SITES=    ${MASTER_SITE_GNU:=binutils/}
-#PATCHFILES=     binutils-2.20-2.20.1-patch.gz
-#PATCH_DIST_STRIP=       -p1
-
 MAINTAINER=	makoto@ki.nu
 HOMEPAGE=	http://www.cygwin.com/
 COMMENT=	GNU binutils ported to Win32/Cygwin environment
-
-PKG_DESTDIR_SUPPORT=	user-destdir
 
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes

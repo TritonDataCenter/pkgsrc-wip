@@ -11,8 +11,6 @@ HOMEPAGE=	https://launchpad.net/couchdb-glib
 COMMENT=	GLib-based api to access couchdb databases
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_TOOLS+=	pkg-config gmake

@@ -13,7 +13,6 @@ HOMEPAGE=	http://common-lisp.net/project/alexandria/
 COMMENT=        Alexandria is a collection utilities for Common Lisp
 LICENSE=        public-domain
 
-PKG_DESTDIR_SUPPORT=	user-destdir
 WRKSRC=			${WRKDIR}/${DISTNAME}
 COMMON_LISP_EXTRAFILES= alexandria.html
 COMMON_LISP_DOCFILES=	README AUTHORS LICENCE alexandria.html

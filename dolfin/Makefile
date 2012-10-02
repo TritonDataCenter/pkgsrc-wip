@@ -11,8 +11,6 @@ HOMEPAGE=	https://launchpad.net/dolfin
 COMMENT=	C++/Python interface of FEniCS
 LICENSE=	gnu-lgpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 # Don't add gsed yet: Causes ../../mk/tools/replace.mk to override the
 # gsed command and use sed
 USE_TOOLS+=	pkg-config

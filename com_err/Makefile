@@ -15,6 +15,8 @@ COMMENT=	Common Error Description Library
 
 CONFLICTS+=	e2fsprogs<=1.35
 
+PKG_DESTDIR_SUPPORT=	none
+
 TEST_TARGET=	check
 
 do-configure:

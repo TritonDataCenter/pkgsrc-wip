@@ -12,8 +12,6 @@ LICENSE=	gnu-gpl-v3
 
 USE_FEATURES+=	getopt_long
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	YES
 
 .include "../../mk/bsd.pkg.mk"

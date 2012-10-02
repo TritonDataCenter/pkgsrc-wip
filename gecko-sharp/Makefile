@@ -12,7 +12,6 @@ HOMEPAGE=	http://mono-project.com/GeckoSharp/
 COMMENT=	GeckoSharp is a wrapper for the GtkEmbedMoz widget
 LICENSE=	gnu-lgpl-v2.1
 
-PKG_DESTDIR_SUPPORT=		user-destdir
 GNU_CONFIGURE=	yes
 USE_TOOLS+=	pkg-config
 USE_LANGUAGES=		c

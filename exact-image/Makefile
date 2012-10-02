@@ -11,8 +11,6 @@ MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.exactcode.de/site/open_source/exactimage/
 COMMENT=	Fast, modern, and generic image processing library
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 HAS_CONFIGURE=		yes
 CONFIG_SHELL=		bash
 CONFIGURE_ARGS+=	--prefix=${PREFIX}

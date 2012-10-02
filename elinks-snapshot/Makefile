@@ -16,6 +16,8 @@ NO_CHECKSUM=	yes
 
 CONFLICTS+=	elinks-[0-9]*
 
+PKG_DESTDIR_SUPPORT=	none
+
 CONFIGURE_ARGS+=	--enable-256-colors --enable-utf-8
 CONFIGURE_ENV+=		PKGLOCALEDIR=${PKGLOCALEDIR:Q}
 CONFIGURE_ARGS+=	--with-libiconv=${BUILDLINK_PREFIX.libiconv:Q}/lib

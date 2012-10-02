@@ -5,8 +5,6 @@ SVR4_PKGNAME=		amaco
 
 COMMENT=		Common libraries and binaries for Amanda
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 .include "../../mk/bsd.prefs.mk"
 .include "../../wip/amanda3-common/Makefile.common"
 

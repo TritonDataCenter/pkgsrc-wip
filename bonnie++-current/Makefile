@@ -12,7 +12,6 @@ HOMEPAGE=	http://www.coker.com.au/bonnie++/experimental/
 COMMENT=	Enhanced performance Test of Filesystem I/O
 
 PKG_INSTALLATION_TYPES=	overwrite pkgviews
-PKG_DESTDIR_SUPPORT=	user-destdir
 
 USE_LANGUAGES=		c c++
 GNU_CONFIGURE=		YES

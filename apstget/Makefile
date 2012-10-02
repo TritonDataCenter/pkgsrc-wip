@@ -24,8 +24,8 @@ do-extract:
 	cp -R ${FILESDIR} ${WRKSRC}
 
 do-install:
-	${INSTALL_SCRIPT} ${WRKSRC}/apst-get ${PREFIX}/bin/apstget
-	${INSTALL_SCRIPT} ${WRKSRC}/apstget-wrapper ${PREFIX}/libexec/
+	${INSTALL_SCRIPT} ${WRKSRC}/apst-get ${DESTDIR}${PREFIX}/bin/apstget
+	${INSTALL_SCRIPT} ${WRKSRC}/apstget-wrapper ${DESTDIR}${PREFIX}/libexec/
 
 .include "../../mk/bsd.prefs.mk"
 

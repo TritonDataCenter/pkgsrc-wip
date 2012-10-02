@@ -11,8 +11,6 @@ HOMEPAGE=	http://code.google.com/p/froggymicroblog/
 COMMENT=	C\# twitter identi.ca client
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_TOOLS+=	pkg-config intltool gmake
 USE_LANGUAGES=	# none

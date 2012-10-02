@@ -9,8 +9,6 @@ MAINTAINER=	cheusov@NetBSD.org
 HOMEPAGE=	http://ftp.wagner.pp.ru/pub/fonts/type1/
 COMMENT=	Cyrillic fonts for a2ps (a part of sharatype project)
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 DEPENDS+=		a2ps-[0-9]*:../../print/a2ps
 
 NO_BUILD=		yes

@@ -36,9 +36,11 @@ PLIST_SRC=${PKGDIR}/PLIST.FreeBSD
 # TODO add support for the rest of supported archs
 ONLY_FOR_PLATFORM=Linux-*-i386 FreeBSD-*-i386 OpenBSD-2.*-i386
 
+INSTALLATION_DIRS=	bin
+
 do-install:
-	${INSTALL_PROGRAM} ${WRKSRC}/jad ${PREFIX}/bin/jad
-	${INSTALL_DATA_DIR} ${PREFIX}/share/doc/jad/
-	${INSTALL_DATA} ${WRKSRC}/?eadme.txt ${PREFIX}/share/doc/jad/
+	${INSTALL_PROGRAM} ${WRKSRC}/jad ${DESTDIR}${PREFIX}/bin/jad
+	${INSTALL_DATA_DIR} ${DESTDIR}${PREFIX}/share/doc/jad/
+	${INSTALL_DATA} ${WRKSRC}/?eadme.txt ${DESTDIR}${PREFIX}/share/doc/jad/
 
 .include "../../mk/bsd.pkg.mk"

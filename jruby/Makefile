@@ -11,8 +11,6 @@ HOMEPAGE=	http://jruby.org/
 COMMENT=	Implementation of the Ruby programming language atop the JVM
 LICENSE=	cpl-1.0 OR gnu-gpl-v2 OR gnu-lgpl-v2.1
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=	${WRKDIR}/${PKGNAME_NOREV}
 
 NO_BUILD=	yes

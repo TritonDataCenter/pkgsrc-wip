@@ -11,8 +11,6 @@ HOMEPAGE=	http://live.gnome.org/Gjs
 COMMENT=	Javascript binding for GNOME besed on Spidermonkey
 LICENSE=	mit
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 MAKE_JOBS_SAFE=		NO
 
 GNU_CONFIGURE=	yes

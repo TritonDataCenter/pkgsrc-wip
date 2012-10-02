@@ -10,8 +10,6 @@ HOMEPAGE=	http://code.google.com/p/gnome-paint/
 COMMENT=	Simple, easy to use paint program for GNOME
 LICENSE=	gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_TOOLS+=	pkg-config intltool gmake

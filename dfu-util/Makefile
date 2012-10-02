@@ -12,7 +12,6 @@ HOMEPAGE=		http://wiki.openmoko.org/wiki/Dfu-util
 COMMENT=		Host side of the USB DFU protocol
 LICENSE=		gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
 BUILD_DEPENDS+=		subversion-base>=1.4.2:../../devel/subversion-base
 
 SUBDIR=			${PKGNAME}

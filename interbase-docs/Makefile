@@ -22,8 +22,8 @@ ID6_FILES=		ApiGuide.pdf DataDef.pdf DevGuide.pdf EmbedSQL.pdf \
 			GetStart.pdf LANGREF.PDF OpGuide.pdf
 
 do-install:
-	${INSTALL_DATA_DIR} ${ID6_DIR}
+	${INSTALL_DATA_DIR} ${DESTDIR}${ID6_DIR}
 	for a in ${ID6_FILES}; do \
-		${INSTALL_DATA} ${WRKSRC}/$$a ${ID6_DIR}/$$a; done
+		${INSTALL_DATA} ${WRKSRC}/$$a ${DESTDIR}${ID6_DIR}/$$a; done
 
 .include "../../mk/bsd.pkg.mk"

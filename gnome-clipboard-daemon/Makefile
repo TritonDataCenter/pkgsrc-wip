@@ -13,8 +13,6 @@ HOMEPAGE=	http://members.chello.nl/~h.lai/gnome-clipboard-daemon/
 COMMENT=	Program that keeps the content of your X clipboard in memory
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_TOOLS+=	pkg-config
 
 INSTALLATION_DIRS=	bin

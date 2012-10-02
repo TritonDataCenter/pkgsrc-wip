@@ -17,8 +17,6 @@ PLIST_SUBST+=		PYVERSSUFFIX=${PYVERSSUFFIX:Q}
 PYTHON_VERSIONS_ACCEPTED= 27 26
 REPLACE_PYTHON+=	googleshare.py
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 DEPENDS+=		${PYPKGPREFIX}-twisted-[0-9]*:../../net/py-twisted
 DEPENDS+=		${PYPKGPREFIX}-OpenSSL>=0.6:../../security/py-OpenSSL
 .if ${MACHINE_ARCH} == "i386"

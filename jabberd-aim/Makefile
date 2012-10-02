@@ -21,9 +21,11 @@ pre-configure:
 		${LN} -s ${PREFIX}/include/jabberd ${WRKDIR}/jabberd; \
 	fi
 
+INSTALLATION_DIRS=	lib/jabberd share/examples/jabberd
+
 do-install:
-	${INSTALL_DATA} ${WRKSRC}/src/aimtrans.so ${PREFIX}/lib/jabberd/
-	${INSTALL_DATA} ${WRKSRC}/aim.xml ${EXAMPLEFILE}
+	${INSTALL_DATA} ${WRKSRC}/src/aimtrans.so ${DESTDIR}${PREFIX}/lib/jabberd/
+	${INSTALL_DATA} ${WRKSRC}/aim.xml ${DESTDIR}${EXAMPLEFILE}
 
 .include "../../devel/pth/buildlink3.mk"
 .include "../../converters/libiconv/buildlink3.mk"

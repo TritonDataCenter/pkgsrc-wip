@@ -11,8 +11,6 @@ HOMEPAGE=	http://cglib.sourceforge.net/
 COMMENT=	Code generation library for Java
 LICENSE=	apache-2.0
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/cglib-2.2.jar
 
 NO_BUILD=	yes

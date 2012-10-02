@@ -13,10 +13,12 @@ COMMENT=		Decimal arithmetic for Java
 
 WRKSRC=			${WRKDIR}/
 
+INSTALLATION_DIRS=	share/classpath
+
 do-build:
 
 do-install:
 	${INSTALL_DATA} ${WRKDIR}/decimal.jar \
-		${PREFIX}/share/classpath/
+		${DESTDIR}${PREFIX}/share/classpath/
 
 .include "../../mk/bsd.pkg.mk"

@@ -9,6 +9,8 @@ MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.logilab.org/project/eid/3426
 COMMENT=	GTK based replacement for hgview
 
+PKG_DESTDIR_SUPPORT=	none
+
 NO_CHECKSUM=		yes
 PYDISTUTILSPKG=		yes
 WRKSRC=			${WRKDIR}/hgview

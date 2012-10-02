@@ -13,8 +13,6 @@ LICENSE=	gnu-gpl-v2
 
 DEPENDS=	${PYPKGPREFIX}-storm>=0.16.0:../../wip/py-storm
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_TOOLS+=	gmake
 USE_LANGUAGES=	# none

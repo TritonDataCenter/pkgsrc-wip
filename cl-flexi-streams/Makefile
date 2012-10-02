@@ -13,7 +13,6 @@ COMMENT=        FLEXI-STREAMS - Flexible bivalent streams for Common Lisp
 LICENSE=        modified-bsd
 DEPENDS+=	${LISP_PREFIX}-trivial-gray-streams-[0-9]*:../../wip/cl-trivial-gray-streams
 
-PKG_DESTDIR_SUPPORT=	user-destdir
 WRKSRC=			${WRKDIR}/${DISTNAME}-${VERSION}
 COMMON_LISP_DOCFILES=	CHANGELOG doc/index.html
 

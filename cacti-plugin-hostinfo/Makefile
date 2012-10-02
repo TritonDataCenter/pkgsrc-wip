@@ -19,8 +19,6 @@ DEPENDS+=		cacti>=0.8.7h:../../net/cacti
 
 USE_TOOLS+=		gtar
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 CACTIDIR=		${PREFIX}/share/cacti
 PLUGINDIR=		${CACTIDIR}/plugins/hostinfo
 

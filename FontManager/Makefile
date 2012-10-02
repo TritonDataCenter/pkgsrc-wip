@@ -8,8 +8,6 @@ HOMEPAGE=	http://etoileos.com/
 COMMENT=	Font Manager is an app for the purpose of (guess what) managing fonts
 LICENSE=	modified-bsd
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	objc
 
 NO_CONFIGURE=	yes

@@ -15,7 +15,7 @@ APACHE_MODULE_NAME=	mod_choke.so
 .include "../../www/apache/module.mk"
 
 post-install:
-	${INSTALL_DATA_DIR} ${PREFIX}/share/doc/mod_choke && \
-	${INSTALL_DATA} ${WRKSRC}/README ${PREFIX}/share/doc/mod_choke
+	${INSTALL_DATA_DIR} ${DESTDIR}${PREFIX}/share/doc/mod_choke && \
+	${INSTALL_DATA} ${WRKSRC}/README ${DESTDIR}${PREFIX}/share/doc/mod_choke
 
 .include "../../mk/bsd.pkg.mk"

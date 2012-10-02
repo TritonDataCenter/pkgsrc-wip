@@ -13,8 +13,6 @@ LICENSE=	apache-2.0
 
 DEPENDS+=	jakarta-oro>=2.0.8:../../wip/jakarta-oro
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 NO_BUILD=		yes
 USE_TOOLS+=	pax
 USE_LANGUAGES=	# none

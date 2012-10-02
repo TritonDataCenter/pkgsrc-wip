@@ -11,8 +11,6 @@ HOMEPAGE=	http://www.claws-mail.org/downloads/plugins/
 COMMENT=	Renders HTML e-mail using the WebKit library
 LICENSE=	gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LIBTOOL=		yes
 GNU_CONFIGURE=		yes
 USE_PKGLOCALEDIR=	yes

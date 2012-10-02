@@ -15,8 +15,6 @@ HOMEPAGE=	http://www.codeblocks.org/
 COMMENT=	Open source, cross platform, free C++ IDE
 LICENSE=	gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/${PKGNAME_NOREV}-release
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes

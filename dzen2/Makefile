@@ -11,8 +11,6 @@ HOMEPAGE=	http://sites.google.com/site/gotmor/dzen
 COMMENT=	General purpose messaging and notification program
 LICENSE=	mit
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 NO_CONFIGURE=		yes
 BUILD_DIRS=		. gadgets
 

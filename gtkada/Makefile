@@ -11,6 +11,8 @@ MAINTAINER=		john@johnrshannon.com
 HOMEPAGE=		https://libre.adacore.com/GtkAda/
 COMMENT=		Ada95 graphical toolkit
 
+PKG_DESTDIR_SUPPORT=	none
+
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 USE_TOOLS+=		gmake autoconf

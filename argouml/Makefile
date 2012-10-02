@@ -15,8 +15,6 @@ COMMENT=	UML design tool environment with cognitive support
 DEPENDS+=	xerces-j>=1.2.0:../../textproc/xerces-j
 DEPENDS+=	jakarta-log4j-1.3a>=8:../../wip/jakarta-log4j
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_JAVA=		run
 NO_BUILD=		yes
 WRKSRC=		${WRKDIR}

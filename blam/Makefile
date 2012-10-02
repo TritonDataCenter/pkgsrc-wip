@@ -12,8 +12,6 @@ HOMEPAGE=	http://www.cmartin.tk/blam.html
 COMMENT=	Blam is a feed reader for GNOME written in C\#
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=		user-destdir
-
 GNU_CONFIGURE=	yes
 USE_PKGLOCALEDIR= yes
 USE_TOOLS+=	pkg-config intltool msgfmt

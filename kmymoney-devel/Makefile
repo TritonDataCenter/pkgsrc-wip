@@ -13,8 +13,6 @@ LICENSE=	gnu-gpl-v2
 
 BUILD_DEPENDS+=	automoc4-[0-9]*:../../devel/automoc4
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 #MAKE_JOBS_SAFE=no
 
 USE_CMAKE=		yes

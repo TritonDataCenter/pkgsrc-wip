@@ -10,6 +10,8 @@ MAINTAINER=	hubertf@NetBSD.org
 HOMEPAGE=	http://www.icecast.org/
 COMMENT=	Internet broadcasting system using Mpeg Layer III streaming
 
+PKG_DESTDIR_SUPPORT=	none
+
 GNU_CONFIGURE=		yes
 
 RCD_SCRIPTS=		icecast

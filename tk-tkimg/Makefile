@@ -15,8 +15,6 @@ WRKSRC=		${WRKDIR}/tkimg-1.3
 GNU_CONFIGURE=	yes
 TEST_TARGET=	test
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 .include "../../graphics/png/buildlink3.mk"
 .include "../../graphics/jpeg/buildlink3.mk"
 .include "../../graphics/tiff/buildlink3.mk"

@@ -11,7 +11,7 @@ HOMEPAGE=		http://www.libsdl.org/docs.php
 COMMENT=		Simple DirectMedia Layer documentation
 
 WRKSRC=			${WRKDIR}
-DEST=			${PREFIX}/share/doc/SDL-doc/ps
+DEST=			${DESTDIR}${PREFIX}/share/doc/SDL-doc/ps
 
 NO_CONFIGURE=	YES
 NO_BUILD=		YES

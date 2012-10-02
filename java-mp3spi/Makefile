@@ -11,8 +11,6 @@ HOMEPAGE=	http://www.javazoom.net/mp3spi/
 COMMENT=	Interface to support MP3 (MPEG 1/2/2.5 Layer 1/2/3) audio format
 LICENSE=	gnu-lgpl-v2.1
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/MpegAudioSPI1.9.4
 
 NO_BUILD=		yes

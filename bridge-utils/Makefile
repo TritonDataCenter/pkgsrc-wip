@@ -10,8 +10,6 @@ HOMEPAGE=		http://www.linuxfoundation.org/collaborate/workgroups/networking/brid
 COMMENT=		Ethernet bridging utilities for GNU/Linux
 LICENSE=		gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 USE_TOOLS+=		gmake

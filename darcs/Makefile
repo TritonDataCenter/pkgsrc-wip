@@ -9,8 +9,6 @@ HOMEPAGE=	http://www.darcs.net/
 COMMENT=	Distributed revision control system
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 CONFIGURE_ARGS+= -fhttp -fterminfo -fcolor -fmmap
 .include "options.mk"
 

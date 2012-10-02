@@ -8,6 +8,8 @@ PKGREVISION=	3
 
 COMMENT=	Heliodor theme package for beryl
 
+PKG_DESTDIR_SUPPORT=	none
+
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 

@@ -26,17 +26,17 @@ pre-install:
 	      >${WRKSRC}/jalview.sh
 
 do-install:
-	${INSTALL_DATA_DIR} ${PREFIX}/lib/java
-	${INSTALL_DATA} ${WRKSRC}/jalview_1.8.jar ${PREFIX}/lib/java
-	${INSTALL_DATA} ${WRKSRC}/jalview.jar ${PREFIX}/lib/java
-	${INSTALL_DATA_DIR} ${PREFIX}/share/jalview
-	${INSTALL_DATA} ${WRKSRC}/jalview.sh ${PREFIX}/share/jalview
-	${INSTALL_DATA} ${WRKSRC}/README ${PREFIX}/share/jalview
-	${INSTALL_DATA_DIR} ${PREFIX}/share/jalview/examples
-	${INSTALL_DATA} ${WRKSRC}/examples/1hdc.pfam ${PREFIX}/share/jalview/examples
+	${INSTALL_DATA_DIR} ${DESTDIR}${PREFIX}/lib/java
+	${INSTALL_DATA} ${WRKSRC}/jalview_1.8.jar ${DESTDIR}${PREFIX}/lib/java
+	${INSTALL_DATA} ${WRKSRC}/jalview.jar ${DESTDIR}${PREFIX}/lib/java
+	${INSTALL_DATA_DIR} ${DESTDIR}${PREFIX}/share/jalview
+	${INSTALL_DATA} ${WRKSRC}/jalview.sh ${DESTDIR}${PREFIX}/share/jalview
+	${INSTALL_DATA} ${WRKSRC}/README ${DESTDIR}${PREFIX}/share/jalview
+	${INSTALL_DATA_DIR} ${DESTDIR}${PREFIX}/share/jalview/examples
+	${INSTALL_DATA} ${WRKSRC}/examples/1hdc.pfam ${DESTDIR}${PREFIX}/share/jalview/examples
 
 pre-check:
-	${PREFIX}/bin/jalview.sh ${PREFIX}/share/jalview/examples/1hdc.pfam File PFAM
+	${DESTDIR}${PREFIX}/bin/jalview.sh ${DESTDIR}${PREFIX}/share/jalview/examples/1hdc.pfam File PFAM
 
 .include "../../mk/java-vm.mk"
 .include "../../mk/bsd.pkg.mk"

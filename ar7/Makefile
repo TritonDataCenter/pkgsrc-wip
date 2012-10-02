@@ -10,8 +10,6 @@ HOMEPAGE=	${MASTER_SITES}
 COMMENT=	Diagnosis tool for certain ADSL modems
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	YES
 INSTALLATION_DIRS=	bin
 

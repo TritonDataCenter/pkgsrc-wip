@@ -19,7 +19,9 @@ PKG_OPTIONS_VAR=PKG_OPTIONS.glulxe
 .include "../../mk/bsd.options.mk"
 .include "../../wip/glkloader/glk-depends.mk"
 
+INSTALLATION_DIRS=	bin
+
 do-install:
-	${INSTALL_PROGRAM} ${WRKSRC}/glulxe ${LOCALBASE}/bin
+	${INSTALL_PROGRAM} ${WRKSRC}/glulxe ${DESTDIR}${PREFIX}/bin
 
 .include "../../mk/bsd.pkg.mk"

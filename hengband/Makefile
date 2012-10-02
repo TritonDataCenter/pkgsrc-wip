@@ -10,6 +10,8 @@ MAINTAINER=	pho@cielonegro.org
 HOMEPAGE=	http://hengband.sourceforge.jp/en/index.html
 COMMENT=	Variant of ZAngband 2.2.8
 
+PKG_DESTDIR_SUPPORT=	none
+
 GNU_CONFIGURE=		yes
 CONFIGURE_ARGS+=	--with-setgid=games
 CONFIGURE_ARGS+=	--with-libpath=${PREFIX}/share/hengband/

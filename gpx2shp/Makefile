@@ -10,8 +10,6 @@ HOMEPAGE=	http://gpx2shp.sourceforge.jp/
 COMMENT=	Converts GPX to ESRI shapefile format
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	c
 GNU_CONFIGURE=	yes
 USE_TOOLS+=	gmake

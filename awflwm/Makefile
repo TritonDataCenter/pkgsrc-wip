@@ -11,6 +11,8 @@ MAINTAINER=	low@ameba6.com
 HOMEPAGE=	http://awflwm.berlios.de/
 COMMENT=	Fork of the flwm project
 
+PKG_DESTDIR_SUPPORT=	none
+
 GNU_CONFIGURE=	yes
 CONFIGURE_ENV+=	X_LIBS="-lGL"
 MAKE_ENV+=	CXXFLAGS=${CXXFLAGS:M*:Q}

@@ -13,8 +13,6 @@ LICENSE=		gnu-gpl-v3
 
 CONFLICTS=		grub-[0-9]*
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 ONLY_FOR_PLATFORM=	*-*-i386 *-*-x86_64
 
 USE_TOOLS+=		gmake flex bison

@@ -15,7 +15,6 @@ DEPENDS+=	${LISP_PREFIX}-trivial-features-[0-9]*:../../wip/cl-trivial-features
 DEPENDS+=	${LISP_PREFIX}-alexandria-[0-9]*:../../wip/cl-alexandria
 DEPENDS+=	${LISP_PREFIX}-babel-[0-9]*:../../wip/cl-babel
 
-PKG_DESTDIR_SUPPORT=	user-destdir
 WRKSRC=			${WRKDIR}/${DISTNAME}
 COMMON_LISP_PACKAGES=	${SHORTNAME} ${SHORTNAME}-grovel ${SHORTNAME}-uffi-compat
 COMMON_LISP_DOCFILES:=	README COPYRIGHT HEADER TODO

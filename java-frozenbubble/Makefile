@@ -23,7 +23,7 @@ do-extract:
 
 do-install:
 	${INSTALL_DATA} ${DISTDIR}/${DISTNAME}${EXTRACT_SUFX} \
-		${JAR_PREFIX}/frozenbubble.jar
+		${DESTDIR}${JAR_PREFIX}/frozenbubble.jar
 
 .include "../../wip/mk/java-app.mk"
 .include "../../mk/bsd.pkg.mk"

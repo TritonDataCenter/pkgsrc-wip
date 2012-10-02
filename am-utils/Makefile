@@ -35,8 +35,6 @@ RCD_SCRIPTS=		amd-pkgsrc
 EGDIR=			${PREFIX}/share/examples/${PKGBASE}
 PKGDOCDIR=		${PREFIX}/share/doc/${PKGBASE}
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 INSTALLATION_DIRS+=	${EGDIR} ${PKGDOCDIR} etc/amd
 
 EXTRA_DOC_FILES=	COPYING FAQ ChangeLog BUGS AUTHORS \

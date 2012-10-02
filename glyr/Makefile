@@ -12,8 +12,6 @@ HOMEPAGE=	https://github.com/sahib/glyr/
 COMMENT=	Music related metadata search engine with CLI and C API
 LICENSE=	gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/glyr
 USE_TOOLS+=	pkg-config
 USE_CMAKE=	yes

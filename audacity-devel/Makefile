@@ -11,7 +11,6 @@ HOMEPAGE=		http://audacity.sourceforge.net/
 COMMENT=		Audio editor
 LICENSE=		gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
 DEPENDS+=		zip>=0.0:../../archivers/zip
 
 WRKSRC=			${WRKDIR}/${DISTNAME}-beta

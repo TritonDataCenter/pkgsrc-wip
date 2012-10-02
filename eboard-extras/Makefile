@@ -10,8 +10,6 @@ HOMEPAGE=		http://www.bergo.eng.br/eboard/
 COMMENT=		Extras sets, pieces and sound or eboard
 LICENSE=		gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 NO_BUILD=YES
 
 DISTFILES+=		${EXTRA2}${EXTRACT_SUFX}

@@ -10,8 +10,6 @@ HOMEPAGE=		http://bscript.sourceforge.net/
 COMMENT=		Portable, fast, lightweight BASIC interpreter
 LICENSE=		gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 

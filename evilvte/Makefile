@@ -10,8 +10,6 @@ MAINTAINER=		roy@marples.name
 HOMEPAGE=		http://www.calno.com/evilvte/
 COMMENT=		VTE based, highly customizable terminal emulator
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 HAS_CONFIGURE=		yes
 CONFIGURE_ARGS+=	--prefix=${PREFIX}
 USE_TOOLS+=		gmake pkg-config

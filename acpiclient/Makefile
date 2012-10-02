@@ -10,8 +10,6 @@ MAINTAINER=	rga@sdf.lonestar.org
 HOMEPAGE=	http://acpiclient.sourceforge.net/
 COMMENT=	This is an acpi client for Linux
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_TOOLS+=     gmake
 

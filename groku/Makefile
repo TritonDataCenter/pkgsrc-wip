@@ -10,8 +10,6 @@ MAINTAINER=		mwicks@kettering.edu
 HOMEPAGE=		http://groku.digitalssg.net/
 COMMENT=		Groku is a GTK for controlling your Roku Soundbridge (tm)
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=		yes
 USE_TOOLS+=		pkg-config
 USE_LANGUAGES+=		c c++

@@ -15,7 +15,6 @@ LICENSE=	gnu-gpl-v2
 
 BUILD_DEPENDS+=	automoc4>=0.9.83:../../devel/automoc4
 
-PKG_DESTDIR_SUPPORT=	user-destdir
 USE_PKGLOCALEDIR=	yes
 USE_LANGUAGES=		c c++
 

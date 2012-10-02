@@ -25,9 +25,9 @@ SUBST_FILES.xsl=	dbk-fo.xsl dbk-html-chunk.xsl dbk-html.xsl \
 SUBST_SED.xsl=		-e 's,http://docbook.sourceforge.net/release/xsl/current/,../docbook/,g'
 
 do-install:
-	${INSTALL_DATA_DIR} ${XSLDIR}
-	${INSTALL_DATA} ${WRKSRC}/*.xsl ${XSLDIR}
-	${INSTALL_DATA} ${FILESDIR}/catalog ${XSLDIR}
+	${INSTALL_DATA_DIR} ${DESTDIR}${XSLDIR}
+	${INSTALL_DATA} ${WRKSRC}/*.xsl ${DESTDIR}${XSLDIR}
+	${INSTALL_DATA} ${FILESDIR}/catalog ${DESTDIR}${XSLDIR}
 
 .include "../../textproc/xmlcatmgr/catalogs.mk"
 .include "../../mk/bsd.pkg.mk"

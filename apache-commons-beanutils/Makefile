@@ -11,8 +11,6 @@ HOMEPAGE=	http://commons.apache.org/beanutils/
 COMMENT=	Utility for manipulating JavaBeans
 LICENSE=	apache-2.0
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/commons-beanutils-1.8.3
 
 NO_BUILD=		yes

@@ -14,8 +14,6 @@ LICENSE=	gnu-gpl-v2
 DEPENDS+=	rcs-[0-9]*:../../devel/rcs
 .endif
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 MAKE_FILE=		bsd-gcc.mk
 
 INSTALLATION_DIRS+=	bin

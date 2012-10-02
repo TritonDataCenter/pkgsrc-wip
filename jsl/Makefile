@@ -11,7 +11,6 @@ HOMEPAGE=	http://www.javascriptlint.com/
 COMMENT=	Standalone JavaScript lint
 LICENSE=	mpl-1.1
 
-PKG_DESTDIR_SUPPORT=	user-destdir
 INSTALLATION_DIRS=	bin ${DOCDIR} ${EGDIR}
 
 DOCDIR=		share/doc/html/jsl

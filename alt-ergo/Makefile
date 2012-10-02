@@ -10,7 +10,6 @@ HOMEPAGE=	http://ergo.lri.fr/http/
 COMMENT=	Automatic theorem prover for program verification
 
 USE_TOOLS+=	gmake
-PKG_DESTDIR_SUPPORT=	user-destdir
 
 GNU_CONFIGURE=	yes
 USE_LANGUAGES=	c

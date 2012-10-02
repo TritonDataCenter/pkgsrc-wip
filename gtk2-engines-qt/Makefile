@@ -12,6 +12,8 @@ MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://kde-look.org/content/show.php?content=9714
 COMMENT=		GTK+ 2.x theme, which looks just like Qt toolkit
 
+PKG_DESTDIR_SUPPORT=	none
+
 WRKSRC=			${WRKDIR}/gtk-qt-engine-0.2
 USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=		yes

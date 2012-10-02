@@ -11,8 +11,6 @@ HOMEPAGE=	http://projects.hepforge.org/hepmcvisual/
 COMMENT=	Interactive Browser for HepMC events 
 #LICENSE=	# TODO: (see mk/license.mk)
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/HepMCVisual
 
 CHECK_PORTABILITY_SKIP= configure

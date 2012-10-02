@@ -12,8 +12,6 @@ HOMEPAGE=	http://hijra.ojuba.org/
 COMMENT=	Hijra is the Hijri Islamic Calendar
 #LICENSE=	LICENSE
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	# none
 PYDISTUTILSPKG=		yes
 

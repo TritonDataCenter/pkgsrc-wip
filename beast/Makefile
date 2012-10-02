@@ -11,8 +11,6 @@ HOMEPAGE=	http://beast.gtk.org/
 COMMENT=	Bedevilled Audio System
 LICENSE=	gnu-lgpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	c c++
 USE_LIBTOOL=	yes
 USE_TOOLS+=	gmake autoconf213 autoconf

@@ -13,7 +13,6 @@ GNU_CONFIGURE=	yes
 USE_LANGUAGES=	c c++
 
 USE_TOOLS+=	gmake bash perl
-PKG_DESTDIR_SUPPORT=	user-destdir
 
 SUBST_CLASSES+=                 fix-bash
 SUBST_STAGE.fix-bash=          	pre-configure

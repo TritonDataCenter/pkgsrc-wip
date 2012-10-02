@@ -9,8 +9,6 @@ MAINTAINER=	schwarz@NetBSD.org
 HOMEPAGE=	http://web.archive.org/web/20070322102507/http://www.dachb0den.com/projects/dwepcrack.html
 COMMENT=	Dwepcrack uses varioius methods to extract WEP keys
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 NO_CONFIGURE=	YES
 
 INSTALLATION_DIRS=	bin

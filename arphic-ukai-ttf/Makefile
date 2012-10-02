@@ -11,8 +11,6 @@ HOMEPAGE=	http://www.freedesktop.org/wiki/Software/CJKUnifonts
 COMMENT=	High-quality Chinese Unicode TrueType font, Kaiti style
 #LICENSE=	Arphic Public License
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}
 
 USE_X11BASE=	yes

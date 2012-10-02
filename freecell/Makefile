@@ -11,8 +11,6 @@ COMMENT=	Console version of the solitaire game Freecell
 
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 
 .include "../../mk/curses.buildlink3.mk"

@@ -11,8 +11,6 @@ HOMEPAGE=		http://cream.sourceforge.net/
 COMMENT=		Usability add-on for Vim
 LICENSE=		gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 DEPENDS+=		{vim-gtk2,vim-gtk,vim-kde,vim-motif}>=7.0:../../editors/vim-gtk2
 
 NO_BUILD=		yes

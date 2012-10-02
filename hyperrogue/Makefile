@@ -11,8 +11,6 @@ HOMEPAGE=	http://www.roguetemple.com/z/hyper.php
 COMMENT=	Rogue clone in a strange, non-Euclidean world
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	c++
 USE_TOOLS+=	gmake pkg-config
 BUILD_TARGET=	hyper

@@ -11,8 +11,6 @@ HOMEPAGE=	http://igniferroque.sourceforge.net/
 COMMENT=	Marathon game map utility
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_TOOLS+=	autoconf automake gmake
 USE_LANGUAGES=	c c++

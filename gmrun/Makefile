@@ -11,7 +11,6 @@ COMMENT=	Customizable program to run programs, with tab-completion
 LICENSE=	gnu-gpl-v2
 
 DOCDIR=		${DESTDIR}${PREFIX}/share/doc/${PKGBASE}
-PKG_DESTDIR_SUPPORT=	user-destdir
 
 USE_TOOLS+=	gmake
 

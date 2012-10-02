@@ -11,8 +11,6 @@ HOMEPAGE=		http://gnomad2.sourceforge.net/
 COMMENT=		GTK+2 tool for managing Creative and Dell mp3 players
 LICENSE=		gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 

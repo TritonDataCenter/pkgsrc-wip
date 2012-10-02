@@ -12,7 +12,6 @@ HOMEPAGE=	http://OpenGLUT.sourceforge.net/
 COMMENT=	OpenGLUT is an open source evolution of the GLUT API
 
 PKG_INSTALLATION_TYPES=	overwrite pkgviews
-PKG_DESTDIR_SUPPORT=	user-destdir
 
 USE_LIBTOOL=	yes
 GNU_CONFIGURE=	yes

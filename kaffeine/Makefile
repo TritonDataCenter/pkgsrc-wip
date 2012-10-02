@@ -10,8 +10,6 @@ HOMEPAGE=	http://kaffeine.kde.org/
 COMMENT=	Full featured Multimedia-Player for KDE
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_CMAKE=	yes
 USE_LANGUAGES=	c c++
 

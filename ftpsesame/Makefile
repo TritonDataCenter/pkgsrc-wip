@@ -16,9 +16,9 @@ OWN_DIRS=		${VARBASE}/chroot/proxy
 INSTALLATION_DIRS=	sbin ${PKGMANDIR}/cat8 ${PKGMANDIR}/man8
 
 do-install:
-	${INSTALL_PROGRAM} ${WRKSRC}/ftpsesame ${PREFIX}/sbin/ftpsesame
-	${INSTALL_MAN} ${WRKSRC}/ftpsesame.8 ${PREFIX}/${PKGMANDIR}/man8/ftpsesame.8
-	${INSTALL_MAN} ${WRKSRC}/ftpsesame.cat8 ${PREFIX}/${PKGMANDIR}/cat8/ftpsesame.0
+	${INSTALL_PROGRAM} ${WRKSRC}/ftpsesame ${DESTDIR}${PREFIX}/sbin/ftpsesame
+	${INSTALL_MAN} ${WRKSRC}/ftpsesame.8 ${DESTDIR}${PREFIX}/${PKGMANDIR}/man8/ftpsesame.8
+	${INSTALL_MAN} ${WRKSRC}/ftpsesame.cat8 ${DESTDIR}${PREFIX}/${PKGMANDIR}/cat8/ftpsesame.0
 
 .include "../../mk/pf.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

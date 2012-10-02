@@ -13,8 +13,6 @@ COMMENT=	Lightweight, fully featured GTK+ clipboard manager
 
 LICENSE=	gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS+= --sysconfdir=${PKG_SYSCONFDIR}
 

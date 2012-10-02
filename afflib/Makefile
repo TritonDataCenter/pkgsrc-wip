@@ -10,8 +10,6 @@ MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://www.afflib.org/downloads/
 COMMENT=		Advanced Forensic Format library
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES= c++
 
 do-install:

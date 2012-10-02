@@ -1,13 +1,14 @@
 $NetBSD$
 
---- shell/dbshell.cpp.orig	2011-12-14 17:18:48.000000000 +0000
-+++ shell/dbshell.cpp
-@@ -44,7 +44,7 @@ static volatile bool atPrompt = false; /
+Add support for NetBSD.
+--- src/mongo/shell/dbshell.cpp.orig	2012-08-28 05:28:11.000000000 +0000
++++ src/mongo/shell/dbshell.cpp
+@@ -51,7 +51,7 @@ bool inMultiLine = false;
+ static volatile bool atPrompt = false; // can eval before getting to prompt
  bool autoKillOp = false;
  
- 
--#if defined(USE_LINENOISE) && !defined(__freebsd__) && !defined(__openbsd__) && !defined(_WIN32)
-+#if defined(USE_LINENOISE) && !defined(__freebsd__) && !defined(__netbsd__) && !defined(__openbsd__) && !defined(_WIN32)
+-#if !defined(__freebsd__) && !defined(__openbsd__) && !defined(_WIN32)
++#if !defined(__freebsd__) && !defined(__openbsd__) && !defined(__netbsd__) && !defined(_WIN32)
  // this is for ctrl-c handling
  #include <setjmp.h>
  jmp_buf jbuf;

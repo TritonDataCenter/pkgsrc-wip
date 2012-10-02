@@ -9,6 +9,8 @@ MAINTAINER=		brook@nmsu.edu
 HOMEPAGE=		http://grass.itc.it/
 COMMENT=		Open source geographical information system (GIS)
 
+PKG_DESTDIR_SUPPORT=	none
+
 USE_LANGUAGES=		c c++
 USE_PKGLOCALEDIR=	yes
 USE_TOOLS+=		autoconf bash gm4 gmake perl

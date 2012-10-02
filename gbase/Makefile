@@ -11,7 +11,6 @@ HOMEPAGE=	http://www.fluxcode.net/
 COMMENT=	GTK program designed to convert between the four common bases
 LICENSE=	artistic
 
-PKG_DESTDIR_SUPPORT=	user-destdir
 INSTALLATION_DIRS+=	bin
 
 BUILD_TARGET=	gbase

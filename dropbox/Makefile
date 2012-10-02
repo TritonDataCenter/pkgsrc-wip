@@ -11,8 +11,6 @@ HOMEPAGE=	http://www.dropbox.com/
 COMMENT=	Dropbox sync server
 #LICENSE=	# TODO: (see mk/license.mk)
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/.dropbox-dist
 USE_LANGUAGES=	# none
 USE_TOOLS=	pax

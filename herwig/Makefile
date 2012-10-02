@@ -11,8 +11,6 @@ MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	http://hepwww.rl.ac.uk/theory/seymour/herwig/
 COMMENT= Monte Carlo package for simulating Hadron Emission Reactions
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/herwig6510.f
 
 NO_BUILD= yes

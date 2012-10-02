@@ -12,8 +12,6 @@ HOMEPAGE=	http://groovy.codehaus.org/
 COMMENT=	Dynamic language for the Java platform
 LICENSE=	apache-2.0
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/${PKGNAME_NOREV}
 
 USE_LANGUAGES=	# none

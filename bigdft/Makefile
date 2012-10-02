@@ -10,8 +10,6 @@ HOMEPAGE=	http://inac.cea.fr/L_Sim/BigDFT/
 COMMENT=Massively parallel electronic structure code using a wavelet basis set
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 CHECK_PORTABILITY_SKIP=  configure
 GNU_CONFIGURE=	yes
 USE_TOOLS+=	bash pkg-config gmake

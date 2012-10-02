@@ -11,6 +11,8 @@ MAINTAINER=	matias@dotbsd.org
 HOMEPAGE=	http://tuomov.iki.fi/software/
 COMMENT=	Tiling tabbed window manager
 
+PKG_DESTDIR_SUPPORT=	none
+
 MAKE_JOBS_SAFE=		no
 
 USE_TOOLS+=	gmake msgfmt

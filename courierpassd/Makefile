@@ -9,6 +9,8 @@ MAINTAINER=		joe@joe.cz
 HOMEPAGE=		http://www.arda.homeunix.net/store/
 COMMENT=		Password changing daemon using courier-authlib
 
+PKG_DESTDIR_SUPPORT=	none
+
 USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=		yes
 GNU_CONFIGURE=		yes

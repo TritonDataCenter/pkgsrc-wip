@@ -11,6 +11,8 @@ MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://www.digitalmars.com/d/dcompiler.html
 COMMENT=		The D Programming Language from Digital Mars
 
+PKG_DESTDIR_SUPPORT=	none
+
 LINUX_BINPKG_FMT=	plain
 HTMLDIR=		share/doc/${PKGNAME}
 

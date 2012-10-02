@@ -11,8 +11,6 @@ HOMEPAGE=	http://blue.jh-inst.cas.cz/~smydke/projects/baler
 COMMENT=	Store data in bales and provide a TOC for direct access
 LICENSE=	2-clause-bsd
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_TOOLS+=	gmake
 MAKE_FILE=	GNUmakefile
 

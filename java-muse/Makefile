@@ -15,9 +15,9 @@ WRKSRC=		${WRKDIR}/
 do-build:
 
 do-install:
-	${MKDIR} ${PREFIX}/share/classpath/muse/
+	${INSTALL_DATA_DIR} ${DESTDIR}${PREFIX}/share/classpath/muse/
 	${INSTALL_DATA} ${WRKSRC}/lib/*.jar \
-		${PREFIX}/share/classpath/muse/
+		${DESTDIR}${PREFIX}/share/classpath/muse/
 
 .include "../../mk/java-vm.mk"
 .include "../../mk/bsd.pkg.mk"

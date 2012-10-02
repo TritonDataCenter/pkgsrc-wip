@@ -12,6 +12,8 @@ MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://ede.sourceforge.net/
 COMMENT=	Extended Fast Light Toolkit
 
+PKG_DESTDIR_SUPPORT=	none
+
 WRKSRC=			${WRKDIR}/efltk
 GNU_CONFIGURE=		yes
 USE_LANGUAGES=		c c++

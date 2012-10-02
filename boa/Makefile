@@ -18,8 +18,6 @@ GNU_CONFIGURE=	YES
 USE_TOOLS+=	gmake lex
 USE_FEATURES+=	snprintf
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 .include "../../mk/bsd.prefs.mk"
 
 .if !empty(LOWER_OPSYS:Mirix5*)

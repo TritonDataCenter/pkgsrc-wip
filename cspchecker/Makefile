@@ -11,8 +11,6 @@ HOMEPAGE=	http://www.fsel.com/software.html
 COMMENT=	CSP code type hecker
 #LICENSE=	LICENSE
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}
 NO_BUILD=	yes
 USE_LANGUAGES=	# none

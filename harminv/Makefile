@@ -10,8 +10,6 @@ HOMEPAGE=	http://ab-initio.mit.edu/wiki/index.php/Harminv
 COMMENT= Solver of harmonic inversion
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_TOOLS+=	pkg-config

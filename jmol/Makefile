@@ -12,8 +12,6 @@ HOMEPAGE=	http://jmol.sourceforge.net/
 COMMENT=	Jmol: an open-source Java viewer for chemical structures in 3D
 LICENSE=	gnu-lgpl-v2.1
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/jmol-12.0.12
 
 ONLY_FOR_PLATFORM=	NetBSD-*-i386 Linux-*-*

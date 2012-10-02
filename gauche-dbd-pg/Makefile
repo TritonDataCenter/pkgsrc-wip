@@ -10,6 +10,8 @@ MAINTAINER=		hiramatu@boreas.dti.ne.jp
 HOMEPAGE=		http://www.kahua.org/cgi-bin/kahua.fcgi/kahua-web/show/dev/DBI
 COMMENT=		PostgreSQL back-end for Gauche-DBI
 
+PKG_DESTDIR_SUPPORT=	none
+
 GNU_CONFIGURE=		yes
 
 .include "../../lang/gauche/buildlink3.mk"

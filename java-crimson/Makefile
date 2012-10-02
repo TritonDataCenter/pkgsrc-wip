@@ -13,10 +13,12 @@ COMMENT=		XML parser for JAXP with DOM and SAX2.
 
 WRKSRC=		${WRKDIR}/crimson-1.1.3
 
+INSTALLATION_DIRS=	share/classpath
+
 do-build:
 
 do-install:
-	${INSTALL_DATA_DIR} ${PREFIX}/share/classpath/
-	${INSTALL_DATA} ${WRKSRC}/crimson.jar ${PREFIX}/share/classpath/
+	${INSTALL_DATA_DIR} ${DESTDIR}${PREFIX}/share/classpath/
+	${INSTALL_DATA} ${WRKSRC}/crimson.jar ${DESTDIR}${PREFIX}/share/classpath/
 
 .include "../../mk/bsd.pkg.mk"

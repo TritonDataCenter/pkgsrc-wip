@@ -16,6 +16,6 @@ pre-build:
 	cd ${WRKSRC} && ${MAKE} clean
 
 do-install:
-	${INSTALL_PROGRAM} ${WRKSRC}/ADMsmb ${PREFIX}/bin
+	${INSTALL_PROGRAM} ${WRKSRC}/ADMsmb ${DESTDIR}${PREFIX}/bin
 
 .include "../../mk/bsd.pkg.mk"

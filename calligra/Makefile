@@ -17,8 +17,6 @@ DEPENDS+=	pstoedit>=3.0:../../graphics/pstoedit
 USE_LANGUAGES=	c c++
 USE_TOOLS+=	pkg-config
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 REPLACE_INTERPRETER+=	kross
 REPLACE.kross.old=	.*kross
 REPLACE.kross.new=	${PREFIX}/bin/kross

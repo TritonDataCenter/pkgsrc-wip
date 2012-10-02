@@ -11,8 +11,6 @@ HOMEPAGE=	http://argtable.sourceforge.net/
 COMMENT=	ANSI C Library for parsing GNU style command line arguments
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_CMAKE=	yes
 USE_LIBTOOL=	yes
 USE_TOOLS+=	pkg-config

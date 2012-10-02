@@ -11,6 +11,8 @@ MAINTAINER=	ccatrian@eml.cc
 HOMEPAGE=	http://ffmpeg.mplayerhq.hu/
 COMMENT=	Nightly snapshot of the ffmpeg tool
 
+PKG_DESTDIR_SUPPORT=	none
+
 WRKSRC=		${WRKDIR}/${SRCDIR}
 HAS_CONFIGURE=	yes
 NO_CHECKSUM=	yes

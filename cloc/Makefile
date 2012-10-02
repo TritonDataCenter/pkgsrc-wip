@@ -14,8 +14,6 @@ LICENSE=	gnu-gpl-v2
 DEPENDS+=	p5-Getopt-Long>=2.38:../../devel/p5-Getopt-Long
 DEPENDS+=	p5-IO>=1.25:../../devel/p5-IO
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}
 
 NO_BUILD= yes

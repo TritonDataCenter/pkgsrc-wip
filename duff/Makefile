@@ -11,8 +11,6 @@ HOMEPAGE=	http://duff.sourceforge.net/
 COMMENT=	Quickly finds duplicates in a given set of files
 LICENSE=	png-license
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=		yes
 USE_PKGLOCALEDIR=	yes
 

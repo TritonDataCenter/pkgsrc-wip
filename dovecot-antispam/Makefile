@@ -12,7 +12,7 @@ COMMENT=	Antispam plugin for Dovecot
 
 LICENSE=	gnu-gpl-v2
 
-#PKG_DESTDIR_SUPPORT=	user-destdir
+PKG_DESTDIR_SUPPORT=	none
 
 USE_TOOLS+=		gmake
 #MAKE_DIRS+=		lib/dovecot/imap

@@ -13,8 +13,6 @@ LICENSE=	gnu-lgpl-v3
 USE_LANGUAGES+= c c++
 USE_CMAKE=	yes
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 CMAKE_ARGS+=	-DINSTALL_LIB_DIR=${PREFIX}/lib
 
 pre-configure:

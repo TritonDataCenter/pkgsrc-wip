@@ -13,7 +13,6 @@ MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://guitone.thomaskeller.biz/
 COMMENT=	Graphical Monotone VCS Tool
 
-PKG_DESTDIR_SUPPORT=    user-destdir
 ###
 ### XXX A Darwin build needs special handling; feel free to add
 ###	Darwin support should the mood strike you. 

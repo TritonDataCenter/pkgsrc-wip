@@ -12,7 +12,6 @@ COMMENT=	Open source command-line RTMP client
 LICENSE=	gnu-gpl-v2
 
 USE_TOOLS+=	gmake
-PKG_DESTDIR_SUPPORT=	user-destdir
 
 MAKE_FLAGS+=	posix
 MAKE_FLAGS+=	PREFIX=${PREFIX}

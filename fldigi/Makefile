@@ -1,7 +1,7 @@
 # $NetBSD: Makefile,v 1.15 2012/08/08 00:19:11 gdt Exp $
 #
 
-DISTNAME=	fldigi-3.21.50
+DISTNAME=	fldigi-3.21.52
 CATEGORIES=	ham
 MASTER_SITES=	http://www.w1hkj.com/downloads/fldigi/
 LICENSE=	gnu-gpl-v3
@@ -10,8 +10,6 @@ MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.w1hkj.com/Fldigi.html
 #HOMEPAGE=	http://lists.berlios.de/mailman/listinfo/fldigi-devel
 COMMENT=	Digital radio modem
-
-PKG_DESTDIR_SUPPORT=	user-destdir
 
 USE_TOOLS+=	gmake pkg-config
 USE_LANGUAGES=	c c++
@@ -33,6 +31,13 @@ SUBST_STAGE.asciidoc=	post-configure
 SUBST_FILES.asciidoc=	doc/Makefile.am doc/Makefile.in doc/Makefile
 SUBST_MESSAGE.asciidoc=	Replacing asciidoc PATH
 SUBST_SED.asciidoc=	-e s\|/usr/share\|${PREFIX}/share\|g
+
+.include "../../mk/bsd.prefs.mk"
+SUBST_CLASSES+=		brag-os
+SUBST_STAGE.brag-os=	post-patch
+SUBST_FILES.brag-os=	src/misc/newinstall.cxx
+SUBST_MESSAGE.brag-os=	Show OS name correctly with Brag button
+SUBST_SED.brag-os=	-e s/@@OS@@/${OPSYS}/
 
 # Following binary contains configure parameter, which is OK.
 CHECK_WRKREF_SKIP+=	bin/flarq

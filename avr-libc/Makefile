@@ -10,8 +10,6 @@ HOMEPAGE=		http://savannah.nongnu.org/projects/avr-libc
 COMMENT=		C and math library for Atmel AVR 8-bit microcontrollers
 LICENSE=		modified-bsd
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 BUILD_DEPENDS+=		avr-binutils-[0-9]*:../../wip/avr-binutils
 BUILD_DEPENDS+=		avr-gcc-[0-9]*:../../wip/avr-gcc
 BUILD_DEPENDS+=		doxygen>=1.6.3nb1:../../devel/doxygen

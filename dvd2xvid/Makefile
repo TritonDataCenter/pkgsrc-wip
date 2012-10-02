@@ -26,9 +26,9 @@ INSTALLATION_DIRS=	bin share/dvd2xvid share/dvd2xvid/icons
 do-build:
 	cd ${WRKSRC} && QTDIR=${PREFIX}/qt3 gmake dvd2xvid
 do-install:
-	${INSTALL_PROGRAM} ${WRKSRC}/dvd2xvid ${PREFIX}/bin
-	${INSTALL_DATA_DIR} ${PREFIX}/share/dvd2xvid/icons
-	${INSTALL_DATA} ${WRKSRC}/icons/* ${PREFIX}/share/dvd2xvid/icons
+	${INSTALL_PROGRAM} ${WRKSRC}/dvd2xvid ${DESTDIR}${PREFIX}/bin
+	${INSTALL_DATA_DIR} ${DESTDIR}${PREFIX}/share/dvd2xvid/icons
+	${INSTALL_DATA} ${WRKSRC}/icons/* ${DESTDIR}${PREFIX}/share/dvd2xvid/icons
 
 .include "../../multimedia/xvidcore/buildlink3.mk"
 .include "../../multimedia/libdvdread/buildlink3.mk"

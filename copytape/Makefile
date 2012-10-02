@@ -24,8 +24,8 @@ EXTRACT_CMD=		${GZCAT} ${DOWNLOADED_DISTFILE} | ${PREFIX}/bin/gunshar
 INSTALLATION_DIRS+=	bin ${PKGMANDIR}/man1 ${PKGMANDIR}/man5
 
 do-install:
-	${INSTALL_PROGRAM} ${WRKSRC}/copytape ${PREFIX}/bin
-	${INSTALL_MAN} ${WRKSRC}/copytape.1 ${PREFIX}/${PKGMANDIR}/man1
-	${INSTALL_MAN} ${WRKSRC}/copytape.5 ${PREFIX}/${PKGMANDIR}/man5
+	${INSTALL_PROGRAM} ${WRKSRC}/copytape ${DESTDIR}${PREFIX}/bin
+	${INSTALL_MAN} ${WRKSRC}/copytape.1 ${DESTDIR}${PREFIX}/${PKGMANDIR}/man1
+	${INSTALL_MAN} ${WRKSRC}/copytape.5 ${DESTDIR}${PREFIX}/${PKGMANDIR}/man5
 
 .include "../../mk/bsd.pkg.mk"

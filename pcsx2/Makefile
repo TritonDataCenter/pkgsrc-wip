@@ -28,8 +28,7 @@ CMAKE_ARGS+=	-DOPENGL_xmesa_INCLUDE_DIR=${BUILDLINK_PREFIX.MesaLib}/include/GL
 CMAKE_ARGS+=	-Dlibdl=${DL_LIBS}
 CMAKE_ARGS+=	-DX11_ICE_INCLUDE_PATH=${BUILDLINK_PREFIX.libICE}/include/X11/ICE
 
-DEPENDS+=	sparsehash>=2.0.*:../../devel/sparsehash
-
+.include "../../devel/sparsehash/buildlink3.mk"
 .include "../../wip/libSoundTouch/buildlink3.mk"
 .include "../../audio/portaudio/buildlink3.mk"
 .include "../../graphics/glew/buildlink3.mk"

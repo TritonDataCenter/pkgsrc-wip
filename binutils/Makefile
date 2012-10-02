@@ -10,8 +10,6 @@ COMMENT=	GNU binary utilities
 LICENSE=	gnu-gpl-v2 AND gnu-lgpl-v2
 EXTRACT_SUFX=	.tar.bz2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 CONFLICTS=	avr-binutils<2.13.2.1nb1
 
 NOT_FOR_PLATFORM=	Darwin-*-* Interix-*-*

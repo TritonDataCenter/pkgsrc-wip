@@ -15,8 +15,6 @@ DEPENDS+=	${PYPKGPREFIX}-sqlite3-[0-9]*:../../databases/py-sqlite3
 DEPENDS+=	${PYPKGPREFIX}-gobject>=2.18.0:../../devel/py-gobject
 DEPENDS+=	${PYPKGPREFIX}-gtk2>=2.14.1:../../x11/py-gtk2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_TOOLS+=	pax
 USE_LANGUAGES=	# none
 

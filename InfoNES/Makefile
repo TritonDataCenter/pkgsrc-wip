@@ -10,6 +10,8 @@ MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://www.geocities.co.jp/SiliconValley/5604/infones.html
 COMMENT=		Portable NES emulator
 
+PKG_DESTDIR_SUPPORT=	none
+
 .include "options.mk"
 
 BUILD_DIRS=		src/${SRC_SUBDIR}

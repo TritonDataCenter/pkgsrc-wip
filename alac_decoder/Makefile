@@ -11,8 +11,6 @@ HOMEPAGE=	http://craz.net/programs/itunes/alac.html
 COMMENT=	Apple Lossless Audio Codec files decoder
 LICENSE=	mit
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/alac_decoder
 BUILD_TARGET=	# empty
 

@@ -11,7 +11,6 @@ MAINTAINER= oivulf@gmail.com
 HOMEPAGE=	http://dynamo.iro.umontreal.ca/~gambit/wiki/index.php/Main_Page
 COMMENT=	GambitC Scheme System
 
-PKG_DESTDIR_SUPPORT=	user-destdir
 NOT_FOR_BULK_PLATFORM+=	SunOS-*-*
 
 # bin/scheme-r5rs

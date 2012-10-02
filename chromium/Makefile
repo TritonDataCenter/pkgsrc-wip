@@ -16,8 +16,6 @@ USE_LANGUAGES=	c c++
 BUILD_DEPENDS+=	gperf>=3.0.1:../../devel/gperf
 BUILD_DEPENDS+=	yasm>=0:../../devel/yasm
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 ONLY_FOR_PLATFORM=	*-*-arm *-*-i386 *-*-x86_64
 TOOLS_PLATFORM.flex=	# override the platform definition to use pkgsrc's flex.
 

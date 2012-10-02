@@ -11,8 +11,6 @@ HOMEPAGE=	http://gearman.org/
 COMMENT=	Gearman C Server and Library
 LICENSE=	modified-bsd
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_TOOLS+=	gmake pkg-config
 USE_LIBTOOL=	yes

@@ -9,8 +9,6 @@ HOMEPAGE=	http://people.freebsd.org/~harti/bsnmp/
 COMMENT=	Minimal SNMP daemon
 LICENSE=	2-clause-bsd
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_TOOLS+=	gmake
 

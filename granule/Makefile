@@ -13,6 +13,8 @@ COMMENT=		Program for Leitner methodology for learning new words
 
 BUILD_DEPENDS+=		p5-XML-Parser-[0-9]*:../../textproc/p5-XML-Parser
 
+PKG_DESTDIR_SUPPORT=	none
+
 USE_LANGUAGES=		c c++
 USE_LIBTOOL=		yes
 USE_PKGLOCALEDIR=	yes

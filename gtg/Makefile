@@ -14,8 +14,6 @@ LICENSE=	gnu-gpl-v3
 DEPENDS+=	${PYPKGPREFIX}-xdg>=0.17:../../devel/py-xdg
 DEPENDS+=	${PYPKGPREFIX}-configobj>=4.6.0:../../wip/py-configobj
 
-PKG_DESTDIR_SUPPORT=		user-destdir
-
 USE_PKGLOCALEDIR=	yes
 USE_TOOLS+=	intltool msgfmt
 USE_LANGUAGES=	# none

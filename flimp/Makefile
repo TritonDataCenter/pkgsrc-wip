@@ -11,8 +11,6 @@ HOMEPAGE=	http://www.ecademix.com/JohannesHofmann/flimp.html
 COMMENT=	Generic GUI for image manipulation
 LICENSE=	gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_LANGUAGES+=	c c++
 

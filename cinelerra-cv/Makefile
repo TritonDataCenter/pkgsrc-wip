@@ -15,8 +15,6 @@ GIT_MODULE=		cinelerra
 .include "../../wip/mk/git-package.mk"
 _GIT_FLAGS= # The repository is very large. We don't want git to be quiet.
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=			${WRKDIR}/cinelerra
 GNU_CONFIGURE=		yes
 USE_TOOLS+=		automake gmake msgmerge pkg-config xgettext

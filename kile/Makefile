@@ -10,8 +10,6 @@ MAINTAINER=		markd@NetBSD.org
 HOMEPAGE=		http://kile.sourceforge.net/
 COMMENT=		LaTeX source editor - TeX shell - Gnuplot front end
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 BUILD_DEPENDS+= automoc4>=0.9.87:../../devel/automoc4
 
 USE_TOOLS+=		perl msgfmt

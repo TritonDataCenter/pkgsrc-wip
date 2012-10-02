@@ -12,8 +12,6 @@ COMMENT=	Commodore Graphics Telnet Client
 
 LICENSE=                2-clause-bsd
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 NO_CONFIGURE=   yes
 
 USE_TOOLS+=     gmake

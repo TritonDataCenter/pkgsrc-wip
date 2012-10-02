@@ -10,7 +10,6 @@ COMMENT=		Tools for auditing wireless networks
 
 LICENSE=		gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
 INSTALLATION_DIRS+=	bin sbin ${PKGMANDIR}/man1
 
 USE_TOOLS+=		bash gmake

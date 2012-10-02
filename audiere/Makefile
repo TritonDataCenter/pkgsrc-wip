@@ -10,8 +10,6 @@ HOMEPAGE=	http://audiere.sourceforge.net/
 COMMENT=	Audiere is a high-level audio API
 LICENSE=	gnu-lgpl-v2.1
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_LANGUAGES=	c c++
 USE_LIBTOOL=	yes

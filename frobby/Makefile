@@ -11,8 +11,6 @@ HOMEPAGE=	http://www.broune.com/frobby/index.html
 COMMENT=	Computations with monomial ideals
 #LICENSE=	# TODO: (see mk/license.mk)
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_TOOLS+=	gmake
 USE_LANGUAGES=	c++
 

@@ -10,8 +10,6 @@ HOMEPAGE=	http://gtkglext.sourceforge.net/
 COMMENT=	C++ wrapper for GtkGLExt
 LICENSE=	gnu-gpl-v2 AND gnu-lgpl-v2.1
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_TOOLS+=	gmake pkg-config perl gm4

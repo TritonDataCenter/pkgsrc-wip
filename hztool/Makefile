@@ -10,8 +10,6 @@ HOMEPAGE=	http://projects.hepforge.org/hztool//
 COMMENT=	Robust model-to-data comparisons
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 CHECK_PORTABILITY_SKIP=  configure
 
 GNU_CONFIGURE=	yes

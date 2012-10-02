@@ -10,8 +10,6 @@ HOMEPAGE=	http://dotproject.sourceforge.net/
 COMMENT=	Webserver base project management
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=		user-destdir
-
 WRKSRC=				${WRKDIR}/dotproject
 USE_LANGUAGES=			# none
 

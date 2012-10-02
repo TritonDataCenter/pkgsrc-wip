@@ -11,8 +11,6 @@ HOMEPAGE=	http://audacious-media-player.org/
 COMMENT=	Media player based on BMP and XMMS
 LICENSE=	gnu-gpl-v3 public-domain
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=  c c++
 GNU_CONFIGURE=  YES
 USE_TOOLS+=	gmake pkg-config

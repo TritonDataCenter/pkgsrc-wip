@@ -11,8 +11,6 @@ HOMEPAGE=	http://www.javazoom.net/vorbisspi/
 COMMENT=	Java Service Provider Interface for the OGG Vorbis audio format
 LICENSE=	gnu-lgpl-v2.1
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/VorbisSPI1.0.3
 USE_LANGUAGES=	# none
 

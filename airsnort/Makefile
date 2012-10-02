@@ -11,7 +11,6 @@ HOMEPAGE=		http://airsnort.shmoo.com/
 COMMENT=		WLAN sniffer and realtime WEP cracker
 LICENSE=		gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
 DEPENDS+=		linux-wlan-ng>=0.2:../../wip/linux-wlan-ng
 
 USE_PKGLOCALEDIR=	yes

@@ -9,8 +9,6 @@ HOMEPAGE=	http://dnrd.sourceforge.net/
 COMMENT=	Dnrd is a caching forwarding DNS proxy
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 .include "options.mk"
 
 GNU_CONFIGURE=	YES

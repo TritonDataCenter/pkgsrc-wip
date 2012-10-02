@@ -15,8 +15,6 @@ DEPENDS+= p5-Time-Local-[0-9]*:../../time/p5-Time-Local
 
 .include "../../databases/rrdtool/buildlink3.mk"
 
-PKG_DESTDIR_SUPPORT= user-destdir
-
 USE_TOOLS+= perl
 
 .include "../../mk/bsd.prefs.mk"

@@ -9,8 +9,6 @@ MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://apollo.backplane.com/FreeBSDPorts/
 COMMENT=		Yet another make tool
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_BSD_MAKEFILE=	yes
 USE_TOOLS+=		groff nroff
 

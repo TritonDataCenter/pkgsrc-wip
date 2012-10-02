@@ -14,8 +14,6 @@ HOMEPAGE=		http://aoi.sourceforge.net/
 COMMENT=		Open source 3D modelling and rendering studio based on Java
 LICENSE=		gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=			${WRKDIR}/ArtOfIllusion${PKGVERSION_NOREV:S/.//}
 USE_JAVA=		run
 USE_JAVA2=		yes

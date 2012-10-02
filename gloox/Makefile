@@ -11,8 +11,6 @@ HOMEPAGE=		http://camaya.net/gloox/
 COMMENT=		Jabber/XMPP client library
 LICENSE=		gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=		yes
 
 USE_LANGUAGES+=		c++ c

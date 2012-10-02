@@ -10,8 +10,6 @@ HOMEPAGE=	http://arpdig.sourceforge.net/
 COMMENT=	Arp digger utility
 LICENSE=	2-clause-bsd
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 INSTALLATION_DIRS=	${PKGMANDIR}/man1 bin
 
 do-install:

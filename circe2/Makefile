@@ -10,8 +10,6 @@ HOMEPAGE=	http://www.hepforge.org/archive/whizard/
 COMMENT=	CIRCE1 is WHIZARD's generator for lepton collider beamstrahlung
 #LICENSE=	# TODO: (see mk/license.mk)
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_TOOLS+=	gmake

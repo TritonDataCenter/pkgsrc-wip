@@ -11,8 +11,6 @@ HOMEPAGE=		http://sourceforge.net/projects/bashdb/
 COMMENT=		The Bash debugger project
 LICENSE=		gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 DEPENDS+=		bash-[0-9]*:../../shells/bash
 
 USE_PKGLOCALEDIR=	yes

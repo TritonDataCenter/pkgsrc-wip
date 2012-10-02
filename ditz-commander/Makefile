@@ -11,8 +11,6 @@ HOMEPAGE=	http://code.google.com/p/ditz-commander/
 COMMENT=	GUI frontend for ditz the distributed issue tracker
 LICENSE=	modified-bsd
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 REPLACE_PYTHON=	ditz-commander
 
 DEPENDS+=	${RUBY_PKGPREFIX}-ditz>=0.5:../../wip/ruby-ditz

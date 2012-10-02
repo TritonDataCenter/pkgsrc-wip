@@ -15,8 +15,6 @@ DEPENDS+=	apache-commons-collections>=3.2.1:../../wip/apache-commons-collections
 DEPENDS+=	apache-commons-pool>=1.5.5:../../wip/apache-commons-pool
 
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/commons-dbcp-1.4
 
 NO_BUILD=	yes

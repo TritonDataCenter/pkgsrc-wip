@@ -10,13 +10,13 @@ HOMEPAGE=		http://dvbsnoop.sourceforge.net/
 COMMENT=		DVB / MPEG stream analyzer program
 LICENSE=		gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 ONLY_FOR_PLATFORM=	Linux-*-*
 
+INSTALLATION_DIRS=	bin
+
 do-install:
-	${INSTALL_PROGRAM} ${WRKSRC}/src/dvbsnoop ${PREFIX}/bin
+	${INSTALL_PROGRAM} ${WRKSRC}/src/dvbsnoop ${DESTDIR}${PREFIX}/bin
 
 .include "../../mk/bsd.pkg.mk"

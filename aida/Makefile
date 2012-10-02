@@ -10,8 +10,6 @@ HOMEPAGE=	http://aida.freehep.org/index.thtml
 COMMENT=	Abstract interfaces for data analysis
 LICENSE=	gnu-lgpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=			${WRKDIR}
 INSTALLATION_DIRS+=	include/AIDA share/doc/${PKGBASE}/api/hep/aida
 INSTALLATION_DIRS+=	share/doc/${PKGBASE}/UsersGuide

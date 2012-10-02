@@ -11,8 +11,6 @@ MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://jspeex.sourceforge.net/
 COMMENT=	Java Implementation of Speex
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/jspeex
 
 NO_BUILD=		yes

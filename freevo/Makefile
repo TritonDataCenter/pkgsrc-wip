@@ -18,6 +18,8 @@ DEPENDS+=		${PYPKGPREFIX}-twisted>=2.0.0:../../net/py-twisted
 DEPENDS+=		${PYPKGPREFIX}-elementtree-[0-9]*:../../textproc/py-elementtree
 DEPENDS+=		${PYPKGPREFIX}-beautifulsoup-[0-9]*:../../www/py-beautifulsoup
 
+PKG_DESTDIR_SUPPORT=    none
+
 PYDISTUTILSPKG=		yes
 USE_PKGLOCALEDIR=	yes
 
