@@ -22,8 +22,6 @@ WRKSRC=		${WRKDIR}/django-gitrevision-0.1.4
 
 USE_LANGUAGES=	# none
 
-PYTHON_VERSIONS_ACCEPTED= 31 27 26 25
-
 PLIST_SUBST+=	PYVERSSUFFIX=${PYVERSSUFFIX}
 
 .include "../../lang/python/egg.mk"

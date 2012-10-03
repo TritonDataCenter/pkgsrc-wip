@@ -12,7 +12,6 @@ LICENSE=	corecode-license
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
-PYTHON_VERSIONS_ACCEPTED=	25
 PYDISTUTILSPKG=	# yes
 
 .include "../../lang/python/extension.mk"

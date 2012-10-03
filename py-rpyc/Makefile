@@ -15,9 +15,7 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 
 WRKSRC=		${WRKDIR}/rpyc-3.2.2
 
-
 USE_LANGUAGES=	# none
-PYTHON_VERSIONS_ACCEPTED= 27 26 25
 
 .include "../../lang/python/distutils.mk"
 .include "../../mk/bsd.pkg.mk"

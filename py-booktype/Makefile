@@ -45,8 +45,6 @@ REPLACE.python.old=	/usr/bin/env
 REPLACE.python.new=	${PYTHONBIN}
 REPLACE_FILES.python=	${WRKSRC}/lib/booki/manage.py
 
-PYTHON_VERSIONS_ACCEPTED= 27 26 25
-
 .include "options.mk"
 
 .include "../../lang/python/egg.mk"

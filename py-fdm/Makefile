@@ -17,7 +17,7 @@ DEPENDS+=	${PYPKGPREFIX}-Pmw>=1.3.2:../../x11/py-Pmw
 
 USE_LANGUAGES=	c c++
 
-PYTHON_VERSIONS_ACCEPTED= 26 25
+PYTHON_VERSIONS_ACCEPTED= 26
 PYDISTUTILSPKG=	yes
 
 .include "../../lang/python/extension.mk"

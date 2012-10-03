@@ -19,7 +19,5 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 WRKSRC=		${WRKDIR}/WebFlash-0.1a9
 USE_LANGUAGES=	# none
 
-PYTHON_VERSIONS_INCOMPATIBLE= 25
-
 .include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"

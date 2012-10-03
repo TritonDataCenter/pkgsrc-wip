@@ -12,8 +12,6 @@ COMMENT=		Media metadata parser for the Kaa multimedia framework
 
 PYDISTUTILSPKG=		yes
 
-PYTHON_VERSIONS_ACCEPTED=	25
-
 .include "../../lang/python/extension.mk"
 .include "../../multimedia/libdvdread/buildlink3.mk"
 .include "../../wip/py-kaa-base/buildlink3.mk"

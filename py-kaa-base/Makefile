@@ -14,8 +14,6 @@ USE_TOOLS+=		pkg-config
 
 PYDISTUTILSPKG=		yes
 
-PYTHON_VERSIONS_ACCEPTED=	25
-
 .include "../../devel/glib2/buildlink3.mk"
 .include "../../lang/python/extension.mk"
 .include "../../mk/bsd.pkg.mk"
