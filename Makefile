@@ -2870,6 +2870,7 @@ SUBDIR+=	serlook
 SUBDIR+=	service
 SUBDIR+=	seturgent
 SUBDIR+=	sflphoned
+SUBDIR+=	sfml+
 SUBDIR+=	sgmltools-lite
 SUBDIR+=	shaarli
 SUBDIR+=	shadow
