@@ -11,8 +11,6 @@ MAINTAINER=	khorben@defora.org
 HOMEPAGE=	http://xorg.freedesktop.org/
 COMMENT=	kdrive-based Xephyr server from modular X.org
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_TOOLS+=	gmake pkg-config

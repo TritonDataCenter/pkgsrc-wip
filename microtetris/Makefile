@@ -12,8 +12,6 @@ MAINTAINER=	pkgsrc-users@netbsd.org
 HOMEPAGE=	http://microtetris.sourceforge.net/
 COMMENT=	MicroTetris is a simple and compact popular game Tetris
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}
 USE_LANGUAGES=	# none
 NO_BUILD=	yes

@@ -10,8 +10,6 @@ MAINTAINER=		eric@cirr.com
 HOMEPAGE=		https://gna.org/projects/mu-conference/
 COMMENT=		Implementation of the JEP-0045 Multi-User Chat protocol
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=			${WRKDIR}/${DISTNAME}/src
 
 USE_TOOLS+=		pkg-config

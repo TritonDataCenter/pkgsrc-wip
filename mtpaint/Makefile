@@ -11,8 +11,6 @@ HOMEPAGE=	http://mtpaint.sourceforge.net/
 COMMENT=	Painting program and photo editor
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 HAS_CONFIGURE=	yes
 CONFIGURE_ARGS=		--prefix=${PREFIX} --bindir=${PREFIX}/bin
 CONFIGURE_ARGS+=	--mandir=${PREFIX}/${PKGMANDIR}

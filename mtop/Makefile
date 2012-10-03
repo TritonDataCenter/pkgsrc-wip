@@ -10,8 +10,6 @@ HOMEPAGE=	http://mtop.sourceforge.net/
 COMMENT=	Curses-based MySQL server monitor
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 DEPENDS+=	p5-Curses>=0:../../devel/p5-Curses
 DEPENDS+=	p5-DBD-mysql>=0:../../databases/p5-DBD-mysql
 

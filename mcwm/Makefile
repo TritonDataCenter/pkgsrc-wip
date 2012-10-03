@@ -11,8 +11,6 @@ HOMEPAGE=	http://www.hack.org/mc/hacks/mcwm/
 COMMENT=	Window manager for the X Window System written entirely with XCB
 LICENSE=	isc
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 INSTALLATION_DIRS=	bin ${PKGMANDIR}/man1
 
 SUBST_CLASSES+=		rpath

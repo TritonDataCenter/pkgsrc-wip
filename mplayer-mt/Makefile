@@ -7,8 +7,6 @@ EXTRACT_SUFX=	.tar.bz2
 
 COMMENT=	Software-only MPEG-1/2/4 video decoder
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/mplayer
 
 .include "Makefile.common"

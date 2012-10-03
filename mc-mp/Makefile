@@ -13,8 +13,6 @@ COMMENT=		Midnight Commander clone
 
 CONFLICTS+=		mc-[0-9]*
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 USE_TOOLS+=		gmake

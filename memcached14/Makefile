@@ -9,8 +9,6 @@ MAINTAINER=	mbowie@buzmo.com
 HOMEPAGE=	http://www.danga.com/memcached/
 COMMENT=	High-performance distributed memory object caching system
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_TOOLS+=	perl
 GNU_CONFIGURE=	yes
 

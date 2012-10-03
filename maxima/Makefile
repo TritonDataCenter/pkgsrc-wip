@@ -15,8 +15,6 @@ LICENSE=		gnu-gpl-v2
 # Note: lisp backend is depended and setup up for in options.mk
 DEPENDS+=		tk-[0-9]*:../../x11/tk
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=		yes
 USE_TOOLS+=		makeinfo perl
 REPLACE_SH=		doc/misc/grepforvariables.sh

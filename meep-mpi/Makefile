@@ -11,8 +11,6 @@ HOMEPAGE=	http://ab-initio.mit.edu/meep/
 COMMENT=	FDTD simulation software to model electromagnetic systems
 LICENSE=	gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 DEPENDS+=	bash-[0-9]*:../../shells/bash
 
 GNU_CONFIGURE=	yes

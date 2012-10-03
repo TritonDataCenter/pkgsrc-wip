@@ -10,8 +10,6 @@ HOMEPAGE=	http://myfitter.hepforge.org/
 COMMENT=	Maximum Likelihood Fits in C++
 LICENSE=	gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_TOOLS+=	pkg-config

@@ -16,7 +16,6 @@ HOMEPAGE=	http://www.emacswiki.org/emacs/MediaWikiMode
 COMMENT=	Emacs frontend for MediaWiki
 LICENSE=	gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
 INSTALLATION_DIRS+=	${EMACS_LISPPREFIX}
 
 WRKSRC=	${WRKDIR}

@@ -19,8 +19,6 @@ DEPENDS+=		p5-MIME-Base64>=3.03:../../converters/p5-MIME-Base64
 DEPENDS+=		p5-MIME-tools>=5.413:../../mail/p5-MIME-tools
 DEPENDS+=		spamassassin>=2.31:../../mail/spamassassin
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 .include "../../mk/bsd.prefs.mk"
 
 USE_TOOLS+=		perl:run

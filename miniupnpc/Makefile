@@ -13,6 +13,4 @@ LICENSE=	modified-bsd
 
 USE_TOOLS+=	gmake
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 .include "../../mk/bsd.pkg.mk"

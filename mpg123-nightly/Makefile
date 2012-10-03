@@ -14,8 +14,6 @@ NO_SRC_ON_CDROM=	${RESTRICTED}
 USE_TOOLS+=		pkg-config automake date perl
 GNU_CONFIGURE=		yes
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=			${WRKDIR}/mpg123
 
 CONFIGURE_ARGS+=	--with-optimization=3

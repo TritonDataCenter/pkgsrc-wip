@@ -26,6 +26,8 @@ DEPENDS+=		mysql-server>=5.0:../../databases/mysql5-server
 DEPENDS+=		p5-Tree-DAG_Node>=1.04:../../devel/p5-Tree-DAG_Node
 DEPENDS+=		p5-DBD-Sybase>=0.94:../../databases/p5-DBD-Sybase
 
+PKG_DESTDIR_SUPPORT=	none
+
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 

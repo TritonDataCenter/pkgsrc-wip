@@ -12,8 +12,6 @@ COMMENT=	Dictionary converting tool
 
 LICENSE=		gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_CMAKE=		yes
 USE_TOOLS=		pkg-config
 

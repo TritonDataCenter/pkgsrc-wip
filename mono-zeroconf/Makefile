@@ -12,8 +12,6 @@ HOMEPAGE=	http://www.mono-project.com/Mono.Zeroconf
 COMMENT=	Cross platform Zero Configuration Networking library for Mono and .NET
 LICENSE=	LICENSE
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_TOOLS+=	pkg-config gmake bash:run
 USE_LANGUAGES=	c c++

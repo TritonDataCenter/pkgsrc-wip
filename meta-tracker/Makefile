@@ -14,8 +14,6 @@ LICENSE=	gnu-gpl-v2
 
 DEPENDS+=	poppler-utils-[0-9]*:../../print/poppler-utils
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_TOOLS+=	gmake intltool pkg-config

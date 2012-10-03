@@ -4,8 +4,6 @@ PKGNAME=	mplayer-${MPLAYER_VERSION}
 
 COMMENT=	Fast, cross-platform movie player
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 .include "../../wip/mplayer-snapshot-share/Makefile.common"
 
 USE_TOOLS+=	pkg-config

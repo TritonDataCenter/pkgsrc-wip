@@ -11,7 +11,6 @@ MAINTAINER=	bjs@NetBSD.org
 HOMEPAGE=	http://xorg.freedesktop.org/
 COMMENT=	Modular X11 server from modular X.org
 
-PKG_DESTDIR_SUPPORT=	user-destdir
 SPECIAL_PERMS+=		bin/Xorg ${SETUID_ROOT_PERMS}
 
 GNU_CONFIGURE=	yes

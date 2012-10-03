@@ -11,8 +11,6 @@ HOMEPAGE=	http://mplus-fonts.sourceforge.jp/mplus-bitmap-fonts/index.html
 COMMENT=	Simple and highly readable bitmap fonts
 LICENSE=	mplusfont
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	# none
 USE_TOOLS+=	perl gzip bdftopcf patch
 

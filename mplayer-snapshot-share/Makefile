@@ -1,7 +1,5 @@
 # $NetBSD: Makefile,v 1.18 2009/10/18 22:22:10 ahoka Exp $
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 .include "Makefile.common"
 
 PKGNAME=	mplayer-share-${MPLAYER_VERSION}

@@ -15,8 +15,6 @@ LICENSE=	cc-by-nc-nd-v3.0
 # played without it, though.
 #DEPENDS+=	:../../games/alephone
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 .include "../../games/alephone/scenario.mk"
 INSTALLATION_DIRS=	${SCENARIO_BASE}/Evil ${SCENARIO_BASE}/Evil/Scripts ${SCENARIO_BASE}/Evil/Themes
 INSTALLATION_DIRS+=	share/doc/${PKGBASE}

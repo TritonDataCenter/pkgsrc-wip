@@ -10,6 +10,8 @@ MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://mp3gain.sourceforge.net/
 COMMENT=		Loudness normalizer for MP3 files
 
+PKG_DESTDIR_SUPPORT=	none
+
 WRKSRC=			${WRKDIR}
 
 MAKE_ENV+=		${BSD_MAKE_ENV}

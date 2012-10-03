@@ -41,8 +41,6 @@ NO_SRC_ON_CDROM=	${RESTRICTED}
 NO_BIN_ON_FTP=	${RESTRICTED}
 NO_BIN_ON_CDROM=	${RESTRICTED}
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 SCENARIO_BASE=		share/AlephOne/Scenarios
 .for scenario in TheGrayIncident Rubicon \
 	SiegeOfNorKorh Evil \

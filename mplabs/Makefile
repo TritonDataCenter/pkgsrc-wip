@@ -10,8 +10,6 @@ HOMEPAGE=	http://code.google.com/p/mplabs/
 COMMENT=	Multiphase lattice boltzmann suite
 LICENSE=	gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/mplabs
 
 USE_LANGUAGES=	fortran

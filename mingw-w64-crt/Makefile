@@ -12,8 +12,6 @@ HOMEPAGE=	http://mingw-w64.sourceforge.net/
 COMMENT=	C runtime for win32/64 cross-development
 #LICENSE=	# TODO: (see mk/license.mk)
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 DEPENDS+=		mingw-w64-gcc-[0-9]*:../../wip/mingw-w64-gcc
 DEPENDS+=		mingw-w64-headers-[0-9]*:../../wip/mingw-w64-headers
 

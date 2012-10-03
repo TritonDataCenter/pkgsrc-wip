@@ -10,8 +10,6 @@ MAINTAINER=	kefren@NetBSD.org
 HOMEPAGE=	http://monodevelop.com/
 COMMENT=	IDE for C\# and other .NET languages
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_TOOLS+=	gmake perl:run pkg-config bash:run msgfmt
 EXTRACT_USING=	gtar

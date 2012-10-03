@@ -14,8 +14,6 @@ COMMENT=	Open source MPI and MPI-2 implementation from Univ. of Chicago
 CONFLICTS+=	mpich-[0-9]*	# installs bin/mpicc & other wrappers
 CONFLICTS+=	openmpi-[0-9]*	# installs bin/mpicc & other wrappers
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 MAKE_JOBS_SAFE=		no
 
 DEPENDS+=	bash-[0-9]*:../../shells/bash

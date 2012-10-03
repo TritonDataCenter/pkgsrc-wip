@@ -12,8 +12,6 @@ COMMENT=	AWK clone by Mike Brennan
 
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 INSTALLATION_DIRS=	${PKGMANDIR}/man1 bin
 
 TEST_TARGET=		mawk_test fpe_test

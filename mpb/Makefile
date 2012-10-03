@@ -10,8 +10,6 @@ HOMEPAGE=	http://ab-initio.mit.edu/mpb/
 COMMENT=	MIT Photonic Bands
 LICENSE=	gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_LANGUAGES=	c fortran77

@@ -11,8 +11,6 @@ MAINTAINER=	kefren@NetBSD.org
 COMMENT=	Open Source implementation of Microsoft Silverlight for UNIX Systems
 HOMEPAGE=	http://mono-project.com/Moonlight
 
-PKG_DESTDIR_SUPPORT=    user-destdir
-
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS=			--with-cairo=system
 # XXX: TODO

@@ -11,8 +11,6 @@ HOMEPAGE=	http://minisat.se/MiniSat.html
 COMMENT=	Fast and lightweight SAT solver
 #LICENSE=	LICENSE
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/minisat
 USE_TOOLS+=	gmake
 USE_LANGUAGES=	c++

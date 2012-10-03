@@ -11,8 +11,6 @@ HOMEPAGE=	http://strucbio.biologie.uni-konstanz.de/ccp4wiki/index.php/Mmdb
 COMMENT=	Macromolecular coordinate library
 LICENSE=	gnu-gpl-v2 AND gnu-lgpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/mmdb-1.21
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes

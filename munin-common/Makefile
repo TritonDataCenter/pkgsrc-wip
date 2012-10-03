@@ -12,8 +12,6 @@ HOMEPAGE=	http://munin-monitoring.org/
 COMMENT=	Common components between a munin node and master
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT= user-destdir
-
 DEPENDS=	p5-Net-SSLeay>=0:../../security/p5-Net-SSLeay
 
 .include "../../mk/bsd.prefs.mk"

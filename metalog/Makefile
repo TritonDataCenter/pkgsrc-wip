@@ -10,6 +10,8 @@ COMMENT=		Metalog is a modern replacement for syslogd and klogd
 
 DEPENDS+=		pcre-[0-9]*:../../devel/pcre
 
+PKG_DESTDIR_SUPPORT=	none
+
 WRKSRC=			${WRKDIR}/${DISTNAME}
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes

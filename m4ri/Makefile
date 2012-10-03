@@ -10,8 +10,6 @@ HOMEPAGE=	http://m4ri.sagemath.org/
 COMMENT=	M4RI is a library for fast arithmetic with dense matrices over F2
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_TOOLS+=	pkg-config

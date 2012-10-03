@@ -11,8 +11,6 @@ HOMEPAGE=	http://stat.genopole.cnrs.fr/logiciels/mixnet
 COMMENT=	Erdos-Renyi Mixture for Networks
 LICENSE=	gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_TOOLS+=	perl pkg-config

@@ -12,8 +12,6 @@ HOMEPAGE=	http://munin-monitoring.org/
 COMMENT=	System monitoring tool, client version
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 DEPENDS+=	p5-Net-Server>=0:../../net/p5-Net-Server
 DEPENDS+=	p5-Socket6>=0:../../net/p5-Socket6
 DEPENDS+=	p5-IO-Socket-INET6>=0:../../net/p5-IO-Socket-INET6

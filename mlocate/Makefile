@@ -15,8 +15,6 @@ LICENSE=	gnu-gpl-v2
 # Depends on _PATH_MOUNTED being defined in paths.h
 ONLY_FOR_PLATFORM=	Linux-*-*
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 CONFLICTS=	slocate-[0-9]*
 
 # Force using "curl" for fetching the distribution file. It is only available

@@ -10,8 +10,6 @@ HOMEPAGE=	http://mongodb.org/
 COMMENT=	NOSQL distributed document-oriented database
 LICENSE=	gnu-agpl-v3 # Client and tools licensed under apache-2.0
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 NO_CONFIGURE=	yes
 USE_LANGUAGES=	c c++
 

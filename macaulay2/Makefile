@@ -14,8 +14,6 @@ COMMENT=	Macaulay2  a software system for research in algebraic geometry
 
 DEPENDS+=	wget>=1.12:../../net/wget
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/${DISTNAME}
 
 USE_TOOLS+=	automake autoconf gmake bison gtar

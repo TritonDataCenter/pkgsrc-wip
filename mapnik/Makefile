@@ -15,7 +15,6 @@ BUILD_DEPENDS+=		scons>=0.96:../../devel/scons
 DEPENDS+=		dejavu-ttf>=2.19:../../fonts/dejavu-ttf
 USE_LANGUAGES=		c++
 
-PKG_DESTDIR_SUPPORT=	user-destdir
 PTHREAD_AUTO_VARS=	yes
 PLIST_SUBST+=		PYSITELIB=${PYSITELIB}
 SCONS_ENV=		PREFIX=${PREFIX} DESTDIR=${DESTDIR} \

@@ -10,8 +10,6 @@ HOMEPAGE=	http://www.djcbsoftware.nl/code/mu/
 COMMENT=	E-mail searching and indexing tools
 LICENSE=	gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_LANGUAGES=	c c++

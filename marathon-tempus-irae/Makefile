@@ -16,8 +16,6 @@ LICENSE=	cc-by-nc-nd-v2.5-license
 # played without it, though.
 #DEPENDS+=	:../../games/alephone
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 .include "../../games/alephone/scenario.mk"
 INSTALLATION_DIRS=	${SCENARIO_BASE}/TempusIrae ${SCENARIO_BASE}/TempusIrae/Scripts ${SCENARIO_BASE}/TempusIrae/tex ${SCENARIO_BASE}/TempusIrae/Themes
 INSTALLATION_DIRS+=	share/doc/${PKGBASE}

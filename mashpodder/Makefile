@@ -18,7 +18,6 @@ DEPENDS+=		rsync-[0-9]*:../../net/rsync
 DEPENDS+=		curl-[0-9]*:../../www/curl
 DEPENDS+=		libxslt-[0-9]*:../../textproc/libxslt
 
-PKG_DESTDIR_SUPPORT=	user-destdir
 NO_BUILD=		yes
 USE_LANGUAGES=		# none
 USE_TOOLS+=		bash:run sed:run awk:run

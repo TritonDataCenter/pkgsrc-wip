@@ -15,6 +15,8 @@ COMMENT=		Man page viewer and utilities
 
 CONFLICTS+=		man-db-[0-9]*
 
+PKG_DESTDIR_SUPPORT=	none
+
 USE_TOOLS+=		groff:run
 
 PKGMANDIR?=		man

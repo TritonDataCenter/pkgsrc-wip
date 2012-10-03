@@ -12,8 +12,6 @@ COMMENT=	Easy-to-use greylist milter for sendmail devel snapshot
 
 VERSION=	4.3.3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 # yacc rule moving to y.tab.c and renaming
 MAKE_JOBS_SAFE=		no
 

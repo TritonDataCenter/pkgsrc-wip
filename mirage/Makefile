@@ -11,8 +11,6 @@ HOMEPAGE=			http://mirageiv.berlios.de/
 COMMENT=			Fast and simple image viewer
 LICENSE=			gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 PY_PATCHPLIST=			yes
 PYDISTUTILSPKG=			yes
 
