@@ -11,8 +11,6 @@ MAINTAINER=	pkgsrc.gnome@gmail.com
 HOMEPAGE=	http://www.gnome.org/~dscorgie/labyrinth.html
 COMMENT=	Labyrinth is a lightweight mind-mapping tool for GNOME
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/labyrinth-0.4.0
 GNU_CONFIGURE=	yes
 USE_PKGLOCALEDIR=	yes

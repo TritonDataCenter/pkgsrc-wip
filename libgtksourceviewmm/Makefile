@@ -15,7 +15,6 @@ GNU_CONFIGURE=	YES
 
 USE_TOOLS+=	gmake pkg-config
 USE_LIBTOOL=	yes
-PKG_DESTDIR_SUPPORT=	user-destdir
 
 .include "../../x11/gtksourceview/buildlink3.mk"
 .include "../../x11/gtkmm/buildlink3.mk"

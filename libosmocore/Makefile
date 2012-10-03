@@ -12,7 +12,6 @@ COMMENT=	libosmocore
 
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
 USE_TOOLS+=	gmake
 
 PKGCONFIG_OVERRIDE+=	libosmocodec.pc.in

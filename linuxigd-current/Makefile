@@ -9,6 +9,8 @@ MAINTAINER=	obache@NetBSD.org
 HOMEPAGE=	http://linux-igd.sourceforge.net/
 COMMENT=	Linux UPnP Internet Gateway Device
 
+PKG_DESTDIR_SUPPORT=	none
+
 USE_TOOLS+=	gmake pkg-config
 
 CVS_REPOSITORIES=	linux-igd

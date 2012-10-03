@@ -11,7 +11,6 @@ HOMEPAGE=	http://xorg.freedesktop.org/releases/individual/proto/
 COMMENT=	Distributed, multi-headed X protocol headers from modular X.org
 
 PKG_INSTALLATION_TYPES=	overwrite pkgviews
-PKG_DESTDIR_SUPPORT=	user-destdir
 
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes

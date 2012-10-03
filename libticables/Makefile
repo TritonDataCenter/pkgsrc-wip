@@ -10,6 +10,8 @@ MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://tilp.info/
 COMMENT=		Library for communicating with TI calculators
 
+PKG_DESTDIR_SUPPORT=	none
+
 WRKSRC=			${WRKDIR}/${PKGNAME_NOREV}
 LDFLAGS+=		-lintl
 LDFLAGS.NetBSD+=	-li386

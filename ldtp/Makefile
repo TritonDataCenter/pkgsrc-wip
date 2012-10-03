@@ -14,8 +14,6 @@ LICENSE=	gnu-lgpl-v2
 DEPENDS+=	${PYPKGPREFIX}-twisted-[0-9]*:../../net/py-twisted
 DEPENDS+=	${PYPKGPREFIX}-at-spi-[0-9]*:../../devel/py-at-spi
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	# none
 
 PYDISTUTILSPKG=	yes

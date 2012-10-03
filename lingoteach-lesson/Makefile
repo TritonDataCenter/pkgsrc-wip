@@ -11,6 +11,8 @@ COMMENT=		Lesson files for lingoteach
 
 DEPENDS+=		lingoteach-ui-[0-9]*:../../wip/lingoteach-ui
 
+PKG_DESTDIR_SUPPORT=	none
+
 GNU_CONFIGURE=		yes
 
 .include "../../mk/bsd.pkg.mk"

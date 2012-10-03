@@ -10,8 +10,6 @@ MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	http://www.imcce.fr/trip/scscp/
 COMMENT=  Library of the Symbolic Computation Software Composibility Protocol
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 INFO_FILES=	yes
 USE_LANGUAGES=	c c++

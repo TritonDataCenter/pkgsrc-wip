@@ -10,6 +10,8 @@ MAINTAINER=		dprice@cs.nmsu.edu
 HOMEPAGE=		http://www.libgenome.org/releases/
 COMMENT=		A development library for bioinformatic software
 
+PKG_DESTDIR_SUPPORT=	none
+
 WRKSRC=			${WRKDIR}/libgenome-0.5.2
 USE_PKGLOCALEDIR=	yes
 USE_LANGUAGES=		c c++

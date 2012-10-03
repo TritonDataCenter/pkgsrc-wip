@@ -10,8 +10,6 @@ HOMEPAGE=	http://www.tddft.org/programs/octopus/wiki/index.php/Libxc
 COMMENT=	Libxc is the ETSF library of exchange-correlation functionals
 LICENSE=	gnu-lgpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_TOOLS+=	gmake pkg-config perl

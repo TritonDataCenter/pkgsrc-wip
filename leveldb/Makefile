@@ -9,8 +9,6 @@ HOMEPAGE=	http://code.google.com/p/leveldb/
 COMMENT=	Fast and lightweight key/value database library by Google
 LICENSE=	modified-bsd
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES+=	c++
 USE_TOOLS+=	gmake pax
 

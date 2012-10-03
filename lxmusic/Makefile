@@ -10,6 +10,8 @@ HOMEPAGE=	http://lxde.org/
 COMMENT=	Minimalist XMMS2-based music player
 LICENSE=	gnu-gpl-v2
 
+PKG_DESTDIR_SUPPORT=	none
+
 WRKSRC=		${WRKDIR}/lxmusic-0.4.0
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes

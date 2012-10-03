@@ -10,7 +10,6 @@ MAINTAINER=		tnn@NetBSD.org
 HOMEPAGE=		https://launchpad.net/linuxdcpp/
 COMMENT=		DC++-based p2p filesharing application
 
-PKG_DESTDIR_SUPPORT=	user-destdir
 USE_LANGUAGES=		c c++
 GCC_REQD+=		3.4
 USE_TOOLS+=		pkg-config pax

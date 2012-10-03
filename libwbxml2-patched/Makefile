@@ -10,6 +10,8 @@ MAINTAINER=		ola@mrEriksson.net
 HOMEPAGE=		http://libwbxml.aymerick.com:8080/
 COMMENT=		Library to handle WBXML (Patched for MultiSync)
 
+PKG_DESTDIR_SUPPORT=	none
+
 WRKSRC=		${WRKDIR}/wbxml2-0.9.0
 USE_PKGLOCALEDIR=	yes
 USE_LANGUAGES=		c c++

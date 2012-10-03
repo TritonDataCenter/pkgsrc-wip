@@ -5,8 +5,6 @@ PKG_REVISION=		1
 LICENSE=		gnu-gpl-v2 AND gnu-lgpl-v2
 # XXX			tools AND libraries
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 .include "Makefile.common"
 
 .include "options.mk"

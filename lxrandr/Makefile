@@ -8,8 +8,6 @@ MAINTAINER=		zecrazytux@zecrazytux.net
 HOMEPAGE=		http://lxde.org/
 COMMENT=		Simple graphical front end to the xrandr extension
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_TOOLS+=		gmake intltool pkg-config
 

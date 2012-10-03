@@ -17,6 +17,8 @@ CONFLICTS+=		linux-module-init-tools-[0-9]*
 
 ONLY_FOR_PLATFORM=	Linux-*-* # This is for the Linux kernel
 
+PKG_DESTDIR_SUPPORT=	none
+
 GNU_CONFIGURE=		YES
 CONFIGURE_ARGS+=	--exec-prefix=${PREFIX:Q} --sysconfdir=${PKG_SYSCONFDIR:Q}
 USE_TOOLS+=		gmake

@@ -12,8 +12,6 @@ HOMEPAGE=	http://pmmac03.math.uwaterloo.ca/~mrubinst/L_function_public/CODE/
 COMMENT=	Lcalc is a program for calculating with L-functions
 LICENSE=		gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=	${WRKDIR}/${DISTNAME}/src
 USE_TOOLS+=	gmake
 USE_LANGUAGES=	c c++

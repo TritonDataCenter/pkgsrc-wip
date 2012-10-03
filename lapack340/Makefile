@@ -12,7 +12,6 @@ COMMENT=	Linear Algebra PACKage
 LICENSE=	modified-bsd
 
 PKG_INSTALLATION_TYPES=	overwrite pkgviews
-PKG_DESTDIR_SUPPORT=	user-destdir
 
 GCC_REQD=		4.6.0
 USE_LANGUAGES=		c fortran

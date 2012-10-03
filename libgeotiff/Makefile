@@ -9,6 +9,8 @@ MAINTAINER=	gdt@ir.bbn.com
 HOMEPAGE=	http://www.remotesensing.org/geotiff/geotiff.html
 COMMENT=	Library and tools for reading and writing GeoTIFF data
 
+PKG_DESTDIR_SUPPORT=	none
+
 GNU_CONFIGURE=	yes
 
 .include "../../geography/proj/buildlink3.mk"

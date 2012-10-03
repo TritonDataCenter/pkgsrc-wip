@@ -17,8 +17,6 @@ MAKE_FLAGS+=	LIBDIR=${PREFIX}/lib
 MAKE_FLAGS+=	MKLINT=no
 MAKE_FLAGS+=	SHLIBDIR=${PREFIX}/lib
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 INSTALLATION_DIRS=	include lib
 
 do-install:

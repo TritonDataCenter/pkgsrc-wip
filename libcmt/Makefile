@@ -11,8 +11,6 @@ HOMEPAGE=	http://sourceforge.net/projects/libcmt/
 COMMENT=	Composable Memory Transactions Library for C
 LICENSE=	gnu-lgpl-v2.1
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_TOOLS+=	pkg-config

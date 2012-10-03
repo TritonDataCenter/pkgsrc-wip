@@ -10,8 +10,6 @@ HOMEPAGE=	http://bitop.luajit.org/download/
 COMMENT=	Lua module which adds bitwise operations on numbers
 LICENSE=	mit
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 NO_CONFIGURE=	yes
 USE_TOOLS+=	gmake
 MAKE_FLAGS+=	LUA_CDIR=${LUA_CDIR}

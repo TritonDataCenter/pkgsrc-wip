@@ -10,8 +10,6 @@ HOMEPAGE=	http://tangent.org/552/libmemcached.html
 COMMENT=	C and C++ client library to the memcached server
 LICENSE=	original-bsd
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LIBTOOL=	yes
 GNU_CONFIGURE=	yes
 USE_TOOLS+=	pkg-config

@@ -16,8 +16,6 @@ USE_LIBTOOL=	yes
 USE_TOOLS+=	gmake pkg-config
 USE_LANGUAGES=	c c++
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 PKGCONFIG_OVERRIDE+=	libdjconsole.pc.in
 
 EGDIR=			${PREFIX}/share/examples/udev/rules.d

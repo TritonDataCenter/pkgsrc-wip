@@ -12,8 +12,6 @@ HOMEPAGE=	http://www.ode.org/
 COMMENT=	Open Dynamics Engine
 LICENSE=	gnu-lgpl-v2.1 AND modified-bsd
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_TOOLS+=	pkg-config

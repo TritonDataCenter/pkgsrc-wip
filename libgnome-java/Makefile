@@ -11,6 +11,8 @@ MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://java-gnome.sourceforge.net/
 COMMENT=		Gnome bindings for Java
 
+PKG_DESTDIR_SUPPORT=	none
+
 USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=		yes
 PKGCONFIG_OVERRIDE+=	${WRKSRC}/gnome2-java.pc.in

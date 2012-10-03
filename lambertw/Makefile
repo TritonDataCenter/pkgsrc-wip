@@ -11,8 +11,6 @@ HOMEPAGE=	http://sabotin.ung.si/~darko/LambertW/
 COMMENT=	Lambert W Function for Applications in Physics
 LICENSE=	gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_TOOLS+=	gmake
 USE_LANGUAGES=	c++
 

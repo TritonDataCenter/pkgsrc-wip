@@ -11,8 +11,6 @@ HOMEPAGE=	http://labs.o-hand.com/av-widget-library/
 COMMENT=	AV widget library
 LICENSE=	gnu-lgpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_TOOLS+=	pkg-config gmake

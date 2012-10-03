@@ -12,8 +12,6 @@ MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://www-unix.mcs.anl.gov/~gawor/ldap/
 COMMENT=		Java based LDAP browser and editor
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 NO_CONFIGURE=		yes
 USE_JAVA=		run
 USE_JAVA2=		yes

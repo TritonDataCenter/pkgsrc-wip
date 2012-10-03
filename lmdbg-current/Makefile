@@ -25,8 +25,6 @@ WRKSRC=			${WRKDIR}/lmdbg
 ONLY_FOR_COMPILER=	gcc icc clang
 NOT_FOR_PLATFORM=	Darwin-*-*
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 TEST_TARGET=		test
 
 REPLACE_SH=		scripts/lmdbg*.in tests/test.sh

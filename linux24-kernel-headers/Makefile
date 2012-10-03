@@ -1,5 +1,7 @@
 # $NetBSD$
 
+PKG_DESTDIR_SUPPORT=	none
+
 .include "../../wip/linux24-kernel/Makefile.common"
 
 PKGNAME=	linux-kernel-headers-${LINUX_VERSION}

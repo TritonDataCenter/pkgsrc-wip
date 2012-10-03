@@ -10,8 +10,6 @@ HOMEPAGE=	http://ab-initio.mit.edu/libctl/
 COMMENT=	Control Language Library
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 

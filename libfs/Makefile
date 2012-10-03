@@ -11,7 +11,6 @@ HOMEPAGE=		http://xorg.freedesktop.org/
 COMMENT=		X Font Service client library
 
 PKG_INSTALLATION_TYPES=	overwrite pkgviews
-PKG_DESTDIR_SUPPORT=	user-destdir
 
 USE_TOOLS+=		pkg-config
 USE_LIBTOOL=		yes

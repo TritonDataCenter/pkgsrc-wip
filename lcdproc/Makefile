@@ -9,7 +9,6 @@ MAINTAINER=	christtrekker@users.sourceforge.net
 HOMEPAGE=	http://lcdproc.org/
 COMMENT=	Client/server software to print system info to small LCDs
 
-PKG_DESTDIR_SUPPORT=	user-destdir
 GNU_CONFIGURE=	yes
 
 .include "../../mk/bsd.prefs.mk"

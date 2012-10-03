@@ -11,8 +11,6 @@ HOMEPAGE=	http://lucene.apache.org/
 COMMENT=	Full-text search engine for Java
 LICENSE=	apache-2.0
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 NO_BUILD=	yes
 USE_TOOLS+=	pax
 USE_LANGUAGES=	# none

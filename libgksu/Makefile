@@ -10,8 +10,6 @@ MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://www.nongnu.org/gksu/
 COMMENT=		Support library for gksu
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 .include "../../mk/bsd.fast.prefs.mk"
 
 .if ${X11_TYPE} == "modular"

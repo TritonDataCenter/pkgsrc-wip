@@ -11,7 +11,6 @@ COMMENT=	Live syncing daemon
 LICENSE=	gnu-gpl-v2
 
 DEPENDS+=		rsync-[0-9]*:../../net/rsync
-PKG_DESTDIR_SUPPORT=	user-destdir
 
 USE_TOOLS+=		pkg-config gmake
 GNU_CONFIGURE=		yes

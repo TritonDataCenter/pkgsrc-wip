@@ -18,8 +18,6 @@ DEPENDS+=	sox-[0-9]*:../../audio/sox
 DEPENDS+=	mplayer>=1.0rc1:../../multimedia/mplayer
 DEPENDS+=	mencoder>=1.0rc1:../../multimedia/mencoder
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=			${WRKDIR}/${DISTNAME}
 GNU_CONFIGURE=		yes
 USE_LIBTOOL=		yes

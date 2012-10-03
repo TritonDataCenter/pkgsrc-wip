@@ -12,8 +12,6 @@ HOMEPAGE=	http://www.ginac.de/
 COMMENT=	The GiNaC symbolic framework
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_GNU_READLINE=	yes
 INFO_FILES=		yes

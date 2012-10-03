@@ -13,7 +13,6 @@ LICENSE=	gnu-gpl-v2
 GNU_CONFIGURE=yes
 
 PKG_INSTALLATION_TYPES=	overwrite pkgviews
-PKG_DESTDIR_SUPPORT=	user-destdir
 
 USE_LANGUAGES=		c c++
 USE_PKGLOCALEDIR=	yes

@@ -9,6 +9,8 @@ MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.gnu.org/software/emacs/emacs.html
 COMMENT=	Libraries of Emacs Input Methods (for emacs22)
 
+PKG_DESTDIR_SUPPORT=	none
+
 CVS_REPOSITORIES=	emacs
 CVS_ROOT.emacs=		${CVS_ROOT_GNU}/emacs
 CVS_MODULE.emacs=	emacs

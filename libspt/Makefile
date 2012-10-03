@@ -12,7 +12,6 @@ HOMEPAGE=	http://www.j10n.org/libspt/
 COMMENT=	Provide unpriviliged secure pty
 
 USE_LIBTOOL=	yes
-PKG_DESTDIR_SUPPORT=    user-destdir
 GNU_CONFIGURE=  yes
 
 SPECIAL_PERMS=	libexec/sptagent root wheel 4755

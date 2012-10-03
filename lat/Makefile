@@ -10,8 +10,6 @@ MAINTAINER=		adam.hoka@gmail.com
 HOMEPAGE=		http://dev.mmgsecurity.com/projects/lat/
 COMMENT=		LDAP Administration Tool written in Mono
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_TOOLS+=		pkg-config gmake msgfmt intltool
 USE_LANGUAGES=		# empty -> its csharp
 GNU_CONFIGURE=		yes

@@ -10,6 +10,8 @@ MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://live.gnome.org/GnomeBluetooth
 COMMENT=		GObject Bluetooth controller
 
+PKG_DESTDIR_SUPPORT=	none
+
 USE_TOOLS+=		gmake perl
 USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=		yes

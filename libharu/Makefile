@@ -9,8 +9,6 @@ MAINTAINER=	esg@sdf.lonestar.org
 HOMEPAGE=	http://libharu.org/
 COMMENT=	Library for generating PDF files
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_LANGUAGES=	c c++

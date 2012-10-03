@@ -11,8 +11,6 @@ HOMEPAGE=	http://code.google.com/p/lastfm-sharp/
 COMMENT=	DotNet/Mono interface to last.fm
 LICENSE=	gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_TOOLS+=	pkg-config gmake
 USE_LANGUAGES=	# none

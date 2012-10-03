@@ -10,8 +10,6 @@ HOMEPAGE=	http://numerik.mi.fu-berlin.de/dune/psurface/index.php
 COMMENT=	Library that handles piecewise linear bijections
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE= yes
 USE_LIBTOOL= yes
 USE_TOOLS+=	pkg-config gmake m4 aclocal \

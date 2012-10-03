@@ -10,8 +10,6 @@ MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	http://togl.sourceforge.net/index.html#intro
 COMMENT=	Tk OpenGL widget
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/Togl2.0
 
 GNU_CONFIGURE=	yes

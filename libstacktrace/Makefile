@@ -17,8 +17,6 @@ BUILD_DEPENDS+=		mk-configure>=0.20.0:../../devel/mk-configure
 ONLY_FOR_COMPILER=	gcc icc
 NOT_FOR_PLATFORM=	Darwin-*-*
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=			${WRKDIR}/${DISTNAME}/libstacktrace
 
 MAKE_ENV+=		MKINSTALL=yes

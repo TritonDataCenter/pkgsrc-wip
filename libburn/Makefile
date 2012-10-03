@@ -10,8 +10,6 @@ HOMEPAGE=	http://libburnia-project.org/wiki/Libburn
 COMMENT=	library by which preformatted data get onto optical media
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/${DISTNAME:S/.pl01//}
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes

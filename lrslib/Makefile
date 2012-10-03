@@ -11,8 +11,6 @@ HOMEPAGE=	http://cgm.cs.mcgill.ca/~avis/C/lrs.html
 COMMENT=	Enumerate vertices and extreme rays of a convex polyhedron
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 MAKE_FILE=   makefile
 
 INSTALLATION_DIRS=	bin

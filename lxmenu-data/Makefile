@@ -20,6 +20,4 @@ GNU_CONFIGURE=	yes
 #USE_LANGUAGES=	# none
 USE_TOOLS+=	gmake intltool
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 .include "../../mk/bsd.pkg.mk"

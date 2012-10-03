@@ -15,7 +15,6 @@ CVS_PROJECT=		logfmon
 CVS_REPOSITORIES=	${CVS_PROJECT}
 CVS_ROOT.logfmon=	${CVS_ROOT_SOURCEFORGE}
 
-PKG_DESTDIR_SUPPORT=	user-destdir
 USE_TOOLS+=		yacc
 
 # Makefile things

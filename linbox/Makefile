@@ -11,8 +11,6 @@ HOMEPAGE=	http://www.linalg.org/
 COMMENT=	LinBox: exact computational linear algebra
 LICENSE=	gnu-lgpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_LANGUAGES=	c c++ fortran77

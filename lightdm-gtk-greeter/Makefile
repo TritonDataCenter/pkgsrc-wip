@@ -10,8 +10,6 @@ HOMEPAGE=	https://launchpad.net/lightdm-gtk-greeter
 COMMENT=	GTK+ greeter for LightDM
 LICENSE=	gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 # Needed for launchpad
 FETCH_USING=	curl
 

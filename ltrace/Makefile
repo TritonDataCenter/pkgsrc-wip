@@ -10,8 +10,6 @@ MAINTAINER=		reed@reedmedia.net
 HOMEPAGE=		http://ltrace.alioth.debian.org/
 COMMENT=		Track runtime library calls in dynamically linked programs
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 ONLY_FOR_PLATFORM=	Linux-*-*
 
 WRKSRC=			${WRKDIR}/ltrace-0.3.36

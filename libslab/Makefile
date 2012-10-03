@@ -12,8 +12,6 @@ HOMEPAGE=	http://code.google.com/p/libslab/
 COMMENT=	Slab memory allocator in application layer
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_TOOLS+=	pkg-config intltool

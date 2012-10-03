@@ -11,8 +11,6 @@ HOMEPAGE=	http://www.freedesktop.org/wiki/Software/LightDM
 COMMENT=	Light cross-desktop display manager
 LICENSE=	gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=		yes
 CONFIGURE_ARGS+=	--disable-tests	# PAM
 USE_LIBTOOL=		yes

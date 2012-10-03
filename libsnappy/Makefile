@@ -15,7 +15,5 @@ GNU_CONFIGURE=	yes
 CPPFLAGS+=	-DLZF_STATE_ARG="0"
 USE_LANGUAGES+=	c++ c
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 # url2pkg-marker (please do not remove this line.)
 .include "../../mk/bsd.pkg.mk"

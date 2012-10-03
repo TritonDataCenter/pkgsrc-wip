@@ -11,8 +11,6 @@ HOMEPAGE=	http://www.freebsd.org
 COMMENT=	FreeBSD's lockf
 LICENSE=	original-bsd
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}
 USE_LANGUAGES=	c
 
