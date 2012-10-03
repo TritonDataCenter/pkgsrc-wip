@@ -18,10 +18,12 @@ post-extract:
 	${RM} ${WRKSRC}/Makefile
 	${CP} ${FILESDIR}/makefile.noip ${WRKSRC}/Makefile
 
+INSTALLATION_DIRS=	bin
+
 do-install:
-	${INSTALL_PROGRAM} ${WRKSRC}/noip2 ${PREFIX}/bin
-	${INSTALL_DATA_DIR} ${PREFIX}/share/doc/noip
-	${INSTALL_MAN} ${WRKSRC}/README.FIRST ${PREFIX}/share/doc/noip
-	${INSTALL_MAN} ${WRKSRC}/COPYING ${PREFIX}/share/doc/noip
+	${INSTALL_PROGRAM} ${WRKSRC}/noip2 ${DESTDIR}${PREFIX}/bin
+	${INSTALL_DATA_DIR} ${DESTDIR}${PREFIX}/share/doc/noip
+	${INSTALL_MAN} ${WRKSRC}/README.FIRST ${DESTDIR}${PREFIX}/share/doc/noip
+	${INSTALL_MAN} ${WRKSRC}/COPYING ${DESTDIR}${PREFIX}/share/doc/noip
 
 .include "../../mk/bsd.pkg.mk"

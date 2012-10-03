@@ -22,7 +22,7 @@ do-extract:
 
 do-install:
 	${INSTALL_DATA} ${DISTDIR}/${DISTNAME}${EXTRACT_SUFX} \
-		${JAR_PREFIX}/netx-${VERSION}.jar
+		${DESTDIR}${JAR_PREFIX}/netx-${VERSION}.jar
 
 .include "../../wip/mk/java-app.mk"
 .include "../../mk/bsd.pkg.mk"
