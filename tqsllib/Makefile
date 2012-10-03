@@ -14,6 +14,6 @@ COMMENT=	Tqsl library for ARRL LoTW
 GNU_CONFIGURE=	yes
 USE_LANGUAGES+=	c c++
 USE_LIBTOOL=	yes
-WRKSRC=		${WRKDIR}/${PKGNAME}
+WRKSRC=		${WRKDIR}/${PKGNAME_NOREV}
 
 .include "../../mk/bsd.pkg.mk"

@@ -14,7 +14,7 @@ COMMENT=		Uploading QSL Data to LoTW of ARRL
 USE_TOOLS+=		perl gmake
 USE_LANGUAGES+=		c c++
 USE_LIBTOOL=		yes
-WRKSRC=			${WRKDIR}/${PKGNAME}
+WRKSRC=			${WRKDIR}/${PKGNAME_NOREV}
 
 GNU_CONFIGURE=		yes
 CONFIGURE_ARGS+=	--with-tqsllib=${PREFIX}/lib
