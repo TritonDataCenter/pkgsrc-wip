@@ -9,19 +9,21 @@ COMMENT=		Port of FreeBSD's console menu system
 
 USE_NCURSES=		YES
 
+INSTALLATION_DIRS=	include lib
+
 do-install:
 	for i in libdialog.so libdialog.so.0 libdialog.so.0.4; \
 	do \
-		${INSTALL_PROGRAM} ${WRKSRC}/$${i} ${PREFIX}/lib; \
+		${INSTALL_PROGRAM} ${WRKSRC}/$${i} ${DESTDIR}${PREFIX}/lib; \
 	done
 	for i in colors.h rc.h dialog.h dir.h ui_objects.h; \
 	do \
-		${INSTALL_DATA} ${WRKSRC}/$${i} ${PREFIX}/include; \
+		${INSTALL_DATA} ${WRKSRC}/$${i} ${DESTDIR}${PREFIX}/include; \
 	done
 	${INSTALL_DATA_DIR} ${PREFIX}/share/examples/libdialog
 	for i in ${WRKSRC}/TESTS/*; \
 	do \
-		${INSTALL_DATA} $${i} ${PREFIX}/share/examples/libdialog; \
+		${INSTALL_DATA} $${i} ${DESTDIR}${PREFIX}/share/examples/libdialog; \
 	done
 
 .include "../../devel/ncurses/buildlink3.mk"

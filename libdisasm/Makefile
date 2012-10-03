@@ -12,16 +12,18 @@ COMMENT=	Dissassembly library for ELF x86 binarys
 
 WRKSRC=		${WRKDIR}/libdisasm_src-0.17
 
+INSTALLATION_DIRS=	bin lib
+
 do-build:
 	cd ${WRKSRC}/src/arch/i386/libdisasm && make
 
 do-install:
-	${INSTALL_DATA_DIR} ${PREFIX}/share/libdisasm
+	${INSTALL_DATA_DIR} ${DESTDIR}${PREFIX}/share/libdisasm
 	${INSTALL_SCRIPT} ${WRKSRC}/src/arch/i386/libdisasm/quikdis \
-		${PREFIX}/bin
+		${DESTDIR}${PREFIX}/bin
 	${INSTALL_SCRIPT} ${WRKSRC}/src/arch/i386/libdisasm/libdisasm.so \
-		${PREFIX}/lib
-	${INSTALL_SCRIPT} ${WRKSRC}/utils/op-conv.pl ${PREFIX}/bin;
-	${INSTALL_DATA} ${WRKSRC}/doc/* ${PREFIX}/share/libdisasm
+		${DESTDIR}${PREFIX}/lib
+	${INSTALL_SCRIPT} ${WRKSRC}/utils/op-conv.pl ${DESTDIR}${PREFIX}/bin;
+	${INSTALL_DATA} ${WRKSRC}/doc/* ${DESTDIR}${PREFIX}/share/libdisasm
 
 .include "../../mk/bsd.pkg.mk"
