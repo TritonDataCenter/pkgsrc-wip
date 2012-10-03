@@ -24,8 +24,6 @@ GIT_REPOSITORIES=   cdesktopenv-code
 GIT_REPO.cdesktopenv-code = git://git.code.sf.net/p/cdesktopenv/code
 WRKSRC=$(WRKDIR)/code/cde
 
-PKG_DESTDIR_SUPPORT= user-destdir
-
 .include "../../wip/mk/git-package.mk"
 .include "../../x11/libX11/buildlink3.mk"
 .include "../../mk/motif.buildlink3.mk"

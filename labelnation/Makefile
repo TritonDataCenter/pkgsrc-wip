@@ -11,7 +11,6 @@ LICENSE=		gnu-gpl-v3
 
 REPLACE_PYTHON= 	labelnation csv_to_ln
 
-PKG_DESTDIR_SUPPORT=	user-destdir
 USE_LANGUAGES=		# none
 NO_BUILD= 		yes
 

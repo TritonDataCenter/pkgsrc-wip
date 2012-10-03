@@ -10,8 +10,6 @@ HOMEPAGE=	http://developer.berlios.de/projects/libral
 COMMENT=	Address book engine
 LICENSE=	gnu-lgpl-v2.1
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_LANGUAGES+=	c c++ fortran
