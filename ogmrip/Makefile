@@ -20,8 +20,6 @@ DEPENDS+=		gocr-[0-9]*:../../graphics/gocr
 BUILD_DEPENDS+=		gtk-doc-[0-9]*:../../textproc/gtk-doc
 BUILD_DEPENDS+=		gsed-[0-9]*:../../textproc/gsed
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=		yes
 CONFIGURE_ARGS+=	SED_PROG=${LOCALBASE}/bin/gsed
 

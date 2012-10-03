@@ -10,6 +10,8 @@ MAINTAINER=		ianzag@mail.ru
 HOMEPAGE=		http://omniorb.sourceforge.net/
 COMMENT=		OmniORB is an ORB that implements the 2.6 specification of the CORBA
 
+PKG_DESTDIR_SUPPORT=	none
+
 MAKE_FILE=		GNUmakefile
 GNU_CONFIGURE=	YES
 USE_LANGUAGES=	c c++

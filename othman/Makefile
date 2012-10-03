@@ -12,8 +12,6 @@ MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	http://othman.ojuba.org/
 COMMENT=	Electronic Quran browser
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_PKGLOCALEDIR= yes
 USE_TOOLS+=	intltool msgfmt
 USE_LANGUAGES=	# none

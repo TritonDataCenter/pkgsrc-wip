@@ -10,8 +10,6 @@ MAINTAINER=	schwarz@NetBSD.org
 HOMEPAGE=	http://localhost.lu:8081/OzymanDNS/
 COMMENT=	Tool to enable ssh tunnel over DNS using TXT records
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 DEPENDS+=		p5-Net-DNS-[0-9]*:../../net/p5-Net-DNS
 DEPENDS+=		p5-LWP-UserAgent-Determined-[0-9]*:../../www/p5-LWP-UserAgent-Determined
 DEPENDS+=		p5-MIME-Base32-[0-9]*:../../converters/p5-MIME-Base32

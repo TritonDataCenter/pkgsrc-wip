@@ -11,8 +11,6 @@ HOMEPAGE=	http://www.infradead.org/openconnect.html
 COMMENT=	Client for Cisco AnyConnect VPN
 LICENSE=	gnu-lgpl-v2.1
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_TOOLS+=	gmake pkg-config

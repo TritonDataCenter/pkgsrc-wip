@@ -9,8 +9,6 @@ MAINTAINER=	rodo@zlug.org
 HOMEPAGE=	http://www.sim-basis.de/
 COMMENT=	Open-source COBOL compiler
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 BDB_ACCEPTED=           db4 db5
 USE_LIBTOOL=            yes
 USE_PKGLOCALEDIR=       yes

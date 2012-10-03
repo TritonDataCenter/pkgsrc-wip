@@ -12,8 +12,6 @@ HOMEPAGE=	https://wiki.objectweb.org/oslcv3/
 COMMENT=	Open Source License Checker
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}
 
 USE_JAVA=	run
@@ -40,7 +38,7 @@ do-build:
 	${ECHO} "StartupNotify=true" >> ${WRKSRC}/oslc.desktop
 	printf "#! ${SH}\\nexec ${PKG_JAVA_HOME}/bin/java -Xms512M -Xmx512M -jar oslc.jar \n" > ${WRKSRC}/oslcgui
 	printf "#! ${SH}\\nexec ${PKG_JAVA_HOME}/bin/java -Xms512M -Xmx512M -jar ${PREFIX}/lib/java/oslc/oslc.jar --$@\n" > ${WRKSRC}/oslccli
-	
+
 do-install:
 	${INSTALL_SCRIPT} ${WRKSRC}/oslcgui ${DESTDIR}${PREFIX}/lib/java/oslc
 	${INSTALL_SCRIPT} ${WRKSRC}/oslccli ${DESTDIR}${PREFIX}/lib/java/oslc

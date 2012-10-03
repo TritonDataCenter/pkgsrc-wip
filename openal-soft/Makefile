@@ -11,8 +11,6 @@ MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://kcat.strangesoft.net/
 COMMENT=	Alternative OpenAL implementation
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_CMAKE=	yes
 USE_LANGUAGES=	c c++
 

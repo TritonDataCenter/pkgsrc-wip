@@ -6,8 +6,6 @@ MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=opende/}
 EXTRACT_SUFX=	.zip
 ODE_VERSION=	0.11.1
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 MAINTAINER=	kh.p@no-log.org
 HOMEPAGE=	http://www.ode.org/
 COMMENT=	Library for the simulation of Rigid Body Dynamics

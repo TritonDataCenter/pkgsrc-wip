@@ -13,6 +13,8 @@ COMMENT=	POSIX standard archive tool (port of OpenBSD's pax)
 # Uses DEFTAPE from Linux /usr/include/sys/mtio.h
 ONLY_FOR_PLATFORM=	Linux-*-*
 
+PKG_DESTDIR_SUPPORT=	none
+
 GNU_CONFIGURE=	YES
 
 .include "../../mk/bsd.pkg.mk"

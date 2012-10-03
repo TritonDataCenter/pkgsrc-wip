@@ -13,8 +13,6 @@ COMMENT=	Ocamlweb is a literate programming tool for Objective Caml
 #DEPENDS+=	teTeX>=3.0:../../print/teTeX
 DEPENDS+=	hevea>=1.10:../../textproc/hevea
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_LANGUAGES=	c
 

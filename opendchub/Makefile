@@ -9,8 +9,6 @@ MAINTAINER=		dhowland@users.sourceforge.net
 HOMEPAGE=		http://opendchub.sourceforge.net/
 COMMENT=		Open source Direct Connect hub software
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=		yes
 # only works for systems with cap_set_proc() support
 CONFIGURE_ARGS+=	--enable-switch_user

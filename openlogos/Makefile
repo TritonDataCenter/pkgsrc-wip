@@ -8,6 +8,8 @@ MAINTAINER=	schwarz@NetBSD.org
 HOMEPAGE=	http://logos-os.dfki.de/
 COMMENT=	Openlogos is a language translation system
 
+PKG_DESTDIR_SUPPORT=	none
+
 USE_LANGUAGES=	c c++
 USE_TOOLS+=	gmake
 USE_LIBTOOL=	YES

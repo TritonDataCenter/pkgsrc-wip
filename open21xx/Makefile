@@ -10,6 +10,8 @@ MAINTAINER=		ianzag@mail.ru
 HOMEPAGE=		http://www3.telus.net/sharpshin/adi.html
 COMMENT=		Assembler tool suite for the Analog Devices 21xx family of DSP
 
+PKG_DESTDIR_SUPPORT=	none
+
 USE_LANGUAGES=	c
 USE_TOOLS+=	gmake bison
 

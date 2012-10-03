@@ -11,8 +11,6 @@ HOMEPAGE=	http://orbifolder.hepforge.org/
 COMMENT=	Study the Low Energy Effective Theory of Heterotic Orbifolds
 LICENSE=	gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_TOOLS+=	gmake
 USE_LANGUAGES=	c c++

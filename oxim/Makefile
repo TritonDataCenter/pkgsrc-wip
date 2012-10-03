@@ -11,8 +11,6 @@ HOMEPAGE=	http://opendesktop.org.tw/demopage/oxim/
 COMMENT=	Open X Input Method server
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=		yes
 USE_LIBTOOL=		yes
 USE_LANGUAGES=		c c++

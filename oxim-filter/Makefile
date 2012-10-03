@@ -12,8 +12,6 @@ HOMEPAGE=	http://opendesktop.org.tw/demopage/oxim/
 COMMENT=	Open X Input Method output filters
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 DEPENDS+=	oxim>=1.4:../../wip/oxim
 
 USE_LANGUAGES=		# empty

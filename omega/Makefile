@@ -11,8 +11,6 @@ COMMENT=	Optimal Monte-Carlo Event Generation Amplitudes
 
 DEPENDS+=	ocamlweb>=1.37:../../wip/ocamlweb
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_TOOLS+=	gmake

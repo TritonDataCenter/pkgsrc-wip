@@ -14,7 +14,6 @@ HOMEPAGE=	http://openttd.org/
 COMMENT=	Free and open source music data files for the game OpenTTD
 #LICENSE=	# TODO: (see mk/license.mk)
 
-PKG_DESTDIR_SUPPORT=	user-destdir
 INSTALLATION_DIRS=  	share/openttd/gm
 
 WRKSRC=		${WRKDIR}/openmsx-${VERSION}

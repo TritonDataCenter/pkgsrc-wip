@@ -11,6 +11,8 @@ COMMENT=		CA glue for Cisco SCEP
 
 BUILD_DEPENDS+=		w3m>=0.5.1:../../www/w3m
 
+PKG_DESTDIR_SUPPORT=	none
+
 .include "../../mk/bsd.prefs.mk"
 
 USE_TOOLS+=		automake autoconf grep perl:run

@@ -13,7 +13,6 @@ HOMEPAGE=	http://openttd.org/
 COMMENT=	Free and open source sound data files for the game OpenTTD
 #LICENSE=	# TODO: (see mk/license.mk)
 
-PKG_DESTDIR_SUPPORT=	user-destdir
 INSTALLATION_DIRS=  	share/openttd/data
 
 WRKSRC=		${WRKDIR}/opensfx-${VERSION}

@@ -10,8 +10,6 @@ HOMEPAGE=	http://clayo.org/osmo/
 COMMENT=	Personal organizer, calendar and task manager
 #LICENSE=	# TODO: (see mk/license.mk)
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 CONFIGURE_ENV+=		LIBICAL_CFLAGS="-I${BUILDLINK_PREFIX.libical}/include/libical"
 GNU_CONFIGURE=	yes
 #USE_TOOLS=	msgfmt pkg-config

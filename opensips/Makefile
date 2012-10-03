@@ -15,7 +15,6 @@ VER=			1.6.2
 WRKSRC=			${WRKDIR}/opensips-${VER}-tls
 
 USE_TOOLS+=		gmake
-PKG_DESTDIR_SUPPORT=	user-destdir
 
 CHECK_INTERPRETER_SKIP+=lib/opensips/opensipsctl/dbtextdb/dbtextdb.py
 REPLACE_PERL+=		scripts/osipsconsole
