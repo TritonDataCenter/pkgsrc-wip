@@ -8,8 +8,6 @@ MAINTAINER=	pkgsrc-users@netbsd.org
 HOMEPAGE=	http://www.newsbeuter.org/
 COMMENT=	Open-source RSS/Atom feed reader for text terminals
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	c c++
 USE_TOOLS+=	gmake pkg-config msgfmt perl
 USE_NCURSES=	yes

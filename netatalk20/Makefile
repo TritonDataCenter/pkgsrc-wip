@@ -15,8 +15,6 @@ HOMEPAGE=	http://netatalk.sourceforge.net/
 COMMENT=	Netatalk v2.0 appletalk file and print services
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 DEPENDS=		rc>=1.5:../../shells/rc
 
 GNU_CONFIGURE=		yes

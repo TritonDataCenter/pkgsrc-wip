@@ -13,8 +13,6 @@ HOMEPAGE=	http://wiki.NetBSD.org/
 COMMENT=	Default settings for NetBSD Light Desktop
 #LICENSE=	# TODO: (see mk/license.mk)
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 DEPENDS+=	lightdm-gtk-greeter>=0:../../wip/lightdm-gtk-greeter
 DEPENDS+=	lxsession>=0:../../wip/lxsession
 DEPENDS+	netbsd-icon-theme>=0:../../wip/netbsd-icon-theme

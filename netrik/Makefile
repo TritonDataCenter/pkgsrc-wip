@@ -9,6 +9,8 @@ MAINTAINER=		lkundrak@skosi.org
 HOMEPAGE=		http://netrik.sourceforge.net/
 COMMENT=		Will be a really fancy text mode WWW browser
 
+PKG_DESTDIR_SUPPORT=	none
+
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 

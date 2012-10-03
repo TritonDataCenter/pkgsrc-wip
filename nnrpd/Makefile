@@ -12,7 +12,6 @@ MAINTAINER=		hauke@NetBSD.org
 HOMEPAGE=		http://www.isc.org/sw/inn/
 COMMENT=		NNTP reader daemon from InterNet News (INN)
 
-PKG_DESTDIR_SUPPORT=	user-destdir
 INSTALLATION_DIRS=	sbin libexec \
 			share/examples/nnrpd share/doc/nnrpd \
 			${PKGMANDIR}/man3 ${PKGMANDIR}/man5 ${PKGMANDIR}/man8

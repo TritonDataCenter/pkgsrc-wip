@@ -21,8 +21,6 @@ COMMENT=	Icon theme for NetBSD
 # Note: the index.theme inherits elementary-mono-dark
 DEPENDS=	elementary-icon-theme>=0:../../wip/elementary-icon-theme
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 NO_CHECKSUM=	yes
 NO_BUILD=	yes
 USE_LANGUAGES=	# none

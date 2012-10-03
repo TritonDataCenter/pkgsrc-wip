@@ -12,6 +12,8 @@ COMMENT=		The inetd super server and ping for Linux
 
 ONLY_FOR_PLATFORM=	Linux-*-*
 
+PKG_DESTDIR_SUPPORT=	none
+
 USE_TOOLS+=		gmake
 
 MAKE_ENV+=		_PATH_INETDCONF=${PKG_SYSCONFDIR:Q}

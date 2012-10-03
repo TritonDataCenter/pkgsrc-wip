@@ -10,8 +10,6 @@ HOMEPAGE=	http://ccl.sesp.northwestern.edu/netlogo/index.shtml
 COMMENT=	NetLogo is a multi-agent programmable modeling environment
 LICENSE=	apache-2.0
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_JAVA=	run
 USE_TOOLS+=	pax
 USE_LANGUAGES=	# none

@@ -11,7 +11,6 @@ COMMENT=		Nbfc - the "new brainfuck compiler"
 
 WRKSRC=			${WRKDIR}/nbfc-0.1
 USE_TOOLS+=		gmake yacc
-PKG_DESTDIR_SUPPORT=	user-destdir
 
 INSTALLATION_DIRS+=	bin ${PKGMANDIR}/man1 
 

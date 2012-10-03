@@ -14,8 +14,6 @@ LICENSE=	gnu-gpl-v2
 DEPENDS+=	horde>=3.2:../../www/horde
 DEPENDS+=	${PHP_PKG_PREFIX}-pear-Date-[0-9]*:../../time/pear-Date
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_TOOLS+= pax
 
 .include "../../mk/bsd.prefs.mk"

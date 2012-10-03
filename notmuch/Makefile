@@ -10,8 +10,6 @@ HOMEPAGE=	http://notmuchmail.org/
 COMMENT=	Mail indexer
 LICENSE=	gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 HAS_CONFIGURE=	yes
 USE_LANGUAGES=	c c++
 USE_TOOLS+=	gmake pkg-config

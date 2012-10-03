@@ -12,8 +12,6 @@ HOMEPAGE=	http://www.ndesk.org/NotifySharp
 COMMENT=	C\# bindings for libnotify
 #LICENSE=	# TODO: (see mk/license.mk)
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/notify-sharp-0.4.0
 GNU_CONFIGURE=	yes
 USE_TOOLS+=	pkg-config gmake

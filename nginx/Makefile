@@ -11,8 +11,6 @@ HOMEPAGE=		http://nginx.net/
 COMMENT=		Lightweight HTTP server and mail proxy server (stable branch)
 LICENSE=		2-clause-bsd
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 .include "../../mk/bsd.prefs.mk"
 
 NGINX_USER?=		nginx

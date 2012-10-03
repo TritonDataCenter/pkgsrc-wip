@@ -12,8 +12,6 @@ LICENSE=	gnu-gpl-v2
 
 DEPENDS+=	gnuplot>=4.6.0:../../graphics/gnuplot
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=		yes
 USE_PKGLOCALEDIR=	yes
 USE_TOOLS+=	bison perl msgfmt intltool

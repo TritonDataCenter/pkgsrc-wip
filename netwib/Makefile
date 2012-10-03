@@ -11,6 +11,8 @@ MAINTAINER=	adrianp@stindustries.net
 HOMEPAGE=	http://www.laurentconstantin.com/en/netw/
 COMMENT=	Network library providing network functionality for developers
 
+PKG_DESTDIR_SUPPORT=	none
+
 WRKSRC=		${WRKDIR}/${DISTNAME}/src
 HAS_CONFIGURE=		YES
 CONFIGURE_SCRIPT=	./genemake

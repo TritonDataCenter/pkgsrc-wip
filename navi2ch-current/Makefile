@@ -12,8 +12,6 @@ HOMEPAGE=	http://navi2ch.sourceforge.net/
 COMMENT=	2ch BBS browser for Emacs (Git Current)
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GIT_REPOSITORIES=	master
 GIT_REPO.master=	git://navi2ch.git.sourceforge.net/gitroot/navi2ch/navi2ch
 GIT_MODULE.master=	navi2ch

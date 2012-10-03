@@ -12,8 +12,6 @@ HOMEPAGE=	http://www.iola.dk/nemo/
 COMMENT=	File manager based on labels and timestamps
 #LICENSE=	LICENSE
 
-PKG_DESTDIR_SUPPORT=		user-destdir
-
 # for stetic
 DEPENDS+=	monodevelop-[0-9]*:../../devel/monodevelop
 

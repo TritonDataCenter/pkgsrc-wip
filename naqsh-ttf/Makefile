@@ -11,8 +11,6 @@ MAINTAINER=	kamelderouiche@yahoo.com
 COMMENT=	Arabic font by Lateef Shaikh
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}
 USE_LANGUAGES=	# none
 

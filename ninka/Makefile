@@ -13,8 +13,6 @@ LICENSE=	gnu-agpl-v3
 
 DEPENDS+=	p5-Getopt-Long>=2.38:../../devel/p5-Getopt-Long
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_TOOLS+=	pax perl
 NO_BUILD=	yes
 USE_LANGUAGES=	# none

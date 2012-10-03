@@ -13,8 +13,6 @@ COMMENT=		NetBSD version of AWK
 
 BUILD_DEPENDS+=		mk-configure>0.19.0:../../devel/mk-configure
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_TOOLS+=		yacc lex
 
 INSTALLATION_DIRS+=	bin ${PKGMANDIR}/man1

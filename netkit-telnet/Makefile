@@ -9,6 +9,8 @@ MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		ftp://ftp.uk.linux.org/pub/linux/Networking/netkit/
 COMMENT=		The telnet and telnetd for Linux
 
+PKG_DESTDIR_SUPPORT=	none
+
 USE_PKGLOCALEDIR=	yes
 HAS_CONFIGURE=		yes
 USE_LANGUAGES=		c c++

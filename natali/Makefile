@@ -9,7 +9,6 @@ MAINTAINER=	hauke@NetBSD.org
 HOMEPAGE=	http://ppr.trincoll.edu/
 COMMENT=	AT&T/Apple AppleTalk Library Interface for Netatalk
 
-PKG_DESTDIR_SUPPORT=	user-destdir
 INSTALLATION_DIRS=	lib include/at share/doc/natali
 
 CONFLICTS=	netatalk-asun-[0-9]* netatalk-umich-[0-9]*
