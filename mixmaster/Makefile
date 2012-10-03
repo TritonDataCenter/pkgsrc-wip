@@ -59,11 +59,13 @@ post-patch:
 		${SED} ${FILES_SUBST_SED} <$$f >../conf.eg/$$f; \
 	done
 
+INSTALLATION_DIRS=	bin ${PKGMANDIR}/man1
+
 do-install:
-	${INSTALL_PROGRAM} ${WRKSRC}/Src/mix ${PREFIX}/bin/mix
-	${INSTALL_DATA} ${WRKSRC}/mix.1 ${PREFIX}/${PKGMANDIR}/man1/mix.1
-	${INSTALL_DATA_DIR} ${egdir}
-	${INSTALL_DATA} ${WRKSRC}/conf.eg/* ${egdir}/
+	${INSTALL_PROGRAM} ${WRKSRC}/Src/mix ${DESTDIR}${PREFIX}/bin/mix
+	${INSTALL_DATA} ${WRKSRC}/mix.1 ${DESTDIR}${PREFIX}/${PKGMANDIR}/man1/mix.1
+	${INSTALL_DATA_DIR} ${DESTDIR}${egdir}
+	${INSTALL_DATA} ${WRKSRC}/conf.eg/* ${DESTDIR}${egdir}/
 
 .include "../../devel/ncurses/buildlink3.mk"
 .include "../../devel/pcre/buildlink3.mk"
