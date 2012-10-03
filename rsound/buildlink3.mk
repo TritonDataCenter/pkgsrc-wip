@@ -1,0 +1,12 @@
+# $NetBSD$
+
+BUILDLINK_TREE+=	rsound
+
+.if !defined(RSOUND_BUILDLINK3_MK)
+RSOUND_BUILDLINK3_MK:=
+
+BUILDLINK_API_DEPENDS.rsound+=	rsound>=1.1
+BUILDLINK_PKGSRCDIR.rsound?=	../../wip/rsound
+.endif	# RSOUND_BUILDLINK3_MK
+
+BUILDLINK_TREE+=	-rsound
