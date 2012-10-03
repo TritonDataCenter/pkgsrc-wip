@@ -9,7 +9,7 @@ Adjust for wxWindows, aka wxGTK, path. See Also SUBST in Makefile
    withval=$with_wxwindows;  checkwxdir "$withval"
  else
 -   checkwxdir "$HOME/wx"; checkwxdir "/usr"; checkwxdir "/usr/local"
-+   checkwxdir "$HOME/wx"; checkwxdir "/usr"; checkwxdir "/usr/local"; checkwxdir @@PREFIX@@;
++   checkwxdir "$HOME/wx"; checkwxdir "/usr"; checkwxdir "@@PREFIX@@";
  
  fi
  
