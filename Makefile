@@ -2790,6 +2790,7 @@ SUBDIR+=	remctl
 SUBDIR+=	resid-builder
 SUBDIR+=	residual-nightly
 SUBDIR+=	resin
+SUBDIR+=	retroarch
 SUBDIR+=	rhapsody
 SUBDIR+=	riak
 SUBDIR+=	ripe-rpsl-objectlibrary
