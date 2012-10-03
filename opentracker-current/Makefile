@@ -18,8 +18,8 @@ CVS_MODULE.opentracker=	opentracker
 INSTALLATION_DIRS=	bin share/doc/opentracker
 
 do-install:
-	${INSTALL_PROGRAM} ${WRKSRC}/opentracker ${PREFIX}/bin
-	${INSTALL_DATA} ${WRKSRC}/README* ${PREFIX}/share/doc/opentracker
+	${INSTALL_PROGRAM} ${WRKSRC}/opentracker ${DESTDIR}${PREFIX}/bin
+	${INSTALL_DATA} ${WRKSRC}/README* ${DESTDIR}${PREFIX}/share/doc/opentracker
 
 .include "../../mk/bsd.prefs.mk"
 

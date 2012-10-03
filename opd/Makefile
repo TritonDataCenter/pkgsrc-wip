@@ -21,8 +21,10 @@ WRKSRC=		${WRKDIR}/
 #	-lbluetooth -lopenobex \
 #	 -o opd
 
+INSTALLATION_DIRS=	bin
+
 do-install:
-	${INSTALL_PROGRAM} ${WRKSRC}/opd ${PREFIX}/bin
+	${INSTALL_PROGRAM} ${WRKSRC}/opd ${DESTDIR}${PREFIX}/bin
 
 .include "../../comms/openobex/buildlink3.mk"
 .include "../../wip/bluez-libs/buildlink3.mk"
