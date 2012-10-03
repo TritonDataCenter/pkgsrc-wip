@@ -47,8 +47,10 @@ CPPFLAGS+=		-DMALLOCLOG
 CPPFLAGS+=		-DMULTIPROCESSOR
 .endif
 
+INSTALLATION_DIRS=	lkm
+
 do-install:
 	${INSTALL} ${COPY} -o ${BINOWN} -g ${BINGRP} -m 444 \
-		${WRKSRC:Q}/lkm/lzs.o ${PREFIX:Q}/lkm/lzs.o
+		${WRKSRC:Q}/lkm/lzs.o ${DESTDIR}${PREFIX:Q}/lkm/lzs.o
 
 .include "../../mk/bsd.pkg.mk"
