@@ -14,11 +14,13 @@ COMMENT=		PostgreSQL bindings for LUA
 
 BUILD_TARGET=		pglinux
 
+INSTALLATION_DIRS=	lib
+
 do-install:
 	${INSTALL_DATA} ${WRKSRC}/libluasqlpostgres.2.0b.so \
-		${PREFIX}/lib/libluasqlpostgres.2.0b.so
+		${DESTDIR}${PREFIX}/lib/libluasqlpostgres.2.0b.so
 	${INSTALL_DATA} ${WRKSRC}/libluasqlpostgres.2.0b.a \
-		${PREFIX}/lib/libluasqlpostgres.2.0b.a
+		${DESTDIR}${PREFIX}/lib/libluasqlpostgres.2.0b.a
 
 .include "../../lang/lua/buildlink3.mk"
 .include "../../mk/pgsql.buildlink3.mk"
