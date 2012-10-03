@@ -1,6 +1,6 @@
 $NetBSD$
 
-Adjust for wxWindows path
+Adjust for wxWindows, aka wxGTK, path. See Also SUBST in Makefile
 
 --- configure.orig	2012-10-02 23:51:49.000000000 +0900
 +++ configure	2012-10-02 23:52:45.000000000 +0900
