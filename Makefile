@@ -3398,7 +3398,6 @@ SUBDIR+=	ziparchive
 SUBDIR+=	zipios
 SUBDIR+=	zookeeper-client
 SUBDIR+=	zookeeper-server
-SUBDIR+=	zope3-unstable
 SUBDIR+=	zvbi
 
 ${.CURDIR}/PKGDB:
