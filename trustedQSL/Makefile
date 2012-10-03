@@ -4,18 +4,17 @@ DISTNAME=	TrustedQSL-1_13
 PKGNAME=	TrustedQSL-1.13
 CATEGORIES=     ham
 MASTER_SITES=	http://www.arrl.org/files/file/LoTW%20Instructions/
-#LICENSE=	arrl
-
 EXTRACT_SUFX=	_tar.gz
 
 MAINTAINER=     makoto@ki.nu
 HOMEPAGE=       http://www.arrl.org/files/file/LoTW%20Instructions/
 COMMENT=        Uploading QSL Data to LoTW of ARRL
-WRKSRC=         ${WRKDIR}/${PKGNAME}
+#LICENSE=	arrl
 
 USE_TOOLS+=	perl gmake
 USE_LANGUAGES+=	c c++
 USE_LIBTOOL=	yes
+WRKSRC=         ${WRKDIR}/${PKGNAME}
 
 GNU_CONFIGURE=  yes
 CONFIGURE_ARGS+=--with-tqsllib=${PREFIX}/lib
