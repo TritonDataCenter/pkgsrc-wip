@@ -11,8 +11,6 @@ HOMEPAGE=	http://search.cpan.org/dist/Astro-SpaceTrack
 COMMENT=	Retrieve orbital data from www.space-track.org
 LICENSE=	${PERL5_LICENSE}
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 # TODO: Look for the dependencies in Build.PL.
 
 DEPENDS+=		p5-HTML-Parser>=0:../../www/p5-HTML-Parser

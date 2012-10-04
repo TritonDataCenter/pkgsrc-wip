@@ -15,7 +15,5 @@ PERL5_MODULE_TYPE=	Module::Build
 PERL5_PACKLIST=		auto/CGI/Application/Standard/Config/.packlist
 USE_LANGUAGES=		# none
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 .include "../../lang/perl5/module.mk"
 .include "../../mk/bsd.pkg.mk"

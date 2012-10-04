@@ -10,6 +10,8 @@ MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://moto4lin.sourceforge.net/
 COMMENT=		Support for p2k on Motorola phones
 
+PKG_DESTDIR_SUPPORT=	none
+
 WRKSRC=			${WRKDIR}/p2kmoto-0.1
 USE_LIBTOOL=		yes
 GNU_CONFIGURE=		yes

@@ -11,6 +11,8 @@ COMMENT=	Extends base class with a file cache
 
 DEPENDS+=	p5-Cache-Cache>=0:../../devel/p5-Cache-Cache
 
+PKG_DESTDIR_SUPPORT=	none
+
 PERL5_MODULE_TYPE=	Module::Build
 PERL5_PACKLIST= auto/Catalyst/Plugin/Cache/FileCache/.packlist
 

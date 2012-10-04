@@ -13,6 +13,8 @@ COMMENT=	Dispatch XMLRPC with Catalyst
 DEPENDS+=	p5-Catalyst-Runtime>=5.01:../../www/p5-Catalyst-Runtime
 DEPENDS+=	p5-RPC-XML>=0.45:../../net/p5-RPC-XML
 
+PKG_DESTDIR_SUPPORT=	none
+
 PERL5_REQD+=	5.8.0
 
 PERL5_PACKLIST=	auto/Catalyst/Plugin/XMLRPC/.packlist

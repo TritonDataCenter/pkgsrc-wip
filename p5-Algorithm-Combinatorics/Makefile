@@ -11,7 +11,6 @@ COMMENT=	Efficient generation of combinatorial sequences
 LICENSE=	${PERL5_LICENSE}
 
 PKG_INSTALLATION_TYPES=	overwrite pkgviews
-PKG_DESTDIR_SUPPORT=	user-destdir
 
 PERL5_PACKLIST=		auto/Algorithm/Combinatorics/.packlist
 

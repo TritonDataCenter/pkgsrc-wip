@@ -10,6 +10,7 @@ MAINTAINER=		hiramatu@boreas.dti.ne.jp
 HOMEPAGE=		http://search.cpan.org/dist/Cache-Mmap/
 COMMENT=		Shared data cache using memory mapped files
 
+PKG_DESTDIR_SUPPORT=	none
 PKG_INSTALLATION_TYPES=	overwrite pkgviews
 
 PERL5_PACKLIST=		auto/Cache/Mmap/.packlist

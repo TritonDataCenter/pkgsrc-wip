@@ -17,6 +17,8 @@ DEPENDS+=	p5-Class-C3>=0:../../devel/p5-Class-C3
 
 PERL5_REQD+=	5.8.1
 
+PKG_DESTDIR_SUPPORT=	none
+
 PERL5_PACKLIST=	auto/Catalyst/Model/LDAP/.packlist
 
 .include "../../lang/perl5/module.mk"

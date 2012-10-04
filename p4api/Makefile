@@ -6,8 +6,6 @@ DISTFILES=	p4api.tgz
 HOMEPAGE=	http://www.perforce.com/product/components/apis
 COMMENT=	Perforce SCM C/C++ API
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 P4BINONLY=	yes
 
 .include "../../wip/p4/Makefile.common"

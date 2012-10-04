@@ -17,8 +17,6 @@ DEPENDS+=	p5-UNIVERSAL-require>=0:../../devel/p5-UNIVERSAL-require
 DEPENDS+=	p5-Sub-WrapPackages>=0:../../wip/p5-Sub-WrapPackages
 
 
-PKG_DESTDIR_SUPPORTh=	user-destdir
-
 PERL5_MODULE_TYPE=	Module::Build
 PERL5_PACKLIST=		auto/CGI/Application/Plugin/LogDispatch/.packlist
 USE_LANGUAGES=		# none

@@ -18,7 +18,6 @@ DEPENDS+=	p5-Test-LongString>=0.11:../../devel/p5-Test-LongString
 DEPENDS+=	p5-Pod-Xhtml>=1:../../wip/p5-Pod-Xhtml
 
 PKG_INSTALLATION_TYPES= overwrite pkgviews
-PKG_DESTDIR_SUPPORT=    user-destdir
 
 PERL5_MODULE_TYPE=	Module::Build
 PERL5_PACKLIST=		auto/CGI/Application/Plugin/ViewCode/.packlist

@@ -14,6 +14,8 @@ DEPENDS+=	p5-Catalyst-Plugin-Session-FastMmap>=0:../../wip/p5-Catalyst-Plugin-Se
 DEPENDS+=	p5-Catalyst-Runtime>=2.99:../../www/p5-Catalyst-Runtime
 DEPENDS+=	p5-Catalyst-Model-CDBI>=0:../../wip/p5-Catalyst-Model-CDBI
 
+PKG_DESTDIR_SUPPORT=	none
+
 PERL5_PACKLIST= auto/Catalyst/Plugin/Authentication/CDBI/.packlist
 
 .include "../../lang/perl5/module.mk"

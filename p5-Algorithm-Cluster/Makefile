@@ -11,8 +11,6 @@ HOMEPAGE=	http://search.cpan.org/dist/Algorithm-Cluster/
 COMMENT=	Perl interface to the C Clustering Library
 LICENSE=	${PERL5_LICENSE}
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 PERL5_PACKLIST=		auto/Algorithm/Cluster/.packlist
 
 .include "../../lang/perl5/module.mk"

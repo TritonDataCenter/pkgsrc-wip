@@ -15,6 +15,8 @@ DEPENDS+=	p5-Class-Data-Inheritable>=0:../../devel/p5-Class-Data-Inheritable
 DEPENDS+=	p5-Class-Throwable>=0:../../devel/p5-Class-Throwable
 DEPENDS+=	p5-Tree-Simple-VisitorFactory>=0:../../devel/p5-Tree-Simple-VisitorFactory
 
+PKG_DESTDIR_SUPPORT=	none
+
 PERL5_MODULE_TYPE=	Module::Build
 
 PERL5_REQD+=	5.8.1

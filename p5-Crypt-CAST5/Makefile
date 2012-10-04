@@ -9,6 +9,7 @@ MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://search.cpan.org/dist/Crypt-CAST5/
 COMMENT=	Perl5 CAST5 block cipher implementation
 
+PKG_DESTDIR_SUPPORT=	none
 PKG_INSTALLATION_TYPES=	overwrite pkgviews
 
 CRYPTO=		YES

@@ -5,8 +5,6 @@ DISTNAME=	p4
 HOMEPAGE=	http://www.perforce.com/product/components/perforce_commandline_client
 COMMENT=	Perforce SCM command-line client
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 P4BINONLY=	yes
 EXTRACT_ONLY=	# none
 

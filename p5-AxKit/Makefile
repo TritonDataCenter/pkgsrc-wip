@@ -25,6 +25,8 @@ DEPENDS+=	p5-XML-LibXSLT>=1.49:../../textproc/p5-XML-LibXSLT
 DEPENDS+=	p5-XML-Sablotron>=0.40:../../textproc/p5-XML-Sablotron
 DEPENDS+=	p5-Perl-Tidy>=20031021:../../devel/p5-Perl-Tidy
 
+PKG_DESTDIR_SUPPORT=	none
+
 .include "../../lang/perl5/module.mk"
 .include "../../textproc/libxml2/buildlink3.mk"
 .include "../../www/ap-perl/buildlink3.mk"

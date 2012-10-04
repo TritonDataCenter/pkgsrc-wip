@@ -11,8 +11,6 @@ HOMEPAGE=	http://search.cpan.org/dist/Config-Simple/
 COMMENT=	Simple configuration file class
 LICENSE=	${PERL5_LICENSE}
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 PERL5_PACKLIST=	auto/Config/Simple/.packlist
 USE_LANGUAGES=	# none
 

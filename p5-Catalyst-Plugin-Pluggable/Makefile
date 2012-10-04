@@ -12,6 +12,8 @@ COMMENT=	Plugin for pluggable Catalyst applications
 
 DEPENDS+=	p5-Catalyst-Runtime>=5.50:../../www/p5-Catalyst-Runtime
 
+PKG_DESTDIR_SUPPORT=	none
+
 PERL5_REQD+=	5.8.1
 
 PERL5_PACKLIST=	auto/Catalyst/Plugin/Pluggable/.packlist

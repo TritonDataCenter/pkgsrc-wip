@@ -13,8 +13,6 @@ LICENSE=	${PERL5_LICENSE}
 DEPENDS+=	p5-YAML>=0:../../textproc/p5-YAML
 DEPENDS+=	p5-B-Keywords>=0.03:../../devel/p5-B-Keywords
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 PERL5_PACKLIST=	auto/B/Deobfuscate/.packlist
 
 .include "../../lang/perl5/module.mk"
