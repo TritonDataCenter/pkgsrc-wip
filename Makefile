@@ -1373,6 +1373,7 @@ SUBDIR+=	libcpu
 SUBDIR+=	libctl
 SUBDIR+=	libcuba
 SUBDIR+=	libdbglog
+SUBDIR+=	libdbusmenu
 SUBDIR+=	libdialog
 SUBDIR+=	libdisasm
 SUBDIR+=	libdjconsole
