@@ -11,8 +11,6 @@ HOMEPAGE=	https://launchpad.net/dbusmenu/
 COMMENT=	Small library created by pulling some code from indicator-applet
 LICENSE=	gnu-lgpl-v3 AND gnu-lgpl-v2.1 AND gnu-lgpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_TOOLS+=	gmake msgfmt msgmerge intltool perl pkg-config xgettext
