@@ -11,8 +11,6 @@ HOMEPAGE=	http://search.cpan.org/dist/Getopt-GUI-Long/
 COMMENT=	Wrapper around Getopt::Long
 LICENSE=	artistic-2.0 # OR gpl-v2+
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 PERL5_PACKLIST=	auto/Getopt/GUI/Long/.packlist
 USE_LANGUAGES=	# none
 

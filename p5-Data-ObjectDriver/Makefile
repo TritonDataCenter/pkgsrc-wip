@@ -15,8 +15,6 @@ DEPENDS+=	p5-Class-Data-Inheritable>=0.08:../../devel/p5-Class-Data-Inheritable
 DEPENDS+=	p5-Class-Trigger>=0.14:../../devel/p5-Class-Trigger
 DEPENDS+=	p5-Text-SimpleTable>=2.0:../../textproc/p5-Text-SimpleTable
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=		# empty
 PERL5_PACKLIST=		auto/Data/ObjectDriver/.packlist
 PERL5_MODULE_TYPE=	Module::Install::Bundled

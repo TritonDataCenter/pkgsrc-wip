@@ -13,8 +13,6 @@ COMMENT=	Alternative way of exporting symbols in perl
 # Pick your favourite OSI approved license :)
 LICENSE=	modified-bsd
 
-PKG_DESTDIR_SUPPORT=user-destdir
-
 PERL5_PACKLIST=	auto/Exporter/Tidy/.packlist
 USE_LANGUAGES=	# none
 

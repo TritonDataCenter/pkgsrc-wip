@@ -10,6 +10,8 @@ MAINTAINER=	ggm@apnic.net
 HOMEPAGE=	http://search.cpan.org/src/DEXTER/Exception-Base-0.13
 COMMENT=	Exception::Base
 
+PKG_DESTDIR_SUPPORT=	none
+
 PERL5_PACKLIST=	auto/Exception/Base/.packlist
 
 .include "../../lang/perl5/module.mk"

@@ -18,5 +18,7 @@ DEPENDS+=	p5-HTML-Parser-[0-9]*:../../www/p5-HTML-Parser
 DEPENDS+=	p5-XML-Sablotron-[0-9]*:../../textproc/p5-XML-Sablotron
 DEPENDS+=	p5-Image-Size-[0-9]*:../../graphics/p5-Image-Size
 
+PKG_DESTDIR_SUPPORT=	none
+
 .include "../../lang/perl5/module.mk"
 .include "../../mk/bsd.pkg.mk"

@@ -11,8 +11,6 @@ HOMEPAGE=	http://search.cpan.org/dist/Hash-AsObject
 COMMENT=	Treat hashes as objects, with arbitrary accessors/mutators
 LICENSE=	${PERL5_LICENSE}
 
-PKG_DESTDIR_SUPPORT=user-destdir
-
 PERL5_PACKLIST=	auto/Hash/AsObject/.packlist
 USE_LANGUAGES=	# none
 

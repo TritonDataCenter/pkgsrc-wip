@@ -13,8 +13,6 @@ LICENSE=	gnu-gpl-v3
 
 REPLACE_PERL=	*.pl
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 PERL5_PACKLIST=	auto/KyotoCabinet/.packlist
 
 .include "../../wip/kyotocabinet/buildlink3.mk"

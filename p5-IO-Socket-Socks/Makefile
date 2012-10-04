@@ -12,8 +12,6 @@ HOMEPAGE=	http://search.cpan.org/~oleg/IO-Socket-Socks-0.51/lib/IO/Socket/Socks.
 COMMENT=	create SOCKS v4/v5 client or server
 LICENSE=	${PERL5_LICENSE}
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 .include "../../lang/perl5/module.mk"
 PERL5_PACKLIST=	auto/IO/Socket/Socks/.packlist
 USE_LANGUAGES=	# none

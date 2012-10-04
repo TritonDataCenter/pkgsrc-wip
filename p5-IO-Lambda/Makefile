@@ -11,8 +11,6 @@ HOMEPAGE=	http://search.cpan.org/dist/IO-Lambda/
 COMMENT=	Non-blocking I/O in lambda style
 LICENSE=	${PERL5_LICENSE}
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 DEPENDS+=	p5-Net-DNS>=0:../../net/p5-Net-DNS
 DEPENDS+=	p5-Storable>=0:../../devel/p5-Storable
 DEPENDS+=	p5-Sub-Name>=0:../../devel/p5-Sub-Name
