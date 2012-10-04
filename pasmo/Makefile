@@ -11,12 +11,15 @@ HOMEPAGE=		http://www.arrakis.es/~ninsesabe/pasmo/
 COMMENT=		Z80 cross assembler written in C++
 
 USE_LANGUAGES=		c c++
+
+INSTALLATION_DIRS=	bin
+
 do-install:
-	${INSTALL_PROGRAM} ${WRKSRC}/pasmo ${PREFIX}/bin/
-	${INSTALL_DATA_DIR} ${PREFIX}/share/doc/pasmo/
-	${INSTALL} ${WRKSRC}/README ${PREFIX}/share/doc/pasmo/
-	${INSTALL} ${WRKSRC}/pasmodoc.html ${PREFIX}/share/doc/pasmo/
-	${INSTALL} ${WRKSRC}/NEWS ${PREFIX}/share/doc/pasmo/
+	${INSTALL_PROGRAM} ${WRKSRC}/pasmo ${DESTDIR}${PREFIX}/bin/
+	${INSTALL_DATA_DIR} ${DESTDIR}${PREFIX}/share/doc/pasmo/
+	${INSTALL} ${WRKSRC}/README ${DESTDIR}${PREFIX}/share/doc/pasmo/
+	${INSTALL} ${WRKSRC}/pasmodoc.html ${DESTDIR}${PREFIX}/share/doc/pasmo/
+	${INSTALL} ${WRKSRC}/NEWS ${DESTDIR}${PREFIX}/share/doc/pasmo/
 
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
