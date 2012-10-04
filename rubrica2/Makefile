@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	rubrica2-2.0.10
+DISTNAME=	rubrica2-2.1.6
 CATEGORIES=	misc
 MASTER_SITES=	http://sourceforge.net/projects/rubrica.berlios/files/
 EXTRACT_SUFX=	.tar.bz2
@@ -19,7 +19,7 @@ USE_TOOLS+=		gconftool-2 gmake msgfmt msgmerge perl pkg-config
 USE_TOOLS+=		xgettext
 USE_PKGLOCALEDIR=	yes
 
-USE_LANGUAGES+=	c c++
+USE_LANGUAGES+=		c c++ fortran
 
 GCONF_SCHEMAS+=		rubrica2.schemas
 PKGCONFIG_OVERRIDE+=	libral/libral.pc.in
