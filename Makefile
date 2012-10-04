@@ -646,6 +646,7 @@ SUBDIR+=	fontedit
 SUBDIR+=	fonttosfnt
 SUBDIR+=	foo2zjs
 SUBDIR+=	fortunes-it
+SUBDIR+=	foxtrotgps
 SUBDIR+=	fprobe
 SUBDIR+=	fragrouter
 SUBDIR+=	freecell
