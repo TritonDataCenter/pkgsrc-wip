@@ -12,6 +12,8 @@ COMMENT=		Create, destroy, resize, check, and copy partitions and file systems
 
 ONLY_FOR_PLATFORM=	Linux-*-*
 
+PKG_DESTDIR_SUPPORT=	none
+
 GNU_CONFIGURE=		yes
 INFO_FILES=		# PLIST
 USE_PKGLOCALEDIR=	yes

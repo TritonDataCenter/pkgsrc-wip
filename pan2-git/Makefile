@@ -31,8 +31,6 @@ GNU_CONFIGURE=		YES
 #CONFIGURE_ENV+=		CFLAGS=-ggdb
 #CONFIGURE_ENV+=		LDFLAGS=-ggdb
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 .include "../../mk/bsd.prefs.mk"
 .if (${OPSYS} != "Darwin" && ${OPSYS} != "SunOS" && ${OPSYS} != "Linux")
 LIBS+=			-lcompat

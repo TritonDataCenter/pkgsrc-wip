@@ -14,8 +14,6 @@ LICENSE=		modified-bsd
 
 USE_LIBTOOL=		yes
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 .include "../../mk/bsd.prefs.mk"
 
 LDLIBS=			-lpam

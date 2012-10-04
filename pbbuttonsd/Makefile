@@ -9,6 +9,8 @@ MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://pbbuttons.berlios.de/
 COMMENT=		Daemon to handle laptop specific features
 
+PKG_DESTDIR_SUPPORT=	none
+
 GNU_CONFIGURE=		YES
 ONLY_FOR_PLATFORM=	Linux-*-*
 USE_TOOLS+=		gmake

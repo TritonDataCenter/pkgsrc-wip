@@ -9,8 +9,6 @@ MAINTAINER=				zecrazytux@zecrazytux.net
 HOMEPAGE=					http://johnmacfarlane.net/pandoc/
 COMMENT=					Pandoc is a Haskell library to convert markups
 
-#PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_TOOLS+=				gmake sed
 
 WRKSRC=						${WRKDIR}/pandoc-1.2
