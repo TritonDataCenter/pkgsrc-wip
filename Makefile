@@ -3040,7 +3040,6 @@ SUBDIR+=	tc-svn
 SUBDIR+=	tcc
 SUBDIR+=	tcc-devel
 SUBDIR+=	tcl-curl
-SUBDIR+=	tcl-expect
 SUBDIR+=	tcl-iwidgets
 SUBDIR+=	tcl-tclOO
 SUBDIR+=	tcl85
