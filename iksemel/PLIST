@@ -1,8 +1,0 @@
-@comment $NetBSD$
-bin/ikslint
-bin/iksperf
-bin/iksroster
-include/iksemel.h
-info/iksemel
-lib/libiksemel.la
-lib/pkgconfig/iksemel.pc
