@@ -17,7 +17,5 @@ PERL5_MODULE_TYPE=	Module::Build
 
 PERL5_PACKLIST=	auto/Text/Trim/.packlist
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 .include "../../lang/perl5/module.mk"
 .include "../../mk/bsd.pkg.mk"

@@ -10,8 +10,6 @@ HOMEPAGE=       http://search.cpan.org/dist/Text-CHM/
 COMMENT=	Module that implements a support for handling CHM files
 LICENSE=	${PERL5_LICENSE}
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 PERL5_PACKLIST=		auto/Text/CHM/.packlist
 
 .include "../../devel/chmlib/buildlink3.mk"

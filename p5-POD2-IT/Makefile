@@ -11,8 +11,6 @@ HOMEPAGE=	http://pod2it.sourceforge.net/
 COMMENT=	Italian translation of Perl core documentation
 LICENSE=	${PERL5_LICENSE}
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 PERL5_PACKLIST=	auto/POD2/IT/.packlist
 USE_LANGUAGES=	# none
 

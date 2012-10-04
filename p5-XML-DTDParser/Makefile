@@ -13,7 +13,5 @@ LICENSE=	${PERL5_LICENSE}
 
 PERL5_PACKLIST=		auto/XML/DTDParser/.packlist
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 .include "../../lang/perl5/module.mk"
 .include "../../mk/bsd.pkg.mk"

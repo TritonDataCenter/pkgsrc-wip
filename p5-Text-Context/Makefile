@@ -10,8 +10,6 @@ HOMEPAGE=	http://cpan.uwinnipeg.ca/module/Text::Context
 COMMENT=	Perl module for highlighting search result context snippets
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 DEPENDS+=	p5-Text-Context-EitherSide>=1.1:../../textproc/p5-Text-Context-EitherSide
 DEPENDS+=	p5-UNIVERSAL-require>=0.03:../../devel/p5-UNIVERSAL-require
 DEPENDS+=	p5-HTML-Parser-[0-9]*:../../www/p5-HTML-Parser

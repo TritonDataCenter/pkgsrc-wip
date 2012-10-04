@@ -17,7 +17,5 @@ LICENSE=	${PERL5_LICENSE}
 PERL5_PACKLIST=		auto/Template/Plugin/Class/.packlist
 USE_LANGUAGES=		# none
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 .include "../../lang/perl5/module.mk"
 .include "../../mk/bsd.pkg.mk"

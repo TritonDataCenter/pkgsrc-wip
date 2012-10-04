@@ -12,8 +12,6 @@ HOMEPAGE=	http://www.mozilla.org/directory/perldap.html
 COMMENT=	Mozilla implementation of LDAP support libraries for Perl
 LICENSE=	gnu-gpl-v1 OR gnu-lgpl-v2.1 OR mpl-1.1
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 MAKE_ENV+=	LDAPSDKDIR=${PREFIX}
 MAKE_ENV+=	LDAPSDKINCDIR=${PREFIX}/include/ldap
 MAKE_ENV+=	LDAPSDKLIBDIR=${PREFIX}/lib

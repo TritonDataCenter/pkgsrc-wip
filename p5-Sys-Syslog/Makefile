@@ -12,8 +12,6 @@ HOMEPAGE=	http://search.cpan.org/dist/Sys-Syslog/
 COMMENT=	Perl interface to the UNIX syslog(3) calls
 LICENSE=        ${PERL5_LICENSE}
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 DEPENDS+=	p5-XSLoader>=0:../../devel/p5-XSLoader
 
 PERL5_PACKLIST=	auto/Sys/Syslog/.packlist

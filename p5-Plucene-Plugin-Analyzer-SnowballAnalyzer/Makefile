@@ -13,6 +13,8 @@ DEPENDS+=	p5-Lingua-StopWords>=0:../../wip/p5-Lingua-StopWords
 DEPENDS+=	p5-Lingua-Stem-Snowball>=0:../../textproc/p5-Lingua-Stem-Snowball
 DEPENDS+=	p5-Plucene>=0:../../wip/p5-Plucene
 
+PKG_DESTDIR_SUPPORT=	none
+
 PERL5_PACKLIST= auto/Plucene/Plugin/Analyzer/SnowballAnalyzer/.packlist
 
 .include "../../lang/perl5/module.mk"

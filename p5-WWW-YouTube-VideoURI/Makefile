@@ -10,8 +10,6 @@ MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://search.cpan.org/dist/WWW-YouTube-VideoURI/
 COMMENT=	Module to determine the URI of a Flash Video file on YouTube.com
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 DEPENDS+=	p5-libwww-[0-9]*:../../www/p5-libwww
 
 PERL5_PACKLIST=	auto/WWW/YouTube/VideoURI/.packlist

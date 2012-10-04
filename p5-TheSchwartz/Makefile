@@ -14,8 +14,6 @@ DEPENDS+=		p5-Data-ObjectDriver>=0.04:../../wip/p5-Data-ObjectDriver
 DEPENDS+=		p5-Digest-MD5:../../security/p5-Digest-MD5
 DEPENDS+=		p5-Storable:../../devel/p5-Storable
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 PKG_INSTALLATION_TYPES=	overwrite pkgviews
 
 #PERL5_MODULE_TYPE=	Module::Build

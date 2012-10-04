@@ -16,7 +16,5 @@ DEPENDS+=	p5-XML-DTDParser>=2.01:../../wip/p5-XML-DTDParser
 
 PERL5_PACKLIST=		auto/XML/Writer/Simple/.packlist
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 .include "../../lang/perl5/module.mk"
 .include "../../mk/bsd.pkg.mk"

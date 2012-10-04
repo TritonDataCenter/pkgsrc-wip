@@ -11,8 +11,6 @@ HOMEPAGE=	http://launchpad.net/postfix-policyd-spf-perl/
 COMMENT=	Basic Postfix policy engine for SPF checking
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 DEPENDS+=	p5-Mail-SPF:../../mail/p5-Mail-SPF
 DEPENDS+=	p5-NetAddr-IP:../../net/p5-NetAddr-IP
 REPLACE_PERL=	postfix-policyd-spf-perl

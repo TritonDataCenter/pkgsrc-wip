@@ -16,7 +16,5 @@ DEPENDS+=	p5-Hook-LexWrap>=0.2:../../devel/p5-Hook-LexWrap
 PERL5_PACKLIST=	auto/Sub/WrapPackages/.packlist
 USE_LANGUAGES=	# none
 
-PKG_DESTDIR_SUPPORT=    user-destdir
-
 .include "../../lang/perl5/module.mk"
 .include "../../mk/bsd.pkg.mk"

@@ -9,6 +9,7 @@ MAINTAINER=		hiramatu@boreas.dti.ne.jp
 HOMEPAGE=		http://search.cpan.org/dist/Tie-DB_Lock/
 COMMENT=		Ties hashes to databases using shared and exclusive locks
 
+PKG_DESTDIR_SUPPORT=	none
 PKG_INSTALLATION_TYPES=	overwrite pkgviews
 
 PERL5_PACKLIST=		auto/Tie/DB_Lock/.packlist

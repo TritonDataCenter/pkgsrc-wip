@@ -13,7 +13,6 @@ COMMENT=		Perl module to access Google picasaweb image webspace
 DEPENDS+=		p5-Term-ReadPassword>=0:../../devel/p5-Term-ReadPassword
 DEPENDS+=		p5-XML-Parser>=0:../../textproc/p5-XML-Parser
 
-PKG_DESTDIR_SUPPORT=	user-destdir
 PERL5_PACKLIST=			auto/Picasa/.packlist
 
 pre-configure:

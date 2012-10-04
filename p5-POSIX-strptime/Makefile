@@ -17,7 +17,5 @@ USE_LANGUAGES=	c
 
 PERL5_PACKLIST=		auto/POSIX/strptime/.packlist
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 .include "../../lang/perl5/module.mk"
 .include "../../mk/bsd.pkg.mk"

@@ -16,6 +16,8 @@ DEPENDS+=		p5-Storable>=2.0:../../devel/p5-Storable
 DEPENDS+=		p5-libwww>=2.0:../../www/p5-libwww
 DEPENDS+=		p5-Crypt-SSLeay>=0:../../security/p5-Crypt-SSLeay
 
+PKG_DESTDIR_SUPPORT=	none
+
 PERL5_MODULE_TYPE=	Module::Build
 PERL5_PACKLIST=		auto/WebService/CIA/.packlist
 MAKE_PARAMS=		< /dev/null # no user-interaction

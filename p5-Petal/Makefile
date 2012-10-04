@@ -15,7 +15,6 @@ DEPENDS+=		p5-MKDoc-XML>=0.75:../../wip/p5-MKDoc-XML
 
 PKG_INSTALLATION_TYPES=	overwrite pkgviews
 
-PKG_DESTDIR_SUPPORT=	user-destdir
 PERL5_PACKLIST=		auto/Petal/.packlist
 
 .include "../../lang/perl5/module.mk"

@@ -11,7 +11,6 @@ COMMENT=	XML::RSS with XML::LibXML
 LICENSE=	${PERL5_LICENSE}
 
 PKG_INSTALLATION_TYPES=	overwrite pkgviews
-PKG_DESTDIR_SUPPORT=	user-destdir
 
 DEPENDS+=	p5-Class-Accessor:../../devel/p5-Class-Accessor
 DEPENDS+=	p5-DateTime-Format-Mail:../../time/p5-DateTime-Format-Mail

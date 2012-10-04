@@ -13,8 +13,6 @@ COMMENT=	Base for test scripts
 DEPENDS+=	p5-Getopt-Long>=0:../../devel/p5-Getopt-Long
 DEPENDS+=	p5-Log-Trace>=0:../../devel/p5-Log-Trace
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 PERL5_PACKLIST=	auto/Test/Assertions/.packlist
 USE_LANGUAGES=	# none
 
