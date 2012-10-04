@@ -13,8 +13,6 @@ COMMENT=	Efficiently match IP addresses against ranges
 .include "../../lang/perl5/license.mk"
 LICENSE=        ${PERL5_LICENSE}
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 # TODO: Look for the dependencies in Build.PL.
 
 PERL5_MODULE_TYPE=	Module::Build

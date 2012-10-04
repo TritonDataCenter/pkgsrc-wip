@@ -11,8 +11,6 @@ HOMEPAGE=	http://search.cpan.org/CPAN/authors/id/S/SK/SKONNO/
 COMMENT=	Perl extension for UPnP
 LICENSE=	modified-bsd
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 PERL5_PACKLIST=	auto/Net/UPnP/.packlist
 USE_LANGUAGES=	# none
 

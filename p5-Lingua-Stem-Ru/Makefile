@@ -9,8 +9,6 @@ MAINTAINER=		kuli0020@umn.edu
 HOMEPAGE=		http://search.cpan.org/dist/Lingua-Stem-Ru/
 COMMENT=		Porter's stemming algorithm for Russian (KOI8-R only)
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 PERL5_PACKLIST=		auto/Lingua/Stem/Ru/.packlist
 
 .include "../../lang/perl5/module.mk"

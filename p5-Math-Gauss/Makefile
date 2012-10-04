@@ -11,8 +11,6 @@ COMMENT=	Perl module for Gaussian probability distribution
 
 LICENSE=	${PERL5_LICENSE}
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 PERL5_PACKLIST=		auto/Math/Gauss/.packlist
 
 .include "../../lang/perl5/module.mk"

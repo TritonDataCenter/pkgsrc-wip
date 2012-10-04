@@ -11,8 +11,6 @@ HOMEPAGE=	http://search.cpan.org/~danberr/Net-DBus-GLib-0.33.0/
 COMMENT=	Perl extension for the DBus GLib bindings
 #LICENSE=	# TODO: (see mk/license.mk)
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_TOOLS+=	pkg-config
 
 DEPENDS+=	p5-Net-DBus>=0.33.2:../../net/p5-Net-DBus

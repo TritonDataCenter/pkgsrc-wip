@@ -11,8 +11,6 @@ HOMEPAGE=	http://search.cpan.org/dist/Net-Twitter-Lite/
 COMMENT=	Perl interface to the Twitter API (lite)
 LICENSE=	${PERL5_LICENSE}
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 DEPENDS+=	p5-JSON-Any>=1.21:../../converters/p5-JSON-Any
 DEPENDS+=	p5-Net-OAuth>=0.20:../../net/p5-Net-OAuth
 DEPENDS+=	p5-URI>=1.40:../../www/p5-URI

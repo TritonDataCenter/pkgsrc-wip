@@ -12,6 +12,8 @@ COMMENT=	Perl module to manage newsrc files
 
 DEPENDS+=	p5-Set-IntSpan>=1.07:../../devel/p5-Set-IntSpan
 
+PKG_DESTDIR_SUPPORT=	none
+
 PERL5_PACKLIST=	auto/News/Newsrc/.packlist
 
 .include "../../lang/perl5/module.mk"

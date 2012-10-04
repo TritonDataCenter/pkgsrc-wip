@@ -11,8 +11,6 @@ HOMEPAGE=	http://search.cpan.org/dist/MediaWiki-API/
 COMMENT=	Perl interface to the MediaWiki API
 LICENSE=	gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 # LWP::UserAgent, JSON::XS, Encode
 DEPENDS+=	p5-Encode>=0:../../textproc/p5-Encode
 DEPENDS+=	p5-JSON>=0:../../converters/p5-JSON

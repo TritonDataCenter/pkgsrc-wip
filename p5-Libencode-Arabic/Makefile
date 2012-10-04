@@ -10,8 +10,6 @@ MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	http://search.cpan.org/dist/Encode-Arabic/
 COMMENT=	Perl5 implementation for Arabic encodings
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 PERL5_MODULE_TYPE=	Module::Build
 PERL5_PACKLIST=		auto/Encode/Arabic/.packlist
 USE_LANGUAGES=		# none

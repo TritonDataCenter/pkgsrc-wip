@@ -13,8 +13,6 @@ COMMENT=	Query the senderbase.org service
 .include "../../lang/perl5/license.mk"
 LICENSE=        ${PERL5_LICENSE}
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 DEPENDS+=	p5-Net-DNS>=0.23:../../net/p5-Net-DNS
 
 PERL5_PACKLIST=	auto/Net/SenderBase/.packlist

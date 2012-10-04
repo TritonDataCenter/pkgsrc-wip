@@ -9,8 +9,6 @@ MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=Math/}
 MAINTAINER=	geeogeegeeoh@users.sourceforge.net
 COMMENT=	Perl module that provides decimal math without floating point errors
 
-PKG_DESTDIR_SUPPORT= user-destdir
-
 REPLACE_PERL+=	FixedPrecision.pm
 REPLACE_PERL+=	t/test.t
 

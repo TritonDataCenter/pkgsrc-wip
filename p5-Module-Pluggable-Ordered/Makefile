@@ -12,6 +12,8 @@ COMMENT=	Call module plugins in a specified order
 DEPENDS+=	p5-Module-Pluggable>=1.9:../../devel/p5-Module-Pluggable
 DEPENDS+=	p5-UNIVERSAL-exports>=0:../../wip/p5-UNIVERSAL-exports
 
+PKG_DESTDIR_SUPPORT=	none
+
 PERL5_PACKLIST= auto/Module/Pluggable/Ordered/.packlist
 
 .include "../../lang/perl5/module.mk"

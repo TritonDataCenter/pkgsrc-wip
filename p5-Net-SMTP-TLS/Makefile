@@ -15,7 +15,6 @@ DEPENDS+=		p5-IO-Socket-SSL>=0:../../security/p5-IO-Socket-SSL
 DEPENDS+=		p5-MIME-Base64>=0:../../converters/p5-MIME-Base64
 DEPENDS+=		p5-Net-SSLeay>=0:../../security/p5-Net-SSLeay
 
-PKG_DESTDIR_SUPPORT=	user-destdir
 PKG_INSTALLATION_TYPES=	overwrite pkgviews
 
 PERL5_PACKLIST=	auto/Net/SMTP/TLS/.packlist

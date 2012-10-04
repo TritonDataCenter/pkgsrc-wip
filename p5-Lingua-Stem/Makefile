@@ -18,6 +18,8 @@ DEPENDS+=		p5-Lingua-Stem-Snowball-No>=0:../../wip/p5-Lingua-Stem-Snowball-No
 DEPENDS+=		p5-Lingua-Stem-Snowball-Se>=1.01:../../wip/p5-Lingua-Stem-Snowball-Se
 DEPENDS+=		p5-Text-German>=0:../../wip/p5-Text-German
 
+PKG_DESTDIR_SUPPORT=	none
+
 MAN3PREFIX=		${PREFIX}/lib/perl5/${PERL_VERSION}
 
 PERL5_PACKLIST=	auto/Lingua/Stem/.packlist
