@@ -1583,7 +1583,6 @@ SUBDIR+=	mdbtools
 SUBDIR+=	mediawiki-mode
 SUBDIR+=	meep
 SUBDIR+=	meep-mpi
-SUBDIR+=	memcached14
 SUBDIR+=	memdump
 SUBDIR+=	memgrep
 SUBDIR+=	menu-cache
