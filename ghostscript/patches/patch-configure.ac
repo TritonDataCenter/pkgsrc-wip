@@ -1,5 +1,6 @@
 $NetBSD$
 
+See patch-ah (configure)
 
 --- base/configure.ac.orig	2011-08-05 20:12:20.000000000 +0900
 +++ base/configure.ac	2011-08-22 19:10:30.000000000 +0900

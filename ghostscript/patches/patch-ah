@@ -2,14 +2,6 @@ $NetBSD$
 
 --- configure.orig	2011-08-05 20:12:44.000000000 +0900
 +++ configure	2011-08-22 18:54:36.000000000 +0900
-@@ -790,6 +790,7 @@
- LIBS
- CPPFLAGS
- CPP
-+CPPFLAGS
- XMKMF'
- 
- 
 @@ -5249,7 +5250,7 @@
  fi
  
