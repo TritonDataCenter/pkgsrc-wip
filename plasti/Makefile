@@ -10,8 +10,6 @@ HOMEPAGE=	http://www.geodynamics.org/cig/software/plasti/
 COMMENT=	Plasti is a 2D ALE (Arbitrary Lagrangian Eulerian) code
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	fortran
 
 INSTALLATION_DIRS=	bin

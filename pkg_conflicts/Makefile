@@ -17,8 +17,6 @@ DEPENDS+=	pkg_summary-utils-[0-9]*:../../pkgtools/pkg_summary-utils
 
 USE_LANGUAGES=		#empty
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 NO_CHECKSUM=		yes
 NO_BUILD=		yes
 

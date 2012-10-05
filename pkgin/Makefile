@@ -10,8 +10,6 @@ HOMEPAGE=		http://pkgin.net/
 COMMENT=		Apt / yum like tool for managing pkgsrc binary packages
 LICENSE=		modified-bsd
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 EGDIR=			${PREFIX}/share/examples/${PKGBASE}
 CONF_FILES=		${EGDIR}/repositories.conf.example		\
 			${PKG_SYSCONFDIR}/${PKGBASE}/repositories.conf

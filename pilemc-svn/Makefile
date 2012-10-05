@@ -8,8 +8,6 @@ MAINTAINER=		jihbed.research@gmail.com
 HOMEPAGE=		http://pilemc.hepforge.org/
 COMMENT=	Tool for the simulation of pile-up events at HepMC level
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 # Get it from Subversion repository:
 SVN_REPOSITORIES=	pilemc
 SVN_ROOT.pilemc=		http://pilemc.hepforge.org/svn/trunk/

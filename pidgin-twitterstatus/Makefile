@@ -12,8 +12,6 @@ HOMEPAGE=		http://code.google.com/p/pidgin-twitterstatus/
 COMMENT=		Use your Twitter account as your Pidgin status message
 LICENSE=		gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 DEPENDS+=		p5-XML-XPath-[0-9]*:../../textproc/p5-XML-XPath
 
 WRKSRC=			${WRKDIR}

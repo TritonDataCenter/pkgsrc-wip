@@ -19,8 +19,6 @@ USE_LIBTOOL=		yes
 USE_PKGLOCALEDIR=	yes
 USE_TOOLS+=		aclocal autoconf autoheader automake pkg-config
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 CFLAGS+=                -DFESTIVAL_VOICES_PATH='"${PREFIX}/share/festival/lib/voices"'
 
 INSTALLATION_DIRS=	lib/purple-2 share/locale/es/LC_MESSAGES share/locale/pt_BR/LC_MESSAGES share/locale/ru/LC_MESSAGES

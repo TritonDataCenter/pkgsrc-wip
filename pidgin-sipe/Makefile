@@ -14,8 +14,6 @@ GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_TOOLS+=	intltool pkg-config
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 BUILDLINK_TRANSFORM+=	rm:-Werror
 
 .include "../../chat/libpurple/buildlink3.mk"

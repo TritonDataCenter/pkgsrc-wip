@@ -12,8 +12,6 @@ HOMEPAGE=	http://code.google.com/p/pink-pony/
 COMMENT=	Pink Pony is a 3D racing game with ponies!
 LICENSE=	gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 BUILD_DEPENDS+=	scons-[0-9]*:../../devel/scons
 #DEPENDS+=	protobuf-[0-9]*:../../wip/protobuf
 

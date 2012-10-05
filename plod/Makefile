@@ -10,8 +10,6 @@ MAINTAINER=	jfranz@bsdprojects.net
 HOMEPAGE=	http://www.far2wise.net/plod/
 COMMENT=	System administration journaling tool
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 REPLACE_PERL+=	plod
 
 DOCDIR=	${PREFIX}/share/doc/${DISTNAME:S/-1.9//}

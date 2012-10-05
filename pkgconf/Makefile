@@ -11,8 +11,6 @@ HOMEPAGE=	https://github.com/pkgconf/pkgconf
 COMMENT=	API-driven pkg-config replacement
 LICENSE=	modified-bsd
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 CONFLICTS+=	pkg-config-[0-9]*
 
 GNU_CONFIGURE=	yes

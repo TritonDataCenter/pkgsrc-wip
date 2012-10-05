@@ -38,7 +38,6 @@ USE_LANGUAGES=		#empty
 USE_TOOLS+=		gzip:run
 
 PKG_INSTALLATION_TYPES=	overwrite pkgviews
-PKG_DESTDIR_SUPPORT=	user-destdir
 
 WRKSRC=		${WRKDIR}/pkg_summary-utils
 

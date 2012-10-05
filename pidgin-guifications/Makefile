@@ -11,8 +11,6 @@ MAINTAINER=		bsd@cs.ubc.ca
 HOMEPAGE=		http://downloads.guifications.org/plugins/Guifications2/
 COMMENT=		Toaster notification popups for Pidgin like AIM/MSN/etc
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=		yes
 USE_LIBTOOL=		yes
 USE_TOOLS+=		gmake pkg-config intltool

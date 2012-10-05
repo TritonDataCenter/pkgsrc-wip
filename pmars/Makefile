@@ -15,8 +15,6 @@ WRKSRC=			${WRKDIR}/${PKGNAME_NOREV}
 USE_TOOLS+=		pkg-config gmake
 MAKE_FILE=		makefile
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 .include "../../mk/bsd.prefs.mk"
 
 .if ${OPSYS} != "NetBSD" && ${OPSYS} != "FreeBSD" && ${OPSYS} != "SunOS"

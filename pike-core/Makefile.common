@@ -20,7 +20,7 @@ DISTINFO_FILE=	${PKGDIR}/../../wip/pike-core/distinfo
 PIKEDIR=	${WRKDIR}/${DISTNAME}
 WRKSRC=		${PIKEDIR}/src
 
-#PKG_DESTDIR_SUPPORT=	user-destdir
+PKG_DESTDIR_SUPPORT=	none
 
 USE_TOOLS+=		bison autoconf
 GNU_CONFIGURE=		yes

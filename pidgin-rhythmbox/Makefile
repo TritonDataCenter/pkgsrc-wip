@@ -10,8 +10,6 @@ MAINTAINER=	pkgsrc.gnome@gmail.com
 HOMEPAGE=	http://jon.oberheide.org/projects/pidgin-rhythmbox/
 COMMENT=	Plugin for pidgin to support Rhythmbox
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_TOOLS+=	pkg-config
