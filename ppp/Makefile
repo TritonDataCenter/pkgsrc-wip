@@ -9,6 +9,9 @@ HOMEPAGE=	http://www.samba.org/ppp/
 COMMENT=	Point-to-Point Protocol (PPP) over serial lines
 
 ONLY_FOR_PLATFORM=	Linux-*-* SunOS-5*-*
+
+PKG_DESTDIR_SUPPORT=	none
+
 HAS_CONFIGURE=	yes
 USE_TOOLS+=	gmake
 

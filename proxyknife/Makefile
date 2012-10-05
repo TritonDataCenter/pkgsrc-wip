@@ -9,8 +9,6 @@ HOMEPAGE=	http://www.gnu.org/software/proxyknife/proxyknife.html
 COMMENT=	Proxyknife is a tool to validate free proxies
 LICENSE=	gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	YES
 INFO_FILES=	YES
 USE_PKGLOCALEDIR=	YES

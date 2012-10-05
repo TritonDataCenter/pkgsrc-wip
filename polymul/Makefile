@@ -11,8 +11,6 @@ HOMEPAGE=	http://code.google.com/p/polymul/
 COMMENT=	Fast multivariate polynomial multiplication in C++
 LICENSE=	mit
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 NO_BUILD= yes
 USE_LANGUAGES=	c++
 

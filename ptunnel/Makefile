@@ -11,6 +11,8 @@ MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://www.cs.uit.no/~daniels/PingTunnel/
 COMMENT=		TCP tunnel over ICMP
 
+PKG_DESTDIR_SUPPORT=	none
+
 WRKSRC=			${WRKDIR}/PingTunnel
 USE_TOOLS+=		gmake
 

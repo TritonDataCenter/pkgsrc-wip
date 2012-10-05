@@ -12,6 +12,8 @@ MAINTAINER=	tonnerre@bsdprojects.net
 HOMEPAGE=	http://www.apsis.ch/pound/
 COMMENT=	Reverse-proxy and load-balancer
 
+PKG_DESTDIR_SUPPORT=	none
+
 HAS_CONFIGURE=	yes
 USE_BUILTIN.openssl=	no
 

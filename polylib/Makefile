@@ -10,8 +10,6 @@ HOMEPAGE=	http://icps.u-strasbg.fr/polylib/polylib_src/
 COMMENT=	The polyhedral library - long int version
 LICENSE=	gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 

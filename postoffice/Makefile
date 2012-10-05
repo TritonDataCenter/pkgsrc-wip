@@ -23,8 +23,6 @@ CONFIGURE_ARGS=		--prefix=${PREFIX} \
 			--with-vspool=${VARBASE}/spool/virtual \
 			--with-vuser=mail
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 BUILD_DEFS=		VARBASE PKG_SYSCONFDIR
 BUILD_DEFS+=		POSTOFFICE_GREYLIST
 

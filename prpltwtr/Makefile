@@ -11,8 +11,6 @@ HOMEPAGE=		http://code.google.com/p/prpltwtr/
 COMMENT=		Treat microblogging (Twitter, etc) as IM protocols
 LICENSE=		gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 HAS_CONFIGURE=		yes
 USE_TOOLS+=		perl
 USE_LIBTOOL=		yes

@@ -10,8 +10,6 @@ MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	http://probcons.stanford.edu/
 COMMENT= Probabilistic Consistency-based Multiple Alignment of Amino Acid Sequences
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/probcons
 
 USE_LANGUAGES=	c++

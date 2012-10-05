@@ -8,8 +8,6 @@ MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://www.pps.jussieu.fr/~jch/software/polipo/
 COMMENT=		Small and fast caching web proxy
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_TOOLS+=	makeinfo
 
 INFO_FILES=	# PLIST

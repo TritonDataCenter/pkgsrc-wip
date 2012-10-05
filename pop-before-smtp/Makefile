@@ -16,8 +16,6 @@ REPLACE_PERL+=	pop-before-smtp
 DEPENDS+=	p5-Net-Netmask-[0-9]*:../../devel/p5-Net-Netmask
 DEPENDS+=	p5-TimeDate-[0-9]*:../../time/p5-TimeDate
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 EGDIR=		${PREFIX}/share/examples/pop-before-smtp
 CONF_FILES=	${EGDIR}/pop-before-smtp-conf.pl ${PKG_SYSCONFDIR}/pop-before-smtp-conf.pl
 RCD_SCRIPTS=	pop-before-smtp

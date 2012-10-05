@@ -14,8 +14,6 @@ SVN_REPOSITORIES=	translate
 SVN_ROOT.translate=	http://purple-translate.googlecode.com/svn/trunk/
 SVN_MODULE.translate=	purple-translate
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=			${WRKDIR}/purple-translate
 BUILD_TARGET=		purple-translate.so
 
