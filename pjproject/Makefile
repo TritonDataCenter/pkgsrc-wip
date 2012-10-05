@@ -13,8 +13,10 @@ GNU_CONFIGURE=		yes
 USE_LANGUAGES=		c c++
 USE_TOOLS=		gmake
 
+INSTALLATION_DIRS=	bin lib
+
 do-install:
-	${INSTALL_LIB} ${WRKSRC}/*/lib/* ${PREFIX}/lib
-	find ${WRKSRC}/*/bin -type f -exec ${INSTALL_PROGRAM} '{}' ${PREFIX}/bin \;
+	${INSTALL_LIB} ${WRKSRC}/*/lib/* ${DESTDIR}${PREFIX}/lib
+	find ${WRKSRC}/*/bin -type f -exec ${INSTALL_PROGRAM} '{}' ${DESTDIR}${PREFIX}/bin \;
 
 .include "../../mk/bsd.pkg.mk"

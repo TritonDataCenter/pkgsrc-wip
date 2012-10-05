@@ -15,12 +15,14 @@ WRKSRC=			${WRKDIR}
 AUTO_MKDIRS=		yes
 USE_TOOLS+=		printf
 
+INSTALLATION_DIRS=	bin lib/java
+
 do-build:
 	printf "#! ${SH}\\nexec ${JAVA_BINPREFIX}-java -jar ${PREFIX}/lib/java/${DISTNAME}.jar \"\$$@\"\\n" > ${WRKSRC}/pizza.sh
 
 do-install:
-	${INSTALL_SCRIPT} ${WRKSRC}/pizza.sh ${PREFIX}/bin/pizza
-	${INSTALL_DATA} ${WRKSRC}/${DISTNAME}.jar ${PREFIX}/lib/java/
+	${INSTALL_SCRIPT} ${WRKSRC}/pizza.sh ${DESTDIR}${PREFIX}/bin/pizza
+	${INSTALL_DATA} ${WRKSRC}/${DISTNAME}.jar ${DESTDIR}${PREFIX}/lib/java/
 
 .include "../../mk/java-vm.mk"
 .include "../../mk/bsd.pkg.mk"
