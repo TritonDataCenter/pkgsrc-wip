@@ -15,8 +15,10 @@ COMMENT=		Build script generator
 USE_TOOLS+=		gmake
 WRKSRC=			${WRKDIR}/Premake-3.1
 
+INSTALLATION_DIRS=	bin
+
 do-install:
-	${INSTALL_PROGRAM} ${WRKSRC}/bin/premake ${PREFIX}/bin/
+	${INSTALL_PROGRAM} ${WRKSRC}/bin/premake ${DESTDIR}${PREFIX}/bin/
 
 .include "../../lang/lua/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
