@@ -9,8 +9,6 @@ MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://pcmanfm.sourceforge.net/
 COMMENT=	Extremly fast and lightweight file manager
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=		yes
 USE_PKGLOCALEDIR=	yes
 USE_DIRS+=		xdg-1.1

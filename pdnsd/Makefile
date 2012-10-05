@@ -10,8 +10,6 @@ HOMEPAGE=	http://members.home.nl/p.a.rombouts/pdnsd/index.html
 COMMENT=	Pdnsd is a DNS resolver
 LICENSE=	gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/${PKGNAME_NOREV}
 
 .include "options.mk"

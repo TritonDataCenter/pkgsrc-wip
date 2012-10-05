@@ -11,6 +11,8 @@ HOMEPAGE=	http://www.cityinthesky.co.uk/files/
 COMMENT=	Small utility to convert PDF files to SVG files
 LICENSE=	gnu-gpl-v2
 
+PKG_DESTDIR_SUPPORT=	none
+
 USE_TOOLS+=     gmake pkg-config
 GNU_CONFIGURE=  yes
 

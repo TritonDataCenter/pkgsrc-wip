@@ -9,6 +9,8 @@ MAINTAINER=		mwicks@kettering.edu
 HOMEPAGE=		http://www.pdfhacks.com/pdftk/
 COMMENT=		Swiss army knife for PDF files
 
+PKG_DESTDIR_SUPPORT=	none
+
 BUILD_DIRS=		pdftk
 MAKE_FILE=		Makefile.Generic
 

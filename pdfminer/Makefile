@@ -12,8 +12,6 @@ HOMEPAGE=	http://www.unixuser.org/~euske/python/pdfminer/index.html
 COMMENT=	PDF parser and analyzer
 LICENSE=	mit
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/pdfminer-20100424
 USE_LANGUAGES=	# none
 

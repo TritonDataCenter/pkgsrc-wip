@@ -11,8 +11,6 @@ HOMEPAGE=	http://pcsx-df.sourceforge.net/
 COMMENT=	Playstation 1 emulator optimized for Open Source Unix systems
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=		yes
 USE_LANGUAGES=		c c++ fortran
 USE_LIBTOOL=		yes
