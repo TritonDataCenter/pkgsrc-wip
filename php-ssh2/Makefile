@@ -10,8 +10,6 @@ HOMEPAGE=		http://www.libssh2.org/
 COMMENT=		PHP bindings to the functions of libssh2
 LICENSE=		php
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 CONFLICTS=		php-ssh2-[0-9]*
 
 CONFIGURE_ARGS+=	--with-ssh2=${PREFIX}

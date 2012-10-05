@@ -12,8 +12,6 @@ MAINTAINER=		cg@cgall.de
 HOMEPAGE=		http://www.hardened-php.net/suhosin/index.html
 COMMENT=		Advanced protection system for PHP installations
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 CONFIGURE_ARGS=		--enable-${MODNAME}
 
 .include "../../lang/php/ext.mk"

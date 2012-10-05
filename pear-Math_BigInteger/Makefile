@@ -9,7 +9,5 @@ COMMENT=	Pure-PHP arbitrary precission integer arithmetic library
 
 CONFLICTS=	php-pear-Math_BigInteger-[0-9]*
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 .include "../../lang/php/pear.mk"
 .include "../../mk/bsd.pkg.mk"

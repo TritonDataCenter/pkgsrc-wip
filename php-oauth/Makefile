@@ -8,8 +8,6 @@ MAINTAINER=		filip@joyent.com
 COMMENT=		PHP oauth consumer extension
 LICENSE=		modified-bsd
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=		c c++
 
 .include "../../lang/php/ext.mk"

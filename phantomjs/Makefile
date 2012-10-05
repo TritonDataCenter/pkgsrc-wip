@@ -11,8 +11,6 @@ HOMEPAGE=	http://www.phantomjs.org/
 COMMENT=	Headless WebKit with JavaScript API
 LICENSE=	modified-bsd
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/phantomjs-1.4.1
 USE_LANGUAGES=	c c++ c99
 

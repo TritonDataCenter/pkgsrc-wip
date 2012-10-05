@@ -13,8 +13,6 @@ HOMEPAGE=	http://ffmpeg-php.sourceforge.net/
 COMMENT=	Access and retrieve information from movies and audio files
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 CONFIGURE_ARGS+=	--with-ffmpeg=${BUILDLINK_PREFIX.ffmpeg}
 
 .include "../../lang/php/ext.mk"

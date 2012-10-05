@@ -11,8 +11,6 @@ HOMEPAGE=		http://pecl.php.net/package/pecl_http
 COMMENT=		PHP extension for extended HTTP support
 LICENSE=		2-clause-bsd AND isc
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 CONFLICTS=		php-http-[0-9]*
 
 CONFIGURE_ARGS+=	--with-http-curl-requests=${BUILDLINK_PREFIX.curl}

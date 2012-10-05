@@ -11,7 +11,5 @@ DEPENDS+=	${PHP_PKG_PREFIX}-pear-Net_URL>=1.0.12:../../net/pear-Net_URL
 DEPENDS+=	${PHP_PKG_PREFIX}-pear-Net_Socket>=1.0.2:../../net/pear-Net_Socket
 DEPENDS+=	${PHP_PKG_PREFIX}-pear-HTTP_Request>=1.2.3:../../www/pear-HTTP_Request
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 .include "../../lang/php/pear.mk"
 .include "../../mk/bsd.pkg.mk"

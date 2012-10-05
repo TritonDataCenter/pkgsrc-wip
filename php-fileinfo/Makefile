@@ -7,8 +7,6 @@ CATEGORIES+=		sysutils
 MAINTAINER=		filip@joyent.com
 COMMENT=		PHP extension for libmagic bindings
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 PHP_VERSIONS_ACCEPTED=	52
 CONFLICTS=		php-fileinfo-[0-9]*
 

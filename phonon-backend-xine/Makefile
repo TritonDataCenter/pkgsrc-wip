@@ -10,8 +10,6 @@ HOMEPAGE=	http://phonon.kde.org
 COMMENT=	Multimedia API for KDE and QT - xine backend
 LICENSE=	gnu-lgpl-v2.1
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 # BUILD_MAKE_FLAGS+= VERBOSE=1
 
 BUILD_DEPENDS+=	automoc4>=0.9.83:../../devel/automoc4

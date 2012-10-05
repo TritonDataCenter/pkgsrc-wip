@@ -10,8 +10,6 @@ HOMEPAGE=		http://github.com/andreiz/php-memcached
 COMMENT=		PHP extension for interfacing with memcached via libmemcached library
 LICENSE=		php
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 CONFLICTS=		php-memcached-[0-9]*
 
 CONFIGURE_ARGS+=	--enable-${MODNAME}
