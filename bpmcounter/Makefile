@@ -22,4 +22,5 @@ USE_TOOLS+=	bison flex gmake pkg-config
 .include "../../audio/id3lib/buildlink3.mk"
 .include "../../math/fftw/buildlink3.mk"
 .include "../../x11/qt3-libs/buildlink3.mk"
+.include "../../x11/qt3-tools/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
