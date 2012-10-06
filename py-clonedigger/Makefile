@@ -14,8 +14,6 @@ LICENSE=	gnu-lgpl-v2
 
 DEPENDS+=	${PYPKGPREFIX}-django-[0-9]*:../../www/py-django
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	# none
 PLIST_SUBST+=	PYVERSSUFFIX=${PYVERSSUFFIX:Q}
 

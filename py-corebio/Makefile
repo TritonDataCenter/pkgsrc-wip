@@ -11,8 +11,6 @@ HOMEPAGE=	http://code.google.com/p/corebio/
 COMMENT=	Python toolkit for computational biology
 LICENSE=	modified-bsd
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	# none
 
 PYTHON_VERSIONS_ACCEPTED=  26

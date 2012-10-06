@@ -12,8 +12,6 @@ HOMEPAGE=	http://www.voidspace.org.uk/python/configobj.html
 COMMENT=	Simple but powerful config file reader and write
 LICENSE=	modified-bsd
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/configobj-4.7.2
 USE_LANGUAGES=	# none
 

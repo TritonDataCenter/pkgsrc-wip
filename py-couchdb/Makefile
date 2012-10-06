@@ -16,8 +16,6 @@ COMMENT=	Couchdb python library
 DEPENDS+=	${PYPKGPREFIX}-simplejson>=2.0.9:../../converters/py-simplejson
 DEPENDS+=	${PYPKGPREFIX}-httplib2>=0.5.0:../../wip/py-httplib2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/CouchDB-0.6
 USE_TOOLS+=	pax
 USE_LANGUAGES=	# none

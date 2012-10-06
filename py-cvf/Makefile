@@ -18,8 +18,6 @@ DEPENDS+=	${PYPKGPREFIX}-Pyro>=3.4:../../devel/py-Pyro
 DEPENDS+=	${PYPKGPREFIX}-multiprocessing>=2.6.2.1:../../devel/py-multiprocessing
 #DEPENDS+=	${PYPKGPREFIX}-scipy>=0.7.0:../../math/py-scipy
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	# none
 
 BUILDLINK_API_DEPENDS.pycython+= ${PYPKGPREFIX}-cython>=0.12.1

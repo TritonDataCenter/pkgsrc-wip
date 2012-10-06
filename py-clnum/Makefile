@@ -11,8 +11,6 @@ HOMEPAGE=	http://pypi.python.org/packages/source/c/clnum/
 COMMENT=	Rational and arbitrary precision floating point numbers
 LICENSE=	gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	c c++
 
 INSTALLATION_DIRS=	share/doc/py-clnum

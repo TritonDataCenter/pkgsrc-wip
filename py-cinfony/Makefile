@@ -11,8 +11,6 @@ HOMEPAGE=	http://code.google.com/p/cinfony/
 COMMENT=	Common API for several cheminformatics toolkits
 LICENSE=	modified-bsd
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	# none
 PYDISTUTILSPKG=	yes
 

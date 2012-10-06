@@ -12,8 +12,6 @@ HOMEPAGE=	http://www.math.uic.edu/~culler/chaos/
 COMMENT=	UIC REU on Chaos, Fractals and Complex Dynamics
 #LICENSE=	# TODO: (see mk/license.mk)
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 VERSION=	1.0
 PYDISTUTILSPKG=	yes
 

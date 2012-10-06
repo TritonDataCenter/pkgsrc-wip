@@ -13,8 +13,6 @@ HOMEPAGE=	http://mathema.tician.de/software/codepy
 COMMENT=	CodePy is a C metaprogramming toolkit for Python
 #LICENSE=	# TODO: (see mk/license.mk)
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/codepy-0.90
 USE_LANGUAGES=	# none
 PLIST_SUBST+=	PYVERSSUFFIX=${PYVERSSUFFIX:Q}

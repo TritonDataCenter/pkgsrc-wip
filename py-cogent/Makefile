@@ -15,8 +15,6 @@ LICENSE=		gnu-gpl-v3
 DEPENDS+=	${PYPKGPREFIX}-sqlalchemy>=0.5.6:../../databases/py-sqlalchemy
 DEPENDS+=	${PYPKGPREFIX}-pyrex-[0-9]*:../../lang/py-pyrex
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 PYDISTUTILSPKG= yes
 
 do-test:

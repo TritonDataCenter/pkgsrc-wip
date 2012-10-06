@@ -15,8 +15,6 @@ COMMENT=	Pyccuracy is a BDD style Acceptance Testing framework
 
 DEPENDS+=	${PYPKGPREFIX}-selenium>=1.0.1:../../wip/py-selenium
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/Pyccuracy-1.2.23
 USE_LANGUAGES=	# none
 

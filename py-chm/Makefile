@@ -10,8 +10,6 @@ MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	http://gnochm.sourceforge.net/
 COMMENT=	Python bindings for the CHMLIB library
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 PYDISTUTILSPKG=		yes
 
 .include "../../devel/chmlib/buildlink3.mk"

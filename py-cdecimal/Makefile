@@ -11,8 +11,6 @@ HOMEPAGE=	http://www.bytereef.org/software/mpdecimal/releases/
 COMMENT=	Fast arbitrary precision correctly-rounded decimal floating point arithmetic
 LICENSE=	modified-bsd
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_TOOLS+=	gmake
 USE_LANGUAGES=	c c99

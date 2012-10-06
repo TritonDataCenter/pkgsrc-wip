@@ -14,8 +14,6 @@ LICENSE=	modified-bsd
 DEPENDS+=	${PYPKGPREFIX}-nose>=0.11.3:../../devel/py-nose
 DEPENDS+=	${PYPKGPREFIX}-setupdocs>=1.0.4:../../wip/py-setupdocs
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	c c++
 
 .include "../../lang/python/egg.mk"

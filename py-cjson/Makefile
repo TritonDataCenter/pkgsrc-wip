@@ -12,8 +12,6 @@ HOMEPAGE=	http://ag-projects.com/
 COMMENT=	Fast JSON encoder/decoder for Python
 LICENSE=	gnu-lgpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=	${WRKDIR}/python-cjson-1.0.5
 PYDISTUTILSPKG= yes
 

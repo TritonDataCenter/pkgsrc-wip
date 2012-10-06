@@ -13,8 +13,6 @@ HOMEPAGE=	http://pypi.python.org/pypi/pycscope/
 COMMENT=	Generates a cscope index of Python source trees
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/pycscope-0.3
 USE_LANGUAGES=	# none
 
