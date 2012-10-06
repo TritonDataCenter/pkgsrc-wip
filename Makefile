@@ -526,7 +526,6 @@ SUBDIR+=	edbus
 SUBDIR+=	edelib
 SUBDIR+=	editline
 SUBDIR+=	edje
-SUBDIR+=	edoc
 SUBDIR+=	efltk
 SUBDIR+=	efreet
 SUBDIR+=	eic
