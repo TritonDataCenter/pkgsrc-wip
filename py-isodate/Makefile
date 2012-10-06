@@ -13,5 +13,8 @@ LICENSE=	modified-bsd
 
 USE_LANGUAGES=	# none
 
+do-test:
+	${RUN} cd ${WRKSRC}/src/isodate/tests; ${SETENV} ${TEST_ENV} ${PYTHONBIN} __init__.py
+
 .include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"
