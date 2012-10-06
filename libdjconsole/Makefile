@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	libdjconsole-0.1.3
-PKGREVISION=	1
+PKGREVISION=	2
 CATEGORIES=	audio
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=djplay/}
 
@@ -21,10 +21,6 @@ PKGCONFIG_OVERRIDE+=	libdjconsole.pc.in
 EGDIR=			${PREFIX}/share/examples/udev/rules.d
 CONF_FILES+=		${EGDIR}/45-hpdjconsole.rules ${PKG_SYSCONFDIR}/udev/rules.d/45-hpdjconsole.rules
 INSTALLATION_DIRS+=	${PKG_SYSCONFDIR}/udev/rules.d/ ${EGDIR}
-
-
-pre-install:
-	${INSTALL_DATA} ${WRKSRC}/45-hpdjconsole.rules ${DESTDIR}${EGDIR}/45-hpdjconsole.rules
 
 
 .include "../../devel/libusb/buildlink3.mk"
