@@ -11,8 +11,6 @@ HOMEPAGE=	http://pypi.python.org/pypi/bitarray
 COMMENT=	Efficient arrays of booleans -- C extension
 LICENSE=	python-software-foundation
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=	${WRKDIR}/bitarray-0.3.5
 
 PYTHON_VERSIONS_ACCEPTED= 27 26

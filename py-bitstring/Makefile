@@ -13,8 +13,6 @@ COMMENT=	Tools for analysis and modification of binary data in python
 LICENSE=	mit
 
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	# none
 
 PYTHON_VERSIONS_ACCEPTED= 27 26

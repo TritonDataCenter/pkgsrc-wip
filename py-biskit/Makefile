@@ -16,8 +16,6 @@ DEPENDS+=	${PYPKGPREFIX}-biggles>=1.6.3:../../graphics/py-biggles
 DEPENDS+=	${PYPKGPREFIX}-Scientific>=2.8:../../math/py-Scientific
 DEPENDS+=	${PYPKGPREFIX}-rlcompleter2>=0.96:../../wip/py-rlcompleter2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_TOOLS+=	perl
 USE_LANGUAGES=	# none
 

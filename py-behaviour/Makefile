@@ -13,8 +13,6 @@ HOMEPAGE=	http://pypi.python.org/pypi/Behaviour/
 COMMENT=	Behaviour Driven Development in Python
 LICENSE=	gnu-lgpl-v2.1
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/Behaviour-0.1a4
 USE_LANGUAGES=	# none
 PLIST_SUBST+=	PYVERSSUFFIX=${PYVERSSUFFIX:Q}

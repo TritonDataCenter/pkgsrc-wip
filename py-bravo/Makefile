@@ -27,8 +27,6 @@ DEPENDS+=		${PYPKGPREFIX}-twisted>=10.1:../../net/py-twisted
 
 PYTHON_VERSIONS_ACCEPTED=	27 26
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 # REPLACE_PYTHON+=	spectrumctl/spectrumctl.py
 PY_PATCHPLIST=		yes
 PYDISTUTILSPKG=		yes

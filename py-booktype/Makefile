@@ -22,8 +22,6 @@ DEPENDS+=	${PYPKGPREFIX}-lxml-[0-9]*:../../textproc/py-lxml
 DEPENDS+=	${PYPKGPREFIX}-Unidecode>=0.04.9:../../textproc/py-Unidecode
 DEPENDS+=	${PYPKGPREFIX}-django-[0-9]*:../../www/py-django
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/Booktype-1.5
 
 USE_TOOLS+=	perl

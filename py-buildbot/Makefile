@@ -12,8 +12,6 @@ HOMEPAGE=		http://buildbot.sourceforge.net/
 COMMENT=		System to automate the compile/test cycle
 LICENSE=		gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 PY_PATCHPLIST=		yes
 PYDISTUTILSPKG=		yes
 

@@ -18,8 +18,6 @@ DEPENDS+=	${PYPKGPREFIX}-scipy>=0.7.0:../../math/py-scipy
 DEPENDS+=	${PYPKGPREFIX}-liveplots>=0.7.1:../../wip/py-liveplots
 DEPENDS+=	${PYPKGPREFIX}-openopt>=0.31:../../wip/py-openopt
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	# none
 
 INSTALLATION_DIRS=	share/doc/py-bip/html

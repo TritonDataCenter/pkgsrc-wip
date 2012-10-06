@@ -13,8 +13,6 @@ COMMENT=	Fast, NumPy array functions written in Cython
 
 DEPENDS+=	${PYPKGPREFIX}-scipy>=0.7.0:../../math/py-scipy
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=	${WRKDIR}/Bottleneck-0.1.0dev
 
 PYDISTUTILSPKG=	yes
