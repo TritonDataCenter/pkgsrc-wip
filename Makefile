@@ -181,7 +181,6 @@ SUBDIR+=	audiere
 SUBDIR+=	audio-mml
 SUBDIR+=	audit-system
 SUBDIR+=	auto-complete-mode
-SUBDIR+=	autocutsel
 SUBDIR+=	autoproject
 SUBDIR+=	autopsy
 SUBDIR+=	autoq3d
