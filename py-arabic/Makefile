@@ -12,8 +12,6 @@ HOMEPAGE=	http://pyarabic.sourceforge.net/
 COMMENT=	Arabic text tools
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	# none
 PYDISTUTILSPKG=	yes
 

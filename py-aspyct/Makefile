@@ -12,8 +12,6 @@ HOMEPAGE=	http://www.aspyct.org/
 COMMENT=	Python library including an aspect-oriented programming (AOP) engine
 LICENSE=	gnu-lgpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	# none
 
 PYDISTUTILSPKG=	yes

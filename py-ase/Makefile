@@ -12,8 +12,6 @@ HOMEPAGE=	https://wiki.fysik.dtu.dk/ase/
 COMMENT=	Atomic Simulation Environment
 LICENSE=	gnu-lgpl-v2.1
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 FETCH_USING=		wget
 FETCH_BEFORE_ARGS=	--no-check-certificate
 

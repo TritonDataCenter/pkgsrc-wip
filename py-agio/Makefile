@@ -12,8 +12,6 @@ HOMEPAGE=	http://code.google.com/p/aigo/
 COMMENT=	Analysis and Inter-comparison of Gene Ontology functional annotations
 LICENSE=	gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 CONFLICTS=	 ${PYPKGPREFIX}-creole-[0-9]*
 
 DIST_SUBDIR=	${PKGNAME_NOREV}

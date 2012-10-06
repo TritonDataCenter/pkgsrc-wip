@@ -11,8 +11,6 @@ HOMEPAGE=	http://www.kilohotel.com/python/aerocalc/
 COMMENT=	Aeronautical Engineering Calculations
 #LICENSE=	# TODO: (see mk/license.mk)
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	# none
 
 PYDISTUTILSPKG=	yes

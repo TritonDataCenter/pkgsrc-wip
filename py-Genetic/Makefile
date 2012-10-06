@@ -13,8 +13,6 @@ COMMENT=	Python-genetic provides genetic algorithms for Python
 WRKSRC=		${WRKDIR}/${DISTNAME:S/_/-/}
 USE_LANGUAGES=	# none
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 PY_PATCHPLIST=		yes
 PYDISTUTILSPKG=		yes
 

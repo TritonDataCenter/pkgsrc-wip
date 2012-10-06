@@ -11,8 +11,6 @@ HOMEPAGE=	http://empy.sourceforge.net/
 COMMENT=	Suite of numerical algorithms widely used in electromagnetism
 #LICENSE=	# TODO: (see mk/license.mk)
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/usr
 
 VERSION= 0.1.2

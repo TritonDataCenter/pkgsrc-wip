@@ -16,7 +16,6 @@ COMMENT=	Python binding for ImageMagick
 USE_LANGUAGES=	c c++
 USE_TOOLS+=     pkg-config
 
-PKG_DESTDIR_SUPPORT=    user-destdir
 GNU_CONFIGURE=  yes
 
 #PYDISTUTILSPKG= yes

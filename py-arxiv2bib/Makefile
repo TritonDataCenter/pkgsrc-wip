@@ -12,8 +12,6 @@ HOMEPAGE=	http://nathan11g.github.com/arxiv2bib
 COMMENT=	Get arXiv.org metadata in BibTeX format
 LICENSE=	2-clause-bsd
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/arxiv2bib-1.0.0
 
 USE_LANGUAGES=	# none

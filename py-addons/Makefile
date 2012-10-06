@@ -13,8 +13,6 @@ COMMENT=	Dynamically extend other objects with AddOns
 
 DEPENDS+=	${PYPKGPREFIX}-decoratortools>=1.8:../../wip/py-decoratortools
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	# none
 
 DOCDIR=	${PREFIX}/share/doc/py-addons

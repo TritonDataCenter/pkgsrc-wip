@@ -10,6 +10,8 @@ MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://oss.corest.com/projects/impacket.html
 COMMENT=		Collection of Python classes for working with network protocols
 
+PKG_DESTDIR_SUPPORT=	none
+
 PY_PATCHPLIST=		yes
 PYDISTUTILSPKG=		yes
 
