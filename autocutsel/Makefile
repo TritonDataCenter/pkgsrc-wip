@@ -6,7 +6,7 @@ PKGREVISION=		1
 CATEGORIES=		x11
 MASTER_SITES=		http://savannah.nongnu.org/download/autocutsel/
 
-MAINTAINER=		reed@reedmedia.net
+MAINTAINER=		ryoon@NetBSD.org
 HOMEPAGE=		http://www.nongnu.org/autocutsel/
 COMMENT=		Synchronizes the X11 cutbuffer and CLIPBOARD selection
 LICENSE=		gnu-gpl-v2
