@@ -850,7 +850,6 @@ SUBDIR+=	guile2
 SUBDIR+=	guilerxspencer
 SUBDIR+=	guitone
 SUBDIR+=	gune
-SUBDIR+=	gupnp-dlna
 SUBDIR+=	gupnp-ui
 SUBDIR+=	gupnp-vala
 SUBDIR+=	gurlchecker
