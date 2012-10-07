@@ -11,8 +11,6 @@ HOMEPAGE=	http://web.kaust.edu.sa/faculty/davidketcheson/NodePy/
 COMMENT=	Numerical ODE solvers in Python
 LICENSE=	modified-bsd
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/nodepy-0.3
 
 USE_LANGUAGES=	# none

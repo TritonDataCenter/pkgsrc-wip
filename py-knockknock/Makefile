@@ -12,8 +12,6 @@ HOMEPAGE=	http://www.thoughtcrime.org/software/knockknock/
 COMMENT=	Simple & secure port knocking client/server written in python
 #LICENSE=	# TODO: (see mk/license.mk)
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 DEPENDS+=	hping3-[0-9]*:../../net/hping3
 DEPENDS+=	${PYPKGPREFIX}-crypto-[0-9]*:../../security/py-crypto
 

@@ -11,8 +11,6 @@ HOMEPAGE=	http://github.com/afternoon/ontopy/
 COMMENT=	Simple RDF to Python mapper built on top of rdflib
 LICENSE=	modified-bsd
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/ontopy-0.1.1
 
 USE_LANGUAGES=	# none

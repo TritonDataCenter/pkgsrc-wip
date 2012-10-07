@@ -14,8 +14,6 @@ LICENSE=	gnu-agpl-v3
 DEPENDS+=	${PYPKGPREFIX}-argparse>=1.1:../../devel/py-argparse
 DEPENDS+=	${PYPKGPREFIX}-rdflib>=2.4.2:../../wip/py-rdflib
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/mark-0.2
 
 

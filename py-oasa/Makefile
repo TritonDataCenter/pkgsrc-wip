@@ -11,8 +11,6 @@ HOMEPAGE=	http://bkchem.zirael.org/download/
 COMMENT=	Python library for manipulation of chemical formats
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	# none
 
 PYDISTUTILSPKG=	yes

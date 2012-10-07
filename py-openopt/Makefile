@@ -15,8 +15,6 @@ HOMEPAGE=	http://openopt.org/Welcome
 COMMENT=	Python module for numerical optimization
 LICENSE=	modified-bsd
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	fortran
 PYTHON_VERSIONS_ACCEPTED= 26
 PLIST_SUBST+=	PYVERSSUFFIX=${PYVERSSUFFIX:Q}

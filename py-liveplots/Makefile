@@ -14,8 +14,6 @@ LICENSE=	gnu-gpl-v3
 DEPENDS+=	${PYPKGPREFIX}-multiprocessing>=:../../devel/py-multiprocessing
 DEPENDS+=	${PYPKGPREFIX}-gnuplot>=:../../graphics/py-gnuplot
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/liveplots-0.7.1
 
 USE_LANGUAGES=	# none

@@ -15,8 +15,6 @@ LICENSE=	mit
 
 DEPENDS+=	${PYPKGPREFIX}-docutils>=0.5:../../textproc/py-docutils
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/py-1.0.2
 USE_LANGUAGES=	# none
 PLIST_SUBST+=	PYVERSSUFFIX=${PYVERSSUFFIX:Q}

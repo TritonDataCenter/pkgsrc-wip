@@ -11,8 +11,6 @@ HOMEPAGE=	http://pypi.python.org/pypi/pynetcdf/0.7
 COMMENT=	Python bindings for netcdf
 #LICENSE=	cecill
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 PYDISTUTILSPKG= yes
 
 .include "../../devel/netcdf/buildlink3.mk"

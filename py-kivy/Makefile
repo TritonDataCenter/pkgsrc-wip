@@ -18,8 +18,6 @@ DEPENDS+=	${PYPKGPREFIX}-multiprocessing>=2.6.2.1:../../devel/py-multiprocessing
 DEPENDS+=	${PYPKGPREFIX}-twisted-[0-9]*:../../net/py-twisted
 DEPENDS+=	${PYPKGPREFIX}-enchant>=1.6.5:../../textproc/py-enchant
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES= c
 
 PYTHON_VERSIONS_ACCEPTED= 27 26

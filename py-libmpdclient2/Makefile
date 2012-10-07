@@ -11,6 +11,8 @@ MAINTAINER=	jfranz@bsdprojects.net
 HOMEPAGE=	http://www.incise.org/index.cgi/py-libmpdclient2
 COMMENT=	Python bindings to the mpd access library
 
+PKG_DESTDIR_SUPPORT=	none
+
 WRKSRC=		${WRKDIR}/py-libmpdclient2
 
 PY_PATCHPLIST=	yes

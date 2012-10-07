@@ -11,8 +11,6 @@ HOMEPAGE=	http://www.site.uottawa.ca/~mraap046
 COMMENT=	Python combinatorics library
 LICENSE=	apache-2.0
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	# none
 
 .include "../../lang/python/egg.mk"

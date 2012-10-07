@@ -13,8 +13,6 @@ HOMEPAGE=	http://www.logilab.org/project/logilab-mtconverter
 COMMENT=	Library convert from a MIME type to another
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	# none
 
 .include "../../lang/python/egg.mk"

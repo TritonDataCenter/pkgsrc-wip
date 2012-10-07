@@ -11,8 +11,6 @@ HOMEPAGE=	http://pypi.python.org/pypi.python.org/pypi/multichain_mcmc
 COMMENT=	Multichain MCMC framework and algorithmse
 #LICENSE=	# TODO: (see mk/license.mk)
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=	${WRKDIR}/multichain_mcmc-0.3
 
 PYDISTUTILSPKG=	yes

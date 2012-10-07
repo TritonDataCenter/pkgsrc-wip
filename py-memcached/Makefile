@@ -11,8 +11,6 @@ MAINTAINER=	kamel.derouiche@gmail.com
 HOMEPAGE=	http://www.tummy.com/Community/software/python-memcached/
 COMMENT=	Python memcached client
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	# none
 
 DOCDIR=	${PREFIX}/share/doc/py-memcached

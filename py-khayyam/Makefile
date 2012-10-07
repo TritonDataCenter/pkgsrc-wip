@@ -10,8 +10,6 @@ MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	http://pylover.dobisel.com/projects/khayyam
 COMMENT=	Khayyam(Jalali Persian Datetime) library
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/Khayyam-0.5rc2
 
 USE_LANGUAGES=	# none

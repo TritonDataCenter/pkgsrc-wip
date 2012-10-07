@@ -12,8 +12,6 @@ HOMEPAGE=	http://11craft.github.com/louie/
 COMMENT=	Python signal dispatching mechanism
 LICENSE=	modified-bsd
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/Louie-1.1
 
 USE_LANGUAGES=	# none

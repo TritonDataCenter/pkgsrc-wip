@@ -11,6 +11,8 @@ MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.opensync.org/attachment/wiki/download/
 COMMENT=	Python support code for opensync plugins
 
+PKG_DESTDIR_SUPPORT=	none
+
 GNU_CONFIGURE=	yes
 USE_LANGUAGES=	c
 USE_LIBTOOL=	yes

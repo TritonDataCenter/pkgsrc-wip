@@ -13,8 +13,6 @@ HOMEPAGE=	http://proyvind.net/
 COMMENT=	Python bindings for libTextCa
 LICENSE=	modified-bsd
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=	${WRKDIR}/pylibtextcat-0.1
 
 do-test:

@@ -13,8 +13,6 @@ HOMEPAGE=	http://www.logilab.org/project/logilab-database
 COMMENT=	Logilab utilities for database manipulation
 LICENSE=	gnu-lgpl-v2.1
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/logilab-database-1.1.0
 USE_LANGUAGES=	# none
 

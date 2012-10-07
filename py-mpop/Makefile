@@ -11,8 +11,6 @@ HOMEPAGE=	https://github.com/mraspaud/mpop
 COMMENT=	Meteorological post processing package
 LICENSE=	gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/mpop-v0.11.5
 
 USE_LANGUAGES=	# none
