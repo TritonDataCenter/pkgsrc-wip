@@ -16,19 +16,19 @@ PKG_INSTALLATION_TYPES=	overwrite pkgviews
 DESCR_SRC=		${.CURDIR}/DESCR.common ${.CURDIR}/DESCR
 
 do-install:
-	${INSTALL_DATA_DIR} ${PREFIX}/share/doc/xmlformat
-	${INSTALL_DATA_DIR} ${PREFIX}/share/doc/xmlformat/examples
+	${INSTALL_DATA_DIR} ${DESTDIR}${PREFIX}/share/doc/xmlformat
+	${INSTALL_DATA_DIR} ${DESTDIR}${PREFIX}/share/doc/xmlformat/examples
 .	for _dtype in xml html pdf
 	${INSTALL_DATA} ${WRKSRC}/docs/tutorial.${_dtype} \
-		${PREFIX}/share/doc/xmlformat
+		${DESTDIR}${PREFIX}/share/doc/xmlformat
 	${INSTALL_DATA} ${WRKSRC}/docs/xmlformat.${_dtype} \
-		${PREFIX}/share/doc/xmlformat
+		${DESTDIR}${PREFIX}/share/doc/xmlformat
 .	endfor
-	${INSTALL_DATA} ${WRKSRC}/docs/API ${PREFIX}/share/doc/xmlformat
+	${INSTALL_DATA} ${WRKSRC}/docs/API ${DESTDIR}${PREFIX}/share/doc/xmlformat
 	${INSTALL_DATA} ${WRKSRC}/docs/xmlformat.conf \
-		${PREFIX}/share/doc/xmlformat
+		${DESTDIR}${PREFIX}/share/doc/xmlformat
 	${INSTALL_DATA} ${WRKSRC}/docs/examples/* \
-		${PREFIX}/share/doc/xmlformat/examples
+		${DESTDIR}${PREFIX}/share/doc/xmlformat/examples
 
 .include "../../wip/xmlformat-docs/version.mk"
 .include "../../mk/bsd.pkg.mk"

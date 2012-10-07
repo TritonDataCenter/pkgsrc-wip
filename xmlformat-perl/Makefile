@@ -22,8 +22,10 @@ DISTINFO_FILE=		${.CURDIR}/../../wip/xmlformat-docs/distinfo
 DESCR_SRC=		${.CURDIR}/../../wip/xmlformat-docs/DESCR.common \
 			${PKGDIR}/DESCR
 
+INSTALLATION_DIRS=	bin
+
 do-install:
-	${INSTALL_SCRIPT} ${WRKSRC}/xmlformat.pl ${PREFIX}/bin/xmlformat
+	${INSTALL_SCRIPT} ${WRKSRC}/xmlformat.pl ${DESTDIR}${PREFIX}/bin/xmlformat
 
 .include "../../wip/xmlformat-docs/version.mk"
 .include "../../mk/bsd.pkg.mk"
