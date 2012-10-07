@@ -9,7 +9,6 @@ HOMEPAGE=		http://vamps.sourceforge.net/
 COMMENT=		Requantizer for shrinking DVDs
 
 USE_TOOLS+=		gmake
-PKG_DESTDIR_SUPPORT=	user-destdir
 
 .include "../../multimedia/libdvdread/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

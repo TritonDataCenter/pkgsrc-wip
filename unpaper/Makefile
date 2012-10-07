@@ -10,8 +10,6 @@ HOMEPAGE=	http://unpaper.berlios.de/
 COMMENT=	Post-processing scanned and photocopied book pages
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_TOOLS+= bash
 
 SUBST_CLASSES+=		paths

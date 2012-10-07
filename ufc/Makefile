@@ -13,8 +13,6 @@ LICENSE=	public-domain
 
 FETCH_USING=	curl
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_TOOLS+=	pkg-config
 USE_LANGUAGES=	c c++ python
 USE_CMAKE=	yes

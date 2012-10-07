@@ -11,7 +11,6 @@ HOMEPAGE=	http://unnethack.sourceforge.net/
 COMMENT=	Variant and further development of NetHack
 LICENSE=	nethack-license
 
-PKG_DESTDIR_SUPPORT=	user-destdir
 GNU_CONFIGURE=	YES
 MAKE_JOBS_SAFE=		no
 

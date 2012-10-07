@@ -10,6 +10,8 @@ MAINTAINER=	ivaniclixx@gmail.com
 HOMEPAGE=	http://vidrio.euler.es/vidriolib/bin/
 COMMENT=	Viriolib is a windows, menus and so on development library
 
+PKG_DESTDIR_SUPPORT=	none
+
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_LANGUAGES=	c c++ fortran77

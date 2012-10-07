@@ -10,8 +10,6 @@ HOMEPAGE=	http://vlevel.sourceforge.net/
 COMMENT=	Dynamic compressor LADSPA plugin with look-ahead
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/vlevel-0.5
 USE_LANGUAGES=	c++
 

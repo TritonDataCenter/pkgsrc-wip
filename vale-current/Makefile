@@ -9,6 +9,8 @@ MAINTAINER=	x400@msfu.ru
 HOMEPAGE=	http://www.soft-switch.org/
 COMMENT=	Media streaming library
 
+PKG_DESTDIR_SUPPORT=	none
+
 WRKSRC=		${WRKDIR}/vale-0.0.1
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=    yes

@@ -14,8 +14,6 @@ WRKSRC=		${WRKDIR}/UDPing
 USE_LANGUAGES=	c++
 NO_CONFIGURE=	YES
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 INSTALLATION_DIRS+=	 bin sbin
 
 do-build:

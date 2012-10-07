@@ -9,6 +9,8 @@ MAINTAINER=	pancake@phreaker.net
 HOMEPAGE=	http://www.uclibc.org/
 COMMENT=	C library for developing embedded Linux systems
 
+PKG_DESTDIR_SUPPORT=	none
+
 USE_TOOLS+=	gmake
 
 ONLY_FOR_PLATFORM=	Linux-*-*

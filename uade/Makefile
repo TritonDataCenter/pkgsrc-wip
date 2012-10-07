@@ -10,6 +10,8 @@ MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://uade.ton.tut.fi/
 COMMENT=		Unix Amiga Delitracker Emulator
 
+PKG_DESTDIR_SUPPORT=	none
+
 USE_PKGLOCALEDIR=	yes
 HAS_CONFIGURE=		yes
 

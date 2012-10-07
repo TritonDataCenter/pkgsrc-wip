@@ -11,8 +11,6 @@ MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://garbo.uwasa.fi/pub/unix/vmsbackup/
 COMMENT=		Utility to read VMS backup tapes
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 BUILD_TARGET=		vmsbackup
 MAKE_FLAGS+=		PREFIX=${DESTDIR}${PREFIX:Q}
 

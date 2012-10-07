@@ -10,7 +10,6 @@ HOMEPAGE=	http://www.gnu.org/software/commoncpp/
 COMMENT=	Very light-weight C++ library for deeply embedded applications
 LICENSE=	gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
 #DEPENDS+=	doxygen>=doxygen-1.6.2:../../devel/doxygen
 
 USE_TOOLS+=	pkg-config

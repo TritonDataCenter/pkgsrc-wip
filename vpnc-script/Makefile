@@ -9,8 +9,6 @@ MAINTAINER=	pouya@san-serriffe.org
 HOMEPAGE=	http://www.infradead.org/openconnect.html
 COMMENT=	Improved config script for OpenConnect and vpnc
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 NO_BUILD=	YES
 WRKSRC=		${WRKDIR}
 

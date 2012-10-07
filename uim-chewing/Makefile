@@ -10,8 +10,6 @@ HOMEPAGE=	http://code.google.com/p/uim/
 COMMENT=	Chewing im for uim
 LICENSE=	modified-bsd
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_TOOLS+=	pkg-config

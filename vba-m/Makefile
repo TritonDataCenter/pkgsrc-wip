@@ -12,8 +12,6 @@ HOMEPAGE=	http://vba-m.com/
 COMMENT=	VBA-M is a fork from the now inactive VisualBoy Advance project
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}
 USE_CMAKE=	yes
 USE_LANGUAGES=	c c++

@@ -9,8 +9,6 @@ MAINTAINER=	asau@inbox.ru
 HOMEPAGE=	http://www-unix.mcs.anl.gov/mpi/learning.html
 COMMENT=	Sample programs from "Using MPI" (2nd ed.) book
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_LANGUAGES=	c fortran77 c++
 CONFIGURE_ARGS+=	--with-mpich=${PREFIX}/bin

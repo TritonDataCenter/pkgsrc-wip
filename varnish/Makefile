@@ -11,8 +11,6 @@ HOMEPAGE=	http://varnish-cache.org/
 COMMENT=	High-performace HTTP accelerator
 LICENSE=	modified-bsd
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_TOOLS+=	autoconf pkg-config gmake

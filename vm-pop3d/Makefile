@@ -13,6 +13,8 @@ MAINTAINER=		reed@reedmedia.net
 HOMEPAGE=		http://www.reedmedia.net/software/virtualmail-pop3d/
 COMMENT=		POP3 server with support for virtual mail accounts
 
+PKG_DESTDIR_SUPPORT=	none
+
 GNU_CONFIGURE=		YES
 
 PKG_OPTIONS_VAR=	PKG_OPTIONS.vm-pop3d

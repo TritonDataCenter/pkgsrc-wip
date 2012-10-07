@@ -9,6 +9,8 @@ MAINTAINER=	pancake@phreaker.net
 HOMEPAGE=	http://www.busybox.net/
 COMMENT=	Embedded DHCP Client/Server
 
+PKG_DESTDIR_SUPPORT=	none
+
 USE_TOOLS+=	gmake
 
 ONLY_FOR_PlATFORM=	Linux-*-*

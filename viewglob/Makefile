@@ -12,6 +12,8 @@ COMMENT=		Utility designed to complement the shell in graphical environments
 
 DEPENDS+=		bash>=2.0:../../shells/bash2
 
+PKG_DESTDIR_SUPPORT=	none
+
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 
