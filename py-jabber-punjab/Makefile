@@ -11,6 +11,7 @@ MAINTAINER=	eric@cirr.com
 HOMEPAGE=	http://code.stanziq.com/punjab
 COMMENT=	HTTP XMMP client interface implementing BOSH/XEP-0124
 
+PKG_DESTDIR_SUPPORT=	none
 #
 # jabberd isn't really a dependency since the transport can run on a
 # different server than the main jabber server (not that many sites will

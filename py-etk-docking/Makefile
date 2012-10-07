@@ -14,8 +14,6 @@ LICENSE=	gnu-lgpl-v3 AND gnu-gpl-v3
 
 DEPENDS+=	${PYPKGPREFIX}-simplegeneric>=0.8:../../wip/py-simplegeneric
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	# none
 
 .include "../../devel/py-gobject/buildlink3.mk"

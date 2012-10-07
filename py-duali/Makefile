@@ -13,8 +13,6 @@ COMMENT=	The Arabic Spellchecker
 
 #DEPENDS+=	duali-data>=1.0:../../wip/duali-data
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	# none
 
 SUBST_CLASSES+=		paths

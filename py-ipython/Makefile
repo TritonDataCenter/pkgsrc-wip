@@ -12,8 +12,6 @@ HOMEPAGE=	http://ipython.scipy.org/
 COMMENT=	Interactive, enhanced Python shell
 LICENSE=	modified-bsd
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	# none
 
 PY_PATCHPLIST=		yes

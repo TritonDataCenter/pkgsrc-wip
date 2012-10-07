@@ -12,7 +12,5 @@ HOMEPAGE=	http://undefined.org/python/#greenlet
 COMMENT=	Lightweight in-process concurrent programming
 LICENSE=	mit
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 .include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"

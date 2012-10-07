@@ -11,8 +11,6 @@ HOMEPAGE=	http://code.google.com/p/griddata-python/
 COMMENT=	Interpolate irregularly spaced data to a grid
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 PYDISTUTILSPKG=	yes
 
 do-test:

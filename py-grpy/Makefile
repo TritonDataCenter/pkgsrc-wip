@@ -13,8 +13,6 @@ LICENSE=	gnu-gpl-v3
 
 DEPENDS+=	${PYPKGPREFIX}-sympy>=0.6.7:../../math/py-sympy
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 VERSION=	0.1
 
 WRKSRC=		${WRKDIR}

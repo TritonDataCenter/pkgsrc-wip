@@ -11,8 +11,6 @@ HOMEPAGE=	http://ipaddr-py.googlecode.com/
 COMMENT=	IPv4/IPv6 address manipulation library
 LICENSE=	apache-2.0
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	# none
 
 PYDISTUTILSPKG=		yes

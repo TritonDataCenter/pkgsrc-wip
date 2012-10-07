@@ -12,8 +12,6 @@ MAINTAINER=         pkgsrc-wip-users@sourceforge.net
 HOMEPAGE=	http://divmod.org/trac/wiki/DivmodNevow
 COMMENT=	A Python utilities package, most famous for its Time class
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 DEPENDS+=	${PYPKGPREFIX}-twisted>=2.4.0:../../net/py-twisted
 
 PYDISTUTILSPKG=		yes

@@ -13,8 +13,6 @@ HOMEPAGE=	http://csc.media.mit.edu/divisi
 COMMENT=	Commonsense Reasoning over Semantic Networks
 LICENSE=	gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=	${WRKDIR}/Divisi2-2.0b1
 
 

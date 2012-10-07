@@ -12,8 +12,6 @@ HOMEPAGE=	https://launchpad.net/python-distutils-extra
 COMMENT=	Enhancements to the Python build system
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 #WRKSRC=		${WRKDIR}/python-distutils-extra-2.19
 USE_LANGUAGES=	# none
 

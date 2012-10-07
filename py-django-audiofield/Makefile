@@ -14,8 +14,6 @@ LICENSE=	mit
 DEPENDS+=	${PYPKGPREFIX}-django-[0-9]*:../../www/py-django
 DEPENDS+=	${PYPKGPREFIX}-django-uuidfield>=0.4.0:../../wip/py-django-uuidfield
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=			${WRKDIR}/django-audiofield-0.4.6
 
 USE_PKGLOCALEDIR=	yes

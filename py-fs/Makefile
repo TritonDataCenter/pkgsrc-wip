@@ -12,8 +12,6 @@ HOMEPAGE=	http://code.google.com/p/pyfilesystem/
 COMMENT=	Creates a common interface to filesystems
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT= user-destdir
-
 USE_LANGUAGES=	# none
 
 PYDISTUTILSPKG=		yes

@@ -13,8 +13,6 @@ LICENSE=	gnu-gpl-v3
 
 DEPENDS+=	${PYPKGPREFIX}-OpenGL>=3.0.1:../../graphics/py-OpenGL
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_TOOLS+=	bash
 USE_LANGUAGES=	c c++
 PYDISTUTILSPKG=	yes

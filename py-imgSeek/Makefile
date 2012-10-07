@@ -12,8 +12,6 @@ MAINTAINER=		shattered@users.sourceforge.net
 HOMEPAGE=		http://www.imgseek.net/
 COMMENT=		Photo collection manager and viewer
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=		c c++
 PYDISTUTILSPKG=		yes
 PYTHON_PATCH_SCRIPTS=	*.py

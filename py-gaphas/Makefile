@@ -17,8 +17,6 @@ DEPENDS+=	${PYPKGPREFIX}-nose>=0.11.3:../../devel/py-nose
 DEPENDS+=	${PYPKGPREFIX}-decorator>=3.2.0:../../devel/py-decorator
 DEPENDS+=	${PYPKGPREFIX}-simplegeneric>=0.7:../../wip/py-simplegeneric
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/gaphas-0.7.0
 USE_LANGUAGES=	# none
 

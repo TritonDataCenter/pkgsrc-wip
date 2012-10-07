@@ -12,8 +12,6 @@ COMMENT=	Gist is a scientific graphics library
 #please see: http://hifweb.lbl.gov/public/software/gist/RELEASE
 #LICENSE=	# TODO: (see mk/license.mk)
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 PYDISTUTILSPKG=	yes
 
 .include "../../devel/readline/buildlink3.mk"

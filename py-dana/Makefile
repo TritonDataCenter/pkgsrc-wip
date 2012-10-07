@@ -13,8 +13,6 @@ LICENSE=	modified-bsd
 
 #DEPENDS+=	${PYPKGPREFIX}-scipy>=0.7.0:../../math/py-scipy
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/dana-0.3.1
 
 USE_LANGUAGES=	# none

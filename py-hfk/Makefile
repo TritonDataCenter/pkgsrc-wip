@@ -11,8 +11,6 @@ MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	http://www.math.uic.edu/~t3m/
 COMMENT=	Computes Heegaard Floer homology for links
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 VERSION=	1.0
 USE_LANGUAGES=	c c++
 PYDISTUTILSPKG=	yes

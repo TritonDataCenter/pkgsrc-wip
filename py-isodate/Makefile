@@ -11,6 +11,8 @@ HOMEPAGE=	http://cheeseshop.python.org/pypi/isodate
 COMMENT=	ISO 8601 date/time/duration parser and formater
 LICENSE=	modified-bsd
 
+PKG_DESTDIR_SUPPORT=	none
+
 USE_LANGUAGES=	# none
 
 do-test:

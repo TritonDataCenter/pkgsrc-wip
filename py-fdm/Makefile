@@ -11,8 +11,6 @@ HOMEPAGE=	http://pyfdm.sourceforge.net
 COMMENT=	Framework for solving PDEs with FDM using Python
 LICENSE=	gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 DEPENDS+=	${PYPKGPREFIX}-Pmw>=1.3.2:../../x11/py-Pmw
 
 USE_LANGUAGES=	c c++

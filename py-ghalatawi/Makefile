@@ -12,8 +12,6 @@ HOMEPAGE=	http://ghalatawi.sourceforge.net/
 COMMENT=	Ghalatawi: Arabic AUtocorrec
 LICENSE=	gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	# none
 PYDISTUTILSPKG=	yes
 

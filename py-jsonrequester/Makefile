@@ -13,8 +13,6 @@ COMMENT=	Library for client JSON REST requests
 
 DEPENDS+=	${PYPKGPREFIX}-httplib2>=0.6.0:../../wip/py-httplib2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/jsonrequester-0.1.3
 
 USE_LANGUAGES=	# none

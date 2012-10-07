@@ -13,8 +13,6 @@ COMMENT=	Googlecalendarsync is a tool to bidirectional synchronize a local iCal
 DEPENDS+=	${PYPKGPREFIX}-vobject-[0-9]*:../../textproc/py-vobject
 DEPENDS+=	${PYPKGPREFIX}-httplib2-[0-9]*:../../wip/py-httplib2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	# none
 PYDISTUTILSPKG=		yes
 

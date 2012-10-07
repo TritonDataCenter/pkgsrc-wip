@@ -11,8 +11,6 @@ HOMEPAGE=	https://launchpad.net/graphite
 COMMENT=	Enterprise scalable realtime graphing platform
 LICENSE=	apache-2.0
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 DEPENDS+=	${PYPKGPREFIX}-cairo>=1.8.10:../../graphics/py-cairo
 DEPENDS+=	${PYPKGPREFIX}-carbon>=${PKGREVISION_NOREV}:../../wip/py-carbon
 DEPENDS+=	${PYPKGPREFIX}-django>=1.3.1:../../www/py-django

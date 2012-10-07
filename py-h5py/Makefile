@@ -11,8 +11,6 @@ HOMEPAGE=	http://code.google.com/p/h5py/
 COMMENT=	Python interface to the HDF5 library
 LICENSE=	modified-bsd
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 .include "../../devel/hdf5/buildlink3.mk"
 .include "../../devel/py-cython/buildlink3.mk"
 .include "../../math/py-numpy/buildlink3.mk"

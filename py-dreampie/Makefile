@@ -11,8 +11,6 @@ HOMEPAGE=	http://dreampie.sourceforge.net/
 COMMENT=	Advanced graphical interactive Python shell
 LICENSE=	gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	# none
 
 PYDISTUTILSPKG=	yes

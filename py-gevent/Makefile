@@ -11,8 +11,6 @@ HOMEPAGE=	http://www.gevent.org/
 COMMENT=	Python-gevent a coroutine-based Python networking library
 LICENSE=	mit
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	c c++
 
 PYDISTUTILSPKG= yes

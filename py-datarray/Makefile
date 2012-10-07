@@ -13,8 +13,6 @@ COMMENT=	NumPy arrays with named axes and named indices
 
 DEPENDS+=	${PYPKGPREFIX}-nose>=0.11.3:../../devel/py-nose
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/datarray-0.0.3
 USE_LANGUAGES=	# none
 PYDISTUTILSPKG=	yes

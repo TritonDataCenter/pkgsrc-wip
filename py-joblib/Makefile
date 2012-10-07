@@ -12,8 +12,6 @@ HOMEPAGE=	http://packages.python.org/joblib/
 COMMENT=	Lightweight pipelining: using Python functions as pipeline jobs
 LICENSE=	modified-bsd
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/joblib-0.6.4
 
 USE_LANGUAGES=	# none

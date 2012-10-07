@@ -11,7 +11,6 @@ HOMEPAGE=	http://code.google.com/p/pyevent/
 COMMENT=	Python extension module for libevent
 LICENSE=	modified-bsd
 
-PKG_DESTDIR_SUPPORT=	user-destdir
 PYDISTUTILSPKG= 	yes
 
 do-test:

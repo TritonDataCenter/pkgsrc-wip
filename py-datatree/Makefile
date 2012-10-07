@@ -12,8 +12,6 @@ COMMENT=	DSL for creating structured documents in python
 
 DEPENDS+=	${PYPKGPREFIX}-yaml>=3.08:../../textproc/py-yaml
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/datatree-0.1.8
 
 USE_LANGUAGES=	# none

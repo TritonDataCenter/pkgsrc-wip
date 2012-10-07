@@ -11,8 +11,6 @@ HOMEPAGE=	https://bitbucket.org/flub/delny
 COMMENT=	Python module for delaunay triangulation
 LICENSE=	gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=	${WRKDIR}/Delny-0.4.1
 
 PYDISTUTILSPKG=	yes

@@ -11,8 +11,6 @@ HOMEPAGE=	http://pyembedc.sourceforge.net/
 COMMENT=	Python module for embedding C/C++ 
 LICENSE=	artistic
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	# none
 
 .include "../../lang/python/egg.mk"

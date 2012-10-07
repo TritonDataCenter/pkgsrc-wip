@@ -12,8 +12,6 @@ HOMEPAGE=	http://guppy-pe.sourceforge.net/
 COMMENT=	Guppy-PE -- A Python Programming Environment
 LICENSE=	mit
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=	${WRKDIR}/guppy-0.1.9
 PYDISTUTILSPKG=	yes
 

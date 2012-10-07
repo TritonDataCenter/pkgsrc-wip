@@ -14,8 +14,6 @@ LICENSE=	2-clause-bsd
 DEPENDS+=	${PYPKGPREFIX}-sympy>=0.7.1:../../math/py-sympy
 DEPENDS+=	${PYPKGPREFIX}-yaml>=3.10:../../wip/py-yaml
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/dolo-0.4-dev
 
 USE_LANGUAGES=	# none

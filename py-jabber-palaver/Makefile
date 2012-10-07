@@ -10,7 +10,6 @@ HOMEPAGE=	http://code.stanziq.com/palaver
 COMMENT=	XEP-0045 + XEP-0128 Multi-User Conferencing package
 LICENSE=	mit
 
-PKG_DESTDIR_SUPPORT=	user-destdir
 #
 # jabberd isn't really a dependency since the transport can run on a
 # different server than the main jabber server (not that many sites will

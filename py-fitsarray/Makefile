@@ -13,8 +13,6 @@ COMMENT=	Ndarray subclass with a fits header
 
 DEPENDS+=	${PYPKGPREFIX}-pyfits>=2.3.1:../../graphics/py-pyfits
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/fitsarray-0.2.0
 
 USE_LANGUAGES=	# none

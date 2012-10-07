@@ -16,8 +16,6 @@ LICENSE=	gnu-lgpl-v2.1
 
 USE_LANGUAGES=	c c++
 
-PKG_DESTDIR_SUPPORT=    user-destdir
-
 PYDISTUTILSPKG= yes
 PY_PATCHPLIST=  yes
 

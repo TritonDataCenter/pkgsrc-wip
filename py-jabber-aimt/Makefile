@@ -10,8 +10,6 @@ MAINTAINER=		eric@cirr.com
 HOMEPAGE=		http://code.google.com/p/pyaimt/
 COMMENT=		Transport connecting Jabber to the AOL IM network
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 # jabberd isn't really a dependency since the transport can run on a
 # different server than the main jabber server (not that many sites will
 # do that..)

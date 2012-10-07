@@ -14,8 +14,6 @@ LICENSE=	modified-bsd #Probably
 DEPENDS+=	${PYPKGPREFIX}-async>=0.6.1:../../wip/py-async
 DEPENDS+=	${PYPKGPREFIX}-smmap>=0.8.1:../../wip/py-smmap
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=	${WRKDIR}/gitdb-0.5.4
 
 PYDISTUTILSPKG=	yes

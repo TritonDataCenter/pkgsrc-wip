@@ -14,8 +14,6 @@ LICENSE=	gnu-gpl-v3
 
 #DEPENDS+=	${PYPKGPREFIX}-scipy>=0.7.0:../../math/py-scipy
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 FETCH_USING=		wget
 FETCH_BEFORE_ARGS=	--no-check-certificate
 

@@ -11,8 +11,6 @@ HOMEPAGE=	http://www.rfk.id.au/software/
 COMMENT=	Dead-simple Object-XML mapper for Python
 LICENSE=	mit
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 PYDISTUTILSPKG=	yes
 
 .include "../../lang/python/extension.mk"

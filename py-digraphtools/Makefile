@@ -11,8 +11,6 @@ HOMEPAGE=	https://github.com/dbasden/python-digraphtools
 COMMENT=	Python library for working with directed acyclic graphs
 LICENSE=	modified-bsd
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/digraphtools-0.2.1
 
 USE_LANGUAGES=	# none

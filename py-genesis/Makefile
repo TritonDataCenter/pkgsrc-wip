@@ -11,8 +11,6 @@ HOMEPAGE=	http://pypi.python.org/pypi/genesis
 COMMENT=	Run Genesis on a copy of a project template to create a new project
 LICENSE=	modified-bsd
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	# none
 
 PYDISTUTILSPKG=	yes
