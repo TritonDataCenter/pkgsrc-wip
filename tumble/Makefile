@@ -20,8 +20,8 @@ INSTALLATION_DIRS+=	bin
 INSTALLATION_DIRS+=	share/doc/tumble
 
 do-install:
-	${INSTALL_PROGRAM} ${WRKSRC}/tumble ${PREFIX}/bin
-	${INSTALL_DATA} ${WRKSRC}/README ${PREFIX}/share/doc/tumble
+	${INSTALL_PROGRAM} ${WRKSRC}/tumble ${DESTDIR}${PREFIX}/bin
+	${INSTALL_DATA} ${WRKSRC}/README ${DESTDIR}${PREFIX}/share/doc/tumble
 
 .include "../../graphics/tiff/buildlink3.mk"
 .include "../../graphics/netpbm/buildlink3.mk"

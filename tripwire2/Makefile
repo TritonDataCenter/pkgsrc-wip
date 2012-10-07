@@ -26,14 +26,16 @@ SYSPRE=i386-unknown-freebsd
 
 MAKE_ENV+=	SYSPRE=${SYSPRE:Q}
 
+INSTALLATION_DIRS=	sbin ${PKGMANDIR}/man4 ${PKGMANDIR}/man5 ${PKGMANDIR}/man8
+
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/../bin/${SYSPRE}/* \
-		${PREFIX}/sbin/
+		${DESTDIR}${PREFIX}/sbin/
 	#TODO# make this in a foreach loop
-	${INSTALL_MAN} ${WRKSRC}/../man/man4/*.4 ${PREFIX}/${PKGMANDIR}/man4/
-	${INSTALL_MAN} ${WRKSRC}/../man/man5/*.5 ${PREFIX}/${PKGMANDIR}/man5/
-	${INSTALL_MAN} ${WRKSRC}/../man/man8/*.8 ${PREFIX}/${PKGMANDIR}/man8/
-	${INSTALL_DATA_DIR} ${PREFIX}/share/tripwire/
-	${INSTALL_DATA} ${WRKSRC}/../policy/*.txt ${PREFIX}/share/tripwire/
+	${INSTALL_MAN} ${WRKSRC}/../man/man4/*.4 ${DESTDIR}${PREFIX}/${PKGMANDIR}/man4/
+	${INSTALL_MAN} ${WRKSRC}/../man/man5/*.5 ${DESTDIR}${PREFIX}/${PKGMANDIR}/man5/
+	${INSTALL_MAN} ${WRKSRC}/../man/man8/*.8 ${DESTDIR}${PREFIX}/${PKGMANDIR}/man8/
+	${INSTALL_DATA_DIR} ${DESTDIR}${PREFIX}/share/tripwire/
+	${INSTALL_DATA} ${WRKSRC}/../policy/*.txt ${DESTDIR}${PREFIX}/share/tripwire/
 
 .include "../../mk/bsd.pkg.mk"
