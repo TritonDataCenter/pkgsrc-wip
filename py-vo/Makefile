@@ -13,8 +13,6 @@ COMMENT=	Python based tools to parse/write VOTABLE file
 
 DEPENDS+=	${PYPKGPREFIX}-pyfits>=2.3.1:../../graphics/py-pyfits
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 PYDISTUTILSPKG=	yes
 
 do-test:

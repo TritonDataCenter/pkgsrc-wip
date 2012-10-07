@@ -11,8 +11,6 @@ HOMEPAGE=	http://pyquante.sourceforge.net/
 COMMENT=	Quantum chemistry in Python
 LICENSE=	modified-bsd
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES= c
 PYDISTUTILSPKG= yes
 

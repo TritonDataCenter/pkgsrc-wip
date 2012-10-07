@@ -12,8 +12,6 @@ HOMEPAGE=	https://bitbucket.org/haypo/python-ptrace/wiki/Home
 COMMENT=	Python binding of ptrace
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 ONLY_FOR_PLATFORM=	FreeBSD-*-x86_64  FreeBSD-*-i386 Linux-*-*
 
 PYTHON_VERSIONS_INCLUDE_3X= yes

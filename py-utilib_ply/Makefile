@@ -13,8 +13,6 @@ HOMEPAGE=	https://software.sandia.gov/trac/pyutilib.ply
 COMMENT=	PyUtilib utilities that use Ply
 LICENSE=	modified-bsd
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/pyutilib.ply-3.0.4
 USE_LANGUAGES=	# none
 

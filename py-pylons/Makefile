@@ -19,8 +19,6 @@ DEPENDS+=	${PYPKGPREFIX}-nose>=0.11.3:../../devel/py-nose
 DEPENDS+=	${PYPKGPREFIX}-webob>=0.9.8:../../wip/py-webob
 DEPENDS+=	${PYPKGPREFIX}-Paste>=1.7.2:../../www/py-paste
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=			${WRKDIR}/Pylons-1.0
 USE_PKGLOCALEDIR=	yes
 USE_TOOLS+=	intltool msgfmt

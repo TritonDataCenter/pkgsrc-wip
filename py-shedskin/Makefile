@@ -12,8 +12,6 @@ HOMEPAGE=	http://code.google.com/p/shedskin/
 COMMENT=	Python-to-c++ compiler
 LICENSE=	gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	c++
 
 PYDISTUTILSPKG=yes

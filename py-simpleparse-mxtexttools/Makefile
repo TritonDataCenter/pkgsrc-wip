@@ -11,8 +11,6 @@ HOMEPAGE=	http://simpleparse.sourceforge.net/
 COMMENT=	SimpleParse is a Python providing a simple and fast parser generator
 #LICENSE=	# TODO: (see mk/license.mk)
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 INSTALLATION_DIRS+= 	share/doc/py-simpleparse-mxtexttools
 
 post-install:

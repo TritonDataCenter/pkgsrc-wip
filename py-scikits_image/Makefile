@@ -11,8 +11,6 @@ HOMEPAGE=	http://pypi.python.org/packages/source/s/scikits.image/
 COMMENT=	Image processing routines for SciPy
 LICENSE=	modified-bsd
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=	${WRKDIR}/scikits.image-0.2.2
 
 .include "../../lang/python/egg.mk"

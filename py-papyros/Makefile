@@ -14,8 +14,6 @@ COMMENT=	Pythonic parallel processing
 
 DEPENDS+=	${PYPKGPREFIX}-Pyro>=3.4:../../devel/py-Pyro
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	# none
 PYDISTUTILSPKG=	yes
 

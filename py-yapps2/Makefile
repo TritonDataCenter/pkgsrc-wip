@@ -12,8 +12,6 @@ HOMEPAGE=	http://theory.stanford.edu/~amitp/yapps/
 COMMENT=	Yet Another Python Parser System
 LICENSE=	mit
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/Yapps-2.1.1
 USE_LANGUAGES=	# none
 

@@ -13,8 +13,6 @@ HOMEPAGE=	http://pytseries.sourceforge.net/
 COMMENT=	Time series manipulation
 LICENSE=	modified-bsd
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 .include "../../graphics/py-matplotlib/buildlink3.mk"
 .include "../../lang/python/egg.mk"
 .include "../../math/py-numpy/buildlink3.mk"

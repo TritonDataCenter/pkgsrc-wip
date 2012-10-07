@@ -13,8 +13,6 @@ HOMEPAGE=	http://pypi.python.org/pypi/selenium/
 COMMENT=	Python binding to selenium Remote Control
 #LICENSE=	apache
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/selenium-2.20.0
 USE_LANGUAGES=	# none
 

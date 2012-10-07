@@ -12,8 +12,6 @@ HOMEPAGE=	http://pythoncad.sourceforge.net/dokuwiki/doku.php
 COMMENT=	PythonCAD is a CAD package written, surprisingly enough, in Python
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 DOCSDIR=	${PREFIX}/share/doc/${PKGBASE}
 
 INSTALLATION_DIRS=	bin \

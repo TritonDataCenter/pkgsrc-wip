@@ -13,8 +13,6 @@ HOMEPAGE=	http://code.google.com/p/papy/
 COMMENT=	Parallel Pipelines In Python
 LICENSE=	gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 DEPENDS+=	${PYPKGPREFIX}-Pmw>=1.3.2:../../x11/py-Pmw
 
 WRKSRC=		${WRKDIR}/papy-1.0b1

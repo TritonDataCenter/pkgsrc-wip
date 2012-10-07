@@ -11,8 +11,6 @@ HOMEPAGE=	http://yt-project.org/
 COMMENT=	Analyzing and visualizing astrophysical simulation output
 LICENSE=	gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	c c++
 
 .include "../../graphics/py-matplotlib/buildlink3.mk"

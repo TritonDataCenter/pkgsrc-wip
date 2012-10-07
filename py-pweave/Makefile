@@ -11,8 +11,6 @@ HOMEPAGE=	http://mpastell.com/pweave
 COMMENT=	Scientific reports with embedded python computations
 LICENSE=	gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/Pweave-0.20.1
 
 USE_LANGUAGES=	# none

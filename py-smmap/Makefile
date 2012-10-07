@@ -11,8 +11,6 @@ HOMEPAGE=	https://github.com/Byron/smmap
 COMMENT=	Git implementation of a sliding window memory map manager
 LICENSE=	2-clause-bsd
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	# none
 
 .include "../../lang/python/egg.mk"

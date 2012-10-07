@@ -15,8 +15,6 @@ COMMENT=	Visual stimulus creation and control in Python
 DEPENDS+=	${PYPKGPREFIX}-Pyro>=3.4:../../devel/py-Pyro
 DEPENDS+=	${PYPKGPREFIX}-OpenGL-[0-9]*:../../graphics/py-OpenGL
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES= c c++
 
 PY_PATCHPLIST=		yes

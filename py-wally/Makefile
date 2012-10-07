@@ -14,8 +14,6 @@ HOMEPAGE=	http://pypi.python.org/pypi/Wally/
 COMMENT=	Tool for managing desktop backgrounds
 #LICENSE=	# TODO: (see mk/license.mk)
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/Wally-0.6.14
 USE_LANGUAGES=	# none
 

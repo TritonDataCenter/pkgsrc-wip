@@ -12,8 +12,6 @@ HOMEPAGE=	https://software.sandia.gov/svn/public/pyutilib/pyutilib.common
 COMMENT=	Commonly used PyUtilib data and methods
 LICENSE=	modified-bsd
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/pyutilib.common-3.0.4
 USE_LANGUAGES=	# none
 

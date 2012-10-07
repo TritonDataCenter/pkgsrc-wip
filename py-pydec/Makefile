@@ -13,8 +13,6 @@ LICENSE=	modified-bsd
 
 DEPENDS+=	${PYPKGPREFIX}-scipy>=0.7.0:../../math/py-scipy
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 # Get it from Subversion repository:
 SVN_REPOSITORIES=	pydec
 SVN_ROOT.pydec=  http://pydec.googlecode.com/svn/trunk

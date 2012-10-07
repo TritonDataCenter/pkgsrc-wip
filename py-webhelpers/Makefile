@@ -18,8 +18,6 @@ DEPENDS+=	${PYPKGPREFIX}-sqlalchemy>=0.6.0:../../databases/py-sqlalchemy
 DEPENDS+=	${PYPKGPREFIX}-pylons>=0.1:../../wip/py-pylons
 DEPENDS+=	${PYPKGPREFIX}-webob>=0.9.8:../../wip/py-webob
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/WebHelpers-1.0
 USE_LANGUAGES=	# none
 

@@ -12,8 +12,6 @@ HOMEPAGE=	https://software.sandia.gov/trac/pyutilib
 COMMENT=	PyUtilib plugin for managing executables
 LICENSE=	modified-bsd
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/pyutilib.component.executables-3.4
 
 VERSION=	3.4

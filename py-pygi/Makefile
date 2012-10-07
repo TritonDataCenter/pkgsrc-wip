@@ -14,8 +14,6 @@ LICENSE=	gnu-lgpl-v2.1
 
 DEPENDS+=	gobject-introspection>=0.6.9:../../devel/gobject-introspection
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_TOOLS+= pkg-config

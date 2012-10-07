@@ -13,8 +13,6 @@ LICENSE=	mit
 
 DEPENDS+=	${PYPKGPREFIX}-processing>=0.52:../../wip/py-processing
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	# none
 PYDISTUTILSPKG=		yes
 

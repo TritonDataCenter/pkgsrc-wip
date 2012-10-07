@@ -11,8 +11,6 @@ HOMEPAGE=	http://www.logilab.org/project/pylint
 COMMENT=	Python code static checker
 LICENSE=    	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 DOCDIR= ${PREFIX}/share/doc/pylint
 INSTALLATION_DIRS=  ${DOCDIR} ${PKGMANDIR}/man1
 

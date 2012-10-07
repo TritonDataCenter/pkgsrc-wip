@@ -13,8 +13,6 @@ COMMENT=	Complete genetic algorithm framework written in pure python
 
 DEPENDS+=	${PYPKGPREFIX}-sqlite-[0-9]*:../../databases/py-sqlite3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	# none
 
 .include "../../graphics/py-matplotlib/buildlink3.mk"

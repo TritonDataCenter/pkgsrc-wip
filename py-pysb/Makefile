@@ -13,8 +13,6 @@ COMMENT=	Python Systems Biology modeling framework
 DEPENDS+=	${PYPKGPREFIX}-scipy>=0.7.2:../../math/py-scipy
 DEPENDS+=	${PYPKGPREFIX}-sympy>=0.7.1:../../math/py-sympy
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/pysb-0.1.5
 
 PYDISTUTILSPKG=	yes

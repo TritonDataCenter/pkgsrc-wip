@@ -16,8 +16,6 @@ LICENSE=		zpl
 DEPENDS+=	${PYPKGPREFIX}-wsgi-intercept>=0.4:../../wip/py-wsgi-intercept
 #DEPENDS+=	zope3>=0.3.3:../../www/zope3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/van.testing-3.0.0
 USE_LANGUAGES=	# none
 

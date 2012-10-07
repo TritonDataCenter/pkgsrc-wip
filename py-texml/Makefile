@@ -12,8 +12,6 @@ HOMEPAGE=	http://getfo.org/texml/
 COMMENT=	Convert TeXML to LaTeX or ConTeXt
 LICENSE=	mit
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	# none
 
 PYDISTUTILSPKG=	yes

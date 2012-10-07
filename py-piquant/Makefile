@@ -17,8 +17,6 @@ HOMEPAGE=	http://sourceforge.net/projects/piquant/
 COMMENT=	Extending NumPy and SciPy to specification of numbers and arrays
 LICENSE=	modified-bsd
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	# none
 PYDISTUTILSPKG=	yes
 

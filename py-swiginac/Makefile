@@ -12,8 +12,6 @@ HOMEPAGE=	http://swiginac.berlios.de/
 COMMENT=	Interface to GiNaC, providing Python with symbolic mathematics
 LICENSE=	cpl-1.0
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	c c++
 PYDISTUTILSPKG=	yes
 

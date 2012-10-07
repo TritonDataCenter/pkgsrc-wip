@@ -12,8 +12,6 @@ HOMEPAGE=	http://code.google.com/p/pythics/
 COMMENT=	Python Instrument Control System
 LICENSE=	gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	# none
 
 PYDISTUTILSPKG=	yes

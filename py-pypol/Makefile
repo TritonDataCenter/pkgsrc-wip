@@ -12,8 +12,6 @@ HOMEPAGE=	http://pypol.sourceforge.net/
 COMMENT=	Python module to manage monomials and polynomials
 LICENSE=	mit
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 DEPENDS+=	${PYPKGPREFIX}-gmpy>=1.01:../../math/py-gmpy
 
 USE_LANGUAGES=	# none

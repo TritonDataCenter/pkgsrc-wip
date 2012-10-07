@@ -12,8 +12,6 @@ HOMEPAGE=	http://pypi.python.org/packages/source/p/pyutilib.math/
 COMMENT=	PyUtilib math utilities
 LICENSE=	modified-bsd
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/pyutilib.math-3.0.4
 USE_LANGUAGES=	# none
 

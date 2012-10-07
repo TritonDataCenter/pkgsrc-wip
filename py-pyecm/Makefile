@@ -12,8 +12,6 @@ HOMEPAGE=	http://garr.dl.sourceforge.net/project/pyecm/pyecm/2.0/
 COMMENT=	Integer factorization with the Elliptic Curve Method (ECM)
 #LICENSE=	# TODO: (see mk/license.mk)
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	# none
 
 NO_BUILD=yes

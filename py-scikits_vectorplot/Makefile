@@ -11,9 +11,6 @@ HOMEPAGE=	http://projects.scipy.org/scipy/scikits
 COMMENT=	Vector fields plotting algorithms
 LICENSE=	modified-bsd
 
-
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=	${WRKDIR}/scikits.vectorplot-0.1.1
 
 PYTHON_VERSIONS_ACCEPTED= 26

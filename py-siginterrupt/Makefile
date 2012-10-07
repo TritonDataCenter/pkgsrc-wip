@@ -10,8 +10,6 @@ MAINTAINER=	kamel.derouiche@gmail.com
 HOMEPAGE=	ftp://ftp.pasteur.fr/pub/gensoft/projects/mobyle/
 COMMENT=	Python interface to the siginterrupt system function
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	c
 PYDISTUTILSPKG=	yes
 

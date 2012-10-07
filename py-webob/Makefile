@@ -14,8 +14,6 @@ LICENSE=	mit
 
 DEPENDS+=		${PYPKGPREFIX}-simplejson>=2.0.9:../../converters/py-simplejson
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	# none
 
 PYTHON_VERSIONS_ACCEPTED= 27 26

@@ -16,8 +16,6 @@ LICENSE=	modified-bsd
 DEPENDS+=	${PYPKGPREFIX}-scipy>=0.7.0:../../math/py-scipy
 DEPENDS+=	${PYPKGPREFIX}-Pmw>=1.3.2:../../x11/py-Pmw
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_TOOLS+=	gzip
 USE_LANGUAGES=	# none
 

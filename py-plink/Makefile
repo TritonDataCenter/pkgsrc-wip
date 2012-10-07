@@ -12,8 +12,6 @@ HOMEPAGE=	http://math.uic.edu/~t3m/plink/
 COMMENT=	Link Projection Editor
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 VERSION= 1.1
 
 USE_LANGUAGES=	# none

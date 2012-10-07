@@ -12,8 +12,6 @@ HOMEPAGE=	http://statsmodels.sourceforge.net/
 COMMENT=	Statistical computations and models for use with SciPy
 #LICENSE=	# TODO: (see mk/license.mk)
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	# none
 
 .include "../../lang/python/egg.mk"

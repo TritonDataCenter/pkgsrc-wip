@@ -11,8 +11,6 @@ HOMEPAGE=	http://pypi.python.org/pypi/qmath
 COMMENT= Provides a class for deal with quaternion algebra and 3D rotation
 LICENSE=	gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/qmath-0.2.0
 
 USE_LANGUAGES=	# none

@@ -12,8 +12,6 @@ COMMENT=	Matlab/Octave to Python compiler
 
 DEPENDS+=	${PYPKGPREFIX}-networkx>=1.2:../../math/py-networkx
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/smop-0.1.5
 
 USE_LANGUAGES=	# none

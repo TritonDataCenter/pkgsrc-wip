@@ -13,8 +13,6 @@ HOMEPAGE=	http://pyvib2.sourceforge.net/
 COMMENT=	Analyzing vibrational motion and vibrational spectra
 LICENSE=		gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 DEPENDS+=	${PYPKGPREFIX}-Pmw>=1.3.2:../../x11/py-Pmw
 
 WRKSRC=		${WRKDIR}/pyvib2-1.1

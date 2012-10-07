@@ -12,8 +12,6 @@ HOMEPAGE=	http://www.geodynamics.org/cig/software/pylith
 COMMENT=	finite element code for the solution of dynamic and quasi-static tectonic deformation problems
 LICENSE=	mit
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_LANGUAGES=	c++
 

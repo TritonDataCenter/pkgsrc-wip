@@ -12,8 +12,6 @@ HOMEPAGE=				http://www.simplistix.co.uk/software/python/xlutils
 COMMENT=				Utilities for working with Excel files
 LICENSE=				mit
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 DEPENDS+=       		${PYPKGPREFIX}-xlrd>=0.7.1:../../textproc/py-xlrd
 
 .include "../../lang/python/egg.mk"

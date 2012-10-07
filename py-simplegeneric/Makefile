@@ -12,8 +12,6 @@ HOMEPAGE=	http://cheeseshop.python.org/pypi/simplegeneric
 COMMENT=	Simple generic functions for Python
 LICENSE=	zpl
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	# none
 
 EGG_INFODIR= ${EGG_NAME}-py${PYVERSSUFFIX}.egg-info

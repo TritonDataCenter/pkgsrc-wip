@@ -15,8 +15,6 @@ COMMENT=	Installs a WSGI application in place of a real URI for testing
 
 DEPENDS+=	${PYPKGPREFIX}-httplib2>=0.6.0:../../wip/py-httplib2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/wsgi_intercept-0.4
 USE_LANGUAGES=	# none
 

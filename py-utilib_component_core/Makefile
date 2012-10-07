@@ -11,8 +11,6 @@ HOMEPAGE=	https://software.sandia.gov/svn/public/pyutilib/pyutilib.component.cor
 COMMENT=	The PyUtilib Component Architecture
 LICENSE=	modified-bsd
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/pyutilib.component.core-4.1.1
 USE_LANGUAGES=	# none
 

@@ -11,8 +11,6 @@ HOMEPAGE=	http://www.insectnation.org/projects/pyslha
 COMMENT=	Parsing, manipulating, and visualising SUSY Les Houches Accord data
 LICENSE=	gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/pyslha-1.2.3
 
 USE_LANGUAGES=	# none

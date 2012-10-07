@@ -12,8 +12,6 @@ HOMEPAGE=	http://code.google.com/p/pastiche/
 COMMENT=	Spyse is a framework and platform for building multi-agent systems
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/spyse
 USE_LANGUAGES=	# none
 

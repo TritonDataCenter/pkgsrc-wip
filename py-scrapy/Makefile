@@ -18,8 +18,6 @@ DEPENDS+=	${PYPKGPREFIX}-lxml>=2.2.1:../../textproc/py-lxml
 
 REPLACE_PYTHON=	${WRKSRC}/*.py
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 PYDISTUTILSPKG=	yes
 
 .include "../../lang/python/extension.mk"

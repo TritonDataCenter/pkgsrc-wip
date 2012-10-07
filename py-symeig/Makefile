@@ -11,8 +11,6 @@ HOMEPAGE=	http://mdp-toolkit.sourceforge.net/symeig.html
 COMMENT=	Symmetrical eigenvalue routines for NumPy
 #LICENSE=	# TODO: (see mk/license.mk)
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	c fortran
 PYDISTUTILSPKG=	yes
 

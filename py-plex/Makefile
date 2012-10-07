@@ -13,8 +13,6 @@ HOMEPAGE=	http://code.google.com/p/python-plex/
 COMMENT=	Plex is a library building lexical analysers
 LICENSE=	gnu-lgpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/plex-2.0.0dev
 USE_LANGUAGES=	# none
 

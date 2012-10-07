@@ -10,8 +10,6 @@ MAINTAINER=	jfranz@bsdprojects.net
 HOMEPAGE=	http://exhuma.wicked.lu/projects/python/scrobbler/
 COMMENT=	Python implementation of the Audioscrobbler API
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 PY_PATCHPLIST=			yes
 PYDISTUTILSPKG=			yes
 

@@ -13,8 +13,6 @@ HOMEPAGE=	http://scipy.org/scipy/scikits/wiki/AnnWrapper
 COMMENT=	Approximate Nearest Neighbor library wrapper for Numpy
 LICENSE=	gnu-lgpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 #WRKSRC=		${WRKDIR}/scikits.ann-0.2.dev-r803
 
 USE_LANGUAGES=	c++

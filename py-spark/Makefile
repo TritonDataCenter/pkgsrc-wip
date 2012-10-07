@@ -10,8 +10,6 @@ MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://pages.cpsc.ucalgary.ca/~aycock/spark/
 COMMENT=	Scanning, Parsing, and Rewriting Kit for Python
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_TOOLS+=	pax
 NO_BUILD=	YES
 

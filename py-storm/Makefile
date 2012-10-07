@@ -12,8 +12,6 @@ HOMEPAGE=	https://storm.canonical.com/
 COMMENT=	Object-relational mapper (ORM) for Python
 LICENSE=	gnu-lgpl-v2.1
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 do-test:
 	( cd ${WRKSRC} && ${PYTHONBIN} test )
 

@@ -11,8 +11,6 @@ HOMEPAGE=	http://packages.python.org/uncertainties/
 COMMENT=	Support for physical quantities with units, based on numpy
 LICENSE=	modified-bsd
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/uncertainties-1.7.1
 
 USE_LANGUAGES=	# none

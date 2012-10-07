@@ -11,7 +11,6 @@ COMMENT=				Python wrapper around libssh2
 HOMEPAGE=				http://www.keyphrene.com/products/4py/
 LICENSE=				gnu-lgpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
 WRKSRC=					${WRKDIR}/ssh4py-0.6.9
 
 NO_CONFIGURE=			yes

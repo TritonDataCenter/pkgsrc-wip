@@ -13,7 +13,6 @@ LICENSE=	modified-bsd
 
 DEPENDS+=	${PYPKGPREFIX}-dateutil>=1.5:../../time/py-dateutil
 
-PKG_DESTDIR_SUPPORT=	user-destdir
 PYDISTUTILSPKG=	yes
 
 .include "../../math/py-numpy/buildlink3.mk"

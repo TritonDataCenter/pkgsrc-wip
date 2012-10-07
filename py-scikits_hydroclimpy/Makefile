@@ -11,8 +11,6 @@ COMMENT=	Tools to manipulate environmental and climatologic time series
 
 DEPENDS+=	${PYPKGPREFIX}-scipy>=0.7.0:../../math/py-scipy
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES+= c  fortran
 
 # Get it from Subversion repository:

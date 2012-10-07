@@ -16,8 +16,6 @@ LICENSE=	modified-bsd
 
 DEPENDS+=	${PYPKGPREFIX}-Pyro>=-3.4:../../devel/py-Pyro
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_TOOLS+=	pax
 USE_LANGUAGES=	# none
 

@@ -14,8 +14,6 @@ LICENSE=	modified-bsd
 
 #DEPENDS+=	${PYPKGPREFIX}-utilib_common>=3.0.4:../../wip/py-utilib_common
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/pyutilib.misc-4.3
 
 USE_LANGUAGES=	# none

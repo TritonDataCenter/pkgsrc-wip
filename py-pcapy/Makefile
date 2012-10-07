@@ -12,7 +12,6 @@ COMMENT=		Python interface to pcap library
 LICENSE=		apache-1.1
 
 USE_LANGUAGES+=		c c++
-PKG_DESTDIR_SUPPORT=	user-destdir
 
 PY_PATCHPLIST=		yes
 PYDISTUTILSPKG=		yes

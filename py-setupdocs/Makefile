@@ -14,8 +14,6 @@ COMMENT=	Setuptools plugin that automates building of docs from reST source
 
 DEPENDS+=	${PYPKGPREFIX}-sphinx>=0.6.6:../../textproc/py-sphinx
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/SetupDocs-1.0.4
 USE_LANGUAGES=	# none
 

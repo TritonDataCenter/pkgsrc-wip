@@ -12,8 +12,6 @@ HOMEPAGE=	http://pythontoolkit.sourceforge.net/
 COMMENT=	PythonToolkit (PTK) an interactive python environment
 #LICENSE=	# TODO: (see mk/license.mk)
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	# none
 
 PYTHON_VERSIONS_ACCEPTED= 27 26

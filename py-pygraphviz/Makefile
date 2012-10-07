@@ -12,8 +12,6 @@ HOMEPAGE=		http://networkx.lanl.gov/pygraphviz/index.html
 COMMENT=		Python interface to the Graphviz package
 LICENSE=		original-bsd
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 PYDISTUTILSPKG=		yes
 
 .include "../../graphics/graphviz/buildlink3.mk"

@@ -14,8 +14,6 @@ LICENSE=		zpl
 
 DEPENDS+=	${PYPKGPREFIX}-ZopeInterface>=3.6.1:../../devel/py-ZopeInterface
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/transaction-1.1.1
 USE_LANGUAGES=	# none
 

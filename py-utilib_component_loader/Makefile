@@ -14,8 +14,6 @@ LICENSE=	modified-bsd
 #DEPENDS+=	${PYPKGPREFIX}-utilib_component_config>=${VERSION}:../../wip/py-utilib_component_config
 #DEPENDS+=	${PYPKGPREFIX}-utilib_component_core>=3.0.4:../../wip/py-utilib_component_core
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/pyutilib.component.loader-3.2.3
 
 VERSION=	3.2.3

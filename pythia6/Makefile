@@ -11,8 +11,6 @@ MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	http://www.hepforge.org/archive/pythia6/
 COMMENT=	Program can be used to generate high-energy-physics events
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 NO_BUILD= yes
 USE_LANGUAGES=	fortran77
 

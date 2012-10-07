@@ -10,8 +10,6 @@ HOMEPAGE=	http://ww2.fs.ei.tum.de/~corecode/hg/rcsparse/
 COMMENT=	RCS parsing library for Python
 LICENSE=	corecode-license
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 PYDISTUTILSPKG=	# yes
 
 .include "../../lang/python/extension.mk"

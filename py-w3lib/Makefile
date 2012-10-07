@@ -13,8 +13,6 @@ LICENSE=	mit
 
 REPLACE_PYTHON=	${WRKSRC}/*.py
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 PYDISTUTILSPKG=	yes
 
 .include "../../lang/python/extension.mk"

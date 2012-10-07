@@ -13,8 +13,6 @@ HOMEPAGE=	http://pyprocessing.berlios.de/
 COMMENT=	Library for running multiple Python processes using the threading API
 #LICENSE=	# TODO: (see mk/license.mk)
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 PYDISTUTILSPKG=	yes
 
 .include "../../lang/python/extension.mk"

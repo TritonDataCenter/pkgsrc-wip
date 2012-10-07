@@ -11,8 +11,6 @@ HOMEPAGE=   http://telepathy.freedesktop.org/releases/telepathy-python/
 COMMENT=    Python bindings for the Telepathy framework
 LICENSE=    gnu-lgpl-v2.1
 
-PKG_DESTDIR_SUPPORT=    user-destdir
-
 GNU_CONFIGURE=    yes
 USE_TOOLS+=	gmake
 USE_LANGUAGES=    # none

@@ -13,8 +13,6 @@ HOMEPAGE=	http://www.pyamf.org/
 COMMENT=	Action Message Format support for Python
 LICENSE=	mit
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=	${WRKDIR}/PyAMF-0.5.1
 
 .include "../../lang/python/egg.mk"

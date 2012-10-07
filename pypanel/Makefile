@@ -12,8 +12,6 @@ COMMENT=		Lightweight panel written in Python and C for X11
 
 DEPENDS+=		${PYPKGPREFIX}-Xlib-[0-9]*:../../x11/py-Xlib
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 PYDISTUTILSPKG=		yes
 PY_PATCHPLIST=		yes
 
