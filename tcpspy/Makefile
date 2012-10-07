@@ -11,8 +11,10 @@ COMMENT=		TCP/IP connections logger
 
 ONLY_FOR_PLATFORM=	Linux-*-* # It uses /proc and some linux-defines
 
+INSTALLATION_DIRS=	sbin ${PKGMANDIR}/man8
+
 do-install:
-	${INSTALL_PROGRAM} ${WRKSRC}/tcpspy ${PREFIX}/sbin/tcpspy
-	${INSTALL_MAN} ${WRKSRC}/tcpspy.8 ${PREFIX}/${PKGMANDIR}/man8/tcpspy.8
+	${INSTALL_PROGRAM} ${WRKSRC}/tcpspy ${DESTDIR}${PREFIX}/sbin/tcpspy
+	${INSTALL_MAN} ${WRKSRC}/tcpspy.8 ${DESTDIR}${PREFIX}/${PKGMANDIR}/man8/tcpspy.8
 
 .include "../../mk/bsd.pkg.mk"

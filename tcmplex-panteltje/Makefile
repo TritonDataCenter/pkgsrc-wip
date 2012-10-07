@@ -13,11 +13,13 @@ BUILD_TARGET=	a.out
 
 DOCSDIR=	${PREFIX}/share/doc/tcmplex-panteltje
 
+INSTALLATION_DIRS=	bin
+
 do-install:
-	${INSTALL_PROGRAM} ${WRKSRC}/${PKGBASE} ${PREFIX}/bin/${PKGBASE}
-	${MKDIR} ${DOCSDIR}
+	${INSTALL_PROGRAM} ${WRKSRC}/${PKGBASE} ${DESTDIR}${PREFIX}/bin/${PKGBASE}
+	${INSTALL_DATA_DIR} ${DESTDIR}${DOCSDIR}
 	for file in CHANGES COPYRIGHT LICENSE README; do \
-		${INSTALL_DATA} ${WRKSRC}/$$file ${DOCSDIR}; \
+		${INSTALL_DATA} ${WRKSRC}/$$file ${DESTDIR}${DOCSDIR}; \
 	done
 
 .include "../../mk/bsd.pkg.mk"

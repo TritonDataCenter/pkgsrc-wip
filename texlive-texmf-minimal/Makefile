@@ -10,6 +10,8 @@ MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.tug.org/texlive/
 COMMENT=	TeXLive texmf, minimal version from Edd Barret's OpenBSD repository
 
+PKG_DESTDIR_SUPPORT=	destdir
+
 NO_BUILD=	yes
 
 CONFLICTS+=	teTeX-texmf-[0-9]*
@@ -34,10 +36,10 @@ pre-install:
 	cd ${WRKSRC}/texmf-dist/tex/latex/bbold/ && mv -f Ubbold.fd ubbold.fd
 
 do-install:
-	cp -R ${WRKSRC}/texmf ${PREFIX}/share
-	${CHOWN} -R ${SHAREOWN}:${SHAREGRP} ${PREFIX}/share/texmf
-	cp -R ${WRKSRC}/texmf-dist ${PREFIX}/share
-	${CHOWN} -R ${SHAREOWN}:${SHAREGRP} ${PREFIX}/share/texmf-dist
+	cp -R ${WRKSRC}/texmf ${DESTDIR}${PREFIX}/share
+	${CHOWN} -R ${SHAREOWN}:${SHAREGRP} ${DESTDIR}${PREFIX}/share/texmf
+	cp -R ${WRKSRC}/texmf-dist ${DESTDIR}${PREFIX}/share
+	${CHOWN} -R ${SHAREOWN}:${SHAREGRP} ${DESTDIR}${PREFIX}/share/texmf-dist
 
 .include "../../wip/texlive/Makefile.common"
 
