@@ -12,8 +12,6 @@ LICENSE=		modified-bsd
 
 INSTALLATION_DIRS=	bin
 
-PKG_DESTDIR_SUPPORT=    user-destdir
-
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/wbox ${DESTDIR}${PREFIX}/bin
 

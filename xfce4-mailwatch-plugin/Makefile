@@ -10,9 +10,6 @@ CATEGORIES=	mail
 MASTER_SITES=	http://spuriousinterrupt.org/files/mailwatch/
 EXTRACT_SUFX=	.tar.bz2
 
-#I'm not sure how to test it. -hoka
-#PKG_DESTDIR_SUPPORT=user-destdir
-
 CONFIGURE_ARGS+=	--x-includes=${X11BASE}/include \
 			--x-libraries=${X11BASE}/libs
 

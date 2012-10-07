@@ -12,7 +12,6 @@ COMMENT=	Network monitoring tool
 #PKG_INSTALLATION_TYPES=	overwrite pkgviews
 
 GNU_CONFIGURE=	YES
-PKG_DESTDIR_SUPPORT=	user-destdir
 MAKE_JOBS_SAFE=		no
 USE_TOOLS+=		makeinfo pax
 

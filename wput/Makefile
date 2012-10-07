@@ -12,8 +12,6 @@ HOMEPAGE=	http://wput.sourceforge.net/
 COMMENT=	Wput is a command-line ftp-client that looks like wget
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=		yes
 USE_PKGLOCALEDIR=	yes
 

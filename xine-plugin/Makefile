@@ -11,8 +11,6 @@ HOMEPAGE=	http://www.xine-project.org/
 COMMENT=	Plugin for www/firefox for using multimedia/xine-lib
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 

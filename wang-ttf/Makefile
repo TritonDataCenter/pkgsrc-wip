@@ -13,8 +13,6 @@ DISTFILES=	${FONT_FILES} ${MISC_FILES}
 MAINTAINER=	rxg@NetBSD.org
 COMMENT=	Chinese TrueType fonts made by Dr. Hann-Tzong Wang
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 FONT_FILES=	wp010-05.ttf wp010-08.ttf wp110-05.ttf wp110-08.ttf \
 		wp210-05.ttf wp210-08.ttf wp310-05.ttf wp310-08.ttf \
 		wt001.ttf wt002.ttf wt003.ttf wt004.ttf wt005.ttf \

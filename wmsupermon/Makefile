@@ -10,7 +10,6 @@ HOMEPAGE=	http://dockapps.windowmaker.org/file.php/id/320
 COMMENT=	Universal monitoring dockapp
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
 USE_TOOLS+=		gmake yacc
 INSTALLATION_DIRS+=	bin share/doc/wmsupermon share/examples/wmsupermon
 INSTALLATION_DIRS+=	share/pixmaps

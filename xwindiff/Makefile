@@ -14,8 +14,6 @@ GNU_CONFIGURE=	YES
 USE_TOOLS+=	pkg-config
 USE_LANGUAGES=	c
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 .include "../../x11/libX11/buildlink3.mk"
 .include "../../x11/libXaw/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

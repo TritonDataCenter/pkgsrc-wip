@@ -14,8 +14,6 @@ DEPENDS+=	wxGTK28>=2.8.0:../../x11/wxGTK28
 DEPENDS+=	libxml2>=2.7.3:../../textproc/libxml2
 DEPENDS+=	gnuplot>=4.2.3:../../graphics/gnuplot
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=		yes
 USE_PKGLOCALEDIR=	yes
 USE_LANGUAGES=		c c++

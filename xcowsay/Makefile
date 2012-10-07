@@ -10,8 +10,6 @@ HOMEPAGE=	http://www.doof.me.uk/xcowsay/
 COMMENT=	Display a cow and message on your desktop
 LICENSE=	gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=		yes
 USE_PKGLOCALEDIR=	yes
 USE_TOOLS+=			pkg-config

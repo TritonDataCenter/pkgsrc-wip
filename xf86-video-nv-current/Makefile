@@ -15,8 +15,6 @@ GIT_REPO.master=	git://cgit.freedesktop.org/xorg/driver/xf86-video-nv
 
 BUILD_DEPENDS+=		xorg-util-macros-[0-9]*:../../devel/xorg-util-macros
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LIBTOOL=	YES
 GNU_CONFIGURE=	YES
 USE_TOOLS+=	pkg-config autoconf autoreconf automake

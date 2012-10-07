@@ -10,8 +10,6 @@ HOMEPAGE=	http://www.nongnu.org/yauap/index.html
 COMMENT=	Yauap is a simple commandline audio player
 LICENSE=	gnu-lgpl-v2.1
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_TOOLS+=	pkg-config gmake
 USE_LANGUAGES=  c c++
 

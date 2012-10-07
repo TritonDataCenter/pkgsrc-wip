@@ -12,8 +12,6 @@ HOMEPAGE=	https://addons.mozilla.org/en-US/firefox/addon/quick-locale-switcher/
 COMMENT=	Quickly change the locale preference in Mozilla applications
 LICENSE=	mpl-1.1
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 NO_BUILD=	yes
 
 USE_TOOLS+=	pax unzip

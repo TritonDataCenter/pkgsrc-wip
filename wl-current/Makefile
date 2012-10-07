@@ -13,7 +13,6 @@ HOMEPAGE=	http://www.gohome.org/wl/
 COMMENT=	Mail/news management system with IMAP4rev1 support for Emacs
 WRKSRC=		${WRKDIR}/wanderlust
 USE_TOOLS=	patch
-PKG_DESTDIR_SUPPORT=	user-destdir
 
 BUILD_TARGET=	all info
 INSTALL_TARGET=	install install-info

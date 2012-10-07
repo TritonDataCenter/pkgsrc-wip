@@ -10,8 +10,6 @@ HOMEPAGE=	http://www.gnome.org/
 COMMENT=	XSL stylesheets for Yelp help browser
 LICENSE=	gnu-gpl-v2 AND gnu-lgpl-v2.1 AND mit
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_TOOLS+=	pkg-config intltool
 

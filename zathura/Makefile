@@ -10,8 +10,6 @@ HOMEPAGE=	http://pwmt.org/projects/zathura/
 COMMENT=	PDF viewer with vi-like keybindings
 #LICENSE=	# TODO: (see mk/license.mk)
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_TOOLS+=	pkg-config gettext gmake groff
 USE_LIBTOOL=	yes
 DEPENDS+=	py26-docutils-[0-9]*:../../textproc/py-docutils

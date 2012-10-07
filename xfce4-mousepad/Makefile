@@ -1,7 +1,5 @@
 # $NetBSD: Makefile,v 1.13 2011/04/22 13:43:28 obache Exp $
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 .include "../../wip/xfce48/Makefile.common"
 
 MOUSEPAD_VERSION=	0.2.16

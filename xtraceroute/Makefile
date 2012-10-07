@@ -12,8 +12,6 @@ HOMEPAGE=	http://www.beebgames.com/sw/gtk-ports.html
 COMMENT=	Graphical version of traceroute, tracing the route IP packets go
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=		yes
 USE_PKGLOCALEDIR=	yes
 USE_TOOLS+=		gmake msgfmt pkg-config

@@ -10,7 +10,6 @@ HOMEPAGE=	http://www.zinf.org/
 COMMENT=	Simple but powerful audio player
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
 BUILD_DEPENDS+=	nasm>=0.98:../../devel/nasm
 
 GNU_CONFIGURE=	yes

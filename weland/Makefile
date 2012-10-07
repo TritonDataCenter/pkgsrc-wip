@@ -12,8 +12,6 @@ HOMEPAGE=	http://weland.sourceforge.net/
 COMMENT=	Marathon game map editor
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/weland-1.3
 USE_TOOLS+=	gmake
 USE_LANGUAGES=	# none

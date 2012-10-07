@@ -13,7 +13,6 @@ COMMENT=	WvStreams is a network programming library in C++
 GNU_CONFIGURE=	yes
 USE_TOOLS+=	gmake pkg-config
 USE_LANGUAGES=	c c++
-PKG_DESTDIR_SUPPORT=    user-destdir
 
 EGDIR=                  ${PREFIX}/share/examples/wvstreams
 CONF_FILES=             ${EGDIR}/uniconf.conf ${PKG_SYSCONFDIR}/uniconf.conf

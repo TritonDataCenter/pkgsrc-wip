@@ -9,8 +9,6 @@ HOMEPAGE=	http://weplab.sourceforge.net/
 COMMENT=	Weplab is a tool to review the security of WEP encryption
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	YES
 LIBS+=		${BUILDLINK_LDADD.getopt:Q}
 

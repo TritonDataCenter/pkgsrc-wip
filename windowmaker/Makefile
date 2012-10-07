@@ -31,8 +31,6 @@ CONFIGURE_ENV+=		CPP_PATH=${CPP:Q}
 USE_TOOLS+=		perl:run
 REPLACE_PERL+=		util/wkdemenu.pl
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 INSTALLATION_DIRS=	share/WindowMaker/SoundSets
 INSTALLATION_DIRS+=	share/WindowMaker/Sounds
 INSTALLATION_DIRS+=	share/doc/WindowMaker

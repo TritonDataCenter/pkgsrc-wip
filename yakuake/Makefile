@@ -11,8 +11,6 @@ MAINTAINER=	drjumba@bigmir.net
 HOMEPAGE=	http://extragear.kde.org/apps/yakuake/
 COMMENT=	Drop-down terminal emulator based on KDE Konsole technology
 
-PKG_DESTDIR_SUPPORT=    user-destdir
-
 USE_CMAKE=              yes
 USE_LANGUAGES=          c c++
 USE_TOOLS+=             awk msgfmt pkg-config perl

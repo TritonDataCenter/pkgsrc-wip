@@ -11,8 +11,6 @@ HOMEPAGE=	http://wenq.org/enindex.cgi?ZenHei%28en%29
 COMMENT=	WenQuanYi Open Source Outline Fonts based on Droid font
 LICENSE=	apache-2.0 OR gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/wqy-microhei
 USE_LANGUAGES=	# none
 

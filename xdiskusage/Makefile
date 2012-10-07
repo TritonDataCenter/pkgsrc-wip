@@ -11,6 +11,8 @@ MAINTAINER=		ccatrian@eml.cc
 HOMEPAGE=		http://xdiskusage.sourceforge.net/
 COMMENT=		Graphical space disk viewer
 
+PKG_DESTDIR_SUPPORT=	none
+
 USE_LANGUAGES=		c c++
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes

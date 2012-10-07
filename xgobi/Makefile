@@ -11,8 +11,6 @@ MAINTAINER=		dprice@cs.nmsu.edu
 HOMEPAGE=		http://www.research.att.com/areas/stat/xgobi/
 COMMENT=		Data Visualization Systems for viewing high-dimensional data
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=			${WRKDIR}/${DISTNAME}
 CONFIGURE_DIRS=		src
 USE_IMAKE=		yes

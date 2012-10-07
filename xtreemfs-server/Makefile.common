@@ -10,8 +10,6 @@ HOMEPAGE=	http://www.xtreemfs.org/
 COMMENT=	"cloud" file system
 LICENSE=	modified-bsd
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_TOOLS+=		gmake
 
 PATCHDIR=		${.CURDIR}/../../wip/xtreemfs-server/patches

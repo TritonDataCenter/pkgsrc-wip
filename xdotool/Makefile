@@ -9,8 +9,6 @@ MAINTAINER=	rga@sdf.lonestar.org
 HOMEPAGE=	http://www.semicomplete.com/projects/xdotool/
 COMMENT=	Simulate keyboard input and mouse activity using X11 xtest extension
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 NO_CONFIGURE=   yes
 USE_LIBTOOL=    yes
 USE_TOOLS+=	gmake

@@ -12,8 +12,6 @@ HOMEPAGE=	http://wenq.org/enindex.cgi?ZenHei%28en%29
 COMMENT=	WenQuanYi Open Source Outline Fonts (Chinese simplified)
 LICENSE=	gnu-gpl-v2 # with font embedding exception
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/wqy-zenhei
 USE_LANGUAGES=	# none
 

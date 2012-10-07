@@ -13,6 +13,8 @@ COMMENT=		SQL frontend for DB4 (DBF) files with xbase
 
 BUILD_DEPENDS+=		bison-[0-9]*:../../devel/bison
 
+PKG_DESTDIR_SUPPORT=	none
+
 USE_PKGLOCALEDIR=	yes
 USE_LANGUAGES=		c c++
 USE_LIBTOOL=		yes

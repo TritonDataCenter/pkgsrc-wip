@@ -10,8 +10,6 @@ HOMEPAGE=	http://tools.suckless.org/wmname
 COMMENT=	Prints/sets the window manager name property of the root window
 LICENSE=	mit
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 NO_CONFIGURE=   yes
 
 # Adjust config.mk

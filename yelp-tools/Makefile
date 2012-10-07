@@ -11,8 +11,6 @@ HOMEPAGE=	http://www.gnome.org/
 COMMENT=	Set of command-line tools to build and check your documentation
 LICENSE=	gnu-gpl-v2 AND gnu-lgpl-v2.1
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_TOOLS+=	pkg-config
 USE_LANGUAGES=	# none

@@ -20,8 +20,6 @@ PY_PATCHPLIST = YES
 PYSETUP = setup.py
 PLIST_SUBST+=	EGG_INFODIR=${EGG_NAME}-py${PYVERSSUFFIX}.egg-info
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_TOOLS+=	pkg-config
 USE_TOOLS+=	intltool
 

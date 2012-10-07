@@ -10,6 +10,8 @@ MAINTAINER=	reed@reedmedia.net
 #HOMEPAGE=	http://packages.qa.debian.org/x/xtrace.html
 COMMENT=	Trace communication between X11 client and server
 
+PKG_DESTDIR_SUPPORT=	none
+
 GNU_CONFIGURE=	yes
 WRKSRC=		${WRKDIR}/${PKGNAME_NOREV}
 

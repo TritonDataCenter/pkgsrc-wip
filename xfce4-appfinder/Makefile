@@ -1,7 +1,5 @@
 # $NetBSD: Makefile,v 1.18 2011/04/22 13:44:46 obache Exp $
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 .include "../../wip/xfce48/Makefile.common"
 
 APPFINDER_VERSION= 4.8.0

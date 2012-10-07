@@ -14,7 +14,6 @@ USE_TOOLS+=		pax
 
 NO_BUILD=		yes
 DIST_SUBDIR=		wordpress-mu-${VERSION}
-PKG_DESTDIR_SUPPORT=	user-destdir
 WRKSRC=			${WRKDIR}/wordpress-mu
 
 INSTALLATION_DIRS=	share/wordpress-mu

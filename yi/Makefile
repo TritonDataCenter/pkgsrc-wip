@@ -16,7 +16,6 @@ CONFIGURE_ARGS+= \
 	-f-hacking \
 	-f-testing
 
-PKG_DESTDIR_SUPPORT=	user-destdir
 .include "options.mk"
 
 .include "../../wip/mk/haskell.mk"

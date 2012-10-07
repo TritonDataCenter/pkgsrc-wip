@@ -11,8 +11,6 @@ MAINTAINER=		reed@reedmedia.net
 #HOMEPAGE=
 COMMENT=		Locate a command
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=			${WRKDIR}/${DISTNAME}
 
 NO_CONFIGURE=		yes

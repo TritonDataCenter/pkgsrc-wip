@@ -15,6 +15,8 @@ DEPENDS+=		portmap>=4:../../net/portmap
 # rc.d scripts use domainname from yp-tools or net-tools
 #DEPENDS+=		yp-tools-[0-9]*:../../wip/yp-tools
 
+PKG_DESTDIR_SUPPORT=	none
+
 GNU_CONFIGURE=		yes
 
 RCD_SCRIPTS=		yppasswdd ypserv

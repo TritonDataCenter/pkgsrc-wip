@@ -11,8 +11,6 @@ HOMEPAGE=	http://zipios.sourceforge.net/
 COMMENT=	java.util.zip-like C++ library for reading and writing Zip files
 LICENSE=	gnu-lgpl-v2.1
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/zipios++-0.1.5.9+cvs.2007.04.28
 
 GNU_CONFIGURE=	yes
