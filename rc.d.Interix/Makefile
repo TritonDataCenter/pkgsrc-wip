@@ -22,7 +22,9 @@ NO_MTREE=		yes
 FILES_SUBST+=		PKGSRC_PREFIX=${PREFIX}
 MESSAGE_SUBST+=		PKGSRC_PREFIX=${PREFIX}
 
+INSTALLATION_DIRS=	libexec
+
 do-install:
-	${INSTALL_SCRIPT} ${.CURDIR}/files/pkgsrc_rc ${PREFIX}/libexec
+	${INSTALL_SCRIPT} ${.CURDIR}/files/pkgsrc_rc ${DESTDIR}${PREFIX}/libexec
 
 .include "../../mk/bsd.pkg.mk"
