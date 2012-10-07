@@ -30,7 +30,7 @@ do-build:
 
 do-install:
 	cd ${WRKDIR} && ${TAR} -cf - ${DISTNAME:C/-.*$//} | \
-		${TAR} -xf - -C ${SMDIR}/plugins
+		${TAR} -xf - -C ${DESTDIR}${SMDIR}/plugins
 
 SUBST_CLASSES+=		prefix
 SUBST_STAGE.prefix=	post-patch

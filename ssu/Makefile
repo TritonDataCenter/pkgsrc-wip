@@ -18,10 +18,12 @@ USE_TOOLS+=	perl
 
 do-build:
 
+INSTALLATION_DIRS=	bin
+
 do-install:
-	${INSTALL_SCRIPT} ${WRKSRC}/ss ${PREFIX}/bin
-	${INSTALL_SCRIPT} ${WRKSRC}/ssserv ${PREFIX}/bin
-	${INSTALL_DATA_DIR} ${PREFIX}/share/doc/ssu
-	${INSTALL_DATA} ${WRKSRC}/README ${PREFIX}/share/doc/ssu
+	${INSTALL_SCRIPT} ${WRKSRC}/ss ${DESTDIR}${PREFIX}/bin
+	${INSTALL_SCRIPT} ${WRKSRC}/ssserv ${DESTDIR}${PREFIX}/bin
+	${INSTALL_DATA_DIR} ${DESTDIR}${PREFIX}/share/doc/ssu
+	${INSTALL_DATA} ${WRKSRC}/README ${DESTDIR}${PREFIX}/share/doc/ssu
 
 .include "../../mk/bsd.pkg.mk"
