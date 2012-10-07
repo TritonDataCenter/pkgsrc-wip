@@ -23,8 +23,10 @@ pre-install:
 		-e 's#@PKG_SYSCONFDIR@#${PKG_SYSCONFDIR}#g' \
 		< ${WRKSRC}/gsmtprc > ${WRKSRC}/gsmtprc.new
 
+INSTALLATION_DIRS=	bin ${PKGMANDIR}/man1
+
 do-install:
-	${INSTALL_SCRIPT} ${WRKSRC}/gsmtprc.new ${PREFIX}/bin/gsmtprc
-	${INSTALL_MAN} ${WRKSRC}/gsmtprc.1 ${PREFIX}/${PKGMANDIR}/man1
+	${INSTALL_SCRIPT} ${WRKSRC}/gsmtprc.new ${DESTDIR}${PREFIX}/bin/gsmtprc
+	${INSTALL_MAN} ${WRKSRC}/gsmtprc.1 ${DESTDIR}${PREFIX}/${PKGMANDIR}/man1
 
 .include "../../mk/bsd.pkg.mk"
