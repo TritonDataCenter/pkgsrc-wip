@@ -53,7 +53,7 @@ CONFIGURE_ARGS+=	--disable-fontconfig
 CONFIGURE_ARGS+=	--disable-freetype
 .endif
 
-# Please note the same if cond is in post-install: target in Makefile
+# Please note the same if cond is in post-extract: target in Makefile
 .if !empty(PKG_OPTIONS:Mdisable-compile-inits)
 CONFIGURE_ARGS+=        --disable-compile-inits
 PLIST.no_cidfmap=	YES
