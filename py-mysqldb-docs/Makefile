@@ -19,9 +19,9 @@ DOC_SRCDIR=	${WRKSRC}/doc
 PLIST_SRC=	${WRKDIR}/.PLIST_SRC
 
 do-install:
-	${INSTALL_DATA_DIR} ${PREFIX}/${HTMLDIR}
+	${INSTALL_DATA_DIR} ${DESTDIR}${PREFIX}/${HTMLDIR}
 	${CAT} ${PKGDIR}/PLIST.pre >${PLIST_SRC}
-	cd ${DOC_SRCDIR} && pax -rw -pe * ${PREFIX}/${HTMLDIR}
-	cd ${PREFIX} && ${FIND} ${HTMLDIR} -type f -print >>${PLIST_SRC}
+	cd ${DOC_SRCDIR} && pax -rw -pe * ${DESTDIR}${PREFIX}/${HTMLDIR}
+	cd ${DESTDIR}${PREFIX} && ${FIND} ${HTMLDIR} -type f -print >>${PLIST_SRC}
 
 .include "../../mk/bsd.pkg.mk"
