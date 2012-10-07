@@ -17,8 +17,6 @@ DEPENDS+=	${PYPKGPREFIX}-mutagen>=1.8:../../audio/py-mutagen
 DEPENDS+=	gst-plugins0.10-vorbis>=0.10.0:../../audio/gst-plugins0.10-vorbis
 DEPENDS+=	gst-plugins0.10-ogg>=0.10.0:../../multimedia/gst-plugins0.10-ogg
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_TOOLS+=		msgfmt intltool
 USE_PKGLOCALEDIR=	yes
 BUILD_TARGET=		_trayicon.so _mmkeys.so

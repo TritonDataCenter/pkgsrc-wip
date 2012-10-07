@@ -12,6 +12,8 @@ HOMEPAGE=		http://www.rejik.ru/index_en_0_0.html
 COMMENT=		Banner-filtering redirector for Squid
 LICENSE=		gnu-gpl-v2
 
+PKG_DESTDIR_SUPPORT=	none
+
 NO_CONFIGURE=		yes
 
 PKG_SYSCONFSUBDIR=	rejik

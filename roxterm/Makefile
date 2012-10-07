@@ -10,8 +10,6 @@ HOMEPAGE=	http://roxterm.sourceforge.net/
 COMMENT=	ROXTerm is a terminal emulator
 LICENSE=	gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_TOOLS+=	pkg-config gsed gmake

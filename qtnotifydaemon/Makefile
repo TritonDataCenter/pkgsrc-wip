@@ -11,8 +11,6 @@ HOMEPAGE=	http://drull.org.ru/qtnotifydaemon/
 COMMENT=	Configurable and flexible Qt notification daemon
 LICENSE=	gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=			${WRKDIR}
 USE_LANGUAGES=		c++
 MAKE_ENV+=		SUBLIBS="-Wl,-rpath,${LIBDIR} -L${QTDIR}/lib"

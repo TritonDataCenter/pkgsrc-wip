@@ -10,8 +10,6 @@ MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://code.google.com/p/ratproxy
 COMMENT=	Passive web application security assessment tool
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/ratproxy
 
 GCC_REQD+=	3.0

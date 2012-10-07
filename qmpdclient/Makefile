@@ -16,8 +16,6 @@ LICENSE=	gnu-gpl-v2
 
 USE_LANGUAGES= c c++
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 SUBST_CLASSES+=			fix-proj
 SUBST_STAGE.fix-proj=	post-patch
 SUBST_MESSAGE.fix-proj=	Fixing qmake project file.

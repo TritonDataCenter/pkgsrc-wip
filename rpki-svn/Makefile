@@ -16,8 +16,6 @@ SVN_ROOT.rpki=		http://subvert-rpki.hactrn.net/
 SVN_MODULE.rpki=	rpki
 NO_CHECKSUM=		yes
 
-PKG_DESTDIR_SUPPORT=    user-destdir
-
 DEPENDS+=	${PYPKGPREFIX}-django-[0-9]*:../../www/py-django
 
 USE_TOOLS+=	perl python

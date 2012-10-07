@@ -11,8 +11,6 @@ HOMEPAGE=	http://regexxer.sourceforge.net/
 COMMENT=	Interactive tool for performing search and replace operations
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT= 	user-destdir
-
 GNU_CONFIGURE=		yes
 USE_LANGUAGES=		c c++
 USE_TOOLS+=		gmake perl intltool pkg-config

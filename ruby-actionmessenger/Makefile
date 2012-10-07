@@ -12,8 +12,6 @@ HOMEPAGE=	http://trypticon.org/software/actionmessenger/
 COMMENT=	Ruby convenience framework for instant messaging
 LICENSE=	mit
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	# none
 
 .include "../../lang/ruby/gem.mk"

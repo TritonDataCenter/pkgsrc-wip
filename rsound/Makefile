@@ -10,7 +10,6 @@ HOMEPAGE=	https://github.com/downloads/Themaister/RSound/
 COMMENT=	Multi-platform, simple PCM audio server and client
 LICENSE=	gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=		user-destdir
 HAS_CONFIGURE=			yes
 USE_LANGUAGES+=			c
 USE_TOOLS+=			gmake

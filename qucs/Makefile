@@ -14,6 +14,8 @@ COMMENT=	Microwave and IC-design oriented EDS tool
 DEPENDS+=	flex>=2.5.34:../../devel/flex
 DEPENDS+=	adms>=2.2.8:../../wip/adms
 
+PKG_DESTDIR_SUPPORT=	none
+
 GNU_CONFIGURE=		yes
 
 USE_TOOLS+=		gmake bison sed awk grep

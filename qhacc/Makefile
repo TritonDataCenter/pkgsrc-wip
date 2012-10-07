@@ -10,6 +10,8 @@ MAINTAINER=		reed@reedmedia.net
 HOMEPAGE=		http://qhacc.sourceforge.net/
 COMMENT=		The Q Home Accountant for bookkeeping
 
+PKG_DESTDIR_SUPPORT=	none
+
 USE_LIBTOOL=		yes
 LIBTOOL_OVERRIDE=	${WRKSRC}/libtool
 GNU_CONFIGURE=		yes

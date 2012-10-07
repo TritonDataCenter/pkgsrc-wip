@@ -9,8 +9,6 @@ MAINTAINER=		filip@joyent.com
 HOMEPAGE=		http://www.modrails.com/
 LICENSE=		mit
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=		c c++
 USE_TOOLS+=		pax:build
 USE_RAKE=		yes

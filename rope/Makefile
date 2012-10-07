@@ -13,7 +13,5 @@ HOMEPAGE=							http://rope.sourceforge.net/
 COMMENT=							Rope is a python refactoring library
 LICENSE=							gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=    			user-destdir
-
 .include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"

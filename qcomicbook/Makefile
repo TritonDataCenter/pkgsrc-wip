@@ -16,6 +16,8 @@ DEPENDS+=		unzip-[0-9]*:../../archivers/unzip
 BUILD_DEPENDS+=		imlib2-[0-9]*:../../graphics/imlib2
 BUILD_DEPENDS+=		qt3-libs>=3.3.3:../../x11/qt3-libs
 
+PKG_DESTDIR_SUPPORT=	none
+
 USE_LANGUAGES=		c c++
 USE_TOOLS=		gmake pkg-config
 GNU_CONFIGURE=		yes

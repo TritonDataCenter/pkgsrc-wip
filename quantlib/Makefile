@@ -8,7 +8,6 @@ MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=quantlib/}
 COMMENT=	Framework for quantitative finance
 LICENSE=	modified-bsd
 
-PKG_DESTDIR_SUPPORT=	user-destdir
 MAINTAINER=	slitvinov@gmail.com
 HOMEPAGE=	http://quantlib.sourceforge.net/
 

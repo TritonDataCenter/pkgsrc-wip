@@ -9,7 +9,6 @@ HOMEPAGE=		http://www.quickfixengine.org/
 COMMENT=		FIX engine
 LICENSE=		quickfix
 
-PKG_DESTDIR_SUPPORT=	user-destdir
 PKG_INSTALLATION_TYPES=	overwrite pkgviews
 
 .include "../../mk/bsd.prefs.mk"

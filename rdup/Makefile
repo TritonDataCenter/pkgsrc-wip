@@ -13,8 +13,6 @@ LICENSE=	gnu-gpl-v3
 
 REPLACE_BASH+=	sh/rdup-simple.in
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_TOOLS+=	pkg-config gmake bash:run
 GNU_CONFIGURE=	yes
 

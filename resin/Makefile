@@ -11,8 +11,6 @@ HOMEPAGE=	http://www.caucho.com/
 COMMENT=	High-performance, open source application server
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_JAVA=	yes
 USE_LANGUAGES=	c c++

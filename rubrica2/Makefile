@@ -11,8 +11,6 @@ HOMEPAGE=	http://rubrica.berlios.de/
 COMMENT=	Addressbook manager for the GNOME Environment
 LICENSE=	gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=		yes
 USE_LIBTOOL=		yes
 USE_TOOLS+=		gconftool-2 gmake msgfmt msgmerge perl pkg-config

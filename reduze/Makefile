@@ -10,8 +10,6 @@ HOMEPAGE=	http://www.qgd.unizh.ch/~cedric/reduze/download/
 COMMENT=	Program for reducing Feynman Integrals
 LICENSE=	gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_TOOLS+= pkg-config
 USE_LANGUAGES=	c c++

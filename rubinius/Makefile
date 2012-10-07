@@ -9,8 +9,6 @@ MAINTAINER=	ober@NetBSD.org
 HOMEPAGE=	http://rubini.us/
 COMMENT=	Rubinius is an implementation of the Ruby programming language
 EXTRACT_SUFX=	.tar.gz
-
-PKG_DESTDIR_SUPPORT=	user-destdir
 LICENSE=       modified-bsd
 
 .include "../../mk/bsd.prefs.mk"

@@ -10,8 +10,6 @@ HOMEPAGE=	http://themaister.net/retroarch.html
 COMMENT=	Multi-system emulator for Linux, Windows, Mac OS X and *BSD
 LICENSE=	gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=			c c++
 USE_TOOLS+=			gmake pkg-config
 HAS_CONFIGURE=			yes

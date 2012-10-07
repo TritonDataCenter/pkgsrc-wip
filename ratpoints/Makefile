@@ -10,8 +10,6 @@ HOMEPAGE=	http://www.mathe2.uni-bayreuth.de/stoll/programs/index.html
 COMMENT=		Optimized quadratic sieve algorithm
 LICENSE=		gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LIBTOOL=	yes
 USE_LANGUAGES=	c c++
 

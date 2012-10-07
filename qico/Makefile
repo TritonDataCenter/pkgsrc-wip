@@ -11,6 +11,8 @@ MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://sourceforge.net/projects/qico/
 COMMENT=	FidoNet mailer
 
+PKG_DESTDIR_SUPPORT=	none
+
 USE_TOOLS+=	gmake
 WRKSRC=		${WRKDIR}/qicosi
 GNU_CONFIGURE=	yes

@@ -9,6 +9,8 @@ HOMEPAGE=	http://ditz.rubyforge.org/
 COMMENT=	Simple, light-weight distributed issue tracker
 LICENSE=	gnu-gpl-v3
 
+PKG_DESTDIR_SUPPORT=	none
+
 .include "../../lang/ruby/rubyversion.mk"
 
 .if ${RUBY_VER} == "19"

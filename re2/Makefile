@@ -10,8 +10,6 @@ HOMEPAGE=	http://code.google.com/p/re2/
 COMMENT=	RE2 is a fast, safe, thread-friendly regular expressions library
 LICENSE=	modified-bsd
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/${PKGBASE}
 
 USE_LANGUAGES=	c c++

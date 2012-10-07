@@ -12,6 +12,8 @@ MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://www.rekallrevealed.org/packages/
 COMMENT=		KDE database frontend
 
+PKG_DESTDIR_SUPPORT=	none
+
 USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=		yes
 GNU_CONFIGURE=		yes

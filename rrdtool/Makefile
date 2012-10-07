@@ -11,8 +11,6 @@ HOMEPAGE=	http://oss.oetiker.ch/rrdtool/
 COMMENT=	Data analysis tool generating graphical representations
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LIBTOOL=		yes
 USE_TOOLS+=		gmake pkg-config perl msgfmt intltool
 GNU_CONFIGURE=		yes

@@ -13,6 +13,8 @@ COMMENT=		Qemu OpenMoko Neo1973 phone emulator
 
 NOT_FOR_PLATFORM=	NetBSD-1.[0-6]*-*
 
+PKG_DESTDIR_SUPPORT=	none
+
 USE_TOOLS+=		gmake perl:build
 USE_TOOLS+=		tar gzip
 HAS_CONFIGURE=		yes

@@ -10,8 +10,6 @@ HOMEPAGE=		http://www.basho.com/products_riak_overview.php
 COMMENT=		Distributed, highly available data store
 LICENSE=		apache-2.0
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=		c c++
 USE_TOOLS=		gmake
 

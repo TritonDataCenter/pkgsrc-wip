@@ -7,8 +7,6 @@ OWNER=		dillo@NetBSD.org
 HOMEPAGE=	http://residual.sourceforge.net/
 COMMENT=	Lucas Arts' LUA-based 3D adventure engine
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 RESTRICTED=	changes daily
 NO_SRC_ON_FTP=	${RESTRICTED}
 NO_SRC_ON_CDROM=${RESTRICTED}

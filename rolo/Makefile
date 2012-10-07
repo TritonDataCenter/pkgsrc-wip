@@ -9,6 +9,8 @@ MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://rolo.sourceforge.net/
 COMMENT=		Text-based contact manager
 
+PKG_DESTDIR_SUPPORT=	none
+
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 

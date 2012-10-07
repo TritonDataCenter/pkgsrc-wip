@@ -10,8 +10,6 @@ HOMEPAGE=	http://marutan.net/rpcemuspoon/
 COMMENT=	Acorn RiscPC and A7000 emulator
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/${DISTNAME}/src
 
 GNU_CONFIGURE=	yes
