@@ -12,8 +12,6 @@ HOMEPAGE=	http://ftp.mozilla.org/pub/mozilla.org/directory/svrcore/releases/4.0.
 COMMENT=	Netscape svrcore is a kind of library to handle NSS PIN requests
 LICENSE=	gnu-gpl-v2 OR gnu-lgpl-v2.1 OR mpl-1.1
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_TOOLS+=	pkg-config

@@ -13,7 +13,6 @@ HOMEPAGE=	http://sourceforge.net/projects/arabeyes/files/
 COMMENT=	This font was created by Sharif University
 
 WRKSRC=	${WRKDIR}
-PKG_DESTDIR_SUPPORT=	user-destdir
 
 USE_LANGUAGES=	# none
 NO_BUILD=		yes

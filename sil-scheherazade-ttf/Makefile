@@ -11,8 +11,6 @@ HOMEPAGE=	http://scripts.sil.org/ArabicFonts
 COMMENT=	Smart unicode font for arabic
 LICENSE=	open-font-license
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/ttf-sil-scheherazade-1.001
 USE_LANGUAGES=	# none
 

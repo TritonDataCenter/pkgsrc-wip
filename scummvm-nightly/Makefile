@@ -8,8 +8,6 @@ HOMEPAGE=	http://scummvm.sourceforge.net/
 COMMENT=	LucasArts Script Creation Utility for Maniac Mansion
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 NO_SRC_ON_FTP=	# changes daily
 NO_SRC_ON_CDROM=# changes daily
 USE_TOOLS+=	gmake perl

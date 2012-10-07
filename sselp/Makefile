@@ -11,8 +11,6 @@ HOMEPAGE=	http://tools.suckless.org/sselp
 COMMENT=	Simple X selection printer. Prints the X selection to stdout
 LICENSE=	mit
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 NO_CONFIGURE=   yes
 
 # Adjust config.mk

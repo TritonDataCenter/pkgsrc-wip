@@ -11,8 +11,6 @@ HOMEPAGE=	http://sfml.sourceforge.net/
 COMMENT=	Free multimedia C++ API
 LICENSE=	zlib
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=			${WRKDIR}/SFML-1.6
 USE_LANGUAGES=		c c++
 USE_TOOLS+=		gmake rm

@@ -16,8 +16,6 @@ CONFLICTS+=	ja-samba-[0-9]* pam-smbpass-[0-9]* tdb-[0-9]* winbind-[0-9]*
 
 # DEPENDS=	xsltproc
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 FILESDIR=		${PKGDIR}/../../net/samba/files
 DESCR_SRC=		${PKGDIR}/../../net/samba/DESCR
 MESSAGE_SRC=		${PKGDIR}/../../net/samba/MESSAGE

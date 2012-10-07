@@ -21,8 +21,6 @@ HOMEPAGE=	http://www.swig.org/
 COMMENT=	Simplified Wrapper and Interface Generator
 LICENSE=	2-clause-bsd
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 CONFLICTS=		swig-build-[0-9]*
 
 CONFIGURE_ARGS+=	--with-swiglibdir=${PREFIX}/share/swig/1.3

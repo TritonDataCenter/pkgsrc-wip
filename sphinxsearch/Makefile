@@ -16,8 +16,6 @@ USE_LANGUAGES=	c c++
 USE_LIBTOOL=	yes
 BUILD_DEFS+=	VARBASE
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 .include "../../mk/bsd.prefs.mk"
 
 SPHINX_USER?=	sphinx

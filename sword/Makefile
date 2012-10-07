@@ -10,8 +10,6 @@ HOMEPAGE=	http://www.crosswire.org/ftpmirror/pub/sword/source/v1.6/
 COMMENT=	SWORD Bible study software libraries and tools
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_TOOLS+=	pkg-config gmake

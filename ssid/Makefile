@@ -10,8 +10,6 @@ HOMEPAGE=	http://tools.suckless.org/ssid/
 COMMENT=	Simple setsid replacement
 LICENSE=	mit
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 NO_CONFIGURE=   yes
 
 # Adjust config.mk

@@ -12,6 +12,8 @@ COMMENT=		Tablature (guitar partition) editor
 
 DEPENDS+=		${PYPKGPREFIX}-EditObj2-[0-9]*:../../wip/py-EditObj2
 
+PKG_DESTDIR_SUPPORT=	none
+
 PY_PATCHPLIST=		yes
 PYDISTUTILSPKG=		yes
 

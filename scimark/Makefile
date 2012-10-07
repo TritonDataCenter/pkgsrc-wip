@@ -11,8 +11,6 @@ MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	http://math.nist.gov/scimark2/index.html
 COMMENT=	Java benchmark for scientific and numerical computing
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}
 
 USE_JAVA=  run

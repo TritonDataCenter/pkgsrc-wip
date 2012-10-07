@@ -10,8 +10,6 @@ HOMEPAGE=		http://shlang.com/stmpclean/
 COMMENT=		Secure /tmp cleaner
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 DOCDIR=	${PREFIX}/share/doc/stmpclean
 
 INSTALLATION_DIRS=	sbin ${DOCDIR}	${PKGMANDIR}/man8

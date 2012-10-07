@@ -20,7 +20,6 @@ REPLACE_PERL=	runtime/fold.pl runtime/i486-cleanup.pl \
 		runtime/i486-optimize.pl runtime/sched.pl \
 		runtime/x86_recog.pl test/maketestbattery.pl
 GNU_CONFIGURE=	yes
-PKG_DESTDIR_SUPPORT=	user-destdir
 
 SUBST_CLASSES+=	replace_bash_early
 SUBST_STAGE.replace_bash_early=	pre-configure

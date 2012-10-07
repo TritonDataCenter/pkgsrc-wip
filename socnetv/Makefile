@@ -11,8 +11,6 @@ HOMEPAGE=	http://socnetv.sourceforge.net/index.html
 COMMENT=	Social network analysis and visualisation application
 LICENSE=	gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/socnetv-0.90
 
 GNU_CONFIGURE=	yes

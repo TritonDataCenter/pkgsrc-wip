@@ -11,8 +11,6 @@ HOMEPAGE=	https://wci.llnl.gov/codes/silo/silo-4.8/
 COMMENT=	Mesh and filed I/O library and scientific databases
 LICENSE=	modified-bsd
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_LANGUAGES=	c c++ fortran77
 

@@ -11,8 +11,6 @@ HOMEPAGE=	http://code.google.com/p/stksolver/
 COMMENT=	Stokes flow solver using the boundary element method
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=	${WRKDIR}/stkSolver
 
 USE_TOOLS+=	gmake

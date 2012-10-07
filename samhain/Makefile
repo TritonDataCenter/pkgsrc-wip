@@ -9,6 +9,8 @@ MAINTAINER=	lavalamp@digitalfreaks.org
 HOMEPAGE=	http://www.la-samhna.de/samhain/
 COMMENT=	Open-source IDS/file integrity checking
 
+PKG_DESTDIR_SUPPORT=	none
+
 BUILD_DEFS+=	VARBASE
 WRKSRC=		${WRKDIR}/${PKGNAME_NOREV}
 RCD_SCRIPTS=	samhain

@@ -9,8 +9,6 @@ MAINTAINER=		tonnerre@NetBSD.org
 HOMEPAGE=		http://s9y.org/
 COMMENT=		Blogging tool written in php
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_TOOLS+=		pax
 
 .include "../../mk/bsd.prefs.mk"

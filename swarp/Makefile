@@ -11,8 +11,6 @@ HOMEPAGE=	http://tools.suckless.org/swarp
 COMMENT=	Simple mouse pointer warping tool for X
 LICENSE=	mit
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 NO_CONFIGURE=   yes
 
 # Adjust config.mk

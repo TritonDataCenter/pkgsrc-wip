@@ -11,8 +11,6 @@ HOMEPAGE=	http://www.sourcefiles.org/Internet/Communications/Telephony/sipbomber
 COMMENT=	SipBomber is a SIP protocol testing tool
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/${DISTNAME:C/_.*$//}
 USE_LANGUAGES=	c c++
 NO_CONFIGURE=	YES

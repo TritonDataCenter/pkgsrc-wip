@@ -12,8 +12,6 @@ HOMEPAGE=	http://www.algorithm.uni-bayreuth.de/en/research/SYMMETRICA/
 COMMENT=	Library for combinatorics
 #LICENSE=	# TODO: (see mk/license.mk)
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=	${WRKDIR}
 
 USE_TOOLS+=	gmake

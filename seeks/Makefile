@@ -10,7 +10,6 @@ MAINTAINER=	erin.nivelet@erinlalouve.com
 HOMEPAGE=	https://www.seeks-project.info/
 COMMENT=	Decentralized metasearch engine
 
-PKG_DESTDIR_SUPPORT=	user-destdir
 MAKE_JOBS_SAFE=	no
 
 DEPENDS+=       autogen-[0-9]*:../../devel/autogen

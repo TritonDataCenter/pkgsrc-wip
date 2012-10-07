@@ -13,7 +13,6 @@ COMMENT=	Music tracker similar to Impulse Tracker
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_LANGUAGES=	c c++
-PKG_DESTDIR_SUPPORT=	user-destdir
 
 .include "../../devel/SDL/buildlink3.mk"
 

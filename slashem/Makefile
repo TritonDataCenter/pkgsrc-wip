@@ -11,8 +11,6 @@ HOMEPAGE=	http://slashem.sourceforge.net/
 COMMENT=	Slash'EM is a Nethack variant with more stuff
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/${PKGNAME_NOREV}
 USE_LANGUAGES=	c c++
 HAS_CONFIGURE=	yes

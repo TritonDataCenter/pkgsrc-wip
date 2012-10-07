@@ -13,6 +13,8 @@ COMMENT=		2D jump'n run game in the style of the Super Mario ones
 
 LICENSE=		gnu-gpl-v2
 
+PKG_DESTDIR_SUPPORT=	none
+
 HAS_CONFIGURE=		YES
 CONFIGURE_ARGS+=	--prefix=${PREFIX:Q}
 USE_TOOLS+=		gmake

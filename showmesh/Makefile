@@ -10,8 +10,6 @@ MAINTAINER=	schwarz@NetBSD.org
 HOMEPAGE=	http://www-dinma.univ.trieste.it/nirftc/research/easymesh/
 COMMENT=	Display program for easymesh
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}
 NO_CONFIGURE=	YES
 

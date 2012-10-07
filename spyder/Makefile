@@ -17,8 +17,6 @@ DEPENDS+=	${PYPKGPREFIX}-scipy>=0.7.2:../../math/py-scipy
 DEPENDS+=	${PYPKGPREFIX}-cElementTree-[0-9]*:../../textproc/py-cElementTree 
 DEPENDS+=	${PYPKGPREFIX}-sphinx>=1.0.7:../../textproc/py-sphinx
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_PKGLOCALEDIR=	yes
 USE_LANGUAGES=		# none
 

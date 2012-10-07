@@ -9,8 +9,6 @@ HOMEPAGE=	http://github.com/bumptech/stud
 COMMENT=	Scalable TLS Unwrapping Daemon
 LICENSE=	2-clause-bsd
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GIT_REPOSITORIES=	stud
 GIT_REPO.stud=		git://github.com/bumptech/stud.git
 

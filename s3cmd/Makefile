@@ -21,8 +21,6 @@ SUBST_SED.fix-paths=		-e 's,"share/man","${PKGMANDIR}",g'
 
 PYDISTUTILSPKG=	yes
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	# none
 
 .include "../../lang/python/application.mk"

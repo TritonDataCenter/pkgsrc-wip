@@ -14,7 +14,6 @@ MAINTAINER=	aniou@smutek.pl
 HOMEPAGE=	http://slrn.sourceforge.net/
 COMMENT=	Highly customizable threaded newsreader
 
-PKG_DESTDIR_SUPPORT=	user-destdir
 MAKE_JOBS_SAFE=		no
 
 USE_PKGLOCALEDIR=	yes

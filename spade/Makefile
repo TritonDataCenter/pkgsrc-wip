@@ -19,7 +19,6 @@ DEPENDS+=	${PYPKGPREFIX}-m2crypto>=0.13:../../security/py-m2crypto
 DEPENDS+=	${PYPKGPREFIX}-event>=0.3:../../wip/py-event
 DEPENDS+=	jython>=2.5.1:../../wip/jython
 
-PKG_DESTDIR_SUPPORT=	user-destdir
 WRKSRC=	${WRKDIR}/spade
 
 PYDISTUTILSPKG=	yes

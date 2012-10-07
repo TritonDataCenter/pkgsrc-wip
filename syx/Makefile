@@ -10,8 +10,6 @@ HOMEPAGE=	http://syx.berlios.de/
 COMMENT=	Free and portable smalltalk implementation
 LICENSE=	mit
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_TOOLS+=	pkg-config gmake

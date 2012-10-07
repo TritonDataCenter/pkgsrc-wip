@@ -16,8 +16,6 @@ LICENSE=		gnu-gpl-v3
 USE_LANGUAGES=		c c++
 GNU_CONFIGURE=		yes
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_TOOLS+=		aclocal autoheader autoconf automake pkg-config
 
 AUTOCONF_REQD=		2.61

@@ -11,8 +11,6 @@ HOMEPAGE=	http://redmine.lighttpd.net/projects/spawn-fcgi
 COMMENT=	Spawns FCGI-Processes and runs with priviledge separation
 LICENSE=        modified-bsd
 
-PKG_DESTDIR_SUPPORT=    user-destdir
-
 CONFLICTS=       lighttpd<1.4.23
 
 GNU_CONFIGURE=	yes

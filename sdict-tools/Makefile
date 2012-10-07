@@ -12,7 +12,6 @@ HOMEPAGE=	http://sdict.com/
 COMMENT=	SDict conversion tools
 
 USE_TOOLS+=		gzip tar
-PKG_DESTDIR_SUPPORT=	user-destdir
 
 DEPENDS+=	p5-DBI-[0-9]*:../../databases/p5-DBI
 DEPENDS+=	p5-Crypt-Blowfish-[0-9]*:../../security/p5-Crypt-Blowfish

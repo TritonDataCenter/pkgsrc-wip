@@ -11,8 +11,6 @@ HOMEPAGE=	http://www.coin3d.org/lib/soqt/
 COMMENT=	Legacy library that provides glue between Coin and Qt
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_TOOLS+=	gmake

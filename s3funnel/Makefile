@@ -13,8 +13,6 @@ COMMENT=	Multithreaded tool for performing operations on Amazon S3
 DEPENDS+=       ${PYPKGPREFIX}-boto>=1.9:../../net/py-boto
 DEPENDS+=	${PYPKGPREFIX}-workerpool-[0-9]*:../../wip/py-workerpool
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	# none
 
 .include "../../lang/python/egg.mk"

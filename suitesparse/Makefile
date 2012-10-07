@@ -10,8 +10,6 @@ MAINTAINER=	jwbacon@tds.net
 HOMEPAGE=	http://www.cise.ufl.edu/research/sparse/SuiteSparse/
 COMMENT=	SuiteSparse is a set of packages for sparse matrices calculation
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 # Actually uses a combination of gpl and lgpl
 # Not sure how to specify 2 licenses, so just listing the stricter one
 LICENSE=	gnu-gpl-v2

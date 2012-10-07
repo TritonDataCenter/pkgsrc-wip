@@ -9,8 +9,6 @@ HOMEPAGE=	http://quietsche-entchen.de/cgi-bin/wiki.cgi/proxies/00-WikiIndex
 COMMENT=	The smtp.proxy is an application level gateway for SMTP
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 MAKE_FILE=	makefile
 
 INSTALLATION_DIRS=	sbin ${PKGMANDIR}/man1

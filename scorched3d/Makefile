@@ -14,8 +14,6 @@ HOMEPAGE=	http://www.scorched3d.co.uk/
 COMMENT=	3D version of the classic DOS game Scorched Earth
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/scorched
 GNU_CONFIGURE=	yes
 USE_LANGUAGES=	c c++

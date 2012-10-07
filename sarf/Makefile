@@ -11,9 +11,6 @@ MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	http://sourceforge.net/projects/sarf/
 COMMENT=	Arabic Morphology System
 
-
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}
 
 VERSION=	1.0

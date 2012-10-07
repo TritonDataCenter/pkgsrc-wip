@@ -14,6 +14,8 @@ COMMENT=	Syslog-ng embodies the next generation of logging systems
 
 CONFLICTS=	syslog-ng-[0-9]*
 
+PKG_DESTDIR_SUPPORT=	none
+
 USE_TOOLS+=	pkg-config pax
 
 GNU_CONFIGURE=	yes

@@ -10,6 +10,8 @@ MAINTAINER=	x400@msfu.ru
 HOMEPAGE=	http://www.soft-switch.org/
 COMMENT=	DSP functions
 
+PKG_DESTDIR_SUPPORT=	none
+
 WRKSRC=		${WRKDIR}/spandsp-0.0.6
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes

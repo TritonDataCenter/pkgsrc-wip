@@ -10,7 +10,6 @@ HOMEPAGE=		http://www.stunnel.org/
 COMMENT=		Universal SSL tunnel
 LICENSE=		gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
 INSTALLATION_DIRS=	sbin lib ${PKGMANDIR}/man8 share/doc/stunnel3
 
 CONFLICTS=		stunnel-[0-9]*

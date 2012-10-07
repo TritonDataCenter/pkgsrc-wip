@@ -11,6 +11,8 @@ MAINTAINER=		ianzag@mail.ru
 HOMEPAGE=		http://serlook.sunsite.dk/
 COMMENT=		SerLooK is a tool aimed to inspect and debug serial line data traffic
 
+PKG_DESTDIR_SUPPORT=	none
+
 WRKSRC=			${WRKDIR}/${DISTNAME:C/-KDE3//}/
 
 USE_LANGUAGES=	c c++
