@@ -13,8 +13,10 @@ WRKSRC=		${WRKDIR}/${PKGNAME_NOREV}/src
 
 BUILD_TARGET=	unix
 
+INSTALLATION_DIRS=	bin ${PKGMANDIR}/man1
+
 do-install:
-	${INSTALL_PROGRAM} ${WRKSRC}/shttpd ${PREFIX}/bin
-	${INSTALL_MAN} ${WRKSRC}/shttpd.1 ${PREFIX}/${PKGMANDIR}/man1
+	${INSTALL_PROGRAM} ${WRKSRC}/shttpd ${DESTDIR}${PREFIX}/bin
+	${INSTALL_MAN} ${WRKSRC}/shttpd.1 ${DESTDIR}${PREFIX}/${PKGMANDIR}/man1
 
 .include "../../mk/bsd.pkg.mk"

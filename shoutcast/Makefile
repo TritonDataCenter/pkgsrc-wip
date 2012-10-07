@@ -23,6 +23,6 @@ post-build:
 	@${SED} -e "s,@PKG_SYSCONFDIR@,${PKG_SYSCONFDIR},g" < ${WRKSRC}/tmp >${WRKSRC}/sc_serv.conf
 
 do-install:
-	@${FILESDIR}/install.sh ${WRKDIR}/shoutcast-1-9-2-linux-glibc6 ${LOCALBASE} ${PKG_SYSCONFDIR}
+	@${FILESDIR}/install.sh ${WRKDIR}/shoutcast-1-9-2-linux-glibc6 ${DESTDIR}${LOCALBASE} ${DESTDIR}${PKG_SYSCONFDIR}
 
 .include "../../mk/bsd.pkg.mk"
