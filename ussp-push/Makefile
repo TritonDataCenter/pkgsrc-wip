@@ -11,8 +11,10 @@ COMMENT=		OBEX object pusher for BlueZ
 
 ONLY_FOR_PLATFORM=	Linux-*-*
 
+INSTALLATION_DIRS=	bin
+
 do-install:
-	${INSTALL_PROGRAM} ${WRKSRC}/ussp-push ${PREFIX}/bin
+	${INSTALL_PROGRAM} ${WRKSRC}/ussp-push ${DESTDIR}${PREFIX}/bin
 
 .include "../../devel/glib/buildlink3.mk"
 .include "../../comms/openobex/buildlink3.mk"

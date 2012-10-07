@@ -26,7 +26,7 @@ NO_BUILD=		yes
 INSTALLATION_DIRS=	bin
 
 do-install:
-	${INSTALL_SCRIPT} ${WRKSRC}/${DISTNAME}${EXTRACT_SUFX} ${PREFIX}/bin/${PKGBASE}
+	${INSTALL_SCRIPT} ${WRKSRC}/${DISTNAME}${EXTRACT_SUFX} ${DESTDIR}${PREFIX}/bin/${PKGBASE}
 
 
 .include 	"../../graphics/ImageMagick/buildlink3.mk"
