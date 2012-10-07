@@ -12,8 +12,6 @@ HOMEPAGE=	http://www.muonics.com/FreeStuff/TkPNG/
 COMMENT=	Open source package that adds PNG photo image support to Tcl/Tk
 #LICENSE=	# TODO: (see ${WRKSRC}/${DISTNAME}/license.terms)
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 
 CONFIGURE_ARGS+=	--with-tcl=${BUILDLINK_PREFIX.tcl}/lib/tcl8.5 \

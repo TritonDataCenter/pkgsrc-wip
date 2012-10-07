@@ -12,8 +12,6 @@ HOMEPAGE=	http://home.thep.lu.se/~leif/ThePEG/
 COMMENT=	Toolkit for High Energy Physics Event Generation
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 CHECK_PORTABILITY_SKIP= configure
 
 GNU_CONFIGURE=	yes

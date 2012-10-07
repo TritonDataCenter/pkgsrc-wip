@@ -11,8 +11,6 @@ HOMEPAGE=	http://www.floodgap.com/software/ttytter/dist1/
 COMMENT=	Twitter client written in perl
 #LICENSE=	# The Floodgap Free Software License
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}
 USE_LANGUAGES=	# none
 NO_BUILD=	yes

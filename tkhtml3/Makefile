@@ -11,8 +11,6 @@ HOMEPAGE=	http://tkhtml.tcl.tk/
 COMMENT=	Tk widget displaying content formatted to HTML and CSS standards
 LICENSE=	modified-bsd # ?
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/htmlwidget
 GNU_CONFIGURE=	yes
 USE_TOOLS+=	gmake

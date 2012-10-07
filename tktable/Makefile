@@ -11,8 +11,6 @@ HOMEPAGE=	http://tktable.sourceforge.net/
 COMMENT=	Full-featured 2D table widget for Tk
 #LICENSE=	# TODO: (see ${WRKSRC}/license.txt)
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 
 CONFIGURE_ARGS+=	--with-tcl=${BUILDLINK_PREFIX.tcl}/lib/tcl8.5 \

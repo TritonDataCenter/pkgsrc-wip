@@ -11,8 +11,6 @@ HOMEPAGE=		http://www.torproject.org/
 COMMENT=		Anonymizing overlay network for TCP
 LICENSE=		modified-bsd
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 .include "../../mk/bsd.prefs.mk"
 
 USE_LANGUAGES=		c99

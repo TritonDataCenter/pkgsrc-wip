@@ -14,8 +14,6 @@ HOMEPAGE=	http://trac-hacks.org/wiki/MasterTicketsPlugin
 #HOMEPAGE+=	https://github.com/coderanger/trac-mastertickets/
 COMMENT=	Ticket dependency plugin for Trac
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 EGG_NAME=	${DISTNAME}
 
 DEPENDS+=	{ja-,}trac>=0.11:../../www/trac

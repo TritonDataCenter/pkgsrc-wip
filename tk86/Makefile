@@ -11,8 +11,6 @@ EXTRACT_SUFX=
 EXTRACT_CMD=		tar xzf $$extract_file
 COMMENT=		Graphical toolkit for Tcl
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 .include "../../wip/tk86/Makefile.version"
 .include "../../wip/tcl86/options.mk"
 

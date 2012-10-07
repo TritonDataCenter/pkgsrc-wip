@@ -10,6 +10,8 @@ MAINTAINER=	jfranz@bsdprojects.net
 HOMEPAGE=	http://trackballs.sourceforge.net/
 COMMENT=	SDL-based Marble Madness clone
 
+PKG_DESTDIR_SUPPORT=	none
+
 GNU_CONFIGURE=		yes
 USE_PKGLOCALEDIR=	yes
 USE_LANGUAGES=		c++ c99

@@ -11,8 +11,6 @@ HOMEPAGE=	http://incrtcl.sourceforge.net/
 COMMENT=	O-O system for Tcl
 LICENSE=	2-clause-bsd # ?
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 
 CONFIGURE_ARGS+=	--with-tcl=${BUILDLINK_PREFIX.tcl}/lib/tcl8.5 \

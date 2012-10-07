@@ -24,8 +24,6 @@ SUSE_VERSION_REQD=	7.3
 
 NOT_FOR_PLATFORM=	Linux-*-* NetBSD-[0-1]*-*
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=			${WRKDIR}
 TEMP?=			${WRKSRC}
 BUILD_DIRS=		# empty

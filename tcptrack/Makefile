@@ -9,8 +9,6 @@ HOMEPAGE=	http://www.rhythm.cx/~steve/devel/tcptrack/
 COMMENT=	Watch TCP connections
 LICENSE=	gnu-lgpl-v2.1
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=		c c++
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes

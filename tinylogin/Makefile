@@ -9,6 +9,8 @@ MAINTAINER=	pancake@phreaker.net
 HOMEPAGE=	http://tinylogin.busybox.net/
 COMMENT=	Suite of tiny Unix utilities for handling logging
 
+PKG_DESTDIR_SUPPORT=	none
+
 USE_TOOLS+=	gmake
 
 ONLY_FOR_PLATFORM=	Linux-*-*

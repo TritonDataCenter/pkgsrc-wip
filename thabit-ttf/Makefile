@@ -11,8 +11,6 @@ HOMEPAGE=	http://www.arabeyes.org/project.php?proj=Khotot
 COMMENT=	Thabit (from Arabic:fixed) is a fixed width OpenType font family
 LICENSE=	open-font-license
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 NO_CONFIGURE=		yes
 NO_BUILD=		yes
 USE_LANGUAGES=	# none

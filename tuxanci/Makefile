@@ -12,6 +12,8 @@ MAINTAINER=	pkgsrc@blackmouse.biz
 HOMEPAGE=	http://www.tuxanci.org/
 COMMENT=	czechoslovak multiplatform action game like Bulanci
 
+PKG_DESTDIR_SUPPORT=	none
+
 WRKSRC=	${WRKDIR}/pkgs/tuxanci-0.20.0-src
 
 USE_CMAKE=      yes

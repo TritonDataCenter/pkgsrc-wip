@@ -9,8 +9,6 @@ MAINTAINER=		MarkoSchuetz@web.de
 HOMEPAGE=		http://tardy.sourceforge.net/
 COMMENT=		Manipulate attributes of files within tar archives
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=		yes
 USE_LANGUAGES=		c++ c
 

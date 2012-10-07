@@ -15,8 +15,6 @@ LICENSE=	gnu-gpl-v3
 
 #BUILD_DEPENDS+=	fontforge-[0-9]*:../../fonts/fontforge
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}
 USE_LANGUAGES=	# none
 NO_CONFIGURE=	yes

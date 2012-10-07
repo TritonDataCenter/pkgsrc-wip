@@ -12,8 +12,6 @@ COMMENT=	Filesystem encryption package
 LICENSE=	truecrypt-license
 LICENSE_FILE=	truecrypt-license
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/truecrypt-7.0-source
 
 USE_TOOLS+=	gmake pkg-config

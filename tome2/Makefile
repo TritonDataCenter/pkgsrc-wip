@@ -11,7 +11,6 @@ MAINTAINER=	pho@cielonegro.org
 HOMEPAGE=	http://t-o-m-e.net/dl/src/
 COMMENT=	Troubles of Middle Earth
 
-PKG_DESTDIR_SUPPORT=	user-destdir
 MAKE_JOBS_SAFE=		no
 
 BUILD_DIRS=	src

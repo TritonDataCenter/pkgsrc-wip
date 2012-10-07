@@ -12,8 +12,6 @@ HOMEPAGE=	http://math.nist.gov/tnt/
 COMMENT=	Template Numerical Toolkit
 #LICENSE=	# TODO: (see mk/license.mk)
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/tnt
 
 NO_BUILD=	yes

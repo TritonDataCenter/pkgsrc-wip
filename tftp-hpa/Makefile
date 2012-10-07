@@ -10,8 +10,6 @@ HOMEPAGE=	http://freshmeat.net/projects/tftp-hpa/
 COMMENT=	Enhanced version of the BSD TFTP client and server
 LICENSE=	original-bsd
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	YES
 USE_TOOLS+=	autoconf gmake
 .include "../../mk/bsd.prefs.mk"

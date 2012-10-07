@@ -11,8 +11,6 @@ MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	http://developer.novell.com/wiki/index.php/TagLib_Sharp
 COMMENT=	Multimedia metadata reading/writing library for popular formats
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_TOOLS+=	pkg-config gmake
 USE_LANGUAGES=	# none

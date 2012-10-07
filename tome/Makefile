@@ -12,6 +12,8 @@ MAINTAINER=	pho@cielonegro.org
 HOMEPAGE=	http://t-o-m-e.net/
 COMMENT=	Troubles of Middle Earth
 
+PKG_DESTDIR_SUPPORT=	none
+
 BUILD_DIRS=	src
 MAKE_FILE=	makefile.std
 BUILD_TARGET=	default

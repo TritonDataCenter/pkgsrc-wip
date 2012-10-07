@@ -12,8 +12,6 @@ COMMENT=	Electronic Encyclopedia System
 
 DEPENDS+=	${PYPKGPREFIX}-sqlite3-[0-9]*:../../databases/py-sqlite3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_PKGLOCALEDIR=	yes
 USE_TOOLS+=	intltool msgfmt
 USE_LANGUAGES=		# none

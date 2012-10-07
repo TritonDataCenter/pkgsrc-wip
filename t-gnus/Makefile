@@ -10,6 +10,8 @@ COMMENT=	Gnus is a flexible message reader running under GNU Emacs
 
 DEPENDS+=	semi>=1.14.6:../../devel/semi
 
+PKG_DESTDIR_SUPPORT=	none
+
 WRKSRC=		${WRKDIR}/gnus
 
 GNU_CONFIGURE=		yes

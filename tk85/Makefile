@@ -9,8 +9,6 @@ MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.tcl.tk/
 COMMENT=	Graphical toolkit for TCL
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 .include "../../wip/tk85/Makefile.version"
 
 WRKSRC=			${WRKDIR}/tk${TK_VERSION}

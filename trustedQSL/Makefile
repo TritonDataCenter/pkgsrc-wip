@@ -11,6 +11,8 @@ HOMEPAGE=		http://www.arrl.org/files/file/LoTW%20Instructions/
 COMMENT=		Uploading QSL Data to LoTW of ARRL
 #LICENSE=		arrl
 
+PKG_DESTDIR_SUPPORT=	none
+
 USE_TOOLS+=		perl gmake
 USE_LANGUAGES+=		c c++
 USE_LIBTOOL=		yes

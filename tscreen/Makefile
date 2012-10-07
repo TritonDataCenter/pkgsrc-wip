@@ -10,7 +10,6 @@ COMMENT=	Multi-screen window manager
 LICENSE=	gnu-gpl-v2
 
 PKG_INSTALLATION_TYPES=	overwrite pkgviews
-PKG_DESTDIR_SUPPORT=	user-destdir
 
 .include "options.mk"
 

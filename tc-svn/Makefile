@@ -11,8 +11,6 @@ COMMENT=		2-stroke non associative direct input for Kanji
 # tc is in GPL2, kw is unknown for the moment
 LICENSE=		gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=			${WRKDIR}/tcode/tc
 INSTALLATION_DIRS=	${EMACS_INFOPREFIX} \
 			${EMACS_LISPPREFIX}/${DISTNAME} \

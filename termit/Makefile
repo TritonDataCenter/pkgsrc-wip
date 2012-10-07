@@ -11,8 +11,6 @@ HOMEPAGE=	http://wiki.github.com/nonstop/termit
 COMMENT=	Simple vte-based terminal with tabs and encoding switching
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	c c++
 USE_TOOLS+=	gmake
 USE_CMAKE=	yes

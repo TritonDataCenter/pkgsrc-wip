@@ -12,8 +12,6 @@ HOMEPAGE=	http://tmva.sourceforge.net
 COMMENT=	Toolkit for Multivariate Data Analysis with ROOT
 #LICENSE=	# TODO: (see mk/license.mk)
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_CMAKE=	yes
 USE_LANGUAGES=	c++
 

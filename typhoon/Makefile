@@ -9,4 +9,6 @@ MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://users.footprints.net/~kaz/
 COMMENT=		Database management system
 
+PKG_DESTDIR_SUPPORT=	none
+
 .include "../../mk/bsd.pkg.mk"

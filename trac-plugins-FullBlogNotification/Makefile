@@ -12,8 +12,6 @@ MAINTAINER=	roy@NetBSD.org
 HOMEPAGE=	http://trac-hacks.org/wiki/FullBlogNotificationPlugin
 COMMENT=	E-mail Notification for the FullBlog plugin for Trac
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 DEPENDS+=	trac-plugins-FullBlog>=0.1pre6158:../../wip/trac-plugins-FullBlog
 
 SVN_REV=	7463

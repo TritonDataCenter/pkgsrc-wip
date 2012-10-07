@@ -11,8 +11,6 @@ HOMEPAGE=	http://incrtcl.sourceforge.net/itk/index.html
 COMMENT=	Framework for building mega-widgets using [incr Tcl]
 LICENSE=	2-clause-bsd # ?
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=		yes
 CONFIGURE_ARGS+=	--with-tcl=${BUILDLINK_PREFIX.tcl}/lib/tcl8.5
 CONFIGURE_ARGS+=	--with-tk=${BUILDLINK_PREFIX.tk}/lib/tk8.5

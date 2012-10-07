@@ -9,6 +9,8 @@ MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		${MASTER_SITES}
 COMMENT=		Thomson-Davis Editor
 
+PKG_DESTDIR_SUPPORT=	none
+
 USE_TOOLS+=		gmake
 MAKE_FILE=		makefile
 BUILD_TARGET=		tde

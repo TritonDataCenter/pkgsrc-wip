@@ -15,8 +15,6 @@ MAINTAINER=	gdt@NetBSD.org
 HOMEPAGE=	http://trac-hacks.org/wiki/GraphVizPlugin
 COMMENT=	Graphviz plugin for Trac
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 DEPENDS+=	{ja-,}trac>=0.11:../../www/trac
 
 EGG_NAME=	graphviz-${UPSTREAM_VERSION}dev

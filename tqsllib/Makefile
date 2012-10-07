@@ -11,6 +11,8 @@ HOMEPAGE=	http://www.arrl.org/files/file/LoTW%20Instructions/
 COMMENT=	Tqsl library for ARRL LoTW
 #LICENSE=	arrl
 
+PKG_DESTDIR_SUPPORT=	none
+
 GNU_CONFIGURE=	yes
 USE_LANGUAGES+=	c c++
 USE_LIBTOOL=	yes

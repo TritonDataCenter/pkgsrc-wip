@@ -13,7 +13,6 @@ HOMEPAGE=		http://www.tipp10.com/
 COMMENT=		Touch typing tutor
 LICENSE=		gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
 USE_LANGUAGES+=		c++
 
 .include		 "../../x11/qt4-libs/buildlink3.mk"

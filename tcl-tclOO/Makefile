@@ -11,8 +11,6 @@ HOMEPAGE=	http://www.tcl.tk/
 COMMENT=	Core for other TCL OO extensions and basic TCL OO framework
 #LICENSE=	# TODO: (see mk/license.mk)
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 
 CONFIGURE_ARGS+=	--with-tcl=${BUILDLINK_PREFIX.tcl}/lib/tcl8.5

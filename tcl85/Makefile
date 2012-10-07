@@ -12,8 +12,6 @@ COMMENT=	Tool Command Language, a dynamic language
 CONFLICTS+=	tclman80-[0-9]*
 CONFLICTS+=	tcl86-* tcl-[0-9]*
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 .include "../../wip/tcl85/Makefile.version"
 
 WRKSRC=			${WRKDIR}/tcl${TCL_VERSION}

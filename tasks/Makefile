@@ -11,8 +11,6 @@ HOMEPAGE=	http://pimlico-project.org/tasks.html
 COMMENT=	Simple To Do list application for GNOME
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_TOOLS+=	intltool pkg-config gmake
 

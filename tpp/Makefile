@@ -9,8 +9,6 @@ MAINTAINER=		esg@sdf.lonestar.org
 HOMEPAGE=		http://synflood.at/tpp/
 COMMENT=		Tpp is an ncurses-based presentation tool
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	# none
 
 DEPENDS+=	${RUBY_PKGPREFIX}-ncurses>=0.8:../../devel/ruby-ncurses

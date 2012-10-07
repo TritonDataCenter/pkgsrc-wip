@@ -9,6 +9,8 @@ MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.thc.org/
 COMMENT=	Gathers information from local and remote networks
 
+PKG_DESTDIR_SUPPORT=	none
+
 GNU_CONFIGURE=	yes
 
 .include "../../mk/bsd.pkg.mk"

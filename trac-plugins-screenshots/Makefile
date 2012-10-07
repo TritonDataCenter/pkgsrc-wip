@@ -12,8 +12,6 @@ MAINTAINER=	roy@NetBSD.org
 HOMEPAGE=	http://trac-hacks.org/wiki/ScreenshotsPlugin
 COMMENT=	Screenshots plugin for Trac
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 DEPENDS+=	{ja-,}trac>=0.11:../../www/trac
 
 SVN_REV=	7703
