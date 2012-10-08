@@ -9,9 +9,7 @@ EXTRACT_SUFX=		_tar.gz
 MAINTAINER=		makoto@ki.nu
 HOMEPAGE=		http://www.arrl.org/files/file/LoTW%20Instructions/
 COMMENT=		Uploading QSL Data to LoTW of ARRL
-#LICENSE=		arrl
-
-PKG_DESTDIR_SUPPORT=	none
+#LICENSE=		See LICENSE file (ARRL)
 
 USE_TOOLS+=		perl gmake
 USE_LANGUAGES+=		c c++
