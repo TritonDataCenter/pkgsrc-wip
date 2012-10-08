@@ -8,7 +8,6 @@ MAINTAINER=	pho@cielonegro.org
 COMMENT=	Fast rendering of common datatypes
 LICENSE=	modified-bsd
 
-PKG_DESTDIR_SUPPORT= user-destdir
 .include "options.mk"
 
 .include "../../wip/mk/haskell.mk"

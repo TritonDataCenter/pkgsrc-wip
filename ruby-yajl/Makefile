@@ -9,7 +9,5 @@ HOMEPAGE=	https://github.com/brianmario/yajl-ruby
 COMMENT=	Ruby C binding to YAJL JSON library
 LICENSE=	mit
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 .include "../../lang/ruby/gem.mk"
 .include "../../mk/bsd.pkg.mk"

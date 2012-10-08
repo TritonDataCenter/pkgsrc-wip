@@ -10,8 +10,6 @@ HOMEPAGE=	http://chems.sourceforge.net/
 COMMENT=	The geekest content helper management system
 LICENSE=	gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 NO_CONFIGURE=	yes
 NO_BUILD=	yes
 

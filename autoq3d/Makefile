@@ -12,8 +12,6 @@ HOMEPAGE=	http://www.autoq3d.com/
 COMMENT=	Application for computer aided drafting in two and dimensions
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=			${WRKDIR}/AutoQ3DCommunity1-40qt4source
 USE_LANGUAGES=		c++
 

@@ -9,8 +9,6 @@ MAINTAINER=	cg@cgall.de
 HOMEPAGE=	http://mutt-ng.berlios.de/
 COMMENT=	Fork of the well-known email client mutt
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 INSTALL_UNSTRIPPED=	yes
