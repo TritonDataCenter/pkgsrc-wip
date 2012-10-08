@@ -2241,6 +2241,7 @@ SUBDIR+=	pt-ttf
 SUBDIR+=	pts
 SUBDIR+=	ptunnel
 SUBDIR+=	pudb
+SUBDIR+=	pulseaudio
 SUBDIR+=	pure
 SUBDIR+=	purple-translate
 SUBDIR+=	pxlib
