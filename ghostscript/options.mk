@@ -15,6 +15,11 @@ CONFIGURE_ARGS+=	--with-x
 .include "../../x11/libX11/buildlink3.mk"
 .include "../../x11/libXt/buildlink3.mk"
 .include "../../x11/libXext/buildlink3.mk"
+
+. if !empty(X11_TYPE:Mnative)
+.  include "../../x11/libxcb/buildlink3.mk"
+.  include "../../graphics/freetype2/buildlink3.mk"
+. endif
 .else
 CONFIGURE_ARGS+=	--without-x
 CONFIGURE_ARGS+=	--disable-freetype
