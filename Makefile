@@ -849,7 +849,6 @@ SUBDIR+=	guilerxspencer
 SUBDIR+=	guitone
 SUBDIR+=	gune
 SUBDIR+=	gupnp-ui
-SUBDIR+=	gupnp-vala
 SUBDIR+=	gurlchecker
 SUBDIR+=	gvariant
 SUBDIR+=	gwget
