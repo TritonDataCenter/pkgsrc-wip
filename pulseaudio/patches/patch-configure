@@ -4,6 +4,15 @@ $NetBSD$
 
 --- configure.orig	2012-07-19 11:30:11.000000000 +0000
 +++ configure
+@@ -8062,7 +8062,7 @@ $as_echo "#define ATOMIC_ARM_INLINE_ASM 
+ fi
+             fi
+         ;;
+-        *-netbsdelf5*)
++        *-netbsd*)
+             { $as_echo "$as_me:${as_lineno-$LINENO}: result: yes" >&5
+ $as_echo "yes" >&6; }
+             need_libatomic_ops=no
 @@ -19748,7 +19748,7 @@ _ACEOF
  
  fi

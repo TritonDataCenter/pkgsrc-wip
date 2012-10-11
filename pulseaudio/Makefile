@@ -21,6 +21,11 @@ USE_LANGUAGES=	c c++
 .if ${OPSYS} == "NetBSD"
 CONFIGURE_ARGS+=	--disable-default-build-tests
 .endif
+.if ${OPSYS} == "NetBSD" && !empty(OS_VERSION:M[45].*)
+# broken test for TLS
+CONFIGURE_ENV+=		ac_cv_tls=none
+.endif
+
 
 CONFIGURE_ENV+=		EGDIR=${EGDIR}
 MAKE_ENV+=		EGDIR=${EGDIR}

@@ -7,7 +7,7 @@ PULSEAUDIO_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.pulseaudio+=	pulseaudio>=2.1
 BUILDLINK_ABI_DEPENDS.pulseaudio+=	pulseaudio>=2.1
-BUILDLINK_PKGSRCDIR.pulseaudio?=	../../wip/pulseaudio
+BUILDLINK_PKGSRCDIR.pulseaudio?=	../../audio/pulseaudio2
 
 .include "../../mk/bsd.fast.prefs.mk"
 
