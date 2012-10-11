@@ -18,8 +18,10 @@ LICENSE=	gnu-gpl-v3
 DEPENDS+=		ghostscript-fonts>=6.0:../../fonts/ghostscript-fonts
 
 CONFLICTS+=		ghostscript-afpl-[0-9]*
-CONFLICTS+=		ghostscript-esp{,-nox11}-[0-9]*
-CONFLICTS+=		ghostscript-gnu{,-nox11,-x11}-[0-9]*
+CONFLICTS+=		ghostscript-esp-[0-9]*
+CONFLICTS+=		ghostscript-esp-nox11-[0-9]*
+CONFLICTS+=		ghostscript-gnu-x11-[0-9]*
+CONFLICTS+=		ghostscript-gnu-nox11-[0-9]*
 
 USE_TOOLS+=		gmake perl:run lex pkg-config
 USE_LANGUAGES+=		c c++
