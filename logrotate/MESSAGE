@@ -9,5 +9,5 @@ ${PKG_SYSCONFDIR}/logrotate.d/
 2/ set up a daily cron job for logrotate in ${ROOT_USER}'s crontab;
 this can be done with one of the following line:
 0 0 * * * /bin/sh ${EGDIR}/logrotate.cron
-0 0 * * * ${PREFIX}/bin/logrotate ${PKG_SYSCONFDIR}/logrotate.conf
+0 0 * * * ${PREFIX}/sbin/logrotate ${PKG_SYSCONFDIR}/logrotate.conf
 ===========================================================================
