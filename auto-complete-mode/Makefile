@@ -1,17 +1,15 @@
 # $NetBSD$
 #
 
-DISTNAME=		auto-complete-1.3.1a
+DISTNAME=		auto-complete-1.3.1
 CATEGORIES=		editors
 MASTER_SITES=		http://cx4a.org/pub/auto-complete/
-#EXTRACT_SUFX=		.tar.bz2
+EXTRACT_SUFX=		.tar.bz2
 
 MAINTAINER=		pho@cielonegro.org
 HOMEPAGE=		http://cx4a.org/software/auto-complete/index.html
 COMMENT=		The most intelligent auto-completion extension for GNU Emacs
 LICENSE=		gnu-gpl-v3
-
-WRKSRC=			${WRKDIR}/auto-complete
 
 MESSAGE_SUBST+=         LISPDIR=${EMACS_LISPPREFIX:Q}
 MESSAGE_SUBST+=		PKGBASE=${PKGBASE:Q}
@@ -20,7 +18,7 @@ INSTALLATION_DIRS+=	${EMACS_LISPPREFIX}/${PKGBASE}/ac-dict
 
 do-build:
 	cd ${WRKSRC} && \
-		${EMACS_BIN} -Q -L . -batch -f batch-byte-compile auto-complete.el auto-complete-config.el
+		${EMACS_BIN} -Q -L . -batch -f batch-byte-compile *.el
 
 do-install:
 	${INSTALL_DATA} ${WRKSRC}/*.el   ${DESTDIR}${EMACS_LISPPREFIX}/${PKGBASE}
