@@ -12,7 +12,7 @@ MAINTAINER=	kamel.derouiche@gmail.com
 HOMEPAGE=	http://code.google.com/p/papyros/
 COMMENT=	Pythonic parallel processing
 
-DEPENDS+=	${PYPKGPREFIX}-Pyro>=3.4:../../devel/py-Pyro
+DEPENDS+=	${PYPKGPREFIX}-Pyro4>=3.4:../../devel/py-Pyro
 
 USE_LANGUAGES=	# none
 PYDISTUTILSPKG=	yes
