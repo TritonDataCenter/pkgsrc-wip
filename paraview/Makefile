@@ -13,7 +13,7 @@ LICENSE=	paraview-license
 
 USE_LANGUAGES=		c c++ fortran
 USE_TOOLS+=		gmake
-DEPENDS+=		qt4-sqlite3:../../x11/qt4-sqlite3
+DEPENDS+=		qt4-sqlite3>=4.0:../../x11/qt4-sqlite3
 
 USE_CMAKE=				yes
 CHECK_PORTABILITY_SKIP=		Utilities/protobuf/configure
