@@ -11,7 +11,6 @@ HOMEPAGE=	http://www.pymvpa.org/
 COMMENT=	Multivariate pattern analysis
 LICENSE=	mit
 
-DEPENDS+=	${PYPKGPREFIX}-psyco-[0-9]*:../../lang/py-psyco
 DEPENDS+=	${PYPKGPREFIX}-rpy>=2.1.3:../../math/py-rpy
 #DEPENDS+=	${PYPKGPREFIX}-scipy>=0.7.0:../../math/py-scipy
 

@@ -19,9 +19,6 @@ REPLACE_PYTHON+=	googleshare.py
 
 DEPENDS+=		${PYPKGPREFIX}-twisted-[0-9]*:../../net/py-twisted
 DEPENDS+=		${PYPKGPREFIX}-OpenSSL>=0.6:../../security/py-OpenSSL
-.if ${MACHINE_ARCH} == "i386"
-DEPENDS+=		${PYPKGPREFIX}-psyco-[0-9]*:../../lang/py-psyco
-.endif
 
 SUBST_CLASSES+=		ssl-paths
 SUBST_STAGE.ssl-paths=	pre-configure

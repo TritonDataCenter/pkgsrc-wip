@@ -13,7 +13,6 @@ COMMENT=	Clone detector and GUI
 #LICENSE=	# TODO: (see mk/license.mk)
 
 DEPENDS+=	${PYPKGPREFIX}-psycopg2>=2.2.2:../../databases/py-psycopg2
-DEPENDS+=	${PYPKGPREFIX}-psyco>=1.6:../../lang/py-psyco
 
 WRKSRC=			${WRKDIR}/CLICS-d93a40ceebaa
 

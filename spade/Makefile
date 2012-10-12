@@ -11,7 +11,6 @@ HOMEPAGE=	http://code.google.com/p/spade2/
 COMMENT=	SPADE is an agent platform based on the XMPP/Jabber technology
 LICENSE=	gnu-lgpl-v2.1
 
-DEPENDS+=	${PYPKGPREFIX}-psyco>=1.6:../../lang/py-psyco
 DEPENDS+=	${PYPKGPREFIX}-gmpy>=1.01:../../math/py-gmpy
 DEPENDS+=	${PYPKGPREFIX}-dns-[0-9]*:../../net/py-dns
 DEPENDS+=	${PYPKGPREFIX}-twisted-[0-9]*:../../net/py-twisted
