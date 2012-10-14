@@ -31,7 +31,7 @@ do-install:
 	@${ECHO} "Installing NCBI toolkit"
 	@${ECHO} "Installing Lib"
 	@${INSTALL_DATA_DIR} ${DESTDIR}${PREFIX}/lib/ncbi
-	@${CP} -fr ${WRKSRC}/lib/*  ${PREFIX}/lib/ncbi
+	@${CP} -fr ${WRKSRC}/lib/*  ${DESTDIR}${PREFIX}/lib/ncbi
 	@${ECHO} "Installing include files"
 	@${INSTALL_DATA_DIR} ${DESTDIR}${PREFIX}/include/ncbi
 	@${INSTALL_DATA_DIR} ${DESTDIR}${PREFIX}/include/ncbi/connect
