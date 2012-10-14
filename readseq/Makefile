@@ -11,6 +11,8 @@ MAINTAINER=		dprice@cs.nmsu.edu
 HOMEPAGE=		ftp://ftp.ebi.ac.uk/pub/software/unix/
 COMMENT=		Widely Used Tool to Convert Various Sequence Formats
 
+TEST_TARGET=		test
+
 INSTALLATION_DIRS=	bin
 
 do-install:
