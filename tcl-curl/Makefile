@@ -14,7 +14,7 @@ COMMENT=		Curl bindings for Tcl
 GNU_CONFIGURE=		yes
 CONFIGURE_ARGS+=	--with-tcl=${PREFIX}/lib/tcl8.5
 
-.include "../../wip/tcl85/buildlink3.mk"
+.include "../../lang/tcl/buildlink3.mk"
 .include "../../www/curl/buildlink3.mk"
 
 .include "../../mk/bsd.pkg.mk"

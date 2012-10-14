@@ -22,6 +22,6 @@ USE_TOOLS+=		grep
 .include "../../x11/libX11/buildlink3.mk"
 .include "../../mk/dlopen.buildlink3.mk"
 .include "../../wip/tcl85-itcl/buildlink3.mk"
-.include "../../wip/tcl85/buildlink3.mk"
+.include "../../lang/tcl/buildlink3.mk"
 .include "../../x11/tk/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
