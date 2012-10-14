@@ -2429,7 +2429,6 @@ SUBDIR+=	py-guppy
 SUBDIR+=	py-h5py
 SUBDIR+=	py-hcluster
 SUBDIR+=	py-hfk
-SUBDIR+=	py-httplib2
 SUBDIR+=	py-igraph
 SUBDIR+=	py-imgSeek
 SUBDIR+=	py-instant
