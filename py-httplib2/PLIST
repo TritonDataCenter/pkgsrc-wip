@@ -1,8 +1,8 @@
 @comment $NetBSD$
-${PYSITELIB}/httplib2-${PKGVERSION}-py2.7.egg-info/PKG-INFO
-${PYSITELIB}/httplib2-${PKGVERSION}-py2.7.egg-info/SOURCES.txt
-${PYSITELIB}/httplib2-${PKGVERSION}-py2.7.egg-info/dependency_links.txt
-${PYSITELIB}/httplib2-${PKGVERSION}-py2.7.egg-info/top_level.txt
+${PYSITELIB}/${EGG_INFODIR}/PKG-INFO
+${PYSITELIB}/${EGG_INFODIR}/SOURCES.txt
+${PYSITELIB}/${EGG_INFODIR}/dependency_links.txt
+${PYSITELIB}/${EGG_INFODIR}/top_level.txt
 ${PYSITELIB}/httplib2/__init__.py
 ${PYSITELIB}/httplib2/__init__.pyc
 ${PYSITELIB}/httplib2/__init__.pyo
