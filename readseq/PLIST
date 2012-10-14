@@ -1,1 +1,5 @@
 @comment $NetBSD$
+bin/readseq
+share/doc/readseq/Formats
+share/doc/readseq/Readme
+share/doc/readseq/Readseq.help
