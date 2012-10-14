@@ -3095,7 +3095,6 @@ SUBDIR+=	tinyfugue-beta
 SUBDIR+=	tinylogin
 SUBDIR+=	tipp10
 SUBDIR+=	tk-tkimg
-SUBDIR+=	tk85
 SUBDIR+=	tk85-itk
 SUBDIR+=	tk86
 SUBDIR+=	tkhtml3
