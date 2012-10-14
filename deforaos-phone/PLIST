@@ -14,6 +14,7 @@ lib/Phone/plugins/blacklist.so
 lib/Phone/plugins/debug.so
 lib/Phone/plugins/engineering.so
 lib/Phone/plugins/gprs.so
+lib/Phone/plugins/gps.so
 lib/Phone/plugins/locker.so
 lib/Phone/plugins/n900.so
 lib/Phone/plugins/openmoko.so
