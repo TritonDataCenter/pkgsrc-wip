@@ -30,4 +30,5 @@ do-configure:
 #.include "../../math/cln/buildlink3.mk"
 .include "../../math/gsl/buildlink3.mk"
 .include "../../wip/libginac/buildlink3.mk"
+.include "../../mk/dlopen.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
