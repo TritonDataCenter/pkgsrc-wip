@@ -15,4 +15,5 @@ LICENSE=	mit
 GNU_CONFIGURE=	yes
 USE_LANGUAGES=	c++
 
+.include "../../lang/python/application.mk"
 .include "../../mk/bsd.pkg.mk"
