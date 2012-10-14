@@ -3,7 +3,7 @@
 
 PKGNAME=		ncbi-lib-20120620
 DISTNAME=		ncbi
-DIST_SUBDIR=		${PKGNAME_NOREV}
+DIST_SUBDIR=		ncbi-${PKGVERSION_NOREV}
 CATEGORIES=		biology
 MASTER_SITES=		ftp://ftp.ncbi.nih.gov/toolbox/ncbi_tools/old/${PKGVERSION_NOREV}/
 
