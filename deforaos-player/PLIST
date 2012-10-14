@@ -1,4 +1,5 @@
 @comment $NetBSD$
 bin/player
+share/Player/splash.png
 share/applications/player.desktop
 share/locale/fr/LC_MESSAGES/Player.mo
