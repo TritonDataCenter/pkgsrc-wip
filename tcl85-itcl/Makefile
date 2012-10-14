@@ -20,5 +20,5 @@ pre-install:
 		${MV} ${WRKSRC}/doc/class.n ${WRKSRC}/doc/itcl-class.n
 
 .include "../../wip/tcl-tclOO/buildlink3.mk"
-.include "../../wip/tk85/buildlink3.mk"
+.include "../../x11/tk/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

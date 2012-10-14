@@ -18,5 +18,5 @@ CONFIGURE_ARGS+=	--with-tcl=${BUILDLINK_PREFIX.tcl}/lib/tcl8.5 \
 			--with-tk=${BUILDLINK_PREFIX.tk}/lib/tk8.5 \
 			--enable-threads
 
-.include "../../wip/tk85/buildlink3.mk"
+.include "../../x11/tk/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
