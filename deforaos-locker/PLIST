@@ -16,9 +16,9 @@ lib/Locker/plugins/openmoko.so
 lib/Locker/plugins/panel.so
 lib/Locker/plugins/suspend.so
 lib/Locker/plugins/systray.so
+man/man1/locker.1
+man/man1/lockerctl.1
 share/applications/locker-settings.desktop
 share/doc/html/Locker/locker.html
 share/doc/html/Locker/lockerctl.html
 share/locale/fr/LC_MESSAGES/Locker.mo
-man/man1/locker.1
-man/man1/lockerctl.1
