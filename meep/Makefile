@@ -16,7 +16,7 @@ GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_LANGUAGES=	c c++ fortran77
 
-CONFIGURE_ARGS+=--with-libctl=${PREFIX}/share/libctl
+CONFIGURE_ARGS+=--with-libctl=${BUILDLINK_PREFIX.libctl}/share/libctl
 
 .include "../../wip/mpb/buildlink3.mk"
 .include "../../math/gsl/buildlink3.mk"
