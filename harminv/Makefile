@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	harminv-1.3.1
-CATEGORIES=	science
+CATEGORIES=	math
 MASTER_SITES=	http://ab-initio.mit.edu/harminv/
 
 MAINTAINER=	jihbed.research@gmail.com
