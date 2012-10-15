@@ -17,11 +17,9 @@ USE_LANGUAGES=  c c++ fortran77
 
 PKGCONFIG_OVERRIDE+=	harminv.pc.in
 
-EVAL_PREFIX+=		MPCOMPLEX_PREFIX=mpc
-CONFIGURE_ARGS+=	--with-cxx=${MPCOMPLEX_PREFIX_PREFIX}/include
-BUILDLINK_API_DEPENDS.mpcomplex+=	mpcomplex>=0.8.2
-.include "../../math/mpcomplex/buildlink3.mk"
+TEST_TARGET=	check
 
 .include "../../math/blas/buildlink3.mk"
 .include "../../math/lapack/buildlink3.mk"
+.include "../../math/mpcomplex/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
