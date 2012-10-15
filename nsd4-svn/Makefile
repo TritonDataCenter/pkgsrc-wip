@@ -10,8 +10,6 @@ HOMEPAGE=	http://www.nlnetlabs.nl/projects/nsd/
 COMMENT=	Name Server Daemon 4 (trunk)
 LICENSE=	modified-bsd
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 BUILDLINK_API_DEPENDS.openssl+= openssl>=0.9.7
 
 PKG_OPTIONS_VAR=        PKG_OPTIONS.nsd

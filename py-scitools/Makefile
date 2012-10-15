@@ -15,8 +15,6 @@ LICENSE=	modified-bsd
 
 DEPENDS+=	${PYPKGPREFIX}-matplotlib-tk>=1.1.1:../../graphics/py-matplotlib-tk
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_TOOLS+=	gzip
 USE_LANGUAGES=	# none
 
