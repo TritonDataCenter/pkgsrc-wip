@@ -15,6 +15,8 @@ USE_LANGUAGES=	c c++ fortran77
 
 CONFIGURE_ARGS+=--with-libctl=${BUILDLINK_PREFIX.libctl}/share/libctl
 
+TEST_TARGET=	check
+
 .include "../../wip/mpb/buildlink3.mk"
 .include "../../math/gsl/buildlink3.mk"
 .include "../../devel/gettext-lib/buildlink3.mk"
