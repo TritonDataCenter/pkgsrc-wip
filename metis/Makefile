@@ -13,6 +13,10 @@ INSTALLATION_DIRS=	bin lib
 
 LICENSE=	modified-bsd
 
+do-test:
+	cd ${WRKSRC}/Graphs && ./mtest 4elt.graph
+	cd ${WRKSRC}/Graphs && ./mtest test.mgraph
+
 do-install:
 	cd ${WRKSRC} && ${INSTALL_PROGRAM} graphchk kmetis mesh2dual 	\
 		mesh2nodal oemetis onmetis partdmesh partnmesh pmetis	\
