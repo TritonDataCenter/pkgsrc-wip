@@ -7,7 +7,7 @@ MASTER_SITES=	http://ab-initio.mit.edu/harminv/
 
 MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	http://ab-initio.mit.edu/wiki/index.php/Harminv
-COMMENT= Solver of harmonic inversion
+COMMENT=	Solver of harmonic inversion
 LICENSE=	gnu-gpl-v2
 
 GNU_CONFIGURE=	yes
