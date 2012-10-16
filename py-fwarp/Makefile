@@ -13,7 +13,6 @@ LICENSE=	modified-bsd
 
 USE_LANGUAGES=	# none
 
-PYTHON_VERSIONS_ACCEPTED= 26
 PYDISTUTILSPKG=	yes
 
 do-test:
