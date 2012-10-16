@@ -23,5 +23,4 @@ pre-install:
 	${INSTALL_DATA_DIR} ${PREFIX}/share/sis/espresso_examples/math
 	${INSTALL_DATA_DIR} ${PREFIX}/share/sis/espresso_examples/random
 
-.include "../../mk/x11.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

@@ -15,16 +15,17 @@ USE_LIBTOOLS=		yes
 
 WRKSRC=			${WRKDIR}
 
+INSTALLATION_DIRS=	bin
+
 post-configure:
 	${CP} ${WRKSRC}/makedef.lnx ${WRKSRC}/makedef
 
 do-install:
-	${INSTALL_PROGRAM} ${WRKSRC}/src/main/molmol ${PREFIX}/bin
+	${INSTALL_PROGRAM} ${WRKSRC}/src/main/molmol ${DESTDIR}${PREFIX}/bin
 
 .include "../../devel/zlib/buildlink3.mk"
 .include "../../graphics/tiff/buildlink3.mk"
 .include "../../mk/jpeg.buildlink3.mk"
 .include "../../graphics/png/buildlink3.mk"
 .include "../../mk/motif.buildlink3.mk"
-.include "../../mk/x11.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

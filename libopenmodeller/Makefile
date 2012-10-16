@@ -23,5 +23,4 @@ GNU_CONFIGURE=		YES
 .include "../../math/gsl/buildlink3.mk"
 .include "../../textproc/expat/buildlink3.mk"
 .include "../../mk/pgsql.buildlink3.mk"
-.include "../../mk/x11.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
