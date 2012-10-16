@@ -14,6 +14,7 @@ LICENSE=	gnu-gpl-v3
 USE_LANGUAGES=	# none
 
 PYDISTUTILSPKG=	yes
+PYTHON_VERSIONS_INCLUDE_3X=yes
 
 .include "../../devel/libglade/buildlink3.mk"
 .include "../../devel/pango/buildlink3.mk"

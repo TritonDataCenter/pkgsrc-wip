@@ -14,6 +14,7 @@ LICENSE=	gnu-gpl-v2
 DEPENDS+=	${PYPKGPREFIX}-scipy>=0.7.2:../../math/py-scipy
 
 USE_LANGUAGES=	c c++
+PYTHON_VERSIONS_INCLUDE_3X=yes
 
 .include "../../devel/py-cython/buildlink3.mk"
 .include "../../math/py-numpy/buildlink3.mk"
