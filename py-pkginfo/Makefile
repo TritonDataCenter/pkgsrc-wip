@@ -15,7 +15,7 @@ WRKSRC=		${WRKDIR}/pkginfo-0.9
 
 USE_LANGUAGES=	# none
 
-PYTHON_VERSIONS_ACCEPTED= 32 31 27 26
+PYTHON_VERSIONS_INCLUDE_3X=yes
 
 .include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"
