@@ -13,7 +13,6 @@ LICENSE=	modified-bsd
 
 WRKSRC=	${WRKDIR}/scikits.vectorplot-0.1.1
 
-PYTHON_VERSIONS_ACCEPTED= 26
 
 .include "../../lang/python/egg.mk"
 .include "../../math/py-numpy/buildlink3.mk"

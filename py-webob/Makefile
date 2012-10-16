@@ -16,7 +16,6 @@ DEPENDS+=		${PYPKGPREFIX}-simplejson>=2.0.9:../../converters/py-simplejson
 
 USE_LANGUAGES=	# none
 
-PYTHON_VERSIONS_ACCEPTED= 27 26
 
 .include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"

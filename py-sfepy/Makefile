@@ -14,7 +14,6 @@ LICENSE=	modified-bsd
 
 USE_LANGUAGES=	c c++
 
-PYTHON_VERSIONS_ACCEPTED= 27 26
 PYDISTUTILSPKG= yes
 
 do-test:
