@@ -1,9 +1,9 @@
 # $NetBSD$
 #
 
-DISTNAME=	ecspy-1.0
+DISTNAME=	ecspy-1.1
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
-CATEGORIES=	science python
+CATEGORIES=	math python
 MASTER_SITES=	http://ecspy.googlecode.com/files/
 
 MAINTAINER=	jihbed.research@gmail.com
@@ -15,7 +15,7 @@ DEPENDS+=	${PYPKGPREFIX}-pp>=1.6.0:../../wip/py-pp
 
 USE_LANGUAGES=	# none
 
-PYTHON_VERSIONS_ACCEPTED= 27 26
+PYTHON_VERSIONS_INCOMPATIBLE= 32 31
 
 .include "../../graphics/py-matplotlib/buildlink3.mk"
 .include "../../math/py-numpy/buildlink3.mk"
