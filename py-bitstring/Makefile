@@ -15,8 +15,6 @@ LICENSE=	mit
 
 USE_LANGUAGES=	# none
 
-PYTHON_VERSIONS_ACCEPTED= 27 26
-
 PYDISTUTILSPKG=	yes
 
 DOCDIR=		${PREFIX}/share/doc/py-bitstring
