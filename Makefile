@@ -1407,6 +1407,7 @@ SUBDIR+=	libgtask
 SUBDIR+=	libgtk-java
 SUBDIR+=	libgtkhtml-java
 SUBDIR+=	libgtksourceviewmm
+SUBDIR+=	libgtkstylus
 SUBDIR+=	libgxim
 SUBDIR+=	libgzstream
 SUBDIR+=	libharu
