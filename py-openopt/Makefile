@@ -16,7 +16,6 @@ COMMENT=	Python module for numerical optimization
 LICENSE=	modified-bsd
 
 USE_LANGUAGES=	fortran
-PYTHON_VERSIONS_ACCEPTED= 26
 PLIST_SUBST+=	PYVERSSUFFIX=${PYVERSSUFFIX:Q}
 
 .include "../../lang/python/egg.mk"

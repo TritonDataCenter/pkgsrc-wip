@@ -12,7 +12,6 @@ COMMENT=	LP modeler in Python
 LICENSE=	modified-bsd
 
 USE_LANGUAGES=	# none
-PYTHON_VERSIONS_ACCEPTED= 26
 
 .include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"

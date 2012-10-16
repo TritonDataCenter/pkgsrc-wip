@@ -20,7 +20,7 @@ DEPENDS+=	${PYPKGPREFIX}-enchant>=1.6.5:../../textproc/py-enchant
 
 USE_LANGUAGES= c
 
-PYTHON_VERSIONS_ACCEPTED= 27 26
+PYTHON_VERSIONS_INCOMPATIBLE= 32 31
 PYDISTUTILSPKG=		yes
 
 .include "../../devel/py-cython/buildlink3.mk"
