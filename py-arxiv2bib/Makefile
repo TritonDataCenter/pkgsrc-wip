@@ -16,7 +16,7 @@ WRKSRC=		${WRKDIR}/arxiv2bib-1.0.0
 
 USE_LANGUAGES=	# none
 
-PYTHON_VERSIONS_ACCEPTED= 27 26
+PYTHON_VERSIONS_INCOMPATIBLE= 26
 PYDISTUTILSPKG=	yes
 
 .include "../../lang/python/extension.mk"
