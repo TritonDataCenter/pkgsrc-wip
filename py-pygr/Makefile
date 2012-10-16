@@ -10,7 +10,7 @@ MASTER_SITES=	http://pygr.googlecode.com/files/
 MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	http://code.google.com/p/pygr/
 COMMENT=	Pygr graph database for bioinformatics
-#LICENSE=	# TODO: (see mk/license.mk)
+LICENSE=	modified-bsd
 
 DEPENDS+=       ${PYPKGPREFIX}-mysqldb-[0-9]*:../../databases/py-mysqldb
 DEPENDS+=	${PYPKGPREFIX}-sqlite3-[0-9]*:../../databases/py-sqlite3
