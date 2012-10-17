@@ -296,7 +296,6 @@ SUBDIR+=	cdogs
 SUBDIR+=	cdpr
 SUBDIR+=	cedet
 SUBDIR+=	cfengine
-SUBDIR+=	cgal
 SUBDIR+=	cgit
 SUBDIR+=	cglib
 SUBDIR+=	cgnslib
