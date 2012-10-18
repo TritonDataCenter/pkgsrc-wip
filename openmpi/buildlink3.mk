@@ -5,7 +5,7 @@ BUILDLINK_TREE+=	openmpi
 .if !defined(OPENMPI_BUILDLINK3_MK)
 OPENMPI_BUILDLINK3_MK:=
 
-BUILDLINK_API_DEPENDS.openmpi+=	openmpi>=1.2.6
+BUILDLINK_API_DEPENDS.openmpi+=	openmpi>=1.5.1
 BUILDLINK_PKGSRCDIR.openmpi?=	../../wip/openmpi
 .endif # OPENMPI_BUILDLINK3_MK
 
