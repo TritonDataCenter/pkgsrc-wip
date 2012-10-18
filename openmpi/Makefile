@@ -27,6 +27,7 @@ SHLIBTOOL_OVERRIDE=	${WRKSRC}/config/libtool.m4 \
 CONFIGURE_ARGS+=	--disable-mpi-f90
 CONFIGURE_ARGS+=	--without-sge
 CONFIGURE_ARGS+=	--without-slurm
+CONFIGURE_ARGS+=	--enable-contrib-no-build=vt # in separate package
 CONFIGURE_ARGS+=	--with-libltdl=external # use our libltdl
 CONFIGURE_ARGS+=	--with-hwloc=$(BUILDLINK_PREFIX.hwloc:Q) #external
 CONFIGURE_ARGS+=	--with-wrapper-ldflags="-L${PREFIX}/lib ${LINKER_RPATH_FLAG}${PREFIX}/lib"
