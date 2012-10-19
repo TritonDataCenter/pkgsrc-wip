@@ -18,7 +18,7 @@ USE_LANGUAGES=	c
 
 BUILDLINK_API_DEPENDS.pycython+= ${PYPKGPREFIX}-cython>=0.13
 .include "../../devel/py-cython/buildlink3.mk"
-.include "../../www/webkit-gtk/buildlink3.mk"
+.include "../../wip/py-webkit/buildlink3.mk"
 
 .include "../../lang/python/distutils.mk"
 .include "../../mk/bsd.pkg.mk"
