@@ -2155,7 +2155,6 @@ SUBDIR+=	php-doc-tr
 SUBDIR+=	php-doc-zh
 SUBDIR+=	php-dtrace
 SUBDIR+=	php-ffmpeg
-SUBDIR+=	php-fileinfo
 SUBDIR+=	php-gtk2
 SUBDIR+=	php-http
 SUBDIR+=	php-igbinary
