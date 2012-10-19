@@ -9,7 +9,7 @@ MASTER_SITES=	http://gwrite.googlecode.com/files/
 MAINTAINER=	silasdb@gmail.com
 HOMEPAGE=	http://gwrite.googlecode.com/
 COMMENT=	WebKit/JavaScriptCore Python bindings
-LICENSE=	gnu-gpl-v3
+LICENSE=	gnu-lgpl-v3
 
 PKG_DESTDIR_SUPPORT=	user-destdir
 
