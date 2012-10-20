@@ -3014,6 +3014,7 @@ SUBDIR+=	symmetrica
 SUBDIR+=	symon
 SUBDIR+=	sympol
 SUBDIR+=	sympow
+SUBDIR+=	sylfilter
 SUBDIR+=	syn68k
 SUBDIR+=	synce-dynamite
 #SUBDIR+=	synce-kde	# requires buildlink3 file to be put in pkgsrc tree
