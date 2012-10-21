@@ -1,6 +1,6 @@
 @comment $NetBSD$
-lib/perl5/vendor_perl/5.8.0/${MACHINE_ARCH}-${LOWER_OPSYS}-thread-multi/auto/Spread/.packlist
-lib/perl5/vendor_perl/5.8.0/${MACHINE_ARCH}-${LOWER_OPSYS}-thread-multi/auto/Spread/Spread.bs
-lib/perl5/vendor_perl/5.8.0/${MACHINE_ARCH}-${LOWER_OPSYS}-thread-multi/auto/Spread/Spread.so
-lib/perl5/vendor_perl/5.8.0/${MACHINE_ARCH}-${LOWER_OPSYS}-thread-multi/auto/Spread/autosplit.ix
+${PERL5_SUB_INSTALLSITEARCHLIB}/auto/Spread/.packlist
+${PERL5_SUB_INSTALLSITEARCHLIB}/auto/Spread/Spread.bs
+${PERL5_SUB_INSTALLSITEARCHLIB}/auto/Spread/Spread.so
+${PERL5_SUB_INSTALLSITEARCHLIB}/auto/Spread/autosplit.ix
 lib/perl5/vendor_perl/man/man3/Spread.3
