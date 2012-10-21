@@ -2,6 +2,7 @@
 #
 
 DISTNAME=		gnupod-0.99.6
+PKGREVISION=		1
 CATEGORIES=		multimedia
 MASTER_SITES=		http://download.savannah.gnu.org/releases/gnupod/ \
 			http://blinkenlights.ch/gnupod-dist/stable/
@@ -24,8 +25,18 @@ PKG_DESTDIR_SUPPORT=	none
 
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
-USE_TOOLS+=		perl:run
+#USE_TOOLS+=		perl:run
+USE_TOOLS+=		perl
 INFO_FILES=		yes
+
+PERL5=			yes
+t:
+	echo ${PERL5_SUB_INSTALLARCHLIB} ${PERL5_SITELIB} ${INSTALLARCHLIB} ${INSTALLSCRIPT} \
+	${INSTALLVENDORBIN} ${INSTALLVENDORSCRIPT} \
+	${INSTALLVENDORARCH} ${INSTALLVENDORLIB} \
+	${INSTALLVENDORMAN1DIR} ${INSTALLVENDORMAN3DIR}
+
+.include "../../lang/perl5/dirs.mk"
 
 .include "../../audio/faac/buildlink3.mk"
 .include "../../audio/flac/buildlink3.mk"
