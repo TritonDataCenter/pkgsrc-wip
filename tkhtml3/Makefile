@@ -3,6 +3,7 @@
 
 DISTNAME=	tkhtml3-alpha-16
 PKGNAME=	${DISTNAME:S/alpha-/1.0alpha/}
+PKGREVISION=	1
 CATEGORIES=	www
 MASTER_SITES=	http://tkhtml.tcl.tk/
 
@@ -16,8 +17,9 @@ GNU_CONFIGURE=	yes
 USE_TOOLS+=	gmake
 
 CONFIGURE_ARGS+=	--x-includes=${BUILDLINK_PREFIX.libX11}/include \
-			--x-libraries=${BUILDLINK_PREFIX.libX11}/lib \
-			--enable-threads
+			--x-libraries=${BUILDLINK_PREFIX.libX11}/lib
+
+.include "options.mk"
 
 .include "../../mk/dlopen.buildlink3.mk"
 .include "../../mk/pthread.buildlink3.mk"
