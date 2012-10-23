@@ -83,7 +83,6 @@ do-install:
 .include "../../mk/x11.buildlink3.mk"
 .else
 .include "../../x11/libXtst/buildlink3.mk"
-.include "../../x11/xextproto/buildlink3.mk"
 .include "../../x11/libX11/buildlink3.mk"
 .endif
 .include "../../mk/bsd.pkg.mk"

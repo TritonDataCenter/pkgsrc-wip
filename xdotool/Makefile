@@ -23,6 +23,5 @@ SUBST_SED.fix-getopt+=    -e 's,getopt_long_only,getopt_long,g'
 .include "../../lang/perl5/buildlink3.mk"
 .include "../../x11/libX11/buildlink3.mk"
 .include "../../x11/libXtst/buildlink3.mk"
-.include "../../x11/xextproto/buildlink3.mk"
 .include "../../x11/libXinerama/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
