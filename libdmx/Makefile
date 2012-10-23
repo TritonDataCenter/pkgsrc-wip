@@ -20,7 +20,6 @@ PKGCONFIG_OVERRIDE+=	dmx.pc.in
 
 
 .include "../../x11/libXext/buildlink3.mk"
-.include "../../x11/xextproto/buildlink3.mk"
 .include "../../wip/dmxproto/buildlink3.mk"
 
 .include "../../mk/bsd.pkg.mk"

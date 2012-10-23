@@ -26,7 +26,6 @@ do-install:
 			${INSTALL_DATA} ${WRKSRC}/example-wmsupermonrc ${DESTDIR}${PREFIX}/share/examples/wmsupermon/wmsupermonrc
 			${INSTALL_DATA} ${WRKSRC}/wmsupermon-master.xpm ${DESTDIR}${PREFIX}/share/pixmaps/wmsupermon.xpm
 
-.include "../../x11/xextproto/buildlink3.mk"
 .include "../../x11/libXext/buildlink3.mk"
 .include "../../x11/libXpm/buildlink3.mk"
 .include "../../x11/libX11/buildlink3.mk"

@@ -30,7 +30,6 @@ post-install:
 	${INSTALL_DATA_DIR} ${DESTDIR}${PREFIX}/include/audio-mml
 	${INSTALL_DATA} ${WRKSRC}/*.h ${DESTDIR}${PREFIX}/include/audio-mml
 
-.include "../../x11/xextproto/buildlink3.mk"
 .include "../../x11/libXext/buildlink3.mk"
 BUILDLINK_DEPMETHOD.libXt?=	build
 .include "../../x11/libXt/buildlink3.mk"

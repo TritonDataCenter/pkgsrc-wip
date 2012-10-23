@@ -20,6 +20,5 @@ WRKSRC=		${WRKDIR}/wmitime/wmitime
 USE_TOOLS+=	gmake
 
 .include "../../x11/libXpm/buildlink3.mk"
-.include "../../x11/xextproto/buildlink3.mk"
 .include "../../x11/libXext/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

@@ -39,5 +39,4 @@ BUILDLINK_DEPMETHOD.libXt?=	build
 .include "../../x11/libXpm/buildlink3.mk"
 .include "../../x11/libXrandr/buildlink3.mk"
 .include "../../x11/libXt/buildlink3.mk"
-.include "../../x11/xextproto/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

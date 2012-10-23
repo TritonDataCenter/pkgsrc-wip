@@ -27,5 +27,4 @@ BUILDLINK_DEPMETHOD.libXt?=	build
 .include "../../x11/libSM/buildlink3.mk"
 .include "../../x11/libXxf86dga/buildlink3.mk"
 .include "../../x11/libXxf86vm/buildlink3.mk"
-.include "../../x11/xextproto/buildlink3.mk"
 .endif
