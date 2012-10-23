@@ -33,6 +33,7 @@ ${EMACS_LISPPREFIX}/auto-complete/ac-dict/sh-mode
 ${EMACS_LISPPREFIX}/auto-complete/ac-dict/tcl-mode
 ${EMACS_LISPPREFIX}/auto-complete/ac-dict/ts-mode
 ${EMACS_LISPPREFIX}/auto-complete/ac-dict/tuareg-mode
+${EMACS_LISPPREFIX}/auto-complete/ac-dict/verilog-mode
 ${EMACS_LISPPREFIX}/auto-complete/auto-complete-config.el
 ${EMACS_LISPPREFIX}/auto-complete/auto-complete-config.elc
 ${EMACS_LISPPREFIX}/auto-complete/auto-complete-pkg.el
