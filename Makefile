@@ -3392,7 +3392,6 @@ SUBDIR+=	yakuake
 SUBDIR+=	yaml-mode
 SUBDIR+=	yauap
 SUBDIR+=	yelp-tools
-SUBDIR+=	yelp-xsl
 SUBDIR+=	yersinia
 SUBDIR+=	yi
 SUBDIR+=	yp-tools
