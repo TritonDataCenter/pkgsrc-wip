@@ -3,7 +3,7 @@
 
 DISTNAME=	python-ptrace-0.6.4
 PKGNAME=	${PYPKGPREFIX}${DISTNAME:S/python//}
-PKGREVISION=	2
+PKGREVISION=	3
 CATEGORIES=	sysutils python
 MASTER_SITES=	http://pypi.python.org/packages/source/p/python-ptrace/
 

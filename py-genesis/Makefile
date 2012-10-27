@@ -3,6 +3,7 @@
 
 DISTNAME=	genesis-0.1.0
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
+PKGREVISION=	1
 CATEGORIES=	python
 MASTER_SITES=	http://pypi.python.org/packages/source/g/genesis/
 
@@ -16,5 +17,5 @@ USE_LANGUAGES=	# none
 PYDISTUTILSPKG=	yes
 PLIST_SUBST+=	PYVERSSUFFIX=${PYVERSSUFFIX}
 
-.include "../../lang/python/extension.mk"
+.include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"

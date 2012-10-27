@@ -3,6 +3,7 @@
 
 DISTNAME=	pythia-0.8.1.14
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
+PKGREVISION=	1
 CATEGORIES=	math
 MASTER_SITES=	http://www.geodynamics.org/cig/software/pythia/
 

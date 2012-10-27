@@ -3,6 +3,7 @@
 
 DISTNAME=	pyflation-0.2.2
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
+PKGREVISION=	1
 CATEGORIES=	science python
 MASTER_SITES=	http://pyflation.ianhuston.net/files/pyflation/
 

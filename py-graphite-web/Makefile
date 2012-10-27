@@ -3,6 +3,7 @@
 
 DISTNAME=	graphite-web-0.9.10
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
+PKGREVISION=	1
 CATEGORIES=	www
 MASTER_SITES=	http://launchpadlibrarian.net/106575888/
 
@@ -44,6 +45,8 @@ PYSETUPINSTALLARGS=	--prefix=${PREFIX}			\
 			--install-lib=${PREFIX}/${PYSITELIB}
 
 INSTALLATION_DIRS+=	share/examples/graphite
+
+PLIST_SUBST+=	THIS_EGG_FILE=${EGG_NAME:S|graphite-|graphite_|}-py${PYVERSSUFFIX}.egg-info
 
 pre-build:
 	${MKDIR} ${WRKSRC}/graphite/webapp

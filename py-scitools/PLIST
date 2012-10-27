@@ -1,6 +1,6 @@
 @comment $NetBSD$
-bin/scitools2.7
-${PYSITELIB}/SciTools-${PKGVERSION}-py2.7.egg-info
+bin/scitools${PYVERSSUFFIX}
+${PYSITELIB}/${EGG_FILE}
 ${PYSITELIB}/scitools/BoxField.py
 ${PYSITELIB}/scitools/BoxField.pyc
 ${PYSITELIB}/scitools/BoxField.pyo

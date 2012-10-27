@@ -3,6 +3,7 @@
 
 DISTNAME=	dolo-0.4-dev
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
+PKGREVISION=	1
 CATEGORIES=	finance python
 MASTER_SITES=	http://pypi.python.org/packages/source/d/dolo/
 
@@ -19,6 +20,7 @@ WRKSRC=		${WRKDIR}/dolo-0.4-dev
 USE_LANGUAGES=	# none
 
 PLIST_SUBST+=	PYVERSSUFFIX=${PYVERSSUFFIX}
+PLIST_SUBST+=	THIS_EGG_INFODIR=${EGG_NAME:S|-dev|_dev|}-py${PYVERSSUFFIX}.egg-info
 
 post-extract:
 	${MV} ${WRKSRC}/src/bin/dolo-recs.py \

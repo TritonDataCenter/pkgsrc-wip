@@ -4,6 +4,7 @@
 DISTNAME=	django-uuidfield-0.4.0
 EGG_NAME=	django_uuidfield-0.4.0
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
+PKGREVISION=	1
 CATEGORIES=	www python
 MASTER_SITES=	http://pypi.python.org/packages/source/d/django-uuidfield/
 

@@ -4,7 +4,7 @@
 DISTNAME=	scitools-0.9.0
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 EGG_NAME=	${DISTNAME:S|scitools|SciTools|:Q}
-PKGREVISION=	3
+PKGREVISION=	4
 CATEGORIES=	math python
 MASTER_SITES=	http://scitools.googlecode.com/files/
 

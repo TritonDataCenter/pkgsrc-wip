@@ -3,6 +3,7 @@
 
 DISTNAME=	django-audiofield-0.4.6
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
+PKGREVISION=	1
 CATEGORIES=	www audio python
 MASTER_SITES=	http://pypi.python.org/packages/source/d/django-audiofield/
 
@@ -18,6 +19,8 @@ WRKSRC=			${WRKDIR}/django-audiofield-0.4.6
 
 USE_PKGLOCALEDIR=	yes
 USE_LANGUAGES=		# none
+
+PLIST_SUBST+=	THIS_EGG_INFODIR=${EGG_NAME:S|django-|django_|}-py${PYVERSSUFFIX}.egg-info
 
 .include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"
