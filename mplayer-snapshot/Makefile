@@ -1,6 +1,7 @@
 # $NetBSD: Makefile,v 1.71 2010/09/05 15:07:39 jakllsch Exp $
 
 PKGNAME=	mplayer-${MPLAYER_VERSION}
+PKGREVISION=	1
 
 COMMENT=	Fast, cross-platform movie player
 
