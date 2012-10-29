@@ -18,6 +18,12 @@ USE_TOOLS+=		pkg-config
 EGDIR=			share/examples/piedock
 INSTALLATION_DIRS+=	${EGDIR}
 
+SUBST_CLASSES+=		share
+SUBST_MESSAGE.share=	Fixing share path.
+SUBST_STAGE.share=	pre-install
+SUBST_FILES.share=	res/piedockrc.sample
+SUBST_SED.share=	-e "s|/usr/share|${PREFIX}/share|g"
+
 .include "options.mk"
 
 post-install:
