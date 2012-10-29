@@ -9,7 +9,7 @@ MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=crfpp/}
 MAINTAINER=	obache@NetBSD.org
 HOMEPAGE=	http://crfpp.sourceforge.net/
 COMMENT=	Yet Another CRF toolkit
-LICENSE=	gnu-lgpl-v2.1 modified-bsd
+LICENSE=	gnu-lgpl-v2.1 OR modified-bsd
 
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
