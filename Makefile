@@ -2177,6 +2177,7 @@ SUBDIR+=	pidgin-rhythmbox
 SUBDIR+=	pidgin-sipe
 SUBDIR+=	pidgin-status-to-twitter
 SUBDIR+=	pidgin-twitterstatus
+SUBDIR+=	piedock
 SUBDIR+=	pike
 SUBDIR+=	pike-Gettext
 SUBDIR+=	pike-Gz
