@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	desmume-0.9.8
-PKGREVISION=	2
+PKGREVISION=	3
 CATEGORIES=	emulators
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=desmume/}
 DIST_SUBDIR=	${PKGNAME_NOREV}
@@ -18,6 +18,8 @@ USE_LANGUAGES=	c c++
 
 .include "options.mk"
 
+BUILD_DEPENDS+=	libSoundTouch>=1.5.0:../../wip/libSoundTouch
+.include "../../audio/alsa-lib/buildlink3.mk"
 .include "../../sysutils/desktop-file-utils/desktopdb.mk"
 .include "../../archivers/zziplib/buildlink3.mk"
 .include "../../devel/SDL/buildlink3.mk"
