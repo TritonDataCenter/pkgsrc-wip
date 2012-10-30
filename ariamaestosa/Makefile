@@ -1,10 +1,10 @@
 # $NetBSD$
 #
 
-DISTNAME=	AriaSrc-1.4.4
+DISTNAME=	AriaSrc-1.4.5
 PKGNAME=	${DISTNAME:S/Src/Maestosa/}
 CATEGORIES=	audio
-MASTER_SITES=	http://sourceforge.net/projects/ariamaestosa/files/ariamaestosa/1.4.4/
+MASTER_SITES=	http://sourceforge.net/projects/ariamaestosa/files/ariamaestosa/1.4.5/
 EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
