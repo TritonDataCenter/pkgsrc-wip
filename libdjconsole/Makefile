@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	libdjconsole-0.1.3
-PKGREVISION=	2
+PKGREVISION=	3
 CATEGORIES=	audio
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=djplay/}
 
@@ -23,5 +23,6 @@ CONF_FILES+=		${EGDIR}/45-hpdjconsole.rules ${PKG_SYSCONFDIR}/udev/rules.d/45-hp
 INSTALLATION_DIRS+=	${PKG_SYSCONFDIR}/udev/rules.d/ ${EGDIR}
 
 
+BUILDLINK_ABI_DEPENDS.libusb+=	libusb>=0.1.11
 .include "../../devel/libusb/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
