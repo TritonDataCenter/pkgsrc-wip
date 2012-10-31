@@ -5,7 +5,7 @@ DISTNAME=	Tktable2.10
 PKGNAME=	${DISTNAME:S/Tktable/tktable-/}
 PKGREVISION=	1
 CATEGORIES=	x11
-MASTER_SITES=	http://sourceforge.net/projects/tktable/files/tktable/2.10/
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=tktable/}
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://tktable.sourceforge.net/

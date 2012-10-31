@@ -4,7 +4,7 @@
 DISTNAME=	tkpng0.9
 PKGNAME=	${DISTNAME:S/tkpng/tkpng-/}
 CATEGORIES=	graphics
-MASTER_SITES=	http://sourceforge.net/projects/tkpng/files/tkpng/0.9/
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=tkpng/}
 EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
