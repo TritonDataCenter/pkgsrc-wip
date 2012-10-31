@@ -18,24 +18,26 @@ DATADIR=	${PREFIX}/share/pts
 
 RCD_SCRIPTS=	pts
 
+INSTALLATION_DIRS=	sbin
+
 do-install:
-	${INSTALL_DATA_DIR} ${DATADIR}
-	${INSTALL_DATA_DIR} ${DATADIR}/logs
-	${INSTALL_DATA_DIR} ${DATADIR}/dstats
-	${INSTALL_DATA_DIR} ${DATADIR}/locale
+	${INSTALL_DATA_DIR} ${DESTDIR}${DATADIR}
+	${INSTALL_DATA_DIR} ${DESTDIR}${DATADIR}/logs
+	${INSTALL_DATA_DIR} ${DESTDIR}${DATADIR}/dstats
+	${INSTALL_DATA_DIR} ${DESTDIR}${DATADIR}/locale
 
 	for config_files in pts.ban pts.ini pts.motd \
 			    pts.news pts.secure; do \
 		${INSTALL_DATA} ${WRKSRC}/$$config_files \
-				${DATADIR}/$$config_files; \
+				${DESTDIR}${DATADIR}/$$config_files; \
 	done
 
 	for locales in en.msg ja.msg; do \
 		${INSTALL_DATA} ${WRKSRC}/locale/$$locales \
-				${DATADIR}/locale/$$locales; \
+				${DESTDIR}${DATADIR}/locale/$$locales; \
 	done
 
-	${INSTALL_SCRIPT} ${WRKSRC}/pts.pl ${PREFIX}/sbin/pts
+	${INSTALL_SCRIPT} ${WRKSRC}/pts.pl ${DESTDIR}${PREFIX}/sbin/pts
 
 .include "../../lang/perl5/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

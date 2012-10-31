@@ -19,8 +19,6 @@ NO_CONFIGURE=		yes
 NO_BUILD=		yes
 USE_TOOLS+=		pax
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 HTMLDIR=		share/doc/${PKGNAME}
 DOC_SRCDIR=		${WRKSRC}
 PLIST_SRC=		${WRKDIR}/.PLIST_SRC

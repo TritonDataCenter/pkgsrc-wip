@@ -11,8 +11,6 @@ HOMEPAGE=	http://rsget.pl/
 COMMENT=	Poowerful perl application designed to retrieve files from download services
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_TOOLS+=	gmake perl:run
 
 DEPENDS=	p5-WWW-Curl>=4.11:../../www/p5-WWW-Curl

@@ -11,8 +11,6 @@ HOMEPAGE=	http://atpy.github.com/
 COMMENT=	Astronomical Tables in Python
 LICENSE=	mit
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 PYDISTUTILSPKG=	yes
 USE_LANGUAGES=	# none
 

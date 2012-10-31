@@ -23,6 +23,7 @@ TKCONFIG_SH?=	${TKCONFIG_SH_DIR}/tk8.6/tkConfig.sh
 .include "../../wip/tcl86/buildlink3.mk"
 .include "../../x11/libX11/buildlink3.mk"
 .include "../../x11/libXft/buildlink3.mk"
+.include "../../x11/libXScrnSaver/buildlink3.mk"
 .endif # TK86_BUILDLINK3_MK
 
 BUILDLINK_TREE+=	-tk86

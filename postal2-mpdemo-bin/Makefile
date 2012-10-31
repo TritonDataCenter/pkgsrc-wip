@@ -17,6 +17,8 @@ RESTRICTED=		It's huge, it's demo, it's a game, I'm not sure if we can redistrib
 NO_SRC_ON_CDROM=	${RESTRICTED}
 NO_PKG_ON_CDROM=	${RESTRICTED}
 
+PKG_DESTDIR_SUPPORT=	none
+
 EMUL_PLATFORMS=		linux-i386
 EMUL_MODULES.linux=	glx
 SUSE_VERSION_REQD=	7.3

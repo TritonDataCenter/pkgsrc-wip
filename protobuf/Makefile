@@ -11,8 +11,6 @@ HOMEPAGE=	http://protobuf.googlecode.com/
 COMMENT=	An rpc definition to source compiler by google
 LICENSE=	modified-bsd
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_TOOLS+=	pkg-config gmake

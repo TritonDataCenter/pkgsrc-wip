@@ -17,8 +17,6 @@ DEPENDS+=	${PYPKGPREFIX}-numpy>=1.1.0:../../math/py-numpy
 DEPENDS+=	${PYPKGPREFIX}-pygments>=1.0:../../textproc/py-pygments
 #DEPENDS+=	${PYPKGPREFIX}-ipython>=0.9.1:../../wip/py-ipython
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/pudb-0.92.15
 USE_LANGUAGES=	# none
 

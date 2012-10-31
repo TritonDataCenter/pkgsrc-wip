@@ -13,8 +13,6 @@ HOMEPAGE=	http://speedmodem50b.berlios.de/
 COMMENT=	Speed Modem 50B/50B+/200/Cellpipe CELL 19A-BX utility
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/${PKGBASE}/src
 NO_CONFIGURE=	YES
 USE_TOOLS+=	gmake

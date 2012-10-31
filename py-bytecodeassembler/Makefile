@@ -14,8 +14,6 @@ COMMENT=	Generate Python code objects by assembling bytecode
 DEPENDS+=	${PYPKGPREFIX}-decoratortools>=1.8:../../wip/py-decoratortools
 DEPENDS+=	${PYPKGPREFIX}-symboltype>=1.0:../../wip/py-symboltype
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	# none
 
 .include "../../lang/python/egg.mk"

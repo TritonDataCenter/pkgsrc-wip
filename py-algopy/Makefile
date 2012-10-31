@@ -11,8 +11,6 @@ HOMEPAGE=	http://packages.python.org/algopy
 COMMENT=	Taylor Arithmetic Computation and Algorithmic Differentiation
 LICENSE=	modified-bsd
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	# none
 
 do-test:

@@ -133,15 +133,6 @@ SUBST_FILES.fix-dejavu=		configure
 SUBST_SED.fix-dejavu=		-e 's, \(/usr/share/fonts/dejavu\);, \1 ${PREFIX}/lib/X11/fonts/TTF;,g'
 
 #
-# Do not use `\t' with sed, as it's not portable.
-#
-SUBST_CLASSES+=			fix-sed-tabs
-SUBST_STAGE.fix-sed-tabs=	post-patch
-SUBST_MESSAGE.fix-sed-tabs=	Fixing tabulations for sed in scripts.
-SUBST_FILES.fix-sed-tabs=	util/grub.d/*.in
-SUBST_SED.fix-sed-tabs=		-e 's,\\t,	,g'
-
-#
 # Remove executable bit from non-executable files.
 #
 post-install:

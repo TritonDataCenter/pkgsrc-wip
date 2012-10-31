@@ -11,7 +11,6 @@ COMMENT=	Web search engine software for intranet and internet servers
 
 GNU_CONFIGURE=		YES
 USE_TOOLS+=		pax
-PKG_DESTDIR_SUPPORT=	user-destdir
 
 PKG_SYSCONFSUBDIR=	mnogosearch
 MNOGOSEARCH_DATADIR?=	/var/mnogosearch

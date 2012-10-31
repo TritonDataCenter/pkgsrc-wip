@@ -10,8 +10,6 @@ HOMEPAGE=	http://sourceforge.net/apps/trac/pyzor/
 COMMENT=	Collaborative, networked system to detect and block spam
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 .if defined(PYZOR_USE_PYZORD) && !empty(PYZOR_USE_PYZORD:M[Yy][Ee][Ss])
 DEPENDS+=	${PYPKGPREFIX}-gdbm>=0nb1:../../databases/py-gdbm
 .endif

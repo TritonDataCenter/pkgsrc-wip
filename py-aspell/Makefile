@@ -11,8 +11,6 @@ HOMEPAGE=	http://wm.ite.pl/proj/aspell-python/index-c.html
 COMMENT=	Python wrapper for GNU Aspell
 LICENSE=	modified-bsd
 
-PKG_DESTDIR_SUPPORT= user-destdir
-
 WRKSRC=	${WRKDIR}/aspell-python
 
 PYDISTUTILSPKG=	yes

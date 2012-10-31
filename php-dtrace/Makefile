@@ -7,8 +7,6 @@ CATEGORIES+=		devel
 MAINTAINER=		filip@joyent.com
 COMMENT=		PHP extension for DTrace for Solaris
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 CONFLICTS=		php-dtrace-[0-9]*
 
 PHP_VERSIONS_ACCEPTED=	53

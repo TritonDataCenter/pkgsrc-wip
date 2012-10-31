@@ -12,8 +12,6 @@ LICENSE=	gnu-lgpl-v3
 
 DEPENDS+=	ldtp>=2.0.6:../../wip/ldtp
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	# none
 
 PYDISTUTILSPKG=	yes

@@ -11,6 +11,8 @@ MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://www.stillhq.com//panda/
 COMMENT=			GPLed PDF generation library
 
+PKG_DESTDIR_SUPPORT=	none
+
 USE_PKGLOCALEDIR=	yes
 PKGCONFIG_OVERRIDE+=	${WRKSRC}/panda.pc.in
 GNU_CONFIGURE=		yes

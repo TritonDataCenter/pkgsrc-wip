@@ -14,6 +14,7 @@ DEPENDS+=       p5-CGI-Application>=4.01:../../www/p5-CGI-Application
 DEPENDS+=       p5-Exception-Class>=0:../../devel/p5-Exception-Class
 DEPENDS+=       p5-Exception-Class-TryCatch>=0:../../wip/p5-Exception-Class-TryCatch
 
+PKG_DESTDIR_SUPPORT=	none
 
 # TODO: Look for the dependencies in Build.PL.
 

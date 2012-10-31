@@ -12,8 +12,6 @@ HOMEPAGE=	http://font.ubuntu.com/
 COMMENT=	Ubuntu font family
 #LICENSE=	UBUNTU FONT LICENCE Version 1.0
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/${DISTNAME:S/.orig//:S/_/-/}
 USE_LANGUAGES=	# none
 

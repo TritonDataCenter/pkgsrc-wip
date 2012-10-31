@@ -9,8 +9,6 @@ MAINTAINER=	pkgsrc-users@netbsd.org
 HOMEPAGE=	http://parcellite.sourceforge.net/
 COMMENT=	Parcellite is a lightweight GTK+ clipboard manager
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_TOOLS+=	perl intltool gmake
 

@@ -10,8 +10,6 @@ HOMEPAGE=	http://www.unixuser.org/~euske/python/pyntch/index.html
 COMMENT=	Examine python code and detect possible errors
 #LICENSE=	LICENSE
 
-PKG_DESTDIR_SUPPORT=		user-destdir
-
 VERSION=	20090615
 
 PYDISTUTILSPKG= 	yes

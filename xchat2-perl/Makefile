@@ -1,5 +1,7 @@
 # $NetBSD$
 
+PKG_DESTDIR_SUPPORT=	none
+
 .include "../../chat/xchat/Makefile.common"
 
 PKGNAME=	${DISTNAME:S/-/-perl-/}

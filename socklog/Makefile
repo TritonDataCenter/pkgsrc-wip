@@ -19,13 +19,15 @@ DOCS=		package/CHANGES package/COPYING package/README doc/*.html
 USER_CMDS=	${CMDDIR}/tryto ${CMDDIR}/uncat
 SYS_CMDS=	${CMDDIR}/socklog ${CMDDIR}/socklog-check ${CMDDIR}/socklog-conf
 
+INSTALLATION_DIRS=	bin sbin ${PKGMANDIR}/man1 ${PKGMANDIR}/man8
+
 do-install:
-	${INSTALL_PROGRAM} ${USER_CMDS} ${PREFIX}/bin
-	${INSTALL_PROGRAM} ${SYS_CMDS} ${PREFIX}/sbin
-	${INSTALL_MAN} ${WRKSRC}/man/*.1 ${PREFIX}/${PKGMANDIR}/man1
-	${INSTALL_MAN} ${WRKSRC}/man/*.8 ${PREFIX}/${PKGMANDIR}/man8
-	${INSTALL_DATA_DIR} ${PKGDOCDIR}
-	cd ${WRKSRC} && ${INSTALL_DATA} ${DOCS} ${PKGDOCDIR}
+	${INSTALL_PROGRAM} ${USER_CMDS} ${DESTDIR}${PREFIX}/bin
+	${INSTALL_PROGRAM} ${SYS_CMDS} ${DESTDIR}${PREFIX}/sbin
+	${INSTALL_MAN} ${WRKSRC}/man/*.1 ${DESTDIR}${PREFIX}/${PKGMANDIR}/man1
+	${INSTALL_MAN} ${WRKSRC}/man/*.8 ${DESTDIR}${PREFIX}/${PKGMANDIR}/man8
+	${INSTALL_DATA_DIR} ${DESTDIR}${PKGDOCDIR}
+	cd ${WRKSRC} && ${INSTALL_DATA} ${DOCS} ${DESTDIR}${PKGDOCDIR}
 
 .include "../../mk/djbware.mk"
 .include "../../mk/bsd.pkg.mk"

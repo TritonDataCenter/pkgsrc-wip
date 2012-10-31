@@ -11,6 +11,8 @@ COMMENT=	Perl5/Apache module for NTLM authorization
 
 DEPENDS+=	p5-MIME-Base64>=3:../../converters/p5-MIME-Base64
 
+PKG_DESTDIR_SUPPORT=	none
+
 PERL5_PACKLIST=	auto/Apache/AuthenNTLM/.packlist
 
 .include "../../lang/perl5/module.mk"

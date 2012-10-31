@@ -12,6 +12,8 @@ MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://xmms2.xmms.org/
 COMMENT=	Audio player featuring a client-server model
 
+PKG_DESTDIR_SUPPORT=	none
+
 HAS_CONFIGURE=		yes
 USE_TOOLS+=		pkg-config
 USE_LANGUAGES=		c c++

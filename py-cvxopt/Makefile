@@ -12,8 +12,6 @@ HOMEPAGE=	http://abel.ee.ucla.edu/cvxopt/
 COMMENT=	Python software for convex optimization
 LICENSE=	gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/cvxopt-1.1.2/src
 
 USE_TOOLS+=	pax

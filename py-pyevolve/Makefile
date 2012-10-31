@@ -11,9 +11,7 @@ HOMEPAGE=	http://pyevolve.sourceforge.net/
 COMMENT=	Complete genetic algorithm framework written in pure python
 #LICENSE=	# TODO: (see mk/license.mk)
 
-DEPENDS+=	${PYPKGPREFIX}-sqlite-[0-9]*:../../databases/py-sqlite3
-
-PKG_DESTDIR_SUPPORT=	user-destdir
+DEPENDS+=	${PYPKGPREFIX}-sqlite3-[0-9]*:../../databases/py-sqlite3
 
 USE_LANGUAGES=	# none
 

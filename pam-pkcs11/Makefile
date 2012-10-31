@@ -11,6 +11,8 @@ MAINTAINER=		evaldo@gardenali.biz
 HOMEPAGE=		http://www.opensc-project.org/pam_pkcs11/
 COMMENT=		PKCS #11 authentication method for PAM
 
+PKG_DESTDIR_SUPPORT=	none
+
 USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=		yes
 GNU_CONFIGURE=		yes

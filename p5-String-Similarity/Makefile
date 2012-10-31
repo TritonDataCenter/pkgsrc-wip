@@ -11,8 +11,6 @@ HOMEPAGE=		http://search.cpan.org/dist/String-Similarity/
 COMMENT=		Calculate the similarity of two strings
 LICENSE=		gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGE=		c
 PERL5_PACKLIST=		auto/String/Similarity/.packlist
 

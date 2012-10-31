@@ -14,8 +14,6 @@ COMMENT=	Software development platform for 3D CAD CAM CAE
 LICENSE=	opencascade-license
 LICENSE_FILE=	opencascade-license
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE_PREFIX=	${PREFIX}/opencascade
 
 GNU_CONFIGURE=		yes

@@ -11,8 +11,6 @@ MAINTAINER=	roy@NetBSD.org
 HOMEPAGE=	http://trac.edgewall.org/wiki/SpamFilter
 COMMENT=	Spam Filter plugin for Trac
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 DEPENDS+=	{ja-,}trac>=0.12:../../www/trac
 DEPENDS+=	${PYPKGPREFIX}-dns:../../net/py-dns
 

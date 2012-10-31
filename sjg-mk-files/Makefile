@@ -11,8 +11,6 @@ HOMEPAGE=	http://crufty.net/help/sjg/bmake.html
 COMMENT=	mk-files for bmake by Simon J. Gerraty
 LICENSE=	2-clause-bsd
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/mk
 USE_LANGUAGES=	# none
 NO_BUILD=	yes

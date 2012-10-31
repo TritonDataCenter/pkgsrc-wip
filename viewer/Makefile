@@ -12,9 +12,11 @@ COMMENT=		OpenGL based multipurpose image viewer
 GNU_CONFIGURE=		yes
 CONFIG_STATUS_OVERRIDE= # defined
 
+INSTALLATION_DIRS=	bin ${PKGMANDIR}/man1
+
 do-install:
-	${INSTALL_PROGRAM} ${WRKSRC}/viewer ${PREFIX}/bin
-	${INSTALL_MAN} ${WRKSRC}/viewer.1 ${PREFIX}/${PKGMANDIR}/man1
+	${INSTALL_PROGRAM} ${WRKSRC}/viewer ${DESTDIR}${PREFIX}/bin
+	${INSTALL_MAN} ${WRKSRC}/viewer.1 ${DESTDIR}${PREFIX}/${PKGMANDIR}/man1
 
 .include "../../graphics/glut/buildlink3.mk"
 .include "../../x11/libX11/buildlink3.mk"

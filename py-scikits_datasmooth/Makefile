@@ -11,8 +11,6 @@ HOMEPAGE=	http://scikits.appspot.com/
 COMMENT=	Scikits data smoothing package
 LICENSE=	modified-bsd
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/${DISTNAME}
 USE_LANGUAGES=	# none
 

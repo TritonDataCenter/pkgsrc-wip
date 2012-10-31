@@ -10,6 +10,8 @@ MAINTAINER=	hiramatu@boreas.dti.ne.jp
 HOMEPAGE=	http://swfmill.org/
 COMMENT=	Collection of SWF manipulation and creation utilities
 
+PKG_DESTDIR_SUPPORT=	none
+
 GNU_CONFIGURE=		yes
 USE_TOOLS+=		pkg-config
 USE_LANGUAGES=		c c++

@@ -4,7 +4,6 @@ PKGNAME=	subversion-base-${SVNVER}
 COMMENT=	Version control system, base programs and libraries
 
 PKG_INSTALLATION_TYPES=	overwrite pkgviews
-PKG_DESTDIR_SUPPORT=	user-destdir
 
 # on at least solaris, configure fails to figure out
 # that you need -lintl

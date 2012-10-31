@@ -11,8 +11,6 @@ HOMEPAGE=	http://pydelay.sourceforge.net/
 COMMENT=	Translates a system of delay differential equations (DDEs)
 LICENSE=	mit
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	# none
 PYDISTUTILSPKG=	yes
 

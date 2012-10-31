@@ -9,6 +9,8 @@ MAINTAINER=	morr@NetBSD.org
 HOMEPAGE=	http://www.netfort.gr.jp/~dancer/software/downloads/
 COMMENT=	Library for parsing dsh-style configuration files
 
+PKG_DESTDIR_SUPPORT=	none
+
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 

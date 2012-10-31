@@ -11,8 +11,6 @@ MAINTAINER=		mbowie@buzmo.com
 HOMEPAGE=		http://opensource.dynamoid.com/
 COMMENT=		Binary serialization for PHP
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 CONFIGURE_ARGS+=	--enable-${MODNAME}
 
 USE_PHP_EXT_PATCHES=	yes

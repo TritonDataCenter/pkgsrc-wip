@@ -11,6 +11,8 @@ MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://java-gnome.sourceforge.net/
 COMMENT=		Gtk2 bindings for Java
 
+PKG_DESTDIR_SUPPORT=	none
+
 GNU_CONFIGURE=		yes
 USE_TOOLS+=		gmake pkg-config
 CONFIGURE_ARGS+=	--without-gcj-compile JAVAC=javac

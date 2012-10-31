@@ -6,8 +6,6 @@
 PKGNAME=	libmpg123-${LIBMPG123_VERSION}
 COMMENT=	MPEG layer 1, 2, and 3 decoder library
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 PKGCONFIG_OVERRIDE+=	libmpg123.pc.in
 
 AUTO_MKDIRS=		yes

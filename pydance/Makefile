@@ -13,6 +13,8 @@ COMMENT=		Simulator of Dance Dance Revolution and similar games
 
 DEPENDS+=		${PYPKGPREFIX}-game>=1.6:../../devel/py-game
 
+PKG_DESTDIR_SUPPORT=	none
+
 .include "../../mk/bsd.prefs.mk"
 
 EXAMPLESDIR=		${PREFIX}/share/examples/pydance

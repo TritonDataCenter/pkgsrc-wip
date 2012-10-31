@@ -11,8 +11,6 @@ HOMEPAGE=	http://pypi.python.org/pypi/pymc
 COMMENT=	Markov Chain Monte Carlo sampling toolkit
 LICENSE=	afl
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	c fortran
 PYDISTUTILSPKG=	yes
 

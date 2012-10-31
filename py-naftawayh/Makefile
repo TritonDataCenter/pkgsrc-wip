@@ -12,8 +12,6 @@ HOMEPAGE=	http://naftawayh.sourceforge.net/
 COMMENT=	Naftawayh: Arabic word tagger
 LICENSE=	gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	# none
 PYDISTUTILSPKG=	yes
 

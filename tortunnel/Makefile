@@ -11,8 +11,6 @@ HOMEPAGE=	http://www.thoughtcrime.org/software/tortunnel/
 COMMENT=	Partial onion proxy for single-hop circuits through TOR
 #LICENSE=	# TODO: (see mk/license.mk)
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_TOOLS=	gmake
 USE_LANGUAGES=	c c++

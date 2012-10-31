@@ -12,6 +12,8 @@ COMMENT=		Window manager improved 2
 
 DEPENDS+=		dmenu-[0-9]*:../../x11/dmenu
 
+PKG_DESTDIR_SUPPORT=	none
+
 USE_TOOLS+=		pkg-config
 NO_CONFIGURE=		yes
 WRKSRC=			${WRKDIR}/${DISTNAME}
@@ -35,7 +37,6 @@ CONF_FILES+=		${EGDIR}/${f} ${PKG_SYSCONFDIR}/${f}
 
 # bundles it's own libixp, which is needed until a new stable release is out.
 #.include "../../devel/libixp/buildlink3.mk"
-.include "../../x11/xextproto/buildlink3.mk"
 .include "../../x11/libXext/buildlink3.mk"
 .include "../../x11/libXt/buildlink3.mk"
 .include "../../x11/libXft/buildlink3.mk"

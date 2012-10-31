@@ -13,8 +13,6 @@ HOMEPAGE=	http://labix.org/mocker
 COMMENT=	Graceful platform for test doubles in Python
 LICENSE=	2-clause-bsd
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	# none
 
 .include "../../lang/python/egg.mk"

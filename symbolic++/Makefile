@@ -11,8 +11,6 @@ HOMEPAGE=	http://issc.uj.ac.za/symbolic/symbolic.html
 COMMENT=	C++ and POO programming to develop a computer algebra system
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/SymbolicC++3-3.35
 
 GNU_CONFIGURE= yes

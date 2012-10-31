@@ -10,7 +10,5 @@ HOMEPAGE=	http://www.mongodb.org/display/DOCS/Python+Language+Center
 COMMENT=	Python driver for MongoDB
 LICENSE=	apache-2.0
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 .include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"

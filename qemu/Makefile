@@ -10,8 +10,6 @@ HOMEPAGE=		http://www.qemu.org/
 COMMENT=		CPU emulator using dynamic translation
 LICENSE=		gnu-gpl-v2 AND gnu-lgpl-v2.1 AND mit AND modified-bsd
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 CONFLICTS+=		qemu-bin-[0-9]*
 NOT_FOR_PLATFORM=	NetBSD-1.[0-6]*-*
 

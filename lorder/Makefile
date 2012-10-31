@@ -33,8 +33,10 @@ post-patch:
 	${SED} -e "s:MKTEMP=mktemp:MKTEMP=${MKTEMP}:" \
 		< ${FILESDIR}/lorder.sh > ${WRKDIR}/lorder
 
+INSTALLATION_DIRS=	bin ${PKGMANDIR}/man1
+
 do-install:
-	${INSTALL_SCRIPT} ${WRKDIR}/lorder ${PREFIX}/bin
-	${INSTALL_MAN} ${FILESDIR}/lorder.1 ${PREFIX}/${PKGMANDIR}/man1/
+	${INSTALL_SCRIPT} ${WRKDIR}/lorder ${DESTDIR}${PREFIX}/bin
+	${INSTALL_MAN} ${FILESDIR}/lorder.1 ${DESTDIR}${PREFIX}/${PKGMANDIR}/man1/
 
 .include "../../mk/bsd.pkg.mk"

@@ -11,6 +11,8 @@ COMMENT=		User administration and passwd database tools for Linux
 
 ONLY_FOR_PLATFORM=	Linux-*-* # Linux shadow format
 
+PKG_DESTDIR_SUPPORT=	none
+
 GNU_CONFIGURE=		YES
 
 .include "../../mk/bsd.prefs.mk"

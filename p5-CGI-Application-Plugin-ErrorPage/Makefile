@@ -15,7 +15,6 @@ DEPENDS+=       p5-Params-Validate>0:../../devel/p5-Params-Validate
 DEPENDS+=       p5-Module-Build>0:../../devel/p5-Module-Build
 
 PKG_INSTALLATION_TYPES= overwrite pkgviews
-PKG_DESTDIR_SUPPORT=    user-destdir
 
 PERL5_MODULE_TYPE=	Module::Build
 PERL5_PACKLIST=		auto/CGI/Application/Plugin/ErrorPage/.packlist

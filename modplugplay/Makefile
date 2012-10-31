@@ -10,8 +10,6 @@ HOMEPAGE=	http://gnu.ethz.ch/linuks.mine.nu/modplugplay/
 COMMENT=	Commandline music mod player using libmodplug
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	c++
 
 LDFLAGS+=	-lmodplug ${LIBOSSAUDIO}

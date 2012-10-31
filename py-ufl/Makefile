@@ -12,8 +12,6 @@ COMMENT=	Unified Form Language for finite element discretizations
 
 FETCH_USING=	curl
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 LICENSE=	gnu-lgpl-v3
 
 PYDISTUTILSPKG=	yes

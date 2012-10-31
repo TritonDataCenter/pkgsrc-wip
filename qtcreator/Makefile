@@ -19,7 +19,6 @@ USE_TOOLS+=	gmake
 INSTALLATION_DIRS=      bin lib/qtcreator lib/qtcreator/plugins/Nokia \
 			share/pixmaps share/qtcreator \
 			share/qtcreator/translations
-PKG_DESTDIR_SUPPORT=	user-destdir
 
 BUILD_DEPENDS+=	qt4-tools>=4.6.0:../../x11/qt4-tools \
 		qt4-sqlite3>=4.6.0:../../x11/qt4-sqlite3

@@ -11,8 +11,6 @@ HOMEPAGE=	http://www.tuxguitar.com.ar/
 COMMENT=	Multitrack tablature editor and player
 LICENSE=	gnu-lgpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/tuxguitar-src-1.2
 USE_LANGUAGES=	c c++
 USE_JAVA2=	yes

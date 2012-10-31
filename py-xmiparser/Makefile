@@ -14,8 +14,6 @@ LICENSE=	gnu-gpl-v2
 
 DEPENDS+=	zope3-[0-9]*:../../www/zope3 
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	# none
 
 .include "../../lang/python/egg.mk"

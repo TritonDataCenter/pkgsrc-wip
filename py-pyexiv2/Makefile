@@ -12,8 +12,6 @@ HOMEPAGE=	http://tilloy.net/dev/pyexiv2/
 COMMENT=	Python binding to Exiv2
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	c++
 
 BUILD_DEPENDS+=	scons-[0-9]*:../../devel/scons

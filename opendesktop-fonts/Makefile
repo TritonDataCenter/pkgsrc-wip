@@ -11,8 +11,6 @@ COMMENT=	Simplified and Traditional Chinese and Japanese Ming and Kai Face
 LICENSE=	arphic-public-license
 LICENSE_FILE=	arphic-public-license
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 NO_BUILD=	yes
 USE_LANGUAGES=	# empty
 

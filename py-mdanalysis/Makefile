@@ -12,13 +12,10 @@ COMMENT=Library to analyze and manipulate molecular dynamics trajectories
 LICENSE=	gnu-gpl-v2
 
 DEPENDS+=	${PYPKGPREFIX}-scipy>=0.7.2:../../math/py-scipy
-
-PKG_DESTDIR_SUPPORT=	user-destdir
+DEPENDS+=	${PYPKGPREFIX}-biopython>=1.53:../../wip/biopython
 
 USE_LANGUAGES=	c c++
-
-PYTHON_VERSIONS_ACCEPTED= 27 26 25
-
+PYTHON_VERSIONS_INCLUDE_3X=yes
 
 .include "../../devel/py-cython/buildlink3.mk"
 .include "../../math/py-numpy/buildlink3.mk"

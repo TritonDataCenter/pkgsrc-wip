@@ -12,8 +12,6 @@ HOMEPAGE=	http://pypi.python.org/packages/source/b/bigfloat/
 COMMENT= Arbitrary precision correctly-rounded floating point arithmetic
 LICENSE=	gnu-gpl-v3 AND gnu-lgpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/bigfloat-0.2.1
 USE_LANGUAGES=	# none
 

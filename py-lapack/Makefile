@@ -12,8 +12,6 @@ HOMEPAGE=	http://kochanski.org/gpk/misc/PyLapack.html
 COMMENT=	PyLapack is a python interface to LAPACK
 LICENSE=	gnu-lgpl-v2.1
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES= fortran77
 PYDISTUTILSPKG=	yes
 

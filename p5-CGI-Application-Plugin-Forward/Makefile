@@ -17,7 +17,6 @@ DEPENDS+=       p5-Test-Simple>=0:../../devel/p5-Test-Simple
 
 
 PKG_INSTALLATION_TYPES=	overwrite pkgviews
-PKG_DESTDIR_SUPPORT=	user-destdir
 
 
 PERL5_MODULE_TYPE=	Module::Build

@@ -10,8 +10,6 @@ HOMEPAGE=	http://libburnia-project.org/
 COMMENT=	To create an ISO-9660 filesystem with extensions
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_TOOLS+=	pkg-config

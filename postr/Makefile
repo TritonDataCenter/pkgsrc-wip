@@ -14,8 +14,6 @@ COMMENT=	GNOME flickr uploader
 
 DEPENDS+=	${PYPKGPREFIX}-twisted-[0-9]*:../../net/py-twisted
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	# none
 PYDISTUTILSPKG=		yes
 

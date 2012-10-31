@@ -12,8 +12,6 @@ HOMEPAGE=	http://cermics.enpc.fr/~jpc/nsp-tiddly/
 COMMENT=	A scientific software package similiar to Matlab, Scilab, octave
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=			${WRKDIR}/nsp2
 USE_PKGLOCALEDIR=	yes
 USE_TOOLS+=	pkg-config automake autoconf

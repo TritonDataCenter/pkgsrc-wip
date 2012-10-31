@@ -13,8 +13,6 @@ HOMEPAGE=		http://gtk.php.net/
 COMMENT=		PHP extension for Gtk+ 2.0
 LICENSE=		gnu-lgpl-v2.1
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_TOOLS+=		awk
 USE_TOOLS+=		pkg-config
 

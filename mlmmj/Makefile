@@ -9,6 +9,8 @@ MAINTAINER=	uebayasi@NetBSD.org
 HOMEPAGE=	http://mlmmj.mmj.dk/
 COMMENT=	Mailing list managing made joyful
 
+PKG_DESTDIR_SUPPORT=	none
+
 GNU_CONFIGURE=	yes
 
 .include "../../mk/bsd.pkg.mk"

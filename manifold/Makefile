@@ -11,8 +11,6 @@ HOMEPAGE=	http://code.google.com/p/manifold/
 COMMENT=	SMF service manifest creation tool
 LICENSE=	mit
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 DEPENDS+=	${PYPKGPREFIX}-genshi-[0-9]*:../../www/py-genshi
 
 USE_LANGUAGES=	# none

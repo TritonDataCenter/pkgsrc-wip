@@ -11,8 +11,6 @@ HOMEPAGE=	 http://bitbucket.org/vgauthier/complex-systems/
 COMMENT=	Toolbox for Complex Sytems
 LICENSE=	mit
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/ComplexSystems-0.3.0.5
 
 USE_LANGUAGES=	# none

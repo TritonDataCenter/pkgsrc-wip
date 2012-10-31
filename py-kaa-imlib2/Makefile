@@ -11,9 +11,9 @@ MAINTAINER=		dhowland@users.sourceforge.net
 HOMEPAGE=		http://freevo.sourceforge.net/cgi-bin/freevo-2.0/Kaa
 COMMENT=		Imlib2 wrapper for the Kaa multimedia framework
 
-PYDISTUTILSPKG=		yes
+PKG_DESTDIR_SUPPORT=	none
 
-PYTHON_VERSIONS_ACCEPTED=	25
+PYDISTUTILSPKG=		yes
 
 .include "../../graphics/imlib2/buildlink3.mk"
 .include "../../lang/python/extension.mk"

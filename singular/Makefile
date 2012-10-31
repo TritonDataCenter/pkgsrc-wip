@@ -13,8 +13,6 @@ COMMENT=	SINGULAR is a Computer Algebra System for polynomial computations
 
 DEPENDS+=	latex2html-[0-9]*:../../textproc/latex2html
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/Singular-3-1-0
 GNU_CONFIGURE=	yes
 USE_TOOLS+=	perl gmake

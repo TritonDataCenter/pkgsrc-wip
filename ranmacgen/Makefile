@@ -15,8 +15,6 @@ LICENSE=	gnu-gpl-v2
 NO_CONFIGURE=	yes
 USE_LANGUAGES+=	c
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=			${WRKDIR}
 
 do-build:

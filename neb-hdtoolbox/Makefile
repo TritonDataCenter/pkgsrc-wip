@@ -19,7 +19,7 @@ WRKSRC=			${WRKDIR}
 INSTALLATION_DIRS=	bin ${PKGMANDIR}/man1
 
 do-install:
-	${INSTALL_PROGRAM} ${WRKSRC}/neb-hdtoolbox ${PREFIX}/bin
-	${INSTALL_MAN} ${WRKSRC}/neb-hdtoolbox.1 ${PREFIX}/${PKGMANDIR}/man1
+	${INSTALL_PROGRAM} ${WRKSRC}/neb-hdtoolbox ${DESTDIR}${PREFIX}/bin
+	${INSTALL_MAN} ${WRKSRC}/neb-hdtoolbox.1 ${DESTDIR}${PREFIX}/${PKGMANDIR}/man1
 
 .include "../../mk/bsd.pkg.mk"

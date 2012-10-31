@@ -10,8 +10,6 @@ HOMEPAGE=	http://www.swift.im/
 COMMENT=	Swift XMPP Client
 LICENSE=	gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 DEPENDS+=	scons>=1.3:../../devel/scons
 
 USE_LANGUAGES=	c c++

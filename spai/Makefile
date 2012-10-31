@@ -11,8 +11,6 @@ HOMEPAGE=	http://www.computational.unibas.ch/software/spai/
 COMMENT=	Sparse Approximate Inverses 
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 MAKE_JOBS_SAFE=NO
 
 GNU_CONFIGURE=	yes

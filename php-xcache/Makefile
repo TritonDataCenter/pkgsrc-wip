@@ -18,9 +18,6 @@ COMMENT=		Fast and stable PHP opcode cacher
 
 PLIST_SRC+=		PLIST
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
-
 CONFIGURE_ARGS+=	--enable-${MODNAME}
 
 .include "../../mk/bsd.prefs.mk"

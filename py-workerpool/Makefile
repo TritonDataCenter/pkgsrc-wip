@@ -10,8 +10,6 @@ MAINTAINER=	kamel.derouiche@gmail.com
 HOMEPAGE=	http://code.google.com/p/workerpool/
 COMMENT=	Python multithreaded job distribution module
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	# none
 
 EDGDIR=	${PREFIX}/share/example/${PKGNAME}

@@ -11,8 +11,6 @@ HOMEPAGE=	http://www.povray.org/
 COMMENT=	Persistence of Vision Ray Tracer
 LICENSE=	povray-license
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 BUILDLINK_API_DEPENDS.zlib+=	zlib>=1.2.1
 
 USE_LANGUAGES=		c c++

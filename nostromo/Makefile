@@ -17,8 +17,6 @@ USE_TOOLS=	sed
 # gcc version 4.5.3 (NetBSD nb2 20110806) -O2 causes index out of bounds
 CFLAGS+= -O
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 RCD_SCRIPTS=	nostromo
 EGDIR=		${DESTDIR}/${PREFIX}/nostromo
 

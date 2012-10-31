@@ -12,8 +12,6 @@ COMMENT=	Database connections for multi-threaded environments
 
 DEPENDS+=	${PYPKGPREFIX}-postgresql>=4.0:../../databases/py-postgresql
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	# none
 
 PY_PATCHPLIST=		yes

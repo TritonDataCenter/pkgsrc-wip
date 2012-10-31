@@ -7,8 +7,6 @@ MAINTAINER=	ryo_on@yk.rim.or.jp
 HOMEPAGE=	http://www.rasterbar.com/products/libtorrent/python_binding.html
 COMMENT=	Python binding of rasterbar libtorrent library
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	c c++
 
 PYDISTUTILSPKG=	yes

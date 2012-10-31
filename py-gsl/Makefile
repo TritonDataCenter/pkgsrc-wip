@@ -11,8 +11,6 @@ HOMEPAGE=	http://pygsl.sourceforge.net/
 COMMENT=	Python interface for the GNU scientific library
 LICENSE=	gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 PYDISTUTILSPKG=	yes
 
 do-test:

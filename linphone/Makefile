@@ -9,8 +9,6 @@ HOMEPAGE=	http://www.linphone.org/
 COMMENT=	SIP-based IP telephony client
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	YES
 USE_TOOLS+=	gmake intltool perl pkg-config
 USE_LANGUAGES=	c c++

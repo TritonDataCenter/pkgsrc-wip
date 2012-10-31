@@ -12,8 +12,6 @@ HOMEPAGE=	http://trac.edgewall.org/
 COMMENT=	Integrated SCM, wiki, issue tracker and project environment
 LICENSE=	modified-bsd
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	# none
 USE_TOOLS+=	pax
 

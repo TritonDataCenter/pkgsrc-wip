@@ -10,8 +10,6 @@ MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	http://qcdloop.fnal.gov/
 COMMENT=	Repository of one-loop scalar Feynman integrals
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	fortran
 
 MAKE_FILE=	makefile

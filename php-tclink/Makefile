@@ -12,8 +12,6 @@ MAINTAINER=		mbowie@buzmo.com
 HOMEPAGE=		http://www.trustcommerce.com/
 COMMENT=		PHP extension for TrustCommerce credit card processing
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 CONFIGURE_ARGS=         --enable-${MODNAME}
 
 .include "../../lang/php/ext.mk"

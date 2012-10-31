@@ -14,10 +14,7 @@ LICENSE=	gnu-lgpl-v3
 
 FETCH_USING=	curl
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 PYDISTUTILSPKG=	yes
-PYTHON_VERSIONS_ACCEPTED=	27 26
 
 .include "../../lang/python/extension.mk"
 .include "../../mk/bsd.pkg.mk"

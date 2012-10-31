@@ -11,7 +11,6 @@ COMMENT=		SpecC Reference Compiler
 USE_LANGUAGES+=		c++
 USE_LANGUAGES+=		c
 
-PKG_DESTDIR_SUPPORT=	user-destdir
 # mkdir etc is hardcoded, not so easy to make it.
 
 USE_TOOLS+=		gmake gtar

@@ -8,8 +8,6 @@ MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://lxde.sourceforge.net/
 COMMENT=	Desktop Entry application shortcuts editor
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 #DEPENDS+=	lxmenu-data-[0-9]*:../../wip/lxmenu-data
 
 LICENSE=	gnu-gpl-v2

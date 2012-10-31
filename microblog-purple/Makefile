@@ -11,8 +11,6 @@ HOMEPAGE=		http://code.google.com/p/microblog-purple/
 COMMENT=		Libpurple plug-in supporting microblog services like Twitter
 LICENSE=		gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_TOOLS+=		gmake pkg-config
 USE_LIBTOOL=		yes
 BUILD_TARGET=		# empty

@@ -10,6 +10,8 @@ HOMEPAGE=	http://libcli.sourceforge.net/
 
 COMMENT="Provides a shared library for including a Cisco-like CLI."
 
+PKG_DESTDIR_SUPPORT=	none
+
 USE_LANGUAGES+=	c
 
 WRKSRC=			${WRKDIR}/${DISTNAME}

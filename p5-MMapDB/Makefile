@@ -11,8 +11,6 @@ HOMEPAGE=	http://search.cpan.org/dist/MMapDB
 COMMENT=	Simple database in shared memory
 LICENSE=	${PERL5_LICENSE}
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 DEPENDS+=		p5-File-Map>=0:../../wip/p5-File-Map
 
 PERL5_PACKLIST=		auto/MMapDB/.packlist

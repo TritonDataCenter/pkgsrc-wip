@@ -14,6 +14,8 @@ COMMENT=		Text browser with tables (original version)
 GNU_CONFIGURE=		yes
 CONFIGURE_ENV+=		ac_cv_path_PKG_CONFIG=""
 
+INSTALLATION_DIRS=	bin ${PKGMANDIR}/man1
+
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/links ${PREFIX}/bin/links1
 	${INSTALL_MAN} ${WRKSRC}/links.1 ${PREFIX}/${PKGMANDIR}/man1/links1.1

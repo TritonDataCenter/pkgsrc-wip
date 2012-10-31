@@ -12,8 +12,6 @@ LICENSE=	gnu-gpl-v2
 
 DEPENDS+=	lrslib>=4.3:../../wip/lrslib
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_CMAKE=	yes
 USE_LANGUAGES=	c c++
 

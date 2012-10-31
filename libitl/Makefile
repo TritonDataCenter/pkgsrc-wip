@@ -10,8 +10,6 @@ HOMEPAGE=	http://www.arabeyes.org/project.php?proj=ITL
 COMMENT=	The Islamic Tools Libraries of calculation time and measurement
 LICENSE=	gnu-lgpl-v2.1
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_TOOLS+=	gmake

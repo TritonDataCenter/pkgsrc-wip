@@ -17,8 +17,6 @@ USE_LANGUAGES=		c c++
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 INSTALLATION_DIRS=	share/examples/nzbget
 
 EXAMPLES=		nzbget.conf.example postprocess-example.conf \

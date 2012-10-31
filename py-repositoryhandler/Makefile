@@ -15,8 +15,6 @@ LICENSE=	gnu-gpl-v2
 DEPENDS+=	bzr>=2.0.3:../../devel/bzr
 DEPENDS+=	scmgit>=1.7.0.5:../../devel/scmgit
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_TOOLS+=	pkg-config gmake
 USE_LANGUAGES=	# none

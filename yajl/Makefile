@@ -10,8 +10,6 @@ HOMEPAGE=	http://lloyd.github.com/yajl/
 COMMENT=	Small JSON library written in ANSI C
 LICENSE=	modified-bsd
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LIBTOOL=	yes
 
 USE_LANGUAGES=	c

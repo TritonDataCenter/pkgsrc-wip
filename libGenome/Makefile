@@ -3,11 +3,10 @@
 
 DISTNAME=		libGenome-0.5.2
 CATEGORIES=		biology
-MASTER_SITES=		http://www.libgenome.org/releases/
-#EXTRACT_SUFX=		.tar.gz
+MASTER_SITES=		http://pages.cs.wisc.edu/~darling/libgenome/releases/
 
 MAINTAINER=		dprice@cs.nmsu.edu
-HOMEPAGE=		http://www.libgenome.org/releases/
+HOMEPAGE=		http://pages.cs.wisc.edu/~darling/libgenome/
 COMMENT=		A development library for bioinformatic software
 
 WRKSRC=			${WRKDIR}/libgenome-0.5.2

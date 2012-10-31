@@ -23,7 +23,6 @@ DISTFILES+=	anthy-${ANTHY_VERSION}.tar.gz
 COMMENT=	Tamago(Emacs CJK input) + Anthy engine interface
 
 CONFLICTS=	tamago-[0-9]*
-PKG_DESTDIR_SUPPORT=	user-destdir
 MAKE_FLAGS+=	prefix=${DESTDIR}${PREFIX}
 
 USE_TOOLS+=	pax patch

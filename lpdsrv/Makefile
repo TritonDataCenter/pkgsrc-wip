@@ -9,8 +9,6 @@ EXTRACT_SUFX=	.tgz
 MAINTAINER=	schwarz@NetBSD.org
 COMMENT=	Non-spooling LPD server (RFC1179)
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 NO_CONFIGURE=	YES
 WRKSRC=		${WRKDIR}
 EXTRACT_USING=	gtar # archive does not properly extract using BSD tar

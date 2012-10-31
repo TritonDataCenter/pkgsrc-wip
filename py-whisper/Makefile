@@ -11,8 +11,6 @@ HOMEPAGE=	https://launchpad.net/graphite
 COMMENT=	Fixed-size database, similar in design to RRD
 LICENSE=	apache-2.0
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	# none
 
 .include "../../lang/python/distutils.mk"

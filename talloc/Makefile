@@ -12,8 +12,6 @@ COMMENT=	Hierarchical pool based memory allocator with destructors
 
 BUILD_DEPENDS+=	libxslt-[0-9]*:../../textproc/libxslt
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_TOOLS+=	pkg-config
 

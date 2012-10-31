@@ -15,7 +15,9 @@ PKG_INSTALLATION_TYPES=	overwrite pkgviews
 
 WRKSRC=			${WRKDIR}/mid2gmc
 
+INSTALLATION_DIRS=	bin
+
 do-install:
-	${INSTALL_PROGRAM} ${WRKSRC}/mid2gmc ${PREFIX}/bin
+	${INSTALL_PROGRAM} ${WRKSRC}/mid2gmc ${DESTDIR}${PREFIX}/bin
 
 .include "../../mk/bsd.pkg.mk"

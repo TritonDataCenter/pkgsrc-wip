@@ -11,8 +11,6 @@ HOMEPAGE=	http://sandbox.ltmnet.com/nodau
 COMMENT=	Nodau is a simple console based note taking program
 LICENSE=	gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 MAKE_JOBS_SAFE=		no
 
 INSTALLATION_DIRS=	bin \

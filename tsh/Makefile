@@ -13,8 +13,10 @@ COMMENT=		Lightweight remote shel wity 128AES and file transfers
 
 BUILD_TARGET=${LOWER_OPSYS}
 
+INSTALLATION_DIRS=	bin sbin
+
 do-install:
-	${INSTALL_PROGRAM} ${WRKSRC}/tsh ${PREFIX}/bin
-	${INSTALL_PROGRAM} ${WRKSRC}/tshd ${PREFIX}/sbin
+	${INSTALL_PROGRAM} ${WRKSRC}/tsh ${DESTDIR}${PREFIX}/bin
+	${INSTALL_PROGRAM} ${WRKSRC}/tshd ${DESTDIR}${PREFIX}/sbin
 
 .include "../../mk/bsd.pkg.mk"

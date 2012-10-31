@@ -15,8 +15,6 @@ LICENSE=	modified-bsd
 
 #DEPENDS+=	${PYPKGPREFIX}-scipy>=0.7.0:../../math/py-scipy
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	c c++ fortran
 
 PLIST_SUBST+=	PYVERSSUFFIX=${PYVERSSUFFIX}

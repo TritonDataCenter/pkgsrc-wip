@@ -12,8 +12,6 @@ MAINTAINER=	kamel.derouiche@gmail.com
 HOMEPAGE=	http://peak.telecommunity.com/DevCenter/SymbolType
 COMMENT=	Simple Symbol Type for Python
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	# none
 
 do-test:

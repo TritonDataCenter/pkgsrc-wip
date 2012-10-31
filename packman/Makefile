@@ -8,8 +8,6 @@ MAINTAINER=	mihai.chelaru@ngnetworks.ro
 HOMEPAGE=	http://kefren.ngnetworks.ro/
 COMMENT=	Small package manager
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_TOOLS+=	perl:run
 
 DEPENDS+=	p5-pkgsrc-Dewey>=1.0:../../pkgtools/p5-pkgsrc-Dewey

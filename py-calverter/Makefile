@@ -11,8 +11,6 @@ HOMEPAGE=	https://launchpad.net/pycalverter
 COMMENT=	Convert date between Hijri, Jalali and Gregorian types of date
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	# none
 
 PYDISTUTILSPKG=	yes

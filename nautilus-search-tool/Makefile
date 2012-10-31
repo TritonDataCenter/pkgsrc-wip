@@ -10,8 +10,6 @@ MAINTAINER=	pkgsrc.gnome@gmail.com
 HOMEPAGE=	http://nautsearchtool.sourceforge.net/
 COMMENT=	Extension to have search files on popup menu
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_TOOLS+=		pkg-config intltool
 USE_LIBTOOL=	yes

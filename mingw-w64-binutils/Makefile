@@ -12,8 +12,6 @@ HOMEPAGE=	http://www.gnu.org/software/binutils/
 COMMENT=	GNU binutils for win32/64 cross-development
 LICENSE=	gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=		yes
 USE_LIBTOOL=		yes
 USE_PKGLOCALEDIR=	yes

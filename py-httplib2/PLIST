@@ -1,8 +1,0 @@
-@comment $NetBSD$
-${PYSITELIB}/httplib2/__init__.py
-${PYSITELIB}/httplib2/__init__.pyc
-${PYSITELIB}/httplib2/__init__.pyo
-${PYSITELIB}/httplib2/iri2uri.py
-${PYSITELIB}/httplib2/iri2uri.pyc
-${PYSITELIB}/httplib2/iri2uri.pyo
-share/doc/py-httplib2/README

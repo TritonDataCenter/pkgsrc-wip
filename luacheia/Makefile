@@ -10,6 +10,8 @@ MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://luacheia.sourceforge.net/
 COMMENT=		Extension libraries for LUA
 
+PKG_DESTDIR_SUPPORT=	none
+
 GNU_CONFIGURE=	YES
 USE_TOOLS+=	gmake
 CPPFLAGS+=	-I${PREFIX:Q}/include

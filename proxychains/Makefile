@@ -17,6 +17,8 @@ COMMENT=		Chain multiple proxies in a transparent way
 FETCH_USING=		wget
 FETCH_BEFORE_ARGS=	--no-check-certificate
 
+PKG_DESTDIR_SUPPORT=	none
+
 WRKSRC=		${WRKDIR}/proxychains
 
 USE_PKGLOCALEDIR=	yes

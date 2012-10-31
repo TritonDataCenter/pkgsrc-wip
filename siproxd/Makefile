@@ -9,8 +9,6 @@ HOMEPAGE=	http://siproxd.sourceforge.net/
 COMMENT=	Session Initiation Protocol Application-Level Gateway (SIP ALG)
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	YES
 USE_TOOLS+=	gmake
 

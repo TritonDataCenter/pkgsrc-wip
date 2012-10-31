@@ -11,8 +11,6 @@ HOMEPAGE=		http://search.cpan.org/dist/Metadata/
 COMMENT=		Perl classes for simple metadata
 LICENSE=		${PERL5_LICENSE}
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 PERL5_PACKLIST=		auto/Metadata/.packlist
 
 .include "../../lang/perl5/module.mk"

@@ -10,7 +10,6 @@ MAINTAINER=	clamiax@gmail.com
 HOMEPAGE=	http://wgetpro.sourceforge.net/
 COMMENT=	Wget with "PRO" features
 
-PKG_DESTDIR_SUPPORT=	user-destdir
 GNU_CONFIGURE=		yes
 USE_PKGLOCALEDIR=	yes
 

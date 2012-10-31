@@ -8,12 +8,14 @@ MAINTAINER=		jwbacon@tds.net
 HOMEPAGE=		http://glaros.dtc.umn.edu/gkhome/views/metis/
 COMMENT=		Unstructured graph partitioning and sparse matrix ordering system
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 BUILD_TARGET=		default
 INSTALLATION_DIRS=	bin lib
 
 LICENSE=	modified-bsd
+
+do-test:
+	cd ${WRKSRC}/Graphs && ./mtest 4elt.graph
+	cd ${WRKSRC}/Graphs && ./mtest test.mgraph
 
 do-install:
 	cd ${WRKSRC} && ${INSTALL_PROGRAM} graphchk kmetis mesh2dual 	\

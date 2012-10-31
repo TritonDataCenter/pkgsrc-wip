@@ -8,8 +8,6 @@ MAINTAINER=	pkgsrc-users@NetBSD.org
 COMMENT=	Class for parsing and handling URL
 LICENSE=	2-clause-bsd
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	# none
 
 .include "../../lang/php/pear.mk"

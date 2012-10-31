@@ -11,8 +11,6 @@ HOMEPAGE=	http://www.freedesktop.org/wiki/Software/LightDM
 COMMENT=	Light cross-desktop display manager
 LICENSE=	gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=		yes
 CONFIGURE_ARGS+=	--disable-tests	# PAM
 USE_LIBTOOL=		yes
@@ -24,7 +22,7 @@ MAKE_ENV+=		"LIBLIGHTDM_GOBJECT_CFLAGS=-I${BUILDLINK_PREFIX.glib2}/include/glib/
 PKGCONFIG_OVERRIDE+=	liblightdm-gobject/liblightdm-gobject-1.pc.in
 PKGCONFIG_OVERRIDE+=	liblightdm-qt/liblightdm-qt-2.pc.in
 
-DEPENDS+=		itstool-[0-9]*:../../wip/itstool
+DEPENDS+=		itstool-[0-9]*:../../textproc/itstool
 
 EGDIR=			${PREFIX}/share/examples
 INSTALLATION_DIRS+=	${PKG_SYSCONFDIR}/apparmor.d

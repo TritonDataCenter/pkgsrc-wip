@@ -11,8 +11,6 @@ HOMEPAGE=	http://search.cpan.org/CPAN/authors/id/M/MI/MIYAGAWA/
 COMMENT=	App::cpanminus - get, unpack, build and install modules from CPAN
 #LICENSE=	license
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 DEPENDS+=	p5-Module-Build>=0:../../devel/p5-Module-Build
 DEPENDS+=	p5-libwww>=0:../../www/p5-libwww
 

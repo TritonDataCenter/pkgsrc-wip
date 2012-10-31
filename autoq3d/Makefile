@@ -4,15 +4,13 @@
 DISTNAME=	AutoQ3DCommunity1-40qt4source
 PKGNAME=	autoq3d-1.40
 CATEGORIES=	cad
-MASTER_SITES=	http://downloads.sourceforge.net/project/autoq3d/autoq3d/AutoQ3D%201.40/
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=autoq3d/}
 EXTRACT_SUFX=	.zip
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.autoq3d.com/
 COMMENT=	Application for computer aided drafting in two and dimensions
 LICENSE=	gnu-gpl-v2
-
-PKG_DESTDIR_SUPPORT=	user-destdir
 
 WRKSRC=			${WRKDIR}/AutoQ3DCommunity1-40qt4source
 USE_LANGUAGES=		c++

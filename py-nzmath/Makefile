@@ -11,8 +11,6 @@ HOMEPAGE=	http://tnt.math.metro-u.ac.jp/nzmath/
 COMMENT=	Number theory oriented calculation system
 #LICENSE=	# TODO: (see mk/license.mk)
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	# none
 
 PYDISTUTILSPKG=	yes

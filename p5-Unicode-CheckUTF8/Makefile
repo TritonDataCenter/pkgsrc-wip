@@ -12,7 +12,6 @@ COMMENT=        Perl5 module to check if scalar is valid UTF-8
 LICENSE=	generic-nonlicense
 
 PKG_INSTALLATION_TYPES= overwrite pkgviews
-PKG_DESTDIR_SUPPORT=    user-destdir
 
 USE_LANGUAGES=	c
 PERL5_PACKLIST=         auto/Unicode/CheckUTF8/.packlist

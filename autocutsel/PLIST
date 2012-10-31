@@ -1,4 +1,0 @@
-@comment $NetBSD$
-bin/autocutsel
-bin/cutsel
-share/doc/autocutsel/README

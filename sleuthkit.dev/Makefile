@@ -10,6 +10,8 @@ MAINTAINER=		oivulf@gmail.com
 HOMEPAGE=		http://www.sleuthkit.org/
 COMMENT=		OpenSource Forensic Toolkit
 
+PKG_DESTDIR_SUPPORT=	none
+
 USE_LANGUAGES=		c c++
 USE_LIBTOOL= yes
 USE_TOOLS+=		gmake file perl:run

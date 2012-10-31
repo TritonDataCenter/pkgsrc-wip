@@ -10,8 +10,6 @@ HOMEPAGE=		http://www.libee.org/
 COMMENT=		Event Expression Library inspired by CEE
 LICENSE=		gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=		yes
 CONFIGURE_ARGS+=	--disable-testbench
 

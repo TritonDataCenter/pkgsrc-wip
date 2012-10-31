@@ -11,8 +11,6 @@ HOMEPAGE=	http://larry.sourceforge.net/
 COMMENT=	Label the rows, columns, any dimension, of your NumPy arrays
 LICENSE=	modified-bsd
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=	${WRKDIR}/la-0.4.0
 PYDISTUTILSPKG=	yes
 

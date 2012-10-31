@@ -12,8 +12,6 @@ HOMEPAGE=	http://projects.scipy.org/scipy/scikits
 COMMENT=	Python module for numerical optimization
 LICENSE=	modified-bsd
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	# none
 
 .include "../../lang/python/egg.mk"

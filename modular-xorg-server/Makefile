@@ -11,7 +11,6 @@ MAINTAINER=	bjs@NetBSD.org
 HOMEPAGE=	http://xorg.freedesktop.org/
 COMMENT=	Modular X11 server from modular X.org
 
-PKG_DESTDIR_SUPPORT=	user-destdir
 SPECIAL_PERMS+=		bin/Xorg ${SETUID_ROOT_PERMS}
 
 GNU_CONFIGURE=	yes
@@ -152,7 +151,6 @@ BUILDLINK_API_DEPENDS.libXext+=	libXext>=1.1.1
 .include "../../x11/trapproto/buildlink3.mk"
 .include "../../x11/videoproto/buildlink3.mk"
 .include "../../x11/xcmiscproto/buildlink3.mk"
-.include "../../x11/xextproto/buildlink3.mk"
 .include "../../x11/xf86bigfontproto/buildlink3.mk"
 .include "../../x11/xf86dgaproto/buildlink3.mk"
 .include "../../x11/xf86driproto/buildlink3.mk"

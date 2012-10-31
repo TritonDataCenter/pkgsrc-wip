@@ -13,8 +13,6 @@ LICENSE=	mit
 
 DEPENDS+=	${PYPKGPREFIX}-nose>=0.11.3:../../devel/py-nose
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 .include "../../lang/python/egg.mk"
 .include "../../math/py-numpy/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

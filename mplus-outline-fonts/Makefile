@@ -12,8 +12,6 @@ HOMEPAGE=	http://mplus-fonts.sourceforge.jp/mplus-outline-fonts/index-en.html
 COMMENT=	M+ outline fonts
 LICENSE=	mplusfont
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	# empty
 
 NO_BUILD=	yes

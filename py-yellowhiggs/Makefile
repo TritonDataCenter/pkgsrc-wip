@@ -11,8 +11,6 @@ HOMEPAGE=	https://end.web.cern.ch/end/projects/yellowhiggs/
 COMMENT=	Interface for the CERN Yellow Report
 LICENSE=	gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	# none
 
 #PYDISTUTILSPKG=	yes

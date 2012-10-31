@@ -10,8 +10,6 @@ HOMEPAGE=	http://synfig.org/
 COMMENT=	Animation studio for 2D animation renderer
 LICENSE=	gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=		yes
 USE_LANGUAGES=		c c++
 USE_PKGLOCALEDIR=	yes

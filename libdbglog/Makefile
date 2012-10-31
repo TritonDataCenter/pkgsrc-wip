@@ -11,8 +11,6 @@ MAINTAINER=	ondrej.tuma@firma.seznam.cz
 HOMEPAGE=	http://opensource.seznam.cz/DBGlog
 COMMENT=	C++ library for debugging purposes and runtime logging to file
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_LANGUAGES=	c c++

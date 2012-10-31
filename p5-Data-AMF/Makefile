@@ -11,8 +11,6 @@ HOMEPAGE=	http://search.cpan.org/dist/Data-AMF/lib/Data/AMF.pm
 COMMENT=	serialize/deserialize Adobe Action Message Format data
 LICENSE=	${PERL5_LICENSE}
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_TOOLS+=	groff
 DEPENDS+=	p5-Any-Moose*:../../devel/p5-Any-Moose
 DEPENDS+=	p5-DateTime*:../../time/p5-DateTime

@@ -22,8 +22,6 @@ DEPENDS+=	${PYPKGPREFIX}-lxml-[0-9]*:../../textproc/py-lxml
 DEPENDS+=	${PYPKGPREFIX}-Unidecode>=0.04.9:../../textproc/py-Unidecode
 DEPENDS+=	${PYPKGPREFIX}-django-[0-9]*:../../www/py-django
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/Booktype-1.5
 
 USE_TOOLS+=	perl
@@ -45,8 +43,7 @@ REPLACE.python.old=	/usr/bin/env
 REPLACE.python.new=	${PYTHONBIN}
 REPLACE_FILES.python=	${WRKSRC}/lib/booki/manage.py
 
-PYTHON_VERSIONS_ACCEPTED= 27 26 25
-
+PYTHON_VERSIONS_INCLUDE_3X=yes
 .include "options.mk"
 
 .include "../../lang/python/egg.mk"

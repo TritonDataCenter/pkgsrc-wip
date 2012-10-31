@@ -16,15 +16,12 @@ LICENSE=	gnu-lgpl-v2.1
 DEPENDS+=	${PYPKGPREFIX}-django-[0-9]*:../../www/py-django
 DEPENDS+=	${PYPKGPREFIX}-git-[0-9]*:../../wip/py-git
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/django-gitrevision-0.1.4
 
 USE_LANGUAGES=	# none
 
-PYTHON_VERSIONS_ACCEPTED= 31 27 26 25
-
 PLIST_SUBST+=	PYVERSSUFFIX=${PYVERSSUFFIX}
+PYTHON_VERSIONS_INCLUDE_3X=yes
 
 .include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"

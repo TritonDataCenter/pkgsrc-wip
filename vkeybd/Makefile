@@ -8,6 +8,8 @@ MAINTAINER=	oht@users.sourceforge.net
 HOMEPAGE=	http://www.alsa-project.org/~iwai/
 COMMENT=	Virtual midi keyboard
 
+PKG_DESTDIR_SUPPORT=	none
+
 RAWMIDI=	/dev/rmidi0
 WRKSRC=		${WRKDIR}/vkeybd
 VKB_TCLFILE =	${PREFIX}/share/vkeybd/vkeybd.tcl

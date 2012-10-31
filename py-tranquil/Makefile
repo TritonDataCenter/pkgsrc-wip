@@ -13,8 +13,6 @@ COMMENT=	Integrating SQLAlchemy with Django
 DEPENDS+=	${PYPKGPREFIX}-sqlalchemy>=${SQLALCHEMYVERS}:../../databases/py-sqlalchemy
 DEPENDS+=	${PYPKGPREFIX}-django>=${DJANGOVERS}:../../www/py-django
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	# none
 
 PYDISTUTILSPKG=	yes

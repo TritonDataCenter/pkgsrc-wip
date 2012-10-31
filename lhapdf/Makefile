@@ -11,8 +11,6 @@ COMMENT=	Les Houches Accord PDF library and interface
 LICENSE=	gnu-gpl-v2
 
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 CHECK_PORTABILITY_SKIP= configure
 
 GNU_CONFIGURE=	yes

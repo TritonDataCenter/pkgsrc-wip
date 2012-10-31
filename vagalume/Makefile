@@ -10,8 +10,6 @@ HOMEPAGE=	http://vagalume.igalia.com/
 COMMENT=	GTK+-based Last.fm client
 LICENSE=	gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_TOOLS+=	gmake intltool msgfmt pkg-config

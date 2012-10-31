@@ -14,8 +14,6 @@ LICENSE=	gnu-gpl-v2
 
 DEPENDS+=	libnet11>=1.1.2.1:../../devel/libnet11
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 INSTALLATION_DIRS+=	bin
 
 do-install:

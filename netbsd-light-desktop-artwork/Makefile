@@ -12,8 +12,6 @@ HOMEPAGE=	http://wiki.netbsd.org/light-desktop
 COMMENT=	Artwork and icon theme for NetBSD
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/lubuntu-artwork-0.27
 NO_BUILD=	yes
 USE_LANGUAGES=	# none

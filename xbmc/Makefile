@@ -11,8 +11,6 @@ HOMEPAGE=	http://xbmc.org/
 COMMENT=	Software media player and entertainment hub for digital media
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 EXTRACT_USING=		bsdtar
 
 USE_TOOLS+=		pkg-config automake

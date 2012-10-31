@@ -19,6 +19,7 @@ DEPENDS+=       p5-HTTP-Server-Simple>=0:../../www/p5-HTTP-Server-Simple
 DEPENDS+=       p5-Test-WWW-Mechanize>=0:../../www/p5-Test-WWW-Mechanize
 DEPENDS+=       p5-HTTP-Server-Simple-Static>=0:../../www/p5-HTTP-Server-Simple-Static
 
+PKG_DESTDIR_SUPPORT=    none
 PKG_INSTALLATION_TYPES=	overwrite pkgviews
 
 PERL5_PACKLIST=		auto/CGI/Application/Server/.packlist

@@ -11,8 +11,6 @@ HOMEPAGE=	http://jwilk.net/software/djvusmooth
 COMMENT=	Graphical editor for DjVu documents
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 INSTALLATION_DIRS=	${PKGMANDIR}/man1
 
 USE_LANGUAGES=	# none

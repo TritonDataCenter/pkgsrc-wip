@@ -11,8 +11,6 @@ HOMEPAGE=	http://www.maths.bris.ac.uk/~mamjw/
 COMMENT=	Special values of symmetric power elliptic curve L-functions
 #LICENSE=	# TODO: (see mk/license.mk)
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=	${WRKDIR}/sympow-1.019
 USE_TOOLS+=	pax
 USE_LANGUAGES= c c++

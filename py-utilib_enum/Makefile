@@ -11,8 +11,6 @@ HOMEPAGE=	https://software.sandia.gov/svn/public/pyutilib/pyutilib.enum
 COMMENT=	Variant of the 'enum' package that supports pickling
 LICENSE=	modified-bsd
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/pyutilib.enum-1.0.5
 
 VERSION=	1.0.5

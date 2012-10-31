@@ -11,8 +11,6 @@ HOMEPAGE=	http://github.com/twiecki/CythonGSL
 COMMENT=	Cython declarations for the Gnu Scientific Library
 LICENSE=	gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/CythonGSL-0.1
 
 USE_LANGUAGES=	# none

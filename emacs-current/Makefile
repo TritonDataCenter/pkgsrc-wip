@@ -85,7 +85,6 @@ pre-configure:
 .include "../../graphics/librsvg/buildlink3.mk"
 .include "../../x11/libdrm/buildlink3.mk"
 .include "../../x11/dri2proto/buildlink3.mk"
-.include "../../x11/xextproto/buildlink3.mk"
 .include "../../x11/damageproto/buildlink3.mk"
 .include "../../x11/libXdamage/buildlink3.mk"
 .include "../../x11/libXxf86vm/buildlink3.mk"

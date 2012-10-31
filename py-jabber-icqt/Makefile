@@ -10,8 +10,6 @@ HOMEPAGE=		http://code.google.com/p/pyicqt/
 COMMENT=		Transport connecting Jabber to the ICQ IM network
 LICENSE=		gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 CONFLICTS=		${PYPKGPREFIX}-jabber-pyicq-t-*
 
 #

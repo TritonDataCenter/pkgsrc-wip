@@ -12,8 +12,6 @@ HOMEPAGE=	http://pyfixedpoint.sourceforge.net/
 COMMENT=	Tools for arithmetic on fixed-point (binary) numbers
 LICENSE=	python-software-foundation
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	# none
 
 PYDISTUTILSPKG=	yes

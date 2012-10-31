@@ -9,7 +9,7 @@ MAINTAINER=	msporleder@gmail.com
 HOMEPAGE=	http://on.encoreinteractive.ca/opensource/
 COMMENT=	portable inotify userland lib
 #LICENSE=	# TODO: (see mk/license.mk)
-PKG_DESTDIR_SUPPORT=    user-destdir
+
 GNU_CONFIGURE=          yes
 
 .include "../../mk/bsd.pkg.mk"

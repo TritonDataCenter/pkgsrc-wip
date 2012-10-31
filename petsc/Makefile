@@ -11,8 +11,6 @@ HOMEPAGE=	http://www.mcs.anl.gov/petsc/petsc-as/
 COMMENT=	Portable, Extensible Toolkit for  Scientific Computation
 #LICENSE=	# TODO: (see mk/license.mk)
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 HAS_CONFIGURE=		yes
 USE_LANGUAGES=		c c++
 USE_TOOLS+=		perl

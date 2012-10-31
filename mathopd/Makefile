@@ -8,7 +8,6 @@ MAINTAINER=	ishit@users.sourceforge.net
 HOMEPAGE=	http://www.mathopd.org/
 COMMENT=	Very small, yet very fast HTTP server
 
-PKG_DESTDIR_SUPPORT=	user-destdir
 .include "../../mk/bsd.prefs.mk"
 
 WRKSRC=		${WRKDIR}/${DISTNAME}/src

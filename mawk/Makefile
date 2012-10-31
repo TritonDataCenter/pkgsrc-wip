@@ -11,13 +11,10 @@ MAINTAINER=	cheusov@NetBSD.org
 COMMENT=	AWK clone by Mike Brennan
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 TEST_TARGET=		mawk_test fpe_test
 
 GNU_CONFIGURE=		yes
 
-PKG_DESTDIR_SUPPORT=	user-destdir
 MAKE_JOBS_SAFE=		no
 
 .include "../../mk/bsd.prefs.mk"

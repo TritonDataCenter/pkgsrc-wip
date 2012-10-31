@@ -9,8 +9,6 @@ MAINTAINER=	blair.sadewitz@gmail.com
 HOMEPAGE=	http://www.hinterbergen.de/mala/min12xxw/
 COMMENT=	Konica/Minolta PagePro 1[234]xx pbmraw stream converter
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_TOOLS+=	gmake

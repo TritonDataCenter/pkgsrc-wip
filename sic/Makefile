@@ -11,8 +11,10 @@ COMMENT=		Simple IRC client
 
 NO_CONFIGURE=		yes
 
+INSTALLATION_DIRS=	bin ${PKGMANDIR}/man1
+
 do-install:
-	${INSTALL_PROGRAM} ${WRKSRC}/sic ${PREFIX}/bin
-	${INSTALL_MAN} ${WRKSRC}/sic.1 ${PREFIX}/${PKGMANDIR}/man1
+	${INSTALL_PROGRAM} ${WRKSRC}/sic ${DESTDIR}${PREFIX}/bin
+	${INSTALL_MAN} ${WRKSRC}/sic.1 ${DESTDIR}${PREFIX}/${PKGMANDIR}/man1
 
 .include "../../mk/bsd.pkg.mk"

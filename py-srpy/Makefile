@@ -14,9 +14,7 @@ HOMEPAGE=	http://code.google.com/p/srpy/
 COMMENT=	Easy access and remote control of local/remote Python instances
 LICENSE=	modified-bsd
 
-DEPENDS+=	${PYPKGPREFIX}-Pyro>=-3.4:../../devel/py-Pyro
-
-PKG_DESTDIR_SUPPORT=	user-destdir
+DEPENDS+=	${PYPKGPREFIX}-Pyro4>=-3.4:../../devel/py-Pyro
 
 USE_TOOLS+=	pax
 USE_LANGUAGES=	# none

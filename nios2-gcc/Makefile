@@ -13,8 +13,6 @@ EXTRACT_ELEMENTS=	gcc
 WRKSRC=			${WRKDIR}/gcc
 PATH:=                  ${CROSSBASE}/bin:${PATH}
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_TOOLS+=		gmake makeinfo perl
 USE_GNU_CONFIGURE_HOST=	no
 #BUILD_DEFS+=		CROSSBASE	#included in ../nios2/Makefile.common

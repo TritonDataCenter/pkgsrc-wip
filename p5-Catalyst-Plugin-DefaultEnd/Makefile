@@ -13,6 +13,8 @@ PERL5_REQD+=	5.8.1
 
 DEPENDS+=	p5-Catalyst-Runtime>=5.20:../../www/p5-Catalyst-Runtime
 
+PKG_DESTDIR_SUPPORT=	none
+
 PERL5_MODULE_TYPE=	Module::Build
 
 PERL5_PACKLIST=	auto/Catalyst/Plugin/DefaultEnd/.packlist

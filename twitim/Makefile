@@ -12,8 +12,6 @@ HOMEPAGE=	http://code.google.com/p/twitim/
 COMMENT=	Twitim is a Twitter client for GNOME
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/twitim
 USE_LANGUAGES=	# none
 

@@ -10,7 +10,6 @@ COMMENT=	Translate common Internet acronyms
 LICENSE=	public-domain
 
 NO_BUILD=				yes
-PKG_DESTDIR_SUPPORT=	user-destdir
 
 SUBST_CLASSES+=				fix-paths
 SUBST_STAGE.fix-paths=		pre-configure

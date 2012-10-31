@@ -11,8 +11,6 @@ HOMEPAGE=	http://mumble.sourceforge.net/
 COMMENT=	Low latency VOIP software used mostly during computer games
 #LICENSE=	# TODO: (see mk/license.mk)
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 BUILD_DEPENDS+=	boost-headers-[0-9]*:../../devel/boost-headers
 USE_TOOLS+= 	pkg-config
 USE_LANGUAGES=	c c++

@@ -2,7 +2,6 @@
 #
 
 LIBGDA_PROVIDER=	mdb
-PKG_DESTDIR_SUPPORT=	user-destdir
 
 .include "../../databases/libgda/Makefile.common"
 

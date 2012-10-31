@@ -13,8 +13,6 @@ HOMEPAGE=	http://72dpiarmy.supersanctuary.net/viewforum.php?f=1
 COMMENT=	Super Mario War - stomp the Marios
 #LICENSE=	# TODO: (see mk/license.mk)
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 HAS_CONFIGURE=	yes
 USE_LANGUAGES=	c c++
 USE_TOOLS+=	gmake

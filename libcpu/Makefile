@@ -10,8 +10,6 @@ MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.libcpu.org/
 COMMENT=	Anything-to-anything binary translation library
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_TOOLS+=	gmake flex bison
 USE_LANGUAGES+=	c c++
 WRKSRC=		${WRKDIR}/libcpu

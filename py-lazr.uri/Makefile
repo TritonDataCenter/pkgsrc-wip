@@ -11,8 +11,6 @@ HOMEPAGE=	https://launchpad.net/lazr.uri
 COMMENT=	Library for parsing, manipulating, and generating URIs
 LICENSE=	gnu-lgpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	# none
 
 .include "../../lang/python/egg.mk"

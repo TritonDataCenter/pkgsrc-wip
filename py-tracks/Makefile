@@ -11,8 +11,6 @@ HOMEPAGE=	http://molmod.ugent.be/code/wiki/
 COMMENT=	Analysis tools for Molecular Dynamics and Monte Carlo simulations
 LICENSE=	mit
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	# none
 
 PYDISTUTILSPKG=	yes

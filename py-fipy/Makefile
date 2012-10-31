@@ -17,8 +17,6 @@ DEPENDS+=	${PYPKGPREFIX}-scipy>=0.7.0:../../math/py-scipy
 DEPENDS+=	${PYPKGPREFIX}-sphinx>=1.0.4:../../textproc/py-sphinx
 #DEPENDS+=	${PYPKGPREFIX}-gist>=1.5.28:../../wip/py-gist
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	# none
 
 do-test:

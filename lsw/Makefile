@@ -10,8 +10,6 @@ HOMEPAGE=	http://tools.suckless.org/lsw/
 COMMENT=	Lists the titles of all running X windows to stdout
 LICENSE=	mit
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 NO_CONFIGURE=   yes
 
 # Adjust config.mk

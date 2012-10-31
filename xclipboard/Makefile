@@ -10,8 +10,6 @@ MAINTAINER=		lars.nordlund@hem.utfors.se
 HOMEPAGE=		http://xorg.freedesktop.org/
 COMMENT=		Manage the X server clipboard
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=		yes
 USE_TOOLS+=		pkg-config
 

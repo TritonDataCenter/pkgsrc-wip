@@ -10,8 +10,6 @@ MAINTAINER=	schwarz@NetBSD.org
 HOMEPAGE=	http://www.portal-to-web.de/tacacs/
 COMMENT=	Version of Cisco's tac_plus Tacacs server with RADIUS support
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 INSTALLATION_DIRS=	bin sbin ${PKGMANDIR}/man8 share/doc/tac_plus \
 			share/examples/tac_plus
 

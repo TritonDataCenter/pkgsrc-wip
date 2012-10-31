@@ -13,7 +13,6 @@ GIT_REPOSITORIES=	master
 GIT_REPO.master=	git://github.com/yoshiki/${PKGBASE}.git
 GIT_MODULE.master=	${PKGBASE}
 
-PKG_DESTDIR_SUPPORT=	user-destdir
 INSTALLATION_DIRS+=	${EMACS_LISPPREFIX}
 INSTALLATION_DIRS+=	share/doc/${PKGBASE}
 

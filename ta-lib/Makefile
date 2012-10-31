@@ -10,8 +10,6 @@ MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	http://www.ta-lib.org/
 COMMENT=	Unix POSIX Library for Technical Analysis
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/ta-lib
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes

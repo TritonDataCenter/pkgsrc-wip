@@ -13,6 +13,7 @@ MAINTAINER=	dauphin@enst.fr
 HOMEPAGE=	http://vreng.enst.fr/
 COMMENT=	Virtual Reality Engine interactive distributed 3D application
 
+PKG_DESTDIR_SUPPORT=	none
 #PKG_INSTALLATION_TYPES= overwrite pkgviews
 
 USE_LANGUAGES=	c c++

@@ -14,8 +14,6 @@ HOMEPAGE=     http://semanticscuttle.sourceforge.net/
 COMMENT=      SemanticScuttle is a social bookmarking tool
 LICENSE=      gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 .include "../../lang/php/phpversion.mk"
 .include "../../mk/apache.mk"
 DEPENDS+=	${APACHE_PKG_PREFIX}-${PHP_PKG_PREFIX}:../../www/ap-php

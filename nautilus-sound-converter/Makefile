@@ -13,8 +13,6 @@ COMMENT=	Nautilus extension to convert audio files
 
 #LICENSE=	# TODO: (see mk/license.mk)
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=	yes

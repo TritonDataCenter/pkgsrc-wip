@@ -10,8 +10,6 @@ HOMEPAGE=	http://synfig.org/
 COMMENT=	Vector-based 2D animation renderer
 LICENSE=	gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=		yes
 USE_TOOLS+=			pkg-config
 USE_PKGLOCALEDIR=	yes

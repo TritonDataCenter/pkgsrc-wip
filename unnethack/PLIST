@@ -10,8 +10,8 @@ man/man6/recover.6
 man/man6/unnethack.6
 share/doc/unnethack/Guidebook.txt
 share/doc/unnethack/license
-share/unnethackdir360/nhdat
-share/unnethackdir360/recover
-share/unnethackdir360/unnethack
-@comment share/unnethackdir360/unnethack.x11.rc
+share/unnethackdir400/nhdat
+share/unnethackdir400/recover
+share/unnethackdir400/unnethack
+@comment share/unnethackdir400/unnethack.x11.rc
 

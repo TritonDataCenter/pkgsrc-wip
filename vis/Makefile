@@ -15,6 +15,8 @@ DEPENDS+=	bison>=1.22:../../devel/bison
 
 CONFLICTS=	vis<=0.1
 
+PKG_DESTDIR_SUPPORT=	none
+
 CONFIGURE_DIRS=		../glu-2.1 .
 
 GNU_CONFIGURE=		yes

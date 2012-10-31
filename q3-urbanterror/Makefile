@@ -27,8 +27,10 @@ BUILD_DIRS=	# empty
 
 EMUL_PLATFORMS=		linux-i386
 
+INSTALLATION_DIRS=	lib/lokigames/quake3arena/baseq3
+
 do-install:
 	${INSTALL_DATA} ${WRKSRC}/zq3ut3.pk3 \
-		${PREFIX}/lib/lokigames/quake3arena/baseq3
+		${DESTDIR}${PREFIX}/lib/lokigames/quake3arena/baseq3
 
 .include "../../mk/bsd.pkg.mk"

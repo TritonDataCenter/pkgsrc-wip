@@ -15,7 +15,6 @@ EXTRACT_SUFX=	.tgz
 
 ONLY_FOR_PLATFORM= DragonFly-*-* NetBSD-*-*
 
-PKG_DESTDIR_SUPPORT=	user-destdir
 NO_CONFIGURE= yes
 USE_TOOLS+= perl
 

@@ -27,11 +27,11 @@ DOCS=		package/CHANGES package/COPYING package/README \
 INSTALLATION_DIRS=	${PKGMANDIR} ${PKGMANDIR}/man8 sbin share/examples/runit
 
 do-install:
-	${INSTALL_PROGRAM} ${CMDDIR}/* ${PREFIX}/sbin
-	${INSTALL_MAN} ${WRKSRC}/man/*.8 ${PREFIX}/${PKGMANDIR}/man8
-	cd ${WRKSRC}/etc && ${PAX} -rwppm . ${PKGEXAMPLEDIR}
-	${INSTALL_DATA_DIR} ${PKGDOCDIR}
-	cd ${WRKSRC} && ${INSTALL_DATA} ${DOCS} ${PKGDOCDIR}
+	${INSTALL_PROGRAM} ${CMDDIR}/* ${DESTDIR}${PREFIX}/sbin
+	${INSTALL_MAN} ${WRKSRC}/man/*.8 ${DESTDIR}${PREFIX}/${PKGMANDIR}/man8
+	cd ${WRKSRC}/etc && ${PAX} -rwppm . ${DESTDIR}${PKGEXAMPLEDIR}
+	${INSTALL_DATA_DIR} ${DESTDIR}${PKGDOCDIR}
+	cd ${WRKSRC} && ${INSTALL_DATA} ${DOCS} ${DESTDIR}${PKGDOCDIR}
 
 .include "../../mk/djbware.mk"
 .include "../../mk/bsd.pkg.mk"

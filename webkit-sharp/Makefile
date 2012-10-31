@@ -13,8 +13,6 @@ MAINTAINER=	pkgsrc.gnome@gmail.com
 COMMENT=	Webkit-sharp Bindings webkit-gtk under C\#
 #LICENSE=	# TODO: (see mk/license.mk)
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_TOOLS+=	pkg-config
 USE_LANGUAGES=	# none

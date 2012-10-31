@@ -10,6 +10,8 @@ MAINTAINER=	pancake@phreaker.net
 HOMEPAGE=	http://lde.sourceforge.net
 COMMENT=	Curses based file system viewer/editor for Linux
 
+PKG_DESTDIR_SUPPORT=	none
+
 USE_NCURSES=	YES # missing function termname
 GNU_CONFIGURE=	YES
 USE_TOOLS+=	gmake

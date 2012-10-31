@@ -11,13 +11,10 @@ HOMEPAGE=	http://dreampie.sourceforge.net/
 COMMENT=	Advanced graphical interactive Python shell
 LICENSE=	gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	# none
 
 PYDISTUTILSPKG=	yes
-PYTHON_VERSIONS_ACCEPTED= 31 27 26 25
-
+PYTHON_VERSIONS_INCLUDE_3X=yes
 
 .include "../../devel/libglade/buildlink3.mk"
 .include "../../devel/pango/buildlink3.mk"

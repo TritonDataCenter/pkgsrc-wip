@@ -10,11 +10,11 @@ MAINTAINER=		dhowland@users.sourceforge.net
 HOMEPAGE=		http://freevo.sourceforge.net/cgi-bin/freevo-2.0/Kaa
 COMMENT=		Base module for the Kaa multimedia framework
 
+PKG_DESTDIR_SUPPORT=	none
+
 USE_TOOLS+=		pkg-config
 
 PYDISTUTILSPKG=		yes
-
-PYTHON_VERSIONS_ACCEPTED=	25
 
 .include "../../devel/glib2/buildlink3.mk"
 .include "../../lang/python/extension.mk"

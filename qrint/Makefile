@@ -12,8 +12,6 @@ HOMEPAGE=	http://people.math.gatech.edu/~dieci/software-qrint.html
 COMMENT=	Orthonormal integrators
 #LICENSE=	# TODO: (see mk/license.mk)
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}
 
 VERSION=	1.0

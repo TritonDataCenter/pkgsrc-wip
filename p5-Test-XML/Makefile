@@ -10,8 +10,6 @@ HOMEPAGE=	http://search.cpan.org/dist/Test-XML/
 COMMENT=	Compare XML in perl tests
 LICENSE=	${PERL5_LICENSE}
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 DEPENDS+=	p5-XML-SemanticDiff>=0.95:../../textproc/p5-XML-SemanticDiff
 DEPENDS+=	p5-XML-Parser>=2.34:../../textproc/p5-XML-Parser
 

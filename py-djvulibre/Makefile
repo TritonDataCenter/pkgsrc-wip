@@ -11,8 +11,6 @@ HOMEPAGE=	http://jwilk.net/software/python-djvulibre
 COMMENT=	Python bindings for the DjVuLibre library
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 DEPENDS+=	${PYPKGPREFIX}-pyrex-[0-9]*:../../lang/py-pyrex
 DEPENDS+=	${PYPKGPREFIX}-setuptools-[0-9]*:../../devel/py-setuptools
 

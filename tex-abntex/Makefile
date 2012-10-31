@@ -12,8 +12,6 @@ COMMENT=	Support for ABNT documentation standards
 
 USE_TOOLS+=	gmake
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/abntex-0.9
 
 .include "../../print/kpathsea/texmf.mk"

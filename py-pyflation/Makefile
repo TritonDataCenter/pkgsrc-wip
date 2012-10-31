@@ -3,6 +3,7 @@
 
 DISTNAME=	pyflation-0.2.2
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
+PKGREVISION=	1
 CATEGORIES=	science python
 MASTER_SITES=	http://pyflation.ianhuston.net/files/pyflation/
 
@@ -13,8 +14,6 @@ LICENSE=	modified-bsd
 
 DEPENDS+=	${PYPKGPREFIX}-pytables>=2.2.1:../../math/py-pytables
 DEPENDS+=	${PYPKGPREFIX}-scipy>=0.7.2:../../math/py-scipy
-
-PKG_DESTDIR_SUPPORT=	user-destdir
 
 PYDISTUTILSPKG=	yes
 PLIST_SUBST+=	PYVERSSUFFIX=${PYVERSSUFFIX}

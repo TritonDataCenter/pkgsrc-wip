@@ -10,8 +10,6 @@ HOMEPAGE=		http://linukz.org/sxid.shtml
 COMMENT=		Suid, sgid file and directory checking
 LICENSE=		gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=		yes
 
 EGDIR=			share/examples/sxid

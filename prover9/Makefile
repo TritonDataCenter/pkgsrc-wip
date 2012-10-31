@@ -11,7 +11,6 @@ HOMEPAGE=	http://www.cs.unm.edu/~mccune/prover9/
 COMMENT=	Prover9 is an automated theorem prover
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
 MAKE_JOBS_SAFE= 	no
 
 REPLACE_PYTHON=		utilities/attack utilities/gvizify utilities/looper utilities/prover9-mace4

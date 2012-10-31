@@ -12,8 +12,6 @@ HOMEPAGE=	http://www.language-binding.net/
 COMMENT=	Python package for easy C++ declarations navigation
 #LICENSE=	boost-licence
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	c c++
 PYDISTUTILSPKG=	yes
 

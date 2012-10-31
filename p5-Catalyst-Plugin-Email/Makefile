@@ -15,6 +15,8 @@ DEPENDS+=	p5-Email-MIME-Creator>=0:../../mail/p5-Email-MIME
 DEPENDS+=	p5-Email-Send>=0:../../mail/p5-Email-Send
 DEPENDS+=	p5-Catalyst-Runtime>=2.99:../../www/p5-Catalyst-Runtime
 
+PKG_DESTDIR_SUPPORT=	none
+
 PERL5_PACKLIST= auto/Catalyst/Plugin/Email/.packlist
 
 .include "../../lang/perl5/module.mk"

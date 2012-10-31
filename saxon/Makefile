@@ -12,8 +12,6 @@ HOMEPAGE=	http://saxon.sourceforge.net/
 COMMENT=	Michael H. Kay's Java XSLT processor
 LICENSE=	mpl-1.1
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}
 DIST_SUBDIR=	${PKGNAME_NOREV}
 USE_JAVA=	run

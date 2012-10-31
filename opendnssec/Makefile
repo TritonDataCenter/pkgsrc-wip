@@ -15,8 +15,6 @@ DEPENDS+=	${RUBY_PKGPREFIX}-rubygems-[0-9]*:../../misc/rubygems
 DEPENDS+=	${RUBY_PKGPREFIX}-dnsruby>=1.53:../../net/ruby-dnsruby
 BUILD_DEPENDS+=	CUnit-[0-9]*:../../devel/cunit
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 BUILD_DEFS+=	VARBASE
 
 USE_TOOLS+=	bash gmake

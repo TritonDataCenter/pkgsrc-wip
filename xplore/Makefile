@@ -10,6 +10,8 @@ MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://www.musikwissenschaft.uni-mainz.de/~ag/xplore/
 COMMENT=		X11/Motif File Manager
 
+PKG_DESTDIR_SUPPORT=	none
+
 USE_IMAKE=		YES
 
 .include "../../x11/libXpm/buildlink3.mk"

@@ -17,8 +17,6 @@ LICENSE=	gnu-gpl-v2
 
 BUILD_DEPENDS+=	gettext-m4-[0-9]*:../../devel/gettext-m4
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=		yes
 USE_LIBTOOL=		yes
 USE_PKGLOCALEDIR=	yes

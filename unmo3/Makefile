@@ -24,9 +24,11 @@ CHECK_SHLIBS=		NO
 do-build:
 	${PREFIX}/bin/upx -d ${WRKSRC}/unmo3
 
+INSTALLATION_DIRS=	bin
+
 do-install:
-	${INSTALL_PROGRAM} ${WRKSRC}/unmo3 ${PREFIX}/bin
-	${INSTALL_DATA_DIR} ${PREFIX}/share/doc/unmo3
-	${INSTALL_DATA} ${WRKSRC}/unmo3.txt ${PREFIX}/share/doc/unmo3
+	${INSTALL_PROGRAM} ${WRKSRC}/unmo3 ${DESTDIR}${PREFIX}/bin
+	${INSTALL_DATA_DIR} ${DESTDIR}${PREFIX}/share/doc/unmo3
+	${INSTALL_DATA} ${WRKSRC}/unmo3.txt ${DESTDIR}${PREFIX}/share/doc/unmo3
 
 .include "../../mk/bsd.pkg.mk"

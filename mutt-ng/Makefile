@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.17 2006/12/20 19:03:04 netcap Exp $
+# $Id$
 # $NetBSD$
 
 DISTNAME=	muttng-20061125

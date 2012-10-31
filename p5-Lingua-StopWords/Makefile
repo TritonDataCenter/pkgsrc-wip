@@ -9,6 +9,8 @@ MAINTAINER=	kuli0020@umn.edu
 HOMEPAGE=	http://search.cpan.org/dist/Lingua-StopWords/
 COMMENT=	Lingua::StopWords - Stop words for several languages
 
+PKG_DESTDIR_SUPPORT=	none
+
 PERL5_PACKLIST= auto/Lingua/StopWords/.packlist
 
 .include "../../lang/perl5/module.mk"

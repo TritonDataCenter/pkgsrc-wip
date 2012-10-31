@@ -16,8 +16,6 @@ RESTRICTED=	No redistribution in altered form
 
 BUILD_DEPENDS+=	cabextract-[0-9]*:../../archivers/cabextract
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 NO_BIN_ON_CDROM=	${RESTRICTED}
 NO_BIN_ON_FTP=		${RESTRICTED}
 

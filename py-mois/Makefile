@@ -11,8 +11,6 @@ HOMEPAGE=	http://www.qtzlabs.com/
 COMMENT=	Applications for interactive visualization of numerical methods
 LICENSE=	gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	# none
 PLIST_SUBST+=	PYVERSSUFFIX=${PYVERSSUFFIX}
 

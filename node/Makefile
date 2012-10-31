@@ -11,7 +11,6 @@ HOMEPAGE=	http://nodejs.org/
 COMMENT=	V8 JavaScript for clients and servers
 LICENSE=	mit
 
-PKG_DESTDIR_SUPPORT=	user-destdir
 CHECK_INTERPRETER=	no
 
 HAS_CONFIGURE=	yes

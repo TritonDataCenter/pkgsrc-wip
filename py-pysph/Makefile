@@ -13,8 +13,6 @@ COMMENT=	General purpose Smoothed Particle Hydrodynamics framework
 
 DEPENDS+=	${PYPKGPREFIX}-multiprocessing>=2.6.2.1:../../devel/py-multiprocessing
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/PySPH-0.9beta
 
 USE_LANGUAGES=	c c++

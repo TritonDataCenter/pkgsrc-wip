@@ -11,8 +11,6 @@ MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://wiki.python.org/moin/PyBrenda
 COMMENT=		Parallel computation system
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=	${WRKDIR}/PyBrenda-0.4.1
 
 PY_PATCHPLIST=		yes

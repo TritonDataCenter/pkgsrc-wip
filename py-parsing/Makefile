@@ -11,8 +11,6 @@ HOMEPAGE=	http://pyparsing.wikispaces.com/
 COMMENT=	General parsing module for Python
 LICENSE=	mit
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	# none
 
 PYDISTUTILSPKG=		yes

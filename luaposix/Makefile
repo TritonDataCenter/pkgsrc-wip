@@ -10,8 +10,6 @@ MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://www.tecgraf.puc-rio.br/~lhf/ftp/lua/
 COMMENT=		POSIX library for Lua
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=			${WRKDIR}/posix/
 BUILD_TARGET=		lposix.so
 #TEST_TARGET=		test

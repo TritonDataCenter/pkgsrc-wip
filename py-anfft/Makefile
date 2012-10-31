@@ -11,8 +11,6 @@ HOMEPAGE=	http://code.google.com/p/anfft/
 COMMENT=	FFT package for Python, based on FFTW
 LICENSE=	gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	# none
 PYDISTUTILSPKG=	yes
 

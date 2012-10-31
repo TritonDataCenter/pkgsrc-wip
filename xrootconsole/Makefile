@@ -10,6 +10,8 @@ MASTER_SITES=   ${MASTER_SITE_SOURCEFORGE:=xrootconsole/}
 HOMEPAGE=       http://xrootconsole.sourceforge.net/
 COMMENT=        Windowless XConsole
 
+PKG_DESTDIR_SUPPORT=	none
+
 USE_TOOLS+=             gmake
 
 INSTALLATION_DIRS=      bin ${PKGMANDIR}/man1

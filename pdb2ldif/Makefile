@@ -13,8 +13,10 @@ DEPENDS+=	p5-Palm>=1.3.0:../../databases/p5-Palm
 
 NO_BUILD=	YES
 
+INSTALLATION_DIRS=	bin
+
 do-install:
-	${INSTALL_SCRIPT} ${WRKSRC}/pdb2ldif ${PREFIX}/bin/pdb2ldif
+	${INSTALL_SCRIPT} ${WRKSRC}/pdb2ldif ${DESTDIR}${PREFIX}/bin/pdb2ldif
 
 .include "../../lang/perl5/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

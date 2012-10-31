@@ -12,8 +12,6 @@ COMMENT=		Virtual desktop manager
 
 GNU_CONFIGURE=		yes
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 post-install:
 	${INSTALL_DATA_DIR} ${DESTDIR}${PREFIX}/share/doc/vdesk
 	${INSTALL_DATA} ${WRKSRC}/AUTHORS ${WRKSRC}/COPYING ${WRKSRC}/README \

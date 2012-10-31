@@ -12,8 +12,6 @@ HOMEPAGE=	http://code.google.com/p/pywafo/
 COMMENT=	Statistical analysis and simulation of random waves and random loads
 LICENSE=	gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	c fortran77
 
 BUILDLINK_API_DEPENDS.pynumpy+=	${PYPKGPREFIX}-numpy>=1.0

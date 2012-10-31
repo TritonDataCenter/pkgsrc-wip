@@ -16,6 +16,8 @@ DEPENDS+=	p5-Catalyst-Runtime>=2.99:../../www/p5-Catalyst-Runtime
 DEPENDS+=	p5-HTML-FillInForm>=0:../../www/p5-HTML-FillInForm
 DEPENDS+=	p5-NEXT>=0:../../devel/p5-NEXT
 
+PKG_DESTDIR_SUPPORT=	none
+
 PERL5_PACKLIST= auto/Catalyst/Plugin/FillInForm/.packlist
 
 .include "../../lang/perl5/module.mk"

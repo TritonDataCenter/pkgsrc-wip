@@ -1,5 +1,7 @@
 # $NetBSD$
 
+PKG_DESTDIR_SUPPORT=	none
+
 .include "Makefile.common"
 
 PKGNAME=	linux-kernel-${LINUX_VERSION}

@@ -11,8 +11,6 @@ HOMEPAGE=	http://tvmet.sourceforge.net/
 COMMENT=	Tiny Vector and Matrix template library
 #LICENSE=	# TODO: (see mk/license.mk)
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_LANGUAGES=	c c++
 

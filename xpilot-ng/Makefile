@@ -9,8 +9,6 @@ MAINTAINER=	vnorrman@cc.hut.fi
 HOMEPAGE=	http://xpilot.sourceforge.net/
 COMMENT=	Enhanced version of XPilot network space battle
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=		yes
 
 PYTHON_PATCH_SCRIPTS=	mapconvert.py

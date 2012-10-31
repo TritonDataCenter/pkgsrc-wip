@@ -10,8 +10,6 @@ HOMEPAGE=		http://search.cpan.org/~tonyc/Imager/
 COMMENT=		Perl module for manipulating gray, color, and RGBA format images
 LICENSE=		${PERL5_LICENSE}
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_MULTIARCH=		lib
 
 #MAKE_PARAMS+=		--disable gif

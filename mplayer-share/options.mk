@@ -51,7 +51,7 @@ PKG_SUPPORTED_OPTIONS+=	mplayer-real
 # Define PKG_SUGGESTED_OPTIONS.
 # -------------------------------------------------------------------------
 
-.for _o_ in aalib arts cdparanoia dv dvdread esound gif jpeg \
+.for _o_ in cdparanoia dv dvdread esound gif jpeg \
 	    lame mad mplayer-menu mplayer-real \
 	    mplayer-runtime-cpudetection mplayer-win32 \
 	    nas oss png sdl theora vorbis xvid

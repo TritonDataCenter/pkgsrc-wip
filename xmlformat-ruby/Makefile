@@ -21,8 +21,10 @@ DISTINFO_FILE=		${.CURDIR}/../../wip/xmlformat-docs/distinfo
 DESCR_SRC=		${.CURDIR}/../../wip/xmlformat-docs/DESCR.common \
 			${PKGDIR}/DESCR
 
+INSTALLATION_DIRS=	bin
+
 do-install:
-	${INSTALL_SCRIPT} ${WRKSRC}/xmlformat.rb ${PREFIX}/bin/xmlformat
+	${INSTALL_SCRIPT} ${WRKSRC}/xmlformat.rb ${DESTDIR}${PREFIX}/bin/xmlformat
 
 .include "../../wip/xmlformat-docs/version.mk"
 .include "../../lang/ruby/buildlink3.mk"

@@ -13,8 +13,6 @@ MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.mpg123.org/
 COMMENT?=	Contains the ${MPG123_MODULE} module for mpg123
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE?=	yes
 USE_LIBTOOL?=	yes
 USE_TOOLS+=	pkg-config gmake

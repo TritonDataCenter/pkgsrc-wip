@@ -9,6 +9,8 @@ MAINTAINER=	lkundrak@skosi.org
 HOMEPAGE=	http://wrcs.sourceforge.net/
 COMMENT=	Wiki Revision Control System
 
+PKG_DESTDIR_SUPPORT=	none
+
 GNU_CONFIGURE=	yes
 
 .include "../../textproc/xmlrpc-c/buildlink3.mk"

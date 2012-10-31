@@ -12,8 +12,6 @@ HOMEPAGE=	http://incrtcl.sourceforge.net/iwidgets
 COMMENT=	Object-oriented mega-widget set which extends Tcl/Tk
 LICENSE=	2-clause-bsd # ?
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	# none
 NO_CONFIGURE=	yes
 NO_BUILD=	yes

@@ -12,8 +12,6 @@ LICENSE=		gnu-gpl-v2
 USE_TOOLS+=		autoconf automake gmake
 USE_LIBTOOL=		yes
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 RCD_SCRIPTS=		xrdp sesman
 RCD_SCRIPT_SRC.xrdp=	files/xrdp.sh
 RCD_SCRIPT_SRC.sesman=	files/sesman.sh

@@ -12,8 +12,6 @@ HOMEPAGE=	http://code.google.com/p/scipy-cluster/
 COMMENT=	Hierarchical Clustering Package For Scipy
 LICENSE=	modified-bsd
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=	${WRKDIR}/hcluster-0.2.0
 USE_LANGUAGES=	c
 

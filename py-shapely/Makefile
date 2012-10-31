@@ -12,8 +12,6 @@ HOMEPAGE=	https://github.com/sgillies/shapely
 COMMENT=	Geometric objects, predicates, and operations
 LICENSE=	2-clause-bsd
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=	${WRKDIR}/Shapely-1.2.14
 
 .include "../../lang/python/egg.mk"

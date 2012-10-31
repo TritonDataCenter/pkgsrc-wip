@@ -13,8 +13,6 @@ LICENSE=	mit
 
 DEPENDS+=	${PYPKGPREFIX}-scipy>=0.7.2:../../math/py-scipy
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/PyEC-0.2.5
 
 USE_LANGUAGES=	# none

@@ -11,7 +11,6 @@ HOMEPAGE=	http://code.google.com/p/spade2/
 COMMENT=	SPADE is an agent platform based on the XMPP/Jabber technology
 LICENSE=	gnu-lgpl-v2.1
 
-DEPENDS+=	${PYPKGPREFIX}-psyco>=1.6:../../lang/py-psyco
 DEPENDS+=	${PYPKGPREFIX}-gmpy>=1.01:../../math/py-gmpy
 DEPENDS+=	${PYPKGPREFIX}-dns-[0-9]*:../../net/py-dns
 DEPENDS+=	${PYPKGPREFIX}-twisted-[0-9]*:../../net/py-twisted
@@ -19,13 +18,10 @@ DEPENDS+=	${PYPKGPREFIX}-m2crypto>=0.13:../../security/py-m2crypto
 DEPENDS+=	${PYPKGPREFIX}-event>=0.3:../../wip/py-event
 DEPENDS+=	jython>=2.5.1:../../wip/jython
 
-PKG_DESTDIR_SUPPORT=	user-destdir
 WRKSRC=	${WRKDIR}/spade
 
-PYTHON_VERSIONS_INCOMPATIBLE= 25
 PYDISTUTILSPKG=	yes
 PLIST_SUBST+=	PYVERSSUFFIX=${PYVERSSUFFIX}
-
 
 SUBST_CLASSES+=		paths
 SUBST_STAGE.paths=	pre-configure

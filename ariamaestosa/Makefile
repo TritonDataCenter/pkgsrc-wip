@@ -1,10 +1,10 @@
 # $NetBSD$
 #
 
-DISTNAME=	AriaSrc-1.4.4
+DISTNAME=	AriaSrc-1.4.5
 PKGNAME=	${DISTNAME:S/Src/Maestosa/}
 CATEGORIES=	audio
-MASTER_SITES=	http://sourceforge.net/projects/ariamaestosa/files/ariamaestosa/1.4.4/
+MASTER_SITES=	http://sourceforge.net/projects/ariamaestosa/files/ariamaestosa/1.4.5/
 EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
@@ -20,11 +20,11 @@ USE_TOOLS+=		pkg-config
 
 do-build:
 			cd ${WRKSRC} && \
-			${SETENV} ${MAKE_ENV} ${PREFIX}/bin/scons platform=linux
+			${SETENV} ${MAKE_ENV} ${PREFIX}/bin/scons
 
 .include "../../mk/dlopen.buildlink3.mk"
 .include "../../mk/pthread.buildlink3.mk"
 .include "../../audio/alsa-lib/buildlink3.mk"
-#.include "../../audio/jack/buildlink3.mk" # jack build is broken on NetBSD
+.include "../../audio/jack/buildlink3.mk"
 .include "../../x11/wxGTK28/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

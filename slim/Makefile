@@ -14,8 +14,6 @@ DEPENDS+=	xauth>=1.0.0:../../x11/xauth
 
 USE_LANGUAGES=	c c++
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 EGDIR=		${PREFIX}/share/examples/slim
 CONF_FILES=	${EGDIR}/slim.conf ${PKG_SYSCONFDIR}/slim.conf
 

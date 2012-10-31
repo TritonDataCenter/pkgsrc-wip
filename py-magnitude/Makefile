@@ -11,8 +11,6 @@ HOMEPAGE=	http://code.google.com/p/magnitude/
 COMMENT=	Python library for computing with numbers with units
 LICENSE=	apache-2.0
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	# none
 PYDISTUTILSPKG=	yes
 PLIST_SUBST+=	PYVERSSUFFIX=${PYVERSSUFFIX}

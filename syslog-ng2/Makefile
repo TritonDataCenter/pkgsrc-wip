@@ -15,6 +15,8 @@ BUILD_DEPENDS+=	flex-[0-9]*:../../devel/flex
 
 CONFLICTS=	syslog-ng-[0-9]*
 
+PKG_DESTDIR_SUPPORT=	none
+
 USE_TOOLS+=	pkg-config pax
 
 GNU_CONFIGURE=	yes

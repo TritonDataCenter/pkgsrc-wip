@@ -13,8 +13,6 @@ LICENSE=	gnu-gpl-v3
 
 #DEPENDS+=	${PYPKGPREFIX}-docutils>=0.6:../../textproc/py-docutils
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/quaternionarray-0.6.1
 USE_LANGUAGES=	# none
 

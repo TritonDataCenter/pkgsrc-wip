@@ -10,8 +10,6 @@ HOMEPAGE=		http://search.cpan.org/dist/Frontier-RPC/
 COMMENT=		Perl module to handle client/server xmlrpc
 LICENSE=		${PERL5_LICENSE}
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 DEPENDS+=		p5-XML-Parser>=2.19:../../textproc/p5-XML-Parser
 DEPENDS+=		p5-libwww-[0-9]*:../../www/p5-libwww
 

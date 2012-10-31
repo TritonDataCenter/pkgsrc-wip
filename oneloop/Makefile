@@ -11,8 +11,6 @@ MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	http://helac-phegas.web.cern.ch/helac-phegas/OneLOop.html
 COMMENT=	Evaluate the one-loop scalar 1-point, 2-point, 3-point
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 MAKE_FILE= makefile
 USE_LANGUAGES=	fortran
 

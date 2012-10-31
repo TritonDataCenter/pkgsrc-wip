@@ -13,8 +13,6 @@ COMMENT=	Brendan McKay's graph isomorphism tester
 
 MAKE_JOBS_SAFE= no
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 MAKE_FILE=	makefile
 USE_TOOLS+=	gmake

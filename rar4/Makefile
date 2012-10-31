@@ -25,7 +25,6 @@ ONLY_FOR_PLATFORM=	FreeBSD-*-i386 NetBSD-*-i386
 
 NO_BUILD=		yes
 NO_CONFIGURE=		yes
-PKG_DESTDIR_SUPPORT=	user-destdir
 
 DATA_FILES=		license.txt order.htm rar.txt readme.txt technote.txt \
 			whatsnew.txt

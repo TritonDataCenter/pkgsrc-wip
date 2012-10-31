@@ -18,6 +18,4 @@ DEPENDS+=	xprop>=0:../../x11/xprop
 
 GNU_CONFIGURE=	yes
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 .include "../../mk/bsd.pkg.mk"

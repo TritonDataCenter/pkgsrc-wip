@@ -10,8 +10,6 @@ HOMEPAGE=	http://www.lisaac.org/
 COMMENT=	Lisaac is the first compiled POO based on prototype concepts
 #LICENSE=	gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_TOOLS+=	gmake
 USE_LANGUAGES=  c c++
 

@@ -11,8 +11,6 @@ HOMEPAGE=	http://tktable.sourceforge.net/tile/
 COMMENT=	Improved themeing engine for Tk
 LICENSE=	mit
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 
 .include "../../mk/bsd.prefs.mk"

@@ -11,7 +11,6 @@ HOMEPAGE=	http://www.perldancer.org/
 COMMENT=	Perl 5 lightweight yet powerful web application framework
 
 LICENSE=	${PERL5_LICENSE}
-PKG_DESTDIR_SUPPORT=	user-destdir
 
 DEPENDS+=	p5-Encode>=0:../../textproc/p5-Encode
 DEPENDS+=	p5-HTTP-Body>=1.07:../../www/p5-HTTP-Body

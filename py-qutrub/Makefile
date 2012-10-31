@@ -13,8 +13,6 @@ LICENSE=	gnu-gpl-v2
 
 DEPENDS+=	${APACHE_PKG_PREFIX}-${PYPKGPREFIX}-python>=3.3.1:../../www/ap2-python
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_TOOLS+=	pax
 USE_LANGUAGES=	# none
 

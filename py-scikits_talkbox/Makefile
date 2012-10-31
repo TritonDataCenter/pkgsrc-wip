@@ -11,8 +11,6 @@ HOMEPAGE=	http://projects.scipy.org/scipy/scikits
 COMMENT=	Talkbox, a set of python modules for speech/signal processing
 #LICENSE=	# TODO: (see mk/license.mk)
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=	${WRKDIR}/scikits.talkbox-0.2.5
 
 .include "../../lang/python/egg.mk"

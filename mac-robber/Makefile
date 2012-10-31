@@ -9,12 +9,14 @@ MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://www.sleuthkit.org/mac-robber/
 COMMENT=		Collect mac-times from a computer
 
+INSTALLATION_DIRS=	bin
+
 do-build:
 	cd ${WRKSRC} && ${CC} ${CFLAGS} ${LDFLAGS} mac-robber.c -o mac-robber
 
 do-install:
-	${INSTALL_PROGRAM} ${WRKSRC}/mac-robber ${PREFIX}/bin
-	${INSTALL_DATA_DIR} ${PREFIX}/share/doc/mac-robber
-	${INSTALL_DATA} ${WRKSRC}/README ${PREFIX}/share/doc/mac-robber
+	${INSTALL_PROGRAM} ${WRKSRC}/mac-robber ${DESTDIR}${PREFIX}/bin
+	${INSTALL_DATA_DIR} ${DESTDIR}${PREFIX}/share/doc/mac-robber
+	${INSTALL_DATA} ${WRKSRC}/README ${DESTDIR}${PREFIX}/share/doc/mac-robber
 
 .include "../../mk/bsd.pkg.mk"

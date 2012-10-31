@@ -9,6 +9,8 @@ MAINTAINER=		alchow@users.sourceforge.net
 HOMEPAGE=		http://www.xdobry.de/mysqltcl/
 COMMENT=		Tcl Mysql Interface
 
+PKG_DESTDIR_SUPPORT=	none
+
 GNU_CONFIGURE=		yes
 USE_LIBTOOL=		yes
 DIST_SUBDIR=		${PKGNAME_NOREV}

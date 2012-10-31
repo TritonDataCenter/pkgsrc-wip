@@ -11,7 +11,6 @@ HOMEPAGE=	http://search.cpan.org/CPAN/authors/id/C/CE/CEESHEK/
 COMMENT=	Easy external redirects in CGI::Application
 
 PKG_INSTALLATION_TYPES=	overwrite pkgviews
-PKG_DESTDIR_SUPPORT=	user-destdir
 
 DEPENDS+=		p5-CGI-Application-[0-9]*:../../www/p5-CGI-Application
 

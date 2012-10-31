@@ -10,8 +10,6 @@ HOMEPAGE=	http://fetk.org/codes/maloc/
 COMMENT=	Minimal Abstraction Layer for Object-oriented C
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/maloc
 
 GNU_CONFIGURE=	yes

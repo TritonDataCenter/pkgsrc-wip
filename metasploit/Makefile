@@ -11,7 +11,6 @@ HOMEPAGE=	http://spool.metasploit.com/releases/
 COMMENT=	Exploit-Framework for Penetration-Testing
 LICENSE=	modified-bsd
 
-PKG_DESTDIR_SUPPORT=	user-destdir
 SCRIPTS=	msfcli msfconsole msfd msfelfscan msfencode msfmachscan \
 		msfopcode msfpayload msfpescan msfweb
 

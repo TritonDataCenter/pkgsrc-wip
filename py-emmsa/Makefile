@@ -15,8 +15,6 @@ DEPENDS+=	${PYPKGPREFIX}-rpy>=2.1.3:../../math/py-rpy
 DEPENDS+=	${PYPKGPREFIX}-Elixir>=0.7.0:../../databases/py-elixir
 DEPENDS+=	${PYPKGPREFIX}-pandas>=0.3.0:../../wip/py-pandas
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/EMMSA-0.0.3
 
 USE_LANGUAGES=	# none

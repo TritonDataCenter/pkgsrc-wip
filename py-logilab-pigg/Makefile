@@ -12,8 +12,6 @@ HOMEPAGE=	http://www.logilab.org/project/pigg
 COMMENT=	Python Interface Generator for Gtk implementation of the MVC pattern
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	# none
 PYDISTUTILSPKG= yes
 

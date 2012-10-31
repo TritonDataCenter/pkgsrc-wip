@@ -12,8 +12,6 @@ COMMENT=	Google Talk Voice and P2P Interoperability Library
 
 LICENSE=	modified-bsd
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 #GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_TOOLS+=	gmake pkg-config

@@ -11,8 +11,6 @@ HOMEPAGE=	http://software.incf.org/software/csa/
 COMMENT=	The Connection-Set Algebra implemented in Python
 LICENSE=	gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/csa-0.0.1
 
 USE_LANGUAGES=	# none

@@ -8,6 +8,8 @@ MAINTAINER=	collver1@comcast.net
 HOMEPAGE=	http://www.svgalib.org/
 COMMENT=	Low level console graphics library
 
+PKG_DESTDIR_SUPPORT=	none
+
 USE_TOOLS+=	gmake
 CFLAGS+=	-g -DUSE_LIBC_VM86
 MANCOMPRESSED=	yes

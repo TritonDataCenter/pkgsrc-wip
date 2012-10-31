@@ -10,8 +10,6 @@ HOMEPAGE=	http://www.ossp.org/pkg/tool/lmtp2nntp/
 COMMENT=	OSSP lmtp2nntp - Mail to News Gateway
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=		yes
 # XXX: LIBS in CONFIGURE_ENV confuse subsequent configure script.
 # XXX: main configure rewrite LIBS before call subsequent configure script,

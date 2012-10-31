@@ -10,8 +10,6 @@ MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	http://pypi.python.org/pypi/sciproc
 COMMENT=	Process scientific multidimensional data
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/sciproc-0.3.1
 
 USE_LANGUAGES=	# none

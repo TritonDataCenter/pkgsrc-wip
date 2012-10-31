@@ -12,8 +12,6 @@ HOMEPAGE=	http://calcrpnpy.sourceforge.net/
 COMMENT=	RPN Calculator For Python
 LICENSE=	gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	c++
 PYDISTUTILSPKG=	yes
 

@@ -12,7 +12,5 @@ HOMEPAGE=			http://www.simplistix.co.uk/software/python/errorhandler
 COMMENT=			Logging framework handler
 LICENSE=			mit
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 .include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"

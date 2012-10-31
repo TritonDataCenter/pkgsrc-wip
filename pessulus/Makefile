@@ -12,8 +12,6 @@ HOMEPAGE=	http://live.gnome.org/Pessulus
 COMMENT=	Pessulus is a lockdown editor for GNOME
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_PKGLOCALEDIR= yes
 USE_TOOLS+=	pkg-config gmake intltool msgfmt

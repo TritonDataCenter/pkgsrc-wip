@@ -10,8 +10,6 @@ HOMEPAGE=	http://pcp.sourceforge.net/
 COMMENT=	Machine learning program for pattern classification
 LICENSE=	mit
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_LANGUAGES=	c c++ fortran
 

@@ -12,8 +12,6 @@ LICENSE=		apache-2.0
 
 CONFLICTS+=		riakeds-[0-9]*
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=		c c++
 USE_TOOLS=		gmake
 

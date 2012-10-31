@@ -12,8 +12,6 @@ LICENSE=		gnu-gpl-v3
 
 CONFLICTS=		rsyslog-[0-9]*
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=		yes
 CONFIGURE_ARGS+=	--disable-testbench
 CONFIGURE_ARGS+=	--enable-mmnormalize

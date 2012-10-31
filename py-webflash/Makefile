@@ -14,12 +14,8 @@ COMMENT=	Library to display flash messages in python web applications
 
 DEPENDS+=	${PYPKGPREFIX}-simplejson>=2.1.1:../../converters/py-simplejson
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/WebFlash-0.1a9
 USE_LANGUAGES=	# none
-
-PYTHON_VERSIONS_INCOMPATIBLE= 25
 
 .include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"

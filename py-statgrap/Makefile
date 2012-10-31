@@ -13,8 +13,6 @@ HOMEPAGE=	http://www.i-scream.org/pystatgrab/
 COMMENT=	Python bindings for the libstatgrab library
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 PYDISTUTILSPKG=	yes
 
 .include "../../devel/libstatgrab/buildlink3.mk"

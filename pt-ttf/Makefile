@@ -11,8 +11,6 @@ HOMEPAGE=	http://www.paratype.com/public/
 COMMENT=	Public fonts for minority languages of Russia
 LICENSE=	open-font-license
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	# none
 NO_BUILD=	yes
 

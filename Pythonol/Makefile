@@ -17,7 +17,6 @@ DEPENDS+=		${PYPKGPREFIX}-sqlite>=0.4.3:../../databases/py-sqlite
 
 PKG_DESTDIR_SUPPORT=	none
 
-PYTHON_VERSIONS_ACCEPTED=	25
 PY_PATCHPLIST=		yes
 
 TARGET_DIR=		${PREFIX}/${PYSITELIB}/Pythonol

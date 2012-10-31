@@ -1,0 +1,4 @@
+@comment $NetBSD$
+bin/piedock
+bin/piedockutils
+share/examples/piedock/piedockrc.sample

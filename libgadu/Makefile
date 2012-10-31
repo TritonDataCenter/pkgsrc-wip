@@ -11,8 +11,6 @@ HOMEPAGE=	http://toxygen.net/libgadu/
 COMMENT=	Used by Instant Messengers with Gadu-Gadu support
 LICENSE=	gnu-lgpl-v2.1
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_TOOLS+=	pkg-config gmake

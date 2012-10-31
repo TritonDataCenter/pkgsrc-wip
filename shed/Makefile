@@ -8,6 +8,8 @@ MAINTAINER=		lkundrak@skosi.org
 HOMEPAGE=		http://shed.sourceforge.net/
 COMMENT=		Simple curses-based hexadecimal editor
 
+PKG_DESTDIR_SUPPORT=	none
+
 GNU_CONFIGURE=		yes
 
 .include "../../devel/ncurses/buildlink3.mk"

@@ -11,8 +11,6 @@ HOMEPAGE=	http://pyyaml.org/wiki/PyYAML
 COMMENT=	YAML parser and emitter for Python
 LICENSE=	mit
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 PYTHON_VERSIONS_INCLUDE_3X= yes
 
 ##testing for python != 3.x

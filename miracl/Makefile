@@ -19,7 +19,6 @@ EXTRACT_OPTS_ZIP+=	-j -aa -L -d ${DISTNAME}
 
 USE_LANGUAGES=	c c++
 
-PKG_DESTDIR_SUPPORT=	user-destdir
 .include "../../mk/bsd.prefs.mk"
 
 .if ${MACHINE_ARCH} == "i386"

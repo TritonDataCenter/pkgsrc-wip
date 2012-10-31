@@ -12,7 +12,6 @@ COMMENT=		Multiplayer crazy clone of Bubble Bobble
 LICENSE=		mit
 
 PY_PATCHPLIST=		yes
-PYTHON_VERSIONS_INCOMPATIBLE+=	25
 
 MAKE_ENV+=		CFLAGS=${CFLAGS:M*:Q}
 MAKE_ENV+=		LDFLAGS=${LDFLAGS:M*:Q}

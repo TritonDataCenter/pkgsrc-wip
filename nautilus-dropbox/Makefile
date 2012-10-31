@@ -14,8 +14,6 @@ COMMENT=	Dropbox nautilus integration
 DEPENDS+=	${PYPKGPREFIX}-gtk2-[0-9]*:../../x11/py-gtk2
 BUILD_DEPENDS+=	${PYPKGPREFIX}-docutils-[0-9]*:../../textproc/py-docutils
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 FETCH_USING=		curl
 
 GNU_CONFIGURE=		yes

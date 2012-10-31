@@ -13,8 +13,6 @@ HOMEPAGE=	http://code.google.com/p/pywebkitgtk/
 COMMENT=	Python bindings for the WebKit GTK+
 LICENSE=	gnu-lgpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_TOOLS+=	pkg-config gmake

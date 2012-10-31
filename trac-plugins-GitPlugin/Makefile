@@ -12,8 +12,6 @@ HOMEPAGE=	http://trac.edgewall.org/wiki/GitPlugin
 COMMENT=	GIT plugin for Trac
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 DEPENDS+=	{ja-,}trac>=0.12:../../www/trac
 DEPENDS+=	scmgit-base>=1.5.6:../../devel/scmgit-base
 

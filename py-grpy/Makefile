@@ -13,8 +13,6 @@ LICENSE=	gnu-gpl-v3
 
 DEPENDS+=	${PYPKGPREFIX}-sympy>=0.6.7:../../math/py-sympy
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 VERSION=	0.1
 
 WRKSRC=		${WRKDIR}
@@ -24,7 +22,6 @@ USE_LANGUAGES=	# none
 GRPy_FILES=	Christoffel.py Riemann.py Tensor.py
 PLIST_SUBST+=		PYPKGPREFIX=${PYPKGPREFIX:Q}
 PY_PATCHPLIST=		yes
-PYTHON_VERSIONS_ACCEPTED= 27 26
 
 INSTALLATION_DIRS=	${PYSITELIB}
 

@@ -10,8 +10,6 @@ HOMEPAGE=	https://launchpad.net/simple-scan/
 COMMENT=	Simple scanner graphical interface
 #LICENSE=	# TODO: (see mk/license.mk)
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 # Needed for launchpad
 FETCH_USING=	curl
 

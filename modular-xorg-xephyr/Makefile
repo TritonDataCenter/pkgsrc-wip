@@ -11,8 +11,6 @@ MAINTAINER=	khorben@defora.org
 HOMEPAGE=	http://xorg.freedesktop.org/
 COMMENT=	kdrive-based Xephyr server from modular X.org
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_TOOLS+=	gmake pkg-config
@@ -151,7 +149,6 @@ BUILDLINK_API_DEPENDS.libXext+=	libXext>=1.1.1
 .include "../../x11/trapproto/buildlink3.mk"
 .include "../../x11/videoproto/buildlink3.mk"
 .include "../../x11/xcmiscproto/buildlink3.mk"
-.include "../../x11/xextproto/buildlink3.mk"
 .include "../../x11/xf86bigfontproto/buildlink3.mk"
 .include "../../x11/xf86dgaproto/buildlink3.mk"
 .include "../../x11/xf86driproto/buildlink3.mk"

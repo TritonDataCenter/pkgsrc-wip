@@ -14,8 +14,6 @@ USE_LANGUAGES=	c
 
 NO_CONFIGURE=	yes
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 # Adjust config.mk
 SUBST_CLASSES+=		makefile
 SUBST_STAGE.makefile=	pre-build

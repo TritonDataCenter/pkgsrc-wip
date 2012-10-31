@@ -1,7 +1,7 @@
 # $NetBSD$
 
-DISTNAME=	openmpi-1.6.1a1r26586
-PKGNAME=	openmpi-1.6.0.99.26586
+DISTNAME=	openmpi-1.6.3rc4
+#PKGNAME=	openmpi-1.6.2.99.27448
 CATEGORIES=	parallel
 MASTER_SITES=	http://www.open-mpi.org/software/ompi/v1.6/downloads/ \
 		http://www.open-mpi.org/nightly/v1.6/
@@ -13,8 +13,6 @@ COMMENT=	Open source MPI-2 implementation
 
 CONFLICTS+=	mpich-[0-9]*	# installs bin/mpicc & other wrappers
 CONFLICTS+=	mpich2-[0-9]*	# installs bin/mpicc & other wrappers
-
-PKG_DESTDIR_SUPPORT=	user-destdir
 
 GNU_CONFIGURE=		yes
 USE_LANGUAGES=		c c++ fortran77
@@ -29,6 +27,7 @@ SHLIBTOOL_OVERRIDE=	${WRKSRC}/config/libtool.m4 \
 CONFIGURE_ARGS+=	--disable-mpi-f90
 CONFIGURE_ARGS+=	--without-sge
 CONFIGURE_ARGS+=	--without-slurm
+CONFIGURE_ARGS+=	--enable-contrib-no-build=vt # in separate package
 CONFIGURE_ARGS+=	--with-libltdl=external # use our libltdl
 CONFIGURE_ARGS+=	--with-hwloc=$(BUILDLINK_PREFIX.hwloc:Q) #external
 CONFIGURE_ARGS+=	--with-wrapper-ldflags="-L${PREFIX}/lib ${LINKER_RPATH_FLAG}${PREFIX}/lib"
@@ -54,4 +53,5 @@ TEST_TARGET=	check
 LIBLTDL_CONVENIENCE_SUBDIR=	opal/libltdl
 .include "../../devel/libltdl/convenience.mk" # for "test" target to work
 .include "../../devel/libltdl/buildlink3.mk"
+.include "../../parallel/hwloc/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

@@ -12,8 +12,6 @@ HOMEPAGE=	http://code.google.com/p/mpi4py/
 COMMENT=	MPI for Python - Python bindings for MPI
 LICENSE=	modified-bsd
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	c c++
 PYDISTUTILSPKG= yes
 

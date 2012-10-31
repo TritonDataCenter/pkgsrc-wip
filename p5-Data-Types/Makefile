@@ -10,8 +10,6 @@ HOMEPAGE=	http://search.cpan.org/dist/Data-Types/
 COMMENT=	Validate and convert data types
 LICENSE=	${PERL5_LICENSE}
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 PERL5_PACKLIST=		auto/Data/Types/.packlist
 
 .include "../../lang/perl5/module.mk"

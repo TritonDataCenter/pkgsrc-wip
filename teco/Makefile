@@ -9,8 +9,6 @@ MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://almy.us/teco.html
 COMMENT=	Powerful and compact editor with nongrafical user interface
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 MAKE_FILE=	makefile
 WRKSRC=		${WRKDIR}/tecoc${PKGVERSION}
 BUILD_DIRS=	src

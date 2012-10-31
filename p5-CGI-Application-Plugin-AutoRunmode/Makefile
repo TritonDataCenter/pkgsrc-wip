@@ -13,6 +13,7 @@ COMMENT=		CGI::App plugin to automatically register runmodes
 DEPENDS+=		p5-CGI-Application>=4.01:../../www/p5-CGI-Application
 DEPENDS+=		p5-Class-ISA-[0-9]*:../../devel/p5-Class-ISA
 
+PKG_DESTDIR_SUPPORT=	none
 PKG_INSTALLATION_TYPES=	overwrite pkgviews
 
 PERL5_PACKLIST=		auto/CGI/Application/Plugin/AutoRunmode/.packlist

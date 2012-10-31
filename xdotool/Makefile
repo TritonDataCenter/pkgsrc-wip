@@ -9,8 +9,6 @@ MAINTAINER=	rga@sdf.lonestar.org
 HOMEPAGE=	http://www.semicomplete.com/projects/xdotool/
 COMMENT=	Simulate keyboard input and mouse activity using X11 xtest extension
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 NO_CONFIGURE=   yes
 USE_LIBTOOL=    yes
 USE_TOOLS+=	gmake
@@ -25,6 +23,5 @@ SUBST_SED.fix-getopt+=    -e 's,getopt_long_only,getopt_long,g'
 .include "../../lang/perl5/buildlink3.mk"
 .include "../../x11/libX11/buildlink3.mk"
 .include "../../x11/libXtst/buildlink3.mk"
-.include "../../x11/xextproto/buildlink3.mk"
 .include "../../x11/libXinerama/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

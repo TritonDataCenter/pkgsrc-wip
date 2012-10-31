@@ -10,8 +10,6 @@ MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://live.gnome.org/libepc/
 COMMENT=		Easy Publish and Consume Library
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LIBTOOL=		YES
 USE_TOOLS+=		gmake intltool pkg-config
 PKGCONFIG_OVERRIDE=	libepc-1.0.pc.in libepc-ui-1.0.pc.in

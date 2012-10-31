@@ -10,8 +10,6 @@ HOMEPAGE=	http://fvwm-crystal.org/
 COMMENT=	Standalone tray app
 LICENSE=	mit
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_TOOLS+=	gmake pkg-config
 MAKE_JOBS_SAFE=	no
 

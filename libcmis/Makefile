@@ -9,8 +9,6 @@ HOMEPAGE=	http://sourceforge.net/projects/libcmis/
 COMMENT=	Client library for the CMIS interface
 LICENSE=	gnu-lgpl-v2.1 OR mpl-1.1 OR gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	c c++
 USE_LIBTOOL=	yes
 USE_TOOLS+=	pkg-config

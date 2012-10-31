@@ -15,8 +15,6 @@ LICENSE=	gnu-gpl-v3
 DEPENDS+=	${PYPKGPREFIX}-cElementTree-[0-9]*:../../textproc/py-cElementTree
 DEPENDS+=	${PYPKGPREFIX}-X>=0.9:../../textproc/py-X
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/${DISTNAME}
 
 PLIST_SUBST+=	PYVERSSUFFIX=${PYVERSSUFFIX}

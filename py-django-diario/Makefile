@@ -13,8 +13,6 @@ COMMENT=	Django Diário is a pluggable weblog application for Django Web
 
 DEPENDS+=	${PYPKGPREFIX}-django-[0-9]*:../../www/py-django
 
-PKG_DESTDIR_SUPPORT= user-destdir
-
 USE_PKGLOCALEDIR=	yes
 USE_TOOLS+=	intltool msgfmt
 USE_LANGUAGES=		# none

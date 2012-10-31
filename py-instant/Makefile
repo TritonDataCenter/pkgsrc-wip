@@ -12,8 +12,6 @@ COMMENT=	Instant inlining of C and C++ code in Python
 
 FETCH_USING=	curl
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 LICENSE=	gnu-lgpl-v3
 
 PYDISTUTILSPKG=	yes

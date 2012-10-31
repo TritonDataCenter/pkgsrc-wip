@@ -753,7 +753,7 @@ ${PYSITELIB}/graphite/whitelist/urls.pyo
 ${PYSITELIB}/graphite/whitelist/views.py
 ${PYSITELIB}/graphite/whitelist/views.pyc
 ${PYSITELIB}/graphite/whitelist/views.pyo
-${PYSITELIB}/graphite_web-${PKGVERSION}-py2.7.egg-info
+${PYSITELIB}/${THIS_EGG_FILE}
 share/examples/graphite/dashboard.conf.example
 share/examples/graphite/example-client.py
 share/examples/graphite/example-graphite-vhost.conf

@@ -5,6 +5,8 @@ To customize cidfmap, copy
 to
   ${GS_RESOURCEDIR}/Init/cidfmap
 and modify it.
+Please consider installing another companion package
+fonts/ghostscript-cidfonts-ryumin for above purpose.
 
 Please note that the above statement only applies when the option
 disable-compile-inits selected while build time. Otherwise you may

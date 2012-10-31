@@ -13,8 +13,6 @@ COMMENT=	Extension for sending syslog messages directly to a remote syslogd
 .include "../../lang/perl5/license.mk"
 LICENSE=        ${PERL5_LICENSE}
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 PERL5_PACKLIST=	auto/Net/Syslog/.packlist
 USE_LANGUAGES=	# none
 

@@ -12,11 +12,8 @@ HOMEPAGE=	http://pypedal.sourceforge.net/
 COMMENT=	Tools for pedigree analysis
 LICENSE=	gnu-lgpl-v2
 
-DEPENDS+=	${PYPKGPREFIX}-psyco-[0-9]*:../../lang/py-psyco
 DEPENDS+=	${PYPKGPREFIX}-networkx>=1.0.1:../../math/py-networkx
 DEPENDS+=	${PYPKGPREFIX}-pydot>=1.0.2:../../wip/py-pydot
-
-PKG_DESTDIR_SUPPORT=	user-destdir
 
 USE_LANGUAGES=	# none
 

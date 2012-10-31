@@ -14,7 +14,6 @@ LICENSE=	gnu-gpl-v2
 
 WRKSRC=		${WRKDIR}
 
-PKG_DESTDIR_SUPPORT=	user-destdir
 INSTALLATION_DIRS=	bin libexec share/doc/overgod
 INSTALLATION_DIRS+=	share/overgod/gfx share/overgod/wavs/beat
 

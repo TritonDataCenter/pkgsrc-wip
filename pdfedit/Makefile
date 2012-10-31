@@ -11,6 +11,8 @@ HOMEPAGE=	http://pdfedit.petricek.net/
 COMMENT=	Editor for manipulating PDF documents
 LICENSE=	gnu-gpl-v2
 
+PKG_DESTDIR_SUPPORT=	none
+
 GNU_CONFIGURE=	yes
 USE_TOOLS+=	gmake
 USE_LANGUAGES=	c c++

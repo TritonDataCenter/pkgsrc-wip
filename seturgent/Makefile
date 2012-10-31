@@ -10,8 +10,6 @@ HOMEPAGE=	http://www.codemadness.nl/downloads/projects/seturgent/
 COMMENT=	Set an application urgency hint using x11
 LICENSE=	mit
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 # Adjust config.mk
 SUBST_CLASSES+=         makefile
 SUBST_STAGE.makefile=   pre-build

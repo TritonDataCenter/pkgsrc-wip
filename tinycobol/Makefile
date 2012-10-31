@@ -10,6 +10,8 @@ MAINTAINER=		lrfurtado@yahoo.com.br
 HOMEPAGE=		http://tiny-cobol.sourceforge.net/
 COMMENT=		Tiny COBOL compiler for IA32 platforms
 
+PKG_DESTDIR_SUPPORT=	none
+
 CONFIGURE_ARGS+=	--with-libdb=2
 
 ONLY_FOR_PLATFORM= *-*-i386

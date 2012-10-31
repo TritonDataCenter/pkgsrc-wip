@@ -12,6 +12,4 @@ LICENSE=	gnu-gpl-v1
 
 DEPENDS+=	p5-Text-Iconv>=1.7:../../converters/p5-Text-Iconv
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 .include "../../mk/bsd.pkg.mk"

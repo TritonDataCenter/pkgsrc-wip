@@ -12,8 +12,6 @@ LICENSE=	2-clause-bsd
 
 DEPENDS+=	${PYPKGPREFIX}-expat-[0-9]*:../../textproc/py-expat
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GIT_REPOSITORIES=			python-musicbrainz-ngs
 GIT_REPO.python-musicbrainz-ngs=	git://github.com/alastair/python-musicbrainz-ngs.git
 

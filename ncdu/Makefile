@@ -8,7 +8,6 @@ MASTER_SITES=	http://sourceforge.net/projects/ncdu/files/ncdu/ncdu-1.8/
 COMMENT=	Disk usage visualization tool
 LICENSE=	modified-bsd
 
-PKG_DESTDIR_SUPPORT=	user-destdir
 MAINTAINER=	slitvinov@gmail.com
 HOMEPAGE=	http://dev.yorhel.nl/ncdu
 

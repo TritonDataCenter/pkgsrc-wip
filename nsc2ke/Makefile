@@ -11,8 +11,6 @@ MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	http://pauillac.inria.fr/cdrom_a_graver/www/nsc2ke/eng.htm
 COMMENT=	Navier-Stokes solver
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}
 
 MAKE_FILE=	makefile

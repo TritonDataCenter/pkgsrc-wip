@@ -13,7 +13,6 @@ COMMENT=	Network/port scanner with OS detection
 LICENSE=	gnu-gpl-v2
 
 #PKG_INSTALLATION_TYPES=	overwrite pkgviews
-PKG_DESTDIR_SUPPORT=	user-destdir
 
 BUILDLINK_API_DEPENDS.libpcap=	libpcap>=1.0.0
 BUILDLINK_API_DEPENDS.libpcre=	libpcre>=7.6

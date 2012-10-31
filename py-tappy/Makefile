@@ -13,8 +13,6 @@ HOMEPAGE=	http://tappy.sourceforge.net/
 COMMENT=	Tidal analysis program in python
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	# none
 
 PLIST_SUBST+=	PYVERSSUFFIX=${PYVERSSUFFIX}

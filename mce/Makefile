@@ -10,8 +10,6 @@ MAINTAINER=	kamel.derouiche@gmail.com
 COMMENT=	The DBus method calls provided by the Mode Control Entity
 LICENSE=	gnu-lgpl-v2.1
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/mce-dev-1.5.6.debian.orig
 
 NO_BUILD= yes

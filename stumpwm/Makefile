@@ -14,8 +14,6 @@ HOMEPAGE=		http://www.nongnu.org/stumpwm/
 COMMENT=		Tiling, keyboard driven X11 Window Manager written in Common Lisp
 LICENSE=		gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 .include "options.mk"
 
 USE_TOOLS+=		autoconf make makeinfo install-info

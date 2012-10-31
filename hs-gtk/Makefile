@@ -8,7 +8,6 @@ MAINTAINER=	pho@cielonegro.org
 COMMENT=	Binding to the Gtk+ graphical user interface library
 LICENSE=	gnu-lgpl-v2.1
 
-PKG_DESTDIR_SUPPORT=	user-destdir
 .include "options.mk"
 
 .include "../../wip/mk/haskell.mk"

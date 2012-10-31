@@ -11,6 +11,8 @@ MAINTAINER=		ianzag@mail.ru
 HOMEPAGE=		http://sim-icq.sourceforge.net/
 COMMENT=		SIM (Simple Instant Messenger)
 
+PKG_DESTDIR_SUPPORT=	none
+
 USE_TOOLS+=	gmake
 USE_LANGUAGES=	c c++
 USE_LIBTOOL=	YES

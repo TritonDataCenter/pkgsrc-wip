@@ -10,8 +10,6 @@ HOMEPAGE=	http://tap-plugins.sourceforge.net/ladspa.html
 COMMENT=	Tom's Audio Processing plugins
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 SUBST_CLASSES+=		prefix
 SUBST_STAGE.prefix=	post-patch
 SUBST_MESSAGE.prefix=	Fixing PREFIX.

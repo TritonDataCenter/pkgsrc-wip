@@ -11,8 +11,6 @@ HOMEPAGE=	http://www.fefe.de/ncp/
 COMMENT=	Fast file copy tool for LANs
 #LICENSE=	asked upstream, will fill in when he replies
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 CFLAGS+=	-I${BUILDLINK_PREFIX.libowfat}/include/libowfat
 INSTALL_MAKE_FLAGS=	PREFIX=${DESTDIR}${PREFIX}
 

@@ -11,8 +11,6 @@ MAINTAINER=	obache@NetBSD.org
 HOMEPAGE=	http://trac-hacks.org/wiki/ExcelViewerPlugin
 COMMENT=	Excel viewer plugin for trac
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 DEPENDS+=	{ja-,}trac>=0.10:../../www/trac
 DEPENDS+=	${PYPKGPREFIX}-xlrd>=0:../../textproc/py-xlrd
 

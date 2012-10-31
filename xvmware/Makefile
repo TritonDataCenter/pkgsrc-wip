@@ -11,8 +11,6 @@ HOMEPAGE=	http://www.hi-matic.org/diary/?20090124#24-1
 COMMENT=	VMware support tools for clipboard and seamless mouse movement
 LICENSE=	2-clause-bsd
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_IMAKE=	yes
 WRKSRC=		${WRKDIR}/${PKGBASE}
 

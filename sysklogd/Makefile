@@ -12,6 +12,8 @@ COMMENT=		System and kernel log daemons for Linux
 
 ONLY_FOR_PLATFORM=	Linux-*-*	# This has Linux klogd
 
+PKG_DESTDIR_SUPPORT=	none
+
 USE_TOOLS+=		gmake
 CFLAGS+=		-D_PATH_LOGCONF='\"${PKG_SYSCONFBASE}/syslog.conf\"'
 MAKE_ENV+=		DESTDIR=${PREFIX:Q} ROOT_GROUP=${ROOT_GROUP:Q} \

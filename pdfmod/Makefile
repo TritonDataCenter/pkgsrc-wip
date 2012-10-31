@@ -11,8 +11,6 @@ HOMEPAGE=	http://live.gnome.org/PdfMod
 COMMENT=	PDF Mod is a simple tool for modifying PDF documents
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=		yes
 USE_PKGLOCALEDIR=	yes
 USE_TOOLS+=		pkg-config intltool msgfmt gmake

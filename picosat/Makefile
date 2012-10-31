@@ -10,8 +10,6 @@ HOMEPAGE=	http://fmv.jku.at/picosat/
 COMMENT=	SAT solver with proof and core support
 #LICENSE=	# TODO: (see mk/license.mk)
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 HAS_CONFIGURE=	yes
 USE_LANGUAGES= c
 

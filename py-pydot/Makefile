@@ -13,8 +13,6 @@ COMMENT=	Python interface to Graphviz Dot
 
 #DEPENDS+=	${PYPKGPREFIX}-parsing>=1.5.2:../../wip/py-parsing
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	# none
 
 .include "../../graphics/graphviz/buildlink3.mk"

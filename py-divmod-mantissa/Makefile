@@ -12,8 +12,6 @@ MAINTAINER=         pkgsrc-wip-users@sourceforge.net
 HOMEPAGE=	http://divmod.org/trac/wiki/DivmodMantissa
 COMMENT=	An extensible application server
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 DEPENDS+=	${PYPKGPREFIX}-twisted>=2.4.0:../../net/py-twisted
 DEPENDS+=	${PYPKGPREFIX}-pytz>=2005m:../../time/py-pytz
 DEPENDS+=	${PYPKGPREFIX}-nevow>=0.9.0:../../www/py-nevow
@@ -21,7 +19,7 @@ DEPENDS+=	${PYPKGPREFIX}-divmod-axiom>=0.5.0:../../wip/py-divmod-axiom
 DEPENDS+=	${PYPKGPREFIX}-divmod-vertex>=0.2.0:../../wip/py-divmod-vertex
 
 PYDISTUTILSPKG=			yes
-PYTHON_VERSIONS_ACCEPTED=	26 25
+PYTHON_VERSIONS_ACCEPTED=	26
 
 .include "../../lang/python/extension.mk"
 .include "../../mk/bsd.pkg.mk"

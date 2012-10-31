@@ -10,8 +10,6 @@ MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://gcc.gnu.org/
 LICENSE=	gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 DEPENDS+=		mingw-w64-binutils-[0-9]*:../../wip/mingw-w64-binutils
 DEPENDS+=		mingw-w64-headers-[0-9]*:../../wip/mingw-w64-headers
 

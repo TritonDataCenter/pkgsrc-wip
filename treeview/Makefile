@@ -11,6 +11,8 @@ MAINTAINER=	hdp@cs.nmsu.edu
 HOMEPAGE=	http://darwin.zoology.gla.ac.uk/~rpage/treeviewx/index.html
 COMMENT=	Phylogenetic tree viewer for Linux and Unix
 
+PKG_DESTDIR_SUPPORT=	none
+
 USE_LANGUAGES=	c c++
 USE_TOOLS+=	gmake
 GNU_CONFIGURE=	YES

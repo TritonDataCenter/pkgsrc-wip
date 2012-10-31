@@ -11,6 +11,8 @@ MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://www.musepack.net/
 COMMENT=		MPEG-Plus and MusePack decoder
 
+PKG_DESTDIR_SUPPORT=	none
+
 WRKSRC=			${WRKDIR}/sv7
 MAKE_FILE=		Makefile.bsd
 MAKE_ENV+=		LIBOSSAUDIO=${LIBOSSAUDIO:Q}

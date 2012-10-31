@@ -21,10 +21,12 @@ PYTHON_PATCH_SCRIPTS=	xbelmark.py
 do-extract:
 	${CP} ${DISTDIR}/${DISTNAME} ${WRKSRC}
 
+INSTALLATION_DIRS=	bin
+
 do-install:
-	${INSTALL_DATA_DIR} ${PREFIX}/share/doc/xbelmark
-	${INSTALL_DATA} ${FILESDIR}/README ${PREFIX}/share/doc/xbelmark/
-	${INSTALL_SCRIPT} ${WRKSRC}/xbelmark.py ${PREFIX}/bin/xbelmark.py
+	${INSTALL_DATA_DIR} ${DESTDIR}${PREFIX}/share/doc/xbelmark
+	${INSTALL_DATA} ${FILESDIR}/README ${DESTDIR}${PREFIX}/share/doc/xbelmark/
+	${INSTALL_SCRIPT} ${WRKSRC}/xbelmark.py ${DESTDIR}${PREFIX}/bin/xbelmark.py
 
 .include "../../lang/python/application.mk"
 .include "../../mk/bsd.pkg.mk"

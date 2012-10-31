@@ -1,6 +1,6 @@
 @comment $NetBSD$
-bin/gdb.py2.7
-bin/strace.py2.7
+bin/gdb.py${PYVERSSUFFIX}
+bin/strace.py${PYVERSSUFFIX}
 ${PYSITELIB}/ptrace/__init__.py
 ${PYSITELIB}/ptrace/__init__.pyc
 ${PYSITELIB}/ptrace/__init__.pyo

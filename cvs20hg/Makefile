@@ -9,7 +9,6 @@ MAINTAINER=	peter.schuller@infidyne.com
 HOMEPAGE=	http://ww2.fs.ei.tum.de/~corecode/hg/cvs20hg/
 COMMENT=	CVS->Mercurial conversion tool
 
-PYTHON_VERSIONS_ACCEPTED=	25
 PYDISTUTILSPKG=	# yes
 
 DEPENDS+=	${PYPKGPREFIX}-rcsparse-0.0.0_20061004:../../wip/py-rcsparse

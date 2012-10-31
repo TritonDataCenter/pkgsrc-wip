@@ -12,11 +12,8 @@ HOMEPAGE=	http://code.google.com/p/sfepy/
 COMMENT=	Simple finite elements in Python
 LICENSE=	modified-bsd
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	c c++
 
-PYTHON_VERSIONS_ACCEPTED= 27 26
 PYDISTUTILSPKG= yes
 
 do-test:

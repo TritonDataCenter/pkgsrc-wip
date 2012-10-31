@@ -11,10 +11,7 @@ HOMEPAGE=	http://code.google.com/p/pulp-or/
 COMMENT=	LP modeler in Python
 LICENSE=	modified-bsd
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	# none
-PYTHON_VERSIONS_ACCEPTED= 26 25
 
 .include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"

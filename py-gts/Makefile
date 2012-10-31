@@ -11,8 +11,6 @@ HOMEPAGE=	http://pygts.sourceforge.net/
 COMMENT=	Python bindings for GNU Triangulated Surface Library
 LICENSE=	gnu-lgpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_TOOLS+=	pkg-config
 PYDISTUTILSPKG= yes
 PY_PATCHPLIST=	yes

@@ -13,8 +13,6 @@ HOMEPAGE=		http://darcs.idyll.org/~t/projects/figleaf/doc/
 COMMENT=		Figleaf is a Python code coverrage analysis tool
 #LICENSE=		bsd
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 DOCDIR=			${DESTDIR}${PREFIX}/share/doc/py-${PYMODULENAME}
 EGDIR=			${DESTDIR}${PREFIX}/share/examples/py-${PYMODULENAME}
 

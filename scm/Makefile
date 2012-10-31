@@ -18,8 +18,6 @@ COMMENT=	Portable scheme interpreter
 
 DEPENDS+=	slib>=2.4.4:../../devel/slib
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_TOOLS+=	gmake
 
 BUILD_TARGET=	scmlit

@@ -9,8 +9,6 @@ MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://wmalms.tripod.com/
 COMMENT=	Tool for special keyboards
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_TOOLS+=	gmake
 USE_LANGUAGES+=	c
 GNU_CONFIGURE=	yes

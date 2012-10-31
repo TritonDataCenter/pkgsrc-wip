@@ -11,8 +11,6 @@ HOMEPAGE=		http://www.tecgraf.puc-rio.br/~diego/professional/luasocket/
 COMMENT=		Gives socket capabilities to lua
 LICENSE=		mit
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 MAKE_FILE=		makefile
 USE_TOOLS+=		gmake
 

@@ -3,6 +3,7 @@
 
 DISTNAME=	graphite-web-0.9.10
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
+PKGREVISION=	1
 CATEGORIES=	www
 MASTER_SITES=	http://launchpadlibrarian.net/106575888/
 
@@ -10,8 +11,6 @@ MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	https://launchpad.net/graphite
 COMMENT=	Enterprise scalable realtime graphing platform
 LICENSE=	apache-2.0
-
-PKG_DESTDIR_SUPPORT=	user-destdir
 
 DEPENDS+=	${PYPKGPREFIX}-cairo>=1.8.10:../../graphics/py-cairo
 DEPENDS+=	${PYPKGPREFIX}-carbon>=${PKGREVISION_NOREV}:../../wip/py-carbon
@@ -46,6 +45,8 @@ PYSETUPINSTALLARGS=	--prefix=${PREFIX}			\
 			--install-lib=${PREFIX}/${PYSITELIB}
 
 INSTALLATION_DIRS+=	share/examples/graphite
+
+PLIST_SUBST+=	THIS_EGG_FILE=${EGG_NAME:S|graphite-|graphite_|}-py${PYVERSSUFFIX}.egg-info
 
 pre-build:
 	${MKDIR} ${WRKSRC}/graphite/webapp

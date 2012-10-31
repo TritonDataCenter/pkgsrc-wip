@@ -15,20 +15,18 @@ NUTTCP_VERSION=	6.1.2
 
 USE_TOOLS+=	gmake
 
-INSTALLATION_DIRS=	${PREFIX}/bin \
-			${PREFIX}/${PKGMANDIR}/man8 \
-			${PREFIX}/share/doc/${PKGBASE}
+INSTALLATION_DIRS=	bin ${PKGMANDIR}/man8 share/doc/${PKGBASE}
 
 do-install:
 		${INSTALL_PROGRAM} ${WRKSRC}/nuttcp-${NUTTCP_VERSION} \
-			${PREFIX}/bin/nuttcp
+			${DESTDIR}${PREFIX}/bin/nuttcp
 		${INSTALL_MAN} ${WRKSRC}/nuttcp.8 \
-			${PREFIX}/${PKGMANDIR}/man8
+			${DESTDIR}${PREFIX}/${PKGMANDIR}/man8
 		${INSTALL_DATA} ${WRKSRC}/README \
-			${PREFIX}/share/doc/${PKGBASE}
+			${DESTDIR}${PREFIX}/share/doc/${PKGBASE}
 		${INSTALL_DATA} ${WRKSRC}/examples.txt \
-			${PREFIX}/share/doc/${PKGBASE}
+			${DESTDIR}${PREFIX}/share/doc/${PKGBASE}
 		${INSTALL_DATA} ${WRKSRC}/nuttcp.html \
-			${PREFIX}/share/doc/${PKGBASE}
+			${DESTDIR}${PREFIX}/share/doc/${PKGBASE}
 
 .include "../../mk/bsd.pkg.mk"

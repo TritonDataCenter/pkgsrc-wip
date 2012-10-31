@@ -10,8 +10,6 @@ HOMEPAGE=	http://wwwthep.physik.uni-mainz.de/~stefanw/partonevolution
 COMMENT=	Fast Evolution of Parton Distributions
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_LANGUAGES=	c c++ fortran77

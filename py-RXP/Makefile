@@ -10,8 +10,6 @@ MAINTAINER=	david@netbsd-fr.org
 HOMEPAGE=	http://www.reportlab.org/pyrxp.html
 COMMENT=	Validating XML parser for Python
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=	${WRKDIR}/pyRXP-1.13
 MAKE_ENV+=	LIBERROR=0
 PYDISTUTILSPKG=	YES

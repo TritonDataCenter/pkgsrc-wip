@@ -13,11 +13,9 @@ HOMEPAGE=	http://code.google.com/p/pycsp/
 COMMENT=	PyCSP Python CSP Library
 LICENSE=	mit
 
-DEPENDS+=	${PYPKGPREFIX}-Pyro>=3.4:../../devel/py-Pyro
+DEPENDS+=	${PYPKGPREFIX}-Pyro4>=3.4:../../devel/py-Pyro
 DEPENDS+=	${PYPKGPREFIX}-greenlet>=0.2:../../wip/py-greenlet
 DEPENDS+=	${PYPKGPREFIX}-uuid>=1.30:../../wip/py-uuid
-
-PKG_DESTDIR_SUPPORT=	user-destdir
 
 EDGDIR=	${PREFIX}/share/examples/py-csp
 

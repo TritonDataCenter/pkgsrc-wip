@@ -10,6 +10,8 @@ MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://www.cgsecurity.org/wiki/TestDisk
 COMMENT=		Tool to check and undelete partitions
 
+PKG_DESTDIR_SUPPORT=	none
+
 GNU_CONFIGURE=		yes
 
 .include "../../mk/bsd.pkg.mk"

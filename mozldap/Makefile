@@ -10,8 +10,6 @@ HOMEPAGE=	https://wiki.mozilla.org/LDAP_C_SDK
 COMMENT=	LDAP C-SDK from Mozilla Project
 LICENSE=	gnu-gpl-v1 OR gnu-lgpl-v2.1 OR mpl-1.1
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	YES
 USE_LIBTOOL=	YES
 USE_TOOLS+=	pkg-config gmake perl autoconf

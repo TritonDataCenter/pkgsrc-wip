@@ -11,8 +11,6 @@ HOMEPAGE=	http://wwwthep.physik.uni-mainz.de/~stefanw/sector_decomposition/
 COMMENT= Used to compute numerically the Laurent expansion of Feynman integrals
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_LANGUAGES=	c c++ fortran
@@ -32,4 +30,5 @@ do-configure:
 #.include "../../math/cln/buildlink3.mk"
 .include "../../math/gsl/buildlink3.mk"
 .include "../../wip/libginac/buildlink3.mk"
+.include "../../mk/dlopen.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

@@ -10,6 +10,8 @@ MAINTAIER=		ghen@NetBSD.org
 HOMEPAGE=		http://www.wings3d.com/
 COMMENT=		3D modeling program with a friendly interface
 
+PKG_DESTDIR_SUPPORT=	none
+
 USE_TOOLS+=		gmake
 
 SUBST_CLASSES+=		paths

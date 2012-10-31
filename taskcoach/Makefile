@@ -11,8 +11,6 @@ HOMEPAGE=	http://www.taskcoach.org/
 COMMENT=	Task Coach is a simple open source todo manager
 LICENSE=	gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	# none
 
 DEPENDS+=	${PYPKGPREFIX}-wxWidgets>=2.8.9.1:../../x11/py-wxWidgets

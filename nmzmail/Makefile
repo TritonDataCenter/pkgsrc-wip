@@ -11,8 +11,6 @@ HOMEPAGE=	http://www.ecademix.com/JohannesHofmann/nmzmail.html
 COMMENT=	Fast mail searching for mutt
 LICENSE=	gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=		yes
 
 DEPENDS+=	namazu>=2.0.20:../../textproc/namazu

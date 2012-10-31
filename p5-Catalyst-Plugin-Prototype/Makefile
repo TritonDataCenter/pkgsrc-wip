@@ -16,6 +16,8 @@ DEPENDS+=	p5-Catalyst-Runtime>=0:../../www/p5-Catalyst-Runtime
 DEPENDS+=	p5-Class-Data-Inheritable>=0:../../devel/p5-Class-Data-Inheritable
 DEPENDS+=	p5-HTML-Prototype>=1.30:../../www/p5-HTML-Prototype
 
+PKG_DESTDIR_SUPPORT=	none
+
 PERL5_PACKLIST= auto/Catalyst/Plugin/Prototype/.packlist
 
 .include "../../lang/perl5/module.mk"

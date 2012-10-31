@@ -12,8 +12,6 @@ HOMEPAGE=	http://svn.navi.cx/misc/trunk/pycaptcha/
 COMMENT=	Python framework for CAPTCHA tests
 LICENSE=	mit
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	# none
 PYDISTUTILSPKG=	yes
 

@@ -13,8 +13,6 @@ LICENSE=	modified-bsd
 
 #DEPENDS+=	${PYPKGPREFIX}-utilib_component_core>=3.0.4:../../wip/py-utilib_component_core
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/pyutilib.component.app-3.1.3
 
 VERSION=	1.0.5

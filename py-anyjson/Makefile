@@ -11,8 +11,6 @@ HOMEPAGE=	http://pypi.python.org/pypi/anyjson
 COMMENT=	Wraps the JSON implementation available in a common interface
 LICENSE=		modified-bsd
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	# none
 
 .include "../../lang/python/egg.mk"

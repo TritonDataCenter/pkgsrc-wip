@@ -9,6 +9,8 @@ MAINTAINER=	dhowland@users.sourceforge.net
 HOMEPAGE=	http://embedded.eecs.berkeley.edu/Alumni/pchong/sis.html
 COMMENT=	Classic logic synthesis tool
 
+PKG_DESTDIR_SUPPORT=	none
+
 GNU_CONFIGURE=		yes
 USE_TOOLS+=		gmake
 
@@ -21,5 +23,4 @@ pre-install:
 	${INSTALL_DATA_DIR} ${PREFIX}/share/sis/espresso_examples/math
 	${INSTALL_DATA_DIR} ${PREFIX}/share/sis/espresso_examples/random
 
-.include "../../mk/x11.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

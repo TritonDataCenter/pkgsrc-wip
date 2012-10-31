@@ -10,8 +10,6 @@ MAINTAINER=	athaba@users.sourceforge.net
 HOMEPAGE=	http://search.cpan.org/dist/Text-Quote
 COMMENT=	Quotes strings as required for perl to eval them back correctly
 
-PKG_DESTDIR_SUPPORT=user-destdir
-
 DEPENDS+=	p5-Carp-Assert>=0.13:../../devel/p5-Carp-Assert
 DEPENDS+=	p5-IO-Compress-[0-9]*:../../devel/p5-IO-Compress
 DEPENDS+=	p5-MIME-Base64>=2.12:../../converters/p5-MIME-Base64

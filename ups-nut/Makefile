@@ -9,6 +9,8 @@ MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://www.networkupstools.org/
 COMMENT=		Network UPS Tools
 
+PKG_DESTDIR_SUPPORT=	none
+
 .include "options.mk"
 
 GNU_CONFIGURE=		yes

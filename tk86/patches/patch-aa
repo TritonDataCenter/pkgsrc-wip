@@ -1,5 +1,7 @@
 $NetBSD$
 
+Fixes manpage install path.
+
 --- ./unix/Makefile.in.orig	2010-12-17 23:13:32.000000000 +0000
 +++ ./unix/Makefile.in
 @@ -576,7 +576,7 @@ binaries: ${LIB_FILE} ${STUB_LIB_FILE} $

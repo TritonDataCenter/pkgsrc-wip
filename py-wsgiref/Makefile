@@ -12,8 +12,6 @@ HOMEPAGE=	http://pypi.python.org/pypi/wsgiref
 COMMENT=	This is a standalone release of the wsgiref library
 LICENSE=		zpl
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	# none
 
 do-test:

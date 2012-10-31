@@ -12,6 +12,8 @@ COMMENT=	Set of tools converting web pages to Plucker format
 
 CONFLICTS=	py*-plucker-[0-9]*
 
+PKG_DESTDIR_SUPPORT=	none
+
 WRKSRC=		${WRKDIR}/${DISTNAME:S/_parser//}
 NO_BUILD=	yes
 

@@ -10,8 +10,6 @@ HOMEPAGE=	http://www.nongnu.org/xmakemol/
 COMMENT=	Program for visualizing atomic and molecular systems
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_TOOLS+=	gmake perl
 

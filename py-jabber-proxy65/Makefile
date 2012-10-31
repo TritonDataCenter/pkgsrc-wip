@@ -10,7 +10,6 @@ HOMEPAGE=	http://proxy65.googlecode.com/
 COMMENT=	XEP-0065 proxy transport for XMPP
 LICENSE=	mit
 
-PKG_DESTDIR_SUPPORT=	user-destdir
 #
 # jabberd isn't really a dependency since the transport can run on a
 # different server than the main jabber server (not that many sites will

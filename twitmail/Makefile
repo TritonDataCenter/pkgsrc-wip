@@ -10,8 +10,6 @@ HOMEPAGE=	http://www.hardakers.net/twitmail/
 COMMENT=	Curses-based mail-like interface to twitter
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 DEPENDS+=	p5-DBD-SQLite>=0:../../databases/p5-DBD-SQLite
 DEPENDS+=	p5-DBI>=0:../../databases/p5-DBI
 DEPENDS+=	p5-Curses>=0:../../devel/p5-Curses

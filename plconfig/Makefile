@@ -12,8 +12,6 @@ COMMENT=		A tool for configuring HomePlug powerline bridges
 
 BUILD_TARGET=		plconfig
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/plconfig ${DESTDIR}${PREFIX}/sbin
 

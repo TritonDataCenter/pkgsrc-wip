@@ -12,8 +12,6 @@ COMMENT=	Modular X.org xcursor themes
 
 MAKE_JOBS_SAFE=	no
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 BUILD_DEPENDS+=	xcursorgen>=1.0.5:../../x11/xcursorgen
 
 USE_TOOLS+=	pkg-config

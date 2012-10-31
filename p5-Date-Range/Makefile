@@ -12,6 +12,8 @@ COMMENT=	Date::Range - deal with a range of dates
 DEPENDS+=	p5-Date-Simple>=0.03:../../devel/p5-Date-Simple
 BUILD_DEPENDS+=	{perl>=5.7.3,p5-Test-Simple>=0.4}:../../devel/p5-Test-Simple
 
+PKG_DESTDIR_SUPPORT=	none
+
 USE_LANGUAGES=	# empty
 
 PERL5_PACKLIST=	auto/Date/Range/.packlist

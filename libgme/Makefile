@@ -12,8 +12,6 @@ HOMEPAGE=	http://code.google.com/p/game-music-emu/
 COMMENT=	Video game music file emulation/playback library
 LICENSE=	gnu-lgpl-v2.1
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LIBTOOL=	yes
 USE_LANGUAGES=	c c++
 

@@ -11,8 +11,6 @@ HOMEPAGE=	http://downloads.sourceforge.net/project/biblatex-biber/biblatex-biber
 COMMENT=	TODO: Short description of the package
 #LICENSE=	# TODO: (see mk/license.mk)
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 # TODO: Look for the dependencies in Build.PL.
 
 WRKSRC=			${WRKDIR}/biblatex-biber-1.2

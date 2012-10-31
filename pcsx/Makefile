@@ -19,7 +19,6 @@ WRKSRC=		${WRKDIR}/${DISTNAME}/Linux
 #
 USE_PKGSRC_GCC=	yes
 
-PKG_DESTDIR_SUPPORT=	user-destdir
 INSTALLATION_DIRS=	bin
 
 do-install:

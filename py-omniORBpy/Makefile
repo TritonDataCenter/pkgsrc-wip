@@ -9,8 +9,6 @@ MAINTAINER=	tonnerre@NetBSD.org
 HOMEPAGE=	http://omniorb.sourceforge.net/
 COMMENT=	Python interface to omniORB
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 PLIST_SUBST+=	PYINC=${PYINC} PYSITELIB=${PYSITELIB}
 GNU_CONFIGURE=	yes
 USE_TOOLS+=	gmake

@@ -12,8 +12,6 @@ HOMEPAGE=	https://launchpad.net/pyflakes
 COMMENT=	Passive checker of Python programs
 LICENSE=	mit
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/pyflakes-0.5.0
 
 USE_LANGUAGES=	# none

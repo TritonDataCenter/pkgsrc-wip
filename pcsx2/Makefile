@@ -15,8 +15,6 @@ COMMENT=	Playstation 2 Emulator
 
 BUILD_DEPENDS+=	p7zip-[0-9]*:../../archivers/p7zip
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/pcsx2-1.0.0-r5350-sources
 USE_LANGUAGES=	c c++
 USE_TOOLS+=	msgmerge

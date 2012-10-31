@@ -1,12 +1,12 @@
-# $NetBSD: Makefile,v 1.15 2012/08/08 00:19:11 gdt Exp $
+# $NetBSD: Makefile,v 1.17 2012/09/28 13:41:30 gdt Exp $
 #
 
-DISTNAME=	fldigi-3.21.52
+DISTNAME=	fldigi-3.21.58
 CATEGORIES=	ham
 MASTER_SITES=	http://www.w1hkj.com/downloads/fldigi/
 LICENSE=	gnu-gpl-v3
 
-MAINTAINER=	pkgsrc-users@NetBSD.org
+MAINTAINER=	makoto@ki.nu
 HOMEPAGE=	http://www.w1hkj.com/Fldigi.html
 #HOMEPAGE=	http://lists.berlios.de/mailman/listinfo/fldigi-devel
 COMMENT=	Digital radio modem
@@ -32,7 +32,6 @@ SUBST_FILES.asciidoc=	doc/Makefile.am doc/Makefile.in doc/Makefile
 SUBST_MESSAGE.asciidoc=	Replacing asciidoc PATH
 SUBST_SED.asciidoc=	-e s\|/usr/share\|${PREFIX}/share\|g
 
-.include "../../mk/bsd.prefs.mk"
 SUBST_CLASSES+=		brag-os
 SUBST_STAGE.brag-os=	post-patch
 SUBST_FILES.brag-os=	src/misc/newinstall.cxx
@@ -42,6 +41,12 @@ SUBST_SED.brag-os=	-e s/@@OS@@/${OPSYS}/
 # Following binary contains configure parameter, which is OK.
 CHECK_WRKREF_SKIP+=	bin/flarq
 CHECK_WRKREF_SKIP+=	bin/fldigi
+
+.include "../../mk/bsd.prefs.mk"
+
+.if ${LOWER_OPSYS} == "netbsd"
+CONFIGURE_ENV+=		ac_cv_header_execinfo_h=no
+.endif
 
 .include "../../audio/libsamplerate/buildlink3.mk"
 .include "../../audio/libsndfile/buildlink3.mk"

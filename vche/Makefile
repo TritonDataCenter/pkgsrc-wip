@@ -14,8 +14,10 @@ BUILD_DIRS=		src
 MAKE_FILE=		Rules.make
 MAKE_FLAGS=		VCHE_NC=1
 
+INSTALLATION_DIRS=	bin
+
 do-install:
-	${INSTALL_PROGRAM} ${WRKSRC}/src/vche-nc ${PREFIX}/bin/vche
+	${INSTALL_PROGRAM} ${WRKSRC}/src/vche-nc ${DESTDIR}${PREFIX}/bin/vche
 
 .include "../../devel/ncurses/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

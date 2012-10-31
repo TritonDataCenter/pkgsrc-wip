@@ -12,7 +12,6 @@ HOMEPAGE=	http://www.goron.de/~johns/wmc2d/
 COMMENT=	Dockapp to monitor coretemp temperature and cpufreq frequency
 LICENSE=	gnu-agpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
 USE_TOOLS+=		gmake
 INSTALLATION_DIRS+=	bin
 

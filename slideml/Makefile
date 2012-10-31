@@ -10,8 +10,6 @@ HOMEPAGE=	https://opensource.conformal.com/wiki/slideml
 COMMENT=	HTML slide generator based on SlideML
 LICENSE=	isc
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=			# none
 USE_TOOLS+=			perl
 REPLACE_PERL+=			slideml.pl

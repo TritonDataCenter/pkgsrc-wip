@@ -11,9 +11,7 @@ HOMEPAGE=	http://pypi.python.org/pypi/jsonrequester
 COMMENT=	Library for client JSON REST requests
 #LICENSE=	# TODO: (see mk/license.mk)
 
-DEPENDS+=	${PYPKGPREFIX}-httplib2>=0.6.0:../../wip/py-httplib2
-
-PKG_DESTDIR_SUPPORT=	user-destdir
+DEPENDS+=	${PYPKGPREFIX}-httplib2>=0.6.0:../../www/py-httplib2
 
 WRKSRC=		${WRKDIR}/jsonrequester-0.1.3
 

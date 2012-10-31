@@ -6,8 +6,6 @@ COMMENT=		PHP extension for tidy functions
 
 CONFLICTS=		php-tidy-[0-9]*
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 CONFIGURE_ARGS+=	--with-tidy=shared,${BUILDLINK_PREFIX.tidy}
 
 USE_PHP_EXT_PATCHES=	yes

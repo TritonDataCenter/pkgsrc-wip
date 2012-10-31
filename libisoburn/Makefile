@@ -10,8 +10,6 @@ HOMEPAGE=	http://libburnia-project.org/wiki/Libisoburn
 COMMENT=	libisoburn library and xorriso commands
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/${DISTNAME:S/.pl00//}
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes

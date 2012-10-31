@@ -11,8 +11,6 @@ HOMEPAGE=	http://www.pitt.edu/~ahb12
 COMMENT=	Python Gaussian Network Model
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/pygnm-0.1
 
 USE_LANGUAGES=	# none

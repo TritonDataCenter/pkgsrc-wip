@@ -9,7 +9,6 @@ MASTER_SITES=		ftp://ftp.lucifier.net/pub/nomadio/
 MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://nomadio.lucifier.net/
 COMMENT=		Utility to control Creative Nomad II MG
-PKG_DESTDIR_SUPPORT=	user-destdir
 
 INSTALLATION_DIRS+=	bin ${PKGMANDIR}/man1 ${PKGMANDIR}/cat1
 

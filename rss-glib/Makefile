@@ -11,8 +11,6 @@ HOMEPAGE=	http://dronelabs.com/
 COMMENT=	Rss GLib is a RSS and Atom parser for GObject
 LICENSE=	gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_TOOLS+=	pkg-config gmake

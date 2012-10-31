@@ -11,13 +11,10 @@ HOMEPAGE=	http://code.google.com/p/python-ttk/
 COMMENT=	Ttk Python wrapper
 LICENSE=	gnu-lgpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/pyttk-0.3.2
 
 USE_LANGUAGES=	# none
 
-PYTHON_VERSIONS_ACCEPTED= 31 27 26 25
 PYDISTUTILSPKG=	yes
 
 do-test:

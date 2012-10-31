@@ -14,8 +14,6 @@ COMMENT=	Zope-like transaction manager via WSGI middleware
 
 DEPENDS+=	${PYPKGPREFIX}-transaction>=1.1.1:../../wip/py-transaction
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/repoze.tm2-1.0a5
 USE_LANGUAGES=	# none
 

@@ -13,6 +13,8 @@ MAINTAINER=	aniou@smutek.pl
 HOMEPAGE=	http://slrn-pl.zamiast.net/
 COMMENT=	Highly customizable threaded newsreader (PoLished version)
 
+PKG_DESTDIR_SUPPORT=	none
+
 PKG_SYSCONFSUBDIR=	slrn-pl
 USE_TOOLS+=		gmake
 USE_PKGLOCALEDIR=	yes

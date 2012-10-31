@@ -11,8 +11,6 @@ MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	http://www.cs.cmu.edu/~quake/triangle.html
 COMMENT=	Two-Dimensional Quality Mesh Generator and Delaunay Triangulator
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=	${WRKDIR}
 
 VERSION=	1.6

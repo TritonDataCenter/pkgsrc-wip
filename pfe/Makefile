@@ -9,8 +9,6 @@ MAINTAINER=	asau@inbox.ru
 HOMEPAGE=	http://pfe.sourceforge.net/
 COMMENT=	Portable FORTH Environment
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 CONFIGURE_ARGS+=	--with-regs

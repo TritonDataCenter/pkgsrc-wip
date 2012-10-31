@@ -12,8 +12,6 @@ HOMEPAGE=	http://daemon-tuts.de/
 COMMENT=	Small Preview of Tkinter Widgets
 LICENSE=	mit
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	# none
 PYDISTUTILSPKG=	yes
 

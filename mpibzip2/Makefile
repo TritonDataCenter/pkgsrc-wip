@@ -11,8 +11,6 @@ HOMEPAGE=	http://compression.ca/mpibzip2/
 COMMENT=	Parallel implementation of bzip2
 LICENSE=	original-bsd
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	c++
 
 SUBST_CLASSES+=		prefix

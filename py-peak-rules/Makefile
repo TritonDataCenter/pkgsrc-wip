@@ -17,8 +17,6 @@ DEPENDS+=	${PYPKGPREFIX}-bytecodeassembler>=0.5.1:../../wip/py-bytecodeassembler
 DEPENDS+=	${PYPKGPREFIX}-decoratortools>=1.8:../../wip/py-decoratortools
 DEPENDS+=	${PYPKGPREFIX}-extremes>=1.1.1:../../wip/py-extremes
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	# none
 
 INSTALLATION_DIRS+=	share/doc/py-peak-rules

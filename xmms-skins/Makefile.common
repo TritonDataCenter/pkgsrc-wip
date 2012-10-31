@@ -27,8 +27,6 @@ MAINTAINER=		cheusov@NetBSD.org
 HOMEPAGE=		http://www.xmms.org/skins.php
 COMMENT=		Skin for XMMS
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 DEPENDS+=		xmms>=1.2.0:../../audio/xmms
 
 NO_CONFIGURE=		yes

@@ -10,6 +10,8 @@ MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.silvertreerpg.org/
 COMMENT=	Silver Tree, an open source role playing game
 
+PKG_DESTDIR_SUPPORT=	none
+
 WRKSRC=		${WRKDIR}/silvertree
 USE_LANGUAGES=	c c++
 USE_TOOLS+=	gmake

@@ -10,8 +10,6 @@ HOMEPAGE=	http://search.cpan.org/dist/File-ShareDir-Install/
 COMMENT=	Perl module to install shared files
 LICENSE=	${PERL5_LICENSE}
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=		# empty
 PERL5_PACKLIST=		auto/File/ShareDir/Install/.packlist
 

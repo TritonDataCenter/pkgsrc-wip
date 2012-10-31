@@ -11,8 +11,6 @@ HOMEPAGE=	http://sourceforge.net/projects/pymetrics/
 COMMENT=	Metrics for python files
 #LICENSE=	# TODO: (see mk/license.mk)
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	# none
 PYDISTUTILSPKG=	yes
 

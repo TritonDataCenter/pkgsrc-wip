@@ -14,6 +14,8 @@ COMMENT=	GIMP plugin for dcraw (digital camera raw file decoder)
 # The dcraw program is executed by the plugin.
 DEPENDS+=	dcraw>=1.208:../../graphics/dcraw
 
+PKG_DESTDIR_SUPPORT=	none
+
 WRKSRC=		${WRKDIR}
 DIST_SUBDIR=	${PKGNAME_NOREV}
 

@@ -9,8 +9,6 @@ MASTER_SITES=	http://libtorrent.googlecode.com/files/ \
 		${MASTER_SITE_SOURCEFORGE:=libtorrent/}
 LICENSE=	modified-bsd
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	c c++
 
 USE_LIBTOOL=	yes

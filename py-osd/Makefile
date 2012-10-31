@@ -14,8 +14,6 @@ LICENSE=		gnu-gpl-v2
 
 DEPENDS+=		${PYPKGPREFIX}-twisted>=2.0.0:../../net/py-twisted
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 PYDISTUTILSPKG=		yes
 
 .include "../../x11/xosd/buildlink3.mk"

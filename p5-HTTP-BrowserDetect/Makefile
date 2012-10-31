@@ -10,6 +10,7 @@ MAINTAINER=		hiramatu@boreas.dti.ne.jp
 HOMEPAGE=		http://search.cpan.org/dist/HTTP-BrowserDetect/
 COMMENT=		Detect browser, version, OS from UserAgent
 
+PKG_DESTDIR_SUPPORT=	none
 PKG_INSTALLATION_TYPES=	overwrite pkgviews
 
 PERL5_PACKLIST=		auto/HTTP/BrowserDetect/.packlist

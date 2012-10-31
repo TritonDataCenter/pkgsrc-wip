@@ -13,8 +13,6 @@ HOMEPAGE=	http://code.google.com/p/fuzzpy/
 COMMENT=	Fuzzy sets, graphs, and mathematics for Python
 LICENSE=	gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	# none
 
 do-test:

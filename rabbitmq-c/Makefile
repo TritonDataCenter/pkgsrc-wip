@@ -13,8 +13,6 @@ LICENSE=	mit
 GIT_REPOSITORIES=	rabbitmq-c
 GIT_REPO.rabbitmq-c=	git://github.com/alanxz/rabbitmq-c.git
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LIBTOOL=		yes
 USE_TOOLS+=		autoconf automake autoreconf gmake perl pkg-config
 HAS_CONFIGURE=		yes

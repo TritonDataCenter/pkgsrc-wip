@@ -15,8 +15,6 @@ WRKSRC=		${WRKDIR}
 USE_LANGUAGES=	c++
 USE_TOOLS+=	gmake
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 INSTALLATION_DIRS+=	bin
 
 do-install:

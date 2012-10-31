@@ -19,7 +19,6 @@ COMMENT=		SBCL, a Common Lisp implementation
 
 USE_TOOLS+=		gmake gtar:run patch
 PKG_INSTALLATION_TYPES=	overwrite pkgviews
-PKG_DESTDIR_SUPPORT=	user-destdir
 
 WRKSRC=			${WRKDIR}/${PKGNAME_NOREV}
 

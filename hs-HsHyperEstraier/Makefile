@@ -8,8 +8,6 @@ MAINTAINER=	pho@cielonegro.org
 COMMENT=	HyperEstraier binding for Haskell
 LICENSE=	public-domain
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 .include "../../textproc/hyperestraier/buildlink3.mk"
 CONFIGURE_ARGS=
 

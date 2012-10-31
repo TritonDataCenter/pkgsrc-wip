@@ -10,8 +10,6 @@ HOMEPAGE=	http://perso.ens-lyon.fr/damien.stehle/#software
 COMMENT=	Library for LLL-reduction of Euclidean lattices
 #LICENSE=	# TODO: (see mk/license.mk)
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_LANGUAGES=	c c++

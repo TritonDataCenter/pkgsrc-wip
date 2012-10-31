@@ -16,8 +16,6 @@ GNU_CONFIGURE=		yes
 USE_PKGLOCALEDIR=	yes
 USE_TOOLS+=		gmake intltool pkg-config
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 .include "../../audio/id3lib/buildlink3.mk"
 .include "../../audio/libvorbis/buildlink3.mk"
 .include "../../devel/libglade/buildlink3.mk"

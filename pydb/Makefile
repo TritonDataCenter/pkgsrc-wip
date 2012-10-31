@@ -12,8 +12,6 @@ COMMENT=	The Extended Python Debugger
 
 DEPENDS+=	${PYPKGPREFIX}-ipython-[0-9]*:../../wip/py-ipython
 
-PKG_DESTDIR_SUPPORT= 	user-destdir
-
 GNU_CONFIGURE=		yes
 USE_LANGUAGES=	# none
 

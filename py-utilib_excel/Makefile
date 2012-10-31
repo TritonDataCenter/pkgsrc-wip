@@ -14,8 +14,6 @@ LICENSE=	modified-bsd
 #DEPENDS+=	${PYPKGPREFIX}-utilib_common>=3.0.4:../../wip/py-utilib_common
 #DEPENDS+=	${PYPKGPREFIX}-utilib_th>=3.0.4:../../wip/py-utilib_th
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/pyutilib.excel-3.0.4
 USE_LANGUAGES=	# none
 

@@ -14,8 +14,6 @@ COMMENT=				Library to create spreadsheet files
 
 LICENSE=				original-bsd
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 PYDISTUTILSPKG=			yes
 PLIST_SUBST+=			EGG_INFODIR=${EGG_NAME}-py${PYVERSSUFFIX}.egg-info
 

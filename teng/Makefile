@@ -11,8 +11,6 @@ MAINTAINER=	ondrej.tuma@firma.seznam.cz
 HOMEPAGE=	http://teng.sourceforge.net/
 COMMENT=	Teng is a general purpose templating engine (whence Teng)
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_LANGUAGES=	c c++

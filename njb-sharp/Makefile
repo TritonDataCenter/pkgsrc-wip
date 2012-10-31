@@ -11,8 +11,6 @@ HOMEPAGE=	http://download.banshee-project.org/legacy/njb-sharp/
 COMMENT=	Mono C\# Bindings to libnjb
 #LICENSE=	LICENSE
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_TOOLS+=	pkg-config

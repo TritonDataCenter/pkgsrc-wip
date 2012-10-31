@@ -21,8 +21,6 @@ DEPENDS+=	p5-Text-Balanced>=1.95:../../textproc/p5-Text-Balanced
 DEPENDS+=	p5-Text-Quote>=0.03:../../wip/p5-Text-Quote
 DEPENDS+=	p5-aliased>=0.11:../../devel/p5-aliased
 
-PKG_DESTDIR_SUPPORT=    user-destdir
-
 PERL5_PACKLIST=	auto/AI/Prolog/.packlist
 USE_LANGUAGES=	# none
 

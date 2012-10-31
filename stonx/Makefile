@@ -10,6 +10,8 @@ MAINTAINER=		xmor61@users.sourceforge.net
 HOMEPAGE=		http://stonx.sourceforge.net/
 COMMENT=		Atari ST Emulator
 
+PKG_DESTDIR_SUPPORT=	none
+
 GNU_CONFIGURE=		yes
 
 .include "../../x11/libXext/buildlink3.mk"

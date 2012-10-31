@@ -11,8 +11,6 @@ MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://xmoto.sourceforge.net/
 COMMENT=		2D motocross plateform game
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LIBTOOL=		yes
 USE_TOOLS+=		msgfmt autoconf automake gmake pkg-config
 USE_LANGUAGES=		c c++

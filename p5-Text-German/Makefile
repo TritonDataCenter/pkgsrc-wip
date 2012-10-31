@@ -9,8 +9,6 @@ MAINTAINER=		kuli0020@umn.edu
 HOMEPAGE=		http://search.cpan.org/dist/Text-German/
 COMMENT=		German grundform reduction
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 PERL5_PACKLIST=		auto/Text/German/.packlist
 
 .include "../../lang/perl5/module.mk"

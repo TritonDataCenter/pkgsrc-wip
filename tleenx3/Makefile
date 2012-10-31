@@ -11,6 +11,8 @@ MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://tleenx.sourceforge.net/
 COMMENT=		Polish IM communication client
 
+PKG_DESTDIR_SUPPORT=	none
+
 GNU_CONFIGURE=		yes
 
 .include "../../x11/gtk2/buildlink3.mk"

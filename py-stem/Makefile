@@ -23,8 +23,8 @@ do-build:
 	cd ${WRKSRC} && ${CC} ${LDFLAGS} -shared -o _pyStem.so *.o
 
 do-install:
-	${INSTALL_DATA} ${WRKSRC}/_pyStem.so ${PREFIX}/${PYSITELIB}/_pyStem.so
-	${INSTALL_DATA} ${WRKSRC}/Stem.py ${PREFIX}/${PYSITELIB}/Stem.py
+	${INSTALL_DATA} ${WRKSRC}/_pyStem.so ${DESTDIR}${PREFIX}/${PYSITELIB}/_pyStem.so
+	${INSTALL_DATA} ${WRKSRC}/Stem.py ${DESTDIR}${PREFIX}/${PYSITELIB}/Stem.py
 
 .include "../../lang/python/extension.mk"
 .include "../../mk/bsd.pkg.mk"

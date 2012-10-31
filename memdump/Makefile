@@ -9,8 +9,6 @@ MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://www.porcupine.org/forensics/tct.html
 COMMENT=		Memory dumper for UNIX-like systems
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_TOOLS+=		gmake
 BUILD_TARGET=		what
 INSTALLATION_DIRS=	sbin

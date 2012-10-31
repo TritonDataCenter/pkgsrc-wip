@@ -13,8 +13,6 @@ HOMEPAGE=	http://sebsauvage.net/wiki/doku.php?id=php:shaarli
 COMMENT=	Shaarli is a minimalist delicious clone
 LICENSE=	png-license
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 .include "../../lang/php/phpversion.mk"
 DEPENDS+= ${PHP_PKG_PREFIX}-zlib:../../archivers/php-zlib
 

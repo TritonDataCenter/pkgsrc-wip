@@ -12,13 +12,11 @@ HOMEPAGE=	http://eyed3.nicfit.net/
 COMMENT=	Python module for id3-tags manipulation
 LICENSE=	gnu-lgpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_TOOLS+=	gmake
 USE_LANGUAGES=	# none
 
-PYTHON_VERSIONS_ACCEPTED= 25 26
+PYTHON_VERSIONS_ACCEPTED= 26
 PY_PATCHPLIST=	yes
 
 REPLACE_PYTHON+=		bin/eyeD3

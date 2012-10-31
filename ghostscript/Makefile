@@ -1,4 +1,4 @@
-# $NetBSD: Makefile,v 1.84 2011/07/21 17:06:18 joerg Exp $
+# $NetBSD: Makefile,v 1.90 2012/10/08 11:06:33 wiz Exp $
 
 DISTNAME=	ghostscript-${GS_VERSION}
 CATEGORIES=	print
@@ -18,8 +18,10 @@ LICENSE=	gnu-gpl-v3
 DEPENDS+=		ghostscript-fonts>=6.0:../../fonts/ghostscript-fonts
 
 CONFLICTS+=		ghostscript-afpl-[0-9]*
-CONFLICTS+=		ghostscript-esp{,-nox11}-[0-9]*
-CONFLICTS+=		ghostscript-gnu{,-nox11,-x11}-[0-9]*
+CONFLICTS+=		ghostscript-esp-[0-9]*
+CONFLICTS+=		ghostscript-esp-nox11-[0-9]*
+CONFLICTS+=		ghostscript-gnu-x11-[0-9]*
+CONFLICTS+=		ghostscript-gnu-nox11-[0-9]*
 
 USE_TOOLS+=		gmake perl:run lex pkg-config
 USE_LANGUAGES+=		c c++
@@ -30,7 +32,13 @@ BUILD_TARGET=		so
 INSTALL_TARGET=		soinstall
 CONFIGURE_ARGS+=	-with-omni=no	# otherwise pulls in libstdc++
 
-REPLACE_PERL+=		lib/fixmswrd.pl
+REPLACE_PERL+=		toolbin/localcluster/clusterpush.pl
+REPLACE_PERL+=		toolbin/checkdeps.pl
+REPLACE_PERL+=		toolbin/pscet_status.pl
+REPLACE_PERL+=		toolbin/performance.pl
+REPLACE_PERL+=		toolbin/squeeze2html.pl
+REPLACE_PERL+=		toolbin/bugsByEngineer.pl
+REPLACE_PERL+=		toolbin/htmldiff.pl
 
 GS_RESOURCEDIR=		${PREFIX}/share/ghostscript/${PKGVERSION}/Resource
 # to substitute in MESSAGE filed
@@ -83,6 +91,7 @@ post-extract:
 	${RM} -rf ${WRKSRC}/libpng
 #	${RM} -rf ${WRKSRC}/tiff
 #	${RM} -rf ${WRKSRC}/zlib
+	${RM} -rf ${WRKSRC}/freetype
 #
 #  To allow outside customization, rename cidfmap
 #	 (if you look at inside of the file, it is logically empty)
@@ -98,6 +107,7 @@ post-install:
 .include "../../graphics/png/buildlink3.mk"
 .include "../../graphics/tiff/buildlink3.mk"
 .include "../../devel/zlib/buildlink3.mk"
+.include "../../graphics/freetype2/buildlink3.mk"
 # pkgsrc jasper is too new
 #.include "../../graphics/jasper/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

@@ -17,8 +17,6 @@ COMMENT=	Ur-Quan Masters
 # this is why LICENSE is commented out.
 #LICENSE=	gnu-gpl-v2 AND cc-by-nc-sa-2.5v-license
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 DIST_SUBDIR=		uqm
 EXTRACT_ONLY=		${DISTNAME}${EXTRACT_SUFX}
 USE_TOOLS=		gmake pkg-config

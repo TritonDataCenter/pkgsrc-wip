@@ -25,13 +25,13 @@ post-extract:
 		${WRKDIR:Q}/xbnbt/bnbt/examples/ipb2_mod
 
 do-install:
-	${INSTALL_PROGRAM} ${WRKSRC}/bnbt ${PREFIX}/sbin
+	${INSTALL_PROGRAM} ${WRKSRC}/bnbt ${DESTDIR}${PREFIX}/sbin
 	cd ${WRKDIR}/xbnbt/bnbt/doc && pax -rwpam . \
-		${PREFIX}/share/doc/xbnbt
+		${DESTDIR}${PREFIX}/share/doc/xbnbt
 	cd ${WRKDIR}/xbnbt/bnbt/examples && pax -rwpam . \
-		${PREFIX}/share/examples/xbnbt
+		${DESTDIR}${PREFIX}/share/examples/xbnbt
 	cd ${WRKDIR}/xbnbt/bnbt/public_http/xbnbt && pax -rwpam . \
-		${PREFIX}/share/xbnbt
+		${DESTDIR}${PREFIX}/share/xbnbt
 
 .include "../../devel/zlib/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

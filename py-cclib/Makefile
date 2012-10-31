@@ -13,8 +13,6 @@ HOMEPAGE=	http://cclib.sourceforge.net/wiki/index.php/Main_Page
 COMMENT=	Parsers and algorithms for computational chemistry
 LICENSE=	gnu-lgpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/cclib-1.0
 USE_LANGUAGES=	# none
 

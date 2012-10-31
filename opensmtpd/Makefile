@@ -9,8 +9,6 @@ HOMEPAGE=	http://www.opensmtpd.org/
 COMMENT=	The OpenSMTPD mail transfer agent, a replacement for sendmail
 LICENSE=	isc
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/opensmtpd
 
 USE_LANGUAGES=	c

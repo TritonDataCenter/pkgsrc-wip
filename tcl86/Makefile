@@ -12,8 +12,6 @@ MAINTAINER=		bch@methodlogic.net
 HOMEPAGE=		http://www.tcl.tk/
 COMMENT=		Tool Command Language, a dynamic language
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 .include "../../wip/tcl86/Makefile.version"
 .include "options.mk"
 

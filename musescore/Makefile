@@ -15,7 +15,6 @@ LICENSE=	gnu-gpl-v2
 USE_CMAKE=	yes
 CMAKE_ARGS+=	-DQTDIR:PATH=${QTDIR:Q}
 WRKSRC=		${WRKDIR}/${DISTNAME}/mscore
-PKG_DESTDIR_SUPPORT=	user-destdir
 USE_LANGUAGES=	c c++
 USE_TOOLS+=	gmake pkg-config
 

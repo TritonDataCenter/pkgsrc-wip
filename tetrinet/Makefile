@@ -14,10 +14,10 @@ BUILDLINK_TRANSFORM+=	l:ncurses:curses
 INSTALLATION_DIRS=	bin share/tetrinet/doc
 
 do-install:
-	${INSTALL_PROGRAM} ${WRKSRC}/tetrinet ${PREFIX}/bin
-	${INSTALL_PROGRAM} ${WRKSRC}/tetrinet-server ${PREFIX}/bin
-	${INSTALL_DATA} ${WRKSRC}/README ${PREFIX}/share/tetrinet/doc
-	${INSTALL_DATA} ${WRKSRC}/tetrinet.txt ${PREFIX}/share/tetrinet/doc
+	${INSTALL_PROGRAM} ${WRKSRC}/tetrinet ${DESTDIR}${PREFIX}/bin
+	${INSTALL_PROGRAM} ${WRKSRC}/tetrinet-server ${DESTDIR}${PREFIX}/bin
+	${INSTALL_DATA} ${WRKSRC}/README ${DESTDIR}${PREFIX}/share/tetrinet/doc
+	${INSTALL_DATA} ${WRKSRC}/tetrinet.txt ${DESTDIR}${PREFIX}/share/tetrinet/doc
 
 .include "../../mk/curses.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

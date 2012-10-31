@@ -9,8 +9,6 @@ MAINTAINER=			zecrazytux@zecrazytux.net
 HOMEPAGE=				http://hackage.haskell.org/cgi-bin/hackage-scripts/package/zip-archive
 COMMENT=				Haskell library providing functions for manipulating zip archives
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 .include "../../wip/mk/haskell.mk"
 USE_LANGUAGES= c
 

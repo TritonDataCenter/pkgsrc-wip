@@ -9,8 +9,6 @@ HOMEPAGE=	http://rubyforge.org/projects/dnssd
 COMMENT=	DNS Service Discovery (aka Bonjour, MDNS) API for Ruby
 LICENSE=	ruby-license
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GEM_CLEANBUILD=	ext/dnssd/*.o ext/dnssd/mkmf.log ext/dnssd/Makefile
 
 .include "../../net/mDNSResponder/buildlink3.mk"

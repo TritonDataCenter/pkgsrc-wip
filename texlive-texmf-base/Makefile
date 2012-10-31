@@ -27,7 +27,6 @@ EXTRACT_ELEMENTS=	${DISTNAME}/texmf-dist/bibtex \
 			${DISTNAME}/texmf/web2c
 NO_BUILD=		yes
 USE_TOOLS+=		pax
-PKG_DESTDIR_SUPPORT=	user-destdir
 
 TEX_TEXMF_DIRS=	${PREFIX}/share/texmf ${PREFIX}/share/texmf-dist
 

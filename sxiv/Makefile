@@ -10,8 +10,6 @@ HOMEPAGE=	http://github.com/muennich/sxiv
 COMMENT=	Simple (or small or suckless) X Image Viewer
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 NO_CONFIGURE=	yes
 
 SUBST_CLASSES+=		makefile

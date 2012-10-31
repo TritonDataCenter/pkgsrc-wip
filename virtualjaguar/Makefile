@@ -10,7 +10,6 @@ MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://sdlemu.ngemu.com/
 COMMENT=		Jaguar emulator based on SDL
 
-PKG_DESTDIR_SUPPORT=	user-destdir
 INSTALLATION_DIRS=	bin share/doc/vj share/examples/vj
 MAKE_JOBS_SAFE=		no
 

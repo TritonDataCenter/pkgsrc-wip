@@ -12,8 +12,6 @@ COMMENT=	Free distributed version control system
 
 CONFLICTS=	monotone-[0-9]*
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GCC_REQD+=		3.0
 GNU_CONFIGURE=		yes
 INFO_FILES=		yes

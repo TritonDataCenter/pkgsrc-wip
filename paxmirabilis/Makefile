@@ -11,8 +11,6 @@ HOMEPAGE=	http://launchpad.net/paxmirabilis
 COMMENT=	Archiving utility for tar, cpio and ar
 LICENSE=	miros
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 AUTO_MKDIRS=	yes
 
 WRKSRC=		${WRKDIR}/pax

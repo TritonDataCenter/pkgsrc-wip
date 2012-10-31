@@ -11,8 +11,6 @@ MAINTAINER=	pkgsrc-users@NetBSD.org
 COMMENT=	EWMH (NetWM) compatible pager
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 HAS_CONFIGURE=	yes
 USE_TOOLS+=	gmake pkg-config
 CONFIGURE_ARGS+=	--prefix=${PREFIX}

@@ -10,8 +10,6 @@ HOMEPAGE=	http://downloads.sourceforge.net/project/gnomesword/Xiphos/3.1.3/
 COMMENT=	Xiphos (formerly GnomeSword) is a Bible study tool using GTK
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_TOOLS=  	intltool gmake pkg-config

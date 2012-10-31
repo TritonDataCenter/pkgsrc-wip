@@ -9,8 +9,6 @@ MAINTAINER=	charlie@rubberduck.com
 HOMEPAGE=	http://search.cpan.org/dist/Net-Delicious/
 COMMENT=	OOP for the del.icio.us API
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 BUILD_DEPENDS+=	p5-Test-Simple>=0.47:../../devel/p5-Test-Simple
 
 DEPENDS+=	p5-libwww>=2:../../www/p5-libwww

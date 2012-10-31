@@ -11,6 +11,8 @@ MAINTAINER=		loic-hoguin@users.sourceforge.net
 HOMEPAGE=		http://www.scintilla.org/SciTE.html
 COMMENT=		Editor with facilities for building and running programs
 
+PKG_DESTDIR_SUPPORT=	none
+
 WRKSRC=			${WRKDIR}
 USE_LANGUAGES=		c c++
 USE_TOOLS+=		gmake pkg-config

@@ -11,8 +11,6 @@ HOMEPAGE=	http://home.gna.org/oomadness/en/pyopenal/index.html
 COMMENT=	Python bindings for audio/openal
 #LICENSE=	LICENSE
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 PY_PATCHPLIST=		yes
 PYDISTUTILSPKG=		yes
 

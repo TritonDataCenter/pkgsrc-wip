@@ -13,8 +13,6 @@ MAINTAINER=		hauke@NetBSD.org
 HOMEPAGE=		http://www.unix-ag.uni-kl.de/~massar/vpnc/
 COMMENT=		Client for Cisco3000 ipsec VPN Concentrator
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=			${WRKDIR}/vpnc/trunk
 
 NOT_FOR_PLATFORM=	Interix-*-*

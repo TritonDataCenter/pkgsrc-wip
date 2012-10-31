@@ -28,8 +28,6 @@ BUILDLINK_API_DEPENDS.remctl+= remctl>=${PKGVERSION}
 PYDISTUTILSPKG=yes
 PYSETUPSUBDIR=python
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 .include "../../lang/python/extension.mk"
 .include "../../wip/remctl/buildlink3.mk"
 .include "../../mk/krb5.buildlink3.mk"

@@ -9,8 +9,6 @@ MAINTAINER=		kuli0020@umn.edu
 HOMEPAGE=		http://search.cpan.org/~asksh/Snowball-Swedish-1.01/Se.pm
 COMMENT=		Stemmer for Swedish
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 PERL5_PACKLIST=		auto/Lingua/Stem/Snowball/Se/.packlist
 
 .include "../../lang/perl5/module.mk"

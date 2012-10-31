@@ -10,8 +10,6 @@ HOMEPAGE=	http://schur.sourceforge.net/
 COMMENT=	Calculating properties of Lie groups and symmetric functions
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_TOOLS+=	flex pax
 USE_LANGUAGES=  c

@@ -11,7 +11,7 @@ MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.object-craft.com.au/projects/albatross/
 COMMENT=	Toolkit for Stateful Web Applications
 
-PKG_DESTDIR_SUPPORT= 	user-destdir
+PKG_DESTDIR_SUPPORT= 	none
 
 PYDISTUTILSPKG=	yes
 PY_PATCHPLIST=	yes

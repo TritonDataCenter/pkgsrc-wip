@@ -12,8 +12,6 @@ HOMEPAGE=	http://pypi.python.org/packages/source/P/PyFFTW3/
 COMMENT=	Python bindings to the FFTW3 C-library
 LICENSE=	gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	c
 
 PYDISTUTILSPKG=	yes

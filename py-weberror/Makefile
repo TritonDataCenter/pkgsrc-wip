@@ -16,10 +16,8 @@ LICENSE=	mit
 DEPENDS+=	${PYPKGPREFIX}-simplejson>=2.1.1:../../converters/py-simplejson
 DEPENDS+=	${PYPKGPREFIX}-pygments>=1.3.1:../../textproc/py-pygments
 DEPENDS+=	${PYPKGPREFIX}-Paste>=1.7.2:../../www/py-paste
-DEPENDS+=	${PYPKGPREFIX}-tempita>=0.4:../../wip/py-tempita
+DEPENDS+=	${PYPKGPREFIX}-Tempita>=0.4:../../textproc/py-Tempita
 DEPENDS+=	${PYPKGPREFIX}-webob>=0.9.8:../../wip/py-webob
-
-PKG_DESTDIR_SUPPORT=	user-destdir
 
 WRKSRC=		${WRKDIR}/WebError-0.10.2
 USE_LANGUAGES=	# none

@@ -53,9 +53,9 @@ _FETCH_MESSAGE= \
 ONLY_FOR_PLATFORM=Linux-*-i[3-6]86
 
 do-install:
-	${INSTALL_DATA_DIR} ${JAVA_HOME}/bin
-	cp -rf ${WRKSRC}/bin ${JAVA_HOME}/bin/
-	${INSTALL_DATA_DIR} ${JAVA_HOME}/lib
-	cp -rf ${WRKSRC}/lib ${JAVA_HOME}/lib
+	${INSTALL_DATA_DIR} ${DESTDIR}${JAVA_HOME}/bin
+	cp -rf ${WRKSRC}/bin ${DESTDIR}${JAVA_HOME}/bin/
+	${INSTALL_DATA_DIR} ${DESTDIR}${JAVA_HOME}/lib
+	cp -rf ${WRKSRC}/lib ${DESTDIR}${JAVA_HOME}/lib
 
 .include "../../mk/bsd.pkg.mk"

@@ -18,8 +18,6 @@ BUILD_DEPENDS+=	fontforge-[0-9]*:../../fonts/fontforge
 ONLY_FOR_PLATFORM+=	*-*-i386
 #ONLY_FOR_PLATFORM+=	*-*-x86_64
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=		c
 USE_LIBTOOL=		yes
 USE_NCURSES=		yes

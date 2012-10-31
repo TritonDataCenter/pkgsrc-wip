@@ -5,8 +5,6 @@ DISTNAME=	p4d
 HOMEPAGE=	http://www.perforce.com/product/components/perforce_server
 COMMENT=	Perforce SCM server
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 P4BINONLY=	yes
 EXTRACT_ONLY=	# none
 

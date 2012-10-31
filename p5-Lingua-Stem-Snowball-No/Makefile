@@ -9,8 +9,6 @@ MAINTAINER=		kuli0020@umn.edu
 HOMEPAGE=		http://search.cpan.org/~asksh/Snowball-Norwegian-1.0/No.pm
 COMMENT=		Stemmer for Norwegian
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 PERL5_PACKLIST=		auto/Lingua/Stem/Snowball/No/.packlist
 
 .include "../../lang/perl5/module.mk"

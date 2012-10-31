@@ -12,8 +12,6 @@ MAINTAINER=		joerg@NetBSD.org
 HOMEPAGE=		http://www.videolan.org/developers/x264.html
 COMMENT=		GPL licensed H.264 encoder
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 .include "../../mk/bsd.prefs.mk"
 
 .if exists(/usr/include/stdlib.h) && ${OPSYS} != Linux # XXX should be fine

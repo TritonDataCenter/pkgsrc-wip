@@ -9,8 +9,6 @@ HOMEPAGE=	http://savannah.nongnu.org/projects/exosip
 COMMENT=	The Extended Open SIP library
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LIBTOOL=		YES
 GNU_CONFIGURE=		YES
 USE_FEATURES+=		getopt_long

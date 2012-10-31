@@ -11,7 +11,5 @@ LICENSE=	mit
 
 DEPENDS+=	${RUBY_PKGPREFIX}-dnssd>=0.7.0:../../wip/ruby-dnssd
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 .include "../../lang/ruby/gem.mk"
 .include "../../mk/bsd.pkg.mk"

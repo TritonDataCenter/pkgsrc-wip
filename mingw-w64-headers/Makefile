@@ -12,8 +12,6 @@ HOMEPAGE=	http://mingw-w64.sourceforge.net/
 COMMENT=	Headers for win32/64 cross-development
 #LICENSE=	# TODO: (see mk/license.mk)
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=			${WRKDIR}/${DISTNAME:S/-snapshot//}
 GNU_CONFIGURE=		yes
 USE_CROSSBASE=		yes

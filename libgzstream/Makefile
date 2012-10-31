@@ -13,8 +13,6 @@ HOMEPAGE=	http://www.cs.unc.edu/Research/compgeom/gzstream/#src
 COMMENT=	Gzstream is a small C++ library, basically just a wrapper
 LICENSE=	gnu-lgpl-v2.1
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LIBTOOL=	 yes
 USE_TOOLS+=	gmake
 USE_LANGUAGES=	c++

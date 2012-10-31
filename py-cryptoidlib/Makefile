@@ -18,8 +18,6 @@ DEPENDS+=	${PYPKGPREFIX}-tlslite>=0.3.8:../../security/py-tlslite
 DEPENDS+=	jython>=2.5.1:../../wip/jython
 DEPENDS+=	${PYPKGPREFIX}-gmpy>=1.04:../../math/py-gmpy
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 PYDISTUTILSPKG= yes
 PY_PATCHPLIST=	yes
 

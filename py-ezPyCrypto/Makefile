@@ -11,8 +11,6 @@ HOMEPAGE=	http://www.freenet.org.nz/ezPyCrypto/
 COMMENT=	Easy Python API for strong encryption
 #LICENSE=	# TODO: (see mk/license.mk)
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 PYDISTUTILSPKG=	yes
 
 .include "../../lang/python/extension.mk"

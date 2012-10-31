@@ -11,6 +11,8 @@ HOMEPAGE=	http://www.flightlab.com/~joe/downloads/
 COMMENT=	Add support for several image formats to Tk
 #LICENSE=	# Same as Tcl
 
+PKG_DESTDIR_SUPPORT=	none
+
 WRKSRC=		${WRKDIR}/tkimg-1.3
 GNU_CONFIGURE=	yes
 TEST_TARGET=	test

@@ -14,8 +14,6 @@ LICENSE=	gnu-lgpl-v2.1
 
 USE_TOOLS+=	gmake
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 CONFIGURE_ARGS+= --prefix=${PREFIX}
 
 HAS_CONFIGURE=	yes

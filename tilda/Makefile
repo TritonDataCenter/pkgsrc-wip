@@ -10,8 +10,6 @@ MAINTAINER=	pancake@phreaker.net
 HOMEPAGE=	http://tilda.sourceforge.net/
 COMMENT=	Terminal like the classic first-person-shooter games
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=		yes
 USE_TOOLS+=		pkg-config intltool msgfmt gmake flex
 USE_PKGLOCALEDIR=	yes

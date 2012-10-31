@@ -13,6 +13,8 @@ COMMENT=		Portable Haskell 98 compiler
 # Not yet ported to 64-bit machines
 NOT_FOR_PLATFORM=	${LP64PLATFORMS}
 
+PKG_DESTDIR_SUPPORT=	none
+
 WRKSRC=			${WRKDIR}/${PKGNAME_NOREV}
 
 #INCOMPAT_CURSES=	NetBSD-1.5*-* NetBSD-1.6[-_.]*-*
@@ -21,9 +23,6 @@ WRKSRC=			${WRKDIR}/${PKGNAME_NOREV}
 HAS_CONFIGURE=		YES
 CONFIGURE_ARGS+=	--buildwith=gcc --installdir=${DESTDIR}${PREFIX:Q} \
 			+docs --docdir=${DESTDIR}${PREFIX}/share/doc/nhc98
-
-# XXX Doesn't yet supported
-#PKG_DESTDIR_SUPPORT=	user-destdir
 
 USE_TOOLS+=		gmake
 

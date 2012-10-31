@@ -11,8 +11,6 @@ HOMEPAGE=	http://alice.unibo.it/xwiki/bin/view/SimpA/
 COMMENT=	Agent-oriented framework approach to concurrent, multi-core, distributed programming
 LICENSE=	gnu-lgpl-v2.1
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_TOOLS+=	pax
 NO_BUILD=	yes
 USE_LANGUAGES=	# none

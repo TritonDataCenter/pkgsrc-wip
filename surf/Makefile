@@ -13,7 +13,6 @@ LICENSE=	mit
 
 USE_TOOLS+=		pkg-config
 
-PKG_DESTDIR_SUPPORT=	user-destdir
 INSTALLATION_DIRS=	bin ${PKGMANDIR}/man1
 
 do-install:

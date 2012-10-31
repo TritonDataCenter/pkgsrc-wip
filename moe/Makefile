@@ -8,8 +8,6 @@ MAINTAINER=	schwarz@NetBSD.org
 HOMEPAGE=	http://www.gnu.org/software/moe/moe.html
 COMMENT=	Moe Editor - A powerful and user-friendly text editor
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	YES
 USE_GNU_CONFIGURE_HOST=	NO
 INFO_FILES=		YES

@@ -11,6 +11,8 @@ MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://home.gna.org/oomadness/en/slune/index.html
 COMMENT=		Action game, featuring cars, races and Tux the Penguin
 
+PKG_DESTDIR_SUPPORT=	none
+
 PY_PATCHPLIST=		yes
 PYDISTUTILSPKG=		yes
 

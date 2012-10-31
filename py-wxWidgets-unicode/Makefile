@@ -11,8 +11,6 @@ MAINTAINER=	milos.negovanovic@googlemail.com
 HOMEPAGE=	http://wxpython.org/
 COMMENT=	Python bindings for wxWidgets (unicode version)
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/${DISTNAME}/wxPython
 USE_LANGUAGES=	c c++
 USE_TOOLS+=	gmake pkg-config

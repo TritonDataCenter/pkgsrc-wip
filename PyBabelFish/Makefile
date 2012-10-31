@@ -15,7 +15,6 @@ COMMENT=		Gtk-based frontend for several translation services on web
 
 PKG_DESTDIR_SUPPORT=	none
 
-PYTHON_VERSIONS_ACCEPTED=	25
 PY_PATCHPLIST=		yes
 NO_CONFIGURE=		yes
 

@@ -12,6 +12,8 @@ COMMENT=	Simpler interface to URI::Find
 DEPENDS+=	p5-URI-Find>=0:../../www/p5-URI-Find
 DEPENDS+=	p5-Text-Glob>=0:../../textproc/p5-Text-Glob
 
+PKG_DESTDIR_SUPPORT=	none
+
 PERL5_PACKLIST= auto/URI/Find/Rule/.packlist
 
 PERL5_MODULE_TYPE= Module::Build

@@ -11,8 +11,6 @@ MAINTAINER=	jfranz@bsdprojects.net
 HOMEPAGE=	http://developer.kde.org/~wheeler/taglib.html
 COMMENT=	Python bindings for the taglib audio file tagging library
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_TOOLS=	gmake
 PY_PATCHPLIST=	yes
 

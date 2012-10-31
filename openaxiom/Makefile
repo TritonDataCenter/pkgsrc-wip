@@ -12,7 +12,6 @@ HOMEPAGE=		http://www.open-axiom.org/
 # http://open-axiom.sourceforge.net/index.html
 COMMENT=		Platform for symbolic, algebraic, and numerical computations
 
-PKG_DESTDIR_SUPPORT=	user-destdir
 MAKE_JOBS_SAFE=		no
 
 USE_LANGUAGES=		c c++

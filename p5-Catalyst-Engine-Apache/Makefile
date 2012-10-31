@@ -12,6 +12,8 @@ COMMENT=	Catalyst Apache Engines
 
 BUILD_DEPENDS+=	p5-Catalyst-Runtime>=5.50:../../www/p5-Catalyst-Runtime
 
+PKG_DESTDIR_SUPPORT=	none
+
 PERL5_MODULE_TYPE=	Module::Build
 
 PERL5_PACKLIST= auto/Catalyst/Engine/Apache/.packlist

@@ -11,8 +11,6 @@ HOMEPAGE=	http://www.pitt.edu/~ahb12/software/ProDy
 COMMENT=	Python Package for Protein Structural Dynamics Analysis
 LICENSE=	gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/ProDy-0.2.0
 
 USE_LANGUAGES=	# none

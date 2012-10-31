@@ -7,8 +7,6 @@ CATEGORIES=	editors gnome
 MASTER_SITES=	http://scratchpad.googlecode.com/files/
 EXTRACT_SUFX=	.tar.bz2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 MAINTAINER=	pkgsrc-users@netbsd.org
 HOMEPAGE=	http://dborg.wordpress.com/scratchpad/
 COMMENT=	Scratchpad is a document oriented

@@ -12,8 +12,6 @@ LICENSE=		gnu-gpl-v3
 DEPENDS+=		${PYPKGPREFIX}-xmpppy>=0.4.1:../../wip/py-xmpppy
 DEPENDS+=		${PYPKGPREFIX}-expat>=0nb4:../../textproc/py-expat
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_TOOLS+=		pkg-config msgfmt xgettext
 USE_CMAKE=		yes
 USE_LANGUAGES=		c++ c

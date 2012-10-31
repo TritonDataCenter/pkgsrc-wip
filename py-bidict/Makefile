@@ -11,8 +11,6 @@ HOMEPAGE=	http://bitbucket.org/jab/bidict
 COMMENT=	Bidirectional (one-to-one) mapping data structure
 LICENSE=	mit
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/bidict-0.1.1
 USE_LANGUAGES=	# none
 

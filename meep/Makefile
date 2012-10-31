@@ -1,7 +1,6 @@
 # $NetBSD$
-#
 
-DISTNAME=	meep-1.1.1
+DISTNAME=	meep-1.2
 CATEGORIES=	math
 MASTER_SITES=	http://ab-initio.mit.edu/meep/
 
@@ -10,20 +9,18 @@ HOMEPAGE=	http://ab-initio.mit.edu/meep/
 COMMENT=	FDTD simulation software to model electromagnetic systems
 LICENSE=	gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
-DEPENDS+=	bash-[0-9]*:../../shells/bash
-
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_LANGUAGES=	c c++ fortran77
 
-CONFIGURE_ARGS+=--with-libctl=${PREFIX}/share/libctl
+CONFIGURE_ARGS+=--with-libctl=${BUILDLINK_PREFIX.libctl}/share/libctl
+
+TEST_TARGET=	check
 
 .include "../../wip/mpb/buildlink3.mk"
 .include "../../math/gsl/buildlink3.mk"
 .include "../../devel/gettext-lib/buildlink3.mk"
 .include "../../converters/libiconv/buildlink3.mk"
-.include "../../wip/harminv/buildlink3.mk"
+.include "../../math/harminv/buildlink3.mk"
 .include "../../graphics/png/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

@@ -10,8 +10,6 @@ MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://pcmanfm.sourceforge.net/
 COMMENT=	File management library
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 # Instead of depending on fam, use glib2 with kqueue
 #DEPENDS=		gio-fam>=0:../../sysutils/gio-fam
 

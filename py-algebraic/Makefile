@@ -14,8 +14,6 @@ HOMEPAGE=	https://github.com/rzoz/python-algebraic
 COMMENT=	Algebraic modeling system for Python
 LICENSE=	2-clause-bsd
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	# none
 
 PY_PATCHPLIST=		yes

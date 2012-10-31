@@ -10,6 +10,8 @@ MAINTAINER=	pancake@youterm.com
 HOMEPAGE=	http://radare.nopcode.org/
 COMMENT=	advanced commandline hexadecimal editor
 
+PKG_DESTDIR_SUPPORT=	none
+
 USE_LANGUAGES=	c perl
 
 USE_TOOLS=	gmake

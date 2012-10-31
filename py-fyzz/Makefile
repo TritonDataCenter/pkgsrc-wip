@@ -11,8 +11,6 @@ HOMEPAGE=	http://www.logilab.org/project/fyzz
 COMMENT=	SPARQL parser written in Python using yapps
 LICENSE=	gnu-lgpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	# none
 PYDISTUTILSPKG=	yes
 

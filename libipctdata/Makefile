@@ -9,8 +9,6 @@ MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	http://libiptcdata.sourceforge.net/
 COMMENT=	Library to parse IPTC metadata
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 CHECK_PORTABILITY_SKIP+=	configure
 
 GNU_CONFIGURE=	yes

@@ -5,8 +5,6 @@ DISTNAME=		# empty
 COMMENT=		Small tool to handle rc.d service scripts
 CATEGORIES=		sysutils
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 MAINTAINER=		adam.hoka@gmail.com
 HOMEPAGE=		http://irkmaffia.com/~replaced/
 NO_CHECKSUM=		yes

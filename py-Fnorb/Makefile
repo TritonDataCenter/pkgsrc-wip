@@ -10,8 +10,6 @@ MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://fnorb.sourceforge.net/
 COMMENT=		CORBA 2.0 ORB for Python
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 PY_PATCHPLIST=		yes
 PYDISTUTILSPKG=		yes
 

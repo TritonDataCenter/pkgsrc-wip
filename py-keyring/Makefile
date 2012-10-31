@@ -12,8 +12,6 @@ HOMEPAGE=	http://pypi.python.org/packages/source/k/keyring/
 COMMENT=	Store and access your passwords safely
 #LICENSE=	# TODO: (see mk/license.mk)
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/keyring-0.2
 USE_LANGUAGES=	c c++
 

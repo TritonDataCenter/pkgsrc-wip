@@ -11,8 +11,6 @@ HOMEPAGE=	http://github.com/jcrocholl/pep8
 COMMENT=	Python style guide checker
 LICENSE=	mit
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	# none
 
 .include "../../lang/python/egg.mk"

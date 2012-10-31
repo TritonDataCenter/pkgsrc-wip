@@ -10,8 +10,6 @@ HOMEPAGE=	http://code.google.com/p/wkhtmltopdf/
 COMMENT=	Prints a XHTML document into PDF thanks to the webkit engine
 LICENSE=	gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LIBTOOL=		yes
 USE_LANGUAGES=		c++
 

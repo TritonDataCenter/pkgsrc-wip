@@ -11,11 +11,8 @@ HOMEPAGE=	http://fwrap.sourceforge.net/
 COMMENT=	Tool to wrap Fortran 77/90/95 code in C, Cython & Python
 LICENSE=	modified-bsd
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	# none
 
-PYTHON_VERSIONS_ACCEPTED= 26 25
 PYDISTUTILSPKG=	yes
 
 do-test:

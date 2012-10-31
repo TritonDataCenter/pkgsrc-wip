@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	qmath-0.2.0
+DISTNAME=	qmath-0.3.0
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	math python
 MASTER_SITES=	http://pypi.python.org/packages/source/q/qmath/
@@ -9,16 +9,15 @@ MASTER_SITES=	http://pypi.python.org/packages/source/q/qmath/
 MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	http://pypi.python.org/pypi/qmath
 COMMENT= Provides a class for deal with quaternion algebra and 3D rotation
-LICENSE=	gnu-gpl-v3
+LICENSE=	gnu-gpl-v3 AND gnu-fdl-v1.2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
+DEPENDS+=	${PYPKGPREFIX}-scipy>=0.7.2:../../math/py-scipy
 
-WRKSRC=		${WRKDIR}/qmath-0.2.0
+WRKSRC=		${WRKDIR}/qmath-0.3.0
 
 USE_LANGUAGES=	# none
 
 PYDISTUTILSPKG=	yes
-PYTHON_VERSIONS_ACCEPTED=		31 27 26 25
 
 .include "../../lang/python/extension.mk"
 .include "../../mk/bsd.pkg.mk"

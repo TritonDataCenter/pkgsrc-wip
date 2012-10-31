@@ -11,7 +11,6 @@ HOMEPAGE=	http://${PKGBASE}.sourceforge.net/
 COMMENT=	Emacs major mode for editing .vimrc configuration files
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
 INSTALLATION_DIRS+=	${EMACS_LISPPREFIX}
 
 WRKSRC=	${WRKDIR}

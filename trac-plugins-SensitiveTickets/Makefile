@@ -19,8 +19,6 @@ MAINTAINER=	gdt@NetBSD.org
 HOMEPAGE=	http://trac-hacks.org/wiki/SensitiveTicketsPlugin
 COMMENT=	Ticket dependency plugin for Trac
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 DEPENDS+=	{ja-,}trac>=0.11:../../www/trac
 
 EGG_NAME=	sensitivetickets-${UPSTREAM_VERSION}

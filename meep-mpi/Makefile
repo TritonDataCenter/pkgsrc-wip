@@ -11,8 +11,6 @@ HOMEPAGE=	http://ab-initio.mit.edu/meep/
 COMMENT=	FDTD simulation software to model electromagnetic systems
 LICENSE=	gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 DEPENDS+=	bash-[0-9]*:../../shells/bash
 
 GNU_CONFIGURE=	yes
@@ -30,6 +28,6 @@ CONFIGURE_ARGS+=--with-libctl=${PREFIX}/share/libctl \
 .include "../../math/gsl/buildlink3.mk"
 .include "../../devel/gettext-lib/buildlink3.mk"
 .include "../../converters/libiconv/buildlink3.mk"
-.include "../../wip/harminv/buildlink3.mk"
+.include "../../math/harminv/buildlink3.mk"
 .include "../../parallel/openmpi/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

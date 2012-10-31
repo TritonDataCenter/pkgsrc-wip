@@ -10,8 +10,6 @@ HOMEPAGE=	http://www.psybnc.at/
 COMMENT=	Easy-to-use, multi-user, permanent IRC-Bouncer with many features
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=	${WRKDIR}/psybnc
 
 BUILD_DEPENDS+=         glib-[0-9]*:../../devel/glib

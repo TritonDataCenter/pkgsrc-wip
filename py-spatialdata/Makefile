@@ -11,8 +11,6 @@ HOMEPAGE=	http://www.geodynamics.org/cig/software/pylith/
 COMMENT=	Spatialdata provides transformations among coordinate systems
 LICENSE=	mit
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 CHECK_PORTABILITY_SKIP= configure
 GNU_CONFIGURE=	yes
 USE_LANGUAGES=	c c++

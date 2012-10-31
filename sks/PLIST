@@ -1,5 +1,0 @@
-@comment $NetBSD$
-bin/sks
-bin/sks_add_mail
-bin/sks_build.sh
-man/man8/sks.8

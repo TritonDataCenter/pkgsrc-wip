@@ -11,8 +11,6 @@ HOMEPAGE=	http://www.ar.media.kyoto-u.ac.jp/members/david/softwares/samplerate
 COMMENT=	Python module for high quality audio resampling
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=	${WRKDIR}/scikits.samplerate-0.3.3
 
 do-test:

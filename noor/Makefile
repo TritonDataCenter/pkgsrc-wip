@@ -11,8 +11,6 @@ HOMEPAGE=	http://noor.sourceforge.net/
 COMMENT=	Quran viewer
 LICENSE=	gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_PKGLOCALEDIR=	yes
 USE_LANGUAGES=		# none
 

@@ -27,9 +27,11 @@ TS_SRCDIR=		${WRKSRC}/setup.data/image
 do-configure:
 	${CP} ${FILESDIR}/teamspeak.sh.in ${WRKSRC}/teamspeak.sh
 
+INSTALLATION_DIRS=	bin
+
 do-install:
-	${INSTALL_DATA_DIR} ${TS_BASEDIR}
-	cd ${TS_SRCDIR} && pax -rw . ${TS_BASEDIR}
-	${INSTALL_SCRIPT} ${WRKSRC}/teamspeak.sh ${PREFIX}/bin/teamspeak
+	${INSTALL_DATA_DIR} ${DESTDIR}${TS_BASEDIR}
+	cd ${TS_SRCDIR} && pax -rw . ${DESTDIR}${TS_BASEDIR}
+	${INSTALL_SCRIPT} ${WRKSRC}/teamspeak.sh ${DESTDIR}${PREFIX}/bin/teamspeak
 
 .include "../../mk/bsd.pkg.mk"

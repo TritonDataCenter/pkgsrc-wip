@@ -12,5 +12,6 @@ MAINTAINER=		reed@reedmedia.net
 HOMEPAGE=		http://linux-hotplug.sourceforge.net/
 COMMENT=		Hardware autoconfiguration for Linux
 
+PKG_DESTDIR_SUPPORT=	none
 
 .include "../../mk/bsd.pkg.mk"

@@ -15,8 +15,6 @@ LICENSE=	gnu-gpl-v3 # LICENSE is GPL but not clear which version
 BUILD_DEPENDS+=	gperf-[0-9]*:../../devel/gperf
 DEPENDS+=	gnuplot-[0-9]*:../../graphics/gnuplot
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_GNU_READLINE=	yes
 USE_TOOLS+=	autoconf gmake gsed pkg-config perl makeinfo bison
 GNU_CONFIGURE=	yes

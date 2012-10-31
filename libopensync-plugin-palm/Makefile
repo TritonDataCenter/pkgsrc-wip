@@ -10,8 +10,6 @@ MAINTAINER=	noud4@home.nl
 HOMEPAGE=	http://www.opensync.org/download/releases/0.22/
 COMMENT=	Platform independent synchronization framework, palm plugin
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_TOOLS+=	pkg-config
 USE_LANGUAGES=	c
 USE_LIBTOOL=	yes

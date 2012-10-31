@@ -9,8 +9,6 @@ MAINTAINER=	esg@sdf.lonestar.org
 HOMEPAGE=	http://plplot.sourceforge.net/
 COMMENT=	Scientific plotting library
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_CMAKE=	yes
 USE_LANGUAGES=	c c++ # fortran77
 USE_TOOLS+=	perl

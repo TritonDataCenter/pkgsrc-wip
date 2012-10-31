@@ -1,6 +1,8 @@
 # $NetBSD$
 #
 
+PKG_DESTDIR_SUPPORT=	none
+
 .include "../../wip/xspd/Makefile.common"
 .include "../../wip/xspd/options.mk"
 

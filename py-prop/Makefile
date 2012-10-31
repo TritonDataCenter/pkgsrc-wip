@@ -12,8 +12,6 @@ LICENSE=	gnu-gpl-v2
 
 DEPENDS+=	${PYPKGPREFIX}-scipy>=0.7.0:../../math/py-scipy
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 # Get it from Subversion repository:
 SVN_REPOSITORIES=	pyprop
 SVN_ROOT.pyprop=  http://pyprop.googlecode.com/svn/trunk

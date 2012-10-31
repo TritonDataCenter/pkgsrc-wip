@@ -1,6 +1,5 @@
 # $NetBSD$
 #
-PKG_DESTDIR_SUPPORT=	user-destdir
 
 .include "../../wip/xfce48/Makefile.common"
 

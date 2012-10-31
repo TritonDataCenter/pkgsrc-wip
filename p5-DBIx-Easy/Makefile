@@ -10,6 +10,7 @@ MAINTAINER=	ficovh@yahoo.com
 HOMEPAGE=	http://search.cpan.org/CPAN/authors/id/H/HO/HORNBURG/
 COMMENT=	Easy to Use DBI interface
 
+PKG_DESTDIR_SUPPORT=	none
 
 PERL5_PACKLIST=	auto/DBIx/Easy/.packlist
 USE_LANGUAGES=	# none

@@ -20,7 +20,6 @@ USE_LIBTOOL=		yes
 OWN_DIRS+=		${VARBASE}/run
 GNU_CONFIGURE=		yes
 BUILD_DEFS+=		VARBASE
-PKG_DESTDIR_SUPPORT=	user-destdir
 PLIST_VARS+=		ldap
 
 .include "../../mk/bsd.prefs.mk"

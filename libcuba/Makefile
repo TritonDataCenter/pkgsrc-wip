@@ -11,8 +11,6 @@ HOMEPAGE=	http://www.feynarts.de/cuba/
 COMMENT=	Library for multidimensional numerical integration
 LICENSE= 	gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_TOOLS+=	gmake
 MAKE_FILE=	makefile

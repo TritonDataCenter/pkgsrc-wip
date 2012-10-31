@@ -11,8 +11,6 @@ HOMEPAGE=	http://github.com/bigpresh/Dancer-Plugin-Database
 COMMENT=	Easy database connections for Dancer applications
 LICENSE=	${PERL5_LICENSE}
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 DEPENDS+=	p5-DBI>=0:../../databases/p5-DBI
 DEPENDS+=	p5-Dancer>=1.175:../../wip/p5-Dancer
 

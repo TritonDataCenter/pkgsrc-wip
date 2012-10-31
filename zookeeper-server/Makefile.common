@@ -10,7 +10,5 @@ MAINTAINER=	filip@joyent.com
 HOMEPAGE=	http://zookeeper.apache.org/
 LICENSE=	apache-2.0
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 PATCHDIR=	${.CURDIR}/../../wip/zookeeper-server/patches
 DISTINFO_FILE=	${.CURDIR}/../../wip/zookeeper-server/distinfo

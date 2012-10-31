@@ -9,8 +9,6 @@ MASTER_SITES=	http://www.enthought.com/repo/ETS/
 MAINTAINER=	jihbed.research@gmail.com
 LICENSE=	modified-bsd
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 DEPENDS+=	${PYPKGPREFIX}-nose>=0.11.3:../../devel/py-nose
 DEPENDS+=	${PYPKGPREFIX}-setupdocs>=1.0.4:../../wip/py-setupdocs
 

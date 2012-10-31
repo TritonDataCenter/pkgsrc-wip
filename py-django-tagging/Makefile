@@ -13,8 +13,6 @@ LICENSE=	mit
 
 DEPENDS+=	${PYPKGPREFIX}-django-[0-9]*:../../www/py-django
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 PYDISTUTILSPKG=		yes
 USE_LANGUAGES=	# none
 

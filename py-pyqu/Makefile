@@ -13,8 +13,6 @@ LICENSE=		gnu-gpl-v3
 
 DEPENDS+=	libquantum>=0.2.4:../../misc/libquantum
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 CONFIGURE_ARGS+=	--with-libquantum-include=${LIBQUANTUM_PREFIX}/include
 
 PYDISTUTILSPKG= yes

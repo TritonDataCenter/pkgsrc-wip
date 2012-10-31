@@ -11,8 +11,6 @@ HOMEPAGE=		https://fedorahosted.org/logrotate/
 COMMENT=		Daemon to rotate, compress, remove and mail system log files
 LICENSE=		gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_TOOLS+=		gmake gzip:run gunzip:run mail:run
 NO_EXPORT_CPP=		yes
 

@@ -11,8 +11,6 @@ MAINTAINER=	esg@sdf.lonestar.org
 HOMEPAGE=	http://lasi.sourceforge.net/
 COMMENT=	C++ library for postscript stream output
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_CMAKE=	yes
 USE_LANGUAGES=	c c++
 USE_TOOLS+=	pkg-config

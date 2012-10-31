@@ -11,8 +11,6 @@ MAINTAINER=	shaun@inerd.com
 HOMEPAGE=	http://skuld.bmsc.washington.edu/raster3d/
 COMMENT=	Set of tools for generating raster images of proteins and molecules
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	c fortran77
 USE_TOOLS+=	gunzip:run
 

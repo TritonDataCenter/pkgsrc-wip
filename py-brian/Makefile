@@ -16,8 +16,6 @@ COMMENT=	Simulator for spiking neural networks
 DEPENDS+=	${PYPKGPREFIX}-scipy>=0.7.0:../../math/py-scipy
 DEPENDS+=	${PYPKGPREFIX}-sympy>=0.6.5:../../math/py-sympy
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	c c++
 PYDISTUTILSPKG= yes
 

@@ -10,8 +10,6 @@ HOMEPAGE=	http://www.tildeslash.com/libzdb/
 COMMENT=	Zild Database Library, a fast thread-safe connection pooling library
 LICENSE=	gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_TOOLS+=	gmake

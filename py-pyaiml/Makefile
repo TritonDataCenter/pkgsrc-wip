@@ -12,8 +12,6 @@ HOMEPAGE=	http://pyaiml.sourceforge.net/
 COMMENT=	PyAIML is an interpreter for AIML
 #LICENSE=	# TODO: (see mk/license.mk)
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	# none
 PYDISTUTILSPKG=	yes
 

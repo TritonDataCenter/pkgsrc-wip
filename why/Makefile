@@ -10,7 +10,6 @@ HOMEPAGE=	http://why.lri.fr/download/
 COMMENT=	Why is a software verification platform
 
 GNU_CONFIGURE=	yes
-PKG_DESTDIR_SUPPORT=	user-destdir
 
 USE_TOOLS+= 	gmake
 

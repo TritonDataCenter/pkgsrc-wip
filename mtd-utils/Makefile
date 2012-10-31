@@ -9,6 +9,8 @@ MAINTAINER=	noud4@home.nl
 HOMEPAGE=	http://www.linux-mtd.infradead.org/
 COMMENT=	Memory Technology Device Tools
 
+PKG_DESTDIR_SUPPORT=	none
+
 USE_TOOLS+=	gmake
 USE_LANGUAGES=	c c++
 #CFLAGS+=	-D_NETBSD_SOURCE

@@ -16,8 +16,6 @@ DEPENDS+=		gst-plugins0.10-soup-[0-9]*:../../net/gst-plugins0.10-soup
 # XXX notification-daemon is not a strict dependency.
 #DEPENDS+=		notification-daemon-[0-9]*:../../sysutils/notification-daemon
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 PYDISTUTILSPKG=			yes
 
 USE_TOOLS+=				xgettext

@@ -11,8 +11,6 @@ HOMEPAGE=	http://bitbucket.org/xmonader/pyprayertime/
 COMMENT=	Prayertime algorithm implementation in python
 LICENSE=		gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	# none
 
 PYDISTUTILSPKG= yes

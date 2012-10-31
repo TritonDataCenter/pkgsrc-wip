@@ -10,6 +10,7 @@ MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://swami.sourceforge.net/
 COMMENT=		SoundFont2 instrument editor
 
+PKG_DESTDIR_SUPPORT=	none
 PKG_INSTALLATION_TYPES=	overwrite pkgviews
 
 USE_LOCALEDIR=		YES

@@ -10,7 +10,6 @@ MAINTAINER=		reed@reedmedia.net
 COMMENT=		Fast mkdep
 
 USE_FEATURES=		nbcompat
-PKG_DESTDIR_SUPPORT=	user-destdir
 
 INSTALLATION_DIRS+=	bin ${PKGMANDIR}/man1
 

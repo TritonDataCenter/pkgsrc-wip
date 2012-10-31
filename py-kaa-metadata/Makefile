@@ -10,9 +10,9 @@ MAINTAINER=		dhowland@users.sourceforge.net
 HOMEPAGE=		http://freevo.sourceforge.net/cgi-bin/freevo-2.0/Kaa
 COMMENT=		Media metadata parser for the Kaa multimedia framework
 
-PYDISTUTILSPKG=		yes
+PKG_DESTDIR_SUPPORT=	none
 
-PYTHON_VERSIONS_ACCEPTED=	25
+PYDISTUTILSPKG=		yes
 
 .include "../../lang/python/extension.mk"
 .include "../../multimedia/libdvdread/buildlink3.mk"

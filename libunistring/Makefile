@@ -10,8 +10,6 @@ HOMEPAGE=	http://www.gnu.org/software/libunistring/
 COMMENT=	Library that provides functions for manipulating Unicode strings
 LICENSE=	gnu-lgpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 
 .include "../../converters/libiconv/buildlink3.mk"

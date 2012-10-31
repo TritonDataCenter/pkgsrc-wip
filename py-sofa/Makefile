@@ -12,8 +12,6 @@ HOMEPAGE=	http://code.google.com/p/pysofa/
 COMMENT=	Python ctypes wrapper around the SOFA astronomical library
 LICENSE=	mit
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/pysofa-0.1.0a2
 
 USE_LANGUAGES=	# none

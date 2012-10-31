@@ -1,7 +1,5 @@
 # $NetBSD: Makefile,v 1.6 2011/04/22 13:42:21 obache Exp $
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 .include "../../wip/xfce48/Makefile.common"
 
 DISTNAME=	xfconf-${XFCE4_VERSION}

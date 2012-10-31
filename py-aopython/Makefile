@@ -12,8 +12,6 @@ HOMEPAGE=	http://pieces.openpolitics.com/?s=AOPython
 COMMENT=	Aspect Oriented Python
 LICENSE=	python-software-foundation
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	# none
 PYDISTUTILSPKG=	yes
 

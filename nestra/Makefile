@@ -15,11 +15,13 @@ WRKSRC=			${WRKDIR}/nestra
 
 BUILD_TARGET=		nestra
 
+INSTALLATION_DIRS=	bin
+
 do-install:
-	${INSTALL_PROGRAM} ${WRKSRC}/nestra ${PREFIX}/bin
-	${INSTALL_DATA_DIR} ${PREFIX}/share/doc/nestra
-	${INSTALL_DATA} ${WRKSRC}/BUGS ${PREFIX}/share/doc/nestra
-	${INSTALL_DATA} ${WRKSRC}/README ${PREFIX}/share/doc/nestra
+	${INSTALL_PROGRAM} ${WRKSRC}/nestra ${DESTDIR}${PREFIX}/bin
+	${INSTALL_DATA_DIR} ${DESTDIR}${PREFIX}/share/doc/nestra
+	${INSTALL_DATA} ${WRKSRC}/BUGS ${DESTDIR}${PREFIX}/share/doc/nestra
+	${INSTALL_DATA} ${WRKSRC}/README ${DESTDIR}${PREFIX}/share/doc/nestra
 
 .include "../../mk/x11.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

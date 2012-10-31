@@ -11,8 +11,6 @@ HOMEPAGE=		http://search.cpan.org/dist/Crypt-Serpent
 COMMENT=		Serpent block cipher encryption module for perl
 LICENSE=		${PERL5_LICENSE}
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 PERL5_PACKLIST=	auto/Crypt/Serpent/.packlist
 
 .include "../../lang/perl5/module.mk"

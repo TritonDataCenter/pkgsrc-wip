@@ -12,8 +12,6 @@ HOMEPAGE=	http://jason.sourceforge.net/Jason/Jason.html
 COMMENT=	Java-based interpreter for an extended version of AgentSpeak
 LICENSE=	gnu-lgpl-v2.1
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_JAVA=	run
 USE_JAVA2=	yes
 USE_TOOLS+=	pax

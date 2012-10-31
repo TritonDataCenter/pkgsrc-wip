@@ -11,8 +11,6 @@ HOMEPAGE=	http://bitbucket.org/sgillies/descartes/
 COMMENT=	Use geometric objects as matplotlib paths and patches
 LICENSE=	modified-bsd
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/descartes-1.0
 
 do-test:

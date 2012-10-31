@@ -14,7 +14,6 @@ WRKSRC=		${WRKDIR}/${DISTNAME}/src
 USE_TOOLS+=	gmake
 NO_CONFIGURE=	yes
 
-PKG_DESTDIR_SUPPORT=	user-destdir
 INSTALLATION_DIRS=	sbin share/examples/umurmur
 
 EGDIR=		${PREFIX}/share/examples/umurmur

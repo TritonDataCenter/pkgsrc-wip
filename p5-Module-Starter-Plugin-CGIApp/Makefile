@@ -17,8 +17,6 @@ DEPENDS+=	p5-Test-Pod>=1.02:../../devel/p5-Test-Pod
 DEPENDS+=	p5-HTML-Template>=0:../../www/p5-HTML-Template
 DEPENDS+=	p5-Module-Starter>=0:../../devel/p5-Module-Starter
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 PERL5_MODULE_TYPE=	Module::Build
 PERL5_PACKLIST=		auto/Module/Starter/Plugin/CGIApp/.packlist
 USE_LANGUAGES=		# none

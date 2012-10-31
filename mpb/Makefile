@@ -10,25 +10,13 @@ HOMEPAGE=	http://ab-initio.mit.edu/mpb/
 COMMENT=	MIT Photonic Bands
 LICENSE=	gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_LANGUAGES=	c fortran77
 USE_TOOLS+=	gsed
 
-CONFIGURE_ARGS+=--with-libctl=${PREFIX}/share/libctl
+CONFIGURE_ARGS+=--with-libctl=${BUILDLINK_PREFIX.libctl}/share/libctl
 CFLAGS+=	-DH5_USE_16_API=1
-
-# Prepend ${DESTDIR} to $(prefix), but only in install commands.
-# It happens that these instances are preceded by a space, and those
-# we don't want to change are not.
-SUBST_CLASSES+=	install-prefix
-SUBST_FILES.install-prefix=	mpb-ctl/Makefile utils/Makefile
-SUBST_STAGE.install-prefix=	post-configure
-SUBST_MESSAGE.install-prefix=	Patching install prefix.
-SUBST_SED.install-prefix=	-e 's| $$(prefix)| ${DESTDIR}$$(prefix)|g' \
-				-e 's| $$(mandir)| ${DESTDIR}$$(mandir)|g'
 
 .include "../../math/blas/buildlink3.mk"
 .include "../../math/lapack/buildlink3.mk"

@@ -13,8 +13,6 @@ LICENSE=	modified-bsd
 USE_TOOLS+=	gmake pax
 USE_LANGUAGES=	c99
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 .include "../../mk/bsd.prefs.mk"
 
 RCD_SCRIPTS+=		redis

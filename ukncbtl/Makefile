@@ -10,8 +10,6 @@ HOMEPAGE=	http://code.google.com/p/ukncbtl/
 COMMENT=	Emulator of 'UKNC', a Soviet school computer
 LICENSE=	gnu-lgpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 NO_CHECKSUM=	yes
 SVN_REPOSITORIES=	ukncbtl-read-only
 SVN_ROOT.ukncbtl-read-only=	http://ukncbtl.googlecode.com/svn/trunk/

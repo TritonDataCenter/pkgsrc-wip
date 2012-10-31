@@ -15,7 +15,6 @@ DEPENDS+=	p5-Config-Auto>=0:../../devel/p5-Config-Auto
 
 
 PKG_INSTALLATION_TYPES=	overwrite pkgviews
-PKG_DESTDIR_SUPPORT=	user-destdir
 
 # url2pkg-marker (please do not remove this line.)
 .include "../../lang/perl5/module.mk"

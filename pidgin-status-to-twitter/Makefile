@@ -12,8 +12,6 @@ HOMEPAGE=		http://code.google.com/p/pidgin-status-to-twitter/
 COMMENT=		Update Twitter with your Pidgin status
 LICENSE=		gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 DEPENDS+=		p5-Net-Twitter-[0-9]*:../../net/p5-Net-Twitter
 
 WRKSRC=			${WRKDIR}

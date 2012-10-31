@@ -8,8 +8,6 @@ MAINTAINER=		ghen@NetBSD.org
 COMMENT=		Interactive script for deinstalling 'leaf' packages
 HOMEPAGE=		#
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=			${WRKDIR}/pkg_rmleaves
 NO_BUILD=		yes
 

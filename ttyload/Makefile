@@ -15,8 +15,6 @@ ONLY_FOR_PLATFORM=	Darwin-*-* FreeBSD-*-* Linux-*-* IRIX-*-* SunOS-*-*
 
 BUILD_TARGET=		default
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/ttyload ${DESTDIR}${PREFIX}/bin
 

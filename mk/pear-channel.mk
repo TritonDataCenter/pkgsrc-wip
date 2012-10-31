@@ -20,8 +20,6 @@ EXTRACT_SUFX?=		# empty
 HOMEPAGE?=		http://${PEAR_CHANNEL}/
 COMMENT?=		Adds ${PEAR_CHANNEL} channel to PEAR
 
-PKG_DESTDIR_SUPPORT?=	user-destdir
-
 DEPENDS+=		${PHP_PKG_PREFIX}-pear-[0-9]*:../../lang/pear
 
 NO_BUILD=		yes

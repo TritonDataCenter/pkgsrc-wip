@@ -13,8 +13,6 @@ MAINTAINER=	pih@xbase.dk
 HOMEPAGE=	http://www.moregroupware.de/
 COMMENT=	Web based GroupWare system
 
-PKG_DESTDIR_SUPPORT= 	user-destdir
-
 DEPENDS+=	${PHP_PKG_PREFIX}-curl>=4.3.4:../../www/php-curl
 DEPENDS+=	mysql-server>=4.0.0:../../databases/mysql${MYSQL_VERSION_DEFAULT}-server
 DEPENDS+=	${PHP_PKG_PREFIX}-ldap>=4.3.4:../../databases/php-ldap

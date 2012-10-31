@@ -11,8 +11,6 @@ HOMEPAGE=	http://search.cpan.org/~mlehmann/Gtk2-Spell-1.03/
 COMMENT=	Bindings for GtkSpell with Gtk2
 #LICENSE=	# TODO: (see mk/license.mk)
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_TOOLS+=	pkg-config
 
 DEPENDS+=	p5-ExtUtils-Depends>=0.300:../../devel/p5-ExtUtils-Depends

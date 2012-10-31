@@ -11,8 +11,6 @@ HOMEPAGE=	https://developer.mozilla.org/en/SpiderMonkey
 COMMENT=	Standalone JavaScript implementation in C
 LICENSE=	mpl-1.1
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/js-1.8.5/js/src
 USE_TOOLS+=	pkg-config perl:build gmake
 USE_LANGUAGES=	c c++

@@ -29,7 +29,6 @@ DEPENDS+=		dvdauthor-[0-9]*:../../multimedia/dvdauthor
 DEPENDS+=		p5-qt3-[0-9]*:../../wip/p5-qt3
 
 REPLACE_PERL+=		qvamps
-PKG_DESTDIR_SUPPORT=	user-destdir
 
 .include "../../devel/swig/buildlink3.mk"
 .include "../../lang/perl5/buildlink3.mk"

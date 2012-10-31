@@ -12,8 +12,6 @@ LICENSE=	gnu-gpl-v2
 
 DEPENDS+=	${PYPKGPREFIX}-gtk2-[0-9]*:../../x11/py-gtk2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 SUBST_CLASSES+=		obmenu
 SUBST_MESSAGE.obmenu=	Fixing LOCALBASE path.
 SUBST_STAGE.obmenu=	pre-patch

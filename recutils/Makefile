@@ -10,8 +10,6 @@ HOMEPAGE=	http://www.gnu.org/software/recutils/
 COMMENT=	Tools and libraries to access plain text databases
 LICENSE=	gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 #USE_TOOLS+=		lex yacc
 GNU_CONFIGURE=		yes
 USE_PKGLOCALEDIR=	yes

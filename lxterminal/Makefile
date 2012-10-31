@@ -12,8 +12,6 @@ LICENSE=	gnu-gpl-v2
 GNU_CONFIGURE=	yes
 USE_TOOLS+=	intltool pkg-config
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 .include "../../x11/gtk2/buildlink3.mk"
 .include "../../x11/vte/buildlink3.mk"
 

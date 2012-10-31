@@ -11,8 +11,6 @@ HOMEPAGE=	http://www.crufty.net/help/sjg/bmake.html
 COMMENT=	Portable (autoconf) version of NetBSD 'make' utility
 LICENSE=	original-bsd
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=			${WRKDIR}/bmake
 
 INSTALLATION_DIRS=	bin ${PKGMANDIR}/man1

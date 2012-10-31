@@ -10,8 +10,6 @@ HOMEPAGE=	http://fkurz.net/ham/qrq.html
 COMMENT=	Open source Morse telegraphy trainer
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	c c++
 USE_TOOLS+=	gmake perl:run
 

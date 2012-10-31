@@ -13,8 +13,6 @@ COMMENT=	Beaker is a web session and general caching library
 
 LICENSE=	modified-bsd
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/${EGG_NAME}
 
 PLIST_SUBST+=	PYVERSSUFFIX=${PYVERSSUFFIX}

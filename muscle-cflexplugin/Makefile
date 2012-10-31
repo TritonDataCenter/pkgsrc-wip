@@ -22,16 +22,16 @@ CONTDIR=	${PREFIX}/lib/pcsc-lite/drivers/slbCryptoflex.bundle/Contents
 CONTLIBDIR=	${CONTDIR}/${OPSYS}
 
 do-install:
-	${INSTALL_DATA_DIR} ${CONTDIR}
-	${INSTALL_DATA} ${CONTSRCDIR}/Info.plist ${CONTDIR}
-	${INSTALL_DATA} ${CONTSRCDIR}/PkgInfo ${CONTDIR}
-	${INSTALL_DATA_DIR} ${CONTDIR}/Resources
-	${INSTALL_DATA_DIR} ${CONTDIR}/Resources/English.lproj
+	${INSTALL_DATA_DIR} ${DESTDIR}${CONTDIR}
+	${INSTALL_DATA} ${CONTSRCDIR}/Info.plist ${DESTDIR}${CONTDIR}
+	${INSTALL_DATA} ${CONTSRCDIR}/PkgInfo ${DESTDIR}${CONTDIR}
+	${INSTALL_DATA_DIR} ${DESTDIR}${CONTDIR}/Resources
+	${INSTALL_DATA_DIR} ${DESTDIR}${CONTDIR}/Resources/English.lproj
 	${INSTALL_DATA} \
 		${CONTSRCDIR}/Resources/English.lproj/InfoPlist.strings \
-		${CONTDIR}/Resources/English.lproj/InfoPlist.strings
-	${INSTALL_LIB_DIR} ${CONTLIBDIR}
-	${LIBTOOL} --mode=install ${INSTALL_LIB} ${WRKSRC}/src/libcryptoflex.la ${CONTLIBDIR}
+		${DESTDIR}${CONTDIR}/Resources/English.lproj/InfoPlist.strings
+	${INSTALL_LIB_DIR} ${DESTDIR}${CONTLIBDIR}
+	${LIBTOOL} --mode=install ${INSTALL_LIB} ${WRKSRC}/src/libcryptoflex.la ${DESTDIR}${CONTLIBDIR}
 
 .include "../../wip/libmusclecard/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

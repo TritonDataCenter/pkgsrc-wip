@@ -14,8 +14,6 @@ COMMENT=	An extension to PEAK-Rules to prioritize methods
 
 DEPENDS+=	${PYPKGPREFIX}-peak-rules-[0-9]*:../../wip/py-peak-rules
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/prioritized_methods-0.2.1
 USE_LANGUAGES=	# none
 

@@ -11,8 +11,6 @@ HOMEPAGE=	http://live.gnome.org/Libpeas
 COMMENT=	Gobject-based plugins engine
 LICENSE=	gnu-lgpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_PKGLOCALEDIR=	yes
 
 GNU_CONFIGURE=	yes

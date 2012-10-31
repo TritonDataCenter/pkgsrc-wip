@@ -12,8 +12,6 @@ HOMEPAGE=	http://trac-hacks.org/wiki/AccountManagerPlugin
 COMMENT=	User account management plugin for Trac
 #LICENSE=	THE BEER-WARE LICENSE
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 DEPENDS+=	{,ja-}trac>=0.12:../../www/trac
 DEPENDS+=	${PYPKGPREFIX}-genshi>=0.5:../../www/py-genshi
 DEPENDS+=	${PYPKGPREFIX}-babel>=0.9.5:../../devel/py-babel

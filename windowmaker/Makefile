@@ -31,8 +31,6 @@ CONFIGURE_ENV+=		CPP_PATH=${CPP:Q}
 USE_TOOLS+=		perl:run
 REPLACE_PERL+=		util/wkdemenu.pl
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 INSTALLATION_DIRS=	share/WindowMaker/SoundSets
 INSTALLATION_DIRS+=	share/WindowMaker/Sounds
 INSTALLATION_DIRS+=	share/doc/WindowMaker
@@ -87,5 +85,4 @@ post-install:
 .include "../../x11/libXrandr/buildlink3.mk"
 BUILDLINK_DEPMETHOD.libXt?=	build
 .include "../../x11/libXt/buildlink3.mk"
-.include "../../x11/xextproto/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

@@ -9,7 +9,6 @@ HOMEPAGE=		http://pecl.php.net/package/imagick
 COMMENT=		PHP extension for ImageMagick graphics library
 LICENSE=		php
 
-PKG_DESTDIR_SUPPORT=	user-destdir
 CONFLICTS=		php-imagick-[0-9]*
 
 USE_LANGUAGES=		c c++

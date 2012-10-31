@@ -13,7 +13,7 @@ COMMENT=		Interpreter for interactive fiction written in Adrift
 BUILD_TARGET=		glkscare
 MAKE_ENV+=		BUILDLINK_DIR=${BUILDLINK_DIR:Q}
 
-DOCDIR=			${LOCALBASE}/share/doc/scare
+DOCDIR=			${PREFIX}/share/doc/scare
 
 PKG_OPTIONS_VAR=PKG_OPTIONS.scare
 .include "../../wip/glkloader/glk-options.mk"
@@ -22,11 +22,13 @@ PKG_OPTIONS_VAR=PKG_OPTIONS.scare
 
 .include "../../devel/zlib/buildlink3.mk"
 
+INSTALLATION_DIRS=	bin
+
 do-install:
-	${INSTALL_PROGRAM} ${WRKSRC}/glkscare ${LOCALBASE}/bin
-	${INSTALL_DATA_DIR} ${DOCDIR}
-	${INSTALL_DATA} ${WRKSRC}/DEBUGGER ${DOCDIR}
-	${INSTALL_DATA} ${WRKSRC}/README ${DOCDIR}
-	${INSTALL_DATA} ${WRKSRC}/RUNNING ${DOCDIR}
+	${INSTALL_PROGRAM} ${WRKSRC}/glkscare ${DESTDIR}${PREFIX}/bin
+	${INSTALL_DATA_DIR} ${DESTDIR}${DOCDIR}
+	${INSTALL_DATA} ${WRKSRC}/DEBUGGER ${DESTDIR}${DOCDIR}
+	${INSTALL_DATA} ${WRKSRC}/README ${DESTDIR}${DOCDIR}
+	${INSTALL_DATA} ${WRKSRC}/RUNNING ${DESTDIR}${DOCDIR}
 
 .include "../../mk/bsd.pkg.mk"

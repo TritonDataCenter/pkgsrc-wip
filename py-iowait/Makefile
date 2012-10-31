@@ -11,8 +11,6 @@ HOMEPAGE=	https://launchpadlibrarian.net/65588193/
 COMMENT=	Platform-independent module for I/O completion events
 LICENSE=	gnu-lgpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	# none
 
 PYDISTUTILSPKG=	yes

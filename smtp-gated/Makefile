@@ -43,8 +43,6 @@ USE_TOOLS+=		gmake
 
 GNU_CONFIGURE=		yes
 
-PKG_DESTDIR_SUPPORT=    user-destdir
-
 post-extract:
 	${CP} ${FILESDIR}/smtp-gated.conf ${WRKDIR}
 

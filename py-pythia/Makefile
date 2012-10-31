@@ -3,6 +3,7 @@
 
 DISTNAME=	pythia-0.8.1.14
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
+PKGREVISION=	1
 CATEGORIES=	math
 MASTER_SITES=	http://www.geodynamics.org/cig/software/pythia/
 
@@ -12,8 +13,6 @@ COMMENT=Framework for specifying and staging complex,multi-physics simulations
 LICENSE=	modified-bsd
 
 DEPENDS+=	${PYPKGPREFIX}-ipython>=0.10.2:../../devel/py-ipython
-
-PKG_DESTDIR_SUPPORT=	user-destdir
 
 PLIST_SUBST+=	PYVERSSUFFIX=${PYVERSSUFFIX}
 

@@ -9,8 +9,6 @@ HOMEPAGE=		https://github.com/badzong/mopher
 COMMENT=		Versatile mail filter
 LICENSE=		mit
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 .include "../../mk/bsd.prefs.mk"
 
 MOPHER_USER?=		mopher

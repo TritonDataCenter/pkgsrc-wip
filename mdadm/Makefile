@@ -11,6 +11,8 @@ MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://www.cse.unsw.edu.au/~neilb/source/mdadm/ANNOUNCE
 COMMENT=		RAID management for Linux systems
 
+PKG_DESTDIR_SUPPORT=	none
+
 USE_TOOLS+= gmake
 
 ONLY_FOR_PLATFORM=Linux-*-*

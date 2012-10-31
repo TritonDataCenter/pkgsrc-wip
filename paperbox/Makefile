@@ -12,8 +12,6 @@ HOMEPAGE=	http://live.gnome.org/PaperBox
 COMMENT=	Document browser
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_LANGUAGES=	c c++
 USE_TOOLS+=	gmake intltool pkg-config

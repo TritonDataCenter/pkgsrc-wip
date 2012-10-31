@@ -12,8 +12,6 @@ HOMEPAGE=	http://codespeak.net/rlcompleter2/index.cgi?home
 COMMENT=	Python command line completion
 LICENSE=	mit
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	# none
 PYDISTUTILSPKG=		yes
 

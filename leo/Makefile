@@ -13,6 +13,8 @@ COMMENT=		Programmer's editor and a flexible browser
 
 DEPENDS+=		${PYPKGPREFIX}-docutils>=0.3.9:../../textproc/py-docutils
 
+PKG_DESTDIR_SUPPORT=	none
+
 NO_BUILD=		yes
 PYTHON_PATCH_SCRIPTS=	src/leo.py scripts/LinixInstall.py
 

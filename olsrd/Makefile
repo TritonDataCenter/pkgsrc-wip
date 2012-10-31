@@ -12,7 +12,6 @@ COMMENT=	Ad-hoc wireless mesh routing daemon
 
 LICENSE=	modified-bsd
 
-PKG_DESTDIR_SUPPORT=	user-destdir
 USE_TOOLS+=	bison
 USE_TOOLS+=	flex
 USE_TOOLS+=	gmake

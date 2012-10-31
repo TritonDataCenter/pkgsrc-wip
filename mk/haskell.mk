@@ -108,10 +108,6 @@ HASKELL_COMPILER?=	${HASKELL_TYPE}
 BUILD_DEFS+=	HASKELL_COMPILER
 
 
-# Cabal packages usually support DESTDIR with no root access.
-PKG_DESTDIR_SUPPORT?=	user-destdir
-
-
 # Declarations for ../../mk/misc/show.mk
 _VARGROUPS+=		haskell
 _DEF_VARS.haskell= \

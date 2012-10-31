@@ -15,6 +15,8 @@ DEPENDS+=	p5-DBIx-Class>=0.01:../../databases/p5-DBIx-Class
 
 PERL5_REQD+=	5.8.0
 
+PKG_DESTDIR_SUPPORT=	none
+
 PERL5_PACKLIST=	auto/Catalyst/Model/DBIC/Plain/.packlist
 
 .include "../../lang/perl5/module.mk"

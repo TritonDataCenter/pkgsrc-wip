@@ -16,8 +16,6 @@ SVN_MODULE.v8=		v8
 DEPENDS+=		libexecinfo>=1:../../wip/libexecinfo
 BUILD_DEPENDS+=		scons>=1:../../devel/scons
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 NO_CONFIGURE=		yes
 
 do-build:

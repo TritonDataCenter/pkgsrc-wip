@@ -11,8 +11,6 @@ HOMEPAGE=	http://code.google.com/p/sympycore/
 COMMENT=	SympyCore an efficient pure Python Computer Algebra System
 LICENSE=	modified-bsd
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	# none
 
 PYDISTUTILSPKG=	yes

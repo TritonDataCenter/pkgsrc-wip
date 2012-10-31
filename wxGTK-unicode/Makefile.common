@@ -16,8 +16,6 @@ DISTINFO_FILE=		${.CURDIR}/../../wip/wxGTK-unicode/distinfo
 PATCHFILES=		${DISTNAME}-libtool.diff.bz2
 PATCH_SITES=		${MASTER_SITE_LOCAL}
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_TOOLS+=		pkg-config msgfmt
 USE_LIBTOOL=		yes
 USE_PKGLOCALEDIR=	YES

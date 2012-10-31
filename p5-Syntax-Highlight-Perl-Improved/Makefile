@@ -10,8 +10,6 @@ MAINTAINER=	ficovh@yahoo.com
 HOMEPAGE=	http://search.cpan.org/CPAN/authors/id/D/DA/DAVIDCYL/Syntax-Highlight-Perl-Improved-101/
 COMMENT=	Highlighting of Perl Syntactical Structures
 
-PKG_DESTDIR_SUPPORT= user-destdir
-
 PERL5_PACKLIST=	auto/Syntax/Highlight/Perl/Improved/.packlist
 USE_LANGUAGES=	# none
 

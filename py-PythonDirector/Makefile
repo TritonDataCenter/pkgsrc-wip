@@ -14,8 +14,6 @@ COMMENT=		Pure-python TCP load balancer
 DEPENDS+=		${PYPKGPREFIX}-twisted-[0-9]*:../../net/py-twisted
 DEPENDS+=		${PYPKGPREFIX}-m2crypto>=0.13:../../security/py-m2crypto
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 PY_PATCHPLIST=		yes
 PYDISTUTILSPKG=		yes
 USE_LANGUAGES=	# none

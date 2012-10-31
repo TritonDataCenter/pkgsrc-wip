@@ -12,8 +12,6 @@ COMMENT=	CGI::Untaint - process CGI input parameters
 
 DEPENDS+=	p5-UNIVERSAL-require>=0.01:../../devel/p5-UNIVERSAL-require
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 PERL5_PACKLIST=		auto/CGI/Untaint/.packlist
 USE_LANGUAGES=		# none
 

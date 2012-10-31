@@ -1,0 +1,3 @@
+@comment $NetBSD$
+${PYSITELIB}/jswebkit.so
+${PYSITELIB}/${THIS_EGG_FILE}

@@ -12,7 +12,6 @@ UNLIMIT_RESOURCES+=	datasize
 
 BUILD_DEPENDS+=		zip>=2.3:../../archivers/zip
 
-PKG_DESTDIR_SUPPORT=	user-destdir
 CHECK_PORTABILITY_SKIP+=${MOZILLA_DIR}security/nss/tests/libpkix/libpkix.sh
 CHECK_PORTABILITY_SKIP+=${MOZILLA_DIR}security/nss/tests/multinit/multinit.sh
 PRIVILEGED_STAGES+=	clean

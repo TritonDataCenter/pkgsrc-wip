@@ -11,8 +11,6 @@ HOMEPAGE=	http://www.bit4id.org/trac/pykcs11
 COMMENT=	PKCS\#11 wrapper for Python
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	c c++
 
 PYDISTUTILSPKG=	yes

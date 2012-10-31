@@ -10,8 +10,6 @@ HOMEPAGE=	http://furius.ca/xxdiff/
 COMMENT=	Graphical file comparator and merge tool
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 BUILD_DEPENDS+=		tmake>=1.7:../../devel/tmake
 
 USE_LANGUAGES=		c c++

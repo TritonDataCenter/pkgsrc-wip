@@ -8,6 +8,8 @@ MAINTAINER=		evaldo@gardenali.biz
 HOMEPAGE=		http://www.musclecard.com/
 COMMENT=		Personalization tool for MuscleCard enabled smartcards
 
+PKG_DESTDIR_SUPPORT=	none
+
 GNU_CONFIGURE=		yes
 USE_TOOLS+=		gmake pkg-config
 

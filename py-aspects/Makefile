@@ -10,8 +10,6 @@ MAINTAINER=	kamel.derouiche@gmail.com
 HOMEPAGE=	http://www.cs.tut.fi/~ask/aspects/index.shtml
 COMMENT=	Lightweight aspect oriented programming library for Python
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 PYDISTUTILSPKG= yes
 
 .include "../../lang/python/extension.mk"

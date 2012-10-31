@@ -10,8 +10,6 @@ HOMEPAGE=	http://www.liblognorm.com/
 COMMENT=	Tool to normalize log data
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 
 MAKE_JOBS_SAFE=	no

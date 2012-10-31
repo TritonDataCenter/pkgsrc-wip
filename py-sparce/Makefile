@@ -11,9 +11,6 @@ HOMEPAGE=	http://pysparse.sourceforge.net/
 COMMENT=	Sparse linear algebra extension for Python
 #LICENSE=	# TODO: (see mk/license.mk)
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
-PKG_DESTDIR_SUPPORT=	user-destdir
 USE_LANGUAGES=	c c++ fortran77
 PYDISTUTILSPKG= yes
 

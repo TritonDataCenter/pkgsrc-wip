@@ -12,8 +12,6 @@ HOMEPAGE=	http://www.sugarcrm.com/
 COMMENT=	SugarCRM is a php based CRM system
 LICENSE=	gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT= 	user-destdir
-
 DEPENDS+=	${PHP_PKG_PREFIX}-mysql>=4.3.3:../../databases/php-mysql
 
 VERSION=	5.2.0l

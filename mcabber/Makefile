@@ -10,8 +10,6 @@ MAINTAINER=		degroote@NetBSD.org
 HOMEPAGE=		http://www.lilotux.net/~mikael/mcabber/
 COMMENT=		Jabber console client
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 CHECK_PORTABILITY_SKIP+=	contrib/events/eventcmd.pastebin
 
 GNU_CONFIGURE=	yes

@@ -13,8 +13,6 @@ HOMEPAGE=	http://igraph.sourceforge.net/
 COMMENT=	Manipulating Undirected And Directed Graphs for Python
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 PLIST_SUBST+=	PYVERSSUFFIX=${PYVERSSUFFIX}
 
 .include "../../graphics/py-cairo/buildlink3.mk"

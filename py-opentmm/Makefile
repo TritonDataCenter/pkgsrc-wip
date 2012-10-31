@@ -14,9 +14,6 @@ LICENSE=	mit
 DEPENDS+=	${PYPKGPREFIX}-scipy>=0.7.2:../../math/py-scipy
 #DEPENDS+=	${PYPKGPREFIX}-django-gitrevision>=0.1.4:../../wip/py-django-gitrevision
 
-
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/openTMM-0.1.0
 
 USE_LANGUAGES=	c fortran

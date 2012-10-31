@@ -22,11 +22,13 @@ SUBST_SED.make  =-e 's|CFLAGS\ =|CFLAGS=${CFLAGS}\ -I${PREFIX}/include/openssl/\
 
 DOC_FILES=background.html index.html command_ref.html scripting.html
 
+INSTALLATION_DIRS=	bin
+
 do-install:
-	${INSTALL_PROGRAM} ${WRKSRC}/west ${PREFIX}/bin/
-	${INSTALL_DATA_DIR} ${PREFIX}/share/doc/west/
+	${INSTALL_PROGRAM} ${WRKSRC}/west ${DESTDIR}${PREFIX}/bin/
+	${INSTALL_DATA_DIR} ${DESTDIR}${PREFIX}/share/doc/west/
 .for f in ${DOC_FILES}
-	${INSTALL_DATA} ${WRKSRC}/doc/$f ${PREFIX}/share/doc/west/
+	${INSTALL_DATA} ${WRKSRC}/doc/$f ${DESTDIR}${PREFIX}/share/doc/west/
 .endfor
 
 .include "../../devel/pcre/buildlink3.mk"

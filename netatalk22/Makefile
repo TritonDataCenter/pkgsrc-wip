@@ -13,8 +13,6 @@ HOMEPAGE=	http://netatalk.sourceforge.net/
 COMMENT=	Netatalk appletalk file and print services
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 BDB_ACCEPTED=		db4 db5
 USE_LIBTOOL=		yes
 USE_OLD_DES_API=	yes

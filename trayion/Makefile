@@ -10,8 +10,6 @@ HOMEPAGE=	http://trayion.googlecode.com/
 COMMENT=	FreeDesktop trayicon area for Ion3
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_TOOLS+=	gmake
 
 .include "../../x11/libX11/buildlink3.mk"

@@ -13,8 +13,6 @@ MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://pype.sourceforge.net/
 COMMENT=		Lightweight, but powerful editor for Python
 
-PKG_DESTDIR_SUPPORT= 	user-destdir
-
 DEPENDS=	${PYPKGPREFIX}-wxWidgets>=2.4.2.4:../../x11/py-wxWidgets
 
 PYTHON_PATCH_SCRIPTS=	pype.py

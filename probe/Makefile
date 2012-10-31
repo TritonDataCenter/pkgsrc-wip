@@ -13,9 +13,6 @@ COMMENT=	ProBE is an animator for CSP processes
 EMUL_PLATFORMS=		linux-i386
 EMUL_MODULES.linux=	base x11
 
-
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 NO_BUILD=	yes
 
 USE_LANGUAGES=	# none

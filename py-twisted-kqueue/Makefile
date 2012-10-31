@@ -9,8 +9,6 @@ MASTER_SITES=	ftp://ftp.NetBSD.org/pub/NetBSD/misc/jdolecek/
 MAINTAINER=	milos.negovanovic@googlemail.com
 COMMENT=	Python interface to kqueue, suitable for Twisted
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 PYDISTUTILSPKG= yes
 
 # need to get definition of PKG_HAVE_KQUEUE

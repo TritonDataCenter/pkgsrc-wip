@@ -38,5 +38,4 @@ post-install:
 	${INSTALL_DATA} ${WRKSRC}/hexcmos ${DESTDIR}${PREFIX}/share/${PKGBASE}/hexcmos
 
 .include "../../x11/libXext/buildlink3.mk"
-.include "../../x11/xextproto/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

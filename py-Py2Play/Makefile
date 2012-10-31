@@ -10,8 +10,6 @@ MAINTAINER=	pkgsrc-users@NetBSD.org
 # HOMEPAGE=	http://oomadness.tuxfamily.org/en/py2play/index.html
 COMMENT=	Network game engine in Python, utilizing P2P model
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 PY_PATCHPLIST=		yes
 PYDISTUTILSPKG=		yes
 

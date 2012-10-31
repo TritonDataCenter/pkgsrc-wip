@@ -11,8 +11,6 @@ COMMENT=	Mongo Driver for Perl
 
 LICENSE=        apache-2.0
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 DEPENDS+=	p5-Any-Moose>=0.18:../../devel/p5-Any-Moose
 DEPENDS+=	p5-Class-Method-Modifiers>=1.07:../../devel/p5-Class-Method-Modifiers
 DEPENDS+=	p5-Data-Types>=0.09:../../wip/p5-Data-Types

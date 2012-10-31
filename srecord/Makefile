@@ -10,8 +10,6 @@ MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://srecord.sourceforge.net/
 COMMENT=	Manipulate EPROM load files
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 LICENSE=	gnu-gpl-v3
 
 GNU_CONFIGURE=	yes

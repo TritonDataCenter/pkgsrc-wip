@@ -16,10 +16,10 @@ USE_TOOLS+=		pax
 PY_VE_DOC_DIR=		${PREFIX}/share/doc/${PKGNAME}
 
 do-install:
-	${INSTALL_DATA_DIR} ${PY_VE_DOC_DIR}
-	cd ${WRKSRC}/doc/visionegg && pax -rw -pe * ${PY_VE_DOC_DIR}
-	${INSTALL_DATA_DIR} ${PY_VE_DOC_DIR}/reference
+	${INSTALL_DATA_DIR} ${DESTDIR}${PY_VE_DOC_DIR}
+	cd ${WRKSRC}/doc/visionegg && pax -rw -pe * ${DESTDIR}${PY_VE_DOC_DIR}
+	${INSTALL_DATA_DIR} ${DESTDIR}${PY_VE_DOC_DIR}/reference
 	cd ${WRKSRC}/doc/reference/html && pax -rw -pe * \
-		${PY_VE_DOC_DIR}/reference
+		${DESTDIR}${PY_VE_DOC_DIR}/reference
 
 .include "../../mk/bsd.pkg.mk"

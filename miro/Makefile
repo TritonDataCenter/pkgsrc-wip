@@ -11,8 +11,6 @@ COMMENT=	Miro is a integrated video downloader and player
 
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_PKGLOCALEDIR=	yes
 USE_LANGUAGES=		c c++
 USE_TOOLS+=	pkg-config

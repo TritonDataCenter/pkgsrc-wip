@@ -30,10 +30,10 @@ PKGMANDIR?=	man  # until in pkgsrc
 INSTALLATION_DIRS=	bin ${PKGMANDIR}/man1 share/texmf/tex/latex/misc
 
 do-install:
-	${INSTALL_PROGRAM} ${WRKSRC}/tr2latex ${PREFIX}/bin/tr2latex
-	${INSTALL_MAN} ${WRKSRC}/tr2latex.man ${PREFIX}/${PKGMANDIR}/man1/tr2latex.1
-	${INSTALL_DATA_DIR} ${PREFIX}/share/texmf/tex/latex/misc
-	${INSTALL_DATA} ${WRKSRC}/troffman.sty ${PREFIX}/share/texmf/tex/latex/misc/
-	${INSTALL_DATA} ${WRKSRC}/troffms.sty ${PREFIX}/share/texmf/tex/latex/misc/
+	${INSTALL_PROGRAM} ${WRKSRC}/tr2latex ${DESTDIR}${PREFIX}/bin/tr2latex
+	${INSTALL_MAN} ${WRKSRC}/tr2latex.man ${DESTDIR}${PREFIX}/${PKGMANDIR}/man1/tr2latex.1
+	${INSTALL_DATA_DIR} ${DESTDIR}${PREFIX}/share/texmf/tex/latex/misc
+	${INSTALL_DATA} ${WRKSRC}/troffman.sty ${DESTDIR}${PREFIX}/share/texmf/tex/latex/misc/
+	${INSTALL_DATA} ${WRKSRC}/troffms.sty ${DESTDIR}${PREFIX}/share/texmf/tex/latex/misc/
 
 .include "../../mk/bsd.pkg.mk"

@@ -3,7 +3,7 @@
 
 DISTNAME=	python-ptrace-0.6.4
 PKGNAME=	${PYPKGPREFIX}${DISTNAME:S/python//}
-PKGREVISION=	2
+PKGREVISION=	3
 CATEGORIES=	sysutils python
 MASTER_SITES=	http://pypi.python.org/packages/source/p/python-ptrace/
 
@@ -11,8 +11,6 @@ MAINTAINER=	kamel.derouiche@gmail.com
 HOMEPAGE=	https://bitbucket.org/haypo/python-ptrace/wiki/Home
 COMMENT=	Python binding of ptrace
 LICENSE=	gnu-gpl-v2
-
-PKG_DESTDIR_SUPPORT=	user-destdir
 
 ONLY_FOR_PLATFORM=	FreeBSD-*-x86_64  FreeBSD-*-i386 Linux-*-*
 

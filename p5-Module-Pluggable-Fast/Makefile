@@ -13,6 +13,7 @@ COMMENT=	Fast plugins with instantiation
 DEPENDS+=	p5-UNIVERSAL-exports>=0.03:../../wip/p5-UNIVERSAL-exports
 DEPENDS+=	p5-File-Find-Rule>=0.28:../../devel/p5-File-Find-Rule
 
+PKG_DESTDIR_SUPPORT=	none
 PKG_INSTALLATION_TYPES=	overwrite pkgviews
 
 PERL5_PACKLIST=	auto/Module/Pluggable/Fast/.packlist

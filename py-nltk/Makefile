@@ -13,8 +13,6 @@ LICENSE=	apache-2.0
 
 DEPENDS+=	${PYPKGPREFIX}-yaml-[0-9]*:../../textproc/py-yaml
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 PYDISTUTILSPKG=			yes
 REPLACE_PYTHON=			nltk/corpus/reader/knbc.py
 REPLACE_PYTHON+=		nltk/stem/rslp.py

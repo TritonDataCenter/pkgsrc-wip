@@ -11,8 +11,6 @@ HOMEPAGE=	http://tech.motion-twin.com/xmllight.html
 COMMENT=	Xml-Light is a minimal XML parser & printer for OCaml
 LICENSE=	gnu-lgpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/xml-light
 USE_LANGUAGES=	c
 

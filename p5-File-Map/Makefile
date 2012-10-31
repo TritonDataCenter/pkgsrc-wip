@@ -11,8 +11,6 @@ HOMEPAGE=	http://search.cpan.org/dist/File-Map
 COMMENT=	Memory mapping made simple and safe
 LICENSE=	${PERL5_LICENSE}
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 DEPENDS+=		p5-Readonly>=0:../../devel/p5-Readonly
 
 PERL5_PACKLIST=		auto/File/Map/.packlist

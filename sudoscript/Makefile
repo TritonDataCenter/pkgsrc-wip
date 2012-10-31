@@ -9,6 +9,8 @@ MAINTAINER=	hbo@egbok.com
 HOMEPAGE=	http://www.egbok.com/sudoscript/
 COMMENT=	Audited shells with sudo(8) and script(1)
 
+PKG_DESTDIR_SUPPORT=	none
+
 MESSAGE_SUBST+=	DISTNAME=${DISTNAME}
 
 PERMIT_PACKAGE_CDROM=	Yes

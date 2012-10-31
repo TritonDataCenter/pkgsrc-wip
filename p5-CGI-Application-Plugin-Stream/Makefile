@@ -13,10 +13,6 @@ COMMENT=	CGI::Application Plugin for streaming files
 DEPENDS+=	p5-CGI-Application-[0-9]*:../../www/p5-CGI-Application
 DEPENDS+=	p5-File-MMagic>0:../../misc/p5-File-MMagic
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
-
-
 PERL5_MODULE_TYPE=	Module::Build
 PERL5_PACKLIST=		auto/CGI/Application/Plugin/Stream/.packlist
 USE_LANGUAGES=		# none

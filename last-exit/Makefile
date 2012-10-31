@@ -12,8 +12,6 @@ HOMEPAGE=	http://lastexit-player.org/index.php/Main_Page
 COMMENT=	Last Exit is streaming media player for GNOME
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT= 	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_PKGLOCALEDIR=	yes
 USE_TOOLS+=	pkg-config perl intltool msgfmt gmake bash:run

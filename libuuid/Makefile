@@ -15,7 +15,6 @@ LICENSE=		modified-bsd
 
 DISTINFO_FILE=		${.CURDIR}/distinfo
 
-PKG_DESTDIR_SUPPORT=	user-destdir
 AUTO_MKDIRS=		yes
 
 CONFLICTS=		e2fsprogs-1.32{,nb*} e2fsprogs-1.36{,nb*}

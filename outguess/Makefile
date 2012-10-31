@@ -14,7 +14,6 @@ HOMEPAGE=	http://www.outguess.org/
 COMMENT=	JPEG steganography tool
 LICENSE=	original-bsd
 
-PKG_DESTDIR_SUPPORT=	user-destdir
 INSTALLATION_DIRS=	bin ${PKGMANDIR}/man1 ${OG_DOCSDIR} ${OG_EGDIR}
 
 OG_DOCSDIR=	share/doc/outguess

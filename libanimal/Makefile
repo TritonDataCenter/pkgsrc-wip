@@ -12,6 +12,8 @@ MAINTAINER=	matias@dotbsd.org
 HOMEPAGE=	http://siptoolbox.sourceforge.net/
 COMMENT=	Imaging and computer vision library
 
+PKG_DESTDIR_SUPPORT=	none
+
 GNU_CONFIGURE=	yes
 USE_TOOLS+=	pkg-config
 USE_LIBTOOL=	yes

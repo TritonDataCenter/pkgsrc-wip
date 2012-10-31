@@ -14,8 +14,6 @@ LICENSE=	gnu-gpl-v2
 DEPENDS+=	${PYPKGPREFIX}-papyon>=0.4.4:../../wip/py-papyon
 DEPENDS+=	${PYPKGPREFIX}-telepathy>=0.15.15:../../wip/py-telepathy
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 HAS_CONFIGURE=	yes
 USE_LANGUAGES=	# none
 

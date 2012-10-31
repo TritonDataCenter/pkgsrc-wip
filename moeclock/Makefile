@@ -13,8 +13,6 @@ COMMENT=	Wallpaper changing clock
 LICENSE=	gnu-gpl-v3 #AND cc-by-v3.0
 # The time signal voice must not be modified and distributed separately.
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}
 USE_LANGUAGES=	# none
 

@@ -11,8 +11,6 @@ HOMEPAGE=	http://search.cpan.org/dist/Lingua-Translate/
 COMMENT=	Translate text from one language to another
 LICENSE=	${PERL5_LICENSE}
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 DEPENDS+=	p5-Unicode-MapUTF8>=1.09:../../converters/p5-Unicode-MapUTF8
 DEPENDS+=	p5-Pod-Constants>=0.15:../../wip/p5-Pod-Constants
 DEPENDS+=	p5-HTML-Parser>=0:../../www/p5-HTML-Parser

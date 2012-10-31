@@ -10,8 +10,6 @@ HOMEPAGE=	http://xebece.sourceforge.net/
 COMMENT=	Multipurpose tool for information visualization and organization
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/xebece-1.0
 USE_LANGUAGES=	# none
 USE_JAVA=	run

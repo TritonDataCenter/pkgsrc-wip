@@ -9,8 +9,6 @@ HOMEPAGE=	http://www.gentei.org/~yuuji/software/mop/index-e.html
 COMMENT=	Convert Draft HTML/CSS to suitable for Presentation with Web Browser
 LICENSE=	generic-nonlicense
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 .include "../../lang/ruby/rubyversion.mk"
 
 INSTALLATION_DIRS=	share/${PKGBASE}

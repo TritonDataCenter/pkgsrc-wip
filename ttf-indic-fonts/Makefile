@@ -11,8 +11,6 @@ HOMEPAGE=	http://www.debian-in.org/
 COMMENT=	TTF Indic Fonts from Debian
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 CONFLICTS+=	lohit-fonts-[0-9]*
 
 USE_TOOLS+=	find xargs

@@ -12,8 +12,6 @@ HOMEPAGE=	ftp://ftp.gnome.org/pub/gnome/sources/lasem/0.2/
 COMMENT=	Lasem is a library for rendering SVG and Mathml
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_TOOLS+=	pkg-config bison intltool flex gmake

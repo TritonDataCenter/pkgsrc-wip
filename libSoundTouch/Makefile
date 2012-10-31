@@ -11,8 +11,6 @@ HOMEPAGE=		http://www.surina.net/soundtouch/
 COMMENT=		Audio Processing Library
 LICENSE=		gnu-lgpl-v2.1
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=			${WRKDIR}/soundtouch/
 USE_TOOLS+=		aclocal autoconf autoheader automake gmake gsed pkg-config
 USE_LIBTOOL=		yes

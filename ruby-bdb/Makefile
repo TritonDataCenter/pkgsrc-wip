@@ -10,8 +10,6 @@ HOMEPAGE=	http://rubyforge.org/projects/bdb/
 COMMENT=	Ruby interface to Berkley DB
 LICENSE=	ruby-license
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 DIST_SUBDIR=	ruby
 
 USE_LANGUAGES=	c c++

@@ -10,8 +10,6 @@ COMMENT=	Counting physical Source Lines of Code (SLOC)
 
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_TOOLS+=	flex perl
 
 MAKE_FILE=	makefile

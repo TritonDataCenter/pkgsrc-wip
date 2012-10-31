@@ -11,8 +11,6 @@ HOMEPAGE=	http://pypi.python.org/pypi?%3Aaction=search&term=mcview&submit=search
 COMMENT=   3D/graph event viewer for high-energy physics event simulations
 LICENSE=	gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/mcview-0.4.0
 
 PLIST_SUBST+=	PYVERSSUFFIX=${PYVERSSUFFIX}

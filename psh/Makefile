@@ -9,8 +9,6 @@ MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.focusresearch.com/gregor/download/
 COMMENT=	Perl Shell
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 PKG_SHELL=	${PREFIX}/bin/psh
 
 DEPENDS+=	p5-BSD-Resource>=1.24:../../devel/p5-BSD-Resource

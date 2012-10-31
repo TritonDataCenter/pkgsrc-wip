@@ -16,8 +16,6 @@ DEPENDS+=	tex-latex-bin-[0-9]*:../../print/tex-latex-bin
 DEPENDS+=	tex-lazylist-[0-9]*:../../print/tex-lazylist
 DEPENDS+=	tex-tools-[0-9]*:../../print/tex-tools
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 USE_TOOLS+=		gmake

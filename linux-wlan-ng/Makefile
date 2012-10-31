@@ -10,6 +10,8 @@ MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://www.linux-wlan.com/
 COMMENT=		Linux utilities for wireless prism2 cards
 
+PKG_DESTDIR_SUPPORT=	none
+
 USE_TOOLS+=		gmake
 HAS_CONFIGURE=		yes
 CONFIGURE_SCRIPT=	./Configure

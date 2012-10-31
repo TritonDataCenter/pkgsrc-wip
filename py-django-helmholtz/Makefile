@@ -13,8 +13,6 @@ COMMENT=	Framework for creating neuroscience databases
 
 DEPENDS+=	${PYPKGPREFIX}-django-[0-9]*:../../www/py-django
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/Helmholtz-0.1.0
 
 USE_TOOLS+=	pax

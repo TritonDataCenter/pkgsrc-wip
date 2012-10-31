@@ -11,8 +11,6 @@ HOMEPAGE=	http://github.com/olenz/pmi/
 COMMENT=	Parallel Method Invocation
 LICENSE=	gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 WRKSRC=		${WRKDIR}/pmi-1.0
 USE_LANGUAGES=	# none
 

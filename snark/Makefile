@@ -19,7 +19,7 @@ JAVA_APP_MAIN.snark=org.klomp.snark.Snark
 JAVA_APP_CLASSPATH.snark=${JAR_PREFIX}/snark.jar
 
 do-install:
-	${INSTALL_DATA} ${WRKSRC}/snark.jar ${JAR_PREFIX}/
+	${INSTALL_DATA} ${WRKSRC}/snark.jar ${DESTDIR}${JAR_PREFIX}/
 
 .include "../../wip/mk/java-app.mk"
 .include "../../mk/bsd.pkg.mk"

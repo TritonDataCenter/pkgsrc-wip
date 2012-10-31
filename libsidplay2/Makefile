@@ -12,6 +12,8 @@ COMMENT=	SID-chip emulator snapshot from ccr/TNSP
 
 CONFLICTS=	libsidplay2-[0-9]*
 
+PKG_DESTDIR_SUPPORT=	none
+
 GNU_CONFIGURE=	yes
 USE_TOOLS+=	pkg-config
 USE_LIBTOOL=	yes

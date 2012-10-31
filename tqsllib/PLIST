@@ -1,0 +1,11 @@
+@comment $NetBSD$
+bin/dumptqsldata
+include/adif.h
+include/cabrillo.h
+include/tqslconvert.h
+include/tqslerrno.h
+include/tqsllib.h
+lib/libtqsllib.la
+share/doc/ChangeLog
+share/doc/LICENSE
+share/tqsl/config.xml

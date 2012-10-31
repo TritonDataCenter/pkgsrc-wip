@@ -10,8 +10,6 @@ MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://peak.telecommunity.com/PyProtocols.html
 COMMENT=		Lets you easily define your own protocols and adapters
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 DEPENDS+=	zope3>=3.3.1:../../www/zope3
 
 PY_PATCHPLIST=		yes

@@ -1,8 +1,6 @@
 # $NetBSD$
 #
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 .include "../../wip/xfce48/Makefile.common"
 
 DISTNAME=	thunar-archive-plugin-0.3.0

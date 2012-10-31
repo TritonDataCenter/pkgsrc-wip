@@ -11,8 +11,6 @@ MAINTAINER=		rxg@NetBSD.org
 HOMEPAGE=		http://stardict.sourceforge.net/
 COMMENT=		Cross-Platform and international dictionary written in Gtk2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 BUILD_DEPENDS+=		p5-XML-Parser-[0-9]*:../../textproc/p5-XML-Parser
 
 LICENSE=		gnu-gpl-v3
