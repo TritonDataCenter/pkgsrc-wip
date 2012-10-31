@@ -3,7 +3,7 @@
 
 DISTNAME=	kaffeine-1.2.2
 CATEGORIES=	multimedia
-MASTER_SITES=	http://sourceforge.net/projects/kaffeine/files/current/
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=kaffeine/}
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://kaffeine.kde.org/

@@ -3,7 +3,7 @@
 
 DISTNAME=	emovix-0.9.0
 CATEGORIES=	multimedia
-MASTER_SITES=	http://downloads.sourceforge.net/project/movix/eMoviX/0.9/
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=movix/eMoviX/0.9/}
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://movix.sourceforge.net/
