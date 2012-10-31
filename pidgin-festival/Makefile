@@ -4,7 +4,7 @@
 DISTNAME=	pidgin-festival-2.4
 PKGREVISION=	5
 CATEGORIES=	chat audio
-MASTER_SITES=	http://downloads.sourceforge.net/pidgin-festival/
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=pidgin-festival/}
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://pidgin-festival.sourceforge.net/
