@@ -25,6 +25,6 @@ do-build:
 .include "../../mk/dlopen.buildlink3.mk"
 .include "../../mk/pthread.buildlink3.mk"
 .include "../../audio/alsa-lib/buildlink3.mk"
-#.include "../../audio/jack/buildlink3.mk" # jack build is broken on NetBSD
+.include "../../audio/jack/buildlink3.mk"
 .include "../../x11/wxGTK28/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
