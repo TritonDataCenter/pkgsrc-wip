@@ -4,7 +4,7 @@
 DISTNAME=	AutoQ3DCommunity1-40qt4source
 PKGNAME=	autoq3d-1.40
 CATEGORIES=	cad
-MASTER_SITES=	http://downloads.sourceforge.net/project/autoq3d/autoq3d/AutoQ3D%201.40/
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=autoq3d/}
 EXTRACT_SUFX=	.zip
 
 MAINTAINER=	pkgsrc-users@NetBSD.org

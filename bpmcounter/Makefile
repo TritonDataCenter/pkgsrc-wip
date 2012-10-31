@@ -3,7 +3,7 @@
 
 DISTNAME=	bpmcounter-0.1.0
 CATEGORIES=	audio
-MASTER_SITES=	http://downloads.sourceforge.net/project/djplay/bpmcounter/0.1.0/
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=djplay/bpmcounter/}
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://djplay.sourceforge.net/
