@@ -4,7 +4,7 @@
 DISTNAME=	itk3.3
 PKGNAME=	tk-${DISTNAME:S/k/k-/}
 CATEGORIES=	devel
-MASTER_SITES=	http://sourceforge.net/projects/incrtcl/files/%5BIncr%20Tcl_Tk%5D-source/3.3-RC/
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=incrtcl/}
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://incrtcl.sourceforge.net/itk/index.html
