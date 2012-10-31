@@ -20,7 +20,7 @@ USE_TOOLS+=		pkg-config
 
 do-build:
 			cd ${WRKSRC} && \
-			${SETENV} ${MAKE_ENV} ${PREFIX}/bin/scons platform=linux
+			${SETENV} ${MAKE_ENV} ${PREFIX}/bin/scons
 
 .include "../../mk/dlopen.buildlink3.mk"
 .include "../../mk/pthread.buildlink3.mk"
