@@ -4,7 +4,7 @@
 DISTNAME=	TclOO0.6
 PKGNAME=	${DISTNAME:S/TclOO/tcl-tclOO-/}
 CATEGORIES=	devel
-MASTER_SITES=	http://sourceforge.net/projects/tcl/files/TclOO%20Package/0.6/
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=tcl/}
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.tcl.tk/
