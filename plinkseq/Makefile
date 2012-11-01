@@ -23,5 +23,5 @@ BUILDLINK_TRANSFORM=	rm:-ldl
 
 REPLACE_BASH=	browser/pbrowse.in index/index.in
 
-.include "../../wip/protobuf/buildlink3.mk"
+.include "../../devel/protobuf/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

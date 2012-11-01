@@ -27,5 +27,5 @@ WRKSRC=		${WRKDIR}/seeks-0.3.2
 .include "../../www/curl/buildlink3.mk"
 .include "../../textproc/libxml2/buildlink3.mk"
 .include "../../databases/tokyocabinet/buildlink3.mk"
-.include "../../wip/protobuf/buildlink3.mk"
+.include "../../devel/protobuf/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
