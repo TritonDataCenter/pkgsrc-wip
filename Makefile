@@ -2231,7 +2231,6 @@ SUBDIR+=	probcons
 SUBDIR+=	probe
 SUBDIR+=	procps
 SUBDIR+=	progreiserfs
-SUBDIR+=	protobuf
 SUBDIR+=	prover9
 SUBDIR+=	proxychains
 SUBDIR+=	proxyknife
