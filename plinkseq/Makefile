@@ -14,14 +14,13 @@ GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_LANGUAGES=	c c++
 USE_TOOLS=	bash:run
+REPLACE_BASH=	browser/pbrowse.in index/index.in
 
 .include "../../mk/bsd.prefs.mk"
 
 .if $(OPSYS) != "Linux"
 BUILDLINK_TRANSFORM=	rm:-ldl
 .endif
-
-REPLACE_BASH=	browser/pbrowse.in index/index.in
 
 .include "../../devel/protobuf/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
