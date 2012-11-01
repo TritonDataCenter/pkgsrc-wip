@@ -1,5 +1,4 @@
 # $NetBSD$
-#
 
 DISTNAME=	plinkseq-0.08
 CATEGORIES=	biology
