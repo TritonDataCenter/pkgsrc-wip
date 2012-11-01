@@ -2201,7 +2201,6 @@ SUBDIR+=	pkgin
 SUBDIR+=	pkgmanager
 SUBDIR+=	plasti
 SUBDIR+=	plconfig
-SUBDIR+=	plinkseq
 SUBDIR+=	plod
 SUBDIR+=	plplot
 SUBDIR+=	plugger
