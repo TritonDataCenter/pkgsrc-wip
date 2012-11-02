@@ -1170,6 +1170,7 @@ SUBDIR+=	iptables
 SUBDIR+=	iptstate
 SUBDIR+=	ironpython
 SUBDIR+=	irrlicht
+SUBDIR+=	irrxml
 SUBDIR+=	ised
 SUBDIR+=	islamic-menus
 SUBDIR+=	ispell-dictionaries
