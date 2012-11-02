@@ -1415,6 +1415,7 @@ SUBDIR+=	libipctdata
 SUBDIR+=	libisoburn
 SUBDIR+=	libisofs
 SUBDIR+=	libitl
+SUBDIR+=	libjdksmidi
 SUBDIR+=	libjingle
 SUBDIR+=	liblingoteach
 SUBDIR+=	liblo
