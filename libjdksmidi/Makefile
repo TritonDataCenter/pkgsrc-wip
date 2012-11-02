@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	jdksmidi-20121031-1
+PKGNAME=	lib${DISTNAME:S/-1/r1/}
 CATEGORIES=	audio
 MASTER_SITES=	https://github.com/downloads/jdkoftinoff/jdksmidi/
 FETCH_USING=	curl
