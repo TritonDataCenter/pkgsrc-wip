@@ -19,7 +19,7 @@ INSTALLATION_DIRS+=	include/irrXML
 
 do-install:
 	cd ${WRKSRC} && \
-	for file in src/*.h; do \
+	for file in src/irrXML.cpp src/*.h; do \
 		${INSTALL_DATA} $${file} ${DESTDIR}${PREFIX}/include/irrXML; \
 	done
 
