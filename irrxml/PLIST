@@ -5,4 +5,5 @@ include/irrXML/heapsort.h
 include/irrXML/irrArray.h
 include/irrXML/irrString.h
 include/irrXML/irrTypes.h
+include/irrXML/irrXML.cpp
 include/irrXML/irrXML.h
