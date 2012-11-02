@@ -3,6 +3,7 @@
 
 DISTNAME=	AriaSrc-1.4.5
 PKGNAME=	${DISTNAME:S/Src/Maestosa/}
+PKGREVISION=	1
 CATEGORIES=	audio
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=ariamaestosa/}
 EXTRACT_SUFX=	.tar.bz2
@@ -18,6 +19,8 @@ USE_PKGLOCALEDIR=	yes
 USE_LANGUAGES=		c++
 USE_TOOLS+=		chmod pkg-config
 INSTALLATION_DIRS+=	share/applications
+
+.include "options.mk"
 
 
 do-build:
