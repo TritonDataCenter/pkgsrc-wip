@@ -33,6 +33,11 @@ CHECK_INTERPRETER_SKIP+=	share/examples/swig/*
 LDFLAGS+=	-lpcre
 
 TEST_TARGET=	check
+# Tests require lots of other dependencies.  There should be a better
+# way to encode this, but for now they are commented out -gdt.
+#.include "../../lang/python/extension.mk"
+#.include "../../lang/php53/buildlink3.mk"
+#.include "../../devel/boost-libs/buildlink3.mk"
 
 post-install:
 	cd ${WRKSRC}/Doc/Manual && \
