@@ -1,6 +1,6 @@
 $NetBSD$
 
---- configure.orig	Thu Jun 12 16:50:50 2003
+--- configure.orig	2003-05-09 10:06:54.000000000 +0000
 +++ configure
 @@ -409,7 +409,7 @@ exec 6>&1
  #
