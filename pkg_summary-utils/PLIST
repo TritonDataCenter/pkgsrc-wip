@@ -7,6 +7,8 @@ bin/pkg_cleanup_distdir
 bin/pkg_cmp_summary
 bin/pkg_digger
 bin/pkg_digger_backend
+bin/pkg_digger_installed
+bin/pkg_digger_summary
 bin/pkg_grep_summary
 bin/pkg_lint_summary
 bin/pkg_list_all_pkgs
@@ -35,6 +37,8 @@ man/man1/pkg_bin_summary.1
 man/man1/pkg_cleanup_distdir.1
 man/man1/pkg_cmp_summary.1
 man/man1/pkg_digger.1
+man/man1/pkg_digger_installed.1
+man/man1/pkg_digger_summary.1
 man/man1/pkg_grep_summary.1
 man/man1/pkg_lint_summary.1
 man/man1/pkg_list_all_pkgs.1
