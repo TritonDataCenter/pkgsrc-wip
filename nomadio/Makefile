@@ -10,7 +10,7 @@ MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://nomadio.lucifier.net/
 COMMENT=		Utility to control Creative Nomad II MG
 
-INSTALLATION_DIRS+=	bin ${PKGMANDIR}/man1 ${PKGMANDIR}/cat1
+INSTALLATION_DIRS+=	bin ${PKGMANDIR}/man1
 
 WRKSRC=			${WRKDIR}/${DISTNAME:S/-${PKGVERSION_NOREV}//}
 
@@ -20,6 +20,5 @@ do-build:
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/nomadio ${DESTDIR}${PREFIX}/bin/nomadio
 	${INSTALL_MAN} ${WRKSRC}/nomadio.1 ${DESTDIR}${PREFIX}/${PKGMANDIR}/man1/nomadio.1
-	${INSTALL_MAN} ${WRKSRC}/nomadio.cat1 ${DESTDIR}${PREFIX}/${PKGMANDIR}/cat1/nomadio.0
 
 .include "../../mk/bsd.pkg.mk"
