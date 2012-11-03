@@ -13,6 +13,11 @@ INSTALLATION_DIRS=	bin lib
 
 LICENSE=	modified-bsd
 
+SUBST_CLASSES+=         log2
+SUBST_SED.log2=         -e "s/log2/int_log2/g"
+SUBST_STAGE.log2=       post-patch
+SUBST_FILES.log2=       Lib/*
+
 do-test:
 	cd ${WRKSRC}/Graphs && ./mtest 4elt.graph
 	cd ${WRKSRC}/Graphs && ./mtest test.mgraph
