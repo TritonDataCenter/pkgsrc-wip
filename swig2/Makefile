@@ -12,7 +12,7 @@ MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=swig/}
 
 MAINTAINER=	jwbacon@tds.net
 HOMEPAGE=	http://www.swig.org/
-COMMENT=	Simplified Wrapper and Interface Generator
+COMMENT=	Simplified Wrapper and Interface Generator (version 2)
 LICENSE=	2-clause-bsd
 
 CONFLICTS=		swig-build-[0-9]*
