@@ -63,6 +63,7 @@ MAKE_ENV+=	DISTDIR=${DISTDIR}
 MAKE_ENV+=	PKGSRCDIR=${PKGSRCDIR}
 MAKE_ENV+=	PKG_SUFX=${PKG_SUFX}
 MAKE_ENV+=	PKG_INFO_CMD=${PKG_INFO:Q}
+MAKE_ENV+=	PKG_DBDIR=${PKG_DBDIR}
 
 .include "../../devel/mk-configure/mk-c.mk"
 .include "../../mk/bsd.pkg.mk"
