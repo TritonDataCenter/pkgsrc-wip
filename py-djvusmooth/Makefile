@@ -15,10 +15,10 @@ INSTALLATION_DIRS=	${PKGMANDIR}/man1
 
 USE_LANGUAGES=	# none
 
-DEPENDS+=	${PYPKGPREFIX}-xdg:../../devel/py-xdg
-DEPENDS+=	${PYPKGPREFIX}-wxWidgets:../../x11/py-wxWidgets
-DEPENDS+=	${PYPKGPREFIX}-djvulibre:../../wip/py-djvulibre
-DEPENDS+=	djvulibre-tools:../../graphics/djvulibre-tools
+DEPENDS+=	${PYPKGPREFIX}-xdg-[0-9]*:../../devel/py-xdg
+DEPENDS+=	${PYPKGPREFIX}-wxWidgets-[0-9]*:../../x11/py-wxWidgets
+DEPENDS+=	${PYPKGPREFIX}-djvulibre-[0-9]*:../../wip/py-djvulibre
+DEPENDS+=	djvulibre-tools-[0-9]*:../../graphics/djvulibre-tools
 
 PYDISTUTILSPKG=	yes
 
