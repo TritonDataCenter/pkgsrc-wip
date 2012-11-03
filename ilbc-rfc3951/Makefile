@@ -21,5 +21,7 @@ USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=		yes
 USE_LANGUAGES+=		c c++ fortran77
 GNU_CONFIGURE=		yes
+USE_TOOLS+=		gsed
+
 
 .include "../../mk/bsd.pkg.mk"
