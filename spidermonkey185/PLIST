@@ -9,7 +9,7 @@ include/js/LIR.h
 include/js/LIRopcode.tbl
 include/js/Native.h
 include/js/NativeCommon.h
-include/js/Native${MACHINE_ARCH}.h
+include/js/Native${ARCH}.h
 include/js/RegAlloc.h
 include/js/VMPI.h
 include/js/Writer.h
