@@ -12,7 +12,7 @@ HOMEPAGE=	http://trac.edgewall.org/wiki/SpamFilter
 COMMENT=	Spam Filter plugin for Trac
 
 DEPENDS+=	{ja-,}trac>=0.12:../../www/trac
-DEPENDS+=	${PYPKGPREFIX}-dns:../../net/py-dns
+DEPENDS+=	${PYPKGPREFIX}-dns-[0-9]*:../../net/py-dns
 
 SVN_REPOSITORIES=	spamfilter
 SVN_ROOT.spamfilter=	http://svn.edgewall.org/repos/trac/plugins/0.12/spam-filter-captcha
