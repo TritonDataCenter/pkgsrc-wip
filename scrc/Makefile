@@ -16,7 +16,7 @@ USE_LANGUAGES+=		c
 USE_TOOLS+=		gmake gtar
 
 DEPENDS+=		bison>=1.35:../../devel/bison
-DEPENDS+=		unix2dos:../../converters/unix2dos
+DEPENDS+=		unix2dos-[0-9]*:../../converters/unix2dos
 
 #ONLY_FOR_PLATFORM=	NetBSD-*-i386
 #ONLY_FOR_PLATFORM+=	Linux-*-i[3-6]86
