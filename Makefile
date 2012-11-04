@@ -1440,7 +1440,6 @@ SUBDIR+=	libpano12
 SUBDIR+=	libpar2
 SUBDIR+=	libparsifal
 SUBDIR+=	libpcap-latest
-SUBDIR+=	libpeas
 SUBDIR+=	libpsurface
 SUBDIR+=	libpthread-stubs
 SUBDIR+=	libpusb
