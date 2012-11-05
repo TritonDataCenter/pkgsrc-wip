@@ -2,6 +2,7 @@
 
 .if !empty(PKG_OPTIONS:Mdbus)
 .  include "../../sysutils/dbus/buildlink3.mk"
+PLIST.dbus=yes
 CONFIGURE_ARGS+=	--enable-dbus
 .else
 CONFIGURE_ARGS+=	--disable-dbus
