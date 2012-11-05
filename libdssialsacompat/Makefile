@@ -8,6 +8,7 @@ MASTER_SITES=	http://home.jps.net/~musound/
 MAINTAINER=	jfranz@bsdprojects.net
 HOMEPAGE=	http://home.jps.net/~musound/
 COMMENT=	Alsa compatibility library to build DSSI
+LICENSE=	gnu-lgpl-v2.1
 
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
