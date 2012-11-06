@@ -7,7 +7,7 @@ CATEGORIES=	multimedia
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=sfml/}
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
-HOMEPAGE=	http://sfml.sourceforge.net/
+HOMEPAGE=	http://www.sfml-dev.org/
 COMMENT=	Free multimedia C++ API
 LICENSE=	zlib
 
