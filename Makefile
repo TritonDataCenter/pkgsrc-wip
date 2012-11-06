@@ -83,7 +83,6 @@ SUBDIR+=	alex
 SUBDIR+=	alive
 SUBDIR+=	allegro
 SUBDIR+=	alphamail
-SUBDIR+=	alsa-lib
 SUBDIR+=	alsa-plugins
 SUBDIR+=	alsa-utils
 SUBDIR+=	alt-ergo
