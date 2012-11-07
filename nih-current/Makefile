@@ -14,7 +14,7 @@ GIT_REPOSITORIES=	pkgnih
 GIT_REPO.pkgnih=	git://github.com/cheusov/pkgnih.git
 .include "../../wip/mk/git-package.mk"
 
-DEPENDS+=	pkg_summary-utils>=0.56.0:../../pkgtools/pkg_summary-utils
+DEPENDS+=	pkg_summary-utils>=0.59.0nb1:../../pkgtools/pkg_summary-utils
 DEPENDS+=	digest-[0-9]*:../../pkgtools/digest
 DEPENDS+=	pkg_install>=20100915:../../pkgtools/pkg_install
 
