@@ -24,9 +24,9 @@ PKGCONFIG_OVERRIDE+=	edelib-gui.pc.in
 PKGCONFIG_OVERRIDE+=	edelib.pc.in
 
 PKG_OPTIONS_VAR=	PKG_OPTIONS.edelib
-PKG_SUPPORTED_OPTIONS=	dbus fam fam-only largefile nls shared
-PKG_SUGGESTED_OPTIONS=	dbus fam nls shared
-PLIST_VARS+=	shlibs statlibs dbus
+PKG_SUPPORTED_OPTIONS=	fam fam-only largefile nls shared
+PKG_SUGGESTED_OPTIONS=	fam nls shared
+PLIST_VARS+=	shlibs statlibs
 
 .include "../../mk/bsd.prefs.mk"
 .include "../../mk/bsd.options.mk"
@@ -45,6 +45,7 @@ BUILD_DEPENDS+=	doxygen:../../devel/doxygen
 
 BUILD_DEPENDS+=	jam:../../devel/jam
 
+.include "../../sysutils/dbus/buildlink3.mk"
 .include "../../x11/fltk13/buildlink3.mk"
 
 do-build:
