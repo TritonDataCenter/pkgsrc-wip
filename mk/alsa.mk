@@ -1,4 +1,4 @@
-# $Id: alsa.mk,v 1.1 2008/01/16 19:43:56 ondratu Exp $
+# $Id$
 # from "Id: oshavercd.mk,v 1.4 2003/11/19 21:28:47 bubuchka Exp"
 #
 #
@@ -31,7 +31,7 @@ buildlink-alsa:
 
 .	else
 OS_HAVE_ALSA=		NO
-.include "../../wip/alsa-lib/buildlink3.mk"
+.include "../../audio/alsa-lib/buildlink3.mk"
 .	endif
 .endif
 

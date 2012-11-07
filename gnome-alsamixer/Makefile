@@ -15,6 +15,6 @@ PKG_DESTDIR_SUPPORT=	none
 GNU_CONFIGURE=		yes
 
 .include "../../devel/libgnomeui/buildlink3.mk"
-.include "../../wip/alsa-lib/buildlink3.mk"
+.include "../../audio/alsa-lib/buildlink3.mk"
 
 .include "../../mk/bsd.pkg.mk"
