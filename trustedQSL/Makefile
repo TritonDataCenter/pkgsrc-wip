@@ -23,7 +23,7 @@ CONFIGURE_ARGS+=	--with-tqsllib=${PREFIX}/lib
 CONFIGURE_ARGS+=	--with-wxwindows=${PREFIX}
 # The configure script is broken and looks in explicit paths, instead
 # of just trying to link.
-CONFIGURE_ARGS+=	--with-expat=${PREFIX}
+CONFIGURE_ARGS+=	--with-expat=${BUILDLINK_PREFIX.expat}
 
 SUBST_CLASSES+=		wxGTK
 SUBST_STAGE.wxGTK=	post-patch
