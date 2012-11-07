@@ -8,6 +8,7 @@ MASTER_SITES=	http://semicomplete.googlecode.com/files/
 MAINTAINER=	rga@sdf.lonestar.org
 HOMEPAGE=	http://www.semicomplete.com/projects/xdotool/
 COMMENT=	Simulate keyboard input and mouse activity using X11 xtest extension
+LICENSE=	modified-bsd
 
 NO_CONFIGURE=   yes
 USE_LIBTOOL=    yes
