@@ -3,6 +3,7 @@
 
 DISTNAME=	alsa-plugins-1.0.18
 CATEGORIES=	audio
+PKGREVISION=	1
 MASTER_SITES=	ftp://ftp.alsa-project.org/pub/plugins/
 EXTRACT_SUFX=	.tar.bz2
 

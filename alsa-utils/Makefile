@@ -2,6 +2,7 @@
 #
 
 DISTNAME=		alsa-utils-1.0.4
+PKGREVISION=		1
 CATEGORIES=		audio
 MASTER_SITES=		ftp://ftp.alsa-project.org/pub/utils/
 MASTER_SITES=		http://www.alsa-project.org/alsa/ftp/utils/	\
