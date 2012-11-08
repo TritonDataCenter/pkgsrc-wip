@@ -120,6 +120,15 @@ CONFIGURE_ARGS+=	--without-system-libcmis
 CONFIGURE_ARGS+=	--without-system-mozilla-headers
 CONFIGURE_ARGS+=	--without-system-sampleicc
 
+# NetBSD's dynamic linker apparently doesn't support $ORIGIN
+# Preset LD_LIBRARY_PATH to sane defaults on this platform
+.if ${OPSYS} == "NetBSD"
+LIBPATH=       ${BUILDLINK_DIR}/lib:${X11BASE}/lib
+LIBPATH:=      ${LIBPATH}:${WRKSRC}/desktop/unxnbsd.pro/lib
+LIBPATH:=      ${LIBPATH}:${WRKSRC}/solver/unxnbsd.pro/lib
+CONFIGURE_ENV+=        LD_LIBRARY_PATH=${LIBPATH}
+.endif
+
 SUBST_CLASSES+=			localbase
 SUBST_STAGE.localbase=		pre-configure
 SUBST_FILES.localbase=		configure.in
