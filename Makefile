@@ -187,7 +187,6 @@ SUBDIR+=	avifile-devel
 SUBDIR+=	avr-binutils
 SUBDIR+=	avr-gcc
 SUBDIR+=	avr-libc
-SUBDIR+=	awesome
 SUBDIR+=	awflwm
 SUBDIR+=	axe
 SUBDIR+=	axel
