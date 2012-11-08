@@ -862,7 +862,6 @@ SUBDIR+=	habak
 SUBDIR+=	haddock
 SUBDIR+=	hanazono-ttf
 SUBDIR+=	happy
-SUBDIR+=	harminv
 SUBDIR+=	hasciicam
 SUBDIR+=	haserl
 SUBDIR+=	haskell-mode
