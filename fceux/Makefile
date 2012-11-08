@@ -4,7 +4,7 @@
 DISTNAME=	fceux-2.1.5.src
 PKGNAME=	${DISTNAME:S/.src//}
 CATEGORIES=	emulators
-MASTER_SITES=	http://sourceforge.net/projects/fceultra/files/Source%20Code/2.1.5%20src/
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=fceultra/}
 EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	pkgsrc-users@NetBSD.org

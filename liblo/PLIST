@@ -1,4 +1,6 @@
 @comment $NetBSD$
+bin/oscdump
+bin/oscsend
 include/lo/lo.h
 include/lo/lo_endian.h
 include/lo/lo_errors.h

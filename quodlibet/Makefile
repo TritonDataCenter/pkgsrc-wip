@@ -1,9 +1,8 @@
 # $NetBSD$
 #
 
-DISTNAME=	quodlibet-2.1
+DISTNAME=	quodlibet-2.4.1
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
-PKGREVISION=	4
 CATEGORIES=	audio
 MASTER_SITES=	http://quodlibet.googlecode.com/files/
 

@@ -5,7 +5,7 @@ DISTNAME=	itcl3.4.1
 PKGNAME=	${DISTNAME:S/itcl/tcl85-itcl-/}
 PKGREVISION=	1
 CATEGORIES=	devel
-MASTER_SITES=	http://sourceforge.net/projects/incrtcl/files/%5BIncr%20Tcl_Tk%5D-source/3.4.1/
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=incrtcl/}
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://incrtcl.sourceforge.net/

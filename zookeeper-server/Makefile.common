@@ -2,7 +2,7 @@
 #
 # used by wip/zookeeper-client/Makefile
 
-DISTNAME=	zookeeper-3.4.3
+DISTNAME=	zookeeper-3.4.4
 CATEGORIES=	sysutils
 MASTER_SITES=	${MASTER_SITE_APACHE:=zookeeper/${DISTNAME}/}
 

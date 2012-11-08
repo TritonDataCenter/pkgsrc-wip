@@ -65,5 +65,5 @@ COMMENT=	Xfce
 #.include "../../x11/xfce4-terminal/buildlink3.mk"
 #.include "../../x11/xfce4-utils/buildlink3.mk"
 
-DEPENDS+=	xfce4-tumbler:../../wip/xfce4-tumbler
+DEPENDS+=	xfce4-tumbler-[0-9]*:../../wip/xfce4-tumbler
 .include "../../mk/bsd.pkg.mk"

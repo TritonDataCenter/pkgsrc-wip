@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		freej-0.8.1
-PKGREVISION=		3
+PKGREVISION=		4
 CATEGORIES=		multimedia
 MASTER_SITES=		http://www.ljudmila.org/~jaromil/freej/releases/
 
@@ -22,7 +22,7 @@ GNU_CONFIGURE=		yes
 .include "../../multimedia/libogg/buildlink3.mk"
 .include "../../audio/libvorbis/buildlink3.mk"
 .include "../../graphics/freetype2/buildlink3.mk"
-.include "../../wip/alsa-lib/buildlink3.mk"
+.include "../../audio/alsa-lib/buildlink3.mk"
 .include "../../graphics/png/buildlink3.mk"
 .include "../../mk/jpeg.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

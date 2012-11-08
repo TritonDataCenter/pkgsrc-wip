@@ -26,7 +26,7 @@ INSTALLATION_DIRS+=	${PKGINFODIR} bin
 INFO_FILES=		yes
 INSTALL_UNSTRIPPED=	yes
 
-DEPENDS=		sudo:../../security/sudo
+DEPENDS=		sudo-[0-9]*:../../security/sudo
 .if !empty(PKG_OPTIONS:Mclisp)
 LISP_CENTRAL_REGISTRY=	${CLISP_CENTRAL_REGISTRY}
 # X11 bindings

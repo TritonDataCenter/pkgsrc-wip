@@ -36,7 +36,7 @@ BUILDLINK_API_DEPENDS.celt+=   celt<0.7.1
 .include "../../x11/libXevie/buildlink3.mk"
 # XXX: TODO: check what happes to this with pulse/alsa/oss/other enabled
 .include "../../audio/portaudio/buildlink3.mk"
-.include "../../wip/protobuf/buildlink3.mk"
+.include "../../devel/protobuf/buildlink3.mk"
 
 .include "../../x11/qt4-tools/buildlink3.mk"
 .include "../../x11/qt4-libs/buildlink3.mk"

@@ -2,6 +2,7 @@
 #
 
 DISTNAME=		alsa-utils-1.0.4
+PKGREVISION=		1
 CATEGORIES=		audio
 MASTER_SITES=		ftp://ftp.alsa-project.org/pub/utils/
 MASTER_SITES=		http://www.alsa-project.org/alsa/ftp/utils/	\
@@ -18,7 +19,7 @@ COMMENT=		Advanced Linux Sound Architecture (ALSA) command-line utilities
 
 GNU_CONFIGURE=		yes
 
-.include "../../wip/alsa-lib/buildlink3.mk"
+.include "../../audio/alsa-lib/buildlink3.mk"
 .include "../../devel/ncurses/buildlink3.mk"
 
 .include "../../mk/bsd.pkg.mk"

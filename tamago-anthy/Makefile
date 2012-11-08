@@ -29,7 +29,7 @@ USE_TOOLS+=	pax patch
 INFO_FILES=	yes
 
 # requires KANA-Kanji conversion engine
-DEPENDS+=	anthy:../../inputmethod/anthy
+DEPENDS+=	anthy-[0-9]*:../../inputmethod/anthy
 
 CVS_REPOSITORIES=	tamago
 CVS_ROOT.tamago=	:pserver:anonymous:@cvs.m17n.org:/cvs/tamago

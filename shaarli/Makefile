@@ -14,7 +14,7 @@ COMMENT=	Shaarli is a minimalist delicious clone
 LICENSE=	png-license
 
 .include "../../lang/php/phpversion.mk"
-DEPENDS+= ${PHP_PKG_PREFIX}-zlib:../../archivers/php-zlib
+DEPENDS+= ${PHP_PKG_PREFIX}-zlib-[0-9]*:../../archivers/php-zlib
 
 USE_TOOLS+=	pax
 NO_BUILD=	yes

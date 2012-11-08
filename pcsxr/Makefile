@@ -3,11 +3,11 @@
 
 DISTNAME=	pcsxr-1.9.92
 CATEGORIES=	emulators
-MASTER_SITES=	http://pcsxr.codeplex.com/downloads/get/
+MASTER_SITES=	http://pcsxr.codeplex.com/downloads/get/140521
 EXTRACT_SUFX=	.tar.bz2
-
-# The distfile needs to be manually fetched from:
-# http://pcsxr.codeplex.com/downloads/get/140521 and renamed as shown above.
+FETCH_MESSAGE=	"Please download the file:"
+FETCH_MESSAGE+=	"    "${DISTFILES:Q}
+FETCH_MESSAGE+=	"manually from "${MASTER_SITES:Q}"."
 # The links to the distfilse on CodePlex are not DDLs. This is a huge PITA.
 
 MAINTAINER=	pkgsrc-users@NetBSD.org

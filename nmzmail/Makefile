@@ -13,6 +13,12 @@ LICENSE=	gnu-gpl-v3
 
 GNU_CONFIGURE=		yes
 
+SUBST_CLASSES+=		mknmz
+SUBST_FILES.mknmz=	src/nmzmail.c
+SUBST_MESSAGE.mknmz=	Fixing mknmz executable path.
+SUBST_STAGE.mknmz=	post-configure
+SUBST_SED.mknmz=	-e "s|mknmz|${PREFIX}/bin/mknmz|"
+
 DEPENDS+=	namazu>=2.0.20:../../textproc/namazu
 
 .include "../../devel/readline/buildlink3.mk"

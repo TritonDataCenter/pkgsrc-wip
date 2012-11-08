@@ -4,7 +4,7 @@
 DISTNAME=	iwidgets-4.0.1
 PKGNAME=	tcl-${DISTNAME}
 CATEGORIES=	devel lang
-MASTER_SITES=	http://sourceforge.net/projects/incrtcl/files/%5BIncr%20Widgets%5D/4.0.1/
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=incrtcl/}
 EXTRACT_SUFX=	.zip
 
 MAINTAINER=	pkgsrc-users@NetBSD.org

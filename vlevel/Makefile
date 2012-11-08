@@ -3,7 +3,7 @@
 
 DISTNAME=	vlevel-0.5
 CATEGORIES=	audio
-MASTER_SITES=	http://downloads.sourceforge.net/vlevel/
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=vlevel/}
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://vlevel.sourceforge.net/

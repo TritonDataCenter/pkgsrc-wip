@@ -3,7 +3,7 @@
 
 DISTNAME=	tengwar-ttf-20100611
 CATEGORIES=	fonts
-MASTER_SITES=	http://sourceforge.net/projects/freetengwar/files/TengwarFont/
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=freetengwar/}
 EXTRACT_SUFX=	.zip
 DISTFILES=	TengwarFormalCSUR11.zip FreeMonoTengwar.2010-06-11.zip
 DISTFILES+=	TengwarTelcontar.008.zip

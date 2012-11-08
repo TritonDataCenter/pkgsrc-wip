@@ -1,6 +1,6 @@
 # $NetBSD: Makefile.common,v 1.1 2008/10/15 01:58:53 bjs Exp $
 #
-# used by audio/libmpg123/Makefile
+# used by wip/libmpg123/Makefile
 
 .include "../../wip/libmpg123/Makefile.version"
 
@@ -11,6 +11,7 @@ EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	bch@methodlogic.net
 HOMEPAGE=	http://mpg123.sourceforge.net/
+LICENSE=	gnu-lgpl-v2.1 AND gnu-gpl-v2
 
 
 GNU_CONFIGURE=	yes

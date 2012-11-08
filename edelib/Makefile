@@ -1,9 +1,8 @@
 # $NetBSD$
 #
 
-DISTNAME=	edelib-2.0-beta
-PKGNAME=	${DISTNAME:S/-beta//}
-PKGREVISION=	1
+DISTNAME=	edelib-2.0
+PKGREVISION=	2
 CATEGORIES=	devel
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=ede/}
 
@@ -13,8 +12,8 @@ COMMENT=	Libraries for Equinox Desktop
 LICENSE=	gnu-lgpl-v2
 
 PKG_DESTDIR_SUPPORT=	none
+CHECK_PORTABILITY_SKIP=	test/run-all.sh
 
-WRKSRC=		${WRKDIR}/edelib-2.0-beta
 GNU_CONFIGURE=	yes
 USE_TOOLS+=	pkg-config jam
 USE_LIBTOOL=	yes
@@ -25,8 +24,8 @@ PKGCONFIG_OVERRIDE+=	edelib-gui.pc.in
 PKGCONFIG_OVERRIDE+=	edelib.pc.in
 
 PKG_OPTIONS_VAR=	PKG_OPTIONS.edelib
-PKG_SUPPORTED_OPTIONS=	dbus fam fam-only largefile nls shared
-PKG_SUGGESTED_OPTIONS=	dbus fam nls shared
+PKG_SUPPORTED_OPTIONS=	fam fam-only largefile nls shared
+PKG_SUGGESTED_OPTIONS=	fam nls shared
 PLIST_VARS+=	shlibs statlibs
 
 .include "../../mk/bsd.prefs.mk"
@@ -46,7 +45,8 @@ BUILD_DEPENDS+=	doxygen:../../devel/doxygen
 
 BUILD_DEPENDS+=	jam:../../devel/jam
 
-.include "../../x11/fltk/buildlink3.mk"
+.include "../../sysutils/dbus/buildlink3.mk"
+.include "../../x11/fltk13/buildlink3.mk"
 
 do-build:
 	cd ${WRKSRC} && ${SETENV} ${MAKE_ENV} jam

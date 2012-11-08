@@ -4,7 +4,7 @@
 #DISTNAME=		cinelerra-1.2.0-src
 DISTNAME=		hvirtual_1.2.0-2cvs20040814
 PKGNAME=		cinelerra-1.2.0-2cvs20040814
-PKGREVISION=		2
+PKGREVISION=		3
 CATEGORIES=		multimedia
 # unofficial source is here
 MASTER_SITES=		http://www.kiberpipa.org/~minmax/cinelerra/builds/sid/
@@ -26,7 +26,7 @@ GNU_CONFIGURE=		yes
 USE_TOOLS+=		gmake
 
 # maybe have an option for HAVE_ALSA
-.include "../../wip/alsa-lib/buildlink3.mk"
+.include "../../audio/alsa-lib/buildlink3.mk"
 .include "../../audio/esound/buildlink3.mk"
 .include "../../audio/faad2/buildlink3.mk"
 # what can be done about ACCEPTABLE_LICENSES=fee-based-commercial-use ?

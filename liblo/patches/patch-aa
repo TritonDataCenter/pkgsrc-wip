@@ -1,8 +1,10 @@
 $NetBSD$
 
---- src/lo_types_internal.h.orig	2005-08-11 11:07:29.000000000 +0200
+Adds sys/socket.h.
+
+--- src/lo_types_internal.h.orig	2009-03-06 07:09:26.000000000 +0000
 +++ src/lo_types_internal.h
-@@ -9,6 +9,7 @@
+@@ -29,6 +29,7 @@ typedef __int32 int32_t;
  #endif
  
  #include <pthread.h>

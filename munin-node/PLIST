@@ -50,8 +50,6 @@ lib/munin/plugins/ifx_concurrent_sessions_
 lib/munin/plugins/ipac-ng
 lib/munin/plugins/ipmi_sensor_
 lib/munin/plugins/ircu
-lib/munin/plugins/jmx_
-lib/munin/plugins/jmx_tomcat_dbpools
 lib/munin/plugins/loggrep
 lib/munin/plugins/lpstat
 lib/munin/plugins/mailman

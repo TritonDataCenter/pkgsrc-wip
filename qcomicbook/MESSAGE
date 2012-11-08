@@ -1,0 +1,19 @@
+===========================================================================
+$NetBSD$
+
+One or more of the following archivers:
+
+	archivers/bsdtar
+	archivers/gtar
+	archivers/heirloom-tar
+	archivers/mousetar
+	archivers/p7zip
+	archivers/rar
+	archivers/star
+	archivers/unace
+	archivers/unrar
+	archivers/unzip
+
+is required to open some comic book archives.
+
+===========================================================================

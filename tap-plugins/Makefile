@@ -3,7 +3,7 @@
 
 DISTNAME=	tap-plugins-0.7.2
 CATEGORIES=	audio
-MASTER_SITES=	http://sourceforge.net/projects/tap-plugins/files/tap-plugins/0.7.2/
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=tap-plugins/}
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://tap-plugins.sourceforge.net/ladspa.html

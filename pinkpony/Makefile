@@ -13,7 +13,6 @@ COMMENT=	Pink Pony is a 3D racing game with ponies!
 LICENSE=	gnu-gpl-v3
 
 BUILD_DEPENDS+=	scons-[0-9]*:../../devel/scons
-#DEPENDS+=	protobuf-[0-9]*:../../wip/protobuf
 
 WRKSRC=		${WRKDIR}/pink-pony
 USE_LANGUAGES=	c c++
@@ -32,7 +31,7 @@ do-install:
 .include "../../graphics/freetype2/buildlink3.mk"
 .include "../../devel/libsigc++/buildlink3.mk"
 .include "../../wip/audiere/buildlink3.mk"
-.include "../../wip/protobuf/buildlink3.mk"
+.include "../../devel/protobuf/buildlink3.mk"
 .include "../../devel/devIL/buildlink3.mk"
 .include "../../mk/find-prefix.mk"
 .include "../../mk/bsd.pkg.mk"

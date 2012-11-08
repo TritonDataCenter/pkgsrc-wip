@@ -25,7 +25,24 @@ Adding NetBSD support. Setting CFLAGS, LDFLAGS, etc.
  LDFLAGS += $(SHARED)
  
  # Since we are building a shared library, we must compile with -fPIC on some architectures
-@@ -146,6 +151,10 @@ ifeq ($(OS), OSX)
+@@ -132,20 +137,24 @@ ifeq ($(OS), FREEBSD)
+   endif
+ endif
+ ifeq ($(OS), LINUX)
+-  LDLIBS += -ldl
++  LDLIBS += ${DL_LIBS}
+ endif
+ ifeq ($(OS), OSX)
+   ifeq ($(CPU), X86)
+     ifeq ($(ARCH_DETECTED), 64BITS)
+       CFLAGS += -arch x86_64 -mmacosx-version-min=10.5 -isysroot /Developer/SDKs/MacOSX10.5.sdk
+-      LDLIBS += -ldl
++      LDLIBS += ${DL_LIBS}
+     else
+       CFLAGS += -mmmx -msse -fomit-frame-pointer -arch i686 -mmacosx-version-min=10.5 -isysroot /Developer/SDKs/MacOSX10.5.sdk
+       LDFLAGS += -arch i686
+-      LDLIBS += -ldl
++      LDLIBS += ${DL_LIBS}
      endif
    endif
  endif
