@@ -1,0 +1,7 @@
+@comment $NetBSD$
+${PYSITELIB}/pyraphrase/__init__.py
+${PYSITELIB}/pyraphrase/__init__.pyc
+${PYSITELIB}/pyraphrase/__init__.pyo
+${PYSITELIB}/pyraphrase/pyraphrase.py
+${PYSITELIB}/pyraphrase/pyraphrase.pyc
+${PYSITELIB}/pyraphrase/pyraphrase.pyo
