@@ -3001,7 +3001,6 @@ SUBDIR+=	swarp
 SUBDIR+=	swfmill
 SUBDIR+=	swftools
 SUBDIR+=	swift
-SUBDIR+=	swig2
 SUBDIR+=	sword
 SUBDIR+=	sxemacs
 SUBDIR+=	sxid
