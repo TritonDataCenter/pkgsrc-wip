@@ -1,0 +1,7 @@
+@comment $NetBSD$
+${PYSITELIB}/asciimathml.py
+${PYSITELIB}/asciimathml.pyc
+${PYSITELIB}/asciimathml.pyo
+${PYSITELIB}/mdx_asciimathml.py
+${PYSITELIB}/mdx_asciimathml.pyc
+${PYSITELIB}/mdx_asciimathml.pyo
