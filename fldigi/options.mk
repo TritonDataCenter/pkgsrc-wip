@@ -2,7 +2,7 @@
 
 PKG_OPTIONS_VAR=	PKG_OPTIONS.fldigi
 PKG_SUPPORTED_OPTIONS=	fltk13
-PKG_SUGGESTED_OPTIONS=
+PKG_SUGGESTED_OPTIONS=	fltk13
 
 .include "../../mk/bsd.options.mk"
 
