@@ -2,7 +2,7 @@
 
 PKG_OPTIONS_VAR=	PKG_OPTIONS.retroarch
 PKG_SUPPORTED_OPTIONS=	alsa jack libao openal oss portaudio pulseaudio
-PKG_SUPPORTED_OPTIONS+=	samplerate
+PKG_SUPPORTED_OPTIONS+=	samplerate syslog
 PKG_SUGGESTED_OPTIONS=	libao openal oss pulseaudio samplerate
 
 .include "../../mk/bsd.options.mk"
@@ -62,4 +62,10 @@ CONFIGURE_ARGS+=	--disable-portaudio
 CONFIGURE_ARGS+=	--enable-pulse
 .else
 CONFIGURE_ARGS+=	--disable-pulse
+.endif
+
+.if !empty(PKG_OPTIONS:Msyslog)
+CONFIGURE_ARGS+=	--enable-syslog
+.else
+CONFIGURE_ARGS+=	--disable-syslog
 .endif
