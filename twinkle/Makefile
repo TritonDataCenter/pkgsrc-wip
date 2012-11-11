@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		twinkle-1.4.2
-PKGREVISION=		5
+PKGREVISION=		6
 CATEGORIES=		audio chat net
 MASTER_SITES=		http://www.xs4all.nl/~mfnboer/twinkle/download/
 
@@ -29,6 +29,7 @@ SUBST_SED.boost+=	-e 's,boost_regex-gcc,boost_regex-mt,'
 .include "options.mk"
 
 LDFLAGS+=		${BUILDLINK_LDADD.oss}
+
 
 .include "../../security/libgcrypt/buildlink3.mk"
 .include "../../mk/oss.buildlink3.mk"
