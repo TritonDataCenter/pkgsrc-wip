@@ -1,4 +1,4 @@
-# $NetBSD: Makefile,v 1.29 2010/04/12 13:57:59 taca Exp $
+# $NetBSD: Makefile,v 1.1 2012/11/09 14:25:44 gdt Exp $
 
 DISTNAME=	swig-2.0.8
 PKGREVISION=	1
@@ -25,12 +25,11 @@ CONFLICTS=		swig-build-[0-9]*
 # 2012-10: gnuradio is said to work with swig2 (private communication
 # by gdt@ with a GNU Radio developer).  However, it doesn't find 'swig2'.
 
-# TODO: check x11/ruby-wxruby for working with swig2, but this is not
-# a bar to importing it.
-
 # Keep the path from changing due to minor version bumps.
+# Conventional naming for swig installations uses suffix major.minor.  ( See
+# math/ufc CMakeLists, FreeBSD port, etc. )
 CONFIGURE_ARGS+=	--with-swiglibdir=${PREFIX}/share/swig/2.0 \
-			--program-suffix=2
+			--program-suffix=2.0
 BUILD_TARGET=		swig
 
 USE_TOOLS+=		gmake pax
