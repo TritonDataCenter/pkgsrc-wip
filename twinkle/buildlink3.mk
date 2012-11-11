@@ -12,6 +12,10 @@ BUILDLINK_PKGSRCDIR.twinkle?=	../../wip/twinkle
 pkgbase := twinkle
 .include "../../mk/pkg-build-options.mk"
 
+.if !empty(PKG_BUILD_OPTIONS:Malsa)
+.include "../../audio/alsa-lib/buildlink3.mk"
+.endif
+
 .if !empty(PKG_BUILD_OPTIONS:Milbc)
 .include "../../wip/ilbc-rfc3951/buildlink3.mk"
 .endif
