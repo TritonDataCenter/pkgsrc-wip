@@ -7,7 +7,7 @@ PKGREVISION=	1
 CATEGORIES=	graphics python
 MASTER_SITES=	http://launchpad.net/fenics-viper/1.0.x/1.0.0/+download/
 
-MAINTAINER=	pkgsrc-users@NetBSD.org
+MAINTAINER=	jwbacon@tds.net
 HOMEPAGE=	https://launchpad.net/fenics-viper
 COMMENT=	Scientific plotter and run-time visualization module
 
