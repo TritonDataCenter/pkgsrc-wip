@@ -11,11 +11,11 @@ BUILDLINK_PKGSRCDIR.mupen64plus?=	../../wip/mupen64plus
 pkgbase := mupen64plus
 .include "../../mk/pkg-build-options.mk"
 
-.if !empty(PKG_BUILD_OPTIONS:Mlirc)
+.if !empty(PKG_BUILD_OPTIONS.mupen64plus:Mlirc)
 .include "../../wip/lirc/buildlink3.mk"
 .endif
 
-.if !empty(PKG_BUILD_OPTIONS:Msamplerate)
+.if !empty(PKG_BUILD_OPTIONS.mupen64plus:Msamplerate)
 .include "../../audio/libsamplerate/buildlink3.mk"
 .endif
 
