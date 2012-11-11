@@ -1,7 +1,8 @@
 # $NetBSD$
 
-DISTNAME=	armadillo-2.2.1
-PKGREVISION=	1
+# DISTNAME=	armadillo-2.2.1
+# PKGREVISION=	1
+DISTNAME=	armadillo-3.4.4
 CATEGORIES=	math
 MASTER_SITES=   ${MASTER_SITE_SOURCEFORGE:=arma/}
 
