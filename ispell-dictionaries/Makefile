@@ -9,7 +9,7 @@ DISTFILES=	# empty
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://ficus-www.cs.ucla.edu/geoff/ispell.html
 COMMENT=	"meta-package" for ispell spell checker dictionaries
-#LICENSE=	# TODO: (see mk/license.mk)
+LICENSE=	# blank
 
 USE_LANGUAGES=	# none
 
