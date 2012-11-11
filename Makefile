@@ -3396,6 +3396,7 @@ SUBDIR+=	ypserv
 SUBDIR+=	zabbix
 SUBDIR+=	zapping
 SUBDIR+=	zathura
+SUBDIR+=	zathura-poppler
 SUBDIR+=	zinf
 SUBDIR+=	ziparchive
 SUBDIR+=	zipios
