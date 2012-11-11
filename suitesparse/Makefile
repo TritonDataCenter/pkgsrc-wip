@@ -33,8 +33,12 @@ PICFLAG?=       -fpic
 BLAS=		-lblas
 LAPACK=		-llapack
 
+# USE_TOOLS+=gsed causes this on CentOS 6.3:
+# /home/bacon/Pkgsrc/pkgsrc-1/mk/pkgformat/pkg/list-dependencies: line 52: -e: command not found
+# Problem is ${SED} is empty
 USE_TOOLS+=	gmake gsed
-TOOLS_PLATFORM.gsed=	#empty
+# TOOLS_PLATFORM.gsed=	#empty
+USE_TOOLS+=	gmake
 
 USE_LANGUAGES=	c c++ fortran77
 
