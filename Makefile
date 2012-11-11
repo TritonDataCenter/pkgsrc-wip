@@ -722,6 +722,7 @@ SUBDIR+=	giggle
 SUBDIR+=	gimmie
 SUBDIR+=	gimp-high-pass-filter
 SUBDIR+=	gin
+SUBDIR+=	girara
 SUBDIR+=	git
 SUBDIR+=	gitg
 SUBDIR+=	givaro
