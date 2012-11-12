@@ -9,9 +9,9 @@ DISTFILES=		vnc-4_1_2-unixsrc.tar.gz \
 			X430src-1.tgz \
 			X430src-2.tgz \
 			X430src-3.tgz
-SITES.X430src-1.tgz=	ftp://ftp.xfree.org/pub/XFree86/4.3.0/source/
-SITES.X430src-2.tgz=	ftp://ftp.xfree.org/pub/XFree86/4.3.0/source/
-SITES.X430src-3.tgz=	ftp://ftp.xfree.org/pub/XFree86/4.3.0/source/
+SITES.X430src-1.tgz=	http://ftp.gwdg.de/pub/xfree86/XFree86/4.3.0/source/
+SITES.X430src-2.tgz=	http://ftp.gwdg.de/pub/xfree86/XFree86/4.3.0/source/
+SITES.X430src-3.tgz=	http://ftp.gwdg.de/pub/xfree86/XFree86/4.3.0/source/
 
 MAINTAINER=		dhowland@users.sourceforge.net
 HOMEPAGE=		http://www.realvnc.com/
