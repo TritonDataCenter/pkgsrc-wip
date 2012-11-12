@@ -76,7 +76,7 @@ post-patch:
 			-e '\|^RANLIB =|s|ranlib|${RANLIB}|' \
 			-e '\|^SPQR_CONFIG =|s|=.*|= ${CHOLMOD_CONFIG}|' \
 			-e 's|/usr/local|${PREFIX}|g' '{}' \;
-	${CP} -r ${WRKSRC} ${WRKSRC_SHARED}
+#	${CP} -r ${WRKSRC} ${WRKSRC_SHARED}
 
 do-build:
 	cd ${WRKSRC} ; ${SETENV} ${MAKE_ENV} PICFLAG= \
