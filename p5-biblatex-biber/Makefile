@@ -4,7 +4,7 @@
 DISTNAME=	biblatex-biber
 PKGNAME=	p5-${DISTNAME}
 CATEGORIES=	wip
-MASTER_SITES=	http://downloads.sourceforge.net/project/biblatex-biber/biblatex-biber/1.2/
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=biblatex-biber/}
 
 MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE
 HOMEPAGE=	http://downloads.sourceforge.net/project/biblatex-biber/biblatex-biber/1.2/

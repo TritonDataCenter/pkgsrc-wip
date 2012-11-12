@@ -4,7 +4,7 @@
 DISTNAME=	PyPedal-2.0.0rc7
 PKGNAME=	${PYPKGPREFIX}-pypedal-2.0.0
 CATEGORIES=	math python
-MASTER_SITES=	http://switch.dl.sourceforge.net/project/pypedal/pypedal-2.0.0/2.0.0rc7/
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=pypedal/}
 EXTRACT_SUFX=	.zip
 
 MAINTAINER=	kamel.derouiche@gmail.com

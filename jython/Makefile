@@ -5,7 +5,7 @@ VERSION=	2.5.2b1
 DISTNAME=	jython_installer-${VERSION}
 PKGNAME=	${DISTNAME:S/_installer//}
 CATEGORIES=	lang
-MASTER_SITES=	http://softlayer.dl.sourceforge.net/project/jython/jython-dev/2.5.2b1/
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=jython/}
 EXTRACT_SUFX=	.jar
 
 MAINTAINER=	jihbed.research@gmail.com

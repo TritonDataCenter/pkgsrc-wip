@@ -4,7 +4,7 @@
 DISTNAME=	PythonToolkit-12.08.18
 PKGNAME=	pythontoolkit-12.08.18
 CATEGORIES=	devel python
-MASTER_SITES=	http://freefr.dl.sourceforge.net/project/pythontoolkit/Python%20Toolkit/ptk%20v12.08/
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=pythontoolkit/}
 EXTRACT_SUFX=	.zip
 
 MAINTAINER=	jihbed.research@gmail.com

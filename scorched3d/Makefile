@@ -5,9 +5,7 @@ PKGNAME=	scorched3d-42.1
 DISTNAME=	Scorched3D-42.1-src
 PKGREVISION=	2
 CATEGORIES=	games
-MASTER_SITES=	http://downloads.sourceforge.net/project/scorched3d/scorched3d/Version%2042.1/
-# The following does not work because of space character
-#MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=/scorched3d/Version%2042.1/}
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=scorched3d/}
 
 MAINTAINER=	yacht@users.sourceforge.net
 HOMEPAGE=	http://www.scorched3d.co.uk/

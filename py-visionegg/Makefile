@@ -5,7 +5,7 @@ DISTNAME=	visionegg-0.9.9
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 PKGREVISION=	4
 CATEGORIES=	graphics python
-MASTER_SITES=	http://surfnet.dl.sourceforge.net/project/visionegg/visionegg/visionegg-0.9.9/
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=visionegg/}
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://visionegg.sourceforge.net/
