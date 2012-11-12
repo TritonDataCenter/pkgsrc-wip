@@ -3,7 +3,7 @@
 
 DISTNAME=	cartago-1.4.0
 CATEGORIES=	devel
-MASTER_SITES=	http://garr.dl.sourceforge.net/project/cartago/cartago/1.4/
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=cartago/}
 EXTRACT_SUFX=	.zip
 
 MAINTAINER=	jihbed.research@gmail.com

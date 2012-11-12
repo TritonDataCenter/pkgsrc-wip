@@ -4,7 +4,7 @@
 DISTNAME=	gts-0.7.6
 PKGREVISION=	2
 CATEGORIES=	graphics
-MASTER_SITES=	http://garr.dl.sourceforge.net/project/gts/gts/0.7.6/
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=gts/}
 
 MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	http://gts.sourceforge.net/

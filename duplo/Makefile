@@ -4,7 +4,7 @@
 DISTNAME=	duplo_0.2.0_src
 PKGNAME=	${DISTNAME:S/_0.2.0_src//}-0.2.0
 CATEGORIES=	devel
-MASTER_SITES=	http://garr.dl.sourceforge.net/project/duplo/duplo/duplo_0.2.0/
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=duplo/}
 
 MAINTAINER=	kamel.derouiche@gmail.com
 HOMEPAGE=	http://duplo.giants.ch/

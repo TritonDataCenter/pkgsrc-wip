@@ -3,7 +3,7 @@
 
 DISTNAME=	clustershell-1.2.83
 CATEGORIES=	shells
-MASTER_SITES=	http://downloads.sourceforge.net/project/clustershell/clustershell/1.3%20beta3/
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=clustershell/}
 EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	wenheping@gmail.com

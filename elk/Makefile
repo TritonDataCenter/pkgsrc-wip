@@ -3,7 +3,7 @@
 
 DISTNAME=	elk-1.1.4
 CATEGORIES=	science
-MASTER_SITES=	http://garr.dl.sourceforge.net/project/elk/
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=elk/}
 EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	jihbed.research@gmail.com

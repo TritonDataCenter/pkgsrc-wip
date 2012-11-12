@@ -3,7 +3,7 @@
 
 DISTNAME=	bleachbit-0.7.2
 CATEGORIES=	sysutils python
-MASTER_SITES=	http://garr.dl.sourceforge.net/project/bleachbit/bleachbit/0.7.2/
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=bleachbit/}
 EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	pkgsrc.gnome@gmail.com

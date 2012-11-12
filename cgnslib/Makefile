@@ -4,7 +4,7 @@
 DISTNAME=	cgnslib_3.1.3-2
 PKGNAME=	cgnslib-3.1.3-2
 CATEGORIES=	math
-MASTER_SITES=	http://garr.dl.sourceforge.net/project/cgns/cgnslib_3.1/
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=cgns/}
 
 MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	http://www.cgns.org/

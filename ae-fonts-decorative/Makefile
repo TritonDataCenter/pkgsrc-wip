@@ -4,7 +4,7 @@
 DISTNAME=	ae_fonts_decorative-${VERSION}
 PKGNAME=	ae-fonts-decorative-${VERSION}
 CATEGORIES=	fonts
-MASTER_SITES=	http://garr.dl.sourceforge.net/project/arabeyes/Fonts/ae_fonts/
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=arabeyes/}
 EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	kamelderouiche@yahoo.com

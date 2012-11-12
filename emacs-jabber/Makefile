@@ -4,7 +4,7 @@
 DISTNAME=	emacs-jabber-0.8.0
 PKGNAME=	${EMACS_PKGNAME_PREFIX}${DISTNAME}
 CATEGORIES=	chat
-MASTER_SITES=	http://garr.dl.sourceforge.net/project/emacs-jabber/emacs-jabber/0.8.0/
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=emacs-jabber/}
 EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	tonio@NetBSD.org

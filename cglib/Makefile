@@ -3,7 +3,7 @@
 
 DISTNAME=	cglib-2.2
 CATEGORIES=	devel java
-MASTER_SITES=	http://garr.dl.sourceforge.net/project/cglib/cglib2/2.2/
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=cglib/}
 EXTRACT_SUFX=	.jar
 
 MAINTAINER=	pkgsrc-users@NetBSD.org

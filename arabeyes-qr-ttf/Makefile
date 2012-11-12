@@ -5,7 +5,7 @@ VERS=	 	20051229
 DISTNAME=	arabeyes-qr.ttf
 PKGNAME=	arabeyes-qr-ttf-${VERS}
 CATEGORIES=	fonts
-MASTER_SITES=	http://garr.dl.sourceforge.net/project/arabeyes/Quran/Fonts/
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=arabeyes/}
 EXTRACT_SUFX=	.bz2
 
 MAINTAINER=	kamelderouiche@yahoo.com

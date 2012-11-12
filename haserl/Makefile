@@ -3,7 +3,7 @@
 
 DISTNAME=	haserl-0.8.0
 CATEGORIES=	lang www
-MASTER_SITES=	http://downloads.sourceforge.net/haserl/
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=haserl/}
 
 MAINTAINER=	xmor61@users.sourceforge.net
 HOMEPAGE=	http://haserl.sourceforge.net/

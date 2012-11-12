@@ -4,7 +4,7 @@
 DISTNAME=	freedict-eng-ara-0.0.2
 PKGNAME=	dict-${DISTNAME}
 CATEGORIES=	textproc
-MASTER_SITES=	http://garr.dl.sourceforge.net/project/freedict/English%20-%20Arabic/0.0.2/
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=freedict/}
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	http://www.freedict.org/ar/
