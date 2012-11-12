@@ -4,7 +4,7 @@
 DISTNAME=	pysparse-1.1
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME:S/py//}
 CATEGORIES=	math python
-MASTER_SITES=	http://garr.dl.sourceforge.net/project/pysparse/pysparse/1.1/
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=pysparse/}
 
 MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	http://pysparse.sourceforge.net/

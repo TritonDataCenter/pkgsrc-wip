@@ -4,7 +4,7 @@
 DISTNAME=	jlayer1.0.1
 PKGNAME=	java-jlayer-1.0.1
 CATEGORIES=	audio java
-MASTER_SITES=	http://garr.dl.sourceforge.net/project/javalayer/
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=javalayer/}
 EXTRACT_SUFX=	.zip
 
 MAINTAINER=	pkgsrc-users@NetBSD.org

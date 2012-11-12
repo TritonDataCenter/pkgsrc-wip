@@ -5,7 +5,7 @@ DISTNAME=	pypol-0.5
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 PKGREVISION=	2
 CATEGORIES=	math
-MASTER_SITES=	http://garr.dl.sourceforge.net/project/pypol/pypol/0.5%20Eratosthenes/
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=pypol/}
 
 MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	http://pypol.sourceforge.net/

@@ -3,7 +3,7 @@
 
 DISTNAME=	unpaper-0.3
 CATEGORIES=	textproc
-MASTER_SITES=	http://garr.dl.sourceforge.net/project/unpaper.berlios/
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=unpaper.berlios/}
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	http://unpaper.berlios.de/

@@ -4,7 +4,7 @@
 DISTNAME=	spfpm-0.6.1
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	math python
-MASTER_SITES=	http://garr.dl.sourceforge.net/project/pyfixedpoint/pyfixedpoint/spfpm-0.6/
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=pyfixedpoint/}
 EXTRACT_SUFX=	.zip
 
 MAINTAINER=	jihbed.research@gmail.com

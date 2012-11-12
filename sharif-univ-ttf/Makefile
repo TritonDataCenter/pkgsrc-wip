@@ -1,11 +1,11 @@
 # $NetBSD$
 #
 
-VERS=	20030208
+VERS=		20030208
 DISTNAME=	sharif.univ_ttf
 PKGNAME=	sharif-univ-ttf-${VERS}
 CATEGORIES=	fonts
-MASTER_SITES=	http://garr.dl.sourceforge.net/project/arabeyes/Fonts/sharif.univ/
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=arabeyes/}
 EXTRACT_SUFX=	.bz2
 
 MAINTAINER=	kamelderouiche@yahoo.com

@@ -4,7 +4,7 @@
 DISTNAME=	Jason-1.3.3
 PKGNAME=	${DISTNAME:S/J/j/}
 CATEGORIES=	devel net
-MASTER_SITES=	http://garr.dl.sourceforge.net/project/jason/jason/version%201.3.3/
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=jason/}
 EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	jihbed.research@gmail.com

@@ -3,7 +3,7 @@
 
 DISTNAME=	tvmet-1.7.2
 CATEGORIES=	math
-MASTER_SITES=	http://garr.dl.sourceforge.net/project/tvmet/Tar.Gz_Bz2%20Archive/1.7.2/
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=tvmet/}
 EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	jihbed.research@gmail.com

@@ -4,7 +4,7 @@
 DISTNAME=	spyse-0.2
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	devel
-MASTER_SITES=	http://garr.dl.sourceforge.net/project/spyse/spyse/0.2%20-%20latest%20version/
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=spyse/}
 EXTRACT_SUFX=	.zip
 
 MAINTAINER=	jihbed.research@gmail.com

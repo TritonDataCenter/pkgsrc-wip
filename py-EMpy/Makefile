@@ -4,7 +4,7 @@
 DISTNAME=	EMpy-0.1.2.linux-i686
 PKGNAME=	${PYPKGPREFIX}-EMpy-${VERSION}
 CATEGORIES=	science python
-MASTER_SITES=	http://garr.dl.sourceforge.net/project/empy/EMpy/0.1.2/
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=empy/}
 
 MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	http://empy.sourceforge.net/

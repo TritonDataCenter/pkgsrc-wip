@@ -1,11 +1,11 @@
 # $NetBSD$
 #
 
-TEXML_VERSION=		2.0.1
+TEXML_VERSION=	2.0.1
 DISTNAME=	texml-${TEXML_VERSION}
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	print python
-MASTER_SITES=	http://garr.dl.sourceforge.net/project/getfo/texml/texml-2.0.1/
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=getfo/}
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	http://getfo.org/texml/

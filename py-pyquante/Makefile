@@ -4,7 +4,7 @@
 DISTNAME=	PyQuante-1.6.3
 PKGNAME=	${PYPKGPREFIX}-pyquante-1.6.3
 CATEGORIES=	biology python
-MASTER_SITES=	http://garr.dl.sourceforge.net/project/pyquante/PyQuante-1.6/PyQuante-1.6.3/
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=pyquante/}
 
 MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	http://pyquante.sourceforge.net/

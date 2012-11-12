@@ -3,7 +3,7 @@
 
 DISTNAME=	schur-6.05
 CATEGORIES=	math
-MASTER_SITES=	http://garr.dl.sourceforge.net/project/schur/sources/6.05/
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=schur/}
 
 MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	http://schur.sourceforge.net/

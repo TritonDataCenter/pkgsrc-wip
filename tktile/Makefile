@@ -4,7 +4,7 @@
 DISTNAME=	tile-0.8.4.0
 PKGNAME=	tk${DISTNAME}
 CATEGORIES=	x11
-MASTER_SITES=	http://garr.dl.sourceforge.net/project/tktable/tile/tile-0-8-4-0/
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=tktable/}
 
 MAINTAINER=	kamel.derouiche@gmail.com
 HOMEPAGE=	http://tktable.sourceforge.net/tile/

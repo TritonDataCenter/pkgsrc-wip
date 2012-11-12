@@ -4,7 +4,7 @@
 DISTNAME=	rpncalc-2.7
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	math
-MASTER_SITES=	http://garr.dl.sourceforge.net/project/calcrpnpy/rpncalc/rpncalc-2.7/
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=calcrpnpy/}
 EXTRACT_SUFX=	.zip
 
 MAINTAINER=	jihbed.research@gmail.com

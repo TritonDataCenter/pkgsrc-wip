@@ -3,7 +3,7 @@
 
 DISTNAME=	simpa-1.2.5
 CATEGORIES=	devel parallel java
-MASTER_SITES=	http://garr.dl.sourceforge.net/project/simpa/simpa/1.2/
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=simpa/}
 EXTRACT_SUFX=	.zip
 
 MAINTAINER=	jihbed.research@gmail.com

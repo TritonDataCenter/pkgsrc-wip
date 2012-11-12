@@ -4,7 +4,7 @@
 DISTNAME=	symeig-1.5
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	math
-MASTER_SITES=	http://garr.dl.sourceforge.net/project/mdp-toolkit/mdp-toolkit/2.4/
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=mdp-toolkit/}
 
 MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	http://mdp-toolkit.sourceforge.net/symeig.html

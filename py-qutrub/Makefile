@@ -4,7 +4,7 @@
 DISTNAME=	qutrub-0.5
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	textproc python
-MASTER_SITES=	http://garr.dl.sourceforge.net/project/arabeyes/Qutrub/
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=arabeyes/}
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	http://qutrub.arabeyes.org/index

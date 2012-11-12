@@ -4,7 +4,7 @@
 DISTNAME=	pygts-0.3.1
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME:S/py//}
 CATEGORIES=	graphics python
-MASTER_SITES=	http://garr.dl.sourceforge.net/project/pygts/pygts/0.3.1/
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=pygts/}
 
 MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	http://pygts.sourceforge.net/

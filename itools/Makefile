@@ -3,7 +3,7 @@
 
 DISTNAME=	itools-1.0
 CATEGORIES=	time
-MASTER_SITES=	http://garr.dl.sourceforge.net/project/arabeyes/ITL%20itools/itools-1.0/
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=arabeyes/}
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	http://www.arabeyes.org/project.php?proj=ITL

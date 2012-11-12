@@ -4,7 +4,7 @@
 DISTNAME=	Pyevolve-0.6rc1
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME:S/Pyevolve/pyevolve/}
 CATEGORIES=	biology
-MASTER_SITES=	http://garr.dl.sourceforge.net/project/pyevolve/Pyevolve/0.6rc1/
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=pyevolve/}
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://pyevolve.sourceforge.net/

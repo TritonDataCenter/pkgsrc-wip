@@ -3,7 +3,7 @@
 
 DISTNAME=	libitl-0.7.0
 CATEGORIES=	time
-MASTER_SITES=	http://garr.dl.sourceforge.net/project/arabeyes/ITL%20Library%20%28libitl%29/libitl-0.7.0/
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=arabeyes/}
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	http://www.arabeyes.org/project.php?proj=ITL

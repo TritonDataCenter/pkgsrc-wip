@@ -3,10 +3,10 @@
 
 DISTNAME=	libecc-0.14.0
 CATEGORIES=	math
-MASTER_SITES=	http://garr.dl.sourceforge.net/project/libecc/libecc/0.14.0/
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=libecc/}
 
 MAINTAINER=	jihbed.research@gmail.com
-HOMEPAGE=	http://garr.dl.sourceforge.net/project/libecc/libecc/0.14.0/
+HOMEPAGE=	http://libecc.sourceforge.net/
 COMMENT=	C++ elliptic curve library
 #LICENSE=	# TODO: (see mk/license.mk)
 
