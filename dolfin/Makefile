@@ -23,11 +23,12 @@ REPLACE_PYTHON+=	scripts/dolfin-convert/dolfin-convert
 
 .include "../../mk/bsd.prefs.mk"
 
-# CMAKE_ARGS+=	-DCMAKE_VERBOSE_MAKEFILE:BOOL=ON
+CMAKE_ARGS+=	-DCMAKE_VERBOSE_MAKEFILE:BOOL=ON \
+		-DDOLFIN_ENABLE_MPI:BOOL=OFF
 
 # Needed on OS X
 # Not needed on NetBSD
-CXXFLAGS+=	-I${LOCALBASE}/${PYINC}
+CXXFLAGS+=	-I${LOCALBASE}/${PYINC} -std=gnu++0x
 
 # .include "../../mk/compiler.mk"
 
