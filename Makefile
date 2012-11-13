@@ -869,6 +869,7 @@ SUBDIR+=	hasciicam
 SUBDIR+=	haserl
 SUBDIR+=	haskell-mode
 SUBDIR+=	hawk
+SUBDIR+=	hawknl
 SUBDIR+=	haydar-fonts
 SUBDIR+=	haze
 SUBDIR+=	hdhomerun_config
