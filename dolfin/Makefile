@@ -63,7 +63,8 @@ PLIST_SUBST+=   PYSITELIB=${PYSITELIB}
 .include "../../wip/py-viper/buildlink3.mk"
 .include "../../math/blas/buildlink3.mk"
 .include "../../math/lapack/buildlink3.mk"
-.include "../../math/cgal/buildlink3.mk"
+# Requires qt4-libs and qt4-tools, which don't build on Linux or Mac
+#.include "../../math/cgal/buildlink3.mk"
 .include "../../math/py-numpy/buildlink3.mk"
 .include "../../devel/boost-libs/buildlink3.mk"
 .include "../../wip/swig2/buildlink3.mk"
