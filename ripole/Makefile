@@ -2,7 +2,6 @@
 #
 
 DISTNAME=		ripole-0.1.4
-PKGREVISION=		# empty
 CATEGORIES=		archivers
 MASTER_SITES=		http://www.pldaniels.com/ripole/
 

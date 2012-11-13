@@ -3,7 +3,6 @@
 .include "../../wip/io/version.mk"
 
 PKGNAME=		io-md5-${IO_VERSION}
-PKGREVISION=		0
 CATEGORIES=		devel
 
 MAINTAINER=		milos.negovanovic@googlemail.com

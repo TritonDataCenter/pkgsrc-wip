@@ -3,7 +3,6 @@
 .include "../../wip/io/version.mk"
 
 PKGNAME=		io-syslog-${IO_VERSION}
-PKGREVISION=		0
 CATEGORIES=		system
 
 MAINTAINER=		milos.negovanovic@googlemail.com
