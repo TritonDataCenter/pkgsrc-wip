@@ -11,7 +11,7 @@ LICENSE=	mpg123-license
 NO_SRC_ON_FTP=		${RESTRICTED}
 NO_SRC_ON_CDROM=	${RESTRICTED}
 
-USE_TOOLS+=		pkg-config automake date perl
+USE_TOOLS+=		automake autoreconf date perl pkg-config
 GNU_CONFIGURE=		yes
 USE_LIBTOOL=		yes
 
