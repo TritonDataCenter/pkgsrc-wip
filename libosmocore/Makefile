@@ -19,5 +19,6 @@ PKGCONFIG_OVERRIDE+=	libosmocore.pc.in
 PKGCONFIG_OVERRIDE+=	libosmocovty.pc.in
 
 GNU_CONFIGURE=	yes
+USE_LIBTOOL=	yes
 
 .include "../../mk/bsd.pkg.mk"

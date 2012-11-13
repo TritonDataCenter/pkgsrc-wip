@@ -14,6 +14,8 @@ CONFIGURE_PREFIX+= ${PREFIX}
 MAKE_FLAGS+= prefix=${PREFIX:Q}
 
 USE_LANGUAGES=	c c++
+USE_LIBTOOL=	yes
+
 post-patch:
 	${CHMOD} +x ${WRKSRC}/configure
 

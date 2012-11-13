@@ -14,6 +14,7 @@ COMMENT=	File management library
 #DEPENDS=		gio-fam>=0:../../sysutils/gio-fam
 
 GNU_CONFIGURE=		yes
+USE_LIBTOOL=		yes
 CONFIGURE_ARGS+=	--enable-debug	# don't commit this
 USE_TOOLS=		intltool pkg-config
 

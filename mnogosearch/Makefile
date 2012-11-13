@@ -10,6 +10,7 @@ HOMEPAGE=	http://www.mnogosearch.org/
 COMMENT=	Web search engine software for intranet and internet servers
 
 GNU_CONFIGURE=		YES
+USE_LIBTOOL=		yes
 USE_TOOLS+=		pax
 
 PKG_SYSCONFSUBDIR=	mnogosearch

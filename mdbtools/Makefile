@@ -13,6 +13,7 @@ LICENSE=		gnu-lgpl-v2 AND gnu-gpl-v2
 
 USE_TOOLS+=		gmake
 GNU_CONFIGURE=		YES
+USE_LIBTOOL=		yes
 
 USE_TOOLS+=		pkg-config
 PKGCONFIG_OVERRIDE+=	libmdb.pc.in libmdbsql.pc.in

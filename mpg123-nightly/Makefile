@@ -13,6 +13,7 @@ NO_SRC_ON_CDROM=	${RESTRICTED}
 
 USE_TOOLS+=		pkg-config automake date perl
 GNU_CONFIGURE=		yes
+USE_LIBTOOL=		yes
 
 WRKSRC=			${WRKDIR}/mpg123
 

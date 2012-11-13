@@ -12,6 +12,7 @@ COMMENT=	Portable C++ library for displaying VRML97 files
 PKG_DESTDIR_SUPPORT=	none
 
 GNU_CONFIGURE=	YES
+USE_LIBTOOL=	yes
 CONFIGURE_ARGS+=--disable-script-node-java --disable-script-node-javascript
 USE_TOOLS+=	gmake
 

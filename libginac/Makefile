@@ -12,11 +12,12 @@ HOMEPAGE=	http://www.ginac.de/
 COMMENT=	The GiNaC symbolic framework
 LICENSE=	gnu-gpl-v2
 
-GNU_CONFIGURE=	yes
+GNU_CONFIGURE=		yes
+USE_LIBTOOL=		yes
 USE_GNU_READLINE=	yes
 INFO_FILES=		yes
-USE_TOOLS+=	bison gmake pkg-config makeinfo
-USE_LANGUAGES=	c c++
+USE_TOOLS+=		bison gmake pkg-config makeinfo
+USE_LANGUAGES=		c c++
 
 PKGCONFIG_OVERRIDE+=	ginac.pc.in
 

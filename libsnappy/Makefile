@@ -11,7 +11,9 @@ MAINTAINER=	bch@methodlogic.net
 HOMEPAGE=	http://code.google.com/p/snappy/downloads/
 COMMENT=	A compression/decompression library.
 LICENSE=	modified-bsd
+
 GNU_CONFIGURE=	yes
+USE_LIBTOOL=	yes
 CPPFLAGS+=	-DLZF_STATE_ARG="0"
 USE_LANGUAGES+=	c++ c
 

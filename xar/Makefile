@@ -13,6 +13,7 @@ COMMENT=		The eXtensible ARchiver
 PKG_DESTDIR_SUPPORT=	none
 
 GNU_CONFIGURE=		yes
+USE_LIBTOOL=		yes
 USE_TOOLS+=		gmake
 
 .include "../../textproc/libxml2/buildlink3.mk"

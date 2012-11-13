@@ -12,6 +12,7 @@ LICENSE=	modified-bsd
 
 GNU_CONFIGURE=	yes
 USE_TOOLS+=	gm4 gmake perl
+USE_LIBTOOL=	yes
 USE_LANGUAGES=	c c++
 
 REPLACE_PERL+=	scripts/compiler_test.pl scripts/launchn.pl scripts/test_csmith.pl \

@@ -14,6 +14,7 @@ ONLY_FOR_PLATFORM=	Linux-*-* # Linux shadow format
 PKG_DESTDIR_SUPPORT=	none
 
 GNU_CONFIGURE=		YES
+USE_LIBTOOL=		yes
 
 .include "../../mk/bsd.prefs.mk"
 

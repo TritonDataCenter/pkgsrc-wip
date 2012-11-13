@@ -10,6 +10,7 @@ HOMEPAGE=	http://on.encoreinteractive.ca/opensource/
 COMMENT=	portable inotify userland lib
 #LICENSE=	# TODO: (see mk/license.mk)
 
-GNU_CONFIGURE=          yes
+GNU_CONFIGURE=	yes
+USE_LIBTOOL=	yes
 
 .include "../../mk/bsd.pkg.mk"
