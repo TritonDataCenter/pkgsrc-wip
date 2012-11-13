@@ -7,10 +7,9 @@ PKGREVISION=		4
 COMMENT=		Module for synchronization with Palm devices
 
 WRKSRC=			${WRKDIR}/multisync-0.82/plugins/palm_sync/
-
 DEPENDS+=		multisync>=0.82:../../wip/multisync
-
 BUILD_DEPENDS+=		libtool-base>=1.5.10:../../devel/libtool-base
+USE_TOOLS+=		aclocal autoconf autoheader automake
 
 pre-configure:
 	cd ${WRKSRC}/../.. && \
