@@ -2876,6 +2876,7 @@ SUBDIR+=	scourge
 SUBDIR+=	scr2png
 SUBDIR+=	scratchpad
 SUBDIR+=	scrc
+SUBDIR+=	scrollz
 SUBDIR+=	scsh-install-lib
 SUBDIR+=	scummvm-nightly
 SUBDIR+=	scx
