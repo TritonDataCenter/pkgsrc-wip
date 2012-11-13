@@ -7,7 +7,7 @@ CATEGORIES=	graphics
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=mtpaint/mtpaint/3.40/}
 EXTRACT_SUFX=	.tar.bz2
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://mtpaint.sourceforge.net/
 COMMENT=	Painting program and photo editor
 LICENSE=	gnu-gpl-v2

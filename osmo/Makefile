@@ -6,7 +6,7 @@ PKGREVISION=	1
 CATEGORIES=	misc time
 MASTER_SITES=	 ${MASTER_SITE_SOURCEFORGE:=osmo-pim/osmo-0.2.10/}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://clayo.org/osmo/
 COMMENT=	Personal organizer, calendar and task manager
 #LICENSE=	# TODO: (see mk/license.mk)

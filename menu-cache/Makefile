@@ -5,7 +5,7 @@ DISTNAME=	menu-cache-0.3.2
 CATEGORIES=	devel
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=lxde/}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://lxde.sourceforge.net/
 COMMENT=	Cache for freedesktop.org menu spec
 

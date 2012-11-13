@@ -5,7 +5,7 @@ DISTNAME=	simple-scan-3.4.1
 CATEGORIES=	graphics
 MASTER_SITES=	https://launchpad.net/simple-scan/3.4/3.4.1/+download/
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	https://launchpad.net/simple-scan/
 COMMENT=	Simple scanner graphical interface
 #LICENSE=	# TODO: (see mk/license.mk)

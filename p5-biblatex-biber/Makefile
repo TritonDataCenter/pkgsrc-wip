@@ -6,7 +6,7 @@ PKGNAME=	p5-${DISTNAME}
 CATEGORIES=	wip
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=biblatex-biber/}
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://downloads.sourceforge.net/project/biblatex-biber/biblatex-biber/1.2/
 COMMENT=	TODO: Short description of the package
 #LICENSE=	# TODO: (see mk/license.mk)
