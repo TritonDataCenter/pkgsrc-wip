@@ -6,6 +6,7 @@ PKGREVISION=		4
 COMMENT=		Modular program to synchronize PIM data
 
 WRKSRC=			${WRKDIR}/multisync-0.82
+USE_TOOLS+=		aclocal autoconf autoheader automake
 
 pre-configure:
 	cd ${WRKSRC} && \
