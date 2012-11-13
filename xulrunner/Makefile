@@ -22,6 +22,7 @@ PKGCONFIG_OVERRIDE+=	xulrunner/installer/mozilla-plugin.pc.in
 
 CONFIGURE_ARGS+=	--enable-application=xulrunner
 CONFIGURE_ARGS+=	--enable-libxul
+USE_TOOLS+=		autoconf
 
 ALL_ENV+=		MOZILLA_PKG_NAME=xulrunner
 

@@ -16,6 +16,7 @@ CONFIGURE_ARGS+=	--with-libxul-sdk=${PREFIX}/lib/xulrunner-sdk
 CONFIGURE_ARGS+=	--with-system-libxul
 # XXX tnn with omnijar enabled it just doesn't start
 CONFIGURE_ARGS+=	--enable-chrome-format=flat
+USE_TOOLS+=		autoconf
 
 ALL_ENV+=		MOZILLA_PKG_NAME=firefox
 
