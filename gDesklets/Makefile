@@ -3,7 +3,7 @@
 
 DISTNAME=	gdesklets-0.36
 PKGNAME=	gDesklets-0.36
-PKGREVISION=	1
+PKGREVISION=	2
 CATEGORIES=	x11 gnome
 MASTER_SITES=	http://gdesklets.de/files/
 EXTRACT_SUFX=	.tar.bz2
@@ -40,9 +40,10 @@ SUBST_SED.python2=	-e 's|python -c|${PYTHONBIN} -c|g'
 post-install:
 	${INSTALL_DATA_DIR} ${PREFIX}/share/gdesklets/Displays
 
+
+.include "../../sysutils/desktop-file-utils/desktopdb.mk"
 .include "../../databases/shared-mime-info/buildlink3.mk"
 .include "../../graphics/librsvg/buildlink3.mk"
-
 .include "../../devel/GConf/schemas.mk"
 .include "../../devel/libgnomeui/buildlink3.mk"
 .include "../../graphics/gnome-icon-theme/buildlink3.mk"

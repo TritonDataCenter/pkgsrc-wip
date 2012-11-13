@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		gpsdrive-2.10pre4
-PKGREVISION=		2
+PKGREVISION=		3
 CATEGORIES=		geography
 MASTER_SITES=		http://www.gpsdrive.de/gpsdrive.tar/
 
@@ -28,6 +28,8 @@ USE_TOOLS+=		gmake msgfmt perl
 
 .include "options.mk"
 
+
+.include "../../sysutils/desktop-file-utils/desktopdb.mk"
 .include "../../converters/libiconv/buildlink3.mk"
 .include "../../devel/pcre/buildlink3.mk"
 .include "../../devel/gettext-lib/buildlink3.mk"

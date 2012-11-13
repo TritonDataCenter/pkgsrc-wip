@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		gnome-jabber-0.4
-PKGREVISION=		3
+PKGREVISION=		4
 CATEGORIES=		chat
 MASTER_SITES=		http://ftp.gnome.org/pub/GNOME/sources/gnome-jabber/0.4/
 EXTRACT_SUFX=		.tar.bz2
@@ -25,6 +25,8 @@ MAKE_ENV+=		GCONF_SCHEMA_FILE_DIR="${PREFIX}/share/gconf/schemas/"
 GCONF_SCHEMAS+=	gnome-jabber.schemas
 GCONF_SCHEMAS+=	gnome-jabber.schemas
 
+
+.include "../../sysutils/desktop-file-utils/desktopdb.mk"
 .include "../../devel/libglade/buildlink3.mk"
 .include "../../x11/gtk2/buildlink3.mk"
 .include "../../net/gnet/buildlink3.mk"

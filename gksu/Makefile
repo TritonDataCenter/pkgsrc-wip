@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		gksu-1.3.6
-PKGREVISION=		2
+PKGREVISION=		3
 CATEGORIES=		sysutils
 MASTER_SITES=		http://people.debian.org/~kov/gksu/old_stuff/gksu/
 
@@ -55,6 +55,8 @@ SUBST_STAGE.term=	post-configure
 
 REPLACE_BASH+=		gksu-migrate-conf.sh
 
+
+.include "../../sysutils/desktop-file-utils/desktopdb.mk"
 .include "../../x11/libX11/buildlink3.mk"
 .include "../../devel/GConf/schemas.mk"
 .include "../../x11/gtk2/buildlink3.mk"

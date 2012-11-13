@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	netbsd-light-desktop-default-settings-0.0
-PKGREVISION=	1
+PKGREVISION=	2
 CATEGORIES=	x11
 MASTER_SITES=	# none
 DISTFILES=	# none
@@ -77,4 +77,6 @@ do-install:
 #            scrot,
 #            galculator
 
+
+.include "../../sysutils/desktop-file-utils/desktopdb.mk"
 .include "../../mk/bsd.pkg.mk"

@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	mtpaint-3.40
+PKGREVISION=	1
 CATEGORIES=	graphics
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=mtpaint/mtpaint/3.40/}
 EXTRACT_SUFX=	.tar.bz2
@@ -17,6 +18,8 @@ CONFIGURE_ARGS+=	--mandir=${PREFIX}/${PKGMANDIR}
 CONFIGURE_ARGS+=	cflags GIF gtk2 ft jpeg intl tiff man
 USE_TOOLS=	gmake
 
+
+.include "../../sysutils/desktop-file-utils/desktopdb.mk"
 .include "../../graphics/freetype2/buildlink3.mk"
 .include "../../graphics/lcms2/buildlink3.mk"
 .include "../../graphics/tiff/buildlink3.mk"
@@ -24,5 +27,4 @@ USE_TOOLS=	gmake
 .include "../../mk/giflib.buildlink3.mk"
 .include "../../mk/jpeg.buildlink3.mk"
 .include "../../x11/gtk2/buildlink3.mk"
-
 .include "../../mk/bsd.pkg.mk"

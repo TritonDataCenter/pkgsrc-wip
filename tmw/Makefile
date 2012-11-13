@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	tmw-0.0.22.1
-PKGREVISION=	5
+PKGREVISION=	6
 CATEGORIES=	games
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=themanaworld/}
 
@@ -18,6 +18,7 @@ CONFIGURE_ARGS+=	--with-opengl
 USE_TOOLS+=	pkg-config
 
 
+.include "../../sysutils/desktop-file-utils/desktopdb.mk"
 .include "../../wip/guichan/buildlink3.mk"
 .include "../../devel/SDL/buildlink3.mk"
 .include "../../net/SDL_net/buildlink3.mk"

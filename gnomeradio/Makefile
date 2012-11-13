@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		gnomeradio-1.6
-PKGREVISION=		4
+PKGREVISION=		5
 CATEGORIES=		wip audio
 MASTER_SITES=		http://www.wh-hms.uni-ulm.de/~mfcn/gnomeradio/packages/
 
@@ -23,6 +23,8 @@ MAKE_ENV+=		GCONF_SCHEMA_FILE_DIR="${PREFIX}/share/gconf/schemas/"
 GCONF_SCHEMAS+=	gnomeradio.schemas
 GCONF_SCHEMAS+=	gnomeradio.schemas
 
+
+.include "../../sysutils/desktop-file-utils/desktopdb.mk"
 .include "../../devel/libgnomeui/buildlink3.mk"
 .include "../../devel/GConf/schemas.mk"
 .include "../../mk/bsd.pkg.mk"
