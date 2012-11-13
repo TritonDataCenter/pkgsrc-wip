@@ -8,7 +8,7 @@ CATEGORIES=		devel
 
 MAINTAINER=		milos.negovanovic@googlemail.com
 HOMEPAGE=		www.iolanguage.com
-COMMENT=		Fnmatch addon for Io.
+COMMENT=		Fnmatch addon for Io
 
 ADDON_NAME=		Fnmatch
 

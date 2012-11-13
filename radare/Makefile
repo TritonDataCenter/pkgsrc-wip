@@ -3,12 +3,12 @@
 
 DISTNAME=	radare-0.8.6
 PKGREVISION=	1
-CATEGORIES=	wip sysutils
+CATEGORIES=	sysutils
 MASTER_SITES=	http://radare.nopcode.org/get/
 
 MAINTAINER=	pancake@youterm.com
 HOMEPAGE=	http://radare.nopcode.org/
-COMMENT=	advanced commandline hexadecimal editor
+COMMENT=	Advanced commandline hexadecimal editor
 
 PKG_DESTDIR_SUPPORT=	none
 

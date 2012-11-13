@@ -8,7 +8,7 @@ CATEGORIES=		devel
 
 MAINTAINER=		milos.negovanovic@googlemail.com
 HOMEPAGE=		www.iolanguage.com
-COMMENT=		MD5 addon for Io.
+COMMENT=		MD5 addon for Io
 
 DEPENDS+=       	io-sha1>=${IO_VERSION}:../../wip/io-sha1
 

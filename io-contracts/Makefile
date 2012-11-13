@@ -8,7 +8,7 @@ CATEGORIES=		devel
 
 MAINTAINER=		milos.negovanovic@googlemail.com
 HOMEPAGE=		www.iolanguage.com
-COMMENT=		Contracts addon for Io.
+COMMENT=		Contracts addon for Io
 
 ADDON_NAME=		Contracts
 

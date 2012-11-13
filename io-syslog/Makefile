@@ -8,7 +8,7 @@ CATEGORIES=		system
 
 MAINTAINER=		milos.negovanovic@googlemail.com
 HOMEPAGE=		www.iolanguage.com
-COMMENT=		Syslog addon for Io.
+COMMENT=		Syslog addon for Io
 
 ADDON_NAME=		Syslog
 

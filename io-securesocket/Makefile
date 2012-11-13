@@ -8,7 +8,7 @@ CATEGORIES=		devel
 
 MAINTAINER=		milos.negovanovic@googlemail.com
 HOMEPAGE=		www.iolanguage.com
-COMMENT=		SSL socket addon for Io.
+COMMENT=		SSL socket addon for Io
 
 ADDON_NAME=			SecureSocket
 ADDON_DEPENDS_ON_ADDONS=	Socket

@@ -8,7 +8,7 @@ DISTNAME=		PHYLIP-3.57c
 PKGNAME=		emboss-phylip-3.57c
 PKGREVISION=		1
 
-COMMENT=		A package of programs for inferring phylogenies
+COMMENT=		Package of programs for inferring phylogenies
 
 DIST_SUBDIR=		emboss/phylip-3.57c-20041107
 BUILD_TARGET=		#empty

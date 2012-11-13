@@ -8,7 +8,7 @@ CATEGORIES=		www
 
 MAINTAINER=		milos.negovanovic@googlemail.com
 HOMEPAGE=		www.iolanguage.com
-COMMENT=		CGI addon for Io.
+COMMENT=		CGI addon for Io
 
 ADDON_NAME=		CGI
 

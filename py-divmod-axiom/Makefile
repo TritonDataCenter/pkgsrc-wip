@@ -10,7 +10,7 @@ EXTRACT_SUFX=	.tar.gz
 
 MAINTAINER=	pkgsrc-wip-users@sourceforge.net
 HOMEPAGE=	http://divmod.org/trac/wiki/DivmodAxiom
-COMMENT=	An object database implemented on top of SQLite
+COMMENT=	Object database implemented on top of SQLite
 
 DEPENDS+=	${PYPKGPREFIX}-sqlite2>=2.0:../../databases/py-sqlite2
 DEPENDS+=	${PYPKGPREFIX}-twisted>=2.4.0:../../net/py-twisted

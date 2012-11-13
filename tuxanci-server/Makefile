@@ -9,7 +9,7 @@ EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	pkgsrc@blackmouse.biz
 HOMEPAGE=	http://download.tuxanci.org/0.20.0/
-COMMENT=	server of czechoslovak multiplatform action game like Bulanci
+COMMENT=	Server of Czechoslovak multiplatform action game like Bulanci
 
 PKG_DESTDIR_SUPPORT=	none
 

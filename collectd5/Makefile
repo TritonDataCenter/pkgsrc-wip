@@ -8,7 +8,7 @@ CATEGORIES=     net
 
 MAINTAINER=	msporleder@gmail.com
 HOMEPAGE=	http://collectd.org/
-COMMENT=	statistics collection daemon - base
+COMMENT=	Statistics collection daemon - base
 LICENSE=	gnu-gpl-v2
 
 GNU_CONFIGURE=		yes

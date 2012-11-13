@@ -6,7 +6,7 @@
 PKGNAME=		${DISTNAME:S/wxGTK/wxGTK-contrib-unicode/}
 PKGREVISION=		1
 MAINTAINER=		milos.negovanovic@googlemail.com
-COMMENT=		GTK-based unicode implementation of the wxWidgets GUI library (contrib libraries)
+COMMENT=		GTK-based unicode implementation of the wxWidgets
 
 USE_TOOLS+=		gmake
 

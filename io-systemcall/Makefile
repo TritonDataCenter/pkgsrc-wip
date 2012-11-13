@@ -8,7 +8,7 @@ CATEGORIES=		system
 
 MAINTAINER=		milos.negovanovic@googlemail.com
 HOMEPAGE=		www.iolanguage.com
-COMMENT=		SystemCall addon for Io.
+COMMENT=		SystemCall addon for Io
 
 ADDON_NAME=		SystemCall
 

@@ -7,7 +7,7 @@ MASTER_SITES=	http://www.rillion.net/squidview/
 
 MAINTAINER=	morr@NetBSD.org
 HOMEPAGE=	http://www.rillion.net/squidview/
-COMMENT=	program which monitors and displays squid logs
+COMMENT=	Program which monitors and displays squid logs
 LICENSE=	gnu-gpl-v2
 
 GNU_CONFIGURE=	yes

@@ -8,7 +8,7 @@ MASTER_SITES=		https://neon1.net/prog/ \
 
 MAINTAINER=		noud4@home.nl
 HOMEPAGE=		https://neon1.net/prog/plconfig.html
-COMMENT=		A tool for configuring HomePlug powerline bridges
+COMMENT=		Tool for configuring HomePlug powerline bridges
 
 BUILD_TARGET=		plconfig
 

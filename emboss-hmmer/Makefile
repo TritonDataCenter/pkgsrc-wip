@@ -8,7 +8,7 @@ DISTNAME=		HMMER-2.1.1
 PKGNAME=		emboss-hmmer-2.1.1
 PKGREVISION=		2
 
-COMMENT=		A collection of bioinformatic programs that is supplimentary to EMBOSS package
+COMMENT=		Collection of bioinformatic programs supplimenting the EMBOSS package
 
 DIST_SUBDIR=		emboss/hmmer-2.1.1-20041107
 BUILD_TARGET=		#EMPTY

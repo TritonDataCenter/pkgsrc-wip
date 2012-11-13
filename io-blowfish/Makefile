@@ -8,7 +8,7 @@ CATEGORIES=		crypto
 
 MAINTAINER=		milos.negovanovic@googlemail.com
 HOMEPAGE=		www.iolanguage.com
-COMMENT=		Blowfish addon for Io.
+COMMENT=		Blowfish addon for Io
 
 ADDON_NAME=		Blowfish
 

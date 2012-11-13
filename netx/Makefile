@@ -9,7 +9,7 @@ VERSION=		0.5
 
 MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://jnlp.sourceforge.net/
-COMMENT=		A free JNLP implementation
+COMMENT=		Free JNLP implementation
 
 NO_BUILD=#defined
 

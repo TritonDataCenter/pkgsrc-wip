@@ -9,7 +9,7 @@ EXTRACT_SUFX=		.tgz
 
 MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://bhepple.freeshell.org/gjots/
-COMMENT=		A jotter application for your Gnome desktop
+COMMENT=		Jotter application for your Gnome desktop
 
 PYDISTUTILSPKG= yes
 USE_TOOLS+=		pkg-config

@@ -9,7 +9,7 @@ MASTER_SITES=	http://snappy.googlecode.com/files/
 
 MAINTAINER=	bch@methodlogic.net
 HOMEPAGE=	http://code.google.com/p/snappy/downloads/
-COMMENT=	A compression/decompression library.
+COMMENT=	Compression/decompression library
 LICENSE=	modified-bsd
 
 GNU_CONFIGURE=	yes

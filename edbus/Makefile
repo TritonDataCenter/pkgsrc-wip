@@ -9,7 +9,7 @@ EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.enlightenment.org/
-COMMENT=	Convenience wrappers around dbus to ease integrating dbus with E17.
+COMMENT=	Convenience wrappers around dbus to ease integrating dbus with E17
 
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes

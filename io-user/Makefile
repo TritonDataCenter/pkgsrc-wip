@@ -8,7 +8,7 @@ CATEGORIES=		system
 
 MAINTAINER=		milos.negovanovic@googlemail.com
 HOMEPAGE=		www.iolanguage.com
-COMMENT=		User addon for Io.
+COMMENT=		User addon for Io
 
 ADDON_NAME=		User
 

@@ -10,7 +10,7 @@ EXTRACT_SUFX=	.gz
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	http://toscawidgets.org/download
-COMMENT=	An extension to PEAK-Rules to prioritize methods
+COMMENT=	Extension to PEAK-Rules to prioritize methods
 
 DEPENDS+=	${PYPKGPREFIX}-peak-rules-[0-9]*:../../wip/py-peak-rules
 

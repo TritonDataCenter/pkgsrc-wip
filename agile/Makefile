@@ -9,7 +9,7 @@ EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	http://agile.hepforge.org/
-COMMENT= Generator Interface for a variety of Fortran-based Monte Carlo generator
+COMMENT=	Interface for a variety of Fortran-based Monte Carlo generators
 LICENSE=	gnu-gpl-v2
 
 PKG_DESTDIR_SUPPORT=	user-destdir

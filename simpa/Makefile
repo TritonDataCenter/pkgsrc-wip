@@ -8,7 +8,7 @@ EXTRACT_SUFX=	.zip
 
 MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	http://alice.unibo.it/xwiki/bin/view/SimpA/
-COMMENT=	Agent-oriented framework approach to concurrent, multi-core, distributed programming
+COMMENT=	Agent-oriented framework for concurrent, multi-core, distributed programming
 LICENSE=	gnu-lgpl-v2.1
 
 USE_TOOLS+=	pax

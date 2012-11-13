@@ -8,7 +8,7 @@ MASTER_SITES=	http://openbsc.osmocom.org/trac/raw-attachment/wiki/Tarballs/
 
 MAINTAINER=	khorben@defora.org
 HOMEPAGE=	http://www.osmocom.org/
-COMMENT=	libosmocore
+COMMENT=	This is the libosmocore library
 
 LICENSE=	gnu-gpl-v2
 

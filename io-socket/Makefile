@@ -8,7 +8,7 @@ CATEGORIES=		net
 
 MAINTAINER=		milos.negovanovic@googlemail.com
 HOMEPAGE=		www.iolanguage.com
-COMMENT=		Socket addon for Io.
+COMMENT=		Socket addon for Io
 
 ADDON_NAME=		Socket
 ADDON_INSTALL_HEADERS=	yes

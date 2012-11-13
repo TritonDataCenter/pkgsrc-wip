@@ -8,7 +8,7 @@ MASTER_SITES=	http://crufty.net/ftp/pub/sjg/
 
 MAINTAINER=	cheusov@NetBSD.org
 HOMEPAGE=	http://crufty.net/help/sjg/bmake.html
-COMMENT=	mk-files for bmake by Simon J. Gerraty
+COMMENT=	Simon J. Gerraty's mk-files for bmake
 LICENSE=	2-clause-bsd
 
 WRKSRC=		${WRKDIR}/mk

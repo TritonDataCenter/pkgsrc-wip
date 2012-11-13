@@ -8,7 +8,7 @@ CATEGORIES=		devel
 
 MAINTAINER=		milos.negovanovic@googlemail.com
 HOMEPAGE=		www.iolanguage.com
-COMMENT=		Random addon for Io.
+COMMENT=		Random addon for Io
 
 ADDON_NAME=		Random
 

@@ -5,7 +5,7 @@ MASTER_SITES=	${MASTER_SITE_R_CRAN:=contrib/}
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://dirk.eddelbuettel.com/code/digest.html
-COMMENT=	hash digests for R objects
+COMMENT=	Hash digests for R objects
 
 R_PKGNAME=	digest
 R_PKGVER=	0.4.2

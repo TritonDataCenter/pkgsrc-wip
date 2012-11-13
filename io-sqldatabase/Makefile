@@ -8,7 +8,7 @@ CATEGORIES=		database
 
 MAINTAINER=		milos.negovanovic@googlemail.com
 HOMEPAGE=		www.iolanguage.com
-COMMENT=		SqlDatabase addon for Io.
+COMMENT=		SqlDatabase addon for Io
 
 ADDON_NAME=		SqlDatabase
 

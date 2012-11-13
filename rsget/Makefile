@@ -8,7 +8,7 @@ EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	ryo_on@yk.rim.or.jp
 HOMEPAGE=	http://rsget.pl/
-COMMENT=	Poowerful perl application designed to retrieve files from download services
+COMMENT=	Perl application designed to retrieve files from download services
 LICENSE=	gnu-gpl-v2
 
 USE_TOOLS+=	gmake perl:run

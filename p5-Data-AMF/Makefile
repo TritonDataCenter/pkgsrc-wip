@@ -8,7 +8,7 @@ MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=Data/}
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://search.cpan.org/dist/Data-AMF/lib/Data/AMF.pm
-COMMENT=	serialize/deserialize Adobe Action Message Format data
+COMMENT=	Serialize/deserialize Adobe Action Message Format data
 LICENSE=	${PERL5_LICENSE}
 
 USE_TOOLS+=	groff

@@ -4,7 +4,7 @@
 DISTNAME=	emerald-themes-0.2.1
 CATEGORIES=	wm
 
-COMMENT=	Emerald themes for beryl.
+COMMENT=	Emerald themes for beryl
 
 .include "../../wip/beryl/Makefile.inc"
 

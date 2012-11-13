@@ -8,7 +8,7 @@ CATEGORIES=		devel
 
 MAINTAINER=		milos.negovanovic@googlemail.com
 HOMEPAGE=		www.iolanguage.com
-COMMENT=		Thread addon for Io.
+COMMENT=		Thread addon for Io
 
 ADDON_NAME=		Thread
 

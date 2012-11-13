@@ -9,7 +9,7 @@ EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	khorben@defora.org
 HOMEPAGE=	http://xorg.freedesktop.org/
-COMMENT=	kdrive-based Xephyr server from modular X.org
+COMMENT=	Xephyr server based on kdrive from modular X.org
 
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes

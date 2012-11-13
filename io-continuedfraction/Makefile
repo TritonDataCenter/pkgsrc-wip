@@ -8,7 +8,7 @@ CATEGORIES=		math
 
 MAINTAINER=		milos.negovanovic@googlemail.com
 HOMEPAGE=		www.iolanguage.com
-COMMENT=		ContinuedFraction addon for Io.
+COMMENT=		ContinuedFraction addon for Io
 
 ADDON_NAME=		ContinuedFraction
 

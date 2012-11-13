@@ -8,7 +8,7 @@ CATEGORIES=		devel
 
 MAINTAINER=		milos.negovanovic@googlemail.com
 HOMEPAGE=		www.iolanguage.com
-COMMENT=		Range addon for Io.
+COMMENT=		Range addon for Io
 
 ADDON_NAME=		Range
 ADDON_INSTALL_HEADERS=	yes
