@@ -1,5 +1,7 @@
 $NetBSD$
 
+Adds strverscmp().
+
 --- themer/main.c.orig	2007-02-23 07:18:10.000000000 -0500
 +++ themer/main.c
 @@ -7,6 +7,105 @@
