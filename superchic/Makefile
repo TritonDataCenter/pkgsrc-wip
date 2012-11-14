@@ -2,8 +2,8 @@
 #
 
 DISTNAME=	superchicv1.3
-PKGNAME=	superchic-1.3
-CATEGORIES=	physics
+PKGNAME=	${DISTNAME:S/v//1}
+CATEGORIES=	misc
 MASTER_SITES=	http://projects.hepforge.org/superchic/
 EXTRACT_SUFX=	.f
 

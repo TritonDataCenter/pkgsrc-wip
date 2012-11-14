@@ -1,7 +1,7 @@
 # $NetBSD: Makefile,v 1.20 2006/02/05 23:08:37 joerg Exp $
 
 DISTNAME=		mysqltcl-3.02
-CATEGORIES=		wip
+CATEGORIES=		databases
 MASTER_SITES=		http://www.xdobry.de/mysqltcl/
 
 MAINTAINER=		alchow@users.sourceforge.net

@@ -2,8 +2,8 @@
 #
 
 DISTNAME=	openTMM-0.1.0
-PKGNAME=	${PYPKGPREFIX}-opentmm-0.1.0
-CATEGORIES=	science python
+PKGNAME=	${PYPKGPREFIX}-${DISTNAME:tl}
+CATEGORIES=	math python
 MASTER_SITES=	http://pypi.python.org/packages/source/o/openTMM/
 
 MAINTAINER=	jihbed.research@gmail.com

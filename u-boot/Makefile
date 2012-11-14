@@ -3,7 +3,7 @@
 
 DISTNAME=	u-boot-1.3.2
 PKGNAME=	u-boot-mkimage-1.3.2
-CATEGORIES=	wip
+CATEGORIES=	sysutils
 MASTER_SITES=	ftp://ftp.denx.de/pub/u-boot/
 EXTRACT_SUFX=	.tar.bz2
 

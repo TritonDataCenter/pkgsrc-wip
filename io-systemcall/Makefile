@@ -3,7 +3,7 @@
 .include "../../wip/io/version.mk"
 
 PKGNAME=		io-systemcall-${IO_VERSION}
-CATEGORIES=		system
+CATEGORIES=		sysutils
 
 MAINTAINER=		milos.negovanovic@googlemail.com
 HOMEPAGE=		www.iolanguage.com

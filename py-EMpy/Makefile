@@ -3,7 +3,7 @@
 
 DISTNAME=	EMpy-0.1.2.linux-i686
 PKGNAME=	${PYPKGPREFIX}-EMpy-${VERSION}
-CATEGORIES=	science python
+CATEGORIES=	math python
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=empy/}
 
 MAINTAINER=	jihbed.research@gmail.com

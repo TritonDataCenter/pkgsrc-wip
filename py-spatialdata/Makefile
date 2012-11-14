@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	spatialdata-1.8.0
-CATEGORIES=	science
+CATEGORIES=	math
 MASTER_SITES=	http://www.geodynamics.org/cig/software/pylith/
 EXTRACT_SUFX=	.tgz
 

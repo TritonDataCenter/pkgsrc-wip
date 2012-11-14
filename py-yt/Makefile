@@ -3,7 +3,7 @@
 
 DISTNAME=	yt-2.2
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
-CATEGORIES=	physics graphics python
+CATEGORIES=	graphics python
 MASTER_SITES=	http://pypi.python.org/packages/source/y/yt/
 
 MAINTAINER=	jihbed.research@gmail.com

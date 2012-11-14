@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	foo2zjs-20080105
-CATEGORIES=	wip
+CATEGORIES=	print
 MASTER_SITES=	http://www.stack.nl/~martijnb/foo2zjs/
 EXTRACT_SUFX=	.tgz
 

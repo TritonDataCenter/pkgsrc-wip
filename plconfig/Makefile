@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		plconfig-0.2
-CATEGORIES=		HomePlug
+CATEGORIES=		net
 MASTER_SITES=		https://neon1.net/prog/ \
 			http://www.sourcefiles.org/Networking/Tools/General_Configuration/
 

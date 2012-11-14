@@ -3,7 +3,7 @@
 .include "../../wip/io/version.mk"
 
 PKGNAME=		io-blowfish-${IO_VERSION}
-CATEGORIES=		crypto
+CATEGORIES=		security
 
 MAINTAINER=		milos.negovanovic@googlemail.com
 HOMEPAGE=		www.iolanguage.com

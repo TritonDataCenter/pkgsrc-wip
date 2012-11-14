@@ -3,7 +3,7 @@
 
 DISTNAME=	biblatex-biber
 PKGNAME=	p5-${DISTNAME}
-CATEGORIES=	wip
+CATEGORIES=	textproc
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=biblatex-biber/}
 
 MAINTAINER=	pkgsrc-users@NetBSD.org

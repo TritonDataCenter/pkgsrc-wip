@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		wbox-5
-CATEGORIES=		wip www
+CATEGORIES=		www
 MASTER_SITES=		http://www.hping.org/wbox/
 
 MAINTAINER=		bartosz.kuzma@gmail.com

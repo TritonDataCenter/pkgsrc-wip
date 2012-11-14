@@ -3,7 +3,7 @@
 
 DISTNAME=	${PYPKGPREFIX}-scikits_hydroclimpy-0.67.1
 EGG_NAME=	${DISTNAME:S|${PYPKGPREFIX}-||:S|kits_|kits.|:Q}
-CATEGORIES=	science python
+CATEGORIES=	python time
 
 MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	http://hydroclimpy.sourceforge.net/

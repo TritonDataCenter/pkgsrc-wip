@@ -3,7 +3,7 @@
 
 DISTNAME=	GRPy
 PKGNAME=	${PYPKGPREFIX}-grpy-${VERSION}
-CATEGORIES=	science python
+CATEGORIES=	math python
 MASTER_SITES=	http://pypi.python.org/packages/source/G/GRPy/
 
 MAINTAINER=	jihbed.research@gmail.com

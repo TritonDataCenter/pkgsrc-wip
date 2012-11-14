@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		netx-${VERSION}
-CATEGORIES=		wip sysutils
+CATEGORIES=		sysutils
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=jnlp/}
 EXTRACT_SUFX=		.jar
 VERSION=		0.5

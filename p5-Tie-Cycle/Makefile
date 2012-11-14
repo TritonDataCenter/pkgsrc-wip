@@ -3,7 +3,7 @@
 
 DISTNAME=	Tie-Cycle-1.17
 PKGNAME=	p5-${DISTNAME}
-CATEGORIES=	wip
+CATEGORIES=	time
 MASTER_SITES=	http://search.cpan.org/CPAN/authors/id/B/BD/BDFOY/
 
 MAINTAINER=	pkgsrc-users@NetBSD.org

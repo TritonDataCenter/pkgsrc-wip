@@ -3,7 +3,7 @@
 
 DISTNAME=	pyslha-1.2.3
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
-CATEGORIES=	physics
+CATEGORIES=	misc
 MASTER_SITES=	http://pypi.python.org/packages/source/p/pyslha/
 
 MAINTAINER=	jihbed.research@gmail.com

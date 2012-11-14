@@ -2,8 +2,8 @@
 #
 
 DISTNAME=	FeynHiggs-2.7.3
-PKGNAME=	${DISTNAME:S/F/f/S/H/h/}
-CATEGORIES=	physics
+PKGNAME=	${DISTNAME:tl}
+CATEGORIES=	math
 MASTER_SITES=	http://wwwth.mppmu.mpg.de/members/heinemey/feynhiggs/newversion/
 
 MAINTAINER=	jihbed.research@gmail.com

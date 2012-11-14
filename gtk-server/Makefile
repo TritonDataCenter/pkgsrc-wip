@@ -3,7 +3,7 @@
 
 DISTNAME=		gtk-server-2.0.10
 PKGREVISION=		1
-CATEGORIES=		wip x11 devel
+CATEGORIES=		devel x11
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=gtk-server/}
 
 MAINTAINER=		pancake@phreaker.net

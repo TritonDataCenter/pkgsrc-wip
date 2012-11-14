@@ -3,7 +3,7 @@
 
 DISTNAME=	gs2009code
 PKGNAME=	gsdpdf-2009
-CATEGORIES=	physics
+CATEGORIES=	math
 MASTER_SITES=	http://projects.hepforge.org/gsdpdf/code/
 
 MAINTAINER=	jihbed.research@gmail.com

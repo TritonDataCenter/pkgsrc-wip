@@ -3,7 +3,7 @@
 
 DISTNAME=	uImage-2.6.24+git20080430-r0-om-gta01
 PKGNAME=	qemu-neo1973-images-4351
-CATEGORIES=	wip
+CATEGORIES=	emulators
 MASTER_SITES=	http://buildhost.openmoko.org/daily/neo1973/deploy/glibc/images/neo1973/ \
 		http://buildhost.automated.it/OM2007.2/
 EXTRACT_SUFX=	.bin

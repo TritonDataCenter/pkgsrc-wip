@@ -3,7 +3,7 @@
 
 DISTNAME=		gnomeradio-1.6
 PKGREVISION=		5
-CATEGORIES=		wip audio
+CATEGORIES=		audio
 MASTER_SITES=		http://www.wh-hms.uni-ulm.de/~mfcn/gnomeradio/packages/
 
 MAINTAINER=		pancake@phreaker.net

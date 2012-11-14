@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	open-cobol-1.1
-CATEGORIES=	wip
+CATEGORIES=	lang
 MASTER_SITES=	http://www.sim-basis.de/
 
 MAINTAINER=	rodo@zlug.org

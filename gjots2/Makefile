@@ -3,7 +3,7 @@
 
 DISTNAME=		gjots2-2.3.4
 PKGREVISION=		4
-CATEGORIES=		wip x11
+CATEGORIES=		x11
 MASTER_SITES=		http://bhepple.freeshell.org/gjots/
 EXTRACT_SUFX=		.tgz
 

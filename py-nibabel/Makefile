@@ -3,7 +3,7 @@
 
 DISTNAME=	nibabel-1.1.0
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
-CATEGORIES=	science python
+CATEGORIES=	graphics python
 MASTER_SITES=	http://pypi.python.org/packages/source/n/nibabel/
 
 MAINTAINER=	jihbed.research@gmail.com

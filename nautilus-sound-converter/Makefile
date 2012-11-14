@@ -3,7 +3,7 @@
 
 DISTNAME=	nautilus-sound-converter-1.0.6
 PKGREVISION=	1
-CATEGORIES=	wip
+CATEGORIES=	audio
 MASTER_SITES=	http://nautilus-sound-converter.googlecode.com/files/
 EXTRACT_SUFX=	.tar.bz2
 

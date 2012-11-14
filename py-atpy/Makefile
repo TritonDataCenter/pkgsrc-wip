@@ -3,7 +3,7 @@
 
 DISTNAME=	ATpy-0.9.6
 PKGNAME=	${PYPKGPREFIX}-atpy-0.9.6
-CATEGORIES=	science
+CATEGORIES=	math
 MASTER_SITES=	http://cloud.github.com/downloads/atpy/atpy/
 
 MAINTAINER=	jihbed.research@gmail.com

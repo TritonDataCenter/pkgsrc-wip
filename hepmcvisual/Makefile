@@ -2,8 +2,8 @@
 #
 
 DISTNAME=	HepMCVisual-1.1.6
-PKGNAME=	hepmcvisual-1.1.6
-CATEGORIES=	physics
+PKGNAME=	${DISTNAME:tl}
+CATEGORIES=	misc
 MASTER_SITES=	http://www.hepforge.org/archive/hepmcvisual/
 
 MAINTAINER=	jihbed.research@gmail.com

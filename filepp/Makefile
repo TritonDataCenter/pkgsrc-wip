@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		filepp-1.7.1
-CATEGORIES=		wip
+CATEGORIES=		textproc
 MASTER_SITES=		http://www.cabaret.demon.co.uk/filepp/
 
 MAINTAINER=		alchow@users.sourceforge.net

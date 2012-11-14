@@ -3,7 +3,7 @@
 
 DISTNAME=		JacORB_${DIST_VERSION}-src
 PKGNAME=		JacORB-lib-${PKG_VERSION}
-CATEGORIES=		corba
+CATEGORIES=		lang
 MASTER_SITES=		http://www.jacorb.org/releases/${PKG_VERSION}/
 
 MAINTAINER=		dprice@cs.nmsu.edu

@@ -3,7 +3,7 @@
 
 DISTNAME=	Business-ISSN-0.91
 PKGNAME=	p5-${DISTNAME}
-CATEGORIES=	wip
+CATEGORIES=	misc
 MASTER_SITES=	http://search.cpan.org/CPAN/authors/id/B/BD/BDFOY/
 
 MAINTAINER=	pkgsrc-users@NetBSD.org

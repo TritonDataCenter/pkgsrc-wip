@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	vamp-2.0.4
-CATEGORIES=	physics
+CATEGORIES=	misc
 MASTER_SITES=	http://www.hepforge.org/archive/whizard/
 
 MAINTAINER=	jihbed.research@gmail.com

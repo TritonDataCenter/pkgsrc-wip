@@ -3,7 +3,7 @@
 
 DISTNAME=	gurlchecker-0.4.1
 PKGREVISION=	4
-CATEGORIES=	www gnome2
+CATEGORIES=	www
 MASTER_SITES=	http://savannah.nongnu.org/download/gurlchecker/stable/0.4/
 
 MAINTAINER=	pkgsrc-users@NetBSD.org

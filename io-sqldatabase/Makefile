@@ -3,7 +3,7 @@
 .include "../../wip/io/version.mk"
 
 PKGNAME=		io-sqldatabase-${IO_VERSION}
-CATEGORIES=		database
+CATEGORIES=		databases
 
 MAINTAINER=		milos.negovanovic@googlemail.com
 HOMEPAGE=		www.iolanguage.com

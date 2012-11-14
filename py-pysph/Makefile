@@ -2,8 +2,8 @@
 #
 
 DISTNAME=	PySPH-0.9beta
-PKGNAME=	${PYPKGPREFIX}-pysph-0.9
-CATEGORIES=	science python
+PKGNAME=	${PYPKGPREFIX}-${DISTNAME:tl}
+CATEGORIES=	misc python
 MASTER_SITES=	http://pypi.python.org/packages/source/P/PySPH/
 
 MAINTAINER=	jihbed.research@gmail.com

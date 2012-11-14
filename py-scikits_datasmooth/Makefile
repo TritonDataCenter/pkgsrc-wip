@@ -3,7 +3,7 @@
 
 DISTNAME=	scikits.datasmooth-0.5
 PKGNAME=	${PYPKGPREFIX}-scikits_datasmooth-0.5
-CATEGORIES=	science python
+CATEGORIES=	misc python
 MASTER_SITES=	http://pypi.python.org/packages/source/s/scikits.datasmooth/
 
 MAINTAINER=	jihbed.research@gmail.com

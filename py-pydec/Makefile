@@ -4,7 +4,7 @@
 DISTNAME=	${PYPKGPREFIX}-pydec-0.67.0
 PKGREVISION=	3
 EGG_NAME=	pydec-1.0.0.dev29
-CATEGORIES=	science python
+CATEGORIES=	math python
 
 MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	http://code.google.com/p/pydec/

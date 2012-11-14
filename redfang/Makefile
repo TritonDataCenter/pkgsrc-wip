@@ -2,8 +2,8 @@
 #
 
 DISTNAME=		redfang.2.5
-PKGNAME=		redfang-2.5
-CATEGORIES=		wip security
+PKGNAME=		${DISTNAME:S/./-/1}
+CATEGORIES=		security
 MASTER_SITES=		http://www.blackops.cn/tools/
 
 MAINTAINER=		pancake@phreaker.net

@@ -3,7 +3,7 @@
 
 DISTNAME=	mpop-v0.11.5
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
-CATEGORIES=	science python
+CATEGORIES=	misc python
 MASTER_SITES=	http://pypi.python.org/packages/source/m/mpop/
 
 MAINTAINER=	jihbed.research@gmail.com

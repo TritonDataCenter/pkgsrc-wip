@@ -2,8 +2,8 @@
 #
 
 DISTNAME=	stkSolver-1.0
-PKGNAME=	${DISTNAME:S/S/s/}
-CATEGORIES=	science
+PKGNAME=	${DISTNAME:tl}
+CATEGORIES=	math
 MASTER_SITES=	http://stksolver.googlecode.com/files/
 
 MAINTAINER=	jihbed.research@gmail.com
@@ -11,7 +11,7 @@ HOMEPAGE=	http://code.google.com/p/stksolver/
 COMMENT=	Stokes flow solver using the boundary element method
 LICENSE=	gnu-gpl-v2
 
-WRKSRC=	${WRKDIR}/stkSolver
+WRKSRC=		${WRKDIR}/stkSolver
 
 USE_TOOLS+=	gmake
 

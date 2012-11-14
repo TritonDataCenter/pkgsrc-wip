@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		pbbuttonsd-0.7.2
-CATEGORIES=		wip sysutils
+CATEGORIES=		sysutils
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=pbbuttons/}
 
 MAINTAINER=		pancake@phreaker.net

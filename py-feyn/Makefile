@@ -2,9 +2,9 @@
 #
 
 DISTNAME=	pyfeyn-0.3.2
-PKGNAME=	${PYPKGPREFIX}-${DISTNAME:S/^py//}
+PKGNAME=	${DISTNAME:S/py/${PYPKGPREFIX}-/1}
 PKGREVISION=	1
-CATEGORIES=	physics
+CATEGORIES=	graphics
 MASTER_SITES=	http://www.hepforge.org/archive/pyfeyn/
 
 MAINTAINER=	jihbed.research@gmail.com

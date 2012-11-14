@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	lhapdf-5.8.7b2
-CATEGORIES=	physics
+CATEGORIES=	print
 MASTER_SITES=	http://www.hepforge.org/archive/lhapdf/
 
 MAINTAINER=	jihbed.research@gmail.com

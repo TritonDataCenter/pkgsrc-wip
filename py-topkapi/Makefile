@@ -2,8 +2,8 @@
 #
 
 DISTNAME=	PyTOPKAPI-0.2.0
-PKGNAME=	${PYPKGPREFIX}-topkapi-0.2.0
-CATEGORIES=	science
+PKGNAME=	${DISTNAME:tl:S/py/${PYPKGPREFIX}-/1}
+CATEGORIES=	misc
 MASTER_SITES=	https://github.com/downloads/sahg/PyTOPKAPI/
 
 MAINTAINER=	jihbed.research@gmail.com

@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		kawa-1.8
-CATEGORIES=		wip lang
+CATEGORIES=		lang
 MASTER_SITES=		http://ftp.gnu.org/pub/gnu/kawa/
 
 MAINTAINER=		pancake@phreaker.net

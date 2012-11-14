@@ -2,8 +2,8 @@
 #
 
 DISTNAME=	FeynEdit-1.0
-PKGNAME=	feynedit-1.0
-CATEGORIES=	physcis java
+PKGNAME=	${DISTNAME:tl}
+CATEGORIES=	java graphics
 MASTER_SITES=	http://www.feynarts.de/
 
 MAINTAINER=	jihbed.research@gmail.com
@@ -13,7 +13,7 @@ LICENSE=	gnu-lgpl-v3
 
 USE_LANGUAGES=	# none
 
-PKG_JVMS_ACCEPTED= sun-jdk6 sun-jdk15 sun-jdk14
+PKG_JVMS_ACCEPTED=	sun-jdk6 sun-jdk15 sun-jdk14
 
 INSTALLATION_DIRS=	bin share/doc/feynedit
 

@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	guile-2.0.5
-CATEGORIES=	wip
+CATEGORIES=	lang
 MASTER_SITES=	ftp://ftp.gnu.org/gnu/guile/
 
 MAINTAINER=	a@zta.lk

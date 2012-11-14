@@ -3,7 +3,7 @@
 
 DISTNAME=	HAWK
 PKGNAME=	hawk-${VERSION}
-CATEGORIES=	physics
+CATEGORIES=	math
 MASTER_SITES=	http://omnibus.uni-freiburg.de/~sd565/programs/hawk/
 
 MAINTAINER=	jihbed.research@gmail.com

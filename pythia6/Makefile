@@ -2,8 +2,8 @@
 #
 
 DISTNAME=	pythia-6.4.25.f
-PKGNAME=	pythia-6.4.25
-CATEGORIES=	physics
+PKGNAME=	${DISTNAME:S/.f//1}
+CATEGORIES=	misc
 MASTER_SITES=	http://www.hepforge.org/archive/pythia6/
 EXTRACT_SUFX=	.gz
 

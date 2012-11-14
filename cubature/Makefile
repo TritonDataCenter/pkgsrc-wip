@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	cubature-20101018
-CATEGORIES=	science
+CATEGORIES=	math
 MASTER_SITES=	http://ab-initio.mit.edu/cubature/
 EXTRACT_SUFX=	.tgz
 

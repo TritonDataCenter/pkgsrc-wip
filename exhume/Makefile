@@ -2,8 +2,8 @@
 #
 
 DISTNAME=	ExHuME-1.3.5
-PKGNAME=	exhume-1.3.5
-CATEGORIES=	physics
+PKGNAME=	${DISTNAME:tl}
+CATEGORIES=	math
 MASTER_SITES=	http://www.hepforge.org/archive/exhume/
 
 MAINTAINER=	jihbed.research@gmail.com

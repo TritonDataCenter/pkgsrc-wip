@@ -4,7 +4,6 @@
 DISTNAME=	pyflakes-0.5.0
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME:S/^py//}
 CATEGORIES=	devel python
-CATEGORIES=	wip
 MASTER_SITES=	http://pypi.python.org/packages/source/p/pyflakes/
 
 MAINTAINER=	kamel.derouiche@gmail.com

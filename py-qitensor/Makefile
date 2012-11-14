@@ -3,7 +3,7 @@
 
 DISTNAME=	qitensor-0.5
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
-CATEGORIES=	science
+CATEGORIES=	misc
 MASTER_SITES=	http://www.stahlke.org/dan/qitensor/
 
 MAINTAINER=	jihbed.research@gmail.com

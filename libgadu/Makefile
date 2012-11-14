@@ -2,8 +2,8 @@
 #
 
 DISTNAME=	libgadu-1.9.0-rc2
-PKGNAME=	libgadu-1.9.0rc2
-CATEGORIES=	wip
+PKGNAME=	${DISTNAME:S/-r/r/1}
+CATEGORIES=	chat
 MASTER_SITES=	http://toxygen.net/libgadu/files/
 
 MAINTAINER=	mjl@luckie.org.nz
