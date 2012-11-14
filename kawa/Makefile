@@ -3,7 +3,7 @@
 
 DISTNAME=		kawa-1.8
 CATEGORIES=		lang
-MASTER_SITES=		http://ftp.gnu.org/pub/gnu/kawa/
+MASTER_SITES=		${MASTER_SITE_GNU:=kawa/}
 
 MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://www.gnu.org/software/kawa/
