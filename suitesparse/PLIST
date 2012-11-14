@@ -1,4 +1,5 @@
 @comment $NetBSD$
+include/suitesparse/SuiteSparse_config.h
 include/suitesparse/amd.h
 include/suitesparse/amd_internal.h
 include/suitesparse/btf.h

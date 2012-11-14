@@ -94,6 +94,8 @@ do-build:
 #	done
 
 do-install:
+	${INSTALL_DATA} ${WRKSRC}/SuiteSparse_config/SuiteSparse_config.h \
+		${DESTDIR}${PREFIX}/include/suitesparse
 .for d in AMD BTF CAMD CCOLAMD CHOLMOD COLAMD CXSparse KLU SPQR UMFPACK
 	${INSTALL_DATA} ${WRKSRC}/${d}/Include/*.h ${DESTDIR}${PREFIX}/include/suitesparse
 .endfor
