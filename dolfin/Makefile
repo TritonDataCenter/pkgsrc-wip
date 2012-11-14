@@ -30,7 +30,8 @@ CMAKE_ARGS+=	-DCMAKE_VERBOSE_MAKEFILE:BOOL=ON \
 CXXFLAGS+=	-I${LOCALBASE}/${PYINC}
 .endif
 
-.if ${OPSYS} == "Linux"
+# Fix for variadic template warnings
+.if ${OPSYS} == "Linux" || ${OPSYS} == "NetBSD"
 #CXXFLAGS+=	-std=gnu++0x
 CXXFLAGS+=	-std=c++0x
 .endif
