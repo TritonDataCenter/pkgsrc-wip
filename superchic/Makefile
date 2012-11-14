@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	superchicv1.3
-PKGNAME=	${DISTNAME:S/v//1}
+PKGNAME=	${DISTNAME:S/v/-/1}
 CATEGORIES=	misc
 MASTER_SITES=	http://projects.hepforge.org/superchic/
 EXTRACT_SUFX=	.f
