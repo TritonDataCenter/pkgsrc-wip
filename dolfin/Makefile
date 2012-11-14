@@ -30,10 +30,10 @@ CMAKE_ARGS+=	-DCMAKE_VERBOSE_MAKEFILE:BOOL=ON \
 CXXFLAGS+=	-I${LOCALBASE}/${PYINC}
 .endif
 
-# Fix for variadic template warnings
+# Fix for variadic template warnings, but causes make_pair() error
 .if ${OPSYS} == "Linux" || ${OPSYS} == "NetBSD"
 #CXXFLAGS+=	-std=gnu++0x
-CXXFLAGS+=	-std=c++0x
+#CXXFLAGS+=	-std=c++0x
 .endif
 
 # MAKE_ENV+=	ARMADILLO_DIR=${PREFIX}
