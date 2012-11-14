@@ -7,7 +7,7 @@ ARMADILLO_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.armadillo+=	armadillo>=3.4.4
 BUILDLINK_ABI_DEPENDS.armadillo?=	armadillo>=3.4.4
-BUILDLINK_PKGSRCDIR.armadillo?=	../../math/armadillo
+BUILDLINK_PKGSRCDIR.armadillo?=	../../wip/armadillo
 
 .include "../../math/blas/buildlink3.mk"
 .include "../../math/lapack/buildlink3.mk"
