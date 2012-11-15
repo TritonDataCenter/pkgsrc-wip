@@ -8,7 +8,7 @@ HOMEPAGE=	http://www.bigmemory.org/
 COMMENT=	Library of utilities for big.matrix objects of package bigmemory
 
 R_PKGNAME=	biganalytics
-R_PKGVER=	1.0.14
+R_PKGVER=	1.1.0
 
 LICENSE=	gnu-lgpl-v3
 
