@@ -23,6 +23,7 @@ SUBDIR+=	PPower4
 SUBDIR+=	PyBabelFish
 SUBDIR+=	Pythonol
 SUBDIR+=	R-BiocGenerics
+SUBDIR+=	R-C50
 SUBDIR+=	R-Rgraphviz
 SUBDIR+=	R-Rserve
 SUBDIR+=	R-VGAM
