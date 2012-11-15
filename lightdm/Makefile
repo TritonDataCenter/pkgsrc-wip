@@ -51,6 +51,13 @@ pre-install:
 			${INSTALL_DATA} lightdm-autologin ${DESTDIR}${EGDIR}/pam.d/lightdm-autologin && \
 			${INSTALL_DATA} lightdm-greeter ${DESTDIR}${EGDIR}/pam.d/lightdm-greeter
 
+post-install:
+			${RM} ${DESTDIR}${PKG_SYSCONFDIR}/apparmor.d/lightdm-guest-session
+			${RM} ${DESTDIR}${PKG_SYSCONFDIR}/dbus-1/system.d/org.freedesktop.DisplayManager.conf
+			${RM} ${DESTDIR}${PKG_SYSCONFDIR}/init/lightdm.conf
+			${RM} -rf ${DESTDIR}${PKG_SYSCONFDIR}/lightdm
+			${RM} ${DESTDIR}${PKG_SYSCONFDIR}/pam.d/lightdm*
+
 .include "../../devel/glib2/buildlink3.mk"
 .include "../../devel/gobject-introspection/buildlink3.mk"
 .include "../../security/openpam/buildlink3.mk"
