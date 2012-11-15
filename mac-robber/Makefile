@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		mac-robber-1.00
-CATEGORIES=		wip sysutils
+CATEGORIES=		sysutils
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=mac-robber/}
 
 MAINTAINER=		pancake@phreaker.net

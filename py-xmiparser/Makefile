@@ -3,7 +3,7 @@
 
 DISTNAME=	xmiparser-1.5
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
-CATEGORIES=	wip
+CATEGORIES=	textproc
 MASTER_SITES=	http://pypi.python.org/packages/source/x/xmiparser/
 EXTRACT_SUFX=	.zip
 

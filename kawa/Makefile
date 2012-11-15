@@ -2,12 +2,12 @@
 #
 
 DISTNAME=		kawa-1.8
-CATEGORIES=		wip lang
-MASTER_SITES=		http://ftp.gnu.org/pub/gnu/kawa/
+CATEGORIES=		lang
+MASTER_SITES=		${MASTER_SITE_GNU:=kawa/}
 
 MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://www.gnu.org/software/kawa/
-COMMENT=		Scheme interpreter written in Java.
+COMMENT=		Scheme interpreter written in Java
 
 PKG_DESTDIR_SUPPORT=	none
 

@@ -5,7 +5,7 @@ DISTNAME=	Model-Builder-0.4.6
 EGG_NAME=	Model_Builder-0.4.6
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME:S/M/m/S/B/b/}
 CATEGORIES=	math python
-MASTER_SITES=	http://garr.dl.sourceforge.net/project/model-builder/model-builder/0.4.6/
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=model-builder/}
 
 MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	http://model-builder.sourceforge.net/

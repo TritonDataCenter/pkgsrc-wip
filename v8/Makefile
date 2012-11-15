@@ -1,7 +1,7 @@
 # $NetBSD$
 
 DISTNAME=		v8
-CATEGORIES=		wip
+CATEGORIES=		lang
 MASTER_SITES=		# none?
 
 MAINTAINER=		msporleder@gmail.com

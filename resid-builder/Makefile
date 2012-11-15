@@ -8,7 +8,7 @@ MASTER_SITES=	http://www.tnsp.org/xs-files/
 
 MAINTAINER=	adam.hoka@gmail.com
 HOMEPAGE=	http://www.tnsp.org/xs-files/
-COMMENT=	reSID-builder snapshot from ccr/TNSP
+COMMENT=	Snapshot of reSID-builder from ccr/TNSP
 
 PKG_DESTDIR_SUPPORT=	none
 

@@ -5,7 +5,7 @@ DISTNAME=	pyse-0.3.1
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME:S/^py//}
 PKGREVISION=	1
 CATEGORIES=	math python
-MASTER_SITES=	http://garr.dl.sourceforge.net/project/pyfdm/pyfdm/0.3.1/
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=pyfdm/}
 
 MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	http://pyfdm.sourceforge.net/

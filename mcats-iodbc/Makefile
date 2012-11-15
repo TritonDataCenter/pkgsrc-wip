@@ -8,7 +8,7 @@ MASTER_SITES=	http://mcats.net/files/
 
 MAINTAINER=	pehr@mcats.net
 HOMEPAGE=	http://mcats.net/
-COMMENT=	iODBC module for MCatS
+COMMENT=	MCatS iODBC module
 
 #DEPENDS+=	mcats>=0.1.0:../../convertors/mcats
 DEPENDS+=	mcats>=0.1.0:../../wip/mcats

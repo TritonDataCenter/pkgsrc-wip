@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	elementary-0.6.0.063
+PKGREVISION=	1
 CATEGORIES=	x11
 MASTER_SITES=	http://download.enlightenment.org/snapshots/2009-12-02/
 EXTRACT_SUFX=	.tar.bz2
@@ -23,6 +24,8 @@ MODULE_ARCH=	${LOWER_OPSYS}${APPEND_ELF}${LOWER_OPSYS_VERSUFFIX}-${LOWER_ARCH}-v
 PLIST_SUBST=	MODULE_ARCH=${MODULE_ARCH}
 PRINT_PLIST_AWK+=        { gsub(/${MODULE_ARCH}/, "$${MODULE_ARCH}") }
 
+
+.include "../../sysutils/desktop-file-utils/desktopdb.mk"
 .include "../../wip/ecore/buildlink3.mk"
 .include "../../wip/edje/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

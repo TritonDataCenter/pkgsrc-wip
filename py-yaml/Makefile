@@ -3,7 +3,7 @@
 
 DISTNAME=	PyYAML-3.10
 PKGNAME=	${PYPKGPREFIX}-yaml-3.10
-CATEGORIES=	textoproc python
+CATEGORIES=	textproc python
 MASTER_SITES=	http://pyyaml.org/download/pyyaml/
 
 MAINTAINER=	kamelderouiche@yahoo.com

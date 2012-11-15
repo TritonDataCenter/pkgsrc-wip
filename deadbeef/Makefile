@@ -3,7 +3,7 @@
 
 DISTNAME=	deadbeef-0.5.2
 CATEGORIES=	audio
-MASTER_SITES=	http://sourceforge.net/projects/deadbeef/files/
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=deadbeef/}
 EXTRACT_SUFX=	.tar.bz2
 PKGREVISION=	1
 

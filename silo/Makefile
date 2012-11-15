@@ -3,16 +3,17 @@
 
 DISTNAME=	silo-4.8-bsd
 PKGNAME=	${DISTNAME:S/-bsd//}
-CATEGORIES=	science
+CATEGORIES=	math
 MASTER_SITES=	https://wci.llnl.gov/codes/silo/silo-4.8/
 
 MAINTAINER=	jihbed.research@gmail.com
-HOMEPAGE=	https://wci.llnl.gov/codes/silo/silo-4.8/
+HOMEPAGE=	https://wci.llnl.gov/codes/silo/
 COMMENT=	Mesh and filed I/O library and scientific databases
 LICENSE=	modified-bsd
 
 GNU_CONFIGURE=	yes
 USE_LANGUAGES=	c c++ fortran77
+USE_LIBTOOL=	yes
 
 # pkgsrc is not currently able to fetch distfiles from https web servers
 # (see mk/fetch/fetch.mk), so you have to use a browser for now.

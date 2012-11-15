@@ -11,6 +11,7 @@ HOMEPAGE=	http://despotify.sourceforge.net/
 COMMENT=	Open Source Spotify client
 
 USE_TOOLS+=	gmake
+USE_LIBTOOL=	yes
 USE_NCURSES=	yes
 WRKSRC=		${WRKDIR}/despotify/src
 

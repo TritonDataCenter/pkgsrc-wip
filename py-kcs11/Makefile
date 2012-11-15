@@ -3,11 +3,8 @@
 
 DISTNAME=	PyKCS11-1.2.4
 PKGREVISION=	1
-CATEGORIES=	wip
-MASTER_SITES=	http://garr.dl.sourceforge.net/project/pkcs11wrap/pykcs11/pykcs11-1.2.4/
-
-MAINTAINER=	kamelderouiche@yahoo.com
-HOMEPAGE=	http://www.bit4id.org/trac/pykcs11
+CATEGORIES=	security
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=pkcs11wrap/}
 COMMENT=	PKCS\#11 wrapper for Python
 LICENSE=	gnu-gpl-v2
 

@@ -1,0 +1,13 @@
+@comment $NetBSD$
+${PYSITELIB}/examples.py
+${PYSITELIB}/examples.pyc
+${PYSITELIB}/examples.pyo
+${PYSITELIB}/teafiles/__init__.py
+${PYSITELIB}/teafiles/__init__.pyc
+${PYSITELIB}/teafiles/__init__.pyo
+${PYSITELIB}/teafiles/clockwise.py
+${PYSITELIB}/teafiles/clockwise.pyc
+${PYSITELIB}/teafiles/clockwise.pyo
+${PYSITELIB}/teafiles/teafile.py
+${PYSITELIB}/teafiles/teafile.pyc
+${PYSITELIB}/teafiles/teafile.pyo

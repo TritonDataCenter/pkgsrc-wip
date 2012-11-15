@@ -8,7 +8,7 @@ CATEGORIES=		archivers
 
 MAINTAINER=		milos.negovanovic@googlemail.com
 HOMEPAGE=		www.iolanguage.com
-COMMENT=		LZO addon for Io.
+COMMENT=		LZO addon for Io
 
 ADDON_NAME=		LZO
 

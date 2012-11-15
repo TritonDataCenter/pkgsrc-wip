@@ -3,7 +3,7 @@
 
 DISTNAME=	ncdu-1.8
 CATEGORIES=	filesystems
-MASTER_SITES=	http://sourceforge.net/projects/ncdu/files/ncdu/ncdu-1.8/
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=ncdu/}
 
 COMMENT=	Disk usage visualization tool
 LICENSE=	modified-bsd

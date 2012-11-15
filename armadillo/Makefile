@@ -1,13 +1,12 @@
 # $NetBSD$
 
-DISTNAME=	armadillo-2.2.1
-PKGREVISION=	1
+DISTNAME=	armadillo-3.4.4
 CATEGORIES=	math
 MASTER_SITES=   ${MASTER_SITE_SOURCEFORGE:=arma/}
 
 MAINTAINER=	jwbacon@tds.net
 HOMEPAGE=	http://sourceforge.net/projects/arma/
-COMMENT=	C++ template matrix library
+COMMENT=	C++ linear algebra library
 LICENSE=	gnu-lgpl-v3
 
 USE_LANGUAGES+= c c++
@@ -15,8 +14,8 @@ USE_CMAKE=	yes
 
 CMAKE_ARGS+=	-DINSTALL_LIB_DIR=${PREFIX}/lib
 
-pre-configure:
-	cp -f ${FILESDIR}/CMakeLists.txt.native-find ${WRKSRC}
+#pre-configure:
+	#cp -f ${FILESDIR}/CMakeLists.txt.native-find ${WRKSRC}
 
 .include "../../math/blas/buildlink3.mk"
 .include "../../math/lapack/buildlink3.mk"

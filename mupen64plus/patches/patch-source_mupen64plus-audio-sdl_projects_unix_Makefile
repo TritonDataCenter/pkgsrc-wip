@@ -30,7 +30,7 @@ Adding NetBSD support. Setting OS, SO_NAME, CFLAGS, LDFLAGS, LIBS, etc.
      CFLAGS  += $(shell sdl-config --cflags)
      LDLIBS += $(shell sdl-config --libs)
  endif
-+ifeq ($OS),NETBSD)
++ifeq ($(OS),NETBSD)
 +    CFLAGS  += $(shell sdl-config --cflags)
 +    LDLIBS += -Wl,-rpath,${LIBDIR} $(shell sdl-config --libs)
 +endif

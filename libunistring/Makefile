@@ -11,6 +11,7 @@ COMMENT=	Library that provides functions for manipulating Unicode strings
 LICENSE=	gnu-lgpl-v3
 
 GNU_CONFIGURE=	yes
+USE_LIBTOOL=	yes
 
 .include "../../converters/libiconv/buildlink3.mk"
 

@@ -3,7 +3,7 @@
 GCC_VERSION=		4.7.0
 DISTNAME=		gcc-${GCC_VERSION}
 PKGNAME=		gcc47-${GCC_VERSION}
-CATEGORIES=		wip
+CATEGORIES=		lang
 MASTER_SITES=           ${MASTER_SITE_GNU:=gcc/gcc-${GCC_VERSION}/}
 EXTRACT_SUFX=           .tar.bz2
 

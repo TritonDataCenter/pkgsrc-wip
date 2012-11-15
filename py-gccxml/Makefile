@@ -4,7 +4,7 @@
 DISTNAME=	pygccxml-1.0.0
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME:S/^py//}
 CATEGORIES=	devel python
-MASTER_SITES=	http://garr.dl.sourceforge.net/project/pygccxml/pygccxml/pygccxml-1.0/
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=pygccxml/}
 EXTRACT_SUFX=	.zip
 
 MAINTAINER=	kamel.derouiche@gmail.com

@@ -4,7 +4,7 @@
 DISTNAME=	Togl2.0-src
 PKGNAME=	libtogl-2.0
 CATEGORIES=	graphics
-MASTER_SITES=	http://garr.dl.sourceforge.net/project/togl/Togl/2.0/
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=togl/}
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	http://togl.sourceforge.net/index.html#intro

@@ -3,7 +3,7 @@
 
 DISTNAME=		libtifiles
 PKGNAME=		libtifiles-0.5.6
-CATEGORIES=		db
+CATEGORIES=		databases
 MASTER_SITES=		http://www.ticalc.org/pub/unix/
 
 MAINTAINER=		pkgsrc-users@NetBSD.org

@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		evilvte-0.4.3
-PKGREVISION=		2
+PKGREVISION=		3
 CATEGORIES=		x11
 MASTER_SITES=		http://www.calno.com/evilvte/
 
@@ -17,5 +17,7 @@ MAKE_FLAGS+=		OPTFLAGS="${CFLAGS}"
 
 INSTALL_MAKE_FLAGS+=	mandir=${DESTDIR}${PREFIX}/${PKGMANDIR}/man1
 
+
+.include "../../sysutils/desktop-file-utils/desktopdb.mk"
 .include "../../x11/vte/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

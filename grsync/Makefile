@@ -3,7 +3,7 @@
 
 DISTNAME=	grsync-0.9.3
 PKGREVISION=	1
-CATEGORIES=	wip
+CATEGORIES=	net
 MASTER_SITES=	http://www.opbyte.it/release/
 
 MAINTAINER=	pkgsrc@blackmouse.biz

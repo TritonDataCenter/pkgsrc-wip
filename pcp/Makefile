@@ -3,7 +3,7 @@
 
 DISTNAME=	pcp-2.2
 CATEGORIES=	math
-MASTER_SITES=	http://garr.dl.sourceforge.net/project/pcp/pcp/2.2/
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=pcp/}
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://pcp.sourceforge.net/

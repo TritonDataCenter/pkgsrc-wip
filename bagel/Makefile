@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	bagel-2.0.0
-CATEGORIES=	physics
+CATEGORIES=	math
 MASTER_SITES=	http://www2.ph.ed.ac.uk/~paboyle/bagel/
 
 MAINTAINER=	jihbed.research@gmail.com

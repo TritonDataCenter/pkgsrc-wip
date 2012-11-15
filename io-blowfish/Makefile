@@ -3,12 +3,11 @@
 .include "../../wip/io/version.mk"
 
 PKGNAME=		io-blowfish-${IO_VERSION}
-PKGREVISION=		0
-CATEGORIES=		crypto
+CATEGORIES=		security
 
 MAINTAINER=		milos.negovanovic@googlemail.com
 HOMEPAGE=		www.iolanguage.com
-COMMENT=		Blowfish addon for Io.
+COMMENT=		Blowfish addon for Io
 
 ADDON_NAME=		Blowfish
 

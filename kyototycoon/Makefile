@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	kyototycoon-0.9.38
-CATEGORIES=	wip
+CATEGORIES=	databases
 MASTER_SITES=	http://fallabs.com/kyototycoon/pkg/
 
 MAINTAINER=	msporleder@gmail.com

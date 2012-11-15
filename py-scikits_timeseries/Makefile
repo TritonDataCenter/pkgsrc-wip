@@ -6,7 +6,7 @@ EGG_NAME=	${DISTNAME}
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME:S|s.|s_|}
 PKGREVISION=	1
 CATEGORIES= math python
-MASTER_SITES=	http://garr.dl.sourceforge.net/project/pytseries/scikits.timeseries/${PKGVERSION_NOREV}/
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=pytseries/}
 
 MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	http://pytseries.sourceforge.net/

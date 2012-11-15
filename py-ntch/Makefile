@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	pyntch-dist-20090907
-CATEGORIES=	wip
+CATEGORIES=	devel
 MASTER_SITES=	http://www.unixuser.org/~euske/python/pyntch/
 
 MAINTAINER=	kamel.derouiche@gmail.com

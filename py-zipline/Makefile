@@ -1,0 +1,19 @@
+# $NetBSD$
+#
+
+DISTNAME=	zipline-0.5.1
+PKGNAME=        ${PYPKGPREFIX}-${DISTNAME}
+CATEGORIES=	finance
+MASTER_SITES=	http://pypi.python.org/packages/source/z/zipline/
+
+MAINTAINER=	jihbed.research@gmail.com
+HOMEPAGE=	https://github.com/quantopian/zipline
+COMMENT=	Backtester for financial algorithms
+LICENSE=	apache-2.0
+
+WRKSRC=		${WRKDIR}/zipline-0.5.1
+
+USE_LANGUAGES=	# none
+
+.include "../../lang/python/egg.mk"
+.include "../../mk/bsd.pkg.mk"

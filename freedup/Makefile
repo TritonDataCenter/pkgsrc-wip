@@ -9,7 +9,7 @@ EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	hallmann@ahatec.de
 HOMEPAGE=	http://freedup.org/
-COMMENT=	Free disk space by hard linking duplicate files.
+COMMENT=	Free disk space by hard linking duplicate files
 
 PKG_DESTDIR_SUPPORT=	none
 

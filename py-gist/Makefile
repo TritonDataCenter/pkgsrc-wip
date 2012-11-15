@@ -3,7 +3,7 @@
 
 DISTNAME=	pygist-1.5.28
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME:S/^py//}
-CATEGORIES=	graphics science python
+CATEGORIES=	graphics python
 MASTER_SITES=	http://hifweb.lbl.gov/public/software/gist/
 
 MAINTAINER=	jihbed.research@gmail.com

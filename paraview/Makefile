@@ -1,10 +1,11 @@
 # $NetBSD$
 #
 
-PKGNAME=	paraview-3.12.0
-DISTNAME=	ParaView-3.12.0
+VER=3.14.1
+PKGNAME=	paraview-${VER}
+DISTNAME=	ParaView-${VER}-Source
 CATEGORIES=	graphics
-MASTER_SITES=	http://www.paraview.org/files/v3.12/
+MASTER_SITES=	http://www.paraview.org/files/v3.14/
 
 MAINTAINER=	pouya@san-serriffe.org
 HOMEPAGE=	http://www.paraview.org/

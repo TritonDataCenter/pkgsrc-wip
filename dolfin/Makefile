@@ -21,19 +21,20 @@ REPLACE_PYTHON+=	scripts/dolfin-plot/dolfin-plot
 REPLACE_PYTHON+=	scripts/dolfin-order/dolfin-order
 REPLACE_PYTHON+=	scripts/dolfin-convert/dolfin-convert
 
+CMAKE_ARGS+=	-DCMAKE_VERBOSE_MAKEFILE:BOOL=ON \
+		-DDOLFIN_ENABLE_MPI:BOOL=OFF
+
 .include "../../mk/bsd.prefs.mk"
 
-# CMAKE_ARGS+=	-DCMAKE_VERBOSE_MAKEFILE:BOOL=ON
-
-# Needed on OS X
-# Not needed on NetBSD
+.if ${OPSYS} == "Darwin"
 CXXFLAGS+=	-I${LOCALBASE}/${PYINC}
+.endif
 
-# .include "../../mk/compiler.mk"
-
-# .if ${OPSYS} == "Linux"
-# CXXFLAGS+=	-std=c++0x
-# .endif
+# Fix for variadic template warnings, but causes make_pair() error
+.if ${OPSYS} == "Linux" || ${OPSYS} == "NetBSD"
+#CXXFLAGS+=	-std=gnu++0x
+#CXXFLAGS+=	-std=c++0x
+.endif
 
 # MAKE_ENV+=	ARMADILLO_DIR=${PREFIX}
 
@@ -47,7 +48,7 @@ FETCH_USING=	curl
 SUBST_CLASSES+=		bash
 SUBST_STAGE.bash=	post-configure
 SUBST_FILES.bash=	dolfin-version
-SUBST_SED.bash=		-e 's|/bin/bash|/usr/pkg/bin/bash|'
+SUBST_SED.bash=		-e 's|/bin/bash|/usr/bin/env bash|'
 
 # Stolen from lang/python/extension.mk
 PLIST_SUBST+=   PYSITELIB=${PYSITELIB}
@@ -63,7 +64,8 @@ PLIST_SUBST+=   PYSITELIB=${PYSITELIB}
 .include "../../wip/py-viper/buildlink3.mk"
 .include "../../math/blas/buildlink3.mk"
 .include "../../math/lapack/buildlink3.mk"
-.include "../../math/cgal/buildlink3.mk"
+# cgal requires qt4-libs and qt4-tools, which don't build on Linux or Mac
+#.include "../../math/cgal/buildlink3.mk"
 .include "../../math/py-numpy/buildlink3.mk"
 .include "../../devel/boost-libs/buildlink3.mk"
 .include "../../wip/swig2/buildlink3.mk"

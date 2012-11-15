@@ -2,8 +2,8 @@
 #
 
 DISTNAME=	OneLOop-1.1
-PKGNAME=	oneloop-1.1
-CATEGORIES=	physics
+PKGNAME=	${DISTNAME:tl}
+CATEGORIES=	math
 MASTER_SITES=	http://helac-phegas.web.cern.ch/helac-phegas/tar-files/
 EXTRACT_SUFX=	.tgz
 

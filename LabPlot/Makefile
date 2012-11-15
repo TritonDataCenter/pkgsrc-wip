@@ -16,6 +16,7 @@ GNU_CONFIGURE=		yes
 USE_TOOLS+=		gmake
 USE_LANGUAGES+=		c c++
 USE_PKGLOCALEDIR=	yes
+USE_LIBTOOL=		yes
 
 CONFIGURE_ARGS+= --enable-gsl
 CONFIGURE_ARGS+= --enable-fftw

@@ -13,6 +13,7 @@ COMMENT=		Extension libraries for LUA
 PKG_DESTDIR_SUPPORT=	none
 
 GNU_CONFIGURE=	YES
+USE_LIBTOOL=	yes
 USE_TOOLS+=	gmake
 CPPFLAGS+=	-I${PREFIX:Q}/include
 CPPFLAGS+=	-I/usr/X11R6/include

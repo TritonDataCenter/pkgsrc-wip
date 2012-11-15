@@ -3,7 +3,7 @@
 
 DISTNAME=	colorpy-0.1.0
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
-CATEGORIES=	physics python
+CATEGORIES=	graphics python
 MASTER_SITES=	http://markkness.net/colorpy/dist/
 
 MAINTAINER=	jihbed.research@gmail.com

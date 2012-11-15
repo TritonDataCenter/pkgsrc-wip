@@ -2,14 +2,14 @@
 #
 
 DISTNAME=		netx-${VERSION}
-CATEGORIES=		wip sysutils
+CATEGORIES=		sysutils
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=jnlp/}
 EXTRACT_SUFX=		.jar
 VERSION=		0.5
 
 MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://jnlp.sourceforge.net/
-COMMENT=		A free JNLP implementation
+COMMENT=		Free JNLP implementation
 
 NO_BUILD=#defined
 

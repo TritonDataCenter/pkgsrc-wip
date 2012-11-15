@@ -13,7 +13,7 @@ COMMENT=		NetBSD Editline library (libedit) for generic line editing
 USE_LIBTOOL=		yes
 GNU_CONFIGURE=		yes
 USE_LANGUAGES=		c c++
-USE_TOOLS+=			automake
+USE_TOOLS+=		automake autoreconf
 
 pre-configure:
 	cd ${WRKSRC} && autoreconf

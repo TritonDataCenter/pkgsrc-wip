@@ -7,7 +7,7 @@ DISTNAME=	lubuntu-artwork_0.27
 CATEGORIES=	graphics
 MASTER_SITES=	http://archive.ubuntu.com/ubuntu/pool/universe/l/lubuntu-artwork/
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://wiki.netbsd.org/light-desktop
 COMMENT=	Artwork and icon theme for NetBSD
 LICENSE=	gnu-gpl-v2

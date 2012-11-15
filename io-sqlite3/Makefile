@@ -3,7 +3,6 @@
 .include "../../wip/io/version.mk"
 
 PKGNAME=		io-sqlite3-${IO_VERSION}
-PKGREVISION=		0
 CATEGORIES=		databases
 
 MAINTAINER=		milos.negovanovic@googlemail.com

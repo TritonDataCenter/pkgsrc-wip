@@ -4,7 +4,7 @@
 DISTNAME=	macgen_src_v1.1
 PKGNAME=	ran${DISTNAME:S/_src_v/-/}
 CATEGORIES=	net
-MASTER_SITES=	http://sourceforge.net/projects/ranmacgen/files/ranmacgen/macgen_src/
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=ranmacgen/}
 EXTRACT_SUFX=	.zip
 
 MAINTAINER=	pkgsrc-users@NetBSD.org

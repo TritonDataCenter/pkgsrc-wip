@@ -4,11 +4,11 @@
 DISTNAME=	pyecm-2.0
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	math
-MASTER_SITES=	http://garr.dl.sourceforge.net/project/pyecm/pyecm/2.0/
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=pyecm/}
 EXTRACT_SUFX=	.zip
 
 MAINTAINER=	jihbed.research@gmail.com
-HOMEPAGE=	http://garr.dl.sourceforge.net/project/pyecm/pyecm/2.0/
+HOMEPAGE=	http://pyecm.sourceforge.net/
 COMMENT=	Integer factorization with the Elliptic Curve Method (ECM)
 #LICENSE=	# TODO: (see mk/license.mk)
 

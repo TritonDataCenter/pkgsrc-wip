@@ -3,12 +3,11 @@
 .include "../../wip/io/version.mk"
 
 PKGNAME=		io-md5-${IO_VERSION}
-PKGREVISION=		0
 CATEGORIES=		devel
 
 MAINTAINER=		milos.negovanovic@googlemail.com
 HOMEPAGE=		www.iolanguage.com
-COMMENT=		MD5 addon for Io.
+COMMENT=		MD5 addon for Io
 
 DEPENDS+=       	io-sha1>=${IO_VERSION}:../../wip/io-sha1
 

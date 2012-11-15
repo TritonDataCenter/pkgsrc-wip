@@ -3,7 +3,7 @@
 
 DISTNAME=	ised-2.2.2
 CATEGORIES=	math
-MASTER_SITES=	http://garr.dl.sourceforge.net/project/ised/
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=ised/}
 EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	jihbed.research@gmail.com

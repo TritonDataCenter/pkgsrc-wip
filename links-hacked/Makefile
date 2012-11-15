@@ -15,11 +15,11 @@ COMMENT=	Enhanced version of Links with tabs and more
 PKG_DESTDIR_SUPPORT=	none
 
 GNU_CONFIGURE=		yes
-USE_TOOLS+=		gmake automake
+USE_TOOLS+=		aclocal autoheader autoconf automake gmake
 
 VER=			030709
 
-CONFLICTS+=	links-[0-9]* links-gui-[0-9]* elinks-[0-9]*
+CONFLICTS+=		links-[0-9]* links-gui-[0-9]* elinks-[0-9]*
 
 LIBS+=			-lpng
 CONFIGURE_ARGS+=	--with-x

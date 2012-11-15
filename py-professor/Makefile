@@ -3,7 +3,7 @@
 
 DISTNAME=	professor-1.3.1
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
-CATEGORIES=	physics python
+CATEGORIES=	misc python
 MASTER_SITES=	http://www.hepforge.org/archive/professor/
 
 MAINTAINER=	jihbed.research@gmail.com

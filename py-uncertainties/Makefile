@@ -3,7 +3,7 @@
 
 DISTNAME=	uncertainties-1.7.1
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
-CATEGORIES=	physics python
+CATEGORIES=	math python
 MASTER_SITES=	http://pypi.python.org/packages/source/u/uncertainties/
 
 MAINTAINER=	jihbed.research@gmail.com

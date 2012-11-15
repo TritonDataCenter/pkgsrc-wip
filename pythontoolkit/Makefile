@@ -2,9 +2,10 @@
 #
 
 DISTNAME=	PythonToolkit-12.08.18
-PKGNAME=	pythontoolkit-12.08.18
+PKGNAME=	${DISTNAME:tl}
+PKGREVISION=	1
 CATEGORIES=	devel python
-MASTER_SITES=	http://freefr.dl.sourceforge.net/project/pythontoolkit/Python%20Toolkit/ptk%20v12.08/
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=pythontoolkit/}
 EXTRACT_SUFX=	.zip
 
 MAINTAINER=	jihbed.research@gmail.com
@@ -28,6 +29,8 @@ post-install:
 	${INSTALL_DATA} ${WRKSRC}/ptkicon.svg \
 				 ${DESTDIR}${PREFIX}/share/pythontoolkit/icons
 
+
+.include "../../sysutils/desktop-file-utils/desktopdb.mk"
 .include "../../graphics/librsvg/buildlink3.mk"
 .include "../../math/py-numpy/buildlink3.mk"
 .include "../../lang/python/extension.mk"

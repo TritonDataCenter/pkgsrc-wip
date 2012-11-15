@@ -24,9 +24,6 @@ INSTALL_ENV+=	MANDIR=${PREFIX}/${PKGMANDIR}
 
 .include "options.mk"
 
-.if $(OPSYS) != "Linux"
-BUILDLINK_TRANSFORM=    rm:-ldl
-.endif
 
 do-build:
 		cd ${WRKSRC} && ${SETENV} ${MAKE_ENV} ${BASH} m64p_build.sh;

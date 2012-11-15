@@ -1,6 +1,7 @@
 # $NetBSD$
 
 DISTNAME=		gtk-gnutella-${GTK_GNUTELLA_VER}
+PKGREVISION=		1
 CATEGORIES=		net
 MASTER_SITES=		# not defined
 
@@ -38,13 +39,13 @@ USE_BUILTIN.gettext=	no
 distclean:
 	@${DO_NADA}
 
-.include "../../wip/gtk-gnutella-current/Makefile.version"
 
+.include "../../sysutils/desktop-file-utils/desktopdb.mk"
+.include "../../wip/gtk-gnutella-current/Makefile.version"
 .include "../../security/gnutls/buildlink3.mk"
 .include "../../textproc/libxml2/buildlink3.mk"
 .include "../../devel/gettext-lib/buildlink3.mk"
 .include "../../devel/glib2/buildlink3.mk"
 .include "../../x11/gtk2/buildlink3.mk"
-
 .include "../../wip/mk/git-package.mk"
 .include "../../mk/bsd.pkg.mk"

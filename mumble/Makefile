@@ -4,7 +4,7 @@
 DISTNAME=	mumble-1.2.2
 PKGREVISION=	1
 CATEGORIES=	audio
-MASTER_SITES=	http://downloads.sourceforge.net/project/mumble/Mumble/1.2.2/
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=mumble/}
 
 MAINTAINER=	elentirmo.gilgalad@gmail.com
 HOMEPAGE=	http://mumble.sourceforge.net/

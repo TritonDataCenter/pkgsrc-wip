@@ -3,7 +3,7 @@
 
 DISTNAME=	netwmpager-2.04
 CATEGORIES=	wm
-MASTER_SITES=	http://downloads.sourceforge.net/project/sf-xpaint/netwmpager/
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=sf-xpaint/}
 EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	pkgsrc-users@NetBSD.org

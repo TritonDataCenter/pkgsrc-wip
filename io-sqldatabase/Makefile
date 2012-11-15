@@ -3,12 +3,11 @@
 .include "../../wip/io/version.mk"
 
 PKGNAME=		io-sqldatabase-${IO_VERSION}
-PKGREVISION=		0
-CATEGORIES=		database
+CATEGORIES=		databases
 
 MAINTAINER=		milos.negovanovic@googlemail.com
 HOMEPAGE=		www.iolanguage.com
-COMMENT=		SqlDatabase addon for Io.
+COMMENT=		SqlDatabase addon for Io
 
 ADDON_NAME=		SqlDatabase
 

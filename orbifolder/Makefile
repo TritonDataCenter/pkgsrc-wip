@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	orbifolder-1.2
-CATEGORIES=	physics
+CATEGORIES=	misc
 MASTER_SITES=	http://orbifolder.hepforge.org/source/V1.2/
 EXTRACT_SUFX=	.tgz
 

@@ -4,7 +4,7 @@
 DISTNAME=	duali-data-0.1b
 PKGNAME=	${DISTNAME:S/b//}
 CATEGORIES=	textproc
-MASTER_SITES=	http://switch.dl.sourceforge.net/project/arabeyes/Duali/data-0.1b/
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=arabeyes/}
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	http://www.arabeyes.org/project.php?proj=Duali

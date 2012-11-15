@@ -2,12 +2,12 @@
 #
 
 DISTNAME=	netbsd-light-desktop-default-settings-0.0
-PKGREVISION=	1
+PKGREVISION=	2
 CATEGORIES=	x11
 MASTER_SITES=	# none
 DISTFILES=	# none
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE
+MAINTAINER=	pkgsrc-users@NetBSD.org
 # TODO: point to wiki for this package
 HOMEPAGE=	http://wiki.NetBSD.org/
 COMMENT=	Default settings for NetBSD Light Desktop
@@ -77,4 +77,6 @@ do-install:
 #            scrot,
 #            galculator
 
+
+.include "../../sysutils/desktop-file-utils/desktopdb.mk"
 .include "../../mk/bsd.pkg.mk"

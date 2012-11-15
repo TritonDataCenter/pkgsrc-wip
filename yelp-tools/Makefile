@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	yelp-tools-3.1.1
+PKGREVISION=	1
 CATEGORIES=	misc
 MASTER_SITES=	http://ftp.acc.umu.se/pub/GNOME/sources/yelp-tools/3.1/
 EXTRACT_SUFX=	.tar.bz2
@@ -19,5 +20,5 @@ USE_LANGUAGES=	# none
 .include "../../textproc/gnome-doc-utils/buildlink3.mk"
 .include "../../textproc/libxml2/buildlink3.mk"
 .include "../../textproc/libxslt/buildlink3.mk"
-.include "../../wip/yelp-xsl/buildlink3.mk"
+.include "../../textproc/yelp-xsl/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

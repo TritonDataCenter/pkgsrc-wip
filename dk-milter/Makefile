@@ -8,7 +8,7 @@ MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=dk-milter/}
 
 MAINTAINER=	j+pkgsrc@salmi.ch
 HOMEPAGE=	http://sourceforge.net/projects/dk-milter/
-COMMENT=	Open source DomainKeys filter software from Sendmail, Inc.
+COMMENT=	Open source DomainKeys filter software from Sendmail, Inc
 LICENSE=	sendmail-open-source-license
 
 MAKE_ENV+=		M4=${M4:Q}

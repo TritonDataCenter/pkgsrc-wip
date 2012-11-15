@@ -3,7 +3,7 @@
 
 DISTNAME=		granule-1.4.0-7
 PKGNAME=		${DISTNAME:S/-7$//}
-PKGREVISION=		1
+PKGREVISION=		2
 CATEGORIES=		misc
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=granule/}
 
@@ -23,6 +23,7 @@ USE_TOOLS+=		gmake intltool msgfmt perl pkg-config xgettext
 
 GNU_CONFIGURE=		yes
 
+.include "../../sysutils/desktop-file-utils/desktopdb.mk"
 .include "../../converters/libiconv/buildlink3.mk"
 .include "../../devel/gettext-lib/buildlink3.mk"
 .include "../../devel/zlib/buildlink3.mk"

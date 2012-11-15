@@ -12,7 +12,7 @@ pkgbase := tkhtml3
 .include "../../mk/pkg-build-options.mk"
 
 
-.if !empty(PKG_BUILD_OPTIONS:Mpthread)
+.if !empty(PKG_BUILD_OPTIONS.tkhtml3:Mpthread)
 .include "../../mk/pthread.buildlink3.mk"
 .endif
 

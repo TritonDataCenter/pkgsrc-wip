@@ -4,7 +4,7 @@
 DISTNAME=	sarf
 PKGNAME=	${DISTNAME}-${VERSION}
 CATEGORIES=	textproc java
-MASTER_SITES=	http://garr.dl.sourceforge.net/project/sarf/sarf/sarf%201.0/
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=sarf/}
 EXTRACT_SUFX=	.jar
 
 MAINTAINER=	kamelderouiche@yahoo.com

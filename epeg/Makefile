@@ -10,7 +10,7 @@ MASTER_SITES=	http://download.enlightenment.org/snapshots/2008-01-25/ \
 
 MAINTAINER=	yazzy@yazzy.org
 HOMEPAGE=	http://enlightenment.org/
-COMMENT=	An IMMENSELY FAST JPEG thumbnailer library API.
+COMMENT=	IMMENSELY FAST JPEG thumbnailer library API
 
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes

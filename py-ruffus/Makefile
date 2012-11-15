@@ -3,7 +3,7 @@
 
 DISTNAME=	ruffus-2.2
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
-CATEGORIES=	science python
+CATEGORIES=	math python
 MASTER_SITES=	http://pypi.python.org/packages/source/r/ruffus/
 EXTRACT_SUFX=	.zip
 

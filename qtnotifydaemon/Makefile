@@ -4,7 +4,7 @@
 DISTNAME=	qtnotifydaemon_1.0.14.orig
 PKGNAME=	${DISTNAME:S/_/-/:S/.orig//}
 CATEGORIES=	x11
-MASTER_SITES=	http://sourceforge.net/projects/qtnotifydaemon/files/
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=qtnotifydaemon/}
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://drull.org.ru/qtnotifydaemon/

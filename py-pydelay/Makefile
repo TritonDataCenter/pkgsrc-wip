@@ -4,7 +4,7 @@
 DISTNAME=	pydelay-0.1.1
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	math
-MASTER_SITES=	http://garr.dl.sourceforge.net/project/pydelay/
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=pydelay/}
 
 MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	http://pydelay.sourceforge.net/

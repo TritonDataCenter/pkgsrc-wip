@@ -1,11 +1,11 @@
 # $NetBSD$
 #
 
-VERS=	20030228
+VERS=		20030228
 DISTNAME=	haydar_fonts
 PKGNAME=	haydar-ttf-${VERS}
 CATEGORIES=	fonts
-MASTER_SITES=	http://garr.dl.sourceforge.net/project/arabeyes/Fonts/haydar_fonts/
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=arabeyes/}
 EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	kamelderouiche@yahoo.com

@@ -6,7 +6,7 @@ MASTER_SITES=	# empty
 DISTFILES=	# empty
 
 MAINTAINER=	pancake@phreaker.net
-COMMENT=	apt-get like tool for pkgsrc
+COMMENT=	This is an apt-get like tool for pkgsrc
 
 DEPENDS+=	pkgfind>=20041020:../../pkgtools/pkgfind
 DEPENDS+=	pkg_tarup>=1.6.3:../../pkgtools/pkg_tarup

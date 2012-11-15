@@ -4,7 +4,7 @@
 DISTNAME=	pyflation-0.2.2
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 PKGREVISION=	1
-CATEGORIES=	science python
+CATEGORIES=	math python
 MASTER_SITES=	http://pyflation.ianhuston.net/files/pyflation/
 
 MAINTAINER=	jihbed.research@gmail.com

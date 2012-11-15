@@ -4,7 +4,7 @@
 DISTNAME=	Astropysics-0.1.dev-r596
 PKGNAME=	${PYPKGPREFIX}-Astropysics-0.1
 PKGREVISION=	2
-CATEGORIES=	physics
+CATEGORIES=	misc
 MASTER_SITES=	http://pypi.python.org/packages/source/A/Astropysics/
 
 MAINTAINER=	jihbed.research@gmail.com

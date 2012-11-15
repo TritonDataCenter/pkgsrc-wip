@@ -5,7 +5,7 @@ DISTNAME=	kacst_fonts_2.01
 PKGNAME=	kacst-ttf-2.01
 PKGREVISION=	1
 CATEGORIES=	fonts
-MASTER_SITES=	http://garr.dl.sourceforge.net/project/arabeyes/kacst_fonts/
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=arabeyes/}
 EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	kamelderouiche@yahoo.com

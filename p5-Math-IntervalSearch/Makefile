@@ -6,7 +6,7 @@ CATEGORIES=	devel perl5
 MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=Math/}
 
 MAINTAINER=	charlie@rubberduck.com
-COMMENT=	This module contains several useful routines for interpolating data sets
+COMMENT=	Contains several useful routines for interpolating data sets
 
 PKG_DESTDIR_SUPPORT=	none
 PKG_INSTALLATION_TYPES=	overwrite pkgviews

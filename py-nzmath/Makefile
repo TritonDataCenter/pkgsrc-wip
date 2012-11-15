@@ -4,7 +4,7 @@
 DISTNAME=	NZMATH-0.90.0
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME:S/NZMATH/nzmath/}
 CATEGORIES=	math python
-MASTER_SITES=	http://garr.dl.sourceforge.net/project/nzmath/nzmath/NZMATH-0.90.0/
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=nzmath/}
 
 MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	http://tnt.math.metro-u.ac.jp/nzmath/

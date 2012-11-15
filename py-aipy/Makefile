@@ -4,7 +4,7 @@
 DISTNAME=	aipy-0.9.1
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 PKGREVISION=	1
-CATEGORIES=	astronomy python
+CATEGORIES=	misc python
 MASTER_SITES=	http://pypi.python.org/packages/source/a/aipy/
 
 MAINTAINER=	jihbed.research@gmail.com

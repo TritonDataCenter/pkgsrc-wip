@@ -2,8 +2,8 @@
 #
 
 DISTNAME=	TMVA-v4.1.2
-PKGNAME=	tmva-4.1.2
-CATEGORIES=	science
+PKGNAME=	${DISTNAME:S/v//1:tl}
+CATEGORIES=	math
 MASTER_SITES=	http://tmva.sourceforge.net/downloads/
 EXTRACT_SUFX=	.tgz
 

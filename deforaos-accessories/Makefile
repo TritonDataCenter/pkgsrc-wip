@@ -2,7 +2,7 @@
 
 DISTNAME=	Accessories-0.0.3
 PKGNAME=	deforaos-accessories-0.0.3
-CATEGORIES=	wip
+CATEGORIES=	misc
 MASTER_SITES=	http://www.defora.org/os/download/download/3700/
 
 MAINTAINER=	khorben@defora.org

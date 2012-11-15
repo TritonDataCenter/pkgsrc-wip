@@ -32,5 +32,5 @@ PLIST_SUBST+=   PYINC=${PYINC} PYLIB=${PYLIB} PYSITELIB=${PYSITELIB}
 
 .include "../../lang/python/application.mk"
 .include "../../devel/boost-libs/buildlink3.mk"
-.include "../../wip/swig2/buildlink3.mk"
+.include "../../devel/swig2/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

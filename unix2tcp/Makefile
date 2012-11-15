@@ -7,7 +7,7 @@ MASTER_SITES=		http://ahriman.bucharest.roedu.net/unix2tcp/
 
 MAINTAINER=		pancake@phreaker.net
 HOMEPAGE=		http://ahriman.bucharest.roedu.net/unix2tcp/
-COMMENT=		UNIX socket to TCP tunnel.
+COMMENT=		UNIX socket to TCP tunnel
 
 GNU_CONFIGURE=		yes
 

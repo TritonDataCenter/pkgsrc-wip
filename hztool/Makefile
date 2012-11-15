@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	hztool-4.3
-CATEGORIES=	physics
+CATEGORIES=	misc
 MASTER_SITES=	http://www.hepforge.org/archive/hztool/
 
 MAINTAINER=	jihbed.research@gmail.com

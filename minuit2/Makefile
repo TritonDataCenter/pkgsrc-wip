@@ -2,8 +2,8 @@
 #
 
 DISTNAME=	Minuit2-5.28.00
-PKGNAME=	minuit2-5.28.00
-CATEGORIES=	physics
+PKGNAME=	${DISTNAME:tl}
+CATEGORIES=	math
 MASTER_SITES=	http://www.cern.ch/mathlibs/sw/5_28_00/Minuit2/
 
 MAINTAINER=	jihbed.research@gmail.com

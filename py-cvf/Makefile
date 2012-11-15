@@ -6,7 +6,7 @@ EGG_NAME=	${DISTNAME}
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME:S/py//}
 PKGREVISION=	4
 CATEGORIES=	graphics python
-MASTER_SITES=	http://master.dl.sourceforge.net/project/pycvf/0.2/
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=pycvf/}
 
 MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	http://pycvf.sourceforge.net/

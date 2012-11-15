@@ -7,7 +7,7 @@ MASTER_SITES=		http://pages.cs.wisc.edu/~darling/libgenome/releases/
 
 MAINTAINER=		dprice@cs.nmsu.edu
 HOMEPAGE=		http://pages.cs.wisc.edu/~darling/libgenome/
-COMMENT=		A development library for bioinformatic software
+COMMENT=		Development library for bioinformatic software
 
 WRKSRC=			${WRKDIR}/libgenome-0.5.2
 USE_PKGLOCALEDIR=	yes

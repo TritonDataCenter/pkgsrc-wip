@@ -4,7 +4,7 @@
 DISTNAME=	SimpleParse-2.1.1a2
 PKGNAME=	${PYPKGPREFIX}-simpleparse-mxtexttools-2.1.1
 CATEGORIES=	textproc python
-MASTER_SITES=	http://garr.dl.sourceforge.net/project/simpleparse/simpleparse/2.1.1a2/
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=simpleparse/}
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	http://simpleparse.sourceforge.net/

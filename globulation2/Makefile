@@ -3,7 +3,7 @@
 
 PKGNAME=		globulation2-0.8.21
 DISTNAME=		glob2-0.8.21
-PKGREVISION=		3
+PKGREVISION=		4
 CATEGORIES=		games
 MASTER_SITES=		http://globulation2.org/releases/0.8.21/
 
@@ -17,6 +17,8 @@ GNU_CONFIGURE=		YES
 USE_LANGUAGES=		c++
 USE_TOOLS+=		gmake
 
+
+.include "../../sysutils/desktop-file-utils/desktopdb.mk"
 .include "../../audio/libvorbis/buildlink3.mk"
 .include "../../audio/speex/buildlink3.mk"
 .include "../../devel/SDL/buildlink3.mk"

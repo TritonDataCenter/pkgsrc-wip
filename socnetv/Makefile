@@ -4,7 +4,7 @@
 DISTNAME=	SocNetV-0.90
 PKGNAME=	socnetv-0.90
 CATEGORIES=	math graphics
-MASTER_SITES=	http://garr.dl.sourceforge.net/project/socnetv/0.90/
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=socnetv/}
 
 MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	http://socnetv.sourceforge.net/index.html

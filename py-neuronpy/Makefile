@@ -3,7 +3,7 @@
 
 DISTNAME=	neuronpy-0.1.2
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
-CATEGORIES=	science python
+CATEGORIES=	misc python
 MASTER_SITES=	http://pypi.python.org/packages/source/n/neuronpy/
 EXTRACT_SUFX=	.zip
 

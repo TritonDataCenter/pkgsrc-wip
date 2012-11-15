@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	reduze-1.2
-CATEGORIES=	physics
+CATEGORIES=	math
 MASTER_SITES=	http://www.qgd.unizh.ch/~cedric/reduze/download/
 
 MAINTAINER=	jihbed.research@gmail.com

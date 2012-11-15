@@ -12,9 +12,10 @@ LICENSE=	gnu-gpl-v2
 
 WRKSRC=		${WRKDIR}/maloc
 
-GNU_CONFIGURE=	yes
-USE_LANGUAGES=	c fortran
+GNU_CONFIGURE=		yes
+USE_LANGUAGES=		c fortran
 USE_GNU_READLINE=	yes
+USE_LIBTOOL=		yes
 
 #CONFIGURE_ARGS+=	--enable-efence
 

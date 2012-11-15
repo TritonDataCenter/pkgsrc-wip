@@ -18,5 +18,4 @@ CFLAGS+=	-DLIRC=1
 .if !empty(PKG_OPTIONS:Msamplerate)
 .include "../../audio/libsamplerate/buildlink3.mk"
 .else
-#CONFIGURE_ARGS+=	--without-ilbc
 .endif

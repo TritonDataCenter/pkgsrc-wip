@@ -1,7 +1,7 @@
 # $NetBSD$
 
 DISTNAME=	gnomebaker-0.6.4
-PKGREVISION=	2
+PKGREVISION=	3
 CATEGORIES=	sysutils
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=gnomebaker/}
 
@@ -16,6 +16,8 @@ PKG_DESTDIR_SUPPORT=	none
 USE_TOOLS+=		pkg-config msgfmt intltool
 GNU_CONFIGURE=		YES
 
+
+.include "../../sysutils/desktop-file-utils/desktopdb.mk"
 .include "../../x11/gtk2/buildlink3.mk"
 .include "../../devel/glib2/buildlink3.mk"
 .include "../../devel/libglade/buildlink3.mk"

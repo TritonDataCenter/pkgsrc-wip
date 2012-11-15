@@ -1,15 +1,9 @@
-# $NetBSD: Makefile,v 1.29 2010/04/12 13:57:59 taca Exp $
+# $NetBSD: Makefile,v 1.1 2012/11/09 14:25:44 gdt Exp $
 
 DISTNAME=	swig-2.0.8
 PKGREVISION=	1
 CATEGORIES=	devel
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=swig/}
-
-# 2012-10: gnuradio is said to work with swig2 (private communication
-# by gdt@ with a GNU Radio developer).
-
-# TODO: check x11/ruby-wxruby for working with swig2, but this is not
-# a bar to importing it.
 
 MAINTAINER=	jwbacon@tds.net
 HOMEPAGE=	http://www.swig.org/
@@ -18,9 +12,24 @@ LICENSE=	2-clause-bsd
 
 CONFLICTS=		swig-build-[0-9]*
 
+# This package mostly can replace swig (1), but it is likely not
+# entirely compatible (per upstream).  So the plan is to keep
+# devel/swig and devel/swig2 both for a while.  This package is
+# configured to install swig as "swig2", so that swig and swig2 can be
+# installed in parallel.  The downside of that is that depending
+# packages must check for and use swig2.  Thus, the decision about
+# naming is open to being revisited.
+
+## Notes about pkgsrc-wide transition to swig2:
+
+# 2012-10: gnuradio is said to work with swig2 (private communication
+# by gdt@ with a GNU Radio developer).  However, it doesn't find 'swig2'.
+
 # Keep the path from changing due to minor version bumps.
+# Conventional naming for swig installations uses suffix major.minor.  ( See
+# math/ufc CMakeLists, FreeBSD port, etc. )
 CONFIGURE_ARGS+=	--with-swiglibdir=${PREFIX}/share/swig/2.0 \
-			--program-suffix=2
+			--program-suffix=2.0
 BUILD_TARGET=		swig
 
 USE_TOOLS+=		gmake pax

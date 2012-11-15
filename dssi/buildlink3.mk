@@ -12,7 +12,7 @@ BUILDLINK_DEPMETHOD.dssi?=	build
 pkgbase := dssi
 .include "../../mk/pkg-build-options.mk"
 
-.if !empty(PKG_BUILD_OPTIONS:Mqt)
+.if !empty(PKG_BUILD_OPTIONS.dssi:Mqt)
 .include "../../x11/qt4-libs/buildlink3.mk"
 .endif
 

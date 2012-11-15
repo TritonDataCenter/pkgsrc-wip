@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	omega-2.0.5
-CATEGORIES=	physics
+CATEGORIES=	math
 MASTER_SITES=	http://www.hepforge.org/archive/whizard/
 
 MAINTAINER=	jihbed.research@gmail.com

@@ -2,13 +2,12 @@
 #
 
 DISTNAME=	collectd-5.0.1
-CATEGORIES=	wip
 MASTER_SITES=	http://collectd.org/files/
 CATEGORIES=     net
 
 MAINTAINER=	msporleder@gmail.com
 HOMEPAGE=	http://collectd.org/
-COMMENT=	statistics collection daemon - base
+COMMENT=	Statistics collection daemon - base
 LICENSE=	gnu-gpl-v2
 
 GNU_CONFIGURE=		yes

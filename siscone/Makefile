@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	siscone-2.0.1
-CATEGORIES=	physics
+CATEGORIES=	devel
 MASTER_SITES=	http://www.hepforge.org/archive/siscone/
 
 MAINTAINER=	jihbed.research@gmail.com

@@ -4,16 +4,16 @@
 DISTNAME=	GraphMonkey-1.7
 PKGNAME=	${DISTNAME:S/GraphMonkey/graphmonkey/}
 CATEGORIES=	math
-MASTER_SITES=	http://garr.dl.sourceforge.net/project/graphmonkey/GraphMonkey/GraphMonkey-1.7/
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=graphmonkey/}
 
-MAINTAINER=	ppkgsrc-users@NetBSD.org
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://graphmonkey.sourceforge.net/
 COMMENT=	GTK\#-based graphing calculator
 LICENSE=	gnu-gpl-v2
 
 USE_LANGUAGES=	# none
 
-NO_BUILD= yes
+NO_BUILD=	yes
 
 INSTALLATION_DIRS+=	bin
 

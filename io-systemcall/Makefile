@@ -3,12 +3,11 @@
 .include "../../wip/io/version.mk"
 
 PKGNAME=		io-systemcall-${IO_VERSION}
-PKGREVISION=		0
-CATEGORIES=		system
+CATEGORIES=		sysutils
 
 MAINTAINER=		milos.negovanovic@googlemail.com
 HOMEPAGE=		www.iolanguage.com
-COMMENT=		SystemCall addon for Io.
+COMMENT=		SystemCall addon for Io
 
 ADDON_NAME=		SystemCall
 

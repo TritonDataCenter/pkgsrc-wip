@@ -7,7 +7,7 @@ MASTER_SITES=	http://files.libburnia-project.org/releases/
 
 MAINTAINER=	ryoon@NetBSD.org
 HOMEPAGE=	http://libburnia-project.org/wiki/Libburn
-COMMENT=	library by which preformatted data get onto optical media
+COMMENT=	Library by which preformatted data get onto optical media
 LICENSE=	gnu-gpl-v2
 
 WRKSRC=		${WRKDIR}/${DISTNAME:S/.pl01//}

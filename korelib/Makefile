@@ -10,11 +10,11 @@ COMMENT=	Cross-platform C++ library for developing modular applications
 
 PKG_DESTDIR_SUPPORT=	none
 
-GNU_CONFIGURE=	YES
-USE_LIBTOOL=	YES
+GNU_CONFIGURE=		YES
+USE_LIBTOOL=		YES
 LTCONFIG_OVERRIDE=	${WRKSRC}/ltconfig
-USE_TOOLS+=	automake
-USE_LANGUAGES=	c c++
+USE_TOOLS+=		aclocal autoheader autoconf automake
+USE_LANGUAGES=		c c++
 
 pre-configure:
 	cd ${WRKSRC} && aclocal

@@ -8,7 +8,7 @@ CATEGORIES=		devel
 
 MAINTAINER=		milos.negovanovic@googlemail.com
 HOMEPAGE=		www.iolanguage.com
-COMMENT=		DistributedObjects addon for Io.
+COMMENT=		DistributedObjects addon for Io
 
 DEPENDS+=       	io-socket>=${IO_VERSION}:../../wip/io-socket
 

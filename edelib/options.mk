@@ -1,14 +1,5 @@
 # $NetBSD$
 
-.if !empty(PKG_OPTIONS:Mfam) || !empty(PKG_OPTIONS:Mfam-only)
-.  include "../../mk/fam.buildlink3.mk"
-.  if !empty(PKG_OPTIONS:Mfam-only)
-CONFIGURE_ARGS+=	--enable-fam-only
-.  else
-CONFIGURE_ARGS+=	--disable-fam-only
-.  endif
-.endif
-
 .if !empty(PKG_OPTIONS:Mlargefile)
 CONFIGURE_ARGS+=	--enable-largefile
 .else

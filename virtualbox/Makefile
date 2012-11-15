@@ -10,7 +10,7 @@ EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	tnn@NetBSD.org
 HOMEPAGE=	http://www.virtualbox.org/
-COMMENT=	general-purpose full virtualizer for x86 hardware
+COMMENT=	General-purpose full virtualizer for x86 hardware
 LICENSE=	gnu-gpl-v2
 
 HAS_CONFIGURE=	yes

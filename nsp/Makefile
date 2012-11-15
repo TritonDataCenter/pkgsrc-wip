@@ -9,7 +9,7 @@ MASTER_SITES=	http://cermics.enpc.fr/~jpc/nsp-tiddly/files/
 
 MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	http://cermics.enpc.fr/~jpc/nsp-tiddly/
-COMMENT=	A scientific software package similiar to Matlab, Scilab, octave
+COMMENT=	Scientific software package similiar to Matlab, Scilab, octave
 LICENSE=	gnu-gpl-v2
 
 WRKSRC=			${WRKDIR}/nsp2

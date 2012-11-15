@@ -11,7 +11,7 @@ MAINTAINER=		peter.schuller@infidyne.com
 HOMEPAGE=		http://www.icecast.org/ices.php
 COMMENT=		Vorbis source client for a streaming server
 
-USE_TOOLS+=		automake
+USE_TOOLS+=		automake autoreconf
 USE_LIBTOOL=		yes
 GNU_CONFIGURE=		yes
 

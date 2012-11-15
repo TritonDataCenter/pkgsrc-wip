@@ -2,8 +2,8 @@
 #
 
 DISTNAME=	ThePEG-1.6.1
-PKGNAME=	thepeg-1.6.1
-CATEGORIES=	science
+PKGNAME=	${DISTNAME:tl}
+CATEGORIES=	devel
 MASTER_SITES=	http://home.thep.lu.se/~leif/ThePEG/
 EXTRACT_SUFX=	.tar.bz2
 

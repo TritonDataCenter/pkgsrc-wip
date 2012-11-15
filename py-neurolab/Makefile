@@ -3,7 +3,7 @@
 
 DISTNAME=	neurolab-0.0.5
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
-CATEGORIES=	science python
+CATEGORIES=	misc python
 MASTER_SITES=	http://pypi.python.org/packages/source/n/neurolab/
 EXTRACT_SUFX=	.zip
 

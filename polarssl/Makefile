@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		polarssl-1.1.4-gpl
+DISTNAME=		polarssl-1.2.0-gpl
 PKGNAME=		${DISTNAME:-gpl=}
 CATEGORIES=		security devel
 MASTER_SITES=		http://polarssl.org/code/releases/
@@ -19,8 +19,7 @@ TEST_TARGET=		check
 
 .if defined(PKGSRC_RUN_TEST) && !empty(PKGSRC_RUN_TEST:M[Yy][Ee][Ss])
 USE_TOOLS+=		perl
-REPLACE_PERL=		tests/scripts/*.pl
 .endif
+REPLACE_PERL=		tests/scripts/*.pl
 
-.include "options.mk"
 .include "../../mk/bsd.pkg.mk"

@@ -1,6 +1,6 @@
 $NetBSD$
 
-SHA1 (ParaView-3.12.0.tar.gz) = edba05a7a49c14d7d86a9472ce2a97f2b572f0e1
-RMD160 (ParaView-3.12.0.tar.gz) = af62f528cb8fea1fc7a200028f9e472332bde5e5
-Size (ParaView-3.12.0.tar.gz) = 37510144 bytes
+SHA1 (ParaView-3.14.1-Source.tar.gz) = 1326c6e941fb9d12c548b14ca10932b49b5e3ffd
+RMD160 (ParaView-3.14.1-Source.tar.gz) = 7d52c8730d6b2156db6ec3fe5decdf1018b997d2
+Size (ParaView-3.14.1-Source.tar.gz) = 41471770 bytes
 SHA1 (patch-aa) = 660419ac6645c3dfb53f5af35d76be73aac091e0

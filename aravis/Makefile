@@ -8,7 +8,7 @@ EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	pkgsrc.gnome@gmail.com
 HOMEPAGE=	https://live.gnome.org/Aravis
-COMMENT=	vision library for genicam based cameras
+COMMENT=	Vision library for genicam based cameras
 LICENSE=	gnu-gpl-v2
 
 GNU_CONFIGURE=	yes

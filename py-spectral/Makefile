@@ -4,7 +4,7 @@
 DISTNAME=	spectral-0.6
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	graphics python
-MASTER_SITES=	http://garr.dl.sourceforge.net/project/spectralpython/SPy/0.6/
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=spectralpython/}
 
 MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	http://spectralpython.sourceforge.net/

@@ -8,9 +8,9 @@ CATEGORIES=	python
 MASTER_SITES=	ftp://ftp.osuosl.org/pub/nslu2/sources/
 EXTRACT_SUFX=	.tar.gz
 
-MAINTAINER=         pkgsrc-wip-users@sourceforge.net
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://divmod.org/trac/wiki/DivmodNevow
-COMMENT=	A Python utilities package, most famous for its Time class
+COMMENT=	Python utilities package, most famous for its Time class
 
 DEPENDS+=	${PYPKGPREFIX}-twisted>=2.4.0:../../net/py-twisted
 

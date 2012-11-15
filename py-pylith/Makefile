@@ -3,13 +3,13 @@
 
 DISTNAME=	pylith-1.6.2
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
-CATEGORIES=	science math python
+CATEGORIES=	math python
 MASTER_SITES=	http://www.geodynamics.org/cig/software/pylith/
 EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	http://www.geodynamics.org/cig/software/pylith
-COMMENT=	finite element code for the solution of dynamic and quasi-static tectonic deformation problems
+COMMENT=	Finite element code for solving dynamic and quasi-static tectonic deformation problems
 LICENSE=	mit
 
 GNU_CONFIGURE=	yes

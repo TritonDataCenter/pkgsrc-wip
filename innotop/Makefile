@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	innotop-1.7.2
-CATEGORIES=	wip databases
+CATEGORIES=	databases
 MASTER_SITES=	http://innotop.googlecode.com/files/
 
 MAINTAINER=	filip@joyent.com

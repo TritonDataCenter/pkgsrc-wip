@@ -7,7 +7,7 @@ MASTER_SITES=	http://files.libburnia-project.org/releases/
 
 MAINTAINER=	ryoon@NetBSD.org
 HOMEPAGE=	http://libburnia-project.org/wiki/Libisoburn
-COMMENT=	libisoburn library and xorriso commands
+COMMENT=	This is the libisoburn library and xorriso commands
 LICENSE=	gnu-gpl-v2
 
 WRKSRC=		${WRKDIR}/${DISTNAME:S/.pl00//}

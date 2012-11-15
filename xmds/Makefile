@@ -3,7 +3,7 @@
 
 DISTNAME=	xmds-1.6.6
 CATEGORIES=	math
-MASTER_SITES=	http://garr.dl.sourceforge.net/project/xmds/xmds/xmds-1.6.6/
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=xmds/}
 
 MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	http://xmds.sourceforge.net/

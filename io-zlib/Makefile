@@ -8,7 +8,7 @@ CATEGORIES=		archivers
 
 MAINTAINER=		milos.negovanovic@googlemail.com
 HOMEPAGE=		www.iolanguage.com
-COMMENT=		Zlib addon for Io.
+COMMENT=		Zlib addon for Io
 
 ADDON_NAME=		Zlib
 

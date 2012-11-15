@@ -2,7 +2,7 @@
 
 DISTNAME=	libDesktop-0.0.8
 PKGNAME=	deforaos-libdesktop-0.0.8
-CATEGORIES=	wip
+CATEGORIES=	x11
 MASTER_SITES=	http://www.defora.org/os/download/download/3699/
 
 MAINTAINER=	khorben@defora.org

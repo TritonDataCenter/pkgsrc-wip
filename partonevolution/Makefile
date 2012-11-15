@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	partonevolution-1.1.2
-CATEGORIES=	science
+CATEGORIES=	math
 MASTER_SITES=	http://wwwthep.physik.uni-mainz.de/~stefanw/download/
 
 MAINTAINER=	jihbed.research@gmail.com

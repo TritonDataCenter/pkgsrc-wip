@@ -9,7 +9,6 @@
 # used by wip/multisync-syncml-moto/Makefile
 
 DISTNAME=		multisync-0.82-1
-PKGREVISION=		1
 CATEGORIES=		comms
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=multisync/}
 EXTRACT_SUFX=		.tar.bz2

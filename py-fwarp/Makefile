@@ -4,7 +4,7 @@
 DISTNAME=	fwrap-0.1.1
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	math python
-MASTER_SITES=	http://garr.dl.sourceforge.net/project/fwrap/
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=fwrap/}
 
 MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	http://fwrap.sourceforge.net/

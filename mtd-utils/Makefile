@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	mtd-utils-1.0.0
-CATEGORIES=	wip
+CATEGORIES=	sysutils
 MASTER_SITES=	ftp://ftp.infradead.org/pub/mtd-utils/
 
 MAINTAINER=	noud4@home.nl

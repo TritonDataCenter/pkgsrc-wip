@@ -3,8 +3,8 @@
 
 DISTNAME=	ode-0.11.1
 PKGNAME= 	lib${DISTNAME}
-CATEGORIES=	science
-MASTER_SITES=	http://garr.dl.sourceforge.net/project/opende/ODE/0.11.1/
+CATEGORIES=	misc
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=opende/}
 EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	jihbed.research@gmail.com

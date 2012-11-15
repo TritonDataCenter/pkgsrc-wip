@@ -2,12 +2,12 @@
 #
 
 DISTNAME=	guile-2.0.5
-CATEGORIES=	wip
+CATEGORIES=	lang
 MASTER_SITES=	ftp://ftp.gnu.org/gnu/guile/
 
 MAINTAINER=	a@zta.lk
 HOMEPAGE=	ftp://ftp.gnu.org/gnu/guile/
-COMMENT=	The official extension language for the GNU operating system.
+COMMENT=	Official extension language for the GNU operating system
 LICENSE=	gnu-gpl-v3
 
 GNU_CONFIGURE=	yes

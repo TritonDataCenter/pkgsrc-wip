@@ -2,8 +2,8 @@
 #
 
 DISTNAME=	cloc-1.55
-CATEGORIES=	devel perl
-MASTER_SITES=	http://switch.dl.sourceforge.net/project/cloc/cloc/v1.55/
+CATEGORIES=	devel
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=cloc/}
 EXTRACT_SUFX=	.pl
 
 MAINTAINER=	kamel.derouiche@gmail.com

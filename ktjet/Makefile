@@ -2,8 +2,8 @@
 #
 
 DISTNAME=	KtJet-1.08
-PKGNAME=	ktjet-1.08
-CATEGORIES=	physics
+PKGNAME=	${DISTNAME:tl}
+CATEGORIES=	math
 MASTER_SITES=	http://www.hepforge.org/archive/ktjet/
 
 MAINTAINER=	jihbed.research@gmail.com
@@ -14,7 +14,7 @@ LICENSE=	gnu-gpl-v2
 CHECK_PORTABILITY_SKIP=  configure
 
 GNU_CONFIGURE=	yes
-USE_LIBTOOL= yes
+USE_LIBTOOL=	yes
 USE_LANGUAGES=	c c++
 
 .include "../../wip/clhep/buildlink3.mk"

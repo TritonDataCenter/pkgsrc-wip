@@ -16,6 +16,7 @@ PKG_DESTDIR_SUPPORT=	none
 USE_PKGLOCALEDIR=	yes
 PKGCONFIG_OVERRIDE+=	${WRKSRC}/panda.pc.in
 GNU_CONFIGURE=		yes
+USE_LIBTOOL=		yes
 
 # THIS package is broken, when creating the library it checks for the real
 # installation path, not the sources one. and this crashes in compilation

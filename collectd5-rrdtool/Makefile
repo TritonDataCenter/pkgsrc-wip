@@ -1,12 +1,11 @@
 DISTNAME=       collectd-5.0.1
 PKGNAME=	collectd-rrdtool-5.0.1
-CATEGORIES=     wip
 MASTER_SITES=   http://collectd.org/files/
 CATEGORIES=     net
 
 MAINTAINER=     msporleder@gmail.com
 HOMEPAGE=       http://collectd.org/
-COMMENT=        statistics collection daemon - rrdtool plugin
+COMMENT=        Statistics collection daemon - rrdtool plugin
 LICENSE=        gnu-gpl-v2
 
 GNU_CONFIGURE=          yes

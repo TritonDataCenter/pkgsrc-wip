@@ -4,7 +4,7 @@
 DISTNAME=	ncl-2.1.18
 PKGNAME=lib${DISTNAME}
 CATEGORIES=	biology
-MASTER_SITES=	http://garr.dl.sourceforge.net/project/ncl/NCL/ncl-2.1.18/
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=ncl/}
 
 MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	http://ncl.sourceforge.net/

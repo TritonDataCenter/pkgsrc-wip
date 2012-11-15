@@ -12,7 +12,7 @@ pkgbase := tktable
 .include "../../mk/pkg-build-options.mk"
 
 
-.if !empty(PKG_BUILD_OPTIONS:Mpthread)
+.if !empty(PKG_BUILD_OPTIONS.tktable:Mpthread)
 .include "../../mk/pthread.buildlink3.mk"
 .endif
 

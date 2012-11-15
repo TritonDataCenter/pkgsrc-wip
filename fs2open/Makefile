@@ -13,7 +13,7 @@ COMMENT=	Freespace 2 source code project
 
 GNU_CONFIGURE=	yes
 USE_LANGUAGES=	c c++
-USE_TOOLS+=	autoconf automake
+USE_TOOLS+=	aclocal autoconf automake
 
 INSTALLATION_DIRS=	bin
 

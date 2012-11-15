@@ -3,7 +3,7 @@
 
 DISTNAME=	Helmholtz-0.1.0
 PKGNAME=	${PYPKGPREFIX}-django-${DISTNAME:S/H/h/}
-CATEGORIES=	science  python
+CATEGORIES=	databases python
 MASTER_SITES=	http://pypi.python.org/packages/source/H/Helmholtz/
 
 MAINTAINER=	jihbed.research@gmail.com

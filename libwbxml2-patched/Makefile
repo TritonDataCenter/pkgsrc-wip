@@ -12,12 +12,12 @@ COMMENT=		Library to handle WBXML (Patched for MultiSync)
 
 PKG_DESTDIR_SUPPORT=	none
 
-WRKSRC=		${WRKDIR}/wbxml2-0.9.0
+WRKSRC=			${WRKDIR}/wbxml2-0.9.0
 USE_PKGLOCALEDIR=	yes
 USE_LANGUAGES=		c c++
 USE_LIBTOOL=		yes
 GNU_CONFIGURE=		yes
-USE_TOOLS+=		automake
+USE_TOOLS+=		aclocal autoheader autoconf automake
 
 pre-configure:
 	cd ${WRKSRC} && \

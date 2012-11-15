@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	cgterm-1.7b2
-CATEGORIES=	wip
+CATEGORIES=	net
 MASTER_SITES=	http://www.paradroid.net/cgterm/
 
 MAINTAINER=	rodo@zlug.org

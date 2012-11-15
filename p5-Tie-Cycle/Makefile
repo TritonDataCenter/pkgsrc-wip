@@ -3,10 +3,10 @@
 
 DISTNAME=	Tie-Cycle-1.17
 PKGNAME=	p5-${DISTNAME}
-CATEGORIES=	wip
+CATEGORIES=	time
 MASTER_SITES=	http://search.cpan.org/CPAN/authors/id/B/BD/BDFOY/
 
-MAINTAINER=	INSERT_YOUR_MAIL_ADDRESS_HERE
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://search.cpan.org/CPAN/authors/id/B/BD/BDFOY/
 COMMENT=	TODO: Short description of the package
 #LICENSE=	# TODO: (see mk/license.mk)
