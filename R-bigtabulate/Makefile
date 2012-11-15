@@ -8,7 +8,7 @@ HOMEPAGE=	http://www.bigmemory.org/
 COMMENT=	R table, tapply, and split-like functionality for (big.)matrix objects
 
 R_PKGNAME=	bigtabulate
-R_PKGVER=	1.0.13
+R_PKGVER=	1.1.0
 
 LICENSE=	gnu-lgpl-v3
 
