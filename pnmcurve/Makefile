@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	pnmcurve-0.0.4
-PKGREVISION=	1
+PKGREVISION=	2
 CATEGORIES=	graphics
 MASTER_SITES=	http://www.ecademix.com/JohannesHofmann/
 
@@ -14,5 +14,5 @@ GNU_CONFIGURE=	yes
 USE_LANGUAGES=	c c++
 
 .include "../../math/gsl/buildlink3.mk"
-.include "../../x11/fltk/buildlink3.mk"
+.include "../../x11/fltk13/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
