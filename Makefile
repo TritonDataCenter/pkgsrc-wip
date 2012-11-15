@@ -3183,6 +3183,7 @@ SUBDIR+=	uim-chewing
 SUBDIR+=	ukncbtl
 SUBDIR+=	umix
 SUBDIR+=	umurmur
+SUBDIR+=	unagi
 SUBDIR+=	undo-tree
 SUBDIR+=	unix2tcp
 SUBDIR+=	unmo3
