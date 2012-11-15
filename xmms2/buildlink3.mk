@@ -108,6 +108,7 @@ pkgbase := xmms2
 .endif
 
 .if !empty(PKG_BUILD_OPTIONS.xmms2:Mpython)
+.include "../../lang/python/pyversion.mk"
 .include "../../devel/py-cython/buildlink3.mk"
 .endif
 
