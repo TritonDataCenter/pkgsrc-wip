@@ -22,5 +22,4 @@ USE_TOOLS+=		perl
 .endif
 REPLACE_PERL=		tests/scripts/*.pl
 
-.include "options.mk"
 .include "../../mk/bsd.pkg.mk"
