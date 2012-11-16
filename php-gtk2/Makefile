@@ -16,7 +16,7 @@ LICENSE=		gnu-lgpl-v2.1
 USE_TOOLS+=		awk
 USE_TOOLS+=		pkg-config
 
-BUILD_DEPENDS+=		re2c:../../devel/re2c
+BUILD_DEPENDS+=		re2c-[0-9]*:../../devel/re2c
 
 CONFIGURE_ARGS+=	--without-libglade
 
