@@ -17,7 +17,7 @@ USE_TOOLS+=		gmake makeinfo perl
 USE_GNU_CONFIGURE_HOST=	no
 #BUILD_DEFS+=		CROSSBASE	#included in ../nios2/Makefile.common
 
-DEPENDS+=		nios2-binutils:../../wip/nios2-binutils
+DEPENDS+=		nios2-binutils-[0-9]*:../../wip/nios2-binutils
 
 .include		"../../wip/nios2/Makefile.common"
 

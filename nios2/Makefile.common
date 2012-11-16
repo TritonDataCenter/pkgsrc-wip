@@ -20,7 +20,7 @@ USE_CROSSBASE=		yes
 BUILD_DEFS+=		CROSSBASE
 PATH:=			${CROSSBASE}/bin:${PATH}
 
-BUILD_DEPENDS+=		gtexinfo:../../devel/gtexinfo
+BUILD_DEPENDS+=		gtexinfo-[0-9]*:../../devel/gtexinfo
 
 .if defined(GNU_CONFIGURE)
 CONFIGURE_ARGS=		# reset
