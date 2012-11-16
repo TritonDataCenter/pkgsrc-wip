@@ -1,5 +1,5 @@
 @comment $NetBSD$
-bin/Forthon2.7
+bin/Forthon${PYVERSSUFFIX}
 ${PYSITELIB}/Forthon/Forthon.c
 ${PYSITELIB}/Forthon/Forthon.h
 ${PYSITELIB}/Forthon/ForthonTimer.py
