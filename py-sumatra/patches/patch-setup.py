@@ -1,5 +1,6 @@
 $NetBSD$
 
+# add a python version number to program names
 --- setup.py.orig	2012-10-18 13:02:49.000000000 +0000
 +++ setup.py
 @@ -6,6 +6,7 @@ from setuptools import setup
