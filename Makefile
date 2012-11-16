@@ -365,6 +365,7 @@ SUBDIR+=	csstidy
 SUBDIR+=	csv-mode
 SUBDIR+=	cubature
 SUBDIR+=	cup
+SUBDIR+=	cutecom
 SUBDIR+=	cvc3
 SUBDIR+=	cvs-syncmail
 SUBDIR+=	cvs20hg
