@@ -3,6 +3,7 @@
 
 DISTNAME=	pyslha-1.2.3
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
+PKGREVISION=	1	
 CATEGORIES=	misc
 MASTER_SITES=	http://pypi.python.org/packages/source/p/pyslha/
 
