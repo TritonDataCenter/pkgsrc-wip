@@ -1,5 +1,5 @@
 @comment $NetBSD$
-bin/mlstats2.6
+bin/mlstats${PYVERSSUFFIX}
 ${PYSITELIB}/pymlstats/__init__.py
 ${PYSITELIB}/pymlstats/__init__.pyc
 ${PYSITELIB}/pymlstats/__init__.pyo

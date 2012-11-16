@@ -3,6 +3,7 @@
 
 DISTNAME=	mlstats-0.4
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
+PKGREVISION=	1	
 CATEGORIES=	devel python
 MASTER_SITES=	https://forge.morfeo-project.org/frs/download.php/777/
 
