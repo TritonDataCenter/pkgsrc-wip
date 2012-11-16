@@ -1,5 +1,5 @@
 @comment $NetBSD$
-bin/pyflakes2.7
+bin/pyflakes${PYVERSSUFFIX}
 ${PYSITELIB}/pyflakes/__init__.py
 ${PYSITELIB}/pyflakes/__init__.pyc
 ${PYSITELIB}/pyflakes/__init__.pyo
