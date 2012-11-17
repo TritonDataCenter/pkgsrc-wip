@@ -666,7 +666,6 @@ SUBDIR+=	fvwm1-tch
 SUBDIR+=	fxrays
 SUBDIR+=	g21k-binutils
 SUBDIR+=	gDesklets
-SUBDIR+=	gDesklets-CornerXMMS
 SUBDIR+=	gDesklets-rssgrab
 SUBDIR+=	gDesklets-starterbar
 SUBDIR+=	galib
