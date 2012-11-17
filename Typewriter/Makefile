@@ -24,7 +24,7 @@ WRKSRC=			${WRKDIR}/$(SVN_MODULE.etoile)
 
 .include "../../wip/mk/svn-package.mk"
 
-DEPENDS+=	etoile-core:../../wip/etoile-core
+DEPENDS+=	etoile-core-[0-9]*:../../wip/etoile-core
 .include "../../devel/gnustep-base/buildlink3.mk"
 .include "../../x11/gnustep-gui/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
