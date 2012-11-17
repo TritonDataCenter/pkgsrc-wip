@@ -1,7 +1,7 @@
 # $NetBSD$
 
 DISTNAME=	libctl-3.2.1
-CATEGORIES=	math
+CATEGORIES=	devel
 MASTER_SITES=	http://ab-initio.mit.edu/libctl/
 
 MAINTAINER=	jwbacon@tds.net
@@ -10,7 +10,6 @@ COMMENT=	Guile-based flexible control file library for scientific simulations
 LICENSE=	gnu-gpl-v2
 
 GNU_CONFIGURE=	yes
-USE_LIBTOOL=	yes
 
 USE_LANGUAGES=	c fortran77
 
