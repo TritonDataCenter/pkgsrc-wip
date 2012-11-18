@@ -50,6 +50,11 @@ SUBST_STAGE.bash=	post-configure
 SUBST_FILES.bash=	dolfin-version
 SUBST_SED.bash=		-e 's|/bin/bash|/usr/bin/env bash|'
 
+SUBST_CLASSES+=		ospath
+SUBST_STAGE.ospath=	post-patch
+SUBST_FILES.ospath=	site-packages/dolfin/compilemodules/compilemodule.py
+SUBST_SED.ospath=	-e 's|os.path.join(os.path.sep,"opt","local")|os.path.normpath("${PREFIX}")|' -e 's|os.path.join(os.path.sep,"usr")|os.path.normpath("${PREFIX}")|'
+
 # Stolen from lang/python/extension.mk
 PLIST_SUBST+=   PYSITELIB=${PYSITELIB}
 
