@@ -13,6 +13,8 @@ GNU_CONFIGURE=	yes
 
 USE_LANGUAGES=	c fortran77
 
+USE_LIBTOOL=	yes
+
 INSTALLATION_DIRS=	share/doc/libctl
 
 post-install:
