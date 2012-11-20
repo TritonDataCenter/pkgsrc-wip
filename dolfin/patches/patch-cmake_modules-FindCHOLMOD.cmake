@@ -6,7 +6,7 @@ $NetBSD$
  if (LAPACK_FOUND)
    set(CHOLMOD_LIBRARIES ${CHOLMOD_LIBRARIES} ${LAPACK_LIBRARIES})
  endif()
-+set(CHOLMOD_LIBRARIES ${CHOLMOD_LIBRARIES} $ENV{LOCALBASE}/lib/libsuitesparseconfig.a)
++set(CHOLMOD_LIBRARIES ${CHOLMOD_LIBRARIES} ${LOCALBASE}/lib/libsuitesparseconfig.a)
  
  mark_as_advanced(
    CHOLMOD_INCLUDE_DIRS

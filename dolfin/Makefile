@@ -22,7 +22,8 @@ REPLACE_PYTHON+=	scripts/dolfin-order/dolfin-order
 REPLACE_PYTHON+=	scripts/dolfin-convert/dolfin-convert
 
 CMAKE_ARGS+=	-DCMAKE_VERBOSE_MAKEFILE:BOOL=ON \
-		-DDOLFIN_ENABLE_MPI:BOOL=OFF
+		-DDOLFIN_ENABLE_MPI:BOOL=OFF \
+		-DLOCALBASE=${LOCALBASE}
 
 # CHOLMOD_DIR, UMFPACK_DIR, etc. will default to .buildlink.  See CMakeCache.txt
 # Installed dolfin-config.cmake contains .buildlink where it should use
