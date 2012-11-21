@@ -341,7 +341,6 @@ SUBDIR+=	common-mml
 SUBDIR+=	commoncpp2
 SUBDIR+=	compare
 SUBDIR+=	compiz-gnome-current
-SUBDIR+=	conky
 SUBDIR+=	converttomp3
 SUBDIR+=	cops
 SUBDIR+=	copytape
