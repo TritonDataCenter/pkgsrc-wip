@@ -7,7 +7,7 @@ MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=kaffeine/}
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://kaffeine.kde.org/
-COMMENT=	Full featured Multimedia-Player for KDE
+COMMENT=	Full featured Multimedia-Player for KDE4
 LICENSE=	gnu-gpl-v2
 
 USE_CMAKE=	yes
