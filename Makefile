@@ -388,6 +388,7 @@ SUBDIR+=	darcs-to-git
 SUBDIR+=	dasm
 SUBDIR+=	datapipe
 SUBDIR+=	dates
+SUBDIR+=	davical-current
 SUBDIR+=	db1
 SUBDIR+=	dbf
 SUBDIR+=	dbus-explorer
