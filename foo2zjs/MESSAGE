@@ -1,7 +1,0 @@
-===========================================================================
-$NetBSD$
-
-This package does NOT include the firmware needed to operate some of the
-printers that this driver supports.
-
-===========================================================================
