@@ -3,7 +3,6 @@
 DISTNAME=	lxde-common-0.5.5
 CATEGORIES=	devel x11
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=lxde/}
-EXTRACT_SUFX=	.tar.gz
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://lxde.sourceforge.net/

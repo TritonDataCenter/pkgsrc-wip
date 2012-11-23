@@ -6,7 +6,6 @@ PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 PKGREVISION=	2
 CATEGORIES=	net
 MASTER_SITES=	http://pypi.python.org/packages/source/u/uuid/
-EXTRACT_SUFX=	.tar.gz
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	http://pypi.python.org/pypi/uuid/1.30

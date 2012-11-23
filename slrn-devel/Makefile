@@ -7,8 +7,6 @@ LICENSE=	gnu-gpl-v2
 #PKGREVISION=	1
 CATEGORIES=	news
 MASTER_SITES=	http://www.jedsoft.org/snapshots/
-EXTRACT_SUFX=	.tar.gz
-#WRKSRC=		${WRKDIR}/slrn
 
 MAINTAINER=	aniou@smutek.pl
 HOMEPAGE=	http://slrn.sourceforge.net/

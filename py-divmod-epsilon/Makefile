@@ -6,7 +6,6 @@ PKGNAME=	${PYPKGPREFIX}-divmod-epsilon-${EPSILON_VERSION}
 #PKGREVISION=	2
 CATEGORIES=	python
 MASTER_SITES=	ftp://ftp.osuosl.org/pub/nslu2/sources/
-EXTRACT_SUFX=	.tar.gz
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://divmod.org/trac/wiki/DivmodNevow
