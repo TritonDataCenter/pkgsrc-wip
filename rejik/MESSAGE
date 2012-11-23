@@ -5,7 +5,7 @@ The 'ban lists' are not provided with this package.  Up-to-date lists are
 available to members of DBL project.
 
 MVPS HOSTS file from http://winhelp2002.mvps.org/ can alse be used, after
-postprocessing: 
+postprocessing:
 
 awk '/^127/ && !/localhost/ { print $2 }' HOSTS
 

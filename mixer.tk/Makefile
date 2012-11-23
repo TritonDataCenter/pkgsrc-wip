@@ -6,7 +6,7 @@ CATEGORIES=	audio
 MASTER_SITES=	http://gnorw.net/netbsd/
 
 MAINTAINER=	jaka.jejcic@gmail.com
-HOMEPAGE=	
+HOMEPAGE=	http://gnorw.net/netbsd/mixer.tk-0.4/
 COMMENT=	Tcl/Tk audio mixer using mixerctl utility
 
 NO_CONFIGURE=	yes
@@ -19,4 +19,3 @@ do-install:
 
 .include "../../x11/tk/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
-

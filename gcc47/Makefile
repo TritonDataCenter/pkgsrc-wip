@@ -99,7 +99,7 @@ LANGS+= java
 EXTRACT_ONLY=		${DISTNAME}${EXTRACT_SUFX}
 DISTFILES+=		ecj-4.5.jar
 SITES.ecj-4.5.jar= \
-		ftp://ftp.mirrorservice.org/sites/sourceware.org/pub/java/ 
+		ftp://ftp.mirrorservice.org/sites/sourceware.org/pub/java/
 
 REPLACE_PYTHON=		${WRKSRC}/libjava/contrib/aot-compile.in
 REPLACE_PYTHON+=	${WRKSRC}/libjava/contrib/aot-compile-rpm.in

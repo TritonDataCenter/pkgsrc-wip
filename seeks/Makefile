@@ -21,7 +21,7 @@ USE_LIBTOOL=	yes
 USE_LANGUAGES=	c c++
 USE_TOOLS+=	autoconf automake gmake
 
-WRKSRC=		${WRKDIR}/seeks-0.3.2 
+WRKSRC=		${WRKDIR}/seeks-0.3.2
 
 .include "../../devel/pcre/buildlink3.mk"
 .include "../../www/curl/buildlink3.mk"

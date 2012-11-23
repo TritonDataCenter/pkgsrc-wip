@@ -12,7 +12,7 @@ HOMEPAGE=	http://pypi.python.org/pypi/xmiparser/
 COMMENT=	XMI Parser (API for the UML XML representation specified by OMG)
 LICENSE=	gnu-gpl-v2
 
-DEPENDS+=	zope3-[0-9]*:../../www/zope3 
+DEPENDS+=	zope3-[0-9]*:../../www/zope3
 
 USE_LANGUAGES=	# none
 

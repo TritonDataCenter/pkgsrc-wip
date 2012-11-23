@@ -4,7 +4,7 @@
 .include	"version.mk"
 DISTNAME=	emacs-${_EMACS_VERSION_MAJOR}.${_EMACS_VERSION_MINOR}.${_EMACS_VERSION_MICRO}
 #PKGNAME=	emacs-24.0.50
-PKGREVISION=	${_GIT_PKGVERSION:S/.//g}
+PKGREVISION=	1
 CATEGORIES=	editors
 MASTER_SITES=	#
 
@@ -57,11 +57,11 @@ FILESDIR=	${.CURDIR}/../../editors/emacs/files
 # Check some related libraries for inclusion.
 MESALIB_VERSION!=	\
 	(${PKG_INFO} -e MesaLib || ${ECHO} "0") | \
-	${SED} -e 's/MesaLib-//' 
+	${SED} -e 's/MesaLib-//'
 
 GL_VERSION!=	\
 	(${PKG_INFO} -e gl || ${ECHO} "0") | \
-	${SED} -e 's/gl-//' 
+	${SED} -e 's/gl-//'
 
 post-extract:
 	# set auto-load for send-pr library

@@ -18,4 +18,3 @@ PERL5_PACKLIST= auto/Math/FixedPrecision/.packlist
 
 .include "../../lang/perl5/module.mk"
 .include "../../mk/bsd.pkg.mk"
-

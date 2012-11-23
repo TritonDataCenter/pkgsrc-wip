@@ -22,4 +22,3 @@ HAS_CONFIGURE=		yes
 .include "../../x11/gtk2/buildlink3.mk"
 .include "../../security/openssl/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
-

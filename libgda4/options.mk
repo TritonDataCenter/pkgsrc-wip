@@ -104,7 +104,7 @@ PLIST.web=		yes
 
 # various
 
-#CONFIGURE_ARGS+=	--enable-introspection=yes			# XXX 
+#CONFIGURE_ARGS+=	--enable-introspection=yes			# XXX
 #.include "../../devel/gobject-introspection/buildlink3.mk"
 
 .if !empty(PKG_OPTIONS:Mjson)
@@ -149,4 +149,3 @@ DEPENDS+=	p5-XML-Parser>=:../../textproc/p5-XML-Parser
 .include "../../x11/gtksourceview2/buildlink3.mk"
 .include "../../net/libsoup24/buildlink3.mk"
 .include "../../security/gnome-keyring/buildlink3.mk"
-

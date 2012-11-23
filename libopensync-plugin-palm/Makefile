@@ -19,4 +19,3 @@ GNU_CONFIGURE=	yes
 
 .include "../../comms/libopensync/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
-

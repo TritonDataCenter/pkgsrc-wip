@@ -20,7 +20,7 @@ USE_TOOLS+=	pax
 
 post-extract:
 	${CHMOD} a-x ${WRKSRC}/elementary/apps/48/internet-mail.svg
-	
+
 do-install:
 	${INSTALL_DATA_DIR} ${DESTDIR}${PREFIX}/share/icons
 	cd ${WRKSRC} && pax -rw -pe . ${DESTDIR}${PREFIX}/share/icons/

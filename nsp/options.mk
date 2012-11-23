@@ -4,7 +4,7 @@
 
 PKG_OPTIONS_VAR=	PKG_OPTIONS.nsp
 PKG_SUPPORTED_OPTIONS=	tk
-PKG_SUGGESTED_OPTIONS=	
+PKG_SUGGESTED_OPTIONS=	# blank
 .include "../../mk/bsd.options.mk"
 
 .if !empty(PKG_OPTIONS:Mgtk)

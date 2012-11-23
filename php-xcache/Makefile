@@ -6,7 +6,7 @@ PECL_VERSION=		1.3.1
 PKGNAME=		${MODNAME}-${PECL_VERSION}
 CATEGORIES=		www
 MASTER_SITES=		http://xcache.lighttpd.net/pub/Releases/${PECL_VERSION}/
-EXTRACT_SUFX=		.tar.gz # required, because ../../lang/php/ext.mk 
+EXTRACT_SUFX=		.tar.gz # required, because ../../lang/php/ext.mk
 				# overrides it with .tgz
 
 # Original Maintainer (since dec 2010)

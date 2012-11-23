@@ -25,6 +25,6 @@ post-configure:
 post-install:
 .for f in forcpp kpdic
 	${RM} ${DESTDIR}${PREFIX}/bin/${f}
-.endfor	
-	
+.endfor
+
 .include "../../mk/bsd.pkg.mk"

@@ -28,7 +28,7 @@ SUBST_SED.fix-paths=		-e 's,/usr/bin/,${PREFIX}/bin/g,g'
 ONLY_FOR_PLATFORM=DragonFly-*-* \
 		NetBSD-[5-9]*-i386 \
 		NetBSD-[5-9]*-x86_64 \
-		NetBSD-[5-9]*-amd64 
+		NetBSD-[5-9]*-amd64
 
 post-extract:
 		cd ${WRKSRC} && rm symharden

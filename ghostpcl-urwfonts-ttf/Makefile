@@ -79,7 +79,7 @@ do-install:
 .for fontfile in ${INSTALL_FONTS}
 	${INSTALL_DATA} ${WRKSRC}/${fontfile} ${DESTDIR}${FONTDIR}
 .endfor
-.for fontfile in ${EXTRAFONT} 
+.for fontfile in ${EXTRAFONT}
 	${INSTALL_DATA} ${EXTRAFONTDIR}/${fontfile} ${DESTDIR}${FONTDIR}
 .endfor
 .for docfile in ${INSTALL_DOCS}

@@ -20,7 +20,7 @@ DEPENDS+= libSM-[0-9]*:../../x11/libSM
 DEPENDS+= libICE-[0-9]*:../../x11/libICE
 DEPENDS+= libXp-[0-9]*:../../x11/libXp
 
-GIT_REPOSITORIES=   cdesktopenv-code 
+GIT_REPOSITORIES=   cdesktopenv-code
 GIT_REPO.cdesktopenv-code = git://git.code.sf.net/p/cdesktopenv/code
 WRKSRC=$(WRKDIR)/code/cde
 

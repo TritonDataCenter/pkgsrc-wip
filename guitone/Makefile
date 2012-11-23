@@ -15,10 +15,10 @@ COMMENT=	Graphical Monotone VCS Tool
 
 ###
 ### XXX A Darwin build needs special handling; feel free to add
-###	Darwin support should the mood strike you. 
+###	Darwin support should the mood strike you.
 ###
 NOT_FOR_PLATFORM=	Darwin-*-*
- 
+
 USE_LANGUAGES=          c c++
 USE_LIBTOOL=		yes
 
@@ -35,7 +35,7 @@ do-install:
 		${DESTDIR}${PREFIX}/bin/guitone
 	${INSTALL_DATA} ${WRKSRC}/res/icons/guitone.png \
 		${DESTDIR}${PREFIX}/share/pixmaps/guitone.png
-		  
+
 .include "../../x11/qt4-libs/buildlink3.mk"
 .include "../../x11/qt4-tools/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

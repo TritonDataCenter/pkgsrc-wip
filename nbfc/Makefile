@@ -12,7 +12,7 @@ COMMENT=		Nbfc - the "new brainfuck compiler"
 WRKSRC=			${WRKDIR}/nbfc-0.1
 USE_TOOLS+=		gmake yacc
 
-INSTALLATION_DIRS+=	bin ${PKGMANDIR}/man1 
+INSTALLATION_DIRS+=	bin ${PKGMANDIR}/man1
 
 do-install:
 			${INSTALL_PROGRAM} ${WRKSRC}/nbfc ${DESTDIR}${PREFIX}/bin

@@ -56,4 +56,3 @@ post-install:
 .endif
 
 .include "../../mk/bsd.pkg.mk"
-

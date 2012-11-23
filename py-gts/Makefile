@@ -25,7 +25,7 @@ do-test:
 post-install:
 	${INSTALL_DATA} ${WRKSRC}/doc/gts.html ${DESTDIR}${DOCDIR}
 	${INSTALL_DATA} ${WRKSRC}/README.developers ${DESTDIR}${DOCDIR}
-	
+
 .include "../../lang/python/extension.mk"
 .include "../../math/py-numpy/buildlink3.mk"
 .include "../../wip/gts/buildlink3.mk"
