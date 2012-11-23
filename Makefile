@@ -3183,6 +3183,7 @@ SUBDIR+=	vcf
 SUBDIR+=	vche
 SUBDIR+=	vdesk
 SUBDIR+=	vee
+SUBDIR+=	vidalia-devel
 SUBDIR+=	vidalia
 SUBDIR+=	vidrioclock
 SUBDIR+=	vidriolib
