@@ -1,0 +1,15 @@
+$NetBSD$
+
+Fixes portability issue.
+
+--- pkg/build-geoip-cache.sh.orig	2012-02-27 23:25:30.000000000 +0000
++++ pkg/build-geoip-cache.sh
+@@ -16,7 +16,7 @@ DIRURL="http://tor.noreply.org/tor/statu
+ GEOIPURL="http://geoip.vidalia-project.net/cgi-bin/geoip"
+ CACHEFILE="geoip-cache"
+ 
+-if [ "$1" == "-notimestamp" -o "$1" == "--notimestamp" ]; then
++if "$1" == "-notimestamp" -o "$1" == "--notimestamp" ; then
+   timestamp=""
+ else
+   timestamp=":$(date +%s)"
