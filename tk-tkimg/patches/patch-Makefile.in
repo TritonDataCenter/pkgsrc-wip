@@ -1,5 +1,7 @@
 $NetBSD$
 
+Fix INSTALL_*.
+
 --- Makefile.in.orig	2005-01-10 23:31:59.000000000 +0000
 +++ Makefile.in
 @@ -178,8 +178,8 @@ $(DESTDIR)$(pkglibdir):
