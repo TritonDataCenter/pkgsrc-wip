@@ -175,6 +175,7 @@ libexec/gcc/avr/${PKGVERSION}/install-tools/fixincl
 libexec/gcc/avr/${PKGVERSION}/install-tools/mkheaders
 libexec/gcc/avr/${PKGVERSION}/install-tools/mkinstalldirs
 libexec/gcc/avr/${PKGVERSION}/lto-wrapper
+libexec/gcc/avr/${PKGVERSION}/lto1
 man/man1/avr-cpp.1
 man/man1/avr-g++.1
 man/man1/avr-gcc.1
