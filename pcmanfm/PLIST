@@ -1,6 +1,8 @@
 @comment $NetBSD$
 bin/pcmanfm
 etc/xdg/pcmanfm/default/pcmanfm.conf
+man/man1/pcmanfm.1
+share/applications/pcmanfm-desktop-pref.desktop
 share/applications/pcmanfm.desktop
 share/pcmanfm/ui/about.ui
 share/pcmanfm/ui/autorun.ui
