@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	menu-cache-0.3.2
+DISTNAME=	menu-cache-0.4.1
 CATEGORIES=	devel
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=lxde/}
 
