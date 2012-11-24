@@ -32,6 +32,6 @@ post-install:
 	${INSTALL_DATA_DIR} ${PKG_SYSCONFDIR}/sup-client-scan
 	${INSTALL_DATA_DIR} ${PKG_SYSCONFDIR}/prefixes
 
-DEPENDS+=            cvsup-16.1.hnb2:../../devel/cvsup
+DEPENDS+=            cvsup>=16.1.hnb2:../../devel/cvsup
 
 .include "../../mk/bsd.pkg.mk"
