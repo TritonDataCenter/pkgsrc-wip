@@ -10,6 +10,9 @@ HOMEPAGE=	http://kaffeine.kde.org/
 COMMENT=	Full featured Multimedia-Player for KDE4
 LICENSE=	gnu-gpl-v2
 
+BUILD_DEPENDS+=	automoc4>=0.9.87:../../devel/automoc4
+
+USE_TOOLS+=	msgfmt
 USE_CMAKE=	yes
 USE_LANGUAGES=	c c++
 
