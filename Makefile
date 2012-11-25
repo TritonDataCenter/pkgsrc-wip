@@ -814,7 +814,6 @@ SUBDIR+=	gtk2-engines-magicchicken
 SUBDIR+=	gtk2-engines-qt
 SUBDIR+=	gtk2-theme-pack
 SUBDIR+=	gtk2hs-buildtools
-SUBDIR+=	gtkada
 SUBDIR+=	gtkaml
 SUBDIR+=	gtkfontsel
 SUBDIR+=	gtkglextmm
