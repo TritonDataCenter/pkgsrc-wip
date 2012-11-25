@@ -20,7 +20,7 @@ GNU_CONFIGURE=		yes
 .include "options.mk"
 PLIST_SRC+=		PLIST.common
 
-# After updating, send a bashism bug report upstream.
+# See TODO.
 USE_TOOLS+=		bash
 REPLACE_INTERPRETER+=	bash
 REPLACE.bash.old=	.*/bin/bash
