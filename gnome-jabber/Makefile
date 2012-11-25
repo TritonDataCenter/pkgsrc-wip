@@ -7,7 +7,7 @@ CATEGORIES=		chat
 MASTER_SITES=		http://ftp.gnome.org/pub/GNOME/sources/gnome-jabber/0.4/
 EXTRACT_SUFX=		.tar.bz2
 
-MAINTAINER=		pancake@phreaker.net
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://ftp.gnome.org/pub/GNOME/sources/gnome-jabber/0.4/
 COMMENT=		Instant message client for Gnome using the Jabber protocol
 

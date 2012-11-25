@@ -5,7 +5,7 @@ DISTNAME=		ecasound-2.4.1
 CATEGORIES=		audio
 MASTER_SITES=		http://ecasound.seul.org/download/
 
-MAINTAINER=		pancake@phreaker.net
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://ecasound.seul.org/
 COMMENT=		Multitrack audio processor
 

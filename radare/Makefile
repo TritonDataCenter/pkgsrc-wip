@@ -6,7 +6,7 @@ PKGREVISION=	1
 CATEGORIES=	sysutils
 MASTER_SITES=	http://radare.nopcode.org/get/
 
-MAINTAINER=	pancake@youterm.com
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://radare.nopcode.org/
 COMMENT=	Advanced commandline hexadecimal editor
 

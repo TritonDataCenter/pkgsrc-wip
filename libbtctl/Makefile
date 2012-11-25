@@ -6,7 +6,7 @@ PKGREVISION=		1
 CATEGORIES=		net
 MASTER_SITES=		http://ftp.gnome.org/pub/gnome/sources/libbtctl/0.6/
 
-MAINTAINER=		pancake@phreaker.net
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://live.gnome.org/GnomeBluetooth
 COMMENT=		GObject Bluetooth controller
 

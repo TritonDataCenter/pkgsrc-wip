@@ -6,7 +6,7 @@ PKGNAME=		admsmb-0.3
 CATEGORIES=		security
 MASTER_SITES=		http://www.void.irq.org/
 
-MAINTAINER=		pancake@phreaker.net
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://www.void.irq.org/
 COMMENT=		Security scanner for Samba
 

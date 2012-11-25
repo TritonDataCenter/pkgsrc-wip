@@ -5,7 +5,7 @@ DISTNAME=		gtypist-2.8.3
 CATEGORIES=		textproc
 MASTER_SITES=		${MASTER_SITE_GNU:=gtypist/}
 
-MAINTAINER=		pancake@phreaker.net
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://www.gnu.org/software/gtypist/
 COMMENT=		Universal typing tutor
 LICENSE=		gnu-gpl-v3

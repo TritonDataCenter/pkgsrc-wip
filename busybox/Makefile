@@ -5,7 +5,7 @@ DISTNAME=	busybox-1.3.1
 CATEGORIES=	sysutils
 MASTER_SITES=	http://www.busybox.net/downloads/
 
-MAINTAINER=	pancake@phreaker.net
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.busybox.net/
 COMMENT=	The Swiss Army Knife of Embedded Linux
 LICENSE=	gnu-gpl-v2

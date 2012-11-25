@@ -5,7 +5,7 @@ DISTNAME=		kawa-1.8
 CATEGORIES=		lang
 MASTER_SITES=		${MASTER_SITE_GNU:=kawa/}
 
-MAINTAINER=		pancake@phreaker.net
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://www.gnu.org/software/kawa/
 COMMENT=		Scheme interpreter written in Java
 

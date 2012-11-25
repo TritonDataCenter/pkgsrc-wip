@@ -7,7 +7,7 @@ CATEGORIES=		textproc
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=itext/
 EXTRACT_SUFX=		.jar
 
-MAINTAINER=		pancake@phreaker.net
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://www.lowagie.com/iText/
 COMMENT=		Java classes to generate PDF files on the fly
 

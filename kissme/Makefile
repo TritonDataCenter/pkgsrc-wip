@@ -5,7 +5,7 @@ DISTNAME=		kissme-0.0.32
 CATEGORIES=		devel
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=kissme/}
 
-MAINTAINER=		pancake@phreaker.net
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://kissme.sourceforge.net/
 COMMENT=		Java Virtual Machine (JVM) freely available
 

@@ -5,7 +5,7 @@ DISTNAME=		mksend-0.5.3
 CATEGORIES=		net
 MASTER_SITES=		ftp://ftp.nopcode.org/prj/mksend/
 
-MAINTAINER=		pancake@phreaker.net
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://www.nopcode.org/?t=mksend
 COMMENT=		Network testing tool for capture and generate packets
 

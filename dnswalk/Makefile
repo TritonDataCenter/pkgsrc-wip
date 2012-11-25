@@ -6,7 +6,7 @@ WRKSRC=			${WRKDIR}/
 CATEGORIES=		net
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=dnswalk/}
 
-MAINTAINER=		pancake@phreaker.net
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://dnswalk.sourceforge.net/
 COMMENT=		DNS debugger
 

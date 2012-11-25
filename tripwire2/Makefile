@@ -5,7 +5,7 @@ DISTNAME=	tripwire-2.3.1-2
 CATEGORIES=	security
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=tripwire/}
 
-MAINTAINER=	pancake@phreaker.net
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://sourceforge.net/projects/tripwire/
 COMMENT=	File and directory integrity checker
 

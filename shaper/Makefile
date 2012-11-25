@@ -6,7 +6,7 @@ PKGNAME=		shaper-2.2.12
 CATEGORIES=		net linux
 MASTER_SITES=		${MASTER_SITE_DEBIAN:=pool/main/s/shaper/}
 
-MAINTAINER=		pancake@phreaker.net
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://freshmeat.net/projects/cbq.init
 COMMENT=		Bandwidth limiter for Linux
 

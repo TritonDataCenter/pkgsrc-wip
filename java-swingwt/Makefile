@@ -6,7 +6,7 @@ PKGNAME=		java-swingswt-0.82
 CATEGORIES=		sysutils
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=swingwt/}
 
-MAINTAINER=		pancake@phreaker.net
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://swingwt.sourceforge.net/
 COMMENT=		Swing binding to SWT for java
 

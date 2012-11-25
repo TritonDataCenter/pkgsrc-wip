@@ -5,7 +5,7 @@ DISTNAME=		xinetd-2.3.13
 CATEGORIES=		sysutils
 MASTER_SITES=		http://www.xinetd.org/
 
-MAINTAINER=		pancake@phreaker.net
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://www.xinetd.org/
 COMMENT=		Secure replacement for inetd
 

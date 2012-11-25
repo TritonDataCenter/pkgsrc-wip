@@ -6,7 +6,7 @@ CATEGORIES=	sysutils
 MASTER_SITES=	http://www.rocklinux.net/people/ripclaw/projects/software/virus/
 EXTRACT_SUFX=	.tar.bz2
 
-MAINTAINER=	pancake@phreaker.net
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.rocklinux.net/people/ripclaw/projects/software/virus/
 COMMENT=	VI resembling utility skeleton
 

@@ -5,7 +5,7 @@ DISTNAME=		blueproxy-1.3
 CATEGORIES=		net
 MASTER_SITES=		http://anil.recoil.org/projects/
 
-MAINTAINER=		pancake@phreaker.net
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://anil.recoil.org/projects/blueproxy.html
 COMMENT=		RFCOMM <-> TCP proxy
 #LICENSE=		# TODO

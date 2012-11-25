@@ -6,7 +6,7 @@ PKGNAME=		muttvcquery-002
 CATEGORIES=		mail
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=rolo/}
 
-MAINTAINER=		pancake@phreaker.net
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://rolo.sourceforge.net/
 COMMENT=		External contact manager for mutt
 

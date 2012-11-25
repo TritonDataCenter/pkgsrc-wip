@@ -6,7 +6,7 @@ CATEGORIES=		linux
 MASTER_SITES=		http://www.linuxtv.org/downloads/
 EXTRACT_SUFX=		.tar.bz2
 
-MAINTAINER=		pancake@phreaker.net
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://www.linuxtv.org/
 COMMENT=		DVB applications from LinuxTV project
 

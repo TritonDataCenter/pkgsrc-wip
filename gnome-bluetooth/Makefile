@@ -6,7 +6,7 @@ PKGREVISION=		7
 CATEGORIES=		net
 MASTER_SITES=		http://ftp.gnome.org/pub/gnome/sources/gnome-bluetooth/0.7/
 
-MAINTAINER=		pancake@phreaker.net
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://live.gnome.org/GnomeBluetooth
 COMMENT=		Gnome Bluetooth Manager
 

@@ -6,7 +6,7 @@ WRKSRC=		${WRKDIR}/lde
 CATEGORIES=	editors
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=lde/}
 
-MAINTAINER=	pancake@phreaker.net
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://lde.sourceforge.net
 COMMENT=	Curses based file system viewer/editor for Linux
 

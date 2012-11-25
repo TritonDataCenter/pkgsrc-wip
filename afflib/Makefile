@@ -6,7 +6,7 @@ PKGREVISION=		3
 CATEGORIES=		devel
 MASTER_SITES=		http://www.afflib.org/downloads/
 
-MAINTAINER=		pancake@phreaker.net
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://www.afflib.org/downloads/
 COMMENT=		Advanced Forensic Format library
 

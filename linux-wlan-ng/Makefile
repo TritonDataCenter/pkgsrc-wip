@@ -6,7 +6,7 @@ CATEGORIES=		net linux
 MASTER_SITES=		ftp://ftp.linux-wlan.org/pub/linux-wlan-ng/
 EXTRACT_SUFX=		.tar.bz2
 
-MAINTAINER=		pancake@phreaker.net
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://www.linux-wlan.com/
 COMMENT=		Linux utilities for wireless prism2 cards
 

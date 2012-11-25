@@ -6,7 +6,7 @@ CATEGORIES=		games
 MASTER_SITES=		http://briquolo.free.fr/download/
 EXTRACT_SUFX=		.tar.bz2
 
-MAINTAINER=		pancake@phreaker.net
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://briquolo.free.fr/en/
 COMMENT=		3D breakout based on OpenGL
 LICENSE=		gnu-gpl-v3

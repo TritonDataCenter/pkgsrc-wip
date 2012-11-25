@@ -5,7 +5,7 @@ DISTNAME=		bridge-utils-1.0.4
 CATEGORIES=		net linux
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=bridge/}
 
-MAINTAINER=		pancake@phreaker.net
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://www.linuxfoundation.org/collaborate/workgroups/networking/bridge
 COMMENT=		Ethernet bridging utilities for GNU/Linux
 LICENSE=		gnu-gpl-v2

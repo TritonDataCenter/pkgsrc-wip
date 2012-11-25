@@ -5,7 +5,7 @@ DISTNAME=		ussp-push-0.4
 CATEGORIES=		comms
 MASTER_SITES=		http://xmailserver.org/
 
-MAINTAINER=		pancake@phreaker.net
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://xmailserver.org/ussp-push.html
 COMMENT=		OBEX object pusher for BlueZ
 

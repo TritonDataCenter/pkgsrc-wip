@@ -6,7 +6,7 @@ PKGREVISION=		4
 CATEGORIES=		multimedia
 MASTER_SITES=		http://www.ljudmila.org/~jaromil/freej/releases/
 
-MAINTAINER=		pancake@phreaker.net
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://freej.dyne.org/
 COMMENT=		Instrument for realtime video manipulation
 

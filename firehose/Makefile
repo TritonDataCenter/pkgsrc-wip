@@ -7,7 +7,7 @@ CATEGORIES=		net
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=heroines/}
 EXTRACT_SUFX=		.tar.bz2
 
-MAINTAINER=		pancake@phreaker.net
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://heroinewarrior.com/firehose.php3
 COMMENT=		Super fast throughput over cheap ethernet
 

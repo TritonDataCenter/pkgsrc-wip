@@ -6,7 +6,7 @@ PKGNAME=		microcom-1.02
 CATEGORIES=		comms
 MASTER_SITES=		http://microcom.port5.com/
 
-MAINTAINER=		pancake@phreaker.net
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://microcom.port5.com/
 COMMENT=		Minicom-like serial terminal emulator with scripting
 

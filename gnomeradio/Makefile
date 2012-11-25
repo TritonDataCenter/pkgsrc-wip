@@ -6,7 +6,7 @@ PKGREVISION=		5
 CATEGORIES=		audio
 MASTER_SITES=		http://www.wh-hms.uni-ulm.de/~mfcn/gnomeradio/packages/
 
-MAINTAINER=		pancake@phreaker.net
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://www.wh-hms.uni-ulm.de/~mfcn/gnomeradio/
 COMMENT=		FM-radio tuner for the GNOME desktop
 

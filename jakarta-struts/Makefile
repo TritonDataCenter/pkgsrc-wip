@@ -5,7 +5,7 @@ DISTNAME=		jakarta-struts-1.1
 CATEGORIES=		www
 MASTER_SITES=		http://archive.apache.org/dist/struts/struts-1.1/
 
-MAINTAINER=		pancake@phreaker.net
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://archive.apache.org/dist/struts/struts-1.1/
 COMMENT=		Struts is struts xD
 

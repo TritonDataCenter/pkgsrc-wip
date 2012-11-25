@@ -5,7 +5,7 @@ DISTNAME=		hdparm-6.6
 CATEGORIES=		linux sysutils
 MASTER_SITES=		http://www.ibiblio.org/pub/Linux/system/hardware/
 
-MAINTAINER=		pancake@phreaker.net
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://www.ibiblio.org/pub/Linux/system/hardware/
 COMMENT=		Linux tool for view and manipulate IDE drive parameters
 

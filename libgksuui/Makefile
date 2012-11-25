@@ -6,7 +6,7 @@ PKGREVISION=		2
 CATEGORIES=		sysutils
 MASTER_SITES=		http://people.debian.org/~kov/gksu/old_stuff/libgksuui1.0/
 
-MAINTAINER=		pancake@phreaker.net
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://people.debian.org/~kov/gksu/
 COMMENT=		UI Support library for Gksu
 

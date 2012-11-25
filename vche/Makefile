@@ -5,7 +5,7 @@ DISTNAME=		vche-1.7.2
 CATEGORIES=		editors
 MASTER_SITES=		http://www.grigna.com/diego/linux/vche/
 
-MAINTAINER=		pancake@phreaker.net
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://www.grigna.com/diego/linux/vche/
 COMMENT=		Hex Editor for console
 

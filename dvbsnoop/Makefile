@@ -5,7 +5,7 @@ DISTNAME=		dvbsnoop-1.4.00
 CATEGORIES=		net
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=dvbsnoop/}
 
-MAINTAINER=		pancake@phreaker.net
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://dvbsnoop.sourceforge.net/
 COMMENT=		DVB / MPEG stream analyzer program
 LICENSE=		gnu-gpl-v2

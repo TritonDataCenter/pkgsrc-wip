@@ -8,7 +8,7 @@ CATEGORIES=		www
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=west/}
 EXTRACT_SUFX=		.tgz
 
-MAINTAINER=		pancake@phreaker.net
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://west.sourceforge.net/
 COMMENT=		Web scripting/stress tool
 

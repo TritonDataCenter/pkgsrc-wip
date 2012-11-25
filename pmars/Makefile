@@ -7,7 +7,7 @@ CATEGORIES=		games
 MASTER_SITES=		http://www.koth.org/pmars/
 EXTRACT_SUFX=		.gz
 
-MAINTAINER=		pancake@phreaker.net
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://www.koth.org/pmars/
 COMMENT=		The official Core Wars simulator
 

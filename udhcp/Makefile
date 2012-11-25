@@ -5,7 +5,7 @@ DISTNAME=	udhcp-0.9.8
 CATEGORIES=	net
 MASTER_SITES=	http://udhcp.busybox.net/source/
 
-MAINTAINER=	pancake@phreaker.net
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.busybox.net/
 COMMENT=	Embedded DHCP Client/Server
 

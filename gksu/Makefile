@@ -6,7 +6,7 @@ PKGREVISION=		3
 CATEGORIES=		sysutils
 MASTER_SITES=		http://people.debian.org/~kov/gksu/old_stuff/gksu/
 
-MAINTAINER=		pancake@phreaker.net
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://www.nongnu.org/gksu/
 COMMENT=		Authorization dialog library
 

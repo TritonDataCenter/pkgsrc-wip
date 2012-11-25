@@ -7,7 +7,7 @@ CATEGORIES=		sysutils
 MASTER_SITES=		http://graveman.tuxfamily.org/sources/
 EXTRACT_SUFX=		.tar.bz2
 
-MAINTAINER=		pancake@phreaker.net
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://graveman.tuxfamily.org/
 COMMENT=		GTK2 frontend for CD writing and audio conversion
 

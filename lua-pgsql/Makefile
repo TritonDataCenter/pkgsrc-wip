@@ -7,7 +7,7 @@ PKGREVISION=		1
 CATEGORIES=		databases
 MASTER_SITES=		http://www.keplerproject.org/luasql/
 
-MAINTAINER=		pancake@phreaker.net
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://www.keplerproject.org/luasql/
 COMMENT=		PostgreSQL bindings for LUA
 

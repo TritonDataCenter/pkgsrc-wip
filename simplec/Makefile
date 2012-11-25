@@ -6,7 +6,7 @@ PKGNAME=		simplec-0.1.1
 CATEGORIES=		lang
 MASTER_SITES=		http://retro.tunes.org/simplec/
 
-MAINTAINER=		pancake@phreaker.net
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://retro.tunes.org/simplec/
 COMMENT=		Port of SmallC/i386 compiler
 

@@ -5,7 +5,7 @@ DISTNAME=		tcpspy-1.7
 CATEGORIES=		net
 MASTER_SITES=		http://www.mirrors.wiretapped.net/security/network-monitoring/tcpspy/
 
-MAINTAINER=		pancake@phreaker.net
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://freshmeat.net/projects/tcpspy/
 COMMENT=		TCP/IP connections logger
 

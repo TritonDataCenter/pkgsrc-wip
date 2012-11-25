@@ -6,7 +6,7 @@ CATEGORIES=		devel
 MASTER_SITES=		ftp://ftp.urbanophile.com/pub/arenn/software/sources/
 EXTRACT_SUFX=		.jar
 
-MAINTAINER=		pancake@phreaker.net
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://www.urbanophile.com/arenn/hacking/download.html
 COMMENT=		GNU getopt port for Java
 

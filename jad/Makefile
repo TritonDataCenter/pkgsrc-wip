@@ -8,7 +8,7 @@ MASTER_SITES=		http://www.kpdus.com/jad/${JAD_OSDIR}
 EXTRACT_SUFX=		.zip
 JAD_OSDIR=		linux # Default one
 
-MAINTAINER=		pancake@phreaker.net
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://www.kpdus.com/jad.html
 COMMENT=		The fast Java Decompiler
 LICENSE=		no-commercial-use

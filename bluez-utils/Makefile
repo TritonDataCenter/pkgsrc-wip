@@ -5,7 +5,7 @@ DISTNAME=		bluez-utils-3.19
 CATEGORIES=		net
 MASTER_SITES=		http://bluez.sourceforge.net/download/
 
-MAINTAINER=		pancake@phreaker.net
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://www.bluez.org/
 COMMENT=		Linux Bluetooth Stack utilities
 

@@ -5,7 +5,7 @@ DISTNAME=		snark-0.5
 CATEGORIES=		net
 MASTER_SITES=		http://www.klomp.org/snark/
 
-MAINTAINER=		pancake@phreaker.net
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://www.klomp.org/snark/
 COMMENT=		BitTorrent application suite in Java
 

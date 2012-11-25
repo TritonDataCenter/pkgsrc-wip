@@ -5,7 +5,7 @@ CATEGORIES=	pkgtools
 MASTER_SITES=	# empty
 DISTFILES=	# empty
 
-MAINTAINER=	pancake@phreaker.net
+MAINTAINER=	pkgsrc-users@NetBSD.org
 COMMENT=	This is an apt-get like tool for pkgsrc
 
 DEPENDS+=	pkgfind>=20041020:../../pkgtools/pkgfind

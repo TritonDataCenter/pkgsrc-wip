@@ -4,7 +4,7 @@ DISTNAME=	tcptrack-1.4.0
 CATEGORIES=	net
 MASTER_SITES=	http://www.rhythm.cx/~steve/devel/tcptrack/release/${PKGVERSION_NOREV}/source/
 
-MAINTAINER=	pancake@phreaker.net
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.rhythm.cx/~steve/devel/tcptrack/
 COMMENT=	Watch TCP connections
 LICENSE=	gnu-lgpl-v2.1

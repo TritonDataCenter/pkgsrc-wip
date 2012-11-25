@@ -5,7 +5,7 @@ DISTNAME=		ile-0.4
 CATEGORIES=		misc
 MASTER_SITES=		http://www.jabberstudio.org/files/ile/
 
-MAINTAINER=		pancake@phreaker.net
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://jabberstudio.org/projects/ile/
 COMMENT=		Email notifier component for jabber
 

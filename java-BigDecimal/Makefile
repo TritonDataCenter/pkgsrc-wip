@@ -7,7 +7,7 @@ CATEGORIES=		devel math
 MASTER_SITES=		http://www2.hursley.ibm.com/decimalj/
 EXTRACT_SUFX=		.zip
 
-MAINTAINER=		pancake@phreaker.net
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://www2.hursley.ibm.com/decimalj/
 COMMENT=		Decimal arithmetic for Java
 

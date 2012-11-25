@@ -8,7 +8,7 @@ CATEGORIES=		security
 MASTER_SITES=		http://www.fish2.com/cops/ \
 			ftp://ftp.cerias.purdue.edu/pub/tools/unix/scanners/cops/
 
-MAINTAINER=		pancake@phreaker.net
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://www.fish2.com/cops/
 COMMENT=		Computer Oracle and Password System
 

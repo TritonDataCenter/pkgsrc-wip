@@ -7,7 +7,7 @@ CATEGORIES=		lang
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=pizzacompiler/}
 EXTRACT_SUFX=		.jar
 
-MAINTAINER=		pancake@phreaker.net
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://pizzacompiler.sourceforge.net/
 COMMENT=		Pizza language is an extension to Java
 

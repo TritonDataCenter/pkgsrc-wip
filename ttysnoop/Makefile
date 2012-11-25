@@ -7,7 +7,7 @@ PKGREVISION=	2
 CATEGORIES=		sysutils
 MASTER_SITES=		http://grad.icmc.usp.br/~duker/ttysnoop/
 
-MAINTAINER=		pancake@phreaker.net
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://grad.icmc.usp.br/~duker/ttysnoop/
 COMMENT=		Snoop TTYs on Linux for kernels 2.6
 

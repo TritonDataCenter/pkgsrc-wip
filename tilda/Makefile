@@ -6,7 +6,7 @@ PKGREVISION=	3
 CATEGORIES=	x11 sysutils
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=tilda/}
 
-MAINTAINER=	pancake@phreaker.net
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://tilda.sourceforge.net/
 COMMENT=	Terminal like the classic first-person-shooter games
 

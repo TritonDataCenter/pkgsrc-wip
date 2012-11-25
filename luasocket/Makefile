@@ -6,7 +6,7 @@ PKGNAME=		${LUA_PKGPREFIX}-${DISTNAME:S/lua//}
 CATEGORIES=		net
 MASTER_SITES=		http://luaforge.net/frs/download.php/2664/
 
-MAINTAINER=		pancake@phreaker.net
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://www.tecgraf.puc-rio.br/~diego/professional/luasocket/
 COMMENT=		Gives socket capabilities to lua
 LICENSE=		mit

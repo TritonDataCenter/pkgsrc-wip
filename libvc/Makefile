@@ -5,7 +5,7 @@ DISTNAME=		libvc-003
 CATEGORIES=		mail
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=rolo/}
 
-MAINTAINER=		pancake@phreaker.net
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://rolo.sourceforge.net/
 COMMENT=		VCard library
 

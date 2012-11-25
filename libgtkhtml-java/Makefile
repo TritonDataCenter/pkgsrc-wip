@@ -7,7 +7,7 @@ CATEGORIES=		www
 MASTER_SITES=		${MASTER_SITE_GNOME:=sources/libgtkhtml-java/2.6/}
 EXTRACT_SUFX=		.tar.bz2
 
-MAINTAINER=		pancake@phreaker.net
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://java-gnome.sourceforge.net/
 COMMENT=		GtkHtml bindings for Java
 
