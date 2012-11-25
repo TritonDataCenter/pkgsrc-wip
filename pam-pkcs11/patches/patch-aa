@@ -1,5 +1,8 @@
 $NetBSD$
 
+Set path to examples direcotry according to pkgsrc norms.
+(This patch should not necessarily be sent upstream.)
+
 --- etc/Makefile.in.orig	2005-09-12 06:14:19.000000000 -0300
 +++ etc/Makefile.in
 @@ -19,7 +19,7 @@
