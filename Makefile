@@ -1768,6 +1768,7 @@ SUBDIR+=	nuttcp
 SUBDIR+=	nvidia-freebsd
 SUBDIR+=	nx-client-bin
 SUBDIR+=	nzbget
+SUBDIR+=	objfw
 SUBDIR+=	obmenu
 SUBDIR+=	ocamlgraph
 SUBDIR+=	ocamlweb
