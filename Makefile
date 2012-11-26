@@ -344,6 +344,7 @@ SUBDIR+=	courierpassd
 SUBDIR+=	coxeter
 SUBDIR+=	cpdup
 SUBDIR+=	cpm
+SUBDIR+=	crabemu
 SUBDIR+=	creal
 SUBDIR+=	cream
 SUBDIR+=	crfpp
