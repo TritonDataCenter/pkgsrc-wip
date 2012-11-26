@@ -2969,6 +2969,7 @@ SUBDIR+=	suitesparse
 SUBDIR+=	sun-j2me
 SUBDIR+=	sunterlib
 SUBDIR+=	superchic
+SUBDIR+=	supermodel
 SUBDIR+=	supertux
 SUBDIR+=	surf
 SUBDIR+=	suse100_32_SDL
