@@ -2111,6 +2111,7 @@ SUBDIR+=	pear-channel-horde
 SUBDIR+=	pear-channel-phpunit
 SUBDIR+=	pessulus
 SUBDIR+=	petsc
+SUBDIR+=	pev
 SUBDIR+=	pfe
 SUBDIR+=	pgp6
 SUBDIR+=	phantomjs
