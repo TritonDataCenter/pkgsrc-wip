@@ -1,8 +1,11 @@
 $NetBSD$
 
-Fixes libtool no tag specified error.
+Fix phony target for Makefile dependencies.
+Add a separate $PREFIX to the install paths, as qmake only supports
+a single $INSTALL_ROOT prefix. By setting $INSTALL_ROOT to $DESTDIR
+this enables DESTDIR support and fixes the library paths.
 
---- share/qtcreator/translations/translations.pro.orig	2012-05-09 14:13:18.000000000 +0000
+--- share/qtcreator/translations/translations.pro.orig	2012-08-08 13:47:06.000000000 +0000
 +++ share/qtcreator/translations/translations.pro
 @@ -103,7 +103,7 @@ updateqm.name = LRELEASE ${QMAKE_FILE_IN
  updateqm.CONFIG += no_link
@@ -26,6 +29,6 @@ Fixes libtool no tag specified error.
  
  qmfiles.files = $$prependAll(LANGUAGES, $$OUT_PWD/qtcreator_,.qm)
 -qmfiles.path = /share/qtcreator/translations
-+qmfiles.path = $(PREFIX)/share/qtcreator/translations
++qmfiles.path = $$(PREFIX)/share/qtcreator/translations
  qmfiles.CONFIG += no_check_exist
  INSTALLS += qmfiles

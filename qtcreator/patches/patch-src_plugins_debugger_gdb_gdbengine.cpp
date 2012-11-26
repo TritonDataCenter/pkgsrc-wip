@@ -1,8 +1,8 @@
 $NetBSD$
 
-Corrects newline.
+Fix debugger commands for systems with unix line endings.
 
---- src/plugins/debugger/gdb/gdbengine.cpp.orig	2012-05-09 14:13:18.000000000 +0000
+--- src/plugins/debugger/gdb/gdbengine.cpp.orig	2012-08-08 13:47:06.000000000 +0000
 +++ src/plugins/debugger/gdb/gdbengine.cpp
 @@ -891,7 +891,7 @@ void GdbEngine::flushCommand(const GdbCo
          QMetaObject::invokeMethod(this, "handleResponse",

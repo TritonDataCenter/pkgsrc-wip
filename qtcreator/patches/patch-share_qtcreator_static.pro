@@ -1,8 +1,11 @@
 $NetBSD$
 
-Fixes libtool no tag specified error.
+Fix phony target for Makefile dependencies.
+Add a separate $PREFIX to the install paths, as qmake only supports
+a single $INSTALL_ROOT prefix. By setting $INSTALL_ROOT to $DESTDIR
+this enables DESTDIR support and fixes the library paths.
 
---- share/qtcreator/static.pro.orig	2012-05-09 14:13:18.000000000 +0000
+--- share/qtcreator/static.pro.orig	2012-08-08 13:47:06.000000000 +0000
 +++ share/qtcreator/static.pro
 @@ -7,7 +7,7 @@ QT =
  LIBS =
@@ -22,12 +25,21 @@ Fixes libtool no tag specified error.
      phony_src.name = CREATE phony.c
      phony_src.CONFIG += combine
      QMAKE_EXTRA_COMPILERS += phony_src
+@@ -64,7 +64,7 @@ macx: DATA_DIRS += scripts
+ !macx {
+     for(data_dir, DATA_DIRS) {
+         eval($${data_dir}.files = $$quote($$PWD/$$data_dir))
+-        eval($${data_dir}.path = /share/qtcreator)
++        eval($${data_dir}.path = $$(PREFIX)/share/qtcreator)
+         INSTALLS += $$data_dir
+     }
+ } else {
 @@ -117,7 +117,7 @@ QMAKE_EXTRA_COMPILERS += unconditionalCo
  !macx {
      for(data_dir, DATA_DIRS) {
          eval($${data_dir}.files = $$IDE_DATA_PATH/$$data_dir)
 -        eval($${data_dir}.path = /share/qtcreator)
-+        eval($${data_dir}.path = $(PREFIX)/share/qtcreator)
++        eval($${data_dir}.path = $$(PREFIX)/share/qtcreator)
          eval($${data_dir}.CONFIG += no_check_exist)
          INSTALLS += $$data_dir
      }
