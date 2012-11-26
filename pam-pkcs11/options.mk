@@ -2,6 +2,8 @@
 
 PKG_OPTIONS_VAR=	PKG_OPTIONS.pam-pkcs11
 PKG_SUPPORTED_OPTIONS=	pcsc-lite ldap
+# In 0.6.8, pcsc-lite is apparently required.
+PKG_SUGGESTED_OPTIONS=	pcsc-lite
 
 .include "../../mk/bsd.options.mk"
 
@@ -9,6 +11,8 @@ PKG_SUPPORTED_OPTIONS=	pcsc-lite ldap
 .include "../../security/pcsc-lite/buildlink3.mk"
 CONFIGURE_ARGS+=	--with-pcsclite
 PLIST_SRC+=		PLIST.pcsc-lite
+.else
+CONFIGURE_ARGS+=	--without-pcscs-lite
 .endif
 
 .if !empty(PKG_OPTIONS:Mldap)
