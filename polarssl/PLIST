@@ -44,3 +44,4 @@ include/polarssl/x509.h
 include/polarssl/x509write.h
 include/polarssl/xtea.h
 lib/libpolarssl.a
+lib/libpolarssl.so
