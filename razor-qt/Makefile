@@ -13,6 +13,7 @@ LICENSE=	gnu-gpl-v2
 
 FETCH_USING=	curl
 USE_LANGUAGES=	c c++
+USE_TOOLS+=	bash
 USE_CMAKE=	yes
 
 REPLACE_BASH+=	razorqt-session/razor-session/resources/xdg-mime
