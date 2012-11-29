@@ -6,7 +6,7 @@ CATEGORIES=		sysutils
 MASTER_SITES=		http://www.zxdesign.info/download/src/
 EXTRACT_SUFX=		.tgz
 
-MAINTAINER=		pancake@phreaker.net
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://www.zxdesign.info/download/src/
 COMMENT=		Highly scalable distributed middleware
 

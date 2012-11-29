@@ -10,6 +10,6 @@ PKG_SUGGESTED_OPTIONS=		softhsm
 ### SoftHSM
 ###
 .if !empty(PKG_OPTIONS:Msofthsm)
-DEPENDS+=	softhsm:../../security/softhsm
+DEPENDS+=	softhsm-[0-9]*:../../security/softhsm
 .include "../../security/softhsm/buildlink3.mk"
 .endif

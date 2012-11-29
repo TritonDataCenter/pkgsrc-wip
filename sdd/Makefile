@@ -5,7 +5,7 @@ DISTNAME=		sdd-1.52
 CATEGORIES=		sysutils
 MASTER_SITES=		ftp://ftp.berlios.de/pub/sdd/
 
-MAINTAINER=		pancake@phreaker.net
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://directory.fsf.org/project/sdd/
 COMMENT=		Replacement for 'dd'
 

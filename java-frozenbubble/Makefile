@@ -7,7 +7,7 @@ CATEGORIES=		games
 MASTER_SITES=		http://glenn.sanson.free.fr/fb/
 EXTRACT_SUFX=		.jar
 
-MAINTAINER=		pancake@phreaker.net
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://glenn.sanson.free.fr/fb/index.html
 COMMENT=		Java port of Frozen Bubble
 

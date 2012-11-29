@@ -7,7 +7,7 @@ CATEGORIES=		print
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=panda/}
 EXTRACT_SUFX=		.tar.bz2
 
-MAINTAINER=		pancake@phreaker.net
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://www.stillhq.com//panda/
 COMMENT=			GPLed PDF generation library
 

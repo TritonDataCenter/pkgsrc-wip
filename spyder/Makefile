@@ -12,9 +12,9 @@ HOMEPAGE=	http://code.google.com/p/spyderlib/
 COMMENT=	Scientific Python Development Environment
 LICENSE=	mit
 
-### Recommende dependency###
+### Recommended dependencies###
 DEPENDS+=	${PYPKGPREFIX}-scipy>=0.7.2:../../math/py-scipy
-DEPENDS+=	${PYPKGPREFIX}-cElementTree-[0-9]*:../../textproc/py-cElementTree 
+DEPENDS+=	${PYPKGPREFIX}-cElementTree-[0-9]*:../../textproc/py-cElementTree
 DEPENDS+=	${PYPKGPREFIX}-sphinx>=1.0.7:../../textproc/py-sphinx
 
 USE_PKGLOCALEDIR=	yes

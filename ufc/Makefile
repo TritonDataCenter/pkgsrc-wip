@@ -30,6 +30,11 @@ PKGCONFIG_OVERRIDE+=	cmake/ufc-1.pc.in
 # Stolen from lang/python/extension.mk
 PLIST_SUBST+=   PYINC=${PYINC} PYLIB=${PYLIB} PYSITELIB=${PYSITELIB}
 
+SUBST_CLASSES+=		ospath
+SUBST_STAGE.ospath=	post-patch
+SUBST_FILES.ospath=	src/utils/python/ufc_utils/build.py
+SUBST_SED.ospath=	-e 's|os.path.join(os.path.sep, "opt", "local")|os.path.normpath("${PREFIX}")|' -e 's|os.path.join(os.path.sep, "usr")|os.path.normpath("${PREFIX}")|'
+
 .include "../../lang/python/application.mk"
 .include "../../devel/boost-libs/buildlink3.mk"
 .include "../../devel/swig2/buildlink3.mk"

@@ -5,7 +5,7 @@ DISTNAME=	uClibc-0.9.20
 CATEGORIES=	sysutils
 MASTER_SITES=	http://www.uclibc.org/downloads/
 
-MAINTAINER=	pancake@phreaker.net
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.uclibc.org/
 COMMENT=	C library for developing embedded Linux systems
 

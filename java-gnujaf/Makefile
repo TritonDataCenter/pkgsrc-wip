@@ -6,7 +6,7 @@ PKGNAME=		java-gnujaf-1.1.1
 CATEGORIES=		textproc
 MASTER_SITES=	http://ftp.gnu.org/gnu/classpathx/
 
-MAINTAINER=		pancake@phreaker.net
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://ftp.gnu.org/gnu/classpathx/
 COMMENT=		GNU Java Activation Framework
 

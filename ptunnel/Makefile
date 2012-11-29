@@ -7,7 +7,7 @@ CATEGORIES=		net
 MASTER_SITES=		http://www.cs.uit.no/~daniels/PingTunnel/ \
 			http://dag.wieers.com/packages/ptunnel/
 
-MAINTAINER=		pancake@phreaker.net
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://www.cs.uit.no/~daniels/PingTunnel/
 COMMENT=		TCP tunnel over ICMP
 

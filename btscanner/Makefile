@@ -6,7 +6,7 @@ CATEGORIES=		net security
 MASTER_SITES=		http://www.pentest.co.uk/src/
 EXTRACT_SUFX=		.tar.bz2
 
-MAINTAINER=		pancake@phreaker.net
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://www.pentest.co.uk/cgi-bin/viewcat.cgi?cat=downloads
 COMMENT=		Bluetooth device information viewer
 LICENSE=		gnu-gpl-v2

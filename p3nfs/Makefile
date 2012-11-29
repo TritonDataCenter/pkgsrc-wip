@@ -5,7 +5,7 @@ DISTNAME=		p3nfs-5.16
 CATEGORIES=		sysutils
 MASTER_SITES=		http://www.koeniglich.de/packages/
 
-MAINTAINER=		pancake@phreaker.net
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://www.koeniglich.de/p3nfs.html
 COMMENT=		Symbian to UNIX NFS daemon
 

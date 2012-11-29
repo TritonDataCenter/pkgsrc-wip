@@ -5,7 +5,7 @@ DISTNAME=		sflphoned-0.6.1
 CATEGORIES=		chat
 MASTER_SITES=		http://www.sflphone.org/releases/
 
-MAINTAINER=		pancake@phreaker.net
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://www.sflphone.org/
 COMMENT=		Multiplatform softphone for IP telephony using SIP (VOIP)
 

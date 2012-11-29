@@ -33,4 +33,3 @@ do-install:
 .endfor
 
 .include "../../mk/bsd.pkg.mk"
-

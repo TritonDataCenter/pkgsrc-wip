@@ -7,7 +7,7 @@ PKGREVISION=		2
 CATEGORIES=		sysutils
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=fuse/}
 
-MAINTAINER=		pancake@phreaker.net
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://fuse.sourceforge.net/
 COMMENT=		Mount remote directories using ssh and FUSE
 

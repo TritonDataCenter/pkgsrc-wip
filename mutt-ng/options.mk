@@ -60,4 +60,3 @@ CONFIGURE_ARGS+=	--enable-hcache --with-bdb --without-qdbm --without-gdbm
 CONFIGURE_ARGS+=	--enable-nntp
 .include "../../databases/db4/buildlink3.mk"
 .endif
-

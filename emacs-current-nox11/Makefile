@@ -71,4 +71,3 @@ pre-configure:
 .include "../../wip/mk/git-package.mk"
 .include "../../mk/oss.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
-

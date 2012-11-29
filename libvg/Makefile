@@ -5,7 +5,7 @@ DISTNAME=		libvg-0.2.0
 CATEGORIES=		devel
 MASTER_SITES=		http://www.7a69ezine.org/download/
 
-MAINTAINER=		pancake@phreaker.net
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://www.7a69ezine.org/project/libvg/
 COMMENT=		High-level ptrace library
 

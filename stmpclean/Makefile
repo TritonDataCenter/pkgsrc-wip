@@ -5,7 +5,7 @@ DISTNAME=		stmpclean-0.3
 CATEGORIES=		sysutils
 MASTER_SITES=		http://shlang.com/stmpclean/
 
-MAINTAINER=		pancake@phreaker.net
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://shlang.com/stmpclean/
 COMMENT=		Secure /tmp cleaner
 LICENSE=	gnu-gpl-v2

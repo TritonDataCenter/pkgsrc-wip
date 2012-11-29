@@ -1,5 +1,5 @@
 @comment $NetBSD$
-bin/shedskin2.6
+bin/shedskin${PYVERSSUFFIX}
 ${PYSITELIB}/shedskin/FLAGS
 ${PYSITELIB}/shedskin/__init__.py
 ${PYSITELIB}/shedskin/__init__.pyc

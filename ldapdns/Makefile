@@ -6,7 +6,7 @@ WRKSRC=		${WRKDIR}/ldapdns/
 CATEGORIES=	net
 MASTER_SITES=	http://ldapdns.sourceforge.net/
 
-MAINTAINER=	pancake@phreaker.net
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://ldapdns.sourceforge.net
 COMMENT=	Tiny, fast authoritative nameserver that queries LDAP
 

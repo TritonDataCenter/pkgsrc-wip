@@ -6,7 +6,7 @@ CATEGORIES=		security
 MASTER_SITES=		http://www-arc.com/sara/downloads/
 EXTRACT_SUFX=		.tgz
 
-MAINTAINER=		pancake@phreaker.net
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://www-arc.com/sara/
 COMMENT=		Security Auditor's Research Assistant
 

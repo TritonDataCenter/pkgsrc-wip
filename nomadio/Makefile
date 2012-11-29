@@ -1,7 +1,6 @@
 # $NetBSD$
 
-PKGVERSION=		0.7
-DISTNAME=		nomadio-${PKGVERSION}
+DISTNAME=		nomadio-0.7
 PKGREVISION=		1
 CATEGORIES=		audio
 MASTER_SITES=		ftp://ftp.lucifier.net/pub/nomadio/

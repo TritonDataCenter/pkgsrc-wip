@@ -20,7 +20,7 @@ USE_TOOLS=	gmake pkg-config automake autoconf autoheader aclocal
 CONFIGURE_ARGS=		--with-edje-cc=${PREFIX}/bin/edje_cc
 
 pre-configure:
-	cd ${WRKSRC} && ${SH} autogen.sh	
+	cd ${WRKSRC} && ${SH} autogen.sh
 
 .include "../../wip/ecore/buildlink3.mk"
 .include "../../devel/eina/buildlink3.mk"

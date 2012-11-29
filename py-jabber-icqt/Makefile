@@ -34,7 +34,10 @@ NO_BUILD=		yes
 
 RCD_SCRIPTS=	pyicqt
 
-PYTHON_PATCH_SCRIPTS+=	PyICQt.py tools/*.py
+PYTHON_PATCH_SCRIPTS+=	PyICQt.py
+PYTHON_PATCH_SCRIPTS+=	tools/infodump.py
+PYTHON_PATCH_SCRIPTS+=	tools/managessi.py
+PYTHON_PATCH_SCRIPTS+=	tools/migrate.py
 
 TRANSPORTDIR=		${JABBER_TRANSDIR}/pyicqt
 

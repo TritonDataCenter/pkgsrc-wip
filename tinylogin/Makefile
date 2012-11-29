@@ -5,7 +5,7 @@ DISTNAME=	tinylogin-1.4
 CATEGORIES=	sysutils
 MASTER_SITES=	http://tinylogin.busybox.net/downloads/
 
-MAINTAINER=	pancake@phreaker.net
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://tinylogin.busybox.net/
 COMMENT=	Suite of tiny Unix utilities for handling logging
 

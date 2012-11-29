@@ -1,7 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	lxappearance-0.3.0
-PKGREVISION=	1
+DISTNAME=	lxappearance-0.5.2
 CATEGORIES=	x11
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=lxde/}
 

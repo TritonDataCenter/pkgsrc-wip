@@ -9,6 +9,7 @@ MAINTAINER=	eric@cirr.com
 HOMEPAGE=	http://code.stanziq.com/palaver
 COMMENT=	XEP-0045 + XEP-0128 Multi-User Conferencing package
 LICENSE=	mit
+BROKEN=		Distfile has disappeared.
 
 #
 # jabberd isn't really a dependency since the transport can run on a

@@ -1,14 +1,14 @@
 # $NetBSD$
 
 CATEGORIES=	graphics math
-MASTER_SITES=	http://www.bioconductor.org/packages/release/bioc/src/contrib/
+MASTER_SITES=	http://www.bioconductor.org/packages/2.10/bioc/src/contrib/
 
 MAINTAINER=	mishka@NetBSD.org
 HOMEPAGE=	http://www.bioconductor.org/packages/release/bioc/html/Rgraphviz.html
 COMMENT=	Plotting capabilities for R graph objects
 
 R_PKGNAME=	Rgraphviz
-R_PKGVER=	1.34.0
+R_PKGVER=	1.34.2
 
 LICENSE=	artistic-2.0
 

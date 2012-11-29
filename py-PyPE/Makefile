@@ -30,7 +30,7 @@ do-install:
 		${DESTDIR}${PREFIX}/${PYSITELIB}/pype/readme.txt
 	${INSTALL_DATA} ${FILESDIR}/__init__.py \
 		${DESTDIR}${PREFIX}/${PYSITELIB}/pype/__init__.py
-	${INSTALL_DATA_DIR} ${DESTDIR}${PREFIX}/bin		
+	${INSTALL_DATA_DIR} ${DESTDIR}${PREFIX}/bin
 	${INSTALL_SCRIPT} ${WRKSRC}/pype.py ${DESTDIR}${PREFIX}/bin/pype.py-${PYVERSSUFFIX}
 
 .include "../../lang/python/application.mk"

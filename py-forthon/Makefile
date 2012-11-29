@@ -3,6 +3,7 @@
 
 DISTNAME=	Forthon-0.8.10
 PKGNAME=        ${PYPKGPREFIX}-forthon-0.8.10
+PKGREVISION=	1
 CATEGORIES=	lang python
 MASTER_SITES=	http://hifweb.lbl.gov/Forthon/
 EXTRACT_SUFX=	.tgz

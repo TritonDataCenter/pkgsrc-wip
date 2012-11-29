@@ -7,7 +7,7 @@ CATEGORIES=	multimedia
 MASTER_SITES=	ftp://ftp.nopcode.org/prj/gdvb/ \
 		http://cvs.nopcode.org/ftp/
 
-MAINTAINER=	pancake@phreaker.net
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.nopcode.org/?t=gdvb
 COMMENT=	DVB channels manager frontend using JavaGTK
 

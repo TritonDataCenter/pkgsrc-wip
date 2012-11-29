@@ -14,7 +14,7 @@ PKG_SUGGESTED_OPTIONS= mysql
 ###
 .if !empty(PKG_OPTIONS:Mmysql)
 .include "../../mk/mysql.buildlink3.mk"
-DEPENDS+= ${PHP_PKG_PREFIX}-mysqli:../../databases/php-mysqli
+DEPENDS+= ${PHP_PKG_PREFIX}-mysqli-[0-9]*:../../databases/php-mysqli
 .endif
 
 ###
@@ -22,7 +22,7 @@ DEPENDS+= ${PHP_PKG_PREFIX}-mysqli:../../databases/php-mysqli
 ###
 .if !empty(PKG_OPTIONS:Mpgsql)
 .include "../../mk/pgsql.buildlink3.mk"
-DEPENDS+= ${PHP_PKG_PREFIX}-pgsql:../../databases/php-pgsql
+DEPENDS+= ${PHP_PKG_PREFIX}-pgsql-[0-9]*:../../databases/php-pgsql
 .endif
 
 ###
@@ -30,12 +30,12 @@ DEPENDS+= ${PHP_PKG_PREFIX}-pgsql:../../databases/php-pgsql
 ###
 .if !empty(PKG_OPTIONS:Msqlite)
 .include "../../databases/sqlite/buildlink3.mk"
-DEPENDS+=	${PHP_PKG_PREFIX}-sqlite:../../databases/php-sqlite
+DEPENDS+=	${PHP_PKG_PREFIX}-sqlite-[0-9]*:../../databases/php-sqlite
 .endif
 
 ###
 ### Oracle backend
 ###
 .if !empty(PKG_OPTIONS:Moracle)
-DEPENDS+=	${PHP_PKG_PREFIX}-oci8:../../databases/php-oci8
+DEPENDS+=	${PHP_PKG_PREFIX}-oci8-[0-9]*:../../databases/php-oci8
 .endif

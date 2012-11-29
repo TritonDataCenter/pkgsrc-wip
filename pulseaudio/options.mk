@@ -28,4 +28,3 @@ PLIST.x11=		yes
 .else
 CONFIGURE_ARGS+=	--disable-x11
 .endif
-

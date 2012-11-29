@@ -7,7 +7,7 @@ CATEGORIES=		comms
 MASTER_SITES=		http://oss.bdit.de/download/
 EXTRACT_SUFX=		.tgz
 
-MAINTAINER=		pancake@phreaker.net
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://oss.bdit.de/opd.html
 COMMENT=		OBEX PUSH daemon
 

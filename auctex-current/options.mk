@@ -7,8 +7,8 @@ PKG_SUGGESTED_OPTIONS=
 .include "../../mk/bsd.options.mk"
 
 .if !empty(PKG_OPTIONS:Mja-ptex)
-DEPENDS+=		ja-ptex:../../print/ja-ptex
+DEPENDS+=		ja-ptex-[0-9]*:../../print/ja-ptex
 .else
-DEPENDS+=		teTeX:../../print/teTeX
+DEPENDS+=		teTeX-[0-9]*:../../print/teTeX
 # tex-latex-bin and tex-graphics ?
 .endif

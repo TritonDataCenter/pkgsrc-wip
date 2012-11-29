@@ -5,7 +5,7 @@ CATEGORIES=	www
 MASTER_SITES=	# empty
 DISTFILES=	# empty
 
-MAINTAINER=	pancake@phreaker.net
+MAINTAINER=	pkgsrc-users@NetBSD.org
 COMMENT=	Firefox binary wrapper
 
 NO_CONFIGURE=	yes

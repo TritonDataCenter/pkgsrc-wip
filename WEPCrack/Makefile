@@ -4,7 +4,7 @@ DISTNAME=		WEPCrack-0.1.0
 CATEGORIES=		security
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=wepcrack/}
 
-MAINTAINER=		pancake@phreaker.net
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://wepcrack.sourceforge.net/
 COMMENT=		Open source tool for breaking 802.11 WEP secret keys
 

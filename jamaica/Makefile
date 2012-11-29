@@ -6,7 +6,7 @@ CATEGORIES=		lang
 MASTER_SITES=		http://www.judoscript.com/store/
 EXTRACT_SUFX=		.zip
 
-MAINTAINER=		pancake@phreaker.net
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://www.judoscript.com/articles/jamaica.html
 COMMENT=		JVM Macro Assembler language
 

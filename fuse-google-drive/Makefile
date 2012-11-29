@@ -4,7 +4,6 @@
 DISTNAME=	fuse-google-drive-0
 CATEGORIES=	filesystems
 MASTER_SITES=	/usr/pkgsrc/distfiles/
-EXTRACT_SUFX=	.tar.gz
 
 MAINTAINER=	bjs@NetBSD.org
 HOMEPAGE=	https://github.com/jcline/fuse-google-drive

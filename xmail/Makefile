@@ -5,7 +5,7 @@ DISTNAME=	xmail-1.18
 CATEGORIES=	mail
 MASTER_SITES=	http://www.xmailserver.com/
 
-MAINTAINER=	pancake@phreaker.net
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.xmailserver.com/
 COMMENT=	SMTP, POP3 and finder server
 

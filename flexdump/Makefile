@@ -6,7 +6,7 @@ PKGREVISION=		1
 CATEGORIES=		sysutils
 MASTER_SITES=		http://flexbackup.sourceforge.net/tarball/
 
-MAINTAINER=		pancake@phreaker.net
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://flexbackup.sourceforge.net/
 COMMENT=		Flexible backup tool
 

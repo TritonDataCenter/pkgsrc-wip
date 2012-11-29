@@ -5,7 +5,7 @@ DISTNAME=	minimalist-2.5.3
 CATEGORIES=	mail
 MASTER_SITES=	http://www.mml.org.ua/LIST/
 
-MAINTAINER=	pancake@phreaker.net
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.mml.org.ua/
 COMMENT=	Minimalistic Mailing Lists Manager
 

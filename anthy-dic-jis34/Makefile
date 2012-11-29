@@ -20,7 +20,7 @@ AUTO_MKDIRS=	YES
 
 INSTALL_FILES=	README COPYING jis3_4.t ChangeLog
 
-DEPENDS+=	anthy:../../inputmethod/anthy
+DEPENDS+=	anthy-[0-9]*:../../inputmethod/anthy
 
 do-install:
 .for file in ${INSTALL_FILES}

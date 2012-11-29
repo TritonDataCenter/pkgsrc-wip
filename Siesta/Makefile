@@ -5,7 +5,7 @@ DISTNAME=	Siesta-0.66
 CATEGORIES=	mail
 MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=../by-authors/id/R/RC/RCLAMP/}
 
-MAINTAINER=	pancake@phreaker.net
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://siesta.unixbeard.net/
 COMMENT=	Siesta Mailing List Manager
 

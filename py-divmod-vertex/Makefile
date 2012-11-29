@@ -8,7 +8,6 @@ CATEGORIES=	python net
 MASTER_SITES=	http://milosn.no-ip.org/files/
 #MASTER_SITES=	ftp://ftp.osuosl.org/pub/nslu2/sources/
 #MASTER_SITES=	http://divmod.org/trac/attachment/wiki/SoftwareReleases/
-EXTRACT_SUFX=	.tar.gz
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://divmod.org/trac/wiki/DivmodVertex

@@ -5,7 +5,7 @@ DISTNAME=		picprog-1.1
 CATEGORIES=		devel
 MASTER_SITES=	http://hyvatti.iki.fi/~jaakko/pic/
 
-MAINTAINER=		pancake@phreaker.net
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://hyvatti.iki.fi/~jaakko/pic/picprog.html
 COMMENT=		PIC16xxx microcontroller programmer for JDM (TE-20)
 

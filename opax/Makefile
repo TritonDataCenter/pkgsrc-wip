@@ -18,4 +18,3 @@ PKG_DESTDIR_SUPPORT=	none
 GNU_CONFIGURE=	YES
 
 .include "../../mk/bsd.pkg.mk"
-

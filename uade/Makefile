@@ -6,7 +6,7 @@ CATEGORIES=		audio
 MASTER_SITES=		http://uade.ton.tut.fi/uade/
 EXTRACT_SUFX=		.tar.bz2
 
-MAINTAINER=		pancake@phreaker.net
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://uade.ton.tut.fi/
 COMMENT=		Unix Amiga Delitracker Emulator
 

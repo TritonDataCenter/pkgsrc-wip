@@ -7,7 +7,7 @@ MASTER_SITES=		http://www.cse.unsw.edu.au/~neilb/source/mdadm/ \
 			http://www.kernel.org/pub/linux/utils/raid/mdadm/
 EXTRACT_SUFX=		.tar.bz2
 
-MAINTAINER=		pancake@phreaker.net
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://www.cse.unsw.edu.au/~neilb/source/mdadm/ANNOUNCE
 COMMENT=		RAID management for Linux systems
 

@@ -5,7 +5,7 @@ DISTNAME=		compare-1.11
 CATEGORIES=		sysutils
 MASTER_SITES=	ftp://ftp.berlios.de/pub/compare/
 
-MAINTAINER=		pancake@phreaker.net
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		ftp://ftp.berlios.de/pub/compare/AN-1.11
 COMMENT=		Fast binary comparision between two files
 

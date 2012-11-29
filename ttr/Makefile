@@ -5,7 +5,7 @@ DISTNAME=		ttr-0.11
 CATEGORIES=		games
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=ttr/}
 
-MAINTAINER=		pancake@phreaker.net
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://ttr.sourceforge.net/
 COMMENT=		Text Text Revolution
 

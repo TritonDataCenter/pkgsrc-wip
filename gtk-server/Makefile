@@ -6,7 +6,7 @@ PKGREVISION=		1
 CATEGORIES=		devel x11
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=gtk-server/}
 
-MAINTAINER=		pancake@phreaker.net
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://www.gtk-server.org/
 COMMENT=		Small tool to enable GUI access for shell scripts
 

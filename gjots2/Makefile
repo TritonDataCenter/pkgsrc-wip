@@ -7,7 +7,7 @@ CATEGORIES=		x11
 MASTER_SITES=		http://bhepple.freeshell.org/gjots/
 EXTRACT_SUFX=		.tgz
 
-MAINTAINER=		pancake@phreaker.net
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://bhepple.freeshell.org/gjots/
 COMMENT=		Jotter application for your Gnome desktop
 

@@ -6,7 +6,7 @@ CATEGORIES=		shells
 MASTER_SITES=		http://www.cr0.net:8040/code/network/
 EXTRACT_SUFX=		.tgz
 
-MAINTAINER=		pancake@phreaker.net
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://www.cr0.net:8040/code/network/
 COMMENT=		Lightweight remote shel wity 128AES and file transfers
 

@@ -9,7 +9,7 @@ EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	pkgsrc.gnome@gmail.com
 #http://andrew.jorgensenfamily.us/2008/08/gnome-keyring-sharp/
-HOMEPAGE=	http://ftp.novell.com/pub/mono/sources/gnome-keyring-sharp/ 
+HOMEPAGE=	http://ftp.novell.com/pub/mono/sources/gnome-keyring-sharp/
 COMMENT=	Mono implementation of libgnome-keyring
 
 GNU_CONFIGURE=	yes

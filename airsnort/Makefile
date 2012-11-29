@@ -6,7 +6,7 @@ PKGREVISION=		1
 CATEGORIES=		net security linux
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=airsnort/}
 
-MAINTAINER=		pancake@phreaker.net
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://airsnort.shmoo.com/
 COMMENT=		WLAN sniffer and realtime WEP cracker
 LICENSE=		gnu-gpl-v2

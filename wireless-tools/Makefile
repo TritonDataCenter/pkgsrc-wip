@@ -6,7 +6,7 @@ PKGNAME=		wireless-tools-27
 CATEGORIES=		net linux
 MASTER_SITES=		http://pcmcia-cs.sourceforge.net/ftp/contrib/
 
-MAINTAINER=		pancake@phreaker.net
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://pcmcia-cs.sourceforge.net/ftp/contrib/
 COMMENT=		Tools for manipulating Linux Wireless Extensions
 

@@ -5,7 +5,7 @@ DISTNAME=		memdump-1.01
 CATEGORIES=		sysutils
 MASTER_SITES=		http://www.porcupine.org/forensics/
 
-MAINTAINER=		pancake@phreaker.net
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://www.porcupine.org/forensics/tct.html
 COMMENT=		Memory dumper for UNIX-like systems
 

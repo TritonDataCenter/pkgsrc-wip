@@ -37,12 +37,16 @@ MAKE_DIRS+=		${PKG_SYSCONFDIR}/nih
 REPLACE_INTERPRETER+=	runawk
 REPLACE.runawk.old=	.*runawk
 REPLACE.runawk.new=	${PREFIX}/bin/runawk
-REPLACE_FILES.runawk=	nih/pkg_update_plan.in nih/cmp2hr.in
+REPLACE_FILES.runawk=	nih/pkg_update_plan.in nih/cmp2hr.in \
+    nih/pkg_create_fake.in nih/analyse_conflicts.in
 
 MAKE_ENV+=		MANDIR=${PREFIX}/${PKGMANDIR}
 MAKE_ENV+=		VERSION=${_GIT_PKGVERSION:S/.//}
 MAKE_ENV+=		PKGSRCDIR=${PKGSRCDIR}
 MAKE_ENV+=		PACKAGES=${PACKAGES}
+MAKE_ENV+=		PKG_DBDIR=${PKG_DBDIR}
+MAKE_ENV+=		REAL_ROOT_USER=${REAL_ROOT_USER}
+MAKE_ENV+=		REAL_ROOT_GROUP=${REAL_ROOT_GROUP}
 
 .include "../../mk/bsd.prefs.mk"
 

@@ -5,7 +5,7 @@ DISTNAME=		pbbuttonsd-0.7.2
 CATEGORIES=		sysutils
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=pbbuttons/}
 
-MAINTAINER=		pancake@phreaker.net
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://pbbuttons.berlios.de/
 COMMENT=		Daemon to handle laptop specific features
 

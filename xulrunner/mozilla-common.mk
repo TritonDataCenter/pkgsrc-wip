@@ -1,7 +1,7 @@
 # $NetBSD: mozilla-common.mk,v 1.7 2009/11/28 17:46:01 tnn Exp $
 #
 # common Makefile fragment for mozilla packages based on gecko 2.0.
-# 
+#
 # used by wip/xulrunner/Makefile
 # used by wip/firefox/Makefile
 

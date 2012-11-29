@@ -5,7 +5,7 @@ DISTNAME=		ccrtp-2.0.3
 CATEGORIES=		net
 MASTER_SITES=		${MASTER_SITE_GNU:=ccrtp/}
 
-MAINTAINER=		pancake@phreaker.net
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://www.gnu.org/software/ccrtp/
 COMMENT=		RTP and RTSP protocol implementation using GNU CommonCpp
 LICENSE=		gnu-gpl-v2

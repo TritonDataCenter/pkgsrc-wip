@@ -5,7 +5,7 @@ DISTNAME=		ethtool-1.6
 CATEGORIES=		net linux
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=gkernel/}
 
-MAINTAINER=		pancake@phreaker.net
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://gkernel.sourceforge.net/
 COMMENT=		Display or change ethernet card settings
 

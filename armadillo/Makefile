@@ -14,9 +14,6 @@ USE_CMAKE=	yes
 
 CMAKE_ARGS+=	-DINSTALL_LIB_DIR=${PREFIX}/lib
 
-#pre-configure:
-	#cp -f ${FILESDIR}/CMakeLists.txt.native-find ${WRKSRC}
-
 .include "../../math/blas/buildlink3.mk"
 .include "../../math/lapack/buildlink3.mk"
 .include "../../devel/boost-libs/buildlink3.mk"

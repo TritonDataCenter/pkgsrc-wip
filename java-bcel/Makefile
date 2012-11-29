@@ -6,7 +6,7 @@ PKGNAME=		java-bcel-5.1
 CATEGORIES=		devel
 MASTER_SITES=	http://apache.rediris.es/jakarta/bcel/binaries/
 
-MAINTAINER=		pancake@phreaker.net
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://jakarta.apache.org/bcel/
 COMMENT=		ByteCode Engineering Library
 

@@ -5,7 +5,7 @@ DISTNAME=		netkit-telnet-0.17
 CATEGORIES=		net
 MASTER_SITES=		ftp://ftp.uk.linux.org/pub/linux/Networking/netkit/
 
-MAINTAINER=		pancake@phreaker.net
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		ftp://ftp.uk.linux.org/pub/linux/Networking/netkit/
 COMMENT=		The telnet and telnetd for Linux
 

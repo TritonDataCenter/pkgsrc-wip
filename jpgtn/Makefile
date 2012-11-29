@@ -6,7 +6,7 @@ PKGREVISION=		1
 CATEGORIES=		graphics
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=jpgtn/}
 
-MAINTAINER=		pancake@phreaker.net
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://jpgtn.sourceforge.net/
 COMMENT=		Thumbnail generator for JPEG images
 

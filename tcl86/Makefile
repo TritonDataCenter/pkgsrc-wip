@@ -45,7 +45,7 @@ CONFIGURE_ARGS+=	--enable-64bit
 
 DESTDIRPREFIX=          ${DESTDIR}${PREFIX}
 
-post-install:	
+post-install:
 	cp ${WRKSRC}/doc/man.macros ${DESTDIRPREFIX:Q}/man/mann
 #	mkdir -p ${DESTDIRPREFIX:Q}/lib/tcl${TCL_PKGSRC_VERSION}
 #	mv ${DESTDIRPREFIX:Q}/lib/tclConfig.sh ${DESTDIRPREFIX:Q}/lib/tcl${TCL_PKGSRC_VERSION}

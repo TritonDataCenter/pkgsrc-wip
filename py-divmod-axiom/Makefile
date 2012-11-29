@@ -6,7 +6,6 @@ PKGNAME=	${PYPKGPREFIX}-divmod-axiom-${AXIOM_VERSION}
 PKGREVISION=	2
 CATEGORIES=	python
 MASTER_SITES=	ftp://ftp.osuosl.org/pub/nslu2/sources/
-EXTRACT_SUFX=	.tar.gz
 
 MAINTAINER=	pkgsrc-wip-users@sourceforge.net
 HOMEPAGE=	http://divmod.org/trac/wiki/DivmodAxiom

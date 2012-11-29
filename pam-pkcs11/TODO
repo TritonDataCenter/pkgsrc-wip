@@ -1,10 +1,8 @@
-Doesn't build on NetBSD-3.0_BETA with the following error:
+A ticket should be filed upstream about the use of bash in scripts,
+either to use /bin/sh if POSIX is sufficient, or to have configure
+search for and replace bash if not.
 
-  checking for pkg-config... /usr/pkg/bin/pkg-config
-  checking for libpcsclite... gnome-config: not found
-  gnome-config: not found
-  configure: WARNING: pcsc-lite not found
-  checking for xsltproc... xsltproc
-  checking for openssl... gnome-config: not found
-  gnome-config: not found
-  configure: error: openssl not found
+The options.mk should have a comment about what the ldap option does.
+
+The pcsc-lite option is now on by default, and it seems that it is
+non-optional.

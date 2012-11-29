@@ -6,7 +6,7 @@ CATEGORIES=		lang
 MASTER_SITES=		http://students.ceid.upatras.gr/~sxanth/lwc/
 EXTRACT_SUFX=		.tar.bz2
 
-MAINTAINER=		pancake@phreaker.net
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://students.ceid.upatras.gr/~sxanth/lwc/
 COMMENT=		Lightweight C++
 

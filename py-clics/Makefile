@@ -20,7 +20,7 @@ USE_PKGLOCALEDIR=	yes
 USE_LANGUAGES=		c c++
 PYDISTUTILSPKG=	yes
 
-INSTALLATION_DIRS=	
+INSTALLATION_DIRS=	# blank
 
 .include "../../lang/python/extension.mk"
 .include "../../x11/py-wxWidgets/buildlink3.mk"

@@ -5,7 +5,7 @@ DISTNAME=		ezstream-0.2.0
 CATEGORIES=		audio
 MASTER_SITES=		http://downloads.us.xiph.org/releases/ezstream/
 
-MAINTAINER=		pancake@phreaker.net
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://downloads.us.xiph.org/releases/ezstream/
 COMMENT=		Streamming client of mp3 and oggvorbis for icecast
 

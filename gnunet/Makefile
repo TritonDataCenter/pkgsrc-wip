@@ -9,7 +9,7 @@ MASTER_SITES=	http://www2.cddc.vt.edu/gnu/ftp/gnu/gnunet/
 # http://www.gnunet.org/download/
 EXTRACT_SUFX=	.tar.bz2
 
-MAINTAINER=	pancake@phreaker.net
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.gnunet.org/
 COMMENT=	Framework for secure P2P networking
 

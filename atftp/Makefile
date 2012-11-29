@@ -7,7 +7,7 @@ CATEGORIES=		net
 MASTER_SITES=		ftp://ftp.mamalinux.com/pub/atftp/ \
 			http://osmirrors.cerias.purdue.edu/pub/gentoo/distfiles/
 
-MAINTAINER=		pancake@phreaker.net
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://freshmeat.net/projects/atftp/
 COMMENT=		Advanced TFTP client and server
 

@@ -16,6 +16,7 @@ NO_CONFIGURE=	yes
 USE_LANGUAGES+=	c
 
 WRKSRC=			${WRKDIR}
+INSTALLATION_DIRS+=	bin
 
 do-build:
 			cd ${WRKSRC} && ${CC} -o ranmacgen macgen.c

@@ -6,7 +6,7 @@ PKGREVISION=   1
 CATEGORIES=		security
 MASTER_SITES=		http://www.secuobs.com/
 
-MAINTAINER=		pancake@phreaker.net
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://www.secuobs.com/
 COMMENT=		Bluetooth Stack Smasher
 

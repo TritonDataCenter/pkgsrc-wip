@@ -7,7 +7,7 @@ MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=moregroupware/}
 DISTFILES=	moregroupware-core-0.7.2${EXTRACT_SUFX} \
 		moregroupware-docs-0.7.2${EXTRACT_SUFX} \
 		moregroupware-addons-0.7.2${EXTRACT_SUFX} \
-		moregroupware-scripts-0.7.2${EXTRACT_SUFX} \
+		moregroupware-scripts-0.7.2${EXTRACT_SUFX}
 
 MAINTAINER=	pih@xbase.dk
 HOMEPAGE=	http://www.moregroupware.de/

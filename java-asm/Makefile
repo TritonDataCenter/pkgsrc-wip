@@ -9,7 +9,7 @@ MASTER_SITES=		http://download.forge.objectweb.org/asm/ \
 				http://download.us.forge.objectweb.org/asm/
 EXTRACT_SUFX=	.zip
 
-MAINTAINER=		pancake@phreaker.net
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://asm.objectweb.org/
 COMMENT=		Java bytecode manipulation framework
 

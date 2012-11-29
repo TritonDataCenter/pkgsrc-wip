@@ -10,8 +10,8 @@ MASTER_SITES=	http://code.stanziq.com/cgit/punjab/punjab/snapshot/
 MAINTAINER=	eric@cirr.com
 HOMEPAGE=	http://code.stanziq.com/punjab
 COMMENT=	HTTP XMMP client interface implementing BOSH/XEP-0124
+BROKEN=		Source tarballs have disappeared.
 
-PKG_DESTDIR_SUPPORT=	none
 #
 # jabberd isn't really a dependency since the transport can run on a
 # different server than the main jabber server (not that many sites will

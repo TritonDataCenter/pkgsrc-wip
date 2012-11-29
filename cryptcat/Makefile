@@ -6,7 +6,7 @@ CATEGORIES=		net security
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=cryptcat/}
 EXTRACT_SUFX=		.tar
 
-MAINTAINER=		pancake@phreaker.net
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://sourceforge.net/projects/cryptcat/
 COMMENT=		Standard netcat enhanced with twofish encryption
 

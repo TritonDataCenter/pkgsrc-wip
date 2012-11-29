@@ -3,6 +3,7 @@
 
 DISTNAME=	lxmlproc-0.1
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
+PKGREVISION=	1	
 CATEGORIES=	textproc
 MASTER_SITES=	https://github.com/downloads/nicferrier/lxmlproc/
 
@@ -14,6 +15,13 @@ LICENSE=	gnu-gpl-v3
 DEPENDS+=	${PYPKGPREFIX}-lxml>=2.3.2:../../textproc/py-lxml
 
 USE_LANGUAGES=	# none
+
+.include "../../mk/bsd.prefs.mk"
+
+# ftp: Unsupported URL scheme `https'
+.if ${OPSYS} == "NetBSD"
+FETCH_USING=		curl
+.endif
 
 PYDISTUTILSPKG=	yes
 PLIST_SUBST+=	PYVERSSUFFIX=${PYVERSSUFFIX}

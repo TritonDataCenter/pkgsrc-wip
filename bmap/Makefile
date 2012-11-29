@@ -5,7 +5,7 @@ DISTNAME=		bmap-1.0.17
 CATEGORIES=		sysutils
 MASTER_SITES=		http://packetstorm.linuxsecurity.com/linux/security/
 
-MAINTAINER=		pancake@phreaker.net
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://packetstorm.linuxsecurity.com/linux/security/
 COMMENT=			Forensic tool to perform low-level operations on ext2 filesystems
 

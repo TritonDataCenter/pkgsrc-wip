@@ -2,6 +2,7 @@
 
 DISTNAME=	Keyboard-0.2.1
 PKGNAME=	deforaos-keyboard-0.2.1
+PKGREVISION=	1
 CATEGORIES=	x11
 MASTER_SITES=	http://www.defora.org/os/download/download/3696/
 
@@ -10,6 +11,8 @@ HOMEPAGE=	http://www.defora.org/
 COMMENT=	DeforaOS desktop virtual keyboard
 
 LICENSE=	gnu-gpl-v3
+
+CONFLICTS+=	gnome-control-center>=2.20.1{,nb*}
 
 USE_TOOLS+=	pkg-config
 USE_TOOLS+=	xgettext

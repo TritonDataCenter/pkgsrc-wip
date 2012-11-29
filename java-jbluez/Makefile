@@ -6,7 +6,7 @@ PKGNAME=		java-${DISTNAME}
 CATEGORIES=		net
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=jbluez/}
 
-MAINTAINER=		pancake@phreaker.net
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://jbluez.sourceforge.net/
 COMMENT=		Java interface for BlueZ stack
 

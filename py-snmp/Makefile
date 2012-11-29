@@ -20,4 +20,3 @@ do-install:
 
 .include "../../lang/python/extension.mk"
 .include "../../mk/bsd.pkg.mk"
-

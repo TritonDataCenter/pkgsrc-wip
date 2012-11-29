@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	pandas-0.3.0
+DISTNAME=	pandas-0.9.0
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	math
 MASTER_SITES=	http://pypi.python.org/packages/source/p/pandas/

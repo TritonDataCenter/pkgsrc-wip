@@ -22,6 +22,9 @@ EMUL_PLATFORMS=		linux-i386
 EMUL_MODULES.linux=	compat x11
 SUSE_VERSION_REQD=	7.3
 
+# Stronger than "prefer" - tsm 5.2.5 does not work with newer suse_*
+SUSE_PREFER=		10.0
+
 NOT_FOR_PLATFORM=	Linux-*-* NetBSD-[0-1]*-*
 
 WRKSRC=			${WRKDIR}

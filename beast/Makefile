@@ -13,7 +13,7 @@ LICENSE=	gnu-lgpl-v3
 
 USE_LANGUAGES=	c c++
 USE_LIBTOOL=	yes
-USE_TOOLS+=	gmake autoconf213 autoconf
+USE_TOOLS+=	gmake autoconf213
 GNU_CONFIGURE=	yes
 
 LDFLAGS+=	${LIBOSSAUDIO}

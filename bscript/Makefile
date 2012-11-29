@@ -5,7 +5,7 @@ DISTNAME=		bscript-0.3
 CATEGORIES=		lang
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=bscript/}
 
-MAINTAINER=		pancake@phreaker.net
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://bscript.sourceforge.net/
 COMMENT=		Portable, fast, lightweight BASIC interpreter
 LICENSE=		gnu-gpl-v2

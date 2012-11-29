@@ -7,7 +7,7 @@ MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=jnlp/}
 EXTRACT_SUFX=		.jar
 VERSION=		0.5
 
-MAINTAINER=		pancake@phreaker.net
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://jnlp.sourceforge.net/
 COMMENT=		Free JNLP implementation
 

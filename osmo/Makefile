@@ -18,12 +18,12 @@ USE_TOOLS=	gmake msgfmt pkg-config
 
 # TODO: consider following?
 #    * Libtar library, version >= 1.2.10
-#    * Libgringotts library, version >= 1.2.1 
+#    * Libgringotts library, version >= 1.2.1
 #    * Libsyncml library, version >= 0.4.0
 
 # workaround problem in po Makefile
 post-build:
-.for m in bg ca cs da de el en_GB es fi fr hu it ja lt nl pl pt ru sv tr uk zh_CN 
+.for m in bg ca cs da de el en_GB es fi fr hu it ja lt nl pl pt ru sv tr uk zh_CN
 	${TOOLS_CMD.msgfmt} -c ${WRKSRC}/po/$m.po -o ${WRKSRC}/po/$m.mo
 .endfor
 

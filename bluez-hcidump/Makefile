@@ -5,7 +5,7 @@ DISTNAME=		bluez-hcidump-1.32
 CATEGORIES=		net
 MASTER_SITES=		http://bluez.sourceforge.net/download/
 
-MAINTAINER=		pancake@phreaker.net
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://www.bluez.org/
 COMMENT=		Bluetooth packet analyzer
 LICENSE=		gnu-gpl-v2

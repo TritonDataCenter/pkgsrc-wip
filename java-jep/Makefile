@@ -6,7 +6,7 @@ PKGNAME=		java-jep-2.24
 CATEGORIES=		math
 MASTER_SITES=		http://www.singularsys.com/download/
 
-MAINTAINER=		pancake@phreaker.net
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://www.singularsys.com/jep/
 COMMENT=		Java Mathematical Expression Parser
 

@@ -6,7 +6,7 @@ PKGNAME=	picasm-1.05
 CATEGORIES=	devel
 MASTER_SITES=	http://hyvatti.iki.fi/~jaakko/pic/
 
-MAINTAINER=	pancake@phreaker.net
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://hyvatti.iki.fi/~jaakko/pic/
 COMMENT=	Assembler for Microchip PIC16Cxx microcontrollers
 

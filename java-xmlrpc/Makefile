@@ -8,7 +8,7 @@ MASTER_SITES=		http://apache.rediris.es/ws/xmlrpc/v1.2-b1/ \
 			http://nagoya.apache.org/mirror/ws/xmlrpc/ \
 			${MASTER_SITE_APACHE:=ws/xmlrpc/}
 
-MAINTAINER=		pancake@phreaker.net
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://ws.apache.org/xmlrpc/
 COMMENT=		Java implementation of XML-RPC
 

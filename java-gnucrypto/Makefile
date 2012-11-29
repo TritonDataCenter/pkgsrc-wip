@@ -7,7 +7,7 @@ CATEGORIES=		security
 MASTER_SITES=		ftp://ftp.gnupg.org/GnuPG/gnu-crypto/
 EXTRACT_SUFX=		.zip
 
-MAINTAINER=		pancake@phreaker.net
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		ftp://ftp.gnupg.org/GnuPG/gnu-crypto/
 COMMENT=		Free cryptographic implementation for Java
 

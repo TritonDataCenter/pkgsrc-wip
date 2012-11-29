@@ -29,7 +29,7 @@ CONFIGURE_ARGS+=	--disable-gcc-opts
 INFO_FILES=		yes
 MAKE_FILE=		makefile
 
-BUILD_TARGET+=		bootstrap all doc 
+BUILD_TARGET+=		bootstrap all doc
 TEST_TARGET=		check
 LDFLAGS += -L${WRKSRC}/lib -L${WRKSRC}/gsi -L${WRKSRC}/gsc
 CHECK_PORTABILITY_SKIP=	prebuilt/*/*
