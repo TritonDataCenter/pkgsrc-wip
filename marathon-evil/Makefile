@@ -6,7 +6,7 @@ MASTER_SITES=	http://files3.bungie.org/trilogy/
 DISTFILES+=	MarathonEvil.zip
 EXTRACT_SUFX=	.zip
 
-MAINTAINER=	christtrekker@users.sourceforge.net
+OWNER=		christtrekker@users.sourceforge.net
 HOMEPAGE=	http://bighouse.bungie.org/evil/
 COMMENT=	Game data for Marathon EVIL scenario, playable with Aleph One
 LICENSE=	cc-by-nc-nd-v3.0
@@ -28,6 +28,8 @@ post-extract:
 	find -d ${WRKDIR} -name CVS -exec rm -rf {} \;
 	find ${WRKDIR} -name .#* -exec rm -rf {} \;
 	${CHMOD} 644 ${WRKDIR}/Marathon\ EVIL/Cursed*
+	${CHMOD} 644 ${WRKDIR}/Marathon\ EVIL/Scripts/*
+	${CHMOD} 644 ${WRKDIR}/Marathon\ EVIL/Themes/Default/*
 
 do-install:
 	#install the docs into doc dir and other files into the Scenarios dir
