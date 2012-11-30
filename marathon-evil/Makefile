@@ -28,6 +28,8 @@ post-extract:
 	find -d ${WRKDIR} -name CVS -exec rm -rf {} \;
 	find ${WRKDIR} -name .#* -exec rm -rf {} \;
 	${CHMOD} 644 ${WRKDIR}/Marathon\ EVIL/Cursed*
+	${CHMOD} 644 ${WRKDIR}/Marathon\ EVIL/Scripts/*
+	${CHMOD} 644 ${WRKDIR}/Marathon\ EVIL/Themes/Default/*
 
 do-install:
 	#install the docs into doc dir and other files into the Scenarios dir

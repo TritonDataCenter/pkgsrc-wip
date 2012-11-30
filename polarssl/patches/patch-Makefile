@@ -1,4 +1,6 @@
 $NetBSD$
+
+Fix DESTDIR for pkgsrc, and suppress building test programs.
 --- Makefile.orig	2012-04-05 07:07:50.000000000 -0500
 +++ Makefile	2012-11-14 23:27:47.000000000 -0600
 @@ -1,37 +1,24 @@

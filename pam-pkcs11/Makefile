@@ -5,7 +5,9 @@ PKGNAME=		pam-pkcs11-0.6.8
 CATEGORIES=		security
 MASTER_SITES=		http://www.opensc-project.org/files/pam_pkcs11/
 
-MAINTAINER=		evaldo@gardenali.biz
+MAINTAINER=		gdt@ir.bbn.com
+# Did not answer mail 2011-11
+#MAINTAINER=		evaldo@gardenali.biz
 HOMEPAGE=		http://www.opensc-project.org/pam_pkcs11/
 COMMENT=		PKCS \#11 authentication method for PAM
 LICENSE=		gnu-lgpl-v2.1

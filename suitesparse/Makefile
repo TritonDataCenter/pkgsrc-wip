@@ -16,20 +16,21 @@ COMMENT=	SuiteSparse is a set of packages for sparse matrices calculation
 # Not sure how to specify 2 licenses, so just listing the stricter one
 LICENSE=	gnu-gpl-v2
 
-.if defined (WITH_METIS)
-# Using buildlink framework instead
-# DEPENDS=	metis>=4.0:../../math/metis
-RESTRICTED=	GPL and METIS licenses are contradictory
-.endif
-
 .include "../../mk/bsd.prefs.mk"
 
-CFLAGS+=	${PTHREAD_CFLAGS}
+CFLAGS+=	-O ${PTHREAD_CFLAGS} ${PICFLAG}
 
 .if ( ${MACHINE_ARCH} == "sparc" ) || ( ${MACHINE_ARCH} == "powerpc" )
 PICFLAG?=       -fPIC
 .else
 PICFLAG?=       -fpic
+.endif
+
+# Platforms without librt
+.if ${OPSYS} == "Darwin"
+LIB=		-lm
+.else
+LIB=		-lm -lrt
 .endif
 
 BLAS=		-lblas
@@ -59,8 +60,21 @@ CHOLMOD_CONFIG =	-DNPARTITION
 AUTO_MKDIRS=		yes
 INSTALLATION_DIRS=	include/suitesparse lib
 
+# Non-standard variables used by SuiteSparse Makefiles
+MAKE_FLAGS+=	BLAS="${LDFLAGS} ${BLAS}" \
+		CHOLMOD_CONFIG="${CHOLMOD_CONFIG}" \
+		CPLUSPLUS="${CXX}" \
+		CF="${CFLAGS} ${CXXFLAGS}" \
+		F77FLAGS="${FFLAGS} ${PICFLAG}" \
+		LAPACK="${LDFLAGS} ${LAPACK}" \
+		METIS="${METIS}" \
+		METIS_PATH="${METIS_PATH}" \
+		SPQR_CONFIG="${CHOLMOD_CONFIG}" \
+		LIB="${LIB}"
+
 post-patch:
-	${FIND} ${WRKSRC} -type f \( -name 'Makefile' -o -name '*.mk' \) \
+	${CP} ${FILESDIR}/SuiteSparse_config.mk ${WRKSRC}/SuiteSparse_config
+#	${FIND} ${WRKSRC} -type f \( -name 'Makefile' -o -name '*.mk' \) \
 		-exec gsed -i'.bak' -e '\|^AR =|s|ar|${AR}|' \
 			-e '\|^BLAS =|s|=.*|= ${LDFLAGS} ${BLAS}|' \
 			-e '\|^CC =|d' \
@@ -80,10 +94,10 @@ post-patch:
 
 do-build:
 	cd ${WRKSRC} ; ${SETENV} ${MAKE_ENV} PICFLAG= \
-		${GMAKE} ${_MAKE_JOBS} ${MAKE_ARGS}
+		${GMAKE} ${_MAKE_JOBS} ${MAKE_FLAGS}
 
 #	cd ${WRKSRC_SHARED} ; ${SETENV} ${MAKE_ENV} PICFLAG=${PICFLAG} \
-#		${GMAKE} ${_MAKE_JOBS} ${MAKE_ARGS}
+#		${GMAKE} ${_MAKE_JOBS} ${MAKE_FLAGS}
 
 # OS X ld does not support -Bshareable or --whole-archive
 # Find a portable way to add sonames
@@ -114,7 +128,5 @@ do-install:
 
 .include "../../math/blas/buildlink3.mk"
 .include "../../math/lapack/buildlink3.mk"
-.if defined (WITH_METIS)
 .include "../../wip/metis/buildlink3.mk"
-.endif
 .include "../../mk/bsd.pkg.mk"
