@@ -1,10 +1,9 @@
 # $NetBSD$
 #
 
-DISTNAME=	clipit-1.4.1
+DISTNAME=	clipit-1.4.2
 CATEGORIES=	x11
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=gtkclipit/}
-PKGREVISION=	1
 
 MAINTAINER=	khorben@defora.org
 HOMEPAGE=	http://clipit.rspwn.com/
