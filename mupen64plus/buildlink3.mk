@@ -12,7 +12,7 @@ pkgbase := mupen64plus
 .include "../../mk/pkg-build-options.mk"
 
 .if !empty(PKG_BUILD_OPTIONS.mupen64plus:Mlirc)
-.include "../../wip/lirc/buildlink3.mk"
+.include "../../comms/lirc/buildlink3.mk"
 .endif
 
 .if !empty(PKG_BUILD_OPTIONS.mupen64plus:Msamplerate)
