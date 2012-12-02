@@ -338,7 +338,6 @@ SUBDIR+=	compiz-gnome-current
 SUBDIR+=	converttomp3
 SUBDIR+=	cops
 SUBDIR+=	copytape
-SUBDIR+=	coq
 SUBDIR+=	couchdb-glib
 SUBDIR+=	courierpassd
 SUBDIR+=	coxeter
