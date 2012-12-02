@@ -1540,7 +1540,6 @@ SUBDIR+=	mashpodder
 SUBDIR+=	matanza
 SUBDIR+=	mathopd
 SUBDIR+=	matiec
-SUBDIR+=	mawk
 SUBDIR+=	mawk-libc
 SUBDIR+=	mawk-onig
 SUBDIR+=	mawk-rxspencer
