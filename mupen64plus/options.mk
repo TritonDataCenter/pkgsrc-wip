@@ -11,7 +11,7 @@ CFLAGS+=	-DDEBUG=1
 .endif
 
 .if !empty(PKG_OPTIONS:Mlirc)
-.include "../../wip/lirc/buildlink3.mk"
+.include "../../comms/lirc/buildlink3.mk"
 CFLAGS+=	-DLIRC=1
 .endif
 
