@@ -1481,7 +1481,6 @@ SUBDIR+=	linuxdcpp
 SUBDIR+=	linuxigd
 SUBDIR+=	linuxigd-current
 SUBDIR+=	linuxtv-dvb-apps
-SUBDIR+=	lirc
 SUBDIR+=	lire
 SUBDIR+=	lissac
 SUBDIR+=	lives
