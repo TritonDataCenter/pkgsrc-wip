@@ -451,6 +451,7 @@ SUBDIR+=	djplay
 SUBDIR+=	djview4
 SUBDIR+=	dk-milter
 SUBDIR+=	dlpoly-classic
+SUBDIR+=	dmapd
 SUBDIR+=	dmd
 SUBDIR+=	dmd-bin
 SUBDIR+=	dmt-ux
