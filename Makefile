@@ -3383,6 +3383,7 @@ SUBDIR+=	yajl
 SUBDIR+=	yakuake
 SUBDIR+=	yaml-mode
 SUBDIR+=	yauap
+SUBDIR+=	yaupspe
 SUBDIR+=	yelp-tools
 SUBDIR+=	yersinia
 SUBDIR+=	yi
