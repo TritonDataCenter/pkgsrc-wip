@@ -1,0 +1,5 @@
+@comment $NetBSD$
+${PERL5_SUB_INSTALLVENDORLIB}/Mail/DeliveryStatus/BounceParser.pm
+${PERL5_SUB_INSTALLVENDORLIB}/Mail/DeliveryStatus/Report.pm
+${PERL5_SUB_INSTALLVENDORARCH}/auto/Mail/DeliveryStatus/BounceParser/.packlist
+${PERL5_SUB_INSTALLVENDORMAN3DIR}/Mail::DeliveryStatus::BounceParser.3
