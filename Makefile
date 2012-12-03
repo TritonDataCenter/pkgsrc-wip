@@ -2036,6 +2036,7 @@ SUBDIR+=	p5-XML-DT
 SUBDIR+=	p5-XML-DTDParser
 SUBDIR+=	p5-XML-RSS-LibXML
 SUBDIR+=	p5-XML-Writer-Simple
+SUBDIR+=	p5-accessors-fast
 SUBDIR+=	p5-biblatex-biber
 SUBDIR+=	p5-constant-def
 SUBDIR+=	p5-mozldap
