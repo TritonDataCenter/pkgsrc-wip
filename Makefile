@@ -1959,6 +1959,7 @@ SUBDIR+=	p5-Log-Dispatch-Array
 SUBDIR+=	p5-MKDoc-XML
 SUBDIR+=	p5-MMapDB
 SUBDIR+=	p5-MasonX-Apache2Handler
+SUBDIR+=	p5-Math-Complex
 SUBDIR+=	p5-Math-FixedPrecision
 SUBDIR+=	p5-Math-Gauss
 SUBDIR+=	p5-Math-IntervalSearch
