@@ -2832,6 +2832,7 @@ SUBDIR+=	ruby-trollop
 SUBDIR+=	ruby-xmpp4r
 SUBDIR+=	ruby-yaml_waml
 SUBDIR+=	runit
+SUBDIR+=	rygel
 SUBDIR+=	s3cmd
 SUBDIR+=	s3funnel
 SUBDIR+=	samba
