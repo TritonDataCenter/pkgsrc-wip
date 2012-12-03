@@ -1,3 +1,4 @@
 @comment $NetBSD$
 bin/apstget
 libexec/apstget-wrapper
+share/examples/apstget/apstget.conf
