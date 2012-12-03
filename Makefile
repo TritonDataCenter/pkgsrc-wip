@@ -1920,6 +1920,7 @@ SUBDIR+=	p5-Encode-compat
 SUBDIR+=	p5-Exception-Base
 SUBDIR+=	p5-Exception-Class-TryCatch
 SUBDIR+=	p5-Exporter-Tidy
+SUBDIR+=	p5-File-Binary
 SUBDIR+=	p5-File-Map
 SUBDIR+=	p5-File-ShareDir-Install
 SUBDIR+=	p5-Frontier-RPC
