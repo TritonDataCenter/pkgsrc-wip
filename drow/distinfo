@@ -3,3 +3,5 @@ $NetBSD$
 SHA1 (drow-0.2.22.tar.gz) = cbee9e54836e65b755f178105bda36674ab04d94
 RMD160 (drow-0.2.22.tar.gz) = 57cc2607c476efd8f826c7be728653fd87d42e17
 Size (drow-0.2.22.tar.gz) = 27876 bytes
+SHA1 (patch-Makefile.in) = 4657c3cc3df98c96d9203b774f62e13f4c57ba15
+SHA1 (patch-drow.c) = 6920d8e0e6b6c6064d40eb2a775e0774f084404b
