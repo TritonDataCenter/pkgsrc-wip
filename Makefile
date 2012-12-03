@@ -1935,6 +1935,7 @@ SUBDIR+=	p5-HTTP-BrowserDetect
 SUBDIR+=	p5-Hash-AsObject
 SUBDIR+=	p5-IO-Lambda
 SUBDIR+=	p5-IO-Socket-Socks
+SUBDIR+=	p5-IPC-Cache
 SUBDIR+=	p5-Image-EXIF
 SUBDIR+=	p5-Imager
 SUBDIR+=	p5-JavaScript-SpiderMonkey
