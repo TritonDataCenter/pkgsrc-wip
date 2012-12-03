@@ -86,6 +86,6 @@ do-install:
 	fi
 # install doco too!
 
-DEPENDS+=	urbanrenewal-ttf:../../fonts/urbanrenewal-ttf
+DEPENDS+=	urbanrenewal-ttf-[0-9]*:../../fonts/urbanrenewal-ttf
 # url2pkg-marker (please do not remove this line.)
 .include "../../mk/bsd.pkg.mk"
