@@ -1,5 +1,7 @@
 $NetBSD$
 
+Add NetBSD support.
+
 --- makedefs.orig	Wed Aug 31 01:03:40 2005
 +++ makedefs	Tue Sep  6 11:57:49 2005
 @@ -14,6 +14,8 @@ case "$SYSTEM.$RELEASE" in
