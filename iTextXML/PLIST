@@ -1,2 +1,2 @@
 @comment $NetBSD$
-lib/iTextXML.jar
+lib/java/xmlworker-1.2.1.jar

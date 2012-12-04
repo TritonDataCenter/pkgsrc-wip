@@ -1,6 +1,8 @@
 ===========================================================================
 $NetBSD$
 
-	Add ${PREFIX}/lib/iTextXML.jar to your CLASSPATH environ
+	Add:
+		${PREFIX}/lib/java/${DN}.jar
+	to your CLASSPATH environ.
 
 ===========================================================================
