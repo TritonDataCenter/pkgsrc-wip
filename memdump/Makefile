@@ -8,7 +8,7 @@ MASTER_SITES=	http://www.porcupine.org/forensics/
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.porcupine.org/forensics/tct.html
 COMMENT=	Memory dumper for UNIX-like systems
-#LICENSE=	# XXX IBM Public License -> ${WRKSRC}/LICENSE
+LICENSE=	postfix-license
 
 USE_TOOLS+=		gmake
 BUILD_TARGET=		what
