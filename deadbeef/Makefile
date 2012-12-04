@@ -34,7 +34,7 @@ BUILD_DEPENDS+=	yasm-[0-9]*:../../devel/yasm
 .include "../../devel/gettext-lib/buildlink3.mk"
 .include "../../devel/glib2/buildlink3.mk"
 .include "../../misc/libcdio/buildlink3.mk"
-.include "../../multimedia/ffmpeg/buildlink3.mk"
+.include "../../multimedia/ffmpeg010/buildlink3.mk"
 .include "../../sysutils/dbus/buildlink3.mk"
 .include "../../www/curl/buildlink3.mk"
 .include "../../x11/gtk2/buildlink3.mk"
