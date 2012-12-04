@@ -16,6 +16,9 @@ USE_LANGUAGES+=		c c++ fortran
 USE_TOOLS+=		aclocal autoconf automake gmake gsed pkg-config
 CONFIGURE_ARGS+=	--without-gcj-compile
 
+PKGCONFIG_OVERRIDE+=	glib-java-uninstalled.pc.in
+PKGCONFIG_OVERRIDE+=	glib-java.pc.in
+
 .include "../../devel/glib2/buildlink3.mk"
 .include "../../wip/mk/java-app.mk"
 .include "../../mk/bsd.pkg.mk"
