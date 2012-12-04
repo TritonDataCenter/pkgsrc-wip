@@ -1,6 +1,8 @@
 ===========================================================================
 $NetBSD$
 
-	Add ${PREFIX}/lib/iText.jar to your CLASSPATH environ
+	Add:
+		${PREFIX}/lib/java/lib/java/itextpdf-${PKGV_NR}jar
+	to your CLASSPATH environ.
 
 ===========================================================================
