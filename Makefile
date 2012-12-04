@@ -1183,6 +1183,7 @@ SUBDIR+=	java-getopt
 SUBDIR+=	java-gnucrypto
 SUBDIR+=	java-gnujaf
 SUBDIR+=	java-gnujaxp
+SUBDIR+=	java-iText-RUPS
 SUBDIR+=	java-jbluez
 SUBDIR+=	java-jep
 SUBDIR+=	java-jlayer
