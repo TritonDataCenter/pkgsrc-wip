@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	libuna-alpha-20120630
-PKGNAME=	${DISTNAME:S/lpha-//1}
+PKGNAME=	${DISTNAME:S/alpha-//1}
 CATEGORIES=	converters
 MASTER_SITES=	http://libuna.googlecode.com/files/
 

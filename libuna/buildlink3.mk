@@ -5,7 +5,7 @@ BUILDLINK_TREE+=	libuna
 .if !defined(LIBUNA_BUILDLINK3_MK)
 LIBUNA_BUILDLINK3_MK:=
 
-BUILDLINK_API_DEPENDS.libuna+=	libuna>=a20120630
+BUILDLINK_API_DEPENDS.libuna+=	libuna>=20120630
 BUILDLINK_PKGSRCDIR.libuna?=	../../wip/libuna
 
 pkgbase := libuna
