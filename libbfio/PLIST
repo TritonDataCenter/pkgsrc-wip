@@ -1,0 +1,11 @@
+@comment $NetBSD$
+include/libbfio.h
+include/libbfio/codepage.h
+include/libbfio/definitions.h
+include/libbfio/error.h
+include/libbfio/extern.h
+include/libbfio/features.h
+include/libbfio/types.h
+lib/libbfio.la
+lib/pkgconfig/libbfio.pc
+man/man3/libbfio.3
