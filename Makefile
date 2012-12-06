@@ -2616,6 +2616,7 @@ SUBDIR+=	py-selenium
 SUBDIR+=	py-sempy
 SUBDIR+=	py-setupdocs
 SUBDIR+=	py-setuptools_git
+SUBDIR+=	py-serial
 SUBDIR+=	py-sexy
 SUBDIR+=	py-sfepy
 SUBDIR+=	py-shapely
