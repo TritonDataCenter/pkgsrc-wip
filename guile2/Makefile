@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	guile-2.0.5
+DISTNAME=	guile-2.0.7
 CATEGORIES=	lang
 MASTER_SITES=	ftp://ftp.gnu.org/gnu/guile/
 
@@ -14,6 +14,9 @@ GNU_CONFIGURE=	yes
 USE_TOOLS+=	pkg-config
 
 PKGCONFIG_OVERRIDE+=	meta/guile-2.0.pc.in
+
+CONFIGURE_ARGS+=	--with-threads=no
+#.include "../../mk/pthread.buildlink3.mk"
 
 .include "../../devel/libltdl/buildlink3.mk"
 .include "../../devel/gettext-lib/buildlink3.mk"
