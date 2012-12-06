@@ -1441,7 +1441,6 @@ SUBDIR+=	libtlen2
 SUBDIR+=	libtogl
 SUBDIR+=	libtorrent-rasterbar
 SUBDIR+=	libuna
-SUBDIR+=	libunistring
 SUBDIR+=	libuuid
 SUBDIR+=	libvalhalla
 SUBDIR+=	libvc
