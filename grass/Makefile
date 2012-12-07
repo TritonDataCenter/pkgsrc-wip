@@ -13,7 +13,7 @@ PKG_DESTDIR_SUPPORT=	none
 
 USE_LANGUAGES=		c c++
 USE_PKGLOCALEDIR=	yes
-USE_TOOLS+=		autoconf bash gm4 gmake perl
+USE_TOOLS+=		autoconf bash gm4 gmake perl pkg-config
 USE_X11=		yes
 GNU_CONFIGURE=		yes
 
