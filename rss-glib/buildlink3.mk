@@ -11,7 +11,7 @@ BUILDLINK_PKGSRCDIR.rss-glib?=	../../wip/rss-glib
 
 
 .include "../../devel/glib2/buildlink3.mk"
-.include "../../wip/libmrss/buildlink3.mk"
+.include "../../www/libmrss/buildlink3.mk"
 .endif	# RSS_GLIB_BUILDLINK3_MK
 
 BUILDLINK_TREE+=	-rss-glib
