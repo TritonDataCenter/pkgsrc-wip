@@ -1,0 +1,9 @@
+@comment $NetBSD$
+include/libcerror.h
+include/libcerror/definitions.h
+include/libcerror/extern.h
+include/libcerror/features.h
+include/libcerror/types.h
+lib/libcerror.la
+lib/pkgconfig/libcerror.pc
+man/man3/libcerror.3
