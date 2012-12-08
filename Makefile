@@ -1342,6 +1342,7 @@ SUBDIR+=	libbfio
 SUBDIR+=	libbrahe
 SUBDIR+=	libbtctl
 SUBDIR+=	libburn
+SUBDIR+=	libcerror
 SUBDIR+=	libcli
 SUBDIR+=	libcm
 SUBDIR+=	libcmis
