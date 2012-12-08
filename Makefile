@@ -1403,7 +1403,6 @@ SUBDIR+=	liblingoteach
 SUBDIR+=	liblo
 SUBDIR+=	liblognorm
 SUBDIR+=	libmpg123
-SUBDIR+=	libmrss
 SUBDIR+=	libmusclecard
 SUBDIR+=	libncl
 SUBDIR+=	libnestedsums
