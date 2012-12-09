@@ -12,7 +12,7 @@ HOMEPAGE=	http://wmc2d.sourceforge.net/
 COMMENT=	Dockapp to monitor coretemp temperature and cpufreq frequency
 LICENSE=	gnu-agpl-v3
 
-USE_TOOLS+=		gmake
+USE_TOOLS+=		gmake pkg-config
 INSTALLATION_DIRS+=	bin ${PKGMANDIR}/man1
 
 WRKSRC=			${WRKDIR}/wmc2d
