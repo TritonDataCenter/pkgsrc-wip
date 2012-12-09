@@ -2349,7 +2349,6 @@ SUBDIR+=	py-django-gitrevision
 SUBDIR+=	py-django-helmholtz
 SUBDIR+=	py-django-nose
 SUBDIR+=	py-django-quran
-SUBDIR+=	py-django-tagging
 SUBDIR+=	py-django-uuidfield
 SUBDIR+=	py-djangopypi2
 SUBDIR+=	py-djvulibre

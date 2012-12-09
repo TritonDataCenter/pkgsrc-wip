@@ -1,9 +1,8 @@
 # $NetBSD$
-#
 
 DISTNAME=	graphite-web-0.9.10
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
-PKGREVISION=	1
+PKGREVISION=	2
 CATEGORIES=	www
 MASTER_SITES=	http://launchpadlibrarian.net/106575888/
 
@@ -15,7 +14,7 @@ LICENSE=	apache-2.0
 DEPENDS+=	${PYPKGPREFIX}-cairo>=1.8.10:../../graphics/py-cairo
 DEPENDS+=	${PYPKGPREFIX}-carbon>=${PKGREVISION_NOREV}:../../wip/py-carbon
 DEPENDS+=	${PYPKGPREFIX}-django>=1.3.1:../../www/py-django
-DEPENDS+=	${PYPKGPREFIX}-django-tagging>=0.3.1:../../wip/py-django-tagging
+DEPENDS+=	${PYPKGPREFIX}-django-tagging>=0.3.1:../../www/py-django-tagging
 
 USE_LANGUAGES=	# none
 
