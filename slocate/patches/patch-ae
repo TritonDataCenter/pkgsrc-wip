@@ -1,5 +1,7 @@
 $NetBSD$
 
+Remove this block if FNM_CASEFOLD is not set.
+
 --- src/utils.c.orig	2007-11-17 13:22:15.000000000 +0100
 +++ src/utils.c
 @@ -139,6 +139,7 @@ int match(struct g_data_s *g_data, char 

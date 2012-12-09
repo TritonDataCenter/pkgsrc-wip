@@ -1,5 +1,7 @@
 $NetBSD$
 
+Don't hardcode CFLAGS or CC.
+
 --- src/Makefile.orig	2007-11-17 13:35:02.000000000 +0100
 +++ src/Makefile
 @@ -1,13 +1,13 @@
