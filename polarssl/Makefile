@@ -19,8 +19,4 @@ REPLACE_PERL=		tests/scripts/*.pl
 USE_LANGUAGES=		c
 TEST_TARGET=		check
 
-.if defined(PKGSRC_RUN_TEST) && !empty(PKGSRC_RUN_TEST:M[Yy][Ee][Ss])
-#TODO later
-.endif
-
 .include "../../mk/bsd.pkg.mk"
