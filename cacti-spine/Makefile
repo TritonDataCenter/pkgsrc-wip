@@ -36,7 +36,7 @@ AUTO_MKDIRS=	yes
 
 SUBST_CLASSES+=			version
 SUBST_STAGE.version=	pre-build
-SUBST_MESSAGES.version=	Substituting version numbers.
+SUBST_MESSAGE.version=	Substituting version numbers.
 SUBST_FILES.version=	${WRKDIR}/spine.1
 SUBST_VARS.version=		VERSION
 
