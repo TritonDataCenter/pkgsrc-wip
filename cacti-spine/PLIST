@@ -1,5 +1,6 @@
 @comment $NetBSD$
 bin/spine
+man/man1/spine.1
 share/doc/cacti-spine/AUTHORS
 share/doc/cacti-spine/COPYING
 share/doc/cacti-spine/ChangeLog
