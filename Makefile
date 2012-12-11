@@ -2198,7 +2198,6 @@ SUBDIR+=	pngnq
 SUBDIR+=	pnmcurve
 SUBDIR+=	pointfree
 SUBDIR+=	pointless
-SUBDIR+=	polarssl
 SUBDIR+=	polipo
 SUBDIR+=	polylib
 SUBDIR+=	polymul
