@@ -1762,6 +1762,7 @@ SUBDIR+=	notmuch
 SUBDIR+=	nsc2ke
 SUBDIR+=	nsd4-svn
 SUBDIR+=	nsp
+SUBDIR+=	nss-pam-ldapd
 SUBDIR+=	nullpop
 SUBDIR+=	nuppelvideo
 SUBDIR+=	nuttcp
