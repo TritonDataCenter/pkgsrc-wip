@@ -13,7 +13,7 @@ LICENSE=	cc-by-nc-nd-v3.0
 
 # There is no true dependency on Aleph One.  These scenarios cannot be
 # played without it, though.
-#DEPENDS+=	:../../games/alephone
+#DEPENDS+=	alephone-[0-9]*:../../games/alephone
 
 .include "../../games/alephone/scenario.mk"
 INSTALLATION_DIRS=	${SCENARIO_BASE}/Evil ${SCENARIO_BASE}/Evil/Scripts ${SCENARIO_BASE}/Evil/Themes
