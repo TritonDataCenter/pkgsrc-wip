@@ -8,6 +8,11 @@ PKG_SUGGESTED_OPTIONS=	bdb spf
 
 PLIST_VARS+=		${PKG_SUPPORTED_OPTIONS}
 
+# The use of db method is selected by config file; multiple methods
+# can be compiled in.  There is a builtin (non-option) memdb, which is
+# not persistent across processes, so no database option is a plausible
+# configuration.
+
 # bdb
 .if !empty(PKG_OPTIONS:Mbdb)
 CONFIGURE_ARGS+=	--with-bdb
