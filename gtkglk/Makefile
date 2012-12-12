@@ -6,7 +6,7 @@ PKGREVISION=	2
 CATEGORIES=	games
 MASTER_SITES=	${MASTER_SITE_IFARCHIVE:=programming/glk/implementations/}
 
-MAINTAINER=	dillo@NetBSD.org
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.ifarchive.org/indexes/if-archiveXprogrammingXglkXimplementations.html
 COMMENT=	Gtk+ 2 port of Glk interface for text adventures
 

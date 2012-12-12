@@ -7,7 +7,7 @@ CATEGORIES=		games
 MASTER_SITES=		http://diden.net/if/git/releases/
 EXTRACT_SUFX=		.zip
 
-MAINTAINER=		dillo@NetBSD.org
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://diden.net/if/git/
 COMMENT=		Interpreter for Glulx interactive fiction
 

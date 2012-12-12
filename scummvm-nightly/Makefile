@@ -3,7 +3,7 @@
 DISTNAME=	scummvm-${SCM_VER}
 CATEGORIES=	games
 
-OWNER=		dillo@NetBSD.org
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://scummvm.sourceforge.net/
 COMMENT=	LucasArts Script Creation Utility for Maniac Mansion
 LICENSE=	gnu-gpl-v2

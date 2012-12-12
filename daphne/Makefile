@@ -7,7 +7,7 @@ CATEGORIES=		emulators
 MASTER_SITES=		http://daphne.rulecity.com/download/
 MASTER_SITES+=		http://daphne.rulecity.com/download/old/
 
-MAINTAINER=		dillo@NetBSD.org
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://www.daphne-emu.com/site3/
 COMMENT=		Emulator for Laserdisc arcade games
 
