@@ -1531,7 +1531,6 @@ SUBDIR+=	manatee
 SUBDIR+=	manifold
 SUBDIR+=	map-browse
 SUBDIR+=	mapnik
-SUBDIR+=	marathon-evil
 SUBDIR+=	marathon-scenarios
 SUBDIR+=	marathon-tempus-irae
 SUBDIR+=	marsyas
