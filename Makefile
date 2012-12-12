@@ -604,7 +604,6 @@ SUBDIR+=	firefox-bin
 SUBDIR+=	firefox-wrapper
 SUBDIR+=	firefox3-bin
 SUBDIR+=	firehose
-SUBDIR+=	fish
 SUBDIR+=	flam3-svn
 SUBDIR+=	flasm
 SUBDIR+=	flc
