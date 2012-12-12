@@ -10,8 +10,6 @@ HOMEPAGE=	http://sourceforge.net/projects/slocate/
 COMMENT=	Secure Locate
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	destdir
-
 NO_CONFIGURE=	YES
 USE_TOOLS+=	gmake
 
