@@ -27,5 +27,4 @@ CHECK_PORTABILITY_SKIP=	razorqt-session/razor-session/resources/xdg-screensaver
 .include "../../x11/qt4-qdbus/buildlink3.mk"
 .include "../../x11/qt4-tools/buildlink3.mk"
 .include "../../x11/xscreensaver/buildlink3.mk"
-# url2pkg-marker (please do not remove this line.)
 .include "../../mk/bsd.pkg.mk"
