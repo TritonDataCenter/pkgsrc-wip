@@ -2768,7 +2768,6 @@ SUBDIR+=	raster3d
 SUBDIR+=	ratpoints
 SUBDIR+=	ratproxy
 SUBDIR+=	rawphoto
-SUBDIR+=	razor-qt
 SUBDIR+=	rc.d.Interix
 SUBDIR+=	rc.subr
 SUBDIR+=	rdup
