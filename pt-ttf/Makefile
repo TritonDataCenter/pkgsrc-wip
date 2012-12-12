@@ -1,7 +1,9 @@
 # $NetBSD$
 #
 
-DISTNAME=	pt-ttf-2.004.20120328
+PT_TTF_REV=	20121212
+DISTNAME=	pt-ttf-2.004.${PT_TTF_REV}	# as derived from TTF files
+DIST_SUBDIR=	pt-ttf-${PT_TTF_REV}
 CATEGORIES=	fonts
 MASTER_SITES=	http://www.fontstock.com/public/
 DISTFILES=	PTSansOFL.zip PTSerifOFL.zip PTMonoOFL.zip
