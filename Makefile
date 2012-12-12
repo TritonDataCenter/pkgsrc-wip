@@ -2911,7 +2911,6 @@ SUBDIR+=	sleuthkit.dev
 SUBDIR+=	slideml
 SUBDIR+=	slim
 SUBDIR+=	slime
-SUBDIR+=	slocate
 SUBDIR+=	sloccount
 SUBDIR+=	slrn-devel
 SUBDIR+=	slrn-pl
