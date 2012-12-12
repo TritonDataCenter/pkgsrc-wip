@@ -9,7 +9,7 @@ EXTRACT_SUFX=	.zip
 MAINTAINER=	christtrekker@users.sourceforge.net
 HOMEPAGE=	http://bighouse.bungie.org/evil/
 COMMENT=	Game data for Marathon EVIL scenario, playable with Aleph One
-LICENSE=	cc-by-nc-nd-v3.0
+LICENSE=	cc-by-nc-nd-v3.0-license
 
 # There is no true dependency on Aleph One.  These scenarios cannot be
 # played without it, though.
