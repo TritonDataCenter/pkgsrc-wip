@@ -1,5 +1,5 @@
 @comment $NetBSD$
-lib/libnss_ldap.so.2
+lib/nss_ldap.so.1
 man/man5/nslcd.conf.5
 man/man8/nslcd.8
 man/man8/pam_ldap.8
