@@ -1,8 +1,8 @@
 $NetBSD$
 
---- run_autoconfig.orig	2006-04-26 22:22:03.000000000 +0300
-+++ run_autoconfig
-@@ -90,8 +90,15 @@ if [ "x$autoconf_version" != "x$autohead
+--- src/run_autoconfig.orig	2012-07-19 06:42:53.000000000 +0000
++++ src/run_autoconfig
+@@ -112,8 +112,15 @@ if [ "x$autoconf_version" != "x$autohead
  else :; fi
  
  IFS=''
