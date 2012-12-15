@@ -12,8 +12,6 @@ HOMEPAGE=	http://agile.hepforge.org/
 COMMENT=	Interface for a variety of Fortran-based Monte Carlo generators
 LICENSE=	gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_TOOLS+=	bash:run
