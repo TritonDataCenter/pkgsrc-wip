@@ -10,8 +10,6 @@ HOMEPAGE=	http://www.freefem.org/ff++/
 COMMENT=	PDE oriented language using Finite Element Method
 LICENSE=	gnu-lgpl-v2.1
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_TOOLS+=	bison perl
 USE_LANGUAGES=	c c++ fortran

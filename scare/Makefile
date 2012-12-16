@@ -6,7 +6,7 @@ CATEGORIES=		games
 MASTER_SITES=		http://www.geocities.com/legion_if/
 EXTRACT_SUFX=		.zip
 
-MAINTAINER=		dillo@NetBSD.org
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://www.geocities.com/legion_if/scare.html
 COMMENT=		Interpreter for interactive fiction written in Adrift
 

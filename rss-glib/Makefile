@@ -25,5 +25,5 @@ PLIST_SRC+=		PLIST
 
 .include "../../devel/glib2/buildlink3.mk"
 .include "../../textproc/gtk-doc/buildlink3.mk"
-.include "../../wip/libmrss/buildlink3.mk"
+.include "../../www/libmrss/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

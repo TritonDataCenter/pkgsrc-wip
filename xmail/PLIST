@@ -1,0 +1,9 @@
+@comment $NetBSD$
+libexec/xmail/CtrlClnt
+libexec/xmail/MkUsers
+libexec/xmail/XMCrypt
+libexec/xmail/XMail
+sbin/sendmail.xmail
+sbin/sendmail.xmail.sh
+share/doc/xmail/Readme.html
+share/doc/xmail/Readme.txt

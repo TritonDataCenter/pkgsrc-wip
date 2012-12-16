@@ -1,23 +1,22 @@
 # $NetBSD$
 #
 
-DISTNAME=		ezstream-0.2.0
-CATEGORIES=		audio
-MASTER_SITES=		http://downloads.us.xiph.org/releases/ezstream/
+DISTNAME=	ezstream-0.5.6
+CATEGORIES=	audio
+MASTER_SITES=	http://downloads.us.xiph.org/releases/ezstream/
 
-MAINTAINER=		pkgsrc-users@NetBSD.org
-HOMEPAGE=		http://downloads.us.xiph.org/releases/ezstream/
-COMMENT=		Streamming client of mp3 and oggvorbis for icecast
-
-PKG_DESTDIR_SUPPORT=	none
+MAINTAINER=	pkgsrc-users@NetBSD.org
+HOMEPAGE=	http://www.icecast.org/ezstream.php
+COMMENT=	Streamming client of mp3 and oggvorbis for icecast
+LICENSE=	gnu-gpl-v2
 
 USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=		yes
 GNU_CONFIGURE=		yes
+USE_LANGUAGES+=		c c++ fortran
+USE_TOOLS+=		pkg-config
 
-post-install:
-	${INSTALL_DATA_DIR} ${PREFIX:Q}/share/doc/ezstream
-	${INSTALL_DATA} ${WRKSRC:Q}/README ${PREFIX:Q}/share/doc/ezstream/
+.include "options.mk"
 
 .include "../../audio/libshout/buildlink3.mk"
 .include "../../textproc/libxml2/buildlink3.mk"

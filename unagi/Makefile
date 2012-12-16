@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	unagi-0.3.3
+PKGREVISION=	1
 CATEGORIES=	wm
 MASTER_SITES=	https://projects.mini-dweeb.org/attachments/download/111/
 FETCH_USING=	curl
@@ -39,6 +40,7 @@ post-install:
 .include "../../x11/xcb-util-keysyms/buildlink3.mk"
 .include "../../x11/xcb-util-wm/buildlink3.mk"
 .include "../../x11/xcb-util/buildlink3.mk"
+BUILDLINK_ABI_DEPENDS.libxcb+=	libxcb>=1.8
 .include "../../x11/libxcb/buildlink3.mk"
 .include "../../x11/xcb-proto/buildlink3.mk"
 .include "../../devel/confuse/buildlink3.mk"

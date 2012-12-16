@@ -12,6 +12,7 @@ COMMENT=	Renders HTML e-mail using the WebKit library
 LICENSE=	gnu-gpl-v3
 
 USE_LIBTOOL=		yes
+USE_TOOLS+=		pkg-config
 GNU_CONFIGURE=		yes
 USE_PKGLOCALEDIR=	yes
 

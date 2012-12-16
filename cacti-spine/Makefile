@@ -1,7 +1,12 @@
 # $NetBSD$
 #
 
-DISTNAME=	cacti-spine-0.8.7i
+VERSION=0.8.8a
+DISTNAME=	cacti-spine-${VERSION}
+DISTFILES=		${DISTNAME}${EXTRACT_SUFX}
+DISTFILES+=		spine.1.gz
+SITES.spine.1.gz=	\
+	http://manpages.ubuntu.com/manpages.gz/precise/man1/
 #PKGREVISION=           1
 CATEGORIES=	net
 MASTER_SITES=	http://www.cacti.net/downloads/spine/
@@ -25,8 +30,15 @@ DOCDIR=			share/doc/cacti-spine
 EXAMPLES_DIR=		examples
 EGDIR=			${PREFIX}/${DOCDIR}/${EXAMPLES_DIR}
 CONF_FILES=		${EGDIR}/spine.conf.dist ${PKG_SYSCONFDIR}/spine.conf
+INSTALLATION_DIRS=	bin ${DOCDIR} ${DOCDIR}/${EXAMPLES_DIR} ${PKG_SYSCONFDIR} ${PKGMANDIR}/man1
+AUTO_MKDIRS=	yes
 
-INSTALLATION_DIRS=	bin ${DOCDIR} ${DOCDIR}/${EXAMPLES_DIR} ${PKG_SYSCONFDIR}
+SUBST_CLASSES+=			version
+SUBST_STAGE.version=	pre-build
+SUBST_MESSAGE.version=	Substituting version numbers.
+SUBST_FILES.version=	${WRKDIR}/spine.1
+SUBST_VARS.version=		VERSION
+
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/spine ${DESTDIR}${PREFIX}/bin
@@ -38,6 +50,7 @@ do-install:
 	${INSTALL_DATA} ${WRKSRC}/LICENSE* ${DESTDIR}${PREFIX}/${DOCDIR}
 	${INSTALL_DATA} ${WRKSRC}/NEWS ${DESTDIR}${PREFIX}/${DOCDIR}
 	${INSTALL_DATA} ${WRKSRC}/README* ${DESTDIR}${PREFIX}/${DOCDIR}
+	${INSTALL_MAN} ${WRKDIR}/spine.1 ${DESTDIR}${PREFIX}/${PKGMANDIR}/man1
 
 .include "../../mk/mysql.buildlink3.mk"
 .include "../../net/net-snmp/buildlink3.mk"

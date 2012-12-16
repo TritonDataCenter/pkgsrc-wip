@@ -12,8 +12,6 @@ HOMEPAGE=	http://gwrite.googlecode.com/
 COMMENT=	WebKit/JavaScriptCore Python bindings
 LICENSE=	gnu-lgpl-v3
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_TOOLS+=	pkg-config
 USE_LANGUAGES=	c
 

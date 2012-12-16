@@ -1,2 +1,5 @@
 @comment $NetBSD$
-lib/java/itext.jar
+lib/java/itext-pdfa-5.3.4.jar
+lib/java/itext-xtra-5.3.4.jar
+lib/java/itextpdf-5.3.4.jar
+share/doc/${PKGBASE}/README

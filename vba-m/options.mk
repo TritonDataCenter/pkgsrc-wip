@@ -30,7 +30,7 @@ CMAKE_ARGS+=	-DENABLE_GTK=OFF
 .endif
 
 .if !empty(PKG_OPTIONS:Mlirc)
-.include "../../wip/lirc/buildlink3.mk"
+.include "../../comms/lirc/buildlink3.mk"
 CMAKE_ARGS+=	-DENABLE_LIRC=ON
 .else
 CMAKE_ARGS+=	-DENABLE_LIRC=OFF

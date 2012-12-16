@@ -22,6 +22,12 @@ if [ -z "${MAKE}" ]; then
   fi
 fi
 
+if find . | grep -q CVS
+then
+	echo "Please remove any existing CVS directories; or change to the correct directory path" >&2
+	exit 1
+fi
+
 CATEGORY=$(basename $(dirname $(pwd)))
 PACKAGE=$(basename $(pwd))
 PKGPATH=${CATEGORY}/${PACKAGE}

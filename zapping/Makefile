@@ -16,6 +16,7 @@ PKG_DESTDIR_SUPPORT=	none
 USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=		yes
 GNU_CONFIGURE=		yes
+USE_LANGUAGES+=		c c++ fortran
 USE_TOOLS+=		gmake intltool perl
 
 CONFIGURE_ARGS+=	--disable-rebuild-man

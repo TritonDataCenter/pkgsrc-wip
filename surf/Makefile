@@ -1,8 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	surf-0.3
-PKGREVISION=	1
+DISTNAME=	surf-0.5
 CATEGORIES=	www
 MASTER_SITES=	http://dl.suckless.org/surf/
 

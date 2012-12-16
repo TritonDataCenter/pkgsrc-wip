@@ -9,10 +9,16 @@
 $_rc_subr_loaded . /etc/rc.subr
 
 name=mopherd
-rcvar=$name
-pidfile=@VARBASE@/run/$name.pid
-command=@PREFIX@/sbin/$name
+rcvar=mopherd
+pidfile=@MOPHER_RUN@/mopherd.pid
+start_precmd=${name}_precmd
+command=@PREFIX@/sbin/mopherd
 command_args="-p $pidfile"
 
-load_rc_config $name
+mopherd_precmd()
+{
+	@INSTALL@ -d -o @MOPHER_USER@ -g @MOPHER_GROUP@ @MOPHER_RUN@
+}
+
+load_rc_config mopherd
 run_rc_command "$1"

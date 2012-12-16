@@ -11,8 +11,6 @@ HOMEPAGE=	http://pymmlib.sourceforge.net/
 COMMENT=	Python Macromolecular Library
 LICENSE=	artistic
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_LANGUAGES=	c fortran
 PYDISTUTILSPKG=	yes
 

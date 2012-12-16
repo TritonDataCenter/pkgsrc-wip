@@ -3,7 +3,7 @@
 DISTNAME=	residual-${SCM_VER}
 CATEGORIES=	games
 
-OWNER=		dillo@NetBSD.org
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://residual.sourceforge.net/
 COMMENT=	Lucas Arts' LUA-based 3D adventure engine
 

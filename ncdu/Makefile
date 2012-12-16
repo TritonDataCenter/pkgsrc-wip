@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	ncdu-1.8
+DISTNAME=	ncdu-1.9
 CATEGORIES=	filesystems
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=ncdu/}
 

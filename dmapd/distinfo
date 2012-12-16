@@ -1,0 +1,6 @@
+$NetBSD$
+
+SHA1 (dmapd-0.0.50.tar.gz) = 502104ce7072a23d39d9c7d00fec5415ac893b37
+RMD160 (dmapd-0.0.50.tar.gz) = 85bf543b2716cebe77f4e4324d058e813ec70fb1
+Size (dmapd-0.0.50.tar.gz) = 393020 bytes
+SHA1 (patch-configure) = 7bb579aa5324a01bc13137e39091abf441080255

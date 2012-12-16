@@ -3,3 +3,4 @@ $NetBSD$
 SHA1 (bscript-0.3.tar.gz) = 77de954f383d3ee5c3c400a0315da929b3b0d333
 RMD160 (bscript-0.3.tar.gz) = 6aa86bc3e127dcc3d7a7afdf40da37654a04e0c8
 Size (bscript-0.3.tar.gz) = 118163 bytes
+SHA1 (patch-src_context.c) = 05b693983cf8e9b4e99dd0c06aaa6ddb6c9c338c

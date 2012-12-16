@@ -7,7 +7,7 @@ PKGREVISION=		2
 CATEGORIES=		emulators
 MASTER_SITES=		http://www.zeograd.com/download/
 
-MAINTAINER=		dillo@NetBSD.org
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://www.zeograd.com/parse.php?src=hugof&path=0,1,
 COMMENT=		PC Engine emulator (with CD support)
 
