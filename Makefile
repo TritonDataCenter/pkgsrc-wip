@@ -2928,6 +2928,7 @@ SUBDIR+=	smtpscan
 SUBDIR+=	smw
 SUBDIR+=	snark
 SUBDIR+=	snes9express
+SUBDIR+=	snotes
 SUBDIR+=	socklog
 SUBDIR+=	socnetv
 SUBDIR+=	sofia-sip
