@@ -3,6 +3,7 @@
 
 DISTNAME=	Supermodel_0.2a_Src
 PKGNAME=	${DISTNAME:tl:S/_src//1:S/_/-/1}
+PKGREVISION=	1
 CATEGORIES=	emulators
 MASTER_SITES=	http://www.supermodel3.com/Files/
 EXTRACT_SUFX=	.zip
@@ -21,7 +22,8 @@ do-install:
 	cd ${WRKSRC} && \
 	${INSTALL_PROGRAM} bin/Supermodel ${DESTDIR}${PREFIX}/bin/Supermodel
 
+BUILD_DEPENDS+=		glu-[0-9]*:../../graphics/glu
 .include "../../devel/zlib/buildlink3.mk"
 .include "../../devel/SDL/buildlink3.mk"
-.include "../../graphics/MesaLib/buildlink3.mk"
+BUILD_DEPENDS+=		MesaLib-[0-9]*:../../graphics/MesaLib
 .include "../../mk/bsd.pkg.mk"
