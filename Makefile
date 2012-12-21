@@ -461,6 +461,7 @@ SUBDIR+=	dns2tcp
 SUBDIR+=	dnswalk
 SUBDIR+=	docbook-xsl-ko
 SUBDIR+=	docbook2X
+SUBDIR+=	dokuwiki
 SUBDIR+=	dolfin
 SUBDIR+=	doorman
 SUBDIR+=	dotproject
