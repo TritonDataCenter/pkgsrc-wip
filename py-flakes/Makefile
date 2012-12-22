@@ -3,7 +3,7 @@
 
 DISTNAME=	pyflakes-0.5.0
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME:S/^py//}
-PKGREVISION=	1	
+PKGREVISION=	1
 CATEGORIES=	devel python
 MASTER_SITES=	http://pypi.python.org/packages/source/p/pyflakes/
 
@@ -11,8 +11,6 @@ MAINTAINER=	kamel.derouiche@gmail.com
 HOMEPAGE=	https://launchpad.net/pyflakes
 COMMENT=	Passive checker of Python programs
 LICENSE=	mit
-
-WRKSRC=		${WRKDIR}/pyflakes-0.5.0
 
 USE_LANGUAGES=	# none
 
