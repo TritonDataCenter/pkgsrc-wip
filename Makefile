@@ -2787,7 +2787,6 @@ SUBDIR+=	rekall
 SUBDIR+=	relaydb
 SUBDIR+=	remctl
 SUBDIR+=	resid-builder
-SUBDIR+=	residual-nightly
 SUBDIR+=	residualvm
 SUBDIR+=	resin
 SUBDIR+=	retroarch
