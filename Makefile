@@ -3102,6 +3102,7 @@ SUBDIR+=	tmw
 SUBDIR+=	tnt
 SUBDIR+=	tome
 SUBDIR+=	tome2
+SUBDIR+=	toppler
 SUBDIR+=	tops-bin
 SUBDIR+=	tor-dev
 SUBDIR+=	torcs
