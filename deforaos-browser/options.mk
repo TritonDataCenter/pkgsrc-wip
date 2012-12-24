@@ -1,4 +1,5 @@
 # $NetBSD$
+#
 
 PKG_OPTIONS_VAR=	PKG_OPTIONS.deforaos-browser
 PKG_SUPPORTED_OPTIONS=	embedded
