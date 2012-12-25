@@ -2,6 +2,7 @@
 #
 
 DISTNAME=		fbida-2.08
+PKGREVISION=		1
 CATEGORIES=		graphics
 MASTER_SITES=		http://www.kraxel.org/releases/fbida/
 
@@ -22,5 +23,5 @@ USE_TOOLS+=		gmake perl
 .include "../../graphics/tiff/buildlink3.mk"
 .include "../../mk/giflib.buildlink3.mk"
 .include "../../www/curl/buildlink3.mk"
-.include "../../x11/openmotif/buildlink3.mk"
+.include "../../x11/motif/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
