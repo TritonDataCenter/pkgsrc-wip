@@ -1,0 +1,4 @@
+@comment $NetBSD$
+bin/vimprobable2
+man/man1/vimprobable2.1
+man/man5/vimprobablerc.5
