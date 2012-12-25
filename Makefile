@@ -1210,7 +1210,6 @@ SUBDIR+=	jpgtn
 SUBDIR+=	jpicedt
 SUBDIR+=	jruby
 SUBDIR+=	jsl
-SUBDIR+=	json-c
 SUBDIR+=	jumpnbump
 SUBDIR+=	junit
 SUBDIR+=	jupp
