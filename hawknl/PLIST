@@ -1,4 +1,5 @@
 @comment $NetBSD$
+include/hawklib.h
 include/nl.h
 lib/NL.so
 lib/NL.so.1
