@@ -12,8 +12,6 @@ HOMEPAGE=	http://www.vimprobable.org/
 COMMENT=	WebKit based web browser that behaves like Vimperator
 LICENSE=	mit
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 USE_TOOLS+=	gmake perl pkg-config
 WRKSRC=		${WRKDIR}/vimprobable2
 
