@@ -2452,6 +2452,7 @@ SUBDIR+=	py-loggly
 SUBDIR+=	py-logilab-database
 SUBDIR+=	py-logilab-mtconverter
 SUBDIR+=	py-logilab-pigg
+SUBDIR+=	py-logtools
 SUBDIR+=	py-louie
 SUBDIR+=	py-lxmlproc
 SUBDIR+=	py-magic
