@@ -17,6 +17,8 @@ BUILD_DEPENDS+=	mupen64-base-[0-9]*:../../wip/mupen64-base
 USE_LANGUAGES=	c c++
 CPPFLAGS+=	-fPIC
 
+INSTALLATION_DIRS+=	share/mupen64-base/plugins
+
 .include "../../devel/SDL/buildlink3.mk"
 .include "../../graphics/Mesa/buildlink3.mk"
 .include "../../x11/gtk/buildlink3.mk"
