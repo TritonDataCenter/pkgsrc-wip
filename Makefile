@@ -820,6 +820,7 @@ SUBDIR+=	gtkfontsel
 SUBDIR+=	gtkglextmm
 SUBDIR+=	gtkglk
 SUBDIR+=	gtkhotkey
+SUBDIR+=	gtkmm3
 SUBDIR+=	gtksourcecompletion
 SUBDIR+=	gts
 SUBDIR+=	gtuxnes
