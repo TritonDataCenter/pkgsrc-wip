@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	bwping-1.3
+DISTNAME=	bwping-1.7
 CATEGORIES=	net
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=bwping/}
 
