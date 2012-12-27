@@ -206,7 +206,6 @@ SUBDIR+=	biopython
 SUBDIR+=	bioruby
 SUBDIR+=	bkchem
 SUBDIR+=	blam
-SUBDIR+=	blassic
 SUBDIR+=	bleachbit
 SUBDIR+=	blueproxy
 SUBDIR+=	bluez-gnome
