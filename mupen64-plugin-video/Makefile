@@ -15,8 +15,7 @@ COMMENT=	OpenGL Video plugin for mupen64 emulator
 CPPFLAGS+=	-fPIC
 LIBS+=		${PTHREAD_LDFLAGS}
 
-pre-install:
-	${INSTALL_DATA_DIR} ${PREFIX}/share/mupen64-base/plugins
+INSTALLATION_DIRS+=	share/mupen64-base/plugins
 
 .include "../../devel/SDL/buildlink3.mk"
 .include "../../graphics/Mesa/buildlink3.mk"
