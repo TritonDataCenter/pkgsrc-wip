@@ -5,7 +5,7 @@ BUILDLINK_TREE+=	gtkmm3
 .if !defined(GTKMM3_BUILDLINK3_MK)
 GTKMM3_BUILDLINK3_MK:=
 
-BUILDLINK_API_DEPENDS.gtkmm3+=	gtkmm3>=3.0.1
+BUILDLINK_API_DEPENDS.gtkmm3+=	gtkmm3>=3.4.2
 BUILDLINK_PKGSRCDIR.gtkmm3?=	../../wip/gtkmm3
 
 .include "../../textproc/libxslt/buildlink3.mk"
