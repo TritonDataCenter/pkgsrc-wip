@@ -10,7 +10,7 @@ MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=tktable/}
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://tktable.sourceforge.net/
 COMMENT=	Full-featured 2D table widget for Tk
-#LICENSE=	# TODO: (see ${WRKSRC}/license.txt) 2-clause-bsd + bourbon_ware
+LICENSE=	2-clause-bsd
 
 GNU_CONFIGURE=	yes
 
