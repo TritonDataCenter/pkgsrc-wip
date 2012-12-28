@@ -8,7 +8,7 @@ MASTER_SITES+=	${MASTER_SITE_GNU:=gxmessage/}
 
 MAINTAINER=	pkgsrc.gnome@gmail.com
 HOMEPAGE=	http://homepages.ihug.co.nz/~trmusson/programs.html
-COMMENT=	Gxmessage a GTK2+ based xmessage clone
+COMMENT=	GTK2+ based xmessage clone
 LICENSE=	gnu-gpl-v3
 
 GNU_CONFIGURE=		yes
