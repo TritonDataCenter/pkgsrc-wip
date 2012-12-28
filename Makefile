@@ -57,6 +57,7 @@ SUBDIR+=	SDL-intro-it
 SUBDIR+=	SDL-intro-jp
 SUBDIR+=	SDL-intro-pt
 SUBDIR+=	SDL-intro-ru
+SUBDIR+=	SDL2
 SUBDIR+=	Siesta
 SUBDIR+=	StepTalk
 SUBDIR+=	Terminal
