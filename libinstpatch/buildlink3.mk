@@ -8,7 +8,7 @@ LIBINSTPATCH_BUILDLINK3_MK:=
 BUILDLINK_API_DEPENDS.libinstpatch+=	libinstpatch>=1.0.0
 BUILDLINK_PKGSRCDIR.libinstpatch?=	../../wip/libinstpatch
 
-pkgbase := xmms2
+pkgbase := libinstpatch
 .include "../../mk/pkg-build-options.mk"
 
 .if !empty(PKG_BUILD_OPTIONS.libinstpatch:Mdoc)
