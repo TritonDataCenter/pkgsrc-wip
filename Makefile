@@ -1392,6 +1392,7 @@ SUBDIR+=	libgzstream
 SUBDIR+=	libharu
 SUBDIR+=	libhttpd
 SUBDIR+=	libinotify
+SUBDIR+=	libinstpatch
 SUBDIR+=	libipctdata
 SUBDIR+=	libisoburn
 SUBDIR+=	libisofs
