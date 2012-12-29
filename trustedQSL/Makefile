@@ -1,7 +1,7 @@
 # $NetBSD$
 
 DISTNAME=		TrustedQSL-1_13
-PKGNAME=		TrustedQSL-1.13
+PKGNAME=		${DISTNAME:S/_/./}
 PKGREVISION=		1
 CATEGORIES=		ham
 MASTER_SITES=		http://www.arrl.org/files/file/LoTW%20Instructions/

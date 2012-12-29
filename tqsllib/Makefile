@@ -1,7 +1,7 @@
 # $NetBSD$
 
 DISTNAME=	tqsllib-2_2
-PKGNAME=	tqsllib-2.2
+PKGNAME=	${DISTNAME:S/_/./}
 PKGREVISION=	2
 CATEGORIES=	ham
 MASTER_SITES=	http://www.arrl.org/files/file/LoTW%20Instructions/
