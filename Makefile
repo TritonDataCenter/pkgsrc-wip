@@ -1581,6 +1581,7 @@ SUBDIR+=	mingw-w64-crt
 SUBDIR+=	mingw-w64-gcc
 SUBDIR+=	mingw-w64-headers
 SUBDIR+=	mingw-w64-libgcc
+SUBDIR+=	mini18n
 SUBDIR+=	minimalist
 SUBDIR+=	minisat2
 SUBDIR+=	miniupnpc
