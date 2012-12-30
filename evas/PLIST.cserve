@@ -1,0 +1,3 @@
+@comment $NetBSD$
+bin/evas_cserve
+bin/evas_cserve_tool
