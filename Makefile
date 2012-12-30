@@ -1436,6 +1436,7 @@ SUBDIR+=	libstacktrace
 SUBDIR+=	libtextcat
 SUBDIR+=	libticables2
 SUBDIR+=	libticalcs
+SUBDIR+=	libticonv
 SUBDIR+=	libtifiles
 SUBDIR+=	libtlen2
 SUBDIR+=	libtogl
