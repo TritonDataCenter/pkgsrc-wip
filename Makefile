@@ -3245,6 +3245,7 @@ SUBDIR+=	wmitime
 SUBDIR+=	wmname
 SUBDIR+=	wmnetload
 SUBDIR+=	wmsupermon
+SUBDIR+=	wmswallow
 SUBDIR+=	wmx
 SUBDIR+=	wmx-gnome
 SUBDIR+=	wordcut
