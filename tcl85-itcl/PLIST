@@ -9,7 +9,7 @@ lib/itcl3.4/libitclstub3.4.a
 lib/itcl3.4/pkgIndex.tcl
 lib/itclConfig.sh
 man/mann/body.n
-man/mann/itcl-class.n
+man/mann/class.n
 man/mann/code.n
 man/mann/configbody.n
 man/mann/delete.n

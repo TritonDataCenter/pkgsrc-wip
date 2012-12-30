@@ -14,8 +14,5 @@ LICENSE=	2-clause-bsd # ?
 
 GNU_CONFIGURE=	yes
 
-pre-install:
-		${MV} ${WRKSRC}/doc/class.n ${WRKSRC}/doc/itcl-class.n
-
 .include "../../x11/tk/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
