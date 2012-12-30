@@ -760,6 +760,7 @@ SUBDIR+=	gnump3d
 SUBDIR+=	gnunet
 SUBDIR+=	gnupoc-makesis
 SUBDIR+=	gnupod
+SUBDIR+=	go
 SUBDIR+=	goattracker
 SUBDIR+=	godura
 SUBDIR+=	goldwater
