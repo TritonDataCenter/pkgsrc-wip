@@ -8,6 +8,14 @@ LIBTICABLES2_BUILDLINK3_MK:=
 BUILDLINK_API_DEPENDS.libticables2+=	libticables2>=1.3.3
 BUILDLINK_PKGSRCDIR.libticables2?=	../../wip/libticables2
 
+pkgbase := libticables2
+.include "../../mk/pkg-build-options.mk"
+
+
+.if !empty(PKG_BUILD_OPTIONS.libticables2:Mnls)
+.include "../../devel/gettext-lib/buildlink3.mk"
+.endif
+
 .include "../../devel/libusb/buildlink3.mk"
 .include "../../devel/libusb1/buildlink3.mk"
 .include "../../devel/glib2/buildlink3.mk"
