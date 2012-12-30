@@ -1,0 +1,2 @@
+@comment $NetBSD$
+lib/evas/modules/loaders/gif/${MODULE_ARCH}/module.la
