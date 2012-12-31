@@ -8,7 +8,7 @@ HOMEPAGE=	http://www.stat.auckland.ac.nz/~yee/VGAM/
 COMMENT=	Vector Generalized Linear and Additive Models
 
 R_PKGNAME=	VGAM
-R_PKGVER=	0.8-7
+R_PKGVER=	0.9-0
 
 LICENSE=	gnu-gpl-v2
 
