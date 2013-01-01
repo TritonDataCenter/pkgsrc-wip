@@ -1,0 +1,12 @@
+$NetBSD: patch-dc,v 1.5 2010/10/16 04:32:18 kefren Exp $
+--- mono/mini/mini-x86.h.orig	2012-12-05 17:44:33.000000000 +0000
++++ mono/mini/mini-x86.h
+@@ -48,7 +48,7 @@ struct sigcontext {
+ #endif /* __HAIKU__ */
+ 
+ #if defined( __linux__) || defined(__sun) || defined(__APPLE__) || defined(__NetBSD__) || \
+-       defined(__FreeBSD__) || defined(__OpenBSD__)
++       defined(__FreeBSD__) || defined(__OpenBSD__) || defined(__DragonFly__)
+ #define MONO_ARCH_USE_SIGACTION
+ #endif
+ 
