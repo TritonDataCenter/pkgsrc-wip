@@ -1626,6 +1626,7 @@ SUBDIR+=	monajat
 SUBDIR+=	mongodb
 SUBDIR+=	monkey-bubble
 SUBDIR+=	mono-zeroconf
+SUBDIR+=	mono
 SUBDIR+=	monodevelop
 SUBDIR+=	monotone-cvsimport
 SUBDIR+=	moonlight
