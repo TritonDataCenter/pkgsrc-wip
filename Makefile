@@ -1388,6 +1388,7 @@ SUBDIR+=	libgda-xbase
 SUBDIR+=	libgda4
 SUBDIR+=	libghemical
 SUBDIR+=	libginac
+SUBDIR+=	libgit2
 SUBDIR+=	libgksu
 SUBDIR+=	libgksuui
 SUBDIR+=	libglade-java
