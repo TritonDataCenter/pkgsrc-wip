@@ -2562,6 +2562,7 @@ SUBDIR+=	py-pyexiv2
 SUBDIR+=	py-pyfaces
 SUBDIR+=	py-pyflation
 SUBDIR+=	py-pygi
+SUBDIR+=	py-pygit2
 SUBDIR+=	py-pygr
 SUBDIR+=	py-pygraphviz
 SUBDIR+=	py-pylith
