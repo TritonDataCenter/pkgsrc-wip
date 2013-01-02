@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	groovy-binary-1.8.2
+DISTNAME=	groovy-binary-2.0.6
 PKGNAME=	${DISTNAME:S/binary-//}
 CATEGORIES=	lang
 MASTER_SITES=	http://dist.groovy.codehaus.org/distributions/

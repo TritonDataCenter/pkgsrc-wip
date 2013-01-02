@@ -1,6 +1,6 @@
 $NetBSD$
 
-SHA1 (fldigi-3.21.61.tar.gz) = d73328c28774f708b5555f86cdafb923c9e3515b
-RMD160 (fldigi-3.21.61.tar.gz) = 1af9647a37ebc5387f7b7224d3c8aad9f0ee5a9a
-Size (fldigi-3.21.61.tar.gz) = 2119162 bytes
+SHA1 (fldigi-3.21.64.tar.gz) = db73ed37af50a0bee135785b857e38077c61b6b2
+RMD160 (fldigi-3.21.64.tar.gz) = 769a3b653055f611c73d80f90327b43710862e87
+Size (fldigi-3.21.64.tar.gz) = 2122566 bytes
 SHA1 (patch-src_misc_newinstall.cxx) = 2c215e9423d27dd4f4657221b17cf4ed3f12355c

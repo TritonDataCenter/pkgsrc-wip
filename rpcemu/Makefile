@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	rpcemu-0.8.8
+PKGREVISION=	1
 CATEGORIES=	emulators
 MASTER_SITES=	http://www.marutan.net/rpcemuspoon/088/
 
@@ -27,5 +28,5 @@ SUBST_VARS.prefix=	RPCEMUBASE
 #post-install:
 #	${INSTALL_DATA} ${WRKSRC|/
 
-.include "../../wip/allegro/buildlink3.mk"
+.include "../../devel/allegro/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

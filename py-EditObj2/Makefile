@@ -7,7 +7,7 @@ PKGREVISION=	1
 CATEGORIES=	devel python
 MASTER_SITES=	http://download.gna.org/songwrite/
 
-MAINTAINER=	pkgsrc-users@netbsd.org
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://home.gna.org/oomadness/en/editobj/index.html
 COMMENT=	EditObj2 is a dialog box generator for Python objects
 LICENSE=	gnu-gpl-v2

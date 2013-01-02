@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	sofia-sip-1.12.11
-CATEGORIES=	net
+CATEGORIES=	devel net comms
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=sofia-sip/}
 
 MAINTAINER=	khorben@defora.org

@@ -27,7 +27,7 @@ pre-configure:
 
 .include "../../mk/fuse.buildlink3.mk"
 .include "../../textproc/libxml2/buildlink3.mk"
-.include "../../wip/json-c/buildlink3.mk"
+.include "../../textproc/json-c/buildlink3.mk"
 .include "../../www/curl/buildlink3.mk"
 
 .include "../../mk/bsd.pkg.mk"

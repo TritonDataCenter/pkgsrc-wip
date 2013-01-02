@@ -1,6 +1,8 @@
 $NetBSD$
 
---- libwsmake/wsUtil.h.orig	2002-02-19 07:14:05.000000000 +0100
+Remove const cast from va_list.
+
+--- libwsmake/wsUtil.h.orig	2002-02-19 06:14:05.000000000 +0000
 +++ libwsmake/wsUtil.h
 @@ -77,7 +77,7 @@ namespace std
    void __wsmake_print_error(const char *, ...);

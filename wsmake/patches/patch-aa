@@ -1,8 +1,18 @@
 $NetBSD$
 
---- libwsmake/wsUtil.cpp.orig	2001-09-01 22:09:13.000000000 +0200
+Needs malloc and removing const cast from va_list.
+
+--- libwsmake/wsUtil.cpp.orig	2001-09-01 20:09:13.000000000 +0000
 +++ libwsmake/wsUtil.cpp
-@@ -709,12 +709,12 @@ void std::__wsmake_set_quiet(int quiet)
+@@ -25,6 +25,7 @@
+ 
+ #include <sys/stat.h>
+ 
++#include <cstdlib>
+ #include <cassert>
+ #include <cerrno>
+ #include <cstring>
+@@ -709,12 +710,12 @@ void std::__wsmake_set_quiet(int quiet)
    }
  }
  

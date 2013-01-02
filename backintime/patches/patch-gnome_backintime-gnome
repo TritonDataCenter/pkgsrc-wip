@@ -1,0 +1,13 @@
+$NetBSD$
+
+--- gnome/backintime-gnome.orig	2011-01-02 14:01:38.000000000 +0000
++++ gnome/backintime-gnome
+@@ -20,7 +20,7 @@
+ if [ -f app.py ]; then
+ 	APP_PATH="."
+ else
+-	APP_PATH="/usr/share/backintime/gnome"
++	APP_PATH="@PREFIX@/share/backintime/gnome"
+ fi
+ 
+ python ${APP_PATH}/app.py "$@"

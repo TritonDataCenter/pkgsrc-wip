@@ -13,5 +13,8 @@ LICENSE=	2-clause-bsd # ?
 
 GNU_CONFIGURE=	yes
 
+pre-install:
+		${MV} ${WRKSRC}/doc/class.n ${WRKSRC}/doc/tclOO-class.n
+
 .include "../../lang/tcl/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

@@ -15,6 +15,7 @@ WRKSRC=			${WRKDIR}
 EXTRACT_CMD=		${CP} ${DOWNLOADED_DISTFILE} ${WRKSRC}
 NO_BUILD=		yes
 PYTHON_PATCH_SCRIPTS=	syncmail
+INSTALLATION_DIRS=	bin
 
 do-install:
 	${INSTALL_SCRIPT} ${WRKSRC}/syncmail ${DESTDIR}${PREFIX}/bin/cvs-syncmail

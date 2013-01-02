@@ -4,6 +4,7 @@
 DISTNAME=		labelnation-1.212
 CATEGORIES=		misc
 MASTER_SITES=		http://www.red-bean.com/labelnation/
+
 MAINTAINER=		solevis@solevis.net
 HOMEPAGE=		http://www.red-bean.com/labelnation/
 COMMENT=		Command-line label, business card printing program

@@ -16,7 +16,7 @@ EXTRACT_SUFX=	.tgz
 ONLY_FOR_PLATFORM= DragonFly-*-* NetBSD-*-*
 
 NO_CONFIGURE= yes
-USE_TOOLS+= perl
+USE_TOOLS+= perl pkg-config
 
 .include "../../mk/bsd.prefs.mk"
 .if ${OPSYS} == "DragonFly"

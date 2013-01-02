@@ -1,4 +1,5 @@
 # $NetBSD$
+#
 
 PKG_OPTIONS_VAR=	PKG_OPTIONS.deforaos-panel
 PKG_SUPPORTED_OPTIONS=	embedded

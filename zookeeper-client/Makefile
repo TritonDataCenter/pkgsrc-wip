@@ -13,8 +13,7 @@ USE_MULTIARCH=	yes
 
 BUILD_DEPENDS+=	cppunit-[0-9]*:../../devel/cppunit
 
-WRKSRC=		${WRKDIR}/${DISTNAME}/src/c
-PATCH_ARGS=	-d ${WRKDIR}/${DISTNAME} --forward --quiet -E ${PATCH_STRIP:Q}
+CONFIGURE_DIRS=	src/c
 
 CFLAGS.SunOS+=	-D_POSIX_PTHREAD_SEMANTICS
 LIBS.SunOS+=	-lnsl -lsocket

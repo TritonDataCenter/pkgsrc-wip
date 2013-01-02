@@ -1,9 +1,10 @@
 # $NetBSD$
+#
 
-DISTNAME=	PDFViewer-0.0.0
-PKGNAME=	deforaos-pdfviewer-0.0.0
-CATEGORIES=	www
-MASTER_SITES=	http://www.defora.org/os/download/download/3619/
+DISTNAME=	PDFViewer-0.0.1
+PKGNAME=	deforaos-pdfviewer-0.0.1
+CATEGORIES=	print
+MASTER_SITES=	http://www.defora.org/os/download/download/3686/
 
 MAINTAINER=	khorben@defora.org
 HOMEPAGE=	http://www.defora.org/

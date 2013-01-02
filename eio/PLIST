@@ -1,0 +1,6 @@
+@comment $NetBSD$
+include/eio-1/Eio.h
+include/eio-1/eio_inline_helper.x
+lib/libeio.la
+lib/pkgconfig/eio.pc
+@pkgdir share/eio/examples

@@ -1,9 +1,0 @@
-@comment $NetBSD$
-bin/residual
-share/doc/residual/AUTHORS
-share/doc/residual/COPYING.GPL
-share/doc/residual/COPYING.LGPL
-share/doc/residual/NEWS
-share/doc/residual/README
-share/pixmaps/residual.xpm
-share/residual/modern.zip
