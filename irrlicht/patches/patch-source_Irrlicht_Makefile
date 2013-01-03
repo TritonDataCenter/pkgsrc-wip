@@ -1,5 +1,8 @@
 $NetBSD$
 
+* Libtoolized
+* Use system's libraries
+
 --- source/Irrlicht/Makefile.orig	2012-11-05 06:14:12.000000000 +0000
 +++ source/Irrlicht/Makefile
 @@ -46,11 +46,7 @@ IRRSWRENDEROBJ = CSoftwareDriver.o CSoft
