@@ -3000,6 +3000,7 @@ SUBDIR+=	sunterlib
 SUBDIR+=	superchic
 SUBDIR+=	supermodel
 SUBDIR+=	supertux
+SUBDIR+=	supertuxkart
 SUBDIR+=	surf
 SUBDIR+=	suse100_32_SDL
 SUBDIR+=	suse100_32_glut
