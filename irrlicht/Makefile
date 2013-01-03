@@ -9,7 +9,7 @@ EXTRACT_SUFX=	.zip
 MAINTAINER=	pallegra@gmail.com
 HOMEPAGE=	http://irrlicht.sourceforge.net/
 COMMENT=	Open source high performance realtime 3D engine
-#LICENSE=	png-license #irrlicht-license ?
+LICENSE=	zlib
 
 USE_TOOLS+=	pkg-config gmake
 USE_LANGUAGES=	c c++
