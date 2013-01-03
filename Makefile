@@ -346,6 +346,7 @@ SUBDIR+=	creal
 SUBDIR+=	cream
 SUBDIR+=	crfpp
 SUBDIR+=	crm114
+SUBDIR+=	crossroads-io
 SUBDIR+=	crrcsim
 SUBDIR+=	cryptcat
 SUBDIR+=	csmith
