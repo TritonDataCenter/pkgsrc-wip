@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	kyra_src_2_1_3
-PKGNAME=	${DISTNAME:S/_src_/-/1:S/_/./g}
+PKGNAME=	${DISTNAME:S/kyra_src_/kyra2-/1:S/_/./g}
 WRKSRC=		${WRKDIR}/kyra
 CATEGORIES=	graphics
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=kyra/}
