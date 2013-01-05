@@ -26,7 +26,7 @@ do-install:
 # on platforms where libbsd is available, it is needed for MD5
 .if defined(USE_LIBBSD)
 MAKE_FLAGS+= -DLIBBSD
-.elif ${OS} == Darwin
+.elif ${OPSYS} == Darwin
 MAKE_FLAGS+= -DNOMD5
 .endif
 
