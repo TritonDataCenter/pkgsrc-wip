@@ -1,8 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	mtl-2.0.1.0
-PKGREVISION=	1
+DISTNAME=	mtl-2.1.2
 CATEGORIES=	devel
 LICENSE=	modified-bsd
 
