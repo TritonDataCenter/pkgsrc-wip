@@ -1,4 +1,5 @@
 # $NetBSD$
+
 BUILDLINK_TREE+=	irrlicht
 
 .if !defined(IRRLICHT_BUILDLINK3_MK)

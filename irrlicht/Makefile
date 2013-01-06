@@ -16,6 +16,7 @@ USE_LANGUAGES=	c c++
 USE_LIBTOOL=	yes
 
 MAKE_ENV=	NDEBUG=1
+#MAKE_ENV=	DEBUG=1
 BUILD_DIRS=	source/Irrlicht
 BUILD_TARGET=	sharedlib
 
@@ -30,6 +31,7 @@ SUBST_MESSAGE.dos_eol=	Removing DOS line-ends
 SUBST_STAGE.dos_eol=	post-extract
 SUBST_FILES.dos_eol=	source/Irrlicht/Makefile
 SUBST_FILES.dos_eol+=	source/Irrlicht/os.cpp
+SUBST_FILES.dos_eol+=	source/Irrlicht/COSOperator.cpp
 SUBST_FILTER_CMD.dos_eol=	${TR} -d '\r'
 
 .include "../../archivers/bzip2/buildlink3.mk"
