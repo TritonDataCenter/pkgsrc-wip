@@ -333,6 +333,7 @@ SUBDIR+=	com_err
 SUBDIR+=	common-mml
 SUBDIR+=	commoncpp2
 SUBDIR+=	compare
+SUBDIR+=	compiz-boxmenu
 SUBDIR+=	converttomp3
 SUBDIR+=	cops
 SUBDIR+=	copytape
