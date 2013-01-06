@@ -29,6 +29,7 @@ SUBST_MESSAGE.dos_eol=	Removing DOS line-ends
 SUBST_STAGE.dos_eol=	post-extract
 SUBST_FILES.dos_eol=	lib/irrlicht/source/Irrlicht/Makefile
 SUBST_FILES.dos_eol+=	lib/irrlicht/source/Irrlicht/os.cpp
+SUBST_FILES.dos_eol+=	lib/irrlicht/source/Irrlicht/COSOperator.cpp
 SUBST_FILTER_CMD.dos_eol=	${TR} -d '\r'
 
 pre-build:
