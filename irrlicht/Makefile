@@ -15,8 +15,8 @@ USE_TOOLS+=	pkg-config gmake
 USE_LANGUAGES=	c c++
 USE_LIBTOOL=	yes
 
-MAKE_ENV=	NDEBUG=1
-#MAKE_ENV=	DEBUG=1
+MAKE_ENV+=	NDEBUG=1
+#MAKE_ENV+=	DEBUG=1
 BUILD_DIRS=	source/Irrlicht
 BUILD_TARGET=	sharedlib
 
