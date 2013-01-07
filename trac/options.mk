@@ -9,11 +9,11 @@ PKG_OPTIONS_LEGACY_OPTS=	psycopg2:pgsql
 .include "../../mk/bsd.options.mk"
 
 .if !empty(PKG_OPTIONS:Msqlite)
-DEPENDS+=	${PYPKGPREFIX}-sqlite2>=2.3.2:../../databases/py-sqlite2
+DEPENDS+=	${PYPKGPREFIX}-sqlite2>=2.5.5:../../databases/py-sqlite2
 .endif
 .if !empty(PKG_OPTIONS:Mpgsql)
 DEPENDS+=	${PYPKGPREFIX}-psycopg2>=2:../../databases/py-psycopg2
 .endif
 .if !empty(PKG_OPTIONS:Mmysql)
-DEPENDS+=	${PYPKGPREFIX}-mysqldb>=1.2.1:../../databases/py-mysqldb
+DEPENDS+=	${PYPKGPREFIX}-mysqldb>=1.2.2:../../databases/py-mysqldb
 .endif

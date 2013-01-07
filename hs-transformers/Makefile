@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	transformers-0.2.2.0
+DISTNAME=	transformers-0.3.0.0
 CATEGORIES=	devel
 
 MAINTAINER=	pho@cielonegro.org

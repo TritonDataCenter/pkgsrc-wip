@@ -1,6 +1,8 @@
 $NetBSD$
 
---- tdestr.h.orig	2005-08-16 19:17:58.000000000 -0700
+Use curses instead of ncurses.
+
+--- tdestr.h.orig	2006-09-15 01:22:24.000000000 +0000
 +++ tdestr.h
 @@ -39,7 +39,7 @@
     #include <dirent.h>             /* walking down directories */

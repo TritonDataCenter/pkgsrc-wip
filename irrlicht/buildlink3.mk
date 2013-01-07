@@ -1,10 +1,11 @@
 # $NetBSD$
+
 BUILDLINK_TREE+=	irrlicht
 
 .if !defined(IRRLICHT_BUILDLINK3_MK)
 IRRLICHT_BUILDLINK3_MK:=
 
-BUILDLINK_API_DEPENDS.irrlicht+=	irrlicht>=1.7.2
+BUILDLINK_API_DEPENDS.irrlicht+=	irrlicht>=1.8
 BUILDLINK_PKGSRCDIR.irrlicht?=	../../wip/irrlicht
 
 .include "../../archivers/bzip2/buildlink3.mk"

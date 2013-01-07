@@ -40,5 +40,5 @@ do-install:
 	${INSTALL_MAN} doc/collapsablewidget.n ${DESTDIR}${PREFIX}/${PKGMANDIR}/mann/ && \
 	${INSTALL_DATA} src/* ${DESTDIR}${PREFIX}/lib/iwidgets/incoming/
 
-.include "../../wip/tcl85-itcl/buildlink3.mk"
+.include "../../lang/tcl-itcl/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
