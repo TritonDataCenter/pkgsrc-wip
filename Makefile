@@ -3061,7 +3061,6 @@ SUBDIR+=	tcc-devel
 SUBDIR+=	tcl-curl
 SUBDIR+=	tcl-iwidgets
 SUBDIR+=	tcl-tclOO
-SUBDIR+=	tcl85-itcl
 SUBDIR+=	tcl86
 SUBDIR+=	tcmplex-panteltje
 SUBDIR+=	tcpspy
