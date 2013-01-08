@@ -2512,6 +2512,7 @@ SUBDIR+=	py-oasa
 SUBDIR+=	py-oct2py
 SUBDIR+=	py-omniORBpy
 SUBDIR+=	py-ontopy
+SUBDIR+=	py-openastro
 SUBDIR+=	py-openopt
 SUBDIR+=	py-opentmm
 SUBDIR+=	py-openxmllib
