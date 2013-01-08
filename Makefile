@@ -3018,6 +3018,7 @@ SUBDIR+=	swfmill
 SUBDIR+=	swftools
 SUBDIR+=	swift
 SUBDIR+=	swig2
+SUBDIR+=	swisseph
 SUBDIR+=	sword
 SUBDIR+=	sxemacs
 SUBDIR+=	sxid
