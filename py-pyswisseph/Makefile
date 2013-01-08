@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	pyswisseph-1.77.00-0
-PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
+PKGNAME=	${PYPKGPREFIX}-${DISTNAME:S/-0/.0/1}
 CATEGORIES=	time
 MASTER_SITES=	http://pypi.python.org/packages/source/p/pyswisseph/
 EXTRACT_SUFX=	.tar.bz2
