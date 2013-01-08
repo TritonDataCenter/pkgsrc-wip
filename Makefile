@@ -870,6 +870,7 @@ SUBDIR+=	haydar-fonts
 SUBDIR+=	haze
 SUBDIR+=	hdhomerun_config
 SUBDIR+=	hdparm
+SUBDIR+=	heimdall
 SUBDIR+=	hengband
 SUBDIR+=	hepmc
 SUBDIR+=	hepmcvisual
