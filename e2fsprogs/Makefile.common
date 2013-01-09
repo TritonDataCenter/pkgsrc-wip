@@ -12,6 +12,7 @@ E2FSPROGS_MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=e2fsprogs/} \
 			ftp://ftp.gwdg.de/pub/linux/mirrors/tsx-11/packages/ext2fs/
 
 GNU_CONFIGURE=		YES
+USE_GCC_RUNTIME=	YES
 USE_TOOLS+=		gmake makeinfo msgfmt
 USE_PKGLOCALEDIR=	YES
 
