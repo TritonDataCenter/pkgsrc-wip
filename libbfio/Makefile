@@ -4,7 +4,7 @@
 DISTNAME=	libbfio-alpha-20120425
 PKGNAME=	${DISTNAME:S/alpha-//1}
 CATEGORIES=	sysutils
-MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=libbfio/}
+MASTER_SITES=	http://libbfio.googlecode.com/files/
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://libbfio.sourceforge.net/
