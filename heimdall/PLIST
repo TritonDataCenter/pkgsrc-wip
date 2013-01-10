@@ -1,0 +1,4 @@
+@comment $NetBSD$
+bin/heimdall
+bin/heimdall-frontend
+lib/libpit-1.3.a

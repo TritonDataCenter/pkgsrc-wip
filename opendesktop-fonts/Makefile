@@ -3,10 +3,10 @@
 
 DISTNAME=	opendesktop-fonts-1.4.2
 CATEGORIES=	fonts chinese japanese
-MASTER_SITES=	http://www.opendesktop.org.tw/
+MASTER_SITES=	ftp://ftp.opendesktop.org.tw/odp/ODOFonts/OpenFonts/
 
 MAINTAINER=	obache@NetBSD.org
-HOMEPAGE=	ftp://ftp.opendesktop.org.tw/odp/ODOFonts/OpenFonts/
+HOMEPAGE=	http://www.opendesktop.org.tw/
 COMMENT=	Simplified and Traditional Chinese and Japanese Ming and Kai Face
 LICENSE=	arphic-public-license
 LICENSE_FILE=	arphic-public-license

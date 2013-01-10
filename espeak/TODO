@@ -1,0 +1,2 @@
+- ESPEAK_VERSION in PLIST is hardcoded now
+- Function is tested only on 6.0-ish/i386 for now.
