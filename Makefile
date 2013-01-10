@@ -1509,7 +1509,6 @@ SUBDIR+=	lmfit
 SUBDIR+=	lmtp2nntp
 SUBDIR+=	lockf
 SUBDIR+=	logfmon-devel
-SUBDIR+=	logrotate
 SUBDIR+=	lorder
 SUBDIR+=	lpdsrv
 SUBDIR+=	lrslib
