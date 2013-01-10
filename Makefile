@@ -2443,6 +2443,7 @@ SUBDIR+=	py-jabber-punjab
 SUBDIR+=	py-jabber-yahoo-transport
 SUBDIR+=	py-jabberbot
 SUBDIR+=	py-joblib
+SUBDIR+=	py-jokosher
 SUBDIR+=	py-jsonrequester
 SUBDIR+=	py-jswebkit
 SUBDIR+=	py-julio
