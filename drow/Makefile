@@ -12,7 +12,10 @@ LICENSE=	gnu-gpl-v2
 
 GNU_CONFIGURE=	YES
 
+PKG_DESTDIR_SUPPORT=	destdir
 CONFIGURE_ENV+=		DESTDIR=${DESTDIR}
 INSTALLATION_DIRS+=	bin
+
+SPECIAL_PERMS+=		bin/drow bin bin 0755
 
 .include "../../mk/bsd.pkg.mk"
