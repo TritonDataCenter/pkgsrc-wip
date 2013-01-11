@@ -19,7 +19,7 @@ INSTALLATION_DIRS+=	bin share/classpath
 
 JAVA_APP_TARGETS=		snark
 JAVA_APP_MAIN.snark=		org.klomp.snark.Snark
-JAVA_APP_CLASSPATH.snark=	${JAR_PREFIX}/snark.jar
+JAVA_APP_CLASSPATH.snark=	${DESTDIR}${JAR_PREFIX}/snark.jar
 JAVA_APP_PATH=			${DESTDIR}${PREFIX}/bin
 
 do-install:
