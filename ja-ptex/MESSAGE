@@ -3,8 +3,8 @@ $NetBSD$
 ja-ptex installed.
 
 To preview with ghostscript, you may need two more packages to be installed,
-   (wip)/ghostscript-cidfonts-ryumin
-   ghostscript
+   fonts/ghostscript-cidfonts-ryumin
+   print/ghostscript
 
 The commands to process documents:
 platex   *.tex -> *.dvi
