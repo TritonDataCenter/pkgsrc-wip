@@ -5,9 +5,8 @@ $NetBSD: patch-ak,v 1.9 2011/03/17 14:24:52 kefren Exp $
  # if (defined(GC_DGUX386_THREADS) || defined(GC_OSF1_THREADS) || \
        defined(GC_DARWIN_THREADS) || defined(GC_AIX_THREADS)) || \
        defined(GC_NETBSD_THREADS) && !defined(USE_PTHREAD_SPECIFIC) || \
--      defined(GC_FREEBSD_THREADS) && !defined(USE_PTHREAD_SPECIFIC) || \
+       defined(GC_FREEBSD_THREADS) && !defined(USE_PTHREAD_SPECIFIC) || \
 -      defined(GC_OPENBSD_THREADS)
-+      defined(GC_FREEBSD_THREADS) && !defined(USE_PTHREAD_SPECIFIC) \
 +      !defined(USE_COMPILER_TLS) || defined(GC_OPENBSD_THREADS)
  #   define USE_PTHREAD_SPECIFIC
  # endif
