@@ -34,6 +34,11 @@ CONFIG_GUESS_OVERRIDE=		\
 CONFIG_SUB_OVERRIDE=		\
 	config.sub */config.sub */*/config.sub */*/*/config.sub
 
+SUBST_CLASSES+=		clang
+SUBST_STAGE.clang=	post-patch
+SUBST_MESSAGE.clang=	Fix linking problem for clang
+SUBST_FILES.clang=	lib-src/libnyquist/nyquist/ffts/src/fftlib.c
+SUBST_SED.clang=	-e 's|inline void|static inline void|'
 
 PTHREAD_AUTO_VARS=	yes
 
