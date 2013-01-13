@@ -1,0 +1,8 @@
+@comment $NetBSD$
+bin/protoc-c
+include/google/protobuf-c/protobuf-c-dispatch.h
+include/google/protobuf-c/protobuf-c-private.h
+include/google/protobuf-c/protobuf-c-rpc.h
+include/google/protobuf-c/protobuf-c.h
+lib/libprotobuf-c.la
+lib/pkgconfig/libprotobuf-c.pc
