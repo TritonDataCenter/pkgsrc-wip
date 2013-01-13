@@ -94,9 +94,6 @@ ${PYSITELIB}/gyp/ninja_syntax.pyo
 ${PYSITELIB}/gyp/sun_tool.py
 ${PYSITELIB}/gyp/sun_tool.pyc
 ${PYSITELIB}/gyp/sun_tool.pyo
-${PYSITELIB}/gyp/system_test.py
-${PYSITELIB}/gyp/system_test.pyc
-${PYSITELIB}/gyp/system_test.pyo
 ${PYSITELIB}/gyp/win_tool.py
 ${PYSITELIB}/gyp/win_tool.pyc
 ${PYSITELIB}/gyp/win_tool.pyo
