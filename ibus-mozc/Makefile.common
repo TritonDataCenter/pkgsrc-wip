@@ -1,4 +1,6 @@
 # $NetBSD$
+# used by wip/mozc-server/Makefile
+# used by wip/mozc-tool/Makefile
 #
 
 DISTNAME=	mozc-1.6.1187.102
