@@ -1,10 +1,8 @@
 $NetBSD$
 
-* Use system's protoc command.
-
 --- protobuf/genproto.gypi.orig	2012-08-31 05:37:07.000000000 +0000
 +++ protobuf/genproto.gypi
-@@ -36,7 +36,7 @@
+@@ -36,13 +36,13 @@
    'conditions': [
      ['OS!="linux"', {
        'variables': {
@@ -13,3 +11,10 @@ $NetBSD$
        },
      }, {  # else
        'conditions': [
+         ['use_libprotobuf==0', {
+           'variables': {
+-            'protoc_command%': '<(relative_dir)/<(mozc_build_tools_dir)/protoc<(EXECUTABLE_SUFFIX)',
++            'protoc_command%': 'protoc<(EXECUTABLE_SUFFIX)',
+           },
+         }, {  # else
+           'variables': {
