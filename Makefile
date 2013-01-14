@@ -1109,6 +1109,7 @@ SUBDIR+=	i3lock
 SUBDIR+=	i3status
 SUBDIR+=	iText
 SUBDIR+=	iTextXML
+SUBDIR+=	ibus-mozc
 SUBDIR+=	ibus-sogoupycc
 SUBDIR+=	icecast
 SUBDIR+=	icecat
