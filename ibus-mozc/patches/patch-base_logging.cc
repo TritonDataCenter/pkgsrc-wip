@@ -19,7 +19,7 @@ $NetBSD$
  #elif defined(OS_MACOSX)
             ::getpid(),
             reinterpret_cast<uint32>(pthread_self())
-+#elif defined*OS_NETBSD)
++#elif defined(OS_NETBSD)
 +           ::getpid()
 +           _lwp_self()
  #else  // = OS_LINUX
