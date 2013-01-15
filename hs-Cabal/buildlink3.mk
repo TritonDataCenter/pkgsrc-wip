@@ -1,0 +1,12 @@
+# $NetBSD$
+
+BUILDLINK_TREE+=	hs-Cabal
+
+.if !defined(HS_CABAL_BUILDLINK3_MK)
+HS_CABAL_BUILDLINK3_MK:=
+
+BUILDLINK_API_DEPENDS.hs-Cabal+=	hs-Cabal>=1.16
+BUILDLINK_PKGSRCDIR.hs-Cabal?=	../../wip/hs-Cabal
+.endif	# HS_CABAL_BUILDLINK3_MK
+
+BUILDLINK_TREE+=	-hs-Cabal
