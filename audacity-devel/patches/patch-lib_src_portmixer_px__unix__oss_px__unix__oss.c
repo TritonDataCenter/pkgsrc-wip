@@ -1,5 +1,6 @@
 $NetBSD$
 
+Fix build on sunos.
 
 --- lib-src/portmixer/src/px_unix_oss.c.orig	2012-08-21 17:47:20.000000000 +0900
 +++ lib-src/portmixer/src/px_unix_oss.c	2013-01-08 22:25:07.000000000 +0900
