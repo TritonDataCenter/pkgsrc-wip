@@ -885,6 +885,7 @@ SUBDIR+=	hlint
 SUBDIR+=	homebank
 SUBDIR+=	hplip3
 SUBDIR+=	hpoj
+SUBDIR+=	hs-Cabal
 SUBDIR+=	hs-ConfigFile
 SUBDIR+=	hs-Diff
 SUBDIR+=	hs-GLURaw
