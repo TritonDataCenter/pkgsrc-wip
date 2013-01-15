@@ -16,7 +16,7 @@ do-build:
 			gui/gui.gyp:mozc_tool
 
 do-install:
-	${INSTALL_PROGRAM} ${WRKSRC}/out_linux/Release/mozc_tool \
+	${INSTALL_PROGRAM} ${WRKSRC}/out_bsd/Release/mozc_tool \
 		${DESTDIR}${PREFIX}/libexec
 
 .include "../../wip/ibus-mozc/Makefile.common"
