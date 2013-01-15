@@ -22,11 +22,29 @@ $NetBSD$
      'rank': '80',
  }
  
-@@ -193,7 +193,7 @@ def main():
+@@ -76,6 +76,13 @@ IBUS_ENGINES_PROPS = {
+         'longname': ['%s'],
+         'layout': ['jp'],
+     },
++    'NetBSD': {
++        # DO NOT change the engine name 'mozc-jp'. The names is referenced by
++        # unix/ibus/mozc_engine.cc.
++        'name': ['mozc-jp'],
++        'longname': ['%s'],
++        'layout': ['jp'],
++    },
+     # On Chrome/Chromium OS, we provide three engines.
+     'ChromeOS': {
+         # DO NOT change the engine name 'mozc-jp'. The names is referenced by
+@@ -193,7 +200,11 @@ def main():
  
    setup_arg = []
    if options.platform == 'Linux':
 -    setup_arg.append(os.path.join(options.server_dir, 'mozc_tool'))
++    setup_arg.append(os.path.join("@PREFIX@/libexec", 'mozc_tool'))
++    setup_arg.append('--mode=config_dialog')
++
++  if options.platform == 'NetBSD':
 +    setup_arg.append(os.path.join("@PREFIX@/libexec", 'mozc_tool'))
      setup_arg.append('--mode=config_dialog')
  

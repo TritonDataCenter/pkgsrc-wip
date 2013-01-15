@@ -15,3 +15,13 @@ $NetBSD$
             1900 + tm_time.tm_year,
             1 + tm_time.tm_mon,
             tm_time.tm_mday,
+@@ -124,6 +119,9 @@ string Logging::GetLogMessageHeader() {
+ #elif defined(OS_MACOSX)
+            ::getpid(),
+            reinterpret_cast<uint32>(pthread_self())
++#elif defined*OS_NETBSD)
++           ::getpid()
++           _lwp_self()
+ #else  // = OS_LINUX
+            ::getpid(),
+            // In NaCl it returns uint32, otherwise it returns unsigned long.

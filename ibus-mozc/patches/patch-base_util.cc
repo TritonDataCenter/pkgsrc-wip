@@ -32,6 +32,15 @@ $NetBSD$
  }
  
  string Util::GetServerPath() {
+@@ -2000,7 +2000,7 @@ bool GetCurrentSessionId(DWORD *session_
+ #endif  // OS_WINDOWS
+ 
+ string Util::GetDesktopNameAsString() {
+-#ifdef OS_LINUX
++#if defined(OS_LINUX) || defined(OS_NETBSD)
+   const char *display = getenv("DISPLAY");
+   if (display == NULL) {
+     return "";
 @@ -2514,7 +2514,7 @@ bool Util::IsPlatformSupported() {
  #if defined(OS_MACOSX)
    // TODO(yukawa): support Mac.
