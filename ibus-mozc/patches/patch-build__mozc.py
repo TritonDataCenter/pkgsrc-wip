@@ -45,6 +45,15 @@ $NetBSD$
    elif IsWindows():
      default_target = 'Windows'
    elif IsMac():
+@@ -413,7 +419,7 @@ def ParseGypOptions(args=None, values=No
+   use_zinnia_default = True
+ 
+   parser.add_option('--server_dir', dest='server_dir',
+-                    default='/usr/lib/mozc',
++                    default='@PREFIX@/libexec',
+                     help='A path to the directory to be installed server '
+                     'executable. This option is only available for Linux.')
+ 
 @@ -467,6 +473,12 @@ def ExpandMetaTarget(meta_target_name):
                 '%s/gui/gui.gyp:mozc_tool']
      if PkgExists('ibus-1.0 >= 1.4.1'):
