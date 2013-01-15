@@ -2,6 +2,15 @@ $NetBSD$
 
 --- ipc/unix_ipc.cc.orig	2012-08-31 05:37:07.000000000 +0000
 +++ ipc/unix_ipc.cc
+@@ -28,7 +28,7 @@
+ // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ 
+ // skip all if non-Linux or Android.
+-#if defined(OS_LINUX) && !defined(OS_ANDROID)
++#if (defined(OS_LINUX) && !defined(OS_ANDROID)) || defined(OS_NETBSD)
+ 
+ #include "ipc/ipc.h"
+ 
 @@ -41,7 +41,7 @@
  #include <sys/time.h>
  #include <sys/types.h>
@@ -34,3 +43,9 @@ $NetBSD$
    return true;
  }
  
+@@ -534,4 +550,4 @@ void IPCServer::Terminate() {
+ 
+ };  // namespace mozc
+ 
+-#endif  // OS_LINUX && !OS_ANDROID
++#endif  // (OS_LINUX && !OS_ANDROID) || OS_NETBSD

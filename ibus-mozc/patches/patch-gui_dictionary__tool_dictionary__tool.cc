@@ -7,7 +7,7 @@ $NetBSD$
  
    // main window
 -#ifndef OS_LINUX
-+#if !definded(OS_LINUX) && !defined(OS_NETBSD)
++#if !defined(OS_LINUX) && !defined(OS_NETBSD)
    // For some reason setCentralWidget crashes the dictionary_tool on Linux
    // TODO(taku): investigate the cause of the crashes
    setCentralWidget(splitter_);
