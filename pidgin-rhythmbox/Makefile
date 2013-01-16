@@ -1,5 +1,5 @@
 # $NetBSD$
-#-lidn
+#
 
 DISTNAME=	pidgin-rhythmbox-2.0
 PKGREVISION=	4
