@@ -27,7 +27,7 @@ $NetBSD$
 +#if defined(OS_NETBSD)
 +  struct uucred peer_cred;
 +  int peer_cred_len = sizeof(peer_cred);
-+  if (getsockopt(socket, 0, LOCAL_PEEREID,
++  if (getsockopt(socket, SOL_SOCKET, LOCAL_PEEREID,
 +                 reinterpret_cast<void *>(&peer_cred),
 +                 reinterpret_cast<socklen_t *>(&peer_cred_len)) < 0) {
 +    LOG(ERROR) << "cannot get peer credential. Not a Unix socket?";
@@ -43,6 +43,15 @@ $NetBSD$
    return true;
  }
  
+@@ -435,7 +451,7 @@ IPCServer::IPCServer(const string &name,
+                SO_REUSEADDR,
+                reinterpret_cast<char *>(&on),
+                sizeof(on));
+-#ifdef OS_MACOSX
++#if defined(OS_MACOSX) || defined(OS_NETBSD)
+   addr.sun_len = SUN_LEN(&addr);
+   const size_t sun_len = sizeof(addr);
+ #else
 @@ -534,4 +550,4 @@ void IPCServer::Terminate() {
  
  };  // namespace mozc

@@ -7,7 +7,7 @@ $NetBSD$
  #endif  // OS_WINDOWS
  
 -#ifdef OS_LINUX
-+#if defined(OS_LINUX) || defined(OS_NETBSD)
++#if defined(OS_LINUX)
    // On Linux, use abstract namespace which is independent of the file system.
    (*ipc_name)[0] = '\0';
  #endif
@@ -16,7 +16,7 @@ $NetBSD$
  #endif
  
 -#ifdef OS_LINUX
-+#if defined(OS_LINUX) || defined(OS_NETBSD)
++#if defined(OS_LINUX)
    // load from /proc/<pid>/exe
    char proc[128];
    char filename[512];
