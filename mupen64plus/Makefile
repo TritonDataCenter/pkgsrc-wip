@@ -32,13 +32,15 @@ do-install:
 		cd ${WRKSRC} && ${SETENV} ${INSTALL_ENV} ${BASH} m64p_install.sh;
 
 
-BUILD_DEPENDS+=	glu-[0-9]*:../../graphics/glu
-BUILD_DEPENDS+=	MesaLib-[0-9]*:../../graphics/MesaLib
+.include "../../graphics/glu/buildlink3.mk"
+BUILDLINK_DEPMETHOD.glu=build
+.include "../../graphics/MesaLib/buildlink3.mk"
+BUILDLINK_DEPMETHOD.MesaLib=build
 .include "../../mk/dlopen.buildlink3.mk"
 .include "../../mk/pthread.buildlink3.mk"
-#.include "../../x11/gtk2/buildlink3.mk"
 .include "../../devel/zlib/buildlink3.mk"
 .include "../../graphics/png/buildlink3.mk"
-BUILD_DEPENDS+=	freetype2-[0-9]*:../../graphics/freetype2
+.include "../../graphics/freetype2/buildlink3.mk"
+BUILDLINK_DEPMETHOD.freetype2=build
 .include "../../devel/SDL/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
