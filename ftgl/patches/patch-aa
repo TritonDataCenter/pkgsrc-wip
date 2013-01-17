@@ -1,5 +1,7 @@
 $NetBSD$
 
+return wcsdup if OPSYS != DragonFly.
+
 --- ./src/FTFont/FTBufferFont.cpp.orig	2008-06-12 09:52:03 +0000
 +++ ./src/FTFont/FTBufferFont.cpp
 @@ -206,7 +206,7 @@ inline wchar_t *StringCopy(wchar_t const
