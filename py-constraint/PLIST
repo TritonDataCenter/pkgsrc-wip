@@ -1,0 +1,4 @@
+@comment $NetBSD$
+${PYSITELIB}/constraint.py
+${PYSITELIB}/constraint.pyc
+${PYSITELIB}/constraint.pyo
