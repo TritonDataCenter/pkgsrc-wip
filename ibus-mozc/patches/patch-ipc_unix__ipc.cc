@@ -25,17 +25,17 @@ $NetBSD$
  #endif
  
 +#if defined(OS_NETBSD)
-+  struct uucred peer_cred;
++  struct unpcbid peer_cred;
 +  int peer_cred_len = sizeof(peer_cred);
-+  if (getsockopt(socket, SOL_SOCKET, LOCAL_PEEREID,
++  if (getsockopt(socket, 0, LOCAL_PEEREID,
 +                 reinterpret_cast<void *>(&peer_cred),
 +                 reinterpret_cast<socklen_t *>(&peer_cred_len)) < 0) {
 +    LOG(ERROR) << "cannot get peer credential. Not a Unix socket?";
 +    return false;
 +  }
 +
-+  if (peer_cred.cr_uid != ::geteuid()) {
-+    LOG(WARNING) << "uid mismatch." << peer_cred.cr_uid << "!=" << ::geteuid();
++  if (peer_cred.unp_euid!= ::geteuid()) {
++    LOG(WARNING) << "uid mismatch." << peer_cred.unp_euid << "!=" << ::geteuid();
 +    return false;
 +  }
 +#endif
@@ -43,16 +43,33 @@ $NetBSD$
    return true;
  }
  
-@@ -435,7 +451,7 @@ IPCServer::IPCServer(const string &name,
+@@ -310,9 +326,11 @@ void IPCClient::Init(const string &name,
+     address.sun_family = AF_UNIX;
+     ::memcpy(address.sun_path, server_address.data(), server_address_length);
+     address.sun_path[server_address_length] = '\0';
+-#ifdef OS_MACOSX
++#if defined(OS_MACOSX)
+     address.sun_len = SUN_LEN(&address);
+     const size_t sun_len = sizeof(address);
++#elif defined(OS_NETBSD)
++    size_t sun_len = SUN_LEN(&address);
+ #else
+     const size_t sun_len = sizeof(address.sun_family) + server_address_length;
+ #endif
+@@ -435,9 +453,11 @@ IPCServer::IPCServer(const string &name,
                 SO_REUSEADDR,
                 reinterpret_cast<char *>(&on),
                 sizeof(on));
 -#ifdef OS_MACOSX
-+#if defined(OS_MACOSX) || defined(OS_NETBSD)
++#if defined(OS_MACOSX)
    addr.sun_len = SUN_LEN(&addr);
    const size_t sun_len = sizeof(addr);
++#elif defined(OS_NETBSD)
++  size_t sun_len = SUN_LEN(&addr);
  #else
-@@ -534,4 +550,4 @@ void IPCServer::Terminate() {
+   const size_t sun_len = sizeof(addr.sun_family) + server_address_.size();
+ #endif
+@@ -534,4 +554,4 @@ void IPCServer::Terminate() {
  
  };  // namespace mozc
  
