@@ -46,6 +46,13 @@ SUBST_FILES.gyp+=	build_mozc.py
 SUBST_VARS.gyp+=	OPENSSL_CFLAGS OPENSSL_INC OPENSSL_LDFLAGS OPENSSL_LIBS
 SUBST_VARS.gyp+=	PREFIX QTDIR
 
+.include "../../mk/bsd.prefs.mk"
+.if ${OPSYS} == "NetBSD"
+OSDEST=		bsd
+.elif ${OPSYS} == "Linux"
+OSDEST=		linux
+.endif
+
 do-configure:
 	cd ${WRKSRC} && env ${MAKE_ENV} \
 		GYP_DEFINES="use_libprotobuf=1" \
