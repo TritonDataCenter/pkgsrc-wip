@@ -14,7 +14,7 @@ LICENSE=	gnu-gpl-v2
 #DEPENDS+=	xpmroot-2.*:../../x11/xpmroot
 PKGREVISION=	1
 
-CONFLICTS=	fvwm1-[0-9]* fvwm2-[0-9]* metisse-[0-9]* xpmroot[0-9]*
+CONFLICTS=	fvwm1-[0-9]* fvwm2-[0-9]* metisse-[0-9]* xpmroot-[0-9]*
 EXTRACT_ONLY=	${DISTNAME}.tar.gz
 FVWM_VER=	2.6.5
 
