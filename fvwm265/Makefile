@@ -15,7 +15,7 @@ LICENSE=	gnu-gpl-v2
 
 CONFLICTS=	fvwm1-[0-9]* fvwm2-[0-9]* metisse-[0-9]* xpmroot[0-9]*
 EXTRACT_ONLY=	${DISTNAME}.tar.gz
-FVWM_VER=	2.6.5
+FVWM_VER=	2.6.5nb1
 
 USE_X11BASE=		YES
 GNU_CONFIGURE=		YES
