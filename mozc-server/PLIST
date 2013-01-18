@@ -1,2 +1,2 @@
 @comment $NetBSD$
-bin/mozc_server
+libexec/mozc_server_japanese
