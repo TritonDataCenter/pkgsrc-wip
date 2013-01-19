@@ -19,6 +19,7 @@ include/ode/odecpp.h
 include/ode/odecpp_collision.h
 include/ode/odeinit.h
 include/ode/odemath.h
+include/ode/odemath_legacy.h
 include/ode/rotation.h
 include/ode/timer.h
 lib/libode.la
