@@ -27,5 +27,6 @@ SUBST_FILES.path=	${FIX_PYTHON_PATHS}
 
 .include "../../lang/python/application.mk"
 .include "../../lang/python/extension.mk"
+.include "../../devel/py-curses/buildlink3.mk"
 .include "../../x11/py-qt4/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
