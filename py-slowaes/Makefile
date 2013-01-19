@@ -14,5 +14,5 @@ LICENSE=	apache-2.0
 
 PYDISTUTILSPKG=	yes
 
-.include "../../lang/python/extension.mk"
+.include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"
