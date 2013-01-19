@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	xml-light-2.2
+PKGREVISION=	1
 CATEGORIES=	textproc
 MASTER_SITES=	http://tech.motion-twin.com/zip/
 EXTRACT_SUFX=	.zip
@@ -13,6 +14,7 @@ LICENSE=	gnu-lgpl-v2
 
 WRKSRC=		${WRKDIR}/xml-light
 USE_LANGUAGES=	c
+USE_TOOLS+=	gmake
 
 SUBST_CLASSES+=		destdir
 SUBST_MESSAGE.destdir=	Fixing DESTDIR.
