@@ -343,6 +343,7 @@ SUBDIR+=	coxeter
 SUBDIR+=	cpdup
 SUBDIR+=	cpm
 SUBDIR+=	crabemu
+SUBDIR+=	crawl-stone-soup
 SUBDIR+=	creal
 SUBDIR+=	cream
 SUBDIR+=	crfpp
