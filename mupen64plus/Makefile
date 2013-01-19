@@ -41,6 +41,5 @@ BUILDLINK_DEPMETHOD.MesaLib=build
 .include "../../devel/zlib/buildlink3.mk"
 .include "../../graphics/png/buildlink3.mk"
 .include "../../graphics/freetype2/buildlink3.mk"
-BUILDLINK_DEPMETHOD.freetype2=build
 .include "../../devel/SDL/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
