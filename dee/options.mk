@@ -2,7 +2,7 @@
 
 PKG_OPTIONS_VAR=	PKG_OPTIONS.dee
 PKG_SUPPORTED_OPTIONS=	doc icu introspection tests
-PKG_SUGGESTED_OPTIONS+=	icu introspection doc # tests
+PKG_SUGGESTED_OPTIONS+=	doc icu introspection tests
 PLIST_VARS+=		icu introspection
 
 .include "../../mk/bsd.options.mk"
