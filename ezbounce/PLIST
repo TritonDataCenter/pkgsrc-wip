@@ -2,12 +2,10 @@
 man/man1/ezbounce.1
 sbin/ezbchk
 sbin/ezbounce
-sbin/mdidentd
 share/doc/ezbounce/CHANGES
 share/doc/ezbounce/README
-share/doc/ezbounce/README.SSL
 share/doc/ezbounce/TODO
-share/doc/ezbounce/sample.MOTD
+share/doc/ezbounce/motd.txt
 share/doc/ezbounce/sample.conf
 share/examples/ezbounce/ezbounce.conf.default
 share/examples/rc.d/ezbounce
