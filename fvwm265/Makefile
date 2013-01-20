@@ -30,7 +30,6 @@ INSTALLATION_DIRS+=	lib/X11/fvwm2/pixmaps
 INSTALLATION_DIRS+=	${PKGMANDIR}/man1
 
 EVAL_PREFIX+=		XPMDIR=xpm
-CONFIGURE_ARGS+=	--without-gnome
 CONFIGURE_ARGS+=	--sysconfdir=${PREFIX:Q}/lib/X11/fvwm2
 CONFIGURE_ARGS+=	--libexecdir=${PREFIX:Q}/lib/X11
 CONFIGURE_ARGS+=	--with-xpm-includes=${XPMDIR:Q}/include
