@@ -787,7 +787,6 @@ SUBDIR+=	google-perftools
 SUBDIR+=	googlecl
 SUBDIR+=	googlesharing
 SUBDIR+=	gosmore
-SUBDIR+=	gov2
 SUBDIR+=	gpac-devel
 SUBDIR+=	gpak
 SUBDIR+=	gplbasic
