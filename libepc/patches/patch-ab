@@ -1,5 +1,7 @@
 $NetBSD: patch-ab,v 1.1.1.1 2010/05/01 20:41:40 wiz Exp $
 
+Run this block only if SIOCGIFINDEX is defined.
+
 --- tests/framework.c.orig	2008-10-20 07:47:36.000000000 +0000
 +++ tests/framework.c
 @@ -188,6 +188,7 @@ epc_test_list_ifaces (void)
