@@ -18,6 +18,8 @@ SUBST_MESSAGE.fix-prefix=	Fixing relative prefix
 SUBST_FILES.fix-prefix=		gpak.pl
 SUBST_SED.fix-prefix=		-e 's,gpak.glade,${PREFIX}/share/gpak.glade,'
 
+INSTALLATION_DIRS+=	bin share
+
 do-build:
 	${MKDIR} ${WRKSRC}
 	${CP} ${FILESDIR}/gpak.pl ${WRKSRC}
