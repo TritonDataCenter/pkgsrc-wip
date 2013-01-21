@@ -1,7 +1,7 @@
 # $NetBSD$
 
 PKG_OPTIONS_VAR=	PKG_OPTIONS.gurlchecker
-PKG_SUPPORTED_OPTIONS=	clamav croco doc json tidy
+PKG_SUPPORTED_OPTIONS=	clamav croco doc json sqlite3 tidy
 PKG_SUGGESTED_OPTIONS+=	doc
 PLIST_VARS+=		doc
 
