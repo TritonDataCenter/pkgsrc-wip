@@ -1,4 +1,7 @@
 $NetBSD$
+
+Addd DragonFly BSD support.
+
 --- src/grip.h.orig     2007-01-21 12:28:57.000000000 -0600
 +++ src/grip.h  2007-01-21 12:29:33.000000000 -0600
 @@ -48,7 +48,7 @@
