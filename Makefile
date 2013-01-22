@@ -770,7 +770,6 @@ SUBDIR+=	gnome-js-common
 SUBDIR+=	gnome-keyring-sharp
 SUBDIR+=	gnome-librest
 SUBDIR+=	gnome-paint
-SUBDIR+=	gnome-user-share
 SUBDIR+=	gnomebaker
 SUBDIR+=	gnomeradio
 SUBDIR+=	gnormalize
