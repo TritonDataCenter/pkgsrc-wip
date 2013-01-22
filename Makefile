@@ -3299,6 +3299,7 @@ SUBDIR+=	wxGTK-unicode
 SUBDIR+=	wxMaxima
 SUBDIR+=	x264-devel
 SUBDIR+=	xace
+SUBDIR+=	xalan-c
 SUBDIR+=	xar
 SUBDIR+=	xaralx-bin
 SUBDIR+=	xbase
