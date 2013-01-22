@@ -13,7 +13,7 @@ LICENSE=	gnu-gpl-v3
 
 GNU_CONFIGURE=		yes
 USE_LIBTOOL=		yes
-USE_TOOLS+=		gconftool-2 gmake msgfmt msgmerge perl pkg-config
+USE_TOOLS+=		gconftool-2 gmake msgfmt msgmerge perl intltool pkg-config
 USE_TOOLS+=		xgettext
 USE_PKGLOCALEDIR=	yes
 
