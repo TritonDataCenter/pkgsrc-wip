@@ -9,7 +9,8 @@ MASTER_SITES=		http://bluez.sourceforge.net/download/
 MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://bluez.sourceforge.net/
 COMMENT=		BlueZ helpers for Gnome
-LICENSE=		gnu-gpl-v2 gnu-lgpl-v2.1
+# AND? OR?
+#LICENSE=		gnu-gpl-v2 gnu-lgpl-v2.1
 
 USE_LANGUAGES=		c
 USE_PERL=		YES

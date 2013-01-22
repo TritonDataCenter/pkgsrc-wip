@@ -9,7 +9,8 @@ EXTRACT_SUFX=	.tar.bz2
 MAINTAINER=	loki.vt@gmail.com
 HOMEPAGE=	http://audacious-media-player.org/
 COMMENT=	Media player based on BMP and XMMS
-LICENSE=	gnu-gpl-v3 public-domain
+# AND? OR?
+#LICENSE=	gnu-gpl-v3 public-domain
 
 USE_LANGUAGES=  c c++
 GNU_CONFIGURE=  YES
