@@ -14,9 +14,8 @@ LICENSE=	python-software-foundation
 
 WRKSRC=		${WRKDIR}/${PKGNAME_NOREV}
 HTMLDIR=	share/doc/diveintopython
-NO_BUILD=	yes
 NO_CONFIGURE=	yes
-USE_TOOLS+=	pax
+NO_BUILD=	yes
 
 INSTALLATION_DIRS+=	${HTMLDIR}/html/appendix
 INSTALLATION_DIRS+=	${HTMLDIR}/html/dynamic_functions
