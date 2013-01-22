@@ -1,0 +1,9 @@
+@comment $NetBSD$
+include/xalanc/ICUBridge/ICUBridge.hpp
+include/xalanc/ICUBridge/ICUBridgeCleanup.hpp
+include/xalanc/ICUBridge/ICUBridgeCollationCompareFunctor.hpp
+include/xalanc/ICUBridge/ICUBridgeCollationCompareFunctorImpl.hpp
+include/xalanc/ICUBridge/ICUBridgeDefinitions.hpp
+include/xalanc/ICUBridge/ICUFormatNumberFunctor.hpp
+include/xalanc/ICUBridge/ICUXalanNumberFormatFactory.hpp
+include/xalanc/ICUBridge/ICUXalanNumberFormatProxy.hpp
