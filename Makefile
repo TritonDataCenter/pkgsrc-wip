@@ -856,7 +856,6 @@ SUBDIR+=	gwibber
 SUBDIR+=	gwsmhg
 SUBDIR+=	gwyddion
 SUBDIR+=	gxconsole
-SUBDIR+=	gxmessage
 SUBDIR+=	gxmms2
 SUBDIR+=	gyp
 SUBDIR+=	habak
