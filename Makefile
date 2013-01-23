@@ -1327,7 +1327,6 @@ SUBDIR+=	kyototycoon
 SUBDIR+=	kyra2
 SUBDIR+=	kytea
 SUBDIR+=	l2tpd
-SUBDIR+=	labelnation
 SUBDIR+=	labyrinth
 SUBDIR+=	lambertw
 SUBDIR+=	lapack340
