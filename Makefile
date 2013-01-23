@@ -722,7 +722,6 @@ SUBDIR+=	ghostscript-cidfonts
 SUBDIR+=	ghostscript-cidfonts-ryumin
 SUBDIR+=	giggle
 SUBDIR+=	gimmie
-SUBDIR+=	gimp-high-pass-filter
 SUBDIR+=	gin
 SUBDIR+=	girara
 SUBDIR+=	git
