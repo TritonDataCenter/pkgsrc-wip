@@ -47,8 +47,8 @@ lib/libaudgui.so.1.0.0
 lib/libaudtag.so
 lib/libaudtag.so.1
 lib/libaudtag.so.1.0.0
-lib/pkgconfig/audacious.${LOWER_VENDOR}
-lib/pkgconfig/audclient.${LOWER_VENDOR}
+lib/pkgconfig/audacious.pc
+lib/pkgconfig/audclient.pc
 man/man1/audacious.1
 man/man1/audtool.1
 share/applications/audacious.desktop
