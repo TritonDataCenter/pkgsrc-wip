@@ -85,7 +85,7 @@ CLEANUP="${CLEANUP} ${ADDLIST}"
 	find ${PACKAGE} \( -name CVS -prune \) -o -type f ! -name '*orig' \
 	    ! -name '.#*' -print
 ) | sort > ${ADDLIST}
-sed 's|^|CVS: will add: wip/|' ${ADDLIST} >> ${MSG}
+sed "s|^|CVS: will add: ${CATEGORY}/|" ${ADDLIST} >> ${MSG}
 
 ${EDITOR} ${MSG}
 
