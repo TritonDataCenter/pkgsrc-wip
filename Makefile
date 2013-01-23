@@ -3119,7 +3119,6 @@ SUBDIR+=	tk85-itk
 SUBDIR+=	tk86
 SUBDIR+=	tkhtml3
 SUBDIR+=	tkpng
-SUBDIR+=	tktable
 SUBDIR+=	tktile
 SUBDIR+=	tleenx2
 SUBDIR+=	tleenx3
