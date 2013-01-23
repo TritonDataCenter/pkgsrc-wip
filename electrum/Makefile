@@ -13,8 +13,8 @@ PYTHON_VERSIONS_ACCEPTED= 27 26
 NO_BUILD=	yes
 PYDISTUTILSPKG= yes
 
-DEPENDS+=	${PYPKGPREFIX}-slowaes:../../wip/py-slowaes
-DEPENDS+=	${PYPKGPREFIX}-ecdsa:../../wip/py-ecdsa
+DEPENDS+=	${PYPKGPREFIX}-slowaes-[0-9]*:../../wip/py-slowaes
+DEPENDS+=	${PYPKGPREFIX}-ecdsa-[0-9]*:../../wip/py-ecdsa
 
 FIX_PYTHON_PATHS+=	lib/*.py
 
