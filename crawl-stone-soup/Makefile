@@ -3,12 +3,12 @@
 
 DISTNAME=	stone_soup-0.11.1
 CATEGORIES=	games
-MASTER_SITES=	http://downloads.sourceforge.net/project/crawl-ref/Stone%20Soup/0.11.1/
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=crawl-ref/}
 EXTRACT_SUFX=	.tar.xz
 WRKSRC=		${WRKDIR}/${DISTNAME}/source
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
-HOMEPAGE=	http://downloads.sourceforge.net/project/crawl-ref/Stone%20Soup/0.11.1/
+HOMEPAGE=	http://crawl.develz.org/wordpress/
 COMMENT=	Dungeon Crawl Stone Soup is a role-playing roguelike game
 LICENSE=	gnu-gpl-v2
 
