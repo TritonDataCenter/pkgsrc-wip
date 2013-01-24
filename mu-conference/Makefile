@@ -9,8 +9,11 @@ MASTER_SITES=		http://download.gna.org/mu-conference/
 MAINTAINER=		eric@cirr.com
 HOMEPAGE=		https://gna.org/projects/mu-conference/
 COMMENT=		Implementation of the JEP-0045 Multi-User Chat protocol
+LICENSE=		gnu-gpl-v2
 
 WRKSRC=			${WRKDIR}/${DISTNAME}/src
+
+MAKE_JOBS_SAFE=		NO
 
 USE_TOOLS+=		pkg-config
 
