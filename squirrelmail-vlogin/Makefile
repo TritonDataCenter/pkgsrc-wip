@@ -21,6 +21,7 @@ MESSAGE_SUBST+=		SMDIR=${SMDIR}
 do-build:
 
 do-install:
+	${MKDIR} ${DESTDIR}${SMDIR}/plugins
 	cd ${WRKDIR} && ${TAR} -cf - ${DISTNAME:C/-.*$//} | \
 		${TAR} -xf - -C ${DESTDIR}${SMDIR}/plugins
 

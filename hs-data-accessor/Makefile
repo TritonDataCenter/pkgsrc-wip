@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	data-accessor-0.2.2.1
+DISTNAME=	data-accessor-0.2.2.3
 CATEGORIES=	devel
 
 MAINTAINER=	pho@cielonegro.org

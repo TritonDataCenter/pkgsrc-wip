@@ -99,10 +99,6 @@ pkgbase := xmms2
 .include "../../audio/libmpcdec/buildlink3.mk"
 .endif
 
-.if !empty(PKG_BUILD_OPTIONS.xmms2:Mperl)
-.include "../../lang/perl5/buildlink3.mk"
-.endif
-
 .if !empty(PKG_BUILD_OPTIONS.xmms2:Mpulseaudio)
 .include "../../audio/pulseaudio/buildlink3.mk"
 .endif

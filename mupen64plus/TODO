@@ -1,1 +1,2 @@
-Test gamepads.
+* Test gamepads.
+* Make this work with X11_TYPE=native. Works fine with modular-xorg.

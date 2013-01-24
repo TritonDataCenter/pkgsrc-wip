@@ -1,5 +1,7 @@
 $NetBSD$
 
+Fix build on sunos.
+
 --- src/AudioIO.cpp.orig	2012-08-21 17:48:21.000000000 +0900
 +++ src/AudioIO.cpp	2013-01-08 22:21:56.000000000 +0900
 @@ -271,6 +271,10 @@ writing audio.

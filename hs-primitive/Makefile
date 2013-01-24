@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	primitive-0.4.1
+DISTNAME=	primitive-0.5.0.1
 CATEGORIES=	devel
 
 MAINTAINER=	pho@cielonegro.org

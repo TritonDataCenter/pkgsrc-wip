@@ -29,6 +29,7 @@ do-build:
 	${MV} config.php config_default.php
 
 do-install:
+	${MKDIR} ${DESTDIR}${SMDIR}/plugins
 	cd ${WRKDIR} && ${TAR} -cf - ${DISTNAME:C/-.*$//} | \
 		${TAR} -xf - -C ${DESTDIR}${SMDIR}/plugins
 

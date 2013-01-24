@@ -47,7 +47,10 @@ share/doc/${PKGNAME}/api/org/gnu/glib/package-summary.html
 share/doc/${PKGNAME}/api/org/gnu/glib/package-tree.html
 share/doc/${PKGNAME}/api/overview-tree.html
 share/doc/${PKGNAME}/api/package-list
-share/doc/${PKGNAME}/api/resources/inherit.gif
+share/doc/${PKGNAME}/api/resources/background.gif
+share/doc/${PKGNAME}/api/resources/tab.gif
+share/doc/${PKGNAME}/api/resources/titlebar.gif
+share/doc/${PKGNAME}/api/resources/titlebar_end.gif
 share/doc/${PKGNAME}/api/serialized-form.html
 share/doc/${PKGNAME}/api/stylesheet.css
 share/glib-java/macros/ac_prog_jar.m4

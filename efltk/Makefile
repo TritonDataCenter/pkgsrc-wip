@@ -2,7 +2,6 @@
 #
 
 DISTNAME=	efltk-2.0.8
-#PKGREVISION=	0
 PKGREVISION=	2
 CATEGORIES=	x11
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=ede/}
@@ -10,6 +9,7 @@ MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=ede/}
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://ede.sourceforge.net/
 COMMENT=	Extended Fast Light Toolkit
+LICENSE=	gnu-lgpl-v2
 
 PKG_DESTDIR_SUPPORT=	none
 

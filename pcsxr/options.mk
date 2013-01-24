@@ -10,4 +10,6 @@ PLIST_VARS+=		nls
 .if !empty(PKG_OPTIONS:Mnls)
 .include "../../devel/gettext-lib/buildlink3.mk"
 PLIST.nls=	yes
+.else
+CONFIGURE_ARGS+=	--disable-nls
 .endif

@@ -1,5 +1,7 @@
 $NetBSD$
 
+Add NetBSD support.
+
 --- error.c.orig	Wed May  1 16:59:23 2002
 +++ error.c
 @@ -65,7 +65,12 @@ void xplerr2(int err, String s1, String 

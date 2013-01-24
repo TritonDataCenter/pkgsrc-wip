@@ -1,5 +1,6 @@
 $NetBSD$
 
+Fix build on sunos.
 
 --- src/effects/NoiseRemoval.cpp.orig	2006-11-15 05:12:10.000000000 +0100
 +++ src/effects/NoiseRemoval.cpp	2012-01-15 19:19:20.622909031 +0100

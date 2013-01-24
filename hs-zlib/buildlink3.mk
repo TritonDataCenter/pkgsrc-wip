@@ -5,7 +5,7 @@ BUILDLINK_TREE+=	hs-zlib
 .if !defined(HS_ZLIB_BUILDLINK3_MK)
 HS_ZLIB_BUILDLINK3_MK:=
 
-BUILDLINK_API_DEPENDS.hs-zlib+=	hs-zlib>=0.5.3
+BUILDLINK_API_DEPENDS.hs-zlib+=	hs-zlib>=0.5.4
 BUILDLINK_PKGSRCDIR.hs-zlib?=	../../wip/hs-zlib
 
 .include "../../devel/zlib/buildlink3.mk"

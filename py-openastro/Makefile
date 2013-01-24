@@ -45,10 +45,10 @@ post-install:
 .include "../../sysutils/desktop-file-utils/desktopdb.mk"
 .include "../../wip/py-pyswisseph/buildlink3.mk"
 .include "../../wip/swisseph/buildlink3.mk"
-DEPENDS+=	${PYPKGPREFIX}-pytz:../../time/py-pytz
+DEPENDS+=	${PYPKGPREFIX}-pytz-[0-9]*:../../time/py-pytz
 .include "../../graphics/ImageMagick/buildlink3.mk"
 .include "../../graphics/py-cairo/buildlink3.mk"
 .include "../../x11/py-gnome2-desktop/buildlink3.mk"
-DEPENDS+=	${PYPKGPREFIX}-dateutil:../../time/py-dateutil
+DEPENDS+=	${PYPKGPREFIX}-dateutil-[0-9]*:../../time/py-dateutil
 .include "../../x11/py-gtk2/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

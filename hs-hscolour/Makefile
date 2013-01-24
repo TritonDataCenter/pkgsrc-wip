@@ -1,8 +1,8 @@
 # $NetBSD$
 #
 
-DISTNAME=	hscolour-1.19
-CATEGORIES=	devel
+DISTNAME=	hscolour-1.20.3
+CATEGORIES=	textproc
 
 MAINTAINER=	pho@cielonegro.org
 COMMENT=	Colourise Haskell code
