@@ -9,4 +9,4 @@ SHA1 (patch-deps_uv_src_unix_netbsd.c) = e812ed14e06350adde7aa6fd438c1aa6c9af1e7
 SHA1 (patch-deps_uv_uv.gyp) = 8614c63b2436a9062b3fe67ee80656d1cde920d7
 SHA1 (patch-deps_v8_tools_gyp_v8.gyp) = 0f2804eaa72eef282c19c3cd045082864d78b6fd
 SHA1 (patch-node.gyp) = 570a5fe1bc86e86a3271f5faf1cd1b6a59faa765
-SHA1 (patch-tools_install.py) = df8133f368c0d664918fd7e98803c20a8b4ee984
+SHA1 (patch-tools_install.py) = 50e676dfe88ba838936e5c8c7fb83bfeec5a6a3c
