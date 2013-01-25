@@ -1,8 +1,8 @@
 # $NetBSD$
 #
 
-DISTNAME=	mashpodder-svn37
-PKGNAME=	mashpodder-svn-37
+DISTNAME=	mashpodder-svn49
+PKGNAME=	mashpodder-svn-49
 CATEGORIES=	net
 MASTER_SITES=	https://mashpodder.googlecode.com/files/
 
