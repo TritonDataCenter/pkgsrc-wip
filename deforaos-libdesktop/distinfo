@@ -3,3 +3,4 @@ $NetBSD$
 SHA1 (libDesktop-0.0.9.tar.gz) = 525f9666d2848418c6dec25a0abccca0e807bff6
 RMD160 (libDesktop-0.0.9.tar.gz) = 5d48f629ba7796b22c67509857d6039c4e7150d0
 Size (libDesktop-0.0.9.tar.gz) = 26474 bytes
+SHA1 (patch-src_Makefile) = a218b5c75790d44deae446dff25984955c8d615d
