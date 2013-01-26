@@ -2961,7 +2961,6 @@ SUBDIR+=	snes9express
 SUBDIR+=	snotes
 SUBDIR+=	socklog
 SUBDIR+=	socnetv
-SUBDIR+=	sofia-sip
 SUBDIR+=	softflowd
 SUBDIR+=	songwrite2
 SUBDIR+=	soqt
