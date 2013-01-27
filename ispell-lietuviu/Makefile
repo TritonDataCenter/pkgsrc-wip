@@ -20,11 +20,12 @@ SUBST_FILES.fix-python=		tools/*.py
 SUBST_SED.fix-python=		-e 's,/usr/bin/python,${PYTHONBIN},g'
 SUBST_SED.fix-python+=		-e 's,env python,env ${PYTHONBIN},g'
 
-SUBST_CLASSES+=		destdir
-SUBST_FILES.destdir=	Makefile
-SUBST_MESSAGE.destdir=	Fixing DESTDIR path.
-SUBST_SED.destdir=	-e "s|installdir=|installdir=${DESTDIR}|1"
-SUBST_STAGE.destdir=	pre-configure
+SUBST_CLASSES+=		install
+SUBST_FILES.install=	Makefile
+SUBST_MESSAGE.install=	Fixing DESTDIR path and install user/group.
+SUBST_SED.install=	-e "s|installdir=|installdir=${DESTDIR}|1"
+SUBST_SED.install+=	-e 's/-g 0 -o 0//g'
+SUBST_STAGE.install=	pre-configure
 
 BUILD_TARGET=		lietuviu.hash
 INSTALLATION_DIRS+=	lib
