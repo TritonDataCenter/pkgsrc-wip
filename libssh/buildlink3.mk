@@ -5,8 +5,8 @@ BUILDLINK_TREE+=	libssh
 .if !defined(LIBSSH_BUILDLINK3_MK)
 LIBSSH_BUILDLINK3_MK:=
 
-BUILDLINK_API_DEPENDS.libssh+=	libssh>=0.5.3
-BUILDLINK_ABI_DEPENDS.libssh+=	libssh>=0.5.3
+BUILDLINK_API_DEPENDS.libssh+=	libssh>=0.5.4
+BUILDLINK_ABI_DEPENDS.libssh+=	libssh>=0.5.4
 BUILDLINK_PKGSRCDIR.libssh?=	../../wip/libssh
 
 pkgbase := libssh
