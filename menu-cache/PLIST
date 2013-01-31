@@ -1,6 +1,0 @@
-@comment $NetBSD$
-include/menu-cache/menu-cache.h
-lib/libmenu-cache.la
-lib/pkgconfig/libmenu-cache.pc
-libexec/menu-cache-gen
-libexec/menu-cached

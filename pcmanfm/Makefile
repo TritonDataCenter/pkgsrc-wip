@@ -18,7 +18,7 @@ USE_TOOLS+=		intltool pkg-config
 
 .include "../../x11/gtk2/buildlink3.mk"
 
-.include "../../wip/menu-cache/buildlink3.mk"
+.include "../../sysutils/menu-cache/buildlink3.mk"
 
 .include "../../wip/libfm/buildlink3.mk"
 
