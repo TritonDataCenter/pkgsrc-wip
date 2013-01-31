@@ -1574,7 +1574,6 @@ SUBDIR+=	meep
 SUBDIR+=	meep-mpi
 SUBDIR+=	memdump
 SUBDIR+=	memgrep
-SUBDIR+=	menu-cache
 SUBDIR+=	menumaker
 SUBDIR+=	meta-tracker
 SUBDIR+=	metalog
