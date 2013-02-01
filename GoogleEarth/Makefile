@@ -6,7 +6,7 @@ CATEGORIES=		geography x11
 MASTER_SITES=		http://dl.google.com/earth/client/current/
 EXTRACT_SUFX=
 
-MAINTAINER=		tnn@NetBSD.org
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://earth.google.com/
 COMMENT=		Interactive browser for satellite imagery and maps
 LICENSE=		google-earth-license

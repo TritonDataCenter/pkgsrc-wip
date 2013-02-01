@@ -6,7 +6,7 @@ PKGNAME=	kBuild-0.1.5p2
 CATEGORIES=	devel
 MASTER_SITES=	ftp://ftp.netlabs.org/pub/kbuild/
 
-MAINTAINER=	tnn@NetBSD.org
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	ftp://ftp.netlabs.org/pub/kbuild/
 COMMENT=	Framework for writing simple makefiles for complex tasks
 LICENSE=	gnu-gpl-v3 # but also various other licenses in 3rd party code

@@ -5,7 +5,7 @@ DISTNAME=	mtop-0.6.6
 CATEGORIES=	databases
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=mtop/}
 
-MAINTAINER=	tnn@NetBSD.org
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://mtop.sourceforge.net/
 COMMENT=	Curses-based MySQL server monitor
 LICENSE=	gnu-gpl-v2
