@@ -1526,7 +1526,6 @@ SUBDIR+=	lxmenu-data
 SUBDIR+=	lxmusic
 SUBDIR+=	lxpanel
 SUBDIR+=	lxrandr
-SUBDIR+=	lxsession
 SUBDIR+=	lxsession-edit
 SUBDIR+=	lxshortcut
 SUBDIR+=	lxtask
