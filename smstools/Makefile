@@ -7,7 +7,7 @@ PKGREVISION=		1
 CATEGORIES=		comms
 MASTER_SITES=		http://smstools3.kekekasvi.com/packages/
 
-MAINTAINER=		shattered@users.sourceforge.net
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://smstools3.kekekasvi.com/
 COMMENT=		Send and receive short messages via GSM phones
 LICENSE=		gnu-gpl-v2
