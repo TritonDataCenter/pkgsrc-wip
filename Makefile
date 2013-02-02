@@ -93,6 +93,7 @@ SUBDIR+=	am-utils
 SUBDIR+=	analizo
 SUBDIR+=	and
 SUBDIR+=	ann
+SUBDIR+=	ansible
 SUBDIR+=	anthy-dic-jis34
 SUBDIR+=	aoeui
 SUBDIR+=	aoi
