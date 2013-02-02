@@ -85,7 +85,6 @@ SUBDIR+=	alac_decoder
 SUBDIR+=	alberta
 SUBDIR+=	alex
 SUBDIR+=	alive
-SUBDIR+=	alphamail
 SUBDIR+=	alsa-plugins
 SUBDIR+=	alsa-utils
 SUBDIR+=	alt-ergo
