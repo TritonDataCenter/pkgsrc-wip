@@ -10,6 +10,7 @@ MASTER_SITES=		http://offload1.icculus.org/pyddr/
 MAINTAINER=		shattered@users.sourceforge.net
 HOMEPAGE=		http://icculus.org/pyddr/
 COMMENT=		Simulator of Dance Dance Revolution and similar games
+LICENSE=		mit
 
 DEPENDS+=		${PYPKGPREFIX}-game>=1.6:../../devel/py-game
 
