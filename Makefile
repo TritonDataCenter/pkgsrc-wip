@@ -93,6 +93,7 @@ SUBDIR+=	analizo
 SUBDIR+=	and
 SUBDIR+=	ann
 SUBDIR+=	ansible
+SUBDIR+=	ansible-dev
 SUBDIR+=	anthy-dic-jis34
 SUBDIR+=	aoeui
 SUBDIR+=	aoi
