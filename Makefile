@@ -501,6 +501,7 @@ SUBDIR+=	e17
 SUBDIR+=	e2fsprogs
 SUBDIR+=	e3
 SUBDIR+=	e_dbus
+SUBDIR+=	euca2ools
 SUBDIR+=	easymesh
 SUBDIR+=	eboard-extras
 SUBDIR+=	ecasound
