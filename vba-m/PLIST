@@ -21,6 +21,7 @@ ${PLIST.nls}share/locale/pl/LC_MESSAGES/gvbam.mo
 ${PLIST.nls}share/locale/pt_BR/LC_MESSAGES/gvbam.mo
 ${PLIST.nls}share/locale/sv/LC_MESSAGES/gvbam.mo
 ${PLIST.nls}share/locale/zh_CN/LC_MESSAGES/gvbam.mo
+${PLIST.nls}share/locale/zh_TW/LC_MESSAGES/gvbam.mo
 ${PLIST.gtk}share/vbam/ui/cheatedit.ui
 ${PLIST.gtk}share/vbam/ui/cheatlist.ui
 ${PLIST.gtk}share/vbam/ui/display.ui
