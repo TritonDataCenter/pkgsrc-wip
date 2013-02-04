@@ -5,7 +5,7 @@ PKGNAME=	bitchx-1.2 # XXX ${DISTNAME:S|-final||:LC}
 CATEGORIES=	chat
 MASTER_SITES=	http://www.bitchx.ca/
 
-MAINTAINER=	pkgsrc-users@NetBSD.org
+MAINTAINER=	nuod4@home.nl
 HOMEPAGE=	http://www.bitchx.org/
 COMMENT=	IRC client based on ircII
 
