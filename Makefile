@@ -4,6 +4,7 @@
 COMMENT=	WIP pkgsrc packages
 
 SUBDIR+=	389-ds-base
+SUBDIR+=	BitchX	# TODO, fire
 SUBDIR+=	Box2D
 SUBDIR+=	Cg-compiler
 SUBDIR+=	Chinput
