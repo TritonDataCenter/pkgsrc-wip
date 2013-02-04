@@ -1,5 +1,7 @@
 $NetBSD$
 
+Comment to please pkglint.
+
 --- library/pkgin.orig	2013-02-01 21:29:56.000000000 +0000
 +++ library/pkgin
 @@ -55,7 +55,7 @@ import shlex
