@@ -1,0 +1,7 @@
+@comment $NetBSD$
+lib/X11/fonts/TTF/Courier Prime Bold Italic.ttf
+lib/X11/fonts/TTF/Courier Prime Bold.ttf
+lib/X11/fonts/TTF/Courier Prime Italic.ttf
+lib/X11/fonts/TTF/Courier Prime.ttf
+share/doc/courier-prime/OFL.txt
+share/doc/courier-prime/Read me.txt
