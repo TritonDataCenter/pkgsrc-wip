@@ -1,0 +1,12 @@
+$NetBSD$
+
+--- data/libDesktop.pc.in.orig	2012-10-29 01:23:26.000000000 +0000
++++ data/libDesktop.pc.in
+@@ -6,6 +6,6 @@ libdir=${exec_prefix}/lib
+ Name: libDesktop
+ Description: DeforaOS Desktop helper library
+ Version: @VERSION@
+-Requires: libSystem gtk+-2.0
++Requires: libSystem gtk+-3.0
+ Cflags: -I${includedir}
+ Libs: @RPATH@ -L${libdir} -lDesktop

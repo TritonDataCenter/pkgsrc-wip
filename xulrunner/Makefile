@@ -4,7 +4,7 @@
 PKGNAME=	xulrunner-${MOZ_BRANCH}${MOZ_BRANCH_MINOR}
 CATEGORIES=	devel www
 
-MAINTAINER=	tnn@NetBSD.org
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://developer.mozilla.org/en/docs/XULRunner
 COMMENT=	XML User Interface Language runtime environment
 LICENSE=	mpl-1.1

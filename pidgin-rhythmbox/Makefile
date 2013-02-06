@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	pidgin-rhythmbox-2.0
-PKGREVISION=	3
+PKGREVISION=	4
 CATEGORIES=	chat
 MASTER_SITES=	http://jon.oberheide.org/projects/pidgin-rhythmbox/downloads/
 
@@ -25,6 +25,7 @@ post-install:
 	${INSTALL_DATA} ${WRKSRC}/README ${DESTDIR}${PREFIX}/share/pidgin-rhythmbox
 
 .include "../../chat/pidgin/buildlink3.mk"
+.include "../../devel/libidn/buildlink3.mk"
 .include "../../sysutils/dbus/buildlink3.mk"
 .include "../../sysutils/dbus-glib/buildlink3.mk"
 .include "../../x11/gtk2/buildlink3.mk"

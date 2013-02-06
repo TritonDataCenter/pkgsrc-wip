@@ -1,5 +1,5 @@
 $NetBSD$
 
-SHA1 (patch-gyptest.py) = 0e49e69049784ac69bbc5ef3e44e318103ffbaa5
-SHA1 (patch-pylib_gyp_common.py) = a43bc2b91ff7b09dfe08c821aa615760e389e0bc
-SHA1 (patch-test_module_src_module.gyp) = aaee5500e4d93a3de1106b7a8ba9c94ec92fedbe
+SHA1 (patch-gyptest.py) = 96f80de69f5ee492c219340bec45e05c86a2a251
+SHA1 (patch-pylib_gyp_common.py) = 99bd2e1efdafad61c6c9ac685e09363b86e59ecc
+SHA1 (patch-pylib_gyp_generator_make.py) = d201298031d7d3d51414a3c1023f0c0efb6c6df7

@@ -28,4 +28,5 @@ pre-configure:
 
 .include "../../sysutils/desktop-file-utils/desktopdb.mk"
 .include "../../x11/qt4-libs/buildlink3.mk"
+.include "../../x11/qt4-tools/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

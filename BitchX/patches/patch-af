@@ -1,0 +1,13 @@
+$NetBSD$
+
+--- Makefile.in.orig	2013-01-01 04:55:05.000000000 +0000
++++ Makefile.in
+@@ -212,7 +212,7 @@ installdll_local: $(srcdir)/Makefile dll
+ 
+ installhelp: installdirs
+ 	cd $(top_srcdir)/bitchx-docs && \
+-		find . -name .svn -prune -o -print | cpio -pdmu -R `id -un`:`id -gn` "$(DESTDIR)$(HELPDIR)"
++		find . -name .svn -prune -o -print | cpio -pdmu "$(DESTDIR)$(HELPDIR)"
+ 	(find "$(DESTDIR)$(HELPDIR)" -type f ! -name '*.bz2' ! -name '*.gz' | \
+ 		(xargs bzip2 -9f || xargs gzip -9f) || :) 2>/dev/null
+ 

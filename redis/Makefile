@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	redis-2.6.7
+DISTNAME=	redis-2.6.9
 CATEGORIES=	databases
 MASTER_SITES=	http://redis.googlecode.com/files/
 

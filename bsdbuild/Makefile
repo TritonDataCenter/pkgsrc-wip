@@ -1,13 +1,15 @@
 # $NetBSD$
 #
 
-DISTNAME=	bsdbuild-2.9
+DISTNAME=	bsdbuild-3.0
+PKGREVISION=	1
 CATEGORIES=	devel
 MASTER_SITES=	http://stable.hypertriton.com/bsdbuild/
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.hypertriton.com/bsdbuild/
 COMMENT=	BSD-licensed portable build system
+LICENSE=	2-clause-bsd
 
 HAS_CONFIGURE=	yes
 USE_LANGUAGES=	# none

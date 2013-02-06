@@ -1,5 +1,7 @@
 @comment $NetBSD$
 bin/mod2ogg2.sh
+lib/uade2/uadecore
+lib/pkgconfig/uade.pc
 man/uade123.1
 share/uade2/eagleplayer.conf
 share/uade2/players/ADPCM_mono

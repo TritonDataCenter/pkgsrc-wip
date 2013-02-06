@@ -14,27 +14,48 @@
 [ -n "${MKTEMP}" ] || MKTEMP=mktemp
 [ -n "${EDITOR}" ] || EDITOR=vi
 
+cleanup() {
+	if [ -n "${CLEANUP}" ]; then
+		rm -f ${CLEANUP}
+	fi
+}
+trap cleanup 0
+
 if [ -z "${MAKE}" ]; then
-  if [ -n "$(which bmake)" ]; then
-    MAKE=bmake
-  else
-    MAKE=make
-  fi
+	if type bmake >/dev/null 2>&1; then
+		MAKE=bmake
+	else
+		MAKE=make
+	fi
 fi
 
-if find . | grep -q CVS
-then
-	echo "Please remove any existing CVS directories; or change to the correct directory path" >&2
-	exit 1
-fi
+PACKAGE=$(basename $(pwd))
+
+for cvsdir in $(find . -type d -name CVS); do
+	cvsdir=$(echo ${cvsdir} | cut -c 3-)
+	if [ -r "${cvsdir}/Repository" ]; then
+		read repo < "${cvsdir}/Repository"
+		if [ "${repo}" != "$(dirname wip/${PACKAGE}/${cvsdir})" ]; then
+			echo "Mismatched CVS directory found: ${cvsdir}" >&2
+			echo 'Please remove CVS directories from other' \
+				'packages, or change to the correct' \
+				'directory path.' >&2
+			exit 1
+		fi
+	fi
+	if grep '[^D]' "${cvsdir}/Entries"; then
+		echo "It seems $(dirname ${cvsdir}) is already checked in." >&2
+		exit 1
+	fi
+done
 
 CATEGORY=$(basename $(dirname $(pwd)))
-PACKAGE=$(basename $(pwd))
 PKGPATH=${CATEGORY}/${PACKAGE}
 CVSROOT=$(cat ../CVS/Root)
 USER=$(echo ${CVSROOT} | sed -e 's/@.*$//' -e 's/^.*://')
 USER_UPPER="$(echo ${USER} | tr '[a-z]' '[A-Z]')"
 MSG="$(${MKTEMP} -t import-package.XXXXXXXX)"
+CLEANUP="${MSG}"
 echo "Please wait while determining PKGNAME and DESCR_SRC."
 PKGNAME="$(${MAKE} show-var VARNAME=PKGNAME)"
 DESCR_SRC="$(${MAKE} show-var VARNAME=DESCR_SRC) /dev/null"
@@ -51,7 +72,20 @@ echo "CVS: Did you remember to run pkglint(1) before importing?" >> ${MSG}
 echo "CVS:" >> ${MSG}
 echo "CVS: Lines starting with CVS: will be automatically removed." >> ${MSG}
 echo "CVS:" >> ${MSG}
-find . | grep -v -e CVS -e orig$ -e ^./.# | sed "s|^.|CVS: will add: ${PKGPATH}|" >> ${MSG}
+
+ADDLIST="$(${MKTEMP} -t import-package-files.XXXXXXXX)"
+CLEANUP="${CLEANUP} ${ADDLIST}"
+(
+	cd ..
+	find ${PACKAGE} \( -name CVS -prune \) -o -type d -print |
+		while read dir; do
+			[ -e "${dir}/CVS" ] && continue
+			echo ${dir}/
+		done
+	find ${PACKAGE} \( -name CVS -prune \) -o -type f ! -name '*orig' \
+	    ! -name '.#*' -print
+) | sort > ${ADDLIST}
+sed "s|^|CVS: will add: ${CATEGORY}/|" ${ADDLIST} >> ${MSG}
 
 ${EDITOR} ${MSG}
 
@@ -62,18 +96,23 @@ echo ${DASH70}
 echo 	"CVSROOT:	${CVSROOT}"
 echo 	"PKGPATH:	${PKGPATH}"
 echo ""
-printf "y, enter to import, ctrl-c to abort> "
+printf "y + enter to import, any other text + enter to abort> "
 read ANS
 
 if [ "${ANS}" = "y" ]; then
-    (CVS_RSH=ssh cd .. && cvs add ${PACKAGE}) || exit 1
-    CVS_RSH=ssh find . -type d | grep -v -e CVS -e '^\.$' | xargs -L 100 cvs add "$d"
-    CVS_RSH=ssh find . -type f | grep -v -e CVS -e orig$ -e ^./.# | xargs -L 100 cvs add "$d"
-    CVS_RSH=ssh cvs commit -m "$(grep -v '^CVS:.*$' ${MSG})"
-fi
+	(
+		export CVS_RSH=ssh
+		cd ..
+		[ -e "${PACKAGE}/CVS" ] || cvs add ${PACKAGE} || exit 1
+		grep '/$' ${ADDLIST} | fgrep -vx ${PACKAGE}/ |
+			xargs -L 100 cvs add
+		grep -v '/$' ${ADDLIST} | xargs -L 100 cvs add
+		cvs commit -m "$(grep -v '^CVS:.*$' ${MSG})" ${PACKAGE}
+	)
 
-echo ${DASH70}
-echo "Don't forget to add the package to ${CATEGORY}/Makefile."
-echo "When imported to pkgsrc itself, please update the CHANGES-*"
-echo "file and possibly remove the package from the TODO list."
-echo ""
+	echo ${DASH70}
+	echo "Don't forget to add the package to ${CATEGORY}/Makefile."
+	echo "When imported to pkgsrc itself, please update the CHANGES-*"
+	echo "file and possibly remove the package from the TODO list."
+	echo ""
+fi

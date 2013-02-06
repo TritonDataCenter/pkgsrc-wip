@@ -1,0 +1,7 @@
+TODO
+- NetBSD/amd64 6.0.1 segfaults
+- devel/gdb/patches/patch-* are not reviewed yet for inclusion
+
+DONE
+- NetBSD/i386 5.2 invocation is OK
+- DragonFly/i386 3.2.2 + gcc-47: invocation is OK

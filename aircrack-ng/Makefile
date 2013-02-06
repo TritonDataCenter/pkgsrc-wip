@@ -4,7 +4,7 @@ DISTNAME=		aircrack-ng-1.1
 CATEGORIES=		security net
 MASTER_SITES=		http://download.aircrack-ng.org/
 
-MAINTAINER=		tnn@NetBSD.org
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://www.aircrack-ng.org/
 COMMENT=		Tools for auditing wireless networks
 

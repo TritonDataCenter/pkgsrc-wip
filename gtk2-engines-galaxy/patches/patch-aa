@@ -1,5 +1,7 @@
 $NetBSD$
 
+Only build gtk2 target.
+
 --- Makefile.in~	Fri Jul 25 22:19:13 2003
 +++ Makefile.in	Thu Nov 27 03:53:37 2003
 @@ -127,7 +127,7 @@

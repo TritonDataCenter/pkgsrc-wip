@@ -10,6 +10,7 @@ MASTER_SITES=	http://www.harry-b.de/downloads/
 MAINTAINER=	shattered@users.sourceforge.net
 HOMEPAGE=	http://www.harry-b.de/dokuwiki/doku.php?id=harry:cpm
 COMMENT=	Console Password Manager
+LICENSE=	gnu-gpl-v2
 
 PKG_DESTDIR_SUPPORT=	none
 

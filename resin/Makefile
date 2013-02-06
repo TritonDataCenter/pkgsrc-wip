@@ -6,7 +6,7 @@ CATEGORIES=	www
 MASTER_SITES=	http://www.caucho.com/download/
 EXTRACT_SUFX=	.zip
 
-MAINTAINER=	tnn@NetBSD.org
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.caucho.com/
 COMMENT=	High-performance, open source application server
 LICENSE=	gnu-gpl-v2

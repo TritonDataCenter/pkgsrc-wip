@@ -1,7 +1,7 @@
 # $NetBSD: Makefile,v 1.17 2011/11/26 04:39:31 sbd Exp $
 
-DISTNAME=		binutils-2.22
-PKGNAME=		avr-binutils-2.22
+DISTNAME=		binutils-2.23.1
+PKGNAME=		${DISTNAME:S/^/avr-/}
 CATEGORIES=		cross
 MASTER_SITES=		${MASTER_SITE_GNU:=binutils/}
 EXTRACT_SUFX=		.tar.bz2

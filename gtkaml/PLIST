@@ -1,3 +1,6 @@
 @comment $NetBSD$
+bin/gtkaml
 bin/gtkamlc
+man/man1/gtkamlc.1
+share/gtkaml/implicits/Clutter.implicits
 share/gtkaml/implicits/Gtk.implicits
