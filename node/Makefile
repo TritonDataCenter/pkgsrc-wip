@@ -17,6 +17,11 @@ HAS_CONFIGURE=	yes
 USE_TOOLS+=	pkg-config
 USE_TOOLS+=	gmake
 USE_LANGUAGES=	c c++
+USE_LIBTOOL=    yes
+
+.if ${OPSYS} == "Darwin"
+PKG_LIBTOOL=    /usr/bin/libtool
+.endif
 
 .include "../../mk/bsd.prefs.mk"
 .include "options.mk"
