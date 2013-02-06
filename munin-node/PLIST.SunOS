@@ -6,6 +6,7 @@ lib/munin/plugins/io_busy_
 lib/munin/plugins/io_bytes_
 lib/munin/plugins/io_ops_
 lib/munin/plugins/iostat
+lib/munin/plugins/ipmi_
 lib/munin/plugins/load
 lib/munin/plugins/memory
 lib/munin/plugins/paging_in
