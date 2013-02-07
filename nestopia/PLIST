@@ -1,0 +1,15 @@
+@comment $NetBSD$
+bin/nestopia
+share/doc/nestopia/README.unix
+share/doc/nestopia/readme.html
+share/nestopia/NstDatabase.xml
+share/nestopia/icons/nespad.svg
+share/nestopia/icons/nestopia.svg
+share/nestopia/icons/nestopia128.png
+share/nestopia/icons/nestopia32.png
+share/nestopia/icons/nestopia48.png
+share/nestopia/icons/nestopia64.png
+share/nestopia/icons/nestopia96.png
+share/nestopia/nestopia.desktop
+share/pixmaps/nestopia.svg
+@pkgdir share/applications
