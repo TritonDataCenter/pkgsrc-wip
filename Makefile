@@ -1367,6 +1367,7 @@ SUBDIR+=	libcli
 SUBDIR+=	libcm
 SUBDIR+=	libcmis
 SUBDIR+=	libcmt
+SUBDIR+=	libcouchbase
 SUBDIR+=	libcpu
 SUBDIR+=	libcuba
 SUBDIR+=	libdbglog
