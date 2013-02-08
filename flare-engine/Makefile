@@ -12,6 +12,8 @@ HOMEPAGE=	http://flarerpg.org/
 COMMENT=	Free Libre Action Roleplaying Engine (engine only)
 LICENSE=	gnu-gpl-v3 AND cc-by-sa-v3.0 AND open-font-license
 
+CONFLICTS=	flare-game-[0-9]*
+
 WRKSRC=		${WRKDIR}/${PKGNAME_NOREV}
 USE_LANGUAGES=	c c++
 USE_CMAKE=	yes
