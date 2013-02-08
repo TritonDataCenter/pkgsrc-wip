@@ -738,6 +738,7 @@ SUBDIR+=	gl
 SUBDIR+=	glade2-nognome
 SUBDIR+=	glfw
 SUBDIR+=	glib-java
+SUBDIR+=	glib2
 SUBDIR+=	glibc
 SUBDIR+=	glide3
 SUBDIR+=	glimmerm
