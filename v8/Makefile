@@ -24,6 +24,6 @@ do-build:
 do-install:
 	cd ${WRKSRC}
 
-.include "../../lang/python26/buildlink3.mk"
+.include "../../lang/python/pyversion.mk"
 .include "../../wip/mk/svn-package.mk"
 .include "../../mk/bsd.pkg.mk"

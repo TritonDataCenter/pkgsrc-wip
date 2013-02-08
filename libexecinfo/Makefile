@@ -17,6 +17,9 @@ MAKE_FLAGS+=	LIBDIR=${PREFIX}/lib
 MAKE_FLAGS+=	MKLINT=no
 MAKE_FLAGS+=	SHLIBDIR=${PREFIX}/lib
 
+CFLAGS.Linux+=	-D_GNU_SOURCE # Dl_info internals
+CFLAGS.Linux+=	-Wno-unused-result # write(2) is declared specially
+
 INSTALLATION_DIRS=	include lib
 
 do-install:

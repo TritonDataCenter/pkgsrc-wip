@@ -1,15 +1,15 @@
 # $NetBSD$
 #
 
-DISTNAME=	bsnes_v091-source
-PKGNAME=	${DISTNAME:S/_v0/-0./:S/-source//}
+DISTNAME=	higan_v092-source
+PKGNAME=	${DISTNAME:S/_v0/-0./1:S/-source//1}
 CATEGORIES=	emulators
-MASTER_SITES=	http://bsnes.googlecode.com/files/
+MASTER_SITES=	http://higan.googlecode.com/files/
 EXTRACT_SUFX=	.tar.xz
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
-HOMEPAGE=	http://www.byuu.org/bsnes/
-COMMENT=	SNES emulator
+HOMEPAGE=	http://byuu.org/higan/
+COMMENT=	Nintendo multi-system emulator
 LICENSE=	gnu-gpl-v3
 
 USE_LANGUAGES=	c c++
@@ -21,17 +21,17 @@ CXXFLAGS+=	-I${PREFIX}/include
 # nullptr
 GCC_REQD=	4.7
 
-INSTALLATION_DIRS=	bin share/applications share/icons share/doc/bsnes
+INSTALLATION_DIRS=	bin share/applications share/icons share/doc/higan
 
 do-build:
-	cd ${WRKSRC}/bsnes && ${SETENV} ${MAKE_ENV} ${MAKE_PROGRAM}
+	cd ${WRKSRC}/higan && ${SETENV} ${MAKE_ENV} ${MAKE_PROGRAM}
 
 do-install:
-	${INSTALL_PROGRAM} ${WRKSRC}/bsnes/out/bsnes ${DESTDIR}${PREFIX}/bin
-	${INSTALL_DATA} ${WRKSRC}/bsnes/data/bsnes.desktop ${DESTDIR}${PREFIX}/share/applications
-	${INSTALL_DATA} ${WRKSRC}/bsnes/data/bsnes.ico ${DESTDIR}${PREFIX}/share/icons
-	${INSTALL_DATA} ${WRKSRC}/bsnes/data/bsnes.png ${DESTDIR}${PREFIX}/share/icons
-	${INSTALL_DATA} ${WRKSRC}/bsnes/data/cheats.xml ${DESTDIR}${PREFIX}/share/doc/bsnes
+	${INSTALL_PROGRAM} ${WRKSRC}/higan/out/higan ${DESTDIR}${PREFIX}/bin
+	${INSTALL_DATA} ${WRKSRC}/higan/data/higan.desktop ${DESTDIR}${PREFIX}/share/applications
+	${INSTALL_DATA} ${WRKSRC}/higan/data/higan.ico ${DESTDIR}${PREFIX}/share/icons
+	${INSTALL_DATA} ${WRKSRC}/higan/data/higan.png ${DESTDIR}${PREFIX}/share/icons
+	${INSTALL_DATA} ${WRKSRC}/higan/data/cheats.bml ${DESTDIR}${PREFIX}/share/doc/higan
 
 .include "../../x11/libXv/buildlink3.mk"
 .include "../../x11/videoproto/buildlink3.mk"
