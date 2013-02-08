@@ -625,6 +625,7 @@ SUBDIR+=	firefox3-bin
 SUBDIR+=	firehose
 SUBDIR+=	flam3-svn
 SUBDIR+=	flare-engine
+SUBDIR+=	flare-game
 SUBDIR+=	flasm
 SUBDIR+=	flc
 SUBDIR+=	fldigi
