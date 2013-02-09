@@ -14,8 +14,6 @@ LICENSE=	gnu-gpl-v3
 VERSION=	4.0.3
 CONFLICTS+=	ja-samba-[0-9]* pam-smbpass-[0-9]* tdb-[0-9]* winbind-[0-9]*
 
-# DEPENDS=	xsltproc
-
 FILESDIR=		${PKGDIR}/../../net/samba/files
 DESCR_SRC=		${PKGDIR}/../../net/samba/DESCR
 MESSAGE_SRC=		${PKGDIR}/../../net/samba/MESSAGE
@@ -78,6 +76,7 @@ CONFIGURE_ARGS+=	--localstatedir=${SAMBA_VARDIR}
 
 #CONFIGURE_ARGS+=	--enable-rpath
 CONFIGURE_ARGS+=	--bundled-libraries=tdb,com_err
+CONFIGURE_ENV+=		XSLTPROC=${FALSE} # suppress generation of man pages
 
 CHECK_PORTABILITY_SKIP=	source3/configure
 
