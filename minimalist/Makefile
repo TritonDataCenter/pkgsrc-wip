@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	minimalist-2.5.4-1
+PKGNAME=	minimalist-2.5.4.1
 CATEGORIES=	mail
 MASTER_SITES=	http://www.mml.org.ua/LIST/
 EXTRACT_SUFX=	.tgz
