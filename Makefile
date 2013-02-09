@@ -693,7 +693,6 @@ SUBDIR+=	gauche-pib
 SUBDIR+=	gbase
 SUBDIR+=	gcc42
 SUBDIR+=	gcc43
-SUBDIR+=	gcc47
 SUBDIR+=	gconf-cleaner
 SUBDIR+=	gdal
 SUBDIR+=	gdal-docs
