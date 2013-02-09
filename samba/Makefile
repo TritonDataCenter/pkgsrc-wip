@@ -4,14 +4,14 @@
 
 DISTNAME=	samba-${VERSION}
 CATEGORIES=	net
-MASTER_SITES=	${SAMBA_MIRRORS:=samba4/}
+MASTER_SITES=	${SAMBA_MIRRORS:=stable/}
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.samba.org/
 COMMENT=	SMB/CIFS protocol server suite
 LICENSE=	gnu-gpl-v3
 
-VERSION=	4.0.0beta4
+VERSION=	4.0.3
 CONFLICTS+=	ja-samba-[0-9]* pam-smbpass-[0-9]* tdb-[0-9]* winbind-[0-9]*
 
 # DEPENDS=	xsltproc
@@ -77,7 +77,7 @@ CONFIGURE_ARGS+=	--localstatedir=${SAMBA_VARDIR}
 #CONFIGURE_ARGS+=	--enable-merged-build=no
 
 #CONFIGURE_ARGS+=	--enable-rpath
-CONFIGURE_ARGS+=	--bundled-libraries=com_err
+CONFIGURE_ARGS+=	--bundled-libraries=tdb,com_err
 
 CHECK_PORTABILITY_SKIP=	source3/configure
 
