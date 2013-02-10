@@ -164,8 +164,13 @@ post-install:
 	# ${CHMOD} ${SHAREMODE} ${DESTDIR}${PREFIX}/include/*.h
 
 REPLACE_PERL=	pidl/pidl
-REPLACE_PYTHON=	source4/setup/* source4/scripting/bin/* buildtools/bin/waf
-# tevent.py sample-script.py sample-two-script.py
+REPLACE_PYTHON=	buildtools/bin/waf \
+		source4/setup/* \
+		source4/scripting/bin/* \
+		lib/subunit/python/subunit/run.py \
+		lib/subunit/python/subunit/tests/sample-script.py \
+		lib/subunit/python/subunit/tests/sample-two-script.py \
+		lib/tevent/tevent.py
 
 .include "../../lang/python/application.mk"
 
