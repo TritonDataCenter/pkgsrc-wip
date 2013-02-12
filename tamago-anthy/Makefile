@@ -30,7 +30,7 @@ INFO_FILES=	yes
 DEPENDS+=	anthy-[0-9]*:../../inputmethod/anthy
 
 GIT_REPOSITORIES=	master
-GIT_MODULE=		egg
+GIT_MODULE.master=	egg
 GIT_REPO.master=	git://git.debian.org/git/pkg-anthy/egg.git
 _GIT_FLAGS?=		--depth 1
 
