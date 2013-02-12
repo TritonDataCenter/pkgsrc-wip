@@ -21,6 +21,7 @@ CONFLICTS+=	emacs-nox11-[0-9]*
 BUILD_TARGET=	bootstrap
 
 GIT_REPOSITORIES=	master
+GIT_MODULE.master=	emacs
 GIT_REPO.master=	git://repo.or.cz/emacs.git
 _GIT_FLAGS?=		--depth 1
 
