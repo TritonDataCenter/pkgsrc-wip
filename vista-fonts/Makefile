@@ -41,6 +41,6 @@ do-install:
 	cd ${WRKSRC} && for f in *.ttf ; do \
 		${INSTALL_DATA} $$f ${DESTDIR}${FONTDIR}/$$f; \
 	done
-	${INSTALL_DATA} ${.CURDIR}/../../licenses/${LICENSE} ${DESTDIR}${DOCDIR}
+	${INSTALL_DATA} ${.CURDIR}/../../licenses/${LICENSE:Q} ${DESTDIR}${DOCDIR}
 
 .include "../../mk/bsd.pkg.mk"
