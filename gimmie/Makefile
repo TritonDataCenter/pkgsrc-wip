@@ -7,7 +7,7 @@ CATEGORIES=	sysutils python
 MASTER_SITES=	http://www.beatniksoftware.com/gimmie/releases/
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
-HOMEPAGE=	http://beatniksoftware.com/gimmie
+HOMEPAGE=	http://beatniksoftware.com/gimmie/
 COMMENT=	Creative panel replacement
 
 GNU_CONFIGURE=	yes

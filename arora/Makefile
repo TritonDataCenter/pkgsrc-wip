@@ -6,7 +6,7 @@ CATEGORIES=		www net
 MASTER_SITES=		http://arora.googlecode.com/files/
 
 MAINTAINER=		zecrazytux@zecrazytux.net
-HOMEPAGE=		http://code.google.com/p/arora
+HOMEPAGE=		http://code.google.com/p/arora/
 COMMENT=		Arora is a web browser using Qt and Webkit
 LICENSE=		gnu-gpl-v2
 
