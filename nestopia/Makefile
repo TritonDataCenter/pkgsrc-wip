@@ -26,7 +26,7 @@ SUBST_MESSAGE.prefix=	Fixing PREFIX path.
 SUBST_SED.prefix=	-e "s|/usr/local|${PREFIX}|1"
 SUBST_STAGE.prefix=	post-patch
 
-INSTALLATION_DIRS=	share/doc/${PKGBASE}
+INSTALLATION_DIRS=	share/doc/nestopia
 
 post-install:
 	${INSTALL_DATA} ${WRKSRC}/README.unix \

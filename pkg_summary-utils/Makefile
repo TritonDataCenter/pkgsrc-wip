@@ -20,7 +20,7 @@ DEPENDS+=	digest-[0-9]*:../../pkgtools/digest
 
 BUILD_DEPENDS+=	mk-configure>=0.20.0:../../devel/mk-configure
 
-CONFLICTS+=	paexec<0.15.0
+CONFLICTS+=	paexec<0.17.0
 CONFLICTS+=	awk-pkgsrc-dewey-[0-9]*
 CONFLICTS+=	pkg_src_summary-[0-9]*
 CONFLICTS+=	pkg_cmp_summary-[0-9]*

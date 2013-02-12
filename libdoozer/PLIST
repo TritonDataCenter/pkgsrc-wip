@@ -1,0 +1,5 @@
+@comment $NetBSD$
+bin/doozer-cli
+bin/doozer-ping
+include/doozer.h
+lib/libdoozer.la

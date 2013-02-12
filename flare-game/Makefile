@@ -1,25 +1,27 @@
 # $NetBSD$
 #
 
-DISTNAME=	v0.17
-PKGNAME=	flare-engine-${DISTNAME:S/v//1}
+DISTNAME=	v0.17.1
+PKGNAME=	flare-game-${DISTNAME:S/v//1}
 CATEGORIES=	games
-MASTER_SITES=	https://github.com/clintbellanger/flare-engine/archive/
+MASTER_SITES=	https://github.com/clintbellanger/flare-game/archive/
 FETCH_USING=	curl
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://flarerpg.org/
-COMMENT=	Free Libre Action Roleplaying Engine (engine only)
-LICENSE=	gnu-gpl-v3 AND cc-by-sa-v3.0 AND open-font-license
+COMMENT=	Fantasy action RPG using the FLARE engine
+LICENSE=	gnu-gpl-v3 AND cc-by-sa-v3.0 AND open-font-license AND gnu-gpl-v2
 
-CONFLICTS=	flare-game-[0-9]*
+CONFLICTS=	flare-engine-[0-9]*
 
 WRKSRC=		${WRKDIR}/${PKGNAME_NOREV}
 USE_LANGUAGES=	c c++
 USE_CMAKE=	yes
 
-CMAKE_ARGS+=	-DCMAKE_INSTALL_PREFIX:STRING="${DESTDIR}${PREFIX}"
-CMAKE_ARGS+=	-DDATADIR:STRING="${PREFIX}/share/flare"
+CMAKE_ARGS+=    -DCMAKE_INSTALL_PREFIX:STRING="${DESTDIR}${PREFIX}"
+CMAKE_ARGS+=    -DDATADIR:STRING="${PREFIX}/share/flare"
+
+REPLACE_PYTHON=	mods/fantasycore/languages/xgettext.py
 
 SUBST_CLASSES+=		paths
 SUBST_FILES.paths=	CMakeLists.txt build/cmake_install.cmake src/Settings.cpp
@@ -45,6 +47,7 @@ do-build:
 do-install:
 	cd ${WRKSRC}/build && ${SETENV} ${INSTALL_ENV} ${MAKE_PROGRAM} ${INSTALL_TARGET}
 
+.include "../../lang/python/application.mk"
 .include "../../sysutils/desktop-file-utils/desktopdb.mk"
 .include "../../mk/pthread.buildlink3.mk"
 .include "../../audio/SDL_mixer/buildlink3.mk"
