@@ -1178,6 +1178,7 @@ SUBDIR+=	ironpython
 SUBDIR+=	irrlicht
 SUBDIR+=	irrxml
 SUBDIR+=	ised
+SUBDIR+=	isl
 SUBDIR+=	islamic-menus
 SUBDIR+=	ispell-dictionaries
 SUBDIR+=	ispell-lietuviu
