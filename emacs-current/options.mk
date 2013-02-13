@@ -52,12 +52,12 @@ CONFIGURE_ARGS+=	--without-imagemagic
 ###
 ### Support SVG
 ###
-.if !empty(PKG_OPTIONS:Msvg)
+.  if !empty(PKG_OPTIONS:Msvg)
 .include "../../graphics/cairo/buildlink3.mk"
 .include "../../graphics/librsvg/buildlink3.mk"
-.else
+.  else
 CONFIGURE_ARGS+=	--without-rsvg
-.endif
+.  endif
 
 ###
 ### Support gconf
