@@ -8,9 +8,9 @@ include/libssh/legacy.h
 include/libssh/sftp.h
 include/libssh/server.h
 @comment, XXX PLIST lib handling seems to be broke
-lib/libssh.so.4.2.3
+lib/libssh.so.4.2.4
 lib/libssh.so.4
 lib/libssh.so
-lib/libssh_threads.so.4.2.3
+lib/libssh_threads.so.4.2.4
 lib/libssh_threads.so.4
 lib/libssh_threads.so
