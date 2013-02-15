@@ -59,7 +59,7 @@ DEPENDS+=	lightdm>=0:../../wip/lightdm
 DEPENDS+=	lightdm-gtk-greeter>=0:../../wip/lightdm-gtk-greeter
 DEPENDS+=	lxappearance>=0:../../wip/lxappearance
 DEPENDS+=	lxlauncher>=0.2.2:../../wip/lxlauncher
-DEPENDS+=	lxsession>=0:../../wip/lxsession
+DEPENDS+=	lxsession>=0:../../x11/lxsession
 DEPENDS+=	lxsession-edit>=0:../../wip/lxsession-edit
 DEPENDS+=	lxshortcut>=0:../../wip/lxshortcut
 DEPENDS+=	lxrandr>=0.1:../../wip/lxrandr

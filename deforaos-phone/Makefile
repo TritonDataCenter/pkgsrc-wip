@@ -23,7 +23,7 @@ MAKE_FLAGS+=	PREFIX=${PREFIX}
 .include "../../x11/gtk2/buildlink3.mk"
 .include "../../audio/pulseaudio/buildlink3.mk"
 .include "../../chat/libpurple/buildlink3.mk"
-.include "../../wip/sofia-sip/buildlink3.mk"
+.include "../../devel/sofia-sip/buildlink3.mk"
 .include "../../wip/deforaos-locker/buildlink3.mk"
 .include "../../sysutils/desktop-file-utils/desktopdb.mk"
 .include "../../mk/bsd.pkg.mk"

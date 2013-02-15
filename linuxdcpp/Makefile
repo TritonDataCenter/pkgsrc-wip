@@ -6,7 +6,7 @@ CATEGORIES=		net x11
 MASTER_SITES=		http://launchpad.net/linuxdcpp/1.0/1.0.3/+download/
 EXTRACT_SUFX=		.tar.bz2
 
-MAINTAINER=		tnn@NetBSD.org
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		https://launchpad.net/linuxdcpp/
 COMMENT=		DC++-based p2p filesharing application
 

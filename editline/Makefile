@@ -1,8 +1,8 @@
 # $NetBSD$
 #
 
-DISTNAME=		libedit-20080712-2.11
-PKGNAME=		editline-2.11
+DISTNAME=		libedit-20121213-3.0
+PKGNAME=		editline-3.0.20121213
 CATEGORIES=		devel
 MASTER_SITES=		http://www.thrysoee.dk/editline/
 

@@ -1,8 +1,0 @@
-===========================================================================
-$NetBSD$
-
-To use the cheats database, copy it to your config directory:
-	mkdir -p ~/.config/bsnes
-	cp ${PREFIX}/share/doc/bsnes/cheats.xml ~/.config/bsnes/cheats.xml
-
-===========================================================================

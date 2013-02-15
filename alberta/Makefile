@@ -1,5 +1,4 @@
 # $NetBSD$
-#
 
 DISTNAME=	alberta-2.0.1
 CATEGORIES=	math
@@ -12,10 +11,11 @@ LICENSE=	gnu-gpl-v3
 
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
-USE_LANGUAGES=	c c++ fortran
+USE_LANGUAGES=	c c++ fortran77
 
 .include "../../graphics/MesaLib/buildlink3.mk"
 .include "../../math/blas/buildlink3.mk"
 .include "../../x11/libX11/buildlink3.mk"
 .include "../../x11/libICE/buildlink3.mk"
+.include "../../x11/libSM/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

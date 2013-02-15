@@ -8,7 +8,7 @@ CATEGORIES=		graphics
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=imgseek/}
 EXTRACT_SUFX=		.tar.bz2
 
-MAINTAINER=		shattered@users.sourceforge.net
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://www.imgseek.net/
 COMMENT=		Photo collection manager and viewer
 

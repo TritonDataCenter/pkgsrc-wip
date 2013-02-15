@@ -3,3 +3,4 @@ $NetBSD$
 SHA1 (duplo_0.2.0_src.tar.gz) = 5a301d84e98527d2d24dca60028776ba2507226f
 RMD160 (duplo_0.2.0_src.tar.gz) = 105dbdb2e769cea11c4ed91fc62e592aba8e629b
 Size (duplo_0.2.0_src.tar.gz) = 22246 bytes
+SHA1 (patch-Duplo.cpp) = 2a02d59b2b7557f27c576b3d4482d902d98db534

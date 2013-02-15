@@ -12,6 +12,7 @@ BUILDLINK_PKGSRCDIR.alberta?=	../../wip/alberta
 .include "../../math/blas/buildlink3.mk"
 .include "../../x11/libX11/buildlink3.mk"
 .include "../../x11/libICE/buildlink3.mk"
+.include "../../x11/libSM/buildlink3.mk"
 .endif	# ALBERTA_BUILDLINK3_MK
 
 BUILDLINK_TREE+=	-alberta

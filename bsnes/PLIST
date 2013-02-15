@@ -1,6 +1,0 @@
-@comment $NetBSD$
-bin/bsnes
-share/applications/bsnes.desktop
-share/doc/bsnes/cheats.xml
-share/icons/bsnes.ico
-share/icons/bsnes.png

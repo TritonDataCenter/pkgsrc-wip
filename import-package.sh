@@ -80,7 +80,7 @@ CLEANUP="${CLEANUP} ${ADDLIST}"
 	find ${PACKAGE} \( -name CVS -prune \) -o -type d -print |
 		while read dir; do
 			[ -e "${dir}/CVS" ] && continue
-			echo ${dir}
+			echo ${dir}/
 		done
 	find ${PACKAGE} \( -name CVS -prune \) -o -type f ! -name '*orig' \
 	    ! -name '.#*' -print
@@ -104,7 +104,9 @@ if [ "${ANS}" = "y" ]; then
 		export CVS_RSH=ssh
 		cd ..
 		[ -e "${PACKAGE}/CVS" ] || cvs add ${PACKAGE} || exit 1
-		fgrep -vx ${PACKAGE} ${ADDLIST} | xargs -L 100 cvs add
+		grep '/$' ${ADDLIST} | fgrep -vx ${PACKAGE}/ |
+			xargs -L 100 cvs add
+		grep -v '/$' ${ADDLIST} | xargs -L 100 cvs add
 		cvs commit -m "$(grep -v '^CVS:.*$' ${MSG})" ${PACKAGE}
 	)
 

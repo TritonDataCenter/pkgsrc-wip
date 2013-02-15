@@ -8,9 +8,10 @@ MASTER_SITES=		http://superduper.net/downloads/pypod/
 
 DEPENDS+=		${PYPKGPREFIX}-mad>=0.5.0:../../audio/py-mad
 
-MAINTAINER=		shattered@users.sourceforge.net
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://superduper.net/index.py?page=pypod
 COMMENT=		Python tools for manipluating iPod data
+LICENSE=		gnu-gpl-v2
 
 PYDISTUTILSPKG=		yes
 PYTHON_PATCH_SCRIPTS=	*.py */*.py

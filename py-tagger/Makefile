@@ -7,7 +7,7 @@ CATEGORIES=		audio python
 MASTER_SITES=		http://www.liquidx.net/static/pytagger/
 EXTRACT_SUFX=		.tar.bz2
 
-MAINTAINER=		shattered@users.sourceforge.net
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://www.liquidx.net/pytagger/
 COMMENT=		ID3v1 and ID3v2 tag library in Python
 LICENSE=		modified-bsd

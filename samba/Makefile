@@ -4,17 +4,15 @@
 
 DISTNAME=	samba-${VERSION}
 CATEGORIES=	net
-MASTER_SITES=	${SAMBA_MIRRORS:=samba4/}
+MASTER_SITES=	${SAMBA_MIRRORS:=stable/}
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.samba.org/
 COMMENT=	SMB/CIFS protocol server suite
 LICENSE=	gnu-gpl-v3
 
-VERSION=	4.0.0beta4
+VERSION=	4.0.3
 CONFLICTS+=	ja-samba-[0-9]* pam-smbpass-[0-9]* tdb-[0-9]* winbind-[0-9]*
-
-# DEPENDS=	xsltproc
 
 FILESDIR=		${PKGDIR}/../../net/samba/files
 DESCR_SRC=		${PKGDIR}/../../net/samba/DESCR
@@ -77,7 +75,8 @@ CONFIGURE_ARGS+=	--localstatedir=${SAMBA_VARDIR}
 #CONFIGURE_ARGS+=	--enable-merged-build=no
 
 #CONFIGURE_ARGS+=	--enable-rpath
-CONFIGURE_ARGS+=	--bundled-libraries=com_err
+CONFIGURE_ARGS+=	--bundled-libraries=tdb,com_err
+CONFIGURE_ENV+=		XSLTPROC=${FALSE} # suppress generation of man pages
 
 CHECK_PORTABILITY_SKIP=	source3/configure
 
@@ -165,8 +164,13 @@ post-install:
 	# ${CHMOD} ${SHAREMODE} ${DESTDIR}${PREFIX}/include/*.h
 
 REPLACE_PERL=	pidl/pidl
-REPLACE_PYTHON=	source4/setup/* source4/scripting/bin/* buildtools/bin/waf
-# tevent.py sample-script.py sample-two-script.py
+REPLACE_PYTHON=	buildtools/bin/waf \
+		source4/setup/* \
+		source4/scripting/bin/* \
+		lib/subunit/python/subunit/run.py \
+		lib/subunit/python/subunit/tests/sample-script.py \
+		lib/subunit/python/subunit/tests/sample-two-script.py \
+		lib/tevent/tevent.py
 
 .include "../../lang/python/application.mk"
 

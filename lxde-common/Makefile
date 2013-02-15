@@ -14,7 +14,7 @@ DEPENDS+=	dbus>=1:../../sysutils/dbus
 # Clearlooks is default GTK theme for the LXDE lxsession
 DEPENDS+=	gtk2-engines>=0:../../x11/gtk2-engines
 DEPENDS+=	lxpanel>=0:../../wip/lxpanel
-DEPENDS+=	lxsession>=0:../../wip/lxsession
+DEPENDS+=	lxsession>=0:../../x11/lxsession
 DEPENDS+=	openbox>=0:../../wm/openbox
 DEPENDS+=	xprop>=0:../../x11/xprop
 

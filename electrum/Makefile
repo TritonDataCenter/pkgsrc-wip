@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	Electrum-1.6.1
+DISTNAME=	Electrum-1.6.2
 CATEGORIES=	finance python
 MASTER_SITES=	http://download.electrum.org/download/
 

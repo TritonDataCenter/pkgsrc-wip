@@ -1,7 +1,7 @@
-# $NetBSD$
+# $NetBSD: Makefile,v 1.20 2012/10/31 06:19:35 asau Exp $
 
-DISTNAME=	openmpi-1.7rc5r27536
-PKGNAME=	openmpi-1.6.99.27536
+DISTNAME=	openmpi-1.7rc6
+#PKGNAME=	openmpi-1.6.99.27536
 CATEGORIES=	parallel
 MASTER_SITES=	http://www.open-mpi.org/software/ompi/v1.7/downloads/ \
 		http://www.open-mpi.org/nightly/v1.7/ \
@@ -16,7 +16,7 @@ CONFLICTS+=	mpich-[0-9]*	# installs bin/mpicc & other wrappers
 CONFLICTS+=	mpich2-[0-9]*	# installs bin/mpicc & other wrappers
 
 GNU_CONFIGURE=		yes
-USE_LANGUAGES=		c c++
+USE_LANGUAGES=		c c++ fortran77
 USE_LIBTOOL=		yes
 LIBTOOL_OVERRIDE=	${WRKSRC}/libtool \
 			${WRKSRC}/ompi/contrib/vt/vt/extlib/otf/libtool \
@@ -41,6 +41,7 @@ CONFIGURE_ENV+=		ACLOCAL=: AUTOCONF=: AUTOHEADER=: AUTOMAKE=:
 BUILDLINK_TRANSFORM=	rm:-fopenmp
 
 USE_TOOLS+=		perl:run
+REPLACE_PERL+=		ompi/tools/wrappers/mpijavac.pl.in
 
 .include "options.mk"
 
@@ -48,10 +49,10 @@ TEST_TARGET=	check
 
 ## Just in case you'll need it...
 # USE_TOOLS+=	aclocal autoconf automake bash perl
-# REPLACE_BASH=	autogen.sh
+# REPLACE_PERL=	autogen.sh
 
 # pre-configure:	replace-interpreter
-# 	cd $(WRKSRC) && $(BASH) autogen.sh
+# 	cd $(WRKSRC) && $(PERL5) autogen.sh
 
 LIBLTDL_CONVENIENCE_SUBDIR=	opal/libltdl
 .include "../../devel/libltdl/convenience.mk" # for "test" target to work

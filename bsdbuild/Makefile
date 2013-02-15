@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	bsdbuild-3.0
+PKGREVISION=	1
 CATEGORIES=	devel
 MASTER_SITES=	http://stable.hypertriton.com/bsdbuild/
 

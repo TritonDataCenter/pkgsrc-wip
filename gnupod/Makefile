@@ -8,7 +8,7 @@ MASTER_SITES=		http://download.savannah.gnu.org/releases/gnupod/ \
 			http://blinkenlights.ch/gnupod-dist/stable/
 EXTRACT_SUFX=		.tgz
 
-MAINTAINER=		shattered@users.sourceforge.net
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://www.gnu.org/software/gnupod/
 COMMENT=		GNU iPod tools
 

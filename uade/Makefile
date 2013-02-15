@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	uade-2.13
+PKGREVISION=	1
 CATEGORIES=	audio
 MASTER_SITES=	http://zakalwe.fi/uade/uade2/
 EXTRACT_SUFX=	.tar.bz2
@@ -19,6 +20,13 @@ CONFIGURE_ARGS+=	--prefix=${PREFIX} --mandir=${PREFIX}/${PKGMANDIR}
 CONFIGURE_ARGS+=	--with-text-scope
 
 .include "options.mk"
+
+post-install:
+	for i in AMOS AudioSculpture Infogrames MED Medley PTK-Prowiz \
+		Soundtracker-IV; do \
+		${CHMOD} -x ${DESTDIR}${PREFIX}/share/uade2/players/$$i; \
+	done
+	${CHMOD} -x ${DESTDIR}${PREFIX}/share/uade2/players/ENV/EaglePlayer/*
 
 .include "../../audio/libao/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

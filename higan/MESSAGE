@@ -1,0 +1,8 @@
+===========================================================================
+$NetBSD$
+
+To use the cheats database, copy it to your config directory:
+	mkdir -p ~/.config/higan
+	cp ${PREFIX}/share/doc/higan/cheats.bml ~/.config/higan/cheats.bml
+
+===========================================================================
