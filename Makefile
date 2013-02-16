@@ -340,7 +340,6 @@ SUBDIR+=	converttomp3
 SUBDIR+=	cops
 SUBDIR+=	copytape
 SUBDIR+=	couchdb-glib
-SUBDIR+=	courier-prime
 SUBDIR+=	courierpassd
 SUBDIR+=	coxeter
 SUBDIR+=	cpdup
