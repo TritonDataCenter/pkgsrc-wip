@@ -1,5 +1,6 @@
 @comment $NetBSD$
 bin/mod2ogg2.sh
+bin/uade123
 lib/uade2/uadecore
 lib/pkgconfig/uade.pc
 man/uade123.1

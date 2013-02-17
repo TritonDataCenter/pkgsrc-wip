@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	uade-2.13
-PKGREVISION=	1
+PKGREVISION=	2
 CATEGORIES=	audio
 MASTER_SITES=	http://zakalwe.fi/uade/uade2/
 EXTRACT_SUFX=	.tar.bz2
