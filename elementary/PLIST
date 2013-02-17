@@ -280,4 +280,5 @@ share/locale/ps/LC_MESSAGES/elementary.mo
 share/locale/pt/LC_MESSAGES/elementary.mo
 share/locale/ur/LC_MESSAGES/elementary.mo
 share/locale/yi/LC_MESSAGES/elementary.mo
+share/locale/zh_CN/LC_MESSAGES/elementary.mo
 @pkgdir share/elementary/examples
