@@ -11,7 +11,7 @@ $NetBSD$
 -CC=gcc -Wall
 -INCLUDE=-I/usr/include -I/usr/local/include -I/usr/include/pcre
 -LIBS=-L/lib `pcre-config --libs`
-+INSTALL_PATH=${PREFIX}
++INSTALL_PATH=${DESTDIR}${PREFIX}
 +SQUID_USER?=nobody
 +SQUID_GROUP?=nogroup
 +

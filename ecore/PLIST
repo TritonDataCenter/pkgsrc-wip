@@ -44,4 +44,5 @@ share/locale/it/LC_MESSAGES/ecore.mo
 share/locale/nl/LC_MESSAGES/ecore.mo
 share/locale/pt/LC_MESSAGES/ecore.mo
 share/locale/sl/LC_MESSAGES/ecore.mo
+share/locale/zh_CN/LC_MESSAGES/ecore.mo
 @pkgdir share/ecore/examples

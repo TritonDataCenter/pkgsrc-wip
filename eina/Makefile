@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	eina-1.7.4
+DISTNAME=	eina-1.7.5
 CATEGORIES=	devel
 MASTER_SITES=	http://download.enlightenment.org/releases/
 EXTRACT_SUFX=	.tar.bz2
