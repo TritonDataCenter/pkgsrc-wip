@@ -21,7 +21,7 @@ WRKSRC=			${WRKDIR}/monitor
 EXTRACT_USING=		gtar
 BUILD_DEPENDS+=		gtar-[0-9]*:../../archivers/gtar
 BUILD_DEPENDS+=		curl-[0-9]*:../../www/curl
-DEPENDS+=		cacti>=0.8.7:../../ahp/cacti
+DEPENDS+=		cacti>=0.8.7:../../net/cacti
 
 USE_TOOLS+=		gtar
 USE_TOOLS+=		pax
