@@ -251,6 +251,7 @@ SUBDIR+=	c2hs
 SUBDIR+=	cabal-install
 SUBDIR+=	cacti-plugin-hostinfo
 SUBDIR+=	cacti-plugin-monitor
+SUBDIR+=	cacti-plugin-realtime
 SUBDIR+=	cacti-plugin-settings
 SUBDIR+=	cacti-plugin-thold
 SUBDIR+=	cacti-plugin-tools
