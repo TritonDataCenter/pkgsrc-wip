@@ -9,8 +9,6 @@ HOMEPAGE=	http://www.couchbase.com/develop/c/next
 COMMENT=	C/C++ client library to access a Couchbase server
 LICENSE=	apache-2.0
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 GNU_CONFIGURE=	yes
 USE_TOOLS+=	gmake unzip
 USE_LANGUAGES=	c c++

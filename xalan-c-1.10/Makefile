@@ -14,8 +14,6 @@ MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://xml.apache.org/xalan-c/l
 COMMENT=	XSLT processor of the Apache Project
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 MAKE_JOBS_SAFE=		no
 
 WRKSRC=		${WRKDIR}/xml-xalan/c
