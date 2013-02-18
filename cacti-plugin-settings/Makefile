@@ -27,8 +27,6 @@ USE_TOOLS+=		gtar
 USE_TOOLS+=		pax
 USE_TOOLS+=		curl
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 CACTIDIR=		${PREFIX}/share/cacti
 PLUGINDIR=		${CACTIDIR}/plugins/settings
 
