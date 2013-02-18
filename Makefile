@@ -432,6 +432,7 @@ SUBDIR+=	detachtty
 SUBDIR+=	dfbpoint
 SUBDIR+=	dfbsee
 SUBDIR+=	dfu-util
+SUBDIR+=	dhcpd-snmp
 SUBDIR+=	di
 SUBDIR+=	diablo
 SUBDIR+=	dicom3tools
