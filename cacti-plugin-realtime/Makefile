@@ -6,7 +6,7 @@ PKGNAME=		cacti-plugin-realtime-${VERSION}
 CATEGORIES=		net
 MASTER_SITES=		http://docs.cacti.net/_media/
 
-MAINTAINER=		pettai@nordu.net
+MAINTAINER=		ahp-nils@users.sourceforge.net
 HOMEPAGE=		http://docs.cacti.net/
 COMMENT=		Provides a method to view Cacti graphs with a resolution of upto 5 sec
 LICENSE=		gnu-gpl-v2
