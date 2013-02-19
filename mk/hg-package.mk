@@ -121,7 +121,7 @@ _HG_DISTFILE.${repo}=	${PKGBASE}-${HG_MODULE.${repo}}-${_HG_TAG.${repo}}.tar.gz
 _HG_EXTRACT_CACHED.${repo}=	\
 	if [ -f ${_HG_DISTDIR}/${_HG_DISTFILE.${repo}:Q} ]; then		\
 	  ${STEP_MSG} "Extracting cached Mercurial archive "${_HG_DISTFILE.${repo}:Q}"."; \
-	  pax -r -z -f ${_HG_DISTDIR}/${_HG_DISTFILE.${repo}:Q};	\
+	  gzip -d -c ${_HG_DISTDIR}/${_HG_DISTFILE.${repo}:Q} | pax -r;	\
 	  exit 0;							\
 	fi
 
@@ -129,7 +129,7 @@ _HG_EXTRACT_CACHED.${repo}=	\
 _HG_CREATE_CACHE.${repo}=	\
 	${STEP_MSG} "Creating cached Mercurial archive "${_HG_DISTFILE.${repo}:Q}"."; \
 	${MKDIR} ${_HG_DISTDIR:Q};					\
-	pax -w -z -f ${_HG_DISTDIR}/${_HG_DISTFILE.${repo}:Q} ${HG_MODULE.${repo}:Q}
+	pax -w ${HG_MODULE.${repo}:Q} | gzip > ${_HG_DISTDIR}/${_HG_DISTFILE.${repo}:Q}
 .endfor
 
 pre-extract: do-hg-extract
