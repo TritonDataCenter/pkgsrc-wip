@@ -4,6 +4,7 @@ share/${PKGNAME}/AlexTemplate
 share/${PKGNAME}/AlexTemplate-debug
 share/${PKGNAME}/AlexTemplate-ghc
 share/${PKGNAME}/AlexTemplate-ghc-debug
+share/${PKGNAME}/AlexTemplate-ghc-nopred
 share/${PKGNAME}/AlexWrapper-basic
 share/${PKGNAME}/AlexWrapper-basic-bytestring
 share/${PKGNAME}/AlexWrapper-gscan
