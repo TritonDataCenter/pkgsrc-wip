@@ -1,0 +1,10 @@
+@comment $NetBSD$
+man/man8/dhcpd-snmp.8
+sbin/dhcpd-snmp
+share/dhcpd-snmp/mibs/nettrack-dhcpd-snmp.mib
+share/dhcpd-snmp/mibs/nettrack.mib
+share/doc/dhcpd-snmp/AUTHORS
+share/doc/dhcpd-snmp/COPYING
+share/doc/dhcpd-snmp/ChangeLog
+share/doc/dhcpd-snmp/NEWS
+share/doc/dhcpd-snmp/README

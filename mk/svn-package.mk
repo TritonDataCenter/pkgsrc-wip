@@ -173,7 +173,7 @@ _SVN_DISTFILE.${repo}=	${SVN_DISTBASE.${repo}}-${_SVN_TAG.${repo}}.tar.gz
 _SVN_EXTRACT_CACHED.${repo}=	\
 	if [ -f ${_SVN_DISTDIR}/${_SVN_DISTFILE.${repo}:Q} ]; then		\
 	  ${STEP_MSG} "Extracting cached Subversion archive "${_SVN_DISTFILE.${repo}:Q}"."; \
-	  pax -r -z -f ${_SVN_DISTDIR}/${_SVN_DISTFILE.${repo}:Q};	\
+	  gzip -d -c ${_SVN_DISTDIR}/${_SVN_DISTFILE.${repo}:Q} | pax -r;	\
 	  exit 0;							\
 	fi
 
@@ -181,7 +181,7 @@ _SVN_EXTRACT_CACHED.${repo}=	\
 _SVN_CREATE_CACHE.${repo}=	\
 	${STEP_MSG} "Creating cached Subversion archive "${_SVN_DISTFILE.${repo}:Q}"."; \
 	${MKDIR} ${_SVN_DISTDIR:Q};							\
-	pax -w -z -f ${_SVN_DISTDIR}/${_SVN_DISTFILE.${repo}:Q} ${SVN_MODULE.${repo}:Q}
+	pax -w ${SVN_MODULE.${repo}:Q} | gzip > ${_SVN_DISTDIR}/${_SVN_DISTFILE.${repo}:Q}
 .  else
 # I have to set them to noop:
 _SVN_DISTFILE.${repo}=		:

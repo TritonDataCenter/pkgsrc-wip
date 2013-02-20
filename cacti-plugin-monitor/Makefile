@@ -1,24 +1,29 @@
 # $NetBSD$
 #
 
-DISTNAME=		monitor-0.8.2
-PKGNAME=		cacti-plugin-${DISTNAME}
+DISTNAME=		monitor-v${VERSION}
+PKGNAME=		cacti-plugin-monitor-${VERSION}
 CATEGORIES=		net
-MASTER_SITES=		http://mirror.cactiusers.org/downloads/plugins/
+MASTER_SITES=		http://docs.cacti.net/_media/plugin:
 
 MAINTAINER=		pettai@nordu.net
-HOMEPAGE=		http://cactiusers.org/
+HOMEPAGE=		http://docs.cacti.net/
 COMMENT=		Monitor plugin to cacti
+LICENSE=		gnu-gpl-v2
 
+VERSION=		1.3-1
+EXTRACT_SUFX=		.tgz
 
 USE_LANGUAGES=		# none
 NO_BUILD=		yes
 WRKSRC=			${WRKDIR}/monitor
 
+EXTRACT_USING=		gtar
 BUILD_DEPENDS+=		gtar-[0-9]*:../../archivers/gtar
-DEPENDS+=		cacti>=0.8.7h:../../net/cacti
+DEPENDS+=		cacti>=0.8.7:../../net/cacti
 
 USE_TOOLS+=		gtar
+USE_TOOLS+=		pax
 
 CACTIDIR=		${PREFIX}/share/cacti
 PLUGINDIR=		${CACTIDIR}/plugins/monitor
@@ -28,11 +33,8 @@ MESSAGE_SUBST+=		PLUGINDIR=${PLUGINDIR}
 
 INSTALLATION_DIRS+=	${PLUGINDIR}
 
-do-extract:
-	${GTAR} xzf ${DISTDIR}/${DISTNAME}.tar.gz -C ${WRKDIR}
-
 do-install:
-	${CP} -R ${WRKSRC}/* ${DESTDIR}${PLUGINDIR}
+	cd ${WRKSRC} && ${PAX} -wr * ${DESTDIR}${PLUGINDIR}
 
 # url2pkg-marker (please do not remove this line.)
 .include "../../mk/bsd.pkg.mk"
