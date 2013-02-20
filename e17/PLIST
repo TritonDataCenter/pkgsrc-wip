@@ -554,6 +554,9 @@ share/enlightenment/data/images/test.edj
 share/enlightenment/data/images/test.jpg
 share/enlightenment/data/images/test.png
 share/enlightenment/data/images/test.svg
+share/enlightenment/data/input_methods/fcitx.imc
+share/enlightenment/data/input_methods/gcin.imc
+share/enlightenment/data/input_methods/hime.imc
 share/enlightenment/data/input_methods/ibus.imc
 share/enlightenment/data/input_methods/iiimf.imc
 share/enlightenment/data/input_methods/scim.imc
