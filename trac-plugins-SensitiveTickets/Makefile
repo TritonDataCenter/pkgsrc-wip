@@ -1,8 +1,8 @@
 # $NetBSD$
 
-UPSTREAM_VERSION=	0.1
+UPSTREAM_VERSION=	0.21
 VERSION=	${UPSTREAM_VERSION}.${SVN_VERSION}
-SVN_VERSION=	5285
+SVN_VERSION=	11910
 
 DISTNAME=	TracSensitiveTickets-${VERSION}
 PKGNAME=	trac-plugins-SensitiveTickets-${VERSION}
@@ -24,12 +24,12 @@ DEPENDS+=	{ja-,}trac>=0.11:../../www/trac
 EGG_NAME=	sensitivetickets-${UPSTREAM_VERSION}
 
 SVN_REPOSITORIES=	sensitivetickets
-SVN_ROOT.sensitivetickets=	http://trac-hacks.org/svn/sensitiveticketsplugin/0.11
+SVN_ROOT.sensitivetickets=	http://trac-hacks.org/svn/sensitiveticketsplugin/trunk
 SVN_TAG.sensitivetickets=	${SVN_VERSION}
 
 NO_CHECKSUM=	yes
 
-WRKSRC=		${WRKDIR}/sensitivetickets
+WRKSRC=		${WRKDIR}/sensitivetickets/trunk
 
 PRIVILEGED_STAGES+=	clean
 
