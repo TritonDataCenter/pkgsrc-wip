@@ -1,7 +1,7 @@
 # $NetBSD$
 
-SVNVERSION=	4543
-UPSTREAM_VERSION=	0.7.5
+SVNVERSION=	11464
+UPSTREAM_VERSION=	0.7.6
 VERSION=	${UPSTREAM_VERSION=}.${SVNVERSION}
 DISTNAME=	TracGraphViz-${VERSION}
 PKGNAME=	trac-plugins-GraphViz-${VERSION}
@@ -20,8 +20,8 @@ DEPENDS+=	{ja-,}trac>=0.11:../../www/trac
 EGG_NAME=	graphviz-${UPSTREAM_VERSION}dev
 
 SVN_REPOSITORIES=	plugin
-SVN_ROOT.plugin=	http://trac-hacks.org/svn/graphvizplugin/0.11
-SVN_TAG.plugin=	5305
+SVN_ROOT.plugin=	http://trac-hacks.org/svn/graphvizplugin/trunk
+SVN_TAG.plugin=	${SVNVERSION}
 
 NO_CHECKSUM=	yes
 
