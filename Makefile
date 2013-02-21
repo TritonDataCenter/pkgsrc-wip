@@ -916,6 +916,7 @@ SUBDIR+=	hs-MonadCatchIO-transformers
 SUBDIR+=	hs-ObjectName
 SUBDIR+=	hs-OpenGL
 SUBDIR+=	hs-OpenGLRaw
+SUBDIR+=	hs-QIO
 SUBDIR+=	hs-QuickCheck
 SUBDIR+=	hs-QuickCheck1
 SUBDIR+=	hs-SHA
