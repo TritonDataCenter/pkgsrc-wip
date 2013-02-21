@@ -15,6 +15,12 @@ DEPENDS+=      redis>=3.0.2:../../wip/redis
 
 # http://wiki.diaspora-project.org/wiki/Required_Gems_Overview
 
+# Diaspora is not a gem.  There are no release tarballs.
+# From the list, advice is:
+#  clone https://github.com/diaspora/diaspora.git
+#  it's rails, so in the clone
+#    bundle && rails server
+
 .include "../../mk/pgsql.buildlink3.mk"
 
 .include "../../lang/ruby/gem.mk"
