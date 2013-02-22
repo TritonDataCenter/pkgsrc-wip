@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	concrete-typerep-0.1.0.1
+DISTNAME=	concrete-typerep-0.1.0.2
 CATEGORIES=	devel
 
 MAINTAINER=	pho@cielonegro.org

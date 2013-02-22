@@ -1,10 +1,9 @@
 # $NetBSD$
 #
 
-DISTNAME=	gearmand-0.33
-PKGREVISION=	1
+DISTNAME=	gearmand-1.0.3
 CATEGORIES=	devel
-MASTER_SITES=	http://launchpadlibrarian.net/104788829/
+MASTER_SITES=	https://launchpad.net/gearmand/1.0/1.0.3/+download/
 
 MAINTAINER=	filip@joyent.com
 HOMEPAGE=	http://gearman.org/
@@ -16,11 +15,12 @@ USE_TOOLS+=	gmake pkg-config
 USE_LIBTOOL=	yes
 USE_LANGUAGES=	c c++
 
+CONFIGURE_ARGS+=	--enable-jobserver=no
+CONFIGURE_ARGS+=	--disable-libdrizzle
+
 .include "options.mk"
 
 PKGCONFIG_OVERRIDE+=	support/gearmand.pc.in
-
-LIBS.SunOS+=	-ldladm
 
 .include "../../devel/boost-headers/buildlink3.mk"
 .include "../../devel/boost-libs/buildlink3.mk"
