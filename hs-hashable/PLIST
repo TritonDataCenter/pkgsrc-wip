@@ -1,6 +1,12 @@
 @comment $NetBSD$
 lib/hashable-${PKGVERSION}/${HASKELL_VERSION}/Data/Hashable.hi
 lib/hashable-${PKGVERSION}/${HASKELL_VERSION}/Data/Hashable.p_hi
+lib/hashable-${PKGVERSION}/${HASKELL_VERSION}/Data/Hashable/Class.hi
+lib/hashable-${PKGVERSION}/${HASKELL_VERSION}/Data/Hashable/Class.p_hi
+lib/hashable-${PKGVERSION}/${HASKELL_VERSION}/Data/Hashable/Generic.hi
+lib/hashable-${PKGVERSION}/${HASKELL_VERSION}/Data/Hashable/Generic.p_hi
+lib/hashable-${PKGVERSION}/${HASKELL_VERSION}/Data/Hashable/RandomSource.hi
+lib/hashable-${PKGVERSION}/${HASKELL_VERSION}/Data/Hashable/RandomSource.p_hi
 lib/hashable-${PKGVERSION}/${HASKELL_VERSION}/HShashable-${PKGVERSION}.o
 lib/hashable-${PKGVERSION}/${HASKELL_VERSION}/libHShashable-${PKGVERSION}.a
 lib/hashable-${PKGVERSION}/${HASKELL_VERSION}/libHShashable-${PKGVERSION}_p.a

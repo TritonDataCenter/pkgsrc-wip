@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	hashable-1.1.2.5
+DISTNAME=	hashable-1.2.0.5
 CATEGORIES=	devel
 
 MAINTAINER=	pho@cielonegro.org
