@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	attoparsec-0.10.1.1
+DISTNAME=	attoparsec-0.10.4.0
 CATEGORIES=	devel
 
 MAINTAINER=	pho@cielonegro.org
