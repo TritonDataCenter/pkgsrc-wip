@@ -1034,6 +1034,7 @@ SUBDIR+=	hs-monad-peel
 SUBDIR+=	hs-monads-fd
 SUBDIR+=	hs-monoid-transformer
 SUBDIR+=	hs-mtl
+SUBDIR+=	hs-nats
 SUBDIR+=	hs-network
 SUBDIR+=	hs-network-bytestring
 SUBDIR+=	hs-non-negative
