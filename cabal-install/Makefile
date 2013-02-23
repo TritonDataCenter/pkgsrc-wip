@@ -9,7 +9,6 @@ COMMENT=	Command-line interface for Cabal and Hackage
 LICENSE=	modified-bsd
 
 .include "../../wip/mk/haskell.mk"
-.include "../../wip/hs-Cabal/buildlink3.mk"
 .include "../../wip/hs-HTTP/buildlink3.mk"
 .include "../../wip/hs-mtl/buildlink3.mk"
 .include "../../wip/hs-network/buildlink3.mk"
