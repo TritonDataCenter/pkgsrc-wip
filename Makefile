@@ -1487,6 +1487,7 @@ SUBDIR+=	light-desktop
 SUBDIR+=	lightdm
 SUBDIR+=	lightdm-gtk-greeter
 SUBDIR+=	lilypond-devel
+SUBDIR+=	lilyterm
 SUBDIR+=	linbox
 SUBDIR+=	lingoteach-lesson
 SUBDIR+=	lingoteach-ui
