@@ -6,7 +6,7 @@ BUILDLINK_TREE+=	openmpi
 OPENMPI_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.openmpi+=	openmpi>=1.6.3
-BUILDLINK_PKGSRCDIR.openmpi?=	../../jb-wip/openmpi-prefixed
+BUILDLINK_PKGSRCDIR.openmpi?=	../../wip/openmpi-prefixed
 
 MPI_PREFIX=	${PREFIX}/openmpi
 
