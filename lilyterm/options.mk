@@ -2,8 +2,8 @@
 
 PKG_OPTIONS_VAR=	PKG_OPTIONS.lilyterm
 PKG_SUPPORTED_OPTIONS=	debug gnome nls
-PKG_SUGGESTED_OPTIONS=	gnome nls
-PLIST_VARS+=		nls
+PKG_SUGGESTED_OPTIONS=	nls
+PLIST_VARS+=		gnome nls
 
 .include "../../mk/bsd.options.mk"
 
