@@ -16,7 +16,7 @@ DEPENDS+=	${PYPKGPREFIX}-fftw>=0.2:../../wip/py-fftw
 
 PYDISTUTILSPKG=	yes
 
-PYTHON_VERSIONS_INCLUDE_3X= yes
+#PYTHON_VERSIONS_INCLUDE_3X= yes	# py-fftw doesn't support it yet
 
 .include "../../devel/py-cython/buildlink3.mk"
 .include "../../math/py-numpy/buildlink3.mk"

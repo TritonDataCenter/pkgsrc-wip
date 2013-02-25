@@ -18,6 +18,8 @@ lib/network-${PKGVERSION}/${HASKELL_VERSION}/Network/Socket/ByteString/MsgHdr.hi
 lib/network-${PKGVERSION}/${HASKELL_VERSION}/Network/Socket/ByteString/MsgHdr.p_hi
 lib/network-${PKGVERSION}/${HASKELL_VERSION}/Network/Socket/Internal.hi
 lib/network-${PKGVERSION}/${HASKELL_VERSION}/Network/Socket/Internal.p_hi
+lib/network-${PKGVERSION}/${HASKELL_VERSION}/Network/Socket/Types.hi
+lib/network-${PKGVERSION}/${HASKELL_VERSION}/Network/Socket/Types.p_hi
 lib/network-${PKGVERSION}/${HASKELL_VERSION}/Network/URI.hi
 lib/network-${PKGVERSION}/${HASKELL_VERSION}/Network/URI.p_hi
 lib/network-${PKGVERSION}/${HASKELL_VERSION}/include/HsNet.h

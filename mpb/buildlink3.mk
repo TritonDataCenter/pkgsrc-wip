@@ -14,7 +14,7 @@ BUILDLINK_PKGSRCDIR.mpb?=	../../wip/mpb
 .include "../../devel/hdf5/buildlink3.mk"
 .include "../../math/fftw2/buildlink3.mk"
 .include "../../devel/readline/buildlink3.mk"
-.include "../../wip/libctl/buildlink3.mk"
+.include "../../devel/libctl/buildlink3.mk"
 .endif	# MPB_BUILDLINK3_MK
 
 BUILDLINK_TREE+=	-mpb

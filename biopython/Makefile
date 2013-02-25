@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		biopython-1.53
-PKGREVISION=		1
+PKGNAME=		$(PYPKGPREFIX)-$(DISTNAME)
 CATEGORIES=		biology
 MASTER_SITES=		http://biopython.org/DIST/
 

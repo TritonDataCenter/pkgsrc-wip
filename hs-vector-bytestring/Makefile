@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	vector-bytestring-0.0.0.1
+PKGREVISION=	1
 CATEGORIES=	textproc
 
 MAINTAINER=	pho@cielonegro.org

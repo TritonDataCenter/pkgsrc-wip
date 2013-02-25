@@ -15,7 +15,7 @@ DEPENDS+=	${PYPKGPREFIX}-scipy>=0.7.2:../../math/py-scipy
 DEPENDS+=	${PYPKGPREFIX}-biopython>=1.53:../../wip/biopython
 
 USE_LANGUAGES=	c c++
-PYTHON_VERSIONS_INCLUDE_3X=yes
+#PYTHON_VERSIONS_INCLUDE_3X=yes	# biopython doesn't support it yet
 
 .include "../../devel/py-cython/buildlink3.mk"
 .include "../../math/py-numpy/buildlink3.mk"

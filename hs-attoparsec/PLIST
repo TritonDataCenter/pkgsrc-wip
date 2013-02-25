@@ -15,6 +15,8 @@ lib/attoparsec-${PKGVERSION}/${HASKELL_VERSION}/Data/Attoparsec/Char8.hi
 lib/attoparsec-${PKGVERSION}/${HASKELL_VERSION}/Data/Attoparsec/Char8.p_hi
 lib/attoparsec-${PKGVERSION}/${HASKELL_VERSION}/Data/Attoparsec/Combinator.hi
 lib/attoparsec-${PKGVERSION}/${HASKELL_VERSION}/Data/Attoparsec/Combinator.p_hi
+lib/attoparsec-${PKGVERSION}/${HASKELL_VERSION}/Data/Attoparsec/Internal.hi
+lib/attoparsec-${PKGVERSION}/${HASKELL_VERSION}/Data/Attoparsec/Internal.p_hi
 lib/attoparsec-${PKGVERSION}/${HASKELL_VERSION}/Data/Attoparsec/Internal/Types.hi
 lib/attoparsec-${PKGVERSION}/${HASKELL_VERSION}/Data/Attoparsec/Internal/Types.p_hi
 lib/attoparsec-${PKGVERSION}/${HASKELL_VERSION}/Data/Attoparsec/Lazy.hi
