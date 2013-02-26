@@ -615,6 +615,7 @@ SUBDIR+=	feynedit
 SUBDIR+=	feynhiggs
 SUBDIR+=	ffmpeg-snapshot
 SUBDIR+=	fftjet
+SUBDIR+=	fftw-openmpi
 SUBDIR+=	ficl
 SUBDIR+=	filepp
 SUBDIR+=	firebird
