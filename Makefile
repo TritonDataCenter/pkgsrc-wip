@@ -3017,7 +3017,6 @@ SUBDIR+=	stunnel3
 SUBDIR+=	subversion17-base
 SUBDIR+=	sudo
 SUBDIR+=	sudoscript
-SUBDIR+=	sugarCRM
 SUBDIR+=	suitesparse
 SUBDIR+=	sun-j2me
 SUBDIR+=	sunterlib
