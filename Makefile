@@ -1835,6 +1835,7 @@ SUBDIR+=	opendesktop-fonts
 SUBDIR+=	opendnssec
 SUBDIR+=	openlogos
 SUBDIR+=	openmpi
+SUBDIR+=	openmpi-prefixed
 SUBDIR+=	openscep
 SUBDIR+=	opensips
 SUBDIR+=	opensmtpd
