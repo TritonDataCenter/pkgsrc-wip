@@ -1,8 +1,10 @@
 $NetBSD$
 
---- utils/mgnokiidev.c.orig	2004-04-14 01:27:39.000000000 +0400
+Add NetBSD support.
+
+--- utils/mgnokiidev.c.orig	2011-12-02 14:53:04.000000000 +0000
 +++ utils/mgnokiidev.c
-@@ -39,7 +39,7 @@
+@@ -43,7 +43,7 @@
  #endif
  
  /* See common/data/virtmodem.c for explanation */
