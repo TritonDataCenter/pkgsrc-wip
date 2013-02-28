@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	data-accessor-template-0.2.1.9
+DISTNAME=	data-accessor-template-0.2.1.10
 CATEGORIES=	devel
 
 MAINTAINER=	pho@cielonegro.org
