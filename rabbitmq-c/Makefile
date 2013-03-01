@@ -12,6 +12,8 @@ HOMEPAGE=	https://github.com/alanxz/rabbitmq-c
 COMMENT=	C-language AMQP client library for use with AMQP servers
 LICENSE=	mit
 
+USE_GCC_RUNTIME=	yes
+
 WRKSRC=			${WRKDIR}/${PKGBASE}-${DISTNAME}
 
 USE_CMAKE=		yes

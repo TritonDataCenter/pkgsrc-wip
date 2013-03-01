@@ -9,6 +9,8 @@ HOMEPAGE=	http://rubyforge.org/projects/dnssd
 COMMENT=	DNS Service Discovery (aka Bonjour, MDNS) API for Ruby
 LICENSE=	ruby-license
 
+USE_GCC_RUNTIME=	yes
+
 GEM_CLEANBUILD=	ext/dnssd/*.o ext/dnssd/mkmf.log ext/dnssd/Makefile
 
 .include "../../net/mDNSResponder/buildlink3.mk"
