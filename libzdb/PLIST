@@ -6,4 +6,6 @@ include/zdb/PreparedStatement.h
 include/zdb/ResultSet.h
 include/zdb/SQLException.h
 include/zdb/URL.h
+include/zdb/zdb.h
 lib/libzdb.la
+lib/pkgconfig/zdb.pc
