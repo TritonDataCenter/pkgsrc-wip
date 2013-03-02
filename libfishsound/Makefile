@@ -18,10 +18,6 @@ PKGCONFIG_OVERRIDE+=	fishsound.pc.in
 
 .include "options.mk"
 
-BUILDLINK_DEPMETHOD.flac=	build
-.include "../../audio/flac/buildlink3.mk"
 .include "../../wip/liboggz/buildlink3.mk"
 .include "../../audio/libsndfile/buildlink3.mk"
-.include "../../audio/speex/buildlink3.mk"
-.include "../../audio/libvorbis/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
