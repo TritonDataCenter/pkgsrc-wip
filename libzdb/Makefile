@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	libzdb-2.6
+DISTNAME=	libzdb-2.11.1
 CATEGORIES=	databases
 MASTER_SITES=	http://www.tildeslash.com/libzdb/dist/
 
@@ -13,6 +13,8 @@ LICENSE=	gnu-gpl-v3
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_TOOLS+=	gmake
+
+PKGCONFIG_OVERRIDE+=	zdb.pc.in
 
 .include "options.mk"
 

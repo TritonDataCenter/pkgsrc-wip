@@ -1,7 +1,7 @@
 # $NetBSD$
 DISTNAME=	X11-${VERSION}
 PKGNAME=	hs-x11-${VERSION}
-VERSION=	1.6.0.2
+VERSION=	1.6.1.1
 CATEGORIES=	devel
 
 MAINTAINER=	esg@sdf.lonestar.org
@@ -12,4 +12,5 @@ LICENSE=	modified-bsd
 
 .include "../../x11/libX11/buildlink3.mk"
 .include "../../wip/mk/haskell.mk"
+.include "../../wip/hs-data-default/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

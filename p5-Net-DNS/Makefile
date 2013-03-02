@@ -8,7 +8,7 @@ CATEGORIES=		net perl5
 MASTER_SITES=		${MASTER_SITE_PERL_CPAN:=Net/}		\
 			http://www.net-dns.org/download/
 
-MAINTAINER=		heinz@NetBSD.org
+MAINTAINER=		pkgsrc-wip-discuss@lists.sourceforge.net
 HOMEPAGE=		http://www.net-dns.org/
 COMMENT=		Perl5 module for DNS resolution
 LICENSE=		${PERL5_LICENSE}

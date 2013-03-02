@@ -1,0 +1,8 @@
+@comment $NetBSD$
+lib/vector-th-unbox-${PKGVERSION}/${HASKELL_VERSION}/Data/Vector/Unboxed/Deriving.hi
+lib/vector-th-unbox-${PKGVERSION}/${HASKELL_VERSION}/Data/Vector/Unboxed/Deriving.p_hi
+lib/vector-th-unbox-${PKGVERSION}/${HASKELL_VERSION}/HSvector-th-unbox-${PKGVERSION}.o
+lib/vector-th-unbox-${PKGVERSION}/${HASKELL_VERSION}/libHSvector-th-unbox-${PKGVERSION}.a
+lib/vector-th-unbox-${PKGVERSION}/${HASKELL_VERSION}/libHSvector-th-unbox-${PKGVERSION}_p.a
+lib/vector-th-unbox-${PKGVERSION}/${HASKELL_VERSION}/package-description
+share/doc/vector-th-unbox-${PKGVERSION}/LICENSE

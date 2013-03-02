@@ -9,7 +9,6 @@ MASTER_SITES=	http://www.spamassassin.org/devel/		\
 		http://eu.spamassassin.org/devel/		\
 		http://au.spamassassin.org/devel/
 
-#MAINTAINER=	heinz@NetBSD.org # maintainer of pkgsrc in base
 MAINTAINER=	tom@replic8.net
 HOMEPAGE=	http://spamassassin.apache.org/
 COMMENT=	Mail filter to identify spam (CVS snapshot)

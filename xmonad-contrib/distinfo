@@ -5,4 +5,4 @@ RMD160 (xmonad-contrib-0.11.tar.gz) = 3d183c062b7f38e34b6effd35c4ed60f6f3d23bc
 Size (xmonad-contrib-0.11.tar.gz) = 402567 bytes
 SHA1 (files/no_use_xft) = e81f81e6e4f79369a33839590e547581d0186e5a
 RMD160 (files/no_use_xft) = 4ce6ec2ee155b0c18c056d3b1802e26c43cb0766
-
+SHA1 (patch-XMonad_Hooks_DebugEvents.hs) = 2bbfe5ded0da9f27b3ec3fee4cfe75a3ee1bc18b

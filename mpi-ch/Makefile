@@ -8,10 +8,6 @@ MAINTAINER=	asau@inbox.ru
 HOMEPAGE=	http://www.mpich.org/
 COMMENT=	Open source MPI, MPI-2, and MPI-3 implementation from Univ. of Chicago
 
-CONFLICTS+=	mpich-[0-9]*	# installs bin/mpicc & other wrappers
-CONFLICTS+=	mpich2-[0-9]*	# older package name
-CONFLICTS+=	openmpi-[0-9]*	# installs bin/mpicc & other wrappers
-
 MAKE_JOBS_SAFE=		no
 
 DEPENDS+=	bash-[0-9]*:../../shells/bash

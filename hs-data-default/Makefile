@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	data-default-0.3.0
+DISTNAME=	data-default-0.5.0
 CATEGORIES=	devel
 
 MAINTAINER=	pho@cielonegro.org

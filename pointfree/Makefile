@@ -1,13 +1,13 @@
 # $NetBSD$
 #
 
-DISTNAME=	pointfree-1.0.4.1
+DISTNAME=	pointfree-1.0.4.3
 PKGNAME=	${DISTNAME}
 CATEGORIES=	devel
 
 MAINTAINER=	pho@cielonegro.org
 COMMENT=	Convert Haskell expressions to pointfree form
-LICENSE=	modified-bsd
+LICENSE=	mit
 
 .include "../../wip/mk/haskell.mk"
 .include "../../wip/hs-mtl/buildlink3.mk"

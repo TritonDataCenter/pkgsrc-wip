@@ -7,8 +7,6 @@ lib/uniplate-${PKGVERSION}/${HASKELL_VERSION}/Data/Generics/PlateData.hi
 lib/uniplate-${PKGVERSION}/${HASKELL_VERSION}/Data/Generics/PlateData.p_hi
 lib/uniplate-${PKGVERSION}/${HASKELL_VERSION}/Data/Generics/PlateDirect.hi
 lib/uniplate-${PKGVERSION}/${HASKELL_VERSION}/Data/Generics/PlateDirect.p_hi
-lib/uniplate-${PKGVERSION}/${HASKELL_VERSION}/Data/Generics/PlateInternal.hi
-lib/uniplate-${PKGVERSION}/${HASKELL_VERSION}/Data/Generics/PlateInternal.p_hi
 lib/uniplate-${PKGVERSION}/${HASKELL_VERSION}/Data/Generics/PlateTypeable.hi
 lib/uniplate-${PKGVERSION}/${HASKELL_VERSION}/Data/Generics/PlateTypeable.p_hi
 lib/uniplate-${PKGVERSION}/${HASKELL_VERSION}/Data/Generics/SYB.hi

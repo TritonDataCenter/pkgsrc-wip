@@ -12,9 +12,6 @@ MAINTAINER=	asau@inbox.ru
 HOMEPAGE=	http://www.open-mpi.org/
 COMMENT=	Open source MPI-2 implementation
 
-CONFLICTS+=	mpich-[0-9]*	# installs bin/mpicc & other wrappers
-CONFLICTS+=	mpich2-[0-9]*	# installs bin/mpicc & other wrappers
-
 GNU_CONFIGURE=		yes
 USE_LANGUAGES=		c c++ fortran77
 USE_LIBTOOL=		yes
