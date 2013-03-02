@@ -2,7 +2,7 @@
 
 PKG_OPTIONS_VAR=		PKG_OPTIONS.zdb
 PKG_SUPPORTED_OPTIONS=		ssl sqliteunlock
-PKG_SUGGESTED_OPTIONS=		ssl
+PKG_SUGGESTED_OPTIONS=		ssl mysql
 PKG_OPTIONS_NONEMPTY_SETS=	database
 PKG_OPTIONS_SET.database=	mysql pgsql sqlite
 
