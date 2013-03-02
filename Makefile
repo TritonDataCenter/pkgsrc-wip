@@ -983,6 +983,7 @@ SUBDIR+=	hs-event-list
 SUBDIR+=	hs-executable-path
 SUBDIR+=	hs-explicit-exception
 SUBDIR+=	hs-explicit-iomodes
+SUBDIR+=	hs-extensible-exceptions
 SUBDIR+=	hs-failure
 SUBDIR+=	hs-fclabels
 SUBDIR+=	hs-filemanip
