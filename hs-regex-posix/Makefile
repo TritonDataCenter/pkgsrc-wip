@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	regex-posix-0.95.1
+DISTNAME=	regex-posix-0.95.2
 CATEGORIES=	textproc
 
 MAINTAINER=	pho@cielonegro.org
