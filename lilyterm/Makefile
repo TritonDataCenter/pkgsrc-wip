@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	lilyterm-0.9.9.3
+DISTNAME=	lilyterm-0.9.9.4
 CATEGORIES=	x11
 MASTER_SITES=	http://lilyterm.luna.com.tw/file/
 
