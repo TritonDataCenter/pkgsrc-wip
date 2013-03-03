@@ -3216,6 +3216,7 @@ SUBDIR+=	udp-ping
 SUBDIR+=	uebimiau
 SUBDIR+=	ufc
 SUBDIR+=	uffizi
+SUBDIR+=	uget
 SUBDIR+=	uim-chewing
 SUBDIR+=	ukncbtl
 SUBDIR+=	umix
