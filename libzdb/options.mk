@@ -1,8 +1,8 @@
 # $NetBSD$
 
-PKG_OPTIONS_VAR=		PKG_OPTIONS.zdb
+PKG_OPTIONS_VAR=		PKG_OPTIONS.libzdb
 PKG_SUPPORTED_OPTIONS=		ssl sqliteunlock
-PKG_SUGGESTED_OPTIONS=		ssl mysql
+PKG_SUGGESTED_OPTIONS=		ssl mysql pgsql sqlite
 PKG_OPTIONS_NONEMPTY_SETS=	database
 PKG_OPTIONS_SET.database=	mysql pgsql sqlite
 
@@ -13,7 +13,7 @@ PKG_OPTIONS_SET.database=	mysql pgsql sqlite
 ###
 .if !empty(PKG_OPTIONS:Mmysql)
 .  include "../../mk/mysql.buildlink3.mk"
-CONFIGURE_ARGS+=	--with-mysql=${BUILDLINK_PREFIX.mysql-client}
+CONFIGURE_ARGS+=	--with-mysql=${BUILDLINK_PREFIX.mysql-client}/bin/mysql_config
 .else
 CONFIGURE_ARGS+=	--without-mysql
 .endif
