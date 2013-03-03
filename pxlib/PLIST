@@ -1,6 +1,10 @@
 @comment $NetBSD$
 include/paradox.h
 include/paradox-gsf.h
+include/paradox-mp.h
 include/pxversion.h
 lib/libpx.la
 lib/pkgconfig/pxlib.pc
+${PLIST.nls}share/locale/de/LC_MESSAGES/pxlib.mo
+${PLIST.nls}share/locale/es/LC_MESSAGES/pxlib.mo
+${PLIST.nls}share/locale/fr/LC_MESSAGES/pxlib.mo
