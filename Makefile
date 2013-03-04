@@ -2793,6 +2793,7 @@ SUBDIR+=	qemu-neo1973-images
 SUBDIR+=	qhacc
 SUBDIR+=	qico
 SUBDIR+=	qinx
+SUBDIR+=	qmc2
 SUBDIR+=	qmpdclient
 SUBDIR+=	qn-x11
 SUBDIR+=	qrint
