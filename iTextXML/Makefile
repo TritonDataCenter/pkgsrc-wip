@@ -10,7 +10,7 @@ EXTRACT_SUFX=	.zip
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.lowagie.com/iText/
 COMMENT=	Java classes to generate and parse XML files
-LICENSE=	gnu-agpl-v3-license
+LICENSE=	gnu-agpl-v3
 
 DEPENDS+=	java-itext-[0-9]*:../../wip/iText
 
