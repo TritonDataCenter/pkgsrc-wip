@@ -9,7 +9,7 @@ EXTRACT_SUFX=	.tar.bz2
 MAINTAINER=	kamel.derouiche@gmail.com
 HOMEPAGE=	http://ninka.turingmachine.org/
 COMMENT=	License identification tool for Source Code
-LICENSE=	gnu-agpl-v3
+LICENSE=	gnu-agpl-v3-license
 
 DEPENDS+=	p5-Getopt-Long>=2.38:../../devel/p5-Getopt-Long
 

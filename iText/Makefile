@@ -10,7 +10,7 @@ EXTRACT_SUFX=	.zip
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.lowagie.com/iText/
 COMMENT=	Java classes to generate PDF files on the fly
-LICENSE=	gnu-agpl-v3
+LICENSE=	gnu-agpl-v3-license
 
 WRKSRC=		${WRKDIR}
 NO_CONFIGURE=	yes

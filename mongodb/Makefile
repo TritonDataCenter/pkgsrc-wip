@@ -8,7 +8,7 @@ MASTER_SITES=	http://downloads.mongodb.org/src/
 MAINTAINER=	bartosz.kuzma@gmail.com
 HOMEPAGE=	http://mongodb.org/
 COMMENT=	NOSQL distributed document-oriented database
-LICENSE=	gnu-agpl-v3 # Client and tools licensed under apache-2.0
+LICENSE=	gnu-agpl-v3-license # Client and tools licensed under apache-2.0
 
 NO_CONFIGURE=	yes
 USE_LANGUAGES=	c c++

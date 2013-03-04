@@ -11,7 +11,7 @@ EXTRACT_SUFX=	.tar.bz2
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://wmc2d.sourceforge.net/
 COMMENT=	Dockapp to monitor coretemp temperature and cpufreq frequency
-LICENSE=	gnu-agpl-v3
+LICENSE=	gnu-agpl-v3-license
 
 USE_TOOLS+=		gmake pkg-config
 INSTALLATION_DIRS+=	bin ${PKGMANDIR}/man1
