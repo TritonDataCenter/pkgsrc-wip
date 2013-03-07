@@ -14,6 +14,7 @@ DEPENDS+=	bash-[0-9]*:../../shells/bash
 
 MPI_SUBPREFIX=		mpich
 MPI_PREFIX=		$(LOCALBASE)/$(MPI_SUBPREFIX)
+INSTALLATION_PREFIX=	$(MPI_PREFIX)
 
 GNU_CONFIGURE=		yes
 USE_LIBTOOL=		yes
@@ -34,15 +35,11 @@ CONFIGURE_ARGS+=	--with-hwloc-prefix=$(BUILDLINK_PREFIX.hwloc:Q) # reuse it
 
 USE_TOOLS+=		perl:run
 
-BUILDLINK_PASSTHRU_RPATHDIRS+=	$(MPI_PREFIX)/lib
-
-PLIST_SUBST=	MPI_SUBPREFIX=$(MPI_SUBPREFIX)/	# don't forget trailing "/"
-
-CONF_FILES+=		$(MPI_SUBPREFIX)/share/$(PKGBASE)/examples/mpicc.conf \
+CONF_FILES+=		share/$(PKGBASE)/examples/mpicc.conf \
 			$(PKG_SYSCONFDIR)/mpicc.conf
-CONF_FILES+=		$(MPI_SUBPREFIX)/share/$(PKGBASE)/examples/mpicxx.conf \
+CONF_FILES+=		share/$(PKGBASE)/examples/mpicxx.conf \
 			$(PKG_SYSCONFDIR)/mpicxx.conf
-CONF_FILES+=		$(MPI_SUBPREFIX)/share/$(PKGBASE)/examples/mpif77.conf \
+CONF_FILES+=		share/$(PKGBASE)/examples/mpif77.conf \
 			$(PKG_SYSCONFDIR)/mpif77.conf
 
 # FreeBSD 6 hack:
