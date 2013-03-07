@@ -1,7 +1,7 @@
 # $NetBSD$
 
-DISTNAME=	pymongo-2.4
-PKGNAME=	${PYPKGPREFIX}-mongo-2.4
+DISTNAME=	pymongo-2.4.2
+PKGNAME=	${PYPKGPREFIX}-mongo-2.4.2
 CATEGORIES=	devel python
 MASTER_SITES=	http://pypi.python.org/packages/source/p/pymongo/
 
