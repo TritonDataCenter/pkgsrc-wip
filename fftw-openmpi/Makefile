@@ -38,4 +38,5 @@ USE_TOOLS+=		perl
 
 .include "../../wip/mpi-ch/buildlink3.mk"
 #.include "../../wip/openmpi/buildlink3.mk"
+#.include "../../wip/openmpi-prefixed/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
