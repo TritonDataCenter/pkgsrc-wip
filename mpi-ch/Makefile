@@ -35,6 +35,8 @@ CONFIGURE_ARGS+=	--with-hwloc-prefix=$(BUILDLINK_PREFIX.hwloc:Q) # reuse it
 
 USE_TOOLS+=		perl:run
 
+BUILDLINK_PASSTHRU_RPATHDIRS+=	$(MPI_PREFIX)/lib
+
 CONF_FILES+=		share/$(PKGBASE)/examples/mpicc.conf \
 			$(PKG_SYSCONFDIR)/mpicc.conf
 CONF_FILES+=		share/$(PKGBASE)/examples/mpicxx.conf \
