@@ -2307,6 +2307,7 @@ SUBDIR+=	py-algopy
 SUBDIR+=	py-altgraph
 SUBDIR+=	py-amqplib
 SUBDIR+=	py-anfft
+SUBDIR+=	py-antlr3
 SUBDIR+=	py-anyjson
 SUBDIR+=	py-aopython
 SUBDIR+=	py-arabic
