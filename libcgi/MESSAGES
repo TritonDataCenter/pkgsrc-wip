@@ -1,0 +1,10 @@
+===========================================================================
+$NetBSD$
+To compile examples,
+(cd work/libcgi-1.0/examples; \
+ for i  in `(find . -name Makefile| sed 's|/Makefile||')`
+    do
+      (cd $i; make)
+    done ; \
+)
+===========================================================================
