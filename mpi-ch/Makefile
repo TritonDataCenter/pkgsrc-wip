@@ -12,16 +12,21 @@ MAKE_JOBS_SAFE=		no
 
 DEPENDS+=	bash-[0-9]*:../../shells/bash
 
+MPI_SUBPREFIX=		mpich
+MPI_PREFIX=		$(LOCALBASE)/$(MPI_SUBPREFIX)
+INSTALLATION_PREFIX=	$(MPI_PREFIX)
+
 GNU_CONFIGURE=		yes
 USE_LIBTOOL=		yes
 USE_LANGUAGES=		c c++ fortran77
 
 PKG_SYSCONFSUBDIR=	mpich
 
-CONFIGURE_ARGS+=	--datadir=${PREFIX}/share/${PKGBASE}
-CONFIGURE_ARGS+=	--sysconfdir=${PKG_SYSCONFDIR}
-CONFIGURE_ARGS+=	--docdir=${PREFIX}/share/doc/${PKGBASE}
-CONFIGURE_ARGS+=	--htmldir=${PREFIX}/share/doc/${PKGBASE}/html
+GNU_CONFIGURE_PREFIX=	$(MPI_PREFIX)
+CONFIGURE_ARGS+=	--datadir=$(MPI_PREFIX)/share/$(PKGBASE)
+CONFIGURE_ARGS+=	--sysconfdir=$(PKG_SYSCONFDIR)
+CONFIGURE_ARGS+=	--docdir=$(MPI_PREFIX)/share/doc/$(PKGBASE)
+CONFIGURE_ARGS+=	--htmldir=$(MPI_PREFIX)/share/doc/$(PKGBASE)/html
 
 CONFIGURE_ARGS+=	--with-pm=hydra:gforker
 CONFIGURE_ARGS+=	--disable-fc		# problems?
@@ -30,12 +35,14 @@ CONFIGURE_ARGS+=	--with-hwloc-prefix=$(BUILDLINK_PREFIX.hwloc:Q) # reuse it
 
 USE_TOOLS+=		perl:run
 
-CONF_FILES+=		share/${PKGBASE}/examples/mpicc.conf \
-			${PKG_SYSCONFDIR}/mpicc.conf
-CONF_FILES+=		share/${PKGBASE}/examples/mpicxx.conf \
-			${PKG_SYSCONFDIR}/mpicxx.conf
-CONF_FILES+=		share/${PKGBASE}/examples/mpif77.conf \
-			${PKG_SYSCONFDIR}/mpif77.conf
+BUILDLINK_PASSTHRU_RPATHDIRS+=	$(MPI_PREFIX)/lib
+
+CONF_FILES+=		share/$(PKGBASE)/examples/mpicc.conf \
+			$(PKG_SYSCONFDIR)/mpicc.conf
+CONF_FILES+=		share/$(PKGBASE)/examples/mpicxx.conf \
+			$(PKG_SYSCONFDIR)/mpicxx.conf
+CONF_FILES+=		share/$(PKGBASE)/examples/mpif77.conf \
+			$(PKG_SYSCONFDIR)/mpif77.conf
 
 # FreeBSD 6 hack:
 .include "../../mk/bsd.prefs.mk"

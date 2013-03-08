@@ -53,8 +53,10 @@ DEPENDS+=	${RUBY_PKGPREFIX}-bundler:../../misc/ruby-bundler
 # TODO: package and depend on all required gems:
 # http://wiki.diaspora-project.org/wiki/Required_Gems_Overview
 
-# There is an implication somewhere that redis 3 is needed, but
-# pkgsrc-wip has 2.6.9.
+# Confusing, there is a redis ruby gem at 3.0.3, but that's a
+# different versioning space.  As of 20130306, the latest redis stable
+# was 2.6.10, so assume without basis that 2.6.9 (in wip) is good
+# enough.
 DEPENDS+=	redis>=2.6.9:../../wip/redis
 
 # Items listed as a depedency someplace, to be checked:

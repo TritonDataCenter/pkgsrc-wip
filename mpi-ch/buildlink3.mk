@@ -8,6 +8,9 @@ MPICH_BUILDLINK3_MK:=
 BUILDLINK_API_DEPENDS.mpich+=	mpich>=3
 BUILDLINK_PKGSRCDIR.mpich?=	../../wip/mpi-ch
 
+FIND_PREFIX:=	BUILDLINK_PREFIX.mpich=mpich
+.include "../../mk/find-prefix.mk"
+
 .include "../../parallel/openpa/buildlink3.mk"
 .endif	# MPICH_BUILDLINK3_MK
 

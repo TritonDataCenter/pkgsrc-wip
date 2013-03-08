@@ -12,7 +12,9 @@ COMMENT=		Collection of fast C routines to compute DFTs
 LICENSE=		gnu-gpl-v2
 
 PKG_INSTALLATION_TYPES=	overwrite pkgviews
-PKG_DESTDIR_SUPPORT=	user-destdir
+
+INSTALLATION_PREFIX=	$(BUILDLINK_PREFIX.mpich:Q)
+#INSTALLATION_PREFIX=	$(BUILDLINK_PREFIX.openmpi:Q)
 
 USE_LANGUAGES=		c fortran77
 USE_LIBTOOL=		yes
@@ -26,7 +28,7 @@ TEST_TARGET=		check
 
 CONFIGURE_ARGS+=	--enable-shared \
 			--enable-mpi \
-			--prefix=${MPI_PREFIX:Q}
+			--prefix=$(INSTALLATION_PREFIX)
 
 .include "../../mk/bsd.prefs.mk"
 
@@ -34,5 +36,7 @@ CONFIGURE_ARGS+=	--enable-shared \
 USE_TOOLS+=		perl
 .endif
 
-.include "../../wip/openmpi-prefixed/buildlink3.mk"
+.include "../../wip/mpi-ch/buildlink3.mk"
+#.include "../../wip/openmpi/buildlink3.mk"
+#.include "../../wip/openmpi-prefixed/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

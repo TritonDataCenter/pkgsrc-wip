@@ -10,7 +10,7 @@ pkgsrc standards. SunOS fixes as per https://github.com/bumptech/stud/pull/71
 -DESTDIR =
 -PREFIX  = /usr/local
 +DESTDIR?=
-+PREFIX ?= /usr/local
++PREFIX ?= @PREFIX@
  BINDIR  = $(PREFIX)/bin
 -MANDIR  = $(PREFIX)/share/man
 +MANDIR  = $(PREFIX)/$(PKGMANDIR)

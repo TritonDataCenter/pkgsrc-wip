@@ -4,7 +4,7 @@ Suggested package updates
 	o argouml-0.24
 	o atlas-3.10.0
 	o cairo-java-1.0.8
-	o calligra-2.6
+	o calligra-2.6.1
 	o ccrypt-1.10
 	o cgal-4.0
 	o cinelerra-4.4
@@ -84,6 +84,7 @@ Suggested package updates
 	o mpgedit-0.73dev2
 	o mumble-1.2.3
 	o mupen64-0.5
+	o musescore-1.3
 	o nautilus-open-terminal-0.19
 	o newsbeuter-2.4
 	o ogmrip-0.13.7
@@ -111,7 +112,7 @@ Suggested package updates
 	o scantailor-0.9.11.1
 	o sflphone-0.7.2
 	o showfont-1.0.4
-	o siege-2.75
+	o siege-2.77
 	o sleuthkit-3.2.3
 	o smc-1.8
 	o swift-2.0
@@ -125,7 +126,7 @@ Suggested package updates
 	o uptimed-0.3.17
 	o vidalia-0.2.21
 	o vidalia-devel-0.3.3
-	o virtualbox-4.2.6
+	o virtualbox-4.2.8
 	o xaralx-bin-0.7.1692
 	o xf86-input-synaptics-1.6.2
 	o xf86-video-geode-2.11.14

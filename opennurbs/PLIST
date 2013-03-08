@@ -1,0 +1,7 @@
+@comment $NetBSD$
+bin/example_brep
+bin/example_read
+bin/example_roundtrip
+bin/example_userdata
+bin/example_write
+lib/libopenNURBS.a

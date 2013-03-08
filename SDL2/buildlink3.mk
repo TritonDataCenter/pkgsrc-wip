@@ -16,10 +16,6 @@ pkgbase := SDL2
 .include "../../audio/alsa-lib/buildlink3.mk"
 .endif
 
-.if !empty(PKG_BUILD_OPTIONS.SDL2:Malsa)
-.include "../../audio/alsa-lib/buildlink3.mk"
-.endif
-
 .if !empty(PKG_BUILD_OPTIONS.SDL2:Marts)
 .include "../../audio/arts/buildlink3.mk"
 .endif
@@ -44,6 +40,36 @@ pkgbase := SDL2
 .include "../../audio/pulseaudio/buildlink3.mk"
 .endif
 
+.if !empty(PKG_BUILD_OPTIONS.SDL2:Mx11)
+.include "../../x11/libX11/buildlink3.mk"
+.endif
+
+.if !empty(PKG_BUILD_OPTIONS.SDL2:Mxcursor)
+.include "../../x11/libXcursor/buildlink3.mk"
+.endif
+
+.if !empty(PKG_BUILD_OPTIONS.SDL2:Mxim)
+.include "../../x11/libXi/buildlink3.mk"
+.endif
+
+.if !empty(PKG_BUILD_OPTIONS.SDL2:Mxinerama)
+.include "../../x11/libXinerama/buildlink3.mk"
+.endif
+
+.if !empty(PKG_BUILD_OPTIONS.SDL2:Mxrandr)
+.include "../../x11/libXrandr/buildlink3.mk"
+.endif
+
+.if !empty(PKG_BUILD_OPTIONS.SDL2:Mxrender)
+.include "../../x11/libXrender/buildlink3.mk"
+.endif
+
+.if !empty(PKG_BUILD_OPTIONS.SDL2:Mxscrnsaver)
+.include "../../x11/libXScrnSaver/buildlink3.mk"
+.endif
+
+.include "../../devel/libusb/buildlink3.mk"
+.include "../../mk/dlopen.buildlink3.mk"
 .include "../../x11/libX11/buildlink3.mk"
 .include "../../converters/libiconv/buildlink3.mk"
 .endif	# SDL2_BUILDLINK3_MK
