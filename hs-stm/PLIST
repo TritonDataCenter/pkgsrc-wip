@@ -3,10 +3,16 @@ lib/stm-${PKGVERSION}/${HASKELL_VERSION}/Control/Concurrent/STM.hi
 lib/stm-${PKGVERSION}/${HASKELL_VERSION}/Control/Concurrent/STM.p_hi
 lib/stm-${PKGVERSION}/${HASKELL_VERSION}/Control/Concurrent/STM/TArray.hi
 lib/stm-${PKGVERSION}/${HASKELL_VERSION}/Control/Concurrent/STM/TArray.p_hi
+lib/stm-${PKGVERSION}/${HASKELL_VERSION}/Control/Concurrent/STM/TBQueue.hi
+lib/stm-${PKGVERSION}/${HASKELL_VERSION}/Control/Concurrent/STM/TBQueue.p_hi
 lib/stm-${PKGVERSION}/${HASKELL_VERSION}/Control/Concurrent/STM/TChan.hi
 lib/stm-${PKGVERSION}/${HASKELL_VERSION}/Control/Concurrent/STM/TChan.p_hi
 lib/stm-${PKGVERSION}/${HASKELL_VERSION}/Control/Concurrent/STM/TMVar.hi
 lib/stm-${PKGVERSION}/${HASKELL_VERSION}/Control/Concurrent/STM/TMVar.p_hi
+lib/stm-${PKGVERSION}/${HASKELL_VERSION}/Control/Concurrent/STM/TQueue.hi
+lib/stm-${PKGVERSION}/${HASKELL_VERSION}/Control/Concurrent/STM/TQueue.p_hi
+lib/stm-${PKGVERSION}/${HASKELL_VERSION}/Control/Concurrent/STM/TSem.hi
+lib/stm-${PKGVERSION}/${HASKELL_VERSION}/Control/Concurrent/STM/TSem.p_hi
 lib/stm-${PKGVERSION}/${HASKELL_VERSION}/Control/Concurrent/STM/TVar.hi
 lib/stm-${PKGVERSION}/${HASKELL_VERSION}/Control/Concurrent/STM/TVar.p_hi
 lib/stm-${PKGVERSION}/${HASKELL_VERSION}/Control/Monad/STM.hi

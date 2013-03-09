@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	stm-2.2.0.1
+DISTNAME=	stm-2.4.2
 CATEGORIES=	devel
 
 MAINTAINER=	pho@cielonegro.org
