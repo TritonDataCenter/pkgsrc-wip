@@ -2004,6 +2004,7 @@ SUBDIR+=	p5-Lingua-Stem-Snowball-No
 SUBDIR+=	p5-Lingua-Stem-Snowball-Se
 SUBDIR+=	p5-Lingua-StopWords
 SUBDIR+=	p5-Lingua-Translate
+SUBDIR+=	p5-Locale-Maketext-Gettext
 SUBDIR+=	p5-Log-Dispatch-Array
 SUBDIR+=	p5-MKDoc-XML
 SUBDIR+=	p5-MMapDB
