@@ -1104,6 +1104,7 @@ SUBDIR+=	hs-utility-ht
 SUBDIR+=	hs-vector
 SUBDIR+=	hs-vector-bytestring
 SUBDIR+=	hs-vector-th-unbox
+SUBDIR+=	hs-void
 SUBDIR+=	hs-vte
 SUBDIR+=	hs-vty
 SUBDIR+=	hs-x11
