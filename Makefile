@@ -1969,6 +1969,7 @@ SUBDIR+=	p5-File-Binary
 SUBDIR+=	p5-File-Inplace
 SUBDIR+=	p5-File-Map
 SUBDIR+=	p5-File-ShareDir-Install
+SUBDIR+=	p5-File-Which
 SUBDIR+=	p5-Frontier-RPC
 SUBDIR+=	p5-GPS-Garmin
 SUBDIR+=	p5-Getopt-GUI-Long
