@@ -1,6 +1,7 @@
 $NetBSD$
 
 Resolves "Unknown distribution option: 'priority'".
+Fix file names and remove non-existent files.
 
 --- setup.py.orig	2009-06-29 17:15:56.000000000 +0000
 +++ setup.py
