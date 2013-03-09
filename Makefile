@@ -1975,6 +1975,7 @@ SUBDIR+=	p5-GPS-Garmin
 SUBDIR+=	p5-Getopt-GUI-Long
 SUBDIR+=	p5-Gtk2-Spell
 SUBDIR+=	p5-HTML-CalendarMonthSimple
+SUBDIR+=	p5-HTML-FormatText-WithLinks
 SUBDIR+=	p5-HTML-GenerateUtil
 SUBDIR+=	p5-HTML-Latex
 SUBDIR+=	p5-HTML-TableContentParser
