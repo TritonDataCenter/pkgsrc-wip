@@ -1013,6 +1013,7 @@ SUBDIR+=	hs-hinstaller
 SUBDIR+=	hs-hint
 SUBDIR+=	hs-hopenssl
 SUBDIR+=	hs-hostname
+SUBDIR+=	hs-hothasktags
 SUBDIR+=	hs-hscolour
 SUBDIR+=	hs-hslogger
 SUBDIR+=	hs-hslogger-template
