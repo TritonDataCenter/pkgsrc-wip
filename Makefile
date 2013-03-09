@@ -1373,6 +1373,7 @@ SUBDIR+=	libassa
 SUBDIR+=	libavc1394
 SUBDIR+=	libbfio
 SUBDIR+=	libbrahe
+SUBDIR+=	libbs2b
 SUBDIR+=	libbsd
 SUBDIR+=	libbtctl
 SUBDIR+=	libburn
