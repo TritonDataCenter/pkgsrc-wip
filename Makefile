@@ -2759,6 +2759,7 @@ SUBDIR+=	py-vo
 SUBDIR+=	py-w3lib
 SUBDIR+=	py-wadllib
 SUBDIR+=	py-wafo
+SUBDIR+=	py-wahcade
 SUBDIR+=	py-wally
 SUBDIR+=	py-weave
 SUBDIR+=	py-weberror
