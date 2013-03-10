@@ -3001,6 +3001,7 @@ SUBDIR+=	snotes
 SUBDIR+=	socklog
 SUBDIR+=	socnetv
 SUBDIR+=	softflowd
+SUBDIR+=	soil
 SUBDIR+=	songwrite2
 SUBDIR+=	soqt
 SUBDIR+=	spade
