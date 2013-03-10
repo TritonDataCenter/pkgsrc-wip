@@ -1379,6 +1379,7 @@ SUBDIR+=	libbsd
 SUBDIR+=	libbtctl
 SUBDIR+=	libburn
 SUBDIR+=	libcerror
+SUBDIR+=	libcgi
 SUBDIR+=	libcli
 SUBDIR+=	libcm
 SUBDIR+=	libcmis
