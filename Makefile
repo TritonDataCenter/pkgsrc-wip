@@ -229,6 +229,7 @@ SUBDIR+=	boinc
 SUBDIR+=	boinc-client
 SUBDIR+=	boinc-lib
 SUBDIR+=	bonnie++-current
+SUBDIR+=	boo
 SUBDIR+=	boost-test-suite
 SUBDIR+=	boost-threadpool
 SUBDIR+=	bpmcounter
