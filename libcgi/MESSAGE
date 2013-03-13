@@ -1,8 +1,10 @@
 ===========================================================================
 $NetBSD$
-
-The go executable needs a lot of memory; you probably will have to increase
-your datasize, e.g. with
-	ulimit -d 1024000
-
+To compile examples,
+(cd work/libcgi-1.0/examples; \
+ for i  in `(find . -name Makefile| sed 's|/Makefile||')`
+    do
+      (cd $i; gmake)
+    done ; \
+)
 ===========================================================================

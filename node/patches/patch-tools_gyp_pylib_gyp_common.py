@@ -1,15 +1,15 @@
 $NetBSD$
 
-detects NetBSD.
+Add support for NetBSD.
 
---- tools/gyp/pylib/gyp/common.py.orig	2013-03-01 16:04:07.000000000 +0900
-+++ tools/gyp/pylib/gyp/common.py	2013-03-01 16:04:24.000000000 +0900
-@@ -371,6 +371,8 @@
+--- tools/gyp/pylib/gyp/common.py.orig	2013-03-11 00:36:28.000000000 +0000
++++ tools/gyp/pylib/gyp/common.py
+@@ -378,6 +378,8 @@ def GetFlavor(params):
      return 'solaris'
    if sys.platform.startswith('freebsd'):
      return 'freebsd'
 +  if sys.platform.startswith('netbsd'):
 +    return 'netbsd'
- 
-   return 'linux'
+   if sys.platform.startswith('dragonfly'):
+     return 'dragonflybsd'
  

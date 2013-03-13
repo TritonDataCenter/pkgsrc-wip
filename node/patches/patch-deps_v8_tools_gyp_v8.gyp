@@ -1,6 +1,7 @@
 $NetBSD$
 
 Fix path to Python.
+
 --- deps/v8/tools/gyp/v8.gyp.orig	2012-06-11 16:30:44.000000000 +0000
 +++ deps/v8/tools/gyp/v8.gyp
 @@ -796,7 +796,7 @@

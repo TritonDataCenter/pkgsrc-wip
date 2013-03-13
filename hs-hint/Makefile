@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	hint-0.3.3.4
+DISTNAME=	hint-0.3.3.6
 CATEGORIES=	devel
 
 MAINTAINER=	pho@cielonegro.org

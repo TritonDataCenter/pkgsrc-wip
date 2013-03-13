@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	ghc-paths-0.1.0.8
+DISTNAME=	ghc-paths-0.1.0.9
 CATEGORIES=	devel
 
 MAINTAINER=	pho@cielonegro.org
