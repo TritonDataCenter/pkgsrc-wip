@@ -392,6 +392,7 @@ SUBDIR+=	dates
 SUBDIR+=	davical-current
 SUBDIR+=	db1
 SUBDIR+=	dbf
+SUBDIR+=	dbmail
 SUBDIR+=	dbus-explorer
 SUBDIR+=	dbus-sharp
 SUBDIR+=	dbus-sharp-glib
