@@ -2335,7 +2335,6 @@ SUBDIR+=	py-aspyct
 SUBDIR+=	py-astropysics
 SUBDIR+=	py-async
 SUBDIR+=	py-atpy
-SUBDIR+=	py-beets
 SUBDIR+=	py-behaviour
 SUBDIR+=	py-bidict
 SUBDIR+=	py-bigfloat
