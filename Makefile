@@ -2536,7 +2536,6 @@ SUBDIR+=	py-mongo
 SUBDIR+=	py-mpich4py
 SUBDIR+=	py-mpop
 SUBDIR+=	py-multichain_mcmc
-SUBDIR+=	py-musicbrainz-ngs
 SUBDIR+=	py-mwavepy
 SUBDIR+=	py-mysqldb-docs
 SUBDIR+=	py-naftawayh
