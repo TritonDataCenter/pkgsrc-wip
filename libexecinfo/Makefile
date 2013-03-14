@@ -1,9 +1,9 @@
 # $NetBSD$
 
 DISTNAME=	libexecinfo-1.1
-EXTRACT_SUFX=	.tar.bz2
 CATEGORIES=	devel
 MASTER_SITES=	$(MASTER_SITE_FREEBSD)
+EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	ober@NetBSD.org
 HOMEPAGE=       http://www.freebsdsoftware.org/devel/libexecinfo.html
