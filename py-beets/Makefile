@@ -14,7 +14,7 @@ LICENSE=	mit
 
 DEPENDS+=	${PYPKGPREFIX}-last-[0-9]*:../../audio/py-last
 DEPENDS+=	${PYPKGPREFIX}-munkres-[0-9]*:../../math/py-munkres
-DEPENDS+=	${PYPKGPREFIX}-musicbrainz-ngs-[0-9]*:../../wip/py-musicbrainz-ngs
+DEPENDS+=	${PYPKGPREFIX}-musicbrainz-ngs-[0-9]*:../../audio/py-musicbrainz-ngs
 DEPENDS+=	${PYPKGPREFIX}-mutagen-[0-9]*:../../audio/py-mutagen
 DEPENDS+=	${PYPKGPREFIX}-yaml-[0-9]*:../../textproc/py-yaml
 DEPENDS+=	${PYPKGPREFIX}-Unidecode-[0-9]*:../../textproc/py-Unidecode
