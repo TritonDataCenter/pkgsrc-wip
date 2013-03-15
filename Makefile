@@ -1402,7 +1402,6 @@ SUBDIR+=	libecc
 SUBDIR+=	libee
 SUBDIR+=	libepc
 SUBDIR+=	libestr
-SUBDIR+=	libexecinfo
 SUBDIR+=	libexosip
 SUBDIR+=	libfishsound
 SUBDIR+=	libfm
