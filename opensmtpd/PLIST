@@ -2,7 +2,7 @@
 bin/mailq
 bin/newaliases
 libexec/mail.local
-libexec/opensmtpd-portable/makemap
+libexec/opensmtpd/makemap
 man/man5/smtpd.conf.5
 man/man8/makemap.8
 man/man8/newaliases.8
