@@ -2,7 +2,6 @@
 #
 
 DISTNAME=	objfw-0.7.1
-CATEGORIES=	devel
 MASTER_SITES=	https://webkeks.org/objfw/downloads/
 EXTRACT_SUFX=	.tar.xz
 
