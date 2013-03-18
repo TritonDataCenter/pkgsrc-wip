@@ -3036,7 +3036,6 @@ SUBDIR+=	stfl
 SUBDIR+=	stksolver
 SUBDIR+=	stmpclean
 SUBDIR+=	stonx
-SUBDIR+=	stud
 SUBDIR+=	stumpwm
 SUBDIR+=	stunnel3
 SUBDIR+=	subversion17-base
