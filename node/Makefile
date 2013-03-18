@@ -51,7 +51,7 @@ REPLACE_PYTHON+=	tools/wafadmin/*.py
 REPLACE_PYTHON+=	tools/wafadmin/Tools/*.py
 
 .if ${OPSYS} == "NetBSD" || ${OPSYS} == "FreeBSD" || ${OPSYS} == "OpenBSD"
-. include "../../wip/libexecinfo/buildlink3.mk"
+. include "../../devel/libexecinfo/buildlink3.mk"
 .endif
 .if ${OPSYS} == "NetBSD"
 BUILD_DEPENDS+=	lockf-[0-9]*:../../wip/lockf
