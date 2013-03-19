@@ -6,11 +6,10 @@ MASTER_SITES=	${MASTER_SITE_R_CRAN:=contrib/}
 MAINTAINER=	mishka@NetBSD.org
 HOMEPAGE=	http://www.bigmemory.org/
 COMMENT=	Shared resource interface for Bigmemory Project packages
+LICENSE=	gnu-lgpl-v3
 
 R_PKGNAME=	bigmemory.sri
 R_PKGVER=	0.1.2
-
-LICENSE=	gnu-lgpl-v3
 
 USE_LANGUAGES=	c++
 

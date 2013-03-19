@@ -6,11 +6,10 @@ MASTER_SITES=	${MASTER_SITE_R_CRAN:=contrib/}
 MAINTAINER=	mishka@NetBSD.org
 HOMEPAGE=	http://www.bigmemory.org/
 COMMENT=	Library of utilities for big.matrix objects of package bigmemory
+LICENSE=	gnu-lgpl-v3
 
 R_PKGNAME=	biganalytics
 R_PKGVER=	1.1.0
-
-LICENSE=	gnu-lgpl-v3
 
 USE_LANGUAGES=	c++
 

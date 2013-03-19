@@ -6,11 +6,10 @@ MASTER_SITES=	${MASTER_SITE_R_CRAN:=contrib/}
 MAINTAINER=	mishka@NetBSD.org
 HOMEPAGE=	http://www.bigmemory.org/
 COMMENT=	Manage massive matrices with shared memory and memory-mapped files
+LICENSE=	gnu-lgpl-v3
 
 R_PKGNAME=	bigmemory
 R_PKGVER=	4.3.0
-
-LICENSE=	gnu-lgpl-v3
 
 USE_LANGUAGES=	c++
 

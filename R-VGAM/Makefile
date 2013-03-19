@@ -6,11 +6,10 @@ MASTER_SITES=	${MASTER_SITE_R_CRAN:=contrib/}
 MAINTAINER=	mishka@NetBSD.org
 HOMEPAGE=	http://www.stat.auckland.ac.nz/~yee/VGAM/
 COMMENT=	Vector Generalized Linear and Additive Models
+LICENSE=	gnu-gpl-v2
 
 R_PKGNAME=	VGAM
 R_PKGVER=	0.9-0
-
-LICENSE=	gnu-gpl-v2
 
 USE_LANGUAGES=	c fortran
 
