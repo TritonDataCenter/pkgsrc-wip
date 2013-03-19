@@ -13,7 +13,7 @@ R_PKGVER=	1.34.2
 
 USE_LANGUAGES=	c
 
-CONFIGURE_ARGS+=		--with-graphviz=${PREFIX}
+CONFIGURE_ARGS+=		--with-graphviz=${BUILDLINK_PREFIX.graphviz}
 
 BUILDLINK_API_DEPENDS.R+=	R>=2.6.0
 
