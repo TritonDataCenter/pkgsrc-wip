@@ -24,13 +24,16 @@ TEST_TARGET=	test
 
 WRKSRC=			${WRKDIR}/bn
 MAKEFLAGS+=		G=-fPIC
-INSTALLATION_DIRS+=	${LUA_CDIR}
+LBN_README_DIR=		 share/doc/${PKGBASE}
+INSTALLATION_DIRS+=	${LUA_CDIR} ${LBN_README_DIR}
 
 .include "../../lang/lua/module.mk"
 
 do-install:
 	${INSTALL_LIB} ${WRKSRC}/bn.so \
 	                ${DESTDIR}${PREFIX}/${LUA_CDIR}
+	${INSTALL_DATA} ${WRKSRC}/README \
+	                ${DESTDIR}${PREFIX}/${LBN_README_DIR}
 
 .include "../../security/openssl/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
