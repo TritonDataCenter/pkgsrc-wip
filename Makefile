@@ -625,6 +625,7 @@ SUBDIR+=	fftw-openmpi
 SUBDIR+=	fftw2-openmpi
 SUBDIR+=	ficl
 SUBDIR+=	filepp
+SUBDIR+=	filerunner
 SUBDIR+=	firebird
 SUBDIR+=	fireflysung-ttf
 SUBDIR+=	firefox
