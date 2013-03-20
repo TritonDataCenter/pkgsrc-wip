@@ -1,3 +1,3 @@
 @comment $NetBSD$
-lib/liblapack340.la
-lib/librefblas340.la
+lib/liblapack342.la
+lib/librefblas342.la
