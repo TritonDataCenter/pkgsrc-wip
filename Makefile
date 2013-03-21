@@ -1837,6 +1837,7 @@ SUBDIR+=	oneloop
 SUBDIR+=	oolite
 SUBDIR+=	oops
 SUBDIR+=	oorexx
+SUBDIR+=	opam
 SUBDIR+=	opax
 SUBDIR+=	opd
 SUBDIR+=	open21xx
