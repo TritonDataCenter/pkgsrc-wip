@@ -1401,6 +1401,7 @@ SUBDIR+=	libdjconsole
 SUBDIR+=	libdmx
 SUBDIR+=	libdoozer
 SUBDIR+=	libdshconfig
+SUBDIR+=	libdsk
 SUBDIR+=	libdssialsacompat
 SUBDIR+=	libecc
 SUBDIR+=	libee
