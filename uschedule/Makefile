@@ -29,7 +29,7 @@ USER_CMDS=	${CMDDIR}/uschedule ${CMDDIR}/uschedulecmd \
 SYS_CMDS=	${CMDDIR}/uscheduled
 
 INSTALLATION_DIRS=	${PKGMANDIR} ${PKGMANDIR}/man1 ${PKGMANDIR}/man7 \
-			${PKGMANDIR}/man8 sbin
+			${PKGMANDIR}/man8 bin sbin
 
 do-install:
 	${INSTALL_PROGRAM} ${USER_CMDS} ${DESTDIR}${PREFIX}/bin

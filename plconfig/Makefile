@@ -11,6 +11,7 @@ HOMEPAGE=		https://neon1.net/prog/plconfig.html
 COMMENT=		Tool for configuring HomePlug powerline bridges
 
 BUILD_TARGET=		plconfig
+INSTALLATION_DIRS=	sbin
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/plconfig ${DESTDIR}${PREFIX}/sbin

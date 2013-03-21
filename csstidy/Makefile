@@ -16,10 +16,12 @@ NO_CONFIGURE=		yes
 USE_TOOLS+=		sh gmake
 USE_LANGUAGES=		c++
 
+INSTALLATION_DIRS=	bin
+
 do-build:
 	cd ${WRKSRC} && ${SH} ./compile.sh
 
 do-install:
-	${INSTALL_PROGRAM} ${WRKSRC}/csstidy ${PREFIX}/bin
+	${INSTALL_PROGRAM} ${WRKSRC}/csstidy ${DESTDIR}${PREFIX}/bin
 
 .include "../../mk/bsd.pkg.mk"
