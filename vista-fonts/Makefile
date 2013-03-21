@@ -34,7 +34,7 @@ INSTALLATION_DIRS=	${FONTDIR} ${DOCDIR}
 post-extract:
 	${RUN}								\
 	for f in ${WRKSRC}/*.TTF ; do					\
-		${MV} $$f `echo $$f | ${SED} 's|TTF$$|ttf|'`;		\
+		${MV} $$f `${ECHO} $$f | ${SED} 's|TTF$$|ttf|'`;		\
 	done
 
 do-install:

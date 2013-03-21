@@ -10,8 +10,6 @@ HOMEPAGE=		http://www.fysh.org/~mac/mp3chop/
 COMMENT=		Program for chopping up mp3 files
 LICENSE=		gnu-gpl-v2
 
-PKG_DESTDIR_SUPPORT=	none
-
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 USE_LANGUAGES=		c c++
