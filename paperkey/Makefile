@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	paperkey-1.2
+DISTNAME=	paperkey-1.3
 CATEGORIES=	security
 MASTER_SITES=	http://www.jabberwocky.com/software/paperkey/
 

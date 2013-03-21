@@ -6,11 +6,10 @@ MASTER_SITES=	${MASTER_SITE_R_CRAN:=contrib/}
 MAINTAINER=	mishka@NetBSD.org
 HOMEPAGE=	http://www.bigmemory.org/
 COMMENT=	R table, tapply, and split-like functionality for (big.)matrix objects
+LICENSE=	gnu-lgpl-v3
 
 R_PKGNAME=	bigtabulate
 R_PKGVER=	1.1.0
-
-LICENSE=	gnu-lgpl-v3
 
 USE_LANGUAGES=	c++
 

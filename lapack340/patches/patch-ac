@@ -11,6 +11,6 @@ $NetBSD$
 +NOOPT=		${FFLAGSNOOPT}
 +LOADER=		${FC}
 +LOADOPTS=	${LDFLAGS}
-+LAPACKLIB=	liblapack340.la
-+BLASLIB=	../../librefblas340.la
++LAPACKLIB=	liblapack342.la
++BLASLIB=	../../librefblas342.la
 +TMGLIB=	libtmglib.la

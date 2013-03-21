@@ -6,11 +6,10 @@ MASTER_SITES=	${MASTER_SITE_R_CRAN:=contrib/}
 MAINTAINER=	mishka@NetBSD.org
 HOMEPAGE=	http://cran.r-project.org/web/packages/gmp/
 COMMENT=	Multiple Precision Arithmetic for R
+LICENSE=	gnu-gpl-v2
 
 R_PKGNAME=	gmp
 R_PKGVER=	0.5-2
-
-LICENSE=	gnu-gpl-v2
 
 USE_LANGUAGES=	c c++
 

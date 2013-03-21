@@ -6,11 +6,10 @@ MASTER_SITES=	${MASTER_SITE_R_CRAN:=contrib/}
 MAINTAINER=	mishka@NetBSD.org
 HOMEPAGE=	http://cran.r-project.org/web/packages/doParallel/index.html
 COMMENT=	Foreach parallel adaptor for the parallel package
+LICENSE=	gnu-gpl-v2
 
 R_PKGNAME=	doParallel
 R_PKGVER=	1.0.1
-
-LICENSE=	gnu-gpl-v2
 
 BUILDLINK_API_DEPENDS.R+=	R>=2.14.0
 

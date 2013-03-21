@@ -2970,6 +2970,8 @@ share/emacs/${PKGVERSION}/lisp/obsolete/terminal.el.gz
 share/emacs/${PKGVERSION}/lisp/obsolete/terminal.elc
 share/emacs/${PKGVERSION}/lisp/obsolete/vc-mcvs.el.gz
 share/emacs/${PKGVERSION}/lisp/obsolete/vc-mcvs.elc
+share/emacs/${PKGVERSION}/lisp/obsolete/yow.el.gz
+share/emacs/${PKGVERSION}/lisp/obsolete/yow.elc
 share/emacs/${PKGVERSION}/lisp/org/ob-C.el.gz
 share/emacs/${PKGVERSION}/lisp/org/ob-C.elc
 share/emacs/${PKGVERSION}/lisp/org/ob-R.el.gz
@@ -3263,8 +3265,6 @@ share/emacs/${PKGVERSION}/lisp/play/studly.el.gz
 share/emacs/${PKGVERSION}/lisp/play/studly.elc
 share/emacs/${PKGVERSION}/lisp/play/tetris.el.gz
 share/emacs/${PKGVERSION}/lisp/play/tetris.elc
-share/emacs/${PKGVERSION}/lisp/play/yow.el.gz
-share/emacs/${PKGVERSION}/lisp/play/yow.elc
 share/emacs/${PKGVERSION}/lisp/play/zone.el.gz
 share/emacs/${PKGVERSION}/lisp/play/zone.elc
 share/emacs/${PKGVERSION}/lisp/printing.el.gz
