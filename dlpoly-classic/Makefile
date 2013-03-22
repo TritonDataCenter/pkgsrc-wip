@@ -14,8 +14,8 @@ LICENSE=	original-bsd
 USE_LANGUAGES=	c fortran
 USE_TOOLS+=	gmake
 
-# Force use of gfortran installation outside pkgsrc
-# Toolchain wrappers handle this fine where gfortran doesn't actually exist
+# Use gfortran if it's installed as a base compiler outside pkgsrc
+# rather than install f2c or g95 unnecessarily
 FC=		gfortran
 
 BUILD_WRKSRC=	${WRKSRC}/source
