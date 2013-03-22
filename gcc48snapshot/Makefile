@@ -74,9 +74,13 @@ MAKE_ENV+=		ac_cv_func_clock_gettime=yes
 CONFIGURE_ARGS+=	--disable-bootstrap
 .endif
 
+
 .if !empty(LOWER_ARCH:Mi386)
+.if !empty(OPSYS:MNetBSD) || !empty(OPSYS:MLinux)
 CONFIGURE_ARGS+=	--with-arch=i486 --with-tune=i486
 .endif
+.endif
+
 
 .include "options.mk"
 
