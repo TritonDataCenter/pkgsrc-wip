@@ -342,9 +342,9 @@ include/armadillo_bits/unwrap_spmat.hpp
 include/armadillo_bits/upgrade_val.hpp
 include/armadillo_bits/wall_clock_bones.hpp
 include/armadillo_bits/wall_clock_meat.hpp
-lib/libarmadillo.so
-lib/libarmadillo.so.3
-lib/libarmadillo.so.${PKGVERSION}
+lib/libarmadillo.${PKGVERSION}.dylib
+lib/libarmadillo.3.dylib
+lib/libarmadillo.dylib
 share/Armadillo/CMake/ArmadilloConfig.cmake
 share/Armadillo/CMake/ArmadilloConfigVersion.cmake
 share/Armadillo/CMake/ArmadilloLibraryDepends-noconfig.cmake
