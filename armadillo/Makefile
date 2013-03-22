@@ -1,6 +1,6 @@
 # $NetBSD$
 
-#DISTNAME=	armadillo-3.4.4
+# DISTNAME=	armadillo-3.4.4
 DISTNAME=	armadillo-3.800.1
 CATEGORIES=	math
 MASTER_SITES=   ${MASTER_SITE_SOURCEFORGE:=arma/}
