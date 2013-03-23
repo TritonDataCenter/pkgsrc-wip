@@ -3,7 +3,7 @@
 GCC_PKGNAME=		gcc48snapshot
 #.include		"version.mk"
 
-GCC_VERSION=	4.8.0-RC-20130316
+GCC_VERSION=	4.8.0
 DISTNAME=	gcc-${GCC_VERSION}
 PKGNAME=	${GCC_PKGNAME}-${GCC_VERSION}
 ## When bumping the PKGREVISION of this package the PKGREVISION of
@@ -11,7 +11,7 @@ PKGNAME=	${GCC_PKGNAME}-${GCC_VERSION}
 ## PKGREVISION of this package!
 #PKGREVISION=	1
 CATEGORIES=	lang
-MASTER_SITES=	${MASTER_SITE_GNU:=gcc/snapshots/${GCC_VERSION}/}
+MASTER_SITES=	${MASTER_SITE_GNU:=gcc/gcc-${GCC_VERSION}/}
 #MASTER_SITES=	ftp://ftp.fu-berlin.de/unix/languages/gcc/snapshots/${GCC_VERSION}/
 EXTRACT_SUFX=	.tar.bz2
 
