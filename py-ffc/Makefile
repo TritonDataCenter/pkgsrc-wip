@@ -18,5 +18,10 @@ PYDISTUTILSPKG=	yes
 
 MMVERSION=	1.1
 
+SUBST_CLASSES+=		man
+SUBST_FILES.man=	setup.py
+SUBST_STAGE.man=	post-patch
+SUBST_SED.man=		-e 's|"share", ||g'
+
 .include "../../lang/python/extension.mk"
 .include "../../mk/bsd.pkg.mk"
