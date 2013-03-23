@@ -2908,6 +2908,7 @@ SUBDIR+=	s3cmd
 SUBDIR+=	s3funnel
 SUBDIR+=	samba
 SUBDIR+=	samhain
+SUBDIR+=	sandy
 SUBDIR+=	sara
 SUBDIR+=	sarf
 SUBDIR+=	saxon
