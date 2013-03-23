@@ -14,6 +14,7 @@ LICENSE=	public-domain
 FETCH_USING=	curl
 
 USE_TOOLS+=	pkg-config
+# to do: Also depends on python
 USE_LANGUAGES=	c c++
 USE_CMAKE=	yes
 
