@@ -26,6 +26,8 @@ CONFLICTS=		swig-build-[0-9]*
 # Solution: Use --program-suffix=2.0, not --program-suffix=2
 # FindSWIG, installed by cmake, looks for executable named swig2.0, then swig
 # bin/swig2.0 is the standard used by other OS's
+# http://packages.debian.org/sid/i386/swig2.0/filelist
+# http://svnweb.freebsd.org/ports/head/devel/swig20/pkg-plist?revision=306553&view=markup
 
 # Keep the path from changing due to minor version bumps.
 CONFIGURE_ARGS+=	--with-swiglibdir=${PREFIX}/share/swig/2.0 \
