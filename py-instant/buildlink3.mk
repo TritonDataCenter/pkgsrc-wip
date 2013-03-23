@@ -1,12 +1,12 @@
 # $NetBSD$
 
-BUILDLINK_TREE+=	instant
+BUILDLINK_TREE+=	py-instant
 
 .if !defined(PY_INSTANT_BUILDLINK3_MK)
 PY_INSTANT_BUILDLINK3_MK:=
 
-BUILDLINK_API_DEPENDS.instant+=	${PYPKGPREFIX}-instant>=1.0.0
-BUILDLINK_PKGSRCDIR.instant?=	../../wip/py-instant
+BUILDLINK_API_DEPENDS.py-instant+=	${PYPKGPREFIX}-instant>=1.0.0
+BUILDLINK_PKGSRCDIR.py-instant?=	../../wip/py-instant
 .endif	# PY_INSTANT_BUILDLINK3_MK
 
-BUILDLINK_TREE+=	-instant
+BUILDLINK_TREE+=	-py-instant
