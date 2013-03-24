@@ -704,6 +704,7 @@ SUBDIR+=	gbase
 SUBDIR+=	gcc42
 SUBDIR+=	gcc43
 SUBDIR+=	gcc48snapshot
+SUBDIR+=	gcc49snapshot
 SUBDIR+=	gconf-cleaner
 SUBDIR+=	gdal
 SUBDIR+=	gdal-docs
