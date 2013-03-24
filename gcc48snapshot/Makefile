@@ -75,12 +75,9 @@ CONFIGURE_ARGS+=	--disable-bootstrap
 .endif
 
 
-.if !empty(LOWER_ARCH:Mi386)
-.if !empty(OPSYS:MNetBSD) || !empty(OPSYS:MLinux)
+.if !empty(MACHINE_PLATFORM:MNetBSD-*-i386) || !empty(MACHINE_PLATFORM:MLinux-*-i386)
 CONFIGURE_ARGS+=	--with-arch=i486 --with-tune=i486
 .endif
-.endif
-
 
 .include "options.mk"
 
