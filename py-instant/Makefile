@@ -16,7 +16,7 @@ LICENSE=	gnu-lgpl-v3
 
 PYDISTUTILSPKG=	yes
 
-MMVERSION=	1.1
+MMVERSION=	1.2
 
 SUBST_CLASSES+=		man
 SUBST_FILES.man=	setup.py

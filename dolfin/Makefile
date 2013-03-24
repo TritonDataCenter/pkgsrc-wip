@@ -83,7 +83,7 @@ SUBST_SED.dolfinconf=	-e 's|${WRKDIR}/.buildlink|${PREFIX}|g' \
 # From lang/python/extension.mk
 PLIST_SUBST+=   PYSITELIB=${PYSITELIB}
 
-MMVERSION=	1.1
+MMVERSION=	1.2
 
 .include "../../lang/python/application.mk"
 .include "../../wip/armadillo/buildlink3.mk"
