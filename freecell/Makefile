@@ -12,6 +12,7 @@ COMMENT=	Console version of the solitaire game Freecell
 LICENSE=	gnu-gpl-v2
 
 GNU_CONFIGURE=	yes
+CURSES_DEFAULT=	ncurses
 
 .include "../../mk/curses.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

@@ -40,4 +40,4 @@ ${PYSITELIB}/viper/viper.pyo
 ${PYSITELIB}/viper/viper_dolfin.py
 ${PYSITELIB}/viper/viper_dolfin.pyc
 ${PYSITELIB}/viper/viper_dolfin.pyo
-share/man/man1/viper.1.gz
+man/man1/viper.1

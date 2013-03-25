@@ -1,7 +1,6 @@
-# $NetBSD: Makefile,v 1.1 2012/11/09 14:25:44 gdt Exp $
+# $NetBSD: Makefile,v 1.2 2013/02/15 11:54:02 obache Exp $
 
-DISTNAME=	swig-2.0.8
-PKGREVISION=	1
+DISTNAME=	swig-2.0.9
 CATEGORIES=	devel
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=swig/}
 
@@ -24,10 +23,13 @@ CONFLICTS=		swig-build-[0-9]*
 
 # 2012-10: gnuradio is said to work with swig2 (private communication
 # by gdt@ with a GNU Radio developer).  However, it doesn't find 'swig2'.
+# Solution: Use --program-suffix=2.0, not --program-suffix=2
+# FindSWIG, installed by cmake, looks for executable named swig2.0, then swig
+# bin/swig2.0 is the standard used by other OS's
+# http://packages.debian.org/sid/i386/swig2.0/filelist
+# http://svnweb.freebsd.org/ports/head/devel/swig20/pkg-plist?revision=306553&view=markup
 
 # Keep the path from changing due to minor version bumps.
-# Conventional naming for swig installations uses suffix major.minor.  ( See
-# math/ufc CMakeLists, FreeBSD port, etc. )
 CONFIGURE_ARGS+=	--with-swiglibdir=${PREFIX}/share/swig/2.0 \
 			--program-suffix=2.0
 BUILD_TARGET=		swig

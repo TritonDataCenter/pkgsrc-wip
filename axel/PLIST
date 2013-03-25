@@ -1,3 +1,4 @@
 @comment $NetBSD$
 bin/axel
 man/man1/axel.1
+share/examples/axel/axelrc.example

@@ -1,11 +1,11 @@
 # $NetBSD$
 #
 
-DISTNAME=	viper-1.0.0
+DISTNAME=	viper-${MMVERSION}.1
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 PKGREVISION=	1
 CATEGORIES=	graphics python
-MASTER_SITES=	http://launchpad.net/fenics-viper/1.0.x/1.0.0/+download/
+MASTER_SITES=	http://launchpad.net/fenics-viper/${MMVERSION}.x/${MMVERSION}.1/+download/
 
 MAINTAINER=	jwbacon@tds.net
 HOMEPAGE=	https://launchpad.net/fenics-viper
@@ -16,6 +16,13 @@ FETCH_USING=	curl
 LICENSE=	gnu-lgpl-v3
 
 PYDISTUTILSPKG=	yes
+
+MMVERSION=	1.0
+
+SUBST_CLASSES+=		man
+SUBST_FILES.man=	setup.py
+SUBST_STAGE.man=	post-patch
+SUBST_SED.man=		-e 's|"share", ||g'
 
 .include "../../lang/python/extension.mk"
 .include "../../mk/bsd.pkg.mk"

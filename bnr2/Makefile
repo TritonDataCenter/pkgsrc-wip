@@ -17,6 +17,7 @@ EMUL_MODULES.linux=	jpeg x11
 
 WRKSRC=			${WRKDIR}/BNR2
 BUILD_DIRS=		# empty
+INSTALLATION_DIRS=	bin
 
 SUBST_CLASSES+=		prefix
 SUBST_STAGE.prefix=	pre-install

@@ -1,6 +1,7 @@
 @comment $NetBSD$
 include/swig/ufc.i
 include/ufc.h
+include/ufc_geometry.h
 lib/pkgconfig/ufc-1.pc
 ${PYSITELIB}/ufc/__init__.py
 ${PYSITELIB}/ufc/_ufc.so
@@ -14,3 +15,4 @@ ${PYSITELIB}/ufc_utils/function.py
 ${PYSITELIB}/ufc_utils/integrals.py
 share/ufc/UFCConfig.cmake
 share/ufc/UFCConfigVersion.cmake
+share/ufc/UseUFC.cmake
