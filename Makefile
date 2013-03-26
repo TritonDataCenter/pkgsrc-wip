@@ -3209,6 +3209,7 @@ SUBDIR+=	trustedQSL
 SUBDIR+=	tscreen
 SUBDIR+=	tsh
 SUBDIR+=	tsm
+SUBDIR+=	tsm62
 SUBDIR+=	ttf-indic-fonts
 SUBDIR+=	ttr
 SUBDIR+=	ttyload

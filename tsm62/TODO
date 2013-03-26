@@ -1,0 +1,6 @@
+# $NetBSD$
+
+- Work out license and distribution rules
+- pkg_delete(8) complains about missing files during pkg delete - apparently,
+  it attempts to delete the PLIST files twice?
+- Support amd64 - the rpms are included.

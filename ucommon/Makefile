@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	ucommon-5.1.2
+DISTNAME=	ucommon-6.0.3
 CATEGORIES=	devel
 MASTER_SITES=	${MASTER_SITE_GNU:=commonc++/}
 
@@ -12,7 +12,7 @@ LICENSE=	gnu-gpl-v3
 
 #DEPENDS+=	doxygen>=doxygen-1.6.2:../../devel/doxygen
 
-USE_TOOLS+=	pkg-config
+USE_TOOLS+=	intltool pkg-config
 USE_LANGUAGES=	c c++
 USE_LIBTOOL=	yes
 USE_CMAKE=	yes
@@ -21,6 +21,8 @@ CMAKE_ARGS=	-DINSTALL_MANDIR=${PKGMANDIR}
 PKGCONFIG_OVERRIDE+=	commoncpp.pc.in
 PKGCONFIG_OVERRIDE+=	ucommon.pc.in
 
+.include "../../mk/dlopen.buildlink3.mk"
+.include "../../mk/pthread.buildlink3.mk"
 .include "../../security/libgcrypt/buildlink3.mk"
 .include "../../devel/gettext-lib/buildlink3.mk"
 .include "../../security/gnutls/buildlink3.mk"
