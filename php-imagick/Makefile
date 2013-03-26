@@ -12,6 +12,8 @@ LICENSE=		php
 CONFLICTS=		php-imagick-[0-9]*
 
 USE_LANGUAGES=		c c++
+USE_TOOLS+=		pkg-config
+
 CONFIGURE_ARGS+=	--with-imagick=${BUILDLINK_PREFIX.ImageMagick}
 
 .include "../../graphics/ImageMagick/buildlink3.mk"
