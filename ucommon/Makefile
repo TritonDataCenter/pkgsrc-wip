@@ -12,7 +12,7 @@ LICENSE=	gnu-gpl-v3
 
 #DEPENDS+=	doxygen>=doxygen-1.6.2:../../devel/doxygen
 
-USE_TOOLS+=	pkg-config
+USE_TOOLS+=	intltool pkg-config
 USE_LANGUAGES=	c c++
 USE_LIBTOOL=	yes
 USE_CMAKE=	yes
