@@ -43,11 +43,11 @@ $NetBSD$
      ;;
 +i[34567]86-*-dragonfly*)
 +	tm_file="${tm_file} i386/unix.h i386/att.h dbxelf.h elfos.h dragonfly.h dragonfly-stdint.h i386/dragonfly.h"
-+	tmake_file="${tmake-file} i386/t-crtstuff"
++	tmake_file="${tmake_file} i386/t-crtstuff"
 +	;;
 +x86_64-*-dragonfly*)
 +	tm_file="${tm_file} i386/unix.h i386/att.h dbxelf.h elfos.h dragonfly.h dragonfly-stdint.h i386/x86-64.h i386/dragonfly.h"
-+	tmake_file="${tmake-file} i386/t-crtstuff"
++	tmake_file="${tmake_file} i386/t-crtstuff"
 +	;;
  i[34567]86-*-freebsd*)
  	tm_file="${tm_file} i386/unix.h i386/att.h dbxelf.h elfos.h ${fbsd_tm_file} i386/freebsd.h"
