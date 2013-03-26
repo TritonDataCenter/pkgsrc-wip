@@ -10,7 +10,7 @@ HOMEPAGE=		http://search.cpan.org/dist/Snowball-Swedish/
 COMMENT=		Stemmer for Swedish
 LICENSE=		${PERL5_LICENSE}
 
-REPLACE_PERL+=		bin/stemmer-no.pl
+REPLACE_PERL+=		bin/stemmer-se.pl
 
 PERL5_PACKLIST=		auto/Lingua/Stem/Snowball/Se/.packlist
 
