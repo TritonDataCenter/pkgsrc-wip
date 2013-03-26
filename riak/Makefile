@@ -13,6 +13,7 @@ LICENSE=		apache-2.0
 BUILD_DEPENDS+=		scmgit-base-[0-9]*:../../devel/scmgit-base
 
 USE_LANGUAGES=		c c++
+USE_LIBTOOL=		yes
 USE_TOOLS=		gmake
 
 DISTFILES=		${DEFAULT_DISTFILES}
@@ -90,6 +91,8 @@ post-extract:
 	  ${WRKDIR}/innostore-${INNOVER}/c_src/patches
 	cp ${FILESDIR}/js-src-jslock.c.patch \
 	  ${WRKSRC}/deps/erlang_js/c_src/patches
+	cp ${FILESDIR}/snappy-libtool.patch \
+	  ${WRKSRC}/deps/eleveldb/c_src/
 
 do-install:
 	${MKDIR} ${WRKSRC}/package/pkgsrc
