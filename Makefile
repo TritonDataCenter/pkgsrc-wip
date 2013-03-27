@@ -1507,6 +1507,7 @@ SUBDIR+=	lidia
 SUBDIR+=	light-desktop
 SUBDIR+=	lightdm
 SUBDIR+=	lightdm-gtk-greeter
+SUBDIR+=	lighttpd
 SUBDIR+=	lilypond-devel
 SUBDIR+=	lilyterm
 SUBDIR+=	linbox
