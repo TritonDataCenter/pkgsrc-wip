@@ -4,6 +4,7 @@
 DISTNAME=	munin-${VER}
 PKGNAME=	munin-node-${VER}
 VER=		2.0.7
+PKGREVISION=	1
 CATEGORIES=	sysutils
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=munin/}
 
