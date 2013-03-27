@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	pure-0.51
+DISTNAME=	pure-0.56
 CATEGORIES=	lang
 MASTER_SITES=	http://pure-lang.googlecode.com/files/
 
@@ -14,6 +14,7 @@ USE_LANGUAGES=	c c++
 USE_TOOLS+=	gmake flex bison
 USE_LIBTOOL=	yes
 GNU_CONFIGURE=	yes
+USE_GNU_READLINE=	yes
 CONFIGURE_ARGS+=	--enable-release --without-elisp
 PKGCONFIG_OVERRIDE=	pure.pc.in
 
