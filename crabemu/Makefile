@@ -17,6 +17,12 @@ USE_LIBTOOL=		yes
 USE_CMAKE=		yes
 INSTALLATION_DIRS+=	bin
 
+SUBST_CLASSES+=		SDLttf
+SUBST_FILES.SDLttf=	src/sdl/config.c
+SUBST_MESSAGE.SDLttf=	Fixing FONT_PATH.
+SUBST_SED.SDLttf=	-e "s|/usr/share|${BUILDLINK_PREFIX.SDL_ttf}/lib/X11|1"
+SUBST_STAGE.SDLttf=	post-patch
+
 .include "options.mk"
 
 .include "../../devel/SDL/buildlink3.mk"
