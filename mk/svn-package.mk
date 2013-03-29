@@ -154,7 +154,7 @@ _SVN_TAG_FLAG.${repo}=	-r${SVN_TAG}
 _SVN_TAG.${repo}=	${SVN_TAG}
 .  elif defined(CHECKOUT_DATE)
 _SVN_TAG_FLAG.${repo}=	-r{${CHECKOUT_DATE}}
-_SVN_TAG.${repo}=	{${CHECKOUT_DATE}}
+_SVN_TAG.${repo}=	${CHECKOUT_DATE}
 .  else
 _SVN_TAG_FLAG.${repo}=	-r{${_SVN_TODAY} 00:00 +0000}
 _SVN_TAG.${repo}=	${_SVN_TODAY}
