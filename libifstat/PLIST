@@ -1,0 +1,4 @@
+@comment $NetBSD$
+bin/libifstat-config
+include/ifstat.h
+lib/libifstat.a
