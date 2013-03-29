@@ -1,2 +1,3 @@
 @comment $NetBSD$
-bin/CrabEmu
+bin/crabemu
+${PLIST.SDL}bin/crabemu-sdl
