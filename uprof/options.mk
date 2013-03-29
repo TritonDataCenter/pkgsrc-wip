@@ -12,7 +12,4 @@ PLIST_VARS+=		doc
 CONFIGURE_ARGS+=	--enable-gtk-doc=yes --enable-gtk-doc-html=yes
 CONFIGURE_ARGS+=	--enable-gtk-doc-pdf=yes
 PLIST.doc=		yes
-.else
-CONFIGURE_ARGS+=	--enable-gtk-doc=no --enable-gtk-doc-html=no
-CONFIGURE_ARGS+=	--enable-gtk-doc-pdf=no
 .endif
