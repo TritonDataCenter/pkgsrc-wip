@@ -3478,6 +3478,7 @@ SUBDIR+=	zathura-poppler
 SUBDIR+=	zinf
 SUBDIR+=	ziparchive
 SUBDIR+=	zipios
+SUBDIR+=	znc
 SUBDIR+=	zookeeper-client
 SUBDIR+=	zookeeper-server
 SUBDIR+=	zvbi
