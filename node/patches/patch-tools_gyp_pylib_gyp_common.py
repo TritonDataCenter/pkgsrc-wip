@@ -1,15 +1,16 @@
 $NetBSD$
 
-Add support for NetBSD.
-
---- tools/gyp/pylib/gyp/common.py.orig	2013-03-11 00:36:28.000000000 +0000
+Add support for NetBSD and DragonFly.
+--- tools/gyp/pylib/gyp/common.py.orig	2013-03-28 19:07:52.000000000 +0000
 +++ tools/gyp/pylib/gyp/common.py
-@@ -378,6 +378,8 @@ def GetFlavor(params):
-     return 'solaris'
-   if sys.platform.startswith('freebsd'):
+@@ -394,6 +394,10 @@ def GetFlavor(params):
      return 'freebsd'
+   if sys.platform.startswith('openbsd'):
+     return 'openbsd'
 +  if sys.platform.startswith('netbsd'):
 +    return 'netbsd'
-   if sys.platform.startswith('dragonfly'):
-     return 'dragonflybsd'
++  if sys.platform.startswith('dragonflybsd'):
++    return 'dragonflybsd'
+   if sys.platform.startswith('aix'):
+     return 'aix'
  
