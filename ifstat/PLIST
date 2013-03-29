@@ -1,6 +1,3 @@
 @comment $NetBSD$
 bin/ifstat
-bin/libifstat-config
-include/ifstat.h
-lib/libifstat.a
 man/man1/ifstat.1
