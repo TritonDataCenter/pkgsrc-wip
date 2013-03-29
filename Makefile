@@ -2820,6 +2820,7 @@ SUBDIR+=	qmpdclient
 SUBDIR+=	qn-x11
 SUBDIR+=	qrint
 SUBDIR+=	qrq
+SUBDIR+=	qt5
 SUBDIR+=	qtcreator
 SUBDIR+=	qtnotifydaemon
 SUBDIR+=	qtre
