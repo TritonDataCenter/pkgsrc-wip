@@ -7,7 +7,7 @@ CATEGORIES=		multimedia
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=kplayer/}
 EXTRACT_SUFX=		.tar.bz2
 
-MAINTAINER=		shattered@users.sourceforge.net
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://kplayer.sourceforge.net/
 COMMENT=		KDE media player based on MPlayer
 LICENSE=		gnu-gpl-v3
