@@ -98,9 +98,10 @@ CONFIGURE_ARGS+=        --without-win32
 # UCD-SNMP driver
 #
 .if !empty(PKG_OPTIONS:Msnmp)
+.include "../../net/net-snmp/buildlink3.mk"
 CONFIGURE_ARGS+=        --with-snmp
 .else
-CONFIGURE_ARGS+=        --without-ifmib
+CONFIGURE_ARGS+=        --without-snmp
 .endif
 
 #
