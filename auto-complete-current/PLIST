@@ -1,14 +1,10 @@
 @comment $NetBSD$
+share/doc/auto-complete/Makefile
 share/doc/auto-complete/ac-fuzzy.png
 share/doc/auto-complete/ac-isearch.png
 share/doc/auto-complete/ac.png
-share/doc/auto-complete/changes.ja.txt
-share/doc/auto-complete/changes.txt
-share/doc/auto-complete/demo.txt
-share/doc/auto-complete/index.ja.txt
-share/doc/auto-complete/index.txt
-share/doc/auto-complete/manual.ja.txt
-share/doc/auto-complete/manual.txt
+share/doc/auto-complete/changes.md
+share/doc/auto-complete/manual.md
 share/doc/auto-complete/style.css
 ${EMACS_LISPPREFIX}/auto-complete/ac-dict/ada-mode
 ${EMACS_LISPPREFIX}/auto-complete/ac-dict/c++-mode
