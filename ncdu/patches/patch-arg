@@ -6,7 +6,7 @@ $NetBSD$
  #include <string.h>
  #include <stdlib.h>
  #include <ncurses.h>
-+#include <sys/stdarg.h>
++#include <stdarg.h>
 
  int winrows, wincols;
  int subwinr, subwinc;
