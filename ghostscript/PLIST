@@ -1,4 +1,4 @@
-@comment $NetBSD$
+@comment $NetBSD: PLIST,v 1.1 2013/03/16 21:32:00 dholland Exp $
 bin/dvipdf
 bin/eps2eps
 bin/font2c
