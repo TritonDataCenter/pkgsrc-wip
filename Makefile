@@ -2864,7 +2864,6 @@ SUBDIR+=	samhain
 SUBDIR+=	sandy
 SUBDIR+=	sara
 SUBDIR+=	sarf
-SUBDIR+=	saxon
 SUBDIR+=	sbcl
 SUBDIR+=	scantailor
 SUBDIR+=	scare
