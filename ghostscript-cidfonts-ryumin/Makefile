@@ -8,14 +8,14 @@ MAINTAINER=	pkgsrc-users@NetBSD.org
 COMMENT=	Enable Ryumin-Light and GothicBBB for ghostscript
 LICENSE=	generic-nonlicense
 
-.include	"../../wip/ghostscript/Makefile.common"
+.include	"../../wip/ghostscript-gpl/Makefile.common"
 
 GS_RESOURCEDIR=		share/ghostscript/${PKGVERSION}/Resource
 WRKSRC=			${WRKDIR}/gcr
 INSTALLATION_DIRS+=	${GS_RESOURCEDIR}/Font
 INSTALLATION_DIRS+=	${GS_RESOURCEDIR}/Init
 
-DEPENDS+=	ghostscript>=9.05:../../wip/ghostscript
+DEPENDS+=	ghostscript-gpl>=9.05:../../wip/ghostscript-gpl
 DEPENDS+=	ghostscript-cidfonts>=20000901nb3:../../wip/ghostscript-cidfonts
 BUILD_DEFS+=	GS_CIDFMAP
 # used in options.mk to switch adobe or ttf
@@ -53,9 +53,9 @@ NO_BUILD=	yes
 NO_CHECKSUM=	yes
 NO_CONFIGURE=	yes
 
-.include "../../wip/ghostscript/buildlink3.mk"
+.include "../../wip/ghostscript-gpl/buildlink3.mk"
 
-.if empty(PKG_BUILD_OPTIONS.ghostscript:Mdisable-compile-inits)
+.if empty(PKG_BUILD_OPTIONS.ghostscript-gpl:Mdisable-compile-inits)
 PKG_FAIL_REASON+=	'You need to set PKG_OPTIONS.ghostscript+= disable-compile-inits, at its compile time.'
 .endif
 
