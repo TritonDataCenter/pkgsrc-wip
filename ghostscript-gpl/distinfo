@@ -11,5 +11,4 @@ SHA1 (patch-al) = e5a5be44f997a450afef15e172acc771b4818ac9
 SHA1 (patch-an) = 22ed9965aec5d540adb31334d8dd9e05eab8e0c2
 SHA1 (patch-base_gdevpng.c) = 24120e26bd2a846f6d4c8ab9753dfe91f151343f
 SHA1 (patch-base_gserrors_h) = fde64bd096a6e6f94005c8352a6295df06c19bae
-SHA1 (patch-configure.ac) = 450053cef6948c638bf8f72cfcba7391edb33600
 SHA1 (patch-openjpeg_libopenjpeg_opj_malloc_h) = 24f15c55cd7961afc1254f6c4bccd6d0c2a5e737
