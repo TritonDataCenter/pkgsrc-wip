@@ -13,10 +13,4 @@ COMMENT=		Monitor and automatically restart SSH sessions and tunnels
 
 GNU_CONFIGURE=		yes
 
-SUBST_CLASSES+=		destdir
-SUBST_STAGE.destdir=	pre-configure
-SUBST_MESSAGE.destdir=	Reaplacing @DESTDIR@
-SUBST_FILES.destdir+=	Makefile.in
-SUBST_VARS.destdir=	DESTDIR
-
 .include "../../mk/bsd.pkg.mk"

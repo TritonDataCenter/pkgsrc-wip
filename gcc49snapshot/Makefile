@@ -3,7 +3,7 @@
 GCC_PKGNAME=		gcc49snapshot
 #.include		"version.mk"
 
-GCC_VERSION=	4.9-20130324
+GCC_VERSION=	4.9-20130319
 DISTNAME=	gcc-${GCC_VERSION}
 PKGNAME=	${GCC_PKGNAME}-${GCC_VERSION}
 ## When bumping the PKGREVISION of this package the PKGREVISION of

@@ -3,7 +3,7 @@
 DISTNAME=		GoogleEarthLinux.bin
 PKGNAME=		GoogleEarth-${GE_VERSION}
 CATEGORIES=		geography x11
-MASTER_SITES=		http://dl.google.com/earth/client/current/
+MASTER_SITES=		http://dl.google.com/earth/client/advanced/previous/
 EXTRACT_SUFX=
 
 MAINTAINER=		pkgsrc-users@NetBSD.org
@@ -21,11 +21,11 @@ NO_SRC_ON_FTP=		${RESTRICTED}
 DEPENDS+=		vera-ttf>=1.10:../../fonts/vera-ttf
 
 EMUL_PLATFORMS=		linux-i386
-EMUL_MODULES.linux=	fontconfig glx gtk2
+EMUL_MODULES.linux=	fontconfig glx gtk2 qt4
 
 NOT_FOR_PLATFORM=	NetBSD-[0-2]*-*
 
-GE_VERSION=		5.1.3535.3218
+GE_VERSION=		5.2.1.1588
 NO_CONFIGURE=		yes
 WRKSRC=			${WRKDIR}/GoogleEarthLinuxPlus-${GE_VERSION}-installer
 DIST_SUBDIR=		${PKGNAME_NOREV}

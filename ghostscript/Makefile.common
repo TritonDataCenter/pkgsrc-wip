@@ -1,6 +1,0 @@
-# $NetBSD$
-# used by print/ghostscript/Makefile
-# used by fonts/ghostscript-cidfonts/Makefile
-# used by fonts/ghostscript-cidfonts-ryumin/Makefile
-
-GS_VERSION=	9.06

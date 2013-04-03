@@ -10,10 +10,10 @@ MAINTAINER=	pkgsrc-users@NetBSD.org
 COMMENT=	CIDFont resources for Ghostscript
 
 DEPENDS+=	adobe-cidfonts>=20000901:../../fonts/adobe-cidfonts
-DEPENDS+=	ghostscript-[0-9]*:../../wip/ghostscript
+DEPENDS+=	ghostscript-gpl-[0-9]*:../../wip/ghostscript-gpl
 
 GHOSTSCRIPT_REQD=	6.53
-.include	"../../wip/ghostscript/Makefile.common"
+.include	"../../wip/ghostscript-gpl/Makefile.common"
 
 ADOBE_RESOURCEDIR=	${PREFIX}/share/Adobe/Resource
 GS_RESOURCEDIR=		${PREFIX}/share/ghostscript/${GS_VERSION}/Resource

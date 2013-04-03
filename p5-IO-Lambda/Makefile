@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	IO-Lambda-1.16
+DISTNAME=	IO-Lambda-1.23
 PKGNAME=	p5-${DISTNAME}
 CATEGORIES=	devel perl5
 MASTER_SITES=	http://search.cpan.org/CPAN/authors/id/K/KA/KARASIK/

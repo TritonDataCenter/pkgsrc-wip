@@ -1,6 +1,7 @@
 # $NetBSD$
-DISTNAME=	xmonad-contrib-${VERSION}
-VERSION=	0.11
+
+DISTNAME=	xmonad-contrib-0.11
+PKGNAME=	${DISTNAME}
 PKGREVISION=    1
 CATEGORIES=	wm
 
