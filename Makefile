@@ -452,7 +452,6 @@ SUBDIR+=	dionysus
 SUBDIR+=	dir2ogg
 SUBDIR+=	directfb
 SUBDIR+=	discident-glib
-SUBDIR+=	discount
 SUBDIR+=	dispred
 SUBDIR+=	distbb-current
 SUBDIR+=	distella
