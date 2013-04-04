@@ -21,6 +21,9 @@ USE_TOOLS+=	gmake
 MAKE_FILE=	${WRKSRC}/Makefile.ref
 WRKSRC=		${WRKDIR}/jsl-0.3.0/src
 
+pre-configure:
+	cp ${PKGDIR}/files/NetBSD_All.mk ${WRKSRC}/config/
+
 pre-install:
 	(cd ${WRKSRC} && pkgsrc.objdir/jsl -help:conf > ${EGCONFIGFILE})
 
