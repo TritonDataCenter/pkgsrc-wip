@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	discount-2.0.9
+DISTNAME=	discount-2.1.6
 CATEGORIES=	textproc
 MASTER_SITES=	http://www.pell.portland.or.us/~orc/Code/discount/
 EXTRACT_SUFX=	.tar.bz2
@@ -13,11 +13,11 @@ LICENSE=	modified-bsd
 
 HAS_CONFIGURE=		YES
 CONFIGURE_SCRIPT=	./configure.sh
-CONFIGURE_ARGS=		--prefix=${PREFIX} \
-			--execdir=${PREFIX}/bin \
-			--libdir=${PREFIX}/lib \
-			--mandir=${PREFIX}/${PKGMANDIR} \
-			--enable-all-features
+CONFIGURE_ARGS=		--prefix=${PREFIX}
+CONFIGURE_ARGS+=	--execdir=${PREFIX}/bin
+CONFIGURE_ARGS+=	--libdir=${PREFIX}/lib
+CONFIGURE_ARGS+=	--mandir=${PREFIX}/${PKGMANDIR}
+CONFIGURE_ARGS+=	--enable-all-features
 
 INSTALL_TARGET=		install.everything
 TEST_TARGET=		test
