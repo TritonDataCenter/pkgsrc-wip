@@ -1753,6 +1753,7 @@ SUBDIR+=	nmzmail
 SUBDIR+=	nnrpd
 SUBDIR+=	nodau
 SUBDIR+=	node
+SUBDIR+=	nodm
 SUBDIR+=	noip
 SUBDIR+=	noiptun
 SUBDIR+=	nomadio
