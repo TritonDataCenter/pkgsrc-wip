@@ -1,9 +1,9 @@
 # $NetBSD$
 #
 
-DISTNAME=		riak-1.2.1
+DISTNAME=		riak-1.3.1
 CATEGORIES=		databases
-MASTER_SITES=		http://s3.amazonaws.com/downloads.basho.com/riak/1.2/${PKGVERSION}/
+MASTER_SITES=		http://s3.amazonaws.com/downloads.basho.com/riak/1.3/${PKGVERSION}/
 
 MAINTAINER=		filip@joyent.com
 HOMEPAGE=		http://www.basho.com/products_riak_overview.php
@@ -71,6 +71,9 @@ REPLACE.escript.new=	${BUILDLINK_PREFIX.erlang}/bin/escript
 REPLACE_FILES.escript=	rel/files/nodetool
 REPLACE_FILES.escript+=	${WRKDIR}/innostore-${INNOVER}/priv/innodump
 REPLACE_FILES.escript+=	${WRKDIR}/innostore-${INNOVER}/priv/innoload
+
+CHECK_INTERPRETER_SKIP=	riak/lib/bitcask-${VERSION.bitcask}/priv/Run-eunit-loop.expect
+CHECK_INTERPRETER_SKIP+=riak/lib/riaknostic/riaknostic
 
 CHECK_PORTABILITY_SKIP+=	tests/riak_search/run_all.sh	\
 				deps/riak_search/tests/riak_search/run_all.sh
