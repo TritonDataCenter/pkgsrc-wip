@@ -180,7 +180,7 @@ post-install:
 .include "../../mk/jpeg.buildlink3.mk"
 .include "../../net/net-snmp/buildlink3.mk"
 .include "../../print/cups/buildlink3.mk"
-.include "../../print/ghostscript/buildlink3.mk"
+.include "../../print/ghostscript/ghostscript.buildlink3.mk"
 .include "../../devel/libusb/buildlink3.mk"
 .include "../../security/openssl/buildlink3.mk"
 .include "../../textproc/py-xml/buildlink3.mk"
