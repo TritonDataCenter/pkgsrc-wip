@@ -1,6 +1,0 @@
-$NetBSD$
-
-SHA1 (discount-2.0.9.tar.bz2) = 861e0eaa6ff7ff109b7717c2c51ee95ab5db4b1e
-RMD160 (discount-2.0.9.tar.bz2) = 81c4261f2e2054a133dae7e88d4daf0a35a87239
-Size (discount-2.0.9.tar.bz2) = 80783 bytes
-SHA1 (patch-Makefile.in) = 3fb8cc4a19dcfa836b9762e0567aec52472f9119

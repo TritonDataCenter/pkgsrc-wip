@@ -10,7 +10,7 @@ HOMEPAGE=	http://www.gnu.org/software/commoncpp/
 COMMENT=	Very light-weight C++ library for deeply embedded applications
 LICENSE=	gnu-gpl-v3
 
-#DEPENDS+=	doxygen>=doxygen-1.6.2:../../devel/doxygen
+#BUILD_DEPENDS+=	doxygen>=1.6.2:../../devel/doxygen
 
 USE_TOOLS+=	intltool pkg-config
 USE_LANGUAGES=	c c++

@@ -1,17 +1,16 @@
 # $NetBSD: Makefile,v 1.14 2013/02/05 07:12:23 adam Exp $
 
 GCC_PKGNAME=		gcc48snapshot
-#.include		"version.mk"
+.include		"version.mk"
 
-GCC_VERSION=	4.8.0
-DISTNAME=	gcc-${GCC_VERSION}
-PKGNAME=	${GCC_PKGNAME}-${GCC_VERSION}
+DISTNAME=	gcc-${GCC48S_DIST_VERSION}
+PKGNAME=	${GCC_PKGNAME}-${GCC48S_DIST_VERSION}
 ## When bumping the PKGREVISION of this package the PKGREVISION of
 ## lang/gcc48-libs needs to be bump to be at least 1 more than the
 ## PKGREVISION of this package!
 #PKGREVISION=	1
 CATEGORIES=	lang
-MASTER_SITES=	${MASTER_SITE_GNU:=gcc/gcc-${GCC_VERSION}/}
+MASTER_SITES=	${MASTER_SITE_GNU:=gcc/snapshots/${GCC48S_DIST_VERSION}/}
 #MASTER_SITES=	ftp://ftp.fu-berlin.de/unix/languages/gcc/snapshots/${GCC_VERSION}/
 EXTRACT_SUFX=	.tar.bz2
 

@@ -9,7 +9,7 @@ MASTER_SITES=	${MASTER_SITE_DEBIAN:=pool/main/t/ttf-sil-scheherazade/}
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	http://scripts.sil.org/ArabicFonts
 COMMENT=	Smart unicode font for arabic
-LICENSE=	open-font-license
+LICENSE=	ofl-v1.1
 
 WRKSRC=		${WRKDIR}/ttf-sil-scheherazade-1.001
 USE_LANGUAGES=	# none

@@ -27,7 +27,7 @@ INFO_FILES=	YES
 
 SUBST_CLASSES+=			icon_directory
 SUBST_STAGE.icon_directory=	pre-configure
-SUBST_MESSAGES.icon_directory=	Fixing wl-icon-directory default value (defvar)
+SUBST_MESSAGE.icon_directory=	Fixing wl-icon-directory default value (defvar)
 SUBST_FILES.icon_directory=	${WRKSRC}/wl/wl-vars.el
 SUBST_SED.icon_directory=	-e 's|%%PREFIX%%|${PREFIX}|'
 
