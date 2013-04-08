@@ -11,7 +11,7 @@ DISTFILES=	PTSansOFL.zip PTSerifOFL.zip PTMonoOFL.zip
 MAINTAINER=	mishka@NetBSD.org
 HOMEPAGE=	http://www.paratype.com/public/
 COMMENT=	Public fonts for minority languages of Russia
-LICENSE=	open-font-license
+LICENSE=	ofl-v1.1
 
 USE_LANGUAGES=	# none
 NO_BUILD=	yes

@@ -10,7 +10,7 @@ EXTRACT_SUFX=	.zip
 MAINTAINER=	ryoon@NetBSD.org
 HOMEPAGE=	http://www.fonts.jp/hanazono/
 COMMENT=	Hanazono font (HanaMin) contains all UCS CJK glyphs
-LICENSE=	mplusfont OR open-font-license
+LICENSE=	mplusfont OR ofl-v1.1
 
 USE_X11BASE=	YES
 NO_CONFIGURE=	YES

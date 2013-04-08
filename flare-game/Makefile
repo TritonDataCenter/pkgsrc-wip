@@ -10,7 +10,7 @@ FETCH_USING=	curl
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://flarerpg.org/
 COMMENT=	Fantasy action RPG using the FLARE engine
-LICENSE=	gnu-gpl-v3 AND cc-by-sa-v3.0 AND open-font-license AND gnu-gpl-v2
+LICENSE=	gnu-gpl-v3 AND cc-by-sa-v3.0 AND ofl-v1.1 AND gnu-gpl-v2
 
 CONFLICTS=	flare-engine-[0-9]*
 

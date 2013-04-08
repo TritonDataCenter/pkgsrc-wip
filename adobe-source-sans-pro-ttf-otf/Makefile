@@ -10,7 +10,7 @@ EXTRACT_SUFX=	.zip
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://sourceforge.net/projects/sourcesans.adobe/
 COMMENT=	Adobe Source Sans Pro TTF fonts
-LICENSE=	open-font-license
+LICENSE=	ofl-v1.1
 
 WRKSRC=			${WRKDIR}/${DISTNAME}
 NO_BUILD=		yes
