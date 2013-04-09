@@ -1,0 +1,12 @@
+# $NetBSD$
+
+BUILDLINK_TREE+=	libcaca
+
+.if !defined(LIBCACA_BUILDLINK3_MK)
+LIBCACA_BUILDLINK3_MK:=
+
+BUILDLINK_API_DEPENDS.libcaca+=	libcaca>=0.99beta18
+BUILDLINK_PKGSRCDIR.libcaca?=	../../wip/libcaca
+.endif	# LIBCACA_BUILDLINK3_MK
+
+BUILDLINK_TREE+=	-libcaca
