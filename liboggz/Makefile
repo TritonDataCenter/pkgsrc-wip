@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	liboggz-1.1.1
+PKGREVISION=	1
 CATEGORIES=	multimedia
 MASTER_SITES=	http://downloads.xiph.org/releases/liboggz/
 
