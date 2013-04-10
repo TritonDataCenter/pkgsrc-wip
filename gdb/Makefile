@@ -35,6 +35,8 @@ CONFIGURE_ENV+=		ac_cv_header_curses_h=yes
 CONFIGURE_ARGS+= -with-curses
 CONFIGURE_ENV+= gdb_cv_var_elf=yes
 MAKE_ENV+= gdb_cv_var_elf=yes
+CONFIGURE_ENV+= gdb_cv_struct_lwp=yes
+MAKE_ENV+= gdb_cv_struct_lwp=yes
 
 .elif ${OPSYS} == "Linux"
 USE_TOOLS+=		aclocal autoheader autoconf
