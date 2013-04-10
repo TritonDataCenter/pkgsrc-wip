@@ -1299,7 +1299,6 @@ SUBDIR+=	l2tpd
 SUBDIR+=	labyrinth
 SUBDIR+=	lambertw
 SUBDIR+=	lapack340
-SUBDIR+=	lasem
 SUBDIR+=	lasi
 SUBDIR+=	last-exit
 SUBDIR+=	last.fm
