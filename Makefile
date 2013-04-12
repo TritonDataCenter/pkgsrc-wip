@@ -995,6 +995,7 @@ SUBDIR+=	hs-failure
 SUBDIR+=	hs-fclabels
 SUBDIR+=	hs-filemanip
 SUBDIR+=	hs-fingertree
+SUBDIR+=	hs-generic-deriving
 SUBDIR+=	hs-ghc-mtl
 SUBDIR+=	hs-ghc-paths
 SUBDIR+=	hs-ghc-syb-utils
