@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	gemrb-0.7.1
+DISTNAME=	gemrb-0.7.2
 CATEGORIES=	games
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=gemrb/}
 
@@ -20,8 +20,8 @@ REPLACE_PYTHON=	admin/extend2da.py
 CMAKE_ARGS+=		-DDISABLE_WERROR=1
 CMAKE_ARGS+=		-DINSOURCEBUILD=1
 CMAKE_ARGS+=		-DMAN_DIR:PATH=${PREFIX}/${PKGMANDIR}/man6
+CMAKE_ARGS+=		-DEXAMPLE_CONF_DIR:PATH=${PREFIX}/share/examples/gemrb
 CMAKE_ARGS+=		-DSDLMIXER_INCLUDE_DIR=${BUILDLINK_PREFIX.SDL_mixer}/include
-INSTALL_MAKE_FLAGS+=	sysconfdir=${PREFIX}/share/examples/gemrb
 
 #.include "../../audio/freealut/buildlink3.mk"
 .include "../../audio/openal/buildlink3.mk"

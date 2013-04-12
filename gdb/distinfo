@@ -1,7 +1,8 @@
 $NetBSD: distinfo,v 1.20 2011/12/14 02:29:30 sbd Exp $
 
-SHA1 (gdb-7.5.tar.gz) = 57b58bc5b959e420d9aeb4cfeaa3b2fd7c685a10
-RMD160 (gdb-7.5.tar.gz) = 55488e96d0707d547530e49aa3e561185cca7ab0
-Size (gdb-7.5.tar.gz) = 28475479 bytes
+SHA1 (gdb-7.5.1.tar.gz) = 55615cbcb4549c2fa75a0b30cc9e97ef16ebef14
+RMD160 (gdb-7.5.1.tar.gz) = 9371355c279dc715c03e06e67bea94fe92ddedc5
+Size (gdb-7.5.1.tar.gz) = 28490732 bytes
 SHA1 (patch-ao) = 0738d5c2aae9a04af75432073706ca2ba183f750
 SHA1 (patch-etc_Makefile.in) = 9c01dc625f01cb6a057e3cad61a4d20386490c92
+SHA1 (patch-gdb_bsd-kvm.c) = d36fc325112ac35cddea37d2f7c20994d6d5c247
