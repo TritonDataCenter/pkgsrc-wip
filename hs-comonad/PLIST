@@ -1,8 +1,6 @@
 @comment $NetBSD$
 lib/comonad-${PKGVERSION}/${HASKELL_VERSION}/Control/Comonad.hi
 lib/comonad-${PKGVERSION}/${HASKELL_VERSION}/Control/Comonad.p_hi
-lib/comonad-${PKGVERSION}/${HASKELL_VERSION}/Data/Functor/Extend.hi
-lib/comonad-${PKGVERSION}/${HASKELL_VERSION}/Data/Functor/Extend.p_hi
 lib/comonad-${PKGVERSION}/${HASKELL_VERSION}/HScomonad-${PKGVERSION}.o
 lib/comonad-${PKGVERSION}/${HASKELL_VERSION}/libHScomonad-${PKGVERSION}.a
 lib/comonad-${PKGVERSION}/${HASKELL_VERSION}/libHScomonad-${PKGVERSION}_p.a
