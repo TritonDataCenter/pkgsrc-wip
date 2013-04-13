@@ -6,6 +6,7 @@ CATEGORIES=	www
 
 MAINTAINER=	pho@cielonegro.org
 COMMENT=	Haskell library for client-side HTTP
+LICENSE=	modified-bsd
 
 .include "../../wip/mk/haskell.mk"
 .include "../../wip/hs-mtl/buildlink3.mk"
