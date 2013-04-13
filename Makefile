@@ -3221,7 +3221,6 @@ SUBDIR+=	vale-current
 SUBDIR+=	vamp
 SUBDIR+=	vamps
 SUBDIR+=	vba-m
-SUBDIR+=	vcf
 SUBDIR+=	vche
 SUBDIR+=	vdesk
 SUBDIR+=	vee
