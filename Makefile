@@ -2002,6 +2002,7 @@ SUBDIR+=	p5-News-Newsrc
 SUBDIR+=	p5-PDL
 SUBDIR+=	p5-POD2-IT
 SUBDIR+=	p5-POSIX-strptime
+SUBDIR+=	p5-PerlIO-Layers
 SUBDIR+=	p5-Petal
 SUBDIR+=	p5-Picasa
 SUBDIR+=	p5-Plucene
