@@ -5,7 +5,7 @@ PKGREVISION=	2
 CATEGORIES=	devel
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=xxdiff/}
 
-MAINTAINER=	ghen@NetBSD.org
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://furius.ca/xxdiff/
 COMMENT=	Graphical file comparator and merge tool
 LICENSE=	gnu-gpl-v2

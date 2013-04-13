@@ -5,7 +5,7 @@ PKGREVISION=		3
 CATEGORIES=		audio
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=mixxx/}
 
-MAINTAINER=		ghen@NetBSD.org
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://mixxx.sourceforge.net/
 COMMENT=		Digital DJ tool
 

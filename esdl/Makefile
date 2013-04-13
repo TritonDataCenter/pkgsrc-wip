@@ -6,7 +6,7 @@ PKGREVISION=	1
 CATEGORIES=	graphics
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=esdl/}
 
-MAINTAINER=	ghen@NetBSD.org
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://esdl.sourceforge.net/
 COMMENT=	SDL and OpenGL library for Erlang
 
