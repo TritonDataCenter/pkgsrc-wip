@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=		mopher-0.4
+DISTNAME=		mopher-0.4.1
 CATEGORIES=		mail
 MASTER_SITES=		http://smokva.net/src/
 
