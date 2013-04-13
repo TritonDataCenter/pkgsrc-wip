@@ -2,7 +2,7 @@
 
 PKG_OPTIONS_VAR=	PKG_OPTIONS.wput
 PKG_SUPPORTED_OPTIONS=	gnutls nls
-PKG_SUGGESTED_OPTIONS+=	gnutls nls
+PKG_SUGGESTED_OPTIONS+=	nls
 PLIST_VARS+=		nls
 
 .include "../../mk/bsd.options.mk"
@@ -17,6 +17,7 @@ CONFIGURE_ARGS+=	--without-gnutls
 
 .if !empty(PKG_OPTIONS:Mnls)
 .include "../../devel/gettext-lib/buildlink3.mk"
+.include "../../converters/libiconv/buildlink3.mk"
 CONFIGURE_ARGS+=	--enable-nls
 PLIST.nls=		yes
 .else
