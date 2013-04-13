@@ -11,9 +11,12 @@ HOMEPAGE=	http://search.cpan.org/dist/File-Map
 COMMENT=	Memory mapping made simple and safe
 LICENSE=	${PERL5_LICENSE}
 
-DEPENDS+=		p5-Readonly>=0:../../devel/p5-Readonly
+DEPENDS+=	p5-XSLoader-[0-9]*:../../devel/p5-XSLoader
+DEPENDS+=	p5-Sub-Exporter-Progressive>=0.001005:../../devel/p5-Sub-Exporter-Progressive
+DEPENDS+=	p5-PerlIO-Layers-[0-9]*:../../wip/p5-PerlIO-Layers
 
 PERL5_PACKLIST=		auto/File/Map/.packlist
+PERL5_MODULE_TYPE=	Module::Build
 
 .include "../../lang/perl5/module.mk"
 .include "../../mk/bsd.pkg.mk"
