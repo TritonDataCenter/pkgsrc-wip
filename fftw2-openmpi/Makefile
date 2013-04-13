@@ -12,7 +12,6 @@ COMMENT=		Collection of fast C routines to compute DFTs
 LICENSE=		gnu-gpl-v1
 
 PKG_INSTALLATION_TYPES=	overwrite pkgviews
-PKG_DESTDIR_SUPPORT=	user-destdir
 
 HAS_CONFIGURE=		yes
 CONFIGURE_ARGS+=	--enable-shared \
