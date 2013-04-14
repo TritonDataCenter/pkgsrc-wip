@@ -7,7 +7,7 @@ CATEGORIES=		www
 MASTER_SITES=		http://www.rejik.ru/download/
 EXTRACT_SUFX=		.tgz
 
-MAINTAINER=		shattered@users.sourceforge.net
+MAINTAINER=		shattered@NetBSD.org
 HOMEPAGE=		http://www.rejik.ru/index_en_0_0.html
 COMMENT=		Banner-filtering redirector for Squid
 LICENSE=		gnu-gpl-v2
