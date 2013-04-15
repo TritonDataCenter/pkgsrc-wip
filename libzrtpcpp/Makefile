@@ -15,12 +15,9 @@ USE_LIBTOOL=		yes
 USE_LANGUAGES+=		c c++
 USE_CMAKE=		yes
 PKG_DESTDIR_SUPPORT=	destdir
-#CMAKE_ARGS+=		-DLIBDIRNAME=lib # build ignores this
+CMAKE_ARGS+=		-DLIBDIRNAME=lib
 
 BUILDLINK_API_DEPENDS.openssl+=	openssl>=0.9.7i
-
-.include "../../mk/pthread.buildlink3.mk"
+BUILDLINK_DEPMETHOD.openssl=	build
 .include "../../wip/ccrtp/buildlink3.mk"
-.include "../../security/openssl/buildlink3.mk"
-.include "../../security/libgcrypt/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
