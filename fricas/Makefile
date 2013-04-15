@@ -1,6 +1,6 @@
 # $NetBSD$
 
-PKGNAME=		fricas-1.1.99
+PKGNAME=		fricas-1.2.0
 DISTNAME=		${PKGNAME}-full
 CATEGORIES=		math
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=fricas/}
@@ -32,6 +32,7 @@ USE_TOOLS+=		gmake
 INSTALL_UNSTRIPPED=	yes	# don't strip AXIOMsys, it breaks FFI
 .endif
 
+.if 0 # disable Subversion temporarily
 .if !empty(PKG_OPTIONS:Mx11)
 post-build:
 # This should start Xvfb temporarily (1024x768x24 resolution recommended):
@@ -46,4 +47,5 @@ SVN_MODULE.fricas=	fricas
 WRKSRC=			${WRKDIR}/fricas
 
 .include "../mk/svn-package.mk"
+.endif
 .include "../../mk/bsd.pkg.mk"
