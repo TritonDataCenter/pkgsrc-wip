@@ -20,7 +20,9 @@ INFO_FILES=		yes
 
 .include "options.mk"
 
-.include "../../wip/ucommon/buildlink3.mk"
-.include "../../security/openssl/buildlink3.mk"
+.include "../../converters/libiconv/buildlink3.mk"
+.include "../../devel/gettext-lib/buildlink3.mk"
+.include "../../security/libgpg-error/buildlink3.mk"
 .include "../../security/libgcrypt/buildlink3.mk"
+.include "../../wip/ucommon/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
