@@ -1,6 +1,4 @@
 @comment $NetBSD$
-lib/crypto-api-${PKGVERSION}/${HASKELL_VERSION}/Crypto/CPoly.hi
-lib/crypto-api-${PKGVERSION}/${HASKELL_VERSION}/Crypto/CPoly.p_hi
 lib/crypto-api-${PKGVERSION}/${HASKELL_VERSION}/Crypto/Classes.hi
 lib/crypto-api-${PKGVERSION}/${HASKELL_VERSION}/Crypto/Classes.p_hi
 lib/crypto-api-${PKGVERSION}/${HASKELL_VERSION}/Crypto/HMAC.hi
