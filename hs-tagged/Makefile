@@ -1,14 +1,12 @@
 # $NetBSD$
 #
 
-DISTNAME=	tagged-0.2.3.1
+DISTNAME=	tagged-0.4.5
 CATEGORIES=	devel
 
 MAINTAINER=	pho@cielonegro.org
-COMMENT=	Provides newtype wrappers for phantom types
+COMMENT=	Haskell 98 phantom types to avoid unsafely passing dummy arguments
 LICENSE=	modified-bsd
 
 .include "../../wip/mk/haskell.mk"
-.include "../../wip/hs-data-default/buildlink3.mk"
-.include "../../wip/hs-semigroups/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
