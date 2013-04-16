@@ -48,6 +48,9 @@ ${PYSITELIB}/electrum/wallet_factory.pyo
 ${PYSITELIB}/electrum_gui/__init__.py
 ${PYSITELIB}/electrum_gui/__init__.pyc
 ${PYSITELIB}/electrum_gui/__init__.pyo
+${PYSITELIB}/electrum_gui/amountedit.py
+${PYSITELIB}/electrum_gui/amountedit.pyc
+${PYSITELIB}/electrum_gui/amountedit.pyo
 ${PYSITELIB}/electrum_gui/bmp.py
 ${PYSITELIB}/electrum_gui/bmp.pyc
 ${PYSITELIB}/electrum_gui/bmp.pyo
