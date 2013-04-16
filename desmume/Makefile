@@ -18,7 +18,8 @@ USE_LANGUAGES=	c c++
 
 .include "options.mk"
 
-BUILD_DEPENDS+=	libSoundTouch>=1.5.0:../../wip/libSoundTouch
+BUILDLINK_DEPMETHOD.libSoundTouch+=	build
+.include "../../wip/libSoundTouch/buildlink3.mk"
 .include "../../audio/alsa-lib/buildlink3.mk"
 .include "../../sysutils/desktop-file-utils/desktopdb.mk"
 .include "../../archivers/zziplib/buildlink3.mk"
