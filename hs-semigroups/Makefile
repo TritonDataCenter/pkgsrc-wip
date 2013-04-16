@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	semigroups-0.9
+DISTNAME=	semigroups-0.9.1
 CATEGORIES=	math
 
 MAINTAINER=	pho@cielonegro.org
