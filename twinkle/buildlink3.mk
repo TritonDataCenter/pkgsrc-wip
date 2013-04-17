@@ -29,14 +29,14 @@ pkgbase := twinkle
 .endif
 
 .if !empty(PKG_BUILD_OPTIONS.twinkle:Mzrtp)
-.include "../../wip/libzrtpcpp/buildlink3.mk"
+.include "../../net/libzrtpcpp/buildlink3.mk"
 .endif
 
 .include "../../x11/qt3-tools/buildlink3.mk"
 .include "../../x11/qt3-libs/buildlink3.mk"
 .include "../../textproc/libxml2/buildlink3.mk"
 .include "../../wip/commoncpp2/buildlink3.mk"
-.include "../../wip/ccrtp/buildlink3.mk"
+.include "../../net/ccrtp/buildlink3.mk"
 .endif # TWINKLE_BUILDLINK3_MK
 
 BUILDLINK_TREE+=	-twinkle
