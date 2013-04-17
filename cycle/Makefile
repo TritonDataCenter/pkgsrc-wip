@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	cycle-0.3.1
-PKGREVISION=	2
+PKGREVISION=	3
 CATEGORIES=	misc
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=cycle/}
 EXTRACT_SUFX=	.tar.bz2
@@ -18,7 +18,8 @@ INSTALLATION_DIRS= lib/cycle lib/cycle/bitmaps \
 	lib/cycle/msg lib/cycle/msg/ca/LC_MESSAGES \
 	lib/cycle/msg/cs/LC_MESSAGES lib/cycle/msg/de/LC_MESSAGES \
 	lib/cycle/msg/es/LC_MESSAGES lib/cycle/msg/gl/LC_MESSAGES \
-	lib/cycle/msg/ru/LC_MESSAGES lib/cycle/msg/sk/LC_MESSAGES
+	lib/cycle/msg/ru/LC_MESSAGES lib/cycle/msg/sk/LC_MESSAGES \
+	bin ${PKGMANDIR}/man1	# XXX man quick fix
 
 do-install:
 	${INSTALL_DATA} ${WRKSRC}/cycle.1  ${DESTDIR}${PREFIX}/${PKGMANDIR}/man1/
