@@ -16,6 +16,7 @@ SUBDIR+=	GSCommander
 SUBDIR+=	GoogleEarth
 SUBDIR+=	InfoNES
 SUBDIR+=	LabPlot
+SUBDIR+=	LuaJIT
 SUBDIR+=	Mesa
 SUBDIR+=	MesaLib
 SUBDIR+=	MoleInvasion
