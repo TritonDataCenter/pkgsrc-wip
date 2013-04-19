@@ -1102,6 +1102,7 @@ SUBDIR+=	hs-timezone-series
 SUBDIR+=	hs-transformers
 SUBDIR+=	hs-transformers-abort
 SUBDIR+=	hs-transformers-base
+SUBDIR+=	hs-transformers-compat
 SUBDIR+=	hs-uconv
 SUBDIR+=	hs-uniplate
 SUBDIR+=	hs-unix-compat
