@@ -1,0 +1,8 @@
+@comment $NetBSD$
+lib/transformers-compat-${PKGVERSION}/${HASKELL_VERSION}/HStransformers-compat-${PKGVERSION}.o
+lib/transformers-compat-${PKGVERSION}/${HASKELL_VERSION}/Paths_transformers_compat.hi
+lib/transformers-compat-${PKGVERSION}/${HASKELL_VERSION}/Paths_transformers_compat.p_hi
+lib/transformers-compat-${PKGVERSION}/${HASKELL_VERSION}/libHStransformers-compat-${PKGVERSION}.a
+lib/transformers-compat-${PKGVERSION}/${HASKELL_VERSION}/libHStransformers-compat-${PKGVERSION}_p.a
+lib/transformers-compat-${PKGVERSION}/${HASKELL_VERSION}/package-description
+share/doc/transformers-compat-${PKGVERSION}/LICENSE
