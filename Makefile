@@ -825,6 +825,7 @@ SUBDIR+=	groovy
 SUBDIR+=	grsync
 SUBDIR+=	grub2-current
 SUBDIR+=	gsdpdf
+SUBDIR+=	gsmartcontrol
 SUBDIR+=	gst-inspector
 SUBDIR+=	gst-plugins0.10-farsight
 SUBDIR+=	gstat
