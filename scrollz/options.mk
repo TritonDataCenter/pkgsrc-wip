@@ -1,13 +1,20 @@
 # $NetBSD$
 
 PKG_OPTIONS_VAR=		PKG_OPTIONS.scrollz
-PKG_SUPPORTED_OPTIONS=		inet6 regexp utf8
-PKG_SUGGESTED_OPTIONS+=		inet6
+PKG_SUPPORTED_OPTIONS=		efence inet6 regexp utf8
+PKG_SUGGESTED_OPTIONS+=		efence inet6
 PKG_OPTIONS_OPTIONAL_GROUPS=	socks ssl
 PKG_OPTIONS_GROUP.socks=	socks4 socks5
 PKG_OPTIONS_GROUP.ssl=		gnutls openssl
 
 .include "../../mk/bsd.options.mk"
+
+.if !empty(PKG_OPTIONS:Mefence)
+.include "../../devel/electric-fence/buildlink3.mk"
+CONFIGURE_ARGS+=	--with-efence
+.else
+CONFIGURE_ARGS+=	--disable-efence
+.endif
 
 .if !empty(PKG_OPTIONS:Mgnutls)
 .include "../../security/gnutls/buildlink3.mk"
