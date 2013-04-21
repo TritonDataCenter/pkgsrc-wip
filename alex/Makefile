@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	alex-3.0.4
+DISTNAME=	alex-3.0.5
 PKGNAME=	${DISTNAME}
 CATEGORIES=	devel
 MAINTAINER=	esg@sdf.lonestar.org
