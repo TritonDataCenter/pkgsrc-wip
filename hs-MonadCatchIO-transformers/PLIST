@@ -5,3 +5,4 @@ lib/MonadCatchIO-transformers-${PKGVERSION}/${HASKELL_VERSION}/HSMonadCatchIO-tr
 lib/MonadCatchIO-transformers-${PKGVERSION}/${HASKELL_VERSION}/libHSMonadCatchIO-transformers-${PKGVERSION}.a
 lib/MonadCatchIO-transformers-${PKGVERSION}/${HASKELL_VERSION}/libHSMonadCatchIO-transformers-${PKGVERSION}_p.a
 lib/MonadCatchIO-transformers-${PKGVERSION}/${HASKELL_VERSION}/package-description
+share/doc/MonadCatchIO-transformers-${PKGVERSION}/LICENSE
