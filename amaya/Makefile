@@ -78,7 +78,7 @@ CFLAGS+=		-fno-strict-aliasing
 #
 # - The included libwww includes in turn its own copy of expat. In
 # 10.x this was also a custom-patched version. This may or may not be
-# true now. Regardless, Amaya shold be made to use pkgsrc expat,
+# true now. Regardless, Amaya should be made to use pkgsrc expat,
 # because as things stand it is likely to end up with multiple expats
 # linked into it at once, and that's unlikely to work. I have not done
 # this yet though. (XXX)
