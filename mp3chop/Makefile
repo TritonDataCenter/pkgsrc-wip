@@ -5,7 +5,7 @@ DISTNAME=		mp3chop-1.08
 CATEGORIES=		audio
 MASTER_SITES=		http://www.fysh.org/~mac/mp3chop/
 
-MAINTAINER=		shattered@users.sourceforge.net
+MAINTAINER=		shattered@NetBSD.org
 HOMEPAGE=		http://www.fysh.org/~mac/mp3chop/
 COMMENT=		Program for chopping up mp3 files
 LICENSE=		gnu-gpl-v2

@@ -4,7 +4,7 @@ DISTNAME=		pkg_rmleaves-20050922
 CATEGORIES=		pkgtools
 MASTER_SITES=		http://utenti.gufi.org/~drizzt/codes/ports/pkg_rmleaves/
 
-MAINTAINER=		ghen@NetBSD.org
+MAINTAINER=		pkgsrc-users@NetBSD.org
 COMMENT=		Interactive script for deinstalling 'leaf' packages
 HOMEPAGE=		#
 

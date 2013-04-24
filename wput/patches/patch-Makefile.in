@@ -1,6 +1,6 @@
 $NetBSD$
 
-Make wput use DESTDIR.
+Make wput use DESTDIR and fix PKGMANDIR.
 
 --- Makefile.in.orig	2008-09-27 10:31:23.000000000 +0000
 +++ Makefile.in
@@ -11,7 +11,7 @@ Make wput use DESTDIR.
  prefix      = @prefix@
  datadir     = $(prefix)/share
 -mandir	    = $(datadir)/man/man1
-+mandir	    = $(prefix)/${PKGMANDIR}/man1
++mandir	    = @mandir@/man1
  exec_prefix = @exec_prefix@
  bindir=@bindir@
  

@@ -1,0 +1,7 @@
+@comment $NetBSD$
+${PYSITELIB}/mox.py
+${PYSITELIB}/mox.pyc
+${PYSITELIB}/mox.pyo
+${PYSITELIB}/stubout.py
+${PYSITELIB}/stubout.pyc
+${PYSITELIB}/stubout.pyo

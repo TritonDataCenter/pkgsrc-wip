@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	ispell-dictionaries-1.0
+PKGREVISION=	1
 CATEGORIES=	meta-pkgs textproc
 MASTER_SITES=	# blank
 DISTFILES=	# empty
@@ -13,7 +14,7 @@ LICENSE=	# blank
 
 USE_LANGUAGES=	# none
 
-DEPENDS+=	ispell-base>=3.3.02:../../textproc/ispell-base
+DEPENDS+=	ispell>=3.3.02:../../textproc/ispell
 
 .include "options.mk"
 

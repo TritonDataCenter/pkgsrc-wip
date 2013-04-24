@@ -1,6 +1,7 @@
 # $NetBSD$
 
 DISTNAME=	linphone-3.5.2
+PKGREVISION=	1
 CATEGORIES=	net
 MASTER_SITES=	http://download.savannah.gnu.org/releases/linphone/3.5.x/sources/
 

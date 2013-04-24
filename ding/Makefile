@@ -13,8 +13,8 @@ COMMENT=	Ding is a Dictionary lookup program for the X window system
 LICENSE=	gnu-gpl-v2
 
 DEPENDS+=	tk>=8.3.2:../../x11/tk
-DEPENDS+=	aspell-german>=0.50:../../textproc/aspell-german
-DEPENDS+=	aspell-english>=0.50:../../textproc/aspell-english
+DEPENDS+=	aspell-de-[0-9]*:../../textproc/aspell-de
+DEPENDS+=	aspell-en-[0-9]*:../../textproc/aspell-en
 DEPENDS+=	dict-data>=1.8:../../textproc/dict-dictionaries
 DEPENDS+=	dict-client>=1.8:../../textproc/dict-client
 

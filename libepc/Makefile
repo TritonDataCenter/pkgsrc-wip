@@ -16,6 +16,10 @@ USE_TOOLS+=	gmake intltool msgfmt msgmerge perl pkg-config xgettext
 
 PKGCONFIG_OVERRIDE=	libepc-1.0.pc.in libepc-ui-1.0.pc.in
 
+CONFIGURE_ARGS+=	--enable-gtk-doc=no --enable-gtk-doc-html=no
+CONFIGURE_ARGS+=	--enable-gtk-doc-pdf=no
+
+.include "../../devel/gettext-lib/buildlink3.mk"
 BUILDLINK_DEPMETHOD.gtk3=	build
 .include "../../x11/gtk3/buildlink3.mk"
 .include "../../security/gnutls/buildlink3.mk"
@@ -23,6 +27,5 @@ BUILDLINK_DEPMETHOD.gtk3=	build
 .include "../../devel/glib2/buildlink3.mk"
 .include "../../net/avahi/buildlink3.mk"
 .include "../../net/libsoup24/buildlink3.mk"
-.include "../../textproc/gtk-doc/buildlink3.mk"
-.include "../../wip/libuuid/buildlink3.mk"
+.include "../../devel/libuuid/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

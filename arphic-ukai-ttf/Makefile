@@ -9,7 +9,7 @@ MASTER_SITES=	${MASTER_SITE_DEBIAN:=pool/main/t/ttf-arphic-ukai/}
 MAINTAINER=	ryoon@NetBSD.org
 HOMEPAGE=	http://www.freedesktop.org/wiki/Software/CJKUnifonts
 COMMENT=	High-quality Chinese Unicode TrueType font, Kaiti style
-#LICENSE=	Arphic Public License
+LICENSE=	arphic-public
 
 WRKSRC=		${WRKDIR}
 

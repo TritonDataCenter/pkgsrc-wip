@@ -21,5 +21,5 @@ CONFIGURE_ARGS+=	--disable-asound
 .include "../../wip/commoncpp2/buildlink3.mk"
 .include "../../textproc/libxml2/buildlink3.mk"
 .include "../../devel/libosip/buildlink3.mk"
-.include "../../wip/ccrtp/buildlink3.mk"
+.include "../../net/ccrtp/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

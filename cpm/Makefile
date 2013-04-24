@@ -7,7 +7,7 @@ PKGREVISION=	2
 CATEGORIES=	security
 MASTER_SITES=	http://www.harry-b.de/downloads/
 
-MAINTAINER=	shattered@users.sourceforge.net
+MAINTAINER=	shattered@NetBSD.org
 HOMEPAGE=	http://www.harry-b.de/dokuwiki/doku.php?id=harry:cpm
 COMMENT=	Console Password Manager
 LICENSE=	gnu-gpl-v2

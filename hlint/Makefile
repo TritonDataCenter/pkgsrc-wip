@@ -1,13 +1,13 @@
 # $NetBSD$
 #
 
-DISTNAME=	hlint-1.8.20
+DISTNAME=	hlint-1.8.44
 PKGNAME=	${DISTNAME}
 CATEGORIES=	devel
 
 MAINTAINER=	pho@cielonegro.org
 COMMENT=	Haskell source code suggestions
-LICENSE=	gnu-gpl-v2
+LICENSE=	modified-bsd
 
 INSTALLATION_DIRS+=	${PREFIX}/${PKGMANDIR}/man1
 post-install:
@@ -17,6 +17,7 @@ post-install:
 .include "../../wip/hs-cpphs/buildlink3.mk"
 .include "../../wip/hs-haskell-src-exts/buildlink3.mk"
 .include "../../wip/hs-hscolour/buildlink3.mk"
+.include "../../wip/hs-text/buildlink3.mk"
 .include "../../wip/hs-transformers/buildlink3.mk"
 .include "../../wip/hs-uniplate/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

@@ -1,5 +1,5 @@
 $NetBSD$
 
-SHA1 (crypto-api-0.9.tar.gz) = 9da8dcbd381e5d42b1ab5bbf440c83fbd2ada2eb
-RMD160 (crypto-api-0.9.tar.gz) = 7f6c4a00e9eb8cfa77e6aae4443248011ed6acde
-Size (crypto-api-0.9.tar.gz) = 44240 bytes
+SHA1 (crypto-api-0.12.tar.gz) = 0593d42b129711877d5cc6294a55d12aad6463cd
+RMD160 (crypto-api-0.12.tar.gz) = 438fe8ac0185edb4d39a9f010ee7c4c5d2680daf
+Size (crypto-api-0.12.tar.gz) = 45068 bytes

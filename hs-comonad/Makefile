@@ -1,11 +1,11 @@
 # $NetBSD$
 #
 
-DISTNAME=	comonad-1.1.1.1
+DISTNAME=	comonad-3.0.2
 CATEGORIES=	math
 
 MAINTAINER=	pho@cielonegro.org
-COMMENT=	Haskell 98 comonads
+COMMENT=	Haskell 98 compatible comonads
 LICENSE=	modified-bsd
 
 .include "../../wip/mk/haskell.mk"

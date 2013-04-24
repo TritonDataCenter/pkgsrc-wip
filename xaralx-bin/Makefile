@@ -6,7 +6,7 @@ CATEGORIES=		graphics
 MASTER_SITES=		http://downloads.xara.com/opensource/
 EXTRACT_SUFX=		.tar.bz2
 
-MAINTAINER=		ghen@NetBSD.org
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://www.xaraxtreme.org/
 COMMENT=		Vector graphics program
 

@@ -19,7 +19,7 @@ DEPENDS+=		pdflib>=4.0.3:../../print/pdflib
 DEPENDS+=		plotutils>=2.4.1:../../graphics/plotutils
 DEPENDS+=		gnuplot>=3.7:../../graphics/gnuplot
 DEPENDS+=		freetype2>=2.1:../../graphics/freetype2
-DEPENDS+=		ghostscript>=7.0:../../print/ghostscript
+DEPENDS+=		ghostscript-agpl>=7.0:../../print/ghostscript-agpl
 DEPENDS+=		tex-latex-[0-9]*:../../print/tex-latex
 DEPENDS+=		tex-latex-bin-[0-9]*:../../print/tex-latex-bin
 DEPENDS+=		tex-tex-[0-9]*:../../print/tex-tex

@@ -31,7 +31,7 @@ CONFIGURE_ARGS+=	--without-speex
 .endif
 
 .if !empty(PKG_OPTIONS:Mzrtp)
-.include "../../wip/libzrtpcpp/buildlink3.mk"
+.include "../../net/libzrtpcpp/buildlink3.mk"
 .else
 CONFIGURE_ARGS+=	--without-zrtp
 .endif

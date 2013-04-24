@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	pureMD5-2.1.0.3
+DISTNAME=	pureMD5-2.1.2.1
 CATEGORIES=	security
 
 MAINTAINER=	pho@cielonegro.org
