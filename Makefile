@@ -1204,7 +1204,6 @@ SUBDIR+=	irrxml
 SUBDIR+=	ised
 SUBDIR+=	islamic-menus
 SUBDIR+=	ispell-dictionaries
-SUBDIR+=	ispell-lietuviu
 SUBDIR+=	itask-ng
 SUBDIR+=	itools
 SUBDIR+=	ja-freewnn-cvs

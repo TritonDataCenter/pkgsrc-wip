@@ -33,7 +33,7 @@ DEPENDS+=	ispell-ga>=2.0:../../textproc/ispell-ga
 .endif
 
 .if !empty(PKG_OPTIONS:Mlang-lt)
-DEPENDS+=	ispell-lietuviu>=1.0:../../wip/ispell-lietuviu
+DEPENDS+=	ispell-lt>=1.0:../../textproc/ispell-lt
 .endif
 
 .if !empty(PKG_OPTIONS:Mlang-pl)
