@@ -2093,6 +2093,7 @@ SUBDIR+=	pdfmod
 SUBDIR+=	pdftk
 SUBDIR+=	pdnsd
 SUBDIR+=	pdq
+SUBDIR+=	pdsh
 SUBDIR+=	pear-DB_DataObject
 SUBDIR+=	pear-HTML_Table
 SUBDIR+=	pear-HTTP_Client
