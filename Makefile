@@ -922,6 +922,7 @@ SUBDIR+=	hs-Lucu
 SUBDIR+=	hs-MissingH
 SUBDIR+=	hs-MonadCatchIO-mtl
 SUBDIR+=	hs-MonadCatchIO-transformers
+SUBDIR+=	hs-NumInstances
 SUBDIR+=	hs-ObjectName
 SUBDIR+=	hs-OpenGL
 SUBDIR+=	hs-OpenGLRaw
