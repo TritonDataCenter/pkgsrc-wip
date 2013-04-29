@@ -1,6 +1,7 @@
 # $NetBSD$
 
 DISTNAME=	foxtrotgps-1.1.1
+PKGREVISION=	1
 CATEGORIES=	geography
 MASTER_SITES=	http://www.foxtrotgps.org/releases/
 
