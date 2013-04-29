@@ -28,7 +28,7 @@ Deletion of writable tests.
  raintpl::$tpl_dir = "tpl/"; // template directory
  if (!is_dir('tmp')) { mkdir('tmp',0705); chmod('tmp',0705); }
 -raintpl::$cache_dir = "tmp/"; // cache directory
-+raintpl::$cache_dir = "@CACHEDIR"; // cache directory
++raintpl::$cache_dir = "@CACHEDIR@"; // cache directory
  
  ob_start();  // Output buffering for the page cache.
  

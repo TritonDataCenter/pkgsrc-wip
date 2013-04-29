@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	quickcheck-instances-0.2.0
+DISTNAME=	quickcheck-instances-0.3.2
 CATEGORIES=	devel
 
 MAINTAINER=	pho@cielonegro.org
