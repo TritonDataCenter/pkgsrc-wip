@@ -76,10 +76,9 @@ PLIST_SRC+=		PLIST.tcl
 # Python support
 #
 .if !empty(PKG_OPTIONS:Mpython)
-.include		"../../lang/python31/buildlink3.mk"
-BUILD_DEPENDS+=		python31>=3.1:../../lang/python31
-DEPENDS+=		python31>=3.1:../../lang/python31
-CONFIGURE_ARGS+=	--enable-python=python-3.1
+.include		"../../lang/python32/buildlink3.mk"
+DEPENDS+=		python32>=3.2:../../lang/python32
+CONFIGURE_ARGS+=	--enable-python=python-3.2
 USE_LANGUAGES+=		python
 .endif
 
