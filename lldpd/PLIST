@@ -1,0 +1,14 @@
+@comment $NetBSD: PLIST,v 0.7.2 2013/04/27 12:35:02 bartek Exp $
+include/lldp-const.h
+include/lldpctl.h
+lib/liblldpctl.la
+lib/pkgconfig/lldpctl.pc
+man/man8/lldpcli.8
+man/man8/lldpctl.8
+man/man8/lldpd.8
+sbin/lldpcli
+sbin/lldpctl
+sbin/lldpd
+share/doc/lldpd/ChangeLog
+share/doc/lldpd/NEWS
+share/doc/lldpd/README.md
