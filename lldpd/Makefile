@@ -13,9 +13,13 @@ LICENSE=	isc
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_TOOLS+=	pkg-config
+USE_TOOLS+= awk
 USE_LANGUAGES+= c c++
 
-BUILD_DEPENDS+= check-[0-9]*:../../devel/check
+PKGCONFIG_OVERRIDE+=    libevent/libevent.pc.in
+PKGCONFIG_OVERRIDE+=    libevent/libevent_openssl.pc.in
+PKGCONFIG_OVERRIDE+=    libevent/libevent_pthreads.pc.in
+PKGCONFIG_OVERRIDE+=    src/lib/lldpctl.pc.in
 
 CONFIGURE_ARGS+=	--with-privsep-chroot=/nonexistent
 
@@ -27,7 +31,8 @@ PKG_HOME.${LLDPD_USER}=	/nonexistent
 PKG_GROUPS_VARS=	LLDPD_GROUP
 PKG_USERS_VARS=		LLDPD_USER
 
-.include "../../devel/readline/buildlink3.mk"
 .include "../../devel/libevent/buildlink3.mk"
+.include "../../devel/check/buildlink3.mk"
+.include "../../devel/readline/buildlink3.mk"
 
 .include "../../mk/bsd.pkg.mk"
