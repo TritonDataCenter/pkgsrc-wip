@@ -1491,6 +1491,7 @@ SUBDIR+=	linuxtv-dvb-apps
 SUBDIR+=	lire
 SUBDIR+=	lissac
 SUBDIR+=	lives
+SUBDIR+=	lldpd
 SUBDIR+=	llvm
 SUBDIR+=	lmdbg-current
 SUBDIR+=	lmfit
