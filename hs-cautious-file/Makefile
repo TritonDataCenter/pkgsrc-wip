@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	cautious-file-1.0
+DISTNAME=	cautious-file-1.0.2
 CATEGORIES=	devel
 
 MAINTAINER=	pho@cielonegro.org
