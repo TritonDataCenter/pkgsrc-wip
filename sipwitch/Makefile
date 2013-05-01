@@ -28,5 +28,5 @@ SUBST_SED.libdir=	-e 's,lib64,lib,g'
 
 .include "../../sysutils/libnotify/buildlink3.mk"
 .include "../../net/avahi/buildlink3.mk"
-.include "../../wip/ucommon/buildlink3.mk"
+.include "../../devel/ucommon/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
