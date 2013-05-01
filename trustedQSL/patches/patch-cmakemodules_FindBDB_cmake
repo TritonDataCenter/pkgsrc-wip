@@ -16,7 +16,7 @@ $NetBSD$
    "C:\\db-5.3.21\\build_windows\\Win32\\Static_Release\\" #vc08 adds underscore
    #OSX (and probably other unix) src build
 -  "/usr/local/BerkeleyDB.5.3/lib"
-+  "@@PREFIX@@"
++  "@PREFIX@"
    "${BDB_PREFIX}/lib"
  )
  MARK_AS_ADVANCED(BDB_LIBRARY)

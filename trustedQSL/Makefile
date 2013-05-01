@@ -24,9 +24,8 @@ WRKSRC=			${WRKDIR}/${DISTNAME}
 SUBST_CLASSES+=		prefix
 SUBST_STAGE.prefix=	post-patch
 SUBST_FILES.prefix=	cmakemodules/FindBDB.cmake
-SUBST_FILES.prefix+=	cmakemodules/FindCURL.cmake
-SUBST_MESSAGE.prefix=	Adjust CMake Find Berkley DB and CURL PREFIX
-SUBST_SED.prefix=	-e s\|@@PREFIX@@\|${PREFIX}\|
+SUBST_MESSAGE.prefix=	Adjust PREFIX in CMake Find Berkley DB
+SUBST_VARS.prefix=	PREFIX
 
 # There is an unresolved build failure, where -R for /usr/pkg/lib does
 # not precede /usr/X11R7/lib, and on a netbsd-5 system with base xorg,
