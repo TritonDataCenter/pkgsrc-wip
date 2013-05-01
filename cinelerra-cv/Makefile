@@ -49,7 +49,7 @@ BUILD_DEPENDS+=	nasm-[0-9]*:../../devel/nasm
 .include "../../audio/libsndfile/buildlink3.mk"
 .include "../../audio/libvorbis/buildlink3.mk"
 .include "../../devel/gettext-lib/buildlink3.mk"
-.include "../../wip/libuuid/buildlink3.mk" # should be in "devel" category
+.include "../../devel/libuuid/buildlink3.mk"
 .include "../../graphics/freetype2/buildlink3.mk"
 .include "../../mk/jpeg.buildlink3.mk"
 .include "../../graphics/openexr/buildlink3.mk"
