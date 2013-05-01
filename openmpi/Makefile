@@ -41,6 +41,8 @@ CONFIGURE_ENV+=		ACLOCAL=: AUTOCONF=: AUTOHEADER=: AUTOMAKE=:
 # Prevent detection of OpenMP support in order to make PLIST consistent:
 BUILDLINK_TRANSFORM=	rm:-fopenmp
 
+BUILDLINK_PASSTHRU_RPATHDIRS+=	${MPI_PREFIX}/lib
+
 USE_TOOLS+=		perl:run
 REPLACE_PERL+=		ompi/tools/wrappers/mpijavac.pl.in
 
