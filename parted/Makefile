@@ -21,5 +21,5 @@ USE_LIBTOOL=		yes
 
 .include "../../devel/ncurses/buildlink3.mk"
 .include "../../devel/readline/buildlink3.mk"
-.include "../../wip/libuuid/buildlink3.mk"
+.include "../../devel/libuuid/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
