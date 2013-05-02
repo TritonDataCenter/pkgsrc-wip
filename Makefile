@@ -2139,6 +2139,7 @@ SUBDIR+=	petsc
 SUBDIR+=	pev
 SUBDIR+=	pfe
 SUBDIR+=	pgp6
+SUBDIR+=	pgpool2
 SUBDIR+=	phantomjs
 SUBDIR+=	phlib
 SUBDIR+=	phonon-backend-xine
