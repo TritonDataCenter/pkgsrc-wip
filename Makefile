@@ -2990,6 +2990,7 @@ SUBDIR+=	squirrelmail-vlogin
 SUBDIR+=	srecord
 SUBDIR+=	srvx
 SUBDIR+=	sselp
+SUBDIR+=	sshpass
 SUBDIR+=	ssid
 SUBDIR+=	ssu
 SUBDIR+=	stardict
