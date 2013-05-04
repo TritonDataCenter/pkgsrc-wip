@@ -1951,6 +1951,7 @@ SUBDIR+=	p5-HTML-TagCloud
 SUBDIR+=	p5-HTML-WebMake
 SUBDIR+=	p5-HTML-Widget
 SUBDIR+=	p5-HTTP-BrowserDetect
+SUBDIR+=	p5-HTTP-Exception
 SUBDIR+=	p5-Hash-AsObject
 SUBDIR+=	p5-IO-Lambda
 SUBDIR+=	p5-IO-Socket-Socks
