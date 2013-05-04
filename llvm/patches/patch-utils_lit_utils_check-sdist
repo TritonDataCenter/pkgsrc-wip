@@ -1,0 +1,14 @@
+$NetBSD$
+
+Fixes portability failure.
+
+--- utils/lit/utils/check-sdist.orig	2013-05-04 12:14:35.000000000 +0000
++++ utils/lit/utils/check-sdist
+@@ -1,6 +1,6 @@
+ #!/bin/sh
+ 
+-if [ $# == 1 ]; then
++if [ $# = 1 ]; then
+     cd $1
+ fi
+ 
