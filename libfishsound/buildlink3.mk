@@ -23,8 +23,7 @@ pkgbase := libfishsound
 .include "../../audio/libvorbis/buildlink3.mk"
 .endif
 
-.include "../../wip/liboggz/buildlink3.mk"
-.include "../../audio/libsndfile/buildlink3.mk"
+.include "../../multimedia/libogg/buildlink3.mk"
 .endif	# LIBFISHSOUND_BUILDLINK3_MK
 
 BUILDLINK_TREE+=	-libfishsound
