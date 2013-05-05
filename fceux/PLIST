@@ -16,6 +16,7 @@ share/fceux/luaScripts/GUI-iup_button.lua
 share/fceux/luaScripts/GUI-iup_example.lua
 share/fceux/luaScripts/Galaxian.lua
 share/fceux/luaScripts/Gradius-BulletHell.lua
+share/fceux/luaScripts/JumpingFCEUXWindow.lua
 share/fceux/luaScripts/Luabot.lua
 share/fceux/luaScripts/Machrider.lua
 share/fceux/luaScripts/MegamanII-LaserEyes.lua
