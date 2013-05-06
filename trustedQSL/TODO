@@ -1,52 +1,10 @@
 - This is 1.14 beta only, some redundent lines left in Makefile
   to migrate production version.
 - set LICENSE= line
-- make package won't complete with following problem now
-
-==============================
--- Installing: /export/CHROOT/usr/pkgsrc/wip/trustedQSL/work/.destdir/usr/pkg/bin/tqsl
-CMake Error at apps/cmake_install.cmake:40 (FILE):
-  file RPATH_CHANGE could not write new RPATH:
-
-    /usr/pkg/lib:/usr/pkg/lib:/usr/X11R7/lib
-
-  to the file:
-
-    /export/CHROOT/usr/pkgsrc/wip/trustedQSL/work/.destdir/usr/pkg/bin/tqsl
-
-  The current RPATH is:
-
-    /usr/pkg/lib:/export/CHROOT/usr/pkgsrc/wip/trustedQSL/work/tqsl-114/src
-
-  which does not contain:
-
-    /export/CHROOT/usr/pkgsrc/wip/trustedQSL/work/tqsl-114/src:/usr/pkg/lib:/usr/X11R7/lib:
-
-  as was expected.
-Call Stack (most recent call first):
-  cmake_install.cmake:33 (INCLUDE)
-
-
-gmake: *** [install] Error 1
-*** Error code 2
-Stop.
-==============================
-(Above log was taken after following tweak applied)
-modena@makoto 11:39:11/130425(..wip/trustedQSL)% 
-(cd /usr/pkg; diff -up share/cmake-2.8/Modules/CMakeGenericSystem.cmake{.orig,})
-
---- share/cmake-2.8/Modules/CMakeGenericSystem.cmake.orig	2012-11-01 00:32:05.000000000 +0900
-+++ share/cmake-2.8/Modules/CMakeGenericSystem.cmake	2013-04-25 11:16:40.000000000 +0900
-@@ -166,7 +166,7 @@ endif()
- 
- # Choose a default install prefix for this platform.
- if(CMAKE_HOST_UNIX)
--  set(CMAKE_INSTALL_PREFIX "/usr/local"
-+  set(CMAKE_INSTALL_PREFIX "/usr/pkg"
-     CACHE PATH "Install path prefix, prepended onto install directories.")
- else()
-   GetDefaultWindowsPrefixBase(CMAKE_GENERIC_PROGRAM_FILES)
-
-CHECKED (to make, not make package)
-
-- NetBSD/amd64 6.1_RC2 X11_TYPE=modular
+- checked with X11_TYPE=modular only for now
+- Following SUBST_CLASSES are all to be applied
+  post-build stage, probably cmake related problem.
+  Should be eliminated: 
+   SUBST_CLASSES+=		x11r7
+   SUBST_CLASSES+=		workaround
+   SUBST_CLASSES+=		rpath-link

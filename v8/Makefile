@@ -13,7 +13,7 @@ SVN_REPOSITORIES=	v8
 SVN_ROOT.v8=		http://v8.googlecode.com/svn/trunk/
 SVN_MODULE.v8=		v8
 
-DEPENDS+=		libexecinfo>=1:../../wip/libexecinfo
+DEPENDS+=		libexecinfo>=1:../../devel/libexecinfo
 BUILD_DEPENDS+=		scons>=1:../../devel/scons
 
 NO_CONFIGURE=		yes

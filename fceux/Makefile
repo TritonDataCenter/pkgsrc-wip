@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	fceux-2.2.0.src
+DISTNAME=	fceux-2.2.1.src
 PKGNAME=	${DISTNAME:S/.src//}
 CATEGORIES=	emulators
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=fceultra/}
@@ -11,7 +11,7 @@ HOMEPAGE=	http://fceux.com/
 COMMENT=	NES, Famicom, and Famicom Disk System (FDS) emulator
 LICENSE=	gnu-gpl-v2
 
-WRKSRC=			${WRKDIR}/${PKGBASE}
+WRKSRC=			${WRKDIR}/${PKGNAME_NOREV}
 USE_LANGUAGES=		c c++
 BUILD_DEPENDS+=		scons-[0-9]*:../../devel/scons
 USE_TOOLS+=		pkg-config

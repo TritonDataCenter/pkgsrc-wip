@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	lightdm-1.3.3
+PKGREVISION=	1
 CATEGORIES=	x11
 MASTER_SITES=	https://launchpad.net/lightdm/1.4/1.3.3/+download/
 FETCH_USING=	curl

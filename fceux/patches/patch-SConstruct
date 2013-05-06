@@ -2,9 +2,9 @@ $NetBSD$
 
 Make SConstruct use $PATH.
 
---- SConstruct.orig	2012-11-27 17:07:46.000000000 +0000
+--- SConstruct.orig	2013-03-10 21:21:52.000000000 +0000
 +++ SConstruct
-@@ -32,6 +32,8 @@ AddOption('--prefix', dest='prefix', typ
+@@ -33,6 +33,8 @@ AddOption('--prefix', dest='prefix', typ
  prefix = GetOption('prefix')
  env = Environment(options = opts)
  

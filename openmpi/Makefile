@@ -1,11 +1,10 @@
 # $NetBSD: Makefile,v 1.20 2012/10/31 06:19:35 asau Exp $
 
-DISTNAME=	openmpi-1.7rc8r28176
-PKGNAME=	openmpi-1.6.99.28176
+DISTNAME=	openmpi-1.7.1
+#PKGNAME=	openmpi-1.7.1
 CATEGORIES=	parallel
 MASTER_SITES=	http://www.open-mpi.org/software/ompi/v1.7/downloads/ \
-		http://www.open-mpi.org/nightly/v1.7/ \
-		http://www.open-mpi.org/nightly/v1.6/
+		http://www.open-mpi.org/nightly/v1.7/
 EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	asau@inbox.ru
@@ -33,7 +32,7 @@ CONFIGURE_ARGS+=	--without-slurm
 CONFIGURE_ARGS+=	--enable-contrib-no-build=vt # in separate package
 CONFIGURE_ARGS+=	--with-libltdl=external # use our libltdl
 CONFIGURE_ARGS+=	--with-hwloc=$(BUILDLINK_PREFIX.hwloc:Q) #external
-CONFIGURE_ARGS+=	--with-wrapper-ldflags="-L$(MPI_PREFIX)/lib $(LINKER_RPATH_FLAG)$(MPI_PREFIX)/lib"
+CONFIGURE_ARGS+=	--with-wrapper-ldflags="-L$(MPI_PREFIX)/lib $(COMPILER_RPATH_FLAG)$(MPI_PREFIX)/lib"
 CONFIGURE_ENV+=		ompi_cv_f77_have_INTEGERp8=no	# no "INTEGER*8"??
 CONFIGURE_ARGS+=	OPAL_HAVE_LTDL_ADVISE=0
 # Suppress regeneration:
@@ -41,6 +40,8 @@ CONFIGURE_ENV+=		ACLOCAL=: AUTOCONF=: AUTOHEADER=: AUTOMAKE=:
 
 # Prevent detection of OpenMP support in order to make PLIST consistent:
 BUILDLINK_TRANSFORM=	rm:-fopenmp
+
+BUILDLINK_PASSTHRU_RPATHDIRS+=	${MPI_PREFIX}/lib
 
 USE_TOOLS+=		perl:run
 REPLACE_PERL+=		ompi/tools/wrappers/mpijavac.pl.in

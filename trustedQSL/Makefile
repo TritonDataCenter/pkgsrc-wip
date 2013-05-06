@@ -19,14 +19,35 @@ COMMENT=		TrustedQSL, uploading QSL Data to LoTW of ARRL
 USE_TOOLS+=		perl gmake cmake
 USE_LANGUAGES+=		c c++
 USE_LIBTOOL=		yes
+USE_CMAKE=		yes
 WRKSRC=			${WRKDIR}/${DISTNAME}
 
-SUBST_CLASSES+=		prefix
-SUBST_STAGE.prefix=	post-patch
-SUBST_FILES.prefix=	cmakemodules/FindBDB.cmake
-SUBST_FILES.prefix+=	cmakemodules/FindCURL.cmake
-SUBST_MESSAGE.prefix=	Adjust CMake Find Berkley DB and CURL PREFIX
-SUBST_SED.prefix=	-e s\|@@PREFIX@@\|${PREFIX}\|
+#.if !empty(X11_TYPE:Mmodular)
+SUBST_CLASSES+=		x11r7
+SUBST_STAGE.x11r7=	post-build
+SUBST_FILES.x11r7=	apps/cmake_install.cmake
+SUBST_MESSAGE.x11r7=	Remove X11R7/lib from RPATH_CHANGE, for modular only
+SUBST_SED.x11r7=	-e 's,:/usr/X11R7/lib,,'
+#.endif
+
+## CMAKE RPATH_CHANGE claims the the order is not the same, so the work around.
+##              /usr/pkgsrc/wip/trustedQSL/work/tqsl-114/src:/usr/pkg/lib:
+##                     v
+## /usr/pkg/lib:/usr/pkgsrc/wip/trustedQSL/work/tqsl-114/src
+
+SUBST_CLASSES+=		workaround
+SUBST_STAGE.workaround= post-build
+SUBST_FILES.workaround=	apps/cmake_install.cmake
+SUBST_MESSAGE.workaround=	Truely experimental and interim fix for RPATH order
+SUBST_SED.workaround=	-e 's,${WRKSRC}/src:${PREFIX}/lib:,${PREFIX}/lib:${WRKSRC}/src,'
+
+SUBST_CLASSES+=		rpath-link
+SUBST_STAGE.rpath-link= post-build
+SUBST_FILES.rpath-link=	src/cmake_install.cmake
+SUBST_MESSAGE.rpath-link=	Truely experimental and interim fix for RPATH-LINK
+SUBST_SED.rpath-link=	-e '/OLD_RPATH/s,::::::::::::,,'
+SUBST_SED.rpath-link+=	-e '/NEW_RPATH/s,:${PREFIX}/lib,,'
+
 
 # There is an unresolved build failure, where -R for /usr/pkg/lib does
 # not precede /usr/X11R7/lib, and on a netbsd-5 system with base xorg,
@@ -35,7 +56,13 @@ SUBST_SED.prefix=	-e s\|@@PREFIX@@\|${PREFIX}\|
 # usage in Makefile.am, without matching -R.
 
 do-configure:
-	(cd $(WRKSRC) ; cmake .)
+	(cd $(WRKSRC) ; \
+	cmake \
+	-DCMAKE_INSTALL_PREFIX=${PREFIX} \
+	-DBDB_PREFIX=${PREFIX} \
+	-DCMAKE_INSTALL_RPATH=${PREFIX}/lib \
+	-DCMAKE_INSTALL_RPATH_USE_LINK_PATH=yes \
+	.)
 
 .include "../../textproc/expat/buildlink3.mk"
 .include "../../databases/db5/buildlink3.mk"

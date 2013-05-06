@@ -19,7 +19,7 @@ BUILD_DEPENDS+=		irrxml-1.2:../../wip/irrxml
 USE_PKGLOCALEDIR=	yes
 USE_LANGUAGES=		c++
 USE_TOOLS+=		chmod pkg-config
-INSTALLATION_DIRS+=	share/applications share/Aria/Documentation/docs
+INSTALLATION_DIRS+=	share/applications
 
 .include "options.mk"
 

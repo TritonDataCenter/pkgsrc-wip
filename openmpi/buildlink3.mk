@@ -8,6 +8,7 @@ OPENMPI_BUILDLINK3_MK:=
 BUILDLINK_API_DEPENDS.openmpi+=	openmpi>=1.5.1
 BUILDLINK_PKGSRCDIR.openmpi?=	../../wip/openmpi
 
+MPI_PREFIX?=	$(BUILDLINK_PREFIX.openmpi)
 FIND_PREFIX:=	BUILDLINK_PREFIX.openmpi=openmpi
 .include "../../mk/find-prefix.mk"
 
