@@ -1114,6 +1114,7 @@ SUBDIR+=	hs-unix-compat
 SUBDIR+=	hs-unordered-containers
 SUBDIR+=	hs-utf8-string
 SUBDIR+=	hs-utility-ht
+SUBDIR+=	hs-vault
 SUBDIR+=	hs-vector
 SUBDIR+=	hs-vector-bytestring
 SUBDIR+=	hs-vector-th-unbox
