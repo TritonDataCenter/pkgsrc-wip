@@ -44,7 +44,6 @@ CMAKE_ARGS+=		-DVIDEO_OPENGL=OFF
 .endif
 
 .if !empty(PKG_OPTIONS:Moss)
-.include "../../mk/oss.buildlink3.mk"
 CMAKE_ARGS+=		-DOSS=ON
 .else
 CMAKE_ARGS+=		-DOSS=OFF
