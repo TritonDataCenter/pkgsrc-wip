@@ -1,0 +1,5 @@
+@comment $NetBSD$
+man/man8/dscan.8
+sbin/dscan
+share/doc/dscan/LICENSE
+share/doc/dscan/README
