@@ -473,6 +473,7 @@ SUBDIR+=	docbook-xsl-ko
 SUBDIR+=	docbook2X
 SUBDIR+=	dokuwiki
 SUBDIR+=	dolfin
+SUBDIR+=	dolphin
 SUBDIR+=	doorman
 SUBDIR+=	dotproject
 SUBDIR+=	dovecot-antispam
