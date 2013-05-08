@@ -4,7 +4,7 @@ PKG_OPTIONS_VAR=	PKG_OPTIONS.dolphin
 PKG_SUPPORTED_OPTIONS=	alsa bluez cg debug ffmpeg glew gtk2 libao openal opengl
 PKG_SUPPORTED_OPTIONS+=	portaudio pulseaudio sdl sdl2 sfml+ soil threads xrandr
 PKG_SUPPORTED_OPTIONS+=	x11 zlib
-PKG_SUGGESTED_OPTIONS+=	ffmpeg glew gtk2 libao openal opengl pulseaudio sdl sdl2
+PKG_SUGGESTED_OPTIONS+=	alsa ffmpeg glew gtk2 libao openal pulseaudio sdl sdl2
 PKG_SUGGESTED_OPTIONS+=	sfml+ threads xrandr x11 zlib
 
 # XXX wxGTK29 (wxUnicode) is not yet supported. Package and test.
