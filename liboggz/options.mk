@@ -2,7 +2,7 @@
 
 PKG_OPTIONS_VAR=	PKG_OPTIONS.liboggz
 PKG_SUPPORTED_OPTIONS=	doc valgrind
-PKG_SUGGESTED_OPTIONS+=	# blank
+PKG_SUGGESTED_OPTIONS=	# blank
 PLIST_VARS+=		doc
 
 .include "../../mk/bsd.options.mk"
