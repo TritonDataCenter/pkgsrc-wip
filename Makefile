@@ -2224,6 +2224,7 @@ SUBDIR+=	polymul
 SUBDIR+=	pop-before-smtp
 SUBDIR+=	pop3.proxy
 SUBDIR+=	popup-el-current
+SUBDIR+=	portaudio
 SUBDIR+=	postal2-mpdemo-bin
 SUBDIR+=	postoffice
 SUBDIR+=	postr
