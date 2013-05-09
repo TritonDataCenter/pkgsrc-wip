@@ -15,7 +15,7 @@ HAS_CONFIGURE=		yes
 USE_TOOLS+=		bash perl pkg-config
 USE_PKGLOCALEDIR=	yes
 USE_LANGUAGES=		c c++
-#CONFIG_SHELL=		${BASH}
+CONFIG_SHELL=		${PERL5}
 CONFIGURE_ARGS+=	-prefix ${WRKSRC}/qtbase -opensource -nomake tests
 
 PKGCONFIG_OVERRIDE+=	qtbase/src/3rdparty/zlib/zlib.pc.in
