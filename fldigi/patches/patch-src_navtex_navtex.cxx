@@ -1,5 +1,9 @@
 $NetBSD: patch-src_navtex_navtex.cxx,v 1.1 2013/05/06 14:49:32 joerg Exp $
 
+Avoid implicit conversions to bool for streams.
+Require C++11 for Clang and prefer std version over tr1 when in C++11
+mode.
+
 --- src/navtex/navtex.cxx.orig	2013-05-03 14:31:34.000000000 +0000
 +++ src/navtex/navtex.cxx
 @@ -177,12 +177,12 @@ bool read_until_delim( std::istream & is

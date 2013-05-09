@@ -1,5 +1,9 @@
 $NetBSD: patch-src_misc_re.cxx,v 1.1 2013/05/06 14:49:32 joerg Exp $
 
+Avoid implicit conversions to bool for streams.
+Require C++11 for Clang and prefer std version over tr1 when in C++11
+mode.
+
 --- src/misc/re.cxx.orig	2013-05-03 14:24:52.000000000 +0000
 +++ src/misc/re.cxx
 @@ -120,12 +120,17 @@ void re_t::suboff(size_t n, int* start, 
