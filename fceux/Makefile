@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	fceux-2.2.1.src
+DISTNAME=	fceux-2.2.1.1.src
 PKGNAME=	${DISTNAME:S/.src//}
 CATEGORIES=	emulators
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=fceultra/}

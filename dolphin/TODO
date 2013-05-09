@@ -1,0 +1,2 @@
+* Fix Cg and SOIL detection;
+* Test wxGTK29 (wxUnicode) option after it's packaged;

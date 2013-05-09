@@ -64,6 +64,8 @@ lib/derive-${PKGVERSION}/${HASKELL_VERSION}/Data/Derive/JSON.hi
 lib/derive-${PKGVERSION}/${HASKELL_VERSION}/Data/Derive/JSON.p_hi
 lib/derive-${PKGVERSION}/${HASKELL_VERSION}/Data/Derive/LazySet.hi
 lib/derive-${PKGVERSION}/${HASKELL_VERSION}/Data/Derive/LazySet.p_hi
+lib/derive-${PKGVERSION}/${HASKELL_VERSION}/Data/Derive/Lens.hi
+lib/derive-${PKGVERSION}/${HASKELL_VERSION}/Data/Derive/Lens.p_hi
 lib/derive-${PKGVERSION}/${HASKELL_VERSION}/Data/Derive/Monoid.hi
 lib/derive-${PKGVERSION}/${HASKELL_VERSION}/Data/Derive/Monoid.p_hi
 lib/derive-${PKGVERSION}/${HASKELL_VERSION}/Data/Derive/NFData.hi

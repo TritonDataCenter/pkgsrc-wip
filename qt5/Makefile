@@ -1,10 +1,10 @@
 # $NetBSD$
 #
 
-DISTNAME=	qt-everywhere-opensource-src-5.0.1
+DISTNAME=	qt-everywhere-opensource-src-5.0.2
 PKGNAME=	${DISTNAME:S/-everywhere-opensource-src//1}
 CATEGORIES=	x11
-MASTER_SITES=	http://releases.qt-project.org/qt5/5.0.1/single/
+MASTER_SITES=	http://releases.qt-project.org/qt5/5.0.2/single/
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://qt-project.org/qt5
@@ -15,7 +15,7 @@ HAS_CONFIGURE=		yes
 USE_TOOLS+=		bash perl pkg-config
 USE_PKGLOCALEDIR=	yes
 USE_LANGUAGES=		c c++
-#CONFIG_SHELL=		${BASH}
+CONFIG_SHELL=		${PERL5}
 CONFIGURE_ARGS+=	-prefix ${WRKSRC}/qtbase -opensource -nomake tests
 
 PKGCONFIG_OVERRIDE+=	qtbase/src/3rdparty/zlib/zlib.pc.in

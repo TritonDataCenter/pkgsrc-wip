@@ -18,7 +18,7 @@ CONFIGURE_ARGS+=	--disable-doc
 .endif
 
 .if !empty(PKG_OPTIONS:Moggz)
-.include "../../wip/liboggz/buildlink3.mk"
+.include "../../multimedia/liboggz/buildlink3.mk"
 .endif
 
 .if !empty(PKG_OPTIONS:Mvalgrind)

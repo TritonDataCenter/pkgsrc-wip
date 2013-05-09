@@ -38,12 +38,12 @@ CMAKE_ARGS+=		-DNAS=OFF
 .if !empty(PKG_OPTIONS:Mopengl)
 .include "../../graphics/MesaLib/buildlink3.mk"
 CMAKE_ARGS+=		-DVIDEO_OPENGL=ON
+BROKEN=			opengl option doesn't work at the moment.
 .else
 CMAKE_ARGS+=		-DVIDEO_OPENGL=OFF
 .endif
 
 .if !empty(PKG_OPTIONS:Moss)
-.include "../../mk/oss.buildlink3.mk"
 CMAKE_ARGS+=		-DOSS=ON
 .else
 CMAKE_ARGS+=		-DOSS=OFF
