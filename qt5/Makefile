@@ -18,7 +18,9 @@ USE_PKGLOCALEDIR=	yes
 USE_LANGUAGES=		c c++
 CONFIG_SHELL=		${PERL5}
 CONFIGURE_ARGS+=	-prefix ${WRKSRC}/qtbase -opensource -nomake tests
-CONFIGURE_ARGS+=	-confirm-license
+CONFIGURE_ARGS+=	-confirm-license -largefile -accessibility
+CONFIGURE_ARGS+=	-javascript-jit -system-zlib -system-pcre # -c++11
+CONFIGURE_ARGS+=	-no-sql-odbc # XXX make this a PKG_OPTION
 
 PKGCONFIG_OVERRIDE+=	qtbase/src/3rdparty/zlib/zlib.pc.in
 PKGCONFIG_OVERRIDE+=	qtwebkit/Source/WebKit2/efl/ewebkit2.pc.in
@@ -31,6 +33,8 @@ REPLACE_PERL+=		configure qtbase/bin/syncqt
 
 .include "options.mk"
 
+.include "../../devel/pcre/buildlink3.mk"
+.include "../../devel/zlib/buildlink3.mk"
 .include "../../x11/libXrandr/buildlink3.mk"
 .include "../../x11/xcb-util-renderutil/buildlink3.mk"
 .include "../../x11/libXrender/buildlink3.mk"
