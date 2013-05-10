@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	httrack-3.46.1
+DISTNAME=	httrack-3.47.11
 CATEGORIES=	www
 MASTER_SITES=	http://download.httrack.com/cserv.php3?File=
 
