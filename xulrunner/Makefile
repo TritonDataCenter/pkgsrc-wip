@@ -9,6 +9,7 @@ HOMEPAGE=	http://developer.mozilla.org/en/docs/XULRunner
 COMMENT=	XML User Interface Language runtime environment
 LICENSE=	mpl-1.1
 
+#BROKEN=		'Just upto make patch done, PLEASE DO MORE, thanks.'
 MOZILLA_DIR=	# empty
 
 PKGCONFIG_OVERRIDE+=	xulrunner/installer/libxul-embedding.pc.in
