@@ -3,7 +3,7 @@
 
 DISTNAME=	WebOb-1.2b3
 PKGNAME=	${PYPKGPREFIX}-webob-1.2b3
-CATEGORIES=	www python
+CATEGORIES=	 www python
 MASTER_SITES=	http://pypi.python.org/packages/source/W/WebOb/
 EXTRACT_SUFX=	.zip
 
