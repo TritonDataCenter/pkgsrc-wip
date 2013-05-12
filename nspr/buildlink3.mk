@@ -7,7 +7,7 @@ NSPR_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.nspr+=	nspr>=4.9.3.2
 BUILDLINK_ABI_DEPENDS.nspr+=	nspr>=4.9.2beta1
-BUILDLINK_PKGSRCDIR.nspr?=	../../devel/nspr
+BUILDLINK_PKGSRCDIR.nspr?=	../../wip/nspr
 
 BUILDLINK_FILES.nspr+=          lib/nspr/*
 BUILDLINK_FILES.nspr+=          include/nspr/*
