@@ -3,7 +3,7 @@
 
 DISTNAME=	WebOb-1.2b3
 PKGNAME=	${PYPKGPREFIX}-webob-1.2b3
-CATEGORIES=	 www python
+CATEGORIES=	www python
 MASTER_SITES=	http://pypi.python.org/packages/source/W/WebOb/
 EXTRACT_SUFX=	.zip
 
@@ -15,7 +15,6 @@ LICENSE=	mit
 DEPENDS+=		${PYPKGPREFIX}-simplejson>=2.0.9:../../converters/py-simplejson
 
 USE_LANGUAGES=	# none
-
 
 .include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"

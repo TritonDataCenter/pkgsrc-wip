@@ -2,8 +2,8 @@
 
 BUILDLINK_TREE+=	py-gevent
 
-.if !defined(PY26_GEVENT_BUILDLINK3_MK)
-PY26_GEVENT_BUILDLINK3_MK:=
+.if !defined(PY_GEVENT_BUILDLINK3_MK)
+PY_GEVENT_BUILDLINK3_MK:=
 
 .include "../../lang/python/pyversion.mk"
 
@@ -12,6 +12,7 @@ BUILDLINK_PKGSRCDIR.py-gevent?=		../../wip/py-gevent
 
 .include "../../devel/py-cython/buildlink3.mk"
 .include "../../devel/libevent/buildlink3.mk"
-.endif	# PY26_GEVENT_BUILDLINK3_MK
+
+.endif	# PY_GEVENT_BUILDLINK3_MK
 
 BUILDLINK_TREE+=	-py-gevent
