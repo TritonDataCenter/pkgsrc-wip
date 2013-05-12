@@ -1,5 +1,8 @@
 $NetBSD$
 
+Date: Sun, 20 Sep 2009 06:44:36 +0000
+StackWalk.cpp uses dladdr, should include <dlfcn.h>
+
 --- xpcom/base/nsStackWalk.cpp.orig	2013-05-07 18:01:48.000000000 +0900
 +++ xpcom/base/nsStackWalk.cpp	2013-05-11 22:09:01.000000000 +0900
 @@ -23,7 +23,7 @@ struct CriticalAddress {
