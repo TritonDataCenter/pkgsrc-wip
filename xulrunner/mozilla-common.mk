@@ -122,7 +122,7 @@ BUILDLINK_API_DEPENDS.libevent+=	libevent>=1.1
 .include "../../devel/libevent/buildlink3.mk"
 .include "../../devel/libffi/buildlink3.mk"
 BUILDLINK_API_DEPENDS.nspr+=	nspr>=4.9.4
-.include "../../devel/nspr/buildlink3.mk"
+.include "../../wip/nspr/buildlink3.mk"
 BUILDLINK_API_DEPENDS.nss+=	nss>=3.14.1
 .include "../../devel/nss/buildlink3.mk"
 .include "../../devel/zlib/buildlink3.mk"
