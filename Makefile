@@ -1402,7 +1402,6 @@ SUBDIR+=	libisofs
 SUBDIR+=	libitl
 SUBDIR+=	libjdksmidi
 SUBDIR+=	libjingle
-SUBDIR+=	libkate
 SUBDIR+=	liblingoteach
 SUBDIR+=	liblo
 SUBDIR+=	liblognorm
