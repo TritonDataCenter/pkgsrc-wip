@@ -18,8 +18,9 @@ PYDISTUTILSPKG= yes
 do-test:
 	${RUN} cd ${WRKSRC}/greentest; ${SETENV} ${TEST_ENV} ${PYTHONBIN} testrunner.py
 
-.include "../../devel/py-cython/buildlink3.mk"
 BUILDLINK_API_DEPENDS.libevent+=libevent>=0.6
+
+.include "../../devel/py-cython/buildlink3.mk"
 .include "../../devel/libevent/buildlink3.mk"
-.include "../../lang/python/extension.mk"
+.include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"

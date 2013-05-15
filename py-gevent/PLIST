@@ -78,3 +78,8 @@ ${PYSITELIB}/gevent/win32util.pyo
 ${PYSITELIB}/gevent/wsgi.py
 ${PYSITELIB}/gevent/wsgi.pyc
 ${PYSITELIB}/gevent/wsgi.pyo
+${PYSITELIB}/${EGG_INFODIR}/PKG-INFO
+${PYSITELIB}/${EGG_INFODIR}/SOURCES.txt
+${PYSITELIB}/${EGG_INFODIR}/dependency_links.txt
+${PYSITELIB}/${EGG_INFODIR}/requires.txt
+${PYSITELIB}/${EGG_INFODIR}/top_level.txt

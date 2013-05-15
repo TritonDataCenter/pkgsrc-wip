@@ -7,7 +7,7 @@ COMMENT=	Decoding, encoding and streaming software
 
 GIT_REPOSITORIES=	master
 GIT_REPO.master=	git://source.ffmpeg.org/ffmpeg.git
-# GIT_MODULE.master=	emacs
+GIT_MODULE.master=	ffmpeg
 # _GIT_FLAGS?=		--depth 1
 WRKSRC=			${WRKDIR}/ffmpeg
 

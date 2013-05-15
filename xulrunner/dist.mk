@@ -1,21 +1,18 @@
-# $NetBSD: dist.mk,v 1.2 2009/11/23 14:16:22 tnn Exp $
+# $NetBSD: dist.mk,v 1.46 2013/04/13 12:44:36 ryoon Exp $
 #
-# used by wip/xulrunner/Makefile
-# used by wip/firefox/Makefile
+# used by devel/xulrunner/Makefile
+# used by www/firefox/Makefile
 
-DISTNAME=	firefox-${FIREFOX_VER}.source
+DISTNAME=	xulrunner-${FIREFOX_VER}.source
 FIREFOX_VER=	${MOZ_BRANCH}${MOZ_BRANCH_MINOR}
-MOZ_BRANCH=	5.0
-MOZ_BRANCH_MINOR=	# empty
-MASTER_SITES=	${MASTER_SITE_MOZILLA:=firefox/releases/${FIREFOX_VER}/source/}
+MOZ_BRANCH=	21.0
+MOZ_BRANCH_MINOR=
+#MASTER_SITES=	${MASTER_SITE_MOZILLA:=firefox/releases/${FIREFOX_VER}/source/} \
+#		${MASTER_SITE_MOZILLA_ALL:=firefox/releases/${FIREFOX_VER}/source/}
+MASTER_SITES=	http://ftp.mozilla.org/pub/mozilla.org/xulrunner/releases/${FIREFOX_VER}/source/
 EXTRACT_SUFX=	.tar.bz2
 
 DISTINFO_FILE=	${.CURDIR}/../../wip/xulrunner/distinfo
 PATCHDIR=	${.CURDIR}/../../wip/xulrunner/patches
 
 WRKSRC=		${WRKDIR}/mozilla-release
-
-# snapshot overrides
-#DISTNAME=	ea8b7e3f457b
-#MASTER_SITES=	http://hg.mozilla.org/mozilla-aurora/archive/
-#WRKSRC=		${WRKDIR}/mozilla-aurora-${DISTNAME}
