@@ -20,9 +20,7 @@ PKGCONFIG_OVERRIDE+=	ticables2.pc.in
 
 .include "options.mk"
 
-BUILDLINK_ABI_DEPENDS.libusb+=	libusb>=0.1.12
-.include "../../devel/libusb/buildlink3.mk"
-.include "../../devel/libusb1/buildlink3.mk"
+.include "../../devel/gettext-lib/buildlink3.mk"
 .include "../../devel/glib2/buildlink3.mk"
 .include "../../converters/libiconv/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
