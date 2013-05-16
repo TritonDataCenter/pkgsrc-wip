@@ -20,9 +20,9 @@ PKGCONFIG_OVERRIDE+=	ticalcs2.pc.in
 
 .include "options.mk"
 
+.include "../../devel/gettext-lib/buildlink3.mk"
 .include "../../wip/libtifiles2/buildlink3.mk"
 .include "../../wip/libticonv/buildlink3.mk"
 .include "../../wip/libticables2/buildlink3.mk"
 .include "../../devel/glib2/buildlink3.mk"
-.include "../../converters/libiconv/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
