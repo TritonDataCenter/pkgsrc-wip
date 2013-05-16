@@ -18,7 +18,6 @@ CONFIGURE_ARGS+=	--enable-libusb10
 .endif
 
 .if !empty(PKG_OPTIONS:Mnls)
-.include "../../devel/gettext-lib/buildlink3.mk"
 PLIST.nls=		yes
 .else
 CONFIGURE_ARGS+=	--disable-nls
