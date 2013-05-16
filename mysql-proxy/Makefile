@@ -18,7 +18,7 @@ MYSQL_VERSIONS_ACCEPTED=	56 55 51 50
 GNU_CONFIGURE=	yes
 USE_CMAKE=	yes
 USE_LIBTOOL=	yes
-USE_TOOLS+=	pkg-config
+USE_TOOLS+=	flex pkg-config
 
 PKGCONFIG_OVERRIDE+=	mysql-chassis.pc.in
 PKGCONFIG_OVERRIDE+=	mysql-proxy.pc.in
