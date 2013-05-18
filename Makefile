@@ -1782,6 +1782,7 @@ SUBDIR+=	objfw-git
 SUBDIR+=	obmenu
 SUBDIR+=	ocamlgraph
 SUBDIR+=	ocamlweb
+SUBDIR+=	oclock
 SUBDIR+=	octave
 SUBDIR+=	ode
 SUBDIR+=	ogmrip
