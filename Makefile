@@ -2849,6 +2849,7 @@ SUBDIR+=	rsget
 SUBDIR+=	rsound
 SUBDIR+=	rss-glib
 SUBDIR+=	rst-mode
+SUBDIR+=	rstart
 SUBDIR+=	rstudio
 SUBDIR+=	rsyslog5
 SUBDIR+=	rsyslog6
