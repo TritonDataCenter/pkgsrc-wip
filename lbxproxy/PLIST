@@ -1,0 +1,4 @@
+@comment $NetBSD$
+bin/lbxproxy
+man/man1/lbxproxy.1
+share/examples/lbxproxy/AtomControl
