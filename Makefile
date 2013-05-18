@@ -653,6 +653,7 @@ SUBDIR+=	flvstreamer
 SUBDIR+=	flyback
 SUBDIR+=	fnord
 SUBDIR+=	fnteditfs
+SUBDIR+=	font-bitstream-speedo
 SUBDIR+=	fontedit
 SUBDIR+=	fonttosfnt
 SUBDIR+=	fortunes-it
