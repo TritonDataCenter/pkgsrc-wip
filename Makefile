@@ -2244,6 +2244,7 @@ SUBDIR+=	protobuf-c
 SUBDIR+=	prover9
 SUBDIR+=	proxychains
 SUBDIR+=	proxyknife
+SUBDIR+=	proxymngr
 SUBDIR+=	prozilla
 SUBDIR+=	prpltwtr
 SUBDIR+=	prtunnel
