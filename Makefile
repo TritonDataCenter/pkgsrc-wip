@@ -1599,6 +1599,7 @@ SUBDIR+=	mixnet
 SUBDIR+=	mixxx
 #SUBDIR+=	mk 		# not a package
 SUBDIR+=	mkcabal
+SUBDIR+=	mkcomposecache
 SUBDIR+=	mkdep
 SUBDIR+=	mksend
 SUBDIR+=	mlmmj
