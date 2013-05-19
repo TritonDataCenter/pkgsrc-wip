@@ -3333,6 +3333,7 @@ SUBDIR+=	xf86-input-synaptics
 SUBDIR+=	xf86-video-geode
 SUBDIR+=	xf86-video-nouveau
 SUBDIR+=	xf86-video-nv-current
+SUBDIR+=	xf86dga
 SUBDIR+=	xf86rushproto
 SUBDIR+=	xfce4-appfinder
 SUBDIR+=	xfce4-desktop
