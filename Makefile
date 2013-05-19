@@ -3326,6 +3326,7 @@ SUBDIR+=	xdiskusage
 SUBDIR+=	xditview
 SUBDIR+=	xdotool
 SUBDIR+=	xebece
+SUBDIR+=	xedit
 SUBDIR+=	xerces-c-2.8.0
 SUBDIR+=	xesam-glib
 SUBDIR+=	xf86-input-synaptics
