@@ -3365,6 +3365,7 @@ SUBDIR+=	xfce4-wm
 SUBDIR+=	xfce4-wm-themes
 SUBDIR+=	xfce48
 SUBDIR+=	xfconf
+SUBDIR+=	xfindproxy
 SUBDIR+=	xfs
 SUBDIR+=	xgfe
 SUBDIR+=	xgobi
