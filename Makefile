@@ -3323,6 +3323,7 @@ SUBDIR+=	xcmsdb
 SUBDIR+=	xcursor-themes
 SUBDIR+=	xdbedizzy
 SUBDIR+=	xdiskusage
+SUBDIR+=	xditview
 SUBDIR+=	xdotool
 SUBDIR+=	xebece
 SUBDIR+=	xerces-c-2.8.0
