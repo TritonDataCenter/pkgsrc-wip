@@ -3367,6 +3367,7 @@ SUBDIR+=	xfce48
 SUBDIR+=	xfconf
 SUBDIR+=	xfindproxy
 SUBDIR+=	xfs
+SUBDIR+=	xfsinfo
 SUBDIR+=	xgfe
 SUBDIR+=	xgobi
 SUBDIR+=	xhkeys1
