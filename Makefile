@@ -3321,6 +3321,7 @@ SUBDIR+=	xchat2-tcl
 SUBDIR+=	xclipboard
 SUBDIR+=	xcmsdb
 SUBDIR+=	xcursor-themes
+SUBDIR+=	xdbedizzy
 SUBDIR+=	xdiskusage
 SUBDIR+=	xdotool
 SUBDIR+=	xebece
