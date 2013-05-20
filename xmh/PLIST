@@ -1,0 +1,4 @@
+@comment $NetBSD$
+bin/xmh
+lib/X11/app-defaults/Xmh
+man/man1/xmh.1
