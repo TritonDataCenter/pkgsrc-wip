@@ -3379,6 +3379,7 @@ SUBDIR+=	xlsatoms
 SUBDIR+=	xmail
 SUBDIR+=	xmakemol
 SUBDIR+=	xmds
+SUBDIR+=	xmh
 SUBDIR+=	xmim
 SUBDIR+=	xml-light
 SUBDIR+=	xmlformat-docs
