@@ -1,0 +1,4 @@
+@comment $NetBSD$
+include/X11/XprintAppUtil/xpapputil.h
+lib/libXprintAppUtil.la
+lib/pkgconfig/xprintapputil.pc
