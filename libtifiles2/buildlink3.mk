@@ -12,10 +12,7 @@ pkgbase := libtifiles2
 .include "../../mk/pkg-build-options.mk"
 
 
-.if !empty(PKG_BUILD_OPTIONS.libtifiles2:Mnls)
 .include "../../devel/gettext-lib/buildlink3.mk"
-.endif
-
 .include "../../devel/zlib/buildlink3.mk"
 .include "../../wip/libticonv/buildlink3.mk"
 .include "../../devel/glib2/buildlink3.mk"

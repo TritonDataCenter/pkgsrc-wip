@@ -20,6 +20,7 @@ PKGCONFIG_OVERRIDE+=	tifiles2.pc.in
 
 .include "options.mk"
 
+.include "../../devel/gettext-lib/buildlink3.mk"
 .include "../../devel/zlib/buildlink3.mk"
 .include "../../wip/libticonv/buildlink3.mk"
 .include "../../devel/glib2/buildlink3.mk"

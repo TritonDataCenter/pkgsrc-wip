@@ -15,7 +15,7 @@ NO_BUILD=		yes
 REPLACE_PERL=   	info2pod
 INSTALLATION_DIRS=	bin
 INFO2MAN_PM=		Pathname.pm Misc.pm Math.pm Sink.pm IO.pm GNUInfo.pm Source.pm Object.pm DEBUG.pm
-PKGNAME=		info2man-0.1
+PKGNAME=		info2man-0
 
 
 do-install:

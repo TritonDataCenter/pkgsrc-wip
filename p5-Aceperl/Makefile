@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		AcePerl-1.86
+DISTNAME=		AcePerl-1.92
 PKGNAME=		p5-${DISTNAME}
 CATEGORIES=		databases
 MASTER_SITES=		http://www.cpan.org/authors/id/L/LD/LDS/

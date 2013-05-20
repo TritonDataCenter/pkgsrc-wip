@@ -23,9 +23,12 @@ USE_TOOLS+=		gmake intltool msgfmt msgmerge pkg-config xgettext
 .include "../../devel/zlib/buildlink3.mk"
 .include "../../devel/libglade/buildlink3.mk"
 .include "../../x11/gtk2/buildlink3.mk"
-BUILD_DEPENDS+=	libtifiles2-[0-9]*:../../wip/libtifiles2
-BUILD_DEPENDS+=	libticonv-[0-9]*:../../wip/libticonv
-BUILD_DEPENDS+=	glib2-[0-9]*:../../devel/glib2
+BUILDLINK_DEPMETHOD.libtifiles2=	build
+.include "../../wip/libtifiles2/buildlink3.mk"
+BUILDLINK_DEPMETHOD.libticonv=	build
+.include "../../wip/libticonv/buildlink3.mk"
+BUILDLINK_DEPMETHOD.glib2=	build
+.include "../../devel/glib2/buildlink3.mk"
 .include "../../wip/libticalcs2/buildlink3.mk"
 .include "../../wip/libticables2/buildlink3.mk"
 .include "../../converters/libiconv/buildlink3.mk"

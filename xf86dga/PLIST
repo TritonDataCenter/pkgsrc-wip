@@ -1,0 +1,3 @@
+@comment $NetBSD$
+bin/dga
+man/man1/dga.1

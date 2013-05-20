@@ -1,0 +1,7 @@
+@comment $NetBSD$
+bin/xditview
+include/X11/bitmaps/ldblarrow
+include/X11/bitmaps/rdblarrow
+lib/X11/app-defaults/Xditview
+lib/X11/app-defaults/Xditview-chrtr
+man/man1/xditview.1
