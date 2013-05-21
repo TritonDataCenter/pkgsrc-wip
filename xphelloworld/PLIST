@@ -1,0 +1,7 @@
+@comment $NetBSD$
+bin/xphelloworld
+bin/xpsimplehelloworld
+bin/xpxthelloworld
+man/man1/xphelloworld.1
+man/man1/xpsimplehelloworld.1
+man/man1/xpxthelloworld.1

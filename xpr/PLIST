@@ -1,0 +1,5 @@
+@comment $NetBSD$
+bin/xdpr
+bin/xpr
+man/man1/xdpr.1
+man/man1/xpr.1
