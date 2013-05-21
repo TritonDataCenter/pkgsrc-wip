@@ -3423,6 +3423,7 @@ SUBDIR+=	xplore
 SUBDIR+=	xpr
 SUBDIR+=	xrdp
 SUBDIR+=	xrootconsole
+SUBDIR+=	xrx
 SUBDIR+=	xspd
 SUBDIR+=	xspdapp
 SUBDIR+=	xspread
