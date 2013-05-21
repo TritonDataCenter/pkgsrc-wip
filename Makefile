@@ -942,6 +942,7 @@ SUBDIR+=	hs-attempt
 SUBDIR+=	hs-attoparsec
 SUBDIR+=	hs-base-unicode-symbols
 SUBDIR+=	hs-base64-bytestring
+SUBDIR+=	hs-bifunctors
 SUBDIR+=	hs-binary-strict
 SUBDIR+=	hs-bindings-DSL
 SUBDIR+=	hs-bindings-EsounD
