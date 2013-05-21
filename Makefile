@@ -1040,6 +1040,7 @@ SUBDIR+=	hs-iconv
 SUBDIR+=	hs-io-storage
 SUBDIR+=	hs-irc
 SUBDIR+=	hs-largeword
+SUBDIR+=	hs-lazy-io
 SUBDIR+=	hs-magic
 SUBDIR+=	hs-markov-chain
 SUBDIR+=	hs-midi
