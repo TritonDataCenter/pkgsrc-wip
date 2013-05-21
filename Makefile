@@ -3414,6 +3414,7 @@ SUBDIR+=	xmonad-contrib
 SUBDIR+=	xmoto
 SUBDIR+=	xombrero
 SUBDIR+=	xoo
+SUBDIR+=	xphelloworld
 SUBDIR+=	xpde
 SUBDIR+=	xpdq
 SUBDIR+=	xpi-quick_locale_switcher
