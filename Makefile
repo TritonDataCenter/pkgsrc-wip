@@ -3420,6 +3420,7 @@ SUBDIR+=	xpdq
 SUBDIR+=	xpi-quick_locale_switcher
 SUBDIR+=	xpilot-ng
 SUBDIR+=	xplore
+SUBDIR+=	xpr
 SUBDIR+=	xrdp
 SUBDIR+=	xrootconsole
 SUBDIR+=	xspd
