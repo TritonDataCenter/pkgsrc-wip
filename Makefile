@@ -3431,6 +3431,7 @@ SUBDIR+=	xstdcmap
 SUBDIR+=	xtags
 SUBDIR+=	xtrace
 SUBDIR+=	xtraceroute
+SUBDIR+=	xtrap
 SUBDIR+=	xtreemfs-client
 SUBDIR+=	xtreemfs-server
 SUBDIR+=	xtrlock
