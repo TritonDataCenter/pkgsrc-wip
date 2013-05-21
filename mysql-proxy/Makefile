@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	mysql-proxy-0.8.3
-PKGNAME=	${DISTNAME:S/mysql/mysql${_MYSQL_VERSION:S/50/5/}/}
+PKGNAME=	${DISTNAME:S/mysql/mysql${_MYSQL_VERSION:S/50/5/}${MYSQL_VERSION:S/50/5/}/}
 CATEGORIES=	databases
 MASTER_SITES=	${MASTER_SITE_MYSQL:=MySQL-Proxy/}
 
