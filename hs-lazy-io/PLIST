@@ -1,0 +1,7 @@
+@comment $NetBSD$
+lib/lazy-io-${PKGVERSION}/${HASKELL_VERSION}/Control/Monad/LazyIO.hi
+lib/lazy-io-${PKGVERSION}/${HASKELL_VERSION}/Control/Monad/LazyIO.p_hi
+lib/lazy-io-${PKGVERSION}/${HASKELL_VERSION}/HSlazy-io-${PKGVERSION}.o
+lib/lazy-io-${PKGVERSION}/${HASKELL_VERSION}/libHSlazy-io-${PKGVERSION}.a
+lib/lazy-io-${PKGVERSION}/${HASKELL_VERSION}/libHSlazy-io-${PKGVERSION}_p.a
+lib/lazy-io-${PKGVERSION}/${HASKELL_VERSION}/package-description
