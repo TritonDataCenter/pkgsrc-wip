@@ -353,7 +353,6 @@ SUBDIR+=	crabemu
 SUBDIR+=	crawl-stone-soup
 SUBDIR+=	creal
 SUBDIR+=	cream
-SUBDIR+=	crfpp
 SUBDIR+=	crm114
 SUBDIR+=	crossroads-io
 SUBDIR+=	crrcsim
