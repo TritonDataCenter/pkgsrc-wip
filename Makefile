@@ -346,6 +346,7 @@ SUBDIR+=	cops
 SUBDIR+=	copytape
 SUBDIR+=	couchdb-glib
 SUBDIR+=	courierpassd
+SUBDIR+=	cowpatty
 SUBDIR+=	coxeter
 SUBDIR+=	cpdup
 SUBDIR+=	cpm
