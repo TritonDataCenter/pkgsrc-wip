@@ -2595,6 +2595,7 @@ SUBDIR+=	py-pyphant
 SUBDIR+=	py-pypol
 SUBDIR+=	py-pyqu
 SUBDIR+=	py-pyquante
+SUBDIR+=	py-pyrit
 SUBDIR+=	py-pysal
 SUBDIR+=	py-pysb
 SUBDIR+=	py-pyslha
