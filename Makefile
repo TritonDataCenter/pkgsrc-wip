@@ -3439,7 +3439,6 @@ SUBDIR+=	xtrap
 SUBDIR+=	xtreemfs-client
 SUBDIR+=	xtreemfs-server
 SUBDIR+=	xtrlock
-SUBDIR+=	xulrunner
 SUBDIR+=	xvmware
 SUBDIR+=	xwelltris
 SUBDIR+=	xwindiff
