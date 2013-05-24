@@ -906,6 +906,7 @@ SUBDIR+=	hitori
 SUBDIR+=	hlint
 SUBDIR+=	homebank
 SUBDIR+=	hpoj
+SUBDIR+=	hs-Boolean
 SUBDIR+=	hs-ConfigFile
 SUBDIR+=	hs-Diff
 SUBDIR+=	hs-GLURaw
