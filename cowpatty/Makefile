@@ -13,7 +13,6 @@ COMMENT=	Designed to audit the security of PSKs selected in WPA networks
 LICENSE=	gnu-gpl-v2
 
 NO_CONFIGURE=	yes
-USE_TOOLS+=	pkg-config
 INSTALL_ENV+=	PREFIX=${PREFIX}
 
 .include "../../security/openssl/buildlink3.mk"
