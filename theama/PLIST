@@ -1,0 +1,5 @@
+@comment $NetBSD$
+bin/theama
+man/man6/theama.6
+share/theama/phrases/english.txt
+share/theama/phrases/italian.txt
