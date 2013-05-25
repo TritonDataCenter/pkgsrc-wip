@@ -350,6 +350,7 @@ SUBDIR+=	cowpatty
 SUBDIR+=	coxeter
 SUBDIR+=	cpdup
 SUBDIR+=	cpm
+SUBDIR+=	cpqarrayd
 SUBDIR+=	crabemu
 SUBDIR+=	crawl-stone-soup
 SUBDIR+=	creal
