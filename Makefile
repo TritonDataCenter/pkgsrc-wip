@@ -1818,7 +1818,6 @@ SUBDIR+=	openbsc
 SUBDIR+=	openbsd-input-usbtablet
 SUBDIR+=	openca
 SUBDIR+=	opencascade
-SUBDIR+=	opencobol
 SUBDIR+=	openconnect
 SUBDIR+=	opendchub
 SUBDIR+=	opendesktop-fonts
