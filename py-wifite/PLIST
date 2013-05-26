@@ -1,0 +1,4 @@
+@comment $NetBSD$
+bin/wifite.py
+share/doc/${PYVERPREFIX}-wifite/HELP.txt
+share/doc/${PYVERPREFIX}-wifite/README.txt
