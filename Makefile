@@ -2753,6 +2753,7 @@ SUBDIR+=	py-webhelpers
 SUBDIR+=	py-webkit
 SUBDIR+=	py-webob
 SUBDIR+=	py-whisper
+SUBDIR+=	py-wifite
 SUBDIR+=	py-willow
 SUBDIR+=	py-workerpool
 SUBDIR+=	py-wsgi-intercept
