@@ -727,7 +727,6 @@ SUBDIR+=	get_iplayer
 SUBDIR+=	gf2x
 SUBDIR+=	gfa
 SUBDIR+=	gfan
-SUBDIR+=	gfm
 SUBDIR+=	gfontview
 SUBDIR+=	gforge
 SUBDIR+=	gforth
