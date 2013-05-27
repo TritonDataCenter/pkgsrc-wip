@@ -32,7 +32,7 @@ USE_TOOLS+=		gmake
 INSTALL_UNSTRIPPED=	yes	# don't strip AXIOMsys, it breaks FFI
 .endif
 
-.if 0 # disable Subversion temporarily
+.if 1 # extract from Subversion
 .if !empty(PKG_OPTIONS:Mx11)
 post-build:
 # This should start Xvfb temporarily (1024x768x24 resolution recommended):
