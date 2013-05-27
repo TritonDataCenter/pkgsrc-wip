@@ -3,6 +3,7 @@
 
 DISTNAME=	pgpool-II-3.2.4
 PKGNAME=	postgresql${PGSQL_VERSION}-pgpool2-${DISTNAME:S/pgpool-II-//}
+PKGREVISION=	1
 CATEGORIES=	databases
 MASTER_SITES=	http://www.pgpool.net/mediawiki/images/
 
@@ -11,15 +12,20 @@ HOMEPAGE=	http://www.pgpool.net/mediawiki/
 COMMENT=	Middleware between PostgreSQL servers and a PostgreSQL database client
 LICENSE=	modified-bsd
 
+DEPENDS+=	postgresql${PGSQL_VERSION}-server>=0:../../databases/postgresql${PGSQL_VERSION}-server
+
 PKG_DESTDIR_SUPPORT=	user-destdir
 
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
+USE_TOOLS+=	gmake
 
 .include "options.mk"
 .include "../../mk/bsd.fast.prefs.mk"
 
 BUILD_DEFS+=		PGPOOL_USER PGPOOL_GROUP PGGROUP PGHOME VARBASE
+
+BUILD_DIRS=		. sql
 
 EGDIR=			share/examples/pgpool2
 
