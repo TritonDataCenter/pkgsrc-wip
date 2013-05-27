@@ -4,7 +4,7 @@
 DISTNAME=	pgpool-II-3.2.4
 PKGNAME=	postgresql${PGSQL_VERSION}-pgpool2-${DISTNAME:S/pgpool-II-//}
 CATEGORIES=	databases
-MASTER_SITES=	http://www.pgpool.net/mediawiki/download.php?f=
+MASTER_SITES=	http://www.pgpool.net/mediawiki/images/
 
 MAINTAINER=	filip@joyent.com
 HOMEPAGE=	http://www.pgpool.net/mediawiki/
