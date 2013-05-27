@@ -7,6 +7,8 @@ lib/semigroupoids-${PKGVERSION}/${HASKELL_VERSION}/Data/Functor/Bind.hi
 lib/semigroupoids-${PKGVERSION}/${HASKELL_VERSION}/Data/Functor/Bind.p_hi
 lib/semigroupoids-${PKGVERSION}/${HASKELL_VERSION}/Data/Functor/Bind/Trans.hi
 lib/semigroupoids-${PKGVERSION}/${HASKELL_VERSION}/Data/Functor/Bind/Trans.p_hi
+lib/semigroupoids-${PKGVERSION}/${HASKELL_VERSION}/Data/Functor/Extend.hi
+lib/semigroupoids-${PKGVERSION}/${HASKELL_VERSION}/Data/Functor/Extend.p_hi
 lib/semigroupoids-${PKGVERSION}/${HASKELL_VERSION}/Data/Functor/Plus.hi
 lib/semigroupoids-${PKGVERSION}/${HASKELL_VERSION}/Data/Functor/Plus.p_hi
 lib/semigroupoids-${PKGVERSION}/${HASKELL_VERSION}/Data/Semigroup/Foldable.hi

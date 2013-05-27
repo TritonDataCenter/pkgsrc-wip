@@ -1,0 +1,12 @@
+# $NetBSD$
+
+BUILDLINK_TREE+=	info2man
+
+.if !defined(INFO2MAN_BUILDLINK3_MK)
+INFO2MAN_BUILDLINK3_MK:=
+
+BUILDLINK_API_DEPENDS.info2man+=	info2man>=20001101
+BUILDLINK_PKGSRCDIR.info2man?=	../../wip/info2man
+.endif	# INFO2MAN_BUILDLINK3_MK
+
+BUILDLINK_TREE+=	-info2man

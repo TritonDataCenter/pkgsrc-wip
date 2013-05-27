@@ -12,6 +12,7 @@ share/zookeeper/contrib/fatjar/zookeeper-${PKGVERSION}-fatjar.jar
 share/zookeeper/contrib/loggraph/zookeeper-${PKGVERSION}-loggraph.jar
 share/zookeeper/contrib/rest/zookeeper-${PKGVERSION}-rest.jar
 share/zookeeper/jdiff/zookeeper_3.1.1.xml
+share/zookeeper/jdiff/zookeeper_3.4.4.xml
 share/zookeeper/jdiff/zookeeper_${PKGVERSION}.xml
 share/zookeeper/jline-0.9.94.LICENSE.txt
 share/zookeeper/jline-0.9.94.jar
