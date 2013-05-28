@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	libcerror-alpha-20121222
+DISTNAME=	libcerror-alpha-20130411
 PKGNAME=	${DISTNAME:S/-alpha//1}
 CATEGORIES=	devel
 MASTER_SITES=	http://libcerror.googlecode.com/files/
@@ -11,7 +11,7 @@ HOMEPAGE=	https://code.google.com/p/libcerror/
 COMMENT=	Library for cross-platform C error functions
 LICENSE=	gnu-lgpl-v3
 
-WRKSRC=		${WRKDIR}/libcerror-20121222
+WRKSRC=		${WRKDIR}/libcerror-20130411
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_TOOLS+=	msgfmt msgmerge pkg-config xgettext
