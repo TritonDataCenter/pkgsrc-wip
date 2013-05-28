@@ -3377,7 +3377,6 @@ SUBDIR+=	xhkeys1
 SUBDIR+=	xine-plugin
 SUBDIR+=	xinetd
 SUBDIR+=	xiphos
-SUBDIR+=	xlsatoms
 SUBDIR+=	xmail
 SUBDIR+=	xmakemol
 SUBDIR+=	xmds
