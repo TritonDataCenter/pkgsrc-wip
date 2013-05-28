@@ -3371,7 +3371,6 @@ SUBDIR+=	xfindproxy
 SUBDIR+=	xfs
 SUBDIR+=	xfsinfo
 SUBDIR+=	xfwp
-SUBDIR+=	xgc
 SUBDIR+=	xgfe
 SUBDIR+=	xgobi
 SUBDIR+=	xhkeys1
