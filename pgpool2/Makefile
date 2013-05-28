@@ -29,6 +29,8 @@ BUILD_DIRS=		. sql
 
 EGDIR=			share/examples/pgpool2
 
+SMF_VAR=		postgresql-pgpool2
+
 PGPOOL_USER?=		pgpool
 PGPOOL_GROUP?=		${PGGROUP}
 PGGROUP?=		pgsql
