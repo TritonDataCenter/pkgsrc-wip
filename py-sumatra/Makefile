@@ -1,6 +1,6 @@
 # $NetBSD$
 
-VER=		0.4.0
+VER=		0.5.2
 DISTNAME=	Sumatra-${VER}.tar
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME:S/S/s/S/.tar//}
 PKGREVISION=	1
