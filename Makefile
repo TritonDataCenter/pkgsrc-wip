@@ -1362,6 +1362,7 @@ SUBDIR+=	libcmt
 SUBDIR+=	libcnotify
 SUBDIR+=	libcouchbase
 SUBDIR+=	libcpu
+SUBDIR+=	libcsplit
 SUBDIR+=	libcuba
 SUBDIR+=	libdbglog
 SUBDIR+=	libdbusmenu
