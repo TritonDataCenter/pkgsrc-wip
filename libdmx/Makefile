@@ -1,7 +1,6 @@
 # $NetBSD$
-#
 
-DISTNAME=	libdmx-1.1.2
+DISTNAME=	libdmx-1.1.3
 CATEGORIES=	x11
 MASTER_SITES=	${MASTER_SITE_XORG:=lib/}
 EXTRACT_SUFX=	.tar.bz2
