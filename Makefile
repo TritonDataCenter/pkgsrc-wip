@@ -1355,6 +1355,7 @@ SUBDIR+=	libcaca
 SUBDIR+=	libcerror
 SUBDIR+=	libcgi
 SUBDIR+=	libcli
+SUBDIR+=	libclocale
 SUBDIR+=	libcm
 SUBDIR+=	libcmis
 SUBDIR+=	libcmt
