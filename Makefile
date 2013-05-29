@@ -1353,6 +1353,7 @@ SUBDIR+=	libbtctl
 SUBDIR+=	libburn
 SUBDIR+=	libcaca
 SUBDIR+=	libcerror
+SUBDIR+=	libcnotify
 SUBDIR+=	libcgi
 SUBDIR+=	libcli
 SUBDIR+=	libclocale
