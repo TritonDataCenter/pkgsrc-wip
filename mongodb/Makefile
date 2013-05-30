@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	mongodb-src-r2.2.2
+DISTNAME=	mongodb-src-r2.4.3
 PKGNAME=	${DISTNAME:S/src-r//}
 CATEGORIES=	databases
 MASTER_SITES=	http://downloads.mongodb.org/src/
@@ -26,6 +26,14 @@ SCONS_ARGS+=	--use-system-snappy=USE-SYSTEM-SNAPPY
 
 SCONS_ARGS+=	--cc=${WRAPPER_BINDIR}/${CC}
 SCONS_ARGS+=	--cxx=${WRAPPER_BINDIR}/${CXX}
+
+.include "../../mk/bsd.fast.prefs.mk"
+
+.if ${MACHINE_ARCH} == "x86_64"
+SCONS_ARGS+=	--64
+.else
+SCONS_ARGS+=	--32
+.endif
 
 .include "options.mk"
 
