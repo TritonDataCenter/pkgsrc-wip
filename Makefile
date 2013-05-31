@@ -3279,7 +3279,6 @@ SUBDIR+=	which
 SUBDIR+=	why
 SUBDIR+=	wicd
 SUBDIR+=	wimon-devel
-SUBDIR+=	windowmaker
 SUBDIR+=	wine
 SUBDIR+=	wings
 SUBDIR+=	winwrangler
