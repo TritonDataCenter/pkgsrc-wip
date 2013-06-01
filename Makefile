@@ -1507,7 +1507,6 @@ SUBDIR+=	llvm
 SUBDIR+=	lmdbg-current
 SUBDIR+=	lmfit
 SUBDIR+=	lmtp2nntp
-SUBDIR+=	lockf
 SUBDIR+=	logfmon-devel
 SUBDIR+=	lorder
 SUBDIR+=	lpdsrv
