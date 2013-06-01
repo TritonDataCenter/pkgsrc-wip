@@ -2085,7 +2085,6 @@ SUBDIR+=	pan2-git
 SUBDIR+=	panda
 SUBDIR+=	pandoc
 SUBDIR+=	paperbox
-SUBDIR+=	paperkey
 SUBDIR+=	paraview
 SUBDIR+=	parcellite
 SUBDIR+=	parted
