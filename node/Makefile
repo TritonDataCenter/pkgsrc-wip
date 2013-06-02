@@ -54,7 +54,7 @@ REPLACE_PYTHON+=	tools/wafadmin/Tools/*.py
 . include "../../devel/libexecinfo/buildlink3.mk"
 .endif
 .if ${OPSYS} == "NetBSD"
-BUILD_DEPENDS+=	lockf-[0-9]*:../../wip/lockf
+BUILD_DEPENDS+=	lockf-[0-9]*:../../sysutils/lockf
 .endif
 .include "../../lang/python/application.mk"
 .include "../../mk/bsd.pkg.mk"
