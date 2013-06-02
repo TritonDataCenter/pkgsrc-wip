@@ -1,0 +1,7 @@
+@comment $NetBSD$
+bin/safekeep
+man/man1/safekeep.1
+man/man5/safekeep.backup.5
+man/man5/safekeep.conf.5
+share/examples/safekeep/cron.daily/safekeep
+share/examples/safekeep/safekeep/safekeep.conf
