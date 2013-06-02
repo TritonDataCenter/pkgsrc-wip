@@ -2884,6 +2884,7 @@ SUBDIR+=	runit
 SUBDIR+=	rygel
 SUBDIR+=	s3cmd
 SUBDIR+=	s3funnel
+SUBDIR+=	safekeep
 SUBDIR+=	samba
 SUBDIR+=	samhain
 SUBDIR+=	sandy
