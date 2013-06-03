@@ -3100,6 +3100,7 @@ SUBDIR+=	tcl86
 SUBDIR+=	tcmplex-panteltje
 SUBDIR+=	tcpspy
 SUBDIR+=	tcptrack
+SUBDIR+=	tcptunnel
 SUBDIR+=	tcpxtract
 SUBDIR+=	tctool
 SUBDIR+=	tde
