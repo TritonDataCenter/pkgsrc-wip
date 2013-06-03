@@ -1,7 +1,6 @@
 $NetBSD$
 
-See https://jira.mongodb.org/browse/SERVER-9753
-
+Fix as per https://jira.mongodb.org/browse/SERVER-9753
 --- src/mongo/shell/shell_utils_launcher.h.orig	2013-04-22 14:48:39.000000000 +0000
 +++ src/mongo/shell/shell_utils_launcher.h	2013-05-30 12:43:17.108737513 +0000
 @@ -73,7 +73,7 @@ namespace mongo {

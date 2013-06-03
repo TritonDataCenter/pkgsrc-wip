@@ -1,5 +1,6 @@
 $NetBSD$
 
+Avoid ambiguous overload.
 --- src/third_party/s2/s2.cc.orig	2013-04-23 12:55:09.000000000 +0000
 +++ src/third_party/s2/s2.cc
 @@ -699,8 +699,8 @@ S2::LengthMetric const S2::kAvgAngleSpan
