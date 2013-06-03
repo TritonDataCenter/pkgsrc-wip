@@ -17,8 +17,6 @@ BUILD_DEPENDS+=	scons-[0-9]*:../../devel/scons
 
 SCONS_BIN=	${PREFIX}/bin/scons
 SCONS_ARGS=	${_MAKE_JOBS}
-# Does not build with lang/spidermonkey yet
-# SCONS_ARGS+=	--use-system-all=USE-SYSTEM-ALL
 SCONS_ARGS+=	--use-system-tcmalloc=USE-SYSTEM-TCMALLOC
 SCONS_ARGS+=	--use-system-pcre=USE-SYSTEM-PCRE
 SCONS_ARGS+=	--use-system-boost=USE-SYSTEM-BOOST
@@ -116,7 +114,5 @@ post-install:
 .include "../../devel/boost-python/buildlink3.mk"
 .include "../../devel/pcre/buildlink3.mk"
 .include "../../devel/snappy/buildlink3.mk"
-# Disabling until this can be made to work
-# .include "../../lang/spidermonkey/buildlink3.mk"
 .include "../../net/libpcap/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
