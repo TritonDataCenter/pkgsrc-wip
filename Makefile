@@ -3345,6 +3345,7 @@ SUBDIR+=	xf86-input-synaptics
 SUBDIR+=	xf86-video-dummy
 SUBDIR+=	xf86-video-geode
 SUBDIR+=	xf86-video-intel-old
+SUBDIR+=	xf86-video-modesetting
 SUBDIR+=	xf86-video-nouveau
 SUBDIR+=	xf86-video-nv-current
 SUBDIR+=	xf86dga
