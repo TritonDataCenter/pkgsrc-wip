@@ -1,9 +1,11 @@
 $NetBSD$
 
-Make sure we stay compatible with Boost 1.50.x
---- src/mongo/util/time_support.h.orig	2012-08-28 05:28:11.000000000 +0000
-+++ src/mongo/util/time_support.h
-@@ -86,10 +86,6 @@ namespace mongo {
+This file gets included at two places, and the condition only works
+properly the first time.
+
+--- src/mongo/util/time_support.h.orig	2013-04-22 14:48:39.000000000 +0000
++++ src/mongo/util/time_support.h	2013-05-30 14:18:35.026376057 +0000
+@@ -96,10 +96,6 @@ namespace mongo {
      struct tm *gmtime(const time_t *timep);
      struct tm *localtime(const time_t *timep);
  
