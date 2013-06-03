@@ -27,6 +27,10 @@ SCONS_ARGS+=	--cxx=${WRAPPER_BINDIR}/${CXX}
 
 .include "../../mk/bsd.fast.prefs.mk"
 
+.if defined(MAKE_JOBS)
+MAKE_JOBS=	2
+.endif
+
 .if ${MACHINE_ARCH} == "x86_64"
 SCONS_ARGS+=	--64
 .else
