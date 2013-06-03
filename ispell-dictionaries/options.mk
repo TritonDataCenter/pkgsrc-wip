@@ -17,7 +17,7 @@ DEPENDS+=	ispell-de>=20081106:../../textproc/ispell-de
 .endif
 
 .if !empty(PKG_OPTIONS:Mlang-en-gb)
-DEPENDS+=	ispell-en_GB>=3.3.02:../../textproc/ispell-en_GB
+DEPENDS+=	ispell-british>=3.3.02:../../textproc/ispell-en_GB
 .endif
 
 .if !empty(PKG_OPTIONS:Mlang-es)

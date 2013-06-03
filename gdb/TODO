@@ -13,3 +13,105 @@ DONE
   and make test passes more than 95 % of testcases.
 - NetBSD/i386: 6.0 OK Tested with gcc 4.7 and make test passes 90 %
   of the testcases.
+- DragonFly 3.4.2/i386 make test results (for now)
+   -----
+   tail -12  work/gdb-7.5.1/gdb/testsuite/gdb.sum
+                   === gdb Summary ===
+   
+   # of expected passes            4962
+   # of unexpected failures        3053
+   # of expected failures          35
+   # of known failures             20
+   # of untested testcases         174
+   # of unresolved testcases       203
+   # of unsupported tests          149
+
+- DragonFly 3.4.2/i386 make test results (with 7.6)
+   -----
+   tail -12  work/gdb-7.6/gdb/testsuite/gdb.sum
+                === gdb Summary ===
+
+   # of expected passes            4769
+   # of unexpected failures        2826
+   # of expected failures          23
+   # of known failures             13
+   # of untested testcases         189
+   # of unresolved testcases       165
+   # of unsupported tests          161
+
+- NetBSD/macppc 6.1_RC2 make test results (with 7.5.1)
+   -----
+   tail -12  work/gdb-7.5.1/gdb/testsuite/gdb.sum
+                 === gdb Summary ===
+   # of expected passes            12234
+   # of unexpected failures        297
+   # of unexpected successes       2
+   # of expected failures          38
+   # of known failures             37
+   # of untested testcases         173
+   # of unresolved testcases       6
+   # of unsupported tests          154
+
+- NetBSD/amd64 6.1_RC2 make test results (with 7.5.1)
+   -----
+                   === gdb Summary ===
+   # of expected passes            12515
+   # of unexpected failures        395
+   # of unexpected successes       2
+   # of expected failures          40
+   # of known failures             52
+   # of untested testcases         172
+   # of unresolved testcases       6
+   # of unsupported tests          156
+
+- NetBSD/amd64 6.1 make test results (with 7.5.1)
+   -----
+ (but without patch-gdb_bsd-kvm.c)
+              === gdb Summary ===
+
+   # of expected passes            12515
+   # of unexpected failures        412
+   # of unexpected successes       2
+   # of expected failures          40
+   # of known failures             52
+   # of untested testcases         173
+   # of unresolved testcases       7
+   # of unsupported tests          153
+
+- NetBSD/amd64 6.1 make test results (with 7.5.1)
+   -----
+ (with patch-gdb_bsd-kvm.c)
+                === gdb Summary ===
+   # of expected passes            12520
+   # of unexpected failures        414
+   # of unexpected successes       2
+   # of expected failures          40
+   # of known failures             52
+   # of untested testcases         173
+   # of unresolved testcases       7
+   # of unsupported tests          153
+
+- NetBSD/amd64 6.1 make test results (with 7.5.1)
+   -----
+ (with new (5.2 adaptation) patch-gdb_bsd-kvm.c)
+              === gdb Summary ===
+   # of expected passes            12525
+   # of unexpected failures        413
+   # of unexpected successes       2
+   # of expected failures          40
+   # of known failures             52
+   # of untested testcases         173
+   # of unresolved testcases       6
+   # of unsupported tests          153
+
+- NetBSD/i386 5.2 make test results (with 7.5.1)
+   -----
+ (with new (5.2 adaptation) patch-gdb_bsd-kvm.c)
+                === gdb Summary ===
+   # of expected passes            11310
+   # of unexpected failures        1183
+   # of expected failures          40
+   # of known failures             47
+   # of untested testcases         176
+   # of unresolved testcases       7
+   # of unsupported tests          159

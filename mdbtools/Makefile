@@ -11,6 +11,7 @@ HOMEPAGE=		http://mdbtools.sourceforge.net/
 COMMENT=		Microsoft Access Database management tools
 LICENSE=		gnu-lgpl-v2 AND gnu-gpl-v2
 
+MAKE_JOBS_SAFE=		NO
 USE_TOOLS+=		gmake
 GNU_CONFIGURE=		YES
 USE_LIBTOOL=		yes

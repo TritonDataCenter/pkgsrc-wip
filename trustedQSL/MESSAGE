@@ -10,4 +10,7 @@ tqsl, aka tQSL or tqslapp, about signing up for QSL:
 
 tqslcert, aka tQSLCert, for manipulating certificates:
   ${PREFIX}/share/TrustedQSL/help/tqslcert/main.htm
+
+Starting with 1.14, command line processing is available.
+  tqsl -h or tqsl --help   will show the help message.
 ===========================================================================

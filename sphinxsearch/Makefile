@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	sphinx-2.0.6-release
+DISTNAME=	sphinx-2.0.8-release
 PKGNAME=	${DISTNAME:S/-/search-/:S/-release//}
 CATEGORIES=	databases textproc
 MASTER_SITES=	http://www.sphinxsearch.com/files/

@@ -5,7 +5,8 @@ BUILDLINK_TREE+=	MesaLib
 .if !defined(MESALIB_BUILDLINK3_MK)
 MESALIB_BUILDLINK3_MK:=
 
-#BUILDLINK_API_DEPENDS.MesaLib+=	MesaLib>=7.7
+BUILDLINK_API_DEPENDS.MesaLib+=	MesaLib>=3.4.2
+BUILDLINK_ABI_DEPENDS.MesaLib+=	MesaLib>=7.7
 BUILDLINK_PKGSRCDIR.MesaLib?=	../../wip/MesaLib
 
 .include "../../wip/dri/buildlink3.mk"
