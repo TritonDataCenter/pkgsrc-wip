@@ -3000,7 +3000,6 @@ SUBDIR+=	spectrum
 SUBDIR+=	speedx
 SUBDIR+=	spfmilter
 SUBDIR+=	sphinxsearch
-SUBDIR+=	spice-protocol
 SUBDIR+=	spidermonkey185
 SUBDIR+=	splix
 SUBDIR+=	spyder
