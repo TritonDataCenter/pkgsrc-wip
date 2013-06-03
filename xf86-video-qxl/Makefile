@@ -17,7 +17,7 @@ USE_TOOLS+=	pkg-config
 .include "options.mk"
 
 .include "../../sysutils/libpciaccess/buildlink3.mk"
-.include "../../wip/spice-protocol/buildlink3.mk"
+.include "../../sysutils/spice-protocol/buildlink3.mk"
 .include "../../x11/xf86dgaproto/buildlink3.mk"
 .include "../../x11/fontsproto/buildlink3.mk"
 .include "../../x11/xproto/buildlink3.mk"
