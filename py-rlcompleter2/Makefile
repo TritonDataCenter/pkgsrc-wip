@@ -12,9 +12,10 @@ HOMEPAGE=	http://codespeak.net/rlcompleter2/index.cgi?home
 COMMENT=	Python command line completion
 LICENSE=	mit
 
+DEPENDS+=	${PYPKGPREFIX}-readline>=0nb2:../../devel/py-readline
+
 USE_LANGUAGES=	# none
 PYDISTUTILSPKG=		yes
 
-.include "../../devel/py-readline/buildlink3.mk"
 .include "../../lang/python/extension.mk"
 .include "../../mk/bsd.pkg.mk"

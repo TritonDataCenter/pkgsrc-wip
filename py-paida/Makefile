@@ -13,10 +13,10 @@ COMMENT=	Pure Python scientific analysis package
 #LICENSE=	# TODO: (see mk/license.mk)
 
 DEPENDS+=	${PYPKGPREFIX}-cElementTree-[0-9]*:../../textproc/py-cElementTree
+DEPENDS+=	${PYPKGPREFIX}-Tk-[0-9]*:../../x11/py-Tk
 
 USE_LANGUAGES=	# none
 PYDISTUTILSPKG= yes
 
 .include "../../lang/python/extension.mk"
-.include "../../x11/py-Tk/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

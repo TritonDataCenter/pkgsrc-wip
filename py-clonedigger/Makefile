@@ -13,13 +13,13 @@ COMMENT=	Clone Digger aimed to detect similar code in Python
 LICENSE=	gnu-lgpl-v2
 
 DEPENDS+=	${PYPKGPREFIX}-django-[0-9]*:../../www/py-django
+DEPENDS+=	${PYPKGPREFIX}-readline>=0nb2:../../devel/py-readline
 
 EGG_NAME=	${DISTNAME:S/-beta/_beta/}
 USE_LANGUAGES=	# none
 PLIST_SUBST+=	PYVERSSUFFIX=${PYVERSSUFFIX:Q}
 REPLACE_PYTHON=	clonedigger/clonedigger.py
 
-.include "../../devel/py-readline/buildlink3.mk"
 .include "../../lang/python/application.mk"
 .include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"

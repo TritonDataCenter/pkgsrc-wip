@@ -13,6 +13,7 @@ PYTHON_VERSIONS_ACCEPTED= 27 26
 NO_BUILD=	yes
 PYDISTUTILSPKG= yes
 
+DEPENDS+=	${PYPKGPREFIX}-curses>=0nb4:../../devel/py-curses
 DEPENDS+=	${PYPKGPREFIX}-slowaes-[0-9]*:../../wip/py-slowaes
 DEPENDS+=	${PYPKGPREFIX}-ecdsa-[0-9]*:../../wip/py-ecdsa
 
@@ -27,6 +28,5 @@ SUBST_FILES.path=	${FIX_PYTHON_PATHS}
 
 .include "../../lang/python/application.mk"
 .include "../../lang/python/extension.mk"
-.include "../../devel/py-curses/buildlink3.mk"
 .include "../../x11/py-qt4/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

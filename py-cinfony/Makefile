@@ -1,5 +1,4 @@
 # $NetBSD$
-#
 
 DISTNAME=	cinfony-1.0
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
@@ -11,6 +10,8 @@ HOMEPAGE=	http://code.google.com/p/cinfony/
 COMMENT=	Common API for several cheminformatics toolkits
 LICENSE=	modified-bsd
 
+DEPENDS+=	${PYPKGPREFIX}-Tk-[0-9]*:../../x11/py-Tk
+
 USE_LANGUAGES=	# none
 PYDISTUTILSPKG=	yes
 
@@ -18,5 +19,4 @@ do-test:
 	cd ${WRKSRC} && ${SETENV} ${TEST_ENV} ${PYTHONBIN} test/testall.py
 
 .include "../../lang/python/extension.mk"
-.include "../../x11/py-Tk/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
