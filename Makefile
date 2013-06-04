@@ -3351,6 +3351,7 @@ SUBDIR+=	xf86-video-nouveau
 SUBDIR+=	xf86-video-nv-current
 SUBDIR+=	xf86-video-qxl
 SUBDIR+=	xf86-video-suncg6
+SUBDIR+=	xf86-video-suntcx
 SUBDIR+=	xf86dga
 SUBDIR+=	xf86rushproto
 SUBDIR+=	xfce4-appfinder
