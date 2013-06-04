@@ -2,7 +2,7 @@
 #
 
 MODNAME=		memcached
-PECL_VERSION=		2.0.1
+PECL_VERSION=		2.1.0
 CATEGORIES+=		devel
 
 MAINTAINER=		filip@joyent.com
