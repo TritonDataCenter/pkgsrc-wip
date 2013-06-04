@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	mod_authz_ldap-0.29
+DISTNAME=	mod_authz_ldap-0.30
 PKGNAME=	${APACHE_PKG_PREFIX}-${DISTNAME:C/^mod_//:C/_/-/}
 CATEGORIES=	www
 MASTER_SITES=	http://authzldap.othello.ch/download/
