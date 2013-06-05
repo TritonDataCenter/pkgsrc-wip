@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	regex-compat-0.93.1
+DISTNAME=	regex-compat-0.95.1
 CATEGORIES=	devel
 
 MAINTAINER=	pho@cielonegro.org
