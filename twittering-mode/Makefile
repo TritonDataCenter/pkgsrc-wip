@@ -14,6 +14,14 @@ NO_BUILD=	yes
 USE_LANGUAGES=	# none
 TEST_TARGET=	check
 
+# Original shows vHEAD by M-x twittering-mode-version, but it might be nice
+# to tell a user the version number by this command (mef@).
+SUBST_CLASSES+=		version
+SUBST_MESSAGE.version=	Replace version string 'HEAD' by ${PKGVERSION}
+SUBST_STAGE.version=	post-patch
+SUBST_FILES.version=	twittering-mode.el
+SUBST_SED.version=	-e '/defconst/s,HEAD,${PKGVERSION},'
+
 .include "../../editors/emacs/modules.mk"
 # Avoid single file spread out just under site-lisp directory.
 # And directory name should get higher precedence, so begins with 'a'.
