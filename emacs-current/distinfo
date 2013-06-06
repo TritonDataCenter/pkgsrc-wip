@@ -1,3 +1,4 @@
 $NetBSD$
 
 SHA1 (patch-af) = 11453ac3bf93551ea5e486388f23edef05a4f5fc
+SHA1 (patch-src_process.c) = 32f96f901a4bdb2c43a43e010ed04e194c20fef7
