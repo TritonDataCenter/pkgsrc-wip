@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	eventlet-0.9.9
+DISTNAME=	eventlet-0.9.17
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	devel python
 MASTER_SITES=	http://pypi.python.org/packages/source/e/eventlet/
