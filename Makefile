@@ -283,6 +283,7 @@ SUBDIR+=	cde
 SUBDIR+=	cdogs
 SUBDIR+=	cdpr
 SUBDIR+=	cedet
+SUBDIR+=	celery
 SUBDIR+=	cfengine
 SUBDIR+=	cgit
 SUBDIR+=	cglib
