@@ -2604,6 +2604,7 @@ SUBDIR+=	py-pysph
 SUBDIR+=	py-pyswisseph
 SUBDIR+=	py-pythia
 SUBDIR+=	py-pythics
+SUBDIR+=	py-python-application
 SUBDIR+=	py-pytkgen
 SUBDIR+=	py-pyvib2
 SUBDIR+=	py-qecalc
