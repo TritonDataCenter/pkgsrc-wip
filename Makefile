@@ -2393,6 +2393,7 @@ SUBDIR+=	py-dreampie
 SUBDIR+=	py-duali
 SUBDIR+=	py-ecdsa
 SUBDIR+=	py-ecspy
+SUBDIR+=	py-ejson
 SUBDIR+=	py-embedc
 SUBDIR+=	py-emmsa
 SUBDIR+=	py-enre
