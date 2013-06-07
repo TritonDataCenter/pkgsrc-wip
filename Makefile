@@ -2315,6 +2315,7 @@ SUBDIR+=	py-atpy
 SUBDIR+=	py-behaviour
 SUBDIR+=	py-bidict
 SUBDIR+=	py-bigfloat
+SUBDIR+=	py-billiard
 SUBDIR+=	py-bip
 SUBDIR+=	py-biskit
 SUBDIR+=	py-bitarray
