@@ -2476,6 +2476,7 @@ SUBDIR+=	py-keyring
 SUBDIR+=	py-khayyam
 SUBDIR+=	py-kivy
 SUBDIR+=	py-knockknock
+SUBDIR+=	py-kombu
 SUBDIR+=	py-kyra
 SUBDIR+=	py-lapack
 SUBDIR+=	py-larry
