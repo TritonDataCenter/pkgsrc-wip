@@ -2623,6 +2623,7 @@ SUBDIR+=	py-rcsparse
 SUBDIR+=	py-rdf
 SUBDIR+=	py-rdflib
 SUBDIR+=	py-rdflib-django
+SUBDIR+=	py-redis-py
 SUBDIR+=	py-regex
 SUBDIR+=	py-remctl
 SUBDIR+=	py-report
