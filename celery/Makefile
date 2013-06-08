@@ -12,6 +12,7 @@ LICENSE=	modified-bsd # AND cc-by-nc-sa-v3.0
 
 USE_LANGUAGES=	# none
 
+DEPENDS+=	${PYPKGPREFIX}-anyjson-[0-9]*:../../wip/py-anyjson
 DEPENDS+=	${PYPKGPREFIX}-billiard-[0-9]*:../../wip/py-billiard
 DEPENDS+=	${PYPKGPREFIX}-kombu-[0-9]*:../../wip/py-kombu
 .include "../../lang/python/egg.mk"
