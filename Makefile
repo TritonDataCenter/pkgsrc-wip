@@ -1357,6 +1357,7 @@ SUBDIR+=	libbsd
 SUBDIR+=	libbtctl
 SUBDIR+=	libburn
 SUBDIR+=	libcaca
+SUBDIR+=	libcdata
 SUBDIR+=	libcerror
 SUBDIR+=	libcgi
 SUBDIR+=	libcli
