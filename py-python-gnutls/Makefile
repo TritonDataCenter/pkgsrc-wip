@@ -11,5 +11,6 @@ HOMEPAGE=	http://ag-projects.com/
 COMMENT=	Python wrapper for the GNUTLS library
 LICENSE=	gnu-lgpl-v2
 
+.include "../../security/gnutls/buildlink3.mk"
 .include "../../lang/python/distutils.mk"
 .include "../../mk/bsd.pkg.mk"
