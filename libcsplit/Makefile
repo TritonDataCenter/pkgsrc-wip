@@ -1,16 +1,18 @@
 # $NetBSD$
 
-DISTNAME=	libcsplit-alpha-20121224
+DATESTAMP=	20121224
+DISTNAME=	libcsplit-alpha-${DATESTAMP}
 PKGNAME=	${DISTNAME:S/-alpha//1}
 CATEGORIES=	textproc
-MASTER_SITES=	http://libcsplit.googlecode.com/files/
+MASTER_SITES=	https://googledrive.com/host/0B3fBvzttpiiSeE44MVpGWnpNeVU/
+FETCH_USING=	curl
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	https://code.google.com/p/libcsplit/
 COMMENT=	Library for cross-platform C split string functions
 LICENSE=	gnu-lgpl-v3
 
-WRKSRC=		${WRKDIR}/libcsplit-20121224
+WRKSRC=		${WRKDIR}/libcsplit-${DATESTAMP}
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_TOOLS+=	msgfmt msgmerge pkg-config xgettext
