@@ -19,4 +19,9 @@ CONFIGURE_ARGS+=	--infodir=${PREFIX}/info
 
 INSTALL_TARGET=	install install-info
 
+# c++ is necessary for make test
+USE_LANGUAGES+=	c c++
+TEST_TARGET=	check
+TEST_ENV=	PATH=/usr/bin:/bin:${PREFIX}/bin
+
 .include "../../mk/bsd.pkg.mk"
