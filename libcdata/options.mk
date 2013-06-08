@@ -2,7 +2,7 @@
 
 PKG_OPTIONS_VAR=	PKG_OPTIONS.libcdata
 PKG_SUPPORTED_OPTIONS=	nls static wide-curses
-PKG_SUGGESTED_OPTIONS+=	nls wide-curses
+PKG_SUGGESTED_OPTIONS+=	nls static wide-curses
 
 .include "../../mk/bsd.options.mk"
 
