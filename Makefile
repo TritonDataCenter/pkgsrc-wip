@@ -3003,7 +3003,6 @@ SUBDIR+=	spade
 SUBDIR+=	spai
 SUBDIR+=	spamassassin-cvs
 SUBDIR+=	spamd-devel
-SUBDIR+=	spandsp
 SUBDIR+=	spatt
 SUBDIR+=	spawnfcgi
 SUBDIR+=	spe
