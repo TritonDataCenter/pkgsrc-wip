@@ -1360,6 +1360,7 @@ SUBDIR+=	libburn
 SUBDIR+=	libcaca
 SUBDIR+=	libcdata
 SUBDIR+=	libcerror
+SUBDIR+=	libcfile
 SUBDIR+=	libcgi
 SUBDIR+=	libcli
 SUBDIR+=	libclocale
