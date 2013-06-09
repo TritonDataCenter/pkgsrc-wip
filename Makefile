@@ -3244,6 +3244,7 @@ SUBDIR+=	unpaper
 SUBDIR+=	unrealtournament-server
 SUBDIR+=	unzip
 SUBDIR+=	uprof
+SUBDIR+=	ups-monitor
 SUBDIR+=	uptimed
 SUBDIR+=	uqwk
 SUBDIR+=	uschedule
