@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DATESTAMP=	20130603
+DATESTAMP=	20130609
 DISTNAME=	libclocale-experimental-${DATESTAMP}
 PKGNAME=	${DISTNAME:S/-experimental//1}
 CATEGORIES=	devel
