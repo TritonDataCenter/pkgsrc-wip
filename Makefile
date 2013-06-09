@@ -215,6 +215,7 @@ SUBDIR+=	bioruby
 SUBDIR+=	bkchem
 SUBDIR+=	blam
 SUBDIR+=	bleachbit
+SUBDIR+=	blink
 SUBDIR+=	blueproxy
 SUBDIR+=	bluez-gnome
 SUBDIR+=	bluez-hcidump
