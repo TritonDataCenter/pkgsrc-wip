@@ -21,6 +21,12 @@ USE_TOOLS+=	pkg-config autoconf autoreconf automake
 
 WRKSRC=		${WRKDIR}/xf86-video-nv
 
+.include "../../mk/bsd.prefs.mk"
+
+.if ${OPSYS} == "SunOS"
+CONFIGURE_ENV+=	DRIVER_MAN_SUFFIX=4
+.endif
+
 pre-configure:
 	cd ${WRKSRC} && autoreconf -v --install
 

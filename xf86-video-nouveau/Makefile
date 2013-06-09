@@ -17,6 +17,12 @@ USE_TOOLS+=	pkg-config
 # XXX
 CFLAGS+=	-I${BUILDLINK_PREFIX.glproto}/include
 
+.include "../../mk/bsd.prefs.mk"
+
+.if ${OPSYS} == "SunOS"
+CONFIGURE_ENV+=	DRIVER_MAN_SUFFIX=4
+.endif
+
 # or server in wip
 .include "../../x11/modular-xorg-server/buildlink3.mk"
 .include "../../graphics/MesaLib/buildlink3.mk"

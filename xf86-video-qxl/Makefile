@@ -16,6 +16,10 @@ USE_TOOLS+=	pkg-config
 
 .include "options.mk"
 
+.if ${OPSYS} == "SunOS"
+CONFIGURE_ENV+=	DRIVER_MAN_SUFFIX=4
+.endif
+
 .include "../../sysutils/libpciaccess/buildlink3.mk"
 .include "../../sysutils/spice-protocol/buildlink3.mk"
 .include "../../x11/xf86dgaproto/buildlink3.mk"

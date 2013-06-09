@@ -16,6 +16,12 @@ USE_TOOLS+=	pkg-config
 
 PKGCONFIG_OVERRIDE+=	xorg-joystick.pc.in
 
+.include "../../mk/bsd.prefs.mk"
+
+.if ${OPSYS} == "SunOS"
+CONFIGURE_ENV+=	DRIVER_MAN_SUFFIX=4
+.endif
+
 .include "../../x11/kbproto/buildlink3.mk"
 .include "../../devel/xorg-util-macros/buildlink3.mk"
 .include "../../x11/xproto/buildlink3.mk"

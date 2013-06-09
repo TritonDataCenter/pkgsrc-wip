@@ -16,6 +16,10 @@ USE_TOOLS+=	pkg-config
 
 .include "options.mk"
 
+.if ${OPSYS} == "SunOS"
+CONFIGURE_ENV+=	DRIVER_MAN_SUFFIX=4
+.endif
+
 .include "../../x11/fontsproto/buildlink3.mk"
 .include "../../x11/xproto/buildlink3.mk"
 .include "../../x11/modular-xorg-server/buildlink3.mk"

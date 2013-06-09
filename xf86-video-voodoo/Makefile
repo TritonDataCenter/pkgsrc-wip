@@ -16,6 +16,10 @@ USE_TOOLS+=	pkg-config
 
 .include "options.mk"
 
+.if ${OPSYS} == "SunOS"
+CONFIGURE_ENV+=	DRIVER_MAN_SUFFIX=4
+.endif
+
 BUILDLINK_API_DEPENDS.xextproto+=	xextproto>=7.0.99.1
 .include "../../x11/xextproto/buildlink3.mk"
 .include "../../sysutils/libpciaccess/buildlink3.mk"
