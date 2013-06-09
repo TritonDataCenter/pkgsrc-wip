@@ -1,2 +1,4 @@
 @comment $NetBSD$
+bin/unittest
+include/connectparams.h
 lib/libmdbodbc.la
