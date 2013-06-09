@@ -1,0 +1,11 @@
+@comment $NetBSD$
+include/libcfile.h
+include/libcfile/codepage.h
+include/libcfile/definitions.h
+include/libcfile/error.h
+include/libcfile/extern.h
+include/libcfile/features.h
+include/libcfile/types.h
+lib/libcfile.la
+lib/pkgconfig/libcfile.pc
+man/man3/libcfile.3
