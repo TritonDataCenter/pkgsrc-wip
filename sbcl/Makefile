@@ -94,7 +94,7 @@ PLIST_SUBST+=	SUFX64=
 
 
 GIT_REPOSITORIES=	sbcl
-GIT_REPO.sbcl=		git://sbcl.git.sourceforge.net/gitroot/sbcl/sbcl.git
+GIT_REPO.sbcl=		git://git.code.sf.net/p/sbcl/sbcl
 WRKSRC=			${WRKDIR}/sbcl
 DISTNAME=
 PKGNAME=		sbcl-1.0.99
