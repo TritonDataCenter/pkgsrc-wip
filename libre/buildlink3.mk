@@ -1,0 +1,12 @@
+# $NetBSD$
+
+BUILDLINK_TREE+=	libre
+
+.if !defined(LIBRE_BUILDLINK3_MK)
+LIBRE_BUILDLINK3_MK:=
+
+BUILDLINK_API_DEPENDS.libre+=	libre>=0.4.3
+BUILDLINK_PKGSRCDIR.libre?=	../../wip/libre
+.endif	# LIBRE_BUILDLINK3_MK
+
+BUILDLINK_TREE+=	-libre
