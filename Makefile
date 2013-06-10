@@ -1450,6 +1450,7 @@ SUBDIR+=	libpsurface
 SUBDIR+=	libpthread-stubs
 SUBDIR+=	libpusb
 SUBDIR+=	libraw1394
+SUBDIR+=	libre
 SUBDIR+=	libreoffice
 SUBDIR+=	libreoffice-devel
 SUBDIR+=	libscscp
