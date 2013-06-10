@@ -3470,6 +3470,7 @@ SUBDIR+=	yafray
 SUBDIR+=	yajl
 SUBDIR+=	yakuake
 SUBDIR+=	yaml-mode
+SUBDIR+=	yateclient
 SUBDIR+=	yauap
 SUBDIR+=	yaupspe
 SUBDIR+=	yelp-tools
