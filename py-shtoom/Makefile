@@ -10,6 +10,7 @@ MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=shtoom/}
 MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://divmod.org/trac/wiki/ShtoomProject
 COMMENT=		Software VoIP telephony in Python
+LICENSE=		gnu-lgpl-v2.1
 
 DEPENDS+=		${PYPKGPREFIX}-twisted>=1.3.0:../../net/py-twisted
 
