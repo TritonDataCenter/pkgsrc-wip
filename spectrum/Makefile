@@ -11,6 +11,7 @@ LICENSE=		gnu-gpl-v3
 
 DEPENDS+=		${PYPKGPREFIX}-xmpppy>=0.4.1:../../wip/py-xmpppy
 DEPENDS+=		${PYPKGPREFIX}-expat>=0nb4:../../textproc/py-expat
+DEPENDS+=		${PYPKGPREFIX}-readline>=0nb2:../../devel/py-readline
 
 USE_TOOLS+=		pkg-config msgfmt xgettext
 USE_CMAKE=		yes
@@ -84,7 +85,6 @@ post-install:
 .include "../../devel/cmake/buildlink3.mk"
 .include "../../devel/gettext-lib/buildlink3.mk"
 .include "../../devel/glib2/buildlink3.mk"
-.include "../../devel/py-readline/buildlink3.mk"
 .include "../../graphics/ImageMagick/buildlink3.mk"
 .include "../../lang/python/application.mk"
 .include "../../lang/python/extension.mk"

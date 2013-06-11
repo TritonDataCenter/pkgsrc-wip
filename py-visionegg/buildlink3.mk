@@ -18,7 +18,6 @@ BUILDLINK_PKGSRCDIR.pyvisionegg?=	../../wip/py-visionegg
 .include "../../graphics/MesaLib/buildlink3.mk"
 .endif
 .include "../../devel/py-game/buildlink3.mk"
-.include "../../x11/py-Tk/buildlink3.mk"
 .include "../../math/py-Numeric/buildlink3.mk"
 .endif # PY_VISIONEGG_BUILDLINK3_MK
 

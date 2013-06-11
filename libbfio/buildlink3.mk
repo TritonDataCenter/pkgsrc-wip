@@ -8,16 +8,14 @@ LIBBFIO_BUILDLINK3_MK:=
 BUILDLINK_API_DEPENDS.libbfio+=	libbfio>=20120425
 BUILDLINK_PKGSRCDIR.libbfio?=	../../wip/libbfio
 
-pkgbase := libbfio
-.include "../../mk/pkg-build-options.mk"
-
-
-.if !empty(PKG_BUILD_OPTIONS.libbfio:Mnls)
-.include "../../devel/gettext-lib/buildlink3.mk"
-.endif
-
+.include "../../wip/libcfile/buildlink3.mk"
 .include "../../wip/libuna/buildlink3.mk"
-.include "../../converters/libiconv/buildlink3.mk"
+.include "../../wip/libcpath/buildlink3.mk"
+.include "../../wip/libcsplit/buildlink3.mk"
+.include "../../wip/libcnotify/buildlink3.mk"
+.include "../../wip/libcdata/buildlink3.mk"
+.include "../../wip/libclocale/buildlink3.mk"
+.include "../../wip/libcerror/buildlink3.mk"
 .endif	# LIBBFIO_BUILDLINK3_MK
 
 BUILDLINK_TREE+=	-libbfio

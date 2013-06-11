@@ -12,6 +12,8 @@ HOMEPAGE=	http://daemon-tuts.de/
 COMMENT=	Small Preview of Tkinter Widgets
 LICENSE=	mit
 
+DEPENDS+=	${PYPKGPREFIX}-Tk-[0-9]*:../../x11/py-Tk
+
 USE_LANGUAGES=	# none
 PYDISTUTILSPKG=	yes
 
@@ -21,6 +23,5 @@ SUBST_SED.paths+=	-e 's,können,konnen,g'
 SUBST_FILES.paths+=	setup.py
 SUBST_MESSAGE.paths=	Fixing header search paths.
 
-.include "../../x11/py-Tk/buildlink3.mk"
 .include "../../lang/python/extension.mk"
 .include "../../mk/bsd.pkg.mk"

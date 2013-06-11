@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	paxmirabilis-20120520
+DISTNAME=	paxmirabilis-20120606
 CATEGORIES=	archivers
 MASTER_SITES=	http://www.mirbsd.org/MirOS/dist/mir/cpio/
 EXTRACT_SUFX=	.cpio.gz

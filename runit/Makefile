@@ -24,6 +24,16 @@ OWN_DIRS_PERMS= ${SERVICEDIR} ${ROOT_USER} ${ROOT_GROUP} 0755
 DOCS=		package/CHANGES package/COPYING package/README \
 		package/THANKS package/TODO doc/*.html
 
+.include "../../mk/bsd.prefs.mk"
+
+.if ${OPSYS} == "SunOS"
+SUBST_CLASSES+=		static
+SUBST_STAGE.static=	post-patch
+SUBST_MESSAGE.static=	Disable static linking on SunOS
+SUBST_FILES.static=	src/Makefile
+SUBST_SED.static=	-e 's/-static//'
+.endif
+
 INSTALLATION_DIRS=	${PKGMANDIR} ${PKGMANDIR}/man8 sbin share/examples/runit
 
 do-install:

@@ -1,25 +1,28 @@
 # $NetBSD$
 #
 
-DISTNAME=	go-1.1pre-20130311
-PKGNAME=	${DISTNAME:S/pre-/pre/}
+DISTNAME=	go1.1.src
+PKGNAME=	go-1.1
 CATEGORIES=	lang
-MASTER_SITES=	# manually packaged, on ftp.n.o
+MASTER_SITES=	https://go.googlecode.com/files/
 
 MAINTAINER=	bsiegert@NetBSD.org
 HOMEPAGE=	http://golang.org/
 COMMENT=	The Go programming language
 LICENSE=	modified-bsd
+FETCH_USING=	curl
 
 WRKSRC=		${WRKDIR}/go
 USE_TOOLS+=	bash:run perl:run pax
 
-# TODO: arm
+# TODO: other arm platforms?
 ONLY_FOR_PLATFORM= *-*-i386 *-*-x86_64
 .if ${MACHINE_ARCH} == "i386"
 GOARCH=		386
 .elif ${MACHINE_ARCH} == "x86_64"
 GOARCH=		amd64
+.elif ${MACHINE_ARCH} == "evbarm"
+GOARCH=		arm
 .endif
 PLIST_SUBST+=	GO_PLATFORM=${LOWER_OPSYS:Q}_${GOARCH:Q}
 
@@ -36,7 +39,6 @@ INSTALLATION_DIRS= bin
 REPLACE_BASH+=	doc/articles/wiki/test.bash
 REPLACE_BASH+=	doc/progs/run
 REPLACE_BASH+=	doc/progs/update.bash
-REPLACE_BASH+=	lib/codereview/test.sh
 REPLACE_BASH+=	misc/arm/a
 REPLACE_BASH+=	misc/dist/darwin/scripts/postinstall
 REPLACE_BASH+=	misc/dist/darwin/scripts/preinstall
@@ -70,7 +72,7 @@ REPLACE_PERL+=	src/pkg/syscall/mksysnum_netbsd.pl
 REPLACE_PERL+=	src/pkg/syscall/mksysnum_openbsd.pl
 REPLACE_PERL+=	test/errchk
 
-# uses /bin/rc
+# uses /bin/rc (for Plan 9)
 CHECK_INTERPRETER_SKIP+=	go/src/all.rc
 CHECK_INTERPRETER_SKIP+=	go/src/clean.rc
 CHECK_INTERPRETER_SKIP+=	go/src/make.rc

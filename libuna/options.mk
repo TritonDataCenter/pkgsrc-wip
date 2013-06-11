@@ -1,8 +1,8 @@
 # $NetBSD$
 
 PKG_OPTIONS_VAR=	PKG_OPTIONS.libuna
-PKG_SUPPORTED_OPTIONS=	nls wide-curses
-PKG_SUGGESTED_OPTIONS+=	nls wide-curses
+PKG_SUPPORTED_OPTIONS=	nls static wide-curses
+PKG_SUGGESTED_OPTIONS+=	nls static wide-curses
 
 .include "../../mk/bsd.options.mk"
 
@@ -10,6 +10,12 @@ PKG_SUGGESTED_OPTIONS+=	nls wide-curses
 .include "../../devel/gettext-lib/buildlink3.mk"
 .else
 CONFIGURE_ARGS+=	--disable-nls
+.endif
+
+.if !empty(PKG_OPTIONS:Mstatic)
+CONFIGURE_ARGS+=	--enable-static=yes --enable-static-executables=yes
+.else
+CONFIGURE_ARGS+=        --enable-static=no --enable-static-executables=no
 .endif
 
 .if !empty(PKG_OPTIONS:Mwide-curses)

@@ -14,6 +14,12 @@ GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_TOOLS+=	pkg-config
 
+.include "../../mk/bsd.prefs.mk"
+
+.if ${OPSYS} == "SunOS"
+CONFIGURE_ENV+=	DRIVER_MAN_SUFFIX=4
+.endif
+
 BUILDLINK_API_DEPENDS.xextproto+=	xextproto>=7.0.99.1
 .include "../../x11/xextproto/buildlink3.mk"
 .include "../../x11/libX11/buildlink3.mk"

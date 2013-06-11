@@ -1,15 +1,15 @@
 # $NetBSD$
 #
 
-DISTNAME=	anyjson-0.2.3
+DISTNAME=	anyjson-0.3.3
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
-CATEGORIES=	textproc python
+CATEGORIES=	textproc
 MASTER_SITES=	http://pypi.python.org/packages/source/a/anyjson/
 
 MAINTAINER=	pkgsrc-users@netbsd.org
-HOMEPAGE=	http://pypi.python.org/pypi/anyjson
+HOMEPAGE=	http://bitbucket.org/runeh/anyjson/
 COMMENT=	Wraps the JSON implementation available in a common interface
-LICENSE=		modified-bsd
+LICENSE=	modified-bsd
 
 USE_LANGUAGES=	# none
 

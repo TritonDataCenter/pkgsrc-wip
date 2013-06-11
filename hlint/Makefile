@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	hlint-1.8.45
+DISTNAME=	hlint-1.8.46
 PKGNAME=	${DISTNAME}
 CATEGORIES=	devel
 

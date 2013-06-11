@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-PKG_REVISION=		1
+PKGREVISION=		2
 LICENSE=		gnu-gpl-v2 AND gnu-lgpl-v2
 # XXX			tools AND libraries
 

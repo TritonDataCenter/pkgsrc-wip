@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		mdbtools-0.6pre1
-PKGREVISION=		1
+PKGREVISION=		2
 CATEGORIES=		databases
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=mdbtools/}
 

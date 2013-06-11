@@ -12,6 +12,8 @@ HOMEPAGE=	https://bitbucket.org/haypo/python-ptrace/wiki/Home
 COMMENT=	Python binding of ptrace
 LICENSE=	gnu-gpl-v2
 
+DEPENDS+=	${PYPKGPREFIX}-readline>=0nb2:../../devel/py-readline
+
 ONLY_FOR_PLATFORM=	FreeBSD-*-x86_64  FreeBSD-*-i386 Linux-*-*
 
 PYTHON_VERSIONS_INCLUDE_3X= yes
@@ -22,6 +24,5 @@ post-extract:
 	${MV} ${WRKSRC}/strace.py ${WRKSRC}/strace.py${PYVERSSUFFIX}
 	${MV} ${WRKSRC}/gdb.py ${WRKSRC}/gdb.py${PYVERSSUFFIX}
 
-.include "../../devel/py-readline/buildlink3.mk"
 .include "../../lang/python/extension.mk"
 .include "../../mk/bsd.pkg.mk"
