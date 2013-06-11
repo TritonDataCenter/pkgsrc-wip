@@ -1220,6 +1220,7 @@ SUBDIR+=	islamic-menus
 SUBDIR+=	ispell-dictionaries
 SUBDIR+=	itask-ng
 SUBDIR+=	itools
+SUBDIR+=	jansson
 SUBDIR+=	ja-freewnn-cvs
 SUBDIR+=	ja-freewnn-lib
 SUBDIR+=	ja-freewnn-server
