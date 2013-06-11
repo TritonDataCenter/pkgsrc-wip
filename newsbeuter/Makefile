@@ -30,9 +30,6 @@ SUBST_SED.makefile=	-e 's/^ifneq.*//; s/^endif.*//'
 
 .include "../../converters/libiconv/buildlink3.mk"
 .include "../../databases/sqlite3/buildlink3.mk"
-.if ${OPSYS}!="NetBSD"
-.include "../../devel/ncurses/buildlink3.mk"
-.endif
 .include "../../devel/ncursesw/buildlink3.mk"
 .include "../../textproc/json-c/buildlink3.mk"
 .include "../../textproc/libxml2/buildlink3.mk"
