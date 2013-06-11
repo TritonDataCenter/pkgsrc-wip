@@ -21,6 +21,12 @@ SUBST_SED.prefix=	-e "s|/usr/local|${PREFIX}|1"
 SUBST_SED.prefix+=	-e "s|/usr|${PREFIX}|1"
 SUBST_STAGE.prefix=	post-patch
 
+SUBST_CLASSES+=		re
+SUBST_FILES.re=		mk/re.mk
+SUBST_MESSAGE.re=	Fixing PREFIX path.
+SUBST_SED.re=		-e "s|/usr/local|${PREFIX}|g"
+SUBST_STAGE.re=		post-patch
+
 post-install:
 	${CHMOD} -x ${DESTDIR}${PREFIX}/lib/libre.a
 
