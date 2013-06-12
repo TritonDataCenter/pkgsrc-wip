@@ -1145,6 +1145,7 @@ SUBDIR+=	ht2html
 SUBDIR+=	html2latex
 SUBDIR+=	httrack
 SUBDIR+=	hu-go
+SUBDIR+=	hunspell-uk_UA
 SUBDIR+=	hydrogen-current
 SUBDIR+=	hyena
 SUBDIR+=	hylafax
