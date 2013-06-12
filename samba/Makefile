@@ -52,7 +52,7 @@ USE_GNU_ICONV=		yes	# FIXME: something doesn't work on NetBSD
 USE_GNU_READLINE=	yes
 
 HAS_CONFIGURE=		yes
-GNU_CONFIGURE_LIBDIR=	${SAMBA_LIBDIR}
+CONFIGURE_ARGS+=	--libdir=${SAMBA_LIBDIR}
 CONFIG_SHELL=		${PYTHONBIN}
 CONFIGURE_SCRIPT=	${WRKSRC}/buildtools/bin/waf
 CONFIGURE_ARGS+=	configure
@@ -60,7 +60,6 @@ CONFIGURE_ARGS+=	--prefix=$(PREFIX:Q)
 #CONFIGURE_ARGS+=	--with-libiconv=${BUILDLINK_PREFIX.iconv}
 #CONFIGURE_ARGS+=	--with-readline=${BUILDLINK_PREFIX.readline}
 #CONFIGURE_ARGS+=	--with-configdir=${SAMBA_ETCDIR}
-CONFIGURE_ARGS+=	--libdir=${SAMBA_LIBDIR}
 CONFIGURE_ARGS+=	--with-privatelibdir=${SAMBA_LIBDIR}/samba
 CONFIGURE_ARGS+=	--mandir=${PREFIX}/${PKGMANDIR}
 CONFIGURE_ARGS+=	--datadir=${PREFIX}/share/${PKGBASE}
