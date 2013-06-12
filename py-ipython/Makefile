@@ -66,7 +66,7 @@ DEPENDS+=	${PYPKGPREFIX}-Tk-[0-9]*:../../x11/py-Tk
 
 # www dependency section
 
-DEPENDS+=	zope3-[0-9]*:../../www/zope3
+#DEPENDS+=	zope3-[0-9]*:../../www/zope3
 
 PLIST_SRC+=	PLIST
 PLIST_SRC+=	${PKGDIR}/PLIST.doc

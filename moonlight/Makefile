@@ -27,7 +27,7 @@ ONLY_FOR_PLATFORM=	Linux-*-i386 Linux-*-x86_64 NetBSD-*-i386 NetBSD-*-x86_64
 
 .include "../../audio/pulseaudio/buildlink3.mk"
 .include "../../devel/glib2/buildlink3.mk"
-.include "../../devel/xulrunner/buildlink3.mk"
+.include "../../devel/xulrunner192/buildlink3.mk"
 .include "../../graphics/cairo/buildlink3.mk"
 .include "../../lang/mono/buildlink3.mk"
 .include "../../multimedia/ffmpeg/buildlink3.mk"

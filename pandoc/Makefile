@@ -27,6 +27,6 @@ SUBST_SED.makefile+=			-e 's,^MANPATH.*,MANPATH\ :=\ $$(DESTPATH)/man,g'
 .include "../../wip/hs-digest/buildlink3.mk"
 .include "../../wip/hs-utf8-string/buildlink3.mk"
 .include "../../wip/hs-zlib/buildlink3.mk"
-.include "../../wip/hs-binary/buildlink3.mk"
+#.include "../../wip/hs-binary/buildlink3.mk"
 .include "../../lang/ghc/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

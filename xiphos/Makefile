@@ -18,7 +18,7 @@ USE_LANGUAGES=	c c++
 .include "../../devel/glib2/buildlink3.mk"
 .include "../../devel/libglade/buildlink3.mk"
 .include "../../devel/libgsf/buildlink3.mk"
-.include "../../devel/xulrunner/buildlink3.mk"
+.include "../../devel/xulrunner192/buildlink3.mk"
 .include "../../sysutils/dbus-glib/buildlink3.mk"
 .include "../../sysutils/desktop-file-utils/desktopdb.mk"
 .include "../../textproc/gnome-doc-utils/buildlink3.mk"

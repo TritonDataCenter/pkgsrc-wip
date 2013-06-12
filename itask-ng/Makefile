@@ -22,6 +22,6 @@ pre-configure:
 
 .include "../../devel/gettext-lib/buildlink3.mk"
 .include "../../wip/edje/buildlink3.mk"
-.include "../../wip/e17/buildlink3.mk"
+#.include "../../wip/e17/buildlink3.mk"
 .include "../../wip/efreet/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
