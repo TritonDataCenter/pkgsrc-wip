@@ -7,6 +7,7 @@ SDL2_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.SDL2+=	SDL2>=2.0
 BUILDLINK_PKGSRCDIR.SDL2?=	../../wip/SDL2
+BUILDLINK_INCDIRS.SDL2+=	include/SDL2
 
 pkgbase := SDL2
 .include "../../mk/pkg-build-options.mk"
