@@ -1,0 +1,4 @@
+@comment $NetBSD$
+include/SDL2/SDL_mixer.h
+lib/libSDL2_mixer.la
+lib/pkgconfig/SDL2_mixer.pc
