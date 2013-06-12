@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		xbase-2.1.0
+DISTNAME=		xbase-2.1.1
 CATEGORIES=		databases
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=xdb/}
 
