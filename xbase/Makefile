@@ -1,8 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		xbase-2.0.0
-PKGREVISION=		1
+DISTNAME=		xbase-2.1.0
 CATEGORIES=		databases
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=xdb/}
 
@@ -14,5 +13,6 @@ USE_PKGLOCALEDIR=	yes
 USE_LANGUAGES=		c c++
 USE_LIBTOOL=		yes
 GNU_CONFIGURE=		yes
+CFLAGS+=		-DXBASE_DEBUG
 
 .include "../../mk/bsd.pkg.mk"
