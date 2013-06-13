@@ -2840,7 +2840,6 @@ SUBDIR+=	realvnc
 SUBDIR+=	recoll
 SUBDIR+=	recutils
 SUBDIR+=	redfang
-SUBDIR+=	redis
 SUBDIR+=	reduze
 SUBDIR+=	regexxer
 SUBDIR+=	reinteract
