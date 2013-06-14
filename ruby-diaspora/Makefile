@@ -55,9 +55,8 @@ DEPENDS+=	${RUBY_PKGPREFIX}-bundler:../../misc/ruby-bundler
 
 # Confusing, there is a redis ruby gem at 3.0.3, but that's a
 # different versioning space.  As of 20130306, the latest redis stable
-# was 2.6.10, so assume without basis that 2.6.9 (in wip) is good
-# enough.
-DEPENDS+=	redis>=2.6.9:../../wip/redis
+# was 2.6.10, so assume without basis that 2.6.9 is good enough.
+DEPENDS+=	redis>=2.6.9:../../databases/redis
 
 # Items listed as a depedency someplace, to be checked:
 # sqlite3

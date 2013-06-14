@@ -17,6 +17,6 @@ LICENSE=	mit
 WRKSRC=		${WRKDIR}/${PKG}-${DISTNAME}
 USE_LANGUAGES=	# none
 
-DEPENDS+=	redis-[0-9]*:../../wip/redis
+DEPENDS+=	redis-[0-9]*:../../databases/redis
 .include "../../lang/python/distutils.mk"
 .include "../../mk/bsd.pkg.mk"
