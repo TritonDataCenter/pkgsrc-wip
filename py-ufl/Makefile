@@ -25,5 +25,5 @@ SUBST_SED.man=		-e 's|"share", ||g'
 
 # todo: depends distutils
 .include "../../lang/python/extension.mk"
-.include "../../wip/swig2/buildlink3.mk"
+.include "../../devel/swig2/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

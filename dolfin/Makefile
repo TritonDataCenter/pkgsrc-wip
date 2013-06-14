@@ -100,7 +100,7 @@ MMVERSION=	1.2
 #.include "../../math/cgal/buildlink3.mk"
 .include "../../math/py-numpy/buildlink3.mk"
 .include "../../devel/boost-libs/buildlink3.mk"
-.include "../../wip/swig2/buildlink3.mk"
+.include "../../devel/swig2/buildlink3.mk"
 .include "../../wip/suitesparse/buildlink3.mk"
 .include "../../textproc/libxml2/buildlink3.mk"
 # Broken package
