@@ -1672,6 +1672,7 @@ SUBDIR+=	mtd-utils
 SUBDIR+=	mtf
 SUBDIR+=	mtop
 SUBDIR+=	mtpaint
+SUBDIR+=	mtr-current
 SUBDIR+=	mtrack
 SUBDIR+=	mu
 SUBDIR+=	mu-cite
