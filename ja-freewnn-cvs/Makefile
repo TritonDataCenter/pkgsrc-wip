@@ -2,7 +2,6 @@
 
 DISTNAME=	ja-freewnn-1.1.0.pl22
 PKGNAME=	ja-freewnn-1.1.0_pl22
-PKGREVISION=	${_CVS_PKGVERSION:S/.//g}
 
 CATEGORIES=	inputmethod
 MASTER_SITES=
