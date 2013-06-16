@@ -882,6 +882,7 @@ SUBDIR+=	gwyddion
 SUBDIR+=	gxconsole
 SUBDIR+=	gxmms2
 SUBDIR+=	gyp
+SUBDIR+=	h8300-elf-binutils
 SUBDIR+=	habak
 SUBDIR+=	haddock
 SUBDIR+=	hanazono-ttf
