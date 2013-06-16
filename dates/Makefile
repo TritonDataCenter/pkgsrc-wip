@@ -1,8 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	dates-0.4.8
-PKGREVISION=	2
+DISTNAME=	dates-0.4.10
 CATEGORIES=	time gnome
 MASTER_SITES=	ftp://ftp.gnome.org/pub/gnome/sources/dates/0.4/
 EXTRACT_SUFX=	.tar.bz2
