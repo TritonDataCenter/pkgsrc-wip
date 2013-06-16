@@ -3,7 +3,7 @@
 
 DISTNAME=	tasks-0.20
 CATEGORIES=	time editors
-MASTER_SITES=	ftp://ftp.gnome.org/pub/gnome/sources/tasks/${PKGVERSION}/
+MASTER_SITES=	${MASTER_SITE_GNOME:=sources/tasks/${PKGVERSION_NOREV}/}
 EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	pkgsrc.gnome@gmail.com

@@ -3,7 +3,7 @@
 
 DISTNAME=	contacts-0.12
 CATEGORIES=	databases
-MASTER_SITES=	${MASTER_SITE_GNOME:=sources/contacts/${PKGVERSION}/}
+MASTER_SITES=	${MASTER_SITE_GNOME:=sources/contacts/${PKGVERSION_NOREV}/}
 EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	noud4@home.nl

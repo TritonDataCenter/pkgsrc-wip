@@ -3,7 +3,7 @@
 
 DISTNAME=	dates-0.4.10
 CATEGORIES=	time gnome
-MASTER_SITES=	ftp://ftp.gnome.org/pub/gnome/sources/dates/0.4/
+MASTER_SITES=	${MASTER_SITE_GNOME:=sources/dates/0.4/}
 EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	pkgsrc.gnome@gmail.com
