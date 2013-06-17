@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	hyena-0.5
+PKGREVISION=	1
 CATEGORIES=	devel
 MASTER_SITES=	${MASTER_SITE_GNOME:=sources/hyena/0.5/}
 EXTRACT_SUFX=	.tar.bz2
@@ -20,5 +21,5 @@ PKGCONFIG_OVERRIDE+=	build/pkg-config/hyena.gui.pc.in
 PKGCONFIG_OVERRIDE+=	build/pkg-config/hyena.pc.in
 
 .include "../../x11/gtk-sharp/buildlink3.mk"
-.include "../../lang/mono/buildlink3.mk"
+.include "../../lang/mono2/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

@@ -3,6 +3,7 @@
 
 DISTNAME=	boo-0.9.4.9-src
 PKGNAME=	${DISTNAME:S/-src//}
+PKGREVISION=	1
 CATEGORIES=	lang
 MASTER_SITES=	http://dist.codehaus.org/boo/distributions/
 EXTRACT_SUFX=	.tar.bz2
@@ -35,5 +36,5 @@ do-install:
 
 .include "../../x11/gtksourceview/buildlink3.mk"
 .include "../../databases/shared-mime-info/buildlink3.mk"
-.include "../../lang/mono/buildlink3.mk"
+.include "../../lang/mono2/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

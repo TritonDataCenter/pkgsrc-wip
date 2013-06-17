@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	frogmicroblog-0.1.4
-PKGREVISION=	3
+PKGREVISION=	4
 CATEGORIES=	www
 MASTER_SITES=	http://froggymicroblog.googlecode.com/files/
 
@@ -20,7 +20,7 @@ PKGCONFIG_OVERRIDE+=	Gconf/frogconf.pc.in
 PKGCONFIG_OVERRIDE+=	Metier/frogmetier.pc.in
 PKGCONFIG_OVERRIDE+=	Twitter/frogtwitter.pc.in
 
-.include "../../lang/mono/buildlink3.mk"
+.include "../../lang/mono2/buildlink3.mk"
 .include "../../wip/notify-sharp/buildlink3.mk"
 .include "../../wip/webkit-sharp/buildlink3.mk"
 .include "../../x11/gnome-sharp/buildlink3.mk"

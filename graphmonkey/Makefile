@@ -3,7 +3,7 @@
 
 DISTNAME=	GraphMonkey-1.7-src
 PKGNAME=	${DISTNAME:tl:S/-src//1}
-PKGREVISION=	1
+PKGREVISION=	2
 CATEGORIES=	math
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=graphmonkey/}
 
@@ -28,6 +28,6 @@ post-install:
 		${INSTALL_DATA} ${WRKSRC}/pixmaps/*.png \
 			${DESTDIR}${PREFIX}/share/pixmaps
 
-.include "../../lang/mono/buildlink3.mk"
+.include "../../lang/mono2/buildlink3.mk"
 .include "../../x11/gtk-sharp/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
