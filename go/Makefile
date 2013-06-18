@@ -1,8 +1,8 @@
 # $NetBSD$
 #
 
-DISTNAME=	go1.1.src
-PKGNAME=	go-1.1
+DISTNAME=	go1.1.1.src
+PKGNAME=	go-1.1.1
 CATEGORIES=	lang
 MASTER_SITES=	https://go.googlecode.com/files/
 

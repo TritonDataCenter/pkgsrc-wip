@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	mono-zeroconf-0.9.0
-PKGREVISION=	1
+PKGREVISION=	2
 CATEGORIES=	net
 MASTER_SITES=	http://download.banshee-project.org/mono-zeroconf/
 EXTRACT_SUFX=	.tar.bz2
@@ -23,5 +23,5 @@ CONFIGURE_ARGS+=	--disable-mdnsresponder \
 
 REPLACE_BASH+=	src/MZClient/mzclient.in
 
-.include "../../lang/mono/buildlink3.mk"
+.include "../../lang/mono2/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

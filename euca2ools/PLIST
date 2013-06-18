@@ -121,7 +121,7 @@ bin/euca-upload-bundle
 bin/euca-version
 bin/eustore-describe-images
 bin/eustore-install-image
-${PYSITELIB}/${THIS_EGG_FILE}
+${PYSITELIB}/${EGG_FILE}
 ${PYSITELIB}/euca2ools/__init__.py
 ${PYSITELIB}/euca2ools/__init__.pyc
 ${PYSITELIB}/euca2ools/__init__.pyo

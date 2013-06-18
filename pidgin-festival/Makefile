@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	pidgin-festival-2.4
-PKGREVISION=	6
+PKGREVISION=	7
 CATEGORIES=	chat audio
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=pidgin-festival/}
 

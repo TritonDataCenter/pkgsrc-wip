@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	blam-1.8.7
-PKGREVISION=	3
+PKGREVISION=	4
 CATEGORIES=	www
 MASTER_SITES=	http://blam.cmartin.tk/downloads/
 EXTRACT_SUFX=	.tar.bz2
@@ -26,7 +26,7 @@ SUBST_SED.schema+=	-e "s,..sysconfdir./gconf/schemas,${PREFIX}/share/gconf/schem
 
 .include "../../devel/GConf/schemas.mk"
 .include "../../graphics/hicolor-icon-theme/buildlink3.mk"
-.include "../../lang/mono/buildlink3.mk"
+.include "../../lang/mono2/buildlink3.mk"
 .include "../../sysutils/desktop-file-utils/desktopdb.mk"
 .include "../../sysutils/ndesk-dbus-glib/buildlink3.mk"
 BUILDLINK_API_DEPENDS.webkit-sharp+=	webkit-sharp>=0.2

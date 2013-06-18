@@ -1,8 +1,11 @@
 $NetBSD$
 
-SHA1 (xbase-2.0.0.tgz) = 11188393f2390a6b2765c1bf81faf95a8587e1e0
-RMD160 (xbase-2.0.0.tgz) = 577394ce21abc92df11127216f4199ec47549ce2
-Size (xbase-2.0.0.tgz) = 493106 bytes
-SHA1 (patch-aa) = ce2aa63e51be2e5cf53844b1017d118b24ee158f
-SHA1 (patch-ab) = 6c3c06dd3dae94f880d6c23f81e0a66a01265d52
-SHA1 (patch-ac) = 258bdb21f1e6f79ce24631dd4942813fe136b682
+SHA1 (xbase-2.1.1.tar.gz) = dfa79ff9db7fb00afab1fe2ce3cec32afd95aeac
+RMD160 (xbase-2.1.1.tar.gz) = a3c1c3168d22ca69c2bc8aef30c78df040f1a7d9
+Size (xbase-2.1.1.tar.gz) = 504958 bytes
+SHA1 (patch-ad) = 2e2bc8ba9879598a6d7a4f1b5f82f2eca8145ad1
+SHA1 (patch-ba) = df35b16168524fa454b35e70fd4e54a30c948194
+SHA1 (patch-bb) = 34758b30b4b5176a3c9a822c3c52627c7fb9ff49
+SHA1 (patch-bc) = 0f52ce89772727dbec2cc24cdd3178806d782069
+SHA1 (patch-bd) = a41e2c83eb22a1184970e43aefea2b63296f83dc
+SHA1 (patch-be) = 7a8d47ccd6ba3dcab62304cc8139f33f99ec15e1

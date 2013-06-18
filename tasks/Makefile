@@ -1,10 +1,10 @@
 # $NetBSD$
 #
 
-DISTNAME=	tasks-0.16
-PKGREVISION=	1
+DISTNAME=	tasks-0.20
 CATEGORIES=	time editors
-MASTER_SITES=	http://pimlico-project.org/sources/tasks/
+MASTER_SITES=	${MASTER_SITE_GNOME:=sources/tasks/${PKGVERSION_NOREV}/}
+EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	pkgsrc.gnome@gmail.com
 HOMEPAGE=	http://pimlico-project.org/tasks.html
@@ -18,7 +18,7 @@ CONFIGURE_ARGS+=	--disable-omoko
 CONFIGURE_ARGS+=	--disable-hildon
 CONFIGURE_ARGS+=	--without-owl
 
-BUILDLINK_API_DEPENDS.glib2+=      glib2>=2.12.0
+BUILDLINK_API_DEPENDS.glib2+=	glib2>=2.12.0
 BUILDLINK_ABI_DEPENDS.gtk2+=	gtk2+>=2.8.17nb1
 
 .include "../../devel/glib2/buildlink3.mk"

@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	last-exit-6
-PKGREVISION=	3
+PKGREVISION=	4
 CATEGORIES=	audio gnome
 MASTER_SITES=	http://lastexit-player.org/releases/
 EXTRACT_SUFX=	.tar.bz2
@@ -35,7 +35,7 @@ REPLACE_BASH+=		src/last-exit.in
 .include "../../devel/GConf/schemas.mk"
 .include "../../devel/libsexy/buildlink3.mk"
 .include "../../graphics/hicolor-icon-theme/buildlink3.mk"
-.include "../../lang/mono/buildlink3.mk"
+.include "../../lang/mono2/buildlink3.mk"
 .include "../../multimedia/gstreamer0.10/buildlink3.mk"
 .include "../../multimedia/gst-plugins0.10-base/buildlink3.mk"
 .include "../../sysutils/desktop-file-utils/desktopdb.mk"

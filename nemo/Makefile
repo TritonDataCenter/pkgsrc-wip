@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	nemo-0.2.4
-PKGREVISION=	3
+PKGREVISION=	4
 CATEGORIES=	sysutils
 MASTER_SITES=	http://www.iola.dk/nemo/downloads/
 EXTRACT_SUFX=	.tar.bz2
@@ -19,7 +19,7 @@ USE_PKGLOCALEDIR= yes
 USE_LANGUAGES=	# C#
 USE_TOOLS+=	gmake msgfmt pkg-config
 
-.include "../../lang/mono/buildlink3.mk"
+.include "../../lang/mono2/buildlink3.mk"
 .include "../../x11/gnome-sharp/buildlink3.mk"
 .include "../../x11/gtk-sharp/buildlink3.mk"
 .include "../../sysutils/desktop-file-utils/desktopdb.mk"

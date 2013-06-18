@@ -1,0 +1,5 @@
+@comment $NetBSD$
+lib/libptpd2.so
+lib/libptpd2.so.${PKGVERSION_NOREV}
+man/man8/ptpd2.8
+sbin/ptpd2

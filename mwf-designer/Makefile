@@ -2,7 +2,7 @@
 
 DISTNAME=	mwf-designer
 PKGNAME=	${DISTNAME}-${MWF_VERSION}
-PKGREVISION=	1
+PKGREVISION=	2
 CATEGORIES=	devel
 MASTER_SITES=	http://www.mono-project.com/
 
@@ -35,5 +35,5 @@ do-install:
 	${INSTALL} ${WRKSRC}/mwf-designer ${DESTDIR}${PREFIX}/bin
 
 .include "../../wip/mk/svn-package.mk"
-.include "../../lang/mono/buildlink3.mk"
+.include "../../lang/mono2/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
