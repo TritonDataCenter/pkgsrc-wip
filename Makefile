@@ -2270,6 +2270,7 @@ SUBDIR+=	prtunnel
 SUBDIR+=	psh
 SUBDIR+=	psybnc
 SUBDIR+=	pt-ttf
+SUBDIR+=	ptpd
 SUBDIR+=	pts
 SUBDIR+=	ptunnel
 SUBDIR+=	pudb
