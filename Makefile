@@ -1463,6 +1463,7 @@ SUBDIR+=	libscscp
 SUBDIR+=	libsidplay2
 SUBDIR+=	libslab
 SUBDIR+=	libsnappy
+SUBDIR+=	libsocialweb
 SUBDIR+=	libspt
 SUBDIR+=	libstacktrace
 SUBDIR+=	libtextcat
