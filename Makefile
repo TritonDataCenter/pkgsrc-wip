@@ -1410,6 +1410,7 @@ SUBDIR+=	libglade-java
 SUBDIR+=	libgme
 SUBDIR+=	libgnome-java
 SUBDIR+=	libgrass5
+SUBDIR+=	libgrss
 SUBDIR+=	libgtask
 SUBDIR+=	libgtk-java
 SUBDIR+=	libgtkhtml-java
