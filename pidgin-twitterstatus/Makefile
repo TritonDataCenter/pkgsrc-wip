@@ -23,7 +23,7 @@ PLIST_SUBST+=		EXTRACT_SUFX=${EXTRACT_SUFX}
 INSTALLATION_DIRS+=	lib/purple-2
 
 do-install:
-	${INSTALL_SCRIPT} ${WRKSRC}/${DISTNAME}${EXTRACT_SUFX} ${DESTDIR}/${PREFIX}/lib/purple-2
+	${INSTALL_SCRIPT} ${WRKSRC}/${DISTNAME}${EXTRACT_SUFX} ${DESTDIR}${PREFIX}/lib/purple-2
 
 .include "../../chat/pidgin/buildlink3.mk"
 .include "../../chat/libpurple/buildlink3.mk"
