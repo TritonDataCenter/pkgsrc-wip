@@ -3,7 +3,7 @@
 
 DISTNAME=	gnome-js-common-0.1.1
 CATEGORIES=	devel gnome
-MASTER_SITES=	ftp://ftp.gnome.org/pub/gnome/sources/gnome-js-common/0.1/
+MASTER_SITES=	${MASTER_SITE_GNOME:=sources/gnome-js-common/0.1/}
 EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	pkgsrc.gnome@gmail.com
