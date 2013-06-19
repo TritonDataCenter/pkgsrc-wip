@@ -3,7 +3,7 @@
 
 DISTNAME=	loggly-0.1.2
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
-PKGREVISION=	1
+PKGREVISION=	2
 CATEGORIES=	devel python
 MASTER_SITES=	http://pypi.python.org/packages/source/l/loggly/
 
