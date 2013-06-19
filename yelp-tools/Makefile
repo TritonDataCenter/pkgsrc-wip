@@ -1,11 +1,10 @@
 # $NetBSD$
 #
 
-DISTNAME=	yelp-tools-3.1.1
-PKGREVISION=	1
+DISTNAME=	yelp-tools-3.6.1
 CATEGORIES=	misc
-MASTER_SITES=	http://ftp.acc.umu.se/pub/GNOME/sources/yelp-tools/3.1/
-EXTRACT_SUFX=	.tar.bz2
+MASTER_SITES=	${MASTER_SITE_GNOME:=sources/yelp-tools/3.6/}
+EXTRACT_SUFX=	.tar.xz
 
 MAINTAINER=	pkgsrc.gnome@gmail.com
 HOMEPAGE=	http://www.gnome.org/
