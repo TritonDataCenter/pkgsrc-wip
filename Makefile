@@ -2190,6 +2190,7 @@ SUBDIR+=	php-memcached
 SUBDIR+=	php-mongo
 SUBDIR+=	php-oauth
 SUBDIR+=	php-recode
+SUBDIR+=	php-rrd
 SUBDIR+=	php-ssh2
 SUBDIR+=	php-suhosin
 SUBDIR+=	php-tclink
