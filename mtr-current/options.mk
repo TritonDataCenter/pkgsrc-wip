@@ -4,8 +4,8 @@ PKG_OPTIONS_VAR=	PKG_OPTIONS.mtr
 PKG_SUPPORTED_OPTIONS=	gtk
 PKG_SUPPORTED_OPTIONS+=	inet6
 PKG_SUGGESTED_OPTIONS=	inet6
-PKG_SUPPORTED_OPTIONS+=	ipinfo
-PKG_SUGGESTED_OPTIONS+=	ipinfo
+#PKG_SUPPORTED_OPTIONS+=	ipinfo
+#PKG_SUGGESTED_OPTIONS+=	ipinfo
 
 .include "../../mk/bsd.options.mk"
 
@@ -20,6 +20,6 @@ CONFIGURE_ARGS+=	--without-gtk
 CONFIGURE_ARGS+=	--disable-ipv6
 .endif
 
-.if empty(PKG_OPTIONS:Mipinfo)
-CONFIGURE_ARGS+=	--without-ipinfo
-.endif
+#.if empty(PKG_OPTIONS:Mipinfo)
+#CONFIGURE_ARGS+=	--without-ipinfo
+#.endif

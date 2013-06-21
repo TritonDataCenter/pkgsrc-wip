@@ -4,7 +4,7 @@
 DISTNAME=	gnome-jabber-0.4
 PKGREVISION=	5
 CATEGORIES=	chat
-MASTER_SITES=	${MASTER_SITE_GNOME:=sources/gnome-jabber/0.4/}
+MASTER_SITES=	${MASTER_SITE_GNOME:=sources/gnome-jabber/${PKGVERSION_NOREV}/}
 EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	pkgsrc-users@NetBSD.org

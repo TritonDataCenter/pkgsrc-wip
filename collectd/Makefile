@@ -20,7 +20,7 @@ PKGCONFIG_OVERRIDE+=	src/libcollectdclient/libcollectdclient.pc.in
 USE_LANGUAGES=		c c++
 
 CONFIGURE_ARGS+=	--with-perl-bindings='INSTALLDIRS=vendor'
-CONFIGURE_ARGS+=	--sysconfdir=${PKG_SYSCONFDIR}/${PKGBASE}
+CONFIGURE_ARGS+=	--sysconfdir=${PKG_SYSCONFDIR}
 
 PKG_SYSCONFSUBDIR=	collectd
 
