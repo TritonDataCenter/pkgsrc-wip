@@ -37,9 +37,6 @@ SHLIBTOOL_OVERRIDE=	${WRKSRC}/config/libtool.m4 \
 GNU_CONFIGURE_PREFIX=	$(MPI_PREFIX)
 .if ${OPSYS} != Darwin && ${OPSYS} != Linux
 CONFIGURE_ARGS+=	--disable-mpi-fortran
-# http://www.open-mpi.org/community/lists/users/2013/04/21752.php
-# Still doesn't compile on RHEL 5
-# CONFIGURE_ARGS+=	--disable-openib-connectx-xrc
 .endif
 CONFIGURE_ARGS+=	--without-sge
 CONFIGURE_ARGS+=	--without-slurm
