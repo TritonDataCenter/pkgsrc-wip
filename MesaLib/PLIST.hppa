@@ -1,0 +1,6 @@
+@comment $NetBSD$
+${PLIST.dri}lib/dri/i810_dri.so
+${PLIST.dri}lib/dri/i915_dri.so
+${PLIST.dri}lib/dri/i965_dri.so
+${PLIST.dri}lib/dri/r600_dri.so
+${PLIST.dri}lib/dri/sis_dri.so
