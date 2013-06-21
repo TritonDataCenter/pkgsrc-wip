@@ -1551,6 +1551,7 @@ SUBDIR+=	lzs-lkm
 SUBDIR+=	m4ri
 SUBDIR+=	mac-robber
 SUBDIR+=	macaulay2
+SUBDIR+=	magit-git
 SUBDIR+=	mago
 SUBDIR+=	mailfilter
 SUBDIR+=	majordomo-devel
