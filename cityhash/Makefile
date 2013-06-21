@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	cityhash-1.1.0
+DISTNAME=	cityhash-1.1.1
 CATEGORIES=	devel security textproc
 MASTER_SITES=	http://cityhash.googlecode.com/files/
 
