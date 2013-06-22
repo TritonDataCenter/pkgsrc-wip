@@ -49,7 +49,7 @@ do-install:
 	${CP} -R ${WRKDIR}/${DISTNAME}/work ${DESTDIR}${MPI_PREFIX}/share/openmx
 .for f in DosMain jx analysis_example esp OpticalConductivityMain polB test_mpi
 	${CP} ${WRKDIR}/${DISTNAME}/work/${f} ${DESTDIR}${MPI_PREFIX}/bin
-	${RM} ${DESTDIR}${MPI_PREFIX}/share/openmx/${f}
+	${RM} ${DESTDIR}${MPI_PREFIX}/share/openmx/work/${f}
 .endfor
 
 # url2pkg-marker (please do not remove this line.)
