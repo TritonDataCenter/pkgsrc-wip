@@ -27,6 +27,8 @@ bin/orted
 bin/orterun
 etc/cshrc
 etc/shrc
+etc/module
+etc/openmpi-default-hostfile
 include/mpi-ext.h
 include/mpi.h
 include/mpi_portable_platform.h

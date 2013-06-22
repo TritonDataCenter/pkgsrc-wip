@@ -29,6 +29,8 @@ bin/orte-top
 bin/orte_wrapper_script
 etc/cshrc
 etc/shrc
+etc/module
+etc/openmpi-default-hostfile
 include/mpi-ext.h
 include/mpif-common.h
 include/mpif-config.h

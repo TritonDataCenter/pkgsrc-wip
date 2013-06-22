@@ -74,9 +74,12 @@ TEST_TARGET=	check
 post-install:
 	${MKDIR} ${DESTDIR}${MPI_PREFIX}/etc
 	${SED} -e "s|%%MPI_PREFIX%%|${MPI_PREFIX}|g" \
-		files/shrc > ${DESTDIR}${MPI_PREFIX}/etc/shrc
+		files/shrc.in > ${DESTDIR}${MPI_PREFIX}/etc/shrc
 	${SED} -e "s|%%MPI_PREFIX%%|${MPI_PREFIX}|g" \
-		files/cshrc > ${DESTDIR}${MPI_PREFIX}/etc/cshrc
+		files/cshrc.in > ${DESTDIR}${MPI_PREFIX}/etc/cshrc
+	${SED} -e "s|%%MPI_PREFIX%%|${MPI_PREFIX}|g" \
+		files/module.in > ${DESTDIR}${MPI_PREFIX}/etc/module
+	${INSTALL_DATA} ${DESTDIR}${MPI_PREFIX}/share/openmpi/examples/openmpi-default-hostfile ${DESTDIR}${MPI_PREFIX}/etc
 
 LIBLTDL_CONVENIENCE_SUBDIR=	opal/libltdl
 .include "../../devel/libltdl/convenience.mk" # for "test" target to work
