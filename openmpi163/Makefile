@@ -18,6 +18,9 @@ INSTALLATION_PREFIX=	$(MPI_PREFIX)
 .include "../../mk/bsd.prefs.mk"
 
 GNU_CONFIGURE=		yes
+
+# Be pessimistic about Fortran 90 support, which is lacking on many platforms.
+# Only enable it by default on platforms where it has been tested.
 .if ${OPSYS} == Darwin || ${OPSYS} == Linux
 USE_LANGUAGES=		c c++ fortran
 # Fix: The Open MPI wrapper compiler was unable to find the specified compiler
