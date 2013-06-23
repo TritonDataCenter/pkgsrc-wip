@@ -628,6 +628,7 @@ SUBDIR+=	feynedit
 SUBDIR+=	feynhiggs
 SUBDIR+=	ffmpeg-current
 SUBDIR+=	fftjet
+SUBDIR+=	fftw-mpich
 SUBDIR+=	fftw-openmpi
 SUBDIR+=	fftw2-openmpi
 SUBDIR+=	ficl
