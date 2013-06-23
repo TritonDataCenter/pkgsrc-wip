@@ -1659,6 +1659,7 @@ SUBDIR+=	mozplugger
 SUBDIR+=	mp3chop
 SUBDIR+=	mpb
 SUBDIR+=	mpc-el
+SUBDIR+=	mpb-openmpi
 SUBDIR+=	mpg123-0.65
 SUBDIR+=	mpg123-nightly
 SUBDIR+=	mpgedit
