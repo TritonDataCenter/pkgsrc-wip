@@ -1,0 +1,5 @@
+@comment $NetBSD$
+openmpi/bin/mpb-mpi
+openmpi/man/man1/mpb.1
+openmpi/share/libctl/specs/mpb.scm
+@pkgdir openmpi/lib
