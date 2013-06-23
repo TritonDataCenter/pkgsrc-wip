@@ -7,7 +7,7 @@ BUILDLINK_TREE+=	mpb-openmpi
 MPB_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.mpb-openmpi+=	mpb-openmpi>=1.4.2
-BUILDLINK_PKGSRCDIR.mpb-openmpi?=	../../jb-wip/mpb-openmpi
+BUILDLINK_PKGSRCDIR.mpb-openmpi?=	../../wip/mpb-openmpi
 
 .include "../../math/blas/buildlink3.mk"
 .include "../../math/lapack/buildlink3.mk"
