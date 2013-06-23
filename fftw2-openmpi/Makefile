@@ -28,5 +28,5 @@ USE_TOOLS+=		gmake makeinfo
 CONFIGURE_ARGS+=	--enable-i386-hacks
 .endif
 
-.include "../../wip/openmpi-prefixed/buildlink3.mk"
+.include "../../wip/openmpi163/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
