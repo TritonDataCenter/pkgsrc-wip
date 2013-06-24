@@ -1591,6 +1591,7 @@ SUBDIR+=	mdbtools
 SUBDIR+=	mediawiki-mode
 SUBDIR+=	meep
 SUBDIR+=	meep-mpi
+SUBDIR+=	meep-openmpi
 SUBDIR+=	memdump
 SUBDIR+=	memgrep
 SUBDIR+=	menumaker
