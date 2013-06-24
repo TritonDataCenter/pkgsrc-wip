@@ -9,12 +9,12 @@ PKG_SUPPORTED_OPTIONS+=		rss evolution kmail
 PKG_SUPPORTED_OPTIONS+=		nautilus
 PKG_SUPPORTED_OPTIONS+=		mp3 xmp
 
-#PKG_SUGGESTED_OPTIONS+=		hal unac enca gnome
-#PKG_SUGGESTED_OPTIONS+=		pdf jpeg tiff vorbis flac html gsf playlist
-#PKG_SUGGESTED_OPTIONS+=		gstreamer
-#PKG_SUGGESTED_OPTIONS+=		rss evolution kmail
-#PKG_SUGGESTED_OPTIONS+=		nautilus
-#PKG_SUGGESTED_OPTIONS+=		mp3 xmp
+PKG_SUGGESTED_OPTIONS+=		hal unac enca gnome
+PKG_SUGGESTED_OPTIONS+=		pdf jpeg tiff vorbis flac html gsf playlist
+PKG_SUGGESTED_OPTIONS+=		gstreamer
+PKG_SUGGESTED_OPTIONS+=		rss evolution kmail
+PKG_SUGGESTED_OPTIONS+=		nautilus
+PKG_SUGGESTED_OPTIONS+=		mp3 xmp
 
 .include "../../mk/bsd.options.mk"
 
