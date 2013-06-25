@@ -9,6 +9,9 @@ BUILDLINK_API_DEPENDS.meta-tracker+=	meta-tracker>=0.9.0
 BUILDLINK_ABI_DEPENDS.meta-tracker+=	meta-tracker>=0.9.38
 BUILDLINK_PKGSRCDIR.meta-tracker?=	../../wip/meta-tracker
 
+pkgbase := meta-tracker
+.include "../../mk/pkg-build-options.mk"
+
 .if !empty(PKG_BUILD_OPTIONS.meta-tracker:Mgstreamer)
 .include "../../multimedia/gst-plugins0.10-base/buildlink3.mk"
 .elif !empty(PKG_BUILD_OPTIONS.meta-tracker:Mxine)
