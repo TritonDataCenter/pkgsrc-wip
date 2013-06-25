@@ -23,6 +23,8 @@ CONFIGURE_ARGS+=--with-libctl=${PREFIX}/share/libctl \
  		--prefix=${MPI_PREFIX:Q} \
  		--mandir=${MPI_PREFIX:Q}/man
 
+MESSAGE_SUBST+=         PREFIX=${PREFIX:Q}
+
 .include "../../wip/mpb-openmpi/buildlink3.mk"
 .include "../../math/gsl/buildlink3.mk"
 # Should this be satisfied by fftw2-openmpi from mpb-openmpi?
