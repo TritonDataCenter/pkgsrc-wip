@@ -10,11 +10,12 @@ EXTRACT_SUFX=	.tar.bz2
 MAINTAINER=	kamel.derouiche@gmail.com
 HOMEPAGE=	http://www.mono-project.com/Mono.Zeroconf
 COMMENT=	Cross platform Zero Configuration Networking library for Mono and .NET
-LICENSE=	LICENSE
+LICENSE=	mit
 
 GNU_CONFIGURE=	yes
 USE_TOOLS+=	pkg-config gmake bash:run
 USE_LANGUAGES=	c c++
+MAKE_JOBS_SAFE=	NO
 
 PKGCONFIG_OVERRIDE+=	src/mono-zeroconf.pc.in
 
