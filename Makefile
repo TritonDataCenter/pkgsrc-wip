@@ -202,6 +202,7 @@ SUBDIR+=	backplane
 SUBDIR+=	bagel
 SUBDIR+=	bakery
 SUBDIR+=	baler
+SUBDIR+=	banshee
 SUBDIR+=	bashdb
 SUBDIR+=	bastard
 SUBDIR+=	beads
