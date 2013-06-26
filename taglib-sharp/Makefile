@@ -1,10 +1,9 @@
 # $NetBSD$
 #
 
-DISTNAME=	taglib-sharp-2.0.3.2
-PKGREVISION=	4
+DISTNAME=	taglib-sharp-2.0.3.7
 CATEGORIES=	audio
-MASTER_SITES=	http://download.banshee-project.org/taglib-sharp/2.0.3.2/
+MASTER_SITES=	http://download.banshee-project.org/taglib-sharp/${PKGVERSION_NOREV}/
 EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	kamelderouiche@yahoo.com
