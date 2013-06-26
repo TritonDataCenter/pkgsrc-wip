@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-VERSION=	0.2.2
+VERSION=	0.2.3
 PKGNAME=	zathura-poppler-${VERSION}
 DISTNAME=	zathura-pdf-poppler-${VERSION}
 CATEGORIES=	print
