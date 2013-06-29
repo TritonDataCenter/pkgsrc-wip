@@ -55,7 +55,7 @@ CONFIGURE_ARGS+=	--with-gnutls
 .include "../../security/libgnome-keyring/buildlink3.mk"	# optional
 .include "../../sysutils/dbus/buildlink3.mk"			# optional
 .include "../../sysutils/desktop-file-utils/desktopdb.mk"
-.include "../../sysutils/libnotify/buildlink3.mk"		# optional
+.include "../../sysutils/libnotify07/buildlink3.mk"		# optional
 .include "../../textproc/gtkspell/buildlink3.mk"		# optional
 .include "../../x11/gtk2/buildlink3.mk"
 
