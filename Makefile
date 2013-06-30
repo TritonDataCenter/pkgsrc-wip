@@ -2055,6 +2055,7 @@ SUBDIR+=	p5-String-Similarity
 SUBDIR+=	p5-Sub-Recursive
 SUBDIR+=	p5-Sub-WrapPackages
 SUBDIR+=	p5-Syntax-Highlight-Perl-Improved
+SUBDIR+=	p5-Sys-MemInfo
 SUBDIR+=	p5-Sys-Syslog
 SUBDIR+=	p5-Task-Catalyst
 SUBDIR+=	p5-Template-Plugin-Class
