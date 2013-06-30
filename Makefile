@@ -2467,6 +2467,7 @@ SUBDIR+=	py-grpy
 SUBDIR+=	py-gsl
 SUBDIR+=	py-gtk2-docs
 SUBDIR+=	py-gts
+SUBDIR+=	py-gunicorn
 SUBDIR+=	py-guppy
 SUBDIR+=	py-h5py
 SUBDIR+=	py-hcluster
