@@ -3001,6 +3001,7 @@ SUBDIR+=	sm-change_ldappass
 SUBDIR+=	sm-change_qldforward
 SUBDIR+=	sm-compatibility
 SUBDIR+=	smc
+SUBDIR+=	smpeg2
 SUBDIR+=	smplayer
 SUBDIR+=	smproxy
 SUBDIR+=	smstools
