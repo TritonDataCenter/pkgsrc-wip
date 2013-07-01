@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	kombu-2.5.10
+DISTNAME=	kombu-2.5.12
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	net
 MASTER_SITES=	http://pypi.python.org/packages/source/k/kombu/
