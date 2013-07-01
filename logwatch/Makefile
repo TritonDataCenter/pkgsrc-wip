@@ -54,8 +54,10 @@ INSTALLATION_DIRS+=	${EGDIR:S|${PREFIX}/||}/conf ${EGDIR:S|${PREFIX}/||}/conf/se
 
 post-extract:
 	${CP} -r ${FILESDIR}/host ${WRKSRC}
+	${RM} -r ${WRKSRC}/host/CVS ${WRKSRC}/host/*/CVS ${WRKSRC}/host/*/*/CVS
 .if exists(${FILESDIR}/dist.conf/${OPSYS})
 	${CP} -r ${FILESDIR}/dist.conf/${OPSYS} ${WRKSRC}/dist.conf
+	${RM} -r ${WRKSRC}/dist.conf/CVS ${WRKSRC}/dist.conf/*/CVS
 .else
 	${MKDIR} ${WRKSRC}/dist.conf
 .endif
