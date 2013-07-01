@@ -94,6 +94,7 @@ SUBDIR+=	alsa-plugins
 SUBDIR+=	alsa-utils
 SUBDIR+=	alt-ergo
 SUBDIR+=	am-utils
+SUBDIR+=	amavis-logwatch
 SUBDIR+=	amaya
 SUBDIR+=	analizo
 SUBDIR+=	and
