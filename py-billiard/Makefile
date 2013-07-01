@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	billiard-2.7.3.28
+DISTNAME=	billiard-2.7.3.30
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	parallel
 MASTER_SITES=	http://pypi.python.org/packages/source/b/billiard/
