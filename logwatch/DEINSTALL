@@ -1,0 +1,9 @@
+# $NetBSD$
+
+VARBASE="@VARBASE@"
+
+case ${STAGE} in
+DEINSTALL)
+	${RM} -rf ${VARBASE}/cache/logwatch
+	;;
+esac

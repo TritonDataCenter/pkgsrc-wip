@@ -1,0 +1,9 @@
+# $NetBSD$
+
+VARBASE="@VARBASE@"
+
+case ${STAGE} in
+POST-INSTALL)
+	${MKDIR} ${VARBASE}/cache/logwatch
+	;;
+esac

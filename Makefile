@@ -1525,6 +1525,7 @@ SUBDIR+=	lmdbg-current
 SUBDIR+=	lmfit
 SUBDIR+=	lmtp2nntp
 SUBDIR+=	logfmon-devel
+SUBDIR+=	logwatch
 SUBDIR+=	lorder
 SUBDIR+=	lpdsrv
 SUBDIR+=	lrslib

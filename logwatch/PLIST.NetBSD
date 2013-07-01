@@ -1,0 +1,5 @@
+@comment $NetBSD$
+share/logwatch/dist.conf/logfiles/ftpd-netbsd.conf
+share/logwatch/dist.conf/services/ftpd-messages.conf
+share/logwatch/dist.conf/services/smartd.conf
+share/logwatch/dist.conf/services/zz-disk_space.conf
