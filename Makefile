@@ -303,7 +303,6 @@ SUBDIR+=	chrsh
 SUBDIR+=	cinelerra
 SUBDIR+=	cinelerra-cv
 SUBDIR+=	circe2
-SUBDIR+=	cityhash
 SUBDIR+=	ciwiki
 SUBDIR+=	cl-alexandria
 SUBDIR+=	cl-anaphora
