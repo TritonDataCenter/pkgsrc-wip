@@ -18,7 +18,7 @@ CONFIGURE_ARGS+=		--disable-alsa
 .endif
 
 .if !empty(PKG_OPTIONS:Mcg)
-.include "../../wip/Cg-compiler/buildlink3.mk"
+.include "../../lang/Cg-compiler/buildlink3.mk"
 CONFIGURE_ARGS+=		--enable-cg
 # Need to work out where to tell configure to find Cg's libs
 .else
