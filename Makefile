@@ -1781,7 +1781,6 @@ SUBDIR+=	ninka
 SUBDIR+=	nios2-binutils
 SUBDIR+=	nios2-gcc
 SUBDIR+=	njb-sharp
-SUBDIR+=	nmzmail
 SUBDIR+=	nnrpd
 SUBDIR+=	nodau
 SUBDIR+=	node
