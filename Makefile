@@ -1397,7 +1397,6 @@ SUBDIR+=	libfm
 SUBDIR+=	libfplll
 SUBDIR+=	libfs
 SUBDIR+=	libgadu
-SUBDIR+=	libgcal
 SUBDIR+=	libgda-bdb
 SUBDIR+=	libgda-ldap
 SUBDIR+=	libgda-mdb
