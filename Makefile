@@ -3015,7 +3015,6 @@ SUBDIR+=	socklog
 SUBDIR+=	socnetv
 SUBDIR+=	softflowd
 SUBDIR+=	soil
-SUBDIR+=	solarus
 SUBDIR+=	songwrite2
 SUBDIR+=	soqt
 SUBDIR+=	spade
