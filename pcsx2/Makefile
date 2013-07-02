@@ -38,7 +38,7 @@ BUILDLINK_DEPMETHOD.gtk2=	build
 .include "../../wip/libSoundTouch/buildlink3.mk"
 .include "../../audio/portaudio/buildlink3.mk"
 .include "../../graphics/glew/buildlink3.mk"
-.include "../../wip/Cg-compiler/buildlink3.mk"
+.include "../../lang/Cg-compiler/buildlink3.mk"
 .include "../../devel/zlib/buildlink3.mk"
 .include "../../x11/wxGTK28/buildlink3.mk"
 .include "../../devel/subversion-base/buildlink3.mk"

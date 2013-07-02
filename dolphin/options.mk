@@ -20,7 +20,7 @@ PKG_SUGGESTED_OPTIONS+=	pulseaudio sdl sdl2 sfml+ soil threads xrandr x11 zlib
 .endif
 
 .if !empty(PKG_OPTIONS:Mcg)
-.include "../../wip/Cg-compiler/buildlink3.mk"
+.include "../../lang/Cg-compiler/buildlink3.mk"
 .endif
 
 .if !empty(PKG_OPTIONS:Mdebug)
