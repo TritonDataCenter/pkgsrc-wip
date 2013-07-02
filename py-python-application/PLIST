@@ -62,4 +62,4 @@ ${PYSITELIB}/application/system.pyo
 ${PYSITELIB}/application/version.py
 ${PYSITELIB}/application/version.pyc
 ${PYSITELIB}/application/version.pyo
-${PYSITELIB}/python_application-${PKGVERSION}-py2.7.egg-info
+${PYSITELIB}/${EGG_FILE}
