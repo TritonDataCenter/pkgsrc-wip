@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	eventlib-0.1.2
+DISTNAME=	eventlib-0.1.3
 CATEGORIES=	net
 MASTER_SITES=	http://pypi.python.org/packages/source/e/eventlib/
 
