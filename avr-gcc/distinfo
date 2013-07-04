@@ -6,4 +6,5 @@ Size (gcc-core-4.5.3.tar.bz2) = 28252641 bytes
 SHA1 (gcc-g++-4.5.3.tar.bz2) = fde6d16c2d4a2ab21abeaa7dc8e73e22557e8a2d
 RMD160 (gcc-g++-4.5.3.tar.bz2) = 5ef37a35671b475c1f86962dfa796133c80e6549
 Size (gcc-g++-4.5.3.tar.bz2) = 6475820 bytes
-SHA1 (patch-ab) = 4a3ab9719a6714933954a120ad8c594c3a4a2e1f
+SHA1 (patch-ab) = 4396719b8398cf9eb1f939c447dede250ceb4e26
+SHA1 (patch-libiberty_Makefile.in) = f871b64a07d2ac2bc1c0908ce5aa7246cdfc8135

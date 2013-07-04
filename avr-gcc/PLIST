@@ -166,7 +166,6 @@ lib/gcc/avr/${PKGVERSION}/plugin/include/varray.h
 lib/gcc/avr/${PKGVERSION}/plugin/include/vec.h
 lib/gcc/avr/${PKGVERSION}/plugin/include/vecprim.h
 lib/gcc/avr/${PKGVERSION}/plugin/include/version.h
-lib/libiberty.a
 libexec/gcc/avr/${PKGVERSION}/cc1
 libexec/gcc/avr/${PKGVERSION}/cc1plus
 libexec/gcc/avr/${PKGVERSION}/collect2
