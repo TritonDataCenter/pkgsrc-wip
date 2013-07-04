@@ -14,7 +14,6 @@ USE_TOOLS+=		gmake makeinfo
 GNU_CONFIGURE=		yes
 USE_PKGLOCALEDIR=	yes
 USE_GNU_CONFIGURE_HOST=	no
-USE_CROSSBASE=		yes
 
 CONFIGURE_ARGS+=	--disable-werror --target=avr --disable-nls
 
