@@ -2,7 +2,7 @@ $NetBSD$
 
 Fix SDL include paths. Not sure if this is a kludge.
 
---- source/mupen64plus-audio-sdl/src/main.c.orig	2012-03-10 18:31:34.000000000 +0000
+--- source/mupen64plus-audio-sdl/src/main.c.orig	2013-07-04 00:28:02.000000000 +0000
 +++ source/mupen64plus-audio-sdl/src/main.c
 @@ -26,8 +26,8 @@
  #include <stdlib.h>
