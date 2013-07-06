@@ -1,5 +1,9 @@
 $NetBSD$
 
+- Sort out directories
+- Change of swfurl from
+  http://lists.infradead.org/pipermail/get_iplayer/2013-June/004206.html
+
 --- get_iplayer.orig	2011-08-29 14:09:13.000000000 +0000
 +++ get_iplayer
 @@ -333,10 +333,10 @@ if ( defined $ENV{GETIPLAYERUSERPREFS} &
@@ -24,3 +28,12 @@ $NetBSD$
  my $plugin_dir_user = "$profile_dir/plugins";
  for my $plugin_dir ( ( $plugin_dir_user, $plugin_dir_system ) ) {
  	if ( opendir( DIR, $plugin_dir ) ) {
+@@ -5836,7 +5836,7 @@ sub get_stream_data_cdn {
+ 		# Common attributes
+ 		# swfurl = Default iPlayer swf version
+ 		my $conn = {
+-			swfurl		=> "http://www.bbc.co.uk/emp/revisions/18269_21576_10player.swf?revision=18269_21576",
++			swfurl		=> "http://www.bbc.co.uk/emp/releases/iplayer/revisions/617463_618125_4/617463_618125_4_emp.swf",
+ 			ext		=> $ext,
+ 			streamer	=> $streamer,
+ 			bitrate		=> $mattribs->{bitrate},
