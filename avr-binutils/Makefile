@@ -43,5 +43,8 @@ post-install:
 	${LIBTOOL} --mode install ${INSTALL_DATA} libbfd.la ${DESTDIR}${PREFIX}/avr/lib;	\
 	${INSTALL_DATA} bfd.h ${DESTDIR}${PREFIX}/avr/include;	\
 	)
-
+	(cd ${WRKSRC}/libiberty;				\
+	${MV} ${DESTDIR}${PREFIX}/lib/libiberty.a		\
+	      ${DESTDIR}${PREFIX}/avr/lib/libiberty.a		\
+	)
 .include "../../mk/bsd.pkg.mk"
