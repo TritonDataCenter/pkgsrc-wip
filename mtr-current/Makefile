@@ -3,24 +3,22 @@
 CATEGORIES=	net
 PKGBASE=	mtr
 PKGVERSION=	0.85.99
-#PKGREVISION=	1
+PKGREVISION=	1
 #
 PKGNAME=	${PKGBASE}-${PKGVERSION}
 DISTNAME=	${PKGBASE}-${GITVERSION}
 #
 # non-successive package versions workaround:
 #
-# nb1:	git:16c6a85
+# nb1:	git:1aa1097
 #	+ patch https://bugs.launchpad.net/mtr/+bug/701514
-#	+ fix https://bugs.launchpad.net/mtr/+bug/1180403
-#	+ fix https://bugs.launchpad.net/mtr/+bug/1189174
 #	+ fix https://bugs.launchpad.net/mtr/+bug/1189221
 #
 MASTER_SITES=	https://github.com/${GITHUB_USER}/${PKGBASE}/tarball/${GITVERSION}/
 FETCH_USING=	curl
 WRKSRC=		${WRKDIR}/${GITHUB_USER}-${PKGBASE}-${GITVERSION}
 
-GITVERSION=	6c94317
+GITVERSION=	1aa1097
 GITHUB_USER=	traviscross
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
