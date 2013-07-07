@@ -23,11 +23,19 @@ USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
 INFO_FILES=		yes
 
+# Interim fix
+SUBST_CLASSES+=		prefix
+SUBST_STAGE.prefix=	post-patch
+SUBST_MESSAGE.prefix=	Fix include path finding Python.h
+SUBST_FILES.prefix=	src/Makefile.in
+SUBST_VARS.prefix=	PREFIX
+
 # gcc 2.95 gives warnings that it cannot inline all functions.
 BUILDLINK_TRANSFORM+=	rm:-Werror
 
 .include "../../wip/avr-binutils/buildlink3.mk"
 .include "../../wip/avr-gcc/buildlink3.mk"
+#.include "../../wip/avr-libc/buildlink3.mk"
 .include "../../mk/curses.buildlink3.mk"
 .include "../../lang/python27/buildlink3.mk"
 .include "../../lang/tcl-itcl/buildlink3.mk"
