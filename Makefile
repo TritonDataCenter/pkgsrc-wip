@@ -1702,6 +1702,7 @@ SUBDIR+=	mupen64-plugin-input
 SUBDIR+=	mupen64-plugin-rsp
 SUBDIR+=	mupen64-plugin-sound
 SUBDIR+=	mupen64-plugin-video
+SUBDIR+=	mupen64plus-extraplugins
 SUBDIR+=	mupen64plus
 SUBDIR+=	muscle-cflexplugin
 SUBDIR+=	muscle-mcardplugin
