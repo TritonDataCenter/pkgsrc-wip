@@ -861,7 +861,6 @@ SUBDIR+=	gtkglextmm
 SUBDIR+=	gtkglk
 SUBDIR+=	gtkhotkey
 SUBDIR+=	gtksourcecompletion
-SUBDIR+=	gtksourceviewmm
 SUBDIR+=	gts
 SUBDIR+=	gtuxnes
 SUBDIR+=	gtypist
