@@ -135,6 +135,6 @@ PKGCONFIG_OVERRIDE+=    sqlite3-embedded/sqlite.pc.in
 .include "../../audio/speex/buildlink3.mk"
 .include "../../devel/readline/buildlink3.mk"
 .include "../../devel/ncurses/buildlink3.mk"
-.include "../../wip/spandsp/buildlink3.mk"
+.include "../../comms/spandsp/buildlink3.mk"
 .include "../../graphics/tiff/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
