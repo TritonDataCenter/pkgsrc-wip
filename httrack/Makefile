@@ -1,9 +1,10 @@
 # $NetBSD$
 #
 
-DISTNAME=	httrack-3.47.11
+DISTNAME=	httrack-3.47.21
 CATEGORIES=	www
-MASTER_SITES=	http://download.httrack.com/cserv.php3?File=
+MASTER_SITES=	http://download.httrack.com/cserv.php3?File= \
+		http://mirror.httrack.com/historical/
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.httrack.com/
@@ -20,10 +21,10 @@ WRKSRC=			${WRKDIR}/${PKGNAME_NOREV}
 
 REPLACE_BASH=		src/webhttrack
 
-SUBST_CLASSES+=		html
-SUBST_STAGE.html=	pre-install
-SUBST_FILES.html=	html/Makefile
-SUBST_SED.html=		-e 's,install-data-hook,,'
+SUBST_CLASSES+=		path
+SUBST_STAGE.path=	pre-build
+SUBST_FILES.path=	src/htsweb.c
+SUBST_SED.path=		-e "s|/usr/share/httrack/|${PREFIX}/share/httrack/|"
 
 .include "../../mk/dlopen.buildlink3.mk"
 .include "../../converters/libiconv/buildlink3.mk"
