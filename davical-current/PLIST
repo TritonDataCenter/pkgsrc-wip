@@ -172,6 +172,7 @@ share/davical/po/ru.po
 share/davical/po/ru.values
 share/davical/po/sv.po
 share/davical/po/sv.values
+share/davical/scripts/archive-old-events.php
 share/davical/scripts/build-always.sh
 share/davical/scripts/cron-sync-ldap.php
 share/davical/scripts/export_calendar.php
