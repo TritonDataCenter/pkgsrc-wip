@@ -1241,7 +1241,6 @@ SUBDIR+=	jakarta-oro
 SUBDIR+=	jakarta-struts
 SUBDIR+=	jalview
 SUBDIR+=	jamaica
-SUBDIR+=	jansson
 SUBDIR+=	jason
 SUBDIR+=	java-BigDecimal
 SUBDIR+=	java-asm
