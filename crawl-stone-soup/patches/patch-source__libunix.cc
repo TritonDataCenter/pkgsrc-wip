@@ -1,4 +1,5 @@
 $NetBSD$
+Resolve conflicts with term.h
 
 --- libunix.cc-orig	2013-07-13 11:50:38.000000000 +0000
 +++ libunix.cc
