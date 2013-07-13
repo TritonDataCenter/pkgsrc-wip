@@ -45,7 +45,7 @@ CONFIGURE_ARGS+=		--with-gtk3
 LIBS+=			-lcompat
 .endif
 
-BUILD_DEPENDS+=		gnome-common>=3.6nb2:../../devel/gnome-common
+BUILD_DEPENDS+=		gnome-common>=3.6.0nb1:../../devel/gnome-common
 
 .include "../../converters/libiconv/buildlink3.mk"
 .include "../../devel/gettext-lib/buildlink3.mk"
