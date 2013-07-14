@@ -2117,6 +2117,7 @@ SUBDIR+=	pdsh
 SUBDIR+=	pear-Base
 SUBDIR+=	pear-ConsoleTools
 SUBDIR+=	pear-DB_DataObject
+SUBDIR+=	pear-Finder
 SUBDIR+=	pear-HTML_Table
 SUBDIR+=	pear-HTTP_Client
 SUBDIR+=	pear-HTTP_Request2
