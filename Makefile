@@ -2177,6 +2177,7 @@ SUBDIR+=	pear-channel-theseer
 SUBDIR+=	pear-fDOMDocument
 SUBDIR+=	pear-phpcpd
 SUBDIR+=	pear-phpdcd
+SUBDIR+=	pear-phploc
 SUBDIR+=	pelican
 SUBDIR+=	pessulus
 SUBDIR+=	petsc
