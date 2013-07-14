@@ -2155,6 +2155,7 @@ SUBDIR+=	pear-Net_URL2
 SUBDIR+=	pear-PHP_Depend
 SUBDIR+=	pear-PHP_PMD
 SUBDIR+=	pear-XML_Parser
+SUBDIR+=	pear-Yaml
 SUBDIR+=	pear-channel-cake
 SUBDIR+=	pear-channel-ezc
 SUBDIR+=	pear-channel-horde
