@@ -2154,6 +2154,7 @@ SUBDIR+=	pear-Horde_Url
 SUBDIR+=	pear-Horde_Util
 SUBDIR+=	pear-Math_BigInteger
 SUBDIR+=	pear-Net_URL2
+SUBDIR+=	pear-PHPUnit_MockObject
 SUBDIR+=	pear-PHP_CodeSniffer
 SUBDIR+=	pear-PHP_Depend
 SUBDIR+=	pear-PHP_Invoker
