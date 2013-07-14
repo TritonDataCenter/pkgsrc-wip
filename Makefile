@@ -2958,6 +2958,7 @@ SUBDIR+=	sim-qt
 SUBDIR+=	simpa
 SUBDIR+=	simple-scan
 SUBDIR+=	simplec
+SUBDIR+=	simulavr
 SUBDIR+=	singular
 SUBDIR+=	sipbomber
 SUBDIR+=	sipp
