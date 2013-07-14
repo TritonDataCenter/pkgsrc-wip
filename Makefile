@@ -2149,6 +2149,7 @@ SUBDIR+=	pear-Horde_Url
 SUBDIR+=	pear-Horde_Util
 SUBDIR+=	pear-Math_BigInteger
 SUBDIR+=	pear-Net_URL2
+SUBDIR+=	pear-PHP_Depend
 SUBDIR+=	pear-XML_Parser
 SUBDIR+=	pear-channel-cake
 SUBDIR+=	pear-channel-ezc
