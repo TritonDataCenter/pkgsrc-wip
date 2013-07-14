@@ -2154,6 +2154,7 @@ SUBDIR+=	pear-Math_BigInteger
 SUBDIR+=	pear-Net_URL2
 SUBDIR+=	pear-PHP_CodeSniffer
 SUBDIR+=	pear-PHP_Depend
+SUBDIR+=	pear-PHP_Invoker
 SUBDIR+=	pear-PHP_PMD
 SUBDIR+=	pear-PHP_Timer
 SUBDIR+=	pear-PHP_TokenStream
