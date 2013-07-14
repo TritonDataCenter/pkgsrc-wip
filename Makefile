@@ -3360,6 +3360,7 @@ SUBDIR+=	xclipboard
 SUBDIR+=	xcmsdb
 SUBDIR+=	xcursor-themes
 SUBDIR+=	xdbedizzy
+SUBDIR+=	xdebug
 SUBDIR+=	xdiskusage
 SUBDIR+=	xdotool
 SUBDIR+=	xebece
