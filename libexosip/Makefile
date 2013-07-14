@@ -14,10 +14,11 @@ GNU_CONFIGURE=		YES
 USE_FEATURES+=		getopt_long
 USE_TOOLS+=	pkg-config
 
+.include "options.mk"
+
 LIBS.SunOS+=		-lsocket -lnsl
 
-.include "../../devel/libosip/buildlink3.mk"
 .include "../../net/libcares/buildlink3.mk"
-.include "../../security/openssl/buildlink3.mk"
+.include "../../devel/libosip/buildlink3.mk"
 .include "../../mk/pthread.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
