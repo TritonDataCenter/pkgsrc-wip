@@ -2156,6 +2156,7 @@ SUBDIR+=	pear-PHP_CodeSniffer
 SUBDIR+=	pear-PHP_Depend
 SUBDIR+=	pear-PHP_PMD
 SUBDIR+=	pear-PHP_Timer
+SUBDIR+=	pear-PHP_TokenStream
 SUBDIR+=	pear-Text_Template
 SUBDIR+=	pear-Version
 SUBDIR+=	pear-XML_Parser
