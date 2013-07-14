@@ -2175,6 +2175,7 @@ SUBDIR+=	pear-channel-phpunit
 SUBDIR+=	pear-channel-symfony
 SUBDIR+=	pear-channel-theseer
 SUBDIR+=	pear-fDOMDocument
+SUBDIR+=	pear-phpcpd
 SUBDIR+=	pelican
 SUBDIR+=	pessulus
 SUBDIR+=	petsc
