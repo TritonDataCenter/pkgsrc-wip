@@ -1390,7 +1390,6 @@ SUBDIR+=	libecc
 SUBDIR+=	libee
 SUBDIR+=	libepc
 SUBDIR+=	libestr
-SUBDIR+=	libexosip
 SUBDIR+=	libfm
 SUBDIR+=	libfplll
 SUBDIR+=	libfs
