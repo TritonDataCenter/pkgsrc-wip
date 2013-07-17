@@ -1,10 +1,11 @@
 # $NetBSD$
 
-DISTNAME=		tqsl-114-1
+DISTNAME=		tqsl-1.14.3
 # 1.14 instead of 114 may be better (?)
-PKGNAME=		${DISTNAME:C/[0-9]/&./}
+#PKGNAME=		${DISTNAME:C/[0-9]/&./}
 CATEGORIES=		ham
 MASTER_SITES=		http://www.arrl.org/files/file/LoTW%20Instructions/
+MASTER_SITES=		http://www.arrl.org/files/file/TrustedQSL-Beta/
 EXTRACT_SUFX=		.tgz
 
 MAINTAINER=		makoto@ki.nu
