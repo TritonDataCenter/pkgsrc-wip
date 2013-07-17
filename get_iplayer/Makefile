@@ -1,8 +1,6 @@
 # $NetBSD$
-#
 
-DISTNAME=	get_iplayer-2.80
-PKGREVISION=	1
+DISTNAME=	get_iplayer-2.82
 CATEGORIES=	net
 MASTER_SITES=	ftp://ftp.infradead.org/pub/get_iplayer/
 

@@ -1,7 +1,7 @@
 # $NetBSD: Makefile,v 1.44 2012/10/31 11:16:59 asau Exp $
 #
 
-DISTNAME=	gdb-7.5.1
+DISTNAME=	gdb-7.6
 CATEGORIES=	devel
 MASTER_SITES=	${MASTER_SITE_GNU:=gdb/}
 
@@ -23,6 +23,8 @@ TEST_TARGET=		check
 INFO_FILES=		yes
 CONFIGURE_ENV+=		CONFIG_LDFLAGS=${LDFLAGS:M*:Q}
 
+AUTO_MKDIRS=		yes
+
 .include "../../mk/bsd.prefs.mk"
 
 .if ${OPSYS} == "SunOS"
@@ -38,7 +40,6 @@ MAKE_ENV+= gdb_cv_struct_lwp=yes
 
 .elif ${OPSYS} == "Linux"
 USE_TOOLS+=		aclocal autoheader autoconf
-
 pre-configure:
 	${RUN} cd ${WRKSRC}/gdb/gdbserver &&				\
 	aclocal && autoheader && autoconf
@@ -56,16 +57,27 @@ TEST_ENV=		DEJAGNU=${WRKDIR}/../files/dragonfly-default.exp
 post-patch:
 	${RM}	${WRKSRC}/etc/standards.info
 
-.if ${OPSYS} == "DragonFly"
 post-install:
+.if ${OPSYS} == "DragonFly"
 # Following are installed by binutils
 #. for f in ansidecl.h bfdlink.h dis-asm.h symcat.h
 #	(cd ${WRKSRC}/include; ${INSTALL_DATA} ${f}  ${DESTDIR}${PREFIX}/include)
 #. endfor
 	(cd ${DESTDIR}${PREFIX}/bin;               ${LN} ${TARGET_STR}-gdb gdb)
 	(cd ${DESTDIR}${PREFIX}/${PKGMANDIR}/man1; ${LN} ${TARGET_STR}-gdb.1 gdb.1)
-
 .endif
+#
+# PATH of libiberty.a differs between clang and gcc: (and conflicts to other toolchain)
+# Rename to avoid conflict to native and other toolchain
+# and clang differs its path so, (the same as avr-binutils).
+
+	(cd ${DESTDIR}${PREFIX};				\
+	for d in ${MACHINE_ARCH}/libiberty.a libiberty.a;	\
+	  do if [ -f lib/$$d ]; then				\
+		${MV}	lib/$$d	 lib/gdb/libiberty.a;		\
+		break;						\
+	     fi;						\
+	  done;	)
 
 .include "../../mk/termcap.buildlink3.mk"
 .include "../../devel/gettext-lib/buildlink3.mk"

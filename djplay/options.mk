@@ -50,5 +50,5 @@ CONFIGURE_ARGS+=	--disable-nls
 .endif
 
 .if !empty(PKG_OPTIONS:Mtap)
-.include "../../wip/tap-plugins/buildlink3.mk"
+.include "../../audio/tap-plugins/buildlink3.mk"
 .endif

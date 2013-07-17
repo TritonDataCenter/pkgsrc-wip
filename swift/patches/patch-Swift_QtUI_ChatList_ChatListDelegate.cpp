@@ -1,5 +1,7 @@
 $NetBSD$
 
+Fix include paths to qt header files.
+
 --- Swift/QtUI/ChatList/ChatListDelegate.cpp.orig	2011-04-22 21:07:47.000000000 +0000
 +++ Swift/QtUI/ChatList/ChatListDelegate.cpp
 @@ -4,8 +4,8 @@

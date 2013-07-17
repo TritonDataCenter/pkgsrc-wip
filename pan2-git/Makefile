@@ -7,6 +7,7 @@ MASTER_SITES=		http://github.com/lostcoder/pan2
 MAINTAINER=		rhialto@falu.nl
 HOMEPAGE=		http://pan.rebelbase.com/
 COMMENT=		Newsreader for GTK2
+LICENSE=		gnu-gpl-v2
 
 # These are various repositories for Pan, ordered from latest to oldest.
 # It is discussed in the mailing list at
@@ -37,13 +38,14 @@ GNU_CONFIGURE=		YES
 #CONFIGURE_ENV+=		LDFLAGS=-ggdb
 CONFIGURE_ARGS+=		ZLIB_CFLAGS=-I${BUILDLINK_PREFIX.zlib}/include
 CONFIGURE_ARGS+=		ZLIB_LIBS="${COMPILER_RPATH_FLAG}${BUILDLINK_PREFIX.zlib}/lib -L${BUILDLINK_PREFIX.zlib}/lib -lz"
+CONFIGURE_ARGS+=		--with-gtk3
 
 .include "../../mk/bsd.prefs.mk"
 .if (${OPSYS} != "Darwin" && ${OPSYS} != "SunOS" && ${OPSYS} != "Linux")
 LIBS+=			-lcompat
 .endif
 
-BUILD_DEPENDS+=		gnome-common>=3.6:../../devel/gnome-common
+BUILD_DEPENDS+=		gnome-common>=3.6.0nb1:../../devel/gnome-common
 
 .include "../../converters/libiconv/buildlink3.mk"
 .include "../../devel/gettext-lib/buildlink3.mk"
@@ -52,12 +54,15 @@ BUILD_DEPENDS+=		gnome-common>=3.6:../../devel/gnome-common
 .include "../../mail/gmime24/buildlink3.mk"
 CONFIGURE_ARGS+=	--with-gnutls
 .include "../../security/gnutls/buildlink3.mk"			# optional
-.include "../../security/libgnome-keyring/buildlink3.mk"	# optional
-.include "../../sysutils/dbus/buildlink3.mk"			# optional
+# default-off
+#.include "../../security/libgnome-keyring/buildlink3.mk"	# optional
+# default-off
+#.include "../../sysutils/dbus/buildlink3.mk"			# optional
 .include "../../sysutils/desktop-file-utils/desktopdb.mk"
-.include "../../sysutils/libnotify/buildlink3.mk"		# optional
+# default-off
+#.include "../../sysutils/libnotify07/buildlink3.mk"		# optional
 .include "../../textproc/gtkspell/buildlink3.mk"		# optional
-.include "../../x11/gtk2/buildlink3.mk"
+.include "../../x11/gtk3/buildlink3.mk"
 
 .include "../../wip/mk/git-package.mk"
 .include "../../mk/bsd.pkg.mk"

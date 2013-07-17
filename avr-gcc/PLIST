@@ -166,7 +166,6 @@ lib/gcc/avr/${PKGVERSION}/plugin/include/varray.h
 lib/gcc/avr/${PKGVERSION}/plugin/include/vec.h
 lib/gcc/avr/${PKGVERSION}/plugin/include/vecprim.h
 lib/gcc/avr/${PKGVERSION}/plugin/include/version.h
-lib/libiberty.a
 libexec/gcc/avr/${PKGVERSION}/cc1
 libexec/gcc/avr/${PKGVERSION}/cc1plus
 libexec/gcc/avr/${PKGVERSION}/collect2
@@ -175,7 +174,6 @@ libexec/gcc/avr/${PKGVERSION}/install-tools/fixincl
 libexec/gcc/avr/${PKGVERSION}/install-tools/mkheaders
 libexec/gcc/avr/${PKGVERSION}/install-tools/mkinstalldirs
 libexec/gcc/avr/${PKGVERSION}/lto-wrapper
-libexec/gcc/avr/${PKGVERSION}/lto1
 man/man1/avr-cpp.1
 man/man1/avr-g++.1
 man/man1/avr-gcc.1

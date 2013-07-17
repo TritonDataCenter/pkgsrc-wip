@@ -1,0 +1,4 @@
+@comment $NetBSD$
+bin/${FILTER}
+man/man1/${FILTER}.1
+share/examples/${FILTER}/${FILTER}.conf

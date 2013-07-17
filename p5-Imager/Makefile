@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=		Imager-0.82
+DISTNAME=		Imager-0.97
 PKGNAME=		p5-${DISTNAME}
 CATEGORIES=		graphics perl5
 MASTER_SITES=		${MASTER_SITE_PERL_CPAN:=Imager/}
@@ -11,13 +11,6 @@ COMMENT=		Perl module for manipulating gray, color, and RGBA format images
 LICENSE=		${PERL5_LICENSE}
 
 USE_MULTIARCH=		lib
-
-#MAKE_PARAMS+=		--disable gif
-
-SUBST_CLASSES+=		ft1
-SUBST_STAGE.ft1=	post-configure
-SUBST_FILES.ft1=	Makefile
-SUBST_SED.ft1=		-e 's,-I/usr/local/include/freetype ,,g'
 
 PERL5_PACKLIST=		auto/Imager/.packlist
 

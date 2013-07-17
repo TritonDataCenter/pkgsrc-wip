@@ -1,16 +1,15 @@
 $NetBSD$
 
-Correctly move library and symbolic link.
+Disable the GlideHQ plugin for now, because it doesn't build on NetBSD.
 
---- m64p_build.sh.orig	2011-07-09 18:29:36.000000000 +0000
+--- m64p_build.sh.orig	2013-02-26 20:22:53.000000000 +0000
 +++ m64p_build.sh
-@@ -32,8 +32,7 @@ fi
- echo "************************************ Building core library"
- "$MAKE" -C source/mupen64plus-core/projects/unix clean
- "$MAKE" -C source/mupen64plus-core/projects/unix all $@
--cp source/mupen64plus-core/projects/unix/libmupen64plus.so.2.* ./test/
--mv source/mupen64plus-core/projects/unix/libmupen64plus.so.2 ./test/
-+cp -P source/mupen64plus-core/projects/unix/libmupen64plus.so.2* ./test/
- cp source/mupen64plus-core/data/* ./test/
- gunzip --stdout source/mupen64plus-core/roms/m64p_test_rom.v64.gz > ./test/m64p_test_rom.v64
+@@ -27,7 +27,7 @@ if [ -z "$MAKE" ]; then
+ 	MAKE=make
+ fi
+ if [ -z "$M64P_COMPONENTS" ]; then
+-	M64P_COMPONENTS="core rom ui-console audio-sdl input-sdl rsp-hle video-rice video-glide64mk2"
++	M64P_COMPONENTS="core rom ui-console audio-sdl input-sdl rsp-hle video-rice"
+ fi
  
+ mkdir -p ./test/

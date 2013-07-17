@@ -10,6 +10,10 @@ BUILDLINK_PKGSRCDIR.openmpi?=	../../wip/openmpi
 
 MPI_PREFIX?=	$(BUILDLINK_PREFIX.openmpi)
 FIND_PREFIX:=	BUILDLINK_PREFIX.openmpi=openmpi
+
+# Make sure dependent ports use correct MPI compiler wrappers
+PREPEND_PATH+=	$(MPI_PREFIX)/bin
+
 .include "../../mk/find-prefix.mk"
 
 .include "../../parallel/hwloc/buildlink3.mk"

@@ -1,4 +1,0 @@
-Fix CROSSBASE issue
-  This one installs under CROSSBASE,
-  while cross/avr-binutils does not use CROSSBASE.
-  I personally can't tell which is good for the time being.

@@ -1,8 +1,8 @@
 @comment $NetBSD$
 bin/sippasswd
+bin/sipquery
 bin/sipwitch
 bin/sipwitch-cgi
-${PLIST.qt}bin/switchview
 include/sipwitch/cache.h
 include/sipwitch/cdr.h
 include/sipwitch/control.h
@@ -17,4 +17,9 @@ include/sipwitch/stats.h
 include/sipwitch/uri.h
 lib/libsipwitch.so
 lib/libsipwitch.so.1
-lib/libsipwitch.so.${PKGVERSION}
+lib/libsipwitch.so.1.${OS_VERSION}
+lib/sipwitch/forward.so
+lib/sipwitch/scripting.so
+lib/sipwitch/subscriber.so
+lib/sipwitch/zeroconf.so
+sbin/sipw

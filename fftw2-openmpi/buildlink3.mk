@@ -9,7 +9,7 @@ FFTW2_OPENMPI_BUILDLINK3_MK:=
 BUILDLINK_API_DEPENDS.fftw2-openmpi+=	fftw2-openmpi>=2.1.5
 BUILDLINK_PKGSRCDIR.fftw2-openmpi?=	../../wip/fftw2-openmpi
 
-.include "../../wip/openmpi-prefixed/buildlink3.mk"
+.include "../../wip/openmpi163/buildlink3.mk"
 .endif	# FFTW2_OPENMPI_BUILDLINK3_MK
 
 BUILDLINK_TREE+=	-fftw2-openmpi

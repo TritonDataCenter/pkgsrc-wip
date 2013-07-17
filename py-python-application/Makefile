@@ -13,6 +13,8 @@ LICENSE=	gnu-lgpl-v2
 
 USE_LANGUAGES=	# none
 
+EGG_NAME=	${DISTNAME:S/-/_/1}
+
 DEPENDS+=	${PYPKGPREFIX}-ZopeInterface-[0-9]*:../../devel/py-ZopeInterface
 .include "../../lang/python/distutils.mk"
 .include "../../mk/bsd.pkg.mk"

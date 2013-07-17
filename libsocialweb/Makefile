@@ -16,6 +16,7 @@ USE_LIBTOOL=	yes
 USE_TOOLS+=	pkg-config intltool msgfmt
 USE_TOOLS+=	gmake
 USE_TOOLS+=	perl
+USE_PKGLOCALEDIR=	yes
 
 PKGCONFIG_OVERRIDE+=	libsocialweb-client.pc.in libsocialweb-keyfob.pc.in \
 			libsocialweb-keystore.pc.in libsocialweb-module.pc.in

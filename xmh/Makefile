@@ -14,6 +14,8 @@ COMMENT=	Provides a GUI to the MH Message Handling System
 GNU_CONFIGURE=	yes
 USE_TOOLS+=	pkg-config
 
+MAKE_FLAGS+=	appdefaultdir=${PREFIX}/lib/X11/app-defaults
+
 BUILDLINK_API_DEPENDS.xbitmaps+=	xbitmaps>=1.1.0
 .include "../../x11/xbitmaps/buildlink3.mk"
 .include "../../x11/libXt/buildlink3.mk"

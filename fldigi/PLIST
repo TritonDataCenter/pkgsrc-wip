@@ -8,6 +8,9 @@ man/man1/fldigi.1
 share/applications/flarq.desktop
 share/applications/fldigi.desktop
 share/fldigi/NAVTEX_Stations.csv
+share/fldigi/ToR-Stats-SHIP.csv
+share/fldigi/nsd_bbsss.txt
+share/fldigi/station_table.txt
 share/locale/es/LC_MESSAGES/fldigi.mo
 share/locale/fr/LC_MESSAGES/fldigi.mo
 share/locale/it/LC_MESSAGES/fldigi.mo

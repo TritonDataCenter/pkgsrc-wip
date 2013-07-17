@@ -18,6 +18,8 @@ SUBST_SED.gnutls=	-e 's/26/28/g'
 SUBST_SED.gnutls+=	-e "s|/usr/local/lib']|${PREFIX}/lib']|1"
 SUBST_STAGE.gnutls=	post-patch
 
+EGG_NAME=	${DISTNAME:S/-/_/1}
+
 .include "../../security/gnutls/buildlink3.mk"
 .include "../../lang/python/distutils.mk"
 .include "../../mk/bsd.pkg.mk"

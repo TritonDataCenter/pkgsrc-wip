@@ -1,5 +1,0 @@
-@comment $NetBSD$
-include/jansson.h
-include/jansson_config.h
-lib/libjansson.la
-lib/pkgconfig/jansson.pc

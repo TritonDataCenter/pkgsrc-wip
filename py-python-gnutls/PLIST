@@ -39,4 +39,4 @@ ${PYSITELIB}/gnutls/library/types.pyo
 ${PYSITELIB}/gnutls/validators.py
 ${PYSITELIB}/gnutls/validators.pyc
 ${PYSITELIB}/gnutls/validators.pyo
-${PYSITELIB}/python_gnutls-${PKGVERSION}-py2.7.egg-info
+${PYSITELIB}/${EGG_FILE}

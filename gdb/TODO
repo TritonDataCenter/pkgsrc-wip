@@ -7,6 +7,8 @@ TODO
 - Run pkglint and do cleanup.
 - Is the addition of libpthread_dbg necessary for full functionality
   as done by the gdb 7.3 in NetBSD src ?
+- patch-opcodes_configure
+  (This reverts to 7.5.1, why this is necessary is unknown now)
 
 DONE
 - NetBSD/amd64 6.1_RC1 and 6.99.19 OK Tested with gcc/gfortran 4.8.0
@@ -115,3 +117,35 @@ DONE
    # of untested testcases         176
    # of unresolved testcases       7
    # of unsupported tests          159
+
+- NetBSD/amd64 6.99.22 (clang 3.2)  (with gdb-7.6)
+   -----
+                === gdb Summary ===
+   # of expected passes            2895
+   # of unexpected failures        3284
+   # of expected failures          14
+   # of known failures             4
+   # of untested testcases         220
+   # of unresolved testcases       359
+   # of unsupported tests          151
+
+- NetBSD/amd64 6.99.22 (gcc-4.5.4)  (with gdb-7.6)
+   -----
+                === gdb Summary ===
+   # of expected passes            3253
+   # of unexpected failures        4304
+   # of expected failures          19
+   # of known failures             11
+   # of untested testcases         181
+   # of unresolved testcases       518
+   # of unsupported tests          130
+
+- NetBSD/macppc 6.1 (gcc-4.5.3, gdb-7.6)
+                === gdb Summary ===
+   # of expected passes            3135
+   # of unexpected failures        4041
+   # of expected failures          19
+   # of known failures             11
+   # of untested testcases         182
+   # of unresolved testcases       490
+   # of unsupported tests          131
