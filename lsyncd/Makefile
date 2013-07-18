@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	lsyncd-2.0.5
+DISTNAME=	lsyncd-2.1.5
 CATEGORIES=	net
 MASTER_SITES=	http://lsyncd.googlecode.com/files/
 
