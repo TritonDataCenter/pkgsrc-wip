@@ -10,6 +10,8 @@ HOMEPAGE=		http://www.erlang.org/
 COMMENT=		Concurrent functional programming language
 LICENSE=		erlang-public-license
 
+CONFLICTS+=		erlang-[0-9]*
+
 DIST_SUBDIR=		erlang
 WRKSRC=			$(WRKDIR)/otp_src_${DIST_VERSION_MAJOR}
 
