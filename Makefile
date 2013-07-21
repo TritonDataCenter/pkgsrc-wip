@@ -13,7 +13,6 @@ SUBDIR+=	FontManager
 SUBDIR+=	GNUMail-pgp
 SUBDIR+=	GSCommander
 SUBDIR+=	GoogleEarth
-SUBDIR+=	InfoNES
 SUBDIR+=	LabPlot
 SUBDIR+=	Mesa
 SUBDIR+=	MesaLib
