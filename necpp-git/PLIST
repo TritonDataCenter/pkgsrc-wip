@@ -1,0 +1,5 @@
+@comment $NetBSD$
+bin/nec2++
+bin/nec2diff
+include/libnecpp.h
+lib/libnecpp.la

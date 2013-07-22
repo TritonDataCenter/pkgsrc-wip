@@ -112,6 +112,7 @@ do-install:
 	   RIAK_PATH=${WRKSRC} VERSION_STRING=${PKGVERSION_NOREV} \
            ${MAKE_PROGRAM} ${MAKE_FLAGS} ${INSTALL_MAKE_FLAGS}
 
+.include "../../devel/ncurses/buildlink3.mk"
 BUILDLINK_DEPMETHOD.erlang=	build
 .include "../../wip/erlang15/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
