@@ -1,21 +1,21 @@
 # $NetBSD$
 #
 
-VERSION=0.8.8a
 DISTNAME=	cacti-spine-${VERSION}
+#PKGREVISION=	1
+CATEGORIES=	net
+MASTER_SITES=	http://www.cacti.net/downloads/spine/
 DISTFILES=		${DISTNAME}${EXTRACT_SUFX}
 DISTFILES+=		spine.1.gz
 SITES.spine.1.gz=	\
 	http://manpages.ubuntu.com/manpages.gz/precise/man1/
-#PKGREVISION=           1
-CATEGORIES=	net
-MASTER_SITES=	http://www.cacti.net/downloads/spine/
 
 MAINTAINER=	pettai@nordu.net
 HOMEPAGE=	http://www.cacti.net/spine_info.php
 COMMENT=	Spine is a poller for Cacti for large installations
 LICENSE=	gnu-lgpl-v2.1
 
+VERSION=0.8.8a
 WRKSRC=		${WRKDIR}/${DISTNAME}
 USE_LANGUAGES=	c c++
 USE_LIBTOOL=	yes
