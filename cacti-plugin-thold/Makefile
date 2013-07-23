@@ -11,7 +11,7 @@ HOMEPAGE=		http://docs.cacti.net/
 COMMENT=		Treshold plugin to cacti
 LICENSE=		gnu-gpl-v2
 
-VERSION=		0.4.9-3
+VERSION=		0.5.0
 EXTRACT_SUFX=		.tgz
 
 USE_LANGUAGES=		# none
