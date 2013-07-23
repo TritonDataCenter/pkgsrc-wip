@@ -365,6 +365,7 @@ SUBDIR+=	cream
 SUBDIR+=	crm114
 SUBDIR+=	crossroads-io
 SUBDIR+=	crrcsim
+SUBDIR+=	crush-tools
 SUBDIR+=	cryptcat
 SUBDIR+=	csmith
 SUBDIR+=	csoap
