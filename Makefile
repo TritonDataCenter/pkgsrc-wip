@@ -3315,6 +3315,7 @@ SUBDIR+=	vpnc-script
 SUBDIR+=	vpnc-svn
 SUBDIR+=	vpr
 SUBDIR+=	vreng
+SUBDIR+=	wackamole
 SUBDIR+=	wang-ttf
 SUBDIR+=	wbox
 SUBDIR+=	webcleaner
