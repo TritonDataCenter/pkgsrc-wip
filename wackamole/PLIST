@@ -1,0 +1,7 @@
+@comment $NetBSD$
+man/man5/wackamole.conf.5
+man/man8/wackamole.8
+man/man8/wackatrl.8
+sbin/wackamole
+sbin/wackatrl
+share/examples/wackamole/wackamole.conf

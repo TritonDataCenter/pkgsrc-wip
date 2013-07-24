@@ -1,0 +1,7 @@
+===========================================================================
+$NetBSD$
+
+cacti-plugin-rrdclean is now installed.
+You can enable it in the "Plugin Management" category on the web interface.
+
+===========================================================================

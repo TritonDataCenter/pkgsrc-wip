@@ -1,0 +1,4 @@
+@comment $NetBSD$
+bin/dumpobj
+bin/macro11
+share/doc/macro11/README
