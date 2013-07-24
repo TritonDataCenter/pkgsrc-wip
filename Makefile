@@ -2644,6 +2644,7 @@ SUBDIR+=	py-pysal
 SUBDIR+=	py-pysb
 SUBDIR+=	py-pyslha
 SUBDIR+=	py-pysph
+SUBDIR+=	py-pysphere
 SUBDIR+=	py-pyswisseph
 SUBDIR+=	py-pythia
 SUBDIR+=	py-pythics
