@@ -17,7 +17,7 @@ DEPENDS+=	p5-Getopt-Long-[0-9]*:../../devel/p5-Getopt-Long
 
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
-USE_TOOLS+=	gmake perl
+USE_TOOLS+=	gm4 gmake perl
 
 CFLAGS.SunOS+=	-Du_int32_t=uint32_t
 
