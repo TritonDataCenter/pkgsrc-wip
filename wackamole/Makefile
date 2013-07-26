@@ -10,7 +10,7 @@ COMMENT=	Peer-to-peer high availability cluster
 #LICENSE=	# TODO: (see mk/license.mk)
 
 GNU_CONFIGURE=		yes
-USE_TOOLS+=		yacc
+USE_TOOLS+=		flex yacc
 
 .include "../../mk/bsd.fast.prefs.mk"
 
