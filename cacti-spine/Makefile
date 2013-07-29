@@ -21,9 +21,7 @@ USE_LANGUAGES=	c c++
 USE_LIBTOOL=	yes
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS=	--with-mysql=${BUILDLINK_PREFIX.mysql-client}
-USE_TOOLS+=	autoconf autoheader automake aclocal
 
-BUILD_DEPENDS+=	automake-[0-9]*:../../devel/automake
 DEPENDS+=	cacti>=0.8.7:../../net/cacti
 
 DOCDIR=			share/doc/cacti-spine
