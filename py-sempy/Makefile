@@ -9,6 +9,7 @@ MASTER_SITES=	http://pypi.python.org/packages/source/s/sempy/
 MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	http://pypi.python.org/packages/source/s/sempy/
 COMMENT=	Python implementation of the spectral element method
+LICENSE=	gnu-gpl-v2
 
 WRKSRC=		${WRKDIR}/sempy-0.0.18
 

@@ -1,0 +1,4 @@
+@comment $NetBSD$
+${PYSITELIB}/mdp.py
+${PYSITELIB}/mdp.pyc
+${PYSITELIB}/mdp.pyo
