@@ -897,6 +897,7 @@ SUBDIR+=	hawk
 SUBDIR+=	hawknl
 SUBDIR+=	haydar-fonts
 SUBDIR+=	haze
+SUBDIR+=	hdevtools
 SUBDIR+=	hdhomerun_config
 SUBDIR+=	hdparm
 SUBDIR+=	heimdall
