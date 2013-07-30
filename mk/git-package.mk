@@ -80,10 +80,10 @@ GIT_MODULE.${repo}?=	${repo}
 
 # determine appropriate checkout date or tag
 .  if defined(GIT_TAG.${repo})
-_GIT_TAG_FLAG.${repo}=	-r${GIT_TAG.${repo}}
+_GIT_TAG_FLAG.${repo}=	-b ${GIT_TAG.${repo}}
 _GIT_TAG.${repo}=	${GIT_TAG.${repo}}
 .  elif defined(GIT_TAG)
-_GIT_TAG_FLAG.${repo}=	-r${GIT_TAG}
+_GIT_TAG_FLAG.${repo}=	-b ${GIT_TAG}
 _GIT_TAG.${repo}=	${GIT_TAG}
 .  elif defined(CHECKOUT_DATE)
 _GIT_TAG_FLAG.${repo}=	-D${CHECKOUT_DATE:Q}
@@ -123,6 +123,7 @@ do-git-extract:
 	${SETENV} ${_GIT_ENV}						\
 		${_GIT_CMD} clone					\
 			${_GIT_FLAGS}		 			\
+			${_GIT_TAG_FLAG.${_repo_}}			\
 			${GIT_REPO.${_repo_}:Q};			\
 	${_GIT_CREATE_CACHE.${_repo_}}
 .endfor
