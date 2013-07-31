@@ -3045,6 +3045,7 @@ SUBDIR+=	spatt
 SUBDIR+=	spawnfcgi
 SUBDIR+=	spe
 SUBDIR+=	spectrum
+SUBDIR+=	spectrwm
 SUBDIR+=	speedx
 SUBDIR+=	spfmilter
 SUBDIR+=	sphinxsearch
