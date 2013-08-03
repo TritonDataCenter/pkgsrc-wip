@@ -2596,7 +2596,6 @@ SUBDIR+=	py-papy
 SUBDIR+=	py-papyon
 SUBDIR+=	py-papyros
 SUBDIR+=	py-paragram
-SUBDIR+=	py-parsing
 SUBDIR+=	py-pcapy
 SUBDIR+=	py-peak-rules
 SUBDIR+=	py-pebl
