@@ -1,7 +1,6 @@
 # $NetBSD$
-#
 
-DISTNAME=	xfwp-1.0.2
+DISTNAME=	xfwp-1.0.3
 CATEGORIES=	net
 MASTER_SITES=	${MASTER_SITE_XORG:=app/}
 EXTRACT_SUFX=	.tar.bz2
