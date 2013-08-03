@@ -3440,7 +3440,6 @@ SUBDIR+=	xfce48
 SUBDIR+=	xfconf
 SUBDIR+=	xfs
 SUBDIR+=	xfsinfo
-SUBDIR+=	xfwp
 SUBDIR+=	xgfe
 SUBDIR+=	xgobi
 SUBDIR+=	xhkeys1
