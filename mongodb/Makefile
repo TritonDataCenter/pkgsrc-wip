@@ -37,6 +37,8 @@ SCONS_ARGS+=	--64
 SCONS_ARGS+=	--32
 .endif
 
+CFLAGS+=	-fno-jump-tables
+
 .include "options.mk"
 
 BUILD_DEFS+=		VARBASE
