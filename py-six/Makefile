@@ -4,7 +4,8 @@
 DISTNAME=		six-1.3.0
 PKGNAME=		${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=		devel
-MASTER_SITES=	http://pypi.python.org/packages/source/s/six/
+MASTER_SITES=	https://pypi.python.org/packages/source/s/six/
+FETCH_USING=	curl
 
 MAINTAINER=		ahp-nils@users.sourceforge.net
 HOMEPAGE=		http://pypi.python.org/pypi/six/
