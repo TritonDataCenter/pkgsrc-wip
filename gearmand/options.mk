@@ -18,7 +18,7 @@ CONFIGURE_ARGS+=	--disable-dtrace
 ### MySQL support
 ###
 .if !empty(PKG_OPTIONS:Mmysql)
-CONFIGURE_ARGS+=	--with-mysql=${MYSQL_PREFIX}/bin/mysql_config
+CONFIGURE_ARGS+=	--with-mysql=${BUILDLINK_PREFIX.mysql-client}/bin/mysql_config
 .include "../../mk/mysql.buildlink3.mk"
 .else
 CONFIGURE_ARGS+=	--with-mysql=no

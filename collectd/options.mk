@@ -347,6 +347,7 @@ CONFIGURE_ARGS+=	--disable-openvpn
 .if !empty(PKG_OPTIONS:Mperl)
 .include "../../lang/perl5/buildlink3.mk"
 CONFIGURE_ARGS+=	--enable-perl
+BUILDLINK_TRANSFORM+=	rm:-fstack-protector
 PLIST.perl=	yes
 .else
 CONFIGURE_ARGS+=	--disable-perl

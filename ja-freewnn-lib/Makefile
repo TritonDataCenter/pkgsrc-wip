@@ -3,6 +3,9 @@
 .include "../../wip/ja-freewnn-lib/Makefile.common"
 
 PKGNAME=	ja-FreeWnn-lib-1.11alpha22
+# DISTFILE now includes all patches, the same PKGNAME, almost the same binary
+# but build is different, and binary may not be exactly the same
+PKGREVISION=	1
 
 COMMENT+=	(Japanese client library)
 

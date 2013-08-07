@@ -2,8 +2,8 @@
 # used by wip/ja-freewnn-server/Makefile
 # used by wip/ja-freewnn-lib/Makefile
 
-DISTNAME=	FreeWnn-1.1.1-a021
-MASTER_SITES=   ${MASTER_SITE_SOURCEFORGE_JP:=freewnn/17724/}   \
+DISTNAME=	FreeWnn-1.1.1-a022
+MASTER_SITES=   ${MASTER_SITE_SOURCEFORGE_JP:=freewnn/59257/}   \
                 ftp://ftp.st.ryukoku.ac.jp/pub/japanese-im/FreeWnn/
 CATEGORIES=	inputmethod
 

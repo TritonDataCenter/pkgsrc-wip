@@ -243,6 +243,7 @@ share/lilypond/${PKGVERSION}/python/rational.py
 share/lilypond/${PKGVERSION}/python/rational.pyc
 share/lilypond/${PKGVERSION}/python/safeeval.py
 share/lilypond/${PKGVERSION}/python/safeeval.pyc
+share/lilypond/${PKGVERSION}/scm/accreg.scm
 share/lilypond/${PKGVERSION}/scm/auto-beam.scm
 share/lilypond/${PKGVERSION}/scm/autochange.scm
 share/lilypond/${PKGVERSION}/scm/backend-library.scm
