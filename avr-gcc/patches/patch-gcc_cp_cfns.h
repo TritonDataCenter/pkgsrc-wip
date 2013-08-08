@@ -1,4 +1,4 @@
-$NetBSD: patch-gcc_cp_cfns.h,v 1.2 2012/12/12 23:44:40 dsainty Exp $
+$NetBSD: patch-gcc_cp_cfns.h,v 1.3 2013/08/07 03:11:35 mef Exp $
 
 date: 2012-11-16 09:38:21 +0900;  author: joerg;  state: Exp;
 Fix inline usage.

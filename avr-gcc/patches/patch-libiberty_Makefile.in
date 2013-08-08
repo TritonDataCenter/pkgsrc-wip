@@ -1,4 +1,4 @@
-$NetBSD$
+$NetBSD: patch-libiberty_Makefile.in,v 1.1 2013/08/07 03:11:35 mef Exp $
 
 Not install libiberty.a
 to avoid duplication (conflict) with other cross tool-chain (mef@).
