@@ -2997,6 +2997,7 @@ SUBDIR+=	simpa
 SUBDIR+=	simple-scan
 SUBDIR+=	simplec
 SUBDIR+=	simulavr
+SUBDIR+=	simulavr-git
 SUBDIR+=	singular
 SUBDIR+=	sipbomber
 SUBDIR+=	sipp
