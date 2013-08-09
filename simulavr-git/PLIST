@@ -11,13 +11,14 @@ include/simulavr/atmega16_32.h
 include/simulavr/atmega668base.h
 include/simulavr/atmega8.h
 include/simulavr/attiny2313.h
+include/simulavr/attiny25_45_85.h
 include/simulavr/avrdevice.h
 include/simulavr/avrdevice_impl.h
 include/simulavr/avrerror.h
 include/simulavr/avrfactory.h
 include/simulavr/avrmalloc.h
-include/simulavr/breakpoint.h
-include/simulavr/config_deprecated.h
+include/simulavr/avrreadelf.h
+include/simulavr/avrsignature.h
 include/simulavr/decoder.h
 include/simulavr/dumpargs.h
 include/simulavr/externalirq.h
@@ -27,7 +28,6 @@ include/simulavr/flash.h
 include/simulavr/flashprog.h
 include/simulavr/funktor.h
 include/simulavr/gdb.h
-include/simulavr/global.h
 include/simulavr/hardware.h
 include/simulavr/helper.h
 include/simulavr/hwacomp.h
