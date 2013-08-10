@@ -1,3 +1,4 @@
 @comment $NetBSD$
 bin/sxiv
 man/man1/sxiv.1
+share/sxiv/exec/image-info
