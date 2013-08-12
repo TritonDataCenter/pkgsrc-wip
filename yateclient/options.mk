@@ -16,6 +16,8 @@ PLIST_VARS+=		doc gsm spandsp speex
 BUILD_DEPENDS+=		doxygen-[0-9]*:../../devel/doxygen
 CONFIGURE_ARGS+=	--with-doxygen=yes
 PLIST.doc=		yes
+.else
+CONFIGURE_ARGS+=	--with-doxygen=no
 .endif
 
 .if !empty(PKG_OPTIONS:Mgsm)
