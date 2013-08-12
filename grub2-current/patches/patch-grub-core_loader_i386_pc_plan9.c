@@ -2,10 +2,10 @@ $NetBSD$
 
 Prevent warning with lang/gcc44, leading to build failure.
 
---- grub-core/loader/i386/pc/plan9.c.orig	2012-03-04 00:00:08.000000000 +0000
+--- grub-core/loader/i386/pc/plan9.c.orig	2013-08-12 11:30:38.000000000 +0000
 +++ grub-core/loader/i386/pc/plan9.c
-@@ -102,6 +102,8 @@ grub_plan9_unload (void)
-   return GRUB_ERR_NONE;
+@@ -358,6 +358,8 @@ fill_disk (const char *name, void *data)
+   return 0;
  }
  
 +#pragma GCC diagnostic ignored "-Wstrict-aliasing"
