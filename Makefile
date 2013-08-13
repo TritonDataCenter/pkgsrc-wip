@@ -1358,6 +1358,7 @@ SUBDIR+=	libanimal
 SUBDIR+=	libargp
 SUBDIR+=	libassa
 SUBDIR+=	libavc1394
+SUBDIR+=	libbacon
 SUBDIR+=	libbfio
 SUBDIR+=	libbrahe
 SUBDIR+=	libbs2b
