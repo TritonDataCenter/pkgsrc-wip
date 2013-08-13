@@ -1454,6 +1454,7 @@ SUBDIR+=	libowl-av
 SUBDIR+=	libpafe
 SUBDIR+=	libpano12
 SUBDIR+=	libpar2
+SUBDIR+=	libpare
 SUBDIR+=	libparsifal
 SUBDIR+=	libpcap-latest
 SUBDIR+=	libpsurface
