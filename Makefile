@@ -3260,6 +3260,7 @@ SUBDIR+=	tuxtype2
 SUBDIR+=	tvmet
 SUBDIR+=	tw_cli
 SUBDIR+=	twinkle
+SUBDIR+=	twintk
 SUBDIR+=	twitim
 SUBDIR+=	twitmail
 SUBDIR+=	twittering-mode
