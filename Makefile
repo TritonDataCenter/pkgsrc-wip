@@ -3333,6 +3333,7 @@ SUBDIR+=	vreng
 SUBDIR+=	wackamole
 SUBDIR+=	wang-ttf
 SUBDIR+=	wbox
+SUBDIR+=	webbrowser
 SUBDIR+=	webcleaner
 SUBDIR+=	webkit-sharp
 SUBDIR+=	weland
