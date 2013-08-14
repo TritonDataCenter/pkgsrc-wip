@@ -3069,6 +3069,7 @@ SUBDIR+=	srvx
 SUBDIR+=	sselp
 SUBDIR+=	ssid
 SUBDIR+=	ssu
+SUBDIR+=	st
 SUBDIR+=	stardict
 SUBDIR+=	stardict-tools
 SUBDIR+=	stfl
