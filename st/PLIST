@@ -1,0 +1,3 @@
+@comment $NetBSD$
+bin/st
+man/man1/st.1
