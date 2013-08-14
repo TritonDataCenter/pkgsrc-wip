@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	libpare-1.1.1
-CATEGORIES=	jb-wip
+CATEGORIES=	devel
 MASTER_SITES=	http://personalpages.tds.net/~jwbacon/Ports/distfiles/ \
 		http://acadix.biz/Ports/distfiles/
 

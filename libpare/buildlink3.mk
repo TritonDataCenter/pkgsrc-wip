@@ -16,7 +16,7 @@ BUILDLINK_TREE+=	libpare
 LIBPARE_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.libpare+=	libpare>=1.1.1
-BUILDLINK_PKGSRCDIR.libpare?=	../../jb-wip/libpare
+BUILDLINK_PKGSRCDIR.libpare?=	../../wip/libpare
 .endif	# LIBPARE_BUILDLINK3_MK
 
 BUILDLINK_TREE+=	-libpare

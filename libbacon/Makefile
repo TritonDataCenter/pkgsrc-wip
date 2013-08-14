@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	libbacon-1.2.1
-CATEGORIES=	jb-wip
+CATEGORIES=	devel
 MASTER_SITES=	http://personalpages.tds.net/~jwbacon/Ports/distfiles/
 
 MAINTAINER=	jwbacon@tds.net

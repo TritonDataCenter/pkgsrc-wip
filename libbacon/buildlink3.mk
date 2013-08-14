@@ -16,7 +16,7 @@ BUILDLINK_TREE+=	libbacon
 LIBBACON_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.libbacon+=	libbacon>=1.2.1
-BUILDLINK_PKGSRCDIR.libbacon?=	../../jb-wip/libbacon
+BUILDLINK_PKGSRCDIR.libbacon?=	../../wip/libbacon
 .endif	# LIBBACON_BUILDLINK3_MK
 
 BUILDLINK_TREE+=	-libbacon

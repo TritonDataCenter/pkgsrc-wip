@@ -16,7 +16,7 @@ BUILDLINK_TREE+=	twintk
 TWINTK_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.twintk+=	twintk>=0.9.3
-BUILDLINK_PKGSRCDIR.twintk?=	../../jb-wip/twintk
+BUILDLINK_PKGSRCDIR.twintk?=	../../wip/twintk
 
 # XXX
 # XXX Uncomment and keep only the buildlink3 lines below which are directly
@@ -24,7 +24,7 @@ BUILDLINK_PKGSRCDIR.twintk?=	../../jb-wip/twintk
 # XXX provides a wrappered API or otherwise does not expose the APIs of the
 # XXX buildlink3 lines below to dependencies, remove them.
 # XXX
-#.include "../../jb-wip/libbacon/buildlink3.mk"
+#.include "../../wip/libbacon/buildlink3.mk"
 .endif	# TWINTK_BUILDLINK3_MK
 
 BUILDLINK_TREE+=	-twintk
