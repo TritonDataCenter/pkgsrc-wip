@@ -2126,6 +2126,7 @@ SUBDIR+=	pdsh
 SUBDIR+=	pear-Base
 SUBDIR+=	pear-CakePHP_CodeSniffer
 SUBDIR+=	pear-ConsoleTools
+SUBDIR+=	pear-Crypt_Blowfish
 SUBDIR+=	pear-DB_DataObject
 SUBDIR+=	pear-File_Iterator
 SUBDIR+=	pear-Finder
