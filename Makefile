@@ -2173,6 +2173,7 @@ SUBDIR+=	pear-PHP_Invoker
 SUBDIR+=	pear-PHP_PMD
 SUBDIR+=	pear-PHP_Timer
 SUBDIR+=	pear-PHP_TokenStream
+SUBDIR+=	pear-Swift
 SUBDIR+=	pear-Text_Template
 SUBDIR+=	pear-Version
 SUBDIR+=	pear-XML_Parser
