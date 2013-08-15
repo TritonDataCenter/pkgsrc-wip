@@ -2183,6 +2183,7 @@ SUBDIR+=	pear-channel-horde
 SUBDIR+=	pear-channel-pdepend
 SUBDIR+=	pear-channel-phpmd
 SUBDIR+=	pear-channel-phpunit
+SUBDIR+=	pear-channel-swiftmailer
 SUBDIR+=	pear-channel-symfony
 SUBDIR+=	pear-channel-theseer
 SUBDIR+=	pear-fDOMDocument
