@@ -16,7 +16,7 @@ BUILDLINK_TREE+=	webbrowser
 WEBBROWSER_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.webbrowser+=	webbrowser>=0.3
-BUILDLINK_PKGSRCDIR.webbrowser?=	../../jb-wip/webbrowser
+BUILDLINK_PKGSRCDIR.webbrowser?=	../../wip/webbrowser
 .endif	# WEBBROWSER_BUILDLINK3_MK
 
 BUILDLINK_TREE+=	-webbrowser
