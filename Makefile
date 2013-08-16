@@ -1074,6 +1074,7 @@ SUBDIR+=	hs-numeric-prelude
 SUBDIR+=	hs-numeric-quest
 SUBDIR+=	hs-pango
 SUBDIR+=	hs-parallel
+SUBDIR+=	hs-parallel-io
 SUBDIR+=	hs-parseargs
 SUBDIR+=	hs-parsec
 SUBDIR+=	hs-pathtype
