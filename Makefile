@@ -1112,6 +1112,7 @@ SUBDIR+=	hs-strict-io
 SUBDIR+=	hs-stringsearch
 SUBDIR+=	hs-stringtable-atom
 SUBDIR+=	hs-syb
+SUBDIR+=	hs-system-filepath
 SUBDIR+=	hs-tagged
 SUBDIR+=	hs-tagsoup
 SUBDIR+=	hs-tar
