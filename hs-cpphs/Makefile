@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		cpphs-1.17
+DISTNAME=		cpphs-1.17.1
 CATEGORIES=		lang
 
 MAINTAINER=		esg@sdf.lonestar.org
