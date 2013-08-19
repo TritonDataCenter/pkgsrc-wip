@@ -3529,6 +3529,7 @@ SUBDIR+=	yafray
 SUBDIR+=	yajl
 SUBDIR+=	yakuake
 SUBDIR+=	yaml-mode
+SUBDIR+=	yaml-cpp
 SUBDIR+=	yateclient
 SUBDIR+=	yauap
 SUBDIR+=	yaupspe
