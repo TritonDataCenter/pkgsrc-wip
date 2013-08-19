@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	pkgconf-0.8.9
+DISTNAME=	pkgconf-0.9.2
 CATEGORIES=	devel
 MASTER_SITES=	http://tortois.es/~nenolod/distfiles/
 EXTRACT_SUFX=	.tar.bz2
