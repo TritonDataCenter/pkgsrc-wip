@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	gitg-0.2.6
+DISTNAME=	gitg-0.2.7
 CATEGORIES=	devel
 MASTER_SITES=	${MASTER_SITE_GNOME:=sources/gitg/0.2/}
 EXTRACT_SUFX=	.tar.xz
@@ -21,7 +21,7 @@ USE_PKGLOCALEDIR=	yes
 
 .include "../../devel/GConf/schemas.mk"
 .include "../../graphics/gnome-icon-theme/buildlink3.mk"
-#include "../../sysutils/desktop-file-utils/desktopdb.mk"
+.include "../../graphics/hicolor-icon-theme/buildlink3.mk"
 .include "../../sysutils/gsettings-desktop-schemas/buildlink3.mk"
 .include "../../x11/gtk3/buildlink3.mk"
 .include "../../x11/gtksourceview3/buildlink3.mk"
