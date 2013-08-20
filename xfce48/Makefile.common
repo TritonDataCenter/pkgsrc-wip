@@ -36,7 +36,7 @@
 MASTER_SITES=		http://archive.xfce.org/src/xfce/${XFCE4_PROJECT}/${XFCE4_BRANCH}/
 EXTRACT_SUFX=		.tar.bz2
 
-MAINTAINER=		dieter.NetBSD@pandora.be
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://www.xfce.org/
 LICENSE=		gnu-gpl-v2
 
