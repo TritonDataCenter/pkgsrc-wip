@@ -16,6 +16,7 @@ GNU_CONFIGURE=		yes
 USE_PKGLOCALEDIR=	yes
 USE_TOOLS+=		pkg-config intltool msgfmt gmake
 USE_LANGUAGES=		c c++
+REPLACE_SH=		icon-theme-installer
 
 INSTALLATION_DIRS+=	lib/pdfmod
 
