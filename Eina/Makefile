@@ -31,8 +31,7 @@ REPLACE_PYTHON=		eina/lastfm/lastfmsubmitd/lastfmsubmitd
 .include "../../textproc/libxml2/buildlink3.mk"
 .include "../../devel/pango/buildlink3.mk"
 .include "../../databases/sqlite3/buildlink3.mk"
-BUILDLINK_API_DEPENDS.libnotify+=	libnotify>=0.7.0
-.include "../../sysutils/libnotify07/buildlink3.mk"
+.include "../../sysutils/libnotify/buildlink3.mk"
 # XXX Needs clutter-gtk-1.0
 # XXX which needs a new version of clutter
 # XXX which needs cogl which is currently broken
