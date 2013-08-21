@@ -1,7 +1,5 @@
 @comment $NetBSD$
 lib/tagsoup-${PKGVERSION}/${HASKELL_VERSION}/HStagsoup-${PKGVERSION}.o
-lib/tagsoup-${PKGVERSION}/${HASKELL_VERSION}/Text/HTML/Download.hi
-lib/tagsoup-${PKGVERSION}/${HASKELL_VERSION}/Text/HTML/Download.p_hi
 lib/tagsoup-${PKGVERSION}/${HASKELL_VERSION}/Text/HTML/TagSoup.hi
 lib/tagsoup-${PKGVERSION}/${HASKELL_VERSION}/Text/HTML/TagSoup.p_hi
 lib/tagsoup-${PKGVERSION}/${HASKELL_VERSION}/Text/HTML/TagSoup/Entity.hi
