@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	xml-1.3.10
+DISTNAME=	xml-1.3.13
 CATEGORIES=	textproc
 
 MAINTAINER=	pho@cielonegro.org
