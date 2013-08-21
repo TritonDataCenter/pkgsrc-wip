@@ -1863,6 +1863,7 @@ SUBDIR+=	openttd-opengfx
 SUBDIR+=	openttd-openmsx
 SUBDIR+=	openttd-opensfx
 SUBDIR+=	openvrml
+SUBDIR+=	openxcom
 SUBDIR+=	oqtplayer
 SUBDIR+=	or1ksim
 SUBDIR+=	orbifolder
