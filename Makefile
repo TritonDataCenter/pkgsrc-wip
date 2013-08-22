@@ -1123,6 +1123,7 @@ SUBDIR+=	hs-system-filepath
 SUBDIR+=	hs-tagged
 SUBDIR+=	hs-tagsoup
 SUBDIR+=	hs-tar
+SUBDIR+=	hs-temporary
 SUBDIR+=	hs-terminfo
 SUBDIR+=	hs-test-framework
 SUBDIR+=	hs-test-framework-hunit
