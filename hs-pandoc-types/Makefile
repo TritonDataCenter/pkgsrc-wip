@@ -1,0 +1,13 @@
+# $NetBSD$
+
+DISTNAME=	pandoc-types-1.10
+CATEGORIES=	textproc
+
+MAINTAINER=	szptvlfn@a-net.email.ne.jp
+COMMENT=	Types for representing a structured document
+LICENSE=	gnu-gpl-v2
+
+
+.include "../../wip/mk/haskell.mk"
+.include "../../wip/hs-syb/buildlink3.mk"
+.include "../../mk/bsd.pkg.mk"
