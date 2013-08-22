@@ -964,6 +964,7 @@ SUBDIR+=	hs-bindings-audiofile
 SUBDIR+=	hs-bindings-librrd
 SUBDIR+=	hs-blaze-builder
 SUBDIR+=	hs-blaze-html
+SUBDIR+=	hs-blaze-markup
 SUBDIR+=	hs-blaze-textual
 SUBDIR+=	hs-bytestring-trie
 SUBDIR+=	hs-cabal-query
