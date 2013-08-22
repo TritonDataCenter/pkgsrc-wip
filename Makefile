@@ -976,6 +976,7 @@ SUBDIR+=	hs-cgi
 SUBDIR+=	hs-chalkboard
 SUBDIR+=	hs-chalkboard-viewer
 SUBDIR+=	hs-chunks
+SUBDIR+=	hs-citeproc-hs
 SUBDIR+=	hs-cmdargs
 SUBDIR+=	hs-collections-api
 SUBDIR+=	hs-collections-base-instances
