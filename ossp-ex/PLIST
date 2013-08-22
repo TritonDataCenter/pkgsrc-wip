@@ -1,0 +1,5 @@
+@comment $NetBSD$
+bin/ex-config
+include/ex.h
+lib/libex.la
+man/man3/ex.3
