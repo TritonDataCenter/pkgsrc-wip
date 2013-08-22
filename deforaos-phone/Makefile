@@ -20,6 +20,7 @@ MAKE_FLAGS+=	PREFIX=${PREFIX}
 
 .include "options.mk"
 
+.include "../../graphics/hicolor-icon-theme/buildlink3.mk"
 .include "../../x11/gtk2/buildlink3.mk"
 .include "../../audio/pulseaudio/buildlink3.mk"
 .include "../../chat/libpurple/buildlink3.mk"

@@ -33,6 +33,7 @@ post-install:
 
 .include "options.mk"
 
+.include "../../graphics/hicolor-icon-theme/buildlink3.mk"
 .include "../../wip/deforaos-libdesktop/buildlink3.mk"
 .include "../../wip/deforaos-browser/buildlink3.mk"
 .include "../../wip/deforaos-keyboard/buildlink3.mk"

@@ -18,6 +18,7 @@ MAKE_FLAGS+=	DESTDIR=${DESTDIR}
 
 .include "options.mk"
 
+.include "../../graphics/hicolor-icon-theme/buildlink3.mk"
 .include "../../wip/deforaos-libsystem/buildlink3.mk"
 .include "../../x11/gtk2/buildlink3.mk"
 .include "../../wip/deforaos-libdesktop/buildlink3.mk"
