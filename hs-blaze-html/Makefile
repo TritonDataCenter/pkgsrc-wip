@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	blaze-html-0.4.2.2
+DISTNAME=	blaze-html-0.6.1.1
 CATEGORIES=	textproc
 
 MAINTAINER=	pho@cielonegro.org
@@ -10,5 +10,6 @@ LICENSE=	modified-bsd
 
 .include "../../wip/mk/haskell.mk"
 .include "../../wip/hs-blaze-builder/buildlink3.mk"
+.include "../../wip/hs-blaze-markup/buildlink3.mk"
 .include "../../wip/hs-text/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
