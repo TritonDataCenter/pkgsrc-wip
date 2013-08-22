@@ -1127,6 +1127,7 @@ SUBDIR+=	hs-terminfo
 SUBDIR+=	hs-test-framework
 SUBDIR+=	hs-test-framework-hunit
 SUBDIR+=	hs-test-framework-quickcheck2
+SUBDIR+=	hs-texmath
 SUBDIR+=	hs-text
 SUBDIR+=	hs-text-icu
 SUBDIR+=	hs-tfp
