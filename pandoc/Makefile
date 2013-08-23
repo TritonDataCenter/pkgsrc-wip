@@ -1,6 +1,7 @@
 # $NetBSD$
 
 DISTNAME=	pandoc-1.11.1
+PKGNAME=	${DISTNAME}
 CATEGORIES=	textproc
 
 MAINTAINER=	zecrazytux@zecrazytux.net
