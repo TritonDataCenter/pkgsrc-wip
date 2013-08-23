@@ -2836,6 +2836,7 @@ SUBDIR+=	py-yaml
 SUBDIR+=	py-yapgvb
 SUBDIR+=	py-yapps2
 SUBDIR+=	py-yellowhiggs
+SUBDIR+=	py-yenc
 SUBDIR+=	py-yt
 SUBDIR+=	py-zeitgeist
 SUBDIR+=	py-zipline
