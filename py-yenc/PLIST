@@ -1,0 +1,5 @@
+@comment $NetBSD$
+${PYSITELIB}/_yenc.so
+${PYSITELIB}/yenc.py
+${PYSITELIB}/yenc.pyc
+${PYSITELIB}/yenc.pyo
