@@ -236,6 +236,7 @@ SUBDIR+=	bonnie++-current
 SUBDIR+=	boo
 SUBDIR+=	boost-test-suite
 SUBDIR+=	boost-threadpool
+SUBDIR+=	bowtie
 SUBDIR+=	bpmcounter
 SUBDIR+=	bridge-utils
 SUBDIR+=	briquolo
