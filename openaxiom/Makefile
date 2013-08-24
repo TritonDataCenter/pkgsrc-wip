@@ -15,6 +15,7 @@ COMMENT=		Platform for symbolic, algebraic, and numerical computations
 MAKE_JOBS_SAFE=		no
 
 USE_LANGUAGES=		c c++
+GCC_REQD=		4.7	# C++11 is needed
 GNU_CONFIGURE=		yes
 USE_LIBTOOL=		yes
 USE_TOOLS+=		gmake makeinfo awk:run
