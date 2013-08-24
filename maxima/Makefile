@@ -26,7 +26,7 @@ TEST_TARGET=		check
 
 # Section for VCS-based package:
 
-PKGNAME=		maxima-5.27.99
+PKGNAME=		maxima-5.99
 
 GIT_REPOSITORIES=	maxima
 GIT_REPO.maxima=	git://maxima.git.sourceforge.net/gitroot/maxima/maxima
