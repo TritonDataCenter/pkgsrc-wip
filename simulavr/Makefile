@@ -12,7 +12,7 @@ LICENSE=		gnu-gpl-v2
 BUILD_DEPENDS+=		doxygen-[0-9]*:../../devel/doxygen
 
 CONFIGURE_ARGS+=	--disable-tests
-CONFIGURE_ARGS+=	--enable-python=python2.7
+CONFIGURE_ARGS+=	--enable-python=python${PYVERSSUFFIX}
 CONFIGURE_ARGS+=	--with-bfd=${PREFIX}/avr
 
 USE_TOOLS+=		makeinfo gmake
@@ -77,9 +77,9 @@ BUILDLINK_TRANSFORM+=	rm:-Werror
 
 .include "../../cross/avr-binutils/buildlink3.mk"
 .include "../../cross/avr-gcc/buildlink3.mk"
-#.include "../../cross/avr-libc/buildlink3.mk"
 .include "../../mk/curses.buildlink3.mk"
-.include "../../lang/python27/buildlink3.mk"
+.include "../../lang/python/pyversion.mk"
+.include "../../lang/${PYPACKAGE}/buildlink3.mk"
 .include "../../lang/tcl-itcl/buildlink3.mk"
 .include "../../lang/tcl/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
