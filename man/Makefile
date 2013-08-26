@@ -41,6 +41,12 @@ SUBST_FILES.path=	configure src/man.conf.in
 SUBST_SED.path=		-e 's,@PREFIX@,${PREFIX},g'
 SUBST_SED.path+=	-e 's,@PKGMANDIR@,${PKGMANDIR},g'
 
+SUBST_CLASSES+=		awk
+SUBST_MESSAGE.awk=	Fixing default awk
+SUBST_STAGE.awk=	pre-patch
+SUBST_FILES.awk=	src/makewhatis.sh
+SUBST_SED.awk=		-e 's,@awk@,${AWK},g'
+
 post-install:
 	${INSTALL_DATA_DIR} ${EXAMPLESDIR}
 	${INSTALL_DATA} ${WRKSRC}/src/man.conf ${EXAMPLESDIR}
