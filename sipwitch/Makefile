@@ -28,7 +28,7 @@ SUBST_SED.files+=	-e 's|SETUID|SETUID OWNER_READ OWNER_EXECUTE GROUP_READ GROUP_
 SPECIAL_PERMS+=		bin/sippasswd ${REAL_ROOT_USER} ${REAL_ROOT_GROUP} 4555
 
 .include "../../net/libexosip/buildlink3.mk"
-.include "../../sysutils/libnotify07/buildlink3.mk"
+.include "../../sysutils/libnotify/buildlink3.mk"
 .include "../../net/avahi/buildlink3.mk"
 BUILDLINK_ABI_DEPENDS.ucommon+=	ucommon>=6.0.0
 .include "../../devel/ucommon/buildlink3.mk"

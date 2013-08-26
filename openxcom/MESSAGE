@@ -1,0 +1,7 @@
+===========================================================================
+$NetBSD$
+
+Place the datafiles of your original UFO: Enemy Unknown/X-Com: UFO Defense
+in ${OPENXCOM_DATA} or in ~/.local/share/openxcom/data
+
+===========================================================================

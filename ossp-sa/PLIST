@@ -1,0 +1,6 @@
+@comment $NetBSD$
+bin/sa-config
+include/sa.h
+lib/libsa.la
+lib/pkgconfig/sa.pc
+man/man3/sa.3

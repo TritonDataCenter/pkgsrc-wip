@@ -1,6 +1,7 @@
 # $NetBSD$
 
 DISTNAME=	SDL2_ttf-2.0.12
+PKGREVISION=	1
 CATEGORIES=	graphics
 MASTER_SITES=	http://www.libsdl.org/tmp/SDL_ttf/release/
 EXTRACT_SUFX=	.zip

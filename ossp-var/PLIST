@@ -1,0 +1,6 @@
+@comment $NetBSD$
+bin/var-config
+include/var.h
+lib/libvar.la
+man/man1/var-config.1
+man/man3/var.3

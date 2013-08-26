@@ -1,0 +1,5 @@
+$NetBSD: distinfo,v 1.7 2005/11/24 18:54:51 wiz Exp $
+
+SHA1 (sa-1.2.6.tar.gz) = aa24e9240b42e6ded796488c87a39d6afa9c2f45
+RMD160 (sa-1.2.6.tar.gz) = 1f79bdbac0ae091fd22832fffc5ad0d9e228c984
+Size (sa-1.2.6.tar.gz) = 346701 bytes

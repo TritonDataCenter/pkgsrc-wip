@@ -1,0 +1,13 @@
+$NetBSD$
+
+--- Makefile.orig	2011-06-13 21:18:50.000000000 +0000
++++ Makefile
+@@ -80,7 +80,7 @@ include Makefile.depend
+ depend:
+ 	rm -f Makefile.depend
+ 	for file in *.c; do \
+-	    ${CPP} ${INCLUDES} -MM $${file} >> Makefile.depend; \
++	    ${CC} ${INCLUDES} -MM $${file} >> Makefile.depend; \
+ 	    printf "\t\$${CC} -c \$${CFLAGS} $${file}\n" >> Makefile.depend; \
+ 	done
+ 

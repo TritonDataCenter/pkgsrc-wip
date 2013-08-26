@@ -15,7 +15,7 @@ GNU_CONFIGURE=		YES
 USE_LIBTOOL=		YES
 
 SVN_REPOSITORIES=	flam3
-SVN_ROOT.flam3=		http://electricsheep.svn.sourceforge.net/svnroot/flam3/trunk
+SVN_ROOT.flam3=		http://svn.code.sf.net/p/flam3/code/trunk
 WRKSRC=			${WRKDIR}/flam3/src
 
 .include "../../mk/jpeg.buildlink3.mk"

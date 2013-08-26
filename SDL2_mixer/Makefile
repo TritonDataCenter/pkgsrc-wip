@@ -1,6 +1,7 @@
 # $NetBSD$
 
 DISTNAME=	SDL2_mixer-2.0.0
+PKGREVISION=	1
 CATEGORIES=	audio
 MASTER_SITES=	http://www.libsdl.org/tmp/SDL_mixer/release/
 EXTRACT_SUFX=	.zip

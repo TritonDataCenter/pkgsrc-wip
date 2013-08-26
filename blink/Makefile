@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	blink-0.4.0
+DISTNAME=	blink-0.5.0
 CATEGORIES=	net
 MASTER_SITES=	http://download.ag-projects.com/BlinkQt/
 

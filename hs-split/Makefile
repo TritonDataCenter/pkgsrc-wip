@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	split-0.1.4.2
+DISTNAME=	split-0.2.2
 CATEGORIES=	devel
 
 MAINTAINER=	pho@cielonegro.org
