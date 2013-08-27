@@ -74,10 +74,8 @@ post-extract:
 #	@echo '  ** MesaLib version 7.8.2 or later installed.'
 #.endif
 
-# LANG other than C may give (false) automake missing due to Language 
-# related warning.
 pre-configure:
-	(cd ${WRKSRC}; env LANG=C ./autogen.sh)
+	(cd ${WRKSRC}; ${PKGSRC_SETENV} ${CONFIGURE_ENV} ${CONFIG_SHELL} ./autogen.sh)
 
 .include "../../wip/mk/git-package.mk"
 .include "../../graphics/hicolor-icon-theme/buildlink3.mk"
