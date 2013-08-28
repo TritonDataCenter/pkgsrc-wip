@@ -1406,6 +1406,7 @@ SUBDIR+=	libdsk
 SUBDIR+=	libdssialsacompat
 SUBDIR+=	libecc
 SUBDIR+=	libee
+SUBDIR+=	libeio
 SUBDIR+=	libepc
 SUBDIR+=	libestr
 SUBDIR+=	libfm
