@@ -1,10 +1,9 @@
 # $NetBSD$
-#
 
-DISTNAME=	banshee-2.2.1
+DISTNAME=	banshee-2.6.1
 CATEGORIES=	multimedia
-MASTER_SITES=	${MASTER_SITE_GNOME:=sources/banshee/2.2/}
-EXTRACT_SUFX=	.tar.bz2
+MASTER_SITES=	${MASTER_SITE_GNOME:=sources/banshee/2.6/}
+EXTRACT_SUFX=	.tar.xz
 
 MAINTAINER=	noud4@home.nl
 HOMEPAGE=	http://banshee.fm/

@@ -6,6 +6,8 @@ PKG_SUGGESTED_OPTIONS= xft2
 
 .include "../../mk/bsd.options.mk"
 
+USE_TOOLS+=	patch
+
 .if !empty(PKG_OPTIONS:Mxft2)
 .include "../../wip/hs-x11-xft/buildlink3.mk"
 .else
