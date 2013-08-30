@@ -90,6 +90,7 @@ SUBDIR+=	alsa-plugins
 SUBDIR+=	alsa-utils
 SUBDIR+=	alt-ergo
 SUBDIR+=	am-utils
+SUBDIR+=	am-utils-git
 SUBDIR+=	amavis-logwatch
 SUBDIR+=	amaya
 SUBDIR+=	analizo
