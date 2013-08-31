@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	comonad-transformers-2.0.2
+DISTNAME=	comonad-transformers-3.1
 CATEGORIES=	devel
 
 MAINTAINER=	pho@cielonegro.org

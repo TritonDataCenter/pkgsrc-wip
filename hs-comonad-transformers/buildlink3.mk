@@ -5,7 +5,7 @@ BUILDLINK_TREE+=	hs-comonad-transformers
 .if !defined(HS_COMONAD_TRANSFORMERS_BUILDLINK3_MK)
 HS_COMONAD_TRANSFORMERS_BUILDLINK3_MK:=
 
-BUILDLINK_API_DEPENDS.hs-comonad-transformers+=	hs-comonad-transformers>=2.0.2
+BUILDLINK_API_DEPENDS.hs-comonad-transformers+=	hs-comonad-transformers>=3.1
 BUILDLINK_PKGSRCDIR.hs-comonad-transformers?=	../../wip/hs-comonad-transformers
 
 .include "../../wip/hs-comonad/buildlink3.mk"
