@@ -1096,6 +1096,7 @@ SUBDIR+=	hs-pointed
 SUBDIR+=	hs-pointedlist
 SUBDIR+=	hs-pointedlist03
 SUBDIR+=	hs-primitive
+SUBDIR+=	hs-profunctor-extras
 SUBDIR+=	hs-profunctors
 SUBDIR+=	hs-punycode
 SUBDIR+=	hs-pureMD5
