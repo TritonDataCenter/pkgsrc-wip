@@ -1,15 +1,16 @@
 # $NetBSD$
-#
 
-DISTNAME=	neurolab-0.0.5
+DISTNAME=	neurolab-0.2.3
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
-CATEGORIES=	misc python
-MASTER_SITES=	http://pypi.python.org/packages/source/n/neurolab/
-EXTRACT_SUFX=	.zip
+CATEGORIES=	math python
+MASTER_SITES=	https://pypi.python.org/packages/source/n/neurolab/
 
 MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	http://code.google.com/p/neurolab
 COMMENT=	Simple and powerfull neural network library for python
+LICENSE=	gnu-lgpl-v3
+
+FETCH_USING=    curl
 
 USE_LANGUAGES=	# none
 PYDISTUTILSPKG=	yes
