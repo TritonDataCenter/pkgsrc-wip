@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=		tqsl-1.14.3
+DISTNAME=		tqsl-2.0
 # 1.14 instead of 114 may be better (?)
 #PKGNAME=		${DISTNAME:C/[0-9]/&./}
 CATEGORIES=		ham

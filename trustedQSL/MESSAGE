@@ -8,8 +8,8 @@ For help, see the following HTML files, respectively:
 tqsl, aka tQSL or tqslapp, about signing up for QSL:
   ${PREFIX}/share/TrustedQSL/help/tqslapp/main.htm
 
-tqslcert, aka tQSLCert, for manipulating certificates:
-  ${PREFIX}/share/TrustedQSL/help/tqslcert/main.htm
+Starting with 2.0, tqslcert is consolidated to tqsl,
+tqslcert is no longer provided.
 
 Starting with 1.14, command line processing is available.
   tqsl -h or tqsl --help   will show the help message.
