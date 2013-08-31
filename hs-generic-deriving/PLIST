@@ -5,6 +5,8 @@ lib/generic-deriving-${PKGVERSION}/${HASKELL_VERSION}/Generics/Deriving/Base.hi
 lib/generic-deriving-${PKGVERSION}/${HASKELL_VERSION}/Generics/Deriving/Base.p_hi
 lib/generic-deriving-${PKGVERSION}/${HASKELL_VERSION}/Generics/Deriving/ConNames.hi
 lib/generic-deriving-${PKGVERSION}/${HASKELL_VERSION}/Generics/Deriving/ConNames.p_hi
+lib/generic-deriving-${PKGVERSION}/${HASKELL_VERSION}/Generics/Deriving/Copoint.hi
+lib/generic-deriving-${PKGVERSION}/${HASKELL_VERSION}/Generics/Deriving/Copoint.p_hi
 lib/generic-deriving-${PKGVERSION}/${HASKELL_VERSION}/Generics/Deriving/Enum.hi
 lib/generic-deriving-${PKGVERSION}/${HASKELL_VERSION}/Generics/Deriving/Enum.p_hi
 lib/generic-deriving-${PKGVERSION}/${HASKELL_VERSION}/Generics/Deriving/Eq.hi
