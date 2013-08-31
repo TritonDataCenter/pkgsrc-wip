@@ -1,8 +1,8 @@
 # $NetBSD$
 
 DISTNAME=		tqsl-2.0
-# 1.14 instead of 114 may be better (?)
-#PKGNAME=		${DISTNAME:C/[0-9]/&./}
+# It is Release Candidate, so 2.0 is too big for that.
+PKGNAME=		tqsl-1.99.1
 CATEGORIES=		ham
 MASTER_SITES=		http://www.arrl.org/files/file/LoTW%20Instructions/
 MASTER_SITES=		http://www.arrl.org/files/file/TrustedQSL-Beta/
