@@ -1029,6 +1029,7 @@ SUBDIR+=	hs-ghc-syb-utils
 SUBDIR+=	hs-gio
 SUBDIR+=	hs-glib
 SUBDIR+=	hs-gnuplot
+SUBDIR+=	hs-groupoids
 SUBDIR+=	hs-gtk
 SUBDIR+=	hs-hashable
 SUBDIR+=	hs-hashed-storage
