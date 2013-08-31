@@ -1,11 +1,11 @@
 # $NetBSD$
 #
 
-DISTNAME=	contravariant-0.4
+DISTNAME=	contravariant-0.4.4
 CATEGORIES=	math
 
 MAINTAINER=	pho@cielonegro.org
-COMMENT=	Haskell 98 contravariant functors
+COMMENT=	Contravariant functors
 LICENSE=	modified-bsd
 
 .include "../../wip/mk/haskell.mk"
