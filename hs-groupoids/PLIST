@@ -1,0 +1,10 @@
+@comment $NetBSD$
+lib/groupoids-${PKGVERSION}/${HASKELL_VERSION}/Data/Groupoid.hi
+lib/groupoids-${PKGVERSION}/${HASKELL_VERSION}/Data/Groupoid.p_hi
+lib/groupoids-${PKGVERSION}/${HASKELL_VERSION}/Data/Isomorphism.hi
+lib/groupoids-${PKGVERSION}/${HASKELL_VERSION}/Data/Isomorphism.p_hi
+lib/groupoids-${PKGVERSION}/${HASKELL_VERSION}/HSgroupoids-${PKGVERSION}.o
+lib/groupoids-${PKGVERSION}/${HASKELL_VERSION}/libHSgroupoids-${PKGVERSION}.a
+lib/groupoids-${PKGVERSION}/${HASKELL_VERSION}/libHSgroupoids-${PKGVERSION}_p.a
+lib/groupoids-${PKGVERSION}/${HASKELL_VERSION}/package-description
+share/doc/groupoids-${PKGVERSION}/LICENSE
