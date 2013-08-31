@@ -986,6 +986,7 @@ SUBDIR+=	hs-collections-base-instances
 SUBDIR+=	hs-colorize-haskell
 SUBDIR+=	hs-comonad
 SUBDIR+=	hs-comonad-transformers
+SUBDIR+=	hs-comonads-fd
 SUBDIR+=	hs-concrete-typerep
 SUBDIR+=	hs-containers-unicode-symbols
 SUBDIR+=	hs-contravariant
