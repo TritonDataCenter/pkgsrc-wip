@@ -1,0 +1,4 @@
+@comment $NetBSD$
+${PYSITELIB}/corrfitter.py
+${PYSITELIB}/corrfitter.pyc
+${PYSITELIB}/corrfitter.pyo
