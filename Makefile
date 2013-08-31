@@ -1065,6 +1065,7 @@ SUBDIR+=	hs-irc
 SUBDIR+=	hs-json
 SUBDIR+=	hs-largeword
 SUBDIR+=	hs-lazy-io
+SUBDIR+=	hs-lens
 SUBDIR+=	hs-lifted-base
 SUBDIR+=	hs-magic
 SUBDIR+=	hs-markov-chain
