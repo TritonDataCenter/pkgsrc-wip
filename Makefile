@@ -112,7 +112,6 @@ SUBDIR+=	ap-bunzip2
 SUBDIR+=	ap-choke
 SUBDIR+=	ap-chxj
 SUBDIR+=	ap-evasive
-SUBDIR+=	ap-lisp
 SUBDIR+=	ap-macro
 SUBDIR+=	ap-ometer
 SUBDIR+=	ap2-auth-imap
