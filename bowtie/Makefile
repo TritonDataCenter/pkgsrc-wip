@@ -14,12 +14,14 @@ PORTVERSION=	1.0.0
 WRKSRC=		${WRKDIR}/${PKGBASE}-${PORTVERSION}
 
 USE_LANGUAGES=	c++
-USE_TOOLS+=	gmake
+USE_TOOLS+=	gmake perl:run
 
 # FETCH_ARGS+=	-F
 FETCH_USING=	curl
 
 INSTALLATION_DIRS=	bin share/bowtie
+
+REPLACE_PERL=	scripts/*.pl scripts/test/*.pl doc/*.pl
 
 do-install:
 	${INSTALL_PROGRAM} \
