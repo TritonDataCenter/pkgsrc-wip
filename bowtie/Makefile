@@ -41,4 +41,5 @@ do-install:
 		${WRKSRC}/reads \
 		${DESTDIR}${PREFIX}/share/bowtie
 
+.include "../../mk/pthread.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
