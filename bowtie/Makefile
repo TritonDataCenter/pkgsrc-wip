@@ -11,7 +11,7 @@ HOMEPAGE=	http://bowtie-bio.sourceforge.net/index.shtml
 COMMENT=	Ultrafast, memory-efficient short read aligner
 
 PORTVERSION=	1.0.0
-WRKSRC=		${WRKDIR}/${PKGBASE}-${PORTVERSION}
+WRKSRC=		${WRKDIR}/${PKGNAME_NOREV}
 
 USE_LANGUAGES=	c++
 USE_TOOLS+=	gmake perl:run
