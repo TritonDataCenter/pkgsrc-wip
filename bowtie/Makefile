@@ -24,20 +24,12 @@ INSTALLATION_DIRS=	bin share/bowtie
 REPLACE_PERL=	scripts/*.pl scripts/test/*.pl doc/*.pl
 
 do-install:
-	${INSTALL_PROGRAM} \
-		${WRKSRC}/bowtie \
-		${WRKSRC}/bowtie-build \
-		${WRKSRC}/bowtie-inspect \
+	cd ${WRKSRC} && \
+		${INSTALL_PROGRAM} bowtie bowtie-build bowtie-inspect \
 		${DESTDIR}${PREFIX}/bin
-	${INSTALL_SCRIPT} \
-		${WRKSRC}/scripts/*.sh \
-		${WRKSRC}/scripts/*.pl \
+	cd ${WRKSRC} && ${INSTALL_SCRIPT} scripts/*.sh scripts/*.pl \
 		${DESTDIR}${PREFIX}/bin
-	${CP} -R \
-		${WRKSRC}/doc \
-		${WRKSRC}/genomes \
-		${WRKSRC}/indexes \
-		${WRKSRC}/reads \
+	cd ${WRKSRC} && ${CP} -R doc genomes indexes reads \
 		${DESTDIR}${PREFIX}/share/bowtie
 
 .include "../../mk/pthread.buildlink3.mk"
