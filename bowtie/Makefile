@@ -1,6 +1,7 @@
 # $NetBSD$
 
 DISTNAME=	v${PORTVERSION}
+DIST_SUBDIR=	bowtie
 PKGNAME=	bowtie-${PORTVERSION}
 CATEGORIES=	biology
 MASTER_SITES=	https://github.com/BenLangmead/bowtie/archive/
