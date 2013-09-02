@@ -1319,6 +1319,7 @@ SUBDIR+=	katapult
 SUBDIR+=	kawa
 SUBDIR+=	kgrab
 SUBDIR+=	kgraphviewer
+SUBDIR+=	khal-git
 SUBDIR+=	kicad
 SUBDIR+=	kile
 SUBDIR+=	kino
