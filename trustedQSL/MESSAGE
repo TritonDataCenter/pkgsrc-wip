@@ -4,7 +4,7 @@ $NetBSD$
 To start the application, just type tqsl in shell. You will see
 the icons for operations (with Window facility).
 
-For help, see the following HTML file.
+For help, man tqsl or see the following HTML file.
   ${PREFIX}/share/TrustedQSL/help/tqslapp/main.htm
 
 Starting with 2.0, tqslcert is consolidated to tqsl,
