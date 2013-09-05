@@ -2045,7 +2045,6 @@ SUBDIR+=	p5-Module-Starter-Plugin-CGIApp
 SUBDIR+=	p5-MongoDB
 SUBDIR+=	p5-NNTPClient
 SUBDIR+=	p5-Net-DBus-GLib
-SUBDIR+=	p5-Net-DNS
 SUBDIR+=	p5-Net-Delicious
 SUBDIR+=	p5-Net-IP-Match-Regexp
 SUBDIR+=	p5-Net-PcapUtils
