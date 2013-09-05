@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	libeio-4.18
+PKGNAME=	${DISTNAME:S/-/-1.0pre/}
 CATEGORIES=	devel
 MASTER_SITES=	https://github.com/scunningham/libeio/archive/
 
