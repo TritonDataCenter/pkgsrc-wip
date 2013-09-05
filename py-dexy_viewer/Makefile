@@ -7,7 +7,7 @@ MASTER_SITES=	https://pypi.python.org/packages/source/d/dexy_viewer/
 
 MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	http://dexy.it/
-COMMENT=	Document Automation
+COMMENT=	Document Automation viewer
 LICENSE=	mit
 
 DEPENDS+=    ${PYPKGPREFIX}-yaml>=3.10:../../textproc/py-yaml
