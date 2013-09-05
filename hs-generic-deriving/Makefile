@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	generic-deriving-1.5.0
+DISTNAME=	generic-deriving-1.6.1
 CATEGORIES=	devel
 
 MAINTAINER=	szptvlfn@a-net.email.ne.jp

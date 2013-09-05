@@ -12,7 +12,7 @@ COMMENT=	PDF viewer with vi-like keybindings
 
 USE_TOOLS+=	pkg-config gettext gmake groff
 USE_LIBTOOL=	yes
-DEPENDS+=	py27-docutils-[0-9]*:../../textproc/py-docutils
+DEPENDS+=	${PYPKGPREFIX}-docutils-[0-9]*:../../textproc/py-docutils
 
 .include "../../graphics/cairo/buildlink3.mk"
 .include "../../x11/gtk2/buildlink3.mk"

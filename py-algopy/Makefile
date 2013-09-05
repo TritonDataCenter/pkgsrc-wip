@@ -1,15 +1,16 @@
 # $NetBSD$
-#
 
-DISTNAME=	algopy-0.3.1
+DISTNAME=	algopy-0.5.0
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	math python
-MASTER_SITES=	http://pypi.python.org/packages/source/a/algopy/
+MASTER_SITES=	https://pypi.python.org/packages/source/a/algopy/
 
 MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	http://packages.python.org/algopy
 COMMENT=	Taylor Arithmetic Computation and Algorithmic Differentiation
 LICENSE=	modified-bsd
+
+WRKSRC=		${WRKDIR}/algopy-0.5.0
 
 USE_LANGUAGES=	# none
 

@@ -1,7 +1,7 @@
 # $NetBSD: Makefile,v 1.6 2009/11/12 22:05:55 adrianp Exp $
 
 DISTNAME=		serendipity-${VERSION}
-VERSION=		1.6.2
+VERSION=		1.7.2
 CATEGORIES=		www
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=php-blog/}
 
@@ -9,7 +9,7 @@ MAINTAINER=		tonnerre@NetBSD.org
 HOMEPAGE=		http://s9y.org/
 COMMENT=		Blogging tool written in php
 
-USE_TOOLS+=		pax
+USE_TOOLS+=		pax find rm
 
 .include "../../mk/bsd.prefs.mk"
 .include "../../lang/php/phpversion.mk"
@@ -40,6 +40,7 @@ do-install:
 	${RM} ${WRKSRC}/docs/${f}
 .endfor
 
+	cd ${WRKSRC} && find . -name '.gitignore' -print | xargs rm -f
 	cd ${WRKSRC} && pax -rw -pmp . ${DESTDIR}${S9YHOME}
 
 .include "../../mk/bsd.pkg.mk"

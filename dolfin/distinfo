@@ -6,3 +6,4 @@ Size (dolfin-1.2.0.tar.gz) = 10144756 bytes
 SHA1 (patch-dolfin_adaptivity_ErrorControl.h) = 696e7b3516b04efac311831e0a5397ef810f4f83
 SHA1 (patch-dolfin_fem_LinearVariationalProblem.h) = e6d53cd3c43d2498358680d4877fd6900d97e148
 SHA1 (patch-dolfin_io_HDF5Interface.h) = 9e1cd9bad3b2334f8a7ad1f9f24f2bf3db329ea7
+SHA1 (patch-utils_scripts_notinuse) = a696987617dc342cac9d536e5a6bf111df65efca
