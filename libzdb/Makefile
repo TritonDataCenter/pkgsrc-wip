@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	libzdb-2.11.1
+DISTNAME=	libzdb-2.12
 CATEGORIES=	databases
 MASTER_SITES=	http://www.tildeslash.com/libzdb/dist/
 
