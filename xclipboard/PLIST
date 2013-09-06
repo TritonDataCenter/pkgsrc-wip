@@ -1,6 +1,0 @@
-@comment $NetBSD: PLIST,v 1.1.1.1 2007/03/07 15:03:08 joerg Exp $
-bin/xclipboard
-bin/xcutsel
-lib/X11/app-defaults/XClipboard
-man/man1/xcutsel.1
-man/man1/xclipboard.1

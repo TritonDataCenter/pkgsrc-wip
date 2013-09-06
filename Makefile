@@ -3423,7 +3423,6 @@ SUBDIR+=	xbmc
 SUBDIR+=	xbnbt
 SUBDIR+=	xbsql
 SUBDIR+=	xchat2-tcl
-SUBDIR+=	xclipboard
 SUBDIR+=	xcmsdb
 SUBDIR+=	xcursor-themes
 SUBDIR+=	xdbedizzy
