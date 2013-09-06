@@ -1,7 +1,7 @@
 # $NetBSD$
 
 MODNAME=	rrd
-PECL_VERSION=	1.1.0
+PECL_VERSION=	1.1.1
 PECL_LEGACY_VERSION_SCHEME=	yes
 CATEGORIES+=	databases
 MAINTAINER=	pkgsrc-users@NetBSD.org
