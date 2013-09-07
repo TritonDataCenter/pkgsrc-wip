@@ -20,4 +20,5 @@ DEPENDS+=	${PYPKGPREFIX}-dicom>=0.9.8:../../wip/py-dicom
 
 .include "../../lang/python/distutils.mk"
 .include "../../math/py-numpy/buildlink3.mk"
+.include "../../filesystems/py-fuse-bindings/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
