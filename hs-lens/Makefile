@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	lens-3.9.0.3
+DISTNAME=	lens-3.9.1
 CATEGORIES=	devel
 
 MAINTAINER=	szptvlfn@a-net.email.ne.jp
