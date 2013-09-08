@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	crypto-api-0.12
+DISTNAME=	crypto-api-0.12.2.2
 CATEGORIES=	security
 
 MAINTAINER=	pho@cielonegro.org
