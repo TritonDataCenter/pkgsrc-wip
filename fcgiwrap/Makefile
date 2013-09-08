@@ -1,14 +1,15 @@
 # $NetBSD: Makefile,v 1.16 2011/10/25 14:55:49 shattered Exp $
 
 # fetching by tag from GitHub needs some special treatment
-DISTNAME=	gnosek-fcgiwrap-${VERSION}-4-g58ec209
+DISTNAME=	gnosek-fcgiwrap-${VERSION}-${VERSION_TAG}
 PKGNAME=	fcgiwrap-${VERSION}
 CATEGORIES=	www
 
 COMMENT=	FastCGI wrapper for plain CGI scripts
 LICENSE=	mit
 
-VERSION=	1.0.3
+VERSION=	1.1.0
+VERSION_TAG=	3-g4b2151e
 
 WRKSRC=		${WRKDIR}/gnosek-fcgiwrap-${DISTNAME:C/.*-g//}
 MASTER_SITES=	https://github.com/gnosek/fcgiwrap/tarball/${DISTNAME:C/.*-g//}/
