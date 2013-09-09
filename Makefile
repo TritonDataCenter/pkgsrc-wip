@@ -3217,7 +3217,6 @@ SUBDIR+=	tengwar-ttf
 SUBDIR+=	tenmado
 SUBDIR+=	tenshi
 SUBDIR+=	termit
-SUBDIR+=	testdisk
 SUBDIR+=	tetrinet
 SUBDIR+=	tex-abntex
 SUBDIR+=	tex-arabxtex
