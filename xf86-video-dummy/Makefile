@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	xf86-video-dummy-0.3.6
+DISTNAME=	xf86-video-dummy-0.3.7
 CATEGORIES=	x11
 MASTER_SITES=	${MASTER_SITE_XORG:=driver/}
 EXTRACT_SUFX=	.tar.bz2
