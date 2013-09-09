@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	innotop-1.9.0
+DISTNAME=	innotop-1.9.1
 CATEGORIES=	databases
 MASTER_SITES=	http://innotop.googlecode.com/files/
 
