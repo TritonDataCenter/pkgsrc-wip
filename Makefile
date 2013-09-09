@@ -3448,7 +3448,6 @@ SUBDIR+=	xf86-input-hyperpen
 SUBDIR+=	xf86-input-joystick
 SUBDIR+=	xf86-input-mutouch
 SUBDIR+=	xf86-input-synaptics
-SUBDIR+=	xf86-video-dummy
 SUBDIR+=	xf86-video-geode
 SUBDIR+=	xf86-video-intel-old
 SUBDIR+=	xf86-video-modesetting
