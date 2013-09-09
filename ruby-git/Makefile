@@ -9,7 +9,7 @@ HOMEPAGE=	http://github.com/schacon/ruby-git
 COMMENT=	Manipulate Git repositories by wrapping around the git binary
 LICENSE=	mit
 
-DEPENDS+=	scmgit-base>=1.6:../../devel/scmgit-base
+DEPENDS+=	git-base>=1.6:../../devel/git-base
 
 .include "../../lang/ruby/gem.mk"
 .include "../../mk/bsd.pkg.mk"

@@ -1,5 +1,4 @@
 # $NetBSD$
-#
 
 DISTNAME=	cvsanaly2-2.0.0
 CATEGORIES=	devel
@@ -11,7 +10,7 @@ COMMENT=	Source code management tool analyzer
 LICENSE=	gnu-gpl-v2
 
 DEPENDS+=	${PYPKGPREFIX}-mysqldb-[0-9]*:../../databases/py-mysqldb
-DEPENDS+=	scmgit>=1.7.0.5:../../devel/scmgit
+DEPENDS+=	git>=1.7.0.5:../../devel/git
 
 USE_TOOLS+=	pkg-config
 USE_LANGUAGES=	# none

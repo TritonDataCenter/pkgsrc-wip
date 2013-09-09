@@ -9,7 +9,7 @@ COMMENT=	CardDAV/CalDAV server
 LICENSE=	gnu-gpl-v3
 
 DEPENDS+=	${PYPKGPREFIX}-vobject>=0.8.1c:../../textproc/py-vobject
-DEPENDS+=	scmgit-base-[0-9]*:../../devel/scmgit-base
+DEPENDS+=	git-base-[0-9]*:../../devel/git-base
 
 GIT_REPOSITORIES=	calypso
 GIT_REPO.calypso=	git://keithp.com/git/calypso.git

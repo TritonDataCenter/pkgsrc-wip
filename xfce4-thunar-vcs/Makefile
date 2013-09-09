@@ -13,7 +13,7 @@ MAINTAINER=	gls@NetBSD.org
 HOMEPAGE=	http://goodies.xfce.org/projects/thunar-plugins/thunar-vcs-plugin
 COMMENT=	Thunar vcs integration plugin
 
-#DEPENDS+=	scmgit-base-[0-9]*:../../devel/scmgit-base
+#DEPENDS+=	git-base-[0-9]*:../../devel/git-base
 
 .include "../../devel/apr/buildlink3.mk"
 .include "../../devel/subversion-base/buildlink3.mk"

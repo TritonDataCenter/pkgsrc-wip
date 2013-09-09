@@ -17,7 +17,7 @@ LICENSE=	gnu-gpl-v2
 COMMENT=	Tracking projects based on numerical simulation or analysis
 
 DEPENDS+=	mercurial>=1.6:../../devel/mercurial
-DEPENDS+=	scmgit-base>=1.7.0.5:../../devel/scmgit-base
+DEPENDS+=	git-base>=1.7.0.5:../../devel/git-base
 DEPENDS+=	${PYPKGPREFIX}-subversion>=1.6.9:../../devel/py-subversion
 DEPENDS+=	${PYPKGPREFIX}-scipy>=0.7.2:../../math/py-scipy
 DEPENDS+=	${PYPKGPREFIX}-django-[0-9]*:../../www/py-django

@@ -1,5 +1,4 @@
 # $NetBSD$
-#
 
 DISTNAME=	giggle-0.5
 PKGREVISION=	1
@@ -12,7 +11,7 @@ HOMEPAGE=	http://live.gnome.org/giggle
 COMMENT=	GTK2 graphical frontend to git SCM tool
 LICENSE=	gnu-gpl-v2
 
-DEPENDS+=	scmgit-base-[0-9]*:../../devel/scmgit-base
+DEPENDS+=	git-base-[0-9]*:../../devel/git-base
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_TOOLS+=	gmake pkg-config intltool

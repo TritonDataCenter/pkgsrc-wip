@@ -1,5 +1,4 @@
 # $NetBSD$
-#
 
 DISTNAME=	darcs-to-git-0.1
 CATEGORIES=	devel
@@ -22,7 +21,7 @@ INSTALLATION_DIRS=	bin share/doc/${DISTNAME}
 REPLACE_RUBY_DIRS=	.
 REPLACE_RUBY_PAT=	darcs-to-git
 
-DEPENDS+=	scmgit-base-[0-9]*:../../devel/scmgit-base
+DEPENDS+=	git-base-[0-9]*:../../devel/git-base
 DEPENDS+=	darcs>1.0.7:../../devel/darcs
 
 do-install:
