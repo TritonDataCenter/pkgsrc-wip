@@ -2,7 +2,7 @@
 #
 
 MODNAME=		ssh2
-PECL_VERSION=		0.11.3
+PECL_VERSION=		0.12
 CATEGORIES+=		security
 
 MAINTAINER=		filip@joyent.com
@@ -17,5 +17,4 @@ WRKSRC=			${WRKDIR}/${MODNAME}-${PECL_VERSION}
 
 .include "../../security/libssh2/buildlink3.mk"
 .include "../../lang/php/ext.mk"
-#.include "../../devel/zlib/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
