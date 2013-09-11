@@ -2678,6 +2678,7 @@ SUBDIR+=	py-pygraphviz
 SUBDIR+=	py-pylith
 SUBDIR+=	py-pylons
 SUBDIR+=	py-pymc
+SUBDIR+=	py-pymigemo
 SUBDIR+=	py-pymvpa
 SUBDIR+=	py-pypedal
 SUBDIR+=	py-pyphant
