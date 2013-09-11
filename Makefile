@@ -2639,6 +2639,7 @@ SUBDIR+=	py-paragram
 SUBDIR+=	py-pcapy
 SUBDIR+=	py-peak-rules
 SUBDIR+=	py-pebl
+SUBDIR+=	py-percol
 SUBDIR+=	py-piquant
 SUBDIR+=	py-pkginfo
 SUBDIR+=	py-plex
