@@ -1,5 +1,5 @@
 @comment $NetBSD$
-bin/normalizer
+bin/lognormalizer
 include/annot.h
 include/liblognorm.h
 include/lognorm.h
