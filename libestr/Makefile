@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		libestr-0.1.2
+DISTNAME=		libestr-0.1.5
 CATEGORIES=		sysutils
 MASTER_SITES=		http://libestr.adiscon.com/files/download/
 
