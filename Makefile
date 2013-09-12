@@ -1883,6 +1883,7 @@ SUBDIR+=	openxcom
 SUBDIR+=	oqtplayer
 SUBDIR+=	or1ksim
 SUBDIR+=	orbifolder
+SUBDIR+=	org-caldav-git
 SUBDIR+=	orion
 SUBDIR+=	oslc
 SUBDIR+=	osmo
