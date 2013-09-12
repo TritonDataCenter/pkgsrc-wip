@@ -7,6 +7,7 @@ include/tqslerrno.h
 include/tqsllib.h
 lib/libtqsllib.so
 man/man5/tqsl.5
+share/TrustedQSL/LICENSE.txt
 share/TrustedQSL/config.xml
 share/TrustedQSL/help/tqslapp/P12.bmp
 share/TrustedQSL/help/tqslapp/Pending.bmp

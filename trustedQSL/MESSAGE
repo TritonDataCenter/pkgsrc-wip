@@ -7,9 +7,13 @@ the icons for operations (with Window facility).
 For help, man tqsl or see the following HTML file.
   ${PREFIX}/share/TrustedQSL/help/tqslapp/main.htm
 
-Starting with 2.0, tqslcert is consolidated to tqsl,
+Starting with 2.0, tqslcert function is included in tqsl,
 tqslcert is no longer provided.
 
 Starting with 1.14, command line processing is available.
   tqsl -h or tqsl --help   will show the help message.
+
+The software is basically modified-bsd license, but a little bit more,
+please look at following file for the detailed information.
+${PREFIX}/share/TrustedQSL/LICENSE.txt
 ===========================================================================
