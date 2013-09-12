@@ -1,0 +1,6 @@
+@comment $NetBSD$
+share/doc/org-caldav/README.md
+${EMACS_LISPPREFIX}/org-caldav/org-caldav-testsuite.el
+${EMACS_LISPPREFIX}/org-caldav/org-caldav-testsuite.elc
+${EMACS_LISPPREFIX}/org-caldav/org-caldav.el
+${EMACS_LISPPREFIX}/org-caldav/org-caldav.elc
