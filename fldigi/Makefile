@@ -50,6 +50,11 @@ CHECK_WRKREF_SKIP+=	bin/fldigi
 CONFIGURE_ENV+=		ac_cv_header_execinfo_h=no
 .endif
 
+.include "../../mk/compiler.mk"
+.if !empty(PKGSRC_COMPILER:Mclang)
+CXXFLAGS+=	-std=c++11 -Wno-error=c++11-narrowing
+.endif
+
 .include "../../audio/libsamplerate/buildlink3.mk"
 .include "../../audio/libsndfile/buildlink3.mk"
 .include "../../audio/portaudio-devel/buildlink3.mk"
