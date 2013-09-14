@@ -1561,7 +1561,6 @@ SUBDIR+=	ltrace
 SUBDIR+=	lua-BitOp
 SUBDIR+=	lua-lbn
 SUBDIR+=	lua-pgsql
-SUBDIR+=	luaposix
 SUBDIR+=	luasocket
 SUBDIR+=	lucene
 SUBDIR+=	lwc
