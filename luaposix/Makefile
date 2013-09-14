@@ -14,6 +14,7 @@ LICENSE=	mit
 FETCH_USING=	curl
 
 GNU_CONFIGURE=	yes
+USE_TOOLS+=	perl:build
 USE_LIBTOOL=	yes
 
 CONFIGURE_ARGS+=	--libdir=${PREFIX}/${LUA_CDIR}
