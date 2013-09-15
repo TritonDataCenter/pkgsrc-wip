@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	efreet-1.7.5
+DISTNAME=	efreet-1.7.8
 CATEGORIES=	sysutils devel
 MASTER_SITES=	http://download.enlightenment.org/releases/
 EXTRACT_SUFX=	.tar.bz2

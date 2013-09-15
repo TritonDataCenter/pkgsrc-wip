@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	ecore-1.7.5
+DISTNAME=	ecore-1.7.8
 CATEGORIES=	devel
 MASTER_SITES=	http://download.enlightenment.org/releases/
 EXTRACT_SUFX=	.tar.bz2

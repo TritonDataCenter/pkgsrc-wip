@@ -39,6 +39,7 @@ share/doc/ecore/COPYING
 share/locale/cs/LC_MESSAGES/ecore.mo
 share/locale/de/LC_MESSAGES/ecore.mo
 share/locale/el/LC_MESSAGES/ecore.mo
+share/locale/eo/LC_MESSAGES/ecore.mo
 share/locale/fr/LC_MESSAGES/ecore.mo
 share/locale/it/LC_MESSAGES/ecore.mo
 share/locale/nl/LC_MESSAGES/ecore.mo

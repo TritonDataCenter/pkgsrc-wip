@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	embryo-1.7.5
+DISTNAME=	embryo-1.7.8
 CATEGORIES=	lang
 MASTER_SITES=	http://download.enlightenment.org/releases/
 EXTRACT_SUFX=	.tar.bz2
