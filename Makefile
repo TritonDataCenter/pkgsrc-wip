@@ -1126,6 +1126,7 @@ SUBDIR+=	hs-storablevector
 SUBDIR+=	hs-stream-fusion
 SUBDIR+=	hs-strict
 SUBDIR+=	hs-strict-io
+SUBDIR+=	hs-stringable
 SUBDIR+=	hs-stringsearch
 SUBDIR+=	hs-stringtable-atom
 SUBDIR+=	hs-syb
