@@ -950,6 +950,7 @@ SUBDIR+=	hs-ReadArgs
 SUBDIR+=	hs-SHA
 SUBDIR+=	hs-StateVar
 SUBDIR+=	hs-Tensor
+SUBDIR+=	hs-aeson
 SUBDIR+=	hs-ansi-terminal
 SUBDIR+=	hs-ansi-wl-pprint
 SUBDIR+=	hs-arrow-list
