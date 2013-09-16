@@ -1053,6 +1053,7 @@ SUBDIR+=	hs-hothasktags
 SUBDIR+=	hs-hscolour
 SUBDIR+=	hs-hslogger
 SUBDIR+=	hs-hslogger-template
+SUBDIR+=	hs-hslua
 SUBDIR+=	hs-html
 SUBDIR+=	hs-hxt
 SUBDIR+=	hs-hxt-charproperties
