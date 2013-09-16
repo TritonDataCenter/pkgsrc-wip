@@ -990,6 +990,7 @@ SUBDIR+=	hs-comonad
 SUBDIR+=	hs-comonad-transformers
 SUBDIR+=	hs-comonads-fd
 SUBDIR+=	hs-concrete-typerep
+SUBDIR+=	hs-conduit
 SUBDIR+=	hs-containers-unicode-symbols
 SUBDIR+=	hs-contravariant
 SUBDIR+=	hs-control-monad-failure
