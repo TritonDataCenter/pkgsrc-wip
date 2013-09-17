@@ -2957,6 +2957,7 @@ SUBDIR+=	resid-builder
 SUBDIR+=	residualvm
 SUBDIR+=	resin
 SUBDIR+=	retroarch
+SUBDIR+=	revelation
 SUBDIR+=	rhapsody
 SUBDIR+=	riak
 SUBDIR+=	ripe-rpsl-objectlibrary
