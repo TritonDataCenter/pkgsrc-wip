@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	nats-0.1
+DISTNAME=	nats-0.1.2
 CATEGORIES=	math
 
 MAINTAINER=	pho@cielonegro.org
