@@ -47,6 +47,8 @@ CONFIGURE_ARGS+=	--with-bdb=${BDBBASE}
 CONFIGURE_ARGS+=	--with-ssl-dir=${BUILDLINK_PREFIX.openssl}
 CONFIGURE_ENV+=		MACHINE_ARCH=${MACHINE_ARCH}
 
+CFLAGS.SunOS+= -I/usr/include/kerberosv5/
+
 MAKE_DIRS+=		${PKG_SYSCONFDIR}/msg
 
 REPLACE_PYTHON+=	contrib/shell_utils/afpstats
@@ -70,13 +72,6 @@ PLIST_VARS+=		ea
 .if ${OPSYS} == "SunOS" || ${OPSYS} == "DragonFly" || ${OPSYS} == "Linux" || \
 	(${OPSYS} == "NetBSD" && empty(OS_VERSION:M[0-6].[0-8]*))
 PLIST.ea=		yes
-.endif
-
-PLIST_VARS+=		acl
-.if ${OPSYS} == "SunOS" || ${OPSYS} == "HPUX" || ${OPSYS} == "IRIX" || \
-	${OPSYS} == "AIX" || ${OPSYS} == "OSF1"
-PLIST.acl=		yes
-CONF_FILES+=	${EGDIR}/afp_ldap.conf ${PKG_SYSCONFDIR}/afp_ldap.conf
 .endif
 
 .include "options.mk"
