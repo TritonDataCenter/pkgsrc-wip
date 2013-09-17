@@ -11,7 +11,11 @@ COMMENT=		Distributed, highly available data store
 LICENSE=		apache-2.0
 
 CONFLICTS+=		riakeds-[0-9]*
+.if exists(../../devel/git/Makefile)
+BUILD_DEPENDS+=		git-base-[0-9]*:../../devel/git-base
+.else
 BUILD_DEPENDS+=		scmgit-base-[0-9]*:../../devel/scmgit-base
+.endif
 
 USE_LANGUAGES=		c c++
 USE_LIBTOOL=		yes
