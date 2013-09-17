@@ -2439,6 +2439,7 @@ SUBDIR+=	py-corrfitter
 SUBDIR+=	py-cosmolopy
 SUBDIR+=	py-couchdb
 SUBDIR+=	py-country
+SUBDIR+=	py-cracklib
 SUBDIR+=	py-cryptoidlib
 SUBDIR+=	py-csa
 SUBDIR+=	py-cscope
