@@ -1181,6 +1181,7 @@ SUBDIR+=	hs-xdg-basedir
 SUBDIR+=	hs-xhtml
 SUBDIR+=	hs-xml
 SUBDIR+=	hs-xmobar
+SUBDIR+=	hs-yaml
 SUBDIR+=	hs-zip-archive
 SUBDIR+=	hs-zlib
 SUBDIR+=	ht2html
