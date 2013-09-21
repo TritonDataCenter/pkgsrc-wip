@@ -1,10 +1,11 @@
 # $NetBSD$
 #
 
-DISTNAME=	logan-0.5.6
+DISTNAME=	logan-0.5.8.2
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	devel
 MASTER_SITES=	http://pypi.python.org/packages/source/l/logan/
+FETCH_USING=	curl
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://github.com/dcramer/logan
