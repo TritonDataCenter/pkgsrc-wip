@@ -17,6 +17,9 @@ ${PYSITELIB}/calypso/acl/fake.pyo
 ${PYSITELIB}/calypso/acl/htpasswd.py
 ${PYSITELIB}/calypso/acl/htpasswd.pyc
 ${PYSITELIB}/calypso/acl/htpasswd.pyo
+${PYSITELIB}/calypso/acl/pam.py
+${PYSITELIB}/calypso/acl/pam.pyc
+${PYSITELIB}/calypso/acl/pam.pyo
 ${PYSITELIB}/calypso/config.py
 ${PYSITELIB}/calypso/config.pyc
 ${PYSITELIB}/calypso/config.pyo
