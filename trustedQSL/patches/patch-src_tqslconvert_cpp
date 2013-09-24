@@ -1,4 +1,4 @@
-$NetBSD$
+$NetBSD: patch-src_tqslconvert_cpp,v 1.1 2013/09/13 08:45:52 mef Exp $
 
 Convert db.h name to pkgsrc current name
 

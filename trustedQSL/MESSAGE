@@ -13,7 +13,7 @@ the command tqslcert by itself is no longer provided.
 Starting with 1.14, command line processing is available.
   tqsl -h or tqsl --help   will show the help message.
 
-The software is basically modified-bsd license, but a little bit more,
-please look at following file for the detailed information.
+The license is arrl-license (and almost modified-bsd), its copy is also 
+installed at:
   ${PREFIX}/share/TrustedQSL/LICENSE.txt
 ===========================================================================

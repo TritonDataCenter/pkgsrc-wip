@@ -1,15 +1,15 @@
-# $NetBSD$
+# $NetBSD: Makefile,v 1.4 2013/09/24 11:16:04 mef Exp $
 
 DISTNAME=		tqsl-2.0
-PKGNAME=		${DISTNAME}rc3
+PKGNAME=		${DISTNAME}rc6
 CATEGORIES=		ham
 MASTER_SITES=		http://www.arrl.org/files/file/LoTW%20Instructions/
-MASTER_SITES=		http://downloads.sourceforge.net/project/trustedqsl/TrustedQSL/v2.0-rc3/
+MASTER_SITES=		http://downloads.sourceforge.net/project/trustedqsl/TrustedQSL/v2.0-rc6/
 
 MAINTAINER=		makoto@ki.nu
 HOMEPAGE=		http://sourceforge.net/projects/trustedqsl/
 COMMENT=		TrustedQSL, uploading QSL Data to LoTW of ARRL
-#LICENSE=		modified-bsd but see LICENSE.txt (ARRL)
+LICENSE=		arrl-license
 
 DIST_SUBDIR=		${PKGNAME_NOREV}
 USE_TOOLS+=		perl gmake cmake
