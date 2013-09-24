@@ -25,7 +25,6 @@ USE_LANGUAGES=	# none
 INSTALLATION_DIRS=	${EMACS_LISPPREFIX}/a-files
 
 TEST_TARGET=	check
-BUILD_DEPENDS+=	scmgit-base-[0-9]*:../../devel/scmgit-base
 
 do-install:
 	${INSTALL_DATA}   ${WRKSRC}/twittering-mode.el  ${DESTDIR}${INSTALLATION_DIRS}

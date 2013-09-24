@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	pandoc-types-1.10
+DISTNAME=	pandoc-types-1.12.1
 CATEGORIES=	textproc
 
 MAINTAINER=	szptvlfn@a-net.email.ne.jp
@@ -9,5 +9,6 @@ LICENSE=	gnu-gpl-v2
 
 
 .include "../../wip/mk/haskell.mk"
+.include "../../wip/hs-aeson/buildlink3.mk"
 .include "../../wip/hs-syb/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

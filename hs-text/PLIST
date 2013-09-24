@@ -43,6 +43,10 @@ lib/text-${PKGVERSION}/${HASKELL_VERSION}/Data/Text/Lazy/Builder/Functions.hi
 lib/text-${PKGVERSION}/${HASKELL_VERSION}/Data/Text/Lazy/Builder/Functions.p_hi
 lib/text-${PKGVERSION}/${HASKELL_VERSION}/Data/Text/Lazy/Builder/Int.hi
 lib/text-${PKGVERSION}/${HASKELL_VERSION}/Data/Text/Lazy/Builder/Int.p_hi
+lib/text-${PKGVERSION}/${HASKELL_VERSION}/Data/Text/Lazy/Builder/Int/Digits.hi
+lib/text-${PKGVERSION}/${HASKELL_VERSION}/Data/Text/Lazy/Builder/Int/Digits.p_hi
+lib/text-${PKGVERSION}/${HASKELL_VERSION}/Data/Text/Lazy/Builder/Internal.hi
+lib/text-${PKGVERSION}/${HASKELL_VERSION}/Data/Text/Lazy/Builder/Internal.p_hi
 lib/text-${PKGVERSION}/${HASKELL_VERSION}/Data/Text/Lazy/Builder/RealFloat.hi
 lib/text-${PKGVERSION}/${HASKELL_VERSION}/Data/Text/Lazy/Builder/RealFloat.p_hi
 lib/text-${PKGVERSION}/${HASKELL_VERSION}/Data/Text/Lazy/Builder/RealFloat/Functions.hi

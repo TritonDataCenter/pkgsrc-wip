@@ -1,7 +1,7 @@
 # $NetBSD$
 
 MODNAME=		http
-PECL_VERSION=		1.7.5
+PECL_VERSION=		1.7.6
 CATEGORIES+=		www
 
 PECL_DISTNAME=		pecl_http-${PECL_VERSION}

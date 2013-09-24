@@ -1,0 +1,8 @@
+@comment $NetBSD$
+lib/mmorph-${PKGVERSION}/${HASKELL_VERSION}/Control/Monad/Morph.hi
+lib/mmorph-${PKGVERSION}/${HASKELL_VERSION}/Control/Monad/Morph.p_hi
+lib/mmorph-${PKGVERSION}/${HASKELL_VERSION}/HSmmorph-${PKGVERSION}.o
+lib/mmorph-${PKGVERSION}/${HASKELL_VERSION}/libHSmmorph-${PKGVERSION}.a
+lib/mmorph-${PKGVERSION}/${HASKELL_VERSION}/libHSmmorph-${PKGVERSION}_p.a
+lib/mmorph-${PKGVERSION}/${HASKELL_VERSION}/package-description
+share/doc/mmorph-${PKGVERSION}/LICENSE

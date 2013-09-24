@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	entropy-0.2.1
+DISTNAME=	entropy-0.2.2.2
 CATEGORIES=	security
 
 MAINTAINER=	pho@cielonegro.org

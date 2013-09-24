@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	pyreport-0.3.4c
-PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
+PKGNAME=	${PYPKGPREFIX}-${DISTNAME:S/py//}
 CATEGORIES=	devel
 MASTER_SITES=	http://pypi.python.org/packages/source/p/pyreport/
 

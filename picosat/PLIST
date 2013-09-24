@@ -1,3 +1,6 @@
 @comment $NetBSD$
+bin/picogcnf
+bin/picomcs
+bin/picomus
 bin/picosat
 include/picosat/picosat.h

@@ -1,0 +1,8 @@
+@comment $NetBSD$
+lib/stringable-${PKGVERSION}/${HASKELL_VERSION}/Data/Stringable.hi
+lib/stringable-${PKGVERSION}/${HASKELL_VERSION}/Data/Stringable.p_hi
+lib/stringable-${PKGVERSION}/${HASKELL_VERSION}/HSstringable-${PKGVERSION}.o
+lib/stringable-${PKGVERSION}/${HASKELL_VERSION}/libHSstringable-${PKGVERSION}.a
+lib/stringable-${PKGVERSION}/${HASKELL_VERSION}/libHSstringable-${PKGVERSION}_p.a
+lib/stringable-${PKGVERSION}/${HASKELL_VERSION}/package-description
+share/doc/stringable-${PKGVERSION}/LICENSE

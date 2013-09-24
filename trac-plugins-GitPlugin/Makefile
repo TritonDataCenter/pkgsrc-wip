@@ -14,7 +14,7 @@ COMMENT=	GIT plugin for Trac
 LICENSE=	gnu-gpl-v2
 
 DEPENDS+=	{ja-,}trac>=0.12:../../www/trac
-DEPENDS+=	scmgit-base>=1.5.6:../../devel/scmgit-base
+DEPENDS+=	git-base>=1.5.6:../../devel/git-base
 
 SVN_REV=	7757
 SVN_MOD=	gitplugin/0.12

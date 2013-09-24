@@ -1,5 +1,4 @@
 # $NetBSD$
-#
 
 DISTNAME=		riak-1.4.0
 CATEGORIES=		databases

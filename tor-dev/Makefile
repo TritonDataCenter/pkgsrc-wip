@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		tor-0.2.4.11-alpha
+DISTNAME=		tor-0.2.4.17-rc
 PKGNAME=		${DISTNAME:S/-alpha//}
 CATEGORIES=		net security
 MASTER_SITES=		http://www.torproject.org/dist/
@@ -13,6 +13,7 @@ LICENSE=		modified-bsd
 
 .include "../../mk/bsd.prefs.mk"
 
+FETCH_USING=		curl
 USE_LANGUAGES=		c99
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes
@@ -41,8 +42,6 @@ OWN_DIRS_PERMS+=	${PKG_HOME} ${USER_GROUP} 0700
 
 CONFIGURE_ARGS+=	--localstatedir=${VARBASE}
 
-CONF_FILES+=		${PREFIX}/share/examples/tor/tor-tsocks.conf 	\
-				${PKG_SYSCONFDIR}/tor-tsocks.conf
 CONF_FILES+=		${PREFIX}/share/examples/tor/torrc.sample 	\
 				${PKG_SYSCONFDIR}/torrc
 

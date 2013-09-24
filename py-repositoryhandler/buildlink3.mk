@@ -6,6 +6,7 @@ BUILDLINK_TREE+=	py26-repositoryhandler
 PY26_REPOSITORYHANDLER_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.py26-repositoryhandler+=	py26-repositoryhandler>=0.3
+BUILDLINK_ABI_DEPENDS.py26-repositoryhandler?=	py27-repositoryhandler>=0.3
 BUILDLINK_PKGSRCDIR.py26-repositoryhandler?=	../../wip/py-repositoryhandler
 
 .include "../../devel/subversion-base/buildlink3.mk"

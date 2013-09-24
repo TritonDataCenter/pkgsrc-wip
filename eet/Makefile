@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	eet-1.7.5
+DISTNAME=	eet-1.7.8
 CATEGORIES=	devel archivers
 MASTER_SITES=	http://download.enlightenment.org/releases/
 EXTRACT_SUFX=	.tar.bz2

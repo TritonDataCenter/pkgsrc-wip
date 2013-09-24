@@ -2,6 +2,7 @@ Suggested package updates
 =========================
 
 	o ReZound-0.12.3beta
+	o alive-2.0.2
 	o archimedes-2.0.1
 	o argouml-0.24
 	o atlas-3.10.0
@@ -9,7 +10,7 @@ Suggested package updates
 	o blam-1.8.12
 	o blink-0.5.0
 	o cairo-java-1.0.8
-	o calligra-2.7
+	o calligra-2.7.2
 	o ccrypt-1.10
 	o celery-3.0.21
 	o cinelerra-4.4
@@ -120,7 +121,7 @@ Suggested package updates
 	o umurmur-0.2.10
 	o vidalia-0.2.21
 	o vidalia-devel-0.3.3
-	o virtualbox-4.2.16
+	o virtualbox-4.2.18
 	o xaralx-bin-0.7.1692
 	o xf86-input-synaptics-1.7.0
 	o xf86-video-geode-2.11.14

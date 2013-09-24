@@ -97,7 +97,7 @@ GIT_REPOSITORIES=	sbcl
 GIT_REPO.sbcl=		git://git.code.sf.net/p/sbcl/sbcl
 WRKSRC=			${WRKDIR}/sbcl
 DISTNAME=
-PKGNAME=		sbcl-1.0.99
+PKGNAME=		sbcl-1.99
 
 .include "../mk/git-package.mk"
 

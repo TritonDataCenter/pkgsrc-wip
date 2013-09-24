@@ -1,10 +1,9 @@
 # $NetBSD$
 #
 
-DISTVERSION=	0.17.1
+DISTVERSION=	0.17.4
 DISTNAME=	enlightenment-${DISTVERSION}
 PKGNAME=	e17-${DISTVERSION:S/-//}
-PKGREVISION=	1
 CATEGORIES=	x11
 MASTER_SITES=	http://download.enlightenment.org/releases/
 EXTRACT_SUFX=	.tar.bz2
