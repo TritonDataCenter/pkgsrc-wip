@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	pandoc-types-1.12.1
+DISTNAME=	pandoc-types-1.12.1.1
 CATEGORIES=	textproc
 
 MAINTAINER=	szptvlfn@a-net.email.ne.jp
