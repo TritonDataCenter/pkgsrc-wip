@@ -11,7 +11,7 @@ LICENSE=	2-clause-bsd
 
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
-USE_TOOLS+=	perl:run pkg-config
+USE_TOOLS+=	bison perl:run pkg-config
 USE_LANGUAGES=	c c++
 
 PKGCONFIG_OVERRIDE+=	sphinxbase.pc.in
@@ -23,4 +23,5 @@ CONFIGURE_ARGS+=	--without-python
 
 .include "options.mk"
 
+.include "../../converters/libiconv/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
