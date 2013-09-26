@@ -13,7 +13,7 @@ USE_JAVA=		yes
 USE_JAVA2=		yes
 BUILD_DEPENDS+=	apache-ant-[0-9]*:../../devel/apache-ant
 FIND_PREFIX:=		ANTDIR=apache-ant
-BUILD_DEPENDS+=	hsqldb18-[0-9]*:../../wip/hsqldb18
+DEPENDS+=	hsqldb18-[0-9]*:../../wip/hsqldb18
 FIND_PREFIX:=		HSQLDB_SYSDIR=hsqldb18
 .include "../../mk/find-prefix.mk"
 CONFIGURE_ARGS+=	--enable-ext-wiki-publisher \
