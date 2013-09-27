@@ -130,8 +130,8 @@ _PKG_VARS.haskell= \
 PKGNAME?=	hs-${DISTNAME}
 
 # Default value of MASTER_SITES.
-#_DISTBASE?=	${DISTNAME:C/-[^-]*$//}
-#_DISTVERSION?=	${DISTNAME:C/^.*-//}
+_DISTBASE?=	${DISTNAME:C/-[^-]*$//}
+_DISTVERSION?=	${DISTNAME:C/^.*-//}
 MASTER_SITES?=	${MASTER_SITE_HASKELL_HACKAGE}${DISTNAME}/
 
 # Default value of HOMEPAGE.
