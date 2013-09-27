@@ -3198,6 +3198,7 @@ SUBDIR+=	symon
 SUBDIR+=	sympol
 SUBDIR+=	sympow
 SUBDIR+=	syn68k
+SUBDIR+=	sync-server-dependencies
 SUBDIR+=	synce-dynamite
 SUBDIR+=	synce-kde
 SUBDIR+=	synce-orange
