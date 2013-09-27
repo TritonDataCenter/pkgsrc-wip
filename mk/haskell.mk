@@ -81,7 +81,7 @@ HASKELL_MK=	# defined
 # -----------------------------------------------------------------------------
 # This declaration should be placed in ../../mk/fetch/sites.mk
 #
-MASTER_SITE_HASKELL_HACKAGE?=	http://hackage.haskell.org/packages/archive/
+MASTER_SITE_HASKELL_HACKAGE?=	http://hackage.haskell.org/package/
 # -----------------------------------------------------------------------------
 
 
@@ -130,9 +130,9 @@ _PKG_VARS.haskell= \
 PKGNAME?=	hs-${DISTNAME}
 
 # Default value of MASTER_SITES.
-_DISTBASE?=	${DISTNAME:C/-[^-]*$//}
-_DISTVERSION?=	${DISTNAME:C/^.*-//}
-MASTER_SITES?=	${MASTER_SITE_HASKELL_HACKAGE:=${_DISTBASE}/${_DISTVERSION}/}
+#_DISTBASE?=	${DISTNAME:C/-[^-]*$//}
+#_DISTVERSION?=	${DISTNAME:C/^.*-//}
+MASTER_SITES?=	${MASTER_SITE_HASKELL_HACKAGE}${DISTNAME}/
 
 # Default value of HOMEPAGE.
 HOMEPAGE?=	http://hackage.haskell.org/cgi-bin/hackage-scripts/package/${_DISTBASE}
