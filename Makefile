@@ -282,7 +282,6 @@ SUBDIR+=	carnival
 SUBDIR+=	cartago
 SUBDIR+=	castget
 SUBDIR+=	cb2bib
-SUBDIR+=	cclive
 SUBDIR+=	ccrypt
 SUBDIR+=	cddlib
 SUBDIR+=	cde
