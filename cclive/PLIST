@@ -1,3 +1,4 @@
 @comment $NetBSD$
+bin/ccl
 bin/cclive
 man/man1/cclive.1
