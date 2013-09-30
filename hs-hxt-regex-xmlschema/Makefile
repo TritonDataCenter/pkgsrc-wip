@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	hxt-regex-xmlschema-9.0.4
+DISTNAME=	hxt-regex-xmlschema-9.1.0
 CATEGORIES=	textproc
 
 MAINTAINER=	pho@cielonegro.org
