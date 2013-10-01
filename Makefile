@@ -1063,6 +1063,7 @@ SUBDIR+=	hs-hslua
 SUBDIR+=	hs-html
 SUBDIR+=	hs-hxt
 SUBDIR+=	hs-hxt-charproperties
+SUBDIR+=	hs-hxt-curl
 SUBDIR+=	hs-hxt-regex-xmlschema
 SUBDIR+=	hs-hxt-relaxng
 SUBDIR+=	hs-hxt-unicode
