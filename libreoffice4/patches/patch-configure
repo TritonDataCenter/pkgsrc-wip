@@ -1,5 +1,7 @@
 $NetBSD$
 
+* Improve portability
+
 --- configure.orig	2013-08-21 11:52:15.000000000 +0000
 +++ configure
 @@ -7232,7 +7232,7 @@ else

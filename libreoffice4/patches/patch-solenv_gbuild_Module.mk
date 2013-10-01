@@ -1,5 +1,7 @@
 $NetBSD$
 
+* Disable never-ending test
+
 --- solenv/gbuild/Module.mk.orig	2013-08-21 11:40:03.000000000 +0000
 +++ solenv/gbuild/Module.mk
 @@ -91,7 +91,7 @@ $(call gb_Module_get_target,%) :

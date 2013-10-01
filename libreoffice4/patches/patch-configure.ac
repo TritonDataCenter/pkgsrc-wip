@@ -1,5 +1,9 @@
 $NetBSD$
 
+* Improve portability, replace == with =
+* Detect pkgsrc apache-ant library
+* Fix installation directory
+
 --- configure.ac.orig	2013-08-21 11:40:03.000000000 +0000
 +++ configure.ac
 @@ -2088,7 +2088,7 @@ else

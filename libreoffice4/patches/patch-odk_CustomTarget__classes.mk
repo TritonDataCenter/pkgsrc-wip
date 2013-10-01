@@ -1,5 +1,7 @@
 $NetBSD$
 
+* cp(1) of NetBSD 5.2 has no -a option
+
 --- odk/CustomTarget_classes.mk.orig	2013-08-21 11:40:03.000000000 +0000
 +++ odk/CustomTarget_classes.mk
 @@ -27,7 +27,7 @@ $(call gb_CustomTarget_get_workdir,odk/c

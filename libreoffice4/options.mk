@@ -1,7 +1,7 @@
 # $NetBSD: options.mk,v 1.3 2012/07/11 14:47:23 wiz Exp $
 
 PKG_OPTIONS_VAR=	PKG_OPTIONS.libreoffice4
-PKG_SUPPORTED_OPTIONS=	java
+PKG_SUPPORTED_OPTIONS=	java debug
 PKG_SUGGESTED_OPTIONS=	java
 
 .include "../../mk/bsd.options.mk"
@@ -30,4 +30,9 @@ PLIST_SRC+=		${PLIST_SRC_DFLT} PLIST.java
 PLIST.java=		yes
 .else
 CONFIGURE_ARGS+=	--without-java
+.endif
+
+.if !empty(PKG_OPTIONS:Mdebug)
+CONFIGURE_ARGS+=	--enable-debug
+CONFIGURE_ARGS+=	--enable-selective-debuginfo="all"
 .endif
