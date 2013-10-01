@@ -1,7 +1,7 @@
 # $NetBSD: Makefile,v 1.44 2012/10/31 11:16:59 asau Exp $
 #
 
-DISTNAME=	gdb-7.6
+DISTNAME=	gdb-7.6.1
 CATEGORIES=	devel
 MASTER_SITES=	${MASTER_SITE_GNU:=gdb/}
 
