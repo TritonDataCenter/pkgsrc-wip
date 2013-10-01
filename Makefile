@@ -3017,6 +3017,7 @@ SUBDIR+=	runit
 SUBDIR+=	rygel
 SUBDIR+=	s3cmd
 SUBDIR+=	s3funnel
+SUBDIR+=	sabnzbdplus
 SUBDIR+=	safekeep
 SUBDIR+=	sais
 SUBDIR+=	sais-demo-data
