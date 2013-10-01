@@ -3071,6 +3071,7 @@ SUBDIR+=	showmesh
 SUBDIR+=	shttpd
 SUBDIR+=	shunt
 SUBDIR+=	sic
+SUBDIR+=	sickbeard
 SUBDIR+=	siege
 SUBDIR+=	sil-scheherazade-ttf
 SUBDIR+=	silky
