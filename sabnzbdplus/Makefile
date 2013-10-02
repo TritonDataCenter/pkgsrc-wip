@@ -19,7 +19,8 @@ MAINTAINER=	wongk@apt.homeunix.net
 HOMEPAGE=	http://sabnzbdplus.sourceforge.net/
 DEPENDS+= ${PYPKGPREFIX}-cheetah-[0-9]*:../../devel/py-cheetah \
 					${PYPKGPREFIX}-configobj-[0-9]*:../../wip/py-configobj \
-					${PYPKGPREFIX}-sqlite3-[0-9]*:../../databases/py-sqlite3
+					${PYPKGPREFIX}-sqlite3-[0-9]*:../../databases/py-sqlite3 \
+					${PYPKGPREFIX}-xml-[0-9]*:../../textproc/py-xml
 
 COMMENT=	Web-interface based binary newsgrabber in python, with nzb support
 USE_TOOLS=	pax
