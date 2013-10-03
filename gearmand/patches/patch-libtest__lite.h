@@ -1,4 +1,5 @@
 $NetBSD$
+alloca.h is a linux-ism
 
 --- libtest/lite.h-orig	2013-10-02 18:39:21.000000000 +0000
 +++ libtest/lite.h

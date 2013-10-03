@@ -9,7 +9,7 @@ MAINTAINER=	filip@joyent.com
 HOMEPAGE=	http://gearman.org/
 COMMENT=	Gearman C Server and Library
 LICENSE=	modified-bsd
-FETCH_USING+=	curl
+FETCH_USING=	curl
 
 GNU_CONFIGURE=	yes
 USE_TOOLS+=	gmake pkg-config

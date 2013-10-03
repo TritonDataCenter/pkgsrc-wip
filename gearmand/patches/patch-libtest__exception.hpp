@@ -1,4 +1,5 @@
 $NetBSD$
+va_args fix
 
 --- libtest/exception.hpp-orig	2013-10-02 23:53:23.000000000 +0000
 +++ libtest/exception.hpp
