@@ -13,6 +13,12 @@ HOMEPAGE=	http://www.libreoffice.org/
 COMMENT=	Office productivity suite, 4.x branch
 LICENSE=	gnu-lgpl-v3
 
+# With -O2, when settings window is opened, soffice.bin crashes.
+.include "../../mk/bsd.prefs.mk"
+.if !empty(MACHINE_PLATFORM:MNetBSD-5.*)
+BUILDLINK_TRANSFORM+=	rename:-O2:-O
+.endif
+
 # LibreOfice's Makefile has its own pararell build mechanism. Avoid conflict.
 MAKE_JOBS_SAFE=	no
 
