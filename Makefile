@@ -1501,7 +1501,6 @@ SUBDIR+=	libpusb
 SUBDIR+=	libraw1394
 SUBDIR+=	libre
 SUBDIR+=	libreoffice
-SUBDIR+=	libreoffice4
 SUBDIR+=	libreoffice-devel
 SUBDIR+=	libscscp
 SUBDIR+=	libsidplay2
