@@ -1,4 +1,4 @@
-@comment $NetBSD
+@comment $NetBSD$
 ${PKGNAME}/program/classes/ScriptFramework.jar
 ${PKGNAME}/program/classes/ScriptProviderForBeanShell.jar
 ${PKGNAME}/program/classes/ScriptProviderForJava.jar

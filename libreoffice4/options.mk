@@ -26,7 +26,7 @@ CONFIGURE_ARGS+=	--enable-ext-wiki-publisher \
 			--with-hsqldb-jar=${HSQLDB_SYSDIR}/lib/java/hsqldb18/hsqldb.jar
 .include "../../mk/java-env.mk"
 .include "../../mk/java-vm.mk"
-PLIST_SRC+=		${PLIST_SRC_DFLT} PLIST.java
+PLIST_SRC+=		${PLIST_SRC_DFLT:Q} PLIST.java
 PLIST.java=		yes
 .else
 CONFIGURE_ARGS+=	--without-java
