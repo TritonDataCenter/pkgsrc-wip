@@ -22,14 +22,11 @@ NO_CONFIGURE=		yes
 
 .include "../../editors/emacs/modules.mk"
 
-BUILD_TARGET=		build
 TEST_TARGET=		check
 
 INSTALLATION_DIRS+=	${DOCDIR} \
 			${EMACS_LISPPREFIX:C|^${PREFIX}/||}/apel \
 			${EMACS_LISPPREFIX:C|^${PREFIX}/||}/emu
-
-TEST_TARGET=    check
 
 PLIST_SRC=	${PKGDIR}/PLIST.${EMACS_FLAVOR}
 BUILD_TARGET=	${BUILD_TARGET.${EMACS_FLAVOR}}
