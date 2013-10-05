@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	ledger-2.6.1
+DISTNAME=	ledger-2.6.3
 CATEGORIES=	finance
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=ledger/}
 
