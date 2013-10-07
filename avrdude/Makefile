@@ -44,6 +44,7 @@ BUILD_DEPENDS+=		gtexinfo-[0-9]*:../../devel/gtexinfo
 
 .include "../../devel/libftdi/buildlink3.mk"
 .include "../../devel/libusb/buildlink3.mk"
+.include "../../devel/libusb1/buildlink3.mk"
 # elf_getshdrstrndx
 .include "../../devel/libelf/buildlink3.mk"
 .include "../../devel/readline/buildlink3.mk"
