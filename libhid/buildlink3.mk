@@ -1,0 +1,12 @@
+# $NetBSD$
+
+BUILDLINK_TREE+=	libhid
+
+.if !defined(LIBHID_BUILDLINK3_MK)
+LIBHID_BUILDLINK3_MK:=
+
+BUILDLINK_API_DEPENDS.libhid+=	libhid>=0.2
+BUILDLINK_PKGSRCDIR.libhid?=	../../wip/libhid
+.endif	# LIBHID_BUILDLINK3_MK
+
+BUILDLINK_TREE+=	-libhid
