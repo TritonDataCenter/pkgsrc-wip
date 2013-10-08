@@ -1,4 +1,5 @@
 @comment $NetBSD$
+bin/ftdi_eeprom
 bin/libftdi1-config
 include/libftdi1/ftdi.h
 include/libftdi1/ftdi.hpp
