@@ -9,9 +9,9 @@ HOMEPAGE=		http://www.nongnu.org/avrdude/
 COMMENT=		Downloader/uploader for Atmel AVR 8-bit RISC microcontrollers
 LICENSE=		gnu-gpl-v2
 
-BUILD_DEPENDS+=	dvipsk-[0-9]*:../../print/dvipsk
-BUILD_DEPENDS+=	tex-latex-fonts-[0-9]*:../../fonts/tex-latex-fonts
-BUILD_DEPENDS+=	tex-pdftex-[0-9]*:../../print/tex-pdftex
+BUILD_DEPENDS+=		dvipsk-[0-9]*:../../print/dvipsk
+BUILD_DEPENDS+=		tex-latex-fonts-[0-9]*:../../fonts/tex-latex-fonts
+BUILD_DEPENDS+=		tex-pdftex-[0-9]*:../../print/tex-pdftex
 
 # make: make: don't know how to make ./libavrdude.a. Stop
 MAKE_JOBS_SAFE=		no
