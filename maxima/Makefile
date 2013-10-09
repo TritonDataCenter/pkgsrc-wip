@@ -41,7 +41,7 @@ SUBST_CLASSES+=			fix-version
 SUBST_STAGE.fix-version=	post-patch
 SUBST_MESSAGE.fix-version=	Fixing package version.
 SUBST_FILES.fix-version=	configure.in
-SUBST_SED.fix-version=		-e 's:AM_INIT_AUTOMAKE(maxima,[^)]*):AM_INIT_AUTOMAKE(maxima,${PKGVERSION_NOREV}):'
+SUBST_SED.fix-version=		-e 's:AC_INIT(\[maxima\], *\[.*\]):AC_INIT([maxima],[${PKGVERSION_NOREV}]):'
 
 PYTHON_FOR_BUILD_ONLY=	yes
 ALL_ENV+=	PYTHONBIN=$(PYTHONBIN:Q)
