@@ -57,6 +57,10 @@ PKG_SYSCONFSUBDIR=	riak
 CONF_FILES+=		share/examples/riak/app.config ${PKG_SYSCONFDIR}/app.config
 CONF_FILES+=		share/examples/riak/vm.args ${PKG_SYSCONFDIR}/vm.args
 
+SMF_USER=		${RIAK_USER}
+SMF_GROUP=		${RIAK_GROUP}
+SMF_HOME=		${RIAK_DATA}
+
 BUILD_TARGET=		rel
 PLIST_VARS+=		innostore dtrace
 
@@ -79,6 +83,8 @@ REPLACE_FILES.escript+=	${WRKDIR}/innostore-${INNOVER}/priv/innodump
 REPLACE_FILES.escript+=	${WRKDIR}/innostore-${INNOVER}/priv/innoload
 
 FILES_SUBST+=		ERTS_VERSION=${VERSION.erts}
+FILES_SUBST+=		RIAK_USER=${RIAK_USER}
+FILES_SUBST+=		RIAK_GROUP=${RIAK_GROUP}
 
 CHECK_INTERPRETER_SKIP=	riak/lib/bitcask-${VERSION.bitcask}/priv/Run-eunit-loop.expect
 CHECK_INTERPRETER_SKIP+=riak/erts-${VERSION.erts}/bin/nodetool

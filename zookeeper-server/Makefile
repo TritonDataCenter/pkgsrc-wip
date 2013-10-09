@@ -56,6 +56,10 @@ CONF_FILES+=		share/examples/zookeeper/log4j.properties ${PKG_SYSCONFDIR}/log4j.
 CONF_FILES+=		share/examples/zookeeper/zoo.cfg ${PKG_SYSCONFDIR}/zoo.cfg
 CONF_FILES+=		share/examples/zookeeper/zookeeper-env.sh ${PKG_SYSCONFDIR}/zookeeper-env.sh
 
+SMF_NAME=		zookeeper
+FILES_SUBST+=		ZK_USER=${ZK_USER}
+FILES_SUBST+=		ZK_GROUP=${ZK_GROUP}
+
 do-build:
 	cd ${WRKSRC} && ${SETENV} JAVA_HOME=${PKG_JAVA_HOME} ant bin-package
 

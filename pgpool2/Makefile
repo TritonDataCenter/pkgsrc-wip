@@ -61,6 +61,9 @@ CONF_FILES+=	${EGDIR}/pool_hba.conf.sample ${PKG_SYSCONFDIR}/pool_hba.conf
 CONF_FILES_PERMS+=	${EGDIR}/pool_passwd ${PKG_SYSCONFDIR}/pool_passwd \
 			${PGPOOL_USER} ${PGGROUP} 0640
 
+FILES_SUBST+=		PGPOOL_USER=${PGPOOL_USER}
+FILES_SUBST+=		PGPOOL_GROUP=${PGPOOL_GROUP}
+
 post-install:
 	${TOUCH} ${DESTDIR}${PREFIX}/share/examples/pgpool2/pool_passwd
 

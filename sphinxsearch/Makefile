@@ -51,6 +51,9 @@ SUBST_SED.paths+=	-e 's,@localstatedir@,${SPHINX_DIR},g'
 SUBST_SED.paths+=	-e 's,@egdir@,${EGDIR},g'
 SUBST_SED.paths+=	-e 's,@PKG_SYSCONFDIR@,${PKG_SYSCONFDIR},g'
 
+FILES_SUBST+=		SPHINX_USER=${SPHINX_USER}
+FILES_SUBST+=		SPHINX_GROUP=${SPHINX_GROUP}
+
 CONFIGURE_DIRS=		.
 CONFIGURE_DIRS+=	api/libsphinxclient
 
