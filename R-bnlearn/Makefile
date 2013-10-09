@@ -9,7 +9,7 @@ COMMENT=	Bayesian network structure learning, parameter learning and inference
 LICENSE=	gnu-gpl-v2 OR gnu-gpl-v3
 
 R_PKGNAME=	bnlearn
-R_PKGVER=	3.3
+R_PKGVER=	3.4
 
 USE_LANGUAGES=	c fortran
 
