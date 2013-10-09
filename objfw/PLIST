@@ -134,6 +134,7 @@ include/ObjFW/of_strptime.h
 include/ObjFW/runtime.h
 include/ObjFW/threading.h
 include/ObjFW/unicode.h
+lib/libobjfw.a
 lib/libobjfw.so
 lib/libobjfw.so.6
 lib/libobjfw.so.6.0.0

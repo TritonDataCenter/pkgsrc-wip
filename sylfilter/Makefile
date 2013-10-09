@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	sylfilter-0.7
+DISTNAME=	sylfilter-0.8
 CATEGORIES=	mail
 MASTER_SITES=	http://sylpheed.sraoss.jp/sylfilter/src/
 

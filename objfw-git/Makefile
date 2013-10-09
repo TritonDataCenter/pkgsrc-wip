@@ -17,6 +17,7 @@ WRKSRC=			${WRKDIR}/objfw
 USE_TOOLS=		aclocal automake
 GNU_CONFIGURE=		yes
 USE_LANGUAGES=		objc
+CONFIGURE_ARGS+=	--enable-static
 
 pre-configure:
 	cd ${WRKSRC} && ./autogen.sh

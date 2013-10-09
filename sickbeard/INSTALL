@@ -1,0 +1,10 @@
+# $NetBSD$
+SB_DIR="@PREFIX@/sickbeard"
+SB_USER=sickbeard
+SB_GROUP=other
+
+case ${STAGE} in
+POST-INSTALL)
+	(${CHOWN} -R ${SB_USER}:"${SB_GROUP}" "${SB_DIR}")
+	;;
+esac

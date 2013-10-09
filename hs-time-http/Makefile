@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	time-http-0.1.0.1
+PKGREVISION=	1
 CATEGORIES=	time
 
 MAINTAINER=	pho@cielonegro.org

@@ -11,9 +11,10 @@ LICENSE=	qpl-v1.0 OR gnu-gpl-v2 OR gnu-gpl-v3
 HOMEPAGE=	https://webkeks.org/objfw/
 MAINTAINER=	js@webkeks.org
 
-FETCH_USING=	wget	# required for https
+FETCH_USING=		wget	# required for https
 
-GNU_CONFIGURE=	yes
-USE_LANGUAGES=	objc
+GNU_CONFIGURE=		yes
+USE_LANGUAGES=		objc
+CONFIGURE_ARGS+=	--enable-static
 
 .include "../../mk/bsd.pkg.mk"

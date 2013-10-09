@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	unordered-containers-0.2.3.2
+DISTNAME=	unordered-containers-0.2.3.3
 CATEGORIES=	devel
 LICENSE=	modified-bsd
 

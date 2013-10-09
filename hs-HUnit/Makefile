@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	HUnit-1.2.5.1
+DISTNAME=	HUnit-1.2.5.2
 CATEGORIES=	devel
 
 MAINTAINER=	pho@cielonegro.org

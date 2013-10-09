@@ -19,6 +19,7 @@ Suggested package updates
 	o desmume-0.9.9
 	o di-4.34
 	o directfb-1.0.0
+	o dolphin-4.0
 	o e17-1.0
 	o ecasound-2.9
 	o ecb-2.40
@@ -29,6 +30,7 @@ Suggested package updates
 	o evilvte-0.5.1
 	o evolution-couchdb-0.4.4
 	o fakenes-0.5.7
+	o fceux-2.2.2
 	o firebird-2.5
 	o flc-1.12
 	o gambas2-2.23.0
@@ -71,7 +73,7 @@ Suggested package updates
 	o libpthread-stubs-0.3
 	o lives-2.0.5
 	o llvm-3.3
-	o lucene-3.6.1
+	o lucene-4.5.0
 	o man-1.6f
 	o mcabber-0.10.2
 	o mcwm-20130209.2
@@ -93,6 +95,7 @@ Suggested package updates
 	o parted-1.9.0
 	o passepartout-0.7.1
 	o pdfedit-0.4.5
+	o pdftk-2.02
 	o pessulus-2.30.4
 	o pike-7.8.700
 	o py-PyPE-2.9
@@ -109,7 +112,7 @@ Suggested package updates
 	o samhain-3.0.13
 	o scantailor-0.9.11.1
 	o sflphoned-0.7.2
-	o siege-3.0.3
+	o siege-3.0.4
 	o sleuthkit-3.2.3
 	o smc-1.9
 	o sxemacs-22.1.10
