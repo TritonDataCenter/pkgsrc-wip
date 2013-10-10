@@ -23,7 +23,6 @@ TEXINFO_REQD=		4.9
 USE_TOOLS+=		autoconf automake autoreconf makeinfo texi2html yacc lex
 INFO_FILES=		yes
 EGDIR=			${PREFIX}/share/examples/avrdude
-CONF_FILES=		${EGDIR}/avrdude.conf ${PKG_SYSCONFDIR}/avrdude.conf
 CONF_FILES_PERMS=	${EGDIR}/avrdude.conf ${PKG_SYSCONFDIR}/avrdude.conf \
 			${REAL_ROOT_USER} ${REAL_ROOT_GROUP} 644
 
