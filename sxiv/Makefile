@@ -3,6 +3,7 @@
 
 DISTNAME=	v1.1.1
 PKGNAME=	sxiv-${DISTNAME:S/v//}
+PKGREVISION=	1
 CATEGORIES=	graphics
 MASTER_SITES=	https://github.com/muennich/sxiv/archive/
 
@@ -33,4 +34,5 @@ INSTALLATION_DIRS=	bin ${PKGMANDIR}/man1
 
 .include "../../x11/libX11/buildlink3.mk"
 .include "../../graphics/imlib2/buildlink3.mk"
+.include "../../mk/giflib.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
