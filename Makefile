@@ -3421,6 +3421,7 @@ SUBDIR+=	vidrioclock
 SUBDIR+=	vidriolib
 SUBDIR+=	viewer
 SUBDIR+=	viewglob
+SUBDIR+=	vimb
 SUBDIR+=	vimprobable2
 SUBDIR+=	vimrc-mode
 SUBDIR+=	virtualbox
