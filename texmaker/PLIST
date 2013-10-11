@@ -1,4 +1,5 @@
-n/texmaker
+@comment $NetBSD$
+bin/texmaker
 share/applications/texmaker.desktop
 share/pixmaps/texmaker.png
 share/texmaker/AUTHORS
