@@ -2314,6 +2314,7 @@ SUBDIR+=	pkg_summary-utils
 SUBDIR+=	pkgconf
 SUBDIR+=	pkgin
 SUBDIR+=	pkgmanager
+SUBDIR+=	pkgsrc-status-dependencies
 SUBDIR+=	plasti
 SUBDIR+=	plconfig
 SUBDIR+=	plod
