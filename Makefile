@@ -531,7 +531,6 @@ SUBDIR+=	eclipse
 SUBDIR+=	ecore
 SUBDIR+=	edb
 SUBDIR+=	edelib
-SUBDIR+=	editline
 SUBDIR+=	edje
 SUBDIR+=	eet
 SUBDIR+=	efltk
