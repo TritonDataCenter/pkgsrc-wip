@@ -2370,6 +2370,7 @@ SUBDIR+=	pxlib
 SUBDIR+=	pxview
 SUBDIR+=	py-Beaker
 SUBDIR+=	py-Brenda
+SUBDIR+=	py-CalDAVClientLibrary
 SUBDIR+=	py-CVSToys
 SUBDIR+=	py-Climate
 SUBDIR+=	py-DNS
