@@ -10,7 +10,7 @@ VIMB_HACKS_MK=	defined
 ### On NetBSD the LOCK_* macros in <fcntl.h> are defined if and only if is
 ### defined _NETBSD_SOURCE.
 .if !empty(MACHINE_PLATFORM:MNetBSD-*-*)
-CPPFLAGS+=	-D_NETBSD_SOURCE
+CFLAGS+=	-D_NETBSD_SOURCE
 .endif
 
 .endif	# VIMB_HACKS_MK
