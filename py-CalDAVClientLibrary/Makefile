@@ -12,6 +12,7 @@ COMMENT=	CalDAV library for python used by CalendarServer
 
 WRKSRC=		${WRKDIR}/CalDAVClientLibrary/trunk
 USE_LANGUAGES=	# none
+EGG_NAME=	UNKNOWN-0.0.0
 
 .include "../../lang/python/distutils.mk"
 .include "../../mk/bsd.pkg.mk"
