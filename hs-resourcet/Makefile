@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	resourcet-0.4.8
+DISTNAME=	resourcet-0.4.9
 CATEGORIES=	devel
 
 MAINTAINER=	szptvlfn@a-net.email.ne.jp
