@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	distributive-0.3.1
+DISTNAME=	distributive-0.3.2
 CATEGORIES=	devel
 
 MAINTAINER=	pho@cielonegro.org
