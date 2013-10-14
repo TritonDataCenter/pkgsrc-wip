@@ -1,11 +1,10 @@
 # $NetBSD$
 
-DISTNAME=	bifunctors-3.2.0.1
+DISTNAME=	bifunctors-4.1.0.1
 CATEGORIES=	devel
 
 MAINTAINER=	szptvlfn@a-net.email.ne.jp
-HOMEPAGE=	http://github.com/ekmett/bifunctors/
-COMMENT=	Haskell 98 bifunctors
+COMMENT=	Bifunctors
 LICENSE=	modified-bsd
 
 .include "../../wip/mk/haskell.mk"
