@@ -1,7 +1,8 @@
 # $NetBSD: Makefile,v 1.39 2008/10/13 08:07:02 uebayasi Exp $
 
-DISTNAME=	ja-freewnn-1.1.0.pl22
-PKGNAME=	ja-freewnn-1.1.0_pl22
+# The name won't be used for actual fetch, this is cvs version
+DISTNAME=	ja-FreeWnn-lib-1.11alpha22
+PKGNAME=	ja-FreeWnn-lib-1.11alpha22
 
 CATEGORIES=	inputmethod
 MASTER_SITES=
@@ -18,6 +19,8 @@ INSTALL_TARGET=	install
 BUILD_DEFS=	FREEWNN_USER FREEWNN_GROUP
 INFO_FILES=	YES
 USE_LIBTOOL=	YES
+
+MAKE_JOBS_SAFE= no
 
 FREEWNN_USER=	wnn
 FREEWNN_GROUP=	jserver
