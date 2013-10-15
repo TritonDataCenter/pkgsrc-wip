@@ -13,6 +13,8 @@ lib/bifunctors-${PKGVERSION}/${HASKELL_VERSION}/Data/Bifunctor/Flip.hi
 lib/bifunctors-${PKGVERSION}/${HASKELL_VERSION}/Data/Bifunctor/Flip.p_hi
 lib/bifunctors-${PKGVERSION}/${HASKELL_VERSION}/Data/Bifunctor/Joker.hi
 lib/bifunctors-${PKGVERSION}/${HASKELL_VERSION}/Data/Bifunctor/Joker.p_hi
+lib/bifunctors-${PKGVERSION}/${HASKELL_VERSION}/Data/Bifunctor/Product.hi
+lib/bifunctors-${PKGVERSION}/${HASKELL_VERSION}/Data/Bifunctor/Product.p_hi
 lib/bifunctors-${PKGVERSION}/${HASKELL_VERSION}/Data/Bifunctor/Wrapped.hi
 lib/bifunctors-${PKGVERSION}/${HASKELL_VERSION}/Data/Bifunctor/Wrapped.p_hi
 lib/bifunctors-${PKGVERSION}/${HASKELL_VERSION}/Data/Bitraversable.hi

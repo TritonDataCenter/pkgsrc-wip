@@ -28,8 +28,6 @@ SUBST_SED.paths=	-e "s|/etc/rsyslog.conf|${PKG_SYSCONFDIR}/rsyslog.conf|g"
 SUBST_SED.paths+=	-e "s|/etc/rsyslogd.conf|${PKG_SYSCONFDIR}/rsyslog.conf|g"
 SUBST_MESSAGE.paths=	Fixing paths.
 
-DOCDIR=			${PREFIX}/share/doc/rsyslog
-
 EGDIR=			${PREFIX}/share/examples/rsyslog
 RCD_SCRIPTS=		rsyslogd
 

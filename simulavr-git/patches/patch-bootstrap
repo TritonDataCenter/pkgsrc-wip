@@ -1,5 +1,6 @@
 $NetBSD$
 
+Suppres warning from automake
 
 --- bootstrap.orig	2013-09-20 09:02:07.000000000 +0900
 +++ bootstrap	2013-09-20 15:43:13.000000000 +0900

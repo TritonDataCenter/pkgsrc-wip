@@ -26,9 +26,13 @@ INFO_FILES=		yes
 USE_PKGLOCALEDIR=	yes
 WRKSRC=			${WRKDIR}/${PKGBASE}
 
-CONFIGURE_ARGS+=	--disable-tests
 CONFIGURE_ARGS+=	--enable-python=python${PYVERSSUFFIX}
 CONFIGURE_ARGS+=	--with-bfd=${PREFIX}/avr
+# looking for include/gtest/gtest.h and src/gtest.cc
+CONFIGURE_ARGS+=	--with-gtest=
+# Following line does not affect anything yet
+CONFIGURE_ENV+=		GTEST_USE_FALSE=yes
+CONFIGURE_ENV+=		GTEST_USE=no
 
 # Interim fix
 SUBST_CLASSES+=		prefix
@@ -44,6 +48,12 @@ SUBST_FILES.makeinfo=	examples/anacomp/Makefile.in
 SUBST_FILES.makeinfo+=	examples/python/Makefile.in
 SUBST_SED.makeinfo=	-e 's,@MAKEINFO@,${PREFIX}/bin/makeinfo,g'
 
+SUBST_CLASSES+=		build-dir
+SUBST_STAGE.build-dir=	post-configure
+SUBST_MESSAGE.build-dir= Deleting option not to get -o output only asks for single arg.
+SUBST_FILES.build-dir=	doc/Makefile.in doc/Makefile
+SUBST_SED.build-dir=	-e 's,--build-dir.*-o,-o,g'
+
 ## gcc 2.95 gives warnings that it cannot inline all functions.
 #BUILDLINK_TRANSFORM+=	rm:-Werror
 
@@ -54,6 +64,7 @@ pre-configure:
 
 .include "../../cross/avr-binutils/buildlink3.mk"
 .include "../../cross/avr-gcc/buildlink3.mk"
+#.include "../../devel/googletest/buildlink3.mk"
 .include "../../devel/swig/buildlink3.mk"
 #.include "../../wip/avr-libc/buildlink3.mk"
 .include "../../mk/curses.buildlink3.mk"

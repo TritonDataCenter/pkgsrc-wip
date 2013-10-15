@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	aeson-0.6.2.0
+DISTNAME=	aeson-0.6.2.1
 CATEGORIES=	converters
 
 MAINTAINER=	szptvlfn@a-net.email.ne.jp

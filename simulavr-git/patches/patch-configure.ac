@@ -21,7 +21,7 @@ ERROR: [check-portability.awk] => Found test ... == ...:
 +#
 +# See ChangeLog of automake,
 +# 2012-07-02  Stefano Lattarini  <stefano.lattarini@gmail.com>
-+AM_EXTRA_RECURSIVE_TARGETS([src])
++AM_EXTRA_RECURSIVE_TARGETS([src doc])
 +AUTOMAKE_OPTIONS= subdir-objects
 +AM_PROG_AR= /bin/ar
 +#

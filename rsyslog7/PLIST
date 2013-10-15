@@ -1,5 +1,5 @@
 @comment $NetBSD$
-${PLIST.diag}lib/rsyslog/imdiag.la
+lib/rsyslog/imdiag.la
 ${PLIST.file}lib/rsyslog/imfile.la
 ${PLIST.gssapi}lib/rsyslog/imgssapi.la
 ${PLIST.klog}lib/rsyslog/imklog.la
