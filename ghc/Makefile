@@ -3,7 +3,7 @@
 # Package metadata
 #
 DISTNAME=	ghc-${VERSION}
-VERSION=	7.6.2
+VERSION=	7.6.3
 CATEGORIES=	lang
 MASTER_SITES=	http://www.haskell.org/ghc/dist/${VERSION}/
 MAINTAINER=	pho@cielonero.org
@@ -22,18 +22,21 @@ ONLY_FOR_PLATFORM= \
 	FreeBSD-*-i386 \
 	Linux-*-x86_64 \
 	NetBSD-*-i386 \
-	NetBSD-*-x86_64
+	NetBSD-*-x86_64 \
+	SunOS-5.11-*
 
 
 # -----------------------------------------------------------------------------
 # Distfiles
 #
 DISTFILES=	${DISTNAME}-src.tar.bz2
-DISTFILES+=	${DISTNAME}-boot-i386-unknown-freebsd.tar.xz
-DISTFILES+=	${DISTNAME}-boot-i386-unknown-netbsd.tar.xz
-DISTFILES+=	${DISTNAME}-boot-powerpc-apple-darwin.tar.xz
-DISTFILES+=	${DISTNAME}-boot-x86_64-unknown-linux.tar.xz
-DISTFILES+=	${DISTNAME}-boot-x86_64-unknown-netbsd.tar.xz
+#DISTFILES+=	${DISTNAME}-boot-i386-unknown-freebsd.tar.xz
+#DISTFILES+=	${DISTNAME}-boot-i386-unknown-netbsd.tar.xz
+#DISTFILES+=	${DISTNAME}-boot-powerpc-apple-darwin.tar.xz
+#DISTFILES+=	${DISTNAME}-boot-x86_64-unknown-linux.tar.xz
+#DISTFILES+=	${DISTNAME}-boot-x86_64-unknown-netbsd.tar.xz
+DISTFILES+=	${DISTNAME}-boot-i386-unknown-solaris2.tar.gz
+DISTFILES+=	${DISTNAME}-boot-x86_64-unknown-solaris2.tar.xz
 
 .for i in ${DISTFILES:M*-boot-*}
 SITES.${i}=	http://static.cielonegro.org/archive/
@@ -62,7 +65,6 @@ WARNINGS+="Using hard-coded ${CCPATH:Q} as the C compiler..."
 .endif
 
 CONFIGURE_ARGS+= \
-	--with-gcc=${CCPATH:Q} \
 	--with-gmp-includes=${PREFIX:Q}/include \
 	--with-gmp-libraries=${PREFIX:Q}/lib \
 	--with-iconv-includes=${PREFIX:Q}/include \
@@ -99,7 +101,7 @@ do-configure:
 # in a non-standard path. Without that, the resulting GHC tries to
 # link programs by executing ld(1) without passing it -L${PREFIX:Q}/lib.
 	${RUN} ${ECHO} "libraries/terminfo_CONFIGURE_OPTS += \
-		--configure-option=--with-curses-includes=${PREFIX:Q}/include \
+		--configure-option=--with-curses-includes=${PREFIX:Q}/include/ncurses \
 		--configure-option=--with-curses-libraries=${PREFIX:Q}/lib" >> ${WRKSRC:Q}/mk/build.mk
 
 # The ghc compiler does normally split the generated asm files into small
@@ -151,7 +153,7 @@ You need to set USE_DESTDIR to \"yes\"."
 .else
 GENERATE_PLIST+= \
 	cd ${DESTDIR:Q}${PREFIX:Q} && \
-		${FIND} * \( -type f -or -type l \) | ${SORT} -d;
+		${FIND} * \( -type f -o -type l \) | ${SORT} -d;
 .endif
 
 

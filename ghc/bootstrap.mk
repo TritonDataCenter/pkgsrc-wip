@@ -30,11 +30,17 @@ BOOT_ARCHIVE=	${DISTNAME}-boot-x86_64-unknown-linux.tar.xz
 .elif ${MACHINE_ARCH} == "x86_64" && ${OPSYS} == "NetBSD"
 BOOT_ARCHIVE=	${DISTNAME}-boot-x86_64-unknown-netbsd.tar.xz
 
+.elif !empty(MACHINE_PLATFORM:MSunOS-5.11-i386)
+BOOT_ARCHIVE=	${DISTNAME}-boot-i386-unknown-solaris2.tar.gz
+
+.elif !empty(MACHINE_PLATFORM:MSunOS-5.11-x86_64)
+BOOT_ARCHIVE=	${DISTNAME}-boot-x86_64-unknown-solaris2.tar.xz
+
 .else
 PKG_FAIL_REASON+=	"internal error: unsupported platform"
 .endif
 
-BOOT_TARBALL=	${BOOT_ARCHIVE:C/\.xz$//}
+BOOT_TARBALL=	${BOOT_ARCHIVE:C/\.xz$//:C/\.gz$//}
 
 
 # -----------------------------------------------------------------------------
@@ -54,10 +60,8 @@ pre-configure:
 	@${PHASE_MSG} "Preparing bootstrapping compiler for ${PKGNAME}"
 	${RUN} cd ${WRKDIR:Q}/build-extract/${DISTNAME}-boot && \
 		${SH} ./configure \
-			--prefix=${TOOLS_DIR:Q} \
-			--with-gcc=${CCPATH:Q} && \
+			--prefix=${TOOLS_DIR:Q} && \
 		${MAKE_PROGRAM} install
-
 
 # -----------------------------------------------------------------------------
 # An unusual target "bootstrap"
@@ -100,8 +104,15 @@ ${WRKDIR}/stamp-configure-boot: ${WRKDIR}/stamp-lndir-boot
 	@${PHASE_MSG} "Configuring bootstrapping compiler ${DISTNAME}"
 	${MKDIR} ${WRKDIR:Q}/build-boot
 	cd ${WRKDIR:Q}/build-boot && \
-		${SH} ./configure --with-gcc=${CCPATH:Q} && \
-		${LN} -f ${FILESDIR:Q}/bootstrap.build.mk mk/build.mk
+		${PKGSRC_SETENV} PATH=${PATH} \
+		CONF_GCC_LINKER_OPTS_STAGE0="-L${PREFIX}/lib -Wl,-R${PREFIX}/lib" \
+		CONF_LD_LINKER_OPTS_STAGE0="-L${PREFIX}/lib -R${PREFIX}/lib" \
+		CONF_GCC_LINKER_OPTS_STAGE1="-L${PREFIX}/lib -Wl,-R${PREFIX}/lib" \
+		CONF_LD_LINKER_OPTS_STAGE1="-L${PREFIX}/lib -R${PREFIX}/lib" \
+		CONF_GCC_LINKER_OPTS_STAGE2="-L${PREFIX}/lib -Wl,-R${PREFIX}/lib" \
+		CONF_LD_LINKER_OPTS_STAGE2="-L${PREFIX}/lib -R${PREFIX}/lib" \
+		${SH} ./configure && \
+		${SED} -e "s,@PREFIX@,${PREFIX:Q},g" /${FILESDIR:Q}/bootstrap.build.mk > mk/build.mk
 	${TOUCH} ${.TARGET}
 
 ${WRKDIR}/stamp-build-boot: ${WRKDIR}/stamp-configure-boot
