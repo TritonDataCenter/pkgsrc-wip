@@ -19,7 +19,7 @@ CONFIGURE_ARGS+=	--enable-cached-man-pages
 CONFIGURE_ARGS+=	--enable-imdiag --enable-impstats --enable-omstdout
 
 USE_LIBTOOL=		yes
-USE_TOOLS+=		pkg-config
+USE_TOOLS+=		flex pkg-config
 
 SUBST_CLASSES+=		paths
 SUBST_STAGE.paths=	pre-configure
