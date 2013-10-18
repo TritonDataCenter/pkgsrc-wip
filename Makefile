@@ -3024,6 +3024,7 @@ SUBDIR+=	rubrica2
 SUBDIR+=	ruby-GalleryAdministrator
 SUBDIR+=	ruby-actionmessenger
 SUBDIR+=	ruby-bdb
+SUBDIR+=	ruby-cabin
 SUBDIR+=	ruby-diaspora
 SUBDIR+=	ruby-ditz
 SUBDIR+=	ruby-dnssd
