@@ -35,10 +35,12 @@ PLIST.totem=		yes
 
 .if !empty(PKG_OPTIONS:Mdoc)
 CONFIGURE_ARGS+=	--enable-gtk-doc=yes
-PLIST_SRC+=		${PKGDIR}/PLIST ${PKGDIR}/PLIST.doc
+# will check later
+#PLIST_SRC+=		${PKGDIR}/PLIST ${PKGDIR}/PLIST.doc
 .include "../../graphics/graphviz/buildlink3.mk"
 .include "../../textproc/gtk-doc/buildlink3.mk"
 .endif
+PLIST_SRC+=		${PKGDIR}/PLIST ${PKGDIR}/PLIST.doc
 
 .if !empty(PKG_OPTIONS:Mtests)
 REPLACE_PYTHON+=	tests/functional-tests/*.py \
