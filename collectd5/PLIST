@@ -1,27 +1,41 @@
 @comment $NetBSD$
 bin/collectd-nagios
+bin/collectd-tg
 bin/collectdctl
-etc/collectd.conf
 include/collectd/client.h
 include/collectd/lcc_features.h
+include/collectd/network.h
+include/collectd/network_buffer.h
+lib/collectd/apache.la
+lib/collectd/cpu.la
 lib/collectd/csv.la
+lib/collectd/curl_json.la
 lib/collectd/df.la
+lib/collectd/disk.la
 lib/collectd/exec.la
 lib/collectd/filecount.la
+lib/collectd/load.la
 lib/collectd/logfile.la
 lib/collectd/memcached.la
+lib/collectd/memory.la
+lib/collectd/mysql.la
 lib/collectd/network.la
+lib/collectd/nginx.la
 lib/collectd/ntpd.la
 lib/collectd/olsrd.la
+lib/collectd/openvpn.la
 lib/collectd/powerdns.la
 lib/collectd/syslog.la
 lib/collectd/table.la
 lib/collectd/tail.la
 lib/collectd/unixsock.la
 lib/collectd/uptime.la
+lib/collectd/write_graphite.la
+lib/collectd/zfs_arc.la
 lib/libcollectdclient.la
 lib/pkgconfig/libcollectdclient.pc
 man/man1/collectd-nagios.1
+man/man1/collectd-tg.1
 man/man1/collectd.1
 man/man1/collectdctl.1
 man/man1/collectdmon.1
@@ -39,6 +53,7 @@ sbin/collectd
 sbin/collectdmon
 share/collectd/postgresql_default.conf
 share/collectd/types.db
+share/examples/collectd/collectd.conf
 @pkgdir var/run
 @pkgdir var/log
 @pkgdir var/lib/collectd
