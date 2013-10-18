@@ -19,6 +19,8 @@ PKG_SUGGESTED_OPTIONS+=		mp3 xmp
 .include "../../mk/bsd.options.mk"
 
 PLIST_VARS+=			${PKG_SUPPORTED_OPTIONS} mplayer totem
+PLIST.mplayer=		yes
+PLIST.totem=		yes
 
 .if !empty(PKG_OPTIONS:Mgstreamer)
 PLIST.gstreamer=	yes
@@ -28,9 +30,8 @@ CONFIGURE_ARGS+=	--enable-gstreamer-helix
 .elif !empty(PKG_OPTIONS:Mxine)
 PLIST.xine=		yes
 .include "../../multimedia/xine-lib/buildlink3.mk"
-.else
-PLIST.mplayer=		yes
-PLIST.totem=		yes
+PLIST.mplayer=		# empty
+PLIST.totem=		# empty
 .endif
 
 .if !empty(PKG_OPTIONS:Mdoc)
@@ -157,6 +158,7 @@ PLIST.nautilus=		yes
 ### Writeback:
 
 .if !empty(PKG_OPTIONS:Mmp3)
+PLIST.mp3=		yes
 .include "../../audio/id3lib/buildlink3.mk"
 .endif
 

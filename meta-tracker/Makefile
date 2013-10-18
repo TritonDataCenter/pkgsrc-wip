@@ -41,6 +41,7 @@ PLIST_SUBST+=	TRACKER_VERSION=tracker-${PKGVERSION:C/\.[0-9]+$//}
 .include "../../databases/sqlite3/buildlink3.mk"
 .include "../../devel/libuuid/buildlink3.mk"
 .include "../../devel/pango/buildlink3.mk"
+.include "../../graphics/hicolor-icon-theme/buildlink3.mk"
 .include "../../graphics/libexif/buildlink3.mk"
 .include "../../graphics/png/buildlink3.mk"
 .include "../../textproc/libunistring/buildlink3.mk"
