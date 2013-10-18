@@ -12,7 +12,7 @@ bin/calendarserver_purge_events
 bin/calendarserver_purge_principals
 bin/calendarserver_shell
 caldavd/caldavd.plist
-${PYSITELIB}/Calendar_and_Contacts_Server-${PKGVERSION}._r11789M_-py2.7.egg-info
+${PYSITELIB}/${EGG_FILE}
 ${PYSITELIB}/calendarserver/__init__.py
 ${PYSITELIB}/calendarserver/__init__.pyc
 ${PYSITELIB}/calendarserver/__init__.pyo
