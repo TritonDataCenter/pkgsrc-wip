@@ -72,3 +72,12 @@ Add support for NetBSD/Dragonfly, fix locations.
      if use_system_version_of_library("boost"):
          if not conf.CheckCXXHeader( "boost/filesystem/operations.hpp" ):
              print( "can't find boost headers" )
+@@ -864,7 +895,7 @@ def doConfigure(myenv):
+         Exit(1)
+ 
+     # requires ports devel/libexecinfo to be installed
+-    if freebsd or openbsd:
++    if freebsd or openbsd or netbsd or dragonfly:
+         if not conf.CheckLib("execinfo"):
+             Exit(1)
+ 
