@@ -898,6 +898,7 @@ SUBDIR+=	happy
 SUBDIR+=	hasciicam
 SUBDIR+=	haserl
 SUBDIR+=	haskell-mode
+SUBDIR+=	hasktags
 SUBDIR+=	hawk
 SUBDIR+=	hawknl
 SUBDIR+=	haydar-fonts
