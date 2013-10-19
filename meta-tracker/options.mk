@@ -19,6 +19,8 @@ PKG_SUGGESTED_OPTIONS+=		mp3 xmp
 .include "../../mk/bsd.options.mk"
 
 PLIST_VARS+=			${PKG_SUPPORTED_OPTIONS} mplayer totem
+PLIST.mplayer=		yes
+PLIST.totem=		yes
 
 .if !empty(PKG_OPTIONS:Mgstreamer)
 PLIST.gstreamer=	yes
@@ -28,17 +30,18 @@ CONFIGURE_ARGS+=	--enable-gstreamer-helix
 .elif !empty(PKG_OPTIONS:Mxine)
 PLIST.xine=		yes
 .include "../../multimedia/xine-lib/buildlink3.mk"
-.else
-PLIST.mplayer=		yes
-PLIST.totem=		yes
+PLIST.mplayer=		# empty
+PLIST.totem=		# empty
 .endif
 
 .if !empty(PKG_OPTIONS:Mdoc)
 CONFIGURE_ARGS+=	--enable-gtk-doc=yes
-PLIST_SRC+=		${PKGDIR}/PLIST ${PKGDIR}/PLIST.doc
+# will check later
+#PLIST_SRC+=		${PKGDIR}/PLIST ${PKGDIR}/PLIST.doc
 .include "../../graphics/graphviz/buildlink3.mk"
 .include "../../textproc/gtk-doc/buildlink3.mk"
 .endif
+PLIST_SRC+=		${PKGDIR}/PLIST ${PKGDIR}/PLIST.doc
 
 .if !empty(PKG_OPTIONS:Mtests)
 REPLACE_PYTHON+=	tests/functional-tests/*.py \
@@ -155,6 +158,7 @@ PLIST.nautilus=		yes
 ### Writeback:
 
 .if !empty(PKG_OPTIONS:Mmp3)
+PLIST.mp3=		yes
 .include "../../audio/id3lib/buildlink3.mk"
 .endif
 

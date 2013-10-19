@@ -2,6 +2,7 @@
 
 DISTNAME=	mongodb-src-r2.4.6
 PKGNAME=	${DISTNAME:S/src-r//}
+PKGREVISION=	1
 CATEGORIES=	databases
 MASTER_SITES=	http://downloads.mongodb.org/src/
 
@@ -118,6 +119,7 @@ post-install:
 .include "../../devel/boost-headers/buildlink3.mk"
 .include "../../devel/boost-libs/buildlink3.mk"
 .include "../../devel/boost-python/buildlink3.mk"
+.include "../../devel/libexecinfo/buildlink3.mk"
 .include "../../devel/pcre/buildlink3.mk"
 .include "../../devel/snappy/buildlink3.mk"
 .include "../../net/libpcap/buildlink3.mk"

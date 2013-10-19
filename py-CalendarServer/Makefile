@@ -38,6 +38,8 @@ DEPENDS+=	subversion-base-[0-9]*:../../devel/subversion-base
 USE_LANGUAGES=	c
 USE_TOOLS+=	bash:run
 
+EGG_NAME=	Calendar_and_Contacts_Server-4.2._r11789M_
+
 REPLACE_BASH+=	bin/caldavd
 
 REPLACE_PYTHON+=	calendarserver/tools/ampnotifications.py
