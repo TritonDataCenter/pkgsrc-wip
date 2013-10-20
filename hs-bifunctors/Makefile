@@ -5,7 +5,7 @@ CATEGORIES=	devel
 
 MAINTAINER=	szptvlfn@a-net.email.ne.jp
 COMMENT=	Bifunctors
-LICENSE=	modified-bsd
+LICENSE=	2-clause-bsd
 
 .include "../../wip/mk/haskell.mk"
 .include "../../wip/hs-semigroupoids/buildlink3.mk"

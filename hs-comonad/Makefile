@@ -6,7 +6,7 @@ CATEGORIES=	math
 
 MAINTAINER=	pho@cielonegro.org
 COMMENT=	Comonads
-LICENSE=	modified-bsd
+LICENSE=	2-clause-bsd
 
 .include "../../wip/mk/haskell.mk"
 .include "../../wip/hs-contravariant/buildlink3.mk"
