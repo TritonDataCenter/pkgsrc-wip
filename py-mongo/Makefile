@@ -1,14 +1,17 @@
 # $NetBSD$
 
-DISTNAME=	pymongo-2.4.2
-PKGNAME=	${PYPKGPREFIX}-mongo-2.4.2
-CATEGORIES=	devel python
-MASTER_SITES=	http://pypi.python.org/packages/source/p/pymongo/
+DISTNAME=	pymongo-2.6.3
+PKGNAME=	${PYPKGPREFIX}-mongo-2.6.3
+CATEGORIES=	databases devel python
+MASTER_SITES=	https://pypi.python.org/packages/source/p/pymongo/
+FETCH_USING=	curl
 
 MAINTAINER=	mishka@NetBSD.org
-HOMEPAGE=	http://www.mongodb.org/display/DOCS/Python+Language+Center
+HOMEPAGE=	http://docs.mongodb.org/ecosystem/drivers/python/
 COMMENT=	Python driver for MongoDB
 LICENSE=	apache-2.0
+
+PYTHON_VERSIONS_INCLUDE_3X=	yes
 
 .include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"
