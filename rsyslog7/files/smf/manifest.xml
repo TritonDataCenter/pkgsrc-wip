@@ -13,7 +13,7 @@
     <dependency name="system_log" grouping="exclude_all" restart_on="refresh" type="service">
       <service_fmri value="svc:/system/system-log:default" />
     </dependency>
-    <exec_method type="method" name="start" exec="@PREFIX@/sbin/rsyslogd -c5" timeout_seconds="60" />
+    <exec_method type="method" name="start" exec="@PREFIX@/sbin/rsyslogd" timeout_seconds="60" />
     <exec_method type="method" name="refresh" exec=":kill -HUP" timeout_seconds="60" />
     <exec_method type="method" name="stop" exec=":kill" timeout_seconds="60" />
     <property_group name="startd" type="framework">
