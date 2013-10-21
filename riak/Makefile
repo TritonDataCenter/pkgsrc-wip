@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=		riak-1.4.0
+DISTNAME=		riak-1.4.2
 CATEGORIES=		databases
 MASTER_SITES=		http://s3.amazonaws.com/downloads.basho.com/riak/1.4/${PKGVERSION}/
 
