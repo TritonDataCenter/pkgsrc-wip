@@ -6,7 +6,7 @@ CATEGORIES=	math
 
 MAINTAINER=	pho@cielonegro.org
 COMMENT=	Haskell 98 semigroups
-LICENSE=	modified-bsd
+LICENSE=	2-clause-bsd
 
 .include "../../wip/mk/haskell.mk"
 .include "../../wip/hs-hashable/buildlink3.mk"

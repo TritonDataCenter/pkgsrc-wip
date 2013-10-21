@@ -1630,7 +1630,6 @@ SUBDIR+=	mcats
 SUBDIR+=	mcats-iodbc
 SUBDIR+=	mce
 SUBDIR+=	mcl
-SUBDIR+=	mcpp
 SUBDIR+=	mcwm
 SUBDIR+=	mdadm
 SUBDIR+=	mdbtools

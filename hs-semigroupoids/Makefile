@@ -6,7 +6,7 @@ CATEGORIES=	math
 
 MAINTAINER=	pho@cielonegro.org
 COMMENT=	Semigroupoids: Category sans id
-LICENSE=	modified-bsd
+LICENSE=	2-clause-bsd
 
 .include "../../wip/mk/haskell.mk"
 .include "../../wip/hs-comonad/buildlink3.mk"
