@@ -2,6 +2,7 @@
 #
 
 DISTNAME=		rsyslog-7.4.4
+PKGREVISION=		1
 CATEGORIES=		sysutils
 MASTER_SITES=		http://www.rsyslog.com/files/download/rsyslog/
 
@@ -17,6 +18,8 @@ CONFIGURE_ARGS+=	--disable-testbench
 CONFIGURE_ARGS+=	--enable-mmnormalize
 CONFIGURE_ARGS+=	--enable-cached-man-pages
 CONFIGURE_ARGS+=	--enable-imdiag --enable-impstats --enable-omstdout
+CONFIGURE_ARGS+=	--enable-diagtools --enable-usertools
+CONFIGURE_ENV+=		RST2MAN=touch
 
 USE_LIBTOOL=		yes
 USE_TOOLS+=		flex pkg-config
