@@ -29,7 +29,7 @@ CONFIGURE_ARGS+=	--disable-nls
 CONFIGURE_ARGS+=	--host=${MACHINE_ARCH}--${LOWER_OPSYS}
 CONFIGURE_ARGS+=	--build=${MACHINE_ARCH}--${LOWER_OPSYS}
 
-INFO_FILES=		yes
+INFO_FILES=		no
 
 #.include "../../devel/gmp/buildlink3.mk"  # 4.4 or later
 #.include "../../math/mpfr/buildlink3.mk"  # 4.4 or later
@@ -37,5 +37,14 @@ INFO_FILES=		yes
 # to avoid conflict with binutils (to be fixed by more sophisticated way)
 post-install:
 	${RM}  ${DESTDIR}${CROSSBASE}/lib/libiberty.a
+#  to avoid conflict wit mingw-w64-gcc-4.5.1 
+	${RM}  ${DESTDIR}${CROSSBASE}/man/man7/fsf-funding.7
+	${RM}  ${DESTDIR}${CROSSBASE}/man/man7/gfdl.7
+	${RM}  ${DESTDIR}${CROSSBASE}/man/man7/gpl.7
+	${RM}  ${DESTDIR}${CROSSBASE}/info/cpp.info
+	${RM}  ${DESTDIR}${CROSSBASE}/info/cppinternals.info
+	${RM}  ${DESTDIR}${CROSSBASE}/info/gcc.info
+	${RM}  ${DESTDIR}${CROSSBASE}/info/gccinstall.info
+	${RM}  ${DESTDIR}${CROSSBASE}/info/gccint.info
 
 .include "../../mk/bsd.pkg.mk"

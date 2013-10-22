@@ -4,6 +4,7 @@
 .include "Makefile.common"
 
 PKGNAME=		${DISTNAME:S/keeper/keeper-server/}
+PKGREVISION=		1
 COMMENT=		Highly reliable distributed coordination server
 
 USE_JAVA=		yes
@@ -54,7 +55,8 @@ INSTALLATION_DIRS+=	bin libexec sbin share/examples/zookeeper share/zookeeper
 CONF_FILES+=		share/examples/zookeeper/configuration.xsl ${PKG_SYSCONFDIR}/configuration.xsl
 CONF_FILES+=		share/examples/zookeeper/log4j.properties ${PKG_SYSCONFDIR}/log4j.properties
 CONF_FILES+=		share/examples/zookeeper/zoo.cfg ${PKG_SYSCONFDIR}/zoo.cfg
-CONF_FILES+=		share/examples/zookeeper/zookeeper-env.sh ${PKG_SYSCONFDIR}/zookeeper-env.sh
+CONF_FILES_PERMS+=	share/examples/zookeeper/zookeeper-env.sh ${PKG_SYSCONFDIR}/zookeeper-env.sh \
+			${ROOT_USER} ${ROOT_GROUP} 0755
 
 SMF_NAME=		zookeeper
 FILES_SUBST+=		ZK_USER=${ZK_USER}
