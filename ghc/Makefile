@@ -65,12 +65,14 @@ WARNINGS+="Using hard-coded ${CCPATH:Q} as the C compiler..."
 .endif
 
 CONFIGURE_ARGS+= \
+	--with-gcc=${CC:Q} \
 	--with-gmp-includes=${PREFIX:Q}/include \
 	--with-gmp-libraries=${PREFIX:Q}/lib \
 	--with-iconv-includes=${PREFIX:Q}/include \
 	--with-iconv-libraries=${PREFIX:Q}/lib
 
 CONFIGURE_ENV+= \
+	CONF_CC_OPTS_STAGE2="${_COMPILER_ABI_FLAG.${ABI}:Q} -Wl,-R${PREFIX}/lib" \
 	PerlCmd=${PERL5:Q}
 
 
