@@ -61,7 +61,7 @@ CONFIGURE_ARGS+=	--with-gnutls
 # default-off
 #.include "../../sysutils/libnotify07/buildlink3.mk"		# optional
 .include "../../textproc/gtkspell/buildlink3.mk"		# optional
-.include "../../x11/gtk2/buildlink3.mk"
 
+.include "options.mk"
 .include "../../wip/mk/git-package.mk"
 .include "../../mk/bsd.pkg.mk"
