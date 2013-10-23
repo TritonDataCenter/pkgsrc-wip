@@ -497,7 +497,6 @@ SUBDIR+=	drpython
 SUBDIR+=	drumpiler
 SUBDIR+=	dscan
 SUBDIR+=	dsh
-SUBDIR+=	dspam
 SUBDIR+=	dssi
 SUBDIR+=	duali-data
 SUBDIR+=	duff
