@@ -39,6 +39,7 @@ DEPENDS+=	p5-File-HomeDir-[0-9]*:../../devel/p5-File-HomeDir
 DEPENDS+=	p5-Template-Toolkit-[0-9]*:../../www/p5-Template-Toolkit
 DEPENDS+=	p5-MetaCPAN-API-[0-9]*:../../devel/p5-MetaCPAN-API
 DEPENDS+=	p5-DBD-SQLite-[0-9]*:../../databases/p5-DBD-SQLite
+DEPENDS+=	p5-Module-Pluggable>=4.8:../../devel/p5-Module-Pluggable
 
 .include "../../lang/perl5/module.mk"
 .include "../../mk/bsd.pkg.mk"
