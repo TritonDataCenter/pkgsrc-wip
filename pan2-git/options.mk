@@ -8,7 +8,6 @@ PKG_SUGGESTED_OPTIONS=		gtk2
 .include "../../mk/bsd.options.mk"
 
 .if !empty(PKG_OPTIONS:Mgtk3)
-.include "../../audio/flac/buildlink3.mk"
 CONFIGURE_ARGS+=	--with-gtk3
 .include "../../x11/gtk3/buildlink3.mk"
 .else
