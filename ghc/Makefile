@@ -4,6 +4,7 @@
 #
 DISTNAME=	ghc-${VERSION}
 VERSION=	7.6.3
+PKGREVISION=	1
 CATEGORIES=	lang
 MASTER_SITES=	http://www.haskell.org/ghc/dist/${VERSION}/
 MAINTAINER=	pho@cielonero.org

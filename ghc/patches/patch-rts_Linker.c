@@ -4,7 +4,17 @@ Support 64-bit x86 SunOS.
 
 --- rts/Linker.c.orig	2013-04-18 21:22:46.000000000 +0000
 +++ rts/Linker.c
-@@ -4014,6 +4014,7 @@ ocResolve_PEi386 ( ObjectCode* oc )
+@@ -75,7 +75,8 @@
+     (   defined(linux_HOST_OS)     || defined(freebsd_HOST_OS) || \
+         defined(dragonfly_HOST_OS) || defined(netbsd_HOST_OS ) || \
+         defined(openbsd_HOST_OS  ) || defined(darwin_HOST_OS ) || \
+-        defined(kfreebsdgnu_HOST_OS) || defined(gnu_HOST_OS)))
++        defined(kfreebsdgnu_HOST_OS) || defined(gnu_HOST_OS) || \
++        defined(solaris2_HOST_OS)))
+ /* Don't use mmap on powerpc_HOST_ARCH as mmap doesn't support
+  * reallocating but we need to allocate jump islands just after each
+  * object images. Otherwise relative branches to jump islands can fail
+@@ -4014,6 +4015,7 @@ ocResolve_PEi386 ( ObjectCode* oc )
  #  define ELF_TARGET_386    /* Used inside <elf.h> */
  #elif defined(x86_64_HOST_ARCH)
  #  define ELF_TARGET_X64_64
