@@ -681,6 +681,7 @@ SUBDIR+=	fribid
 SUBDIR+=	fricas
 SUBDIR+=	frobby
 SUBDIR+=	froggymicroblog
+SUBDIR+=	fs-uae
 SUBDIR+=	fs2open
 SUBDIR+=	fslsfonts
 SUBDIR+=	fstobdf
