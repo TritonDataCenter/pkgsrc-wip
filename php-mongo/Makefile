@@ -2,7 +2,7 @@
 #
 
 MODNAME=	mongo
-PECL_VERSION=	1.2.12
+PECL_VERSION=	1.4.4
 CATEGORIES=	databases
 
 MAINTAINER=	bartosz.kuzma@gmail.com
