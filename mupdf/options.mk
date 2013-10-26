@@ -8,9 +8,9 @@ PKG_SUPPORTED_OPTIONS=	curl
 #
 # curl support
 #
-.if !empty(PKG_OPTIONS.Mcurl)
-.  include "../../mk/pthread.buildlink3.mk"
-.  include "../../www/curl/buildlink3.mk"
+.if !empty(PKG_OPTIONS:Mcurl)
+.include "../../www/curl/buildlink3.mk"
+.include "../../mk/pthread.buildlink3.mk"
 .else
 MAKE_FLAGS+=	NOCURL=yes
 .endif
