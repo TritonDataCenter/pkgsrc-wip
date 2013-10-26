@@ -1,5 +1,4 @@
 # $Id$
-#
 
 COMMENT=	WIP pkgsrc packages
 
@@ -250,6 +249,7 @@ SUBDIR+=	bsnmp
 SUBDIR+=	bss
 SUBDIR+=	bsvc
 SUBDIR+=	btscanner
+SUBDIR+=	bub-git
 SUBDIR+=	bub-n-bros
 SUBDIR+=	bunny
 SUBDIR+=	busybox
