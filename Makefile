@@ -2969,6 +2969,7 @@ SUBDIR+=	ratpoints
 SUBDIR+=	ratproxy
 SUBDIR+=	rc.d.Interix
 SUBDIR+=	rc.subr
+SUBDIR+=	rdfind
 SUBDIR+=	rdup
 SUBDIR+=	re2
 SUBDIR+=	readseq
