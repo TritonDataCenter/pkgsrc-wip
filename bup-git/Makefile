@@ -13,6 +13,9 @@ DEPENDS+=	par2-[0-9]*:../../archivers/par2
 DEPENDS+=	${PYPKGPREFIX}-readline-[0-9]*:../../devel/py-readline
 DEPENDS+=	git-base-[0-9]*:../../devel/git-base
 
+# actually a TEST_DEPENDS
+BUILD_DEPENDS+=	rsync>=3.0:../../net/rsync
+
 GIT_REPOSITORIES=	bup
 GIT_REPO.bup=		git://github.com/bup/bup.git
 
@@ -78,6 +81,12 @@ REPLACE_PYTHON+=	lib/tornado/websocket.py
 REPLACE_PYTHON+=	lib/tornado/wsgi.py
 REPLACE_PYTHON+=	main.py
 REPLACE_PYTHON+=	wvtest.py
+
+REPLACE_PYTHON+=	t/hardlink-sets
+REPLACE_PYTHON+=	t/id-other-than
+REPLACE_PYTHON+=	t/mksock
+REPLACE_PYTHON+=	t/root-status
+REPLACE_PYTHON+=	t/unknown-owner
 
 REPLACE_BASH+=		t/compare-trees
 REPLACE_BASH+=		t/configure-sampledata
