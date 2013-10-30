@@ -3291,6 +3291,7 @@ SUBDIR+=	texlive
 SUBDIR+=	texlive-bin
 SUBDIR+=	texlive-texmf-base
 SUBDIR+=	texlive-texmf-minimal
+SUBDIR+=	texlive2013
 SUBDIR+=	tftp-hpa
 SUBDIR+=	thabit-ttf
 SUBDIR+=	thcrut
