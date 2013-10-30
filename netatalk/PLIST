@@ -63,8 +63,8 @@ man/man8/cnid_dbd.8
 man/man8/cnid_metad.8
 man/man8/netatalk.8
 share/aclocal/netatalk.m4
-share/doc/netatalk/netatalk.html
 share/examples/netatalk/afp.conf
+share/examples/netatalk/dbus-session.conf
 share/examples/netatalk/extmap.conf
 @pkgdir libexec/psffilters
 @pkgdir etc/netatalk
