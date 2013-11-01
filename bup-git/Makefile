@@ -15,6 +15,7 @@ DEPENDS+=	git-base-[0-9]*:../../devel/git-base
 
 # actually a TEST_DEPENDS
 BUILD_DEPENDS+=	rsync>=3.0:../../net/rsync
+BUILD_DEPENDS+=	rdiff-backup-[0-9]*:../../sysutils/rdiff-backup
 
 GIT_REPOSITORIES=	bup
 GIT_REPO.bup=		git://github.com/bup/bup.git
