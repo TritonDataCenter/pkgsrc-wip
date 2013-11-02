@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	tracker-0.16.2
+DISTNAME=	tracker-0.16.3
 PKGNAME=	meta-${DISTNAME}
 CATEGORIES=	sysutils
 MASTER_SITES=	${MASTER_SITE_GNOME:=sources/tracker/0.16/}
