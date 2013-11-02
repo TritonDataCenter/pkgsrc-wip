@@ -824,6 +824,7 @@ SUBDIR+=	gpsdrive
 SUBDIR+=	gpx2shp
 SUBDIR+=	grandr
 SUBDIR+=	granule
+SUBDIR+=	graphite2
 SUBDIR+=	graphmonkey
 SUBDIR+=	grass
 SUBDIR+=	grass-JockeyRidge
