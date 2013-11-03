@@ -89,6 +89,7 @@ REPLACE_PYTHON+=	t/mksock
 REPLACE_PYTHON+=	t/root-status
 REPLACE_PYTHON+=	t/unknown-owner
 
+REPLACE_BASH+=		cmd/import-rdiff-backup-cmd.sh
 REPLACE_BASH+=		t/compare-trees
 REPLACE_BASH+=		t/configure-sampledata
 REPLACE_BASH+=		t/subtree-hash
