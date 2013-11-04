@@ -1,13 +1,7 @@
 # $NetBSD$
 
-DISTNAME=	marisa-0.2.4
-CATEGORIES=	textproc
-MASTER_SITES=	http://marisa-trie.googlecode.com/files/
-
-MAINTAINER=	ishit@users.sourceforge.net
-HOMEPAGE=	http://code.google.com/p/marisa-trie/
-COMMENT=	Matching Algorithm with Recursively Implemented StorAge
-LICENSE=	modified-bsd gnu-lgpl-v2.1
+.include "Makefile.common"
+COMMENT=        Yet Another Multipurpose CHunk Annotator
 
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
