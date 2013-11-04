@@ -5,7 +5,7 @@ DISTNAME=	sylfilter-0.8
 CATEGORIES=	mail
 MASTER_SITES=	http://sylpheed.sraoss.jp/sylfilter/src/
 
-MAINTAINER=	ishit@usrs.sorceforge.net
+MAINTAINER=	ishit@users.sorceforge.net
 HOMEPAGE=	http://sylpheed.sraoss.jp/sylfilter/
 COMMENT=	Bayesian spam filter
 LICENSE=	modified-bsd
