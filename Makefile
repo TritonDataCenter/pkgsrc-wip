@@ -1655,7 +1655,6 @@ SUBDIR+=	microtetris
 SUBDIR+=	mid2gmc
 SUBDIR+=	milter-greylist-devel
 SUBDIR+=	mime-support
-SUBDIR+=	mimedefang
 SUBDIR+=	min12xxw
 SUBDIR+=	mingw-w64-binutils
 SUBDIR+=	mingw-w64-crt
