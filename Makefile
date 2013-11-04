@@ -1843,7 +1843,6 @@ SUBDIR+=	nostromo
 SUBDIR+=	notify-sharp
 SUBDIR+=	notmuch
 SUBDIR+=	nsc2ke
-SUBDIR+=	nsd4-svn
 SUBDIR+=	nsp
 SUBDIR+=	nspr
 SUBDIR+=	nss-pam-ldapd
