@@ -1,7 +1,7 @@
 # $NetBSD$
 
 .include "Makefile.common"
-COMMENT=        Yet Another Multipurpose CHunk Annotator
+COMMENT=		C++ library to provide an implementation of MARISA
 
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
