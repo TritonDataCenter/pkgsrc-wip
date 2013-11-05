@@ -89,6 +89,13 @@ REPLACE_PYTHON+=	t/mksock
 REPLACE_PYTHON+=	t/root-status
 REPLACE_PYTHON+=	t/unknown-owner
 
+SUBST_CLASSES+=		python-c
+SUBST_SED.python-c+=	-e 's,python -c,${PYTHONBIN} -c,'
+SUBST_STAGE.python-c+=	pre-configure
+SUBST_FILES.python-c+=	t/lib.sh
+SUBST_FILES.python-c+=	t/test-meta.sh
+SUBST_MSG.python-c+=	Fixing python executable in tests.
+
 REPLACE_BASH+=		cmd/import-rdiff-backup-cmd.sh
 REPLACE_BASH+=		t/compare-trees
 REPLACE_BASH+=		t/configure-sampledata
