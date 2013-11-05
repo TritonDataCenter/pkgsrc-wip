@@ -1,1 +1,11 @@
 @comment $NetBSD$
+bin/torsocks
+etc/tor/torsocks.conf
+lib/torsocks/libtorsocks.la
+man/man1/torsocks.1
+man/man5/torsocks.conf.5
+man/man8/torsocks.8
+share/DEBUG
+share/SOCKS5
+share/doc/torsocks/ChangeLog
+share/socks-extensions.txt

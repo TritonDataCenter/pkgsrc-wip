@@ -15,6 +15,7 @@ DIST_SUBDIR=	torsocks
 WRKSRC=		${WRKDIR}/torsocks-${DISTNAME:S/v//}
 USE_TOOLS+=	autoreconf autoconf automake
 GNU_CONFIGURE=	yes
+USE_LIBTOOL=	yes
 CONFIGURE_ENV+=	LIBC_PATH=/lib/libc.so
 
 pre-configure:
