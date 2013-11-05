@@ -76,11 +76,11 @@ TEST_TARGET=	check
 # 	cd $(WRKSRC) && $(PERL5) autogen.sh
 
 post-install:
-	${MKDIR} ${DESTDIR}${MPI_PREFIX}/etc
+	${MKDIR} ${DESTDIR}${MPI_PREFIX}/share/examples/openmpi
 	${SED} -e "s|%%MPI_PREFIX%%|${MPI_PREFIX}|g" \
-		files/shrc > ${DESTDIR}${MPI_PREFIX}/etc/shrc
+		files/shrc > ${DESTDIR}${MPI_PREFIX}/share/examples/openmpi/shrc
 	${SED} -e "s|%%MPI_PREFIX%%|${MPI_PREFIX}|g" \
-		files/cshrc > ${DESTDIR}${MPI_PREFIX}/etc/cshrc
+		files/cshrc > ${DESTDIR}${MPI_PREFIX}/share/examples/openmpi/cshrc
 
 LIBLTDL_CONVENIENCE_SUBDIR=	opal/libltdl
 .include "../../devel/libltdl/convenience.mk" # for "test" target to work
