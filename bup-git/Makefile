@@ -91,10 +91,10 @@ REPLACE_PYTHON+=	t/unknown-owner
 
 SUBST_CLASSES+=		python-c
 SUBST_SED.python-c+=	-e 's,python -c,${PYTHONBIN} -c,'
-SUBST_STAGE.python-c+=	pre-configure
+SUBST_STAGE.python-c=	pre-configure
 SUBST_FILES.python-c+=	t/lib.sh
 SUBST_FILES.python-c+=	t/test-meta.sh
-SUBST_MSG.python-c+=	Fixing python executable in tests.
+SUBST_MESSAGE.python-c=	Fixing python executable in tests.
 
 REPLACE_BASH+=		cmd/import-rdiff-backup-cmd.sh
 REPLACE_BASH+=		t/compare-trees
