@@ -37,8 +37,8 @@ include/${TRACKER_VERSION}/libtracker-miner/tracker-thumbnailer.h
 include/${TRACKER_VERSION}/libtracker-sparql/tracker-generated.h
 include/${TRACKER_VERSION}/libtracker-sparql/tracker-sparql.h
 include/${TRACKER_VERSION}/libtracker-sparql/tracker-version.h
-lib/evolution/2.32/plugins/liborg-freedesktop-Tracker-evolution-plugin.la
-lib/evolution/2.32/plugins/org-freedesktop-Tracker-evolution-plugin.eplug
+${PLIST.evolution}lib/evolution/2.32/plugins/liborg-freedesktop-Tracker-evolution-plugin.la
+${PLIST.evolution}lib/evolution/2.32/plugins/org-freedesktop-Tracker-evolution-plugin.eplug
 lib/libtracker-extract-0.16.la
 lib/libtracker-miner-0.16.la
 lib/libtracker-sparql-0.16.la
