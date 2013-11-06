@@ -3464,7 +3464,6 @@ SUBDIR+=	wkhtmltopdf
 SUBDIR+=	wl-current
 SUBDIR+=	wmc2d
 SUBDIR+=	wmii-devel
-SUBDIR+=	wmitime
 SUBDIR+=	wmname
 SUBDIR+=	wmnetload
 SUBDIR+=	wmsupermon
