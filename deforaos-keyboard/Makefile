@@ -2,7 +2,7 @@
 
 DISTNAME=	Keyboard-0.2.1
 PKGNAME=	deforaos-keyboard-0.2.1
-PKGREVISION=	1
+PKGREVISION=	2
 CATEGORIES=	x11
 MASTER_SITES=	http://www.defora.org/os/download/download/3696/
 
@@ -21,7 +21,5 @@ MAKE_FLAGS+=	DESTDIR=${DESTDIR}
 MAKE_FLAGS+=	PREFIX=${PREFIX}
 
 .include "../../x11/libXtst/buildlink3.mk"
-.include "../../x11/gtk2/buildlink3.mk"
 .include "../../wip/deforaos-libdesktop/buildlink3.mk"
-.include "../../sysutils/desktop-file-utils/desktopdb.mk"
 .include "../../mk/bsd.pkg.mk"
