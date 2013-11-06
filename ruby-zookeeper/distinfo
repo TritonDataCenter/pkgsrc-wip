@@ -1,0 +1,7 @@
+$NetBSD: distinfo,v 1.14 2010/09/10 04:34:12 taca Exp $
+
+SHA1 (zookeeper-1.4.6.gem) = a56fdadb919483135cbdaa946de19100831f8e30
+RMD160 (zookeeper-1.4.6.gem) = 23dd679ef57535bd090dd16bb18b2b842f47bd39
+Size (zookeeper-1.4.6.gem) = 929792 bytes
+SHA1 (patch-aa) = 634fa9cd4561a8dc03e82c2532ba4f29986ab122
+SHA1 (patch-so-pos) = cbad35a04c55b766c1869087b1e7aa87e8205a0b
