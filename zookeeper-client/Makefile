@@ -15,7 +15,7 @@ BUILD_DEPENDS+=	cppunit-[0-9]*:../../devel/cppunit
 
 CONFIGURE_DIRS=	src/c
 
-CFLAGS.SunOS+=	-D_POSIX_PTHREAD_SEMANTICS
+CFLAGS.SunOS+= -pthreads	-D_POSIX_PTHREAD_SEMANTICS
 LIBS.SunOS+=	-lnsl -lsocket
 
 TEST_TARGET=	run-check
