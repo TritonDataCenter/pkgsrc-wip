@@ -674,6 +674,7 @@ SUBDIR+=	freedict-tools-xsl
 SUBDIR+=	freedup
 SUBDIR+=	freedup16
 SUBDIR+=	freefem++
+SUBDIR+=	freeimage
 SUBDIR+=	freej
 SUBDIR+=	freevo
 SUBDIR+=	freevrrpd
