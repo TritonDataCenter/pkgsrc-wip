@@ -8,8 +8,8 @@
 NIOS2_MAKEFILECOMMON=  # yes
 
 MASTER_SITES=		ftp://ftp.altera.com/outgoing/download/support/ip/processors/nios2/gnu/
-DISTNAME=		nios2_gnu_gcc3_10.0
-#			nios2_gnu_gcc3_10.1.tgz are the exactly same, see MD5
+DISTNAME=		nios2_gnu_gcc4_13.0
+EXTRACT_SUFX=		.gz
 
 GNU_CONFIGURE=		yes
 USE_PKGLOCALEDIR=	yes
