@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	e_dbus-1.7.8
+DISTNAME=	e_dbus-1.7.9
 CATEGORIES=	sysutils
 MASTER_SITES=	http://download.enlightenment.org/releases/
 EXTRACT_SUFX=	.tar.bz2
