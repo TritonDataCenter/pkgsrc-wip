@@ -6,4 +6,5 @@ Size (nios2_gnu_gcc4_13.0.gz) = 110799088 bytes
 SHA1 (patch-aa) = 523c37419fdef29355624c7d1a38e5cd61cef194
 SHA1 (patch-gcc_config_nios2_nios2-proto.h) = 8d3006b98fe47a825c45e15e8b218f5179e8e663
 SHA1 (patch-gcc_config_nios2_nios2.c) = bc5655083a1bb641e1b606b547a27903900252fd
+SHA1 (patch-gcc_doc_invoke.texi) = 75bc85c7713d0579ec960c3f777484ca7d555214
 SHA1 (patch-libjava_classpath_script_loc) = 039d83c8dcb19f07a684edfe860ec687a50e636b
