@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	edje-1.7.8
+DISTNAME=	edje-1.7.9
 CATEGORIES=	graphics
 MASTER_SITES=	http://download.enlightenment.org/releases/
 EXTRACT_SUFX=	.tar.bz2
