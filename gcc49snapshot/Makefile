@@ -89,6 +89,10 @@ CONFIGURE_ARGS+=	--disable-bootstrap
 CONFIGURE_ARGS+=	--with-arch=i486 --with-tune=i486
 .endif
 
+.if !empty(MACHINE_PLATFORM:MNetBSD-*-amd64) || !empty(MACHINE_PLATFORM:MLinux-*-amd64)
+CONFIGURE_ARGS+=	--with-arch=nocona --with-tune=nocona --with-fpmath=sse
+.endif
+
 .include "options.mk"
 
 # ${WRKSRC}/fixincludes/ looks for sed and compiles the path to sed into
