@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	elementary-1.7.8
+DISTNAME=	elementary-1.7.9
 CATEGORIES=	x11
 MASTER_SITES=	http://download.enlightenment.org/releases/
 EXTRACT_SUFX=	.tar.bz2
