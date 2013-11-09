@@ -4,7 +4,7 @@
 # used by wip/evas-software-x11/Makefile
 # used by wip/evas-xpm/Makefile
 
-EVAS_VERSION=	1.7.8
+EVAS_VERSION=	1.7.9
 DISTNAME=	evas-${EVAS_VERSION}
 CATEGORIES=	graphics
 MASTER_SITES=	http://download.enlightenment.org/releases/
