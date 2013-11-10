@@ -76,10 +76,12 @@ PLIST_SRC+=		PLIST.tcl
 # Python support
 #
 .if !empty(PKG_OPTIONS:Mpython)
-.include		"../../lang/python32/buildlink3.mk"
-DEPENDS+=		python32>=3.2:../../lang/python32
-CONFIGURE_ARGS+=	--enable-python=python-3.2
-USE_LANGUAGES+=		python
+PYTHON_VERSIONS_INCLUDE_3X=	yes
+PYTHON_VERSIONS_INCOMPATIBLE=	26 27
+PY_PEP3147=	no
+.include		"../../lang/python/extension.mk"
+CONFIGURE_ARGS+=	--enable-python=python-${PYVERSSUFFIX}
+PLIST_SRC+=		PLIST.python
 .endif
 
 #

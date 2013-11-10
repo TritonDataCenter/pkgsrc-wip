@@ -1,0 +1,7 @@
+@comment $NetBSD$
+lib/znc/modpython.so
+lib/znc/modpython/_znc_core.so
+lib/znc/modpython/znc.py
+lib/znc/modpython/znc.pyc
+lib/znc/modpython/znc_core.py
+lib/znc/modpython/znc_core.pyc
