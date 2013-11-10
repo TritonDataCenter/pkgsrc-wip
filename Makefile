@@ -528,6 +528,7 @@ SUBDIR+=	eclipse
 SUBDIR+=	ecore
 SUBDIR+=	edb
 SUBDIR+=	edelib
+SUBDIR+=	editorconfig-core
 SUBDIR+=	edje
 SUBDIR+=	eet
 SUBDIR+=	efltk
