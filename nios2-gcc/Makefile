@@ -16,13 +16,6 @@ USE_GNU_CONFIGURE_HOST=	no
 EXTRACT_SUFX=		.gz
 
 DEPENDS+=		nios2-binutils-[0-9]*:../../wip/nios2-binutils
-# bin/tex is required
-BUILD_DEPENDS+=		web2c-[0-9]*:../../print/web2c
-BUILD_DEPENDS+=		tex-cm-[0-9]*:../../fonts/tex-cm
-BUILD_DEPENDS+=		tex-latex-fonts-[0-9]*:../../fonts/tex-latex-fonts
-BUILD_DEPENDS+=		tex-pdftex-doc-[0-9]*:../../print/tex-pdftex-doc
-BUILD_DEPENDS+=		tex-pdftex-[0-9]*:../../print/tex-pdftex
-BUILD_DEPENDS+=		gtexinfo-[0-9]*:../../devel/gtexinfo
 
 .include		"../../wip/nios2/Makefile.common"
 
@@ -38,6 +31,8 @@ CFLAGS+=		-g
 
 INFO_FILES=		no
 
+PLIST_VARS+=		doc
+.include "options.mk"
 #.include "../../devel/gmp/buildlink3.mk"  # 4.4 or later
 #.include "../../math/mpfr/buildlink3.mk"  # 4.4 or later
 
