@@ -3,7 +3,7 @@
 
 DISTNAME=		znc-1.0
 CATEGORIES=		net
-MASTER_SITES=		http://znc.in/releases/
+MASTER_SITES=		http://znc.in/releases/archive/
 
 MAINTAINER=		florian@geiges.net
 HOMEPAGE=		http://znc.in/
