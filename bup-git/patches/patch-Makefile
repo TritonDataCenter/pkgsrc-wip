@@ -2,9 +2,9 @@ $NetBSD$
 
 Pass PYTHON through to configure.
 
---- Makefile.orig	2013-10-26 13:16:20.000000000 +0000
+--- Makefile.orig	2013-11-11 08:52:33.000000000 +0000
 +++ Makefile
-@@ -61,7 +61,7 @@ install: all
+@@ -67,7 +67,7 @@ install: all
  
  config/config.h: config/Makefile config/configure config/configure.inc \
  		$(wildcard config/*.in)
