@@ -8,7 +8,7 @@ MASTER_SITES=		http://znc.in/releases/archive/
 MAINTAINER=		florian@geiges.net
 HOMEPAGE=		http://znc.in/
 COMMENT=		Advanced IRC bouncer with IPv6 and SSL support
-LICENSE=		apache-2.0
+LICENSE=		gnu-gpl-v2
 
 USE_LANGUAGES=		c c++
 
