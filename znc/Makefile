@@ -23,6 +23,8 @@ PLIST_SUBST+=		PKG_PREFIX="${PREFIX}"
 
 CONFIGURE_ARGS+=	--sysconfdir=${PKG_SYSCONFDIR}
 
+PKGCONFIG_OVERRIDE+=	znc.pc.in
+
 PKG_SYSCONFSUBDIR=	${PKGBASE}
 
 .include "../../mk/bsd.prefs.mk"
