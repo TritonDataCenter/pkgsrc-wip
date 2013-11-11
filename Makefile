@@ -1536,6 +1536,7 @@ SUBDIR+=	lightdm
 SUBDIR+=	lightdm-gtk-greeter
 SUBDIR+=	lighttpd
 SUBDIR+=	lilypond-devel
+SUBDIR+=	lilypond-git
 SUBDIR+=	lilyterm
 SUBDIR+=	linbox
 SUBDIR+=	lingoteach-lesson
