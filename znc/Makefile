@@ -49,5 +49,7 @@ RCD_SCRIPTS+=		znc
 
 OWN_DIRS_PERMS+=	${PKG_SYSCONFDIR} ${ZNC_USER} ${ZNC_GROUP} 0755
 
+MANCOMPRESSED=		yes
+
 .include		"./options.mk"
 .include		"../../mk/bsd.pkg.mk"
