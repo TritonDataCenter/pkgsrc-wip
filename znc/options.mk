@@ -50,6 +50,8 @@ PLIST_SRC+=		PLIST.openssl
 #
 .if empty(PKG_OPTIONS:Mtdns)
 CONFIGURE_ARGS+=	--disable-tdns
+.else
+.include "../../mk/pthread.buildlink3.mk"
 .endif
 
 #
