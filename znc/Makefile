@@ -52,4 +52,6 @@ OWN_DIRS_PERMS+=	${PKG_SYSCONFDIR} ${ZNC_USER} ${ZNC_GROUP} 0755
 MANCOMPRESSED=		yes
 
 .include		"./options.mk"
+
+.include 		"../../devel/libgetopt/buildlink3.mk"
 .include		"../../mk/bsd.pkg.mk"
