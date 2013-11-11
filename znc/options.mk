@@ -2,8 +2,8 @@
 #
 
 PKG_OPTIONS_VAR=	PKG_OPTIONS.znc
-PKG_SUPPORTED_OPTIONS=	debug poll optimization inet6 openssl perl python tcl tdns sasl
-PKG_SUGGESTED_OPTIONS=	poll optimization inet6 openssl tdns
+PKG_SUPPORTED_OPTIONS=	debug poll inet6 openssl perl python tcl tdns sasl
+PKG_SUGGESTED_OPTIONS=	poll inet6 openssl tdns
 
 .include 		"../../mk/bsd.options.mk"
 
@@ -19,13 +19,6 @@ CONFIGURE_ARGS+=	--enable-debug
 #
 .if empty(PKG_OPTIONS:Mpoll)
 CONFIGURE_ARGS+=	--disable-poll
-.endif
-
-#
-# Non-optimized build
-#
-.if empty(PKG_OPTIONS:Moptimization)
-CONFIGURE_ARGS+=	--disable-optimization
 .endif
 
 #
