@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	happy-1.19.0
+DISTNAME=	happy-1.19.1
 PKGNAME=	${DISTNAME}
 CATEGORIES=	devel
 MAINTAINER=	esg@sdf.lonestar.org
