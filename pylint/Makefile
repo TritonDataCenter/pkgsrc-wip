@@ -4,6 +4,7 @@ VERSION=	1.0.0
 DISTNAME=	pylint-${VERSION}
 CATEGORIES=	devel
 MASTER_SITES=	https://pypi.python.org/packages/source/p/pylint/
+FETCH_USING=	curl
 
 MAINTAINER=	helgoman@users.sourceforge.net
 HOMEPAGE=	http://www.logilab.org/project/pylint
