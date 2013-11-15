@@ -5,15 +5,16 @@ DISTNAME=	xombrero-1.3.1
 #PKGNAME=	xombrero-1.3.1
 CATEGORIES=	www
 MASTER_SITES=	https://opensource.conformal.com/snapshots/xombrero/
+EXTRACT_SUFX=	.tgz
 
 MAINTAINER=	charles.rapenne@gmail.com
 HOMEPAGE=	https://opensource.conformal.com/wiki/xombrero
 COMMENT=	Light webkit browser with vi style
 LICENSE=	isc
-FETCH_USING=	curl
-EXTRACT_SUFX=	.tgz
 
 ONLY_FOR_PLATFORM= DragonFly-*-* NetBSD-*-*
+
+FETCH_USING=	curl
 
 NO_CONFIGURE= yes
 USE_TOOLS+= perl pkg-config
