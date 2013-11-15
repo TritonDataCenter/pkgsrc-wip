@@ -1,8 +1,6 @@
 # $NetBSD$
-#
 
-DISTNAME=	xombrero-1.3.1
-#PKGNAME=	xombrero-1.3.1
+DISTNAME=	xombrero-1.6.3
 CATEGORIES=	www
 MASTER_SITES=	https://opensource.conformal.com/snapshots/xombrero/
 EXTRACT_SUFX=	.tgz
