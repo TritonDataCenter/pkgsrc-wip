@@ -18,6 +18,7 @@ FETCH_USING=	curl
 
 MAKE_JOBS_SAFE=	no
 
+USE_BSD_MAKEFILE=	yes
 USE_TOOLS+= perl pkg-config
 
 .include "../../mk/bsd.prefs.mk"
