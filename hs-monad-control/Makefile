@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	monad-control-0.3.2.1
+DISTNAME=	monad-control-0.3.2.2
 CATEGORIES=	devel
 
 MAINTAINER=	pho@cielonegro.org
