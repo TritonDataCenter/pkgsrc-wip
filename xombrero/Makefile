@@ -16,7 +16,6 @@ ONLY_FOR_PLATFORM= DragonFly-*-* NetBSD-*-*
 
 FETCH_USING=	curl
 
-NO_CONFIGURE= yes
 USE_TOOLS+= perl pkg-config
 
 .include "../../mk/bsd.prefs.mk"
@@ -31,7 +30,7 @@ BUILD_DIRS= netbsd
 
 # the path for the default config file is
 # hardcoded as /usr/local/ in xombrero.h
-post-extract:
+do-configure:
 	cd ${WRKSRC} && \
 	sed -e "s#\\/usr\\/local#${PREFIX}#" xombrero.h \
 	> xombrero.h.new && mv xombrero.h.new xombrero.h
