@@ -16,6 +16,8 @@ ONLY_FOR_PLATFORM= DragonFly-*-* NetBSD-*-*
 
 FETCH_USING=	curl
 
+MAKE_JOBS_SAFE=	no
+
 USE_TOOLS+= perl pkg-config
 
 .include "../../mk/bsd.prefs.mk"
