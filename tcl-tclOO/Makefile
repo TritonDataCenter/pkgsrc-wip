@@ -22,7 +22,7 @@ SUBST_MESSAGE.manpages=	Fixing manual pages
 SUBST_FILES.manpages=	doc/*.[3n]
 SUBST_SED.manpages=		-e "/^\\.so /d"
 
-pre-install:
+post-build:
 	${MV} ${WRKSRC}/doc/class.n ${WRKSRC}/doc/tclOO-class.n
 
 .include "../../lang/tcl/buildlink3.mk"
