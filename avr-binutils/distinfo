@@ -11,3 +11,4 @@ SHA1 (patch-ag) = e778ddd88f34e264e6b2d6d31a56a02be565e916
 SHA1 (patch-ah) = b6e91279475c41bc78b3df227938a91948fc377c
 SHA1 (patch-ai) = 3cd298ac0364f913c1261fc87f7f474281bae9cf
 SHA1 (patch-aj) = fd2a66979f68350a53960defdaf5e9e5018ec59a
+SHA1 (patch-ld_ld.texinfo) = 98f3b37b288caea62f4cfcd56c778c34cbec1e14
