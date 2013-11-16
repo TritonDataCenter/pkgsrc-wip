@@ -16,6 +16,9 @@ CONFLICTS=	tcl-9* tcl-8.[6-9].*
 
 GNU_CONFIGURE=	yes
 
+# Make sure package installs all necessary headers:
+INSTALL_TARGET=	install install-private-headers
+
 SUBST_CLASSES+=			manpages
 SUBST_STAGE.manpages=	post-patch
 SUBST_MESSAGE.manpages=	Fixing manual pages
