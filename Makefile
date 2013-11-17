@@ -1833,6 +1833,7 @@ SUBDIR+=	ninka
 #SUBDIR+=	nios2		# not a package
 SUBDIR+=	nios2-binutils
 SUBDIR+=	nios2-gcc
+SUBDIR+=	nios2-gdb
 SUBDIR+=	njb-sharp
 SUBDIR+=	nnrpd
 SUBDIR+=	nodau
