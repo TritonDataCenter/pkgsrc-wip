@@ -1,7 +1,7 @@
 # $NetBSD$
 PKG_OPTIONS_VAR=	PKG_OPTIONS.editorconfig-core
 PKG_SUPPORTED_OPTIONS=	doc
-PKG_SUGGESTED_OPTIONS=	doc
+PKG_SUGGESTED_OPTIONS=
 PLIST_VARS+=		doc
 
 .include "../../mk/bsd.options.mk"
