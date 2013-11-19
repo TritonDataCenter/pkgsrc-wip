@@ -1895,7 +1895,6 @@ SUBDIR+=	openmx-openmpi
 SUBDIR+=	opennurbs
 SUBDIR+=	openscep
 SUBDIR+=	opensips
-SUBDIR+=	opensmtpd
 SUBDIR+=	opentracker-current
 SUBDIR+=	openttd-opengfx
 SUBDIR+=	openttd-openmsx
