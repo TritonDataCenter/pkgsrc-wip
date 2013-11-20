@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	parallel-3.2.0.3
+DISTNAME=	parallel-3.2.0.4
 CATEGORIES=	parallel
 
 MAINTAINER=	pho@cielonegro.org

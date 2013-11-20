@@ -1,5 +1,5 @@
 $NetBSD: distinfo,v 1.2 2012/05/21 06:21:40 marino Exp $
 
-SHA1 (ecore-1.7.8.tar.bz2) = 733448cb1b6ea6da491f80eca50e586bee304181
-RMD160 (ecore-1.7.8.tar.bz2) = cac433533b2921fa55f23e3abf82d0754613dfd4
-Size (ecore-1.7.8.tar.bz2) = 3453891 bytes
+SHA1 (ecore-1.7.9.tar.bz2) = b6dbd2af2b033be62e3ca6f467bee5038b803570
+RMD160 (ecore-1.7.9.tar.bz2) = d55e29099c537ad5859f0d8dff63a388647cfc77
+Size (ecore-1.7.9.tar.bz2) = 3454403 bytes

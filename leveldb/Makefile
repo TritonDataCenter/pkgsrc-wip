@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	leveldb-1.12.0
+DISTNAME=	leveldb-1.14.0
 CATEGORIES=	databases
 MASTER_SITES=	http://leveldb.googlecode.com/files/
 

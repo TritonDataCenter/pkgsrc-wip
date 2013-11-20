@@ -1,0 +1,11 @@
+# $NetBSD$
+BUILDLINK_TREE+=	graphite2
+
+.if !defined(GRAPHITE2_BUILDLINK3_MK)
+GRAPHITE2_BUILDLINK3_MK:=
+
+BUILDLINK_API_DEPENDS.graphite2+=	graphite2>=1.2
+BUILDLINK_PKGSRCDIR.graphite2?=		../../wip/graphite2
+.endif # GRAPHITE2_BUILDLINK3_MK
+
+BUILDLINK_TREE+=	-graphite2

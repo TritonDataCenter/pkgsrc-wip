@@ -1,6 +1,6 @@
 # $NetBSD: Makefile,v 1.99 2013/04/30 15:43:30 hauke Exp $
 
-DISTNAME=	netatalk-3.0.4
+DISTNAME=	netatalk-3.1.0
 CATEGORIES=	net print
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=netatalk/}
 EXTRACT_SUFX=	.tar.bz2
@@ -87,6 +87,7 @@ post-install:
 	${INSTALL_DATA} ${WRKSRC}/config/pam/netatalk.pam ${DESTDIR}${EGDIR}
 .endif
 
+.include "../../databases/mysql55-client/buildlink3.mk"
 .include "../../lang/python/application.mk"
 .include "../../security/libgcrypt/buildlink3.mk"
 .include "../../security/openssl/buildlink3.mk"

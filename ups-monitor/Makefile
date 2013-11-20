@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=		ups-monitor-0.8.2
+DISTNAME=		ups-monitor-0.8.3
 CATEGORIES=		sysutils
 MASTER_SITES=		http://rudd-o.com/uploads/projects/files/ups-monitor/
 

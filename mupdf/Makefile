@@ -22,11 +22,12 @@ SUBST_VARS.makerules+=		PREFIX
 INSTALLATION_DIRS+=	bin include lib/pkgconfig
 INSTALL_MAKE_FLAGS+=	prefix=${PREFIX}
 INSTALL_MAKE_FLAGS+=	mandir=${PREFIX}/${PKGMANDIR}
-LDFLAGS=	${COMPILER_RPATH_FLAG}${X11BASE}/lib
-MAKE_FLAGS+=	LDFLAGS=${LDFLAGS:Q}
-MAKE_FLAGS+=	NOCURL=yes
-MAKE_FLAGS+=	V8_PRESENT=no
-MAKE_FLAGS+=	build=release
+LDFLAGS=		${COMPILER_RPATH_FLAG}${X11BASE}/lib
+MAKE_FLAGS+=		LDFLAGS=${LDFLAGS:Q}
+MAKE_FLAGS+=		V8_PRESENT=no
+MAKE_FLAGS+=		build=release
+
+.include "options.mk"
 
 # Remove thirdparty directory in order to use the libraries provided by pkgsrc
 post-extract:

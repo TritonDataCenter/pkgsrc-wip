@@ -1,7 +1,7 @@
 # $NetBSD: Makefile,v 1.20 2012/10/31 06:19:35 asau Exp $
 
-DISTNAME=	openmpi-1.7.1
-#PKGNAME=	openmpi-1.7.1
+DISTNAME=	openmpi-1.7.4a1r29587
+PKGNAME=	openmpi-1.7.3.99.29587
 CATEGORIES=	parallel
 MASTER_SITES=	http://www.open-mpi.org/software/ompi/v1.7/downloads/ \
 		http://www.open-mpi.org/nightly/v1.7/
@@ -13,6 +13,7 @@ COMMENT=	Open source MPI-2 implementation
 
 MPI_SUBPREFIX=		openmpi
 MPI_PREFIX=		$(LOCALBASE)/$(MPI_SUBPREFIX)
+#MPI_PREFIX=		$(LOCALBASE)
 INSTALLATION_PREFIX=	$(MPI_PREFIX)
 
 .include "../../mk/bsd.prefs.mk"
@@ -76,11 +77,11 @@ TEST_TARGET=	check
 # 	cd $(WRKSRC) && $(PERL5) autogen.sh
 
 post-install:
-	${MKDIR} ${DESTDIR}${MPI_PREFIX}/etc
+	${MKDIR} ${DESTDIR}${MPI_PREFIX}/share/examples/openmpi
 	${SED} -e "s|%%MPI_PREFIX%%|${MPI_PREFIX}|g" \
-		files/shrc > ${DESTDIR}${MPI_PREFIX}/etc/shrc
+		files/shrc > ${DESTDIR}${MPI_PREFIX}/share/examples/openmpi/shrc
 	${SED} -e "s|%%MPI_PREFIX%%|${MPI_PREFIX}|g" \
-		files/cshrc > ${DESTDIR}${MPI_PREFIX}/etc/cshrc
+		files/cshrc > ${DESTDIR}${MPI_PREFIX}/share/examples/openmpi/cshrc
 
 LIBLTDL_CONVENIENCE_SUBDIR=	opal/libltdl
 .include "../../devel/libltdl/convenience.mk" # for "test" target to work

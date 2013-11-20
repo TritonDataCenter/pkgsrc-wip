@@ -28,6 +28,7 @@ DEPENDS+=	p5-Hash-MoreUtils-[0-9]*:../../devel/p5-Hash-MoreUtils
 DEPENDS+=	p5-List-MoreUtils-[0-9]*:../../devel/p5-List-MoreUtils
 DEPENDS+=	p5-MooX-Cmd-[0-9]*:../../devel/p5-MooX-Cmd
 DEPENDS+=	p5-MooX-Options-[0-9]*:../../devel/p5-MooX-Options
+DEPENDS+=	p5-MooX-Roles-Pluggable-[0-9]*:../../devel/p5-MooX-Roles-Pluggable
 DEPENDS+=	p5-SQL-Translator-[0-9]*:../../databases/p5-SQL-Translator
 DEPENDS+=	p5-DBIx-Class-[0-9]*:../../databases/p5-DBIx-Class
 DEPENDS+=	p5-CPAN-[0-9]*:../../devel/p5-CPAN
@@ -39,6 +40,7 @@ DEPENDS+=	p5-File-HomeDir-[0-9]*:../../devel/p5-File-HomeDir
 DEPENDS+=	p5-Template-Toolkit-[0-9]*:../../www/p5-Template-Toolkit
 DEPENDS+=	p5-MetaCPAN-API-[0-9]*:../../devel/p5-MetaCPAN-API
 DEPENDS+=	p5-DBD-SQLite-[0-9]*:../../databases/p5-DBD-SQLite
+DEPENDS+=	p5-Module-Pluggable>=4.8:../../devel/p5-Module-Pluggable
 
 .include "../../lang/perl5/module.mk"
 .include "../../mk/bsd.pkg.mk"

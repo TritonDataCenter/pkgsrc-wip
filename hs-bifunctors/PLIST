@@ -11,6 +11,8 @@ lib/bifunctors-${PKGVERSION}/${HASKELL_VERSION}/Data/Bifunctor/Clown.hi
 lib/bifunctors-${PKGVERSION}/${HASKELL_VERSION}/Data/Bifunctor/Clown.p_hi
 lib/bifunctors-${PKGVERSION}/${HASKELL_VERSION}/Data/Bifunctor/Flip.hi
 lib/bifunctors-${PKGVERSION}/${HASKELL_VERSION}/Data/Bifunctor/Flip.p_hi
+lib/bifunctors-${PKGVERSION}/${HASKELL_VERSION}/Data/Bifunctor/Join.hi
+lib/bifunctors-${PKGVERSION}/${HASKELL_VERSION}/Data/Bifunctor/Join.p_hi
 lib/bifunctors-${PKGVERSION}/${HASKELL_VERSION}/Data/Bifunctor/Joker.hi
 lib/bifunctors-${PKGVERSION}/${HASKELL_VERSION}/Data/Bifunctor/Joker.p_hi
 lib/bifunctors-${PKGVERSION}/${HASKELL_VERSION}/Data/Bifunctor/Product.hi

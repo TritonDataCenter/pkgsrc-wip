@@ -1,11 +1,10 @@
 # $NetBSD$
 #
 
-DISTNAME=	libDesktop-0.0.9
-PKGNAME=	deforaos-libdesktop-0.0.9
-PKGREVISION=	1
+DISTNAME=	libDesktop-0.0.10
+PKGNAME=	deforaos-libdesktop-0.0.10
 CATEGORIES=	x11
-MASTER_SITES=	http://www.defora.org/os/download/download/4011/
+MASTER_SITES=	http://www.defora.org/os/download/download/4293/
 
 MAINTAINER=	khorben@defora.org
 HOMEPAGE=	http://www.defora.org/

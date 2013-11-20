@@ -1,8 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	grsync-0.9.3
-PKGREVISION=	1
+DISTNAME=	grsync-1.1.1
 CATEGORIES=	net
 MASTER_SITES=	http://www.opbyte.it/release/
 

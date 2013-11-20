@@ -1,6 +1,9 @@
 $NetBSD: patch-ac,v 1.5 2012/08/21 19:50:54 drochner Exp $
 
-libtool support and install target cleanup.
+o libtool support 
+o Install target cleanup
+o Install only one "mupdf" binary, prefer the featureful one and always
+ install it as "mupdf"
 
 --- Makefile.orig	2013-08-14 12:41:20.000000000 +0000
 +++ Makefile
@@ -33,7 +36,15 @@ libtool support and install target cleanup.
  
  # --- File lists ---
  
-@@ -86,14 +76,14 @@ XPS_SRC_HDR := $(wildcard source/xps/*.h
+@@ -67,6 +57,7 @@ ALL_DIR += $(OUT)/cbz
+ ALL_DIR += $(OUT)/img
+ ALL_DIR += $(OUT)/tools
+ ALL_DIR += $(OUT)/platform/x11
++ALL_DIR += $(OUT)/platform/x11/curl
+ 
+ FITZ_HDR := include/mupdf/fitz.h $(wildcard include/mupdf/fitz/*.h)
+ PDF_HDR := include/mupdf/pdf.h $(wildcard include/mupdf/pdf/*.h)
+@@ -86,14 +77,14 @@ XPS_SRC_HDR := $(wildcard source/xps/*.h
  CBZ_SRC_HDR := $(wildcard source/cbz/*.h)
  IMG_SRC_HDR := $(wildcard source/img/*.h)
  
@@ -55,7 +66,7 @@ libtool support and install target cleanup.
  
  $(FITZ_OBJ) : $(FITZ_HDR) $(FITZ_SRC_HDR)
  $(PDF_OBJ) : $(FITZ_HDR) $(PDF_HDR) $(PDF_SRC_HDR)
-@@ -106,14 +96,14 @@ $(PDF_JS_NONE_OBJ) :=  $(FITZ_HDR) $(PDF
+@@ -106,14 +97,14 @@ $(PDF_JS_NONE_OBJ) :=  $(FITZ_HDR) $(PDF
  
  # --- Library ---
  
@@ -73,7 +84,7 @@ libtool support and install target cleanup.
  $(MUPDF_JS_V8_LIB) : $(PDF_JS_V8_OBJ)
  endif
  
-@@ -124,31 +114,30 @@ INSTALL_LIBS := $(MUPDF_LIB) $(MUPDF_JS_
+@@ -124,31 +115,29 @@ INSTALL_LIBS := $(MUPDF_LIB) $(MUPDF_JS_
  $(ALL_DIR) $(OUT) $(GEN) :
  	$(MKDIR_CMD)
  
@@ -106,7 +117,6 @@ libtool support and install target cleanup.
 -$(OUT)/platform/x11/curl/%.o : platform/x11/%.c | $(ALL_DIR)
 -	mkdir -p $(OUT)/platform/x11/curl
 +$(OUT)/platform/x11/curl/%.lo : platform/x11/%.c | $(ALL_DIR)
-+	$(MKDIR_CMD) $(OUT)/platform/x11/curl
  	$(CC_CMD) $(X11_CFLAGS) $(CURL_CFLAGS) -DHAVE_CURL
  
 -.PRECIOUS : $(OUT)/%.o # Keep intermediates from chained rules
@@ -152,14 +162,16 @@ libtool support and install target cleanup.
  endif
  
  ifeq "$(NOX11)" ""
- MUVIEW_X11 := $(OUT)/mupdf-x11
+-MUVIEW_X11 := $(OUT)/mupdf-x11
++MUVIEW_X11 := $(OUT)/platform/x11/mupdf
  $(MUVIEW_X11) : $(MUPDF_LIB) $(MUPDF_JS_NONE_LIB) $(THIRD_LIBS)
 -$(MUVIEW_X11) : $(addprefix $(OUT)/platform/x11/, x11_main.o x11_image.o pdfapp.o)
 +$(MUVIEW_X11) : $(addprefix $(OUT)/platform/x11/, x11_main.lo x11_image.lo pdfapp.lo)
  	$(LINK_CMD) $(X11_LIBS)
  
  ifeq "$(NOCURL)" ""
- MUVIEW_X11_CURL := $(OUT)/mupdf-x11-curl
+-MUVIEW_X11_CURL := $(OUT)/mupdf-x11-curl
++MUVIEW_X11_CURL := $(OUT)/platform/x11/curl/mupdf
  $(MUVIEW_X11_CURL) : $(MUPDF_LIB) $(MUPDF_JS_NONE_LIB) $(THIRD_LIBS) $(CURL_LIB)
 -$(MUVIEW_X11_CURL) : $(addprefix $(OUT)/platform/x11/curl/, x11_main.o x11_image.o pdfapp.o curl_stream.o)
 +$(MUVIEW_X11_CURL) : $(addprefix $(OUT)/platform/x11/curl/, x11_main.lo x11_image.lo pdfapp.lo curl_stream.lo)
@@ -175,7 +187,21 @@ libtool support and install target cleanup.
  	$(LINK_CMD) $(X11_LIBS) $(V8_LIBS)
  endif
  endif
-@@ -286,24 +275,26 @@ libs: $(INSTALL_LIBS)
+@@ -260,7 +249,12 @@ MUVIEW := $(MUVIEW_X11)
+ MUVIEW_V8 := $(MUVIEW_X11_V8)
+ MUVIEW_CURL := $(MUVIEW_X11_CURL)
+ 
+-INSTALL_APPS := $(MUDRAW) $(MUTOOL) $(MUVIEW) $(MUJSTEST_V8) $(MUVIEW_V8) $(MUVIEW_CURL)
++INSTALL_APPS := $(MUDRAW) $(MUTOOL)
++ifeq "$(NOCURL)" ""
++INSTALL_APPS += $(MUVIEW_CURL)
++else ifeq "$(NOX11)" ""
++INSTALL_APPS += $(MUVIEW)
++endif
+ 
+ # --- Format man pages ---
+ 
+@@ -286,24 +280,26 @@ libs: $(INSTALL_LIBS)
  apps: $(INSTALL_APPS)
  
  install: libs apps

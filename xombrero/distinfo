@@ -1,5 +1,6 @@
 $NetBSD$
 
-SHA1 (xombrero-1.3.1.tgz) = 8b827ce0921e47e15cb9f0dd8d19168c5b7d27b1
-RMD160 (xombrero-1.3.1.tgz) = 6f25e772bd2861fea5aa0427897be438ea6f9b27
-Size (xombrero-1.3.1.tgz) = 259149 bytes
+SHA1 (xombrero-1.6.3.tgz) = d79af9184d2c812942d9eacc0fd5273cdb103da7
+RMD160 (xombrero-1.6.3.tgz) = 588c1a7241d7c9426aeb0ae000b02bc8f554077f
+Size (xombrero-1.6.3.tgz) = 290478 bytes
+SHA1 (patch-netbsd_Makefile) = e84a9208150910b611a217bafe03b312d9408ed2

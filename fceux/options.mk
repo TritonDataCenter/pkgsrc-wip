@@ -36,7 +36,8 @@ MAKE_ENV+=		GTK3=0
 .endif
 
 .if !empty(PKG_OPTIONS:Mlua)
-#PLIST.lua=            yes
+#PLIST.lua=		yes
+LUA_VERSION_REQD=	51
 .include "../../lang/lua/buildlink3.mk"
 MAKE_ENV+=		LUA=1
 .else

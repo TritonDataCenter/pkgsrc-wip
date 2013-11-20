@@ -1,0 +1,2 @@
+@comment $NetBSD$
+${RUBY_VENDORLIB}/i486-netbsdelf/marisa.${RUBY_DLEXT}

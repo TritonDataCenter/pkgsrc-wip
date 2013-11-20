@@ -1,6 +1,6 @@
 @comment $NetBSD$
 bin/mudraw
-bin/mupdf-x11
+bin/mupdf
 bin/mutool
 include/mupdf/cbz.h
 include/mupdf/fitz.h

@@ -5,7 +5,7 @@ Suggested package updates
 	o alive-2.0.2
 	o archimedes-2.0.1
 	o argouml-0.24
-	o atlas-3.10.0
+	o atlas-3.11.20
 	o beast-0.8.2
 	o blam-1.8.12
 	o bleachbit-0.9.6
@@ -14,7 +14,7 @@ Suggested package updates
 	o calligra-2.7.2
 	o ccrypt-1.10
 	o celery-3.0.21
-	o cinelerra-4.4
+	o cinelerra-4.5
 	o d4x-2.5.7.1
 	o daphne-1.0
 	o desmume-0.9.9
@@ -30,7 +30,6 @@ Suggested package updates
 	o evilvte-0.5.1
 	o evolution-couchdb-0.4.4
 	o fakenes-0.5.7
-	o fceux-2.2.2
 	o firebird-2.5
 	o flc-1.12
 	o gambas2-2.23.0
@@ -54,7 +53,7 @@ Suggested package updates
 	o gtypist-2.9.3
 	o guichan-0.8.1
 	o guitone-0.9
-	o hitori-0.4.1
+	o hitori-0.4.2
 	o hu-go-2.11
 	o i3status-2.4
 	o icecat-24.0
@@ -76,7 +75,6 @@ Suggested package updates
 	o man-1.6f
 	o mcabber-0.10.2
 	o mcwm-20130209.2
-	o meta-tracker-0.16.2
 	o miniupnpc-1.8
 	o miro-5.0
 	o mixxx-1.11.0
@@ -102,12 +100,14 @@ Suggested package updates
 	o py-rpyc-3.2.1
 	o py-zeitgeist-0.9
 	o pylint-0.26.0
+	o qmc2-0.41
 	o rdup-1.1.13
-	o recoll-1.19.2
+	o recoll-1.19.9
+	o recutils-1.6
 	o retroarch-0.9.8
 	o rosegarden-current-1.4.0
 	o rsyslog6-6.3.6
-	o rygel-0.20.0
+	o rygel-0.20.2
 	o samhain-3.0.13
 	o scantailor-0.9.11.1
 	o sflphoned-0.7.2
@@ -119,7 +119,7 @@ Suggested package updates
 	o tcl86-8.6b3
 	o tk86-8.6b3
 	o tmw-0.0.29.1
-	o torcs-1.3.4
+	o torcs-1.3.5
 	o umurmur-0.2.10
 	o vidalia-0.2.21
 	o vidalia-devel-0.3.3
@@ -127,7 +127,7 @@ Suggested package updates
 	o xaralx-bin-0.7.1692
 	o xf86-input-synaptics-1.7.0
 	o xf86-video-geode-2.11.15
-	o xf86-video-nouveau-1.0.9
+	o xf86-video-nouveau-1.0.10
 	o xf86-video-qxl-0.1.1
 	o xfs-1.1.3
 	o xombrero-1.6.3

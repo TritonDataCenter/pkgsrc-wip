@@ -1,0 +1,14 @@
+$NetBSD$
+
+Make prefix settable from the environment.
+
+--- Makefile.orig	2013-10-23 17:58:02.000000000 +0000
++++ Makefile
+@@ -1,6 +1,6 @@
+ version := $(strip $(shell cat VERSION))
+ series := $(strip $(shell cat SERIES))
+-prefix := /usr
++prefix ?= /usr/pkg
+ build_dir := "."
+ dist_name = fs-uae-launcher-$(version)
+ dist_dir := $(build_dir)/$(dist_name)

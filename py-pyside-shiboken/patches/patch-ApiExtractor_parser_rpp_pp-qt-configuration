@@ -1,0 +1,14 @@
+$NetBSD$
+
+__STDC__ should be defined as "1". <sys/cdefs.h> depends on that.
+
+--- ApiExtractor/parser/rpp/pp-qt-configuration.orig	2013-11-12 00:25:51.000000000 +0000
++++ ApiExtractor/parser/rpp/pp-qt-configuration
+@@ -1,6 +1,6 @@
+ #define __cplusplus 1
+ 
+-#define __STDC__
++#define __STDC__ 1
+ 
+ // Qt
+ #define QOBJECTDEFS_H

@@ -1,22 +1,19 @@
 # $NetBSD: Makefile,v 1.4 2013/09/24 11:16:04 mef Exp $
 
 DISTNAME=		tqsl-2.0
-PKGNAME=		${DISTNAME}rc6
 CATEGORIES=		ham
-MASTER_SITES=		http://www.arrl.org/files/file/LoTW%20Instructions/
-MASTER_SITES=		http://downloads.sourceforge.net/project/trustedqsl/TrustedQSL/v2.0-rc6/
+MASTER_SITES=		http://sourceforge.net/projects/trustedqsl/files/TrustedQSL/v2.0/
+EXTRACT_SUFX=		.tgz
 
 MAINTAINER=		makoto@ki.nu
 HOMEPAGE=		http://sourceforge.net/projects/trustedqsl/
 COMMENT=		TrustedQSL, uploading QSL Data to LoTW of ARRL
 LICENSE=		arrl-license
 
-DIST_SUBDIR=		${PKGNAME_NOREV}
 USE_TOOLS+=		perl gmake cmake
 USE_LANGUAGES+=		c c++
 USE_LIBTOOL=		yes
 USE_CMAKE=		yes
-WRKSRC=			${WRKDIR}/${DISTNAME}
 
 # There is an unresolved build failure, where -R for /usr/pkg/lib does
 # not precede /usr/X11R7/lib, and on a netbsd-5 system with base xorg,
@@ -28,6 +25,7 @@ do-configure:
 	(cd $(WRKSRC) ; \
 	cmake \
 	-DBDB_PREFIX=${PREFIX} \
+	-DBDB_INCLUDE_DIR=${PREFIX}/include \
 	-DCMAKE_BUILD_WITH_INSTALL_RPATH=TRUE \
 	-DCMAKE_INSTALL_PREFIX=${PREFIX} \
 	-DCMAKE_INSTALL_RPATH=${PREFIX}/lib \

@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	xmobar-0.18
+DISTNAME=	xmobar-0.19
 CATEGORIES=	sysutils
 
 MAINTAINER=	szptvlfn@a-net.email.ne.jp

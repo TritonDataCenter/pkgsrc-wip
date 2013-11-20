@@ -1,6 +1,6 @@
 # $NetBSD: Makefile,v 1.86 2012/12/15 10:01:20 marino Exp $
 
-DISTNAME=	lilypond-2.17.28
+DISTNAME=	lilypond-2.17.95
 CATEGORIES=	print
 MASTER_SITES=	http://download.linuxaudio.org/lilypond/sources/v2.17/
 
@@ -28,11 +28,13 @@ DEPENDS+=	tex-cyrillic-[0-9]*:../../print/tex-cyrillic
 DEPENDS+=	tex-psnfss-[0-9]*:../../fonts/tex-psnfss
 DEPENDS+=	tex-epsf-[0-9]*:../../print/tex-epsf
 DEPENDS+=	tex-graphics-[0-9]*:../../print/tex-graphics
+# 1.7 coredumps when generating eps files
+DEPENDS+=	potrace>=1.8:../../graphics/potrace
 
 GNU_CONFIGURE=		YES
 USE_PKGLOCALEDIR=	YES
 USE_LANGUAGES=		c c++
-USE_TOOLS+=		bison gmake gs:run makeinfo perl pkg-config msgfmt
+USE_TOOLS+=		bison flex gmake gs:run makeinfo perl pkg-config msgfmt
 USE_TOOLS+=		texi2html zip
 MAKE_FILE=		GNUmakefile
 
@@ -52,21 +54,8 @@ CONFIGURE_ENV+=		PYTHON=${PYTHONBIN:Q}
 REPLACE_PYTHON+= scripts/build/yyout2grammar.py
 PLIST_SUBST+=	PKGVERSION=${PKGVERSION:S/nb${PKGREVISION}//}
 
-# 1.7 coredumps when generating eps files
-DEPENDS+=	potrace>=1.8:../../graphics/potrace
-
-.if ${OPSYS} == "DragonFly"
-CONFIGURE_ENV+= LEX="${PREFIX}/bin/flex"
+# needs FlexLexer.h
 .include "../../devel/flex/buildlink3.mk"
-.else
-USE_TOOLS+= flex
-.endif
-
-# files were created with bison<3 and regeneration rules
-# aren't correct
-post-extract:
-	rm ${WRKSRC}/lily/out/parser.*
-
 .include "../../devel/pango/buildlink3.mk"
 .include "../../fonts/fontconfig/buildlink3.mk"
 .include "../../lang/guile/buildlink3.mk"

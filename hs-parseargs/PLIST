@@ -1,4 +1,5 @@
 @comment $NetBSD$
+bin/parseargs-example
 lib/parseargs-${PKGVERSION}/${HASKELL_VERSION}/HSparseargs-${PKGVERSION}.o
 lib/parseargs-${PKGVERSION}/${HASKELL_VERSION}/System/Console/ParseArgs.hi
 lib/parseargs-${PKGVERSION}/${HASKELL_VERSION}/System/Console/ParseArgs.p_hi
