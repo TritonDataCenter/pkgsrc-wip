@@ -18,7 +18,7 @@ INSTALLATION_DIRS=	${EMACS_INFOPREFIX} \
 EMACS_MODULES=		base
 
 # Instead of USE_TOOLS+=, avoid to conflict with autoconf
-USE_TOOLS=		aclocal automake autoconf gmake
+USE_TOOLS=		aclocal automake autoconf gmake makeinfo
 GNU_CONFIGURE=		YES
 
 CONFIGURE_ARGS+=	${CONFIGURE_ARGS.${EMACS_FLAVOR}}
