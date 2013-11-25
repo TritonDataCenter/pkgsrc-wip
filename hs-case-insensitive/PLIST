@@ -1,6 +1,10 @@
 @comment $NetBSD$
 lib/case-insensitive-${PKGVERSION}/${HASKELL_VERSION}/Data/CaseInsensitive.hi
 lib/case-insensitive-${PKGVERSION}/${HASKELL_VERSION}/Data/CaseInsensitive.p_hi
+lib/case-insensitive-${PKGVERSION}/${HASKELL_VERSION}/Data/CaseInsensitive/Internal.hi
+lib/case-insensitive-${PKGVERSION}/${HASKELL_VERSION}/Data/CaseInsensitive/Internal.p_hi
+lib/case-insensitive-${PKGVERSION}/${HASKELL_VERSION}/Data/CaseInsensitive/Unsafe.hi
+lib/case-insensitive-${PKGVERSION}/${HASKELL_VERSION}/Data/CaseInsensitive/Unsafe.p_hi
 lib/case-insensitive-${PKGVERSION}/${HASKELL_VERSION}/HScase-insensitive-${PKGVERSION}.o
 lib/case-insensitive-${PKGVERSION}/${HASKELL_VERSION}/libHScase-insensitive-${PKGVERSION}.a
 lib/case-insensitive-${PKGVERSION}/${HASKELL_VERSION}/libHScase-insensitive-${PKGVERSION}_p.a

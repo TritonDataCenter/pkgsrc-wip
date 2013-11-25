@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	case-insensitive-1.0
+DISTNAME=	case-insensitive-1.1.0.1
 CATEGORIES=	textproc
 
 MAINTAINER=	pho@cielonegro.org
