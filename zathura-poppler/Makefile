@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-VERSION=	0.2.3
+VERSION=	0.2.4
 PKGNAME=	zathura-poppler-${VERSION}
 DISTNAME=	zathura-pdf-poppler-${VERSION}
 CATEGORIES=	print
@@ -15,6 +15,7 @@ COMMENT=	Add PDF support to zathura using poppler rendering engine
 USE_TOOLS+=	pkg-config gettext gmake groff
 USE_LIBTOOL=	yes
 
+.include "../../x11/gtk3/buildlink3.mk"
 .include "../../graphics/cairo/buildlink3.mk"
 .include "../../print/poppler-glib/buildlink3.mk"
 .include "../../wip/zathura/buildlink3.mk"
