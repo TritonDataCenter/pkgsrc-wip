@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	zathura-0.2.3
+DISTNAME=	zathura-0.2.6
 CATEGORIES=	print
 MASTER_SITES=	http://pwmt.org/projects/zathura/download/
 
@@ -14,8 +14,9 @@ USE_TOOLS+=	pkg-config gettext gmake groff
 USE_LIBTOOL=	yes
 DEPENDS+=	${PYPKGPREFIX}-docutils-[0-9]*:../../textproc/py-docutils
 
+.include "../../lang/python/pyversion.mk"
 .include "../../graphics/cairo/buildlink3.mk"
-.include "../../x11/gtk2/buildlink3.mk"
+.include "../../x11/gtk3/buildlink3.mk"
 .include "../../wip/girara/buildlink3.mk"
 .include "../../sysutils/desktop-file-utils/desktopdb.mk"
 .include "../../mk/bsd.pkg.mk"
