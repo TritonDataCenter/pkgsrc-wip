@@ -1,10 +1,10 @@
 # $NetBSD$
 
-VERSION=	1.0.0
+VERSION=	1.1.0
 PKGNAME=	opam-${VERSION}
-DISTNAME=	${VERSION}
+DISTNAME=	opam-full-${VERSION}
 CATEGORIES=	devel
-MASTER_SITES=	https://github.com/OCamlPro/opam/archive/
+MASTER_SITES=	http://www.ocamlpro.com/pub/
 LICENSE=	gnu-gpl-v3
 
 
@@ -12,7 +12,6 @@ MAINTAINER=	degroote@NetBSD.org
 HOMEPAGE=	http://opam.ocamlpro.com/
 COMMENT=	Source-based package manager for OCaml
 
-WRKSRC=		${WRKDIR}/${PKGNAME_NOREV}
 USE_TOOLS+=	gmake
 GNU_CONFIGURE=	yes
 
