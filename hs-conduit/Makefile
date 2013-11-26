@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	conduit-1.0.9.2
+DISTNAME=	conduit-1.0.9.3
 CATEGORIES=	devel
 
 MAINTAINER=	szptvlfn@a-net.email.ne.jp
