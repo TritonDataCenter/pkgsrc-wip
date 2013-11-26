@@ -10,6 +10,9 @@ HOMEPAGE=		http://sourceforge.net/projects/trustedqsl/
 COMMENT=		TrustedQSL, uploading QSL Data to LoTW of ARRL
 LICENSE=		arrl-license
 
+# A macro _S in /usr/include/ctype.h conflicts with one in apps/tqsltrace.h
+NOT_FOR_PLATFORM+=   NetBSD-5.*
+
 USE_TOOLS+=		perl gmake cmake
 USE_LANGUAGES+=		c c++
 USE_LIBTOOL=		yes
