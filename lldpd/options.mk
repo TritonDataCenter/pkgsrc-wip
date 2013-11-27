@@ -1,7 +1,7 @@
 # $NetBSD$
 PKG_OPTIONS_VAR=	PKG_OPTIONS.lldpd
 PKG_SUPPORTED_OPTIONS=	snmp xml
-PKG_SUGGESTED_OPTIONS=
+PKG_SUGGESTED_OPTIONS=	snmp xml
 .include "../../mk/bsd.options.mk"
 
 .if !empty(PKG_OPTIONS:Msnmp)

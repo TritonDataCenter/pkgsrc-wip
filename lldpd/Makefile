@@ -30,6 +30,7 @@ AUTO_MKDIRS=		yes
 
 INSTALLATION_DIRS+=	sbin ${PKGMANDIR}/man5 ${PKGMANDIR}/man8
 
+.include "options.mk"
 BUILDLINK_API_DEPENDS.libevent+=	libevent>=2.0.5
 .include "../../devel/libevent/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
