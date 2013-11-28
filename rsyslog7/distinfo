@@ -5,4 +5,5 @@ RMD160 (rsyslog-7.4.4.tar.gz) = d67be379cf725b4889c6f9d555530f0bc1eb1206
 Size (rsyslog-7.4.4.tar.gz) = 2910075 bytes
 SHA1 (patch-configure) = 5b97a21a88049d4d72d472998716a161d08ec1b8
 SHA1 (patch-grammar_lexer.l) = 66e3f242dff08d33b0a8c0f46b445d606938de5f
+SHA1 (patch-plugins_imuxsock_imuxsock.c) = 924598664fc31993d7fa12a7ed3db92c8c34429d
 SHA1 (patch-runtime_typedefs.h) = 0e6b2dbe7fd2028f4e34ddcf277486d1b7b24bf8

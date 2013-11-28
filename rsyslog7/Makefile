@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		rsyslog-7.4.4
-PKGREVISION=		2
+PKGREVISION=		3
 CATEGORIES=		sysutils
 MASTER_SITES=		http://www.rsyslog.com/files/download/rsyslog/
 
