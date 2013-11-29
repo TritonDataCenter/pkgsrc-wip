@@ -2375,6 +2375,7 @@ SUBDIR+=	pudb
 SUBDIR+=	pulseaudio
 SUBDIR+=	pure
 SUBDIR+=	purple-translate
+SUBDIR+=	pwnat
 SUBDIR+=	pxlib
 SUBDIR+=	pxview
 SUBDIR+=	py-Beaker
