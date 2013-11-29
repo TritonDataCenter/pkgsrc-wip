@@ -1539,6 +1539,7 @@ SUBDIR+=	libxc
 SUBDIR+=	libxfce4gui
 SUBDIR+=	libxfce4ui
 SUBDIR+=	libxfce4util
+SUBDIR+=	libxshmfence
 SUBDIR+=	libzdb
 SUBDIR+=	libzn-poly
 SUBDIR+=	lidia
