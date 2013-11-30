@@ -16,6 +16,8 @@ GIT_REPO.Packager-Utils=	https://github.com/rehsack/Packager-Utils.git
 # Add "-c http.sslVerify=false" to git command or,
 PKGSRC_SETENV=		GIT_SSL_NO_VERIFY=true
 
+INSTALLATION_DIRS=	share/examples/p5-Packager-Utils
+
 WRKSRC=			${WRKDIR}/Packager-Utils
 PERL5_MODULE_TYPE=	Module::Build
 PERL5_PACKLIST=		auto/Packager/Utils/.packlist
@@ -42,6 +44,9 @@ DEPENDS+=	p5-Template-Toolkit-[0-9]*:../../www/p5-Template-Toolkit
 DEPENDS+=	p5-MetaCPAN-API-[0-9]*:../../devel/p5-MetaCPAN-API
 DEPENDS+=	p5-DBD-SQLite-[0-9]*:../../databases/p5-DBD-SQLite
 DEPENDS+=	p5-Module-Pluggable>=4.8:../../devel/p5-Module-Pluggable
+
+post-install:
+	${INSTALL_DATA} ${WRKSRC}/etc/pkg_util.json ${DESTDIR}${PREFIX}/share/examples/p5-Packager-Utils
 
 .include "../../lang/perl5/module.mk"
 .include "../../mk/bsd.pkg.mk"
