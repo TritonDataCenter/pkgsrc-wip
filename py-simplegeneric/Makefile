@@ -1,23 +1,16 @@
 # $NetBSD$
-#
 
-DISTNAME=	simplegeneric-0.8
+DISTNAME=	simplegeneric-0.8.1
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	devel python
-MASTER_SITES=	http://pypi.python.org/packages/source/s/simplegeneric/
-EXTRACT_SUFX=	.zip#md5=eaa358a5f9517a8b475d03fbee3ec90f
+MASTER_SITES=	https://pypi.python.org/packages/source/s/simplegeneric/
+EXTRACT_SUFX=	.zip
+FETCH_USING=	curl
 
 MAINTAINER=	kamel.derouiche@gmail.com
 HOMEPAGE=	http://cheeseshop.python.org/pypi/simplegeneric
 COMMENT=	Simple generic functions for Python
 LICENSE=	zpl
-
-USE_LANGUAGES=	# none
-
-EGG_INFODIR= ${EGG_NAME}-py${PYVERSSUFFIX}.egg-info
-
-post-install:
-	${CHMOD} -R og-w ${DESTDIR}${PREFIX}/${PYSITELIB}/${EGG_INFODIR}/*
 
 .include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"
