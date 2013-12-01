@@ -5,10 +5,12 @@ PKGNAME=	${PYPKGPREFIX}-jabber-${DISTNAME}
 CATEGORIES=	chat python
 # MASTER_SITES=	http://code.stanziq.com/punjab/browser/releases/
 # MASTER_SITES=	http://code.stanziq.com/punjab/export/38/releases/
-MASTER_SITES=	http://code.stanziq.com/cgit/punjab/punjab/snapshot/
+# MASTER_SITES=	http://code.stanziq.com/cgit/punjab/punjab/snapshot/
+MASTER_SITES=	https://github.com/twonds/punjab/archive/master.zip
+
 
 MAINTAINER=	eric@cirr.com
-HOMEPAGE=	http://code.stanziq.com/punjab
+HOMEPAGE=	https://github.com/twonds/punjab
 COMMENT=	HTTP XMMP client interface implementing BOSH/XEP-0124
 BROKEN=		Source tarballs have disappeared.
 
