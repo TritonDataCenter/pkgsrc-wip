@@ -1,7 +1,6 @@
 @comment $NetBSD$
 include/siscone/area.h
 include/siscone/circulator.h
-include/siscone/config.h
 include/siscone/defines.h
 include/siscone/geom_2d.h
 include/siscone/hash.h
