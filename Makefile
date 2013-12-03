@@ -41,6 +41,7 @@ SUBDIR+=	R-graph
 SUBDIR+=	R-gsl
 SUBDIR+=	R-iterators
 SUBDIR+=	R-mclust
+SUBDIR+=	R-moonsun
 SUBDIR+=	R-rgdal
 SUBDIR+=	ReZound
 SUBDIR+=	SDL-doc
