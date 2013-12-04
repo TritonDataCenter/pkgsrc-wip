@@ -18,7 +18,7 @@ This  would probably be the same as following part in in <sys/wait.h>:
 +
 +/* see include/sys/wait.h (and also emacsclient.c) */
 +# ifndef WCONTINUED
-+#  define WCONTINUED 8
++#  define WCONTINUED 0
 +# endif
  
  /* Only MS-DOS does not define `subprocesses'.  */
