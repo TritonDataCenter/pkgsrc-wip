@@ -13,6 +13,8 @@ LICENSE=		arrl-license
 # A macro _S in /usr/include/ctype.h conflicts with one in apps/tqsltrace.h
 # NOT_FOR_PLATFORM+=   NetBSD-5.*
 
+DEPENDS+=		mozilla-rootcerts-[0-9]*:../../security/mozilla-rootcerts
+
 USE_TOOLS+=		perl gmake cmake
 USE_LANGUAGES+=		c c++
 USE_LIBTOOL=		yes
