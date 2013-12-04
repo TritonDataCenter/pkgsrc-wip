@@ -97,7 +97,6 @@ avr/lib/ldscripts/avrxmega7.xn
 avr/lib/ldscripts/avrxmega7.xr
 avr/lib/ldscripts/avrxmega7.xu
 avr/lib/libbfd.la
-avr/lib/libiberty.a
 bin/avr-addr2line
 bin/avr-ar
 bin/avr-as
