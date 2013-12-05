@@ -2336,6 +2336,7 @@ SUBDIR+=	pnmcurve
 SUBDIR+=	pocketsphinx
 SUBDIR+=	pointfree
 SUBDIR+=	pointless
+SUBDIR+=	pokerth
 SUBDIR+=	polarssl11
 SUBDIR+=	polipo
 SUBDIR+=	polylib
