@@ -1,7 +1,6 @@
 # $NetBSD$
-#
 
-DISTNAME=	partonevolution-1.1.2
+DISTNAME=	partonevolution-1.1.3
 CATEGORIES=	math
 MASTER_SITES=	http://wwwthep.physik.uni-mainz.de/~stefanw/download/
 
@@ -12,6 +11,6 @@ LICENSE=	gnu-gpl-v2
 
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
-USE_LANGUAGES=	c c++ fortran77
+USE_LANGUAGES=	c c++
 
 .include "../../mk/bsd.pkg.mk"
