@@ -1,11 +1,11 @@
 # $NetBSD$
-#
 
-DISTNAME=	PyArabic-0.3
-PKGNAME=	${PYPKGPREFIX}-arabic-0.3
+DISTNAME=	PyArabic-0.4
+PKGNAME=	${PYPKGPREFIX}-${DISTNAME:S/Py//S/A/a/}
 CATEGORIES=	textproc python
-MASTER_SITES=	http://pypi.python.org/packages/source/P/PyArabic/
-EXTRACT_SUFX=	.zip#md5=377d0f5798b8bcb6b439010bbbb3e0ed
+MASTER_SITES=	https://pypi.python.org/packages/source/P/PyArabic/
+EXTRACT_SUFX=	.zip
+FETCH_USING=	curl
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	http://pyarabic.sourceforge.net/
