@@ -1481,6 +1481,7 @@ SUBDIR+=	libindicator
 SUBDIR+=	libinotify
 SUBDIR+=	libinstpatch
 SUBDIR+=	libipctdata
+SUBDIR+=	libircclient
 SUBDIR+=	libisoburn
 SUBDIR+=	libisofs
 SUBDIR+=	libitl
