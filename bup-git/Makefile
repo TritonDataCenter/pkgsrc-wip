@@ -99,6 +99,7 @@ SUBST_MESSAGE.python-c=	Fixing python executable in tests.
 REPLACE_BASH+=		cmd/import-rdiff-backup-cmd.sh
 REPLACE_BASH+=		t/compare-trees
 REPLACE_BASH+=		t/configure-sampledata
+REPLACE_BASH+=		t/force-delete
 REPLACE_BASH+=		t/subtree-hash
 REPLACE_BASH+=		t/test-cat-file.sh
 REPLACE_BASH+=		t/test-command-without-init-fails.sh
