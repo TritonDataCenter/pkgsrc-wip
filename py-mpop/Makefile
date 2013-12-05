@@ -1,23 +1,18 @@
 # $NetBSD$
-#
 
-DISTNAME=	mpop-v0.11.5
+DISTNAME=	mpop-v1.0.0
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
-CATEGORIES=	misc python
-MASTER_SITES=	http://pypi.python.org/packages/source/m/mpop/
+CATEGORIES=	math python
+MASTER_SITES=	https://pypi.python.org/packages/source/m/mpop/
 
 MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	https://github.com/mraspaud/mpop
 COMMENT=	Meteorological post processing package
 LICENSE=	gnu-gpl-v3
 
-WRKSRC=		${WRKDIR}/mpop-v0.11.5
-
 USE_LANGUAGES=	# none
 
-EGDIR=		geo_image.cfg
-CONF_FILES=	${EGDIR}/geo_image.cfg ${PKG_SYSCONFDIR}/geo_image.cfg
 
-.include "../../math/py-numpy/buildlink3.mk"
 .include "../../lang/python/egg.mk"
+.include "../../math/py-numpy/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
