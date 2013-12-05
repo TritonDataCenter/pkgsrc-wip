@@ -4,6 +4,7 @@ bin/indextool
 bin/search
 bin/searchd
 bin/spelldump
+bin/wordbreaker
 include/sphinxclient.h
 lib/libsphinxclient.la
 man/man1/indexer.1
