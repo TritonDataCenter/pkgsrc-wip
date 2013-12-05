@@ -1,11 +1,11 @@
 # $NetBSD$
 #
 
-PKG_OPTIONS_VAR=		PKG_OPTIONS.darcs
+PKG_OPTIONS_VAR=	PKG_OPTIONS.darcs
 PKG_SUPPORTED_OPTIONS=	terminfo color mmap
 
-PKG_OPTIONS_OPTIONAL_GROUPS+=	http-lib
-PKG_OPTIONS_GROUP.http-lib=		curl http
+PKG_OPTIONS_REQUIRED_GROUPS+=	http-lib
+PKG_OPTIONS_GROUP.http-lib=	curl http
 
 PKG_SUGGESTED_OPTIONS=	http terminfo color mmap
 
