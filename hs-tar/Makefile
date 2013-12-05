@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	tar-0.3.1.0
+DISTNAME=	tar-0.4.0.1
 CATEGORIES=	archivers
 
 MAINTAINER=	pho@cielonegro.org
