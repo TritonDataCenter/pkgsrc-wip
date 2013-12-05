@@ -1,19 +1,18 @@
 # $NetBSD$
-#
 
-DISTNAME=	isodate-0.4.8
+DISTNAME=	isodate-0.4.9
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	time python
-MASTER_SITES=	http://pypi.python.org/packages/source/i/isodate/
+MASTER_SITES=	https://pypi.python.org/packages/source/i/isodate/
+FETCH_USING=	curl
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	http://cheeseshop.python.org/pypi/isodate
 COMMENT=	ISO 8601 date/time/duration parser and formater
 LICENSE=	modified-bsd
 
-PKG_DESTDIR_SUPPORT=	none
-
 USE_LANGUAGES=	# none
+PYTHON_VERSIONS_INCLUDE_3X= yes
 
 do-test:
 	${RUN} cd ${WRKSRC}/src/isodate/tests; ${SETENV} ${TEST_ENV} ${PYTHONBIN} __init__.py
