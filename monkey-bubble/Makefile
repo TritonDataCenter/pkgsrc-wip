@@ -10,11 +10,13 @@ MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://home.gna.org/monkeybubble/
 COMMENT=		Bust'A'Move clone written for GNOME2
 
+USE_LANGUAGES+=		c
 USE_PKGLOCALEDIR=	yes
 USE_LIBTOOL=		yes
 GNU_CONFIGURE=		yes
 USE_TOOLS+=		gmake intltool pkg-config
-CFLAGS+=		-Wno-error=deprecated-declarations
+#CFLAGS+=		-Wno-error=deprecated-declarations
+CFLAGS+=		-Wno-deprecated-declarations
 
 .include "../../audio/esound/buildlink3.mk"
 .include "../../devel/GConf/schemas.mk"
