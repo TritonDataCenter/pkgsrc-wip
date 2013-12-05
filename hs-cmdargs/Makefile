@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	cmdargs-0.10.5
+DISTNAME=	cmdargs-0.10.6
 CATEGORIES=	devel
 
 MAINTAINER=	szptvlfn@a-net.email.ne.jp
