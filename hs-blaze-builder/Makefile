@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	blaze-builder-0.3.3.0
+PKGREVISION=	1
 CATEGORIES=	devel
 
 MAINTAINER=	pho@cielonegro.org
