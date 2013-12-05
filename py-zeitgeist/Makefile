@@ -3,9 +3,9 @@
 
 DISTNAME=	zeitgeist-0.3.2
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
-PKGREVISION=	1
+PKGREVISION=	2
 CATEGORIES=	sysutils
-MASTER_SITES=	http://launchpad.net/zeitgeist/0.3/0.3.2/+download/
+MASTER_SITES=	https://launchpad.net/zeitgeist/0.3/0.3.2/+download/
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	https://launchpad.net/zeitgeist/
@@ -15,6 +15,7 @@ LICENSE=		gnu-lgpl-v3
 DEPENDS+=	${PYPKGPREFIX}-xdg-[0-9]*:../../devel/py-xdg
 DEPENDS+=	${PYPKGPREFIX}-storm-[0-9]*:../../wip/py-storm
 
+FETCH_USING=	curl
 GNU_CONFIGURE=	yes
 USE_LANGUAGES=	c
 USE_TOOLS+=	gmake intltool
