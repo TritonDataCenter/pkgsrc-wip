@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	semigroups-0.12
+PKGREVISION=	1
 CATEGORIES=	math
 
 MAINTAINER=	pho@cielonegro.org
