@@ -1,10 +1,9 @@
 # $NetBSD$
-#
 
-DISTNAME=	gevent-0.13.6
+DISTNAME=	gevent-1.0
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	net
-MASTER_SITES=	http://pypi.python.org/packages/source/g/gevent/
+MASTER_SITES=	https://pypi.python.org/packages/source/g/gevent/
 
 MAINTAINER=	kamel.derouiche@gmail.com
 HOMEPAGE=	http://www.gevent.org/
