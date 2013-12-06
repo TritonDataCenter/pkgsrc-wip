@@ -1,6 +1,6 @@
 # $NetBSD$
 #
-# TSM Linux ld.so load paths
+# TSM Linux i386 ld.so load paths
 
 /opt/tivoli/tsm/client/ba/bin
 /opt/tivoli/tsm/client/api/bin
