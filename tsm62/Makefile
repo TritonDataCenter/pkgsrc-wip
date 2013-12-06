@@ -1,6 +1,7 @@
 # $NetBSD$
 
 DISTNAME=	tsm-6.2.4.0
+PKGREVISION=	1
 CATEGORIES=	sysutils
 MASTER_SITES=	ftp://ftp.software.ibm.com/storage/tivoli-storage-management/maintenance/client/v6r2/Linux/LinuxX86/v624/
 DISTFILES=	6.2.4.0-TIV-TSMBAC-LinuxX86.tar
