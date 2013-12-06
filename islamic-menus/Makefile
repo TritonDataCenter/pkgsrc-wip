@@ -4,6 +4,7 @@
 DISTNAME=	islamic-menus-1.0.2
 CATEGORIES=	misc
 MASTER_SITES=	http://launchpad.net/islamic-menu/trunk/1.0/+download/
+FETCH_USING=	curl
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://launchpad.net/islamic-menu

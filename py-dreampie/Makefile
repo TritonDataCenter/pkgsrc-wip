@@ -5,6 +5,7 @@ DISTNAME=	dreampie-1.1
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	devel python
 MASTER_SITES=	http://launchpad.net/dreampie/trunk/1.1/+download/
+FETCH_USING=	curl
 
 MAINTAINER=	kamel.derouiche@gmail.com
 HOMEPAGE=	http://dreampie.sourceforge.net/
