@@ -141,7 +141,7 @@ emul/linux/opt/tivoli/tsm/client/hsm/bin/dsmrm
 emul/linux/opt/tivoli/tsm/client/hsm/bin/dsmrootd
 emul/linux/opt/tivoli/tsm/client/hsm/bin/dsmscoutd
 emul/linux/opt/tivoli/tsm/client/hsm/bin/dsmsetpw
-emul/linux/opt/tivoli/tsm/client/hsm/bin/dsmsmj
+${PLIST.java}emul/linux/opt/tivoli/tsm/client/hsm/bin/dsmsmj
 emul/linux/opt/tivoli/tsm/client/hsm/bin/dsmwatchd
 emul/linux/opt/tivoli/tsm/client/hsm/bin/hsmagent
 emul/linux/opt/tivoli/tsm/client/hsm/bin/hsmagent.opt

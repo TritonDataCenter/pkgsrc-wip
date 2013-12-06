@@ -1,6 +1,4 @@
 # $NetBSD$
 
 - Work out license and distribution rules
-- deinstalling on amd64 results in
-tsm-6.2.4.0: rebuilding run-time library search paths database
-[1]   Abort trap (core dumped) (/usr/pkg/emul/l...
+
