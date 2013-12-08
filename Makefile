@@ -1689,7 +1689,6 @@ SUBDIR+=	mixxx
 SUBDIR+=	mk-configure
 SUBDIR+=	mkcabal
 SUBDIR+=	mkcomposecache
-SUBDIR+=	mkdep
 SUBDIR+=	mksend
 SUBDIR+=	mlmmj
 SUBDIR+=	mlocate

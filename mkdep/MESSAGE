@@ -1,9 +1,0 @@
-===========================================================================
-$NetBSD$
-
-To use this "mkdep" either use "make MKDEP=${PREFIX}/bin/mkdep ..."
-or add an assignment like this to your /etc/mk.conf file:
-
-MKDEP = ${PREFIX}/bin/mkdep
-
-===========================================================================
