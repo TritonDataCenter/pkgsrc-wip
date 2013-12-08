@@ -21,5 +21,5 @@ PYDISTUTILSPKG=	yes
 .include "../../lang/python/extension.mk"
 .include "../../math/py-numpy/buildlink3.mk"
 DEPENDS+=	${PYPKGPREFIX}-scipy>=0.12.1:../../math/py-scipy
-#.include "../../x11/py-qt4/buildlink3.mk"
+.include "../../x11/py-qt4/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
