@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	http-types-0.8.2
+DISTNAME=	http-types-0.8.3
 CATEGORIES=	www
 
 MAINTAINER=	szptvlfn@a-net.email.ne.jp
