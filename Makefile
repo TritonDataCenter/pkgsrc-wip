@@ -1686,6 +1686,7 @@ SUBDIR+=	mixmaster
 SUBDIR+=	mixnet
 SUBDIR+=	mixxx
 #SUBDIR+=	mk 		# not a package
+SUBDIR+=	mk-configure
 SUBDIR+=	mkcabal
 SUBDIR+=	mkcomposecache
 SUBDIR+=	mkdep
