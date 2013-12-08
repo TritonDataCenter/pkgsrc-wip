@@ -6,6 +6,7 @@ PKGNAME=		${PYPKGPREFIX}-${DISTNAME:S/CouchDB/couchdb/}
 PKGREVISION=	1
 CATEGORIES=	databases python
 MASTER_SITES=	http://pypi.python.org/packages/source/C/CouchDB/
+FETCH_USING=	curl
 EXTRACT_SUFX=	.tar.gz#md5=446b8377cf2ddda94d5f2df29c4f705f
 
 MAINTAINER=	kamelderouiche@yahoo.com
