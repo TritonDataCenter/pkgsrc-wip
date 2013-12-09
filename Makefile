@@ -3191,7 +3191,6 @@ SUBDIR+=	spidermonkey185
 SUBDIR+=	splix
 SUBDIR+=	spread4
 SUBDIR+=	spyder
-SUBDIR+=	squidview
 SUBDIR+=	squirrelmail-avelsieve
 SUBDIR+=	squirrelmail-chg_sasl_passwd
 SUBDIR+=	squirrelmail-compatibility
