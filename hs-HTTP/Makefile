@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	HTTP-4000.2.9
+DISTNAME=	HTTP-4000.2.10
 CATEGORIES=	www
 
 MAINTAINER=	pho@cielonegro.org
