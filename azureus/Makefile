@@ -29,6 +29,7 @@ SUBST_FILES.prefix=	azureus
 SUBST_SED.prefix=	-e "s|@PREFIX@|${PREFIX}|g"
 
 do-install:
+	${INSTALL_SCRIPT_DIR} ${DESTDIR}${PREFIX}/bin
 	${INSTALL_SCRIPT} ${WRKSRC}/azureus ${DESTDIR}${PREFIX}/bin/
 	${INSTALL_DATA_DIR} ${DESTDIR}${PREFIX}/share/azureus
 	${INSTALL} ${WRKSRC}/*.png ${DESTDIR}${PREFIX}/share/azureus/
