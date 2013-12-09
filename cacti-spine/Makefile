@@ -11,7 +11,7 @@ HOMEPAGE=	http://www.cacti.net/spine_info.php
 COMMENT=	Spine is a poller for Cacti for large installations
 LICENSE=	gnu-lgpl-v2.1
 
-VERSION=0.8.8a
+VERSION=0.8.8b
 WRKSRC=		${WRKDIR}/${DISTNAME}
 USE_LANGUAGES=	c c++
 USE_LIBTOOL=	yes
