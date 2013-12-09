@@ -19,6 +19,8 @@ GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_TOOLS+=	gm4 gmake perl
 
+REPLACE_PERL+=	src/bin/genman.pl
+
 CFLAGS.SunOS+=	-Du_int32_t=uint32_t
 
 .include "../../devel/pcre/buildlink3.mk"
