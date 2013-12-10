@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	hoogle-4.2.24
+DISTNAME=	hoogle-4.2.26
 PKGNAME=	${DISTNAME}
 CATEGORIES=	devel #haskell
 
