@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	PHP_Timer-1.0.4
+DISTNAME=	PHP_Timer-1.0.5
 CATEGORIES=	devel
 MASTER_SITES+=	http://pear.phpunit.de/get/
 

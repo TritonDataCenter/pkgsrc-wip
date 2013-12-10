@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	PHP_Invoker-1.1.2
+DISTNAME=	PHP_Invoker-1.1.3
 CATEGORIES=	devel
 MASTER_SITES+=	http://pear.phpunit.de/get/
 

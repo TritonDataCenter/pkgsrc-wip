@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	PHP_CodeCoverage-1.2.12
+DISTNAME=	PHP_CodeCoverage-1.2.13
 CATEGORIES=	devel
 MASTER_SITES+=	http://pear.phpunit.de/get/
 

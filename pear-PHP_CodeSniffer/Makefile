@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	PHP_CodeSniffer-1.4.5
+DISTNAME=	PHP_CodeSniffer-1.4.7
 CATEGORIES=	devel
 
 MAINTAINER=	noud4@home.nl
