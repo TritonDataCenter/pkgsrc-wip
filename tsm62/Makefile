@@ -23,7 +23,7 @@ NOT_FOR_PLATFORM=	Linux-*-* NetBSD-[0-1]*-*
 EMUL_PLATFORMS=		linux-i386 linux-x86_64
 EMUL_MODULES.linux=	base
 
-# Make sure suse version equals the above 
+# Make sure suse version equals the above
 DEPENDS+=               suse32_base:../../emulators/suse121_32_base
 EMUL32DIR=		${_OPSYS_EMULDIR.linux32}
 

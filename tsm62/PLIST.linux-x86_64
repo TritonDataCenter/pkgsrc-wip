@@ -65,5 +65,5 @@ emul/linux32/opt/tivoli
 emul/linux32/usr/local/ibm/gsk8
 @pkgdir emul/linux/usr/local/ibm/gsk8_64/inc
 @pkgdir emul/linux/usr/local/ibm/gsk8_64/docs
-@exec ${EMUL32DIR}/sbin/ldconfig -r ${EMUL32DIR}
-@unexec ${EMUL32DIR}/sbin/ldconfig -r ${EMUL32DIR}
+@exec ${EMUL32DIR}/sbin/ldconfig -r ${EMUL32DIR} || /usr/bin/true
+@unexec ${EMUL32DIR}/sbin/ldconfig -r ${EMUL32DIR} || /usr/bin/true
