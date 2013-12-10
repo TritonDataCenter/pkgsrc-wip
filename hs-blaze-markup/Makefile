@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	blaze-markup-0.5.1.5
+DISTNAME=	blaze-markup-0.5.1.6
 CATEGORIES=	textproc
 
 MAINTAINER=	szptvlfn@a-net.email.ne.jp
