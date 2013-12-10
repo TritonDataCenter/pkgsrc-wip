@@ -1,11 +1,10 @@
 # $NetBSD$
 #
 
-DISTNAME=	vault-0.3.0.2
+DISTNAME=	vault-0.3.0.3
 CATEGORIES=	devel
 
 MAINTAINER=	szptvlfn@a-net.email.ne.jp
-HOMEPAGE=	https://github.com/HeinrichApfelmus/vault
 COMMENT=	Persistent store for values of arbitrary types
 LICENSE=	modified-bsd
 
