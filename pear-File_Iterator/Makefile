@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	File_Iterator-1.3.3
+DISTNAME=	File_Iterator-1.3.4
 CATEGORIES=	devel
 MASTER_SITES+=	http://pear.phpunit.de/get/
 

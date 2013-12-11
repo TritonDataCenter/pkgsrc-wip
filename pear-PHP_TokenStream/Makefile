@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	PHP_TokenStream-1.1.5
+DISTNAME=	PHP_TokenStream-1.2.1
 CATEGORIES=	devel
 MASTER_SITES+=	http://pear.phpunit.de/get/
 

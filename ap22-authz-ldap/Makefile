@@ -11,7 +11,7 @@ HOMEPAGE=	http://authzldap.othello.ch/
 COMMENT=	Apache LDAP Authorization module
 LICENSE=	apache-2.0
 
-PKG_APACHE_ACCEPTED=	apache22
+PKG_APACHE_ACCEPTED=	apache24 apache22
 
 .include "../../mk/apache.mk"
 .include "options.mk"

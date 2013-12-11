@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	text-0.11.3.1
+DISTNAME=	text-1.0.0.0
 CATEGORIES=	devel
 
 MAINTAINER=	pho@cielonegro.org

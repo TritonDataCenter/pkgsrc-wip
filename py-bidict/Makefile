@@ -6,7 +6,7 @@ PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	devel
 MASTER_SITES=	http://pypi.python.org/packages/source/b/bidict/
 
-MAINTAINER=	kamek.derouiche@gmail.com
+MAINTAINER=	kamel.derouiche@gmail.com
 HOMEPAGE=	http://bitbucket.org/jab/bidict
 COMMENT=	Bidirectional (one-to-one) mapping data structure
 LICENSE=	mit

@@ -1,10 +1,9 @@
 # $NetBSD$
-#
 
-DISTNAME=	gevent-0.13.6
+DISTNAME=	gevent-1.0
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	net
-MASTER_SITES=	http://pypi.python.org/packages/source/g/gevent/
+MASTER_SITES=	https://pypi.python.org/packages/source/g/gevent/
 
 MAINTAINER=	kamel.derouiche@gmail.com
 HOMEPAGE=	http://www.gevent.org/
@@ -23,4 +22,5 @@ BUILDLINK_API_DEPENDS.libevent+=libevent>=0.6
 .include "../../devel/py-cython/buildlink3.mk"
 .include "../../devel/libevent/buildlink3.mk"
 .include "../../lang/python/egg.mk"
+DEPENDS+=	${PYPKGPREFIX}-greenlet>=0.4.1:../../wip/py-greenlet
 .include "../../mk/bsd.pkg.mk"

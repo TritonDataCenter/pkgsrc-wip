@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	CakePHP_CodeSniffer-0.1.11
+DISTNAME=	CakePHP_CodeSniffer-0.1.18
 CATEGORIES=	www
 MASTER_SITES+=	http://pear.cakephp.org/get/
 

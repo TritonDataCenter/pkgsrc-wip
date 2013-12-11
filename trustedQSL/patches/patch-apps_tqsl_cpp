@@ -1,12 +1,13 @@
 $NetBSD: patch-apps_tqsl_cpp,v 1.1 2013/09/13 08:45:52 mef Exp $
 
+(1)
 Avoid following error (interim, only valid with db5)
 /usr/pkgsrc/wip/trustedQSL/work/tqsl-2.0/apps/tqsl.cpp:1133:36: error: 'DB_VERSION_STRING' was not declared in this scope
 gmake[2]: *** [apps/CMakeFiles/tqsl.dir/tqsl.cpp.o] Error 1
 gmake[1]: *** [apps/CMakeFiles/tqsl.dir/all] Error 2
 
---- apps/tqsl.cpp.orig	2013-08-18 22:07:48.000000000 +0900
-+++ apps/tqsl.cpp	2013-09-01 00:39:30.000000000 +0900
+--- apps/tqsl.cpp.orig	2013-10-21 09:33:20.000000000 +0900
++++ apps/tqsl.cpp	2013-11-30 10:39:29.000000000 +0900
 @@ -71,7 +71,7 @@
  #endif
  #include <zlib.h>

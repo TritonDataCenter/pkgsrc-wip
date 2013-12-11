@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	fDOMDocument-1.4.1
+DISTNAME=	fDOMDocument-1.4.2
 CATEGORIES=	devel
 MASTER_SITES+=	http://pear.netpirates.net/get/
 

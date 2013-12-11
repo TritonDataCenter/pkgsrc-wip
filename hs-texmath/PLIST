@@ -117,6 +117,9 @@ share/texmath-${PKGVERSION}/tests/macros.xhtml
 share/texmath-${PKGVERSION}/tests/moore_determinant.omml
 share/texmath-${PKGVERSION}/tests/moore_determinant.tex
 share/texmath-${PKGVERSION}/tests/moore_determinant.xhtml
+share/texmath-${PKGVERSION}/tests/notin.omml
+share/texmath-${PKGVERSION}/tests/notin.tex
+share/texmath-${PKGVERSION}/tests/notin.xhtml
 share/texmath-${PKGVERSION}/tests/quadratic_formula.omml
 share/texmath-${PKGVERSION}/tests/quadratic_formula.tex
 share/texmath-${PKGVERSION}/tests/quadratic_formula.xhtml

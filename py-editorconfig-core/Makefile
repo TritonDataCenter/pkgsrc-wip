@@ -6,7 +6,7 @@ MASTER_SITES=	-https://github.com/editorconfig/editorconfig-core-py/archive/v${P
 FETCH_USING=	curl
 
 MAINTAINER=	nros@users.sourceforge.net
-HOMEPAGE=	http://editorconfig.org
+HOMEPAGE=	http://editorconfig.org/
 COMMENT=	Editorconfig python library
 LICENSE=	python-software-foundation AND modified-bsd
 

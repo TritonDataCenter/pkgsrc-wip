@@ -10,6 +10,11 @@ HOMEPAGE=		http://sourceforge.net/projects/trustedqsl/
 COMMENT=		TrustedQSL, uploading QSL Data to LoTW of ARRL
 LICENSE=		arrl-license
 
+# A macro _S in /usr/include/ctype.h conflicts with one in apps/tqsltrace.h
+# NOT_FOR_PLATFORM+=   NetBSD-5.*
+
+DEPENDS+=		mozilla-rootcerts-[0-9]*:../../security/mozilla-rootcerts
+
 USE_TOOLS+=		perl gmake cmake
 USE_LANGUAGES+=		c c++
 USE_LIBTOOL=		yes
@@ -20,6 +25,25 @@ USE_CMAKE=		yes
 # an old version of pixman is found by the pkgsrc cairo.  The root
 # cause (aside from having two pixman versions installed) is ad hoc -L
 # usage in Makefile.am, without matching -R.
+
+# Following SUBST is really necessary only on NetBSD-5.*
+SUBST_CLASSES+=	macro_S
+SUBST_MESSAGE.macro_S= Replace _S with _SS to avoid conflicts on include/ctypes.h and apps/tqsltrace.h
+SUBST_STAGE.macro_S= pre-configure
+SUBST_FILES.macro_S = \
+	apps/crqwiz.cpp \
+	apps/extwizard.cpp \
+	apps/getpassword.cpp \
+	apps/loadcertwiz.cpp \
+	apps/qsodatadialog.cpp \
+	apps/stationdial.cpp \
+	apps/tqsl.cpp \
+	apps/tqsl_prefs.cpp \
+	apps/tqslhelp.cpp \
+	apps/tqsltrace.h \
+	apps/tqslvalidator.cpp \
+	apps/tqslwiz.cpp
+SUBST_SED.macro_S=	-e 's,_S(,_SS(,g'
 
 do-configure:
 	(cd $(WRKSRC) ; \

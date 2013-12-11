@@ -42,6 +42,9 @@ ${PYSITELIB}/isodate/tests/test_datetime.pyo
 ${PYSITELIB}/isodate/tests/test_duration.py
 ${PYSITELIB}/isodate/tests/test_duration.pyc
 ${PYSITELIB}/isodate/tests/test_duration.pyo
+${PYSITELIB}/isodate/tests/test_pickle.py
+${PYSITELIB}/isodate/tests/test_pickle.pyc
+${PYSITELIB}/isodate/tests/test_pickle.pyo
 ${PYSITELIB}/isodate/tests/test_strf.py
 ${PYSITELIB}/isodate/tests/test_strf.pyc
 ${PYSITELIB}/isodate/tests/test_strf.pyo

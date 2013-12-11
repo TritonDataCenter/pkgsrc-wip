@@ -36,8 +36,6 @@ GNU_CONFIGURE=		YES
 #CONFIGURE_ENV+=		CXXFLAGS=-ggdb
 #CONFIGURE_ENV+=		CFLAGS=-ggdb
 #CONFIGURE_ENV+=		LDFLAGS=-ggdb
-CONFIGURE_ARGS+=		ZLIB_CFLAGS=-I${BUILDLINK_PREFIX.zlib}/include
-CONFIGURE_ARGS+=		ZLIB_LIBS="${COMPILER_RPATH_FLAG}${BUILDLINK_PREFIX.zlib}/lib -L${BUILDLINK_PREFIX.zlib}/lib -lz"
 
 .include "../../mk/bsd.prefs.mk"
 .if (${OPSYS} != "Darwin" && ${OPSYS} != "SunOS" && ${OPSYS} != "Linux")

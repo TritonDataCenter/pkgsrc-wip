@@ -2,7 +2,7 @@ $NetBSD$
 
 Pass PYTHON through to configure.
 
---- Makefile.orig	2013-11-11 08:52:33.000000000 +0000
+--- Makefile.orig	2013-12-04 00:39:47.000000000 +0000
 +++ Makefile
 @@ -67,7 +67,7 @@ install: all
  

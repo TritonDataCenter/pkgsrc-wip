@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	pandoc-1.12.1
+DISTNAME=	pandoc-1.12.2
 PKGNAME=	${DISTNAME}
 CATEGORIES=	textproc
 

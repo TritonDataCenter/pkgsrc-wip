@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	phpcpd-1.4.1
+DISTNAME=	phpcpd-1.4.3
 CATEGORIES=	devel
 MASTER_SITES+=	http://pear.phpunit.de/get/
 

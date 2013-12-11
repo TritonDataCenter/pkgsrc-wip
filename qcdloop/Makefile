@@ -1,18 +1,17 @@
 # $NetBSD$
-#
 
-DISTNAME=	QCDLoop-1.9
-PKGNAME=	qcdloop-1.9
+DISTNAME=	QCDLoop-1.95
+PKGNAME=	qcdloop-1.95
 CATEGORIES=	math
 MASTER_SITES=	http://qcdloop.fnal.gov/
-
 MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	http://qcdloop.fnal.gov/
 COMMENT=	Repository of one-loop scalar Feynman integrals
-
-USE_LANGUAGES=	fortran
+#LICENSE=	# TODO: (see mk/license.mk)
 
 MAKE_FILE=	makefile
+
+USE_LANGUAGES=	fortran
 
 INSTALLATION_DIRS=	lib share/doc/qcdloop
 

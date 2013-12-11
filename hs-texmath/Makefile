@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	texmath-0.6.4
+DISTNAME=	texmath-0.6.5.2
 CATEGORIES=	textproc
 
 MAINTAINER=	szptvlfn@a-net.email.ne.jp

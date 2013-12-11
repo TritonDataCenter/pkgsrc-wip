@@ -16,10 +16,13 @@ GIT_REPO.Packager-Utils=	https://github.com/rehsack/Packager-Utils.git
 # Add "-c http.sslVerify=false" to git command or,
 PKGSRC_SETENV=		GIT_SSL_NO_VERIFY=true
 
+INSTALLATION_DIRS=	share/examples/p5-Packager-Utils
+
 WRKSRC=			${WRKDIR}/Packager-Utils
 PERL5_MODULE_TYPE=	Module::Build
 PERL5_PACKLIST=		auto/Packager/Utils/.packlist
 
+DEPENDS+=	p5-Alien-Packages-[0-9]*:../../devel/p5-Alien-Packages
 DEPENDS+=	p5-Module-CoreList-[0-9]*:../../devel/p5-Module-CoreList
 DEPENDS+=	p5-File-ShareDir-[0-9]*:../../devel/p5-File-ShareDir
 DEPENDS+=	p5-File-Find-Rule-[0-9]*:../../devel/p5-File-Find-Rule
@@ -29,6 +32,7 @@ DEPENDS+=	p5-List-MoreUtils-[0-9]*:../../devel/p5-List-MoreUtils
 DEPENDS+=	p5-MooX-Cmd-[0-9]*:../../devel/p5-MooX-Cmd
 DEPENDS+=	p5-MooX-Options-[0-9]*:../../devel/p5-MooX-Options
 DEPENDS+=	p5-MooX-Roles-Pluggable-[0-9]*:../../devel/p5-MooX-Roles-Pluggable
+DEPENDS+=	p5-Moose-[0-9]*:../../devel/p5-Moose
 DEPENDS+=	p5-SQL-Translator-[0-9]*:../../databases/p5-SQL-Translator
 DEPENDS+=	p5-DBIx-Class-[0-9]*:../../databases/p5-DBIx-Class
 DEPENDS+=	p5-CPAN-[0-9]*:../../devel/p5-CPAN
@@ -41,6 +45,9 @@ DEPENDS+=	p5-Template-Toolkit-[0-9]*:../../www/p5-Template-Toolkit
 DEPENDS+=	p5-MetaCPAN-API-[0-9]*:../../devel/p5-MetaCPAN-API
 DEPENDS+=	p5-DBD-SQLite-[0-9]*:../../databases/p5-DBD-SQLite
 DEPENDS+=	p5-Module-Pluggable>=4.8:../../devel/p5-Module-Pluggable
+
+post-install:
+	${INSTALL_DATA} ${WRKSRC}/etc/pkg_util.json ${DESTDIR}${PREFIX}/share/examples/p5-Packager-Utils
 
 .include "../../lang/perl5/module.mk"
 .include "../../mk/bsd.pkg.mk"

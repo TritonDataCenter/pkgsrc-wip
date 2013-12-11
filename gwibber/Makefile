@@ -5,6 +5,7 @@ DISTNAME=	gwibber-2.91.90
 PKGREVISION=	1
 CATEGORIES=	net
 MASTER_SITES=	http://launchpad.net/gwibber/3.0/2.91.90/+download/
+FETCH_USING=	curl
 
 MAINTAINER=	ryo_on@yk.rim.or.jp
 HOMEPAGE=	http://gwibber.com/

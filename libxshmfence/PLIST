@@ -1,0 +1,4 @@
+@comment $NetBSD$
+include/X11/xshmfence.h
+lib/libxshmfence.la
+lib/pkgconfig/xshmfence.pc

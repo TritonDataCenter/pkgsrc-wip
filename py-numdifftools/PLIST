@@ -7,12 +7,6 @@ ${PYSITELIB}/${EGG_INFODIR}/top_level.txt
 ${PYSITELIB}/numdifftools/__init__.py
 ${PYSITELIB}/numdifftools/__init__.pyc
 ${PYSITELIB}/numdifftools/__init__.pyo
-${PYSITELIB}/numdifftools/_theano.py
-${PYSITELIB}/numdifftools/_theano.pyc
-${PYSITELIB}/numdifftools/_theano.pyo
-${PYSITELIB}/numdifftools/_uncertainties.py
-${PYSITELIB}/numdifftools/_uncertainties.pyc
-${PYSITELIB}/numdifftools/_uncertainties.pyo
 ${PYSITELIB}/numdifftools/core.py
 ${PYSITELIB}/numdifftools/core.pyc
 ${PYSITELIB}/numdifftools/core.pyo

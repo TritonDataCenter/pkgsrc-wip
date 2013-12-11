@@ -1,42 +1,48 @@
-# $NetBSD$
-#
+# $NetBSD: Makefile,v 1.6 2013/09/13 07:29:10 mef Exp $
 
-DISTNAME=	lldpd-0.7.2
-PKGREVISION=2	
-CATEGORIES=	net
-MASTER_SITES=	http://media.luffy.cx/files/lldpd/
+DISTNAME=		lldpd-0.7.7
+CATEGORIES=		net
+MASTER_SITES=		http://media.luffy.cx/files/lldpd/
 
-MAINTAINER=	bbartlomiej@gmail.com
-HOMEPAGE=	http://http://vincentbernat.github.io/lldpd/
-COMMENT=	ISC-licensed implementation of LLDP for various Unixes
-LICENSE=	isc
+MAINTAINER=		pkgsrc-users@NetBSD.org
+HOMEPAGE=		http://vincentbernat.github.com/lldpd/
+COMMENT=		802.1ab (LLDP) implementation
+LICENSE=		isc
+# `lldpcli` will be linked to GNU Readline (which is GPL licensed)
+# if available. To avoid this, use `--without-readline` as a configure
+# option.
 
-GNU_CONFIGURE=	yes
-USE_LIBTOOL=	yes
-USE_TOOLS+=	pkg-config
-USE_LANGUAGES+= c c++
-USE_GNU_READLINE= yes
+PKG_INSTALLATION_TYPES=	overwrite pkgviews
 
-CONFIGURE_ARGS+=	--with-privsep-chroot=/nonexistent
+USE_LIBTOOL=		yes
+USE_LANGUAGES=		c c++
+USE_TOOLS+=		pkg-config
+GNU_CONFIGURE=		yes
+CONFIGURE_ARGS+=	--with-privsep-chroot=${PKG_HOME._lldpd}
+BUILD_DEFS+=		VARBASE
 
-LLDPD_USER?=	_lldpd
-LLDPD_GROUP?=	_lldpd
-PKG_GROUPS=		${LLDPD_GROUP}
-PKG_USERS=		${LLDPD_USER}:${LLDPD_GROUP}
-PKG_HOME.${LLDPD_USER}=	/nonexistent
-PKG_GROUPS_VARS=	LLDPD_GROUP
-PKG_USERS_VARS=		LLDPD_USER
+# to find -lperl, should be portable and simpler, please correct
+.include "../../mk/bsd.prefs.mk"
+# This PATH is sometimes defined with SITEARCHEXP
+LDFLAGS+=		-L${PREFIX}/lib/perl5/5.18.0/${MACHINE_ARCH}-${OPSYS:tl}-thread-multi/CORE
 
-PKGCONFIG_OVERRIDE+=    libevent/libevent.pc.in
-PKGCONFIG_OVERRIDE+=    libevent/libevent_openssl.pc.in
-PKGCONFIG_OVERRIDE+=    libevent/libevent_pthreads.pc.in
-PKGCONFIG_OVERRIDE+=    src/lib/lldpctl.pc.in
+# ERROR: sbin/lldpd: missing library: libperl.so
+# both COMPILER_RPATH_FLAG LINKER_RPATH_FLAG doesn't make it.
+LDFLAGS+=		-Wl,-R${PREFIX}/lib/perl5/5.18.0/${MACHINE_ARCH}-${OPSYS:tl}-thread-multi/CORE
+RCD_SCRIPTS=		lldpd
+PKG_GROUPS=		_lldpd
+PKG_USERS=		_lldpd:_lldpd
+PKG_HOME._lldpd=	${VARBASE}/chroot/lldpd
 
-BUILDLINK_API_DEPENDS.libevent+= libevent>=2.0.5
+OWN_DIRS=		${VARBASE}/chroot/lldpd
+AUTO_MKDIRS=		yes
+
+INSTALLATION_DIRS+=	sbin ${PKGMANDIR}/man5 ${PKGMANDIR}/man8
 
 .include "options.mk"
+
+BUILDLINK_API_DEPENDS.libevent+=	libevent>=2.0.5
 .include "../../devel/libevent/buildlink3.mk"
-.include "../../devel/check/buildlink3.mk"
-.include "../../devel/readline/buildlink3.mk"
+.include "../../mk/readline.buildlink3.mk"
 
 .include "../../mk/bsd.pkg.mk"

@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	zip-archive-0.1.3.4
+DISTNAME=	zip-archive-0.1.4
 CATEGORIES=	lang
 
 MAINTAINER=	zecrazytux@zecrazytux.net

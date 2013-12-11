@@ -2,8 +2,7 @@
 #
 
 DISTNAME=	moeclock
-PKGNAME=	${DISTNAME}-1.2.0.1
-PKGREVISION=	1
+PKGNAME=	${DISTNAME}-1.2.0.2
 CATEGORIES=	time
 MASTER_SITES=	http://moeclock.googlecode.com/files/
 

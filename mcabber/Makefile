@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	mcabber-0.10.1
+DISTNAME=	mcabber-0.10.2
 CATEGORIES=	chat
 MASTER_SITES=	http://www.lilotux.net/~mikael/mcabber/files/
 EXTRACT_SUFX=	.tar.bz2

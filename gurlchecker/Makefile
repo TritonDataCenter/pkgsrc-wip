@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	gurlchecker-0.13.1
+PKGREVISION=	1
 CATEGORIES=	www
 MASTER_SITES=	http://labs.libre-entreprise.org/frs/download.php/857/
 
@@ -22,5 +23,5 @@ USE_TOOLS+=		gmake intltool msgfmt msgmerge perl pkg-config xgettext
 .include "../../security/gnutls/buildlink3.mk"
 .include "../../devel/libgnomeui/buildlink3.mk"
 .include "../../mk/pthread.buildlink3.mk"
-.include "../../mk/x11.buildlink3.mk"
+.include "../../x11/libX11/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
