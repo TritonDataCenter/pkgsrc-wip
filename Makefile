@@ -265,7 +265,6 @@ SUBDIR+=	cacti-plugin-settings
 SUBDIR+=	cacti-plugin-thold
 SUBDIR+=	cacti-plugin-tools
 SUBDIR+=	cacti-plugin-weathermap
-SUBDIR+=	cacti-spine
 SUBDIR+=	cairo-dock
 SUBDIR+=	cairo-dock-plugins
 SUBDIR+=	cairo-java
