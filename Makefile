@@ -1581,6 +1581,7 @@ SUBDIR+=	lldpd
 SUBDIR+=	llvm
 SUBDIR+=	lmdbg-current
 SUBDIR+=	lmfit
+SUBDIR+=	lmod
 SUBDIR+=	lmtp2nntp
 SUBDIR+=	logfmon-devel
 SUBDIR+=	logwatch
