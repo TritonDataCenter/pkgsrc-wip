@@ -75,7 +75,6 @@ SUBDIR+=	admsmb
 SUBDIR+=	adobe-source-sans-pro-ttf-otf
 SUBDIR+=	ae-fonts-decorative
 SUBDIR+=	aegis-devel
-SUBDIR+=	aeneas
 SUBDIR+=	aespipe
 SUBDIR+=	afflib
 SUBDIR+=	agile
