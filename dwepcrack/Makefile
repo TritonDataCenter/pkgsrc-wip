@@ -3,7 +3,7 @@
 DISTNAME=	dwepcrack-0.4
 PKGREVISION=	3
 CATEGORIES=	security
-MASTER_SITES=	http://www.e.kth.se/~pvz/wifi/
+MASTER_SITES=	http://index-of.es/Hacking-Wireless-Networks/WEP-WPA%20Cracking%20Tools/dwepcrack/
 
 MAINTAINER=	schwarz@NetBSD.org
 HOMEPAGE=	http://web.archive.org/web/20070322102507/http://www.dachb0den.com/projects/dwepcrack.html
