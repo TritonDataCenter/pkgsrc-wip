@@ -1,12 +1,11 @@
 # $NetBSD$
 #
 
-DISTNAME=		prpltwtr-0.11.0
-PKGREVISION=		1
+DISTNAME=		prpltwtr-0.12.0
 CATEGORIES=		chat net
 MASTER_SITES=		http://prpltwtr.googlecode.com/files/
 
-MAINTAINER=		noud@home.nl
+MAINTAINER=		noud4@home.nl
 HOMEPAGE=		http://code.google.com/p/prpltwtr/
 COMMENT=		Treat microblogging (Twitter, etc) as IM protocols
 LICENSE=		gnu-gpl-v2
