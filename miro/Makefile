@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	miro-3.5.1
+PKGREVISION=	1
 CATEGORIES=	multimedia net
 MASTER_SITES=	http://ftp.osuosl.org/pub/pculture.org/miro/src/
 
@@ -26,6 +27,7 @@ SUBST_SED.fix-paths+=		-e 's,/usr/X11R6/lib,${X11BASE}/lib,g'
 
 DEPENDS=	${PYPKGPREFIX}-curl-[0-9]*:../../www/py-curl
 DEPENDS+=	${PYPKGPREFIX}-libtorrent-rasterbar-[0-9]*:../../wip/py-libtorrent-rasterbar
+DEPENDS+=	${PYPKGPREFIX}-pyrex-[0-9]*:../../lang/py-pyrex
 
 PYDISTUTILSPKG=	yes
 PYSETUPSUBDIR=	linux
