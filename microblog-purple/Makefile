@@ -6,7 +6,7 @@ PKGNAME=		${DISTNAME:S|mb|microblog-|}
 CATEGORIES=		chat net
 MASTER_SITES=		http://microblog-purple.googlecode.com/files/
 
-MAINTAINER=		noud@home.nl
+MAINTAINER=		noud4@home.nl
 HOMEPAGE=		http://code.google.com/p/microblog-purple/
 COMMENT=		Libpurple plug-in supporting microblog services like Twitter
 LICENSE=		gnu-gpl-v3
