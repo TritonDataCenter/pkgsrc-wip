@@ -2956,6 +2956,7 @@ SUBDIR+=	pythontoolkit
 SUBDIR+=	pywm
 SUBDIR+=	pyzor
 SUBDIR+=	q3-urbanterror
+SUBDIR+=	qbittorrent
 SUBDIR+=	qcdloop
 SUBDIR+=	qdevelop
 SUBDIR+=	qemu-neo1973
