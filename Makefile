@@ -2283,6 +2283,7 @@ SUBDIR+=	php-gtk2
 SUBDIR+=	php-http
 SUBDIR+=	php-igbinary
 SUBDIR+=	php-imagick
+SUBDIR+=	php-libawl-git
 SUBDIR+=	php-memcached
 SUBDIR+=	php-mongo
 SUBDIR+=	php-oauth
