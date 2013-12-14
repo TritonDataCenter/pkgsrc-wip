@@ -175,6 +175,7 @@ SUBDIR+=	audacity-devel
 SUBDIR+=	audiere
 SUBDIR+=	audio-mml
 SUBDIR+=	audit-system
+SUBDIR+=	auto-admin
 SUBDIR+=	auto-complete-current
 SUBDIR+=	auto-complete-mode
 SUBDIR+=	autoproject
