@@ -22,6 +22,7 @@ LICENSE=		gnu-gpl-v2
 #
 # DEPENDS+=	jabberd-[0-9]*:../../chat/jabberd2
 DEPENDS+=	${PYPKGPREFIX}-OpenSSL>=0.6:../../security/py-OpenSSL
+DEPENDS+=	${PYPKGPREFIX}-crypto>=2.0:../../security/py-crypto
 DEPENDS+=	${PYPKGPREFIX}-twisted>=8.1.0:../../net/py-twisted
 DEPENDS+=	${PYPKGPREFIX}-imaging>=1.1.5:../../graphics/py-imaging
 
@@ -85,6 +86,5 @@ SUBST_SED.paths+=	-e 's,@JABBER_LOGDIR@,${JABBER_LOGDIR},g'
 SUBST_SED.paths+=	-e 's,@PREFIX@,${PREFIX},g'
 SUBST_SED.paths+=	-e 's,@JABBER_PIDDIR@,${JABBER_PIDDIR},g'
 
-.include "../../security/py-amkCrypto/buildlink3.mk"
 .include "../../lang/python/application.mk"
 .include "../../mk/bsd.pkg.mk"

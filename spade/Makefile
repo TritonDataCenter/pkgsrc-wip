@@ -14,6 +14,7 @@ LICENSE=	gnu-lgpl-v2.1
 DEPENDS+=	${PYPKGPREFIX}-gmpy>=1.01:../../math/py-gmpy
 DEPENDS+=	${PYPKGPREFIX}-dns-[0-9]*:../../net/py-dns
 DEPENDS+=	${PYPKGPREFIX}-twisted-[0-9]*:../../net/py-twisted
+DEPENDS+=	${PYPKGPREFIX}-crypto>=2.0:../../security/py-crypto
 DEPENDS+=	${PYPKGPREFIX}-m2crypto>=0.13:../../security/py-m2crypto
 DEPENDS+=	${PYPKGPREFIX}-event>=0.3:../../wip/py-event
 DEPENDS+=	jython>=2.5.1:../../wip/jython
@@ -44,5 +45,4 @@ do-test:
 
 .include "../../lang/python/application.mk"
 .include "../../lang/python/extension.mk"
-.include "../../security/py-amkCrypto/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

@@ -12,7 +12,7 @@ COMMENT=	CryptoIDlib is a python library for working with cryptoID certChains
 #LICENSE=	# TODO: (see mk/license.mk)
 
 
-DEPENDS+=	${PYPKGPREFIX}-amkCrypto>=2.0.1:../../security/py-amkCrypto
+DEPENDS+=	${PYPKGPREFIX}-crypto>=2.0.1:../../security/py-crypto
 DEPENDS+=	${PYPKGPREFIX}-m2crypto>=0.13:../../security/py-m2crypto
 DEPENDS+=	${PYPKGPREFIX}-tlslite>=0.3.8:../../security/py-tlslite
 DEPENDS+=	jython>=2.5.1:../../wip/jython

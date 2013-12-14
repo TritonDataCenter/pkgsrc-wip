@@ -21,7 +21,7 @@ BROKEN=		Source tarballs have disappeared.
 #
 # DEPENDS+=	jabberd-[0-9]*:../../chat/jabberd2
 DEPENDS+=	${PYPKGPREFIX}-twisted>=8.1.0:../../net/py-twisted
-DEPENDS+=	${PYPKGPREFIX}-amkCrypto>=2.0.1:../../security/py-amkCrypto
+DEPENDS+=	${PYPKGPREFIX}-crypto>=2.0.1:../../security/py-crypto
 
 # it's a python package using the standard Python packager
 PYDISTUTILSPKG=	yes
