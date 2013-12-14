@@ -1,0 +1,10 @@
+@comment $NetBSD$
+sbin/auto-append-line
+sbin/auto-ask
+sbin/auto-desktop-setup
+sbin/auto-install-packages
+sbin/auto-install-packages-from-source
+sbin/auto-install-pkgsrc-tree
+sbin/auto-package-installed
+sbin/auto-replace-file
+sbin/auto-select-pkgsrc-dist
