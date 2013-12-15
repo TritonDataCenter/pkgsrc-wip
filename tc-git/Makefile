@@ -1,6 +1,6 @@
 # $NetBSD: Makefile,v 1.6 2011/04/14 14:35:59 makoto Exp $
 
-DISTNAME=		tc-2.99.2
+DISTNAME=		tc-2.99.3
 PKGNAME=		${EMACS_PKGNAME_PREFIX}${DISTNAME}
 CATEGORIES=		inputmethod
 
