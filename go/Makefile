@@ -90,7 +90,7 @@ do-build:
 do-install:
 	cd ${WRKSRC} && rm -f .hgignore .hgtags
 	cd ${WRKDIR} && pax -rw go ${DESTDIR}${PREFIX}
-.for cmd in go godoc gofmt
+.for cmd in go gofmt
 	cd ${DESTDIR}${PREFIX}/bin && ln -sf ../go/bin/${cmd} ${cmd}
 .endfor
 
