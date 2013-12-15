@@ -24,7 +24,7 @@ CURSES_DEFAULT=	ncurses
 .include "../../www/libmicrohttpd/buildlink3.mk"
 .include "../../devel/libusb1/buildlink3.mk"
 
-.include "../../textproc/jansson/buildlink3.mk"	# TODO add to pkgsrc
+.include "../../textproc/jansson/buildlink3.mk"
 .include "../../wip/uthash/buildlink3.mk"
 .include "../../www/curl/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
