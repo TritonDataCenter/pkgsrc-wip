@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	hasida-table-0.7
+DISTNAME=	hasida-table-0.8
 
 CATEGORIES=     inputmethod
 MASTER_SITES=   ftp://ftp.ki.nu/pub/
