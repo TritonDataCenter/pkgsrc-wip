@@ -1546,6 +1546,7 @@ SUBDIR+=	lidia
 SUBDIR+=	light-desktop
 SUBDIR+=	lightdm
 SUBDIR+=	lightdm-gtk-greeter
+SUBDIR+=	lightspark
 SUBDIR+=	lighttpd
 SUBDIR+=	lilypond-devel
 SUBDIR+=	lilypond-git
