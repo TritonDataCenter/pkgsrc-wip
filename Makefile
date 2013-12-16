@@ -1582,6 +1582,7 @@ SUBDIR+=	lissac
 SUBDIR+=	lives
 SUBDIR+=	lldpd
 SUBDIR+=	llvm
+SUBDIR+=	llvm-rtlib
 SUBDIR+=	lmdbg-current
 SUBDIR+=	lmfit
 SUBDIR+=	lmod
