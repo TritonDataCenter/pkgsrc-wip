@@ -41,7 +41,7 @@ TARGET=clang_netbsd
 .endif
 
 do-install:
-	${INSTALL}	${WRKSRC}/${TARGET}/full-${MACHINE_ARCH}/libcompiler_rt.a	${DESTDIR}${PREFIX}/lib
+	${INSTALL}	${WRKSRC}/${TARGET}/full*/libcompiler_rt.a	${DESTDIR}${PREFIX}/lib
 
 post-install:
 	${CHMOD}	-x ${DESTDIR}${PREFIX}/lib/lib*.a
