@@ -1,0 +1,48 @@
+$NetBSD$
+
+fix detection of htonll
+--- configure.in.orig	2013-10-18 16:39:21.767316085 +0000
++++ configure.in
+@@ -1,5 +1,7 @@
+ dnl Process this file with autoconf to produce a configure script.
++AC_PREREQ([2.60])
+ AC_INIT(collectd, [m4_esyscmd(./version-gen.sh)])
++AC_USE_SYSTEM_EXTENSIONS
+ AC_CONFIG_SRCDIR(src/collectd.c)
+ AC_CONFIG_HEADERS(src/config.h)
+ AC_CONFIG_AUX_DIR([libltdl/config])
+@@ -1206,10 +1208,9 @@ if test "x$have_getmntent" = "xgen"; the
+ fi
+ 
+ # Check for htonll
+-AC_MSG_CHECKING([if have htonll defined])
+-
+-    have_htonll="no"
+-    AC_LINK_IFELSE([AC_LANG_PROGRAM(
++AC_CACHE_CHECK([if have htonll defined],
++                  [c_cv_have_htonll],
++                  AC_LINK_IFELSE([AC_LANG_PROGRAM(
+ [[[
+ #include <sys/types.h>
+ #include <netinet/in.h>
+@@ -1221,12 +1222,14 @@ AC_MSG_CHECKING([if have htonll defined]
+           return htonll(0);
+ ]]]
+     )],
+-    [
+-      have_htonll="yes"
+-      AC_DEFINE(HAVE_HTONLL, 1, [Define if the function htonll exists.])
+-    ])
+- 
+-AC_MSG_RESULT([$have_htonll])
++    [c_cv_have_htonll="yes"],
++    [c_cv_have_htonll="no"]
++       )
++)
++if test "x$c_cv_have_htonll" = "xyes"
++then
++    AC_DEFINE(HAVE_HTONLL, 1, [Define if the function htonll exists.])
++fi
+ 
+ # Check for structures
+ AC_CHECK_MEMBERS([struct if_data.ifi_ibytes, struct if_data.ifi_opackets, struct if_data.ifi_ierrors],
