@@ -742,6 +742,7 @@ SUBDIR+=	getdp
 SUBDIR+=	gf2x
 SUBDIR+=	gfa
 SUBDIR+=	gfan
+SUBDIR+=	gfeedline
 SUBDIR+=	gfontview
 SUBDIR+=	gforge
 SUBDIR+=	gforth
