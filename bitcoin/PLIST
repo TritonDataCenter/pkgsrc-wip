@@ -1,3 +1,5 @@
 @comment $NetBSD$
 bin/bitcoin-qt
 bin/bitcoind
+@comment share/examples/bitcoin/bitcoin.conf
+@comment share/examples/rc.d/bitcoind
