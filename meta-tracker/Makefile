@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	tracker-0.16.3
-PKGREVISION=	1
+PKGREVISION=	2
 PKGNAME=	meta-${DISTNAME}
 CATEGORIES=	sysutils
 MASTER_SITES=	${MASTER_SITE_GNOME:=sources/tracker/0.16/}
@@ -38,6 +38,7 @@ PLIST_SUBST+=	TRACKER_VERSION=tracker-${PKGVERSION_NOREV:C/\.[0-9]+$//}
 
 #PKGCONFIG_OVERRIDE+=	dbus-glib-1.pc.in
 
+.include "../../devel/glib2/schemas.mk"
 .include "../../sysutils/desktop-file-utils/desktopdb.mk"
 .include "../../databases/sqlite3/buildlink3.mk"
 .include "../../devel/libuuid/buildlink3.mk"
@@ -46,6 +47,6 @@ PLIST_SUBST+=	TRACKER_VERSION=tracker-${PKGVERSION_NOREV:C/\.[0-9]+$//}
 .include "../../graphics/libexif/buildlink3.mk"
 .include "../../graphics/png/buildlink3.mk"
 .include "../../textproc/libunistring/buildlink3.mk"
-.include "../../textproc/icu/buildlink3.mk"
+.include "../../textproc/icu/buildlink3.mk"	# XXX maybe optional
 
 .include "../../mk/bsd.pkg.mk"
