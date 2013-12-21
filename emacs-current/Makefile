@@ -56,6 +56,9 @@ CHECK_WRKREF_SKIP+=	bin/emacs
 CHECK_WRKREF_SKIP+=	bin/emacs-${PKGVERSION_NOREV}
 
 FILESDIR=	${.CURDIR}/files
+# ./configure.lineno: 3555: Syntax error: Bad substitution
+# And then add another portablity problem ?
+PKGSRC_MAKE_ENV+=       SH=/bin/ksh
 
 # Check some related libraries for inclusion.
 MESALIB_VERSION!=	\
