@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	libgrss-0.4.0
+DISTNAME=	libgrss-0.5.0
 CATEGORIES=	www
 MASTER_SITES=	http://gtk.mplat.es/libgrss/tarballs/
 
