@@ -19,9 +19,9 @@
           <envvar name='PATH' value='@PREFIX@/bin:@PREFIX@/gnu/bin:@PREFIX@/sbin:/usr/bin:/usr/sbin'/>
         </method_environment>
     </method_context>
-    <exec_method name='start' type='method' exec='@PREFIX@/@SMF_METHOD_FILE@ start' timeout_seconds='18446744073709551615'/>
-    <exec_method name='stop' type='method' exec='@PREFIX@/@SMF_METHOD_FILE@ stop' timeout_seconds='18446744073709551615'/>
-    <exec_method name='restart' type='method' exec='@PREFIX@/@SMF_METHOD_FILE@ restart' timeout_seconds='18446744073709551615'/>
+    <exec_method name='start' type='method' exec='@PREFIX@/@SMF_METHOD_FILE.mongodb@ start' timeout_seconds='18446744073709551615'/>
+    <exec_method name='stop' type='method' exec='@PREFIX@/@SMF_METHOD_FILE.mongodb@ stop' timeout_seconds='18446744073709551615'/>
+    <exec_method name='restart' type='method' exec='@PREFIX@/@SMF_METHOD_FILE.mongodb@ restart' timeout_seconds='18446744073709551615'/>
       <property_group name='replication' type='application'>
        <propval name='name' type='astring' value=''/>
        <propval name='key' type='astring' value=''/>
