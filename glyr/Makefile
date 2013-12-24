@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	1.0.1
+DISTNAME=	1.0.2
 PKGNAME=	glyr-${DISTNAME}
 CATEGORIES=	audio
 MASTER_SITES=	https://github.com/sahib/glyr/archive/
