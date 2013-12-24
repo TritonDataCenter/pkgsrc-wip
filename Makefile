@@ -710,6 +710,7 @@ SUBDIR+=	gDesklets-starterbar
 SUBDIR+=	galib
 SUBDIR+=	galoisfieldarth
 SUBDIR+=	gambas2
+SUBDIR+=	gambatte-dev
 SUBDIR+=	gambc
 SUBDIR+=	gambit
 #SUBDIR+=	gaphor		# www/zope3 is gone
