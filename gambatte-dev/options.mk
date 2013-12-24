@@ -1,6 +1,6 @@
 # $NetBSD: options.mk,v 1.1.1.1 2009/01/03 18:45:45 wiz Exp $
 
-PKG_OPTIONS_VAR=	PKG_OPTIONS.gambatte
+PKG_OPTIONS_VAR=	PKG_OPTIONS.gambatte-dev
 PKG_SUPPORTED_OPTIONS=	qt
 
 .include "../../mk/bsd.options.mk"
