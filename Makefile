@@ -2304,6 +2304,7 @@ SUBDIR+=	picasm
 SUBDIR+=	picocom
 SUBDIR+=	picosat
 SUBDIR+=	picprog
+SUBDIR+=        pidgin-evolution
 SUBDIR+=	pidgin-festival
 SUBDIR+=	pidgin-guifications
 SUBDIR+=	pidgin-rhythmbox
