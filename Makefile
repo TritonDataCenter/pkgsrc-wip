@@ -605,6 +605,7 @@ SUBDIR+=	ever-note-mode
 SUBDIR+=	evilvte
 SUBDIR+=	evolution-couchdb
 SUBDIR+=	evolution-rss
+SUBDIR+=	evolution-tray
 SUBDIR+=	ewl
 SUBDIR+=	exact-image
 SUBDIR+=	exhume
