@@ -348,6 +348,7 @@ SUBDIR+=	common-mml
 SUBDIR+=	commoncpp2
 SUBDIR+=	compare
 SUBDIR+=	compiz-boxmenu
+SUBDIR+=	contact-lookup-applet
 SUBDIR+=	contacts
 SUBDIR+=	converttomp3
 SUBDIR+=	cops
