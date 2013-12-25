@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	ansi-terminal-0.6
+DISTNAME=	ansi-terminal-0.6.1
 CATEGORIES=	devel
 
 MAINTAINER=	pho@cielonegro.org
