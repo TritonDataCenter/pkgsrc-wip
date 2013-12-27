@@ -29,6 +29,8 @@ include/mcabber/xmpp_iqrequest.h
 include/mcabber/xmpp_muc.h
 include/mcabber/xmpp_s10n.h
 lib/mcabber/libbeep.la
+lib/mcabber/libfifo.la
+lib/mcabber/liburlregex.la
 lib/mcabber/libxttitle.la
 lib/pkgconfig/mcabber.pc
 man/man1/mcabber.1
