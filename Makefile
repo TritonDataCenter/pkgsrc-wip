@@ -2331,6 +2331,7 @@ SUBDIR+=	pike-mime
 SUBDIR+=	pilemc-svn
 SUBDIR+=	pinball
 SUBDIR+=	pinkpony
+SUBDIR+=	pixel-sagas-st
 SUBDIR+=	pizza
 SUBDIR+=	pjproject
 SUBDIR+=	pkg_conflicts
