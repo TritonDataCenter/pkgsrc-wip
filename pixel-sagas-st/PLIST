@@ -15,6 +15,12 @@ lib/X11/fonts/TTF/Okuda Bold Italic.ttf
 lib/X11/fonts/TTF/Okuda Bold.ttf
 lib/X11/fonts/TTF/Okuda Italic.ttf
 lib/X11/fonts/TTF/Okuda.ttf
+lib/X11/fonts/TTF/Probert Black Italic.otf
+lib/X11/fonts/TTF/Probert Black.otf
+lib/X11/fonts/TTF/Probert Bold Italic.otf
+lib/X11/fonts/TTF/Probert Bold.otf
+lib/X11/fonts/TTF/Probert Italic.otf
+lib/X11/fonts/TTF/Probert.otf
 lib/X11/fonts/TTF/Roddenberry Italic.ttf
 lib/X11/fonts/TTF/Roddenberry.ttf
 lib/X11/fonts/TTF/Sternbach Italic.ttf
