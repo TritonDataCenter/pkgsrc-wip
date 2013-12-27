@@ -30,6 +30,5 @@ NO_BUILD=	yes
 do-install:
 	${INSTALL_DATA_DIR} ${DESTDIR}${FONTS_DIRS.ttf}
 	${INSTALL_DATA} ${WRKSRC}/*.[Tt][Tt][Ff] ${DESTDIR}${FONTS_DIRS.ttf}
-# install doco too!
 
 .include "../../mk/bsd.pkg.mk"
