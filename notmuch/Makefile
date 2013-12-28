@@ -1,7 +1,6 @@
 # $NetBSD$
-#
 
-DISTNAME=	notmuch-0.15.2
+DISTNAME=	notmuch-0.16
 CATEGORIES=	mail
 MASTER_SITES=	http://notmuchmail.org/releases/
 
