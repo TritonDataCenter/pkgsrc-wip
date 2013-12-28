@@ -5,9 +5,9 @@
 . /lib/svc/share/smf_include.sh
 
 PATH="@PREFIX@/bin:@PREFIX@/gnu/bin:@PREFIX@/sbin:/usr/bin:/usr/sbin";
-DATADIR="@SMF_HOME@";
+MONGO_DBPATH="@MONGODB_DBPATH@";
 MONGO_CONF="@PKG_SYSCONFDIR@/mongodb.conf";
-MONGO_PID="${DATADIR}/mongodb.pid";
+MONGO_PID="${MONGO_DBPATH}/mongodb.pid";
 
 case "$1" in
         'start')
