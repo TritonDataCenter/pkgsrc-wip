@@ -7,7 +7,6 @@ lib/siproxd/plugin_prefix.la
 lib/siproxd/plugin_regex.la
 lib/siproxd/plugin_shortdial.la
 lib/siproxd/plugin_stun.la
-@dirrm lib/siproxd
 sbin/siproxd
 share/examples/siproxd/siproxd.conf.example
 share/examples/siproxd/siproxd_passwd.cfg
