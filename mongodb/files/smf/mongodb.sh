@@ -4,6 +4,9 @@
 
 . /lib/svc/share/smf_include.sh
 
+# mongodb doesn't really work with anything else but C locale
+export LANG=C
+
 PATH="@PREFIX@/bin:@PREFIX@/gnu/bin:@PREFIX@/sbin:/usr/bin:/usr/sbin";
 MONGO_DBPATH="@MONGODB_DBPATH@";
 MONGO_CONF="@PKG_SYSCONFDIR@/mongodb.conf";
