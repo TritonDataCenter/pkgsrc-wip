@@ -4,7 +4,7 @@ DISTNAME=	greenlet-0.4.1
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	devel python
 MASTER_SITES=	https://pypi.python.org/packages/source/g/greenlet/
-EXTRACT_SUFX=	.zip#md5=c2deda75bdda59c38cae12a77cc53adc
+EXTRACT_SUFX=	.zip
 FETCH_USING=	curl
 
 MAINTAINER=	kamel.derouiche@gmail.com
