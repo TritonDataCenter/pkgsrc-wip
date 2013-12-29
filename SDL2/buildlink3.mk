@@ -16,15 +16,20 @@ pkgbase := SDL2
 .include "../../audio/nas/buildlink3.mk"
 .endif
 
-.if !empty(PKG_BUILD_OPTIONS.SDL2:Mopengl)
-.include "../../graphics/MesaLib/buildlink3.mk"
+.if ${OPSYS} != "Darwin"
+.  if !empty(PKG_BUILD_OPTIONS.SDL2:Mopengl)
+.  include "../../graphics/MesaLib/buildlink3.mk"
+.  endif
+.endif
+
+.if !empty(PKG_BUILD_OPTIONS.SDL2:Mx11)
+.include "../../x11/xproto/buildlink3.mk"
+.include "../../x11/libX11/buildlink3.mk"
 .endif
 
 .include "../../mk/dlopen.buildlink3.mk"
 .include "../../mk/pthread.buildlink3.mk"
 .include "../../mk/oss.buildlink3.mk"
-.include "../../x11/xproto/buildlink3.mk"
-.include "../../x11/libX11/buildlink3.mk"
 .include "../../converters/libiconv/buildlink3.mk"
 .endif	# SDL2_BUILDLINK3_MK
 
