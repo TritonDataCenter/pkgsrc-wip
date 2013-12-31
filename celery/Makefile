@@ -1,9 +1,9 @@
 # $NetBSD$
 #
 
-DISTNAME=	celery-3.0.21
+DISTNAME=	celery-3.1.7
 CATEGORIES=	net
-MASTER_SITES=	http://pypi.python.org/packages/source/c/celery/
+MASTER_SITES=	https://pypi.python.org/packages/source/c/celery/
 FETCH_USING=	curl
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
