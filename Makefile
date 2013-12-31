@@ -390,7 +390,6 @@ SUBDIR+=	cvsanaly
 SUBDIR+=	cvsnt
 SUBDIR+=	cvsproxy
 SUBDIR+=	cvstrac
-SUBDIR+=	cvsup-mirror
 SUBDIR+=	cwebx
 SUBDIR+=	cxfreeze
 SUBDIR+=	cycle
