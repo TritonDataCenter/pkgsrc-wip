@@ -5,7 +5,8 @@ DISTNAME=	uuid-1.30
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 PKGREVISION=	2
 CATEGORIES=	net
-MASTER_SITES=	http://pypi.python.org/packages/source/u/uuid/
+MASTER_SITES=	https://pypi.python.org/packages/source/u/uuid/
+FETCH_USING=	curl
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	http://pypi.python.org/pypi/uuid/1.30
