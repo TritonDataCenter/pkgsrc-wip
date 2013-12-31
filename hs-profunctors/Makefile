@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	profunctors-4.0.1
+DISTNAME=	profunctors-4.0.2
 CATEGORIES=	devel
 
 MAINTAINER=	szptvlfn@a-net.email.ne.jp

@@ -12,8 +12,6 @@ COMMENT=	TODO: Short description of the package
 
 EXTRACT_SUFX=	.tar.xz
 
-PKG_DESTDIR_SUPPORT=	user-destdir
-
 INSTALL_MAKE_FLAGS+=	PREFIX=${DESTDIR}${PREFIX}
 
 pre-build:

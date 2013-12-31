@@ -1,0 +1,5 @@
+@comment $NetBSD$
+sbin/auto-append-line
+sbin/auto-ask
+sbin/auto-insert-line
+sbin/auto-replace-file

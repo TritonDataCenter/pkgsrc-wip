@@ -1,5 +1,7 @@
 $NetBSD$
 
+DESTDIR support for configuration files
+
 --- doc/Makefile.in.orig	2012-04-06 22:58:58.000000000 +0200
 +++ doc/Makefile.in	2012-04-06 22:59:04.000000000 +0200
 @@ -547,10 +547,10 @@

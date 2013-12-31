@@ -1,7 +1,6 @@
 # $NetBSD$
 #
 
-PKGREVISION=	1
 CATEGORIES=	net
 MAINTAINER=	ryoon@NetBSD.org
 HOMEPAGE=	http://www.rasterbar.com/products/libtorrent/index.html

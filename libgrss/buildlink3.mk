@@ -5,8 +5,8 @@ BUILDLINK_TREE+=	libgrss
 .if !defined(LIBGRSS_BUILDLINK3_MK)
 LIBGRSS_BUILDLINK3_MK:=
 
-BUILDLINK_API_DEPENDS.libgrss+=	libgrss>=0.3.0
-BUILDLINK_ABI_DEPENDS.libgrss+=	libgrss>=0.3.0
+BUILDLINK_API_DEPENDS.libgrss+=	libgrss>=0.5.0
+BUILDLINK_ABI_DEPENDS.libgrss+=	libgrss>=0.5.0
 BUILDLINK_PKGSRCDIR.libgrss?=	../../wip/libgrss
 
 .include "../../devel/glib2/buildlink3.mk"

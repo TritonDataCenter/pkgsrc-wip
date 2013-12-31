@@ -14,6 +14,8 @@ include/mcabber/hooks.h
 include/mcabber/logprint.h
 include/mcabber/main.h
 include/mcabber/modules.h
+include/mcabber/nohtml.h
+include/mcabber/otr.h
 include/mcabber/pgp.h
 include/mcabber/roster.h
 include/mcabber/screen.h
@@ -29,6 +31,8 @@ include/mcabber/xmpp_iqrequest.h
 include/mcabber/xmpp_muc.h
 include/mcabber/xmpp_s10n.h
 lib/mcabber/libbeep.la
+lib/mcabber/libfifo.la
+lib/mcabber/liburlregex.la
 lib/mcabber/libxttitle.la
 lib/pkgconfig/mcabber.pc
 man/man1/mcabber.1

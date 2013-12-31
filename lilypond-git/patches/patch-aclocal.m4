@@ -1,5 +1,8 @@
 $NetBSD$
 
+pkgsrc does not have a new enough metapost, so prefer a building package
+with possible problems to a non-building one.
+
 --- aclocal.m4.orig	2013-11-26 06:59:49.000000000 +0000
 +++ aclocal.m4
 @@ -1171,9 +1171,9 @@ AC_DEFUN(STEPMAKE_TEXMF, [

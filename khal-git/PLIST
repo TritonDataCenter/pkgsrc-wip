@@ -26,6 +26,9 @@ ${PYSITELIB}/khal/controllers.pyo
 ${PYSITELIB}/khal/model.py
 ${PYSITELIB}/khal/model.pyc
 ${PYSITELIB}/khal/model.pyo
+${PYSITELIB}/khal/status.py
+${PYSITELIB}/khal/status.pyc
+${PYSITELIB}/khal/status.pyo
 ${PYSITELIB}/khal/ui/__init__.py
 ${PYSITELIB}/khal/ui/__init__.pyc
 ${PYSITELIB}/khal/ui/__init__.pyo

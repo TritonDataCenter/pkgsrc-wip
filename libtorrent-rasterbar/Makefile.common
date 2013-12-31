@@ -3,7 +3,7 @@
 
 # used by wip/py-libtorrent-rasterbar/Makefile
 # used by wip/libtorrent-rasterbar/Makefile
-DISTNAME=	libtorrent-rasterbar-0.14.12
+DISTNAME=	libtorrent-rasterbar-0.16.12
 CATEGORIES=	net
 MASTER_SITES=	http://libtorrent.googlecode.com/files/ \
 		${MASTER_SITE_SOURCEFORGE:=libtorrent/}

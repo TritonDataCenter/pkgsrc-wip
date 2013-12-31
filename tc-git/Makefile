@@ -1,6 +1,6 @@
 # $NetBSD: Makefile,v 1.6 2011/04/14 14:35:59 makoto Exp $
 
-DISTNAME=		tc-2.99.2
+DISTNAME=		tc-2.99.3
 PKGNAME=		${EMACS_PKGNAME_PREFIX}${DISTNAME}
 CATEGORIES=		inputmethod
 
@@ -20,6 +20,7 @@ EMACS_MODULES=		base
 # Instead of USE_TOOLS+=, avoid to conflict with autoconf
 USE_TOOLS=		aclocal automake autoconf gmake makeinfo
 GNU_CONFIGURE=		YES
+BUILD_DEPENDS+=		web2c-[0-9]*:../../print/web2c
 
 CONFIGURE_ARGS+=	${CONFIGURE_ARGS.${EMACS_FLAVOR}}
 

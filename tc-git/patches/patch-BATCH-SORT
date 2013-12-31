@@ -6,7 +6,7 @@ from shell batch execution.
 
 --- BATCH-SORT.orig	2012-04-12 23:11:23.000000000 +0900
 +++ BATCH-SORT	2012-04-12 23:16:56.000000000 +0900
-@@ -0,0 +1,44 @@
+@@ -0,0 +1,45 @@
 +;;;  -*- emacs-lisp -*-
 +;;; BATCH-SORT --- 
 +
@@ -33,6 +33,7 @@ from shell batch execution.
 +;;; Code:
 +(provide 'batch-sort-file)
 +
++(load-file "../lisp/tc-recover.el") ; only for this compile
 +(defun batch-sort-file ( )
 +  "Just sort file, important thing is: done by emacs internal code order"
 +   (interactive)

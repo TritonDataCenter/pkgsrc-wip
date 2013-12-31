@@ -9,7 +9,7 @@ MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://webcleaner.sourceforge.net/
 COMMENT=		Filtering HTTP proxy
 
-DEPENDS+=		${PYPKGPREFIX}-amkCrypto>=0:../../security/py-amkCrypto
+DEPENDS+=		${PYPKGPREFIX}-crypto>=2.0:../../security/py-crypto
 DEPENDS+=		${PYPKGPREFIX}-imaging>=0:../../graphics/py-imaging
 
 PKG_DESTDIR_SUPPORT=    none

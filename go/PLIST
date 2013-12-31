@@ -1,6 +1,5 @@
 @comment $NetBSD$
 bin/go
-bin/godoc
 bin/gofmt
 go/AUTHORS
 go/CONTRIBUTORS

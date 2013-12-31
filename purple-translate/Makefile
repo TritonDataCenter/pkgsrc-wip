@@ -5,7 +5,7 @@ DISTNAME=		purple-translate-1.1
 CATEGORIES=		chat
 MASTER_SITES=		http://purple-translate.googlecode.com/files/
 
-MAINTAINER=		noud@home.nl
+MAINTAINER=		noud4@home.nl
 HOMEPAGE=		http://code.google.com/p/purple-translate/
 COMMENT=		Automatically translates messages in Pidgin
 LICENSE=		gnu-gpl-v3

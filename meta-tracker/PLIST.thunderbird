@@ -1,5 +1,5 @@
 @comment $NetBSD$
-lib/thunderbird-addons/extensions/trackerbird@bustany.org
+lib/thunderbird/extensions/trackerbird@bustany.org
 share/applications/trackerbird-launcher.desktop
 share/xul-ext/trackerbird/README
 share/xul-ext/trackerbird/chrome.manifest

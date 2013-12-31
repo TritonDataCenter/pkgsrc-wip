@@ -1,19 +1,20 @@
-# $NetBSD$
+# $NetBSD: Makefile,v 1.3 2013/03/06 12:02:14 jperkin Exp $
 #
 
-DISTNAME=	libSystem-0.1.5
-PKGNAME=	deforaos-libsystem-0.1.5
+DISTNAME=	libSystem-0.1.7
+PKGNAME=	deforaos-libsystem-0.1.7
 CATEGORIES=	devel
-MASTER_SITES=	http://www.defora.org/os/download/download/3450/
+MASTER_SITES=	http://www.defora.org/os/download/download/4321/
 
 MAINTAINER=	khorben@defora.org
 HOMEPAGE=	http://www.defora.org/
 COMMENT=	DeforaOS core system library
 
-LICENSE=	gnu-gpl-v3
+LICENSE=	gnu-lgpl-v3
 
 MAKE_FLAGS+=	PREFIX=${PREFIX}
 MAKE_FLAGS+=	DESTDIR=${DESTDIR}
+MAKE_FLAGS+=	INSTALL=${INSTALL}
 
-.include "../../security/openssl/buildlink3.mk"
+.include "../../textproc/gtk-doc/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

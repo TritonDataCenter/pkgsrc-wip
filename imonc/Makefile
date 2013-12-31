@@ -2,15 +2,15 @@
 
 DISTNAME=	imonc-20010125
 CATEGORIES=	net
-MASTER_SITES=	http://www.fli4l.de/fileadmin/downloadzaehler.php?file=3.6.1/
-DISTFILES=	fli4l-3.6.1.tar.gz
+MASTER_SITES=	http://www.fli4l.de/fileadmin/downloadzaehler.php?file=3.6.2/
+DISTFILES=	fli4l-3.6.2.tar.gz
 
 MAINTAINER=	schwarz@NetBSD.org
 HOMEPAGE=	http://www.fli4l.de/
 COMMENT=	Command-line version of the fli4l monitoring tool
 LICENSE=	gnu-gpl-v2
 
-WRKSRC=		${WRKDIR}/fli4l-3.6.1/unix
+WRKSRC=		${WRKDIR}/fli4l-3.6.2/unix
 NO_CONFIGURE=	YES
 
 LIBS.SunOS+=	-lsocket -lnsl
