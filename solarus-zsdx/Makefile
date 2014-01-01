@@ -15,5 +15,11 @@ WRKSRC=		${WRKDIR}/zsdx-${DISTNAME}
 USE_LANGUAGES=	c c++
 USE_CMAKE=	yes
 
+SUBST_CLASSES+=		zsdx
+SUBST_FILES.zsdx=	zsdx
+SUBST_MESSAGE.zsdx=	Fixing zsdx invocation.
+SUBST_SED.zsdx=		-e 's/ zsdx//1'
+SUBST_STAGE.zsdx=	post-build
+
 DEPENDS+=	solarus-[0-9]*:../../games/solarus
 .include "../../mk/bsd.pkg.mk"
