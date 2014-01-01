@@ -16,5 +16,6 @@ USE_LANGUAGES=	c
 DEPENDS+=	${PYPKGPREFIX}-anyjson-[0-9]*:../../textproc/py-anyjson
 DEPENDS+=	${PYPKGPREFIX}-billiard>=3.3.0.13:../../parallel/py-billiard
 DEPENDS+=	${PYPKGPREFIX}-kombu>=3.0.8:../../net/py-kombu
+DEPENDS+=	${PYPKGPREFIX}-pytz-[0-9]*:../../time/py-pytz
 .include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"
