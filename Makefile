@@ -1151,6 +1151,7 @@ SUBDIR+=	hs-safer-file-handles
 SUBDIR+=	hs-semigroupoid-extras
 SUBDIR+=	hs-semigroupoids
 SUBDIR+=	hs-semigroups
+SUBDIR+=	hs-shake
 SUBDIR+=	hs-simple-sendfile
 SUBDIR+=	hs-split
 SUBDIR+=	hs-stm
