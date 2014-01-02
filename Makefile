@@ -2755,7 +2755,6 @@ SUBDIR+=	py-pyevolve
 SUBDIR+=	py-pyexiv2
 SUBDIR+=	py-pyfaces
 SUBDIR+=	py-pyflation
-SUBDIR+=	py-pygi
 SUBDIR+=	py-pygit2
 SUBDIR+=	py-pyglet
 SUBDIR+=	py-pygr
