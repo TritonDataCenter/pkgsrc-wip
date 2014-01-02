@@ -2,17 +2,8 @@ $NetBSD$
 
 Add NetBSD support.
 
---- scripts/os-detect.sh.orig	2013-01-06 17:07:22.000000000 +0000
+--- scripts/os-detect.sh.orig	2013-12-17 05:55:28.000000000 +0000
 +++ scripts/os-detect.sh
-@@ -3,7 +3,7 @@
- 
- OS="`uname -s`"
- UNAME="`uname -a`"
--DIST="`uname -r` (`uname -o`)"
-+DIST="`uname -r` (`uname -n`)"
- 
- if [ "${OS}" = "Linux" ] ; then
-   if [ -f /etc/mandriva-release ] ; then
 @@ -15,6 +15,8 @@ if [ "${OS}" = "Linux" ] ; then
    elif [ -f /etc/debian_version ] ; then
      DIST="`echo Debian` `cat /etc/debian_version | sed 's/\//-/'`"
