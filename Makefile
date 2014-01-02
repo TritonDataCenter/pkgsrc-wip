@@ -2603,6 +2603,7 @@ SUBDIR+=	py-helio
 SUBDIR+=	py-hfk
 SUBDIR+=	py-igraph
 SUBDIR+=	py-imgSeek
+SUBDIR+=	py-impacket
 SUBDIR+=	py-inflection
 SUBDIR+=	py-instant
 SUBDIR+=	py-iowait
