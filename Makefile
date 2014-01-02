@@ -691,6 +691,7 @@ SUBDIR+=	fs-uae
 SUBDIR+=	fs-uae-dev
 SUBDIR+=	fs-uae-launcher
 SUBDIR+=	fs2open
+SUBDIR+=	fsharp
 SUBDIR+=	fslsfonts
 SUBDIR+=	fstobdf
 SUBDIR+=	ftgl
