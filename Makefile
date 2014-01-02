@@ -2638,7 +2638,6 @@ SUBDIR+=	py-lapack
 SUBDIR+=	py-larry
 SUBDIR+=	py-lazr.uri
 SUBDIR+=	py-lib
-SUBDIR+=	py-libmc
 SUBDIR+=	py-libmpdclient2
 SUBDIR+=	py-libopensync-plugin
 SUBDIR+=	py-libtextcat
