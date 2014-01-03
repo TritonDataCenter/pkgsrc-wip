@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	mmorph-1.0.0
+DISTNAME=	mmorph-1.0.1
 CATEGORIES=	devel
 
 MAINTAINER=	szptvlfn@a-net.email.ne.jp

@@ -34,6 +34,8 @@ REPLACE.runawk.old=	.*runawk
 REPLACE.runawk.new=	${PREFIX}/bin/runawk
 REPLACE_FILES.runawk=	scripts/lmdbg-*.in
 
+MAKE_ENV+=		AWK=${AWK:Q}
+
 post-install:
 	cd ${WRKSRC} && \
 	${MAKE_ENV} ${MAKE_PROGRAM} ${INSTALL_MAKE_FLAGS} install-doc

@@ -1,9 +1,10 @@
 # $NetBSD$
 #
 
-DISTNAME=	eventlib-0.1.3
+DISTNAME=	eventlib-0.1.5
 CATEGORIES=	net
-MASTER_SITES=	http://pypi.python.org/packages/source/e/eventlib/
+MASTER_SITES=	https://pypi.python.org/packages/source/e/eventlib/
+FETCH_USING=	curl
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://travis-ci.org/Yipit/eventlib/

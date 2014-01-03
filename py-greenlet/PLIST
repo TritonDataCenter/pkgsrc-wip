@@ -1,4 +1,0 @@
-@comment $NetBSD$
-${PYINC}/greenlet/greenlet.h
-${PYSITELIB}/${EGG_FILE}
-${PYSITELIB}/greenlet.so

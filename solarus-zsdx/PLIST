@@ -1,0 +1,3 @@
+@comment $NetBSD$
+bin/zsdx
+share/solarus/zsdx/data.solarus

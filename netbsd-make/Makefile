@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	bmake-20111010
+DISTNAME=	bmake-20131001
 PKGNAME=	${DISTNAME:S/bmake/nbmake/}
 CATEGORIES=	devel
 MASTER_SITES=	ftp://ftp.NetBSD.org/pub/NetBSD/misc/sjg/

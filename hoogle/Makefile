@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	hoogle-4.2.26
+DISTNAME=	hoogle-4.2.27
 PKGNAME=	${DISTNAME}
 CATEGORIES=	devel #haskell
 
@@ -20,6 +20,7 @@ LICENSE=	modified-bsd
 .include "../../wip/hs-parsec/buildlink3.mk"
 .include "../../wip/hs-random/buildlink3.mk"
 .include "../../wip/hs-safe/buildlink3.mk"
+.include "../../wip/hs-shake/buildlink3.mk"
 .include "../../wip/hs-tagsoup/buildlink3.mk"
 .include "../../wip/hs-text/buildlink3.mk"
 .include "../../wip/hs-transformers/buildlink3.mk"
