@@ -2,13 +2,14 @@ $NetBSD$
 
 Substitute whoami for id across SunOS platforms.
 Silence sudo (unneeded screen waste).
---- deps/node_package/priv/base/env.sh.orig	2013-07-09 22:00:35.000000000 +0000
+
+--- deps/node_package/priv/base/env.sh.orig	2013-11-08 18:56:54.000000000 +0000
 +++ deps/node_package/priv/base/env.sh
 @@ -44,7 +44,11 @@ fi
  # Registered process to wait for to consider start a success
  WAIT_FOR_PROCESS={{runner_wait_process}}
  
--WHOAMI=$(whoami)
+-WHOAMI=`whoami`
 +if [ `uname -s` = 'SunOS' ]; then
 +    WHOAMI=$(/usr/xpg4/bin/id -un)
 +else
