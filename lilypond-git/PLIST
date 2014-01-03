@@ -204,6 +204,7 @@ share/lilypond/${PKGVERSION}/ly/predefined-guitar-ninth-fretboards.ly
 share/lilypond/${PKGVERSION}/ly/predefined-mandolin-fretboards.ly
 share/lilypond/${PKGVERSION}/ly/predefined-ukulele-fretboards.ly
 share/lilypond/${PKGVERSION}/ly/property-init.ly
+share/lilypond/${PKGVERSION}/ly/satb.ly
 share/lilypond/${PKGVERSION}/ly/scale-definitions-init.ly
 share/lilypond/${PKGVERSION}/ly/scheme-sandbox.ly
 share/lilypond/${PKGVERSION}/ly/script-init.ly
