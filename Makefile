@@ -2665,7 +2665,6 @@ SUBDIR+=	py-mcview
 SUBDIR+=	py-mdanalysis
 SUBDIR+=	py-mdp
 SUBDIR+=	py-mdptoolbox
-SUBDIR+=	py-memcached
 SUBDIR+=	py-metrics
 SUBDIR+=	py-mlstats
 SUBDIR+=	py-mmLib
