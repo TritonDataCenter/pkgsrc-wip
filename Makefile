@@ -3697,6 +3697,7 @@ SUBDIR+=	zabbix
 SUBDIR+=	zapping
 SUBDIR+=	zathura
 SUBDIR+=	zathura-poppler
+SUBDIR+=	zeromq
 SUBDIR+=	zinf
 SUBDIR+=	ziparchive
 SUBDIR+=	zipios
