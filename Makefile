@@ -202,6 +202,7 @@ SUBDIR+=	banshee
 SUBDIR+=	bashdb
 SUBDIR+=	bastard
 SUBDIR+=	beads
+SUBDIR+=	beanstalkd
 SUBDIR+=	beast
 SUBDIR+=	bfgminer
 SUBDIR+=	bibliographer
