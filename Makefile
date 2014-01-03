@@ -2960,7 +2960,6 @@ SUBDIR+=	py-xlwt
 #SUBDIR+=	py-xmiparser	# www/zope3 is gone
 SUBDIR+=	py-xmpppy
 SUBDIR+=	py-xsdb
-SUBDIR+=	py-yaml
 SUBDIR+=	py-yapgvb
 SUBDIR+=	py-yapps2
 SUBDIR+=	py-yellowhiggs
