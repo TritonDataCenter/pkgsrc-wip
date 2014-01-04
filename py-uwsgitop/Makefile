@@ -14,5 +14,6 @@ COMMENT=	Command to interface with the uWSGI stats server
 USE_LANGUAGES=	# none
 
 DEPENDS+=	${PYPKGPREFIX}-simplejson-[0-9]*:../../converters/py-simplejson
+DEPENDS+=	${PYPKGPREFIX}-curses-[0-9]*:../../devel/py-curses
 .include "../../lang/python/distutils.mk"
 .include "../../mk/bsd.pkg.mk"
