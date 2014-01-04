@@ -2844,7 +2844,6 @@ SUBDIR+=	py-sdt_metrics
 SUBDIR+=	py-se
 SUBDIR+=	py-selenium
 SUBDIR+=	py-sempy
-SUBDIR+=	py-serial
 SUBDIR+=	py-setupdocs
 SUBDIR+=	py-setuptools_git
 SUBDIR+=	py-sexy
