@@ -1,7 +1,8 @@
 $NetBSD$
 
-NULL as second argument for realpath() is only supported in glibc.
-Use more portable code.
+NULL as second argument for realpath() is only supported in glibc
+and POSIX 2008. Work around this.  See BUGS section for problems:
+http://man7.org/linux/man-pages/man3/realpath.3.html
 
 --- notmuch-config.c.orig	2013-08-03 11:29:40.000000000 +0000
 +++ notmuch-config.c
