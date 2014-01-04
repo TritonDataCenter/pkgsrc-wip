@@ -2929,6 +2929,7 @@ SUBDIR+=	py-utilib_math
 SUBDIR+=	py-utilib_misc
 SUBDIR+=	py-utilib_ply
 SUBDIR+=	py-uuid
+SUBDIR+=	py-uwsgi
 SUBDIR+=	py-uwsgitop
 #SUBDIR+=	py-van.testing	# www/zope3 is gone
 SUBDIR+=	py-viper
