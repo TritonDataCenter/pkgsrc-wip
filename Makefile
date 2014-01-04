@@ -2375,6 +2375,7 @@ SUBDIR+=	povray
 SUBDIR+=	ppp
 SUBDIR+=	ppr
 SUBDIR+=	premake
+SUBDIR+=	premake4
 SUBDIR+=	probcons
 SUBDIR+=	probe
 SUBDIR+=	procps
