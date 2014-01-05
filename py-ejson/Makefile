@@ -16,7 +16,8 @@ LICENSE=	gnu-lgpl-v3
 
 WRKSRC=		${WRKDIR}/${PKG}-${PKGVERSION}
 USE_LANGUAGES=	# none
+EGG_NAME=	${PKG}-${DISTNAME}
 
 DEPENDS+=	${PYPKGPREFIX}-dateutil-[0-9]*:../../time/py-dateutil
-.include "../../lang/python/distutils.mk"
+.include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"
