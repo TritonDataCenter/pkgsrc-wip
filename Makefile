@@ -3704,6 +3704,7 @@ SUBDIR+=	zeromq
 SUBDIR+=	zinf
 SUBDIR+=	ziparchive
 SUBDIR+=	zipios
+SUBDIR+=	zmap
 SUBDIR+=	znc
 SUBDIR+=	zookeeper-client
 SUBDIR+=	zookeeper-server
