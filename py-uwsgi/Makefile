@@ -17,14 +17,10 @@ USE_TOOLS+=	pkg-config
 PLIST_SUBST+=	PYVERSSUFFIX=${PYVERSSUFFIX}
 EGG_NAME=	${DISTNAME:S/uwsgi/uWSGI/}
 
-SUBST_CLASSES+=		options
-SUBST_FILES.options=	buildconf/base.ini
-SUBST_MESSAGE.options=	Fixing PKG_OPTIONS.
-SUBST_STAGE.options=	pre-configure
-
 .include "options.mk"
 
 INSTALL_ENV+=		UWSGI_INCLUDES=${PREFIX}/include
+INSTALL_ENV+=		UWSGI_PROFILE_OVERRIDE="${UWSGI_DEBUG}${UWSGI_JSON}${UWSGI_PCRE}${UWSGI_SSL}${UWSGI_UUID}${UWSGI_XML}${UWSGI_YAML}"
 INSTALLATION_DIRS+=	share/examples/py-uwsgi
 
 post-install:
