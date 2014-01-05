@@ -1787,6 +1787,7 @@ SUBDIR+=	muscle-pkcs11
 SUBDIR+=	muscletool
 SUBDIR+=	musepack
 SUBDIR+=	musescore
+SUBDIR+=	mutt-kz
 SUBDIR+=	mutt-ng
 SUBDIR+=	muttprint
 SUBDIR+=	muttvcquery
