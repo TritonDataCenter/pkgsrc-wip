@@ -1,4 +1,4 @@
-# $NetBSD: options.mk,v 1.11 2010/12/23 11:44:54 dsainty Exp $
+# $NetBSD: options.mk,v 1.1 2012/10/07 14:22:52 mef Exp $
 
 # gcr = ghostscript-cidfonts-ryumin
 PKG_OPTIONS_VAR=	PKG_OPTIONS.gcr_type

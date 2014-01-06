@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	File-Map-0.56
+DISTNAME=	File-Map-0.61
 PKGNAME=	p5-${DISTNAME}
 CATEGORIES=	devel
 MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=../../authors/id/L/LE/LEONT/}

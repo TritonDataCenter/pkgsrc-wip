@@ -1,9 +1,8 @@
 # $NetBSD$
 #
 
-DISTNAME=		premake-src-3.1
-PKGNAME=		premake-3.1
-PKGREVISION=		1
+DISTNAME=		premake-src-3.7
+PKGNAME=		premake-3.7
 CATEGORIES=		devel
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=premake/}
 EXTRACT_SUFX=		.zip
@@ -11,9 +10,10 @@ EXTRACT_SUFX=		.zip
 MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://premake.sourceforge.net/
 COMMENT=		Build script generator
+LICENSE=		gnu-gpl-v2
 
 USE_TOOLS+=		gmake
-WRKSRC=			${WRKDIR}/Premake-3.1
+WRKSRC=			${WRKDIR}/Premake-3.7
 
 INSTALLATION_DIRS=	bin
 

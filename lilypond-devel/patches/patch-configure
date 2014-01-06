@@ -1,6 +1,8 @@
-$NetBSD: patch-configure,v 1.1 2012/12/25 15:30:14 wiz Exp $
+$NetBSD: patch-configure,v 1.2 2014/01/05 22:29:47 wiz Exp $
 
 Disable c/c++ version check; it fails e.g. with clang emulating gcc.
+Allow more metapost versions than upstream until pkgsrc contains
+a new enough metapost.
 
 --- configure.orig	2013-11-24 12:24:16.000000000 +0000
 +++ configure
