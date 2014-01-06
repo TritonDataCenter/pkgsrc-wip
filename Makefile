@@ -927,6 +927,7 @@ SUBDIR+=	hepmc
 SUBDIR+=	hepmcvisual
 SUBDIR+=	heroes
 SUBDIR+=	herwig
+SUBDIR+=	hexchat
 SUBDIR+=	hgsubversion
 SUBDIR+=	hgview
 SUBDIR+=	higan
