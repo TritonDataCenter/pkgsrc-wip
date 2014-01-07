@@ -48,6 +48,12 @@ CONFIGURE_ARGS+=	--disable-libnotify
 
 .if !empty(PKG_OPTIONS:Mlibpci)
 .include "../../sysutils/pciutils/buildlink3.mk"
+.if ${OPSYS} == "NetBSD"
+LIBS+=			-lpciutils
+.else
+LIBS+=			-lpci
+.endif
+
 PLIST.libpci=		yes
 .endif
 
