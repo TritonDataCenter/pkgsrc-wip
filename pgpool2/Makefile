@@ -1,9 +1,8 @@
 # $NetBSD$
 #
 
-DISTNAME=	pgpool-II-3.2.4
+DISTNAME=	pgpool-II-3.3.2
 PKGNAME=	postgresql${PGSQL_VERSION}-pgpool2-${DISTNAME:S/pgpool-II-//}
-PKGREVISION=	1
 CATEGORIES=	databases
 MASTER_SITES=	http://www.pgpool.net/mediawiki/images/
 
@@ -24,6 +23,14 @@ USE_TOOLS+=	gmake
 .include "../../mk/bsd.fast.prefs.mk"
 
 BUILD_DEFS+=		PGPOOL_USER PGPOOL_GROUP PGGROUP PGHOME VARBASE
+
+.include "../../mk/pgsql.buildlink3.mk"
+
+PLIST_VARS+=		ext
+# PostgreSQL 9.1 and above supports loadable extensions
+.if ${PGSQL_VERSION} >= 91
+PLIST.ext=		yes
+.endif
 
 BUILD_DIRS=		. sql
 
@@ -67,5 +74,4 @@ FILES_SUBST+=		PGPOOL_GROUP=${PGPOOL_GROUP}
 post-install:
 	${TOUCH} ${DESTDIR}${PREFIX}/share/examples/pgpool2/pool_passwd
 
-.include "../../mk/pgsql.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
