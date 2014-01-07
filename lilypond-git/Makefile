@@ -1,9 +1,8 @@
 # $NetBSD: Makefile,v 1.86 2012/12/15 10:01:20 marino Exp $
-MAKE_JOBS_SAFE=no
 
-DISTNAME=	lilypond-2.19.0
+DISTNAME=	lilypond-2.19.1
 CATEGORIES=	print
-MASTER_SITES=	http://download.linuxaudio.org/lilypond/sources/v2.17/
+MASTER_SITES=	http://download.linuxaudio.org/lilypond/sources/v2.19/
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://lilypond.org/
