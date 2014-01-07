@@ -3474,7 +3474,6 @@ SUBDIR+=	vba-m
 SUBDIR+=	vche
 SUBDIR+=	vdesk
 SUBDIR+=	vee
-SUBDIR+=	verilog
 SUBDIR+=	verilog-current
 SUBDIR+=	vidalia
 SUBDIR+=	vidalia-devel
