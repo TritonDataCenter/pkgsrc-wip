@@ -1,7 +1,7 @@
 # $NetBSD$
 
 DISTNAME=	starplot-0.95.5
-CATEGORIES=	misc
+CATEGORIES=	misc x11
 MASTER_SITES=	http://starplot.org/downloads/
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
