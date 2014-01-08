@@ -574,6 +574,7 @@ SUBDIR+=	emerald
 SUBDIR+=	emerald-themes
 SUBDIR+=	emesene
 SUBDIR+=	emirror
+SUBDIR+=	emokit
 SUBDIR+=	emovix
 SUBDIR+=	enet
 SUBDIR+=	engauge-digitizer
