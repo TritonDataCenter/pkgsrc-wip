@@ -3236,6 +3236,7 @@ SUBDIR+=	ssu
 SUBDIR+=	st
 SUBDIR+=	stardict
 SUBDIR+=	stardict-tools
+SUBDIR+=	starplot
 SUBDIR+=	stfl
 SUBDIR+=	stksolver
 SUBDIR+=	stmpclean
