@@ -3,7 +3,7 @@
 
 DISTNAME=	pdsh-2.29
 CATEGORIES=	parallel
-MASTER_SITES=	https://pdsh.googlecode.com/files/
+MASTER_SITES=	http://pdsh.googlecode.com/files/
 EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	filip@joyent.com
@@ -15,7 +15,7 @@ PKG_DESTDIR_SUPPORT=	user-destdir
 
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
-USE_TOOLS=	perl:run
+USE_TOOLS+=	perl:run
 
 REPLACE_PERL+=		scripts/dshbak
 
