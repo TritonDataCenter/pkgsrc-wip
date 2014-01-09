@@ -1874,7 +1874,6 @@ SUBDIR+=	noor
 SUBDIR+=	nos-tun
 SUBDIR+=	nostromo
 SUBDIR+=	notify-sharp
-SUBDIR+=	notmuch
 SUBDIR+=	nsc2ke
 SUBDIR+=	nsp
 SUBDIR+=	nspr
