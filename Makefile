@@ -1084,6 +1084,7 @@ SUBDIR+=	hs-hslua
 SUBDIR+=	hs-html
 SUBDIR+=	hs-http-attoparsec
 SUBDIR+=	hs-http-types
+SUBDIR+=	hs-husk-scheme
 SUBDIR+=	hs-hxt
 SUBDIR+=	hs-hxt-charproperties
 SUBDIR+=	hs-hxt-curl
