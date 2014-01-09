@@ -18,5 +18,5 @@ CONFIGURE_ARGS+=	--mandir=${PREFIX}/${PKGMANDIR}
 
 .include "../../mail/gmime24/buildlink3.mk"
 .include "../../textproc/xapian/buildlink3.mk"
-.include "../../wip/talloc/buildlink3.mk"
+.include "../../devel/talloc/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
