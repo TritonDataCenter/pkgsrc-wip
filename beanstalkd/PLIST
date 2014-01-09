@@ -1,2 +1,5 @@
 @comment $NetBSD$
 bin/beanstalkd
+man/man1/beanstalkd.1
+share/doc/beanstalkd/protocol.txt
+share/examples/rc.d/beanstalkd
