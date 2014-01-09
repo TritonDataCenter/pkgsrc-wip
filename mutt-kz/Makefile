@@ -63,7 +63,7 @@ SUBST_STAGE.paths=	pre-configure
 SPECIAL_PERMS+=	bin/mutt_dotlock ${REAL_ROOT_USER} mail 2551
 INSTALL_MAKE_FLAGS=	${MAKE_FLAGS} sysconfdir=${EGDIR}
 
-.include "../../wip/notmuch/buildlink3.mk"
+.include "../../mail/notmuch/buildlink3.mk"
 .include "../../devel/zlib/buildlink3.mk"
 .include "../../converters/libiconv/buildlink3.mk"
 .include "../../devel/gettext-lib/buildlink3.mk"
