@@ -8,6 +8,7 @@ MASTER_SITES=	http://www.netfort.gr.jp/~dancer/software/downloads/
 MAINTAINER=	morr@NetBSD.org
 HOMEPAGE=	http://www.netfort.gr.jp/~dancer/software/downloads/
 COMMENT=	Runs command through rsh or ssh on a cluster of machines
+LICENSE=	gnu-gpl-v2
 
 EGDIR=			${PREFIX}/share/examples/dsh
 GNU_CONFIGURE=		yes
