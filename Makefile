@@ -1660,7 +1660,6 @@ SUBDIR+=	mawk-tre
 SUBDIR+=	mawk-uxre
 SUBDIR+=	maxima
 SUBDIR+=	mc-mp
-SUBDIR+=	mcabber
 SUBDIR+=	mcats
 SUBDIR+=	mcats-iodbc
 SUBDIR+=	mce
