@@ -6,7 +6,7 @@ CATEGORIES=     mail
 MASTER_SITES=   ftp://redcrew.org/pub/mutt-kz/v1.5.22.1/
 
 MAINTAINER=		wiz@NetBSD.org
-HOMEPAGE=		http://www.mutt.org/
+HOMEPAGE=		https://kzak.redcrew.org/doku.php?id=mutt:start
 COMMENT=		Text-based MIME mail client with notmuch, PGP & S/MIME support
 LICENSE=		gnu-gpl-v2 OR gnu-gpl-v3 # or newer
 
