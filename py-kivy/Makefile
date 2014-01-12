@@ -1,5 +1,4 @@
 # $NetBSD$
-#
 
 VERSION=	1.0.9
 DISTNAME=	Kivy-1.0.9
@@ -20,7 +19,6 @@ DEPENDS+=	${PYPKGPREFIX}-enchant>=1.6.5:../../textproc/py-enchant
 
 USE_LANGUAGES= c
 
-PYTHON_VERSIONS_INCOMPATIBLE= 32 31
 PYDISTUTILSPKG=		yes
 
 .include "../../devel/py-cython/buildlink3.mk"

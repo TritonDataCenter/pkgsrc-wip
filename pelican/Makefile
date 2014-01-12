@@ -1,5 +1,4 @@
 # $NetBSD: Makefile,v 1.27 2013/03/13 20:36:26 gls Exp $
-#
 
 DISTNAME=		${VERSION}
 PKGNAME=		pelican-${DISTNAME}
@@ -16,7 +15,7 @@ WRKSRC=			${WRKDIR}/${PKGNAME_NOREV}
 EXTRACT_SUFX=	.zip
 FETCH_USING=	curl
 
-PYTHON_VERSIONS_INCOMPATIBLE=26 31 32
+PYTHON_VERSIONS_INCOMPATIBLE=26
 
 DEPENDS+=		${PYPKGPREFIX}-docutils-[0-9]*:../../textproc/py-docutils
 DEPENDS+=		${PYPKGPREFIX}-markdown-[0-9]*:../../textproc/py-markdown
