@@ -1,8 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	parsec-3.1.3
-PKGREVISION=	1
+DISTNAME=	parsec-3.1.5
 CATEGORIES=	textproc
 
 MAINTAINER=	pho@cielonegro.org
