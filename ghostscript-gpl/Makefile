@@ -84,6 +84,9 @@ BUILDLINK_TRANSFORM+=	l:fontconfig:fontconfig:iconv
 
 CONFIGURE_ENV+=	LPLIBDIR=${PREFIX}/lib
 
+# On OpenBSD 5.3, libxcb is required libXt.
+LDFLAGS.OpenBSD+=	-lxcb
+
 .include "options.mk"
 
 post-extract:
