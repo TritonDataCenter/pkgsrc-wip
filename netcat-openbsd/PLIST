@@ -1,3 +1,0 @@
-@comment $NetBSD$
-bin/nc
-man/man1/nc.1
