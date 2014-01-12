@@ -24,7 +24,6 @@ PKG_SUPPORTED_OPTIONS=          pyext
 .include "../../mk/bsd.options.mk"
 
 .if !empty (PKG_OPTIONS:Mpyext)
-PYTHON_VERSIONS_ACCEPTED= 32 31 27 26
 .include "../../lang/python/application.mk"
 .include "../../lang/python/extension.mk"
 .include "../../devel/swig/buildlink3.mk"

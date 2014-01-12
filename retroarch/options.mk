@@ -98,7 +98,7 @@ CONFIGURE_ARGS+=		--disable-pulse
 .if !empty(PKG_OPTIONS:Mpython)
 .include "../../lang/python/pyversion.mk"
 CONFIGURE_ARGS+=		--enable-python
-PYTHON_VERSIONS_ACCEPTED=	32 31
+PYTHON_VERSIONS_ACCEPTED=	33
 .else
 CONFIGURE_ARGS+=		--disable-python
 .endif
