@@ -1,7 +1,7 @@
 # $NetBSD$
 
 DISTNAME=	pyssp-0.1.6.5
-PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
+PKGNAME=	${PYPKGPREFIX}-${DISTNAME:S/py//}
 CATEGORIES=	math
 MASTER_SITES=	https://pypi.python.org/packages/source/p/pyssp/
 FETCH_USING=	curl
