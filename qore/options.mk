@@ -10,8 +10,3 @@ CONFIGURE_ARGS+=        --enable-debug
 .else
 CONFIGURE_ARGS+=        --disable-debug
 .endif
-
-.if !empty(PKG_OPTIONS:Mdoc)
-.else
-CONFIGURE_ARGS+=        --with-doxygen=no
-.endif
