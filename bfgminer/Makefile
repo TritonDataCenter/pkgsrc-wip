@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	bfgminer-3.8.0
+DISTNAME=	bfgminer-3.9.0
 CATEGORIES=	finance
 MASTER_SITES=	http://luke.dashjr.org/programs/bitcoin/files/bfgminer/${PKGVERSION_NOREV}/
 EXTRACT_SUFX=	.zip
