@@ -10,6 +10,7 @@ MAINTAINER=	pkgsrc-users@NetBSD.org
 COMMENT=	CIDFont resources for Ghostscript
 
 DEPENDS+=	adobe-cidfonts>=20000901:../../fonts/adobe-cidfonts
+DEPENDS+=      ghostscript-[0-9]*:../../print/ghostscript
 
 GHOSTSCRIPT_REQD=	9.05
 
