@@ -2993,6 +2993,7 @@ SUBDIR+=	qinx
 SUBDIR+=	qmc2
 SUBDIR+=	qmpdclient
 SUBDIR+=	qn-x11
+SUBDIR+=	qore
 SUBDIR+=	qrint
 SUBDIR+=	qrq
 SUBDIR+=	qt4-gstreamer
