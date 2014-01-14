@@ -17,6 +17,7 @@ PTHREAD_OPTS+=	require
 
 PKGCONFIG_OVERRIDE+=	qore.pc.in
 CONFIGURE_ARGS+= 	--with-doxygen=no
+INSTALL_TARGET=	install install-html-local
 
 #NetBSD 6 and lower has an stdio.h that breaks this package
 NOT_FOR_PLATFORM=       NetBSD-[0-6]*-*
