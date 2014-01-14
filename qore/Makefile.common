@@ -1,0 +1,8 @@
+# $NetBSD$
+# used by wip/qore/Makefile
+# used by wip/qore-yaml-module/Makefile
+
+MASTER_SITES=   ${MASTER_SITE_SOURCEFORGE:=qore/}
+EXTRACT_SUFX=   .tar.bz2
+
+HOMEPAGE=       http://www.qore.org/
