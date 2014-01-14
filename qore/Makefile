@@ -6,7 +6,7 @@ CATEGORIES=	lang
 .include	"../../wip/qore/Makefile.common"
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
-COMMENT=	TODO: Short description of the package
+COMMENT=	Qore programming language
 LICENSE=	gnu-gpl-v2 OR gnu-lgpl-v2.1 OR mit
 
 GNU_CONFIGURE=	yes
@@ -19,7 +19,7 @@ PKGCONFIG_OVERRIDE+=	qore.pc.in
 CONFIGURE_ARGS+= 	--with-doxygen=no
 
 #NetBSD 6 and lower has an stdio.h that breaks this package
-#NOT_FOR_PLATFORM=       NetBSD-[0-6]*-*
+NOT_FOR_PLATFORM=       NetBSD-[0-6]*-*
 
 .include "options.mk"
 
