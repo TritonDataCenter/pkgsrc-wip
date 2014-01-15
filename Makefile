@@ -1152,6 +1152,7 @@ SUBDIR+=	hs-rosezipper
 SUBDIR+=	hs-rosezipper1
 SUBDIR+=	hs-safe
 SUBDIR+=	hs-safer-file-handles
+SUBDIR+=	hs-scientific
 SUBDIR+=	hs-semigroupoid-extras
 SUBDIR+=	hs-semigroupoids
 SUBDIR+=	hs-semigroups
