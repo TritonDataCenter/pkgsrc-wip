@@ -10,6 +10,8 @@ HOMEPAGE=	http://personalpages.tds.net/~jwbacon/Ports/distfiles/
 COMMENT=	TODO: Short description of the package
 #LICENSE=	# TODO: (see mk/license.mk)
 
+EXTRACT_SUFX=	.tar.xz
+
 PKG_DESTDIR_SUPPORT=	user-destdir
 
 INSTALL_MAKE_FLAGS+=	PREFIX=${DESTDIR}${PREFIX}
