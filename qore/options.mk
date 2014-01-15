@@ -1,7 +1,7 @@
 # $NetBSD$
 
 PKG_OPTIONS_VAR=	PKG_OPTIONS.qore
-PKG_SUPPORTED_OPTIONS=	debug doc
+PKG_SUPPORTED_OPTIONS=	debug
 
 .include "../../mk/bsd.options.mk"
 
