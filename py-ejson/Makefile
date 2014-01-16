@@ -1,5 +1,4 @@
 # $NetBSD$
-#
 
 DISTNAME=	0.1.5
 PKG=		ejson
@@ -14,10 +13,12 @@ HOMEPAGE=	https://github.com/Yipit/ejson/
 COMMENT=	Extensible JSON serializers and deserializers
 LICENSE=	gnu-lgpl-v3
 
+PYTHON_VERSIONED_DEPENDENCIES=	dateutil
+
 WRKSRC=		${WRKDIR}/${PKG}-${PKGVERSION}
 USE_LANGUAGES=	# none
 EGG_NAME=	${PKG}-${DISTNAME}
 
-DEPENDS+=	${PYPKGPREFIX}-dateutil-[0-9]*:../../time/py-dateutil
 .include "../../lang/python/egg.mk"
+.include "../../lang/python/versioned_dependencies.mk"
 .include "../../mk/bsd.pkg.mk"
