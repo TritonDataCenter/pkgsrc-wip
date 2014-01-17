@@ -3441,6 +3441,7 @@ SUBDIR+=	uebimiau
 SUBDIR+=	ufc
 SUBDIR+=	uffizi
 SUBDIR+=	uget
+SUBDIR+=	uhd-git
 SUBDIR+=	uim-chewing
 SUBDIR+=	ukncbtl
 SUBDIR+=	umix
