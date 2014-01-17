@@ -4,7 +4,6 @@ DISTNAME=		tqsl-2.0.1
 PKGNAME=		tqsl-2.0.1RC3
 CATEGORIES=		ham
 MASTER_SITES=		http://sourceforge.net/projects/trustedqsl/files/TrustedQSL/v2.0.1/
-EXTRACT_SUFX=		.tar.gz
 DIST_SUBDIR=		tqsl-2.0.1RC3
 
 MAINTAINER=		makoto@ki.nu
