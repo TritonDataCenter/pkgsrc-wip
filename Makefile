@@ -2464,7 +2464,6 @@ SUBDIR+=	py-bottleneck
 SUBDIR+=	py-bravo
 SUBDIR+=	py-brian
 SUBDIR+=	py-bsddb
-SUBDIR+=	py-buildbot
 SUBDIR+=	py-buildslave
 SUBDIR+=	py-bytecodeassembler
 SUBDIR+=	py-calverter
