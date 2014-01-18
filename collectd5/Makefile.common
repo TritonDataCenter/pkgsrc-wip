@@ -61,9 +61,11 @@ CONFIGURE_ARGS+=	--with-java=no --with-mic=no --with-oracle=no	\
 .for lib in ${DISABLED_LIBS}
 CONFIGURE_ARGS+=	--with-lib${lib}=no
 .endfor
-CONFIGURE_ARGS+=	--localstatedir=${VARBASE} --with-included-ltdl
+CONFIGURE_ARGS+=	--localstatedir=${VARBASE}
+CONFIGURE_ARGS+=	--with-ltdl-lib=${BUILDLINK_PREFIX.libltdl}/lib
+CONFIGURE_ARGS+=	--with-ltdl-include=${BUILDLINK_PREFIX.libltdl}/include
 
 CPPFLAGS.SunOS+=	-D__EXTENSIONS__ -DSOLARIS2=11
 
-.include "../../devel/libltdl/convenience.mk"
+.include "../../devel/libltdl/buildlink3.mk"
 .include "../../mk/pthread.buildlink3.mk"
