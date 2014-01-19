@@ -2955,7 +2955,6 @@ SUBDIR+=	py-wxWidgets-unicode
 SUBDIR+=	py-xdgapp
 SUBDIR+=	py-xdress
 SUBDIR+=	py-xlutils
-SUBDIR+=	py-xlwt
 #SUBDIR+=	py-xmiparser	# www/zope3 is gone
 SUBDIR+=	py-xmpppy
 SUBDIR+=	py-xsdb
