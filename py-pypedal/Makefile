@@ -12,7 +12,7 @@ COMMENT=	Tools for pedigree analysis
 LICENSE=	gnu-lgpl-v2
 
 DEPENDS+=	${PYPKGPREFIX}-networkx>=1.0.1:../../math/py-networkx
-DEPENDS+=	${PYPKGPREFIX}-pydot>=1.0.2:../../graphics/py-pydot
+DEPENDS+=	${PYPKGPREFIX}-dot>=1.0.2:../../graphics/py-dot
 
 USE_LANGUAGES=	# none
 
