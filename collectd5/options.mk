@@ -43,7 +43,7 @@ PLIST.${option}=	yes
 USE_TOOLS+=		perl
 PERL5_CONFIGURE=	no
 PERL5_PACKLIST+=	auto/Collectd/.packlist
-CONFIGURE_ARGS+=	--with-libperl=${BUILDLINK_PREFIX.perl5}
+CONFIGURE_ARGS+=	--with-libperl=${BUILDLINK_PREFIX.perl}
 CONFIGURE_ARGS+=	--with-perl-bindings=${MAKE_PARAMS:Q}
 .  include "../../lang/perl5/module.mk"
 .endif
