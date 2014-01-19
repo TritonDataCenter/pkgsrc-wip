@@ -1635,6 +1635,7 @@ SUBDIR+=	mago
 SUBDIR+=	mailfilter
 SUBDIR+=	majordomo-devel
 SUBDIR+=	makedict
+SUBDIR+=	makepp
 SUBDIR+=	malaga
 SUBDIR+=	maloc
 SUBDIR+=	man
