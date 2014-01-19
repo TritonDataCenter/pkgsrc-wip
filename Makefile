@@ -2749,7 +2749,6 @@ SUBDIR+=	py-pyamg
 SUBDIR+=	py-pycifrw
 SUBDIR+=	py-pydec
 SUBDIR+=	py-pydelay
-SUBDIR+=	py-pydot
 SUBDIR+=	py-pyec
 SUBDIR+=	py-pyecm
 SUBDIR+=	py-pyentropy
