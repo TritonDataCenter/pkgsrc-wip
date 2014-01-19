@@ -17,7 +17,7 @@ LICENSE=		gnu-gpl-v2
 #
 # DEPENDS+=	jabberd-[0-9]*:../../chat/jabberd2
 DEPENDS+=	${PYPKGPREFIX}-expat>=0nb4:../../textproc/py-expat
-DEPENDS+=	${PYPKGPREFIX}-xmpppy>=0.4.1:../../wip/py-xmpppy
+DEPENDS+=	${PYPKGPREFIX}-xmpppy>=0.4.1:../../chat/py-xmpppy
 
 PYTHON_VERSIONED_DEPENDENCIES=	dns
 
