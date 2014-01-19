@@ -1,5 +1,4 @@
 # $NetBSD$
-#
 
 DISTNAME=	vo-0.5
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
@@ -11,7 +10,7 @@ MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	https://www.stsci.edu/trac/ssb/astrolib
 COMMENT=	Python based tools to parse/write VOTABLE file
 
-DEPENDS+=	${PYPKGPREFIX}-pyfits>=2.3.1:../../graphics/py-pyfits
+DEPENDS+=	${PYPKGPREFIX}-fits>=2.3.1:../../graphics/py-fits
 
 PYDISTUTILSPKG=	yes
 

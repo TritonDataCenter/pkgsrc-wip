@@ -12,7 +12,7 @@ COMMENT=	Astrophysics libraries for Python
 LICENSE=	apache-2.0
 
 DEPENDS+=	${PYPKGPREFIX}-scipy>=0.7.0:../../math/py-scipy
-DEPENDS+=	${PYPKGPREFIX}-pyfits>=2.3.1:../../graphics/py-pyfits
+DEPENDS+=	${PYPKGPREFIX}-fits>=2.3.1:../../graphics/py-fits
 
 PYTHON_VERSIONED_DEPENDENCIES=	dateutil
 

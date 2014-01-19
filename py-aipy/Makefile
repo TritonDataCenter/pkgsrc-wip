@@ -1,5 +1,4 @@
 # $NetBSD$
-#
 
 DISTNAME=	aipy-0.9.1
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
@@ -13,7 +12,7 @@ COMMENT=	Astronomical Interferometry in Python
 LICENSE=	gnu-gpl-v2
 
 DEPENDS+=	${PYPKGPREFIX}-ephem>=3.7.3.4:../../math/py-ephem
-DEPENDS+=	${PYPKGPREFIX}-pyfits>=2.3.1:../../graphics/py-pyfits
+DEPENDS+=	${PYPKGPREFIX}-fits>=2.3.1:../../graphics/py-fits
 
 WRKSRC=		${WRKDIR}/aipy-0.9.1
 

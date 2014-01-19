@@ -1,5 +1,4 @@
 # $NetBSD$
-#
 
 DISTNAME=	asciidata-1.1.1
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
@@ -12,7 +11,7 @@ HOMEPAGE=	http://www.stecf.org/software/PYTHONtools/astroasciidata/
 COMMENT=	Asciidata , to handle (read/modify/write) ASCII tables
 LICENSE=	gnu-lgpl-v3
 
-DEPENDS+=	${PYPKGPREFIX}-pyfits>=2.3.1:../../graphics/py-pyfits
+DEPENDS+=	${PYPKGPREFIX}-fits>=2.3.1:../../graphics/py-fits
 
 USE_LANGUAGES=	# none
 PYDISTUTILSPKG=	yes
