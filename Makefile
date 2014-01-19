@@ -2956,7 +2956,6 @@ SUBDIR+=	py-xdgapp
 SUBDIR+=	py-xdress
 SUBDIR+=	py-xlutils
 #SUBDIR+=	py-xmiparser	# www/zope3 is gone
-SUBDIR+=	py-xmpppy
 SUBDIR+=	py-xsdb
 SUBDIR+=	py-yapgvb
 SUBDIR+=	py-yapps2
