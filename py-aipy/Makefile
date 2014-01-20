@@ -11,18 +11,17 @@ HOMEPAGE=	http://casper.berkeley.edu/astrobaki/index.php/AIPY
 COMMENT=	Astronomical Interferometry in Python
 LICENSE=	gnu-gpl-v2
 
-DEPENDS+=	${PYPKGPREFIX}-ephem>=3.7.3.4:../../math/py-ephem
 DEPENDS+=	${PYPKGPREFIX}-fits>=2.3.1:../../graphics/py-fits
-
-WRKSRC=		${WRKDIR}/aipy-0.9.1
 
 USE_LANGUAGES=	c c++
 
 PYDISTUTILSPKG=	yes
+PYTHON_VERSIONED_DEPENDENCIES=	ephem
 
 BUILDLINK_API_DEPENDS.pynumpy+=	${PYPKGPREFIX}-numpy>=1.0
 
 .include "../../graphics/py-matplotlib/buildlink3.mk"
+.include "../../lang/python/versioned_dependencies.mk"
 .include "../../math/py-numpy/buildlink3.mk"
 .include "../../lang/python/extension.mk"
 .include "../../mk/bsd.pkg.mk"
