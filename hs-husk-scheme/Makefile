@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	husk-scheme-3.15
+DISTNAME=	husk-scheme-3.15.1
 CATEGORIES=	lang
 
 MAINTAINER=	szptvlfn@a-net.email.ne.jp
