@@ -1,4 +1,8 @@
 # $NetBSD$
+# used by wip/qore/Makefile
+# used by wip/qore-yaml-module/Makefile
+# used by wip/qore-xml-module/Makefile
+# used by wip/qore-json-module/Makefile
 
 PKG_OPTIONS_VAR=	PKG_OPTIONS.qore
 PKG_SUPPORTED_OPTIONS=	debug doc
