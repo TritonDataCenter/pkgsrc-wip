@@ -2611,7 +2611,6 @@ SUBDIR+=	py-inflection
 SUBDIR+=	py-instant
 SUBDIR+=	py-iowait
 SUBDIR+=	py-ipaddr
-#SUBDIR+=	py-ipython	# www/zope3 is gone
 SUBDIR+=	py-irco
 SUBDIR+=	py-isodate
 SUBDIR+=	py-jabber-aimt
