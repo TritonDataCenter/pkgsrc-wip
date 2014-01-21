@@ -9,6 +9,10 @@ RCD_SCRIPTS=	collectd
 
 .include "../../mk/bsd.prefs.mk"
 
+SMF_SRCDIR=		${WRKSRC}/contrib/solaris-smf
+SMF_MANIFEST=		collectd.xml
+SMF_MANIFEST_SRC=	${SMF_SRCDIR}/${SMF_MANIFEST}
+
 # Simple plugins that have no dependencies
 DEFAULT_PLUGINS+=	aggregation apcups csv email exec filecount	\
 			hddtemp logfile match_empty_counter match_hashed\

@@ -5,6 +5,7 @@ RMD160 (collectd-5.4.0.tar.gz) = be426e95b872fcf76fdaa01d330dfdd313cab470
 Size (collectd-5.4.0.tar.gz) = 1893721 bytes
 SHA1 (patch-Makefile.in) = 17e77b6d31b45947366ca37bb3fc79cf8acf2104
 SHA1 (patch-configure) = 8ae2897c21e80bead8280d1350173313714774c4
+SHA1 (patch-contrib_solaris-smf_collectd.xml) = 938580577302a738365046eb7b6b0b9d28db99d5
 SHA1 (patch-src_Makefile.in) = 45b29dcf57676637a010fffed9170794cf4db63e
 SHA1 (patch-src_collectd.c) = df5f970d77dcb091469c1a5aaa7ed340a610c9b2
 SHA1 (patch-src_collectd.conf.in) = e6704c89c2382cf80cd1af1223bb09e7cace5f7f
