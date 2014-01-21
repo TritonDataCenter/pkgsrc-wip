@@ -3,7 +3,9 @@
 DISTNAME=	qore-sqlite3-module-1.0.1
 CATEGORIES=	databases
 MASTER_SITES=   ${MASTER_SITE_SOURCEFORGE:=qore/}
+
 MAINTAINER=	pkgsrc-users@NetBSD.org
+HOMEPAGE=	http://www.qore.org/
 COMMENT=	SQLite module for Qore
 LICENSE=	gnu-lgpl-v2.1
 
