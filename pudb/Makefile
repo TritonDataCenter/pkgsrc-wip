@@ -1,5 +1,4 @@
 # $NetBSD$
-#
 
 DISTNAME=	pudb-0.92.15
 PKGNAME=	${EGG_NAME}
@@ -15,9 +14,8 @@ COMMENT=	Curses-based interface to Python debugger
 DEPENDS+=	${PYPKGPREFIX}-urwid-[0-9]*:../../devel/py-urwid
 DEPENDS+=	${PYPKGPREFIX}-numpy>=1.1.0:../../math/py-numpy
 DEPENDS+=	${PYPKGPREFIX}-pygments>=1.0:../../textproc/py-pygments
-#DEPENDS+=	${PYPKGPREFIX}-ipython>=0.9.1:../../wip/py-ipython
+#DEPENDS+=	${PYPKGPREFIX}-ipython>=0.9.1:../../devel/py-ipython
 
-WRKSRC=		${WRKDIR}/pudb-0.92.15
 USE_LANGUAGES=	# none
 
 PY_PATCHPLIST=	yes
