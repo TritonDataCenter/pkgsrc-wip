@@ -16,6 +16,8 @@ LICENSE=		modified-bsd
 USE_TOOLS+=		gmake
 WRKSRC=			${WRKDIR}/premake-${PREMAKE4_VERSION}
 
+BUILDLINK_TRANSFORM+=	opt:-ldl:${BUILDLINK_LDADD.dl:M*}
+
 do-build:
 	cd ${WRKSRC}/build/gmake.unix/ && ${MAKE_PROGRAM}
 

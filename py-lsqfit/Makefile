@@ -1,16 +1,15 @@
 # $NetBSD$
 
-DISTNAME=	lsqfit-4.5.1
+DISTNAME=	lsqfit-4.5.3
 PKGNAME=        ${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	math python
 MASTER_SITES=	https://pypi.python.org/packages/source/l/lsqfit/
+FETCH_USING=	curl
 
 MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	https://pypi.python.org/packages/source/l/lsqfit/
 COMMENT=	Utilities for nonlinear least-squares fits
 LICENSE=	gnu-gpl-v3
-
-FETCH_USING=    curl
 
 USE_LANGUAGES=	c c++
 

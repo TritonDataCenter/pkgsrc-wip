@@ -1,0 +1,4 @@
+@comment $NetBSD$
+bin/emokitd
+include/emokit/emokit.h
+lib/libemokit.a

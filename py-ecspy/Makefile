@@ -1,5 +1,4 @@
 # $NetBSD$
-#
 
 DISTNAME=	ecspy-1.1
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
@@ -14,8 +13,6 @@ LICENSE=	gnu-gpl-v3
 DEPENDS+=	${PYPKGPREFIX}-pp>=1.6.0:../../wip/py-pp
 
 USE_LANGUAGES=	# none
-
-PYTHON_VERSIONS_INCOMPATIBLE= 32 31
 
 .include "../../graphics/py-matplotlib/buildlink3.mk"
 .include "../../math/py-numpy/buildlink3.mk"

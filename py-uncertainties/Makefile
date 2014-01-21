@@ -12,7 +12,6 @@ LICENSE=	modified-bsd
 
 USE_LANGUAGES=	# none
 
-PYTHON_VERSIONS_ACCEPTED= 33 32 27 26
 PYDISTUTILSPKG=	yes
 
 .include "../../lang/python/extension.mk"

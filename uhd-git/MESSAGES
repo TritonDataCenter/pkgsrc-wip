@@ -1,0 +1,10 @@
+===========================================================================
+$NetBSD$
+Following directories are installed under ${PREFIX}/share/uhd
+ firmware/
+  The source code for all microprocessors in USRP hardware.
+ fpga/
+  The source code for the UHD FPGA images.
+ images/
+  This contains the package builder for FPGA and firmware images.
+===========================================================================

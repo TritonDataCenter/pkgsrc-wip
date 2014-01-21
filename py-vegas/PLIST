@@ -1,0 +1,11 @@
+@comment $NetBSD$
+${PYSITELIB}/vegas.pxd
+${PYSITELIB}/vegas/__init__.py
+${PYSITELIB}/vegas/__init__.pyc
+${PYSITELIB}/vegas/__init__.pyo
+${PYSITELIB}/vegas/_vegas.pxd
+${PYSITELIB}/vegas/_vegas.so
+${PYSITELIB}/vegas/_version.py
+${PYSITELIB}/vegas/_version.pyc
+${PYSITELIB}/vegas/_version.pyo
+share/doc/vegas/vegas.pdf

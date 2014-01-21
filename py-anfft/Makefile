@@ -1,7 +1,6 @@
 # $NetBSD$
-#
 
-DISTNAME=	anfft-0.1
+DISTNAME=	anfft-0.2
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	math python
 MASTER_SITES=	http://anfft.googlecode.com/files/

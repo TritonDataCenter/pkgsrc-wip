@@ -36,6 +36,7 @@ Suggested package updates
 	o gforge-4.5.11
 	o giggle-0.6.1
 	o girara-0.1.5
+	o gitg-0.3.2
 	o gjs-1.30.1
 	o globulation2-0.9.4
 	o glsl-1.30
@@ -66,8 +67,9 @@ Suggested package updates
 	o libburn-1.3.0
 	o libgtk-java-2.10.2
 	o libpthread-stubs-0.3
+	o libzdb-3.0
 	o lives-2.2.0
-	o llvm-3.3
+	o llvm-3.4
 	o lucene-4.5.0
 	o man-1.6f
 	o mcwm-20130209.2
@@ -106,7 +108,7 @@ Suggested package updates
 	o samhain-3.0.13
 	o scantailor-0.9.11.1
 	o sflphoned-0.7.2
-	o siege-3.0.5
+	o siege-3.0.6
 	o sleuthkit-3.2.3
 	o smc-1.9
 	o sxemacs-22.1.10
@@ -183,4 +185,3 @@ Suggested fixes
 ===============
 
 	o xombrero-1.4.0
-	o xscreensaver, PR 43047

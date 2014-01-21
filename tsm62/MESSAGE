@@ -28,8 +28,8 @@ NetBSD configuration hints:
 - For backing up the native filesystem hierarchy, use a construct
   like "ln -s / /.`hostname`" to break out of the emul shadow hierarchy.
 
-- If you want to use dsmj (option javagui), the directory containing
-  the java binary needs to be in PATH.
+- If you want to use the GUI client dsmj (option java), the directory
+  containing the java binary needs to be in PATH.
 
 TSM documentation (html and pdf) is installed under
 	${EMULDIR}/opt/tivoli/tsm/client/books.

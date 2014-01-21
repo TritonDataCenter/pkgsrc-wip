@@ -1,12 +1,12 @@
 # $NetBSD$
 
-DISTNAME=	vpnc-script-20120514
+DISTNAME=	vpnc-script-20130311
 CATEGORIES=	net security
 MASTER_SITES=	# empty
 DISTFILES=	# empty
 
-MAINTAINER=	pouya@san-serriffe.org
-HOMEPAGE=	http://www.infradead.org/openconnect.html
+MAINTAINER=	pkgsrc-users@NetBSD.org
+HOMEPAGE=	http://www.infradead.org/openconnect/vpnc-script.html
 COMMENT=	Improved config script for OpenConnect and vpnc
 
 NO_BUILD=	YES

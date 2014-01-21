@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	http-attoparsec-0.1.0
+DISTNAME=	http-attoparsec-0.1.1
 CATEGORIES=	www
 
 MAINTAINER=	szptvlfn@a-net.email.ne.jp

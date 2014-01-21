@@ -1,10 +1,10 @@
 # $NetBSD$
 
-DISTNAME=	Pint-0.3.1
+DISTNAME=	Pint-0.4
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME:tl}
 CATEGORIES=	math
 MASTER_SITES=	https://pypi.python.org/packages/source/P/Pint/
-EXTRACT_SUFX=	.zip#md5=511e5f5a057d4859998270eed46ea927
+EXTRACT_SUFX=	.zip
 FETCH_USING=	curl
 
 MAINTAINER=	jihbed.research@gmail.com

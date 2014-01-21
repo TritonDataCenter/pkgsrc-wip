@@ -1,7 +1,7 @@
-# $NetBSD: Makefile,v 1.15 2009/04/09 00:48:08 joerg Exp $
+# $NetBSD: Makefile,v 1.20 2014/01/09 00:46:25 mef Exp $
 
 DISTNAME=	ghostscript-cidfonts-20000901
-PKGREVISION=	3
+PKGREVISION=	5
 CATEGORIES=	fonts
 MASTER_SITES=	# empty
 DISTFILES=	# empty
@@ -10,13 +10,12 @@ MAINTAINER=	pkgsrc-users@NetBSD.org
 COMMENT=	CIDFont resources for Ghostscript
 
 DEPENDS+=	adobe-cidfonts>=20000901:../../fonts/adobe-cidfonts
-DEPENDS+=	ghostscript-gpl-[0-9]*:../../wip/ghostscript-gpl
+DEPENDS+=      ghostscript-[0-9]*:../../print/ghostscript
 
-GHOSTSCRIPT_REQD=	6.53
-.include	"../../wip/ghostscript-gpl/Makefile.common"
+GHOSTSCRIPT_REQD=	9.05
 
 ADOBE_RESOURCEDIR=	${PREFIX}/share/Adobe/Resource
-GS_RESOURCEDIR=		${PREFIX}/share/ghostscript/${GS_VERSION}/Resource
+GS_RESOURCEDIR=		${PREFIX}/share/ghostscript/fonts
 
 NO_CONFIGURE=		yes
 NO_BUILD=		yes

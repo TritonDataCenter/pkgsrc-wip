@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	blaze-html-0.6.1.2
+DISTNAME=	blaze-html-0.6.1.3
 CATEGORIES=	textproc
 
 MAINTAINER=	pho@cielonegro.org

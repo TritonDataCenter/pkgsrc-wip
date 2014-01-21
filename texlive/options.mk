@@ -9,11 +9,11 @@ PKG_SUGGESTED_OPTIONS=		texmf-minimal
 .include "../../mk/bsd.options.mk"
 
 .if !empty(PKG_OPTIONS:Mtexmf-full)
-DEPENDS+=	texlive-texmf-full>=[0-9]*:../../wip/texlive-texmf-full
+DEPENDS+=	texlive-texmf-full-[0-9]*:../../wip/texlive-texmf-full
 .endif
 
 .if !empty(PKG_OPTIONS:Mtexmf-minimal)
-DEPENDS+=	texlive-texmf-minimal>=[0-9]*:../../wip/texlive-texmf-minimal
+DEPENDS+=	texlive-texmf-minimal-[0-9]*:../../wip/texlive-texmf-minimal
 .endif
 
 #
@@ -21,5 +21,5 @@ DEPENDS+=	texlive-texmf-minimal>=[0-9]*:../../wip/texlive-texmf-minimal
 # I guess this means there's no matching doc package for the minimal texmf set
 #
 .if !empty(PKG_OPTIONS:Mtexmf-doc)
-DEPENDS+=	texlive-texmf-doc>=[0-9]*:../../wip/texlive-texmf-doc
+DEPENDS+=	texlive-texmf-doc-[0-9]*:../../wip/texlive-texmf-doc
 .endif

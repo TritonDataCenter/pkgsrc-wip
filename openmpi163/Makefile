@@ -1,7 +1,6 @@
 # $NetBSD: Makefile,v 1.20 2012/10/31 06:19:35 asau Exp $
 
 DISTNAME=	openmpi-1.6.3
-#PKGNAME=	openmpi-1.7.1
 CATEGORIES=	parallel
 MASTER_SITES=	http://www.open-mpi.org/software/ompi/v1.6/downloads/ \
 		http://www.open-mpi.org/nightly/v1.6/
@@ -42,7 +41,7 @@ GNU_CONFIGURE_PREFIX=	$(MPI_PREFIX)
 CONFIGURE_ARGS+=	--disable-mpi-fortran
 .endif
 CONFIGURE_ARGS+=	--without-sge
-CONFIGURE_ARGS+=	--without-slurm
+# CONFIGURE_ARGS+=	--without-slurm
 CONFIGURE_ARGS+=	--enable-contrib-no-build=vt # in separate package
 CONFIGURE_ARGS+=	--with-libltdl=external # use our libltdl
 CONFIGURE_ARGS+=	--with-hwloc=$(BUILDLINK_PREFIX.hwloc:Q) #external
@@ -99,6 +98,7 @@ post-install:
 LIBLTDL_CONVENIENCE_SUBDIR=	opal/libltdl
 .include "../../devel/libltdl/convenience.mk" # for "test" target to work
 .include "../../devel/libltdl/buildlink3.mk"
+# .include "../../devel/libexecinfo/buildlink3.mk"
 .include "../../parallel/hwloc/buildlink3.mk"
 .include "../../textproc/libxml2/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

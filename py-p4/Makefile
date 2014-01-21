@@ -1,5 +1,4 @@
 # $NetBSD$
-#
 
 PKGNAME=	${PYPKGPREFIX}-p4-${P4_VER}
 DISTNAME=	p4python
@@ -11,7 +10,6 @@ COMMENT=	Perforce SCM Python API
 .include "../../wip/p4/Makefile.common"
 
 USE_LANGUAGES=	c c++
-PYTHON_VERSIONS_ACCEPTED=	31 30 27 26
 PLIST_SUBST+=	PYVERSSUFFIX=${PYVERSSUFFIX:Q}
 
 PYSETUPARGS+=	--apidir ${BUILDLINK_DIR}/share/examples/p4

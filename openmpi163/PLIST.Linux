@@ -28,9 +28,9 @@ bin/orterun
 bin/orte-top
 bin/orte_wrapper_script
 etc/cshrc
-etc/shrc
 etc/module
 etc/openmpi-default-hostfile
+etc/shrc
 include/mpi-ext.h
 include/mpif-common.h
 include/mpif-config.h
@@ -82,6 +82,8 @@ lib/openmpi/libompi_dbg_msgq.la
 lib/openmpi/mca_allocator_basic.la
 lib/openmpi/mca_allocator_bucket.la
 lib/openmpi/mca_bml_r2.la
+lib/openmpi/mca_btl_ofud.la
+lib/openmpi/mca_btl_openib.la
 lib/openmpi/mca_btl_self.la
 lib/openmpi/mca_btl_sm.la
 lib/openmpi/mca_btl_tcp.la
@@ -101,6 +103,8 @@ lib/openmpi/mca_ess_env.la
 lib/openmpi/mca_ess_hnp.la
 lib/openmpi/mca_ess_singleton.la
 lib/openmpi/mca_ess_slave.la
+lib/openmpi/mca_ess_slurmd.la
+lib/openmpi/mca_ess_slurm.la
 lib/openmpi/mca_ess_tool.la
 lib/openmpi/mca_filem_rsh.la
 lib/openmpi/mca_grpcomm_bad.la
@@ -122,15 +126,17 @@ lib/openmpi/mca_osc_pt2pt.la
 lib/openmpi/mca_osc_rdma.la
 lib/openmpi/mca_paffinity_hwloc.la
 lib/openmpi/mca_plm_rsh.la
+lib/openmpi/mca_plm_slurm.la
 lib/openmpi/mca_pml_bfo.la
 lib/openmpi/mca_pml_cm.la
 lib/openmpi/mca_pml_csum.la
 lib/openmpi/mca_pml_ob1.la
 lib/openmpi/mca_pml_v.la
-lib/openmpi/mca_pstat_${LOWER_OPSYS}.la
+lib/openmpi/mca_pstat_linux.la
 lib/openmpi/mca_pubsub_orte.la
 lib/openmpi/mca_ras_cm.la
 lib/openmpi/mca_ras_loadleveler.la
+lib/openmpi/mca_ras_slurm.la
 lib/openmpi/mca_rcache_vma.la
 lib/openmpi/mca_rmaps_load_balance.la
 lib/openmpi/mca_rmaps_rank_file.la
@@ -148,7 +154,7 @@ lib/openmpi/mca_routed_slave.la
 lib/openmpi/mca_shmem_mmap.la
 lib/openmpi/mca_shmem_posix.la
 lib/openmpi/mca_shmem_sysv.la
-lib/openmpi/mca_sysinfo_${LOWER_OPSYS}.la
+lib/openmpi/mca_sysinfo_linux.la
 lib/openmpi/mca_topo_unity.la
 lib/openmpi/mca_vprotocol_pessimist.la
 lib/pkgconfig/ompi-c.pc
@@ -493,6 +499,7 @@ man/man7/opal_crs.7
 man/man7/orte_filem.7
 man/man7/orte_hosts.7
 man/man7/orte_snapc.7
+share/openmpi/amca-param-sets/btl-openib-benchmark
 share/openmpi/amca-param-sets/example.conf
 share/openmpi/doc/COPYRIGHT-ptmalloc2.txt
 share/openmpi/examples/openmpi-default-hostfile
@@ -509,6 +516,9 @@ share/openmpi/help-mca-op-base.txt
 share/openmpi/help-mca-param.txt
 share/openmpi/help-mpi-api.txt
 share/openmpi/help-mpi-btl-base.txt
+share/openmpi/help-mpi-btl-openib-cpc-base.txt
+share/openmpi/help-mpi-btl-openib-cpc-rdmacm.txt
+share/openmpi/help-mpi-btl-openib.txt
 share/openmpi/help-mpi-btl-sm.txt
 share/openmpi/help-mpi-btl-tcp.txt
 share/openmpi/help-mpi-coll-sm.txt
@@ -533,7 +543,7 @@ share/openmpi/help-opal-carto-file.txt
 share/openmpi/help-opal-crs-base.txt
 share/openmpi/help-opal-crs-none.txt
 share/openmpi/help-opal-maffinity-hwloc.txt
-share/openmpi/help-opal-memory-${LOWER_OPSYS}.txt
+share/openmpi/help-opal-memory-linux.txt
 share/openmpi/help-opal-runtime.txt
 share/openmpi/help-opal-shmem-mmap.txt
 share/openmpi/help-opal-shmem-posix.txt
@@ -560,9 +570,12 @@ share/openmpi/help-orte-snapc-base.txt
 share/openmpi/help-orte-top.txt
 share/openmpi/help-plm-base.txt
 share/openmpi/help-plm-rsh.txt
+share/openmpi/help-plm-slurm.txt
 share/openmpi/help-ras-base.txt
+share/openmpi/help-ras-slurm.txt
 share/openmpi/help-regex.txt
 share/openmpi/help-rmaps_rank_file.txt
+share/openmpi/mca-btl-openib-device-params.ini
 share/openmpi/mpicc-wrapper-data.txt
 share/openmpi/mpiCC-wrapper-data.txt
 share/openmpi/mpic++-wrapper-data.txt
