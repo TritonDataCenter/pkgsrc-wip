@@ -29,6 +29,7 @@ bin/regpatch
 bin/regshell
 bin/regtree
 bin/rpcclient
+bin/samba-regedit
 bin/samba-tool
 bin/sharesec
 bin/smbcacls
@@ -193,7 +194,7 @@ lib/libndr.so.0
 lib/libndr.so.0.0.2
 lib/libnetapi.so
 lib/libnetapi.so.0
-lib/libnss_winbind.so
+lib/libnss_winbind.so.1
 lib/libnss_wins.so
 lib/libnss_wins.so.2
 lib/libpdb.so
@@ -786,7 +787,6 @@ lib/samba/service/winbind.so
 lib/samba/service/wrepl.so
 lib/samba/vfs/acl_tdb.so
 lib/samba/vfs/acl_xattr.so
-lib/samba/vfs/aio_fork.so
 lib/samba/vfs/aio_posix.so
 lib/samba/vfs/aio_pthread.so
 lib/samba/vfs/audit.so

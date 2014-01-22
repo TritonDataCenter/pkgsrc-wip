@@ -177,6 +177,8 @@ REPLACE_PYTHON=	buildtools/bin/waf \
 # DEBUG:
 #CONFIGURE_ARGS+=	--verbose --verbose
 
+LDFLAGS.SunOS+=	-lintl
+
 .include "../../lang/python/application.mk"
 
 PY_PATCHPLIST=	yes
