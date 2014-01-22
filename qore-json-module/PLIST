@@ -1,5 +1,5 @@
 @comment $NetBSD$
-lib/qore-modules/0.8.8/JsonRpcHandler.qm
+lib/qore-modules/${QORE_VERSION}/JsonRpcHandler.qm
 lib/qore-modules/json-api-0.17.qmod
 lib/qore-modules/json.a
 share/qore-json-module/license/COPYING.LGPL

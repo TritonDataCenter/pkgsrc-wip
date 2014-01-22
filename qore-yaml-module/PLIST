@@ -1,6 +1,6 @@
 @comment $NetBSD$
-lib/qore-modules/0.8.8/YamlRpcClient.qm
-lib/qore-modules/0.8.8/YamlRpcHandler.qm
+lib/qore-modules/${QORE_VERSION}/YamlRpcClient.qm
+lib/qore-modules/${QORE_VERSION}/YamlRpcHandler.qm
 lib/qore-modules/yaml-api-0.17.qmod
 lib/qore-modules/yaml.a
 share/qore-yaml-module/license/COPYING.LGPL
