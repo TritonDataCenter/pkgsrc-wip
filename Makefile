@@ -3524,7 +3524,6 @@ SUBDIR+=	wmswallow
 SUBDIR+=	wmx
 SUBDIR+=	wmx-gnome
 SUBDIR+=	wordcut
-SUBDIR+=	wordpress-mu
 SUBDIR+=	wordwarvi
 SUBDIR+=	workrave
 SUBDIR+=	wpro
