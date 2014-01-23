@@ -23,7 +23,7 @@ EGG_NAME=	TracMasterTickets-${UPSTREAM_VERSION}
 
 SVN_REPOSITORIES=		mastertickets
 SVN_ROOT.mastertickets=		http://trac-hacks.org/svn/masterticketsplugin/trunk
-# This appears to be the release, but there is no tag.
+# Upsteam has tagged 3.0.4 at r12946
 SVN_TAG.mastertickets=		12946
 
 NO_CHECKSUM=	yes
