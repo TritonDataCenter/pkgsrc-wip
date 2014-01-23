@@ -1359,7 +1359,6 @@ SUBDIR+=	kahakai
 SUBDIR+=	kahua
 SUBDIR+=	kannel-gateway
 SUBDIR+=	kapital
-SUBDIR+=	katapult
 SUBDIR+=	kawa
 SUBDIR+=	kgrab
 SUBDIR+=	kgraphviewer
