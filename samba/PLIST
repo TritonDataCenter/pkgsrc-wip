@@ -194,7 +194,6 @@ lib/libndr.so.0
 lib/libndr.so.0.0.2
 lib/libnetapi.so
 lib/libnetapi.so.0
-lib/libnss_winbind.so.1
 lib/libnss_wins.so
 lib/libnss_wins.so.2
 lib/libpdb.so
@@ -239,6 +238,7 @@ lib/libwbclient.so
 lib/libwbclient.so.0
 lib/libwbclient.so.0.11
 lib/mit_samba.so
+lib/nss_winbind.so.1
 lib/pkgconfig/dcerpc.pc
 lib/pkgconfig/dcerpc_atsvc.pc
 lib/pkgconfig/dcerpc_samr.pc
