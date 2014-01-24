@@ -1,8 +1,6 @@
 @comment $NetBSD$
 share/doc/magit/AUTHORS.md
 ${EMACS_LISPPREFIX}/magit/magit-autoloads.el
-${EMACS_LISPPREFIX}/magit/magit-bisect.el
-${EMACS_LISPPREFIX}/magit/magit-bisect.elc
 ${EMACS_LISPPREFIX}/magit/magit-blame.el
 ${EMACS_LISPPREFIX}/magit/magit-blame.elc
 ${EMACS_LISPPREFIX}/magit/magit-key-mode.el

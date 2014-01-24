@@ -15,9 +15,9 @@ $NetBSD$
  docdir  ?= $(datarootdir)/doc/magit
  execdir ?= $(PREFIX)/bin
  
-@@ -28,7 +28,7 @@ INSTALL_INFO ?= install-info
+@@ -27,7 +27,7 @@ INSTALL_INFO ?= install-info
  
- EFLAGS ?= -L ../git-modes
+ EFLAGS ?= -L ../git-modes -L ../cl-lib
  EMACS  ?= emacs
 -BATCH   = $(EMACS) $(EFLAGS) -batch -Q -L .
 +BATCH   = $(EMACS) $(EFLAGS) -batch -Q -L . -L @@BUILDLINK_DIR@@/share/emacs/site-lisp/git-modes

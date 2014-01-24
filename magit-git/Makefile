@@ -38,7 +38,7 @@ BUILD_TARGET=		all
 TEST_TARGET=	check
 
 post-patch:
-	(cd ${WRKSRC}; ${MAKE} VERSION=${PKGVERSION} magit-version.el)
+	(cd ${WRKSRC}; ${GMAKE} VERSION=${PKGVERSION} magit-version.el)
 
 .include "../../wip/mk/git-package.mk"
 .include "../../wip/git-modes-git/buildlink3.mk"
