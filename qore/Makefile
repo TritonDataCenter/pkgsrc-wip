@@ -19,7 +19,7 @@ PKGCONFIG_OVERRIDE+=	qore.pc.in
 CONFIGURE_ARGS+= 	--with-doxygen=no
 
 #NetBSD 6 and lower has an stdio.h that breaks this package
-#NOT_FOR_PLATFORM=       NetBSD-[0-6]*-*
+NOT_FOR_PLATFORM=       NetBSD-[0-6]*-*
 
 #This is needed in order to comply the with MIT license and binary distribution
 INSTALLATION_DIRS+=	share/qore/license
