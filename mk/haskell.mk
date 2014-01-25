@@ -90,14 +90,6 @@ HASKELL_COMPILER?=	ghc
 # -----------------------------------------------------------------------------
 
 
-# To be deprecated: if HASKELL_TYPE is set, copy its value to
-# HASKELL_COMPILER. The former is an old variable name of the latter.
-.if defined(HASKELL_TYPE)
-WARNINGS+=		"HASKELL_TYPE is deprecated, please use HASKELL_COMPILER"
-HASKELL_COMPILER?=	${HASKELL_TYPE}
-.endif
-
-
 # Declare HASKELL_COMPILER as one of BUILD_DEFS variables. See
 # ../../mk/misc/show.mk
 BUILD_DEFS+=	HASKELL_COMPILER
