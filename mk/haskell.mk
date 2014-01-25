@@ -78,12 +78,6 @@
 HASKELL_MK=	# defined
 
 
-# -----------------------------------------------------------------------------
-# This declaration should be placed in ../../mk/fetch/sites.mk
-#
-MASTER_SITE_HASKELL_HACKAGE?=	http://hackage.haskell.org/package/
-# -----------------------------------------------------------------------------
-
 
 # -----------------------------------------------------------------------------
 # This declaration should be placed in ../../mk/defaults/mk.conf
