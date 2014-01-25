@@ -18,7 +18,7 @@ BUILD_DEFS+=	PYZOR_USE_PYZORD
 
 PYDISTUTILSPKG=	YES
 
-PYTHON_PATCH_SCRIPTS=		scripts/pyzor	\
+REPLACE_PYTHON=		scripts/pyzor	\
 				scripts/pyzord
 
 .include "../../lang/python/extension.mk"

@@ -11,7 +11,7 @@ LICENSE=	gnu-gpl-v3
 
 USE_LANGUAGES=	# none
 
-PYTHON_PATCH_SCRIPTS+=	src/gtimelog/main.py src/gtimelog/test_gtimelog.py scripts/*.py
+REPLACE_PYTHON+=	src/gtimelog/main.py src/gtimelog/test_gtimelog.py scripts/*.py
 PYDISTUTILSPKG= yes
 PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-gtk2
 

@@ -10,7 +10,7 @@ MAINTAINER=			dbolgheroni@unifei.edu.br
 HOMEPAGE=			http://txt2tags.sourceforge.net/
 COMMENT=			Text formatting and conversion tool
 
-PYTHON_PATCH_SCRIPTS=		txt2tags
+REPLACE_PYTHON=		txt2tags
 
 USE_PKGLOCALEDIR=	yes
 NO_BUILD=			yes

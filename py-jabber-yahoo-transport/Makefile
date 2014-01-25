@@ -26,7 +26,7 @@ PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-xmpppy
 # the package.  These include: WRKSRC, GNU_CONFIGURE,
 # HAS_CONFIGURE, USE_PKGLOCALEDIR, USE_INSTALL, TEXINFO_REQD, USE_JAVA,
 # USE_PERL5, INFO_FILES, DIST_SUBDIR, etc.
-PYTHON_PATCH_SCRIPTS+=	yahoo.py
+REPLACE_PYTHON+=	yahoo.py
 
 # always include bsd.prefs.mk before any .if or .ifdef statements
 .include "../../mk/bsd.prefs.mk"

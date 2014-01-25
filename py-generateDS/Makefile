@@ -16,7 +16,7 @@ PY_PATCHPLIST=	yes
 PYDISTUTILSPKG=	yes
 PLIST_SUBST+=	PYVERSSUFFIX=${PYVERSSUFFIX:Q}
 
-PYTHON_PATCH_SCRIPTS=	generateDS.py
+REPLACE_PYTHON=	generateDS.py
 
 # set up a convenience link
 post-install:

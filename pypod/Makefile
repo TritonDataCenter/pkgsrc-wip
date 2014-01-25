@@ -16,7 +16,7 @@ LICENSE=		gnu-gpl-v2
 DEPENDS+=		${PYPKGPREFIX}-curses>=0nb4:../../devel/py-curses
 
 PYDISTUTILSPKG=		yes
-PYTHON_PATCH_SCRIPTS=	*.py */*.py
+REPLACE_PYTHON=	*.py */*.py
 
 .include "../../lang/python/application.mk"
 .include "../../lang/python/extension.mk"

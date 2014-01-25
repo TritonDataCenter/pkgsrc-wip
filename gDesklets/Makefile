@@ -22,7 +22,7 @@ GCONF_SCHEMAS=		gdesklets-display-thumbnail.schemas
 
 CONFIGURE_ENV+=		PYTHON=${PYTHONBIN:Q}
 
-PYTHON_PATCH_SCRIPTS=		gdesklets
+REPLACE_PYTHON=		gdesklets
 PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-ORBit via py-gnome2, py-gtk2
 
 SUBST_CLASSES+=		python

@@ -13,7 +13,7 @@ COMMENT=		Photo collection manager and viewer
 
 USE_LANGUAGES=		c c++
 PYDISTUTILSPKG=		yes
-PYTHON_PATCH_SCRIPTS=	*.py
+REPLACE_PYTHON=	*.py
 PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-qt3-modules, py-imaging
 
 .include "../../lang/python/extension.mk"

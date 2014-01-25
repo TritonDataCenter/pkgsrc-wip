@@ -14,7 +14,7 @@ COMMENT=		Automatically send cvs commit messages via mail
 WRKSRC=			${WRKDIR}
 EXTRACT_CMD=		${CP} ${DOWNLOADED_DISTFILE} ${WRKSRC}
 NO_BUILD=		yes
-PYTHON_PATCH_SCRIPTS=	syncmail
+REPLACE_PYTHON=	syncmail
 INSTALLATION_DIRS=	bin
 
 do-install:

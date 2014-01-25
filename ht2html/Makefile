@@ -12,7 +12,7 @@ COMMENT=		Simple web page templating system
 USE_TOOLS+=		pax
 PY_PATCHPLIST=		yes
 
-PYTHON_PATCH_SCRIPTS=	ht2html.py
+REPLACE_PYTHON=	ht2html.py
 
 EGDIR=			${PREFIX}/share/examples/ht2html
 EGFILES=		BAWGenerator.py JPyLocalGenerator.py

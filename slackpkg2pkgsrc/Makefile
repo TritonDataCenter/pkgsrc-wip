@@ -13,7 +13,7 @@ COMMENT=		Simple script for easy generation of Slackware binary packages
 
 PY_PATCHPLIST=		yes
 NO_BUILD=		yes
-PYTHON_PATCH_SCRIPTS=	slackpkg2pkgsrc.py
+REPLACE_PYTHON=	slackpkg2pkgsrc.py
 
 INSTALLATION_DIRS=	bin
 
