@@ -77,7 +77,7 @@
 .if !defined(HASKELL_MK)
 HASKELL_MK=	# defined
 
-
+.include "../../mk/bsd.fast.prefs.mk"
 
 # -----------------------------------------------------------------------------
 # This declaration should be placed in ../../mk/defaults/mk.conf
