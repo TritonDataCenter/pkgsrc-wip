@@ -46,7 +46,7 @@
 #            package B was compiled. So the installed package B is
 #            completely broken at this time.
 #
-# Public variables for users:
+# User-settable variables:
 #
 #   HASKELL_COMPILER
 #       Description:
@@ -56,7 +56,7 @@
 #       Default value:
 #           ghc
 #
-# Public variables for packages:
+# Package-settable variables:
 #
 #   HASKELL_ENABLE_LIBRARY_PROFILING
 #       Description:
