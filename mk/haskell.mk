@@ -132,7 +132,7 @@ PKGNAME?=	hs-${DISTNAME}
 # Default value of MASTER_SITES.
 _DISTBASE?=	${DISTNAME:C/-[^-]*$//}
 _DISTVERSION?=	${DISTNAME:C/^.*-//}
-MASTER_SITES?=	${MASTER_SITE_HASKELL_HACKAGE}${DISTNAME}/
+MASTER_SITES?=	${MASTER_SITE_HASKELL_HACKAGE:=${DISTNAME}/}
 
 # Default value of HOMEPAGE.
 HOMEPAGE?=	http://hackage.haskell.org/cgi-bin/hackage-scripts/package/${_DISTBASE}
