@@ -219,7 +219,7 @@ _HASKELL_PKG_DESCR_FILE=	${PREFIX}/lib/${DISTNAME}/${_HASKELL_VERSION}/package-d
 do-install:
 	${RUN} cd ${WRKSRC} && \
 		./Setup register --gen-pkg-config=dist/package-description && \
-		if [ "${DESTDIR}" = "" ]; then \
+		if [ "${_USE_DESTDIR}" == "no" ]; then \
 			./Setup copy && \
 			if [ -f dist/package-description ]; then \
 				${INSTALL_DATA} dist/package-description ${_HASKELL_PKG_DESCR_FILE}; \
