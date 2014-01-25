@@ -29,6 +29,7 @@ PYTHON_PATCH_SCRIPTS+=	PyAIMt.py
 PYTHON_PATCH_SCRIPTS+=	tools/infodump.py
 PYTHON_PATCH_SCRIPTS+=	tools/managessi.py
 PYTHON_PATCH_SCRIPTS+=	tools/migrate.py
+PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-imaging
 
 # always include bsd.prefs.mk before any .if or .ifdef statements
 .include "../../mk/bsd.prefs.mk"

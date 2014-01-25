@@ -11,6 +11,7 @@ PKG_SUGGESTED_OPTIONS=	python
 ### Enable python support
 ###
 .if !empty(PKG_OPTIONS:Mpython)
+PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-gtk2
 .  include "../../lang/python/extension.mk"
 PLIST_SUBST+=			PYSITELIB=${PYSITELIB}
 .  include "../../devel/py-gobject/buildlink3.mk"

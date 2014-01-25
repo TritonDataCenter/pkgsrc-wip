@@ -12,8 +12,6 @@ HOMEPAGE=	http://nathan11g.github.com/arxiv2bib
 COMMENT=	Get arXiv.org metadata in BibTeX format
 LICENSE=	2-clause-bsd
 
-PYTHON_VERSIONS_INCLUDE_3X= yes 
-
 PYDISTUTILSPKG=	yes
 
 .include "../../lang/python/egg.mk"

@@ -1,5 +1,4 @@
 # $NetBSD$
-#
 
 DISTNAME=	papyon-0.4.9
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
@@ -19,6 +18,7 @@ DEPENDS+=	${PYPKGPREFIX}-crypto>=2.0:../../security/py-crypto
 USE_LANGUAGES=	# none
 
 PYDISTUTILSPKG= yes
+PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-gstreamer0.10
 
 do-test:
 	( cd ${WRKSRC} &&  ${PYTHONBIN} test.py }

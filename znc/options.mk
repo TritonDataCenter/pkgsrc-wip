@@ -71,7 +71,6 @@ PLIST_SRC+=		PLIST.tcl
 # Python support
 #
 .if !empty(PKG_OPTIONS:Mpython)
-PYTHON_VERSIONS_INCLUDE_3X=	yes
 PYTHON_VERSIONS_INCOMPATIBLE=	26 27
 PY_PEP3147=	no
 .include		"../../lang/python/extension.mk"

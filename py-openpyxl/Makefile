@@ -11,11 +11,7 @@ HOMEPAGE=	http://openpyxl.readthedocs.org/
 COMMENT=	Python library to read/write Excel 2007 xlsx/xlsm files
 LICENSE=	mit
 
-WRKSRC=		${WRKDIR}/openpyxl-1.8.0
-
 USE_LANGUAGES=	# none
-
-PYTHON_VERSIONS_INCLUDE_3X= yes
 
 .include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"

@@ -1,5 +1,4 @@
 # $NetBSD$
-#
 
 DISTNAME=	hijra-0.1.18
 PKGREVISION=	2
@@ -14,6 +13,7 @@ COMMENT=	Hijra is the Hijri Islamic Calendar
 
 USE_LANGUAGES=	# none
 PYDISTUTILSPKG=	yes
+PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-ORBit via py-gnome2, py-notify, py-gtk2
 
 INSTALLATION_DIRS+=	bin
 

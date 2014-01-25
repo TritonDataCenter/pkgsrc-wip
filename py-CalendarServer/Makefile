@@ -36,6 +36,8 @@ DEPENDS+=	subversion-base-[0-9]*:../../devel/subversion-base
 
 PYTHON_VERSIONED_DEPENDENCIES=	dateutil
 
+PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-twisted, py-xml via py-nevow, py-psutil, py-Kerberos, py-ldap
+
 USE_LANGUAGES=	c
 USE_TOOLS+=	bash:run
 

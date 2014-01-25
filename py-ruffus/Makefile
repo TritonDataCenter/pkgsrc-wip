@@ -1,5 +1,4 @@
 # $NetBSD$
-#
 
 DISTNAME=	ruffus-2.2
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
@@ -16,6 +15,8 @@ DEPENDS+=  ${PYPKGPREFIX}-simplejson>=2.1.1:../../converters/py-simplejson
 DEPENDS+=  ${PYPKGPREFIX}-multiprocessing>=2.6.2.1:../../devel/py-multiprocessing
 
 USE_LANGUAGES=	# none
+
+PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-multiprocessing
 
 .include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"

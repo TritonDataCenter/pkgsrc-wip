@@ -1,5 +1,4 @@
 # $NetBSD$
-#
 
 DISTNAME=	backintime-1.0.8_src
 PKGNAME=	${DISTNAME:S/_src//}
@@ -15,6 +14,8 @@ DEPENDS+=	${PYPKGPREFIX}-notify-[0-9]*:../../sysutils/py-notify
 DEPENDS+=	rsync-[0-9]*:../../net/rsync
 
 WRKSRC=		${WRKDIR}/${PKGNAME_NOREV}
+
+PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-ORBit via py-gnome2, py-notify
 
 REPLACE_PYTHON=	backintime
 USE_LANGUAGES=	# none

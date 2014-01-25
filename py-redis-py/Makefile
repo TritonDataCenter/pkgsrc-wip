@@ -13,8 +13,7 @@ HOMEPAGE=	http://github.com/andymccurdy/redis-py/
 COMMENT=	Redis Python client
 LICENSE=	mit
 
-PYTHON_VERSIONS_INCLUDE_3X= yes
-
 DEPENDS+=	redis-[0-9]*:../../databases/redis
+
 .include "../../lang/python/distutils.mk"
 .include "../../mk/bsd.pkg.mk"

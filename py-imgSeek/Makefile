@@ -1,5 +1,4 @@
 # $NetBSD$
-#
 
 DISTNAME=		imgSeek-0.8.6
 PKGNAME=		${PYPKGPREFIX}-${DISTNAME}
@@ -15,6 +14,7 @@ COMMENT=		Photo collection manager and viewer
 USE_LANGUAGES=		c c++
 PYDISTUTILSPKG=		yes
 PYTHON_PATCH_SCRIPTS=	*.py
+PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-qt3-modules, py-imaging
 
 .include "../../lang/python/extension.mk"
 .include "../../x11/py-qt3-modules/buildlink3.mk"

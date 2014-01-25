@@ -1,5 +1,4 @@
 # $NetBSD$
-#
 
 DISTNAME=	pigg-0.2.0
 PKGNAME=	${PYPKGPREFIX}-logilab-${DISTNAME}
@@ -14,6 +13,7 @@ LICENSE=	gnu-gpl-v2
 
 USE_LANGUAGES=	# none
 PYDISTUTILSPKG= yes
+PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-gtk2
 
 .include "../../devel/py-gobject/buildlink3.mk"
 .include "../../lang/python/extension.mk"

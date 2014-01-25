@@ -1,5 +1,4 @@
 # $NetBSD$
-#
 
 DISTNAME=	gjots2-2.3.15
 CATEGORIES=	x11
@@ -13,6 +12,8 @@ LICENSE=	gnu-gpl-v2
 
 PYDISTUTILSPKG= yes
 USE_TOOLS+=	bash pkg-config
+
+PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-ORBit via py-gnome2
 
 REPLACE_BASH+=	bin/gjots2lpr
 

@@ -11,7 +11,5 @@ HOMEPAGE=	http://docs.mongodb.org/ecosystem/drivers/python/
 COMMENT=	Python driver for MongoDB
 LICENSE=	apache-2.0
 
-PYTHON_VERSIONS_INCLUDE_3X=	yes
-
 .include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"

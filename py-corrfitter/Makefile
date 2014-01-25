@@ -16,7 +16,6 @@ FETCH_USING=    curl
 
 USE_LANGUAGES=	# none
 
-PYTHON_VERSIONS_INCLUDE_3X= yes
 PYDISTUTILSPKG=	yes
 
 .include "../../lang/python/extension.mk"

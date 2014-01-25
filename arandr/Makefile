@@ -1,5 +1,4 @@
 # $NetBSD$
-#
 
 DISTNAME=	arandr-0.1.4
 PKGREVISION=	1
@@ -16,6 +15,7 @@ DEPENDS+=	xrandr>=1.2:../../x11/xrandr
 
 PY_PATCHPLIST = YES
 PYSETUP = setup.py
+PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-gtk2
 
 # Adjust setup.py
 SUBST_CLASSES+=         setup

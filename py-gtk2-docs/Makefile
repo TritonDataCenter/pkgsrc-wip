@@ -1,5 +1,4 @@
 # $NetBSD$
-#
 
 DISTNAME=		py-gtk2-docs
 PKGNAME=		py-gtk2-docs-1

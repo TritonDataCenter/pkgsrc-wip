@@ -1,5 +1,4 @@
 # $NetBSD$
-#
 
 DISTNAME=	labyrinth_0.4.1
 PKGNAME=	labyrinth-0.4.1
@@ -19,13 +18,15 @@ USE_TOOLS+=	pkg-config intltool gmake
 USE_LANGUAGES=	c c++
 
 PY_PATCHPLIST=		yes
+PYTHON_VERSIONED_DEPENDENCIES=	cairo
+PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-ORBit via py-gnome2
 
 .include "../../devel/libglade/buildlink3.mk"
 .include "../../devel/pango/buildlink3.mk"
 .include "../../devel/py-gobject/buildlink3.mk"
 .include "../../graphics/hicolor-icon-theme/buildlink3.mk"
 .include "../../graphics/librsvg/buildlink3.mk"
-.include "../../graphics/py-cairo/buildlink3.mk"
+.include "../../lang/python/versioned_dependencies.mk"
 .include "../../sysutils/desktop-file-utils/desktopdb.mk"
 .include "../../x11/gnome-desktop/buildlink3.mk"
 .include "../../x11/gtk2/buildlink3.mk"

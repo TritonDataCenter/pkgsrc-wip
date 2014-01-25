@@ -45,6 +45,7 @@ REPLACE_PYTHON+=launcher/fs_uae_launcher/netplay/oyoyo/examplebot.py
 
 .include "../../lang/python/application.mk"
 PLIST_SUBST+=   PYSITELIB=${PYSITELIB}
+PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-wxWidgets
 
 DEPENDS+=	${PYPKGPREFIX}-game>=1.8.1:../../devel/py-game
 DEPENDS+=	${PYPKGPREFIX}-wxWidgets>=2.8.10:../../x11/py-wxWidgets

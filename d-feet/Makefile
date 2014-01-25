@@ -1,5 +1,4 @@
 # $NetBSD$
-#
 
 DISTNAME=	d-feet-0.1.14
 EGG_NAME=	${DISTNAME:S|d-|d_|}
@@ -16,6 +15,7 @@ LICENSE=	gnu-gpl-v2
 USE_LANGUAGES=	# none
 
 PLIST_SUBST+=	PYVERSSUFFIX=${PYVERSSUFFIX}
+PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-gtk2
 
 SUBST_CLASSES+=		paths
 SUBST_STAGE.paths=	pre-configure

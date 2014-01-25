@@ -1,5 +1,4 @@
 # $NetBSD$
-#
 
 DISTNAME=		feedgenerator-1.6
 PKGNAME=		${PYPKGPREFIX}-${DISTNAME}
@@ -14,7 +13,6 @@ LICENSE=		modified-bsd
 DEPENDS+=		${PYPKGPREFIX}-six-[0-9]*:../../wip/py-six
 DEPENDS+=		${PYPKGPREFIX}-pytz-[0-9]*:../../time/py-pytz
 
-PYTHON_VERSIONS_INCLUDE_3X= yes
 USE_LANGUAGES=	# none
 
 .include "../../lang/python/application.mk"

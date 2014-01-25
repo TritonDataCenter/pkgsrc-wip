@@ -1,5 +1,4 @@
 # $NetBSD$
-#
 
 DISTNAME=	pywebkitgtk-1.1.7
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME:S/py//}
@@ -18,6 +17,7 @@ USE_LIBTOOL=	yes
 USE_TOOLS+=	pkg-config gmake
 
 PY_PATCHPLIST=		yes
+PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-gtk2
 
 PKGCONFIG_OVERRIDE+=	pywebkitgtk.pc.in
 

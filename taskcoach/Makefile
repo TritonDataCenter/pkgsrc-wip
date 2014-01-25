@@ -1,5 +1,4 @@
 # $NetBSD$
-#
 
 DISTNAME=	TaskCoach-1.2.31
 PKGNAME=	${DISTNAME:tl}
@@ -16,6 +15,7 @@ USE_LANGUAGES=	# none
 DEPENDS+=	${PYPKGPREFIX}-wxWidgets>=2.8.9.1:../../x11/py-wxWidgets
 
 PYDISTUTILSPKG=	YES
+PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-wxWidgets
 
 SUBST_CLASSES+=		fix-cdll
 SUBST_STAGE.fix-cdll=	pre-configure

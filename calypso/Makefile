@@ -17,11 +17,11 @@ GIT_REPO.calypso=	git://keithp.com/git/calypso.git
 WRKSRC=		${WRKDIR}/calypso
 
 PYDISTUTILSPKG=			yes
-PYTHON_VERSIONS_INCLUDE_3X=	yes
 
 INSTALLATION_DIRS=	share/examples/calypso
 
 REPLACE_PYTHON=	calypso.py
+PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-vobject
 
 post-install:
 	${INSTALL_DATA} ${WRKSRC}/config ${DESTDIR}${PREFIX}/share/examples/calypso/

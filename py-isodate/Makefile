@@ -12,7 +12,6 @@ COMMENT=	ISO 8601 date/time/duration parser and formater
 LICENSE=	modified-bsd
 
 USE_LANGUAGES=	# none
-PYTHON_VERSIONS_INCLUDE_3X= yes
 
 do-test:
 	${RUN} cd ${WRKSRC}/src/isodate/tests; ${SETENV} ${TEST_ENV} ${PYTHONBIN} __init__.py

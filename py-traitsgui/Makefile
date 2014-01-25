@@ -1,5 +1,4 @@
 # $NetBSD$
-#
 
 .include "../../wip/py-traits/Makefile.version"
 
@@ -13,6 +12,8 @@ COMMENT=	 	Traits-capable windowing framework
 .include "../../wip/py-traits/Makefile.common"
 
 INSTALLATION_DIRS=	share/doc/py-traitsgui
+
+PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-wxWidgets
 
 post-install:
 	${INSTALL_DATA} ${WRKSRC}/docs/*.pdf ${DESTDIR}${PREFIX}/share/doc/py-traitsgui

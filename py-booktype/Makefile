@@ -1,5 +1,4 @@
 # $NetBSD$
-#
 
 DISTNAME=	Booktype-1.5
 PKGNAME=	${PYPKGPREFIX}-booktype-1.5
@@ -43,7 +42,6 @@ REPLACE.python.old=	/usr/bin/env
 REPLACE.python.new=	${PYTHONBIN}
 REPLACE_FILES.python=	${WRKSRC}/lib/booki/manage.py
 
-PYTHON_VERSIONS_INCLUDE_3X=yes
 .include "options.mk"
 
 .include "../../lang/python/egg.mk"

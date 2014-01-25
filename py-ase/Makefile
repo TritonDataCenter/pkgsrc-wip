@@ -16,6 +16,7 @@ USE_LANGUAGES=	# none
 
 PYDISTUTILSPKG=	yes
 PLIST_SUBST+=	PYVERSSUFFIX=${PYVERSSUFFIX:Q}
+PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-gtk2
 
 post-extract:
 	${MV} ${WRKSRC}/tools/ase-build ${WRKSRC}/tools/ase-build${PYVERSSUFFIX}

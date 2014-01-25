@@ -1,5 +1,4 @@
 # $NetBSD$
-#
 
 DISTNAME=	pkginfo-0.9
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
@@ -14,8 +13,6 @@ LICENSE=	python-software-foundation
 WRKSRC=		${WRKDIR}/pkginfo-0.9
 
 USE_LANGUAGES=	# none
-
-PYTHON_VERSIONS_INCLUDE_3X=yes
 
 .include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"

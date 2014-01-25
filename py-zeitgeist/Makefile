@@ -1,5 +1,4 @@
 # $NetBSD$
-#
 
 DISTNAME=	zeitgeist-0.3.2
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
@@ -10,7 +9,7 @@ MASTER_SITES=	https://launchpad.net/zeitgeist/0.3/0.3.2/+download/
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	https://launchpad.net/zeitgeist/
 COMMENT=	Service which logs the users's activities and events
-LICENSE=		gnu-lgpl-v3
+LICENSE=	gnu-lgpl-v3
 
 DEPENDS+=	${PYPKGPREFIX}-xdg-[0-9]*:../../devel/py-xdg
 DEPENDS+=	${PYPKGPREFIX}-storm-[0-9]*:../../wip/py-storm
@@ -20,7 +19,7 @@ GNU_CONFIGURE=	yes
 USE_LANGUAGES=	c
 USE_TOOLS+=	gmake intltool
 PY_PATCHPLIST=	yes
-
+PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-ORBit via py-gnome2, py-gtk2
 
 .include "../../lang/python/application.mk"
 .include "../../lang/python/extension.mk"

@@ -12,7 +12,6 @@ COMMENT=	Tools for adaptive multidimensional Monte Carlo integration
 LICENSE=	gnu-gpl-v3
 
 PYDISTUTILSPKG=	yes
-PYTHON_VERSIONS_INCLUDE_3X= yes
 
 INSTALLATION_DIRS+= share/doc/vegas
 

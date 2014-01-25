@@ -11,7 +11,6 @@ COMMENT=	Efficient arrays of booleans -- C extension
 LICENSE=	python-software-foundation
 
 PYDISTUTILSPKG=			yes
-PYTHON_VERSIONS_INCLUDE_3X=	yes
 
 do-test:
 	${RUN} cd ${WRKSRC}/bitarray; ${SETENV} ${TEST_ENV} ${PYTHONBIN} test_bitarray.py

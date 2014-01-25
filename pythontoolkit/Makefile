@@ -1,5 +1,4 @@
 # $NetBSD$
-#
 
 DISTNAME=	PythonToolkit-12.08.18
 PKGNAME=	${DISTNAME:tl}
@@ -16,6 +15,7 @@ LICENSE=	2-clause-bsd
 USE_LANGUAGES=	# none
 
 PYDISTUTILSPKG=	yes
+PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-wxWidgets
 
 INSTALLATION_DIRS=	share/applications share/pythontoolkit/icons
 

@@ -1,5 +1,4 @@
 # $NetBSD$
-#
 
 DISTNAME=	python-ptrace-0.6.4
 PKGNAME=	${PYPKGPREFIX}${DISTNAME:S/python//}
@@ -16,7 +15,6 @@ DEPENDS+=	${PYPKGPREFIX}-readline>=0nb2:../../devel/py-readline
 
 ONLY_FOR_PLATFORM=	FreeBSD-*-x86_64  FreeBSD-*-i386 Linux-*-*
 
-PYTHON_VERSIONS_INCLUDE_3X= yes
 PLIST_SUBST+=	PYVERSSUFFIX=${PYVERSSUFFIX}
 PYDISTUTILSPKG= 	yes
 

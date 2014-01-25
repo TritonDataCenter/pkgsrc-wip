@@ -1,5 +1,4 @@
 # $NetBSD$
-#
 
 DISTNAME=	gaphor-0.15.0
 EGG_NAME=	${DISTNAME}
@@ -16,6 +15,8 @@ DEPENDS+=	zope3>=3.3.1:../../www/zope3
 
 WRKSRC=		${WRKDIR}/gaphor-0.15.0
 USE_LANGUAGES=	# none
+PYTHON_VERSIONED_DEPENDENCIES=	cairo
+PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-gtk2
 
 INSTALLATION_DIRS=	share/applications
 
@@ -23,8 +24,8 @@ post-install:
 	${INSTALL_DATA} ${WRKSRC}/gaphor.desktop ${DESTDIR}${PREFIX}/share/applications
 
 .include "../../devel/py-gobject/buildlink3.mk"
-.include "../../graphics/py-cairo/buildlink3.mk"
 .include "../../lang/python/egg.mk"
+.include "../../lang/python/versioned_dependencies.mk"
 .include "../../sysutils/desktop-file-utils/desktopdb.mk"
 .include "../../x11/py-gtk2/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

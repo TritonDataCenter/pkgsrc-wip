@@ -13,7 +13,6 @@ LICENSE=	apache-2.0
 DEPENDS+=	${PYPKGPREFIX}-nose>=1.1.2:../../devel/py-nose
 DEPENDS+=	${PYPKGPREFIX}-yaml-[0-9]*:../../textproc/py-yaml
 
-PYTHON_VERSIONS_INCLUDE_3X=yes
 REPLACE_PYTHON=			nltk/corpus/reader/knbc.py
 REPLACE_PYTHON+=		nltk/stem/rslp.py
 

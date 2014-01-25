@@ -1,5 +1,4 @@
 # $NetBSD$
-#
 
 DISTNAME=	etk.docking-0.2
 PKGNAME=	${PYPKGPREFIX}-etk-docking-0.2
@@ -15,6 +14,8 @@ LICENSE=	gnu-lgpl-v3 AND gnu-gpl-v3
 DEPENDS+=	${PYPKGPREFIX}-simplegeneric>=0.8:../../wip/py-simplegeneric
 
 USE_LANGUAGES=	# none
+
+PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-gtk2
 
 .include "../../devel/py-gobject/buildlink3.mk"
 .include "../../lang/python/egg.mk"

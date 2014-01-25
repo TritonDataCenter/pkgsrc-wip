@@ -1,5 +1,4 @@
 # $NetBSD$
-#
 
 DISTNAME=	noor-1.2.1
 PKGREVISION=	1
@@ -15,6 +14,7 @@ USE_PKGLOCALEDIR=	yes
 USE_LANGUAGES=		# none
 
 PYDISTUTILSPKG=	yes
+PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-gtk2
 
 .include "../../devel/pango/buildlink3.mk"
 .include "../../graphics/hicolor-icon-theme/buildlink3.mk"

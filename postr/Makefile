@@ -1,5 +1,4 @@
 # $NetBSD$
-#
 
 DISTNAME=	postr-0.12.4
 PKGREVISION=	1
@@ -16,6 +15,7 @@ DEPENDS+=	${PYPKGPREFIX}-twisted-[0-9]*:../../net/py-twisted
 
 USE_LANGUAGES=	# none
 PYDISTUTILSPKG=		yes
+PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-ORBit via py-gnome2
 
 .include "../../databases/py-bsddb3/buildlink3.mk"
 .include "../../devel/pango/buildlink3.mk"

@@ -1,5 +1,4 @@
 # $NetBSD$
-#
 
 DISTNAME=		webcleaner-2.8
 CATEGORIES=		www
@@ -19,6 +18,7 @@ USE_LIBTOOL=		yes
 LIBTOOL_OVERRIDE=	${WRKSRC}/libtool
 GNU_CONFIGURE=		yes
 PY_PATCHPLIST=		yes
+PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-imaging
 
 do-configure:
 	cd ${WRKSRC} && ${SETENV} ${CONFIGURE_ENV} ./configure ${CONFIGURE_ARGS}

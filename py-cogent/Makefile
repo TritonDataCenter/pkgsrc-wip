@@ -1,5 +1,4 @@
 # $NetBSD$
-#
 
 DISTNAME=	cogent-1.4.1
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
@@ -16,6 +15,7 @@ DEPENDS+=	${PYPKGPREFIX}-sqlalchemy>=0.5.6:../../databases/py-sqlalchemy
 DEPENDS+=	${PYPKGPREFIX}-pyrex-[0-9]*:../../lang/py-pyrex
 
 PYDISTUTILSPKG= yes
+PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-pyrex
 
 do-test:
 	( cd ${WRKSRC} && ${PYTHONBIN} runtests.py )

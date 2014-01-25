@@ -1,5 +1,4 @@
 # $NetBSD$
-#
 
 DISTNAME=	quodlibet-2.4.1
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
@@ -22,6 +21,7 @@ BUILD_TARGET=		_trayicon.so _mmkeys.so
 
 PYDISTUTILSPKG= yes
 PYTHON_PATCH_SCRIPTS=	exfalso.py quodlibet.py
+PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-mutagen, py-gtk2, py-gstreamer0.10
 
 .include "../../devel/py-gobject/buildlink3.mk"
 .include "../../devel/pango/buildlink3.mk"

@@ -14,6 +14,8 @@ COMMENT=	Screenshots plugin for Trac
 
 DEPENDS+=	{ja-,}trac>=0.11:../../www/trac
 
+PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-imaging
+
 SVN_REV=	7703
 SVN_MOD=	screenshotsplugin/0.11
 WRKSRC=		${WRKDIR}/${SVN_MOD}
