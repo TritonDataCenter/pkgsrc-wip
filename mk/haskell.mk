@@ -99,6 +99,7 @@ HASKELL_COMPILER?=	ghc
 # To be deprecated: if HASKELL_TYPE is set, copy its value to
 # HASKELL_COMPILER. The former is an old variable name of the latter.
 .if defined(HASKELL_TYPE)
+WARNINGS+=		"HASKELL_TYPE is deprecated, please use HASKELL_COMPILER"
 HASKELL_COMPILER?=	${HASKELL_TYPE}
 .endif
 
