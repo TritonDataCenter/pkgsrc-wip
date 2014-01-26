@@ -1,5 +1,4 @@
 # $NetBSD$
-#
 
 DISTNAME=		shtoom-0.2
 PKGNAME=		${PYPKGPREFIX}-shtoom-0.2
@@ -16,6 +15,7 @@ DEPENDS+=		${PYPKGPREFIX}-twisted>=1.3.0:../../net/py-twisted
 
 PY_PATCHPLIST=		yes
 PYDISTUTILSPKG=		yes
+PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-twisted
 
 post-install:
 	${INSTALL_DATA} ${WRKSRC}/shtoom/ui/gnomeui/shtoom.glade \

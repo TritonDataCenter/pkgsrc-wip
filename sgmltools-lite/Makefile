@@ -9,7 +9,7 @@ MAINTAINER=	gdt@NetBSD.org
 HOMEPAGE=	http://sgmltools-lite.sourceforge.net/
 COMMENT=	Friendly Python interface to SGML software
 
-DEPENDS+=	jade-[0-9]*:../../textproc/jade
+DEPENDS+=	openjade-[0-9]*:../../textproc/openjade
 DEPENDS+=	lynx-[0-9]*:../../www/lynx
 DEPENDS+=	docbook-[0-9]*:../../textproc/docbook
 DEPENDS+=	w3m-[0-9]*:../../www/w3m

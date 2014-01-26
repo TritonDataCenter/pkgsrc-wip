@@ -10,7 +10,6 @@ HOMEPAGE=	http://dexy.it/
 COMMENT=	Document Automation
 LICENSE=	mit
 
-
 DEPENDS+=	${PYPKGPREFIX}-chardet>=2.1.1:../../converters/py-chardet
 DEPENDS+=	ply>=3.3:../../devel/ply
 DEPENDS+=	${PYPKGPREFIX}-pexpect>=2.3:../../devel/py-pexpect
@@ -26,6 +25,7 @@ DEPENDS+=    	${PYPKGPREFIX}-inflection>=0.2.0:../../wip/py-inflection
 WRKSRC=		${WRKDIR}/dexy-0.9.9.5
 
 USE_LANGUAGES=	# none
+PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-docutils
 
 .include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"

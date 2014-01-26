@@ -1,5 +1,4 @@
 # $NetBSD$
-#
 
 DISTNAME=	ldtp-2.0.6
 PKGREVISION=	2
@@ -18,6 +17,7 @@ USE_LANGUAGES=	# none
 
 PYDISTUTILSPKG=	yes
 REPLACE_PYTHON+=	bin/ldtp
+PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-ORBit and py-gnome2 via py-at-spi, py-gobject, py-twisted
 
 .include "../../devel/py-gobject/buildlink3.mk"
 .include "../../lang/python/application.mk"

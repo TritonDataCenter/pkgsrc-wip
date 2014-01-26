@@ -20,7 +20,7 @@ DEPENDS+=	${PYPKGPREFIX}-xdg-[0-9]*:../../devel/py-xdg
 DEPENDS+=	${PYPKGPREFIX}-distutils-extra-[0-9]*:../../wip/py-distutils-extra
 
 PYTHON_VERSIONED_DEPENDENCIES=	dateutil
-PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-beautifulsoup
+PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-beautifulsoup, py-gobject, py-xdg, py-twisted
 
 USE_LANGUAGES=	# none
 NO_BUILD=	YES

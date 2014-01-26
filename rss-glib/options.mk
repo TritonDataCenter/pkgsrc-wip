@@ -11,7 +11,7 @@ PKG_SUGGESTED_OPTIONS=	python mono vala
 ### Enable python support
 ###
 .if !empty(PKG_OPTIONS:Mpython)
-PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-gtk2
+PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-gtk2, py-gobject
 .  include "../../lang/python/extension.mk"
 .  include "../../lang/python/pyversion.mk"
 PLIST_SUBST+=			PYSITELIB=${PYSITELIB}

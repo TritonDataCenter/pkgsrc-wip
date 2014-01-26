@@ -1,5 +1,4 @@
 # $NetBSD$
-#
 
 DISTNAME=		pyosd-0.2.14
 PKGNAME=		${PYPKGPREFIX}-${DISTNAME:S/py//}
@@ -15,6 +14,7 @@ LICENSE=		gnu-gpl-v2
 DEPENDS+=		${PYPKGPREFIX}-twisted>=2.0.0:../../net/py-twisted
 
 PYDISTUTILSPKG=		yes
+PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-twisted
 
 .include "../../x11/xosd/buildlink3.mk"
 .include "../../lang/python/extension.mk"

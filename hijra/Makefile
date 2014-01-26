@@ -13,7 +13,7 @@ COMMENT=	Hijra is the Hijri Islamic Calendar
 
 USE_LANGUAGES=	# none
 PYDISTUTILSPKG=	yes
-PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-ORBit via py-gnome2, py-notify, py-gtk2
+PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-ORBit via py-gnome2, py-notify, py-gtk2, py-gobject
 
 INSTALLATION_DIRS+=	bin
 

@@ -20,6 +20,8 @@ NO_BUILD=	yes
 WRKSRC=		${WRKDIR}/SABnzbd-${DISTVERSION}
 USE_TOOLS=	pax
 
+PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-cheetah, py-xml
+
 .include "options.mk"
 
 PKG_GROUPS=		sabnzbd
@@ -33,7 +35,6 @@ INSTALLATION_DIRS+=	cherrypy gntp interfaces locale po tools util
 PY_PATCHPLIST=          yes
 PLIST_SUBST+=           PYVERSSUFFIX=${PYVERSSUFFIX}
 REPLACE_PYTHON=		*.py */*.py */*/*.py
-PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-cheetah
 
 SUBST_CLASSES+=	fix-paths
 SUBST_STAGE.fix-paths=	pre-configure

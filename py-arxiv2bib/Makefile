@@ -13,6 +13,7 @@ COMMENT=	Get arXiv.org metadata in BibTeX format
 LICENSE=	2-clause-bsd
 
 PYDISTUTILSPKG=	yes
+PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-elementtree
 
 .include "../../lang/python/egg.mk"
 .include "../../textproc/py-elementtree/buildlink3.mk"

@@ -3,19 +3,13 @@
 DISTNAME=		${VERSION}
 PKGNAME=		pelican-${DISTNAME}
 CATEGORIES=		www textproc
-MASTER_SITES=	https://github.com/getpelican/pelican/archive/
+MASTER_SITES=		https://github.com/getpelican/pelican/archive/
+EXTRACT_SUFX=		.zip
 
 MAINTAINER=		ahp-nils@users.sourceforge.net
 HOMEPAGE=		http://blog.getpelican.com/
 COMMENT=		Static site generator that supports Markdown and reST syntax
 LICENSE=		gnu-agpl-v3
-
-VERSION=		3.2.2
-WRKSRC=			${WRKDIR}/${PKGNAME_NOREV}
-EXTRACT_SUFX=	.zip
-FETCH_USING=	curl
-
-PYTHON_VERSIONS_INCOMPATIBLE=26
 
 DEPENDS+=		${PYPKGPREFIX}-docutils-[0-9]*:../../textproc/py-docutils
 DEPENDS+=		${PYPKGPREFIX}-markdown-[0-9]*:../../textproc/py-markdown
@@ -26,6 +20,12 @@ DEPENDS+=		${PYPKGPREFIX}-pytz-[0-9]*:../../time/py-pytz
 DEPENDS+=		${PYPKGPREFIX}-blinker-[0-9]*:../../devel/py-blinker
 DEPENDS+=		${PYPKGPREFIX}-Unidecode-[0-9]*:../../textproc/py-Unidecode
 DEPENDS+=		${PYPKGPREFIX}-six-[0-9]*:../../wip/py-six
+
+VERSION=		3.2.2
+WRKSRC=			${WRKDIR}/${PKGNAME_NOREV}
+FETCH_USING=		curl
+
+PYTHON_VERSIONS_INCOMPATIBLE=26 33 # py-docutils
 
 .include "../../lang/python/application.mk"
 .include "../../lang/python/egg.mk"

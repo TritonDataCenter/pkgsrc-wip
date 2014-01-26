@@ -1,6 +1,7 @@
 # $NetBSD$
 
 DISTNAME=	toeplitz-0.1.2
+PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	math
 MASTER_SITES=	https://pypi.python.org/packages/source/t/toeplitz/
 FETCH_USING=	curl
@@ -11,13 +12,10 @@ COMMENT=	Wrapper for fortran 90 toeplitz package
 LICENSE=	mit
 
 PYDISTUTILSPKG=	yes
-
 USE_LANGUAGES=	c fortran
 
 post-extract:
 	${MV} ${WRKSRC}/scripts/toeplitz-runtests ${WRKSRC}/scripts/toeplitz-runtests${PYVERSSUFFIX}
-
-
 
 .include "../../lang/python/extension.mk"
 .include "../../math/py-numpy/buildlink3.mk"

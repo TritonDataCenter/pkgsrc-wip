@@ -1,5 +1,4 @@
 # $NetBSD$
-#
 
 DISTNAME=	s3funnel-0.5.2
 PKGREVISION=	1
@@ -14,6 +13,8 @@ DEPENDS+=       ${PYPKGPREFIX}-boto>=1.9:../../net/py-boto
 DEPENDS+=	${PYPKGPREFIX}-workerpool-[0-9]*:../../wip/py-workerpool
 
 USE_LANGUAGES=	# none
+
+PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-filechunkio via py-boto
 
 .include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"

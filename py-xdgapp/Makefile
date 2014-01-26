@@ -1,5 +1,4 @@
 # $NetBSD$
-#
 
 DISTNAME=	python-xdgapp-1.1
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME:S/python-//}
@@ -17,6 +16,7 @@ DEPENDS+=	${PYPKGPREFIX}-xdg>=0.17:../../devel/py-xdg
 USE_LANGUAGES=	# none
 
 PYDISTUTILSPKG=	yes
+PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-xdg
 
 .include "../../lang/python/extension.mk"
 .include "../../mk/bsd.pkg.mk"

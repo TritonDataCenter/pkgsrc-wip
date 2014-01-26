@@ -18,7 +18,7 @@ DEPENDS+=       ${PYPKGPREFIX}-networkx>=1.7:../../math/py-networkx
 DEPENDS+=       ${PYPKGPREFIX}-redis-py>=2.8.0:../../wip/py-redis-py
 
 PYTHON_VERSION_DEFAULT= 26 27
-PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-mysqldb
+PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-mysqldb, py-networkx
 
 .include "../../graphics/py-matplotlib/buildlink3.mk"
 .include "../../lang/python/egg.mk"

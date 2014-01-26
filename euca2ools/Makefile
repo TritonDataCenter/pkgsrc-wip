@@ -17,7 +17,7 @@ LICENSE=		2-clause-bsd
 DEPENDS+=		${PYPKGPREFIX}-boto>=2.2:../../net/py-boto
 DEPENDS+=		${PYPKGPREFIX}-m2crypto>=0.20.2:../../security/py-m2crypto
 
-PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-m2crypto
+PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-m2crypto, py-filechunkio via py-boto
 
 FETCH_USING=		curl
 DIST_SUBDIR=		${GIT_PKG}

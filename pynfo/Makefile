@@ -1,5 +1,4 @@
 # $NetBSD$
-#
 
 DISTNAME=		pynfo-0.6.3
 PKGNAME=		${PYPKGPREFIX}-${DISTNAME}
@@ -15,6 +14,7 @@ DEPENDS+=		${PYPKGPREFIX}-twisted>=1.1.1rc1:../../net/py-twisted
 
 PY_PATCHPLIST=		yes
 PYDISTUTILSPKG=		yes
+PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-twisted
 
 .include "../../lang/python/extension.mk"
 .include "../../mk/bsd.pkg.mk"

@@ -1,5 +1,4 @@
 # $NetBSD$
-#
 
 DISTNAME=	pythics-0.2.0
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
@@ -15,6 +14,7 @@ LICENSE=	gnu-gpl-v3
 USE_LANGUAGES=	# none
 
 PYDISTUTILSPKG=	yes
+PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-elementtree
 
 .include "../../graphics/py-matplotlib/buildlink3.mk"
 .include "../../lang/python/extension.mk"
