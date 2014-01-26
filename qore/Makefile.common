@@ -1,6 +1,7 @@
 # $NetBSD$
 # used by wip/qore/Makefile
 # used by wip/qore-json-module/Makefile
+# used by wip/qore-openldap-module/Makefile
 # used by wip/qore-ssh2-module/Makefile
 # used by wip/qore-uuid-module/Makefile
 # used by wip/qore-xml-module/Makefile
