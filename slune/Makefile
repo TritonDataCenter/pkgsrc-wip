@@ -12,14 +12,14 @@ COMMENT=		Action game, featuring cars, races and Tux the Penguin
 
 DEPENDS+=		${PYPKGPREFIX}-Py2Play>=0.1.6:../../wip/py-Py2Play
 DEPENDS+=		${PYPKGPREFIX}-Soya>=0.6.1:../../wip/py-Soya
-DEPENDS+=		${PYPKGPREFIX}-EditObj2>=0.5.2:../../wip/py-EditObj2
+DEPENDS+=		${PYPKGPREFIX}-EditObj2-[0-9]*:../../wip/py-EditObj2
 DEPENDS+=		${PYPKGPREFIX}-vorbis>=1.3:../../audio/py-vorbis
 
 PKG_DESTDIR_SUPPORT=	none
 
 PY_PATCHPLIST=		yes
 PYDISTUTILSPKG=		yes
-PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-vorbis
+PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-vorbis, py-EditObj2
 
 PYSETUPINSTALLARGS=	--install-lib ${PYSITELIB} --install-scripts ${PREFIX}/bin --install-data ${PREFIX}/share/
 
