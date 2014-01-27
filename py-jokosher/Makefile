@@ -26,7 +26,6 @@ SUBST_SED.share=	-e 's,/usr/share/,${PREFIX}/share/,g'
 REPLACE_PYTHON+=	Jokosher/JokosherApp.py Jokosher/Profiler.py
 
 PY_PATCHPLIST=		yes
-PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-xdg
 
 do-build:
 	cd ${WRKSRC} && ${SETENV} ${MAKE_ENV} ${PYTHONBIN} setup.py build

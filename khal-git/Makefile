@@ -34,7 +34,6 @@ REPLACE_PYTHON+=	khal/caldav.py
 REPLACE_PYTHON+=	khal/calendar_display.py
 REPLACE_PYTHON+=	khal/controllers.py
 REPLACE_PYTHON+=	khal/model.py
-PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-xdg
 
 post-install:
 	${INSTALL_DATA} ${WRKSRC}/khal.conf.sample ${DESTDIR}${PREFIX}/share/doc/khal
