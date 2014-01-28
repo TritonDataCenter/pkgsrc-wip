@@ -2989,6 +2989,7 @@ SUBDIR+=	qore-ssh2-module
 SUBDIR+=	qore-sqlite3-module
 SUBDIR+=	qore-uuid-module
 SUBDIR+=	qore-xml-module
+SUBDIR+=	qore-xmlsec-module
 SUBDIR+=	qore-yaml-module
 SUBDIR+=	qrint
 SUBDIR+=	qrq
