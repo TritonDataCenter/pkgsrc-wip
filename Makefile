@@ -3460,6 +3460,7 @@ SUBDIR+=	ussp-push
 SUBDIR+=	uthash
 SUBDIR+=	util-linux
 SUBDIR+=	v8
+SUBDIR+=	v8-316
 SUBDIR+=	vacuum
 SUBDIR+=	vagalume
 SUBDIR+=	vale-current
