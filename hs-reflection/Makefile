@@ -1,10 +1,9 @@
 # $NetBSD$
 
-DISTNAME=	reflection-1.3.2
+DISTNAME=	reflection-1.4
 CATEGORIES=	devel
 
 MAINTAINER=	szptvlfn@a-net.email.ne.jp
-HOMEPAGE=	http://github.com/ekmett/reflection
 COMMENT=	Reifies arbitrary terms into types
 LICENSE=	modified-bsd
 
