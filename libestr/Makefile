@@ -13,6 +13,7 @@ LICENSE=		gnu-gpl-v2
 GNU_CONFIGURE=		yes
 USE_LIBTOOL=		yes
 USE_TOOLS+=		pkg-config
+USE_MULTIARCH=		lib
 
 PKGCONFIG_OVERRIDE+=	libestr.pc.in
 
