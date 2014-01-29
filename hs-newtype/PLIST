@@ -1,0 +1,8 @@
+@comment $NetBSD$
+lib/newtype-${PKGVERSION}/${HASKELL_VERSION}/Control/Newtype.hi
+lib/newtype-${PKGVERSION}/${HASKELL_VERSION}/Control/Newtype.p_hi
+lib/newtype-${PKGVERSION}/${HASKELL_VERSION}/HSnewtype-${PKGVERSION}.o
+lib/newtype-${PKGVERSION}/${HASKELL_VERSION}/libHSnewtype-${PKGVERSION}.a
+lib/newtype-${PKGVERSION}/${HASKELL_VERSION}/libHSnewtype-${PKGVERSION}_p.a
+lib/newtype-${PKGVERSION}/${HASKELL_VERSION}/package-description
+share/doc/newtype-${PKGVERSION}/LICENSE
