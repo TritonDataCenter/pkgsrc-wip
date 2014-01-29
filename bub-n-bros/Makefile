@@ -18,11 +18,11 @@ MAKE_ENV+=		LDFLAGS=${LDFLAGS:M*:Q}
 
 USE_TOOLS+=		pax
 
-PYTHON_PATCH_SCRIPTS+=	bubbob/bb.py
-PYTHON_PATCH_SCRIPTS+=	bubbob/doc/bonus-doc.py
-PYTHON_PATCH_SCRIPTS+=	display/pclient.py
-PYTHON_PATCH_SCRIPTS+=	display/playback.py
-PYTHON_PATCH_SCRIPTS+=	http2/sf/bb12.py
+REPLACE_PYTHON+=	bubbob/bb.py
+REPLACE_PYTHON+=	bubbob/doc/bonus-doc.py
+REPLACE_PYTHON+=	display/pclient.py
+REPLACE_PYTHON+=	display/playback.py
+REPLACE_PYTHON+=	http2/sf/bb12.py
 
 PAX_SUBST=	-s ',*/setup.py,,' -s ',*/setup.py.pre,,'
 

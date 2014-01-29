@@ -14,6 +14,8 @@ LICENSE=	gnu-lgpl-v2
 DEPENDS+=	${PYPKGPREFIX}-networkx>=1.0.1:../../math/py-networkx
 DEPENDS+=	${PYPKGPREFIX}-dot>=1.0.2:../../graphics/py-dot
 
+PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-mxDateTime, py-networkx
+
 USE_LANGUAGES=	# none
 
 DOCDIR=	${PREFIX}/share/doc/py-pedal

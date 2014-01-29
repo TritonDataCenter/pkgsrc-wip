@@ -1,5 +1,4 @@
 # $NetBSD$
-#
 
 DISTNAME=	python-xdgapp-1.1
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME:S/python-//}

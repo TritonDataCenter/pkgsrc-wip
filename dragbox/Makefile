@@ -1,5 +1,4 @@
 # $NetBSD$
-#
 
 DISTNAME=	dragbox-0.4.0
 PKGREVISION=	2
@@ -22,6 +21,7 @@ USE_TOOLS+=	automake
 
 REPLACE_PYTHON+=	dragbox
 PY_PATCHPLIST=	yes
+PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-ORBit via py-gnome2, py-gtk2, py-gobject
 
 pre-configure:
 	set -e; cd ${WRKSRC}; \

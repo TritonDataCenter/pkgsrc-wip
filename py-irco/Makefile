@@ -11,10 +11,12 @@ HOMEPAGE=	https://github.com/GaretJax/irco
 COMMENT=	International Research Collaboration Graphs
 LICENSE=	mit
 
-USE_LANGUAGES=	# none
-
-.include "../../lang/python/egg.mk"
 DEPENDS+=	${PYPKGPREFIX}-networkx>=1.7:../../math/py-networkx
 DEPENDS+=	${PYPKGPREFIX}-country>=0.19:../../wip/py-country
 DEPENDS+=	${PYPKGPREFIX}-tablib-garetjax>=0.9.12:../../wip/py-tablib-garetjax
+
+USE_LANGUAGES=	# none
+PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-networkx
+
+.include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"

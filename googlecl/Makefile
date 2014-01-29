@@ -1,5 +1,4 @@
 # $NetBSD$
-#
 
 DISTNAME=	googlecl-0.9.13
 CATEGORIES=	net
@@ -15,6 +14,7 @@ INSTALLATION_DIRS=	${PKGMANDIR}/man1
 USE_LANGUAGES=	# none
 
 PYDISTUTILSPKG=	yes
+PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-gdata
 
 post-install:
 	${INSTALL_DATA} ${WRKSRC}/man/google.1 ${DESTDIR}${PREFIX}/${PKGMANDIR}/man1

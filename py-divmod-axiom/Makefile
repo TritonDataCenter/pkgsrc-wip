@@ -18,6 +18,7 @@ DEPENDS+=	${PYPKGPREFIX}-divmod-epsilon>=0.5.6:../../wip/py-divmod-epsilon
 PYDISTUTILSPKG=		yes
 PYTHON_VERSIONS_ACCEPTED=	26
 REPLACE_PYTHON+=	bin/axiomatic
+PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-sqlite2, py-twisted
 
 .include "../../lang/python/application.mk"
 .include "../../lang/python/extension.mk"

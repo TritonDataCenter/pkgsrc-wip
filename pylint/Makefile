@@ -14,12 +14,12 @@ LICENSE=    	gnu-gpl-v2
 DEPENDS+=	${PYPKGPREFIX}-Tk-[0-9]*:../../x11/py-Tk
 DEPENDS+=	${PYPKGPREFIX}-astroid>=1.0.1:../../wip/py-astroid
 
+PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-mxDateTime via py-logilab-common
+
 USE_LANGUAGES=	# none
 
 DOCDIR= ${PREFIX}/share/doc/pylint
 INSTALLATION_DIRS=  ${DOCDIR} ${PKGMANDIR}/man1
-
-PYTHON_VERSIONS_INCLUDE_3X=	yes
 
 post-install:
 	${INSTALL_MAN} ${WRKSRC}/man/*.1 \

@@ -5,7 +5,7 @@ BUILDLINK_TREE+=	hs-yaml
 .if !defined(HS_YAML_BUILDLINK3_MK)
 HS_YAML_BUILDLINK3_MK:=
 
-BUILDLINK_API_DEPENDS.hs-yaml+=	hs-yaml>=0.8.5.1
+BUILDLINK_API_DEPENDS.hs-yaml+=	hs-yaml>=0.8.5
 BUILDLINK_PKGSRCDIR.hs-yaml?=	../../wip/hs-yaml
 
 .include "../../wip/hs-aeson/buildlink3.mk"

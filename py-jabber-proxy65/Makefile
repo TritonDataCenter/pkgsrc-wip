@@ -21,6 +21,7 @@ DEPENDS+=	${PYPKGPREFIX}-OpenSSL>=0.6:../../security/py-OpenSSL
 
 # it's a python package using the standard Python packager
 PYDISTUTILSPKG=	yes
+PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-twisted
 
 # always include bsd.prefs.mk before any .if or .ifdef statements
 .include "../../mk/bsd.prefs.mk"

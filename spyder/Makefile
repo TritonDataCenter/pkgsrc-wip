@@ -19,6 +19,7 @@ USE_PKGLOCALEDIR=	yes
 USE_LANGUAGES= c		# none
 
 PYDISTUTILSPKG=	yes
+PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-ipython
 
 INSTALLATION_DIRS=     share/applications
 post-extract:

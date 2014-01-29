@@ -34,10 +34,11 @@ NO_BUILD=		yes
 
 RCD_SCRIPTS=	pyicqt
 
-PYTHON_PATCH_SCRIPTS+=	PyICQt.py
-PYTHON_PATCH_SCRIPTS+=	tools/infodump.py
-PYTHON_PATCH_SCRIPTS+=	tools/managessi.py
-PYTHON_PATCH_SCRIPTS+=	tools/migrate.py
+REPLACE_PYTHON+=	PyICQt.py
+REPLACE_PYTHON+=	tools/infodump.py
+REPLACE_PYTHON+=	tools/managessi.py
+REPLACE_PYTHON+=	tools/migrate.py
+PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-imaging, py-twisted
 
 TRANSPORTDIR=		${JABBER_TRANSDIR}/pyicqt
 

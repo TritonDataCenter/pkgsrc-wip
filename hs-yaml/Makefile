@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	yaml-0.8.5.2
+DISTNAME=	yaml-0.8.5.3
 CATEGORIES=	textproc
 
 MAINTAINER=	szptvlfn@a-net.email.ne.jp

@@ -1,5 +1,4 @@
 # $NetBSD$
-#
 
 DISTNAME=	joblib-0.6.4
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
@@ -15,8 +14,6 @@ LICENSE=	modified-bsd
 WRKSRC=		${WRKDIR}/joblib-0.6.4
 
 USE_LANGUAGES=	# none
-
-PYTHON_VERSIONS_INCLUDE_3X= yes
 
 .include "../../lang/python/distutils.mk"
 .include "../../mk/bsd.pkg.mk"

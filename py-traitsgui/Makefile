@@ -1,5 +1,6 @@
 # $NetBSD$
-#
+
+PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-wxWidgets
 
 .include "../../wip/py-traits/Makefile.version"
 

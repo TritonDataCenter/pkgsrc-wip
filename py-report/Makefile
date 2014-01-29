@@ -1,5 +1,4 @@
 # $NetBSD$
-#
 
 DISTNAME=	pyreport-0.3.4c
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME:S/py//}
@@ -13,9 +12,8 @@ LICENSE=	modified-bsd
 
 DEPENDS+=	${PYPKGPREFIX}-docutils>=0.8.1:../../textproc/py-docutils
 
-WRKSRC=		${WRKDIR}/pyreport-0.3.4c
-
 USE_LANGUAGES=	# none
+PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-docutils
 
 .include "../../graphics/py-matplotlib/buildlink3.mk"
 .include "../../lang/python/distutils.mk"

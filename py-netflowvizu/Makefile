@@ -18,8 +18,11 @@ USE_LANGUAGES=	# none
 
 PLIST_SUBST+=	PYVERSSUFFIX=${PYVERSSUFFIX}
 
+PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-xml
+
 post-extract:
 	${MV} ${WRKSRC}/net_flow_vizu_dia.py ${WRKSRC}/net_flow_vizu_dia.py${PYVERSSUFFIX}
+
 .include "../../lang/python/egg.mk"
 .include "../../textproc/py-xml/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

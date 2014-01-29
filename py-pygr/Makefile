@@ -1,5 +1,4 @@
 # $NetBSD$
-#
 
 DISTNAME=	pygr-0.8.0
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
@@ -18,6 +17,7 @@ DEPENDS+=	${PYPKGPREFIX}-pyrex-[0-9]*:../../lang/py-pyrex
 
 USE_LANGUAGES= c c++
 PLIST_SUBST+=	PYVERSSUFFIX=${PYVERSSUFFIX:Q}
+PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-mysqldb, py-pyrex
 
 .include "../../databases/py-bsddb3/buildlink3.mk"
 .include "../../lang/python/egg.mk"

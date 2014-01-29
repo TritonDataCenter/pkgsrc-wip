@@ -1,5 +1,4 @@
 # $NetBSD$
-#
 
 DISTNAME=	reinteract-0.5.10
 PKGREVISION=	2
@@ -16,10 +15,12 @@ GNU_CONFIGURE=	yes
 
 REPLACE_PYTHON+=	bin/reinteract.in
 PY_PATCHPLIST=	yes
+PYTHON_VERSIONED_DEPENDENCIES=	cairo
+PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-gobject
 
 .include "../../devel/py-gobject/buildlink3.mk"
 .include "../../devel/pango/buildlink3.mk"
-.include "../../graphics/py-cairo/buildlink3.mk"
+.include "../../lang/python/versioned_dependencies.mk"
 .include "../../graphics/py-matplotlib/buildlink3.mk"
 .include "../../math/py-numpy/buildlink3.mk"
 .include "../../lang/python/application.mk"

@@ -20,6 +20,7 @@ DEPENDS+=	${PYPKGPREFIX}-divmod-vertex>=0.2.0:../../wip/py-divmod-vertex
 
 PYDISTUTILSPKG=			yes
 PYTHON_VERSIONS_ACCEPTED=	26
+PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-twisted, py-xml via py-nevow
 
 .include "../../lang/python/extension.mk"
 .include "../../mk/bsd.pkg.mk"

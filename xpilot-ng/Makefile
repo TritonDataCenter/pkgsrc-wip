@@ -11,7 +11,7 @@ COMMENT=	Enhanced version of XPilot network space battle
 
 GNU_CONFIGURE=		yes
 
-PYTHON_PATCH_SCRIPTS=	mapconvert.py
+REPLACE_PYTHON=	mapconvert.py
 
 .include "../../textproc/expat/buildlink3.mk"
 .include "../../lang/python/application.mk"

@@ -1,5 +1,4 @@
 # $NetBSD$
-#
 
 DISTNAME=	PsychoPy-1.61.01
 EGG_NAME=	${DISTNAME}
@@ -14,6 +13,7 @@ HOMEPAGE=	http://code.google.com/p/psychopy/
 COMMENT=	Psychology and neuroscience software in python
 
 #DEPENDS+=	${PYPKGPREFIX}-OpenGL-[0-9]*:../../graphics/py-OpenGL
+#PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-Numeric via py-OpenGL
 
 USE_LANGUAGES=	# none
 

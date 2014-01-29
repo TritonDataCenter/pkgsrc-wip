@@ -1,5 +1,4 @@
 # $NetBSD$
-#
 
 DISTNAME=	django-gitrevision-0.1.4
 EGG_NAME=	${DISTNAME:S|o-|o_|:Q}
@@ -21,7 +20,6 @@ WRKSRC=		${WRKDIR}/django-gitrevision-0.1.4
 USE_LANGUAGES=	# none
 
 PLIST_SUBST+=	PYVERSSUFFIX=${PYVERSSUFFIX}
-PYTHON_VERSIONS_INCLUDE_3X=yes
 
 .include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"

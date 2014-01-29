@@ -1,20 +1,19 @@
 # $NetBSD$
 
 VER=		0.5.2
-DISTNAME=	Sumatra-${VER}.tar
-PKGNAME=	${PYPKGPREFIX}-${DISTNAME:S/S/s/S/.tar//}
+DISTNAME=	Sumatra-${VER}
+PKGNAME=	${PYPKGPREFIX}-${DISTNAME:S/S/s/}
 PKGREVISION=	1
 CATEGORIES=	biology python
 MASTER_SITES=	http://pypi.python.org/packages/source/S/Sumatra/
-EXTRACT_SUFX=	.gz
 
 MAINTAINER=	jihbed.research@gmail.com
+COMMENT=	Tracking projects based on numerical simulation or analysis
 HOMEPAGE=	http://neuralensemble.org/trac/sumatra/
 # The name of the licence is CeCILL [1] but it is GNU GPL v2 compatible [2]
 # [1] see work/Sumatra-0.4.0/COPYING
 # [2] http://projects.opensource.org/pipermail/license-review/2012-February/000269.html
 LICENSE=	gnu-gpl-v2
-COMMENT=	Tracking projects based on numerical simulation or analysis
 
 DEPENDS+=	mercurial>=1.6:../../devel/mercurial
 DEPENDS+=	git-base>=1.7.0.5:../../devel/git-base
@@ -30,6 +29,7 @@ WRKSRC=		${WRKDIR}/Sumatra-${VER}
 USE_LANGUAGES=	# none
 
 PYDISTUTILSPKG=	yes
+PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-django-tagging
 PLIST_SUBST+=	PYVERSSUFFIX=${PYVERSSUFFIX}
 PLIST_SUBST+=	THIS_EGG_INFODIR=${EGG_NAME:S|.tar||}-py${PYVERSSUFFIX}.egg-info
 

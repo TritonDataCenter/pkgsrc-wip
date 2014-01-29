@@ -27,7 +27,7 @@ SUBST_FILES.paths=	plucker-build.1	\
 			PyPlucker/__init__.py PyPlucker/helper/gettext.py
 SUBST_SED.paths=	-e 's,/usr/local,${PREFIX},g'
 
-PYTHON_PATCH_SCRIPTS=	PyPlucker/Spider.py PyPlucker/PluckerDocs.py	\
+REPLACE_PYTHON=	PyPlucker/Spider.py PyPlucker/PluckerDocs.py	\
 			PyPlucker/Decode.py
 PLIST_SUBST+=		PYSITELIB=${PYSITELIB:Q}
 

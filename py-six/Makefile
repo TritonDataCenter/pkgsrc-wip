@@ -1,5 +1,4 @@
 # $NetBSD$
-#
 
 DISTNAME=		six-1.3.0
 PKGNAME=		${PYPKGPREFIX}-${DISTNAME}
@@ -13,8 +12,6 @@ COMMENT=		Python 2 and 3 compatibility utilities
 LICENSE=		mit
 
 USE_LANGUAGES=	# none
-
-PYTHON_VERSIONS_INCLUDE_3X=	yes
 
 .include "../../lang/python/application.mk"
 .include "../../lang/python/egg.mk"

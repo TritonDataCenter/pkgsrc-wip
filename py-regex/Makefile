@@ -11,8 +11,6 @@ HOMEPAGE=	https://code.google.com/p/mrab-regex-hg
 COMMENT=	Alternative regular expression module, to replace re
 LICENSE=	python-software-foundation
 
-
-PYTHON_VERSIONS_INCLUDE_3X=yes
 PYDISTUTILSPKG=	yes
 
 .include "../../lang/python/extension.mk"

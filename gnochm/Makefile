@@ -1,5 +1,4 @@
 # $NetBSD$
-#
 
 DISTNAME=	gnochm-0.9.11
 CATEGORIES=	misc
@@ -19,6 +18,8 @@ CONFIGURE_ENV+=		PYTHON=${PYTHONBIN}
 USE_LIBTOOL=		yes
 USE_PKGLOCALEDIR=	yes
 USE_TOOLS+=		gmake intltool
+
+PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-ORBit via py-gnome2, py-gtk2
 
 GCONF_SCHEMAS+=	gnochm.schemas
 

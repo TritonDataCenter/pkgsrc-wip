@@ -1,5 +1,4 @@
 # $NetBSD$
-#
 
 DISTNAME=	gwyddion-2.20
 CATEGORIES=	graphics #science
@@ -34,6 +33,7 @@ PKG_SUGGESTED_OPTIONS=          pygwy fftw3
 .include "../../mk/bsd.options.mk"
 
 .if !empty (PKG_OPTIONS:Mpygwy)
+PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-gtk2
 .include "../../x11/py-gtk2/buildlink3.mk"
 CONFIGURE_ARGS+=	--enable-pygwy
 .endif

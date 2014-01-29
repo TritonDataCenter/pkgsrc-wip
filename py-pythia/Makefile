@@ -1,5 +1,4 @@
 # $NetBSD$
-#
 
 DISTNAME=	pythia-0.8.1.14
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
@@ -13,6 +12,8 @@ COMMENT=Framework for specifying and staging complex,multi-physics simulations
 LICENSE=	modified-bsd
 
 DEPENDS+=	${PYPKGPREFIX}-ipython>=0.10.2:../../devel/py-ipython
+
+PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-ipython
 
 PLIST_SUBST+=	PYVERSSUFFIX=${PYVERSSUFFIX}
 

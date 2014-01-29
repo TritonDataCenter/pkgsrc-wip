@@ -1,5 +1,4 @@
 # $NetBSD$
-#
 
 DISTNAME=		visionegg-0.9.9-demo
 PKGNAME=		py-visionegg-docs-0.9.9

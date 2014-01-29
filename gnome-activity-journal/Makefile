@@ -1,5 +1,4 @@
 # $NetBSD$
-#
 
 DISTNAME=	gnome-activity-journal-0.3.3
 PKGREVISION=	2
@@ -21,6 +20,8 @@ USE_TOOLS+=	intltool
 USE_LANGUAGES=	# none
 
 PYDISTUTILSPKG= 	yes
+PYTHON_VERSIONED_DEPENDENCIES=	cairo
+PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-ORBit via py-gnome2, py-gtk2, py-gobject
 
 GCONF_SCHEMAS+=	extra/gnome-activity-journal.schemas
 
@@ -37,7 +38,7 @@ SUBST_MESSAGE.paths=	Fixing header search paths.
 .include "../../devel/pango/buildlink3.mk"
 .include "../../devel/py-gobject/buildlink3.mk"
 .include "../../graphics/hicolor-icon-theme/buildlink3.mk"
-.include "../../graphics/py-cairo/buildlink3.mk"
+.include "../../lang/python/versioned_dependencies.mk"
 .include "../../lang/python/application.mk"
 .include "../../lang/python/extension.mk"
 .include "../../sysutils/desktop-file-utils/desktopdb.mk"

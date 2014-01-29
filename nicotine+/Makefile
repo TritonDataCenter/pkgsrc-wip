@@ -1,5 +1,4 @@
 # $NetBSD$
-#
 
 DISTNAME=	nicotine+-1.2.9
 PKGREVISION=	2
@@ -21,6 +20,7 @@ PKG_DESTDIR_SUPPORT=	none
 
 PY_PATCHPLIST=	yes
 PYDISTUTILSPKG= yes
+PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-vorbis, py-gtk2
 REPLACE_PYTHON=	pynicotine/gtkgui/glade2py.py
 
 SUBST_CLASSES+=		man

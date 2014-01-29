@@ -1,5 +1,4 @@
 # $NetBSD$
-#
 
 DISTNAME=	Scrapy-0.14.4
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
@@ -20,6 +19,7 @@ DEPENDS+=	${PYPKGPREFIX}-lxml>=2.2.1:../../textproc/py-lxml
 REPLACE_PYTHON=	${WRKSRC}/*.py
 
 PYDISTUTILSPKG=	yes
+PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-twisted
 
 .include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"

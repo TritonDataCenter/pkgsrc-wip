@@ -1,5 +1,4 @@
 # $NetBSD$
-#
 
 DISTNAME=		visionegg-0.9.9-demo
 PKGNAME=		${PYPKGPREFIX}-visionegg-demo-0.9.9
@@ -18,6 +17,8 @@ PLIST_SUBST+=		PYVERSSUFFIX=${PYVERSSUFFIX:Q}
 MESSAGE_SUBST+=		PY_VE_DIR=${PY_VE_DEMO_DIR}
 
 PY_VE_DEMO_DIR=		${PREFIX}/share/VisionEgg-${PYVERSSUFFIX}/demo
+
+PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-Numeric and py-OpenGL via py-visionegg
 
 do-install:
 	${INSTALL_DATA_DIR} ${DESTDIR}${PY_VE_DEMO_DIR}

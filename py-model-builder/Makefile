@@ -1,5 +1,4 @@
 # $NetBSD$
-#
 
 DISTNAME=	Model-Builder-0.4.6
 EGG_NAME=	Model_Builder-0.4.6
@@ -12,6 +11,8 @@ HOMEPAGE=	http://model-builder.sourceforge.net/
 COMMENT=	Graphical ODE simulator
 
 DEPENDS+=	${PYPKGPREFIX}-scipy>=0.7.0:../../math/py-scipy
+
+PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-wxWidgets
 
 USE_LANGUAGES=	# none
 

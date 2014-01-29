@@ -18,8 +18,6 @@ DEPENDS+=	${PYPKGPREFIX}-openpyxl>=1.6.2:../../wip/py-openpyxl
 
 USE_LANGUAGES=	# none
 
-PYTHON_VERSIONS_INCLUDE_3X=yes
-
 .include "../../graphics/py-matplotlib/buildlink3.mk"
 .include "../../lang/python/egg.mk"
 .include "../../math/py-numpy/buildlink3.mk"

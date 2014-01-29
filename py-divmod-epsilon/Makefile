@@ -14,7 +14,7 @@ COMMENT=	Python utilities package, most famous for its Time class
 DEPENDS+=	${PYPKGPREFIX}-twisted>=2.4.0:../../net/py-twisted
 
 PYDISTUTILSPKG=		yes
-PYTHON_VERSIONS_ACCEPTED=	26
+PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-twisted
 
 .include "../../lang/python/extension.mk"
 .include "../../mk/bsd.pkg.mk"

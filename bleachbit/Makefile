@@ -1,5 +1,4 @@
 # $NetBSD$
-#
 
 DISTNAME=	bleachbit-0.7.2
 CATEGORIES=	sysutils python
@@ -19,6 +18,7 @@ USE_TOOLS+=	pax
 USE_LANGUAGES=	# none
 
 PYDISTUTILSPKG= yes
+PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-gtk2, py-gobject
 
 ONLY_FOR_PLATFORM= NetBSD-*-* Linux-*-*
 

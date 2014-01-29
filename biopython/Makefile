@@ -10,8 +10,8 @@ HOMEPAGE=	http://biopython.org/
 COMMENT=	Python libraries for computational molecular biology
 LICENSE=	Biopython
 
-PYTHON_VERSIONS_INCLUDE_3X=yes
 PYDISTUTILSPKG=		YES
+PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-reportlab
 
 post-install:
 	${INSTALL_DATA_DIR} ${DESTDIR}${PREFIX}/share/doc/biopython

@@ -12,12 +12,15 @@ HOMEPAGE=	http://www.obspy.org/
 COMMENT=	Python framework for seismological observatories
 LICENSE=	gnu-lgpl-v3
 
+DEPENDS+=	${PYPKGPREFIX}-scipy>=0.12.0:../../math/py-scipy
+DEPENDS+=	${PYPKGPREFIX}-suds>=0.4:../../net/py-suds
+DEPENDS+=	${PYPKGPREFIX}-lxml>=3.2.3:../../textproc/py-lxml
+
 USE_LANGUAGES=	c fortran
+
+PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-suds
 
 .include "../../graphics/py-matplotlib/buildlink3.mk"
 .include "../../lang/python/distutils.mk"
 .include "../../math/py-numpy/buildlink3.mk"
-DEPENDS+=	${PYPKGPREFIX}-scipy>=0.12.0:../../math/py-scipy
-DEPENDS+=	${PYPKGPREFIX}-suds>=0.4:../../net/py-suds
-DEPENDS+=	${PYPKGPREFIX}-lxml>=3.2.3:../../textproc/py-lxml
 .include "../../mk/bsd.pkg.mk"

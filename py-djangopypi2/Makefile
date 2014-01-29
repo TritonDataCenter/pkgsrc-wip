@@ -1,5 +1,4 @@
 # $NetBSD$
-#
 
 DISTNAME=	djangopypi2-0.5.4
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
@@ -14,9 +13,8 @@ LICENSE=	2-clause-bsd
 DEPENDS+=	${PYPKGPREFIX}-docutils>=0.9:../../textproc/py-docutils
 DEPENDS+=	${PYPKGPREFIX}-django-[0-9]*:../../www/py-django
 
-WRKSRC=		${WRKDIR}/djangopypi2-0.5.4
-
 USE_LANGUAGES=	# none
+PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-docutils
 
 .include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"

@@ -1,5 +1,4 @@
 # $NetBSD$
-#
 
 DISTNAME=	dreampie-1.1
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
@@ -15,7 +14,7 @@ LICENSE=	gnu-gpl-v3
 USE_LANGUAGES=	# none
 
 PYDISTUTILSPKG=	yes
-PYTHON_VERSIONS_INCLUDE_3X=yes
+PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-gtk2, py-gobject
 
 .include "../../devel/libglade/buildlink3.mk"
 .include "../../devel/pango/buildlink3.mk"

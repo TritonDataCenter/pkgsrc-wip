@@ -22,6 +22,8 @@ post-install:
 	${INSTALL_DATA} ${WRKSRC}/COPYING.MIT \
 		${DESTDIR}${PREFIX}/share/qore-xml-module/license
 
+
+.include "../../wip/qore/plist-version.mk"
 .include "../../wip/qore/options.mk"
 
 .include "../../mk/pthread.buildlink3.mk"

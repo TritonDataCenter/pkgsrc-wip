@@ -1,5 +1,5 @@
 # $NetBSD$
-
+#
 # TODO:
 # CONF_FILES etc/bind10/cmdctl-accounts.csv
 #etc/bind10/cmdctl-certfile.pem
@@ -27,8 +27,7 @@ USE_LANGUAGES+=	c++
 USE_LIBTOOL=	yes
 USE_TOOLS+=	pkg-config
 PLIST_SUBST+=	PYSITELIB=${PYSITELIB:Q}
-PYTHON_VERSIONS_INCLUDE_3X=	yes
-PYTHON_VERSIONS_INCOMPATIBLE=	20 21 22 23 24 25 26 27
+PYTHON_VERSIONS_INCOMPATIBLE=	26 27
 
 PKG_INSTALLATION_TYPES=	overwrite pkgviews
 

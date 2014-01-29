@@ -46,7 +46,7 @@
 #            package B was compiled. So the installed package B is
 #            completely broken at this time.
 #
-# Public variables for users:
+# User-settable variables:
 #
 #   HASKELL_COMPILER
 #       Description:
@@ -56,7 +56,7 @@
 #       Default value:
 #           ghc
 #
-# Public variables for packages:
+# Package-settable variables:
 #
 #   HASKELL_ENABLE_LIBRARY_PROFILING
 #       Description:
@@ -66,24 +66,18 @@
 #       Default value:
 #           yes
 #
-#    HASKELL_ENABLE_HADDOCK_DOCUMENTATION
-#        Description:
-#            Whether haddock documentation should be built or not.
-#        Possible values:
-#            yes, no
-#        Default value:
-#            no
+#   HASKELL_ENABLE_HADDOCK_DOCUMENTATION
+#       Description:
+#           Whether haddock documentation should be built or not.
+#       Possible values:
+#           yes, no
+#       Default value:
+#           no
 
 .if !defined(HASKELL_MK)
 HASKELL_MK=	# defined
 
-
-# -----------------------------------------------------------------------------
-# This declaration should be placed in ../../mk/fetch/sites.mk
-#
-MASTER_SITE_HASKELL_HACKAGE?=	http://hackage.haskell.org/package/
-# -----------------------------------------------------------------------------
-
+.include "../../mk/bsd.fast.prefs.mk"
 
 # -----------------------------------------------------------------------------
 # This declaration should be placed in ../../mk/defaults/mk.conf
@@ -94,13 +88,6 @@ HASKELL_COMPILER?=	ghc
 # Possible: ghc
 # Default: ghc
 # -----------------------------------------------------------------------------
-
-
-# To be deprecated: if HASKELL_TYPE is set, copy its value to
-# HASKELL_COMPILER. The former is an old variable name of the latter.
-.if defined(HASKELL_TYPE)
-HASKELL_COMPILER?=	${HASKELL_TYPE}
-.endif
 
 
 # Declare HASKELL_COMPILER as one of BUILD_DEFS variables. See
@@ -132,7 +119,7 @@ PKGNAME?=	hs-${DISTNAME}
 # Default value of MASTER_SITES.
 _DISTBASE?=	${DISTNAME:C/-[^-]*$//}
 _DISTVERSION?=	${DISTNAME:C/^.*-//}
-MASTER_SITES?=	${MASTER_SITE_HASKELL_HACKAGE}${DISTNAME}/
+MASTER_SITES?=	${MASTER_SITE_HASKELL_HACKAGE:=${DISTNAME}/}
 
 # Default value of HOMEPAGE.
 HOMEPAGE?=	http://hackage.haskell.org/cgi-bin/hackage-scripts/package/${_DISTBASE}
@@ -154,8 +141,8 @@ HASKELL_ENABLE_HADDOCK_DOCUMENTATION?=	no
 .include "../../wip/ghc/buildlink3.mk"
 
 # Tools
-_GHC_BIN=			${PREFIX}/bin/ghc
-_GHC_PKG_BIN=		${PREFIX}/bin/ghc-pkg
+_GHC_BIN=		${BUILDLINK_PREFIX.ghc}/bin/ghc
+_GHC_PKG_BIN=		${BUILDLINK_PREFIX.ghc}/bin/ghc-pkg
 _HASKELL_BIN=		${_GHC_BIN} # Expose to the outer scope.
 _HASKELL_PKG_BIN=	${_GHC_PKG_BIN} # Expose to the outer scope.
 
@@ -186,7 +173,7 @@ PLIST.prof=		yes
 # Haddock documentations
 PLIST_VARS+=		doc
 .if ${HASKELL_ENABLE_HADDOCK_DOCUMENTATION} == "yes"
-CONFIGURE_ARGS+=	--with-haddock=${PREFIX}/bin/haddock
+CONFIGURE_ARGS+=	--with-haddock=${BUILDLINK_PREFIX.ghc}/bin/haddock
 PLIST.doc=		yes
 .endif
 
@@ -204,18 +191,20 @@ PRINT_PLIST_AWK+= \
 
 # We might not have any working Haskell interpreter so compile
 # Setup.?hs to a binary.
-Setup:
+pre-configure: ${WRKSRC}/Setup
+
+${WRKSRC}/Setup:
 	${RUN} cd ${WRKSRC} && \
 		${_HASKELL_BIN} --make Setup
 
 # Define configure target.
-do-configure: Setup
+do-configure:
 	${RUN} cd ${WRKSRC} && \
 		${SETENV} ${CONFIGURE_ENV} \
 			./Setup configure ${CONFIGURE_ARGS}
 
 # Define build target.
-do-build: Setup
+do-build:
 	${RUN} cd ${WRKSRC} && \
 		./Setup build
 .if ${HASKELL_ENABLE_HADDOCK_DOCUMENTATION} == "yes"
@@ -227,10 +216,10 @@ do-build: Setup
 # for package registration (if any).
 _HASKELL_PKG_DESCR_FILE=	${PREFIX}/lib/${DISTNAME}/${_HASKELL_VERSION}/package-description
 
-do-install: Setup
+do-install:
 	${RUN} cd ${WRKSRC} && \
 		./Setup register --gen-pkg-config=dist/package-description && \
-		if [ "${DESTDIR}" = "" ]; then \
+		if [ "${_USE_DESTDIR}" == "no" ]; then \
 			./Setup copy && \
 			if [ -f dist/package-description ]; then \
 				${INSTALL_DATA} dist/package-description ${_HASKELL_PKG_DESCR_FILE}; \

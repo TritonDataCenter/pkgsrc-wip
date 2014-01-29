@@ -13,7 +13,6 @@ LICENSE=	gnu-gpl-v3
 
 USE_LANGUAGES=	c c++
 
-PYTHON_VERSIONS_INCLUDE_3X= yes
 PYDISTUTILSPKG=	yes
 
 .include "../../devel/py-cython/buildlink3.mk"

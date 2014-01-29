@@ -1,5 +1,4 @@
 # $NetBSD$
-#
 
 DISTNAME=	logilab-mtconverter-0.8.0
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
@@ -14,6 +13,7 @@ COMMENT=	Library convert from a MIME type to another
 LICENSE=	gnu-gpl-v2
 
 USE_LANGUAGES=	# none
+PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-mxDateTime via py-logilab-common
 
 .include "../../lang/python/egg.mk"
 .include "../../devel/py-logilab-common/buildlink3.mk"

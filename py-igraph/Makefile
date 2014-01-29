@@ -1,5 +1,4 @@
 # $NetBSD$
-#
 
 DISTNAME=	python-igraph-0.5.3
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME:S|python-||}
@@ -14,8 +13,9 @@ COMMENT=	Manipulating Undirected And Directed Graphs for Python
 LICENSE=	gnu-gpl-v2
 
 PLIST_SUBST+=	PYVERSSUFFIX=${PYVERSSUFFIX}
+PYTHON_VERSIONED_DEPENDENCIES=	cairo
 
-.include "../../graphics/py-cairo/buildlink3.mk"
+.include "../../lang/python/versioned_dependencies.mk"
 .include "../../lang/python/egg.mk"
 .include "../../wip/igraph/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

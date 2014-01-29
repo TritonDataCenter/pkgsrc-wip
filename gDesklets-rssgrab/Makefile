@@ -17,7 +17,7 @@ NO_BUILD=	yes
 NAME=rssgrab
 GDESKLETSDIR=		${LOCALBASE}/share/gdesklets
 
-PYTHON_PATCH_SCRIPTS=	${NAME}/feedparser.py
+REPLACE_PYTHON=	${NAME}/feedparser.py
 
 post-extract:
 	${PYTHONBIN} ${WRKSRC}/Install_${NAME}_Sensor.bin --nomsg ${WRKSRC}

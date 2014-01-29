@@ -1,5 +1,4 @@
 # $NetBSD$
-#
 
 DISTNAME=	TaskCoach-1.2.31
 PKGNAME=	${DISTNAME:tl}
@@ -11,11 +10,12 @@ HOMEPAGE=	http://www.taskcoach.org/
 COMMENT=	Task Coach is a simple open source todo manager
 LICENSE=	gnu-gpl-v3
 
-USE_LANGUAGES=	# none
-
 DEPENDS+=	${PYPKGPREFIX}-wxWidgets>=2.8.9.1:../../x11/py-wxWidgets
 
+USE_LANGUAGES=	# none
+
 PYDISTUTILSPKG=	YES
+PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-wxWidgets
 
 SUBST_CLASSES+=		fix-cdll
 SUBST_STAGE.fix-cdll=	pre-configure

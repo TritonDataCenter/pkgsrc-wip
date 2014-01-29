@@ -1,5 +1,4 @@
 # $NetBSD$
-#
 
 DISTNAME=	microtetris
 PKGNAME=	${DISTNAME}-0.1
@@ -16,10 +15,11 @@ WRKSRC=		${WRKDIR}
 USE_LANGUAGES=	# none
 NO_BUILD=	yes
 
-
 INSTALLATION_DIRS=	bin
 
 REPLACE_PYTHON+=        ${DISTNAME}.py
+PYTHON_VERSIONED_DEPENDENCIES=	cairo
+PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-gtk2, py-gobject
 
 do-install:
 	${CHMOD} +x ${WRKSRC}/${DISTNAME}.py
@@ -28,7 +28,7 @@ do-install:
 
 
 .include "../../devel/py-gobject/buildlink3.mk"
-.include "../../graphics/py-cairo/buildlink3.mk"
 .include "../../x11/py-gtk2/buildlink3.mk"
 .include "../../lang/python/application.mk"
+.include "../../lang/python/versioned_dependencies.mk"
 .include "../../mk/bsd.pkg.mk"

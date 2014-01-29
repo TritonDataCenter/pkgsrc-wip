@@ -11,7 +11,11 @@ HOMEPAGE=	https://pypi.python.org/packages/source/G/GraTeLPy/
 COMMENT=	Graph theoretic linear stability analysis
 LICENSE=	gnu-gpl-v3
 
+DEPENDS+=	${PYPKGPREFIX}-networkx>=1.7:../../math/py-networkx
+
 USE_LANGUAGES=	# none
+
+PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-networkx
 
 post-extract:
 	${MV} ${WRKSRC}/bin/gratelpy_benchmark ${WRKSRC}/bin/gratelpy_benchmark${PYVERSSUFFIX}
@@ -22,6 +26,5 @@ post-extract:
 	${MV} ${WRKSRC}/bin/gratelpy_time ${WRKSRC}/bin/gratelpy_time${PYVERSSUFFIX}
 
 .include "../../lang/python/egg.mk"
-DEPENDS+=	${PYPKGPREFIX}-networkx>=1.7:../../math/py-networkx
 .include "../../math/py-numpy/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

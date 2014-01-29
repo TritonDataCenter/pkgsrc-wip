@@ -20,7 +20,7 @@ EXAMPLESDIR=		share/examples/pydance
 CONF_FILES+=		${EXAMPLESDIR}/pydance.cfg ${PKG_SYSCONFDIR}/pydance.cfg
 INSTALLATION_DIRS=	${PKGMANDIR}/man1 ${PKGMANDIR}/man6
 
-PYTHON_PATCH_SCRIPTS=	pydance.py utils/findbpm.py
+REPLACE_PYTHON=	pydance.py utils/findbpm.py
 
 do-build:
 	cd ${WRKSRC} && env ${MAKE_ENV} ${PYTHONBIN} setup.py

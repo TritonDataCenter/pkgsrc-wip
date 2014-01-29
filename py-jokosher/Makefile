@@ -1,5 +1,4 @@
 # $NetBSD$
-#
 
 DISTNAME=	jokosher-0.11.5
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}

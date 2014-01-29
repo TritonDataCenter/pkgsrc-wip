@@ -1,5 +1,4 @@
 # $NetBSD$
-#
 
 DISTNAME=	flyback_0.4.0
 PKGNAME=	${DISTNAME:S/_/-/}
@@ -17,6 +16,8 @@ DEPENDS+=	rsync-[0-9]*:../../net/rsync
 
 WRKSRC=		${WRKDIR}/flyback
 USE_LANGUAGES=	# none
+
+PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-ORBit via py-gnome2, py-sqlite2
 
 INSTALLATION_DIRS=	bin share/flyback
 

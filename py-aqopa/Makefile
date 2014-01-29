@@ -12,6 +12,8 @@ COMMENT=	Automated Quality of Protection Analysis Tool for QoP-ML models
 
 USE_LANGUAGES=	# none
 
+PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-wxWidgets
+
 .include "../../lang/python/egg.mk"
 .include "../../math/py-numpy/buildlink3.mk"
 .include "../../x11/py-wxWidgets/buildlink3.mk"

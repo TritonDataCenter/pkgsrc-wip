@@ -18,6 +18,7 @@ DEPENDS+=	${PYPKGPREFIX}-txamqp-[0-9]*:../../wip/py-txamqp
 ###
 .if !empty(PKG_OPTIONS:Mldap)
 DEPENDS+=	${PYPKGPREFIX}-ldap-[0-9]*:../../databases/py-ldap
+PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-ldap
 .endif
 
 ###
@@ -25,4 +26,5 @@ DEPENDS+=	${PYPKGPREFIX}-ldap-[0-9]*:../../databases/py-ldap
 ###
 .if !empty(PKG_OPTIONS:Mmemcached)
 DEPENDS+=	${PYPKGPREFIX}-[0-9]*:../../wip/py-memcached
+PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-memcached
 .endif

@@ -12,7 +12,7 @@ COMMENT=	TODO: Short description of the package
 
 EXTRACT_SUFX=	.tar.xz
 
-INSTALL_MAKE_FLAGS+=	PREFIX=${DESTDIR}${PREFIX}
+MAKE_ENV+=	STAGEDIR=${DESTDIR}
 
 DEPENDS+=	mcrypt:../../security/mcrypt
 

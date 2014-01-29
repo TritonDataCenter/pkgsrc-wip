@@ -10,13 +10,13 @@ HOMEPAGE=	http://nipy.org/nibabel
 COMMENT=	Access a multitude of neuroimaging data formats
 LICENSE=	mit
 
-WRKSRC=		${WRKDIR}/nibabel-1.3.0
-
-USE_LANGUAGES=	c
-
 DEPENDS+=	${PYPKGPREFIX}-nose>=0.11.3:../../devel/py-nose
 DEPENDS+=	${PYPKGPREFIX}-sphinx>=1.0.7:../../textproc/py-sphinx
 DEPENDS+=	${PYPKGPREFIX}-dicom>=0.9.8:../../wip/py-dicom
+
+USE_LANGUAGES=	c
+
+PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-fuse-bindings
 
 .include "../../lang/python/distutils.mk"
 .include "../../math/py-numpy/buildlink3.mk"

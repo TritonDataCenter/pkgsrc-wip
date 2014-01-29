@@ -31,7 +31,6 @@ BUILDLINK_API_DEPENDS.py-cython+=	${PYPKGPREFIX}-cython>=0.12.1
 CONFIGURE_ARGS+=	--disable-pyext
 .endif
 
-
 .include "../../devel/boost-headers/buildlink3.mk"
 .include "../../lang/python/application.mk"
 .include "../../mk/bsd.pkg.mk"

@@ -1,5 +1,4 @@
 # $NetBSD$
-#
 
 DISTNAME=	pyswarmsdk-0.7.1-sdist-20070501
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME:S/py//S/-sdist-20070501//}
@@ -12,6 +11,8 @@ COMMENT=	Model-driven development of Python applications
 LICENSE=	gnu-gpl-v2
 
 DEPENDS+=	${PYPKGPREFIX}-PgSQL>=2.4:../../databases/py-PgSQL
+
+PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-mxDateTime
 
 USE_LANGUAGES=	# none
 

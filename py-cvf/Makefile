@@ -1,5 +1,4 @@
 # $NetBSD$
-#
 
 DISTNAME=	pycvf-0.2.0
 EGG_NAME=	${DISTNAME}
@@ -19,6 +18,7 @@ DEPENDS+=	${PYPKGPREFIX}-multiprocessing>=2.6.2.1:../../devel/py-multiprocessing
 #DEPENDS+=	${PYPKGPREFIX}-scipy>=0.7.0:../../math/py-scipy
 
 USE_LANGUAGES=	# none
+PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-multiprocessing, py-imaging
 
 BUILDLINK_API_DEPENDS.pycython+= ${PYPKGPREFIX}-cython>=0.12.1
 .include "../../devel/py-cython/buildlink3.mk"

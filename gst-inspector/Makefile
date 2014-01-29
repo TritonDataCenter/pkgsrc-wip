@@ -1,6 +1,4 @@
 # $NetBSD$
-#
-
 
 DISTNAME=	gst-inspector-0.4
 PKGREVISION=	1
@@ -18,6 +16,7 @@ USE_TOOLS+=		intltool msgfmt gettext
 
 PY_PATCHPLIST=		yes
 PYDISTUTILSPKG=		yes
+PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-gtk2, py-gstreamer0.10, py-gobject
 
 .include "../../devel/libglade/buildlink3.mk"
 .include "../../devel/pango/buildlink3.mk"

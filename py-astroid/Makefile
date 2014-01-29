@@ -13,7 +13,7 @@ LICENSE=	gnu-lgpl-v3
 
 USE_LANGUAGES=	# none
 
-PYTHON_VERSIONS_INCLUDE_3X=	yes
+PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-mxDateTime via py-logilab-common
 
 .include "../../devel/py-logilab-common/buildlink3.mk"
 .include "../../lang/python/distutils.mk"

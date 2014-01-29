@@ -1,5 +1,4 @@
 # $NetBSD$
-#
 
 DISTNAME=	obmenu-1.0
 CATEGORIES=	wm
@@ -20,6 +19,7 @@ SUBST_SED.obmenu+=	-e 's|/usr/share|${LOCALBASE}/share|g'
 
 PYDISTUTILSPKG=	yes
 REPLACE_PYTHON=	${WRKSRC}/obmenu ${WRKSRC}/obxml.py
+PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-gtk2
 
 USE_LANGUAGES=	# none
 

@@ -1,5 +1,4 @@
 # $NetBSD$
-#
 
 DISTNAME=	py-1.0.2
 PKGNAME=	${PYPKGPREFIX}-lib-1.0.2
@@ -18,6 +17,7 @@ DEPENDS+=	${PYPKGPREFIX}-docutils>=0.5:../../textproc/py-docutils
 USE_LANGUAGES=	# none
 PLIST_SUBST+=	PYVERSSUFFIX=${PYVERSSUFFIX:Q}
 
+PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-docutils
 REPLACE_PYTHON+=	py/cmdline/pycleanup.py
 REPLACE_PYTHON+=	py/cmdline/pycountloc.py
 REPLACE_PYTHON+=	py/cmdline/pylookup.py

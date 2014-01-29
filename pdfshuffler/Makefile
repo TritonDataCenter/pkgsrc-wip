@@ -16,6 +16,7 @@ DEPENDS+=	${PYPKGPREFIX}-gtk2-[0-9]*:../../x11/py-gtk2
 
 USE_LANGUAGES=	# none
 REPLACE_PYTHON=	pdfshuffler/pdfshuffler.py pdfshuffler/pdfshuffler_iconview.py
+PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-gtk2
 
 SUBST_CLASSES+=		manpath
 SUBST_FILES.manpath+=	setup.py

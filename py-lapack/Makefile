@@ -1,5 +1,4 @@
 # $NetBSD$
-#
 
 VERSION=	0.21
 DISTNAME=	PyLapack
@@ -14,6 +13,7 @@ LICENSE=	gnu-lgpl-v2.1
 
 USE_LANGUAGES= fortran77
 PYDISTUTILSPKG=	yes
+PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-Numeric
 
 INSTALLATION_DIRS=	share/doc/py-lapack
 
