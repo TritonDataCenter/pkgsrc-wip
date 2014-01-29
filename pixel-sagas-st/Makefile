@@ -2,7 +2,6 @@
 
 DISTNAME=	pixels-sagas-st-201312
 CATEGORIES=	fonts
-
 MASTER_SITES=	http://www.pixelsagas.com/files/
 DISTFILES+=	PS_Font_Fontana.zip
 DISTFILES+=	PS_Font_Jefferies.zip
@@ -22,13 +21,13 @@ LICENSE=	pixel-sagas-shareware-license
 
 WRKSRC=		${WRKDIR}
 TTFPATH=	lib/X11/fonts/TTF
-FONTS_DIRS.ttf+=	${PREFIX}/${TTFPATH}
-INSTALLATION_DIRS=	${TTFPATH}
+FONTS_DIRS.ttf+=	${PREFIX}/${TTFPATH:Q}
+INSTALLATION_DIRS=	${TTFPATH:Q}
 NO_CONFIGURE=	yes
 NO_BUILD=	yes
 
 do-install:
-	${INSTALL_DATA_DIR} ${DESTDIR}${FONTS_DIRS.ttf}
-	${INSTALL_DATA} ${WRKSRC}/*.[OoTt][Tt][Ff] ${DESTDIR}${FONTS_DIRS.ttf}
+	${INSTALL_DATA_DIR} ${DESTDIR}${FONTS_DIRS.ttf:Q}
+	${INSTALL_DATA} ${WRKSRC}/*.[OoTt][Tt][Ff] ${DESTDIR}${FONTS_DIRS.ttf:Q}
 
 .include "../../mk/bsd.pkg.mk"
