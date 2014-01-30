@@ -5,7 +5,7 @@ DISTNAME=	opendnssec-1.4.0b1
 CATEGORIES=	net security
 MASTER_SITES=	http://www.opendnssec.org/files/source/testing/
 
-MAINTAINER=	pettai@NetBSD.org
+MAINTAINER=	pettai@nordu.net
 HOMEPAGE=	http://www.opendnssec.org/
 COMMENT=	OSS for a fast and easy DNSSEC deployment
 LICENSE=	2-clause-bsd
