@@ -12,7 +12,11 @@ LICENSE=	gnu-gpl-v2
 GNU_CONFIGURE=		yes
 USE_PKGLOCALEDIR=	yes
 USE_LANGUAGES=		c c++
+USE_TOOLS+=		bison msgfmt pkg-config
+PTHREAD_OPTS+=		require
 
-.include "../../x11/gtk2/buildlink3.mk"
+.include "../../mk/pthread.buildlink3.mk"
+.include "../../converters/libiconv/buildlink3.mk"
 .include "../../sysutils/desktop-file-utils/desktopdb.mk"
+.include "../../x11/gtk2/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
