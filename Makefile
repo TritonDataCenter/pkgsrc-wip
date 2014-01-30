@@ -2544,7 +2544,6 @@ SUBDIR+=	py-dolo
 SUBDIR+=	py-dreampie
 SUBDIR+=	py-duali
 SUBDIR+=	py-easydev
-SUBDIR+=	py-ecdsa
 SUBDIR+=	py-ecspy
 SUBDIR+=	py-editorconfig-core
 SUBDIR+=	py-ejson
