@@ -79,16 +79,6 @@ HASKELL_MK=	# defined
 
 .include "../../mk/bsd.fast.prefs.mk"
 
-# -----------------------------------------------------------------------------
-# This declaration should be placed in ../../mk/defaults/mk.conf
-#
-HASKELL_COMPILER?=	ghc
-# Used by haskell.mk to determine which Haskell compiler should be
-# used for building Haskell packages.
-# Possible: ghc
-# Default: ghc
-# -----------------------------------------------------------------------------
-
 
 # Declare HASKELL_COMPILER as one of BUILD_DEFS variables. See
 # ../../mk/misc/show.mk
