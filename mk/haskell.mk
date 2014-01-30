@@ -231,6 +231,11 @@ do-install:
 			fi \
 		fi
 
+# Define test target.
+do-test:
+	${RUN} cd ${WRKSRC} && \
+		./Setup test
+
 # Substitutions for INSTALL and DEINSTALL.
 FILES_SUBST+=	DISTNAME=${DISTNAME}
 FILES_SUBST+=	HASKELL_PKG_BIN=${_HASKELL_PKG_BIN}
