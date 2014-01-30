@@ -1,12 +1,11 @@
 # $NetBSD$
 
-DISTNAME=	reflection-1.4
+DISTNAME=	newtype-0.2
 CATEGORIES=	devel
 
 MAINTAINER=	szptvlfn@a-net.email.ne.jp
-COMMENT=	Reifies arbitrary terms into types
+COMMENT=	Typeclass and set of functions for working with newtypes
 LICENSE=	modified-bsd
 
 .include "../../wip/mk/haskell.mk"
-.include "../../wip/hs-tagged/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

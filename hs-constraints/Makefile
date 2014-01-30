@@ -1,12 +1,12 @@
 # $NetBSD$
 
-DISTNAME=	reflection-1.4
+DISTNAME=	constraints-0.3.4.2
 CATEGORIES=	devel
 
 MAINTAINER=	szptvlfn@a-net.email.ne.jp
-COMMENT=	Reifies arbitrary terms into types
+COMMENT=	Constraint manipulation
 LICENSE=	modified-bsd
 
 .include "../../wip/mk/haskell.mk"
-.include "../../wip/hs-tagged/buildlink3.mk"
+.include "../../wip/hs-newtype/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

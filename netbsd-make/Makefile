@@ -16,20 +16,12 @@ WRKSRC=			${WRKDIR}/bmake
 INSTALLATION_DIRS=	bin ${PKGMANDIR}/man1
 
 BOOTSTRAP_ARGS=		-q -o ${OPSYS} --prefix=${PREFIX} \
-			--with-default-sys-path=${makesyspath} \
-			--mksrc none --sysconfdir=${PKG_SYSCONFDIR}
+			--sysconfdir=${PKG_SYSCONFDIR}
 
 .include "../../mk/bsd.prefs.mk"
 
 .if ${OPSYS} == "SunOS" && exists(/usr/xpg4/bin/sh)
 BOOTSTRAP_ARGS+=	--with-defshell=/usr/xpg4/bin/sh
-.endif
-
-.if ${OPSYS} == "NetBSD"
-makesyspath=	/usr/share/mk
-.else
-makesyspath=	${PREFIX}/share/mk
-DEPENDS+=	bootstrap-mk-files-[0-9]*:../../pkgtools/bootstrap-mk-files
 .endif
 
 do-configure:
