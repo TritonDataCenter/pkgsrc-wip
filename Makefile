@@ -3120,6 +3120,7 @@ SUBDIR+=	scsh-install-lib
 SUBDIR+=	scummvm-nightly
 SUBDIR+=	scx
 SUBDIR+=	sdd
+SUBDIR+=	sdif-git
 SUBDIR+=	sdict-tools
 SUBDIR+=	seagull
 SUBDIR+=	sector-decomposition
