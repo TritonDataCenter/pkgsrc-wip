@@ -1,6 +1,8 @@
 @comment $NetBSD$
 lib/qore-modules/pgsql-api-0.17.qmod
 lib/qore-modules/pgsql.a
+share/qore-pgsql-module/license/COPYING.LGPL
+share/qore-pgsql-module/license/COPYING.MIT
 ${PLIST.doc}share/qore-pgsql-module/docs/pgsql/html/bc_s.png
 ${PLIST.doc}share/qore-pgsql-module/docs/pgsql/html/bdwn.png
 ${PLIST.doc}share/qore-pgsql-module/docs/pgsql/html/closed.png

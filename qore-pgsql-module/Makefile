@@ -17,6 +17,14 @@ PTHREAD_OPTS+=	require
 
 CONFIGURE_ARGS+=--with-doxygen=no
 
+#This is needed in order to comply the with MIT license and binary distribution
+INSTALLATION_DIRS+=     share/qore-pgsql-module/license
+post-install:
+	${INSTALL_DATA} ${WRKSRC}/COPYING.LGPL \
+		${DESTDIR}${PREFIX}/share/qore-pgsql-module/license
+	${INSTALL_DATA} ${WRKSRC}/COPYING.MIT \
+		${DESTDIR}${PREFIX}/share/qore-pgsql-module/license
+
 .include "../../wip/qore/options.mk"
 
 .include "../../mk/pgsql.buildlink3.mk"
