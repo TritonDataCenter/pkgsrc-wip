@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	2.1
+DISTNAME=	2.2
 PKGNAME=	vimb-${DISTNAME}
 CATEGORIES=	www
 MASTER_SITES=	https://github.com/fanglingsu/vimb/archive/
