@@ -1,6 +1,6 @@
 # $NetBSD$
 
-PKGNAME=	cursor-dmz-theme
+PKGNAME=	cursor-dmz-theme-0.4
 VERSION=	0.4
 CATEGORIES=	x11
 MASTER_SITES=	http://ponce.cc/slackware/sources/repo/
