@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	safe-0.3.3
+DISTNAME=	safe-0.3.4
 CATEGORIES=	devel
 
 MAINTAINER=	szptvlfn@a-net.email.ne.jp
