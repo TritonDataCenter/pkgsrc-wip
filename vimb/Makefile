@@ -10,8 +10,6 @@ HOMEPAGE=	http://fanglingsu.github.io/vimb/
 COMMENT=	Vim-like webkit browser
 LICENSE=	gnu-gpl-v3
 
-FETCH_USING=	curl	# XXX: https://
-
 NO_CONFIGURE=	yes
 USE_TOOLS+=	gmake pkg-config
 WRKSRC=		${WRKDIR}/${PKGNAME_NOREV}
