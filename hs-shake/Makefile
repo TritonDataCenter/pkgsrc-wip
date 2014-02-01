@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	shake-0.10.10
+DISTNAME=	shake-0.11
 CATEGORIES=	devel
 
 MAINTAINER=	szptvlfn@a-net.email.ne.jp
