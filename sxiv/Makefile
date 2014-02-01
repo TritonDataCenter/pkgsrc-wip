@@ -14,8 +14,6 @@ LICENSE=	gnu-gpl-v2
 
 NO_CONFIGURE=	yes
 
-FETCH_USING=	curl	# XXX: https://
-
 WRKSRC=${WRKDIR}/${PKGNAME_NOREV}
 
 SUBST_CLASSES+=		makefile
