@@ -2,7 +2,7 @@ $NetBSD: patch-src_cpuinfo_SDL_cpuinfo.c,v 1.1 2013/11/02 20:20:07 adam Exp $
 
 Fix building on NetBSD and OpenBSD.
 
---- src/cpuinfo/SDL_cpuinfo.c.orig	2013-11-02 19:57:32.000000000 +0000
+--- src/cpuinfo/SDL_cpuinfo.c.orig	2014-02-02 04:07:55.000000000 +0000
 +++ src/cpuinfo/SDL_cpuinfo.c
 @@ -621,7 +621,7 @@ SDL_GetSystemRAM(void)
  #endif
