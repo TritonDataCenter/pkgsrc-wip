@@ -2851,7 +2851,6 @@ SUBDIR+=	py-shtoom
 SUBDIR+=	py-siginterrupt
 SUBDIR+=	py-simplegeneric
 SUBDIR+=	py-simpleparse-mxtexttools
-SUBDIR+=	py-six
 SUBDIR+=	py-slowaes
 SUBDIR+=	py-smmap
 SUBDIR+=	py-smop
