@@ -788,7 +788,6 @@ SUBDIR+=	glulxe
 SUBDIR+=	glut
 SUBDIR+=	glw
 SUBDIR+=	glx-utils
-SUBDIR+=	glyr
 SUBDIR+=	gmc2mid
 SUBDIR+=	gmm
 SUBDIR+=	gmp-ecm
