@@ -1,11 +1,10 @@
 # $NetBSD$
 
-DATESTAMP=	20130407
+DATESTAMP=	20140105
 DISTNAME=	libcdata-alpha-${DATESTAMP}
 PKGNAME=	${DISTNAME:S/-alpha//1}
 CATEGORIES=	devel
 MASTER_SITES=	https://googledrive.com/host/0B3fBvzttpiiSRzFtamhtVUlwYm8/
-FETCH_USING=	curl
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://code.google.com/p/libcdata/
