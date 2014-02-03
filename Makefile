@@ -1441,6 +1441,7 @@ SUBDIR+=	libcouchbase
 SUBDIR+=	libcpath
 SUBDIR+=	libcpu
 SUBDIR+=	libcsplit
+SUBDIR+=	libcthreads
 SUBDIR+=	libcuba
 SUBDIR+=	libdbglog
 SUBDIR+=	libdbusmenu
