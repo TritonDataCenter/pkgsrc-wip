@@ -1,12 +1,11 @@
 # $NetBSD$
 #
 
-DATESTAMP=	20130609
+DATESTAMP=	20140105
 DISTNAME=	libcerror-alpha-${DATESTAMP}
 PKGNAME=	${DISTNAME:S/-alpha//1}
 CATEGORIES=	devel
 MASTER_SITES=	https://googledrive.com/host/0B3fBvzttpiiSV2xnMTZjSk5WVTg/
-FETCH_USING=	curl
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	https://code.google.com/p/libcerror/
