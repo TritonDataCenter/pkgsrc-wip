@@ -8,6 +8,7 @@ LIBBFIO_BUILDLINK3_MK:=
 BUILDLINK_API_DEPENDS.libbfio+=	libbfio>=20120425
 BUILDLINK_PKGSRCDIR.libbfio?=	../../wip/libbfio
 
+.include "../../wip/libcthreads/buildlink3.mk"
 .include "../../wip/libcfile/buildlink3.mk"
 .include "../../wip/libuna/buildlink3.mk"
 .include "../../wip/libcpath/buildlink3.mk"
