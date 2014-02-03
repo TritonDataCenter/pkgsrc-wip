@@ -282,6 +282,7 @@ SUBDIR+=	canna-lib
 SUBDIR+=	canna-server
 SUBDIR+=	carnival
 SUBDIR+=	cartago
+SUBDIR+=	casady-fonts
 SUBDIR+=	castget
 SUBDIR+=	cb2bib
 SUBDIR+=	ccrypt
