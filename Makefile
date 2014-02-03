@@ -2863,7 +2863,6 @@ SUBDIR+=	py-spfpm
 SUBDIR+=	py-sphinxreport
 SUBDIR+=	py-sppy
 SUBDIR+=	py-spyse
-SUBDIR+=	py-sqlsoup
 SUBDIR+=	py-srpy
 SUBDIR+=	py-ssh2
 SUBDIR+=	py-sshpt
