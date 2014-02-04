@@ -1,8 +1,8 @@
 # $NetBSD: options.mk,v 1.11 2010/12/23 11:44:54 dsainty Exp $
 
 PKG_OPTIONS_VAR=	PKG_OPTIONS.ghostscript
-PKG_SUPPORTED_OPTIONS=	x11 cups debug fontconfig disable-compile-inits
-PKG_SUGGESTED_OPTIONS=	x11 fontconfig
+PKG_SUPPORTED_OPTIONS=	x11 cups debug fontconfig disable-compile-inits utf8
+PKG_SUGGESTED_OPTIONS=	x11 fontconfig utf8
 
 .include "../../mk/bsd.options.mk"
 
@@ -64,4 +64,11 @@ CONFIGURE_ARGS+=        --disable-compile-inits
 PLIST.no_cidfmap=	YES
 .else
 PLIST.cidfmap=		YES
+.endif
+
+.if !empty(PKG_OPTIONS:Mutf8)
+.include "../../converters/libiconv/buildlink3.mk"
+CONFIGURE_ARGS+=	--with-libiconv=${ICONV_TYPE}
+.else
+CONFIGURE_ARGS+=	--with-libiconv=no
 .endif
