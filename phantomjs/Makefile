@@ -1,10 +1,10 @@
 # $NetBSD$
 #
 
-DISTNAME=	phantomjs-1.9.1-source
+DISTNAME=	phantomjs-1.9.7-source
 PKGNAME=	${DISTNAME:S/-source//}
 CATEGORIES=	www
-MASTER_SITES=	http://phantomjs.googlecode.com/files/
+MASTER_SITES=	http://bitbucket.org/ariya/phantomjs/downloads/
 EXTRACT_SUFX=	.zip
 
 MAINTAINER=	filip@joyent.com
