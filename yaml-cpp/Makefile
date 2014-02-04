@@ -2,6 +2,7 @@
 #
 
 DISTNAME=	yaml-cpp-0.5.1
+PKGREVISION=	1
 CATEGORIES=	textproc
 MASTER_SITES=	http://yaml-cpp.googlecode.com/files/
 
