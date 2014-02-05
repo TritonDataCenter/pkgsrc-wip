@@ -1,7 +1,7 @@
 # $NetBSD$
 
 DISTNAME=	fontaine_svn_r57_2012.02.01
-PKGNAME=	${DISTNAME:C/svn_r[[:digit:]]*_//}
+PKGNAME=	${DISTNAME:C/svn_r[[:digit:]]*_//:S/.//g:S/_/-/}
 CATEGORIES=	fonts
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=fontaine/}
 
