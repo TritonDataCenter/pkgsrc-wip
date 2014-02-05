@@ -2981,6 +2981,7 @@ SUBDIR+=	qmc2
 SUBDIR+=	qmpdclient
 SUBDIR+=	qn-x11
 SUBDIR+=	qore
+SUBDIR+=	qore-freetds-module
 SUBDIR+=	qore-json-module
 SUBDIR+=	qore-openldap-module
 SUBDIR+=	qore-pgsql-module
