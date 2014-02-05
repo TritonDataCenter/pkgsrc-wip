@@ -1,0 +1,4 @@
+@comment $NetBSD$
+lib/qore-modules/freetds-api-0.17.qmod
+lib/qore-modules/freetds.a
+${PLIST.doc}share/qore-freetds-module/freetds-module-doc.html
