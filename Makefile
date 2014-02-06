@@ -3215,6 +3215,7 @@ SUBDIR+=	sphinxbase
 SUBDIR+=	sphinxsearch
 SUBDIR+=	sphinxtrain
 SUBDIR+=	spidermonkey185
+SUBDIR+=	spidermonkey24
 SUBDIR+=	splix
 SUBDIR+=	spread4
 SUBDIR+=	spyder
