@@ -2984,6 +2984,7 @@ SUBDIR+=	qn-x11
 SUBDIR+=	qore
 SUBDIR+=	qore-freetds-module
 SUBDIR+=	qore-json-module
+SUBDIR+=	qore-mysql-module
 SUBDIR+=	qore-openldap-module
 SUBDIR+=	qore-pgsql-module
 SUBDIR+=	qore-ssh2-module
