@@ -1,0 +1,8 @@
+@comment $NetBSD$
+${PYSITELIB}/uptime/__init__.py
+${PYSITELIB}/uptime/__init__.pyc
+${PYSITELIB}/uptime/__init__.pyo
+${PYSITELIB}/uptime/__main__.py
+${PYSITELIB}/uptime/__main__.pyc
+${PYSITELIB}/uptime/__main__.pyo
+${PYSITELIB}/uptime/_posix.so

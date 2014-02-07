@@ -67,7 +67,7 @@ CMAKE_ARGS+=		-DENCODE_FRAMEDUMPS=OFF
 .endif
 
 .if !empty(PKG_OPTIONS:Msdl2)
-.include "../../wip/SDL2/buildlink3.mk"
+.include "../../devel/SDL2/buildlink3.mk"
 .endif
 
 .if !empty(PKG_OPTIONS:Msfml+)

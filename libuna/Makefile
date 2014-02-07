@@ -1,12 +1,11 @@
 # $NetBSD$
 #
 
-DATESTAMP=	20130609
+DATESTAMP=	20140105
 DISTNAME=	libuna-alpha-${DATESTAMP}
 PKGNAME=	${DISTNAME:S/alpha-//1}
 CATEGORIES=	converters
 MASTER_SITES=	https://googledrive.com/host/0B3fBvzttpiiSaXBjN1ZJVzVsbjQ/
-FETCH_USING=	curl
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://code.google.com/p/libuna/

@@ -1,17 +1,14 @@
 # $NetBSD$
 
-DISTNAME=	v0.17.3
-PKGNAME=	${PYPKGPREFIX}-pygit2-${DISTNAME:S/v//1}
+DISTNAME=	pygit2-0.20.1
+PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	devel
-MASTER_SITES=	https://github.com/libgit2/pygit2/archive/
-FETCH_USING=	curl
+MASTER_SITES=	https://pypi.python.org/packages/source/p/pygit2/
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	https://github.com/libgit2/pygit2
 COMMENT=	Python bindings to libgit2
 LICENSE=	gnu-gpl-v2
-
-WRKSRC=		${WRKDIR}/${PKGNAME_NOREV:S/${PYPKGPREFIX}-//1}
 
 PY_PATCHPLIST=			yes
 

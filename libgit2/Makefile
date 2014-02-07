@@ -1,11 +1,12 @@
 # $NetBSD$
 #
 
-DISTNAME=	v0.17.0
+DISTNAME=	v0.20.0
 PKGNAME=	libgit2-${DISTNAME:S/v//1}
 CATEGORIES=	devel
 MASTER_SITES=	https://github.com/libgit2/libgit2/archive/
-FETCH_USING=	curl
+DIST_SUBDIR=	${PKGBASE}
+EXTRACT_USING=	gtar
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://libgit2.github.com/
@@ -16,7 +17,7 @@ WRKSRC=		${WRKDIR}/${PKGNAME_NOREV}
 USE_TOOLS+=	pkg-config
 USE_CMAKE=	yes
 
-PKGCONFIG_OVERRIDE+=	libgit2-0.17.0/libgit2.pc.in
+PKGCONFIG_OVERRIDE+=	libgit2-0.20.0/libgit2.pc.in
 
 .include "../../lang/python/pyversion.mk"
 .include "../../devel/zlib/buildlink3.mk"

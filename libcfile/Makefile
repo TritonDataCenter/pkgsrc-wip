@@ -1,11 +1,10 @@
 # $NetBSD$
 
-DATESTAMP=	20130609
+DATESTAMP=	20140105
 DISTNAME=	libcfile-alpha-${DATESTAMP}
 PKGNAME=	${DISTNAME:S/-alpha//1}
 CATEGORIES=	sysutils
 MASTER_SITES=	https://googledrive.com/host/0B3fBvzttpiiSem41RXpvQkIyZlU/
-FETCH_USING=	curl
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	https://code.google.com/p/libcfile/

@@ -1,11 +1,10 @@
 # $NetBSD$
 
-DATESTAMP=	20130609
+DATESTAMP=	20140105
 DISTNAME=	libcnotify-alpha-${DATESTAMP}
 PKGNAME=	${DISTNAME:S/-alpha//1}
 CATEGORIES=	sysutils
 MASTER_SITES=	https://googledrive.com/host/0B3fBvzttpiiSb0xsMGNocEtGUjQ/
-FETCH_USING=	curl
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	https://code.google.com/p/libcnotify/

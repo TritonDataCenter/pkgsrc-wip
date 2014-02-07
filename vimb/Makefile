@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	2.1
+DISTNAME=	2.2
 PKGNAME=	vimb-${DISTNAME}
 CATEGORIES=	www
 MASTER_SITES=	https://github.com/fanglingsu/vimb/archive/
@@ -9,8 +9,6 @@ MAINTAINER=	leot1990@users.sourceforge.net
 HOMEPAGE=	http://fanglingsu.github.io/vimb/
 COMMENT=	Vim-like webkit browser
 LICENSE=	gnu-gpl-v3
-
-FETCH_USING=	curl	# XXX: https://
 
 NO_CONFIGURE=	yes
 USE_TOOLS+=	gmake pkg-config

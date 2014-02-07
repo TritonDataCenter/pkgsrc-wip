@@ -1,4 +1,0 @@
-@comment $NetBSD$
-include/SDL2/SDL_ttf.h
-lib/libSDL2_ttf.la
-lib/pkgconfig/SDL2_ttf.pc

@@ -36,4 +36,7 @@ include/yaml-cpp/stlemitter.h
 include/yaml-cpp/traits.h
 include/yaml-cpp/yaml.h
 lib/libyaml-cpp.a
+lib/libyaml-cpp.so
+lib/libyaml-cpp.so.0.5
+lib/libyaml-cpp.so.${PKGVERSION}
 lib/pkgconfig/yaml-cpp.pc

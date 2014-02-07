@@ -1,7 +1,7 @@
 # $NetBSD$
 
-DISTNAME=	rasterio-0.4
-PKGNAME=		${PYPKGPREFIX}-${DISTNAME}
+DISTNAME=	rasterio-0.5.1
+PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	math python
 MASTER_SITES=	https://pypi.python.org/packages/source/r/rasterio/
 FETCH_USING=	curl

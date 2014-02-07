@@ -1,8 +1,8 @@
 $NetBSD$
 
-SHA1 (gcc-4.9-20140119.tar.bz2) = c1db7a1970fe0e9bf695ff6444b71a979b94900b
-RMD160 (gcc-4.9-20140119.tar.bz2) = a721ba2295538f7b56b9f8979d66f2b894511b48
-Size (gcc-4.9-20140119.tar.bz2) = 84867798 bytes
+SHA1 (gcc-4.9-20140202.tar.bz2) = 481ca02e2d6570a0e316205c41e2143772268257
+RMD160 (gcc-4.9-20140202.tar.bz2) = 63a4e4321b73446f32130123a0325015f8f16212
+Size (gcc-4.9-20140202.tar.bz2) = 84765295 bytes
 SHA1 (patch-gcc_Makefile.in) = ce366a091960d335ecb022918e2f7bfc4e3fcccf
 SHA1 (patch-gcc_config.gcc) = 0919088f6d48c149f135828a9e6cf3bd935a3094
 SHA1 (patch-gcc_config_dragonfly-stdint.h) = 740dc819b446d5f1476506322c4b280ffdb5a6c0
