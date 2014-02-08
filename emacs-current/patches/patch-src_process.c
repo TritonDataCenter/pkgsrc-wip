@@ -2,12 +2,6 @@ $NetBSD$
 
 Avoid following problem:
   process.c:6169:58: error: 'WCONTINUED' undeclared (first use in this function)
-This  would probably be the same as following part in in <sys/wait.h>:
-+----
-| #define WALLSIG         0x00000008      /* wait for processes that exit
-|                                            with any signal, i.e. SIGCHLD
-|                                           and alternates */
-+----
 
 --- src/process.c.orig	2013-06-06 21:19:28.000000000 +0900
 +++ src/process.c	2013-06-06 21:20:14.000000000 +0900
