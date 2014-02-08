@@ -13,13 +13,9 @@ RESTRICTED=	For commercial use please contact the author.
 NO_BIN_ON_CDROM=	${RESTRICTED}
 NO_BIN_ON_FTP=		${RESTRICTED}
 
+INSTALLATION_DIRS=	bin
+
 WRKSRC=		${WRKDIR}/frink-2.2.2
 GNU_CONFIGURE=	yes
-
-AUTO_MKDIRS=	yes
-
-do-install:
-	${CP} ${WRKSRC}/frink ${DESTDIR}${PREFIX}/bin
-
 
 .include "../../mk/bsd.pkg.mk"
