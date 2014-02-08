@@ -8,7 +8,7 @@ MASTER_SITES=	ftp://catless.ncl.ac.uk/pub/
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://catless.ncl.ac.uk/Programs/Frink/
 COMMENT=	Frink is a tcl formatting and static syntax check program
-LICENSE=	modified-bsd
+#LICENSE=	modified-bsd with commercial-exploitaion-exception
 
 RESTRICTED=	For commercial use please contact the author.
 NO_BIN_ON_CDROM=	${RESTRICTED}
