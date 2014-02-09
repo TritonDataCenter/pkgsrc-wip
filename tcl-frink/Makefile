@@ -1,7 +1,6 @@
 # $NetBSD$
 
 DISTNAME=	frink-2.2.2p4
-PKGNAME=	tcl-frink-2.2.2p4
 CATEGORIES=	devel
 MASTER_SITES=	ftp://catless.ncl.ac.uk/pub/
 
