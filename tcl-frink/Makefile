@@ -2,7 +2,7 @@
 
 DISTNAME=	frink-2.2.2p4
 PKGNAME=	tcl-frink-2.2.2p4
-CATEGORIES=	lang
+CATEGORIES=	devel
 MASTER_SITES=	ftp://catless.ncl.ac.uk/pub/
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
