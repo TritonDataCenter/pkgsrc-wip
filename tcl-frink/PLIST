@@ -1,2 +1,4 @@
 @comment $NetBSD$
 bin/frink
+share/doc/frink/README
+share/doc/frink/COPYRIGHT
