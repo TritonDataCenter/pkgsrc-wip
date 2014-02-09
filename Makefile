@@ -2430,7 +2430,6 @@ SUBDIR+=	py-aipy
 SUBDIR+=	py-albatross
 SUBDIR+=	py-algebraic
 SUBDIR+=	py-algopy
-SUBDIR+=	py-altgraph
 SUBDIR+=	py-amqplib
 SUBDIR+=	py-anfft
 SUBDIR+=	py-antlr3
