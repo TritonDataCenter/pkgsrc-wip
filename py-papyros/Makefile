@@ -8,7 +8,7 @@ CATEGORIES=	devel python
 MASTER_SITES=	http://papyros.googlecode.com/files/
 EXTRACT_SUFX=	.zip
 
-MAINTAINER=	kamel.derouiche@gmail.com
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	http://code.google.com/p/papyros/
 COMMENT=	Pythonic parallel processing
 
