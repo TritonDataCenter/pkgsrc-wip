@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	Net-Twitter-Lite-0.12003
+DISTNAME=	Net-Twitter-Lite-0.12006
 PKGNAME=	p5-${DISTNAME}
 CATEGORIES=	net perl5
 MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=Net/}
