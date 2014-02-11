@@ -6,7 +6,7 @@ PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	devel python
 MASTER_SITES=	http://www.cs.tut.fi/~ask/rthread/
 
-MAINTAINER=	kamel.derouiche@gmail.com
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	http://www.cs.tut.fi/~ask/rthread/
 COMMENT=	Distributed computing with remote threads in Python
 LICENSE=	gnu-lgpl-v2
