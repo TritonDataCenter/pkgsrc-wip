@@ -6,7 +6,7 @@ PKGREVISION=	2
 CATEGORIES=	sysutils
 MASTER_SITES=	http://www.ndesk.org/archive/dbus-explorer/
 
-MAINTAINER=	kamel.derouiche@gmail.com
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	http://www.ndesk.org/DBusExplorer
 COMMENT=	GTK+ interface for viewing D-Bus service APIs written by C\#
 #LICENSE=	# TODO
