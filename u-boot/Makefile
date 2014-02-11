@@ -7,7 +7,7 @@ CATEGORIES=	sysutils
 MASTER_SITES=	ftp://ftp.denx.de/pub/u-boot/
 EXTRACT_SUFX=	.tar.bz2
 
-MAINTAINER=	noud4@home.nl
+MAINTAINER=	noud4@users.sourceforge.net
 HOMEPAGE=	http://www.denx.de/wiki/UBoot
 COMMENT=	The mkimage utility of the u-boot bootloader
 

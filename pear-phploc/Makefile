@@ -5,7 +5,7 @@ DISTNAME=	phploc-1.7.4
 CATEGORIES=	devel
 MASTER_SITES+=	http://pear.phpunit.de/get/
 
-MAINTAINER=	noud4@home.nl
+MAINTAINER=	noud4@users.sourceforge.net
 HOMEPAGE= 	http://pear.phpunit.de
 COMMENT=	A tool for quickly measuring the size of a project
 

@@ -5,7 +5,7 @@ DISTNAME=	PHP_PMD-1.4.1
 CATEGORIES=	devel
 MASTER_SITES+=	http://pear.phpmd.org/get/
 
-MAINTAINER=	noud4@home.nl
+MAINTAINER=	noud4@users.sourceforge.net
 HOMEPAGE= 	http://phpmd.org/
 COMMENT=	PHP Mess Detector
 LICENSE=	original-bsd

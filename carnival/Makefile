@@ -7,7 +7,7 @@ CATEGORIES=		audio
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=carnival/}
 EXTRACT_SUFX=		.zip
 
-MAINTAINER=		noud4@home.nl
+MAINTAINER=		noud4@users.sourceforge.net
 HOMEPAGE=		http://carnival.sourceforge.net/
 COMMENT=		GUI for Festival
 LICENSE=		gnu-gpl-v1

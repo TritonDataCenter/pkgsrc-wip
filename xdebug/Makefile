@@ -6,7 +6,7 @@ CATEGORIES=		devel
 MASTER_SITES=		http://xdebug.org/files/
 EXTRACT_SUFX=		.tgz
 
-MAINTAINER=		noud4@home.nl
+MAINTAINER=		noud4@users.sourceforge.net
 HOMEPAGE=		http://xdebug.org/
 COMMENT=		PHP extension for debugging
 LICENSE=		php	# XXX based on php

@@ -4,7 +4,7 @@ DISTNAME=	Text_Template-1.1.4
 CATEGORIES=	devel
 MASTER_SITES+=	http://pear.phpunit.de/get/
 
-MAINTAINER=	noud4@home.nl
+MAINTAINER=	noud4@users.sourceforge.net
 HOMEPAGE= 	http://pear.phpunit.de/
 COMMENT=	Simple template engine
 LICENSE=	modified-bsd

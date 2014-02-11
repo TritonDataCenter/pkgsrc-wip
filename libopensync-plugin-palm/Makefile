@@ -6,7 +6,7 @@ CATEGORIES=	comms
 MASTER_SITES=	http://www.opensync.org/download/releases/0.22/
 EXTRACT_SUFX=	.tar.bz2
 
-MAINTAINER=	noud4@home.nl
+MAINTAINER=	noud4@users.sourceforge.net
 HOMEPAGE=	http://www.opensync.org/download/releases/0.22/
 COMMENT=	Platform independent synchronization framework, palm plugin
 

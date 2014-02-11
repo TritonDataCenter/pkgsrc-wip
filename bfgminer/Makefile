@@ -6,7 +6,7 @@ CATEGORIES=	finance
 MASTER_SITES=	http://luke.dashjr.org/programs/bitcoin/files/bfgminer/${PKGVERSION_NOREV}/
 EXTRACT_SUFX=	.zip
 
-MAINTAINER=	noud4@home.nl
+MAINTAINER=	noud4@users.sourceforge.net
 HOMEPAGE=	http://bfgminer.org/
 COMMENT=	Modular ASIC/FPGA Bitcoin miner
 LICENSE=	gnu-gpl-v3

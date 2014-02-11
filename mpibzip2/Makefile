@@ -6,7 +6,7 @@ PKGREVISION=	1
 CATEGORIES=	archivers
 MASTER_SITES=	http://compression.ca/mpibzip2/
 
-MAINTAINER=	noud4@home.nl
+MAINTAINER=	noud4@users.sourceforge.net
 HOMEPAGE=	http://compression.ca/mpibzip2/
 COMMENT=	Parallel implementation of bzip2
 LICENSE=	original-bsd

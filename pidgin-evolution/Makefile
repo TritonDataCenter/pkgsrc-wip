@@ -5,7 +5,7 @@ PKGNAME=		pidgin-evolution-${PIDGIN_VERSION}
 COMMENT=		Evolution plugin for the Pidgin instant messenger
 
 .include "../../chat/libpurple/Makefile.common"
-MAINTAINER=		noud4@home.nl
+MAINTAINER=		noud4@users.sourceforge.net
 
 USE_TOOLS+=		msgfmt perl intltool
 

@@ -6,7 +6,7 @@ PKGNAME=	${DISTNAME:S|-linux||}
 CATEGORIES=	finance
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=bitcoin/}
 
-MAINTAINER=	noud4@home.nl
+MAINTAINER=	noud4@users.sourceforge.net
 HOMEPAGE=	http://bitcoin.sourceforge.net/
 COMMENT=	P2P electronic cash system
 LICENSE=	mit

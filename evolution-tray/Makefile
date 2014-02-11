@@ -5,7 +5,7 @@ DISTNAME=	evolution-tray-0.0.8
 CATEGORIES=	mail
 MASTER_SITES=	http://gnome.eu.org/
 
-MAINTAINER=	noud4@home.nl
+MAINTAINER=	noud4@users.sourceforge.net
 HOMEPAGE=	http://gnome.eu.org/index.php/Evolution_Tray
 COMMENT=	Put Evolution in tray
 LICENSE=	gnu-gpl-v2

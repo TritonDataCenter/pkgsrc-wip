@@ -6,7 +6,7 @@ CATEGORIES=	mail
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=logreporters/}
 EXTRACT_SUFX=	.tgz
 
-MAINTAINER=	noud4@home.nl
+MAINTAINER=	noud4@users.sourceforge.net
 HOMEPAGE=	http://logreporters.sourceforge.net/
 COMMENT=	Postfix log reporting utility
 LICENSE=	mit

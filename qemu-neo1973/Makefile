@@ -7,7 +7,7 @@ MASTER_SITES=		http://wiki.openmoko.org/
 SVN_REPOSITORY=		https://svn.openmoko.org/trunk/src/host/qemu-neo1973
 #NO_CHECKSUM=		yes
 
-MAINTAINER=		noud4@home.nl
+MAINTAINER=		noud4@users.sourceforge.net
 HOMEPAGE=		http://wiki.openmoko.org/wiki/OpenMoko_under_QEMU
 COMMENT=		Qemu OpenMoko Neo1973 phone emulator
 

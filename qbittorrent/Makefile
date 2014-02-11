@@ -4,7 +4,7 @@ DISTNAME=	qbittorrent-3.1.3
 CATEGORIES=	net
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=qbittorrent/}
 
-MAINTAINER=	noud4@home.nl
+MAINTAINER=	noud4@users.sourceforge.net
 HOMEPAGE=	http://www.qbittorrent.org/
 COMMENT=	P2P Bittorrent client
 LICENSE=	gnu-gpl-v2

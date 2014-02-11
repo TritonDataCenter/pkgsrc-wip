@@ -6,7 +6,7 @@ PKGREVISION=	1
 CATEGORIES=	sysutils
 MASTER_SITES=	ftp://ftp.infradead.org/pub/mtd-utils/
 
-MAINTAINER=	noud4@home.nl
+MAINTAINER=	noud4@users.sourceforge.net
 HOMEPAGE=	http://www.linux-mtd.infradead.org/
 COMMENT=	Memory Technology Device Tools
 

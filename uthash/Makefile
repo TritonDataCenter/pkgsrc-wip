@@ -6,7 +6,7 @@ CATEGORIES=		devel
 MASTER_SITES=		https://github.com/troydhanson/uthash/archive/
 EXTRACT_SUFX=		.zip
 
-MAINTAINER=		noud4@home.nl
+MAINTAINER=		noud4@users.sourceforge.net
 HOMEPAGE=		http://troydhanson.github.io/uthash/
 COMMENT=		Hash table, implemented in C
 #LICENSE=		bsd-revised	# TODO

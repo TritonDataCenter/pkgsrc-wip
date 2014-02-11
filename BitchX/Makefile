@@ -6,7 +6,7 @@ PKGREVISION=	1
 CATEGORIES=	chat
 MASTER_SITES=	http://www.bitchx.ca/
 
-MAINTAINER=	noud4@home.nl
+MAINTAINER=	noud4@users.sourceforge.net
 HOMEPAGE=	http://www.bitchx.org/
 COMMENT=	IRC client based on ircII
 

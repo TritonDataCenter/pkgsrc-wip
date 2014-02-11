@@ -4,7 +4,7 @@ DISTNAME=	FPDF-1.6.0
 CATEGORIES=	print
 MASTER_SITES+=	http://pearhub.org/get/
 
-MAINTAINER=	noud4@home.nl
+MAINTAINER=	noud4@users.sourceforge.net
 HOMEPAGE= 	http://www.pearhub.org/projects/FPDF
 COMMENT=	Unofficial PEAR FPDF-library
 LICENSE=	gnu-lgpl-v3
