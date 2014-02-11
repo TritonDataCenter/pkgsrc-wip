@@ -2,7 +2,7 @@
 
 DISTNAME=	kineticlib-0.3.1
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
-CATEGORIES=	wip
+CATEGORIES=	math
 MASTER_SITES=	https://pypi.python.org/packages/source/k/kineticlib/
 FETCH_USING=	curl
 
