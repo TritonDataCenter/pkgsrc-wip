@@ -5,7 +5,7 @@ PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	parallel python
 MASTER_SITES=	http://www.parallelpython.com/downloads/pp/
 
-MAINTAINER=	kamel.derouiche@gmail.com
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	http://www.parallelpython.com/
 COMMENT=	Parallel and distributed programming for Python
 LICENSE=	2-clause-bsd
