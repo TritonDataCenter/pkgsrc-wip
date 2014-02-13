@@ -34,9 +34,6 @@ SUBST_SED.df=		-e 's:thg_logo:${PREFIX}${thg_icon}:1'
 pre-build:
 	cd ${WRKSRC}/doc && ${MAKE_PROGRAM} html
 	rm ${WRKSRC}/doc/build/html/.buildinfo
-	mv ${WRKSRC}/doc/build/html ${WRKSRC}
-	mv ${WRKSRC}/contrib/mergetools.rc ${WRKSRC}
-	mv ${WRKSRC}/contrib/thg.desktop ${WRKSRC}
 
 .include "../../lang/python/application.mk"
 .include "../../lang/python/extension.mk"
