@@ -3385,6 +3385,7 @@ SUBDIR+=	tops-bin
 SUBDIR+=	tor-dev
 SUBDIR+=	torcs
 SUBDIR+=	torsocks
+SUBDIR+=	tortoisehg
 SUBDIR+=	tortunnel
 SUBDIR+=	tpp
 SUBDIR+=	tqsllib
