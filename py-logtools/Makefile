@@ -3,6 +3,7 @@
 
 DISTNAME=	logtools-0.8.6
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
+PKGREVISION=	1
 CATEGORIES=	www
 MASTER_SITES=	https://pypi.python.org/packages/source/l/logtools/
 
@@ -14,6 +15,7 @@ LICENSE=	apache-2.0
 DEPENDS+=	${PYPKGPREFIX}-prettytable>=0.5:../../textproc/py-prettytable
 DEPENDS+=	${PYPKGPREFIX}-sqlalchemy>=0.7.9:../../databases/py-sqlalchemy
 DEPENDS+=	${PYPKGPREFIX}-sqlsoup>=0.9.0:../../databases/py-sqlsoup
+DEPENDS+=	${PYPKGPREFIX}-acora>=1.7:../../textproc/py-acora
 
 USE_LANGUAGES=	# none
 USE_TOOLS+=	bash
