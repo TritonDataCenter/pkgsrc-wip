@@ -1,8 +1,7 @@
 # $NetBSD$
 
-DISTNAME=		Text-VimColor-0.14
+DISTNAME=		Text-VimColor-0.23
 PKGNAME=		p5-${DISTNAME}
-PKGREVISION=		1
 SVR4_PKGNAME=		p5tvc
 CATEGORIES=		textproc perl5
 MASTER_SITES=		${MASTER_SITE_PERL_CPAN:=Text/}
