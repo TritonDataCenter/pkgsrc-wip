@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	dlist-0.6
+DISTNAME=	dlist-0.6.0.1
 CATEGORIES=	devel
 
 MAINTAINER=	pho@cielonegro.org
