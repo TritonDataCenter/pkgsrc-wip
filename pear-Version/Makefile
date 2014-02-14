@@ -5,7 +5,7 @@ DISTNAME=	Version-1.0.1
 CATEGORIES=	devel
 MASTER_SITES+=	http://pear.phpunit.de/get/
 
-MAINTAINER=	noud4@home.nl
+MAINTAINER=	noud4@users.sourceforge.net
 HOMEPAGE= 	http://pear.phpunit.de/
 COMMENT=	Library that helps with managing the version number of Git-hosted PHP projects	
 LICENSE=	modified-bsd

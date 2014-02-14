@@ -6,7 +6,7 @@ CATEGORIES=	databases
 MASTER_SITES=	${MASTER_SITE_GNOME:=sources/contacts/${PKGVERSION_NOREV}/}
 EXTRACT_SUFX=	.tar.bz2
 
-MAINTAINER=	noud4@home.nl
+MAINTAINER=	noud4@users.sourceforge.net
 HOMEPAGE=	# gone
 COMMENT=	Contacts in Gnome using Evolution Database Server
 LICENSE=	gnu-gpl-v2

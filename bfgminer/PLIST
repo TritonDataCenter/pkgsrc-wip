@@ -17,6 +17,7 @@ share/doc/bfgminer/README.ASIC
 share/doc/bfgminer/README.CPU
 share/doc/bfgminer/README.FPGA
 share/doc/bfgminer/README.RPC
+share/doc/bfgminer/README.scrypt
 share/doc/bfgminer/example.conf
 share/doc/bfgminer/rpc-examples/api-example.c
 share/doc/bfgminer/rpc-examples/api-example.php

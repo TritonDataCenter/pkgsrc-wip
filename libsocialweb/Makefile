@@ -6,7 +6,7 @@ CATEGORIES=	chat
 MASTER_SITES=	${MASTER_SITE_GNOME:=sources/libsocialweb/0.25/}
 EXTRACT_SUFX=	.tar.bz2
 
-MAINTAINER=	noud4@home.nl
+MAINTAINER=	noud4@users.sourceforge.net
 HOMEPAGE=	http://projects.gnome.org/	# XXX
 COMMENT=	Personal social data server
 LICENSE=	gnu-lgpl-v2.1

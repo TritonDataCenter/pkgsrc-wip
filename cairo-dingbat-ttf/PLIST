@@ -1,0 +1,6 @@
+@comment $NetBSD$
+lib/X11/fonts/TTF/Cairo Unicode.ttf
+share/doc/cairo-dingbat-ttf/Cairo Read Me 1.txt
+share/doc/cairo-dingbat-ttf/Cairo Read Me 2.txt
+share/doc/cairo-dingbat-ttf/Cairo Read Me 3.txt
+share/doc/cairo-dingbat-ttf/Cairo.pdf

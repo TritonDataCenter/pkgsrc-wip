@@ -1,25 +1,22 @@
 # $NetBSD$
 
-DISTNAME=		master
-PKGNAME=		uthash-1.9.7
+DISTNAME=		v1.9.8
+PKGNAME=		${DISTNAME:S/v/uthash-/}
 CATEGORIES=		devel
 MASTER_SITES=		https://github.com/troydhanson/uthash/archive/
-EXTRACT_SUFX=		.zip
 
-MAINTAINER=		noud4@home.nl
+MAINTAINER=		noud4@users.sourceforge.net
 HOMEPAGE=		http://troydhanson.github.io/uthash/
 COMMENT=		Hash table, implemented in C
-#LICENSE=		bsd-revised	# TODO
+LICENSE=		2-clause-bsd # actually, 1-clause
 
-FETCH_USING=		curl
-DIST_SUBDIR=		uthash/${PKGVERSION_NOREV}
-WRKSRC=			${WRKDIR}/uthash-master
-USE_LANGUAGES=		c c++
-NO_BUILD=		YES
-INSTALLATION_DIRS+=	include
+DIST_SUBDIR=		uthash
+WRKSRC=			${WRKDIR}/${PKGNAME_NOREV}
+NO_BUILD=		yes
+INSTALLATION_DIRS+=	include share/doc/uthash
 
 do-install:
-	${INSTALL_DATA} ${WRKDIR}/uthash-${DISTNAME}/src/uthash.h ${DESTDIR}${PREFIX}/include
-	${INSTALL_DATA} ${WRKDIR}/uthash-${DISTNAME}/src/utlist.h ${DESTDIR}${PREFIX}/include
+	${INSTALL_DATA} ${WRKSRC}/src/*.h ${DESTDIR}${PREFIX}/include
+	${INSTALL_DATA} ${WRKSRC}/doc/* ${DESTDIR}${PREFIX}/share/doc/uthash
 
 .include "../../mk/bsd.pkg.mk"

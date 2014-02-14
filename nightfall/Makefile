@@ -5,7 +5,7 @@ DISTNAME=	nightfall-1.70
 CATEGORIES=	math
 MASTER_SITES=	http://www.la-samhna.de/nightfall/
 
-MAINTAINER=	kamel.derouiche@gmail.com
+MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	http://www.hs.uni-hamburg.de/DE/Ins/Per/Wichmann/Nightfall.html
 COMMENT=	Application for a producing a best-fit model for a binary star
 LICENSE=	gnu-gpl-v2

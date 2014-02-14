@@ -4,7 +4,7 @@ DISTNAME=	CakePHP_CodeSniffer-0.1.18
 CATEGORIES=	www
 MASTER_SITES+=	http://pear.cakephp.org/get/
 
-MAINTAINER=	noud4@home.nl
+MAINTAINER=	noud4@users.sourceforge.net
 HOMEPAGE= 	http://pear.cakephp.org/
 COMMENT=	CodeSniffer rules for checking code against the CakePHP coding standards
 LICENSE=	mit

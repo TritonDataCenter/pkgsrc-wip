@@ -5,7 +5,7 @@ DISTNAME=		dfu-util-${SVN_TAG.dfu-util}
 CATEGORIES=		comms
 MASTER_SITES=		#
 
-MAINTAINER=		noud4@home.nl
+MAINTAINER=		noud4@users.sourceforge.net
 HOMEPAGE=		http://wiki.openmoko.org/wiki/Dfu-util
 COMMENT=		Host side of the USB DFU protocol
 LICENSE=		gnu-gpl-v2

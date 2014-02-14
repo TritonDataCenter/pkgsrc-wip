@@ -10,6 +10,10 @@ COMMENT=	Tiling window manager
 
 LICENSE=	modified-bsd
 
+INSTALLATION_DIRS+=	${PKGMANDIR}/man1
+
+post-install:
+	${INSTALL_MAN} ${WRKSRC}/man/xmonad.1 ${DESTDIR}${PREFIX}/${PKGMANDIR}/man1
 
 .include "../../x11/libX11/buildlink3.mk"
 .include "../../wip/hs-mtl/buildlink3.mk"

@@ -8,7 +8,7 @@ CATEGORIES=	sysutils
 MASTER_SITES=	${MASTER_SITE_GNOME:=sources/tracker/0.16/}
 EXTRACT_SUFX=	.tar.xz
 
-MAINTAINER=	noud4@home.nl
+MAINTAINER=	noud4@users.sourceforge.net
 HOMEPAGE=	http://projects.gnome.org/tracker/
 COMMENT=	Extract information and metadata about your personal data
 LICENSE=	gnu-gpl-v2

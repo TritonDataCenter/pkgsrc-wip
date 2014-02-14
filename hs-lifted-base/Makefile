@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	lifted-base-0.2.1.1
+DISTNAME=	lifted-base-0.2.2.0
 CATEGORIES=	devel
 
 MAINTAINER=	szptvlfn@a-net.email.ne.jp

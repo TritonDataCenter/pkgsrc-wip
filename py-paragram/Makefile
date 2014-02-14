@@ -7,7 +7,7 @@ CATEGORIES=	devel
 MASTER_SITES=	http://gfxmonk.net/dist/0install/paragram/
 EXTRACT_SUFX=	.tgz
 
-MAINTAINER=	kamel.derouiche@gmail.com
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	http://gfxmonk.net/dist/0install/paragram/
 COMMENT=	Erlang-style concurrency library for python
 #LICENSE=	# TODO: (see mk/license.mk)

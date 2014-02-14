@@ -11,7 +11,7 @@ DISTFILES=	${DISTNAME}${EXTRACT_SUFX} \
 		u-boot-gta01bv4-1.3.1+svnr4297+gitb29661fc1151077776454288051bc9a488351ce8-r3${EXTRACT_SUFX} \
 		Openmoko-openmoko-devel-image-glibc-ipk-P1-Snapshot-20080430-om-gta01.rootfs.jffs2
 
-MAINTAINER=	noud4@home.nl
+MAINTAINER=	noud4@users.sourceforge.net
 HOMEPAGE=	http://openmoko.org/
 COMMENT=	Qemu Neo1973 Openmoko fileimage, kernel and booter
 

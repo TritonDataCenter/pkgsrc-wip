@@ -6,7 +6,7 @@ CATEGORIES=	devel
 MASTER_SITES=	http://pyevent.googlecode.com/files/
 EXTRACT_SUFX=	.zip
 
-MAINTAINER=	kamel.derouiche@gmail.com
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	http://code.google.com/p/pyevent/
 COMMENT=	Python extension module for libevent
 LICENSE=	modified-bsd

@@ -7,7 +7,7 @@ CATEGORIES=		chat net
 MASTER_SITES=		http://pidgin-twitterstatus.googlecode.com/files/
 EXTRACT_SUFX=		.pl
 
-MAINTAINER=		noud4@home.nl
+MAINTAINER=		noud4@users.sourceforge.net
 HOMEPAGE=		http://code.google.com/p/pidgin-twitterstatus/
 COMMENT=		Use your Twitter account as your Pidgin status message
 LICENSE=		gnu-gpl-v3

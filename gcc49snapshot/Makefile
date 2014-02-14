@@ -62,6 +62,8 @@ LDFLAGS_FOR_TARGET=	${LDFLAGS:M${COMPILER_RPATH_FLAG}*:N*/usr/lib*}
 BOOT_LDFLAGS=		-static-libstdc++ -static-libgcc ${LDFLAGS_FOR_TARGET}
 # Needed on Darwin when LDFLAGS point to a SDK
 BOOT_LDFLAGS+=		${LDFLAGS:M-Wl,-syslibroot*}
+# GCC does not understand this option; remove it, or stage build will fail
+BUILDLINK_TRANSFORM+=	rm:-stdlib=libc++
 
 ## For target librarys and libjava programs.
 CONFIGURE_ENV+=		LDFLAGS_FOR_TARGET=${LDFLAGS_FOR_TARGET:Q}

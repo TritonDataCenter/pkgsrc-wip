@@ -5,7 +5,7 @@ CATEGORIES=	multimedia
 MASTER_SITES=	${MASTER_SITE_GNOME:=sources/banshee/2.6/}
 EXTRACT_SUFX=	.tar.xz
 
-MAINTAINER=	noud4@home.nl
+MAINTAINER=	noud4@users.sourceforge.net
 HOMEPAGE=	http://banshee.fm/
 COMMENT=	Media player
 LICENSE=	mit

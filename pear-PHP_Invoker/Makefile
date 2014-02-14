@@ -5,7 +5,7 @@ DISTNAME=	PHP_Invoker-1.1.3
 CATEGORIES=	devel
 MASTER_SITES+=	http://pear.phpunit.de/get/
 
-MAINTAINER=	noud4@home.nl
+MAINTAINER=	noud4@users.sourceforge.net
 HOMEPAGE= 	http://pear.phpunit.de/
 COMMENT=	Utility class for invoking callables with a timeout
 LICENSE=	modified-bsd

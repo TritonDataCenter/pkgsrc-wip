@@ -7,7 +7,7 @@ MASTER_SITES=	https://pypi.python.org/packages/source/s/simplegeneric/
 EXTRACT_SUFX=	.zip
 FETCH_USING=	curl
 
-MAINTAINER=	kamel.derouiche@gmail.com
+MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	http://cheeseshop.python.org/pypi/simplegeneric
 COMMENT=	Simple generic functions for Python
 LICENSE=	zpl

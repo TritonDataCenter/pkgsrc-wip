@@ -7,7 +7,7 @@ CATEGORIES=	sysutils
 MASTER_SITES=	http://artificialtime.com/gsmartcontrol/
 EXTRACT_SUFX=	.tar.bz2
 
-MAINTAINER=	noud4@home.nl
+MAINTAINER=	noud4@users.sourceforge.net
 HOMEPAGE=	http://gsmartcontrol.berlios.de
 COMMENT=	Hard disk drive health inspection tool
 LICENSE=	gnu-gpl-v2 AND gnu-gpl-v3

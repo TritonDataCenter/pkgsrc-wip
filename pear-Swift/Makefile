@@ -4,7 +4,7 @@ DISTNAME=	Swift-5.0.1
 CATEGORIES=	mail
 MASTER_SITES+=	http://pear.swiftmailer.org/get/
 
-MAINTAINER=	noud4@home.nl
+MAINTAINER=	noud4@users.sourceforge.net
 HOMEPAGE= 	http://swiftmailer.org/
 COMMENT=	Free Feature-rich PHP Mailer
 LICENSE=	gnu-lgpl-v3

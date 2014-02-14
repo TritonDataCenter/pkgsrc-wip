@@ -14,6 +14,9 @@ ${PYSITELIB}/sciproc/scimulti-old2.pyo
 ${PYSITELIB}/sciproc/scimulti.py
 ${PYSITELIB}/sciproc/scimulti.pyc
 ${PYSITELIB}/sciproc/scimulti.pyo
+${PYSITELIB}/sciproc/sciop.py
+${PYSITELIB}/sciproc/sciop.pyc
+${PYSITELIB}/sciproc/sciop.pyo
 ${PYSITELIB}/sciproc/scisel.py
 ${PYSITELIB}/sciproc/scisel.pyc
 ${PYSITELIB}/sciproc/scisel.pyo

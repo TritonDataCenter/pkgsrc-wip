@@ -6,7 +6,7 @@ CATEGORIES=		net
 MASTER_SITES=		https://neon1.net/prog/ \
 			http://www.sourcefiles.org/Networking/Tools/General_Configuration/
 
-MAINTAINER=		noud4@home.nl
+MAINTAINER=		noud4@users.sourceforge.net
 HOMEPAGE=		https://neon1.net/prog/plconfig.html
 COMMENT=		Tool for configuring HomePlug powerline bridges
 

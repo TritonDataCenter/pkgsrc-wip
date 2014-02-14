@@ -5,7 +5,7 @@ DISTNAME=	PHP_CodeCoverage-1.2.13
 CATEGORIES=	devel
 MASTER_SITES+=	http://pear.phpunit.de/get/
 
-MAINTAINER=	noud4@home.nl
+MAINTAINER=	noud4@users.sourceforge.net
 HOMEPAGE= 	http://pear.phpunit.de/
 COMMENT=	Collection, processing, and rendering for PHP code coverage
 LICENSE=	modified-bsd

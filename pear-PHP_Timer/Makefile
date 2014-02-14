@@ -5,7 +5,7 @@ DISTNAME=	PHP_Timer-1.0.5
 CATEGORIES=	devel
 MASTER_SITES+=	http://pear.phpunit.de/get/
 
-MAINTAINER=	noud4@home.nl
+MAINTAINER=	noud4@users.sourceforge.net
 HOMEPAGE= 	http://pear.phpunit.de/
 COMMENT=	Utility class for timing	
 LICENSE=	modified-bsd

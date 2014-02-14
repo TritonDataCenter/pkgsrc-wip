@@ -5,7 +5,7 @@ PKGREVISION=	1
 CATEGORIES=	net
 MASTER_SITES=	http://gfeedline.googlecode.com/files/
 
-MAINTAINER=	noud4@home.nl
+MAINTAINER=	noud4@users.sourceforge.net
 HOMEPAGE=	http://code.google.com/p/gfeedline/
 COMMENT=	Social network client for GNOME
 LICENSE=	gnu-gpl-v3

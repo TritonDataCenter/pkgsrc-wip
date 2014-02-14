@@ -1,18 +1,18 @@
 # $NetBSD$
-#
 
-DISTNAME=	sciproc-0.3.1
+DISTNAME=	sciproc-0.7.18
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	math
-MASTER_SITES=	http://pypi.python.org/packages/source/s/sciproc/
+MASTER_SITES=	https://pypi.python.org/packages/source/s/sciproc/
+FETCH_USING=	curl
 
 MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	http://pypi.python.org/pypi/sciproc
 COMMENT=	Process scientific multidimensional data
-
-WRKSRC=		${WRKDIR}/sciproc-0.3.1
+LICENSE=	gnu-gpl-v3
 
 USE_LANGUAGES=	# none
+
 PYDISTUTILSPKG=	yes
 
 .include "../../math/py-numpy/buildlink3.mk"

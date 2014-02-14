@@ -4,7 +4,7 @@ DISTNAME=	Base-1.8
 CATEGORIES=	devel
 MASTER_SITES+=	http://components.ez.no/get/
 
-MAINTAINER=	noud4@home.nl
+MAINTAINER=	noud4@users.sourceforge.net
 HOMEPAGE= 	http://www.ezcomponents.org/docs/tutorials/Base
 COMMENT=	Basic functionality that all eZ Components need
 LICENSE=	modified-bsd

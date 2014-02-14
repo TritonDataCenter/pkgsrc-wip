@@ -5,7 +5,7 @@ DISTNAME=	phpdcd-0.9.3
 CATEGORIES=	devel
 MASTER_SITES+=	http://pear.phpunit.de/get/
 
-MAINTAINER=	noud4@home.nl
+MAINTAINER=	noud4@users.sourceforge.net
 HOMEPAGE= 	http://pear.phpunit.de/
 COMMENT=	Dead Code Detector (DCD) for PHP code
 LICENSE=	modified-bsd

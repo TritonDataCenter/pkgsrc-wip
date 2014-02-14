@@ -4,7 +4,7 @@ DISTNAME=	Finder-2.3.1
 CATEGORIES=	www
 MASTER_SITES+=	http://pear.symfony.com/get/
 
-MAINTAINER=	noud4@home.nl
+MAINTAINER=	noud4@users.sourceforge.net
 HOMEPAGE= 	http://symfony.com/
 COMMENT=	Symfony2 Finder Component
 LICENSE=	mit
