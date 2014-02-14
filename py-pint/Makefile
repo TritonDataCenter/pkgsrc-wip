@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	Pint-0.4
+DISTNAME=	Pint-0.4.2
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME:tl}
 CATEGORIES=	math
 MASTER_SITES=	https://pypi.python.org/packages/source/P/Pint/
