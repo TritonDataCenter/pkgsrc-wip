@@ -8,8 +8,9 @@ MASTER_SITES=		http://www.unix-ag.uni-kl.de/~massar/vpnc/
 
 SVN_ROOT.vpnc=		http://svn.unix-ag.uni-kl.de/vpnc/
 SVN_REPOSITORIES=	vpnc
+_SVN_CMD=		svn16
 
-MAINTAINER=		hauke@NetBSD.org
+MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://www.unix-ag.uni-kl.de/~massar/vpnc/
 COMMENT=		Client for Cisco3000 ipsec VPN Concentrator
 
