@@ -10,6 +10,7 @@ BUILDLINK_PKGSRCDIR.hs-aeson?=	../../wip/hs-aeson
 
 .include "../../wip/hs-attoparsec/buildlink3.mk"
 .include "../../wip/hs-blaze-builder/buildlink3.mk"
+.include "../../wip/hs-dlist/buildlink3.mk"
 .include "../../wip/hs-hashable/buildlink3.mk"
 .include "../../wip/hs-mtl/buildlink3.mk"
 .include "../../wip/hs-scientific/buildlink3.mk"
