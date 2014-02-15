@@ -6,7 +6,7 @@ CATEGORIES=	cad
 MASTER_SITES=	ftp://icarus.com/pub/eda/verilog/snapshots/
 
 MAINTAINER=	dmcmahill@NetBSD.org
-HOMEPAGE=	http://icarus.com/eda/verilog/index.html
+HOMEPAGE=	http://iverilog.icarus.com/
 COMMENT=	Verilog simulation and synthesis tool (development snapshot version)
 LICENSE=	gnu-gpl-v2
 
