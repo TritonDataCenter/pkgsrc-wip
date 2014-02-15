@@ -2131,7 +2131,6 @@ SUBDIR+=	p5-Sys-MemInfo
 SUBDIR+=	p5-Task-Catalyst
 SUBDIR+=	p5-Template-Plugin-Class
 SUBDIR+=	p5-Term-Encoding
-SUBDIR+=	p5-Test-Assertions-TestScript
 SUBDIR+=	p5-Test-Unit-Lite
 SUBDIR+=	p5-Test-WWW-Mechanize-CGIApp
 SUBDIR+=	p5-Test-XML
