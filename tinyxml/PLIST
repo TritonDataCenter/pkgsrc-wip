@@ -1,6 +1,0 @@
-@comment $NetBSD$
-include/tinyxml.h
-lib/libtinyxml.a
-lib/libtinyxml.so
-lib/libtinyxml.so.2
-lib/libtinyxml.so.${PKGVERSION}

@@ -3367,7 +3367,6 @@ SUBDIR+=	tinyca2
 SUBDIR+=	tinycobol
 SUBDIR+=	tinyfugue-beta
 SUBDIR+=	tinylogin
-SUBDIR+=	tinyxml
 SUBDIR+=	tipp10
 SUBDIR+=	tk-tkimg
 SUBDIR+=	tk85-itk
