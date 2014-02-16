@@ -1,6 +1,7 @@
 # $NetBSD$
 
 DISTNAME=	qore-opengl-module-0.0.3
+PKGREVISION=	1
 CATEGORIES=	graphics
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=qore/}
 
