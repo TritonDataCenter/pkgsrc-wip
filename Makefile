@@ -2804,7 +2804,6 @@ SUBDIR+=	py-rdf
 SUBDIR+=	py-rdflib
 SUBDIR+=	py-rdflib-django
 SUBDIR+=	py-recluse
-SUBDIR+=	py-redis-py
 SUBDIR+=	py-regex
 SUBDIR+=	py-remctl
 SUBDIR+=	py-report
