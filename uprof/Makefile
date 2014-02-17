@@ -5,7 +5,7 @@ DISTNAME=	0.3
 PKGNAME=	uprof-${DISTNAME}
 CATEGORIES=	devel
 MASTER_SITES=	https://github.com/rib/UProf/archive/
-FETCH_USING=	curl
+DIST_SUBDIR=	${PKGBASE}
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	https://github.com/rib/UProf
