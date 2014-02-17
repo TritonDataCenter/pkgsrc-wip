@@ -735,7 +735,6 @@ SUBDIR+=	gde
 SUBDIR+=	gdmap
 SUBDIR+=	gdvb
 SUBDIR+=	geant
-SUBDIR+=	gearmand
 SUBDIR+=	gecko-sharp
 SUBDIR+=	gecode
 SUBDIR+=	gemrb
