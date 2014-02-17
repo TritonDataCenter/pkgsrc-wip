@@ -6,7 +6,7 @@ CATEGORIES=	fonts
 MASTER_SITES=	http://christtrekker.users.sourceforge.net/fnt/
 EXTRACT_SUFX=	.tgz
 
-MAINTAINER=	christtrekker@users.sourceforge.net
+OWNER=		christtrekker@users.sourceforge.net
 HOMEPAGE=	http://christtrekker.users.sourceforge.net/fnt/cairo.shtml
 COMMENT=	Outline version of old Macintosh font
 LICENSE=	cc-by-sa-v3.0

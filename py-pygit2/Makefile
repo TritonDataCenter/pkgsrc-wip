@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	pygit2-0.20.1
+DISTNAME=	pygit2-0.20.2
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	devel
 MASTER_SITES=	https://pypi.python.org/packages/source/p/pygit2/
@@ -10,7 +10,7 @@ HOMEPAGE=	https://github.com/libgit2/pygit2
 COMMENT=	Python bindings to libgit2
 LICENSE=	gnu-gpl-v2
 
-PY_PATCHPLIST=			yes
+PY_PATCHPLIST=	yes
 
 do-build:
 	cd ${WRKSRC} && ${SETENV} ${MAKE_ENV} ${PYTHONBIN} setup.py build

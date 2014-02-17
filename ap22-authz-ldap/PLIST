@@ -1,6 +1,0 @@
-@comment $NetBSD$
-bin/cert2ldap
-bin/certfind
-lib/httpd/mod_authz_ldap.so
-man/man1/cert2ldap.1
-man/man1/certfind.1
