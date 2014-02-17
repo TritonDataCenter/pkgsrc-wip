@@ -42,5 +42,5 @@ do-install:
 .include "../../x11/qt4-libs/buildlink3.mk"
 .include "../../x11/qt4-tools/buildlink3.mk"
 .include "../../sysutils/desktop-file-utils/desktopdb.mk"
-.include "../../wip/tinyxml/buildlink3.mk"
+.include "../../textproc/tinyxml/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
