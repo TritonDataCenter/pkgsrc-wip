@@ -1637,7 +1637,6 @@ SUBDIR+=	maloc
 SUBDIR+=	man
 SUBDIR+=	man-db
 SUBDIR+=	manatee
-SUBDIR+=	manifold
 SUBDIR+=	map-browse
 SUBDIR+=	mapnik
 SUBDIR+=	marathon-scenarios
