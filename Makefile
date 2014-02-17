@@ -2652,7 +2652,6 @@ SUBDIR+=	py-libtorrent-rasterbar
 SUBDIR+=	py-libtunepimp
 SUBDIR+=	py-linop
 SUBDIR+=	py-liveplots
-SUBDIR+=	py-logan
 SUBDIR+=	py-loggly
 SUBDIR+=	py-logilab-database
 SUBDIR+=	py-logilab-mtconverter
