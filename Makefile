@@ -2151,6 +2151,7 @@ SUBDIR+=	p5-Tk-TableMatrix
 SUBDIR+=	p5-URI-Find-Rule
 SUBDIR+=	p5-URI-Title
 SUBDIR+=	p5-Unicode-CheckUTF8
+SUBDIR+=	p5-WWW-YouTube-Download
 SUBDIR+=	p5-WWW-YouTube-VideoURI
 SUBDIR+=	p5-WebService-Audioscrobbler
 SUBDIR+=	p5-WebService-CIA
