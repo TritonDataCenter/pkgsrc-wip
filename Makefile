@@ -2549,7 +2549,6 @@ SUBDIR+=	py-duali
 SUBDIR+=	py-easydev
 SUBDIR+=	py-ecspy
 SUBDIR+=	py-editorconfig-core
-SUBDIR+=	py-ejson
 SUBDIR+=	py-embedc
 SUBDIR+=	py-emmsa
 SUBDIR+=	py-enre
