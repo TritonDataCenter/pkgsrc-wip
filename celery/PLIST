@@ -1,8 +1,8 @@
 @comment $NetBSD$
-bin/celery
-bin/celerybeat
-bin/celeryd
-bin/celeryd-multi
+bin/celery${PYVERSSUFFIX}
+bin/celerybeat${PYVERSSUFFIX}
+bin/celeryd${PYVERSSUFFIX}
+bin/celeryd-multi${PYVERSSUFFIX}
 ${PYSITELIB}/${EGG_INFODIR}/PKG-INFO
 ${PYSITELIB}/${EGG_INFODIR}/SOURCES.txt
 ${PYSITELIB}/${EGG_INFODIR}/dependency_links.txt
@@ -184,6 +184,9 @@ ${PYSITELIB}/celery/contrib/migrate.pyo
 ${PYSITELIB}/celery/contrib/rdb.py
 ${PYSITELIB}/celery/contrib/rdb.pyc
 ${PYSITELIB}/celery/contrib/rdb.pyo
+${PYSITELIB}/celery/contrib/sphinx.py
+${PYSITELIB}/celery/contrib/sphinx.pyc
+${PYSITELIB}/celery/contrib/sphinx.pyo
 ${PYSITELIB}/celery/datastructures.py
 ${PYSITELIB}/celery/datastructures.pyc
 ${PYSITELIB}/celery/datastructures.pyo
