@@ -3,7 +3,7 @@
 
 DISTNAME=	celery-3.1.9
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
-CATEGORIES=	net
+CATEGORIES=	net python
 MASTER_SITES=	https://pypi.python.org/packages/source/c/celery/
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
