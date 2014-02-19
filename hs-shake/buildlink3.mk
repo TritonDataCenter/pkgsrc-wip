@@ -5,7 +5,7 @@ BUILDLINK_TREE+=	hs-shake
 .if !defined(HS_SHAKE_BUILDLINK3_MK)
 HS_SHAKE_BUILDLINK3_MK:=
 
-BUILDLINK_API_DEPENDS.hs-shake+=	hs-shake>=0.11.1
+BUILDLINK_API_DEPENDS.hs-shake+=	hs-shake>=0.11.2
 BUILDLINK_PKGSRCDIR.hs-shake?=	../../wip/hs-shake
 
 .include "../../wip/hs-hashable/buildlink3.mk"
