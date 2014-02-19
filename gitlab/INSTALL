@@ -50,7 +50,6 @@ case ${STAGE} in
 	sudo -u git -H git config --global core.autocrlf input; \
 	sudo -u git -H ${CP} config/database.yml.mysql config/database.yml; \
 	sudo -u git -H ${CHMOD} o-rwx config/database.yml; \
-	sudo -u git -H ${MV}  Gemfile.lock Gemfile.lock.bak ; \
 #
 	# remove libv8 (old version) line
 ##	Simply editting Gemfile.lock are BAD IDEA
