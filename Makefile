@@ -2149,6 +2149,7 @@ SUBDIR+=	p5-WWW-YouTube-Download
 SUBDIR+=	p5-WWW-YouTube-VideoURI
 SUBDIR+=	p5-WebService-Audioscrobbler
 SUBDIR+=	p5-WebService-CIA
+SUBDIR+=	p5-WebService-GData
 SUBDIR+=	p5-XML-DOM-XPath
 SUBDIR+=	p5-XML-DT
 SUBDIR+=	p5-XML-DTDParser
