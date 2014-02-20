@@ -1,6 +1,6 @@
 $NetBSD$
 
---- sysdep.c.orig	2012-05-23 13:52:36.000000000 +0000
+--- sysdep.c.orig	2014-02-20 20:27:20.000000000 +0000
 +++ sysdep.c
 @@ -666,7 +666,7 @@ int tun_get_hwaddr(int fd, char *dev, ui
  	}
@@ -33,12 +33,3 @@ $NetBSD$
  	return 0;
  #else
  	/* todo: implement using SIOCGLIFADDR */
-@@ -751,7 +759,7 @@ void error(int status, int errornum, con
- #endif
- 
- #ifndef HAVE_GETLINE
--int getline(char **line, size_t * length, FILE * stream)
-+ssize_t getline(char **line, size_t * length, FILE * stream)
- {
- 	size_t len;
- #ifdef HAVE_FGETLN

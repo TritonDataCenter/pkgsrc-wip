@@ -1,6 +1,6 @@
 $NetBSD$
 
---- vpnc-disconnect.orig	2014-02-14 11:46:47.000000000 +0000
+--- vpnc-disconnect.orig	2014-02-20 20:27:20.000000000 +0000
 +++ vpnc-disconnect
 @@ -1,6 +1,6 @@
  #!/bin/sh

@@ -1,6 +1,6 @@
 $NetBSD$
 
---- vpnc.c.orig	2014-02-14 11:46:47.000000000 +0000
+--- vpnc.c.orig	2014-02-20 20:27:20.000000000 +0000
 +++ vpnc.c
 @@ -389,6 +389,8 @@ static void config_tunnel(struct sa_bloc
  {
