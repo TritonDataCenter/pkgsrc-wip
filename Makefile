@@ -2867,7 +2867,6 @@ SUBDIR+=	py-statgrap
 SUBDIR+=	py-stem
 SUBDIR+=	py-storm
 SUBDIR+=	py-strategies
-SUBDIR+=	py-stripe
 SUBDIR+=	py-sumatra
 SUBDIR+=	py-sunpy
 SUBDIR+=	py-swarmsdk
