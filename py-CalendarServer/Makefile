@@ -10,6 +10,11 @@ HOMEPAGE=	http://trac.calendarserver.org/
 COMMENT=	Standards-compliant server implementing CalDAV and CardDAV protocols
 LICENSE=	apache-2.0
 
+# see
+# http://trac.calendarserver.org/browser/CalendarServer/trunk/README.rst
+# for instructions for running from SVN; these need to be adapted for
+# pkgsrc
+
 DEPENDS+=	${PYPKGPREFIX}-CalDAVClientLibrary-[0-9]*:../../wip/py-CalDAVClientLibrary
 DEPENDS+=	${PYPKGPREFIX}-Kerberos-[0-9]*:../../security/py-Kerberos
 DEPENDS+=	${PYPKGPREFIX}-OpenSSL-[0-9]*:../../security/py-OpenSSL
