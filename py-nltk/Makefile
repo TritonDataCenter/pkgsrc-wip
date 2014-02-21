@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	nltk-3.0a2
+DISTNAME=	nltk-3.0a3
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	textproc
 MASTER_SITES=	http://nltk.org/nltk3-alpha/
@@ -12,6 +12,7 @@ LICENSE=	apache-2.0
 
 DEPENDS+=	${PYPKGPREFIX}-nose>=1.1.2:../../devel/py-nose
 DEPENDS+=	${PYPKGPREFIX}-yaml-[0-9]*:../../textproc/py-yaml
+DEPENDS+=	${PYPKGPREFIX}-expat-[0-9]*:../../textproc/py-expat
 
 REPLACE_PYTHON=			nltk/corpus/reader/knbc.py
 REPLACE_PYTHON+=		nltk/stem/rslp.py
