@@ -19,9 +19,9 @@
 
 .PHONY: qore-module
 qore-module: post-install
-qore-version!=${PKG_INFO} -E qore | ${SED} -e s/qore-// -e s/nb.//
-qore-module-api!=qore --module-api
-qore-latest-module-api!=qore --latest-module-api
-PLIST_SUBST+=QORE_VERSION="${qore-version}"
-PLIST_SUBST+=QORE_MODULE_API="${qore-module-api}"
-PLIST_SUBST+=QORE_LATEST_MODULE_API="${qore-latest-module-api}"
+qore-version=${PKG_INFO} -E qore | ${SED} -e s/qore-// -e s/nb.//
+qore-module-api=qore --module-api
+qore-latest-module-api=qore --latest-module-api
+PLIST_SUBST+=QORE_VERSION="${qore-version:sh}"
+PLIST_SUBST+=QORE_MODULE_API="${qore-module-api:sh}"
+PLIST_SUBST+=QORE_LATEST_MODULE_API="${qore-latest-module-api:sh}"
