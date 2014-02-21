@@ -2,11 +2,12 @@
 
 DISTNAME=	qore-0.8.8
 CATEGORIES=	lang
+MASTER_SITES=   ${MASTER_SITE_SOURCEFORGE:=qore/}
+EXTRACT_SUFX=   .tar.bz2
 
-.include	"../../wip/qore/Makefile.common"
-
-MAINTAINER=	pkgsrc-users@NetBSD.org
+MAINTAINER=	nros@users.sourceforge.net
 COMMENT=	Qore programming language
+HOMEPAGE=	http://www.qore.org/
 LICENSE=	gnu-gpl-v2 OR gnu-lgpl-v2.1 OR mit
 
 GNU_CONFIGURE=	yes
