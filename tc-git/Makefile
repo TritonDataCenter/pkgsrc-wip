@@ -33,6 +33,10 @@ GIT_REPO.tc=		http://github.com/kanchoku/tc.git
 # fatal: unable to access 'http://github.com/kanchoku/tc.git/': SSL certificate problem: unable to get local issuer certificate
 # Add "-c http.sslVerify=false" to git command or,
 PKGSRC_SETENV=          GIT_SSL_NO_VERIFY=true
+## With some condition, it pauses waiting for interaction:
+## Saving file /WRKOBJDIR/wip/tc-git/work/tc/etc/bushu.rev...
+
+MAKE_JOBS_SAFE=		no
 
 CONFIGURE_ARGS.emacs=	--with-lispdir=${EMACS_LISPPREFIX}/${DISTNAME}
 CONFIGURE_ARGS.emacs+=	--datadir=${PREFIX}/share
