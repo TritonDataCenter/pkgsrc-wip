@@ -28,7 +28,7 @@ post-install:
 		${DESTDIR}${PREFIX}/share/qore/license/modules/xml
 
 
-.include "../../wip/qore/plist-version.mk"
+.include "../../wip/qore/module.mk"
 .include "options.mk"
 
 .include "../../mk/pthread.buildlink3.mk"
