@@ -13,6 +13,7 @@ DEPENDS+=	xdg-utils>=1.0:../../misc/xdg-utils
 
 USE_LANGUAGES=	c c++
 USE_CMAKE=	yes
+USE_TOOLS+=	pkg-config
 GCC_REQD+=	4.6
 AUTO_MKDIRS=	yes
 EGDIR=		${PREFIX}/share/examples/lightspark
