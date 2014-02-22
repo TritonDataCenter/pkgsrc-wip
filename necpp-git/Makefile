@@ -22,7 +22,7 @@ USE_TOOLS+=		automake autoreconf gmake
 MAKE_JOBS_SAFE=		no
 
 pre-configure:
-	cd ${WRKSRC} && autoreconf -fiv
+	cd ${WRKSRC} && make -f Makefile.cvs
 
 #.include "../../math/lapack/buildlink3.mk"
 .include "../../wip/mk/git-package.mk"
