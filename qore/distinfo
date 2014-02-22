@@ -3,3 +3,4 @@ $NetBSD$
 SHA1 (qore-0.8.8.tar.bz2) = 271559ec8525f2b2e119639623165a7a836344ca
 RMD160 (qore-0.8.8.tar.bz2) = 7a29c46dc53c0e9ea769e0a89e33e1e5b387f514
 Size (qore-0.8.8.tar.bz2) = 14351424 bytes
+SHA1 (patch-include_qore_QoreFile.h) = f3469f4943a1da6fa47abc1020174d37d64aacad
