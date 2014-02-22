@@ -16,6 +16,7 @@ DEPENDS+=	${PYPKGPREFIX}-expat-[0-9]*:../../textproc/py-expat
 
 REPLACE_PYTHON=			nltk/corpus/reader/knbc.py
 REPLACE_PYTHON+=		nltk/stem/rslp.py
+REPLACE_PYTHON+=		nltk/test/runtests.py
 
 .include "../../lang/python/application.mk"
 .include "../../lang/python/egg.mk"
