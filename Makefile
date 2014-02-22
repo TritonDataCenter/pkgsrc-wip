@@ -2977,6 +2977,7 @@ SUBDIR+=	qmc2
 SUBDIR+=	qmpdclient
 SUBDIR+=	qn-x11
 SUBDIR+=	qore
+SUBDIR+=	qore-asn1-module
 SUBDIR+=	qore-freetds-module
 SUBDIR+=	qore-glut-module
 SUBDIR+=	qore-json-module
