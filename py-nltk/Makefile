@@ -3,7 +3,7 @@
 DISTNAME=	nltk-3.0a3
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	textproc
-MASTER_SITES=	http://nltk.org/nltk3-alpha/
+MASTER_SITES=	http://www.nltk.org/nltk3-alpha/
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.nltk.org/
