@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	timezone-olson-0.1.2
+DISTNAME=	timezone-olson-0.1.3
 CATEGORIES=	time
 
 MAINTAINER=	szptvlfn@a-net.email.ne.jp
