@@ -1912,6 +1912,7 @@ SUBDIR+=	openmpi
 SUBDIR+=	openmpi163
 SUBDIR+=	openmx-openmpi
 SUBDIR+=	opennurbs
+SUBDIR+=	opensc
 SUBDIR+=	openscep
 SUBDIR+=	opensips
 SUBDIR+=	opentracker-current
