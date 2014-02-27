@@ -827,6 +827,7 @@ SUBDIR+=	gpak
 SUBDIR+=	gplbasic
 SUBDIR+=	gps
 SUBDIR+=	gpsdrive
+SUBDIR+=	gpshell
 SUBDIR+=	gpx2shp
 SUBDIR+=	grandr
 SUBDIR+=	granule

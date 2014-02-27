@@ -1,0 +1,3 @@
+@comment $NetBSD$
+bin/gpshell
+man/man1/gpshell.1
