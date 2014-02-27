@@ -19,6 +19,13 @@ AUTO_MKDIRS=	yes
 EGDIR=		${PREFIX}/share/examples/lightspark
 CMAKE_ARGS+=	-DGNASH_EXE_PATH:STRING="${PREFIX}/bin/gnash"
 
+.include "../../mk/compiler.mk"
+
+.if !empty(PKGSRC_COMPILER:Mclang)
+CXXFLAGS+=	-stdlib=libc++
+CXXFLAGS+=	-std=gnu++11
+.endif
+
 post-install:
 	${MV} ${DESTDIR}${PREFIX}/etc/xdg ${DESTDIR}${EGDIR}; \
 	${RMDIR} ${DESTDIR}${PREFIX}/etc
