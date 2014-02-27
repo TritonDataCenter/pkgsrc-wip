@@ -1469,6 +1469,7 @@ SUBDIR+=	libghemical
 SUBDIR+=	libginac
 SUBDIR+=	libgit2
 SUBDIR+=	libglade-java
+SUBDIR+=	libglobalplatform
 SUBDIR+=	libgme
 SUBDIR+=	libgnome-java
 SUBDIR+=	libgrass5
