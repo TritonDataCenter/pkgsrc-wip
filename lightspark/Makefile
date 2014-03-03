@@ -23,7 +23,7 @@ CMAKE_ARGS+=	-DGNASH_EXE_PATH:STRING="${PREFIX}/bin/gnash"
 
 .if !empty(PKGSRC_COMPILER:Mclang)
 CXXFLAGS+=	-stdlib=libc++
-CXXFLAGS+=	-std=gnu++11
+CXXFLAGS+=	-std=c++0x
 .endif
 
 post-install:
