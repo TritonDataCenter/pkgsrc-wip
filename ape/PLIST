@@ -12,13 +12,9 @@ man/man1/apekeys.1
 share/ape/custom_menu
 share/ape/Languages/AWK/language_opts
 share/ape/Languages/AWK/syntax_highlighting
-share/ape/Languages/Bash/language_opts
 share/ape/Languages/BASH/language_opts
-share/ape/Languages/Bash/Macros/macros
 share/ape/Languages/BASH/Macros/macros
-share/ape/Languages/Bash/Macros/menu.txt
 share/ape/Languages/BASH/Macros/menu.txt
-share/ape/Languages/Bash/syntax_highlighting
 share/ape/Languages/BASH/syntax_highlighting
 share/ape/Languages/BC/language_opts
 share/ape/Languages/BC/syntax_highlighting
