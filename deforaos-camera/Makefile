@@ -1,11 +1,10 @@
 # $NetBSD$
 #
 
-DISTNAME=	Camera-0.0.1
-PKGNAME=	deforaos-camera-0.0.1
-PKGREVISION=	1
+DISTNAME=	Camera-0.1.0
+PKGNAME=	deforaos-camera-0.1.0
 CATEGORIES=	graphics
-MASTER_SITES=	http://www.defora.org/os/download/download/4284/
+MASTER_SITES=	http://www.defora.org/os/download/download/4320/
 
 MAINTAINER=	khorben@defora.org
 HOMEPAGE=	http://www.defora.org/
