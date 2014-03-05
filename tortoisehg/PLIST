@@ -520,6 +520,7 @@ share/locale/zh_TW/LC_MESSAGES/tortoisehg.mo
 share/pixmaps/tortoisehg/icons/16x16/apps/gnupg.png
 share/pixmaps/tortoisehg/icons/16x16/apps/kiln.png
 share/pixmaps/tortoisehg/icons/16x16/apps/reviewboard.png
+share/pixmaps/tortoisehg/icons/16x16/mimetypes/text-x-generic.png
 share/pixmaps/tortoisehg/icons/22x22/actions/window-close.png
 share/pixmaps/tortoisehg/icons/24x24/actions/hg-incoming.png
 share/pixmaps/tortoisehg/icons/24x24/actions/hg-outgoing.png

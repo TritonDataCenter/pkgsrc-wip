@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=		tortoisehg-2.11
+DISTNAME=		tortoisehg-2.11.1
 CATEGORIES=		devel
 MASTER_SITES=		http://bitbucket.org/tortoisehg/targz/downloads/
 
