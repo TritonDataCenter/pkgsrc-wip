@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	monad-peel-0.1
+DISTNAME=	monad-peel-0.1.1
 CATEGORIES=	devel
 
 MAINTAINER=	pho@cielonegro.org
