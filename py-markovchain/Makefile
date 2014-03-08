@@ -12,7 +12,7 @@ COMMENT=	Simple markov chain implementation
 #LICENSE=	# TODO: (see mk/license.mk)
 
 USE_LANGUAGES=	# none
-PYDISTUTILSPKG=	yes
 
-.include "../../lang/python/extension.mk"
+
+.include "../../lang/python/distutils.mk"
 .include "../../mk/bsd.pkg.mk"
