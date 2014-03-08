@@ -1,3 +1,2 @@
 @comment $NetBSD$
-bin/cyglightcomp.dll
 lib/lighttpd/liblightcomp.la
