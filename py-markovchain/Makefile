@@ -4,7 +4,7 @@ DISTNAME=	PyMarkovChain-1.7.5
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME:S/Py//:tl}
 CATEGORIES=	math
 MASTER_SITES=	https://pypi.python.org/packages/source/P/PyMarkovChain/
-FETCH_USING=	curl
+
 
 MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	https://pypi.python.org/packages/source/P/PyMarkovChain/
