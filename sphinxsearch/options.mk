@@ -3,8 +3,8 @@
 PKG_OPTIONS_VAR=		PKG_OPTIONS.sphinx-search
 PKG_OPTIONS_NONEMPTY_SETS=	db
 PKG_OPTIONS_SET.db=		mysql pgsql
-PKG_SUPPORTED_OPTIONS=		iconv
-PKG_SUGGESTED_OPTIONS=		mysql iconv
+PKG_SUPPORTED_OPTIONS=		#
+PKG_SUGGESTED_OPTIONS=		mysql
 
 .include "../../mk/bsd.options.mk"
 
@@ -20,12 +20,4 @@ CONFIGURE_ARGS+=	--with-pgsql
 .  include "../../mk/pgsql.buildlink3.mk"
 .else
 CONFIGURE_ARGS+=	--without-pgsql
-.endif
-
-.if !empty(PKG_OPTIONS:Miconv)
-CONFIGURE_ARGS+=	--with-iconv
-LDFLAGS+=		-liconv
-.  include "../../converters/libiconv/buildlink3.mk"
-.else
-CONFIGURE_ARGS+=	--without-iconv
 .endif

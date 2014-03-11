@@ -9,4 +9,5 @@ COMMENT=	Library wrapping standard IO modules to provide strict IO
 LICENSE=	modified-bsd
 
 .include "../../wip/mk/haskell.mk"
+.include "../../wip/hs-extensible-exceptions/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

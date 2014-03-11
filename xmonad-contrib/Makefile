@@ -7,13 +7,13 @@ CATEGORIES=	wm
 MAINTAINER=	degroote@NetBSD.org
 HOMEPAGE=	http://xmonad.org/
 COMMENT=	Third party extensions for xmonad
-
 LICENSE=	modified-bsd
 
 .include "options.mk"
 
 .include "../../x11/libXft/buildlink3.mk"
 .include "../../wip/mk/haskell.mk"
+.include "../../wip/hs-extensible-exceptions/buildlink3.mk"
 .include "../../wip/hs-mtl/buildlink3.mk"
 .include "../../wip/hs-random/buildlink3.mk"
 .include "../../wip/hs-utf8-string/buildlink3.mk"

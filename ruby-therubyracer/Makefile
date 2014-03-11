@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	therubyracer-0.12.0
+DISTNAME=	therubyracer-0.12.1
 PKGNAME=	${RUBY_PKGPREFIX}-${DISTNAME}
 CATEGORIES=	lang
 

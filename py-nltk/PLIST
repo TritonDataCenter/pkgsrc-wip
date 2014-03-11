@@ -201,6 +201,9 @@ ${PYSITELIB}/nltk/corpus/reader/conll.pyo
 ${PYSITELIB}/nltk/corpus/reader/dependency.py
 ${PYSITELIB}/nltk/corpus/reader/dependency.pyc
 ${PYSITELIB}/nltk/corpus/reader/dependency.pyo
+${PYSITELIB}/nltk/corpus/reader/framenet.py
+${PYSITELIB}/nltk/corpus/reader/framenet.pyc
+${PYSITELIB}/nltk/corpus/reader/framenet.pyo
 ${PYSITELIB}/nltk/corpus/reader/ieer.py
 ${PYSITELIB}/nltk/corpus/reader/ieer.pyc
 ${PYSITELIB}/nltk/corpus/reader/ieer.pyo
@@ -408,6 +411,9 @@ ${PYSITELIB}/nltk/model/api.pyo
 ${PYSITELIB}/nltk/model/ngram.py
 ${PYSITELIB}/nltk/model/ngram.pyc
 ${PYSITELIB}/nltk/model/ngram.pyo
+${PYSITELIB}/nltk/model/t.py
+${PYSITELIB}/nltk/model/t.pyc
+${PYSITELIB}/nltk/model/t.pyo
 ${PYSITELIB}/nltk/nltk.jar
 ${PYSITELIB}/nltk/parse/__init__.py
 ${PYSITELIB}/nltk/parse/__init__.pyc
@@ -430,9 +436,6 @@ ${PYSITELIB}/nltk/parse/featurechart.pyo
 ${PYSITELIB}/nltk/parse/generate.py
 ${PYSITELIB}/nltk/parse/generate.pyc
 ${PYSITELIB}/nltk/parse/generate.pyo
-${PYSITELIB}/nltk/parse/generate2.py
-${PYSITELIB}/nltk/parse/generate2.pyc
-${PYSITELIB}/nltk/parse/generate2.pyo
 ${PYSITELIB}/nltk/parse/malt.py
 ${PYSITELIB}/nltk/parse/malt.pyc
 ${PYSITELIB}/nltk/parse/malt.pyo
@@ -550,15 +553,15 @@ ${PYSITELIB}/nltk/tag/hmm.pyo
 ${PYSITELIB}/nltk/tag/hunpos.py
 ${PYSITELIB}/nltk/tag/hunpos.pyc
 ${PYSITELIB}/nltk/tag/hunpos.pyo
+${PYSITELIB}/nltk/tag/mapping.py
+${PYSITELIB}/nltk/tag/mapping.pyc
+${PYSITELIB}/nltk/tag/mapping.pyo
 ${PYSITELIB}/nltk/tag/senna.py
 ${PYSITELIB}/nltk/tag/senna.pyc
 ${PYSITELIB}/nltk/tag/senna.pyo
 ${PYSITELIB}/nltk/tag/sequential.py
 ${PYSITELIB}/nltk/tag/sequential.pyc
 ${PYSITELIB}/nltk/tag/sequential.pyo
-${PYSITELIB}/nltk/tag/simplify.py
-${PYSITELIB}/nltk/tag/simplify.pyc
-${PYSITELIB}/nltk/tag/simplify.pyo
 ${PYSITELIB}/nltk/tag/stanford.py
 ${PYSITELIB}/nltk/tag/stanford.pyc
 ${PYSITELIB}/nltk/tag/stanford.pyo
@@ -610,6 +613,8 @@ ${PYSITELIB}/nltk/test/doctest_nose_plugin.pyo
 ${PYSITELIB}/nltk/test/drt.doctest
 ${PYSITELIB}/nltk/test/featgram.doctest
 ${PYSITELIB}/nltk/test/featstruct.doctest
+${PYSITELIB}/nltk/test/framenet.doctest
+${PYSITELIB}/nltk/test/generate.doctest
 ${PYSITELIB}/nltk/test/gluesemantics.doctest
 ${PYSITELIB}/nltk/test/gluesemantics_malt.doctest
 ${PYSITELIB}/nltk/test/gluesemantics_malt_fixt.py
@@ -617,6 +622,7 @@ ${PYSITELIB}/nltk/test/gluesemantics_malt_fixt.pyc
 ${PYSITELIB}/nltk/test/gluesemantics_malt_fixt.pyo
 ${PYSITELIB}/nltk/test/grammar.doctest
 ${PYSITELIB}/nltk/test/grammartestsuites.doctest
+${PYSITELIB}/nltk/test/index.doctest
 ${PYSITELIB}/nltk/test/inference.doctest
 ${PYSITELIB}/nltk/test/inference_fixt.py
 ${PYSITELIB}/nltk/test/inference_fixt.pyc
@@ -639,6 +645,7 @@ ${PYSITELIB}/nltk/test/probability.doctest
 ${PYSITELIB}/nltk/test/probability_fixt.py
 ${PYSITELIB}/nltk/test/probability_fixt.pyc
 ${PYSITELIB}/nltk/test/probability_fixt.pyo
+${PYSITELIB}/nltk/test/propbank.doctest
 ${PYSITELIB}/nltk/test/relextract.doctest
 ${PYSITELIB}/nltk/test/resolution.doctest
 ${PYSITELIB}/nltk/test/runtests.py
@@ -691,9 +698,6 @@ ${PYSITELIB}/nltk/test/unit/test_stem.pyo
 ${PYSITELIB}/nltk/test/unit/test_tag.py
 ${PYSITELIB}/nltk/test/unit/test_tag.pyc
 ${PYSITELIB}/nltk/test/unit/test_tag.pyo
-${PYSITELIB}/nltk/test/unit/test_wordnet.py
-${PYSITELIB}/nltk/test/unit/test_wordnet.pyc
-${PYSITELIB}/nltk/test/unit/test_wordnet.pyo
 ${PYSITELIB}/nltk/test/unit/utils.py
 ${PYSITELIB}/nltk/test/unit/utils.pyc
 ${PYSITELIB}/nltk/test/unit/utils.pyo
@@ -702,6 +706,7 @@ ${PYSITELIB}/nltk/test/wordnet.doctest
 ${PYSITELIB}/nltk/test/wordnet_fixt.py
 ${PYSITELIB}/nltk/test/wordnet_fixt.pyc
 ${PYSITELIB}/nltk/test/wordnet_fixt.pyo
+${PYSITELIB}/nltk/test/wordnet_lch.doctest
 ${PYSITELIB}/nltk/text.py
 ${PYSITELIB}/nltk/text.pyc
 ${PYSITELIB}/nltk/text.pyo

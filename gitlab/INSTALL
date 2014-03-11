@@ -10,9 +10,9 @@ OPT_POSTGRES="@OPT_POSTGRES@"
 #
 case ${STAGE} in
     POST-INSTALL)
-	echo "     Running INSTALL script in POST-INSTALL $0..."
-	echo "     You may copy the file, edit and the rerun"
-	echo "	   But be carefull for cancelling by Ctrl-C may corrupt pkgdb."
+	echo "	Running INSTALL script in POST-INSTALL $0..."
+	echo "	You may copy the file, edit and the rerun"
+	echo "	But be carefull for cancelling by Ctrl-C may corrupt pkgdb."
 # See following document where this script comes from:
 #   https://github.com/gitlabhq/gitlabhq/blob/6-1-stable/doc/install/installation.md
 #
@@ -21,43 +21,56 @@ case ${STAGE} in
 	(cd ${GITLAB_HOME}/gitlab-shell ; \
  	${RUBY} ./bin/install \
 	)
+#
 	${CHOWN} git.gitlab ${GITLAB_HOME}
 	(cd ${GITLAB_HOME}/ ; \
 	sudo -u git -H env GIT_SSL_NO_VERIFY=true \
 		git clone https://github.com/gitlabhq/gitlabhq.git gitlab \
  	)
+#
 	(cd ${GITLAB_HOME}/gitlab ; \
 	sudo -u git -H git checkout 6-1-stable; \
 	sudo -u git -H \
 		${SED} -e '/email_from:/s/gitlab@localhost/gitlab@localhost/' \
 		config/gitlab.yml.example > config/gitlab.yml ; \
-	sudo ${CHOWN} -R git log tmp; \
-	sudo ${CHMOD} -R u+rwX  log tmp; \
+#
+	sudo           ${CHOWN} -R   git log tmp; \
+	sudo           ${CHMOD} -R u+rwX log tmp; \
 	sudo -u git -H ${MKDIR} ${GITLAB_HOME}/gitlab-satellites; \
-	sudo -u git -H ${MKDIR} tmp/pids tmp/sockets; \
-	sudo ${CHMOD} -R u+rwX  tmp/pids tmp/sockets; \
-	sudo -u git -H ${MKDIR} public/uploads; \
-	sudo ${CHMOD} -R u+rwX  public/uploads; \
+	sudo -u git -H ${MKDIR}          tmp/pids tmp/sockets public/uploads; \
+	sudo           ${CHMOD} -R u+rwX tmp/pids tmp/sockets public/uploads; \
+#
 	sudo -u git -H ${CP} config/unicorn.rb.example config/unicorn.rb; \
 	sudo -u git -H \
 		${SED} -e 's,/home/git,${GITLAB_HOME},' \
 		config/unicorn.rb.example > config/unicorn.rb; \
+#
 	sudo -u git -H git config --global user.name "GitLab"; \
 	sudo -u git -H git config --global user.email "gitlab@localhot"; \
 	sudo -u git -H git config --global core.autocrlf input; \
-	sudo -u git ${CP} config/database.yml.mysql config/database.yml; \
+	sudo -u git -H ${CP} config/database.yml.mysql config/database.yml; \
 	sudo -u git -H ${CHMOD} o-rwx config/database.yml; \
+#
+	# remove libv8 (old version) line
+##	Simply editting Gemfile.lock are BAD IDEA
+##	sudo -u git -H \
+##	     ${SED} \
+##	      -e '/libv8/d' \
+##	      -e '/therubyracer/d' Gemfile.lock.bak > Gemfile.lock ;\
 	# 'gem install libv8' has problem. So with the following command line options:
-	echo "     Will take a time, thanks for being patient...";\
-	# Following command will install the expected PATH, but be ignored by bundle ..
+	echo "	Will take time, thanks for being patient...";\
+	# Following command will install onto the expected PATH, but ignored by bundle for now
+	sudo -u git -H bundle config build.libv8 --with-system-v8 ;\
 	sudo -u	git -H gem install \
 		--install-root	${GITLAB_HOME}/gitlab/vendor/bundle/ruby/2.0.0 \
 		--install-dir /	libv8 -v '3.16.14.3' -- --with-system-v8 ;\
-	${ECHO} "     Taking care for database ... OPT_MYSQL:${OPT_MYSQL} OPT_POSTGRES:${OPT_POSTGRES}" ; \
+	${ECHO} "	Taking care for database ... OPT_MYSQL:${OPT_MYSQL} OPT_POSTGRES:${OPT_POSTGRES}" ; \
 	# For MySQL (note, the option says "without ... postgres") \
-	${OPT_MYSQL} sudo -u git -H bundle install --deployment --without development test postgres aws;\
+	sudo -u git -H bundle install --deployment --without development test postgres aws;\
 	# Or for PostgreSQL (note, the option says "without ... mysql") 
 	${OPT_POSTGRES} sudo -u git -H bundle install --deployment --without development test mysql aws; \
+	### 
+	sudo -u git -H env GIT_SSL_NO_VERIFY=true bundle install; \
 	sudo -u git -H bundle exec rake gitlab:setup RAILS_ENV=production; \
 	)
 esac

@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	sphinx-2.1.5-release
+DISTNAME=	sphinx-2.1.6-release
 PKGNAME=	${DISTNAME:S/-/search-/:S/-release//}
 CATEGORIES=	databases textproc
 MASTER_SITES=	http://sphinxsearch.com/files/
@@ -40,7 +40,7 @@ PKG_USERS+=		${SPHINX_USER}:${SPHINX_GROUP}
 
 SUBST_CLASSES+=		paths
 SUBST_MESSAGE.paths=	Setting standard paths
-SUBST_STAGE.paths=	post-patch
+SUBST_STAGE.paths=	pre-configure
 SUBST_FILES.paths=	sphinx.conf.in sphinx-min.conf.in Makefile.in src/searchd.cpp
 SUBST_FILES.paths+=	src/Makefile.in
 SUBST_SED.paths+=	-e 's,@CONFDIR@/log/searchd.pid,${SPHINX_RUN}/searchd.pid,g'
@@ -57,13 +57,16 @@ FILES_SUBST+=		SPHINX_GROUP=${SPHINX_GROUP}
 CONFIGURE_DIRS=		.
 CONFIGURE_DIRS+=	api/libsphinxclient
 
+CONFIGURE_ARGS+=        --with-iconv
+
 MAKE_JOBS_SAFE=		no
-LDFLAGS.SunOS+=		-lsocket -lnsl
+LIBS.SunOS+=		-liconv -lsocket -lnsl
 
 post-install:
 	${MV} ${DESTDIR}${EGDIR}/sphinx.conf.dist ${DESTDIR}${EGDIR}/sphinx-full.conf
 	${MV} ${DESTDIR}${EGDIR}/sphinx-min.conf.dist ${DESTDIR}${EGDIR}/sphinx-min.conf
 
+.include "../../converters/libiconv/buildlink3.mk"
 .include "../../textproc/expat/buildlink3.mk"
 .include "../../mk/pthread.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

@@ -1,12 +1,14 @@
 # $NetBSD$
 
 DISTNAME=	qore-0.8.8
+PKGREVISION=	1
 CATEGORIES=	lang
+MASTER_SITES=   ${MASTER_SITE_SOURCEFORGE:=qore/}
+EXTRACT_SUFX=   .tar.bz2
 
-.include	"../../wip/qore/Makefile.common"
-
-MAINTAINER=	pkgsrc-users@NetBSD.org
+MAINTAINER=	nros@users.sourceforge.net
 COMMENT=	Qore programming language
+HOMEPAGE=	http://www.qore.org/
 LICENSE=	gnu-gpl-v2 OR gnu-lgpl-v2.1 OR mit
 
 GNU_CONFIGURE=	yes
@@ -16,10 +18,8 @@ USE_LANGUAGES=	c c++
 PTHREAD_OPTS+=	require
 
 PKGCONFIG_OVERRIDE+=	qore.pc.in
-CONFIGURE_ARGS+= 	--with-doxygen=no
 
-#NetBSD 6 and lower has an stdio.h that breaks this package
-NOT_FOR_PLATFORM=       NetBSD-[0-6]*-*
+INSTALL_TARGET=         install install-html-local
 
 #This is needed in order to comply the with MIT license and binary distribution
 INSTALLATION_DIRS+=	share/qore/license

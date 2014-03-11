@@ -38,6 +38,7 @@ ${GEM_LIBDIR}/ext/v8/template.cc
 ${GEM_LIBDIR}/ext/v8/trycatch.cc
 ${GEM_LIBDIR}/ext/v8/v8.cc
 ${GEM_LIBDIR}/ext/v8/value.cc
+${GEM_LIBDIR}/lib/therubyracer.rb
 ${GEM_LIBDIR}/lib/v8.rb
 ${GEM_LIBDIR}/lib/v8/access.rb
 ${GEM_LIBDIR}/lib/v8/access/indices.rb

@@ -8,6 +8,8 @@ HS_PARALLEL_IO_BUILDLINK3_MK:=
 BUILDLINK_API_DEPENDS.hs-parallel-io+=	hs-parallel-io>=0.3.3
 BUILDLINK_PKGSRCDIR.hs-parallel-io?=	../../wip/hs-parallel-io
 
+.include "../../wip/hs-extensible-exceptions/buildlink3.mk"
+.include "../../wip/hs-random/buildlink3.mk"
 .endif	# HS_PARALLEL_IO_BUILDLINK3_MK
 
 BUILDLINK_TREE+=	-hs-parallel-io
