@@ -3,6 +3,12 @@
 DISTNAME=	globalplatform-6.0.0
 PKGNAME=	lib${DISTNAME}
 CATEGORIES=	security
+# The pkgsrc guide says to do:
+# MASTER_SITES=${MASTER_SITE_SOURCEFORGE:=globalplatform/GlobalPlatform%20Library/GlobalPlatform%20Library%20${PKGVERSION_NOREV}/}
+# but unfortunately bmake's ":old_string=new_string" variable modifier
+# treats the % in the URL as a special character and doesn't provide a
+# way to escape it.  So we use the ":@temp@string@" variable modifier
+# instead to accomplish the same thing.
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:@.SITE.@${.SITE.}globalplatform/GlobalPlatform%20Library/GlobalPlatform%20Library%20${PKGVERSION_NOREV}/@}
 
 MAINTAINER=	rhansen@bbn.com
