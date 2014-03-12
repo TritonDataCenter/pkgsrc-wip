@@ -14,7 +14,8 @@ PKG_DESTDIR_SUPPORT=	none
 USE_TOOLS+=	gmake pkg-config
 
 CVS_REPOSITORIES=	linux-igd
-CVS_ROOT.linux-igd=	${CVS_ROOT_SOURCEFORGE:S/%PROJECT%/linux-igd/g}
+CVS_PROJECT=		linux-igd
+CVS_ROOT.linux-igd=	${CVS_ROOT_SOURCEFORGE:Q}
 CVS_MODULE.linux-igd=	linux-igd
 
 WRKSRC=		${WRKDIR}/linux-igd
