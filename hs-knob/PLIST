@@ -1,0 +1,8 @@
+@comment $NetBSD$
+lib/knob-${PKGVERSION}/${HASKELL_VERSION}/Data/Knob.hi
+lib/knob-${PKGVERSION}/${HASKELL_VERSION}/Data/Knob.p_hi
+lib/knob-${PKGVERSION}/${HASKELL_VERSION}/HSknob-${PKGVERSION}.o
+lib/knob-${PKGVERSION}/${HASKELL_VERSION}/libHSknob-${PKGVERSION}.a
+lib/knob-${PKGVERSION}/${HASKELL_VERSION}/libHSknob-${PKGVERSION}_p.a
+lib/knob-${PKGVERSION}/${HASKELL_VERSION}/package-description
+share/doc/knob-${PKGVERSION}/license.txt
