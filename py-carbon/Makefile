@@ -1,11 +1,11 @@
 # $NetBSD$
 
-DISTNAME=	carbon-0.9.10
+DISTNAME=	carbon-0.9.12
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	databases
-MASTER_SITES=	http://launchpadlibrarian.net/106575865/
+MASTER_SITES=	-https://github.com/graphite-project/carbon/archive/${PKGVERSION_NOREV}${EXTRACT_SUFX}
 
-MAINTAINER=	pkgsrc-users@NetBSD.org
+MAINTAINER=	filip@joyent.com
 HOMEPAGE=	http://launchpad.net/graphite
 COMMENT=	Backend storage application for graphite
 LICENSE=	apache-2.0

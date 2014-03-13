@@ -25,6 +25,6 @@ PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-ldap
 ### Memcached support
 ###
 .if !empty(PKG_OPTIONS:Mmemcached)
-DEPENDS+=	${PYPKGPREFIX}-[0-9]*:../../wip/py-memcached
+DEPENDS+=	${PYPKGPREFIX}-memcached-[0-9]*:../../devel/py-memcached
 PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-memcached
 .endif
