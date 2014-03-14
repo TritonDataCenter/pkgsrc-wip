@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	scientific-0.2.0.1
+DISTNAME=	scientific-0.2.0.2
 CATEGORIES=	devel
 
 MAINTAINER=	szptvlfn@a-net.email.ne.jp
