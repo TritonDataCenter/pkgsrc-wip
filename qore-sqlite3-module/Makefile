@@ -15,6 +15,8 @@ USE_LIBTOOL=	yes
 USE_LANGUAGES=	c c++
 PTHREAD_OPTS+=	require
 
+CONFIGURE_ARGS+=--with-sqlite3=${BUILDLINK_PREFIX.sqlite3}
+
 INSTALLATION_DIRS+=     share/qore/docs/modules/sqlite3
 post-install:
 	${INSTALL_DATA} ${WRKSRC}/docs/sqlite3-module-doc.html \
