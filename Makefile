@@ -1245,7 +1245,6 @@ SUBDIR+=	imagination
 SUBDIR+=	imonc
 SUBDIR+=	info2man
 SUBDIR+=	interbase-docs
-#SUBDIR+=	interchange		# to be removed soon -- eric@cirr.com
 #SUBDIR+=	io			# not a package, same as jabberd bellow
 SUBDIR+=	io-base
 SUBDIR+=	io-blowfish
