@@ -1127,6 +1127,7 @@ SUBDIR+=	hs-pcre-light
 SUBDIR+=	hs-pointed
 SUBDIR+=	hs-pointedlist
 SUBDIR+=	hs-pointedlist03
+SUBDIR+=	hs-polyparse
 SUBDIR+=	hs-primitive
 SUBDIR+=	hs-profunctors
 SUBDIR+=	hs-punycode
