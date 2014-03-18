@@ -19,6 +19,8 @@ DEPENDS+=	${PYPKGPREFIX}-iniparse>=0.4:../../textproc/py-iniparse
 DEPENDS+=	${PYPKGPREFIX}-pygments>=1.6:../../textproc/py-pygments
 DEPENDS+=	mercurial>=2.8.1:../../devel/mercurial
 
+PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-iniparse
+
 pre-configure:
 		sed 	-e 's:@PREFIX@:${PREFIX}:g' \
 			${FILESDIR}/config.py > \
