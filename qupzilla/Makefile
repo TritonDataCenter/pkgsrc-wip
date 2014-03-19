@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	QupZilla-1.6.0
+DISTNAME=	QupZilla-1.6.3
 PKGNAME=	${DISTNAME:tl}
 CATEGORIES=	www
 MASTER_SITES=	http://qupzilla.com/uploads/

@@ -9,6 +9,7 @@ BUILDLINK_API_DEPENDS.hs-hint+=	hs-hint>=0.3.3
 BUILDLINK_PKGSRCDIR.hs-hint?=	../../wip/hs-hint
 
 .include "../../wip/hs-MonadCatchIO-mtl/buildlink3.mk"
+.include "../../wip/hs-extensible-exceptions/buildlink3.mk"
 .include "../../wip/hs-ghc-mtl/buildlink3.mk"
 .include "../../wip/hs-ghc-paths/buildlink3.mk"
 .include "../../wip/hs-haskell-src/buildlink3.mk"

@@ -12,6 +12,8 @@ HOMEPAGE=	http://incrtcl.sourceforge.net/iwidgets
 COMMENT=	Object-oriented mega-widget set which extends Tcl/Tk
 LICENSE=	2-clause-bsd # ?
 
+DEPENDS+=	tcl>=8.6:../../lang/tcl
+
 USE_LANGUAGES=	# none
 NO_CONFIGURE=	yes
 NO_BUILD=	yes
@@ -40,5 +42,4 @@ do-install:
 	${INSTALL_MAN} doc/collapsablewidget.n ${DESTDIR}${PREFIX}/${PKGMANDIR}/mann/ && \
 	${INSTALL_DATA} src/* ${DESTDIR}${PREFIX}/lib/iwidgets/incoming/
 
-.include "../../lang/tcl-itcl/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

@@ -1,0 +1,7 @@
+@comment $NetBSD$
+${PYSITELIB}/pymarkovchain/MarkovChain.py
+${PYSITELIB}/pymarkovchain/MarkovChain.pyc
+${PYSITELIB}/pymarkovchain/MarkovChain.pyo
+${PYSITELIB}/pymarkovchain/__init__.py
+${PYSITELIB}/pymarkovchain/__init__.pyc
+${PYSITELIB}/pymarkovchain/__init__.pyo

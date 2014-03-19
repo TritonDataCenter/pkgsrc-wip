@@ -86,6 +86,5 @@ BUILDLINK_TRANSFORM+=	rm:-Werror
 .include "../../mk/curses.buildlink3.mk"
 .include "../../lang/python/pyversion.mk"
 .include "../../lang/${PYPACKAGE}/buildlink3.mk"
-.include "../../lang/tcl-itcl/buildlink3.mk"
 .include "../../lang/tcl/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

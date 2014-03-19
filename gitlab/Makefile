@@ -15,8 +15,8 @@ WRKSRC=		${WRKDIR}
 # Add "-c http.sslVerify=false" to git command or,
 #PKGSRC_SETENV+=		GIT_SSL_NO_VERIFY=true
 
-DEPENDS+=	ruby[0-9]*-posix-spawn-[0-9]*:../../devel/ruby-posix-spawn
-DEPENDS+=	ruby[0-9]*-eventmachine-[0-9]*:../../devel/ruby-eventmachine
+#EPENDS+=	ruby[0-9]*-posix-spawn-[0-9]*:../../devel/ruby-posix-spawn
+#EPENDS+=	ruby[0-9]*-eventmachine-[0-9]*:../../devel/ruby-eventmachine
 #EPENDS+=	ruby[0-9]*-nokogiri-[0-9]*:../../textproc/ruby-nokogiri
 DEPENDS+=	ruby[0-9]*-bundler-[0-9]*:../../misc/ruby-bundler
 DEPENDS+=	py[0-9]*-pygments-[0-9]*:../../textproc/py-pygments
@@ -29,15 +29,17 @@ DEPENDS+=	libexecinfo-[0-9]*:../../devel/libexecinfo
 # only for necessary at installation ( 'cp -r' may eliminate following line.)
 DEPENDS+=	rsync-[0-9]*:../../net/rsync
 DEPENDS+=	git-base-[0-9]*:../../devel/git-base
+# Does this really help ? .. not checked yet
+#EPENDS+=	nodejs-[0-9]*:../../lang/nodejs
 
-# Following lines are too late, passwd and groups be made before this make
+# Following lines are too late, passwd and groups should be made before this make
 PKG_GROUPS=	gitlab
-PKG_USERS=	git:git
+PKG_USERS=	git:gitlab
 PKG_GECOS.gitlab=	GitLab
 
 # Actual install PATH (after INSTALL.script run), this can NOT be easily changed
 GITLAB_HOME=		/home/git
-# this is pseudo directory, we will copy .destdir -> /home/git later anyway
+# this is pseudo directory, we will copy .destdir -> /home/git in INSTALL script
 DEST_GITLAB_HOME=	${DESTDIR}${GITLAB_HOME}
 
 # for file: INSTALL

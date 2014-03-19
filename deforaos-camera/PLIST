@@ -3,8 +3,8 @@ bin/camera
 bin/gallery
 man/man1/camera.1
 man/man1/gallery.1
-share/applications/camera.desktop
-share/applications/gallery.desktop
+share/applications/deforaos-camera.desktop
+share/applications/deforaos-gallery.desktop
 share/doc/html/Camera/camera.html
 share/doc/html/Camera/gallery.html
 share/locale/fr/LC_MESSAGES/Camera.mo
