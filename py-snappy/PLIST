@@ -1,0 +1,5 @@
+@comment $NetBSD$
+${PYSITELIB}/_snappy.so
+${PYSITELIB}/snappy.py
+${PYSITELIB}/snappy.pyc
+${PYSITELIB}/snappy.pyo
