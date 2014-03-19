@@ -10,5 +10,7 @@ HOMEPAGE=	https://code.google.com/p/pefile/
 COMMENT=	Python module to read and work with PE files
 LICENSE=	modified-bsd
 
+EGG_NAME=	pefile-1.2.10_139
+
 .include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"
