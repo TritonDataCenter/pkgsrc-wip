@@ -34,7 +34,7 @@ FILES_SUBST+=		PYTHONBIN=${PYTHONBIN:Q}
 PKG_USERS_VARS=		JABBER_USER
 PKG_GROUPS_VARS=	JABBER_GROUP
 
-.include "../../chat/ejabberd/transports.mk"
+.include "../../wip/jabberd/transports.mk"
 
 DOCDIR=			${DESTDIR}${PREFIX}/share/doc/palaver
 DOCFILES=		README.txt XEP.txt db/muc-pgsql.sql

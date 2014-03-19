@@ -51,7 +51,7 @@ MESSAGE_SUBST+=		PKG_SYSCONFDIR=${PKG_SYSCONFDIR:Q}
 
 INSTALLATION_DIRS+=	${TRANSPORTDIR} bin
 
-.include "../../chat/ejabberd/transports.mk"
+.include "../../wip/jabberd/transports.mk"
 
 CONF_FILES=	${EGDIR}/pymsnt.xml ${PKG_SYSCONFDIR}/pymsnt.xml
 

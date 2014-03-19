@@ -44,7 +44,7 @@ PLIST_SUBST+=		TRANSPORTDIR=${TRANSPORTDIR:Q}
 MESSAGE_SUBST+=		PKG_SYSCONFDIR=${PKG_SYSCONFDIR:Q}
 MESSAGE_SUBST+=		HOMEPAGE=${HOMEPAGE:Q}
 
-.include "../../chat/ejabberd/transports.mk"
+.include "../../wip/jabberd/transports.mk"
 
 CONF_FILES=	${EGDIR}/pyaimt.xml ${PKG_SYSCONFDIR}/pyaimt.xml
 

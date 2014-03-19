@@ -50,7 +50,7 @@ MESSAGE_SUBST+=		HOMEPAGE=${HOMEPAGE}
 
 #INSTALLATION_DIRS+= ${TRANSPORTDIR}
 
-.include "../../chat/ejabberd/transports.mk"
+.include "../../wip/jabberd/transports.mk"
 
 CONF_FILES=	${EGDIR}/pyicqt.xml ${PKG_SYSCONFDIR}/pyicqt.xml
 
