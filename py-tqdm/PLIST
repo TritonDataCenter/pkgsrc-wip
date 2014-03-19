@@ -1,0 +1,4 @@
+@comment $NetBSD$
+${PYSITELIB}/tqdm.py
+${PYSITELIB}/tqdm.pyc
+${PYSITELIB}/tqdm.pyo
