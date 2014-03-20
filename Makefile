@@ -1822,6 +1822,7 @@ SUBDIR+=	nestra
 SUBDIR+=	net-quanta
 SUBDIR+=	net-tools
 SUBDIR+=	netatalk
+SUBDIR+=	netatalk30
 SUBDIR+=	netbsd-awk
 SUBDIR+=	netbsd-icon-theme
 SUBDIR+=	netbsd-light-desktop-artwork
