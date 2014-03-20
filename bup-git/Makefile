@@ -68,17 +68,20 @@ REPLACE_PYTHON+=	cmd/xstat-cmd.py
 REPLACE_PYTHON+=	main.py
 REPLACE_PYTHON+=	wvtest.py
 
+REPLACE_PYTHON+=	t/cleanup-mounts-under
 REPLACE_PYTHON+=	t/hardlink-sets
 REPLACE_PYTHON+=	t/id-other-than
 REPLACE_PYTHON+=	t/mksock
 REPLACE_PYTHON+=	t/ns-timestamp-resolutions
 REPLACE_PYTHON+=	t/root-status
+REPLACE_PYTHON+=	t/test-ls.sh
 REPLACE_PYTHON+=	t/unknown-owner
 
 SUBST_CLASSES+=		python-c
 SUBST_SED.python-c+=	-e 's,python -c,${PYTHONBIN} -c,'
 SUBST_STAGE.python-c=	pre-configure
 SUBST_FILES.python-c+=	t/lib.sh
+SUBST_FILES.python-c+=	t/test-ls.sh
 SUBST_FILES.python-c+=	t/test-meta.sh
 SUBST_MESSAGE.python-c=	Fixing python executable in tests.
 
