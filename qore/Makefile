@@ -32,6 +32,7 @@ post-install:
 .include "options.mk"
 
 .include "../../archivers/bzip2/buildlink3.mk"
+.include "../../devel/libexecinfo/buildlink3.mk"
 .include "../../devel/pcre/buildlink3.mk"
 .include "../../devel/zlib/buildlink3.mk"
 .include "../../mk/pthread.buildlink3.mk"
