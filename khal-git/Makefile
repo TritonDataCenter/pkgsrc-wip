@@ -33,7 +33,10 @@ REPLACE_PYTHON+=	khal/backend.py
 REPLACE_PYTHON+=	khal/caldav.py
 REPLACE_PYTHON+=	khal/calendar_display.py
 REPLACE_PYTHON+=	khal/controllers.py
-REPLACE_PYTHON+=	khal/model.py
+REPLACE_PYTHON+=	khal/event.py
+REPLACE_PYTHON+=	khal/khalendar.py
+REPLACE_PYTHON+=	khal/ui/__init__.py
+REPLACE_PYTHON+=	khal/ui/base.py
 
 post-install:
 	${INSTALL_DATA} ${WRKSRC}/khal.conf.sample ${DESTDIR}${PREFIX}/share/doc/khal
