@@ -8,7 +8,7 @@ EXTRACT_SUFX=	.tar.bz2
 MAINTAINER=	a@umc8.ru
 HOMEPAGE=	https://github.com/ripple/rippled
 COMMENT=	Ripple peer-to-peer network daemon
-#LICENSE=	# TODO: (see mk/license.mk)
+LICENSE=	# TODO: (see mk/license.mk)
 
 BUILD_DEPENDS+=       scons>=0.96.91:../../devel/scons
 DEPENDS+=       openssl>=1.0.1f:../../security/openssl
