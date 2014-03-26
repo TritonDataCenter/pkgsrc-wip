@@ -2,6 +2,7 @@
 bin/djvu2hocr
 bin/hocr2djvused
 bin/ocrodjvu
+${PYSITELIB}/${EGG_FILE}
 ${PYSITELIB}/ocrodjvu/__init__.py
 ${PYSITELIB}/ocrodjvu/__init__.pyc
 ${PYSITELIB}/ocrodjvu/__init__.pyo
