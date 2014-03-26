@@ -31,7 +31,7 @@ DEPENDS+=	${PYPKGPREFIX}-mako>=0.2.2:../../devel/py-mako
 DEPENDS+=	${PYPKGPREFIX}-curl-[0-9]*:../../www/py-curl
 DEPENDS+=	${PYPKGPREFIX}-gnome2-desktop-[0-9]*:../../x11/py-gnome2-desktop
 DEPENDS+=	${PYPKGPREFIX}-sqlite3-[0-9]*:../../databases/py-sqlite3
-#DEPENDS+=	${PYPKGPREFIX}-keyring-[0-9]*:../../wip/py-keyring
+#DEPENDS+=	${PYPKGPREFIX}-keyring-[0-9]*:../../security/py-keyring
 DEPENDS+=	${PYPKGPREFIX}-oauth-[0-9]*:../../security/py-oauth
 DEPENDS+=	${PYPKGPREFIX}-gnome2-extras-[0-9]*:../../x11/py-gnome2-extras
 
