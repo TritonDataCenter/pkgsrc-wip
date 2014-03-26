@@ -2696,6 +2696,7 @@ SUBDIR+=	py-nzmath
 SUBDIR+=	py-oak
 SUBDIR+=	py-oasa
 SUBDIR+=	py-obspy
+SUBDIR+=	py-ocrodjvu
 SUBDIR+=	py-oct2py
 SUBDIR+=	py-ontopy
 SUBDIR+=	py-openastro
