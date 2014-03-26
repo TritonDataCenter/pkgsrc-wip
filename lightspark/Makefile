@@ -32,6 +32,7 @@ post-install:
 
 CONF_FILES=	${EGDIR}/xdg/lightspark.conf ${PKG_SYSCONFDIR}/xdg/lightspark.conf
 
+DEPENDS+=nasm>=2.10:../../devel/nasm
 BUILDLINK_API_DEPENDS.xz+=	xz>=5.0.5
 .include "../../archivers/xz/buildlink3.mk"
 .include "../../audio/pulseaudio/buildlink3.mk"
