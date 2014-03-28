@@ -1793,6 +1793,7 @@ SUBDIR+=	mysql-proxy
 SUBDIR+=	mysql-sphinxse
 SUBDIR+=	mysqltcl
 SUBDIR+=	mythtv
+SUBDIR+=	n2n
 SUBDIR+=	nag
 SUBDIR+=	naqsh-ttf
 SUBDIR+=	natali
