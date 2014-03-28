@@ -21,17 +21,17 @@ start_precmd="supernode_prestart"
 n2n_config_var() {
     eval '(
         . "$N2N_CONFIG_FILE" >/dev/null
-        echo $'$1'
+        echo "$'$1'"
     )'
 }
 
 supernode_prestart() {
-    local port=$(n2n_config_var port)
+    local port="$(n2n_config_var port)"
     if [ -n "$port" ]; then
         rc_flags="$rc_flags -l $port"
     fi
 
-    local verbose=$(n2n_config_var verbose)
+    local verbose="$(n2n_config_var verbose)"
     if [ -n "$verbose" ]; then
         if checkyesno verbose; then
             rc_flags="$rc_flags -v"
