@@ -8,7 +8,6 @@ share/doc/n2n/COPYING
 share/doc/n2n/HACKING
 share/doc/n2n/NEW_FEATURES.txt
 share/doc/n2n/README
-share/doc/n2n/multiple-supernodes.pdf
 share/examples/n2n/edge.conf
 share/examples/n2n/supernode.conf
 share/examples/rc.d/n2n_edge
