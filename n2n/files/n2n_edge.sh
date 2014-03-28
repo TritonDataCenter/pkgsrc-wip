@@ -72,6 +72,16 @@ edge_prestart() {
         export N2N_KEY="$key"
     fi
 
+    local interval=$(n2n_config_var interval)
+    if [ -n "$interval" ]; then
+        rc_flags="$rc_flags -i $interval"
+    fi
+
+    local localaddr=$(n2n_config_var localaddr)
+    if [ -n "$localaddr" ]; then
+        rc_flags="$rc_flags -L $localaddr"
+    fi
+
     local reresolve=$(n2n_config_var reresolve)
     if [ -n "$reresolve" ]; then
         if checkyesno reresolve; then
