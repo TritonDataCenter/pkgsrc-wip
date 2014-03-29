@@ -2,7 +2,7 @@ $NetBSD$
 
 arpa/inet.h needs to be included for socklen_t definition on NetBSD.
 
---- krita/plugins/formats/xcf/xcftools.h.orig	2013-08-19 16:38:18.000000000 +0000
+--- krita/plugins/formats/xcf/xcftools.h.orig	2013-10-12 08:17:59.000000000 +0000
 +++ krita/plugins/formats/xcf/xcftools.h
 @@ -60,7 +60,10 @@ typedef signed long int   int32_t ;
  # define __ATTRIBUTE__(x)

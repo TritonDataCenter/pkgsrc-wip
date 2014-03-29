@@ -3,7 +3,7 @@ $NetBSD$
 isnan() and isinf() are macros on NetBSD (C99 conformant).
 Use same workaround as for Mac OS X and Cygwin.
 
---- 3rdparty/kdchart/kdablibfakes/src/KDABLibFakes.h.orig	2013-08-18 13:17:48.000000000 +0000
+--- 3rdparty/kdchart/kdablibfakes/src/KDABLibFakes.h.orig	2013-10-12 08:17:41.000000000 +0000
 +++ 3rdparty/kdchart/kdablibfakes/src/KDABLibFakes.h
 @@ -52,7 +52,7 @@
  #include <float.h>
