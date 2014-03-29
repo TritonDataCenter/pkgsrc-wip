@@ -4,7 +4,7 @@ Add definitions to work with llvm 3.4. Should work with 3.5.
 
 --- src/scripting/abc.h.orig	2013-03-16 11:19:18.000000000 +0000
 +++ src/scripting/abc.h
-@@ -32,10 +32,17 @@
+@@ -32,6 +32,9 @@
  #include "scripting/abcutils.h"
  #include "scripting/abctypes.h"
  #include "scripting/flash/system/flashsystem.h"
@@ -14,15 +14,7 @@ Add definitions to work with llvm 3.4. Should work with 3.5.
  
  namespace llvm {
  	class ExecutionEngine;
-+#ifdef LLVM_34
-+	class FunctionPassManager;
-+#else
- 	class FunctionPassManager;
-+#endif
- 	class FunctionType;
- 	class Function;
- 	class Module;
-@@ -428,7 +435,11 @@ public:
+@@ -428,7 +431,11 @@ public:
  	MemoryAccount* vmDataMemory;
  
  	llvm::ExecutionEngine* ex;
