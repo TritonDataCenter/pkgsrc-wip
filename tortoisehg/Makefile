@@ -40,8 +40,6 @@ pre-build:
 	${RUN} cd ${WRKSRC}/doc && ${MAKE_PROGRAM} html
 	${RUN} rm ${WRKSRC}/doc/build/html/.buildinfo
 
-.include "../../lang/python/pyversion.mk"
-
 .include "../../lang/python/application.mk"
 .include "../../lang/python/distutils.mk"
 .include "../../sysutils/desktop-file-utils/desktopdb.mk"
