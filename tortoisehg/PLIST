@@ -1,5 +1,6 @@
 @comment $NetBSD$
 bin/thg
+${PYSITELIB}/${EGG_FILE}
 ${PYSITELIB}/tortoisehg/__init__.py
 ${PYSITELIB}/tortoisehg/__init__.pyc
 ${PYSITELIB}/tortoisehg/__init__.pyo
