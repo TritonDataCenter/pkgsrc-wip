@@ -27,12 +27,13 @@ CXXFLAGS+=	-std=c++0x
 .endif
 
 post-install:
-	${MV} ${DESTDIR}${PREFIX}/etc/xdg ${DESTDIR}${EGDIR}; \
+	${MV} ${DESTDIR}${PREFIX}/etc/xdg ${DESTDIR}${EGDIR} && \
 	${RMDIR} ${DESTDIR}${PREFIX}/etc
 
 CONF_FILES=	${EGDIR}/xdg/lightspark.conf ${PKG_SYSCONFDIR}/xdg/lightspark.conf
 
-BUILD_DEPENDS+=nasm>=2.10:../../devel/nasm
+DEPENDS+=	gnash>=0.8.10:../../multimedia/gnash
+BUILD_DEPENDS+=	nasm>=2.10:../../devel/nasm
 BUILDLINK_API_DEPENDS.xz+=	xz>=5.0.5
 .include "../../archivers/xz/buildlink3.mk"
 .include "../../audio/pulseaudio/buildlink3.mk"
