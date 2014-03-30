@@ -4,7 +4,6 @@ DISTNAME=	terminator-0.97
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	x11
 MASTER_SITES=	https://launchpad.net/terminator/trunk/0.97/+download/
-FETCH_USING=	curl
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	https://launchpad.net/terminator
