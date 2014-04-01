@@ -40,6 +40,7 @@ BUILDLINK_API_DEPENDS.xz+=	xz>=5.0.5
 .include "../../devel/boost-libs/buildlink3.mk"
 .include "../../devel/glibmm/buildlink3.mk"
 .include "../../graphics/glew/buildlink3.mk"
+.include "../../graphics/glu/buildlink3.mk"
 .include "../../graphics/hicolor-icon-theme/buildlink3.mk"
 .include "../../mk/jpeg.buildlink3.mk"
 .include "../../lang/clang/buildlink3.mk"
