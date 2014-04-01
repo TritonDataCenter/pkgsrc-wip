@@ -1,6 +1,6 @@
 $NetBSD$
 
-*fixes moc version comparison (Bug #72744) 
+*fixes moc version comparison (Bug #72744) a fix for this is in ver 0.26
 
 --- configure.orig	2013-11-26 23:17:02.000000000 +0000
 +++ configure
