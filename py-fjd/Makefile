@@ -10,6 +10,8 @@ HOMEPAGE=	http://github.com/nhoening/fjd/
 COMMENT=	File-based job distribution for everyone
 LICENSE=	apache-2.0
 
+PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-paramiko
+
 USE_TOOLS+=	bash
 USE_LANGUAGES=	# none
 
