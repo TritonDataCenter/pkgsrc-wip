@@ -1848,7 +1848,6 @@ SUBDIR+=	netwmpager
 SUBDIR+=	netwox
 SUBDIR+=	netx
 SUBDIR+=	newsbeuter
-SUBDIR+=	nginx
 SUBDIR+=	nhc98
 SUBDIR+=	nicotine+
 SUBDIR+=	nightfall
