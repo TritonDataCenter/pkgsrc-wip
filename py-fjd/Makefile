@@ -12,7 +12,7 @@ LICENSE=	apache-2.0
 
 PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-paramiko
 
-USE_TOOLS+=	bash
+USE_TOOLS+=	bash:run
 USE_LANGUAGES=	# none
 
 REPLACE_BASH+=	 fjd/scripts/bgscreen
