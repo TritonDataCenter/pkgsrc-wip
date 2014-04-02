@@ -1,7 +1,7 @@
 # $NetBSD$
 
 DISTNAME=	qore-sqlite3-module-1.0.1
-PKGREVISION=	1
+PKGREVISION=	2
 CATEGORIES=	databases
 MASTER_SITES=   ${MASTER_SITE_SOURCEFORGE:=qore/}
 
@@ -27,4 +27,5 @@ post-install:
 .include "../../databases/sqlite3/buildlink3.mk"
 .include "../../mk/pthread.buildlink3.mk"
 .include "../../wip/qore/buildlink3.mk"
+.include "../../wip/qore/module.mk"
 .include "../../mk/bsd.pkg.mk"
