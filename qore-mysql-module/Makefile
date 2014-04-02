@@ -1,7 +1,7 @@
 # $NetBSD$
 
 DISTNAME=	qore-mysql-module-2.0.1
-PKGREVISION=	1
+PKGREVISION=	2
 CATEGORIES=	databases
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=qore/}
 EXTRACT_SUFX=	.tar.bz2
@@ -23,4 +23,5 @@ INSTALL_TARGET=	install install-html-local
 .include "../../mk/mysql.buildlink3.mk"
 .include "../../mk/pthread.buildlink3.mk"
 .include "../../wip/qore/buildlink3.mk"
+.include "../../wip/qore/module.mk"
 .include "../../mk/bsd.pkg.mk"
