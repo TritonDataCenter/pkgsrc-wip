@@ -10,8 +10,6 @@ HOMEPAGE=	http://personalpages.tds.net/~jwbacon/Ports/distfiles/
 COMMENT=	Another Programmer's Editor
 #LICENSE=	BSD license, but which one?
 
-DEPENDS+=	mcrypt-[0-9]*:../../security/mcrypt
-
 MAKE_ENV+=	STAGEDIR=${DESTDIR}
 
 pre-build:
