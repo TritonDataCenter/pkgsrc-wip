@@ -3,7 +3,7 @@ lib/qore-modules/${QORE_VERSION}/SoapClient.qm
 lib/qore-modules/${QORE_VERSION}/SoapHandler.qm
 lib/qore-modules/${QORE_VERSION}/WSDL.qm
 lib/qore-modules/${QORE_VERSION}/XmlRpcHandler.qm
-lib/qore-modules/xml-api-0.17.qmod
+lib/qore-modules/xml-api-${QORE_LATEST_MODULE_API}.qmod
 share/qore/docs/modules/SoapClient/html/_soap_client_8qm_8dox_8h_source.html
 share/qore/docs/modules/SoapClient/html/annotated.html
 share/qore/docs/modules/SoapClient/html/annotated.js
