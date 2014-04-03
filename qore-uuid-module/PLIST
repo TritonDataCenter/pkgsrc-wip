@@ -1,5 +1,5 @@
 @comment $NetBSD$
-lib/qore-modules/uuid-api-0.17.qmod
+lib/qore-modules/uuid-api-${QORE_LATEST_MODULE_API}.qmod
 share/qore/docs/modules/uuid/html/QC__UUID_8dox_8h_source.html
 share/qore/docs/modules/uuid/html/annotated.html
 share/qore/docs/modules/uuid/html/annotated.js
