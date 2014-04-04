@@ -5,7 +5,7 @@ CATEGORIES=	finance
 MASTER_SITES=	http://umc8.ru/~a/pkgsrc/distfiles/
 EXTRACT_SUFX=	.tar.bz2
 
-MAINTAINER=	a@umc8.ru
+MAINTAINER=	root@zta.lk
 HOMEPAGE=	https://github.com/ripple/rippled
 COMMENT=	Ripple peer-to-peer network daemon
 #LICENSE=	# TODO: (see mk/license.mk)

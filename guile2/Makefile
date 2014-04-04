@@ -1,11 +1,11 @@
 # $NetBSD$
 #
 
-DISTNAME=	guile-2.0.7
+DISTNAME=	guile-2.0.9
 CATEGORIES=	lang
 MASTER_SITES=	ftp://ftp.gnu.org/gnu/guile/
 
-MAINTAINER=	a@zta.lk
+MAINTAINER=	root@zta.lk
 HOMEPAGE=	ftp://ftp.gnu.org/gnu/guile/
 COMMENT=	Official extension language for the GNU operating system
 LICENSE=	gnu-gpl-v3
