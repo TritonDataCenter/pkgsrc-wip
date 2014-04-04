@@ -2187,7 +2187,6 @@ SUBDIR+=	pdf2svg
 SUBDIR+=	pdfedit
 SUBDIR+=	pdfminer
 SUBDIR+=	pdfmod
-SUBDIR+=	pdfshuffler
 SUBDIR+=	pdftk
 SUBDIR+=	pdnsd
 SUBDIR+=	pdq
