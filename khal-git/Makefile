@@ -28,7 +28,6 @@ DEPENDS+=		${PYPKGPREFIX}-setproctitle-[0-9]*:../../sysutils/py-setproctitle
 PYTHON_VERSIONED_DEPENDENCIES=	dateutil
 
 WRKSRC=			${WRKDIR}/khal
-EGG_NAME=		${DISTNAME}.dev
 INSTALLATION_DIRS=	share/doc/khal
 REPLACE_PYTHON+=	khal/__init__.py
 REPLACE_PYTHON+=	khal/aux.py
