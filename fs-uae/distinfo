@@ -9,4 +9,5 @@ SHA1 (patch-libfsemu_Makefile) = a195c62ad50f6113e92f27bb9d37fbd4800abaa5
 SHA1 (patch-libfsemu_src_emu_input.c) = f29ddb4b15213a52acabdc46234765ffef37d380
 SHA1 (patch-libfsemu_src_filesys.c) = 2db4fb1c6459d36656205fdebc978ac1203b06e6
 SHA1 (patch-libfsemu_src_ml_ml.c) = c68ae38054a2920a5c628d6b9682911340b3d9f5
+SHA1 (patch-libfsemu_src_ml_x11.c) = 9ca726ee11c475b44b0c25a1e1e6eb157547eb32
 SHA1 (patch-src_od-fs_bsdsocket__posix.cpp) = a66abde2441715094c413d7498947ff8eb5d0b8a
