@@ -1873,6 +1873,7 @@ SUBDIR+=	nzbget
 SUBDIR+=	objfw
 SUBDIR+=	objfw-git
 SUBDIR+=	obmenu
+SUBDIR+=	ocaml-camomile
 SUBDIR+=	ocamlgraph
 SUBDIR+=	ocamlweb
 SUBDIR+=	oclock
