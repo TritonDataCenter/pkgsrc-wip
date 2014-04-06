@@ -1,6 +1,10 @@
 @comment $NetBSD$
 ${EMACS_INFOPREFIX}/slime.info
 ${EMACS_LISPPREFIX}/slime/ChangeLog
+${EMACS_LISPPREFIX}/slime/lib/cl-lib.el
+${EMACS_LISPPREFIX}/slime/lib/ert-x.el
+${EMACS_LISPPREFIX}/slime/lib/ert.el
+${EMACS_LISPPREFIX}/slime/lib/hyperspec.el
 ${EMACS_LISPPREFIX}/slime/metering.lisp
 ${EMACS_LISPPREFIX}/slime/nregex.lisp
 ${EMACS_LISPPREFIX}/slime/sbcl-pprint-patch.lisp
