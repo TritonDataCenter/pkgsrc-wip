@@ -506,7 +506,6 @@ SUBDIR+=	dvegas
 SUBDIR+=	dwepcrack
 SUBDIR+=	dxmake
 SUBDIR+=	dzen2
-SUBDIR+=	e-uae
 SUBDIR+=	e00pg
 SUBDIR+=	e16keyedit
 SUBDIR+=	e16menuedit
