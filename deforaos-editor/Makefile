@@ -1,9 +1,9 @@
 # $NetBSD$
 
-DISTNAME=	Editor-0.2.1
-PKGNAME=	deforaos-editor-0.2.1
+DISTNAME=	Editor-0.3.0
+PKGNAME=	deforaos-editor-0.3.0
 CATEGORIES=	editors
-MASTER_SITES=	http://www.defora.org/os/download/download/3702/
+MASTER_SITES=	http://www.defora.org/os/download/download/4326/
 
 MAINTAINER=	khorben@defora.org
 HOMEPAGE=	http://www.defora.org/
