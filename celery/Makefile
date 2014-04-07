@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	celery-3.1.9
+DISTNAME=	celery-3.1.10
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	net python
 MASTER_SITES=	https://pypi.python.org/packages/source/c/celery/
