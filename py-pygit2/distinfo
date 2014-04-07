@@ -1,5 +1,5 @@
 $NetBSD$
 
-SHA1 (pygit2-0.20.2.tar.gz) = 9041d4ff6ec60e440c193398796237a1339f3b09
-RMD160 (pygit2-0.20.2.tar.gz) = f9a86e59d86fc1f731cb3ee686f9f3ae915b7514
-Size (pygit2-0.20.2.tar.gz) = 140028 bytes
+SHA1 (pygit2-0.20.3.tar.gz) = 193975a4bf16e524b1b202084da7b32380c84afc
+RMD160 (pygit2-0.20.3.tar.gz) = 0958840482103472dbe5943219083b2e36209bab
+Size (pygit2-0.20.3.tar.gz) = 146253 bytes
