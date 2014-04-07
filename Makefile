@@ -2566,7 +2566,6 @@ SUBDIR+=	py-event
 SUBDIR+=	py-eventlet
 SUBDIR+=	py-extremes
 SUBDIR+=	py-eyed3
-SUBDIR+=	py-ezPyCrypto
 SUBDIR+=	py-fastaudio
 SUBDIR+=	py-fatiando
 SUBDIR+=	py-fdasrsf
