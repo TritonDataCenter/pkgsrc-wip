@@ -1,5 +1,7 @@
 $NetBSD$
 
+DESTDIR support and other configurability.
+
 --- sys/autoconf/Makefile.doc.orig	2013-12-08 15:00:26.000000000 +0000
 +++ sys/autoconf/Makefile.doc
 @@ -49,11 +49,11 @@ Guidebook.dvi:	Guidebook.tex
