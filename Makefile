@@ -1874,6 +1874,7 @@ SUBDIR+=	objfw
 SUBDIR+=	objfw-git
 SUBDIR+=	obmenu
 SUBDIR+=	ocaml-camomile
+SUBDIR+=	ocaml-zed
 SUBDIR+=	ocamlgraph
 SUBDIR+=	ocamlweb
 SUBDIR+=	oclock
