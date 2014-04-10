@@ -2339,6 +2339,7 @@ SUBDIR+=	pkg_summary-utils
 SUBDIR+=	pkgconf
 SUBDIR+=	pkgin
 SUBDIR+=	pkgmanager
+SUBDIR+=	plasma-widget-menubar
 SUBDIR+=	plasti
 SUBDIR+=	plconfig
 SUBDIR+=	plod
