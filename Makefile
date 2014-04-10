@@ -3622,7 +3622,6 @@ SUBDIR+=	wvstreams
 SUBDIR+=	wxGTK-contrib-unicode
 SUBDIR+=	wxGTK-unicode
 SUBDIR+=	wxMaxima
-SUBDIR+=	x264-devel
 SUBDIR+=	xace
 SUBDIR+=	xalan-c
 SUBDIR+=	xalan-c-1.10
