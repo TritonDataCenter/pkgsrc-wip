@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	pygit2-0.20.2
+DISTNAME=	pygit2-0.20.3
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	devel
 MASTER_SITES=	https://pypi.python.org/packages/source/p/pygit2/

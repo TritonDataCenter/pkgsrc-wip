@@ -15,6 +15,9 @@ post-install:
 	${INSTALL_MAN} ${DESTDIR}${PREFIX}/share/man/man5/pandoc_markdown.5 ${DESTDIR}${PREFIX}/${PKGMANDIR}/man5
 	rm -rf ${DESTDIR}${PREFIX}/share/man
 
+BUILD_DEPENDS=	alex:../../wip/alex
+BUILD_DEPENDS+=	happy:../../wip/happy
+
 .include "../../wip/mk/haskell.mk"
 .include "../../wip/hs-aeson/buildlink3.mk"
 .include "../../wip/hs-attoparsec/buildlink3.mk"

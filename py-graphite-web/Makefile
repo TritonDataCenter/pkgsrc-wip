@@ -1,10 +1,9 @@
 # $NetBSD$
 
-DISTNAME=	graphite-web-0.9.10
+DISTNAME=	graphite-web-0.9.12
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
-PKGREVISION=	2
 CATEGORIES=	www
-MASTER_SITES=	http://launchpadlibrarian.net/106575888/
+MASTER_SITES=	-https://github.com/graphite-project/graphite-web/archive/${PKGVERSION_NOREV}${EXTRACT_SUFX}
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	https://launchpad.net/graphite
@@ -25,10 +24,19 @@ BUILD_DEFS+=		VARBASE GRAPHITE_DIR
 GRAPHITE_DIR?=		${VARBASE}/graphite
 GRAPHITE_EGDIR?=	share/examples/graphite
 
+REPLACE_SH+=		bin/build-index.sh
+
 SUBST_CLASSES+=		dirs
 SUBST_STAGE.dirs=	pre-configure
-SUBST_MESSAGE.dirs=	Patching default storage directory
-SUBST_FILES.dirs=	setup.py
+SUBST_MESSAGE.dirs=	Patching default dirs
+SUBST_FILES.dirs=	bin/build-index.sh
+SUBST_FILES.dirs+=	conf/graphite.wsgi.example
+SUBST_FILES.dirs+=	examples/example-graphite-vhost.conf
+SUBST_FILES.dirs+=	setup.py
+SUBST_FILES.dirs+=	webapp/graphite/local_settings.py.example
+SUBST_SED.dirs=		-e 's,/opt/graphite/conf,${PKG_SYSCONFDIR},g'
+SUBST_SED.dirs+=	-e 's,/opt/graphite/storage,${GRAPHITE_DIR},g'
+SUBST_SED.dirs+=	-e 's,/opt/graphite,${PREFIX}/graphite,g'
 SUBST_VARS.dirs=	GRAPHITE_DIR GRAPHITE_EGDIR PREFIX
 
 PKG_SYSCONFSUBDIR=	graphite
@@ -46,11 +54,12 @@ PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-django-tagging
 
 INSTALLATION_DIRS+=	share/examples/graphite
 
-PLIST_SUBST+=	THIS_EGG_FILE=${EGG_NAME:S|graphite-|graphite_|}-py${PYVERSSUFFIX}.egg-info
+EGG_NAME=	${DISTNAME:S/graphite-/graphite_/}
 
 pre-build:
 	${MKDIR} ${WRKSRC}/graphite/webapp
 	${CP} -LR ${WRKSRC}/webapp/content ${WRKSRC}/graphite/webapp
+	${RM} -f ${WRKSRC}/bin/build-index.sh.orig
 
 .include "../../lang/python/versioned_dependencies.mk"
 .include "../../lang/python/distutils.mk"

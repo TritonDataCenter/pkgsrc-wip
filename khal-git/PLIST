@@ -4,6 +4,7 @@ bin/khal
 ${PYSITELIB}/${EGG_INFODIR}/PKG-INFO
 ${PYSITELIB}/${EGG_INFODIR}/SOURCES.txt
 ${PYSITELIB}/${EGG_INFODIR}/dependency_links.txt
+${PYSITELIB}/${EGG_INFODIR}/requires.txt
 ${PYSITELIB}/${EGG_INFODIR}/top_level.txt
 ${PYSITELIB}/khal/__init__.py
 ${PYSITELIB}/khal/__init__.pyc
@@ -23,12 +24,12 @@ ${PYSITELIB}/khal/calendar_display.pyo
 ${PYSITELIB}/khal/controllers.py
 ${PYSITELIB}/khal/controllers.pyc
 ${PYSITELIB}/khal/controllers.pyo
+${PYSITELIB}/khal/event.py
+${PYSITELIB}/khal/event.pyc
+${PYSITELIB}/khal/event.pyo
 ${PYSITELIB}/khal/khalendar.py
 ${PYSITELIB}/khal/khalendar.pyc
 ${PYSITELIB}/khal/khalendar.pyo
-${PYSITELIB}/khal/model.py
-${PYSITELIB}/khal/model.pyc
-${PYSITELIB}/khal/model.pyo
 ${PYSITELIB}/khal/status.py
 ${PYSITELIB}/khal/status.pyc
 ${PYSITELIB}/khal/status.pyo

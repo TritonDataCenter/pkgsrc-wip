@@ -1,0 +1,15 @@
+===========================================================================
+$NetBSD$
+
+* If you want to run edge(8), you need to edit at least `address',
+  `supernodes' and `community' in `${PKG_SYSCONFDIR}/edge.conf`.
+  `${RCD_SCRIPTS_DIR}/n2n_edge start' will abort otherwise.
+
+* On FreeBSD you need to create a TAP interface by running `ifconfig
+  tap0 create' *before* starting edge(8).
+
+* MacOS X lacks TUN/TAP devices. If you want to run edge(8) on Darwin,
+  you need to manually install TunTap kernel extensions. See:
+  http://tuntaposx.sourceforge.net/
+
+===========================================================================

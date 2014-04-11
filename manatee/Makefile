@@ -21,9 +21,11 @@ DEPENDS+=		p5-GDGraph>=1.33nb1:../../graphics/p5-GDGraph
 DEPENDS+=		p5-GDTextUtil>=0.80nb1:../../graphics/p5-GDTextUtil
 #DEPENDS+=		p5-Storable>=2.06:../../devel/p5-Storable
 DEPENDS+=		p5-Date-Manip>=5.40:../../devel/p5-Date-Manip
-DEPENDS+=		mysql-server>=5.0:../../databases/mysql5-server
 DEPENDS+=		p5-Tree-DAG_Node>=1.04:../../devel/p5-Tree-DAG_Node
 DEPENDS+=		p5-DBD-Sybase>=0.94:../../databases/p5-DBD-Sybase
+
+# Depend on default MySQL server:
+DEPENDS+=		mysql-server>=5.0:../../databases/mysql$(MYSQL_VERSION_DEFAULT)-server
 
 PKG_DESTDIR_SUPPORT=	none
 
@@ -38,4 +40,5 @@ pre-configure:
 .include "../../graphics/gd/buildlink3.mk"
 .include "../../www/apache/buildlink3.mk"
 .include "../../lang/perl5/buildlink3.mk"
+.include "../../mk/mysql.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

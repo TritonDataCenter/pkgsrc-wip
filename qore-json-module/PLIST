@@ -1,6 +1,6 @@
 @comment $NetBSD$
 lib/qore-modules/${QORE_VERSION}/JsonRpcHandler.qm
-lib/qore-modules/json-api-0.17.qmod
+lib/qore-modules/json-api-${QORE_LATEST_MODULE_API}.qmod
 share/qore/docs/modules/JsonRpcHandler/html/_json_rpc_handler_8qm_8dox_8h_source.html
 share/qore/docs/modules/JsonRpcHandler/html/annotated.html
 share/qore/docs/modules/JsonRpcHandler/html/annotated.js

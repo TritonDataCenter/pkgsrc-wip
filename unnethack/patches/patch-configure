@@ -1,0 +1,33 @@
+$NetBSD$
+
+If the user supplies LIBXAW_CFLAGS and LIBXAW_LIBS, *really* believe her.
+
+--- configure.orig	2013-12-08 15:00:17.000000000 +0000
++++ configure
+@@ -3883,6 +3883,8 @@ _ACEOF
+ if ac_fn_c_try_link "$LINENO"; then :
+   LIBXAW_CFLAGS="$nethack__cflags"; LIBXAW_LIBS="$nethack__libs"; { $as_echo "$as_me:${as_lineno-$LINENO}: result: yes" >&5
+ $as_echo "yes" >&6; }; nethack__succeeded=yes
++    NETHACK__LIBXAW_CFLAGS="$nethack__cflags"
++    NETHACK__LIBXAW_LIBS="$nethack__libs"
+ else
+   { $as_echo "$as_me:${as_lineno-$LINENO}: result: no" >&5
+ $as_echo "no" >&6; }; nethack__succeeded=no
+@@ -3927,7 +3929,7 @@ fi
+     if test $nethack__succeeded = yes; then
+ 
+     nethack__cflags="$NETHACK__LIBXAW_CFLAGS"
+-    for nethack__flag in -I/usr/X11R6/include; do
++    for nethack__flag in -I/usr/X11R7/include; do
+ 
+     case "$nethack__flag" in
+ 	-I*|-L*|-l*)
+@@ -3952,7 +3954,7 @@ fi
+ 
+ 
+     nethack__libs="$NETHACK__LIBXAW_LIBS"
+-    for nethack__flag in -L/usr/X11R6/lib -lXaw -lXmu -lXext -lXt -lX11; do
++    for nethack__flag in -L/usr/X11R7/lib -lXaw -lXmu -lXext -lXt -lX11; do
+ 
+     case "$nethack__flag" in
+ 	-I*|-L*|-l*)

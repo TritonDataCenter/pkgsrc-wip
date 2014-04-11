@@ -1,9 +1,9 @@
 @comment $NetBSD$
-${PLIST.eggfile}${PYSITELIB}/${EGG_FILE}/PKG-INFO
-${PLIST.eggfile}${PYSITELIB}/${EGG_FILE}/SOURCES.txt
-${PLIST.eggfile}${PYSITELIB}/${EGG_FILE}/dependency_links.txt
-${PLIST.eggfile}${PYSITELIB}/${EGG_FILE}/requires.txt
-${PLIST.eggfile}${PYSITELIB}/${EGG_FILE}/top_level.txt
+${PYSITELIB}/${EGG_FILE}/PKG-INFO
+${PYSITELIB}/${EGG_FILE}/SOURCES.txt
+${PYSITELIB}/${EGG_FILE}/dependency_links.txt
+${PYSITELIB}/${EGG_FILE}/requires.txt
+${PYSITELIB}/${EGG_FILE}/top_level.txt
 ${PYSITELIB}/txamqp/__init__.py
 ${PYSITELIB}/txamqp/__init__.pyc
 ${PYSITELIB}/txamqp/__init__.pyo

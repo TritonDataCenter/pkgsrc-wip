@@ -1,9 +1,11 @@
 $NetBSD$
 
-SHA1 (unnethack-4.0.0-20120401.tar.gz) = c7415284b27a585024b56858c87e927b36bc6ad5
-RMD160 (unnethack-4.0.0-20120401.tar.gz) = b3fcf5a336670e92dbbf94a44fe34ed42a9f5788
-Size (unnethack-4.0.0-20120401.tar.gz) = 5241359 bytes
-SHA1 (patch-include_config.h) = fbca0bb3b9440d00357921e06ca4ded64aa86fd6
-SHA1 (patch-sys_autoconf_Makefile.doc) = 4074422de8c78729c158c7e52ad5b87dbbd4673e
-SHA1 (patch-sys_autoconf_Makefile.src) = 0a4d8305e96b1d422197326b24d5b701e7062e81
-SHA1 (patch-sys_autoconf_Makefile.top) = f58694f3850e0fc0d52bcf5c405dedd418b79ef6
+SHA1 (unnethack-5.1.0-20131208.tar.gz) = 8535f69eca4f510a29dd1bf869aa55d6dea4664d
+RMD160 (unnethack-5.1.0-20131208.tar.gz) = 3dab0a9427772bbacddad4dbd1251b347465f985
+Size (unnethack-5.1.0-20131208.tar.gz) = 5422521 bytes
+SHA1 (patch-configure) = d3ceae3a9ff858c585161e38ee99e04a7f481d75
+SHA1 (patch-include_config.h) = a6b583a4919dd233ba507276bd56f86b1c1810ea
+SHA1 (patch-sys_autoconf_Makefile.doc) = f54a654de70bc7e2e19fefbdebd948f49dcf6dfc
+SHA1 (patch-sys_autoconf_Makefile.src) = aed49e3157c4540304f187b4d9ea5a3011d06f87
+SHA1 (patch-sys_autoconf_Makefile.top) = 142dd5705a72662e9312a930a020890e3d23a2c9
+SHA1 (patch-sys_autoconf_acinclude.m4) = 53e1700dbe1bfa49363a1ced236c0c5d7c083e1a

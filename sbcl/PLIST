@@ -1,7 +1,5 @@
 @comment $NetBSD$
 bin/sbcl
-lib/sbcl/contrib/asdf-install.asd
-lib/sbcl/contrib/asdf-install.fasl
 lib/sbcl/contrib/asdf.fasl
 lib/sbcl/contrib/sb-aclrepl.asd
 lib/sbcl/contrib/sb-aclrepl.fasl

@@ -1,7 +1,7 @@
 # $NetBSD$
 
 DISTNAME=	qore-xml-module-1.2
-PKGREVISION=	1
+PKGREVISION=	2
 CATEGORIES=	textproc
 MASTER_SITES=   ${MASTER_SITE_SOURCEFORGE:=qore/}
 EXTRACT_SUFX=   .tar.bz2

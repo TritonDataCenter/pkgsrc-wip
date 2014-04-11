@@ -21,11 +21,13 @@ DEPENDS+=		${PYPKGPREFIX}-lxml>=2:../../textproc/py-lxml
 DEPENDS+=		${PYPKGPREFIX}-requests>=0.10:../../devel/py-requests
 # SimpleFocusListWalker is in urwid 1.1.0
 DEPENDS+=		${PYPKGPREFIX}-urwid>=1.1.0:../../devel/py-urwid
+# not needed, but recommended, so let's just depend on them
+DEPENDS+=		${PYPKGPREFIX}-keyring-[0-9]*:../../security/py-keyring
+DEPENDS+=		${PYPKGPREFIX}-setproctitle-[0-9]*:../../sysutils/py-setproctitle
 
 PYTHON_VERSIONED_DEPENDENCIES=	dateutil
 
 WRKSRC=			${WRKDIR}/khal
-EGG_NAME=		${DISTNAME}.dev
 INSTALLATION_DIRS=	share/doc/khal
 REPLACE_PYTHON+=	khal/__init__.py
 REPLACE_PYTHON+=	khal/aux.py
@@ -33,7 +35,10 @@ REPLACE_PYTHON+=	khal/backend.py
 REPLACE_PYTHON+=	khal/caldav.py
 REPLACE_PYTHON+=	khal/calendar_display.py
 REPLACE_PYTHON+=	khal/controllers.py
-REPLACE_PYTHON+=	khal/model.py
+REPLACE_PYTHON+=	khal/event.py
+REPLACE_PYTHON+=	khal/khalendar.py
+REPLACE_PYTHON+=	khal/ui/__init__.py
+REPLACE_PYTHON+=	khal/ui/base.py
 
 post-install:
 	${INSTALL_DATA} ${WRKSRC}/khal.conf.sample ${DESTDIR}${PREFIX}/share/doc/khal

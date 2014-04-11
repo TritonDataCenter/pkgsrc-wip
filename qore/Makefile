@@ -1,7 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	qore-0.8.8
-PKGREVISION=	1
+DISTNAME=	qore-0.8.9
 CATEGORIES=	lang
 MASTER_SITES=   ${MASTER_SITE_SOURCEFORGE:=qore/}
 EXTRACT_SUFX=   .tar.bz2
@@ -32,6 +31,7 @@ post-install:
 .include "options.mk"
 
 .include "../../archivers/bzip2/buildlink3.mk"
+.include "../../devel/libexecinfo/buildlink3.mk"
 .include "../../devel/pcre/buildlink3.mk"
 .include "../../devel/zlib/buildlink3.mk"
 .include "../../mk/pthread.buildlink3.mk"

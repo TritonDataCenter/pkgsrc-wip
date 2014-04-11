@@ -1,0 +1,14 @@
+@comment $NetBSD$
+man/man1/supernode.1
+man/man7/n2n_v2.7
+man/man8/edge.8
+sbin/edge
+sbin/supernode
+share/doc/n2n/COPYING
+share/doc/n2n/HACKING
+share/doc/n2n/NEW_FEATURES.txt
+share/doc/n2n/README
+share/examples/n2n/edge.conf
+share/examples/n2n/supernode.conf
+share/examples/rc.d/n2n_edge
+share/examples/rc.d/n2n_supernode

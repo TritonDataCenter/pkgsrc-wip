@@ -14,6 +14,8 @@ LICENSE=	mit
 USE_CMAKE=		yes
 USE_LANGUAGES+=		c c++
 
+MAKE_JOBS_SAFE=		no
+
 PKGCONFIG_OVERRIDE+=	yaml-cpp.pc.cmake
 
 .include "../../devel/boost-headers/buildlink3.mk"

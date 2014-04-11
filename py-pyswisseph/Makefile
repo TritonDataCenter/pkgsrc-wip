@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	pyswisseph-2.00.00-1
+DISTNAME=	pyswisseph-2.00.00-2
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME:S/-0/.0/1}
 CATEGORIES=	time
 MASTER_SITES=	http://pypi.python.org/packages/source/p/pyswisseph/

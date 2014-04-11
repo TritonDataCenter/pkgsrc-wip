@@ -1,0 +1,8 @@
+@comment $NetBSD$
+bin/love
+lib/liblove.la
+man/man1/love.1
+share/applications/love.desktop
+share/icons/hicolor/scalable/mimetypes/application-x-love-game.svg
+share/mime/packages/love.xml
+share/pixmaps/love.svg

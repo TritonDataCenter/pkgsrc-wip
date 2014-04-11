@@ -39,6 +39,9 @@ ${PYSITELIB}/carbon/conf.pyo
 ${PYSITELIB}/carbon/events.py
 ${PYSITELIB}/carbon/events.pyc
 ${PYSITELIB}/carbon/events.pyo
+${PYSITELIB}/carbon/exceptions.py
+${PYSITELIB}/carbon/exceptions.pyc
+${PYSITELIB}/carbon/exceptions.pyo
 ${PYSITELIB}/carbon/hashing.py
 ${PYSITELIB}/carbon/hashing.pyc
 ${PYSITELIB}/carbon/hashing.pyo

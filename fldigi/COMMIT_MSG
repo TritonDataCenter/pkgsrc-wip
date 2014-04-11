@@ -1,0 +1,23 @@
+(Upstream update 3.21.79 to 3.21.80)
+=Version 3.21.80=
+
+2014-03-19  David Freese  <w1hkj at w1hkj.com>
+		 FreeBSD nitems
+		 Cabrillo time off
+		 Change Fl_ListBox
+		 Restore Fl_Choice
+		 Olivia select fix
+		 ComboBox
+		 fluid update
+(pkgsrc)
+ Following patches are now included
+ (with slightly different code, say, #ifdef __clang__ etc),
+ thus deleted:
+   patch-src_include_logsupport.h
+   patch-src_include_strutil.h
+   patch-src_logbook_logsupport.cxx
+   patch-src_misc_dxcc.cxx
+   patch-src_misc_re.cxx
+   patch-src_spot_notify.cxx
+   patch-src_spot_pskrep.cxx
+   patch-src_spot_spot.cxx

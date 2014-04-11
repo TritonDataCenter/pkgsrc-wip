@@ -1,7 +1,7 @@
 # $NetBSD$
 
 DISTNAME=	qore-xmlsec-module-0.0.2
-PKGREVISION=	1
+PKGREVISION=	2
 CATEGORIES=	security
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=qore/}
 
@@ -30,4 +30,5 @@ post-install:
 .include "../../security/xmlsec1/buildlink3.mk"
 .include "../../textproc/libxslt/buildlink3.mk"
 .include "../../wip/qore/buildlink3.mk"
+.include "../../wip/qore/module.mk"
 .include "../../mk/bsd.pkg.mk"

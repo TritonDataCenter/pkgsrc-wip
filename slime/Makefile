@@ -1,21 +1,24 @@
 # $NetBSD$
 #
 
-DISTNAME=		slime-2.0
-PKGNAME=		${EMACS_PKGNAME_PREFIX}${DISTNAME}
+DISTNAME=		v2.5
+PKGNAME=		${EMACS_PKGNAME_PREFIX}slime${DISTNAME:S/v/-/1}
+PKGREVISION=		1
 CATEGORIES=		editors
-MASTER_SITES=		http://common-lisp.net/project/slime/
-EXTRACT_SUFX=		.tgz
+MASTER_SITES=		https://github.com/slime/slime/archive/
+DIST_SUBDIR=		${PKGBASE}
 
 MAINTAINER=		jfranz@bsdprojects.net
 HOMEPAGE=		http://common-lisp.net/project/slime/
 COMMENT=		Superior Lisp Interaction Mode for Emacs
+LICENSE=		gnu-gpl-v2 AND gnu-gpl-v3 AND mit AND public-domain # AND LLGPL
 
+WRKSRC=			${WRKDIR}/${PKGNAME_NOREV}
 USE_TOOLS+=		gmake makeinfo
 NO_CONFIGURE=		yes
 INFO_FILES=		yes
 
-INSTALLATION_DIRS=	${EMACS_INFOPREFIX} ${EMACS_LISPPREFIX}/slime
+INSTALLATION_DIRS+=	${EMACS_INFOPREFIX} ${EMACS_LISPPREFIX}/slime/lib
 SLIME_LISPDIR=		${EMACS_LISPPREFIX}/slime
 
 do-build:
@@ -29,11 +32,13 @@ pre-install:
 
 do-install:
 	cd ${WRKSRC}; \
-		${INSTALL_DATA} ChangeLog ${SLIME_LISPDIR}; \
-		${INSTALL_DATA} *.el ${SLIME_LISPDIR}; \
-		${INSTALL_DATA} *.elc ${SLIME_LISPDIR}; \
-		${INSTALL_DATA} *.lisp ${SLIME_LISPDIR}
-		${INSTALL_DATA} ${WRKSRC}/doc/slime.info ${EMACS_INFOPREFIX}
+		${INSTALL_DATA} ChangeLog ${DESTDIR}${SLIME_LISPDIR}; \
+		${INSTALL_DATA} *.el ${DESTDIR}${SLIME_LISPDIR}; \
+		${INSTALL_DATA} *.elc ${DESTDIR}${SLIME_LISPDIR}; \
+		${INSTALL_DATA} *.lisp ${DESTDIR}${SLIME_LISPDIR}; \
+		${INSTALL_DATA} lib/*.el ${DESTDIR}${SLIME_LISPDIR}/lib
+		${INSTALL_DATA} ${WRKSRC}/doc/slime.info \
+			${DESTDIR}${EMACS_INFOPREFIX}
 
 .include "../../editors/emacs/modules.mk"
 .include "../../mk/bsd.pkg.mk"

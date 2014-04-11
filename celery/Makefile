@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	celery-3.1.9
+DISTNAME=	celery-3.1.10
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	net python
 MASTER_SITES=	https://pypi.python.org/packages/source/c/celery/
@@ -13,7 +13,7 @@ LICENSE=	modified-bsd # AND cc-by-nc-sa-v3.0
 
 DEPENDS+=	${PYPKGPREFIX}-anyjson-[0-9]*:../../textproc/py-anyjson
 DEPENDS+=	${PYPKGPREFIX}-billiard>=3.3.0.14:../../parallel/py-billiard
-DEPENDS+=	${PYPKGPREFIX}-kombu>=3.0.12:../../net/py-kombu
+DEPENDS+=	${PYPKGPREFIX}-kombu>=3.0.14:../../net/py-kombu
 DEPENDS+=	${PYPKGPREFIX}-pytz-[0-9]*:../../time/py-pytz
 
 USE_LANGUAGES=	c
