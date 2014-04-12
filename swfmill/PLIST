@@ -1,4 +1,2 @@
 @comment $NetBSD$
 bin/swfmill
-lib/libswfmillxslt.la
-lib/libswft.la
