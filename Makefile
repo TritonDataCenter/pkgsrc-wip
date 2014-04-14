@@ -893,6 +893,7 @@ SUBDIR+=	h323plus
 SUBDIR+=	h8300-elf-binutils
 SUBDIR+=	habak
 SUBDIR+=	haddock
+SUBDIR+=	hammer
 SUBDIR+=	hanazono-ttf
 SUBDIR+=	happy
 SUBDIR+=	haproxy
