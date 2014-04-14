@@ -17,6 +17,7 @@ BUILD_DEPENDS+=         scons-[0-9]*:../../devel/scons
 USE_LANGUAGES=		c c++
 DIST_SUBDIR=		hammer
 EXTRACT_USING=		bsdtar
+PKGCONFIG_OVERRIDE=	libhammer.pc.in
 
 SCONS_ARGS=		--variant=opt DESTDIR=${DESTDIR} prefix=${PREFIX}
 
