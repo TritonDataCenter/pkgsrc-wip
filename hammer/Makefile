@@ -14,7 +14,6 @@ LICENSE=		gnu-gpl-v2
 
 BUILD_DEPENDS+=         scons-[0-9]*:../../devel/scons
 
-#USE_TOOLS+=		gtar
 USE_LANGUAGES=		c c++
 DIST_SUBDIR=		hammer
 EXTRACT_USING=		bsdtar
