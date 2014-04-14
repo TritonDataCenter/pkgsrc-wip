@@ -3,9 +3,8 @@
 VERSION=		1.0.0-rc3
 DISTNAME=		hammer-${VERSION}
 PKGNAME=		${DISTNAME:C/-rc/rc/}
-DISTFILES=		v${VERSION}${EXTRACT_SUFX}
 CATEGORIES=		devel
-MASTER_SITES=		https://github.com/UpstandingHackers/hammer/archive/
+MASTER_SITES=		-https://github.com/UpstandingHackers/hammer/archive/v${VERSION}${EXTRACT_SUFX}
 
 MAINTAINER=		thequux@upstandinghackers.com
 HOMEPAGE=		http://github.com/UpstandingHackers/hammer
@@ -15,7 +14,6 @@ LICENSE=		gnu-gpl-v2
 BUILD_DEPENDS+=         scons-[0-9]*:../../devel/scons
 
 USE_LANGUAGES=		c c++
-DIST_SUBDIR=		hammer
 EXTRACT_USING=		bsdtar
 PKGCONFIG_OVERRIDE=	libhammer.pc.in
 
