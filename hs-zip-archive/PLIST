@@ -6,3 +6,16 @@ lib/zip-archive-${PKGVERSION}/${HASKELL_VERSION}/libHSzip-archive-${PKGVERSION}.
 lib/zip-archive-${PKGVERSION}/${HASKELL_VERSION}/libHSzip-archive-${PKGVERSION}_p.a
 lib/zip-archive-${PKGVERSION}/${HASKELL_VERSION}/package-description
 share/doc/zip-archive-${PKGVERSION}/LICENSE
+${PLIST.doc}share/doc/zip-archive-${PKGVERSION}/html/Codec-Archive-Zip.html
+${PLIST.doc}share/doc/zip-archive-${PKGVERSION}/html/doc-index.html
+${PLIST.doc}share/doc/zip-archive-${PKGVERSION}/html/frames.html
+${PLIST.doc}share/doc/zip-archive-${PKGVERSION}/html/haddock-util.js
+${PLIST.doc}share/doc/zip-archive-${PKGVERSION}/html/hslogo-16.png
+${PLIST.doc}share/doc/zip-archive-${PKGVERSION}/html/index-frames.html
+${PLIST.doc}share/doc/zip-archive-${PKGVERSION}/html/index.html
+${PLIST.doc}share/doc/zip-archive-${PKGVERSION}/html/mini_Codec-Archive-Zip.html
+${PLIST.doc}share/doc/zip-archive-${PKGVERSION}/html/minus.gif
+${PLIST.doc}share/doc/zip-archive-${PKGVERSION}/html/ocean.css
+${PLIST.doc}share/doc/zip-archive-${PKGVERSION}/html/plus.gif
+${PLIST.doc}share/doc/zip-archive-${PKGVERSION}/html/synopsis.png
+${PLIST.doc}share/doc/zip-archive-${PKGVERSION}/html/zip-archive.haddock
