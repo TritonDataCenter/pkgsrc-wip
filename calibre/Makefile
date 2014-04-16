@@ -26,7 +26,7 @@ DEPENDS+=	${PYPKGPREFIX}-cherrypy-[0-9]*:../../www/py-cherrypy
 DEPENDS+=	${PYPKGPREFIX}-html5lib-[0-9]*:../../textproc/py-html5lib
 DEPENDS+=	${PYPKGPREFIX}-chardet-[0-9]*:../../converters/py-chardet
 DEPENDS+=	${PYPKGPREFIX}-netifaces-[0-9]*:../../net/py-netifaces
-DEPENDS+=	${PYPKGPREFIX}-apsw-[0-9]*:../../wip/py-apsw
+DEPENDS+=	${PYPKGPREFIX}-apsw-[0-9]*:../../databases/py-apsw
 
 PYTHON_VERSIONED_DEPENDENCIES=	dateutil dns
 
