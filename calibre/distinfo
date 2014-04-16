@@ -6,5 +6,5 @@ Size (calibre-1.31.0.tar.xz) = 33189956 bytes
 SHA1 (qt-everywhere-opensource-src-4.8.5.tar.gz) = 745f9ebf091696c0d5403ce691dc28c039d77b9e
 RMD160 (qt-everywhere-opensource-src-4.8.5.tar.gz) = 1e7bb099d5d1cda0b663cebe207c846c8d04750d
 Size (qt-everywhere-opensource-src-4.8.5.tar.gz) = 241491467 bytes
-SHA1 (patch-setup_extensions.py) = 02b566008c7f73ad1848438cd6fb05b7c71645f6
+SHA1 (patch-setup_extensions.py) = 285ab1aff5b0d5f7c0a016f68e705d312a120d65
 SHA1 (patch-src_calibre_linux.py) = 06e953e3a437ae76783d80bf0986bbbece991431
