@@ -2435,7 +2435,6 @@ SUBDIR+=	py-amqplib
 SUBDIR+=	py-anfft
 SUBDIR+=	py-antlr3
 SUBDIR+=	py-aopython
-SUBDIR+=	py-apsw
 SUBDIR+=	py-aqopa
 SUBDIR+=	py-arabic
 SUBDIR+=	py-argh
