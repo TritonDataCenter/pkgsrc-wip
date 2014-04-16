@@ -268,7 +268,6 @@ SUBDIR+=	cairo-dock
 SUBDIR+=	cairo-dock-plugins
 SUBDIR+=	cairo-java
 SUBDIR+=	calcurse
-SUBDIR+=	calibre
 SUBDIR+=	calligra
 SUBDIR+=	callweaver
 SUBDIR+=	calypso
