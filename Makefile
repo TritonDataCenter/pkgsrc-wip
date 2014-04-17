@@ -502,6 +502,7 @@ SUBDIR+=	duplo
 SUBDIR+=	dvbsnoop
 SUBDIR+=	dvd2xvid
 SUBDIR+=	dvegas
+SUBDIR+=	dwarf_fortress
 SUBDIR+=	dwepcrack
 SUBDIR+=	dxmake
 SUBDIR+=	dzen2
