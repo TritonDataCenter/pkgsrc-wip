@@ -1878,6 +1878,7 @@ SUBDIR+=	obmenu
 SUBDIR+=	ocaml-camomile
 SUBDIR+=	ocaml-zed
 SUBDIR+=	ocamlgraph
+SUBDIR+=	ocamlmod
 SUBDIR+=	ocamlweb
 SUBDIR+=	oclock
 SUBDIR+=	octave
