@@ -3764,7 +3764,6 @@ SUBDIR+=	xwelltris
 SUBDIR+=	xwindiff
 SUBDIR+=	xxdiff
 SUBDIR+=	yafray
-SUBDIR+=	yajl
 SUBDIR+=	yakuake
 SUBDIR+=	yaml-cpp
 SUBDIR+=	yaml-mode
