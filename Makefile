@@ -614,6 +614,7 @@ SUBDIR+=	fakenes
 SUBDIR+=	fakeroot
 SUBDIR+=	fala
 SUBDIR+=	farsi-ttf
+SUBDIR+=	farstream
 SUBDIR+=	fasm
 SUBDIR+=	fasta
 SUBDIR+=	fastbit
