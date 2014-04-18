@@ -2768,6 +2768,7 @@ SUBDIR+=	py-path.py
 SUBDIR+=	py-pathtools
 SUBDIR+=	py-pcapy
 SUBDIR+=	py-pdef
+SUBDIR+=	py-pdfposter
 SUBDIR+=	py-peak-rules
 SUBDIR+=	py-pebl
 SUBDIR+=	py-pefile
