@@ -1778,7 +1778,6 @@ SUBDIR+=	muscle-mcardplugin
 SUBDIR+=	muscle-pam
 SUBDIR+=	muscle-pkcs11
 SUBDIR+=	muscletool
-SUBDIR+=	musepack
 SUBDIR+=	musescore
 SUBDIR+=	mutt-ng
 SUBDIR+=	muttprint
