@@ -3770,6 +3770,7 @@ SUBDIR+=	xxdiff
 SUBDIR+=	yafray
 SUBDIR+=	yakuake
 SUBDIR+=	yaml-cpp
+SUBDIR+=	yaml-cpp0.3
 SUBDIR+=	yaml-mode
 SUBDIR+=	yateclient
 SUBDIR+=	yauap
