@@ -1403,6 +1403,7 @@ SUBDIR+=	ledger
 SUBDIR+=	leim-current
 SUBDIR+=	leo
 SUBDIR+=	leveldb
+SUBDIR+=	lgogdownloader-git
 SUBDIR+=	lhapdf
 SUBDIR+=	lhs2tex
 SUBDIR+=	libGenome
