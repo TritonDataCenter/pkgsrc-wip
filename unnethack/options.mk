@@ -7,7 +7,10 @@ PKG_SUGGESTED_OPTIONS=
 # Support for the x11 option seems unreliable.
 # For instance, the configure script hardcodes references to /usr/X11R6,
 # and Makefile.src needs patching for proper dependencies.
-# Furthermore when running, I didn't see myself and quickly got a segfault.
+# Furthermore when running, I quickly got a segfault.
+#
+# Unnethack installs 2 font files which conflict with nethack,
+# but they are identical, so you could force it without much problem.
 
 .include "../../mk/bsd.options.mk"
 
@@ -21,6 +24,8 @@ BUILD_TARGET+=		x11tiles
 BUILD_TARGET+=		rip.xpm
 FONTS_DIRS.x11+=	${PREFIX}/lib/X11/fonts/misc
 INSTALLATION_DIRS+=	lib/X11/app-defaults lib/X11/fonts/misc
+
+MESSAGE_SRC+=           ${.CURDIR}/MESSAGE.x11
 
 post-install:
 	${INSTALL_DATA} ${WRKSRC}/dat/x11tiles \
