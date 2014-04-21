@@ -54,8 +54,8 @@ $NetBSD: patch-ar,v 1.1.1.1 2012/02/21 12:49:43 drochner Exp $
 +#if defined(_POSIX_SPAWN) && (_POSIX_SPAWN >= 0)
          posix_spawnattr_setsigdefault (&p_sys->attr, &set);
          posix_spawnattr_setflags (&p_sys->attr, POSIX_SPAWN_SETSIGDEF
-+#endif
                                                | POSIX_SPAWN_SETSIGMASK);
++#endif
      }
  
      ih->p_sys = p_sys;
