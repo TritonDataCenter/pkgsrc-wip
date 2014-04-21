@@ -5,4 +5,17 @@ lib/knob-${PKGVERSION}/${HASKELL_VERSION}/HSknob-${PKGVERSION}.o
 lib/knob-${PKGVERSION}/${HASKELL_VERSION}/libHSknob-${PKGVERSION}.a
 lib/knob-${PKGVERSION}/${HASKELL_VERSION}/libHSknob-${PKGVERSION}_p.a
 lib/knob-${PKGVERSION}/${HASKELL_VERSION}/package-description
+${PLIST.doc}share/doc/knob-${PKGVERSION}/html/Data-Knob.html
+${PLIST.doc}share/doc/knob-${PKGVERSION}/html/doc-index.html
+${PLIST.doc}share/doc/knob-${PKGVERSION}/html/frames.html
+${PLIST.doc}share/doc/knob-${PKGVERSION}/html/haddock-util.js
+${PLIST.doc}share/doc/knob-${PKGVERSION}/html/hslogo-16.png
+${PLIST.doc}share/doc/knob-${PKGVERSION}/html/index-frames.html
+${PLIST.doc}share/doc/knob-${PKGVERSION}/html/index.html
+${PLIST.doc}share/doc/knob-${PKGVERSION}/html/knob.haddock
+${PLIST.doc}share/doc/knob-${PKGVERSION}/html/mini_Data-Knob.html
+${PLIST.doc}share/doc/knob-${PKGVERSION}/html/minus.gif
+${PLIST.doc}share/doc/knob-${PKGVERSION}/html/ocean.css
+${PLIST.doc}share/doc/knob-${PKGVERSION}/html/plus.gif
+${PLIST.doc}share/doc/knob-${PKGVERSION}/html/synopsis.png
 share/doc/knob-${PKGVERSION}/license.txt

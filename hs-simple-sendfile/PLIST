@@ -10,3 +10,16 @@ lib/simple-sendfile-${PKGVERSION}/${HASKELL_VERSION}/libHSsimple-sendfile-${PKGV
 lib/simple-sendfile-${PKGVERSION}/${HASKELL_VERSION}/libHSsimple-sendfile-${PKGVERSION}_p.a
 lib/simple-sendfile-${PKGVERSION}/${HASKELL_VERSION}/package-description
 share/doc/simple-sendfile-${PKGVERSION}/LICENSE
+${PLIST.doc}share/doc/simple-sendfile-${PKGVERSION}/html/Network-Sendfile.html
+${PLIST.doc}share/doc/simple-sendfile-${PKGVERSION}/html/doc-index.html
+${PLIST.doc}share/doc/simple-sendfile-${PKGVERSION}/html/frames.html
+${PLIST.doc}share/doc/simple-sendfile-${PKGVERSION}/html/haddock-util.js
+${PLIST.doc}share/doc/simple-sendfile-${PKGVERSION}/html/hslogo-16.png
+${PLIST.doc}share/doc/simple-sendfile-${PKGVERSION}/html/index-frames.html
+${PLIST.doc}share/doc/simple-sendfile-${PKGVERSION}/html/index.html
+${PLIST.doc}share/doc/simple-sendfile-${PKGVERSION}/html/mini_Network-Sendfile.html
+${PLIST.doc}share/doc/simple-sendfile-${PKGVERSION}/html/minus.gif
+${PLIST.doc}share/doc/simple-sendfile-${PKGVERSION}/html/ocean.css
+${PLIST.doc}share/doc/simple-sendfile-${PKGVERSION}/html/plus.gif
+${PLIST.doc}share/doc/simple-sendfile-${PKGVERSION}/html/simple-sendfile.haddock
+${PLIST.doc}share/doc/simple-sendfile-${PKGVERSION}/html/synopsis.png
