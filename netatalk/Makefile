@@ -80,7 +80,7 @@ PLIST.ea=		yes
 
 .include "options.mk"
 
-INSTALLATION_DIRS=	libexec/psffilters etc/netatalk
+INSTALLATION_DIRS=	libexec/psffilters etc/netatalk ${EGDIR}
 
 .if !empty(PKG_OPTIONS:Mpam)
 post-install:
