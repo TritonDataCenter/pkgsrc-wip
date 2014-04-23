@@ -10,3 +10,16 @@ lib/temporary-${PKGVERSION}/${HASKELL_VERSION}/libHStemporary-${PKGVERSION}.a
 lib/temporary-${PKGVERSION}/${HASKELL_VERSION}/libHStemporary-${PKGVERSION}_p.a
 lib/temporary-${PKGVERSION}/${HASKELL_VERSION}/package-description
 share/doc/temporary-${PKGVERSION}/LICENSE
+${PLIST.doc}share/doc/temporary-${PKGVERSION}/html/System-IO-Temp.html
+${PLIST.doc}share/doc/temporary-${PKGVERSION}/html/doc-index.html
+${PLIST.doc}share/doc/temporary-${PKGVERSION}/html/frames.html
+${PLIST.doc}share/doc/temporary-${PKGVERSION}/html/haddock-util.js
+${PLIST.doc}share/doc/temporary-${PKGVERSION}/html/hslogo-16.png
+${PLIST.doc}share/doc/temporary-${PKGVERSION}/html/index-frames.html
+${PLIST.doc}share/doc/temporary-${PKGVERSION}/html/index.html
+${PLIST.doc}share/doc/temporary-${PKGVERSION}/html/mini_System-IO-Temp.html
+${PLIST.doc}share/doc/temporary-${PKGVERSION}/html/minus.gif
+${PLIST.doc}share/doc/temporary-${PKGVERSION}/html/ocean.css
+${PLIST.doc}share/doc/temporary-${PKGVERSION}/html/plus.gif
+${PLIST.doc}share/doc/temporary-${PKGVERSION}/html/synopsis.png
+${PLIST.doc}share/doc/temporary-${PKGVERSION}/html/temporary.haddock

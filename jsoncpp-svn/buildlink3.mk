@@ -1,0 +1,13 @@
+# $NetBSD$
+
+BUILDLINK_TREE+=	jsoncpp
+
+.if !defined(JSONCPP_BUILDLINK3_MK)
+JSONCPP_BUILDLINK3_MK:=
+
+BUILDLINK_API_DEPENDS.jsoncpp+=	jsoncpp>=0.6.0rc2nb20140216
+BUILDLINK_PKGSRCDIR.jsoncpp?=	../../wip/jsoncpp-svn
+BUILDLINK_DEPMETHOD.jsoncpp?=	build
+.endif	# JSONCPP_BUILDLINK3_MK
+
+BUILDLINK_TREE+=	-jsoncpp

@@ -1,0 +1,3 @@
+@comment $NetBSD$
+bin/ocamlify
+@pkgdir lib/ocaml/site-lib

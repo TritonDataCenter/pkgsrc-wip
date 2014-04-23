@@ -27,6 +27,8 @@ SUBST_SED.siege+=	-e "s|@EGDIR@|${EGDIR}|g"
 CONFIGURE_ARGS+=	--sysconfdir=${PKG_SYSCONFDIR}
 CONFIGURE_ENV+=		PERL=${PERL5:Q}
 
+INSTALLATION_DIRS+=	${EGDIR}
+
 pre-configure:
 	cd ${WRKSRC} && autoconf
 

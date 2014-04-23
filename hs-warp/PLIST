@@ -26,3 +26,16 @@ lib/warp-${PKGVERSION}/${HASKELL_VERSION}/libHSwarp-${PKGVERSION}.a
 lib/warp-${PKGVERSION}/${HASKELL_VERSION}/libHSwarp-${PKGVERSION}_p.a
 lib/warp-${PKGVERSION}/${HASKELL_VERSION}/package-description
 share/doc/warp-${PKGVERSION}/LICENSE
+${PLIST.doc}share/doc/warp-${PKGVERSION}/html/Network-Wai-Handler-Warp.html
+${PLIST.doc}share/doc/warp-${PKGVERSION}/html/doc-index.html
+${PLIST.doc}share/doc/warp-${PKGVERSION}/html/frames.html
+${PLIST.doc}share/doc/warp-${PKGVERSION}/html/haddock-util.js
+${PLIST.doc}share/doc/warp-${PKGVERSION}/html/hslogo-16.png
+${PLIST.doc}share/doc/warp-${PKGVERSION}/html/index-frames.html
+${PLIST.doc}share/doc/warp-${PKGVERSION}/html/index.html
+${PLIST.doc}share/doc/warp-${PKGVERSION}/html/mini_Network-Wai-Handler-Warp.html
+${PLIST.doc}share/doc/warp-${PKGVERSION}/html/minus.gif
+${PLIST.doc}share/doc/warp-${PKGVERSION}/html/ocean.css
+${PLIST.doc}share/doc/warp-${PKGVERSION}/html/plus.gif
+${PLIST.doc}share/doc/warp-${PKGVERSION}/html/synopsis.png
+${PLIST.doc}share/doc/warp-${PKGVERSION}/html/warp.haddock

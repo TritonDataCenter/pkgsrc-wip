@@ -1,5 +1,5 @@
 $NetBSD$
 
-SHA1 (guile-2.0.7.tar.gz) = 4425cc1a60ffe5637972a328880f98746c2a0f5b
-RMD160 (guile-2.0.7.tar.gz) = b737a46e0ce78da7742f71293fea3d4f8400aa39
-Size (guile-2.0.7.tar.gz) = 7163916 bytes
+SHA1 (guile-2.0.11.tar.gz) = 3cdd1c4956414bffadea13e5a1ca08949016a802
+RMD160 (guile-2.0.11.tar.gz) = e375607a569cba8ebecd9a15d4c25abe10abfd85
+Size (guile-2.0.11.tar.gz) = 7516053 bytes

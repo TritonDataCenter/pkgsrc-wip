@@ -1,12 +1,2 @@
 @comment $NetBSD$
 bin/swfmill
-lib/libswfmillxslt.a
-lib/libswfmillxslt.la
-lib/libswfmillxslt.so
-lib/libswfmillxslt.so.0
-lib/libswfmillxslt.so.0.0.0
-lib/libswft.a
-lib/libswft.la
-lib/libswft.so
-lib/libswft.so.0
-lib/libswft.so.0.0.0

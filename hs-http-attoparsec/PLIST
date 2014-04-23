@@ -6,3 +6,16 @@ lib/http-attoparsec-${PKGVERSION}/${HASKELL_VERSION}/libHShttp-attoparsec-${PKGV
 lib/http-attoparsec-${PKGVERSION}/${HASKELL_VERSION}/libHShttp-attoparsec-${PKGVERSION}_p.a
 lib/http-attoparsec-${PKGVERSION}/${HASKELL_VERSION}/package-description
 share/doc/http-attoparsec-${PKGVERSION}/LICENSE
+${PLIST.doc}share/doc/http-attoparsec-${PKGVERSION}/html/Network-HTTP-Attoparsec.html
+${PLIST.doc}share/doc/http-attoparsec-${PKGVERSION}/html/doc-index.html
+${PLIST.doc}share/doc/http-attoparsec-${PKGVERSION}/html/frames.html
+${PLIST.doc}share/doc/http-attoparsec-${PKGVERSION}/html/haddock-util.js
+${PLIST.doc}share/doc/http-attoparsec-${PKGVERSION}/html/hslogo-16.png
+${PLIST.doc}share/doc/http-attoparsec-${PKGVERSION}/html/http-attoparsec.haddock
+${PLIST.doc}share/doc/http-attoparsec-${PKGVERSION}/html/index-frames.html
+${PLIST.doc}share/doc/http-attoparsec-${PKGVERSION}/html/index.html
+${PLIST.doc}share/doc/http-attoparsec-${PKGVERSION}/html/mini_Network-HTTP-Attoparsec.html
+${PLIST.doc}share/doc/http-attoparsec-${PKGVERSION}/html/minus.gif
+${PLIST.doc}share/doc/http-attoparsec-${PKGVERSION}/html/ocean.css
+${PLIST.doc}share/doc/http-attoparsec-${PKGVERSION}/html/plus.gif
+${PLIST.doc}share/doc/http-attoparsec-${PKGVERSION}/html/synopsis.png
