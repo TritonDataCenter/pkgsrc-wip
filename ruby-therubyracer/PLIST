@@ -1,4 +1,5 @@
 @comment $NetBSD$
+${GEM_EXTSDIR}/v8/init.${RUBY_DLEXT}
 ${GEM_HOME}/build_info/${GEM_NAME}.info
 ${GEM_HOME}/cache/${GEM_NAME}.gem
 ${GEM_LIBDIR}/.gitignore
@@ -64,7 +65,7 @@ ${GEM_LIBDIR}/lib/v8/conversion/symbol.rb
 ${GEM_LIBDIR}/lib/v8/conversion/time.rb
 ${GEM_LIBDIR}/lib/v8/error.rb
 ${GEM_LIBDIR}/lib/v8/function.rb
-${GEM_LIBDIR}/lib/v8/init.so
+${GEM_LIBDIR}/lib/v8/init.${RUBY_DLEXT}
 ${GEM_LIBDIR}/lib/v8/object.rb
 ${GEM_LIBDIR}/lib/v8/stack.rb
 ${GEM_LIBDIR}/lib/v8/version.rb
