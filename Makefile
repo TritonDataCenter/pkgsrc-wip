@@ -1664,6 +1664,7 @@ SUBDIR+=	mediawiki-mode
 SUBDIR+=	meep
 SUBDIR+=	meep-mpi
 SUBDIR+=	meep-openmpi
+SUBDIR+=	megaglest
 SUBDIR+=	memdump
 SUBDIR+=	memgrep
 SUBDIR+=	menumaker
