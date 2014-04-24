@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=		feedgenerator-1.6
+DISTNAME=		feedgenerator-1.7
 PKGNAME=		${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=		www
 MASTER_SITES=		https://pypi.python.org/packages/source/f/feedgenerator/
