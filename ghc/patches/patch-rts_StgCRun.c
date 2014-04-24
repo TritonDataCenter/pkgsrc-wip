@@ -11,7 +11,7 @@ With this workaround we can no longer override those two symbols using
 LD_PRELOAD, but I think there is no reason to do so anyway.
 
 
---- rts/StgCRun.c.orig	2013-01-27 13:21:52.000000000 +0000
+--- rts/StgCRun.c.orig	2013-04-18 21:22:46.000000000 +0000
 +++ rts/StgCRun.c
 @@ -246,6 +246,7 @@ StgRunIsImplementedInAssembler(void)
           * save callee-saves registers on behalf of the STG code.

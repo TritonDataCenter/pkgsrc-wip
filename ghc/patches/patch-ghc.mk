@@ -9,7 +9,7 @@ is not enough:
    32M    ghc-7.6.2-boot-powerpc-apple-darwin.tar.xz
 
 
---- ghc.mk.orig	2013-02-14 02:24:35.000000000 +0000
+--- ghc.mk.orig	2013-04-18 21:22:46.000000000 +0000
 +++ ghc.mk
 @@ -1009,7 +1009,8 @@ unix-binary-dist-prep:
  	$(call removeFiles,$(BIN_DIST_PREP_TAR))

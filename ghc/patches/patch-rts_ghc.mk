@@ -9,7 +9,7 @@ wrappers in the PATH so we have to hide them:
   ocess input program
 
 
---- rts/ghc.mk.orig	2013-01-27 13:21:52.000000000 +0000
+--- rts/ghc.mk.orig	2013-04-18 21:22:47.000000000 +0000
 +++ rts/ghc.mk
 @@ -484,7 +484,7 @@ endif
  
