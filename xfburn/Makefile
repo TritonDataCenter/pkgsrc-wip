@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	xfburn-0.5.0
+DISTNAME=	xfburn-0.5.2
 CATEGORIES=	sysutils
 MASTER_SITES=	http://archive.xfce.org/src/apps/xfburn/0.5/
 EXTRACT_SUFX=	.tar.bz2
