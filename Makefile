@@ -3669,6 +3669,7 @@ SUBDIR+=	xf86-video-suntcx
 SUBDIR+=	xf86-video-voodoo
 SUBDIR+=	xf86dga
 SUBDIR+=	xf86rushproto
+SUBDIR+=	xfburn
 SUBDIR+=	xfce4-appfinder
 SUBDIR+=	xfce4-desktop
 SUBDIR+=	xfce4-dev-tools
