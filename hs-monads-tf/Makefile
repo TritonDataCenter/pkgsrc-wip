@@ -1,7 +1,6 @@
 # $NetBSD$
-#
 
-DISTNAME=	monads-tf-0.1.0.1
+DISTNAME=	monads-tf-0.1.0.2
 CATEGORIES=	devel
 
 MAINTAINER=	szptvlfn@a-net.email.ne.jp
