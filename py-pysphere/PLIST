@@ -136,6 +136,9 @@ ${PYSITELIB}/pysphere/resources/vi_exception.pyo
 ${PYSITELIB}/pysphere/version.py
 ${PYSITELIB}/pysphere/version.pyc
 ${PYSITELIB}/pysphere/version.pyo
+${PYSITELIB}/pysphere/vi_managed_entity.py
+${PYSITELIB}/pysphere/vi_managed_entity.pyc
+${PYSITELIB}/pysphere/vi_managed_entity.pyo
 ${PYSITELIB}/pysphere/vi_mor.py
 ${PYSITELIB}/pysphere/vi_mor.pyc
 ${PYSITELIB}/pysphere/vi_mor.pyo
