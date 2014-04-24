@@ -1,13 +1,12 @@
 # $NetBSD$
-#
 
-DISTNAME=	libisofs-1.3.0
+DISTNAME=	libisofs-1.3.6
 CATEGORIES=	sysutils
 MASTER_SITES=	http://files.libburnia-project.org/releases/
 
 MAINTAINER=	ryoon@NetBSD.org
 HOMEPAGE=	http://libburnia-project.org/
-COMMENT=	To create an ISO-9660 filesystem with extensions
+COMMENT=	Create an ISO-9660 filesystem with extensions
 LICENSE=	gnu-gpl-v2
 
 GNU_CONFIGURE=	yes
