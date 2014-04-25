@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	v1.1.1
+DISTNAME=	v1.2.0
 PKGNAME=	${DISTNAME:S/v/zmap-/}
 CATEGORIES=	net
 MASTER_SITES=	https://github.com/zmap/zmap/archive/
@@ -20,4 +20,6 @@ USE_CMAKE=	yes
 USE_TOOLS+=	yacc
 
 .include "../../devel/gmp/buildlink3.mk"
+.include "../../net/libdnet/buildlink3.mk"
+.include "../../net/libpcap/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
