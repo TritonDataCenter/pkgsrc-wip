@@ -1,7 +1,6 @@
 # $NetBSD$
-#
 
-DISTNAME=	derive-2.5.13
+DISTNAME=	derive-2.5.15
 CATEGORIES=	devel
 
 MAINTAINER=	pho@cielonegro.org
