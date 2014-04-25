@@ -49,7 +49,7 @@ $NetBSD$
  #define _GCC_SIZE_T
  #define _SIZET_
  #if (defined (__FreeBSD__) && (__FreeBSD__ >= 5)) \
-+  || defined(__DragonFly__)
++  || defined(__DragonFly__) \
    || defined(__FreeBSD_kernel__)
  /* __size_t is a typedef on FreeBSD 5, must not trash it. */
  #elif defined (__VMS__)
