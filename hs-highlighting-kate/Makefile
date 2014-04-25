@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	highlighting-kate-0.5.6
+DISTNAME=	highlighting-kate-0.5.6.1
 CATEGORIES=	textproc
 
 MAINTAINER=	szptvlfn@a-net.email.ne.jp
