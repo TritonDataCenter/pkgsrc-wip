@@ -19,7 +19,7 @@ USE_TOOLS+=	pkg-config
 
 SUBST_CLASSES+=		path
 SUBST_STAGE.path=	pre-configure
-SUBST_SED.path+=	-e "s,/usr/local/share/,${PREFIX}/share,"
+SUBST_SED.path+=	-e "s,/usr/local/share/,${PREFIX}/share/,"
 SUBST_FILES.path+=	SwifTools/Application/UnixApplicationPathProvider.cpp
 SUBST_MESSAGE.path=	Fixing path to support files.
 
