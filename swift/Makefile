@@ -17,6 +17,12 @@ USE_TOOLS+=	pkg-config
 # MAKE_ENV+= CPPPATH="${BUILDLINK_DIR}/include:${BUILDLINK_DIR}/qt4/include"
 # MAKE_ENV+= LIBPATH="${BUILDLINK_DIR}/lib:${BUILDLINK_DIR}/qt4/lib"
 
+SUBST_CLASSES+=		path
+SUBST_STAGE.path=	pre-configure
+SUBST_SED.path+=	-e "s,/usr/local/share/,${PREFIX}/share,"
+SUBST_FILES.path+=	SwifTools/Application/UnixApplicationPathProvider.cpp
+SUBST_MESSAGE.path=	Fixing path to support files.
+
 do-configure:
 	cd ${WRKSRC} ; \
 	${ECHO} "qt=\"${QTDIR}\"" > config.py ;\
