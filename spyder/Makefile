@@ -1,9 +1,9 @@
 # $NetBSD$
 
-DISTNAME=	spyder-2.3.0beta2
+DISTNAME=	spyder-2.3.0beta4
 PKGREVISION=	2
 CATEGORIES=	devel python
-MASTER_SITES=	http://spyderlib.googlecode.com/files/
+MASTER_SITES=	https://bitbucket.org/spyder-ide/spyderlib/downloads/
 EXTRACT_SUFX=	.zip
 
 MAINTAINER=	jihbed.research@gmail.com
