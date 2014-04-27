@@ -1,9 +1,8 @@
 # $NetBSD$
 #
 
-DISTNAME=	v1.1.1
+DISTNAME=	v1.2
 PKGNAME=	sxiv-${DISTNAME:S/v//}
-PKGREVISION=	1
 CATEGORIES=	graphics
 MASTER_SITES=	https://github.com/muennich/sxiv/archive/
 
