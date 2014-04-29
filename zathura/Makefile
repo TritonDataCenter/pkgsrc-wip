@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	zathura-0.2.6
+DISTNAME=	zathura-0.2.7
 CATEGORIES=	print
 MASTER_SITES=	http://pwmt.org/projects/zathura/download/
 
@@ -13,6 +13,8 @@ DEPENDS+=	${PYPKGPREFIX}-docutils-[0-9]*:../../textproc/py-docutils
 
 USE_TOOLS+=	pkg-config gettext gmake groff
 USE_LIBTOOL=	yes
+
+MAKE_ENV+=	MANPREFIX=${PREFIX}/${PKGMANDIR}
 
 PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-docutils
 
