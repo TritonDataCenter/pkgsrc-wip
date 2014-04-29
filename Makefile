@@ -1492,7 +1492,6 @@ SUBDIR+=	libinstpatch
 SUBDIR+=	libipctdata
 SUBDIR+=	libircclient
 SUBDIR+=	libisoburn
-SUBDIR+=	libisofs
 SUBDIR+=	libitl
 SUBDIR+=	libjdksmidi
 SUBDIR+=	libjingle
