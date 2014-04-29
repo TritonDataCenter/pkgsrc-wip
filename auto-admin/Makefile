@@ -20,7 +20,11 @@ do-install:
 	${MKDIR} ${DESTDIR}${PREFIX}/sbin
 	${INSTALL_SCRIPT} ${WRKSRC}/Scripts/Common/* \
 		${DESTDIR}${PREFIX}/sbin
-.if exists(${WRKSRC}/Scripts/${OPSYS})
+	echo ${OPSYS}
+	ls ${WRKSRC}/Scripts/${OPSYS}
+# Why doesn't this work?
+#.if exists(${WRKSRC}/Scripts/${OPSYS})
+.if ${OPSYS} == NetBSD
 	${INSTALL_SCRIPT} ${WRKSRC}/Scripts/${OPSYS}/* \
 		${DESTDIR}${PREFIX}/sbin
 .endif
