@@ -17,7 +17,7 @@ USE_TOOLS+=	gmake intltool pkg-config
 .include "../../devel/glib2/buildlink3.mk"
 .include "../../graphics/hicolor-icon-theme/buildlink3.mk"
 .include "../../sysutils/desktop-file-utils/desktopdb.mk"
-.include "../../wip/libburn/buildlink3.mk"
+.include "../../sysutils/libburn/buildlink3.mk"
 .include "../../wip/libisofs/buildlink3.mk"
 .include "../../wip/libxfce4ui/buildlink3.mk"
 .include "../../wip/xfce4-exo/buildlink3.mk"

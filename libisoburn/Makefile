@@ -32,6 +32,6 @@ SUBST_FILES.fix-wish+=	frontend/xorriso-tcltk
 SUBST_SED.fix-wish+=	-e 's,/usr/bin/wish,${TCLDIR}/bin/wish,'
 
 .include "../../wip/libisofs/buildlink3.mk"
-.include "../../wip/libburn/buildlink3.mk"
+.include "../../sysutils/libburn/buildlink3.mk"
 .include "../../devel/zlib/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

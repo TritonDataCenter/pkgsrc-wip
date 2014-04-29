@@ -1421,7 +1421,6 @@ SUBDIR+=	libbrahe
 SUBDIR+=	libbs2b
 SUBDIR+=	libbsd
 SUBDIR+=	libbtctl
-SUBDIR+=	libburn
 SUBDIR+=	libcaca
 SUBDIR+=	libcdata
 SUBDIR+=	libcerror
