@@ -1857,7 +1857,6 @@ SUBDIR+=	nios2-gdb
 SUBDIR+=	njb-sharp
 SUBDIR+=	nnrpd
 SUBDIR+=	nodau
-SUBDIR+=	node
 SUBDIR+=	nodm
 SUBDIR+=	noip
 SUBDIR+=	noiptun
