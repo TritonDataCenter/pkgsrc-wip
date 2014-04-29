@@ -2368,7 +2368,6 @@ SUBDIR+=	polylib
 SUBDIR+=	polymul
 SUBDIR+=	pop-before-smtp
 SUBDIR+=	pop3.proxy
-SUBDIR+=	poppler-qt5
 SUBDIR+=	popup-el-current
 SUBDIR+=	portaudio
 SUBDIR+=	postal2-mpdemo-bin
