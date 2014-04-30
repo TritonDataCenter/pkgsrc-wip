@@ -1,9 +1,7 @@
 @comment $NetBSD$
-bin/editorconfig.py
 ${PYSITELIB}/EditorConfig-${PKGVERSION}-py2.7.egg-info/PKG-INFO
 ${PYSITELIB}/EditorConfig-${PKGVERSION}-py2.7.egg-info/SOURCES.txt
 ${PYSITELIB}/EditorConfig-${PKGVERSION}-py2.7.egg-info/dependency_links.txt
-${PYSITELIB}/EditorConfig-${PKGVERSION}-py2.7.egg-info/entry_points.txt
 ${PYSITELIB}/EditorConfig-${PKGVERSION}-py2.7.egg-info/top_level.txt
 ${PYSITELIB}/editorconfig/__init__.py
 ${PYSITELIB}/editorconfig/__init__.pyc

@@ -136,4 +136,5 @@ share/husk-scheme-${PKGVERSION}/lib/srfi/69.sld
 share/husk-scheme-${PKGVERSION}/lib/srfi/srfi-1.scm
 share/husk-scheme-${PKGVERSION}/lib/srfi/srfi-2.scm
 share/husk-scheme-${PKGVERSION}/lib/srfi/srfi-55.scm
+share/husk-scheme-${PKGVERSION}/lib/srfi/srfi-9.scm
 share/husk-scheme-${PKGVERSION}/lib/stdlib.scm

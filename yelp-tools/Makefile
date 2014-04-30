@@ -1,9 +1,8 @@
 # $NetBSD$
-#
 
-DISTNAME=	yelp-tools-3.6.1
+DISTNAME=	yelp-tools-3.12.1
 CATEGORIES=	misc
-MASTER_SITES=	${MASTER_SITE_GNOME:=sources/yelp-tools/3.6/}
+MASTER_SITES=	${MASTER_SITE_GNOME:=sources/yelp-tools/3.12/}
 EXTRACT_SUFX=	.tar.xz
 
 MAINTAINER=	pkgsrc.gnome@gmail.com

@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	pysphere-0.1.7
+DISTNAME=	pysphere-0.1.8
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	sysutils
 MASTER_SITES=	http://pysphere.googlecode.com/files/

@@ -1,7 +1,6 @@
 # $NetBSD$
-#
 
-DISTNAME=	derive-2.5.13
+DISTNAME=	derive-2.5.15
 CATEGORIES=	devel
 
 MAINTAINER=	pho@cielonegro.org
@@ -11,7 +10,6 @@ LICENSE=	modified-bsd
 .include "../../wip/mk/haskell.mk"
 .include "../../wip/hs-haskell-src-exts/buildlink3.mk"
 .include "../../wip/hs-syb/buildlink3.mk"
-.include "../../wip/hs-text/buildlink3.mk"
 .include "../../wip/hs-transformers/buildlink3.mk"
 .include "../../wip/hs-uniplate/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

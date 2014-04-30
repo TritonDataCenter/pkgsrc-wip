@@ -1,12 +1,12 @@
 # $NetBSD$
 #
 
-DISTNAME=	girara-0.1.9
+DISTNAME=	girara-0.2.0
 CATEGORIES=	x11
 MASTER_SITES=	http://pwmt.org/projects/girara/download/
 
 MAINTAINER=	degroote@NetBSD.org
-HOMEPAGE=	http://pwmt.org/projects/zathura/
+HOMEPAGE=	http://pwmt.org/projects/girara/
 COMMENT=	Library to develop simple and minimalist user interface
 #LICENSE=	# TODO: (see mk/license.mk)
 

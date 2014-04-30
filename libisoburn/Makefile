@@ -1,7 +1,7 @@
 # $NetBSD$
-#
 
-DISTNAME=	libisoburn-1.3.0
+DISTNAME=	libisoburn-1.3.6.pl01
+PKGNAME=	${DISTNAME:S/.pl/pl/}
 CATEGORIES=	sysutils
 MASTER_SITES=	http://files.libburnia-project.org/releases/
 
@@ -10,10 +10,10 @@ HOMEPAGE=	http://libburnia-project.org/wiki/Libisoburn
 COMMENT=	This is the libisoburn library and xorriso commands
 LICENSE=	gnu-gpl-v2
 
-WRKSRC=		${WRKDIR}/${DISTNAME:S/.pl00//}
-
 DEPENDS+=	tcl-[0-9]*:../../lang/tcl
 DEPENDS+=	tk-[0-9]*:../../x11/tk
+
+WRKSRC=		${WRKDIR}/${DISTNAME:C/.pl[0-9]*//}
 
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
@@ -31,7 +31,7 @@ SUBST_MESSAGE.fix-wish=	Fixing tcl wish
 SUBST_FILES.fix-wish+=	frontend/xorriso-tcltk
 SUBST_SED.fix-wish+=	-e 's,/usr/bin/wish,${TCLDIR}/bin/wish,'
 
-.include "../../wip/libisofs/buildlink3.mk"
-.include "../../wip/libburn/buildlink3.mk"
+.include "../../sysutils/libisofs/buildlink3.mk"
+.include "../../sysutils/libburn/buildlink3.mk"
 .include "../../devel/zlib/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

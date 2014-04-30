@@ -24,6 +24,8 @@ CONFIGURE_ARGS+=	--enable-manpages
 CONFIGURE_ARGS+=	--with-ldap=${BUILDLINK_PREFIX.openldap-client}
 CONFIGURE_ARGS+=	--with-zdb=${BUILDLINK_PREFIX.libzdb}
 
+CPPFLAGS.SunOS+=	-D_POSIX_PTHREAD_SEMANTICS
+
 BUILD_DEFS+=		VARBASE
 
 EGDIR=			${PREFIX}/share/examples/dbmail

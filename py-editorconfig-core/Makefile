@@ -1,17 +1,17 @@
 # $NetBSD$
-DISTNAME=	editorconfig-core-py-0.11.1
-PKGNAME=	${PYPKGPREFIX}-editorconfig-core-0.11.1
+
+DISTNAME=	editorconfig-core-py-0.11.4
+PKGNAME=	${PYPKGPREFIX}-${DISTNAME:S/-py//1}
 CATEGORIES=	devel
 MASTER_SITES=	-https://github.com/editorconfig/editorconfig-core-py/archive/v${PKGVERSION}.tar.gz
-FETCH_USING=	curl
 
 MAINTAINER=	nros@users.sourceforge.net
 HOMEPAGE=	http://editorconfig.org/
 COMMENT=	Editorconfig python library
 LICENSE=	python-software-foundation AND modified-bsd
 
-PYDISTUTILSPKG=	yes
+BUILD_DEPENDS+=	${PYPKGPREFIX}-setuptools-[0-9]*:../../devel/py-setuptools
 
-.include "../../lang/python/extension.mk"
+.include "../../lang/python/distutils.mk"
 # url2pkg-marker (please do not remove this line.)
 .include "../../mk/bsd.pkg.mk"

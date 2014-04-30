@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	bifunctors-4.1.1
+DISTNAME=	bifunctors-4.1.1.1
 CATEGORIES=	devel
 
 MAINTAINER=	szptvlfn@a-net.email.ne.jp

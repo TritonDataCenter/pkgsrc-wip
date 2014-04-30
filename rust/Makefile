@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	rust-0.9
+DISTNAME=	rust-0.10
 CATEGORIES=	lang
 MASTER_SITES=	http://static.rust-lang.org/dist/
 

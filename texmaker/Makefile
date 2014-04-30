@@ -23,6 +23,6 @@ do-configure:
 .include "../../sysutils/desktop-file-utils/desktopdb.mk"
 .include "../../x11/qt5-qtbase/buildlink3.mk"
 .include "../../x11/qt5-qtwebkit/buildlink3.mk"
-.include "../../wip/poppler-qt5/buildlink3.mk"
+.include "../../print/poppler-qt5/buildlink3.mk"
 .include "../../print/poppler-includes/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

@@ -1,4 +1,0 @@
-@comment $NetBSD$
-include/libisofs/libisofs.h
-lib/libisofs.la
-lib/pkgconfig/libisofs-1.pc
