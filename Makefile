@@ -3787,6 +3787,7 @@ SUBDIR+=	ypserv
 SUBDIR+=	zabbix
 SUBDIR+=	zapping
 SUBDIR+=	zathura
+SUBDIR+=	zathura-djvu
 SUBDIR+=	zathura-mupdf
 SUBDIR+=	zathura-poppler
 SUBDIR+=	zinf
