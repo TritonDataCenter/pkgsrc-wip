@@ -2284,6 +2284,7 @@ SUBDIR+=	pgp6
 SUBDIR+=	pgplot
 SUBDIR+=	pgpool2
 SUBDIR+=	phantomjs
+SUBDIR+=	pheanstalk
 SUBDIR+=	phonon-backend-xine
 #SUBDIR+=	php-doc			# not a package
 SUBDIR+=	php-doc-br
