@@ -10,6 +10,7 @@ COMMENT=	DNS Service Discovery (aka Bonjour, MDNS) API for Ruby
 LICENSE=	ruby-license
 
 GEM_CLEANBUILD=	ext/dnssd/*.o ext/dnssd/mkmf.log ext/dnssd/Makefile
+GEM_CLEANBUILD+=ext/dnssd/.RUBYARCHDIR.time
 
 .include "../../net/mDNSResponder/buildlink3.mk"
 .include "../../lang/ruby/gem.mk"
