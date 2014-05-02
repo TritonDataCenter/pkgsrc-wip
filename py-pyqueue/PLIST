@@ -1,8 +1,5 @@
 @comment $NetBSD$
-${PYSITELIB}/pyqueue-${EGG_INFODIR}/PKG-INFO
-${PYSITELIB}/pyqueue-${EGG_INFODIR}/SOURCES.txt
-${PYSITELIB}/pyqueue-${EGG_INFODIR}/dependency_links.txt
-${PYSITELIB}/pyqueue-${EGG_INFODIR}/top_level.txt
+${PYSITELIB}/${EGG_FILE}
 ${PYSITELIB}/pyqueue.py
 ${PYSITELIB}/pyqueue.pyc
 ${PYSITELIB}/pyqueue.pyo
