@@ -2829,6 +2829,7 @@ SUBDIR+=	py-pyphant
 SUBDIR+=	py-pypol
 SUBDIR+=	py-pyqu
 SUBDIR+=	py-pyquante
+SUBDIR+=	py-pyqueue
 SUBDIR+=	py-pyrit
 SUBDIR+=	py-pysal
 SUBDIR+=	py-pysb
