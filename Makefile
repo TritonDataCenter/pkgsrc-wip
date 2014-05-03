@@ -1600,7 +1600,6 @@ SUBDIR+=	lrslib
 SUBDIR+=	lsw
 SUBDIR+=	lsyncd
 SUBDIR+=	ltrace
-SUBDIR+=	lua-BitOp
 SUBDIR+=	lua-lbn
 SUBDIR+=	lua-pgsql
 SUBDIR+=	luasocket
