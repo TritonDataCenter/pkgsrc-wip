@@ -2485,7 +2485,6 @@ SUBDIR+=	py-chealpy
 SUBDIR+=	py-chebpy
 SUBDIR+=	py-chm
 SUBDIR+=	py-cinfony
-SUBDIR+=	py-cjson
 SUBDIR+=	py-clics
 SUBDIR+=	py-clnum
 SUBDIR+=	py-clonedigger
