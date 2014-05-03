@@ -1,5 +1,6 @@
 @comment $NetBSD$
 include/re/re.h
+include/re/re_aes.h
 include/re/re_base64.h
 include/re/re_bfcp.h
 include/re/re_bitv.h
@@ -22,6 +23,7 @@ include/re/re_md5.h
 include/re/re_mem.h
 include/re/re_mod.h
 include/re/re_mqueue.h
+include/re/re_msg.h
 include/re/re_natbd.h
 include/re/re_net.h
 include/re/re_rtp.h
@@ -42,6 +44,7 @@ include/re/re_turn.h
 include/re/re_types.h
 include/re/re_udp.h
 include/re/re_uri.h
+include/re/re_websock.h
 lib/libre.a
 lib/libre.so
 share/re/re.mk
