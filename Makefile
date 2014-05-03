@@ -594,7 +594,6 @@ SUBDIR+=	evas-gif
 SUBDIR+=	evas-software-x11
 SUBDIR+=	evas-xpm
 SUBDIR+=	evas_generic_loaders
-SUBDIR+=	eventlib
 SUBDIR+=	eventlog
 SUBDIR+=	ever-note-mode
 SUBDIR+=	evilvte
