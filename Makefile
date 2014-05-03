@@ -1490,7 +1490,6 @@ SUBDIR+=	libinotify
 SUBDIR+=	libinstpatch
 SUBDIR+=	libipctdata
 SUBDIR+=	libircclient
-SUBDIR+=	libisoburn
 SUBDIR+=	libitl
 SUBDIR+=	libjdksmidi
 SUBDIR+=	libjingle
