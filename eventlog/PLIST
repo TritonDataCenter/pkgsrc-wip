@@ -1,5 +1,0 @@
-@comment $NetBSD$
-include/eventlog/evtlog.h
-include/eventlog/evtmaps.h
-lib/libevtlog.la
-lib/pkgconfig/eventlog.pc

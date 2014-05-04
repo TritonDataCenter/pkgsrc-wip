@@ -1,4 +1,0 @@
-@comment $NetBSD$
-bin/oclock
-lib/X11/app-defaults/Clock-color
-man/man1/oclock.1

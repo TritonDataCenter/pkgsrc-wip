@@ -1,2 +1,0 @@
-@comment $NetBSD: PLIST.Linux,v 1.2 2011/05/02 21:23:01 adam Exp $
-bin/wine-preloader
