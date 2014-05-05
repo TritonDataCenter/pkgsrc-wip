@@ -10,6 +10,8 @@ HOMEPAGE=	http://github.com/getsentry/raven-python
 COMMENT=	Raven is a client for Sentry
 LICENSE=	2-clause-bsd
 
+DEPENDS+=	${PYPKGPREFIX}-django>=1.6.4:../../www/py-django
+
 WRKSRC=		${WRKDIR}/raven-4.2.1
 
 USE_LANGUAGES=	# none
