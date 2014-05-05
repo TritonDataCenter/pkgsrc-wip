@@ -3,7 +3,7 @@
 DISTNAME=	constraints-0.3.4.2
 CATEGORIES=	devel
 
-MAINTAINER=	szptvlfn@a-net.email.ne.jp
+MAINTAINER=	szptvlfn@NetBSD.org
 COMMENT=	Constraint manipulation
 LICENSE=	modified-bsd
 

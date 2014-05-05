@@ -3,7 +3,7 @@
 DISTNAME=	Boolean-0.2
 CATEGORIES=	devel
 
-MAINTAINER=	szptvlfn@a-net.email.ne.jp
+MAINTAINER=	szptvlfn@NetBSD.org
 COMMENT=	Generalized booleans and numbers
 LICENSE=	modified-bsd
 

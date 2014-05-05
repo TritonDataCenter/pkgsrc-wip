@@ -3,7 +3,7 @@
 DISTNAME=	cmdargs-0.10.7
 CATEGORIES=	devel
 
-MAINTAINER=	szptvlfn@a-net.email.ne.jp
+MAINTAINER=	szptvlfn@NetBSD.org
 COMMENT=	Command line argument processing
 LICENSE=	modified-bsd
 

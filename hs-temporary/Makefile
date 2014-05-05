@@ -3,7 +3,7 @@
 DISTNAME=	temporary-1.2.0.1
 CATEGORIES=	sysutils
 
-MAINTAINER=	szptvlfn@a-net.email.ne.jp
+MAINTAINER=	szptvlfn@NetBSD.org
 COMMENT=	Portable temporary file and directory support
 LICENSE=	modified-bsd
 

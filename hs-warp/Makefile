@@ -3,7 +3,7 @@
 DISTNAME=	warp-1.3.10.1
 CATEGORIES=	www
 
-MAINTAINER=	szptvlfn@a-net.email.ne.jp
+MAINTAINER=	szptvlfn@NetBSD.org
 COMMENT=	Fast, light-weight web server for WAI applications
 LICENSE=	mit
 

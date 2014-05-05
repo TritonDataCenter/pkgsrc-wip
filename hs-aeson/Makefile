@@ -3,7 +3,7 @@
 DISTNAME=	aeson-0.7.0.2
 CATEGORIES=	converters
 
-MAINTAINER=	szptvlfn@a-net.email.ne.jp
+MAINTAINER=	szptvlfn@NetBSD.org
 COMMENT=	Fast JSON parsing and encoding
 LICENSE=	modified-bsd
 

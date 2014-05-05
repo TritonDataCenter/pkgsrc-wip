@@ -3,7 +3,7 @@
 DISTNAME=	http-attoparsec-0.1.1
 CATEGORIES=	www
 
-MAINTAINER=	szptvlfn@a-net.email.ne.jp
+MAINTAINER=	szptvlfn@NetBSD.org
 COMMENT=	Attoparsec parsers for http-types
 LICENSE=	modified-bsd
 

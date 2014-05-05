@@ -3,7 +3,7 @@
 DISTNAME=	groupoids-3.0.1.1
 CATEGORIES=	math
 
-MAINTAINER=	szptvlfn@a-net.email.ne.jp
+MAINTAINER=	szptvlfn@NetBSD.org
 COMMENT=	Haskell 98 Groupoids
 LICENSE=	modified-bsd
 

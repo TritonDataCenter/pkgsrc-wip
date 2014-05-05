@@ -3,7 +3,7 @@
 DISTNAME=	bifunctors-4.1.1.1
 CATEGORIES=	devel
 
-MAINTAINER=	szptvlfn@a-net.email.ne.jp
+MAINTAINER=	szptvlfn@NetBSD.org
 COMMENT=	Bifunctors
 LICENSE=	2-clause-bsd
 

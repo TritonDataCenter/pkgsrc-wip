@@ -4,7 +4,7 @@ DISTNAME=	hoogle-4.2.29
 PKGNAME=	${DISTNAME}
 CATEGORIES=	devel #haskell
 
-MAINTAINER=	szptvlfn@a-net.email.ne.jp
+MAINTAINER=	szptvlfn@NetBSD.org
 COMMENT=	Haskell API Search
 LICENSE=	modified-bsd
 

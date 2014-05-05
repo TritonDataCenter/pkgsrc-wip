@@ -3,7 +3,7 @@
 DISTNAME=	comonads-fd-3.0.3
 CATEGORIES=	math
 
-MAINTAINER=	szptvlfn@a-net.email.ne.jp
+MAINTAINER=	szptvlfn@NetBSD.org
 COMMENT=	Comonad transformers using functional dependencies
 LICENSE=	modified-bsd
 

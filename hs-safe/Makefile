@@ -3,7 +3,7 @@
 DISTNAME=	safe-0.3.4
 CATEGORIES=	devel
 
-MAINTAINER=	szptvlfn@a-net.email.ne.jp
+MAINTAINER=	szptvlfn@NetBSD.org
 COMMENT=	Library for safe (pattern match free) functions
 LICENSE=	modified-bsd
 

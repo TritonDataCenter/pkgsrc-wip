@@ -3,7 +3,7 @@
 DISTNAME=	MemoTrie-0.6.1
 CATEGORIES=	devel
 
-MAINTAINER=	szptvlfn@a-net.email.ne.jp
+MAINTAINER=	szptvlfn@NetBSD.org
 HOMEPAGE=	http://haskell.org/haskellwiki/MemoTrie
 COMMENT=	Trie-based memo functions
 LICENSE=	modified-bsd

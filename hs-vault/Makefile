@@ -4,7 +4,7 @@
 DISTNAME=	vault-0.3.0.3
 CATEGORIES=	devel
 
-MAINTAINER=	szptvlfn@a-net.email.ne.jp
+MAINTAINER=	szptvlfn@NetBSD.org
 COMMENT=	Persistent store for values of arbitrary types
 LICENSE=	modified-bsd
 

@@ -3,7 +3,7 @@
 DISTNAME=	yaml-0.8.5.3
 CATEGORIES=	textproc
 
-MAINTAINER=	szptvlfn@a-net.email.ne.jp
+MAINTAINER=	szptvlfn@NetBSD.org
 COMMENT=	Support for parsing and rendering YAML document
 LICENSE=	modified-bsd
 

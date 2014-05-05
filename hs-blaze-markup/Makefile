@@ -3,7 +3,7 @@
 DISTNAME=	blaze-markup-0.6.1.0
 CATEGORIES=	textproc
 
-MAINTAINER=	szptvlfn@a-net.email.ne.jp
+MAINTAINER=	szptvlfn@NetBSD.org
 COMMENT=	Blazingly fast markup combinator library for Haskell
 LICENSE=	modified-bsd
 

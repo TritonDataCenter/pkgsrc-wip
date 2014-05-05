@@ -4,7 +4,7 @@
 DISTNAME=	NumInstances-1.3
 CATEGORIES=	devel
 
-MAINTAINER=	szptvlfn@a-net.email.ne.jp
+MAINTAINER=	szptvlfn@NetBSD.org
 HOMEPAGE=	https://github.com/conal/NumInstances
 COMMENT=	Instances of numeric classes for functions and tuples
 LICENSE=	modified-bsd

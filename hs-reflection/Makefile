@@ -3,7 +3,7 @@
 DISTNAME=	reflection-1.4
 CATEGORIES=	devel
 
-MAINTAINER=	szptvlfn@a-net.email.ne.jp
+MAINTAINER=	szptvlfn@NetBSD.org
 COMMENT=	Reifies arbitrary terms into types
 LICENSE=	modified-bsd
 

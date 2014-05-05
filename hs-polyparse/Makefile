@@ -3,7 +3,7 @@
 DISTNAME=	polyparse-1.9
 CATEGORIES=	textproc
 
-MAINTAINER=	szptvlfn@a-net.email.ne.jp
+MAINTAINER=	szptvlfn@NetBSD.org
 COMMENT=	Variety of alternative parser combinator libraries
 LICENSE=	gnu-lgpl-v2.1
 

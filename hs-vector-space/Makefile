@@ -3,7 +3,7 @@
 DISTNAME=	vector-space-0.8.6
 CATEGORIES=	math
 
-MAINTAINER=	szptvlfn@a-net.email.ne.jp
+MAINTAINER=	szptvlfn@NetBSD.org
 COMMENT=	Vector & affine spaces, linear maps, and derivatives
 LICENSE=	modified-bsd
 

@@ -3,7 +3,7 @@
 DISTNAME=	texmath-0.6.6
 CATEGORIES=	textproc
 
-MAINTAINER=	szptvlfn@a-net.email.ne.jp
+MAINTAINER=	szptvlfn@NetBSD.org
 COMMENT=	Conversion of LaTeX math formulas to MathML or OMML
 LICENSE=	gnu-gpl-v2
 

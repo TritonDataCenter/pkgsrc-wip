@@ -3,7 +3,7 @@
 DISTNAME=	network-conduit-1.0.0
 CATEGORIES=	net
 
-MAINTAINER=	szptvlfn@a-net.email.ne.jp
+MAINTAINER=	szptvlfn@NetBSD.org
 COMMENT=	Stream socket data using conduits
 LICENSE=	modified-bsd
 

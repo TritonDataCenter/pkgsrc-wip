@@ -3,7 +3,7 @@
 DISTNAME=	mwc-random-0.13.1.1
 CATEGORIES=	math
 
-MAINTAINER=	szptvlfn@a-net.email.ne.jp
+MAINTAINER=	szptvlfn@NetBSD.org
 COMMENT=	Fast, high quality pseudo random number generation
 LICENSE=	modified-bsd
 

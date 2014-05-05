@@ -3,7 +3,7 @@
 DISTNAME=	ReadArgs-1.2.1
 CATEGORIES=	devel
 
-MAINTAINER=	szptvlfn@a-net.email.ne.jp
+MAINTAINER=	szptvlfn@NetBSD.org
 COMMENT=	Simple command line argument parsing
 LICENSE=	modified-bsd
 

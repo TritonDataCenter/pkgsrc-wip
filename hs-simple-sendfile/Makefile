@@ -3,7 +3,7 @@
 DISTNAME=	simple-sendfile-0.2.13
 CATEGORIES=	net
 
-MAINTAINER=	szptvlfn@a-net.email.ne.jp
+MAINTAINER=	szptvlfn@NetBSD.org
 COMMENT=	Cross platform library for the sendfile system call
 LICENSE=	modified-bsd
 

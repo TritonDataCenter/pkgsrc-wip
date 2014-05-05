@@ -3,7 +3,7 @@
 DISTNAME=	newtype-0.2
 CATEGORIES=	devel
 
-MAINTAINER=	szptvlfn@a-net.email.ne.jp
+MAINTAINER=	szptvlfn@NetBSD.org
 COMMENT=	Typeclass and set of functions for working with newtypes
 LICENSE=	modified-bsd
 

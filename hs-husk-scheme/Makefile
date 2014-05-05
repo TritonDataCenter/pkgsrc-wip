@@ -3,7 +3,7 @@
 DISTNAME=	husk-scheme-3.17
 CATEGORIES=	lang
 
-MAINTAINER=	szptvlfn@a-net.email.ne.jp
+MAINTAINER=	szptvlfn@NetBSD.org
 COMMENT=	R5RS Scheme interpreter, compiler, and library
 LICENSE=	mit
 

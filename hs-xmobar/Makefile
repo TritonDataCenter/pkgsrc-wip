@@ -3,7 +3,7 @@
 DISTNAME=	xmobar-0.20.1
 CATEGORIES=	sysutils
 
-MAINTAINER=	szptvlfn@a-net.email.ne.jp
+MAINTAINER=	szptvlfn@NetBSD.org
 COMMENT=	Xmobar is a minimalistic text based status bar
 LICENSE=	modified-bsd
 

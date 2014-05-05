@@ -4,7 +4,7 @@
 DISTNAME=	generic-deriving-1.6.2
 CATEGORIES=	devel
 
-MAINTAINER=	szptvlfn@a-net.email.ne.jp
+MAINTAINER=	szptvlfn@NetBSD.org
 COMMENT=	Generic programming library for generalised deriving
 LICENSE=	modified-bsd
 
