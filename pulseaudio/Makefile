@@ -15,6 +15,8 @@ USE_LIBTOOL=	yes
 USE_TOOLS+=	automake gmake gm4 intltool msgfmt pkg-config
 USE_LANGUAGES=	c c++
 
+REPLACE_BASH=	shell-completion/pulseaudio-bash-completion.sh
+
 .include "../../mk/bsd.prefs.mk"
 # Some tests are incompatible for NetBSD at least
 .if ${OPSYS} == "NetBSD"
