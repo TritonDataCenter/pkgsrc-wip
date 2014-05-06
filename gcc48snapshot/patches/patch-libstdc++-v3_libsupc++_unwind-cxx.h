@@ -1,4 +1,4 @@
-$NetBSD$
+$NetBSD: patch-libstdc++-v3_libsupc++_unwind-cxx.h,v 1.1 2013/04/01 21:06:18 wiz Exp $
 
 --- libstdc++-v3/libsupc++/unwind-cxx.h.orig	2013-03-19 17:04:44.000000000 +0000
 +++ libstdc++-v3/libsupc++/unwind-cxx.h
