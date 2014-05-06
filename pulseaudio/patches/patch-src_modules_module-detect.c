@@ -1,5 +1,7 @@
 $NetBSD$
 
+Hack to set proper sound device on NetBSD.
+
 --- src/modules/module-detect.c.orig	2014-01-23 18:57:55.000000000 +0000
 +++ src/modules/module-detect.c
 @@ -122,6 +122,7 @@ static int detect_oss(pa_core *c, int ju

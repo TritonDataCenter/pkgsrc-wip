@@ -1,5 +1,7 @@
 $NetBSD$
 
+Only display Linux-specific warning on Linux.
+
 --- src/daemon/main.c.orig	2014-02-25 14:01:58.000000000 +0000
 +++ src/daemon/main.c
 @@ -1002,10 +1002,12 @@ int main(int argc, char *argv[]) {

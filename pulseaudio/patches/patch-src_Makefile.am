@@ -1,5 +1,8 @@
 $NetBSD$
 
+Install files into pkgsrc example paths; will be correctly
+installed by pkgsrc configuration file framework.
+
 --- src/Makefile.am.orig	2014-02-14 13:45:45.000000000 +0000
 +++ src/Makefile.am
 @@ -27,14 +27,14 @@ pulseincludedir=$(includedir)/pulse

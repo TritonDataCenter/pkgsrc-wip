@@ -1,5 +1,7 @@
 $NetBSD$
 
+Disable warning about capabilities that only makes sense on Linux.
+
 --- src/daemon/caps.c.orig	2014-01-29 19:48:03.000000000 +0000
 +++ src/daemon/caps.c
 @@ -93,8 +93,10 @@ void pa_drop_caps(void) {

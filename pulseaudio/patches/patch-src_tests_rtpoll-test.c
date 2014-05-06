@@ -1,5 +1,7 @@
 $NetBSD$
 
+Build fix for systems without real-time signals.
+
 --- src/tests/rtpoll-test.c.orig	2014-01-21 13:39:57.000000000 +0000
 +++ src/tests/rtpoll-test.c
 @@ -85,6 +85,7 @@ START_TEST (rtpoll_test) {
