@@ -1,5 +1,11 @@
 $NetBSD$
 
+* Fix NetBSD detection for libatomics_ops check.
+* Fix unportable test(1) construct.
+* Adapt /var-paths for pkgsrc defaults.
+* Install default config files in example directory; pkgsrc config
+  file framework will install them in the right place.
+
 --- configure.ac.orig	2014-02-15 08:33:32.000000000 +0000
 +++ configure.ac
 @@ -251,6 +251,11 @@ else
