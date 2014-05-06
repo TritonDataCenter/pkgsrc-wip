@@ -37,6 +37,8 @@ CONFIGURE_ARGS+=       --without-caps
 CONFIGURE_ENV+=		EGDIR=${EGDIR}
 MAKE_ENV+=		EGDIR=${EGDIR}
 
+MAKE_FLAGS+=		bashcompletiondir=${PREFIX}/share/bash-completion/completions
+
 CONFIGURE_ARGS+=	--enable-samplerate
 CONFIGURE_ARGS+=	--disable-tcpwrap
 CONFIGURE_ARGS+=	--localstatedir=${VARBASE:Q}
