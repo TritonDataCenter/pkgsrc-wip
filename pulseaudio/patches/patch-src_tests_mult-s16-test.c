@@ -1,5 +1,7 @@
 $NetBSD$
 
+Define glibc-specific (?) __WORDSIZE.
+
 --- src/tests/mult-s16-test.c.orig	2014-01-23 18:57:55.000000000 +0000
 +++ src/tests/mult-s16-test.c
 @@ -30,6 +30,14 @@

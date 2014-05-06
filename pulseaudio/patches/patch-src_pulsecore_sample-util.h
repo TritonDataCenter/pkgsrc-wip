@@ -1,5 +1,7 @@
 $NetBSD$
 
+Define glibc-specific (?) __WORDSIZE.
+
 --- src/pulsecore/sample-util.h.orig	2014-01-23 18:57:55.000000000 +0000
 +++ src/pulsecore/sample-util.h
 @@ -34,6 +34,14 @@
