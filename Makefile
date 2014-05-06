@@ -1163,6 +1163,7 @@ SUBDIR+=	hs-test-framework-quickcheck2
 SUBDIR+=	hs-texmath
 SUBDIR+=	hs-text
 SUBDIR+=	hs-text-icu
+SUBDIR+=	hs-tf-random
 SUBDIR+=	hs-tfp
 SUBDIR+=	hs-time-http
 SUBDIR+=	hs-time-w3c
