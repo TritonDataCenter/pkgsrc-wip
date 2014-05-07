@@ -1,11 +1,11 @@
 # $NetBSD$
 
-DISTNAME=	xmpp4r-0.5
+DISTNAME=	xmpp4r-0.5.6
 PKGNAME=	${RUBY_PKGPREFIX}-${DISTNAME}
 CATEGORIES=	chat
 
 MAINTAINER=	filip@joyent.com
-HOMEPAGE=	http://home.gna.org/xmpp4r/
+HOMEPAGE=	http://xmpp4r.github.io/
 COMMENT=	XMPP/Jabber library for Ruby
 LICENSE=	ruby-license
 
