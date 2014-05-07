@@ -2632,6 +2632,7 @@ SUBDIR+=	py-lazr.uri
 SUBDIR+=	py-lib
 SUBDIR+=	py-libmpdclient2
 SUBDIR+=	py-libopensync-plugin
+SUBDIR+=	py-libtaxii
 SUBDIR+=	py-libtextcat
 SUBDIR+=	py-libtorrent-rasterbar
 SUBDIR+=	py-libtunepimp
