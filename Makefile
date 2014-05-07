@@ -2902,6 +2902,7 @@ SUBDIR+=	py-ssp
 SUBDIR+=	py-statgrap
 SUBDIR+=	py-stem
 SUBDIR+=	py-stevedore
+SUBDIR+=	py-stix
 SUBDIR+=	py-storm
 SUBDIR+=	py-strategies
 SUBDIR+=	py-sumatra
