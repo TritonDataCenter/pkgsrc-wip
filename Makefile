@@ -2475,6 +2475,7 @@ SUBDIR+=	py-csp
 SUBDIR+=	py-cvf
 SUBDIR+=	py-cvxopt
 SUBDIR+=	py-cxnet
+SUBDIR+=	py-cybox
 SUBDIR+=	py-cythongsl
 SUBDIR+=	py-dana
 SUBDIR+=	py-datarray
