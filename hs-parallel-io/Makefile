@@ -3,7 +3,7 @@
 DISTNAME=	parallel-io-0.3.3
 CATEGORIES=	devel
 
-MAINTAINER=	szptvlfn@a-net.email.ne.jp
+MAINTAINER=	szptvlfn@NetBSD.org
 COMMENT=	Combinators for executing IO actions in parallel on a thread pool
 LICENSE=	modified-bsd
 

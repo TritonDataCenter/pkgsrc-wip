@@ -1,4 +1,4 @@
-$NetBSD: patch-gcc_config_i386_dragonfly.h,v 1.2 2012/07/12 13:47:23 marino Exp $
+$NetBSD: patch-gcc_config_i386_dragonfly.h,v 1.1 2013/04/01 21:06:16 wiz Exp $
 
 --- gcc/config/i386/dragonfly.h.orig	2012-07-12 12:01:10.000000000 +0000
 +++ gcc/config/i386/dragonfly.h

@@ -2,10 +2,10 @@
 
 DISTNAME=	healpy-1.7.4
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
-CATEGORIES=	
+CATEGORIES=	math
 MASTER_SITES=	https://pypi.python.org/packages/source/h/healpy/
 
-MAINTAINER=	jihbed.research@ŋmail.com
+MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	http://github.com/healpy
 COMMENT=	Healpix tools package for Python
 LICENSE=	gnu-gpl-v2

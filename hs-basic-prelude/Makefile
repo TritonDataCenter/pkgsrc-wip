@@ -3,7 +3,7 @@
 DISTNAME=	basic-prelude-0.3.5.0
 CATEGORIES=	devel
 
-MAINTAINER=	szptvlfn@a-net.email.ne.jp
+MAINTAINER=	szptvlfn@NetBSD.org
 COMMENT=	Enhanced core prelude; a common foundation for alternate preludes
 LICENSE=	mit
 

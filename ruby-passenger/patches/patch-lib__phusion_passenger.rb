@@ -1,19 +1,19 @@
 $NetBSD$
 
 Fix default paths.
---- lib/phusion_passenger.rb.orig	2013-08-19 11:39:38.000000000 +0000
+--- lib/phusion_passenger.rb.orig	2013-10-26 22:00:00.000000000 +0000
 +++ lib/phusion_passenger.rb
-@@ -49,8 +49,7 @@ module PhusionPassenger
+@@ -51,8 +51,7 @@ module PhusionPassenger
  	
  	# Directories in which to look for plugins.
  	PLUGIN_DIRS = [
 -		"/usr/share/#{GLOBAL_NAMESPACE_DIRNAME}/plugins",
 -		"/usr/local/share/#{GLOBAL_NAMESPACE_DIRNAME}/plugins",
-+		"@PREFIX@/share/#{GLOBAL_NAMESPACE_DIRNAME}/plugins",
++		"@PREFIX@/#{GLOBAL_NAMESPACE_DIRNAME}/plugins",
  		"~/#{USER_NAMESPACE_DIRNAME}/plugins"
  	]
  	
-@@ -184,7 +183,7 @@ private
+@@ -254,7 +253,7 @@ private
  			return filename if File.exist?(filename)
  		end
  

@@ -1,4 +1,4 @@
-$NetBSD: patch-libgo_Makefile.in,v 1.2 2012/12/01 02:29:32 sbd Exp $
+$NetBSD: patch-libgo_Makefile.in,v 1.1 2013/04/01 21:06:17 wiz Exp $
 
 proc.c will not compile with inline-functions (implied by -O3) 
 so add -fno-inline-functions to it's cflags.

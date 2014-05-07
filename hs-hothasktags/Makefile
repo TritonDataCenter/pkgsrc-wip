@@ -4,7 +4,7 @@
 DISTNAME=	hothasktags-0.3.1
 CATEGORIES=	devel
 
-MAINTAINER=	szptvlfn@a-net.email.ne.jp
+MAINTAINER=	szptvlfn@NetBSD.org
 HOMEPAGE=	http://github.com/luqui/hothasktags
 COMMENT=	Generates ctags for Haskell
 LICENSE=	modified-bsd

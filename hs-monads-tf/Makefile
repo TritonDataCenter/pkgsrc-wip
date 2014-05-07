@@ -3,7 +3,7 @@
 DISTNAME=	monads-tf-0.1.0.2
 CATEGORIES=	devel
 
-MAINTAINER=	szptvlfn@a-net.email.ne.jp
+MAINTAINER=	szptvlfn@NetBSD.org
 COMMENT=	Monad classes, using type families
 LICENSE=	modified-bsd
 

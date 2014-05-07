@@ -3,7 +3,7 @@
 DISTNAME=	conduit-1.0.9.3
 CATEGORIES=	devel
 
-MAINTAINER=	szptvlfn@a-net.email.ne.jp
+MAINTAINER=	szptvlfn@NetBSD.org
 COMMENT=	Streaming data processing library
 LICENSE=	mit
 

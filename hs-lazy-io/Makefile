@@ -3,7 +3,7 @@
 DISTNAME=	lazy-io-0.1.0
 CATEGORIES=	devel
 
-MAINTAINER=	szptvlfn@a-net.email.ne.jp
+MAINTAINER=	szptvlfn@NetBSD.org
 HOMEPAGE=	https://github.com/kawu/lazy-io
 COMMENT=	Lazy IO
 LICENSE=	modified-bsd

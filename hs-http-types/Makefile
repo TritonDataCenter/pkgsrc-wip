@@ -3,7 +3,7 @@
 DISTNAME=	http-types-0.8.3
 CATEGORIES=	www
 
-MAINTAINER=	szptvlfn@a-net.email.ne.jp
+MAINTAINER=	szptvlfn@NetBSD.org
 COMMENT=	Generic HTTP types for Haskell (for both client and server code)
 LICENSE=	modified-bsd
 

@@ -3,7 +3,7 @@
 DISTNAME=	vector-algorithms-0.6.0.1
 CATEGORIES=	devel
 
-MAINTAINER=	szptvlfn@a-net.email.ne.jp
+MAINTAINER=	szptvlfn@NetBSD.org
 COMMENT=	Efficient algorithms for vector arrays
 LICENSE=	modified-bsd
 

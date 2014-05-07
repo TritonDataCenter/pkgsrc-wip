@@ -3,7 +3,7 @@
 DISTNAME=	exceptions-0.3.3
 CATEGORIES=	devel
 
-MAINTAINER=	szptvlfn@a-net.email.ne.jp
+MAINTAINER=	szptvlfn@NetBSD.org
 COMMENT=	Extensible optionally-pure exceptions
 LICENSE=	apache-2.0
 

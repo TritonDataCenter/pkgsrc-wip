@@ -3,7 +3,7 @@
 DISTNAME=	citeproc-hs-0.3.8
 CATEGORIES=	textproc
 
-MAINTAINER=	szptvlfn@a-net.email.ne.jp
+MAINTAINER=	szptvlfn@NetBSD.org
 COMMENT=	Citation Style Language implementation in Haskell
 LICENSE=	modified-bsd
 

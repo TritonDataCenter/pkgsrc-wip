@@ -4,7 +4,7 @@ DISTNAME=	hdevtools-0.1.0.5
 PKGNAME=	${DISTNAME}
 CATEGORIES=	devel #haskell
 
-MAINTAINER=	szptvlfn@a-net.email.ne.jp
+MAINTAINER=	szptvlfn@NetBSD.org
 COMMENT=	Persistent GHC powered background server for FAST haskell dev tools
 LICENSE=	mit
 

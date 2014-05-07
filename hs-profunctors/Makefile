@@ -3,7 +3,7 @@
 DISTNAME=	profunctors-4.0.2
 CATEGORIES=	devel
 
-MAINTAINER=	szptvlfn@a-net.email.ne.jp
+MAINTAINER=	szptvlfn@NetBSD.org
 COMMENT=	Profunctors
 LICENSE=	modified-bsd
 

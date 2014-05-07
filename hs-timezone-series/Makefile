@@ -3,7 +3,7 @@
 DISTNAME=	timezone-series-0.1.2
 CATEGORIES=	time
 
-MAINTAINER=	szptvlfn@a-net.email.ne.jp
+MAINTAINER=	szptvlfn@NetBSD.org
 HOMEPAGE=	http://projects.haskell.org/time-ng/
 COMMENT=	Enhanced timezone handling for Data.Time
 LICENSE=	modified-bsd

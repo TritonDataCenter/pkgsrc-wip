@@ -4,7 +4,7 @@
 DISTNAME=	cgi-3001.1.8.4
 CATEGORIES=	net
 
-MAINTAINER=	szptvlfn@a-net.email.ne.jp
+MAINTAINER=	szptvlfn@NetBSD.org
 HOMEPAGE=	http://andersk.mit.edu/haskell/cgi/
 COMMENT=	Library for writing CGI programs
 LICENSE=	modified-bsd

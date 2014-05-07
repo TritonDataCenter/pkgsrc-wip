@@ -3,7 +3,7 @@
 DISTNAME=	scientific-0.2.0.2
 CATEGORIES=	devel
 
-MAINTAINER=	szptvlfn@a-net.email.ne.jp
+MAINTAINER=	szptvlfn@NetBSD.org
 COMMENT=	Arbitrary-precision floating-point numbers
 LICENSE=	modified-bsd
 

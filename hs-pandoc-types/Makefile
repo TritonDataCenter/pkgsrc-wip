@@ -3,7 +3,7 @@
 DISTNAME=	pandoc-types-1.12.3.2
 CATEGORIES=	textproc
 
-MAINTAINER=	szptvlfn@a-net.email.ne.jp
+MAINTAINER=	szptvlfn@NetBSD.org
 COMMENT=	Types for representing a structured document
 LICENSE=	gnu-gpl-v2
 

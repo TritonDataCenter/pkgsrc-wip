@@ -3,7 +3,7 @@
 DISTNAME=	hslua-0.3.6.1
 CATEGORIES=	lang
 
-MAINTAINER=	szptvlfn@a-net.email.ne.jp
+MAINTAINER=	szptvlfn@NetBSD.org
 COMMENT=	Lua language interpreter embedding in Haskell
 LICENSE=	modified-bsd
 

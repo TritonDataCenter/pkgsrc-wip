@@ -1,4 +1,4 @@
-$NetBSD$
+$NetBSD: patch-libgcc_config.host,v 1.1 2013/04/01 21:06:17 wiz Exp $
 
 --- libgcc/config.host.orig	2013-02-04 19:06:20.000000000 +0000
 +++ libgcc/config.host

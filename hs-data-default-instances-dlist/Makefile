@@ -3,7 +3,7 @@
 DISTNAME=	data-default-instances-dlist-0.0.1
 CATEGORIES=	devel
 
-MAINTAINER=	szptvlfn@a-net.email.ne.jp
+MAINTAINER=	szptvlfn@NetBSD.org
 COMMENT=	Default instances for types in dlist
 LICENSE=	modified-bsd
 

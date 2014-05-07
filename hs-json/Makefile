@@ -3,7 +3,7 @@
 DISTNAME=	json-0.7
 CATEGORIES=	converters
 
-MAINTAINER=	szptvlfn@a-net.email.ne.jp
+MAINTAINER=	szptvlfn@NetBSD.org
 COMMENT=	Support for serialising Haskell to and from JSON
 LICENSE=	modified-bsd
 

@@ -1,4 +1,4 @@
-$NetBSD: patch-libstdc++-v3_config_os_bsd_dragonfly_os__defines.h,v 1.1 2012/06/23 22:13:02 marino Exp $
+$NetBSD: patch-libstdc++-v3_config_os_bsd_dragonfly_os__defines.h,v 1.1 2013/04/01 21:06:18 wiz Exp $
 
 --- libstdc++-v3/config/os/bsd/dragonfly/os_defines.h.orig	2012-06-22 10:35:30.000000000 +0000
 +++ libstdc++-v3/config/os/bsd/dragonfly/os_defines.h

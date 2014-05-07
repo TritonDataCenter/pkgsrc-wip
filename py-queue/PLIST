@@ -1,0 +1,8 @@
+@comment $NetBSD$
+${PYSITELIB}/${EGG_FILE}
+${PYSITELIB}/pyqueue.py
+${PYSITELIB}/pyqueue.pyc
+${PYSITELIB}/pyqueue.pyo
+${PYSITELIB}/pyqueueshell.py
+${PYSITELIB}/pyqueueshell.pyc
+${PYSITELIB}/pyqueueshell.pyo

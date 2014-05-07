@@ -3,7 +3,7 @@
 DISTNAME=	system-filepath-0.4.7
 CATEGORIES=	devel
 
-MAINTAINER=	szptvlfn@a-net.email.ne.jp
+MAINTAINER=	szptvlfn@NetBSD.org
 COMMENT=	High-level, byte-based file and directory path manipulations
 LICENSE=	mit
 

@@ -1,7 +1,7 @@
 # $NetBSD: Makefile,v 1.18 2012/10/08 23:01:32 adam Exp $
 #
 
-DISTNAME=	nestopia-1.44
+DISTNAME=	nestopia-1.45
 CATEGORIES=	emulators
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=nestopiaue/}
 EXTRACT_SUFX=	.tgz
@@ -34,6 +34,7 @@ post-install:
 	${INSTALL_DATA} ${WRKSRC}/readme.html \
 		${DESTDIR}${PREFIX}/share/doc/nestopia
 
+.include "../../wip/libarchive/buildlink3.mk"
 .include "../../sysutils/desktop-file-utils/buildlink3.mk"
 BUILD_DEPENDS+=	xdg-utils-[0-9]*:../../misc/xdg-utils
 .include "../../audio/alsa-lib/buildlink3.mk"

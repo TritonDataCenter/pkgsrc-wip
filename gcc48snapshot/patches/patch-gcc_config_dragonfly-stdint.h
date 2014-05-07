@@ -1,4 +1,4 @@
-$NetBSD: patch-gcc_config_dragonfly-stdint.h,v 1.1 2012/06/23 22:13:02 marino Exp $
+$NetBSD: patch-gcc_config_dragonfly-stdint.h,v 1.1 2013/04/01 21:06:16 wiz Exp $
 
 --- gcc/config/dragonfly-stdint.h.orig	2012-06-22 10:35:29.000000000 +0000
 +++ gcc/config/dragonfly-stdint.h

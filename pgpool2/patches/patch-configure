@@ -1,14 +1,14 @@
 $NetBSD$
 
 Pick a better name for the package.
---- configure.orig	2013-11-29 02:35:44.000000000 +0000
+--- configure.orig	2014-03-24 14:31:52.000000000 +0000
 +++ configure
-@@ -3955,7 +3955,7 @@ fi
+@@ -3953,7 +3953,7 @@ fi
  
  
  # Define the identity of the package.
 - PACKAGE=pgpool-II
 + PACKAGE=pgpool2
-  VERSION=3.3.2
+  VERSION=3.3.3
  
  

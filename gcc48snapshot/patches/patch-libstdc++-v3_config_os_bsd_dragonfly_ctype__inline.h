@@ -1,4 +1,4 @@
-$NetBSD: patch-libstdc++-v3_config_os_bsd_dragonfly_ctype__inline.h,v 1.2 2013/01/31 20:07:17 marino Exp $
+$NetBSD: patch-libstdc++-v3_config_os_bsd_dragonfly_ctype__inline.h,v 1.1 2013/04/01 21:06:17 wiz Exp $
 
 --- libstdc++-v3/config/os/bsd/dragonfly/ctype_inline.h.orig	2012-06-22 10:35:30.000000000 +0000
 +++ libstdc++-v3/config/os/bsd/dragonfly/ctype_inline.h

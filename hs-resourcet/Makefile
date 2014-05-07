@@ -3,7 +3,7 @@
 DISTNAME=	resourcet-0.4.10
 CATEGORIES=	devel
 
-MAINTAINER=	szptvlfn@a-net.email.ne.jp
+MAINTAINER=	szptvlfn@NetBSD.org
 COMMENT=	Deterministic allocation and freeing of scarce resources
 LICENSE=	modified-bsd
 

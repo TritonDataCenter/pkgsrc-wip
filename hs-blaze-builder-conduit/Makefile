@@ -3,7 +3,7 @@
 DISTNAME=	blaze-builder-conduit-1.0.0
 CATEGORIES=	devel
 
-MAINTAINER=	szptvlfn@a-net.email.ne.jp
+MAINTAINER=	szptvlfn@NetBSD.org
 COMMENT=	Convert streams of builders to streams of bytestrings
 LICENSE=	modified-bsd
 

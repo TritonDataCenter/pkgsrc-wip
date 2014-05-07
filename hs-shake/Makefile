@@ -3,7 +3,7 @@
 DISTNAME=	shake-0.11.4
 CATEGORIES=	devel
 
-MAINTAINER=	szptvlfn@a-net.email.ne.jp
+MAINTAINER=	szptvlfn@NetBSD.org
 COMMENT=	Build system library, like Make, but more accurate dependencies
 LICENSE=	modified-bsd
 

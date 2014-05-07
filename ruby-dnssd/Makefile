@@ -12,6 +12,7 @@ LICENSE=	ruby-license
 USE_GCC_RUNTIME=	yes
 
 GEM_CLEANBUILD=	ext/dnssd/*.o ext/dnssd/mkmf.log ext/dnssd/Makefile
+GEM_CLEANBUILD+=ext/dnssd/.RUBYARCHDIR.time
 
 .include "../../net/mDNSResponder/buildlink3.mk"
 .include "../../lang/ruby/gem.mk"

@@ -3,7 +3,7 @@
 DISTNAME=	data-default-instances-base-0.0.1
 CATEGORIES=	devel
 
-MAINTAINER=	szptvlfn@a-net.email.ne.jp
+MAINTAINER=	szptvlfn@NetBSD.org
 COMMENT=	Default instances for types in base
 LICENSE=	modified-bsd
 

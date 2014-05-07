@@ -1,17 +1,14 @@
 # $NetBSD$
 
-DISTNAME=	Shapely-1.3.0
+DISTNAME=	Shapely-1.3.1
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME:tl}
 CATEGORIES=	math python
 MASTER_SITES=	https://pypi.python.org/packages/source/S/Shapely/
-FETCH_USING=	curl
 
 MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	https://github.com/sgillies/shapely
 COMMENT=	Geometric objects, predicates, and operations
 LICENSE=	2-clause-bsd
-
-WRKSRC=	${WRKDIR}/Shapely-1.3.0
 
 INSTALLATION_DIRS=	share/doc/py-shapely
 

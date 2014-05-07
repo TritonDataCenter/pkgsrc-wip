@@ -1,7 +1,7 @@
 $NetBSD$
 
 Default pid file location.
---- pgpool.conf.sample.orig	2013-04-26 05:52:44.000000000 +0000
+--- pgpool.conf.sample.orig	2014-03-24 14:30:01.000000000 +0000
 +++ pgpool.conf.sample
 @@ -180,7 +180,7 @@ debug_level = 0
  # FILE LOCATIONS

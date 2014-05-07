@@ -3,7 +3,7 @@
 DISTNAME=	wai-1.4.1
 CATEGORIES=	www
 
-MAINTAINER=	szptvlfn@a-net.email.ne.jp
+MAINTAINER=	szptvlfn@NetBSD.org
 COMMENT=	Web Application Interface
 LICENSE=	mit
 

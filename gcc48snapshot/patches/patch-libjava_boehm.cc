@@ -1,4 +1,4 @@
-$NetBSD: patch-libjava_boehm.cc,v 1.1 2012/04/30 09:12:28 sbd Exp $
+$NetBSD: patch-libjava_boehm.cc,v 1.1 2013/04/01 21:06:17 wiz Exp $
 
 Disable GC_register_my_thread and GC_unregister_my_thread on NetBSD as
 the version of boehm-gc bundled with gcc does not support NetBSD threads.

@@ -2,7 +2,6 @@
 bin/sippasswd
 bin/sipquery
 bin/sipwitch
-bin/sipwitch-cgi
 include/sipwitch/cache.h
 include/sipwitch/cdr.h
 include/sipwitch/control.h
@@ -15,11 +14,18 @@ include/sipwitch/sipwitch.h
 include/sipwitch/stats.h
 include/sipwitch/uri.h
 include/sipwitch/voip.h
+lib/cgi-bin/sipwitch.cgi
 lib/libsipwitch.so
 lib/libsipwitch.so.1
-lib/libsipwitch.so.${PKGVERSION}
+lib/libsipwitch.so.1.0.19
+lib/pkgconfig/libsipwitch.pc
 lib/sipwitch/forward.so
 lib/sipwitch/scripting.so
 lib/sipwitch/subscriber.so
 lib/sipwitch/zeroconf.so
 sbin/sipw
+man/man1/sippasswd.1
+man/man1/sipquery.1
+man/man1/sipwitch.1
+man/man8/sipw.8
+man/man8/sipwitch.cgi.8

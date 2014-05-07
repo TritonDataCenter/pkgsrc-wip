@@ -4,7 +4,7 @@
 DISTNAME=	data-accessor-mtl-0.2.0.3
 CATEGORIES=	devel
 
-MAINTAINER=	szptvlfn@a-net.email.ne.jp
+MAINTAINER=	szptvlfn@NetBSD.org
 COMMENT=	Use Accessor to access state in mtl State monad class
 LICENSE=	modified-bsd
 

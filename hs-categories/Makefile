@@ -3,7 +3,7 @@
 DISTNAME=	categories-1.0.6
 CATEGORIES=	math
 
-MAINTAINER=	szptvlfn@a-net.email.ne.jp
+MAINTAINER=	szptvlfn@NetBSD.org
 COMMENT=	Categories
 LICENSE=	modified-bsd
 

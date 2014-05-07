@@ -1,5 +1,5 @@
 @comment $NetBSD$
-${GEM_HOME}/cache/dnssd-${PKGVERSION}.gem
+${GEM_HOME}/cache/${GEM_NAME}.gem
 ${GEM_LIBDIR}/.autotest
 ${GEM_LIBDIR}/.gemtest
 ${GEM_LIBDIR}/History.txt
@@ -46,4 +46,4 @@ ${GEM_LIBDIR}/test/test_dnssd_reply_query_record.rb
 ${GEM_LIBDIR}/test/test_dnssd_reply_resolve.rb
 ${GEM_LIBDIR}/test/test_dnssd_service.rb
 ${GEM_LIBDIR}/test/test_dnssd_text_record.rb
-${GEM_HOME}/specifications/dnssd-${PKGVERSION}.gemspec
+${GEM_HOME}/specifications/${GEM_NAME}.gemspec

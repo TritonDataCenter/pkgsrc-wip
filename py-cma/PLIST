@@ -1,0 +1,4 @@
+@comment $NetBSD$
+${PYSITELIB}/cma.py
+${PYSITELIB}/cma.pyc
+${PYSITELIB}/cma.pyo

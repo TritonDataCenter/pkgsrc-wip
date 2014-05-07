@@ -3,7 +3,7 @@
 DISTNAME=	timezone-olson-0.1.3
 CATEGORIES=	time
 
-MAINTAINER=	szptvlfn@a-net.email.ne.jp
+MAINTAINER=	szptvlfn@NetBSD.org
 HOMEPAGE=	http://projects.haskell.org/time-ng/
 COMMENT=	Pure Haskell parser and renderer for binary Olson timezone files
 LICENSE=	modified-bsd

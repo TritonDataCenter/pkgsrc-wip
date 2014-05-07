@@ -1,4 +1,4 @@
-$NetBSD$
+$NetBSD: patch-libgcc_unwind-dw2-fde-dip.c,v 1.1 2013/04/01 21:06:17 wiz Exp $
 
 --- libgcc/unwind-dw2-fde-dip.c.orig	2013-02-04 19:06:20.000000000 +0000
 +++ libgcc/unwind-dw2-fde-dip.c

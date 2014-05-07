@@ -3,7 +3,7 @@
 DISTNAME=	lifted-base-0.2.2.0
 CATEGORIES=	devel
 
-MAINTAINER=	szptvlfn@a-net.email.ne.jp
+MAINTAINER=	szptvlfn@NetBSD.org
 COMMENT=	Lifted IO operations from the base library
 LICENSE=	modified-bsd
 

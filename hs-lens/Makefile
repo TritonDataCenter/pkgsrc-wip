@@ -3,7 +3,7 @@
 DISTNAME=	lens-4.0.7
 CATEGORIES=	devel
 
-MAINTAINER=	szptvlfn@a-net.email.ne.jp
+MAINTAINER=	szptvlfn@NetBSD.org
 COMMENT=	Lenses, Folds and Traversals
 LICENSE=	modified-bsd
 

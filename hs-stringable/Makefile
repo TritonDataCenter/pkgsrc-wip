@@ -3,7 +3,7 @@
 DISTNAME=	stringable-0.1.2
 CATEGORIES=	devel
 
-MAINTAINER=	szptvlfn@a-net.email.ne.jp
+MAINTAINER=	szptvlfn@NetBSD.org
 COMMENT=	Stringable type class, in the spirit of Foldable and Traversable
 LICENSE=	mit
 
