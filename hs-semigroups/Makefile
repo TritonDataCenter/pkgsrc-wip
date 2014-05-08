@@ -1,14 +1,13 @@
 # $NetBSD$
-#
 
-DISTNAME=	semigroups-0.12.2
+DISTNAME=	semigroups-0.13.0.1
 CATEGORIES=	math
 
 MAINTAINER=	pho@cielonegro.org
 COMMENT=	Haskell 98 semigroups
 LICENSE=	2-clause-bsd
 
-.include "../../wip/mk/haskell.mk"
+.include "../../mk/haskell.mk"
 .include "../../wip/hs-hashable/buildlink3.mk"
 .include "../../wip/hs-nats/buildlink3.mk"
 .include "../../wip/hs-text/buildlink3.mk"

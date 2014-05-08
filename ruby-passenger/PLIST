@@ -38,6 +38,7 @@ ${RUBY_VENDORLIB_BASE}/phusion_passenger/classic_rails/cgi_fixed.rb
 ${RUBY_VENDORLIB_BASE}/phusion_passenger/classic_rails/thread_handler_extension.rb
 ${RUBY_VENDORLIB_BASE}/phusion_passenger/common_library.rb
 ${RUBY_VENDORLIB_BASE}/phusion_passenger/config/about_command.rb
+${RUBY_VENDORLIB_BASE}/phusion_passenger/config/build_native_support_command.rb
 ${RUBY_VENDORLIB_BASE}/phusion_passenger/config/command.rb
 ${RUBY_VENDORLIB_BASE}/phusion_passenger/config/detach_process_command.rb
 ${RUBY_VENDORLIB_BASE}/phusion_passenger/config/main.rb
