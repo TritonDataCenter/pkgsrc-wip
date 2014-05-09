@@ -10,12 +10,12 @@ PKG_OPTIONS_LEGACY_OPTS=	psycopg2:pgsql
 
 .if !empty(PKG_OPTIONS:Msqlite)
 DEPENDS+=	${PYPKGPREFIX}-sqlite2>=2.5.5:../../databases/py-sqlite2
-PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-sqlite2
+PYTHON_VERSIONS_INCOMPATIBLE=	33 34 34 # py-sqlite2
 .endif
 .if !empty(PKG_OPTIONS:Mpgsql)
 DEPENDS+=	${PYPKGPREFIX}-psycopg2>=2:../../databases/py-psycopg2
 .endif
 .if !empty(PKG_OPTIONS:Mmysql)
 DEPENDS+=	${PYPKGPREFIX}-mysqldb>=1.2.2:../../databases/py-mysqldb
-PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-mysqldb
+PYTHON_VERSIONS_INCOMPATIBLE=	33 34 34 # py-mysqldb
 .endif

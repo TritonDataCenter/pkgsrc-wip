@@ -13,7 +13,7 @@ PKG_DESTDIR_SUPPORT=	none
 NO_CHECKSUM=		yes
 PYDISTUTILSPKG=		yes
 WRKSRC=			${WRKDIR}/hgview
-PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-gtk2
+PYTHON_VERSIONS_INCOMPATIBLE=	33 34 # py-gtk2
 
 HG_REPOSITORIES=	hgview
 HG_REPO.hgview=		http://www.logilab.org/hg/hgview

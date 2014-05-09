@@ -18,7 +18,7 @@ DEPENDS+=	${PYPKGPREFIX}-lxml>=3.2.3:../../textproc/py-lxml
 
 USE_LANGUAGES=	c fortran
 
-PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-suds
+PYTHON_VERSIONS_INCOMPATIBLE=	33 34 # py-suds
 
 .include "../../graphics/py-matplotlib/buildlink3.mk"
 .include "../../lang/python/distutils.mk"

@@ -43,7 +43,7 @@ INSTALL_ENV+=	DESTDIR=${DESTDIR}
 
 REPLACE_PYTHON+=launcher/fs_uae_launcher/netplay/oyoyo/examplebot.py
 
-PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-wxWidgets
+PYTHON_VERSIONS_INCOMPATIBLE=	33 34 # py-wxWidgets
 .include "../../lang/python/application.mk"
 PLIST_SUBST+=   PYSITELIB=${PYSITELIB}
 PLIST_SUBST+=   PYVERSSUFFIX=${PYVERSSUFFIX}

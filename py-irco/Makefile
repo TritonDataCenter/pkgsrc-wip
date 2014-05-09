@@ -16,7 +16,7 @@ DEPENDS+=	${PYPKGPREFIX}-country>=0.19:../../wip/py-country
 DEPENDS+=	${PYPKGPREFIX}-tablib-garetjax>=0.9.12:../../wip/py-tablib-garetjax
 
 USE_LANGUAGES=	# none
-PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-networkx
+PYTHON_VERSIONS_INCOMPATIBLE=	33 34 # py-networkx
 
 .include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"

@@ -18,7 +18,7 @@ DEPENDS+=	${PYPKGPREFIX}-Tempita>=0.4:../../textproc/py-Tempita
 DEPENDS+=	${PYPKGPREFIX}-webob>=0.9.8:../../wip/py-webob
 
 USE_LANGUAGES=	# none
-PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-paste
+PYTHON_VERSIONS_INCOMPATIBLE=	33 34 # py-paste
 
 .include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"

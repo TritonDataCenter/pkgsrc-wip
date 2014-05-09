@@ -20,7 +20,7 @@ FETCH_USING= curl
 USE_LANGUAGES=	# none
 
 PYDISTUTILSPKG=	yes
-PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-docutils
+PYTHON_VERSIONS_INCOMPATIBLE=	33 34 # py-docutils
 
 post-extract:
 	${MV} ${WRKSRC}/pycse/publish.py ${WRKSRC}/pycse/publish.py${PYVERSSUFFIX}
