@@ -3423,7 +3423,6 @@ SUBDIR+=	tortunnel
 SUBDIR+=	tpp
 SUBDIR+=	tqsllib
 SUBDIR+=	tr2latex
-SUBDIR+=	trac
 SUBDIR+=	trac-plugins-AccountManager
 SUBDIR+=	trac-plugins-AuthOpenId
 SUBDIR+=	trac-plugins-FullBlog
