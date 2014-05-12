@@ -1,10 +1,9 @@
 # $NetBSD$
 
-DISTNAME=	lsqfit-4.6.1
+DISTNAME=	lsqfit-4.8
 PKGNAME=        ${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	math python
 MASTER_SITES=	https://pypi.python.org/packages/source/l/lsqfit/
-FETCH_USING=	curl
 
 MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	  https://github.com/gplepage/lsqfit.git
