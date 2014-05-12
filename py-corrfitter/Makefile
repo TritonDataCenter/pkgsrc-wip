@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	corrfitter-3.6
+DISTNAME=	corrfitter-3.7
 PKGNAME=        ${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	math python
 MASTER_SITES=	https://pypi.python.org/packages/source/c/corrfitter/
@@ -10,9 +10,7 @@ HOMEPAGE=	https://github.com/gplepage/corrfitter.git
 COMMENT=	Utilities for fitting correlators in lattice QCD
 LICENSE=	gnu-gpl-v3
 
-DEPENDS+=       ${PYPKGPREFIX}-lsqfit>=4.5.1:../../wip/py-lsqfit
-
-FETCH_USING=    curl
+DEPENDS+=       ${PYPKGPREFIX}-lsqfit>=4.8:../../wip/py-lsqfit
 
 USE_LANGUAGES=	# none
 
