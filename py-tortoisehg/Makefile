@@ -1,8 +1,8 @@
 # $NetBSD$
 
-DISTNAME=		tortoisehg-2.11.2
+DISTNAME=		tortoisehg-3.0
 PKGNAME=		${PYPKGPREFIX}-${DISTNAME}
-PKGREVISION=		1
+#PKGREVISION=		1
 CATEGORIES=		devel python
 MASTER_SITES=		http://bitbucket.org/tortoisehg/targz/downloads/
 
