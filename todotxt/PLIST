@@ -1,0 +1,5 @@
+@comment $NetBSD$
+bin/todo.sh
+share/doc/todotxt/README.textile
+share/examples/todotxt/todo.cfg
+share/examples/todotxt/todo_completion
