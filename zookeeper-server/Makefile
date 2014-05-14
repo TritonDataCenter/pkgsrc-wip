@@ -4,7 +4,6 @@
 .include "Makefile.common"
 
 PKGNAME=		${DISTNAME:S/keeper/keeper-server/}
-PKGREVISION=		1
 COMMENT=		Highly reliable distributed coordination server
 
 USE_JAVA=		yes
