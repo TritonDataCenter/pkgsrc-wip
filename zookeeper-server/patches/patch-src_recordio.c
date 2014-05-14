@@ -1,7 +1,7 @@
 $NetBSD$
 
 SunOS has had htonll since OpenSolaris.
---- src/c/src/recordio.c.orig	2012-02-06 10:48:40.000000000 +0000
+--- src/c/src/recordio.c.orig	2014-02-20 10:14:08.000000000 +0000
 +++ src/c/src/recordio.c
 @@ -80,6 +80,7 @@ int oa_serialize_int(struct oarchive *oa
      priv->off+=sizeof(i);

@@ -9,6 +9,7 @@ COMMENT=		Highly reliable distributed coordination server
 
 USE_JAVA=		yes
 USE_JAVA2=		yes
+USE_TOOLS+=		bash:run
 
 BUILD_DEPENDS+=		apache-ant-[0-9]*:../../devel/apache-ant
 BUILD_DEPENDS+=		apache-ivy-[0-9]*:../../devel/apache-ivy
