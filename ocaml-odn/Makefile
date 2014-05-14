@@ -1,6 +1,7 @@
 # $NetBSD$
 
 DISTNAME=	ocaml-data-notation-0.0.11
+PKGNAME=	ocaml-odn-0.0.11
 CATEGORIES=	devel
 MASTER_SITES=	https://forge.ocamlcore.org/frs/download.php/1310/
 
