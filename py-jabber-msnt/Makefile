@@ -39,7 +39,7 @@ NO_BUILD=		yes
 RCD_SCRIPTS=	pymsnt
 
 REPLACE_PYTHON+=	PyMSNt.py
-PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-imaging, py-twisted
+PYTHON_VERSIONS_INCOMPATIBLE=	33 34 # py-imaging, py-twisted
 
 TRANSPORTDIR=		${JABBER_TRANSDIR}/pymsnt
 

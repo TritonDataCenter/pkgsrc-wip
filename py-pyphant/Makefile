@@ -16,7 +16,7 @@ DEPENDS+=	${PYPKGPREFIX}-sqlite3-[0-9]*:../../databases/py-sqlite3
 DEPENDS+=	${PYPKGPREFIX}-Paste>=1.7.4:../../www/py-paste
 
 USE_LANGUAGES=	# none
-PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-paste
+PYTHON_VERSIONS_INCOMPATIBLE=	33 34 # py-paste
 
 .include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"

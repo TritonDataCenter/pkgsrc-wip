@@ -1,7 +1,7 @@
 $NetBSD$
 
 Default paths.
---- src/packages/templates/conf/zookeeper-env.sh.orig	2012-02-06 10:48:40.000000000 +0000
+--- src/packages/templates/conf/zookeeper-env.sh.orig	2014-02-20 10:14:10.000000000 +0000
 +++ src/packages/templates/conf/zookeeper-env.sh
 @@ -12,5 +12,5 @@
  # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.

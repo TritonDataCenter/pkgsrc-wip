@@ -14,7 +14,7 @@ DEPENDS+=	${PYPKGPREFIX}-workerpool-[0-9]*:../../wip/py-workerpool
 
 USE_LANGUAGES=	# none
 
-PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-filechunkio via py-boto
+PYTHON_VERSIONS_INCOMPATIBLE=	33 34 # py-filechunkio via py-boto
 
 .include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"

@@ -16,7 +16,7 @@ USE_LIBTOOL=	yes
 
 MAKE_ENV+=	MANPREFIX=${PREFIX}/${PKGMANDIR}
 
-PYTHON_VERSIONS_INCOMPATIBLE=	33 # py-docutils
+PYTHON_VERSIONS_INCOMPATIBLE=	33 34 # py-docutils
 
 .include "../../lang/python/pyversion.mk"
 .include "../../graphics/cairo/buildlink3.mk"
