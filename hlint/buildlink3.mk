@@ -12,7 +12,7 @@ BUILDLINK_PKGSRCDIR.hlint?=	../../wip/hlint
 .include "../../wip/hs-cpphs/buildlink3.mk"
 .include "../../wip/hs-haskell-src-exts/buildlink3.mk"
 .include "../../wip/hs-hscolour/buildlink3.mk"
-.include "../../wip/hs-transformers/buildlink3.mk"
+.include "../../devel/hs-transformers/buildlink3.mk"
 .include "../../wip/hs-uniplate/buildlink3.mk"
 .endif	# HLINT_BUILDLINK3_MK
 

@@ -12,8 +12,8 @@ BUILDLINK_PKGSRCDIR.hs-resourcet?=	../../wip/hs-resourcet
 .include "../../wip/hs-mmorph/buildlink3.mk"
 .include "../../wip/hs-monad-control/buildlink3.mk"
 .include "../../wip/hs-mtl/buildlink3.mk"
-.include "../../wip/hs-transformers/buildlink3.mk"
-.include "../../wip/hs-transformers-base/buildlink3.mk"
+.include "../../devel/hs-transformers/buildlink3.mk"
+.include "../../devel/hs-transformers-base/buildlink3.mk"
 .endif	# HS_RESOURCET_BUILDLINK3_MK
 
 BUILDLINK_TREE+=	-hs-resourcet

@@ -12,7 +12,7 @@ BUILDLINK_PKGSRCDIR.hs-semigroupoids?=	../../wip/hs-semigroupoids
 .include "../../wip/hs-contravariant/buildlink3.mk"
 .include "../../wip/hs-distributive/buildlink3.mk"
 .include "../../wip/hs-semigroups/buildlink3.mk"
-.include "../../wip/hs-transformers/buildlink3.mk"
+.include "../../devel/hs-transformers/buildlink3.mk"
 .endif	# HS_SEMIGROUPOIDS_BUILDLINK3_MK
 
 BUILDLINK_TREE+=	-hs-semigroupoids

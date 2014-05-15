@@ -13,5 +13,5 @@ LICENSE=	2-clause-bsd
 .include "../../wip/hs-mtl/buildlink3.mk"
 .include "../../wip/hs-semigroups/buildlink3.mk"
 .include "../../wip/hs-tagged/buildlink3.mk"
-.include "../../wip/hs-transformers/buildlink3.mk"
+.include "../../devel/hs-transformers/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

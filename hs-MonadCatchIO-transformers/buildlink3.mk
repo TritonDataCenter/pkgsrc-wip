@@ -10,7 +10,7 @@ BUILDLINK_PKGSRCDIR.hs-MonadCatchIO-transformers?=	../../wip/hs-MonadCatchIO-tra
 
 .include "../../wip/hs-extensible-exceptions/buildlink3.mk"
 .include "../../wip/hs-monads-tf/buildlink3.mk"
-.include "../../wip/hs-transformers/buildlink3.mk"
+.include "../../devel/hs-transformers/buildlink3.mk"
 .endif	# HS_MONADCATCHIO_TRANSFORMERS_BUILDLINK3_MK
 
 BUILDLINK_TREE+=	-hs-MonadCatchIO-transformers

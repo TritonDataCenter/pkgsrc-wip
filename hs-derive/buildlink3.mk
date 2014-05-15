@@ -10,7 +10,7 @@ BUILDLINK_PKGSRCDIR.hs-derive?=	../../wip/hs-derive
 
 .include "../../wip/hs-haskell-src-exts/buildlink3.mk"
 .include "../../wip/hs-syb/buildlink3.mk"
-.include "../../wip/hs-transformers/buildlink3.mk"
+.include "../../devel/hs-transformers/buildlink3.mk"
 .include "../../wip/hs-uniplate/buildlink3.mk"
 .endif	# HS_DERIVE_BUILDLINK3_MK
 

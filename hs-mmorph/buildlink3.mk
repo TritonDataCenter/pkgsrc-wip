@@ -8,7 +8,7 @@ HS_MMORPH_BUILDLINK3_MK:=
 BUILDLINK_API_DEPENDS.hs-mmorph+=	hs-mmorph>=1.0.2
 BUILDLINK_PKGSRCDIR.hs-mmorph?=	../../wip/hs-mmorph
 
-.include "../../wip/hs-transformers/buildlink3.mk"
+.include "../../devel/hs-transformers/buildlink3.mk"
 .endif	# HS_MMORPH_BUILDLINK3_MK
 
 BUILDLINK_TREE+=	-hs-mmorph

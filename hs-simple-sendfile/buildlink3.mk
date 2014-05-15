@@ -10,7 +10,7 @@ BUILDLINK_PKGSRCDIR.hs-simple-sendfile?=	../../wip/hs-simple-sendfile
 
 .include "../../wip/hs-conduit/buildlink3.mk"
 .include "../../wip/hs-network/buildlink3.mk"
-.include "../../wip/hs-transformers/buildlink3.mk"
+.include "../../devel/hs-transformers/buildlink3.mk"
 .endif	# HS_SIMPLE_SENDFILE_BUILDLINK3_MK
 
 BUILDLINK_TREE+=	-hs-simple-sendfile

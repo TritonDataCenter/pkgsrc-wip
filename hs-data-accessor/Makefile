@@ -9,5 +9,5 @@ COMMENT=	Utilities for accessing and manipulating field of records
 LICENSE=	modified-bsd
 
 .include "../../wip/mk/haskell.mk"
-.include "../../wip/hs-transformers/buildlink3.mk"
+.include "../../devel/hs-transformers/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

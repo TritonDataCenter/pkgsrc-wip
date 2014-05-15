@@ -13,7 +13,7 @@ BUILDLINK_PKGSRCDIR.hs-pointed?=	../../wip/hs-pointed
 .include "../../wip/hs-data-default/buildlink3.mk"
 .include "../../wip/hs-semigroupoids/buildlink3.mk"
 .include "../../wip/hs-stm/buildlink3.mk"
-.include "../../wip/hs-transformers/buildlink3.mk"
+.include "../../devel/hs-transformers/buildlink3.mk"
 .endif	# HS_POINTED_BUILDLINK3_MK
 
 BUILDLINK_TREE+=	-hs-pointed

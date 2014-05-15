@@ -13,5 +13,5 @@ LICENSE=	modified-bsd
 .include "../../wip/hs-comonad-transformers/buildlink3.mk"
 .include "../../wip/hs-mtl/buildlink3.mk"
 .include "../../wip/hs-semigroups/buildlink3.mk"
-.include "../../wip/hs-transformers/buildlink3.mk"
+.include "../../devel/hs-transformers/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

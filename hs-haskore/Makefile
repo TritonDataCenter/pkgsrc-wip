@@ -17,6 +17,6 @@ LICENSE=	gnu-gpl-v3
 .include "../../wip/hs-midi/buildlink3.mk"
 .include "../../wip/hs-non-negative/buildlink3.mk"
 .include "../../wip/hs-parsec/buildlink3.mk"
-.include "../../wip/hs-transformers/buildlink3.mk"
+.include "../../devel/hs-transformers/buildlink3.mk"
 .include "../../wip/hs-utility-ht/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

@@ -11,5 +11,5 @@ LICENSE=	modified-bsd
 .include "../../wip/hs-blaze-builder/buildlink3.mk"
 .include "../../wip/hs-conduit/buildlink3.mk"
 .include "../../wip/hs-text/buildlink3.mk"
-.include "../../wip/hs-transformers/buildlink3.mk"
+.include "../../devel/hs-transformers/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

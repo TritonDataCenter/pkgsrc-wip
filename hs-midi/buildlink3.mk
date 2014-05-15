@@ -14,7 +14,7 @@ BUILDLINK_PKGSRCDIR.hs-midi?=	../../wip/hs-midi
 .include "../../wip/hs-non-negative/buildlink3.mk"
 .include "../../wip/hs-QuickCheck/buildlink3.mk"
 .include "../../wip/hs-random/buildlink3.mk"
-.include "../../wip/hs-transformers/buildlink3.mk"
+.include "../../devel/hs-transformers/buildlink3.mk"
 .endif	# HS_MIDI_BUILDLINK3_MK
 
 BUILDLINK_TREE+=	-hs-midi

@@ -9,5 +9,5 @@ LICENSE=	modified-bsd
 
 
 .include "../../mk/haskell.mk"
-.include "../../wip/hs-transformers/buildlink3.mk"
+.include "../../devel/hs-transformers/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
