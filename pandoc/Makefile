@@ -29,7 +29,7 @@ BUILD_DEPENDS+=	happy:../../wip/happy
 .include "../../wip/hs-highlighting-kate/buildlink3.mk"
 .include "../../wip/hs-hslua/buildlink3.mk"
 .include "../../wip/hs-HTTP/buildlink3.mk"
-.include "../../wip/hs-mtl/buildlink3.mk"
+.include "../../devel/hs-mtl/buildlink3.mk"
 .include "../../wip/hs-network/buildlink3.mk"
 .include "../../wip/hs-pandoc-types/buildlink3.mk"
 .include "../../wip/hs-parsec/buildlink3.mk"

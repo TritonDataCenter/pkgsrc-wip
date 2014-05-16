@@ -10,7 +10,7 @@ BUILDLINK_PKGSRCDIR.hs-gtk?=	../../wip/hs-gtk
 
 .include "../../wip/hs-cairo/buildlink3.mk"
 .include "../../wip/hs-glib/buildlink3.mk"
-.include "../../wip/hs-mtl/buildlink3.mk"
+.include "../../devel/hs-mtl/buildlink3.mk"
 .include "../../wip/hs-pango/buildlink3.mk"
 .include "../../x11/gtk2/buildlink3.mk"
 .endif	# HS_GTK_BUILDLINK3_MK

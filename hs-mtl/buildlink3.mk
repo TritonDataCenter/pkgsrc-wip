@@ -6,7 +6,7 @@ BUILDLINK_TREE+=	hs-mtl
 HS_MTL_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.hs-mtl+=	hs-mtl>=2.2.0
-BUILDLINK_PKGSRCDIR.hs-mtl?=	../../wip/hs-mtl
+BUILDLINK_PKGSRCDIR.hs-mtl?=	../../devel/hs-mtl
 
 .include "../../devel/hs-transformers/buildlink3.mk"
 .endif	# HS_MTL_BUILDLINK3_MK

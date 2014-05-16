@@ -14,7 +14,7 @@ LICENSE=	gnu-lgpl-v2.1
 .include "../../wip/gtk2hs-buildtools/buildlink3.mk"
 .include "../../wip/hs-cairo/buildlink3.mk"
 .include "../../wip/hs-glib/buildlink3.mk"
-.include "../../wip/hs-mtl/buildlink3.mk"
+.include "../../devel/hs-mtl/buildlink3.mk"
 .include "../../wip/hs-pango/buildlink3.mk"
 .include "../../x11/gtk2/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

@@ -12,7 +12,7 @@ BUILDLINK_PKGSRCDIR.hs-haskelldb-hdbc-sqlite3?=	../../wip/hs-haskelldb-hdbc-sqli
 .include "../../wip/hs-haskelldb-hdbc/buildlink3.mk"
 .include "../../wip/hs-HDBC/buildlink3.mk"
 .include "../../wip/hs-HDBC-sqlite3/buildlink3.mk"
-.include "../../wip/hs-mtl/buildlink3.mk"
+.include "../../devel/hs-mtl/buildlink3.mk"
 .endif	# HS_HASKELLDB_HDBC_SQLITE3_BUILDLINK3_MK
 
 BUILDLINK_TREE+=	-hs-haskelldb-hdbc-sqlite3

@@ -12,7 +12,7 @@ BUILDLINK_PKGSRCDIR.hs-MissingH?=	../../wip/hs-MissingH
 .include "../../wip/hs-QuickCheck1/buildlink3.mk"
 .include "../../wip/hs-hslogger/buildlink3.mk"
 .include "../../wip/hs-network/buildlink3.mk"
-.include "../../wip/hs-mtl/buildlink3.mk"
+.include "../../devel/hs-mtl/buildlink3.mk"
 .include "../../wip/hs-parsec/buildlink3.mk"
 .include "../../wip/hs-regex-compat/buildlink3.mk"
 .endif	# HS_MISSINGH_BUILDLINK3_MK

@@ -12,7 +12,7 @@ LICENSE=	gnu-lgpl-v2
 .include "../../wip/mk/haskell.mk"
 .include "../../wip/hs-MissingH/buildlink3.mk"
 .include "../../wip/hs-hslogger/buildlink3.mk"
-.include "../../wip/hs-mtl/buildlink3.mk"
+.include "../../devel/hs-mtl/buildlink3.mk"
 .include "../../wip/hs-regex-base/buildlink3.mk"
 .include "../../wip/hs-regex-compat/buildlink3.mk"
 .include "../../wip/hs-regex-posix/buildlink3.mk"

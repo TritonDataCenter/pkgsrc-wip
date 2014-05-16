@@ -8,6 +8,6 @@ COMMENT=	Extensible optionally-pure exceptions
 LICENSE=	apache-2.0
 
 .include "../../wip/mk/haskell.mk"
-.include "../../wip/hs-mtl/buildlink3.mk"
+.include "../../devel/hs-mtl/buildlink3.mk"
 .include "../../devel/hs-transformers/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

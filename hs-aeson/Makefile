@@ -12,7 +12,7 @@ LICENSE=	modified-bsd
 .include "../../wip/hs-blaze-builder/buildlink3.mk"
 .include "../../wip/hs-dlist/buildlink3.mk"
 .include "../../wip/hs-hashable/buildlink3.mk"
-.include "../../wip/hs-mtl/buildlink3.mk"
+.include "../../devel/hs-mtl/buildlink3.mk"
 .include "../../wip/hs-scientific/buildlink3.mk"
 .include "../../wip/hs-syb/buildlink3.mk"
 .include "../../wip/hs-text/buildlink3.mk"
