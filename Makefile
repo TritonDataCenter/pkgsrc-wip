@@ -3118,6 +3118,7 @@ SUBDIR+=	rsyslog7
 SUBDIR+=	rte
 SUBDIR+=	rthread
 SUBDIR+=	rtpbreak
+SUBDIR+=	rtspdump
 SUBDIR+=	rubinius
 SUBDIR+=	rubrica2
 SUBDIR+=	ruby-actionmessenger
