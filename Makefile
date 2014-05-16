@@ -1093,7 +1093,6 @@ SUBDIR+=	hs-monad-peel
 SUBDIR+=	hs-monads-fd
 SUBDIR+=	hs-monads-tf
 SUBDIR+=	hs-monoid-transformer
-SUBDIR+=	hs-mtl
 SUBDIR+=	hs-mwc-random
 SUBDIR+=	hs-nats
 SUBDIR+=	hs-network
