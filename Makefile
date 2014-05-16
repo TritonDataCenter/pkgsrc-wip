@@ -1228,6 +1228,7 @@ SUBDIR+=	ile
 SUBDIR+=	ilohamail
 SUBDIR+=	imagination
 SUBDIR+=	imonc
+SUBDIR+=	inetdxtra
 SUBDIR+=	info2man
 SUBDIR+=	interbase-docs
 SUBDIR+=	interchange
