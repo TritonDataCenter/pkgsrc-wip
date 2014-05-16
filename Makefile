@@ -1855,6 +1855,7 @@ SUBDIR+=	nzbget
 SUBDIR+=	objfw
 SUBDIR+=	objfw-git
 SUBDIR+=	obmenu
+SUBDIR+=	ocaml-bin_prot
 SUBDIR+=	ocaml-camomile
 SUBDIR+=	ocaml-odn
 SUBDIR+=	ocaml-type_conv
