@@ -24,7 +24,7 @@ LICENSE=	modified-bsd
 .include "../../wip/hs-semigroupoids/buildlink3.mk"
 .include "../../wip/hs-semigroups/buildlink3.mk"
 .include "../../wip/hs-split/buildlink3.mk"
-.include "../../wip/hs-tagged/buildlink3.mk"
+.include "../../devel/hs-tagged/buildlink3.mk"
 .include "../../wip/hs-text/buildlink3.mk"
 .include "../../devel/hs-transformers/buildlink3.mk"
 .include "../../devel/hs-transformers-compat/buildlink3.mk"

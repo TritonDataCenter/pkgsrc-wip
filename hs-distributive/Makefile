@@ -8,7 +8,7 @@ COMMENT=	Haskell 98 Distributive functors -- Dual to Traversable
 LICENSE=	modified-bsd
 
 .include "../../mk/haskell.mk"
-.include "../../wip/hs-tagged/buildlink3.mk"
+.include "../../devel/hs-tagged/buildlink3.mk"
 .include "../../devel/hs-transformers/buildlink3.mk"
 .include "../../devel/hs-transformers-compat/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

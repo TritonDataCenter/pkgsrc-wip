@@ -10,7 +10,7 @@ BUILDLINK_PKGSRCDIR.hs-bifunctors?=	../../wip/hs-bifunctors
 
 .include "../../wip/hs-semigroupoids/buildlink3.mk"
 .include "../../wip/hs-semigroups/buildlink3.mk"
-.include "../../wip/hs-tagged/buildlink3.mk"
+.include "../../devel/hs-tagged/buildlink3.mk"
 .endif	# HS_BIFUNCTORS_BUILDLINK3_MK
 
 BUILDLINK_TREE+=	-hs-bifunctors

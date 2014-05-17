@@ -10,7 +10,7 @@ BUILDLINK_PKGSRCDIR.hs-crypto-api?=	../../wip/hs-crypto-api
 
 .include "../../wip/hs-cereal/buildlink3.mk"
 .include "../../wip/hs-entropy/buildlink3.mk"
-.include "../../wip/hs-tagged/buildlink3.mk"
+.include "../../devel/hs-tagged/buildlink3.mk"
 .include "../../devel/hs-transformers/buildlink3.mk"
 .endif	# HS_CRYPTO_API_BUILDLINK3_MK
 

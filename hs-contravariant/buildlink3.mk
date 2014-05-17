@@ -8,7 +8,7 @@ HS_CONTRAVARIANT_BUILDLINK3_MK:=
 BUILDLINK_API_DEPENDS.hs-contravariant+=	hs-contravariant>=0.5.2
 BUILDLINK_PKGSRCDIR.hs-contravariant?=	../../wip/hs-contravariant
 
-.include "../../wip/hs-tagged/buildlink3.mk"
+.include "../../devel/hs-tagged/buildlink3.mk"
 .include "../../devel/hs-transformers/buildlink3.mk"
 .include "../../devel/hs-transformers-compat/buildlink3.mk"
 .endif	# HS_CONTRAVARIANT_BUILDLINK3_MK
