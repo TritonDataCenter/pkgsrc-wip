@@ -8,7 +8,7 @@ MAINTAINER=	pho@cielonegro.org
 COMMENT=	Class for types with a default value
 LICENSE=	modified-bsd
 
-.include "../../wip/mk/haskell.mk"
+.include "../../mk/haskell.mk"
 .include "../../wip/hs-data-default-class/buildlink3.mk"
 .include "../../wip/hs-data-default-instances-base/buildlink3.mk"
 .include "../../wip/hs-data-default-instances-containers/buildlink3.mk"
