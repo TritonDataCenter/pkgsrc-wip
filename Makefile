@@ -2731,7 +2731,6 @@ SUBDIR+=	py-pdef
 SUBDIR+=	py-pdfposter
 SUBDIR+=	py-peak-rules
 SUBDIR+=	py-pebl
-SUBDIR+=	py-pefile
 SUBDIR+=	py-percol
 SUBDIR+=	py-pint
 SUBDIR+=	py-piquant
