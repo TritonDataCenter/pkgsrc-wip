@@ -3739,6 +3739,7 @@ SUBDIR+=	zathura
 SUBDIR+=	zathura-djvu
 SUBDIR+=	zathura-mupdf
 SUBDIR+=	zathura-poppler
+SUBDIR+=	zathura-ps
 SUBDIR+=	zinf
 SUBDIR+=	ziparchive
 SUBDIR+=	zipios
