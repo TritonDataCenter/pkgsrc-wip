@@ -9,7 +9,7 @@ COMMENT=	Class for types with a default value
 LICENSE=	modified-bsd
 
 .include "../../mk/haskell.mk"
-.include "../../wip/hs-data-default-class/buildlink3.mk"
+.include "../../devel/hs-data-default-class/buildlink3.mk"
 .include "../../wip/hs-data-default-instances-base/buildlink3.mk"
 .include "../../wip/hs-data-default-instances-containers/buildlink3.mk"
 .include "../../wip/hs-data-default-instances-dlist/buildlink3.mk"

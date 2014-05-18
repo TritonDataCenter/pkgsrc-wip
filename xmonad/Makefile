@@ -19,6 +19,6 @@ post-install:
 .include "../../wip/mk/haskell.mk"
 .include "../../wip/hs-extensible-exceptions/buildlink3.mk"
 .include "../../devel/hs-mtl/buildlink3.mk"
-.include "../../wip/hs-utf8-string/buildlink3.mk"
+.include "../../devel/hs-utf8-string/buildlink3.mk"
 .include "../../wip/hs-x11/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

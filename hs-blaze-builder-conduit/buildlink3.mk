@@ -10,7 +10,7 @@ BUILDLINK_PKGSRCDIR.hs-blaze-builder-conduit?=	../../wip/hs-blaze-builder-condui
 
 .include "../../wip/hs-blaze-builder/buildlink3.mk"
 .include "../../wip/hs-conduit/buildlink3.mk"
-.include "../../wip/hs-text/buildlink3.mk"
+.include "../../devel/hs-text/buildlink3.mk"
 .include "../../devel/hs-transformers/buildlink3.mk"
 .endif	# HS_BLAZE_BUILDER_CONDUIT_BUILDLINK3_MK
 

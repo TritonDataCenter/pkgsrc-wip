@@ -12,7 +12,7 @@ LICENSE=	mit
 .include "../../wip/hs-lifted-base/buildlink3.mk"
 .include "../../wip/hs-ReadArgs/buildlink3.mk"
 .include "../../wip/hs-system-filepath/buildlink3.mk"
-.include "../../wip/hs-text/buildlink3.mk"
+.include "../../devel/hs-text/buildlink3.mk"
 .include "../../devel/hs-transformers/buildlink3.mk"
 .include "../../wip/hs-unordered-containers/buildlink3.mk"
 .include "../../wip/hs-vector/buildlink3.mk"

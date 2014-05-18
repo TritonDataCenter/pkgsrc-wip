@@ -8,5 +8,5 @@ COMMENT=	Default instances for types in old-locale
 LICENSE=	modified-bsd
 
 .include "../../mk/haskell.mk"
-.include "../../wip/hs-data-default-class/buildlink3.mk"
+.include "../../devel/hs-data-default-class/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

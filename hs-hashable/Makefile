@@ -8,5 +8,5 @@ COMMENT=	Class for types that can be converted to a hash value
 LICENSE=	modified-bsd
 
 .include "../../mk/haskell.mk"
-.include "../../wip/hs-text/buildlink3.mk"
+.include "../../devel/hs-text/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

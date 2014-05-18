@@ -8,6 +8,6 @@ COMMENT=	Default instances for types in dlist
 LICENSE=	modified-bsd
 
 .include "../../mk/haskell.mk"
-.include "../../wip/hs-data-default-class/buildlink3.mk"
-.include "../../wip/hs-dlist/buildlink3.mk"
+.include "../../devel/hs-data-default-class/buildlink3.mk"
+.include "../../devel/hs-dlist/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

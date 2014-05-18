@@ -12,7 +12,7 @@ BUILDLINK_PKGSRCDIR.hs-wai?=	../../wip/hs-wai
 .include "../../wip/hs-conduit/buildlink3.mk"
 .include "../../wip/hs-http-types/buildlink3.mk"
 .include "../../wip/hs-network/buildlink3.mk"
-.include "../../wip/hs-text/buildlink3.mk"
+.include "../../devel/hs-text/buildlink3.mk"
 .include "../../devel/hs-transformers/buildlink3.mk"
 .include "../../wip/hs-vault/buildlink3.mk"
 .endif	# HS_WAI_BUILDLINK3_MK

@@ -8,5 +8,5 @@ COMMENT=	Variety of alternative parser combinator libraries
 LICENSE=	gnu-lgpl-v2.1
 
 .include "../../wip/mk/haskell.mk"
-.include "../../wip/hs-text/buildlink3.mk"
+.include "../../devel/hs-text/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

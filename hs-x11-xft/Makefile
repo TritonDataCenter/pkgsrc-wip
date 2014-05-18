@@ -11,6 +11,6 @@ LICENSE=	gnu-gpl-v2
 
 .include "../../x11/libXft/buildlink3.mk"
 .include "../../wip/mk/haskell.mk"
-.include "../../wip/hs-utf8-string/buildlink3.mk"
+.include "../../devel/hs-utf8-string/buildlink3.mk"
 .include "../../wip/hs-x11/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

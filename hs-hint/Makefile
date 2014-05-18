@@ -15,5 +15,5 @@ LICENSE=	modified-bsd
 .include "../../wip/hs-ghc-paths/buildlink3.mk"
 .include "../../devel/hs-mtl/buildlink3.mk"
 .include "../../wip/hs-random/buildlink3.mk"
-.include "../../wip/hs-utf8-string/buildlink3.mk"
+.include "../../devel/hs-utf8-string/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

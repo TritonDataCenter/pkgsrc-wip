@@ -13,7 +13,7 @@ BUILDLINK_PKGSRCDIR.hs-convertible-ascii?=	../../wip/hs-convertible-ascii
 .include "../../wip/hs-blaze-builder/buildlink3.mk"
 .include "../../wip/hs-convertible-text/buildlink3.mk"
 .include "../../wip/hs-failure/buildlink3.mk"
-.include "../../wip/hs-text/buildlink3.mk"
+.include "../../devel/hs-text/buildlink3.mk"
 .endif	# HS_CONVERTIBLE_ASCII_BUILDLINK3_MK
 
 BUILDLINK_TREE+=	-hs-convertible-ascii

@@ -18,8 +18,8 @@ BUILDLINK_PKGSRCDIR.darcs?=	../../wip/darcs
 .include "../../wip/hs-random/buildlink3.mk"
 .include "../../wip/hs-regex-compat/buildlink3.mk"
 .include "../../wip/hs-tar/buildlink3.mk"
-.include "../../wip/hs-text/buildlink3.mk"
-.include "../../wip/hs-utf8-string/buildlink3.mk"
+.include "../../devel/hs-text/buildlink3.mk"
+.include "../../devel/hs-utf8-string/buildlink3.mk"
 .include "../../wip/hs-vector/buildlink3.mk"
 .include "../../wip/hs-zlib/buildlink3.mk"
 .endif	# DARCS_BUILDLINK3_MK
