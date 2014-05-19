@@ -10,5 +10,5 @@ COMMENT=	Configuration file reading & writing
 .include "../../wip/mk/haskell.mk"
 .include "../../wip/hs-MissingH/buildlink3.mk"
 .include "../../devel/hs-mtl/buildlink3.mk"
-.include "../../wip/hs-parsec/buildlink3.mk"
+.include "../../textproc/hs-parsec/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

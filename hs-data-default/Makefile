@@ -10,8 +10,8 @@ LICENSE=	modified-bsd
 
 .include "../../mk/haskell.mk"
 .include "../../devel/hs-data-default-class/buildlink3.mk"
-.include "../../wip/hs-data-default-instances-base/buildlink3.mk"
-.include "../../wip/hs-data-default-instances-containers/buildlink3.mk"
-.include "../../wip/hs-data-default-instances-dlist/buildlink3.mk"
-.include "../../wip/hs-data-default-instances-old-locale/buildlink3.mk"
+.include "../../devel/hs-data-default-instances-base/buildlink3.mk"
+.include "../../devel/hs-data-default-instances-containers/buildlink3.mk"
+.include "../../devel/hs-data-default-instances-dlist/buildlink3.mk"
+.include "../../devel/hs-data-default-instances-old-locale/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

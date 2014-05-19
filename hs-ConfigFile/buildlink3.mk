@@ -10,7 +10,7 @@ BUILDLINK_PKGSRCDIR.hs-ConfigFile?=	../../wip/hs-ConfigFile
 
 .include "../../wip/hs-MissingH/buildlink3.mk"
 .include "../../devel/hs-mtl/buildlink3.mk"
-.include "../../wip/hs-parsec/buildlink3.mk"
+.include "../../textproc/hs-parsec/buildlink3.mk"
 .endif	# HS_CONFIGFILE_BUILDLINK3_MK
 
 BUILDLINK_TREE+=	-hs-ConfigFile
