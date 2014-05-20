@@ -9,7 +9,7 @@ BUILDLINK_API_DEPENDS.hs-hint+=	hs-hint>=0.4.0
 BUILDLINK_PKGSRCDIR.hs-hint?=	../../wip/hs-hint
 
 .include "../../wip/hs-exceptions/buildlink3.mk"
-.include "../../wip/hs-extensible-exceptions/buildlink3.mk"
+.include "../../devel/hs-extensible-exceptions/buildlink3.mk"
 .include "../../wip/hs-ghc-mtl/buildlink3.mk"
 .include "../../wip/hs-ghc-paths/buildlink3.mk"
 .include "../../devel/hs-mtl/buildlink3.mk"

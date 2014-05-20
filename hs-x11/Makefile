@@ -13,5 +13,5 @@ LICENSE=	modified-bsd
 .include "../../x11/libXrandr/buildlink3.mk"
 .include "../../x11/libXScrnSaver/buildlink3.mk"
 .include "../../mk/haskell.mk"
-.include "../../wip/hs-data-default/buildlink3.mk"
+.include "../../devel/hs-data-default/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

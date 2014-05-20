@@ -17,7 +17,7 @@ CONFIGURE_ARGS+= --extra-lib-dirs=${PREFIX:Q}/lib
 
 .include "../../wip/mk/haskell.mk"
 .include "../../converters/libiconv/buildlink3.mk"
-.include "../../wip/hs-extensible-exceptions/buildlink3.mk"
+.include "../../devel/hs-extensible-exceptions/buildlink3.mk"
 .include "../../wip/hs-hashed-storage/buildlink3.mk"
 .include "../../wip/hs-haskeline/buildlink3.mk"
 .include "../../wip/hs-html/buildlink3.mk"

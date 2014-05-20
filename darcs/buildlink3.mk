@@ -9,7 +9,7 @@ BUILDLINK_API_DEPENDS.darcs+=	darcs>=2.8.4
 BUILDLINK_PKGSRCDIR.darcs?=	../../wip/darcs
 
 .include "../../converters/libiconv/buildlink3.mk"
-.include "../../wip/hs-extensible-exceptions/buildlink3.mk"
+.include "../../devel/hs-extensible-exceptions/buildlink3.mk"
 .include "../../wip/hs-hashed-storage/buildlink3.mk"
 .include "../../wip/hs-haskeline/buildlink3.mk"
 .include "../../wip/hs-html/buildlink3.mk"

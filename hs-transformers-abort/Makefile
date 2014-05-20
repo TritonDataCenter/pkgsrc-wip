@@ -9,7 +9,7 @@ COMMENT=	Better error monad transformer
 LICENSE=	modified-bsd
 
 .include "../../wip/mk/haskell.mk"
-.include "../../wip/hs-data-default/buildlink3.mk"
+.include "../../devel/hs-data-default/buildlink3.mk"
 .include "../../wip/hs-failure/buildlink3.mk"
 .include "../../wip/hs-monad-control/buildlink3.mk"
 .include "../../wip/hs-pointed/buildlink3.mk"

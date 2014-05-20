@@ -11,7 +11,7 @@ LICENSE=	modified-bsd
 .include "../../wip/mk/haskell.mk"
 .include "../../wip/hs-comonad/buildlink3.mk"
 .include "../../wip/hs-comonad-transformers/buildlink3.mk"
-.include "../../wip/hs-data-default/buildlink3.mk"
+.include "../../devel/hs-data-default/buildlink3.mk"
 .include "../../wip/hs-semigroupoids/buildlink3.mk"
 .include "../../wip/hs-stm/buildlink3.mk"
 .include "../../devel/hs-transformers/buildlink3.mk"

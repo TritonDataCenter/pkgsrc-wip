@@ -13,7 +13,7 @@ LICENSE=	modified-bsd
 
 .include "../../x11/libXft/buildlink3.mk"
 .include "../../wip/mk/haskell.mk"
-.include "../../wip/hs-extensible-exceptions/buildlink3.mk"
+.include "../../devel/hs-extensible-exceptions/buildlink3.mk"
 .include "../../devel/hs-mtl/buildlink3.mk"
 .include "../../wip/hs-random/buildlink3.mk"
 .include "../../devel/hs-utf8-string/buildlink3.mk"
