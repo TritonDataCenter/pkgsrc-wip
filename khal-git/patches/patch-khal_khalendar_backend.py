@@ -1,5 +1,7 @@
 $NetBSD$
 
+Python-3.x compatibility.
+
 --- khal/khalendar/backend.py.orig	2014-05-11 08:49:28.000000000 +0000
 +++ khal/khalendar/backend.py
 @@ -126,7 +126,7 @@ class SQLiteDb(object):
