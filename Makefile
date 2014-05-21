@@ -3398,6 +3398,7 @@ SUBDIR+=	tmuni-ttf
 SUBDIR+=	tmva
 SUBDIR+=	tmw
 SUBDIR+=	tnt
+SUBDIR+=	todotxt
 SUBDIR+=	tome
 SUBDIR+=	tome2
 SUBDIR+=	tops-bin
