@@ -13,6 +13,6 @@ LICENSE=	mit
 .include "../../wip/hs-hxt-regex-xmlschema/buildlink3.mk"
 .include "../../wip/hs-hxt-unicode/buildlink3.mk"
 .include "../../devel/hs-mtl/buildlink3.mk"
-.include "../../wip/hs-network/buildlink3.mk"
+.include "../../net/hs-network/buildlink3.mk"
 .include "../../textproc/hs-parsec/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

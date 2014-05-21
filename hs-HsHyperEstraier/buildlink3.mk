@@ -10,7 +10,7 @@ BUILDLINK_PKGSRCDIR.hs-HsHyperEstraier?=	../../wip/hs-HsHyperEstraier
 
 .include "../../textproc/hyperestraier/buildlink3.mk"
 .include "../../wip/hs-base-unicode-symbols/buildlink3.mk"
-.include "../../wip/hs-network/buildlink3.mk"
+.include "../../net/hs-network/buildlink3.mk"
 .include "../../devel/hs-text/buildlink3.mk"
 .endif	# HS_HSHYPERESTRAIER_BUILDLINK3_MK
 

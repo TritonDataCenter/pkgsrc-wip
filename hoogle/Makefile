@@ -18,7 +18,7 @@ LICENSE=	modified-bsd
 .include "../../wip/hs-haskell-src-exts/buildlink3.mk"
 .include "../../wip/hs-http-types/buildlink3.mk"
 .include "../../textproc/hs-parsec/buildlink3.mk"
-.include "../../wip/hs-random/buildlink3.mk"
+.include "../../devel/hs-random/buildlink3.mk"
 .include "../../wip/hs-safe/buildlink3.mk"
 .include "../../wip/hs-shake/buildlink3.mk"
 .include "../../wip/hs-tagsoup/buildlink3.mk"

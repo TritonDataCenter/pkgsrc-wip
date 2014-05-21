@@ -15,7 +15,7 @@ BUILDLINK_PKGSRCDIR.darcs?=	../../wip/darcs
 .include "../../wip/hs-html/buildlink3.mk"
 .include "../../devel/hs-mtl/buildlink3.mk"
 .include "../../textproc/hs-parsec/buildlink3.mk"
-.include "../../wip/hs-random/buildlink3.mk"
+.include "../../devel/hs-random/buildlink3.mk"
 .include "../../wip/hs-regex-compat/buildlink3.mk"
 .include "../../wip/hs-tar/buildlink3.mk"
 .include "../../devel/hs-text/buildlink3.mk"

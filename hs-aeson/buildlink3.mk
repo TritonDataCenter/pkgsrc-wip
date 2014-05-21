@@ -14,7 +14,7 @@ BUILDLINK_PKGSRCDIR.hs-aeson?=	../../wip/hs-aeson
 .include "../../wip/hs-hashable/buildlink3.mk"
 .include "../../devel/hs-mtl/buildlink3.mk"
 .include "../../wip/hs-scientific/buildlink3.mk"
-.include "../../wip/hs-syb/buildlink3.mk"
+.include "../../devel/hs-syb/buildlink3.mk"
 .include "../../devel/hs-text/buildlink3.mk"
 .include "../../wip/hs-unordered-containers/buildlink3.mk"
 .include "../../wip/hs-vector/buildlink3.mk"

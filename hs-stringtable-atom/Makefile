@@ -9,5 +9,5 @@ COMMENT=	Memorize Strings as Atoms for fast comparison and sorting
 LICENSE=	modified-bsd
 
 .include "../../wip/mk/haskell.mk"
-.include "../../wip/hs-syb/buildlink3.mk"
+.include "../../devel/hs-syb/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
