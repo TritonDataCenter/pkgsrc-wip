@@ -1846,6 +1846,7 @@ SUBDIR+=	obmenu
 SUBDIR+=	ocaml-bin_prot
 SUBDIR+=	ocaml-camomile
 SUBDIR+=	ocaml-odn
+SUBDIR+=	ocaml-sexplib
 SUBDIR+=	ocaml-type_conv
 SUBDIR+=	ocaml-zed
 SUBDIR+=	ocamlgraph
