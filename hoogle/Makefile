@@ -13,7 +13,7 @@ LICENSE=	modified-bsd
 .include "../../wip/hs-aeson/buildlink3.mk"
 .include "../../wip/hs-blaze-builder/buildlink3.mk"
 .include "../../wip/hs-case-insensitive/buildlink3.mk"
-.include "../../wip/hs-cmdargs/buildlink3.mk"
+.include "../../devel/hs-cmdargs/buildlink3.mk"
 .include "../../wip/hs-conduit/buildlink3.mk"
 .include "../../wip/hs-haskell-src-exts/buildlink3.mk"
 .include "../../wip/hs-http-types/buildlink3.mk"

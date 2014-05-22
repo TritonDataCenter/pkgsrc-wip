@@ -10,7 +10,7 @@ LICENSE=	mit
 
 
 .include "../../wip/mk/haskell.mk"
-.include "../../wip/hs-cmdargs/buildlink3.mk"
+.include "../../devel/hs-cmdargs/buildlink3.mk"
 .include "../../wip/hs-ghc-paths/buildlink3.mk"
 .include "../../net/hs-network/buildlink3.mk"
 .include "../../devel/hs-syb/buildlink3.mk"

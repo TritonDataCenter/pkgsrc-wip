@@ -9,7 +9,7 @@ PKG_SUGGESTED_OPTIONS= xft2
 USE_TOOLS+=	patch
 
 .if !empty(PKG_OPTIONS:Mxft2)
-.include "../../wip/hs-x11-xft/buildlink3.mk"
+.include "../../x11/hs-X11-xft/buildlink3.mk"
 .else
 post-configure:
 	${RUN} cd ${WRKSRC} && \
