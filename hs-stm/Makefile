@@ -1,12 +1,11 @@
 # $NetBSD$
-#
 
-DISTNAME=	stm-2.4.2
+DISTNAME=	stm-2.4.3
 CATEGORIES=	devel
 
 MAINTAINER=	pho@cielonegro.org
 COMMENT=	Modular composable concurrency abstraction
 LICENSE=	modified-bsd
 
-.include "../../wip/mk/haskell.mk"
+.include "../../mk/haskell.mk"
 .include "../../mk/bsd.pkg.mk"
