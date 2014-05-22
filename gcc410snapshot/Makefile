@@ -69,6 +69,8 @@ BUILDLINK_TRANSFORM+=	rm:-stdlib=libc++
 
 ## For graphite support.
 .if !empty(PKG_OPTIONS:Mgcc-graphite)
+CONFIGURE_ARGS+=	--disable-bootstrap
+
 post-extract: 
 	${TAR} -jxf ${DISTDIR}/${ISL12}.tar.bz2 -C ${WRKSRC}
 	${MV} ${WRKSRC}/${ISL12} ${WRKSRC}/isl
@@ -87,7 +89,6 @@ CONFIGURE_ARGS+=	--enable-libssp
 CONFIGURE_ARGS+=	--enable-threads=posix
 CONFIGURE_ARGS+=	--with-boot-ldflags=${BOOT_LDFLAGS:Q}
 .if ${OPSYS} == "NetBSD"
-CONFIGURE_ARGS+=	--disable-bootstrap
 CONFIGURE_ARGS+=	--with-gnu-ld --with-ld=/usr/bin/ld
 CONFIGURE_ARGS+=	--with-gnu-as --with-as=/usr/bin/as
 MAKE_ENV+=		ac_cv_func_clock_gettime=yes
