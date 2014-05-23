@@ -19,6 +19,9 @@ ${PYSITELIB}/khal/calendar_display.pyo
 ${PYSITELIB}/khal/cli.py
 ${PYSITELIB}/khal/cli.pyc
 ${PYSITELIB}/khal/cli.pyo
+${PYSITELIB}/khal/compat.py
+${PYSITELIB}/khal/compat.pyc
+${PYSITELIB}/khal/compat.pyo
 ${PYSITELIB}/khal/controllers.py
 ${PYSITELIB}/khal/controllers.pyc
 ${PYSITELIB}/khal/controllers.pyo
