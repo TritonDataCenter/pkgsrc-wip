@@ -69,7 +69,6 @@ BUILDLINK_TRANSFORM+=	rm:-stdlib=libc++
 
 ## For graphite support.
 .if !empty(PKG_OPTIONS:Mgcc-graphite)
-CONFIGURE_ARGS+=	--disable-bootstrap
 
 post-extract: 
 	${TAR} -jxf ${DISTDIR}/${ISL12}.tar.bz2 -C ${WRKSRC}
