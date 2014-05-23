@@ -1022,7 +1022,6 @@ SUBDIR+=	hs-filemanip
 SUBDIR+=	hs-fingertree
 SUBDIR+=	hs-generic-deriving
 SUBDIR+=	hs-ghc-mtl
-SUBDIR+=	hs-ghc-paths
 SUBDIR+=	hs-ghc-syb-utils
 SUBDIR+=	hs-gio
 SUBDIR+=	hs-glib
