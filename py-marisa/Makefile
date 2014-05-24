@@ -1,4 +1,4 @@
-# $NetBSD: Makefile,v 1.3 2012/10/25 06:56:52 asau Exp $
+# $NetBSD$
 #
 
 .include "../../wip/marisa/Makefile.common"
