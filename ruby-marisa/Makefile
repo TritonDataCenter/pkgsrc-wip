@@ -3,7 +3,7 @@
 
 .include "../../wip/marisa/Makefile.common"
 
-#CATEGORIES+=	ruby
+CATEGORIES+=	ruby
 
 COMMENT=	MARISA ruby module
 

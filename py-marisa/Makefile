@@ -4,7 +4,7 @@
 .include "../../wip/marisa/Makefile.common"
 
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
-#CATEGORIES+=	python
+CATEGORIES+=	python
 
 COMMENT=	MARISA python module
 

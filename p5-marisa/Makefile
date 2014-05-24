@@ -4,6 +4,7 @@
 .include "../../wip/marisa/Makefile.common"
 
 PKGNAME=	p5-${DISTNAME}
+CATEGORIES+=	perl
 
 COMMENT=	MARISA perl module
 
