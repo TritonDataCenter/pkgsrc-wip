@@ -12,8 +12,6 @@ USE_LANGUAGES=	c c++
 
 PYSETUPSUBDIR=	bindings/python
 
-#EGG_NAME=	${DISTNAME:S/-/_python-/}
-
 SUBST_CLASSES+=		version
 SUBST_STAGE.version=	pre-configure
 SUBST_FILES.version=	bindings/python/setup.py
