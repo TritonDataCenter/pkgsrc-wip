@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	transformers-compat-0.3
+DISTNAME=	transformers-compat-0.3.3
 CATEGORIES=	devel
 
 MAINTAINER=	szptvlfn@NetBSD.org
