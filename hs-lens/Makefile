@@ -13,7 +13,7 @@ LICENSE=	modified-bsd
 .include "../../wip/hs-comonad/buildlink3.mk"
 .include "../../wip/hs-contravariant/buildlink3.mk"
 .include "../../wip/hs-distributive/buildlink3.mk"
-.include "../../wip/hs-exceptions/buildlink3.mk"
+.include "../../devel/hs-exceptions/buildlink3.mk"
 .include "../../wip/hs-hashable/buildlink3.mk"
 .include "../../devel/hs-mtl/buildlink3.mk"
 .include "../../wip/hs-parallel/buildlink3.mk"

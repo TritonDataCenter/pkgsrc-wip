@@ -9,7 +9,7 @@ COMMENT=	Runtime Haskell interpreter (GHC API wrapper)
 LICENSE=	modified-bsd
 
 .include "../../wip/mk/haskell.mk"
-.include "../../wip/hs-exceptions/buildlink3.mk"
+.include "../../devel/hs-exceptions/buildlink3.mk"
 .include "../../devel/hs-extensible-exceptions/buildlink3.mk"
 .include "../../wip/hs-ghc-mtl/buildlink3.mk"
 .include "../../devel/hs-ghc-paths/buildlink3.mk"
