@@ -54,6 +54,18 @@ BOOT_LDFLAGS=		-static-libstdc++ -static-libgcc ${LDFLAGS_FOR_TARGET}
 # Needed on Darwin when LDFLAGS point to a SDK
 BOOT_LDFLAGS+=		${LDFLAGS:M-Wl,-syslibroot*}
 
+.include "options.mk"
+
+## For graphite support.
+.if !empty(PKG_OPTIONS:Mgcc-graphite)
+
+post-extract:
+	${TAR} -jxf ${DISTDIR}/${ISL12}.tar.bz2 -C ${WRKSRC}
+	${MV} ${WRKSRC}/${ISL12} ${WRKSRC}/isl
+	${TAR} -zxf ${DISTDIR}/${CLOOG18}.tar.gz -C ${WRKSRC}
+	${MV} ${WRKSRC}/${CLOOG18} ${WRKSRC}/cloog
+.endif
+
 ## For target librarys and libjava programs.
 CONFIGURE_ENV+=		LDFLAGS_FOR_TARGET=${LDFLAGS_FOR_TARGET:Q}
 
@@ -78,7 +90,6 @@ CONFIGURE_ARGS+=	--disable-bootstrap
 CONFIGURE_ARGS+=	--with-arch=i486 --with-tune=i486
 .endif
 
-.include "options.mk"
 
 # ${WRKSRC}/fixincludes/ looks for sed and compiles the path to sed into
 # a binary so we need to make sure we give it the installed sed and not
