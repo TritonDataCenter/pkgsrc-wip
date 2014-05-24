@@ -8,6 +8,6 @@ add version for egg file's file name.
                            libraries=["marisa"])
  
  setup(name = "marisa",
-+      version = "0.2.4",
++      version = "@VERSION@",
        ext_modules = [marisa_module],
        py_modules = ["marisa"])

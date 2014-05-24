@@ -14,6 +14,11 @@ PYSETUPSUBDIR=	bindings/python
 
 #EGG_NAME=	${DISTNAME:S/-/_python-/}
 
+SUBST_CLASSES+=		version
+SUBST_STAGE.version=	pre-configure
+SUBST_FILES.version=	bindings/python/setup.py
+SUBST_SED.version=	-e s,@VERSION@,${PKGVERSION_NOREV},
+
 BUILDLINK_API_DEPENDS.marisa+=	marisa>=${PKGVERSION_NOREV}
 .include "../../wip/marisa/buildlink3.mk"
 .include "../../lang/python/distutils.mk"
