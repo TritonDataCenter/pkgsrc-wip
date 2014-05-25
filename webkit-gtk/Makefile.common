@@ -25,7 +25,8 @@ GNU_CONFIGURE=	yes
 
 CONFIGURE_ARGS+=	--with-target=x11 \
 			--with-font-backend=freetype
-CONFIGURE_ARGS+=	--disable-geolocation
+CONFIGURE_ARGS+=	--disable-geolocation \
+			--disable-optimizations
 
 .include "options.mk"
 
