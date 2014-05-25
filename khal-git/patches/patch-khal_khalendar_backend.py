@@ -2,14 +2,14 @@ $NetBSD$
 
 Python-3.x compatibility.
 
---- khal/khalendar/backend.py.orig	2014-05-11 08:49:28.000000000 +0000
+--- khal/khalendar/backend.py.orig	2014-05-25 12:16:08.000000000 +0000
 +++ khal/khalendar/backend.py
-@@ -126,7 +126,7 @@ class SQLiteDb(object):
+@@ -128,7 +128,7 @@ class SQLiteDb(object):
          if not path.isdir(dbdir):
              try:
-                 logging.debug('trying to create the directory for the db')
+                 logger.debug('trying to create the directory for the db')
 -                makedirs(dbdir, mode=0770)
 +                makedirs(dbdir, mode=0o770)
-                 logging.debug('success')
+                 logger.debug('success')
              except OSError as error:
-                 logging.fatal('failed to create {0}: {1}'.format(dbdir, error))
+                 logger.fatal('failed to create {0}: {1}'.format(dbdir, error))

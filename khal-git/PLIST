@@ -40,6 +40,9 @@ ${PYSITELIB}/khal/khalendar/event.pyo
 ${PYSITELIB}/khal/khalendar/khalendar.py
 ${PYSITELIB}/khal/khalendar/khalendar.pyc
 ${PYSITELIB}/khal/khalendar/khalendar.pyo
+${PYSITELIB}/khal/log.py
+${PYSITELIB}/khal/log.pyc
+${PYSITELIB}/khal/log.pyo
 ${PYSITELIB}/khal/terminal.py
 ${PYSITELIB}/khal/terminal.pyc
 ${PYSITELIB}/khal/terminal.pyo
