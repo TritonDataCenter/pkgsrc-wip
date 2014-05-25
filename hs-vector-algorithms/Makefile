@@ -10,6 +10,6 @@ LICENSE=	modified-bsd
 .include "../../wip/mk/haskell.mk"
 .include "../../devel/hs-mtl/buildlink3.mk"
 .include "../../wip/hs-mwc-random/buildlink3.mk"
-.include "../../wip/hs-primitive/buildlink3.mk"
+.include "../../devel/hs-primitive/buildlink3.mk"
 .include "../../wip/hs-vector/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

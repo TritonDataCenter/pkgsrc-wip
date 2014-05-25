@@ -8,5 +8,5 @@ COMMENT=	Efficient Arrays for Haskell
 LICENSE=	modified-bsd
 
 .include "../../mk/haskell.mk"
-.include "../../wip/hs-primitive/buildlink3.mk"
+.include "../../devel/hs-primitive/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

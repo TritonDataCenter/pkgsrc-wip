@@ -13,6 +13,6 @@ CONFIGURE_ARGS+= \
 
 .include "../../wip/mk/haskell.mk"
 .include "../../devel/hs-mtl/buildlink3.mk"
-.include "../../wip/hs-stm/buildlink3.mk"
+.include "../../devel/hs-stm/buildlink3.mk"
 .include "../../devel/subversion-base/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

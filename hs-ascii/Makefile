@@ -11,6 +11,6 @@ LICENSE=	modified-bsd
 .include "../../wip/mk/haskell.mk"
 .include "../../wip/hs-blaze-builder/buildlink3.mk"
 .include "../../wip/hs-case-insensitive/buildlink3.mk"
-.include "../../wip/hs-hashable/buildlink3.mk"
+.include "../../devel/hs-hashable/buildlink3.mk"
 .include "../../devel/hs-text/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

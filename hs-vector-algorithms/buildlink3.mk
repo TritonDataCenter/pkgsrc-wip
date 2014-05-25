@@ -10,7 +10,7 @@ BUILDLINK_PKGSRCDIR.hs-vector-algorithms?=	../../wip/hs-vector-algorithms
 
 .include "../../devel/hs-mtl/buildlink3.mk"
 .include "../../wip/hs-mwc-random/buildlink3.mk"
-.include "../../wip/hs-primitive/buildlink3.mk"
+.include "../../devel/hs-primitive/buildlink3.mk"
 .include "../../wip/hs-vector/buildlink3.mk"
 .endif	# HS_VECTOR_ALGORITHMS_BUILDLINK3_MK
 

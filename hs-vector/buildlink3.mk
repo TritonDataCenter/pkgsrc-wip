@@ -8,7 +8,7 @@ HS_VECTOR_BUILDLINK3_MK:=
 BUILDLINK_API_DEPENDS.hs-vector+=	hs-vector>=0.10.9
 BUILDLINK_PKGSRCDIR.hs-vector?=	../../wip/hs-vector
 
-.include "../../wip/hs-primitive/buildlink3.mk"
+.include "../../devel/hs-primitive/buildlink3.mk"
 .endif	# HS_VECTOR_BUILDLINK3_MK
 
 BUILDLINK_TREE+=	-hs-vector

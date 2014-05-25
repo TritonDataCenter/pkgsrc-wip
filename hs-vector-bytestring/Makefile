@@ -10,6 +10,6 @@ COMMENT=	ByteStrings as type synonyms of Storable Vectors of Word8s
 LICENSE=	modified-bsd
 
 .include "../../wip/mk/haskell.mk"
-.include "../../wip/hs-primitive/buildlink3.mk"
+.include "../../devel/hs-primitive/buildlink3.mk"
 .include "../../wip/hs-vector/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

@@ -17,7 +17,7 @@ LICENSE=	public-domain
 .include "../../wip/hs-hxt/buildlink3.mk"
 .include "../../devel/hs-mtl/buildlink3.mk"
 .include "../../net/hs-network/buildlink3.mk"
-.include "../../wip/hs-stm/buildlink3.mk"
+.include "../../devel/hs-stm/buildlink3.mk"
 .include "../../wip/hs-time-http/buildlink3.mk"
 .include "../../wip/hs-zlib/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
