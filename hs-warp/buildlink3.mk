@@ -8,7 +8,7 @@ HS_WARP_BUILDLINK3_MK:=
 BUILDLINK_API_DEPENDS.hs-warp+=	hs-warp>=1.3.10
 BUILDLINK_PKGSRCDIR.hs-warp?=	../../wip/hs-warp
 
-.include "../../wip/hs-blaze-builder/buildlink3.mk"
+.include "../../devel/hs-blaze-builder/buildlink3.mk"
 .include "../../wip/hs-blaze-builder-conduit/buildlink3.mk"
 .include "../../wip/hs-case-insensitive/buildlink3.mk"
 .include "../../wip/hs-conduit/buildlink3.mk"

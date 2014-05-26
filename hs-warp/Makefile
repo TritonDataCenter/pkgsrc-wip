@@ -8,7 +8,7 @@ COMMENT=	Fast, light-weight web server for WAI applications
 LICENSE=	mit
 
 .include "../../wip/mk/haskell.mk"
-.include "../../wip/hs-blaze-builder/buildlink3.mk"
+.include "../../devel/hs-blaze-builder/buildlink3.mk"
 .include "../../wip/hs-blaze-builder-conduit/buildlink3.mk"
 .include "../../wip/hs-case-insensitive/buildlink3.mk"
 .include "../../wip/hs-conduit/buildlink3.mk"

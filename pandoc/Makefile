@@ -40,7 +40,7 @@ BUILD_DEPENDS+=	happy:../../wip/happy
 .include "../../wip/hs-texmath/buildlink3.mk"
 .include "../../devel/hs-text/buildlink3.mk"
 .include "../../wip/hs-unordered-containers/buildlink3.mk"
-.include "../../wip/hs-vector/buildlink3.mk"
+.include "../../devel/hs-vector/buildlink3.mk"
 .include "../../wip/hs-xml/buildlink3.mk"
 .include "../../wip/hs-yaml/buildlink3.mk"
 .include "../../wip/hs-zip-archive/buildlink3.mk"

@@ -30,7 +30,7 @@ LICENSE=	modified-bsd
 .include "../../devel/hs-transformers-compat/buildlink3.mk"
 .include "../../wip/hs-unordered-containers/buildlink3.mk"
 .include "../../devel/hs-utf8-string/buildlink3.mk"
-.include "../../wip/hs-vector/buildlink3.mk"
+.include "../../devel/hs-vector/buildlink3.mk"
 .include "../../wip/hs-void/buildlink3.mk"
 .include "../../wip/hs-zlib/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
