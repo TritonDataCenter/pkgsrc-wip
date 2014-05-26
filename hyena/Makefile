@@ -1,5 +1,4 @@
 # $NetBSD$
-#
 
 DISTNAME=	hyena-0.5
 PKGREVISION=	1
