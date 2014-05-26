@@ -23,8 +23,7 @@ INSTALLATION_DIRS+=	lib/pdfmod
 .include "../../lang/mono2/buildlink3.mk"
 .include "../../sysutils/desktop-file-utils/desktopdb.mk"
 .include "../../textproc/gnome-doc-utils/buildlink3.mk"
-BUILDLINK_API_DEPENDS.hyena+=	hyena>=0.5
-.include "../../wip/hyena/buildlink3.mk"
+.include "../../x11/hyena/buildlink3.mk"
 # gnome-sharp not needed, but gconf-sharp
 .include "../../x11/gnome-sharp/buildlink3.mk"
 .include "../../x11/gtk-sharp/buildlink3.mk"

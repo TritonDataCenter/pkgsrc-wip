@@ -1181,7 +1181,6 @@ SUBDIR+=	hu-go
 SUBDIR+=	hunspell-dictionaries
 SUBDIR+=	hunspell-uk_UA
 SUBDIR+=	hydrogen-current
-SUBDIR+=	hyena
 SUBDIR+=	hyperrogue
 SUBDIR+=	hztool
 SUBDIR+=	i3lock
