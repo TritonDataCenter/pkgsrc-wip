@@ -16,6 +16,6 @@ LICENSE=	modified-bsd
 .include "../../wip/hs-scientific/buildlink3.mk"
 .include "../../devel/hs-syb/buildlink3.mk"
 .include "../../devel/hs-text/buildlink3.mk"
-.include "../../wip/hs-unordered-containers/buildlink3.mk"
+.include "../../devel/hs-unordered-containers/buildlink3.mk"
 .include "../../devel/hs-vector/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

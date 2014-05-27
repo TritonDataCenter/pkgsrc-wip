@@ -10,7 +10,7 @@ BUILDLINK_PKGSRCDIR.hs-uniplate?=	../../wip/hs-uniplate
 
 .include "../../devel/hs-hashable/buildlink3.mk"
 .include "../../devel/hs-syb/buildlink3.mk"
-.include "../../wip/hs-unordered-containers/buildlink3.mk"
+.include "../../devel/hs-unordered-containers/buildlink3.mk"
 .endif	# HS_UNIPLATE_BUILDLINK3_MK
 
 BUILDLINK_TREE+=	-hs-uniplate

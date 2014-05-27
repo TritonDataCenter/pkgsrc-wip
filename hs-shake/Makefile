@@ -36,6 +36,6 @@ post-install:
 .include "../../devel/hs-hashable/buildlink3.mk"
 .include "../../devel/hs-random/buildlink3.mk"
 .include "../../devel/hs-transformers/buildlink3.mk"
-.include "../../wip/hs-unordered-containers/buildlink3.mk"
+.include "../../devel/hs-unordered-containers/buildlink3.mk"
 .include "../../devel/hs-utf8-string/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
