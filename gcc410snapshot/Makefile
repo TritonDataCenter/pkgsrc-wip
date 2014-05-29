@@ -48,7 +48,7 @@ SUBST_VARS.vars=	GCC_TARGET_MACHINE
 
 .include "../../mk/bsd.prefs.mk"
 
-LANGS=			c 
+LANGS=			c
 
 # In some cases LINKER_RPATH_FLAG needs a trailing space.
 LINKER_RPATH_FLAG:=	${LINKER_RPATH_FLAG:S/-rpath/& /}
@@ -70,7 +70,7 @@ BUILDLINK_TRANSFORM+=	rm:-stdlib=libc++
 ## For graphite support.
 .if !empty(PKG_OPTIONS:Mgcc-graphite)
 
-post-extract: 
+post-extract:
 	${TAR} -jxf ${DISTDIR}/${ISL12}.tar.bz2 -C ${WRKSRC}
 	${MV} ${WRKSRC}/${ISL12} ${WRKSRC}/isl
 	${TAR} -zxf ${DISTDIR}/${CLOOG18}.tar.gz -C ${WRKSRC}
