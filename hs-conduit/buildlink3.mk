@@ -9,7 +9,7 @@ BUILDLINK_API_DEPENDS.hs-conduit+=	hs-conduit>=1.0.9
 BUILDLINK_PKGSRCDIR.hs-conduit?=	../../wip/hs-conduit
 
 .include "../../wip/hs-lifted-base/buildlink3.mk"
-.include "../../wip/hs-mmorph/buildlink3.mk"
+.include "../../devel/hs-mmorph/buildlink3.mk"
 .include "../../wip/hs-monad-control/buildlink3.mk"
 .include "../../devel/hs-mtl/buildlink3.mk"
 .include "../../wip/hs-resourcet/buildlink3.mk"
