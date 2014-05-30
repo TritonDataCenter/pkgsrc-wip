@@ -1830,6 +1830,7 @@ SUBDIR+=	ocamlgraph
 SUBDIR+=	ocamlify
 SUBDIR+=	ocamlmod
 SUBDIR+=	ocamlweb
+SUBDIR+=	oce
 SUBDIR+=	ode
 SUBDIR+=	ogmrip
 SUBDIR+=	ogre
