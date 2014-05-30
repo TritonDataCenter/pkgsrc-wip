@@ -13,5 +13,5 @@ LICENSE=	modified-bsd
 .include "../../wip/mk/haskell.mk"
 .include "../../graphics/cairo/buildlink3.mk"
 .include "../../wip/gtk2hs-buildtools/buildlink3.mk"
-.include "../../wip/hs-mtl/buildlink3.mk"
+.include "../../devel/hs-mtl/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

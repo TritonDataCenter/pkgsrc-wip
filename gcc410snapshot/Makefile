@@ -48,7 +48,7 @@ SUBST_VARS.vars=	GCC_TARGET_MACHINE
 
 .include "../../mk/bsd.prefs.mk"
 
-LANGS=			c 
+LANGS=			c
 
 # In some cases LINKER_RPATH_FLAG needs a trailing space.
 LINKER_RPATH_FLAG:=	${LINKER_RPATH_FLAG:S/-rpath/& /}
@@ -64,6 +64,18 @@ BOOT_LDFLAGS=		-static-libstdc++ -static-libgcc ${LDFLAGS_FOR_TARGET}
 BOOT_LDFLAGS+=		${LDFLAGS:M-Wl,-syslibroot*}
 # GCC does not understand this option; remove it, or stage build will fail
 BUILDLINK_TRANSFORM+=	rm:-stdlib=libc++
+
+.include "options.mk"
+
+## For graphite support.
+.if !empty(PKG_OPTIONS:Mgcc-graphite)
+
+post-extract:
+	${TAR} -jxf ${DISTDIR}/${ISL12}.tar.bz2 -C ${WRKSRC}
+	${MV} ${WRKSRC}/${ISL12} ${WRKSRC}/isl
+	${TAR} -zxf ${DISTDIR}/${CLOOG18}.tar.gz -C ${WRKSRC}
+	${MV} ${WRKSRC}/${CLOOG18} ${WRKSRC}/cloog
+.endif
 
 ## For target librarys and libjava programs.
 CONFIGURE_ENV+=		LDFLAGS_FOR_TARGET=${LDFLAGS_FOR_TARGET:Q}
@@ -95,7 +107,6 @@ CONFIGURE_ARGS+=	--with-arch=i486 --with-tune=i486
 CONFIGURE_ARGS+=	--with-arch=nocona --with-tune=nocona --with-fpmath=sse
 .endif
 
-.include "options.mk"
 
 # ${WRKSRC}/fixincludes/ looks for sed and compiles the path to sed into
 # a binary so we need to make sure we give it the installed sed and not

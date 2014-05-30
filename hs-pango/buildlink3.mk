@@ -11,7 +11,7 @@ BUILDLINK_PKGSRCDIR.hs-pango?=	../../wip/hs-pango
 .include "../../devel/pango/buildlink3.mk"
 .include "../../wip/hs-cairo/buildlink3.mk"
 .include "../../wip/hs-glib/buildlink3.mk"
-.include "../../wip/hs-mtl/buildlink3.mk"
+.include "../../devel/hs-mtl/buildlink3.mk"
 .endif	# HS_PANGO_BUILDLINK3_MK
 
 BUILDLINK_TREE+=	-hs-pango

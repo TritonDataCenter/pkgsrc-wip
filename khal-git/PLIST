@@ -19,6 +19,9 @@ ${PYSITELIB}/khal/calendar_display.pyo
 ${PYSITELIB}/khal/cli.py
 ${PYSITELIB}/khal/cli.pyc
 ${PYSITELIB}/khal/cli.pyo
+${PYSITELIB}/khal/compat.py
+${PYSITELIB}/khal/compat.pyc
+${PYSITELIB}/khal/compat.pyo
 ${PYSITELIB}/khal/controllers.py
 ${PYSITELIB}/khal/controllers.pyc
 ${PYSITELIB}/khal/controllers.pyo
@@ -37,6 +40,9 @@ ${PYSITELIB}/khal/khalendar/event.pyo
 ${PYSITELIB}/khal/khalendar/khalendar.py
 ${PYSITELIB}/khal/khalendar/khalendar.pyc
 ${PYSITELIB}/khal/khalendar/khalendar.pyo
+${PYSITELIB}/khal/log.py
+${PYSITELIB}/khal/log.pyc
+${PYSITELIB}/khal/log.pyo
 ${PYSITELIB}/khal/terminal.py
 ${PYSITELIB}/khal/terminal.pyc
 ${PYSITELIB}/khal/terminal.pyo
@@ -46,6 +52,12 @@ ${PYSITELIB}/khal/ui/__init__.pyo
 ${PYSITELIB}/khal/ui/base.py
 ${PYSITELIB}/khal/ui/base.pyc
 ${PYSITELIB}/khal/ui/base.pyo
+${PYSITELIB}/khal/ui/startendeditor.py
+${PYSITELIB}/khal/ui/startendeditor.pyc
+${PYSITELIB}/khal/ui/startendeditor.pyo
+${PYSITELIB}/khal/ui/widgets.py
+${PYSITELIB}/khal/ui/widgets.pyc
+${PYSITELIB}/khal/ui/widgets.pyo
 ${PYSITELIB}/khal/version.py
 ${PYSITELIB}/khal/version.pyc
 ${PYSITELIB}/khal/version.pyo

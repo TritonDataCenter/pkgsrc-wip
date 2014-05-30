@@ -1,9 +1,8 @@
 # $NetBSD$
 
-DISTNAME=	2.3
-PKGNAME=	vimb-${DISTNAME}
+DISTNAME=	vimb-2.4
 CATEGORIES=	www
-MASTER_SITES=	https://github.com/fanglingsu/vimb/archive/
+MASTER_SITES=	-https://github.com/fanglingsu/vimb/archive/${PKGVERSION_NOREV}${EXTRACT_SUFX}
 
 MAINTAINER=	leot1990@users.sourceforge.net
 HOMEPAGE=	http://fanglingsu.github.io/vimb/
@@ -12,7 +11,6 @@ LICENSE=	gnu-gpl-v3
 
 NO_CONFIGURE=	yes
 USE_TOOLS+=	gmake pkg-config
-WRKSRC=		${WRKDIR}/${PKGNAME_NOREV}
 
 MAKE_ENV+=	MANDIR="${PREFIX}/${PKGMANDIR}"
 

@@ -10,5 +10,5 @@ LICENSE=	public-domain
 
 .include "../../wip/mk/haskell.mk"
 .include "../../wip/hs-convertible/buildlink3.mk"
-.include "../../wip/hs-parsec/buildlink3.mk"
+.include "../../textproc/hs-parsec/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

@@ -11,5 +11,5 @@ LICENSE=	gnu-lgpl-v2.1
 .include "../../wip/mk/haskell.mk"
 .include "../../wip/gtk2hs-buildtools/buildlink3.mk"
 .include "../../wip/hs-glib/buildlink3.mk"
-.include "../../wip/hs-mtl/buildlink3.mk"
+.include "../../devel/hs-mtl/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

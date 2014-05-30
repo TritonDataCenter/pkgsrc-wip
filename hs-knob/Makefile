@@ -8,5 +8,5 @@ COMMENT=	Memory-backed handles
 LICENSE=	mit
 
 .include "../../wip/mk/haskell.mk"
-.include "../../wip/hs-transformers/buildlink3.mk"
+.include "../../devel/hs-transformers/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

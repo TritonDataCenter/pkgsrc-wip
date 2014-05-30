@@ -1,4 +1,6 @@
 @comment $NetBSD$
+bin/evas_cserve
+bin/evas_cserve_tool
 include/evas-1/Evas.h
 include/evas-1/Evas_Engine_Buffer.h
 include/evas-1/Evas_GL.h

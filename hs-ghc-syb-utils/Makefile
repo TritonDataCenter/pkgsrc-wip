@@ -9,5 +9,5 @@ COMMENT=	Scrap Your Boilerplate utilities for the GHC API
 LICENSE=	modified-bsd
 
 .include "../../wip/mk/haskell.mk"
-.include "../../wip/hs-syb/buildlink3.mk"
+.include "../../devel/hs-syb/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

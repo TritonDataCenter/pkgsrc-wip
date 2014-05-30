@@ -13,5 +13,5 @@ CONFIGURE_ARGS+= -fterminfo
 
 .include "../../wip/mk/haskell.mk"
 .include "../../wip/hs-terminfo/buildlink3.mk"
-.include "../../wip/hs-transformers/buildlink3.mk"
+.include "../../devel/hs-transformers/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

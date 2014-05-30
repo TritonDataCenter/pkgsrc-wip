@@ -10,5 +10,5 @@ LICENSE=	mit
 
 .include "../../wip/mk/haskell.mk"
 .include "../../wip/hs-system-filepath/buildlink3.mk"
-.include "../../wip/hs-text/buildlink3.mk"
+.include "../../devel/hs-text/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

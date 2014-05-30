@@ -9,7 +9,7 @@ BUILDLINK_API_DEPENDS.hs-HsOpenSSL+=	hs-HsOpenSSL>=0.10.1
 BUILDLINK_PKGSRCDIR.hs-HsOpenSSL?=	../../wip/hs-HsOpenSSL
 
 .include "../../security/openssl/buildlink3.mk"
-.include "../../wip/hs-network/buildlink3.mk"
+.include "../../net/hs-network/buildlink3.mk"
 .endif	# HS_HSOPENSSL_BUILDLINK3_MK
 
 BUILDLINK_TREE+=	-hs-HsOpenSSL

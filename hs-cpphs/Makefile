@@ -9,5 +9,5 @@ COMMENT=		Re-implementation of cpp in Haskell
 LICENSE=		gnu-lgpl-v2.1
 
 .include "../../wip/mk/haskell.mk"
-.include "../../wip/hs-polyparse/buildlink3.mk"
+.include "../../textproc/hs-polyparse/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

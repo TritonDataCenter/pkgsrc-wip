@@ -1,5 +1,0 @@
-@comment $NetBSD$
-${PERL5_SUB_INSTALLVENDORARCH}/auto/marisa/.packlist
-${PERL5_SUB_INSTALLVENDORARCH}/auto/marisa/marisa.bs
-${PERL5_SUB_INSTALLVENDORARCH}/auto/marisa/marisa.so
-${PERL5_SUB_INSTALLVENDORARCH}/marisa.pm

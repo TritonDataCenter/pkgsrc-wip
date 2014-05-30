@@ -8,7 +8,7 @@ HAPPY_BUILDLINK3_MK:=
 BUILDLINK_API_DEPENDS.happy+=	happy>=1.19.2
 BUILDLINK_PKGSRCDIR.happy?=	../../wip/happy
 
-.include "../../wip/hs-mtl/buildlink3.mk"
+.include "../../devel/hs-mtl/buildlink3.mk"
 .endif	# HAPPY_BUILDLINK3_MK
 
 BUILDLINK_TREE+=	-happy

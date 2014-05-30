@@ -8,7 +8,7 @@ PKG_SUGGESTED_OPTIONS=
 
 .if !empty(PKG_OPTIONS:Mxft2)
 CONFIGURE_ARGS+=    --flags="with_xft"
-.include "../../wip/hs-x11-xft/buildlink3.mk"
+.include "../../x11/hs-X11-xft/buildlink3.mk"
 .else
 .endif
 

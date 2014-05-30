@@ -16,7 +16,7 @@ PRINT_PLIST_AWK+= \
 	{ gsub(/${PKGVERSION:S/./\./g:C/nb[0-9]*$$//}/, "$${PKGVERSION}"); } \
 	/Blaze\/Text\/Double\/Native\./ { print "$${PLIST.native}" $$0; next; }
 
-.include "../../wip/hs-blaze-builder/buildlink3.mk"
-.include "../../wip/hs-text/buildlink3.mk"
-.include "../../wip/hs-vector/buildlink3.mk"
+.include "../../devel/hs-blaze-builder/buildlink3.mk"
+.include "../../devel/hs-text/buildlink3.mk"
+.include "../../devel/hs-vector/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

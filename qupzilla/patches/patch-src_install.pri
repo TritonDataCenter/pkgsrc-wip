@@ -3,7 +3,7 @@ $NetBSD$
  Don't install bash completion files since they install outside 
  localbase. 
 
---- src/install.pri.orig	2014-01-01 19:55:33.000000000 +0000
+--- src/install.pri.orig	2014-04-18 14:12:04.000000000 +0000
 +++ src/install.pri
 @@ -41,11 +41,11 @@ mac {
      ico256.files = $$PWD/../linux/hicolor/256x256/apps/qupzilla.png

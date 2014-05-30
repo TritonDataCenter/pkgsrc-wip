@@ -1,3 +1,7 @@
-1) Help adding missing long double and complex support in NetBSD.
-2) lang/gcc48 has been changed to a meta package. Mabey this should be used
-for lang/gcc410snapshot as well.
+1) Send patches upstream.
+ 
+2) Help adding missing long double and complex support in NetBSD.
+
+3) lang/gcc48 has been split into several packages and is currently
+broken. If it reaches a usable state mabey gcc410snapshot should be
+split as well to keep it in sync. 

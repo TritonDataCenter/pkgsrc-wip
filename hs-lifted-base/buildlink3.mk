@@ -10,7 +10,7 @@ BUILDLINK_PKGSRCDIR.hs-lifted-base?=	../../wip/hs-lifted-base
 
 .include "../../wip/hs-base-unicode-symbols/buildlink3.mk"
 .include "../../wip/hs-monad-control/buildlink3.mk"
-.include "../../wip/hs-transformers-base/buildlink3.mk"
+.include "../../devel/hs-transformers-base/buildlink3.mk"
 .endif	# HS_LIFTED_BASE_BUILDLINK3_MK
 
 BUILDLINK_TREE+=	-hs-lifted-base

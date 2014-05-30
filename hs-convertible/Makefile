@@ -11,6 +11,6 @@ LICENSE=	modified-bsd
 CONFIGURE_ARGS+=	-fsplitBase -ftime_gte_113
 
 .include "../../wip/mk/haskell.mk"
-.include "../../wip/hs-mtl/buildlink3.mk"
-.include "../../wip/hs-text/buildlink3.mk"
+.include "../../devel/hs-mtl/buildlink3.mk"
+.include "../../devel/hs-text/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

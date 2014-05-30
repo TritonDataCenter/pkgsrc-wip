@@ -1,8 +1,8 @@
 # $NetBSD$
 #
 
-DISTNAME=		php-weathermap-0.97a
-PKGNAME=		cacti-plugin-weathermap-0.97a
+DISTNAME=		php-weathermap-0.97c
+PKGNAME=		cacti-plugin-weathermap-0.97c
 CATEGORIES=		net
 MASTER_SITES=		http://www.network-weathermap.com/files/
 EXTRACT_SUFX=		.zip

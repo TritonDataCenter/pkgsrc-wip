@@ -11,12 +11,12 @@ BUILDLINK_PKGSRCDIR.hs-yaml?=	../../wip/hs-yaml
 .include "../../wip/hs-aeson/buildlink3.mk"
 .include "../../wip/hs-attoparsec/buildlink3.mk"
 .include "../../wip/hs-conduit/buildlink3.mk"
-.include "../../wip/hs-data-default/buildlink3.mk"
+.include "../../devel/hs-data-default/buildlink3.mk"
 .include "../../wip/hs-resourcet/buildlink3.mk"
-.include "../../wip/hs-text/buildlink3.mk"
-.include "../../wip/hs-transformers/buildlink3.mk"
-.include "../../wip/hs-unordered-containers/buildlink3.mk"
-.include "../../wip/hs-vector/buildlink3.mk"
+.include "../../devel/hs-text/buildlink3.mk"
+.include "../../devel/hs-transformers/buildlink3.mk"
+.include "../../devel/hs-unordered-containers/buildlink3.mk"
+.include "../../devel/hs-vector/buildlink3.mk"
 .endif	# HS_YAML_BUILDLINK3_MK
 
 BUILDLINK_TREE+=	-hs-yaml
