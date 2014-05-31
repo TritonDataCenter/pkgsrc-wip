@@ -134,7 +134,7 @@ CONFIGURE_ARGS+=	--with-x-toolkit=motif
 
 .include "../../mk/jpeg.buildlink3.mk"
 .include "../../graphics/tiff/buildlink3.mk"
-.include "../../mk/giflib.buildlink3.mk"
+.include "../../graphics/giflib/buildlink3.mk"
 .include "../../graphics/png/buildlink3.mk"
 .include "../../x11/libSM/buildlink3.mk"
 .include "../../x11/libXaw/buildlink3.mk"
