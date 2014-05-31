@@ -1,5 +1,4 @@
 ===========================================================================
-$NetBSD: MESSAGE,v 1.1 2013/09/10 15:32:33 adam Exp $
 
 To enable this package, run the following command as pgsql superuser
 
