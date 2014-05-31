@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	qore-0.8.9
+DISTNAME=	qore-0.8.10
 CATEGORIES=	lang
 MASTER_SITES=   ${MASTER_SITE_SOURCEFORGE:=qore/}
 EXTRACT_SUFX=   .tar.bz2
