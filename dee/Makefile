@@ -4,7 +4,6 @@
 DISTNAME=	dee-1.0.14
 CATEGORIES=	devel
 MASTER_SITES=	http://launchpad.net/dee/1.0/1.0.14/+download/
-FETCH_USING=	curl
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://launchpad.net/dee

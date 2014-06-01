@@ -5,7 +5,6 @@ PKGNAME=	${PYPKGPREFIX}-${DISTNAME:S/python-//}
 PKGREVISION=	2
 CATEGORIES=	biology python
 MASTER_SITES=	https://wiki.fysik.dtu.dk/ase-files/
-FETCH_USING=	curl
 
 MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	https://wiki.fysik.dtu.dk/ase/

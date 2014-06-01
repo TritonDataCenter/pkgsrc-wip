@@ -3,7 +3,6 @@
 DISTNAME=	libindicator-12.10.1
 CATEGORIES=	sysutils
 MASTER_SITES=	https://launchpad.net/libindicator/12.10/12.10.1/+download/
-FETCH_USING=	curl
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	https://launchpad.net/libindicator

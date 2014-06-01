@@ -5,7 +5,6 @@ PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	textproc
 MASTER_SITES=	https://pypi.python.org/packages/source/j/jsonschema/
 EXTRACT_SUFX=	.zip#md5=0275f70c5f7c65657555ff478a4fc89c
-FETCH_USING=	curl
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	http://github.com/Julian/jsonschema

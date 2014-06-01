@@ -4,7 +4,6 @@ DISTNAME=	Hamilton-0.1.0
 PKGNAME=	${PYPKGPREFIX}-hamilton-0.1.0
 CATEGORIES=	math python
 MASTER_SITES=	https://pypi.python.org/packages/source/H/Hamilton/
-FETCH_USING=	curl
 
 MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	https://pypi.python.org/packages/source/H/Hamilton/

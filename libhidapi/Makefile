@@ -10,7 +10,6 @@ LICENSE=	modified-bsd
 
 EXTRACT_SUFX=	.zip
 MASTER_SITES=	-https://github.com/signal11/hidapi/archive/hidapi-0.7.0.zip
-FETCH_USING=	curl
 
 USE_TOOLS=	gmake
 USE_LANGUAGES=	c c++

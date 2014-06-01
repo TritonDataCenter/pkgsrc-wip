@@ -4,7 +4,6 @@ DISTNAME=	SphinxReport-2.0
 PKGNAME=        ${PYPKGPREFIX}-sphinxreport-2.0
 CATEGORIES=	textproc
 MASTER_SITES=	https://pypi.python.org/packages/source/S/SphinxReport/
-FETCH_USING=    curl
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	http://code.google.com/p/sphinx-report/

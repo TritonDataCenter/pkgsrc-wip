@@ -5,7 +5,6 @@ DISTNAME=	v2.12.9
 PKGNAME=	emesene${DISTNAME:S/v/-/1}
 CATEGORIES=	chat
 MASTER_SITES=	https://github.com/emesene/emesene/archive/
-FETCH_USING=	curl
 EXTRACT_USING=	gtar
 
 MAINTAINER=	pkgsrc-users@NetBSD.org

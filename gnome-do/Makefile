@@ -5,7 +5,6 @@ DISTNAME=	gnome-do-0.8.5
 PKGREVISION=	1
 CATEGORIES=	sysutils
 MASTER_SITES=	http://launchpad.net/do/trunk/0.8.5/+download/
-FETCH_USING=	curl
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://do.davebsd.com/

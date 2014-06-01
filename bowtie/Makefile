@@ -17,7 +17,6 @@ USE_LANGUAGES=	c++
 USE_TOOLS+=	gmake perl:run
 
 # FETCH_ARGS+=	-F
-FETCH_USING=	curl
 
 INSTALLATION_DIRS=	bin share/bowtie
 

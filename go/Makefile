@@ -4,7 +4,6 @@ DISTNAME=	go1.2.src
 PKGNAME=	go-1.2
 CATEGORIES=	lang
 MASTER_SITES=	https://go.googlecode.com/files/
-FETCH_USING?=	curl
 
 MAINTAINER=	bsiegert@NetBSD.org
 HOMEPAGE=	http://golang.org/

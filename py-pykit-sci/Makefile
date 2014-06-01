@@ -4,7 +4,6 @@ DISTNAME=	pykit-sci-0.1.6
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	math
 MASTER_SITES=	https://pypi.python.org/packages/source/p/pykit-sci/
-FETCH_USING=	curl
 
 MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	 http://github.com/androomerrill/pykit-sci

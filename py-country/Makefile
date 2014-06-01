@@ -11,7 +11,6 @@ HOMEPAGE=	https://pypi.python.org/packages/source/p/pycountry/
 COMMENT=	ISO country, subdivision, language, currency and script
 LICENSE=	gnu-lgpl-v2.1
 
-FETCH_USING=	curl
 
 USE_PKGLOCALEDIR=	yes
 USE_LANGUAGES=		# none

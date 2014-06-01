@@ -12,7 +12,6 @@ COMMENT=	C++ code generator for multilinear forms
 
 LICENSE=	gnu-lgpl-v3
 
-FETCH_USING=	curl
 
 PYDISTUTILSPKG=	yes
 

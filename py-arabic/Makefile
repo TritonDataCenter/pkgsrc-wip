@@ -5,7 +5,6 @@ PKGNAME=	${PYPKGPREFIX}-${DISTNAME:S/Py//S/A/a/}
 CATEGORIES=	textproc python
 MASTER_SITES=	https://pypi.python.org/packages/source/P/PyArabic/
 EXTRACT_SUFX=	.zip
-FETCH_USING=	curl
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	http://pyarabic.sourceforge.net/

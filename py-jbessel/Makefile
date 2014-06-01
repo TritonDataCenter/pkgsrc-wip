@@ -4,7 +4,6 @@ DISTNAME=	jBessel-0.1.4
 PKGNAME=		${PYPKGPREFIX}-${DISTNAME:tl}
 CATEGORIES=	math python
 MASTER_SITES=	https://pypi.python.org/packages/source/j/jBessel/
-FETCH_USING=	curl
 
 MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	https://github.com/daron1337/jBessel

@@ -7,7 +7,6 @@ PKGREVISION=	1
 CATEGORIES=	wm
 MASTER_SITES=	http://dockapps.windowmaker.org/download.php/id/141/
 EXTRACT_SUFX=	.tar.Z
-FETCH_USING=	wget
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://dockapps.windowmaker.org/file.php/id/102

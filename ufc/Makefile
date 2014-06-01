@@ -10,7 +10,6 @@ HOMEPAGE=	https://launchpad.net/ufc
 COMMENT=	Unified framework for finite element assembly
 LICENSE=	public-domain
 
-FETCH_USING=	curl
 
 USE_TOOLS+=	pkg-config
 # to do: Also depends on python

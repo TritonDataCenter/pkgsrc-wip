@@ -4,7 +4,6 @@ DISTNAME=	irco-0.5
 PKGNAME=        ${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	math
 MASTER_SITES=	https://pypi.python.org/packages/source/i/irco/
-FETCH_USING=	curl
 
 MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	https://github.com/GaretJax/irco

@@ -4,7 +4,6 @@ DISTNAME=	CryptoIM-0.1.1
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME:S/Py//tl}
 CATEGORIES=	security
 MASTER_SITES=	https://pypi.python.org/packages/source/C/CryptoIM/
-FETCH_USING=	curl
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	http://pypi.python.org/pypi/CryptoIM/

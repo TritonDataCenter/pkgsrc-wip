@@ -10,7 +10,6 @@ MAINTAINER=	jwbacon@tds.net
 HOMEPAGE=	https://launchpad.net/instant
 COMMENT=	Instant inlining of C and C++ code in Python
 
-FETCH_USING=	curl
 
 LICENSE=	gnu-lgpl-v3
 

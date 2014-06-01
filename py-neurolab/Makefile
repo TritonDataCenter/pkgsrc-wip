@@ -10,7 +10,6 @@ HOMEPAGE=	http://code.google.com/p/neurolab
 COMMENT=	Simple and powerfull neural network library for python
 LICENSE=	gnu-lgpl-v3
 
-FETCH_USING=    curl
 
 USE_LANGUAGES=	# none
 PYDISTUTILSPKG=	yes

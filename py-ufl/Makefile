@@ -10,7 +10,6 @@ MAINTAINER=	jwbacon@tds.net
 HOMEPAGE=	https://launchpad.net/ufl
 COMMENT=	Unified Form Language for finite element discretizations
 
-FETCH_USING=	curl
 
 LICENSE=	gnu-lgpl-v3
 

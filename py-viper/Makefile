@@ -11,7 +11,6 @@ MAINTAINER=	jwbacon@tds.net
 HOMEPAGE=	https://launchpad.net/fenics-viper
 COMMENT=	Scientific plotter and run-time visualization module
 
-FETCH_USING=	curl
 
 LICENSE=	gnu-lgpl-v3
 

@@ -4,7 +4,6 @@ DISTNAME=	strategies-0.1.2
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	devel
 MASTER_SITES=	https://pypi.python.org/packages/source/s/strategies/
-FETCH_USING= curl
 
 MAINTAINER=	kamel.derouiche@gmail.com
 HOMEPAGE=	http://github.com/logpy/strategies

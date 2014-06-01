@@ -11,7 +11,6 @@ COMMENT=	GTK+ greeter for LightDM
 LICENSE=	gnu-gpl-v3
 
 # Needed for launchpad
-FETCH_USING=	curl
 
 GNU_CONFIGURE=		yes
 USE_LIBTOOL=		yes

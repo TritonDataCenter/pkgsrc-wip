@@ -5,7 +5,6 @@ DISTNAME=	winwrangler-0.2.1
 PKGREVISION=	1
 CATEGORIES=	x11
 MASTER_SITES=	http://launchpad.net/winwrangler/0.2/0.2.1/+download/
-FETCH_USING=	curl
 
 MAINTAINER=	pkgsrc-users@netbsd.org
 HOMEPAGE=	http://launchpad.net/winwrangler/

@@ -4,7 +4,6 @@ DISTNAME=	pymeigo-1.0.0
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME:S/py//}
 CATEGORIES=	math
 MASTER_SITES=	https://pypi.python.org/packages/source/p/pymeigo/
-FETCH_USING=	curl
 
 MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	http://www.ebi.ac.uk/~cokelaer/pymeigo

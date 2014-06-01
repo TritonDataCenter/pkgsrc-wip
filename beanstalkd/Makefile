@@ -6,7 +6,6 @@ PKGNAME=	beanstalkd${DISTNAME:S/v/-/1}
 PKGREVISION=	1
 CATEGORIES=	net
 MASTER_SITES=	https://github.com/kr/beanstalkd/archive/
-FETCH_USING=	curl
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://kr.github.io/beanstalkd/

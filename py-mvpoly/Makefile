@@ -4,7 +4,6 @@ DISTNAME=	mvpoly-0.93.2
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	math
 MASTER_SITES=	https://pypi.python.org/packages/source/m/mvpoly/
-FETCH_USING=	curl
 
 MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	http://soliton.vm.bytemark.co.uk/pub/jjg/en/code/mvpoly.html

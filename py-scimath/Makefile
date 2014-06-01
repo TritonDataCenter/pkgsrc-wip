@@ -13,7 +13,6 @@ LICENSE=	modified-bsd
 
 DEPENDS+=	${PYPKGPREFIX}-scipy>=0.7.2:../../math/py-scipy
 
-FETCH_USING=	curl
 USE_LANGUAGES=	c c++
 
 .include "../../math/py-numpy/buildlink3.mk"

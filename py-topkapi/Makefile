@@ -16,7 +16,6 @@ DEPENDS+=	${PYPKGPREFIX}-rpy>=2.1.3:../../math/py-rpy
 
 # pkgsrc is not currently able to fetch distfiles from https web servers
 # (see mk/fetch/fetch.mk), so you have to use a browser for now.
-FETCH_USING=		wget
 FETCH_BEFORE_ARGS=	--no-check-certificate
 
 

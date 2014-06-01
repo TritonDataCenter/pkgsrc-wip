@@ -13,7 +13,6 @@ DISTNAME=	${PKGBASE}-${GITVERSION}
 #	+ fix https://bugs.launchpad.net/mtr/+bug/1189221
 #
 MASTER_SITES=	https://github.com/${GITHUB_USER}/${PKGBASE}/tarball/${GITVERSION}/
-FETCH_USING=	curl
 WRKSRC=		${WRKDIR}/${GITHUB_USER}-${PKGBASE}-${GITVERSION}
 
 GITVERSION=	9e14fed

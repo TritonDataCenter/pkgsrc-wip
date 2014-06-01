@@ -12,7 +12,6 @@ LICENSE=	gnu-gpl-v2
 
 # web server Gatling running at www.fefe.de is incompatible with BSD ftp
 # cf. PR#45516
-FETCH_USING=	wget
 USE_TOOLS+=	gmake
 DEPENDS+=	ucspi-tcp-*:../../net/ucspi-tcp
 

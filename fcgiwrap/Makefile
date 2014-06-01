@@ -9,7 +9,6 @@ HOMEPAGE=	http://nginx.localdomain.pl/wiki/FcgiWrap
 COMMENT=	FastCGI wrapper for plain CGI scripts
 LICENSE=	mit
 
-FETCH_USING=	curl
 
 GNU_CONFIGURE=	yes
 USE_TOOLS+=	automake autoreconf pkg-config

@@ -4,7 +4,6 @@ DISTNAME=	iowait-0.2
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	devel
 MASTER_SITES=	https://launchpad.net/python-iowait/0.x/0.2/+download/
-FETCH_USING=	curl
 
 MAINTAINER=	kamel.derouiche@gmail.com
 HOMEPAGE=	https://launchpadlibrarian.net/65588193/

@@ -4,7 +4,6 @@ DISTNAME=	mpi4py-1.3.1
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	parallel python
 MASTER_SITES=	https://bitbucket.org/mpi4py/mpi4py/downloads/
-FETCH_USING=	curl
 
 MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	https://bitbucket.org/mpi4py/mpi4py/

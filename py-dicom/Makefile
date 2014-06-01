@@ -10,7 +10,6 @@ HOMEPAGE=	https://code.google.com/p/pydicom/
 COMMENT=	Read, modify and write DICOM files with python code
 LICENSE=	mit
 
-FETCH_USING=	curl
 
 USE_TOOLS+=	bash
 USE_LANGUAGES=	# none

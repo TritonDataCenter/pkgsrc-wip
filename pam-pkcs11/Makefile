@@ -14,7 +14,6 @@ COMMENT=		PKCS \#11 authentication method for PAM
 LICENSE=		gnu-lgpl-v2.1
 
 # At times in the past, pam_pkcs11 has been https
-#FETCH_USING=		curl
 
 USE_LANGUAGES=		c99
 USE_PKGLOCALEDIR=	yes

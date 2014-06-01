@@ -4,7 +4,6 @@ DISTNAME=	bibtexparser-0.5.1
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	print python
 MASTER_SITES=	https://pypi.python.org/packages/source/b/bibtexparser/
-FETCH_USING=	curl
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/sciunto/python-bibtexparser

@@ -5,7 +5,6 @@ DISTNAME=	lazr.uri-1.0.2
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	www
 MASTER_SITES=	http://launchpad.net/lazr.uri/trunk/1.0.2/+download/
-FETCH_USING=	curl
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://launchpad.net/lazr.uri

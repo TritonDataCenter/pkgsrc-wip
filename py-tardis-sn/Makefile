@@ -5,7 +5,6 @@ PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 EGG_NAME=	tardis_sn-0.9rc1
 CATEGORIES=	math
 MASTER_SITES=	https://pypi.python.org/packages/source/t/tardis-sn/
-FETCH_USING=	curl
 
 MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	http://tardis.readthedocs.org/

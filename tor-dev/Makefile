@@ -13,7 +13,6 @@ LICENSE=		modified-bsd
 
 .include "../../mk/bsd.prefs.mk"
 
-FETCH_USING=		curl
 USE_LANGUAGES=		c99
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes

@@ -4,7 +4,6 @@ DISTNAME=	pathtools-0.1.2
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	sysutils python
 MASTER_SITES=	https://pypi.python.org/packages/source/p/pathtools/
-FETCH_USING=	curl
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	http://github.com/gorakhargosh/pathtools

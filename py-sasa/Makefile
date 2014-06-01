@@ -12,7 +12,6 @@ LICENSE=	apache-2.0
 
 DEPENDS+=     ${PYPKGPREFIX}-nltk>=3.0a2:../../wip/py-nltk
 
-FETCH_USING=	curl
 
 USE_LANGUAGES=	# none
 

@@ -4,7 +4,6 @@ DISTNAME=	jokosher-0.11.5
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	audio
 MASTER_SITES=	http://launchpad.net/jokosher/trunk/0.11.5/+download/
-FETCH_USING=	curl
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.jokosher.org/

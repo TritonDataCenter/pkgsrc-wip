@@ -4,7 +4,6 @@ DISTNAME=	toro-0.5
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	www python
 MASTER_SITES=	https://pypi.python.org/packages/source/t/toro/
-FETCH_USING=	curl
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	http://github.com/ajdavis/toro/

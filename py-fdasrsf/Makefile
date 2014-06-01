@@ -4,7 +4,6 @@ DISTNAME=	fdasrsf-1.0.1
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	math
 MASTER_SITES=	https://pypi.python.org/packages/source/f/fdasrsf/
-FETCH_USING=	curl
 
 MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	http://stat.fsu.edu/~dtucker/research.html

@@ -5,7 +5,6 @@ PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	graphics python
 CATEGORIES=	wip
 MASTER_SITES=	https://www.enthought.com/repo/ets/
-FETCH_USING=	curl
 
 MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	http://code.enthought.com/projects/chaco/

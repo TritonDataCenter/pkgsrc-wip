@@ -50,7 +50,6 @@ DISTFILES+=	${md}
 
 # ftp: Unsupported URL scheme `https'
 .if ${OPSYS} == "NetBSD"
-FETCH_USING=		curl
 .endif
 
 # tar: Invalid header, starting valid header search.

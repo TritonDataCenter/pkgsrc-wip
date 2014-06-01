@@ -12,7 +12,6 @@ LICENSE=	isc
 
 ONLY_FOR_PLATFORM= DragonFly-*-* NetBSD-*-*
 
-FETCH_USING=	curl
 
 MAKE_JOBS_SAFE=	no
 

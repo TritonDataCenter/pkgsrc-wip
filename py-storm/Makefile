@@ -13,7 +13,6 @@ HOMEPAGE=	https://storm.canonical.com/
 COMMENT=	Object-relational mapper (ORM) for Python
 LICENSE=	gnu-lgpl-v2.1
 
-FETCH_USING=	curl
 
 do-test:
 	( cd ${WRKSRC} && ${PYTHONBIN} test )

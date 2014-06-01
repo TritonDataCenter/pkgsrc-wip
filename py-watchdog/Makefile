@@ -4,7 +4,6 @@ DISTNAME=	watchdog-0.7.1
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	sysutils python
 MASTER_SITES=	https://pypi.python.org/packages/source/w/watchdog/
-FETCH_USING=	curl
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	http://github.com/gorakhargosh/watchdog
