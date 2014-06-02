@@ -1,4 +1,4 @@
-#$NetBSD$
+# $NetBSD$
 #
 # This file should be included in the makefile of packages that install
 # Qore modules.
@@ -7,7 +7,7 @@
 #
 # QORE_VERSION 		 To be used by packages that install files in
 # 			 lib/qore-modules/${QORE_VERSION}/
-# 			
+#
 # QORE_MODULE_API	 This should be used by packages that install
 # 			 modules that uses the compatible module api
 #			 version.
@@ -15,7 +15,7 @@
 # QORE_LATEST_MODULE_API This should be used by packages that install
 #			 modules that uses the latest module api
 #			 version.
-#			 
+#
 
 .PHONY: qore-module
 qore-module: post-install
