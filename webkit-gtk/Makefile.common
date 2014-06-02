@@ -23,9 +23,8 @@ PKGCONFIG_OVERRIDE=	Source/WebKit/gtk/webkit.pc.in
 MAKE_FILE=	GNUmakefile
 GNU_CONFIGURE=	yes
 
-CONFIGURE_ARGS+=	--with-target=x11 \
-			--with-font-backend=freetype
-CONFIGURE_ARGS+=	--disable-geolocation \
+CONFIGURE_ARGS+=	--enable-x11-target \
+			--disable-geolocation \
 			--disable-optimizations \
 			--disable-gtk-doc-html
 
