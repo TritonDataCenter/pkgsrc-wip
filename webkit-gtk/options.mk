@@ -7,8 +7,8 @@ PKG_SUGGESTED_OPTIONS=
 
 .include "../../mk/bsd.prefs.mk"
 
-# XXX JIT produces invalid code on NetBSD/i386
-.if empty(MACHINE_PLATFORM:MNetBSD-*-i386)
+# XXX JIT produces invalid code on NetBSD/i386 and NetBSD/amd64
+.if empty(MACHINE_PLATFORM:MNetBSD-*-i386) && empty(MACHINE_PLATFORM:MNetBSD-*-x86_64)
 PKG_SUGGESTED_OPTIONS+= webkit-jit
 .endif
 
