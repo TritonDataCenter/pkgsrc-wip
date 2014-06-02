@@ -2609,7 +2609,6 @@ SUBDIR+=	py-louie
 SUBDIR+=	py-lsqfit
 SUBDIR+=	py-luminous
 SUBDIR+=	py-lxmlproc
-SUBDIR+=	py-magic
 SUBDIR+=	py-magnitude
 SUBDIR+=	py-mahotas
 SUBDIR+=	py-mark
