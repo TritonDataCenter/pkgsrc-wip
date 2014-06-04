@@ -3,7 +3,7 @@
 
 PKG_OPTIONS_VAR=	PKG_OPTIONS.webkit-gtk
 PKG_SUPPORTED_OPTIONS=	debug enchant opengl webkit-jit
-PKG_SUGGESTED_OPTIONS=	enchant
+PKG_SUGGESTED_OPTIONS=	enchant opengl
 
 .include "../../mk/bsd.prefs.mk"
 
