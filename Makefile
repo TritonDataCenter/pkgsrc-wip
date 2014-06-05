@@ -3251,6 +3251,7 @@ SUBDIR+=	sudoscript
 SUBDIR+=	suitesparse
 SUBDIR+=	sun-j2me
 SUBDIR+=	sunterlib
+SUBDIR+=	supercat
 SUBDIR+=	superchic
 SUBDIR+=	supermodel
 SUBDIR+=	supertux
