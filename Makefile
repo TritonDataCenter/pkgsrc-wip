@@ -726,6 +726,7 @@ SUBDIR+=	gdvb
 SUBDIR+=	geant
 SUBDIR+=	gecko-sharp
 SUBDIR+=	gecode
+SUBDIR+=	geekcode
 SUBDIR+=	gemrb
 SUBDIR+=	genus2reduction
 SUBDIR+=	gerris
