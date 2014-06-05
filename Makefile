@@ -242,6 +242,7 @@ SUBDIR+=	bsdbuild
 SUBDIR+=	bsfilter
 SUBDIR+=	bsh
 SUBDIR+=	bsnmp
+SUBDIR+=	bspwm
 SUBDIR+=	bss
 SUBDIR+=	bsvc
 SUBDIR+=	btscanner
