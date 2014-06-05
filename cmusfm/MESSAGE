@@ -1,0 +1,14 @@
+===========================================================================
+$NetBSD$
+
+To initially configure wip/cmusfm do:
+
+ $ cmusfm init
+
+And then follow the instructions.
+After you have successfully initialized cmusfm, on audio/cmus please do:
+
+ :set status_display_program=cmusfm
+
+For more information please read ${PREFIX}/share/doc/cmusfm/README.md.
+===========================================================================
