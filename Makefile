@@ -2,6 +2,7 @@
 
 COMMENT=	WIP pkgsrc packages
 
+SUBDIR+=	2bwm
 SUBDIR+=	389-ds-base
 SUBDIR+=	BitchX
 SUBDIR+=	Box2D
