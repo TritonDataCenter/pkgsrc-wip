@@ -1,0 +1,4 @@
+@comment $NetBSD$
+${PYSITELIB}/tsgeom/__init__.py
+${PYSITELIB}/tsgeom/__init__.pyc
+${PYSITELIB}/tsgeom/__init__.pyo
