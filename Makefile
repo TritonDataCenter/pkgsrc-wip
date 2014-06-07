@@ -3381,7 +3381,6 @@ SUBDIR+=	todotxt
 SUBDIR+=	tome
 SUBDIR+=	tome2
 SUBDIR+=	tops-bin
-SUBDIR+=	tor-dev
 SUBDIR+=	torcs
 SUBDIR+=	torsocks
 SUBDIR+=	tortunnel
