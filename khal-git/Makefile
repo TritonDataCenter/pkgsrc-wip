@@ -27,6 +27,7 @@ DEPENDS+=		${PYPKGPREFIX}-keyring-[0-9]*:../../security/py-keyring
 DEPENDS+=		${PYPKGPREFIX}-setproctitle-[0-9]*:../../sysutils/py-setproctitle
 
 PYTHON_VERSIONED_DEPENDENCIES=	dateutil
+PYTHON_VERSIONS_INCOMPATIBLE=	33 34 # not yet ported as of 20140604
 
 WRKSRC=			${WRKDIR}/khal
 INSTALLATION_DIRS=	share/doc/khal
