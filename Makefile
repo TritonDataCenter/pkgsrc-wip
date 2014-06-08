@@ -2527,7 +2527,6 @@ SUBDIR+=	py-genesis
 SUBDIR+=	py-geographiclib
 SUBDIR+=	py-geopy
 SUBDIR+=	py-gettext-tools
-SUBDIR+=	py-gevent
 SUBDIR+=	py-ghalatawi
 SUBDIR+=	py-gist
 SUBDIR+=	py-git
