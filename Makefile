@@ -2384,7 +2384,6 @@ SUBDIR+=	py-async
 SUBDIR+=	py-atpy
 SUBDIR+=	py-automata
 SUBDIR+=	py-bctpy
-SUBDIR+=	py-beanstalkc
 SUBDIR+=	py-behaviour
 SUBDIR+=	py-bibtexparser3
 SUBDIR+=	py-bidict
