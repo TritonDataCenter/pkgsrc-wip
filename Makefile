@@ -2635,7 +2635,6 @@ SUBDIR+=	py-mocker
 SUBDIR+=	py-modargs
 SUBDIR+=	py-model-builder
 SUBDIR+=	py-mois
-SUBDIR+=	py-mongo
 SUBDIR+=	py-mox
 SUBDIR+=	py-mpi4py
 SUBDIR+=	py-mplh5canvas
