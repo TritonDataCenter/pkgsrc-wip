@@ -2,7 +2,8 @@
 
 # version number from setup.py
 DISTNAME=		khal-0.2.0
-EGG_NAME=		${DISTNAME}.dev
+#EGG_NAME=		${DISTNAME}.dev
+EGG_NAME=		${DISTNAME}.deve3800_dirty
 CATEGORIES=		time net
 MASTER_SITES=		https://github.com/geier/khal
 
