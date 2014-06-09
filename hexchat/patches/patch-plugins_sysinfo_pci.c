@@ -2,7 +2,7 @@ $NetBSD$
 
 Fix header location for pkgsrc.
 
---- plugins/sysinfo/pci.c.orig	2013-09-11 22:18:19.000000000 +0000
+--- plugins/sysinfo/pci.c.orig	2014-06-01 16:11:26.000000000 +0000
 +++ plugins/sysinfo/pci.c
 @@ -24,7 +24,7 @@
  #include <string.h>
