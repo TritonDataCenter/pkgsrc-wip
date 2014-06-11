@@ -19,6 +19,12 @@ USE_LANGUAGES=	c++
 USE_TOOLS+=	gmake gunzip
 LDFLAGS+=	${COMPILER_RPATH_FLAG}${BUILDLINK_PREFIX.boost-libs}/lib
 
+SUBST_CLASSES+=		json
+SUBST_SED.json+=	-e 's,jsoncpp/json/json.h,json/json.h,'
+SUBST_FILES.json+=	src/api.cpp src/downloader.cpp
+SUBST_STAGE.json=	post-configure
+SUBST_MESSAGE.json=	Fixing path to jsoncpp headers.
+
 INSTALLATION_DIRS=	bin ${PKGMANDIR}/man1
 #BUILD_TARGET=		debug
 
