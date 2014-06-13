@@ -22,17 +22,13 @@ USE_TOOLS+=		pkg-config
 GNU_CONFIGURE=		yes
 CONFIGURE_ARGS+=	--with-privsep-chroot=${PKG_HOME._lldpd}
 # run/lldpd.socket is created under this directory
-# (the default is ${PRERIX}/var)
+# (the default is ${PRERIX}/var, changed since 0.7.9)
 CONFIGURE_ARGS+=       --localstatedir=${VARBASE}
 BUILD_DEFS+=		VARBASE
 
 #  CCLD     lldpd
 #  ld: cannot find -lperl
 LDFLAGS+=		-L${PREFIX}/${PERL5_SUB_INSTALLARCHLIB}/CORE
-
-# .include "../../mk/bsd.prefs.mk"
-# ERROR: sbin/lldpd: missing library: libperl.so
-# LINKER_RPATH_FLAG=	${COMPILER_RPATH_FLAG}${PREFIX}/${PERL5_SUB_INSTALLARCHLIB}/CORE
 
 RCD_SCRIPTS=		lldpd
 PKG_GROUPS=		_lldpd
