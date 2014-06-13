@@ -1,11 +1,5 @@
 ===========================================================================
 $NetBSD$
-If you see following,
-"Peer certificate cannot be authenticated with given CA certificates"
-(SSL certificate problem: self signed certificate in certificate chain)
-please see the info by:
-   pkg_info -D  mozilla-rootcerts
-
 To start the application, just type tqsl in shell. You will see
 the icons for operations (with Window facility).
 
