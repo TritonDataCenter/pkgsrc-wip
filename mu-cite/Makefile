@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	mu-cite-201202272330
+DISTNAME=	mu-cite-201406091013
 CATEGORIES=	mail
 MASTER_SITES=	http://www.jpl.org/elips/mu/snapshots/
 
