@@ -19,6 +19,7 @@ AUTOCONF_REQD=	2.65
 CONFLICTS+=	emacs-nox11-[0-9]*
 
 BUILD_TARGET=	bootstrap
+MAKE_JOBS_SAFE= no
 
 GIT_REPOSITORIES=	master
 GIT_MODULE.master=	emacs
