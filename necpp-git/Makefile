@@ -21,8 +21,14 @@ USE_LIBTOOL=		yes
 USE_TOOLS+=		automake autoreconf gmake
 MAKE_JOBS_SAFE=		no
 
-pre-configure:
-	cd ${WRKSRC} && make -f Makefile.cvs
+SUBST_CLASSES+=		test
+SUBST_FILES.test=	configure
+SUBST_SED.test=		-e '/test/s/ == / = /'
+SUBST_MESSAGE.test=	** Pre-edit to avoid check-portability.awk flags
+SUBST_STAGE.test=	pre-configure
+
+post-patch:
+	cd ${WRKSRC} && make -f Makefile.git
 
 #.include "../../math/lapack/buildlink3.mk"
 .include "../../wip/mk/git-package.mk"
