@@ -1,4 +1,4 @@
-
+# $NetBSD$
 PKGNAME=	${DISTNAME:C/-/93-trgm-/}
 COMMENT=	PostgreSQL trgm contribution
 
