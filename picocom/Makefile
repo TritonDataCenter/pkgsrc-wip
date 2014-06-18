@@ -9,6 +9,7 @@ MASTER_SITES=   http://picocom.googlecode.com/files/
 
 HOMEPAGE=       https://code.google.com/p/picocom/
 COMMENT=        Dumb Terminal Emulator
+LICENSE=	gnu-gpl-v2
 
 USE_TOOLS+=             gmake
 BUILD_TARGET=		picocom
