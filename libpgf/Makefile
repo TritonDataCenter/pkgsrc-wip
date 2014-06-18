@@ -16,8 +16,12 @@ USE_TOOLS+=	aclocal autoconf automake pkg-config
 USE_LANGUAGES=	c c++
 USE_LIBTOOL=	yes
 
+BUILD_DEPENDS+=	dos2unix-[0-9]*:../../converters/dos2unix
+
+pre-patch:
+	${RUN} dos2unix ${WRKSRC}/configure.ac
+
 pre-configure:
-	${RUN} cp files/configure.ac ${WRKSRC}
 	${RUN} cd ${WRKSRC} && ./autogen.sh
 
 PKGCONFIG_OVERRIDE+=	libpgf.pc.in
