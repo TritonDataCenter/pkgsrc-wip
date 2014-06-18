@@ -1,4 +1,4 @@
-$NetBSD: distinfo,v 1.7 2010/04/05 00:36:42 jakllsch Exp $
+$NetBSD: distinfo,v 1.10 2013/08/07 03:18:03 mef Exp $
 
 SHA1 (avr-libc-1.8.0.tar.bz2) = 2e3815221be8e22f5f2c07b922ce92ecfa85bade
 RMD160 (avr-libc-1.8.0.tar.bz2) = 8897a70f5b295d88d0bdc483c59f4a52936f0583
