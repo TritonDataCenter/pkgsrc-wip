@@ -100,7 +100,7 @@ do-build:
 
 do-install:
 	cd ${WRKSRC} && ${SETENV} ${MAKE_ENV} ${SCONS_BIN} ${SCONS_ARGS} \
-		--full --prefix ${DESTDIR}${PREFIX} install
+		--full --prefix=${DESTDIR}${PREFIX} install
 
 do-test:
 	cd ${WRKSRC} && ./test
