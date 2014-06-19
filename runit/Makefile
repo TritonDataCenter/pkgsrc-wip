@@ -34,7 +34,7 @@ SUBST_FILES.static=	src/Makefile
 SUBST_SED.static=	-e 's/-static//'
 .endif
 
-INSTALLATION_DIRS=	${PKGMANDIR} ${PKGMANDIR}/man8 sbin share/examples/runit
+INSTALLATION_DIRS+=	${PKGMANDIR} ${PKGMANDIR}/man8 sbin share/examples/runit
 
 do-install:
 	${INSTALL_PROGRAM} ${CMDDIR}/* ${DESTDIR}${PREFIX}/sbin
