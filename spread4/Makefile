@@ -40,7 +40,7 @@ MAKE_FLAGS+=		LD=${CC:Q}
 RCD_SCRIPTS=		spread
 DOCSDIR=		${PREFIX}/share/doc/spread
 EXAMPLEDIR=		${PREFIX}/share/examples/spread
-INSTALLATION_DIRS=	${DOCSDIR} ${EXAMPLEDIR}
+INSTALLATION_DIRS+=	${DOCSDIR} ${EXAMPLEDIR}
 
 CONF_FILES=	${EXAMPLEDIR}/spread.access_ip ${PKG_SYSCONFDIR}/spread.access_ip
 CONF_FILES+=	${EXAMPLEDIR}/spread.conf ${PKG_SYSCONFDIR}/spread.conf
