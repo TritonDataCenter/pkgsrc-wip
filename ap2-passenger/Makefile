@@ -9,7 +9,7 @@ BUILDLINK_DEPMETHOD.libev=	build
 BUILDLINK_DEPMETHOD.curl=	build
 .include "../../wip/ruby-passenger/Makefile.common"
 
-PKG_APACHE_ACCEPTED=	apache24 apache22 apache2
+PKG_APACHE_ACCEPTED=	apache24 apache22
 APACHE_MODULE=		YES
 USE_APR=		YES
 
