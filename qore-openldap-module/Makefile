@@ -1,7 +1,7 @@
 # $NetBSD$
 
 DISTNAME=	qore-openldap-module-1.0
-PKGREVISION=	2
+PKGREVISION=	3
 CATEGORIES=	databases
 MASTER_SITES=   ${MASTER_SITE_SOURCEFORGE:=qore/}
 EXTRACT_SUFX=   .tar.bz2
