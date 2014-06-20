@@ -63,7 +63,7 @@ lib/gcc/avr/${PKGVERSION}/install-tools/macro_list
 lib/gcc/avr/${PKGVERSION}/install-tools/mkheaders.conf
 lib/gcc/avr/${PKGVERSION}/libgcc.a
 lib/gcc/avr/${PKGVERSION}/libgcov.a
-lib/gcc/avr/${PKGVERSION}/libiberty.a
+lib/gcc/avr/libiberty.a
 lib/gcc/avr/${PKGVERSION}/plugin/gtype.state
 lib/gcc/avr/${PKGVERSION}/plugin/include/ada/gcc-interface/ada-tree.def
 lib/gcc/avr/${PKGVERSION}/plugin/include/alias.h

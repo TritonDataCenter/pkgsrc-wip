@@ -50,7 +50,7 @@ pre-configure:
 # To avoid the conflict with other cross and native compiler
 post-install:
 	(cd ${DESTDIR}${PREFIX}/lib; \
-	 ${MV} libiberty.a gcc/avr/${PKGVERSION}/ )
+	 ${MV} libiberty.a gcc/avr/ )
 
 CONFIGURE_DIRS=		${WRKDIR}/obj
 CONFIGURE_SCRIPT=	${WRKSRC}/configure
