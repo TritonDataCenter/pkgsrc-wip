@@ -128,7 +128,6 @@ SUBDIR+=	apache-commons-logging
 SUBDIR+=	apache-commons-pool
 SUBDIR+=	apache-log4j
 SUBDIR+=	apache-velocity
-SUBDIR+=	apachebench2
 SUBDIR+=	ape
 SUBDIR+=	apel-git
 SUBDIR+=	apstget
