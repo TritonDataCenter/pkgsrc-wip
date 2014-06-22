@@ -21,5 +21,5 @@ post-install:
 	${INSTALL_DATA_DIR} ${PREFIX}/share/doc/mod_limitipconn
 	${INSTALL_DATA} ${WRKSRC}/README ${PREFIX}/share/doc/mod_limitipconn/
 
-.include "../../www/apache2/buildlink3.mk"
+.include "../../mk/apache.mk"
 .include "../../mk/bsd.pkg.mk"

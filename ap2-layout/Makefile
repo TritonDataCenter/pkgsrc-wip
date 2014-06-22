@@ -25,5 +25,5 @@ do-install:
 		${WRKSRC}/mod_layout.la \
 		${DESTDIR}${PREFIX}/lib/httpd
 
-.include "../../www/apache2/buildlink3.mk"
+.include "../../mk/apache.mk"
 .include "../../mk/bsd.pkg.mk"

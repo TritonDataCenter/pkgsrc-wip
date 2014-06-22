@@ -30,6 +30,6 @@ post-install:
 	${INSTALL_DATA} ${WRKSRC}/doc/configure.html ${HTMLDIR}
 	${INSTALL_DATA} ${WRKSRC}/doc/faq.html ${HTMLDIR}
 
-.include "../../www/apache2/buildlink3.mk"
+.include "../../mk/apache.mk"
 .include "../../mk/pam.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
