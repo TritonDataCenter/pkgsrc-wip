@@ -3248,7 +3248,6 @@ SUBDIR+=	stonx
 SUBDIR+=	structure
 SUBDIR+=	stumpwm
 SUBDIR+=	stunnel3
-SUBDIR+=	subversion17-base
 SUBDIR+=	sudo
 SUBDIR+=	sudoscript
 SUBDIR+=	suitesparse
