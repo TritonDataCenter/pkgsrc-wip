@@ -10,7 +10,6 @@ MAINTAINER=	jwbacon@tds.net
 HOMEPAGE=	https://launchpad.net/fiat
 COMMENT=	Finite element Automatic Tabulator
 
-FETCH_USING=	curl
 
 LICENSE=	gnu-lgpl-v3
 

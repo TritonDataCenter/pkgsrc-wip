@@ -5,7 +5,6 @@ PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	math
 MASTER_SITES=	https://pypi.python.org/packages/source/f/fuzzpy/
 EXTRACT_SUFX=	.tar.bz2
-FETCH_USING=	curl
 
 MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	http://github.com/ezod/fuzzpy

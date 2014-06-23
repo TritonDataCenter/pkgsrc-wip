@@ -5,7 +5,6 @@ EGG_NAME=	scipy_data_fitting--0.0.1
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	math
 MASTER_SITES=	https://pypi.python.org/packages/source/s/scipy-data_fitting/
-FETCH_USING=	curl
 
 MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	https://github.com/razor-x/scipy-data_fitting

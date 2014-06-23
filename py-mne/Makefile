@@ -4,7 +4,6 @@ DISTNAME=	mne-0.7.1
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	biology
 MASTER_SITES=	https://pypi.python.org/packages/source/m/mne/
-FETCH_USING=	curl
 
 MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	http://martinos.org/mne/stable/index.html

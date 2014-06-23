@@ -6,7 +6,6 @@ DISTFILES=	polarssl-1.1.4-gpl.tgz
 CATEGORIES=	security
 MASTER_SITES=	http://polarssl.org/code/download/
 EXTRACT_SUFX=	.tgz
-FETCH_USING=	fetch
 
 MAINTAINER=	wongk@apt.homeunix.net
 HOMEPAGE=	https://polarssl.org/download/

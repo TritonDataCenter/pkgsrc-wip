@@ -1,6 +1,6 @@
 # $NetBSD: Makefile,v 1.6 2013/09/13 07:29:10 mef Exp $
 
-DISTNAME=		lldpd-0.7.7
+DISTNAME=		lldpd-0.7.9
 CATEGORIES=		net
 MASTER_SITES=		http://media.luffy.cx/files/lldpd/
 
@@ -14,21 +14,22 @@ LICENSE=		isc
 
 PKG_INSTALLATION_TYPES=	overwrite pkgviews
 
+# interfaces-bsd.c:45:34: error: net/agr/if_agrioctl.h: No such file or directory
+NOT_FOR_PLATFORM=	NetBSD-5*-*
 USE_LIBTOOL=		yes
 USE_LANGUAGES=		c c++
 USE_TOOLS+=		pkg-config
 GNU_CONFIGURE=		yes
 CONFIGURE_ARGS+=	--with-privsep-chroot=${PKG_HOME._lldpd}
+# run/lldpd.socket is created under this directory
+# (the default is ${PRERIX}/var, changed since 0.7.9)
+CONFIGURE_ARGS+=       --localstatedir=${VARBASE}
 BUILD_DEFS+=		VARBASE
 
-# to find -lperl, should be portable and simpler, please correct
-.include "../../mk/bsd.prefs.mk"
-# This PATH is sometimes defined with SITEARCHEXP
-LDFLAGS+=		-L${PREFIX}/lib/perl5/5.18.0/${MACHINE_ARCH}-${OPSYS:tl}-thread-multi/CORE
+#  CCLD     lldpd
+#  ld: cannot find -lperl
+LDFLAGS+=		-L${PREFIX}/${PERL5_SUB_INSTALLARCHLIB}/CORE
 
-# ERROR: sbin/lldpd: missing library: libperl.so
-# both COMPILER_RPATH_FLAG LINKER_RPATH_FLAG doesn't make it.
-LDFLAGS+=		-Wl,-R${PREFIX}/lib/perl5/5.18.0/${MACHINE_ARCH}-${OPSYS:tl}-thread-multi/CORE
 RCD_SCRIPTS=		lldpd
 PKG_GROUPS=		_lldpd
 PKG_USERS=		_lldpd:_lldpd

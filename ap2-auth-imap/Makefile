@@ -30,6 +30,6 @@ post-install:
 	${INSTALL_DATA} ${WRKSRC:Q}/examples/htaccess-example ${PREFIX:Q}/share/examples/ap2-auth-imap
 	${INSTALL_DATA} ${WRKSRC:Q}/examples/httpd.conf-append-example ${PREFIX:Q}/share/examples/ap2-auth-imap
 
-.include "../../www/apache2/buildlink3.mk"
+.include "../../mk/apache.mk"
 .include "../../mk/pthread.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

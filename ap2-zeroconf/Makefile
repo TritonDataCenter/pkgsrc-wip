@@ -29,6 +29,6 @@ do-install:
 	${INSTALL_DATA_DIR} ${PREFIX}/share/doc/mod_zeroconf
 	cd ${WRKSRC} && ${INSTALL_DATA} README.txt ${PREFIX}/share/doc/mod_zeroconf/
 
-.include "../../www/apache2/buildlink3.mk"
+.include "../../mk/apache.mk"
 .include "../../net/howl/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

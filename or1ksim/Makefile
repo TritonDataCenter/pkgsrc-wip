@@ -11,7 +11,6 @@ MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://opencores.org/or1k/Or1ksim
 COMMENT=	OpenRISC emulator
 
-FETCH_USING=	curl
 
 USE_TOOLS+=	gmake
 

@@ -5,7 +5,6 @@ DISTNAME=	pyCalverter-1.5
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME:S/py//S/C/c/}
 CATEGORIES=	converters time python
 MASTER_SITES=	http://launchpad.net/pycalverter/trunk/1.5/+download/
-FETCH_USING=	curl
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://launchpad.net/pycalverter

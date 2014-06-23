@@ -23,8 +23,6 @@ BUILDLINK_API_DEPENDS.perl=	perl>=5.8.4
 
 PERL5_PACKLIST=		auto/MasonX/Apache2Handler/.packlist
 
-PKG_APACHE_ACCEPTED=	apache2 apache22
-
 .include "../../mk/apache.mk"
 .include "../../lang/perl5/module.mk"
 .include "../../mk/bsd.pkg.mk"

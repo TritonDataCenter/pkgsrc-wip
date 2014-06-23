@@ -10,7 +10,7 @@ BUILDLINK_PKGSRCDIR.hs-Lucu?=	../../wip/hs-Lucu
 
 .include "../../wip/hs-HsOpenSSL/buildlink3.mk"
 .include "../../wip/hs-base-unicode-symbols/buildlink3.mk"
-.include "../../wip/hs-base64-bytestring/buildlink3.mk"
+.include "../../converters/hs-base64-bytestring/buildlink3.mk"
 .include "../../wip/hs-haskell-src/buildlink3.mk"
 .include "../../wip/hs-hxt/buildlink3.mk"
 .include "../../devel/hs-mtl/buildlink3.mk"

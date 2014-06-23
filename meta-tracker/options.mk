@@ -105,7 +105,7 @@ CONFIGURE_ARGS+=	--enable-poppler
 
 .if !empty(PKG_OPTIONS:Mgif)
 PLIST.gif=		yes
-.include "../../mk/giflib.buildlink3.mk"
+.include "../../graphics/giflib/buildlink3.mk"
 .endif
 
 .if !empty(PKG_OPTIONS:Mjpeg)

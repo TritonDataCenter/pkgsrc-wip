@@ -18,7 +18,6 @@ USE_LIBTOOL=	yes
 
 WRKSRC=		${WRKDIR}/${DISTNAME:S/.src//}
 
-PKG_APACHE_ACCEPTED=	apache2 apache22
 PKG_SYSCONFSUBDIR=	httpd/chxj
 
 CONFIGURE_ARGS+=	--with-apxs=${APXS}

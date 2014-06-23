@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	vimprobable2_1.3.0
+DISTNAME=	vimprobable2_1.4.2
 PKGNAME=	${DISTNAME:S/_/-/}
 CATEGORIES=	www
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=vimprobable/}

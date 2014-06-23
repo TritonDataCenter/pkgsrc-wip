@@ -5,7 +5,6 @@ DISTNAME=	v1.3.2
 PKGNAME=	heimdall${DISTNAME:S/v/-/1}
 CATEGORIES=	comms
 MASTER_SITES=	https://github.com/Benjamin-Dobell/Heimdall/archive/
-FETCH_USING=	curl
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.glassechidna.com.au/products/heimdall/

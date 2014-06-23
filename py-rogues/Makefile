@@ -4,7 +4,6 @@ DISTNAME=	rogues-0.3.0
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	math python
 MASTER_SITES=	https://pypi.python.org/packages/source/r/rogues/
-FETCH_USING=	curl
 
 MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	http://pypi.python.org/pypi/rogues

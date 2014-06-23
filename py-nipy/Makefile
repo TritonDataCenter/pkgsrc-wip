@@ -4,7 +4,6 @@ DISTNAME=	nipy-0.3.0
 CATEGORIES=	biology
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 MASTER_SITES=	https://pypi.python.org/packages/source/n/nipy/
-FETCH_USING= curl
 
 MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	https://pypi.python.org/packages/source/n/nipy/

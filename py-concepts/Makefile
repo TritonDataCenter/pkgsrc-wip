@@ -5,7 +5,6 @@ PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	devel
 MASTER_SITES=	https://pypi.python.org/packages/source/c/concepts/
 EXTRACT_SUFX=	.zip
-FETCH_USING=	curl
 
 MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	http://github.com/xflr6/concepts

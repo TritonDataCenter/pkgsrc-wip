@@ -5,7 +5,6 @@ PKGNAME=	${PYPKGPREFIX}-${DISTNAME:S/N/n/}
 CATEGORIES=	math python
 MASTER_SITES=	https://pypi.python.org/packages/source/N/Numdifftools/
 EXTRACT_SUFX=	.zip#md5=944981e22d56ff299f73124ea1e62edc
-FETCH_USING=	curl
 
 MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	http://code.google.com/p/numdifftools/

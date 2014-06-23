@@ -133,7 +133,7 @@ CONFIGURE_ARGS+=	--disable-ggi
 
 .if !empty(PKG_OPTIONS:Mgif)
 CONFIGURE_ARGS+=	--enable-gif
-.  include "../../graphics/libungif/buildlink3.mk"
+.  include "../../graphics/giflib/buildlink3.mk"
 .else
 CONFIGURE_ARGS+=	--disable-gif
 .endif

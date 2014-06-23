@@ -1,7 +1,7 @@
 # $NetBSD$
 
 DISTNAME=	qore-sqlite3-module-1.0.1
-PKGREVISION=	2
+PKGREVISION=	3
 CATEGORIES=	databases
 MASTER_SITES=   ${MASTER_SITE_SOURCEFORGE:=qore/}
 
@@ -17,10 +17,10 @@ PTHREAD_OPTS+=	require
 
 CONFIGURE_ARGS+=--with-sqlite3=${BUILDLINK_PREFIX.sqlite3}
 
-INSTALLATION_DIRS+=     share/qore/docs/modules/sqlite3
+INSTALLATION_DIRS+=     share/doc/${PKGBASE}
 post-install:
 	${INSTALL_DATA} ${WRKSRC}/docs/sqlite3-module-doc.html \
-		${DESTDIR}${PREFIX}/share/qore/docs/modules/sqlite3
+		${DESTDIR}${PREFIX}/share/doc/${PKGBASE}
 
 .include "options.mk"
 

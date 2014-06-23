@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	sipwitch-1.9.1
+DISTNAME=	sipwitch-1.9.2
 CATEGORIES=	net
 MASTER_SITES=	http://ftp.gnu.org/gnu/sipwitch/
 

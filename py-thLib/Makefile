@@ -5,7 +5,6 @@ PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	math python
 MASTER_SITES=	https://pypi.python.org/packages/source/t/thLib/
 EXTRACT_SUFX=	.zip#md5=4539622094282799aec58c3470923e8a
-FETCH_USING=	curl
 
 MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	http://work.thaslwanter.at/

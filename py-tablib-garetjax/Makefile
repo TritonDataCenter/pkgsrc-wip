@@ -5,7 +5,6 @@ EGG_NAME=       tablib_garetjax
 PKGNAME=        ${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	textproc
 MASTER_SITES=	https://pypi.python.org/packages/source/t/tablib-garetjax/
-FETCH_USING=	curl
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	http://python-tablib.org/

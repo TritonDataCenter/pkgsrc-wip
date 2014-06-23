@@ -4,7 +4,6 @@ DISTNAME=	rasterio-0.5.1
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	math python
 MASTER_SITES=	https://pypi.python.org/packages/source/r/rasterio/
-FETCH_USING=	curl
 
 MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	https://pypi.python.org/packages/source/r/rasterio/

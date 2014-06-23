@@ -4,7 +4,6 @@ DISTNAME=	bctpy-0.3
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	biology
 MASTER_SITES=	https://pypi.python.org/packages/source/b/bctpy/
-FETCH_USING=	curl
 
 MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	https://github.com/aestrivex/bctpy

@@ -15,5 +15,5 @@ MAKE_FLAGS+=	module_la_DEPENDENCIES= \
 .include "../../fonts/fontconfig/buildlink3.mk"
 .include "../../wip/evas/buildlink3.mk"
 .include "../../graphics/freetype2/buildlink3.mk"
-.include "../../mk/giflib.buildlink3.mk"
+.include "../../graphics/giflib/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

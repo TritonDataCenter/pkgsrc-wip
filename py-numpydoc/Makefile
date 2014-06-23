@@ -1,7 +1,6 @@
 # $NetBSD$
-#
 
-DISTNAME=	numpydoc-0.4
+DISTNAME=	numpydoc-0.5
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	math python
 MASTER_SITES=	http://pypi.python.org/packages/source/n/numpydoc/
@@ -13,9 +12,9 @@ LICENSE=	modified-bsd
 
 DEPENDS+=	${PYPKGPREFIX}-sphinx>=1.0.8:../../textproc/py-sphinx
 
-WRKSRC=		${WRKDIR}/numpydoc-0.4
-
 USE_LANGUAGES=	# none
+
+PYTHON_VERSIONS_ACCEPTED= 26 27 33 34
 
 .include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"

@@ -24,7 +24,7 @@ USE_LIBTOOL=		yes
 #CONFIGURE_ENV+=
 CONFIGURE_ARGS+=	--with-gl-prefix=${LOCALBASE}
 
-.include "../../mk/giflib.buildlink3.mk"
+.include "../../graphics/giflib/buildlink3.mk"
 .include "../../mk/jpeg.buildlink3.mk"
 .include "../../graphics/MesaLib/buildlink3.mk"
 .include "../../graphics/glu/buildlink3.mk"

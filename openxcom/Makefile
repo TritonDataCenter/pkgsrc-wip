@@ -10,7 +10,6 @@ WRKSRC=		${WRKDIR}/OpenXcom-${DISTNAME}
 PKGREVISION=	1
 CATEGORIES=	games x11
 MASTER_SITES=	https://github.com/SupSuper/OpenXcom/archive/
-FETCH_USING=	curl
 
 MAINTAINER=	airhead@users.sourceforge.net
 HOMEPAGE=	http://www.openxcom.org/

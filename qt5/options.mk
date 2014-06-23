@@ -57,7 +57,7 @@ CONFIGURE_ARGS+=	-no-fontconfig
 .endif
 
 .if !empty(PKG_OPTIONS:Mgif)
-.include "../../mk/giflib.buildlink3.mk"
+.include "../../graphics/giflib/buildlink3.mk"
 .else
 CONFIGURE_ARGS+=	-no-gif
 .endif

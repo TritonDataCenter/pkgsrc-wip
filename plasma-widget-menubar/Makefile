@@ -10,7 +10,6 @@ MAINTAINER=	nathanialsloss@yahoo.com.au
 
 MASTER_SITES=	-https://launchpad.net/plasma-widget-menubar/trunk/0.2.0/+download/plasma-widget-menubar-0.2.0.tar.bz2
 EXTRACT_SUFX=	.tar.bz2
-FETCH_USING=	curl
 
 USE_LANGUAGES=	c c++
 USE_TOOLS+=	perl

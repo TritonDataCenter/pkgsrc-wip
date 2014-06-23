@@ -5,7 +5,6 @@ PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 EGG_NAME=	scikit_nano
 CATEGORIES=	math
 MASTER_SITES=	https://pypi.python.org/packages/source/s/scikit-nano/
-FETCH_USING=	curl
 
 MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	http://github.com/androomerrill/scikit-nano

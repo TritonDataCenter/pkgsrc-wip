@@ -5,7 +5,6 @@ PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	math
 MASTER_SITES=	https://pypi.python.org/packages/source/q/quantities/
 EXTRACT_SUFX=	.zip
-FETCH_USING=	curl
 
 MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	http://packages.python.org/quantities

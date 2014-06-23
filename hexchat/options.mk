@@ -2,20 +2,20 @@
 
 PKG_OPTIONS_VAR=	PKG_OPTIONS.hexchat
 PKG_SUPPORTED_OPTIONS=	dbus gtk2 inet6 libcanberra libnotify libpci libproxy
-PKG_SUPPORTED_OPTIONS+=	nls ntlm openssl perl python tests themes xft2
-PKG_SUGGESTED_OPTIONS+=	gtk2 inet6 libproxy libsexy nls openssl xft2
+PKG_SUPPORTED_OPTIONS+=	ntlm openssl perl python tests themes xft2
+PKG_SUGGESTED_OPTIONS+=	gtk2 inet6 libproxy libsexy openssl xft2
 
 PKG_OPTIONS_OPTIONAL_GROUPS+=	spell
 PKG_OPTIONS_GROUP.spell=	libsexy gtkspell
 
-PLIST_VARS+=		gtk2 libpci nls perl python
+PLIST_VARS+=		dbus gtk2 libpci perl python
 
 .include "../../mk/bsd.options.mk"
 
 .if !empty(PKG_OPTIONS:Mdbus)
-BROKEN=			The dbus option causes the build to stall.
 .include "../../sysutils/dbus-glib/buildlink3.mk"
 .include "../../sysutils/dbus/buildlink3.mk"
+PLIST.dbus=		yes
 .else
 CONFIGURE_ARGS+=	--disable-dbus
 .endif
@@ -53,7 +53,6 @@ LIBS+=			-lpciutils
 .else
 LIBS+=			-lpci
 .endif
-
 PLIST.libpci=		yes
 .endif
 
@@ -61,13 +60,6 @@ PLIST.libpci=		yes
 .include "../../www/libproxy/buildlink3.mk"
 .else
 CONFIGURE_ARGS+=	--disable-libproxy
-.endif
-
-.if !empty(PKG_OPTIONS:Mnls)
-.include "../../devel/gettext-lib/buildlink3.mk"
-PLIST.nls=		yes
-.else
-CONFIGURE_ARGS+=	--disable-nls
 .endif
 
 .if !empty(PKG_OPTIONS:Mntlm)
@@ -118,7 +110,7 @@ CONFIGURE_ARGS+=	--disable-glibtest --disable-gtktest
 .endif
 
 .if !empty(PKG_OPTIONS:Mthemes)
-BROKEN=			The themes option does not build at the moment.
+#BROKEN=			The themes option does not build at the moment.
 .include "../../devel/monodevelop/buildlink3.mk"
 CONFIGURE_ARGS+=	--with-theme-manager=on
 .endif

@@ -4,7 +4,6 @@
 DISTNAME=	mago-0.2
 CATEGORIES=	devel python
 MASTER_SITES=	http://launchpad.net/mago/trunk/mago-0.2/+download/
-FETCH_USING=	curl
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://launchpad.net/mago

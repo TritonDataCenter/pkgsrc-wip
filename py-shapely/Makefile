@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	Shapely-1.3.1
+DISTNAME=	Shapely-1.3.2
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME:tl}
 CATEGORIES=	math python
 MASTER_SITES=	https://pypi.python.org/packages/source/S/Shapely/

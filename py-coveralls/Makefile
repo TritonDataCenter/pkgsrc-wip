@@ -5,7 +5,6 @@ PKGNAME=	${PYPKGPREFIX}-${DISTNAME:S/python-//}
 EGG_NAME=	python_coveralls-2.4.2
 CATEGORIES=	devel python
 MASTER_SITES=	https://pypi.python.org/packages/source/p/python-coveralls/
-FETCH_USING=	curl
 
 MAINTAINER=	kamel.derouiche@gmail.com
 HOMEPAGE=	http://github.com/z4r/python-coveralls

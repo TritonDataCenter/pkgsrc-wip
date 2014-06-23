@@ -25,6 +25,8 @@ CONFIGURE_ENV+=		CONFIG_LDFLAGS=${LDFLAGS:M*:Q}
 
 AUTO_MKDIRS=		yes
 
+.include "options.mk"
+
 .include "../../mk/bsd.prefs.mk"
 
 .if ${OPSYS} == "SunOS"

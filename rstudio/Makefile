@@ -18,7 +18,6 @@ BUILD_DEPENDS+=		gin-1.5:../../wip/gin
 
 # Force using "curl" for fetching the distribution file. It is only available
 # over HTTPS and "curl" is the only fetch program which always supports HTTPS.
-FETCH_USING=	curl
 
 EXTRACT_USING=	gtar
 

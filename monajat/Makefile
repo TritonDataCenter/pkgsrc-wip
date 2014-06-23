@@ -4,7 +4,6 @@ DISTNAME=	monajat-2.3.1
 PKGREVISION=	2
 CATEGORIES=	misc
 MASTER_SITES=	http://launchpad.net/monajat/trunk/beta/+download/
-FETCH_USING=	curl
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://launchpad.net/monajat

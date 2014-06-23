@@ -5,7 +5,6 @@ DISTNAME=	python-gnutls-1.2.5
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	security
 MASTER_SITES=	https://pypi.python.org/packages/source/p/python-gnutls/
-FETCH_USING=	curl
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://ag-projects.com/

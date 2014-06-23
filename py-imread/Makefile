@@ -4,7 +4,6 @@ DISTNAME=	imread-0.3.2
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	graphics python
 MASTER_SITES=	https://pypi.python.org/packages/source/i/imread/
-FETCH_USING=	curl
 
 MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	http://luispedro.org/software/imread

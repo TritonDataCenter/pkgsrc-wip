@@ -3,7 +3,6 @@ fsharp_version=	3.1.1
 DISTNAME=	fsharp-${fsharp_version}
 CATEGORIES=	lang
 MASTER_SITES=	-https://github.com/fsharp/fsharp/archive/${fsharp_version}.tar.gz
-FETCH_USING=	curl
 EXTRACT_USING=	bsdtar
 
 MAINTAINER=	pkgsrc-users@NetBSD.org

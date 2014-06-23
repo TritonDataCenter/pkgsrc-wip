@@ -5,7 +5,6 @@ PKGNAME=	${PYPKGPREFIX}-${DISTNAME:tl}
 CATEGORIES=	math
 MASTER_SITES=	https://pypi.python.org/packages/source/p/pyLuminous/
 EXTRACT_SUFX=	.zip
-FETCH_USING=	curl
 
 MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	http://sourceforge.net/projects/pyluminous/

@@ -4,7 +4,6 @@ DISTNAME=	pyssp-0.1.6.5
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME:S/py//}
 CATEGORIES=	math
 MASTER_SITES=	https://pypi.python.org/packages/source/p/pyssp/
-FETCH_USING=	curl
 
 MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	https://bitbucket.org/aihara/pyssp/

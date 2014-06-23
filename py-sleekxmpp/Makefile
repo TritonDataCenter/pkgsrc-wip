@@ -4,7 +4,6 @@ DISTNAME=	sleekxmpp-1.1.11
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	chat  python
 MASTER_SITES=	https://pypi.python.org/packages/source/s/sleekxmpp/
-FETCH_USING=	curl
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	http://github.com/fritzy/SleekXMPP

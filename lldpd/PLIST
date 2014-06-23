@@ -13,4 +13,3 @@ share/doc/lldpd/CONTRIBUTE.md
 share/doc/lldpd/ChangeLog
 share/doc/lldpd/NEWS
 share/doc/lldpd/README.md
-share/examples/rc.d/lldpd

@@ -4,7 +4,6 @@
 DISTNAME=	simple-scan-3.4.1
 CATEGORIES=	graphics
 MASTER_SITES=	https://launchpad.net/simple-scan/3.4/3.4.1/+download/
-FETCH_USING=	curl
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	https://launchpad.net/simple-scan/

@@ -32,9 +32,6 @@ DEPENDS+=	anthy-[0-9]*:../../inputmethod/anthy
 GIT_REPOSITORIES=	master
 GIT_MODULE.master=	egg
 GIT_REPO.master=	git://git.debian.org/git/pkg-anthy/egg.git
-# http://mail-index.netbsd.org/pkgsrc-wip-discuss/2014/01/20/msg002556.html
-# By unknown reason, tamago repository does not accept --depth=1, see TODO
-_GIT_FLAGS=	# empty	
 
 GNU_CONFIGURE=	yes
 WRKSRC=			${WRKDIR}/egg
@@ -90,4 +87,7 @@ PLIST.jisx0213=		yes
 .endif
 
 .include "../../wip/mk/git-package.mk"
+# http://mail-index.netbsd.org/pkgsrc-wip-discuss/2014/01/20/msg002556.html
+# By unknown reason, tamago repository does not accept --depth=1, see TODO
+_GIT_FLAGS=	# empty	
 .include "../../mk/bsd.pkg.mk"

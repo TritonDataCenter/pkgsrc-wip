@@ -23,7 +23,6 @@ DEPENDS+=		${PYPKGPREFIX}-six-[0-9]*:../../lang/py-six
 USE_TOOLS+=		bash:run
 VERSION=		3.3.0
 WRKSRC=			${WRKDIR}/${PKGNAME_NOREV}
-FETCH_USING=		curl
 
 PYTHON_VERSIONS_INCOMPATIBLE=26 32 # py-docutils
 

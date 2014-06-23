@@ -14,7 +14,6 @@ DEPENDS+=	${PYPKGPREFIX}-fits>=2.4.0:../../graphics/py-fits
 DEPENDS+=	${PYPKGPREFIX}-pandas>=0.11.0:../../math/py-pandas
 DEPENDS+=	${PYPKGPREFIX}-scipy>=0.7.2:../../math/py-scipy
 
-FETCH_USING=	curl
 
 WRKSRC=	${WRKDIR}/${DISTNAME}
 

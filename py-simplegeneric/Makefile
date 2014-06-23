@@ -5,7 +5,6 @@ PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	devel python
 MASTER_SITES=	https://pypi.python.org/packages/source/s/simplegeneric/
 EXTRACT_SUFX=	.zip
-FETCH_USING=	curl
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	http://cheeseshop.python.org/pypi/simplegeneric

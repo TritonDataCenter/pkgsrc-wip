@@ -1,13 +1,12 @@
 # $NetBSD$
 
-DISTNAME=		tortoisehg-3.0
+DISTNAME=		tortoisehg-3.0.1
 PKGNAME=		${PYPKGPREFIX}-${DISTNAME}
-#PKGREVISION=		1
 CATEGORIES=		devel python
 MASTER_SITES=		http://bitbucket.org/tortoisehg/targz/downloads/
 
 MAINTAINER=		pkgsrc-users@NetBSD.org
-HOMEPAGE=		http://tortoisehg.org/
+HOMEPAGE=		http://tortoisehg.bitbucket.org/
 COMMENT=		GUI for Mercurial
 LICENSE=		gnu-gpl-v2
 

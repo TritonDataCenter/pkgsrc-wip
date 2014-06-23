@@ -1,6 +1,6 @@
 @comment $NetBSD$
 bin/socnetv
-man/man1/socnetv.1.gz
+man/man1/socnetv.1
 share/applications/socnetv.desktop
 share/doc/socnetv/AUTHORS
 share/doc/socnetv/COPYING

@@ -1,11 +1,10 @@
 # $NetBSD$
 #
 
-DISTNAME=	Publican-v4.1.2
+DISTNAME=	Publican-v4.1.3
 PKGNAME=	p5-${DISTNAME:S/v//1}
 CATEGORIES=	textproc
 MASTER_SITES=	https://fedorahosted.org/releases/p/u/publican/
-FETCH_USING=	curl
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	https://fedorahosted.org/publican/

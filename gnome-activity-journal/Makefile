@@ -15,7 +15,6 @@ DEPENDS+=	${PYPKGPREFIX}-pygments>=1.0:../../textproc/py-pygments
 DEPENDS+=	${PYPKGPREFIX}-distutils-extra>=2.15:../../wip/py-distutils-extra
 DEPENDS+=	${PYPKGPREFIX}-zeitgeist>=0.3.0:../../wip/py-zeitgeist
 
-FETCH_USING=	curl
 USE_TOOLS+=	intltool
 USE_LANGUAGES=	# none
 

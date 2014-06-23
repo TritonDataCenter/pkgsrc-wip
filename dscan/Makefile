@@ -12,7 +12,6 @@ HOMEPAGE=			https://github.com/dugsong/dscan
 COMMENT=			Network scanner
 LICENSE=			original-bsd
 
-FETCH_USING=		curl
 DEPENDS+=			wget-[0-9]*:../../net/wget
 WRKSRC=				${WRKDIR}/dscan-${VERSION}
 GNU_CONFIGURE=		yes

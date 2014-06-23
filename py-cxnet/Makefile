@@ -4,7 +4,6 @@ DISTNAME=	cxnet-0.3
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	math
 MASTER_SITES=	https://pypi.python.org/packages/source/c/cxnet/
-FETCH_USING=	curl
 
 MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	http://django.arek.uni-obuda.hu/cxnet/doc

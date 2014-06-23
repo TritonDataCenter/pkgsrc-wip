@@ -5,7 +5,6 @@ CPKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	textproc python
 MASTER_SITES=	https://pypi.python.org/packages/source/a/arxiv2bib/
 EXTRACT_SUFX=	.zip
-FETCH_USING=	curl
 
 MAINTAINER=	kamel.derouiche@gmail.com
 HOMEPAGE=	http://nathan11g.github.com/arxiv2bib

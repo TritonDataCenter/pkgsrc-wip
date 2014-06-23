@@ -9,7 +9,7 @@ HOMEPAGE=	http://pwmt.org/projects/zathura/
 COMMENT=	PDF viewer with vi-like keybindings
 #LICENSE=	# TODO: (see mk/license.mk)
 
-DEPENDS+=	${PYPKGPREFIX}-docutils-[0-9]*:../../textproc/py-docutils
+BUILD_DEPENDS+=	${PYPKGPREFIX}-docutils-[0-9]*:../../textproc/py-docutils
 
 USE_TOOLS+=	pkg-config gettext gmake groff
 USE_LIBTOOL=	yes
