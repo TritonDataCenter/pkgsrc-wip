@@ -1532,8 +1532,6 @@ share/emacs/${PKGVERSION}/lisp/elide-head.el.gz
 share/emacs/${PKGVERSION}/lisp/elide-head.elc
 share/emacs/${PKGVERSION}/lisp/emacs-lisp/advice.el.gz
 share/emacs/${PKGVERSION}/lisp/emacs-lisp/advice.elc
-share/emacs/${PKGVERSION}/lisp/emacs-lisp/authors.el.gz
-share/emacs/${PKGVERSION}/lisp/emacs-lisp/authors.elc
 share/emacs/${PKGVERSION}/lisp/emacs-lisp/autoload.el.gz
 share/emacs/${PKGVERSION}/lisp/emacs-lisp/autoload.elc
 share/emacs/${PKGVERSION}/lisp/emacs-lisp/avl-tree.el.gz
