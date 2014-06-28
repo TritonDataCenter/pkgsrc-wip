@@ -5,9 +5,10 @@ BUILDLINK_TREE+=	hs-resourcet
 .if !defined(HS_RESOURCET_BUILDLINK3_MK)
 HS_RESOURCET_BUILDLINK3_MK:=
 
-BUILDLINK_API_DEPENDS.hs-resourcet+=	hs-resourcet>=0.4.10
+BUILDLINK_API_DEPENDS.hs-resourcet+=	hs-resourcet>=1.1.2
 BUILDLINK_PKGSRCDIR.hs-resourcet?=	../../wip/hs-resourcet
 
+.include "../../devel/hs-exceptions/buildlink3.mk"
 .include "../../wip/hs-lifted-base/buildlink3.mk"
 .include "../../devel/hs-mmorph/buildlink3.mk"
 .include "../../wip/hs-monad-control/buildlink3.mk"
