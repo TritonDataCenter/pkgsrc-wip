@@ -1889,6 +1889,7 @@ SUBDIR+=	ossp-sa
 SUBDIR+=	ossp-str
 SUBDIR+=	ossp-val
 SUBDIR+=	ossp-var
+SUBDIR+=	osxinfo
 SUBDIR+=	othman
 SUBDIR+=	outguess
 SUBDIR+=	overgod
