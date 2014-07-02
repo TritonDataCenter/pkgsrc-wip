@@ -1824,6 +1824,7 @@ SUBDIR+=	objfw
 SUBDIR+=	objfw-git
 SUBDIR+=	obmenu
 SUBDIR+=	ocaml-bin_prot
+SUBDIR+=	ocaml-biniou
 SUBDIR+=	ocaml-camomile
 SUBDIR+=	ocaml-comparelib
 SUBDIR+=	ocaml-easy-format
