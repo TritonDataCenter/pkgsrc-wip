@@ -11,10 +11,10 @@ COMMENT=	Kyoto Text Analysis Toolkit
 LICENSE=	apache-2.0
 
 RESTRICTED=	Included model is not re-distributed without prior permission.
-NO_SRC_ON_FTP=		${RESTRICTED}
-NO_SRC_ON_CDROM=	${RESTRICTED}
-NO_BIN_ON_FTP=		${RESTRICTED}
 NO_BIN_ON_CDROM=	${RESTRICTED}
+NO_BIN_ON_FTP=		${RESTRICTED}
+NO_SRC_ON_CDROM=	${RESTRICTED}
+NO_SRC_ON_FTP=		${RESTRICTED}
 
 PKGCONFIG_OVERRIDE+=	kytea.pc.in
 
