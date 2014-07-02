@@ -2,7 +2,7 @@ $NetBSD$
 
 Shell portability fix.
 
---- src/llvm/utils/buildit/build_llvm.orig	2014-04-03 00:04:26.000000000 +0000
+--- src/llvm/utils/buildit/build_llvm.orig	2014-06-27 19:54:08.000000000 +0000
 +++ src/llvm/utils/buildit/build_llvm
 @@ -227,7 +227,7 @@ cd $DIR/obj-llvm || exit 1
  
