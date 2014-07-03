@@ -1862,6 +1862,7 @@ SUBDIR+=	opencascade
 SUBDIR+=	openconnect
 SUBDIR+=	opendchub
 SUBDIR+=	opendesktop-fonts
+SUBDIR+=	openerp-server
 SUBDIR+=	openlogos
 SUBDIR+=	openmpi
 SUBDIR+=	openmpi163

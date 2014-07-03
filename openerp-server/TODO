@@ -1,0 +1,4 @@
+$NetBSD$
+
+It builds but needs someone familiar with OpenERP to figure out why it
+doesn't run.
