@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	resourcet-0.4.10
+DISTNAME=	resourcet-1.1.2.2
 CATEGORIES=	devel
 
 MAINTAINER=	szptvlfn@NetBSD.org
@@ -9,6 +9,7 @@ LICENSE=	modified-bsd
 
 
 .include "../../wip/mk/haskell.mk"
+.include "../../devel/hs-exceptions/buildlink3.mk"
 .include "../../wip/hs-lifted-base/buildlink3.mk"
 .include "../../devel/hs-mmorph/buildlink3.mk"
 .include "../../wip/hs-monad-control/buildlink3.mk"

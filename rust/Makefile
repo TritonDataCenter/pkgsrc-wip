@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	rust-0.10
+DISTNAME=	rust-0.11.0
 CATEGORIES=	lang
 MASTER_SITES=	http://static.rust-lang.org/dist/
 
@@ -13,6 +13,7 @@ HAS_CONFIGURE=	yes
 CONFIGURE_ARGS=	--prefix=${PREFIX} \
 		--mandir=${PREFIX}/${PKGMANDIR}
 USE_LANGUAGES=	c c++
+GCC_REQD=	4.7 4.8
 USE_TOOLS+=	gmake perl
 
 # XXX problem with libtool wrapper

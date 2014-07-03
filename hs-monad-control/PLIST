@@ -1,9 +1,7 @@
 @comment $NetBSD$
 lib/monad-control-${PKGVERSION}/${HASKELL_VERSION}/Control/Monad/Trans/Control.hi
-lib/monad-control-${PKGVERSION}/${HASKELL_VERSION}/Control/Monad/Trans/Control.p_hi
 lib/monad-control-${PKGVERSION}/${HASKELL_VERSION}/HSmonad-control-${PKGVERSION}.o
 lib/monad-control-${PKGVERSION}/${HASKELL_VERSION}/libHSmonad-control-${PKGVERSION}.a
-lib/monad-control-${PKGVERSION}/${HASKELL_VERSION}/libHSmonad-control-${PKGVERSION}_p.a
 lib/monad-control-${PKGVERSION}/${HASKELL_VERSION}/package-description
 share/doc/monad-control-${PKGVERSION}/LICENSE
 ${PLIST.doc}share/doc/monad-control-${PKGVERSION}/html/Control-Monad-Trans-Control.html

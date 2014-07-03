@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	vimb-2.4
+DISTNAME=	vimb-2.5
 CATEGORIES=	www
 MASTER_SITES=	-https://github.com/fanglingsu/vimb/archive/${PKGVERSION_NOREV}${EXTRACT_SUFX}
 

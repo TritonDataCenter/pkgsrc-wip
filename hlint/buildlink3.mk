@@ -5,7 +5,7 @@ BUILDLINK_TREE+=	hlint
 .if !defined(HLINT_BUILDLINK3_MK)
 HLINT_BUILDLINK3_MK:=
 
-BUILDLINK_API_DEPENDS.hlint+=	hlint>=1.8.58
+BUILDLINK_API_DEPENDS.hlint+=	hlint>=1.8.61
 BUILDLINK_PKGSRCDIR.hlint?=	../../wip/hlint
 
 .include "../../devel/hs-cmdargs/buildlink3.mk"

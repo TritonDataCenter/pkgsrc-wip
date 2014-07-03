@@ -24,6 +24,7 @@ lib/Panel/applets/memory.so
 lib/Panel/applets/mixer.so
 lib/Panel/applets/pager.so
 lib/Panel/applets/phone.so
+lib/Panel/applets/player.so
 lib/Panel/applets/rotate.so
 lib/Panel/applets/separator.so
 lib/Panel/applets/spacer.so
