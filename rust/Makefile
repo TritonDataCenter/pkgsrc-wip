@@ -13,6 +13,7 @@ HAS_CONFIGURE=	yes
 CONFIGURE_ARGS=	--prefix=${PREFIX} \
 		--mandir=${PREFIX}/${PKGMANDIR}
 USE_LANGUAGES=	c c++
+GCC_REQD=	4.7 4.8
 USE_TOOLS+=	gmake perl
 
 # XXX problem with libtool wrapper
