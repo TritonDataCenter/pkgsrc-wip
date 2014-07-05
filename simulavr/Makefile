@@ -17,6 +17,7 @@ CONFIGURE_ARGS+=	--disable-tests
 CONFIGURE_ARGS+=	--enable-python=python${PYVERSSUFFIX}
 CONFIGURE_ARGS+=	--with-bfd=${PREFIX}/avr
 CONFIGURE_ARGS+=	--with-libiberty=${PREFIX}/lib/gcc/avr
+CONFIGURE_ENV+=		TEX=no
 
 # Following line does not work yet (examples/python directory)
 #CONFIGURE_ENV+=	az_python_use=true
