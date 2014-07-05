@@ -2899,7 +2899,6 @@ SUBDIR+=	py-tmux
 SUBDIR+=	py-toeplitz
 SUBDIR+=	py-topkapi
 SUBDIR+=	py-toro
-SUBDIR+=	py-tortoisehg
 SUBDIR+=	py-toscawidgets
 SUBDIR+=	py-tqdm
 SUBDIR+=	py-tracks
