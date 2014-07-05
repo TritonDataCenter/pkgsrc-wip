@@ -1,5 +1,7 @@
 $NetBSD$
+
 * Point to docs installed on computer instead of online docs.
+
 --- tortoisehg/hgqt/qtlib.py.orig	2014-03-05 15:42:01.000000000 +0000
 +++ tortoisehg/hgqt/qtlib.py
 @@ -57,7 +57,7 @@ def gettempdir():

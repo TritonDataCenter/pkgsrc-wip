@@ -1,5 +1,7 @@
 $NetBSD$
+
 * include doc_path in paths
+
 --- tortoisehg/util/paths.py.orig	2014-03-05 15:40:47.000000000 +0000
 +++ tortoisehg/util/paths.py
 @@ -7,9 +7,9 @@
