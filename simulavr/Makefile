@@ -22,6 +22,8 @@ CONFIGURE_ARGS+=	--with-libiberty=${PREFIX}/lib/gcc/avr
 #CONFIGURE_ENV+=	az_python_use=true
 #MAKE_ENV+=		az_python_use=true
 
+MAKE_JOBS_SAFE=		no
+
 USE_TOOLS+=		makeinfo gmake
 USE_LIBTOOL=		yes
 USE_LANGUAGES+=		c c++
