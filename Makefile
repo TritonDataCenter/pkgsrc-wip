@@ -1478,6 +1478,7 @@ SUBDIR+=	libraw1394
 SUBDIR+=	libre
 SUBDIR+=	libreoffice
 SUBDIR+=	libreoffice-devel
+SUBDIR+=	libressl
 SUBDIR+=	libscscp
 SUBDIR+=	libslab
 SUBDIR+=	libsnappy
