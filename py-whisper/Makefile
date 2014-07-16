@@ -13,5 +13,7 @@ LICENSE=	apache-2.0
 
 USE_LANGUAGES=	# none
 
+PYTHON_VERSIONS_INCOMPATIBLE=	33 34
+
 .include "../../lang/python/distutils.mk"
 .include "../../mk/bsd.pkg.mk"
