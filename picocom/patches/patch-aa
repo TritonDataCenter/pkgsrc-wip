@@ -1,5 +1,7 @@
 $NetBSD$
 
+- Make Makefile aware of installation prefix.
+
 --- Makefile.orig	2014-06-18 20:44:43.000000000 +0000
 +++ Makefile
 @@ -7,12 +7,15 @@ UUCP_LOCK_DIR=/var/lock
