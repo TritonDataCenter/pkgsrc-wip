@@ -6,7 +6,7 @@ PKGREVISION=	1
 CATEGORIES=	www perl5
 MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=Catalyst/}
 
-MAINTAINER=	pkgsrc-p5-people@NetBSD.org
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://search.cpan.org/dist/Catalyst-Model-LDAP/
 COMMENT=	Net::LDAP model class for Catalyst
 
