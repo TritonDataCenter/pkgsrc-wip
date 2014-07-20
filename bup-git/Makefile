@@ -106,7 +106,8 @@ post-install:
 	${INSTALL_DATA} ${WRKSRC}/DESIGN ${DESTDIR}${PREFIX}/share/doc/bup
 	${INSTALL_DATA} ${WRKSRC}/README ${DESTDIR}${PREFIX}/share/doc/bup
 
-.include "../../filesystems/py-fuse-bindings/buildlink3.mk"
+.include "options.mk"
+
 .include "../../lang/python/application.mk"
 .include "../../wip/mk/git-package.mk"
 .include "../../mk/bsd.pkg.mk"
