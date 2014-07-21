@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	obspy-0.8.4
+DISTNAME=	obspy-0.9.2
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	math python
 MASTER_SITES=	https://pypi.python.org/packages/source/o/obspy/

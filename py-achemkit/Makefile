@@ -1,0 +1,16 @@
+# $NetBSD$
+
+DISTNAME=	AChemKit-0.3.0
+PKGNAME=	${PYPKGPREFIX}-${DISTNAME:tl}
+CATEGORIES=	biology
+MASTER_SITES=	https://pypi.python.org/packages/source/A/AChemKit/
+
+MAINTAINER=	jihbed.research@gmail.com
+HOMEPAGE=	 https://github.com/afaulconbridge/PyAChemKit
+COMMENT=	Artificial Chemistry Tookit
+LICENSE=	modified-bsd
+
+USE_LANGUAGES=	# none
+
+.include "../../lang/python/egg.mk"
+.include "../../mk/bsd.pkg.mk"
