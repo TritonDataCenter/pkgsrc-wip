@@ -104,7 +104,6 @@ ${PLIST.doc}share/doc/${PKGNAME}/html/dir_000001.html
 ${PLIST.doc}share/doc/${PKGNAME}/html/doxygen.png
 ${PLIST.doc}share/doc/${PKGNAME}/html/files.html
 ${PLIST.doc}share/doc/${PKGNAME}/html/ftv2blank.png
-${PLIST.doc}share/doc/${PKGNAME}/html/ftv2cl.png
 ${PLIST.doc}share/doc/${PKGNAME}/html/ftv2doc.png
 ${PLIST.doc}share/doc/${PKGNAME}/html/ftv2folderclosed.png
 ${PLIST.doc}share/doc/${PKGNAME}/html/ftv2folderopen.png
@@ -112,9 +111,7 @@ ${PLIST.doc}share/doc/${PKGNAME}/html/ftv2lastnode.png
 ${PLIST.doc}share/doc/${PKGNAME}/html/ftv2link.png
 ${PLIST.doc}share/doc/${PKGNAME}/html/ftv2mlastnode.png
 ${PLIST.doc}share/doc/${PKGNAME}/html/ftv2mnode.png
-${PLIST.doc}share/doc/${PKGNAME}/html/ftv2mo.png
 ${PLIST.doc}share/doc/${PKGNAME}/html/ftv2node.png
-${PLIST.doc}share/doc/${PKGNAME}/html/ftv2ns.png
 ${PLIST.doc}share/doc/${PKGNAME}/html/ftv2plastnode.png
 ${PLIST.doc}share/doc/${PKGNAME}/html/ftv2pnode.png
 ${PLIST.doc}share/doc/${PKGNAME}/html/ftv2splitbar.png
