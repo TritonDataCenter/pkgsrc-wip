@@ -1472,7 +1472,6 @@ SUBDIR+=	libpar2
 SUBDIR+=	libpare
 SUBDIR+=	libparsifal
 SUBDIR+=	libpcap-latest
-SUBDIR+=	libpgf
 SUBDIR+=	libpsurface
 SUBDIR+=	libpthread-stubs
 SUBDIR+=	libpusb
