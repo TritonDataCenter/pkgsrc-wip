@@ -1,5 +1,8 @@
 $NetBSD$
+
 * add --enable-doc option
+https://sourceforge.net/p/libpgf/patches/8/
+
 --- configure.ac.orig	2014-06-18 08:16:27.000000000 +0000
 +++ configure.ac
 @@ -30,8 +30,11 @@ AC_CONFIG_HEADERS( config.h )
