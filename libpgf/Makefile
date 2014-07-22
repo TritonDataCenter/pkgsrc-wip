@@ -16,6 +16,7 @@ USE_TOOLS+=	aclocal autoconf automake pkg-config
 USE_LANGUAGES=	c c++
 USE_LIBTOOL=	yes
 
+# https://sourceforge.net/p/libpgf/bugs/7/
 BUILD_DEPENDS+=	dos2unix-[0-9]*:../../converters/dos2unix
 
 pre-patch:
