@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	girara-0.2.0
+DISTNAME=	girara-0.2.2
 CATEGORIES=	x11
 MASTER_SITES=	http://pwmt.org/projects/girara/download/
 
