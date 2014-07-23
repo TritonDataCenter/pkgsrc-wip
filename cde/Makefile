@@ -1,12 +1,11 @@
 # $NetBSD$
 #
-# CDE - The Common Desktop Environment
 DISTNAME=	cde-2.2.0b
 CATEGORIES=	x11
 
 MAINTAINER=	jelle@jellehermsen.nl
 HOMEPAGE=	http://cdesktopenv.sourceforge.net/
-COMMENT=	CDE is a classic UNIX desktop
+COMMENT=	Common Desktop Environment
 LICENSE=	gnu-lgpl-v2
 
 USE_LANGUAGES=	c c++
