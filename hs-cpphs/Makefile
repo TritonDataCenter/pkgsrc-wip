@@ -1,11 +1,16 @@
 # $NetBSD$
 
 DISTNAME=		cpphs-1.18.5
-CATEGORIES=		lang
+CATEGORIES=		devel
 
 MAINTAINER=		esg@sdf.lonestar.org
 COMMENT=		Re-implementation of cpp in Haskell
 LICENSE=		gnu-lgpl-v2.1
+
+INSTALLATION_DIRS+= ${PKGMANDIR}/man1
+
+post-install:
+	${INSTALL_MAN} ${WRKSRC}/docs/cpphs.1 ${DESTDIR}${PREFIX}/${PKGMANDIR}/man1
 
 .include "../../mk/haskell.mk"
 .include "../../textproc/hs-polyparse/buildlink3.mk"
