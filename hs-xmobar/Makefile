@@ -11,7 +11,7 @@ LICENSE=	modified-bsd
 
 .include "../../x11/libX11/buildlink3.mk"
 .include "../../wip/mk/haskell.mk"
-.include "../../wip/hs-HTTP/buildlink3.mk"
+.include "../../www/hs-HTTP/buildlink3.mk"
 .include "../../devel/hs-mtl/buildlink3.mk"
 .include "../../textproc/hs-parsec/buildlink3.mk"
 .include "../../wip/hs-regex-compat/buildlink3.mk"
