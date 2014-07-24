@@ -1832,6 +1832,7 @@ SUBDIR+=	ocaml-comparelib
 SUBDIR+=	ocaml-easy-format
 SUBDIR+=	ocaml-enumerate
 SUBDIR+=	ocaml-fieldslib
+SUBDIR+=	ocaml-herelib
 SUBDIR+=	ocaml-odn
 SUBDIR+=	ocaml-sexplib
 SUBDIR+=	ocaml-type_conv
