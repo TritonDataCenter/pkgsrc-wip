@@ -10,5 +10,5 @@ LICENSE=	modified-bsd
 BUILD_DEPENDS=	happy:../../wip/happy
 
 .include "../../mk/haskell.mk"
-.include "../../wip/hs-cpphs/buildlink3.mk"
+.include "../../devel/hs-cpphs/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
