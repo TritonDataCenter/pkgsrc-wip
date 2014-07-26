@@ -1,0 +1,19 @@
+# $NetBSD$
+
+DISTNAME=	kabuki-0.5.4
+PKGNAME=	${PYPKGPREFIX}-${DISTNAME:tl}
+CATEGORIES=	math python
+MASTER_SITES=	https://pypi.python.org/packages/source/k/kabuki/
+
+MAINTAINER=	jihbed.research@gmail.com
+HOMEPAGE=	http://github.com/hddm-devs/kabuki
+COMMENT=	Easy creation of hierarchical bayesian models
+#LICENSE=	# TODO: (see mk/license.mk)
+
+USE_LANGUAGES=	# none
+
+PYDISTUTILSPKG= yes
+
+.include "../../lang/python/extension.mk"
+.include "../../math/py-numpy/buildlink3.mk"
+.include "../../mk/bsd.pkg.mk"
