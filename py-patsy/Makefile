@@ -1,0 +1,18 @@
+# $NetBSD$
+
+DISTNAME=	patsy-0.3.0
+PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
+CATEGORIES=	math python
+MASTER_SITES=	https://pypi.python.org/packages/source/p/patsy/
+EXTRACT_SUFX=	.zip#md5=7545518b413136ba8343dcebea07e5e2
+
+MAINTAINER=	jihbed.research@gmail.com
+HOMEPAGE=	https://pypi.python.org/packages/source/p/patsy/
+COMMENT=	Python package for describing statistical models
+LICENSE=	2-clause-bsd
+
+USE_LANGUAGES=	# none
+
+.include "../../lang/python/egg.mk"
+.include "../../math/py-numpy/buildlink3.mk"
+.include "../../mk/bsd.pkg.mk"
