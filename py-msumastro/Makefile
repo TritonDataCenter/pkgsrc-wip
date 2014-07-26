@@ -10,6 +10,8 @@ HOMEPAGE=	http://github.com/mwcraig/msumastro
 COMMENT=	Process FITS files
 LICENSE=	modified-bsd
 
+DEPENDS+=	${PYPKGPREFIX}-astropy>=0.3.1:../../wip/py-astropy
+
 USE_LANGUAGES=	# none
 
 .include "../../lang/python/egg.mk"
