@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	kiwisolver-0.1.2
+DISTNAME=	kiwisolver-0.1.3
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	devel python
 MASTER_SITES=	https://pypi.python.org/packages/source/k/kiwisolver/
