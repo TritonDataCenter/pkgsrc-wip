@@ -1144,7 +1144,6 @@ SUBDIR+=	hs-timezone-olson
 SUBDIR+=	hs-timezone-series
 SUBDIR+=	hs-transformers-abort
 SUBDIR+=	hs-uconv
-SUBDIR+=	hs-uniplate
 SUBDIR+=	hs-unix-compat
 SUBDIR+=	hs-utility-ht
 SUBDIR+=	hs-vault

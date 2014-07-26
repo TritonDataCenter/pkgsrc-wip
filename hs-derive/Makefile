@@ -11,5 +11,5 @@ LICENSE=	modified-bsd
 .include "../../wip/hs-haskell-src-exts/buildlink3.mk"
 .include "../../devel/hs-syb/buildlink3.mk"
 .include "../../devel/hs-transformers/buildlink3.mk"
-.include "../../wip/hs-uniplate/buildlink3.mk"
+.include "../../devel/hs-uniplate/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
