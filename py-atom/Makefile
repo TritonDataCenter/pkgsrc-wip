@@ -1,7 +1,7 @@
 # $NetBSD$
 
 DISTNAME=	atom-0.3.9
-PKGNAME=    ${PYPKGPREFIX}-${DISTNAME}
+PKGNAME=    	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	devel python
 MASTER_SITES=	https://pypi.python.org/packages/source/a/atom/
 
@@ -11,6 +11,8 @@ COMMENT=	Memory efficient Python objects
 LICENSE=	modified-bsd
 
 WRKSRC=		${WRKDIR}/atom-0.3.9
+
+CONFLICTS+=  ${PYPKGPREFIX}-gdata-[0-9]*
 
 USE_LANGUAGES=	c c++
 
