@@ -68,7 +68,7 @@ do-install:
 SPECIAL_PERMS+=	${PREFIX}/dt/bin/dtprintinfo ${SETUID_ROOT_PERMS}
 SPECIAL_PERMS+=	${PREFIX}/dt/bin/dtsession ${SETUID_ROOT_PERMS}
 SPECIAL_PERMS+=	${PREFIX}/dt/bin/dtterm ${SETUID_ROOT_PERMS}
-SPECIAL_PERMS+=	${PREFIX}/dt/bin/dtapppg ${SETUID_ROOT_PERMS}
+SPECIAL_PERMS+=	${PREFIX}/dt/bin/dtapppgather ${SETUID_ROOT_PERMS}
 SPECIAL_PERMS+=	${PREFIX}/dt/bin/dtmail ${REAL_ROOT_USER} mail 2511
 SPECIAL_PERMS+=	${PREFIX}/dt/bin/dtmailpr ${REAL_ROOT_USER} mail 2511
 
