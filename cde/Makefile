@@ -36,6 +36,7 @@ IMAKE_DEFINES+=		-DCdeLogfileTop=${VARBASE}/dt
 #IMAKE_DEFINES+=		-DTclLibrary=${BUILDLINK_PREFIX.tcl}/lib
 IMAKE_DEFINES+=		-DUseInstalledX11=YES
 #IMAKE_DEFINES+=	-DKornShell=${TOOLS_PATH.ksh}
+IMAKE_DEFINES+=		-DDtKornShell=${PREFIX}/dt/bin/dtksh
 BUILD_MAKE_FLAGS+=	BOOTSTRAPCFLAGS=${CFLAGS:Q}
 BUILD_MAKE_FLAGS+=	IMAKE_DEFINES=${IMAKE_DEFINES:Q}
 #MAKE_ENV+=		MFLAGS=KORNSHELL=${TOOLS_PATH.ksh}
@@ -47,6 +48,11 @@ SUBST_CLASSES+=		destdir
 SUBST_STAGE.destdir=	pre-configure
 SUBST_FILES.destdir=	admin/IntegTools/dbTools/installCDE.src
 SUBST_SED.destdir=	-e 's,-D / ,-D $$DESTDIR ,'
+
+SUBST_CLASSES+=		paths
+SUBST_STAGE.paths=	pre-configure
+SUBST_FILES.paths=	databases/*.udb databases/*.src
+SUBST_SED.paths=	-e 's,/usr/dt,${PREFIX}/dt,g'
 
 do-install:
 	${RUN}cd ${WRKSRC}/admin/IntegTools/dbTools; \
