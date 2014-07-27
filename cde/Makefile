@@ -64,6 +64,14 @@ do-install:
 	${RUN}cd ${WRKSRC}/admin/IntegTools/dbTools; \
 	${SETENV} ${MAKE_ENV} ${INSTALL_ENV} ./installCDE -s ${WRKSRC}
 
+# from databases/CDE-RUN.*
+SPECIAL_PERMS+=	${PREFIX}/dt/bin/dtprintinfo ${SETUID_ROOT_PERMS}
+SPECIAL_PERMS+=	${PREFIX}/dt/bin/dtsession ${SETUID_ROOT_PERMS}
+SPECIAL_PERMS+=	${PREFIX}/dt/bin/dtterm ${SETUID_ROOT_PERMS}
+SPECIAL_PERMS+=	${PREFIX}/dt/bin/dtapppg ${SETUID_ROOT_PERMS}
+SPECIAL_PERMS+=	${PREFIX}/dt/bin/dtmail ${REAL_ROOT_USER} mail 2511
+SPECIAL_PERMS+=	${PREFIX}/dt/bin/dtmailpr ${REAL_ROOT_USER} mail 2511
+
 .include "../../x11/libXinerama/buildlink3.mk"
 .include "../../x11/libX11/buildlink3.mk"
 .include "../../converters/libiconv/buildlink3.mk"
