@@ -2,6 +2,7 @@
 #
 
 DISTNAME=		rsyslog-7.6.3
+PKGREVISION=		1
 CATEGORIES=		sysutils
 MASTER_SITES=		http://www.rsyslog.com/files/download/rsyslog/
 
