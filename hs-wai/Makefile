@@ -14,5 +14,5 @@ LICENSE=	mit
 .include "../../net/hs-network/buildlink3.mk"
 .include "../../devel/hs-text/buildlink3.mk"
 .include "../../devel/hs-transformers/buildlink3.mk"
-.include "../../wip/hs-vault/buildlink3.mk"
+.include "../../devel/hs-vault/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
