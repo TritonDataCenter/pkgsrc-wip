@@ -1,6 +1,6 @@
 # $NetBSD$
 #
-DISTNAME=	cde-src-2.2.1
+DISTNAME=	cde-src-2.2.2
 PKGNAME=	${DISTNAME:S/-src-/-/}
 CATEGORIES=	x11
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=cdesktopenv/}
@@ -59,6 +59,8 @@ SUBST_CLASSES+=		dtksh
 SUBST_STAGE.dtksh=	pre-configure
 SUBST_FILES.dtksh=	programs/dthelp/dthelpgen/dthelpgen.dtsh
 SUBST_SED.dtksh=	-e 's,/usr/dt/bin/dtksh,${PREFIX}/dt/bin/dtksh,g'
+
+RCD_SCRIPTS=		dtlogin
 
 do-install:
 	${RUN}cd ${WRKSRC}/admin/IntegTools/dbTools; \
