@@ -1,7 +1,7 @@
 $NetBSD$
 
 Fix build on other BSDs.
---- grammar/lexer.l.orig	2013-09-03 10:31:42.000000000 +0000
+--- grammar/lexer.l.orig	2014-02-12 13:17:50.000000000 +0000
 +++ grammar/lexer.l
 @@ -88,7 +88,7 @@ extern int yydebug;
  /* somehow, I need these prototype even though the headers are 

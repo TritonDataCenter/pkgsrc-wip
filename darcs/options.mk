@@ -19,7 +19,7 @@ CONFIGURE_ARGS+= -fcurl -f-http
 .include "../../www/curl/buildlink3.mk"
 .elif !empty(PKG_OPTIONS:Mhttp)
 CONFIGURE_ARGS+= -f-curl -fhttp
-.include "../../wip/hs-HTTP/buildlink3.mk"
+.include "../../www/hs-HTTP/buildlink3.mk"
 .endif
 
 #

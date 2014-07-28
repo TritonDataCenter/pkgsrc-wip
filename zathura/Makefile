@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	zathura-0.2.7
+DISTNAME=	zathura-0.2.9
 CATEGORIES=	print
 MASTER_SITES=	http://pwmt.org/projects/zathura/download/
 

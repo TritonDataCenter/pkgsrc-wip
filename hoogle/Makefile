@@ -24,7 +24,7 @@ LICENSE=	modified-bsd
 .include "../../wip/hs-tagsoup/buildlink3.mk"
 .include "../../devel/hs-text/buildlink3.mk"
 .include "../../devel/hs-transformers/buildlink3.mk"
-.include "../../wip/hs-uniplate/buildlink3.mk"
+.include "../../devel/hs-uniplate/buildlink3.mk"
 .include "../../devel/hs-vector/buildlink3.mk"
 .include "../../wip/hs-vector-algorithms/buildlink3.mk"
 .include "../../wip/hs-wai/buildlink3.mk"

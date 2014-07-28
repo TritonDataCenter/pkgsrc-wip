@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	safe-0.3.6
+DISTNAME=	safe-0.3.7
 CATEGORIES=	devel
 
 MAINTAINER=	szptvlfn@NetBSD.org

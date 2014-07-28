@@ -38,7 +38,7 @@ CONFIGURE_ARGS+= \
 .include "../../wip/hs-regex-tdfa/buildlink3.mk"
 .include "../../wip/hs-rosezipper1/buildlink3.mk"
 .include "../../wip/hs-split/buildlink3.mk"
-.include "../../wip/hs-uniplate/buildlink3.mk"
+.include "../../devel/hs-uniplate/buildlink3.mk"
 .include "../../wip/hs-unix-compat/buildlink3.mk"
 .include "../../devel/hs-utf8-string/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

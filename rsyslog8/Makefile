@@ -2,6 +2,7 @@
 #
 
 DISTNAME=		rsyslog-8.2.2
+PKGREVISION=		1
 CATEGORIES=		sysutils
 MASTER_SITES=		http://www.rsyslog.com/files/download/rsyslog/
 
@@ -41,8 +42,6 @@ SUBST_FILES.sysmod=	platform/redhat/rsyslog.conf
 SUBST_VARS.sysmod=	RSYSLOG_SYSMOD
 SUBST_MESSAGE.sysmod=	Setting default system logging module
 
-CPPFLAGS.SunOS+=	-D_XOPEN_SOURCE=500 -D__EXTENSIONS__
-
 post-install:
 	${INSTALL_DATA_DIR} ${DESTDIR}${EGDIR}
 	${INSTALL_DATA} ${WRKSRC}/platform/redhat/rsyslog.conf ${DESTDIR}${EGDIR}/rsyslog.conf
@@ -55,7 +54,6 @@ post-install:
 		${DESTDIR}${EGDIR}/createDB-pgsql.sql
 .endif
 
-#.include "../../wip/libee/buildlink3.mk"
 BUILDLINK_ABI_DEPENDS.libestr+=	libestr>=0.1.9
 .include "../../wip/libestr/buildlink3.mk"
 .include "../../wip/liblognorm1/buildlink3.mk"

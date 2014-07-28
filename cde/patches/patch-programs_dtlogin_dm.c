@@ -6,7 +6,7 @@ $NetBSD$
  # include	<time.h>
  # include	<utime.h>
  # include	<pwd.h>
--#if defined(linux) || defined(__FreeBSD__)
+-#if defined(linux) || defined(__FreeBSD__) || defined(__NetBSD__)
 +#if defined(linux) || defined(CSRG_BASED)
  # include	<stdarg.h>
  #else
