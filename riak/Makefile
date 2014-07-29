@@ -85,6 +85,7 @@ REPLACE_FILES.escript+=	${WRKDIR}/innostore-${INNOVER}/priv/innoload
 FILES_SUBST+=		ERTS_VERSION=${VERSION.erts}
 FILES_SUBST+=		RIAK_USER=${RIAK_USER}
 FILES_SUBST+=		RIAK_GROUP=${RIAK_GROUP}
+FILES_SUBST+=		RIAK_DATA=${RIAK_DATA}
 
 CHECK_INTERPRETER_SKIP=	riak/lib/bitcask-${VERSION.bitcask}/priv/Run-eunit-loop.expect
 CHECK_INTERPRETER_SKIP+=riak/erts-${VERSION.erts}/bin/nodetool
