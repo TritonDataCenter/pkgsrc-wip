@@ -12,8 +12,6 @@ LICENSE=	2-clause-bsd
 
 USE_CMAKE= 	yes
 
-CMAKE_ARGS+=	-DPKGMANDIR=${PKGMANDIR}
-
 .include "options.mk"
 
 .include "../../mk/bsd.pkg.mk"
