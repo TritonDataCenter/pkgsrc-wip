@@ -3,6 +3,9 @@ $NetBSD$
 
 You must register following information by hand.
 
+/etc/rc.conf:
+rpcbind=YES rpcbind_flags="-l -i"
+
 /etc/services:
 dtspc		6112/tcp		# subprocess control
 
