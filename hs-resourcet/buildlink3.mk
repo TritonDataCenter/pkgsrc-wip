@@ -11,7 +11,7 @@ BUILDLINK_PKGSRCDIR.hs-resourcet?=	../../wip/hs-resourcet
 .include "../../devel/hs-exceptions/buildlink3.mk"
 .include "../../wip/hs-lifted-base/buildlink3.mk"
 .include "../../devel/hs-mmorph/buildlink3.mk"
-.include "../../wip/hs-monad-control/buildlink3.mk"
+.include "../../devel/hs-monad-control/buildlink3.mk"
 .include "../../devel/hs-mtl/buildlink3.mk"
 .include "../../devel/hs-transformers/buildlink3.mk"
 .include "../../devel/hs-transformers-base/buildlink3.mk"

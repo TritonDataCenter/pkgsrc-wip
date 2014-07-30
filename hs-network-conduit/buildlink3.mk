@@ -10,7 +10,7 @@ BUILDLINK_PKGSRCDIR.hs-network-conduit?=	../../wip/hs-network-conduit
 
 .include "../../wip/hs-conduit/buildlink3.mk"
 .include "../../wip/hs-lifted-base/buildlink3.mk"
-.include "../../wip/hs-monad-control/buildlink3.mk"
+.include "../../devel/hs-monad-control/buildlink3.mk"
 .include "../../net/hs-network/buildlink3.mk"
 .include "../../devel/hs-transformers/buildlink3.mk"
 .endif	# HS_NETWORK_CONDUIT_BUILDLINK3_MK
