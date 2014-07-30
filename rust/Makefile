@@ -16,6 +16,7 @@ USE_LANGUAGES=	c c++
 GCC_REQD=	4.7 4.8
 USE_TOOLS+=	gmake perl
 
+# for guidance: http://www.ntecs.de/blog/2014/07/29/rust-ported-to-dragonflybsd/
 # XXX problem with libtool wrapper
 # XXX needs python during build
 

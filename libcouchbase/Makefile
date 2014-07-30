@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	libcouchbase-2.1.2
+DISTNAME=	libcouchbase-2.3.2
 CATEGORIES=	devel
 MASTER_SITES=	http://packages.couchbase.com/clients/c/
 
