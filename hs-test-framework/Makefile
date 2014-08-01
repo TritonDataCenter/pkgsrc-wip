@@ -9,7 +9,7 @@ COMMENT=	Framework for running and organising tests
 LICENSE=	modified-bsd
 
 .include "../../wip/mk/haskell.mk"
-.include "../../wip/hs-ansi-terminal/buildlink3.mk"
+.include "../../devel/hs-ansi-terminal/buildlink3.mk"
 .include "../../wip/hs-ansi-wl-pprint/buildlink3.mk"
 .include "../../devel/hs-extensible-exceptions/buildlink3.mk"
 .include "../../wip/hs-hostname/buildlink3.mk"
