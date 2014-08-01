@@ -1829,6 +1829,7 @@ SUBDIR+=	ocaml-fieldslib
 SUBDIR+=	ocaml-herelib
 SUBDIR+=	ocaml-odn
 SUBDIR+=	ocaml-ounit
+SUBDIR+=	ocaml-pa_ounit
 SUBDIR+=	ocaml-sexplib
 SUBDIR+=	ocaml-type_conv
 SUBDIR+=	ocaml-zed
