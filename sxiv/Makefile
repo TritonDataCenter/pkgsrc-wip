@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	sxiv-1.2
-PKGREVISION=	1
+PKGREVISION=	2
 CATEGORIES=	graphics
 MASTER_SITES=	-https://github.com/muennich/sxiv/archive/v${PKGVERSION_NOREV}${EXTRACT_SUFX}
 
