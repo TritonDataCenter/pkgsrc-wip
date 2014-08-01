@@ -10,7 +10,7 @@ LICENSE=	modified-bsd
 
 .include "../../wip/mk/haskell.mk"
 .include "../../devel/hs-exceptions/buildlink3.mk"
-.include "../../wip/hs-lifted-base/buildlink3.mk"
+.include "../../devel/hs-lifted-base/buildlink3.mk"
 .include "../../devel/hs-mmorph/buildlink3.mk"
 .include "../../devel/hs-monad-control/buildlink3.mk"
 .include "../../devel/hs-mtl/buildlink3.mk"

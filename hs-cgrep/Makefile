@@ -13,7 +13,7 @@ LICENSE=	gnu-gpl-v2
 .include "../../devel/hs-dlist/buildlink3.mk"
 .include "../../wip/hs-regex-posix/buildlink3.mk"
 .include "../../wip/hs-safe/buildlink3.mk"
-.include "../../wip/hs-split/buildlink3.mk"
+.include "../../devel/hs-split/buildlink3.mk"
 .include "../../devel/hs-stm/buildlink3.mk"
 .include "../../textproc/hs-stringsearch/buildlink3.mk"
 .include "../../devel/hs-unordered-containers/buildlink3.mk"

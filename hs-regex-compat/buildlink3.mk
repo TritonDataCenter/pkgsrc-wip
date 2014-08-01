@@ -8,7 +8,7 @@ HS_REGEX_COMPAT_BUILDLINK3_MK:=
 BUILDLINK_API_DEPENDS.hs-regex-compat+=	hs-regex-compat>=0.95
 BUILDLINK_PKGSRCDIR.hs-regex-compat?=	../../wip/hs-regex-compat
 
-.include "../../wip/hs-regex-base/buildlink3.mk"
+.include "../../textproc/hs-regex-base/buildlink3.mk"
 .include "../../wip/hs-regex-posix/buildlink3.mk"
 .endif	# HS_REGEX_COMPAT_BUILDLINK3_MK
 
