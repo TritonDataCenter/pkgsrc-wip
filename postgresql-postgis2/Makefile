@@ -43,7 +43,7 @@ SUBST_STAGE.paths=	pre-configure
 
 INSTALLATION_DIRS=	${DOCDIR} ${DOCDIR}/images ${PKGMANDIR}/man1
 
-REPLACE_PERL+=		utils/postgis_restore.pl
+REPLACE_PERL+=		utils/postgis_restore.pl.in
 #MAKE_ENV+=		PERL5=${PERL5:Q}
 
 INSTALL_ENV+=		mkinstalldirs=${INSTALL_DATA_DIR:Q}
