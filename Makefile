@@ -3355,6 +3355,7 @@ SUBDIR+=	swftools
 SUBDIR+=	swisseph
 SUBDIR+=	sword
 SUBDIR+=	sxemacs
+SUBDIR+=	sxhkd
 SUBDIR+=	sxid
 SUBDIR+=	sxiv
 SUBDIR+=	sylfilter
