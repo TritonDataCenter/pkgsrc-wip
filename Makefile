@@ -2215,7 +2215,6 @@ SUBDIR+=	pear-phploc
 SUBDIR+=	pelican
 SUBDIR+=	pessulus
 SUBDIR+=	petsc
-SUBDIR+=	pev
 SUBDIR+=	pfe
 SUBDIR+=	pgp6
 SUBDIR+=	pgplot
