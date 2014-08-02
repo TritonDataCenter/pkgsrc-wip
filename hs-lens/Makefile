@@ -12,7 +12,7 @@ LICENSE=	modified-bsd
 .include "../../wip/hs-bifunctors/buildlink3.mk"
 .include "../../wip/hs-comonad/buildlink3.mk"
 .include "../../wip/hs-contravariant/buildlink3.mk"
-.include "../../wip/hs-distributive/buildlink3.mk"
+.include "../../math/hs-distributive/buildlink3.mk"
 .include "../../devel/hs-exceptions/buildlink3.mk"
 .include "../../devel/hs-hashable/buildlink3.mk"
 .include "../../devel/hs-mtl/buildlink3.mk"

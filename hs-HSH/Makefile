@@ -15,5 +15,5 @@ LICENSE=	gnu-lgpl-v2
 .include "../../devel/hs-mtl/buildlink3.mk"
 .include "../../textproc/hs-regex-base/buildlink3.mk"
 .include "../../wip/hs-regex-compat/buildlink3.mk"
-.include "../../wip/hs-regex-posix/buildlink3.mk"
+.include "../../textproc/hs-regex-posix/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

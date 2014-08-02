@@ -14,6 +14,6 @@ LICENSE=	modified-bsd
 .include "../../devel/hs-extensible-exceptions/buildlink3.mk"
 .include "../../wip/hs-hostname/buildlink3.mk"
 .include "../../devel/hs-random/buildlink3.mk"
-.include "../../wip/hs-regex-posix/buildlink3.mk"
+.include "../../textproc/hs-regex-posix/buildlink3.mk"
 .include "../../wip/hs-xml/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
