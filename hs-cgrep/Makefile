@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	cgrep-6.4.3.1
+DISTNAME=	cgrep-6.4.5
 CATEGORIES=	textproc
 
 MAINTAINER=	szptvlfn@NetBSD.org
