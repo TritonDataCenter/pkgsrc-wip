@@ -21,7 +21,7 @@ LDFLAGS+=	${COMPILER_RPATH_FLAG}${BUILDLINK_PREFIX.boost-libs}/lib
 
 SUBST_CLASSES+=		json
 SUBST_SED.json+=	-e 's,jsoncpp/json/json.h,json/json.h,'
-SUBST_FILES.json+=	src/api.cpp src/downloader.cpp
+SUBST_FILES.json+=	src/api.cpp src/downloader.cpp src/util.cpp
 SUBST_STAGE.json=	post-configure
 SUBST_MESSAGE.json=	Fixing path to jsoncpp headers.
 
