@@ -25,6 +25,9 @@ ${PYSITELIB}/khal/compat.pyo
 ${PYSITELIB}/khal/controllers.py
 ${PYSITELIB}/khal/controllers.pyc
 ${PYSITELIB}/khal/controllers.pyo
+${PYSITELIB}/khal/exceptions.py
+${PYSITELIB}/khal/exceptions.pyc
+${PYSITELIB}/khal/exceptions.pyo
 ${PYSITELIB}/khal/khalendar/__init__.py
 ${PYSITELIB}/khal/khalendar/__init__.pyc
 ${PYSITELIB}/khal/khalendar/__init__.pyo
@@ -37,6 +40,9 @@ ${PYSITELIB}/khal/khalendar/datetimehelper.pyo
 ${PYSITELIB}/khal/khalendar/event.py
 ${PYSITELIB}/khal/khalendar/event.pyc
 ${PYSITELIB}/khal/khalendar/event.pyo
+${PYSITELIB}/khal/khalendar/exceptions.py
+${PYSITELIB}/khal/khalendar/exceptions.pyc
+${PYSITELIB}/khal/khalendar/exceptions.pyo
 ${PYSITELIB}/khal/khalendar/khalendar.py
 ${PYSITELIB}/khal/khalendar/khalendar.pyc
 ${PYSITELIB}/khal/khalendar/khalendar.pyo
