@@ -34,5 +34,5 @@ BUILD_DIRS= netbsd
 .endif
 
 .include "../../security/gnutls/buildlink3.mk"
-.include "../../www/webkit-gtk3/buildlink3.mk"
+.include "../../www/webkit1-gtk3/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
