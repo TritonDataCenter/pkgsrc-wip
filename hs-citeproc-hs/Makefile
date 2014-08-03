@@ -15,5 +15,5 @@ LICENSE=	modified-bsd
 .include "../../textproc/hs-parsec/buildlink3.mk"
 .include "../../devel/hs-syb/buildlink3.mk"
 .include "../../devel/hs-utf8-string/buildlink3.mk"
-.include "../../wip/hs-xml/buildlink3.mk"
+.include "../../textproc/hs-xml/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

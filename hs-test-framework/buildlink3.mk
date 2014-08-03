@@ -14,7 +14,7 @@ BUILDLINK_PKGSRCDIR.hs-test-framework?=	../../wip/hs-test-framework
 .include "../../wip/hs-hostname/buildlink3.mk"
 .include "../../devel/hs-random/buildlink3.mk"
 .include "../../textproc/hs-regex-posix/buildlink3.mk"
-.include "../../wip/hs-xml/buildlink3.mk"
+.include "../../textproc/hs-xml/buildlink3.mk"
 .endif	# HS_TEST_FRAMEWORK_BUILDLINK3_MK
 
 BUILDLINK_TREE+=	-hs-test-framework

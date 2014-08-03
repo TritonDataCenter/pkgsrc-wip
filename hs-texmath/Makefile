@@ -12,5 +12,5 @@ LICENSE=	gnu-gpl-v2
 .include "../../wip/hs-pandoc-types/buildlink3.mk"
 .include "../../textproc/hs-parsec/buildlink3.mk"
 .include "../../devel/hs-syb/buildlink3.mk"
-.include "../../wip/hs-xml/buildlink3.mk"
+.include "../../textproc/hs-xml/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
