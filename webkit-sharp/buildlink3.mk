@@ -9,7 +9,7 @@ BUILDLINK_API_DEPENDS.webkit-sharp+=	webkit-sharp>=0.2
 BUILDLINK_ABI_DEPENDS.webkit-sharp?=	webkit-sharp>=0.3nb1
 BUILDLINK_PKGSRCDIR.webkit-sharp?=	../../wip/webkit-sharp
 
-.include "../../www/webkit-gtk/buildlink3.mk"
+.include "../../www/webkit1-gtk/buildlink3.mk"
 .include "../../x11/gtk-sharp/buildlink3.mk"
 .endif # WEBKIT_SHARP_BUILDLINK3_MK
 

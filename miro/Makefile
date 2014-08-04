@@ -32,7 +32,7 @@ PYSETUPSUBDIR=	linux
 PYTHON_VERSIONS_INCOMPATIBLE=	33 34 # py-pyrex, py-gtk2, py-gobject
 
 .include "../../devel/py-gobject/buildlink3.mk"
-.include "../../www/webkit-gtk/buildlink3.mk"
+.include "../../www/webkit1-gtk/buildlink3.mk"
 .include "../../x11/py-gtk2/buildlink3.mk"
 .include "../../lang/python/application.mk"
 .include "../../lang/python/extension.mk"

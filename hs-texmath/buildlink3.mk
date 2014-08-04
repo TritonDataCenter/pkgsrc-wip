@@ -11,7 +11,7 @@ BUILDLINK_PKGSRCDIR.hs-texmath?=	../../wip/hs-texmath
 .include "../../wip/hs-pandoc-types/buildlink3.mk"
 .include "../../textproc/hs-parsec/buildlink3.mk"
 .include "../../devel/hs-syb/buildlink3.mk"
-.include "../../wip/hs-xml/buildlink3.mk"
+.include "../../textproc/hs-xml/buildlink3.mk"
 .endif	# HS_TEXMATH_BUILDLINK3_MK
 
 BUILDLINK_TREE+=	-hs-texmath

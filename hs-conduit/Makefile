@@ -8,9 +8,9 @@ COMMENT=	Streaming data processing library
 LICENSE=	mit
 
 .include "../../wip/mk/haskell.mk"
-.include "../../wip/hs-lifted-base/buildlink3.mk"
+.include "../../devel/hs-lifted-base/buildlink3.mk"
 .include "../../devel/hs-mmorph/buildlink3.mk"
-.include "../../wip/hs-monad-control/buildlink3.mk"
+.include "../../devel/hs-monad-control/buildlink3.mk"
 .include "../../devel/hs-mtl/buildlink3.mk"
 .include "../../wip/hs-resourcet/buildlink3.mk"
 .include "../../devel/hs-text/buildlink3.mk"

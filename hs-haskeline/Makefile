@@ -1,7 +1,6 @@
 # $NetBSD$
-#
 
-DISTNAME=	haskeline-0.7.1.1
+DISTNAME=	haskeline-0.7.1.3
 CATEGORIES=	devel
 
 MAINTAINER=	pho@cielonegro.org

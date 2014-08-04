@@ -10,7 +10,7 @@ BUILDLINK_PKGSRCDIR.hs-safer-file-handles?=	../../wip/hs-safer-file-handles
 
 .include "../../wip/hs-base-unicode-symbols/buildlink3.mk"
 .include "../../wip/hs-explicit-iomodes/buildlink3.mk"
-.include "../../wip/hs-monad-control/buildlink3.mk"
+.include "../../devel/hs-monad-control/buildlink3.mk"
 .include "../../wip/hs-pathtype/buildlink3.mk"
 .include "../../wip/hs-regional-pointers/buildlink3.mk"
 .include "../../wip/hs-regions/buildlink3.mk"
