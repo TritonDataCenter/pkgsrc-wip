@@ -8,7 +8,7 @@ POSTGRESQL_POSTGIS_BUILDLINK3_MK:=
 BUILDLINK_API_DEPENDS.postgresql-postgis+=	postgresql${PGSQL_VERSION}-postgis>=1.4
 BUILDLINK_PKGSRCDIR.postgresql-postgis?=	../../databases/postgresql-postgis
 
-PGSQL_VERSIONS_ACCEPTED=	91 90 84
+PGSQL_VERSIONS_ACCEPTED=	93 92 91 90
 
 .include "../../geography/geos/buildlink3.mk"
 .include "../../geography/proj/buildlink3.mk"
