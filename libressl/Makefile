@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	libressl-2.0.3
+DISTNAME=	libressl-2.0.4
 CATEGORIES=	security
 MASTER_SITES=	http://ftp.openbsd.org/pub/OpenBSD/LibreSSL/
 
