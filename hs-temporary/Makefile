@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	temporary-1.2.0.1
+DISTNAME=	temporary-1.2.0.3
 CATEGORIES=	sysutils
 
 MAINTAINER=	szptvlfn@NetBSD.org

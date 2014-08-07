@@ -1,0 +1,6 @@
+@comment $NetBSD$
+share/texmf-dist/tex/latex/toptesi/topcoman.sty
+share/texmf-dist/tex/latex/toptesi/topfront.sty
+share/texmf-dist/tex/latex/toptesi/toptesi.cfg
+share/texmf-dist/tex/latex/toptesi/toptesi.cls
+share/texmf-dist/tex/latex/toptesi/toptesi.sty

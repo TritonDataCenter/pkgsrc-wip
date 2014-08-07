@@ -1,6 +1,6 @@
 # $NetBSD: Makefile,v 1.19 2014/05/29 23:35:32 wiz Exp $
 
-DISTNAME=	postgis-2.0.6
+DISTNAME=	postgis-2.1.3
 PKGNAME=	postgresql${PGSQL_VERSION}-${DISTNAME}
 CATEGORIES=	databases geography
 MASTER_SITES=	http://download.osgeo.org/postgis/source/
@@ -18,10 +18,10 @@ CONFLICTS=		postgis-[0-9]*
 # gmake complains about adding + to parent rule
 MAKE_JOBS_SAFE=		no
 
-PGSQL_VERSIONS_ACCEPTED=	91 90 84
+PGSQL_VERSIONS_ACCEPTED=	90 91 92 93
 
 USE_GCC_RUNTIME=	yes
-USE_LANGUAGES=		c c++
+USE_LANGUAGES=		c c++ c99
 USE_LIBTOOL=		yes
 USE_TOOLS+=		gmake lex pax perl
 GNU_CONFIGURE=		yes
