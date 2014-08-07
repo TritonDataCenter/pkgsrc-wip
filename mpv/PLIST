@@ -1,6 +1,7 @@
 @comment $NetBSD$
 bin/mpv
 etc/mpv/encoding-profiles.conf
+man/man1/mpv.1
 share/applications/mpv.desktop
 share/icons/hicolor/16x16/apps/mpv.png
 share/icons/hicolor/32x32/apps/mpv.png
