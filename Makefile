@@ -672,6 +672,7 @@ SUBDIR+=	freedup16
 SUBDIR+=	freefem++
 SUBDIR+=	freeimage
 SUBDIR+=	freej
+SUBDIR+=	freeswitch-core
 SUBDIR+=	freevo
 SUBDIR+=	freevrrpd
 SUBDIR+=	fribid
