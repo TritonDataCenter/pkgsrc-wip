@@ -1,7 +1,8 @@
 # $NetBSD$
 DISTNAME=	mailutils-2.2
 CATEGORIES=	mail
-MASTER_SITES=	ftp://ftp.gnu.org/gnu/mailutils
+MASTER_SITES=	ftp://ftp.gnu.org/gnu/mailutils/
+#MASTER_SITES=	http://ftp.gnu.org/gnu/mailutils/
 LICENSE=	gnu-gpl-v3
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
