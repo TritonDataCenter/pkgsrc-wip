@@ -23,7 +23,6 @@ ${PYSITELIB}/gnutls/interfaces/twisted/__init__.pyo
 ${PYSITELIB}/gnutls/library/__init__.py
 ${PYSITELIB}/gnutls/library/__init__.pyc
 ${PYSITELIB}/gnutls/library/__init__.pyo
-${PYSITELIB}/gnutls/library/_init.so
 ${PYSITELIB}/gnutls/library/constants.py
 ${PYSITELIB}/gnutls/library/constants.pyc
 ${PYSITELIB}/gnutls/library/constants.pyo

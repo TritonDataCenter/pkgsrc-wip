@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	python-gnutls-1.2.5
+DISTNAME=	python-gnutls-2.0.1
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	security
 MASTER_SITES=	https://pypi.python.org/packages/source/p/python-gnutls/
@@ -20,6 +20,7 @@ SUBST_STAGE.gnutls=	post-patch
 
 EGG_NAME=	${DISTNAME:S/-/_/1}
 
+BUILDLINK_API_DEPENDS.gnutls+=	gnutls>=3.1.4
 .include "../../security/gnutls/buildlink3.mk"
 .include "../../lang/python/distutils.mk"
 .include "../../mk/bsd.pkg.mk"
