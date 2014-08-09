@@ -2393,6 +2393,7 @@ SUBDIR+=	py-async
 SUBDIR+=	py-atmark
 SUBDIR+=	py-atom
 SUBDIR+=	py-atpy
+SUBDIR+=	py-attic
 SUBDIR+=	py-automata
 SUBDIR+=	py-bctpy
 SUBDIR+=	py-behaviour
