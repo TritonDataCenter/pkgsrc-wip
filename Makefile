@@ -2721,7 +2721,6 @@ SUBDIR+=	py-notify-dev
 SUBDIR+=	py-ntch
 SUBDIR+=	py-numdifftools
 SUBDIR+=	py-numericalunits
-SUBDIR+=	py-numpydoc
 SUBDIR+=	py-nupic
 SUBDIR+=	py-nzmath
 SUBDIR+=	py-oak
