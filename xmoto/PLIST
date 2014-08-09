@@ -1,6 +1,7 @@
 @comment $NetBSD$
 bin/xmoto
 man/man6/xmoto.6
+share/applications/xmoto.desktop
 ${PLIST.nls}share/locale/ca_AD/LC_MESSAGES/xmoto.mo
 ${PLIST.nls}share/locale/ca_ES/LC_MESSAGES/xmoto.mo
 ${PLIST.nls}share/locale/ca_FR/LC_MESSAGES/xmoto.mo
@@ -11,6 +12,7 @@ ${PLIST.nls}share/locale/de_DE/LC_MESSAGES/xmoto.mo
 ${PLIST.nls}share/locale/es_ES/LC_MESSAGES/xmoto.mo
 ${PLIST.nls}share/locale/fi_FI/LC_MESSAGES/xmoto.mo
 ${PLIST.nls}share/locale/fr_FR/LC_MESSAGES/xmoto.mo
+${PLIST.nls}share/locale/gl_ES/LC_MESSAGES/xmoto.mo
 ${PLIST.nls}share/locale/hu_HU/LC_MESSAGES/xmoto.mo
 ${PLIST.nls}share/locale/it_IT/LC_MESSAGES/xmoto.mo
 ${PLIST.nls}share/locale/lt_LT/LC_MESSAGES/xmoto.mo
@@ -26,7 +28,9 @@ ${PLIST.nls}share/locale/sk_SK/LC_MESSAGES/xmoto.mo
 ${PLIST.nls}share/locale/sv_SE/LC_MESSAGES/xmoto.mo
 ${PLIST.nls}share/locale/tr_TR/LC_MESSAGES/xmoto.mo
 ${PLIST.nls}share/locale/zh_TW/LC_MESSAGES/xmoto.mo
+share/pixmaps/xmoto.xpm
 share/xmoto/Textures/Fonts/DejaVuSans.ttf
+share/xmoto/Textures/Fonts/DejaVuSansMono.ttf
 share/xmoto/Textures/Musics/MadeiraStew.ogg
 share/xmoto/Textures/Musics/batcave.ogg
 share/xmoto/Textures/Musics/foxrun.ogg
