@@ -3741,6 +3741,7 @@ SUBDIR+=	xmms-skins
 SUBDIR+=	xmms2
 SUBDIR+=	xmonad-contrib
 SUBDIR+=	xmoto
+SUBDIR+=	xnee
 SUBDIR+=	xombrero
 SUBDIR+=	xoo
 SUBDIR+=	xpde
