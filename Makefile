@@ -190,6 +190,7 @@ SUBDIR+=	bagel
 SUBDIR+=	bakery
 SUBDIR+=	baler
 SUBDIR+=	banshee
+SUBDIR+=	baresip
 SUBDIR+=	bashdb
 SUBDIR+=	bastard
 SUBDIR+=	beads
