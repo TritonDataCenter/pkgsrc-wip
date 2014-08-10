@@ -1466,6 +1466,7 @@ SUBDIR+=	libpthread-stubs
 SUBDIR+=	libpusb
 SUBDIR+=	libraw1394
 SUBDIR+=	libre
+SUBDIR+=	librem
 SUBDIR+=	libreoffice
 SUBDIR+=	libreoffice-devel
 SUBDIR+=	libressl
