@@ -1316,6 +1316,7 @@ SUBDIR+=	kplayer
 SUBDIR+=	krusader
 SUBDIR+=	ktjet
 SUBDIR+=	kuickshow
+SUBDIR+=	kup
 SUBDIR+=	kvirc
 SUBDIR+=	kxmleditor
 SUBDIR+=	kyotocabinet
