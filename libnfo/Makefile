@@ -1,5 +1,4 @@
 # $NetBSD$
-#
 
 DISTNAME=	libnfo-1.0.0
 CATEGORIES=	multimedia
@@ -11,8 +10,7 @@ HOMEPAGE=	http://libnfo.geexbox.org/
 COMMENT=	Library used to parse and write NFO files
 LICENSE=	gnu-lgpl-v2.1
 
-USE_TOOLS+=	gmake
-USE_TOOLS+=	diff
+USE_TOOLS+=	gmake pkg-config
 
 CONFIGURE_ARGS+= --prefix=${PREFIX}
 
