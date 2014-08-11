@@ -1,6 +1,7 @@
 # $NetBSD: Makefile,v 1.49 2014/02/26 22:14:31 wiz Exp $
 
 DISTNAME=		vlc-${VLC_VERSION}
+PKGREVISION=		1
 CATEGORIES=		multimedia
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=vlc/} \
 			http://download.videolan.org/pub/videolan/vlc/${VLC_VERSION}/
@@ -137,7 +138,7 @@ CHECK_WRKREF_SKIP=	lib/libvlccore.a \
 .include "../../security/libgcrypt/buildlink3.mk"
 .include "../../security/gnutls/buildlink3.mk"
 
-.include "../../multimedia/ffmpeg/buildlink3.mk"
+.include "../../multimedia/ffmpeg1/buildlink3.mk"
 .include "../../multimedia/libdvdplay/buildlink3.mk"
 .include "../../multimedia/libdvbpsi0/buildlink3.mk"
 .include "../../multimedia/libdvdnav/buildlink3.mk"

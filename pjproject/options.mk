@@ -12,7 +12,7 @@ PKG_SUGGESTED_OPTIONS+=	ffmpeg gsm ilbc openssl samplerate sdl2 speex x264
 .endif
 
 .if !empty(PKG_OPTIONS:Mffmpeg)
-.include "../../multimedia/ffmpeg/buildlink3.mk"
+.include "../../multimedia/ffmpeg1/buildlink3.mk"
 .else
 CONFIGURE_ARGS+=	--disable-ffmpeg
 .endif

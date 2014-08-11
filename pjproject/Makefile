@@ -1,6 +1,7 @@
 # $NetBSD$
 
 DISTNAME=	pjproject-2.1
+PKGREVISION=	1
 CATEGORIES=	comms
 MASTER_SITES=	http://www.pjsip.org/release/2.1/
 EXTRACT_SUFX=	.tar.bz2

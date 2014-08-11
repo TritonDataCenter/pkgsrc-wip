@@ -63,7 +63,7 @@ PRINT_PLIST_AWK+= \
 	/^lib\/synfig\/modules\/libmod_ffmpeg\.la$$/ { print "$${PLIST.ffmpeg}" $$0; next; }
 PLIST_VARS+=	ffmpeg
 .if !empty(PKG_OPTIONS:Mffmpeg)
-.include "../../multimedia/ffmpeg/buildlink3.mk"
+.include "../../multimedia/ffmpeg1/buildlink3.mk"
 PLIST.ffmpeg=	yes
 .endif
 

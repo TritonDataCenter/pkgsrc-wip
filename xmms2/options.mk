@@ -59,7 +59,7 @@ WITHOUT_PLUGINS+=	faad
 .endif
 
 .if !empty(PKG_OPTIONS:Mffmpeg)
-.include "../../multimedia/ffmpeg/buildlink3.mk"
+.include "../../multimedia/ffmpeg1/buildlink3.mk"
 CFLAGS+=		${BUILDLINK_PREFIX.ffmpeg}/include
 PLIST.ffmpeg=		yes
 .else

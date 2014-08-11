@@ -1,7 +1,7 @@
 # $NetBSD$
-#
 
 DISTNAME=	retroarch-0.9.7
+PKGREVISION=	1
 CATEGORIES=	emulators
 MASTER_SITES=	http://themaister.net/retroarch-dl/
 
