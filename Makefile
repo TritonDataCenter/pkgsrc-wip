@@ -1663,7 +1663,6 @@ SUBDIR+=	mongodb
 SUBDIR+=	monkey-bubble
 SUBDIR+=	mono-zeroconf
 SUBDIR+=	monotone-cvsimport
-SUBDIR+=	moonlight
 SUBDIR+=	mop
 SUBDIR+=	mopac7
 SUBDIR+=	mopher
