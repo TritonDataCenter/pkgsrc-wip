@@ -1156,7 +1156,6 @@ SUBDIR+=	hs-xhtml
 SUBDIR+=	hs-xmobar
 SUBDIR+=	hs-yaml
 SUBDIR+=	hs-zip-archive
-SUBDIR+=	hs-zlib
 SUBDIR+=	ht2html
 SUBDIR+=	html2latex
 SUBDIR+=	httrack

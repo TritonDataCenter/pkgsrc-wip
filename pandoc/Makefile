@@ -44,5 +44,5 @@ BUILD_DEPENDS+=	happy:../../wip/happy
 .include "../../textproc/hs-xml/buildlink3.mk"
 .include "../../wip/hs-yaml/buildlink3.mk"
 .include "../../wip/hs-zip-archive/buildlink3.mk"
-.include "../../wip/hs-zlib/buildlink3.mk"
+.include "../../archivers/hs-zlib/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
