@@ -1,6 +1,7 @@
 $NetBSD$
 
 Add NetBSD support.
+https://rt.cpan.org/Public/Bug/Display.html?id=98004
 
 --- CPU.xs.orig	2013-11-27 22:40:07.000000000 +0000
 +++ CPU.xs
