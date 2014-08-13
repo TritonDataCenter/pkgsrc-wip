@@ -19,12 +19,13 @@ PKGSRC_SETENV=		GIT_SSL_NO_VERIFY=true
 INSTALLATION_DIRS=	share/examples/p5-Packager-Utils
 
 WRKSRC=			${WRKDIR}/Packager-Utils
-PERL5_MODULE_TYPE=	Module::Build
+PERL5_MODULE_TYPE=	MakeMaker
 PERL5_PACKLIST=		auto/Packager/Utils/.packlist
 
 DEPENDS+=	p5-Alien-Packages-[0-9]*:../../devel/p5-Alien-Packages
 DEPENDS+=	p5-Module-CoreList-[0-9]*:../../devel/p5-Module-CoreList
 DEPENDS+=	p5-File-ShareDir-[0-9]*:../../devel/p5-File-ShareDir
+DEPENDS+=	p5-File-ShareDir-Install-[0-9]*:../../devel/p5-File-ShareDir-Install
 DEPENDS+=	p5-File-Find-Rule-[0-9]*:../../devel/p5-File-Find-Rule
 DEPENDS+=	p5-File-Find-Rule-Age-[0-9]*:../../devel/p5-File-Find-Rule-Age
 DEPENDS+=	p5-Hash-MoreUtils-[0-9]*:../../devel/p5-Hash-MoreUtils
