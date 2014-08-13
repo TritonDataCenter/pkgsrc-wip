@@ -4232,7 +4232,7 @@ share/fs-uae-launcher/OpenGL/raw/osmesa/mesa.py
 share/fs-uae-launcher/OpenGL/version.py
 share/fs-uae-launcher/OpenGL/wrapper.py
 share/fs-uae-launcher/fs-uae-launcher
-share/fs-uae-launcher/fs_uae_launcher-2.5.8dev-py${PYVERSSUFFIX}.egg-info
+share/fs-uae-launcher/fs_uae_launcher-2.5.10dev-py${PYVERSSUFFIX}.egg-info
 share/fs-uae-launcher/fs_uae_launcher/CDManager.py
 share/fs-uae-launcher/fs_uae_launcher/Config.py
 share/fs-uae-launcher/fs_uae_launcher/ConfigChecker.py
