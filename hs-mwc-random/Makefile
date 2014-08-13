@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	mwc-random-0.13.1.1
+DISTNAME=	mwc-random-0.13.2.0
 CATEGORIES=	math
 
 MAINTAINER=	szptvlfn@NetBSD.org
