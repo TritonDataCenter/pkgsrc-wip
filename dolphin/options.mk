@@ -28,7 +28,7 @@ CMAKE_ARGS+=		-DCMAKE_BUILD_TYPE=Debug
 .endif
 
 .if !empty(PKG_OPTIONS:Mffmpeg)
-.include "../../multimedia/ffmpeg/buildlink3.mk"
+.include "../../multimedia/ffmpeg1/buildlink3.mk"
 CMAKE_ARGS+=		-DENCODE_FRAMEDUMPS=ON
 .else
 CMAKE_ARGS+=		-DENCODE_FRAMEDUMPS=OFF
@@ -55,7 +55,7 @@ CMAKE_ARGS+=		-DENCODE_FRAMEDUMPS=OFF
 .endif
 
 .if !empty(PKG_OPTIONS:Mportaudio)
-.include "../../wip/portaudio/buildlink3.mk"
+.include "../../audio/portaudio-devel/buildlink3.mk"
 .endif
 
 .if !empty(PKG_OPTIONS:Mpulseaudio)

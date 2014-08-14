@@ -1,6 +1,7 @@
 # $NetBSD$
 
 DISTNAME=	flv2mpeg4-${FLV2MPEG_VERSION}
+PKGREVISION=	1
 CATEGORIES=	multimedia
 MASTER_SITES=	# not defined
 
@@ -35,6 +36,6 @@ do-install:
 
 .include "version.mk"
 
-.include "../../multimedia/ffmpeg/buildlink3.mk"
+.include "../../multimedia/ffmpeg1/buildlink3.mk"
 .include "../../wip/mk/svn-package.mk"
 .include "../../mk/bsd.pkg.mk"

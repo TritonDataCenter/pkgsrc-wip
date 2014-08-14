@@ -26,7 +26,7 @@ CONFIGURE_ARGS+=		--disable-cg
 .endif
 
 .if !empty(PKG_OPTIONS:Mffmpeg)
-.include "../../multimedia/ffmpeg/buildlink3.mk"
+.include "../../multimedia/ffmpeg1/buildlink3.mk"
 CONFIGURE_ARGS+=		--enable-ffmpeg
 .else
 CONFIGURE_ARGS+=		--disable-ffmpeg

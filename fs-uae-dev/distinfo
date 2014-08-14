@@ -1,9 +1,8 @@
 $NetBSD$
 
-SHA1 (fs-uae-2.5.5dev2.tar.gz) = d1456e125f4b666d93e1951cc3502198df48bcaa
-RMD160 (fs-uae-2.5.5dev2.tar.gz) = 4e937175f8282d9cb64963a715b7572696be02c0
-Size (fs-uae-2.5.5dev2.tar.gz) = 4185721 bytes
-SHA1 (patch-Makefile.py) = 8811a7272ddf31238f90f1f7fdecb218165f44e4
-SHA1 (patch-libfsemu_src_ml_manymouse_x11__xinput2.c) = 905dea1c7bc604b126abf1a6c3268c5b33554f78
-SHA1 (patch-libfsemu_src_ml_x11.c) = 7b1151e16d477efdaeef048bee6232edbc447057
-SHA1 (patch-src_od-fs_bsdsocket__posix.cpp) = 0b3eaeb77ae53a8b54b82061519af808d5342db0
+SHA1 (fs-uae-2.5.10dev.tar.gz) = f2adcca27470ea162376df5d28bd1803d53e106f
+RMD160 (fs-uae-2.5.10dev.tar.gz) = 24914c0530a08cab35074e7e2a333fa3ddb1ed96
+Size (fs-uae-2.5.10dev.tar.gz) = 4480170 bytes
+SHA1 (patch-libfsemu_src_ml_x11.c) = 577b41ae15381faf28c217df52163081e3333083
+SHA1 (patch-manymouse_x11__xinput2.c) = 17faf92f7cbd9e6b928f73fe80b856dcd4a3a6bc
+SHA1 (patch-src_od-fs_bsdsocket__posix.cpp) = cac0860d4e412996d780698be30528deb561e625

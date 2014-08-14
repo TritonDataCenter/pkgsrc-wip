@@ -1,0 +1,12 @@
+@comment $NetBSD$
+bin/cnee
+bin/gnee
+lib/libtestcb.la
+man/man1/cnee.1
+man/man1/gnee.1
+man/man1/xnee.1
+share/pixmaps/xnee.png
+share/pixmaps/xnee.xpm
+share/xnee/example1.xns
+share/xnee/simple_bash.sh
+share/xnee/xnee.sh

@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	mongodb-src-r2.6.3
+DISTNAME=	mongodb-src-r2.6.4
 PKGNAME=	${DISTNAME:S/src-r//:S/-rc/rc/}
 PKGREVISION=	1
 CATEGORIES=	databases

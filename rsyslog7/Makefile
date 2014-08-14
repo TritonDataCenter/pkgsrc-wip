@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		rsyslog-7.6.3
-PKGREVISION=		1
+PKGREVISION=		2
 CATEGORIES=		sysutils
 MASTER_SITES=		http://www.rsyslog.com/files/download/rsyslog/
 
@@ -13,7 +13,7 @@ LICENSE=		gnu-gpl-v3
 
 GNU_CONFIGURE=		yes
 CONFIGURE_ARGS+=	--disable-testbench
-CONFIGURE_ARGS+=	--enable-mmnormalize
+CONFIGURE_ARGS+=	--enable-mmjsonparse --enable-mmnormalize
 CONFIGURE_ARGS+=	--enable-cached-man-pages
 CONFIGURE_ARGS+=	--enable-imdiag --enable-impstats --enable-omstdout
 CONFIGURE_ARGS+=	--enable-diagtools --enable-usertools

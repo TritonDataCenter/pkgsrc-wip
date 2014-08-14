@@ -16,7 +16,7 @@ PKG_SUGGESTED_OPTIONS+= opengl pgsql python sqlite
 CONFIGURE_ARGS+=	--with-ffmpeg
 CONFIGURE_ARGS+=	--with-ffmpeg-includes=${PREFIX}/include/libavcodec
 CONFIGURE_ARGS+=	--with-ffmpeg-libs=${PREFIX}/lib
-.include "../../multimedia/ffmpeg/buildlink3.mk"
+.include "../../multimedia/ffmpeg1/buildlink3.mk"
 .else
 CONFIGURE_ARGS+=	--without-ffmpeg
 .endif

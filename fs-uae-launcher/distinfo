@@ -1,6 +1,6 @@
 $NetBSD$
 
-SHA1 (fs-uae-launcher-2.5.5dev.tar.gz) = 2101071859bed4ea78de6dbfe5cba8c7ffdd5b94
-RMD160 (fs-uae-launcher-2.5.5dev.tar.gz) = c26470576e3e9866f9d0f45adff71f7a8492ef90
-Size (fs-uae-launcher-2.5.5dev.tar.gz) = 9074083 bytes
+SHA1 (fs-uae-launcher-2.5.10dev.tar.gz) = f9a0f685d3a9ab24b639e635a5ec51cabce37136
+RMD160 (fs-uae-launcher-2.5.10dev.tar.gz) = 6bb7b926d13099f7f643e2c1f8eec6292d908fe5
+Size (fs-uae-launcher-2.5.10dev.tar.gz) = 9084411 bytes
 SHA1 (patch-Makefile) = 577dc076d011d8558e9c715ca4a390aaae75a816
