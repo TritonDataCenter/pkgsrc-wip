@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	atque-1.1.1
+DISTNAME=	atque-1.1.2
 CATEGORIES=	games editors
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=igniferroque/}
 EXTRACT_SUFX=	.tar.bz2
@@ -15,7 +15,11 @@ GNU_CONFIGURE=	yes
 USE_TOOLS+=	autoconf automake gmake
 USE_LANGUAGES=	c c++
 
-BUILD_DEPENDS+=	boost-headers>=1.33:../../devel/boost-headers
+BUILDLINK_API_DEPENDS.boost-headers+=	boost-headers>=1.31
+.include "../../devel/boost-headers/buildlink3.mk"
 DEPENDS+=	boost-libs>=1.33:../../devel/boost-libs
+.include "../../audio/libsndfile/buildlink3.mk"
+.include "../../devel/pango/buildlink3.mk"
+.include "../../graphics/cairo/buildlink3.mk"
 
 .include "../../mk/bsd.pkg.mk"
