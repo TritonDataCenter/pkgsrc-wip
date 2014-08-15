@@ -5,7 +5,7 @@ lib/torsocks/libtorsocks.la
 man/man1/torsocks.1
 man/man5/torsocks.conf.5
 man/man8/torsocks.8
-share/DEBUG
-share/SOCKS5
 share/doc/torsocks/ChangeLog
-share/socks-extensions.txt
+share/doc/torsocks/DEBUG
+share/doc/torsocks/SOCKS5
+share/doc/torsocks/socks-extensions.txt
