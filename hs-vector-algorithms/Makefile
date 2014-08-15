@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	vector-algorithms-0.6.0.1
+DISTNAME=	vector-algorithms-0.6.0.3
 CATEGORIES=	devel
 
 MAINTAINER=	szptvlfn@NetBSD.org
