@@ -2,6 +2,7 @@
 
 DISTNAME=	re-0.4.9
 PKGNAME=	lib${DISTNAME}
+PKGREVISION=	1
 CATEGORIES=	net
 MASTER_SITES=	http://www.creytiv.com/pub/
 
