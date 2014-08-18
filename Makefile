@@ -2508,7 +2508,6 @@ SUBDIR+=	py-django-uuidfield
 SUBDIR+=	py-djangopypi2
 SUBDIR+=	py-djvulibre
 SUBDIR+=	py-djvusmooth
-SUBDIR+=	py-docopt
 SUBDIR+=	py-dolo
 SUBDIR+=	py-drawnow
 SUBDIR+=	py-dreampie
