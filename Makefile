@@ -3182,6 +3182,7 @@ SUBDIR+=	ruby-easyjour
 SUBDIR+=	ruby-git
 SUBDIR+=	ruby-libv8
 SUBDIR+=	ruby-passenger
+SUBDIR+=	ruby-redmine
 SUBDIR+=	ruby-teamocil
 SUBDIR+=	ruby-therubyracer
 SUBDIR+=	ruby-trollop
