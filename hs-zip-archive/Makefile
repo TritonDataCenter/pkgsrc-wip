@@ -9,7 +9,7 @@ LICENSE=	modified-bsd
 
 
 .include "../../wip/mk/haskell.mk"
-.include "../../wip/hs-digest/buildlink3.mk"
+.include "../../security/hs-digest/buildlink3.mk"
 .include "../../devel/hs-mtl/buildlink3.mk"
 .include "../../devel/hs-text/buildlink3.mk"
 .include "../../archivers/hs-zlib/buildlink3.mk"
