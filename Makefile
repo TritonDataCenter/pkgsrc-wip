@@ -1526,7 +1526,6 @@ SUBDIR+=	linux24-kernel
 SUBDIR+=	linux24-kernel-headers
 SUBDIR+=	linuxdcpp
 SUBDIR+=	linuxigd
-SUBDIR+=	linuxigd-current
 SUBDIR+=	linuxtv-dvb-apps
 SUBDIR+=	lire
 SUBDIR+=	lissac
