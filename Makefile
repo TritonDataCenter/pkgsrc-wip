@@ -3019,7 +3019,6 @@ SUBDIR+=	py-weberror
 SUBDIR+=	py-webflash
 SUBDIR+=	py-webhelpers
 SUBDIR+=	py-webkit
-SUBDIR+=	py-webob
 SUBDIR+=	py-websocket
 SUBDIR+=	py-whisper
 SUBDIR+=	py-wifite
