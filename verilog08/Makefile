@@ -13,9 +13,6 @@ LICENSE=	gnu-gpl-v2
 
 PKG_INSTALLATION_TYPES=	overwrite pkgviews
 
-CONFLICTS+=	verilog-current-[0-9]*
-CONFLICTS+=	verilog-[0-9]*
-
 USE_LANGUAGES=	c c++
 
 GNU_CONFIGURE=		yes
