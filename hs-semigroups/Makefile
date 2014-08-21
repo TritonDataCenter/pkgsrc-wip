@@ -1,10 +1,10 @@
 # $NetBSD$
 
-DISTNAME=	semigroups-0.13.0.1
+DISTNAME=	semigroups-0.15.2
 CATEGORIES=	math
 
 MAINTAINER=	pho@cielonegro.org
-COMMENT=	Haskell 98 semigroups
+COMMENT=	Anything that associates
 LICENSE=	2-clause-bsd
 
 .include "../../mk/haskell.mk"
