@@ -2595,7 +2595,6 @@ SUBDIR+=	py-hostlist
 SUBDIR+=	py-hurry-filesize
 SUBDIR+=	py-hyperspy
 SUBDIR+=	py-igraph
-SUBDIR+=	py-imgSeek
 SUBDIR+=	py-impacket
 SUBDIR+=	py-imread
 SUBDIR+=	py-inflection

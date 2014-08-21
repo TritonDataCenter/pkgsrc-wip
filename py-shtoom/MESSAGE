@@ -16,6 +16,5 @@ installed on your system:
 
 	x11/py-Tk 		for --ui=tk
 	x11/py-gnome2		for --ui=gnomeui
-	x11/py-qt3-base		for --ui=qt
 
 ===========================================================================
