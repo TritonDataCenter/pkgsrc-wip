@@ -3116,7 +3116,6 @@ SUBDIR+=	redfang
 SUBDIR+=	reduze
 SUBDIR+=	regexxer
 SUBDIR+=	reinteract
-SUBDIR+=	rejik
 SUBDIR+=	rekall
 SUBDIR+=	relaydb
 SUBDIR+=	remctl
