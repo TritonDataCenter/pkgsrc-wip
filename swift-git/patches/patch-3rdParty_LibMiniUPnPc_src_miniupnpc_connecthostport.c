@@ -8,7 +8,7 @@ Include missing header for struct timeval.
  #ifndef USE_GETHOSTBYNAME
  #include <sys/types.h>
  #include <sys/socket.h>
-+#include <sys/time.h>
++#include <sys/select.h>
  #endif /* #ifndef USE_GETHOSTBYNAME */
  #endif /* #else WIN32 */
  
