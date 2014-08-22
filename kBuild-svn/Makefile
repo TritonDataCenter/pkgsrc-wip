@@ -15,7 +15,7 @@ BUILD_DEPENDS+=		gettext-tools-[0-9]*:../../devel/gettext-tools
 SVN_REPOSITORIES=	kBuild
 SVN_ROOT.kBuild=	http://svn.netlabs.org/repos/kbuild/trunk/
 
-USE_TOOLS+=		autoreconf autoconf automake gmake
+USE_TOOLS+=		autoreconf autoconf automake gmake perl
 
 INSTALLATION_DIRS=	bin
 
