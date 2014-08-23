@@ -1,17 +1,26 @@
 # $NetBSD$
 #
 
-DISTNAME=		picprog-1.1
-CATEGORIES=		devel
+DISTNAME=	picprog-1.9.1
+CATEGORIES=	devel
 MASTER_SITES=	http://hyvatti.iki.fi/~jaakko/pic/
 
-MAINTAINER=		pkgsrc-users@NetBSD.org
-HOMEPAGE=		http://hyvatti.iki.fi/~jaakko/pic/picprog.html
-COMMENT=		PIC16xxx microcontroller programmer for JDM (TE-20)
+MAINTAINER=	pkgsrc-users@NetBSD.org
+HOMEPAGE=	http://hyvatti.iki.fi/~jaakko/pic/picprog.html
+COMMENT=	PIC16, PIC12 and PIC18 microcontroller programmer
+LICENSE=	gnu-gpl-v3
 
-PKG_DESTDIR_SUPPORT=	none
-
+NO_CONFIGURE=	yes
 USE_LANGUAGES=	c c++
 USE_TOOLS+=	gmake
+
+SUBST_CLASSES+=		makefile
+SUBST_STAGE.makefile=	pre-build
+SUBST_MESSAGE.makefile=	Fixing Makefile
+SUBST_FILES.makefile=	Makefile
+SUBST_SED.makefile+=	-e 's,/usr/local,${DESTDIR}${PREFIX},'
+SUBST_SED.makefile+=	-e 's,man/man1,${PKGMANDIR}/man1,'
+
+INSTALLATION_DIRS=	bin ${PKGMANDIR}/man1
 
 .include "../../mk/bsd.pkg.mk"
