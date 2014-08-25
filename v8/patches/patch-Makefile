@@ -5,15 +5,6 @@ Therefore also remove PYTHONPATH references to the bundled version.
 
 --- Makefile.orig	2014-08-08 13:04:36.000000000 +0000
 +++ Makefile
-@@ -285,7 +285,7 @@ $(BUILDS): $(OUTDIR)/Makefile.$$@
- 	                     raw_input().replace('opt', '').capitalize()") \
- 	         builddir="$(shell pwd)/$(OUTDIR)/$@"
- 
--native: $(OUTDIR)/Makefile.native
-+native:
- 	@$(MAKE) -C "$(OUTDIR)" -f Makefile.native \
- 	         CXX="$(CXX)" LINK="$(LINK)" BUILDTYPE=Release \
- 	         builddir="$(shell pwd)/$(OUTDIR)/$@"
 @@ -403,9 +403,9 @@ $(OUT_MAKEFILES): $(GYPFILES) $(ENVFILE)
  	        cut -f 2 -d " " | cut -f 1 -d "-" ))
  	$(eval CXX_TARGET_ARCH:=$(subst aarch64,arm64,$(CXX_TARGET_ARCH)))
