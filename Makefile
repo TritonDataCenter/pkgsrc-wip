@@ -1451,6 +1451,7 @@ SUBDIR+=	libnfo
 SUBDIR+=	libode
 SUBDIR+=	liboglappth
 SUBDIR+=	libopenmodeller
+SUBDIR+=	libopenmpt-devel
 SUBDIR+=	libopensync-dev
 SUBDIR+=	libopensync-plugin-moto
 SUBDIR+=	libopensync-plugin-palm
