@@ -1,6 +1,6 @@
 # $NetBSD: Makefile,v 1.1 2014/08/26 10:44:15 wiz Exp $
 
-DISTNAME=	libopenmpt-0.2.4214
+DISTNAME=	libopenmpt-0.2.4215
 CATEGORIES=	audio
 MASTER_SITES=	http://buildbot.openmpt.org/builds/auto/src/
 
