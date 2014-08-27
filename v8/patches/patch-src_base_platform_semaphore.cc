@@ -11,7 +11,7 @@ from the openjdk7 package.
  
 +#if defined(__NetBSD__) && (__NetBSD_Version__ < 699000400)
 +static inline int
-+sem_timedwait(sem_t *sem, struct timespec *ts) {
++sem_timedwait(sem_t *sem, const struct timespec *ts) {
 +  struct timespec onems = { 0, 1000000 };
 +  struct timespec total = { 0, 0 };
 +  struct timespec unslept;

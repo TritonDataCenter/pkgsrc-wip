@@ -8,5 +8,5 @@ SHA1 (patch-Makefile.nacl) = 10487166db16c9c960ae092f4f916610b5b45c16
 SHA1 (patch-src_base_platform_platform-posix.cc) = c38321123f18594a59630a4dd0d0c3717080c740
 SHA1 (patch-src_base_platform_platform-solaris.cc) = 6f80806dfb2ec821e5d5261083df45171b78bca4
 SHA1 (patch-src_base_platform_platform.h) = f92534cd27d34af404766e9739dd52f1139fe737
-SHA1 (patch-src_base_platform_semaphore.cc) = 61e4cc1b477e7177a3acc87747d967a3cd129413
+SHA1 (patch-src_base_platform_semaphore.cc) = 5da4a1ed489c8c168470dde572a7ab86feb5e491
 SHA1 (patch-third__party_icu_icu.gyp) = ddae206a86ce68cbea9d189e12a6aeef43697f50
