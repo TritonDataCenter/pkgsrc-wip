@@ -1,6 +1,6 @@
 # $NetBSD: Makefile,v 1.17 2012/10/03 00:10:29 asau Exp $
 
-DISTNAME=	gdb-7.6.1
+DISTNAME=	gdb-7.8
 PKGNAME=	${DISTNAME:S/^/avr-/}
 CATEGORIES=	cross
 MASTER_SITES=	${MASTER_SITE_GNU:=gdb/}
