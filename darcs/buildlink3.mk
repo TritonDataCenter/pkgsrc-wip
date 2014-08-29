@@ -6,6 +6,7 @@ BUILDLINK_TREE+=	darcs
 DARCS_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.darcs+=	darcs>=2.8.4
+BUILDLINK_ABI_DEPENDS.darcs+=	darcs>=2.8.4
 BUILDLINK_PKGSRCDIR.darcs?=	../../wip/darcs
 
 .include "../../converters/libiconv/buildlink3.mk"

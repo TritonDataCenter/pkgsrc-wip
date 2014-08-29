@@ -6,6 +6,7 @@ BUILDLINK_TREE+=	hs-categories
 HS_CATEGORIES_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.hs-categories+=	hs-categories>=1.0.6
+BUILDLINK_ABI_DEPENDS.hs-categories+=	hs-categories>=1.0.6
 BUILDLINK_PKGSRCDIR.hs-categories?=	../../wip/hs-categories
 
 .endif	# HS_CATEGORIES_BUILDLINK3_MK

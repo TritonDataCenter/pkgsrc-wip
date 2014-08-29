@@ -6,6 +6,7 @@ BUILDLINK_TREE+=	hs-transformers-abort
 HS_TRANSFORMERS_ABORT_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.hs-transformers-abort+=	hs-transformers-abort>=0.4
+BUILDLINK_ABI_DEPENDS.hs-transformers-abort+=	hs-transformers-abort>=0.4
 BUILDLINK_PKGSRCDIR.hs-transformers-abort?=	../../devel/hs-transformers-abort
 
 .include "../../devel/hs-data-default/buildlink3.mk"

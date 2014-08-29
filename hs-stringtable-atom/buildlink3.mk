@@ -6,6 +6,7 @@ BUILDLINK_TREE+=	hs-stringtable-atom
 HS_STRINGTABLE_ATOM_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.hs-stringtable-atom+=	hs-stringtable-atom>=0.0.6
+BUILDLINK_ABI_DEPENDS.hs-stringtable-atom+=	hs-stringtable-atom>=0.0.6.1
 BUILDLINK_PKGSRCDIR.hs-stringtable-atom?=	../../wip/hs-stringtable-atom
 
 .include "../../devel/hs-syb/buildlink3.mk"

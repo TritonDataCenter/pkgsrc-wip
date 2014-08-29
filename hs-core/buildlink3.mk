@@ -6,6 +6,7 @@ BUILDLINK_TREE+=	hs-core
 HS_CORE_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.hs-core+=	hs-core>=0.5
+BUILDLINK_ABI_DEPENDS.hs-core+=	hs-core>=0.5
 BUILDLINK_PKGSRCDIR.hs-core?=	../../wip/hs-core
 
 .include "../../textproc/hs-parsec/buildlink3.mk"

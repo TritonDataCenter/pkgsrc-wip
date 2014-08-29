@@ -6,6 +6,7 @@ BUILDLINK_TREE+=	hs-attoparsec
 HS_ATTOPARSEC_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.hs-attoparsec+=	hs-attoparsec>=0.11.1
+BUILDLINK_ABI_DEPENDS.hs-attoparsec+=	hs-attoparsec>=0.11.1.0
 BUILDLINK_PKGSRCDIR.hs-attoparsec?=	../../wip/hs-attoparsec
 
 .include "../../math/hs-scientific/buildlink3.mk"

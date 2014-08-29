@@ -6,6 +6,7 @@ BUILDLINK_TREE+=	gtk2hs-buildtools
 GTK2HS_BUILDTOOLS_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.gtk2hs-buildtools+=	gtk2hs-buildtools>=0.12.3
+BUILDLINK_ABI_DEPENDS.gtk2hs-buildtools+=	gtk2hs-buildtools>=0.12.3
 BUILDLINK_PKGSRCDIR.gtk2hs-buildtools?=	../../wip/gtk2hs-buildtools
 
 .include "../../devel/hs-random/buildlink3.mk"

@@ -6,6 +6,7 @@ BUILDLINK_TREE+=	hs-gio
 HS_GIO_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.hs-gio+=	hs-gio>=0.12.3
+BUILDLINK_ABI_DEPENDS.hs-gio+=	hs-gio>=0.12.3
 BUILDLINK_PKGSRCDIR.hs-gio?=	../../wip/hs-gio
 
 .include "../../wip/hs-glib/buildlink3.mk"

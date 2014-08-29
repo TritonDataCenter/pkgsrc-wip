@@ -6,6 +6,7 @@ BUILDLINK_TREE+=	hs-event-list
 HS_EVENT_LIST_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.hs-event-list+=	hs-event-list>=0.1
+BUILDLINK_ABI_DEPENDS.hs-event-list+=	hs-event-list>=0.1
 BUILDLINK_PKGSRCDIR.hs-event-list?=	../../wip/hs-event-list
 
 .include "../../wip/hs-QuickCheck/buildlink3.mk"

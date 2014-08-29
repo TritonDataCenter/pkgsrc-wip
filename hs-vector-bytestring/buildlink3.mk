@@ -6,6 +6,7 @@ BUILDLINK_TREE+=	hs-vector-bytestring
 HS_VECTOR_BYTESTRING_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.hs-vector-bytestring+=	hs-vector-bytestring>=0.0.0
+BUILDLINK_ABI_DEPENDS.hs-vector-bytestring+=	hs-vector-bytestring>=0.0.0.1nb1
 BUILDLINK_PKGSRCDIR.hs-vector-bytestring?=	../../wip/hs-vector-bytestring
 
 .include "../../devel/hs-primitive/buildlink3.mk"

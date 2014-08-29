@@ -6,6 +6,7 @@ BUILDLINK_TREE+=	hs-hslogger-template
 HS_HSLOGGER_TEMPLATE_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.hs-hslogger-template+=	hs-hslogger-template>=1.0.0
+BUILDLINK_ABI_DEPENDS.hs-hslogger-template+=	hs-hslogger-template>=1.0.0
 BUILDLINK_PKGSRCDIR.hs-hslogger-template?=	../../wip/hs-hslogger-template
 
 .include "../../wip/hs-hslogger/buildlink3.mk"

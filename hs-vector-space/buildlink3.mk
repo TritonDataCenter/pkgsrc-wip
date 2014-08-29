@@ -6,6 +6,7 @@ BUILDLINK_TREE+=	hs-vector-space
 HS_VECTOR_SPACE_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.hs-vector-space+=	hs-vector-space>=0.8.6
+BUILDLINK_ABI_DEPENDS.hs-vector-space+=	hs-vector-space>=0.8.6
 BUILDLINK_PKGSRCDIR.hs-vector-space?=	../../wip/hs-vector-space
 
 .endif	# HS_VECTOR_SPACE_BUILDLINK3_MK

@@ -6,6 +6,7 @@ BUILDLINK_TREE+=	hs-gnuplot
 HS_GNUPLOT_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.hs-gnuplot+=	hs-gnuplot>=0.3.3
+BUILDLINK_ABI_DEPENDS.hs-gnuplot+=	hs-gnuplot>=0.3.3
 BUILDLINK_PKGSRCDIR.hs-gnuplot?=	../../wip/hs-gnuplot
 
 .include "../../wip/hs-monoid-transformer/buildlink3.mk"

@@ -6,6 +6,7 @@ BUILDLINK_TREE+=	hs-hxt-xslt
 HS_HXT_XSLT_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.hs-hxt-xslt+=	hs-hxt-xslt>=9.1.1
+BUILDLINK_ABI_DEPENDS.hs-hxt-xslt+=	hs-hxt-xslt>=9.1.1
 BUILDLINK_PKGSRCDIR.hs-hxt-xslt?=	../../wip/hs-hxt-xslt
 
 .include "../../wip/hs-hxt/buildlink3.mk"

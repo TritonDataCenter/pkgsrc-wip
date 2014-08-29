@@ -6,6 +6,7 @@ BUILDLINK_TREE+=	hs-ReadArgs
 HS_READARGS_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.hs-ReadArgs+=	hs-ReadArgs>=1.2.1
+BUILDLINK_ABI_DEPENDS.hs-ReadArgs+=	hs-ReadArgs>=1.2.1
 BUILDLINK_PKGSRCDIR.hs-ReadArgs?=	../../wip/hs-ReadArgs
 
 .endif	# HS_READARGS_BUILDLINK3_MK

@@ -6,6 +6,7 @@ BUILDLINK_TREE+=	hs-QuickCheck
 HS_QUICKCHECK_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.hs-QuickCheck+=	hs-QuickCheck>=2.7.3
+BUILDLINK_ABI_DEPENDS.hs-QuickCheck+=	hs-QuickCheck>=2.7.3
 BUILDLINK_PKGSRCDIR.hs-QuickCheck?=	../../wip/hs-QuickCheck
 
 .include "../../devel/hs-random/buildlink3.mk"

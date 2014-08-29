@@ -6,6 +6,7 @@ BUILDLINK_TREE+=	hs-HsSVN
 HS_HSSVN_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.hs-HsSVN+=	hs-HsSVN>=0.4.3
+BUILDLINK_ABI_DEPENDS.hs-HsSVN+=	hs-HsSVN>=0.4.3.3
 BUILDLINK_PKGSRCDIR.hs-HsSVN?=	../../wip/hs-HsSVN
 
 .include "../../devel/hs-mtl/buildlink3.mk"

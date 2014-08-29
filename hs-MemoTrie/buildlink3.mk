@@ -6,6 +6,7 @@ BUILDLINK_TREE+=	hs-MemoTrie
 HS_MEMOTRIE_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.hs-MemoTrie+=	hs-MemoTrie>=0.6.1
+BUILDLINK_ABI_DEPENDS.hs-MemoTrie+=	hs-MemoTrie>=0.6.1
 BUILDLINK_PKGSRCDIR.hs-MemoTrie?=	../../wip/hs-MemoTrie
 
 .endif	# HS_MEMOTRIE_BUILDLINK3_MK

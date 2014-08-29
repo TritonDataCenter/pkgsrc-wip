@@ -6,6 +6,7 @@ BUILDLINK_TREE+=	hs-concrete-typerep
 HS_CONCRETE_TYPEREP_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.hs-concrete-typerep+=	hs-concrete-typerep>=0.1.0
+BUILDLINK_ABI_DEPENDS.hs-concrete-typerep+=	hs-concrete-typerep>=0.1.0.2
 BUILDLINK_PKGSRCDIR.hs-concrete-typerep?=	../../wip/hs-concrete-typerep
 
 .include "../../devel/hs-hashable/buildlink3.mk"

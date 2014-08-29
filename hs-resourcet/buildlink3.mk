@@ -6,6 +6,7 @@ BUILDLINK_TREE+=	hs-resourcet
 HS_RESOURCET_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.hs-resourcet+=	hs-resourcet>=1.1.2
+BUILDLINK_ABI_DEPENDS.hs-resourcet+=	hs-resourcet>=1.1.2.3
 BUILDLINK_PKGSRCDIR.hs-resourcet?=	../../wip/hs-resourcet
 
 .include "../../devel/hs-exceptions/buildlink3.mk"

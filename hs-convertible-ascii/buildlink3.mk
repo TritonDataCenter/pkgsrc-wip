@@ -6,6 +6,7 @@ BUILDLINK_TREE+=	hs-convertible-ascii
 HS_CONVERTIBLE_ASCII_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.hs-convertible-ascii+=	hs-convertible-ascii>=0.1.0
+BUILDLINK_ABI_DEPENDS.hs-convertible-ascii+=	hs-convertible-ascii>=0.1.0.1
 BUILDLINK_PKGSRCDIR.hs-convertible-ascii?=	../../wip/hs-convertible-ascii
 
 .include "../../wip/hs-ascii/buildlink3.mk"

@@ -6,6 +6,7 @@ BUILDLINK_TREE+=	hs-conduit
 HS_CONDUIT_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.hs-conduit+=	hs-conduit>=1.0.9
+BUILDLINK_ABI_DEPENDS.hs-conduit+=	hs-conduit>=1.0.9.3
 BUILDLINK_PKGSRCDIR.hs-conduit?=	../../wip/hs-conduit
 
 .include "../../devel/hs-lifted-base/buildlink3.mk"

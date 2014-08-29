@@ -6,6 +6,7 @@ BUILDLINK_TREE+=	hs-void
 HS_VOID_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.hs-void+=	hs-void>=0.6.1
+BUILDLINK_ABI_DEPENDS.hs-void+=	hs-void>=0.6.1
 BUILDLINK_PKGSRCDIR.hs-void?=	../../wip/hs-void
 
 .include "../../devel/hs-hashable/buildlink3.mk"

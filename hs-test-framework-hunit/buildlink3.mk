@@ -6,6 +6,7 @@ BUILDLINK_TREE+=	hs-test-framework-hunit
 HS_TEST_FRAMEWORK_HUNIT_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.hs-test-framework-hunit+=	hs-test-framework-hunit>=0.3.0
+BUILDLINK_ABI_DEPENDS.hs-test-framework-hunit+=	hs-test-framework-hunit>=0.3.0
 BUILDLINK_PKGSRCDIR.hs-test-framework-hunit?=	../../wip/hs-test-framework-hunit
 
 .include "../../devel/hs-extensible-exceptions/buildlink3.mk"

@@ -6,6 +6,7 @@ BUILDLINK_TREE+=	hs-haskeline
 HS_HASKELINE_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.hs-haskeline+=	hs-haskeline>=0.7.1
+BUILDLINK_ABI_DEPENDS.hs-haskeline+=	hs-haskeline>=0.7.1.3
 BUILDLINK_PKGSRCDIR.hs-haskeline?=	../../wip/hs-haskeline
 
 .include "../../wip/hs-terminfo/buildlink3.mk"

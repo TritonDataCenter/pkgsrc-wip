@@ -6,6 +6,7 @@ BUILDLINK_TREE+=	hs-comonad
 HS_COMONAD_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.hs-comonad+=	hs-comonad>=4.2
+BUILDLINK_ABI_DEPENDS.hs-comonad+=	hs-comonad>=4.2
 BUILDLINK_PKGSRCDIR.hs-comonad?=	../../wip/hs-comonad
 
 .include "../../wip/hs-contravariant/buildlink3.mk"

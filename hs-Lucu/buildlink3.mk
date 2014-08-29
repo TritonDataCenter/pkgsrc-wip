@@ -6,6 +6,7 @@ BUILDLINK_TREE+=	hs-Lucu
 HS_LUCU_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.hs-Lucu+=	hs-Lucu>=0.7.0
+BUILDLINK_ABI_DEPENDS.hs-Lucu+=	hs-Lucu>=0.7.0.3nb2
 BUILDLINK_PKGSRCDIR.hs-Lucu?=	../../wip/hs-Lucu
 
 .include "../../wip/hs-HsOpenSSL/buildlink3.mk"

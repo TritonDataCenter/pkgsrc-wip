@@ -5,7 +5,8 @@ BUILDLINK_TREE+=	hs-bindings-audiofile
 .if !defined(HS_BINDINGS_AUDIOFILE_BUILDLINK3_MK)
 HS_BINDINGS_AUDIOFILE_BUILDLINK3_MK:=
 
-BUILDLINK_API_DEPENDS.hs-bindings-audiofile+=	hs-bindings-audiofile>=0.1
+BUILDLINK_API_DEPENDS.hs-bindings-audiofile+=	hs-bindings-audiofile>=0.1.0
+BUILDLINK_ABI_DEPENDS.hs-bindings-audiofile+=	hs-bindings-audiofile>=0.1.0.2
 BUILDLINK_PKGSRCDIR.hs-bindings-audiofile?=	../../wip/hs-bindings-audiofile
 
 .include "../../audio/libaudiofile/buildlink3.mk"

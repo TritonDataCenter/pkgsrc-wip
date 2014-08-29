@@ -6,6 +6,7 @@ BUILDLINK_TREE+=	hs-case-insensitive
 HS_CASE_INSENSITIVE_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.hs-case-insensitive+=	hs-case-insensitive>=1.1.0
+BUILDLINK_ABI_DEPENDS.hs-case-insensitive+=	hs-case-insensitive>=1.1.0.3
 BUILDLINK_PKGSRCDIR.hs-case-insensitive?=	../../wip/hs-case-insensitive
 
 .include "../../devel/hs-hashable/buildlink3.mk"

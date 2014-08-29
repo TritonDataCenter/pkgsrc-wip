@@ -6,6 +6,7 @@ BUILDLINK_TREE+=	hs-MonadCatchIO-mtl
 HS_MONADCATCHIO_MTL_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.hs-MonadCatchIO-mtl+=	hs-MonadCatchIO-mtl>=0.3.0
+BUILDLINK_ABI_DEPENDS.hs-MonadCatchIO-mtl+=	hs-MonadCatchIO-mtl>=0.3.0.4
 BUILDLINK_PKGSRCDIR.hs-MonadCatchIO-mtl?=	../../wip/hs-MonadCatchIO-mtl
 
 .include "../../devel/hs-extensible-exceptions/buildlink3.mk"

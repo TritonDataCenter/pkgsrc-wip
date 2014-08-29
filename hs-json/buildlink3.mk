@@ -6,6 +6,7 @@ BUILDLINK_TREE+=	hs-json
 HS_JSON_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.hs-json+=	hs-json>=0.7
+BUILDLINK_ABI_DEPENDS.hs-json+=	hs-json>=0.7
 BUILDLINK_PKGSRCDIR.hs-json?=	../../wip/hs-json
 
 .include "../../devel/hs-mtl/buildlink3.mk"

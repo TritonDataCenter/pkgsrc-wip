@@ -6,6 +6,7 @@ BUILDLINK_TREE+=	hs-semigroups
 HS_SEMIGROUPS_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.hs-semigroups+=	hs-semigroups>=0.15.2
+BUILDLINK_ABI_DEPENDS.hs-semigroups+=	hs-semigroups>=0.15.2
 BUILDLINK_PKGSRCDIR.hs-semigroups?=	../../wip/hs-semigroups
 
 .include "../../devel/hs-hashable/buildlink3.mk"

@@ -6,6 +6,7 @@ BUILDLINK_TREE+=	hlint
 HLINT_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.hlint+=	hlint>=1.9.3
+BUILDLINK_ABI_DEPENDS.hlint+=	hlint>=1.9.3
 BUILDLINK_PKGSRCDIR.hlint?=	../../wip/hlint
 
 .include "../../devel/hs-cmdargs/buildlink3.mk"

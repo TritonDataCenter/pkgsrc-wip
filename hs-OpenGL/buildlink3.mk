@@ -5,7 +5,8 @@ BUILDLINK_TREE+=	hs-OpenGL
 .if !defined(HS_OPENGL_BUILDLINK3_MK)
 HS_OPENGL_BUILDLINK3_MK:=
 
-BUILDLINK_API_DEPENDS.hs-OpenGL+=	hs-OpenGL>=2.4.0.1
+BUILDLINK_API_DEPENDS.hs-OpenGL+=	hs-OpenGL>=2.4.0
+BUILDLINK_ABI_DEPENDS.hs-OpenGL+=	hs-OpenGL>=2.4.0.1
 BUILDLINK_PKGSRCDIR.hs-OpenGL?=	../../wip/hs-OpenGL
 
 .include "../../wip/hs-GLURaw/buildlink3.mk"
