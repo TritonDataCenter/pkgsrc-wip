@@ -37,5 +37,5 @@ do-build:
 do-install:
 	cd ${WRKSRC} && ${APXS} -i -n ${APACHE_MODULE_NAME} ${APACHE_MODULE_LA}
 
-.include "../../www/apache2/buildlink3.mk"
+.include "../../mk/apache.mk"
 .include "../../mk/bsd.pkg.mk"

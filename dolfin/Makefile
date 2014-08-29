@@ -54,7 +54,6 @@ CXXFLAGS+=	-I${LOCALBASE}/${PYINC}
 
 PKGCONFIG_OVERRIDE+=	cmake/templates/dolfin.pc.in
 
-FETCH_USING=		curl
 
 SUBST_CLASSES+=		bash
 SUBST_STAGE.bash=	post-configure

@@ -1,7 +1,7 @@
 # $NetBSD$
 
 # version number from setup.py
-DISTNAME=		khal-0.2.0
+DISTNAME=		khal-0.3.0
 EGG_NAME=		${DISTNAME}.dev
 CATEGORIES=		time net
 MASTER_SITES=		https://github.com/geier/khal
@@ -27,6 +27,7 @@ DEPENDS+=		${PYPKGPREFIX}-keyring-[0-9]*:../../security/py-keyring
 DEPENDS+=		${PYPKGPREFIX}-setproctitle-[0-9]*:../../sysutils/py-setproctitle
 
 PYTHON_VERSIONED_DEPENDENCIES=	dateutil
+PYTHON_VERSIONS_INCOMPATIBLE=	33 34 # not yet ported as of 20140604
 
 WRKSRC=			${WRKDIR}/khal
 INSTALLATION_DIRS=	share/doc/khal

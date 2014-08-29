@@ -4,7 +4,6 @@ DISTNAME=	openpyxl-1.8.0
 PKGNAME=        ${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	textproc
 MASTER_SITES=	https://pypi.python.org/packages/source/o/openpyxl/
-FETCH_USING=	curl
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	http://openpyxl.readthedocs.org/

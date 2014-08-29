@@ -20,7 +20,6 @@ USE_LANGUAGES=	# none
 
 # ftp: Unsupported URL scheme `https'
 .if ${OPSYS} == "NetBSD"
-FETCH_USING=		curl
 .endif
 
 PYDISTUTILSPKG=	yes

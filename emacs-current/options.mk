@@ -3,7 +3,7 @@
 
 ### Set options
 PKG_OPTIONS_VAR=	PKG_OPTIONS.emacs_current
-PKG_SUPPORTED_OPTIONS=	dbus gnutls imagemagick gconf svg xaw3d xml xft2
+PKG_SUPPORTED_OPTIONS=	dbus gnutls gconf imagemagick svg xaw3d xft2 xml
 # xaw3d is only valid with tookit = xaw
 
 PKG_OPTIONS_OPTIONAL_GROUPS+= window-system
@@ -18,7 +18,7 @@ PKG_OPTIONS_GROUP.toolkit= gtk motif xaw lucid
 # gtk is default in the logic below (even not included in SUGGESTED_=
 # gconf, gtk and xft2 will be ingnored for nextstep even shown as selected.
 
-PKG_SUGGESTED_OPTIONS=	dbus gnutls imagemagick svg gconf xaw3d xft2 x11
+PKG_SUGGESTED_OPTIONS=	dbus gnutls gconf imagemagick svg xaw3d xft2 xml x11
 
 .include "../../mk/bsd.options.mk"
 
@@ -134,7 +134,7 @@ CONFIGURE_ARGS+=	--with-x-toolkit=motif
 
 .include "../../mk/jpeg.buildlink3.mk"
 .include "../../graphics/tiff/buildlink3.mk"
-.include "../../mk/giflib.buildlink3.mk"
+.include "../../graphics/giflib/buildlink3.mk"
 .include "../../graphics/png/buildlink3.mk"
 .include "../../x11/libSM/buildlink3.mk"
 .include "../../x11/libXaw/buildlink3.mk"
@@ -201,9 +201,9 @@ CONFIGURE_ARGS+=	--without-png
 # -x11 nextstep		.. nextstep
 # -xft2			.. x11 gtk    svg gconf		   dbus gnutls imagemagick
 # -gnutls		.. x11 gtk    svg gconf       xft2 dbus	       imagemagick
-# -gnutls -imagemagick -dbus 
+# -gnutls -imagemagick -dbus
 #                       .. x11 gtk    svg gconf       xft2
-# -x11 -svg -gconf -xaw3d -xft2 
+# -x11 -svg -gconf -xaw3d -xft2
 #                       .. nox11	                   dbus gnutls             xml2
 # -x11 			.. nox11			   dbus gnutls imagemagick
 #			.. nox11 but several x11 libraries built and not used

@@ -4,7 +4,6 @@ DISTNAME=	helio-1.0.0b1
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	www
 MASTER_SITES=	https://pypi.python.org/packages/source/h/helio/
-FETCH_USING=	curl
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://github.com/yellowpagesgroup/Helio

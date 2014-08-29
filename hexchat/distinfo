@@ -1,8 +1,9 @@
 $NetBSD$
 
-SHA1 (hexchat-2.9.6.1.tar.xz) = a2978606df331117440614cce188494f97ebed31
-RMD160 (hexchat-2.9.6.1.tar.xz) = 256c23e638743486d9c64968d32b6bc18dc10301
-Size (hexchat-2.9.6.1.tar.xz) = 1768392 bytes
-SHA1 (patch-plugins_sysinfo_parse.c) = 59ece0f4cf4d8a7120311a9fd2700f01d3d535cf
-SHA1 (patch-plugins_sysinfo_pci.c) = 55bd99577c4a8e1a025fa89946b00efe100ef4b3
-SHA1 (patch-plugins_sysinfo_pci.h) = d9fc21b9f61d81792080127dd053241504f65183
+SHA1 (hexchat-2.10.1.tar.xz) = 3ad562ec76323ba9d0f279d36201a333594c755b
+RMD160 (hexchat-2.10.1.tar.xz) = e2ee87c0cd34055268b6a39059f49aeb2e6dbe25
+Size (hexchat-2.10.1.tar.xz) = 1618372 bytes
+SHA1 (patch-osx_launcher.sh) = 7493430921809182898aca2ebb8fd1f493dbd9d3
+SHA1 (patch-plugins_sysinfo_parse.c) = f27c7a14e61210e512e433e833e33d6603b49525
+SHA1 (patch-plugins_sysinfo_pci.c) = ddea8c85640eae7d05fee4a6cff42b368f462b9f
+SHA1 (patch-plugins_sysinfo_pci.h) = 681239a5bf99e7c4d896d3fb1f885b3c6c8d1d7d

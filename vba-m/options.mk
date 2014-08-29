@@ -14,7 +14,7 @@ CMAKE_ARGS+=	-DENABLE_DEBUGGER=OFF
 .endif
 
 .if !empty(PKG_OPTIONS:Mffmpeg)
-.include "../../multimedia/ffmpeg/buildlink3.mk"
+.include "../../multimedia/ffmpeg1/buildlink3.mk"
 CMAKE_ARGS+=	-DENABLE_FFMPEG=ON
 .else
 CMAKE_ARGS+=	-DENABLE_FFMPEG=OFF

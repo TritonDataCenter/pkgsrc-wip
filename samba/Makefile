@@ -5,13 +5,14 @@
 DISTNAME=	samba-${VERSION}
 CATEGORIES=	net
 MASTER_SITES=	${SAMBA_MIRRORS:=stable/}
+# http://www.samba.org/samba/ftp/stable/
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.samba.org/
 COMMENT=	SMB/CIFS protocol server suite
 LICENSE=	gnu-gpl-v3
 
-VERSION=	4.1.0
+VERSION=	4.1.9
 CONFLICTS+=	ja-samba-[0-9]* pam-smbpass-[0-9]* tdb-[0-9]* winbind-[0-9]*
 
 FILESDIR=		${PKGDIR}/../../net/samba/files
@@ -125,6 +126,7 @@ MAKE_DIRS=	${SAMBA_VARDIR} ${SAMBA_LOGDIR} ${SAMBA_PIDDIR}
 OWN_DIRS=	${SAMBA_ETCDIR} ${SAMBA_LOCKDIR} ${SAMBA_STATEDIR}
 OWN_DIRS_PERMS=	${SAMBA_PRIVATE} ${REAL_ROOT_USER} ${REAL_ROOT_GROUP} 0700
 RCD_SCRIPTS+=	samba nmbd smbd ${WINBINDD_RCD_SCRIPT}
+LDFLAGS+=	-Wl,-rpath,${PREFIX}/lib/samba
 
 SUBST_CLASSES+=		paths
 SUBST_MESSAGE.paths=	Fixing paths.

@@ -10,7 +10,6 @@ HOMEPAGE=	https://github.com/shattered/macro11/
 COMMENT=	Portable replacement of MACRO-11 (PDP-11 assembler)
 #LICENSE=	# TODO: (see mk/license.mk)
 
-FETCH_USING=	curl
 WRKSRC=		${WRKDIR}/macro11-${DISTNAME}
 NO_CONFIGURE=	yes
 

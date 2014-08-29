@@ -1,7 +1,6 @@
 # $NetBSD$
-#
 
-DISTNAME=	hlint-1.8.58
+DISTNAME=	hlint-1.8.61
 PKGNAME=	${DISTNAME}
 CATEGORIES=	devel
 
@@ -15,9 +14,9 @@ post-install:
 
 .include "../../wip/mk/haskell.mk"
 .include "../../devel/hs-cmdargs/buildlink3.mk"
-.include "../../wip/hs-cpphs/buildlink3.mk"
+.include "../../devel/hs-cpphs/buildlink3.mk"
 .include "../../wip/hs-haskell-src-exts/buildlink3.mk"
 .include "../../wip/hs-hscolour/buildlink3.mk"
 .include "../../devel/hs-transformers/buildlink3.mk"
-.include "../../wip/hs-uniplate/buildlink3.mk"
+.include "../../devel/hs-uniplate/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

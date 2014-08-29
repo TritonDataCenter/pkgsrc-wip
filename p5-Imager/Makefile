@@ -16,7 +16,7 @@ PERL5_PACKLIST=		auto/Imager/.packlist
 
 .include "../../fonts/t1lib/buildlink3.mk"
 .include "../../graphics/freetype2/buildlink3.mk"
-.include "../../mk/giflib.buildlink3.mk"
+.include "../../graphics/giflib/buildlink3.mk"
 .include "../../mk/jpeg.buildlink3.mk"
 .include "../../graphics/png/buildlink3.mk"
 .include "../../graphics/tiff/buildlink3.mk"

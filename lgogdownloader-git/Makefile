@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	lgogdownloader-2.12
+DISTNAME=	lgogdownloader-2.15
 CATEGORIES=	games
 MASTER_SITES=	#
 
@@ -18,6 +18,12 @@ WRKSRC=		${WRKDIR}/lgogdownloader
 USE_LANGUAGES=	c++
 USE_TOOLS+=	gmake gunzip
 LDFLAGS+=	${COMPILER_RPATH_FLAG}${BUILDLINK_PREFIX.boost-libs}/lib
+
+SUBST_CLASSES+=		json
+SUBST_SED.json+=	-e 's,jsoncpp/json/json.h,json/json.h,'
+SUBST_FILES.json+=	src/api.cpp src/downloader.cpp src/util.cpp
+SUBST_STAGE.json=	post-configure
+SUBST_MESSAGE.json=	Fixing path to jsoncpp headers.
 
 INSTALLATION_DIRS=	bin ${PKGMANDIR}/man1
 #BUILD_TARGET=		debug

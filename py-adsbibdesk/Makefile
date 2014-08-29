@@ -4,7 +4,6 @@ DISTNAME=	adsbibdesk-3.1.1
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	misc
 MASTER_SITES=	https://pypi.python.org/packages/source/a/adsbibdesk/
-FETCH_USING=	curl
 
 MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	http://www.jonathansick.ca/adsbibdesk/

@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	zathura-0.2.7
+DISTNAME=	zathura-0.2.9
 CATEGORIES=	print
 MASTER_SITES=	http://pwmt.org/projects/zathura/download/
 
@@ -9,7 +9,7 @@ HOMEPAGE=	http://pwmt.org/projects/zathura/
 COMMENT=	PDF viewer with vi-like keybindings
 #LICENSE=	# TODO: (see mk/license.mk)
 
-DEPENDS+=	${PYPKGPREFIX}-docutils-[0-9]*:../../textproc/py-docutils
+BUILD_DEPENDS+=	${PYPKGPREFIX}-docutils-[0-9]*:../../textproc/py-docutils
 
 USE_TOOLS+=	pkg-config gettext gmake groff
 USE_LIBTOOL=	yes

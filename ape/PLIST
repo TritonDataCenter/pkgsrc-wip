@@ -1,6 +1,6 @@
 @comment $NetBSD$
 bin/ape
-bin/ape_ispell
+bin/ape_aspell
 bin/ascii
 bin/runjava
 bin/search_headers
@@ -9,6 +9,8 @@ bin/xape
 man/man1/ape.1
 man/man1/apeascii.1
 man/man1/apekeys.1
+share/ape/Languages/AWK/Macros/macros
+share/ape/Languages/AWK/Macros/menu.txt
 share/ape/Languages/AWK/language_opts
 share/ape/Languages/AWK/syntax_highlighting
 share/ape/Languages/BC/language_opts

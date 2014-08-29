@@ -6,7 +6,6 @@ EGG_NAME=	NINJA_IDE-2.3
 CATEGORIES=	devel python
 MASTER_SITES=	https://github.com/ninja-ide/ninja-ide/archive/
 EXTRACT_SUFX=	.zip
-FETCH_USING=	curl
 
 MAINTAINER=	kamel.derouiche@gmail.com
 HOMEPAGE=	http://ninja-ide.org/

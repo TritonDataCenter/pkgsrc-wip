@@ -4,7 +4,6 @@ DISTNAME=	scikit-aero-v0.1.0
 PKGNAME=		${PYPKGPREFIX}-${DISTNAME:S/v//}
 CATEGORIES=	math
 MASTER_SITES=	https://pypi.python.org/packages/source/s/scikit-aero/
-FETCH_USING=	curl
 
 MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	https://github.com/Pybonacci/scikit-aero

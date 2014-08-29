@@ -10,7 +10,6 @@ HOMEPAGE=	http://github.com/bniemczyk/symbolic
 COMMENT=	symbolic mathematics for python
 LICENSE=	2-clause-bsd
 
-FETCH_USING=    curl
 
 USE_LANGUAGES=	# none
 

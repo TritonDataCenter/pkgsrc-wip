@@ -9,7 +9,6 @@ HOMEPAGE=	https://www.openyou.org
 MASTER_SITES=	-https://github.com/openyou/emokit/archive/0.5.zip
 COMMENT=	Emotive EPOC EEG development library
 
-FETCH_USING=	curl
 AUTO_MKDIRS=	yes
 USE_LANGUAGES=	c c++
 USE_CMAKE=	yes

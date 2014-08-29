@@ -14,7 +14,7 @@ LICENSE=	mit
 .include "../../wip/hs-conduit/buildlink3.mk"
 .include "../../wip/hs-http-attoparsec/buildlink3.mk"
 .include "../../wip/hs-http-types/buildlink3.mk"
-.include "../../wip/hs-lifted-base/buildlink3.mk"
+.include "../../devel/hs-lifted-base/buildlink3.mk"
 .include "../../net/hs-network/buildlink3.mk"
 .include "../../wip/hs-network-conduit/buildlink3.mk"
 .include "../../wip/hs-simple-sendfile/buildlink3.mk"

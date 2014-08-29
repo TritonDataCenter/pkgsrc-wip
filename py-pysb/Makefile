@@ -4,7 +4,6 @@ DISTNAME=	pysb-0.1.11
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	biology python
 MASTER_SITES=	https://pypi.python.org/packages/source/p/pysb/
-FETCH_USING= curl
 
 MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	http://pysb.org/

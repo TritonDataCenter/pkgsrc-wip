@@ -4,7 +4,6 @@ DISTNAME=	txdbus-1.0.8
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	sysutils
 MASTER_SITES=	https://pypi.python.org/packages/source/t/txdbus/
-FETCH_USING=	curl
 
 MAINTAINER=	kamel.derouiche@gmail.com
 HOMEPAGE=	https://github.com/cocagne/txdbus

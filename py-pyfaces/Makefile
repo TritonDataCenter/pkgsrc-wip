@@ -11,7 +11,6 @@ HOMEPAGE=	https://www.enthought.com/repo/ets/
 COMMENT=	Traits-capable windowing framewor
 LICENSE=	modified-bsd
 
-FETCH_USING=	curl
 
 USE_LANGUAGES=	# none
 

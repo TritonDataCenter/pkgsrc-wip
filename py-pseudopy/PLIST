@@ -1,0 +1,16 @@
+@comment $NetBSD$
+${PYSITELIB}/pseudopy/__init__.py
+${PYSITELIB}/pseudopy/__init__.pyc
+${PYSITELIB}/pseudopy/__init__.pyo
+${PYSITELIB}/pseudopy/demo.py
+${PYSITELIB}/pseudopy/demo.pyc
+${PYSITELIB}/pseudopy/demo.pyo
+${PYSITELIB}/pseudopy/nonnormal.py
+${PYSITELIB}/pseudopy/nonnormal.pyc
+${PYSITELIB}/pseudopy/nonnormal.pyo
+${PYSITELIB}/pseudopy/normal.py
+${PYSITELIB}/pseudopy/normal.pyc
+${PYSITELIB}/pseudopy/normal.pyo
+${PYSITELIB}/pseudopy/utils.py
+${PYSITELIB}/pseudopy/utils.pyc
+${PYSITELIB}/pseudopy/utils.pyo

@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	tabbed-0.3
+DISTNAME=	tabbed-0.6
 CATEGORIES=	x11
 MASTER_SITES=	http://dl.suckless.org/tools/
 

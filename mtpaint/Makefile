@@ -24,7 +24,7 @@ BUILD_DEPENDS+=	glib2-[0-9]*:../../devel/glib2
 .include "../../graphics/lcms2/buildlink3.mk"
 .include "../../graphics/tiff/buildlink3.mk"
 .include "../../graphics/tiff/buildlink3.mk"
-.include "../../mk/giflib.buildlink3.mk"
+.include "../../graphics/giflib/buildlink3.mk"
 .include "../../mk/jpeg.buildlink3.mk"
 .include "../../x11/gtk2/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

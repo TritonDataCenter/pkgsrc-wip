@@ -14,10 +14,10 @@ USE_LIBTOOL=	yes
 USE_LANGUAGES=	c c++
 PTHREAD_OPTS+=	require
 
-INSTALLATION_DIRS+=     share/qore/docs/modules/asn1/html
+INSTALLATION_DIRS+=     share/doc/qore-asn1-module
 post-install:
 	${INSTALL_DATA} ${WRKSRC}/docs/asn1-module-doc.html \
-		${DESTDIR}${PREFIX}/share/qore/docs/modules/asn1/html
+		${DESTDIR}${PREFIX}/share/doc/qore-asn1-module
 
 .include "options.mk"
 .include "../../wip/qore/module.mk"

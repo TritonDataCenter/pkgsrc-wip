@@ -11,7 +11,6 @@ HOMEPAGE=	https://www.torproject.org/vidalia/
 COMMENT=	Graphical Tor controller based on Qt 4.x
 LICENSE=	gnu-gpl-v2
 
-FETCH_USING=		wget
 FETCH_BEFORE_ARGS=	--no-check-certificate
 
 USE_CMAKE=	yes

@@ -12,5 +12,5 @@ LICENSE=	mit
 .include "../../wip/hs-hxt/buildlink3.mk"
 .include "../../wip/hs-hxt-charproperties/buildlink3.mk"
 .include "../../wip/hs-hxt-unicode/buildlink3.mk"
-.include "../../wip/hs-tagsoup/buildlink3.mk"
+.include "../../textproc/hs-tagsoup/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

@@ -4,7 +4,6 @@ DISTNAME=	go1.3beta1.src
 PKGNAME=	go-1.3beta1
 CATEGORIES=	lang
 MASTER_SITES=	https://storage.googleapis.com/golang/
-FETCH_USING?=	curl
 
 MAINTAINER=	bsiegert@NetBSD.org
 HOMEPAGE=	http://golang.org/

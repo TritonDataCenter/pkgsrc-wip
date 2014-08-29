@@ -5,7 +5,6 @@ PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 EGG_NAME=	scikit_monaco-${PKGVERSION}
 CATEGORIES=	math
 MASTER_SITES=	https://pypi.python.org/packages/source/s/scikit-monaco/
-FETCH_USING=	curl
 
 MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	https://pypi.python.org/pypi/scikit-monaco

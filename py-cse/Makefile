@@ -15,7 +15,6 @@ DEPENDS+=	${PYPKGPREFIX}-scipy>=0.7.2:../../math/py-scipy
 DEPENDS+=	${PYPKGPREFIX}-docutils>=0.11:../../textproc/py-docutils
 DEPENDS+=	${PYPKGPREFIX}-report-[0-9]*:../../wip/py-report
 
-FETCH_USING= curl
 
 USE_LANGUAGES=	# none
 

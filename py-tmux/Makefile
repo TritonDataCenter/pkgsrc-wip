@@ -4,7 +4,6 @@ DISTNAME=	pytmux-0.1.0
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME:S/py//}
 CATEGORIES=	misc python
 MASTER_SITES=	https://pypi.python.org/packages/source/p/pytmux/
-FETCH_USING=	curl
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://pypi.python.org/packages/source/p/pytmux/

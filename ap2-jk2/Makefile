@@ -30,5 +30,5 @@ do-install:
 	${INSTALL_DATA} ${WRKDIR}/${DISTNAME}/jk/conf/workers.properties \
 		${EGDIR}
 
-.include "../../www/apache2/buildlink3.mk"
+.include "../../mk/apache.mk"
 .include "../../mk/bsd.pkg.mk"

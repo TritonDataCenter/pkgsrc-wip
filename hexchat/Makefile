@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	hexchat-2.9.6.1
+DISTNAME=	hexchat-2.10.1
 CATEGORIES=	chat
 MASTER_SITES=	http://dl.hexchat.net/hexchat/
 EXTRACT_SUFX=	.tar.xz
@@ -12,7 +12,7 @@ LICENSE=	gnu-gpl-v2 AND gnu-lgpl-v2.1 AND mit
 
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
-USE_TOOLS+=	bison pkg-config
+USE_TOOLS+=	bison gmake intltool msgfmt msgmerge pkg-config xgettext
 USE_LANGUAGES=	c c++
 
 PKGCONFIG_OVERRIDE+=	share/pkgconfig/hexchat-plugin.pc.in
@@ -31,6 +31,7 @@ CONFIGURE_ARGS+=	--disable-xlib
 CONFIGURE_ARGS+=	--enable-mmx
 .endif
 
+.include "../../textproc/iso-codes/buildlink3.mk"
 .include "../../devel/pango/buildlink3.mk"
 .include "../../textproc/libxml2/buildlink3.mk"
 .include "../../mk/dlopen.buildlink3.mk"

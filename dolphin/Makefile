@@ -1,8 +1,8 @@
 # $NetBSD$
-#
 
 DISTNAME=	dolphin-3.5-src
 PKGNAME=	${DISTNAME:S/-src//1}
+PKGREVISION=	1
 CATEGORIES=	emulators
 MASTER_SITES=	http://dolphin-emu.googlecode.com/files/
 EXTRACT_SUFX=	.zip

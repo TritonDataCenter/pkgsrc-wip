@@ -1,7 +1,8 @@
 # $NetBSD$
 
-DISTNAME=	mongodb-src-r2.6.1
+DISTNAME=	mongodb-src-r2.6.4
 PKGNAME=	${DISTNAME:S/src-r//:S/-rc/rc/}
+PKGREVISION=	1
 CATEGORIES=	databases
 MASTER_SITES=	http://downloads.mongodb.org/src/
 
@@ -91,7 +92,7 @@ MONGODB_MAN_FILES=	bsondump.1 mongo.1 mongod.1 mongodump.1 mongoexport.1	\
 
 RCD_SCRIPTS=		mongodb
 
-INSTALLATION_DIRS=	share/doc/mongodb share/examples/mongodb ${PKGMANDIR}/man1
+INSTALLATION_DIRS+=	share/doc/mongodb share/examples/mongodb ${PKGMANDIR}/man1
 
 CONF_FILES+=		share/examples/mongodb/mongod.conf \
 			${PKG_SYSCONFDIR}/mongod.conf
@@ -104,7 +105,7 @@ do-build:
 
 do-install:
 	cd ${WRKSRC} && ${SETENV} ${MAKE_ENV} ${SCONS_BIN} ${SCONS_ARGS} \
-		--full --prefix ${DESTDIR}${PREFIX} install
+		--full --prefix=${DESTDIR}${PREFIX} install
 
 do-test:
 	cd ${WRKSRC} && ./test

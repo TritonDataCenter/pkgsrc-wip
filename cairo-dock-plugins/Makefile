@@ -22,7 +22,7 @@ USE_TOOLS+=	gmake pkg-config
 .include "../../x11/libXrandr/buildlink3.mk"
 .include "../../x11/libxklavier/buildlink3.mk"
 .include "../../x11/vte/buildlink3.mk"
-.include "../../www/webkit-gtk/buildlink3.mk"
+.include "../../www/webkit1-gtk/buildlink3.mk"
 .include "../../lang/python/application.mk"
 .include "../../wip/cairo-dock/buildlink3.mk"
 .include "../../wip/libindicator/buildlink3.mk"

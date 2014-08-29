@@ -1,6 +1,9 @@
 $NetBSD$
 
-SHA1 (Locker-0.2.1.tar.gz) = b78288b7a45212dc2b89361539c7b63c85f7ee83
-RMD160 (Locker-0.2.1.tar.gz) = 81d96bcff075eac749027841f2194351940f9a55
-Size (Locker-0.2.1.tar.gz) = 49812 bytes
-SHA1 (patch-src_auth_Makefile) = dbad9612918cdb0e3d3b52f6116aea5632a89792
+SHA1 (Locker-0.2.2.tar.gz) = cf780abf63f9dc56345dff1723202b3a3956ed9b
+RMD160 (Locker-0.2.2.tar.gz) = 415d3410ddcb98dda57f866887e5cbbaccae0664
+Size (Locker-0.2.2.tar.gz) = 53643 bytes
+SHA1 (patch-src_auth_Makefile) = af070e360dbfc58b826a5eb73c8e0e0c673936f2
+SHA1 (patch-src_demos_Makefile) = 166913e734581575dec33637c0e1a13bc1f35444
+SHA1 (patch-src_plugins_Makefile) = bfedc6329cba7370dc408afea4aa4f4bcbf53e2e
+SHA1 (patch-tools_Makefile) = c50f6b16dd0783e041d182071558884a47b87c2f

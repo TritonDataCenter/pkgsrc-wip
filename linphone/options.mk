@@ -26,7 +26,7 @@ CONFIGURE_ARGS+=	--enable-video=no
 .else
 CONFIGURE_ARGS+=	--enable-video=yes
 .include "../../devel/SDL/buildlink3.mk"
-.include "../../multimedia/ffmpeg/buildlink3.mk"
+.include "../../multimedia/ffmpeg1/buildlink3.mk"
 .endif
 
 .if !empty(PKG_OPTIONS:Mgsm)

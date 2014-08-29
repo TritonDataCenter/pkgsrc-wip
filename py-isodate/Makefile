@@ -4,7 +4,6 @@ DISTNAME=	isodate-0.4.9
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	time python
 MASTER_SITES=	https://pypi.python.org/packages/source/i/isodate/
-FETCH_USING=	curl
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	http://cheeseshop.python.org/pypi/isodate

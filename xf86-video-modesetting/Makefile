@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	xf86-video-modesetting-0.8.1
+DISTNAME=	xf86-video-modesetting-0.9.0
 CATEGORIES=	x11
 MASTER_SITES=	${MASTER_SITE_XORG:=driver/}
 EXTRACT_SUFX=	.tar.bz2

@@ -11,7 +11,6 @@ HOMEPAGE=	http://www.ardi.com/syn68k.php
 COMMENT=	ARDI's 68LC040 CPU emulator
 LICENSE=	mit
 
-FETCH_USING=	wget
 FETCH_BEFORE_ARGS=	--no-check-certificate
 USE_TOOLS+=	autoconf automake bash gmake perl
 REPLACE_BASH=	test/testall.sh

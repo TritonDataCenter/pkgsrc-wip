@@ -9,7 +9,7 @@ LICENSE=	mit
 
 .include "../../wip/mk/haskell.mk"
 .include "../../devel/hs-hashable/buildlink3.mk"
-.include "../../wip/hs-lifted-base/buildlink3.mk"
+.include "../../devel/hs-lifted-base/buildlink3.mk"
 .include "../../wip/hs-ReadArgs/buildlink3.mk"
 .include "../../wip/hs-system-filepath/buildlink3.mk"
 .include "../../devel/hs-text/buildlink3.mk"

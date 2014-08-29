@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	sxiv-1.2
-PKGREVISION=	1
+PKGREVISION=	2
 CATEGORIES=	graphics
 MASTER_SITES=	-https://github.com/muennich/sxiv/archive/v${PKGVERSION_NOREV}${EXTRACT_SUFX}
 
@@ -29,5 +29,5 @@ INSTALLATION_DIRS=	bin ${PKGMANDIR}/man1
 
 .include "../../x11/libX11/buildlink3.mk"
 .include "../../graphics/imlib2/buildlink3.mk"
-.include "../../mk/giflib.buildlink3.mk"
+.include "../../graphics/giflib/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

@@ -34,6 +34,7 @@ include/re/re_sip.h
 include/re/re_sipevent.h
 include/re/re_sipreg.h
 include/re/re_sipsess.h
+include/re/re_srtp.h
 include/re/re_stun.h
 include/re/re_sys.h
 include/re/re_tcp.h

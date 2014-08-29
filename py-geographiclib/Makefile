@@ -4,7 +4,6 @@ DISTNAME=	geographiclib-1.31
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	geography
 MASTER_SITES=	https://pypi.python.org/packages/source/g/geographiclib/
-FETCH_USING=	curl
 
 MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	http://geographiclib.sourceforge.net/

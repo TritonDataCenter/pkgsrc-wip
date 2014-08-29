@@ -16,7 +16,6 @@ USE_TOOLS+=	gmake
 USE_CMAKE=	yes
 
 # fetch from https - fails with ftp
-FETCH_USING=	curl
 
 ## vars to handle config files
 EGDIR=				${PREFIX}/share/examples/termit

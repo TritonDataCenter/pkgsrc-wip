@@ -1,7 +1,7 @@
 # $NetBSD$
-#
 
 DISTNAME=	synfig-0.62.02
+PKGREVISION=	1
 CATEGORIES=	multimedia
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=synfig/}
 

@@ -6,7 +6,6 @@ DISTNAME=		${VERSION}
 PKGNAME=		pkgin-20130502
 CATEGORIES=		pkgtools
 MASTER_SITES=		https://github.com/NetBSDfr/pkgin/archive/
-FETCH_USING=		curl
 
 MAINTAINER=		imil@home.imil.net
 HOMEPAGE=		http://pkgin.net/

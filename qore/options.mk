@@ -10,5 +10,3 @@ CONFIGURE_ARGS+=        --enable-debug
 .else
 CONFIGURE_ARGS+=        --disable-debug
 .endif
-
-

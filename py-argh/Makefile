@@ -4,7 +4,6 @@ DISTNAME=	argh-0.24.1
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	devel python
 MASTER_SITES=	https://pypi.python.org/packages/source/a/argh/
-FETCH_USING=	curl
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	http://github.com/neithere/argh/

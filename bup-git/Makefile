@@ -1,6 +1,6 @@
 # $NetBSD: Makefile,v 1.10 2013/09/09 14:07:59 wiz Exp $
 
-DISTNAME=	bup-0.25
+DISTNAME=	bup-0.26
 CATEGORIES=	sysutils
 MASTER_SITES=	#
 
@@ -106,7 +106,8 @@ post-install:
 	${INSTALL_DATA} ${WRKSRC}/DESIGN ${DESTDIR}${PREFIX}/share/doc/bup
 	${INSTALL_DATA} ${WRKSRC}/README ${DESTDIR}${PREFIX}/share/doc/bup
 
-.include "../../filesystems/py-fuse-bindings/buildlink3.mk"
+.include "options.mk"
+
 .include "../../lang/python/application.mk"
 .include "../../wip/mk/git-package.mk"
 .include "../../mk/bsd.pkg.mk"

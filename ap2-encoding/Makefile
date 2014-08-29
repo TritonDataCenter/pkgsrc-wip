@@ -30,6 +30,6 @@ CONFIGURE_ARGS+=	--with-apxs=${APXS:Q}
 post-extract:
 	${CP} ${DISTDIR:Q}/${DISTFILE.ap2:Q} ${WRKSRC:Q}/mod_encoding.c
 
-.include "../../www/apache2/buildlink3.mk"
+.include "../../mk/apache.mk"
 .include "../../converters/libiconv/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

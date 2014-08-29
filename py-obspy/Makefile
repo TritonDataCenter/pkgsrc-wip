@@ -1,11 +1,10 @@
 # $NetBSD$
 
-DISTNAME=	obspy-0.8.4
+DISTNAME=	obspy-0.9.2
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	math python
 MASTER_SITES=	https://pypi.python.org/packages/source/o/obspy/
 EXTRACT_SUFX=	.zip#md5=9da79d3a0604d433085ad4dc0e430100
-FETCH_USING=	curl
 
 MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	http://www.obspy.org/

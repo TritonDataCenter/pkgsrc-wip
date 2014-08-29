@@ -1,7 +1,6 @@
 # $NetBSD$
-#
 
-DISTNAME=	vimprobable2_1.3.0
+DISTNAME=	vimprobable2_1.4.2
 PKGNAME=	${DISTNAME:S/_/-/}
 CATEGORIES=	www
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=vimprobable/}
@@ -20,6 +19,6 @@ MAKE_ENV+=	MANDIR="${PREFIX}/${PKGMANDIR}"
 .include "options.mk"
 
 .include "../../net/libsoup24/buildlink3.mk"
-.include "../../www/webkit-gtk/buildlink3.mk"
+.include "../../www/webkit1-gtk/buildlink3.mk"
 .include "../../x11/gtk2/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

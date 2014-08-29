@@ -6,7 +6,6 @@ PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 PKGREVISION=	1
 CATEGORIES=	devel python
 MASTER_SITES=	https://launchpad.net/mocker/trunk/1.1/+download/
-FETCH_USING=	curl
 EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	kamel.derouiche@gmail.com

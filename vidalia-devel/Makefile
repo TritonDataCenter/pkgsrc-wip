@@ -13,7 +13,6 @@ LICENSE=	gnu-gpl-v2
 
 DEPENDS+=	tor>=0.2.0.34:../../net/tor
 
-FETCH_USING=		wget
 FETCH_BEFORE_ARGS=	--no-check-certificate
 
 USE_CMAKE=	yes

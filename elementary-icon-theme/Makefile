@@ -11,7 +11,6 @@ COMMENT=	Simple and appealing Tango-styled icon theme
 #LICENSE=	# TODO: (see mk/license.mk)
 
 # Needed for launchpad
-FETCH_USING=	curl
 
 WRKSRC=		${WRKDIR}/elementary-icon-theme
 NO_BUILD=	yes

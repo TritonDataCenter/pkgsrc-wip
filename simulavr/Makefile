@@ -1,6 +1,7 @@
 # $NetBSD: Makefile,v 1.18 2012/10/03 12:55:17 asau Exp $
 #
 DISTNAME=		simulavr-1.0.0
+PKGREVISION=		0.1
 CATEGORIES=		emulators
 MASTER_SITES=		http://download.savannah.gnu.org/releases/simulavr/
 
@@ -15,9 +16,14 @@ BUILD_DEPENDS+=		avr-libc-[0-9]*:../../wip/avr-libc
 CONFIGURE_ARGS+=	--disable-tests
 CONFIGURE_ARGS+=	--enable-python=python${PYVERSSUFFIX}
 CONFIGURE_ARGS+=	--with-bfd=${PREFIX}/avr
+CONFIGURE_ARGS+=	--with-libiberty=${PREFIX}/lib/gcc/avr
+CONFIGURE_ENV+=		TEX=no
+
 # Following line does not work yet (examples/python directory)
 #CONFIGURE_ENV+=	az_python_use=true
 #MAKE_ENV+=		az_python_use=true
+
+MAKE_JOBS_SAFE=		no
 
 USE_TOOLS+=		makeinfo gmake
 USE_LIBTOOL=		yes
@@ -80,8 +86,7 @@ SUBST_SED.makeinfo=	-e 's,@MAKEINFO@,${PREFIX}/bin/makeinfo,g'
 BUILDLINK_TRANSFORM+=	rm:-Werror
 
 .include "../../cross/avr-binutils/buildlink3.mk"
-.include "../../cross/avr-gcc/buildlink3.mk"
-#.include "../../wip/avr-libc/buildlink3.mk"
+.include "../../wip/avr-gcc/buildlink3.mk"
 .include "../../devel/swig/buildlink3.mk"
 .include "../../mk/curses.buildlink3.mk"
 .include "../../lang/python/pyversion.mk"

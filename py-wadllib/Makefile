@@ -5,7 +5,6 @@ DISTNAME=	wadllib-1.1.4
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	www python
 MASTER_SITES=	http://launchpad.net/wadllib/trunk/1.1.4/+download/
-FETCH_USING=	curl
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	https://launchpad.net/wadllib

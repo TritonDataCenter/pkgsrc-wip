@@ -5,7 +5,6 @@ DISTNAME=	configobj-4.7.2
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME:S/.tar//}
 CATEGORIES=	devel
 MASTER_SITES=	http://pypi.python.org/packages/source/c/configobj/
-FETCH_USING=	curl
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	http://www.voidspace.org.uk/python/configobj.html

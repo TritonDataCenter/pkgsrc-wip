@@ -19,12 +19,13 @@ PKGSRC_SETENV=		GIT_SSL_NO_VERIFY=true
 INSTALLATION_DIRS=	share/examples/p5-Packager-Utils
 
 WRKSRC=			${WRKDIR}/Packager-Utils
-PERL5_MODULE_TYPE=	Module::Build
+PERL5_MODULE_TYPE=	MakeMaker
 PERL5_PACKLIST=		auto/Packager/Utils/.packlist
 
 DEPENDS+=	p5-Alien-Packages-[0-9]*:../../devel/p5-Alien-Packages
 DEPENDS+=	p5-Module-CoreList-[0-9]*:../../devel/p5-Module-CoreList
 DEPENDS+=	p5-File-ShareDir-[0-9]*:../../devel/p5-File-ShareDir
+DEPENDS+=	p5-File-ShareDir-Install-[0-9]*:../../devel/p5-File-ShareDir-Install
 DEPENDS+=	p5-File-Find-Rule-[0-9]*:../../devel/p5-File-Find-Rule
 DEPENDS+=	p5-File-Find-Rule-Age-[0-9]*:../../devel/p5-File-Find-Rule-Age
 DEPENDS+=	p5-Hash-MoreUtils-[0-9]*:../../devel/p5-Hash-MoreUtils
@@ -35,7 +36,7 @@ DEPENDS+=	p5-MooX-Roles-Pluggable-[0-9]*:../../devel/p5-MooX-Roles-Pluggable
 DEPENDS+=	p5-Moose-[0-9]*:../../devel/p5-Moose
 DEPENDS+=	p5-SQL-Translator-[0-9]*:../../databases/p5-SQL-Translator
 DEPENDS+=	p5-DBIx-Class-[0-9]*:../../databases/p5-DBIx-Class
-DEPENDS+=	p5-CPAN-[0-9]*:../../devel/p5-CPAN
+DEPENDS+=	{perl>=5.004,p5-CPAN-[0-9]*}:../../devel/p5-CPAN
 DEPENDS+=	p5-CPAN-DistnameInfo-[0-9]*:../../devel/p5-CPAN-DistnameInfo
 DEPENDS+=	p5-Carp-Assert-[0-9]*:../../devel/p5-Carp-Assert
 DEPENDS+=	p5-IO-CaptureOutput-[0-9]*:../../devel/p5-IO-CaptureOutput

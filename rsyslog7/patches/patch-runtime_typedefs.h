@@ -1,9 +1,9 @@
 $NetBSD$
 
 SunOS has off64_t defined.
---- runtime/typedefs.h.orig	2013-08-30 16:30:41.000000000 +0000
+--- runtime/typedefs.h.orig	2014-03-25 20:37:44.000000000 +0000
 +++ runtime/typedefs.h
-@@ -156,7 +156,9 @@ typedef enum {
+@@ -157,7 +157,9 @@ typedef enum {
  } fiop_t;
  
  #ifndef HAVE_LSEEK64
@@ -12,4 +12,4 @@ SunOS has off64_t defined.
 +# endif
  #endif
  
- /* types of configuration handlers
+ 

@@ -1,5 +1,4 @@
 # $NetBSD$
-#
 
 DISTNAME=	cinelerra-cv-2.1
 CATEGORIES=	multimedia
@@ -57,7 +56,7 @@ BUILD_DEPENDS+=	nasm-[0-9]*:../../devel/nasm
 .include "../../graphics/tiff/buildlink3.mk"
 .include "../../lang/perl5/buildlink3.mk"
 .include "../../math/fftw/buildlink3.mk"
-.include "../../multimedia/ffmpeg/buildlink3.mk"
+.include "../../multimedia/ffmpeg1/buildlink3.mk"
 .include "../../multimedia/libdv/buildlink3.mk"
 .include "../../multimedia/libogg/buildlink3.mk"
 .include "../../multimedia/libtheora/buildlink3.mk"
