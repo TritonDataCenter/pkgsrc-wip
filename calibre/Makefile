@@ -113,6 +113,8 @@ post-extract:
 #	cd ${WRKDIR}/.buildlink/qt4/include/QtCore && \
 #	    ln -s ../../../../${QTNAME}/include/QtCore/private .
 
+# not sure why libheadless installed into wrong directory
+# side effect of patch-setup_extensions.py?
 post-install:
 	cd ${WRKSRC}/recipes && pax -wr -pma *.recipe \
 	    ${DESTDIR}${PREFIX}/share/calibre/recipes
