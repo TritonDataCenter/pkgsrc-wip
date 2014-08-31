@@ -5,7 +5,17 @@ from the openjdk7 package.
 
 --- src/base/platform/semaphore.cc.orig	2014-08-08 13:04:31.000000000 +0000
 +++ src/base/platform/semaphore.cc
-@@ -104,6 +104,33 @@ void Semaphore::Wait() {
+@@ -9,6 +9,9 @@
+ #include <mach/task.h>
+ #endif
+ 
++#ifdef __NetBSD__
++#include <sys/param.h>
++#endif
+ #include <errno.h>
+ 
+ #include "src/base/logging.h"
+@@ -104,6 +107,33 @@ void Semaphore::Wait() {
    }
  }
  
