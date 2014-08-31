@@ -1,7 +1,7 @@
 - packaging not completed yet.
-  Now stops at
-[ 15%] Building CXX object gnuradio-runtime/swig/CMakeFiles/_runtime_swig.dir/runtime_swigPYTHON_wrap.cxx.o
-  (swig and swig2 tried)
+[ 74%] Building CXX object gr-audio/lib/CMakeFiles/gnuradio-audio.dir/oss/oss_sink.cc.o
+[ 74%] Building CXX object
+   gr-audio/lib/CMakeFiles/gnuradio-audio.dir/portaudio/portaudio_impl.cc.o
 
 - _runtime_swig patch-gnuradio_runtime_lib_high__res__timer.cc
   is a joke, should be corrected
