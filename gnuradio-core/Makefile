@@ -40,7 +40,7 @@ do-build:
 	(cd ${WRKSRC}/build; ${GMAKE})
 
 do-install:
-	(cd ${WRKSRC}/build; ${GMAKE} install)
+	(cd ${WRKSRC}/build; env DESTDIR=${DESTDIR} ${GMAKE} install)
 
 post-install:
 	(cd ${WRKSRC}/build)
