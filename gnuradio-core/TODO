@@ -15,6 +15,11 @@
         /pyqwt5   http://pyqwt.sourceforge.net/
 	/qt-mt   (?)
 
+- gr_plot* wants:
+   Please install Matplotlib to run this script (http://matplotlib.sourceforge.net/)
+   But after graphics/py-matplotlib (1.4.0 in wip) installed, getting
+   the same message
+
 - If swig-1.* is installed, get confused to use (undesired) this version 1
   (swig2 is really necessary, I believe)
 
