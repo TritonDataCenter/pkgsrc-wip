@@ -36,7 +36,7 @@ GNU_CONFIGURE=	yes
 USE_LANGUAGES=	c c++
 USE_TOOLS+=	gmake automake autoconf pkg-config
 
-MAKE_JOBS_SAFE=	no
+#AKE_JOBS_SAFE=	no
 
 DISTINFO_FILE=		${.CURDIR}/../../wip/gnuradio/distinfo
 PATCHDIR=		${.CURDIR}/../../wip/gnuradio/patches
