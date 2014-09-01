@@ -8,7 +8,7 @@ PYMATPLOTLIB_BUILDLINK3_MK:=
 .include "../../lang/python/pyversion.mk"
 
 BUILDLINK_API_DEPENDS.pymatplotlib+=	${PYPKGPREFIX}-matplotlib>=0.87.2
-BUILDLINK_PKGSRCDIR.pymatplotlib?=	../../graphics/py-matplotlib
+BUILDLINK_PKGSRCDIR.pymatplotlib?=	../../wip/py-matplotlib
 .endif # PYMATPLOTLIB_BUILDLINK3_MK
 
 BUILDLINK_TREE+=	-pymatplotlib
