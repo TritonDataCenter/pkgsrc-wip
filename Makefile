@@ -3603,6 +3603,7 @@ SUBDIR+=	wang-ttf
 SUBDIR+=	wbox
 SUBDIR+=	webbrowser
 SUBDIR+=	webcleaner
+SUBDIR+=	webkit-gtk3
 SUBDIR+=	webkit-sharp
 SUBDIR+=	weland
 SUBDIR+=	weplab
