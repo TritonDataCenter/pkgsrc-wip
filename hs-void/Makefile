@@ -10,5 +10,5 @@ LICENSE=	modified-bsd
 
 .include "../../wip/mk/haskell.mk"
 .include "../../devel/hs-hashable/buildlink3.mk"
-.include "../../wip/hs-semigroups/buildlink3.mk"
+.include "../../math/hs-semigroups/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

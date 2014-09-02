@@ -13,7 +13,7 @@ BUILDLINK_PKGSRCDIR.hs-comonad-transformers?=	../../wip/hs-comonad-transformers
 .include "../../wip/hs-contravariant/buildlink3.mk"
 .include "../../math/hs-distributive/buildlink3.mk"
 .include "../../wip/hs-semigroupoids/buildlink3.mk"
-.include "../../wip/hs-semigroups/buildlink3.mk"
+.include "../../math/hs-semigroups/buildlink3.mk"
 .include "../../devel/hs-transformers/buildlink3.mk"
 .endif	# HS_COMONAD_TRANSFORMERS_BUILDLINK3_MK
 

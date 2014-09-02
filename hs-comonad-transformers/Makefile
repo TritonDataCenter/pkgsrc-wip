@@ -13,6 +13,6 @@ LICENSE=	modified-bsd
 .include "../../wip/hs-contravariant/buildlink3.mk"
 .include "../../math/hs-distributive/buildlink3.mk"
 .include "../../wip/hs-semigroupoids/buildlink3.mk"
-.include "../../wip/hs-semigroups/buildlink3.mk"
+.include "../../math/hs-semigroups/buildlink3.mk"
 .include "../../devel/hs-transformers/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
