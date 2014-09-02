@@ -19,21 +19,14 @@ USE_LANGUAGES=	c++
 USE_TOOLS+=	gmake gunzip
 LDFLAGS+=	${COMPILER_RPATH_FLAG}${BUILDLINK_PREFIX.boost-libs}/lib
 
+MAKE_FLAGS+=	PREFIX=${PREFIX}
+MAKE_FLAGS+=	MANDIR=${PREFIX}/${PKGMANDIR}
+
 SUBST_CLASSES+=		json
 SUBST_SED.json+=	-e 's,jsoncpp/json/json.h,json/json.h,'
 SUBST_FILES.json+=	src/api.cpp src/downloader.cpp src/util.cpp
 SUBST_STAGE.json=	post-configure
 SUBST_MESSAGE.json=	Fixing path to jsoncpp headers.
-
-INSTALLATION_DIRS=	bin ${PKGMANDIR}/man1
-#BUILD_TARGET=		debug
-
-post-build:
-	cd ${WRKSRC}/man && gunzip lgogdownloader.1
-do-install:
-	cd ${WRKSRC} && \
-		${INSTALL_PROGRAM} bin/Release/lgogdownloader ${DESTDIR}${PREFIX}/bin && \
-		${INSTALL_DATA} man/lgogdownloader.1 ${DESTDIR}${PREFIX}/${PKGMANDIR}/man1
 
 .include "../../devel/boost-libs/buildlink3.mk"
 .include "../../security/liboauth/buildlink3.mk"
