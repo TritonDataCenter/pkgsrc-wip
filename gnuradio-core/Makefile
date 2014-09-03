@@ -52,15 +52,15 @@ post-install:
 
 .include "../../audio/portaudio-devel/buildlink3.mk"
 .include "../../devel/orc/buildlink3.mk"
-.include "../../devel/libusb1/buildlink3.mk"
-.include "../../devel/swig2/buildlink3.mk"
+#.include "../../devel/libusb1/buildlink3.mk"
+#.include "../../devel/swig2/buildlink3.mk"
 .include "../../devel/boost-headers/buildlink3.mk"
 .include "../../devel/boost-libs/buildlink3.mk"
-.include "../../devel/cppunit/buildlink3.mk"
-BUILDLINK_DEPMETHOD.guile=	build
-.include "../../lang/guile/buildlink3.mk"
+#.include "../../devel/cppunit/buildlink3.mk"
+#BUILDLINK_DEPMETHOD.guile=	build
+#.include "../../lang/guile/buildlink3.mk"
 .include "../../math/fftwf/buildlink3.mk"
-.include "../../math/gsl/buildlink3.mk"
+#.include "../../math/gsl/buildlink3.mk"
 .include "../../math/py-numpy/buildlink3.mk"
 .include "../../lang/python/extension.mk"
 .include "../../lang/python/application.mk"
