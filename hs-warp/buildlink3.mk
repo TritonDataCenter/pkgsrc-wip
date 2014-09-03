@@ -21,7 +21,7 @@ BUILDLINK_PKGSRCDIR.hs-warp?=	../../wip/hs-warp
 .include "../../wip/hs-simple-sendfile/buildlink3.mk"
 .include "../../devel/hs-transformers/buildlink3.mk"
 .include "../../wip/hs-unix-compat/buildlink3.mk"
-.include "../../wip/hs-void/buildlink3.mk"
+.include "../../devel/hs-void/buildlink3.mk"
 .include "../../wip/hs-wai/buildlink3.mk"
 .endif	# HS_WARP_BUILDLINK3_MK
 
