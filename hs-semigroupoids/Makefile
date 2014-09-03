@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	semigroupoids-4.0.4
+DISTNAME=	semigroupoids-4.2
 CATEGORIES=	math
 
 MAINTAINER=	pho@cielonegro.org
