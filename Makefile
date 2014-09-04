@@ -514,6 +514,7 @@ SUBDIR+=	dwepcrack
 SUBDIR+=	dxmake
 SUBDIR+=	dzen2
 SUBDIR+=	e00pg
+SUBDIR+=	e16
 SUBDIR+=	e16keyedit
 SUBDIR+=	e16menuedit
 SUBDIR+=	e17
