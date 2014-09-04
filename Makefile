@@ -1179,6 +1179,7 @@ SUBDIR+=	ifstat
 SUBDIR+=	igal
 SUBDIR+=	igowin
 SUBDIR+=	igraph
+SUBDIR+=	ii
 SUBDIR+=	iisemulator
 SUBDIR+=	ilbc-rfc3951
 SUBDIR+=	ile
