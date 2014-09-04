@@ -1,16 +1,19 @@
 @comment $NetBSD$
+bin/Xvnc
 bin/vncconfig
 bin/vncpasswd
 bin/vncserver
 bin/vncviewer
 bin/x0vncserver
+lib/xorg/modules/extensions/libvnc.la
+man/man1/Xvnc.1
 man/man1/vncconfig.1
 man/man1/vncpasswd.1
 man/man1/vncserver.1
 man/man1/vncviewer.1
 man/man1/x0vncserver.1
-share/doc/LICENCE.TXT
-share/doc/README.txt
+share/doc/${PKGNAME}/LICENCE.TXT
+share/doc/${PKGNAME}/README.txt
 share/locale/de/LC_MESSAGES/tigervnc.mo
 share/locale/fr/LC_MESSAGES/tigervnc.mo
 share/locale/pl/LC_MESSAGES/tigervnc.mo
