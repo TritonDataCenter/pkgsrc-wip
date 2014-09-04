@@ -3198,6 +3198,7 @@ SUBDIR+=	sais
 SUBDIR+=	sais-demo-data
 SUBDIR+=	samba
 SUBDIR+=	samhain
+SUBDIR+=	samtools
 SUBDIR+=	sara
 SUBDIR+=	sarf
 SUBDIR+=	sbcl
