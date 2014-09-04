@@ -380,6 +380,7 @@ SUBDIR+=	cspchecker
 SUBDIR+=	csstidy
 SUBDIR+=	csv-mode
 SUBDIR+=	cubature
+SUBDIR+=	cufflinks
 SUBDIR+=	cup
 SUBDIR+=	cursor-dmz-theme
 SUBDIR+=	cutecom
