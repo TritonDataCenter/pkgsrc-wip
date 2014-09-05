@@ -6,7 +6,7 @@ BUILDLINK_TREE+=	samtools
 SAMTOOLS_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.samtools+=	samtools>=0.1.19
-BUILDLINK_PKGSRCDIR.samtools?=	../../jb-wip/samtools
+BUILDLINK_PKGSRCDIR.samtools?=	../../wip/samtools
 .endif	# SAMTOOLS_BUILDLINK3_MK
 
 BUILDLINK_TREE+=	-samtools
