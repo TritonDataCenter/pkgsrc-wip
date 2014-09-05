@@ -6,6 +6,7 @@ BUILDLINK_TREE+=	hs-midi
 HS_MIDI_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.hs-midi+=	hs-midi>=0.1.7
+BUILDLINK_ABI_DEPENDS.hs-midi+=	hs-midi>=0.1.7.1
 BUILDLINK_PKGSRCDIR.hs-midi?=	../../wip/hs-midi
 
 .include "../../wip/hs-event-list/buildlink3.mk"

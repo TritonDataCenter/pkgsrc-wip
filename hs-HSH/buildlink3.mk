@@ -6,6 +6,7 @@ BUILDLINK_TREE+=	hs-HSH
 HS_HSH_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.hs-HSH+=	hs-HSH>=2.0.3
+BUILDLINK_ABI_DEPENDS.hs-HSH+=	hs-HSH>=2.0.3
 BUILDLINK_PKGSRCDIR.hs-HSH?=	../../wip/hs-HSH
 
 .include "../../wip/hs-MissingH/buildlink3.mk"

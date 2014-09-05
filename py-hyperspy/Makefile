@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	hyperspy-0.7
+DISTNAME=	hyperspy-0.7.2
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	math python
 MASTER_SITES=	https://pypi.python.org/packages/source/h/hyperspy/
@@ -10,7 +10,7 @@ HOMEPAGE=	http://hyperspy.org/
 COMMENT=	Multidimensional data analysis toolbox
 LICENSE=	gnu-gpl-v3
 
-WRKSRC=		${WRKDIR}/hyperspy-0.7
+WRKSRC=		${WRKDIR}/hyperspy-0.7.2
 
 USE_LANGUAGES=	# none
 

@@ -6,6 +6,7 @@ BUILDLINK_TREE+=	hs-non-negative
 HS_NON_NEGATIVE_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.hs-non-negative+=	hs-non-negative>=0.1
+BUILDLINK_ABI_DEPENDS.hs-non-negative+=	hs-non-negative>=0.1
 BUILDLINK_PKGSRCDIR.hs-non-negative?=	../../wip/hs-non-negative
 
 .include "../../wip/hs-QuickCheck/buildlink3.mk"

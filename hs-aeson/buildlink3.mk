@@ -6,6 +6,7 @@ BUILDLINK_TREE+=	hs-aeson
 HS_AESON_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.hs-aeson+=	hs-aeson>=0.7.0
+BUILDLINK_ABI_DEPENDS.hs-aeson+=	hs-aeson>=0.7.0.2
 BUILDLINK_PKGSRCDIR.hs-aeson?=	../../wip/hs-aeson
 
 .include "../../wip/hs-attoparsec/buildlink3.mk"

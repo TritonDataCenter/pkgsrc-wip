@@ -3,19 +3,14 @@
 CATEGORIES=	net
 PKGBASE=	mtr
 PKGVERSION=	0.85.99
-PKGREVISION=	12
+PKGREVISION=	13
 #
 PKGNAME=	${PKGBASE}-${PKGVERSION}
 DISTNAME=	${PKGBASE}-${GITVERSION}
-#
-# git:9e14fed
-#	+ patch https://bugs.launchpad.net/mtr/+bug/701514
-#	+ fix https://bugs.launchpad.net/mtr/+bug/1189221
-#
 MASTER_SITES=	https://github.com/${GITHUB_USER}/${PKGBASE}/tarball/${GITVERSION}/
 WRKSRC=		${WRKDIR}/${GITHUB_USER}-${PKGBASE}-${GITVERSION}
 
-GITVERSION=	9e14fed
+GITVERSION=	45706fe
 GITHUB_USER=	traviscross
 
 MAINTAINER=	pkgsrc-users@NetBSD.org

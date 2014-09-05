@@ -6,7 +6,7 @@ BUILDLINK_TREE+=	hs-uconv
 HS_UCONV_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.hs-uconv+=	hs-uconv>=0.0.3
-BUILDLINK_ABI_DEPENDS.hs-uconv?=	hs-uconv>=0.0.3nb1
+BUILDLINK_ABI_DEPENDS.hs-uconv?=	hs-uconv>=0.0.3nb2
 BUILDLINK_PKGSRCDIR.hs-uconv?=	../../wip/hs-uconv
 
 .include "../../textproc/icu/buildlink3.mk"

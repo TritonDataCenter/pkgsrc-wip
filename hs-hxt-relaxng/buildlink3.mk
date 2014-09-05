@@ -6,6 +6,7 @@ BUILDLINK_TREE+=	hs-hxt-relaxng
 HS_HXT_RELAXNG_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.hs-hxt-relaxng+=	hs-hxt-relaxng>=9.1.4
+BUILDLINK_ABI_DEPENDS.hs-hxt-relaxng+=	hs-hxt-relaxng>=9.1.4
 BUILDLINK_PKGSRCDIR.hs-hxt-relaxng?=	../../wip/hs-hxt-relaxng
 
 .include "../../wip/hs-hxt/buildlink3.mk"

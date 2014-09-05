@@ -23,5 +23,5 @@ do-configure:
 	cd ${WRKSRC}/../../ && \
 		${SETENV} ${CONFIGURE_ENV} ./configure ${CONFIGURE_ARGS}
 
-.include "../../wip/e2fsprogs/Makefile.common"
+.include "../../sysutils/e2fsprogs/Makefile.common"
 .include "../../mk/bsd.pkg.mk"

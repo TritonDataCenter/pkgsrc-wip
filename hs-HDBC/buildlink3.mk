@@ -5,7 +5,8 @@ BUILDLINK_TREE+=	hs-HDBC
 .if !defined(HS_HDBC_BUILDLINK3_MK)
 HS_HDBC_BUILDLINK3_MK:=
 
-BUILDLINK_API_DEPENDS.hs-HDBC+=	hs-HDBC>=2.2
+BUILDLINK_API_DEPENDS.hs-HDBC+=	hs-HDBC>=2.2.6
+BUILDLINK_ABI_DEPENDS.hs-HDBC+=	hs-HDBC>=2.2.6
 BUILDLINK_PKGSRCDIR.hs-HDBC?=	../../wip/hs-HDBC
 
 .include "../../wip/hs-convertible/buildlink3.mk"

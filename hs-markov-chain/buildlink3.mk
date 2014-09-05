@@ -6,6 +6,7 @@ BUILDLINK_TREE+=	hs-markov-chain
 HS_MARKOV_CHAIN_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.hs-markov-chain+=	hs-markov-chain>=0.0.3
+BUILDLINK_ABI_DEPENDS.hs-markov-chain+=	hs-markov-chain>=0.0.3
 BUILDLINK_PKGSRCDIR.hs-markov-chain?=	../../wip/hs-markov-chain
 
 .include "../../devel/hs-transformers/buildlink3.mk"

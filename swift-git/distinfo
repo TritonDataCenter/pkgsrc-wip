@@ -1,0 +1,3 @@
+$NetBSD: distinfo,v 1.1 2014/04/26 11:41:46 wiz Exp $
+
+SHA1 (patch-3rdParty_LibMiniUPnPc_src_miniupnpc_connecthostport.c) = 99d0d5c3dde8c3d201d303755c3b189cd3f5b6fd

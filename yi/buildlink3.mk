@@ -5,7 +5,8 @@ BUILDLINK_TREE+=	yi
 .if !defined(YI_BUILDLINK3_MK)
 YI_BUILDLINK3_MK:=
 
-BUILDLINK_API_DEPENDS.yi+=	yi>=0.6
+BUILDLINK_API_DEPENDS.yi+=	yi>=0.6.3
+BUILDLINK_ABI_DEPENDS.yi+=	yi>=0.6.3.0
 BUILDLINK_PKGSRCDIR.yi?=	../../wip/yi
 
 .include "../../wip/hs-Diff/buildlink3.mk"

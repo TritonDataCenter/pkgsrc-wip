@@ -6,6 +6,7 @@ BUILDLINK_TREE+=	hs-conduit
 HS_CONDUIT_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.hs-conduit+=	hs-conduit>=1.0.9
+BUILDLINK_ABI_DEPENDS.hs-conduit+=	hs-conduit>=1.0.9.3
 BUILDLINK_PKGSRCDIR.hs-conduit?=	../../wip/hs-conduit
 
 .include "../../devel/hs-lifted-base/buildlink3.mk"
@@ -16,7 +17,7 @@ BUILDLINK_PKGSRCDIR.hs-conduit?=	../../wip/hs-conduit
 .include "../../devel/hs-text/buildlink3.mk"
 .include "../../devel/hs-transformers/buildlink3.mk"
 .include "../../devel/hs-transformers-base/buildlink3.mk"
-.include "../../wip/hs-void/buildlink3.mk"
+.include "../../devel/hs-void/buildlink3.mk"
 .endif	# HS_CONDUIT_BUILDLINK3_MK
 
 BUILDLINK_TREE+=	-hs-conduit

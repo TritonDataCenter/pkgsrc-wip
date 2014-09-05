@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	resourcet-1.1.2.2
+DISTNAME=	resourcet-1.1.2.3
 CATEGORIES=	devel
 
 MAINTAINER=	szptvlfn@NetBSD.org

@@ -6,6 +6,7 @@ BUILDLINK_TREE+=	hs-dyre
 HS_DYRE_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.hs-dyre+=	hs-dyre>=0.8.6
+BUILDLINK_ABI_DEPENDS.hs-dyre+=	hs-dyre>=0.8.6
 BUILDLINK_PKGSRCDIR.hs-dyre?=	../../wip/hs-dyre
 
 .include "../../wip/hs-executable-path/buildlink3.mk"

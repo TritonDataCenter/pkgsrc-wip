@@ -6,6 +6,7 @@ BUILDLINK_TREE+=	hs-system-filepath
 HS_SYSTEM_FILEPATH_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.hs-system-filepath+=	hs-system-filepath>=0.4.7
+BUILDLINK_ABI_DEPENDS.hs-system-filepath+=	hs-system-filepath>=0.4.7
 BUILDLINK_PKGSRCDIR.hs-system-filepath?=	../../wip/hs-system-filepath
 
 .endif	# HS_SYSTEM_FILEPATH_BUILDLINK3_MK

@@ -7,7 +7,7 @@ BUILDLINK_DEPMETHOD.libuuid=	full
 
 .include "../../wip/rsyslog8/Makefile.common"
 
-PKGREVISION=		3
+PKGREVISION=		4
 COMMENT=		The enhanced syslogd for Unix
 
 #.include "options.mk"

@@ -6,6 +6,7 @@ BUILDLINK_TREE+=	hs-numeric-prelude
 HS_NUMERIC_PRELUDE_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.hs-numeric-prelude+=	hs-numeric-prelude>=0.1.2
+BUILDLINK_ABI_DEPENDS.hs-numeric-prelude+=	hs-numeric-prelude>=0.1.2
 BUILDLINK_PKGSRCDIR.hs-numeric-prelude?=	../../wip/hs-numeric-prelude
 
 .include "../../wip/hs-non-negative/buildlink3.mk"

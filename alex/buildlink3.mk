@@ -6,6 +6,7 @@ BUILDLINK_TREE+=	alex
 ALEX_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.alex+=	alex>=3.1.3
+BUILDLINK_ABI_DEPENDS.alex+=	alex>=3.1.3
 BUILDLINK_PKGSRCDIR.alex?=	../../wip/alex
 
 .include "../../wip/hs-QuickCheck/buildlink3.mk"

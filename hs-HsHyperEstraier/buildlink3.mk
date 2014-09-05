@@ -6,6 +6,7 @@ BUILDLINK_TREE+=	hs-HsHyperEstraier
 HS_HSHYPERESTRAIER_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.hs-HsHyperEstraier+=	hs-HsHyperEstraier>=0.4
+BUILDLINK_ABI_DEPENDS.hs-HsHyperEstraier+=	hs-HsHyperEstraier>=0.4
 BUILDLINK_PKGSRCDIR.hs-HsHyperEstraier?=	../../wip/hs-HsHyperEstraier
 
 .include "../../textproc/hyperestraier/buildlink3.mk"

@@ -1,7 +1,6 @@
 # $NetBSD$
-#
 
-DISTNAME=		xfs-1.1.2
+DISTNAME=		xfs-1.1.4
 CATEGORIES=		fonts x11
 MASTER_SITES=		${MASTER_SITE_XORG:=app/}
 EXTRACT_SUFX=		.tar.bz2
@@ -22,6 +21,7 @@ RCD_SCRIPTS=		xfs
 
 .include "../../x11/libFS/buildlink3.mk"
 .include "../../x11/xtrans/buildlink3.mk"
+BUILDLINK_API_DEPENDS.libXfont+=	libXfont>=1.4.5
 .include "../../x11/libXfont/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
 

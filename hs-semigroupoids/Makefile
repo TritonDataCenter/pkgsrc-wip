@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	semigroupoids-4.0.4
+DISTNAME=	semigroupoids-4.2
 CATEGORIES=	math
 
 MAINTAINER=	pho@cielonegro.org
@@ -11,6 +11,6 @@ LICENSE=	2-clause-bsd
 .include "../../wip/hs-comonad/buildlink3.mk"
 .include "../../wip/hs-contravariant/buildlink3.mk"
 .include "../../math/hs-distributive/buildlink3.mk"
-.include "../../wip/hs-semigroups/buildlink3.mk"
+.include "../../math/hs-semigroups/buildlink3.mk"
 .include "../../devel/hs-transformers/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

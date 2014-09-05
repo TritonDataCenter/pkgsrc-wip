@@ -6,6 +6,7 @@ BUILDLINK_TREE+=	hs-hint
 HS_HINT_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.hs-hint+=	hs-hint>=0.4.0
+BUILDLINK_ABI_DEPENDS.hs-hint+=	hs-hint>=0.4.0.0
 BUILDLINK_PKGSRCDIR.hs-hint?=	../../wip/hs-hint
 
 .include "../../devel/hs-exceptions/buildlink3.mk"

@@ -6,6 +6,7 @@ BUILDLINK_TREE+=	hs-pango
 HS_PANGO_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.hs-pango+=	hs-pango>=0.12.3
+BUILDLINK_ABI_DEPENDS.hs-pango+=	hs-pango>=0.12.3
 BUILDLINK_PKGSRCDIR.hs-pango?=	../../wip/hs-pango
 
 .include "../../devel/pango/buildlink3.mk"

@@ -6,6 +6,7 @@ BUILDLINK_TREE+=	hs-executable-path
 HS_EXECUTABLE_PATH_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.hs-executable-path+=	hs-executable-path>=0.0.3
+BUILDLINK_ABI_DEPENDS.hs-executable-path+=	hs-executable-path>=0.0.3
 BUILDLINK_PKGSRCDIR.hs-executable-path?=	../../wip/hs-executable-path
 .endif	# HS_EXECUTABLE_PATH_BUILDLINK3_MK
 

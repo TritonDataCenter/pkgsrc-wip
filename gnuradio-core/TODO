@@ -1,0 +1,152 @@
+-  (May be) redundent lines in cmake options in Makefile
+    -DCMAKE_INCLUDE_PATH="${PREFIX}/include/portaudio2 \
+    -DCMAKE_LIBRARY_PATH=${PREFIX}/lib/portaudio2 \
+    -DCMAKE_INCLUDE_DIR="${PREFIX}/include/libusb-1.0 \
+ 
+      pkg-config --cflags portaudio-2.0
+      pkg-config --libs   portaudio-2.0
+      pkg-config --cflags libusb-1.0
+   may return (correct) values but not utilized now
+
+-  gr_filter_design wants following packages to run, add to DEPENDS or set
+   them in options.mk ?
+     math/py-scipy
+     x11/py-qt4
+        /pyqwt5   http://pyqwt.sourceforge.net/
+	/qt-mt   (?)
+
+- gr_plot* wants:
+   Please install Matplotlib to run this script (http://matplotlib.sourceforge.net/)
+   But after graphics/py-matplotlib (1.4.0 in wip) installed, getting
+   the same message
+
+- If swig-1.* is installed, get confused to use (undesired) this version 1
+  (swig2 is really necessary, I believe)
+
+- On some systems, getting following problem:
+  [ 65%] Building CXX object
+  gr-digital/swig/CMakeFiles/_digital_swig.dir/digital_swigPYTHON_wrap.cxx.o
+  g++: Internal error: Killed (program cc1plus received signal 9)
+
+-  patches/patch-gnuradio_runtime_lib_high__res__timer.cc
+    is a joke, should be corrected
+- FreeBSD ports has many patches for 3.7.2.1
+  http://svnweb.freebsd.org/ports/head/comms/gnuradio/files/
+- To be packaged more,
+  now only trying for gnuradio-core. Ham directory has many gnuradio-*
+
+- Following lines in PLIST are flagged by pkglint: 
+  25:etc/gnuradio/conf.d/gnuradio-runtime.conf
+  26:etc/gnuradio/conf.d/gr-audio-oss.conf
+  27:etc/gnuradio/conf.d/gr-audio-portaudio.conf
+  28:etc/gnuradio/conf.d/gr-audio.conf
+  29:etc/gnuradio/conf.d/modtool.conf
+    ERROR: PLIST:25: Configuration files must not be registered in the PLIST. 
+    Please use the CONF_FILES framework, which is described in mk/pkginstall/bsd.pkginstall.mk.
+  
+- To implement following sub function
+  Marked * are included in minumum one
+         + are now in options.mk
+	 - are failed to build with single option
+
+*ENABLE_GR_ANALOG
+ ENABLE_GR_ATSC
+*ENABLE_GR_AUDIO
+*ENABLE_GR_BLOCKS
+ ENABLE_GR_CHANNELS
+ ENABLE_GR_COMEDI
+-ENABLE_GR_CTRLPORT .. wants rpcmanager::get()
++ENABLE_GR_DIGITAL
+ ENABLE_GR_FCD
+ ENABLE_GR_FEC
+*ENABLE_GR_FFT
+*ENABLE_GR_FILTER
+ ENABLE_GR_LOG
+ ENABLE_GR_NOAA
+ ENABLE_GR_PAGER
++ENABLE_GR_QTGUI
+ ENABLE_GR_TRELLIS
+ ENABLE_GR_UHD
+ ENABLE_GR_UTILS
+ ENABLE_GR_VIDEO_SDL
+ ENABLE_GR_VOCODER
+ ENABLE_GR_WAVELET
++ENABLE_GR_WXGUI
+
+ ENABLE_BAD_BOOST
+:ENABLE_DEFAULT
++ENABLE_DOXYGEN
+*ENABLE_GNURADIO_RUNTIME
+ ENABLE_PERFORMANCE_COUNTERS
++ENABLE_PYTHON
++ENABLE_RUNTIME
+ ENABLE_SPHINX
+ ENABLE_TESTING
+*ENABLE_VOLK
+
+
+to be listed in (REPLACE_PYTHON)
+lib/python${PYVERSSUFFIX}/site-packages/gnuradio/digital/constellation_map_generator.py
+lib/python${PYVERSSUFFIX}/site-packages/gnuradio/digital/ofdm.py
+lib/python${PYVERSSUFFIX}/site-packages/gnuradio/digital/ofdm_receiver.py
+lib/python${PYVERSSUFFIX}/site-packages/gnuradio/digital/ofdm_sync_fixed.py
+lib/python${PYVERSSUFFIX}/site-packages/gnuradio/digital/ofdm_sync_ml.py
+lib/python${PYVERSSUFFIX}/site-packages/gnuradio/digital/ofdm_sync_pn.py
+lib/python${PYVERSSUFFIX}/site-packages/gnuradio/digital/ofdm_sync_pnac.py
+lib/python${PYVERSSUFFIX}/site-packages/gnuradio/digital/psk_constellations.py
+lib/python${PYVERSSUFFIX}/site-packages/gnuradio/digital/qam_constellations.py
+lib/python${PYVERSSUFFIX}/site-packages/gnuradio/digital/soft_dec_lut_gen.py
+lib/python${PYVERSSUFFIX}/site-packages/gnuradio/digital/utils/__init__.py
+lib/python${PYVERSSUFFIX}/site-packages/gnuradio/digital/utils/alignment.py
+lib/python${PYVERSSUFFIX}/site-packages/gnuradio/digital/utils/gray_code.py
+lib/python${PYVERSSUFFIX}/site-packages/gnuradio/digital/utils/mod_codes.py
+lib/python${PYVERSSUFFIX}/site-packages/gnuradio/digital/utils/tagged_streams.py
+lib/python${PYVERSSUFFIX}/site-packages/gnuradio/wxgui/fftsink_nongl.py
+lib/python${PYVERSSUFFIX}/site-packages/gnuradio/wxgui/form.py
+lib/python${PYVERSSUFFIX}/site-packages/gnuradio/wxgui/plotter/gltext.py
+lib/python${PYVERSSUFFIX}/site-packages/gnuradio/wxgui/powermate.py
+lib/python${PYVERSSUFFIX}/site-packages/gnuradio/wxgui/pubsub.py
+lib/python${PYVERSSUFFIX}/site-packages/gnuradio/wxgui/scopesink_nongl.py
+lib/python${PYVERSSUFFIX}/site-packages/gnuradio/wxgui/slider.py
+lib/python${PYVERSSUFFIX}/site-packages/gnuradio/wxgui/waterfallsink_nongl.py
+
+
+(if ENABLE_DEFAULT=True with current other environment)
+-- ######################################################
+-- # Gnuradio enabled components                         
+-- ######################################################
+--   * python-support
+--   * testing-support
+--   * volk
+--   * doxygen
+--   * gnuradio-runtime
+--   * gr-blocks
+--   * gnuradio-companion
+--   * gr-fec
+--   * gr-fft
+--   * gr-filter
+--   * gr-analog
+--   * gr-digital
+--   * gr-atsc
+--   * gr-audio
+--   * gr-channels
+--   * gr-noaa
+--   * gr-pager
+--   * gr-trellis
+--   * gr-utils
+--   * gr-vocoder
+--   * gr-fcd
+--   * gr-wavelet
+--   * gr-wxgui
+-- 
+-- ######################################################
+-- # Gnuradio disabled components                        
+-- ######################################################
+--   * sphinx
+--   * gr-ctrlport
+--   * gr-comedi
+--   * gr-qtgui
+--   * gr-uhd
+--   * gr-video-sdl
+-- 
+

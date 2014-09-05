@@ -6,6 +6,7 @@ BUILDLINK_TREE+=	hs-cabal-query
 HS_CABAL_QUERY_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.hs-cabal-query+=	hs-cabal-query>=0.1
+BUILDLINK_ABI_DEPENDS.hs-cabal-query+=	hs-cabal-query>=0.1
 BUILDLINK_PKGSRCDIR.hs-cabal-query?=	../../wip/hs-cabal-query
 
 .include "../../wip/ghc/buildlink3.mk"

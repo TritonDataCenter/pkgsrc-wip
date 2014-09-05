@@ -6,6 +6,7 @@ BUILDLINK_TREE+=	hs-Boolean
 HS_BOOLEAN_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.hs-Boolean+=	hs-Boolean>=0.2
+BUILDLINK_ABI_DEPENDS.hs-Boolean+=	hs-Boolean>=0.2
 BUILDLINK_PKGSRCDIR.hs-Boolean?=	../../wip/hs-Boolean
 .endif	# HS_BOOLEAN_BUILDLINK3_MK
 

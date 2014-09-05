@@ -5,7 +5,8 @@ BUILDLINK_TREE+=	hs-bindings-EsounD
 .if !defined(HS_BINDINGS_ESOUND_BUILDLINK3_MK)
 HS_BINDINGS_ESOUND_BUILDLINK3_MK:=
 
-BUILDLINK_API_DEPENDS.hs-bindings-EsounD+=	hs-bindings-EsounD>=0.1
+BUILDLINK_API_DEPENDS.hs-bindings-EsounD+=	hs-bindings-EsounD>=0.1.0
+BUILDLINK_ABI_DEPENDS.hs-bindings-EsounD+=	hs-bindings-EsounD>=0.1.0.1
 BUILDLINK_PKGSRCDIR.hs-bindings-EsounD?=	../../wip/hs-bindings-EsounD
 
 .include "../../audio/esound/buildlink3.mk"

@@ -6,6 +6,7 @@ BUILDLINK_TREE+=	hs-hxt-xpath
 HS_HXT_XPATH_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.hs-hxt-xpath+=	hs-hxt-xpath>=9.1.2
+BUILDLINK_ABI_DEPENDS.hs-hxt-xpath+=	hs-hxt-xpath>=9.1.2.1
 BUILDLINK_PKGSRCDIR.hs-hxt-xpath?=	../../wip/hs-hxt-xpath
 
 .include "../../wip/hs-hxt/buildlink3.mk"

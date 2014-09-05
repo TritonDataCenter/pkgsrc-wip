@@ -6,6 +6,7 @@ BUILDLINK_TREE+=	hs-glib
 HS_GLIB_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.hs-glib+=	hs-glib>=0.12.3
+BUILDLINK_ABI_DEPENDS.hs-glib+=	hs-glib>=0.12.3
 BUILDLINK_PKGSRCDIR.hs-glib?=	../../wip/hs-glib
 
 .include "../../devel/glib2/buildlink3.mk"
