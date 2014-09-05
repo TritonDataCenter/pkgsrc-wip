@@ -3315,7 +3315,6 @@ SUBDIR+=	speedx
 SUBDIR+=	spfmilter
 SUBDIR+=	sphinx3
 SUBDIR+=	sphinxbase
-SUBDIR+=	sphinxsearch
 SUBDIR+=	sphinxtrain
 SUBDIR+=	spidermonkey185
 SUBDIR+=	spidermonkey24
