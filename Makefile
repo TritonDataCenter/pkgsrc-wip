@@ -982,7 +982,6 @@ SUBDIR+=	hs-blaze-textual
 SUBDIR+=	hs-bytestring-trie
 SUBDIR+=	hs-cabal-query
 SUBDIR+=	hs-cairo
-SUBDIR+=	hs-case-insensitive
 SUBDIR+=	hs-categories
 SUBDIR+=	hs-cautious-file
 SUBDIR+=	hs-cereal

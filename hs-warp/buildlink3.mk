@@ -11,7 +11,7 @@ BUILDLINK_PKGSRCDIR.hs-warp?=	../../wip/hs-warp
 
 .include "../../devel/hs-blaze-builder/buildlink3.mk"
 .include "../../wip/hs-blaze-builder-conduit/buildlink3.mk"
-.include "../../wip/hs-case-insensitive/buildlink3.mk"
+.include "../../textproc/hs-case-insensitive/buildlink3.mk"
 .include "../../wip/hs-conduit/buildlink3.mk"
 .include "../../wip/hs-http-attoparsec/buildlink3.mk"
 .include "../../wip/hs-http-types/buildlink3.mk"
