@@ -368,6 +368,7 @@ SUBDIR+=	crabemu
 SUBDIR+=	crawl-stone-soup
 SUBDIR+=	creal
 SUBDIR+=	cream
+SUBDIR+=	creduce-git
 SUBDIR+=	crm114
 SUBDIR+=	cross-binutils
 SUBDIR+=	crossroads-io
