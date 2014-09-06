@@ -41,7 +41,6 @@ PLIST_SRC=	${PKGDIR}/PLIST
 .include "../../lang/python/application.mk"
 .include "options.mk"
 
-PLIST_VARS+=	${PKG_SUPPORTED_OPTIONS}
 PLIST_SUBST+=	PYVERSSUFFIX=${PYVERSSUFFIX}
 
 # See  http://gnuradio.org/redmine/projects/gnuradio/wiki/BuildGuide
