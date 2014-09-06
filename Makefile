@@ -969,7 +969,6 @@ SUBDIR+=	hs-ansi-wl-pprint
 SUBDIR+=	hs-arrow-list
 SUBDIR+=	hs-ascii
 SUBDIR+=	hs-attempt
-SUBDIR+=	hs-attoparsec
 SUBDIR+=	hs-base-unicode-symbols
 SUBDIR+=	hs-basic-prelude
 SUBDIR+=	hs-bifunctors

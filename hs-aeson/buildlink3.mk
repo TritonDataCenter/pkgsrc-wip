@@ -9,7 +9,7 @@ BUILDLINK_API_DEPENDS.hs-aeson+=	hs-aeson>=0.7.0
 BUILDLINK_ABI_DEPENDS.hs-aeson+=	hs-aeson>=0.7.0.6
 BUILDLINK_PKGSRCDIR.hs-aeson?=	../../wip/hs-aeson
 
-.include "../../wip/hs-attoparsec/buildlink3.mk"
+.include "../../textproc/hs-attoparsec/buildlink3.mk"
 .include "../../devel/hs-dlist/buildlink3.mk"
 .include "../../devel/hs-hashable/buildlink3.mk"
 .include "../../devel/hs-mtl/buildlink3.mk"
