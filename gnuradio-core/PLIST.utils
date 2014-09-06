@@ -1,3 +1,4 @@
+@comment $NetBSD$
 bin/gr_modtool
 bin/gr_plot_char
 bin/gr_plot_const

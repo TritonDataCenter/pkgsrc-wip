@@ -61,6 +61,7 @@ do-configure:
 	-DGR_LIBRARY_DIR=${DESTDIR}${PREFIX}/lib \
 	-DGR_PREFSDIR=${DESTDIR}${PREFIX}/share/ \
 	${GR_ENABLE_LIST} \
+	-DSDL_INCLUDE_DIR=${PREFIX}/include/SDL \
 	../; \
 	)
 
@@ -74,7 +75,7 @@ do-install:
 .include "../../audio/portaudio-devel/buildlink3.mk"
 .include "../../devel/orc/buildlink3.mk"
 #.include "../../devel/libusb1/buildlink3.mk"
-#.include "../../devel/swig2/buildlink3.mk"
+.include "../../devel/swig2/buildlink3.mk"
 .include "../../devel/boost-headers/buildlink3.mk"
 .include "../../devel/boost-libs/buildlink3.mk"
 #.include "../../devel/cppunit/buildlink3.mk"

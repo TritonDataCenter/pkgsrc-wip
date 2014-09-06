@@ -1,3 +1,4 @@
+@comment $NetBSD$
 bin/gnuradio-companion
 etc/gnuradio/conf.d/grc.conf
 include/gnuradio/swig/vocoder_swig.i
