@@ -1,11 +1,10 @@
 # $NetBSD$
-#
 
-DISTNAME=	attoparsec-0.11.1.0
-CATEGORIES=	devel
+DISTNAME=	attoparsec-0.12.1.2
+CATEGORIES=	textproc
 
 MAINTAINER=	pho@cielonegro.org
-COMMENT=	Fast combinator parsing for bytestrings
+COMMENT=	Fast combinator parsing for bytestrings and text
 LICENSE=	modified-bsd
 
 .include "../../wip/mk/haskell.mk"
