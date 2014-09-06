@@ -3038,6 +3038,7 @@ SUBDIR+=	py-wxWidgets-unicode
 SUBDIR+=	py-xdgapp
 SUBDIR+=	py-xdress
 SUBDIR+=	py-xlutils
+SUBDIR+=	py-xpra
 SUBDIR+=	py-xsdb
 SUBDIR+=	py-yams
 SUBDIR+=	py-yapgvb
