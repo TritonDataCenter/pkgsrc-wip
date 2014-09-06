@@ -3363,6 +3363,7 @@ SUBDIR+=	suse121_32_libgpg-error
 SUBDIR+=	suse121_libgcrypt
 SUBDIR+=	suse121_libgpg-error
 SUBDIR+=	svgalib
+SUBDIR+=	svnup
 SUBDIR+=	svrcore
 SUBDIR+=	swami
 SUBDIR+=	swarp
