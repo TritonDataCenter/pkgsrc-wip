@@ -19,7 +19,7 @@ BUILD_DEPENDS=	alex:../../wip/alex
 BUILD_DEPENDS+=	happy:../../wip/happy
 
 .include "../../wip/mk/haskell.mk"
-.include "../../wip/hs-aeson/buildlink3.mk"
+.include "../../converters/hs-aeson/buildlink3.mk"
 .include "../../textproc/hs-attoparsec/buildlink3.mk"
 .include "../../converters/hs-base64-bytestring/buildlink3.mk"
 .include "../../textproc/hs-blaze-html/buildlink3.mk"

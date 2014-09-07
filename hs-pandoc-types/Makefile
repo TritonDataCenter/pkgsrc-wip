@@ -9,6 +9,6 @@ LICENSE=	gnu-gpl-v2
 
 
 .include "../../wip/mk/haskell.mk"
-.include "../../wip/hs-aeson/buildlink3.mk"
+.include "../../converters/hs-aeson/buildlink3.mk"
 .include "../../devel/hs-syb/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
