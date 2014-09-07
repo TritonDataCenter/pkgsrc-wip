@@ -51,11 +51,13 @@ PLIST_SRC+=		${PKGDIR}/PLIST.atsc
 PLIST_SRC+=		${PKGDIR}/PLIST.fec
 .endif
 
+# in the configure log, it is said gnuradio-companion
 .if !empty(PKG_OPTIONS:Maudio-companion)
 GR_ENABLE_LIST+=	-DENABLE_GRC=True
 PLIST_SRC+=		${PKGDIR}/PLIST.audio-companion
 .include 	"../../audio/jack/buildlink3.mk"
 .include 	"../../audio/alsa-lib/buildlink3.mk"
+.include 	"../../x11/py-gtk2/buildlink3.mk"
 .endif
 
 .if !empty(PKG_OPTIONS:Mchannels)
