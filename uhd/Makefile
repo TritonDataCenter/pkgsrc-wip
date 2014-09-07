@@ -69,6 +69,8 @@ INSTALLATION_DIRS+=	share/uhd/firmware
 INSTALLATION_DIRS+=	share/uhd/fpga
 INSTALLATION_DIRS+=	share/uhd/images
 
+# is it default ? and redundent ?
+PLIST_SRC=	${PKGDIR}/PLIST
 .include "options.mk"
 # FETCH_USING at /etc/mk.conf doesn't good, (sorry), put work around for the target
 do-fetch:
