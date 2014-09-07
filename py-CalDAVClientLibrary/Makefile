@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	CalDAVClientLibrary-11755
+DISTNAME=	CalDAVClientLibrary-13824
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	time net
 MASTER_SITES=	# manually packaged from SVN
@@ -13,6 +13,8 @@ COMMENT=	CalDAV library for python used by CalendarServer
 WRKSRC=		${WRKDIR}/CalDAVClientLibrary/trunk
 USE_LANGUAGES=	# none
 EGG_NAME=	UNKNOWN-0.0.0
+
+PYTHON_VERSIONS_INCOMPATIBLE=	33 34 # not yet ported as of 13824
 
 .include "../../lang/python/distutils.mk"
 .include "../../mk/bsd.pkg.mk"
