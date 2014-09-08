@@ -24,5 +24,5 @@ do-install:
 	${INSTALL_DATA} ${WRKSRC}/pap.h ${DESTDIR}/${PREFIX}/include/at
 	${INSTALL_DATA} ${WRKSRC}/libnatali.a ${DESTDIR}/${PREFIX}/lib
 
-.include "../../net/netatalk/buildlink3.mk"
+.include "../../net/netatalk22/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
