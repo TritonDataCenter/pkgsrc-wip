@@ -15,4 +15,3 @@ PLIST_SRC+=		${PKGDIR}/PLIST.doxygen
 BUILD_DEPENDS+=		${PYPKGPREFIX}-docutils-[0-9]*:../../textproc/py-docutils
 PLIST_SRC+=		${PKGDIR}/PLIST.manual
 .endif
-
