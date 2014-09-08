@@ -4,6 +4,15 @@ Use LDFLAGS so rpath can be passed in from pkgsrc.
 
 --- Makefile.orig	2005-04-18 20:26:33.000000000 +0000
 +++ Makefile
+@@ -3,7 +3,7 @@ WARNINGS =      -pedantic
+ C_FLAGS =       -MMD $(WARNINGS) -O2
+ C++_FLAGS =     -MMD $(WARNINGS) -O2
+ 
+-INCLUDES =      -I .
++INCLUDES =      -I . $(CPPFLAGS)
+ .SUFFIXES:      $(.SUFFIXES) .cpp
+ PTLIB = libptformats.a libptraster.a libptutil.a
+ 
 @@ -37,10 +37,10 @@ libptformats.a:     $(LIBFORMATSOBJ)
  
  

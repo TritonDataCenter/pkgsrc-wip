@@ -1,6 +1,7 @@
 # $NetBSD$
 
 DISTNAME=		ppr-1.53
+PKGREVISION=		1
 CATEGORIES=		print
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=ppr/}\
 			ftp://ppr-dist.trincoll.edu/pub/ppr/
