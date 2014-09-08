@@ -1783,7 +1783,6 @@ SUBDIR+=	netkit-routed
 SUBDIR+=	netkit-telnet
 SUBDIR+=	netkit-tftp
 SUBDIR+=	netlogo
-SUBDIR+=	netpbm
 SUBDIR+=	netrik
 SUBDIR+=	netwib
 SUBDIR+=	netwmpager
