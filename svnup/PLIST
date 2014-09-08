@@ -1,0 +1,5 @@
+@comment $NetBSD$
+bin/svnup
+man/man1/svnup.1
+man/man5/svnup.conf.5
+share/examples/svnup/svnup.conf

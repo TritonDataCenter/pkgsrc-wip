@@ -1,0 +1,8 @@
+- Not all arguments of CMAKE command line are reviewed (do-configure:)
+- Install path for firmware, fpga and image are not checked
+  for being referenced from other packages
+- MASTER_SITE= 	https:// does not work for me. I did manually fetch.
+-(for commit log)
+ [USRP-users] [UHD-3.7.2-rc1] Release Candidate Announcement
+ http://lists.ettus.com/pipermail/usrp-users_lists.ettus.com/2014-July/010219.html
+

@@ -9,7 +9,7 @@ HOMEPAGE=	http://github.com/cowboyd/libv8
 COMMENT=	Embedded V8 Javascript
 LICENSE=        mit
 
-DEPENDS+=	${RUBY_PKGPREFIX}-libv8>=3.16:../../wip/v8-316
+DEPENDS+=	${RUBY_PKGPREFIX}-libv8>=3.16:../../wip/ruby-libv8
 
 USE_LANGUAGES+=	c c++
 

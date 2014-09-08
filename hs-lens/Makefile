@@ -8,7 +8,7 @@ COMMENT=	Lenses, Folds and Traversals
 LICENSE=	modified-bsd
 
 .include "../../wip/mk/haskell.mk"
-.include "../../wip/hs-aeson/buildlink3.mk"
+.include "../../converters/hs-aeson/buildlink3.mk"
 .include "../../wip/hs-bifunctors/buildlink3.mk"
 .include "../../wip/hs-comonad/buildlink3.mk"
 .include "../../wip/hs-contravariant/buildlink3.mk"

@@ -31,30 +31,17 @@ GR_ENABLE_LIST=	\
 	-DENABLE_PYTHON=True \
 	-DENABLE_GNURADIO_RUNTIME=True \
 
-# Following are not working at this moment:
-
-REPLACE_PYTHON=		volk/python/volk_modtool/cfg.py
-REPLACE_PYTHON+=	volk/python/volk_modtool/__init__.py
-
-REPLACE_PYTHON+=	gr-blocks/python/blocks/parse_file_metadata.py
-REPLACE_PYTHON+=	gr-filter/python/filter/pfb.py
-REPLACE_PYTHON+=	gnuradio-runtime/python/gnuradio/gr/pubsub.py
-REPLACE_PYTHON+=	gnuradio-runtime/python/gnuradio/gr_unittest.py
-REPLACE_PYTHON+=	gnuradio-runtime/python/gnuradio/gru/freqz.py
-REPLACE_PYTHON+=	gnuradio-runtime/python/gnuradio/gru/gnuplot_freqz.py
+#CONF_FILES= ${ETCDIR}/gnuaudio-runtime.conf hoge
+# REPLACE_PYTHON is some 600 files
+.include "files/REPLACE_PYTHON"
 
 PLIST_SRC=	${PKGDIR}/PLIST
-PLIST_SRC+=		${PKGDIR}/PLIST.python
 
 .include "../../lang/python/extension.mk"
 .include "../../lang/python/application.mk"
 .include "options.mk"
 
-PLIST_VARS+=	${PKG_SUPPORTED_OPTIONS}
 PLIST_SUBST+=	PYVERSSUFFIX=${PYVERSSUFFIX}
-
-# too long list of files
-# .include "SUBST.mk"
 
 # See  http://gnuradio.org/redmine/projects/gnuradio/wiki/BuildGuide
 #      http://gnuradio.org/redmine/projects/gnuradio/wiki/CygwinInstallMain
@@ -68,10 +55,13 @@ do-configure:
 	-DCMAKE_LIBRARY_PATH=${PREFIX}/lib/portaudio2 \
 	-DCMAKE_INSTALL_PREFIX=${PREFIX} \
 	-DCMAKE_INSTALL_RPATH=${PREFIX}/lib:${PREFIX}/lib/portaudio2 \
-	-DCMAKE_INSTALL_RPATH_USE_LINK_PATH=FALSE \
+	-DCMAKE_INSTALL_RPATH_USE_LINK_PATH=TRUE \
 	-DLIBUSB_INCLUDE_DIR=${PREFIX}/include/libusb-1.0 \
 	-DGR_LIBRARY_DIR=${DESTDIR}${PREFIX}/lib \
 	-DGR_PREFSDIR=${DESTDIR}${PREFIX}/share/ \
+	-DSDL_INCLUDE_DIR=${PREFIX}/include/SDL \
+	-DUHD_LIBRARIES=${PREFIX}/lib/libuhd.so \
+	-DUHD_INCLUDE_DIRS=${PREFIX}/include \
 	${GR_ENABLE_LIST} \
 	../; \
 	)
@@ -85,15 +75,12 @@ do-install:
 
 .include "../../audio/portaudio-devel/buildlink3.mk"
 .include "../../devel/orc/buildlink3.mk"
-#.include "../../devel/libusb1/buildlink3.mk"
-#.include "../../devel/swig2/buildlink3.mk"
+.include "../../devel/swig2/buildlink3.mk"
 .include "../../devel/boost-headers/buildlink3.mk"
 .include "../../devel/boost-libs/buildlink3.mk"
-#.include "../../devel/cppunit/buildlink3.mk"
 #BUILDLINK_DEPMETHOD.guile=	build
 #.include "../../lang/guile/buildlink3.mk"
 .include "../../math/fftwf/buildlink3.mk"
-#.include "../../math/gsl/buildlink3.mk"
 .include "../../math/py-numpy/buildlink3.mk"
 
 .include "../../mk/bsd.pkg.mk"

@@ -1,0 +1,5 @@
+@comment $NetBSD$
+bin/fuse-zip
+man/man1/fuse-zip.1
+share/doc/fuse-zip/README
+share/doc/fuse-zip/changelog

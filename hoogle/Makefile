@@ -10,9 +10,9 @@ LICENSE=	modified-bsd
 
 .include "../../wip/mk/haskell.mk"
 .include "../../wip/hs-QuickCheck/buildlink3.mk"
-.include "../../wip/hs-aeson/buildlink3.mk"
+.include "../../converters/hs-aeson/buildlink3.mk"
 .include "../../devel/hs-blaze-builder/buildlink3.mk"
-.include "../../wip/hs-case-insensitive/buildlink3.mk"
+.include "../../textproc/hs-case-insensitive/buildlink3.mk"
 .include "../../devel/hs-cmdargs/buildlink3.mk"
 .include "../../wip/hs-conduit/buildlink3.mk"
 .include "../../wip/hs-haskell-src-exts/buildlink3.mk"
