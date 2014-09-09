@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 DISTNAME=		v0.5.3
-PKGNAME=		rtl-sdr-${DISTNAME:C/v//}
+PKGNAME=		rtl-sdr-${DISTNAME:S/v//}
 CATEGORIES=		ham
 MAINTAINER=		pkgsrc-users@NetBSD.org
 MASTER_SITES=		-https://github.com/steve-m/librtlsdr/archive/${DISTNAME}${EXTRACT_SUFX}
@@ -18,7 +18,7 @@ DIST_SUBDIR=		rtl-sdr
 USE_LANGUAGES+=		c c++
 USE_TOOLS+=		cmake gmake
 USE_CMAKE=		yes
-WRKSRC=			${WRKDIR}/librtlsdr-${DISTNAME:C/v//}
+WRKSRC=			${WRKDIR}/librtlsdr-${DISTNAME:S/v//}
 AUTO_MKDIRS=		yes
 
 SUBST_CLASSES+=		destdir
