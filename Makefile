@@ -1092,7 +1092,6 @@ SUBDIR+=	hs-newtype
 SUBDIR+=	hs-non-negative
 SUBDIR+=	hs-numeric-prelude
 SUBDIR+=	hs-numeric-quest
-SUBDIR+=	hs-pandoc-types
 SUBDIR+=	hs-pango
 SUBDIR+=	hs-parallel
 SUBDIR+=	hs-parallel-io

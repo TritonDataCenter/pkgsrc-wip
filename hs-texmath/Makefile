@@ -9,7 +9,7 @@ LICENSE=	gnu-gpl-v2
 
 
 .include "../../wip/mk/haskell.mk"
-.include "../../wip/hs-pandoc-types/buildlink3.mk"
+.include "../../textproc/hs-pandoc-types/buildlink3.mk"
 .include "../../textproc/hs-parsec/buildlink3.mk"
 .include "../../devel/hs-syb/buildlink3.mk"
 .include "../../textproc/hs-xml/buildlink3.mk"
