@@ -37,7 +37,7 @@ BUILD_DEPENDS+=	happy:../../wip/happy
 .include "../../devel/hs-syb/buildlink3.mk"
 .include "../../textproc/hs-tagsoup/buildlink3.mk"
 .include "../../wip/hs-temporary/buildlink3.mk"
-.include "../../wip/hs-texmath/buildlink3.mk"
+.include "../../textproc/hs-texmath/buildlink3.mk"
 .include "../../devel/hs-text/buildlink3.mk"
 .include "../../devel/hs-unordered-containers/buildlink3.mk"
 .include "../../devel/hs-vector/buildlink3.mk"
