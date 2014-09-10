@@ -1,8 +1,7 @@
 # $NetBSD$
-#
 
 DISTNAME=	stone_soup-0.12.2-nodeps
-PKGNAME=	dungeon-crawl-stone-soup
+PKGNAME=	dungeon-crawl-stone-soup-0.12.2
 CATEGORIES=	games
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=crawl-ref/}
 EXTRACT_SUFX=	.tar.xz

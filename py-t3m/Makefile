@@ -1,8 +1,7 @@
 # $NetBSD$
-#
 
 DISTNAME=	t3m
-PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
+PKGNAME=	${PYPKGPREFIX}-${DISTNAME}-20120616
 CATEGORIES=	math python
 MASTER_SITES=	ftp://ftp.math.uic.edu/pub/t3m/
 EXTRACT_SUFX=	.tgz

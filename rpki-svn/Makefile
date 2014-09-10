@@ -1,8 +1,6 @@
 # $NetBSD$
-#
 
-DISTNAME=	rpki-svn
-PKGNAME=	rpki-svn-
+DISTNAME=	rpki-0.0
 CATEGORIES=	net security
 MASTER_SITES=	# not defined
 
