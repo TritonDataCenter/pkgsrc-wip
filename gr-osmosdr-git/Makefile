@@ -25,15 +25,11 @@ USE_CMAKE=		yes
 # /usr/include/g++/cmath:111:11: error: '::acos' has not been declared
 # CXXFLAGS+=	-I/usr/include/g++/tr1
 
-
-# Please note DISTribution has many stuff under uhd/, but build itself
-# needs under host/ only. Others will be installed separately.
 WRKSRC=			${WRKDIR}/gr-osmosdr
 
 # Supress warning for developer
 CMAKE_ARGS+=	-Wno-dev
 # --   * Ettus USRP Devices
-#MAKE_ARGS+=	-DGNURADIO_UHD_LIBRARIES=${PREFIX}/lib
 CMAKE_ARGS+=	-DGNURADIO_UHD_INCLUDE_DIRS=${PREFIX}/include/uhd
 
 .include "../../wip/mk/git-package.mk"
