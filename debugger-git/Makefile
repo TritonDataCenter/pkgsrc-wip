@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=		debugger-git
+DISTNAME=		debugger-git-0.0
 CATEGORIES=		devel
 MASTER_SITES=		https://github.com/path64/debugger
 

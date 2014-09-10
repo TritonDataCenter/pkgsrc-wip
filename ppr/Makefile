@@ -1,6 +1,7 @@
 # $NetBSD$
 
 DISTNAME=		ppr-1.53
+PKGREVISION=		1
 CATEGORIES=		print
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=ppr/}\
 			ftp://ppr-dist.trincoll.edu/pub/ppr/
@@ -85,7 +86,7 @@ OWN_DIRS+=		${VARBASE}/spool/ppr
 .include "options.mk"
 
 .include "../../wip/natali/buildlink3.mk"
-.include "../../net/netatalk/buildlink3.mk"
+.include "../../net/netatalk22/buildlink3.mk"
 .include "../../databases/gdbm/buildlink3.mk"
 .include "../../databases/tdb/buildlink3.mk"
 .include "../../devel/gettext-lib/buildlink3.mk"

@@ -1,7 +1,6 @@
 # $NetBSD$
-#
 
-DISTNAME=	objfw-git
+DISTNAME=	objfw-0.0
 CATEGORIES=	devel
 
 COMMENT=	Portable, lightweight framework for the Objective-C language

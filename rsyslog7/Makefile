@@ -52,7 +52,6 @@ post-install:
 BUILDLINK_ABI_DEPENDS.libestr+=		libestr>=0.1.9
 .include "../../wip/libestr/buildlink3.mk"
 .include "../../wip/liblogging/buildlink3.mk"
-BUILDLINK_ABI_DEPENDS.liblognorm+=	liblognorm<1.0.0
 .include "../../wip/liblognorm/buildlink3.mk"
 .include "../../devel/zlib/buildlink3.mk"
 .include "../../textproc/json-c/buildlink3.mk"

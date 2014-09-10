@@ -3,7 +3,7 @@
 
 DISTNAME=	kuickshow-0.9.1-kde4.4.0
 PKGNAME=	${DISTNAME:S/-kde/./}
-PKGREVISION=	2
+PKGREVISION=	3
 CATEGORIES=	graphics
 MASTER_SITES=	${MASTER_SITE_KDE:=extragear/}
 EXTRACT_SUFX=	.tar.bz2
