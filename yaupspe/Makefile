@@ -1,7 +1,7 @@
 # $NetBSD$
-#
 
 DISTNAME=	yaupspe-r38
+PKGNAME=	${DISTNAME:S/-r/-/}
 CATEGORIES=	emulators
 MASTER_SITES=	http://yaupspe.googlecode.com/files/
 EXTRACT_SUFX=	.tar.bz2
