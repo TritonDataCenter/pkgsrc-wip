@@ -36,7 +36,6 @@ PKG_SUPPORTED_OPTIONS+=	default
 
 # next line means really fully available
 PKG_SUGGESTED_OPTIONS=	default
-PKG_SUGGESTED_OPTIONS=  doxygen
 
 .include	"../../mk/bsd.options.mk"
 

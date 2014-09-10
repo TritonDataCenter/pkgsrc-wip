@@ -83,9 +83,11 @@ do-install:
 .include	"../../devel/swig2/buildlink3.mk"
 .include	"../../devel/boost-headers/buildlink3.mk"
 .include	"../../devel/boost-libs/buildlink3.mk"
+.include        "../../devel/cppunit/buildlink3.mk"
 #BUILDLINK_DEPMETHOD.guile=	build
 #.include	"../../lang/guile/buildlink3.mk"
 .include	"../../math/fftwf/buildlink3.mk"
+.include        "../../math/gsl/buildlink3.mk"
 .include	"../../math/py-numpy/buildlink3.mk"
 
 .include	"../../mk/bsd.pkg.mk"
