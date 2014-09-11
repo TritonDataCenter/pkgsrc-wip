@@ -908,7 +908,6 @@ SUBDIR+=	haddock
 SUBDIR+=	hammer
 SUBDIR+=	hanazono-ttf
 SUBDIR+=	happy
-SUBDIR+=	haproxy
 SUBDIR+=	hasciicam
 SUBDIR+=	haserl
 SUBDIR+=	haskell-mode
