@@ -30,7 +30,7 @@ CONFIGURE_ARGS+= \
 .include "../../wip/hs-dyre/buildlink3.mk"
 .include "../../wip/hs-fingertree/buildlink3.mk"
 .include "../../devel/hs-ghc-paths/buildlink3.mk"
-.include "../../wip/hs-hint/buildlink3.mk"
+.include "../../devel/hs-hint/buildlink3.mk"
 .include "../../wip/hs-monads-fd/buildlink3.mk"
 .include "../../wip/hs-pointedlist03/buildlink3.mk"
 .include "../../wip/hs-pureMD5/buildlink3.mk"
