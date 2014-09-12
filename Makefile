@@ -160,7 +160,6 @@ SUBDIR+=	ati-xfree86-bin-unstable
 SUBDIR+=	atlas
 SUBDIR+=	atompaw
 SUBDIR+=	atool
-SUBDIR+=	atque
 SUBDIR+=	auctex-current
 SUBDIR+=	audacious
 SUBDIR+=	audacious-plugins
