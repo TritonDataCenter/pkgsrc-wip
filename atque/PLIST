@@ -1,0 +1,4 @@
+@comment $NetBSD$
+bin/atque
+bin/atquem
+bin/atques
