@@ -1,7 +1,7 @@
 # $NetBSD$
 
-DISTNAME=	unar1.7_src
-PKGNAME=	unar-1.7
+DISTNAME=	unar1.8.1_src
+PKGNAME=	unarchiver-1.8.1
 CATEGORIES=	archivers
 MASTER_SITES=	http://theunarchiver.googlecode.com/files/
 EXTRACT_SUFX=	.zip
