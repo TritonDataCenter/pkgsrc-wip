@@ -10,14 +10,12 @@ BUILD_DEPENDS+=		${PYPKGPREFIX}-cheetah-[0-9]*:../../devel/py-cheetah
 # gnuradio-companion wants:
 DEPENDS+=		${PYPKGPREFIX}-lxml-[0-9]*:../../textproc/py-lxml/
 
-PKG_SYSCONFSUBDIR=	gnuradio/conf.d
-
-CONF_FILES+=		${EGDIR}/gnuradio-runtime.conf   gnuradio-runtime.conf
-CONF_FILES+=		${EGDIR}/gr-audio-alsa.conf      gr-audio-alsa.conf
-CONF_FILES+=		${EGDIR}/gr-audio-jack.conf      gr-audio-jack.conf
-CONF_FILES+=		${EGDIR}/gr-audio-oss.conf       gr-audio-oss.conf
-CONF_FILES+=		${EGDIR}/gr-audio-portaudio.conf gr-audio-portaudio.conf
-CONF_FILES+=		${EGDIR}/gr-audio.conf           gr-audio.conf
+CONF_FILES+=	${EGDIR}/gnuradio-runtime.conf	${PKG_SYSCONFSUBDIR}/gnuradio-runtime.conf
+CONF_FILES+=	${EGDIR}/gr-audio-alsa.conf	${PKG_SYSCONFSUBDIR}/gr-audio-alsa.conf
+CONF_FILES+=	${EGDIR}/gr-audio-jack.conf	${PKG_SYSCONFSUBDIR}/gr-audio-jack.conf
+CONF_FILES+=	${EGDIR}/gr-audio-oss.conf	${PKG_SYSCONFSUBDIR}/gr-audio-oss.conf
+CONF_FILES+=	${EGDIR}/gr-audio-portaudio.conf ${PKG_SYSCONFSUBDIR}/gr-audio-portaudio.conf
+CONF_FILES+=	${EGDIR}/gr-audio.conf		${PKG_SYSCONFSUBDIR}/gr-audio.conf
 
 # set default as minimum
 CMAKE_ARGS+=	-DENABLE_DEFAULT=False

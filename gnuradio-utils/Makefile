@@ -6,7 +6,7 @@ COMMENT=	Utilities in GNU Radio
 .include	"../../wip/gnuradio-core/Makefile.common"
 .include	"../../wip/gnuradio-core/Nocore.mk"
 
-CONF_FILES+=		${EGDIR}/modtool.conf modtool.conf
+CONF_FILES+=	${EGDIR}/modtool.conf	${PKG_SYSCONFSUBDIR}/modtool.conf
 
 CMAKE_ARGS+=	-DENABLE_DEFAULT=False
 CMAKE_ARGS+=	-DENABLE_GR_UTILS=True

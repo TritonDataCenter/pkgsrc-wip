@@ -6,7 +6,7 @@ COMMENT=	Qt GUI module of GNU Radio
 .include	"../../wip/gnuradio-core/Makefile.common"
 .include	"../../wip/gnuradio-core/Nocore.mk"
 
-CONF_FILES+=		${EGDIR}/gr-qtgui.conf gr-qtgui.conf
+CONF_FILES+=	${EGDIR}/gr-qtgui.conf	${PKG_SYSCONFSUBDIR}/gr-qtgui.conf
 
 CMAKE_ARGS+=	-DENABLE_DEFAULT=OFF
 CMAKE_ARGS+=    -DENABLE_GR_QTGUI=ON

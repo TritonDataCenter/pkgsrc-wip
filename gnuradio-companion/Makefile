@@ -2,7 +2,8 @@
 
 PKGNAME=	gnuradio-companion-${VERSION}
 COMMENT=	Gnuradio-companion, user interface entry
-CONF_FILES+=	${EGDIR}/grc.conf grc.conf
+
+CONF_FILES+=	${EGDIR}/grc.conf	${PKG_SYSCONFSUBDIR}/grc.conf
 
 DEPENDS+=	${PYPKGPREFIX}-lxml-[0-9]*:../../textproc/py-lxml/
 
