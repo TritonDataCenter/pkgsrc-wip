@@ -6,7 +6,7 @@ COMMENT=	WxGTK Toolkit module of GNU Radio
 .include	"../../wip/gnuradio-core/Makefile.common"
 .include	"../../wip/gnuradio-core/Nocore.mk"
 
-CONF_FILES+=	${EGDIR}/gr-wxgui.conf	${PKG_SYSCONFSUBDIR}/gr-wxgui.conf
+CONF_FILES+=	${EGDIR}/gr-wxgui.conf	${PKG_SYSCONFDIR}/gr-wxgui.conf
 
 CMAKE_ARGS+=	-DENABLE_DEFAULT=False
 CMAKE_ARGS+=	-DENABLE_GR_WXGUI=True
