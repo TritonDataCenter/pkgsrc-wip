@@ -28,6 +28,10 @@ SUBST_STAGE.destdir=	pre-install
 SUBST_SED.destdir=	-e 's|\$${CMAKE_INSTALL_PREFIX}|${DESTDIR}\$${CMAKE_INSTALL_PREFIX}|'
 
 CONFIGURE_DIRS=		build
+
+## CMake Error at CMakeLists.txt:69 (message):
+##   LibUSB 1.0 required to compile rtl-sdr
+CMAKE_ARGS+=	-DLIBUSB_INCLUDE_DIR=${PREFIX}/include/libusb-1.0
 CMAKE_ARG_PATH= 	../
 
 pre-configure:
