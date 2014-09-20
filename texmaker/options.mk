@@ -6,7 +6,7 @@ PKG_SUPPORTED_OPTIONS=	build-using-qt5
 .include "../../mk/bsd.options.mk"
 
 .if !empty(PKG_OPTIONS:Mbuild-using-qt5)
-.include "../../x11/qt5-qtbase/buildlink3.mk"
+.include "../../x11/qt5-qtscript/buildlink3.mk"
 .include "../../x11/qt5-qtwebkit/buildlink3.mk"
 .include "../../print/poppler-qt5/buildlink3.mk"
 .else
