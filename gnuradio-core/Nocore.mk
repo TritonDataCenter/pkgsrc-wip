@@ -8,7 +8,6 @@ DEPENDS+=	gnuradio-core-[0-9]*:../../wip/gnuradio-core
 #.if empty(PKGBASE:Mgnuradio-core) && !empty(PLIST_MINUS)
 post-install:
 # Take care CONF_FILES stuff
-	${INSTALL_DATA_DIR} ${DESTDIR}${PREFIX}/${EGDIR}
 	${MV}		    ${DESTDIR}${PREFIX}/etc/gnuradio/conf.d/* \
 			    ${DESTDIR}${PREFIX}/${EGDIR}/
 # to avoid sh: /bin/rm: argument list too long in case repeated..

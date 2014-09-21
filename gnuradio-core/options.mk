@@ -8,7 +8,7 @@ PKG_SUPPORTED_OPTIONS=  ninja
 # FAILED: cd /PATH/wip/gnuradio-core/work/gnuradio-3.7.5/build/gr-audio/swig && ""
 # : permission denied
 
-PKG_SUGGESTED_OPTIONS=  
+PKG_SUGGESTED_OPTIONS=
 
 .include "../../mk/bsd.options.mk"
 
