@@ -62,6 +62,8 @@ PKG_SYSCONFSUBDIR=	gnuradio/conf.d
 LDFLAGS.DragonFly+=	-lboost_system
 LDFLAGS.SunOS+=		-lboost_system
 
+INSTALLATION_DIRS+=	${EGDIR}
+
 # --------       R E S E T  CMAKE_ARGS  H E R E  -------------
 CMAKE_ARGS=
 

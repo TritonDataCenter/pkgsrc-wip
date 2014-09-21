@@ -19,7 +19,6 @@ CONF_FILES+=	${EGDIR}/gr-audio.conf		${PKG_SYSCONFDIR}/gr-audio.conf
 
 # set default as minimum
 CMAKE_ARGS+=	-DENABLE_DEFAULT=False
-INSTALLATION_DIRS+=	${EGDIR}
 
 # Take care CONF_FILES stuff (The same code in Nocore.mk)
 post-install:
