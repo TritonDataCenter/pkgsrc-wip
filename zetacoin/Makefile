@@ -8,7 +8,7 @@ DIST_SUBDIR=	${PKGBASE}
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://zetacoin.com/
-COMMENT=	Open source peer-to-peer digital currency, favored by Shiba Inus
+COMMENT=	Secure and fast digital cryptocurrency
 LICENSE=	mit
 
 HAS_CONFIGURE=	yes
