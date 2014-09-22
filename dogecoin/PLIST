@@ -1,0 +1,5 @@
+@comment $NetBSD$
+bin/dogecoin-cli
+${PLIST.qt}bin/dogecoin-qt
+sbin/dogecoind
+share/examples/dogecoin/dogecoin.conf
