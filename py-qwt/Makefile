@@ -9,7 +9,7 @@ HOMEPAGE=	http://pyqwt.sourceforge.net/
 COMMENT=	Set of Python bindings for the Qwt C++ class library
 LICENSE=	gnu-gpl-v2 OR gnu-gpl-v3
 
-.if 0
+.if 1
 # qt3-libs or qt5-libs may seem to provide qfile.h but qt4-libs not:
 # x11/qt5-qtbase/PLIST:qt5/include/QtCore/qfile.h
 # See also TODO, thanks
