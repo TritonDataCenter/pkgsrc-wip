@@ -1,0 +1,5 @@
+@comment $NetBSD$
+bin/darkcoin-qt
+sbin/darkcoind
+share/examples/darkcoin/darkcoin.conf
+share/examples/rc.d/darkcoind
