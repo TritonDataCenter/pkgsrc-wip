@@ -2639,6 +2639,7 @@ SUBDIR+=	py-lib
 SUBDIR+=	py-liblzma
 SUBDIR+=	py-libmpdclient2
 SUBDIR+=	py-libopensync-plugin
+SUBDIR+=	py-librabbitmq
 SUBDIR+=	py-libtextcat
 SUBDIR+=	py-libtorrent-rasterbar
 SUBDIR+=	py-libtunepimp
