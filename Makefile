@@ -2875,6 +2875,7 @@ SUBDIR+=	py-ruffus
 SUBDIR+=	py-sage
 SUBDIR+=	py-sasa
 SUBDIR+=	py-scikit-aero
+SUBDIR+=	py-scikit-learn
 SUBDIR+=	py-scikit-monaco
 SUBDIR+=	py-scikit-nano
 SUBDIR+=	py-scikits-bvp_solver
