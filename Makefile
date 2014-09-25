@@ -3088,6 +3088,7 @@ SUBDIR+=	qore-yaml-module
 SUBDIR+=	qrint
 SUBDIR+=	qrq
 SUBDIR+=	qt4-gstreamer
+SUBDIR+=	qt5-qscintilla
 SUBDIR+=	qtcreator
 SUBDIR+=	qtcurve-gtk2
 SUBDIR+=	qtnotifydaemon
