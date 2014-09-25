@@ -11,5 +11,6 @@ BUILD_DEPENDS+=	${PYPKGPREFIX}-sphinx-[0-9]*:../../textproc/py-sphinx
 
 CMAKE_ARGS+=	-DENABLE_DEFAULT=False
 CMAKE_ARGS+=	-DENABLE_DOXYGEN=ON
+CMAKE_ARGS+=	-DENABLE_SPHINX=ON
 
 .include	"../../mk/bsd.pkg.mk"
