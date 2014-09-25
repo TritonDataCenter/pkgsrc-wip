@@ -1,0 +1,4 @@
+@comment $NetBSD$
+man/man8/mtr.8
+sbin/mtr
+share/doc/mtr/SECURITY
