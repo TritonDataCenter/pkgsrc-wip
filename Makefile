@@ -3101,7 +3101,6 @@ SUBDIR+=	radiotray
 SUBDIR+=	ranmacgen
 SUBDIR+=	rapidxml
 SUBDIR+=	rar4
-SUBDIR+=	rast
 SUBDIR+=	raster3d
 SUBDIR+=	ratpoints
 SUBDIR+=	ratproxy
