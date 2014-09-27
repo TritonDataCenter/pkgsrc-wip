@@ -3623,7 +3623,6 @@ SUBDIR+=	wmsupermon
 SUBDIR+=	wmswallow
 SUBDIR+=	wmx
 SUBDIR+=	wmx-gnome
-SUBDIR+=	wordcut
 SUBDIR+=	wordwarvi
 SUBDIR+=	workrave
 SUBDIR+=	wpro
