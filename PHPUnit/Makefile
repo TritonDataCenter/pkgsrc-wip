@@ -4,7 +4,7 @@ DISTNAME=	PHPUnit-3.7.22
 CATEGORIES=	devel
 MASTER_SITES=	http://pear.phpunit.de/get/
 
-MAINTAINER=	obache@NetBSD.org
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.phpunit.de/
 COMMENT=	PHP regression testing framework for unit tests
 LICENSE=	modified-bsd
