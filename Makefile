@@ -109,7 +109,6 @@ SUBDIR+=	ap-macro
 SUBDIR+=	ap-ometer
 SUBDIR+=	ap2-auth-imap
 SUBDIR+=	ap2-auth-pam
-SUBDIR+=	ap2-encoding
 SUBDIR+=	ap2-evasive
 SUBDIR+=	ap2-jk2
 SUBDIR+=	ap2-limitipconn
