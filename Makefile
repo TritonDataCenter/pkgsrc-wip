@@ -172,7 +172,6 @@ SUBDIR+=	autopsy
 SUBDIR+=	autoq3d
 SUBDIR+=	autossh
 SUBDIR+=	avida2
-SUBDIR+=	avifile-devel
 SUBDIR+=	avr-binutils
 SUBDIR+=	avr-gcc
 SUBDIR+=	avr-gdb
