@@ -326,7 +326,6 @@ SUBDIR+=	classic-mac-font-pack
 SUBDIR+=	claws-mail-fancy
 SUBDIR+=	clfswm
 SUBDIR+=	clhep
-SUBDIR+=	clips
 SUBDIR+=	cliquer
 SUBDIR+=	clisp
 SUBDIR+=	clisp-asdf
