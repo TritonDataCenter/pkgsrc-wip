@@ -6,6 +6,7 @@ COMMENT=	Utilities in GNU Radio
 .include	"../../wip/gnuradio-core/Makefile.common"
 .include	"../../wip/gnuradio-core/Nocore.mk"
 
+DEPENDS+=	${PYPKGPREFIX}-matplotlib-[0-9]*:../../graphics/py-matplotlib
 CONF_FILES+=	${EGDIR}/modtool.conf	${PKG_SYSCONFDIR}/modtool.conf
 
 CMAKE_ARGS+=	-DENABLE_DEFAULT=False
