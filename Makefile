@@ -3169,7 +3169,6 @@ SUBDIR+=	rtspdump
 SUBDIR+=	rubinius
 SUBDIR+=	rubrica2
 SUBDIR+=	ruby-actionmessenger
-SUBDIR+=	ruby-bdb
 SUBDIR+=	ruby-cabin
 SUBDIR+=	ruby-diaspora
 SUBDIR+=	ruby-ditz
