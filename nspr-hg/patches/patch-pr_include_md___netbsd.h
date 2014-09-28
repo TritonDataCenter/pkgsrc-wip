@@ -1,5 +1,7 @@
 $NetBSD$
 
+Improve NetBSD support, add NetBSD/amd64 support.
+
 --- pr/include/md/_netbsd.h.orig	2014-09-28 14:07:42.000000000 +0000
 +++ pr/include/md/_netbsd.h
 @@ -47,7 +47,7 @@

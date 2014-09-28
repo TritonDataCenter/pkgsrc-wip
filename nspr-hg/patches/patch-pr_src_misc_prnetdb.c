@@ -1,5 +1,11 @@
 $NetBSD$
 
+chunk 1: improve NetBSD support.
+chunk 2: add Dragonfly support.
+chunk 3: add Dragonfly support.
+chunk 4: improve NetBSD support.
+chunk 5: improve NetBSD support.
+
 --- pr/src/misc/prnetdb.c.orig	2014-09-28 14:07:42.000000000 +0000
 +++ pr/src/misc/prnetdb.c
 @@ -73,7 +73,7 @@ PRLock *_pr_dnsLock = NULL;
