@@ -37,6 +37,6 @@ DEPENDS+=	gnuradio-utils-[0-9]*:../../wip/gnuradio-utils
 DEPENDS+=	gnuradio-video-sdl-[0-9]*:../../wip/gnuradio-video-sdl
 DEPENDS+=	gnuradio-vocoder-[0-9]*:../../wip/gnuradio-vocoder
 DEPENDS+=	gnuradio-wavelet-[0-9]*:../../wip/gnuradio-wavelet
-DEPENDS+=	gnuradio-wxgui-[0-9]*:../../wip/gnuradio-wxgui
+#EPENDS+=	gnuradio-zeromq-[0-9]*:../../wip/gnuradio-zeromq
 
 .include "../../mk/bsd.pkg.mk"

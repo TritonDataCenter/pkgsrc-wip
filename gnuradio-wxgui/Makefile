@@ -12,7 +12,8 @@ CMAKE_ARGS+=	-DENABLE_DEFAULT=False
 CMAKE_ARGS+=	-DENABLE_GR_WXGUI=True
 CMAKE_ARGS+=	-DENABLE_PYTHON=True
 
+.include	"../../devel/orc/buildlink3.mk"
 .include	"../../x11/wxGTK28/buildlink3.mk"
-.include	"../../x11/py-wxWidgets/buildlink3.mk"
+.include	"../../wip/py-wxWidgets/buildlink3.mk"
 
 .include	"../../mk/bsd.pkg.mk"
