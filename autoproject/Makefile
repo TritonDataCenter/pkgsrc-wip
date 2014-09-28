@@ -14,5 +14,6 @@ DEPENDS+=		bash>=2.0:../../shells/bash2
 DEPENDS+=		{sh-utils-[0-9]*,coreutils-[0-9]*}:../../sysutils/coreutils
 
 GNU_CONFIGURE=		yes
+BROKEN=			"does not fetch"
 
 .include "../../mk/bsd.pkg.mk"
