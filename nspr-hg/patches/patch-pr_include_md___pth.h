@@ -1,5 +1,7 @@
 $NetBSD$
 
+DragonFly support.
+
 --- pr/include/md/_pth.h.orig	2014-09-28 14:07:42.000000000 +0000
 +++ pr/include/md/_pth.h
 @@ -114,7 +114,7 @@

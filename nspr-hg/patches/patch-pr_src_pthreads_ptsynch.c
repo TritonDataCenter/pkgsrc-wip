@@ -1,5 +1,7 @@
 $NetBSD$
 
+DragonFly support.
+
 --- pr/src/pthreads/ptsynch.c.orig	2014-09-28 14:07:42.000000000 +0000
 +++ pr/src/pthreads/ptsynch.c
 @@ -912,7 +912,7 @@ PR_IMPLEMENT(PRStatus) PR_DeleteSemaphor

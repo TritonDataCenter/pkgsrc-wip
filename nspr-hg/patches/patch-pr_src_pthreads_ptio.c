@@ -1,5 +1,7 @@
 $NetBSD$
 
+DragonFly support.
+
 --- pr/src/pthreads/ptio.c.orig	2014-09-28 14:07:42.000000000 +0000
 +++ pr/src/pthreads/ptio.c
 @@ -180,7 +180,8 @@ static PRBool _pr_ipv6_v6only_on_by_defa

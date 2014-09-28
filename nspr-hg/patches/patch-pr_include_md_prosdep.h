@@ -1,5 +1,7 @@
 $NetBSD$
 
+DragonFly support.
+
 --- pr/include/md/prosdep.h.orig	2014-09-28 14:07:42.000000000 +0000
 +++ pr/include/md/prosdep.h
 @@ -34,7 +34,7 @@ PR_BEGIN_EXTERN_C
