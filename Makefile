@@ -3356,6 +3356,7 @@ SUBDIR+=	suse100_glut
 SUBDIR+=	suse100_gmp4
 SUBDIR+=	suse121_32_libgcrypt
 SUBDIR+=	suse121_32_libgpg-error
+SUBDIR+=	suse121_libbz2
 SUBDIR+=	suse121_libgcrypt
 SUBDIR+=	suse121_libgpg-error
 SUBDIR+=	svgalib
