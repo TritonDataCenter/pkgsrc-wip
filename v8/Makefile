@@ -16,8 +16,12 @@ USE_LANGUAGES=		c c++
 USE_TOOLS+=		gmake:run
 
 NO_CONFIGURE=		yes
-BUILD_TARGET=		native
-TEST_TARGET=		native.check
+#BUILD_TARGET=		native
+#TEST_TARGET=		native.check
+BUILD_TARGET=		ia32.debug
+TEST_TARGET=		ia32.debug.check
+
+MAKE_ENV+=		TESTFLAGS="--no-presubmit --quickcheck --report --progress=verbose"
 
 MAKE_ENV+=		GYP_DEFINES=${GYP_DEFINES:Q}
 GYP_DEFINES+=		use_system_icu=1
