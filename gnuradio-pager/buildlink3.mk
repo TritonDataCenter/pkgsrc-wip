@@ -8,7 +8,6 @@ GNURADIO_CORE_BUILDLINK3_MK:=
 BUILDLINK_API_DEPENDS.gnuradio-core+=	gnuradio-core>=3.0.4
 BUILDLINK_ABI_DEPENDS.gnuradio-core+=	gnuradio-core>=3.3.0nb10
 BUILDLINK_PKGSRCDIR.gnuradio-core?=	../../wip/gnuradio-core
-BUILDLINK_CPPFLAGS.gnuradio-core+=    -I${BUILDLINK_PREFIX.gnuradio-core}/include/gnuradio
 
 .include "../../devel/boost-headers/buildlink3.mk"
 .include "../../devel/boost-libs/buildlink3.mk"

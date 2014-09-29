@@ -8,7 +8,6 @@ GNURADIO_FCD_BUILDLINK3_MK:=
 BUILDLINK_API_DEPENDS.gnuradio-fcd+=	gnuradio-fcd>=3.7.5
 BUILDLINK_ABI_DEPENDS.gnuradio-fcd+=	gnuradio-fcd>=3.7.5
 BUILDLINK_PKGSRCDIR.gnuradio-fcd?=	../../wip/gnuradio-fcd
-BUILDLINK_CPPFLAGS.gnuradio-fcd+=    -I${BUILDLINK_PREFIX.gnuradio-fcd}/include/gnuradio
 .endif # GNURADIO_FCD_BUILDLINK3_MK
 
 BUILDLINK_TREE+=	-gnuradio-fcd

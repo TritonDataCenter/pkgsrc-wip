@@ -8,7 +8,6 @@ GNURADIO_UHD_BUILDLINK3_MK:=
 BUILDLINK_API_DEPENDS.gnuradio-uhd+=	gnuradio-uhd>=3.7.5
 BUILDLINK_ABI_DEPENDS.gnuradio-uhd+=	gnuradio-uhd>=3.7.5
 BUILDLINK_PKGSRCDIR.gnuradio-uhd?=	../../wip/gnuradio-uhd
-BUILDLINK_CPPFLAGS.gnuradio-uhd+=    -I${BUILDLINK_PREFIX.gnuradio-uhd}/include/gnuradio
 .endif # GNURADIO_UHD_BUILDLINK3_MK
 
 BUILDLINK_TREE+=	-gnuradio-uhd
