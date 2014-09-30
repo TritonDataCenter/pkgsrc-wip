@@ -15,6 +15,8 @@ USE_TOOLS+=	pkg-config gmake
 
 PKGCONFIG_OVERRIDE+=	libmega.pc.in
 
+DEPENDS+=	glib-networking>=2.36.2:../../net/glib-networking
+
 .include "../../devel/glib2/buildlink3.mk"
 .include "../../www/curl/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
