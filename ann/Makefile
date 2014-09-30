@@ -2,24 +2,29 @@
 #
 
 DISTNAME=	ann_1.1.2
-PKGNAME=	ann-1.1.2
+PKGNAME=	${DISTNAME:S/_/-/}
 CATEGORIES=	math
-MASTER_SITES=	http://www.cs.umd.edu/~mount/ANN/Files/1.1.2/
+MASTER_SITES=	http://www.cs.umd.edu/~mount/ANN/Files/${PKGVERSION_NOREV}/
 
 MAINTAINER=	jihbed.research@gmail.com
 HOMEPAGE=	http://www.cs.umd.edu/~mount/ANN
 COMMENT=	Library for Approximate Nearest Neighbor Searching
 LICENSE=	gnu-lgpl-v2.1
 
-USE_TOOLS+= gmake pax
-USE_LANGUAGES=	c++
+USE_TOOLS+=	gmake pax
+USE_LANGUAGES=	c c++
+
+.include "../../mk/bsd.prefs.mk"
+
+.if ${OPSYS} == "SunOS"
+BUILD_TARGET=	sunos5-g++
+.elif ${OPSYS} == "Darwin"
+BUILD_TARGET=	macosx-g++
+.else
+BUILD_TARGET=	linux-g++
+.endif
 
 INSTALLATION_DIRS=	bin lib share/doc/ann
-
-ONLY_FOR_PLATFORM= NetBSD-*-* Linux-*-*
-
-do-build:
-	cd ${WRKSRC} && ${GMAKE} linux-g++
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/bin/ann2fig ${DESTDIR}${PREFIX}/bin/
