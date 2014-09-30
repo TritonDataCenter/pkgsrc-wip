@@ -1,7 +1,0 @@
-@comment $NetBSD$
-bin/wkf
-include/wkf.h
-lib/libwkf.a
-lib/libwkf.so
-lib/libwkf13.so.1
-man/ja/man1/wkf.1

@@ -15,6 +15,12 @@ DEPENDS+=		postgresql${PGSQL_VERSION}-server>=0:../../databases/postgresql${PGSQ
 
 CONFLICTS=		postgis-[0-9]*
 
+# TODO section
+# 1. File ticket upstream about make->$(MAKE) in doc/html/image_src/Makefile.
+# 2. Update to upstream with fixes for:
+@      http://trac.osgeo.org/postgis/ticket/2872
+#      http://trac.osgeo.org/postgis/ticket/2909
+
 # gmake complains about adding + to parent rule
 MAKE_JOBS_SAFE=		no
 

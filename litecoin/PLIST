@@ -1,0 +1,5 @@
+@comment $NetBSD$
+bin/litecoin-qt
+sbin/litecoind
+share/examples/litecoin/litecoin.conf
+share/examples/rc.d/litecoind

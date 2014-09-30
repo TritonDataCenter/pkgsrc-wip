@@ -6,10 +6,12 @@ http://sdr.osmocom.org/trac/wiki/GrOsmoSDR#Buildprocess
 -- # Gnuradio enabled components                         
 -- ######################################################
 --   * Python support
+--   * FUNcube Dongle
 --   * IQ File Source
 --   * Osmocom RTLSDR
 --   * RTLSDR TCP Client
 --   * Ettus USRP Devices
+--   * Osmocom MiriSDR
 --   * RFSPACE Receivers
 -- 
 -- ######################################################
@@ -17,10 +19,24 @@ http://sdr.osmocom.org/trac/wiki/GrOsmoSDR#Buildprocess
 -- ######################################################
 --   * Osmocom IQ Imbalance Correction
 --   * sysmocom OsmoSDR
---   * FUNcube Dongle
 --   * FUNcube Dongle Pro+
---   * Osmocom MiriSDR
 --   * HackRF Jawbreaker
 --   * nuand bladeRF
 --   * AIRSPY Receiver
 
+(Other OS build info)
+Mac Ports 
+    https://www.macports.org/ports.php?by=library&substr=gr-osmosdr
+Says:
+Dependencies:
+git
+graphviz
+gnuradio
+uhd
+bladeRF
+cmake
+doxygen
+gr-fcdproplus
+hackrf
+python27
+rtl-sdr

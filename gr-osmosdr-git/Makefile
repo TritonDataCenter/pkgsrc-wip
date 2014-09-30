@@ -8,13 +8,6 @@ HOMEPAGE=		http://sdr.osmocom.org/trac/wiki/GrOsmoSDR
 COMMENT=		SDR Hardware support for OsmoSDR and so many more
 LICENSE=		gnu-gpl-v2
 
-.if 0
-PKG_FAIL_REASON= ' ***  Package not completed yet. Sorry and thanks.'
-.else
-# Just for debugging purpose
-MAKE_JOBS_SAFE=		no
-.endif
-
 GIT_REPOSITORIES=       master
 GIT_REPO.master=        git://git.osmocom.org/gr-osmosdr
 GIT_MODULE.master=	gr-osmosdr
@@ -22,8 +15,6 @@ GIT_MODULE.master=	gr-osmosdr
 USE_LANGUAGES=		c c++
 USE_TOOLS=		cmake
 USE_CMAKE=		yes
-# /usr/include/g++/cmath:111:11: error: '::acos' has not been declared
-# CXXFLAGS+=	-I/usr/include/g++/tr1
 
 WRKSRC=			${WRKDIR}/gr-osmosdr
 
@@ -31,18 +22,36 @@ WRKSRC=			${WRKDIR}/gr-osmosdr
 CMAKE_ARGS+=	-Wno-dev
 # --   * Ettus USRP Devices
 CMAKE_ARGS+=	-DGNURADIO_UHD_INCLUDE_DIRS=${PREFIX}/include/uhd
+CMAKE_ARGS+=	-DGNURADIO_BLOCKS_INCLUDE_DIRS=${PREFIX}/include
+
+PLIST_SUBST+=	PYSITELIB=${PYSITELIB}
+
+REPLACE_PYTHON+=	apps/osmocom_siggen_base.py
 
 .include "../../wip/mk/git-package.mk"
 # you need place after above line for now.
 _GIT_FLAGS=		# set empty, --depth 1 seems harmfull
-.include "../../devel/boost-headers/buildlink3.mk"
-.include "../../devel/boost-libs/buildlink3.mk"
-.include "../../devel/libusb1/buildlink3.mk"
-.include "../../devel/orc/buildlink3.mk"
 
-.include "../../ham/uhd/buildlink3.mk"
-.include "../../lang/python/application.mk"
-.include "../../wip/gnuradio-core/buildlink3.mk"
-.include "../../wip/rtl-sdr/buildlink3.mk"
+.include	"../../devel/boost-headers/buildlink3.mk"
+.include	"../../devel/boost-libs/buildlink3.mk"
+.include	"../../devel/libusb1/buildlink3.mk"
+.include	"../../devel/orc/buildlink3.mk"
+
+.include	"../../ham/uhd/buildlink3.mk"
+.include	"../../lang/python/application.mk"
+.include	"../../lang/python/extension.mk"
+.include	"../../wip/rtl-sdr/buildlink3.mk"
+.include	"../../wip/libmirisdr/buildlink3.mk"
+
+.if 1
+# gnuradio/io_signature.h: No such file or directory
+.  include "../../wip/gnuradio-core/buildlink3.mk"
+# gnuradio/fcd/source_c.h: No such file or directory
+.  include "../../wip/gnuradio-fcd/buildlink3.mk"
+# gnuradio/uhd/usrp_source.h: No such file or directory
+.  include "../../wip/gnuradio-uhd/buildlink3.mk"
+.else
+.  include "../../wip/gnuradio-default/buildlink3.mk"
+.endif
 
 .include "../../mk/bsd.pkg.mk"

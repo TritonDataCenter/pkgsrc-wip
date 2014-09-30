@@ -10,7 +10,7 @@ MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://viewglob.sourceforge.net/
 COMMENT=		Utility designed to complement the shell in graphical environments
 
-DEPENDS+=		bash>=2.0:../../shells/bash2
+DEPENDS+=		bash>=2.0:../../shells/bash
 
 PKG_DESTDIR_SUPPORT=	none
 

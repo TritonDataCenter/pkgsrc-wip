@@ -1,0 +1,5 @@
+@comment $NetBSD$
+bin/feathercoin-qt
+sbin/feathercoind
+share/examples/feathercoin/feathercoin.conf
+share/examples/rc.d/feathercoind

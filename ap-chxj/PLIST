@@ -1,5 +1,0 @@
-@comment $NetBSD$
-lib/httpd/mod_chxj.so
-share/doc/mod_chxj/modchxj.html
-share/examples/mod_chxj/device_data.xml
-share/examples/mod_chxj/emoji.xml
