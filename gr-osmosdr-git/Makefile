@@ -8,13 +8,6 @@ HOMEPAGE=		http://sdr.osmocom.org/trac/wiki/GrOsmoSDR
 COMMENT=		SDR Hardware support for OsmoSDR and so many more
 LICENSE=		gnu-gpl-v2
 
-.if 1
-PKG_FAIL_REASON= ' *** Currently /usr/include/g++/cmath patch is necessary. See TODO. Why ?'
-.else
-# Just for debugging purpose
-MAKE_JOBS_SAFE=		no
-.endif
-
 GIT_REPOSITORIES=       master
 GIT_REPO.master=        git://git.osmocom.org/gr-osmosdr
 GIT_MODULE.master=	gr-osmosdr
