@@ -15,7 +15,7 @@ GIT_MODULE.master=	libmirisdr
 WRKSRC=		${WRKDIR}/libmirisdr
 
 USE_LANGUAGES=	c c++
-USE_TOOLS=	cmake
+USE_TOOLS=	cmake pkg-config
 USE_CMAKE=	yes
 
 # Supress warning for developer
