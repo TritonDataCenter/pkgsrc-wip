@@ -1,5 +1,4 @@
 # $NetBSD$
-#
 
 DISTNAME=	guile-2.0.11
 CATEGORIES=	lang
@@ -14,17 +13,11 @@ GNU_CONFIGURE=	yes
 # On NetBSD 5, -C is not recognized by /usr/bin/make
 USE_TOOLS+=	gmake
 USE_TOOLS+=	pkg-config
+# not until boehm-gc is threaded
+CONFIGURE_ARGS+=	--without-threads
 
 PKGCONFIG_OVERRIDE+=	meta/guile-2.0.pc.in
 
-CONFIGURE_ARGS+=	--without-threads
-#.include "../../mk/pthread.buildlink3.mk"
-
-# Because we don't explicitly depend on readline, disable it.
-# Note that if readline is included, license becomes 'AND gnu-gplv-3'.
-CONFIGURE_ARGS+=	--without-readline-prefix
-
-# These are in the order given in guile's README.
 .include "../../devel/gmp/buildlink3.mk"
 .include "../../converters/libiconv/buildlink3.mk"
 .include "../../devel/gettext-lib/buildlink3.mk"
@@ -32,5 +25,6 @@ CONFIGURE_ARGS+=	--without-readline-prefix
 .include "../../textproc/libunistring/buildlink3.mk"
 .include "../../devel/boehm-gc/buildlink3.mk"
 .include "../../devel/libffi/buildlink3.mk"
-
+.include "../../devel/readline/buildlink3.mk"
+#.include "../../mk/pthread.buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
