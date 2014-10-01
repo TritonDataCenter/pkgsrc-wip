@@ -16,5 +16,5 @@ PKG_DESTDIR_SUPPORT=	none
 PERL5_PACKLIST=	auto/Apache/AuthenNTLM/.packlist
 
 .include "../../lang/perl5/module.mk"
-.include "../../www/ap-perl/buildlink3.mk"
+.include "../../www/ap-perl2/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
