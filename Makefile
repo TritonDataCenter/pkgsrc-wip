@@ -3505,7 +3505,6 @@ SUBDIR+=	tuxguitar
 SUBDIR+=	tuxpaint-cvs
 SUBDIR+=	tuxtype2
 SUBDIR+=	tvmet
-SUBDIR+=	tw_cli
 SUBDIR+=	twinkle
 SUBDIR+=	twintk
 SUBDIR+=	twitim
