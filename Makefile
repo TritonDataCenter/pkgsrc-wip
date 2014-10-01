@@ -2274,7 +2274,6 @@ SUBDIR+=	polarssl11
 SUBDIR+=	polipo
 SUBDIR+=	polylib
 SUBDIR+=	polymul
-SUBDIR+=	pop-before-smtp
 SUBDIR+=	pop3.proxy
 SUBDIR+=	popup-el-current
 SUBDIR+=	portscout
