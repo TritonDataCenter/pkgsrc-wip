@@ -2,9 +2,9 @@ $NetBSD$
 
 Do not include git version in egg name.
 
---- setup.py.orig	2014-07-09 02:09:33.000000000 +0000
-+++ setup.py
-@@ -30,7 +30,7 @@ if not RELEASE:
+--- version.py.orig	2014-10-01 06:33:50.000000000 +0000
++++ version.py
+@@ -29,7 +29,7 @@ if not RELEASE:
  
          if revision != VERSION:
              revision = revision.lstrip(string.digits + '.')
