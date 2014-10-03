@@ -21,4 +21,10 @@ post-install:
 	${MV} ${DESTDIR}${PREFIX}/etc/gnuradio/conf.d/* \
 	      ${DESTDIR}${PREFIX}/${EGDIR}/
 
+# NetBSD/amd64 7.99.1
+# build/volk/lib/volk_32f_sqrt_32f_a_orc_impl.c:79:21: fatal error: orc/orc.h: No such file or directory
+# NetBSD/i386 7.99.1 
+## ../lib/libgnuradio-runtime.so.3.7.5: undefined reference to `shm_unlink'
+## ../lib/libgnuradio-runtime.so.3.7.5: undefined reference to `shm_open'
+.include	"../../devel/orc/buildlink3.mk"
 .include	"../../mk/bsd.pkg.mk"
