@@ -42,6 +42,8 @@ _GIT_FLAGS=		# set empty, --depth 1 seems harmfull
 .include	"../../lang/python/extension.mk"
 .include	"../../wip/rtl-sdr/buildlink3.mk"
 .include	"../../wip/libmirisdr/buildlink3.mk"
+.include	"../../wip/osmo-sdr/buildlink3.mk"
+.include	"../../wip/gr-fcdproplus/buildlink3.mk"
 
 .if 1
 # gnuradio/io_signature.h: No such file or directory
