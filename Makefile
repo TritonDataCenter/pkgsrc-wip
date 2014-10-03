@@ -419,7 +419,6 @@ SUBDIR+=	deforaos-accessories
 SUBDIR+=	deforaos-asm
 SUBDIR+=	deforaos-browser
 SUBDIR+=	deforaos-camera
-SUBDIR+=	deforaos-configure
 SUBDIR+=	deforaos-cpp
 SUBDIR+=	deforaos-desktop
 SUBDIR+=	deforaos-editor
