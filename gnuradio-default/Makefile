@@ -47,7 +47,7 @@ CONF_FILES+=	${EGDIR}/gnuradio-runtime.conf	${PKG_SYSCONFDIR}/gnuradio-runtime.c
 
 BUILD_DEPENDS+=	${PYPKGPREFIX}-sphinx-[0-9]*:../../textproc/py-sphinx
 DEPENDS+=	${PYPKGPREFIX}-lxml-[0-9]*:../../textproc/py-lxml/
-DEPENDS+=	${PYPKGPREFIX}-qwt-qt4-[0-9]*:../../wip/py-qwt-qt4
+DEPENDS+=	${PYPKGPREFIX}-qwt-qt4-[0-9]*:../../x11/py-qwt-qt4
 
 # --------	 R E S E T    H E R E  -------------
 CMAKE_ARGS+=	-DENABLE_DEFAULT=True
