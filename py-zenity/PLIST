@@ -1,0 +1,4 @@
+@comment $NetBSD$
+${PYSITELIB}/PyZenity.py
+${PYSITELIB}/PyZenity.pyc
+${PYSITELIB}/PyZenity.pyo
