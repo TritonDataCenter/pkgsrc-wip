@@ -1504,6 +1504,7 @@ lib/firefox/browser/modules/devtools/webide/utils.js
 lib/firefox/browser/modules/distribution.js
 lib/firefox/browser/modules/experiments/Experiments.jsm
 lib/firefox/browser/modules/loop/CardDavImporter.jsm
+lib/firefox/browser/modules/loop/GoogleImporter.jsm
 lib/firefox/browser/modules/loop/LoopContacts.jsm
 lib/firefox/browser/modules/loop/LoopStorage.jsm
 lib/firefox/browser/modules/loop/MozLoopAPI.jsm
