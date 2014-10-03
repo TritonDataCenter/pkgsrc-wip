@@ -67,7 +67,7 @@ post-patch:
 
 .include	"../../x11/py-gtk2/buildlink3.mk"
 .include	"../../x11/py-qt4/buildlink3.mk"
-.include	"../../wip/py-wxWidgets/buildlink3.mk"
+.include	"../../x11/py-wxWidgets/buildlink3.mk"
 .include	"../../x11/qt4-libs/buildlink3.mk"
 .include	"../../x11/qwt-qt4/buildlink3.mk"
 .include	"../../x11/wxGTK28/buildlink3.mk"
