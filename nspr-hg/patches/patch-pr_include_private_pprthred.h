@@ -1,5 +1,8 @@
 $NetBSD$
 
+pthread_t is too big for PRUint32.
+https://bugzilla.mozilla.org/show_bug.cgi?id=953413
+
 --- pr/include/private/pprthred.h.orig	2014-09-28 14:07:42.000000000 +0000
 +++ pr/include/private/pprthred.h
 @@ -19,6 +19,8 @@
