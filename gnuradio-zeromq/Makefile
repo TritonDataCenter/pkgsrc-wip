@@ -23,6 +23,5 @@ CMAKE_ARGS+=	-DZEROMQ_INCLUDE_DIRS=${PREFIX}/include
 post-patch:
 	${CP}	${PKGDIR}/files/zmq.hpp ${WRKSRC}/gr-zeromq/include/
 
-.include	"../../devel/orc/buildlink3.mk"
 .include	"../../net/zeromq/buildlink3.mk"
 .include	"../../mk/bsd.pkg.mk"

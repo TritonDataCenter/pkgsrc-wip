@@ -15,7 +15,6 @@ CMAKE_ARGS+=	-DENABLE_PYTHON=True
 CMAKE_ARGS+=	-DUHD_LIBRARIES=${PREFIX}/lib/libuhd.so
 CMAKE_ARGS+=	-DUHD_INCLUDE_DIRS=${PREFIX}/include/uhd/usrp
 
-.include	"../../devel/orc/buildlink3.mk"
 .include	"../../ham/uhd/buildlink3.mk"
 
 .include	"../../mk/bsd.pkg.mk"
