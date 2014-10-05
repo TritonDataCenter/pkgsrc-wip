@@ -1,5 +1,7 @@
 $NetBSD$
 
+Support for pre c99 compilers - should probably be deleted.
+
 Fix
 pkcs11.c: In function 'sftk_handlePublicKeyObject':
 pkcs11.c:972:5: error: expected expression before '/' token

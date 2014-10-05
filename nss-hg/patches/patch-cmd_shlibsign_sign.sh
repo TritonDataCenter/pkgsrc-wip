@@ -1,5 +1,7 @@
 $NetBSD$
 
+Add ${PREFIX}/lib to search path (pkgsrc specific)
+
 --- cmd/shlibsign/sign.sh.orig	2014-09-28 13:54:02.000000000 +0000
 +++ cmd/shlibsign/sign.sh
 @@ -37,7 +37,7 @@ WIN*)

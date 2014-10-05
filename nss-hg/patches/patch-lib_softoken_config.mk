@@ -1,5 +1,9 @@
 $NetBSD$
 
+Use pkg-config to find the proper sqlite3 (when not using the version
+distributed with firefox - might not need upstreaming and stay as local
+patch)
+
 --- lib/softoken/config.mk.orig	2014-09-28 13:54:02.000000000 +0000
 +++ lib/softoken/config.mk
 @@ -48,7 +48,7 @@ else

@@ -1,5 +1,7 @@
 $NetBSD$
 
+Support DragonFly
+
 --- coreconf/DragonFly.mk.orig	2014-09-28 13:56:04.000000000 +0000
 +++ coreconf/DragonFly.mk
 @@ -0,0 +1,83 @@

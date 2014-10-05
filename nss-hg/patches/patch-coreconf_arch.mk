@@ -1,5 +1,7 @@
 $NetBSD$
 
+Support DragonFly
+
 --- coreconf/arch.mk.orig	2014-09-28 13:54:02.000000000 +0000
 +++ coreconf/arch.mk
 @@ -113,7 +113,7 @@ endif

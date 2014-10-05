@@ -1,5 +1,7 @@
 $NetBSD$
 
+Support DragonFly
+
 --- lib/freebl/Makefile.orig	2014-09-28 13:54:02.000000000 +0000
 +++ lib/freebl/Makefile
 @@ -274,7 +274,7 @@ endif

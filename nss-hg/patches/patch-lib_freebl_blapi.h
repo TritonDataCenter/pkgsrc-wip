@@ -1,5 +1,7 @@
 $NetBSD$
 
+Avoid namespace collision (?)
+
 --- lib/freebl/blapi.h.orig	2014-09-28 13:54:02.000000000 +0000
 +++ lib/freebl/blapi.h
 @@ -1189,6 +1189,8 @@ extern void SHA1_DestroyContext(SHA1Cont

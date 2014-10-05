@@ -1,5 +1,7 @@
 $NetBSD$
 
+PLIST unification (see nspr)?
+
 --- coreconf/OpenBSD.mk.orig	2014-09-28 13:54:02.000000000 +0000
 +++ coreconf/OpenBSD.mk
 @@ -24,7 +24,7 @@ OS_LIBS			+= -pthread
