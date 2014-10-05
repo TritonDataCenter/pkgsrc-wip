@@ -1,12 +1,12 @@
 # $NetBSD: Makefile,v 1.40 2014/05/09 07:37:08 wiz Exp $
 
 PKGNAME=	gnuradio-default-${VERSION}
-COMMENT=	Full package of gnuradio
+COMMENT=	Full package of gnuradio (conflict to meta-pkgs)
+INSTALLATION_DIRS+= ${EGDIR}
 
 # The half of the same target in Nocore.mk
 post-install:
 # Take care CONF_FILES stuff
-	${INSTALL_DATA_DIR} ${DESTDIR}${PREFIX}/${EGDIR}
 	${MV}               ${DESTDIR}${PREFIX}/etc/gnuradio/conf.d/* \
 	                    ${DESTDIR}${PREFIX}/${EGDIR}/
 

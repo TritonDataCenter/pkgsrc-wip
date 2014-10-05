@@ -12,7 +12,7 @@ LICENSE=	gnu-gpl-v3
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.gnu.org/software/gnuradio/
-COMMENT=	Collection of GNU Radio modules (meta package)
+COMMENT=	Collection of GNU Radio (meta package, easy to install whole thing)
 
 # 20 package for now ( -default is NOT included )
 DEPENDS+=	gnuradio-atsc-[0-9]*:../../wip/gnuradio-atsc
