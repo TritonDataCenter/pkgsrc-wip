@@ -20,7 +20,7 @@ do-build:
 	(cd ${WRKSRC}/build; ninja)
 .else
 do-build:
-	(cd ${WRKSRC}/build; ${GMAKE})
+	(cd ${WRKSRC}/build; ${BUILD_MAKE_CMD})
 .endif
 
 .if !empty(PKG_OPTIONS:Mfilter-design)
