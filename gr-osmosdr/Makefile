@@ -36,6 +36,7 @@ REPLACE_PYTHON+=	apps/osmocom_siggen_base.py
 .include	"../../wip/libmirisdr/buildlink3.mk"
 .include	"../../wip/osmo-sdr/buildlink3.mk"
 .include	"../../wip/gr-fcdproplus/buildlink3.mk"
+.include	"../../wip/hackrf/buildlink3.mk"
 
 .if 1
 # gnuradio/io_signature.h: No such file or directory
