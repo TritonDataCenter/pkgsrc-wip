@@ -11,7 +11,6 @@ LICENSE=		gnu-gpl-v2
 GIT_REPOSITORIES=	master
 GIT_REPO.master=	https://github.com/dl1ksv/gr-fcdproplus
 GIT_MODULE.master=	gr-fcdproplus
-MAKE_ENV+=		GIT_SSL_NO_VERIFY=true
 
 USE_LANGUAGES=		c c++
 USE_TOOLS=		cmake
