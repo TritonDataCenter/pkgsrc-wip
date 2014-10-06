@@ -1,11 +1,11 @@
-# $NetBSD: Makefile,v 1.6 2011/04/14 14:35:59 makoto Exp $
+# $NetBSD$
 
 DISTNAME=		gr-osmosdr-0.1.3
 CATEGORIES=		ham
+MASTER_SITES+=		http://git.osmocom.org/gr-osmosdr/snapshot/
 
 MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://git.osmocom.org/gr-osmosdr
-MASTER_SITES+=		http://git.osmocom.org/gr-osmosdr/snapshot/
 COMMENT=		SDR Hardware support for OsmoSDR and so many more
 LICENSE=		gnu-gpl-v2
 
