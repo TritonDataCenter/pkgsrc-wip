@@ -41,8 +41,5 @@ do-build:
 do-install:
 	(cd ${WRKSRC}/build; ${GMAKE} install)
 
-.include "../../lang/python/pyversion.mk"
-.include "../../lang/${PYPACKAGE}/buildlink3.mk"
 .include "../../devel/libusb1/buildlink3.mk"
-
 .include "../../mk/bsd.pkg.mk"
