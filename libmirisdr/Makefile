@@ -9,6 +9,7 @@ HOMEPAGE=	http://cgit.osmocom.org/libmirisdr/
 COMMENT=	Osmocom Mirics MSi2500 + MSi001 SDR library
 LICENSE=	gnu-gpl-v2
 MASTER_SITES+=	http://cgit.osmocom.org/libmirisdr/snapshot/
+DIST_SUBDIR=	${PKGBASE}-2013-06-08
 
 WRKSRC=		${WRKDIR}/${DISTNAME}
 
