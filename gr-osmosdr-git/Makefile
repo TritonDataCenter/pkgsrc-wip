@@ -18,7 +18,7 @@ USE_CMAKE=		yes
 
 WRKSRC=			${WRKDIR}/gr-osmosdr
 
-# Supress warning for developer
+# Suppress warning for developer
 CMAKE_ARGS+=	-Wno-dev
 # --   * Ettus USRP Devices
 CMAKE_ARGS+=	-DGNURADIO_UHD_INCLUDE_DIRS=${PREFIX}/include/uhd

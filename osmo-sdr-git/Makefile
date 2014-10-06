@@ -17,7 +17,7 @@ USE_TOOLS=		cmake tar
 USE_CMAKE=		yes
 
 WRKSRC=			${WRKDIR}/osmo-sdr
-# Supress warning for developer
+# Suppress warning for developer
 CMAKE_ARGS+=		-Wno-dev
 
 REPLACE_PERL+=		utils/e4000_distance.pl

@@ -13,7 +13,7 @@ USE_LANGUAGES=		c c++
 USE_TOOLS=		cmake
 USE_CMAKE=		yes
 
-# Supress warning for developer
+# Suppress warning for developer
 CMAKE_ARGS+=	-Wno-dev
 # --   * Ettus USRP Devices
 CMAKE_ARGS+=	-DGNURADIO_UHD_INCLUDE_DIRS=${PREFIX}/include/uhd

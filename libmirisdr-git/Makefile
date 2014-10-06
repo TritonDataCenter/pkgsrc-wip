@@ -18,7 +18,7 @@ USE_LANGUAGES=	c c++
 USE_TOOLS=	cmake pkg-config
 USE_CMAKE=	yes
 
-# Supress warning for developer
+# Suppress warning for developer
 CMAKE_ARGS+=	-Wno-dev
 
 .include	"../../wip/mk/git-package.mk"
