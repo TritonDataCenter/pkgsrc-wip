@@ -11,8 +11,6 @@ HOMEPAGE=		http://sdr.osmocom.org/trac/wiki/rtl-sdr
 COMMENT=		Turns your Realtek RTL2832 based DVB dongle into a SDR receiver
 LICENSE=		gnu-gpl-v2
 
-BUILD_DEPENDS+=		ninja-build-[0-9]*:../../devel/ninja-build
-
 DIST_SUBDIR=		rtl-sdr
 USE_LANGUAGES+=		c c++
 USE_TOOLS+=		gmake
