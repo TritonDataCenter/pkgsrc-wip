@@ -25,4 +25,5 @@ do-install:
 
 .include "../../wip/emacs-current/modules.mk"
 .include "../../wip/mk/git-package.mk"
+_GIT_ENV+=		GIT_SSL_NO_VERIFY=true
 .include "../../mk/bsd.pkg.mk"
