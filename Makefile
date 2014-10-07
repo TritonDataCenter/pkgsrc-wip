@@ -1768,6 +1768,7 @@ SUBDIR+=	navigatrix
 SUBDIR+=	nbfc
 SUBDIR+=	ncbi
 SUBDIR+=	ncbi-bin
+SUBDIR+=	ncbi-blast
 SUBDIR+=	ncbi-c++-lib
 SUBDIR+=	ncbi-lib
 SUBDIR+=	ncp
