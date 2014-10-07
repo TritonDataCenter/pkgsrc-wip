@@ -3832,8 +3832,6 @@ share/emacs/${PKGVERSION}/lisp/vt-control.el.gz
 share/emacs/${PKGVERSION}/lisp/vt-control.elc
 share/emacs/${PKGVERSION}/lisp/vt100-led.el.gz
 share/emacs/${PKGVERSION}/lisp/vt100-led.elc
-share/emacs/${PKGVERSION}/lisp/w32-common-fns.el.gz
-share/emacs/${PKGVERSION}/lisp/w32-common-fns.elc
 share/emacs/${PKGVERSION}/lisp/w32-fns.el.gz
 share/emacs/${PKGVERSION}/lisp/w32-fns.elc
 share/emacs/${PKGVERSION}/lisp/w32-vars.el.gz
