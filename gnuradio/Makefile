@@ -14,7 +14,7 @@ MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.gnu.org/software/gnuradio/
 COMMENT=	Collection of GNU Radio (meta package, easy to install whole thing)
 
-# 20 package for now ( -default is NOT included )
+# 21 package for now ( -default is NOT included )
 DEPENDS+=	gnuradio-atsc-[0-9]*:../../wip/gnuradio-atsc
 DEPENDS+=	gnuradio-channels-[0-9]*:../../wip/gnuradio-channels
 DEPENDS+=	gnuradio-companion-[0-9]*:../../wip/gnuradio-companion
@@ -37,6 +37,8 @@ DEPENDS+=	gnuradio-utils-[0-9]*:../../wip/gnuradio-utils
 DEPENDS+=	gnuradio-video-sdl-[0-9]*:../../wip/gnuradio-video-sdl
 DEPENDS+=	gnuradio-vocoder-[0-9]*:../../wip/gnuradio-vocoder
 DEPENDS+=	gnuradio-wavelet-[0-9]*:../../wip/gnuradio-wavelet
-#EPENDS+=	gnuradio-zeromq-[0-9]*:../../wip/gnuradio-zeromq
+DEPENDS+=	gnuradio-wxgui-[0-9]*:../../wip/gnuradio-wxgui
+
+DEPENDS+=	gnuradio-zeromq-[0-9]*:../../wip/gnuradio-zeromq
 
 .include "../../mk/bsd.pkg.mk"
