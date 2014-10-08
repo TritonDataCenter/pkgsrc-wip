@@ -1,11 +1,10 @@
 # $NetBSD$
-#
 
 DISTNAME=	swftools-0.9.2
 CATEGORIES=	graphics multimedia converters
 MASTER_SITES=	http://www.swftools.org/
 
-MAINTAINER=	obache@NetBSD.org
+MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.swftools.org/
 COMMENT=	Collection of SWF manipulation and creation utilities
 LICENSE=	gnu-gpl-v2

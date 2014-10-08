@@ -1,5 +1,7 @@
 $NetBSD$
 
+Rename global symbol SHA1_Update to avoid namespace collision
+
 --- lib/freebl/sha-fast-amd64-sun.s.orig	2014-09-28 13:54:02.000000000 +0000
 +++ lib/freebl/sha-fast-amd64-sun.s
 @@ -1680,9 +1680,9 @@ shaCompress:

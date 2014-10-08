@@ -1,5 +1,7 @@
 $NetBSD$
 
+Posix compatibility - avoid bash specific == operator
+
 --- tests/libpkix/libpkix.sh.orig	2014-09-28 13:54:02.000000000 +0000
 +++ tests/libpkix/libpkix.sh
 @@ -52,12 +52,12 @@ libpkix_cleanup()

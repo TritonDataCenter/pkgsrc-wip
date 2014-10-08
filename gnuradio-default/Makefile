@@ -1,12 +1,12 @@
 # $NetBSD: Makefile,v 1.40 2014/05/09 07:37:08 wiz Exp $
 
 PKGNAME=	gnuradio-default-${VERSION}
-COMMENT=	Full package of gnuradio
+COMMENT=	Full package of gnuradio (conflict to meta-pkgs)
+INSTALLATION_DIRS+= ${EGDIR}
 
 # The half of the same target in Nocore.mk
 post-install:
 # Take care CONF_FILES stuff
-	${INSTALL_DATA_DIR} ${DESTDIR}${PREFIX}/${EGDIR}
 	${MV}               ${DESTDIR}${PREFIX}/etc/gnuradio/conf.d/* \
 	                    ${DESTDIR}${PREFIX}/${EGDIR}/
 
@@ -47,7 +47,7 @@ CONF_FILES+=	${EGDIR}/gnuradio-runtime.conf	${PKG_SYSCONFDIR}/gnuradio-runtime.c
 
 BUILD_DEPENDS+=	${PYPKGPREFIX}-sphinx-[0-9]*:../../textproc/py-sphinx
 DEPENDS+=	${PYPKGPREFIX}-lxml-[0-9]*:../../textproc/py-lxml/
-DEPENDS+=	${PYPKGPREFIX}-qwt-qt4-[0-9]*:../../wip/py-qwt-qt4
+DEPENDS+=	${PYPKGPREFIX}-qwt-qt4-[0-9]*:../../x11/py-qwt-qt4
 
 # --------	 R E S E T    H E R E  -------------
 CMAKE_ARGS+=	-DENABLE_DEFAULT=True
@@ -67,7 +67,7 @@ post-patch:
 
 .include	"../../x11/py-gtk2/buildlink3.mk"
 .include	"../../x11/py-qt4/buildlink3.mk"
-.include	"../../wip/py-wxWidgets/buildlink3.mk"
+.include	"../../x11/py-wxWidgets/buildlink3.mk"
 .include	"../../x11/qt4-libs/buildlink3.mk"
 .include	"../../x11/qwt-qt4/buildlink3.mk"
 .include	"../../x11/wxGTK28/buildlink3.mk"

@@ -1,5 +1,7 @@
 $NetBSD$
 
+Posix compatibility - avoid bash specific == operator
+
 --- tests/multinit/multinit.sh.orig	2014-09-28 13:54:02.000000000 +0000
 +++ tests/multinit/multinit.sh
 @@ -91,14 +91,14 @@ multinit_main()

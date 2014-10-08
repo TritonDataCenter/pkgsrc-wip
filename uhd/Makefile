@@ -1,13 +1,13 @@
-# $NetBSD: Makefile,v 1.6 2011/04/14 14:35:59 makoto Exp $
+# $NetBSD: Makefile,v 1.5 2014/09/09 05:50:18 mef Exp $
 
-DISTNAME=		003_007_002_rc1
-#DISTNAME=		uhd-images_003.007.002-rc1
-PKGNAME=		uhd-3.7.2rc1
-CATEGORIES=		ham
-MASTER_SITE=		https://github.com/EttusResearch/uhd/archive
-#MASTER_SITE+=		http://files.ettus.com/binaries/maint_images/archive
-EXTRACT_SUFX=		.zip
-DIST_SUBDIR=		uhd
+DISTNAME=               003_007_003_rc1
+#DISTNAME=              uhd-images_003.007.003-rc1
+PKGNAME=                uhd-3.7.3rc1
+CATEGORIES=             ham
+MASTER_SITE=            https://github.com/EttusResearch/uhd/archive
+#MASTER_SITE+=          http://files.ettus.com/binaries/maint_images/archive
+EXTRACT_SUFX=           .zip
+DIST_SUBDIR=            uhd
 
 MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://code.ettus.com/redmine/ettus/projects/uhd/wiki
@@ -15,12 +15,15 @@ COMMENT=		USRP (Universal Software Radio Peripheral) Hardware Drivers
 LICENSE=		gnu-gpl-v2
 
 BUILD_DEPENDS+=		${PYPKGPREFIX}-cheetah-[0-9]*:../../devel/py-cheetah
+
 USE_LANGUAGES=		c c++
-USE_TOOLS=		cmake wget pkg-config
+USE_TOOLS=		cmake pkg-config
+USE_CMAKE=		yes
 
 # Please note distribution has many stuff under uhd/, but build itself
 # needs under host/ only.  Those uhd/ stuff will be handled post-{patch,install}:
-WRKSRC=			${WRKDIR}/uhd-${DISTNAME}/host
+WRKSRC=                 ${WRKDIR}/uhd-${DISTNAME}/host
+
 
 # The files with their name uhd-xxxx, are moved down from uhd/xxxx for this process.
 REPLACE_PYTHON=	\
@@ -77,13 +80,6 @@ SUBST_SED.man=		-e '/UHD_INSTALL/s,$${PKG_MAN_DIR},${PREFIX}/${PKGMANDIR}/man1,'
 # is it default ? and redundent ?
 PLIST_SRC=	${PKGDIR}/PLIST
 .include "options.mk"
-# FETCH_USING at /etc/mk.conf doesn't good, (sorry), put work around for the target
-do-fetch:
-	if [   ! -f ${DISTDIR}/${DIST_SUBDIR}/${DISTNAME}${EXTRACT_SUFX} ] ; then \
-	  if [ ! -d ${DISTDIR}/${DIST_SUBDIR} ] ; then \
-	   mkdir -f ${DISTDIR}/${DIST_SUBDIR}; fi; \
-	  cd      ${DISTDIR}/${DIST_SUBDIR}; \
-	  wget --no-check-certificate --quiet ${MASTER_SITE}/${DISTNAME}${EXTRACT_SUFX} ;fi
 
 # Copy (beyond) upper directory files (which should be handled at post-install)
 # to receive REPLACE_PYTHON conversion ( otherwise above the range )
@@ -93,32 +89,12 @@ post-patch:
 	  ${MKDIR} ${WRKSRC}/uhd-$$i ;\
 	${CP} -r ${WRKDIR}/uhd-${DISTNAME}/$$i/* ${WRKSRC}/uhd-$$i ;\
 	done)
+.include	"options.mk"
+PKG_OPTIONS_VAR=        PKG_OPTIONS.uhd
+PKG_SUPPORTED_OPTIONS=	build-ninja
+PKG_SUGGESTED_OPTIONS=	
 
-do-configure:
-	(cd $(WRKSRC) ; \
-	cmake \
-	-DCMAKE_BUILD_WITH_INSTALL_RPATH=True \
-	-DCMAKE_INSTALL_PREFIX=${PREFIX} \
-	-DCMAKE_INSTALL_RPATH=${PREFIX}/lib \
-	-DCMAKE_INSTALL_RPATH_USE_LINK_PATH=FALSE \
-	-DLIBUSB_INCLUDE_DIR=${PREFIX}/include/libusb-1.0 \
-	-DENABLE_LIBUHD=True \
-	-DENABLE_EXAMPLES=True \
-	-DENABLE_UTILS=True \
-	-DENABLE_TESTS=True \
-	-DENABLE_MANUAL=True \
-	-DENABLE_DOXYGEN=True \
-	-DENABLE_MAN_PAGES=True \
-	-DENABLE_ORC=True \
-	-DENABLE_USB=True \
-	-DENABLE_USRP1=True \
-	-DENABLE_USRP2=True \
-	-DENABLE_B100=True \
-	-DENABLE_X300=True \
-	-DENABLE_B200=True \
-	-DENABLE_E100=True \
-	.)
-# E100 above is Linux only
+.include		"../../mk/bsd.options.mk"
 
 # (1) move back the files to original location after REPLACE_PYTHON handled
 # (2) suppress warning at intallation, "non executable files get +x bit set".

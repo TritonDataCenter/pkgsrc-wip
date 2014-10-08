@@ -11,4 +11,4 @@ include/rtl-sdr_export.h
 lib/librtlsdr.a
 lib/librtlsdr.so
 lib/librtlsdr.so.0
-lib/librtlsdr.so.0.5.3
+lib/librtlsdr.so.${PKGVERSION}

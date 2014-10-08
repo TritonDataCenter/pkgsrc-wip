@@ -1,0 +1,12 @@
+# $NetBSD$
+
+BUILDLINK_TREE+=	blast
+
+.if !defined(BLAST_BUILDLINK3_MK)
+BLAST_BUILDLINK3_MK:=
+
+BUILDLINK_API_DEPENDS.blast+=	blast>=2.2.29
+BUILDLINK_PKGSRCDIR.blast?=	../../wip/ncbi-blast
+.endif	# BLAST_BUILDLINK3_MK
+
+BUILDLINK_TREE+=	-blast

@@ -1,5 +1,8 @@
 $NetBSD$
 
+chunk 1: Support DragonFly
+chunk 2: Set proper dynamic library runtime search path
+
 --- coreconf/config.mk.orig	2014-09-28 13:54:02.000000000 +0000
 +++ coreconf/config.mk
 @@ -31,7 +31,7 @@ endif

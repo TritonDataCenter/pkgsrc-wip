@@ -29,7 +29,7 @@ PKG_DESTDIR_SUPPORT=	none
 
 .include "../../lang/perl5/module.mk"
 .include "../../textproc/libxml2/buildlink3.mk"
-.include "../../www/ap-perl/buildlink3.mk"
+.include "../../www/ap-perl2/buildlink3.mk"
 
 PERL5_PACKLIST=		auto/AxKit/.packlist
 
