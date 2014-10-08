@@ -1,12 +1,12 @@
 # $NetBSD$
 #
 
-DISTNAME=	Net_URL2-2.0.0
-CATEGORIES=	www
+DISTNAME=	Net_URL2-2.0.8
+CATEGORIES=	net
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
-COMMENT=	Class for parsing and handling URL
-LICENSE=	2-clause-bsd
+COMMENT=	PHP class for parsing and handling URL
+LICENSE=	modified-bsd
 
 USE_LANGUAGES=	# none
 
