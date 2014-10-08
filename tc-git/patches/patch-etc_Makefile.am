@@ -22,7 +22,7 @@ $NetBSD$
 +	echo ' *** symbol.rev will be included in bushu.rev ***'; \
 +	else \
 +	mv bushu.rev bushu.rev.tmp ;\
-+	@echo ' *** symbol.rev will NOT be included in bushu.rev ***'; \
++	echo ' *** symbol.rev will NOT be included in bushu.rev ***'; \
 +	fi
 +	$(EMACS) -q -no-site-file -batch -l $(BATCH_SORT) -f batch-sort-file bushu.rev.tmp bushu.rev utf-8 utf-8 
 +#	$(EMACS) -q -no-site-file -batch -l $(BATCH_SORT) -f batch-sort-file bushu.rev.tmp bushu.rev utf-8 utf-8 
