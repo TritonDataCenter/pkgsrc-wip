@@ -624,6 +624,7 @@ SUBDIR+=	fbpager
 SUBDIR+=	fbpanel
 SUBDIR+=	fceux
 SUBDIR+=	fcgiwrap
+SUBDIR+=	fdk-aac
 SUBDIR+=	fdm
 SUBDIR+=	feathercoin
 SUBDIR+=	feynedit
