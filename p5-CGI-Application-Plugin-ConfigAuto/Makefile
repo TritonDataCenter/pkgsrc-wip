@@ -12,10 +12,6 @@ COMMENT=	Easy config file management for CGI::Application
 DEPENDS+=	p5-CGI-Application>=4.11:../../www/p5-CGI-Application
 DEPENDS+=	p5-Config-Auto>=0:../../devel/p5-Config-Auto
 
-
-
-PKG_INSTALLATION_TYPES=	overwrite pkgviews
-
 # url2pkg-marker (please do not remove this line.)
 .include "../../lang/perl5/module.mk"
 .include "../../mk/bsd.pkg.mk"

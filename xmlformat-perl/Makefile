@@ -16,7 +16,6 @@ USE_TOOLS+=		perl:run
 REPLACE_PERL=		xmlformat.pl
 
 NO_BUILD=		yes
-PKG_INSTALLATION_TYPES=	overwrite pkgviews
 
 DISTINFO_FILE=		${.CURDIR}/../../wip/xmlformat-docs/distinfo
 DESCR_SRC=		${.CURDIR}/../../wip/xmlformat-docs/DESCR.common \

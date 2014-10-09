@@ -11,8 +11,6 @@ HOMEPAGE=		http://xorg.freedesktop.org/
 COMMENT=		Displays font data from an X font server
 LICENSE=		x11 # XXX and others
 
-PKG_INSTALLATION_TYPES=	overwrite pkgviews
-
 GNU_CONFIGURE=		yes
 USE_TOOLS+=		pkg-config
 

@@ -11,8 +11,6 @@ MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://OpenGLUT.sourceforge.net/
 COMMENT=	OpenGLUT is an open source evolution of the GLUT API
 
-PKG_INSTALLATION_TYPES=	overwrite pkgviews
-
 USE_LIBTOOL=	yes
 GNU_CONFIGURE=	yes
 

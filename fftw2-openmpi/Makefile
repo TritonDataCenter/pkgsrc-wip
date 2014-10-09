@@ -11,8 +11,6 @@ HOMEPAGE=		http://www.fftw.org/
 COMMENT=		Collection of fast C routines to compute DFTs
 LICENSE=		gnu-gpl-v1
 
-PKG_INSTALLATION_TYPES=	overwrite pkgviews
-
 HAS_CONFIGURE=		yes
 CONFIGURE_ARGS+=	--enable-shared \
 			--enable-mpi \

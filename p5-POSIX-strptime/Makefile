@@ -12,7 +12,6 @@ LICENSE=	${PERL5_LICENSE}
 
 DEPENDS+=	p5-XSLoader-[0-9]*:../../devel/p5-XSLoader
 
-PKG_INSTALLATION_TYPES=	overwrite pkgviews
 USE_LANGUAGES=	c
 
 PERL5_PACKLIST=		auto/POSIX/strptime/.packlist

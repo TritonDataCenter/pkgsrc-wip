@@ -14,8 +14,6 @@ COMMENT=	Add CGI::Session support to CGI::Application
 DEPENDS+=	p5-CGI-Application>=4:../../www/p5-CGI-Application
 DEPENDS+=	p5-CGI-Session>=0:../../www/p5-CGI-Session
 
-PKG_INSTALLATION_TYPES=	overwrite pkgviews
-
 PERL5_MODULE_TYPE=	Module::Build
 PERL5_PACKLIST=		auto/CGI/Application/Plugin/Session/.packlist
 USE_LANGUAGES=		# none

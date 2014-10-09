@@ -12,8 +12,6 @@ COMMENT=	Extra loaders for GPL loaders and unstable libraries
 
 LICENSE=	gnu-gpl-v2
 
-PKG_INSTALLATION_TYPES=	overwrite pkgviews
-
 USE_LANGUAGES=	c c++
 USE_TOOLS+=	pkg-config
 GNU_CONFIGURE=	YES

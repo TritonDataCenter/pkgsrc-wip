@@ -12,8 +12,6 @@ HOMEPAGE=	https://sdm.lbl.gov/fastbit/
 COMMENT=	Efficient Compressed Bitmap Index Technology
 LICENSE=	gnu-lgpl-v2.1
 
-PKG_INSTALLATION_TYPES=	overwrite pkgviews
-
 USE_LANGUAGES=	c c++
 GNU_CONFIGURE=	yes
 USE_TOOLS+=	gmake perl

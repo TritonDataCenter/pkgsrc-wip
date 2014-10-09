@@ -9,7 +9,6 @@ HOMEPAGE=	http://search.cpan.org/dist/perl-GPS/
 COMMENT=	GPS::Garmin access module for Perl
 
 PKG_DESTDIR_SUPPORT=	none
-PKG_INSTALLATION_TYPES=	overwrite pkgviews
 
 PERL5_PACKLIST=		auto/GPS/Garmin/.packlist
 

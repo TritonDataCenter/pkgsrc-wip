@@ -10,8 +10,6 @@ HOMEPAGE=		http://search.cpan.org/dist/Data-Random/
 COMMENT=		Perl module to generate random data
 LICENSE=		${PERL5_LICENSE}
 
-PKG_INSTALLATION_TYPES=	overwrite pkgviews
-
 DEPENDS+=		p5-GD>=1.18:../../graphics/p5-GD
 DEPENDS+=		p5-Date-Calc>=5.4:../../devel/p5-Date-Calc
 BUILD_DEPENDS+=		p5-YAML-Tiny-[0-9]*:../../textproc/p5-YAML-Tiny

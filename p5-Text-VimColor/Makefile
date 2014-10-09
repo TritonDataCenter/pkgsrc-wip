@@ -17,8 +17,6 @@ DEPENDS+=		p5-File-ShareDir-[0-9]*:../../devel/p5-File-ShareDir
 #DEPENDS+=		p5-Term-ANSIColor>=3:../../devel/p5-Term-ANSIColor
 DEPENDS+=		vim{,-gtk,gtk2,-kde,-motif,-xaw}-[0-9]*:../../editors/vim
 
-PKG_INSTALLATION_TYPES=	overwrite pkgviews
-
 PERL5_PACKLIST=		auto/Text/VimColor/.packlist
 
 .include "../../lang/perl5/module.mk"

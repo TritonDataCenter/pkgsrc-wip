@@ -12,8 +12,6 @@ LICENSE=		${PERL5_LICENSE}
 
 DEPENDS+=		p5-MKDoc-XML>=0.75:../../wip/p5-MKDoc-XML
 
-PKG_INSTALLATION_TYPES=	overwrite pkgviews
-
 PERL5_PACKLIST=		auto/Petal/.packlist
 
 .include "../../lang/perl5/module.mk"

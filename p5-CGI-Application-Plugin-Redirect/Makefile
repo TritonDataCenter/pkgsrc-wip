@@ -10,8 +10,6 @@ MAINTAINER=	ficovh@yahoo.com
 HOMEPAGE=	http://search.cpan.org/CPAN/authors/id/C/CE/CEESHEK/
 COMMENT=	Easy external redirects in CGI::Application
 
-PKG_INSTALLATION_TYPES=	overwrite pkgviews
-
 DEPENDS+=		p5-CGI-Application-[0-9]*:../../www/p5-CGI-Application
 
 PERL5_PACKLIST=		auto/CGI/Application/Plugin/Redirect/.packlist

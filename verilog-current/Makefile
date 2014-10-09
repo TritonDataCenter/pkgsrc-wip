@@ -10,8 +10,6 @@ HOMEPAGE=	http://iverilog.icarus.com/
 COMMENT=	Verilog simulation and synthesis tool (development snapshot version)
 LICENSE=	gnu-gpl-v2
 
-PKG_INSTALLATION_TYPES=	overwrite pkgviews
-
 CONFLICTS+=	verilog-[0-9]*
 SNAPDATE=		20130827
 

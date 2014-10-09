@@ -12,8 +12,6 @@ LICENSE=	gnu-gpl-v2
 
 GNU_CONFIGURE=yes
 
-PKG_INSTALLATION_TYPES=	overwrite pkgviews
-
 USE_LANGUAGES=		c c++
 USE_PKGLOCALEDIR=	yes
 GNU_CONFIGURE=		yes

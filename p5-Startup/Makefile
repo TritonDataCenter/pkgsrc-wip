@@ -10,7 +10,6 @@ HOMEPAGE=		http://search.cpan.org/dist/Startup/
 COMMENT=		Program flow utility
 
 PKG_DESTDIR_SUPPORT=	none
-PKG_INSTALLATION_TYPES=	overwrite pkgviews
 
 PERL5_PACKLIST=		auto/Startup/.packlist
 

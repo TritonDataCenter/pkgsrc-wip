@@ -10,8 +10,6 @@ HOMEPAGE=		http://search.cpan.org/dist/HTML-GenerateUtil/
 COMMENT=		Routines useful when generating HTML output
 LICENSE=		${PERL5_LICENSE}
 
-PKG_INSTALLATION_TYPES=	overwrite pkgviews
-
 PERL5_PACKLIST=		auto/HTML/GenerateUtil/.packlist
 
 .include "../../lang/perl5/module.mk"

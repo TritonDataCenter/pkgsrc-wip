@@ -14,7 +14,6 @@ HOMEPAGE=	http://vreng.enst.fr/
 COMMENT=	Virtual Reality Engine interactive distributed 3D application
 
 PKG_DESTDIR_SUPPORT=	none
-#PKG_INSTALLATION_TYPES= overwrite pkgviews
 
 USE_LANGUAGES=	c c++
 GNU_CONFIGURE=	yes
@@ -29,7 +28,6 @@ CFLAGS+=	-D_POSIX_PTHREAD_SEMANTICS
 #CONFIGURE_ARGS+= --enable-ocaml
 CONFIGURE_ARGS+=	--with-GL-prefix=${LOCALBASE}
 CONFIGURE_ENV+=		PERLPATH=${LOCALBASE}/bin/perl
-
 
 #mpeg
 #java

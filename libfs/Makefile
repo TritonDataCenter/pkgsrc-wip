@@ -10,8 +10,6 @@ MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://xorg.freedesktop.org/
 COMMENT=		X Font Service client library
 
-PKG_INSTALLATION_TYPES=	overwrite pkgviews
-
 USE_TOOLS+=		pkg-config
 USE_LIBTOOL=		yes
 

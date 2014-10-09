@@ -11,8 +11,6 @@ MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		${MASTER_SITES}
 COMMENT=		Guenthers Midi DeCompiler, convert midi to text
 
-PKG_INSTALLATION_TYPES=	overwrite pkgviews
-
 WRKSRC=			${WRKDIR}/mid2gmc
 
 INSTALLATION_DIRS=	bin

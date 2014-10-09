@@ -13,7 +13,6 @@ DEPENDS+=	p5-XML-DOM>=1.43:../../textproc/p5-XML-DOM
 DEPENDS+=	p5-XML-XPath>=1.13:../../textproc/p5-XML-XPath
 
 PKG_DESTDIR_SUPPORT=	none
-PKG_INSTALLATION_TYPES=	overwrite pkgviews
 
 PERL5_PACKLIST=	auto/XML/DOM/XPath/.packlist
 

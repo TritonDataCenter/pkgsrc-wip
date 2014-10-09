@@ -10,8 +10,6 @@ HOMEPAGE=	http://search.cpan.org/dist/Class-Date/
 COMMENT=	Perl class for easy date and time manipulation
 LICENSE=	${PERL5_LICENSE}
 
-PKG_INSTALLATION_TYPES=	overwrite pkgviews
-
 USE_LANGUAGES=		c
 PERL5_PACKLIST=		auto/Class/Date/.packlist
 

@@ -10,8 +10,6 @@ COMMENT=		Driver for Globespan chipset-based ADSL USB modems
 
 BUILD_DEPENDS+=		userppp>=001107:../../net/userppp
 
-PKG_INSTALLATION_TYPES=	overwrite pkgviews
-
 ONLY_FOR_PLATFORM=	NetBSD-*-i386
 
 CHECK_PORTABILITY_SKIP=	configure.sav

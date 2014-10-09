@@ -10,7 +10,6 @@ HOMEPAGE=	http://search.cpan.org/dist/Crypt-CAST5/
 COMMENT=	Perl5 CAST5 block cipher implementation
 
 PKG_DESTDIR_SUPPORT=	none
-PKG_INSTALLATION_TYPES=	overwrite pkgviews
 
 CRYPTO=		YES
 PERL5_PACKLIST=	auto/Crypt/CAST5/.packlist

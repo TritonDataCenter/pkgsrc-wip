@@ -11,8 +11,6 @@ LICENSE=		${PERL5_LICENSE}
 MAINTAINER=		pkgsrc-users@NetBSD.org
 COMMENT=		Encode.pm emulation layer
 
-PKG_INSTALLATION_TYPES=	overwrite pkgviews
-
 USE_LANGUAGES=		# empty
 PERL5_PACKLIST=		auto/Encode/compat/.packlist
 

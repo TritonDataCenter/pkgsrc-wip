@@ -11,8 +11,6 @@ MAINTAINER=	imil@gcu.info
 HOMEPAGE=	ftp://ftp.zeist.de/pub/distfiles/
 COMMENT=	Ftp server supporting FTP AUTH TLS
 
-PKG_INSTALLATION_TYPES=	overwrite pkgviews
-
 GNU_CONFIGURE=	yes
 
 RCD_SCRIPTS=	ftpdtls

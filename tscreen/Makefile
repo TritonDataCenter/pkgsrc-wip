@@ -9,8 +9,6 @@ HOMEPAGE=	http://www.steve.org.uk/Software/tscreen/
 COMMENT=	Multi-screen window manager
 LICENSE=	gnu-gpl-v2
 
-PKG_INSTALLATION_TYPES=	overwrite pkgviews
-
 .include "options.mk"
 
 NOT_FOR_PLATFORM=	Interix-*-* # user auth and username size fixes needed

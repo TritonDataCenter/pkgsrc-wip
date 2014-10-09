@@ -11,8 +11,6 @@ MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://xerces.apache.org/xerces-c/
 COMMENT=	Validating C++ XML parser with DOM and SAX support
 
-PKG_INSTALLATION_TYPES=	overwrite pkgviews
-
 WRKSRC=			${WRKDIR}/${DISTNAME}/src/xercesc
 USE_TOOLS+=		gmake
 USE_LANGUAGES=		c c++

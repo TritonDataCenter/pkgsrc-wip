@@ -17,8 +17,6 @@ DEPENDS+=		p5-MP3-Info>=1.01:../../audio/p5-MP3-Info
 DEPENDS+=		p5-Image-Size>=1.01:../../graphics/p5-Image-Size
 DEPENDS+=		p5-libwww>=5.805:../../www/p5-libwww
 
-PKG_INSTALLATION_TYPES=	overwrite pkgviews
-
 REPLACE_PERL=		title.pl
 
 PERL5_PACKLIST=		auto/URI/Title/.packlist

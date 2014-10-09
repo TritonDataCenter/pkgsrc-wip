@@ -22,7 +22,6 @@ CONFLICTS=	p5-Mail-SpamAssassin-[1-9]*			\
 		spamassassin-[1-9]*
 
 PKG_DESTDIR_SUPPORT=	none
-PKG_INSTALLATION_TYPES=	overwrite pkgviews
 
 EXTRACT_SUFX?=	.tar.bz2
 NO_CHECKSUM=	YES

@@ -20,8 +20,6 @@ LICENSE=	gnu-gpl-v2
 CONFLICTS=	mtr-[0-9]*
 CONFLICTS+=	mtr-current-[0-9]*
 
-PKG_INSTALLATION_TYPES=	overwrite pkgviews
-
 GNU_CONFIGURE=		YES
 USE_TOOLS+=		autoconf autoreconf automake
 INSTALLATION_DIRS=	${PKGMANDIR}/man8 sbin share/doc/mtr

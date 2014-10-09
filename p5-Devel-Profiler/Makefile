@@ -10,7 +10,6 @@ HOMEPAGE=		http://search.cpan.org/dist/Devel-Profiler/
 COMMENT=		Perl profiler compatible with dprofpp
 
 PKG_DESTDIR_SUPPORT=	none
-PKG_INSTALLATION_TYPES=	overwrite pkgviews
 
 PERL5_PACKLIST=		auto/Devel/Profiler/.packlist
 

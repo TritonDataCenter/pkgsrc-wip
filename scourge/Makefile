@@ -10,8 +10,6 @@ MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://scourge.sourceforge.net/
 COMMENT=		Graphical 3D roguelike, vermin extermination
 
-PKG_INSTALLATION_TYPES=	overwrite pkgviews
-
 MAKE_FILE=		Makefile.Fedora
 
 USE_LANGUAGES=		c c++
