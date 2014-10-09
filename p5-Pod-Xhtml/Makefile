@@ -14,8 +14,6 @@ LICENSE=	gnu-gpl-v2
 DEPENDS+=	p5-Pod-Parser>=0:../../textproc/p5-Pod-Parser
 DEPENDS+=	p5-Test-Assertions>=1.054:../../devel/p5-Test-Assertions
 
-PKG_INSTALLATION_TYPES= overwrite pkgviews
-
 PERL5_PACKLIST=	auto/Pod/Xhtml/.packlist
 USE_LANGUAGES=	# none
 

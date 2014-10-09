@@ -13,8 +13,6 @@ LICENSE=	${PERL5_LICENSE}
 DEPENDS+=	p5-XML-SemanticDiff>=0.95:../../textproc/p5-XML-SemanticDiff
 DEPENDS+=	p5-XML-Parser>=2.34:../../textproc/p5-XML-Parser
 
-PKG_INSTALLATION_TYPES=	overwrite pkgviews
-
 PERL5_PACKLIST=	auto/Test/XML/.packlist
 
 .include "../../lang/perl5/module.mk"

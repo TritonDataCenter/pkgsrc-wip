@@ -11,7 +11,6 @@ HOMEPAGE=	http://silky.sourceforge.net/
 COMMENT=	Silky is an easy-to-use graphical SILC client
 
 PKG_DESTDIR_SUPPORT=	none
-PKG_INSTALLATION_TYPES= overwrite pkgviews
 
 USE_TOOLS+=gmake
 GNU_CONFIGURE=		YES

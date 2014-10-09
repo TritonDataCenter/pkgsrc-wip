@@ -11,18 +11,18 @@ MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		${MASTER_SITES}
 COMMENT=		Guenthers Midi Compiler, a tool to convert text to midi
 
-PKG_INSTALLATION_TYPES=	overwrite pkgviews
-
 WRKSRC=			${WRKDIR}/gmc
 
 USE_TOOLS+=		pax
 
+INSTALLATION_DIRS=	bin
+
 do-install:
-	${INSTALL_DATA_DIR} ${PREFIX}/share/examples/gmc2mid/
+	${INSTALL_DATA_DIR} ${DESTDIR}${PREFIX}/share/examples/gmc2mid/
 	cd ${WRKSRC} && pax -rw lections samples \
-		${PREFIX}/share/examples/gmc2mid
-	${INSTALL_DATA_DIR} ${PREFIX}/share/doc/gmc2mid
-	${INSTALL_DATA} ${WRKSRC}/README ${PREFIX}/share/doc/gmc2mid/README
-	${INSTALL_PROGRAM} ${WRKSRC}/gmc ${PREFIX}/bin/gmc2mid
+		${DESTDIR}${PREFIX}/share/examples/gmc2mid
+	${INSTALL_DATA_DIR} ${DESTDIR}${PREFIX}/share/doc/gmc2mid
+	${INSTALL_DATA} ${WRKSRC}/README ${DESTDIR}${PREFIX}/share/doc/gmc2mid/README
+	${INSTALL_PROGRAM} ${WRKSRC}/gmc ${DESTDIR}${PREFIX}/bin/gmc2mid
 
 .include "../../mk/bsd.pkg.mk"

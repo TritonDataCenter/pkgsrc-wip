@@ -14,7 +14,6 @@ HOMEPAGE=	http://perso.enst.fr/~elc/ubit/
 COMMENT=	Ubiquitous Brick Interactive Toolkit
 
 PKG_DESTDIR_SUPPORT=	none
-#PKG_INSTALLATION_TYPES= overwrite pkgviews
 
 USE_LANGUAGES=		c c++
 GNU_CONFIGURE=		yes

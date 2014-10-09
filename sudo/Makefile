@@ -14,8 +14,6 @@ HOMEPAGE=		http://www.sudo.ws/
 COMMENT=		Allow others to run commands as root
 LICENSE=		modified-bsd
 
-PKG_INSTALLATION_TYPES=	overwrite pkgviews
-
 USE_LIBTOOL=		yes
 OWN_DIRS+=		${VARBASE}/run
 GNU_CONFIGURE=		yes

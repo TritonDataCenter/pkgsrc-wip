@@ -39,8 +39,6 @@ INSTALL_TARGET=		install install-doc
 USE_LANGUAGES=		c
 USE_TOOLS+=		gzip:run
 
-PKG_INSTALLATION_TYPES=	overwrite pkgviews
-
 WRKSRC=		${WRKDIR}/pkg_summary-utils
 
 EGDIR=		${PREFIX}/share/examples/pkg_summary-utils

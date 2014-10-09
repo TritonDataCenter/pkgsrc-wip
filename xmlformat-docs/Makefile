@@ -11,7 +11,6 @@ HOMEPAGE=		http://www.kitebird.com/software/xmlformat/
 COMMENT=		Configurable XML formatter, documentation files
 
 NO_BUILD=		yes
-PKG_INSTALLATION_TYPES=	overwrite pkgviews
 
 DESCR_SRC=		${.CURDIR}/DESCR.common ${.CURDIR}/DESCR
 

@@ -9,8 +9,6 @@ HOMEPAGE=		http://www.quickfixengine.org/
 COMMENT=		FIX engine
 LICENSE=		quickfix
 
-PKG_INSTALLATION_TYPES=	overwrite pkgviews
-
 .include "../../mk/bsd.prefs.mk"
 
 WRKSRC=			${WRKDIR}/quickfix

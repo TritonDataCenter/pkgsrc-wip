@@ -11,8 +11,6 @@ HOMEPAGE=	http://www.info-zip.org/UnZip.html
 COMMENT=	List, test and extract compressed files in a ZIP archive
 LICENSE=	info-zip
 
-PKG_INSTALLATION_TYPES=	overwrite pkgviews
-
 REPLACE_SH=	unix/zipgrep
 
 USE_TOOLS+=	gmake

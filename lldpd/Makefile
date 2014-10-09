@@ -12,8 +12,6 @@ LICENSE=		isc
 # if available. To avoid this, use `--without-readline` as a configure
 # option.
 
-PKG_INSTALLATION_TYPES=	overwrite pkgviews
-
 # interfaces-bsd.c:45:34: error: net/agr/if_agrioctl.h: No such file or directory
 NOT_FOR_PLATFORM=	NetBSD-5*-*
 USE_LIBTOOL=		yes

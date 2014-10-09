@@ -9,8 +9,6 @@ MAINTAINER=		charlie@rubberduck.com
 HOMEPAGE=		http://www.pldaniels.com/ripole/
 COMMENT=		Program/library designed to extract attachments from OLE2 files
 
-PKG_INSTALLATION_TYPES=	overwrite pkgviews
-
 USE_LIBTOOL=		yes
 BUILD_TARGET=		default
 

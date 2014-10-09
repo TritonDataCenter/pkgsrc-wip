@@ -10,8 +10,6 @@ MAINTAINER=	blair.sadewitz@gmail.com
 HOMEPAGE=	http://xorg.freedesktop.org/
 COMMENT=	Reads a font from a font server and writes bdf-format output
 
-PKG_INSTALLATION_TYPES=	overwrite pkgviews
-
 GNU_CONFIGURE=	yes
 USE_TOOLS+=	pkg-config
 USE_LANGUAGES=	c

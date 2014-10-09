@@ -11,8 +11,6 @@ MAINTAINER= 	rodo@zlug.org
 HOMEPAGE=	http://cadaver.homeftp.net/tools/
 COMMENT=	Crossplatform C64 Music Editor
 
-PKG_INSTALLATION_TYPES= overwrite pkgviews
-
 CFLAGS=			-I{PREFIX}/include -D_GNU_SOURCE=1 -D_REENTRANT -D_THREAD_SAFE
 WRKSRC=			${WRKDIR}/src
 USE_LANGUAGES=		c c++

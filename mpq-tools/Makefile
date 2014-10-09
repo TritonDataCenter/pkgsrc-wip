@@ -10,8 +10,6 @@ MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		https://babelize.org/
 COMMENT=		Tools for manipulating MPQ (MoPaQ) archives
 
-PKG_INSTALLATION_TYPES=	overwrite pkgviews
-
 USE_LIBTOOL=		yes
 GNU_CONFIGURE=		yes
 

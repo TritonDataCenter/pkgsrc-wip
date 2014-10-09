@@ -9,8 +9,6 @@ MAINTAINER=	imil@gcu.info
 HOMEPAGE=	http://imil.net/wimon/
 COMMENT=	Tool that shows a real-time graph of your wireless connection
 
-PKG_INSTALLATION_TYPES=	overwrite pkgviews
-
 ONLY_FOR_PLATFORM=	FreeBSD-*-* NetBSD-*-* OpenBSD-*-*
 
 WRKSRC=		${WRKDIR}/wimon

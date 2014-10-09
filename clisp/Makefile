@@ -20,8 +20,6 @@ WRKSRC=			${WRKDIR}/clisp
 NOT_FOR_PLATFORM=	*-*-sparc64
 NOT_FOR_PLATFORM+=	*-*-arm
 
-PKG_INSTALLATION_TYPES= overwrite pkgviews
-
 MAKE_JOBS_SAFE=		no
 
 GNU_CONFIGURE=		yes

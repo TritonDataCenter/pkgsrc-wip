@@ -11,8 +11,6 @@ HOMEPAGE=	http://bips.u-strasbg.fr/fr/Documentation/ClustalX/
 COMMENT=	General purpose multiple alignment program for DNA or proteins (X11)
 LICENSE=	clustal-license
 
-PKG_INSTALLATION_TYPES=	overwrite pkgviews
-
 USE_LANGUAGES+=		c++
 MESSAGE_SUBST+=		PREFIX=${PREFIX}
 

@@ -10,7 +10,6 @@ HOMEPAGE=		http://search.cpan.org/dist/HTML-Widget/
 COMMENT=		HTML Widget And Validation Framework
 
 PKG_DESTDIR_SUPPORT=	none
-PKG_INSTALLATION_TYPES=	overwrite pkgviews
 
 DEPENDS+=		p5-Module-Pluggable-Fast>=0.18:../../wip/p5-Module-Pluggable-Fast
 DEPENDS+=		p5-Class-Data-Accessor>=0.04001:../../devel/p5-Class-Data-Accessor

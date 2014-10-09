@@ -12,8 +12,6 @@ COMMENT=	Syntactic try/catch sugar for use with Exception::Class
 
 DEPENDS+=	p5-Exception-Class>=0:../../devel/p5-Exception-Class
 
-PKG_INSTALLATION_TYPES= overwrite pkgviews
-
 PERL5_MODULE_TYPE=	Module::Build
 PERL5_PACKLIST=		auto/Exception/Class/TryCatch/.packlist
 USE_LANGUAGES=		# none

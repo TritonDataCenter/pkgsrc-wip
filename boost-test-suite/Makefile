@@ -10,8 +10,6 @@ HOMEPAGE?=		http://www.boost.org/
 COMMENT?=		Run the Boost test suite
 LICENSE=		boost-license
 
-PKG_INSTALLATION_TYPES=	overwrite pkgviews
-
 USE_TOOLS+=		ftp pax patch
 
 FTP=			${TOOLS_PLATFORM.ftp}

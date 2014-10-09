@@ -3,7 +3,6 @@
 DISTNAME=	Mail-SpamAssassin-${_SA_CVS_VER}
 PKGNAME=	spamassassin-cvs-${_SA_CVS_DATE}
 PKGREVISION=	2
-SVR4_PKGNAME=	sa
 CATEGORIES=	mail
 MASTER_SITES=	http://www.spamassassin.org/devel/		\
 		http://eu.spamassassin.org/devel/		\
@@ -23,7 +22,6 @@ CONFLICTS=	p5-Mail-SpamAssassin-[1-9]*			\
 		spamassassin-[1-9]*
 
 PKG_DESTDIR_SUPPORT=	none
-PKG_INSTALLATION_TYPES=	overwrite pkgviews
 
 EXTRACT_SUFX?=	.tar.bz2
 NO_CHECKSUM=	YES

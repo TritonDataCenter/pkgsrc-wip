@@ -32,6 +32,12 @@ CONFIGURE_ARGS+=	AR="ar cr" \
 			--prefix=${PREFIX} --with-build-root=${WRKSRC}/Release \
 			--with-dll --with-mt --without-caution --without-debug
 
+# amq -w hangs on BSD, not needed
+CONFIGURE_ENV+=		ncbi_cv_prog_amq_w=no
+
+# statfs tends to be found on NetBSD erroneously
+CONFIGURE_ENV+=		ac_cv_func_statfs=no
+
 # Default behavior patched so that all 3rd party support disable
 # by default, then enabled one by one
 CONFIGURE_ARGS+=	--without-3psw \

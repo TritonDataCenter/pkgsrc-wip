@@ -10,8 +10,6 @@ MAINTAINER=	blair.sadewitz@gmail.com
 HOMEPAGE=	http://xorg.freedesktop.org/
 COMMENT=	Lists fonts served by the X server using pattern-matching
 
-PKG_INSTALLATION_TYPES=	overwrite pkgviews
-
 USE_TOOLS+=	pkg-config
 GNU_CONFIGURE=	yes
 USE_LANGUAGES=	c

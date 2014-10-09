@@ -2,7 +2,6 @@
 
 DISTNAME=		Text-VimColor-0.23
 PKGNAME=		p5-${DISTNAME}
-SVR4_PKGNAME=		p5tvc
 CATEGORIES=		textproc perl5
 MASTER_SITES=		${MASTER_SITE_PERL_CPAN:=Text/}
 
@@ -17,8 +16,6 @@ DEPENDS+=		p5-Path-Class>=0.02:../../devel/p5-Path-Class
 DEPENDS+=		p5-File-ShareDir-[0-9]*:../../devel/p5-File-ShareDir
 #DEPENDS+=		p5-Term-ANSIColor>=3:../../devel/p5-Term-ANSIColor
 DEPENDS+=		vim{,-gtk,gtk2,-kde,-motif,-xaw}-[0-9]*:../../editors/vim
-
-PKG_INSTALLATION_TYPES=	overwrite pkgviews
 
 PERL5_PACKLIST=		auto/Text/VimColor/.packlist
 

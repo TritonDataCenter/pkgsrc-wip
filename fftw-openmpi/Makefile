@@ -11,8 +11,6 @@ HOMEPAGE=		http://www.fftw.org/
 COMMENT=		Collection of fast C routines to compute DFTs
 LICENSE=		gnu-gpl-v2
 
-PKG_INSTALLATION_TYPES=	overwrite pkgviews
-
 INSTALLATION_PREFIX=	$(BUILDLINK_PREFIX.openmpi:Q)
 
 USE_LANGUAGES=		c fortran77

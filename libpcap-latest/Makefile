@@ -1,7 +1,6 @@
 # $NetBSD$
 
 DISTNAME=		libpcap-0.8.3
-SVR4_PKGNAME=		lpcap
 CATEGORIES=		net
 MASTER_SITES=	http://www.tcpdump.org/release/
 
@@ -10,7 +9,6 @@ HOMEPAGE=		http://www.tcpdump.org/
 COMMENT=		System-independent interface for user-level packet capture
 
 PKG_DESTDIR_SUPPORT=	none
-PKG_INSTALLATION_TYPES=	overwrite pkgviews
 
 GNU_CONFIGURE=		yes
 USE_TOOLS+=		flex bison gm4

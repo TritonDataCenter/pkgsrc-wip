@@ -9,7 +9,6 @@ MAINTAINER=	charlie@rubberduck.com
 COMMENT=	Contains several useful routines for interpolating data sets
 
 PKG_DESTDIR_SUPPORT=	none
-PKG_INSTALLATION_TYPES=	overwrite pkgviews
 
 PERL5_PACKLIST=	auto/Math/Interpolate/.packlist
 

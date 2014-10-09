@@ -10,7 +10,6 @@ MAINTAINER=		imil@gcu.info
 COMMENT=		Simple and portable USB development interface
 
 PKG_DESTDIR_SUPPORT=	none
-PKG_INSTALLATION_TYPES=	overwrite pkgviews
 
 ONLY_FOR_PLATFORM=	FreeBSD-*-* NetBSD-*-* OpenBSD-*-* Linux-*-*
 

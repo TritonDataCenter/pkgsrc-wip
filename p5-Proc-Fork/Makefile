@@ -13,8 +13,6 @@ LICENSE=	${PERL5_LICENSE}
 
 DEPENDS+=	p5-Exporter-Tidy-[0-9]*:../../wip/p5-Exporter-Tidy
 
-PKG_INSTALLATION_TYPES=	overwrite pkgviews
-
 PERL5_PACKLIST=		auto/Proc/Fork/.packlist
 
 .include "../../lang/perl5/module.mk"

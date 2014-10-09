@@ -14,8 +14,6 @@ LICENSE=	generic-nonlicense
 
 CONFLICTS+=	wmx-[0-9]* wmx-gnome-[0-9]*
 
-PKG_INSTALLATION_TYPES=	overwrite pkgviews
-
 USE_LANGUAGES=		c c++
 USE_X11BASE=		yes
 GNU_CONFIGURE=		yes

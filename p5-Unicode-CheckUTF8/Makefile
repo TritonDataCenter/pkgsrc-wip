@@ -11,8 +11,6 @@ HOMEPAGE=       http://search.cpan.org/dist/Unicode-CheckUTF8/
 COMMENT=        Perl5 module to check if scalar is valid UTF-8
 LICENSE=	generic-nonlicense
 
-PKG_INSTALLATION_TYPES= overwrite pkgviews
-
 USE_LANGUAGES=	c
 PERL5_PACKLIST=         auto/Unicode/CheckUTF8/.packlist
 

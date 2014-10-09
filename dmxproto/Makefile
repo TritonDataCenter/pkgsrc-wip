@@ -10,8 +10,6 @@ MAINTAINER=	blair.sadewitz@gmail.com
 HOMEPAGE=	http://xorg.freedesktop.org/releases/individual/proto/
 COMMENT=	Distributed Multi-headed X protocol headers from modular X.org
 
-PKG_INSTALLATION_TYPES=	overwrite pkgviews
-
 GNU_CONFIGURE=	yes
 USE_TOOLS+=	pkg-config
 USE_LANGUAGES=	c

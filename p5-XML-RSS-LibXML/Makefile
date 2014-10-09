@@ -10,8 +10,6 @@ HOMEPAGE=	http://search.cpan.org/dist/XML-RSS-LibXML/
 COMMENT=	XML::RSS with XML::LibXML
 LICENSE=	${PERL5_LICENSE}
 
-PKG_INSTALLATION_TYPES=	overwrite pkgviews
-
 DEPENDS+=	p5-Class-Accessor-[0-9]*:../../devel/p5-Class-Accessor
 DEPENDS+=	p5-DateTime-Format-Mail-[0-9]*:../../time/p5-DateTime-Format-Mail
 DEPENDS+=	p5-DateTime-Format-W3CDTF-[0-9]*:../../time/p5-DateTime-Format-W3CDTF

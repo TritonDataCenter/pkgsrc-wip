@@ -29,8 +29,6 @@ USE_TOOLS+=	pkg-config
 PLIST_SUBST+=	PYSITELIB=${PYSITELIB:Q}
 PYTHON_VERSIONS_INCOMPATIBLE=	26 27
 
-PKG_INSTALLATION_TYPES=	overwrite pkgviews
-
 .include "../../databases/sqlite3/buildlink3.mk"
 .include "../../devel/boost-headers/buildlink3.mk"
 .include "../../devel/log4cplus/buildlink3.mk"

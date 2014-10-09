@@ -10,8 +10,6 @@ HOMEPAGE=		http://search.cpan.org/dist/Cache-Mmap/
 COMMENT=		Shared data cache using memory mapped files
 LICENSE=		${PERL5_LICENSE}
 
-PKG_INSTALLATION_TYPES=	overwrite pkgviews
-
 PERL5_PACKLIST=		auto/Cache/Mmap/.packlist
 
 .include "../../lang/perl5/module.mk"

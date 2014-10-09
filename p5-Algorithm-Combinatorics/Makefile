@@ -10,8 +10,6 @@ HOMEPAGE=	http://search.cpan.org/dist/Algorithm-Combinatorics/
 COMMENT=	Efficient generation of combinatorial sequences
 LICENSE=	${PERL5_LICENSE}
 
-PKG_INSTALLATION_TYPES=	overwrite pkgviews
-
 PERL5_PACKLIST=		auto/Algorithm/Combinatorics/.packlist
 
 .include "../../lang/perl5/module.mk"

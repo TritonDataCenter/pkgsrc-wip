@@ -2,7 +2,6 @@
 
 DISTNAME=		Devel-Profiler-0.04
 PKGNAME=		p5-${DISTNAME}
-SVR4_PKGNAME=		p5dpr
 CATEGORIES=		devel perl5
 MASTER_SITES=		${MASTER_SITE_PERL_CPAN:=Devel/}
 
@@ -11,7 +10,6 @@ HOMEPAGE=		http://search.cpan.org/dist/Devel-Profiler/
 COMMENT=		Perl profiler compatible with dprofpp
 
 PKG_DESTDIR_SUPPORT=	none
-PKG_INSTALLATION_TYPES=	overwrite pkgviews
 
 PERL5_PACKLIST=		auto/Devel/Profiler/.packlist
 

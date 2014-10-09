@@ -18,8 +18,6 @@ HOMEPAGE=	http://developer.gnome.org/glib/
 COMMENT=	# empty; redefined in Makefile
 LICENSE=	gnu-lgpl-v2
 
-PKG_INSTALLATION_TYPES=	overwrite pkgviews
-
 USE_PKGLOCALEDIR=	yes
 USE_TOOLS+=		gmake pkg-config
 USE_LANGUAGES=		c c++ c99
@@ -44,7 +42,6 @@ CONFIGURE_ARGS.gnu-iconv+=	--with-libiconv=gnu
 CONFIGURE_ENV+=		PERL_PATH=${PERL5:Q}
 
 .include "../../mk/bsd.prefs.mk"
-
 
 CPPFLAGS+=		-DPREFIX="\"${PREFIX}\""
 CPPFLAGS+=		-DPKGLOCALEDIR="\"${PKGLOCALEDIR}\""
