@@ -760,6 +760,7 @@ SUBDIR+=	ghostscript-cidfonts-ryumin
 SUBDIR+=	ghostscript-gpl
 SUBDIR+=	giggle
 SUBDIR+=	gimmie
+SUBDIR+=	gimp-dds
 SUBDIR+=	gin
 SUBDIR+=	girara
 SUBDIR+=	git
