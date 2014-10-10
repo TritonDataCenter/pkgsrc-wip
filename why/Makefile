@@ -15,7 +15,7 @@ USE_TOOLS+= 	gmake
 
 .include "../../lang/ocaml/buildlink3.mk"
 .include "../../devel/nspr/buildlink3.mk"
-.include "../../x11/lablgtk/buildlink3.mk"
+.include "../../x11/ocaml-lablgtk/buildlink3.mk"
 .include "../../x11/gtk2/buildlink3.mk"
 .include "../../wip/ocamlgraph/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
