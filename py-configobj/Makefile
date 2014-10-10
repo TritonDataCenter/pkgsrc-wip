@@ -15,5 +15,7 @@ USE_LANGUAGES=	# none
 
 PYDISTUTILSPKG=	yes
 
+PYTHON_VERSIONS_INCOMPATIBLE=	33 34 # "except Exception, e:" SyntaxError
+
 .include "../../lang/python/extension.mk"
 .include "../../mk/bsd.pkg.mk"
