@@ -42,6 +42,8 @@ ALL_ENV+=		MOZILLA_PKG_NAME=firefox
 BUILDLINK_TRANSFORM+=	rm:-fdata-sections
 BUILDLINK_TRANSFORM+=	rm:-ffunction-sections
 .endif
+BUILDLINK_TRANSFORM+=	rm:-Werror
+BUILDLINK_TRANSFORM+=	rm:-Werror=[A-z0-9_-]*
 
 LDFLAGS.DragonFly=	-lplc4 -lnspr4
 LDFLAGS.FreeBSD=	-lplc4 -lnspr4
