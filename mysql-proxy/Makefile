@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	mysql-proxy-0.8.4
+DISTNAME=	mysql-proxy-0.8.5
 PKGNAME=	${DISTNAME:S/mysql/mysql${_MYSQL_VERSION}/}
 CATEGORIES=	databases
 MASTER_SITES=	${MASTER_SITE_MYSQL:=MySQL-Proxy/}
