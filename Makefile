@@ -761,6 +761,7 @@ SUBDIR+=	ghostscript-gpl
 SUBDIR+=	giggle
 SUBDIR+=	gimmie
 SUBDIR+=	gimp-dds
+SUBDIR+=	gimp-webp
 SUBDIR+=	gin
 SUBDIR+=	girara
 SUBDIR+=	git
