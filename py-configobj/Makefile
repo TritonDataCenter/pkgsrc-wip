@@ -15,6 +15,7 @@ USE_LANGUAGES=	# none
 
 PYDISTUTILSPKG=	yes
 
+# XXX: as of configobj-4.7.2
 PYTHON_VERSIONS_INCOMPATIBLE=	33 34 # "except Exception, e:" SyntaxError
 
 .include "../../lang/python/extension.mk"
