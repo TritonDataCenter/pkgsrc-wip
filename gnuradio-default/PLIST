@@ -14640,5 +14640,3 @@ share/gnuradio/modtool/gr-newmod/python/build_utils.py
 share/gnuradio/modtool/gr-newmod/python/build_utils_codes.py
 share/gnuradio/modtool/gr-newmod/swig/CMakeLists.txt
 share/gnuradio/modtool/gr-newmod/swig/howto_swig.i
-@pkgdir etc/gnuradio/conf.d
-@pkgdir include/volk/asm/neon
