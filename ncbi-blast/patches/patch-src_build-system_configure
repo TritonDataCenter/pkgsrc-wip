@@ -9,7 +9,7 @@ Change logic to disable all 3rd party support and enable one by one.
        | --with-universal=* | --with-tcheck=* \
        | --cache-file=* | --build=* | --host=* | --prefix=* | --exec-prefix=* \
        | --libdir=* | --bindir=* | --includedir=* | --srcdir=* \
-+      | --infodir=* | --mandir=* | --with-libiconv-prefix=* | --with-libintl-prefix= \
++      | --infodir=* | --mandir=* | --with-libiconv-prefix=* | --with-libintl-prefix=* \
        | [A-Z]*=* \
        | --with-z=* | --with-bz2=* | --with-lzo=* \
        | --with-pcre=* | --with-ncbi-c=* | --with-sss=* \
