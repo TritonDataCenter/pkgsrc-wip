@@ -23,6 +23,7 @@ CHECK_PORTABILITY_SKIP+=src/breakpad/src/third_party/protobuf/protobuf/post_proc
 
 NOT_FOR_PLATFORM+=	SunOS-*-x86_64
 
+CONFIGURE_ARGS+=	--qt-config -no-rpath
 CONFIGURE_ENV+=	MACHINE_ARCH=${MACHINE_ARCH}
 
 CFLAGS.SunOS+=	-D_XPG6
