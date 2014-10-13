@@ -13,6 +13,8 @@ LICENSE=	2-clause-bsd
 
 USE_LANGUAGES=	# none
 
+PYTHON_VERSIONS_INCOMPATIBLE=	33 34 # py-configobj as of 4.7.2
+
 .include "../../graphics/py-matplotlib/buildlink3.mk"
 .include "../../lang/python/egg.mk"
 .include "../../math/py-numpy/buildlink3.mk"
