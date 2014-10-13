@@ -11,7 +11,7 @@ LICENSE=	gnu-gpl-v2
 
 BUILD_DEPENDS+=	${PYPKGPREFIX}-docutils-[0-9]*:../../textproc/py-docutils
 # ${WRKSRC}/bootstrap.py mentions needed version
-BUILD_DEPENDS+=	waf>=1.7.16:../../devel/waf
+BUILD_DEPENDS+=	waf>=1.8.1:../../devel/waf
 
 GIT_REPOSITORIES=	mpv
 GIT_REPO.mpv=		git://github.com/mpv-player/mpv.git

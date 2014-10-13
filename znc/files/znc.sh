@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $NetBSD:
+# $NetBSD$
 #
 # RC-script for znc 1.0
 #

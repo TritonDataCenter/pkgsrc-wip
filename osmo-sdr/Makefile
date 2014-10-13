@@ -10,7 +10,7 @@ COMMENT=		Small form-factor inexpensive SDR (Software Defined Radio)
 LICENSE=		gnu-gpl-v2
 
 USE_LANGUAGES=		c c++
-USE_TOOLS=		cmake tar
+USE_TOOLS=		cmake perl pkg-config tar
 USE_CMAKE=		yes
 
 #WRKSRC=		${WRKDIR}/osmo-sdr-0.1

@@ -17,6 +17,7 @@ USE_CMAKE=		yes
 
 # Suppress warning for developer
 CMAKE_ARGS+=		-Wno-dev
+CMAKE_ARGS+=		-DLIBUSB_INCLUDE_DIR=${PREFIX}/include/libusb-1.0
 
 CONFIGURE_DIRS=		host
 AUTO_MKDIRS=		yes
