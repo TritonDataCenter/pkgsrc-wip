@@ -879,7 +879,6 @@ share/doc/gnuradio-${PKGVERSION}/README.fft
 share/doc/gnuradio-${PKGVERSION}/README.filter
 share/doc/gnuradio-${PKGVERSION}/README.hacking
 share/examples/gnuradio/conf.d/gnuradio-runtime.conf
-share/examples/gnuradio/conf.d/gr-audio-alsa.conf
 share/examples/gnuradio/conf.d/gr-audio-jack.conf
 share/examples/gnuradio/conf.d/gr-audio-oss.conf
 share/examples/gnuradio/conf.d/gr-audio-portaudio.conf
@@ -1130,3 +1129,5 @@ share/gnuradio/grc/blocks/filter_rational_resampler_base_xxx.xml
 share/gnuradio/grc/blocks/filter_rational_resampler_xxx.xml
 share/gnuradio/grc/blocks/filter_root_raised_cosine_filter.xml
 share/gnuradio/grc/blocks/filter_single_pole_iir_filter_xx.xml
+@pkgdir include/volk/asm/neon
+@pkgdir etc/gnuradio/conf.d
