@@ -15,6 +15,7 @@ USE_TOOLS+=	gmake
 USE_TOOLS+=	pkg-config
 # not until boehm-gc is threaded
 CONFIGURE_ARGS+=	--without-threads
+CONFIGURE_ARGS+=	--disable-shared
 
 PKGCONFIG_OVERRIDE+=	meta/guile-2.0.pc.in
 
