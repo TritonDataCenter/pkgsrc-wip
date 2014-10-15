@@ -1,0 +1,2 @@
+@comment $NetBSD$
+share/examples/gnuradio/conf.d/gr-audio-alsa.conf
