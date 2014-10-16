@@ -15,14 +15,6 @@ CONF_FILES+=	${EGDIR}/gr-audio.conf		${PKG_SYSCONFDIR}/gr-audio.conf
 # set default as minimum
 CMAKE_ARGS+=	-DENABLE_DEFAULT=False
 
-# disable/enable ALSA, see also patches/patch-gr-audio_lib_CMakeLists.txt
-SUBST_CLASSES+=		alsa
-SUBST_MESSAGE.alsa=	Arrange the patched line depepending on alsa is in PKG_OPTIONS or not
-SUBST_FILES.alsa+=	gr-audio/lib/CMakeLists.txt
-## $ALSA_ENABLED is '#' or ''
-SUBST_SED.alsa=		-e 's,@@ALSA@@,${ALSA_ENABLED},'
-SUBST_STAGE.alsa=	post-patch
-
 # Take care CONF_FILES stuff (The same code in Nocore.mk)
 post-install:
 	${MV} ${DESTDIR}${PREFIX}/etc/gnuradio/conf.d/* \
