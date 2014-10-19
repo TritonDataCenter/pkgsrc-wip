@@ -1,4 +1,5 @@
 @comment $NetBSD$
 include/GL/glfw.h
 lib/libglfw.a
+lib/libglfw.so
 lib/pkgconfig/libglfw.pc
