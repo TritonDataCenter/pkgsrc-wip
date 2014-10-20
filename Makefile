@@ -3106,7 +3106,6 @@ SUBDIR+=	quarkcoin
 SUBDIR+=	qucs
 SUBDIR+=	quickfix
 SUBDIR+=	quickie
-SUBDIR+=	quodlibet
 SUBDIR+=	qupzilla
 SUBDIR+=	qvamps
 SUBDIR+=	r8s
