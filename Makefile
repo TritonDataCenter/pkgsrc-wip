@@ -1852,6 +1852,7 @@ SUBDIR+=	ocaml-zed
 SUBDIR+=	ocamlgraph
 SUBDIR+=	ocamlweb
 SUBDIR+=	oce
+SUBDIR+=	octave
 SUBDIR+=	ode
 SUBDIR+=	ogmrip
 SUBDIR+=	ogre
