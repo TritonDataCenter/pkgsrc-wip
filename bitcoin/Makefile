@@ -36,7 +36,7 @@ CONF_FILES_PERMS=	${EGDIR}/bitcoin.conf ${PKG_SYSCONFDIR}/bitcoin.conf ${ROOT_US
 
 SUBST_CLASSES+= 	pkg
 SUBST_STAGE.pkg= 	post-patch
-SUBST_FILES.pkg+=	src/contrib/debian/bitcoin-qt.desktop
+SUBST_FILES.pkg+=	contrib/debian/bitcoin-qt.desktop
 SUBST_SED.pkg=		-e "s|/usr/|${PREFIX}/|g"
 SUBST_MESSAGE.pkg=	"Fixing dirs."
 
