@@ -1,11 +1,10 @@
 # $NetBSD$
 #
 
-DISTNAME=	Phone-0.4.0
-PKGNAME=	deforaos-phone-0.4.0
-PKGREVISION=	1
+DISTNAME=	Phone-0.4.1
+PKGNAME=	deforaos-phone-0.4.1
 CATEGORIES=	comms net
-MASTER_SITES=	http://www.defora.org/os/download/download/4334/
+MASTER_SITES=	http://www.defora.org/os/download/download/4336/
 
 MAINTAINER=	khorben@defora.org
 HOMEPAGE=	http://www.defora.org/
