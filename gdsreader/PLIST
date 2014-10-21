@@ -1,0 +1,6 @@
+@comment $NetBSD$
+bin/gdsreader
+bin/maptolayer
+share/examples/${PKGNAME}/README
+share/examples/${PKGNAME}/layers.config
+share/examples/${PKGNAME}/test.gds
