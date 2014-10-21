@@ -56,8 +56,8 @@ do-install:
 	${INSTALL_DATA} -m 600 ${FILESDIR}/bitcoin.conf ${DESTDIR}${EGDIR}
 	${INSTALL_DATA_DIR} ${DESTDIR}${PREFIX}/share/pixmaps
 	${INSTALL_DATA_DIR} ${DESTDIR}${PREFIX}/share/applications
-	${INSTALL_DATA} -m 644 ${WRKSRC}/share/pixmaps/bitcoin128.png ${DESTDIR}${PREFIX}/share/pixmaps
-	${INSTALL_DATA} -m 644 ${WRKSRC}/contrib/debian/bitcoin-qt.desktop ${DESTDIR}${PREFIX}/share/applications/
+	${INSTALL_DATA} ${WRKSRC}/share/pixmaps/bitcoin128.png ${DESTDIR}${PREFIX}/share/pixmaps
+	${INSTALL_DATA} ${WRKSRC}/contrib/debian/bitcoin-qt.desktop ${DESTDIR}${PREFIX}/share/applications/
 
 .include "options.mk"
 
