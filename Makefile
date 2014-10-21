@@ -1577,6 +1577,7 @@ SUBDIR+=	lxtask
 SUBDIR+=	lxterminal
 SUBDIR+=	lzs-lkm
 SUBDIR+=	m4ri
+SUBDIR+=	mac-icon-standard
 SUBDIR+=	mac-robber
 SUBDIR+=	macaulay2
 SUBDIR+=	macro11
