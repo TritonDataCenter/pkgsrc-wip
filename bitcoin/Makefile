@@ -47,6 +47,10 @@ do-build:
 	cd ${WRKSRC} && ${SETENV} ${MAKE_ENV} ${QMAKE_OPTIONS} ${GMAKE};	\
 	cd ${WRKSRC}/src && ${SETENV} ${MAKE_ENV} CFLAGS+=-Iobj ${QMAKE_OPTIONS} ${GMAKE} -f makefile.unix
 
+pre-install:
+	${CHMOD} a+r ${WRKSRC}/share/pixmaps/bitcoin128.png
+	${CHMOD} a+r ${WRKSRC}/contrib/debian/bitcoin-qt.desktop
+
 do-install:
 	${INSTALL_DATA_DIR} ${DESTDIR}${PREFIX}/bin
 	${INSTALL_DATA_DIR} ${DESTDIR}${PREFIX}/sbin
