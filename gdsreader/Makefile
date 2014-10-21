@@ -24,7 +24,7 @@ do-install:
 post-install:
 	for i in			\
 		README			\
-		README.povery		\
+		README.povray		\
 		layers.config		\
 		layers.config.5AM.4ML	\
 		layers.config.7HP.5ML	\
