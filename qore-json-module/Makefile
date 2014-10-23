@@ -2,7 +2,7 @@
 
 DISTNAME=	qore-json-module-1.4
 PKGREVISION=	3
-CATEGORIES=	wip
+CATEGORIES=	textproc
 MASTER_SITES=   ${MASTER_SITE_SOURCEFORGE:=qore/}
 EXTRACT_SUFX=   .tar.bz2
 
@@ -15,6 +15,8 @@ GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_LANGUAGES=	c c++
 USE_TOOLS+=	gmake
+PTHREAD_OPTS+=	native
+
 
 INSTALL_TARGET=	install install-html-local
 
@@ -29,5 +31,6 @@ post-install:
 .include "../../wip/qore/module.mk"
 .include "options.mk"
 
+.include "../../mk/pthread.buildlink3.mk"
 .include "../../wip/qore/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
