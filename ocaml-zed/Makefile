@@ -10,6 +10,8 @@ HOMEPAGE=	http://forge.ocamlcore.org/projects/zed/
 COMMENT=	Zed is an abstract engine for text edition
 LICENSE=	modified-bsd
 
-.include "../../devel/ocaml-findlib/buildlink3.mk"
-.include "../../wip/mk/ocaml-oasis.mk"
+OCAML_USE_OASIS=	yes
+
+.include "../../wip/ocaml-camomile/buildlink3.mk"
+.include "../../mk/ocaml.mk"
 .include "../../mk/bsd.pkg.mk"
