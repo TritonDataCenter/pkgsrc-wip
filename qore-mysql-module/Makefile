@@ -6,7 +6,7 @@ CATEGORIES=	databases
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=qore/}
 EXTRACT_SUFX=	.tar.bz2
 
-MAINTAINER=	pkgsrc-users@NetBSD.org
+MAINTAINER=	nros@users.sourceforge.net
 HOMEPAGE=	http://www.qore.org/
 COMMENT=	MySQL DB driver for Qore
 LICENSE=	gnu-gpl-v2
@@ -14,7 +14,7 @@ LICENSE=	gnu-gpl-v2
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_LANGUAGES=	c c++
-PTHREAD_OPTS+=	require
+PTHREAD_OPTS+=	native
 
 INSTALL_TARGET=	install install-html-local
 
