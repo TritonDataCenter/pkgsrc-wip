@@ -6,8 +6,6 @@ CATEGORIES=	graphics
 MASTER_SITES=	http://downloads.jgraph.com/downloads/jgraphx/archive/
 LICENSE=	modified-bsd
 
-BROKEN=		Install target is not finished yet.
-
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	https://github.com/jgraph/jgraphx
 COMMENT=	Java Swing diagramming (graph visualisation) library
