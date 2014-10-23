@@ -6,7 +6,7 @@ PKGREVISION=	3
 CATEGORIES=	databases
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=qore/}
 
-MAINTAINER=	pkgsrc-users@NetBSD.org
+MAINTAINER=	nros@users.sourceforge.net
 HOMEPAGE=	http://www.qore.org/
 COMMENT=	Freetds DB driver for qore
 LICENSE=	gnu-lgpl-v2.1
