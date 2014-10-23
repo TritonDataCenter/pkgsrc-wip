@@ -16,5 +16,8 @@ WRKSRC=		${WRKDIR}/lxmusic-0.4.0
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_TOOLS+=	perl
+USE_TOOLS+=	pkg-config
 
+.include "../../wip/xmms2/buildlink3.mk"
+.include "../../x11/gtk2/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
