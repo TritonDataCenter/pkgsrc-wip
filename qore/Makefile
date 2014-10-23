@@ -15,7 +15,7 @@ GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_TOOLS+=	bison flex gmake
 USE_LANGUAGES=	c c++
-PTHREAD_OPTS+=	require
+PTHREAD_OPTS+=	native
 
 PKGCONFIG_OVERRIDE+=	qore.pc.in
 
