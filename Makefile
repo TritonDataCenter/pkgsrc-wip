@@ -286,6 +286,7 @@ SUBDIR+=	cedet
 SUBDIR+=	cfengine
 SUBDIR+=	cgit
 SUBDIR+=	cglib
+SUBDIR+=	cgminer297
 SUBDIR+=	cgnslib
 SUBDIR+=	cgterm
 SUBDIR+=	chani
