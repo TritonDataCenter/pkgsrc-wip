@@ -53,7 +53,7 @@ PYTHON_VERSIONS_INCOMPATIBLE+=	26
 USE_LANGUAGES=	c
 USE_TOOLS+=	bash:run
 
-EGG_NAME=	Calendar_and_Contacts_Server-5.2.1_unknown._r14096MS_
+EGG_NAME=	Calendar_and_Contacts_Server-5.2.2._r14099M_
 
 REPLACE_BASH+=	bin/caldavd
 
