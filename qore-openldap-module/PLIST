@@ -1,5 +1,5 @@
 @comment $NetBSD$
-lib/qore-modules/openldap-api-${QORE_LATEST_MODULE_API}.qmod
+${QORE_MODULE_DIR}/openldap-api-${QORE_LATEST_MODULE_API}.qmod
 share/doc/qore-openldap-module/html/QC__LdapClient_8dox_8h_source.html
 share/doc/qore-openldap-module/html/annotated.html
 share/doc/qore-openldap-module/html/annotated.js

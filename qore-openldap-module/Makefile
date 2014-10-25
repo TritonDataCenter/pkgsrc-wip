@@ -1,7 +1,7 @@
 # $NetBSD$
 
 DISTNAME=	qore-openldap-module-1.0
-PKGREVISION=	3
+PKGREVISION=	4
 CATEGORIES=	databases
 MASTER_SITES=   ${MASTER_SITE_SOURCEFORGE:=qore/}
 EXTRACT_SUFX=   .tar.bz2
@@ -17,7 +17,11 @@ USE_LANGUAGES=	c c++
 USE_TOOLS+=	gmake
 PTHREAD_OPTS+=	native
 
-INSTALL_TARGET=	install install-html-local
+#install docs
+INSTALLATION_DIRS+=share/doc/${PKGBASE}
+post-install:
+	${CP} -R ${WRKSRC}/docs/openldap/html \
+		${DESTDIR}${PREFIX}/share/doc/${PKGBASE}
 
 .include "options.mk"
 
