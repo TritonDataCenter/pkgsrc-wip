@@ -373,6 +373,7 @@ SUBDIR+=	csp2b
 SUBDIR+=	cspchecker
 SUBDIR+=	csstidy
 SUBDIR+=	csv-mode
+SUBDIR+=	csvkit
 SUBDIR+=	cubature
 SUBDIR+=	cufflinks
 SUBDIR+=	cup
