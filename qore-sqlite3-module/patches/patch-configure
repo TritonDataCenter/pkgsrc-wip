@@ -1,5 +1,6 @@
 $NetBSD$
-* fix typo error on with_sqlite3
+* fix typo so that --with-sqlite3 works correctly
+http://sourceforge.net/p/qore/code/6348/
 --- configure.orig	2010-06-20 09:09:23.000000000 +0000
 +++ configure
 @@ -14717,7 +14717,7 @@ fi
