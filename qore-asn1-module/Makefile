@@ -1,6 +1,7 @@
 # $NetBSD$
 
 DISTNAME=	qore-asn1-module-0.0.3
+PKGREVISION=	1
 CATEGORIES=	security
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=qore/}
 
