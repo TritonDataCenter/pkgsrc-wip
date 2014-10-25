@@ -2745,7 +2745,6 @@ SUBDIR+=	py-okasha
 SUBDIR+=	py-ontopy
 SUBDIR+=	py-openastro
 SUBDIR+=	py-openopt
-SUBDIR+=	py-openpyxl
 SUBDIR+=	py-opentmm
 SUBDIR+=	py-openxmllib
 SUBDIR+=	py-operators
