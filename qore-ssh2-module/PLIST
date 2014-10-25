@@ -1,5 +1,5 @@
 @comment $NetBSD$
-lib/qore-modules/ssh2-api-${QORE_LATEST_MODULE_API}.qmod
+${QORE_MODULE_DIR}/ssh2-api-${QORE_LATEST_MODULE_API}.qmod
 share/doc/qore-ssh2-module/COPYING.LGPL
 share/doc/qore-ssh2-module/COPYING.MIT
 share/doc/qore-ssh2-module/html/annotated.html
