@@ -1,5 +1,5 @@
 @comment $NetBSD$
-lib/qore-modules/mysql-api-${QORE_LATEST_MODULE_API}.qmod
+${QORE_MODULE_DIR}/mysql-api-${QORE_LATEST_MODULE_API}.qmod
 share/doc/qore-mysql-module/html/bc_s.png
 share/doc/qore-mysql-module/html/bdwn.png
 share/doc/qore-mysql-module/html/closed.png
