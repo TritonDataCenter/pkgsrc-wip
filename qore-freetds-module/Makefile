@@ -2,7 +2,7 @@
 
 DISTNAME=	qore-sybase-modules-1.0.3
 PKGNAME=	${DISTNAME:S/sybase-modules/freetds-module/}
-PKGREVISION=	3
+PKGREVISION=	4
 CATEGORIES=	databases
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=qore/}
 
