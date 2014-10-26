@@ -1716,6 +1716,7 @@ SUBDIR+=	mtrack
 SUBDIR+=	mu
 SUBDIR+=	mu-cite
 SUBDIR+=	muine
+SUBDIR+=	multiminer
 SUBDIR+=	multisync
 SUBDIR+=	multisync-backup
 SUBDIR+=	multisync-ldap
