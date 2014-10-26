@@ -2,7 +2,7 @@
 
 DISTNAME=	v3.6.2
 PKGNAME=	multiminer-${DISTNAME:S|v||}
-CATEGORIES=	Bitcoin
+CATEGORIES=	finance
 MASTER_SITES=	https://github.com/nwoolls/MultiMiner/archive/
 FETCH_USING=	curl
 
