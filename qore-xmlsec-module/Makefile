@@ -1,7 +1,7 @@
 # $NetBSD$
 
 DISTNAME=	qore-xmlsec-module-0.0.2
-PKGREVISION=	3
+PKGREVISION=	4
 CATEGORIES=	security
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=qore/}
 
