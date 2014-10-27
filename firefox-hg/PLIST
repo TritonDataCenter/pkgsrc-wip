@@ -82,6 +82,7 @@ lib/firefox/browser/chrome/browser/content/browser/browser.xul
 lib/firefox/browser/chrome/browser/content/browser/certerror/aboutCertError.css
 lib/firefox/browser/chrome/browser/content/browser/certerror/aboutCertError.xhtml
 lib/firefox/browser/chrome/browser/content/browser/chatWindow.xul
+lib/firefox/browser/chrome/browser/content/browser/content-UITour.js
 lib/firefox/browser/chrome/browser/content/browser/content-sessionStore.js
 lib/firefox/browser/chrome/browser/content/browser/content.js
 lib/firefox/browser/chrome/browser/content/browser/customizableui/aboutCustomizing.xul
