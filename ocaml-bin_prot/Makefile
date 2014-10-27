@@ -18,5 +18,6 @@ USE_TOOLS+=	gmake
 OCAML_USE_FINDLIB=	yes
 
 .include "../../devel/ocaml-type_conv/buildlink3.mk"
+.include "../../lang/camlp4/buildlink3.mk"
 .include "../../mk/ocaml.mk"
 .include "../../mk/bsd.pkg.mk"
