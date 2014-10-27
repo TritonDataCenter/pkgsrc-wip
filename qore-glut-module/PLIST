@@ -1,2 +1,2 @@
 @comment $NetBSD$
-lib/qore-modules/glut-api-${QORE_MODULE_API}.qmod
+${QORE_MODULE_DIR}/glut-api-${QORE_MODULE_API}.qmod
