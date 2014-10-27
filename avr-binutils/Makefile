@@ -17,10 +17,12 @@ GNU_CONFIGURE=		yes
 USE_PKGLOCALEDIR=	yes
 USE_GNU_CONFIGURE_HOST=	no
 
+# follows to devel/binutils
+# PR pkg/48504, ksh is sufficient for NetBSD 5.2 and NetBSD 6.1
 .include "../../mk/bsd.prefs.mk"
-.if !empty(OPSYS:MNetBSD)
-# ./configure.lineno: 3239: Syntax error: Missing '}'
-# Makefile:2991: recipe for target 'configure-opcodes' failed
+.if !empty(MACHINE_PLATFORM:MNetBSD-[5-6].*-*) && \
+	empty(MACHINE_PLATFORM:MNetBSD-6.99.*-*)
+USE_TOOLS+=		ksh
 CONFIG_SHELL=		ksh
 .endif
 
