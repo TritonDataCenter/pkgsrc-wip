@@ -1,3 +1,3 @@
 @comment $NetBSD$
-lib/qore-modules/opengl-api-${QORE_MODULE_API}.qmod
+${QORE_MODULE_DIR}/opengl-api-${QORE_MODULE_API}.qmod
 share/doc/${PKGBASE}/opengl-module-doc.html
