@@ -1,4 +1,4 @@
-@comment $NetBSD$
+@comment $NetBSD: PLIST,v 1.8 2014/06/15 15:54:41 mef Exp $
 avr/bin/ar
 avr/bin/as
 avr/bin/ld

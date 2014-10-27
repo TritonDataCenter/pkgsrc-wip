@@ -1,4 +1,4 @@
-$NetBSD$
+$NetBSD: patch-aj,v 1.2 2013/08/07 02:41:30 mef Exp $
 
 Avoid installing info and po (nls) files
 

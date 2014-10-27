@@ -1,4 +1,4 @@
-$NetBSD$
+$NetBSD: patch-ag,v 1.4 2013/08/07 02:41:30 mef Exp $
 
 Avoid installing info (which duplicates with other CPU)
 
