@@ -81,6 +81,7 @@ PLIST.oss=	yes
 .include "../../audio/lame/buildlink3.mk"
 .include "../../audio/libcddb/buildlink3.mk"
 .include "../../audio/libmad/buildlink3.mk"
+#include "../../audio/libmodplug/buildlink3.mk"
 .include "../../audio/libmpcdec/buildlink3.mk"
 .include "../../audio/libsamplerate/buildlink3.mk"
 .include "../../audio/libsndfile/buildlink3.mk"
@@ -97,6 +98,7 @@ PLIST.oss=	yes
 .include "../../multimedia/libogg/buildlink3.mk"
 .include "../../net/libmms/buildlink3.mk"
 .include "../../sysutils/libnotify/buildlink3.mk"
+.include "../../wip/libbs2b/buildlink3.mk"
 .include "../../www/curl/buildlink3.mk"
 .include "../../www/neon/buildlink3.mk"
 

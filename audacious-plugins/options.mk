@@ -2,7 +2,7 @@
 
 PKG_OPTIONS_VAR=	PKG_OPTIONS.audacious-plugins
 PKG_SUPPORTED_OPTIONS=	arts esound inet6 jack pulseaudio
-PKG_SUGGESTED_OPTIONS+=	inet6 pulseaudio
+PKG_SUGGESTED_OPTIONS+=	arts        inet6 jack pulseaudio
 
 .include "../../mk/bsd.options.mk"
 
