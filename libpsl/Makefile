@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	libpsl-0.5.1
+DISTNAME=	libpsl-0.6.0
 CATEGORIES=	devel
 MASTER_SITES=	-https://github.com/rockdaboot/libpsl/archive/${PKGVERSION}${EXTRACT_SUFX}
 
