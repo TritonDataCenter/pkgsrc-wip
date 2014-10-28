@@ -22,6 +22,9 @@ INSTALLATION_DIRS+=share/doc/${PKGBASE}
 post-install:
 	${CP} -R ${WRKSRC}/docs/openldap/html \
 		${DESTDIR}${PREFIX}/share/doc/${PKGBASE}
+	${CHOWN} -R ${SHAREOWN}:${SHAREGRP} \
+		${DESTDIR}${PREFIX}/share/doc/${PKGBASE}
+	
 
 .include "options.mk"
 

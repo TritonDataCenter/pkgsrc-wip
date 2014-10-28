@@ -26,6 +26,9 @@ post-install:
 		${DESTDIR}${PREFIX}/share/doc/${PKGBASE}
 	${CP} -R ${WRKSRC}/docs/pgsql/html \
 		${DESTDIR}${PREFIX}/share/doc/${PKGBASE}
+	${CHOWN} -R ${SHAREOWN}:${SHAREGRP} \
+		${DESTDIR}${PREFIX}/share/doc/${PKGBASE}
+
 
 .include "options.mk"
 

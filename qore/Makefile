@@ -19,7 +19,7 @@ PTHREAD_OPTS+=	native
 
 PKGCONFIG_OVERRIDE+=	qore.pc.in
 
-REPLACE_QORE+=		doxygen/qdx
+REPLACE_QORE=		doxygen/qdx
 
 #This is needed in order to comply the with MIT license and binary distribution
 #Install docs
@@ -31,6 +31,7 @@ post-install:
 	${INSTALL_DATA} ${WRKSRC}/COPYING.MIT ${DESTDIR}${PREFIX}/${licensedir}
 	${INSTALL_DATA} ${WRKSRC}/README-LICENSE ${DESTDIR}${PREFIX}/${licensedir}
 	${CP} -R ${WRKSRC}/docs/* ${DESTDIR}${PREFIX}/share/doc/qore
+	${CHOWN} -R ${SHAREOWN}:${SHAREGRP} ${DESTDIR}${PREFIX}/share/doc/qore
 
 .include "application.mk"
 .include "options.mk"
