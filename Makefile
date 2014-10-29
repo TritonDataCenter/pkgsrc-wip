@@ -1490,7 +1490,6 @@ SUBDIR+=	libreoffice
 SUBDIR+=	libreoffice-devel
 SUBDIR+=	libressl
 SUBDIR+=	libscscp
-SUBDIR+=	libshorttext
 SUBDIR+=	libslab
 SUBDIR+=	libsnappy
 SUBDIR+=	libsocialweb
