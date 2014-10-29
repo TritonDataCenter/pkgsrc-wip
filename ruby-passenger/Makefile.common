@@ -2,7 +2,7 @@
 # used by wip/ap2-passenger/Makefile
 # used by wip/ruby-passenger/Makefile
 #
-DISTNAME=		passenger-4.0.42
+DISTNAME=		passenger-4.0.53
 CATEGORIES=		www
 
 MASTER_SITES=		http://s3.amazonaws.com/phusion-passenger/releases/
