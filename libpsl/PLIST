@@ -1,0 +1,7 @@
+@comment $NetBSD$
+bin/psl
+include/libpsl.h
+lib/libpsl.la
+lib/pkgconfig/libpsl.pc
+share/libpsl/effective_tld_names.dat
+share/libpsl/test_psl.txt

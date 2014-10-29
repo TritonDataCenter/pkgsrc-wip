@@ -1,7 +1,7 @@
 # $NetBSD$
 
 DISTNAME=	qore-xmlsec-module-0.0.2
-PKGREVISION=	3
+PKGREVISION=	4
 CATEGORIES=	security
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=qore/}
 
@@ -13,7 +13,7 @@ LICENSE=	gnu-lgpl-v2.1
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_LANGUAGES=	c c++
-PTHREAD_OPTS+=	require
+PTHREAD_OPTS+=	native
 
 CONFIGURE_ARGS+=--with-xmlsec-dir=${BUILDLINK_PREFIX.xmlsec1}
 CONFIGURE_ARGS+=--with-libxml2-dir=${BUILDLINK_PREFIX.libxml2}

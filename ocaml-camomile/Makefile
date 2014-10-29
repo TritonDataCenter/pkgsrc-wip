@@ -19,5 +19,6 @@ USE_LANGUAGES=  c
 GNU_CONFIGURE=	yes
 CONFIGURE_ARGS=	--datadir="${DESTDIR}${PREFIX}/lib/ocaml/site-lib"
 
+.include "../../lang/camlp4/buildlink3.mk"
 .include "../../lang/ocaml/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

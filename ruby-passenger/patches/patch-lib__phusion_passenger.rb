@@ -4,7 +4,7 @@ Fix default paths.
 --- lib/phusion_passenger.rb.orig	2013-10-26 22:00:00.000000000 +0000
 +++ lib/phusion_passenger.rb
 @@ -51,8 +51,7 @@ module PhusionPassenger
- 	
+ 
  	# Directories in which to look for plugins.
  	PLUGIN_DIRS = [
 -		"/usr/share/#{GLOBAL_NAMESPACE_DIRNAME}/plugins",
@@ -12,8 +12,8 @@ Fix default paths.
 +		"@PREFIX@/#{GLOBAL_NAMESPACE_DIRNAME}/plugins",
  		"~/#{USER_NAMESPACE_DIRNAME}/plugins"
  	]
- 	
-@@ -254,7 +253,7 @@ private
+ 
+@@ -258,7 +257,7 @@ private
  			return filename if File.exist?(filename)
  		end
  

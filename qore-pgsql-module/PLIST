@@ -1,5 +1,5 @@
 @comment $NetBSD$
-lib/qore-modules/pgsql-api-${QORE_LATEST_MODULE_API}.qmod
+${QORE_MODULE_DIR}/pgsql-api-${QORE_LATEST_MODULE_API}.qmod
 share/doc/qore-pgsql-module/html/bc_s.png
 share/doc/qore-pgsql-module/html/bdwn.png
 share/doc/qore-pgsql-module/html/closed.png

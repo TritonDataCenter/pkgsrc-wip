@@ -1,5 +1,7 @@
 @comment $NetBSD$
 bin/bitcoin-qt
 sbin/bitcoind
+share/applications/bitcoin-qt.desktop
 share/examples/bitcoin/bitcoin.conf
 share/examples/rc.d/bitcoind
+share/pixmaps/bitcoin128.png

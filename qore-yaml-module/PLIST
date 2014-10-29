@@ -1,7 +1,7 @@
 @comment $NetBSD$
-lib/qore-modules/${QORE_VERSION}/YamlRpcClient.qm
-lib/qore-modules/${QORE_VERSION}/YamlRpcHandler.qm
-lib/qore-modules/yaml-api-${QORE_LATEST_MODULE_API}.qmod
+${QORE_MODULE_DIR}/${QORE_VERSION}/YamlRpcClient.qm
+${QORE_MODULE_DIR}/${QORE_VERSION}/YamlRpcHandler.qm
+${QORE_MODULE_DIR}/yaml-api-${QORE_LATEST_MODULE_API}.qmod
 share/doc/qore-yaml-module/COPYING.LGPL
 share/doc/qore-yaml-module/COPYING.MIT
 share/doc/qore-yaml-module/YamlRpcClient/html/_yaml_rpc_client_8qm_8dox_8h_source.html

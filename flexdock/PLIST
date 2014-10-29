@@ -1,0 +1,12 @@
+@comment $NetBSD$
+lib/java/flexdock/${PKGNAME}.jar
+lib/java/flexdock/flexdock-demo-${PKGVERSION}.jar
+lib/java/flexdock/lib/jmf/lib/customizer.jar
+lib/java/flexdock/lib/jmf/lib/jmf.jar
+lib/java/flexdock/lib/jmf/lib/jmf.properties
+lib/java/flexdock/lib/jmf/lib/mediaplayer.jar
+lib/java/flexdock/lib/jmf/lib/multiplayer.jar
+lib/java/flexdock/lib/looks-2.1.1.jar
+lib/java/flexdock/lib/skinlf.jar
+@pkgdir share/examples/flexdock
+@pkgdir lib/java/flexdock/lib/jmf/doc

@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	CalendarServer-5.2
+DISTNAME=	CalendarServer-5.2.2
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	time net
 MASTER_SITES=	# manually packaged from release branch in SVN
@@ -53,7 +53,7 @@ PYTHON_VERSIONS_INCOMPATIBLE+=	26
 USE_LANGUAGES=	c
 USE_TOOLS+=	bash:run
 
-EGG_NAME=	Calendar_and_Contacts_Server-5.2._r13943M_
+EGG_NAME=	Calendar_and_Contacts_Server-5.2.2._r14099M_
 
 REPLACE_BASH+=	bin/caldavd
 
