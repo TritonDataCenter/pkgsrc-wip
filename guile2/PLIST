@@ -389,8 +389,8 @@ lib/guile/2.0/ccache/web/response.go
 lib/guile/2.0/ccache/web/server.go
 lib/guile/2.0/ccache/web/server/http.go
 lib/guile/2.0/ccache/web/uri.go
-lib/libguile-2.0.a-gdb.scm
 lib/libguile-2.0.la
+lib/libguile-2.0.so.22.7.2-gdb.scm
 lib/libguilereadline-v-18.la
 lib/pkgconfig/guile-2.0.pc
 man/man1/guile.1
