@@ -38,8 +38,6 @@ JMF_LIB_FILES=				\
 	lib/jmf/lib/multiplayer.jar	\
 	lib/jmf/lib/jmf.properties
 
-PLIST_SUBST+=	PKGVERSION_NOREV=${PKGVERSION_NOREV}
-
 do-build:
 	${MKDIR} ${WRKSRC}
 	(cd  ${WRKSRC}; \
