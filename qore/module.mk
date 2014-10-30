@@ -12,7 +12,7 @@
 # 			 modules that uses the compatible module api
 #			 version.
 #
-# QORE_MODULE_DIR	 The directory where binary modules are 
+# QORE_MODULE_DIR	 The directory where binary modules are
 #			 installed relative to ${PREFIX}.
 #
 #
