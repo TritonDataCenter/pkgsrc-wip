@@ -7,7 +7,7 @@ CATEGORIES=	audio
 MASTER_SITES=	http://hts.sp.nitech.ac.jp/archives/2.0.1/
 EXTRACT_SUFX=	.tar.bz2
 
-MAINTAINER=	noud4@home.nl
+MAINTAINER=	noud4@users.sourceforge.net
 HOMEPAGE=	http://hts.sp.nitech.ac.jp/archives/2.0.1/
 COMMENT=	US English male voice for the festival speech synthesis system
 #LICENSE=	# TODO: (see mk/license.mk)

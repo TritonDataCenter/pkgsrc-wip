@@ -6,7 +6,7 @@ PKGNAME=	festvox-hl-1.1.1
 CATEGORIES=	audio
 MASTER_SITES=	http://festvox.org/packed/voices/welsh/
 
-MAINTAINER=	noud4@home.nl
+MAINTAINER=	noud4@users.sourceforge.net
 HOMEPAGE=	http://festvox.org/packed/voices/welsh/
 COMMENT=	Welsh voice for the festival speech synthesis system
 #LICENSE=	# TODO: (see mk/license.mk)

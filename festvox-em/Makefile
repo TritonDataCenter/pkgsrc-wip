@@ -6,7 +6,7 @@ PKGNAME=	festvox-em-1.1.1
 CATEGORIES=	audio
 MASTER_SITES=	http://festvox.org/packed/voices/polish/
 
-MAINTAINER=	noud4@home.nl
+MAINTAINER=	noud4@users.sourceforge.net
 HOMEPAGE=	http://festvox.org/packed/voices/polish/
 COMMENT=	Polish voice for the festival speech synthesis system
 #LICENSE=	# TODO: (see mk/license.mk) non-commercial use

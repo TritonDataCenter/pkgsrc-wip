@@ -7,7 +7,7 @@ CATEGORIES=	audio
 MASTER_SITES=	http://festvox.org/packed/voices/polish/
 EXTRACT_SUFX=	.tar.bz2
 
-MAINTAINER=	noud4@home.nl
+MAINTAINER=	noud4@users.sourceforge.net
 HOMEPAGE=	http://festvox.org/packed/voices/polish/
 COMMENT=	Polish voice for the festival speech synthesis system
 #LICENSE=	# TODO: (see mk/license.mk)
