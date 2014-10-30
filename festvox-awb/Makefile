@@ -4,11 +4,11 @@
 DISTNAME=	festvox_nitech_us_awb_arctic_hts-2.0.1
 PKGNAME=	festvox-awb-2.0.1
 CATEGORIES=	audio
-MASTER_SITES=	http://hts.sp.nitech.ac.jp/archives/${PKGVERSION}/
+MASTER_SITES=	http://hts.sp.nitech.ac.jp/archives/${PKGVERSION_NOREV}/
 EXTRACT_SUFX=	.tar.bz2
 
 MAINTAINER=	noud4@home.nl
-HOMEPAGE=	http://hts.sp.nitech.ac.jp/archives/${PKGVERSION}/
+HOMEPAGE=	http://hts.sp.nitech.ac.jp/archives/${PKGVERSION_NOREV}/
 COMMENT=	Scottish English male voice for the festival speech synthesis system
 #LICENSE=	# TODO: (see mk/license.mk)
 
