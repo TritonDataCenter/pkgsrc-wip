@@ -3,7 +3,7 @@
 
 DISTNAME=	festvox_nitech_us_rms_arctic_hts-2.0.1
 PKGNAME=	festvox-rms-2.0.1
-CATEGORIES=	TTS
+CATEGORIES=	audio
 MASTER_SITES=	http://hts.sp.nitech.ac.jp/archives/2.0.1/
 EXTRACT_SUFX=	.tar.bz2
 
