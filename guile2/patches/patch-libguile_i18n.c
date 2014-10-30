@@ -1,6 +1,7 @@
 $NetBSD$
 
 NetBSD provides newlocale and strcoll_l, but not uselocale.
+http://debbugs.gnu.org/cgi/bugreport.cgi?bug=18898
 
 --- libguile/i18n.c.orig	2014-01-21 21:25:11.000000000 +0000
 +++ libguile/i18n.c
