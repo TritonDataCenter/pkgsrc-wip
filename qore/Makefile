@@ -16,9 +16,9 @@ USE_LIBTOOL=	yes
 USE_TOOLS+=	bison flex gmake
 USE_LANGUAGES=	c c++
 PTHREAD_OPTS+=	native
+FLEX_REQD=	2.5.31
 
 PKGCONFIG_OVERRIDE+=	qore.pc.in
-
 REPLACE_QORE=		doxygen/qdx
 
 #This is needed in order to comply the with MIT license and binary distribution
