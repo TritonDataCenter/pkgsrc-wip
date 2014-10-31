@@ -2722,6 +2722,7 @@ SUBDIR+=	py-mplh5canvas
 SUBDIR+=	py-mpop
 SUBDIR+=	py-msdas
 SUBDIR+=	py-msumastro
+SUBDIR+=	py-mssql2
 SUBDIR+=	py-multichain_mcmc
 SUBDIR+=	py-mvpoly
 SUBDIR+=	py-mwavepy
