@@ -1,7 +1,7 @@
-# $NetBSD$
+# $Id$
 #
 
-DISTNAME=	downtimed-0.5
+DISTNAME=	downtimed-0.6
 CATEGORIES=	sysutils
 MASTER_SITES=	http://dist.epipe.com/downtimed/
 
@@ -12,8 +12,8 @@ LICENSE=	2-clause-bsd
 
 GNU_CONFIGURE=	yes
 
-BUILD_DEFS+=            VARBASE
-OWN_DIRS+=         ${VARBASE}/db/downtimed ${ROOT_USER} ${ROOT_GROUP}
+BUILD_DEFS+=	VARBASE
+OWN_DIRS+=	${VARBASE}/db/downtimed ${ROOT_USER} ${ROOT_GROUP}
 RCD_SCRIPTS+=	downtimed
 
 .include "../../mk/bsd.pkg.mk"

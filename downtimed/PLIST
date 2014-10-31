@@ -1,5 +1,6 @@
-@comment $NetBSD$
+@comment $Id$
 bin/downtimes
 man/man1/downtimes.1
 man/man8/downtimed.8
 sbin/downtimed
+share/examples/rc.d/downtimed
