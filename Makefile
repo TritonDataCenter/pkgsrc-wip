@@ -916,7 +916,6 @@ SUBDIR+=	gtuxnes
 SUBDIR+=	gtypist
 SUBDIR+=	guichan
 SUBDIR+=	guile-scsh
-SUBDIR+=	guile2
 SUBDIR+=	guilerxspencer
 SUBDIR+=	guitone
 SUBDIR+=	gune
