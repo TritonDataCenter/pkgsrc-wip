@@ -1793,6 +1793,7 @@ SUBDIR+=	necpp-git
 SUBDIR+=	nehe-opengl-tutorials
 SUBDIR+=	nemo
 SUBDIR+=	nestopia
+SUBDIR+=	nestopia-rpi
 SUBDIR+=	nestra
 SUBDIR+=	net-quanta
 SUBDIR+=	net-tools
