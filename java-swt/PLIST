@@ -1,5 +1,10 @@
 @comment $NetBSD$
-lib/libswt-gtk-2135.so
-lib/libswt-pi-gtk-2135.so
-share/classpath/swt-pi.jar
+lib/libswt-atk-gtk-${SHLIB_VERSION}.so
+lib/libswt-awt-gtk-${SHLIB_VERSION}.so
+lib/libswt-cairo-gtk-${SHLIB_VERSION}.so
+lib/libswt-glx-gtk-${SHLIB_VERSION}.so
+lib/libswt-gnome-gtk-${SHLIB_VERSION}.so
+lib/libswt-gtk-${SHLIB_VERSION}.so
+lib/libswt-pi-gtk-${SHLIB_VERSION}.so
+share/classpath/swt-debug.jar
 share/classpath/swt.jar
