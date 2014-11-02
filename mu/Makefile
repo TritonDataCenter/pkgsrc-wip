@@ -1,9 +1,8 @@
 # $NetBSD$
-#
 
-DISTNAME=	mu-0.9.3
+DISTNAME=	mu-0.9.9.6
 CATEGORIES=	mail
-MASTER_SITES=	http://mu0.googlecode.com/files/
+MASTER_SITES=	-https://github.com/djcb/mu/archive/v${PKGVERSION}${EXTRACT_SUFX}
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.djcbsoftware.nl/code/mu/
@@ -13,12 +12,15 @@ LICENSE=	gnu-gpl-v3
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_LANGUAGES=	c c++
-USE_TOOLS+=	gmake pkg-config
+USE_TOOLS+=	gmake pkg-config autoconf automake autoreconf
+
+pre-configure:
+	cd ${WRKSRC} && autoreconf -fiv
 
 .include "../../databases/sqlite3/buildlink3.mk"
 BUILDLINK_API_DEPENDS.glib2+=	glib2>=2.16.0
 .include "../../devel/glib2/buildlink3.mk"
-.include "../../mail/gmime24/buildlink3.mk"
+.include "../../mail/gmime/buildlink3.mk"
 .include "../../textproc/xapian/buildlink3.mk"
 .include "../../x11/gtk2/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
