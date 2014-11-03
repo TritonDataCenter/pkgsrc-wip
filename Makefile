@@ -3179,7 +3179,6 @@ SUBDIR+=	rosegarden-current
 SUBDIR+=	roundcube-skin-mvision2
 SUBDIR+=	roxterm
 SUBDIR+=	rpcemu
-SUBDIR+=	rpcemu-devel
 SUBDIR+=	rpki-svn
 SUBDIR+=	rsget
 SUBDIR+=	rsound
