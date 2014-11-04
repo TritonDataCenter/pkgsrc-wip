@@ -8,7 +8,7 @@ $NetBSD$
  #if defined(TARGET_DL_ITERATE_PHDR) && \
 -   (defined(__DragonFly__) || defined(__FreeBSD__))
 +   (defined(__DragonFly__) || defined(__FreeBSD__) || \
-+   (defined(__NetBSD__) || defined(__OpenBSD__))
++   defined(__NetBSD__) || defined(__OpenBSD__))
  #define BSD_DL_ITERATE_PHDR_AVAILABLE
  #endif
   
