@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	reflection-1.4
+DISTNAME=	reflection-1.5.1
 CATEGORIES=	devel
 
 MAINTAINER=	szptvlfn@NetBSD.org
