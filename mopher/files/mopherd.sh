@@ -11,7 +11,7 @@ $_rc_subr_loaded . /etc/rc.subr
 name=mopherd
 rcvar=mopherd
 pidfile=@MOPHER_RUN@/mopherd.pid
-start_precmd=${name}_precmd
+start_precmd=mopherd_precmd
 command=@PREFIX@/sbin/mopherd
 command_args="-p $pidfile"
 
