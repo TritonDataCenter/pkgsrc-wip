@@ -100,6 +100,10 @@ sub revbump {
 	    push (@NEW2, $_);
 	    push (@NEW2,"PKGREVISION=${1}1\n");
 	    $done = 1;
+	} elsif ($done == 0 && /^.\s*include=([ \t]+)/) {
+	    push (@NEW2,"PKGREVISION=${1}1\n");
+	    push (@NEW2, $_);
+	    $done = 1;
 	} else {
 	    push (@NEW2, $_);
 	};
