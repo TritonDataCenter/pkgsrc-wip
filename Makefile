@@ -299,6 +299,7 @@ SUBDIR+=	chora
 SUBDIR+=	chromium
 SUBDIR+=	chromium-depot_tools
 SUBDIR+=	chrsh
+SUBDIR+=	chruby
 SUBDIR+=	cinelerra
 SUBDIR+=	cinelerra-cv
 SUBDIR+=	circe2
