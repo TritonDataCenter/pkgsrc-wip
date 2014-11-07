@@ -19,7 +19,7 @@ LICENSE=	modified-bsd
 .include "../../wip/hs-parallel/buildlink3.mk"
 .include "../../devel/hs-primitive/buildlink3.mk"
 .include "../../wip/hs-profunctors/buildlink3.mk"
-.include "../../wip/hs-reflection/buildlink3.mk"
+.include "../../devel/hs-reflection/buildlink3.mk"
 .include "../../math/hs-scientific/buildlink3.mk"
 .include "../../wip/hs-semigroupoids/buildlink3.mk"
 .include "../../math/hs-semigroups/buildlink3.mk"

@@ -1132,7 +1132,6 @@ SUBDIR+=	hs-punycode
 SUBDIR+=	hs-pureMD5
 SUBDIR+=	hs-quickcheck-instances
 SUBDIR+=	hs-readline
-SUBDIR+=	hs-reflection
 SUBDIR+=	hs-regex-compat
 SUBDIR+=	hs-regex-tdfa
 SUBDIR+=	hs-regional-pointers
