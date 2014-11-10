@@ -5,6 +5,7 @@
 # PROVIDE: mopherd
 # REQUIRE: DAEMON
 # BEFORE:  mail
+# KEYWORD: shutdown
 
 $_rc_subr_loaded . /etc/rc.subr
 
