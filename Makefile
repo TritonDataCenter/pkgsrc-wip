@@ -148,6 +148,7 @@ SUBDIR+=	arphic-uming-ttf
 SUBDIR+=	artemis
 SUBDIR+=	ascii2binary
 SUBDIR+=	aspell-dictionaries
+SUBDIR+=	asql
 SUBDIR+=	aten
 SUBDIR+=	atftp
 SUBDIR+=	ati-xfree86-bin
