@@ -1,7 +1,0 @@
-===========================================================================
-$NetBSD$
-
-This tool can use an external player (mplayer, vlc or xine) and transcoder
-(ffmpeg).  These are optional and thus not included in dependencies.
-
-===========================================================================

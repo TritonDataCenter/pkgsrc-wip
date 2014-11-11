@@ -753,7 +753,6 @@ SUBDIR+=	geekcode
 SUBDIR+=	gemrb
 SUBDIR+=	genus2reduction
 SUBDIR+=	gerris
-SUBDIR+=	get_iplayer
 SUBDIR+=	getdp
 SUBDIR+=	gf2x
 SUBDIR+=	gfa
