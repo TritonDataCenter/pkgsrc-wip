@@ -1,6 +1,6 @@
 # $NetBSD: Makefile,v 1.31 2014/10/09 14:06:50 wiz Exp $
 
-PKGNAME=		revbump-2.10
+PKGNAME=		revbump-2.10rc00
 CATEGORIES=		pkgtools
 
 MAINTAINER=		wiz@NetBSD.org
