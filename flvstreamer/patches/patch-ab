@@ -1,5 +1,7 @@
 $NetBSD$
 
+Let the relevant binaries be installed through "make install"
+
 --- Makefile.orig	2010-02-15 01:06:20.000000000 +0000
 +++ Makefile
 @@ -8,6 +8,8 @@ LDFLAGS=-Wall $(XLDFLAGS)
