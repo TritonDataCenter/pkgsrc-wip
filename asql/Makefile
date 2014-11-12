@@ -1,9 +1,8 @@
 # $NetBSD$
 
-DISTNAME=	release-${VERSION}
-PKGNAME=	asql-${VERSION}
+DISTNAME=	asql-${VERSION}
 CATEGORIES=	www databases
-MASTER_SITES=	http://git.steve.org.uk/skx/asql/archive/
+MASTER_SITES=	http://www.steve.org.uk/Software/asql/
 
 MAINTAINER=	ahp-nils@users.sourceforge.net
 HOMEPAGE=	http://www.steve.org.uk/Software/asql/
