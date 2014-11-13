@@ -614,6 +614,7 @@ SUBDIR+=	ezbounce
 SUBDIR+=	ezstream
 SUBDIR+=	faast
 SUBDIR+=	fail2ban
+SUBDIR+=	fairymax
 SUBDIR+=	fakenes
 SUBDIR+=	fala
 SUBDIR+=	farsi-ttf

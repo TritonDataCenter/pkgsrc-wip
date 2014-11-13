@@ -1,0 +1,7 @@
+@comment $NetBSD$
+bin/fairymax
+bin/maxqi
+bin/shamax
+man/man6/fairymax.6
+share/games/fairymax/fmax.ini
+share/games/fairymax/qmax.ini
