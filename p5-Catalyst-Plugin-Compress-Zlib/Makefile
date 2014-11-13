@@ -5,7 +5,7 @@ PKGNAME=	p5-${DISTNAME}
 CATEGORIES=	www perl5
 MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=../by-authors/id/M/MS/MSTROUT/}
 
-MAINTAINER=	kuli0020@umn.edu
+MAINTAINER=	noud4@users.sourceforge.net
 HOMEPAGE=	http://search.cpan.org/~mstrout/Catalyst-Plugin-Compress-Zlib-0.06/
 COMMENT=	Gzip compress response if client supports it.
 
