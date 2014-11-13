@@ -1,5 +1,6 @@
 $NetBSD$
 * pkgsarc doesn't use lib64 so don't set it (fixes build on linux)
+http://sf.net/p/qore/code/6817/
 * fix typo so that --with-sqlite3 works correctly
 http://sourceforge.net/p/qore/code/6348/
 --- configure.orig	2010-06-20 09:09:23.000000000 +0000

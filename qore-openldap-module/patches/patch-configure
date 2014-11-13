@@ -1,6 +1,7 @@
 $NetBSD$
 pkgsrc doesn't use lib64 so don't set it.
 fixes build on linux.
+http://sf.net/p/qore/code/6817/
 --- configure.orig	2014-10-31 21:44:50.730690623 +0000
 +++ configure
 @@ -15574,14 +15574,6 @@ if test "$enable_64bit" = "yes"; then
