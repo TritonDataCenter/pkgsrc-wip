@@ -22,10 +22,6 @@ WRKSRC=		${WRKDIR}/asql-${VERSION}
 REPLACE_PERL+=	bin/asql
 REPLACE_PERL+=	bin/make-cmds
 
-do-extract:
-	${MKDIR} ${WRKDIR}/${PKGNAME}
-	tar xzf ${DISTDIR}/${DISTNAME}.tar.gz -C ${WRKDIR}/${PKGNAME}
-
 do-install:
 	${INSTALL_SCRIPT} ${WRKSRC}/bin/asql ${DESTDIR}${PREFIX}/bin/asql
 	${INSTALL_SCRIPT} ${WRKSRC}/bin/make-cmds ${DESTDIR}${PREFIX}/bin/make-cmds
