@@ -3,4 +3,6 @@ sbin/auto-append-line
 sbin/auto-ask
 sbin/auto-insert-line
 sbin/auto-ldap-client-setup
+sbin/auto-register-dhcp-hostname
 sbin/auto-replace-file
+sbin/auto-ssh-authorize
