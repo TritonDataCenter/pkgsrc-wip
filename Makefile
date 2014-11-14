@@ -1985,6 +1985,7 @@ SUBDIR+=	p5-Catalyst-Plugin-SubRequest
 SUBDIR+=	p5-Catalyst-Plugin-Unicode-Encoding
 SUBDIR+=	p5-Catalyst-Plugin-XMLRPC
 SUBDIR+=	p5-Catalyst-View-Email
+SUBDIR+=	p5-Catalyst-View-JSON
 SUBDIR+=	p5-Catalyst-View-XML-Feed
 SUBDIR+=	p5-Class-DBI-AsForm
 SUBDIR+=	p5-Class-DBI-FromForm
