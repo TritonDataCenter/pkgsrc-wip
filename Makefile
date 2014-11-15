@@ -2006,6 +2006,7 @@ SUBDIR+=	p5-Crypt-Serpent
 SUBDIR+=	p5-DBIx-Easy
 SUBDIR+=	p5-DBIx-Simple
 SUBDIR+=	p5-Dancer-Plugin-Database
+SUBDIR+=	p5-Data-DPath
 SUBDIR+=	p5-Data-Dumper
 SUBDIR+=	p5-Data-ObjectDriver
 SUBDIR+=	p5-Data-Properties
