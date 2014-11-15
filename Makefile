@@ -1349,6 +1349,7 @@ SUBDIR+=	kyotocabinet
 SUBDIR+=	kyototycoon
 SUBDIR+=	kyra2
 SUBDIR+=	l2tpd
+SUBDIR+=	labltk
 SUBDIR+=	labyrinth
 SUBDIR+=	lambertw
 SUBDIR+=	lasi
