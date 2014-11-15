@@ -1863,7 +1863,6 @@ SUBDIR+=	ocaml-ounit
 SUBDIR+=	ocaml-pa_ounit
 SUBDIR+=	ocaml-sexplib
 SUBDIR+=	ocaml-zed
-SUBDIR+=	ocamlgraph
 SUBDIR+=	ocamlweb
 SUBDIR+=	oce
 SUBDIR+=	octave
