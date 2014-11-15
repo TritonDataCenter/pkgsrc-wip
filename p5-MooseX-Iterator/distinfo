@@ -1,0 +1,5 @@
+$NetBSD: distinfo,v 1.1.1.1 2008/07/15 09:16:00 abs Exp $
+
+SHA1 (MooseX-Iterator-0.11.tar.gz) = 3e330120dcadf15cd676e2f2cafb839ecfe8e1e0
+RMD160 (MooseX-Iterator-0.11.tar.gz) = 30e26834479e370ae21d39881702ea37e2683a6b
+Size (MooseX-Iterator-0.11.tar.gz) = 16578 bytes
