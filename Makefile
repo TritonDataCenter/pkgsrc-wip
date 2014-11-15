@@ -1952,6 +1952,7 @@ SUBDIR+=	p5-CGI-Application-Plugin-TT
 SUBDIR+=	p5-CGI-Application-Plugin-ViewCode
 SUBDIR+=	p5-CGI-Application-Server
 SUBDIR+=	p5-CGI-Application-Standard-Config
+SUBDIR+=	p5-CGI-Expand
 SUBDIR+=	p5-CGI-Untaint
 SUBDIR+=	p5-CGI-Untaint-date
 SUBDIR+=	p5-CGI-Untaint-email
