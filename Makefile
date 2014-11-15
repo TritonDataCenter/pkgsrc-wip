@@ -1960,6 +1960,7 @@ SUBDIR+=	p5-CPANPLUS
 SUBDIR+=	p5-Cache-Mmap
 SUBDIR+=	p5-Catalyst-Action-REST
 SUBDIR+=	p5-Catalyst-Component-InstancePerContext
+SUBDIR+=	p5-Catalyst-Controller-DBIC-API
 SUBDIR+=	p5-Catalyst-Engine-Apache
 SUBDIR+=	p5-Catalyst-Helper-Model-Email
 SUBDIR+=	p5-Catalyst-Log-Log4perl
