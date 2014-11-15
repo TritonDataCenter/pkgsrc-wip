@@ -14,13 +14,13 @@ LICENSE=	gnu-lgpl-v2.1
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_LANGUAGES=	c c++
-USE_TOOLS+=	gmake
+USE_TOOLS+=	gmake pax
 PTHREAD_OPTS+=	native
 
 #install docs
 INSTALLATION_DIRS+=share/doc/${PKGBASE}
 post-install:
-	${CP} -R ${WRKSRC}/docs/openldap/html \
+	cd ${WRKSRC}/docs/openldap && ${PAX} -wr * \
 		${DESTDIR}${PREFIX}/share/doc/${PKGBASE}
 	${CHOWN} -R ${SHAREOWN}:${SHAREGRP} \
 		${DESTDIR}${PREFIX}/share/doc/${PKGBASE}

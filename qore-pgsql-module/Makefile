@@ -14,6 +14,7 @@ LICENSE=	gnu-lgpl-v2.1 OR mit
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_LANGUAGES=	c c++
+USE_TOOLS+=	gmake pax
 PTHREAD_OPTS+=	native
 
 #This is needed in order to comply the with MIT license and binary distribution
@@ -24,7 +25,7 @@ post-install:
 		${DESTDIR}${PREFIX}/share/doc/${PKGBASE}
 	${INSTALL_DATA} ${WRKSRC}/COPYING.MIT \
 		${DESTDIR}${PREFIX}/share/doc/${PKGBASE}
-	${CP} -R ${WRKSRC}/docs/pgsql/html \
+	cd ${WRKSRC}/docs/pgsql && ${PAX} -wr * \
 		${DESTDIR}${PREFIX}/share/doc/${PKGBASE}
 	${CHOWN} -R ${SHAREOWN}:${SHAREGRP} \
 		${DESTDIR}${PREFIX}/share/doc/${PKGBASE}
