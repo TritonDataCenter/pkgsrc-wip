@@ -1965,6 +1965,7 @@ SUBDIR+=	p5-Catalyst-Log-Log4perl
 SUBDIR+=	p5-Catalyst-Model-CDBI
 SUBDIR+=	p5-Catalyst-Model-DBIC
 SUBDIR+=	p5-Catalyst-Model-DBIC-Plain
+SUBDIR+=	p5-Catalyst-Model-DBIC-Schema
 SUBDIR+=	p5-Catalyst-Model-LDAP
 SUBDIR+=	p5-Catalyst-Plugin-Authentication-CDBI
 SUBDIR+=	p5-Catalyst-Plugin-Authentication-Store-Htpasswd
