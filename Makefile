@@ -2088,6 +2088,7 @@ SUBDIR+=	p5-Pod-Xhtml
 SUBDIR+=	p5-Proc-Fork
 SUBDIR+=	p5-Publican
 SUBDIR+=	p5-RTF-Writer
+SUBDIR+=	p5-Safe
 SUBDIR+=	p5-Spread
 SUBDIR+=	p5-Startup
 SUBDIR+=	p5-Sub-Recursive
