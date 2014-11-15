@@ -9,5 +9,16 @@ man/man1/siege.config.1
 man/man1/siege2csv.1
 man/man5/urls_txt.5
 man/man7/layingsiege.7
-share/examples/siege/urls.txt
+share/doc/siege/AUTHORS
+share/doc/siege/COPYING
+share/doc/siege/ChangeLog
+share/doc/siege/INSTALL
+share/doc/siege/KNOWNBUGS
+share/doc/siege/MACHINES
+share/doc/siege/NEWS
+share/doc/siege/PLATFORM
+share/doc/siege/README
+share/doc/siege/README.https
+share/doc/siege/README.solaris
 share/examples/siege/siegerc
+share/examples/siege/urls.txt
