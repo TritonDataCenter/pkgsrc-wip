@@ -12,10 +12,7 @@ HOMEPAGE=	https://github.com/janestreet/herelib/
 COMMENT=	Syntax extension for inserting the current location
 LICENSE=	apache-2.0
 
-WRKSRC=		${WRKDIR}/herelib-${VERS}
-USE_TOOLS+=	gmake
-
-OCAML_USE_FINDLIB=	yes
+OCAML_USE_OASIS=	yes
 
 .include "../../lang/camlp4/buildlink3.mk"
 .include "../../mk/ocaml.mk"
