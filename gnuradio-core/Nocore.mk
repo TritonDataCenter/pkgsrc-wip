@@ -14,7 +14,7 @@ post-install:
 	${RM} -f ${WRKDIR}/.PLIST.minus;
 	for i in ${PLIST_MINUS} ; do			\
 	  sed  -e 's,$${PYSITELIB},${PYSITELIB},'	\
-	       -e 's,$${PKGVERSION},${PKGVERSION},'	\
+	       -e 's,$${PKGVERSION},${PKGVERSION_NOREV},'	\
 	       -e '/^@comment/d'			\
 	       -e '/^@pkgdir/d'				\
 	       ${PKGDIR}/../../wip/gnuradio-$$i/PLIST	\

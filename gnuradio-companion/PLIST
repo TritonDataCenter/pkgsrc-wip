@@ -170,6 +170,7 @@ ${PYSITELIB}/grc_gnuradio/blks2/selector.pyo
 ${PYSITELIB}/grc_gnuradio/blks2/tcp.py
 ${PYSITELIB}/grc_gnuradio/blks2/tcp.pyc
 ${PYSITELIB}/grc_gnuradio/blks2/tcp.pyo
+libexec/gnuradio/grc_setup_freedesktop
 share/examples/gnuradio/conf.d/grc.conf
 share/gnuradio/examples/grc/simple/variable_config.grc
 share/gnuradio/examples/grc/xmlrpc/readme.txt
