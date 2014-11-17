@@ -12,8 +12,8 @@ HOMEPAGE=	https://github.com/janestreet/sexplib/
 COMMENT=	S-Expressions with Type Converters for OCaml
 LICENSE=	modified-bsd AND apache-2.0
 
-WRKSRC=		${WRKDIR}/sexplib-${VERS}
-USE_TOOLS+=	gmake
+#WRKSRC=		${WRKDIR}/sexplib-${VERS}
+#USE_TOOLS+=	gmake
 
 #OCAML_USE_FINDLIB=	yes
 OCAML_USE_OASIS=	yes
