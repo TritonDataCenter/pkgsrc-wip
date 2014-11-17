@@ -12,6 +12,7 @@ LICENSE=	modified-bsd
 
 USE_TOOLS+=	gmake
 
-.include "../../lang/ocaml/buildlink3.mk"
-.include "../../devel/ocaml-findlib/buildlink3.mk"
+OCAML_USE_FINDLIB=yes
+
+.include "../../mk/ocaml.mk"
 .include "../../mk/bsd.pkg.mk"
