@@ -1,21 +1,22 @@
 # $NetBSD$
 #
 
-DISTNAME=		go-text
+DISTNAME=		go-net
 CATEGORIES=		devel
 
 MAINTAINER=		bsiegert@NetBSD.org
 HOMEPAGE=		http://golang.org/
-COMMENT=		Supplementary text processing libraries for Go
+COMMENT=		Supplementary network libraries for Go
 LICENSE=		modified-bsd
 
-GO_SRCPATH=		golang.org/x/text
-GO_DIST_BASE=		go.text
-WRKSRC=			${WRKDIR}/src/${GO_SRCPATH}
+GO_SRCPATH=		golang.org/x/net
+GO_DIST_BASE=		go.net
 
 CHECKOUT_DATE=		2014-11-18
 HG_REPOSITORIES=	${DISTNAME}
-HG_REPO.${DISTNAME}=	https://code.google.com/p/go.text
+HG_REPO.${DISTNAME}=	https://code.google.com/p/go.net
+
+DEPENDS+=		go-text-*:../../wip/go-text
 
 .include "../../wip/go/go-package.mk"
 .include "../../wip/mk/hg-package.mk"
