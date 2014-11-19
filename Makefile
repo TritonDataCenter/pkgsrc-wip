@@ -777,6 +777,7 @@ SUBDIR+=	gimp-webp
 SUBDIR+=	gin
 SUBDIR+=	girara
 SUBDIR+=	git
+SUBDIR+=	git-docs-html
 SUBDIR+=	git-modes-git
 SUBDIR+=	gitg
 SUBDIR+=	gitlab
