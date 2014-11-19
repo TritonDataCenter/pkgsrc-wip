@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	editorconfig-core-py-0.11.4
+DISTNAME=	editorconfig-core-py-0.12.0
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME:S/-py//1}
 CATEGORIES=	devel
 MASTER_SITES=	-https://github.com/editorconfig/editorconfig-core-py/archive/v${PKGVERSION}.tar.gz
