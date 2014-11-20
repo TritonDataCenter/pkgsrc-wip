@@ -10,8 +10,7 @@ COMMENT=		Supplementary text processing libraries for Go
 LICENSE=		modified-bsd
 
 GO_SRCPATH=		golang.org/x/text
-GO_DIST_BASE=		go.text
-WRKSRC=			${WRKDIR}/src/${GO_SRCPATH}
+GO_DIST_BASE=		${DISTNAME}
 
 CHECKOUT_DATE=		2014-11-18
 HG_REPOSITORIES=	${DISTNAME}
