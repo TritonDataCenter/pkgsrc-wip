@@ -839,7 +839,7 @@ share/emacs/${PKGVERSION}/etc/org/README
 share/emacs/${PKGVERSION}/etc/package-keyring.gpg
 share/emacs/${PKGVERSION}/etc/ps-prin0.ps
 share/emacs/${PKGVERSION}/etc/ps-prin1.ps
-share/emacs/${PKGVERSION}/etc/publicsuffix.txt
+share/emacs/${PKGVERSION}/etc/publicsuffix.txt.gz
 share/emacs/${PKGVERSION}/etc/refcards/Makefile
 share/emacs/${PKGVERSION}/etc/refcards/README
 share/emacs/${PKGVERSION}/etc/refcards/calccard.tex
