@@ -1,5 +1,7 @@
 @comment $NetBSD$
 lib/ocaml/site-lib/easy-format/META
 lib/ocaml/site-lib/easy-format/easy_format.cmi
-lib/ocaml/site-lib/easy-format/easy_format.cmo
+lib/ocaml/site-lib/easy-format/easy_format.cmx
+lib/ocaml/site-lib/easy-format/easy_format.cmxs
 lib/ocaml/site-lib/easy-format/easy_format.mli
+lib/ocaml/site-lib/easy-format/easy_format.o
