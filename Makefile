@@ -728,6 +728,7 @@ SUBDIR+=	galoisfieldarth
 SUBDIR+=	gambas2
 SUBDIR+=	gambatte-dev
 SUBDIR+=	gambit
+SUBDIR+=	ganglia-monitor-core319
 SUBDIR+=	ganglia-web
 SUBDIR+=	gappa
 SUBDIR+=	garcon
