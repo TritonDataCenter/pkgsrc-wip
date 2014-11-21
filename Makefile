@@ -1866,6 +1866,7 @@ SUBDIR+=	ocaml-herelib
 SUBDIR+=	ocaml-ounit
 SUBDIR+=	ocaml-pa_ounit
 SUBDIR+=	ocaml-sexplib
+SUBDIR+=	ocaml-yojson
 SUBDIR+=	ocaml-zed
 SUBDIR+=	ocamlweb
 SUBDIR+=	oce
