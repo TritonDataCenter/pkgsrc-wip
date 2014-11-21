@@ -3826,6 +3826,8 @@ share/emacs/${PKGVERSION}/lisp/vc/vc-rcs.el.gz
 share/emacs/${PKGVERSION}/lisp/vc/vc-rcs.elc
 share/emacs/${PKGVERSION}/lisp/vc/vc-sccs.el.gz
 share/emacs/${PKGVERSION}/lisp/vc/vc-sccs.elc
+share/emacs/${PKGVERSION}/lisp/vc/vc-src.el.gz
+share/emacs/${PKGVERSION}/lisp/vc/vc-src.elc
 share/emacs/${PKGVERSION}/lisp/vc/vc-svn.el.gz
 share/emacs/${PKGVERSION}/lisp/vc/vc-svn.elc
 share/emacs/${PKGVERSION}/lisp/vc/vc.el.gz
