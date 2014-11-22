@@ -3814,6 +3814,8 @@ share/emacs/${PKGVERSION}/lisp/vc/vc-dir.el.gz
 share/emacs/${PKGVERSION}/lisp/vc/vc-dir.elc
 share/emacs/${PKGVERSION}/lisp/vc/vc-dispatcher.el.gz
 share/emacs/${PKGVERSION}/lisp/vc/vc-dispatcher.elc
+share/emacs/${PKGVERSION}/lisp/vc/vc-filewise.el.gz
+share/emacs/${PKGVERSION}/lisp/vc/vc-filewise.elc
 share/emacs/${PKGVERSION}/lisp/vc/vc-git.el.gz
 share/emacs/${PKGVERSION}/lisp/vc/vc-git.elc
 share/emacs/${PKGVERSION}/lisp/vc/vc-hg.el.gz
