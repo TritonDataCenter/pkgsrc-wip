@@ -1,0 +1,12 @@
+# $NetBSD$
+
+BUILDLINK_TREE+=	kstest
+
+.if !defined(KSTEST_BUILDLINK3_MK)
+KSTEST_BUILDLINK3_MK:=
+
+BUILDLINK_API_DEPENDS.kstest+=	kstest>=2.0.0
+BUILDLINK_PKGSRCDIR.kstest?=	../../wip/kstest
+.endif	# KSTEST_BUILDLINK3_MK
+
+BUILDLINK_TREE+=	-kstest
