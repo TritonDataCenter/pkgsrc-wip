@@ -2502,7 +2502,6 @@ lib/firefox/modules/BinarySearch.jsm
 lib/firefox/modules/BookmarkHTMLUtils.jsm
 lib/firefox/modules/BookmarkJSONUtils.jsm
 lib/firefox/modules/Bookmarks.jsm
-lib/firefox/modules/BrowserElementParent.jsm
 lib/firefox/modules/BrowserElementPromptService.jsm
 lib/firefox/modules/BrowserUtils.jsm
 lib/firefox/modules/CertUtils.jsm
