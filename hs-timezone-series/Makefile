@@ -1,10 +1,9 @@
 # $NetBSD$
 
-DISTNAME=	timezone-series-0.1.2
+DISTNAME=	timezone-series-0.1.3
 CATEGORIES=	time
 
 MAINTAINER=	szptvlfn@NetBSD.org
-HOMEPAGE=	http://projects.haskell.org/time-ng/
 COMMENT=	Enhanced timezone handling for Data.Time
 LICENSE=	modified-bsd
 
