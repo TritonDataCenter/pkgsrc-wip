@@ -1,12 +1,11 @@
 # $NetBSD$
-#
 
 DISTNAME=	libgrss-0.5.0
 CATEGORIES=	www
 MASTER_SITES=	http://gtk.mplat.es/libgrss/tarballs/
 
 MAINTAINER=	noud4@users.sourceforge.net
-HOMEPAGE=	http://live.gnome.org/Libgrss
+HOMEPAGE=	https://wiki.gnome.org/Projects/Libgrss
 COMMENT=	Easy management of RSS/Atom/Pie feeds
 LICENSE=	gnu-lgpl-v3
 
