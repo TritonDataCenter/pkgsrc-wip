@@ -1,7 +1,7 @@
 # $NetBSD$
 
 DISTNAME=	pkg${PKGNAME}
-PKGNAME=	nih-0.11.0
+PKGNAME=	nih-0.12.0
 CATEGORIES=	pkgtools
 
 MAINTAINER=	cheusov@NetBSD.org
