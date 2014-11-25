@@ -27,7 +27,7 @@ CONFIGURE_ARGS+=	--disable-tracker-plugin
 .include "../../devel/glib2/buildlink3.mk"
 # conflicts with net/gupnp/buildlink3.mk
 #.include "../../devel/libuuid/buildlink3.mk"
-.include "../../lang/vala018/buildlink3.mk"
+.include "../../lang/vala/buildlink3.mk"
 .include "../../net/gssdp/buildlink3.mk"
 .include "../../net/gupnp/buildlink3.mk"
 .include "../../net/gupnp-av/buildlink3.mk"
