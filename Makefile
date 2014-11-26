@@ -708,6 +708,7 @@ SUBDIR+=	ftgl
 SUBDIR+=	ftpd-tls
 SUBDIR+=	ftpsesame
 SUBDIR+=	fuse-google-drive
+SUBDIR+=	fuse-mp3fs
 SUBDIR+=	fuse-smbfs
 SUBDIR+=	fuse-zip
 SUBDIR+=	fusefs-btfs
