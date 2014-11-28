@@ -51,10 +51,18 @@ CONF_FILES+=		share/examples/riak/riak.conf ${PKG_SYSCONFDIR}/riak.conf
 CONF_FILES+=		share/examples/riak/solr-log4j.properties ${PKG_SYSCONFDIR}/solr-log4j.properties
 
 BUILD_TARGET=		rel
+
 PLIST_VARS+=		dtrace
 
+PLIST_SRC=		PLIST
+.if exists(${.CURDIR}/PLIST.${OPSYS})
+PLIST_SRC+=		PLIST.${OPSYS}
+.endif
 .if !empty(PKG_BUILD_OPTIONS.erlang:Mdtrace)
 PLIST.dtrace=		yes
+.endif
+.if !empty(PKG_BUILD_OPTIONS.erlang:Mhipe)
+PLIST_SRC+=		PLIST.hipe
 .endif
 
 SUBST_CLASSES+=		pkgsrc
@@ -101,6 +109,8 @@ update-deps: build
 	 > ${.CURDIR}/../../wip/riak/Makefile.versions
 
 post-extract:
+	${INSTALL_DATA} ${FILESDIR}/nspr-src-configure2.patch \
+	  ${WRKSRC}/deps/erlang_js/c_src/patches
 	${CHMOD} -R u=rwX,g=rX,o=rX ${WRKSRC}
 	${CHOWN} -R ${ROOT_USER}:${ROOT_GROUP} ${WRKSRC}
 
