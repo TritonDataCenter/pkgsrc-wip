@@ -61,7 +61,7 @@ PLIST_SRC+=		PLIST.${OPSYS}
 .if !empty(PKG_BUILD_OPTIONS.erlang:Mdtrace)
 PLIST.dtrace=		yes
 .endif
-.if !empty(PKG_BUILD_OPTIONS.erlang:Mhipe)
+.if !empty(PKG_BUILD_OPTIONS.erlang:Merlang-hipe)
 PLIST_SRC+=		PLIST.hipe
 .endif
 
@@ -77,10 +77,11 @@ REPLACE.escript.old=	.*escript
 REPLACE.escript.new=	${BUILDLINK_PREFIX.erlang}/bin/escript
 REPLACE_FILES.escript=	rel/files/nodetool
 
-CHECK_INTERPRETER_SKIP=	riak/erts-${VERSION.erts}/bin/cuttlefish \
-			riak/erts-${VERSION.erts}/bin/nodetool \
+CHECK_INTERPRETER_SKIP=	riak/lib/eper-${VERSION.eper}/priv/bin/* \
+			riak/erts-${VERSION.erts}/bin/* \
 			riak/lib/bitcask-${VERSION.bitcask}/priv/Run-eunit-loop.expect \
-			riak/lib/riaknostic/riaknostic
+			riak/lib/riaknostic/riaknostic \
+			riak/lib/yokozuna-${VERSION.yokozuna}/priv/solr/etc/*.sh
 
 CHECK_PORTABILITY_SKIP=	deps/riak_search/tests/riak_search/run_all.sh \
 			tests/riak_search/run_all.sh
