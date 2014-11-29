@@ -791,6 +791,7 @@ SUBDIR+=	givaro
 SUBDIR+=	gjots2
 SUBDIR+=	gjs
 SUBDIR+=	gksu
+SUBDIR+=	gflags
 SUBDIR+=	glade2-nognome
 SUBDIR+=	glfw
 SUBDIR+=	glib-java
