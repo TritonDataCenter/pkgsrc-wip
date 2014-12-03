@@ -2663,7 +2663,6 @@ SUBDIR+=	py-isodate
 SUBDIR+=	py-jabber-aimt
 SUBDIR+=	py-jabber-icqt
 SUBDIR+=	py-jabber-idavoll
-SUBDIR+=	py-jabber-msnt
 SUBDIR+=	py-jabber-palaver
 SUBDIR+=	py-jabber-proxy65
 SUBDIR+=	py-jabber-punjab
