@@ -570,7 +570,6 @@ SUBDIR+=	embryo
 SUBDIR+=	emelfm2
 SUBDIR+=	emerald
 SUBDIR+=	emerald-themes
-SUBDIR+=	emesene
 SUBDIR+=	emirror
 SUBDIR+=	emokit
 SUBDIR+=	emovix
