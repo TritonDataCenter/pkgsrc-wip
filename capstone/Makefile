@@ -11,6 +11,7 @@ COMMENT=	lightweight multi-platform, multi-architecture disassembly framework
 LICENSE=	modified-bsd	
 
 PKGCONFIG_OVERRIDE+=	capstone.pc
+PKGCONFIG_OVERRIDE_STAGE=	post-build
 USE_TOOLS+=	gmake
 
 .include "../../mk/bsd.pkg.mk"
