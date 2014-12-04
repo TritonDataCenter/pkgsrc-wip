@@ -3522,7 +3522,6 @@ SUBDIR+=	texlive-bin
 SUBDIR+=	texlive-texmf-base
 SUBDIR+=	texlive-texmf-minimal
 SUBDIR+=	texlive2013
-SUBDIR+=	texmaker
 SUBDIR+=	textile-mode
 SUBDIR+=	tftp-hpa
 SUBDIR+=	thabit-ttf
