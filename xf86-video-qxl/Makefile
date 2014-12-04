@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	xf86-video-qxl-0.1.2
+DISTNAME=	xf86-video-qxl-0.1.3
 CATEGORIES=	x11
 MASTER_SITES=	${MASTER_SITE_XORG:=driver/}
 EXTRACT_SUFX=	.tar.bz2
