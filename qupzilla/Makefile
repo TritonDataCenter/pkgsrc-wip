@@ -2,6 +2,7 @@
 
 DISTNAME=	QupZilla-1.8.4
 PKGNAME=	${DISTNAME:tl}
+PKGREVISION=	1
 CATEGORIES=	www
 MASTER_SITES=	https://github.com/QupZilla/qupzilla/releases/download/v${PKGVERSION}/
 EXTRACT_SUFX=	.tar.xz
@@ -15,13 +16,18 @@ USE_LANGUAGES=	c++
 USE_TOOLS+=	gmake pkg-config
 USE_LIBTOOL=	yes
 MAKE_ENV+=	QUPZILLA_PREFIX=${PREFIX}
-MAKE_ENV+=	DISABLE_DBUS=${TRUE}
+#MAKE_ENV+=	DISABLE_DBUS=${TRUE}
 
 MAKE_ENV+=	INSTALL_ROOT=${DESTDIR}
 
 do-configure:
 	cd ${WRKSRC} && \
 	${PKGSRC_ENV} ${CONFIGURE_ENV} ${QTDIR}/bin/qmake
+
+INSTALLATION_DIRS+= share/zsh/site-functions
+post-install:
+	${INSTALL_DATA} ${WRKSRC}/linux/completion/_qupzilla \
+		${DESTDIR}${PREFIX}/share/zsh/site-functions
 
 .include "options.mk"
 
