@@ -3340,6 +3340,7 @@ SUBDIR+=	sis
 SUBDIR+=	siscone
 SUBDIR+=	sjg-mk-files
 SUBDIR+=	skinlf
+SUBDIR+=	skype4
 SUBDIR+=	slackpkg2pkgsrc
 SUBDIR+=	slashem
 SUBDIR+=	slate
