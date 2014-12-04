@@ -18,7 +18,7 @@ NO_BIN_ON_CDROM=	${RESTRICTED}
 
 EMUL_PLATFORMS=		linux-i386
 EMUL_REQD=		suse>=12.1
-EMUL_MODULES.linux=	alsa base glx gstreamer gtk2 libxml2 qt4 sqlite3 x11
+EMUL_MODULES.linux=	alsa base glx gstreamer gtk2 qt4 sqlite3 x11 xml2
 
 DATADIR=		share/skype
 DOCDIR=			share/doc/skype
