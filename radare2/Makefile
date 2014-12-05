@@ -29,6 +29,6 @@ USE_TOOLS+=	gmake
 post-install:
 	${RUN}${FIND} ${DESTDIR} -type f -name '*.so*' -exec ${CHMOD} 0755 {} \;
 
-.include "../../wip/capstone/buildlink3.mk"
+.include "../../devel/capstone/buildlink3.mk"
 .include "../../sysutils/file/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
