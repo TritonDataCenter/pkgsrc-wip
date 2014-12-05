@@ -200,7 +200,7 @@ fi
 # check for old vulnerabilities file if we're being verbose
 if [ "x${verbose}" = "xyes" ]; then
         if [ -n "$(${FIND} ${vuls} -ctime +7)" ]; then
-		echo "WARNING: system vulnerabilites file is more than a week old"
+		echo "WARNING: system vulnerabilities file is more than a week old"
 	fi
 fi
 
