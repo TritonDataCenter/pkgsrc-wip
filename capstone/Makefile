@@ -13,5 +13,6 @@ LICENSE=	modified-bsd
 PKGCONFIG_OVERRIDE+=	capstone.pc
 PKGCONFIG_OVERRIDE_STAGE=	post-build
 USE_TOOLS+=	gmake
+TEST_TARGET=	check
 
 .include "../../mk/bsd.pkg.mk"
