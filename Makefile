@@ -2492,7 +2492,6 @@ SUBDIR+=	py-cocos2d
 SUBDIR+=	py-codepy
 SUBDIR+=	py-cogapp
 SUBDIR+=	py-cogent
-SUBDIR+=	py-colorama
 SUBDIR+=	py-colorpy
 SUBDIR+=	py-complexsystems
 SUBDIR+=	py-concepts
