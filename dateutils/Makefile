@@ -13,7 +13,7 @@ LICENSE=	modified-bsd
 
 WRKSRC=		${WRKDIR}/${PKGNAME_NOREV}
 GNU_CONFIGURE=	yes
-USE_TOOLS+=	pkg-config automake autoreconf gmake makeinfo bison
+USE_TOOLS+=	pkg-config automake autoreconf gmake makeinfo bison flex
 USE_LIBTOOL=	yes
 
 PKGCONFIG_OVERRIDE+=	libdut.pc.in
