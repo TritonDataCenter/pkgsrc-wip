@@ -2503,7 +2503,6 @@ SUBDIR+=	py-control
 SUBDIR+=	py-corebio
 SUBDIR+=	py-corrfitter
 SUBDIR+=	py-cosmolopy
-SUBDIR+=	py-country
 SUBDIR+=	py-coveralls
 SUBDIR+=	py-cracklib
 SUBDIR+=	py-cryptoidlib
