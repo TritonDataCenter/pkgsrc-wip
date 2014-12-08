@@ -84,7 +84,6 @@ share/applications/emacs.desktop
 share/emacs/${PKGVERSION}/etc/AUTHORS
 share/emacs/${PKGVERSION}/etc/CALC-NEWS
 share/emacs/${PKGVERSION}/etc/CENSORSHIP
-share/emacs/${PKGVERSION}/etc/CONTRIBUTE
 share/emacs/${PKGVERSION}/etc/COPYING
 share/emacs/${PKGVERSION}/etc/DEBUG
 share/emacs/${PKGVERSION}/etc/DEVEL.HUMOR
@@ -839,7 +838,7 @@ share/emacs/${PKGVERSION}/etc/org/README
 share/emacs/${PKGVERSION}/etc/package-keyring.gpg
 share/emacs/${PKGVERSION}/etc/ps-prin0.ps
 share/emacs/${PKGVERSION}/etc/ps-prin1.ps
-share/emacs/${PKGVERSION}/etc/publicsuffix.txt
+share/emacs/${PKGVERSION}/etc/publicsuffix.txt.gz
 share/emacs/${PKGVERSION}/etc/refcards/Makefile
 share/emacs/${PKGVERSION}/etc/refcards/README
 share/emacs/${PKGVERSION}/etc/refcards/calccard.tex
@@ -849,6 +848,7 @@ share/emacs/${PKGVERSION}/etc/refcards/cs-survival.tex
 share/emacs/${PKGVERSION}/etc/refcards/de-refcard.tex
 share/emacs/${PKGVERSION}/etc/refcards/dired-ref.tex
 share/emacs/${PKGVERSION}/etc/refcards/emacsver.tex
+share/emacs/${PKGVERSION}/etc/refcards/emacsver.tex.in
 share/emacs/${PKGVERSION}/etc/refcards/fr-dired-ref.tex
 share/emacs/${PKGVERSION}/etc/refcards/fr-refcard.tex
 share/emacs/${PKGVERSION}/etc/refcards/fr-survival.tex
@@ -1178,10 +1178,14 @@ share/emacs/${PKGVERSION}/lisp/cedet/ede/autoconf-edit.el.gz
 share/emacs/${PKGVERSION}/lisp/cedet/ede/autoconf-edit.elc
 share/emacs/${PKGVERSION}/lisp/cedet/ede/base.el.gz
 share/emacs/${PKGVERSION}/lisp/cedet/ede/base.elc
+share/emacs/${PKGVERSION}/lisp/cedet/ede/config.el.gz
+share/emacs/${PKGVERSION}/lisp/cedet/ede/config.elc
 share/emacs/${PKGVERSION}/lisp/cedet/ede/cpp-root.el.gz
 share/emacs/${PKGVERSION}/lisp/cedet/ede/cpp-root.elc
 share/emacs/${PKGVERSION}/lisp/cedet/ede/custom.el.gz
 share/emacs/${PKGVERSION}/lisp/cedet/ede/custom.elc
+share/emacs/${PKGVERSION}/lisp/cedet/ede/detect.el.gz
+share/emacs/${PKGVERSION}/lisp/cedet/ede/detect.elc
 share/emacs/${PKGVERSION}/lisp/cedet/ede/dired.el.gz
 share/emacs/${PKGVERSION}/lisp/cedet/ede/dired.elc
 share/emacs/${PKGVERSION}/lisp/cedet/ede/emacs.el.gz
@@ -1512,6 +1516,8 @@ share/emacs/${PKGVERSION}/lisp/dnd.el.gz
 share/emacs/${PKGVERSION}/lisp/dnd.elc
 share/emacs/${PKGVERSION}/lisp/doc-view.el.gz
 share/emacs/${PKGVERSION}/lisp/doc-view.elc
+share/emacs/${PKGVERSION}/lisp/dom.el.gz
+share/emacs/${PKGVERSION}/lisp/dom.elc
 share/emacs/${PKGVERSION}/lisp/dos-fns.el.gz
 share/emacs/${PKGVERSION}/lisp/dos-fns.elc
 share/emacs/${PKGVERSION}/lisp/dos-vars.el.gz
@@ -1627,6 +1633,8 @@ share/emacs/${PKGVERSION}/lisp/emacs-lisp/gv.el.gz
 share/emacs/${PKGVERSION}/lisp/emacs-lisp/gv.elc
 share/emacs/${PKGVERSION}/lisp/emacs-lisp/helper.el.gz
 share/emacs/${PKGVERSION}/lisp/emacs-lisp/helper.elc
+share/emacs/${PKGVERSION}/lisp/emacs-lisp/inline.el.gz
+share/emacs/${PKGVERSION}/lisp/emacs-lisp/inline.elc
 share/emacs/${PKGVERSION}/lisp/emacs-lisp/lisp-mnt.el.gz
 share/emacs/${PKGVERSION}/lisp/emacs-lisp/lisp-mnt.elc
 share/emacs/${PKGVERSION}/lisp/emacs-lisp/lisp-mode.el.gz
@@ -2748,6 +2756,8 @@ share/emacs/${PKGVERSION}/lisp/net/newst-treeview.el.gz
 share/emacs/${PKGVERSION}/lisp/net/newst-treeview.elc
 share/emacs/${PKGVERSION}/lisp/net/newsticker.el.gz
 share/emacs/${PKGVERSION}/lisp/net/newsticker.elc
+share/emacs/${PKGVERSION}/lisp/net/nsm.el.gz
+share/emacs/${PKGVERSION}/lisp/net/nsm.elc
 share/emacs/${PKGVERSION}/lisp/net/ntlm.el.gz
 share/emacs/${PKGVERSION}/lisp/net/ntlm.elc
 share/emacs/${PKGVERSION}/lisp/net/quickurl.el.gz
@@ -3809,6 +3819,8 @@ share/emacs/${PKGVERSION}/lisp/vc/vc-dir.el.gz
 share/emacs/${PKGVERSION}/lisp/vc/vc-dir.elc
 share/emacs/${PKGVERSION}/lisp/vc/vc-dispatcher.el.gz
 share/emacs/${PKGVERSION}/lisp/vc/vc-dispatcher.elc
+share/emacs/${PKGVERSION}/lisp/vc/vc-filewise.el.gz
+share/emacs/${PKGVERSION}/lisp/vc/vc-filewise.elc
 share/emacs/${PKGVERSION}/lisp/vc/vc-git.el.gz
 share/emacs/${PKGVERSION}/lisp/vc/vc-git.elc
 share/emacs/${PKGVERSION}/lisp/vc/vc-hg.el.gz
@@ -3821,6 +3833,8 @@ share/emacs/${PKGVERSION}/lisp/vc/vc-rcs.el.gz
 share/emacs/${PKGVERSION}/lisp/vc/vc-rcs.elc
 share/emacs/${PKGVERSION}/lisp/vc/vc-sccs.el.gz
 share/emacs/${PKGVERSION}/lisp/vc/vc-sccs.elc
+share/emacs/${PKGVERSION}/lisp/vc/vc-src.el.gz
+share/emacs/${PKGVERSION}/lisp/vc/vc-src.elc
 share/emacs/${PKGVERSION}/lisp/vc/vc-svn.el.gz
 share/emacs/${PKGVERSION}/lisp/vc/vc-svn.elc
 share/emacs/${PKGVERSION}/lisp/vc/vc.el.gz

@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	lgogdownloader-2.19
+DISTNAME=	lgogdownloader-2.20
 CATEGORIES=	games
 MASTER_SITES=	#
 

@@ -13,12 +13,12 @@ LICENSE=	gnu-gpl-v2 OR gnu-lgpl-v2.1 OR mit
 
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
-USE_TOOLS+=	bison flex gmake
+USE_TOOLS+=	bison flex gmake pax
 USE_LANGUAGES=	c c++
 PTHREAD_OPTS+=	native
+FLEX_REQD=	2.5.31
 
 PKGCONFIG_OVERRIDE+=	qore.pc.in
-
 REPLACE_QORE=		doxygen/qdx
 
 #This is needed in order to comply the with MIT license and binary distribution
@@ -30,7 +30,7 @@ post-install:
 	${INSTALL_DATA} ${WRKSRC}/COPYING.LGPL ${DESTDIR}${PREFIX}/${licensedir}
 	${INSTALL_DATA} ${WRKSRC}/COPYING.MIT ${DESTDIR}${PREFIX}/${licensedir}
 	${INSTALL_DATA} ${WRKSRC}/README-LICENSE ${DESTDIR}${PREFIX}/${licensedir}
-	${CP} -R ${WRKSRC}/docs/* ${DESTDIR}${PREFIX}/share/doc/qore
+	cd ${WRKSRC}/docs/ && ${PAX} -wr * ${DESTDIR}${PREFIX}/share/doc/qore
 	${CHOWN} -R ${SHAREOWN}:${SHAREGRP} ${DESTDIR}${PREFIX}/share/doc/qore
 
 .include "application.mk"

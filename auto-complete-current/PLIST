@@ -18,7 +18,7 @@ ${EMACS_LISPPREFIX}/auto-complete/ac-dict/erlang-mode
 ${EMACS_LISPPREFIX}/auto-complete/ac-dict/go-mode
 ${EMACS_LISPPREFIX}/auto-complete/ac-dict/haskell-mode
 ${EMACS_LISPPREFIX}/auto-complete/ac-dict/java-mode
-${EMACS_LISPPREFIX}/auto-complete/ac-dict/javascript-mode
+${EMACS_LISPPREFIX}/auto-complete/ac-dict/js-mode
 ${EMACS_LISPPREFIX}/auto-complete/ac-dict/lua-mode
 ${EMACS_LISPPREFIX}/auto-complete/ac-dict/php-mode
 ${EMACS_LISPPREFIX}/auto-complete/ac-dict/python-mode

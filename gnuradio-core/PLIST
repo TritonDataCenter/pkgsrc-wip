@@ -1129,5 +1129,3 @@ share/gnuradio/grc/blocks/filter_rational_resampler_base_xxx.xml
 share/gnuradio/grc/blocks/filter_rational_resampler_xxx.xml
 share/gnuradio/grc/blocks/filter_root_raised_cosine_filter.xml
 share/gnuradio/grc/blocks/filter_single_pole_iir_filter_xx.xml
-@pkgdir include/volk/asm/neon
-@pkgdir etc/gnuradio/conf.d

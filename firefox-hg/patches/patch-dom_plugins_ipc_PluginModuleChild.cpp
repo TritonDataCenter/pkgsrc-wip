@@ -1,8 +1,8 @@
 $NetBSD: patch-dom_plugins_ipc_PluginModuleChild.cpp,v 1.5 2014/05/30 10:22:05 pho Exp $
 
---- dom/plugins/ipc/PluginModuleChild.cpp.orig	2013-05-11 19:19:27.000000000 +0000
+--- dom/plugins/ipc/PluginModuleChild.cpp.orig	2014-10-30 12:50:01.000000000 +0000
 +++ dom/plugins/ipc/PluginModuleChild.cpp
-@@ -201,7 +201,7 @@ PluginModuleChild::Init(const std::strin
+@@ -286,7 +286,7 @@ PluginModuleChild::InitForChrome(const s
  
      // TODO: use PluginPRLibrary here
  
@@ -11,16 +11,16 @@ $NetBSD: patch-dom_plugins_ipc_PluginModuleChild.cpp,v 1.5 2014/05/30 10:22:05 p
      mShutdownFunc =
          (NP_PLUGINSHUTDOWN) PR_FindFunctionSymbol(mLibrary, "NP_Shutdown");
  
-@@ -1836,7 +1836,7 @@ PluginModuleChild::AnswerNP_GetEntryPoin
-     PLUGIN_LOG_DEBUG_METHOD;
+@@ -1841,7 +1841,7 @@ PluginModuleChild::AnswerNP_GetEntryPoin
      AssertPluginThread();
+     MOZ_ASSERT(mIsChrome);
  
 -#if defined(OS_LINUX) || defined(OS_BSD)
 +#if defined(OS_LINUX) || defined(OS_BSD) || defined(OS_SOLARIS)
      return true;
  #elif defined(OS_WIN) || defined(OS_MACOSX)
      *_retval = mGetEntryPointsFunc(&mFunctions);
-@@ -1865,7 +1865,7 @@ PluginModuleChild::AnswerNP_Initialize(c
+@@ -1869,7 +1869,7 @@ PluginModuleChild::AnswerNP_Initialize(N
      SendBackUpXResources(FileDescriptor(xSocketFd));
  #endif
  

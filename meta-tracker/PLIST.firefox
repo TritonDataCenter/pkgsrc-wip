@@ -1,3 +1,4 @@
+@comment $NetBSD$
 lib/firefox/browser/extensions/trackerfox@bustany.org
 share/xul-ext/trackerfox/COPYRIGHT
 share/xul-ext/trackerfox/README

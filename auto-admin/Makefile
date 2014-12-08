@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	auto-admin-0.3.3
+DISTNAME=	auto-admin-0.3.4
 CATEGORIES=	pkgtools
 MASTER_SITES=	http://acadix.biz/Ports/distfiles/
 
@@ -9,6 +9,7 @@ MAINTAINER=	jwbacon@tds.net
 HOMEPAGE=	http://acadix.biz/Ports/distfiles/
 COMMENT=	Automate common systems administration tasks
 #LICENSE=	original-bsd
+EXTRACT_SUFX=	.tar.xz
 
 USE_LANGUAGES=	# none
 

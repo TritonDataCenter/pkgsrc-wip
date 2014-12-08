@@ -1,0 +1,4 @@
+@comment $NetBSD$
+lib/java/skinlf/nativeskin.jar
+lib/java/skinlf/skinlf.jar
+@pkgdir lib/java/flexdock/lib/jmf/lib

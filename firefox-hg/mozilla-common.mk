@@ -198,7 +198,7 @@ PLIST_SUBST+=	DLL_SUFFIX=".so"
 #.include "../../audio/libopus/buildlink3.mk"
 #.include "../../audio/tremor/buildlink3.mk"
 #.include "../../audio/libvorbis/buildlink3.mk"
-BUILDLINK_API_DEPENDS.sqlite3+=	sqlite3>=3.8.4.2
+BUILDLINK_API_DEPENDS.sqlite3+=	sqlite3>=3.8.7.2
 CONFIGURE_ENV+=	ac_cv_sqlite_secure_delete=yes	# c.f. patches/patch-al
 .include "../../databases/sqlite3/buildlink3.mk"
 BUILDLINK_API_DEPENDS.libevent+=	libevent>=1.1

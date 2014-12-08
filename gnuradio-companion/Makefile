@@ -6,6 +6,8 @@ COMMENT=	User interface entry of GNU Radio
 CONF_FILES+=	${EGDIR}/grc.conf	${PKG_SYSCONFDIR}/grc.conf
 
 DEPENDS+=	${PYPKGPREFIX}-lxml-[0-9]*:../../textproc/py-lxml/
+DEPENDS+=	xdg-utils-[0-9]*:../../misc/xdg-utils
+REPLACE_BASH=	grc/freedesktop/grc_setup_freedesktop.in
 
 .include	"../../wip/gnuradio-core/Makefile.common"
 .include	"../../wip/gnuradio-core/Nocore.mk"

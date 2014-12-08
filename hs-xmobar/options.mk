@@ -15,7 +15,7 @@ CONFIGURE_ARGS+=    --flags="with_xft"
 # Support for other timezones.
 .if !empty(PKG_OPTIONS:Mdatezone)
 CONFIGURE_ARGS+=    --flags="with_datezone"
-.include "../../wip/hs-timezone-olson/buildlink3.mk"
-.include "../../wip/hs-timezone-series/buildlink3.mk"
+.include "../../time/hs-timezone-olson/buildlink3.mk"
+.include "../../time/hs-timezone-series/buildlink3.mk"
 .else
 .endif

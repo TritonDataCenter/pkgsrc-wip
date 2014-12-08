@@ -1,5 +1,7 @@
 $NetBSD$
 
+RLIMIT_AS also missing on other opsys.
+
 --- src/libtracker-common/tracker-os-dependant-unix.c.orig	2013-08-01 06:34:06.000000000 +0900
 +++ src/libtracker-common/tracker-os-dependant-unix.c	2013-10-16 18:26:34.000000000 +0900
 @@ -41,7 +41,7 @@

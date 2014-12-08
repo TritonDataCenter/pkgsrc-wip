@@ -1,0 +1,13 @@
+# $NetBSD$
+#
+
+BUILDLINK_TREE+=	gflags
+
+.if !defined(GFLAGS_BUILDLINK3_MK)
+GFLAGS_BUILDLINK3_MK:=
+
+BUILDLINK_API_DEPENDS.gflags+=	gflags>=2.1.1
+BUILDLINK_PKGSRCDIR.gflags?=	../../wip/gflags
+.endif	# GFLAGS_BUILDLINK3_MK
+
+BUILDLINK_TREE+=	-gflags

@@ -12,7 +12,7 @@
 # 			 modules that uses the compatible module api
 #			 version.
 #
-# QORE_MODULE_DIR	 The directory where binary modules are 
+# QORE_MODULE_DIR	 The directory where binary modules are
 #			 installed relative to ${PREFIX}.
 #
 #
@@ -21,9 +21,8 @@
 #			 version.
 #
 
-.PHONY: qore-module
-qore-module: post-install
-qore-version=${PKG_INFO} -E qore | ${SED} -e s/qore-// -e s/nb.//
+qore-module: post-install .PHONY
+qore-version=qore --short-version | ${SED} -e s/-.*//
 qore-module-api=qore --module-api
 qore-module-dir=qore --module-dir
 qore-latest-module-api=qore --latest-module-api

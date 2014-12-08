@@ -41,7 +41,7 @@ pkgbase := meta-tracker
 
 .if !empty(PKG_BUILD_OPTIONS.meta-tracker:Mgnome)
 .include "../../devel/libgee/buildlink3.mk"
-.include "../../lang/vala018/buildlink3.mk"
+.include "../../lang/vala/buildlink3.mk"
 .include "../../security/gnome-keyring/buildlink3.mk"
 .include "../../x11/gnome-panel/buildlink3.mk"
 .include "../../x11/gtk2/buildlink3.mk"
@@ -102,7 +102,6 @@ pkgbase := meta-tracker
 .include "../../devel/pango/buildlink3.mk"
 .include "../../graphics/libexif/buildlink3.mk"
 .include "../../graphics/png/buildlink3.mk"
-.include "../../sysutils/dbus-glib/buildlink3.mk"
 .endif	# META_TRACKER_BUILDLINK3_MK
 
 BUILDLINK_TREE+=	-meta-tracker

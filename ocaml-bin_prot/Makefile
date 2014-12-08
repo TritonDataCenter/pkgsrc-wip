@@ -12,10 +12,7 @@ HOMEPAGE=	https://github.com/janestreet/bin_prot/
 COMMENT=	Read and write OCaml-values in a type-safe binary protocol
 LICENSE=	apache-2.0
 
-WRKSRC=		${WRKDIR}/bin_prot-${VERS}
-USE_TOOLS+=	gmake
-
-OCAML_USE_FINDLIB=	yes
+OCAML_USE_OASIS=	yes
 
 .include "../../devel/ocaml-type_conv/buildlink3.mk"
 .include "../../lang/camlp4/buildlink3.mk"

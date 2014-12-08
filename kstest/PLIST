@@ -1,0 +1,4 @@
+@comment $NetBSD$
+include/kstest/kstest.hh
+lib/libkstest.la
+lib/pkgconfig/kstest.pc

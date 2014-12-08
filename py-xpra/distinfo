@@ -1,7 +1,7 @@
 $NetBSD$
 
-SHA1 (xpra-0.14.10.tar.xz) = bcbb1c6806dccaea8bf096891d48c6c52307582b
-RMD160 (xpra-0.14.10.tar.xz) = 88e68e2a8fb743891ab2daa60f9a6fc6956f6fba
-Size (xpra-0.14.10.tar.xz) = 1132916 bytes
+SHA1 (xpra-0.14.12.tar.xz) = f994f4b1974011f25bb2cb02d058c739929b9fed
+RMD160 (xpra-0.14.12.tar.xz) = dd085cf62d8497a04e77cddd014906519ce37192
+Size (xpra-0.14.12.tar.xz) = 1134840 bytes
 SHA1 (patch-xpra_x11_gtk__x11_gdk__bindings.pyx) = ee45b2e56b36d3c55b8e07ccd90daccda0b222df
 SHA1 (patch-xpra_x11_gtk__x11_gdk__display__source.pyx) = 5786562b61e10f807d1e42bdce37fa7108f48cf5
