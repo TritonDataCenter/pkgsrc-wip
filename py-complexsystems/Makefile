@@ -1,17 +1,14 @@
 # $NetBSD$
-#
 
-DISTNAME=	ComplexSystems-0.3.0.5
-PKGNAME=	${PYPKGPREFIX}-complexsystems-0.3.0.5
-CATEGORIES=	devel
-MASTER_SITES=	http://pypi.python.org/packages/source/C/ComplexSystems/
+DISTNAME=	ComplexSystems-0.3.2
+PKGNAME=	${PYPKGPREFIX}-${DISTNAME:tl}
+CATEGORIES=	devel python
+MASTER_SITES=	https://pypi.python.org/packages/source/C/ComplexSystems/
 
-MAINTAINER=	jihbed.research@gmail.com
-HOMEPAGE=	 http://bitbucket.org/vgauthier/complex-systems/
-COMMENT=	Toolbox for Complex Sytems
-LICENSE=	mit
-
-WRKSRC=		${WRKDIR}/ComplexSystems-0.3.0.5
+MAINTAINER= jihbed.research@gmail.com
+HOMEPAGE= http://bitbucket.org/vgauthier/complex-systems/
+COMMENT= Toolbox for Complex Sytems
+LICENSE= mit
 
 USE_LANGUAGES=	# none
 
