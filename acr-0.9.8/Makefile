@@ -12,9 +12,9 @@ HOMEPAGE=		https://github.com/radare/acr
 COMMENT=		Autoconf replacement
 LICENSE=		gnu-gpl-v2
 
-WRKSRC=			${WRKDIR}/${PKGNAME}
+WRKSRC=			${WRKDIR}/${PKGNAME_NOREV}
 # Only defined the install target
-NO_BUILD=
+NO_BUILD=		yes
 
 GNU_CONFIGURE=		yes
 
