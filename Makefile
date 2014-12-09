@@ -3220,6 +3220,7 @@ SUBDIR+=	roundcube-skin-mvision2
 SUBDIR+=	roxterm
 SUBDIR+=	rpcemu
 SUBDIR+=	rpki-svn
+SUBDIR+=	rpm5
 SUBDIR+=	rsget
 SUBDIR+=	rsound
 SUBDIR+=	rss-glib
