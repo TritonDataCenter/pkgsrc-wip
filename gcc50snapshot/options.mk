@@ -81,12 +81,9 @@ LIBS.SunOS+=		-lgmp
 ### Graphite Support
 ###
 .if !empty(PKG_OPTIONS:Mgcc-graphite)
-ISL12 = isl-0.12.2
-SITES.${ISL12}.tar.bz2 = ${MASTER_SITE_GNU:=gcc/infrastructure/}
-DISTFILES += ${ISL12}.tar.bz2
-CLOOG18 = cloog-0.18.1
-SITES.${CLOOG18}.tar.gz = ${MASTER_SITE_GNU:=gcc/infrastructure/}
-DISTFILES += ${CLOOG18}.tar.gz
+ISL14 = isl-0.14
+SITES.${ISL14}.tar.bz2 = ${MASTER_SITE_GNU:=gcc/infrastructure/}
+DISTFILES += ${ISL14}.tar.bz2
 .endif
 
 ###
