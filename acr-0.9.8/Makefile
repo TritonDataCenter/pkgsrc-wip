@@ -6,6 +6,8 @@ DISTNAME=		${VERSION}
 PKGNAME=		acr-${VERSION}
 CATEGORIES=		devel
 MASTER_SITES=		https://github.com/radare/${PKGBASE}/archive/
+EXTRACT_SUFX=		.zip
+DIST_SUBDIR=		${PKGBASE}
 
 MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		https://github.com/radare/acr
