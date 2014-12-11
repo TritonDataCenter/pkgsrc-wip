@@ -36,7 +36,7 @@ DEPENDS+=	${PYPKGPREFIX}-xattr-[0-9]*:../../sysutils/py-xattr
 DEPENDS+=	epydoc-[0-9]*:../../devel/epydoc
 DEPENDS+=	memcached-[0-9]*:../../devel/memcached
 DEPENDS+=	openldap-client-[0-9]*:../../databases/openldap-client
-DEPENDS+=	postgresql91-server-[0-9]*:../../databases/postgresql91-server
+DEPENDS+=	postgresql93-server-[0-9]*:../../databases/postgresql93-server
 DEPENDS+=	subversion-base-[0-9]*:../../devel/subversion-base
 
 PYTHON_VERSIONED_DEPENDENCIES=	dateutil
