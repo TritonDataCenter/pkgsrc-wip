@@ -2531,6 +2531,8 @@ share/emacs/${PKGVERSION}/lisp/leim/quail/vnvni.el.gz
 share/emacs/${PKGVERSION}/lisp/leim/quail/vnvni.elc
 share/emacs/${PKGVERSION}/lisp/leim/quail/welsh.el.gz
 share/emacs/${PKGVERSION}/lisp/leim/quail/welsh.elc
+share/emacs/${PKGVERSION}/lisp/let-alist.el.gz
+share/emacs/${PKGVERSION}/lisp/let-alist.elc
 share/emacs/${PKGVERSION}/lisp/linum.el.gz
 share/emacs/${PKGVERSION}/lisp/linum.elc
 share/emacs/${PKGVERSION}/lisp/loaddefs.el
