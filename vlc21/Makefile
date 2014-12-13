@@ -41,7 +41,7 @@ CFLAGS+=		-fPIC
 CXXFLAGS+=		-fPIC
 
 # which platforms support OSSv4?
-.if ${MACHINE_PLATFORM:MNetBSD-6.99.4*-*}
+.if ${MACHINE_PLATFORM:MNetBSD-[789]*-*}
 PLIST.oss=		yes
 .include "../../mk/oss.buildlink3.mk"
 .endif
