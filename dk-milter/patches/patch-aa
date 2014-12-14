@@ -1,5 +1,9 @@
 $NetBSD$
 
+Prepare SUBST (libs) for editting following parts for portability:
+@ARLIB, @SSLBASE@, @PTHREAD@ @LMBASE@
+See Makefile. 
+
 --- site.config.m4.dist.orig	2007-05-31 20:57:51.000000000 +0200
 +++ site.config.m4.dist	2007-08-06 21:27:46.000000000 +0200
 @@ -17,7 +17,7 @@ dnl libar -- asynchronous resolver libra

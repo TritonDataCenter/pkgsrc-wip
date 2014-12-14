@@ -1,5 +1,8 @@
 $NetBSD$
 
+Prepare SUBST (libs) for editting following parts for portability:
+@INET6@ in options.mk,  @PTHREAD_LDFLAGS@
+
 --- dk-filter/Makefile.m4.orig	2007-05-31 22:31:01.000000000 +0200
 +++ dk-filter/Makefile.m4	2007-08-01 10:37:46.000000000 +0200
 @@ -9,7 +9,9 @@
