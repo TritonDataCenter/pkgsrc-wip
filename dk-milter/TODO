@@ -1,7 +1,5 @@
 $NetBSD$
 
-- Are the pkglint(1) warnings for options.mk safe to ignore?
-
 - Run unprivileged by default?
 
 - Decide whether some (all?) of the FFR (for future release) features
@@ -10,3 +8,8 @@ $NetBSD$
 
 - Test the package and have it tested by others. I'm using it with
   Postfix 2.4.3 on NetBSD/i386 and so far it seems to work fine.
+
+-  The shell script, mentioned installed file /usr/pkg/share/doc/dk-milter/INSTALL,
+  as
+  (a) Run the script gentxt.csh.  This will generate a public and private
+  is not installed.
