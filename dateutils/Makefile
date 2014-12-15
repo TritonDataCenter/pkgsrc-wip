@@ -16,7 +16,6 @@ GNU_CONFIGURE=	yes
 USE_TOOLS+=	pkg-config automake autoreconf gmake makeinfo bison flex
 USE_LIBTOOL=	yes
 
-PKGCONFIG_OVERRIDE+=	libdut.pc.in
 INFO_FILES=		yes
 TEST_TARGET=		check
 INCLUDEDIR=		include/${PKGBASE}
