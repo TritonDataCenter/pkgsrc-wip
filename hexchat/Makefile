@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	hexchat-2.10.1
+DISTNAME=	hexchat-2.10.2
 CATEGORIES=	chat
 MASTER_SITES=	http://dl.hexchat.net/hexchat/
 EXTRACT_SUFX=	.tar.xz
