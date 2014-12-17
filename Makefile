@@ -75,6 +75,7 @@ SUBDIR+=	ae-fonts-decorative
 SUBDIR+=	aegis-devel
 SUBDIR+=	aespipe
 SUBDIR+=	afflib
+SUBDIR+=	agfl
 SUBDIR+=	agile
 SUBDIR+=	aida
 SUBDIR+=	aircrack-ng
