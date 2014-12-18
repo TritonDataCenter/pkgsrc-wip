@@ -1,6 +1,6 @@
 @comment $NetBSD$
 bin/BitchX
-bin/BitchX-${PKGVERSION}-final
+bin/BitchX-${PKGVERSION}
 bin/scr-bx
 lib/plugins/BitchX.hints
 lib/plugins/acro.so
@@ -930,7 +930,6 @@ share/bx/help/8_Scripts/uping.bz2
 share/bx/help/8_Scripts/wallopstat.bz2
 share/bx/help/8_Scripts/webster.bz2
 share/bx/help/8_Scripts/window.bz2
-share/bx/help/README_FIRST.bz2
 share/bx/script/SCRIPTS
 share/bx/script/actplug.gmz
 share/bx/script/auto_resume
