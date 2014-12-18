@@ -115,12 +115,6 @@ CONFIGURE_ENV+=		PYTHON=${PYTHONBIN:Q}
 
 #BUILD_MAKE_FLAGS+=		MOZ_WEBRTC_IN_LIBXUL=1
 
-SUBST_CLASSES+=		python
-SUBST_STAGE.python=	pre-configure
-SUBST_MESSAGE.python=	Fixing path to python.
-SUBST_FILES.python+=	media/webrtc/trunk/build/common.gypi
-SUBST_SED.python+=	-e 's,<!(python,<!(${PYTHONBIN},'
-
 # Build outside ${WRKSRC}
 # Try to avoid conflict with config/makefiles/xpidl/Makefile.in
 OBJDIR=			../build
