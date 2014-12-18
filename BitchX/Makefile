@@ -9,9 +9,6 @@ MAINTAINER=	noud4@users.sourceforge.net
 HOMEPAGE=	http://www.bitchx.org/
 COMMENT=	IRC client based on ircII
 
-# This package is not even remotely 64-bit clean
-NOT_FOR_PLATFORM=	${LP64PLATFORMS}
-
 USE_TOOLS+=	bash
 
 WRKSRC=			${WRKDIR}/${DISTNAME:S|-final||}
