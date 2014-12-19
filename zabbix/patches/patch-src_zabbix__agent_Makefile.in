@@ -10,8 +10,8 @@ Install config files in example dir.
  	$(MKDIR_P) "$(MODULES_DIR)"
 -	test -f "$(DESTDIR)@sysconfdir@/$(AGENT_CONFIG)" || cp "../../conf/$(AGENT_CONFIG)" "$(DESTDIR)@sysconfdir@"
 -	test -f "$(DESTDIR)@sysconfdir@/$(AGENTD_CONFIG)" || cp "../../conf/$(AGENTD_CONFIG)" "$(DESTDIR)@sysconfdir@"
-+	cp "../../conf/$(AGENT_CONFIG)" "$(DESTDIR)share/examples/zabbix"
-+	cp "../../conf/$(AGENTD_CONFIG)" "$(DESTDIR)share/examples/zabbix"
++	cp "../../conf/$(AGENT_CONFIG)" "$(DESTDIR)/share/examples/zabbix"
++	cp "../../conf/$(AGENTD_CONFIG)" "$(DESTDIR)/share/examples/zabbix"
  
  # Tell versions [3.59,3.63) of GNU make to not export all variables.
  # Otherwise a system limit (for SysV at least) may be exceeded.
