@@ -1,5 +1,8 @@
 $NetBSD: patch-js_src_ctypes_CTypes.h,v 1.3 2014/02/20 13:19:03 ryoon Exp $
 
+Workaround build problem on NetBSD.
+https://bugzilla.mozilla.org/show_bug.cgi?id=1113379
+
 --- js/src/ctypes/CTypes.h.orig	2014-02-12 21:29:02.000000000 +0000
 +++ js/src/ctypes/CTypes.h
 @@ -14,6 +14,23 @@
