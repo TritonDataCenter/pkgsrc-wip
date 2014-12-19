@@ -182,6 +182,7 @@ share/qupzilla/themes/default/theme.png
 share/qupzilla/themes/default/windows.css
 share/qupzilla/themes/linux/images/flash.png
 share/qupzilla/themes/linux/images/flashstart.png
+share/qupzilla/themes/linux/images/goto.png
 share/qupzilla/themes/linux/images/key.png
 share/qupzilla/themes/linux/images/library-bg-left.png
 share/qupzilla/themes/linux/images/library-bg-top-right.png
