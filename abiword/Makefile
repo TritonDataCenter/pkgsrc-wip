@@ -42,3 +42,5 @@ PKGCONFIG_OVERRIDE+=	libabiword.pc.in
 
 .include "../../mk/bsd.pkg.mk"
 .include "../../mk/jpeg.buildlink3.mk"
+
+SUBDIR+=abiword
