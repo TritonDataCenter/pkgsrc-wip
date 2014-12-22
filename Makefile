@@ -1933,6 +1933,7 @@ SUBDIR+=	osmo
 SUBDIR+=	osmo-sdr-git
 SUBDIR+=	osmose
 SUBDIR+=	osxinfo
+SUBDIR+=	ots
 SUBDIR+=	outguess
 SUBDIR+=	overgod
 SUBDIR+=	owl
