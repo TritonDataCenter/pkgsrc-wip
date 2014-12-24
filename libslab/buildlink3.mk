@@ -9,6 +9,7 @@ BUILDLINK_API_DEPENDS.libslab+=	libslab>=2.30.0
 BUILDLINK_ABI_DEPENDS.libslab?=	libslab>=2.30.0nb1
 BUILDLINK_PKGSRCDIR.libslab?=	../../wip/libslab
 
+.include "../../devel/GConf/buildlink3.mk"
 .include "../../devel/glib2/buildlink3.mk"
 .include "../../graphics/librsvg/buildlink3.mk"
 .include "../../sysutils/gnome-menus/buildlink3.mk"
