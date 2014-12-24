@@ -18,7 +18,7 @@ USE_TOOLS+=	pkg-config intltool
 
 PKGCONFIG_OVERRIDE+=	libslab.pc.in
 
-.include "../../devel/GConf/schemas.mk"
+.include "../../devel/GConf/buildlink3.mk"
 BUILDLINK_API_DEPENDS.glib2+=	glib2>=2.18.0
 .include "../../devel/glib2/buildlink3.mk"
 .include "../../graphics/librsvg/buildlink3.mk"
