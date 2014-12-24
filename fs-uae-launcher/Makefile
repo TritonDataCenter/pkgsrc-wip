@@ -36,9 +36,9 @@ DEPENDS+=	${PYPKGPREFIX}-lhafile>=0:../../wip/py-lhafile
 pre-install:
 	cd ${WRKSRC:Q}; ${PYTHONBIN:Q} setup.py install --prefix=${PREFIX:Q} --root=${DESTDIR:Q} --install-lib=${PREFIX:Q}/share/fs-uae-launcher --install-scripts=${PREFIX:Q}/share/fs-uae-launcher
 
-#post-install:
-#	${INSTALL_PROGRAM_DIR} ${DESTDIR}/${PREFIX}/bin
-#	cd ${DESTDIR}/${PREFIX}/bin; ln -s ../share/fs-uae-launcher/fs-uae-launcher .
+post-install:
+	${INSTALL_PROGRAM_DIR} ${DESTDIR}/${PREFIX}/bin
+	cd ${DESTDIR}/${PREFIX}/bin; { echo "#!/bin/sh"; echo "exec ${PREFIX}/bin/fs-uae-launcher --fs-uae-arcade"; } > fs-uae-arcade; chmod +x fs-uae-arcade
 
 .include "../../graphics/hicolor-icon-theme/buildlink3.mk"
 .include "../../lang/python/application.mk"

@@ -1,6 +1,7 @@
 @comment $NetBSD$
 @comment :4,$s=py3.4=py${PYVERSSUFFIX}=
 @comment :4,$s=cpython-34=cpython-${PYVERS}=
+bin/fs-uae-arcade
 bin/fs-uae-launcher
 share/applications/fs-uae-launcher.desktop
 share/doc/fs-uae-launcher/COPYING
