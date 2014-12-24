@@ -12,9 +12,10 @@ HOMEPAGE=	http://code.google.com/p/libslab/
 COMMENT=	Slab memory allocator in application layer
 LICENSE=	gnu-gpl-v2
 
-GNU_CONFIGURE=	yes
-USE_LIBTOOL=	yes
-USE_TOOLS+=	pkg-config intltool
+GNU_CONFIGURE=		yes
+USE_LIBTOOL=		yes
+USE_TOOLS+=		gmake pkg-config intltool msgfmt
+USE_PKGLOCALEDIR=	yes
 
 PKGCONFIG_OVERRIDE+=	libslab.pc.in
 
