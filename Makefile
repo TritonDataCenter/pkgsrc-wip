@@ -1405,6 +1405,7 @@ SUBDIR+=	libcdata
 SUBDIR+=	libcerror
 SUBDIR+=	libcfile
 SUBDIR+=	libcgi
+SUBDIR+=	libchamplain012
 SUBDIR+=	libcli
 SUBDIR+=	libclocale
 SUBDIR+=	libcm
