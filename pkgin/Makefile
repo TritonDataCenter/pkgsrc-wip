@@ -1,8 +1,8 @@
 # $NetBSD$
 
-GHCOMMIT=		0fbbedc4565b5188c134ca111caa918a7d77e97a
+GHCOMMIT=		ac742cd1be33ed1ae9041277dcd213cac075fcea
 DISTNAME=		${GHCOMMIT}
-PKGNAME=		pkgin-20141223
+PKGNAME=		pkgin-20141226
 CATEGORIES=		pkgtools
 MASTER_SITES=		https://github.com/NetBSDfr/pkgin/archive/
 
