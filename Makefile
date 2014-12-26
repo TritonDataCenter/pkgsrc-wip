@@ -925,6 +925,7 @@ SUBDIR+=	gtkfontsel
 SUBDIR+=	gtkglextmm
 SUBDIR+=	gtkglk
 SUBDIR+=	gtkhotkey
+SUBDIR+=	gtkmathview
 SUBDIR+=	gtksourcecompletion
 SUBDIR+=	gts
 SUBDIR+=	gtuxnes
