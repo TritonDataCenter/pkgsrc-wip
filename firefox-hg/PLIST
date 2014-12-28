@@ -804,8 +804,6 @@ lib/firefox/browser/chrome/browser/skin/classic/browser/preferences/Options.png
 lib/firefox/browser/chrome/browser/skin/classic/browser/preferences/aboutPermissions.css
 lib/firefox/browser/chrome/browser/skin/classic/browser/preferences/alwaysAsk.png
 lib/firefox/browser/chrome/browser/skin/classic/browser/preferences/applications.css
-lib/firefox/browser/chrome/browser/skin/classic/browser/preferences/in-content/check.png
-lib/firefox/browser/chrome/browser/skin/classic/browser/preferences/in-content/check@2x.png
 lib/firefox/browser/chrome/browser/skin/classic/browser/preferences/in-content/dialog.css
 lib/firefox/browser/chrome/browser/skin/classic/browser/preferences/in-content/favicon.ico
 lib/firefox/browser/chrome/browser/skin/classic/browser/preferences/in-content/icons.png
