@@ -3447,6 +3447,8 @@ share/emacs/${PKGVERSION}/lisp/progmodes/vhdl-mode.el.gz
 share/emacs/${PKGVERSION}/lisp/progmodes/vhdl-mode.elc
 share/emacs/${PKGVERSION}/lisp/progmodes/which-func.el.gz
 share/emacs/${PKGVERSION}/lisp/progmodes/which-func.elc
+share/emacs/${PKGVERSION}/lisp/progmodes/xref.el.gz
+share/emacs/${PKGVERSION}/lisp/progmodes/xref.elc
 share/emacs/${PKGVERSION}/lisp/progmodes/xscheme.el.gz
 share/emacs/${PKGVERSION}/lisp/progmodes/xscheme.elc
 share/emacs/${PKGVERSION}/lisp/ps-bdf.el.gz
