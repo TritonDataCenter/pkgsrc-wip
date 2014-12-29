@@ -1,8 +1,9 @@
 # $NetBSD$
 
-DISTNAME=	moe-1.5
+DISTNAME=	moe-1.6
 CATEGORIES=	editors
 MASTER_SITES=	${MASTER_SITE_GNU:=moe/}
+EXTRACT_SUFX=	.tar.lz
 
 MAINTAINER=	schwarz@NetBSD.org
 HOMEPAGE=	http://www.gnu.org/software/moe/moe.html
