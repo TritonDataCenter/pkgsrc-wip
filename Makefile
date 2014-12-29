@@ -1435,6 +1435,7 @@ SUBDIR+=	libee
 SUBDIR+=	libeio
 SUBDIR+=	libeio-cvs
 SUBDIR+=	libepc
+SUBDIR+=	libeps
 SUBDIR+=	libestr
 SUBDIR+=	libffi
 SUBDIR+=	libfm
