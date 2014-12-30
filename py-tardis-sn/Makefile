@@ -15,7 +15,7 @@ DEPENDS+=	${PYPKGPREFIX}-pandas>=0.12.0:../../math/py-pandas
 DEPENDS+=	${PYPKGPREFIX}-scipy>=0.12.1:../../math/py-scipy
 DEPENDS+=	${PYPKGPREFIX}-yaml>=3.10:../../textproc/py-yaml
 DEPENDS+=	${PYPKGPREFIX}-astropy>=0.3:../../wip/py-astropy
-DEPENDS+=	${PYPKGPREFIX}-h5py>=2.2.1:../../wip/py-h5py
+DEPENDS+=	${PYPKGPREFIX}-h5py>=2.2.1:../../devel/py-h5py
 
 .include "../../lang/python/egg.mk"
 .include "../../math/py-numpy/buildlink3.mk"
