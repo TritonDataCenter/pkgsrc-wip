@@ -19,14 +19,15 @@ GNU_CONFIGURE=	YES
 USE_TOOLS+=	gmake makedepend pkg-config
 MAKE_ENV+=	GCC=yes
 USE_LANGUAGES+=	c c++
+#CXXFLAGS+=	-Ig++/tr1_impl
 
 INSTALLATION_DIRS+=	bin lib/X11/app-defaults
 
 .include "../../audio/ladspa/buildlink3.mk"
 .include "../../audio/jack/buildlink3.mk"
 .include "../../wip/dssi/buildlink3.mk"
-.include "../../wip/libdssialsacompat/buildlink3.mk"
-.include "../../wip/liblo/buildlink3.mk"
+#.include "../../wip/libdssialsacompat/buildlink3.mk"
+#.include "../../wip/liblo/buildlink3.mk"
 .include "../../lang/tcl/buildlink3.mk"
 .include "../../math/fftwf/buildlink3.mk"
 .include "../../textproc/liblrdf/buildlink3.mk"
