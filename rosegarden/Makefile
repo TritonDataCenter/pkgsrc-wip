@@ -16,13 +16,20 @@ LICENSE=	gnu-gpl-v2
 MAKE_JOBS_SAFE=		no
 
 GNU_CONFIGURE=	YES
-USE_TOOLS+=	gmake makedepend
+USE_TOOLS+=	gmake makedepend pkg-config
 MAKE_ENV+=	GCC=yes
 USE_LANGUAGES+=	c c++
 
 INSTALLATION_DIRS+=	bin lib/X11/app-defaults
 
+.include "../../audio/ladspa/buildlink3.mk"
+.include "../../audio/jack/buildlink3.mk"
+.include "../../wip/dssi/buildlink3.mk"
+.include "../../wip/libdssialsacompat/buildlink3.mk"
+.include "../../wip/liblo/buildlink3.mk"
 .include "../../lang/tcl/buildlink3.mk"
+.include "../../math/fftwf/buildlink3.mk"
+.include "../../textproc/liblrdf/buildlink3.mk"
 .include "../../x11/libXaw/buildlink3.mk"
 .include "../../x11/libX11/buildlink3.mk"
 .include "../../x11/qt4-libs/buildlink3.mk"
