@@ -857,7 +857,6 @@ SUBDIR+=	gnuradio-vocoder
 SUBDIR+=	gnuradio-wavelet
 SUBDIR+=	gnuradio-wxgui
 SUBDIR+=	gnuradio-zeromq
-SUBDIR+=	go
 SUBDIR+=	go-net
 SUBDIR+=	go-text
 SUBDIR+=	go-tools
