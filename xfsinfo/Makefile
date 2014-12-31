@@ -1,7 +1,6 @@
 # $NetBSD$
-#
 
-DISTNAME=	xfsinfo-1.0.4
+DISTNAME=	xfsinfo-1.0.5
 CATEGORIES=	fonts
 MASTER_SITES=	${MASTER_SITE_XORG:=app/}
 EXTRACT_SUFX=	.tar.bz2
