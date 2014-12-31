@@ -1,5 +1,4 @@
 # $NetBSD$
-#
 
 VERS=	1.0-r3067-20090410
 DISTNAME=	diffpy.Structure-${VERS}
@@ -15,6 +14,7 @@ LICENSE=	modified-bsd
 
 DEPENDS+=	${PYPKGPREFIX}-pycifrw>=3.1.4:../../wip/py-pycifrw
 
+PYTHON_VERSIONS_INCOMPATIBLE=	33 34 # py-yapps2 via py-pycifrw
 USE_LANGUAGES=	# none
 
 .include "../../lang/python/egg.mk"

@@ -2,7 +2,6 @@
 
 DISTNAME=	scikit-learn-0.15.2
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
-EGG_NAME=	${DISTNAME:S/-/_/}
 CATEGORIES=	math
 MASTER_SITES=	https://pypi.python.org/packages/source/s/scikit-learn/
 

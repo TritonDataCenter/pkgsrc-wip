@@ -2,7 +2,6 @@
 
 DISTNAME=	clonedigger-jl-1.0.7
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
-EGG_NAME=	clonedigger_jl-1.0.7
 CATEGORIES=	devel
 MASTER_SITES=	https://pypi.python.org/packages/source/c/clonedigger-jl/
 

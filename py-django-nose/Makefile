@@ -1,8 +1,6 @@
 # $NetBSD$
-#
 
 DISTNAME=	django-nose-0.1.2
-EGG_NAME=	django_nose-0.1.2
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	devel www
 MASTER_SITES=	http://pypi.python.org/packages/source/d/django-nose/
@@ -14,6 +12,8 @@ LICENSE=	modified-bsd
 
 DEPENDS+=	${PYPKGPREFIX}-nose>=0.11.3:../../devel/py-nose
 DEPENDS+=	${PYPKGPREFIX}-django-[0-9]*:../../www/py-django
+
+PYTHON_VERSIONS_INCOMPATIBLE=	33 34 # not yet ported as of 0.1.2
 
 USE_LANGUAGES=	# none
 

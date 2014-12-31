@@ -1,8 +1,8 @@
 # $NetBSD$
-#
 
 DISTNAME=	GitPython-0.3.2.RC1
 PKGNAME=	${PYPKGPREFIX}-git-0.3.2.rc1
+EGG_NAME=	${DISTNAME:S/.RC/rc/}
 CATEGORIES=	devel python
 MASTER_SITES=	http://pypi.python.org/packages/source/G/GitPython/
 
@@ -13,7 +13,7 @@ LICENSE=	modified-bsd
 
 #DEPENDS+=	${PYPKGPREFIX}-gitdb>=0.6.1:../../wip/py-gitdb
 
-WRKSRC=		${WRKDIR}/GitPython-0.3.2.RC1
+PYTHON_VERSIONS_INCOMPATIBLE=	33 34 # not yet ported as of 0.3.2.RC1
 
 USE_LANGUAGES=	# none
 

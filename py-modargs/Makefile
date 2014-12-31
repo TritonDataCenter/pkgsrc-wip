@@ -1,7 +1,6 @@
 # $NetBSD$
 
 DISTNAME=	python-modargs-1.7
-EGG_NAME=       python_modargs-1.7
 PKGNAME=	${PYPKGPREFIX}-modargs-1.7
 CATEGORIES=	devel python
 MASTER_SITES=	https://pypi.python.org/packages/source/p/python-modargs/
@@ -10,8 +9,7 @@ MAINTAINER=	kamel.derouiche@gmail.com
 HOMEPAGE=	http://pypi.python.org/pypi/python-modargs
 COMMENT=	line argument parsing library that infers
 
-
-WRKSRC=		${WRKDIR}/python-modargs-1.7
+PYTHON_VERSIONS_INCOMPATIBLE=	33 34 # not yet ported as of 1.7
 USE_LANGUAGES=	# none
 
 .include "../../lang/python/egg.mk"

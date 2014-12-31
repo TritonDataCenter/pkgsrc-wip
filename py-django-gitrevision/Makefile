@@ -1,7 +1,6 @@
 # $NetBSD$
 
 DISTNAME=	django-gitrevision-0.1.4
-EGG_NAME=	${DISTNAME:S|o-|o_|:Q}
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 PKGREVISION=	3
 CATEGORIES=	devel python
@@ -15,7 +14,7 @@ LICENSE=	gnu-lgpl-v2.1
 DEPENDS+=	${PYPKGPREFIX}-django-[0-9]*:../../www/py-django
 DEPENDS+=	${PYPKGPREFIX}-git-[0-9]*:../../wip/py-git
 
-WRKSRC=		${WRKDIR}/django-gitrevision-0.1.4
+PYTHON_VERSIONS_INCOMPATIBLE=	33 34 # py-git
 
 USE_LANGUAGES=	# none
 
