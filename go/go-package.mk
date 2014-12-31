@@ -28,7 +28,7 @@ WRKSRC=			${WRKDIR}/src/${GO_SRCPATH}
 BUILD_DEPENDS+=		go-${GO_VERSION}*:../../lang/go
 
 MAKE_JOBS_SAFE=		no
-INSTALLATION_DIRS=	bin gopkg
+INSTALLATION_DIRS+=	bin gopkg
 
 post-extract:
 	${MKDIR} ${WRKSRC}
