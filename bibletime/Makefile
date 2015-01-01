@@ -14,6 +14,8 @@ USE_CMAKE=	yes
 USE_LANGUAGES=	c c++
 USE_TOOLS+=	pkg-config
 
+DEPENDS+=	dejavu-ttf-[0-9]*:../../fonts/dejavu-ttf
+
 .include "options.mk"
 
 .include "../../sysutils/desktop-file-utils/desktopdb.mk"
