@@ -39,6 +39,7 @@ share/doc/acr/examples/python.acr
 share/doc/acr/examples/ruby.acr
 share/doc/acr/examples/sdl.acr
 share/doc/acr/examples/sizeof.acr
+share/doc/acr/examples/vala.acr
 share/doc/acr/examples/x11.acr
 share/doc/acr/flag-arguments
 share/doc/acr/gnumake
