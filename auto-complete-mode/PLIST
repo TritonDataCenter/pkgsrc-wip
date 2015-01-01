@@ -5,6 +5,7 @@ ${EMACS_LISPPREFIX}/auto-complete/ac-dict/clojure-mode
 ${EMACS_LISPPREFIX}/auto-complete/ac-dict/css-mode
 ${EMACS_LISPPREFIX}/auto-complete/ac-dict/java-mode
 ${EMACS_LISPPREFIX}/auto-complete/ac-dict/javascript-mode
+${EMACS_LISPPREFIX}/auto-complete/ac-dict/octave-mode
 ${EMACS_LISPPREFIX}/auto-complete/ac-dict/php-mode
 ${EMACS_LISPPREFIX}/auto-complete/ac-dict/python-mode
 ${EMACS_LISPPREFIX}/auto-complete/ac-dict/ruby-mode
