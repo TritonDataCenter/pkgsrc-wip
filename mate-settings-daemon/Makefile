@@ -22,14 +22,13 @@ CONFIGURE_ARGS+=	--sysconfdir=${PKG_SYSCONFDIR}
 
 INSTALL_MAKE_FLAGS+=	sysconfdir=${PREFIX}/share/examples/mate-settings-daemon
 
-MAKE_DIRS+=	${PKG_SYSCOFDIR}/xdg/autostart
-OWN_DIRS+=	${PKG_SYSCOFDIR}/xrandr
+MAKE_DIRS+=	${PKG_SYSCONFDIR}/xdg/autostart
+OWN_DIRS+=	${PKG_SYSCONFDIR}/mate-settings-daemon/xrandr
 CONF_FILES+=	${PREFIX}/share/examples/mate-settings-daemon/xdg/autostart/mate-settings-daemon.desktop \
 		${PKG_SYSCONFDIR}/xdg/autostart/mate-settings-daemon.desktop
 
 .include "../../devel/glib2/schemas.mk"
 
-#.include "../../wip/polkit/buildlink3.mk"
 .include "../../wip/libmatekbd/buildlink3.mk"
 .include "../../wip/mate-desktop/buildlink3.mk"
 .include "../../audio/libcanberra/buildlink3.mk"
