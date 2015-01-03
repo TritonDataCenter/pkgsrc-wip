@@ -2776,6 +2776,7 @@ SUBDIR+=	py-naftawayh
 SUBDIR+=	py-ncomb
 SUBDIR+=	py-ncpol2sdpa
 SUBDIR+=	py-neo
+SUBDIR+=	py-neovim
 SUBDIR+=	py-netcdf
 SUBDIR+=	py-netcdf4
 SUBDIR+=	py-netflowvizu
