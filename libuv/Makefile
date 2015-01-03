@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	v1.0.1
+DISTNAME=	v1.1.0
 PKGNAME=	libuv-${DISTNAME:S/v//1}
 CATEGORIES=	devel
 MASTER_SITES=	https://github.com/libuv/libuv/archive/
