@@ -26,6 +26,8 @@ DEPENDS+=       ${LUA_PKGPREFIX}-lpeg:../../devel/lua-lpeg
 REPLACE_PERL+=	runtime/tools/pltags.pl runtime/tools/shtags.pl runtime/tools/efm_filter.pl
 REPLACE_AWK+=	runtime/tools/mve.awk
 
+.include "options.mk"
+
 .include "../../wip/libuv/buildlink3.mk"
 .include "../../wip/msgpack-git/buildlink3.mk"
 .include "../../lang/LuaJIT2/buildlink3.mk"
