@@ -3,6 +3,7 @@
 
 DISTNAME=	Nestopia140src
 PKGNAME=	nestopia-rpi-1.40h
+PKGREVISION=	1
 CATEGORIES=	emulators
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=nestopia/}
 EXTRACT_SUFX=	.zip
