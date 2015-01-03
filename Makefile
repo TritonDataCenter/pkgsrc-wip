@@ -3061,6 +3061,7 @@ SUBDIR+=	py-traits
 SUBDIR+=	py-traitsgui
 SUBDIR+=	py-tranquil
 SUBDIR+=	py-transaction
+SUBDIR+=	py-trollius
 SUBDIR+=	py-tsgeom
 SUBDIR+=	py-ttk
 SUBDIR+=	py-turbojson
