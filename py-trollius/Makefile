@@ -11,5 +11,7 @@ LICENSE=	apache-2.0
 
 EGG_NAME=	${DISTNAME:S/-/_/}
 
+DEPENDS+=	${PYPKGPREFIX}-futures-[0-9]*:../../wip/py-futures
+
 .include "../../lang/python/egg.mk"
 .include "../../mk/bsd.pkg.mk"
