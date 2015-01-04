@@ -23,6 +23,7 @@ USE_PKGLOCALEDIR=	yes
 .include "../../devel/glib2/schemas.mk"
 
 .include "../../devel/glib2/buildlink3.mk"
+.include "../../devel/libexecinfo/buildlink3.mk"
 .include "../../graphics/hicolor-icon-theme/buildlink3.mk"
 .include "../../sysutils/dbus-glib/buildlink3.mk"
 .include "../../x11/gtk2/buildlink3.mk"
