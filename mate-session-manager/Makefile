@@ -10,7 +10,7 @@ HOMEPAGE=	http://www.mate-desktop.org/
 COMMENT=	MATE session manager
 LICENSE=	gnu-gpl-v2
 
-#TOOL_DEPENDS+=	xmlto-[0-9]*:../../textproc/xmlto
+TOOL_DEPENDS+=	xmlto-[0-9]*:../../textproc/xmlto
 TOOL_DEPENDS+=	libxslt-[0-9]*:../../textproc/libxslt
 
 GNU_CONFIGURE=		yes
