@@ -1,10 +1,10 @@
-# $NetBSD: Makefile,v 1.2 2013/10/31 08:32:55 wiz Exp $
+# $NetBSD: Makefile,v 1.5 2014/12/16 02:22:44 mef Exp $
 
-DISTNAME=	v0.3.1
-PKGNAME=	${DISTNAME:S/^v/dateutils-/}
+DISTNAME=	dateutils-0.3.1
 CATEGORIES=	time
-MASTER_SITES=	http://github.com/hroptatyr/dateutils/archive/
-DIST_SUBDIR=	dateutils
+MASTER_SITES=	https://github.com/hroptatyr/dateutils/releases/download/v0.3.1/
+MASTER_SITES+=	https://bitbucket.org/hroptatyr/dateutils/downloads/
+EXTRACT_SUFX=	.tar.xz
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.fresse.org/dateutils/
@@ -13,21 +13,44 @@ LICENSE=	modified-bsd
 
 WRKSRC=		${WRKDIR}/${PKGNAME_NOREV}
 GNU_CONFIGURE=	yes
-USE_TOOLS+=	pkg-config automake autoreconf gmake makeinfo bison flex
+USE_TOOLS+=	pkg-config gmake makeinfo bison flex
 USE_LIBTOOL=	yes
+MAKE_JOBS_SAFE= no
 
-PKGCONFIG_OVERRIDE+=	libdut.pc.in
 INFO_FILES=		yes
 TEST_TARGET=		check
-
-pre-configure:
-	(cd ${WRKSRC}; autoreconf -i )
+INCLUDEDIR=		include/${PKGBASE}
+AUTO_MKDIRS=		YES
 
 post-build:
 	(cd ${WRKSRC}/lib; ${GMAKE})
 
-#post-install:
-#	(cd ${WRKSRC}/lib; env DESTDIR=${DESTDIR} ${GMAKE} install-libLIBRARIES)
+post-install:
+	(cd ${WRKSRC}/lib; \
+	env DESTDIR=${DESTDIR} ${GMAKE} install-libLIBRARIES)
+# To have the similar PLIST of previous version, installing headers.
+.for i in \
+	boops.h \
+	date-core-strpf.h \
+	date-core.h \
+	dt-core-strpf.h \
+	dt-core-tz-glue.h \
+	dt-core.h \
+	generics.h \
+	gmtime.h \
+	leaps.h \
+	leapseconds.def \
+	leapseconds.h \
+	nifty.h \
+	strops.h \
+	time-core-strpf.h \
+	time-core.h \
+	token.h \
+	tzmap.h \
+	tzraw.h \
+	version.h
+	(cd ${WRKSRC}/lib; ${INSTALL_DATA} ${i} ${DESTDIR}${PREFIX}/${INCLUDEDIR})
+.endfor
 
 .include "../../devel/gperf/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

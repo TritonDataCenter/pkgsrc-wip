@@ -12,6 +12,8 @@ LICENSE=	modified-bsd
 
 DEPENDS+=	${PYPKGPREFIX}-astropy>=0.3.1:../../wip/py-astropy
 
+PYTHON_VERSIONS_INCOMPATIBLE=	33 34 # py-astropy
+
 USE_LANGUAGES=	# none
 
 .include "../../lang/python/egg.mk"

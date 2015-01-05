@@ -1,5 +1,4 @@
 # $NetBSD$
-#
 
 DISTNAME=	DecoratorTools-1.8
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME:S/D/d/S/T/t/}
@@ -12,6 +11,7 @@ HOMEPAGE=	http://pypi.python.org/pypi/DecoratorTools
 COMMENT=	Class, function, and metaclass decorators
 
 USE_LANGUAGES=	# none
+PYTHON_VERSIONS_INCOMPATIBLE=	33 34 # not yet ported as of 1.8
 
 DOCDIR=	${PREFIX}/share/doc/py-decoratortools
 

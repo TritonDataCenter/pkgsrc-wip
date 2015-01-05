@@ -21,6 +21,8 @@ USE_LANGUAGES=	# none
 REPLACE_PYTHON+=	resources/chat/styles/Smooth\ Operator/test/view.py
 REPLACE_PYTHON+=	resources/chat/styles/Stockholm/test/view.py
 PY_PATCHPLIST=		yes
+PYTHON_VERSIONS_INCOMPATIBLE=	33 34 # py-python-application, py-python-gnutls
+
 PLIST_SUBST+=		PYVERSSUFFIX=${PYVERSSUFFIX}
 
 post-install:

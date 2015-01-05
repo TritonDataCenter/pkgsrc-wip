@@ -1,7 +1,6 @@
 # $NetBSD$
 
 DISTNAME=	python-distutils-extra-2.38
-EGG_NAME=	${DISTNAME:S/python-distutils-/python_distutils_/}
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME:S/python-//}
 CATEGORIES=	devel python
 MASTER_SITES=	http://launchpad.net/python-distutils-extra/trunk/2.38/+download/

@@ -1,7 +1,6 @@
 # $NetBSD$
 
 DISTNAME=	dj-static-0.0.5
-EGG_NAME=	dj_static-0.0.5
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	www python
 MASTER_SITES=	https://pypi.python.org/packages/source/d/dj-static/

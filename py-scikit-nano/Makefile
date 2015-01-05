@@ -2,7 +2,6 @@
 
 DISTNAME=	scikit-nano-0.2.25
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
-EGG_NAME=	${DISTNAME:S/-/_/}
 CATEGORIES=	math
 MASTER_SITES=	https://pypi.python.org/packages/source/s/scikit-nano/
 

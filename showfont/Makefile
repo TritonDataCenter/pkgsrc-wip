@@ -1,7 +1,6 @@
 # $NetBSD: Makefile,v 1.6 2009/11/09 19:29:30 tnn Exp $
-#
 
-DISTNAME=		showfont-1.0.4
+DISTNAME=		showfont-1.0.5
 CATEGORIES=		fonts x11
 MASTER_SITES=		${MASTER_SITE_XORG:=app/}
 EXTRACT_SUFX=		.tar.bz2

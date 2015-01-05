@@ -1,5 +1,4 @@
 # $NetBSD$
-#
 
 VERS=	3.1.4
 DISTNAME=	PyCifRW-${VERS}
@@ -13,6 +12,8 @@ COMMENT=	CIF/STAR file support for Python
 LICENSE=	modified-bsd
 
 DEPENDS+=	${PYPKGPREFIX}-yapps2>=2.1.1:../../wip/py-yapps2
+
+PYTHON_VERSIONS_INCOMPATIBLE=	33 34 # py-yapps2
 
 PYDISTUTILSPKG= yes
 

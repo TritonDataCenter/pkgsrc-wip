@@ -54,8 +54,6 @@ PYTHON_VERSIONS_INCOMPATIBLE=	33 34 # py-django-tagging
 
 INSTALLATION_DIRS+=	share/examples/graphite
 
-EGG_NAME=	${DISTNAME:S/graphite-/graphite_/}
-
 pre-build:
 	${MKDIR} ${WRKSRC}/graphite/webapp
 	${CP} -LR ${WRKSRC}/webapp/content ${WRKSRC}/graphite/webapp

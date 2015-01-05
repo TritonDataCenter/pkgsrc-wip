@@ -1,7 +1,6 @@
 # $NetBSD$
 
 DISTNAME=	logilab-database-1.1.0
-EGG_NAME=	logilab_database-1.1.0
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	databases
 MASTER_SITES=	http://pypi.python.org/packages/source/l/logilab-database/

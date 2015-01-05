@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	xpra-0.14.12
+DISTNAME=	xpra-0.14.14
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	x11
 MASTER_SITES=	http://xpra.org/src/

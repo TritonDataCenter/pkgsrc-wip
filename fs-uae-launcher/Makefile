@@ -1,6 +1,6 @@
 # $NetBSD$
 
-VERSION=	2.5.14dev
+VERSION=	2.5.22dev
 DISTNAME=	fs-uae-launcher-${VERSION}
 CATEGORIES=	emulators
 MASTER_SITES=	http://fs-uae.net/fs-uae/devel/${VERSION}/
@@ -14,6 +14,7 @@ USE_TOOLS+=	gmake
 
 INSTALL_ENV+=	prefix=${PREFIX}
 INSTALL_ENV+=	DESTDIR=${DESTDIR}
+INSTALL_ENV+=	PYTHONBIN=${PYTHONBIN}
 
 # Imports urllib.parse which is 3+.
 PYTHON_VERSIONS_ACCEPTED= 34 33
@@ -25,6 +26,7 @@ REPLACE_PYTHON+=OpenGL/arrays/buffers.py
 
 PLIST_SUBST+=   PYVERSSUFFIX=${PYVERSSUFFIX}	# 3.4
 PLIST_SUBST+=   PYVERS=${PYPKGPREFIX:S/py//}	# py34 -> 34
+PLIST_SUBST+=   VERSION=${VERSION}
 
 BUILD_DEPENDS+=	${PYPKGPREFIX}-setuptools>=1.1.5:../../devel/py-setuptools
 DEPENDS+=	${PYPKGPREFIX}-qt4>=4.10.2nb1:../../x11/py-qt4
@@ -36,7 +38,7 @@ pre-install:
 
 post-install:
 	${INSTALL_PROGRAM_DIR} ${DESTDIR}/${PREFIX}/bin
-	cd ${DESTDIR}/${PREFIX}/bin; ln -s ../share/fs-uae-launcher/fs-uae-launcher .
+	cd ${DESTDIR}/${PREFIX}/bin; { echo "#!/bin/sh"; echo "exec ${PREFIX}/bin/fs-uae-launcher --fs-uae-arcade"; } > fs-uae-arcade; chmod +x fs-uae-arcade
 
 .include "../../graphics/hicolor-icon-theme/buildlink3.mk"
 .include "../../lang/python/application.mk"

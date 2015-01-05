@@ -1,7 +1,6 @@
 # $NetBSD$
 
 DISTNAME=	scipy-data_fitting-0.0.1
-EGG_NAME=	scipy_data_fitting--0.0.1
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	math
 MASTER_SITES=	https://pypi.python.org/packages/source/s/scipy-data_fitting/
@@ -13,7 +12,7 @@ LICENSE=	mit
 
 DEPENDS+=	${PYPKGPREFIX}-sympy>=0.7.4.1.:../../math/py-sympy
 
-WRKSRC=		${WRKDIR}/scipy-data_fitting-0.0.1
+PYTHON_VERSIONS_INCOMPATIBLE=	33 34 # not yet ported as of 0.0.1
 
 USE_LANGUAGES=	# none
 

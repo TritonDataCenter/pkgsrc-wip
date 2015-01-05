@@ -1,9 +1,0 @@
-@comment $NetBSD$
-bin/blbump
-bin/check-cvs-diff
-bin/finddepends
-bin/replace-commonbump
-bin/revbump
-man/man1/blbump.1
-man/man1/finddepends.1
-man/man1/revbump.1

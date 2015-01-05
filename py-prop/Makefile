@@ -1,7 +1,6 @@
 # $NetBSD$
 
 DISTNAME=	${PYPKGPREFIX}-pyprop-0.0
-#EGG_NAME=	pydec-1.0.0.dev14
 CATEGORIES=	math
 
 MAINTAINER=	jihbed.research@gmail.com

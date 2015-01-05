@@ -1,8 +1,8 @@
 $NetBSD$
 
---- sipp.hpp.orig	2011-12-20 16:05:24.000000000 +0100
-+++ sipp.hpp	2011-12-20 16:05:32.000000000 +0100
-@@ -25,6 +25,9 @@
+--- include/sipp.hpp.orig	2014-03-09 20:04:57.000000000 +0100
++++ include/sipp.hpp	2014-12-30 17:05:25.000000000 +0100
+@@ -24,6 +24,9 @@
  
  #include <stdio.h>
  #include <stdlib.h>
@@ -12,7 +12,7 @@ $NetBSD$
  #include <string.h>
  #include <pthread.h>
  #include <sys/types.h>
-@@ -53,6 +56,9 @@
+@@ -60,6 +63,9 @@
  #else
  #include <stdarg.h>
  #endif

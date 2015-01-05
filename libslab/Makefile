@@ -12,13 +12,14 @@ HOMEPAGE=	http://code.google.com/p/libslab/
 COMMENT=	Slab memory allocator in application layer
 LICENSE=	gnu-gpl-v2
 
-GNU_CONFIGURE=	yes
-USE_LIBTOOL=	yes
-USE_TOOLS+=	pkg-config intltool
+GNU_CONFIGURE=		yes
+USE_LIBTOOL=		yes
+USE_TOOLS+=		gmake pkg-config intltool msgfmt
+USE_PKGLOCALEDIR=	yes
 
 PKGCONFIG_OVERRIDE+=	libslab.pc.in
 
-.include "../../devel/GConf/schemas.mk"
+.include "../../devel/GConf/buildlink3.mk"
 BUILDLINK_API_DEPENDS.glib2+=	glib2>=2.18.0
 .include "../../devel/glib2/buildlink3.mk"
 .include "../../graphics/librsvg/buildlink3.mk"

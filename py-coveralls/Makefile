@@ -2,7 +2,6 @@
 
 DISTNAME=	python-coveralls-2.4.2
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME:S/python-//}
-EGG_NAME=	python_coveralls-2.4.2
 CATEGORIES=	devel python
 MASTER_SITES=	https://pypi.python.org/packages/source/p/python-coveralls/
 

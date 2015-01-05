@@ -11,7 +11,7 @@ COMMENT=	Verilog simulation and synthesis tool (development snapshot version)
 LICENSE=	gnu-gpl-v2
 
 CONFLICTS+=	verilog-[0-9]*
-SNAPDATE=		20130827
+SNAPDATE=	20141205
 
 GCC_REQD+=	3.0
 USE_LANGUAGES=	c c++

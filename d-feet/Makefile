@@ -1,7 +1,6 @@
 # $NetBSD$
 
 DISTNAME=	d-feet-0.1.14
-EGG_NAME=	${DISTNAME:S|d-|d_|}
 PKGREVISION=	2
 CATEGORIES=	devel python
 MASTER_SITES=	${MASTER_SITE_GNOME:=sources/d-feet/0.1/}

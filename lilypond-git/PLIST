@@ -334,6 +334,7 @@ share/lilypond/${PKGVERSION}/scm/standalone.scm
 share/lilypond/${PKGVERSION}/scm/stencil.scm
 share/lilypond/${PKGVERSION}/scm/tablature.scm
 share/lilypond/${PKGVERSION}/scm/text.scm
+share/lilypond/${PKGVERSION}/scm/time-signature.scm
 share/lilypond/${PKGVERSION}/scm/time-signature-settings.scm
 share/lilypond/${PKGVERSION}/scm/titling.scm
 share/lilypond/${PKGVERSION}/scm/to-xml.scm

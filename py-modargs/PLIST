@@ -5,7 +5,7 @@ ${PYSITELIB}/modargs/__init__.pyo
 ${PYSITELIB}/modargs/args.py
 ${PYSITELIB}/modargs/args.pyc
 ${PYSITELIB}/modargs/args.pyo
-${PYSITELIB}/python_modargs-${PKGVERSION}-py2.7.egg-info/PKG-INFO
-${PYSITELIB}/python_modargs-${PKGVERSION}-py2.7.egg-info/SOURCES.txt
-${PYSITELIB}/python_modargs-${PKGVERSION}-py2.7.egg-info/dependency_links.txt
-${PYSITELIB}/python_modargs-${PKGVERSION}-py2.7.egg-info/top_level.txt
+${PYSITELIB}/${EGG_INFODIR}/PKG-INFO
+${PYSITELIB}/${EGG_INFODIR}/SOURCES.txt
+${PYSITELIB}/${EGG_INFODIR}/dependency_links.txt
+${PYSITELIB}/${EGG_INFODIR}/top_level.txt

@@ -2,7 +2,6 @@
 
 DISTNAME=	scikit-monaco-0.1.5
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
-EGG_NAME=	scikit_monaco-${PKGVERSION}
 CATEGORIES=	math
 MASTER_SITES=	https://pypi.python.org/packages/source/s/scikit-monaco/
 

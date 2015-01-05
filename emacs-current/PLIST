@@ -5,7 +5,6 @@ bin/emacs
 bin/${DISTNAME}
 bin/emacsclient
 bin/etags
-bin/grep-changelog
 info/ada-mode.info.gz
 info/auth.info.gz
 info/autotype.info.gz
@@ -78,7 +77,6 @@ man/man1/ebrowse.1
 man/man1/emacs.1
 man/man1/emacsclient.1
 man/man1/etags.1
-man/man1/grep-changelog.1
 share/appdata/emacs.appdata.xml
 share/applications/emacs.desktop
 share/emacs/${PKGVERSION}/etc/AUTHORS
@@ -1665,6 +1663,8 @@ share/emacs/${PKGVERSION}/lisp/emacs-lisp/ring.el.gz
 share/emacs/${PKGVERSION}/lisp/emacs-lisp/ring.elc
 share/emacs/${PKGVERSION}/lisp/emacs-lisp/rx.el.gz
 share/emacs/${PKGVERSION}/lisp/emacs-lisp/rx.elc
+share/emacs/${PKGVERSION}/lisp/emacs-lisp/seq.el.gz
+share/emacs/${PKGVERSION}/lisp/emacs-lisp/seq.elc
 share/emacs/${PKGVERSION}/lisp/emacs-lisp/shadow.el.gz
 share/emacs/${PKGVERSION}/lisp/emacs-lisp/shadow.elc
 share/emacs/${PKGVERSION}/lisp/emacs-lisp/smie.el.gz
@@ -2531,6 +2531,8 @@ share/emacs/${PKGVERSION}/lisp/leim/quail/vnvni.el.gz
 share/emacs/${PKGVERSION}/lisp/leim/quail/vnvni.elc
 share/emacs/${PKGVERSION}/lisp/leim/quail/welsh.el.gz
 share/emacs/${PKGVERSION}/lisp/leim/quail/welsh.elc
+share/emacs/${PKGVERSION}/lisp/let-alist.el.gz
+share/emacs/${PKGVERSION}/lisp/let-alist.elc
 share/emacs/${PKGVERSION}/lisp/linum.el.gz
 share/emacs/${PKGVERSION}/lisp/linum.elc
 share/emacs/${PKGVERSION}/lisp/loaddefs.el
@@ -2976,6 +2978,8 @@ share/emacs/${PKGVERSION}/lisp/obsolete/tpu-extras.el.gz
 share/emacs/${PKGVERSION}/lisp/obsolete/tpu-extras.elc
 share/emacs/${PKGVERSION}/lisp/obsolete/tpu-mapper.el.gz
 share/emacs/${PKGVERSION}/lisp/obsolete/tpu-mapper.elc
+share/emacs/${PKGVERSION}/lisp/obsolete/vc-arch.el.gz
+share/emacs/${PKGVERSION}/lisp/obsolete/vc-arch.elc
 share/emacs/${PKGVERSION}/lisp/obsolete/vc-mcvs.el.gz
 share/emacs/${PKGVERSION}/lisp/obsolete/vc-mcvs.elc
 share/emacs/${PKGVERSION}/lisp/obsolete/vi.el.gz
@@ -3443,6 +3447,8 @@ share/emacs/${PKGVERSION}/lisp/progmodes/vhdl-mode.el.gz
 share/emacs/${PKGVERSION}/lisp/progmodes/vhdl-mode.elc
 share/emacs/${PKGVERSION}/lisp/progmodes/which-func.el.gz
 share/emacs/${PKGVERSION}/lisp/progmodes/which-func.elc
+share/emacs/${PKGVERSION}/lisp/progmodes/xref.el.gz
+share/emacs/${PKGVERSION}/lisp/progmodes/xref.elc
 share/emacs/${PKGVERSION}/lisp/progmodes/xscheme.el.gz
 share/emacs/${PKGVERSION}/lisp/progmodes/xscheme.elc
 share/emacs/${PKGVERSION}/lisp/ps-bdf.el.gz
@@ -3807,8 +3813,6 @@ share/emacs/${PKGVERSION}/lisp/vc/smerge-mode.el.gz
 share/emacs/${PKGVERSION}/lisp/vc/smerge-mode.elc
 share/emacs/${PKGVERSION}/lisp/vc/vc-annotate.el.gz
 share/emacs/${PKGVERSION}/lisp/vc/vc-annotate.elc
-share/emacs/${PKGVERSION}/lisp/vc/vc-arch.el.gz
-share/emacs/${PKGVERSION}/lisp/vc/vc-arch.elc
 share/emacs/${PKGVERSION}/lisp/vc/vc-bzr.el.gz
 share/emacs/${PKGVERSION}/lisp/vc/vc-bzr.elc
 share/emacs/${PKGVERSION}/lisp/vc/vc-cvs.el.gz

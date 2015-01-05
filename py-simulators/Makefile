@@ -13,6 +13,8 @@ COMMENT=	Tools to build an instrument model
 DEPENDS+=	${PYPKGPREFIX}-astropy>=0.3.1:../../wip/py-astropy
 DEPENDS+=	${PYPKGPREFIX}-operators>=0.11.1:../../wip/py-operators
 
+PYTHON_VERSIONS_INCOMPATIBLE=	33 34 # py-astropy
+
 USE_LANGUAGES=	c fortran
 
 PYDISTUTILSPKG=	yes

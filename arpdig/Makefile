@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	arpdig-0.5.2
+DISTNAME=	arpdig-0.5.6
 CATEGORIES=	net
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=arpdig/}
 

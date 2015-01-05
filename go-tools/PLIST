@@ -4,7 +4,6 @@ bin/builder
 bin/buildongce
 bin/callgraph
 bin/coordinator
-bin/cover
 bin/digraph
 bin/eg
 bin/godex
@@ -18,8 +17,9 @@ bin/present
 bin/ssadump
 bin/stringer
 bin/updater
-bin/vet
 bin/watcher
+go/pkg/tool/${GO_PLATFORM}/cover
+go/pkg/tool/${GO_PLATFORM}/vet
 gopkg/pkg/${GO_PLATFORM}/golang.org/x/tools/astutil.a
 gopkg/pkg/${GO_PLATFORM}/golang.org/x/tools/blog.a
 gopkg/pkg/${GO_PLATFORM}/golang.org/x/tools/blog/atom.a

@@ -13,7 +13,7 @@ LICENSE=	modified-bsd
 DEPENDS+=	${PYPKGPREFIX}-sqlalchemy>=0.7:../../databases/py-sqlalchemy
 DEPENDS+=    	${PYPKGPREFIX}-rpy>=2.1.3:../../math/py-rpy
 DEPENDS+=	${PYPKGPREFIX}-sphinx-[0-9]*:../../textproc/py-sphinx
-DEPENDS+=	${PYPKGPREFIX}-openpyxl>=1.6.2:../../wip/py-openpyxl
+DEPENDS+=	${PYPKGPREFIX}-openpyxl>=1.6.2:../../textproc/py-openpyxl
 
 USE_LANGUAGES=	# none
 

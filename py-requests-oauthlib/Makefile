@@ -2,7 +2,6 @@
 
 DISTNAME=	requests-oauthlib-0.4.0
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
-EGG_NAME=	requests_oauthlib-0.4.0
 CATEGORIES=	security python
 MASTER_SITES=	https://pypi.python.org/packages/source/r/requests-oauthlib/
 

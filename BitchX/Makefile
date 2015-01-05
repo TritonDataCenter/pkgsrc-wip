@@ -1,17 +1,13 @@
 # $NetBSD$
 
-DISTNAME=	BitchX-1.2-final
-PKGNAME=	bitchx-1.2 # XXX ${DISTNAME:S|-final||:LC}
-PKGREVISION=	1
+DISTNAME=	bitchx-1.2.1
 CATEGORIES=	chat
-MASTER_SITES=	http://www.bitchx.ca/
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=bitchx/}
+
 
 MAINTAINER=	noud4@users.sourceforge.net
 HOMEPAGE=	http://www.bitchx.org/
 COMMENT=	IRC client based on ircII
-
-# This package is not even remotely 64-bit clean
-NOT_FOR_PLATFORM=	${LP64PLATFORMS}
 
 USE_TOOLS+=	bash
 

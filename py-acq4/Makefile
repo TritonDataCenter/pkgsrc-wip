@@ -12,7 +12,7 @@ LICENSE = mit
 
 #DEPENDS+=	${PYPKGPREFIX}-Pillow>=2.2.1:../../graphics/py-Pillow
 DEPENDS+=	${PYPKGPREFIX}-scipy>=0.12.1:../../math/py-scipy
-DEPENDS+=	${PYPKGPREFIX}-h5py>=2.2.1:../../wip/py-h5py
+DEPENDS+=	${PYPKGPREFIX}-h5py>=2.2.1:../../devel/py-h5py
 
 USE_LANGUAGES=	# none
 

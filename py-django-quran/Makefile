@@ -1,12 +1,9 @@
 # $NetBSD$
-#
 
-DISTNAME=	django-quran-0.1.tar
-EGG_NAME=	django_quran-0.1
-PKGNAME=	${PYPKGPREFIX}-${EGG_NAME}
+DISTNAME=	django-quran-0.1
+PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
 CATEGORIES=	www
 MASTER_SITES=	http://pypi.python.org/packages/source/d/django-quran/
-EXTRACT_SUFX=	.gz
 
 MAINTAINER=	kamelderouiche@yahoo.com
 HOMEPAGE=	http://github.com/idris/django-quran
@@ -15,7 +12,8 @@ LICENSE=	modified-bsd
 
 DEPENDS+=	${PYPKGPREFIX}-django-[0-9]*:../../www/py-django
 
-WRKSRC=		${WRKDIR}/django-quran-0.1
+PYTHON_VERSIONS_INCOMPATIBLE=	33 34 # not yet ported as of 0.1
+
 USE_LANGUAGES=	# none
 
 TEST_ENV+=	PYTHONPATH=${WRKSRC}/quran

@@ -38,7 +38,6 @@ CONFIGURE_ARGS+=	--disable-tests
 CONFIGURE_ARGS+=	--disable-pedantic
 CONFIGURE_ARGS+=	--enable-crypto
 CONFIGURE_ARGS+=	--with-pthreads
-CONFIGURE_ARGS+=	--disable-javaxpcom
 CONFIGURE_ARGS+=	--enable-default-toolkit=cairo-gtk2
 CONFIGURE_ARGS+=	--enable-gstreamer=1.0
 #CONFIGURE_ARGS+=	--disable-gstreamer
@@ -86,7 +85,6 @@ CONFIGURE_ARGS+=	--enable-url-classifier
 #CONFIGURE_ARGS+=	--enable-startup-notification
 # Disabled from https://bugzilla.mozilla.org/show_bug.cgi?id=977400
 #CONFIGURE_ARGS+=	--enable-shared-js
-CONFIGURE_ARGS+=	--with-system-ply
 CONFIGURE_ARGS+=	--disable-icf
 CONFIGURE_ARGS+=	--disable-necko-wifi
 CONFIGURE_ARGS+=	--disable-updater
@@ -114,12 +112,6 @@ PYTHON_VERSIONS_INCOMPATIBLE=	33 34 # py-sqlite2
 CONFIGURE_ENV+=		PYTHON=${PYTHONBIN:Q}
 
 #BUILD_MAKE_FLAGS+=		MOZ_WEBRTC_IN_LIBXUL=1
-
-SUBST_CLASSES+=		python
-SUBST_STAGE.python=	pre-configure
-SUBST_MESSAGE.python=	Fixing path to python.
-SUBST_FILES.python+=	media/webrtc/trunk/build/common.gypi
-SUBST_SED.python+=	-e 's,<!(python,<!(${PYTHONBIN},'
 
 # Build outside ${WRKSRC}
 # Try to avoid conflict with config/makefiles/xpidl/Makefile.in

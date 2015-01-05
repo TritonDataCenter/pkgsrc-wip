@@ -117,6 +117,9 @@ ${PYSITELIB}/pykrylov/tools/eps.pyo
 ${PYSITELIB}/pykrylov/tools/setup.py
 ${PYSITELIB}/pykrylov/tools/setup.pyc
 ${PYSITELIB}/pykrylov/tools/setup.pyo
+${PYSITELIB}/pykrylov/tools/types.py
+${PYSITELIB}/pykrylov/tools/types.pyc
+${PYSITELIB}/pykrylov/tools/types.pyo
 ${PYSITELIB}/pykrylov/tools/utils.py
 ${PYSITELIB}/pykrylov/tools/utils.pyc
 ${PYSITELIB}/pykrylov/tools/utils.pyo

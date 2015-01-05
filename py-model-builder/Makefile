@@ -1,7 +1,6 @@
 # $NetBSD$
 
 DISTNAME=	Model-Builder-0.4.6
-EGG_NAME=	Model_Builder-0.4.6
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME:S/M/m/S/B/b/}
 CATEGORIES=	math python
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=model-builder/}
