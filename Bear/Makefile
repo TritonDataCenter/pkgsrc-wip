@@ -18,6 +18,14 @@ USE_TOOLS+=	gmake
 INSTALLATION_DIRS=	${EGDIR}
 CONF_FILES=	${EGDIR}/bear.conf ${PKG_SYSCONFDIR}/bear.conf
 
+.include "../../mk/bsd.prefs.mk"
+
+.if ${_OPSYS_SHLIB_TYPE} == "dylib"
+PLIST_SUBST+=   LIBEXT=dylib
+.else
+PLIST_SUBST+=   LIBEXT=so
+.endif
+
 post-install:
 	${INSTALL_DATA} ${WRKSRC}/src/bear.conf ${DESTDIR}${EGDIR}
 
