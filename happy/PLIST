@@ -1,5 +1,6 @@
 @comment $NetBSD$
 bin/happy
+man/man1/happy.1
 share/doc/${PKGNAME}/LICENSE
 share/${PKGNAME}/GLR_Base
 share/${PKGNAME}/GLR_Lib
