@@ -7,9 +7,11 @@ lib/ConsoleKit/scripts/ck-system-restart
 lib/ConsoleKit/scripts/ck-system-stop
 lib/libck-connector.la
 lib/pkgconfig/ck-connector.pc
+lib/security/pam_ck_connector.la
 libexec/ck-collect-session-info
 libexec/ck-get-x11-display-device
 libexec/ck-get-x11-server-pid
+man/man8/pam_ck_connector.8
 sbin/ck-log-system-restart
 sbin/ck-log-system-start
 sbin/ck-log-system-stop
