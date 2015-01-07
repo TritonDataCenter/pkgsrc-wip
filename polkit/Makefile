@@ -54,6 +54,12 @@ CONF_FILES+=	${PREFIX}/share/examples/polkit/polkit-1/rules.d/50-default.rules \
 
 .include "options.mk"
 
+SUBST_CLASSES+=		paths
+SUBST_STAGE.paths=	pre-configure
+SUBST_FILES.paths+=	docs/man/pkexec.xml
+SUBST_FILES.paths+=	src/examples/org.freedesktop.policykit.examples.pkexec.policy.in
+SUBST_SED.paths+=	-e 's,/usr/bin/,${PREFIX}/bin/,g'
+
 .include "../../wip/spidermonkey17/buildlink3.mk"
 .include "../../devel/gettext-lib/buildlink3.mk"
 .include "../../devel/glib2/buildlink3.mk"
