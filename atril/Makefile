@@ -33,7 +33,9 @@ PKGCONFIG_OVERRIDE+=	atril-view.pc.in
 .include "../../graphics/hicolor-icon-theme/buildlink3.mk"
 .include "../../textproc/libxml2/buildlink3.mk"
 .include "../../x11/gtk2/buildlink3.mk"
+.if !empty(PKG_BUILD_OPTIONS.gtk2:Mx11)
 .include "../../x11/libSM/buildlink3.mk"
+.endif
 .include "../../x11/libX11/buildlink3.mk"
 .include "../../sysutils/desktop-file-utils/desktopdb.mk"
 .include "../../mk/bsd.pkg.mk"
