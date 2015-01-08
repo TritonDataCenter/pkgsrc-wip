@@ -10,6 +10,8 @@ HOMEPAGE=	http://www.mate-desktop.org/
 COMMENT=	Icons and themes for MATE desktop
 LICENSE=	gnu-lgpl-v2.1
 
+DEPENDS+=	gtk2-engines-murrine>=0.98.0:../../x11/gtk2-engines-murrine
+
 GNU_CONFIGURE=		yes
 USE_PKGLOCALEDIR=	yes
 USE_TOOLS+=		gmake intltool msgfmt pkg-config
