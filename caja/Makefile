@@ -8,7 +8,7 @@ EXTRACT_SUFX=	.tar.xz
 MAINTAINER=	obache@NetBSD.org
 HOMEPAGE=	http://www.mate-desktop.org/
 COMMENT=	File manager for the MATE desktop
-LICENSE=	gnu-gpl-v2 AND gnu-gpl-v2
+LICENSE=	gnu-gpl-v2 AND gnu-lgpl-v2
 
 GNU_CONFIGURE=		yes
 USE_LIBTOOL=		yes
