@@ -11,6 +11,6 @@ LICENSE=	gnu-gpl-v2
 
 .include "../../wip/mk/haskell.mk"
 .include "../../wip/alex/buildlink3.mk"
-.include "../../wip/happy/buildlink3.mk"
+.include "../../devel/happy/buildlink3.mk"
 .include "../../devel/hs-random/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"
