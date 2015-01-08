@@ -186,7 +186,7 @@ Fix deprecated use of polkit_authority_get().
          open_session_for_leader (manager,
                                   leader,
                                   parameters,
-@@ -2423,7 +2261,14 @@ register_manager (CkManager *manager)
+@@ -2423,10 +2261,16 @@ register_manager (CkManager *manager)
          GError *error = NULL;
  
  #ifdef HAVE_POLKIT
@@ -201,4 +201,7 @@ Fix deprecated use of polkit_authority_get().
 +        }
  #endif
  
-         error = NULL;
+-        error = NULL;
+         manager->priv->connection = dbus_g_bus_get (DBUS_BUS_SYSTEM, &error);
+         if (manager->priv->connection == NULL) {
+                 if (error != NULL) {
