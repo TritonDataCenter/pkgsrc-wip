@@ -1,5 +1,6 @@
 @comment $NetBSD$
 bin/alex
+man/man1/alex.1
 share/${PKGNAME}/AlexTemplate
 share/${PKGNAME}/AlexTemplate-debug
 share/${PKGNAME}/AlexTemplate-ghc
