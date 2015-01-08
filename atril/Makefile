@@ -10,6 +10,8 @@ HOMEPAGE=	http://www.mate-desktop.org/
 COMMENT=	Simple multi-page document viewer for the MATE environment
 LICENSE=	gnu-gpl-v2
 
+TOOL_DEPENDS+=	itstool-[0-9]*:../../textproc/itstool
+
 GNU_CONFIGURE=		yes
 USE_LIBTOOL=		yes
 USE_TOOLS+=		gmake intltool msgfmt pkg-config
