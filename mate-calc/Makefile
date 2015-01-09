@@ -10,6 +10,8 @@ HOMEPAGE=	http://www.mate-desktop.org/
 COMMENT=	Calculator application for MATE desktop
 LICENSE=	gnu-gpl-v2
 
+TOOL_DEPENDS+=	itstool-[0-9]*:../../textproc/itstool
+
 GNU_CONFIGURE=		yes
 USE_TOOLS+=		gmake intltool msgfmt pkg-config
 USE_PKGLOCALEDIR=	yes
