@@ -15,6 +15,8 @@ USE_LIBTOOL=		yes
 USE_TOOLS+=		gmake intltool msgfmt pkg-config
 USE_PKGLOCALEDIR=	yes
 
+CONFIGURE_ARGS+=	--sysconfdir=${PKG_SYSCONFDIR}
+
 INSTALL_MAKE_FLAGS+=	sysconfdir=${PREFIX}/share/examples/mate-applets
 
 MAKE_DIRS+=	${PKG_SYSCONFDIR}/sound/events
