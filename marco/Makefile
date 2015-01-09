@@ -6,7 +6,7 @@ MASTER_SITES=	http://pub.mate-desktop.org/releases/1.8/
 EXTRACT_SUFX=	.tar.xz
 
 MAINTAINER=	obache@NetBSD.org
-HOMEPAGE=	http://pub.mate-desktop.org/releases/1.8/
+HOMEPAGE=	http://www.mate-desktop.org/
 COMMENT=	MATE Marco is a fork of GNOME Metacity
 LICENSE=	gnu-gpl-v2
 
