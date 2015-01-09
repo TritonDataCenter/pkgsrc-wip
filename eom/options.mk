@@ -57,4 +57,3 @@ CONFIGURE_ARGS+=	--with-xmp
 .else
 CONFIGURE_ARGS+=	--without-xmp
 .endif
-
