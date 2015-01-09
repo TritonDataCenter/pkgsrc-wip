@@ -11,6 +11,7 @@ COMMENT=	Calculator application for MATE desktop
 LICENSE=	gnu-gpl-v2
 
 TOOL_DEPENDS+=	itstool-[0-9]*:../../textproc/itstool
+TOOL_DEPENDS+=	libxml2-[0-9]*:../../textproc/libxml2  # for xmllint
 
 GNU_CONFIGURE=		yes
 USE_TOOLS+=		gmake intltool msgfmt pkg-config

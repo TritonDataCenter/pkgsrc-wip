@@ -11,6 +11,7 @@ COMMENT=	MATE panel applets
 LICENSE=	gnu-gpl-v2 AND gnu-fdl-v1.1
 
 TOOL_DEPENDS+=	itstool-[0-9]*:../../textproc/itstool
+TOOL_DEPENDS+=	libxml2-[0-9]*:../../textproc/libxml2 # for xmllint
 
 GNU_CONFIGURE=		yes
 USE_LIBTOOL=		yes
