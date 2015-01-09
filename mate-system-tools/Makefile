@@ -10,6 +10,7 @@ HOMEPAGE=	http://www.mate-desktop.org/
 COMMENT=	MATE System Tools
 LICENSE=	gnu-gpl-v2
 
+TOOL_DEPENDS+=	itstool-[0-9]*:../../textproc/itstool
 TOOL_DEPENDS+=	libxml2-[0-9]*:../../textproc/libxml2 # for xmllint
 
 GNU_CONFIGURE=		yes
