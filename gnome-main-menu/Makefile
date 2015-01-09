@@ -17,10 +17,9 @@ USE_TOOLS+=		gmake intltool msgfmt pkg-config
 
 .include "../../devel/glib2/schemas.mk"
 
-# NetworkManager
 .include "../../wip/mate-panel/buildlink3.mk"
 .include "../../wip/mate-desktop/buildlink3.mk"
-#.include "../../wip/mate-control-center/buildlink3.mk"
+.include "../../wip/mate-control-center/buildlink3.mk"
 .include "../../wip/caja/buildlink3.mk"
 .include "../../devel/glib2/buildlink3.mk"
 .include "../../graphics/cairo/buildlink3.mk"
