@@ -23,7 +23,7 @@ CONFIGURE_ARGS+=	--sysconfdir=${PKG_SYSCONFDIR}
 
 INSTALL_MAKE_FLAGS+=	sysconfdir=${PREFIX}/share/examples/${PKGBASE}
 
-MAKE_DIRS+=	${PKG_SYSCONFDIR}xdg/menus
+MAKE_DIRS+=	${PKG_SYSCONFDIR}/xdg/menus
 CONF_FILES+=	${PREFIX}/share/examples/${PKGBASE}/xdg/menus/matecc.menu \
 		${PKG_SYSCONFDIR}/xdg/menus/matecc.menu
 
