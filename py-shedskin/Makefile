@@ -2,7 +2,7 @@
 
 DISTNAME=	shedskin-0.9.4
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
-PKGREVISION=	1	
+PKGREVISION=	1
 CATEGORIES=	lang python
 MASTER_SITES=	http://shedskin.googlecode.com/files/
 EXTRACT_SUFX=	.tgz
