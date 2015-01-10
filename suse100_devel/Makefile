@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=		suse_devel-${SUSE_VERSION}
+PKGNAME=		suse_devel-${SUSE_VERSION}
 PKGREVISION=		1
 CATEGORIES=		emulators
 DISTFILES=		binutils-2.16.91.0.2-8.2.${SUSE_ARCH}.rpm \

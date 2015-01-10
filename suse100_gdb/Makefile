@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=		suse_gdb-${SUSE_VERSION}
+PKGNAME=		suse_gdb-${SUSE_VERSION}
 PKGREVISION=		1
 CATEGORIES=		emulators
 DISTFILES=		gdb-6.3-20.${SUSE_ARCH}.rpm

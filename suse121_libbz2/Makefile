@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	suse_libbz2-${SUSE_VERSION}
+PKGNAME=	suse_libbz2-${SUSE_VERSION}
 CATEGORIES=	emulators
 RPMPKGS+=	libbz2-1-1.0.6-14.1.4.${SUSE_ARCH}
 

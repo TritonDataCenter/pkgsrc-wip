@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	suse_libgpg-error-${SUSE_VERSION}
+PKGNAME=	suse_libgpg-error-${SUSE_VERSION}
 CATEGORIES=	emulators
 RPMPKGS+=	 libgpg-error0-1.10-2.1.2.${SUSE_ARCH}
 

@@ -1,6 +1,6 @@
 # $NetBSD: Makefile,v 1.6 2008/09/03 09:45:59 obache Exp $
 
-DISTNAME=	suse_glut-${SUSE_VERSION}
+PKGNAME=	suse_glut-${SUSE_VERSION}
 CATEGORIES=	emulators
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
