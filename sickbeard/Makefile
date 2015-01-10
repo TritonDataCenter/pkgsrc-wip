@@ -1,8 +1,7 @@
 # $NetBSD$
 
-DISTNAME=	sickbeard-${DISTVERSION}
+DISTNAME=	sickbeard-0.0.20130329
 COMMIT_SHA=	91c428a43765a1476ec268f73cd62051a64bf4e0
-DISTVERSION= ${COMMIT_SHA:C/([a-f0-9]{7}).*/\1/}
 CATEGORIES=	news
 MASTER_SITES=	-https://github.com/midgetspy/Sick-Beard/tarball/${COMMIT_SHA}
 # DISTFILE is the the filename to save the download as
