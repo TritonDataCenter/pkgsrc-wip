@@ -2,7 +2,7 @@
 
 VERSION=	2.2
 DISTNAME=	SnapPy
-PKGNAME=	${PYPKGPREFIX}-math-${DISTNAME:tl}-${VERSION}
+PKGNAME=	${PYPKGPREFIX}-math-snappy-${VERSION}
 EGG_NAME=	${DISTNAME:tl}-${VERSION}
 CATEGORIES=	math python
 MASTER_SITES=	http://snappy.computop.org/get/
