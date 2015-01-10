@@ -1,7 +1,7 @@
 # $NetBSD$
 
 DISTNAME=	GTK2-Galaxy
-PKGNAME=	${DISTNAME:tl:S/-/-engines-/1}-0.2
+PKGNAME=	gtk2-engines-galaxy-0.2
 CATEGORIES=	x11
 MASTER_SITES=	${MASTER_SITE_GNOME:=teams/art.gnome.org/archive/themes/gtk2/}
 
