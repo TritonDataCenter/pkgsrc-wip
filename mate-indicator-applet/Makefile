@@ -16,7 +16,7 @@ USE_PKGLOCALEDIR=	yes
 USE_TOOLS+=		gmake intltool msgfmt pkg-config
 
 .include "../../wip/mate-panel/buildlink3.mk"
-.include "../../wip/libindicator-gtk2/buildlink3.mk"
+.include "../../wip/libindicator/buildlink3.mk"
 .include "../../graphics/hicolor-icon-theme/buildlink3.mk"
 .include "../../x11/gtk2/buildlink3.mk"
 .include "../../x11/libX11/buildlink3.mk"
