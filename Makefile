@@ -3371,6 +3371,7 @@ SUBDIR+=	shunt
 SUBDIR+=	sic
 SUBDIR+=	sickbeard
 SUBDIR+=	siege
+SUBDIR+=	signify
 SUBDIR+=	sil-scheherazade-ttf
 SUBDIR+=	silky
 SUBDIR+=	silo
