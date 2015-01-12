@@ -22,11 +22,7 @@ PKGCONFIG_OVERRIDE+=	libdbusmenu-gtk/dbusmenu-gtk3-0.4.pc.in
 PKGCONFIG_OVERRIDE+=	libdbusmenu-gtk/dbusmenu-gtk-0.4.pc.in
 PKGCONFIG_OVERRIDE+=	tests/dbusmenu-jsonloader-0.4.pc.in
 
-SUBST_CLASSES+=		python
-SUBST_MESSAGE.python=	Fixing python interpreter.
-SUBST_FILES.python=	tools/dbusmenu-bench
-SUBST_STAGE.python=	post-build
-SUBST_SED.python=	-e "s|/usr/bin/env python|${PYTHONBIN}|1"
+REPLACE_PYTHON+=	tools/dbusmenu-bench
 
 .include "../../mk/bsd.prefs.mk"
 
