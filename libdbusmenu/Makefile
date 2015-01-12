@@ -32,7 +32,7 @@ REPLACE_PYTHON+=	tools/dbusmenu-bench
 .include "../../lang/python/application.mk"
 BUILDLINK_DEPMETHOD.gobject-introspection+=	build
 .include "../../devel/gobject-introspection/buildlink3.mk"
-BUILDLINK_ABI_DEPENDS.libX11+=	libX11>=1.3
+BUILDLINK_API_DEPENDS.libX11+=	libX11>=1.3
 .include "../../x11/libX11/buildlink3.mk"
 .include "../../x11/gtk2/buildlink3.mk"
 .include "../../devel/atk/buildlink3.mk"
