@@ -11,6 +11,8 @@ HOMEPAGE=	https://launchpad.net/dbusmenu/
 COMMENT=	Small library created by pulling some code from indicator-applet
 LICENSE=	gnu-lgpl-v3 AND gnu-lgpl-v2.1 AND gnu-lgpl-v3
 
+TOOL_DEPENDS+=	libxslt-[0-9]*:../../textproc/libxslt # xsltproc
+
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
 USE_TOOLS+=	gmake msgfmt msgmerge intltool perl pkg-config xgettext
@@ -33,7 +35,6 @@ BUILD_DEPENDS+=		valgrind-[0-9]*:../../devel/valgrind
 .endif
 
 .include "../../lang/python/application.mk"
-.include "../../textproc/libxslt/buildlink3.mk"
 BUILDLINK_DEPMETHOD.gobject-introspection+=	build
 .include "../../devel/gobject-introspection/buildlink3.mk"
 .include "../../textproc/json-glib/buildlink3.mk"
