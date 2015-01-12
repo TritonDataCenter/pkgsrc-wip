@@ -15,7 +15,7 @@ TOOL_DEPENDS+=	libxslt-[0-9]*:../../textproc/libxslt # xsltproc
 
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
-USE_TOOLS+=	gmake msgfmt msgmerge intltool perl pkg-config xgettext
+USE_TOOLS+=	gmake msgfmt msgmerge intltool pkg-config xgettext
 
 PKGCONFIG_OVERRIDE+=	libdbusmenu-glib/dbusmenu-glib-0.4.pc.in
 PKGCONFIG_OVERRIDE+=	libdbusmenu-gtk/dbusmenu-gtk3-0.4.pc.in
