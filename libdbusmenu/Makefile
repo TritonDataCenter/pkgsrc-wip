@@ -12,6 +12,7 @@ COMMENT=	Small library created by pulling some code from indicator-applet
 LICENSE=	gnu-lgpl-v3 AND gnu-lgpl-v2.1 AND gnu-lgpl-v3
 
 TOOL_DEPENDS+=	libxslt-[0-9]*:../../textproc/libxslt # xsltproc
+DEPENDS+=	${PYPKGPREFIX}-expat-[0-9]*:../../textproc/py-expat
 
 GNU_CONFIGURE=	yes
 USE_LIBTOOL=	yes
