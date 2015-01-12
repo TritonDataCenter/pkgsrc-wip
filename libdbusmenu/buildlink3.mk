@@ -8,7 +8,6 @@ LIBDBUSMENU_BUILDLINK3_MK:=
 BUILDLINK_API_DEPENDS.libdbusmenu+=	libdbusmenu>=12.10.2
 BUILDLINK_PKGSRCDIR.libdbusmenu?=	../../wip/libdbusmenu
 
-.include "../../textproc/json-glib/buildlink3.mk"
 .include "../../x11/libX11/buildlink3.mk"
 .include "../../x11/gtk2/buildlink3.mk"
 .include "../../devel/atk/buildlink3.mk"
