@@ -9,6 +9,7 @@ MASTER_SITES=		http://www.hpl.hp.com/personal/Jean_Tourrilhes/Linux/
 MAINTAINER=		pkgsrc-users@NetBSD.org
 HOMEPAGE=		http://www.hpl.hp.com/personal/Jean_Tourrilhes/Linux/Tools.html
 COMMENT=		Tools for manipulating Linux Wireless Extensions
+LICENSE=		gnu-gpl-v2
 
 PKG_DESTDIR_SUPPORT= 	none
 
