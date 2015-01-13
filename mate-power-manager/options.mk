@@ -1,6 +1,6 @@
 # $NetBSD$
 
-PKG_OPTIONS_VAR=	PKG_OPTIONS.gnome-power-manager
+PKG_OPTIONS_VAR=	PKG_OPTIONS.mate-power-manager
 PKG_SUPPORTED_OPTIONS=	keyring
 PKG_SUGGESTED_OPTIONS=	keyring
 
