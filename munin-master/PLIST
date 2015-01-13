@@ -29,6 +29,7 @@ man/man3/Munin::Master::Group.3
 man/man3/Munin::Master::GroupRepository.3
 man/man3/Munin::Master::HTMLOld.3
 man/man3/Munin::Master::Host.3
+man/man3/Munin::Master::LimitsOld.3
 man/man3/Munin::Master::Logger.3
 man/man3/Munin::Master::Node.3
 man/man3/Munin::Master::ProcessManager.3
@@ -71,5 +72,5 @@ share/examples/munin/templates/partial/navigation.tmpl
 share/examples/munin/templates/partial/path.tmpl
 www/cgi-bin/munin-cgi-graph
 www/cgi-bin/munin-cgi-html
-@pkgdir www/munin/data
+www/munin/data/.htaccess
 @pkgdir share/examples/munin/munin-conf.d

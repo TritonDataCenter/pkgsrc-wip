@@ -204,8 +204,8 @@ ${PERL5_SUB_INSTALLVENDORLIB}/Munin/Plugin/SNMP.pm
 man/man1/munin-node-configure.1
 man/man1/munin-node.1
 man/man1/munin-run.1
-man/man1/munindoc.1
 man/man1/munin-sched.1
+man/man1/munindoc.1
 man/man3/Munin::Node::Config.3
 man/man3/Munin::Node::Configure::Debug.3
 man/man3/Munin::Node::Configure::History.3
