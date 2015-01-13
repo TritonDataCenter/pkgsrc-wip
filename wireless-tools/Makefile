@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		wireless_tools.27
-PKGNAME=		wireless-tools-27
+PKGNAME=		${DISTNAME:S/./-/:S/_/-/}
 CATEGORIES=		net linux
 MASTER_SITES=		http://www.hpl.hp.com/personal/Jean_Tourrilhes/Linux/
 
