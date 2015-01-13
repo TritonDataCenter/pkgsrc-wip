@@ -11,10 +11,7 @@ COMMENT=	Log monitoring program to watch and report on log files
 LICENSE=	isc
 
 USE_TOOLS+=		perl:run
-REPLACE_INTERPRETER+=	perl
-REPLACE.perl.old=	.*/bin/perl
-REPLACE.perl.new=	${PREFIX}/bin/perl
-REPLACE_FILES.perl=	tenshi
+REPLACE_PERL=		tenshi
 EGDIR=			share/examples/${PKGBASE}
 CONF_FILES=		${PREFIX}/${EGDIR}/tenshi.conf ${PKG_SYSCONFDIR}/tenshi/tenshi.conf
 BUILD_DEFS+=		VARBASE
