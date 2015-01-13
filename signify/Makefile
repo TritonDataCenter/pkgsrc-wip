@@ -5,6 +5,7 @@ CATEGORIES=	security
 GHCOMMIT=	ce5f56307017d36267fab4bf86a073a852b05989
 DISTNAME=	${GHCOMMIT}
 MASTER_SITES=	https://github.com/yrmt/signify/archive/
+FETCH_USING=	curl
 
 MAINTAINER=	youri.mout@gmail.com
 HOMEPAGE=	http://github.com/yrmt/signify
