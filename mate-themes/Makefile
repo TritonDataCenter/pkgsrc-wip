@@ -17,6 +17,8 @@ GNU_CONFIGURE=		yes
 USE_PKGLOCALEDIR=	yes
 USE_TOOLS+=		gmake intltool msgfmt pkg-config
 
+CONFIGURE_ARGS+=	--enable-all-themes
+
 .include "../../graphics/icon-naming-utils/buildlink3.mk"
 BUILDLINK_DEPMETHOD.gdk-pixbuf2+=	build
 .include "../../graphics/gdk-pixbuf2/buildlink3.mk"
