@@ -18,14 +18,19 @@ USE_LIBTOOL=		yes
 USE_PKGLOCALEDIR=	yes
 USE_TOOLS+=		gmake intltool msgfmt pkg-config
 
+.include "options.mk"
+
 .include "../../devel/glib2/schemas.mk"
 
 REPLACE_PYTHON+=	mate-terminal.wrapper
 
 .include "../../devel/dconf/buildlink3.mk"
 .include "../../devel/glib2/buildlink3.mk"
+.include "../../x11/gtk2/buildlink3.mk"
 .include "../../x11/vte/buildlink3.mk"
+.if !empty(PKG_BUILD_OPTIONS.gtk2:Mx11)
 .include "../../x11/libX11/buildlink3.mk"
 .include "../../x11/libSM/buildlink3.mk"
+.endif
 .include "../../lang/python/application.mk"
 .include "../../mk/bsd.pkg.mk"
