@@ -16,7 +16,7 @@ post-install:
 	rm -rf ${DESTDIR}${PREFIX}/share/man
 
 BUILD_DEPENDS=	alex:../../wip/alex
-BUILD_DEPENDS+=	happy:../../wip/happy
+BUILD_DEPENDS+=	happy:../../devel/happy
 
 .include "../../wip/mk/haskell.mk"
 .include "../../converters/hs-aeson/buildlink3.mk"

@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	HawkNL17b1src
-PKGNAME=	${DISTNAME:tl:S/17b1src/-1.7beta1/1}
+PKGNAME=	hawknl-1.7beta1
 CATEGORIES=	net
 MASTER_SITES=	http://hawksoft.com/download/files/
 EXTRACT_SUFX=	.zip

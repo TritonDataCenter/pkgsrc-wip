@@ -1,9 +1,8 @@
 # $NetBSD$
-#
 
 DISTNAME=	magnitude-0.9.3
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
-PKGREVISION=	1	
+PKGREVISION=	1
 CATEGORIES=	math
 MASTER_SITES=	http://magnitude.googlecode.com/files/
 

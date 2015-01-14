@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=		ltp-git
+DISTNAME=		ltp-0.0
 CATEGORIES=		devel
 GIT_REPOSITORIES=	ltp
 GIT_REPO.ltp=		git@github.com:linux-test-project/ltp.git

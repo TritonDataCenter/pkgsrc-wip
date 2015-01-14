@@ -27,7 +27,7 @@ MAKE_DIRS+=	${PKG_SYSCONFDIR}/xdg/menus
 CONF_FILES+=	${PREFIX}/share/examples/mate-menus/xdg/menus/mate-applications.menu \
 		${PKG_SYSCONFDIR}/xdg/menus/mate-applications.menu
 CONF_FILES+=	${PREFIX}/share/examples/mate-menus/xdg/menus/mate-settings.menu \
-		${PKG_SYSCONFDIR}/xdg/menus/mate-menus/xdg/menus/mate-settings.menu
+		${PKG_SYSCONFDIR}/xdg/menus/mate-settings.menu
 
 .include "../../devel/glib2/buildlink3.mk"
 .include "../../mk/bsd.pkg.mk"

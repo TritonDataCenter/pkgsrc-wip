@@ -10,6 +10,8 @@ HOMEPAGE=	http://www.mate-desktop.org/
 COMMENT=	Archive manager utility for the MATE Environment
 LICENSE=	gnu-gpl-v2
 
+TOOL_DEPENDS+=	itstool-[0-9]*:../../textproc/itstool
+
 GNU_CONFIGURE=		yes
 USE_LIBTOOL=		yes
 USE_TOOLS+=		gmake intltool msgfmt pkg-config
@@ -20,7 +22,6 @@ USE_PKGLOCALEDIR=	yes
 
 .include "../../wip/caja/buildlink3.mk"
 .include "../../devel/glib2/buildlink3.mk"
-.include "../../devel/libglade/buildlink3.mk"
 .include "../../graphics/hicolor-icon-theme/buildlink3.mk"
 .include "../../textproc/json-glib/buildlink3.mk"
 .include "../../x11/gtk2/buildlink3.mk"

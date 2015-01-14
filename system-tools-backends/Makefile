@@ -40,10 +40,7 @@ CONFIGURE_ARGS+=	--sysconfdir=${PKG_SYSCONFDIR}
 
 INSTALL_MAKE_FLAGS+=	systemddir=${EGDIR}
 
-DEPENDS+=	p5-XML-Twig>=3.32:../../textproc/p5-XML-Twig
 DEPENDS+=	p5-Net-DBus>=0.33.6:../../net/p5-Net-DBus
-DEPENDS+=	p5-libwww>=5.820:../../www/p5-libwww
-DEPENDS+=	p5-URI>=1.37:../../www/p5-URI
 
 REPLACE_PERL+=	SystemToolsBackends.pl.in
 REPLACE_PERL+=	Utils/*.pm

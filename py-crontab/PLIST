@@ -1,0 +1,7 @@
+@comment $NetBSD$
+${PYSITELIB}/cronlog.py
+${PYSITELIB}/cronlog.pyc
+${PYSITELIB}/cronlog.pyo
+${PYSITELIB}/crontab.py
+${PYSITELIB}/crontab.pyc
+${PYSITELIB}/crontab.pyo

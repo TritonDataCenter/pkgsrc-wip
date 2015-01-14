@@ -10,6 +10,9 @@ HOMEPAGE=	http://www.mate-desktop.org/
 COMMENT=	Simple multi-page document viewer for the MATE environment
 LICENSE=	gnu-gpl-v2
 
+TOOL_DEPENDS+=	itstool-[0-9]*:../../textproc/itstool
+TOOL_DEPENDS+=	libxml2-[0-9]*:../../textproc/libxml2 # for xmllint
+
 GNU_CONFIGURE=		yes
 USE_LIBTOOL=		yes
 USE_TOOLS+=		gmake intltool msgfmt pkg-config
@@ -31,7 +34,9 @@ PKGCONFIG_OVERRIDE+=	atril-view.pc.in
 .include "../../graphics/hicolor-icon-theme/buildlink3.mk"
 .include "../../textproc/libxml2/buildlink3.mk"
 .include "../../x11/gtk2/buildlink3.mk"
+.if !empty(PKG_BUILD_OPTIONS.gtk2:Mx11)
 .include "../../x11/libSM/buildlink3.mk"
+.endif
 .include "../../x11/libX11/buildlink3.mk"
 .include "../../sysutils/desktop-file-utils/desktopdb.mk"
 .include "../../mk/bsd.pkg.mk"

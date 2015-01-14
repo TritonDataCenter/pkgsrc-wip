@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	suse_libgcrypt-${SUSE_VERSION}
+PKGNAME=	suse_libgcrypt-${SUSE_VERSION}
 CATEGORIES=	emulators
 RPMPKGS+=	libgcrypt11-1.5.0-2.1.2.${SUSE_ARCH}
 

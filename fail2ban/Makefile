@@ -55,6 +55,7 @@ SUBST_MESSAGE.paths=	Substituting paths variables.
 SUBST_VARS.paths+=	VARBASE
 SUBST_FILES.paths=	${WRKSRC}/bin/fail2ban-client
 SUBST_FILES.paths+=	${WRKSRC}/fail2ban/client/configreader.py
+SUBST_FILES.paths+=	${WRKSRC}/fail2ban/tests/utils.py
 SUBST_FILES.paths+=	${WRKSRC}/man/fail2ban-client.1
 SUBST_FILES.paths+=	${WRKSRC}/man/fail2ban-client.h2m
 SUBST_FILES.paths+=	${WRKSRC}/setup.py

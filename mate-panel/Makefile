@@ -19,6 +19,9 @@ PKGCONFIG_OVERRIDE+=	libmate-panel-applet/libmatepanelapplet-4.0.pc.in
 
 CONFIGURE_ARGS+=	--with-in-process-applets=all
 
+PYTHON_FOR_BUILD_ONLY=	yes
+.include "../../lang/python/tool.mk"
+
 .include "options.mk"
 
 .include "../../devel/glib2/schemas.mk"

@@ -2,7 +2,7 @@
 #
 
 DISTNAME=	emerald-themes-becbfa5be845a4721d8912ed55c3ff4607fe97ba
-PKGNAME=	${DISTNAME:C/-b.+/-0.6.99/W}
+PKGNAME=	emerald-themes-0.6.99
 CATEGORIES=	wm
 MASTER_SITES=	http://cgit.compiz.org/fusion/decorators/emerald-themes/snapshot/
 EXTRACT_SUFX=	.tar.bz2

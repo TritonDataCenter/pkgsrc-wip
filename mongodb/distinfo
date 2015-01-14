@@ -14,5 +14,3 @@ SHA1 (patch-src_mongo_s_chunk__manager__targeter.cpp) = 05441130c715c947edd00fad
 SHA1 (patch-src_mongo_shell_dbshell.cpp) = c60ecb69a5c40e55eb602c5838dcf9d82008446e
 SHA1 (patch-src_mongo_util_mmap__posix.cpp) = b8719c3808ba299d9bad77b5e6556b3dfd4bf121
 SHA1 (patch-src_mongo_shell_linenoise__utf8.h) = 28632f33b0ab972f765fb3c5c515cfd0d6012d3e
-SHA1 (patch-src_third__party_s2_s2.cc) = 953e9d9870d7c7d7fb0c8d7f228192416bf7efbe
-SHA1 (patch-src_third__party_s2_s2polygonbuilder.cc) = a1e3c5120522a7ced38e51671478acfa0ca7a6de

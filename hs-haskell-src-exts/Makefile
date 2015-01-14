@@ -7,7 +7,7 @@ MAINTAINER=	pho@cielonegro.org
 COMMENT=	Manipulating Haskell source
 LICENSE=	modified-bsd
 
-BUILD_DEPENDS=	happy:../../wip/happy
+BUILD_DEPENDS=	happy:../../devel/happy
 
 .include "../../mk/haskell.mk"
 .include "../../devel/hs-cpphs/buildlink3.mk"

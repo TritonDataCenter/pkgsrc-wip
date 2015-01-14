@@ -1,13 +1,22 @@
 # $NetBSD$
-#
 
-DISTNAME=	alex-3.1.3
+DISTNAME=	alex-3.1.4
 PKGNAME=	${DISTNAME}
 CATEGORIES=	devel
+
 MAINTAINER=	esg@sdf.lonestar.org
-HOMEPAGE=	http://www.haskell.org/alex/
 COMMENT=	Tool for generating lexical analysers in Haskell
 LICENSE=	modified-bsd
+
+USE_TOOLS+=	autoconf
+
+INSTALLATION_DIRS+=	${PKGMANDIR}/man1
+
+pre-configure:
+	cd ${WRKSRC}/doc && autoconf && ./configure
+
+post-install:
+	${INSTALL_MAN} ${WRKSRC}/doc/alex.1 ${DESTDIR}${PREFIX}/${PKGMANDIR}/man1
 
 .include "../../wip/mk/haskell.mk"
 .include "../../wip/hs-QuickCheck/buildlink3.mk"

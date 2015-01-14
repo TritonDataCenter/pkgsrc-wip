@@ -1,0 +1,4 @@
+@comment $NetBSD$
+sbin/ntimed-client
+share/doc/ntimed/README.rst
+share/doc/ntimed/plotgen.py
