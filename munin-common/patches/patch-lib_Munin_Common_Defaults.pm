@@ -9,7 +9,7 @@ Initialize default paths for all Munin components.
  
  our $MUNIN_PREFIX     = '';
 -our $MUNIN_CONFDIR    = "$COMPONENT_ROOT/t/config/";
-+our $MUNIN_CONFDIR    = '@PKG_SYSCONFDIR@/munin/';
++our $MUNIN_CONFDIR    = '@PKG_SYSCONFDIR@/';
  our $MUNIN_BINDIR     = '';
  our $MUNIN_SBINDIR    = '';
  our $MUNIN_DOCDIR     = '';
