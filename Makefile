@@ -2433,6 +2433,7 @@ SUBDIR+=	pt-ttf
 SUBDIR+=	ptpd
 SUBDIR+=	pts
 SUBDIR+=	ptunnel
+SUBDIR+=	publicfile-run
 SUBDIR+=	pudb
 SUBDIR+=	pulseaudio
 SUBDIR+=	pure
