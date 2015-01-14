@@ -18,6 +18,8 @@ USE_LIBTOOL=		yes
 USE_PKGLOCALEDIR=	yes
 USE_TOOLS+=		gmake intltool msgfmt pkg-config
 
+.include "options.mk"
+
 .include "../../devel/glib2/schemas.mk"
 
 REPLACE_PYTHON+=	mate-terminal.wrapper
