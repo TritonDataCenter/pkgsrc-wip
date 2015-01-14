@@ -1888,6 +1888,7 @@ SUBDIR+=	netkit-telnet
 SUBDIR+=	netkit-tftp
 SUBDIR+=	netlogo
 SUBDIR+=	netrik
+SUBDIR+=	nettle3
 SUBDIR+=	netwib
 SUBDIR+=	netwmpager
 SUBDIR+=	netwox
