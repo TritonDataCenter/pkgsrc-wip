@@ -2,7 +2,6 @@
 
 DISTNAME=	mongodb-src-r2.6.6
 PKGNAME=	${DISTNAME:S/src-r//:S/-rc/rc/}
-PKGREVISION=	1
 CATEGORIES=	databases
 MASTER_SITES=	http://downloads.mongodb.org/src/
 
