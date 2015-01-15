@@ -7,6 +7,7 @@ COMMENT=	Doxygen documentation of GNU Radio
 .include	"../../wip/gnuradio-core/Nocore.mk"
 
 BUILD_DEPENDS+=	doxygen-[0-9]*:../../devel/doxygen
+BUILD_DEPENDS+=	graphviz-[0-9]*:../../graphics/graphviz
 BUILD_DEPENDS+=	${PYPKGPREFIX}-sphinx-[0-9]*:../../textproc/py-sphinx
 
 CMAKE_ARGS+=	-DENABLE_DEFAULT=False
