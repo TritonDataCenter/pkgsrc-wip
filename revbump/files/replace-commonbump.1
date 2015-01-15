@@ -40,6 +40,7 @@
 .Sh SYNOPSIS
 .Nm
 .Op Fl ah
+.Op Fl c Ar directory/package/Makefile.common
 .Op Fl p Ar pkgsrcdir
 .Op Fl T Ar list_file
 .Sh DESCRIPTION
@@ -85,6 +86,14 @@ is given,
 is used instead of the default
 .Pa commonbump .
 .Pp
+If
+.Fl c
+.Ar directory/package/Makefile.common
+is given,
+it shows the result of first half of the processing,
+meaning that
+the particular Makefile.common is referenced from Makefiles of the other packages.
+.Pp
 .Nm
 prints the package name
 (in
@@ -125,3 +134,11 @@ then outputs to the file
 .Xr check-cvs-diff 1 ,
 .Xr finddepends 1 ,
 .Xr revbump 1
+.Sh BUGS
+.Nm replace-commonbump
+employs the Perl Module File::Find, and its 'follow' option is NOT used, so
+.Nm replace-commonbump
+does not follow symbolic links.
+.Xr mount 8
+.Fl t Ar null
+may be an alternative to get similar link.
