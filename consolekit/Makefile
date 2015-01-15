@@ -34,8 +34,8 @@ USE_LIBTOOL=		YES
 
 CONFIGURE_ARGS+=	--sysconfdir=${PKG_SYSCONFBASE:Q}
 CONFIGURE_ARGS+=	--localstatedir=${VARBASE}
-CONFIGURE_ARGS+=	--enable-pam-module
-CONFIGURE_ARGS+=	--with-pam-module-dir=${PREFIX}/lib/security
+
+.include "options.mk"
 
 post-extract:
 	${CP} ${FILESDIR}/ck-sysdeps-netbsd.c ${WRKSRC}/src/
