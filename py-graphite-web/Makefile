@@ -14,6 +14,8 @@ DEPENDS+=	${PYPKGPREFIX}-carbon>=${PKGREVISION_NOREV}:../../wip/py-carbon
 DEPENDS+=	${PYPKGPREFIX}-django>=1.3.1:../../www/py-django
 DEPENDS+=	${PYPKGPREFIX}-django-tagging>=0.3.1:../../www/py-django-tagging
 
+EGG_NAME=	${DISTNAME:S/graphite-/graphite_/}
+
 USE_LANGUAGES=	# none
 PYTHON_VERSIONED_DEPENDENCIES=	cairo
 
