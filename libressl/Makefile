@@ -2,7 +2,7 @@
 
 DISTNAME=	libressl-2.1.2
 CATEGORIES=	security
-MASTER_SITES=	http://ftp.openbsd.org/pub/OpenBSD/LibreSSL/
+MASTER_SITES=	${MASTER_SITE_OPENBSD:=LibreSSL/}
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://www.libressl.org/
