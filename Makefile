@@ -1426,7 +1426,6 @@ SUBDIR+=	libcm
 SUBDIR+=	libcmis
 SUBDIR+=	libcmt
 SUBDIR+=	libcnotify
-SUBDIR+=	libconfuse
 SUBDIR+=	libcouchbase
 SUBDIR+=	libcpath
 SUBDIR+=	libcpu
