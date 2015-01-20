@@ -1,5 +1,7 @@
 $NetBSD$
+
 fprintf requires the format.
+
 --- src/cw.c.orig	2010-06-20 04:39:51.000000000 +0000
 +++ src/cw.c
 @@ -643,7 +643,7 @@ void sighandler(signed int sig){
