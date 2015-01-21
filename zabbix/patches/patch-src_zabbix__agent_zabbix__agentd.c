@@ -1,6 +1,6 @@
 $NetBSD$
 
-Make it possible to tweak the zabbox conf drive/directory on Windows.
+Make it possible to tweak the zabbix conf drive/directory on Windows.
 
 --- src/zabbix_agent/zabbix_agentd.c.orig	2014-11-05 08:01:42.000000000 +0000
 +++ src/zabbix_agent/zabbix_agentd.c
