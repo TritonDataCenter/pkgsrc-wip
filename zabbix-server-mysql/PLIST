@@ -46,5 +46,4 @@ share/zabbix/upgrades/dbpatches/2.2/README
 @pkgdir share/zabbix/externalscripts
 @pkgdir share/zabbix/data
 @pkgdir share/zabbix/alertscripts
-@pkgdir share/doc/zabbix
 @pkgdir etc/zabbix/zabbix_server.conf.d
