@@ -3917,6 +3917,7 @@ SUBDIR+=	xtraceroute
 SUBDIR+=	xtrap
 SUBDIR+=	xtreemfs-client
 SUBDIR+=	xtreemfs-server
+SUBDIR+=	xtrackcad
 SUBDIR+=	xtrlock
 SUBDIR+=	xvmware
 SUBDIR+=	xwelltris
