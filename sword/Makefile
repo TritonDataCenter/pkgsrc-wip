@@ -20,7 +20,7 @@ CONFIGURE_ARGS+=	--with-clucene=${BUILDLINK_PREFIX.libclucene}
 PKGCONFIG_OVERRIDE+=	sword.pc.in
 
 INSTALLATION_DIRS+=share/examples/sword
-INSTALL_TARGET+=install_config
+INSTALL_TARGET= install install_config
 REQD_FILES=	${PREFIX}/share/examples/sword/sword.conf \
 		${PKG_SYSCONFDIR}/sword.conf
 
