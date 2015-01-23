@@ -17,4 +17,4 @@ SHA1 (patch-src_orthographies_MathematicalGreek.h) = b545168f251434595abe8b7353d
 SHA1 (patch-src_orthographies_MathematicalLatin.h) = 254a85c4351356ff9f6d4331abc11d13d2418f60
 SHA1 (patch-src_orthographies_MathematicalNumerals.h) = a15626b00d16c668459b5dcc8f2cdf0c2800a32d
 SHA1 (patch-src_orthographies_MathematicalOperators.h) = b68b99c6b9d8c73c600c9add79f1c3cda52c8535
-SHA1 (patch-src_orthographies_orthographies.h) = a745c9bf7d6b194cf257f7cbf9dbaf03fb2b13a4
+SHA1 (patch-src_orthographies_orthographies.h) = d6f36ad29bc6a4f6bb803ea5a860f428b229b7d2
