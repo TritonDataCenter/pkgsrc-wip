@@ -5,7 +5,7 @@ BUILDLINK_TREE+=	sword
 .if !defined(SWORD_BUILDLINK3_MK)
 SWORD_BUILDLINK3_MK:=
 
-BUILDLINK_API_DEPENDS.sword+=	sword>=1.7.3
+BUILDLINK_API_DEPENDS.sword+=	sword>=1.7.4
 BUILDLINK_PKGSRCDIR.sword?=	../../wip/sword
 
 .include "../../textproc/icu/buildlink3.mk"
