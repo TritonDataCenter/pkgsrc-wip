@@ -3,11 +3,12 @@ GCC 4.6+ chokes on "--no-undefined" which older versions of GCC let fall
 to the linker.  Prefix with "-Wl," to fix build.
 --- plugins/passepartout/Makefile.am.orig	2011-11-15 21:25:46.000000000 +0000
 +++ plugins/passepartout/Makefile.am
-@@ -16,6 +16,7 @@ passepartout_la_LIBADD = \
- 	$(PASSEPARTOUT_LIBS)
- 
+@@ -18,7 +18,7 @@ passepartout_la_LIBADD = \
  passepartout_la_LDFLAGS = \
-+	-Wl, \
  	-avoid-version \
  	-module \
- 	-no-undefined
+-	-no-undefined
++	-Wl,-no-undefined
+ 
+ passepartout_la_SOURCES = 
+ nodist_EXTRA_passepartout_la_SOURCES = dummy.cpp

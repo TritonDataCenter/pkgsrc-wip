@@ -3,11 +3,18 @@ GCC 4.6+ chokes on "--no-undefined" which older versions of GCC let fall
 to the linker.  Prefix with "-Wl," to fix build.
 --- plugins/command/Makefile.am.orig	2011-11-15 21:25:46.000000000 +0000
 +++ plugins/command/Makefile.am
-@@ -11,6 +11,7 @@ command_la_LIBADD = \
+@@ -8,12 +8,13 @@ plugin_LTLIBRARIES = command.la
+ 
+ command_la_LIBADD = \
+ 	xp/libxp.la \
++	-lstdc++ \
  	$(COMMAND_LIBS)
  
  command_la_LDFLAGS = \
-+	-Wl, \
  	-avoid-version \
  	-module \
- 	-no-undefined
+-	-no-undefined
++	-Wl,-no-undefined
+ 
+ command_la_SOURCES = 
+ 
