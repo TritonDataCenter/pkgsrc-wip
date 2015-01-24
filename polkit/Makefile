@@ -21,12 +21,6 @@ PKGCONFIG_OVERRIDE+=	data/polkit-agent-1.pc.in
 CONFIGURE_ARGS+=	--sysconfdir=${PKG_SYSCONFDIR}
 CONFIGURE_ARGS+=	--with-polkitd-user=${POLKITD_USER}
 
-.include "../../mk/bsd.prefs.mk"
-
-.if ${OPSYS} == "NetBSD"
-CONFIGURE_ARGS+=	--with-os-type=freebsd
-.endif
-
 POLKITD_USER?=		polkitd
 POLKITD_GROUP?=		polkitd
 PKG_GROUPS+=		${POLKITD_GROUP}
