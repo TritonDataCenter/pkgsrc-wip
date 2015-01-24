@@ -21,6 +21,7 @@ PATCHDIR=	${.CURDIR}/../../wip/munin-common/patches
 
 .include "../../mk/bsd.prefs.mk"
 
+USE_LANGUAGES=		# none
 USE_TOOLS+=		gmake bash:run perl:run
 
 BUILD_DEFS+=		VARBASE
