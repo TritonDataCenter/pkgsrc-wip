@@ -26,6 +26,9 @@ PLIST.pam=	yes
 .  if ${OPSYS} == "NetBSD"
 CONFIGURE_ARGS+=	--with-pam-include=system
 .  endif
+MAKE_DIRS+=	/etc/pam.d
+CONF_FILES+=	${PREFIX}/share/examples/pam.d/polkit-1 \
+		/etc/pam.d/polkit-1
 .else
 CONFIGURE_ARGS+=	--with-authfw=shadow
 CONFIGURE_ARGS+=	--disable-pam-module

@@ -47,10 +47,6 @@ CONF_FILES+=	${PREFIX}/share/examples/polkit/dbus-1/system.d/org.freedesktop.Pol
 CONF_FILES+=	${PREFIX}/share/examples/polkit/polkit-1/rules.d/50-default.rules \
 		${PKG_SYSCONFDIR}/polkit-1/rules.d/50-default.rules
 
-MAKE_DIRS+=	/etc/pam.d
-CONF_FILES+=	${PREFIX}/share/examples/pam.d/polkit-1 \
-		/etc/pam.d/polkit-1
-
 .include "options.mk"
 
 SUBST_CLASSES+=		paths
