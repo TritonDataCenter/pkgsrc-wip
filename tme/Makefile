@@ -1,11 +1,13 @@
 # $NetBSD$
 
-DISTNAME=	tme-1.0beta_4
+DISTNAME=	tme-1.0beta_5
 CATEGORIES=	emulators
 MASTER_SITES=	http://www.phabrics.com/
 EXTRACT_SUFX=   .tar.xz
 
 MAINTAINER=	phabrics@phabrics.com
+
+MAKE_JOBS_SAFE=		no
 
 HOMEPAGE=	http://www.phabrics.com/
 COMMENT=	TME modified to add features like GTK3 and NPF NAT
