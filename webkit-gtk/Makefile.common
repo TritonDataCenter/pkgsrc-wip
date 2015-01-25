@@ -56,7 +56,7 @@ CXXFLAGS+=	-std=c++11 -Wno-c++11-narrowing
 .endif
 
 .if !empty(MACHINE_PLATFORM:MSunOS-*-x86_64)
-CMAKE_ARGS+=	-DUSE_SYSTEM_MALLOC=1	# XXX: not completely sure (was --disable-fast-malloc)
+CMAKE_ARGS+=	-DUSE_SYSTEM_MALLOC=ON	# XXX: not completely sure (was --disable-fast-malloc)
 .endif
 
 BUILDLINK_API_DEPENDS.glib2+= glib2>=2.32.1
