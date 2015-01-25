@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	py-neovim-0.0.25
+DISTNAME=	py-neovim-0.0.26
 PKGNAME=	${PYPKGPREFIX}-${DISTNAME:S/py-//}
 CATEGORIES=	devel editors
 MASTER_SITES=	-https://github.com/neovim/python-client/archive/${PKGVERSION_NOREV}${EXTRACT_SUFX}
