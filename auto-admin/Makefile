@@ -19,10 +19,8 @@ NO_BUILD=	yes
 
 do-install:
 	${MKDIR} ${DESTDIR}${PREFIX}/sbin
-	${INSTALL_SCRIPT} ${WRKSRC}/Scripts/Common/* \
+	${INSTALL_SCRIPT} ${WRKSRC}/Common/Scripts/* \
 		${DESTDIR}${PREFIX}/sbin
-	echo ${OPSYS}
-	ls ${WRKSRC}/Scripts/${OPSYS}
 # Why doesn't this work?
 #.if exists(${WRKSRC}/Scripts/${OPSYS})
 .if ${OPSYS} == NetBSD
@@ -30,7 +28,7 @@ do-install:
 		${DESTDIR}${PREFIX}/sbin
 .endif
 .if exists(/etc/redhat-release)
-	${INSTALL_SCRIPT} ${WRKSRC}/Scripts/Redhat/* \
+	${INSTALL_SCRIPT} ${WRKSRC}/CentOS/Scripts/* \
 		${DESTDIR}${PREFIX}/sbin
 .endif
 
