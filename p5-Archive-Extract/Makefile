@@ -3,8 +3,7 @@
 DISTNAME=	Archive-Extract-0.74
 PKGNAME=	p5-${DISTNAME}
 CATEGORIES=	archivers perl5
-MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=Archive-Extract/}
-MASTER_SITES=	http://search.cpan.org/CPAN/authors/id/B/BI/BINGOS/
+MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=Archive/}
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://search.cpan.org/~bingos/Archive-Extract/
