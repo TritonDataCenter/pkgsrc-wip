@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	calypso-1.2
+DISTNAME=	calypso-1.3
 CATEGORIES=	net
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
