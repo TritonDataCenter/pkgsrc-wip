@@ -1,0 +1,4 @@
+@comment $NetBSD$
+${PYSITELIB}/jsonpath.py
+${PYSITELIB}/jsonpath.pyc
+${PYSITELIB}/jsonpath.pyo
