@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-VERSION=	0.2.6
+VERSION=	0.2.7
 PKGNAME=	zathura-mupdf-${VERSION}
 DISTNAME=	zathura-pdf-mupdf-${VERSION}
 CATEGORIES=	print
