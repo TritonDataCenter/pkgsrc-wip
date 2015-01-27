@@ -840,8 +840,8 @@ ${PLIST.latex}share/doc/doxygen/examples/pyexample/html/bdwn.png
 ${PLIST.latex}share/doc/doxygen/examples/pyexample/html/classes.html
 ${PLIST.ci}${PLIST.latex}share/doc/doxygen/examples/pyexample/html/classpyexample_1_1_py_class-members.html
 ${PLIST.ci}${PLIST.latex}share/doc/doxygen/examples/pyexample/html/classpyexample_1_1_py_class.html
-${PLIST.cs}${PLIST.latex}share/doc/doxygen/examples/docstring/html/classdocstring_1_1PyClass-members.html
-${PLIST.cs}${PLIST.latex}share/doc/doxygen/examples/docstring/html/classdocstring_1_1PyClass.html
+${PLIST.cs}${PLIST.latex}share/doc/doxygen/examples/pyexample/html/classpyexample_1_1PyClass-members.html
+${PLIST.cs}${PLIST.latex}share/doc/doxygen/examples/pyexample/html/classpyexample_1_1PyClass.html
 ${PLIST.latex}share/doc/doxygen/examples/pyexample/html/closed.png
 ${PLIST.latex}share/doc/doxygen/examples/pyexample/html/doc.png
 ${PLIST.latex}share/doc/doxygen/examples/pyexample/html/doxygen.css
