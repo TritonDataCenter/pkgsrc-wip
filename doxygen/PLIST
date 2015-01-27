@@ -634,7 +634,6 @@ ${PLIST.latex}share/doc/doxygen/examples/manual/html/functions_func.html
 ${PLIST.latex}share/doc/doxygen/examples/manual/html/functions_vars.html
 ${PLIST.latex}share/doc/doxygen/examples/manual/html/globals.html
 ${PLIST.latex}share/doc/doxygen/examples/manual/html/globals_func.html
-${PLIST.latex}share/doc/doxygen/examples/manual/html/globals_vars.html
 ${PLIST.latex}share/doc/doxygen/examples/manual/html/hierarchy.html
 ${PLIST.latex}share/doc/doxygen/examples/manual/html/index.html
 ${PLIST.latex}share/doc/doxygen/examples/manual/html/jquery.js
