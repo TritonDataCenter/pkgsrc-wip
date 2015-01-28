@@ -1093,7 +1093,6 @@ SUBDIR+=	hs-hashmap
 SUBDIR+=	hs-haskeline
 SUBDIR+=	hs-haskell-lexer
 SUBDIR+=	hs-haskell-src
-SUBDIR+=	hs-haskell-src-exts
 SUBDIR+=	hs-haskelldb
 SUBDIR+=	hs-haskelldb-hdbc
 SUBDIR+=	hs-haskelldb-hdbc-sqlite3
