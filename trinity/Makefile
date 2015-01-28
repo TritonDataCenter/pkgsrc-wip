@@ -36,7 +36,7 @@ MAKE_JOBS_SAFE=	no
 
 # Just assuming C and C++: Adjust this!
 USE_LANGUAGES=	c c++
-USE_TOOLS+=	gmake pax
+USE_TOOLS+=	gmake pax perl
 REPLACE_SH=	trinity-plugins/collectl/make_data_files.sh \
 		trinity-plugins/collectl/plot.sh \
 		trinity-plugins/collectl/timetable.sh \
