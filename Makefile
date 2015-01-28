@@ -2682,7 +2682,6 @@ SUBDIR+=	py-gammafit
 SUBDIR+=	py-gaphas
 SUBDIR+=	py-gcalendarsync
 SUBDIR+=	py-gccxml
-SUBDIR+=	py-generateDS
 SUBDIR+=	py-genesis
 SUBDIR+=	py-geographiclib
 SUBDIR+=	py-geopy
