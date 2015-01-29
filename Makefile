@@ -755,7 +755,6 @@ SUBDIR+=	gcc48snapshot
 SUBDIR+=	gcc49snapshot
 SUBDIR+=	gcc50snapshot
 SUBDIR+=	gconf-cleaner
-SUBDIR+=	gdal
 SUBDIR+=	gdal-docs
 SUBDIR+=	gdal-grass
 SUBDIR+=	gdb
