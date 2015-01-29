@@ -6,6 +6,7 @@ lib/ocaml/site-lib/pa_ounit/pa_ounit.ml
 lib/ocaml/site-lib/pa_ounit/pa_ounit_lib.a
 lib/ocaml/site-lib/pa_ounit/pa_ounit_lib.cma
 lib/ocaml/site-lib/pa_ounit/pa_ounit_lib.cmi
+lib/ocaml/site-lib/pa_ounit/pa_ounit_lib.cmx
 lib/ocaml/site-lib/pa_ounit/pa_ounit_lib.cmxa
 lib/ocaml/site-lib/pa_ounit/pa_ounit_lib.cmxs
 lib/ocaml/site-lib/pa_ounit/pa_ounit_syntax.a
