@@ -16,7 +16,7 @@ HG_REPO.mozilla=	https://hg.mozilla.org/mozilla-central
 
 WRKSRC=		${WRKDIR}/mozilla
 
-MAINTAINER=	ryoon@NetBSD.org
+MAINTAINER=	wiz@NetBSD.org
 HOMEPAGE=	http://www.mozilla.com/en-US/firefox/
 COMMENT=	Web browser with support for extensions (hg version)
 LICENSE=	mpl-1.1
