@@ -4,6 +4,11 @@ Handle NetBSD/powerpc the same as FreeBSD and OpenBSD.
 
 Sent to libffi upstream as:
 https://github.com/atgreen/libffi/pull/176
+Included in:
+https://github.com/atgreen/libffi/commit/06747d318761884e70dfa433a9548219fd779d7d
+
+Then reported as:
+https://bugzilla.mozilla.org/show_bug.cgi?id=1127542
 
 --- js/src/ctypes/libffi/configure.orig	2014-09-28 08:30:06.000000000 +0000
 +++ js/src/ctypes/libffi/configure
