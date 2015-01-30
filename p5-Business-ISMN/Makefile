@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	Business-ISMN-1.11
+DISTNAME=	Business-ISMN-1.13
 PKGNAME=	p5-${DISTNAME}
 CATEGORIES=	misc
 MASTER_SITES=	http://search.cpan.org/CPAN/authors/id/B/BD/BDFOY/
