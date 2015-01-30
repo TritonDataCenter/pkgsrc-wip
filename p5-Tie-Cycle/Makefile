@@ -1,7 +1,7 @@
 # $NetBSD$
 #
 
-DISTNAME=	Tie-Cycle-1.20
+DISTNAME=	Tie-Cycle-1.21
 PKGNAME=	p5-${DISTNAME}
 CATEGORIES=	devel
 MASTER_SITES=	http://search.cpan.org/CPAN/authors/id/B/BD/BDFOY/
