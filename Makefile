@@ -2195,7 +2195,6 @@ SUBDIR+=	p5-Text-Quote
 SUBDIR+=	p5-Text-Trim
 SUBDIR+=	p5-Text-VimColor
 SUBDIR+=	p5-TheSchwartz
-SUBDIR+=	p5-Tie-Cycle
 SUBDIR+=	p5-Tie-DB_Lock
 SUBDIR+=	p5-Time-Piece-Range
 SUBDIR+=	p5-Tk-TableMatrix
