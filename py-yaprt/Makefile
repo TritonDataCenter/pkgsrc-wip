@@ -1,0 +1,18 @@
+# $NetBSD$
+
+DISTNAME=	yaprt-0.0.7
+PKGNAME=        ${PYPKGPREFIX}-${DISTNAME}
+CATEGORIES=	sysutils python
+MASTER_SITES=	https://pypi.python.org/packages/source/y/yaprt/
+
+MAINTAINER=	derouiche@yahoo.com
+HOMEPAGE=	https://github.com/cloudnull/yaprt.git
+COMMENT=	Repository builder for python source code
+LICENSE=	apache-2.0
+
+USE_LANGUAGES=	# none
+
+DEPENDS+=	${PYPKGPREFIX}-requests>=2.5.0:../../devel/py-requests
+.include "../../lang/python/egg.mk"
+DEPENDS+=	${PYPKGPREFIX}-cloudlib>=0.3.0:../../wip/py-cloudlib
+.include "../../mk/bsd.pkg.mk"
