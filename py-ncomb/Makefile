@@ -7,7 +7,7 @@ CATEGORIES=	math python
 MASTER_SITES=	http://pypi.python.org/packages/source/p/pyncomb/
 
 MAINTAINER=	jihbed.research@gmail.com
-HOMEPAGE=	http://www.site.uottawa.ca/~mraap046
+HOMEPAGE=	https://pypi.python.org/pypi/pyncomb/
 COMMENT=	Python combinatorics library
 LICENSE=	apache-2.0
 
