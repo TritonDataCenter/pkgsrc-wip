@@ -32,6 +32,6 @@ include/cddmp_f.h
 include/cddtypes.h
 include/cddtypes_f.h
 include/setoper.h
-lib/libcdd.a
-lib/libcddgmp.a
+lib/libcdd.la
+lib/libcddgmp.la
 share/doc/cddlib/cddlibman.pdf
