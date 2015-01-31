@@ -2743,6 +2743,7 @@ lib/firefox-${VERSION}/modules/Task.jsm
 lib/firefox-${VERSION}/modules/TelemetryFile.jsm
 lib/firefox-${VERSION}/modules/TelemetryLog.jsm
 lib/firefox-${VERSION}/modules/TelemetryPing.jsm
+lib/firefox-${VERSION}/modules/TelemetrySession.jsm
 lib/firefox-${VERSION}/modules/TelemetryStopwatch.jsm
 lib/firefox-${VERSION}/modules/TelemetryTimestamps.jsm
 lib/firefox-${VERSION}/modules/ThirdPartyCookieProbe.jsm
