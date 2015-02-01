@@ -3572,7 +3572,6 @@ SUBDIR+=	tendra.org-sid
 SUBDIR+=	teng
 SUBDIR+=	tengwar-ttf
 SUBDIR+=	tenmado
-SUBDIR+=	tenshi
 SUBDIR+=	termit
 SUBDIR+=	tetrinet
 SUBDIR+=	tex-abntex
