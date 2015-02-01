@@ -12,6 +12,8 @@ LICENSE=	${PERL5_LICENSE}
 
 INSTALL_TARGET=	pure_install
 
+DEPENDS+=	p5-Log-Message-[0-9]*:../../wip/p5-Log-Message
+DEPENDS+=	p5-Object-Accessor-[0-9]*:../../wip/p5-Object-Accessor
 DEPENDS+=	p5-Test-Reporter-[0-9]*:../../devel/p5-Test-Reporter
 DEPENDS+=	p5-YAML-[0-9]*:../../textproc/p5-YAML
 
