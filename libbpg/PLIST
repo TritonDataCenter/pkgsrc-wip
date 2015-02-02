@@ -1,3 +1,4 @@
 @comment $NetBSD$
 bin/bpgdec
 bin/bpgenc
+bin/bpgview
