@@ -333,6 +333,7 @@ SUBDIR+=	clang
 SUBDIR+=	classgen
 SUBDIR+=	classic-mac-font-pack
 SUBDIR+=	claws-mail-fancy
+SUBDIR+=	clearsans-ttf
 SUBDIR+=	clfswm
 SUBDIR+=	clhep
 SUBDIR+=	cliquer
