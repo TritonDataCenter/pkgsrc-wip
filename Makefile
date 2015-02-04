@@ -1348,7 +1348,6 @@ SUBDIR+=	kawa
 SUBDIR+=	keepassx-git
 SUBDIR+=	kgrab
 SUBDIR+=	kgraphviewer
-SUBDIR+=	khal-git
 SUBDIR+=	kile
 SUBDIR+=	kino
 SUBDIR+=	kissme
